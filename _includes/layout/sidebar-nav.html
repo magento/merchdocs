@@ -1,0 +1,4 @@
+{% assign page_path = page.path | remove: '.md' | remove: '.html' | split: '/' %}
+{% assign guide_root = '/' | append: page_path[0] %}
+
+{% include layout/sidebar-nav-root-item.html context=guide_root %}

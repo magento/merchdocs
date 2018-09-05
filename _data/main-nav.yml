@@ -1,0 +1,7 @@
+# Create your main navigation structure here
+
+- label: Section
+  url: /section/
+
+- label: Another Section
+  url: /another-section/
