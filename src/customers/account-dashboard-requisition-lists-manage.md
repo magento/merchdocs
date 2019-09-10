@@ -1,0 +1,92 @@
+---
+conditions: Default.B2B Only
+title: Managing Requisition Lists
+---
+
+The primary reason to maintain a requisition list is to make it easy to reorder products. Items from a requisition list can be easily added to the shopping cart, moved, or copied from one list to another.
+
+![]({{ site.baseurl }}{% link images/images-b2b/customer-account-my-requisition-lists.png %}){: .zoom}
+_My Requisition Lists_
+
+## To view a requisition list:
+
+1. From your account dashboard, choose **My Requisition Lists**.
+
+1. Find the requisition list that you want to open, and click **View**. Then, do any of the following:
+
+### Add Products to Cart
+
+1. Do one of the following to select the products to be added.
+
+   - Select the checkbox of each item
+   - Click **Select All**.
+
+1. Enter the **Qty** to be added to the cart.
+
+1. To change any product options, do the following:
+
+   - In the line item, click **Edit** (![]({{ site.baseurl }}{% link images/images/btn-edit.png %}){: .Inline}).
+   - Change any options that are necessary.
+   - Click **Update Requisition List**.
+
+1. Click <span class="btn">Add to Cart</span>.
+
+   ![]({{ site.baseurl }}{% link images/images-b2b/requisition-list-view.png %}){: .zoom}
+   _Requisition List Detail_
+
+### Move Items to a Different List
+
+1. Select the checkbox of each item to be moved.
+
+1. Click **Move Selected**. Then, do one of the following:
+
+   - Choose an existing requisition list.
+   - Click **Create New Requisition List**.
+
+### Copy Items to a Different List
+
+1. Select the checkbox of each item to be moved.
+
+1. Click **Copy Selected**. Then, do one of the following:
+
+   - Choose an existing requisition list.
+   - Click **Create New Requisition List**.
+
+### Remove Items
+
+1. Select the checkbox of each item to be removed.
+
+1. Click **Remove Selected**.
+
+1. When prompted to confirm, click <span class="btn">Delete</span>.
+
+### Rename the List
+
+1. After the list title, click **Rename**.
+
+1. Enter a different **Requisition List Name**.
+
+1. Click <span class="btn">Save</span>.
+
+   ![]({{ site.baseurl }}{% link images/images-b2b/customer-company-requisition-list-rename.png %}){: .zoom}
+   _Rename Requisition List_
+
+### Print the List
+
+1. In the upper-right corner of the list, click **Print**.
+
+1. Verify the output device, and click <span class="btn">Print</span>.
+
+   ![]({{ site.baseurl }}{% link images/images-b2b/requisition-list-print.png %}){: .zoom}
+   _Print Requisition List_
+
+## Actions
+
+|Action|Description|
+|--- |--- |
+|Rename|Gives you the ability to rename the requisition list, and update the description.|
+|Print|Prints the current requisition list.|
+|Select|Manages the item selections that are to be the subject of an action. <br/>**Select All** - Selects all items in the requisition list. <br/>**Remove Selected** - Removes all selected items from the requisition list. <br/>**Copy Selected** - Copies all selected items to another requisition list.|
+|Add to Cart|Adds selected items to the shopping cart.|
+|Update List|Recalculates the subtotal to reflect a change in quantity.|
+|Delete Requisition List|Deletes the requisition list from the company user’s account.|

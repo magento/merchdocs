@@ -1,0 +1,38 @@
+{% include layout/header.html %}
+
+<div class="content-container">
+	<section>
+		<div class="content-wrap text-center">
+
+      {% include layout/page-header.html %}
+      {{ content }}
+      
+		</div>
+	</section>
+<!-- /main content -->
+</div> <!-- container -->
+
+<style>
+.nav-main-wrap {
+  display: none;
+}
+.search-btn {
+  display: none;
+}
+.site-header .menu-btn {
+  display: none;
+}
+.global-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background: transparent;
+}
+.main-container {
+  flex: none;
+}
+</style>
+
+{% include layout/footer.html %}

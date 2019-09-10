@@ -1,0 +1,205 @@
+---
+title: Sales Emails
+---
+
+Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > Sales Emails
+
+## General Settings
+
+![]({{ site.baseurl }}{% link images/images/config-sales-sales-emails-general-settings.png %}){: .zoom}
+[_General Settings_]({{ site.baseurl }}{% link system/email-communications.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Asynchronous sending|Global|Determines if sales emails are sent asynchronously. It is recommended that you enable Asynchronous sending. Options: <br/>**Disable** - (Default) Sales emails are sent when triggered by an event. <br/>**Enable** - (Recommended) Sales emails are sent at predetermined, regular intervals.|
+
+## Order
+
+![]({{ site.baseurl }}{% link images/images/config-sales-sales-emails-order.png %}){: .zoom}
+[_Order_]({{ site.baseurl }}{% link sales/orders.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled|Store View|When enabled, sends a transactional email for each order placed. Options include: Yes / No|
+|New Order Confirmation Email Sender|Store View|Identifies the store contact that appears as the message sender. Default sender: Sales Representative|
+|New Order Confirmation Template|Store View|Identifies the template that is sent to confirm new orders placed by customers. Default template: New Order|
+|New Order Confirmation Template for Guest|Store View|Identifies the template that is sent to confirm new orders placed by guests. Default template: New Order for Guest|
+|Send Order Email Copy To|Store View|Provides the email address of anyone to receive a copy of an order email. Separate multiple addresses with a comma.|
+|Send Order Email Copy Method|Store View|Indicates the email method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
+
+## Order Comments
+
+![]({{ site.baseurl }}{% link images/images/config-sales-sales-emails-order-comments.png %}){: .zoom}
+[_Order Comments_]({{ site.baseurl }}{% link sales/order-processing.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled|Store View|When enabled, sends a transactional email for each order comment. Options include: Yes / No|
+|Order Comment Email Sender|Store View|Identifies the store contact that appears as the message sender. Default sender: Sales Representative|
+|Order Comment Email Template|Store View|Identifies the template that is sent when a comment is added to a customer order. Default template: Order Update|
+|New Order Confirmation Template for Guest|Store View|Identifies the template that is sent when a comment is added to a guest order. Default template: Order Update for Guest|
+|Send Order Email Copy To|Store View|Provides the email address of anyone to receive a copy of an order comment email. Separate multiple addresses with a comma.|
+|Send Order Email Copy Method|Store View|Indicates the method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
+
+## Invoice
+
+![]({{ site.baseurl }}{% link images/images/config-sales-sales-emails-invoice.png %}){: .zoom}
+[_Invoice_]({{ site.baseurl }}{% link sales/invoices.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled|Store View|When enabled, sends a transactional email for each invoice generated. Options include: Yes / No|
+|Invoice Email Sender|Store View|Identifies the store contact that appears as the message sender. Default sender: Sales Representative|
+|Invoice Email Template|Store View|Identifies the template that is sent when an invoice is generated for a customer. Default template: New Invoice|
+|Invoice Email Template for Guest|Store View|Identifies the template that is sent when an invoice is generated for a guest. Default template: New Invoice for Guest|
+|Send Invoice Email Copy To|Store View|Provides the email address of anyone to receive a copy of an invoice email. Separate multiple addresses with a comma.|
+|Send Invoice Email Copy Method|Store View|Indicates the method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
+
+## Invoice Comments
+
+![]({{ site.baseurl }}{% link images/images/config-sales-sales-emails-invoice-comments.png %}){: .zoom}
+[_Invoice Comments_]({{ site.baseurl }}{% link sales/invoice-create.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled|Store View|When enabled, sends a transactional email for each invoice comment. Options include: Yes / No|
+|Invoice Comment Email Sender|Store View|Identifies the store contact that appears as the message sender. Default sender: Sales Representative|
+|Invoice Comment Email Template|Store View|Identifies the template that is sent when a comment is added to a customer invoice. Default template: Invoice Update|
+|Invoice Comment Email Template for Guest|Store View|Identifies the template that is sent when a comment is added to a guest invoice. Default template: Invoice Update for Guest|
+|Send Invoice Comment Email Copy To|Store View|Provides the email address of anyone to receive a copy of an invoice comment email. Separate multiple addresses with a comma.|
+|Send Invoice Comments Email Copy Method|Store View|Indicates the email method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
+
+## Shipment
+
+![]({{ site.baseurl }}{% link images/images/config-sales-sales-emails-shipment.png %}){: .zoom}
+[_Shipment_]({{ site.baseurl }}{% link sales/shipments.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled|Store View|When enabled, sends a transactional email for each shipment generated. Options include: Yes / No|
+|Shipment Email Sender|Store View|Identifies the store contact that appears as the sender of the message. Default sender: Sales Representative|
+|Shipment Email Template|Store View|Identifies the template that is sent when a shipment is generated for a customer. Default template: New Shipment|
+|Shipment Email Template for Guest|Store View|Identifies the template that is sent when a shipment  is generated for a guest. Default template: New Shipment for Guest|
+|Send Shipment Email Copy To|Store View|Provides the email address of anyone who should receive a copy of a shipment email. Separate multiple addresses with a comma.|
+|Send Shipment Email Copy Method|Store View|Indicates the method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
+
+## Shipment Comments
+
+![]({{ site.baseurl }}{% link images/images/config-sales-sales-emails-shipment-comments.png %}){: .zoom}
+[_Shipment Comments_]({{ site.baseurl }}{% link sales/shipments.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled|Store View|When enabled, sends a transactional email for each shipment comment. Options include: Yes / No|
+|Shipment Comment Email Sender|Store View|Identifies the store contact that appears as the message sender. Default sender: Sales Representative|
+|Shipment Comment Email Template|Store View|Identifies the template that is sent when a comment is added to a customer shipment. Default template: Shipment Update|
+|Shipment Comment Email Template for Guest|Store View|Identifies the template that is sent when a comment is added to a guest shipment. Default template: Shipment Update for Guest|
+|Send Shipment Comment Email Copy To|Store View|Provides the email address of anyone to receive a copy of a shipment comment email. Separate multiple addresses with a comma.|
+|Send Shipment Comments Email Copy Method|Store View|Indicates the email method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
+
+## Credit Memo
+
+![]({{ site.baseurl }}{% link images/images/config-sales-sales-emails-credit-memo.png %}){: .zoom}
+[_Credit Memo_]({{ site.baseurl }}{% link sales/credit-memos.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled|Store View|Activates the transactional email for each credit memo generated. Options include: Yes / No|
+|Credit Memo Email Sender|Store View|Identifies the store contact that appears as the sender of the message. Default sender: Sales Representative|
+|Credit Memo Email Template|Store View|Identifies the template that is sent when a credit memo is generated for a customer. Default template: New Credit Memo|
+|Credit Memo Email Template for Guest|Store View|Identifies the template that is sent when a credit memo is generated for a guest. Default template: New Credit Memo for Guest|
+|Send Credit Memo Email Copy To|Store View|Provides the email address of anyone who should receive a copy of a credit memo email. Separate multiple addresses with a comma.|
+|Send Credit Memo Email Copy Method|Store View|Indicates the method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
+
+## Credit Memo Comments
+
+![]({{ site.baseurl }}{% link images/images/config-sales-sales-emails-credit-memo-comments.png %}){: .zoom}
+[_Credit Memo Comments_]({{ site.baseurl }}{% link sales/credit-memo-create.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled|Store View|When enabled, sends a transactional email for each credit memo comment. Options include: Yes / No|
+|Credit Memo Comment Email Sender|Store View|Identifies the store contact that appears as the message sender. Default sender: Sales Representative|
+|Credit Memo Comment Email Template|Store View|Identifies the template that is sent when a comment is added to a customer credit memo. Default template: Credit Memo Update|
+|Credit Memo Comment Email Template for Guest|Store View|Identifies the template that is sent when a comment is added to a guest credit memo. Default template: Credit Memo Update for Guest|
+|Send Credit Memo Comment Email Copy To|Store View|Specifies the email address of anyone to receive a copy of a credit memo comment email. Separate multiple addresses with a comma.|
+|Send Credit Memo Comments Email Copy Method|Store View|Indicates the email method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
+
+<!--{% if "Default.B2B Only" contains site.edition %}-->
+## Quotes
+
+ ![]({{ site.baseurl }}{% link images/images-b2b/config-sales-sales-emails-quote.png %}){: .zoom}
+ [_Quotes_]({{ site.baseurl }}{% link customers/account-dashboard-quotes.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled|Store View|Enables quote email messages to be sent from the current store view. Options: Yes / No|
+|Updated Quote Template (to Buyer)|Store View|Determines the email template that is used for notification sent to the buyer when an updated quote is available.Default template: Updated Quote|
+|Declined Quote Template (to Buyer)|Store View|Determines the email template that is used for notification sent to the buyer when a quote is declined. Default template: Declined Quote|
+|New Quote Template (to Seller)|Store View|Determines the email template that is used for notification sent to the seller when a request for a new quote is received. Default template: New Quote|
+|Updated Quote Template (to Seller)|Store View|Determines the email template that is used for notification sent to the seller when an updated quote is received. Default template: Updated Quote|
+|Quote Expiration (in 48 hrs)|Store View|Specifies the email template that is used for the expiration notice that is sent 48 hours before the quote expires. Default template: Expiration Warning|
+|Quote Expiration (in 24 hrs)|Store View|Specifies the email template that is used for the expiration notice that is sent 24 hours before the quote expires. Default template: Expiration Warning 1|
+|Expiration Date Reset|Store View|Specifies the email template that is used for the notice that is sent when the expiration date changes. Default template: Expiration Date Reset|
+|Send Quote Email Copy To|Store View|Specifies the email address of each person who is to receive a copy of the quote email. Separate multiple addresses with a comma.|
+|Send Quote Email Copy Method|Store View|Indicates the email method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
+
+<!--{% endif %}-->
+<!--{% if "Default.EE Only" contains site.edition %}-->
+## RMA
+
+![]({{ site.baseurl }}{% link images/images-ee/config-sales-sales-emails-rma.png %}){: .zoom}
+[_RMA_]({{ site.baseurl }}{% link sales/returns.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled|Store View|Activates [email notification]({{ site.baseurl }}{% link marketing/email-templates.md %}) for each RMA generated. Options: Yes / No|
+|RMA Email Sender|Store View|Identifies the [store contact]({{ site.baseurl }}{% link stores/store-email-addresses.md %}) that appears as the sender of the message. Default value: Sales Representative|
+|RMA Email Template|Store View|Determines the [email template]({{ site.baseurl }}{% link marketing/email-templates.md %}) that is used for the notification sent when an RMA is generated for a customer. Default template: New RMA|
+|RMA Email Template for Guest|Store View|Determines the template that is sent when an RMA is generated for a guest. Default template: New RMA for Guest|
+|Send RMA Email Copy To|Store View|Provides the email address of anyone who should receive a copy of an RMA email. Separate multiple addresses with a comma.|
+|Send RMA  Email Copy Method|Store View|Indicates the email method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
+
+## RMA Authorization
+
+![]({{ site.baseurl }}{% link images/images-ee/config-sales-sales-emails-rma-authorization.png %}){: .zoom}
+[_RMA Authorization_]({{ site.baseurl }}{% link sales/rma-configure.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled|Store View|When enabled, sends an email notification for each RMA authorization. Options: Yes / No|
+|RMA Authorization Email Sender|Store View|Identifies the [store contact]({{ site.baseurl }}{% link stores/store-email-addresses.md %}) that appears as the message sender. Default value: Sales Representative|
+|RMA Authorization Email Template|Store View|Determines the [email template]({{ site.baseurl }}{% link marketing/email-templates.md %}) that is used when an RMA authorization notification is sent. Default template: RMA Authorization|
+|RMA Authorization Email Template for Guest|Store View|Determines the template that is used when an RMA authorization notification is sent to a guest. Default template: RMA Authorization for Guest|
+|Send RMA Authorization Email Copy To|Store View|Provides the email address of anyone to receive a copy of an RMA authorization email. Separate multiple addresses with a comma.|
+|Send RMA Authorization Email Copy Method|Store View|Indicates the email method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
+
+## RMA Admin Comments
+
+![]({{ site.baseurl }}{% link images/images-ee/config-sales-sales-emails-rma-admin-comments.png %}){: .zoom}
+_RMA Admin Comments_
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled|Store View|When enabled, sends an email notification for each RMA Admin comment.  Options: Yes / No|
+|RMA Comment Email Sender|Store View|Identifies the [store contact]({{ site.baseurl }}{% link stores/store-email-addresses.md %}) that appears as the message sender. Default value: Sales Representative|
+|RMA Comment Email Template|Store View|Determines the [email template]({{ site.baseurl }}{% link marketing/email-templates.md %}) that is used when an Admin adds a comment to an RMA for a customer. Default template: RMA Admin Comments|
+|RMA Comment Email Template for Guest|Store View|Determines the template that is used when an Admin adds a comment to an RMA for a guest. Default template: RMA Admin Comments for Guest|
+|Send RMA Comment Email Copy To|Store View|Provides the email address of anyone to receive a copy of the notification. Separate multiple addresses with a comma.|
+|Send RMA Comments Email Copy Method|Store View|Indicates the email method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
+
+## RMA Customer Comments
+
+![]({{ site.baseurl }}{% link images/images-ee/config-sales-sales-emails-rma-customer-comments.png %}){: .zoom}
+[_RMA Customer Comments_]({{ site.baseurl }}{% link sales/returns.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled|Store View|When enabled, sends an [email notification]({{ site.baseurl }}{% link marketing/email-templates.md %}) for each RMA customer comment.  Options: Yes / No|
+|RMA Comment Email Sender|Store View|Identifies the [store contact]({{ site.baseurl }}{% link stores/store-email-addresses.md %}) that appears as the message sender. Default value: Customer Support|
+|RMA Comment Email Recipient|Store View|Identifies the store contact that is the recipient of the customer comment email. Default value: Sales Representative.|
+|RMA Comment Email Template|Store View|Determines the [email template]({{ site.baseurl }}{% link sales/rma-configure.md %}) that is used when a customer adds a comment to an RMA. Default template: RMA Admin Comments|
+|Send RMA Comment Email Copy To|Store View|Provides the email address of anyone to receive a copy of the notification. Separate multiple addresses with a comma.|
+|Send RMA Comments Email Copy Method|Store View|Indicates the email method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
+
+<!--{% endif %}-->

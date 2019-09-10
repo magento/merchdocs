@@ -1,0 +1,85 @@
+---
+title: Stock Message Scenarios
+---
+
+
+You can use a combination of configuration settings to control stock availability messages on product pages and in listings of products on catalog pages.
+
+![]({{ site.baseurl }}{% link images/images/storefront-out-of-stock-message.png %}){: .zoom}
+*Grouped Product with “Out of Stock” Message*
+
+## Product Page Stock Messages
+
+There are several variations of messaging available for the product page, depending on the combination of Manage Stock and Stock Availability settings.
+
+### Example 1: Show Availability Message
+
+**Scenario 1:** This combination of settings causes the availability message to appear on the product page, according to the stock availability of each product.
+
+|Stock Options|Setting|Message|
+|--|--|--|
+| Display product availability in stock in the frontend: | Yes | |
+| Manage Stock | Yes | |
+| Stock Availability | In Stock | “Availability: In Stock”
+| | Out of Stock | “Availability: Out of Stock” |
+
+**Scenario 2:** When stock is not managed for a product, this combination of settings can be used to display the availability message on the product page.
+
+|Stock Options|Setting|Message|
+|--|--|--|
+| Display product availability in stock in the frontend: | Yes |  |
+| Manage Stock | No | “Availability: In Stock” |
+
+### Example 2: Hide Availability Message
+
+**Scenario 1:** This combination of configuration and product settings prevents the availability message from appearing on the product page.
+
+|Stock Options|Setting|Message|
+|--|--|--|
+| Display product availability in stock in the frontend: | No |  |
+| Manage Stock | Yes |  |
+| Stock Availability | In Stock | None |
+|  | Out of Stock | None |
+
+
+**Scenario 2:** When stock is not managed for a product, this combination of configuration and product settings prevents the availability message from appearing on the product page.
+
+|Stock Options|Setting|Message|
+|--|--|--|
+| Display product availability in stock in the frontend: | No |  |
+| Manage Stock | No | None |
+
+## Catalog Page Stock Messages
+
+The following display options are possible for the category and search results lists, depending on the product availability and configuration settings.
+
+![]({{ site.baseurl }}{% link images/images/storefront-out-of-stock-catalog-page.png %}){: .zoom}
+*“Out of Stock” Message on Category Page*
+
+### Example 1: Show Product with “Out of Stock Message”
+
+This combination of configuration settings includes out of stock products in the category and search results lists, and displays an “out of stock” message.
+
+|Stock Options|Setting|Message|
+|--|--|--|
+| Display Out of Stock Products | Yes |  |
+| Display product availability in stock in the frontend | Yes | “Out of stock” |
+| Display Out of Stock Products | Yes |  |
+| Display product availability in stock in the frontend | No | None |
+
+### Example 2: Show Product without “Out of Stock Message”
+
+This combination of configuration settings includes out of stock products in the category and search results lists, but does not display a message.
+
+|Stock Options|Setting|Message|
+|--|--|--|
+| Display Out of Stock Products | Yes | None |
+| Display product availability in stock in the frontend | No |  |
+
+### Example 3: Hide Product Until Back in Stock
+
+This configuration setting omits out of stock products entirely from the category and search results lists, until they are back in stock.
+
+|Stock Options|Setting|Message|
+|--|--|--|
+| Display Out of Stock Products | No | None |

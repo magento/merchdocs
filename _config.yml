@@ -1,30 +1,144 @@
-title: Documentation Starter Kit
-email: mailto:ybannykh@adobe.com
-description: Start your new documentation project by forking this repository
-logo: Doc Starter
-baseurl:
-url:
-githuburl: https://github.com/magento-devdocs/doc-starter/
+title: Magento User Guide
+
+description: Merchant documentation and tutorials to help you manage a Magento store 
+logo: User Guide
+baseurl: ""
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 theme: devdocs
-permalink: pretty
+source: src
+plugins_dir: ./_plugins
 exclude: ['bin', 'node_modules', 'vendor', '.git', '.idea','Gemfile*','README.md','*.json','CODEOWNERS','package.json','vagrant.sh','s3_website.yml']
+
+version: "2.3"
+editions: 
+  - 
+    name: Open Source
+    url: https://docs.magento.com/m2/ce/user_guide/getting-started.html
+  - 
+    name: Commerce
+    url: https://docs.magento.com/m2/ee/user_guide/getting-started.html
+  - 
+    name: B2B
+    url: https://docs.magento.com/m2/b2b/user_guide/getting-started.html
 
 algolia:
   application_id: 'E642SEDTHL'
-  index_name: 'your_index'
-  api_key: 'public_api_key'
+  index_name: 'merchdocs_ce'
+  api_key: 'd2d0f33ab73e291ef8d88d8b565e754c'
+  max_record_size: 20000
   files_to_exclude:
     - search.md
+
+google:
+  gtm: GTM-KRCLXBB
 
 defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: "default"
+      layout: default
+      lang: en
+      github_link: true
+      feedback_link: true
+      github_repo: https://github.com/magento/merchdocs/
+      github_files: https://github.com/magento/merchdocs/blob/master/src/
+
+  -
+    scope:
+      path: catalog
+    values:
+      group: catalog
+  -
+    scope:
+      path: cms
+    values:
+      group: content
+  -
+    scope:
+      path: customers
+    values:
+      group: customers
+  -
+    scope:
+      path: design
+    values:
+      group: content    
+  -
+    scope:
+      path: getting-started
+    values:
+      group: getting-started
+  -
+    scope:
+      path: quick-tour
+    values:
+      group: getting-started
+  -
+    scope:
+      path: marketing
+    values:
+      group: marketing
+  -
+    scope:
+      path: operations
+    values:
+      group: operations
+  -
+    scope:
+      path: sales-channels
+    values:
+      group: marketing
+  -
+    scope:
+      path: stores
+    values:
+      group: operations
+  -
+    scope:
+      path: system
+    values:
+      group: operations    
+  -
+    scope:
+      path: tax
+    values:
+      group: operations    
+  - 
+    scope:
+      path: reports
+    values:
+      group: operations
+  -
+    scope:
+      path: sales
+    values:
+      group: sales
+  -
+    scope:
+      path: shipping
+    values:
+      group: sales        
+  -
+    scope:
+      path: payment
+    values:
+      group: sales
+  -
+    scope:
+      path: configuration
+    values:
+      group: getting-started
+  -
+    scope:
+      path: magento
+    values:
+      group: getting-started
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
+
+check_links: true

@@ -1,5 +1,0 @@
-<ul class="nav-main" role="menubar">
-    {% for item in site.data.main-nav %}
-      <li class="menuitem{% if page.url contains item.url %} current{% endif %}"><a href="{{ item.url }}">{{ item.label }}</a></li>
-    {% endfor %}
-</ul>

@@ -1,0 +1,7 @@
+edition: B2B
+edition_name: B2B
+destination: _site/m2/b2b/user_guide
+baseurl: /m2/b2b/user_guide
+title: Magento Commerce for B2B 2.3 User Guide
+algolia:
+  index_name: merchdocs_b2b

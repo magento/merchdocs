@@ -1,0 +1,39 @@
+---
+title: Order Management
+sections:
+ - title: Orders
+   content: The Orders workspace lists all current orders, and includes tools to edit and process existing orders, and create new orders for the customer.
+   url: /sales/orders.html
+
+ - title: Invoices
+   content: An invoice is based on a temporary sales order, and is a permanent record of the order. The Invoices grid lists invoices in various stages of the order process.
+   url: /sales/invoices.html
+
+ - title: Shipments
+   content: The Shipments grid lists the shipment record of each invoice that is ready to be shipped. A shipment record can be generated at the same time that an order is invoiced.
+   url: /sales/shipments.html
+
+ - title: Credit Memos
+   content: A credit memo is a document that shows the amount that is owed to the customer. The amount can be applied toward a purchase, or refunded to the customer.
+   url: /sales/credit-memos.html
+
+ - title: Transactions
+   content: The Transactions grid lists all payment activity that has taken place between your store and a payment system, and provides access to more detailed information.
+   url: /sales/transactions.html  
+
+ - title: Billing Agreements
+   content: The Billing Agreements grid lists all billing agreements between your store and its customers. Each record includes general information about the billing agreement, and all sales orders that have used it as a payment method.
+   url: /sales/billing-agreements.html  
+---
+
+This section describes the stages of the order workflow and how to process orders, create invoices, and shipments. It also explains how to issue credit memos and set up billing agreements.
+
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
+Magento Commerce users have additional order management features: [Returns]({{ site.baseurl }}{% link sales/returns.md %}) and [Archive]({{ site.baseurl }}{% link sales/order-archive.md %})
+
+<!--{% endif %}-->
+<!--{% if "Default.B2B Only" contains site.edition %}-->
+Magento Commerce for B2B users can use the [Quotes]({{ site.baseurl }}{% link sales/quotes.md %}) feature to allow authorized buyers to initiate the price negotiation process by submitting a request from the shopping cart. The Quotes grid lists each quote received, and maintains a history of the communication between buyer and seller.
+
+<!--{% endif %}-->
+{% include grid.html sections=page.sections %}

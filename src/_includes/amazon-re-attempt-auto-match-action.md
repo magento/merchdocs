@@ -1,0 +1,2 @@
+
+- **Re-attempt to auto match to Amazon listings**: Choose to initiate the automatic process for matching your Amazon listings data to your Magento catalog. If products are not automatically matching, revisit your [Catalog Search]({{ site.baseurl }}{% link sales-channels/amazon/ob-catalog-search.md %}) options in your listing lettings. If listings don't automatically match after updating your Catalog Search options, you can match products manually in the Update Required Info action.

@@ -1,0 +1,10 @@
+---
+title: Product View Optimization
+---
+
+After using [Google Content Experiments]({{ site.baseurl }}{% link marketing/google-content-experiments.md %}) to set up a series of A/B tests, use the Product View Optimization section to paste the snippet of code from Google into the original product that is to be tested.
+
+This section appears only if Google Content Experiments is enabled in the [Google Analytics]({{ site.baseurl }}{% link marketing/google-universal-analytics.md %}) Google API configuration.
+
+![]({{ site.baseurl }}{% link images/images/product-view-optimization.png %}){: .zoom}
+*Product View Optimization*

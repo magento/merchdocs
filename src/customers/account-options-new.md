@@ -1,0 +1,34 @@
+---
+title: New Account Options
+---
+
+In the Create New Account Options section of the configuration, the basic account options are combined with more advanced options that relate to VAT ID Validation and custom integrations. The following instructions cover only the most frequently used options. To learn about automatic customer group assignments, see [VAT Validation]({{ site.baseurl }}{% link tax/vat-validation.md %}).
+
+![]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-create-new-account-options.png %}){: .zoom}
+_Create New Account Options_
+
+## To set up the basic customer account options:
+
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+
+1. In the panel on the left under **Customers**, choose **Customer Configuration**.
+
+1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Create New Account Options** section. Then, do the following:
+
+    - Set **Default Group** to the customer group that is assigned to new customers when an account is created.
+
+    - If you have a Value Added Tax number and want it to be visible to customers, set **Show VAT Number on Storefront** to `Yes`.
+
+    - Enter the **Default Email Domain** for the store. For example: mystore.com
+
+    - Set **Default Welcome Email** to the template that is used for the Welcome email sent to new customers.
+
+    - Set **Default Welcome Email without Password** to the template that is used when a customer account is created that does not yet have a password. For example, a customer account created from the Admin does not yet have a password assigned.
+
+    - Set **Email Sender** to the store contact that appears as the sender of the Welcome email.
+
+    - To require that customers confirm their request to open an account with your store, set **Require Emails Confirmation** to `Yes`. Then, set **Confirmation Link Email** to the template that is used for the confirmation email.
+
+    - Set **Welcome Email** to the template that is used for the Welcome message that is sent after the account is confirmed.
+
+1. When complete, click <span class="btn">Save Config</span>.
