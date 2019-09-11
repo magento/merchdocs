@@ -13,20 +13,10 @@ The integration includes tax configuration for your stores, overrides per countr
 
 ## Changes In the Latest Release
 
-### Release 2.3.1
+### Release 2.3.3
 
-New Features — **Updated configuration options**:
+- {:.new}New Feature — **Flexible fields for custom taxability drivers**
 
-- {:.new}New Use Vertex Tax Links configuration option. Required to enable and configure Vertex. This option increases integration performance.
+The updated Vertex extension includes support for custom tax drivers that you can use to include additional information needed to calculate tax in more complex tax situations. These drivers are passed in configurable Vertex Flexible Fields that support Code, numeric, and date values.
 
-- {:.new}Integration URLs automatically update to use new service links. The Vertex Calculation API URL connects to `CalculateTax70`, and Vertex Address Validation API URL links to `LookupTaxAreas70`.
-
-- {:.new}Renamed Shipping Product Codes to Vertex Shipping Product Codes. These features display products for each shipping type enabled. Map your shipping types to Vertex in this section.
-
-- {:.new}New Delivery Terms options for configuring global and overrides per country for shipping terms. These options provide support to EU VAT.
-
-- {:.new}New Vertex Logging configuration options for rotating logs. Set the frequency, actions, and exact timing for the rotation. Logs export to a CSV file.
-
-- {:.new}[**Automatic API disabling**]({{ site.baseurl }}{% link tax/vertex-test-configuration.md %}) — If you update your product prices in the Magento catalog to include tax, this can significantly degrade Magento performance. Vertex automatically disables if [Display prices in Catalog]({{ site.baseurl }}{% link configuration/sales/tax.md %}) is set to Including Tax. You must set this value to Excluding Tax to re-enable Vertex.
-
-- {:.new}**New Cache Option** — When clearing caches using [Cache Management]({{ site.baseurl }}{% link system/cache-management.md %}), Vertex has a cache option included. This option improves performance during the checkout process.
+For more information, see [Vertex Flexible Fields]({{ site.baseurl }}{% link tax/vertex-configure-magento.md %}#flex-fields).
