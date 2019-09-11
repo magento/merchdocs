@@ -1,10 +1,21 @@
 # Magento 2 Merchant Documentation
 
-Welcome! This site contains the latest Magento merchant documentation for ongoing Magento 2.3.x releases. For additional information, see our [Contribution Guide](https://git.corp.adobe.com/magento-docs/merchdocs/blob/master/.github/CONTRIBUTING.md) and [Wiki](https://git.corp.adobe.com/magento-docs/merchdocs/wiki).
+Welcome! This site contains the latest Magento merchant documentation for ongoing Magento 2.3.x releases. For additional information, see our [Contribution Guide](https://github.com/magento/merchdocs/blob/master/.github/CONTRIBUTING.md) and [Wiki](https://github.com/magento/merchdocs/wiki).
 
-## Contributors
+## Contribute
 
 Our goal is to provide the Magento Community with comprehensive and quality user documentation. We believe that to accomplish that goal we need experts from the community to share their knowledge with us and each other. We are thankful to all of our contributors for improving Magento documentation.
+
+Depending on your level of comfort, you may [clone this repo](#install-merchdocs), make your changes, and [build it locally](#to-build-locally), or [make changes directly in the GitHub user interface (UI)](#edit-docs-in-github).
+
+## Edit docs in GitHub
+
+To edit a MerchDocs page directly in the GitHub UI:
+
+1. Click **Edit this page on GitHub** at the top of a MerchDocs topic to be directed to the page in the repo.
+1. Click **Edit** (pencil icon) and then make your changes.
+1. Add a commit message in the Commit changes section at the bottom and create a new branch for the commit (name the branch as well).
+1. Click **Commit changes** to submit a PR with your revisions.
 
 # Building this site
 
