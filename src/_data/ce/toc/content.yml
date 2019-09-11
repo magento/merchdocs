@@ -1,0 +1,129 @@
+---
+label: Content
+pages:
+- label: Content Menu
+  url: "/cms/content-menu.html"
+- label: Content Elements
+  url: "/cms/content-elements.html"
+  children:
+  - label: Pages
+    url: "/cms/pages.html"
+    children:
+    - label: Core Content
+      url: "/cms/pages-core.html"
+      children:
+      - label: Default Pages
+        url: "/cms/pages-default.html"
+    - label: Workspace Controls
+      url: "/cms/pages-workspace.html"
+      children:
+      - label: Page Search
+        url: "/cms/pages-search.html"
+      - label: Page Actions
+        url: "/cms/page-actions.html"
+      - label: Grid Layout
+        url: "/cms/pages-grid-columns.html"
+    - label: Adding a New Page
+      url: "/cms/page-add.html"
+      children:
+      - label: Duplicating a Page
+        url: "/cms/page-duplicate.html"
+      - label: Switching Home Pages
+        url: "/cms/page-home-new.html"
+    - label: Media Storage
+      url: "/cms/media-storage.html"
+    - label: Using the Editor
+      url: "/cms/editor.html"
+      children:
+      - label: Inserting a Link
+        url: "/cms/editor-insert-link.html"
+      - label: Inserting an Image
+        url: "/cms/editor-insert-image.html"
+      - label: Inserting a Widget
+        url: "/cms/editor-widget.html"
+      - label: Inserting a Variable
+        url: "/cms/editor-insert-variable.html"
+      - label: Configuring the Editor
+        url: "/cms/editor-configure.html"
+  - label: Content Blocks
+    url: "/cms/blocks.html"
+    children:
+    - label: Adding New Blocks
+      url: "/cms/block-add.html"
+      children:
+      - label: Adding Social Plugins
+        url: "/marketing/social-plugins.html"
+      - label: Adding a Lightbox or Slider
+        url: "/cms/lightboxes-and-sliders.html"
+    - label: Positioning Blocks
+      url: "/cms/block-position.html"
+      children:
+      - label: Using a Widget
+        url: "/cms/widget-static-block.html"
+      - label: Using a Layout Update
+        url: "/design/layout-update-place-block.html"
+  - label: Widgets
+    url: "/cms/widgets.html"
+    children:
+    - label: Widget Types
+      url: "/cms/widget-types.html"
+    - label: Creating a Widget
+      url: "/cms/widget-create.html"
+      children:
+      - label: New Products List
+        url: "/cms/widget-new-products-list.html"
+      - label: Orders and Returns
+        url: "/cms/widget-orders-returns.html"
+- label: Design & Theme
+  url: "/design/design-theme.html"
+  children:
+  - label: Design Menu
+    url: "/design/design-menu.html"
+    children:
+    - label: Design Configuration
+      url: "/design/configuration.html"
+  - label: Page Setup
+    url: "/design/page-setup.html"
+    children:
+    - label: HTML Head
+      url: "/design/html-head.html"
+    - label: Header
+      url: "/design/header.html"
+    - label: Footer
+      url: "/design/footer.html"
+  - label: Page Layout
+    url: "/design/page-layout.html"
+    children:
+    - label: Standard Page Layouts
+      url: "/design/page-layout-standard.html"
+    - label: Storefront Examples
+      url: "/design/page-layout-examples.html"
+    - label: Layout Updates
+      url: "/design/layout-updates.html"
+      children:
+      - label: Standard Block Layout
+        url: "/design/block-layout-standard.html"
+      - label: Layout Update Examples
+        url: "/design/layout-update-examples.html"
+      - label: Layout Update Syntax
+        url: "/design/layout-update-syntax.html"
+      - label: Controlling Block Order
+        url: "/design/layout-update-block-order.html"
+      - label: XML Load Sequence
+        url: "/design/xml-load-sequence.html"
+  - label: Themes
+    url: "/design/themes.html"
+    children:
+    - label: Using the Default Theme
+      url: "/design/theme-default.html"
+    - label: Installing a New Theme
+      url: "/design/theme-install.html"
+    - label: Theme Assets
+      url: "/design/theme-assets.html"
+      children:
+      - label: Merging CSS Files
+        url: "/design/merge-css.html"
+      - label: Merging Javascript Files
+        url: "/design/merge-javascript.html"
+    - label: Scheduling Design Changes
+      url: "/design/schedule.html"

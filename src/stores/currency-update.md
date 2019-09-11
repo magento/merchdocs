@@ -1,0 +1,48 @@
+---
+title: Updating Currency Rates
+---
+
+
+Currency rates can be set manually, or imported into the store. To ensure that your store has the most current rates, you can configure the currency rates to be updated automatically on schedule.
+
+Before importing currency rates, complete the [Currency Rate Setup]({{ site.baseurl }}{% link stores/currency-configuration.md %}) to specify the currencies that you accept, and to establish the import connection and schedule.
+
+![]({{ site.baseurl }}{% link images/images/stores-currency-rate-update.png %}){: .zoom}
+_Updating Currency Rates_
+
+#### To manually update a currency rate:
+
+1.  On the _Admin_ sidebar, click **Stores**.
+
+1.  Under _Currency_, choose **Currency Rates**.
+
+1.  Click the rate you want to change, and enter the new value for each currency supported.
+
+1.  When complete, click **Save Currency Rates**.
+
+#### To import currency rates:
+
+1.  On the _Admin_ sidebar, click **Stores**.
+
+1.  Under _Currency_, choose **Currency Rates**.
+
+1.  Set **Import Service** to the currency rate provider. WebserviceX is the default provider.
+
+1.  Click **Import**.
+
+    The updated rates appear in the Currency Rates list. If the rates have changed since the last update, the old rate appears below for reference.
+
+1.  When complete, click **Save Currency Rates**.
+
+1.  When prompted to update the cache, click the **Cache Management** link. Then, refresh all invalid caches.
+
+    ![]({{ site.baseurl }}{% link images/images/stores-currency-rate-update-cache-refresh.png %}){: .zoom}
+    _Refresh Invalid Caches_
+
+#### To import currency rates on schedule:
+
+1.  Make sure that [Cron]({{ site.baseurl }}{% link system/cron.md %}) is enabled for your store.
+
+1.  Complete the [Currency Rate Setup]({{ site.baseurl }}{% link stores/currency-configuration.md %}) to specify the currencies that you accept, and to establish the import connection and schedule.
+
+1.  To verify that the rates are imported on schedule, check the _Currency Rates_ list. Then, wait for the duration of the frequency setting established for the schedule, and check the rates again.

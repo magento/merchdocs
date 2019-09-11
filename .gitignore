@@ -4,7 +4,6 @@
 /.bundle/
 /.asset-cache/
 /node_modules/
-/Gemfile.lock
 /.jekyll-metadata
 /.DS_Store
 ehthumbs.db

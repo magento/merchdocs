@@ -1,0 +1,204 @@
+---
+title: System
+---
+
+Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Advanced]({{ site.baseurl }}{% link configuration/advanced.md %}) > System
+
+## Cron (Scheduled Tasks)
+
+![]({{ site.baseurl }}{% link images/images/config-advanced-system-cron.png %}){: .zoom}
+[_Cron (Scheduled Tasks)_]({{ site.baseurl }}{% link system/cron.md %})
+
+![]({{ site.baseurl }}{% link images/images/config-advanced-system-cron-group-index.png %}){: .zoom}
+[_Cron Group: Index_]({{ site.baseurl }}{% link system/cron.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Generate Schedules Every|Store View|Determines the frequency in minutes, that schedules are generated.|
+|Schedule Ahead for|Store View|Determines the number of minutes in advance that schedules are generated.|
+|Missed if Not Run Within|Store View|Determines the number of minutes before a cron job that hasn’t yet executed is marked as missed.|
+|History Cleanup Every|Store View|Determines the number of minutes that pass before the cron history is cleaned.|
+|Success History Lifetime|Store View|Determines the number of minutes that the record of successfully completed cron jobs are kept in the database.|
+|Failure History Lifetime|Store View|Determines the number of minutes that the record of failed cron jobs are kept in the database.|
+|Use Separate Process|Store View|Determines if cron jobs are executed in parallel as separate processes. Options: Yes / No|
+
+![]({{ site.baseurl }}{% link images/images/config-advanced-system-cron-group-default.png %}){: .zoom}
+[_Cron Group: Default_]({{ site.baseurl }}{% link system/cron.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Generate Schedules Every|Store View|Determines the frequency in minutes, that schedules are generated.|
+|Schedule Ahead for|Store View|Determines the number of minutes in advance that schedules are generated.|
+|Missed if Not Run Within|Store View|Determines the number of minutes before a cron job that hasn’t yet executed is marked as missed.|
+|History Cleanup Every|Store View|Determines the number of minutes that pass before the cron history is cleaned.|
+|Success History Lifetime|Store View|Determines the number of minutes that the record of successfully completed cron jobs are kept in the database.|
+|Failure History Lifetime|Store View|Determines the number of minutes that the record of failed cron jobs are kept in the database.|
+|Use Separate Process|Store View|Determines if cron jobs are executed in parallel as separate processes. Options: Yes / No|
+
+<!--{% if "Default.EE Only" contains site.edition %}-->
+## MySQL Message Queue Cleanup
+
+![]({{ site.baseurl }}{% link images/images/config-advanced-system-mysql-message-queue-cleanup.png %}){: .zoom}
+[_MySQL Message Queue Cleanup_]({{ site.baseurl }}{% link catalog/search-mysql.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Successful Messages Lifetime|Global|Determines the lifetime of successful messages in minutes. Enter zero to skip the cleanup. Default: 10080 (7 days)|
+|New Messages Lifetime|Global|Determines the lifetime of new messages in minutes. Enter zero to skip the cleanup. Default: 10080 (7 days)|
+|Failed Messages Lifetime|Global|Determines the lifetime of failed messages in minutes. Enter zero to skip the cleanup. Default: 10080 (7 days)|
+|Retry Messages in Progress After|Global|Determines how long the system waits for a message in progress before retrying. Default: 1440 (24 hours)|
+
+<!--{% endif %}-->
+## Mail Sending Settings
+
+![]({{ site.baseurl }}{% link images/images/config-advanced-system-mail-sending-settings.png %}){: .zoom}
+[_Mail Sending Settings_]({{ site.baseurl }}{% link system/email-communications.md %})
+
+{: .bs-callout .bs-callout-warning}
+**Security Notice!** We recommend that all merchants immediately set their mail sending configuration to protect against a recently identified potential remote code execution exploit. Until this issue is resolved, we highly recommend that you avoid using [Sendmail][1]{: target="_blank"} for email communications.  In the Mail Sending Settings, make sure that Set Return Path is set to "No". To learn more, see the [Magento Security Center posting][2]{: target="_blank"}.
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Disable Email Communications|Store View|Determines if email communications are activated for the store. Options: Yes / No|
+|Host|Store View|(For Windows server only) Determines the name that is used to refer to the host . Default value: localhost|
+|Port (25)|Store View|(For Windows server only) Identifies the port used for email communications. Default value: 25|
+|Set Return-Path|Global|Determines if a routing address is used for returned emails. Options: No ([Recommended Security Measure](https://magento.com/security/news/new-zend-framework-1-security-vulnerability){: target="_blank"}) / Yes / Specified|
+|Return-Path Email|Global|Specifies the routing email address for returned emails.|
+
+## Currency
+
+![]({{ site.baseurl }}{% link images/images/config-advanced-system-currency.png %}){: .zoom}
+[_Currency_]({{ site.baseurl }}{% link stores/currency.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Installed Currencies|Global|Indicates the currencies that are currently available to the Magento installation. Options include all available currencies, with installed currencies selected.|
+
+## Notifications
+
+![]({{ site.baseurl }}{% link images/images/config-advanced-system-notifications.png %}){: .zoom}
+[_Notifications_]({{ site.baseurl }}{% link stores/admin-message-inbox.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Use HTTPS to Get Feed|Global|Determines if Admin notifications are delivered over a secure channel.  Options: Yes / No|
+|Update Frequency|Global|Determines the frequency of Admin message updates. Options: 1 Hour, 2 Hours, 6 Hours, 12 Hours, 24 Hours|
+|Last Update|Store View|Indicates the date and time of the last message update.|
+
+## Scheduled Backup Settings
+
+![]({{ site.baseurl }}{% link images/images/config-advanced-system-scheduled-backup-settings.png %}){: .zoom}
+[_Scheduled Backup Settings_]({{ site.baseurl }}{% link system/backups.md %})
+
+{% include backup-deprecated.md %}
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enable Scheduled Backup|Global|Determines if the Magento installation is automatically backed up on a regular schedule. Options: Yes / No|
+|Backup Type|Global|Determines the elements of the Magento installation that are included in the backup. Options: Database, Database and Media, System, System (excluding Media)|
+|Start Time|Global|Specifies the hour, minute, and second that the scheduled backup begins.|
+|Frequency|Global|Determines how often the schedule backup takes place. Options: Daily, Weekly, Monthly|
+|Maintenance Mode|Global|Determines if store is put in Maintenance Mode during the scheduled backup. Options: Yes / No|
+
+<!--{% if "Default.EE Only" contains site.edition %}-->
+## Admin Actions Log Archiving
+
+![]({{ site.baseurl }}{% link images/images/config-advanced-system-admin-actions-log-archiving.png %}){: .zoom}
+[_Admin Actions Log Archiving_]({{ site.baseurl }}{% link system/action-log-archive.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Log Entry Lifetime, Days|Store View|Determines the number of days that admin actions are kept in the Admin Actions archive.  Default: 60|
+|Log Archiving Frequency|Store View|Determines how often the Admin Actions logs are archived. Options: Daily, Weekly, Monthly|
+
+<!--{% endif %}-->
+## Full Page Cache
+
+![]({{ site.baseurl }}{% link images/images/config-advanced-system-full-page-cache.png %}){: .zoom}
+[_Full Page Cache_]({{ site.baseurl }}{% link system/cache-full-page.md %})
+
+![]({{ site.baseurl }}{% link images/images/config-advanced-system-full-page-cache-varnish.png %}){: .zoom}
+[_Varnish Configuration_]({{ site.baseurl }}{% link system/cache-full-page.md %})
+
+Caching application
+Built-in Application - Not recommended for production environment.
+Varnish Caching - Recommended for production environment.
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Caching Application|Global|Determines the application that is used to manage the full-page cache. Options: <br/>**Built-in Application** - Not recommended for production environment. <br/>**Varnish Caching** - Recommended for production environment.|
+|TTL for public content|Global|Determines the lifetime of the public content cache in seconds. Default value: 120|
+|**Varnish Configuration**|||xs
+|Access list|Global|Specifies the IP addresses that can purge the Varnish configuration to generate a config file. Separate multiple entries with a comma. Default value: localhost|
+|Backend host|Global|Specifies the backend host that generates config files. Default value: localhost|
+|Backend port|Global|Specifies the backend port that is used to generate config files. Default value: 8080|
+|**Export Configuration**|||
+|Export VCL for Varnish 3|Global|Exports the `varnish.vcl` file for version 3.|
+|Export VCL for Varnish 4|Global|Exports the `varnish.vcl` file for version 4.|
+
+## Storage Configuration for Media
+
+![]({{ site.baseurl }}{% link images/images/config-advanced-system-storage-cofiguration-for-media-file-system.png %}){: .zoom}
+[_Storage Configuration for Media - File System_]({{ site.baseurl }}{% link cms/media-storage.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Media Storage|Global|Determines the method used to store media files. Default setting: File System|
+|Environment Update Time|Global|Determines the frequency of the media file environment updates in seconds. Default value: 3600|
+
+![]({{ site.baseurl }}{% link images/images/config-advanced-system-storage-configuration-for-media-database.png %}){: .zoom}
+[_Storage Configuration for Media - Database_]({{ site.baseurl }}{% link cms/media-storage.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Media Storage|Global|Specifies database as the method used to store media files.|
+|Select Media Database|Global|Identifies the name of the database used for media storage. Default setting: default_setup.|
+|Synchronize||Synchronizes the transfer of all media to the specified database location.|
+|Environment Update Time|Global|Determines the frequency of the media file environment updates in seconds. Default value: 3600|
+
+<!--{% if "Default.EE Only" contains site.edition %}-->
+## Bulk Actions
+
+![]({{ site.baseurl }}{% link images/images-ee/config-advanced-system-bulk-actions.png %}){: .zoom}
+[_Bulk Actions_]({{ site.baseurl }}{% link system/action-log-bulk-actions.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Days Saved in Log|Global|Determines the number of days that bulk actions are  kept in the Bulk Actions Log archive. Default: 60|
+
+## Scheduled Import/Export File History Cleaning
+
+![]({{ site.baseurl }}{% link images/images-ee/config-advanced-system-scheduled-import-export-file-history-cleaning.png %}){: .zoom}
+[_Scheduled Import/Export File History Cleaning_]({{ site.baseurl }}{% link system/data-scheduled-import-export.md %})
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Save File, Days|Global|Determines the number of days that import/export history files are saved.|
+|Enable Scheduled File  History Cleaning|Global|Enables the scheduled file cleanup of import/export files. Options: Yes / No|
+|Clean Now||Overrides the scheduled cleanup, and immediately cleans the import/export history files.|
+|Start Time|Global|Specifies the hour, minute, and second of the import/export history file cleanup.|
+|Frequency|Global|Determines how often the import/export history files are cleaned. Options: Daily, Weekly, Monthly|
+|Error Email Recipient|Global|The email address of the person who is to receive notification if a error occurs while the import/export file history is cleaned. Separate multiple addresses with a comma.|
+|Error Email Sender|Global|Identifies the store contact that appears as the sender of the notification. Default sender: General Contact|
+|Error Email Template|Global|Identifies the email template that is used for the import/export file cleaning error notification. Default template: File History Clean Failed|
+
+<!--{% endif %}-->
+## Image Upload Configuration
+
+![]({{ site.baseurl }}{% link images/images/system-image-upload-configuration.png %}){: .zoom}
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
+[_Image Upload Configuration_]({{ site.baseurl }}{% link system/action-log-bulk-actions.md %})
+<!--{% endif %}-->
+<!--{% if "Default.CE Only" contains site.edition %}-->
+_Image Upload Configuration_
+<!--{% endif %}-->
+
+|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Quality|Global|Determines the JPG quality for the resized image. Lower quality reduces the file size. We recommend 80-90% to help reduce file size with high quality.Default: 80|
+|Enable Frontend Resize|Global|Enable to allow Magento to resize  large, oversized images you may upload for the Product Details Page. Magento resizing the image files using JavaScript prior to uploading the file. When the image is resized, it keeps the exact proportions, meeting and not exceeding the largest size for Maximum Width or Maximum Height. Default: Yes|
+|Maximum Width|Global|Determines the maximum pixel width for the image. When the image is resized, it does not exceed this width. Default: 1920|
+|Maximum Height|Global|Determines the maximum pixel height for the image. When the image is resized, it does not exceed this height. Default: 1200|
+
+[1]: https://en.wikipedia.org/wiki/Sendmail
+[2]: https://magento.com/security/news/new-zend-framework-1-security-vulnerability
