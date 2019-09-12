@@ -20,7 +20,7 @@ Labels are important because they help us identify pull requests and ensure that
 Here is a brief summary of the most important labels:
 
 - `New topic`: Entirely new documents
-- `Major Update`: Significant new info: new section in existing topic, etc.
+- `Major update`: Significant new info: new section in existing topic, etc.
 - `Technical`: Changes to technical content/code/processes/naming conventions (any change to technical content)
 - `Editorial`: Typos, grammatical inconsistencies, or minor rewrites
 - `small changes`: See [Small changes workflow](#small-changes-workflow)
