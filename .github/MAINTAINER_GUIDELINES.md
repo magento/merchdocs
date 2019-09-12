@@ -8,7 +8,7 @@ In general, our documentation maintainers (Magento staff members) use the same [
   - Review and add information to issues for contribution
   - Review and approve or request changes
   - Enforce the use of the issue/pull requests template
-  - Ask contributors to link to the code base or GitHub Issues/PRs to validate documentation updates when applicable
+  - Ask contributors to link to the code base or GitHub Issues/Pull requests (PRs) to validate documentation updates when applicable
   - Monitor for content specific for Magento Open Source, Commerce, and/or B2B
   - Assign [labels](https://github.com/magento/merchdocs/labels) as appropriate
 - If a maintainer creates a pull request, it should be reviewed by another Magento Documentation staff member
