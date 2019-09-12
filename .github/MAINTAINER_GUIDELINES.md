@@ -45,7 +45,7 @@ https://github.com/magento/merchdocs/projects
 
 ## Style
 
-We prefer Markdown over HTML (in most cases). You can use [kramdown](https://kramdown.gettalong.org/syntax.html) syntax for more markup features and [Liquid](https://jekyllrb.com/docs/liquid/) for in-topic scripting. For specific markdown formats used in this repository, see [Writing styles and markdown](https://github.com/magento/merchdocs/wiki/Writing-Content#writing-styles-and-markdown).
+We prefer Markdown over HTML (in most cases). You can use [kramdown](https://kramdown.gettalong.org/syntax.html) syntax for more markup features and [Liquid](https://jekyllrb.com/docs/liquid/) for in-topic scripting. For specific Markdown formats used in this repository, see [Writing styles and markdown](https://github.com/magento/merchdocs/wiki/Writing-Content#writing-styles-and-markdown).
 
 ## Small changes workflow
 
