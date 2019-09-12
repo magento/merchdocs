@@ -31,7 +31,7 @@ New to GitHub and open source contribution? We have easy ways to write and contr
 
 You have different options for [writing content](https://github.com/magento/merchdocs/wiki/Writing-Content):
 
-- [Write in GitHub](https://github.com/magento/merchdocs/wiki/Writing-Content#write-in-github): Edit and add files through your Git Enterprise account in a web browser.
+- [Write in GitHub](https://github.com/magento/merchdocs/wiki/Writing-Content#write-in-github): Edit and add files through your GitHub account in a web browser.
 - [Write like a Developer](https://github.com/magento/merchdocs/wiki/Writing-Content#write-like-a-developer): Edit and add files in a text editor or integrated developer environment (IDE) on your local computer.
 
 After writing content, [submit your work](https://github.com/magento/merchdocs/wiki/Branches-to-PRs#submit-a-pull-request) as a Pull Request (PR).
