@@ -64,6 +64,6 @@ Periodically, we will create a pull request from `small_changes` to `master` and
 1. Apply the `small changes` label if one of the following labels should also be applied:
 
    - `Editorial`
-   - `Technical`
+   - `Technical` (without `whatsnew` note at the end of the PR description)
 
 1. That's it! An admin will run tests and merge.
