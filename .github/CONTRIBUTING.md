@@ -42,7 +42,7 @@ After writing content, [submit your work](https://github.com/magento/merchdocs/w
 
 1. Create a pull request to `magento/merchdocs` from your fork.
 
-   In general, you should use `master` as the base branch when creating a PR. If your contribution is related to a release that is in progress, use a version-specific integration branch, such as `develop`.
+   In general, you should use `master` as the base branch when creating a PR. If your contribution is related to a release that is in progress, use a version-specific integration branch.
 
 1. Complete the pull request template.
 
