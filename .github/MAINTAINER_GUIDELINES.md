@@ -49,7 +49,7 @@ We prefer Markdown over HTML (in most cases). You can use [kramdown](https://kra
 
 ## Small changes workflow
 
-Before merging a pull request to the `master` branch, it must pass automated testing. Testing takes about 30 minutes to complete for each pull request, so we created a workflow to save time for small changes.
+Before merging a pull request to the `master` branch, it must pass automated testing. Testing takes about 15 minutes to complete for each pull request, so we created a workflow to save time for small changes.
 
 - **Individual pull requests to `master`**—15 individual pull requests to `master` x 30 minutes per pull request = 7.5 hrs of testing time
 - **Multiple pull requests using `small_changes`**—1 `small_changes` pull request (containing 15 individual pull requests) to `master` x 30 minutes = 30 minutes of testing time
