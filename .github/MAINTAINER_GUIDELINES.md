@@ -31,7 +31,7 @@ See https://github.com/magento/merchdocs/labels for all labels and their descrip
 
 ## Testing
 
-Currently, we only test internal links. In the future, we plan to expand tests to include external links, markdown linting, and spell checking.
+Currently, we only test internal links. In the future, we plan to expand tests to include external links, Markdown linting, and spell checking.
 
 We use private CI/CD stack and do not provide access to it.
 
