@@ -16,4 +16,4 @@ _Shipping Experience_
 |![]({{ site.baseurl }}{% link images/images/icon-ms-shipment-dispatched.png %})|**Shipment is dispatched.**|
 |![]({{ site.baseurl }}{% link images/images/icon-ms-delivery-arrives.png %})|**Delivery arrives.**|
 
-See [Create a Shipping Experience Rule](({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %})).
+See [Create a Shipping Experience Rule]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %}).
