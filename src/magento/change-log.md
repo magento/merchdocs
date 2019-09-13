@@ -17,20 +17,31 @@ Our documentation is continually updated with new topics, clarifications, and co
 <!--{% if "Default.CE Only" contains site.edition %}-->
 - Magento Open Source, 2.3.3
 <!--{% endif %}-->
+- [Google Shopping ads Channel](https://devdocs.magento.com/extensions/google-shopping-ads/release-notes/), 3.0.1
 
 ### New Topics
 
 - [3D Secure]({{ site.baseurl }}{% link configuration/sales/3d-secure.md %})
 - [CardinalCommerce]({{ site.baseurl }}{% link configuration/sales/cardinalcommerce.md %})
+- [Supported Countries]({{ site.baseurl }}{% link shipping/magento-shipping-countries.md %})
+- [Attribute Mapping]({{ site.baseurl }}{% link shipping/magento-shipping-attributes.md %})
+- [Shipping Experience Rules]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %})
+- [Preview Experience]({{ site.baseurl }}{% link shipping/magento-shipping-preview-experience.md %})
 
 ### Updated Topics
 
-|Topic |Change |
+|Topic |Change|
 |--- |--- |
+[Magento Shipping]({{ site.baseurl }}{% link shipping/magento-shipping.md %})|Updated Magento Shipping section.
+|[Google Shopping ads Channel]({{ site.baseurl }}{% link sales-channels/google-ads/onboarding-google.md %})|Added a note clarifying the inclusion of Google Shopping ads Channel with Magento 2.3.3.|
+|[Onboarding Google Shopping ads Channel]({{ site.baseurl }}{% link sales-channels/google-ads/google-ad-channel.md %})|Added a note clarifying the inclusion of Google Shopping ads Channel with Magento 2.3.3.|
+|[Add/Updated Google API Key]({{ site.baseurl }}{% link sales-channels/google-ads/verify-api-key.md %})|Updated API Key steps.|
 |[Authorize.Net]({{ site.baseurl }}{% link payment/authorize-net.md %})|Added Step #4 with setup instructions for 3D Secure with CardinalCommerce.|
 |[Klarna]({{ site.baseurl }}{% link payment/klarna.md %})|Updated _Changes In the Latest Release_ and _Klarna Solutions_. Added new _Klarna Payment Methods_ section.|
 |[Setting Up Klarna]({{ site.baseurl }}{% link payment/klarna-setup.md %})|Updated Klarna account images; updated instructions for new **Enable B2B** field.|
 |[Klarna]({{ site.baseurl }}{% link configuration/sales/klarna.md %})|Updated screenshot and field descriptions for new Enable B2B field.|
+|[Configuration Reference]({{ site.baseurl }}{% link stores/configuration.md %})|Updated the screen shot to include the Yotpo section. Also added the Yotpo configuration topics in the left-side navigation.|
+|[Product Reviews]({{ site.baseurl }}{% link marketing/product-reviews.md %})|Created new Marketing > Shopping Tools > Product Reviews sub-menu that includes the Magento Product Reviews and new Yotpo Reviews topics.|
 |[Store Admin]({{ site.baseurl }}{% link stores/admin.md %}) <br/>[Admin Sign In]({{ site.baseurl }}{% link stores/admin-signin.md %})|New `Allow admin usage data collection` dialog is displayed the first time an admin logs in after installing or upgrading to Magento 2.3.3.|
 |[Admin]({{ site.baseurl }}{% link configuration/advanced/admin.md %}) (configuration)|New configuration option to allow user interaction tracking in the Magento Admin.|
 |[Catalog]({{ site.baseurl }}{% link configuration/catalog/catalog.md %}) (configuration)|_Search Engine Optimization_ section. Added information for a new `Generate "category/product" URL Rewrites` field.|
@@ -81,7 +92,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 - Magento for B2B Commerce, 2.3.2
 <!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
+<!--{% if "Default.EE,Default.EE Only" contains site.edition %}-->
 - Magento Commerce, 2.3.2
 <!--{% endif %}-->
 <!--{% if "Default.CE Only" contains site.edition %}-->
@@ -180,7 +191,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 - Magento for B2B Commerce, 2.3.1
 <!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
+<!--{% if "Default.EE,Default.EE Only" contains site.edition %}-->
 - Magento Commerce, 2.3.1
 <!--{% endif %}-->
 <!--{% if "Default.CE Only" contains site.edition %}-->
