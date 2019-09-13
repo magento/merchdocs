@@ -102,77 +102,21 @@ When setting up a category rule, the products are matched and assigned to the ru
             </tr>
          </tbody>
       </table>
+
+| Control                                                                                                           | Description                                                                                                                                                      |
+|-------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![]({{ site.baseurl }}{% link images/images/btn-view-as-list.png %})                                              | View as List                                                                                                                                                     |
+| ![]({{ site.baseurl }}{% link images/images/btn-view-as-tiles.png %})                                             | View as Tiles                                                                                                                                                    |
+| ![]({{ site.baseurl }}{% link images/images/btn-no.png %}) {{ site.baseurl }}{% link images/images/btn-yes.png %} | Match by Rule                                                                                                                                                    |
+| ![]({{ site.baseurl }}{% link images/images/btn-drag.png %)                                                       | The drag and drop control allows you to grab a product and move it to another position in the current page of the grid. To learn more, see: Visual Merchandiser. |
+| ![]({{ site.baseurl }}{% link images/images/btn-position.png %)                                                   | Determines the position of the product in the list.                                                                                                              |
 <!--{% endif %}-->
 
-<table>
-      <h3 class="TableHeading">Workspace Controls</h3>
-      <col WIDTH="200">
-      <col WIDTH="auto">
-      <thead>
-         <tr>
-            <th>Control</th>
-            <th>Description</th>
-         </tr>
-      </thead>
-      <tbody markdown="1">
-         <!--{% if "Default.EE-B2B" contains site.edition %}-->
-         <tr>
-            <td>
-               <p>
-                  <img src="{{ site.baseurl }}{% link images/images/btn-view-as-list.png %}" class="button_height" />
-               </p>
-            </td>
-            <td>View as List</td>
-         </tr>
-         <tr>
-            <td>
-               <img src="{{ site.baseurl }}{% link images/images/btn-view-as-tiles.png %}" class="button_height" />
-            </td>
-            <td>View as Tiles</td>
-         </tr>
-         <tr>
-            <td>
-               <img src="{{ site.baseurl }}{% link images/images/btn-no.png %}" class="button_height" />
-               <img src="{{ site.baseurl }}{% link images/images/btn-yes.png %}" class="button_height" />
-            </td>
-            <td>Match by Rule</td>
-         </tr>
-         <tr>
-            <td>
-               <p>
-                  <img src="{{ site.baseurl }}{% link images/images/btn-drag.png %}" />
-               </p>
-            </td>
-            <td>The drag and drop control allows you to grab a product and move it to another position in the current page of the grid. To learn more, see: <a href="{{ site.baseurl }}{% link marketing/visual-merchandiser.md %}">Visual Merchandiser</a>.</td>
-         </tr>
-         <tr>
-            <td>
-               <img src="{{ site.baseurl }}{% link images/images/btn-position.png %}" class="button_height" />
-            </td>
-            <td> Determines the position of the product in the list. </td>
-         </tr>
-         <!--{% endif %}-->
-         <!--{% if "Default.CE Only" contains site.edition %}-->
-         <tr>
-            <td markdown="1">
-               <p class="tableBody">
-                  <img src="{{ site.baseurl }}{% link images/images/btn-checkbox.png %}" class="button_height" />
-               </p>
-            </td>
-            <td>The checkbox in the header of the first column can be used to select or deselect all products. The control in the first row determines the type of search, and can be set to include any record, or only those that are either assigned or not assigned to the category. The checkbox in the first column of each row identifies products to be added to the category. Options: Yes / No / Any</td>
-         </tr>
-         <tr>
-            <td>Search Filters</td>
-            <td>The <a href="{{ site.baseurl }}{% link stores/admin-grid-controls.md %}">filter controls</a> at the top of each column can be used to enter specific values you want to either include or omit from the list, depending on the Select All setting.</td>
-         </tr>
-         <tr>
-            <td>Reset Filter</td>
-            <td>Clears all search filters.</td>
-         </tr>
-         <tr>
-            <td>Search</td>
-            <td>Searches the catalog based on the filter criteria, and displays the result.</td>
-         </tr>
-         <!--{% endif %}-->
-      </tbody>
-   </table>
+<!--{% if "Default.CE Only" contains site.edition %}-->
+| Control                                                          | Description                                                                                                                                                                                                                                                                                                                                                                                    |
+|------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![]({{ site.baseurl }}{% link images/images/btn-checkbox.png %}) | The checkbox in the header of the first column can be used to select or deselect all products. The control in the first row determines the type of search, and can be set to include any record, or only those that are either assigned or not assigned to the category. The checkbox in the first column of each row identifies products to be added to the category. Options: Yes / No / Any |
+| Search Filters                                                   | The filter controls at the top of each column can be used to enter specific values you want to either include or omit from the list, depending on the Select All setting.                                                                                                                                                                                                                      |
+| Reset Filter                                                     | Clears all search filters.                                                                                                                                                                                                                                                                                                                                                                     |
+| Search                                                           | Searches the catalog based on the filter criteria, and displays the result.                                                                                                                                                                                                                                                                                                                    |
+<!--{% endif %}-->
