@@ -21,6 +21,8 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 ### New Topics
 
+- [3D Secure]({{ site.baseurl }}{% link configuration/sales/3d-secure.md %})
+- [CardinalCommerce]({{ site.baseurl }}{% link configuration/sales/cardinalcommerce.md %})
 - [Supported Countries]({{ site.baseurl }}{% link shipping/magento-shipping-countries.md %})
 - [Attribute Mapping]({{ site.baseurl }}{% link shipping/magento-shipping-attributes.md %})
 - [Shipping Experience Rules]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %})

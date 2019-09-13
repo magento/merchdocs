@@ -22,7 +22,7 @@ Personas can be created directly from the Experience Preview pane.
 
 1.  In the _Simulate a customer's cart_ drop-down, choose `New Persona`.
 
-1.	Enter information for the persona to match the customer use case you would like to test.
+1.  Enter information for the persona to match the customer use case you would like to test.
 
     - Persona Nickname
     - Country
