@@ -22,11 +22,15 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 - [3D Secure]({{ site.baseurl }}{% link configuration/sales/3d-secure.md %})
 - [CardinalCommerce]({{ site.baseurl }}{% link configuration/sales/cardinalcommerce.md %})
+- [Yotpo Product Reviews]({{ site.baseurl }}{% link marketing/yotpo-reviews-intro.md %}) section
+- [Yotpo Configuration Reference]({{ site.baseurl }}{% link configuration/yotpo.md %})
 
 ### Updated Topics
 
 |Topic |Change |
 |--- |--- |
+|[Configuration Reference]({{ site.baseurl }}{% link stores/configuration.md %})|Updated the screen shot to include the Yotpo section. Also added the Yotpo configuration topics in the left-side navigation.|
+|[Product Reviews]({{ site.baseurl }}{% link marketing/product-reviews.md %})|Created new Marketing > Shopping Tools > Product Reviews sub-menu that includes the Magento Product Reviews and new Yotpo Reviews topics.|
 |[Authorize.Net]({{ site.baseurl }}{% link payment/authorize-net.md %})|Added Step #4 with setup instructions for 3D Secure with CardinalCommerce.|
 |[Klarna]({{ site.baseurl }}{% link payment/klarna.md %})|Updated _Changes In the Latest Release_ and _Klarna Solutions_. Added new _Klarna Payment Methods_ section.|
 |[Setting Up Klarna]({{ site.baseurl }}{% link payment/klarna-setup.md %})|Updated Klarna account images; updated instructions for new **Enable B2B** field.|

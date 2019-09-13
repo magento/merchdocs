@@ -301,8 +301,28 @@ pages:
   - label: Product Reviews
     url: "/marketing/product-reviews.html"
     children:
-    - label: Ratings
-      url: "/stores/attributes-rating.html"
+    - label: Magento Product Reviews
+      url: "/marketing/magento-product-reviews.html"
+      children:
+      - label: Enable Magento Product Reviews
+        url: "/marketing/magento-product-reviews-config.html"
+      - label: Moderate Reviews
+        url: "/marketing/magento-product-reviews-moderate.html"
+      - label: Ratings
+        url: "/stores/attributes-rating.html"
+    - label: Yotpo Product Reviews
+      url: "/marketing/yotpo-reviews-intro.html"
+      children:
+      - label: Basic Features
+        url: "/marketing/yotpo-features.html"
+      - label: Integration / Setup
+        url: "/marketing/yotpo-connect.html"
+      - label: Magento Settings
+        url: "/marketing/yotpo-settings.html"
+      - label: Yotpo Reviews
+        url: "/marketing/yotpo-glance.html"
+      - label: Common Tasks
+        url: "/marketing/yotpo-tasks.html"
 - label: Promotions
   url: "/marketing/promotions.html"
   children:
