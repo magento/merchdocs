@@ -32,7 +32,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 |Topic |Change|
 |--- |--- |
-[Magento Shipping]({{ site.baseurl }}{% link shipping/magento-shipping.md %})|Updated Magento Shipping section.
+|[Magento Shipping]({{ site.baseurl }}{% link shipping/magento-shipping.md %})|Updated Magento Shipping section.|
 |[Google Shopping ads Channel]({{ site.baseurl }}{% link sales-channels/google-ads/onboarding-google.md %})|Added a note clarifying the inclusion of Google Shopping ads Channel with Magento 2.3.3.|
 |[Onboarding Google Shopping ads Channel]({{ site.baseurl }}{% link sales-channels/google-ads/google-ad-channel.md %})|Added a note clarifying the inclusion of Google Shopping ads Channel with Magento 2.3.3.|
 |[Add/Updated Google API Key]({{ site.baseurl }}{% link sales-channels/google-ads/verify-api-key.md %})|Updated API Key steps.|
