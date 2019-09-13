@@ -17,6 +17,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 <!--{% if "Default.CE Only" contains site.edition %}-->
 - Magento Open Source, 2.3.3
 <!--{% endif %}-->
+- [Google Shopping ads Channel](https://devdocs.magento.com/extensions/google-shopping-ads/release-notes/), 3.0.1
 
 ### New Topics
 
@@ -27,6 +28,9 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 |Topic |Change |
 |--- |--- |
+|[Google Shopping ads Channel]({{ site.baseurl }}{% link sales-channels/google-ads/onboarding-google.md %})|Added a note clarifying the inclusion of Google Shopping ads Channel with Magento 2.3.3.|
+|[Onboarding Google Shopping ads Channel]({{ site.baseurl }}{% link sales-channels/google-ads/google-ad-channel.md %})|Added a note clarifying the inclusion of Google Shopping ads Channel with Magento 2.3.3.|
+|[Add/Updated Google API Key]({{ site.baseurl }}{% link sales-channels/google-ads/verify-api-key.md %})|Updated API Key steps.|
 |[Authorize.Net]({{ site.baseurl }}{% link payment/authorize-net.md %})|Added Step #4 with setup instructions for 3D Secure with CardinalCommerce.|
 |[Klarna]({{ site.baseurl }}{% link payment/klarna.md %})|Updated _Changes In the Latest Release_ and _Klarna Solutions_. Added new _Klarna Payment Methods_ section.|
 |[Setting Up Klarna]({{ site.baseurl }}{% link payment/klarna-setup.md %})|Updated Klarna account images; updated instructions for new **Enable B2B** field.|
