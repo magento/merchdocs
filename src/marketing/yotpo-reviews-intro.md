@@ -11,7 +11,7 @@ Yotpo integrates seamlessly with your Magento store, so you can accelerate growt
 
 Available Yotpo features and customization options are dependent on the Yotpo plan you choose. Magento supports the Free, Growth, and Premium plans. See Yotpo [Plan Information](https://www.yotpo.com/pricing/) for plan and feature availability.
 
-See the [Yotpo website](www.yotpo.com/platform/visual-marketing/) for more information about additional features, settings, and [Magento integration](https://www.yotpo.com/integrations/magento/).
+See the [Yotpo website](https://www.yotpo.com/platform/visual-marketing/) for more information about additional features, settings, and [Magento integration](https://www.yotpo.com/integrations/magento/).
 
 ## Integrating your Magento store with your Yotpo Account
 
