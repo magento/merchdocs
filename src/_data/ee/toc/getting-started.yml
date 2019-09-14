@@ -292,6 +292,11 @@ pages:
           url: "/configuration/sales/eway.html"
         - label: Worldpay
           url: "/configuration/sales/worldpay.html"
+    - label: 3D Secure
+      url: "/configuration/sales/3d-secure.html"
+      children:
+      - label: CardinalCommerce
+        url: "/configuration/sales/cardinalcommerce.html"
     - label: Fraud Protection
       url: "/configuration/sales/fraud-protection.html"
     - label: Gift Cards

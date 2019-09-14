@@ -278,6 +278,11 @@ pages:
           url: "/configuration/sales/authorize-net-direct-post.html"
         - label: Authorize.Net
           url: "/configuration/sales/authorize-net.html"
+    - label: 3D Secure
+      url: "/configuration/sales/3d-secure.html"
+      children:
+      - label: CardinalCommerce
+        url: "/configuration/sales/cardinalcommerce.html"
   - label: Yotpo
     url: "/configuration/yotpo.html"
     children:
