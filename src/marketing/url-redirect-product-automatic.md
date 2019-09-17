@@ -69,7 +69,7 @@ _Create Permanent Redirect for Old URL_
 {: .bs-callout .bs-callout-warning}
 Turning off automatic generation of category/products URL rewrites results in permanent removal of all existing category/product type URL rewrites and they cannot be restored. This could potentially cause unresolved category/product type URL conflicts that will require a manual update of the URL key to resolve.
 
-1. On the Admin sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the page navigation, expand **Catalog** and select the **Catalog** subitem.
 
@@ -82,7 +82,7 @@ Turning off automatic generation of category/products URL rewrites results in pe
 
 1. In the confirmation dialog, click <span class="btn">OK</span> to confirm the change and the removal of existing URL rewrites.
 
-    ![]({{ site.baseurl }}{%- link images/images/config-catalog-catalog-seo-rewrite-off.png -%}){:width="350px"}
-    <br/>_Turn off "category/product" URL rewrites_
+    ![]({{ site.baseurl }}{%- link images/images/config-catalog-catalog-seo-rewrite-off.png -%}){:width="350px"}<br/>
+    _Turn off "category/product" URL rewrites_
 
 1. When complete, click <span class="btn">Save Config</span>.
