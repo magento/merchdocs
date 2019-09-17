@@ -67,7 +67,7 @@ _Create Permanent Redirect for Old URL_
 ## To skip generation of product URL rewrites for category save
 
 {: .bs-callout .bs-callout-warning}
-Turning off automatic generation of category/products URL rewrites results in permanent removal of all existing category/product type URL rewrites and they cannot be restored. This could potentially cause unresolved category/product type URL conflicts that will require a manual update of the URL key to resolve.
+Turning off automatic generation of category/products URL rewrites results in permanent removal of all existing category/product type URL rewrites, which cannot be restored. This could potentially cause unresolved category/product type URL conflicts that will require a manual update of the URL key to resolve.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
