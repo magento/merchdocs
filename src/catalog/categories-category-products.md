@@ -11,21 +11,14 @@ The Products in Category section lists the products that are currently assigned 
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({{ site.baseurl }}{% link images/images/category-products-in-category.png %}){: .zoom}
+_Category Products_
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![]({{ site.baseurl }}{% link images/images-ee/category-products-in-category.png %}){: .zoom}
-<!--{% endif %}-->
 _Category Products_
-
-<!--{% if "Default.CE Only" contains site.edition %}-->
-| Control  | Description  |
-|----------|--------------|
-| ![]({{ site.baseurl }}{% link images/images/btn-checkbox.png %}) | The checkbox in the header of the first column can be used to select all products or clear all selections. The control in the first row determines the type of search and can be set to include any record, or include only those that are either assigned or not assigned to the category. The checkbox in the first column of each row identifies products to be added to the category. Options: Yes / No / Any |
-| Search Filters | The filter controls at the top of each column can be used to enter specific values you want to either include or omit from the list, depending on the Select All setting. |
-| Reset Filter | Clears all search filters. |
-| Search | Searches the catalog based on the filter criteria and displays the result. |
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
+
 ## To apply a category rule:
 
 1. Set **Match products by rule** to the `Yes` position.
@@ -88,5 +81,16 @@ When setting up a category rule, the products are matched and assigned to the ru
 |![]({{ site.baseurl }}{% link images/images/btn-yes.png %}) | Match by Rule - Yes|
 | ![]({{ site.baseurl }}{% link images/images/btn-drag.png %}) | The drag and drop control allows you to grab a product and move it to another position in the current page of the grid. To learn more, see [Visual Merchandiser]({{ site.baseurl }}{% link marketing/visual-merchandiser.md %}). |
 | ![]({{ site.baseurl }}{% link images/images/btn-position.png %}) | Determines the position of the product in the list. |
+
+<!--{% endif %}-->
+
+<!--{% if "Default.CE Only" contains site.edition %}-->
+
+| Control  | Description  |
+|----------|--------------|
+| ![]({{ site.baseurl }}{% link images/images/btn-checkbox.png %}) | The checkbox in the header of the first column can be used to select all products or clear all selections. The control in the first row determines the type of search and can be set to include any record, or include only those that are either assigned or not assigned to the category. The checkbox in the first column of each row identifies products to be added to the category. Options: Yes / No / Any |
+| Search Filters | The filter controls at the top of each column can be used to enter specific values you want to either include or omit from the list, depending on the Select All setting. |
+| Reset Filter | Clears all search filters. |
+| Search | Searches the catalog based on the filter criteria and displays the result. |
 
 <!--{% endif %}-->
