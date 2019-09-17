@@ -4,6 +4,9 @@ title: Onboarding Google Shopping ads Channel
 
 
 
+{:.bs-callout .bs-callout-info}
+Beginning with Magento version 2.3.3, Google Shopping ads Channel is included with Magento and does not require separate install. Onboarding and management processes remain the same. Merchants using previous Magento versions (2.2.4+, 2.3.0, 2.3.1, and 2.3.2) can install or update a previous version of the extension via the [Magento Marketplace](https://marketplace.magento.com/magento-google-shopping-ads.html).
+
 This guide walks you through the entire onboarding process of setting up your accounts including Magento web account, Google Merchant Center (GMC) account, and Google Ads account. With your accounts created, your account and products start the Google approval process. You do not need to create your accounts prior to onboarding.
 
 ![]({{ site.baseurl }}{% link images/images/sales-channels/google/google-onboard-process.png %})

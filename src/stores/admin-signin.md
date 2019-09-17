@@ -12,7 +12,7 @@ Depending on Admin configurations, you may also need to resolve a [CAPTCHA]({{ s
 When entering your credentials, the username and password may automatically populate if your browser is set to use the autocomplete function. If enabled, you can save your credentials for the Magento Admin login page.
 
 ![]({{ site.baseurl }}{% link images/images/admin-login.png %}){: .zoom}
-*Admin Sign In*
+_Admin Sign In_
 
 ## To sign in to the Admin:
 
@@ -28,14 +28,16 @@ When entering your credentials, the username and password may automatically popu
 
 1. Tap <span class="btn"> Login </span>.
 
+The first time anyone signs in to the Admin, the **Allow admin usage data collection** dialog displays. See [Store Admin]({{ site.baseurl }}{% link stores/admin.md %}) for more information.
+
 ## To reset your password
 
 1. If you forget your password, click the **Forgot Your Password?** link. Then, enter the **Email Address** that is associated with the Admin account.
 
    ![]({{ site.baseurl }}{% link images/images/admin-sign-in-forgot-password.png %}){: .zoom}
-   *Forgot Password*
+   _Forgot Password_
 
-1. Tap <span class="btn"> Retrieve Password </span>.
+1. Tap <span class="btn">Retrieve Password</span>.
 
    If an account is associated with the email address, an email will be sent to reset your password.
 
@@ -47,6 +49,6 @@ When entering your credentials, the username and password may automatically popu
 In the upper-right corner, tap the **Account** (![]({{ site.baseurl }}{% link images/images/btn-account.png %}){: .Inline}) icon. Then on the menu, choose **Sign Out**.
 
 ![]({{ site.baseurl }}{% link images/images/admin-sign-out.png %}){: .zoom}
-*Sign Out*
+_Sign Out_
 
 The Sign-In page displays, with a message that you are logged out. It’s always a good idea to sign out of the Admin whenever you leave your computer unattended.

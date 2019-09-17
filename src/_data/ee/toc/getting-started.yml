@@ -186,13 +186,6 @@ pages:
       url: "/configuration/general/new-relic-reporting.html"
     - label: Advanced Reporting
       url: "/configuration/general/advanced-reporting.html"
-  - label: Security
-    url: "/configuration/security.html"
-    children:
-    - label: 2FA
-      url: "/configuration/security/2fa.html"
-    - label: Google reCAPTCHA
-      url: "/configuration/security/google-recaptcha.html"
   - label: Catalog
     url: "/configuration/catalog.html"
     children:
@@ -208,6 +201,13 @@ pages:
       url: "/configuration/catalog/rss-feeds.html"
     - label: Email to a Friend
       url: "/configuration/catalog/email-to-a-friend.html"
+  - label: Security
+    url: "/configuration/security.html"
+    children:
+    - label: 2FA
+      url: "/configuration/security/2fa.html"
+    - label: Google reCAPTCHA
+      url: "/configuration/security/google-recaptcha.html"
   - label: Customers
     url: "/configuration/customers.html"
     children:
@@ -292,10 +292,20 @@ pages:
           url: "/configuration/sales/eway.html"
         - label: Worldpay
           url: "/configuration/sales/worldpay.html"
+    - label: 3D Secure
+      url: "/configuration/sales/3d-secure.html"
+      children:
+      - label: CardinalCommerce
+        url: "/configuration/sales/cardinalcommerce.html"
     - label: Fraud Protection
       url: "/configuration/sales/fraud-protection.html"
     - label: Gift Cards
       url: "/configuration/sales/gift-cards.html"
+  - label: Yotpo
+    url: "/configuration/yotpo.html"
+    children:
+    - label: Reviews and Visual Marketing
+      url: "/configuration/yotpo/reviews-visual-marketing.html"
   - label: Engagement Cloud
     url: "/configuration/engagement-cloud.html"
     children:

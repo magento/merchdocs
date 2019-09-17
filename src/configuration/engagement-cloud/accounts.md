@@ -17,6 +17,6 @@ _Settings - Enabled_
 
 |Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enabled|Website|Determines if Engagement Cloud is enabled for your site. When enabled, the API Username and API Password account credentials fields appear. Options: Yes / No|
+|Enabled|Website|Determines if Engagement Cloud is enabled for your site. When enabled, the API Username and API Password fields appear. Options: Yes / No|
 |API Username|Website|The API Username that is associated with your Engagement Cloud account. To learn more, see dotdigital's [Getting Started with the API](https://developer.dotdigital.com/docs/getting-started-with-the-api/).|
 |API Password|Website|The API password that is associated with your Engagement Cloud account.|
