@@ -22,17 +22,17 @@ On the _Admin_ sidebar, select Content. The Design options are part of the Conte
 ## Menu Options
 
 
-### [Configuration]({{ site.baseurl }}{% link design/configuration.md %})
+### Configuration
 
-The Design configuration lets you easily maintain different settings for each website, store, and view in your Magento installation.
+The [Design configuration]({{ site.baseurl }}{% link design/configuration.md %}) lets you easily maintain different settings for each website, store, and view in your Magento installation.
 
-### [Themes]({{ site.baseurl }}{% link design/themes.md %})
+### Themes
 
-The theme determines the visual presentation of your store, and consists of a collection of layout files, template files, translation files, and skins.
+The [theme]({{ site.baseurl }}{% link design/themes.md %}) determines the visual presentation of your store, and consists of a collection of layout files, template files, translation files, and skins.
 
-### [Schedule]({{ site.baseurl }}{% link design/schedule.md %})
+### Schedule
 
-Themes can be activated for a period of time, according to a schedule. Use the schedule to plan theme changes in advance for a season or promotion.
+Themes can be activated for a period of time, according to a [schedule]({{ site.baseurl }}{% link design/schedule.md %}). Use the schedule to plan theme changes in advance for a season or promotion.
 
 <!--{% if "Default.EE Only" contains site.edition %}-->
 ### [Staging]({{ site.baseurl }}{% link design/schedule.md %})
