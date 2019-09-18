@@ -27,5 +27,5 @@ For step-by-step installation instructions, see [Marketplace User Guide][4]{: ta
 
 [1]: https://marketplace.magento.com/
 [2]: https://docs.magento.com/marketplace/user_guide/getting-started.html
-[3]: https://docs.magento.com/marketplace/user_guide/quick-tour/install-extension.html
-[4]: https://docs.magento.com/marketplace/user_guide/getting-started-buyer.html
+[3]: https://docs.magento.com/marketplace/user_guide/buyers/install-extension.html
+[4]: https://docs.magento.com/marketplace/user_guide/buyers/install-extension.html
