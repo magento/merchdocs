@@ -269,9 +269,9 @@ pages:
       url: "/payment/authorize-net-direct-post.html"
     - label: Authorize.Net
       url: "/payment/authorize-net.html"
-    - label: CyberSource
+    - label: CyberSource (Deprecated)
       url: "/payment/cybersource.html"
-    - label: eWAY
+    - label: eWAY (Deprecated)
       url: "/payment/eway.html"
     - label: Worldpay
       url: "/payment/worldpay.html"

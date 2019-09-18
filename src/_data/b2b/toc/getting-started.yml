@@ -317,9 +317,9 @@ pages:
           url: "/configuration/sales/authorize-net-direct-post.html"
         - label: Authorize.Net
           url: "/configuration/sales/authorize-net.html"
-        - label: CyberSource
+        - label: CyberSource (Deprecated)
           url: "/configuration/sales/cybersource.html"
-        - label: eWAY
+        - label: eWAY (Deprecated)
           url: "/configuration/sales/eway.html"
         - label: Worldpay
           url: "/configuration/sales/worldpay.html"
