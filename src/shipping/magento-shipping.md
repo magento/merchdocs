@@ -33,7 +33,7 @@ The packaging options include:
 
 -  **Assigned** - Allows you to assign the product to a Magento Shipping package (defined in the [Packages configuration]({{ site.baseurl }}{% link shipping/magento-shipping-packaging.md %})).
 
--  **Pre-Packaged** - Uses the package dimension of the product itself. When set to this option, Length, Width, and Height fields display (required).
+-  **Pre-Packaged** - Uses the dimensions of the product's package. When set to this option, Length, Width, and Height fields display (required).
 
 #### Magento Shipping Attribute Mapping
 
@@ -45,7 +45,7 @@ You can also define custom Magento Shipping attributes, allowing for greater fle
 
 #### Magento Shipping Configuration
 
-The [Carriers]({{ site.baseurl }}{% link shipping/magento-shipping-carriers.md %}) and [Locations]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %}) configurations have been migrated to the Magento Shipping Portal, allowing for user experience improvements without the need of a Magento update. The links in Magento Admin automatically redirect users to the corresponding page in the Magento Shipping Portal. You can access these settings in the Magento Admin, but changes are made in the Magento Shipping Portal.
+The [Carriers]({{ site.baseurl }}{% link shipping/magento-shipping-carriers.md %}) and [Locations]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %}) configurations have been moved to the Magento Shipping Portal, allowing for user experience improvements without the need for a Magento update. The Magento Admin automatically links users to the corresponding page in the Magento Shipping Portal. You can access these settings in the Magento Admin, but changes are made in the Magento Shipping Portal.
 
 -  [Carriers]({{ site.baseurl }}{% link shipping/magento-shipping-carriers.md %})
 
