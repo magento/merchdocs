@@ -19,23 +19,23 @@ Your Magento version determines the Magento Shipping version used. Documentation
 
 ### New Features
 
--  {:.new} **Preview Experiences**
+#### Preview Experiences
 
 In the [Preview Experience]({{ site.baseurl }}{% link shipping/magento-shipping-preview-experience.md %}) pane in the Magento Shipping Portal, the available shipping methods for a shopping basket can be previewed for different customers. Experiences that do not return a shipping method are also identified. This helps to ensure that the intended shipping methods are displayed to a customer during checkout. Personas can be created and saved to quickly preview different shipping experiences in the Magento Shipping Portal.
 
 **Note**: [Collection Point]({{ site.baseurl }}{% link shipping/magento-shipping-collection-points.md %}) shipping methods are not yet supported in the Preview.
 
--  {:.new} **Pre-Packaged Assignment for Products**
+#### Pre-Packaged Assignment for Products
 
-Package details can now be defined for a product in the [product settings]({{ site.baseurl }}{% link catalog/settings.md %}), with this information used to pre-fill information during the shipment fulfillment workflow. This product setting is available for [Simple]({{ site.baseurl }}{% link catalog/product-create-simple.md %}) and [Bundled]({{ site.baseurl }}{% link catalog/product-create-bundle.md %}) product types.
+[Package details]({{ site.baseurl }}{% link shipping/magento-shipping-pre-packaged.md %}) can now be defined for a product in the [product settings]({{ site.baseurl }}{% link catalog/settings.md %}), with this information used to pre-fill information during the shipment fulfillment workflow. This product setting is available for [Simple]({{ site.baseurl }}{% link catalog/product-create-simple.md %}) and [Bundle]({{ site.baseurl }}{% link catalog/product-create-bundle.md %}) product types.
 
-The Packaging types that can be defined include:
+The packaging options include:
 
 -  **Assigned** - Allows you to assign the product to a Magento Shipping package (created via the Packages configuration).
 
 -  **Pre-Packaged** - Uses the package dimension of the product itself. When set to this option, Length, Width, and Height fields display (required).
 
--  {:.new} **Magento Shipping Attribute Mapping**
+#### Magento Shipping Attribute Mapping
 
 [Magento Shipping attributes]({{ site.baseurl }}{% link shipping/magento-shipping-attributes.md %}) are available for mapping in Magento Admin. Attribute mapping allows you to map Magento Shipping attributes to your Magento [product attribute]({{ site.baseurl }}{% link catalog/product-attributes.md %}) defined in your Magento instance. Mapped data is used to auto-assign shipping information/values during checkout, resulting in a more efficient and less frustrating checkout experience for the customer.
 
@@ -43,13 +43,13 @@ You can also define custom Magento Shipping attributes, allowing for greater fle
 
 ### Improvements
 
--  {:.fix}**Magento Shipping Configuration**
+#### Magento Shipping Configuration
 
 The [Carriers]({{ site.baseurl }}{% link shipping/magento-shipping-carriers.md %}) and [Locations]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %}) configurations have been migrated to the Magento Shipping Portal, allowing for user experience improvements without the need of a Magento update. The links in Magento Admin automatically redirect users to the corresponding page in the Magento Shipping Portal. You can access these settings in the Magento Admin, but changes are made in the Magento Shipping Portal.
 
 -  [Carriers]({{ site.baseurl }}{% link shipping/magento-shipping-carriers.md %})
 
-   When connecting a new carrier, the available carriers can be filtered based on supported Origin Country (when defined in product settings).
+   When connecting a new carrier, the available carriers can be filtered based on supported Origin Country (when defined in the product's [shipping]({{ site.baseurl }}{% link catalog/product-shipping.md %}) settings).
 
 -  [Locations]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %})
 
@@ -57,21 +57,25 @@ The [Carriers]({{ site.baseurl }}{% link shipping/magento-shipping-carriers.md %
 
    -  A Timezones section have been added to address issues with the display of Opening and Closing hours for Click & Collect and to improve Dispatch processes.
 
--  {:.fix}**Batch Processing**
+#### Batch Processing
 
--  Re-designed the user interface to better indicate the steps required to fulfill each order.
+-  Updated the user interface to better to better demonstrates the steps which need to be completed. Add-On’s and International Details can now be filled out in their own sections.
 
--  Removed the need for _Batch Fulfillment_ experience rules. The customer's selected shipping experience will display.
+- In-depth error messaging and visual representation of actions / values which are required have now been added. Field validation occurs at the time of entry as well as when the Batch Process is “Finished”.
 
--  Added support for shipping international orders.
+-  The experience related to the customers selected Shipping Method now flows through. As a result of this, the Batch Fulfillment rules will be deprecated as the Quoting and Fulfillment Rules are now used instead. Quotes can also be triggered for the selected experience.
 
--  {:.fix}**Shipment Workflow**
+- The add-ons have been moved out of the main steps and are now accessed by expanding the section. The notes have also been replaced with mouse-over tooltips.
 
--  Pre-Fill Packaging
+-  International shipments are now displayed in Batch Processing, with the international item details and international shipment details appearing on orders that are via an international route.
 
--  Pre-Fill International Item Details
+#### Shipment Workflow
 
--  Pre-Fill International Shipment Details
+-  Pre-Fill Packaging - Once a packaging type is assigned (in the in the Shipping tab in product setting), any future orders placed that include the product will have the packaging information automatically set during the shipment fulfillment process (Batch Processing and Individual Orders).
+
+-  Pre-Fill International Item Details - The HS Code and Country of Origin attributes have been added in the Shipping tab in product setting. When set, these values along with any other mapped attributes will be used to pre-fill international item details during the order fulfillment process.
+
+-  Pre-Fill International Shipment Details - The number of fields have been reduced and smart defaults are now used to pre-fill the remaining required fields.
 
 A variety of user experience improvements have been made to reduce time and effort required to fulfill a shipment.
 
@@ -83,7 +87,7 @@ A variety of user experience improvements have been made to reduce time and effo
 
 -  International Shipping values are automatically populated with default values (i.e., Some redundant fields have been removed).
 
--  {:.fix}**Performance Improvements**
+#### Performance Improvements
 
 -  Collection Points in Checkout
 
@@ -91,7 +95,7 @@ A variety of user experience improvements have been made to reduce time and effo
 
 -  Session Creation and Re-use
 
--  {:.fix}**Support for Shipping Bundle Items**
+#### Support for Shipping Bundle Items
 
 Added Support of "ship together" & "ship separately" for Bundled Products in:
 
@@ -101,11 +105,11 @@ Added Support of "ship together" & "ship separately" for Bundled Products in:
 
 -  Click & Collect
 
--  {:.fix}**Returns Workflow**
+#### Returns Workflow
 
 -  Returns now has a back button
 
--  {:.fix}**Dispatch Workflow**
+#### Dispatch Workflow
 
 -  Completing the dispatch workflow using the default values are successful and no longer display an error indicating the pickup time isn't set in the future.
 

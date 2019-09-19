@@ -29,6 +29,9 @@ Our documentation is continually updated with new topics, clarifications, and co
 - [Attribute Mapping]({{ site.baseurl }}{% link shipping/magento-shipping-attributes.md %})
 - [Shipping Experience Rules]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %})
 - [Preview Experience]({{ site.baseurl }}{% link shipping/magento-shipping-preview-experience.md %})
+- [Shipping]({{ site.baseurl }}{% link catalog/product-shipping.md %})
+- [International Shipping]({{ site.baseurl }}{% link shipping/magento-shipping-international.md %})
+- [Pre-Package Assignment]({{ site.baseurl }}{% link shipping/magento-shipping-pre-packaged.md %})
 
 ### Updated Topics
 
