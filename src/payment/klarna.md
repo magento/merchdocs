@@ -17,7 +17,7 @@ Klarna lets your customers choose how they want to pay, and supports the purchas
 
 - Klarna supports [fixed product tax]({{ site.baseurl }}{% link tax/fixed-product-tax.md %}).
 
-## Karna solutions
+## Klarna solutions
 
 - [**Pay Now**][1] - Customers can pay in full quickly and securely with Direct Bank Transfer/Direct Debit.
 
