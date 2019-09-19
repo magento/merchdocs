@@ -18,4 +18,5 @@ _algolia_api_key
 .Spotlight-V100
 .Trashes
 .idea
-
+/tmp/
+.history
