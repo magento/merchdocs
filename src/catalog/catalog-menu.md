@@ -19,9 +19,7 @@ _Catalog Menu_
 _Catalog Menu_
 <!--{% endif %}-->
 
-## Display the Catalog menu
-
-On the Admin sidebar, click **Catalog**.
+On the Admin sidebar, click <span class="btn"> Catalog </span>.
 
 ![]({{ site.baseurl }}{% link images/images/products-grid.png %}){: .zoom}
 [_Catalog products grid_]({{ site.baseurl }}{% link catalog/products.md %})
