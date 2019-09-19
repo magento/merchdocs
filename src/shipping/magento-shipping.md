@@ -31,7 +31,7 @@ In the [Preview Experience]({{ site.baseurl }}{% link shipping/magento-shipping-
 
 The packaging options include:
 
--  **Assigned** - Allows you to assign the product to a Magento Shipping package (created via the Packages configuration).
+-  **Assigned** - Allows you to assign the product to a Magento Shipping package (defined in the [Packages configuration]({{ site.baseurl }}{% link shipping/magento-shipping-packaging.md %})).
 
 -  **Pre-Packaged** - Uses the package dimension of the product itself. When set to this option, Length, Width, and Height fields display (required).
 

@@ -1,5 +1,5 @@
 ---
-title: Pre-Packaged Assignment
+title: Pre-Package Assignment
 ---
 
 Package details can be defined and stored for your Magento catalog products, with this information used to pre-fill shipping options during checkout and reduce data entry for the shopper. This feature is available for _Simple Product_ and _Bundle Product_ types, allowing specific packaging information to be assigned to the product or for the product itself to be treated as a package.
