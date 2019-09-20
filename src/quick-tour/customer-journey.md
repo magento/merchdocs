@@ -16,12 +16,12 @@ Design your site with prepared templates, or create a custom design with feature
 
 ## Moment of Purchase
 
-[Give]({{ site.baseurl }}{% link quick-tour/moment-of-purchase.md %}) your customers a faster and easier way to check out. Calculate shipping and taxes automatically, and integrate multiple payment methods on a single page.
+Give your customers a [faster and easier way to check out]]({{ site.baseurl }}{% link quick-tour/moment-of-purchase.md %}). Calculate shipping and taxes automatically, and integrate multiple payment methods on a single page.
 
 ## Customer Retention
 
 Create and manage [newsletters and promotions]({{ site.baseurl }}{% link quick-tour/customer-retention.md %}) to keep your customers coming back for more.
 
-## Loyalty &amp; Advocacy
+## Loyalty and Advocacy
 
 [Encourage customers]({{ site.baseurl }}{% link quick-tour/loyalty-advocacy.md %}) to write product reviews, create wish lists, and send email about products to their friends. Strengthen your relationship with your customers, who in return, speak positively of your business to friends and family.

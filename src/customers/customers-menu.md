@@ -42,6 +42,6 @@ Dynamically display content and promotions to specific customers based on proper
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 ### Companies
 
-Lists all active [company accounts]({{ site.baseurl }}{% link customers/account-companies.md %}) and pending requests, regardless of status setting, and provides the tools needed to create and [manage]({{ site.baseurl }}{% link customers/account-company-manage.md %}) company.
+Lists all active [company accounts]({{ site.baseurl }}{% link customers/account-companies.md %}) and pending requests, regardless of status setting, and provides the tools needed to create and [manage]({{ site.baseurl }}{% link customers/account-company-manage.md %}) company accounts.
 
 <!--{% endif %}-->

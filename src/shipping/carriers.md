@@ -26,8 +26,8 @@ The [United States Postal Service]({{ site.baseurl }}{% link shipping/usps.md %}
 
 ## FedEx
 
-Offers domestic and international shipping services by land and air to more than 220 countries.
+Offers [domestic and international]]({{ site.baseurl }}{% link shipping/fedex.md %}) shipping services by land and air to more than 220 countries.
 
 ## DHL
 
-Offers integrated international services and tailored, customer-focused solutions for managing and transporting letters, goods and information.
+Offers [integrated international services and tailored]({{ site.baseurl }}{% link shipping/dhl.md %}), customer-focused solutions for managing and transporting letters, goods and information.

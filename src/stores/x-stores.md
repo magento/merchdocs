@@ -14,14 +14,14 @@ Learn to manage the [store]({{ site.baseurl }}{% link stores/stores-all-stores.m
 
 ## Configuration
 
-Our online [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) Reference has field descriptions for every setting.
+Our online [Configuration Reference]({{ site.baseurl }}{% link stores/configuration.md %}) has field descriptions for every setting.
 {: .indent0First}
 
 [![]({{ site.baseurl }}{% link images/images/tile-taxes.png %})]({{ site.baseurl }}{% link stores/stores-menu.md %})
 
 ## Taxes
 
-Learn how to set up [tax]({{ site.baseurl }}{% link tax/taxes.md %}) classes for products and customer groups, and manage tax zones and rates according to the requirements of your locale.
+Learn how to set up [tax]({{ site.baseurl }}{% link tax/taxes.md %}) classes for products and customer groups and manage tax zones and rates according to the requirements of your locale.
 {: .indent0First}
 
 [![]({{ site.baseurl }}{% link images/images/tile-global.png %})]({{ site.baseurl }}{% link stores/stores-menu.md %})

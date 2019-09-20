@@ -10,7 +10,7 @@ Magento Shipping is now available in [seventeen countries]({{ site.baseurl }}{% 
 
 Configure multiple warehouses, distribution centers, retail stores, drop shippers, and third-party logistics. Allocate shipments to any supported fulfillment [location]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %}).
 
-## Click &amp; Collect
+## Click and Collect
 
 Offer the convenience of ordering online, with convenient customer pickup at a [nearby location]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %}).
 
@@ -20,7 +20,7 @@ Offer the convenience of ordering online, with convenient customer pickup at a [
 
 ## Dispatches
 
-Book shipments with all carriers, and maintain a manifest of scheduled pickup with selected carriers. 
+Book shipments with all carriers, and maintain a manifest of [scheduled pickup]({{ site.baseurl }}{% link sales/dispatches.md %}) with selected carriers. 
 
 ## Batches
 

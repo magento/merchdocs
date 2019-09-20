@@ -24,7 +24,7 @@ On the _Admin_ sidebar, click **Sales**.
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 ### Quotes
 
-Authorized buyers can negotiation the price with the seller by sending a [request]({{ site.baseurl }}{% link sales/quote-price-negotiation.md %}) from the shopping cart.
+Authorized buyers can negotiation the [price]({{ site.baseurl }}{% link sales/quotes.md %}) with the seller by sending a [request]({{ site.baseurl }}{% link sales/quote-price-negotiation.md %}) from the shopping cart.
 <!--{% endif %}-->
 ### Orders
 
@@ -40,7 +40,7 @@ A [shipment]({{ site.baseurl }}{% link sales/shipments.md %}) is a record of the
 
 ### Dispatches
 
-For [Magento Shipping]({{ site.baseurl }}{% link shipping/magento-shipping.md %}), lists shipments that are ready for pickup per carrier.
+For [Magento Shipping]({{ site.baseurl }}{% link shipping/magento-shipping.md %}), lists shipments that are ready for [pickup]({{ site.baseurl }}{% link sales/dispatches.md %}) per carrier.
 
 ### Batches
 

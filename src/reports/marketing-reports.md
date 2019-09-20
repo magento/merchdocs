@@ -16,7 +16,7 @@ The Products in Cart Report lists all products currently in shopping carts, and 
 ![]({{ site.baseurl }}{% link images/images/reports-marketing-search-terms.png %}){: .zoom}
 *Search Terms Report*
 
-The хSearch Terms Report]({{ site.baseurl }}{% link marketing/search-terms-report.md %}) shows what your customers are looking for in each store view. The report includes the number of matching items found in the catalog, and how many times the search term has been used.
+The [Search Terms Report]({{ site.baseurl }}{% link marketing/search-terms-report.md %}) shows what your customers are looking for in each store view. The report includes the number of matching items found in the catalog, and how many times the search term has been used.
 
 ## Abandoned Carts
 

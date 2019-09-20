@@ -26,7 +26,7 @@ On the Admin sidebar, click <span class="btn"> Catalog </span>.
 
 ## Products
 
-Create new [products]({{ site.baseurl }}{% link catalog/products.md %}) of every type, and manage your inventory.
+Create new [products]({{ site.baseurl }}{% link catalog/products.md %}) of every type and manage your inventory.
 
 ![]({{ site.baseurl }}{% link images/images/category-workspace.png %}){: .zoom}
 [_Category Workspace_]({{ site.baseurl }}{% link catalog/categories.md %})

@@ -27,7 +27,7 @@ Create [related product rules]({{ site.baseurl }}{%- link marketing/product-rela
 
 ### Private Sales
 
-[Private Sales]({{ site.baseurl }}{%- link marketing/promotions.md -%}) and other catalog events are a great way to leverage your existing customer base to generate buzz and new leads with exclusive access for members only, or by invitation.
+Private Sales and other catalog events are a great way to leverage your existing customer base to generate buzz and new leads with exclusive access for members only, or by invitation.
 <!--{% endif %}-->
 
 ### Communications
@@ -39,7 +39,7 @@ and publish [RSS]({{ site.baseurl }}{%- link marketing/rss-feed.md -%}) feeds.
 Set up rules that send [email reminders]({{ site.baseurl }}{%- link marketing/email-reminder-rules.md -%}) to customers whenever the conditions are met.
 
 <!--{% endif %}-->
-### SEO &amp; Search
+### SEO and Search
 
 Analyze [search terms]({{ site.baseurl }}{%- link marketing/search-terms.md -%}) and [synonyms]({{ site.baseurl }}{%- link marketing/search-synonyms.md -%}) to help customers find products in the store, manage [meta data]({{ site.baseurl }}{%- link marketing/meta-data.md -%}), and create a [site map]({{ site.baseurl }}{%- link marketing/sitemap-xml.md -%}). Use [redirects]({{ site.baseurl }}{%- link marketing/url-rewrite.md -%}) to manage URL changes and avoid broken links.
 

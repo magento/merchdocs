@@ -13,7 +13,7 @@ The first step of the checkout process is for the customer to complete the [ship
 ![]({{ site.baseurl }}{% link images/images/storefront-checkout-step1-shipping.png %}){: .zoom}
 _Shipping_
 
-## Step 2: Review &amp; Payments
+## Step 2: Review and Payments
 
 During the second step of the checkout process, the customer chooses the [payment method]({{ site.baseurl }}{% link sales/checkout-step2-payment-review.md %}), and applies any coupons with promotional codes to the purchase. The [order confirmation]({{ site.baseurl }}{% link sales/checkout-order-confirmation.md %}) appears after the order is placed. For registered customers, the page includes the order number with a link to the customer’s account, and a link to generate a receipt.
 
