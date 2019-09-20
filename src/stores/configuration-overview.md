@@ -9,26 +9,26 @@ The online [Configuration Reference]({{ site.baseurl }}{% link stores/configurat
 ![]({{ site.baseurl }}{% link images/images/admin-menu-stores-configuration.png %}){: .zoom}
 *Configuration*
 
-### [General]({{ site.baseurl }}{% link configuration/general.md %})
+### General
 
-Includes basic configuration settings for the store, URLs, theme, currency, email addresses, store contacts, editor, and dashboard reports.
+Includes [basic configuration]({{ site.baseurl }}{% link configuration/general.md %}) settings for the store, URLs, theme, currency, email addresses, store contacts, editor, and dashboard reports.
 
 ### [Catalog]({{ site.baseurl }}{% link configuration/catalog.md %})
 
 Determines product and inventory settings, controls sitemap and RSS feed generation, and specifies the email template that is used to share products with friends.
 
-### [Customers]({{ site.baseurl }}{% link configuration/customers.md %})
+### Customers
 
-Establishes basic customer account and login options, newsletter settings, wish list, and the format of auto-generated coupon codes.
+Establishes basic [customer account]({{ site.baseurl }}{% link configuration/customers.md %}) and login options, newsletter settings, wish list, and the format of auto-generated coupon codes.
 
-### [Sales]({{ site.baseurl }}{% link configuration/sales.md %})
+### Sales
 
-Determines checkout and tax settings, payment and shipping options, sales email and PDF print-outs, and Google API settings.
+Determines checkout and tax settings, payment and shipping options, [sales]({{ site.baseurl }}{% link configuration/sales.md %}) email and PDF print-outs, and Google API settings.
 
-### [Services]({{ site.baseurl }}{% link configuration/services.md %})
+### Services
 
-Configures Magento API settings, including SOAP and OAuth.
+[Configures]({{ site.baseurl }}{% link configuration/services.md %}) Magento API settings, including SOAP and OAuth.
 
-### [Advanced]({{ site.baseurl }}{% link configuration/advanced.md %})
+### Advanced
 
-Determines default Admin settings, various system configuration settings, advanced module controls, and developer tools (if the store is running in [developer mode]({{ site.baseurl }}{% link magento/installation-modes.md %})).
+Determines default Admin settings, various system configuration settings, [advanced]({{ site.baseurl }}{% link configuration/advanced.md %}) module controls, and developer tools (if the store is running in [developer mode]({{ site.baseurl }}{% link magento/installation-modes.md %})).

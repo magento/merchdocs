@@ -26,7 +26,7 @@ On the Admin sidebar, click <span class="btn"> Catalog </span>.
 
 ## Products
 
-Create new products of every type and manage your inventory.
+Create new [products]({{ site.baseurl }}{% link catalog/products.md %}) of every type and manage your inventory.
 
 ![]({{ site.baseurl }}{% link images/images/category-workspace.png %}){: .zoom}
 [_Category Workspace_]({{ site.baseurl }}{% link catalog/categories.md %})
@@ -35,11 +35,12 @@ See [Products Grid]({{ site.baseurl }}{% link catalog/products.md %}).
 
 ## Categories
 
-Create the category structure that is the foundation of your store’s navigation.
+Create the [category]({{ site.baseurl }}{% link catalog/categories.md %}) structure that is the foundation of your store’s navigation.
 
 See [Categories]({{ site.baseurl }}{% link catalog/categories.md %}).
 
 <!--{% if "Default.B2B Only" contains site.edition %}-->
+
 ## Shared Catalogs
 
 [Shared catalogs]({{ site.baseurl }}{% link catalog/catalog-shared.md %}) give you the ability to make custom pricing available to different companies.

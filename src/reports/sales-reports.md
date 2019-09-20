@@ -39,16 +39,16 @@ The Shipping Report can be filtered by time interval, date, and status. The repo
 
 The Refunds Report can be filtered by time interval, date, and status. The report includes the number of refunded orders, and total amount refunded online and offline.
 
-## [Coupons]({{ site.baseurl }}{% link marketing/price-rules-cart-coupon-report.md %})
+## Coupons
 
 ![]({{ site.baseurl }}{% link images/images/reports-sales-coupons.png %}){: .zoom}
 *Coupons Report*
 
-The Coupons Report can be filtered by time interval, date, and status. The report includes each coupon code used during the specified time interval, related price rule, and number of times used with totals and subtotals for sales and discounts.
+The [Coupons Report]({{ site.baseurl }}{% link marketing/price-rules-cart-coupon-report.md %}) can be filtered by time interval, date, and status. The report includes each coupon code used during the specified time interval, related price rule, and number of times used with totals and subtotals for sales and discounts.
 
-## [PayPal Settlement]({{ site.baseurl }}{% link payment/paypal-settlement-reports.md %})
+## PayPal Settlement
 
 ![]({{ site.baseurl }}{% link images/images/reports-sales-paypal-settlement.png %}){: .zoom}
 *PayPal Settlement Report*
 
-The PayPal Settlement Report can be filtered by date, merchant account, transaction ID, invoice ID, or PayPal reference ID. The report includes the type of event, such as a debit card transaction, the start and finish dates, gross amount, and related fees. The report can be automatically updated with the most current data from PayPal.
+The [PayPal Settlement Report]]({{ site.baseurl }}{% link payment/paypal-settlement-reports.md %}) can be filtered by date, merchant account, transaction ID, invoice ID, or PayPal reference ID. The report includes the type of event, such as a debit card transaction, the start and finish dates, gross amount, and related fees. The report can be automatically updated with the most current data from PayPal.
