@@ -27,7 +27,7 @@ Create [related product rules]({{ site.baseurl }}{%- link marketing/product-rela
 
 ### Private Sales
 
-Private Sales and other catalog events are a great way to leverage your existing customer base to generate buzz and new leads with exclusive access for members only, or by invitation.
+Private Sales and other catalog events are a great way to [leverage]({{ site.baseurl }}{%- link marketing/promotions.md -%}) your existing customer base to generate buzz and new leads with exclusive access for members only, or by invitation.
 <!--{% endif %}-->
 
 ### Communications
