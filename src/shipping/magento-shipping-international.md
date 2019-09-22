@@ -10,7 +10,7 @@ International settings include:
 
 - **Country of Origin** - The country from which the item will be shipped.
 
-- **HS Code** - The Harmonized System is an international nomenclature for the classification of products. It allows participating countries to classify traded goods on a common basis for customs purposes. At the international level, the [Harmonized System (HS)](https://unstats.un.org/unsd/tradekb/Knowledgebase/50018/Harmonized-Commodity-Description-and-Coding-Systems-HS) for classifying goods is a six-digit code system.
+- **HS Code** - The Harmonized System is an international classification of products. It allows participating countries to classify traded goods on a common basis for customs purposes. At the international level, the [Harmonized System (HS)](https://unstats.un.org/unsd/tradekb/Knowledgebase/50018/Harmonized-Commodity-Description-and-Coding-Systems-HS) for classifying goods is a six-digit code system.
 
 ![]({{ site.baseurl }}{% link images/images/product-shipping.png %}){: .zoom}
 [_Shipping tab_]({{ site.baseurl }}{% link catalog/product-shipping.md %})
