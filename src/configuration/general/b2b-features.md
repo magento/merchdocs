@@ -5,7 +5,7 @@ title: B2B Features
 
 Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [General]({{ site.baseurl }}{% link configuration/general/general.md %}) > B2B Features
 
-## [B2B Features]({{ site.baseurl }}{% link quick-tour/b2b-quick-start.md %})
+## B2B Features
 
 ![]({{ site.baseurl }}{% link images/images-b2b/config-general-b2b-features.png %}){: .zoom}
 _B2B Features_
