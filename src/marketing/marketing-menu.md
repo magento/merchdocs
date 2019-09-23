@@ -18,35 +18,35 @@ On the Admin sidebar, tap <span class="btn">Marketing</span>.
 
 ## Main Sections
 
-### [Promotions]({{ site.baseurl }}{%- link marketing/promotions.md -%})
+### Promotions
 
-Create [catalog]({{ site.baseurl }}{%- link marketing/price-rules-catalog.md -%}) and [cart]({{ site.baseurl }}{%- link marketing/price-rules-cart.md -%}) price rules that trigger discounts based on a variety of conditions. Set up promotions that spring into action when the required conditions are met.
+Create [catalog]({{ site.baseurl }}{%- link marketing/price-rules-catalog.md -%}) and [cart]({{ site.baseurl }}{%- link marketing/price-rules-cart.md -%}) price rules that trigger discounts based on a variety of conditions. Set up [promotions]({{ site.baseurl }}{%- link marketing/promotions.md -%}) that spring into action when the required conditions are met.
 
 <!--{%- if "Default.EE-B2B" contains site.edition -%}-->
 Create [related product rules]({{ site.baseurl }}{%- link marketing/product-related-rules.md -%}) and manage [gift card accounts]({{ site.baseurl }}{%- link catalog/product-gift-card-accounts.md -%}).
 
-### [Private Sales]({{ site.baseurl }}{%- link marketing/promotions.md -%})
+### Private Sales
 
-Private sales and other catalog events are a great way to leverage your existing customer base to generate buzz and new leads with exclusive access for members only, or by invitation.
+Private Sales and other catalog events are a great way to [leverage]({{ site.baseurl }}{%- link marketing/promotions.md -%}) your existing customer base to generate buzz and new leads with exclusive access for members only, or by invitation.
 <!--{% endif %}-->
 
-### [Communications]({{ site.baseurl }}{%- link marketing/communications.md -%})
+### Communications
 
-Customize all notifications sent from your store. Create [newsletters]({{ site.baseurl }}{%- link marketing/newsletters.md -%})
+Customize all [notifications]({{ site.baseurl }}{%- link marketing/communications.md -%}) sent from your store. Create [newsletters]({{ site.baseurl }}{%- link marketing/newsletters.md -%})
 and publish [RSS]({{ site.baseurl }}{%- link marketing/rss-feed.md -%}) feeds.
 
 <!--{%- if "Default.EE-B2B" contains site.edition -%}-->
 Set up rules that send [email reminders]({{ site.baseurl }}{%- link marketing/email-reminder-rules.md -%}) to customers whenever the conditions are met.
 
 <!--{% endif %}-->
-### [SEO &amp; Search]({{ site.baseurl }}{%- link marketing/seo-search.md -%})
+### SEO and Search
 
 Analyze [search terms]({{ site.baseurl }}{%- link marketing/search-terms.md -%}) and [synonyms]({{ site.baseurl }}{%- link marketing/search-synonyms.md -%}) to help customers find products in the store, manage [meta data]({{ site.baseurl }}{%- link marketing/meta-data.md -%}), and create a [site map]({{ site.baseurl }}{%- link marketing/sitemap-xml.md -%}). Use [redirects]({{ site.baseurl }}{%- link marketing/url-rewrite.md -%}) to manage URL changes and avoid broken links.
 
-### [User Content]({{ site.baseurl }}{%- link marketing/product-reviews.md -%})
+### User Content
 
-Leverage user-generated product reviews to create a sense of community, and increase sales.
+Leverage user-generated [product reviews]({{ site.baseurl }}{%- link marketing/product-reviews.md -%}) to create a sense of community, and increase sales.
 
-### [Customer Engagement]({{ site.baseurl }}{% link marketing/engagement-cloud.md %})
+### Customer Engagement
 
-Create personalized, automated engagement campaigns that exceed customer expectations. Connect your data to boost ROI, and increase customer lifetime value.
+Create personalized, [automated engagement]({{ site.baseurl }}{% link marketing/engagement-cloud.md %}) campaigns that exceed customer expectations. Connect your data to boost ROI, and increase customer lifetime value.
