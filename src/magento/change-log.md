@@ -29,6 +29,9 @@ Our documentation is continually updated with new topics, clarifications, and co
 - [Attribute Mapping]({{ site.baseurl }}{% link shipping/magento-shipping-attributes.md %})
 - [Shipping Experience Rules]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %})
 - [Preview Experience]({{ site.baseurl }}{% link shipping/magento-shipping-preview-experience.md %})
+- [Shipping]({{ site.baseurl }}{% link catalog/product-shipping.md %})
+- [International Shipping]({{ site.baseurl }}{% link shipping/magento-shipping-international.md %})
+- [Pre-Package Assignment]({{ site.baseurl }}{% link shipping/magento-shipping-pre-packaged.md %})
 
 ### Updated Topics
 
@@ -36,7 +39,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |--- |--- |
 |[Configuration Reference]({{ site.baseurl }}{% link stores/configuration.md %})|Updated the screen shot to include the Yotpo section. Also added the Yotpo configuration topics in the left-side navigation.|
 |[Product Reviews]({{ site.baseurl }}{% link marketing/product-reviews.md %})|Created new Marketing > Shopping Tools > Product Reviews sub-menu that includes the Magento Product Reviews and new Yotpo Reviews topics.|
-|[Magento Shipping]({{ site.baseurl }}{% link shipping/magento-shipping.md %})|Updated Magento Shipping section.|
+|[Magento Shipping]({{ site.baseurl }}{% link shipping/magento-shipping.md %})|Updated Magento Shipping section for the latest Temando installation.|
 |[Google Shopping ads Channel]({{ site.baseurl }}{% link sales-channels/google-ads/onboarding-google.md %})|Added a note clarifying the inclusion of Google Shopping ads Channel with Magento 2.3.3.|
 |[Onboarding Google Shopping ads Channel]({{ site.baseurl }}{% link sales-channels/google-ads/google-ad-channel.md %})|Added a note clarifying the inclusion of Google Shopping ads Channel with Magento 2.3.3.|
 |[Add/Updated Google API Key]({{ site.baseurl }}{% link sales-channels/google-ads/verify-api-key.md %})|Updated API Key steps.|
