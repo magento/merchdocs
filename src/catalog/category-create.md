@@ -119,7 +119,7 @@ _Category Tree_
 
 1. Use the [filters]({{ site.baseurl }}{% link stores/admin-grid-controls.md %}) as needed to find the products.
 
-    To display all records that are not yet included in the category, set the record chooser in the first column to `No`. Then, click **Search**.
+    To display all records that are not yet included in the category, set the record chooser in the first column to `No and click **Search**.
 
 1. In the first column, select the checkbox for each product to include in the category.
 
