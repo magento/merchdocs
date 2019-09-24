@@ -3,19 +3,19 @@ title: Admin Session Lifetime
 group: getting-started
 ---
 
-As a security measure, the Admin is initially set to time out after 900 seconds, or fifteen minutes of keyboard inactivity. However, you can adjust the lifetime of the session to fit your work style.
+As a security measure, the Admin is initially set to time out after 900 seconds (fifteen minutes) of keyboard inactivity. You can adjust the lifetime of the session to fit your work style.
 
-## To set the session lifetime:
+## Adjust Session Lifetime
 
-1. On the Admin sidebar, choose **Stores**. Then under **Settings**, choose **Configuration**.
+To set the session lifetime:
 
-1. In the panel on the left under **Advanced**, choose **Admin**.
+1. In the _Admin_ sidebar, click **Stores**.
+1. Under _Settings_, click **Configuration**.
+1. Under _Advanced_, click **Admin**.
+1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the _Security_ section.
+1. For **Admin Session Lifetime (seconds)**, enter the number of seconds that a session remains active before it times out.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Security** section.
+    ![Security]({{ site.baseurl }}{% link images/images/config-advanced-admin-security.png %}){: .zoom}
+    [_Security_]({{ site.baseurl }}{% link configuration/advanced/admin.md %})_
 
-1. In the **Admin Session Lifetime (seconds)** field, enter the number of seconds that a session remains active before it times out.
-
-    ![]({{ site.baseurl }}{% link images/images/config-advanced-admin-security.png %}){: .zoom}
-    _[Security]({{ site.baseurl }}{% link configuration/advanced/admin.md %})_
-
-1. When complete, tap <span class="btn">Save Config</span>.
+1. Click **Save Config**.
