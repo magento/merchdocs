@@ -2,38 +2,38 @@
 title: Quick Look
 ---
 
-## [Advanced Shipments]({{ site.baseurl }}{% link sales/shipments-create.md %})
+## Advanced Shipments
 
-Magento Shipping is now available in [seventeen countries]({{ site.baseurl }}{% link shipping/magento-shipping.md %}), where you can create shipments with advanced features such as route and package information with dimensional weight, carrier quotes, international details with required export information, harmonization codes, shipping documents and labels, delivery instructions, and tracking information.
+Magento Shipping is now available in [seventeen countries]({{ site.baseurl }}{% link shipping/magento-shipping.md %}), where you can create [shipments]({{ site.baseurl }}{% link sales/shipments-create.md %}) with advanced features such as route and package information with dimensional weight, carrier quotes, international details with required export information, harmonization codes, shipping documents and labels, delivery instructions, and tracking information.
 
-## [Locations]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %})
+## Locations
 
-Configure multiple warehouses, distribution centers, retail stores, drop shippers, and third-party logistics. Allocate shipments to any supported fulfillment location.
+Configure multiple warehouses, distribution centers, retail stores, drop shippers, and third-party logistics. Allocate shipments to any supported fulfillment [location]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %}).
 
-## [Click &amp; Collect]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %})
+## Click and Collect
 
-Offer the convenience of ordering online, with convenient customer pickup at a nearby location.[!
+Offer the convenience of ordering online, with convenient customer pickup at a [nearby location]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %}).
 
-## [Collection Points]({{ site.baseurl }}{% link shipping/magento-shipping-collection-points.md %})
+## Collection Points
 
-Collection points allow customers to order online and have it shipped to a designated collection point, rather than to their address.
+[Collection points]({{ site.baseurl }}{% link shipping/magento-shipping-collection-points.md %}) allow customers to order online and have it shipped to a designated collection point, rather than to their address.
 
-## [Dispatches]({{ site.baseurl }}{% link sales/dispatches.md %})
+## Dispatches
 
-Book shipments with all carriers, and maintain a manifest of scheduled pickup with selected carriers. 
+Book shipments with all carriers, and maintain a manifest of [scheduled pickup]({{ site.baseurl }}{% link sales/dispatches.md %}) with selected carriers. 
 
-## [Batches]({{ site.baseurl }}{% link sales/batches.md %})
+## Batches
 
-Orders that are ready to ship with Magento Shipping can be booked together as multiple shipments, and processed as a batch.
+Orders that are [ready to ship]({{ site.baseurl }}{% link sales/batches.md %}) with Magento Shipping can be booked together as multiple shipments, and processed as a batch.
 
-## [Shipping Partners]({{ site.baseurl }}{% link shipping/magento-shipping-carriers.md %})
+## Shipping Partners
 
-Receive real-time rates from global carriers, and configure multiple accounts with the same carrier across multiple locations. Access prenegotiated rates for selected carriers, or create your own negotiated rates in selected markets.
+Receive real-time rates from [global carriers]({{ site.baseurl }}{% link shipping/magento-shipping-carriers.md %}), and configure multiple accounts with the same carrier across multiple locations. Access prenegotiated rates for selected carriers, or create your own negotiated rates in selected markets.
 
-## [Packaging]({{ site.baseurl }}{% link shipping/magento-shipping-packaging.md %})
+## Packaging
 
-Manage package names and dimensions, and access carrier supplied packaging information.
+Manage package names and dimensions, and access carrier supplied [packaging information]({{ site.baseurl }}{% link shipping/magento-shipping-packaging.md %}).
 
-## [Shipping Experience Rules]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %})
+## Shipping Experience Rules
 
-Automate the shipping and fulfillment processes based on a variety of factors, including inventory levels, proximity to destination, product type, shipping costs, ETA, carrier, packaging, and more.
+Automate the [shipping and fulfillment]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %}) processes based on a variety of factors, including inventory levels, proximity to destination, product type, shipping costs, ETA, carrier, packaging, and more.

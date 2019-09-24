@@ -5,12 +5,12 @@ title: Private Sales Reports
 
 The [Private Sales Reports]({{ site.baseurl }}{% link reports/reports-menu.md %}) provide information about events and private sales.
 
-## [Invitations]({{ site.baseurl }}{% link marketing/invitations.md %})
+## Invitations
 
 ![]({{ site.baseurl }}{% link images/images-ee/reports-private-sales-invitations.png %}){: .zoom}
 *Invitations Report*
 
-The Invitations Report shows the number of invitations sent during the specified time period, and the number accepted, and discarded.
+The [Invitations Report]({{ site.baseurl }}{% link marketing/invitations.md %}) shows the number of invitations sent during the specified time period, and the number accepted, and discarded.
 
 ## Invited Customers
 
