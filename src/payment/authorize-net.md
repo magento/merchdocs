@@ -8,9 +8,6 @@ As of September 14, 2019, European banks might decline payments that do not meet
 
 The Authorize.Net payment method has replaced the Authorize.Net Direct Post (Deprecated) payment method. Authorize.Net handles all steps in the transaction process — such as payment data collection, data submission, and response to the customer — while the customer remains in your store. Authorize.Net can be used with orders created from the Admin as well as from the store.
 
-{:.bs-callout .bs-callout-info}
-Authorize.Net has deprecated the [Authorize.Net Direct Post (Deprecated)]({{ site.baseurl }}{% link payment/authorize-net-direct-post.md %}) payment method. To ensure payments continue to process correctly, configure Authorize.Net payment method for transactions.
-
 ## Customer Workflow
 
 | **1** | **Customer chooses payment method** | During checkout, the customer chooses Authorize.Net as the payment method.|
