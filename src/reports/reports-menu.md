@@ -22,39 +22,38 @@ On the Admin sidebar, tap <span class="btn"> Reports </span>.
 
 ### Menu Options
 
-## [Marketing]({{ site.baseurl }}{% link reports/marketing-reports.md %})
+## Marketing
 
-A selection of marketing reports, including Products in Cart, Search Terms, Abandoned Carts, and Newsletter Problem Reports.
+A selection of [marketing reports]({{ site.baseurl }}{% link reports/marketing-reports.md %}), including Products in Cart, Search Terms, Abandoned Carts, and Newsletter Problem Reports.
 
-## [Reviews]({{ site.baseurl }}{% link reports/review-reports.md %})
+## Reviews
 
-The selection of product review reports includes By Customer and By Product.
+The selection of product [review reports]({{ site.baseurl }}{% link reports/review-reports.md %}) includes By Customer and By Product.
 
-## [Sales]({{ site.baseurl }}{% link reports/sales-reports.md %})
+## Sales
 
-The selection of sales reports includes Orders, Tax, Invoiced, Shipping, Refunds, Coupons, and settlement reports for PayPal and Braintree.
+The selection of [sales reports]({{ site.baseurl }}{% link reports/sales-reports.md %}) includes Orders, Tax, Invoiced, Shipping, Refunds, Coupons, and settlement reports for PayPal and Braintree.
 
-## [Customers]({{ site.baseurl }}{% link reports/customer-reports.md %})
+## Customers
 
-{% if "Default.CE Only" contains site.edition %}The selection of customer reports includes Order Total, Order Account, and New. {% endif %}
-{% if "Default.EE-B2B" contains site.edition %}The selection of customer reports includes Order Total, Order Account, New, Wish Lists, and Segments.{% endif %}
+{% if "Default.CE Only" contains site.edition %}The selection of [customer reports]({{ site.baseurl }}{% link reports/customer-reports.md %}) includes Order Total, Order Account, and New. {% endif %}
+{% if "Default.EE-B2B" contains site.edition %}The selection of [customer reports]({{ site.baseurl }}{% link reports/customer-reports.md %}) includes Order Total, Order Account, New, Wish Lists, and Segments.{% endif %}
 
-## [Products]({{ site.baseurl }}{% link reports/product-reports.md %})
+## Products
 
-The selection of product reports includes Views, Bestsellers, Low Stock, Ordered, and Downloads.
+The selection of [product reports]({{ site.baseurl }}{% link reports/product-reports.md %}) includes Views, Bestsellers, Low Stock, Ordered, and Downloads.
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 
-## [Private Sales]({{ site.baseurl }}{% link reports/statistics.md %})
+## Private Sales
 
-The selection of reports for private sales and events includes Invitation, Invited Customers, and Conversions.
+The selection of reports for [private sales and events]({{ site.baseurl }}{% link reports/statistics.md %}) includes Invitation, Invited Customers, and Conversions.
 <!--{% endif %}-->
 
-## [Statistics]({{ site.baseurl }}{% link reports/statistics.md %})
+## Statistics
 
-Statistics is a tool that reduces the performance impact of generating reports by calculating and storing statistical data. Rather than recalculate the statistics every time a report is generated, the stored statistics are used until you refresh the statistics.
+[Statistics]({{ site.baseurl }}{% link reports/statistics.md %}) is a tool that reduces the performance impact of generating reports by calculating and storing statistical data. Rather than recalculate the statistics every time a report is generated, the stored statistics are used until you refresh the statistics.
 
-## [Business Intelligence]({{ site.baseurl }}{% link reports/business-intelligence.md %})
+## Business Intelligence
 
-The [Advanced Reporting]({{ site.baseurl }}{% link reports/advanced-reporting.md %})
-dashboard gives you valuable insight with a dynamic set of product, order, and customer reports, powered by Magento Business Intelligence. for more sophisticated reporting and analysis, sign up for a free trial of [BI-Essentials]({{ site.baseurl }}{% link reports/bi-essentials.md %}).
+The [Advanced Reporting]({{ site.baseurl }}{% link reports/advanced-reporting.md %}) dashboard gives you valuable insight with a dynamic set of product, order, and customer reports, powered by Magento [Business Intelligence]({{ site.baseurl }}{% link reports/business-intelligence.md %}). for more sophisticated reporting and analysis, sign up for a free trial of [BI-Essentials]({{ site.baseurl }}{% link reports/bi-essentials.md %}).

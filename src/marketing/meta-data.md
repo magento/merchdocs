@@ -24,9 +24,9 @@ Meta descriptions provide a brief overview of the page for search results listin
 
 ![]({{ site.baseurl }}{%- link images/images/config-catalog-catalog-search-engine-optimization.png -%}){: .zoom}
 
-## [Canonical Meta Tag]({{ site.baseurl }}{%- link marketing/meta-canonical.md -%})
+## Canonical Meta Tag
 
-The canonical meta tag tells search engines which page to index when multiple URLs have identical or very similar content.
+The [canonical meta tag]({{ site.baseurl }}{%- link marketing/meta-canonical.md -%}) tells search engines which page to index when multiple URLs have identical or very similar content.
 
 ![]({{ site.baseurl }}{%- link images/images/storefront-meta-description.png -%}){: .zoom}
 

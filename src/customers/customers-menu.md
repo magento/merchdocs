@@ -21,17 +21,17 @@ On the _Admin_ sidebar, click <span class="btn">Customers </span>.
 
 ## Menu Options
 
-### [All Customers]({{ site.baseurl }}{% link customers/customers-all.md %})
+### All Customers
 
-Lists all customers who have registered for an account with your store or were added by the administrator.
+Lists [all customers]({{ site.baseurl }}{% link customers/customers-all.md %}) who have registered for an account with your store or were added by the administrator.
 
-### [Now Online]({{ site.baseurl }}{% link customers/now-online.md %})
+### Now Online
 
-Lists all customers and visitors who are currently online in your store.
+Lists all customers and visitors who are currently [online]({{ site.baseurl }}{% link customers/now-online.md %}) in your store.
 
-### [Customer Groups]({{ site.baseurl }}{% link customers/customer-groups.md %})
+### Customer Groups
 
-The customer group determines which discounts are available to shoppers and the tax class for the purchase.
+The [customer group]({{ site.baseurl }}{% link customers/customer-groups.md %}) determines which discounts are available to shoppers and the tax class for the purchase.
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ### [Segments]({{ site.baseurl }}{% link marketing/customer-segments.md %})
@@ -40,8 +40,8 @@ Dynamically display content and promotions to specific customers based on proper
 
 <!--{% endif %}-->
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-### [Companies]({{ site.baseurl }}{% link customers/account-companies.md %})
+### Companies
 
-Lists all active company accounts and pending requests, regardless of status setting, and provides the tools needed to create and [manage]({{ site.baseurl }}{% link customers/account-company-manage.md %}) company.
+Lists all active [company accounts]({{ site.baseurl }}{% link customers/account-companies.md %}) and pending requests, regardless of status setting, and provides the tools needed to create and [manage]({{ site.baseurl }}{% link customers/account-company-manage.md %}) company accounts.
 
 <!--{% endif %}-->

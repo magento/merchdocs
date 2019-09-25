@@ -11,12 +11,12 @@ Marketing reports provide information about the status of shopping carts, the us
 
 The Products in Cart Report lists all products currently in shopping carts, and includes the name and price of each item, the number of carts with the item, and the number of times each item has been ordered.
 
-## [Search Terms]({{ site.baseurl }}{% link marketing/search-terms-report.md %})
+## Search Terms
 
 ![]({{ site.baseurl }}{% link images/images/reports-marketing-search-terms.png %}){: .zoom}
 *Search Terms Report*
 
-The Search Terms Report shows what your customers are looking for in each store view. The report includes the number of matching items found in the catalog, and how many times the search term has been used.
+The [Search Terms Report]({{ site.baseurl }}{% link marketing/search-terms-report.md %}) shows what your customers are looking for in each store view. The report includes the number of matching items found in the catalog, and how many times the search term has been used.
 
 ## Abandoned Carts
 
