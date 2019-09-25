@@ -2,6 +2,10 @@
 title: PayPal Payments Advanced
 ---
 
+{:.bs-callout .bs-callout-warning}
+**Payment Services Directive Requirements:** <br/>
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, PayPal Payments Advanced must be integrated with Cardinal Commerce. To learn more, see [3-D Secure for Payflow](https://developer.paypal.com/docs/classic/payflow/3d-secure-overview/).
+
 PayPal Payments Advanced is a [PCI-compliant]({{ site.baseurl }}{% link stores/compliance-pci.md %}) solution that lets your customers pay by debit or credit card without leaving your site. It includes an embedded checkout page that can be customized to create a seamless and secure checkout experience.
 
 ![PayPal Payments Advanced]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced.png %}){: .zoom}
