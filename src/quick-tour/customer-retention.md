@@ -9,7 +9,7 @@ Email Marketing Automation
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 Merchandise Return
-:  Customers can submit requests for [Return Merchandise Authorization]({{ site.baseurl }}{% link sales/returns.md %}) from your store. You can create shipment orders in a carrier system, and print shipping labels with RMA numbers.
+:  Customers can submit requests for [Return Merchandise Authorization]({{ site.baseurl }}{% link sales/returns.md %}) from your store. You can create shipment orders in a carrier system and print shipping labels with RMA numbers.
 
 Store Credit
 :  Keep customers loyal and happy by issuing refunds as [store credit]({{ site.baseurl }}{% link sales/store-credit-using.md %}) or virtual gift cards to ensure that the money they spend stays in your store.
