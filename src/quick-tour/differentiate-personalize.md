@@ -16,7 +16,7 @@ Smart Shopping Rules
 :  Customize the shopping experience with price rules and [promotions]({{ site.baseurl }}{% link marketing/promotions.md %}) that trigger at the product or shopping cart level.
 
 Customer Groups
-:  Offer different products and pricing according to [customer group]({{ site.baseurl }}{% link customers/customer-groups.md %}) or [shared catalog]({{ site.baseurl }}{% link catalog/catalog-shared.md %}). Determine which discounts are available, and the tax class that applies to the order.
+:  Offer different products and pricing according to [customer group]({{ site.baseurl }}{% link customers/customer-groups.md %}) or [shared catalog]({{ site.baseurl }}{% link catalog/catalog-shared.md %}). Determine which discounts are available and the tax class that applies to the order.
 
 Maintain Multiple Tailored Websites
 :  Maintain [multiple tailored sites]({{ site.baseurl }}{% link stores/websites-stores-views.md %}) based on brand, geography, channel partner, or account. Introduce new market and languages, and track analytics from a single Admin.

@@ -13,7 +13,7 @@ Home Page
 :  Your [home page]({{ site.baseurl }}{% link quick-tour/home-page.md %}) is like the front window display of your store. As the primary landing page, its design entices visitors to come inside for a closer look.
 
 Catalog Page
-:  The [Catalog page]({{ site.baseurl }}{% link quick-tour/catalog-page.md %}) shows products from your catalog in either a list or grid format. Customers can make selections  based on a category they choose from the main menu, by using the layered navigation on the left, or from the results of a search. They can examine the item in more detail, or placed it directly into the shopping cart.
+:  The [Catalog page]({{ site.baseurl }}{% link quick-tour/catalog-page.md %}) shows products from your catalog in either a list or grid format. Customers can make selections based on a category they choose from the main menu, by using the layered navigation on the left or from the results of a search. They can examine the item in more detail or place it directly into the shopping cart.
 
 Search Results
 :  Did you know that people who use [search]({{ site.baseurl }}{% link quick-tour/search-results.md %}) are nearly twice as likely to make a purchase as those who rely on navigation alone? You might consider these shoppers to be _pre-qualified_.

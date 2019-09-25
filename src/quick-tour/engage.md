@@ -9,7 +9,7 @@ Content Management
 :  Magento’s [Page Builder]({{ site.baseurl }}{% link cms/page-builder.md %}) makes it easy to create [targeted pages]({{ site.baseurl }}{% link cms/page-builder-add-dynamic-block.md %}) with [interactive elements]({{ site.baseurl }}{% link cms/page-builder-elements-buttons.md %}) that engage your customers. Even those without a technology background can create and manage content.
 <!--{% endif %}-->
 <!--{% if "Default.CE Only" contains site.edition %}-->
-:  Magento’s [CMS]({{ site.baseurl }}{% link cms/content-menu.md %}) makes it easy to store pages, or parts of pages, that you can use in your store. Even those without a technology background can create and manage site content.
+:  Magento’s [CMS]({{ site.baseurl }}{% link cms/content-menu.md %}) makes it easy to store pages, or parts of pages, that you can use in your store. Even users without a technology background can create and manage site content.
 <!--{% endif %}-->
 
 Design and Theme
