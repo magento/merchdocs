@@ -14,9 +14,7 @@ When entering your credentials, the username and password may automatically popu
 ![]({{ site.baseurl }}{% link images/images/admin-login.png %}){: .zoom}
 _Admin Sign In_
 
-## Sign In
-
-To sign in to the Admin:
+## Sign in
 
 1. Enter the URL that was specified during the installation followed by the base URL of your store’s Admin in your browser.
 
@@ -24,15 +22,15 @@ To sign in to the Admin:
 
    You can bookmark the page or save a shortcut on your desktop for easy access.
 
-1. Enter your Admin **Username** and **Password**. These values may populate depending on your browser's autocomplete setting.
+1. Enter your Admin **Username** and **Password**. 
+
+   These values may populate depending on your browser's autocomplete setting.
 
 1. (Optional) Resolve a [CAPTCHA]({{ site.baseurl }}{% link stores/security-captcha.md %}) or [reCAPTCHA]({{ site.baseurl }}{% link stores/security-google-recaptcha.md %}) or enter a configured [Two-Factor Authentication]({{ site.baseurl }}{% link stores/security-two-factor-authentication.md %}) code.
 
 1. Click **Sign in**.
 
-## Reset Your Password
-
-To reset your password:
+## Reset your password
 
 1. Click **Forgot Your Password?**.
 
@@ -46,11 +44,9 @@ To reset your password:
    If an account is associated with the email address, an email will be sent to reset your password.
 
    {:.bs-callout .bs-callout-info}
-   An Admin password must be seven or more characters long and include both letters and numbers. See [Configuring Admin Security]({{ site.baseurl }}{% link stores/security-admin.md %}) for information on password options.
+   An Admin password must be seven or more characters long and include both letters and numbers. See [Configuring Admin Security]({{ site.baseurl }}{% link stores/security-admin.md %}) for information about password options.
 
-## Sign Out
-
-To sign out of the Admin:
+## Sign out
 
 1. In the upper-right corner, click the **Account** (![Account]({{ site.baseurl }}{% link images/images/btn-account.png %}){: .Inline}) icon.
 
