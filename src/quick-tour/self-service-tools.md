@@ -3,23 +3,23 @@ conditions: Default.B2B Only
 title: Empower with Self-Service Tools
 ---
 
-[Self-Service Tools]({{ site.baseurl }}{% link customers/account-dashboard.md %})
-:  Magento’s self-service model empowers customers to manage their own accounts and ordering process.
+Self-Service Tools
+:  Magento’s self-service model provides an [account dashboard]({{ site.baseurl }}{% link customers/account-dashboard.md %}) that empowers customers to manage their own accounts and ordering process.
 
-[Corporate Accounts]({{ site.baseurl }}{% link customers/account-companies.md %})
-:  The company administrator can set up the company structure and teams of users.
+Corporate Accounts
+:  The company administrator can set up the [company structure]({{ site.baseurl }}{% link customers/account-companies.md %}) and teams of users.
 
-[Buyer Roles and Permissions]({{ site.baseurl }}{% link customers/account-company-roles-permissions.md %})
-:  Set up company buyers with various levels of permission to specific purchasing operations, sales information, and resources.
+Buyer Roles and Permissions
+:  Set up company buyers with various [levels of permission]({{ site.baseurl }}{% link customers/account-company-roles-permissions.md %}) to specific purchasing operations, sales information, and resources.
 
-[Payments On Account]({{ site.baseurl }}{% link payment/payment-on-account.md %})
-:  Allow companies to make purchases charged to their account, up to the credit limit that is specified in their profile.
+Payments On Account
+:  Allow companies to make [purchases charged to their account]({{ site.baseurl }}{% link payment/payment-on-account.md %}), up to the credit limit that is specified in their profile.
 
-[Negotiated Quotes]({{ site.baseurl }}{% link sales/quote-request.md %})
-:  Company buyers can request a quote from the shopping cart, and negotiate with the seller to reach a acceptable price per line item.
+Negotiated Quotes
+:  Company buyers can [request a quote]({{ site.baseurl }}{% link sales/quote-request.md %}) from the shopping cart, and then negotiate with the seller to reach a acceptable price per line item.
 
-[Quote Tracking]({{ site.baseurl }}{% link customers/account-dashboard-quotes.md %})
-:  A detailed history of all activity related to quotes, including all interactions between buyer and seller during the negotiation process is available from the company’s account and from the store’s back office Admin.
+Quote Tracking
+:  A detailed history of all [activity related to quotes]({{ site.baseurl }}{% link customers/account-dashboard-quotes.md %}), including all interactions between buyer and seller during the negotiation process, is available from the company’s account and from the store’s back office Admin.
 
-[Order History]({{ site.baseurl }}{% link customers/account-dashboard-my-orders.md %})
-:  From the convenience of the account dashboard, customers can create new orders based on past orders, track shipments, and print orders, invoices, shipments and refunds.
+Order History
+:  From the convenience of the account dashboard, customers can access their [order history]({{ site.baseurl }}{% link customers/account-dashboard-my-orders.md %}) and easily create new orders based on past orders, track shipments, and print orders, invoices, shipments and refunds.
