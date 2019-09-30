@@ -243,9 +243,9 @@ pages:
       url: "/payment/authorize-net-direct-post.html"
     - label: Authorize.Net
       url: "/payment/authorize-net.html"
-    - label: CyberSource
+    - label: CyberSource (Deprecated)
       url: "/payment/cybersource.html"
-    - label: eWAY
+    - label: eWAY (Deprecated)
       url: "/payment/eway.html"
     - label: Worldpay
       url: "/payment/worldpay.html"
@@ -295,24 +295,38 @@ pages:
     children:
     - label: Quick Look
       url: "/shipping/magento-shipping-quick-look.html"
+    - label: Supported Countries
+      url: "/shipping/magento-shipping-countries.html"
     - label: Customer Experience
       url: "/shipping/magento-shipping-customer-experience.html"
     - label: Setting Up Magento Shipping
       url: "/shipping/magento-shipping-setup.html"
       children:
+      - label: Carriers
+        url: "/shipping/magento-shipping-carriers.html"
       - label: Locations
         url: "/shipping/magento-shipping-locations.html"
-      - label: Shipping Partners
-        url: "/shipping/magento-shipping-carriers.html"
       - label: Packaging
         url: "/shipping/magento-shipping-packaging.html"
-    - label: Shipping Experience Rules
-      url: "/shipping/magento-shipping-experience-rules.html"
+      - label: Experiences
+        url: "/shipping/magento-shipping-experience.html"
+      - label: Attribute Mapping
+        url: "/shipping/magento-shipping-attributes.html"
+    - label: Shipping Experiences
+      url: "/shipping/magento-shipping-experience.html"
       children:
+      - label: Shipping Experience Rules
+        url: "/shipping/magento-shipping-experience-rules.html"
       - label: Click & Collect
         url: "/shipping/magento-shipping-click-collect.html"
       - label: Collection Points
         url: "/shipping/magento-shipping-collection-points.html"
+      - label: Preview Experience
+        url: "/shipping/magento-shipping-preview-experience.html"
+    - label: Pre-Packaged Assignments
+      url: "/shipping/magento-shipping-pre-packaged.html"
+    - label: International Shipping
+      url: "/shipping/magento-shipping-international.html"
     - label: Find Solutions
       url: "/shipping/magento-shipping-troubleshooting.html"
   - label: Carriers
