@@ -14,9 +14,7 @@ When entering your credentials, the username and password may automatically popu
 ![]({{ site.baseurl }}{% link images/images/admin-login.png %}){: .zoom}
 _Admin Sign In_
 
-## Sign In
-
-To sign in to the Admin:
+## Sign In to the Admin
 
 1. Enter the URL that was specified during the installation followed by the base URL of your store’s Admin in your browser.
 
@@ -32,7 +30,7 @@ To sign in to the Admin:
 
 ## Reset Your Password
 
-To reset your password:
+The first time anyone signs in to the Admin, the **Allow admin usage data collection** dialog displays. See [Store Admin]({{ site.baseurl }}{% link stores/admin.md %}) for more information.
 
 The first time anyone signs in to the Admin, the **Allow admin usage data collection** dialog displays. See [Store Admin]({{ site.baseurl }}{% link stores/admin.md %}) for more information.
 
@@ -50,9 +48,7 @@ The first time anyone signs in to the Admin, the **Allow admin usage data collec
    {:.bs-callout .bs-callout-info}
    An Admin password must be seven or more characters long and include both letters and numbers. See [Configuring Admin Security]({{ site.baseurl }}{% link stores/security-admin.md %}) for information on password options.
 
-## Sign Out
-
-To sign out of the Admin:
+## Sign Out of the Admin
 
 1. In the upper-right corner, click the **Account** (![Account]({{ site.baseurl }}{% link images/images/btn-account.png %}){: .Inline}) icon.
 

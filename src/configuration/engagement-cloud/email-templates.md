@@ -46,3 +46,4 @@ _Email Templates_
 |**Product Alerts**|||
 |Stock Alert|Website|The campaign that sends notification to a customer of a stock alert. Options: (All available campaigns)|
 |Product Price Alert|Website|The campaign that sends notification to a customer of a product price alert. Options: (All available campaigns)|
+

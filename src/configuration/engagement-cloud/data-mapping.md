@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 
 Data field mapping establishes the relationship between customer information and activity from all stores related to your Magento website and specific contact fields in the Engagement Cloud database. Data fields can be mapped manually or automatically. To map data fields automatically, use the Automap Data Fields option in the Developer > Admin Task section of the Engagement Cloud configuration. 
 
-The configuration settings in the Data Mapping section are used to map fields manually. The Data Mapping section displays a list of the available Engagement Cloud contact data fields for each Magento data item. Initially there are only a few contact database fields as examples that can be mapped to Magento. You can create additional Engagement Cloud contact data fields and also include mapping to Magento custom attributes. To learn more, see [Data syncing: Data Mapping - Magento 2](https://support.dotdigital.com/hc/en-gb/articles/360000449530-Data-syncing-Data-mapping-Magento-2)
+The configuration settings in the Data Mapping section are used to map fields manually. The Data Mapping section displays a list of the available Engagement Cloud contact data fields for each Magento data item. Initially there are only a few contact database fields as examples that can be mapped to Magento. You can create additional Engagement Cloud contact data fields and also include mapping to Magento custom attributes. To learn more, see [Data syncing: Data Mapping - Magento 2](https://support.dotdigital.com/hc/en-gb/articles/360000449530-Data-syncing-Data-mapping-Magento-2).
 
 ## Customer Information
 
