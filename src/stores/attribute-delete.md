@@ -1,5 +1,6 @@
 ---
 title: Deleting Attributes
+group: catalog
 ---
 
 When an attribute is deleted, it is removed from any related products and attribute sets. System attributes are part of the core functionality of your store and cannot be deleted.
