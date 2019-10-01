@@ -11,7 +11,7 @@ _New Products List on Home Page_
 
 To make a product appear in the list by date range, the “New From” dates must be entered in the product. The product then appears in the New Products list during the date range specified.
 
-1. On the _Admin_ sidebar, go to **Products** > _Inventory_ > **Catalog**.
+1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
 1. Find each product that you want to feature, and open in edit mode. Then, do the following:
 
@@ -20,7 +20,7 @@ To make a product appear in the list by date range, the “New From” dates mus
     - In the **To** field, click the calendar (![]({{ site.baseurl }}{% link images/images/btn-calendar.png %}){: .Inline}). Then, choose the last date that you want the product to be featured.
 
     ![]({{ site.baseurl }}{% link images/images/product-set-as-new.png %}){: .zoom}
-    _"Set Product As New " Date Range_
+    _"Set Product As New" Date Range_
 
 1. When complete, click <span class="btn">Save</span>.
 
