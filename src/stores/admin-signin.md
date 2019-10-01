@@ -28,20 +28,16 @@ _Admin Sign In_
 
 1. Click **Sign in**.
 
+The first time anyone signs in to the Admin, it displays the **Allow admin usage data collection** dialog. See [Store Admin]({{ site.baseurl }}{% link stores/admin.md %}) for more information.
+
 ## Reset Your Password
-
-The first time anyone signs in to the Admin, the **Allow admin usage data collection** dialog displays. See [Store Admin]({{ site.baseurl }}{% link stores/admin.md %}) for more information.
-
-The first time anyone signs in to the Admin, the **Allow admin usage data collection** dialog displays. See [Store Admin]({{ site.baseurl }}{% link stores/admin.md %}) for more information.
-
-## To reset your password
 
 1. Enter the **Email Address** that is associated with the Admin account.
 
    ![]({{ site.baseurl }}{% link images/images/admin-sign-in-forgot-password.png %}){: .zoom}
    _Forgot Password_
 
-1. Tap <span class="btn">Retrieve Password</span>.
+1. Click <span class="btn">Retrieve Password</span>.
 
    If an account is associated with the email address, an email will be sent to reset your password.
 
