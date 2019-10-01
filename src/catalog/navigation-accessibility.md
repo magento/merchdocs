@@ -4,6 +4,7 @@ group: getting-started
 ---
 
 Some visitors to your site rely on keyboard controls for navigation —rather than a mouse — while others might use touch or voice commands. Although keyboard navigation controls vary by browser and platform, the Tab key is commonly used to move the focus through the fields, links, and buttons on a page. To learn more, see [Keyboard Shortcuts][1]{: target="_blank"}.
+For more information about Accessibility, see [Accessibility Guidelines][2].
 
 <table>
       <col WIDTH="150">
@@ -148,3 +149,4 @@ Some visitors to your site rely on keyboard controls for navigation —rather th
    </table>
 
 [1]: https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts
+[2]: https://devdocs.magento.com/guides/v2.3/pattern-library/general/accessibilityguideline/accessibilityGuideline.html

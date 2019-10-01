@@ -4,7 +4,7 @@ title: Configuring B2B Features
 group: getting-started
 ---
 
-Each website in your Magento installation can be configured to make available some,.or all, of the following B2B features from the storefront.
+Each website in your Magento installation can be configured to make available some, or all, of the following B2B features from the storefront.
 
 * [Company]({{ site.baseurl }}{% link customers/account-companies.md %})
 * [Quick Order]({{ site.baseurl }}{% link sales/quick-order.md %})
