@@ -66,7 +66,7 @@ _Company Profile_
 |Reason for Change|A note that explains why the company is allowed, or disallowed to exceed the credit limit. This field is active only if the permission to exceed the credit limit changes.|
 |**Advanced Settings**||
 |Customer Group|Indicates the [customer group]({{ site.baseurl }}{% link customers/customer-groups.md %}) or [shared catalog]({{ site.baseurl }}{% link catalog/catalog-shared.md %}) that is assigned to the company.|
-|Allow Quotes|Determines if company members can prepare and submit negotiable quotes on behalf of th company.|
+|Allow Quotes|Determines if company members can prepare and submit negotiable quotes on behalf of the company.|
 |Applicable Payment Methods|Indicates the payment methods that are available for company purchases. Options: B2B Payment Methods / All Enabled Payment Methods / Specific Payment Methods|
 |Payment Methods|(Admin Only) Becomes active if specific payment methods are indicated. To select multiple payment methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.|
 
