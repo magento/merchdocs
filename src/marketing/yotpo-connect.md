@@ -6,7 +6,7 @@ With just a few steps, you can put Yotpo to work for you.
 
 1. [Create a Yotpo account](#create-a-yotpo-account).
 
-1. [Connect your Magento store to your Yotpo account](#connect-your-magento-store-to-your-yotpo-account).
+1. [Enable Yotpo and connect your Magento store](#enable-yotpo-and-connect-your-magento-store).
 
 ## Create a Yotpo Account
 
