@@ -5,7 +5,7 @@ title: Worldpay
 
 {:.bs-callout .bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
-As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, contact your Worldpay service provider and ask for their recommendation. To learn more, see [3D Secure 2.0 changes](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460){:target="_blank"} in our Dev blog.
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, contact your Worldpay service provider and ask for their recommendation.
 
 London-based [Worldpay][1] has twenty-five offices in eleven countries around the world. The company is a global leader in card payments, multi-currency processing, and provides local in-store and mobile payment acceptance solutions for companies large and small.
 

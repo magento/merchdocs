@@ -4,7 +4,7 @@ title: eWAY (Deprecated)
 ---
 {:.bs-callout .bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
-As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, install and configure the official eWAY payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=eway){:target="_blank"}. To learn more, see [3D Secure 2.0 changes](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460){:target="_blank"} in our Dev blog.
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, install and configure the official eWAY payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=eway){:target="_blank"}.
 
 eWAY is based in Australia, and provides secure payment processing services to merchants throughout Australia, New Zealand, the United Kingdom, Singapore, Malaysia, and Hong Kong. Their latest Rapid 3.1 API enables real-time fraud protection.
 
