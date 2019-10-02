@@ -28,18 +28,16 @@ _Admin Sign In_
 
 1. Click **Sign in**.
 
+The first time anyone signs in to the Admin, it displays the **Allow admin usage data collection** dialog. See [Store Admin]({{ site.baseurl }}{% link stores/admin.md %}) for more information.
+
 ## Reset Your Password
-
-The first time anyone signs in to the Admin, the **Allow admin usage data collection** dialog displays. See [Store Admin]({{ site.baseurl }}{% link stores/admin.md %}) for more information.
-
-1. Click **Forgot Your Password?**.
 
 1. Enter the **Email Address** that is associated with the Admin account.
 
-   ![Forgot Password]({{ site.baseurl }}{% link images/images/admin-sign-in-forgot-password.png %}){: .zoom}
+   ![]({{ site.baseurl }}{% link images/images/admin-sign-in-forgot-password.png %}){: .zoom}
    _Forgot Password_
 
-1. Click **Retrieve Password**.
+1. Click <span class="btn">Retrieve Password</span>.
 
    If an account is associated with the email address, an email will be sent to reset your password.
 
@@ -52,7 +50,7 @@ The first time anyone signs in to the Admin, the **Allow admin usage data collec
 
 1. Click **Sign Out**.
 
-![Sign Out]({{ site.baseurl }}{% link images/images/admin-sign-out.png %}){: .zoom}
+![]({{ site.baseurl }}{% link images/images/admin-sign-out.png %}){: .zoom}
 _Sign Out_
 
 The Sign In page displays a message that you are logged out. We recommend you sign out of the Admin any time you leave your computer unattended.
