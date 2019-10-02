@@ -18,6 +18,6 @@ A few common tasks include:
 
 - Import previous reviews 
 
-   If you are switching from another product reviews method and want to import your previous review data, [contact Yotpo support](https://support.yotpo.com/en/article/submitting-a-support-ticket) for help.
+   If you are switching from another product review method and want to import your previous review data, [contact Yotpo support](https://support.yotpo.com/en/article/submitting-a-support-ticket) for help.
 
 Check out the [Yotpo Help Center](https://support.yotpo.com/en/article/setting-up-yotpo-on-magento-v22-and-above) for information on other tasks and customizations.

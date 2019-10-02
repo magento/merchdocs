@@ -4,7 +4,7 @@ title: Yotpo Default Settings
 
 When Yotpo is enabled, Magento sets default values for your Widget and Sync settings.
 
-These basic Yotpo settings are accessed in the _Admin_ > **Stores** > _Configuration_ > _Yotpo_ > **Reviews and Visual Marketing**. See [Reviews and Visual Marketing]({{ site.baseurl }}{%- link configuration/yotpo/reviews-visual-marketing.md -%}).
+Access these basic Yotpo settings from _Admin_ > **Stores** > _Configuration_ > _Yotpo_ > **Reviews and Visual Marketing**. See [Reviews and Visual Marketing]({{ site.baseurl }}{%- link configuration/yotpo/reviews-visual-marketing.md -%}).
 
 Additional Yotpo features and options are dependent on the Yotpo plan you choose. Magento supports the Free, Growth, and Premium plans. See Yotpo [Plan Information](https://www.yotpo.com/pricing/) for plans and features.
 
@@ -21,7 +21,7 @@ Widget settings include the following:
 
 - **Show star rating on product pages** - When set to `Yes`, the product's star rating displays on the individual product page. Shoppers can click the Star Rating to read full reviews displayed in the Reviews Widget. See [Star Rating](https://support.yotpo.com/en/article/star-rating).
 
-- **Enable Q&A** - When set to `Yes`, the Q&A feature displays on the product page, allowing customers to ask questions regarding a specific product directed to the Yotpo account owner and to customers who had previously purchased the product. See [Q&A Feature](https://support.yotpo.com/en/article/questions-answers-feature).
+- **Enable Q&A** - When set to `Yes`, the Q&A feature displays on the product page, which enables customers to ask questions regarding a specific product directed to the Yotpo account owner and to customers who had previously purchased the product. See [Q&A Feature](https://support.yotpo.com/en/article/questions-answers-feature).
 
 - **Hide Magento Reviews** - When set to `Yes`, this disables the [Magento Product Reviews]({{ site.baseurl }}{%- link marketing/magento-product-reviews.md -%}) feature for product and category pages.
 
