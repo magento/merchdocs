@@ -10,7 +10,11 @@ A few common tasks include:
 
 - [Moderate reviews](https://support.yotpo.com/en/article/moderating-reviews-4912987)
 
-- Pull in product specs
+- [Mapping Order Statuses Sent to Yotpo](https://support.yotpo.com/en/article/setting-up-yotpo-on-magento-v22-and-above)
+
+- [Manually adding Yotpo's Reviews Widget to Product Pages](https://support.yotpo.com/en/article/setting-up-yotpo-on-magento-v22-and-above)
+
+- [Manually placing Star Ratings on Category Pages](https://support.yotpo.com/en/article/setting-up-yotpo-on-magento-v22-and-above)
 
 - Import previous reviews 
 

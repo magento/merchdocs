@@ -33,7 +33,7 @@ See Yotpo [Plan Information](https://www.yotpo.com/pricing/). You can create fre
    - For **Phone Number**, enter the phone number you want to associate with your Yotpo account.
    - Click **Finish**.
 
-Your account is created. Follow the Yotpo Wizard to enable Yotpo with your Magento Store.
+Your account is created. Follow the [Yotpo Wizard](https://support.yotpo.com/en/article/setting-up-yotpo-on-magento-v22-and-above) to enable Yotpo with your Magento Store.
 
 ## Enable Yotpo and Connect your Magento Store
 
