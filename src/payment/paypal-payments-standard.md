@@ -2,6 +2,9 @@
 title: PayPal Payments Standard
 ---
 
+{:.bs-callout .bs-callout-warning}
+**Payment Services Directive Requirements:** <br/>
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. No action is needed for PayPal Payments Standard to comply with PSD2 because all requirements are handled by PayPal.
 
 PayPal Payments Standard is the easiest way to accept payments online. You can offer your customers the convenience of payment both by credit card and PayPal by simply adding a checkout button to your store.
 

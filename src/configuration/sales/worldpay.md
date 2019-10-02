@@ -7,7 +7,7 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 
 {:.bs-callout .bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
-As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, contact your Worldpay service provider and ask for their recommendation. To learn more, see [3D Secure 2.0 changes](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460){:target="_blank"} in our Dev blog.
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, contact your Worldpay service provider and ask for their recommendation.
 
 ![]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-worldpay.png %}){: .zoom}
 [_Worldpay_]({{ site.baseurl }}{% link payment/worldpay.md %})
