@@ -2,22 +2,18 @@
 title: Common Yotpo Tasks
 ---
 
-Once you've [connected your Magento store to your Yotpo account]({{ site.baseurl }}{%- link marketing/yotpo-connect.md -%}), Magento sets your [default values]({{ site.baseurl }}{%- link configuration/yotpo/reviews-visual-marketing.md -%}).
+After you [connect your Magento store to your Yotpo account]({{ site.baseurl }}{%- link marketing/yotpo-connect.md -%}), Magento sets your [default setup values]({{ site.baseurl }}{%- link configuration/yotpo/reviews-visual-marketing.md -%}).
 
 Additional customization options, tasks, and features are dependent on your Yotpo plan and are available in your [Yotpo account](https://yap.yotpo.com/#/home).
 
 A few common tasks include:
 
-1. Moderate reviews - See [Yotpo's Moderating Reviews](https://support.yotpo.com/en/article/moderating-reviews-4912987).
+- [Moderate reviews](https://support.yotpo.com/en/article/moderating-reviews-4912987)
 
-1. Set Up Past Automatic Review Request: See [Yotpo's Setting Up Past Automatic Review Request](https://support.yotpo.com/en/article/magento-2-setting-up-past-automatic-review-request).
+- Pull in product specs
 
-1. Pull in product specs:  [Yotpo's Pulling Product Specifications](https://support.yotpo.com/en/article/magneto-2-pulling-product-specifications).
+- Import previous reviews 
 
-1. Send Automatic Review Requests Based on Order Status: [Yotpo's Sending Automatic Review Requests Based on Order Status](https://support.yotpo.com/en/article/magento-sending-automatic-review-requests-based-on-order-status).
+   If you are switching from another product reviews method and want to import your previous review data, [contact Yotpo support](https://support.yotpo.com/en/article/submitting-a-support-ticket) for help.
 
-<!---
-1. Install Q&A Widget - is this in config UI?
-
-1. 1. import your pre-existing reviews from Magento:  
---->
+Check out the [Yotpo Help Center](https://support.yotpo.com/en/article/setting-up-yotpo-on-magento-v22-and-above) for information on other tasks and customizations.

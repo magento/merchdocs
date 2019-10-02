@@ -1,5 +1,5 @@
 ---
-title: Integrate your Magento Store with Yotpo
+title: Integrate Magento with Yotpo
 ---
 
 With just a few steps, you can put Yotpo to work for you.
@@ -33,41 +33,11 @@ See Yotpo [Plan Information](https://www.yotpo.com/pricing/). You can create fre
    - For **Phone Number**, enter the phone number you want to associate with your Yotpo account.
    - Click **Finish**.
 
-   Your account is created, and you are prompted to review and confirm your default Yotpo account settings.
+Your account is created. Follow the Yotpo Wizard to enable Yotpo with your Magento Store.
 
-1. For _Collect Reviews_, review and confirm the default Yotpo settings. For information on additional Yotpo settings, see [Automatic Review Requests](https://support.yotpo.com/en/article/automatic-review-requests).
+## Enable Yotpo and Connect your Magento Store
 
-   ![]({{ site.baseurl }}{%- link images/images/yotpo-account-creation-reviews.png -%}){: .zoom}
-
-   - Send Automatic Review Requests - Enabled by default.
-   - Retroactively send to purchases from the last 30 days - Enabled for 30 days by default.
-   - From - Defaults to the store to which you are integrating.
-   - Subject - Customize the subject line for request emails.
-   - Message - Customize the message content for request emails.
-   - Click **Skip Step** to keep the default settings or update the settings and click **Next: Customize Widget**.
-
-1. For _Customize Widget_, review and confirm the default Yotpo settings. For information on additional Yotpo settings, see [Reviews Widget Customization](https://support.yotpo.com/en/article/reviews-widget-customization-128788).
-
-   ![]({{ site.baseurl }}{%- link images/images/yotpo-account-creation-widget.png -%}){: .zoom}
-
-   - Auto Publish Reviews On-Site - Enabled by default.
-   - Widget Font - Defines the font used the Reviews Widget.
-   - Primary Color - Defines the background color of the Reviews Widget on the product page in your website.
-   - Star Color - Defines the color used for the stars in the Reviews Widget.
-   - Click **Skip Step** to keep the default settings or update the settings and click **Next: Integrate**.
-
-1. For _Integrate_, click **I’ll install later**.
-
-   ![]({{ site.baseurl }}{%- link images/images/yotpo-account-creation-integrate.png -%}){: .zoom}
-
-1. For _Welcome to Yotpo_, click **Get Started**. Your Yotpo account dashboard displays.
-
-   ![]({{ site.baseurl }}{%- link images/images/yotpo-user-dashboard.png -%}){: .zoom}
-   _Yotpo User Dashboard_
-
-## Connect your Magento Store to your Yotpo Account
-
-1. Disable Magento Product Reviews. See [Enable Magento Product Reviews]({{ site.baseurl }}{%- link marketing/magento-product-reviews-config.md -%})
+If you have an existing Yotpo account, you can enable Yotpo inside the Magento Admin.
 
 1. On the _Admin_ sidebar, click **Stores**.
 
@@ -92,6 +62,6 @@ See Yotpo [Plan Information](https://www.yotpo.com/pricing/). You can create fre
    ![]({{ site.baseurl }}{%- link images/images/yotpo-config-setup.png -%}){: .zoom}
    _Yotpo Setup settings_
 
-After you [connect your Magento store to your Yotpo account]({{ site.baseurl }}{%- link marketing/yotpo-connect.md -%}), Magento sets your [default values]({{ site.baseurl }}{%- link configuration/yotpo/reviews-visual-marketing.md -%}). 
+After you connect your Magento store to your Yotpo account, Magento sets the default values for your [Widget]({{ site.baseurl }}{%- link marketing/yotpo-settings.md -%}) and [Sync]({{ site.baseurl }}{%- link marketing/yotpo-settings.md -%}) settings.
 
 Additional customization options, tasks, and features are dependent on your Yotpo plan and are available in your [Yotpo account](https://yap.yotpo.com/#/home).

@@ -40,7 +40,7 @@ _Yotpo Default Sync Settings_
 
 |Field|Default|Description|
 |---|---|---|
-|Orders Sync From Date|[date of setup]|Set the beginning date for sending Magento orders to Yotpo. |
+|Orders Sync From Date|[date of setup]|Set the initial date for syncing Magento orders to Yotpo (90 days retroactive). Multiple order statuses can be selected by pressing the `Ctrl/Cmd` on your keyboard.|
 |Orders Sync Limit|50|Defines the maximum number of orders to send to Yotpo in a single transmission.|
 |Orders Sync Statuses|Complete |Defines the order status(es) that are sent to Yotpo. Default is `Complete`.|
 
