@@ -7,7 +7,7 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 ## DDG Transactional
 
 ![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-transactional-emails.png %}){: .zoom}
-_Feefo Feedback Engine_
+_DDG Transactional_
 
 |Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
 |--- |--- |--- |
