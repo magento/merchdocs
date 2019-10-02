@@ -283,6 +283,10 @@ pages:
         url: "/shipping/magento-shipping-collection-points.html"
       - label: Preview Experience
         url: "/shipping/magento-shipping-preview-experience.html"
+    - label: Pre-Packaged Assignments
+      url: "/shipping/magento-shipping-pre-packaged.html"
+    - label: International Shipping
+      url: "/shipping/magento-shipping-international.html"
     - label: Find Solutions
       url: "/shipping/magento-shipping-troubleshooting.html"
   - label: Carriers

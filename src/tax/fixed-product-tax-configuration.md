@@ -12,28 +12,30 @@ The following instructions show how to set up a fixed product tax for your store
 
 1. In the panel on the left under _Sales_, choose **Tax**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Fixed Product Taxes** section. Then, do the following:
+1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Fixed Product Taxes** section.
 
-   - Set **Enable FPT** to `Yes`.
+1. Set **Enable FPT** to `Yes`.
 
-   - To determine how fixed product taxes are used in store prices, choose the FPT setting for each of the following price display locations.
+1. To determine how fixed product taxes are used in store prices, choose the FPT setting for each of the following price display locations:
 
-        - Product View Page
-        - Sales Modules
-        - Emails
+   - **Display Prices in Product Lists**
+   - **Display Prices on Product View Page**
+   - **Display Prices in Sales Modules**
+   - **Display Prices in Emails**.
 
-        Options (The options are the same for each.)
-        - `Including FPT Only`
-        - `Including FPT and FPT description`
-        - `Excluding FPT. Including FPT description and final price`
-        - `Excluding FPT`
+    Options (same for each)
 
-   - Set **Apply Tax to FPT** as needed.
+     - `Including FPT Only`
+     - `Including FPT and FPT description`
+     - `Excluding FPT. Including FPT description and final price`
+     - `Excluding FPT`
 
-   - Set **Include FPT in Subtotal** as needed.
+1. Set **Apply Tax to FPT** as needed.
 
-        ![]({{ site.baseurl }}{% link images/images/config-sales-tax-fixed-product-taxes.png %}){: .zoom}
-        [_Fixed Product Taxes_]({{ site.baseurl }}{% link configuration/sales/tax.md %})
+1. Set **Include FPT in Subtotal** as needed.
+
+    ![]({{ site.baseurl }}{% link images/images/config-sales-tax-fixed-product-taxes.png %}){: .zoom}
+    [_Fixed Product Taxes_]({{ site.baseurl }}{% link configuration/sales/tax.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.
 
@@ -54,7 +56,7 @@ The following instructions show how to set up a fixed product tax for your store
 
    - **Attribute Code** — Enter a unique identifier in lowercase, without spaces or special characters. The maximum length is 30 characters. You can leave the field blank to the text from the Default Label field.
 
-   - **Add to Column Options** — If you want the FPT field to appear in the Inventory [grid]({{ site.baseurl }}{% link catalog/products.md %}), set  to `Yes`.
+   - **Add to Column Options** — If you want the FPT field to appear in the Inventory [grid]({{ site.baseurl }}{% link catalog/products.md %}), set to `Yes`.
 
    - **Use in Filter Options** — If you want to be able to [filter]({{ site.baseurl }}{% link stores/admin-workspace.md %}) products in the grid based on the value of the FPT field, set to `Yes`.
 
@@ -89,7 +91,7 @@ The following instructions show how to set up a fixed product tax for your store
 
 ## Step 4: Apply FPT to Specific Products
 
-1. On the _Admin_ sidebar, go to **Products** > _Inventory_ > **Catalog**.
+1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
 1. Open the product that needs a fixed product tax in edit mode.
 

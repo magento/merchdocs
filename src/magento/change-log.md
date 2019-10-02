@@ -9,15 +9,18 @@ Our documentation is continually updated with new topics, clarifications, and co
 ### Product Releases
 
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-- Magento for B2B Commerce, 2.3.3
+- [Magento for B2B Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.3Commerce.html){: target="_blank"}, 2.3.3
 <!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
-- Magento Commerce, 2.3.3
+- [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.3Commerce.html){: target="_blank"}, 2.3.3
 <!--{% endif %}-->
 <!--{% if "Default.CE Only" contains site.edition %}-->
-- Magento Open Source, 2.3.3
+- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.3OpenSource.html){: target="_blank"}, 2.3.3
 <!--{% endif %}-->
-- [Google Shopping ads Channel](https://devdocs.magento.com/extensions/google-shopping-ads/release-notes/), 3.0.1
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
+- [Page Builder](https://devdocs.magento.com/page-builder/docs/release-notes.html){: target="_blank"}, 1.1
+<!--{% endif %}-->
+- [Google Shopping ads Channel](https://devdocs.magento.com/extensions/google-shopping-ads/release-notes/){: target="_blank"}, 3.0.1
 
 ### New Topics
 
@@ -29,6 +32,9 @@ Our documentation is continually updated with new topics, clarifications, and co
 - [Attribute Mapping]({{ site.baseurl }}{% link shipping/magento-shipping-attributes.md %})
 - [Shipping Experience Rules]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %})
 - [Preview Experience]({{ site.baseurl }}{% link shipping/magento-shipping-preview-experience.md %})
+- [Shipping]({{ site.baseurl }}{% link catalog/product-shipping.md %})
+- [International Shipping]({{ site.baseurl }}{% link shipping/magento-shipping-international.md %})
+- [Pre-Package Assignment]({{ site.baseurl }}{% link shipping/magento-shipping-pre-packaged.md %})
 
 ### Updated Topics
 
@@ -36,7 +42,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |--- |--- |
 |[Configuration Reference]({{ site.baseurl }}{% link stores/configuration.md %})|Updated the screen shot to include the Yotpo section. Also added the Yotpo configuration topics in the left-side navigation.|
 |[Product Reviews]({{ site.baseurl }}{% link marketing/product-reviews.md %})|Created new Marketing > Shopping Tools > Product Reviews sub-menu that includes the Magento Product Reviews and new Yotpo Reviews topics.|
-|[Magento Shipping]({{ site.baseurl }}{% link shipping/magento-shipping.md %})|Updated Magento Shipping section.|
+|[Magento Shipping]({{ site.baseurl }}{% link shipping/magento-shipping.md %})|Updated Magento Shipping section for the latest Temando installation.|
 |[Google Shopping ads Channel]({{ site.baseurl }}{% link sales-channels/google-ads/onboarding-google.md %})|Added a note clarifying the inclusion of Google Shopping ads Channel with Magento 2.3.3.|
 |[Onboarding Google Shopping ads Channel]({{ site.baseurl }}{% link sales-channels/google-ads/google-ad-channel.md %})|Added a note clarifying the inclusion of Google Shopping ads Channel with Magento 2.3.3.|
 |[Add/Updated Google API Key]({{ site.baseurl }}{% link sales-channels/google-ads/verify-api-key.md %})|Updated API Key steps.|
@@ -54,7 +60,9 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Vertex Cloud]({{ site.baseurl }}{% link tax/vertex.md %})|Added release notes for Vertex Cloud integration for new flexible fields configuration.|
 |[Configuring Magento]({{ site.baseurl }}{% link tax/vertex-configure-magento.md %}) <br/>[Tax]({{ site.baseurl }}{% link configuration/sales/tax.md %}) (configuration)|Added new _Vertex Flexible Fields_ section.|
 |[Engagement Cloud]({{ site.baseurl }}{% link marketing/engagement-cloud.md %})|Updated Changes in the Latest Release.|
-|Engagement Cloud - configuration reference topics: <br/>- [Abandoned Cart]({{ site.baseurl }}{% link configuration/engagement-cloud/abandoned-carts.md %}) <br/>- [Automation]({{ site.baseurl }}{% link configuration/engagement-cloud/automation.md %}) <br/>- [Configuration]({{ site.baseurl }}{% link configuration/engagement-cloud/configuration.md %}) <br/>- [Data Mapping]({{ site.baseurl }}{% link configuration/engagement-cloud/data-mapping.md %}) <br/>- [Developer]({{ site.baseurl }}{% link configuration/engagement-cloud/developer.md %}) <br/>- [Dynamic Content]({{ site.baseurl }}{% link configuration/engagement-cloud/dynamic-content.md %}) <br/>- [Email Templates]({{ site.baseurl }}{% link configuration/engagement-cloud/email-templates.md %}) <br/>- [Sync Settings]({{ site.baseurl }}{% link configuration/engagement-cloud/sync-settings.md %}) <br/>- [Transactional Emails]({{ site.baseurl }}{% link configuration/engagement-cloud/transactional-emails.md %})|Completed field descriptions.|
+|Engagement Cloud - configuration reference topics: <br/>- [Abandoned Cart]({{ site.baseurl }}{% link configuration/engagement-cloud/abandoned-carts.md %}) <br/>- [Automation]({{ site.baseurl }}{% link configuration/engagement-cloud/automation.md %}) <br/>- [Configuration]({{ site.baseurl }}{% link configuration/engagement-cloud/configuration.md %}) <br/>- [Data Mapping]({{ site.baseurl }}{% link configuration/engagement-cloud/data-mapping.md %}) <br/>- [Developer]({{ site.baseurl }}{% link configuration/engagement-cloud/developer.md %}) <br/>- [Dynamic Content]({{ site.baseurl }}{% link configuration/engagement-cloud/dynamic-content.md %}) <br/>- [Email Templates]({{ site.baseurl }}{% link configuration/engagement-cloud/email-templates.md %}) <br/>- [Sync Settings]({{ site.baseurl }}{% link configuration/engagement-cloud/sync-settings.md %}) <br/>- [Transactional Emails]({{ site.baseurl }}{% link configuration/engagement-cloud/transactional-emails.md %})|Completed field descriptions.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
+|[Add Products]({{ site.baseurl }}{% link cms/page-builder-add-content-products.md %})|Updated information to include a new Page Builder feature used to configure the sort order for products in the list.|
+|[HTML Code]({{ site.baseurl }}{% link cms/page-builder-elements-html-code.md %}) |Updated information for new buttons for inserting images, widgets, variables in Page Builder HTML content type.|<!--{% endif %}-->
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ## August 2019
@@ -62,8 +70,8 @@ Our documentation is continually updated with new topics, clarifications, and co
 ### New Topics
 
 - [Discount with First Purchase]({{ site.baseurl }}{% link marketing/price-rule-discount-first-purchase.md %})
-<!--{% endif %}-->
 
+<!--{% endif %}-->
 ## July 2019
 
 ### Product Releases

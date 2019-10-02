@@ -2,7 +2,7 @@
 title: PayPal Express Checkout
 ---
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout .bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
 As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. No action is needed for PayPal Express Checkout to comply with PSD2 because all requirements are handled by PayPal.
 

@@ -16,18 +16,18 @@ The configuration options vary for each carrier. However, all require the follow
     
 2.  Enter your account number or user ID, and the gateway URL to their system into the configuration of your store. See [Magento Connect]({{ site.baseurl }}{% link magento/magento-marketplace.md %}) for additional shipping services for your Magento installation.
 
-## [UPS]({{ site.baseurl }}{% link shipping/ups.md %})
+## UPS
 
-United Parcel Service offers domestic and international shipping services by land and air to more than 220 countries.
+[United Parcel Service]({{ site.baseurl }}{% link shipping/ups.md %}) offers domestic and international shipping services by land and air to more than 220 countries.
 
-## [USPS]({{ site.baseurl }}{% link shipping/usps.md %})
+## USPS
 
-The United States Postal Service is the independent postal service of United States government. USPS offers domestic and international shipping services by land and air.
+The [United States Postal Service]({{ site.baseurl }}{% link shipping/usps.md %}) is the independent postal service of United States government. USPS offers domestic and international shipping services by land and air.
 
-## [FedEx]({{ site.baseurl }}{% link shipping/fedex.md %})
+## FedEx
 
-Offers domestic and international shipping services by land and air to more than 220 countries.
+Offers [domestic and international]]({{ site.baseurl }}{% link shipping/fedex.md %}) shipping services by land and air to more than 220 countries.
 
-## [DHL]({{ site.baseurl }}{% link shipping/dhl.md %})
+## DHL
 
-Offers integrated international services and tailored, customer-focused solutions for managing and transporting letters, goods and information.
+Offers [integrated international services and tailored]({{ site.baseurl }}{% link shipping/dhl.md %}), customer-focused solutions for managing and transporting letters, goods and information.

@@ -283,6 +283,8 @@ pages:
       children:
       - label: CardinalCommerce
         url: "/configuration/sales/cardinalcommerce.html"
+    - label: Fraud Protection
+      url: "/configuration/sales/fraud-protection.html"
   - label: Yotpo
     url: "/configuration/yotpo.html"
     children:

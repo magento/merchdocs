@@ -4,7 +4,7 @@ title: eWAY (Deprecated)
 ---
 {:.bs-callout .bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
-As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, install and configure the official eWay payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=eway#q=eway&idx=m2_cloud_prod_default_products&p=0&nR%5Bvisibility_search%5D%5B%3D%5D%5B0%5D=1){:target="_blank"}. To learn more, see [3D Secure 2.0 changes](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460){:target="_blank"} in our Dev blog.
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, install and configure the official eWAY payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=eway){:target="_blank"}.
 
 eWAY is based in Australia, and provides secure payment processing services to merchants throughout Australia, New Zealand, the United Kingdom, Singapore, Malaysia, and Hong Kong. Their latest Rapid 3.1 API enables real-time fraud protection.
 
@@ -16,9 +16,9 @@ Sign up for an eWAY [merchant account][1]{: target="_blank"}, and get your crede
 
 1. Log in to the Admin of your store. On the Admin sidebar, go to **Stores** > Settings > **Configuration**.
 
-1. In the panel on the left under **Sales**, choose **Payment Methods**.
+2. In the panel on the left under **Sales**, choose **Payment Methods**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the
+3. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the
  **eWAY** section. Then, do the following:
 
    ![Enable eWay]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-eway1-enabled.png %}){: .zoom}
