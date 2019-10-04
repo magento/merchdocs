@@ -15,12 +15,12 @@ More advanced users appreciate the flexibility of working with an object-oriente
 <!--{% endif %}-->
 _Design Menu_
 
-## To display the Design menu:
+{:.procedure}
+To display the Design menu:
 
-On the _Admin_ sidebar, select Content. The Design options are part of the Content menu.
+On the _Admin_ sidebar, select **Content**. The Design options are part of the Content menu.
 
 ## Menu Options
-
 
 ### Configuration
 
