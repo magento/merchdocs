@@ -21,6 +21,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 - [Page Builder](https://devdocs.magento.com/page-builder/docs/release-notes.html){: target="_blank"}, 1.1
 <!--{% endif %}-->
 - [Google Shopping ads Channel](https://devdocs.magento.com/extensions/google-shopping-ads/release-notes/){: target="_blank"}, 3.0.1
+- [Inventory Management](https://devdocs.magento.com/guides/v2.3/inventory/release-notes.html){: target="_blank"}, 1.1.3
 
 ### New Topics
 
@@ -49,7 +50,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Authorize.Net]({{ site.baseurl }}{% link payment/authorize-net.md %})|Added Step #4 with setup instructions for 3D Secure with CardinalCommerce.|
 |[Klarna]({{ site.baseurl }}{% link payment/klarna.md %})|Updated _Changes In the Latest Release_ and _Klarna Solutions_. Added new _Klarna Payment Methods_ section.|
 |[Setting Up Klarna]({{ site.baseurl }}{% link payment/klarna-setup.md %})|Updated Klarna account images; updated instructions for new **Enable B2B** field.|
-|[Klarna]({{ site.baseurl }}{% link configuration/sales/klarna.md %})|Updated screenshot and field descriptions for new Enable B2B field.|
+|[Klarna]({{ site.baseurl }}{% link configuration/sales/klarna.md %}) (configuration)|Updated screenshot and field descriptions for new Enable B2B field.|
 |[Configuration Reference]({{ site.baseurl }}{% link stores/configuration.md %})|Updated the screen shot to include the Yotpo section. Also added the Yotpo configuration topics in the left-side navigation.|
 |[Product Reviews]({{ site.baseurl }}{% link marketing/product-reviews.md %})|Created new Marketing > Shopping Tools > Product Reviews sub-menu that includes the Magento Product Reviews and new Yotpo Reviews topics.|
 |[Store Admin]({{ site.baseurl }}{% link stores/admin.md %}) <br/>[Admin Sign In]({{ site.baseurl }}{% link stores/admin-signin.md %})|New `Allow admin usage data collection` dialog is displayed the first time an admin logs in after installing or upgrading to Magento 2.3.3.|
@@ -63,6 +64,8 @@ Our documentation is continually updated with new topics, clarifications, and co
 |Engagement Cloud - configuration reference topics: <br/>- [Abandoned Cart]({{ site.baseurl }}{% link configuration/engagement-cloud/abandoned-carts.md %}) <br/>- [Automation]({{ site.baseurl }}{% link configuration/engagement-cloud/automation.md %}) <br/>- [Configuration]({{ site.baseurl }}{% link configuration/engagement-cloud/configuration.md %}) <br/>- [Data Mapping]({{ site.baseurl }}{% link configuration/engagement-cloud/data-mapping.md %}) <br/>- [Developer]({{ site.baseurl }}{% link configuration/engagement-cloud/developer.md %}) <br/>- [Dynamic Content]({{ site.baseurl }}{% link configuration/engagement-cloud/dynamic-content.md %}) <br/>- [Email Templates]({{ site.baseurl }}{% link configuration/engagement-cloud/email-templates.md %}) <br/>- [Sync Settings]({{ site.baseurl }}{% link configuration/engagement-cloud/sync-settings.md %}) <br/>- [Transactional Emails]({{ site.baseurl }}{% link configuration/engagement-cloud/transactional-emails.md %})|Completed field descriptions.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
 |[Add Products]({{ site.baseurl }}{% link cms/page-builder-add-content-products.md %})|Updated information to include a new Page Builder feature used to configure the sort order for products in the list.|
 |[HTML Code]({{ site.baseurl }}{% link cms/page-builder-elements-html-code.md %}) |Updated information for new buttons for inserting images, widgets, variables in Page Builder HTML content type.|<!--{% endif %}-->
+|[Assigning Sources per Product]({{ site.baseurl }}{% link catalog/inventory-product-sources.md %}) |UI updates for assigning sources for products.|
+|[Disabling Sources]({{ site.baseurl }}{% link catalog/inventory-sources-disable.md %}) |Updates for new Actions menu to enable and disable selected sources.
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ## August 2019
@@ -138,7 +141,6 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Google reCAPTCHA]({{ site.baseurl }}{% link stores/security-google-recaptcha.md %})|Updated install information. Google reCAPTCHA is installed with v2.3.2, including options for PayPal Payflow Pro.|
 |[PayPal Payflow Pro]({{ site.baseurl }}{% link payment/paypal-payflow-pro.md %})|Added section for adding Google reCAPTCHA for Payflow Pro.|
 |[Magento Shipping]({{ site.baseurl }}{% link shipping/magento-shipping.md %})|Updated supported countries and carriers.|
-
 
 ## May 2019
 
