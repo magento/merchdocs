@@ -1,5 +1,5 @@
 title: Magento User Guide
-email: mailto:ybannykh@adobe.com
+
 description: Merchant documentation and tutorials to help you manage a Magento store 
 logo: User Guide
 baseurl: ""
@@ -41,8 +41,8 @@ defaults:
     values:
       layout: default
       lang: en
-      github_link: false
-      feedback_link: false
+      github_link: true
+      feedback_link: true
       github_repo: https://github.com/magento/merchdocs/
       github_files: https://github.com/magento/merchdocs/blob/master/src/
 
