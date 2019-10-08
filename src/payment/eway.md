@@ -1,10 +1,10 @@
 ---
 conditions: Default.EE-B2B
-title: eWAY
+title: eWAY (Deprecated)
 ---
 {:.bs-callout .bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
-Beginning September 14, 2019, European banks may decline payments which do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}), install and configure the official eWay payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=eway#q=eway&idx=m2_cloud_prod_default_products&p=0&nR%5Bvisibility_search%5D%5B%3D%5D%5B0%5D=1){:target="_blank"}. To learn more, see [3D Secure 2.0 changes](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460?_ga=2.58725933.1838384123.1564065679-2098781342.1564065679){:target="_blank"} in our Dev blog.
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, install and configure the official eWAY payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=eway){:target="_blank"}.
 
 eWAY is based in Australia, and provides secure payment processing services to merchants throughout Australia, New Zealand, the United Kingdom, Singapore, Malaysia, and Hong Kong. Their latest Rapid 3.1 API enables real-time fraud protection.
 
@@ -14,17 +14,17 @@ Sign up for an eWAY [merchant account][1]{: target="_blank"}, and get your crede
 
 ## Step 2: Enable eWAY
 
-1. Log in to the Admin of your store. On the Admin sidebar, tap **Stores**. Then under **Settings**, choose **Configure**.
+1. Log in to the Admin of your store. On the Admin sidebar, go to **Stores** > Settings > **Configuration**.
 
-1. In the panel on the left under **Sales**, choose **Payment Methods**.
+2. In the panel on the left under **Sales**, choose **Payment Methods**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the
+3. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the
  **eWAY** section. Then, do the following:
 
    ![Enable eWay]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-eway1-enabled.png %}){: .zoom}
    _Enable eWAY_
 
-   - Set **Enabled** to “Yes.”
+   - Set **Enabled** to `Yes`.
 
    - Set **Connection Type** to one of the following:
 
@@ -35,9 +35,9 @@ Sign up for an eWAY [merchant account][1]{: target="_blank"}, and get your crede
 
 ## Step 3: Enter Your eWAY Credentials
 
-1. To run test transactions in a test environment, set **Sandbox Mode** to “Yes.” To learn more, see: [Sandbox/Testing][2] on the eWAY website.
+1. To run test transactions in a test environment, set **Sandbox Mode** to `Yes`. To learn more, see: [Sandbox/Testing][2] on the eWAY website.
 
-   When you are ready to go live with eWAY, set **Sandbox Mode** to “No.”
+   When you are ready to go live with eWAY, set **Sandbox Mode** to `No`.
 
 1. Follow the [instructions][3] on the eWAY website to set up your Live API key and password. Then, enter the following:
 
@@ -57,10 +57,10 @@ Sign up for an eWAY [merchant account][1]{: target="_blank"}, and get your crede
 
 1. Set **Payment Action** to one of the following
 
-   | **Authorize Only** | Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer’s bank account until the sale is “captured” by the merchant. |
+   | **Authorize Only** | Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer’s bank account until the sale is “captured” by the merchant.|
    | **Authorize and Capture** | The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
 
-1. To save a record of communications between your store and the eWAY system in a log file, set **Debug** to “Yes.”
+1. To save a record of communications between your store and the eWAY system in a log file, set **Debug** to `Yes`.
 
    {:.bs-callout .bs-callout-info}
    In accordance with PCI Data Security Standards, credit card information is not recorded in the log file.
@@ -72,8 +72,8 @@ Sign up for an eWAY [merchant account][1]{: target="_blank"}, and get your crede
 
 1. Set **Payment from Applicable Countries** to one of the following:
 
-   |**All Allowed Countries** |Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
-   |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
+   |**All Allowed Countries** |Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use this payment method.|
+   |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key (PC) or the Cmd key (Mac) and select each country in the list where customers can make purchases from your store.|
 
    ![Configure Countries]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-eway4.png %}){: .zoom}
    _Configure Countries_

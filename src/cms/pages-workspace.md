@@ -29,8 +29,8 @@ _Pages Grid_
 |--- |--- |
 |Add New Page|Adds a new page.|
 |Search|Initiates a catalog search based on the current filters.|
-|Actions|Lists all actions that can be applied to selected items in the list. To apply an action to a page, or to multiple pages, seelct the checkbox in the first column of each record that is subject to the action. Options: Delete / Disable / Enable / Edit|
-|Select|The control in the header of the first column can be used to select multiple records as the target of action. Seelct the checkbox in the first column of each record that you want to select. Options: Select All / Deselect All|
+|Actions|Lists all actions that can be applied to selected items in the list. To apply an action to a page, or to multiple pages, select the checkbox in the first column of each record that is subject to the action. Options: Delete / Disable / Enable / Edit|
+|Select|The control in the header of the first column can be used to select multiple records as the target of action. Select the checkbox in the first column of each record that you want to select. Options: Select All / Deselect All|
 |Save Edits|Applies the current action to selected records.|
 |Edit|Opens the record in edit mode. You can accomplish the same thing by clicking anywhere on the row.|
 

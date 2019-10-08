@@ -2,6 +2,10 @@
 title: PayPal Payflow Pro
 ---
 
+{:.bs-callout .bs-callout-warning}
+**Payment Services Directive Requirements:** <br/>
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, PayPal Payflow Pro must be integrated with Cardinal Commerce. To learn more, see [3-D Secure for Payflow](https://developer.paypal.com/docs/classic/payflow/3d-secure-overview/).
+
 PayPal Payflow Pro gateway, formerly known as Verisign, is available for customers of the United States, Canada, Australia, and New Zealand. Unlike other PayPal payment methods, merchants are charged a fixed monthly fee, plus a fixed fee for each transaction, regardless of their number.
 
 ![Checkout with PayPal]({{ site.baseurl }}{% link images/images/storefront-cart-paypal.png %}){: .zoom}
