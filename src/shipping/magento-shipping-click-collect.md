@@ -2,22 +2,22 @@
 title: Click & Collect
 ---
 
-Click &amp; Collect allows customers to order online, and pick up their orders at the store or another designated location. For a description of how Click &amp; Collect is specified during checkout, see: [Customer Experience]({{ site.baseurl }}{% link shipping/magento-shipping-customer-experience.md %}).
+Click & Collect allows customers to order online, and pick up their orders at the store or another designated location. For a description of how Click & Collect is specified during checkout, see [Customer Experience]({{ site.baseurl }}{% link shipping/magento-shipping-customer-experience.md %}).
 
-Every Click &amp; Collect order generates a pickup record. Like a shipment, the pickup record is associated with the specific order. The main difference between the two is that a pickup does not have packaging or quote/booking requirements. Because Click &amp; Collect is available only from the storefront, it cannot be used for orders that are created from the Admin.
+Every Click & Collect order generates a pickup record. Like a shipment, the pickup record is associated with the specific order. The main difference between the two is that a pickup does not have packaging or quote/booking requirements. Because Click & Collect is available only from the storefront, it cannot be used for orders that are created from the Admin.
 
 ## Before you begin
 
-Complete the setup of your Click &amp; Collect [Locations]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %}). The location name, address, and opening/closing hours are visible to the customer during checkout. Special hours are included if they go into effect within the next seven days.
+Complete the setup of your Click & Collect [Locations]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %}). The location name, address, and opening/closing hours are visible to the customer during checkout. Special hours are included if they go into effect within the next seven days.
 
 {: .bs-callout .bs-callout-info}
 The pickup location that a customer chooses during cannot be changed from the Admin.
 
-Create a Qualify [Shipping Experience Rule]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %}) with the outcome set to “Offer click and collect locations”. The rule can be configured to offer one or more locations. If the Click &amp; Collection location is set to “All,” any new locations appear to the customer during checkout.
+Create a Qualify [Shipping Experience Rule]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %}) with the outcome set to “Offer click and collect locations”. The rule can be configured to offer one or more locations. If the Click & Collection location is set to “All,” any new locations appear to the customer during checkout.
 
 In the Magento Shipping [configuration]({{ site.baseurl }}{% link shipping/magento-shipping-setup.md %}), set **Enable Click and Collect** to “Yes”.
 
-## To fulfill a Click &amp; Collect order
+## To fulfill a Click & Collect order
 
 1. Navigate to the Pickups page.
 
@@ -25,7 +25,7 @@ In the Magento Shipping [configuration]({{ site.baseurl }}{% link shipping/magen
 
 1. Filter the Pickups grid.
 
-    The Pickups grid can be filtered by a variety of fields, with the main used being _Origin Location_ and _Status_. 
+    The Pickups grid can be filtered by a variety of fields, with the main used being _Origin Location_ and _Status_.
 
     * Any filter settings made by the Admin user are retained for that user’s future sessions.
 
@@ -61,14 +61,14 @@ In the Magento Shipping [configuration]({{ site.baseurl }}{% link shipping/magen
 
     If only some of the items are available, adjust the **Qty Packed** values to reflect the items that are ready for pickup. Click **Ready for Pickup** to initiate the partial pickup process. The following events take place:
 
-      * The status of the partial pickup changes to “Ready for Pickup”.
+      * The status of the partial pickup changes to `Ready for Pickup`.
       * An email is sent to notify the customer that the specified items are ready to collect.
       * A new pickup record with a status of “Pickup Requested” is created for the remaining items.
       * The Pickup page closes, and you return to the Pickups grid.
 
     The remaining pickup items can be fulfilled as either a separate pickup or shipment when the items become available.
 
-    After the customer collects the items, the pickup record is marked, “Picked Up,” and an email is sent to the customer to confirm that the items have been fulfilled.
+    After the customer collects the items, the pickup record is marked `Picked Up` and an email is sent to the customer to confirm that the items have been fulfilled.
 
 ## To view a pickup record
 
@@ -83,7 +83,7 @@ The **Go to Pickup** field in the upper-right corner of the Pickup page is desig
 
 ### Method 2: View Action
 
-1.  Find the record in the Pickup grid. 
+1.  Find the record in the Pickup grid.
 
 2.  In the _Action_ column, click **View**.
 

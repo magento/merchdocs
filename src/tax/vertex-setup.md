@@ -1,8 +1,10 @@
 ---
 title: Setting Up Vertex
+redirect_from: 
+  - /tax/vertex-configure.html
 ---
 
-Your Vertex Cloud dashboard initially appears in [Test Mode][1]{: target="_blank"}. When you are ready to Go Live with Vertex Cloud, you can change the status of your account with the click of a button.
+Your Vertex Cloud dashboard initially appears in [Test Mode][1]. When you are ready to Go Live with Vertex Cloud, you can change the status of your account with the click of a button.
 
 To enter the information that is needed to calculate tax and file returns, you must complete the configuration for each company that is associated with your account. After you finish the basic Vertex Cloud configuration, there are a few additional settings that must be completed from the Admin of your Magento installation.
 
@@ -143,7 +145,7 @@ _Enabled State_
     - Enter the **Street Address** of the business location. For a two-line address, also complete **Street Address 2**.
     - Enter the **City**, **State**, and **Zip/Postal Code** of the business location.
 
-1. Any additional requirements for the location are listed under **Location Specific Information**. The options vary from state to state, and might include the following fields. Complete this section, as applicable.
+1. Any additional requirements for the location are listed under **Location Specific Information**. The options vary from state to state. Complete this section, as applicable.
 
 1. When complete, click **Add Location**.
 

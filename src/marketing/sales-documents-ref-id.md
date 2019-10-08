@@ -7,7 +7,7 @@ The Order ID and customer IP address can be included in the header of sales docu
 ![]({{ site.baseurl }}{%- link images/images/config-sales-pdf-print-outs.png -%}){: .zoom}
  [*PDF Print-outs*]({{ site.baseurl }}{%- link configuration/sales/pdf-print-outs.md -%})
 
-## To change the Order ID settting
+## To change the Order ID setting
 
 On the Admin sidebar, tap **Stores**. Then under **Settings**, choose **Configuration**.
 
