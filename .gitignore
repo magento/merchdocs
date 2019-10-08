@@ -4,7 +4,7 @@
 /.bundle/
 /.asset-cache/
 /node_modules/
-/.jekyll-metadata
+.jekyll-metadata
 /.DS_Store
 ehthumbs.db
 Thumbs.db
