@@ -9,16 +9,15 @@ This reference has field descriptions for every configuration setting in Magento
 
 In this guide, you can drill down through any section of the reference, and follow the links to corresponding topics in the user guide.
 
-* [General]({{ site.baseurl }}{% link configuration/general.md %})
-* [Security]({{ site.baseurl }}{% link configuration/security.md %})
-* [Catalog]({{ site.baseurl }}{% link configuration/catalog.md %})
-* [Customers]({{ site.baseurl }}{% link configuration/customers.md %})
-* [Sales]({{ site.baseurl }}{% link configuration/sales.md %})
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-* [Engagement Cloud]({{ site.baseurl }}{% link configuration/engagement-cloud.md %})
-<!--{% endif %}-->
-* [Services]({{ site.baseurl }}{% link configuration/services.md %})
-* [Advanced]({{ site.baseurl }}{% link configuration/advanced.md %})
+- [General]({{ site.baseurl }}{% link configuration/general.md %})
+- [Catalog]({{ site.baseurl }}{% link configuration/catalog.md %})
+- [Security]({{ site.baseurl }}{% link configuration/security.md %})
+- [Customers]({{ site.baseurl }}{% link configuration/customers.md %})
+- [Sales]({{ site.baseurl }}{% link configuration/sales.md %})
+- [Yotpo]({{ site.baseurl }}{% link configuration/yotpo.md %})
+- [Engagement Cloud]({{ site.baseurl }}{% link configuration/engagement-cloud.md %})
+- [Services]({{ site.baseurl }}{% link configuration/services.md %})
+- [Advanced]({{ site.baseurl }}{% link configuration/advanced.md %})
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({{ site.baseurl }}{% link images/images/config.png %}){: .zoom}

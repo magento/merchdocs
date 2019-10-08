@@ -47,6 +47,11 @@ _Product List In Storefront_
       ![]({{ site.baseurl }}{% link images/images-ee/page-builder-add-content-products-settings-condition-category-tree.png %}){: .zoom}
       _Category Tree_
 
+   - Choose the **Sort By** option for sorting the products.
+
+      ![]({{ site.baseurl }}{% link images/images-ee/page-builder-add-content-products-settings-sortby.png %}){: .zoom}
+      _Product Sorting Options_
+
    - Enter the **Number of Products to Display**.
 
       By default, the list displays five products.
@@ -76,6 +81,8 @@ _Product List In Storefront_
 | Setting                       | Description      |
 | ----------------------------- | --------------- |
 | Condition             | Defines the query that retrieves the products for the list.      |
+| Sort By                       | Determines the sort order for the products in the list. Options: <br/>**Newest products first** - Sorts products from the newest to the oldest date of import. <br/>**Oldest products first** - Sorts products from the oldest to the newest date of import.<br/>**Name: A - Z** - Sorts products by name as described. <br/>**Name: Z - A** - Sorts products by name as described. <br/>**SKU: ascending** - Sorts products by SKU as described. <br/>**SKU: descending** - Sorts products by SKU as described.<br/>**Stock: low stock first** - Sorts products from the lowest to the highest stock volume. <br/>**Stock: high stock first** - Sorts products from the highest to the lowest stock volume. <br/>**Price: high to low** - Sorts products by price as described.<br/>**Price: low to high**  - Sorts products by price as described.|
+
 | Number of Products to Display | Specifies the number of products to appear in the list.     |
 | **Advanced**                  |                  |
 | Alignment                     | Determines the horizontal alignment of the block. Options: <br/>**Default** - Applies the alignment default setting that is specified in the style sheet of the current theme. <br/>**Left** - Aligns the block along the left border of the parent container, with allowance for any padding that is specified.<br/>**Center** - Aligns the block in the center of the parent container, with allowance for any padding that is specified. <br/>**Right** - Aligns the block along the right border of the parent container, with allowance for any padding that is specified. |

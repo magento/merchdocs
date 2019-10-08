@@ -6,23 +6,23 @@ From the storefront, Magento Shipping options appear during the first step of th
 
 ## Shipping Methods
 
-During checkout, the shopper identifies the address type as a residence or business, and specifies whether the carrier must obtain a signature, or can leave the package at the door. Finally, the shopper chooses the preferred shipping rate and carrier to be used for the order.
+During checkout, the customer identifies the address type as a residence or business and specifies whether the carrier must obtain a signature or can leave the package at the door. Finally, the customer chooses the preferred shipping rate and carrier to be used for the order.
 
 ![]({{ site.baseurl }}{% link images/images/storefront-checkout-magento-shipping.png %}){: .zoom}
-*Shipping Rate and Carrier*
+_Shipping Rate and Carrier_
 
-## Click &amp; Collect
+## Click & Collect
 
-If Click &amp; Collect is enabled in the configuration, specific locations can be designated as Click &amp; Collect fulfillment centers where the order can be sent for customer pick up.
+If _Click & Collect_ is enabled in the configuration, specific locations can be designated as Click & Collect fulfillment centers where the order can be sent for customer pick up.
 
-During checkout, the _Pick up in store_ option appears under Shipping Methods. When selected, a list of possible pickup locations appears, according to the logic of the related [shipping experience rule]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %}). The customer chooses the most convenient location, and selects Click &amp; Collect as the shipping method.
+During checkout, the _Pick up in store_ option appears under Shipping Methods. When selected, a list of possible pickup locations appears, according to the logic of the related [shipping experience rule]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %}). The customer chooses the most convenient location and selects `Click & Collect` as the shipping method.
 
-During Order Review, the Click &amp; Collect location appears in the Ship To section, rather than the customer’s shipping address.
+During Order Review, the Click & Collect location appears in the _Ship To_ section, rather than the customer’s shipping address.
 
 The customer is notified by email when the order is ready to collect at the designated location.
 
 ![]({{ site.baseurl }}{% link images/images/storefront-checkout-magento-shipping-collection-point.png %}){: .zoom}
-*Collection Point Selection*
+_Collection Point Selection_
 
 ## Collection Points
 
@@ -37,8 +37,8 @@ During Order Review, the collection point location appears in the Ship To sectio
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ## Returns
 
-When creating a return shipment, you can generate a list of shipping quotes, and choose the carrier that you want to use. The return label can be included in the original shipment.
+When creating a return shipment, you can generate a list of shipping quotes and choose the carrier that you want to use. The return label can be included in the original shipment.
 
 ![]({{ site.baseurl }}{% link images/images-ee/return-shipment-shipping-quotes.png %}){: .zoom}
-*Shipping Quotes for RMA Request*
+_Shipping Quotes for RMA Request_
 <!--{% endif %}-->
