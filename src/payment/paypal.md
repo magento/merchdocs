@@ -4,9 +4,9 @@ redirect_from:
   - /payment/paypal-all-in-one.html
 ---
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout .bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
-Beginning September 14, 2019, European banks may decline payments which do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. No action is needed for PayPal Solutions to comply with [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) because all requirements are handled by PayPal.
+Beginning September 14, 2019, European banks may decline payments which do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. For most PayPal solutions, no action is needed to comply with PSD2 because the requirements are handled by PayPal. For information about specific PayPal solutions, see the note at the top of each page.
 
 PayPal is a global leader in online payments and a fast and secure way for your customers to pay online. With PayPal and Magento, you can accept payments from all major debit and credit cards. PayPal offers additional convenience without extra effort, because even your customers who don’t have a PayPal account can pay for their purchases with PayPal. In this guide, PayPal payments solutions are categorized as follows:
 

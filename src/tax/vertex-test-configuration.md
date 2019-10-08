@@ -8,9 +8,9 @@ Vertex Cloud has excellent documentation with videos to help you come up to spee
 
 ![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-help-center.png %}){: .zoom}
 
-## Troubleshooting Vertex API Automatically Disabled issue
+## Vertex API Automatically Disabled
 
-If you update your product prices in the Magento catalog to include tax can significantly degrade Magento performance. Vertex will automatically disable if **[Display prices in Catalog]({{ site.baseurl }}{% link configuration/sales/tax.md %})** is set to Including Tax. You must set this value to Excluding Tax to re-enable Vertex. You will receive an error message in the [Vertex configuration page]({{ site.baseurl }}{% link tax/vertex-configure-magento.md %}).
+When the Vertex connector is enabled and the **[Display prices in Catalog]({{ site.baseurl }}{% link configuration/sales/tax.md %})** is set to `Including Tax`, updating your product prices in the Magento catalog to include tax could significantly degrade Magento performance. In this situation, the Vertex connector will automatically disable and you will see an error message in the [Vertex configuration page]({{ site.baseurl }}{% link tax/vertex-configure-magento.md %}). You must set this value to `Excluding Tax` to re-enable the Vertex connector.
 
 ![]({{ site.baseurl }}{% link images/images/vertex-error.png %}){: .zoom}
 _Vertex API error_
