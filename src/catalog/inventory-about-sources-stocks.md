@@ -52,6 +52,8 @@ Every product, source, and stock includes a number of options to configure for y
 
 The following are important options to understand for Inventory Management:
 
-* **Notify for Quantity Below** sets an amount to trigger a low stock warning and subtracts from your Salable Quantity. If you enable backorders, this value is not deducted from the Salable Quantity.
-* **Backorders** sets if products can be sold beyond a zero inventory, saving orders until restocked. When enabled, we recommend configuring the Out-of-Stock Threshold.
-* **Out-of-Stock Threshold** indicates when a product is out of stock and cannot be sold further. The value supports negative and positive amounts. If you enable backorders, we recommend setting this value to a negative amount for the maximum amount of products that can be backordered before the product is truly considered out of stock.
+* **Out-of-Stock Threshold** sets an amount to subtract from your Salable Quantity. If you enable backorders, this value is not deducted from the Salable Quantity.
+* **Backorders** determines if products can be sold beyond a zero inventory, saving orders until restocked. When enabled, we recommend configuring the Out-of-Stock Threshold.
+
+{: .bs-callout .bs-callout-info}
+The Out-of-Stock Threshold value supports negative and positive amounts. If you enable Backorders, we recommend setting this value to a negative amount for the maximum amount of products that can be backordered before the product is truly considered out of stock.
