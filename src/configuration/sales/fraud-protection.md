@@ -1,5 +1,4 @@
 ---
-conditions: Default.EE-B2B
 title: Fraud Protection
 ---
 

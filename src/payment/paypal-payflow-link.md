@@ -2,6 +2,10 @@
 title: PayPal Payflow Link
 ---
 
+{:.bs-callout .bs-callout-warning}
+**Payment Services Directive Requirements:** <br/>
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, PayPal Payflow Link must be integrated with Cardinal Commerce. To learn more, see [3-D Secure for Payflow](https://developer.paypal.com/docs/classic/payflow/3d-secure-overview/).
+
 PayPal PayFlow Link is available for merchants in the United States and Canada only. Customers are not required to have a personal PayPal account, and enter their credit card information in a form that is hosted by PayPal. The information is never stored on your Magento server. PayFlow Link cannot be used for orders that are created from the Admin.
 
 ![Configure]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payflow-link.png %}){: .zoom}
