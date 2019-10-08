@@ -18,7 +18,7 @@ _Design Menu_
 {:.procedure}
 To display the Design menu:
 
-On the _Admin_ sidebar, select **Content**. The Design options are part of the Content menu.
+  - On the _Admin_ sidebar, select **Content**. The Design options are part of the Content menu.
 
 ## Menu Options
 
