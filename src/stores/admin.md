@@ -5,7 +5,7 @@ group: getting-started
 
 Your store Admin is the password-protected back office where you, as the merchant, can set up products and promotions, manage orders, and perform other administrative tasks. All basic configuration tasks and store management operations are performed from the Admin.
 
-![]({{ site.baseurl }}{% link images/images/admin-menu-dashboard.png %}){: .zoom}
+![Magento Admin - Dashboard]({{ site.baseurl }}{% link images/images/admin-menu-dashboard.png %}){: .zoom}
 _Admin Sidebar and Dashboard_
 
 Your initial sign-in credentials were set up during the Magento installation. If you forget your password, a temporary password can be sent to the email address that is associated with the account. For increased security, you can configure your store to require a case-sensitive user name and password. For additional security, the Admin login can be configured to require a [CAPTCHA]({{ site.baseurl }}{% link stores/security-captcha.md %}). To learn more, see [Configuring Admin Security]({{ site.baseurl }}{% link stores/security-admin.md %}).
