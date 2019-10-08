@@ -60,6 +60,17 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 |Product Code|The product SKU.|
 |Flat Rate|Identifies the shipping rate that is mapped to the product.|
 
+## Vertex Flexible Fields
+
+![]({{ site.baseurl }}{% link images/images/config-sales-tax-vertex-flexible-fields.png %}){: .zoom}
+[_Flexible Fields_]({{ site.baseurl }}{% link tax/vertex-configure-magento.md %}#flex-fields)
+
+|Type|Description|
+|--- |--- |
+|Code Fields|Maps a Magento data source field using an alphanumeric string value with a maximum length of 40 characters. Strings that exceed the size limit are truncated. You can create a maximum of 25 flexible code fields for use in Vertex Tax Assist Rules. |
+|Numeric Fields|Maps a Magento data source using numeric values for data, such as durations and weights, including floating decimal points. You can create a maximum of 10 flexible numeric fields for use in Vertex Tax Assist Rules. |
+|Date Fields|Maps a Magento data source using dates in the format YYYY/MM/DD. You can create a maximum of five flexible date fields for use in Vertex Tax Assist Rules. |
+
 ## Vertex Logging
 
 ![]({{ site.baseurl }}{% link images/images/config-sales-tax-vertex-logging.png %}){: .zoom}

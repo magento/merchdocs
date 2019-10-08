@@ -1,11 +1,11 @@
 ---
 conditions: Default.EE-B2B
-title: CyberSource
+title: CyberSource (Deprecated)
 ---
 
 {:.bs-callout .bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
-Beginning September 14, 2019, European banks may decline payments which do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}), install and configure the official CyberSource payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=cybersource#q=cybersource&idx=m2_cloud_prod_default_products&p=0&nR%5Bvisibility_search%5D%5B%3D%5D%5B0%5D=1){:target="_blank"}. 3D Secure 2.0 verification is available through [CardinalCommerce](https://www.cardinalcommerce.com/products/psd2). To learn more, see [3D Secure 2.0 changes](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460?_ga=2.58725933.1838384123.1564065679-2098781342.1564065679){:target="_blank"} in our Dev blog.
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, install and configure the official CyberSource payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=cybersource#q=cybersource&idx=m2_cloud_prod_default_products&p=0&nR%5Bvisibility_search%5D%5B%3D%5D%5B0%5D=1){:target="_blank"}. 3D Secure 2.0 verification is available through [CardinalCommerce](https://www.cardinalcommerce.com/products/psd2).
 
 [CyberSource][1] was one of the pioneers in the early online payment industry, and later acquired Authorize.Net. Today, CyberSource is a wholly-owned subsidiary of Visa Inc. Over 400,000 businesses worldwide use CyberSource to process online payments, streamline fraud management, and to simplify payment security. The company is based in Foster City, California, and has offices throughout Asia, Europe, Latin America, the Middle East, Africa, and the United States.
 
@@ -17,11 +17,15 @@ Sign up for a CyberSource [merchant account][2], and get your credentials.
 
 ## Step 2: Enable CyberSource
 
-1. Set **Enabled** to “Yes.”
+1. On the Admin sidebar, go to **Stores** > Settings > **Configuration**.
 
-1. Accept the **Default Payment** action of “Authorized Only,” which approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer’s bank account until the sale is “captured” by the merchant.
+2. In the panel on the left under **Sales**, choose **Payment Methods**. Under **Other Payment Methods**, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **CyberSource (Deprecated)** section. Then, do the following:
+ 
+   1. Set **Enabled** to `Yes`.
 
-1. Enter a **Title** to identify CyberSource during checkout.
+   2. Accept the **Default Payment** action of `Authorized Only`, which approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer’s bank account until the sale is “captured” by the merchant.
+
+   3. Enter a **Title** to identify CyberSource during checkout.
 
    ![Enable CyberSource]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-cybersource1.png %}){: .zoom}
    _Enable CyberSource_
@@ -46,13 +50,13 @@ _Your CyberSource Credentials_
    - Processing
    - Suspected Fraud
 
-1. To run CyberSource in a test environment before going live, set **Test Mode** to “Yes.”
+1. To run CyberSource in a test environment before going live, set **Test Mode** to `Yes`.
 
-   When you are ready to go live with CyberSource, set Test Mode to “No.”
+   When you are ready to go live with CyberSource, set Test Mode to `No`.
 
-1. If you want the system to save a log file of interactions between your store and CyberSource, set **Debug** to “Yes.”
+1. If you want the system to save a log file of interactions between your store and CyberSource, set **Debug** to `Yes`.
 
-1. Set **Credit Card Types** to each card that you accept as payment. To choose multiple credit cards, hold down the Ctrl key and click each option.
+1. Set **Credit Card Types** to each card that you accept as payment. To choose multiple credit cards, hold down the Ctrl key (PC) or Cmd key (Mac) and click each option.
 
    ![Credit Card Types]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-cybersource3.png %}){: .zoom}
    _Credit Card Types_

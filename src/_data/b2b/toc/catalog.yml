@@ -84,6 +84,8 @@ pages:
       url: "/catalog/settings-advanced-design.html"
     - label: Autosettings
       url: "/catalog/product-autosettings.html"
+    - label: Shipping
+      url: "/catalog/product-shipping.html"
     - label: Gift Options
       url: "/catalog/product-gift-options.html"
     - label: Product In Shared Catalogs

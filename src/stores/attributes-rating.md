@@ -31,7 +31,7 @@ _Ratings_
    {: .bs-callout .bs-callout-info}
    Ratings are not visible unless assigned to a store view.
 
-1. In the **Sort Order** field, enter a number to determine the order of this rating when listed with others.
+1. For **Sort Order**, enter a number to determine the order of this rating when listed with others.
 
     ![Rating visibility settings]({{ site.baseurl }}{% link images/images/product-rating-visibility.png %}){: .zoom}
     _Rating Visibility_

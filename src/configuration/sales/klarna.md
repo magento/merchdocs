@@ -26,6 +26,7 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 |--- |--- |--- |
 |Enable this Solution|Store View|Enables Klarna for the current store view. Options: Yes / No|
 |Payment from applicable countries|Store View|Determines the countries where Klarna is available for this store view. Options: All Allowed Countries / Specific Countries|
+|Enable B2B|Store View|Allows B2B payments, if previously set up in your Klarna account. Options: Yes / No|
 |Data sharing|Store View|(U.S. only) Determines if customer data is shared with Klarna before the customer places an order. Sharing data allows Klarna to personalize credit offerings for the customer. Options: Yes / No|
 |Sort Order|Store View|A number that determines the sequence in which Klarna appears with other payment methods during checkout. If left blank, Klarna appears next in the list of active payment methods.|
 

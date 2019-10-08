@@ -19,7 +19,7 @@ To access the Magento Shipping Portal, you must have both a [Magento account]({{
 1.  Click **Access the Magento Shipping Portal here**.
 
     ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-magento-shipping-portal-access.png %}){: .zoom}
-    [*Access Magento Shipping Portal*]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})
+    [_Access Magento Shipping Portal_]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})
 
 1.  When prompted, enter the **Email** and **Password** that you use to log in to your Magento account.
 
@@ -27,15 +27,15 @@ To access the Magento Shipping Portal, you must have both a [Magento account]({{
 
 ## Step 2: Generate Your API Tokens
 
-When you receive the confirmation email, open a tab to a separate browser window, and log in to your **Magento Shipping** account.
+When you receive the confirmation email, open a new browser tab and log in to your **Magento Shipping** account in the Magento Shipping Portal.
 
-You should now have an open tab to your Magento configuration, and another to your Magento Shipping account. Information from your Magento Shipping account will later be pasted into the Magento Shipping configuration in the Admin.
+You should now have an open tab for your Magento configuration in the Admin and another for your Magento Shipping account. Information from your Magento Shipping account will later be pasted into the Magento Shipping configuration in the Admin.
 
-Take a moment to read the **Getting Started** steps.
+Take a moment to read the [**Getting Started**](https://shipping.magento.com/getting-started) steps.
 
 1.  In the header, click the **question mark** (?) to hide the Welcome message and Getting Started steps.
 
-1.  In the **Account Details** section, review your **API Endpoint** and **Account ID**.
+1.  In the **Account** section, review your **API Endpoint** and **Account ID**.
 
     This information will later be copied and pasted into your Magento configuration.
 
@@ -46,10 +46,11 @@ Take a moment to read the **Getting Started** steps.
 
 1.  In the API Tokens section, click **Generate Token** for the type of token that you need.
 
-    *  **Production API Token**–Generates the API token that is needed to use Magento Shipping in production mode.
-    *  **Test API Token**–Generates an API token that is needed to use Magento Shipping in test mode.
+    -  **Production API Token** – Generates the API token that is needed to use Magento Shipping in production mode.
 
-    For a first-time setup, choose **Test API Token**. When you are ready to _go live_ with Magento Shipping, you can use the Production API Token. In the next step you will paste the token into the Magento configuration.
+    -  **Test API Token** – Generates an API token that is needed to use Magento Shipping in test mode.
+
+    For a first-time setup, choose **Test API Token**. When you are ready to _go live_ with Magento Shipping, you can use the Production API Token. In the next step, you will paste the token into the Magento configuration.
 
     ![]({{ site.baseurl }}{% link images/images/shipping-magento-portal-api-token.png %}){: .zoom}
     _API Tokens_
@@ -60,32 +61,31 @@ Return to the browser tab with the **Magento Shipping** configuration, and do th
 
 1.  Set **Enabled** to `Yes`.
 
-2.  Enter the **Title** that you want to use for Magento Shipping.
+1.  Enter the **Title** that you want to use for Magento Shipping.
 
-3.  To enable logging for all API communication, set **Enable API Logging** to `Yes`. By default, only API errors are logged. 
+1.  To enable logging for all API communication, set **Enable API Logging** to `Yes`. By default, only API errors are logged.
 
-4.  Add Magento Shipping account API credentials to your Magento configuration:
+1.  Add Magento Shipping account API credentials to your Magento configuration:
 
-    *  Return to the browser tab for Magento Shipping.
-    
-    *  Copy and paste each of the following credentials into the Magento configuration.
+    -  Return to the browser tab for Magento Shipping and copy your Account Information.
 
-       * API Endpoint
-       * Account ID
-       * API Token
+    -  Paste each of the following credentials into the Magento configuration in the Admin.
+
+       - API Endpoint
+       - Account ID
+       - API Token
 
        {: .bs-callout .bs-callout-info}
        To run Magento Shipping in a testing environment, make sure to generate and copy the test token, rather than the production token.
-
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 1.  If your store offers [return merchandise authorization]({{ site.baseurl }}{% link sales/returns.md %}), set **Enabled for RMA** to “Yes”.
-
 <!--{% endif %}-->
+
 1.  (Optional) Configure customer shipping options:
 
-    *  To give customers the option to have the shipment delivered to a designated drop point other than the standard _ship to_ address, set **Enable Collection Points at Checkout** to `Yes`.
-     
-    *  Choose each country where such alternate collection points are to be available. (Hold down the Ctrl key and click each country.)
+    -  To give customers the option to have the shipment delivered to a designated drop point other than the standard _ship to_ address, set **Enable Collection Points at Checkout** to `Yes`.
+
+    -  If set to `Yes`, choose each country where such alternate collection points are to be available. (Hold down the Ctrl key and click each country.)
 
     ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-magento-shipping-enable-collection-points.png %}){: .zoom}
     _Enable Collection Points at Checkout_
@@ -96,13 +96,15 @@ Return to the browser tab with the **Magento Shipping** configuration, and do th
 
 4.  Set **Ship to Applicable Countries** to one of the following:
 
-    * **All Allowed Countries**–Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use Magento Shipping.
-    * **Specific Countries**–Select each country in the list where Magento Shipping can be used.
+    - **All Allowed Countries** – Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use Magento Shipping.
+
+    - **Specific Countries** – Select each country in the list where Magento Shipping can be used. (Hold down the Ctrl key and click each country.)
 
 5.  Set **Show Method if Not Applicable** to one of the following:
 
-    *  **Yes**–Always shows the Magento Shipping method, even when not applicable.
-    *  **No**–Shows the Magento Shipping method only when applicable. |
+    -  **Yes** – Always shows the Magento Shipping method, even when not applicable.
+
+    -  **No** – Shows the Magento Shipping method only when applicable.
 
 6.  In the **Displayed Error Message** box, type the message to appear if Magento Shipping becomes unavailable.
 
@@ -127,13 +129,13 @@ The following configuration settings can be completed now, or at a later time.
 The Checkout View Settings determine the options that appear as add-on delivery options during checkout.
 
 ![]({{ site.baseurl }}{% link images/images/storefront-checkout-shipping-add-ons.png %}){: .zoom}
-*Magento Shipping Options During Checkout*
+_Magento Shipping Options During Checkout_*_
 
 To complete the **Checkout View Settings**:
 
 1.   Click **Configure**.
 
-     ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-magento-shipping-checkout-view-settings.png %}){: .zoom}*Configure Checkout View Settings*
+     ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-magento-shipping-checkout-view-settings.png %}){: .zoom}_Configure Checkout View Settings_
 
 2.  Mark the checkbox of each option that you want to appear during checkout. Then, complete the information in each section as needed.
 
@@ -142,19 +144,21 @@ To complete the **Checkout View Settings**:
 
 3.  In the **Address Type** section, do the following:
 
-    *  Enter the text that you want to use as the **Dropdown Label** for the Address Type options during checkout.
-    *  In the **Dropdown Options** list, select each option that you want to include as an address type.
-    *  Select the option that you want to be used as the **Default Value**.
+    -  For **Dropdown Label**, enter the text that you want to display for the address type label options during checkout.
+
+    -  For **Dropdown Options**, select each option that you want to include as an address type.
+
+    -  For **Default Value**, select the address type option that you want to be used as the default.
 
     ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-magento-shipping-show-fields-at-checkout-address-type.png %}){: .zoom}
     _Address Type_
 
-4.  In the **Authority to Leave** section, enter the **Checkbox Label** for the option.
+4.  In the **Authority to Leave** section, enter the text that you want to display for the checkbox label for this option.
 
     ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-magento-shipping-checkout-view-authority-to-leave.png %}){: .zoom}
     _Authority to Leave_
 
-5.  In the **Signature Required** section, enter the **Checkbox Label** for the option.
+5.  In the **Signature Required** section, enter the text that you want to display for the checkbox label for this option.
 
     ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-magento-shipping-checkout-view-signature-required.png %}){: .zoom}
     _Signature Required_
@@ -163,41 +167,49 @@ To complete the **Checkout View Settings**:
 
 ### Advanced Settings
 
-The following settings are required to synchronize your store with the Temando API to enable [batch processing]({{ site.baseurl }}{% link sales/batches.md %}).
+The following settings are required to synchronize your store with the Temando API and enable [batch processing]({{ site.baseurl }}{% link sales/batches.md %}).
 
 1. To configure the **Advanced Settings**, click **Configure**. Then, do the following:
 
    ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-magento-shipping-advanced-settings-configure.png %}){: .zoom}
-   *Configure Advanced Settings*
+   _Configure Advanced Settings_
 
-2. To synchronize Magento with other systems in your stack, set **Enable sync** to “Yes”.
+2. To synchronize Magento with other systems in your stack, set **Enable sync** to `Yes`.
 
 3. To synchronize shipment entities, mark the **Shipment** checkbox.
 
-4. Tap **Save** to return to the Magento Shipping section.
+4. Click **Save**.
 
    ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-magento-shipping-advanced-settings-sync.png %}){: .zoom}
-   [*Advanced Settings - Sync Shipment Entity*]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})
+   [_Advanced Settings - Sync Shipment Entity_]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})
 
-5. When complete, tap **Save Config**.
+5. When complete, click **Save Config**.
 
 ## Step 5: Complete the Shipping Profiles
 
-The final step of the setup is to complete the [Location]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %}), [Carrier]({{ site.baseurl }}{% link shipping/magento-shipping-carriers.md %}), and [Package]({{ site.baseurl }}{% link shipping/magento-shipping-packaging.md %}) shipping profiles. After these profiles are complete, you can create [Shipping Experience Rules]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %}) to add logic and automate parts of the shipping workflow.
+The final step of the setup is to complete the [Location]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %}), [Carrier]({{ site.baseurl }}{% link shipping/magento-shipping-carriers.md %}), and [Package]({{ site.baseurl }}{% link shipping/magento-shipping-packaging.md %}) shipping profiles. After these profiles are complete, you can create [Shipping Experience Rules]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %}) to add logic and automate parts of your shipping workflow.
 
-When the initial configuration is complete, you can access the Magento Shipping Portal directly from the Magento Admin. You can use either of the following methods to access and complete the shipping profile information from the Magento Admin.
+When the initial configuration is complete (Steps 1-4), you can access the Magento Shipping Portal directly from the Magento Admin. You can use either of the following methods to access and complete the shipping profile information from the Magento Admin.
 
 {: .bs-callout .bs-callout-info}
-The Magento Shipping portal session times out after thirty minutes of inactivity.
+The Magento Shipping Portal session times out after thirty minutes of inactivity.
 
 ### Method 1 - Menu Options
 
-On the Admin sidebar, choose **Stores**. Then under **Shipping**, choose the following:
+On the _Admin_ sidebar, choose **Stores**. Then under _Shipping_, choose the following:
 
-* [Carriers]({{ site.baseurl }}{% link shipping/magento-shipping-carriers.md %})
-* [Locations]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %})
-* [Packaging]({{ site.baseurl }}{% link shipping/magento-shipping-packaging.md %})
-* [Experiences]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %})
+- [Carriers]({{ site.baseurl }}{% link shipping/magento-shipping-carriers.md %})
+
+- [Locations]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %})
+
+- [Packaging]({{ site.baseurl }}{% link shipping/magento-shipping-packaging.md %})
+
+- [Experiences]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %})
+
+- [Attribute Mapping]({{ site.baseurl }}{% link shipping/magento-shipping-attributes.md %})
+
+    ![]({{ site.baseurl }}{% link images/images/magento-shipping-stores-shipping-menu.png %}){: .zoom}
+    _Stores > Shipping menu_
 
 ### Method 2 - Configuration
 
@@ -207,7 +219,7 @@ On the Admin sidebar, choose **Stores**. Then under **Shipping**, choose the fol
 
 3.  In the _Sales_ section in the left panel, choose **Shipping Methods**.
 
-4.  Scroll down to the **Magento Shipping** section to configure the shipping profile settings.
+4.  Scroll down to the _Magento Shipping_ section to configure the shipping profile settings.
 
 5.  Click **Configure** to complete each profile.
 
@@ -216,4 +228,4 @@ On the Admin sidebar, choose **Stores**. Then under **Shipping**, choose the fol
 7.  When the profiles are complete, create [Shipping Experience Rules]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %}) to add logic and automate parts of your shipping workflow.
 
     ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-magento-shipping-sections.png %}){: .zoom}
-    _Shipping Profiles_
+    _Shipping Profiles Configuration_

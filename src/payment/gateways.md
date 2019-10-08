@@ -12,10 +12,10 @@ Magento supports numerous payment solutions that offer merchant services in all 
 - [Authorize.Net Direct Post (Deprecated)]({{ site.baseurl }}{% link payment/authorize-net-direct-post.md %})
 - [Authorize.Net]({{ site.baseurl }}{% link payment/authorize-net.md %})
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-- [CyberSource]({{ site.baseurl }}{% link payment/cybersource.md %})
+- [CyberSource (Deprecated)]({{ site.baseurl }}{% link payment/cybersource.md %})
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-- [eWAY]({{ site.baseurl }}{% link payment/eway.md %})
+- [eWAY (Deprecated)]({{ site.baseurl }}{% link payment/eway.md %})
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 - [Worldpay]({{ site.baseurl }}{% link payment/worldpay.md %})

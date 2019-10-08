@@ -152,13 +152,13 @@ The following example will generate Magento 2.2 documentation only.
    This command:
    - Checks your environment according to the dependencies in `Gemfile.lock`.
    - Removes the `_site/` directory, which contains previously generated preview files.
-   - Generates a new preview and opens the landing page in a web browsers.
+   - Generates a new preview and opens the landing page in a web browser.
 
 If you don't have the `_config.local.yml` file at the root of your `merchdocs/` directory, the rake will generate all versions of the documentation.
 
 ## Build in Windows
 
-Some of the technologies we use to develop Merchant Documentation is not compatible with Windows, such as [Jekyll](https://jekyllrb.com/docs/windows/). For this reason, we do not support Merchant Documentation management in Windows; however, we have documented the following procedures to build thi site in a Windows environment. Any further use of this setup or troubleshooting is up to you.
+Some of the technologies we use to develop Merchant Documentation is not compatible with Windows, such as [Jekyll](https://jekyllrb.com/docs/windows/). For this reason, we do not support Merchant Documentation management in Windows; however, we have documented the following procedures to build this site in a Windows environment. Any further use of this setup or troubleshooting is up to you.
 
 Download software:
 
@@ -186,7 +186,7 @@ Only Administrators can use Chocolatey features. You can use the Administrator a
 
 1. Close and reopen the command prompt before using `choco` commands.
 
-After running the script at the command line, you can install any required extensions. Chocolately has many extensions available, similar to Homebrew for MacOS. As a best practice, only use extensions labeled as a "trusted package". You can install editors, such as Nano and Notepad++, using Chocolatey, as well.
+After running the script at the command line, you can install any required extensions. Chocolatey has many extensions available, similar to Homebrew for MacOS. As a best practice, only use extensions labeled as a "trusted package". You can install editors, such as Nano and Notepad++, using Chocolatey, as well.
 
 #### Install Ruby extension
 

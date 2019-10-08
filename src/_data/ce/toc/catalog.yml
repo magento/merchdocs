@@ -70,6 +70,8 @@ pages:
       url: "/catalog/settings-advanced-design.html"
     - label: Schedule Design Update
       url: "/catalog/product-scheduled-design-update.html"
+    - label: Shipping
+      url: "/catalog/product-shipping.html"
     - label: Gift Options
       url: "/catalog/product-gift-options.html"
     - label: Downloadable Information
