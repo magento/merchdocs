@@ -157,14 +157,15 @@ _[Price]({{ site.baseurl }}{% link catalog/catalog-price-scope.md %})_
 
 |Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Popular Search Terms|Store View|Determines if Popular Search Terms is implemented in the store. Options include: Enable / Disable.|
+|Popular Search Terms|Store View|Determines if Popular Search Terms is implemented in the store. Options: Enable / Disable|
 |Product URL Suffix|Store View|Determines if a suffix, such as html or htm, is applied to product URLs. If used, do not include a period before the suffix, because it is applied automatically.|
 |Category URL Suffix|Store View|Determines if a suffix, such as html or htm, is applied to category URLs. If used, do not include a period before the suffix, because it is applied automatically.|
 |Use Categories Path for Product URLs|Store View|Determines if category paths are included in product URLs. Doing so can cause multiple URLs to point to the same page, which might impact search rank. To learn more, see: [Canonical Meta Tag]({{ site.baseurl }}{% link marketing/meta-canonical.md %}).|
-|Create Permanent Redirect for URLs if URL Key Changed|Store View|Determines if a permanent redirect is created automatically whenever a URL key changes. When implemented, the Create Custom Redirect for old URL checkbox below the product URL Key field is selected by default. Options include: Yes / No.|
+|Create Permanent Redirect for URLs if URL Key Changed|Store View|Determines if a permanent redirect is created automatically whenever a URL key changes. When implemented, the Create Custom Redirect for old URL checkbox below the product URL Key field is selected by default. Options: Yes / No|
+|Generate "category/product" URL Rewrites|Global|Determines if Magento generates data and saves it into rewrite tables when a user saves a category that contains many assigned products. Options: Yes / No <br/><br/>**_Important:_** Saving this generated data into a URL rewrites table can degrade Magento performance. See [Automatic Product Redirects]({{ site.baseurl }}{%- link marketing/url-redirect-product-automatic.md -%}) for more information.|
 |Page Title Separator|Store View|Identifies the character that separates the category name and subcategory in the browser title bar.|
-|Use Canonical Link Meta Tag for Categories|Store View|If there are multiple URLs that point to the same category page, this option uses a canonical meta tag to identify the category URL that search engines should index. The URL includes a full name to the category using the metatag. This reduces duplicate content and improves SEO. Options include: Yes / No.|
-|Use Canonical Link Meta Tag for Products|Store View|If there are multiple URLs that point to the same product page, this option uses a canonical meta tag to identify the product URL that search engines should index. The URL includes a full name to the product using the metatag. This reduces duplicate content and improves SEO. Options include: Yes / No.|
+|Use Canonical Link Meta Tag for Categories|Store View|If there are multiple URLs that point to the same category page, this option uses a canonical meta tag to identify the category URL that search engines should index. The URL includes a full name to the category using the metatag. This reduces duplicate content and improves SEO. Options: Yes / No|
+|Use Canonical Link Meta Tag for Products|Store View|If there are multiple URLs that point to the same product page, this option uses a canonical meta tag to identify the product URL that search engines should index. The URL includes a full name to the product using the metatag. This reduces duplicate content and improves SEO. Options: Yes / No|
 
 ## Category Top Navigation
 

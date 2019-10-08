@@ -6,7 +6,7 @@ redirect_from:
 
 The Engagement Cloud configuration settings can be found in **System** > **Configuration** > **Engagement Cloud**.
 
-See the Engagement Cloud child pages for more information on each section:
+See the following pages for more information on each section:
 
 - [Accounts]({{ site.baseurl }}{% link configuration/engagement-cloud/accounts.md %})
 - [Data Mapping]({{ site.baseurl }}{% link configuration/engagement-cloud/data-mapping.md %})

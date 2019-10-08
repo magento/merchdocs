@@ -1,12 +1,16 @@
 ---
 conditions: Default.EE-B2B
-title: eWAY
+title: eWAY (Deprecated)
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > [Payment Methods]({{ site.baseurl }}{% link configuration/sales/payment-methods.md %}) > eWAY
+Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > [Payment Methods]({{ site.baseurl }}{% link configuration/sales/payment-methods.md %}) > eWAY (Deprecated)
+
+{:.bs-callout .bs-callout-warning}
+**Payment Services Directive Requirements:** <br/>
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, install and configure the official eWAY payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=eway){:target="_blank"}.
 
 ![]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-eway.png %}){: .zoom}
-_eWAY_
+[_eWAY_]({{ site.baseurl }}{% link payment/eway.md %})
 
 |Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
 |--- |--- |--- |
