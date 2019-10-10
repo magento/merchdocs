@@ -20,13 +20,14 @@ Every time you set up a new Amazon store, a list of set up tasks display. We rec
 All products and data synced between Magento and Amazon is managed by the cron. When you complete tasks like add or update listings and receive orders, a cron job sends and receives data between your Magento backend and your Amazon Seller Central account.
 
 - [Enable Magento cron]({{ site.baseurl }}{% link system/cron.md %}).
+
 - For maximum performance, [set Magento cron]({{ site.baseurl }}{% link configuration/advanced/system.md %}) to run once every five minutes.
 
 ## 2. Create your Amazon Seller Central account.
 
-Before you begin to set up your Amazon Sales Channel, you must have an active Amazon Seller Central account. If you don't have an existing Amazon Seller account in the [North America][1] (US, CA, MX) region, you can complete Amazon's seller account set up process.
+Before you begin to set up your Amazon Sales Channel, you must have an active Amazon Seller Central account. If you don't have an existing Amazon Seller account in the [North America][1] (US, CA, MX)  or [European](https://services.amazon.co.uk/services/sell-online/how-it-works.html) (UK) region, you can complete Amazon's seller account set up process.
 
-Amazon Sales Channel requires a [Professional Seller account][2]{: target="_blank"} on Amazon Seller Central, in the North America region. Amazon charges a monthly subscription and fees for selling. See [Amazon: Choose your selling plan][3]{: target="_blank"}.
+Amazon Sales Channel requires a [Professional Seller account][2]{: target="_blank"} on Amazon Seller Central. Amazon charges a monthly subscription and fees for selling. See [Amazon: Choose your selling plan][3]{: target="_blank"}.
 
 ## 3. Make sure you are an approved seller on Amazon. 
 
@@ -35,24 +36,29 @@ To integrate, you must have an approved Amazon Seller Central account. Your acco
 It is also important to ensure that you have configured the following in your Amazon Seller Central account:
 
 - Ensure your return policy is as good or better than the Amazon return policy. See [Amazon: Return Policy][5]{: target="_blank"}
+
 - Ensure your tax settings are configured. See [Amazon: Tax Policies][6]{: target="_blank"}.
+
 - Ensure that your shipping methods are configured accurately. To set up the shipping methods that Magento will offer to customers to fulfill your Amazon orders, update the [Amazon: Shipping Settings][7]{: target="_blank"} in your Amazon Seller Central account.
 
-## 4. Increase the number of automatic catalog matches.
+## 4. Make sure your Value Added Tax (VAT) is configured for your store(s).
+(Primarily used by UK sellers.) Amazon recommends signing up for the [Amazon VAT Calculation Service](https://services.amazon.co.uk/vat-calculation-service.html). If you choose a different method, you are responsible for VAT compliance.<br/><br/>**Note**: It may take 10-14 days for Amazon to verify and activate your VAT Calculation Service account.
+
+## 5. Increase the number of automatic catalog matches.
 
 During onboarding, Amazon Sales Channel uses product attributes to match your existing Amazon listings (if applicable) to existing products in your Magento catalog. After onboarding, these product attributes are used to publish your Magento catalog items to an Amazon listing and to sync your product data between Magento and Amazon.
 
 To have the highest number of Magento products automatically match with Amazon listings, we recommend creating a set of product attributes to your Magento catalog. Before you set up your Amazon Sales Channel store, we recommend adding Magento product attributes to match these Amazon attributes, for example: ASIN, EAN, ISBN, UPC, or GCID. See [Onboarding: Create a product attribute in Magento]({{ site.baseurl }}{% link sales-channels/amazon/ob-creating-magento-attributes.md %}).
 
-## 5. Configure your currency and conversion (as needed).
+## 6. Configure your currency and conversion (as needed).
 
 If your Amazon store uses a different currency than is configured for your Magento store, [enable the currency][8] and set the [currency conversion rate][9].
 
-## 6. Create a Product Condition attribute (as needed).
+## 7. Create a Product Condition attribute (as needed).
 
 If your Amazon listings contain more than one product condition (new, used, like new, etc), create a Magento attribute and assign condition values. You will need to map this attribute during onboarding to the Amazon Condition product attribute. See [Creating Attributes for Amazon]({{ site.baseurl }}{% link sales-channels/amazon/ob-creating-magento-attributes.md %}).
 
-## 7. Configure your Amazon Seller Central shipping method.
+## 8. Configure your Amazon Seller Central shipping method.
 
 To set up shipping methods that you will offer to fulfill your Amazon orders, refer to [Settings &gt; Shipping Settings][10]{: target="_blank"} in your Amazon Seller Central account.
 
@@ -66,7 +72,7 @@ You may not want some products to be listed on Amazon. Amazon Sales Channel has 
 
 **Set your Amazon Seller Central Region to Inactive.**
 
-To help facilitate error-free data transition during integration, we highly recommend setting your Amazon region to "Inactive" status in Settings > Account Info > Vacation Settings. Refer to [Amazon: Listing Status for Vacations][11]{: target="_blank"}. Once your setup is complete, change the status back to "Active" in Amazon.
+To help facilitate error-free data transition during integration, we highly recommend setting your Amazon region to `Inactive` status in Settings > Account Info > Vacation Settings. Refer to [Amazon: Listing Status for Vacations][11]{: target="_blank"}. Once your setup is complete, change the status back to `Active` in Amazon.
 
 ![]({{ site.baseurl }}{% link images/images/btn-next.png %}){: .Inline} [**Continue to Verify API Key**]({{ site.baseurl }}{% link sales-channels/amazon/amazon-verify-api-key.md %})
 

@@ -41,9 +41,13 @@ An intelligent repricing rule uses Amazon competitors' pricing to determine your
 1. Complete the **Price Rule Actions** for the rule.
 
     - [Select Rule Type]({{ site.baseurl }}{% link sales-channels/amazon/intelligent-repricing-rules.md %})
+
     - [Competitor Conditional Variances]({{ site.baseurl }}{% link sales-channels/amazon/competitor-conditional-variances.md %})
+
     - [Price Adjustment]({{ site.baseurl }}{% link sales-channels/amazon/price-adjustment.md %})
+
     - [Floor Price]({{ site.baseurl }}{% link sales-channels/amazon/floor-price.md %})
+
     - [Optional Ceiling Price]({{ site.baseurl }}{% link sales-channels/amazon/optional-ceiling-price.md %})
 
 1. When complete, click **Save Pricing Rule**.

@@ -10,7 +10,7 @@
     - **Enabled**: Choose when you want to create corresponding Magento orders when new orders are received from Amazon. Magento orders are created based on Amazon status and stock levels.
 
     {:.bs-callout .bs-callout-info}
-    "Enabled" must be selected to manage Amazon orders in Amazon Sales Channel. When "Disabled" is selected, your Amazon orders will display in the Orders tab but will not have a corresponding Magento order number and cannot be managed in Amazon Sales Channel. Information for these orders is for review only. You must manage these orders in your Amazon Seller Central account.
+    Must be set to `Enabled` to manage Amazon orders in Amazon Sales Channel. When set to `Disabled`, your Amazon orders will display in the Orders tab but will not have a corresponding Magento order number and cannot be managed in Amazon Sales Channel. Information for these orders is for review only. You must manage these orders in your Amazon Seller Central account.
 
 1. For **Import Amazon Orders Into Magento Store** (required), select which Magento Store the Amazon orders will be associated with when they are created in the Magento Order grid. The list of options in this drop-down is dependent on the Magento stores you have set up in your configuration. See [Stores]({{ site.baseurl }}{% link stores/stores-all-stores.md %}).
 
@@ -36,12 +36,12 @@
     - **Reserve Quantity**: Choose when you want the order quantity in the Amazon order to be "reserved" in your Magento stock quantity. When this option is selected and you receive an Amazon order, the quantity ordered will "reserve" in your Magento stock quantity to prevent your Magento stock from "over selling."
 
     {:.bs-callout .bs-callout-info}
-    Remember, Amazon orders do not import into and create new orders in Magento until Amazon verifies the order and payment method changes the order status to "Unshipped."
+    Remember, Amazon orders do not import into and create new orders in Magento until Amazon verifies the order and payment method and changes the order status to `Unshipped`.
 
 1. For **Order Status** (required), select an option from the drop-down. Options:
 
-    - **Default Order Status**: Choose when you want newly created orders imported from Amazon to be assigned your defined default order status for new orders. The default status for new orders (unless you have created a custom order status for new orders) is "Pending." See [Processing Orders]({{ site.baseurl }}{% link sales/order-processing.md %}).
+    - **Default Order Status**: Choose when you want newly created orders imported from Amazon to be assigned your defined default order status for new orders. The default status for new orders (unless you have created a custom order status for new orders) is `Pending`. See [Processing Orders]({{ site.baseurl }}{% link sales/order-processing.md %}).
 
-    - **Custom Order Status**: Choose when you want newly created orders imported from Amazon to be assigned a status other than the default. When this option is selected, the Processing Order Status field enables for you to select the status you want to use for newly created orders imported from Amazon.
+    - **Custom Order Status**: Choose when you want newly created orders imported from Amazon to be assigned a status other than the default.
 
-    - **Processing Order Status**: Select an option in the drop-down. The options that display in this field are based on the default status options in Magento. See [Order Status]({{ site.baseurl }}{% link sales/order-status.md %}). You can also create a custom order status to display here for selection. To create a custom order status, see [Custom Order Status]({{ site.baseurl }}{% link sales/order-status-custom.md %}).
+       - **Processing Order Status**: Enables when **Order Status** is set to `Custom Order Status`. Select the status you want to use for newly created orders imported from Amazon. The options that display in this field are based on the default status options in Magento. See [Order Status]({{ site.baseurl }}{% link sales/order-status.md %}). You can also create a custom order status to display here for selection. To create a custom order status, see [Custom Order Status]({{ site.baseurl }}{% link sales/order-status-custom.md %}).
