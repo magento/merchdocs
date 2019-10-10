@@ -10,8 +10,11 @@ Your Admin account was initially set up during the installation, and might conta
 To edit your account information:
 
 1. Click the **Account** (![]({{ site.baseurl }}{% link images/images/btn-account.png %}){: .Inline}) icon.
+
 1. Click **Account Setting**.
+
 1. Make necessary changes to your account information. If you change your login credentials, ensure you write them down.
+
 1. Click **Save Account**.
 
     ![Account Information]({{ site.baseurl }}{% link images/images/admin-account-information.png %}){: .zoom}

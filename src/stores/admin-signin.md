@@ -22,7 +22,9 @@ _Admin Sign In_
 
    You can bookmark the page or save a shortcut on your desktop for easy access.
 
-1. Enter your Admin **Username** and **Password**. These values may populate depending on your browser's autocomplete setting.
+1. Enter your Admin **Username** and **Password**. 
+
+   These values may populate depending on your browser's autocomplete setting.
 
 1. (Optional) Resolve a [CAPTCHA]({{ site.baseurl }}{% link stores/security-captcha.md %}) or [reCAPTCHA]({{ site.baseurl }}{% link stores/security-google-recaptcha.md %}) or enter a configured [Two-Factor Authentication]({{ site.baseurl }}{% link stores/security-two-factor-authentication.md %}) code.
 
@@ -30,7 +32,7 @@ _Admin Sign In_
 
 The first time anyone signs in to the Admin, it displays the **Allow admin usage data collection** dialog. See [Store Admin]({{ site.baseurl }}{% link stores/admin.md %}) for more information.
 
-## Reset Your Password
+## Reset your password
 
 1. Enter the **Email Address** that is associated with the Admin account.
 
@@ -42,7 +44,7 @@ The first time anyone signs in to the Admin, it displays the **Allow admin usage
    If an account is associated with the email address, an email will be sent to reset your password.
 
    {:.bs-callout .bs-callout-info}
-   An Admin password must be seven or more characters long and include both letters and numbers. See [Configuring Admin Security]({{ site.baseurl }}{% link stores/security-admin.md %}) for information on password options.
+   An Admin password must be seven or more characters long and include both letters and numbers. See [Configuring Admin Security]({{ site.baseurl }}{% link stores/security-admin.md %}) for information about password options.
 
 ## Sign Out of the Admin
 
