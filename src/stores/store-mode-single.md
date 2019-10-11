@@ -5,29 +5,29 @@ group: getting-started
 
 If your Magento installation has only a single store and store view, you can simplify the display by turning off all store view options and scope indicators. Most of the screenshots in this guide were taken with Single Store Mode disabled to show the scope indicator for each setting. Single Store Mode is overridden if you [add more store views]({{ site.baseurl }}{% link stores/stores-all-create-view.md %}) later.
 
-![]({{ site.baseurl }}{% link images/images/scope-single-view.png %}){: .zoom}
+![Scope - single view]({{ site.baseurl }}{% link images/images/scope-single-view.png %}){: .zoom}
 _Single Website, Store, and View_
 
-## To set single store mode:
+## Set single store mode
 
-1. On the Admin sidebar, tap **Stores**. Then under **Settings**, choose **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. Under **General**, scroll down to the bottom of the page, and expand the **Single-Store Mode** section.
+1. Under **General**, scroll down to the bottom of the page and expand the **Single-Store Mode** section.
 
-1. Set **Enable Single-Store Mode** to “Yes.”
+1. Set **Enable Single-Store Mode** to `Yes`.
 
-    ![]({{ site.baseurl }}{% link images/images/config-general-general-single-store-mode.png %}){: .zoom}
-    _[Single Store Mode]({{ site.baseurl }}{% link configuration/general/general.md %})_
+    ![General configuration - single store mode]({{ site.baseurl }}{% link images/images/config-general-general-single-store-mode.png %}){: .zoom}
+    [_Single Store Mode_]({{ site.baseurl }}{% link configuration/general/general.md %})
 
-1. Tap <span class="btn"> Save Config </span>.
+1. Click <span class="btn">Save Config</span>.
 
 1. When prompted to refresh the cache, do the following:
 
-    * Tap the **Cache Management** link in the system message at the top of the page.
+    - Click the **Cache Management** link in the system message at the top of the page.
 
-        ![]({{ site.baseurl }}{% link images/images/msg-cache-management.png %}){: .zoom}
+        ![System message - cache management]({{ site.baseurl }}{% link images/images/msg-cache-management.png %}){: .zoom}
         _System Message_
 
-    * Mark the **Page Cache** checkbox.
+    - Select the **Page Cache** checkbox.
 
-    * With **Actions** set to “Refresh,” tap <span class="btn"> Submit </span>.
+    - With **Actions** set to `Refresh`, click <span class="btn">Submit</span>.
