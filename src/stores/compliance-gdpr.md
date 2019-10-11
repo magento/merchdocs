@@ -7,24 +7,23 @@ The General Data Protection Regulation (GDPR) is legislation that regulates data
 
 All organizations that process personal data must disclose the following:
 
-* The type of data that is collected
-* The purpose for collecting the data
-* The method that is used to collect the data
-* How long the data is retained
-* Whether or not the data is shared with others
+- The type of data that is collected
+- The purpose for collecting the data
+- The method that is used to collect the data
+- How long the data is retained
+- Whether or not the data is shared with others
 
 ## Best Practices
 
-* Examine the current [privacy policies]({{ site.baseurl }}{% link stores/privacy-policy.md %}) for all of your Magento stores to ensure that they align with GDPR requirements.
+- Examine the current [privacy policies]({{ site.baseurl }}{% link stores/privacy-policy.md %}) for all of your Magento stores to ensure that they align with GDPR requirements.
 
-* Update your your [Google settings]({{ site.baseurl }}{% link stores/compliance-gdpr-google.md %}) to ensure that its use of personal data follows GDPR requirements.
+- Update your your [Google settings]({{ site.baseurl }}{% link stores/compliance-gdpr-google.md %}) to ensure that its use of personal data follows GDPR requirements.
 
-* Maintain transparency, and keep thorough documentation.
+- Maintain transparency, and keep thorough documentation.
 
-* Visit the [Magento website][1]{: target="_blank"} to learn how Magento helps merchants prepare for GDPR compliance.
+- Visit the [Magento website][1]{: target="_blank"} to learn how Magento helps merchants prepare for GDPR compliance.
 
-* For developers in need of technical information, including data flow diagrams and mapping, see: [Magento 2.3 GDPR compliance][2]{: target="_blank"}.
-
+- For developers in need of technical information, including data flow diagrams and mapping, see [Magento 2.3 GDPR compliance][2]{: target="_blank"}.
 
 [1]: https://magento.com/gdpr
 [2]: https://devdocs.magento.com/guides/v2.3/architecture/gdpr/magento-2x.html
