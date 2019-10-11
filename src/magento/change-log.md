@@ -22,6 +22,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 <!--{% endif %}-->
 - [Google Shopping ads Channel](https://devdocs.magento.com/extensions/google-shopping-ads/release-notes/){: target="_blank"}, 3.0.1
 - [Inventory Management](https://devdocs.magento.com/guides/v2.3/inventory/release-notes.html){: target="_blank"}, 1.1.3
+- [Amazon Sales Channel](https://devdocs.magento.com/extensions/amazon-sales/release-notes/){: target="_blank"}, 3.0.0
 
 ### New Topics
 
@@ -36,6 +37,8 @@ Our documentation is continually updated with new topics, clarifications, and co
 - [Shipping]({{ site.baseurl }}{% link catalog/product-shipping.md %})
 - [International Shipping]({{ site.baseurl }}{% link shipping/magento-shipping-international.md %})
 - [Pre-Package Assignment]({{ site.baseurl }}{% link shipping/magento-shipping-pre-packaged.md %})
+- [Sales Channel Configuration]({{ site.baseurl }}{% link configuration/sales-channels.md %})
+- [Global Settings]({{ site.baseurl }}{% link configuration/sales-channels/global-settings.md %})
 
 ### Updated Topics
 
@@ -61,11 +64,19 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Vertex Cloud]({{ site.baseurl }}{% link tax/vertex.md %})|Added release notes for Vertex Cloud integration for new flexible fields configuration.|
 |[Configuring Magento]({{ site.baseurl }}{% link tax/vertex-configure-magento.md %}) <br/>[Tax]({{ site.baseurl }}{% link configuration/sales/tax.md %}) (configuration)|Added new _Vertex Flexible Fields_ section.|
 |[Engagement Cloud]({{ site.baseurl }}{% link marketing/engagement-cloud.md %})|Updated Changes in the Latest Release.|
-|Engagement Cloud - configuration reference topics: <br/>- [Abandoned Cart]({{ site.baseurl }}{% link configuration/engagement-cloud/abandoned-carts.md %}) <br/>- [Automation]({{ site.baseurl }}{% link configuration/engagement-cloud/automation.md %}) <br/>- [Configuration]({{ site.baseurl }}{% link configuration/engagement-cloud/configuration.md %}) <br/>- [Data Mapping]({{ site.baseurl }}{% link configuration/engagement-cloud/data-mapping.md %}) <br/>- [Developer]({{ site.baseurl }}{% link configuration/engagement-cloud/developer.md %}) <br/>- [Dynamic Content]({{ site.baseurl }}{% link configuration/engagement-cloud/dynamic-content.md %}) <br/>- [Email Templates]({{ site.baseurl }}{% link configuration/engagement-cloud/email-templates.md %}) <br/>- [Sync Settings]({{ site.baseurl }}{% link configuration/engagement-cloud/sync-settings.md %}) <br/>- [Transactional Emails]({{ site.baseurl }}{% link configuration/engagement-cloud/transactional-emails.md %})|Completed field descriptions.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
+|Engagement Cloud - [Data Mapping]({{ site.baseurl }}{% link configuration/engagement-cloud/data-mapping.md %})|Completed configuration field descriptions, and added the following new fields: First Category Purchased / Last Category Purchased.|
+|Engagement Cloud - [Developer]({{ site.baseurl }}{% link configuration/engagement-cloud/developer.md %})|Completed configuration field descriptions, and added the following new field to the Import Settings section: Enable Subscribers Sales Data Sync.|
+|Engagement Cloud -<br/>[Abandoned Cart]({{ site.baseurl }}{% link configuration/engagement-cloud/abandoned-carts.md %})<br/>[Automation]({{ site.baseurl }}{% link configuration/engagement-cloud/automation.md %})<br/>[Configuration]({{ site.baseurl }}{% link configuration/engagement-cloud/configuration.md %})<br/>[Dynamic Content]({{ site.baseurl }}{% link configuration/engagement-cloud/dynamic-content.md %})<br/>[Email Templates]({{ site.baseurl }}{% link configuration/engagement-cloud/email-templates.md %})<br/>[Sync Settings]({{ site.baseurl }}{% link configuration/engagement-cloud/sync-settings.md %})<br/>[Transactional Emails]({{ site.baseurl }}{% link configuration/engagement-cloud/transactional-emails.md %})|Completed configuration field descriptions.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
 |[Add Products]({{ site.baseurl }}{% link cms/page-builder-add-content-products.md %})|Updated information to include a new Page Builder feature used to configure the sort order for products in the list.|
 |[HTML Code]({{ site.baseurl }}{% link cms/page-builder-elements-html-code.md %}) |Updated information for new buttons for inserting images, widgets, variables in Page Builder HTML content type.|<!--{% endif %}-->
 |[Assigning Sources per Product]({{ site.baseurl }}{% link catalog/inventory-product-sources.md %}) |UI updates for assigning sources for products.|
-|[Disabling Sources]({{ site.baseurl }}{% link catalog/inventory-sources-disable.md %}) |Updates for new Actions menu to enable and disable selected sources.
+|[Disabling Sources]({{ site.baseurl }}{% link catalog/inventory-sources-disable.md %}) |Updates for new Actions menu to enable and disable selected sources.|
+|[Amazon Sales Channel Settings]({{ site.baseurl }}{% link sales-channels/amazon/sales-channel-settings.md %})|Added information for the _Enable Debug Logging_ setting. |
+|[Amazon Sales Channel Logs and Reports]({{ site.baseurl }}{% link sales-channels/amazon/amazon-logs-reports.md %})|Added reference to the _Enable Debug Logging_ setting for troubleshooting. |
+|[Amazon Sales Channel Pre-Setup Tasks]({{ site.baseurl }}{% link sales-channels/amazon/amazon-pre-setup-tasks.md %})|Updated to include VAT setup.|
+|[Amazon Sales Channel Store Integration]({{ site.baseurl }}{% link sales-channels/amazon/store-integration.md %})|Updated Marketplace options to include the United Kingdom.|
+|[Amazon Sales Channel Onboarding: Listing Price]({{ site.baseurl }}{% link sales-channels/amazon/ob-listing-price.md %})|Updated VAT description and Listing Price screen capture and added PTC field descriptions for EU sales.|
+|[Amazon Sales Channel Listing Price]({{ site.baseurl }}{% link sales-channels/amazon/listing-price.md %})|Updated VAT description and Listing Price screen capture and added PTC field descriptions for EU sales.|
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ## August 2019

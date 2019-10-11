@@ -13,7 +13,7 @@ _Returns Attributes_
 
 1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Returns**.
 
-1. In the upper-right corner, click **Add New Attribute**
+1. In the upper-right corner, click **Add New Attribute**.
 
     Follow the same process that you use to create a [customer attribute]({{ site.baseurl }}{% link stores/attributes-customer.md %}).
 

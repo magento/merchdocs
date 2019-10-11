@@ -10,7 +10,7 @@
     - **Do Not Import Listing**: Choose when you want to manually [create and assign new products]({{ site.baseurl }}{% link catalog/products.md %}) to your Magento catalog for your Amazon listings.
 
     {:.bs-callout .bs-callout-info}
-    The following options fields are only active when you select to "Import Listing."
+    The following options fields are only active when you select `Import Listing`.
 
 1. For **Attribute That Contains Amazon Seller SKU**, select the Magento attribute that matches to the Amazon Seller SKU value.
 

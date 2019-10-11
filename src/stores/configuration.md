@@ -14,6 +14,7 @@ In this guide, you can drill down through any section of the reference and follo
 - [Security]({{ site.baseurl }}{% link configuration/security.md %})
 - [Customers]({{ site.baseurl }}{% link configuration/customers.md %})
 - [Sales]({{ site.baseurl }}{% link configuration/sales.md %})
+- [Sales Channels]({{ site.baseurl }}{% link configuration/sales-channels.md %}) (Only available when Amazon Sales Channel is configured.)
 - [Yotpo]({{ site.baseurl }}{% link configuration/yotpo.md %})
 - [Engagement Cloud]({{ site.baseurl }}{% link configuration/engagement-cloud.md %})
 - [Services]({{ site.baseurl }}{% link configuration/services.md %})
