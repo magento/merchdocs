@@ -61,9 +61,11 @@ Disabling Page Builder replaces the Advanced Content Tools with the WYSIWYG [edi
 
 1. In the panel on the left under **General**, choose **Content Management**.
 
-1. Under **Advanced Content Tools**, verify that **Enable Page Builder** is set to `No`. Then when prompted to confirm, click **Turn Off**.
+1. Under **Advanced Content Tools**, set **Enable Page Builder** to `No`. 
 
-    ![]({{ site.baseurl }}{% link images/images-ee/config-general-content-management-advanced-content-tools-disable-page-builder-popup.png %}){: .zoom}
+1. When prompted to confirm, click <span class="btn">Turn Off</span>.
+
+    ![Turn off Page Builderv- confirm]({{ site.baseurl }}{% link images/images-ee/config-general-content-management-advanced-content-tools-disable-page-builder-popup.png %}){: .zoom}
     _Are You Sure You Want to Turn Off Page Builder?_
 
 1. When complete, click <span class="btn">Save Config</span>. Then when prompted, [refresh]({{ site.baseurl }}{% link system/cache-management.md %}) any invalid cache.
