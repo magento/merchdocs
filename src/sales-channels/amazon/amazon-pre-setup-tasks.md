@@ -5,19 +5,19 @@ title: Pre-Setup Tasks
 
 Before starting your [onboarding tasks]({{ site.baseurl }}{% link sales-channels/amazon/amazon-onboarding-home.md %}) with [Store Integration]({{ site.baseurl }}{% link sales-channels/amazon/store-integration.md %}), you must ensure that your Amazon Seller Central account and your Magento account are ready for the integration. To achieve a successful integration and setup, we have outlined some required pre-setup tasks.
 
-Every time you set up a new Amazon store, a list of set up tasks display. We recommend reviewing and completing these tasks the first time you set up a store.
+Every time you set up a new Amazon store, a list of setup tasks is displayed. We recommend that you review and complete these tasks each time you set up a new store.
 
-1. In the Admin sidebar, click **Marketing**. Then in the Channels section, click **Amazon**.
+1. In the Admin sidebar, go to **Marketing** > _Channels_ > **Amazon**.
 
 1. On the Amazon Sales Channel Home page, click <span class="btn">Setup Amazon Store</span>.
 
-1. Review and verify you have completed these tasks and configurations.
+1. Complete and verify each task and configuration setting.
 
-1. When you complete the pre-setup tasks and recommendations, you are ready to set up your Amazon Sales Channel store through [onboarding]({{ site.baseurl }}{% link sales-channels/amazon/amazon-onboarding-home.md %}). Click [**Begin Setup**]({{ site.baseurl }}{% link sales-channels/amazon/store-integration.md %}) on the Pre-Setup Tasks screen.
+1. When you complete the pre-setup tasks and recommendations, you are ready to set up your Amazon Sales Channel store. Click [**Begin Setup**]({{ site.baseurl }}{% link sales-channels/amazon/store-integration.md %}) on the Pre-Setup Tasks screen.
 
 ## 1. Enable background tasks in Magento.
 
-All products and data synced between Magento and Amazon is managed by the cron. When you complete tasks like add or update listings and receive orders, a cron job sends and receives data between your Magento backend and your Amazon Seller Central account.
+All products and data synced between Magento and Amazon is managed by cron. When you complete tasks such as add or update listings and receive orders, a cron job sends and receives data between your Magento backend and your Amazon Seller Central account.
 
 - [Enable Magento cron]({{ site.baseurl }}{% link system/cron.md %}).
 
@@ -29,9 +29,9 @@ Before you begin to set up your Amazon Sales Channel, you must have an active Am
 
 Amazon Sales Channel requires a [Professional Seller account][2]{: target="_blank"} on Amazon Seller Central. Amazon charges a monthly subscription and fees for selling. See [Amazon: Choose your selling plan][3]{: target="_blank"}.
 
-## 3. Make sure you are an approved seller on Amazon. 
+## 3. Make sure you are an approved Amazon seller. 
 
-To integrate, you must have an approved Amazon Seller Central account. Your account must not have any restrictions existing on your account for products or categories. Some products and categories require approval prior to creating listings. Review Amazon policies for category and product approval to ensure your products will be approved. See [Amazon: Categories and products requiring approval][4]{: target="_blank"}.
+To integrate, you must have an approved Amazon Seller Central account. Your account must not have any restrictions for products or categories. Some products and categories require approval prior to creating listings. Review Amazon policies for category and product approval to ensure your products will be approved. See [Amazon: Categories and products requiring approval][4]{: target="_blank"}.
 
 It is also important to ensure that you have configured the following in your Amazon Seller Central account:
 
@@ -48,7 +48,7 @@ It is also important to ensure that you have configured the following in your Am
 
 During onboarding, Amazon Sales Channel uses product attributes to match your existing Amazon listings (if applicable) to existing products in your Magento catalog. After onboarding, these product attributes are used to publish your Magento catalog items to an Amazon listing and to sync your product data between Magento and Amazon.
 
-To have the highest number of Magento products automatically match with Amazon listings, we recommend creating a set of product attributes to your Magento catalog. Before you set up your Amazon Sales Channel store, we recommend adding Magento product attributes to match these Amazon attributes, for example: ASIN, EAN, ISBN, UPC, or GCID. See [Onboarding: Create a product attribute in Magento]({{ site.baseurl }}{% link sales-channels/amazon/ob-creating-magento-attributes.md %}).
+To have the highest number of Magento products automatically match with Amazon listings, we recommend creating a set of product attributes for your Magento catalog. Before you set up your Amazon Sales Channel store, we recommend adding Magento product attributes to match these Amazon attributes, for example: ASIN, EAN, ISBN, UPC, or GCID. See [Onboarding: Create a product attribute in Magento]({{ site.baseurl }}{% link sales-channels/amazon/ob-creating-magento-attributes.md %}).
 
 ## 6. Configure your currency and conversion (as needed).
 

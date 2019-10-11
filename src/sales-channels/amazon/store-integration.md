@@ -14,12 +14,12 @@ After integrating your Amazon account, you will be prompted annually to renew yo
 
 ## To integrate with Amazon:
 
-1. In the Admin sidebar, click **Marketing**. Then in the Channels section, click **Amazon**.
+1. In the Admin sidebar, go to **Marketing** > _Channels_ > **Amazon**.
 
 1. Click <span class="btn">Setup Amazon Store</span>.
 
    {:.bs-callout .bs-callout-info}
-   A list of [Pre-Setup Tasks]({{ site.baseurl }}{% link sales-channels/amazon/amazon-pre-setup-tasks.md %}) displays with an overview of prerequisites. When ready, click **Begin Setup**.
+   A list of [Pre-Setup Tasks]({{ site.baseurl }}{% link sales-channels/amazon/amazon-pre-setup-tasks.md %}) is displayed with an overview of prerequisites. When ready, click **Begin Setup**.
 
 1. For **Email Address**, enter your preferred contact email address.
 
@@ -44,14 +44,14 @@ After integrating your Amazon account, you will be prompted annually to renew yo
 
 1. Enter your Amazon Seller Central account credentials and click <span class="btn">Sign in</span>.
 
-   To complete this connection, you must sign in to your Amazon Seller Central account using the log-in credentials for the primary user (the email or phone used to create the seller account).
+   To complete this connection, you must sign in to your Amazon Seller Central account using the login credentials for the primary user (the email or phone used to create the seller account).
 
 1. Complete the Amazon Two-Step Verification by entering the code you receive from Amazon and click <span class="btn">Sign in</span>.
 
 1. Click <span class="btn">Continue</span> on the Amazon Marketplace Web Service confirmation screen.
 
-   You have granted Amazon Sales Channel permission to access and share data with your Amazon Seller Central account. The Amazon screen closes. A confirmation message displays for the integration.
+   You have granted Amazon Sales Channel permission to access and share data with your Amazon Seller Central account. The Amazon screen closes. A confirmation message is displayed for the integration.
 
-1. Click **OK** for the confirmation. Then click <span class="btn">Next</span>.
+1. Click **OK** to confirm. Then click <span class="btn">Next</span>.
 
 ![]({{ site.baseurl }}{% link images/images/btn-next.png %}){: .Inline} [**Continue to Step 2 of Onboarding**]({{ site.baseurl }}{% link sales-channels/amazon/ob-listing-settings.md %})

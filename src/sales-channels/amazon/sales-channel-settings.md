@@ -3,22 +3,23 @@ title: Amazon Sales Channel Settings
 ---
 
 
-Amazon Sales Channel settings are defaulted during installation of the extension. These settings can be modified and are located in your stores configuration settings. These settings include:
+During installation of the extension, default values are applied for Amazon Sales Channel settings. These settings can be modified in your configuration settings for your Amazon store. These settings include:
 
-- Whether or not to display the **Revenue** section on the store's dashboard.
-- Intervals for clearing activity log history.
-- Selection of the Cron source.
-- Whether or not to log synchronization data.
+- Dashboard view of the Revenue section
+- Intervals for clearing Activity Log history
+- Cron source selection
+- Log synchronization options
 
 ## To modify your Amazon Sales Channel settings:
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. Scroll down and click **Sales Channels** and then **Global Settings**. 
+1. Scroll down and click **Sales Channels** and then **Global Settings**.
 
 1. For **Show Dashboard Chart**, select an option.
 
     - **Yes**: (Default) Choose when you want the **Revenue** section to display on the store's [dashboard]({{ site.baseurl }}{% link sales-channels/amazon/amazon-store-dashboard.md %}). If set to 'Yes', the **Revenue** section displays a graphical representation for the store's revenue for the last 7 or 30 days.
+
     - **No**: Choose when you do not want the **Revenue** section to display on the store's [dashboard]({{ site.baseurl }}{% link sales-channels/amazon/amazon-store-dashboard.md %}).
 
 1. For **Clear Log History**, select an option.
@@ -35,7 +36,7 @@ Amazon Sales Channel settings are defaulted during installation of the extension
 
 1. For **Enable Debug Logging**, select `Enabled` to collect additional synchronization data when troubleshooting is needed.
 
-   Amazon Sales Channel logging is written to the `{Magento Root}/var/log/channel_amazon.log` file and can be viewed in [developer mode]({{ site.baseurl }}{% link magento/installation-modes.md %}).
+   Amazon Sales Channel logging is written to the `{Magento Root}/var/log/channel_amazon.log` file and can be viewed in [developer mode]({{ site.baseurl }}{% link magento/installation-modes.md %}). Logging should only be `Enabled` during troubleshooting and should be `Disabled` when troubleshooting is complete.
 
 1. Click <span class="btn">Save Config</span>.
 
