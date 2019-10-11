@@ -1,13 +1,13 @@
 ---
 title: Configuration Reference
 group: getting-started
-redirect_from: 
+redirect_from:
   - /reference.html
 ---
 
 This reference has field descriptions for every configuration setting in Magento. To learn how to apply configuration settings to specific store views, see [Configuration Scope]({{ site.baseurl }}{% link configuration/scope.md %}).
 
-In this guide, you can drill down through any section of the reference, and follow the links to corresponding topics in the user guide.
+In this guide, you can drill down through any section of the reference and follow the links to corresponding topics.
 
 - [General]({{ site.baseurl }}{% link configuration/general.md %})
 - [Catalog]({{ site.baseurl }}{% link configuration/catalog.md %})
@@ -21,10 +21,10 @@ In this guide, you can drill down through any section of the reference, and foll
 - [Advanced]({{ site.baseurl }}{% link configuration/advanced.md %})
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/config.png %}){: .zoom}
+![Magento Admin - Configuration]({{ site.baseurl }}{% link images/images/config.png %}){: .zoom}
 _Configuration_
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/config-ee.png %}){: .zoom}
+![Magento Admin - Configuration]({{ site.baseurl }}{% link images/images-ee/config-ee.png %}){: .zoom}
 _Configuration_
 <!--{% endif %}-->
