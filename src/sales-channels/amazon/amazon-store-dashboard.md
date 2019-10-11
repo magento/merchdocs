@@ -7,7 +7,7 @@ On the Amazon Stores tab in Amazon Sales Channel Home, you can click any store n
 
 The store dashboard is the primary location for you to view the activity for one of your Amazon stores. With your Amazon Seller stores added and integrated, all orders and sales track through your store data view. On the dashboard, you can view revenue, track trends, and review sales data for all listings. All listings and sales are further grouped and tracked by listing type, including active, inactive, in-progress, incomplete, and orders awaiting shipment.
 
-You can also review and update your store settings, integration settings, listing settings, price rules, order settings, and more from the store dashboard. On the dashboard, click one of your integrated stores. This store dashboard opens for stores in **Active** and **inactive** status and displays data on sales, access for listings, and configuration options for the store.
+You can also review and update your store settings, integration settings, listing settings, price rules, order settings, and more from the store dashboard. On the dashboard, click one of your integrated stores. This store dashboard opens for stores in **Active** and **Inactive** status and displays data on sales, access for listings, and configuration options for the store.
 
 The store dashboard includes the following sections and provides access to additional information:
 

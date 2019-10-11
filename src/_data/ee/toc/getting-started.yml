@@ -301,6 +301,11 @@ pages:
       url: "/configuration/sales/fraud-protection.html"
     - label: Gift Cards
       url: "/configuration/sales/gift-cards.html"
+  - label: Sales Channels
+    url: "/configuration/sales-channels.html"
+    children:
+    - label: Global Settings
+      url: "/configuration/sales-channels/global-settings.html"
   - label: Yotpo
     url: "/configuration/yotpo.html"
     children:
