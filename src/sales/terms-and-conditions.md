@@ -1,5 +1,7 @@
 ---
 title: Terms and Conditions
+redirect_from: 
+  - /stores/terms-and-conditions.html
 ---
 
 When Terms and Conditions is enabled, customers are required to agree to the terms and conditions of the sale before the purchase is finalized. The Terms and Conditions of the sale typically includes disclosure information that might be required by law for B2C or B2B sites, and outlines the rights of the buyer and seller. The Terms and Conditions message appears after the payment information, just before the Place Order button.
