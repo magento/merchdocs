@@ -285,6 +285,11 @@ pages:
         url: "/configuration/sales/cardinalcommerce.html"
     - label: Fraud Protection
       url: "/configuration/sales/fraud-protection.html"
+  - label: Sales Channels
+    url: "/configuration/sales-channels.html"
+    children:
+    - label: Global Settings
+      url: "/configuration/sales-channels/global-settings.html"
   - label: Yotpo
     url: "/configuration/yotpo.html"
     children:
