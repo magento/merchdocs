@@ -29,7 +29,7 @@ With Inventory Management enabled, see the following to configure all settings:
 
 1. Select the Store View to edit.
 
-1. Click **Catalog**. Then choose Catalog and Inventory.
+1. Click **Catalog**. Then choose **Inventory**.
 
 1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the Stock Options section, and configure Manage Stock:
 
