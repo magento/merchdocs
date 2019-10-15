@@ -73,5 +73,5 @@ As a precaution, do not try to change the Admin URL by yourself unless you know 
 
 1. Use one of the following methods to clear the Magento cache:
 
-    - On the _Admin_ sidebar, go to **System** _Tools_ > **Cache Management**. Then, click **Flush Magento Cache**.
+    - On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management**. Then, click **Flush Magento Cache**.
     - On the server, navigate to the `var/cache` folder and delete the contents of the `cache` folder.
