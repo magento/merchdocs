@@ -4,8 +4,8 @@ title: Store URLs
 
 Each website in a Magento installation has a base URL that is assigned to the storefront, and another URL that is assigned to the Admin. Magento uses variables to define internal links in relation to the base URL, which makes it possible to move an entire store from one location to another without updating the links. Standard base URLs begin with `http`, and secure base URLs begin with `https`.
 
-- **Base URL** - `http://www.yourdomain.com/magento/`
-- **Secure Base URL** - `https://www.yourdomain.com/magento/`
+- **Base URL** — `http://www.yourdomain.com/magento/`
+- **Secure Base URL** — `https://www.yourdomain.com/magento/`
 - **URL with IP address** — `http://###.###.###.###/magento/` or `https://###.###.###.###/magento/`
 
 {:.bs-callout .bs-callout-warning}
@@ -39,7 +39,7 @@ Magento can be configured to deliver all pages over `https` by default. If your 
 
         `{% raw %}{{unsecure_base_url}}{% endraw %}`
 
-    - **Base URL for User Media Files**—(Optional) Specify an alternate location for the base URL for user media files by entering the path starting with the following placeholder:
+    - **Base URL for User Media Files** — (Optional) Specify an alternate location for the base URL for user media files by entering the path starting with the following placeholder:
 
         `{% raw %}{{unsecure_base_url}}{% endraw %}`
 
