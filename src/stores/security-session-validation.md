@@ -23,15 +23,15 @@ Enabling all of the validation variables can help prevent attacks, but might als
 
 1. Set each of the configuration options:
 
-    - **Validate REMOTE_ADDR** - Set to `Yes` to verify that the IP address of a request matches what is stored in the `$_SESSION` variable.
+    - **Validate REMOTE_ADDR** — Set to `Yes` to verify that the IP address of a request matches what is stored in the `$_SESSION` variable.
 
-    - **Validate HTTP_VIA** - Set to `Yes` to verify that the proxy address of an incoming request matches what is stored in the `$_SESSION` variable.
+    - **Validate HTTP_VIA** — Set to `Yes` to verify that the proxy address of an incoming request matches what is stored in the `$_SESSION` variable.
 
-    - **Validate HTTP_X_FORWARDED_FOR** - Set to `Yes` to verify that the forwarded-for address of a request matches what is stored in the `$_SESSION` variable.
+    - **Validate HTTP_X_FORWARDED_FOR** — Set to `Yes` to verify that the forwarded-for address of a request matches what is stored in the `$_SESSION` variable.
 
-    - **Validate HTTP_USER_AGENT** - Set to `Yes` to verify that the browser or device that is used to access the store during a session matches what is stored in the `$_SESSION` variable.
+    - **Validate HTTP_USER_AGENT** — Set to `Yes` to verify that the browser or device that is used to access the store during a session matches what is stored in the `$_SESSION` variable.
 
-    - **Use SID on Frontend** - Set to `Yes` if you want a user to stay logged in while switching between stores.
+    - **Use SID on Frontend** — Set to `Yes` if you want a user to stay logged in while switching between stores.
 
         If you are including SID (session ID) with analytics, you must configure your analytics software to filter the SID from URLs so the page visit counts are correct.
 

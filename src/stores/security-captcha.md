@@ -33,7 +33,7 @@ _Admin Sign In with CAPTCHA_
 
     - **Enable CAPTCHA in Admin** — Set to `Yes`.
 
-    - **Font** - Enter the name of the font to be used for the CAPTCHA symbols (default: `LinLibertine`).
+    - **Font** — Enter the name of the font to be used for the CAPTCHA symbols (default: `LinLibertine`).
 
         To add your own font, the font file must reside in the same directory as your Magento instance, and be declared in the config.xml file of the Captcha module at: `app/code/Magento/Captcha/etc`
 
@@ -47,15 +47,15 @@ _Admin Sign In with CAPTCHA_
       - `Always` — CAPTCHA is always required to log in the Admin.
       - `After number of attempts to login` — When selected, displays the _Number of Unsuccessful Attempts to Login_ field. Enter the number of login attempts allowed. A value of 0 (zero) is similar to setting Displaying Mode to `Always`. This option does not cover the _Forgot Password_ form. If CAPTCHA is enabled and set to be appear on this form, then it is always included on the form.
 
-    - **Number of Unsuccessful Attempts to Login** - Enter the number of times the user can make an unsuccessful login attempt before the CAPTCHA appears. If set to zero (`0`), CAPTCHA is always used.
+    - **Number of Unsuccessful Attempts to Login** — Enter the number of times the user can make an unsuccessful login attempt before the CAPTCHA appears. If set to zero (`0`), CAPTCHA is always used.
 
     - **CAPTCHA Timeout (minutes)** — Enter the number of minutes before the CAPTCHA expires. When the CAPTCHA expires, the user must reload the page.
 
-    - **Number of Symbols** - Enter the number of symbols used in the CAPTCHA, up to eight. For a variable number of symbols that changes with each CAPTCHA, enter a range (such as `5-8`).
+    - **Number of Symbols** — Enter the number of symbols used in the CAPTCHA, up to eight. For a variable number of symbols that changes with each CAPTCHA, enter a range (such as `5-8`).
 
     - **Symbols Used in CAPTCHA** — Specify the symbols that can be used in the CAPTCHA. Only letters (a-z and A-Z) and numbers (0-9) are allowed. The default set of characters does not include similar symbols such as I or 1. For best results, use symbols that users can readily identify.
 
-    - **Case Sensitive** - Set to `Yes` to require that users enter the characters exactly as shown in the CAPTCHA.
+    - **Case Sensitive** — Set to `Yes` to require that users enter the characters exactly as shown in the CAPTCHA.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
@@ -86,7 +86,7 @@ _Customer CAPTCHA Configuration_
 
     - **Enable CAPTCHA on Frontend** — Set to `Yes`.
 
-    - **Font** - Enter the name of the font to be used for the CAPTCHA symbols (default: `LinLibertine`).
+    - **Font** — Enter the name of the font to be used for the CAPTCHA symbols (default: `LinLibertine`).
 
         To add your own font, the font file must reside in the same directory as your Magento instance and be declared in the `config.xml` file of the CAPTCHA module.
 
@@ -104,15 +104,15 @@ _Customer CAPTCHA Configuration_
       - `Always` — CAPTCHA is always required to access the selected form(s).
       - `After number of attempts to login` — Enter the number of login attempts before the CAPTCHA appears. A value of 0 (zero) is similar to “Always.” When selected, the number of unsuccessful login attempts appears. This option does not apply to the Forgot Password form, which always display the CAPTCHA, if enabled,
 
-    - **Number of Unsuccessful Attempts to Login** - Enter the number of times the user can make an unsuccessful login attempt before the CAPTCHA appears. If set to zero (`0`), CAPTCHA is always used.
+    - **Number of Unsuccessful Attempts to Login** — Enter the number of times the user can make an unsuccessful login attempt before the CAPTCHA appears. If set to zero (`0`), CAPTCHA is always used.
 
     - **CAPTCHA Timeout (minutes)** — Enter the number of minutes before the CAPTCHA expires. When the CAPTCHA expires, the user must reload the page to generate a new CAPTCHA.
 
-    - **Number of Symbols** - Enter the number of symbols used in the CAPTCHA, up to eight. For a variable number of symbols that changes with each CAPTCHA, enter a range (such as `5-8`).
+    - **Number of Symbols** — Enter the number of symbols used in the CAPTCHA, up to eight. For a variable number of symbols that changes with each CAPTCHA, enter a range (such as `5-8`).
 
     - **Symbols Used in CAPTCHA** — Specify the symbols that can be used in the CAPTCHA. Only letters (a-z and A-Z) and numbers (0-9) are allowed. The default set of characters does not include similar symbols such as I or 1. For best results, use symbols that users can readily identify.
 
-    - **Case Sensitive** - Set to `Yes` to require that users enter the characters exactly as shown in the CAPTCHA.
+    - **Case Sensitive** — Set to `Yes` to require that users enter the characters exactly as shown in the CAPTCHA.
 
 1. When complete, click <span class="btn">Save Config</span>.
 

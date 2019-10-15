@@ -132,7 +132,7 @@ The Duo Mobile app is available through [Google Play][3] or [iOS App Store][4]. 
         ![Duo authentication - enter phone number]({{ site.baseurl }}{% link images/images/storefront-2fa-duo-user3.png %}){: .zoom}
         _Enter Your Phone Number_
 
-    - When prompted to install Duo Mobile for your phone type, click **I have Duo Mobile**</span>.
+    - When prompted to install Duo Mobile for your phone type, click <span class="btn">I have Duo Mobile</span>.
 
         ![Duo authentication - verify app installation]({{ site.baseurl }}{% link images/images/storefront-2fa-duo-user5.png %}){: .zoom}
         _Verify App Installation_

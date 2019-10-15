@@ -31,8 +31,8 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
 1. Choose the type of Google reCAPTCHA that you want to use:
 
-    - `reCAPTCHA V2`—Verifies with a button click.
-    - `Invisible reCaptcha`—Verifies in the background without interaction.
+    - `reCAPTCHA V2` — Verifies with a button click.
+    - `Invisible reCaptcha` — Verifies in the background without interaction.
 
 1. In the **Domains** text box, enter a list of domains without the HTTP or HTTPS prefix, one per line.
 
@@ -80,9 +80,9 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
     - **Enable** — Set to `Yes`.
 
-    - **Theme** - Choose `Light` or `Dark`.
+    - **Theme** — Choose `Light` or `Dark`.
 
-    - **Size** - Choose `Normal` or `Compact`.
+    - **Size** — Choose `Normal` or `Compact`.
 
     ![Google reCAPTCHA - backend configuration]({{ site.baseurl }}{% link images/images/config-2fa-google-recaptcha-backend.png %}){: .zoom}
     [_Google reCAPTCHA Backend_]({{ site.baseurl }}{% link configuration/security/google-recaptcha.md %})
@@ -96,14 +96,14 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
     - **Enable** — Set to `Yes`.
 
-    - **reCAPTCHA type** - Choose the type you want used in Admin forms. You must have added the correct API keys for the type.
+    - **reCAPTCHA type** — Choose the type you want used in Admin forms. You must have added the correct API keys for the type.
 
         - reCAPTCHA v2 validates with the “I’m not a robot” checkbox.
         - Invisible reCAPTCHA (**recommended**) validates in the background without requiring user interactions.
 
-    - **Theme** - Choose `Light` or `Dark`.
+    - **Theme** — Choose `Light` or `Dark`.
 
-    - **Size** - Choose `Normal` or `Compact`.
+    - **Size** — Choose `Normal` or `Compact`.
 
     - Select where the CAPTCHA is used.
   
