@@ -3,9 +3,9 @@ conditions: Default.EE-B2B
 title: Refunds in Customer Account
 ---
 
-Customers can track the status of their refunds and verify the balance of their store credit from the dashboard of their accounts.
+Customers can track the status of their refunds and verify the balance of their store credit from the their accounts.
 
-![]({{ site.baseurl }}{% link images/images/customer-account-refund-tab.png %}){: .zoom}
+![]({{ site.baseurl }}{% link images/images-ee/customer-account-order-refunds.png %}){: .zoom}
 _Refund Detail_
 
 ## To view a refund from your customer account:

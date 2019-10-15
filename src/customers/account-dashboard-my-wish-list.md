@@ -2,9 +2,14 @@
 title: My Wish List
 ---
 
-Your wish list is a convenient way to keep track of products that you like, but are not ready to buy. Items from your wish list can be shared with others or added to the shopping cart.
+Your wish list is a convenient way to keep track of products that you like, but are not ready to buy. Items from your wish list can be shared with others or added to the shopping cart. {% if "Default.EE-B2B" contains site.edition %}If you have multiple wish lists, the name of the current wish list appears at the top of the page.{% endif %}
 
-![]({{ site.baseurl }}{% link images/images/account-dashboard-wishlist.png %}){: .zoom}
+ <!--{% if "Default.CE-Only" contains site.edition %}-->
+![]({{ site.baseurl }}{% link images/account-dashboard-wishlist.png %}){: .zoom}
+    <!--{% endif %}-->
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
+![]({{ site.baseurl }}{% link images/images-ee/account-dashboard-wishlist.png %}){: .zoom}
+    <!--{% endif %}-->
 _My Wish List_
 
 ## To update the product listing:
@@ -13,7 +18,12 @@ _My Wish List_
 
 1. To add a **Comment** about the product, enter the text in the box below the price.
 
-    ![]({{ site.baseurl }}{% link images/images/account-dashboard-wishlist-edit-options.png %}){: .zoom}
+    <!--{% if "Default.CE-Only" contains site.edition %}-->
+    ![]({{ site.baseurl }}{% link images/account-dashboard-wishlist-edit-options.png %}){: .zoom}
+    <!--{% endif %}-->
+    <!--{% if "Default.EE-B2B" contains site.edition %}-->
+    ![]({{ site.baseurl }}{% link images/images-ee/account-dashboard-wishlist-edit-options.png %}){: .zoom}
+    <!--{% endif %}-->
     _Edit Options_
 
 1. To change the selection of product options, click **Edit**. Then, do the following:
@@ -33,6 +43,7 @@ _My Wish List_
 
 1. Click **Share Wishlist**.
 
+1.  
 1. Enter the email address of each person who is to receive your wish list, separated by a comma.
 
 1. Add a **Message** to be included in the email.
@@ -46,3 +57,18 @@ _My Wish List_
 
     ![]({{ site.baseurl }}{% link images/images/account-dashboard-wishlist-sharing-email.png %}){: .zoom}
     _Shared Wish List Email_
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
+
+## To create a new wish list:
+
+1. In the upper-right corner, click **Create New Wish List**.
+   
+1. Enter the Wish List Name. 
+    
+1. If you want others to be able to see your wish list, mark the **Public Wish List** checkbox,
+   
+1. When complete, click <span class="btn">Save</span>.
+   
+      ![]({{ site.baseurl }}{% link images/images/images-ee/account-dashboard-wishlist-create-new.png %}){: .zoom}
+    _Create New Wish List_
+    <!--{% endif %}-->

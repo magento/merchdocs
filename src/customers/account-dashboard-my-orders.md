@@ -2,7 +2,7 @@
 title: My Orders
 ---
 
-You have access to all of your orders from your account dashboard. Orders can be viewed, tracked, and resubmitted as new orders. Depending on the status of the order, you can print orders, invoices, and shipment records.
+Customers have access to all of their orders from their account. Orders can be viewed, tracked, and resubmitted as new orders. Depending on the status of the order, customers can print their orders, invoices, shipments, and refund records.
 
 ![]({{ site.baseurl }}{% link images/images/customer-account-my-orders.png %}){: .zoom}
 _My Orders_
