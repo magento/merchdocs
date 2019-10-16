@@ -4,13 +4,14 @@ title: Account Information
 
 The basic account information includes your name and email address, and password, and can be maintained from your account dashboard.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
+<!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({{ site.baseurl }}{% link images/account-dashboard-account-information.png %}){: .zoom}
+_Account Information_
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![]({{ site.baseurl }}{% link images/images-ee/account-dashboard-account-information.png %}){: .zoom}
-<!--{% endif %}-->
 _Account Information_
+<--{% endif %}-->
 
 ## To update your account information:
 

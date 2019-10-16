@@ -12,9 +12,9 @@ _Requisition Lists_
 
 1. Do one of the following:
 
-    **Method 1:** From Account Dashboard
+    **Method 1:** From Customer Account
 
-      - In the sidebar of your account dashboard, choose **My Requisition Lists**.
+      - In the sidebar of your account, choose **My Requisition Lists**.
 
       - On the Requisition Lists page, click **Create New Requisition List**.
 

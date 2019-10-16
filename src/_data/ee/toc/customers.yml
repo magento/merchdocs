@@ -63,6 +63,8 @@ pages:
       url: "/customers/account-dashboard-my-product-reviews.html"
     - label: Newsletter Subscription
       url: "/customers/account-dashboard-newsletter-subscriptions.html"
+    - label: My Invitations
+      url: "/customers/account-dashboard-my-invitations.html"      
 - label: Customer Groups
   url: "/customers/customer-groups.html"
 - label: Customer Segments

@@ -3,7 +3,7 @@ conditions: Default.B2B Only
 title: Company Profile
 ---
 
-The information in your company profile was entered when the company account was created. You can access your company profile from the dashboard of your company account to complete any missing information, and to keep it current. To learn more, see [Creating a Company Account]({{ site.baseurl }}{% link customers/account-company-create.md %}).
+The information in your company profile was entered when the company account was created. You can access your company profile from your company account to complete any missing information, and to keep it current. To learn more, see [Creating a Company Account]({{ site.baseurl }}{% link customers/account-company-create.md %}).
 
 ![]({{ site.baseurl }}{% link images/images-b2b/company-profile.png %}){: .zoom}
 _Company Profile_

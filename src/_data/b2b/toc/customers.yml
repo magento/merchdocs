@@ -81,6 +81,8 @@ pages:
       url: "/customers/account-dashboard-my-product-reviews.html"
     - label: Newsletter Subscription
       url: "/customers/account-dashboard-newsletter-subscriptions.html"
+    - label: My Invitations
+      url: "/customers/account-dashboard-my-invitations.html"           
 - label: Company Accounts
   url: "/customers/account-companies.html"
   children:
