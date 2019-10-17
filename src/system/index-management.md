@@ -37,7 +37,7 @@ Reindexing and caching have different purposes Magento. Indexes track database i
 #### To change the index mode:
 
 {: .bs-callout-warning}
-For those using the B2B extension and have set Elasticsearch to be the fulltext indexer: The fulltext index must be rerun after any bulk permissions change or when the 'permissions' indexer is in 'Scheduled' mode.
+For those using the B2B extension and have set Elasticsearch as the fulltext (`catalogsearch_fulltext`) indexer: The fulltext index must be rerun after any bulk permissions change or when the 'permissions' indexer is in 'Scheduled' mode.
 
 1.  On the _Admin_ sidebar, click **System**.
 
