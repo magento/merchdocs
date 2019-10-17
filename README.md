@@ -83,6 +83,12 @@ Once you have completed preparing your environment, you can build locally and re
    rake preview
    ```
 
+   This command:
+
+   - Checks your environment according to the dependencies in `Gemfile.lock`.
+   - Removes the `_site/` directory, which contains previously generated preview files.
+   - Generates a new preview and opens the landing page in a web browser.
+
 1. Press `Ctrl+C` in the serve terminal to stop the server.
 
 If rake fails on your environment, generate the preview [using jekyll](#using-jekyll).
@@ -120,41 +126,11 @@ If rake fails on your environment, generate the preview [using jekyll](#using-je
 
 ### To minimize build time locally:
 
-1. Create a `_config.local.yml` file at the root of the project directory and exclude all versions except the one that you want to preview.
-The following example will generate Magento 2.2 documentation only.
+You can speed the local build time up by only building one of the three versions that the full `rake preview` command builds. These are:
 
-   ```yaml
-    exclude:
-     - /community/
-     - /swagger/
-     - /vagrant/
-     - /guides/m1x/
-     - /guides/v2.0/
-     - /guides/v2.1/
-    # - /guides/v2.2/
-     - /guides/v2.3/
-
-    # Excluded in config.yml
-     - /scss/
-     - /bin/
-     - /node_modules/
-     - /vendor/
-     - /.*
-     - /Rakefile
-   ```
-
-1. Run the preview command:
-
-   ```bash
-   rake preview
-   ```
-
-   This command:
-   - Checks your environment according to the dependencies in `Gemfile.lock`.
-   - Removes the `_site/` directory, which contains previously generated preview files.
-   - Generates a new preview and opens the landing page in a web browser.
-
-If you don't have the `_config.local.yml` file at the root of your `merchdocs/` directory, the rake will generate all versions of the documentation.
+- `rake preview:ce`: Preview the Open Source edition locally
+- `rake preview:b2b`: Preview the B2B edition locally
+- `rake preview:ee`: Preview the Commerce edition locally
 
 ## Build in Windows
 
