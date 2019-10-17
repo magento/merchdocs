@@ -7,7 +7,7 @@ As a security measure, the Admin is initially set to time out after 900 seconds 
 
 ## Adjust session lifetime
 
-1. On the _Admin_ sidebar, go to **System** > _Other Settings_ > **Notifications**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. Scroll down and expand **Advanced** in the left side panel.
 
