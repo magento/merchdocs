@@ -15,7 +15,7 @@ The Amazon Value differs depending on the attribute type and the Amazon attribut
 
 1. Click the **Matching Attribute Values** tab.
 
-1. To further review Magento product information, click a linked Magento Product SKU. This opens the Magento product edit page.
+1. To further review Magento product information, click a linked Magento Product SKU. This displays the Magento product edit page.
 
 ![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-managing-attribute-values.png %}){: .zoom}
 _Managing Attribute Values_

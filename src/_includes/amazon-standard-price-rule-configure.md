@@ -1,7 +1,7 @@
 
 ## To complete the Price Rule Actions section for a Standard Price Rule:
 
-1. For **Rule Type**, select "Standard price rule" in the drop-down.
+1. For **Rule Type**, select `Standard price rule` in the drop-down.
 
 1. For **Price Action**, select an option in the drop-down.
 
@@ -17,8 +17,8 @@
 
 1. For **Adjustment Amount** (required), enter the numerical value for the price adjustment.
 
-    - If you selected "Apply as percentage" in the **Apply** field, enter the percent value (example: 25 for a 25% percent adjustment).
+    - When **Apply** is set to `Apply as percentage`, enter the percent value (example: 25 for a 25% percent adjustment).
 
-    - If you selected "Apply as fixed amount" in the **Apply** field, enter the numerical value for the fixed amount (example: 25 for a $25 fixed adjustment).
+    - When **Apply** is set to `Apply as fixed amount`, enter the numerical value for the fixed amount (example: 25 for a $25 fixed adjustment).
 
 1. When complete, click **Save Pricing Rule**.

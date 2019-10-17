@@ -20,12 +20,17 @@ An Amazon listing is a product page for every product you sell through the Amazo
 
 When you have created a listing Magento products, they are submitted to Amazon for approval. Most successful listings are approved within a few hours. If your listing is approved, it will display in the Amazon Marketplace for immediate orders by customers. The Amazon Sales Channel provides a set of tabs to review Amazon listings. Depending on the issue or required data, you may need to review your Amazon Seller Central account for specific details on these listings.
 
-- Active: Lists approved product listings available through the marketplace.
-- Ready to List: Lists products meeting listing rules requirements and ready to publish to Amazon.
-- Inactive: Lists products not available on the marketplace due to being blocked for a specific reason (such as branding issue), closed and requiring relisting, etc.
-- Ineligible: Due to the listing rules, lists product that cannot be actively listed on the marketplace (such as 0 quantity, sell dates, etc).
-- Incomplete: Lists products missing required information. Update the product data for another review.
-- Ended: Lists product listings eligible for listing but manually removed from Amazon. You can relist these products.
+- **Active**: Lists approved product listings available through the marketplace.
+
+- **Ready to List**: Lists products meeting listing rules requirements and ready to publish to Amazon.
+
+- **Inactive**: Lists products not available on the marketplace due to being blocked for a specific reason (such as branding issue), closed and requiring relisting, etc.
+
+- **Ineligible**: Due to the listing rules, lists product that cannot be actively listed on the marketplace (such as 0 quantity, sell dates, etc).
+
+- **Incomplete**: Lists products missing required information. Update the product data for another review.
+
+- **Ended**: Lists product listings eligible for listing but manually removed from Amazon. You can relist these products.
 
 ## Syncing Data
 

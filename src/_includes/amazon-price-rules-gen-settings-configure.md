@@ -1,11 +1,13 @@
 
 ## To complete the Price Rule General Settings section:
 
-1. For **Rule Name** (required), enter the name for the rule.<br />
-This is for your internal identification purposes only. The more descriptive the rule name, the better.
+1. For **Rule Name** (required), enter the name for the rule.
 
-1. For **Description**, enter a detailed description of your rule.<br />
-This could include information on the products that qualify, the active dates, the formula for calculating your adjusted price, or any other information you'd find useful if you ever needed to modify the rule.
+   This is for your internal identification purposes only. The more descriptive the rule name, the better.
+
+1. For **Description**, enter a detailed description of your rule.
+
+   This could include information on the products that qualify, the active dates, the formula for calculating your adjusted price, or any other information you'd find useful if you ever needed to modify the rule.
 
 1. For **Status**, select an option:
 

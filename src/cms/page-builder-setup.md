@@ -54,14 +54,19 @@ When enabled in the configuration, Page Builder becomes the default content crea
 
 ## To disable Page Builder
 
-{: .bs-callout .bs-callout-info}
+{: .bs-callout-info}
 Disabling Page Builder replaces the Advanced Content Tools with the WYSIWYG [editor]({{ site.baseurl }}{% link cms/editor.md %}), and might cause display errors in the storefront. Content that you created previously with Page Builder might no longer be editable from the Admin.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the panel on the left under **General**, choose **Content Management**.
 
-1. Under **Advanced Content Tools**, verify that **Enable Page Builder** is set to `Yes`. Then when prompted to confirm, click **OK**.
+1. Under **Advanced Content Tools**, set **Enable Page Builder** to `No`. 
+
+1. When prompted to confirm, click <span class="btn">Turn Off</span>.
+
+    ![Turn off Page Builder - confirm]({{ site.baseurl }}{% link images/images-ee/config-general-content-management-advanced-content-tools-disable-page-builder-popup.png %}){: .zoom}
+    _Are You Sure You Want to Turn Off Page Builder?_
 
 1. When complete, click <span class="btn">Save Config</span>. Then when prompted, [refresh]({{ site.baseurl }}{% link system/cache-management.md %}) any invalid cache.
 
