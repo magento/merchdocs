@@ -9,7 +9,7 @@ The term _campaign_ refers to the record of a scheduled change, or collection of
 
 When you schedule a content change for a specific period of time, the content reverts to the previous version when the scheduled change expires. You can create multiple versions of the same baseline content to be used for future updates. You can also step back through the timeline to view previous versions of the content. To save a draft version, simply assign a date on the timeline that is so far into the future that it will never go into production.
 
-When any of the following content assets are created, an corresponding campaign is set up as a placeholder, and the Scheduled Changes box appears across the top of the page. The placeholder campaign has a start date, but not an end date. You can schedule updates to the content as part of a campaign, and then preview and share the changes by date, time, or store view.
+When any of the following content assets are created, a corresponding campaign is set up as a placeholder, and the Scheduled Changes box appears across the top of the page. The placeholder campaign has a start date, but not an end date. You can schedule updates to the content as part of a campaign, and then preview and share the changes by date, time, or store view.
 
 - [Products]({% link catalog/product-scheduled-changes.md %})
 - [Categories]({% link catalog/category-scheduled-changes.md %})
