@@ -12,27 +12,27 @@ namespace :build do
   task :ce do
     custom_options = ENV['ce_options']
 
-    print 'Building the Open Source edition: $ '.magenta
+    puts 'Building the Open Source edition: $ '.magenta
     sh "bundle exec jekyll build #{custom_options} --verbose --trace --config _config.yml,_config.ce.yml"
-    print 'Built!'.green
+    puts 'Built!'.green
   end
 
   desc 'Build the Commerce edition. Optionally, use "ee_options" to pass additional options. Example: rake build:ee ee_options="--baseurl=/build/${BUILD_NUMBER}/m2/ee"'
   task :ee do
     custom_options = ENV['ee_options']
 
-    print 'Building the Commerce edition: $ '.magenta
+    puts 'Building the Commerce edition: $ '.magenta
     sh "bundle exec jekyll build #{custom_options} --verbose --trace --config _config.yml,_config.ee.yml"
-    print 'Built!'.green
+    puts 'Built!'.green
   end
 
   desc 'Build the B2B edition. Optionally, use "b2b_options" to pass additional options. Example: rake build:b2b b2b_options="--baseurl=/build/${BUILD_NUMBER}/m2/b2b"'
   task :b2b do
     custom_options = ENV['b2b_options']
 
-    print 'Building B2B edition: $ '.magenta
+    puts 'Building B2B edition: $ '.magenta
     sh "bundle exec jekyll build #{custom_options} --verbose --trace --config _config.yml,_config.b2b.yml"
-    print 'Built!'.green
+    puts 'Built!'.green
   end
 
   desc 'Build site for production.'

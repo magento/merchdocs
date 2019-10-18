@@ -8,7 +8,6 @@ gem 'jekyll'
 group :test do
   gem 'html-proofer'
   gem 'launchy'
-  gem 'mdl'
 end
 
 group :optimization do
