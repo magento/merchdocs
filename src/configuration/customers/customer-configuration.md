@@ -2,36 +2,36 @@
 title: Customer Configuration
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Customers]({{ site.baseurl }}{% link configuration/customers.md %}) > Customer Configuration
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) > Customer Configuration
 
 ## Account Sharing Options
 
-![]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-account-sharing-options.png %}){: .zoom}
-[_Account Sharing Options_]({{ site.baseurl }}{% link customers/account-scope.md %})
+![]({% link images/images/config-customers-customer-configuration-account-sharing-options.png %}){: .zoom}
+[_Account Sharing Options_]({% link customers/account-scope.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Share Customer Accounts|Global|Determines the scope of customer accounts in the store hierarchy. Options: <br/>**Global** - Customer account information is shared with every website and store in the Magento installation. <br/>**Per Website** - Customer account information is limited to the website where the account was created.|
 
 ## Online Customers Options
 
-![]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-online-customers-options.png %}){: .zoom}
-[_Online Customers Options_]({{ site.baseurl }}{% link customers/now-online.md %})
+![]({% link images/images/config-customers-customer-configuration-online-customers-options.png %}){: .zoom}
+[_Online Customers Options_]({% link customers/now-online.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Online Minutes Interval|Global|Determines the length of time that a customer’s online activity is accessible from the Admin. Leave empty for a default interval of 15 minutes.|
 |Customer Data Lifetime|Global|Determines the number of minutes before unsaved data that is entered by the customer expires. By default, unsaved data expires after 60 minutes.|
 
 ## Create New Account Options
 
-![]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-create-new-account-options.png %}){: .zoom}
-[_Create New Account Options_]({{ site.baseurl }}{% link customers/customer-account-configuration.md %})
+![]({% link images/images/config-customers-customer-configuration-create-new-account-options.png %}){: .zoom}
+[_Create New Account Options_]({% link customers/customer-account-configuration.md %})
 
-![]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-create-new-account-options-vat.png %}){: .zoom}
-[_Create New Account Options (VAT Fields)_]({{ site.baseurl }}{% link customers/customer-account-configuration.md %})
+![]({% link images/images/config-customers-customer-configuration-create-new-account-options-vat.png %}){: .zoom}
+[_Create New Account Options (VAT Fields)_]({% link customers/customer-account-configuration.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable Automatic Assignment to Customer Group|Store View|Determines if customers are automatically assigned to the default customer group. To show VAT number in the store, set Show VAT Number in the storefront, select “Yes”. Options: <br/>**Yes** - The system does not automatically validate customer VAT IDs nor does it change customer groups. <br/>**No** - The system behavior is as usual, and the default customer group can be set in the Default Group field.|
 |Default Group|Store View|Identifies the initial customer group assigned  when an account is created.|
@@ -49,10 +49,10 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 
 ## Password Options
 
-![]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-password-options.png %}){: .zoom}
-[_Password Options_]({{ site.baseurl }}{% link customers/password-options.md %})
+![]({% link images/images/config-customers-customer-configuration-password-options.png %}){: .zoom}
+[_Password Options_]({% link customers/password-options.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Password Reset Protection Type|Store View|Determines the method used to reset a Customer  password. Options: <br/>**By IP and Email** - The password can be reset online after a response is received from a reset notification that is sent to the email address associated with the Admin account. <br/>**By IP** - The password can be reset online. <br/>**By Email** - The password can be reset by responding to an email notification that is sent to the email address associated with the Admin account. <br/>**None** - The password can be reset only by the store administrator. |
 |Max Number of Password Reset Requests|Store View|Limits the number of password reset requests per hour. For unlimited requests, enter zero (0).|
@@ -69,10 +69,10 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 
 ## Account Information Options
 
-![]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-account-information-options.png %}){: .zoom}
+![]({% link images/images/config-customers-customer-configuration-account-information-options.png %}){: .zoom}
 _Account Information Options_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Change Email Template|Store View|Identifies the default email template that is used when a customer changes their email address.|
 |Change Email and Password Template|Store View|Identifies the default email template that is used when a customer changes their email address and password.|
@@ -80,15 +80,15 @@ _Account Information Options_
 ## Name and Address Options
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-name-address.png %}){: .zoom}
-[_Name and Address Options_]({{ site.baseurl }}{% link customers/name-address-options.md %})
+![]({% link images/images/config-customers-customer-configuration-name-address.png %}){: .zoom}
+[_Name and Address Options_]({% link customers/name-address-options.md %})
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/config-customers-customer-configuration-name-address-options-ee.png %}){: .zoom}
-[_Name and Address Options_]({{ site.baseurl }}{% link customers/name-address-options.md %})
+![]({% link images/images-ee/config-customers-customer-configuration-name-address-options-ee.png %}){: .zoom}
+[_Name and Address Options_]({% link customers/name-address-options.md %})
 <!--{% endif %}-->
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Prefix Dropdown Options|Website|Defines the list of prefix options. Separate values with a semicolon. Place a semicolon before the first value to display an empty value at the top of the  list.|
 |Suffix Dropdown Options|Website|Defines the list of suffix options. Separate values with a semicolon. Place a semicolon before the first value to display an empty value at the top of the  list.|<!--{% if "Default.CE Only" contains site.edition %}-->
@@ -99,10 +99,10 @@ _Account Information Options_
 <!--{% if "Default.EE Only" contains site.edition %}-->
 ## Store Credit Options
 
-![]({{ site.baseurl }}{% link images/images-ee/config-customers-customer-configuration-store-credit-options.png %}){: .zoom}
-[_Store Credit Options_]({{ site.baseurl }}{% link sales/credit-configure.md %})
+![]({% link images/images-ee/config-customers-customer-configuration-store-credit-options.png %}){: .zoom}
+[_Store Credit Options_]({% link sales/credit-configure.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable Store Credit Functionality|Global|Determines if Store Credit is enabled. Disabling it removes Store Credit from customer accounts and from the Admin Manage Customers page. Options: Yes / No.|
 |Show Store Credit History to Customers|Website|Determines if the balance history is visible in customer accounts. Options: Yes / No.|
@@ -113,19 +113,19 @@ _Account Information Options_
 
 ## Login Options
 
-![]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-login-options.png %}){: .zoom}
-[_Login Options_]({{ site.baseurl }}{% link customers/login-landing-page.md %})
+![]({% link images/images/config-customers-customer-configuration-login-options.png %}){: .zoom}
+[_Login Options_]({% link customers/login-landing-page.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Redirect Customer to Account Dashboard after Logging in|Website|Determines what happens after customers log in to their accounts. To redirect customers to their account dashboard, select “Yes”. Options: <br/>**Yes** - The account dashboard appears when customers log in to their accounts. <br/>**No** - Customers can continue shopping after logging in to their accounts.|
 
 ## Address Templates
 
-![]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-address-templates.png %}){: .zoom}
-[_Address Templates_]({{ site.baseurl }}{% link customers/address-templates.md %})
+![]({% link images/images/config-customers-customer-configuration-address-templates.png %}){: .zoom}
+[_Address Templates_]({% link customers/address-templates.md %})
 
-|Template|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Template|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Text|Store View|The template is used for all addresses that are printed.|
 |Text One Line|Store View|This template defines the order of address entities in the customer’s shopping cart address book list. Progress during checkout.|
@@ -135,20 +135,20 @@ _Account Information Options_
 <!--{% if "Default.EE Only" contains site.edition %}-->
 ## Customer Segments
 
-![]({{ site.baseurl }}{% link images/images-ee/config-customers-customer-configuration-customer-segments.png %}){: .zoom}
-[_Customer Segments_]({{ site.baseurl }}{% link marketing/customer-segments.md %}) 
+![]({% link images/images-ee/config-customers-customer-configuration-customer-segments.png %}){: .zoom}
+[_Customer Segments_]({% link marketing/customer-segments.md %}) 
 
-|Template|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Template|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable Customer Segment Functionality|Global|Determines if customer segments can be used to create targeted promotions. Options: Yes / No|
 <!--{% endif %}-->
 
 ## CAPTCHA
 
-![]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-captcha.png %}){: .zoom}
-[_CAPTCHA_]({{ site.baseurl }}{% link stores/security-captcha.md %})
+![]({% link images/images/config-customers-customer-configuration-captcha.png %}){: .zoom}
+[_CAPTCHA_]({% link stores/security-captcha.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable CAPTCHA on Frontend|Website|Enables the CAPTCHA in the storefront. Options: Yes /  No|
 |Font|Website|Determines the font that is used to display the CAPTCHA. To add your own font, put the font file in the same directory as your Magento instance, and add the declaration to the config.xml file at: `app/code/Magento/Captcha/etc`|

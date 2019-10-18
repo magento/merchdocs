@@ -20,8 +20,8 @@ How this setting works in Single and Multi Source inventories:
 
 With Inventory Management enabled, see the following to configure all settings:
 
-* [Configuring Global Options]({{ site.baseurl }}{% link catalog/inventory-options-global.md %}): Settings that affect your entire catalog, considered the system default settings
-* [Configuring Product Options]({{ site.baseurl }}{% link catalog/inventory-product-stock-options.md %}): Settings for a specific product that override global options
+* [Configuring Global Options]({% link catalog/inventory-options-global.md %}): Settings that affect your entire catalog, considered the system default settings
+* [Configuring Product Options]({% link catalog/inventory-product-stock-options.md %}): Settings for a specific product that override global options
 
 ## To manage stock for a store:
 
@@ -31,15 +31,15 @@ With Inventory Management enabled, see the following to configure all settings:
 
 1. Click **Catalog**. Then choose Catalog and Inventory.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the Stock Options section, and configure Manage Stock:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the Stock Options section, and configure Manage Stock:
 
    * To manage inventory and use all Magento features, select Yes.
    * To disable Magento Inventory Management, select No. You may need to clear the Use system value checkbox.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-![]({{ site.baseurl }}{% link images/images/config-catalog-catalog-inventory-product-stock-options.png %}){: .zoom}   
-*[Product Stock Options]({{ site.baseurl }}{% link configuration/catalog/inventory.md %})*
+![]({% link images/images/config-catalog-catalog-inventory-product-stock-options.png %}){: .zoom}   
+*[Product Stock Options]({% link configuration/catalog/inventory.md %})*
 
 ## To manage stock for a product:
 
@@ -56,5 +56,5 @@ With Inventory Management enabled, see the following to configure all settings:
 
 1. When complete, click <span class="btn">Done</span>.
 
-![]({{ site.baseurl }}{% link images/images/product-inventory-manage-stock-yes.png %}){: .zoom}
+![]({% link images/images/product-inventory-manage-stock-yes.png %}){: .zoom}
 *Advanced Inventory for a Product*

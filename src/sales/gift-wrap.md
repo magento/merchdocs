@@ -3,11 +3,11 @@ conditions: Default.EE-B2B
 title: Gift Wrap
 ---
 
-Gift wrapping is available for any product that can be shipped, and can be offered for individual items or for the entire order. You can charge a separate price for each gift wrap design, and upload a thumbnail image of the design that appears as an option for the product in the cart. When the gift wrap thumbnail is clicked, a full-size image appears. During checkout review, the gift wrap charge appears with the other [checkout totals]({{ site.baseurl }}{% link sales/checkout-totals-sort-order.md %}) in the Order Summary section.
+Gift wrapping is available for any product that can be shipped, and can be offered for individual items or for the entire order. You can charge a separate price for each gift wrap design, and upload a thumbnail image of the design that appears as an option for the product in the cart. When the gift wrap thumbnail is clicked, a full-size image appears. During checkout review, the gift wrap charge appears with the other [checkout totals]({% link sales/checkout-totals-sort-order.md %}) in the Order Summary section.
 
 The gift wrap image should be a swatch that shows the repeating pattern, and can also include a sample of the ribbon that is to be used. You can either scan the paper, or take a photograph of a wrapped package. The uploaded image can be GIF, JPG, or PNG image, and should be square. In the following example, the uploaded gift wrap image is 230 x 230 pixels.
 
-![]({{ site.baseurl }}{% link images/images-ee/storefront-cart-gift-options-gift-wrap.png %}){: .zoom}
+![]({% link images/images-ee/storefront-cart-gift-options-gift-wrap.png %}){: .zoom}
 _Gift Options in Cart_
 
 ## To add a new gift wrap design:
@@ -16,12 +16,12 @@ _Gift Options in Cart_
 
 1. In the _Other Settings_ sections, choose **Gift Wrapping**.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/gift-wrapping.png %}){: .zoom}
+    ![]({% link images/images-ee/gift-wrapping.png %}){: .zoom}
     _Gift Wrapping_
 
 1. In the upper-right corner, click **Add Gift Wrapping**. Then, do the following:
 
-    ![]({{ site.baseurl }}{% link images/images-ee/gift-wrapping-new.png %}){: .zoom}
+    ![]({% link images/images-ee/gift-wrapping-new.png %}){: .zoom}
     _New Gift Wrapping_
 
 1. Enter the name for the **Gift Wrapping Design** to appear during checkout.
@@ -46,7 +46,7 @@ _Gift Options in Cart_
 
 1. In the _Action_ column, click **Edit**.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/gift-wrapping-edit.png %}){: .zoom}
+    ![]({% link images/images-ee/gift-wrapping-edit.png %}){: .zoom}
     _Edit Gift Wrapping Information_
 
 1. Make the necessary changes.

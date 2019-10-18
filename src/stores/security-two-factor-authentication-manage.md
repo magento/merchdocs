@@ -25,7 +25,7 @@ Resetting an authenticator also revokes all trusted devices tracked by the Admin
 
 1.  Click the **Reset…** option for one or more listed authenticators.
 
-    ![]({{ site.baseurl }}{% link images/images/system-users-2fa-reset.png %})
+    ![]({% link images/images/system-users-2fa-reset.png %})
     _Reset authenticators on an account_
 
 ## To revoke a trusted device:
@@ -51,7 +51,7 @@ After revoking a listed device, the user must authenticate again if accessing th
 
     If the user accesses the Admin from this device again, they must authenticate regardless of any cookies with active duration.
 
-    ![]({{ site.baseurl }}{% link images/images/system-users-2fa-revoke-trusted.png %})
+    ![]({% link images/images/system-users-2fa-revoke-trusted.png %})
    _ Revoke a trusted, authenticated device_
 
 ## Emergency CLI commands

@@ -6,14 +6,14 @@ A CAPTCHA is a visual device that ensures that a human being, rather than a comp
 
 You can reload the CAPTCHA as many times as is necessary by clicking the Reload icon in the upper-right corner of the image. The CAPTCHA is fully configurable and can be set appear every time, or only after a number of failed login attempts.
 
-![]({{ site.baseurl }}{% link images/images/customer-account-login-captcha.png %}){: .zoom}
+![]({% link images/images/customer-account-login-captcha.png %}){: .zoom}
 _Customer Login with CAPTCHA_
 
 ## Admin CAPTCHA
 
-For an extra level of security, you can add a CAPTCHA to the Admin Sign In and Forgot Password page. Administrator users can reload the displayed CAPTCHA by clicking the Reload ![]({{ site.baseurl }}{% link images/images/btn-reload.png %}) icon in the upper-right corner of the image. The number of reloads is unlimited.
+For an extra level of security, you can add a CAPTCHA to the Admin Sign In and Forgot Password page. Administrator users can reload the displayed CAPTCHA by clicking the Reload ![]({% link images/images/btn-reload.png %}) icon in the upper-right corner of the image. The number of reloads is unlimited.
 
-![]({{ site.baseurl }}{% link images/images/security-captcha-admin.png %}){: .zoom}
+![]({% link images/images/security-captcha-admin.png %}){: .zoom}
 _Admin Sign In with CAPTCHA_
 
 #### To configure an Admin CAPTCHA:
@@ -26,9 +26,9 @@ _Admin Sign In with CAPTCHA_
 
 1.  In the upper-right corner, set **Store View** to `Default`.
 
-1.  Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **CAPTCHA** section, and do the following:
+1.  Expand ![]({% link images/images/btn-expand.png %}) the **CAPTCHA** section, and do the following:
 
-    ![]({{ site.baseurl }}{% link images/images/config-advanced-admin-captcha.png %}){: .zoom}
+    ![]({% link images/images/config-advanced-admin-captcha.png %}){: .zoom}
     _Admin CAPTCHA Configuration_
 
     -  **Enable CAPTCHA in Admin**—Set to “Yes.”
@@ -71,7 +71,7 @@ Customers can be required to enter a CAPTCHA each time they log in to their acco
 -  Contact Us
 -  Payflow Pro (Requires installing a patch according to KB [PayPal Payflow Pro active carding activity][1].)
 
-![]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-captcha.png %}){: .zoom}
+![]({% link images/images/config-customers-customer-configuration-captcha.png %}){: .zoom}
 _Customer CAPTCHA Configuration_
 
 #### To configure a Storefront CAPTCHA:
@@ -82,7 +82,7 @@ _Customer CAPTCHA Configuration_
 
 1.  In the panel on the left, under _Customers_, choose **Customer Configuration**.
 
-1.  Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **CAPTCHA** section, and do the following:
+1.  Expand ![]({% link images/images/btn-expand.png %}) the **CAPTCHA** section, and do the following:
 
     -  **Enable CAPTCHA on Frontend**— Set to `Yes`.
 

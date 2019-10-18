@@ -11,7 +11,7 @@ To offer a discount that is targeted to first-time customers, you can:
 - Create a cart price rule that targets the new customer segment.
 
 {:.bs-callout .bs-callout-info}
-Ensure that the Customer Segments feature is enabled. Refer to [Creating a Customer Segment]({{ site.baseurl }}{%- link marketing/customer-segment-create.md -%}).
+Ensure that the Customer Segments feature is enabled. Refer to [Creating a Customer Segment]({% link marketing/customer-segment-create.md -%}).
 
 ## Step 1. Create a Customer Segment
 
@@ -33,7 +33,7 @@ Ensure that the Customer Segments feature is enabled. Refer to [Creating a Custo
 
        Additional options become available in the panel on the left.
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/customer-segment-first-time.png -%}){: .zoom}
+    ![]({% link images/images-ee/customer-segment-first-time.png %}){: .zoom}
     _General Properties after Save_
 
 1. Define the **Conditions**.
@@ -44,22 +44,22 @@ Ensure that the Customer Segments feature is enabled. Refer to [Creating a Custo
 
        The default condition begins, “If ALL of these conditions are TRUE:”
 
-   - Click **Add** (![]({{ site.baseurl }}{%- link images/images/btn-add-grn.png -%})) and select "Number of Orders" in the drop-down list.
+   - Click **Add** (![]({% link images/images/btn-add-grn.png %})) and select "Number of Orders" in the drop-down list.
 
    - Click **is** and select "less than" in the drop-down list.
 
    - Click **...** and enter "1" in the field.
 
-   - Click the green checkmark ( ![]({{ site.baseurl }}{% link images/images/icon-green-check.png %}) ) to save the condition setting.
+   - Click the green checkmark ( ![]({% link images/images/icon-green-check.png %}) ) to save the condition setting.
 
    - Click <span class="btn">Save</span>.
 
-   ![]({{ site.baseurl }}{%- link images/images-ee/customer-segment-first-time-condition.png -%}){: .zoom}
+   ![]({% link images/images-ee/customer-segment-first-time-condition.png %}){: .zoom}
    _Defined Segment Condition_
 
 Your customer segment is created and displayed in the Customer Segment list.
 
-![]({{ site.baseurl }}{%- link images/images-ee/customer-segment-list-first-time.png -%}){: .zoom}
+![]({% link images/images-ee/customer-segment-list-first-time.png %}){: .zoom}
 _Customer Segments List_
 
 {:.bs-callout .bs-callout-info}
@@ -99,16 +99,16 @@ Make note of the segment ID. You'll use the ID number to create the cart price r
 
        Additional options become available in the panel on the left.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/rule-information-first-time.png %}){: .zoom}
+   ![]({% link images/images-ee/rule-information-first-time.png %}){: .zoom}
    _Rule Information_
 
 1. Define the **Conditions**.
 
-   - Scroll down and expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Conditions** section. 
+   - Scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Conditions** section. 
 
       The default rule begins, "If ALL of these conditions are TRUE:".
 
-   - Click **Add** (![]({{ site.baseurl }}{% link images/images/btn-add-grn.png %})) and select "Customer Segment" in the drop-down list. 
+   - Click **Add** (![]({% link images/images/btn-add-grn.png %})) and select "Customer Segment" in the drop-down list. 
 
        The qualifier field defaults to "matches".
 
@@ -117,22 +117,22 @@ Make note of the segment ID. You'll use the ID number to create the cart price r
       For this example, the segment ID for the new segment created in Step 1 is "2".
 
       {: .bs-callout .bs-callout-info}
-      If you don't know the segment ID, click the chooser icon ( ![]({{ site.baseurl }}{% link images/images/btn-chooser.png %}) ) to display the Customer Segment list. You can manually enter the ID in the field or mark the checkbox for the desired segment to auto-populate the field.
+      If you don't know the segment ID, click the chooser icon ( ![]({% link images/images/btn-chooser.png %}) ) to display the Customer Segment list. You can manually enter the ID in the field or mark the checkbox for the desired segment to auto-populate the field.
 
-   - Click the green checkmark ( ![]({{ site.baseurl }}{% link images/images/icon-green-check.png %}) ) to save the condition setting.
+   - Click the green checkmark ( ![]({% link images/images/icon-green-check.png %}) ) to save the condition setting.
 
    - When complete, click <span class="btn">Save and Continue Edit</span>. 
 
        This line of the rule applies to all customers who match customer segment ID 2.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/customer-segment-matches.png %}){: .zoom}
+   ![]({% link images/images-ee/customer-segment-matches.png %}){: .zoom}
    _Defining the Customer Segment_
 
 1. Define the **Actions**.
 
-   This section defines the type of discount and value/amount of the discount you want to apply for first-time customers. This example defines a 10% discount for all customers who meet the defined condition. For information on other available options, see [Creating a Cart Price Rule]({{ site.baseurl }}{%- link marketing/price-rules-cart-create.md -%}).
+   This section defines the type of discount and value/amount of the discount you want to apply for first-time customers. This example defines a 10% discount for all customers who meet the defined condition. For information on other available options, see [Creating a Cart Price Rule]({% link marketing/price-rules-cart-create.md -%}).
 
-   - Scroll down and expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %})the **Actions** section.
+   - Scroll down and expand ![]({% link images/images/btn-expand.png %})the **Actions** section.
 
    - For **Apply**, select "Percent of product price discount".
 
@@ -144,7 +144,7 @@ Make note of the segment ID. You'll use the ID number to create the cart price r
 
    - When complete, click <span class="btn">Save</span>.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/actions-first-time.png %}){: .zoom}
+   ![]({% link images/images-ee/actions-first-time.png %}){: .zoom}
    _Price Rule Actions_
 
 The new rule is normally available within the hour. You should test the rule to ensure that it works as you defined it.

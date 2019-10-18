@@ -5,10 +5,10 @@ title: 'Intelligent Repricing Rule: Optional Ceiling Price'
 
 Sections of an intelligent repricing rule include:
 
-- [Select Rule Type]({{ site.baseurl }}{% link sales-channels/amazon/intelligent-repricing-rules.md %})
-- [Competitor Conditional Variances]({{ site.baseurl }}{% link sales-channels/amazon/competitor-conditional-variances.md %})
-- [Price Adjustment]({{ site.baseurl }}{% link sales-channels/amazon/price-adjustment.md %})
-- [Floor Price]({{ site.baseurl }}{% link sales-channels/amazon/floor-price.md %})
+- [Select Rule Type]({% link sales-channels/amazon/intelligent-repricing-rules.md %})
+- [Competitor Conditional Variances]({% link sales-channels/amazon/competitor-conditional-variances.md %})
+- [Price Adjustment]({% link sales-channels/amazon/price-adjustment.md %})
+- [Floor Price]({% link sales-channels/amazon/floor-price.md %})
 - **Optional Ceiling Price**
 
 The automated limit settings are used to help protect the ceiling pricing against the intelligent pricing rules. This allows the store owner to set a high-price-limit for their intelligent pricing rules.
@@ -19,7 +19,7 @@ The automated limit settings are used to help protect the ceiling pricing agains
 
 In this example, the ceiling price is set to be 2% below the MSRP of the item.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/ob-intelligent-price-rule-ceiling.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/ob-intelligent-price-rule-ceiling.png %}){: .zoom}
 _Intelligent Price Floor Price Section_
 
 |Field |Description|

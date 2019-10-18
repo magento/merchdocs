@@ -6,12 +6,12 @@ RSS (Really Simple Syndication) is an XML-based data format that is used to dist
 
 When RSS feeds are enabled, any additions to products, specials, categories, and coupons are automatically sent to the subscribers of each feed. A link to all RSS feeds that you publish is in the footer of your store.
 
-![]({{ site.baseurl }}{%- link images/images/icon-rss.png -%})
+![]({% link images/images/icon-rss.png %})
 *The orange RSS symbol is typically used to identify an RSS feed.*
 
 The software that is required to read an RSS feed is called a feed reader, and allows people to subscribe to headlines, blogs, podcasts, and much more. Google Reader is one of the many feed readers that are available online for free.
 
-![]({{ site.baseurl }}{%- link images/images/storefront-rss-feeds.png -%}){: .zoom}
+![]({% link images/images/storefront-rss-feeds.png %}){: .zoom}
 *RSS Feeds*
 
 ## To set up RSS feeds for your store
@@ -22,26 +22,26 @@ The software that is required to read an RSS feed is called a feed reader, and a
 
 1. In the panel on the left, under **Catalog**, choose **RSS Feeds**.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Rss Config** section. Then, set **Enable RSS** to “Enable”.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Rss Config** section. Then, set **Enable RSS** to “Enable”.
 
 1. If necessary, clear the **Use Website** checkbox to change the default value.
 
-    ![]({{ site.baseurl }}{%- link images/images/config-catalog-rss-feeds-rss-config.png -%}){: .zoom}
+    ![]({% link images/images/config-catalog-rss-feeds-rss-config.png %}){: .zoom}
     *RSS Feeds*
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Wish List** section. Then, set **Enable RSS** to “Enable”.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Wish List** section. Then, set **Enable RSS** to “Enable”.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Catalog** section and set other feeds to “Enable” as needed.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Catalog** section and set other feeds to “Enable” as needed.
 
     * New Products
     * Special Products
     * Coupons/Discounts
     * Top Level Category
 
-    ![]({{ site.baseurl }}{%- link images/images/config-catalog-rss-feeds-catalog.png -%}){: .zoom}
+    ![]({% link images/images/config-catalog-rss-feeds-catalog.png %}){: .zoom}
     *Catalog*
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Order** section. Then, set **Customer Order Status Notification** to “Enable”.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Order** section. Then, set **Customer Order Status Notification** to “Enable”.
 
 1. When complete, tap <span class="btn">Save Config</span>.
 

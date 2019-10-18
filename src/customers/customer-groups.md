@@ -5,17 +5,17 @@ title: Customer Groups
 Customer groups determine which discounts are available and the tax class that is associated with the group. The default customer groups are General, Not Logged In, and Wholesale.
 
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-The selection of customer groups includes all regular customer groups, and shared catalogs, even if [Shared Catalogs]({{ site.baseurl }}{% link stores/b2b-features.md %}) is not enabled in the configuration. Only one customer group or shared catalog can be assigned to a [company]({{ site.baseurl }}{% link customers/account-companies.md %}) at a time.
+The selection of customer groups includes all regular customer groups, and shared catalogs, even if [Shared Catalogs]({% link stores/b2b-features.md %}) is not enabled in the configuration. Only one customer group or shared catalog can be assigned to a [company]({% link customers/account-companies.md %}) at a time.
 
 <!--{% endif %}-->
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/customer-groups.png %}){: .zoom}
+![]({% link images/images/customer-groups.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/customer-groups.png %}){: .zoom}
+![]({% link images/images/customer-groups.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-b2b/customer-groups.png %}){: .zoom}
+![]({% link images/images-b2b/customer-groups.png %}){: .zoom}
 <!--{% endif %}-->
 _Customer Groups_
 
@@ -27,7 +27,7 @@ _Customer Groups_
 
 1. Enter criteria for searching groups, including a range of IDs, group, or tax class.
 
-    ![]({{ site.baseurl }}{% link images/images/customer-groups-filters.png %}){: .zoom}
+    ![]({% link images/images/customer-groups-filters.png %}){: .zoom}
     _Filtering Options_
 
 1. When complete, click <span class="btn"> Apply Filters</span>.
@@ -44,7 +44,7 @@ _Customer Groups_
   
     - Select the **Tax Class** that applies to the group.
 
-    ![]({{ site.baseurl }}{% link images/images/stores-customer-group-information.png %}){: .zoom}
+    ![]({% link images/images/stores-customer-group-information.png %}){: .zoom}
     _Group Information_
 
 1. When complete, click <span class="btn">Save Customer Group</span>.
@@ -71,13 +71,13 @@ _Customer Groups_
   
     - When prompted to confirm, click <span class="btn">OK</span>.
 
-      ![]({{ site.baseurl }}{% link images/images/stores-customer-group-assign.png %}){: .zoom}
+      ![]({% link images/images/stores-customer-group-assign.png %}){: .zoom}
       _Assign a Customer Group_
 
 ## To delete a customer group
 
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-A customer group that is associated with a [shared catalog]({{ site.baseurl }}{% link catalog/catalog-shared.md %}) cannot be deleted.
+A customer group that is associated with a [shared catalog]({% link catalog/catalog-shared.md %}) cannot be deleted.
 
 <!--{% endif %}-->
 1. On the _Admin_ sidebar, go to **Customers** > **Customer Groups**.

@@ -5,7 +5,7 @@ group: getting-started
 
 The Welcome message in the header expands to include the name of the customer who is logged in. Before you launch your store, be sure to change the default Welcome text for each store view.
 
-![]({{ site.baseurl }}{% link images/images/storefront-welcome-message.png %}){: .zoom}
+![]({% link images/images/storefront-welcome-message.png %}){: .zoom}
 _Welcome Message_
 
 ## To change the welcome message:
@@ -14,15 +14,15 @@ _Welcome Message_
 
 1. In the grid, find the store view that you want to configure. Then, click **Edit** in the _Action_ column and do the following:
 
-    ![]({{ site.baseurl }}{% link images/images/design-configuration.png %}){: .zoom}
-    _[Design Configuration]({{ site.baseurl }}{% link design/configuration.md %})_
+    ![]({% link images/images/design-configuration.png %}){: .zoom}
+    _[Design Configuration]({% link design/configuration.md %})_
 
-    - Under **Other Settings**, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Header** section.
+    - Under **Other Settings**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Header** section.
 
     - Enter the **Welcome Text** that you want to appear in the header of your store.
 
-        ![]({{ site.baseurl }}{% link images/images/design-configuration-header.png %}){: .zoom}
-        _[Header]({{ site.baseurl }}{% link design/configuration.md %})_
+        ![]({% link images/images/design-configuration-header.png %}){: .zoom}
+        _[Header]({% link design/configuration.md %})_
 
 1. When complete, click <span class="btn">Save Configuration</span>.
 

@@ -3,7 +3,7 @@ title: Reviewing Amazon Attribute Values
 ---
 
 
-As you map Amazon attributes to Magento attributes, Amazon Sales Channel tracks and provides a filterable list of all Amazon values. Use this page to verify values for your linked Magento attributes correctly sync between Magento and Amazon. You can review synced values for Amazon attribute linked or not linked to a Magento attribute. To create or edit your Amazon attributes, see [Creating and Editing Attributes]({{ site.baseurl }}{% link sales-channels/amazon/creating-attributes.md %}).
+As you map Amazon attributes to Magento attributes, Amazon Sales Channel tracks and provides a filterable list of all Amazon values. Use this page to verify values for your linked Magento attributes correctly sync between Magento and Amazon. You can review synced values for Amazon attribute linked or not linked to a Magento attribute. To create or edit your Amazon attributes, see [Creating and Editing Attributes]({% link sales-channels/amazon/creating-attributes.md %}).
 
 The Amazon Value differs depending on the attribute type and the Amazon attribute you view. For example, a listed Amazon value for Label would be a text value while AmazonListPrice would be a numerical amount. The status indicates if the Amazon value has been imported.
 
@@ -17,7 +17,7 @@ The Amazon Value differs depending on the attribute type and the Amazon attribut
 
 1. To further review Magento product information, click a linked Magento Product SKU. This displays the Magento product edit page.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-managing-attribute-values.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-managing-attribute-values.png %}){: .zoom}
 _Managing Attribute Values_
 
 |Field|Description|

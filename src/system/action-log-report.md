@@ -5,7 +5,7 @@ title: Action Logs Report
 
 The Action Logs Report displays a detailed record of all admin actions that are enabled for logging. Each record is time stamped, and records the IP address and name of the user. The log detail includes admin user data and related changes that were made during the action.
 
-Actions that you want to display in the report must be enabled in the [Admin Actions Logging]({{ site.baseurl }}{% link system/action-log.md %}) screen in the store settings. If the action type is checked (enabled), those types of admin actions will display in the Action Logs Report.
+Actions that you want to display in the report must be enabled in the [Admin Actions Logging]({% link system/action-log.md %}) screen in the store settings. If the action type is checked (enabled), those types of admin actions will display in the Action Logs Report.
 
 The report can be filtered using the options in each column. You may set a single filter option or set filter options for multiple columns to narrow the report to list specific actions. You can also export report data in either CSV or Excel XML format.
 
@@ -27,12 +27,12 @@ The Action Logs Report includes the following information:
 
 1.  Under _Action Logs_, choose **Report**.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/system-action-log-report.png %}){: .zoom}
+    ![]({% link images/images-ee/system-action-log-report.png %}){: .zoom}
     _Action Logs Report_
 
 1.  To view the full details of a listed admin action, click **View**.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/system-action-log-report-view.png %}){: .zoom}
+    ![]({% link images/images-ee/system-action-log-report-view.png %}){: .zoom}
     _Log Entry Details_
 
 #### To filter the action logs report:
@@ -41,7 +41,7 @@ You can define the filter options fields and then click **Search** to narrow the
 
 To clear the filter options and return to the full report, click **Reset Filter**.
 
-![]({{ site.baseurl }}{% link images/images-ee/system-action-log-report-filters.png %}){: .zoom}
+![]({% link images/images-ee/system-action-log-report-filters.png %}){: .zoom}
 _Action Logs Report Filters_
 
 <table>
@@ -103,5 +103,5 @@ _Action Logs Report Filters_
 
 1.  Click **Export**. The generated file saves automatically to your designated folder for downloads.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/system-action-log-report-export.png %}) 
+    ![]({% link images/images-ee/system-action-log-report-export.png %}) 
     _Action Logs Report Export_

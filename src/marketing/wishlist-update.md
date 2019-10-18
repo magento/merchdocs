@@ -5,7 +5,7 @@ title: Updating Wish Lists
 
 Customers can manage their wish lists by logging in to their accounts. Store administrators can also manage customer wish lists from the Admin.
 
-![]({{ site.baseurl }}{%- link images/images/storefront-customer-wishlist-edit.png -%}){: .zoom}
+![]({% link images/images/storefront-customer-wishlist-edit.png %}){: .zoom}
 *“My Wish List” in Customer Account*
 
 ## To update the wish list from a customer account
@@ -32,7 +32,7 @@ Customers can manage their wish lists by logging in to their accounts. Store adm
 
 1. In the panel on the left, choose **Wish List**. Then, find the item to be edited in the list. Any options selected for the product appear below the product name.
 
-    ![]({{ site.baseurl }}{%- link images/images/customer-wishlist-edit-admin.png -%}){: .zoom}
+    ![]({% link images/images/customer-wishlist-edit-admin.png %}){: .zoom}
     *Wish List from Admin*
 
 1. To edit the product options, do the following:

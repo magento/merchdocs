@@ -7,7 +7,7 @@ redirect_from:
 
 Magento Marketplace is our next generation application store that offers merchants a curated selection of solutions, and provides qualified developers the tools, platform, and prime location to build a thriving business.
 
-![]({{ site.baseurl }}{% link images/images/magento-marketplace.png %})
+![]({% link images/images/magento-marketplace.png %})
 
 Go to [Magento Marketplace][1]{: target="_blank"}.
 
@@ -17,7 +17,7 @@ In the _Admin_ sidebar, click **Find Partners & Extensions**.
 
 See the [Magento Marketplace User Guide][2]{: target="_blank"}.
 
-For extension installation instructions, see [Component Manager]({{ site.baseurl }}{% link system/web-setup-extension-manager.md %}), or see [Marketplace Quick Tour][3]{: target="_blank"}.
+For extension installation instructions, see [Component Manager]({% link system/web-setup-extension-manager.md %}), or see [Marketplace Quick Tour][3]{: target="_blank"}.
 
 ## Install Extensions
 

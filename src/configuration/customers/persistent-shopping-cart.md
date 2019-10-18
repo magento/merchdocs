@@ -2,20 +2,20 @@
 title: Persistent Shopping Cart
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Customers]({{ site.baseurl }}{% link configuration/customers.md %}) > Persistent Shopping Cart
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) > Persistent Shopping Cart
 
 ## General Options
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/config-customers-persistent-shopping-cart-general-options.png %}){: .zoom}
-[_General Options_]({{ site.baseurl }}{% link sales/cart-persistent-configuration.md %})
+![]({% link images/images/config-customers-persistent-shopping-cart-general-options.png %}){: .zoom}
+[_General Options_]({% link sales/cart-persistent-configuration.md %})
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/config-customers-persistent-shopping-cart-general-options-ee.png %}){: .zoom}
-[_General Options_]({{ site.baseurl }}{% link sales/cart-persistent-configuration.md %})
+![]({% link images/images-ee/config-customers-persistent-shopping-cart-general-options-ee.png %}){: .zoom}
+[_General Options_]({% link sales/cart-persistent-configuration.md %})
 <!--{% endif %}-->
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable Persistence|Website|Determines if  the persistence is enabled.|
 |Persistence Lifetime (seconds)|Website|Defines the lifetime of the persistent cookie in seconds. Maximum allowed value is 3153600000 seconds (100 years).|

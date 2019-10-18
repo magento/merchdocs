@@ -16,12 +16,12 @@ For example, you have one website or a multisite implementation with sites for U
 
 To get started, we recommend:
 
-* Configure [global and product settings]({{ site.baseurl }}{% link catalog/inventory-configure-inventory-management.md %}) for your store's inventory as needed.
-* Update the [Default Source]({{ site.baseurl }}{% link catalog/inventory-sources.md %}) with information for your single inventory location. You don't need to create additional sources.
-* Update the [Default Stock]({{ site.baseurl }}{% link catalog/inventory-stock.md %}). Ensure all of your websites are selected as sales channels. As you add new websites, Magento automatically adds them to the Default Stock. You don't need to create additional sources.
+* Configure [global and product settings]({% link catalog/inventory-configure-inventory-management.md %}) for your store's inventory as needed.
+* Update the [Default Source]({% link catalog/inventory-sources.md %}) with information for your single inventory location. You don't need to create additional sources.
+* Update the [Default Stock]({% link catalog/inventory-stock.md %}). Ensure all of your websites are selected as sales channels. As you add new websites, Magento automatically adds them to the Default Stock. You don't need to create additional sources.
 
 {:.bs-callout .bs-callout-info}
-As your business expands, add additional sources and stocks and update your inventory management configuration to become a multi source merchants. See [Expanding to Multi Source Inventory]({{ site.baseurl }}{% link catalog/inventory-expand-restructure-inventory.md %}) for all details.
+As your business expands, add additional sources and stocks and update your inventory management configuration to become a multi source merchants. See [Expanding to Multi Source Inventory]({% link catalog/inventory-expand-restructure-inventory.md %}) for all details.
 
 ## Multi Source Merchants
 
@@ -32,7 +32,7 @@ For example, you have a multisite implementation with websites for United States
 To get started, we recommend:
 
 * Configure global settings for your store's inventory as needed.
-* Add [custom sources]({{ site.baseurl }}{% link catalog/inventory-sources-add.md %}) for your inventory locations: warehouses, stores, distribution centers, and drop shippers.
-* Add [custom stocks]({{ site.baseurl }}{% link catalog/inventory-stock-add.md %}) for each region to map your websites with a number of sources. Reorder the sources in each stock in priority of location, helpful when fulfilling your orders.
+* Add [custom sources]({% link catalog/inventory-sources-add.md %}) for your inventory locations: warehouses, stores, distribution centers, and drop shippers.
+* Add [custom stocks]({% link catalog/inventory-stock-add.md %}) for each region to map your websites with a number of sources. Reorder the sources in each stock in priority of location, helpful when fulfilling your orders.
 * Assign sources to products, adding quantities per location.
 * Complete any further configurations per product for quantity thresholds, backorders, and so on.

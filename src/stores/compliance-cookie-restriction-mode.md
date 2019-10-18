@@ -5,12 +5,12 @@ group: getting-started
 
 When Cookie Restriction Mode is enabled, visitors to your store are notified that cookies are required for full-featured operations. Depending on your theme, the message might appear above the header, below the footer, or somewhere else on the page. The message links to your privacy policy for more information, and encourages visitors to click the Allow button to grant consent. After consent is granted, the message disappears.
 
-Your [privacy policy]({{ site.baseurl }}{% link stores/privacy-policy.md %}) should include the name of your store and contact information, and explain the purpose of each cookie that is used by your store. To learn more, see: [Cookie Reference]({{ site.baseurl }}{% link stores/cookie-reference.md %}).
+Your [privacy policy]({% link stores/privacy-policy.md %}) should include the name of your store and contact information, and explain the purpose of each cookie that is used by your store. To learn more, see: [Cookie Reference]({% link stores/cookie-reference.md %}).
 
 {:.bs-callout .bs-callout-info}
 If you change the URL key of the privacy policy, you must also create a custom URL rewrite to redirect traffic to the new URL key. Otherwise, the link in the Cookie Restriction Mode message will return `404 Page Not Found`.
 
-![Example storefront - cookie restriction notice]({{ site.baseurl }}{% link images/images/storefront-cookie-restriction-message.png %}){: .zoom}
+![Example storefront - cookie restriction notice]({% link images/images/storefront-cookie-restriction-message.png %}){: .zoom}
 _Cookie Restriction Notice In Footer_
 
 ## Step 1: Enable Cookie Restriction Mode
@@ -21,8 +21,8 @@ _Cookie Restriction Notice In Footer_
 
 1. Expand the **Default Cookie Settings** section and do the following:
 
-    ![Web configuration - default cookie settings]({{ site.baseurl }}{% link images/images/config-general-web-default-cookie-settings.png %}){: .zoom}
-    [_Default Cookie Settings_]({{ site.baseurl }}{% link configuration/general/web.md %})
+    ![Web configuration - default cookie settings]({% link images/images/config-general-web-default-cookie-settings.png %}){: .zoom}
+    [_Default Cookie Settings_]({% link configuration/general/web.md %})
 
     - Enter the **Cookie Lifetime** in seconds.
 
@@ -42,4 +42,4 @@ _Cookie Restriction Notice In Footer_
 
 ## Step 2: Update Your Privacy Policy
 
-Update your [privacy policy]({{ site.baseurl }}{% link stores/privacy-policy.md %}) as needed to describe the information that your company collects and how it is used.
+Update your [privacy policy]({% link stores/privacy-policy.md %}) as needed to describe the information that your company collects and how it is used.

@@ -10,13 +10,13 @@ These configurations apply only to the edited product, overriding all configurat
 
 ## To configure product options by source:
 
-Configure the quantities and additional settings per [added source]({{ site.baseurl }}{% link catalog/inventory-sources-add.md %}) for the product.
+Configure the quantities and additional settings per [added source]({% link catalog/inventory-sources-add.md %}) for the product.
 
 1. On the Admin sidebar, click **Catalog**. Then choose **Products**.
 
 1. Locate and open a product in **Edit** mode.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the Sources section, and configure product settings per source.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the Sources section, and configure product settings per source.
 
 1. Enter a Quantity amount.
 
@@ -29,7 +29,7 @@ Configure the quantities and additional settings per [added source]({{ site.base
 
 1. When complete, click <span class="btn">Done</span>, then <span class="btn">Save</span>.
 
-   ![]({{ site.baseurl }}{% link images/images/inventory/inventory-product-quantities.png %}){: .zoom}
+   ![]({% link images/images/inventory/inventory-product-quantities.png %}){: .zoom}
    *Sources Section for Product*
 
 1. When complete, click <span class="btn">Done</span>, then <span class="btn">Save</span> for the product.
@@ -38,7 +38,7 @@ Configure the quantities and additional settings per [added source]({{ site.base
 
 |Field|Scope|Description|
 |--|--|--|
-| Source Code | Global | The unique code for a <a href="{{ site.baseurl }}{% link catalog/inventory-sources.md %}">source</a>. |
+| Source Code | Global | The unique code for a <a href="{% link catalog/inventory-sources.md %}">source</a>. |
 | Name | Global | The unique name for a source. |
 | Status | Global | Product is enabled or disabled in the catalog. |
 | Source Item Status | Global | Determines the current availability of the product.<br /><br />Options:<br />**In Stock**: Makes the product available for purchase.<br />**Out of Stock**: Unless Backorders are activated, prevents the product from being available for purchase and removes the listing from the catalog.  |
@@ -52,11 +52,11 @@ Configure the quantities and additional settings per [added source]({{ site.base
 
 1. Locate and open a product in **Edit** mode.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the Sources section, click **Advanced Inventory** and configure:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the Sources section, click **Advanced Inventory** and configure:
 
-1. To activate [inventory control]({{ site.baseurl }}{% link catalog/inventory.md %}) for your catalog, set **Manage Stock** to “Yes.”
+1. To activate [inventory control]({% link catalog/inventory.md %}) for your catalog, set **Manage Stock** to “Yes.”
 
-   ![]({{ site.baseurl }}{% link images/images/product-inventory-manage-stock-yes.png %}){: .zoom}
+   ![]({% link images/images/product-inventory-manage-stock-yes.png %}){: .zoom}
    *Advanced Inventory for a Product*
 
 1. Enter an amount for the **Out-of-Stock Threshold**:
@@ -75,7 +75,7 @@ Configure the quantities and additional settings per [added source]({{ site.base
 
 1. Set **Allow Multiple Boxes for Shipping** to Yes/No if the product can be sold separately, in many boxes.
 
-1. Set **Backorders** to one of the following. For complete information on backorders, see [Configuring Backorders]({{ site.baseurl }}{% link catalog/inventory-backorders.md %}).
+1. Set **Backorders** to one of the following. For complete information on backorders, see [Configuring Backorders]({% link catalog/inventory-backorders.md %}).
 
    |Option|Description|
    |--|--|

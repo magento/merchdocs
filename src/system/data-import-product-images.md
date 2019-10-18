@@ -29,10 +29,10 @@ We recommend that you use a program that supports UTF-8 encoding to edit CSV fil
     {:.bs-callout-info}
     For images in the default import folder(/pub/media/import), do not include the path before the filename in the CSV data.
 
-    The CSV file must include only the `sku` column and the related image columns. ![]({{ site.baseurl }}{% link images/images/data-import-csv-image-files-default-local.png %}){: .zoom}
+    The CSV file must include only the `sku` column and the related image columns. ![]({% link images/images/data-import-csv-image-files-default-local.png %}){: .zoom}
     _CSV Import Image from Default Location_
 
-1.  Follow the instructions to [import]({{ site.baseurl }}{% link system/data-import.md %}) the data.
+1.  Follow the instructions to [import]({% link system/data-import.md %}) the data.
 
     After selecting the file to import, enter the relative path following **Images File Directory**:
 
@@ -40,7 +40,7 @@ We recommend that you use a program that supports UTF-8 encoding to edit CSV fil
     /pub/media/import
     ```
 
-    ![]({{ site.baseurl }}{% link images/images/data-import-images-file-to-import.png %}){: .zoom}
+    ![]({% link images/images/data-import-images-file-to-import.png %}){: .zoom}
     _Images File Directory_
 
     If importing multiple images for a single `sku`, insert a blank row below the `sku`, and enter the additional image file names in the appropriate columns. The additional rows are understood to belong to the parent `sku`.
@@ -55,7 +55,7 @@ We recommend that you use a program that supports UTF-8 encoding to edit CSV fil
     http://example.com/images/image.jpg
     ```
 
-1.  Follow the instructions to [import]({{ site.baseurl }}{% link system/data-import.md %}) the data.
+1.  Follow the instructions to [import]({% link system/data-import.md %}) the data.
 
 [1]: http://notepad-plus-plus.org/
 [2]: https://www.openoffice.org/

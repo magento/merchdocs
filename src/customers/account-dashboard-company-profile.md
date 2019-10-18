@@ -3,9 +3,9 @@ conditions: Default.B2B Only
 title: Company Profile
 ---
 
-The information in your company profile was entered when the company account was created. You can access your company profile from the dashboard of your company account to complete any missing information, and to keep it current. To learn more, see [Creating a Company Account]({{ site.baseurl }}{% link customers/account-company-create.md %}).
+The information in your company profile was entered when the company account was created. You can access your company profile from the dashboard of your company account to complete any missing information, and to keep it current. To learn more, see [Creating a Company Account]({% link customers/account-company-create.md %}).
 
-![]({{ site.baseurl }}{% link images/images-b2b/company-profile.png %}){: .zoom}
+![]({% link images/images-b2b/company-profile.png %}){: .zoom}
 _Company Profile_
 
 ## To edit your company profile:
@@ -28,7 +28,7 @@ _Company Profile_
 |Company Name|The name of the company as used throughout the system to identify the company.|
 |Company Legal Name|The full legal name of the company.|
 |Company Email|The email address that is associated with the company account.|
-|VAT / TAX ID|The [value-added tax]({{ site.baseurl }}{% link tax/vat.md %}) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options]{{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}.|
+|VAT / TAX ID|The [value-added tax]({% link tax/vat.md %}) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options]{% link configuration/customers/customer-configuration.md %}.|
 |Reseller ID|The resale number that is assigned to the company for tax reporting purposes.|
 |**Legal Address**||
 |Street Address|The street address where the company is registered to conduct business.|

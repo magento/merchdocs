@@ -4,7 +4,7 @@ title: New Products List
 
 The list of new products is an example of dynamic content, and consists of live data that is pulled from your product catalog. By default, the “New Products” list includes the first eight of the most recently added products. However, it can also be configured to include only products within a specified date range.
 
-![]({{ site.baseurl }}{% link images/images/storefront-home-page-new-products.png %}){: .zoom}
+![]({% link images/images/storefront-home-page-new-products.png %}){: .zoom}
 _New Products List on Home Page_
 
 ## Step 1: Set the Date Range for Each Product
@@ -15,11 +15,11 @@ To make a product appear in the list by date range, the “New From” dates mus
 
 1. Find each product that you want to feature, and open in edit mode. Then, do the following:
 
-    - In the **Set Product as New From** field, click the calendar (![]({{ site.baseurl }}{% link images/images/btn-calendar.png %}){: .Inline}). Then, choose the first date that you want the product to be featured.
+    - In the **Set Product as New From** field, click the calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}). Then, choose the first date that you want the product to be featured.
 
-    - In the **To** field, click the calendar (![]({{ site.baseurl }}{% link images/images/btn-calendar.png %}){: .Inline}). Then, choose the last date that you want the product to be featured.
+    - In the **To** field, click the calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}). Then, choose the last date that you want the product to be featured.
 
-    ![]({{ site.baseurl }}{% link images/images/product-set-as-new.png %}){: .zoom}
+    ![]({% link images/images/product-set-as-new.png %}){: .zoom}
     _"Set Product As New" Date Range_
 
 1. When complete, click <span class="btn">Save</span>.
@@ -44,7 +44,7 @@ The code that determines the content of the New Products list and its placement 
 
 1. Click <span class="btn">Continue</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/widget-settings-new-products-list.png %}){: .zoom}
+    ![]({% link images/images/widget-settings-new-products-list.png %}){: .zoom}
     _Widget Type_
 
 1. In the **Storefront Properties** section, complete the following fields:
@@ -53,7 +53,7 @@ The code that determines the content of the New Products list and its placement 
     | Assign to Store Views | Select the store views where the widget will be visible. You can select a specific store view, or "All Store Views". |
     | Sort Order | (Optional) Enter a number to determine the order this items appears with others in the same part of the page. (0 = first, 1 = second, 3= third, and so on.) |
 
-    ![]({{ site.baseurl }}{% link images/images/widget-storefront-properties-new-products-list.png %}){: .zoom}
+    ![]({% link images/images/widget-storefront-properties-new-products-list.png %}){: .zoom}
     _Storefront Properties_
 
 ## Step 3: Choose the Location
@@ -71,7 +71,7 @@ The code that determines the content of the New Products list and its placement 
       - `New Product List Template`
       - `New Products Grid Template`
 
-       ![]({{ site.baseurl }}{% link images/images/widget-layout-update-new-products-list.png %}){: .zoom}
+       ![]({% link images/images/widget-layout-update-new-products-list.png %}){: .zoom}
        _Layout Updates_
 
 1. Click <span class="btn">Save and Continue Edit</span>.
@@ -95,7 +95,7 @@ The code that determines the content of the New Products list and its placement 
 
     - In the **Cache Lifetime (Seconds)** field, choose how often you want to refresh the list of new products. By default, the cache is set to 86400 seconds, or 24 hours.
 
-    ![]({{ site.baseurl }}{% link images/images/widget-options-new-product-list.png %}){: .zoom}
+    ![]({% link images/images/widget-options-new-product-list.png %}){: .zoom}
     _Widget Options_
 
 1. When complete, click <span class="btn">Save</span>.

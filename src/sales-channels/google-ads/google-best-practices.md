@@ -7,7 +7,7 @@ Helpful tips, tricks, and important information for your Google Shopping ads int
 
 ## Account Onboarding and Configurations
 
-Use these helpful tips when completing [Google onboarding]({{ site.baseurl }}{% link sales-channels/google-ads/onboarding-google.md %}).
+Use these helpful tips when completing [Google onboarding]({% link sales-channels/google-ads/onboarding-google.md %}).
 
 * Turn off pop-up blockers in your web browser. Some browsers may include pop-up blockers by default (like Chrome). You cannot complete onboarding with pop-up blockers enabled. Login screens open to Google using pop-up windows.
 * Always check back on your Account and Product Errors to resolve issues. Magento performs some validation immediately, listing products that are missing information required by Google before review. Google performs revolving checks on your product updates to complete reviews for corrected and added products.
@@ -35,7 +35,7 @@ Use these helpful tips when completing [Google onboarding]({{ site.baseurl }}{% 
 * To better understand Google Ads issues, see Google's [Fix issues with a Shopping campaign][6].
 * Plan your campaigns and keep track through the Google Shopping ads dashboard. All campaigns are manually created and ended through the Magento Admin. Magento does not support scheduled campaigns at this time.
 * You can create many campaigns to prepare for different seasons and promotions, pausing them until ready to cycle the campaigns.
-* Google serves and runs ads in all languages you configured when [claiming and verifying your URL]({{ site.baseurl }}{% link sales-channels/google-ads/url-verify.md %}). This may increase your costs for running ads.
+* Google serves and runs ads in all languages you configured when [claiming and verifying your URL]({% link sales-channels/google-ads/url-verify.md %}). This may increase your costs for running ads.
 
 [1]: https://support.google.com/merchants/answer/2948694
 [2]: https://support.google.com/merchants/contact/additional_items

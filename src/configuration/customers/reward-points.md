@@ -3,14 +3,14 @@ conditions: Default.EE-B2B
 title: Reward Points
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Customers]({{ site.baseurl }}{% link configuration/customers.md %}) > Reward Points
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) > Reward Points
 
 ## Reward Points
 
-![]({{ site.baseurl }}{% link images/images-ee/config-customers-reward-points-reward-points.png %}){: .zoom}
-[_Reward Points_]({{ site.baseurl }}{% link marketing/reward-point-configure.md %})
+![]({% link images/images-ee/config-customers-reward-points-reward-points.png %}){: .zoom}
+[_Reward Points_]({% link marketing/reward-point-configure.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable Reward Points Functionality|Global|Activates or deactivates reward points. Options: Yes / No.|
 |Enable Reward Points Functionality on Storefront|Website|When enabled, customers can earn points through their activities, and redeem them at checkout. If disabled, only Admin users can assign and redeem points on behalf of customers. Options: Yes / No.|
@@ -25,10 +25,10 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 
 ## Actions for Acquiring Reward Points by Customers
 
-![]({{ site.baseurl }}{% link images/images-ee/config-customers-reward-points-actions-for-acquiring.png %}){: .zoom}
-[_Actions for Acquiring Reward Points by Customers_]({{ site.baseurl }}{% link marketing/reward-point-configure.md %})
+![]({% link images/images-ee/config-customers-reward-points-actions-for-acquiring.png %}){: .zoom}
+[_Actions for Acquiring Reward Points by Customers_]({% link marketing/reward-point-configure.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Purchase|Website|Determines if a message appears in the shopping cart that shows the rewards points earned for the purchase and the customer’s current reward point balance. Options: Yes / No|
 |Registration|Website|Specifies the number of points earned for opening a customer account.|
@@ -43,12 +43,12 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 
 ## Email Notification Settings
 
-![]({{ site.baseurl }}{% link images/images-ee/config-customers-reward-points-email-notification-settings.png %}){: .zoom}
-[_Email Notification Settings_]({{ site.baseurl }}{% link marketing/reward-point-configure.md %})
+![]({% link images/images-ee/config-customers-reward-points-email-notification-settings.png %}){: .zoom}
+[_Email Notification Settings_]({% link marketing/reward-point-configure.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Email Sender|Store View|Determines the [store contact]({{ site.baseurl }}{% link stores/store-email-addresses.md %}) that appears as the sender of the balance update and expiration notification emails.|
+|Email Sender|Store View|Determines the [store contact]({% link stores/store-email-addresses.md %}) that appears as the sender of the balance update and expiration notification emails.|
 |Subscribe Customers by Default|Global|Determines the default subscription status of customers for both balance update and expiration notifications emails.|
 |Balance Update Email|Store View|Determines the template used for the notification that is sent to customers whenever their point balance is updated. Default template: Reward Points Balance Update.|
 |Reward Points Expiry Warning Email|Store View|Determines the template of the email that customers receive when the expiration warning limit has been reached for a batch of points. Default template: Reward Points Expiry Warning.|

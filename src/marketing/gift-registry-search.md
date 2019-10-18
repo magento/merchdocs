@@ -3,9 +3,9 @@ conditions: Default.EE-B2B
 title: Gift Registry Search
 ---
 
-The [Widget]({{ site.baseurl }}{%- link cms/widgets.md -%}) tool can be used to place a gift registry search box most anywhere in your store. You can specify the search options to be available to customers, including: name, email address, and gift registry ID. When the customer clicks the Search button, the results appear on the Gift Registry Search page. If the search returns no results, the customer can try again with other parameters.
+The [Widget]({% link cms/widgets.md -%}) tool can be used to place a gift registry search box most anywhere in your store. You can specify the search options to be available to customers, including: name, email address, and gift registry ID. When the customer clicks the Search button, the results appear on the Gift Registry Search page. If the search returns no results, the customer can try again with other parameters.
 
-![]({{ site.baseurl }}{%- link images/images-ee/storefront-gift-registry-search.png -%}){: .zoom}
+![]({% link images/images-ee/storefront-gift-registry-search.png %}){: .zoom}
 *Gift Registry Search*
 
 ## To add gift registry search
@@ -22,7 +22,7 @@ The [Widget]({{ site.baseurl }}{%- link cms/widgets.md -%}) tool can be used to 
 
     * Tap <span class="btn">Continue</span>.
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/widget-gift-registry-search-settings.png -%}){: .zoom}
+    ![]({% link images/images-ee/widget-gift-registry-search-settings.png %}){: .zoom}
     *Gift Registry Search Settings*
 
 1. In the Storefront Properties section, do the following:
@@ -33,7 +33,7 @@ The [Widget]({{ site.baseurl }}{%- link cms/widgets.md -%}) tool can be used to 
 
     * Set **Sort Order** to determine the order that the Gift Registry Search block appears if there are other blocks assigned to the same location on the page.
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/widget-gift-registry-search-storefront-properties.png -%}){: .zoom}
+    ![]({% link images/images-ee/widget-gift-registry-search-storefront-properties.png %}){: .zoom}
     *Storefront Properties*
 
 1. In the **Layout Updates** section, tap <span class="btn">Add Layout Update</span>. To determine where the Gift Registry Search appears in the store, do the following:
@@ -44,7 +44,7 @@ The [Widget]({{ site.baseurl }}{%- link cms/widgets.md -%}) tool can be used to 
 
     * Set **Container** to the location on the page where you the Gift Registry Search block to be placed.
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/widget-gift-registry-search-layout-updates.png -%}){: .zoom}
+    ![]({% link images/images-ee/widget-gift-registry-search-layout-updates.png %}){: .zoom}
     *Layout Update*
 
 1. In the panel on the left, choose **Widget Options**. To determine how visitors to your site can search for gift registries, select as many of the following that apply:
@@ -54,7 +54,7 @@ The [Widget]({{ site.baseurl }}{%- link cms/widgets.md -%}) tool can be used to 
     * Registrant Email Search
     * Gift Registry ID Search
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/widget-gift-registry-search-widget-options.png -%}){: .zoom}
+    ![]({% link images/images-ee/widget-gift-registry-search-widget-options.png %}){: .zoom}
     *Widget Options*
 
 1. When complete, tap <span class="btn">Save</span>.

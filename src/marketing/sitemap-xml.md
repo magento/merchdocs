@@ -10,12 +10,12 @@ While your site is in development, you might include instructions in the `robots
 
 For technical information, see: [Add sitemap and robots.txt][1]{: target="_blank"} in the developer documentation.
 
-![]({{ site.baseurl }}{%- link images/images/marketing-sitemap-grid-generated.png -%}){: .zoom}
+![]({% link images/images/marketing-sitemap-grid-generated.png %}){: .zoom}
 *Site Map in Grid*
 
 ## Step 1. Configure the Site Map
 
-Complete the [XML Sitemap configuration]({{ site.baseurl }}{%- link marketing/sitemap-xml-configure.md -%}) to determine what is included, and how frequently the site map is updated.
+Complete the [XML Sitemap configuration]({% link marketing/sitemap-xml-configure.md -%}) to determine what is included, and how frequently the site map is updated.
 
 ## Step 2. Generate the Site Map
 
@@ -23,7 +23,7 @@ Complete the [XML Sitemap configuration]({{ site.baseurl }}{%- link marketing/s
 
 1. Tap <span class="btn">Add Site Map</span>. Then, do the following:
 
-    ![]({{ site.baseurl }}{%- link images/images/marketing-sitemap.png -%}){: .zoom}
+    ![]({% link images/images/marketing-sitemap.png %}){: .zoom}
     *Site Map*
 
     * Enter the site map **Filename**. For example: `sitemap.xml`
@@ -34,7 +34,7 @@ Complete the [XML Sitemap configuration]({{ site.baseurl }}{%- link marketing/s
         | / | Places the site map file at the base path, or root of your Magento installation. |
         {:style="table-layout:auto"}
 
-    ![]({{ site.baseurl }}{%- link images/images/marketing-sitemap-new.png -%}){: .zoom}
+    ![]({% link images/images/marketing-sitemap-new.png %}){: .zoom}
     *New Site Map*
 
 1. When complete, tap <span class="btn">Save &amp; Generate</span>.
@@ -43,7 +43,7 @@ Complete the [XML Sitemap configuration]({{ site.baseurl }}{%- link marketing/s
 
 ## Step 3. Configure and Enable robots.txt (Optional)
 
-Complete the [Search Engine Robots]({{ site.baseurl }}{%- link marketing/search-engine-robots.md -%}) configuration with instructions that direct search engines to crawl the parts of your site that you want to be indexed.
+Complete the [Search Engine Robots]({% link marketing/search-engine-robots.md -%}) configuration with instructions that direct search engines to crawl the parts of your site that you want to be indexed.
 
 ## Step 4. Submit Your Site Map to Search Engines
 

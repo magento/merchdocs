@@ -5,12 +5,12 @@ group: getting-started
 
 The selection of columns and their order in the grid can be changed according to your preference, and saved as a _view_. By default, only nine of twenty available columns are visible in the grid.
 
-![]({{ site.baseurl }}{% link images/images/admin-grid-columns.png %}){: .zoom}
+![]({% link images/images/admin-grid-columns.png %}){: .zoom}
 _Order Grid Columns_
 
 ## Change the selection of columns
 
-1. In the upper-right corner, click the **Columns** (![Columns control]({{ site.baseurl }}{% link images/images/btn-columns.png %}){: .Inline}) control.
+1. In the upper-right corner, click the **Columns** (![Columns control]({% link images/images/btn-columns.png %}){: .Inline}) control.
 
 1. Change the column selections:
 
@@ -27,21 +27,21 @@ _Order Grid Columns_
 
 ## Save a grid view
 
-1. Click the **View** (![View control]({{ site.baseurl }}{% link images/images/btn-default-view.png %}){: .Inline}) control.
+1. Click the **View** (![View control]({% link images/images/btn-default-view.png %}){: .Inline}) control.
 
 1. Click**Save Current View**.
 
 1. Enter a **name** for the view.
 
-1. Click the **arrow** (![Save all changes]({{ site.baseurl }}{% link images/images/btn-save-all-changes.png %}){: .Inline}) to save all changes.
+1. Click the **arrow** (![Save all changes]({% link images/images/btn-save-all-changes.png %}){: .Inline}) to save all changes.
 
     The name of the view now appears as the current view.
 
 ## Change the grid view
 
-1. Click the **View** (![View icon]({{ site.baseurl }}{% link images/images/btn-default-view.png %}){: .Inline}) control.
+1. Click the **View** (![View icon]({% link images/images/btn-default-view.png %}){: .Inline}) control.
 
 1. Do one of the following:
 
    - To use a different view, click the name of the view.
-   - To change the name of a view, click the **Edit** (![Edit icon]({{ site.baseurl }}{% link images/images/btn-edit.png %}){: .Inline}) icon and update the name.
+   - To change the name of a view, click the **Edit** (![Edit icon]({% link images/images/btn-edit.png %}){: .Inline}) icon and update the name.

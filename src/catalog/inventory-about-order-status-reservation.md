@@ -6,7 +6,7 @@ Inventory Management supports partial and full invoicing, payments, shipping, an
 
 These reservations always add to your salable quantity, with positive or negative amounts to increase or decrease quantities. These reservations are compensations, updating your on-hand inventory and salable quantities for up-to-date amounts for your store.
 
-For specifics on orders and shipments, see [Managing Orders and Shipments]({{ site.baseurl }}{% link catalog/inventory-orders-shipment.md %}).
+For specifics on orders and shipments, see [Managing Orders and Shipments]({% link catalog/inventory-orders-shipment.md %}).
 
 ## Order Management Options
 
@@ -28,12 +28,12 @@ If a customer requests a refund, issue the credit memo for the partial or full p
 
 Simple orders begin with a shopping cart, continue to payment, and end with a satisfied delivery. In these orders, Inventory Management easily processes reservations against the availability (or salable quantity) in the cart and checkout, and deducts from the on-hand inventory at shipment.
 
-![]({{ site.baseurl }}{% link images/images/inventory/inventory-diagram-simple-order.png %}){: .zoom}
+![]({% link images/images/inventory/inventory-diagram-simple-order.png %}){: .zoom}
 *Process for a Simple Order*
 
 A more complicated order may have partial cancellations, partial shipments, and refunds. In these situations, reservations affect the available inventory to add quantities for cancellations and refunds and decrease quantities when ordered and shipped.
 
-![]({{ site.baseurl }}{% link images/images/inventory/inventory-diagram-complicated-order.png %}){: .zoom}
+![]({% link images/images/inventory/inventory-diagram-complicated-order.png %}){: .zoom}
 *Process for a Complicated Order*
 
 Availability reservations and inventory changes occur based on the order status.
@@ -67,7 +67,7 @@ Jenny Sanders orders bikes and clothing for her family vacation and fun. She see
 
 She buys two great park bikes for her daughters, a BMX bike for her son, a nice mountain bike for herself, and a modern German cross-country bike for her husband. The store had a sale on cute shirts, so she bought some for the whole family to match. See the list of vacation purchases below, the matching SKUs, and the reservations entered against the stock salable quantities.
 
-![]({{ site.baseurl }}{% link images/images/inventory/inventory-diagram-order1.png %})
+![]({% link images/images/inventory/inventory-diagram-order1.png %})
 
 *Example order from Biking Adventures*
 
@@ -79,6 +79,6 @@ But her husband didn't quite fit in the shirt. Jenny requests a refund and sends
 * **Canceled products**: By canceling stock, Magento removes the reservation for that product. Reservation compensation is entered to the stock level to add back salable quantities for the partial cancellation of two shirts. This does not affect the inventory quantity at the source level.
 * **Credit Memo/Refunded product**: By returning stock, we need to add back to our quantities. When issuing the credit memo, we select to return to stock. Magento adds back inventory quantity to the shipped source for the product. Reservation compensations enter to clear any remaining reservations. The salable quantity recalculates against the updated quantity.
 
-![]({{ site.baseurl }}{% link images/images/inventory/inventory-diagram-order2.png %})
+![]({% link images/images/inventory/inventory-diagram-order2.png %})
 
 *Example Quantity Updates*

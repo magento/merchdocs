@@ -3,9 +3,9 @@ conditions: Default.B2B Only
 title: Updating Custom Pricing
 ---
 
-The custom pricing of products in any shared catalog can be easily updated from the Action column of the Shared Catalogs grid. The changes you make are visible to in the storefront to members of the associated company or customer group. The process is essentially the same as setting custom pricing for a new [shared catalog]({{ site.baseurl }}{% link catalog/catalog-shared-pricing-structure.md %}), except that the scope of the configuration cannot be changed.
+The custom pricing of products in any shared catalog can be easily updated from the Action column of the Shared Catalogs grid. The changes you make are visible to in the storefront to members of the associated company or customer group. The process is essentially the same as setting custom pricing for a new [shared catalog]({% link catalog/catalog-shared-pricing-structure.md %}), except that the scope of the configuration cannot be changed.
 
-![]({{ site.baseurl }}{% link images/images-b2b/catalogs-shared-grid-set-pricing-structure.png %}){: .zoom}
+![]({% link images/images-b2b/catalogs-shared-grid-set-pricing-structure.png %}){: .zoom}
 *General Settings*
 
 ## To update the custom pricing:
@@ -19,4 +19,4 @@ The custom pricing of products in any shared catalog can be easily updated from 
     * In the progress indicator at the top of the page, click **Pricing**.
     * In the upper-right corner, tap <span class="btn">Next</span>.
 
-1. Follow the instructions in [Step 2: Set Custom Prices]({{ site.baseurl }}{% link catalog/catalog-shared-pricing-structure.md %}).
+1. Follow the instructions in [Step 2: Set Custom Prices]({% link catalog/catalog-shared-pricing-structure.md %}).

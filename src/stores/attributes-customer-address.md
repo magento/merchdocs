@@ -3,16 +3,16 @@ conditions: Default.EE-B2B
 title: Customer Address Attributes
 ---
 
-The Customer Address Attribute determines the properties of street addresses that are entered into the [address book]({{ site.baseurl }}{% link customers/account-dashboard-address-book.md %}) from the customer’s account, or during [checkout]({{ site.baseurl }}{% link sales/checkout-step1-shipping.md %}).
+The Customer Address Attribute determines the properties of street addresses that are entered into the [address book]({% link customers/account-dashboard-address-book.md %}) from the customer’s account, or during [checkout]({% link sales/checkout-step1-shipping.md %}).
 
-Custom address attributes can be set up if you need to provide additional information such as an optional email address, Skype account, alternate phone number, building, or county. The custom attribute can then be incorporated into the [address template]({{ site.baseurl }}{% link stores/attributes-customer-address-templates.md %}) that is used to produce sales documents. The process to create a custom address attribute is almost the same as creating a [customer attribute]({{ site.baseurl }}{% link stores/attributes-customer.md %}).
+Custom address attributes can be set up if you need to provide additional information such as an optional email address, Skype account, alternate phone number, building, or county. The custom attribute can then be incorporated into the [address template]({% link stores/attributes-customer-address-templates.md %}) that is used to produce sales documents. The process to create a custom address attribute is almost the same as creating a [customer attribute]({% link stores/attributes-customer.md %}).
 
 Customer address attributes are used in the following forms:
 
-- [Customer Address Registration]({{ site.baseurl }}{% link customers/account-create.md %})
-- [Customer Account Address]({{ site.baseurl }}{% link customers/account-dashboard-address-book.md %})
+- [Customer Address Registration]({% link customers/account-create.md %})
+- [Customer Account Address]({% link customers/account-dashboard-address-book.md %})
 
-![Magento Admin - Customer address attributes]({{ site.baseurl }}{% link images/images-ee/attributes-customer-address.png %}){: .zoom}
+![Magento Admin - Customer address attributes]({% link images/images-ee/attributes-customer-address.png %}){: .zoom}
 _Customer Address Attributes_
 
 ## Step 1: Complete the Attribute Properties
@@ -21,7 +21,7 @@ _Customer Address Attributes_
 
 1. In the upper-right corner, click <span class="btn">Add New Attribute</span>.
 
-   ![Customer attribute properties]({{ site.baseurl }}{% link images/images-ee/attribute-customer-address-new.png %}){: .zoom}
+   ![Customer attribute properties]({% link images/images-ee/attribute-customer-address-new.png %}){: .zoom}
    _Customer Attribute Properties_
 
 1. In the **Attribute Properties** section, do the following:
@@ -78,7 +78,7 @@ _Customer Address Attributes_
 
    - To search the Customers grid by this attribute, set **Use in Search Options** to `Yes`.
 
-   - To make this attribute available to [customer segments]({{ site.baseurl }}{% link marketing/customer-segments.md %}), set **Use in Customer Segment** to `Yes`.
+   - To make this attribute available to [customer segments]({% link marketing/customer-segments.md %}), set **Use in Customer Segment** to `Yes`.
 
 ## Step 2: Complete the Storefront Properties
 
@@ -88,21 +88,21 @@ _Customer Address Attributes_
 
 1. Set **Forms to Use** to each form that is to include the attribute. To choose multiple options, hold the Ctrl key down and click each form.
 
-   - [Customer Address Registration]({{ site.baseurl }}{% link customers/account-create.md %})
-   - [Customer Account Address]({{ site.baseurl }}{% link customers/account-dashboard-address-book.md %})
+   - [Customer Address Registration]({% link customers/account-create.md %})
+   - [Customer Account Address]({% link customers/account-dashboard-address-book.md %})
 
-   ![Customer address attributes - Storefront properties]({{ site.baseurl }}{% link images/images-ee/attribute-customer-address-storefront-properties.png %}){: .zoom}
+   ![Customer address attributes - Storefront properties]({% link images/images-ee/attribute-customer-address-storefront-properties.png %}){: .zoom}
    _Storefront Properties_
 
 ## Step 3: Complete the Labels/Options
 
 1. In the panel on the left, choose **Manage Labels/Options**.
 
-1. Under **Manage Titles**, enter a label to identify the attribute for each [store view]({{ site.baseurl }}{% link stores/websites-stores-views.md %}).
+1. Under **Manage Titles**, enter a label to identify the attribute for each [store view]({% link stores/websites-stores-views.md %}).
 
 1. When complete, click <span class="btn">Save Attribute</span>.
 
-   ![Customer address attributes - labels/options]({{ site.baseurl }}{% link images/images-ee/attribute-customer-address-new-manage-label-options.png %}){: .zoom}
+   ![Customer address attributes - labels/options]({% link images/images-ee/attribute-customer-address-new-manage-label-options.png %}){: .zoom}
    _Manage Labels/Options_
 
 ## Field Descriptions
@@ -113,20 +113,20 @@ _Customer Address Attributes_
 |--- |--- |
 |Default Label|The default label that identifies the attribute in the Admin and storefront.|
 |Attribute Code|A unique code that identifies the attribute within the system. The code can be up to 21 characters in length, and cannot include spaces or special characters. The underscore symbol can be used instead of a space.|
-|Input Type|Determines the [input control]({{ site.baseurl }}{% link stores/attributes-input-types.md %}) that is used for data entry. Options: <br/>**Text Field** - A single-line text field. <br/>**Text Area** - A multi-line text area. <br/>**Multiple Line** - Creates multiple text lines for the attribute, similar to a multi-line street address. The number of separate data entry lines can be from 2 to 20. <br/>**Date** - Displays a date field with a pop-up calendar.<br/>**Dropdown** - A drop-down list that accepts only one value to be selected. <br/>**Multiple Select** - A drop-down list that accepts multiple values to be selected. <br/>**Yes/No** - A  field that offers only a choice of `Yes` or `No` values. <br/>**File (attachment)** - A field that allows a file to be uploaded and associated with the customer attribute as an attachment. <br/>**Image File** - A field that allows an image to be uploaded to the gallery and associated with the customer attribute.|
+|Input Type|Determines the [input control]({% link stores/attributes-input-types.md %}) that is used for data entry. Options: <br/>**Text Field** - A single-line text field. <br/>**Text Area** - A multi-line text area. <br/>**Multiple Line** - Creates multiple text lines for the attribute, similar to a multi-line street address. The number of separate data entry lines can be from 2 to 20. <br/>**Date** - Displays a date field with a pop-up calendar.<br/>**Dropdown** - A drop-down list that accepts only one value to be selected. <br/>**Multiple Select** - A drop-down list that accepts multiple values to be selected. <br/>**Yes/No** - A  field that offers only a choice of `Yes` or `No` values. <br/>**File (attachment)** - A field that allows a file to be uploaded and associated with the customer attribute as an attachment. <br/>**Image File** - A field that allows an image to be uploaded to the gallery and associated with the customer attribute.|
 |Values Required|Determines if a value must be entered into the field. Options: Yes / No|
 |Default Value|Specifies the initial value of the attribute.|
 |Input Validation|The selection of options is determined by the input type. Options: <br/>**None** - The field has no input validation during data entry. <br/>**Alphanumeric** - Accepts any combination of numbers (0-9) and alphabetic characters (a-z, A-Z) during data entry. <br/>**Alphanumeric with Space** - Allows spaces in the street address to comply with maximum length requirements of carrier. During checkout, the customer can enter any combination of numbers (0-9), alphabetic characters (a-z, A-Z), and spaces in the street address of the recipient and sender. Any extra spaces are trimmed when the address is saved. <br/>**Numeric Only** - Accepts only numbers (0-9) during data entry. <br/>**Alpha Only** - Accepts only alphabetic characters (a-z, A-Z) during data entry. <br/>**URL** - Accepts only a URL during data entry. <br/>**Email** - Accepts only an email address during data entry. <br/>**Length Only** - Validates the input based on the length of the data entered into the field.|
 |Input/Output Filter|Applies a preprocessing filter to  values entered in a text field, text area, or multiple line input type before the record is saved. Options: <br/>**None** - Does not apply a filter to text entered into the field. <br/>**Strip HTML Tags** - Removes HTML tags from the text. This filter can help clean up data that is pasted into a field from another source that includes HTML tags. <br/>**Escape HTML Entities**{: #escape-HTML} - Converts special characters found in the text to a valid HTML escape sequence, such as `amp;`. Escape sequences are enclosed between an ampersand and a semi-colon, and are frequently used for typographer’s smart quotes, copyright symbols, and trademark symbols. Escape sequences are also used to  identify characters such as the less than (`<`) and greater than (`>`) symbols, and the ampersand character which are also used in the code. This filter can help clean up special characters that are sometimes pasted into database fields from word processors.|
-|Add to Column Options|Specifies if the attribute is included as a column in the [Customers]({{ site.baseurl }}{% link customers/customers-all.md %}) grid. Options: Yes / No|
-|Use in Filter Options|Specifies if the attribute can be used as a filter for [search]({{ site.baseurl }}{% link stores/admin-workspace.md %}) operations from the grid. Options: Yes / No|
+|Add to Column Options|Specifies if the attribute is included as a column in the [Customers]({% link customers/customers-all.md %}) grid. Options: Yes / No|
+|Use in Filter Options|Specifies if the attribute can be used as a filter for [search]({% link stores/admin-workspace.md %}) operations from the grid. Options: Yes / No|
 |Use in Search Options|Specifies if the attribute value can be used as a keyword in search operations. Options: Yes / No|
-|Use in Customer Segment|Determines if the attribute is included in [customer segment]({{ site.baseurl }}{% link marketing/customer-segments.md %}) conditions. Options: Yes / No|
+|Use in Customer Segment|Determines if the attribute is included in [customer segment]({% link marketing/customer-segments.md %}) conditions. Options: Yes / No|
 
 ### Storefront properties
 
 |Field|Description|
 |--- |--- |
 |Show on Storefront|Determines if the attribute appears as a field in the customer information in the storefront. Options: Yes / No|
-|Sort Order|Specifies the sort order of this attribute in relation to other customer attributes. The sort order determines the sequence that fields receive focus during data entry when using [keyboard navigation]({{ site.baseurl }}{% link catalog/navigation-accessibility.md %}).|
-|Forms to Use in|Determines the pages with data entry forms where the attribute appears. Hold down the Ctrl key to choose multiple forms. Options: <br/>[Customer Address Registration]({{ site.baseurl }}{% link customers/account-create.md %}) <br/>[Customer Account Address]({{ site.baseurl }}{% link customers/account-dashboard-address-book.md %})|
+|Sort Order|Specifies the sort order of this attribute in relation to other customer attributes. The sort order determines the sequence that fields receive focus during data entry when using [keyboard navigation]({% link catalog/navigation-accessibility.md %}).|
+|Forms to Use in|Determines the pages with data entry forms where the attribute appears. Hold down the Ctrl key to choose multiple forms. Options: <br/>[Customer Address Registration]({% link customers/account-create.md %}) <br/>[Customer Account Address]({% link customers/account-dashboard-address-book.md %})|

@@ -19,7 +19,7 @@ If your store has multiple views in different languages, the same products are a
 
     - Either paste or type the translated text into the field.
 
-    Make sure to translate all text fields, including [image]({{ site.baseurl }}{% link catalog/catalog-images-video.md %}) labels and Alt text, [Search Engine Optimization]({{ site.baseurl }}{% link catalog/product-search-engine-optimization.md %}) fields and any [Custom Options]({{ site.baseurl }}{% link catalog/settings-advanced-custom-options.md %}) information.
+    Make sure to translate all text fields, including [image]({% link catalog/catalog-images-video.md %}) labels and Alt text, [Search Engine Optimization]({% link catalog/product-search-engine-optimization.md %}) fields and any [Custom Options]({% link catalog/settings-advanced-custom-options.md %}) information.
 
 1. When complete, click <span class="btn">Save</span>.
 
@@ -33,7 +33,7 @@ If your store has multiple views in different languages, the same products are a
 
 1. In the _Manage Titles_ section, enter a translated label for each store view.
 
-    ![]({{ site.baseurl }}{% link images/images/product-attribute-labels-translate.png %}){: .zoom}
+    ![]({% link images/images/product-attribute-labels-translate.png %}){: .zoom}
     _Enter Translated Labels_
 
 1. When complete, click <span class="btn">Save Attribute</span>.
@@ -62,7 +62,7 @@ If your store has multiple views in different languages, the same products are a
 
     - Make sure that the **Create Permanent Redirect for old URL** checkbox is selected
 
-    ![]({{ site.baseurl }}{% link images/images/category-translate-url-key.png %})
+    ![]({% link images/images/category-translate-url-key.png %})
 
 1. When complete, click <span class="btn">Save Category</span>.
 

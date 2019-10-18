@@ -7,36 +7,36 @@ Use the Column content type to divide a row into multiple columns. When a column
 
 Each column has a toolbox of options that appears when you hover over the container.
 
-![]({{ site.baseurl }}{% link images/images-ee/page-builder-layout-column-add-drag-placeholder.png %}){: .zoom}
+![]({% link images/images-ee/page-builder-layout-column-add-drag-placeholder.png %}){: .zoom}
 _Adding a Column_
 
-The [grid]({{ site.baseurl }}{% link cms/page-builder-workspace.md %}) ensures that content is aligned consistently in a column and helps the page render correctly on both desktop and mobile devices. To learn more, see the [Advanced Content Tools]({{ site.baseurl }}{% link cms/page-builder-setup.md %}) section of the Page Builder configuration.
+The [grid]({% link cms/page-builder-workspace.md %}) ensures that content is aligned consistently in a column and helps the page render correctly on both desktop and mobile devices. To learn more, see the [Advanced Content Tools]({% link cms/page-builder-setup.md %}) section of the Page Builder configuration.
 
-![]({{ site.baseurl }}{% link images/images-ee/page-builder-layout-column-one-grid.png %}){: .zoom}
+![]({% link images/images-ee/page-builder-layout-column-one-grid.png %}){: .zoom}
 _Grid Divisions on Row with One Column_
 
 The numbers in parentheses (6 /12) in the top border of each column container indicate the number of grid divisions in each column and the total number of divisions in the row.
 
-![]({{ site.baseurl }}{% link images/images-ee/page-builder-layout-column-two-grid.png %}){: .zoom}
+![]({% link images/images-ee/page-builder-layout-column-two-grid.png %}){: .zoom}
 _Grid Divisions on Row with Two Columns_
 
 ## To add a column
 
 1. In the Page Builder panel under **Layout**, drag a **Column** to the row.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-layout-column-add-drag-placeholder.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-layout-column-add-drag-placeholder.png %}){: .zoom}
     _Drag Column to Row_
 
     The row is now divided into two columns of equal width. Each column is a separate container for content and has its own set of toolbox options.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-layout-columns-two-empty.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-layout-columns-two-empty.png %}){: .zoom}
     _Row with Two Equal Columns_
 
-1. In the upper-left corner of the row, click the **Grid** control (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-grid-control.png %}){: .Inline_larger}).
+1. In the upper-left corner of the row, click the **Grid** control (![]({% link images/images-ee/icon-pb-grid-control.png %}){: .Inline_larger}).
 
-    Positioning content on the grid helps to align content consistently and renders the page correctly on both desktop and mobile devices. To learn more, see the [Advanced Content Tools]({{ site.baseurl }}{% link configuration/general/content-management.md %}) section of the Page Builder configuration.
+    Positioning content on the grid helps to align content consistently and renders the page correctly on both desktop and mobile devices. To learn more, see the [Advanced Content Tools]({% link configuration/general/content-management.md %}) section of the Page Builder configuration.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-layout-column-two-grid.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-layout-column-two-grid.png %}){: .zoom}
     _Grid Divisions on Row with Two Columns_
 
 ## To resize a column
@@ -45,21 +45,21 @@ _Grid Divisions on Row with Two Columns_
 
     The border is highlighted and the toolbox for the selected column appears.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-column-resize-border.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-column-resize-border.png %}){: .zoom}
     _Highlighted Border Between Two Columns_
 
 1. Hold down the mouse button to show the grid. Then, drag the border to a new position on the grid. The width of both columns adjusts to reflect the change.
 
     The new width of each column appears after the label, such as `4/12` (four out of twelve) and `8/12` (eight out of twelve).
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-columns-resized-grid.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-columns-resized-grid.png %}){: .zoom}
     _Resized Columns_
 
 ## To remove a column
 
-1. Hover over the column that you want to remove. Then, choose **Remove** ( ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-remove.png %}){: .Inline}) in the toolbox.
+1. Hover over the column that you want to remove. Then, choose **Remove** ( ![]({% link images/images-ee/icon-pb-remove.png %}){: .Inline}) in the toolbox.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-column-toolbox-remove.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-column-toolbox-remove.png %}){: .zoom}
     _Toolbox_
 
 1. If the column contains content, click **OK** to confirm.
@@ -68,16 +68,16 @@ _Grid Divisions on Row with Two Columns_
 
     The row now has a single column (12/12) and grid. Because the grid is available only for columns, you can use this technique to show the grid for any row.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-column-single-grid.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-column-single-grid.png %}){: .zoom}
     _Single Column with Grid_
 
-1. If you want the column to extend the full width of the row, hover over over the column. Then, choose **Settings** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox and do the following:
+1. If you want the column to extend the full width of the row, hover over over the column. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox and do the following:
 
     - Scroll down to the **Advanced** section.
 
     - Set all four **Padding** values to zero (0).
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-tutorial1-row-settings-advanced-margins-padding-zero.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-tutorial1-row-settings-advanced-margins-padding-zero.png %}){: .zoom}
         _Zero Padding_
 
     - In the upper-right corner, click <span class="btn">Save</span> to close the Edit Column page.
@@ -86,9 +86,9 @@ _Grid Divisions on Row with Two Columns_
 
 ## To change column settings
 
-1. Hover over the column. Then, choose **Settings** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox.
+1. Hover over the column. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-column-toolbox-settings.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-column-toolbox-settings.png %}){: .zoom}
     _Column Toolbox Options_
 
 1. Update the settings as needed using the [descriptions](#column-settings) at the end of this page for reference.
@@ -99,12 +99,12 @@ _Grid Divisions on Row with Two Columns_
 
 |TOOL|Icon|Description|
 |--- |--- |--- |
-|Move|![]({{ site.baseurl }}{% link images/images-ee/icon-pb-move.png %})|Moves the column and its content to another position in relation to other columns in the row.|
+|Move|![]({% link images/images-ee/icon-pb-move.png %})|Moves the column and its content to another position in relation to other columns in the row.|
 |(label)|COLUMN|Identifies the current container as a column. Hover over the column container to show the toolbox.|
 |(position / grid size)||Specifies the grid guideline that determines the column width, and the total number of guidelines in the row. For example, "3/12" indicates that the column is the width of three guidelines out of a total of  of twelve in the grid.|
-|Settings|![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %})|Opens the Edit Column page, where you can change the properties of the container.|
-|Duplicate|![]({{ site.baseurl }}{% link images/images-ee/icon-pb-duplicate.png %})|Makes a duplicate copy of the current column.|
-|Remove|![]({{ site.baseurl }}{% link images/images-ee/icon-pb-remove.png %})|Deletes the current column and its content.|
+|Settings|![]({% link images/images-ee/icon-pb-settings.png %})|Opens the Edit Column page, where you can change the properties of the container.|
+|Duplicate|![]({% link images/images-ee/icon-pb-duplicate.png %})|Makes a duplicate copy of the current column.|
+|Remove|![]({% link images/images-ee/icon-pb-remove.png %})|Deletes the current column and its content.|
 
 {: #column-settings}
 ## Column Settings

@@ -2,19 +2,19 @@
 title: Adding an Attribute to a Product
 ---
 
-Although attributes are managed primarily from the [Stores]({{ site.baseurl }}{% link stores/stores-menu.md %}) menu, you can also add new attributes “on the fly” while working on a product. You can choose from the list of existing attributes, or create a new attribute. The new attribute is added to the [attribute set]({{ site.baseurl }}{% link stores/attribute-sets.md %}) upon which the product is based.
+Although attributes are managed primarily from the [Stores]({% link stores/stores-menu.md %}) menu, you can also add new attributes “on the fly” while working on a product. You can choose from the list of existing attributes, or create a new attribute. The new attribute is added to the [attribute set]({% link stores/attribute-sets.md %}) upon which the product is based.
 
-![]({{ site.baseurl }}{% link images/images/product-attribute-add.png %}){: .zoom}
+![]({% link images/images/product-attribute-add.png %}){: .zoom}
 *Add Attribute*
 
 ## Step 1: Add a New Attribute
 
 1. Open the product in edit mode. Then in the upper-right corner, tap <span class="btn">Add Attribute</span>.
 
-   ![]({{ site.baseurl }}{% link images/images/product-attribute-add-select.png %}){: .zoom}
+   ![]({% link images/images/product-attribute-add-select.png %}){: .zoom}
    *New Attribute*
 
-1. To add an existing attribute to the product, use the [filter controls]({{ site.baseurl }}{% link stores/admin-grid-controls.md %}) to find the attribute in the grid. Then, do the following:
+1. To add an existing attribute to the product, use the [filter controls]({% link stores/admin-grid-controls.md %}) to find the attribute in the grid. Then, do the following:
 
    * Mark the checkbox in the first column of each attribute to be added.
 
@@ -26,11 +26,11 @@ Although attributes are managed primarily from the [Stores]({{ site.baseurl }}{%
 
 1. Under **Attribute Properties**, enter a **Default Label** to identify the attribute.
 
-   ![]({{ site.baseurl }}{% link images/images/product-attribute-add-new.png %}){: .zoom}
+   ![]({% link images/images/product-attribute-add-new.png %}){: .zoom}
 
-1. Set **Catalog Input Type for Store Owner** to the type in [input control]({{ site.baseurl }}{% link stores/attributes-input-types.md %}) to be used for data entry.
+1. Set **Catalog Input Type for Store Owner** to the type in [input control]({% link stores/attributes-input-types.md %}) to be used for data entry.
 
-   If the attribute is used for a [configurable product]({{ site.baseurl }}{% link catalog/product-create-configurable.md %}), choose “Dropdown”.  Then, set **Required** to “Yes”.
+   If the attribute is used for a [configurable product]({% link catalog/product-create-configurable.md %}), choose “Dropdown”.  Then, set **Required** to “Yes”.
 
 1. For Dropdown and Multiple Select input types, do the following:
 
@@ -42,7 +42,7 @@ Although attributes are managed primarily from the [Stores]({{ site.baseurl }}{%
 
    * Select **Is Default** to use the option as the default value.
 
-   ![]({{ site.baseurl }}{% link images/images/product-attribute-add-values-flavors.png %}){: .zoom}
+   ![]({% link images/images/product-attribute-add-values-flavors.png %}){: .zoom}
    *Values*
 
 1. If you want to require the customer to choose an option before the product can be purchased, set **Required** to “Yes”.
@@ -51,12 +51,12 @@ Although attributes are managed primarily from the [Stores]({{ site.baseurl }}{%
 
 1. Enter a unique **Attribute Code** in lowercase characters, and without spaces.
 
-   ![]({{ site.baseurl }}{% link images/images/product-attribute-advanced-attribute-properties.png %}){: .zoom}
+   ![]({% link images/images/product-attribute-advanced-attribute-properties.png %}){: .zoom}
    *Advanced Attribute Properties*
 
 1. Set **Scope** to indicate where in your store hierarchy the attribute can be used.
 
-   If the attribute is used for a [configurable product]({{ site.baseurl }}{% link catalog/product-create-configurable.md %}), choose “Global.”
+   If the attribute is used for a [configurable product]({% link catalog/product-create-configurable.md %}), choose “Global.”
 
 1. If this attribute applies only to this product, set **Unique Value** to “Yes”.
 
@@ -69,7 +69,7 @@ Although attributes are managed primarily from the [Stores]({{ site.baseurl }}{%
    * Letters
    * Letters (a-z, A-Z) or Numbers (0-9)
 
-   ![]({{ site.baseurl }}{% link images/images/product-attribute-input-validation.png %}){: .zoom}
+   ![]({% link images/images/product-attribute-input-validation.png %}){: .zoom}
    *Input Validation*
 
 1. If you want to be able to include the attribute as a column in the Products grid, set **Add to Column Options** to “Yes”.
@@ -78,18 +78,18 @@ Although attributes are managed primarily from the [Stores]({{ site.baseurl }}{%
 
 ## Step 4: Enter the Field Label
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Manage titles** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Manage titles** section.
 
 1. Enter a **Title** to be used as a label for the field. If your store is available in different languages, you can enter a translated title for each view.
 
-   ![]({{ site.baseurl }}{% link images/images/product-attribute-add-manage-titles.png %}){: .zoom}
+   ![]({% link images/images/product-attribute-add-manage-titles.png %}){: .zoom}
    *Manage Titles*
 
 ## Step 5: Describe the Storefront Properties
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Storefront Properties** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Storefront Properties** section. Then, do the following:
 
-   ![]({{ site.baseurl }}{% link images/images/product-attribute-add-storefront-properties.png %}){: .zoom}
+   ![]({% link images/images/product-attribute-add-storefront-properties.png %}){: .zoom}
    *Storefront Properties*
 
    * To make the attribute available for search, set **Use in Search** to “Yes”.

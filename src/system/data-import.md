@@ -16,7 +16,7 @@ Special characters—such as the equal sign, greater and less than symbols, sing
 
 When importing product data, new product data is added to existing product data entries in the database. All fields except SKU can be updated through import. All existing product data is replaced with the imported new data. Exercise caution when replacing data. All existing product data will be completely cleared and all references in the system will be lost.
 
-![]({{ site.baseurl }}{% link images/images/system-import.png %}){: .zoom} 
+![]({% link images/images/system-import.png %}){: .zoom} 
 _Import_
 
 ## Step 1: Prepare the Data
@@ -35,19 +35,19 @@ _Import_
 
 1. Click **Download Sample File**. Then on the download menu in the lower-left corner of your browser window, choose **Open**.
 
-    ![]({{ site.baseurl }}{% link images/images/data-import-download-sample-file.png %}){: .zoom}
+    ![]({% link images/images/data-import-download-sample-file.png %}){: .zoom}
     _Download Sample File_
 
     The sample file includes column headings with placeholder data for example product types.
 
-    ![]({{ site.baseurl }}{% link images/images/data-export-sample-data.png %}){: .zoom}
+    ![]({% link images/images/data-export-sample-data.png %}){: .zoom}
     _Downloaded Sample File_
 
 1. Examine the structure of the sample file. As you prepare your CSV import file, make sure that the column headings are spelled correctly.
 
 1. Verify that the size of your import file does not exceed the limit shown in the message.
 
-    ![]({{ site.baseurl }}{% link images/images/data-import-size-notification.png %}){: .zoom}
+    ![]({% link images/images/data-import-size-notification.png %}){: .zoom}
 
 1. If the import data includes paths to product images, make sure that the image files have been uploaded to the appropriate location. The default location on the Magento server is: `pub/media/import`.
 
@@ -78,7 +78,7 @@ _Import_
 
     - If you want to enclose any special characters that might be found in the data as an “escape sequence,” mark the **Fields Enclosure** checkbox.
 
-    ![]({{ site.baseurl }}{% link images/images/data-import-import-behavior.png %}){: .zoom} 
+    ![]({% link images/images/data-import-import-behavior.png %}){: .zoom} 
     _Import Behavior_
 
 ## Step 3: Identify the Import File
@@ -89,9 +89,9 @@ _Import_
 
 1. In the **Images File Directory** field, enter the relative path to the location on the Magento server where uploaded images are stored. For example: `var/import`.
 
-    To learn more about importing product images, see [Importing Product Images]({{ site.baseurl }}{% link system/data-import-product-images.md %}).
+    To learn more about importing product images, see [Importing Product Images]({% link system/data-import-product-images.md %}).
 
-    ![]({{ site.baseurl }}{% link images/images/data-import-file-to-import.png %}){: .zoom} 
+    ![]({% link images/images/data-import-file-to-import.png %}){: .zoom} 
     _File to Import_
 
 ## Step 4: Check the Import Data
@@ -100,7 +100,7 @@ _Import_
 
 1. Then, wait a few moments for the validation process to complete. If the import data is valid, the following message appears:
 
-    ![]({{ site.baseurl }}{% link images/images/data-import-validation-message.png %}){: .zoom}
+    ![]({% link images/images/data-import-validation-message.png %}){: .zoom}
     _File is Valid!_
 
 1. If the file is valid, click **Import**. Otherwise, correct each problem with the data that is listed in the message, and try to import the file again.
@@ -109,7 +109,7 @@ _Import_
 
     If an error message appears in the Validation Results, correct the problem in the data, and import the file again.
 
-    ![]({{ site.baseurl }}{% link images/images/data-import-validation-error-url-key-exists.png %}){: .zoom}
+    ![]({% link images/images/data-import-validation-error-url-key-exists.png %}){: .zoom}
     _URL Key Already Exists_
 
     A message appears when the import is complete.

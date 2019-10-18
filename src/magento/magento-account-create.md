@@ -11,7 +11,7 @@ Anyone can open a free Magento account from our website. The email address that 
 
 1. In the upper-right corner, click the **My Account** icon. Then under New Customers, click <span class="btn"> Register </span>.
 
-   ![]({{ site.baseurl }}{% link images/images/magento-account-login.png %}){: .zoom}
+   ![]({% link images/images/magento-account-login.png %}){: .zoom}
    _Account log in_
 
 1. Under Personal Information, do the following:
@@ -20,7 +20,7 @@ Anyone can open a free Magento account from our website. The email address that 
 
    - Set **My Company Primarily** to the best description of what your company does. Then, set **My Role** to the best description of what you do for the company.
 
-   ![]({{ site.baseurl }}{% link images/images/magento-account-create.png %}){: .zoom}
+   ![]({% link images/images/magento-account-create.png %}){: .zoom}
    _Create an account_
 
 1. Under Login Information, do the following:
@@ -70,7 +70,7 @@ Anyone can open a free Magento account from our website. The email address that 
 
 1. When complete, click <span class="btn"> Save </span>.
 
-   ![]({{ site.baseurl }}{% link images/images/magento-account-change-password.png %}){: .zoom}
+   ![]({% link images/images/magento-account-change-password.png %}){: .zoom}
    _Change password_
 
 [1]: http://go.magento.com/

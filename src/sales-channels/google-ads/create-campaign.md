@@ -28,7 +28,7 @@ To learn more about Google Ads budgets, see Google's [Daily budget: Definition][
    * To add all of the GMC products to this campaign, click **Select all products in my Google Merchant Center catalog**.
    * To add a specific set of GMC products matching attributes and categories to this campaign, click **Select Products Using Filters**. Select from the drop-down list or start typing to add filters for brand or categories.
 
-      ![]({{ site.baseurl }}{% link images/images/sales-channels/google/ads-campaign-products.png %}){: .zoom}
+      ![]({% link images/images/sales-channels/google/ads-campaign-products.png %}){: .zoom}
       *Create a Smart Shopping Campaign*
 
 1. When complete, click <span class="btn">Review Campaign</span>.
@@ -36,9 +36,9 @@ To learn more about Google Ads budgets, see Google's [Daily budget: Definition][
 1. The **Review Campaign** page lists all aspects of your ad campaign, including, review the details of your campaign.
 
    * To make edits, click <span class="btn">Edit Campaign</span>.
-   * If everything looks accurate, click <span class="btn">Submit Campaign</span>. This publishes the campaign on Google. It is active but not running ads until your [account]({{ site.baseurl }}{% link sales-channels/google-ads/google-account-managment.md %}) and [products]({{ site.baseurl }}{% link sales-channels/google-ads/product-managment.md %}) are approved. When published, the campaign displays in the list on the dashboard.
+   * If everything looks accurate, click <span class="btn">Submit Campaign</span>. This publishes the campaign on Google. It is active but not running ads until your [account]({% link sales-channels/google-ads/google-account-managment.md %}) and [products]({% link sales-channels/google-ads/product-managment.md %}) are approved. When published, the campaign displays in the list on the dashboard.
 
-      ![]({{ site.baseurl }}{% link images/images/sales-channels/google/campaign-review.png %}){: .zoom}
+      ![]({% link images/images/sales-channels/google/campaign-review.png %}){: .zoom}
       *Review and Submit the Campaign*
 
 ### Create Smart Shopping Campaign Field Descriptions

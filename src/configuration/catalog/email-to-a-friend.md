@@ -2,14 +2,14 @@
 title: Email to a Friend
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Catalog]({{ site.baseurl }}{% link configuration/catalog.md %}) > Email to a Friend
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Catalog]({% link configuration/catalog.md %}) > Email to a Friend
 
 ## Email Templates
 
-![]({{ site.baseurl }}{% link images/images/config-catalog-email-to-a-friend-email-templates.png %}){: .zoom}
-[_Email Templates_]({{ site.baseurl }}{% link marketing/email-template-configuration.md %})
+![]({% link images/images/config-catalog-email-to-a-friend-email-templates.png %}){: .zoom}
+[_Email Templates_]({% link marketing/email-template-configuration.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled|Store View|Activates the process that gives customers the ability to send email to friends about products in your store. Options include: Yes / No|
 |Select Email Template|Store View|Identifies the email template that is used for Email a Friend messages. Default template: Send Product to Friend|

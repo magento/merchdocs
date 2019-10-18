@@ -2,9 +2,9 @@
 title: Packaging
 ---
 
-The Packaging grid lists the available packaging options that are available through your store. Existing packaging profiles can be edited or removed, and new packaging profiles added. The packaging options appear in a dropdown for each [Carrier]({{ site.baseurl }}{% link shipping/magento-shipping-carriers.md %}) profile, and identify each type of packaging that is supported by the carrier.
+The Packaging grid lists the available packaging options that are available through your store. Existing packaging profiles can be edited or removed, and new packaging profiles added. The packaging options appear in a dropdown for each [Carrier]({% link shipping/magento-shipping-carriers.md %}) profile, and identify each type of packaging that is supported by the carrier.
 
-![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-configure-packaging.png %}){: .zoom}
+![]({% link images/images/shipping-magento-shipping-configure-packaging.png %}){: .zoom}
 _Packaging_
 
 ## To Add a Packaging Option
@@ -27,21 +27,21 @@ _Packaging_
 
 1.  Set **Maximum Weight Unit** to the unit of measurement that is used for the Maximum Weight value.
 
-      ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-configure-package-add-part1.png %}){: .zoom}
+      ![]({% link images/images/shipping-magento-shipping-configure-package-add-part1.png %}){: .zoom}
       _Basic Settings_
 
 1.  Complete the fields in the **Outer Dimensions** section.
 
-    If you need help, click the Help (![]({{ site.baseurl }}{% link images/images/btn-help.png %})) button or refer to the Field Descriptions at the end of this topic.
+    If you need help, click the Help (![]({% link images/images/btn-help.png %})) button or refer to the Field Descriptions at the end of this topic.
 
-    ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-configure-package-add-outer-dimensions.png %}){: .zoom}
+    ![]({% link images/images/shipping-magento-shipping-configure-package-add-outer-dimensions.png %}){: .zoom}
     _Outer Dimensions_
 
 1.  Complete the fields in the **Inner Dimensions** section.
 
-    If you need help, click the Help (![]({{ site.baseurl }}{% link images/images/btn-help.png %})) button or refer to the Field Descriptions at the end of this topic.
+    If you need help, click the Help (![]({% link images/images/btn-help.png %})) button or refer to the Field Descriptions at the end of this topic.
 
-    ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-configure-package-add-inner-dimensions.png %}){: .zoom}
+    ![]({% link images/images/shipping-magento-shipping-configure-package-add-inner-dimensions.png %}){: .zoom}
     _Inner Dimensions_
 
 1.  Click **Save**.

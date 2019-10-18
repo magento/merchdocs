@@ -21,23 +21,23 @@ Your Magento version determines the Magento Shipping version used. Documentation
 
 #### Preview Experiences
 
-In the [Preview Experience]({{ site.baseurl }}{% link shipping/magento-shipping-preview-experience.md %}) pane in the Magento Shipping Portal, the available shipping methods for a shopping basket can be previewed for different customers. Experiences that do not return a shipping method are also identified. This helps to ensure that the intended shipping methods are displayed to a customer during checkout. Personas can be created and saved to quickly preview different shipping experiences in the Magento Shipping Portal.
+In the [Preview Experience]({% link shipping/magento-shipping-preview-experience.md %}) pane in the Magento Shipping Portal, the available shipping methods for a shopping basket can be previewed for different customers. Experiences that do not return a shipping method are also identified. This helps to ensure that the intended shipping methods are displayed to a customer during checkout. Personas can be created and saved to quickly preview different shipping experiences in the Magento Shipping Portal.
 
-**Note**: [Collection Point]({{ site.baseurl }}{% link shipping/magento-shipping-collection-points.md %}) shipping methods are not yet supported in the Preview.
+**Note**: [Collection Point]({% link shipping/magento-shipping-collection-points.md %}) shipping methods are not yet supported in the Preview.
 
 #### Pre-Packaged Assignment for Products
 
-[Package details]({{ site.baseurl }}{% link shipping/magento-shipping-pre-packaged.md %}) can be defined for a product in the [product settings]({{ site.baseurl }}{% link catalog/settings.md %}), with this information used to pre-fill information during the shipment fulfillment workflow. This product setting is available for [Simple]({{ site.baseurl }}{% link catalog/product-create-simple.md %}) and [Bundle]({{ site.baseurl }}{% link catalog/product-create-bundle.md %}) product types.
+[Package details]({% link shipping/magento-shipping-pre-packaged.md %}) can be defined for a product in the [product settings]({% link catalog/settings.md %}), with this information used to pre-fill information during the shipment fulfillment workflow. This product setting is available for [Simple]({% link catalog/product-create-simple.md %}) and [Bundle]({% link catalog/product-create-bundle.md %}) product types.
 
 The packaging options include:
 
--  **Assigned** - Allows you to assign the product to a Magento Shipping package (defined in the [Packages configuration]({{ site.baseurl }}{% link shipping/magento-shipping-packaging.md %})).
+-  **Assigned** - Allows you to assign the product to a Magento Shipping package (defined in the [Packages configuration]({% link shipping/magento-shipping-packaging.md %})).
 
 -  **Pre-Packaged** - Uses the dimensions of the product's package. When set to this option, Length, Width, and Height fields display (required).
 
 #### Magento Shipping Attribute Mapping
 
-[Magento Shipping attributes]({{ site.baseurl }}{% link shipping/magento-shipping-attributes.md %}) are available for mapping in Magento Admin. Attribute mapping allows you to map Magento Shipping attributes to your Magento [product attribute]({{ site.baseurl }}{% link catalog/product-attributes.md %}) defined in your Magento instance. Mapped data is used to auto-assign shipping information/values during checkout, resulting in a more efficient and less frustrating checkout experience for the customer.
+[Magento Shipping attributes]({% link shipping/magento-shipping-attributes.md %}) are available for mapping in Magento Admin. Attribute mapping allows you to map Magento Shipping attributes to your Magento [product attribute]({% link catalog/product-attributes.md %}) defined in your Magento instance. Mapped data is used to auto-assign shipping information/values during checkout, resulting in a more efficient and less frustrating checkout experience for the customer.
 
 You can also define custom Magento Shipping attributes, allowing for greater flexibility when defining Experiences to automatically present shipping methods in the checkout.
 
@@ -45,13 +45,13 @@ You can also define custom Magento Shipping attributes, allowing for greater fle
 
 #### Magento Shipping Configuration
 
-The [Carriers]({{ site.baseurl }}{% link shipping/magento-shipping-carriers.md %}) and [Locations]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %}) configurations have been moved to the Magento Shipping Portal, allowing for user experience improvements without the need for a Magento update. The Magento Admin automatically links users to the corresponding page in the Magento Shipping Portal. You can access these settings in the Magento Admin, but changes are made in the Magento Shipping Portal.
+The [Carriers]({% link shipping/magento-shipping-carriers.md %}) and [Locations]({% link shipping/magento-shipping-locations.md %}) configurations have been moved to the Magento Shipping Portal, allowing for user experience improvements without the need for a Magento update. The Magento Admin automatically links users to the corresponding page in the Magento Shipping Portal. You can access these settings in the Magento Admin, but changes are made in the Magento Shipping Portal.
 
--  [Carriers]({{ site.baseurl }}{% link shipping/magento-shipping-carriers.md %})
+-  [Carriers]({% link shipping/magento-shipping-carriers.md %})
 
-   When connecting a new carrier, the available carriers can be filtered based on supported Origin Country (when defined in the product's [shipping]({{ site.baseurl }}{% link catalog/product-shipping.md %}) settings).
+   When connecting a new carrier, the available carriers can be filtered based on supported Origin Country (when defined in the product's [shipping]({% link catalog/product-shipping.md %}) settings).
 
--  [Locations]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %})
+-  [Locations]({% link shipping/magento-shipping-locations.md %})
 
    -  The required fields when creating a new location have been expanded to prevent issues during Quote, Book, and Dispatch steps with certain carriers.
 
@@ -71,9 +71,9 @@ The [Carriers]({{ site.baseurl }}{% link shipping/magento-shipping-carriers.md %
 
 #### Shipment Workflow
 
--  Pre-Fill Packaging - Once a packaging type is assigned (in the [Shipping]({{ site.baseurl }}{% link catalog/product-shipping.md %}) tab in Product Settings), any future orders placed that include the product will have the packaging information automatically set during the shipment fulfillment process (Batch Processing and Individual Orders).
+-  Pre-Fill Packaging - Once a packaging type is assigned (in the [Shipping]({% link catalog/product-shipping.md %}) tab in Product Settings), any future orders placed that include the product will have the packaging information automatically set during the shipment fulfillment process (Batch Processing and Individual Orders).
 
--  Pre-Fill International Item Details - The **HS Code** and **Country of Origin** attributes have been added in the [Shipping]({{ site.baseurl }}{% link catalog/product-shipping.md %}) tab in Product Settings. When set, these values along with any other mapped attributes will be used to pre-fill international item details during the order fulfillment process.
+-  Pre-Fill International Item Details - The **HS Code** and **Country of Origin** attributes have been added in the [Shipping]({% link catalog/product-shipping.md %}) tab in Product Settings. When set, these values along with any other mapped attributes will be used to pre-fill international item details during the order fulfillment process.
 
 -  Pre-Fill International Shipment Details - The number of fields have been reduced and smart defaults are now used to pre-fill the remaining required fields.
 
@@ -83,7 +83,7 @@ A variety of user experience improvements have been made to reduce time and effo
 
 -  UX update around handling of Errors vs Ineligible Services. (OrderShip Only)
 
--  International Product values are automatically populated when [Magento Shipping Attributes]({{ site.baseurl }}{% link shipping/magento-shipping-attributes.md %}) have been mapped and data is available.
+-  International Product values are automatically populated when [Magento Shipping Attributes]({% link shipping/magento-shipping-attributes.md %}) have been mapped and data is available.
 
 -  International Shipping values are automatically populated with default values (i.e., Some redundant fields have been removed).
 
@@ -115,4 +115,4 @@ Added Support of "ship together" and "ship separately" for _Bundle Product_ type
 
 -  The timezone used for the dispatch process is based on the selected location, rather than the customer's location.
 
--  All opening hours configuration is managed under [Locations]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %}). The _opening hours_ override is no longer available on the _Dispatch_ screen.
+-  All opening hours configuration is managed under [Locations]({% link shipping/magento-shipping-locations.md %}). The _opening hours_ override is no longer available on the _Dispatch_ screen.

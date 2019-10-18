@@ -30,7 +30,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/checkout.md %}">Checkout</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/checkout.md %}">Checkout</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -484,7 +484,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>General &gt; <a href="{{ site.baseurl }}{% link configuration/general/contacts.md %}">Contacts</a></td>
+                        <td>General &gt; <a href="{% link configuration/general/contacts.md %}">Contacts</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -520,7 +520,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
+                        <td>Customers &gt; <a href="{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -543,7 +543,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
+                        <td>Customers &gt; <a href="{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -566,7 +566,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
+                        <td>Customers &gt; <a href="{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -589,7 +589,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
+                        <td>Customers &gt; <a href="{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -612,7 +612,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
+                        <td>Customers &gt; <a href="{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -635,7 +635,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
+                        <td>Customers &gt; <a href="{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -660,7 +660,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
+                        <td>Customers &gt; <a href="{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -683,7 +683,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
+                        <td>Customers &gt; <a href="{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -741,7 +741,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>General &gt; <a href="{{ site.baseurl }}{% link configuration/general/currency-setup.md %}">Currency Setup</a></td>
+                        <td>General &gt; <a href="{% link configuration/general/currency-setup.md %}">Currency Setup</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1091,7 +1091,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/newsletter.md %}">Newsletter</a></td>
+                        <td>Customers &gt; <a href="{% link configuration/customers/newsletter.md %}">Newsletter</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1114,7 +1114,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/newsletter.md %}">Newsletter</a></td>
+                        <td>Customers &gt; <a href="{% link configuration/customers/newsletter.md %}">Newsletter</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1137,7 +1137,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/newsletter.md %}">Newsletter</a></td>
+                        <td>Customers &gt; <a href="{% link configuration/customers/newsletter.md %}">Newsletter</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1165,7 +1165,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Catalog &gt; <a href="{{ site.baseurl }}{% link configuration/catalog/catalog.md %}">Catalog</a></td>
+                        <td>Catalog &gt; <a href="{% link configuration/catalog/catalog.md %}">Catalog</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1188,7 +1188,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Catalog &gt; <a href="{{ site.baseurl }}{% link configuration/catalog/catalog.md %}">Catalog</a></td>
+                        <td>Catalog &gt; <a href="{% link configuration/catalog/catalog.md %}">Catalog</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1211,7 +1211,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Catalog &gt; <a href="{{ site.baseurl }}{% link configuration/catalog/catalog.md %}">Catalog</a></td>
+                        <td>Catalog &gt; <a href="{% link configuration/catalog/catalog.md %}">Catalog</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1486,7 +1486,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1509,7 +1509,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1532,7 +1532,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1555,7 +1555,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1578,7 +1578,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1601,7 +1601,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1624,7 +1624,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1647,7 +1647,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1670,7 +1670,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1693,7 +1693,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1716,7 +1716,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1734,24 +1734,24 @@ The list of email templates is organized alphabetically by Magento module.
             <td>New Invoice </td>
             <td>Stores -&gt; Configuration -&gt; Sales Emails -&gt; Invoice -&gt; Invoice Email Template  (Default Config)<table>
                   <col WIDTH="100">
-                    <col WIDTH="auto"><tbody><tr><td>Page:</td><td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td></tr><tr><td>Section:</td><td>Invoice</td></tr><tr><td>Field:</td><td>Invoice Email Template</td></tr></tbody></table></td>
+                    <col WIDTH="auto"><tbody><tr><td>Page:</td><td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td></tr><tr><td>Section:</td><td>Invoice</td></tr><tr><td>Field:</td><td>Invoice Email Template</td></tr></tbody></table></td>
          </tr>
          <tr>
             <td>New Invoice (Magento/luma)</td>
             <td>Stores -&gt; Configuration -&gt; Sales Emails -&gt; Invoice -&gt; Invoice Email Template  (Default Config)<table>
                   <col WIDTH="100">
-                <col WIDTH="auto"><tbody><tr><td>Page:</td><td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td></tr><tr><td>Section:</td><td>Invoice</td></tr><tr><td>Field:</td><td>Invoice Email Template</td></tr></tbody></table></td>
+                <col WIDTH="auto"><tbody><tr><td>Page:</td><td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td></tr><tr><td>Section:</td><td>Invoice</td></tr><tr><td>Field:</td><td>Invoice Email Template</td></tr></tbody></table></td>
          </tr>
          <tr>
             <td>New Invoice for Guest</td>
             <td>Stores -&gt; Configuration -&gt; Sales Emails -&gt; Invoice -&gt; Invoice Email Template for Guest  (Default Config)<table>
                       <col WIDTH="100">
-                <col WIDTH="auto"><tbody><tr><td>Page:</td><td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td></tr><tr><td>Section:</td><td>Invoice</td></tr><tr><td>Field:</td><td>Invoice Email Template for Guest</td></tr></tbody></table></td>
+                <col WIDTH="auto"><tbody><tr><td>Page:</td><td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td></tr><tr><td>Section:</td><td>Invoice</td></tr><tr><td>Field:</td><td>Invoice Email Template for Guest</td></tr></tbody></table></td>
          </tr>
          <tr>
             <td>New Invoice for Guest (Magento/luma)</td>
             <td>Stores -&gt; Configuration -&gt; Sales Emails -&gt; Invoice -&gt; Invoice Email Template for Guest  (Default Config)<table><col WIDTH="100">
-                <col WIDTH="auto"><tbody><tr><td>Page:</td><td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td></tr><tr><td>Section:</td><td>Invoice</td></tr><tr><td>Field:</td><td>Invoice Email Template for Guest</td></tr></tbody></table></td>
+                <col WIDTH="auto"><tbody><tr><td>Page:</td><td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td></tr><tr><td>Section:</td><td>Invoice</td></tr><tr><td>Field:</td><td>Invoice Email Template for Guest</td></tr></tbody></table></td>
          </tr>
          <tr>
             <td>New Order</td>
@@ -1762,7 +1762,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1785,7 +1785,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1808,7 +1808,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1831,7 +1831,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1854,7 +1854,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1877,7 +1877,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1900,7 +1900,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1923,7 +1923,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1946,7 +1946,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1969,7 +1969,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -1992,7 +1992,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -2015,7 +2015,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -2038,7 +2038,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -2061,7 +2061,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -2084,7 +2084,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -2107,7 +2107,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
+                        <td>Sales &gt; <a href="{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -2210,7 +2210,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Catalog &gt; <a href="{{ site.baseurl }}{% link configuration/catalog/email-to-a-friend.md %}">Email to a Friend</a></td>
+                        <td>Catalog &gt; <a href="{% link configuration/catalog/email-to-a-friend.md %}">Email to a Friend</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -2237,7 +2237,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Catalog &gt; <a href="{{ site.baseurl }}{% link configuration/catalog/xml-sitemap.md %}">XML Sitemap</a></td>
+                        <td>Catalog &gt; <a href="{% link configuration/catalog/xml-sitemap.md %}">XML Sitemap</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -2265,7 +2265,7 @@ The list of email templates is organized alphabetically by Magento module.
                   <tbody>
                      <tr>
                         <td>Page:</td>
-                        <td>Advanced &gt; <a href="{{ site.baseurl }}{% link configuration/advanced/admin.md %}">Admin</a></td>
+                        <td>Advanced &gt; <a href="{% link configuration/advanced/admin.md %}">Admin</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>
@@ -2283,7 +2283,7 @@ The list of email templates is organized alphabetically by Magento module.
             <td>User Notification</td>
             <td>Stores -&gt; Configuration -&gt; Admin -&gt; Admin User Emails -&gt; User Notification Template  (Default Config)<table>
                     <col WIDTH="150">
-                    <col WIDTH="auto"><tbody><tr><td>Page:</td><td>Advanced &gt; <a href="{{ site.baseurl }}{% link configuration/advanced/admin.md %}">Admin</a></td></tr><tr><td>Section:</td><td>Admin User Emails</td></tr><tr><td>Field:</td><td>User Notification Template</td></tr></tbody></table></td>
+                    <col WIDTH="auto"><tbody><tr><td>Page:</td><td>Advanced &gt; <a href="{% link configuration/advanced/admin.md %}">Admin</a></td></tr><tr><td>Section:</td><td>Admin User Emails</td></tr><tr><td>Field:</td><td>User Notification Template</td></tr></tbody></table></td>
          </tr>
          <tr>
             <td colspan="2">
@@ -2299,7 +2299,7 @@ The list of email templates is organized alphabetically by Magento module.
                     <col WIDTH="auto">
                      <tr>
                         <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/wishlist.md %}">Wish List</a></td>
+                        <td>Customers &gt; <a href="{% link configuration/customers/wishlist.md %}">Wish List</a></td>
                      </tr>
                      <tr>
                         <td>Section:</td>

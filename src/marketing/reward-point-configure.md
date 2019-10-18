@@ -5,8 +5,8 @@ title: Configuring Reward Points
 
 The Reward Points configuration determines how reward points are presented in the store, and defines the basic operating parameters.
 
-![]({{ site.baseurl }}{%- link images/images-ee/config-customers-reward-points-reward-points.png -%}){: .zoom}
- [*Reward Points*]({{ site.baseurl }}{%- link configuration/customers/reward-points.md -%})
+![]({% link images/images-ee/config-customers-reward-points-reward-points.png %}){: .zoom}
+ [*Reward Points*]({% link configuration/customers/reward-points.md -%})
 
 ## Step 1. Configure the Reward Points
 
@@ -14,7 +14,7 @@ The Reward Points configuration determines how reward points are presented in th
 
 1. In the panel on the left, under **Customers**, choose **Reward Points**.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Reward Points** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Reward Points** section. Then, do the following:
 
     * To activate reward points, set **Enable Reward Points Functionality** to “Yes".
 
@@ -48,10 +48,10 @@ The Reward Points configuration determines how reward points are presented in th
 
 In this step, the number of reward points that can be earned for various customer activities is specified. When customers complete an action that has points assigned, a message appears to the customer that indicates how many points they have earned.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Actions for Acquiring Reward Points by Customer** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Actions for Acquiring Reward Points by Customer** section. Then, do the following:
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/config-customers-reward-points-actions-for-acquiring.png -%}){: .zoom}
-    [Actions for Acquiring Reward Points by Customer]({{ site.baseurl }}{%- link configuration/customers/reward-points.md -%})
+    ![]({% link images/images-ee/config-customers-reward-points-actions-for-acquiring.png %}){: .zoom}
+    [Actions for Acquiring Reward Points by Customer]({% link configuration/customers/reward-points.md -%})
 
     * To display a message in the shopping cart that includes the rewards points earned for the purchase and the customer’s current reward point balance, set **Purchase** to “Yes".
 
@@ -69,10 +69,10 @@ In this step, the number of reward points that can be earned for various custome
 
 ## Step 3. Complete the Email Notification Settings
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Email Notification Settings** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Email Notification Settings** section. Then, do the following:
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/config-customers-reward-points-email-notification-settings.png -%}){: .zoom}
-    [Email Notification Settings]({{ site.baseurl }}{%- link configuration/customers/reward-points.md -%})
+    ![]({% link images/images-ee/config-customers-reward-points-email-notification-settings.png %}){: .zoom}
+    [Email Notification Settings]({% link configuration/customers/reward-points.md -%})
 
     * Set **Email Sender** to the store contact that appears as the sender of balance updates and expiration notifications.
 

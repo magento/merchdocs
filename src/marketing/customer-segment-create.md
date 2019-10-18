@@ -4,9 +4,9 @@ title: Creating a Customer Segment
 group: customers
 ---
 
-Creating a customer segment is similar to building a [cart price rule]({{ site.baseurl }}{% link marketing/price-rules-cart.md %}), except that the options include customer-specific attributes. The following example shows how to create a customer segment that targets Millennials (born between 1981-1996).
+Creating a customer segment is similar to building a [cart price rule]({% link marketing/price-rules-cart.md %}), except that the options include customer-specific attributes. The following example shows how to create a customer segment that targets Millennials (born between 1981-1996).
 
-![]({{ site.baseurl }}{% link images/images-ee/customer-segments.png %}){: .zoom}
+![]({% link images/images-ee/customer-segments.png %}){: .zoom}
 _Customer Segments_
 
 ## Step 1. Enable Customer Segments
@@ -15,12 +15,12 @@ _Customer Segments_
 
 1. In the left-side pane under **Customers**, click **Customer Configuration**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Customer Segments** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Customer Segments** section.
 
 1. Verify that **Enable Customer Segment Functionality** is set to “Yes”.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/config-customers-customer-configuration-customer-segments.png %}){: .zoom}
-      [_Customer Segments_]({{ site.baseurl }}{% link configuration/customers/customer-configuration.md %})
+      ![]({% link images/images-ee/config-customers-customer-configuration-customer-segments.png %}){: .zoom}
+      [_Customer Segments_]({% link configuration/customers/customer-configuration.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.
 
@@ -44,7 +44,7 @@ _Customer Segments_
 
      Additional options become available in the left-side pane.
 
-   ![]({{ site.baseurl }}{%- link images/images-ee/customer-segment-saved.png -%}){: .zoom}
+   ![]({% link images/images-ee/customer-segment-saved.png %}){: .zoom}
    _Segment Information_
 
 ## Step 3: Define the Conditions
@@ -53,30 +53,30 @@ _Customer Segments_
 
    The default condition begins, “If ALL of these conditions are TRUE:”.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/customer-segment-conditions.png %}){: .zoom}
+   ![]({% link images/images-ee/customer-segment-conditions.png %}){: .zoom}
    _Conditions_
 
 1. To create a condition that targets the Millennial Generation (1981-1996), do the following:
 
-    * Click **Add** (![]({{ site.baseurl }}{% link images/images/btn-add-grn.png %}) ) to display the list of conditions. Then, in the drop-down list under Customer, select "Date Of Birth".
+    * Click **Add** (![]({% link images/images/btn-add-grn.png %}) ) to display the list of conditions. Then, in the drop-down list under Customer, select "Date Of Birth".
 
     * Click **is** to display the condition control options. Select “equals or greater than” in the drop-down list.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/customer-segment-condition-equals-or-greater-than.png %}){: .zoom}
+      ![]({% link images/images-ee/customer-segment-condition-equals-or-greater-than.png %}){: .zoom}
       _Equals or Greater Than_
 
-    * Click the default date value and replace with “1977-01-01”. Then, click the green checkmark ( ![]({{ site.baseurl }}{% link images/images/icon-green-check.png %}) ) to save the condition setting.
+    * Click the default date value and replace with “1977-01-01”. Then, click the green checkmark ( ![]({% link images/images/icon-green-check.png %}) ) to save the condition setting.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/customer-segment-condition-line1.png %}){: .zoom}
+      ![]({% link images/images-ee/customer-segment-condition-line1.png %}){: .zoom}
       _Condition Line 1_
 
-    * On the next line, click **Add** (![]({{ site.baseurl }}{% link images/images/btn-add-grn.png %}) ). Then, in the drop-down list under Customers, again select "Date of Birth".
+    * On the next line, click **Add** (![]({% link images/images/btn-add-grn.png %}) ). Then, in the drop-down list under Customers, again select "Date of Birth".
 
     * Click **is** to display the condition control options. Select “equals or less than” in the drop-down list.
 
-    * Replace the inserted date with “1994-12-31”. Then, click the green checkmark ( ![]({{ site.baseurl }}{% link images/images/icon-green-check.png %}) ) to save the condition setting.
+    * Replace the inserted date with “1994-12-31”. Then, click the green checkmark ( ![]({% link images/images/icon-green-check.png %}) ) to save the condition setting.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/customer-segment-condition-millennial.png %}){: .zoom}
+      ![]({% link images/images-ee/customer-segment-condition-millennial.png %}){: .zoom}
       _Condition for Millennium Generation_
 
 1. Click <span class="btn">Save and Continue Edit</span>.
@@ -85,7 +85,7 @@ _Customer Segments_
 
 1. In the left-side pane, click **Matched Customers** to display all customers who match the condition.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/customer-segment-matched-customers.png %}){: .zoom}
+    ![]({% link images/images-ee/customer-segment-matched-customers.png %}){: .zoom}
     _Matched Customers_
 
 1. When complete, click <span class="btn">Save</span>.

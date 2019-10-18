@@ -2,18 +2,18 @@
 title: Categories
 ---
 
-Before you add products to your catalog, you need to establish the basic category structure of your catalog. Every product must be assigned to at least one category. Categories are usually created in advance, before products are added to the catalog. However, you can also add categories “on the fly” while creating a product. The category structure of the catalog is reflected by the main menu — or [top navigation]({{ site.baseurl }}{% link catalog/navigation-top.md %}) — of the store.
+Before you add products to your catalog, you need to establish the basic category structure of your catalog. Every product must be assigned to at least one category. Categories are usually created in advance, before products are added to the catalog. However, you can also add categories “on the fly” while creating a product. The category structure of the catalog is reflected by the main menu — or [top navigation]({% link catalog/navigation-top.md %}) — of the store.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/catalog-categories.png %}){: .zoom}
+![]({% link images/images/catalog-categories.png %}){: .zoom}
 *Category Tree*
 <!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/catalog-categories.png %}){: .zoom}
+![]({% link images/images-ee/catalog-categories.png %}){: .zoom}
 *Category Tree*
 <!--{% endif %}-->
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-b2b/catalog-categories.png %}){: .zoom}
+![]({% link images/images-b2b/catalog-categories.png %}){: .zoom}
 *Category Tree*
 <!--{% endif %}-->
 

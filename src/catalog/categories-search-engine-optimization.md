@@ -2,9 +2,9 @@
 title: Search Engine Optimization
 ---
 
-The Search Engine Optimization section specifies the [URL Key]({{ site.baseurl }}{% link catalog/catalog-urls.md %}) and [meta data]({{ site.baseurl }}{% link marketing/meta-data.md %}) fields that are used by search engines to index the category. Although some search engines ignore meta keywords, others continue to use them. The current [SEO best practice]({{ site.baseurl }}{% link marketing/seo-best-practices.md %}) is to incorporate high-value keywords in both the meta title and meta description.
+The Search Engine Optimization section specifies the [URL Key]({% link catalog/catalog-urls.md %}) and [meta data]({% link marketing/meta-data.md %}) fields that are used by search engines to index the category. Although some search engines ignore meta keywords, others continue to use them. The current [SEO best practice]({% link marketing/seo-best-practices.md %}) is to incorporate high-value keywords in both the meta title and meta description.
 
-![]({{ site.baseurl }}{% link images/images/categories-search-engine-optimization.png %}){: .zoom}
+![]({% link images/images/categories-search-engine-optimization.png %}){: .zoom}
 *Search Engine Optimization*
 
 <table>
@@ -15,7 +15,7 @@ The Search Engine Optimization section specifies the [URL Key]({{ site.baseurl 
          <tr>
             <th>Field</th>
             <th>
-               <a href="{{ site.baseurl }}{% link configuration/scope.md %}" class="Scope">Scope</a>
+               <a href="{% link configuration/scope.md %}" class="Scope">Scope</a>
             </th>
             <th>Description</th>
          </tr>

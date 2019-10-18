@@ -7,12 +7,12 @@ Enhanced Ecommerce is a plugin for Google Universal Analytics that gives you ins
 
 The following instructions show how to configure Google Tag Manager with Universal Analytics to produce Enhanced Ecommerce data and reports.
 
-![]({{ site.baseurl }}{%- link images/images-ee/storefront-google-tags-fired-checkout.png -%}){: .zoom}
+![]({% link images/images-ee/storefront-google-tags-fired-checkout.png %}){: .zoom}
 *Tags Fired in Shopping Cart Shown in Debug Mode*
 
 ## Step 1. Sign Up for Google Accounts
 
-1. Sign up for a [Google Tag Manager]({{ site.baseurl }}{%- link marketing/google-tag-manager.md -%}) account, and complete the Magento configuration.
+1. Sign up for a [Google Tag Manager]({% link marketing/google-tag-manager.md -%}) account, and complete the Magento configuration.
 
 1. Sign up for a new [Google Universal Analytics][1] account.
 
@@ -30,7 +30,7 @@ The following instructions show how to configure Google Tag Manager with Univers
 
 1. When complete, tap <span class="btn">Submit</span>.
 
-    ![]({{ site.baseurl }}{%- link images/images/google-universal-analytics-ecommerce-setup1.png -%}){: .zoom}
+    ![]({% link images/images/google-universal-analytics-ecommerce-setup1.png %}){: .zoom}
 
 ## Step 3. Create Tags and Triggers
 

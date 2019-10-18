@@ -2,7 +2,7 @@
 title: Using a Custom Admin URL
 ---
 
-As a [security best practice]({{ site.baseurl }}{% link magento/magento-security-best-practices.md %}), Magento recommends that you use a unique, custom Admin URL instead of the default “admin” or a common term such as “backend”. Although it will not directly protect your site from a determined bad actor, it can reduce exposure to scripts that try to gain unauthorized access.
+As a [security best practice]({% link magento/magento-security-best-practices.md %}), Magento recommends that you use a unique, custom Admin URL instead of the default “admin” or a common term such as “backend”. Although it will not directly protect your site from a determined bad actor, it can reduce exposure to scripts that try to gain unauthorized access.
 
 {:.bs-callout-info}
 Check with your hosting provider before implementing a custom Admin URL. Some hosting providers require a standard URL to meet firewall protection rules.
@@ -25,10 +25,10 @@ As a precaution, do not try to change the Admin URL by yourself unless you know 
 
 1.  In the panel on the left, under _Advanced_, choose **Admin**.
 
-1.  Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Admin Base URL** section. Then, do the following:
+1.  Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Admin Base URL** section. Then, do the following:
 
-    ![]({{ site.baseurl }}{% link images/images/config-advanced-admin-admin-base-url.png %}){: .zoom}
-    [*Admin Base URL*]({{ site.baseurl }}{% link configuration/advanced/admin.md %})
+    ![]({% link images/images/config-advanced-admin-admin-base-url.png %}){: .zoom}
+    [*Admin Base URL*]({% link configuration/advanced/admin.md %})
 
     -  Clear the first **Use system value** checkbox. Then, set **Use Custom Admin URL** to `Yes`.
 

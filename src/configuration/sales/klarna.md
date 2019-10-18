@@ -2,14 +2,14 @@
 title: Klarna
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > [Payment Methods]({{ site.baseurl }}{% link configuration/sales/payment-methods.md %}) > Klarna
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > Klarna
 
 ## Klarna API
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-klarna-api.png %}){: .zoom}
-[_Klarna API_]({{ site.baseurl }}{% link payment/klarna-setup.md %})
+![]({% link images/images/config-sales-payment-methods-klarna-api.png %}){: .zoom}
+[_Klarna API_]({% link payment/klarna-setup.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |API Version|Store View|Indicates the version of Klarna that is currently installed on the website. Options: Klarna Payments (North America) / Klarna Payments (Europe) - supported countries are AT, DE, DK, FI, NL, NO, SE|
 |Merchant ID/EID|Store View|The unique Store ID from your Klarna account. Your Store ID is located in the upper-left corner of the Store Settings tab in the Klarna Merchant Portal.|
@@ -19,10 +19,10 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 
 ## Klarna Payments
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-klarna-payments.png %}){: .zoom}
-[_Klarna Payments_]({{ site.baseurl }}{% link payment/klarna-setup.md %})
+![]({% link images/images/config-sales-payment-methods-klarna-payments.png %}){: .zoom}
+[_Klarna Payments_]({% link payment/klarna-setup.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable this Solution|Store View|Enables Klarna for the current store view. Options: Yes / No|
 |Payment from applicable countries|Store View|Determines the countries where Klarna is available for this store view. Options: All Allowed Countries / Specific Countries|
@@ -32,10 +32,10 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 
 ## Klarna Payments Design
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-klarna-payments-design.png %}){: .zoom}
-[_Klarna Payments Design_]({{ site.baseurl }}{% link payment/klarna-setup.md %})
+![]({% link images/images/config-sales-payment-methods-klarna-payments-design.png %}){: .zoom}
+[_Klarna Payments Design_]({% link payment/klarna-setup.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Details color|Store View|The [hexadecimal code](https://www.w3schools.com/colors/colors_picker.asp) for the background color of details that appear on the Klarna page during checkout. For example: #0072CC|
 |Button color|Store View|The hexadecimal code for the background color of buttons that appear on the Klarna page during checkout. For example: #0072CC|

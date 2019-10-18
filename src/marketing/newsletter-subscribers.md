@@ -16,7 +16,7 @@ If you want to use a third-party service to send newsletters, you can export you
 
     The status of the record changes to “Unsubscribed”.
 
-    ![]({{ site.baseurl }}{%- link images/images/newsletter-unsubscribe.png -%}){: .zoom}
+    ![]({% link images/images/newsletter-unsubscribe.png %}){: .zoom}
     *Unsubscribe*
 
 ## To export the list of subscribers
@@ -30,5 +30,5 @@ If you want to use a third-party service to send newsletters, you can export you
 
 1. Tap <span class="btn">Export</span>. Then, look for the prompt at the bottom of the screen, and save the file.
 
-    ![]({{ site.baseurl }}{%- link images/images/newsletter-subscribers-export.png -%}){: .zoom}
+    ![]({% link images/images/newsletter-subscribers-export.png %}){: .zoom}
     *Export Newsletter Subscribers*

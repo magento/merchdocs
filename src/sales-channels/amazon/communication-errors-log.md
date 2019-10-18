@@ -9,14 +9,14 @@ No actions are available for the log. It is a review-only feature.
 
 {% include amazon-workspace-controls.md %}
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-comm-errors-log.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-comm-errors-log.png %}){: .zoom}
 _Communication Errors Log_
 
 ### Default Columns
 
 |Column|Description|
 |--- |--- |
-|Amazon Store Name|The name of the store defined when the Amazon store was set up. Refer to [Store Integration]({{ site.baseurl }}{% link sales-channels/amazon/store-integration.md %}). |
+|Amazon Store Name|The name of the store defined when the Amazon store was set up. Refer to [Store Integration]({% link sales-channels/amazon/store-integration.md %}). |
 |Error Code|The code received from Amazon to identify the error type. |
 |Message|The message that describes the error associated to the error code. |
 |Created On|The date and time the error occurred. |
