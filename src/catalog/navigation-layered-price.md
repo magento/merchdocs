@@ -35,14 +35,14 @@ Iterative splitting provides the best distribution of products among price range
 
 1. In the panel on the left under **Catalog**, choose **Catalog**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Layered Navigation** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Layered Navigation** section. Then, do the following:
 
     * By default, **Display Product Count** is set to “Yes”. The change the setting, first clear the **Use system value** checkbox.
 
     * Set **Price Navigation Steps Calculation** to one of the following methods:
 
-    ![]({{ site.baseurl }}{% link images/images/config-catalog-catalog-layered-navigation.png %}){: .zoom}
-    [*Layered Navigation*]({{ site.baseurl }}{% link configuration/catalog/catalog.md %})
+    ![]({% link images/images/config-catalog-catalog-layered-navigation.png %}){: .zoom}
+    [*Layered Navigation*]({% link configuration/catalog/catalog.md %})
 
 ## Method 1: Automatic (equalize price ranges)
 
@@ -58,8 +58,8 @@ To change the value of any of the following fields, first clear the **Use system
 
 1. In the **Interval Division Limit** field, enter the threshold for a number of products within a price range. The range cannot be further split beyond this limit., The default value is 9.
 
-    ![]({{ site.baseurl }}{% link images/images/config-catalog-catalog-layered-navigation-automatic-equalize-product-counts.png %}){: .zoom}
-    [*Automatic (equalize product counts)*]({{ site.baseurl }}{% link configuration/catalog/catalog.md %})
+    ![]({% link images/images/config-catalog-catalog-layered-navigation-automatic-equalize-product-counts.png %}){: .zoom}
+    [*Automatic (equalize product counts)*]({% link configuration/catalog/catalog.md %})
 
 ## Method 3: Manual
 
@@ -71,7 +71,7 @@ To change the value of any of the following fields, first clear the **Use system
 
 1. Enter the **Maximum Number of Price Intervals** allowed, up to 100.
 
-    ![]({{ site.baseurl }}{% link images/images/config-catalog-catalog-layered-navigation-manual.png %}){: .zoom}
-    [*Manual*]({{ site.baseurl }}{% link configuration/catalog/catalog.md %})
+    ![]({% link images/images/config-catalog-catalog-layered-navigation-manual.png %}){: .zoom}
+    [*Manual*]({% link configuration/catalog/catalog.md %})
 
 1. When complete, tap <span class="btn"> Save Config </span>.

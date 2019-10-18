@@ -6,7 +6,7 @@ The Klarna Merchant Portal makes it easy to manage orders, view transactions, an
 
 Orders are captured with shipping details from the Magento Admin. Klarna also supports post order processing for events such as cancellations, refunds, and fraud.
 
-![Klarna Merchant Portal]({{ site.baseurl }}{% link images/images/payments-klarna-dashboard-playground-env.png %}){: .zoom}
+![Klarna Merchant Portal]({% link images/images/payments-klarna-dashboard-playground-env.png %}){: .zoom}
 _Klarna Merchant Portal_
 
 ## To manage orders:
@@ -30,7 +30,7 @@ _Klarna Merchant Portal_
    - Captured
    - Cancelled
 
-   ![Show]({{ site.baseurl }}{% link images/images/payments-klarna-portal-orders-show-uncaptured.png %}){: .zoom}
+   ![Show]({% link images/images/payments-klarna-portal-orders-show-uncaptured.png %}){: .zoom}
    _Show_
 
 1. To find a specific order, enter any of the following into the **Search for order** box:
@@ -42,9 +42,9 @@ _Klarna Merchant Portal_
 
 1. To view the order detail, click the linked **Klarna reference number** in the first column.
 
-   The amount of detail that is included in the report depends on your configuration. For example, if [Fixed Product Taxes]({{ site.baseurl }}{% link tax/fixed-product-tax.md %}) are enabled and applicable to the order, the amount appears in the product line item.
+   The amount of detail that is included in the report depends on your configuration. For example, if [Fixed Product Taxes]({% link tax/fixed-product-tax.md %}) are enabled and applicable to the order, the amount appears in the product line item.
 
-   ![Order Detail]({{ site.baseurl }}{% link images/images/payments-klarna-portal-order-detail.png %}){: .zoom}
+   ![Order Detail]({% link images/images/payments-klarna-portal-order-detail.png %}){: .zoom}
    _Order Detail_
 
 ### Export Orders
@@ -53,7 +53,7 @@ Tap <span class="btn">Export all (CSV)</span>.
 
 Look for the export file in your browser’s downloads list. Then, open the file in a spreadsheet application.
 
-![Exported Orders in Excel]({{ site.baseurl }}{% link images/images/payments-klarna-portal-orders-exported-data.png %}){: .zoom}
+![Exported Orders in Excel]({% link images/images/payments-klarna-portal-orders-exported-data.png %}){: .zoom}
 _Exported Orders in Excel_
 
 ## Post Processing Events

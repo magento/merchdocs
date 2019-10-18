@@ -10,7 +10,7 @@ Use the Account option on the Settings menu to update your information and setti
 
 1. In the menu, choose **Account**.
 
-    ![]({{ site.baseurl }}{% link images/images/engagement-cloud-account.png %}){: .zoom}
+    ![]({% link images/images/engagement-cloud-account.png %}){: .zoom}
     *Account*
 
 1. On the Account page, choose the **Billing details** tab.

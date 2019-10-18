@@ -12,7 +12,7 @@ If Discard Subsequent Rules is set to Yes, the rules with lower priority (higher
 
 For example, let’s say we have three pricing rules set up:
 
-| Rule Name | [Priority]({{ site.baseurl }}{% link configuration/scope.md %}){: .Scope} | Discard Subsequent Rule |
+| Rule Name | [Priority]({% link configuration/scope.md %}){: .Scope} | Discard Subsequent Rule |
 |----------|
 | 1. 10% off sale products | 1 | No |
 | 2. $2 off sale products | 2 | Yes |
@@ -222,7 +222,7 @@ Final price after the standard pricing rule is applied: $13.75 + $5.00 = $18.75
 
 In this example, we have chosen to define our most competitive price by looking at our Amazon competitor’s lowest price who also have 95% positive feedback and a minimum feedback count of 1,000 merchant reviews.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-price-adjustment-example.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-price-adjustment-example.png %}){: .zoom}
 _Price Adjustment Example_
 
 After running this search based on these parameters, our competitive price comes back at $25.

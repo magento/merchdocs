@@ -4,7 +4,7 @@ title: Printing Credit Memos
 
 To print or view the completed credit memo, you must have a PDF reader installed on your computer. You can download [Adobe Reader][1]{: target="_blank"} at no charge.
 
-![]({{ site.baseurl }}{% link images/images/sales-credit-memos-print.png %}){: .zoom}
+![]({% link images/images/sales-credit-memos-print.png %}){: .zoom}
 _Credit Memos_
 
 ## To print a credit memo:
@@ -21,7 +21,7 @@ _Credit Memos_
 
    - Click **Print**.
 
-       ![]({{ site.baseurl }}{% link images/images/sales-credit-memo-view-print.png %}){: .zoom}
+       ![]({% link images/images/sales-credit-memo-view-print.png %}){: .zoom}
        _Print Credit Memo_
 
    **Method 2: Print multiple credit memos**

@@ -10,18 +10,18 @@ When the Terms and Conditions option is enabled, customers must select a checkbo
 
 1. In the panel on the left under **Sales**, choose **Checkout**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Checkout Options** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Checkout Options** section.
 
     * Make sure that **Enable Onepage Checkout** is set to “Yes”. Otherwise, the Terms and Conditions checkbox does not appear during checkout.
     * Set **Enable Terms and Conditions** to “Yes”.
 
     <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({{ site.baseurl }}{% link images/images/config-sales-checkout-checkout-options.png %}){: .zoom}
-    [*Checkout Options*]({{ site.baseurl }}{% link configuration/sales/checkout.md %})
+    ![]({% link images/images/config-sales-checkout-checkout-options.png %}){: .zoom}
+    [*Checkout Options*]({% link configuration/sales/checkout.md %})
     <!--{% endif %}-->
     <!--{% if "Default.EE-B2B" contains site.edition %}-->
-    ![]({{ site.baseurl }}{% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
-    [*Checkout Options*]({{ site.baseurl }}{% link configuration/sales/checkout.md %})
+    ![]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
+    [*Checkout Options*]({% link configuration/sales/checkout.md %})
     <!--{% endif %}-->
 
 1. Change the settings to enable the Terms and Conditions acknowledgement as a checkout requirement:
@@ -33,7 +33,7 @@ When the Terms and Conditions option is enabled, customers must select a checkbo
 
 3. When prompted to update the cache, click the **Cache Management** link. Then, refresh the invalid cache.
 
-    ![]({{ site.baseurl }}{% link images/images/msg-cache-management.png %}){: .zoom}
+    ![]({% link images/images/msg-cache-management.png %}){: .zoom}
     *Refresh Cache*
 
 ## Step 2: Describe Your Terms and Conditions
@@ -59,7 +59,7 @@ When the Terms and Conditions option is enabled, customers must select a checkbo
 
 1. (Optional) Enter the **Content Height (css)**, in pixels, to determine the height of the text box used to display the terms and conditions statement during checkout. For example, if you want the text box to be one inch high, enter 96, which is the equivalent value in pixels.
 
-    ![]({{ site.baseurl }}{% link images/images/stores-settings-terms-and-conditions-new.png %}){: .zoom}
+    ![]({% link images/images/stores-settings-terms-and-conditions-new.png %}){: .zoom}
     *New Condition*
 
 1. When complete, tap <span class="btn">Save Condition</span>.

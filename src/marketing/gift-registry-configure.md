@@ -17,9 +17,9 @@ Magento has predefined templates for each of these email messages that can be cu
 
 1. In the panel on the left, under **Customers**, choose **Gift Registry**
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **General Options** section, and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **General Options** section, and do the following:
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/config-customers-gift-registry-general-options.png -%}){: .zoom}
+    ![]({% link images/images-ee/config-customers-gift-registry-general-options.png %}){: .zoom}
     *General Options*
 
     * The Gift Registry is enabled by default. If necessary, set **Enable Gift Registry** to “Yes".
@@ -28,18 +28,18 @@ Magento has predefined templates for each of these email messages that can be cu
 
 ## Step 2. Configure Email Notifications
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Owner Notification** section, and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Owner Notification** section, and do the following:
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/config-customers-gift-registry-owner-notification.png -%}){: .zoom}
+    ![]({% link images/images-ee/config-customers-gift-registry-owner-notification.png %}){: .zoom}
     *Owner Notification*
 
 1. Choose the **Email Template** that notifies gift registry owners when their registries are created.
 
-1. Choose the [store contact]({{ site.baseurl }}{%- link stores/store-email-addresses.md -%}) that appears as the **Email Sender** of the message.
+1. Choose the [store contact]({% link stores/store-email-addresses.md -%}) that appears as the **Email Sender** of the message.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Gift Registry Sharing** section, and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Gift Registry Sharing** section, and do the following:
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/config-customers-gift-registry-gift-registry-sharing.png -%}){: .zoom}
+    ![]({% link images/images-ee/config-customers-gift-registry-gift-registry-sharing.png %}){: .zoom}
     *Gift Registry Sharing*
 
     * Choose the **Email Template** that notifies gift registry recipients when a registry is shared with them.
@@ -48,9 +48,9 @@ Magento has predefined templates for each of these email messages that can be cu
 
     * In the **Maximum Sent Emails Threshold** field, enter the maximum number of emails that can be sent at one time.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Gift Registry Update** section, and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Gift Registry Update** section, and do the following:
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/config-customers-gift-registry-gift-registry-update.png -%}){: .zoom}
+    ![]({% link images/images-ee/config-customers-gift-registry-gift-registry-update.png %}){: .zoom}
     *Gift Registry Update*
 
     * Choose the **Email Template** that notifies gift registry owners of changes to the registry.

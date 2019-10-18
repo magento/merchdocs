@@ -6,7 +6,7 @@ Tax rates generally apply to transactions that take place within a specific geog
 
 Store tax is calculated based on the store’s address. The actual customer tax for an order is calculated after the customer completes the order information. Magento then calculates the tax based upon the tax configuration of the store.
 
-![]({{ site.baseurl }}{% link images/images/tax-zones-rates.png %}){: .zoom}
+![]({% link images/images/tax-zones-rates.png %}){: .zoom}
 _Tax Zones and Rates_
 
 ## To define a new tax rate
@@ -25,7 +25,7 @@ _Tax Zones and Rates_
 
     - Select the **Zip/Post is Range** checkbox. Then in the _Range From_ and _Range To_ fields, enter the first and last ZIP or postal code to define the range.
 
-        ![]({{ site.baseurl }}{% link images/images/tax-rate-new-zip-post-range.png %}){: .zoom}
+        ![]({% link images/images/tax-rate-new-zip-post-range.png %}){: .zoom}
         _ZIP/Post is Range_
 
     - Choose the **State** where the tax rate applies.
@@ -36,7 +36,7 @@ _Tax Zones and Rates_
 
 1. When complete, click <span class="btn">Save Rate</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/tax-rate-new.png %}){: .zoom}
+    ![]({% link images/images/tax-rate-new.png %}){: .zoom}
     _New Tax Rate_
 
 ## To edit an existing tax rate:
@@ -45,7 +45,7 @@ _Tax Zones and Rates_
 
 1. Find the tax rate in the _Tax Zones and Rates_ grid, and open the record in edit mode.
 
-    If there are many rates in the list, use the [filter controls]({{ site.baseurl }}{% link stores/admin-grid-controls.md %}) to find the rate you need.
+    If there are many rates in the list, use the [filter controls]({% link stores/admin-grid-controls.md %}) to find the rate you need.
 
 1. Make the necessary changes to the **Tax Rate Information**.
 

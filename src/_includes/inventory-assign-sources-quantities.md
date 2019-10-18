@@ -7,7 +7,7 @@ For Multi Source merchants using Inventory Management, scroll down to the Source
 
 1. Browse or search for a source you want to add. Select the checkbox next to the source(s) you want to add for the product.
 
-    ![]({{ site.baseurl }}{% link images/images/inventory/inventory-product-assign-sources.png %}){: .zoom}
+    ![]({% link images/images/inventory/inventory-product-assign-sources.png %}){: .zoom}
     *Assign sources to the product*
 
 1. Click **Done** to add the sources.
@@ -24,5 +24,5 @@ For Multi Source merchants using Inventory Management, scroll down to the Source
     | Default Notify Quantity | Select the **Notify Quantity Use Default** checkbox. Magento checks and uses the setting in Advanced Inventory or global Store configuration. |
     {:style="table-layout:auto"}
 
-    ![]({{ site.baseurl }}{% link images/images/inventory/inventory-product-quantities.png %}){: .zoom}
+    ![]({% link images/images/inventory/inventory-product-quantities.png %}){: .zoom}
     *Update Product Quantities per Source*

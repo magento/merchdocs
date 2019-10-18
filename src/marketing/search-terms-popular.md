@@ -6,7 +6,7 @@ The Search Terms link in the footer of your store displays the search terms used
 
 By default, Popular Search Terms is enabled as a search engine optimization tool, but has no direct connection to the catalog search process. Because the Search Terms page is indexed by search engines, any terms on the page can help improve your search engine ranking and the visibility of your store. The URL of the Popular Search Terms page is: `mystore.com/search/term/popular/`
 
-![]({{ site.baseurl }}{%- link images/images/store-front-search-terms-yoga-pants.png -%}){: .zoom}
+![]({% link images/images/store-front-search-terms-yoga-pants.png %}){: .zoom}
 *Popular Search Terms*
 
 ## To configure Popular Search Terms
@@ -15,14 +15,14 @@ By default, Popular Search Terms is enabled as a search engine optimization tool
 
 1. In the panel on the left under **Catalog**, choose **Catalog**.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Search Engine Optimization** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Search Engine Optimization** section.
 
 1. Clear the **Use system value** checkbox. Then, set **Popular Search Terms** as needed.
 
 1. When complete, tap <span class="btn">Save Config</span>.
 
-![]({{ site.baseurl }}{%- link images/images/config-catalog-catalog-search-engine-optimization.png -%}){: .zoom} 
-[*Search Engine Optimization*]({{ site.baseurl }}{%- link configuration/catalog/catalog.md -%})
+![]({% link images/images/config-catalog-catalog-search-engine-optimization.png %}){: .zoom} 
+[*Search Engine Optimization*]({% link configuration/catalog/catalog.md -%})
 
 {: .bs-callout .bs-callout-info}
-You can further configure the caching of popular searches and additional options for your configured search engine [MySQL]({{ site.baseurl }}{%- link catalog/search-mysql.md -%}) or [Elasticsearch]({{ site.baseurl }}{%- link catalog/search-elasticsearch.md -%}).
+You can further configure the caching of popular searches and additional options for your configured search engine [MySQL]({% link catalog/search-mysql.md -%}) or [Elasticsearch]({% link catalog/search-elasticsearch.md -%}).

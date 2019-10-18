@@ -12,7 +12,7 @@ DHL offers integrated international services and tailored, customer-focused solu
 
 1. In _Sales_ section in the left panel, choose **Shipping Methods**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **DHL** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **DHL** section. Then, do the following:
 
    * Set **Enabled for Checkout** to "Yes".
    *  In the **Title** field, type a name that will be used to refer to this shipping method during checkout.
@@ -22,8 +22,8 @@ DHL offers integrated international services and tailored, customer-focused solu
       * Password
       * Account Number
 
-![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-dhl-account-settings.png %}){: .zoom}
-_[DHL Account Settings]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})_
+![]({% link images/images/config-sales-shipping-methods-dhl-account-settings.png %}){: .zoom}
+_[DHL Account Settings]({% link configuration/sales/shipping-methods.md %})_
 
 ## Step 2; Enter Package Description and Handling Fee
 
@@ -60,14 +60,14 @@ _[DHL Account Settings]({{ site.baseurl }}{% link configuration/sales/shipping-m
 
       If you choose **Specific**, enter the **Height**, **Depth**, and **Width** of the package in centimeters.
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-dhl-package-settings.png %}){: .zoom}
-    _[DHL Package Settings]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})_
+    ![]({% link images/images/config-sales-shipping-methods-dhl-package-settings.png %}){: .zoom}
+    _[DHL Package Settings]({% link configuration/sales/shipping-methods.md %})_
 
 ## Step 3: Specify Allowed Shipping Methods
 
 1. In the **Allowed Methods** list, choose each shipment method that you want to be available to customers. (Hold the Ctrl key down to select multiple options.)
 
-      To display the correct list of shipping methods, you must first specify the [Country of Origin]({{ site.baseurl }}{% link configuration/sales/shipping-settings.md %}).
+      To display the correct list of shipping methods, you must first specify the [Country of Origin]({% link configuration/sales/shipping-settings.md %}).
 
 2. In the **Ready Time** field, enter the number of hours after an order is submitted that a package is ready to ship.
 
@@ -85,8 +85,8 @@ _[DHL Account Settings]({{ site.baseurl }}{% link configuration/sales/shipping-m
 
     * In the next **Free Shipping Amount Threshold** field, enter the minimum amount for an order to qualify for free shipping.
 
-      ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-dhl-allowed-methods.png %}){: .zoom}
-      _[DHL Allowed Methods]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})_
+      ![]({% link images/images/config-sales-shipping-methods-dhl-allowed-methods.png %}){: .zoom}
+      _[DHL Allowed Methods]({% link configuration/sales/shipping-methods.md %})_
 
 ## Step 4: Specify Applicable Countries
 
@@ -108,5 +108,5 @@ _[DHL Account Settings]({{ site.baseurl }}{% link configuration/sales/shipping-m
 
 5. Click  **Save Config**.
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-dhl-applicable-countries.png %}){: .zoom}
-    *[DHL Applicable Countries]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})*
+    ![]({% link images/images/config-sales-shipping-methods-dhl-applicable-countries.png %}){: .zoom}
+    *[DHL Applicable Countries]({% link configuration/sales/shipping-methods.md %})*

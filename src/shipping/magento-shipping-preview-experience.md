@@ -38,14 +38,14 @@ Personas can be created directly from the Experience Preview pane.
         - Qty
             (To add more items, click the + icon.)
 
-    ![]({{ site.baseurl }}{% link images/images/magento-shipping-preview-experiences-example-persona.png %}){: .zoom}
+    ![]({% link images/images/magento-shipping-preview-experiences-example-persona.png %}){: .zoom}
     _Example Persona_
 
 1.	Click **Save**. The preview is triggered with the new persona automatically selected.
 
 1.	The preview is triggered with the new persona automatically selected. Based on your shipping configuration, possible and excluded carriers display in the preview.
 
-![]({{ site.baseurl }}{% link images/images/magento-shipping-preview-experiences-results.png %}){: .zoom}
+![]({% link images/images/magento-shipping-preview-experiences-results.png %}){: .zoom}
 _Example Preview_
 
 {: .bs-callout .bs-callout-info}

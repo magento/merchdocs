@@ -5,7 +5,7 @@ title: Gift Registry Information
 
 Customers can create and manage gift registries from their accounts. The account dashboard includes the information that is needed for the type of registry.
 
-![]({{ site.baseurl }}{%- link images/images-ee/storefront-gift-registry-create-baby-info.png -%}){: .zoom}
+![]({% link images/images-ee/storefront-gift-registry-create-baby-info.png %}){: .zoom}
 *Gift Registry Information*
 
 |Section|Description|

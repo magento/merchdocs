@@ -2,26 +2,26 @@
 title: Buy X Get Y Free
 ---
 
-This example shows how to set up a[ cart price rule]({{ site.baseurl }}{%- link marketing/price-rules-cart.md -%}) for a “Buy X, Get Y Free” promotion. The format of the discount is as follows:
+This example shows how to set up a[ cart price rule]({% link marketing/price-rules-cart.md -%}) for a “Buy X, Get Y Free” promotion. The format of the discount is as follows:
 
     Buy X quantity of product, get Y quantity for free.
 
 ## Step 1. Create a Cart Price Rule
 
-Complete [Step 1]({{ site.baseurl }}{%- link marketing/price-rules-cart.md -%}) of the cart price rule instructions to complete the rule information.
+Complete [Step 1]({% link marketing/price-rules-cart.md -%}) of the cart price rule instructions to complete the rule information.
 
 ## Step 2. Define the Conditions
 
-Complete [Step 2]({{ site.baseurl }}{%- link marketing/price-rules-cart.md -%}) of the cart instructions to define the conditions for the price rule. 
+Complete [Step 2]({% link marketing/price-rules-cart.md -%}) of the cart instructions to define the conditions for the price rule. 
 
 This is the first of two conditions that can be added to the rule, and determines when the rule is triggered. It can be based upon a combination of product attributes, products, {%- if "Default.CE Only" contains site.edition -%}and {%- endif -%}cart attributes{%- if "Default.CE Only" contains site.edition -%}.{%- endif -%}{%- if "Default.EE-B2B" contains site.edition -%}, and customer segments.{%- endif -%} If left blank, the rule is triggered for every cart.
 
-![]({{ site.baseurl }}{%- link images/images/price-rule-cart-buy-x-get-y-condition-default.png -%}){: .zoom}
+![]({% link images/images/price-rule-cart-buy-x-get-y-condition-default.png %}){: .zoom}
 *Condition*
 
 ## Step 3. Define the Actions
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Actions** section, and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Actions** section, and do the following:
 
     * Set **Apply** to “Buy X get Y free (discount amount is Y)”.
 
@@ -33,12 +33,12 @@ This is the first of two conditions that can be added to the rule, and determine
 
     * If you want to prevent other discounts from being applied to the purchase, set **Discard subsequent rules** to "Yes".
 
-        ![]({{ site.baseurl }}{%- link images/images/price-rule-cart-buy-3-get-1-actions.png -%}){: .zoom}
+        ![]({% link images/images/price-rule-cart-buy-3-get-1-actions.png %}){: .zoom}
         *Buy 3 Get 1 Free*
 
 1. To apply the rule only to specific items in the cart, complete the condition to describe the cart item(s) and/or product attribute(s) that are required for the promotion. The following example uses the SKU to apply the rule to all associated variations of a configurable product.
 
-    ![]({{ site.baseurl }}{%- link images/images/price-rule-cart-buy-3-get-1-actions-condition.png -%}){: .zoom}
+    ![]({% link images/images/price-rule-cart-buy-3-get-1-actions-condition.png %}){: .zoom}
     *Condition for Cart Items*
 
 1. To include **Free Shipping**, choose one of the following options:
@@ -50,7 +50,7 @@ This is the first of two conditions that can be added to the rule, and determine
 
 ## Step 4. Complete the Label
 
-Complete [Step 4]({{ site.baseurl }}{%- link marketing/price-rules-cart.md -%}) of the cart price rule instructions to enter the label that appears during checkout.
+Complete [Step 4]({% link marketing/price-rules-cart.md -%}) of the cart price rule instructions to enter the label that appears during checkout.
 
 ## Step 5: Save and Test the Rule
 

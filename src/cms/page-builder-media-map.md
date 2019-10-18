@@ -3,13 +3,13 @@ conditions: Default.EE-B2B
 title: Map
 ---
 
-Use the Map content type to add a map from [Google Maps Platform][1] to the stage. For example, you might add a map to a block, and then add the block to the [About Us]({{ site.baseurl }}{% link cms/pages-core.md %}) and [Contact Us]({{ site.baseurl }}{% link stores/contact-us.md %}) pages.
+Use the Map content type to add a map from [Google Maps Platform][1] to the stage. For example, you might add a map to a block, and then add the block to the [About Us]({% link cms/pages-core.md %}) and [Contact Us]({% link stores/contact-us.md %}) pages.
 
 To get the most from Google Maps Platform, you can customize the map, highlight your store location(s), and use Google [Places][2] to add rich information about your store to all Google maps.
 
 Before adding a map, you must first open an [account][3] for a free trial of Google Maps Platform. The free trial lasts for twelve months and includes a $300 credit. If you use up your credit, Google will not bill your account without your permission.
 
-![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-maps-storefront.png %}){: .zoom}
+![]({% link images/images-ee/page-builder-media-maps-storefront.png %}){: .zoom}
 _Map with Location_
 
 ## Step 1: Configure Google Maps
@@ -18,8 +18,8 @@ _Map with Location_
 
 1. In the panel on the left under **General**, choose **Content Management** and scroll down to the _Advanced Content Tools_ section. Then, complete the applicable instructions:
 
-    ![]({{ site.baseurl }}{% link images/images/config-general-content-management-advanced-content-tools.png %}){: .zoom}
-    [_Advanced Content Tools_]({{ site.baseurl }}{% link configuration/general/content-management.md %})
+    ![]({% link images/images/config-general-content-management-advanced-content-tools.png %}){: .zoom}
+    [_Advanced Content Tools_]({% link configuration/general/content-management.md %})
 
     **Have a Google Maps Key**
 
@@ -53,22 +53,22 @@ _Map with Location_
 
 1. In the Page Builder panel, expand the **Media** section. Then, drag a **Map** placeholder to the stage.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-map-drag.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-map-drag.png %}){: .zoom}
     _Drag Map to Stage_
 
     If Google Maps Platform is configured for your store, a map appears for your store location.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-tutorial2-google-map.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-tutorial2-google-map.png %}){: .zoom}
     _Google Maps_
 
     If Google Maps Platform isn’t yet configured for your store, a placeholder map appears instead.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-tutorial2-media-map-not-configured.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-tutorial2-media-map-not-configured.png %}){: .zoom}
     _Google Maps Placeholder_
 
 ## Step 3: Add a Custom Location
 
-1. Hover over the map container. Then, choose **Settings** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox.
+1. Hover over the map container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox.
 
 1. In the upper-right corner of the Edit Map page, click <span class="btn">Add Location</span>.
 
@@ -78,30 +78,30 @@ _Map with Location_
 
     If necessary, use one of the following methods to get the coordinates:
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-maps-settings-add-location-coordinates.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-maps-settings-add-location-coordinates.png %}){: .zoom}
     _Map Coordinates_
 
     **Method 1:** Copy from URL
 
     - In a new browser window, go to [Google Maps][5].
 
-    - In the upper-left corner, enter the address in the **Search** box and click **Search** (![]({{ site.baseurl }}{% link images/images/btn-search.png %}){: .Inline}).
+    - In the upper-left corner, enter the address in the **Search** box and click **Search** (![]({% link images/images/btn-search.png %}){: .Inline}).
 
     - Copy the coordinates in the URL and paste them into a notepad.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-maps-settings-add-location-coordinates-url.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-media-maps-settings-add-location-coordinates-url.png %}){: .zoom}
         _Copy Coordinates from URL_
 
     **Method 2:** Copy from “What’s here?”
 
     - Right-click the red pin that marks the location on the map. Then on the menu, choose **What’s here?**
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-maps-settings-add-location-pin-menu.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-media-maps-settings-add-location-pin-menu.png %}){: .zoom}
         _What’s here?_
 
     - In the popup label, copy the text, including the coordinates and paste the text into a notepad.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-maps-settings-add-location-label-coordinates.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-media-maps-settings-add-location-label-coordinates.png %}){: .zoom}
         _Popup with Coordinates_
 
 1. Return to the Add Location page and enter the numbers, without the comma, in the two **Coordinates** fields. Then, enter as much of the remaining information that you want to be available on the map.
@@ -110,7 +110,7 @@ _Map with Location_
 
     The new location appears in the map and in the map location grid on the Edit Map page.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-maps-settings-add-location-grid.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-maps-settings-add-location-grid.png %}){: .zoom}
     _Location Grid_
 
 1. On the **Save** menu, choose **Save & Close**.
@@ -128,7 +128,7 @@ Use the Google Maps Platform Styling Wizard to apply a one of six predefined the
 
 1. In the note under the **Google Maps Style** field, click [Create Map Style][6].
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-maps-google-platform-maps-styling-wizard.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-maps-google-platform-maps-styling-wizard.png %}){: .zoom}
     [_Google Platform Maps Styling Wizard_][6]
 
 1. Click <span class="btn">Create a Style</span>. Then, do the following:
@@ -137,7 +137,7 @@ Use the Google Maps Platform Styling Wizard to apply a one of six predefined the
 
     - Under **Select theme**, choose one of the predefined themes.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-maps-google-platform-maps-styling-wizard-select-theme.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-media-maps-google-platform-maps-styling-wizard-select-theme.png %}){: .zoom}
         _Select a Predefined Theme_
 
     - At the bottom of the panel, click **More Options**. Choose the **Feature type** and **Element type** that you want to style. Then in the **Stylers** column, configure the properties as needed.
@@ -146,7 +146,7 @@ Use the Google Maps Platform Styling Wizard to apply a one of six predefined the
 
        You can export the completed style as JSON code or as a URL. Follow the instructions for your application.
 
-       ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-maps-google-platform-maps-styling-wizard-export-style.png %}){: .zoom}
+       ![]({% link images/images-ee/page-builder-media-maps-google-platform-maps-styling-wizard-export-style.png %}){: .zoom}
        _Export Style_
 
     **JSON**
@@ -169,7 +169,7 @@ Use the Google Maps Platform Styling Wizard to apply a one of six predefined the
 
 ## To change the grid size
 
-The grid size determines the size of the map related to a [column]({{ site.baseurl }}{% link cms/page-builder-layout-column.md %}) on the Page Builder stage. By default, the map is 12 columns wide, with a maximum of 16 columns. To change the grid size, do the following:
+The grid size determines the size of the map related to a [column]({% link cms/page-builder-layout-column.md %}) on the Page Builder stage. By default, the map is 12 columns wide, with a maximum of 16 columns. To change the grid size, do the following:
 
 1. In the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -179,7 +179,7 @@ The grid size determines the size of the map related to a [column]({{ site.baseu
 
     - Clear the checkbox after the **Maximum Column Grid Size** field. Then, enter a new value for the default maximum grid size.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/config-general-content-management-advanced-content-tools-grid-size.png %}){: .zoom}
+    ![]({% link images/images-ee/config-general-content-management-advanced-content-tools-grid-size.png %}){: .zoom}
     _Column Grid Size_
 
 1. When complete, click <span class="btn">Save Config</span>.

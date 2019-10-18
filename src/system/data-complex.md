@@ -4,13 +4,13 @@ title: Complex Data
 
 The term complex data refers to the data that is associated with multiple product options. The following product types use data that originates from separate products to create product variations and multiple options.
 
--  [Configurable]({{ site.baseurl }}{% link catalog/product-create-configurable.md %})
--  [Grouped]({{ site.baseurl }}{% link catalog/product-create-grouped.md %})
--  [Bundle]({{ site.baseurl }}{% link catalog/product-create-bundle.md %})
+-  [Configurable]({% link catalog/product-create-configurable.md %})
+-  [Grouped]({% link catalog/product-create-grouped.md %})
+-  [Bundle]({% link catalog/product-create-bundle.md %})
 
 If you were to export a configurable product, you would find the standard attributes that make up a simple product, plus the additional attributes that are needed to manage complex data.
 
-![]({{ site.baseurl }}{% link images/images/data-exported-configurable-product.png %}){: .zoom}
+![]({% link images/images/data-exported-configurable-product.png %}){: .zoom}
 _Exported Configurable Product Data_
 
 ## Complex Data Attributes

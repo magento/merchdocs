@@ -5,7 +5,7 @@ title: Applying Store Credit
 
 Administrators can view the credit balance and history from the account of a customer, and also apply store credit to a purchase.
 
-![]({{ site.baseurl }}{% link images/images-ee/store-credit-balance-history.png %}){: .zoom}
+![]({% link images/images-ee/store-credit-balance-history.png %}){: .zoom}
 _Customer Credit Balance and History_
 
 ## To view the credit balance:
@@ -20,5 +20,5 @@ _Customer Credit Balance and History_
 
 1. In the panel on the left, choose **Store Credit**.
 
-![]({{ site.baseurl }}{% link images/images-ee/store-credit-balance.png %}){: .zoom}
+![]({% link images/images-ee/store-credit-balance.png %}){: .zoom}
 _Store Credit Balance_

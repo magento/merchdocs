@@ -5,7 +5,7 @@ group: getting-started
 
 Your store has a copyright notice in the footer of each page. As a best practice, the copyright notice should include the current year, and identify your company as the legal owner of the content on the site.
 
-![]({{ site.baseurl }}{% link images/images/storefront-footer-copyright.png %}){: .zoom}
+![]({% link images/images/storefront-footer-copyright.png %}){: .zoom}
 _Copyright Notice_
 
 The `&Copy;` character code is used to insert the copyright symbol, as shown in the following examples:
@@ -24,12 +24,12 @@ The `&Copy;` character code is used to insert the copyright symbol, as shown in 
 
 1. In the grid, find the store view that you want to configure. Then, click **Edit** in the _Action_ column and do the following:
 
-   ![]({{ site.baseurl }}{% link images/images/design-configuration.png %}){: .zoom}
-   [_Design Configuration_]({{ site.baseurl }}{% link design/configuration.md %})
+   ![]({% link images/images/design-configuration.png %}){: .zoom}
+   [_Design Configuration_]({% link design/configuration.md %})
 
-   * Under **Other Settings**, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Footer** section.
+   * Under **Other Settings**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Footer** section.
 
-      ![]({{ site.baseurl }}{% link images/images/design-configuration-footer.png %}){: .zoom}
+      ![]({% link images/images/design-configuration-footer.png %}){: .zoom}
       _Footer_
 
    * In the **Copyright** box, enter the copyright notice that you want to appear in the footer of each page. Use the `&Copy;` character code to insert a copyright symbol.

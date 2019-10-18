@@ -10,6 +10,6 @@ B2B merchants often require capabilities such as flexible bulk and per-unit pric
 
 To learn about Magento Commerce for B2B from a technical perspective, see the [B2B Developer Guide][1]{: target="_blank"}.
 
-![Example of company structure]({{ site.baseurl }}{% link images/images-b2b/diagram-company-structure.png %}){: .zoom}
+![Example of company structure]({% link images/images-b2b/diagram-company-structure.png %}){: .zoom}
 
 [1]: http://devdocs.magento.com/guides/v2.3/b2b/bk-b2b.html

@@ -6,10 +6,10 @@ redirect_from:
 
 Magento supports a wide range of shipping methods and carriers. In this section you will learn how to set up shipping methods that do not require an account with a third-party provider:
 
-* [Free Shipping]({{ site.baseurl }}{% link shipping/shipping-free.md %})
+* [Free Shipping]({% link shipping/shipping-free.md %})
 
-* [Flat Rate]({{ site.baseurl }}{% link shipping/shipping-flat-rate.md %})
+* [Flat Rate]({% link shipping/shipping-flat-rate.md %})
 
-* [Table Rates]({{ site.baseurl }}{% link shipping/shipping-table-rate.md %})
+* [Table Rates]({% link shipping/shipping-table-rate.md %})
 
-* [Dimensional Weight]({{ site.baseurl }}{% link shipping/weight-dimensional.md %})
+* [Dimensional Weight]({% link shipping/weight-dimensional.md %})

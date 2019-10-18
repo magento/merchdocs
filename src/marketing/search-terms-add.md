@@ -4,7 +4,7 @@ title: Adding Search Terms
 
 As you learn new words that people use to search for products in your catalog, you can add them to your search terms list to direct people to the most closely matching products in your catalog.
 
-![]({{ site.baseurl }}{%- link images/images/search-terms.png -%}){: .zoom}
+![]({% link images/images/search-terms.png %}){: .zoom}
 *Search Terms*
 
 ## To add a new search term
@@ -13,7 +13,7 @@ As you learn new words that people use to search for products in your catalog, y
 
 1. Tap <span class="btn">Add New Search Term</span>. Then, do the following:
 
-    ![]({{ site.baseurl }}{%- link images/images/search-terms-information.png -%}){: .zoom}
+    ![]({% link images/images/search-terms-information.png %}){: .zoom}
     *General Information*
 
     * Under General Information in the **Search Query** box, type the word or phrase that you want to add as a new search term.

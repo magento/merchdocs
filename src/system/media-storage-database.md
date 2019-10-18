@@ -14,7 +14,7 @@ By default, all images, compiled CSS files, and compiled JavaScript files of the
 
 1. **System locates media in database**.—A PHP script transfers the files from the database to the file system, and sent to the customer’s browser. The browser request for media triggers the script to run as follows:
 
-    - If web server [rewrites]({{ site.baseurl }}{% link marketing/url-rewrite.md %}) are enabled for Magento and supported by the server, the PHP script runs only when the requested media is not found in the file system.
+    - If web server [rewrites]({% link marketing/url-rewrite.md %}) are enabled for Magento and supported by the server, the PHP script runs only when the requested media is not found in the file system.
     - If web server rewrites are disabled for Magento, or not supported by the server, the PHP script runs anyway, even if the required media is available in the file system.
 
 ### To use a database for media storage
@@ -27,10 +27,10 @@ By default, all images, compiled CSS files, and compiled JavaScript files of the
 
 1. In the upper-left corner set **Store View** to “Default Config,” to apply the configuration at the global level.
 
-    Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Storage Configuration for Media** section. Then, do the following:
+    Expand ![]({% link images/images/btn-expand.png %}) the **Storage Configuration for Media** section. Then, do the following:
 
-    ![]({{ site.baseurl }}{% link images/images/config-advanced-system-storage-configuration-for-media-database.png %}){: .zoom}
-    [*Storage Configuration for Media*]({{ site.baseurl }}{% link configuration/advanced/system.md %})(Database)
+    ![]({% link images/images/config-advanced-system-storage-configuration-for-media-database.png %}){: .zoom}
+    [*Storage Configuration for Media*]({% link configuration/advanced/system.md %})(Database)
 
     - **Media Storage**—Set to `Database`.
 

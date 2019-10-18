@@ -6,7 +6,7 @@ title: Google AdWords
 
 Conversion tracking shows how many ad clicks lead to a sale or other valuable action. The "Success" page that appears to your customer after an order has been submitted is used to track conversions because it appears only after a sale. After completing the Google AdWords configuration for your store, there is no need to copy the conversion tracking script to the "Success" page, because Magento already has the necessary information. To learn more, see [Google AdWorlds Help][2]{: target="_blank"}.
 
-![]({{ site.baseurl }}{%- link images/images/google-adwords-magento-ad.png -%}){: .zoom}
+![]({% link images/images/google-adwords-magento-ad.png %}){: .zoom}
 *Magento Ad in Google Search Results*
 
 ## Step 1. Create a Google AdWords Campaign
@@ -57,7 +57,7 @@ Conversion tracking shows how many ad clicks lead to a sale or other valuable ac
 
     * When prompted to confirm scope switching, tap <span class="btn">OK</span>.
 
-1. In the panel on the left, under **Sales**, choose **Google API**. Then, expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Google AdWords** section and do the following:
+1. In the panel on the left, under **Sales**, choose **Google API**. Then, expand ![]({% link images/images/btn-expand.png %}) the **Google AdWords** section and do the following:
 
     * If necessary, clear the **Use Website** checkbox for each setting to be changed.
 
@@ -65,8 +65,8 @@ Conversion tracking shows how many ad clicks lead to a sale or other valuable ac
 
     * Enter the **Conversion ID** from your Google AdWords script.
 
-    ![]({{ site.baseurl }}{%- link images/images/config-sales-google-api-google-adwords.png -%}){: .zoom}
-    [*Google AdWords*]({{ site.baseurl }}{%- link configuration/sales/google-api.md -%})
+    ![]({% link images/images/config-sales-google-api-google-adwords.png %}){: .zoom}
+    [*Google AdWords*]({% link configuration/sales/google-api.md -%})
 
 1. To format the Google Sites Stat notification, do the following:
 

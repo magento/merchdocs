@@ -5,13 +5,13 @@ title: Updating a Customer Profile
 The panel on the left of the Customer Information page includes information about customer activity, such as when the customer last signed in or out of their account, addresses, order statistics, recent orders, shopping cart contents, product reviews, newsletter subscriptions, and so on.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/customer-profile.png %}){: .zoom}
+![]({% link images/images/customer-profile.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/customer-profile.png %}){: .zoom}
+![]({% link images/images-ee/customer-profile.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/customer-profile.png %}){: .zoom}
+![]({% link images/images-ee/customer-profile.png %}){: .zoom}
 <!--{% endif %}-->
 _Customer Profile_
 
@@ -33,7 +33,7 @@ _Customer Profile_
 | <span class="btn">Back</span> | Returns to the Customers page without saving changes. |
 | <span class="btn">Delete Customer</span> | Deletes the customer account.  |
 | <span class="btn">Reset</span> | Resets any unsaved changes in the customer form to their previous values.  |
-| <span class="btn">Create Order</span> | [Creates a new order]({{ site.baseurl }}{% link customers/customer-account-create-order.md %}) that is associated with the customer account.  |
+| <span class="btn">Create Order</span> | [Creates a new order]({% link customers/customer-account-create-order.md %}) that is associated with the customer account.  |
 | <span class="btn">Reset Password</span> | Resets the password of the customer.  |
 | <span class="btn">Force Sign-In</span> | Clears the tokens associated with the customer’s password and provides the administrator access to the account. |
 | <span class="btn">Manage Shopping Cart</span> | Provides access to the shopping cart of a customer. |

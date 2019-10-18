@@ -3,7 +3,7 @@ title: Pre-Setup Tasks
 ---
 
 
-Before starting your [onboarding tasks]({{ site.baseurl }}{% link sales-channels/amazon/amazon-onboarding-home.md %}) with [Store Integration]({{ site.baseurl }}{% link sales-channels/amazon/store-integration.md %}), you must ensure that your Amazon Seller Central account and your Magento account are ready for the integration. To achieve a successful integration and setup, we have outlined some required pre-setup tasks.
+Before starting your [onboarding tasks]({% link sales-channels/amazon/amazon-onboarding-home.md %}) with [Store Integration]({% link sales-channels/amazon/store-integration.md %}), you must ensure that your Amazon Seller Central account and your Magento account are ready for the integration. To achieve a successful integration and setup, we have outlined some required pre-setup tasks.
 
 Every time you set up a new Amazon store, a list of setup tasks is displayed. We recommend that you review and complete these tasks each time you set up a new store.
 
@@ -13,15 +13,15 @@ Every time you set up a new Amazon store, a list of setup tasks is displayed. We
 
 1. Complete and verify each task and configuration setting.
 
-1. When you complete the pre-setup tasks and recommendations, you are ready to set up your Amazon Sales Channel store. Click [**Begin Setup**]({{ site.baseurl }}{% link sales-channels/amazon/store-integration.md %}) on the Pre-Setup Tasks screen.
+1. When you complete the pre-setup tasks and recommendations, you are ready to set up your Amazon Sales Channel store. Click [**Begin Setup**]({% link sales-channels/amazon/store-integration.md %}) on the Pre-Setup Tasks screen.
 
 ## 1. Enable background tasks in Magento.
 
 All products and data synced between Magento and Amazon is managed by cron. When you complete tasks such as add or update listings and receive orders, a cron job sends and receives data between your Magento backend and your Amazon Seller Central account.
 
-- [Enable Magento cron]({{ site.baseurl }}{% link system/cron.md %}).
+- [Enable Magento cron]({% link system/cron.md %}).
 
-- For maximum performance, [set Magento cron]({{ site.baseurl }}{% link configuration/advanced/system.md %}) to run once every five minutes.
+- For maximum performance, [set Magento cron]({% link configuration/advanced/system.md %}) to run once every five minutes.
 
 ## 2. Create your Amazon Seller Central account.
 
@@ -48,7 +48,7 @@ It is also important to ensure that you have configured the following in your Am
 
 During onboarding, Amazon Sales Channel uses product attributes to match your existing Amazon listings (if applicable) to existing products in your Magento catalog. After onboarding, these product attributes are used to publish your Magento catalog items to an Amazon listing and to sync your product data between Magento and Amazon.
 
-To have the highest number of Magento products automatically match with Amazon listings, we recommend creating a set of product attributes for your Magento catalog. Before you set up your Amazon Sales Channel store, we recommend adding Magento product attributes to match these Amazon attributes, for example: ASIN, EAN, ISBN, UPC, or GCID. See [Onboarding: Create a product attribute in Magento]({{ site.baseurl }}{% link sales-channels/amazon/ob-creating-magento-attributes.md %}).
+To have the highest number of Magento products automatically match with Amazon listings, we recommend creating a set of product attributes for your Magento catalog. Before you set up your Amazon Sales Channel store, we recommend adding Magento product attributes to match these Amazon attributes, for example: ASIN, EAN, ISBN, UPC, or GCID. See [Onboarding: Create a product attribute in Magento]({% link sales-channels/amazon/ob-creating-magento-attributes.md %}).
 
 ## 6. Configure your currency and conversion (as needed).
 
@@ -56,7 +56,7 @@ If your Amazon store uses a different currency than is configured for your Magen
 
 ## 7. Create a Product Condition attribute (as needed).
 
-If your Amazon listings contain more than one product condition (new, used, like new, etc), create a Magento attribute and assign condition values. You will need to map this attribute during onboarding to the Amazon Condition product attribute. See [Creating Attributes for Amazon]({{ site.baseurl }}{% link sales-channels/amazon/ob-creating-magento-attributes.md %}).
+If your Amazon listings contain more than one product condition (new, used, like new, etc), create a Magento attribute and assign condition values. You will need to map this attribute during onboarding to the Amazon Condition product attribute. See [Creating Attributes for Amazon]({% link sales-channels/amazon/ob-creating-magento-attributes.md %}).
 
 ## 8. Configure your Amazon Seller Central shipping method.
 
@@ -68,13 +68,13 @@ Once your Amazon account is set up and active, there are several Magento recomme
 
 **Review and note any products you don't want to list on Amazon.**
 
-You may not want some products to be listed on Amazon. Amazon Sales Channel has a listing rule engine that is used to determine which products are eligible for publishing to Amazon. [Listing rules]({{ site.baseurl }}{% link sales-channels/amazon/listing-rules.md %}) allow you to select subsets of products to be published (or not published) to your Amazon Seller Central account, such as by category selection or by defining one or more product attributes. Like Magento [catalog]({{ site.baseurl }}{% link marketing/price-rules-catalog.md %}) or [shopping cart]({{ site.baseurl }}{% link marketing/price-rules-cart.md %}) price rules, product attributes used for Amazon listing eligibility must be set to “Used for Promo Rule Conditions”.
+You may not want some products to be listed on Amazon. Amazon Sales Channel has a listing rule engine that is used to determine which products are eligible for publishing to Amazon. [Listing rules]({% link sales-channels/amazon/listing-rules.md %}) allow you to select subsets of products to be published (or not published) to your Amazon Seller Central account, such as by category selection or by defining one or more product attributes. Like Magento [catalog]({% link marketing/price-rules-catalog.md %}) or [shopping cart]({% link marketing/price-rules-cart.md %}) price rules, product attributes used for Amazon listing eligibility must be set to “Used for Promo Rule Conditions”.
 
 **Set your Amazon Seller Central Region to Inactive.**
 
 To help facilitate error-free data transition during integration, we highly recommend setting your Amazon region to `Inactive` status in Settings > Account Info > Vacation Settings. Refer to [Amazon: Listing Status for Vacations][11]{: target="_blank"}. Once your setup is complete, change the status back to `Active` in Amazon.
 
-![]({{ site.baseurl }}{% link images/images/btn-next.png %}){: .Inline} [**Continue to Verify API Key**]({{ site.baseurl }}{% link sales-channels/amazon/amazon-verify-api-key.md %})
+![]({% link images/images/btn-next.png %}){: .Inline} [**Continue to Verify API Key**]({% link sales-channels/amazon/amazon-verify-api-key.md %})
 
 [1]: https://services.amazon.com/content/sell-on-amazon.html
 [2]: https://services.amazon.com/content/sell-on-amazon.htm/

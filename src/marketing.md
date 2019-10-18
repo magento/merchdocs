@@ -27,10 +27,10 @@ sections:
     url: /marketing/google-tools.html
 ---
 
-In this section of the guide, you’ll learn how to leverage the available  shopping tools to create opportunities for customer engagement, and how to set up targeted promotions with price rules. You can also leverage multiple sales channels by sending your product feeds to shopping sites and marketplaces. Then, use Google tools to analyze traffic, optimize your content, and plan your next campaign. All of these tools are available from the [Marketing menu]({{ site.baseurl }}{% link marketing/marketing-menu.md %}).
+In this section of the guide, you’ll learn how to leverage the available  shopping tools to create opportunities for customer engagement, and how to set up targeted promotions with price rules. You can also leverage multiple sales channels by sending your product feeds to shopping sites and marketplaces. Then, use Google tools to analyze traffic, optimize your content, and plan your next campaign. All of these tools are available from the [Marketing menu]({% link marketing/marketing-menu.md %}).
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-Magento Commerce users can also learn to use [Merchandising tools]({{ site.baseurl }}{% link marketing/promotions.md %}) to apply merchandising techniques to design category-based navigation and dynamic presentation of products.
+Magento Commerce users can also learn to use [Merchandising tools]({% link marketing/promotions.md %}) to apply merchandising techniques to design category-based navigation and dynamic presentation of products.
 <!--{% endif %}-->
 
 {% include grid.html sections=page.sections%}

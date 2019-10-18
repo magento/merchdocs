@@ -6,5 +6,5 @@ Product reviews help to build a sense of community, and are considered more cred
 
 Magento offers a few product review options:
 
-- [Magento Product Reviews]({{ site.baseurl }}{% link marketing/magento-product-reviews.md %})
-- [Yotpo Product Reviews]({{ site.baseurl }}{% link marketing/yotpo-reviews-intro.md %})
+- [Magento Product Reviews]({% link marketing/magento-product-reviews.md %})
+- [Yotpo Product Reviews]({% link marketing/yotpo-reviews-intro.md %})

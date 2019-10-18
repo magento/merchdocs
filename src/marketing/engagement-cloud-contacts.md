@@ -4,7 +4,7 @@ redirect_from:
   - /marketing/email-marketing-automation-contacts.html
 ---
 
-Your Engagement Cloud account is [synced]({{ site.baseurl }}{% link configuration/engagement-cloud/sync-settings.md %}) with your store, and maintains up-to-date address books of your customers, guests, and subscribers.
+Your Engagement Cloud account is [synced]({% link configuration/engagement-cloud/sync-settings.md %}) with your store, and maintains up-to-date address books of your customers, guests, and subscribers.
 
 ## To view your contacts
 
@@ -12,24 +12,24 @@ Your Engagement Cloud account is [synced]({{ site.baseurl }}{% link configuratio
 
     The contact list in the main menu at the top of the page includes customer, guest and subscription data that is automatically imported from your store.
 
-    ![]({{ site.baseurl }}{% link images/images/engagement-cloud-menu-contacts-mycontacts.png %}){: .zoom}
+    ![]({% link images/images/engagement-cloud-menu-contacts-mycontacts.png %}){: .zoom}
     *My Contacts*
 
-1. To view the import report, click the **Notifications** bell ( ![]({{ site.baseurl }}{% link images/images/icon-notifictions-engagement-cloud.png %})) in the upper-right corner.
+1. To view the import report, click the **Notifications** bell ( ![]({% link images/images/icon-notifictions-engagement-cloud.png %})) in the upper-right corner.
 
-    ![]({{ site.baseurl }}{% link images/images/engagement-cloud-contacts-subscribers-address-book.png %}){: .zoom}
+    ![]({% link images/images/engagement-cloud-contacts-subscribers-address-book.png %}){: .zoom}
     *Address Books*
 
 1. In the first message, click **import report**.
 
-    ![]({{ site.baseurl }}{% link images/images/engagement-cloud-import-notifications.png %}){: .zoom}
+    ![]({% link images/images/engagement-cloud-import-notifications.png %}){: .zoom}
     *Notifications*
 
 1. In the Notifications list, click **import report**.
 
     The Contacts import report includes a summary of all subscribers as well as duplicates, failures, soft and hard bounces, invalid email addresses, and those who have unsubscribed, or have been blocked, globally suppressed, or otherwise blacklisted. You can use this report to help keep your data clean.
 
-    ![]({{ site.baseurl }}{% link images/images/engagement-cloud-contacts-import-report.png %}){: .zoom}
+    ![]({% link images/images/engagement-cloud-contacts-import-report.png %}){: .zoom}
     *Import Report*
 
 1. After reading the report, tap **Go to address** book.

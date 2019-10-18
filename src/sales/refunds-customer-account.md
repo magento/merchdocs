@@ -5,7 +5,7 @@ title: Refunds in Customer Account
 
 Customers can track the status of their refunds and verify the balance of their store credit from the dashboard of their accounts.
 
-![]({{ site.baseurl }}{% link images/images/customer-account-refund-tab.png %}){: .zoom}
+![]({% link images/images/customer-account-refund-tab.png %}){: .zoom}
 _Refund Detail_
 
 ## To view a refund from your customer account:
@@ -23,5 +23,5 @@ _Refund Detail_
 
     The amount refunded to your store credit appears in the list with the date and time of the action.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/customer-account-store-credit-refund.png %}){: .zoom}
+    ![]({% link images/images-ee/customer-account-store-credit-refund.png %}){: .zoom}
     _Amount Refunded to Store Credit_

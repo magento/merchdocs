@@ -10,5 +10,5 @@ The Transactions grid lists all payment activity that has taken place between yo
 
 1. In the _Operations_ section, choose **Transactions**.
 
-![]({{ site.baseurl }}{% link images/images/sales-transactions.png %}){: .zoom}
+![]({% link images/images/sales-transactions.png %}){: .zoom}
 _Transactions_

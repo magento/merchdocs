@@ -6,7 +6,7 @@ The following settings must be made at the product level, as well as in the conf
 
 ## Step 1: Verify the Country of Manufacture
 
-The country of manufacture is required for all products that are shipped internationally by USPS and FedEx, If you have many products that need to be updated, you can either [import]({{ site.baseurl }}{% link system/data-import.md %}) the updates, or use the Inventory grid to update multiple records.
+The country of manufacture is required for all products that are shipped internationally by USPS and FedEx, If you have many products that need to be updated, you can either [import]({% link system/data-import.md %}) the updates, or use the Inventory grid to update multiple records.
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
@@ -22,7 +22,7 @@ The country of manufacture is required for all products that are shipped interna
 
 1. Click <span class="btn">Save</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/product-country-of-manufacture.png %}){: .zoom}  
+    ![]({% link images/images/product-country-of-manufacture.png %}){: .zoom}  
     _Country of Manufacture_
 
 ### Method 2: Update Multiple Records
@@ -41,23 +41,23 @@ The country of manufacture is required for all products that are shipped interna
 
 1. In the _Sales_ section in the left panel, choose **Shipping Settings**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Origin** section, and verify that the following fields are complete:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Origin** section, and verify that the following fields are complete:
 
     - **Street Address** – The street address of the place from which shipments are sent. For example, the location of your company or warehouse. This field is required for shipping labels.
     - **Street Address Line 2** – Any additional address information, such as the floor, entrance and so on. We strongly recommend that you use this field.
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-settings-origin.png %}){: .zoom}
-    _[Origin]({{ site.baseurl }}{% link configuration/sales/shipping-settings.md %})_
+    ![]({% link images/images/config-sales-shipping-settings-origin.png %}){: .zoom}
+    _[Origin]({% link configuration/sales/shipping-settings.md %})_
 
 1. In the _Sales_ section on the left panel, choose **Shipping Methods**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **USPS** section, and verify that the following fields are complete:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **USPS** section, and verify that the following fields are complete:
 
     - **Secure Gateway URL** – Magento automatically enters the gateway URL.
     - **Password** – The password is provided by USPS, and gives you access to their system through Web Services.
     - **Length, Width, Height, Girth** – The default dimensions of the package. To make these fields appear, set **Size** to `Large`.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **FedEx** section and verify that the following fields are complete:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **FedEx** section and verify that the following fields are complete:
 
     - Meter Number
     - Key
@@ -67,7 +67,7 @@ The country of manufacture is required for all products that are shipped interna
 
 1. In the panel on the left under **General**, choose **General**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Store Information** section and verify that the following fields are complete:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Store Information** section and verify that the following fields are complete:
 
     - **Store Name** – The name of the store or store view.
     - **Store Contact Telephone** – The telephone number of the primary contact for the store or store view.
@@ -79,8 +79,8 @@ The country of manufacture is required for all products that are shipped interna
 
     If the information is missing, you’ll get an error when you try to print the labels.
 
-    ![]({{ site.baseurl }}{% link images/images/config-general-general-store-information.png %}){: .zoom}
-    _[Store Information]({{ site.baseurl }}{% link configuration/general/general.md %})_
+    ![]({% link images/images/config-general-general-store-information.png %}){: .zoom}
+    _[Store Information]({% link configuration/general/general.md %})_
 
 1. Click <span class="btn">Save Config</span>.
 
@@ -88,7 +88,7 @@ The country of manufacture is required for all products that are shipped interna
 
 |Carrier|Requirements|
 |-------|--------|
-|[USPS]({{ site.baseurl }}{% link shipping/usps.md %})|Requires a USPS account. As of February 23, 2018, USPS requires all shipping labels to include postage.|
-[UPS]({{ site.baseurl }}{% link shipping/ups.md %})|Requires a UPS account. Shipping labels are available only for shipments that originate in the U.S. Specific credentials are required for stores outside the US.|
-|[FedEx]({{ site.baseurl }}{% link shipping/fedex.md %})|Requires a FedEx account. For stores outside of the U.S., shipping labels are supported for international shipments only. FedEx does not allow domestic shipments that originate outside of the U.S|
-[DHL]({{ site.baseurl }}{% link shipping/dhl.md %})|Requires a DHL account. Shipping labels are supported only for shipments that originate in the U.S.|
+|[USPS]({% link shipping/usps.md %})|Requires a USPS account. As of February 23, 2018, USPS requires all shipping labels to include postage.|
+[UPS]({% link shipping/ups.md %})|Requires a UPS account. Shipping labels are available only for shipments that originate in the U.S. Specific credentials are required for stores outside the US.|
+|[FedEx]({% link shipping/fedex.md %})|Requires a FedEx account. For stores outside of the U.S., shipping labels are supported for international shipments only. FedEx does not allow domestic shipments that originate outside of the U.S|
+[DHL]({% link shipping/dhl.md %})|Requires a DHL account. Shipping labels are supported only for shipments that originate in the U.S.|

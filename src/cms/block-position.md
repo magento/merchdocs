@@ -2,9 +2,9 @@
 title: Positioning Blocks
 ---
 
-The code that controls the page layout and placement of blocks is written in XML [Widgets]({{ site.baseurl }}{% link cms/widgets.md %}) make it easy to position a block at a specific place on the page, and even for a specific product or category without writing any code. You can choose each option from a list, rather than trying to remember all of the possible combinations.
+The code that controls the page layout and placement of blocks is written in XML [Widgets]({% link cms/widgets.md %}) make it easy to position a block at a specific place on the page, and even for a specific product or category without writing any code. You can choose each option from a list, rather than trying to remember all of the possible combinations.
 
-The following list shows the locations by page type where blocks are typically placed. To learn more about how areas on the page are defined, see: [Standard Page Layouts]({{ site.baseurl }}{% link design/page-layout-standard.md %}).
+The following list shows the locations by page type where blocks are typically placed. To learn more about how areas on the page are defined, see: [Standard Page Layouts]({% link design/page-layout-standard.md %}).
 
 ### Category and CMS Pages
 

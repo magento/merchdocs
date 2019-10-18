@@ -3,16 +3,16 @@ conditions: Default.EE-B2B
 title: Customer Attributes
 ---
 
-Magento’s customer attributes provide the information required to support the order, fulfillment, and customer management processes. Because your business is unique, you might need fields in addition to those provided by the system. You can add custom attributes to the Account Information, Address Book, and Billing Information sections of the customer’s account. Customer [address attributes]({{ site.baseurl }}{% link stores/attributes-customer-address.md %}) can also be used in the Billing Information section during checkout, or when guests register for an account.
+Magento’s customer attributes provide the information required to support the order, fulfillment, and customer management processes. Because your business is unique, you might need fields in addition to those provided by the system. You can add custom attributes to the Account Information, Address Book, and Billing Information sections of the customer’s account. Customer [address attributes]({% link stores/attributes-customer-address.md %}) can also be used in the Billing Information section during checkout, or when guests register for an account.
 
-![]({{ site.baseurl }}{% link images/images/attributes-customer.png %}){: .zoom}
+![]({% link images/images/attributes-customer.png %}){: .zoom}
 Customer Attributes
 
 ## Step 1: Complete the Attribute Properties
 
 On the Admin sidebar, tap **Stores**. Then under **Attributes**, choose **Customer**.
 
-![]({{ site.baseurl }}{% link images/images/attribute-new-customer.png %}){: .zoom}
+![]({% link images/images/attribute-new-customer.png %}){: .zoom}
 Customer Attribute Properties
 
 In the **Attribute Properties** section, do the following:
@@ -48,7 +48,7 @@ To apply a filter to a Text Field, Text Area, or Multiple Line input type, set *
 | Escape  HTML Entities | Converts special characters found in the text to a valid HTML escape sequence, such as `&amp;`. .Escape sequences are enclosed between an ampersand and a semi-colon, and are frequently used for typographer’s smart quotes, copyright and trademark symbols. Escape sequences are also used to identify characters such as the less than (&lt;) and greater than (&gt;) symbols, and the ampersand character which are also used in the code. This filter can help clean up special characters that are sometimes pasted into database fields from word processors. |
 {: .TableAfterNumber_Nested}
 
-![]({{ site.baseurl }}{% link images/images/attributes-customer-data-entry-properties.png %}){: .zoom}
+![]({% link images/images/attributes-customer-data-entry-properties.png %}){: .zoom}
 Data Entry Properties
 
 ## Customers Grid Properties
@@ -59,7 +59,7 @@ To filter the Customers grid by this attribute, set **Use in Filter Options** to
 
 To search the Customers grid by this attribute, set **Use in Search Options** to “Yes.”
 
-To make this attribute available to [customer segments]({{ site.baseurl }}{% link marketing/customer-segments.md %}), set **Use in Customer Segment** to “Yes.”
+To make this attribute available to [customer segments]({% link marketing/customer-segments.md %}), set **Use in Customer Segment** to “Yes.”
 
 ## Step 2: Complete the Storefront Properties
 
@@ -69,22 +69,22 @@ Enter a number in the **Sort Order** field to determine its order of appearance 
 
 Set **Forms to Use** to each form that is to include the attribute. To choose multiple options, hold the Ctrl key down and click each form.
 
-* [Customer Registration]({{ site.baseurl }}{% link customers/customer-sign-in.md %})
+* [Customer Registration]({% link customers/customer-sign-in.md %})
 * Customer Account Edit
 * Admin Checkout
 
-![]({{ site.baseurl }}{% link images/images/attributes-customer-storefront-properties.png %}){: .zoom}
+![]({% link images/images/attributes-customer-storefront-properties.png %}){: .zoom}
 Storefront Properties
 
 ## Step 3: Complete the Labels/Options
 
 In the panel on the left, choose **Manage Labels/Options**.
 
-Under **Manage Titles**, enter a label to identify the attribute for each [store view]({{ site.baseurl }}{% link stores/websites-stores-views.md %}).
+Under **Manage Titles**, enter a label to identify the attribute for each [store view]({% link stores/websites-stores-views.md %}).
 
 When complete, tap <span class="btn">Save Attribute</span>.
 
-![]({{ site.baseurl }}{% link images/images-ee/attribute-customer-manage-label-options.png %}){: .zoom}
+![]({% link images/images-ee/attribute-customer-manage-label-options.png %}){: .zoom}
 Manage Labels/Options
 
 <table>
@@ -130,7 +130,7 @@ Manage Labels/Options
             <td>
                <pre>disable_auto_group_change</pre>
             </td>
-            <td>Determines if customer groups can be dynamically assigned during <a href="{{ site.baseurl }}{% link tax/vat-validation.md %}">VAT ID validation</a>.</td>
+            <td>Determines if customer groups can be dynamically assigned during <a href="{% link tax/vat-validation.md %}">VAT ID validation</a>.</td>
          </tr>
          <tr>
             <td>

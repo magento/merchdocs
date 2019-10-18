@@ -17,7 +17,7 @@ We strongly recommend completing all orders and shipments for those products pri
 
 1. Click the **Actions** drop-down menu, and choose Unassign Inventory Source. Click **OK** to verify.
 
-    ![]({{ site.baseurl }}{% link images/images/inventory/inventory-bulk-unassign-sources.gif %}){: .zoom}
+    ![]({% link images/images/inventory/inventory-bulk-unassign-sources.gif %}){: .zoom}
     *Select products to remove sources*
 
 1. Select the source you want to remove from the products.
@@ -26,5 +26,5 @@ We strongly recommend completing all orders and shipments for those products pri
 
 1. To complete, click **Unassign Sources**.
 
-    ![]({{ site.baseurl }}{% link images/images/inventory/inventory-bulk-unassign-sources2.png %}){: .zoom}
+    ![]({% link images/images/inventory/inventory-bulk-unassign-sources2.png %}){: .zoom}
     *Remove sources from selected products*

@@ -3,9 +3,9 @@ title: Workspace Controls
 ---
 
 
-[Amazon Sales Channel Home]({{ site.baseurl }}{% link sales-channels/amazon/amazon-sales-channel-home.md %}) have some common workspace controls including Filters, Default View, Columns, and Export. Not all pages will have the same control options.
+[Amazon Sales Channel Home]({% link sales-channels/amazon/amazon-sales-channel-home.md %}) have some common workspace controls including Filters, Default View, Columns, and Export. Not all pages will have the same control options.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-workspace-controls.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-workspace-controls.png %}){: .zoom}
 _Amazon Sales Channel Workspace Controls Examples_
 
 ## Actions
@@ -14,7 +14,7 @@ The Actions drop-down option displays a list of actions that are available to a 
 
 For example, the **Actions** drop-down on the Attributes screen includes the "Re-import Product Attribute Values" action. Choosing this action will ping the corresponding Amazon Seller Central account and refresh the Magento data for each of the Amazon store items checked in the left-side column.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-sales-channel-home-actions-option.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-sales-channel-home-actions-option.png %}){: .zoom}
 _Actions Drop Down Example_
 
 ## Filters
@@ -31,12 +31,12 @@ The example below shows the settings for filtering the list of orders to display
 
 When you have your filtering options set, click **Apply Filters** to filter the data listed. Click Cancel to exit the Filters control without applying.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/workspace-controls-filters.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/workspace-controls-filters.png %}){: .zoom}
 _Filters Control Example_
 
-Once you've applied filters to your data, **Active Filters** information will display. You can click the ![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/x-icon-clear-filters.png %}){: .Inline}icon to clear a specific filter option or click **Clear All** to clear all applied filters.
+Once you've applied filters to your data, **Active Filters** information will display. You can click the ![]({% link images/images/sales-channels/amazon/x-icon-clear-filters.png %}){: .Inline}icon to clear a specific filter option or click **Clear All** to clear all applied filters.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/applied-filters-line.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/applied-filters-line.png %}){: .zoom}
 _Active Filters Example_
 
 ## View
@@ -51,7 +51,7 @@ When you have your columns added or removed from the page display:
 
 1. Click the arrow icon to save the custom view.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/workspace-controls-view.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/workspace-controls-view.png %}){: .zoom}
 _View Control Example_
 
 In this example, we added the Order Id column in the Column control and then saved it as a custom view. Notice that after we saved our custom view name, the name of the View changed from Default View to the name we entered.
@@ -69,7 +69,7 @@ The example below shows a Columns control. The checked options correspond to the
 - To add a data column to your page, check the checkbox.
 - To remove a data column from your page, uncheck the checkbox.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/workspace-controls-columns.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/workspace-controls-columns.png %}){: .zoom}
 _Columns Control Example_
 
 Checkbox changes display immediately. If you make changes and exit the page, the page returns to the default column display. For changes you make regularly, you can save the columns changes as a custom view in the View control. Then you can toggle in the View control without having to add or remove columns manually.
@@ -87,5 +87,5 @@ When ready to export your data, select an export format option and click **Expor
 
 The generated data file saves automatically to your designated folder for downloads.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/workspace-controls-export.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/workspace-controls-export.png %}){: .zoom}
 _Export Control Example_

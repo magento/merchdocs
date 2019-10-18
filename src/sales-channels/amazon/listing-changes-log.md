@@ -9,14 +9,14 @@ No actions are available for the log. It is a review-only feature.
 
 {% include amazon-workspace-controls.md %}
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-listing-changes-log.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-listing-changes-log.png %}){: .zoom}
 _Listing Changes Log_
 
 ### Default Columns
 
 |Column|Description|
 |--- |--- |
-|Amazon Store Name|The name of the store defined when the Amazon store was set up. Refer to [Store Integration]({{ site.baseurl }}{% link sales-channels/amazon/store-integration.md %}). |
+|Amazon Store Name|The name of the store defined when the Amazon store was set up. Refer to [Store Integration]({% link sales-channels/amazon/store-integration.md %}). |
 |Seller SKU |The SKU (Stock Keeping Unit) assigned by Amazon to a product to identify the product, options, price, and manufacturer. |
 |Listing Action |The type of change that was made to the listing. |
 |Comments |Additional information about the listing change. |

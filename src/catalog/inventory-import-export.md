@@ -22,7 +22,7 @@ The export-import file includes the following information according to source:
 
 Use this option to quickly update multiple products and assigned sources to update and correct any inaccuracies in inventory records rather than one at a time through the application interface. For a base file, export first and update as needed.
 
-![]({{ site.baseurl }}{% link images/images/inventory/inventory-import-export-data.png %}){: .zoom}
+![]({% link images/images/inventory/inventory-import-export-data.png %}){: .zoom}
 *Example CSV file for Import - Export Inventory Data*
 
 ## To export product data for all sources:
@@ -37,7 +37,7 @@ Use this option to quickly update multiple products and assigned sources to upda
 
 After updating inventory amounts and product data, import the file back into Magento.
 
-![]({{ site.baseurl }}{% link images/images/inventory/inventory-export-stock-sources.png %}){: .zoom}
+![]({% link images/images/inventory/inventory-export-stock-sources.png %}){: .zoom}
 *Export Stock Sources for product data and sources*
 
 ## To export product data for a specific source:
@@ -52,7 +52,7 @@ After updating inventory amounts and product data, import the file back into Mag
 
 After updating inventory amounts and product data, import the file back into Magento.
 
-![]({{ site.baseurl }}{% link images/images/inventory/inventory-export-stock-sources.png %}){: .zoom}
+![]({% link images/images/inventory/inventory-export-stock-sources.png %}){: .zoom}
 *Export Stock Sources for product data and sources*
 
 ## To import product data:
@@ -67,5 +67,5 @@ After updating inventory amounts and product data, import the file back into Mag
 
 1. Click **Check Data** and complete the import.
 
-![]({{ site.baseurl }}{% link images/images/inventory/inventory-import-sources.png %}){: .zoom}
+![]({% link images/images/inventory/inventory-import-sources.png %}){: .zoom}
 *Import product data and sources*

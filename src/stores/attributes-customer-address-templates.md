@@ -3,7 +3,7 @@ conditions: Default.EE-B2B
 title: Customer Address Templates
 ---
 
-You can modify the template that controls the format of customer billing and shipping addresses that appear on printed invoices, shipments, and refunds, as well as in the addresses book of the customer account. If you need to include additional information, you can create [custom attributes]({{ site.baseurl }}{% link stores/attributes-customer.md %}) that are associated with the customer account and [address]({{ site.baseurl }}{% link stores/attributes-customer-address.md %}), and incorporate them into the template.
+You can modify the template that controls the format of customer billing and shipping addresses that appear on printed invoices, shipments, and refunds, as well as in the addresses book of the customer account. If you need to include additional information, you can create [custom attributes]({% link stores/attributes-customer.md %}) that are associated with the customer account and [address]({% link stores/attributes-customer-address.md %}), and incorporate them into the template.
 
 ## Example 1: short format
 
@@ -25,8 +25,8 @@ For Text, HTML, and PDF Address Templates:
 ```
 {% endraw %}
 
-![Customer address templates]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-address-templates.png %}){: .zoom}
-[_Address Templates_]({{ site.baseurl }}{% link configuration/customers/customer-configuration.md %})
+![Customer address templates]({% link images/images/config-customers-customer-configuration-address-templates.png %}){: .zoom}
+[_Address Templates_]({% link configuration/customers/customer-configuration.md %})
 
 ## Change the order of address fields
 

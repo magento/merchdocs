@@ -23,6 +23,6 @@ sections:
     url: /stores/compliance-industry.html
 ---
 
-This section of the guide introduces your store's Admin tools, and walks you through the basic configuration settings. You’ll learn the concepts of store hierarchy and configuration scope, and establish best practices for industry standards and requirements.<!--{% if "Default.B2B Only" contains site.edition %}--> B2B merchants can also review the [B2B Basics]({{ site.baseurl }}{% link stores/b2b-basics.md %}).<!--{% endif %}-->
+This section of the guide introduces your store's Admin tools, and walks you through the basic configuration settings. You’ll learn the concepts of store hierarchy and configuration scope, and establish best practices for industry standards and requirements.<!--{% if "Default.B2B Only" contains site.edition %}--> B2B merchants can also review the [B2B Basics]({% link stores/b2b-basics.md %}).<!--{% endif %}-->
 
 {% include grid.html sections=page.sections large="3"%}

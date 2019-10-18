@@ -7,5 +7,5 @@ redirect_from:
 
 The most frequently used product settings and attributes are located at the top of the page, followed by custom attributes. Any other product settings are in expandable sections at the bottom of the page.
 
-![]({{ site.baseurl }}{% link images/images/product-settings.png %}){: .zoom}
+![]({% link images/images/product-settings.png %}){: .zoom}
 *Product Settings*

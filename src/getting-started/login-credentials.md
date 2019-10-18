@@ -30,7 +30,7 @@ Your Magento account provides access to information about your products and serv
 
 ## Customer Account
 
-While you’re learning your way around the store, make sure to set up a test [customer account]({{ site.baseurl }}{% link customers/customer-account.md %}), so you can experience the store and checkout process from the customer’s perspective.
+While you’re learning your way around the store, make sure to set up a test [customer account]({% link customers/customer-account.md %}), so you can experience the store and checkout process from the customer’s perspective.
 
 ## For Your Records
 

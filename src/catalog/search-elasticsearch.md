@@ -11,7 +11,7 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 
 1. In the panel on the left under **Catalog**, choose **Catalog**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Catalog Search** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Catalog Search** section.
 
 1. For the **Search Engine** field, clear the **Use system value** checkbox and choose the version that is installed on your server.
 
@@ -24,8 +24,8 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
    {: .bs-callout .bs-callout-info}
    To learn more about using Elasticsearch versions 2.x and 5.x, see [Change the Elasticsearch Client][2]{: target="_blank"}.
 
-   ![]({{ site.baseurl }}{% link images/images/config-catalog-catalog-search-elasticsearch-1.png %}){: .zoom}
-   *[Elasticsearch Settings]({{ site.baseurl }}{% link configuration/catalog/catalog.md %})*
+   ![]({% link images/images/config-catalog-catalog-search-elasticsearch-1.png %}){: .zoom}
+   *[Elasticsearch Settings]({% link configuration/catalog/catalog.md %})*
 
 1. For **Enable EAV Indexer**, set if you want to enable or disable the Product EAV indexer. This feature improves indexation speed and restricts the indexer from use by 3rd party extensions. This option only displays for Elasticsearch or Elasticsearch 5.0+ Search Engines.
 
@@ -42,7 +42,7 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 
 ## Step 2: Configure the Elasticsearch Connection
 
-![]({{ site.baseurl }}{% link images/images/config-catalog-catalog-search-elasticsearch-2.png %}){: .zoom}
+![]({% link images/images/config-catalog-catalog-search-elasticsearch-2.png %}){: .zoom}
 *Elasticsearch Connection Settings*
 
 1. Enter the **Elasticsearch Server Hostname**. The default is: `localhost`.
@@ -64,7 +64,7 @@ Search suggestions and recommendations can impact server performance.
 
 1. Set **Enable Search Suggestions** to “Yes”. Then, do the following:
 
-   ![]({{ site.baseurl }}{% link images/images/config-catalog-catalog-search-elasticsearch-3.png %}){: .zoom}
+   ![]({% link images/images/config-catalog-catalog-search-elasticsearch-3.png %}){: .zoom}
    *Elasticsearch Suggestion and Recommendation Settings*
 
    * In the **Search Suggestions Count** field, enter the number of search suggestions to offer.

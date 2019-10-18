@@ -15,7 +15,7 @@ Sales Channels represent entities selling your inventory. By default, Magento pr
 
 The following diagram helps define how a Stock works in relation to Sources and Sales Channels for a Bicycle Shop merchant.
 
-![]({{ site.baseurl }}{% link images/images/inventory/inventory-diagram-stock.png %})
+![]({% link images/images/inventory/inventory-diagram-stock.png %})
 
 *Example Stocks for a Mountain Bike and Store*
 
@@ -27,9 +27,9 @@ All stores start with a Default Stock. It must remain "Enabled" for the followin
 
 For Multi Source merchants, create and configure stocks as needed to best fit your stores and order fulfillment. When you assign new stock to a sales channel, any pre-existing stock in that sales channel becomes unassigned.
 
-For a multisite installation, the Default Stock is initially assigned to the [Main Website]({{ site.baseurl }}{% link stores/stores-all-create-website.md %}) and default store.
+For a multisite installation, the Default Stock is initially assigned to the [Main Website]({% link stores/stores-all-create-website.md %}) and default store.
 
-![]({{ site.baseurl }}{% link images/images/stores-inventory-stock.png %}){: .zoom}  
+![]({% link images/images/stores-inventory-stock.png %}){: .zoom}  
 *Manage Stock*
 
 ### Button Bar
@@ -44,6 +44,6 @@ For a multisite installation, the Default Stock is initially assigned to the [Ma
 |--|--|
 |ID|Unique, numeric ID generated for the stock entry.|
 |Name|Unique name that identifies the inventory stock.|
-|Sales Channels|Defines the <a href="{{ site.baseurl }}{% link configuration/scope.md %}">scope</a> of the stock by assigning the stock to specific website(s) as “sales channels.”|
+|Sales Channels|Defines the <a href="{% link configuration/scope.md %}">scope</a> of the stock by assigning the stock to specific website(s) as “sales channels.”|
 |Assigned sources|Sources assigned to the stock that supply all product quantities.|
 |Action|**Edit**: Opens the inventory stock record in edit mode.|

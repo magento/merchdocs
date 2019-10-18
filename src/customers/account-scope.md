@@ -11,10 +11,10 @@ The scope of customer accounts can be limited to the website where the account w
 
 1. In the panel on the left, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Account Sharing Options** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Account Sharing Options** section.
 
-    ![]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-account-sharing-options.png %}){: .zoom}
-    [_Account Sharing Options_]({{ site.baseurl }}{% link configuration/customers/customer-configuration.md %})
+    ![]({% link images/images/config-customers-customer-configuration-account-sharing-options.png %}){: .zoom}
+    [_Account Sharing Options_]({% link configuration/customers/customer-configuration.md %})
 
 1. If necessary, clear the **User system value** checkbox. Then, set **Share Customer Accounts** to one of the following:
 

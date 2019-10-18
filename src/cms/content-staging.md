@@ -11,15 +11,15 @@ When you schedule a content change for a specific period of time, the content re
 
 When any of the following content assets are created, a corresponding campaign is set up as a placeholder, and the Scheduled Changes box appears across the top of the page. The placeholder campaign has a start date, but not an end date. You can schedule updates to the content as part of a campaign, and then preview and share the changes by date, time, or store view.
 
-- [Products]({{ site.baseurl }}{% link catalog/product-scheduled-changes.md %})
-- [Categories]({{ site.baseurl }}{% link catalog/category-scheduled-changes.md %})
-- [Catalog Price Rules]({{ site.baseurl }}{% link marketing/price-rule-catalog-scheduled-changes.md %})
-- [Cart Price Rules]({{ site.baseurl }}{% link marketing/price-rule-cart-scheduled-changes.md %})
-- [CMS Pages]({{ site.baseurl }}{% link cms/page-scheduled-changes.md %})
-- [CMS Blocks]({{ site.baseurl }}{% link cms/blocks.md %})
-- [Widgets]({{ site.baseurl }}{% link cms/widgets.md %})
+- [Products]({% link catalog/product-scheduled-changes.md %})
+- [Categories]({% link catalog/category-scheduled-changes.md %})
+- [Catalog Price Rules]({% link marketing/price-rule-catalog-scheduled-changes.md %})
+- [Cart Price Rules]({% link marketing/price-rule-cart-scheduled-changes.md %})
+- [CMS Pages]({% link cms/page-scheduled-changes.md %})
+- [CMS Blocks]({% link cms/blocks.md %})
+- [Widgets]({% link cms/widgets.md %})
 
 The Staging Dashboard provides visibility into all planned site changes and updates. Any day, range of dates, or time period of a campaign can be previewed, and shared with others.
 
-![]({{ site.baseurl }}{% link images/images-ee/content-staging-dashboard-grid.png %}){: .zoom}
+![]({% link images/images-ee/content-staging-dashboard-grid.png %}){: .zoom}
 _Content Staging Dashboard_

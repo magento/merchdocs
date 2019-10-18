@@ -11,7 +11,7 @@ If you have a Google AdWords account, you can create a tag that tracks conversio
 
 1. In the **New Tag** box, tap <span class="btn">Add a new tag</span>.
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/google-tag-manager-workspace-new.png -%}){: .zoom}
+    ![]({% link images/images-ee/google-tag-manager-workspace-new.png %}){: .zoom}
     *Google Tag Manager*
 
 1. Get the following information from your AdWords account:
@@ -27,16 +27,16 @@ If you have a Google AdWords account, you can create a tag that tracks conversio
 
     * Under **Choose Product**, select **Google Adwords**.
 
-        ![]({{ site.baseurl }}{%- link images/images-ee/google-tag-manager-create-adwords-tag1.png -%}){: .zoom}
+        ![]({% link images/images-ee/google-tag-manager-create-adwords-tag1.png %}){: .zoom}
         *Choose Product*
 
     * Under **Choose a Tag Type**, select **AdWords Conversion Tracking**. Then, tap <span class="btn">Continue</span>.
 
-        ![]({{ site.baseurl }}{%- link images/images-ee/google-tag-manager-create-adwords-tag2.png -%}){: .zoom}
+        ![]({% link images/images-ee/google-tag-manager-create-adwords-tag2.png %}){: .zoom}
 
 1. Enter the **Conversion ID** and **Conversion Label** from your AdWords account. Then, tap <span class="btn">Continue</span>.
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/google-tag-manager-create-adwords-tag3.png -%}){: .zoom}
+    ![]({% link images/images-ee/google-tag-manager-create-adwords-tag3.png %}){: .zoom}
     *Configure Tag*
 
 ## Step 2. Create a Rule
@@ -45,7 +45,7 @@ Continuing from the Google Tag Manager dashboard, the next step is to create a r
 
 1. Under **Fire On**, tap <span class="btn">Some Pages</span>.
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/google-tag-manager-create-adwords-tag4.png -%}){: .zoom}
+    ![]({% link images/images-ee/google-tag-manager-create-adwords-tag4.png %}){: .zoom}
 
 1. In the Choose Pages section, complete the following settings:
 
@@ -54,14 +54,14 @@ Continuing from the Google Tag Manager dashboard, the next step is to create a r
     |Operation:|matches RegEx. To learn more, see: What is “matches regex” for? in Tag Manager Help|
     |Value:|checkout/success.*|
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/google-tag-manager-create-adwords-tag6.png -%}){: .zoom}
+    ![]({% link images/images-ee/google-tag-manager-create-adwords-tag6.png %}){: .zoom}
     *Conversion Page Location*
 
 1. Mark the green checkbox, and tap <span class="btn">Save</span>. The trigger that you set up appears as a blue button in the Fire On section.
 
 1. When complete, tap <span class="btn">Save Tag</span>.
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/google-tag-manager-create-adwords-tag7.png -%}){: .zoom}
+    ![]({% link images/images-ee/google-tag-manager-create-adwords-tag7.png %}){: .zoom}
 
 ## Step 3. Preview and Publish
 
