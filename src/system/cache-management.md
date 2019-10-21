@@ -4,32 +4,32 @@ title: Cache Management
 
 Magento’s cache management system is an easy way to improve the performance of your site. Whenever a cache needs to be refreshed, a notice appears at the top of the workspace to guide you through the process. Follow the link to Cache Management, and refresh the invalid caches.
 
-![]({{ site.baseurl }}{% link images/images/product-attribute-save-msg-update-cache.png %}){: .zoom}
+![]({% link images/images/product-attribute-save-msg-update-cache.png %}){: .zoom}
 _Update Cache Message_
 
 The Cache Management page shows the status of each primary cache and its associated tag. The large buttons in the upper-right corner can be used to flush the Magento Cache, or the all-inclusive Cache Storage. At the bottom of the page there are additional buttons to flush the catalog product images cache and JavaScript/CSS cache.
 
 After clearing a cache, always refresh your browser to make sure that you can see the most recent files. Clearing the Magento cache does not clear your web browser cache. You may need to clear the browser cache to see updated content.
 
-Access to specific cache maintenance actions can be assigned to users by [role]({{ site.baseurl }}{% link system/permissions-role-resources.md %}), including options to view, toggle, and flush caches. Magento recommends only enabling flush actions to administrator level users. Providing access to all Cache Management features can impact your storefront's performance.
+Access to specific cache maintenance actions can be assigned to users by [role]({% link system/permissions-role-resources.md %}), including options to view, toggle, and flush caches. Magento recommends only enabling flush actions to administrator level users. Providing access to all Cache Management features can impact your storefront's performance.
 
-![]({{ site.baseurl }}{% link images/images/system-permissions-role-resources-cache-management.png %}){: .zoom}
-[_Cache Management Role Resources_]({{ site.baseurl }}{% link system/permissions-role-resources.md %})
+![]({% link images/images/system-permissions-role-resources-cache-management.png %}){: .zoom}
+[_Cache Management Role Resources_]({% link system/permissions-role-resources.md %})
 
 For technical information, see [Magento cache overview][1] in the developer documentation.
 
-![]({{ site.baseurl }}{% link images/images/system-cache-management-invalid.png %}){: .zoom}
+![]({% link images/images/system-cache-management-invalid.png %}){: .zoom}
 _Cache Management_
 
 ## Best practices for caching
 
-Reindexing and caching have different purposes Magento. [Indexes]({{ site.baseurl }}{% link system/index-management.md %}) track database information for increased search performance, faster data retrieval for storefronts, and more. Caches save loaded data, images, formats, and the like for increased performance loading and accessing the storefront.
+Reindexing and caching have different purposes Magento. [Indexes]({% link system/index-management.md %}) track database information for increased search performance, faster data retrieval for storefronts, and more. Caches save loaded data, images, formats, and the like for increased performance loading and accessing the storefront.
 
 -  Always flush the cache after installing extensions/modules. You can install one or more extensions, then flush the cache.
 -  Flush the cache after installing Magento Commerce. For fresh installs, you should also reindex.
 -  Flush the cache after upgrading from one version of Open Source or Commerce to another.
 -  When flushing caches, consider the type of cache and scheduling the flushing during non-peak times. For example, pick a time when few customers may access the site such as late night or early morning. Clearing some cache types during peak times cause result in a high load on the Admin and may result in a down site until completed.
--  When [reindexing]({{ site.baseurl }}{% link system/index-management.md %}), you do not need to also perform a flush cache.
+-  When [reindexing]({% link system/index-management.md %}), you do not need to also perform a flush cache.
 
 #### To refresh specific caches:
 
@@ -135,7 +135,7 @@ Cache | Description | Associated Tag
 
 ### Resource
 
-[Cache Management]({{ site.baseurl }}{% link system/permissions-role-resources.md %})
+[Cache Management]({% link system/permissions-role-resources.md %})
 
 -   Clean Cache Actions
 

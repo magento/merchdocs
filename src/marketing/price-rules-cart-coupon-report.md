@@ -2,12 +2,12 @@
 title: Coupons Report
 ---
 
-The Coupons report aggregates data from each coupon that is used during a specific date range. Because coupons are applied from the shopping cart, the report includes data from all redeemed coupons, regardless of [order status]({{ site.baseurl }}{%- link sales/order-status.md -%}). As a result, the report might include both projected and actual totals. The report can be filtered for a specific store view, time period, order status, and [cart price rule]({{ site.baseurl }}{%- link marketing/price-rules-cart-coupon.md -%}).
+The Coupons report aggregates data from each coupon that is used during a specific date range. Because coupons are applied from the shopping cart, the report includes data from all redeemed coupons, regardless of [order status]({% link sales/order-status.md -%}). As a result, the report might include both projected and actual totals. The report can be filtered for a specific store view, time period, order status, and [cart price rule]({% link marketing/price-rules-cart-coupon.md -%}).
 
 In the following example, the coupon code “H20” was used by two customers. One of the orders is invoiced, but the other is still “pending.” The projected Sales Subtotal, Sales Discount, and Sales Total columns show the aggregated amounts from both orders, but only the actual invoiced order appears in the Subtotal, Discount, and Total columns. Each row in the report represents a single coupon promotion.
 
 
-![]({{ site.baseurl }}{%- link images/images/reports-coupons.png -%}){: .zoom}
+![]({% link images/images/reports-coupons.png %}){: .zoom}
 *Coupons Report*
 
 ## To run the report
@@ -16,14 +16,14 @@ In the following example, the coupon code “H20” was used by two customers. O
 
 1. If you have multiple store views, set **Store View** in the upper-left corner to establish the scope of the report.
 
-1. To refresh the sales [statistics]({{ site.baseurl }}{%- link reports/statistics.md -%}) for the day, click the "Last Updated" message at the top of the workspace. Then, click to check the **Coupons** checkbox and click **Refresh**.
+1. To refresh the sales [statistics]({% link reports/statistics.md -%}) for the day, click the "Last Updated" message at the top of the workspace. Then, click to check the **Coupons** checkbox and click **Refresh**.
 
-   ![]({{ site.baseurl }}{%- link images/images/reports-coupons-refresh-statistics.png -%}){: .zoom}
+   ![]({% link images/images/reports-coupons-refresh-statistics.png %}){: .zoom}
    *Refresh Statistics*
 
 1. To filter the data, do the following:
 
-   ![]({{ site.baseurl }}{%- link images/images/reports-coupons-filters.png -%}){: .zoom}
+   ![]({% link images/images/reports-coupons-filters.png %}){: .zoom}
    *Coupon Report Filters*
 
     * Set **Date Used** to one of the following:
@@ -41,7 +41,7 @@ In the following example, the coupon code “H20” was used by two customers. O
 
     * To define the date range of the report, enter the **From** and **To** dates in M/D/YY format.
 
-    * To print a report for a specific [order status]({{ site.baseurl }}{%- link sales/order-status.md -%}), set **Order Status** to “Specified.” Then, choose the order status from the list.
+    * To print a report for a specific [order status]({% link sales/order-status.md -%}), set **Order Status** to “Specified.” Then, choose the order status from the list.
 
     * To omit rows without data from the report, set **Empty Rows** to “No".
 
@@ -62,7 +62,7 @@ In the following example, the coupon code “H20” was used by two customers. O
 |To|Indicates the last date in the range of order data that is included in the report.
 |Order Status|Filters the report by order status. The report can be generated for all orders or can be limited to a specific order status. Options: <br/>**Any**: Includes all orders regardless of status. <br/>**Specified**: Includes only orders with the specified status. Canceled orders are not included in the report.|
 |Empty Rows|Determines if the report includes any rows of empty data that might be retrieved. Options: Yes / No|
-|Cart Price Rules|Determines which [coupon promotions]({{ site.baseurl }}{%- link marketing/price-rules-cart-coupon.md -%}) are included in the report. Options:<br/>**Any**: Includes order information for any coupon promotion that was used during the specified date range.<br/>**Specified**: Includes only order information for the selected coupon promotion during the specified date range.|
+|Cart Price Rules|Determines which [coupon promotions]({% link marketing/price-rules-cart-coupon.md -%}) are included in the report. Options:<br/>**Any**: Includes order information for any coupon promotion that was used during the specified date range.<br/>**Specified**: Includes only order information for the selected coupon promotion during the specified date range.|
 
 ### Report Columns
 

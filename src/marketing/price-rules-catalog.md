@@ -2,15 +2,15 @@
 title: Catalog Price Rules
 ---
 
-Catalog price rules can be used to offer products to buyers at a discounted price, based on a set of defined conditions. Catalog price rules do not use [coupon codes]({{ site.baseurl }}{% link marketing/price-rules-cart-coupon.md %}), because they are triggered before a product is placed into the shopping cart.
+Catalog price rules can be used to offer products to buyers at a discounted price, based on a set of defined conditions. Catalog price rules do not use [coupon codes]({% link marketing/price-rules-cart-coupon.md %}), because they are triggered before a product is placed into the shopping cart.
 
-For example, you can define and set the conditions for a price rule that when met, automatically display products with a special or promotional price. Defined rule properties might include customer groups, product categories, a discount amount or percentage, product color, product size, or just about any product attribute set up in your store. You can set start and end dates for a price rule that automatically start and stop a promotion on the dates you define in the rule. {% if "Default.EE-B2B" contains site.edition %}You can also link a defined rule to a [dynamic block]({{ site.baseurl }}{% link cms/dynamic-blocks.md %}) to help promote the event or product in your store.{% endif %} The properties of a saved rule can be updated or modified as needed. {% if "Default.CE Only" contains site.edition %}For recurring promotions, you can even manually set a saved rule to Active or Inactive status each time you want to run the promotion.{% endif %}
+For example, you can define and set the conditions for a price rule that when met, automatically display products with a special or promotional price. Defined rule properties might include customer groups, product categories, a discount amount or percentage, product color, product size, or just about any product attribute set up in your store. You can set start and end dates for a price rule that automatically start and stop a promotion on the dates you define in the rule. {% if "Default.EE-B2B" contains site.edition %}You can also link a defined rule to a [dynamic block]({% link cms/dynamic-blocks.md %}) to help promote the event or product in your store.{% endif %} The properties of a saved rule can be updated or modified as needed. {% if "Default.CE Only" contains site.edition %}For recurring promotions, you can even manually set a saved rule to Active or Inactive status each time you want to run the promotion.{% endif %}
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/catalog-price-rule-grid.png %}){: .zoom}
+![]({% link images/images/catalog-price-rule-grid.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/price-rule-catalog-grid-ee.png %}){: .zoom}
+![]({% link images/images-ee/price-rule-catalog-grid-ee.png %}){: .zoom}
 <!--{% endif %}-->
 _Catalog Rules_
 

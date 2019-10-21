@@ -15,24 +15,24 @@ In this example, we will add an image to the category page for the duration of t
 
     - In the list, select the campaign to be modified.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/content-staging-assign-to-existing-campaign.png %}){: .zoom}
+        ![]({% link images/images-ee/content-staging-assign-to-existing-campaign.png %}){: .zoom}
         _Assign to Existing Campaign_
 
-    - Under _General Information_, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} **Content**.
+    - Under _General Information_, expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Content**.
 
     - At the **Category Image** field, click <span class="btn">Upload</span>. Then, navigate to the image that is to appear on the category page during the campaign.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/content-staging-existing-category-image.png %}){: .zoom}
+        ![]({% link images/images-ee/content-staging-existing-category-image.png %}){: .zoom}
         _Add Category Image_
 
 1. When complete, click <span class="btn">Save</span>.
 
 1. On the _Admin_ sidebar, go to  **Content** > _Content Staging_ > **Dashboard**.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/content-staging-dashboard-view-edit.png %}){: .zoom}
+    ![]({% link images/images-ee/content-staging-dashboard-view-edit.png %}){: .zoom}
     _Campaign Detail_
 
 1. Find the campaign in the list and click once to view the detail. Then, click <span class="btn">View/Edit</span>.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/content-staging-category-image-preview.png %}){: .zoom}
+    ![]({% link images/images-ee/content-staging-category-image-preview.png %}){: .zoom}
     _Preview of Category Image During Campaign_

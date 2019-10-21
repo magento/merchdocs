@@ -3,9 +3,9 @@ title: Google Analytics Settings for GDPR
 group: marketing
 ---
 
-If your business operates in areas that are governed by the [General Data Protection Regulation]({{ site.baseurl }}{% link stores/compliance-gdpr.md %}), some of the default settings of <!--{% if "Default.CE Only" contains site.edition %}-->[Google Analytics]({{ site.baseurl }}{% link marketing/google-universal-analytics.md %})<!--{% endif %}-->{% if "Default.EE-B2B" contains site.edition %}[Google Universal Analytics]({{ site.baseurl }}{% link marketing/google-universal-analytics.md %}) and [Google Tag Manager]({{ site.baseurl }}{% link marketing/google-tag-manager.md %}){% endif %} must be modified to comply with the regulation. Follow these steps to ensure that your use of customer data remains in compliance with the GDPR.
+If your business operates in areas that are governed by the [General Data Protection Regulation]({% link stores/compliance-gdpr.md %}), some of the default settings of <!--{% if "Default.CE Only" contains site.edition %}-->[Google Analytics]({% link marketing/google-universal-analytics.md %})<!--{% endif %}-->{% if "Default.EE-B2B" contains site.edition %}[Google Universal Analytics]({% link marketing/google-universal-analytics.md %}) and [Google Tag Manager]({% link marketing/google-tag-manager.md %}){% endif %} must be modified to comply with the regulation. Follow these steps to ensure that your use of customer data remains in compliance with the GDPR.
 
-![Google Analytics - data sharing settings]({{ site.baseurl }}{% link images/images/google-data-sharing-settings.png %}){: .zoom}
+![Google Analytics - data sharing settings]({% link images/images/google-data-sharing-settings.png %}){: .zoom}
 _Google Data Sharing Settings_
 
 ## Step 1: Update Google Settings
@@ -41,9 +41,9 @@ _Google Data Sharing Settings_
 
    - Click **Manage DPA Details** to open a DPA administration page where you can edit contacts and your organization's legal entities.
 
-   - In the **Legal Entities** section, click the **Edit** ( ![]({{ site.baseurl }}{% link images/images/btn-ga-edit.png %}){: .Inline}) icon and add  one or more registered name(s) for your organization. When complete, click <span class="btn">Save</span>.
+   - In the **Legal Entities** section, click the **Edit** ( ![]({% link images/images/btn-ga-edit.png %}){: .Inline}) icon and add  one or more registered name(s) for your organization. When complete, click <span class="btn">Save</span>.
 
-   - In the **Contacts** section, click the **Add** ( ![]({{ site.baseurl }}{% link images/images/btn-ga-add.png %}){: .Inline}) icon and enter the information for the first contact. Then, select the checkbox of each applicable role and click <span class="btn">Add</span>.
+   - In the **Contacts** section, click the **Add** ( ![]({% link images/images/btn-ga-add.png %}){: .Inline}) icon and enter the information for the first contact. Then, select the checkbox of each applicable role and click <span class="btn">Add</span>.
 
         | Primary Contact | (Notification Email Address) The contact to whom notices are sent. |
         | Data Protection Officer | (If applicable) The person who is designated to facilitate GDPR compliance. |
@@ -85,7 +85,7 @@ analytics.js
 
 ## Step 3: Update Your Privacy Policy
 
-Update your [privacy policy]({{ site.baseurl }}{% link stores/privacy-policy.md %}) to state that your company:
+Update your [privacy policy]({% link stores/privacy-policy.md %}) to state that your company:
 
 - Uses Google Analytics
 - Masks IP addresses to hide personal information

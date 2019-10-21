@@ -2,14 +2,14 @@
 title: Email Templates
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) >  [Engagement Cloud]({{ site.baseurl }}{% link configuration/engagement-cloud.md %}) > Email Templates
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) >  [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Email Templates
 
 ## Email Templates
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-email-templates.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-email-templates.png %}){: .zoom}
 _Email Templates_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |**Customer**|||
 |New Account|Store View|The campaign that sends a "welcome" email to customers who open a new account. Options: (All available campaigns)|

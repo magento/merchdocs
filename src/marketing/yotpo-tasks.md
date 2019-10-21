@@ -2,7 +2,7 @@
 title: Common Yotpo Tasks
 ---
 
-After you [connect your Magento store to your Yotpo account]({{ site.baseurl }}{%- link marketing/yotpo-connect.md -%}), Magento sets your [default setup values]({{ site.baseurl }}{%- link configuration/yotpo/reviews-visual-marketing.md -%}).
+After you [connect your Magento store to your Yotpo account]({% link marketing/yotpo-connect.md -%}), Magento sets your [default setup values]({% link configuration/yotpo/reviews-visual-marketing.md -%}).
 
 Additional customization options, tasks, and features are dependent on your Yotpo plan and are available in your [Yotpo account](https://yap.yotpo.com/#/home).
 

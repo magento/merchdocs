@@ -4,7 +4,7 @@ title: Integrations
 
 Establishes the location of [OAuth][1] credentials and redirect URL for third-party integrations, and identifies the available API resources that are needed for the integration.
 
-![]({{ site.baseurl }}{% link images/images/integrations.png %}){: .zoom}
+![]({% link images/images/integrations.png %}){: .zoom}
 _Integrations_
 
 **Onboarding Workflow**:
@@ -27,7 +27,7 @@ _Integrations_
 
     - Enter the **Identity Link URL** to redirect the users to a third-party account with these Magento integration credentials.
 
-    ![]({{ site.baseurl }}{% link images/images/integration-new.png %}){: .zoom}
+    ![]({% link images/images/integration-new.png %}){: .zoom}
     _New Integration_
 
 4. In the panel on the left, choose **API**. Then, do the following:
@@ -39,7 +39,7 @@ _Integrations_
 
     - For custom access, mark the checkbox of each resource that is needed:
 
-        ![]({{ site.baseurl }}{% link images/images/integrations-available-api.png %}){: .zoom}
+        ![]({% link images/images/integrations-available-api.png %}){: .zoom}
         _Resources Needed for Custom Access_
 
 5. When complete, click **Save**.
@@ -56,7 +56,7 @@ By default, the system does not permit anonymous guest access to CMS, catalog, a
 
 4. Expand the **Web API Security Setting** section.
 
-    ![]({{ site.baseurl }}{% link images/images/config-services-magento-web-api-web-api-security.png %}){: .zoom}
+    ![]({% link images/images/config-services-magento-web-api-web-api-security.png %}){: .zoom}
     _Web API Security_
 
 5. Set **Allow Anonymous Guest Access** to “Yes,”

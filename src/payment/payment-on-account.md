@@ -4,10 +4,10 @@ title: Payment on Account
 ---
 
 
-Payment on Account is an offline payment method that allows companies to make purchases up to the credit limit that is specified in their profile. Payment on Account can be enabled globally, or per company, and appears during checkout only if enabled. When Payment on Account is used as a payment method, a message appears at the top of the order that indicates the status of the account. To configure Payment on Account for a specific company, see: [Updating a Company Profile]({{ site.baseurl }}{% link customers/account-company-update.md %}).
+Payment on Account is an offline payment method that allows companies to make purchases up to the credit limit that is specified in their profile. Payment on Account can be enabled globally, or per company, and appears during checkout only if enabled. When Payment on Account is used as a payment method, a message appears at the top of the order that indicates the status of the account. To configure Payment on Account for a specific company, see: [Updating a Company Profile]({% link customers/account-company-update.md %}).
 
-![Payment on Account]({{ site.baseurl }}{% link images/images-b2b/config-sales-payment-methods-payment-on-account.png %}){: .zoom}  
-[_Payment on Account_]({{ site.baseurl }}{% link configuration/sales/payment-methods.md %})
+![Payment on Account]({% link images/images-b2b/config-sales-payment-methods-payment-on-account.png %}){: .zoom}  
+[_Payment on Account_]({% link configuration/sales/payment-methods.md %})
 
 ## To configure payment on account:
 
@@ -15,7 +15,7 @@ Payment on Account is an offline payment method that allows companies to make pu
 
 1. In the panel on the left, choose **Payment Methods**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Payment on Account** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Payment on Account** section. Then, do the following:
 
    - After the Enabled field, clear the **Use system value** checkbox. Then, set **Enabled** to “Yes”.
 
@@ -28,7 +28,7 @@ Payment on Account is an offline payment method that allows companies to make pu
 
    - Set **Payment from Applicable Countries** to one of the following:
 
-     |**All Allowed Countries** |Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
+     |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
      |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
 
    - Set **Minimum Order Total** and **Maximum Order Total** to the order amounts required to qualify for this payment method.

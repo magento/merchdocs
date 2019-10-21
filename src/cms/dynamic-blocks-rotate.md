@@ -3,14 +3,14 @@ conditions: Default.EE-B2B
 title: Rotating Dynamic Blocks
 ---
 
-Multiple [dynamic blocks]({{ site.baseurl }}{% link cms/dynamic-blocks.md %}) can be added to a rotator to present a slide show of interactive content. The [Widget]({{ site.baseurl }}{% link cms/widgets.md %}) tool is used to place the rotator at a specific place on a either a single page, or on multiple pages throughout your store.
+Multiple [dynamic blocks]({% link cms/dynamic-blocks.md %}) can be added to a rotator to present a slide show of interactive content. The [Widget]({% link cms/widgets.md %}) tool is used to place the rotator at a specific place on a either a single page, or on multiple pages throughout your store.
 
-![]({{ site.baseurl }}{% link images/images-ee/widget-dynamic-block-rotator.png %}){: .zoom}
+![]({% link images/images-ee/widget-dynamic-block-rotator.png %}){: .zoom}
 _Dynamic Block Rotator_
 
 ## Step 1: Create Individual Dynamic Blocks
 
-Follow the instructions to [create the dynamic blocks]({{ site.baseurl }}{% link cms/dynamic-blocks.md %}) that you want to place in the rotator.
+Follow the instructions to [create the dynamic blocks]({% link cms/dynamic-blocks.md %}) that you want to place in the rotator.
 
 ## Step 2: Add a Dynamic Blocks Rotator Widget
 
@@ -22,7 +22,7 @@ Follow the instructions to [create the dynamic blocks]({{ site.baseurl }}{% link
 
    - Choose the current **Design Theme** of the store. Then, click <span class="btn">Continue</span>.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/widget-dynamic-block-rotator-settings.png %}){: .zoom}
+      ![]({% link images/images-ee/widget-dynamic-block-rotator-settings.png %}){: .zoom}
       _Settings_
 
 ## Step 3: Complete the Options
@@ -35,7 +35,7 @@ Follow the instructions to [create the dynamic blocks]({{ site.baseurl }}{% link
 
    - (Optional) Enter a **Sort Order** number to determine the position of the rotator in the target container. This is relative to other widgets that might be assigned to the same container.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/widget-dynamic-block-rotator-storefront-properties.png %}){: .zoom}
+      ![]({% link images/images-ee/widget-dynamic-block-rotator-storefront-properties.png %}){: .zoom}
       _Storefront Properties_
 
 1. Under **Layout Options**, click <span class="btn">Add Layout Update</span>. Then, do the following:
@@ -46,13 +46,13 @@ Follow the instructions to [create the dynamic blocks]({{ site.baseurl }}{% link
 
    - Select the specific **Page** where the rotator is to appear.
 
-   - Set **Container** to the part of the [page layout]({{ site.baseurl }}{% link design/page-layout-standard.md %}) where the rotator is to appear.
+   - Set **Container** to the part of the [page layout]({% link design/page-layout-standard.md %}) where the rotator is to appear.
 
       If other widgets are assigned to the same container, they appear in sequence according to the sort order.
 
    - Accept “Dynamic Block Template” as the default **Template**.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/widget-dynamic-block-rotator-layout-updates.png %}){: .zoom}
+      ![]({% link images/images-ee/widget-dynamic-block-rotator-layout-updates.png %}){: .zoom}
       _Layout Updates_
 
    - Click <span class="btn">Save and Continue Edit</span>.
@@ -70,7 +70,7 @@ Follow the instructions to [create the dynamic blocks]({{ site.baseurl }}{% link
       - `One at a time, Series`
       - `One at a time, Shuffle`
 
-         ![]({{ site.baseurl }}{% link images/images-ee/widget-dynamic-block-rotator-widget-options.png %}){: .zoom}
+         ![]({% link images/images-ee/widget-dynamic-block-rotator-widget-options.png %}){: .zoom}
          _Widget Options_
 
    - In the **Specify Dynamic Blocks** grid, select the checkbox of each dynamic block that you want to include in the rotator.
@@ -82,15 +82,15 @@ Follow the instructions to [create the dynamic blocks]({{ site.baseurl }}{% link
 |Field|Description|
 |--- |--- |
 |**Settings**||
-|Type|Determines the [type of widget]({{ site.baseurl }}{% link cms/widget-types.md %}) to be created.|
-|Design Package/Theme|Identifies the current package or [theme]({{ site.baseurl }}{% link design/design-theme.md %}) that determines the page layout of the store.|
+|Type|Determines the [type of widget]({% link cms/widget-types.md %}) to be created.|
+|Design Package/Theme|Identifies the current package or [theme]({% link design/design-theme.md %}) that determines the page layout of the store.|
 |**Storefront Properties**||
 |Widget Title|A descriptive title for internal use, that identifies the rotator.|
-|Assign to Store Views|Determines the [store view(s)]({{ site.baseurl }}{% link stores/websites-stores-views.md %}) where the rotator is available.|
+|Assign to Store Views|Determines the [store view(s)]({% link stores/websites-stores-views.md %}) where the rotator is available.|
 |Sort Order|Determines the position of the rotator in relation to other widgets which  might be assigned to the same container on the page.|
 |Layout Updates||
-|Add Layout Update|Adds a [layout update]({{ site.baseurl }}{% link design/layout-updates.md %}) that determines where the rotator is to appear on the store.|
-|Display on|Determines the type of page, or a specific page, where the rotator is to appear. <br/>**Categories** - Displays the rotator on either [anchor]({{ site.baseurl }}{% link catalog/navigation-layered.md %}) or non-anchor category pages. Options: Anchor Categories / Non-Anchor Categories <br/>**Products** - Displays the rotator on either a specific type of product page, or on all product pages. Options: All Product Types / [Simple Product]({{ site.baseurl }}{% link catalog/product-create-simple.md %}) /  [Virtual Product]({{ site.baseurl }}{% link catalog/product-create-virtual.md %}) / [Bundle Product]({{ site.baseurl }}{% link catalog/product-create-bundle.md %}) / [Downloadable Product]({{ site.baseurl }}{% link catalog/product-create-downloadable.md %}) / <!--{% if "Default.EE-B2B" contains site.edition %}-->[Gift Card]({{ site.baseurl }}{% link catalog/product-gift-card.md %}) / <!--{% endif %}-->[Configurable Product]({{ site.baseurl }}{% link catalog/product-create-configurable.md %}) / [Grouped Product]({{ site.baseurl }}{% link catalog/product-create-grouped.md %}) <br/>**Generic Pages** - Displays the rotator on all pages, a specific page, or only on pages with a certain layout. Options: All Pages / Specified Page / Page Layouts|
+|Add Layout Update|Adds a [layout update]({% link design/layout-updates.md %}) that determines where the rotator is to appear on the store.|
+|Display on|Determines the type of page, or a specific page, where the rotator is to appear. <br/>**Categories** - Displays the rotator on either [anchor]({% link catalog/navigation-layered.md %}) or non-anchor category pages. Options: Anchor Categories / Non-Anchor Categories <br/>**Products** - Displays the rotator on either a specific type of product page, or on all product pages. Options: All Product Types / [Simple Product]({% link catalog/product-create-simple.md %}) /  [Virtual Product]({% link catalog/product-create-virtual.md %}) / [Bundle Product]({% link catalog/product-create-bundle.md %}) / [Downloadable Product]({% link catalog/product-create-downloadable.md %}) / <!--{% if "Default.EE-B2B" contains site.edition %}-->[Gift Card]({% link catalog/product-gift-card.md %}) / <!--{% endif %}-->[Configurable Product]({% link catalog/product-create-configurable.md %}) / [Grouped Product]({% link catalog/product-create-grouped.md %}) <br/>**Generic Pages** - Displays the rotator on all pages, a specific page, or only on pages with a certain layout. Options: All Pages / Specified Page / Page Layouts|
 |Page|Identifies the specific page where the rotator is to appear.|
 |Container|Identifies the position on the page where the rotator is placed.|
 |Template|Determines the template that is used to format the rotator, based on whether the rotator is to stand alone, or be placed inside existing text. Options: Dynamic Block Template, Dynamic Block Inline Template|

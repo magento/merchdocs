@@ -7,7 +7,7 @@ The system reporting tool gives you the ability take periodic full, or partial, 
 
 From the System Reports grid, you can view and download existing reports, delete reports, and create new reports.
 
-![]({{ site.baseurl }}{% link images/images-ee/system-reports.png %}){: .zoom}
+![]({% link images/images-ee/system-reports.png %}){: .zoom}
 _Manage System Reports_
 
 ## To access system reports:
@@ -32,14 +32,14 @@ _Manage System Reports_
 
     -  In the list, select the **Groups** of system information that you want to include in the report.
 
-        ![]({{ site.baseurl }}{% link images/images/system-report-create.png %}){: .zoom}
+        ![]({% link images/images/system-report-create.png %}){: .zoom}
         _Select Groups_
 
     -  Click **Create** to generate the report.
 
         It might take a few minutes for the report to generate, depending on the number of report types selected. When the report is ready, it appears at the top of the grid with the date and time generated.
 
-        ![]({{ site.baseurl }}{% link images/images/system-report-grid-action-view.png %}){: .zoom}
+        ![]({% link images/images/system-report-grid-action-view.png %}){: .zoom}
         _View System Report_
 
 7.  In the **Action** column of the grid, select one of the following:
@@ -48,9 +48,9 @@ _Manage System Reports_
     2.  Delete
     3.  Download
 
-8.  In the panel on the left, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) each section of the report to view the detail.
+8.  In the panel on the left, expand ![]({% link images/images/btn-expand.png %}) each section of the report to view the detail.
 
-    ![]({{ site.baseurl }}{% link images/images/system-report-information.png %}){: .zoom}
+    ![]({% link images/images/system-report-information.png %}){: .zoom}
     _General System Report Information_
 
 9.  To save the report as an HTML file, click **Download**. Then save the file to your computer.

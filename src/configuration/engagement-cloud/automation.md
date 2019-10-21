@@ -2,16 +2,16 @@
 title: Automation
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > [Engagement Cloud]({{ site.baseurl }}{% link configuration/engagement-cloud.md %}) > Automation
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Automation
 
 ## Visitor Action Automation Enrolment
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-automation-visitor-action-automation-enrolment.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-automation-visitor-action-automation-enrolment.png %}){: .zoom}
 _Visitor Action Automation Enrolment_
 
 For each type of contact that you want to automate enrollment, select the appropriate [engagement cloud program](https://support.dotmailer.com/hc/en-gb/articles/212213878-Getting-started-with-the-program-builder){:target="_blank"}. To learn more, see [Automated and triggered campaigns - an overview](https://support.dotdigital.com/hc/en-gb/articles/212213998-Automated-and-triggered-campaigns-an-overview).
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |New Customer|Website|Specifies the automation program that is triggered when a customer opens an account. Options: (Active automation programs)|
 |New Subscriber|Website|Specifies the automation program that is triggered by a new subscriber. Options: (Active automation programs)|
@@ -23,12 +23,12 @@ For each type of contact that you want to automate enrollment, select the approp
 
 ## Order Status Automation Enrolment
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-automation-order-status-automation-enrolment.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-automation-order-status-automation-enrolment.png %}){: .zoom}
 _Order Status Automation Enrolment_
 
 For each automated enrollment based on order status that you want to configure, add a new enrollment, select the order status, and assign an [engagement cloud program](https://support.dotmailer.com/hc/en-gb/articles/212213878-Getting-started-with-the-program-builder).
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |**Customer**|||
 |Order Status|Website|Specifies the order status that triggers the automatic enrollment. Options: Pending / Processing / Suspected Fraud / Complete / Closed / Canceled / On Hold|
@@ -38,10 +38,10 @@ For each automated enrollment based on order status that you want to configure, 
 
 ## Review Settings
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-automation-review-settings.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-automation-review-settings.png %}){: .zoom}
 _Review Settings_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled|Website|Determines if Engagement Cloud product [review requests](https://support.dotdigital.com/hc/en-gb/articles/360000459890-Automation-Review-request-Magento-2) are enabled. Options: Yes / No|
 |Allow review reminder for non-subscribed contacts|Website|Determines if guests receive product review reminder emails. Options: Yes / No|
@@ -52,12 +52,12 @@ _Review Settings_
 
 ## Feefo Feedback Engine
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-automation-feefo-feedback-engine.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-automation-feefo-feedback-engine.png %}){: .zoom}
 _Feefo Feedback Engine_
 
 If you have a [Feefo account](https://www.feefo.com/en-gb/business/all-industries/retail) to manage feedback and product reviews, it can be integrated with your store through Engagement Cloud.
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Feefo Logon|Website|The username that you enter to log in to your Feefo account. Your Feefo username is usually the website or domain used to set up your Feefo account. For example: www.mystore.com|
 |Reviews Per Product|Website|The number of reviews to show per product|

@@ -2,16 +2,16 @@
 title: Processing an Order
 ---
 
-When a customer places an order, a sales order is created as a temporary record of the transaction. The sales order has a status of “Pending” until payment is received. Sales orders can be edited while pending, and can be canceled up until the time that an invoice is generated. An easy way to think of it is this: Orders become invoices, and invoices become shipments. The Orders grid lists all orders, regardless of where they are in the [workflow]({{ site.baseurl }}{% link sales/order-workflow.md %}).
+When a customer places an order, a sales order is created as a temporary record of the transaction. The sales order has a status of “Pending” until payment is received. Sales orders can be edited while pending, and can be canceled up until the time that an invoice is generated. An easy way to think of it is this: Orders become invoices, and invoices become shipments. The Orders grid lists all orders, regardless of where they are in the [workflow]({% link sales/order-workflow.md %}).
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/orders.png %}){: .zoom}
+![]({% link images/images/orders.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/orders.png %}){: .zoom}
+![]({% link images/images-ee/orders.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-b2b/orders.png %}){: .zoom}
+![]({% link images/images-b2b/orders.png %}){: .zoom}
 <!--{% endif %}-->
 _Orders_
 
@@ -34,13 +34,13 @@ _Orders_
 The panel on the left of an open order provides access to different types of information that is related to the order.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/order-view.png %}){: .zoom}
+![]({% link images/images/order-view.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/order-view.png %}){: .zoom}
+![]({% link images/images-ee/order-view.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-b2b/order-view-negotiated=quote.png %}){: .zoom}
+![]({% link images/images-b2b/order-view-negotiated=quote.png %}){: .zoom}
 <!--{% endif %}-->
 _View Order_
 
@@ -73,9 +73,9 @@ _View Order_
 To open a pending sales order, click the **Edit** button in the upper-right corner.
 
 {:.bs-callout .bs-callout-info}
-Orders can be edited only while the status is `Pending`. The Edit button is not visible for orders that are `Processing`<!--{% if "Default.B2B Only" contains site.edition %}-->, or for orders that are based on a [negotiated quote]({{ site.baseurl }}{% link sales/quotes.md %})<!--{% endif %}-->.
+Orders can be edited only while the status is `Pending`. The Edit button is not visible for orders that are `Processing`<!--{% if "Default.B2B Only" contains site.edition %}-->, or for orders that are based on a [negotiated quote]({% link sales/quotes.md %})<!--{% endif %}-->.
 
-![]({{ site.baseurl }}{% link images/images/sales-order-pending-edit.png %}){: .zoom}
+![]({% link images/images/sales-order-pending-edit.png %}){: .zoom}
 _Edit Sales Order_
 
 Review the following sections in the sales order, using the field descriptions for reference.
@@ -83,13 +83,13 @@ Review the following sections in the sales order, using the field descriptions f
 ## Order and Account Information
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/order-and-account-information.png %}){: .zoom}
+![]({% link images/images/order-and-account-information.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/order-and-account-information.png %}){: .zoom}
+![]({% link images/images-ee/order-and-account-information.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-b2b/order-and-account-information.png %}){: .zoom}
+![]({% link images/images-b2b/order-and-account-information.png %}){: .zoom}
 <!--{% endif %}-->
 _Order and Account Information_
 
@@ -110,34 +110,34 @@ _Order and Account Information_
 ## Address Information
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/order-address-information.png %}){: .zoom}
+![]({% link images/images/order-address-information.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/order-address-information.png %}){: .zoom}
+![]({% link images/images-ee/order-address-information.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-b2b/order-address-information.png %}){: .zoom}
+![]({% link images/images-b2b/order-address-information.png %}){: .zoom}
 <!--{% endif %}-->
 _Address Information_
 
 |Field|Description|
 |--- |--- |
-|Billing Address|The name of the customer {% if "Default.B2B Only" contains site.edition %}or buyer{% endif %} who placed the order, followed by the {% if "Default.B2B Only" contains site.edition %}company {% endif %}billing address, telephone number and [VAT]({{ site.baseurl }}{% link tax/vat.md %}), if applicable. The telephone number is linked to autodial on a mobile device.|
+|Billing Address|The name of the customer {% if "Default.B2B Only" contains site.edition %}or buyer{% endif %} who placed the order, followed by the {% if "Default.B2B Only" contains site.edition %}company {% endif %}billing address, telephone number and [VAT]({% link tax/vat.md %}), if applicable. The telephone number is linked to autodial on a mobile device.|
 |Shipping Address|The name of the person to whose attention the order should be shipped, followed by the {% if "Default.B2B Only" contains site.edition %}company{% endif %} shipping address and telephone number. The telephone number is linked to autodial on a mobile device.|
 
 ## Payment & Shipping Method
 
-![]({{ site.baseurl }}{% link images/images/order-payment-and-shipping-method-braintree.png %}){: .zoom}
+![]({% link images/images/order-payment-and-shipping-method-braintree.png %}){: .zoom}
 _Payment & Shipping Method_
 
 |Field|Description|
 |--- |--- |
-|Payment Information|The method of payment to be used for the order, and purchase order number, if applicable, followed by the currency that was used to place the order.{% if "Default.B2B Only" contains site.edition %} If the order is charged to company credit, using [Payment on Account]({{ site.baseurl }}{% link payment/payment-on-account.md %}), the amount charged to the account is indicated.{% endif %}|
+|Payment Information|The method of payment to be used for the order, and purchase order number, if applicable, followed by the currency that was used to place the order.{% if "Default.B2B Only" contains site.edition %} If the order is charged to company credit, using [Payment on Account]({% link payment/payment-on-account.md %}), the amount charged to the account is indicated.{% endif %}|
 |Shipping & Handling Information|The shipping method to be used, and any handling fee that is applicable.|
 
 ## To review items ordered:
 
-![]({{ site.baseurl }}{% link images/images/order-items-ordered-tristan.png %}){: .zoom}
+![]({% link images/images/order-items-ordered-tristan.png %}){: .zoom}
 _Items Ordered_
 
 In the **Order Total** section, do the following:
@@ -149,17 +149,17 @@ In the **Order Total** section, do the following:
 1. If you want the comment to be visible in the customer account, mark the **Visible on Storefront** checkbox.
 
     <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({{ site.baseurl }}{% link images/images/order-order-total-tristan.png %}){: .zoom}
+    ![]({% link images/images/order-order-total-tristan.png %}){: .zoom}
     <!--{% endif %}-->
     <!--{% if "Default.EE Only" contains site.edition %}-->
-    ![]({{ site.baseurl }}{% link images/images-ee/order-total.png %}){: .zoom}
+    ![]({% link images/images-ee/order-total.png %}){: .zoom}
     <!--{% endif %}-->
     <!--{% if "Default.B2B Only" contains site.edition %}-->
-    ![]({{ site.baseurl }}{% link images/images-b2b/order-total.png %}){: .zoom}
+    ![]({% link images/images-b2b/order-total.png %}){: .zoom}
     <!--{% endif %}-->
     _Order Total_
 
-1. If you are ready to invoice the order, click **Invoice**. Then follow the instructions to [Create an Invoice.]({{ site.baseurl }}{% link sales/invoice-create.md %})
+1. If you are ready to invoice the order, click **Invoice**. Then follow the instructions to [Create an Invoice.]({% link sales/invoice-create.md %})
 
 |Field|Description|
 |--- |--- |

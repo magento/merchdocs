@@ -3,9 +3,9 @@ conditions: Default.EE-B2B
 title: Order by SKU
 ---
 
-Order by SKU is a [widget]({{ site.baseurl }}{% link cms/widgets.md %}) that can be displayed in the store as a convenience for all shoppers, or made available to only those in specific customer groups. Shoppers can either enter the SKU and quantity information directly into the Order by SKU block, or upload a csv file from their customer account. Regardless of the configuration, Order by SKU is always available to store administrators.
+Order by SKU is a [widget]({% link cms/widgets.md %}) that can be displayed in the store as a convenience for all shoppers, or made available to only those in specific customer groups. Shoppers can either enter the SKU and quantity information directly into the Order by SKU block, or upload a csv file from their customer account. Regardless of the configuration, Order by SKU is always available to store administrators.
 
-![]({{ site.baseurl }}{% link images/images/storefront-order-by-sku.png %}){: .zoom}
+![]({% link images/images/storefront-order-by-sku.png %}){: .zoom}
 _Order by SKU in the Storefront_
 
 ## To order by SKU from the storefront:
@@ -28,7 +28,7 @@ _Order by SKU in the Storefront_
 
        - Enter the **SKU** and **Qty** of the item to be ordered.
 
-       - To add additional items as needed, click **Add Row** ![]({{ site.baseurl }}{% link images/images/btn-add-row.png %}){: .Inline} and repeat for as many items as necessary.
+       - To add additional items as needed, click **Add Row** ![]({% link images/images/btn-add-row.png %}){: .Inline} and repeat for as many items as necessary.
 
     - Upload a CSV file of multiple items to be ordered, do the following:
 
@@ -46,7 +46,7 @@ _Order by SKU in the Storefront_
 
 1. In the _Sales_ section in the left panel, choose **Sales**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the _Order by SKU Settings_ section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the _Order by SKU Settings_ section.
 
 1. Set **Enable Order by SKU on my Account in Storefront** to one of the following:
 
@@ -54,7 +54,7 @@ _Order by SKU in the Storefront_
     - **Yes, for Specified Customer Groups** – Order by SKU is available only to members of a specific customer group, such as `Wholesale`.
     - **No** – The Order by SKU block does not appear in the storefront, and the Order by SKU page is not available in the  customer account.
 
-      ![]({{ site.baseurl }}{% link images/images/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
+      ![]({% link images/images/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
       _Order by SKU Settings_
 
 1. Click **Save Config**.

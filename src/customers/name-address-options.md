@@ -2,7 +2,7 @@
 title: Name and Address Options
 ---
 
-The Name and Address Options determine which attributes are included in the names and addresses that appear in the [customer account]({{ site.baseurl }}{% link customers/account-dashboard.md %}).
+The Name and Address Options determine which attributes are included in the names and addresses that appear in the [customer account]({% link customers/account-dashboard.md %}).
 
 ## To configure the customer name and address:
 
@@ -10,9 +10,9 @@ The Name and Address Options determine which attributes are included in the name
 
 1. In the panel on the left, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Name and Address Options** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Name and Address Options** section.
 
-    ![]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-name-address.png %}){: .zoom}
+    ![]({% link images/images/config-customers-customer-configuration-name-address.png %}){: .zoom}
     _Name and Address Options_
 
 1. In the **Prefix Dropdown Options** field, enter each prefix that you want to appear in the list, separated by a semicolon.

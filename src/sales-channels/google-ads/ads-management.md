@@ -3,20 +3,20 @@ title: Managing Ad Campaigns
 ---
 
 
-Simplify your ad campaign management, increase your sales, and expand your reach with Smart Shopping campaigns. Smart Shopping campaigns combine, your existing product catalog with Google’s machine learning to show a variety of ads across different ad networks. Networks include the Google Search Network, the Google Display Network, YouTube, and Gmail. Smart Shopping campaigns feature both Product Shopping ads and display ads (including Remarketing Ads and Similar Audiences). To learn more about Google Ads, see [About Google Merchant Center and Ads]({{ site.baseurl }}{% link sales-channels/google-ads/about-google.md %}).
+Simplify your ad campaign management, increase your sales, and expand your reach with Smart Shopping campaigns. Smart Shopping campaigns combine, your existing product catalog with Google’s machine learning to show a variety of ads across different ad networks. Networks include the Google Search Network, the Google Display Network, YouTube, and Gmail. Smart Shopping campaigns feature both Product Shopping ads and display ads (including Remarketing Ads and Similar Audiences). To learn more about Google Ads, see [About Google Merchant Center and Ads]({% link sales-channels/google-ads/about-google.md %}).
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/google/ads-examples.png %})
+![]({% link images/images/sales-channels/google/ads-examples.png %})
 
 ## Requirements for Campaigns
 
 You need to configure the following for campaigns to actively display ads on Google networks. If these settings are not completed, ads do not run regardless if campaigns are listed as active.
 
-* Completed [onboarding]({{ site.baseurl }}{% link sales-channels/google-ads/onboarding-google.md %}) with a GMC and an Ads account
-* Added a payment method to Google Ads and updated settings (see [Account Settings]({{ site.baseurl }}{% link sales-channels/google-ads/acct-settings.md %}))
+* Completed [onboarding]({% link sales-channels/google-ads/onboarding-google.md %}) with a GMC and an Ads account
+* Added a payment method to Google Ads and updated settings (see [Account Settings]({% link sales-channels/google-ads/acct-settings.md %}))
 
 ## Campaign Basics
 
-Understanding the basics and [best practices]({{ site.baseurl }}{% link sales-channels/google-ads/google-best-practices.md %}) helps you get ahead with campaigns:
+Understanding the basics and [best practices]({% link sales-channels/google-ads/google-best-practices.md %}) helps you get ahead with campaigns:
 
 * Edit the campaign anytime to update settings for Paused and Active campaigns.
 * Updates sync immediately to Google.
@@ -36,7 +36,7 @@ When accessing Google Shopping ads, the dashboard provides a list of all ad camp
 * Campaign details and status
 * Action options including editing and pausing campaigns
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/google/ad-campaigns.png %}){: .zoom}
+![]({% link images/images/sales-channels/google/ad-campaigns.png %}){: .zoom}
 *Ad Campaigns Dashboard*
 
 ### Campaign Information
@@ -52,5 +52,5 @@ When accessing Google Shopping ads, the dashboard provides a list of all ad camp
 |Conversions|Number of purchases completed after clicking on products in this ad campaign.|
 |Conversion Value|Estimated value of conversion from click to purchase.|
 |Launch Date|The date when the campaign was created. Ended campaigns do not have a listed date.|
-|Status|Supported Google Ads status for the campaign. For more information, see Google's [About campaign status](https://support.google.com/google-ads/answer/1722131).<br/><br/>Options:<br/>**Active**: Eligible and actively displays ads on Google. The campaign runs until **Paused** or **Ended** through the Actions menu. This is the default state for created campaigns. If you do not have a [configured payment method]({{ site.baseurl }}{% link sales-channels/google-ads/acct-settings.md %}), ads are not actively running.<br/>**Paused**: Inactive due to being paused. To run, the campaign must be enabled and Active. Ads do not display on Google.<br/>**Ended**: Campaign was ended through the Actions menu and no longer runs. The date clears. Ads do not display on Google.|
+|Status|Supported Google Ads status for the campaign. For more information, see Google's [About campaign status](https://support.google.com/google-ads/answer/1722131).<br/><br/>Options:<br/>**Active**: Eligible and actively displays ads on Google. The campaign runs until **Paused** or **Ended** through the Actions menu. This is the default state for created campaigns. If you do not have a [configured payment method]({% link sales-channels/google-ads/acct-settings.md %}), ads are not actively running.<br/>**Paused**: Inactive due to being paused. To run, the campaign must be enabled and Active. Ads do not display on Google.<br/>**Ended**: Campaign was ended through the Actions menu and no longer runs. The date clears. Ads do not display on Google.|
 |Actions|Inventory Management does not use this value. When you complete a return or Credit Memo, the product quantity is automatically returned to the affected source quantity.<br/><br/>Options:<br/>**Edit**: Open and update campaign settings. Be advised, updating budgets and products in campaigns can start a two week relearning period.<br/>**Enable**: Activates a campaign and begins running ads based on eligibility. The status sets to Active.<br/>**Pause**: Deactivates a campaign without ending it. It remains inactive due to being paused, not running again until enabled. The status sets to Paused.<br/>**End**: Concludes or ends the campaign. The date clears.|

@@ -2,20 +2,20 @@
 title: Click & Collect
 ---
 
-Click & Collect allows customers to order online, and pick up their orders at the store or another designated location. For a description of how Click & Collect is specified during checkout, see [Customer Experience]({{ site.baseurl }}{% link shipping/magento-shipping-customer-experience.md %}).
+Click & Collect allows customers to order online, and pick up their orders at the store or another designated location. For a description of how Click & Collect is specified during checkout, see [Customer Experience]({% link shipping/magento-shipping-customer-experience.md %}).
 
 Every Click & Collect order generates a pickup record. Like a shipment, the pickup record is associated with the specific order. The main difference between the two is that a pickup does not have packaging or quote/booking requirements. Because Click & Collect is available only from the storefront, it cannot be used for orders that are created from the Admin.
 
 ## Before you begin
 
-Complete the setup of your Click & Collect [Locations]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %}). The location name, address, and opening/closing hours are visible to the customer during checkout. Special hours are included if they go into effect within the next seven days.
+Complete the setup of your Click & Collect [Locations]({% link shipping/magento-shipping-locations.md %}). The location name, address, and opening/closing hours are visible to the customer during checkout. Special hours are included if they go into effect within the next seven days.
 
 {: .bs-callout .bs-callout-info}
 The pickup location that a customer chooses during cannot be changed from the Admin.
 
-Create a Qualify [Shipping Experience Rule]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %}) with the outcome set to “Offer click and collect locations”. The rule can be configured to offer one or more locations. If the Click & Collection location is set to “All,” any new locations appear to the customer during checkout.
+Create a Qualify [Shipping Experience Rule]({% link shipping/magento-shipping-experience-rules.md %}) with the outcome set to “Offer click and collect locations”. The rule can be configured to offer one or more locations. If the Click & Collection location is set to “All,” any new locations appear to the customer during checkout.
 
-In the Magento Shipping [configuration]({{ site.baseurl }}{% link shipping/magento-shipping-setup.md %}), set **Enable Click and Collect** to “Yes”.
+In the Magento Shipping [configuration]({% link shipping/magento-shipping-setup.md %}), set **Enable Click and Collect** to “Yes”.
 
 ## To fulfill a Click & Collect order
 

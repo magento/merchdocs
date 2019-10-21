@@ -7,7 +7,7 @@ Tax rules incorporate a combination of product class, customer class and tax rat
 {: .bs-callout-info}
 When numerous taxes must be defined, you can simplify the process by importing them.
 
-![]({{ site.baseurl }}{% link images/images/tax-rules.png %}){: .zoom}
+![]({% link images/images/tax-rules.png %}){: .zoom}
 _Tax Rules_
 
 ## Step 1: Complete the Tax Rule Information
@@ -20,11 +20,11 @@ _Tax Rules_
 
 1. Choose the **Tax Rate** that applies to the rule. If you need to edit an existing tax rate, do the following:
 
-    - Hover over the tax rate, and click the **Edit**![]({{ site.baseurl }}{% link images/images/btn-edit.png %}) icon.
+    - Hover over the tax rate, and click the **Edit**![]({% link images/images/btn-edit.png %}) icon.
 
     - Update the form as needed, and click <span class="btn">Save</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/tax-rule-information.png %}){: .zoom}
+    ![]({% link images/images/tax-rule-information.png %}){: .zoom}
     _Tax Rule Information_
 
 1. To enter tax rates, use either of the following methods:
@@ -33,11 +33,11 @@ _Tax Rules_
 
 1. Click <span class="btn">Add New Tax Rate</span>.
 
-1. Complete the form as needed. See [Tax Zones and Rates]({{ site.baseurl }}{% link tax/tax-zones-rates.md %}).
+1. Complete the form as needed. See [Tax Zones and Rates]({% link tax/tax-zones-rates.md %}).
 
 1. When complete, click <span class="btn">Save</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/tax-rate-create-new.png %}){: .zoom}
+    ![]({% link images/images/tax-rate-create-new.png %}){: .zoom}
     _New Tax Rate_
 
 ### Method 2: Import Tax Rates
@@ -50,9 +50,9 @@ _Tax Rules_
 
     - Click **Import Tax Rates**.
 
-1. To export tax rates, click **Export Tax Rates**. See [Import/Export Tax Rates]({{ site.baseurl }}{% link system/data-transfer-tax-rates.md %}).
+1. To export tax rates, click **Export Tax Rates**. See [Import/Export Tax Rates]({% link system/data-transfer-tax-rates.md %}).
 
-![]({{ site.baseurl }}{% link images/images/tax-rule-new-import-export.png %}){: .zoom}
+![]({% link images/images/tax-rule-new-import-export.png %}){: .zoom}
 _Import / Export Tax Rates_
 
 ## Step 2: Complete the Additional Settings
@@ -61,13 +61,13 @@ Click **Additional Settings** to open the section. Then, do the following:
 
 1. Choose the **Customer Tax Class** to which the rule applies.
 
-    - To edit a customer tax class, click the edit ![]({{ site.baseurl }}{% link images/images/btn-edit.png %}) icon. Then, update the form as needed and click <span class="btn">Save</span>.
+    - To edit a customer tax class, click the edit ![]({% link images/images/btn-edit.png %}) icon. Then, update the form as needed and click <span class="btn">Save</span>.
 
     - To create a new tax class, click <span class="btn">Add New Tax Class</span>. Then, complete the form as needed, and click <span class="btn">Save</span>.
 
 1. Choose the **Product Tax Class** to which the rule applies.
 
-    - To edit a product tax class, click the edit ![]({{ site.baseurl }}{% link images/images/btn-edit.png %}) icon. Then, update the form as needed and click **Save**.
+    - To edit a product tax class, click the edit ![]({% link images/images/btn-edit.png %}) icon. Then, update the form as needed and click **Save**.
 
     - To create a new tax class, click <span class="btn">Add New Tax Class</span>. Then, complete the form as needed and click <span class="btn">Save</span>.
 
@@ -79,7 +79,7 @@ Click **Additional Settings** to open the section. Then, do the following:
 
 1. In the **Sort Order** field, enter a number to indicate the order of this tax rule when listed with others.
 
-    ![]({{ site.baseurl }}{% link images/images/tax-rule-new-additional-settings.png %}){: .zoom}
+    ![]({% link images/images/tax-rule-new-additional-settings.png %}){: .zoom}
     _Additional Settings_
 
 1. When complete, click <span class="btn">Save Rule</span>.

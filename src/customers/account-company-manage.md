@@ -3,11 +3,11 @@ conditions: Default.B2B Only
 title: Managing Company Accounts
 ---
 
-The Companies page lists all current company accounts, regardless of status. Any pending requests for approval appear at the top of the list. The standard [workplace controls]({{ site.baseurl }}{% link stores/admin-workspace.md %}) can be used to filter the list, change the [column layout]({{ site.baseurl }}{% link stores/admin-grid-layout.md %}), save views, and export data.
+The Companies page lists all current company accounts, regardless of status. Any pending requests for approval appear at the top of the list. The standard [workplace controls]({% link stores/admin-workspace.md %}) can be used to filter the list, change the [column layout]({% link stores/admin-grid-layout.md %}), save views, and export data.
 
-The [Actions control]({{ site.baseurl }}{% link stores/admin-actions-control.md %}) above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions]({{ site.baseurl }}{% link system/permissions.md %}) of the user.
+The [Actions control]({% link stores/admin-actions-control.md %}) above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions]({% link system/permissions.md %}) of the user.
 
-![]({{ site.baseurl }}{% link images/images-b2b/customer-companies-grid.png %}){: .zoom} 
+![]({% link images/images-b2b/customer-companies-grid.png %}){: .zoom} 
 _Companies Grid_
 
 ## To apply an action:
@@ -64,7 +64,7 @@ The credit in the accounts of selected companies is converted to the current rat
 
     The value of each value that can be updated appears in a text box.
   
-    ![]({{ site.baseurl }}{% link images/images-b2b/companies-grid-quick-edit.png %}){: .zoom}
+    ![]({% link images/images-b2b/companies-grid-quick-edit.png %}){: .zoom}
     _Quick Edit_
 
 1. Update any of the following values as needed:
@@ -85,7 +85,7 @@ The credit in the accounts of selected companies is converted to the current rat
 
 1. Make the necessary changes to the company information.
 
-    For field descriptions, see [Updating Company Accounts]({{ site.baseurl }}{% link customers/account-company-update.md %}).
+    For field descriptions, see [Updating Company Accounts]({% link customers/account-company-update.md %}).
 
 1. When complete, click <span class="btn">Save</span>.
 
@@ -113,7 +113,7 @@ The credit in the accounts of selected companies is converted to the current rat
 |Country|The country where the company is registered to conduct business.|
 |State Province|The state or province where the company is registered to conduct business.|
 |City|The city where the company is registered to conduct business.|
-|Group/Shared Catalog|The column name depends on whether Shared Catalog is enabled in the configuration. Options: <br/>**Customer Group** - If Shared Catalog is not enabled in the configuration, specifies the name of the [customer group]({{ site.baseurl }}{% link customers/customer-groups.md %}) to which the company belongs. <br/>**Shared Catalog** - If Shared Catalog is enabled in the configuration, specifies the name of the shared catalog that is assigned to the customer.|
+|Group/Shared Catalog|The column name depends on whether Shared Catalog is enabled in the configuration. Options: <br/>**Customer Group** - If Shared Catalog is not enabled in the configuration, specifies the name of the [customer group]({% link customers/customer-groups.md %}) to which the company belongs. <br/>**Shared Catalog** - If Shared Catalog is enabled in the configuration, specifies the name of the shared catalog that is assigned to the customer.|
 |Outstanding Balance|The outstanding balance on the company account. the column is blank if the company does not have a credit history, and its credit limit is zero.|
 |Company Admin|The first and last name of the company administrator.|
 |Job Title|The job title of the company administrator.|
@@ -122,7 +122,7 @@ The credit in the accounts of selected companies is converted to the current rat
 
 ### Additional Columns
 
-The following columns are available by changing the [column layout]({{ site.baseurl }}{% link stores/admin-grid-layout.md %}) of the grid.
+The following columns are available by changing the [column layout]({% link stores/admin-grid-layout.md %}) of the grid.
 
 |Field|Description|
 |--- |--- |
@@ -130,9 +130,9 @@ The following columns are available by changing the [column layout]({{ site.base
 |Street Address|The street address where the company is registered to conduct business.|
 |ZIP|The ZIP or postal code where the company  is registered to conduct business.|
 |Reseller ID|The resale number that is assigned to the company for tax reporting purposes.|
-|VAT/TAX ID|The [value-added tax]({{ site.baseurl }}{% link tax/vat.md %}) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options]({{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}).|
+|VAT/TAX ID|The [value-added tax]({% link tax/vat.md %}) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options]({% link configuration/customers/customer-configuration.md %}).|
 |Credit Limit|The credit limit that is extended to the company account.|
 |Credit Currency|The currency that is accepted by the store for purchases on company credit.|
-|[Status]({{ site.baseurl }}{% link customers/account-company-approve.md %})|Indicates the current state of the company account. Options: <br/>**Active** - The company account is approved by the store administrator. The company administrator and associated members can log in the account from the storefront and make purchases. <br/>**Pending Approval** - A request to open a company account has been submitted, but is not yet approved by the store administrator. <br/>**Rejected** - A request to open a company account was submitted, but not approved by the store administrator. The initial login credentials that were used to submit the request are blocked. <br/>**Blocked** - Company members can log in and access the catalog, but cannot make purchases. The store administrator might block a company account that is not in good standing. The block on the account can be removed by the store administrator at any time.|
+|[Status]({% link customers/account-company-approve.md %})|Indicates the current state of the company account. Options: <br/>**Active** - The company account is approved by the store administrator. The company administrator and associated members can log in the account from the storefront and make purchases. <br/>**Pending Approval** - A request to open a company account has been submitted, but is not yet approved by the store administrator. <br/>**Rejected** - A request to open a company account was submitted, but not approved by the store administrator. The initial login credentials that were used to submit the request are blocked. <br/>**Blocked** - Company members can log in and access the catalog, but cannot make purchases. The store administrator might block a company account that is not in good standing. The block on the account can be removed by the store administrator at any time.|
 |Gender|The gender of the company administrator. Options: Male / Female / Not Specified|
 |Comment|Notes about the company account for reference and visible only from the Admin.|

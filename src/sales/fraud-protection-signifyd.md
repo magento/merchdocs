@@ -2,7 +2,7 @@
 title: Signifyd Guaranteed Fraud Protection
 ---
 
-Signifyd Guaranteed Fraud Protection automates your order review process so you can accept more orders and maximize revenue without chargeback losses. Signifyd automatically reviews orders for fraud, and indicates which orders to ship, and which to reject. The results of the Signifyd Guarantee Decision appear as a column in the [Orders]({{ site.baseurl }}{% link sales/orders.md %}) grid.
+Signifyd Guaranteed Fraud Protection automates your order review process so you can accept more orders and maximize revenue without chargeback losses. Signifyd automatically reviews orders for fraud, and indicates which orders to ship, and which to reject. The results of the Signifyd Guarantee Decision appear as a column in the [Orders]({% link sales/orders.md %}) grid.
 
 Signifyd’s Guaranteed Fraud Protection protects every approved order with a financial guarantee against fraudulent chargebacks, so you can grow your business without fear of fraud.
 
@@ -20,9 +20,9 @@ Signifyd’s Guaranteed Fraud Protection protects every approved order with a fi
 
 1. In the panel on the left under **Sales**, choose **Fraud Protection**.
 
-1. Under **Signifyd**, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Configuration** section. Then, do the following:
+1. Under **Signifyd**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Configuration** section. Then, do the following:
 
-   ![Signifyd Configuration]({{ site.baseurl }}{% link images/images/config-sales-fraud-protection-signifyd-configuration.png %}){: .zoom}
+   ![Signifyd Configuration]({% link images/images/config-sales-fraud-protection-signifyd-configuration.png %}){: .zoom}
    _Signifyd Configuration_
 
    - Set **Enable this Solution** to `Yes`.

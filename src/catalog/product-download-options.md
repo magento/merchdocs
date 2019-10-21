@@ -10,10 +10,10 @@ The downloadable configuration settings determine the default values and deliver
 
 1. In the panel on the left under **Catalog**, choose **Catalog**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Downloadable Product Options** section, and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Downloadable Product Options** section, and do the following:
 
-    ![]({{ site.baseurl }}{% link images/images/config-catalog-catalog-downloadable-product-options.png %}){: .zoom}
-    *[Downloadable Product Options]({{ site.baseurl }}{% link configuration/catalog/catalog.md %})*
+    ![]({% link images/images/config-catalog-catalog-downloadable-product-options.png %}){: .zoom}
+    *[Downloadable Product Options]({% link configuration/catalog/catalog.md %})*
 
     * To determine the stage in the order workflow when the download becomes available, set **Order Item Status to Enable Downloads** to one of the following:
 
@@ -30,7 +30,7 @@ The downloadable configuration settings determine the default values and deliver
 
     * In the **Default Sample Title** field, enter the heading that you want to appear above the selection of samples.
 
-        ![]({{ site.baseurl }}{% link images/images/product-downloadable-config-sample-title.png %}){: .zoom}
+        ![]({% link images/images/product-downloadable-config-sample-title.png %}){: .zoom}
         *Sample Title*
 
     * In the **Default Link Title** field, enter the default text that you want to use for download links.

@@ -5,7 +5,7 @@ title: Managing Orders and Shipments
 
 Inventory Management includes additional features and options for managing inventory quantities through the shipment process. As you review and fulfill shipments, cancel orders, and issue credit memos, product salable and on-hand quantities automatically update.
 
-This information includes specifics for Inventory Management. For additional information, see the [Orders]({{ site.baseurl }}{% link sales/order-management.md %}) section.
+This information includes specifics for Inventory Management. For additional information, see the [Orders]({% link sales/order-management.md %}) section.
 
 ## Orders
 
@@ -17,14 +17,14 @@ For multiaddress orders, a series of single orders are generated, one for each d
 
 Magento manages inventory for these multiaddress orders exactly like single orders, allowing for Source Selection Algorithm recommendations or overrides during shipment, partial shipments, canceling orders, and refunding with stock updates.
 
-![]({{ site.baseurl }}{% link images/images/inventory/inventory-multi-ship.png %}){: .zoom}
+![]({% link images/images/inventory/inventory-multi-ship.png %}){: .zoom}
 *Multiaddress at Checkout*
 
 ### Refunds
 
-When entering a [credit memo]({{ site.baseurl }}{% link sales/credit-memo-create.md %}) to issue a refund, you have an option to return the product quantity to the deducted source. The order information includes the inventory source that shipped the product. We recommend awarding the returned product quantity through a credit memo when you receive the returned product.
+When entering a [credit memo]({% link sales/credit-memo-create.md %}) to issue a refund, you have an option to return the product quantity to the deducted source. The order information includes the inventory source that shipped the product. We recommend awarding the returned product quantity through a credit memo when you receive the returned product.
 
-![]({{ site.baseurl }}{% link images/images/credit-memo-items-to-refund.png %}){: .zoom}
+![]({% link images/images/credit-memo-items-to-refund.png %}){: .zoom}
 *Items to Refund with Return to Stock Selected*
 
 ### Cancel Unshipped Orders
@@ -45,7 +45,7 @@ Single Source merchants may also send partial shipments to support backorders or
 
 ### Recommendations and Source Selection Algorithm
 
-The [Source Selection Algorithm]({{ site.baseurl }}{% link catalog/inventory-about-ssa.md %}) provides recommendations for partial and full shipments. You can access Source Selection Algorithms when creating shipment invoices for an order. Through the Ship page, run the Source Priority or Distance Priority algorithm at any time to determine the best options for matching ordered quantities and available sources. The system supports shipping a complete order from one source, and breaking the order into multiple partial shipments across multiple sources. You can access these options for immediate fulfillment and staggered shipments to send smaller amounts over a period of time.
+The [Source Selection Algorithm]({% link catalog/inventory-about-ssa.md %}) provides recommendations for partial and full shipments. You can access Source Selection Algorithms when creating shipment invoices for an order. Through the Ship page, run the Source Priority or Distance Priority algorithm at any time to determine the best options for matching ordered quantities and available sources. The system supports shipping a complete order from one source, and breaking the order into multiple partial shipments across multiple sources. You can access these options for immediate fulfillment and staggered shipments to send smaller amounts over a period of time.
 
 To complete and ship an order, it must have completed payment and be invoiced. At this time, you can rerun the SSA for recommendations and ship from one or more sources, or override the SSA recommendations with manually set sources and quantities to fulfill shipment.
 

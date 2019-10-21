@@ -14,7 +14,7 @@ When the results appear, tap **Details** for more information. Then, do one of t
 * If your system fails the readiness check, correct the issue and tap <span class="btn"> Try Again </span>.
 * If your system meets the requirements, tap <span class="btn"> Next </span>.
 
-For technical information, see [Installation quick reference (tutorial)][1]{: target="_blank"} in the developer documentation. ![]({{ site.baseurl }}{% link images/images/system-tools-web-setup-readiness-check.png %}){: .zoom}
+For technical information, see [Installation quick reference (tutorial)][1]{: target="_blank"} in the developer documentation. ![]({% link images/images/system-tools-web-setup-readiness-check.png %}){: .zoom}
 Readiness Check
 
 ## Step 2: Add a Database
@@ -33,7 +33,7 @@ If applicable, enter the **Table prefix**.
 
 When complete, tap <span class="btn">Next </span> . Your credentials must be correct to continue to the next step.
 
-![]({{ site.baseurl }}{% link images/images/system-tools-web-setup-database.png %}){: .zoom}
+![]({% link images/images/system-tools-web-setup-database.png %}){: .zoom}
 Add a Database
 
 ## Step 3: Web Configuration
@@ -44,7 +44,7 @@ In the **Your Store Address** field, enter the full URL of your Magento store.
 
 In the **Magento Admin Address** field, enter the full URL of the Magento Admin.
 
-Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the
+Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the
 
 **Advanced Options**, and do the following:
 
@@ -62,7 +62,7 @@ Mark the checkbox of the **Encryption Key** setting that applies to your system:
 * I want to use my own encryption key.
 {: .BulletAfterAlpha}
 
-![]({{ site.baseurl }}{% link images/images/system-tools-setup-web-config.png %}){: .zoom}
+![]({% link images/images/system-tools-setup-web-config.png %}){: .zoom}
 Web Configuration
 
 ## Step 4: Customize Your Store
@@ -79,10 +79,10 @@ Set **Store Default Currency** to the default currency that you accept as paymen
 
 Set **Store Default Language** to the primary language of your store.
 
-![]({{ site.baseurl }}{% link images/images/system-tools-web-setup-customize-store.png %}){: .zoom}
+![]({% link images/images/system-tools-web-setup-customize-store.png %}){: .zoom}
 Customize Your Store
 
-(Optional) Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the
+(Optional) Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the
 
 **Advanced Modules Configuration**, and do the following:
 
@@ -90,7 +90,7 @@ To install only specific modules, clear the **Select All** checkbox.
 
 In the list, select the checkbox of each module you want to install.
 
-![]({{ site.baseurl }}{% link images/images/system-tools-web-setup-advanced-modules-config.png %}){: .zoom}
+![]({% link images/images/system-tools-web-setup-advanced-modules-config.png %}){: .zoom}
 Advanced Modules Configuration
 
 When complete, tap <span class="btn"> Next </span>.
@@ -105,14 +105,14 @@ Enter a **New Password** for the Admin account. Then in the **Confirm Password**
 
 When complete, tap <span class="btn"> Next </span>.
 
-![]({{ site.baseurl }}{% link images/images/system-tools-web-setup-admin-account.png %}){: .zoom}
+![]({% link images/images/system-tools-web-setup-admin-account.png %}){: .zoom}
 Create Admin Account
 
 ## <b>Step 6: </b>Install
 
 When you are ready to complete the setup, tap <span class="btn"> Install Now </span>.
 
-![]({{ site.baseurl }}{% link images/images/system-tools-web-setup-install.png %}){: .zoom}
+![]({% link images/images/system-tools-web-setup-install.png %}){: .zoom}
 Install
 
 When the installation completes, a page appears with your Magento Admin and database credentials, but without the passwords. You can print the page and keep it for your records. Then, do of the following:
@@ -122,7 +122,7 @@ When the installation completes, a page appears with your Magento Admin and data
 
 If the installation fails to complete, view the **Console Log** to learn more. Then, correct the problem and try again.
 
-[Flush the cache]({{ site.baseurl }}{% link system/cache-management.md %}) and [reindex]({{ site.baseurl }}{% link system/index-management.md %}) after installing Magento.
+[Flush the cache]({% link system/cache-management.md %}) and [reindex]({% link system/index-management.md %}) after installing Magento.
 
 ## A little Housekeeping
 

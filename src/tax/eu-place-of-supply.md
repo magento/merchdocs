@@ -21,7 +21,7 @@ Merchants who are audited for taxes paid for digital goods, must provide two pie
 
 1. Assign all your digital goods to the digital goods product tax class.
 
-1. Create [tax rules]({{ site.baseurl }}{% link tax/tax-rules.md %}) for your physical goods, using physical product tax classes, and associate them with the appropriate tax rates.
+1. Create [tax rules]({% link tax/tax-rules.md %}) for your physical goods, using physical product tax classes, and associate them with the appropriate tax rates.
 
 1. Create tax rules for your digital goods, using the product tax class for digital goods, and associate them with the appropriate tax rates for EU member countries.
 

@@ -16,7 +16,7 @@ Category permissions index | Add store, add store group, add or delete or update
 {:style="table-layout:auto"}
 
 {: .bs-callout .bs-callout-info}
-The flat product and category indexers also influence how catalog and shopping cart price rules are indexed. If you have a large number of SKUs (about 500,000 or more), you will notice a dramatic improvement in indexing time for price rules. To take advantage of this improvement, you must enable [Use Flat Catalog Product]({{ site.baseurl }}{% link catalog/catalog-flat.md %}).
+The flat product and category indexers also influence how catalog and shopping cart price rules are indexed. If you have a large number of SKUs (about 500,000 or more), you will notice a dramatic improvement in indexing time for price rules. To take advantage of this improvement, you must enable [Use Flat Catalog Product]({% link catalog/catalog-flat.md %}).
 
 ## Index Actions and Controls
 

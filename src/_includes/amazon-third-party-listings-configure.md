@@ -7,7 +7,7 @@
 
     - **Import Listing**: Choose when you want products and information from your Amazon listings to import into your Magento catalog of products. This is the recommended and the default setting.
 
-    - **Do Not Import Listing**: Choose when you want to manually [create and assign new products]({{ site.baseurl }}{% link catalog/products.md %}) to your Magento catalog for your Amazon listings.
+    - **Do Not Import Listing**: Choose when you want to manually [create and assign new products]({% link catalog/products.md %}) to your Magento catalog for your Amazon listings.
 
     {:.bs-callout .bs-callout-info}
     The following options fields are only active when you select `Import Listing`.
@@ -17,4 +17,4 @@
 1. For **Attribute That Contains Amazon ASIN**, select the Magento attribute that you created and match it to the Amazon ASIN.
 
     {:.bs-callout .bs-callout-info}
-    If you did not create these Magento attributes for your Amazon listings, see [Creating Attributes for Amazon Matching]({{ site.baseurl }}{% link sales-channels/amazon/ob-creating-magento-attributes.md %}) for information.
+    If you did not create these Magento attributes for your Amazon listings, see [Creating Attributes for Amazon Matching]({% link sales-channels/amazon/ob-creating-magento-attributes.md %}) for information.

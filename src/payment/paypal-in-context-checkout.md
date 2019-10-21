@@ -5,7 +5,7 @@ title: PayPal In-Context Checkout
 
 PayPal’s In-Context Checkout makes it easier than ever to pay online. Customers never lose sight of your store during this simplified one- or two-click seamless checkout. In-Context Checkout works equally well on Macs and PCs, and offers a consistent experience on desktop computers, tablets, and mobile devices. To learn more, see: [In-Context Checkout in Express Checkout][1].
 
-![PayPal In-Context Checkout Demo]({{ site.baseurl }}{% link images/images/storefront-paypal-in-context.png %}){: .zoom}
+![PayPal In-Context Checkout Demo]({% link images/images/storefront-paypal-in-context.png %}){: .zoom}
 [_PayPal In-Context Checkout Demo_][2]
 
 ## To configure In-Context Checkout:
@@ -18,9 +18,9 @@ PayPal’s In-Context Checkout makes it easier than ever to pay online. Customer
 
    - In the **Required PayPal Settings** section, set **Enable In-Context Checkout Experience** to “Yes.”
 
-   - Enter your PayPal **Merchant Account ID**.<br/>Your Merchant Account ID is in your PayPal [business account]({{ site.baseurl }}{% link payment/paypal-business-account.md %}) profile.
+   - Enter your PayPal **Merchant Account ID**.<br/>Your Merchant Account ID is in your PayPal [business account]({% link payment/paypal-business-account.md %}) profile.
 
-     ![Enable PayPal In-Context Checkout]({{ site.baseurl }}{% link images/images/paypal-express-checkout-in-context-checkout-enable.png %}){: .zoom}
+     ![Enable PayPal In-Context Checkout]({% link images/images/paypal-express-checkout-in-context-checkout-enable.png %}){: .zoom}
      _Enable PayPal In-Context Checkout_
 
 1. When complete, tap <span class="btn">Save Config</span>.

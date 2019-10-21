@@ -2,7 +2,7 @@
 title: Coupon Codes
 ---
 
-Coupons codes are used with [cart price rules]({{ site.baseurl }}{%- link marketing/price-rules-cart.md -%}) to apply a discount when a set of conditions is met. For example, a coupon code can be created for a specific customer group, or for anyone who makes a purchase over a certain amount. To apply the coupon to a purchase, the customer can enter the coupon code in the cart, or possibly at the cash register of your “brick and mortar” store. Here are a few ways that you can use coupons in your store:
+Coupons codes are used with [cart price rules]({% link marketing/price-rules-cart.md -%}) to apply a discount when a set of conditions is met. For example, a coupon code can be created for a specific customer group, or for anyone who makes a purchase over a certain amount. To apply the coupon to a purchase, the customer can enter the coupon code in the cart, or possibly at the cash register of your “brick and mortar” store. Here are a few ways that you can use coupons in your store:
 
 * Email coupons to customers
 * Produce printed coupons
@@ -12,13 +12,13 @@ Coupon codes can be sent by email, or included in newsletters, catalogs, and adv
 
 ## Method 1: Create a Specific Coupon
 
-1. Follow the instructions to create a [cart price rule]({{ site.baseurl }}{%- link marketing/price-rules-cart.md -%}).
+1. Follow the instructions to create a [cart price rule]({% link marketing/price-rules-cart.md -%}).
 
 1. On the General Information page, set **Coupon** to “Specific Coupon”.
 
    * Enter a **Coupon Code** to be used with the promotion.
 
-        The format of the code as numeric, alphanumeric or alphabetical is determined by the [configuration]({{ site.baseurl }}{%- link marketing/price-rules-cart-coupon-code-configure.md -%}).
+        The format of the code as numeric, alphanumeric or alphabetical is determined by the [configuration]({% link marketing/price-rules-cart-coupon-code-configure.md -%}).
 
    * To limit the number of times the coupon can be used, complete the following:
 
@@ -27,13 +27,13 @@ Coupon codes can be sent by email, or included in newsletters, catalogs, and adv
 
         For unlimited use, leave these fields blank.
 
-        ![]({{ site.baseurl }}{%- link images/images/price-rule-cart-coupon-info.png -%}){: .zoom}
+        ![]({% link images/images/price-rule-cart-coupon-info.png %}){: .zoom}
         _Coupon Information_
 
 1. Make the coupon valid for a period of time.
 
     <!--{%- if "Default.CE Only" contains site.edition -%}-->
-    Complete the **From** and **To** dates. To select the date, tap the **Calendar** (![]({{ site.baseurl }}{%- link images/images/btn-calendar.png -%})) button next to each field. If you leave the date range empty, the rule does not expire.
+    Complete the **From** and **To** dates. To select the date, tap the **Calendar** (![]({% link images/images/btn-calendar.png %})) button next to each field. If you leave the date range empty, the rule does not expire.
     <!--{%- endif -%}-->
     <!--{%- if "Default.EE-B2B" contains site.edition -%}-->
     Do one of the following:
@@ -42,16 +42,16 @@ Coupon codes can be sent by email, or included in newsletters, catalogs, and adv
 
     * Tap <span class="btn">Schedule New Update</span> in the upper-right corner of the page. Then, do the following:
 
-        ![]({{ site.baseurl }}{%- link images/images/price-rule-cart-coupon-schedule-new-update.png -%}){: .zoom}
+        ![]({% link images/images/price-rule-cart-coupon-schedule-new-update.png %}){: .zoom}
         *Schedule Update*
 
     * Enter the **Update Name** and **Description**.
 
-    * Choose the **Start Date** and **End Date** from the Calendar ( ![]({{ site.baseurl }}{%- link images/images/btn-calendar.png -%}) ). If you leave the date range empty, the rule will not expire.
+    * Choose the **Start Date** and **End Date** from the Calendar ( ![]({% link images/images/btn-calendar.png %}) ). If you leave the date range empty, the rule will not expire.
 
     * When complete, tap <span class="btn">Save</span>.
   
-        ![]({{ site.baseurl }}{% link images/images/price-rule-cart-coupon-scheduled-change.png %}){: .zoom}
+        ![]({% link images/images/price-rule-cart-coupon-scheduled-change.png %}){: .zoom}
         *Scheduled Change*
 
     **Assign to Existing Update**
@@ -61,24 +61,24 @@ Coupon codes can be sent by email, or included in newsletters, catalogs, and adv
     * Find the update in the list, and tap <span class="btn">Select</span>.
     <!--{%- endif -%}-->
 
-2. Complete the [cart price rule]({{ site.baseurl }}{% link marketing/price-rules-cart.md %}) as needed.
+2. Complete the [cart price rule]({% link marketing/price-rules-cart.md %}) as needed.
 
 ## Method 2: Generate a Batch of Coupons
 
 The generation of discount coupons is an asynchronous operation, which executes in the background so that you can continue working in the Admin without waiting for the operation to finish. The system displays a message when the task is complete.
 
-1. Follow the instructions to create a [cart price rule]({{ site.baseurl }}{%- link marketing/price-rules-cart.md -%}).
+1. Follow the instructions to create a [cart price rule]({% link marketing/price-rules-cart.md -%}).
 
 1. Under **Coupon Code**, mark the **Use Auto Generation** checkbox.
 
 1. To limit the number of times each customer can use the coupon, enter the number of **Uses per Customer**.
 
-    ![]({{ site.baseurl }}{%- link images/images/price-rule-cart-coupon-auto.png -%}){: .zoom}
+    ![]({% link images/images/price-rule-cart-coupon-auto.png %}){: .zoom}
     _Generate Auto-numbered Coupons_
 
-1. Scroll down and expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Manage Coupon Codes** section. Then, do the following:
+1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Manage Coupon Codes** section. Then, do the following:
 
-    ![]({{ site.baseurl }}{%- link images/images/price-rule-cart-manage-coupon-codes.png -%}){: .zoom}
+    ![]({% link images/images/price-rule-cart-manage-coupon-codes.png %}){: .zoom}
     _Manage Coupon codes_
 
    * In the **Coupons Qty** field, enter the number of coupons that you want to generate.
@@ -99,5 +99,5 @@ The generation of discount coupons is an asynchronous operation, which executes 
 
 1. When complete, tap <span class="btn">Generate</span>. The list of generated codes appears below.
 
-    ![]({{ site.baseurl }}{%- link images/images/price-rule-cart-coupons-generated.png -%}){: .zoom}
+    ![]({% link images/images/price-rule-cart-coupons-generated.png %}){: .zoom}
     *Generated Codes*

@@ -3,7 +3,7 @@ title: Creating Attributes for Amazon
 ---
 
 
-Prior to onboarding your Amazon Seller Central accounts, we recommend adding Magento [product attributes]({{ site.baseurl }}{% link stores/attributes-product.md %}) to map your product listings. After you complete onboarding, you can manage your product attributes through the [Managing Attributes]({{ site.baseurl }}{% link sales-channels/amazon/managing-attributes.md %}) tab of the [Amazon Sales Channel Home]({{ site.baseurl }}{% link sales-channels/amazon/amazon-sales-channel-home.md %}).
+Prior to onboarding your Amazon Seller Central accounts, we recommend adding Magento [product attributes]({% link stores/attributes-product.md %}) to map your product listings. After you complete onboarding, you can manage your product attributes through the [Managing Attributes]({% link sales-channels/amazon/managing-attributes.md %}) tab of the [Amazon Sales Channel Home]({% link sales-channels/amazon/amazon-sales-channel-home.md %}).
 
 These instructions detail how to create Magento attributes for Amazon ASIN and Amazon Condition. We recommend creating additional attributes including Amazon EAN, Amazon ISBN, and Amazon UPC. You may want to also create an Amazon Price attribute if you want to use your Amazon listing price as a price source for pricing rules. These attributes are used when configuring your listing and pricing settings during onboarding. They are also be used when creating Amazon listings and when updating and syncing your Magento catalog with your Amazon listings.
 
@@ -40,7 +40,7 @@ These instructions detail how to create Magento attributes for Amazon ASIN and A
 
 1. Click <span class="btn">Save Attribute</span>.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/creating-asin-attribute.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/creating-asin-attribute.png %}){: .zoom}
 _Amazon ASIN Attribute_
 
 ## To create the Amazon Condition product attribute:
@@ -94,5 +94,5 @@ _Amazon ASIN Attribute_
 
 1. Click <span class="btn">Save Attribute</span>.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/creating-amazon-condition-attribute.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/creating-amazon-condition-attribute.png %}){: .zoom}
 _Amazon Condition Attribute_

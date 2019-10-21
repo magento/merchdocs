@@ -3,13 +3,13 @@ title: Catalog Search
 ---
 
 
-Catalog Search settings are part of your store's listing settings. You can access the listing settings for an Active or Inactive store in the [store's dashboard]({{ site.baseurl }}{% link sales-channels/amazon/amazon-store-dashboard.md %}). In the **I Want To...** section, click **Listing Settings**. The Listing Settings screen displays with the Product Listing Actions section expanded by default. Click **Catalog Search** to expand the section.
+Catalog Search settings are part of your store's listing settings. You can access the listing settings for an Active or Inactive store in the [store's dashboard]({% link sales-channels/amazon/amazon-store-dashboard.md %}). In the **I Want To...** section, click **Listing Settings**. The Listing Settings screen displays with the Product Listing Actions section expanded by default. Click **Catalog Search** to expand the section.
 
 {% include asc-importance-of-attributes.md %}
 
 {% include amazon-catalog-search-configure.md %}
 
- ![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-catalog-search.png %}){: .zoom}
+ ![]({% link images/images/sales-channels/amazon/amazon-catalog-search.png %}){: .zoom}
  _Catalog Search_
 
 |Field|Description|

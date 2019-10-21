@@ -6,4 +6,4 @@ Dimensional weight, sometimes called volumetric weight, is a common industry pra
 
 All major carriers apply dimensional weight to some shipments. However, the manner in which dimensional weight pricing is applied varies from one carrier to another.
 
-We recommend that you use [Magento Shipping]({{ site.baseurl }}{% link shipping/magento-shipping.md %}) to calculate dimensional weight for all carriers.If your company has a high volume of shipments, even a slight difference in shipping price can translate to thousands of dollars over the course of a year.
+We recommend that you use [Magento Shipping]({% link shipping/magento-shipping.md %}) to calculate dimensional weight for all carriers.If your company has a high volume of shipments, even a slight difference in shipping price can translate to thousands of dollars over the course of a year.

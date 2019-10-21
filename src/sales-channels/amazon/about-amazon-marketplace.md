@@ -27,7 +27,7 @@ Amazon offers two options for order fulfillment and shipping to third-party sell
 - Fulfilled by the merchant (FBM): Third-party sellers store their own inventory. When a customer places an order, the seller handles the packaging and shipping to the customer. This option allows you to complete shipments through Magento or another third party.
 - Fulfilled by Amazon (FBA): Third-party sellers store inventory in Amazon's fulfillment centers around the world. When a customer places an order, Amazon handles the packaging and shipping to the customer. Order details and status are sent to Magento.
 
-Amazon Sales Channel supports both options, receiving and tracking these orders through the Magento Admin. As you complete fulfillment, status updates automatically. For complete details, see [Fulfillment Workflows]({{ site.baseurl }}{% link sales-channels/amazon/fulfillment-workflows.md %}).
+Amazon Sales Channel supports both options, receiving and tracking these orders through the Magento Admin. As you complete fulfillment, status updates automatically. For complete details, see [Fulfillment Workflows]({% link sales-channels/amazon/fulfillment-workflows.md %}).
 
 ## Before selling on Amazon
 

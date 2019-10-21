@@ -15,7 +15,7 @@ A dynamic URL is created “on the fly” and might include a query string with 
 
 ### Static URL
 
-A static URL is a fixed address for a specific page. A static URL can be displayed in a search engine friendly format or one that references products and categories by ID. Search engine friendly URLs include words that people might use to look for a product, and require Web Server Rewrites to be enabled. Files with static URLs are commonly used for product and category pages, content pages, and [theme assets]({{ site.baseurl }}{% link design/theme-assets.md %}).
+A static URL is a fixed address for a specific page. A static URL can be displayed in a search engine friendly format or one that references products and categories by ID. Search engine friendly URLs include words that people might use to look for a product, and require Web Server Rewrites to be enabled. Files with static URLs are commonly used for product and category pages, content pages, and [theme assets]({% link design/theme-assets.md %}).
 
 `http://mystore.com/antonia-racer-tank.html`
 
@@ -23,7 +23,7 @@ A static URL is a fixed address for a specific page. A static URL can be display
 
 ### URL Key
 
-The URL key is the part of a static URL that describes the product or category. When you create a product or category, an initial URL key is automatically generated, based on the name. To change the URL key, see the [Search Engine Optimization]({{ site.baseurl }}{% link catalog/product-search-engine-optimization.md %}) section of the product information.
+The URL key is the part of a static URL that describes the product or category. When you create a product or category, an initial URL key is automatically generated, based on the name. To change the URL key, see the [Search Engine Optimization]({% link catalog/product-search-engine-optimization.md %}) section of the product information.
 
 The URL key should consist of lowercase characters with hyphens to separate words. A well-designed, “search engine friendly” URL key might include the product name and key words to improve the way it is indexed by search engines. The URL key can be configured to create an automatic redirect if the URL key changes.
 
@@ -55,9 +55,9 @@ To prevent search engines from indexing multiple URLs that lead to the same cont
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In page navigation bar, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} **Catalog** and click the **Catalog** menu item.
+1. In page navigation bar, expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Catalog** and click the **Catalog** menu item.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Search Engine Optimizations** section and set the options:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Search Engine Optimizations** section and set the options:
 
    - Set **Product URL Suffix** to `html` or `htm`. Enter the suffix without a period, because it is applied automatically.
 
@@ -65,12 +65,12 @@ To prevent search engines from indexing multiple URLs that lead to the same cont
 
    - Set **Use Categories Path for Product URLs** to your preference.
 
-   ![]({{ site.baseurl }}{% link images/images/config-catalog-catalog-search-engine-optimization.png %}){: .zoom}
-   [_Search Engine Optimization_]({{ site.baseurl }}{% link configuration/catalog/catalog.md %})
+   ![]({% link images/images/config-catalog-catalog-search-engine-optimization.png %}){: .zoom}
+   [_Search Engine Optimization_]({% link configuration/catalog/catalog.md %})
 
 1. When complete, click <span class="btn"> Save Config </span>.
 
 1. When prompted, click the **Cache Management** link in the system message, and refresh the invalid cache.
 
-   ![]({{ site.baseurl }}{% link images/images/msg-cache-management.png %}){: .zoom}
-   [_Refresh Cache_]({{ site.baseurl }}{% link system/cache-management.md %})
+   ![]({% link images/images/msg-cache-management.png %}){: .zoom}
+   [_Refresh Cache_]({% link system/cache-management.md %})

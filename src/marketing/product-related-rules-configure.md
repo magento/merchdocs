@@ -11,10 +11,10 @@ The behavior and display of product relationship rules is determined by the conf
 
 1. In the panel on the left under **Catalog**, tap **Catalog**.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Rules-Based Product Relations** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Rules-Based Product Relations** section. Then, do the following:
 
-    ![]({{ site.baseurl }}{%- link images/images/config-catalog-catalog-rule-based-product-relations.png -%}){: .zoom} [ 
-    *Rule-Based Product Relations*]({{ site.baseurl }}{%- link configuration/catalog/catalog.md -%})
+    ![]({% link images/images/config-catalog-catalog-rule-based-product-relations.png %}){: .zoom} [ 
+    *Rule-Based Product Relations*]({% link configuration/catalog/catalog.md -%})
 
     * Enter the **Maximum Number of Products in the Related Products List**.
 

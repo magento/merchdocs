@@ -5,7 +5,7 @@ group: sales
 
 For registered customers who need assistance, you can create an entire order directly from the Admin. The Create New Order form includes all the information that is needed to complete the normal checkout process, with activity summaries from the customer’s account dashboard.
 
-![]({{ site.baseurl }}{% link images/images/customer-create-new-order.png %}){: .zoom}
+![]({% link images/images/customer-create-new-order.png %}){: .zoom}
 _Create New Order_
 
 ## Step 1: Create a new order:
@@ -18,7 +18,7 @@ _Create New Order_
 
 1. In the workspace header, click **Create Order**.
 
-    ![]({{ site.baseurl }}{% link images/images/order-create-buttons.png %}){: .zoom}
+    ![]({% link images/images/order-create-buttons.png %}){: .zoom}
     _Workspace header_
 
 ## Step 2: Add products
@@ -33,19 +33,19 @@ If your store has multiple views, choose the store view where the order is to be
 
     The item appears in the order form.
 
-    ![]({{ site.baseurl }}{% link images/images/customer-account-create-order-add-from-wishlist.png %}){: .zoom}
+    ![]({% link images/images/customer-account-create-order-add-from-wishlist.png %}){: .zoom}
     _Add to Cart_
 
 ### To add products from the catalog:
 
 1. Click <span class="btn">Add Products</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/customer-account-add-product-from-wishlist.png %}){: .zoom}
+    ![]({% link images/images/customer-account-add-product-from-wishlist.png %}){: .zoom}
     _Add Products_
 
 1. In the grid, select the checkbox of each product to be added to the cart and enter the **Qty** to be purchased.
 
-   ![]({{ site.baseurl }}{% link images/images/customer-account-create-order-select-from-catalog.png %}){: .zoom}
+   ![]({% link images/images/customer-account-create-order-select-from-catalog.png %}){: .zoom}
    _Select Products_
 
 1. Configure available product options:
@@ -64,7 +64,7 @@ If your store has multiple views, choose the store view where the order is to be
 
     - To update the cart totals, click <span class="btn">Update Items and Quantities</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/customer-account-create-order-custom-price.png %}){: .zoom}
+    ![]({% link images/images/customer-account-create-order-custom-price.png %}){: .zoom}
     _Custom Price_
 
 1. Complete the following sections as needed for the order:
@@ -80,5 +80,5 @@ Click <span class="btn">Submit Order</span>.
 
 A confirmation is sent to the customer and the customer can view the order details from their account.
 
-![]({{ site.baseurl }}{% link images/images/customer-account-create-order-submtited.png %}){: .zoom}
+![]({% link images/images/customer-account-create-order-submtited.png %}){: .zoom}
 _Order Created_

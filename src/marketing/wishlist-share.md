@@ -4,7 +4,7 @@ title: Sharing a Wish List
 
 Customers can manage their wish lists from the dashboard of their accounts. Store administrators can also help customers manage their wish lists from the Admin.
 
-![]({{ site.baseurl }}{%- link images/images/storefront-my-wishlist.png -%}){: .zoom}
+![]({% link images/images/storefront-my-wishlist.png %}){: .zoom}
 *Customer Dashboard with Wish List*
 
 ## To share your wish list
@@ -23,7 +23,7 @@ Customers can manage their wish lists from the dashboard of their accounts. Stor
 
 1. When you are ready to send the message, tap <span class="btn">Share Wish List</span>.
 
-    ![]({{ site.baseurl }}{%- link images/images/storefront-wishlist-sharing.png -%}){: .zoom}
+    ![]({% link images/images/storefront-wishlist-sharing.png %}){: .zoom}
     *Customer Dashboard with Wish List*
 
 ## To transfer an item to your cart

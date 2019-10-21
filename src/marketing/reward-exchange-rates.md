@@ -20,12 +20,12 @@ When converting currency to points, the amount of points cannot be divided. Any 
 
 1. In the upper-right corner, tap <span class="btn">Add New Rate</span>.
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/reward-exchange-rates.png -%}){: .zoom}
+    ![]({% link images/images-ee/reward-exchange-rates.png %}){: .zoom}
     *Reward Exchange Rates*
 
 1. In the **Reward Exchange Rate Information** section, do the following:
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/reward-exchange-rate-new.png -%}){: .zoom}
+    ![]({% link images/images-ee/reward-exchange-rate-new.png %}){: .zoom}
     *Reward Exchange Rate Information*
 
     * Set **Website** to the sites where the reward exchange rate applies.

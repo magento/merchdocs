@@ -4,21 +4,21 @@ title: Tier Price
 
 Tier pricing lets you offer a quantity discount from a product listing or product page in the storefront. The discount can be applied to a specific store view or customer group {% if "Default.B2B Only" contains site.edition %}or shared catalog.{% endif %}
 
-If you have many products to update, it is most efficient to import the tier price changes, rather than enter them individually. To learn more, see: [Importing Tier Prices]({{ site.baseurl }}{% link system/data-import-price-tier.md %}).
+If you have many products to update, it is most efficient to import the tier price changes, rather than enter them individually. To learn more, see: [Importing Tier Prices]({% link system/data-import-price-tier.md %}).
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 
-![]({{ site.baseurl }}{% link images/images/storefront-tier-pricing-water-bottle.png %}){: .zoom}
+![]({% link images/images/storefront-tier-pricing-water-bottle.png %}){: .zoom}
 <!--{% endif %}-->
 
 <!--{% if "Default.EE Only" contains site.edition %}-->
 
-![]({{ site.baseurl }}{% link images/images-ee/storefront-tier-pricing-water-bottle.png %}){: .zoom}
+![]({% link images/images-ee/storefront-tier-pricing-water-bottle.png %}){: .zoom}
 <!--{% endif %}-->
 
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 
-![]({{ site.baseurl }}{% link images/images-b2b/storefront-tier-pricing-water-bottle.png %}){: .zoom}
+![]({% link images/images-b2b/storefront-tier-pricing-water-bottle.png %}){: .zoom}
 <!--{% endif %}-->
 
 *Tier Price on Product Page*
@@ -61,7 +61,7 @@ The prices in the storefront take precedence from the highest to the lowest quan
 
         2. In the next field, enter the adjusted price for one unit at that tier.
 
-        ![]({{ site.baseurl }}{% link images/images/product-price-tier-fixed.png %}){: .zoom}
+        ![]({% link images/images/product-price-tier-fixed.png %}){: .zoom}
         *Tier Price as a Fixed Amount*
 
         **Method 2: Enter Price as Percentage**
@@ -72,12 +72,12 @@ The prices in the storefront take precedence from the highest to the lowest quan
 
         <!--{% if "Default.CE Only,Default.EE Only" contains site.edition %}-->
 
-        ![]({{ site.baseurl }}{% link images/images/product-price-tier-discount.png %}){: .zoom}
+        ![]({% link images/images/product-price-tier-discount.png %}){: .zoom}
         <!--{% endif %}-->
 
         <!--{% if "Default.B2B Only" contains site.edition %}-->
 
-        ![]({{ site.baseurl }}{% link images/images-b2b/product-price-tier-discount.png %}){: .zoom}
+        ![]({% link images/images-b2b/product-price-tier-discount.png %}){: .zoom}
         <!--{% endif %}-->
 
         *Tier Price as a Percentage*

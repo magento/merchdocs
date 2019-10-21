@@ -3,11 +3,11 @@ title: Cookie Reference
 group: getting-started
 ---
 
-The default Magento cookies are classified as Exempt / Non-Exempt to help merchants meet [GDPR]({{ site.baseurl }}{% link stores/compliance-gdpr.md %}) requirements. Merchants should use this information as a guide, and consult with legal advisors to update their Privacy and Cookie Policies as part of a comprehensive GDPR compliance strategy.
+The default Magento cookies are classified as Exempt / Non-Exempt to help merchants meet [GDPR]({% link stores/compliance-gdpr.md %}) requirements. Merchants should use this information as a guide, and consult with legal advisors to update their Privacy and Cookie Policies as part of a comprehensive GDPR compliance strategy.
 
 ## Magento 2 Default Cookies
 
-The following cookies are used by Magento Commerce “out of the box” for on-premise and cloud installations. These cookies may be required by functionality that is explicitly requested by the customer. To learn about the lifetime of session cookies, see [Session Lifetime]({{ site.baseurl }}{% link customers/customer-online-options.md %}).
+The following cookies are used by Magento Commerce “out of the box” for on-premise and cloud installations. These cookies may be required by functionality that is explicitly requested by the customer. To learn about the lifetime of session cookies, see [Session Lifetime]({% link customers/customer-online-options.md %}).
 
 Some of these cookies may provide configuration options, including enable/disable, as needed.
 
@@ -30,7 +30,7 @@ Stores the Order ID that guest shoppers use to retrieve their order status. Gues
 
 #### `login_redirect`
 
-Preserves the destination page the customer was loading before being directed to log in. Used in mini cart for logged in customers if the [Display Shopping Cart Sidebar]({{ site.baseurl }}{% link sales/cart-sidebar.md %}) configuration option is set to `Yes`.
+Preserves the destination page the customer was loading before being directed to log in. Used in mini cart for logged in customers if the [Display Shopping Cart Sidebar]({% link sales/cart-sidebar.md %}) configuration option is set to `Yes`.
 
 - Is Secure? No
 - HTTP Only: No
@@ -56,7 +56,7 @@ There is not an option to disable this cookie.
 
 #### `mage-translation-storage` (local storage)
 
-Stores translated content when requested by the shopper. Used when [Translation Strategy]({{ site.baseurl }}{% link configuration/advanced/developer.md %}) is configured as "Dictionary (Translation on Storefront side)".
+Stores translated content when requested by the shopper. Used when [Translation Strategy]({% link configuration/advanced/developer.md %}) is configured as "Dictionary (Translation on Storefront side)".
 
 - Is Secure? No
 - HTTP Only: No
@@ -65,7 +65,7 @@ Stores translated content when requested by the shopper. Used when [Translation 
 
 #### `mage-translation-file-version` (local storage)
 
-Tracks the version of translations in local storage. Used when [Translation Strategy]({{ site.baseurl }}{% link configuration/advanced/developer.md %}) is configured as `Dictionary (Translation on Storefront side)`.
+Tracks the version of translations in local storage. Used when [Translation Strategy]({% link configuration/advanced/developer.md %}) is configured as `Dictionary (Translation on Storefront side)`.
 
 - Is Secure? No
 - HTTP Only: No
@@ -120,12 +120,12 @@ Stores product IDs of recently previously viewed products for easy navigation.
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 #### `remove_from_cart`
 
-Used by [Google Tag Manager]({{ site.baseurl }}{% link marketing/google-tag-manager.md %}). Captures the product SKU, name, price and quantity added to the cart, and makes the information available for future integration by third-party scripts.
+Used by [Google Tag Manager]({% link marketing/google-tag-manager.md %}). Captures the product SKU, name, price and quantity added to the cart, and makes the information available for future integration by third-party scripts.
 
 <!--{% endif %}-->
 #### `stf`
 
-Records the time messages are sent by the SendFriend ([Email a Friend]({{ site.baseurl }}{% link marketing/email-a-friend.md %})) module.
+Records the time messages are sent by the SendFriend ([Email a Friend]({% link marketing/email-a-friend.md %})) module.
 
 - Is Secure? Yes
 - HTTP Only: Yes
@@ -145,21 +145,21 @@ Configuration setting that improves performance when using Varnish static conten
 
 #### `amz_auth_err`
 
-Used if [Enable Login with Amazon]({{ site.baseurl }}{% link payment/amazon-pay-setup.md %}) is enabled. Value `1` indicates an authorization error.
+Used if [Enable Login with Amazon]({% link payment/amazon-pay-setup.md %}) is enabled. Value `1` indicates an authorization error.
 
 - Is Secure? No
 - HTTP Only: No
 - Expiration Policy: 1 year
-- Module: [Amazon Pay]({{ site.baseurl }}{% link payment/amazon-pay.md %})
+- Module: [Amazon Pay]({% link payment/amazon-pay.md %})
 
 #### `amz_auth_logout`
 
-Used if [Enable Login with Amazon]({{ site.baseurl }}{% link payment/amazon-pay-setup.md %}) is enabled. Value `1` indicates that the user should be logged out.
+Used if [Enable Login with Amazon]({% link payment/amazon-pay-setup.md %}) is enabled. Value `1` indicates that the user should be logged out.
 
 - Is Secure? No
 - HTTP Only: No
 - Expiration Policy: 86400s (24h)
-- Module: [Amazon Pay]({{ site.baseurl }}{% link payment/amazon-pay.md %})
+- Module: [Amazon Pay]({% link payment/amazon-pay.md %})
 
 #### `form_key`
 
@@ -214,7 +214,7 @@ Stores the key (ID) of persistent cart to make it possible to restore the cart f
 
 - Is Secure? Yes
 - HTTP Only: Yes
-- Expiration Policy: Based on [Persistent Shopping Cart]({{ site.baseurl }}{% link sales/cart-persistent-configuration.md %}) - Persistence Lifetime (seconds) configuration
+- Expiration Policy: Based on [Persistent Shopping Cart]({% link sales/cart-persistent-configuration.md %}) - Persistence Lifetime (seconds) configuration
 - Module: `Magento_Persistent`
 
 #### `private_content_version`
@@ -230,7 +230,7 @@ For the HTTP Only Yes (based on request) means that the cookie Secure if set du
   - PHP: 1 year / 315360000s (10yr)
   - JS: 1 day
   - JS local storage: Per local storage rules (forever)
-- Expiration Policy: Based on [Persistent Shopping Cart]({{ site.baseurl }}{% link sales/cart-persistent-configuration.md %}) - Persistence Lifetime (seconds) configuration
+- Expiration Policy: Based on [Persistent Shopping Cart]({% link sales/cart-persistent-configuration.md %}) - Persistence Lifetime (seconds) configuration
 - Module: `Magento_PageCache`, `Magento_Customer`
 
 #### `section_data_ids`
@@ -264,7 +264,7 @@ Local storage for Banner functionality.
 <!--{% endif %}-->
 ## Google Analytics Cookies
 
-The following cookies are used when <!--{% if "Default.CE Only" contains site.edition %}-->[Google Analytics]({{ site.baseurl }}{% link marketing/google-universal-analytics.md %})<!--{% endif %}--><!--{% if "Default.EE-B2B" contains site.edition %}-->[Google Universal Analytics]({{ site.baseurl }}{% link marketing/google-universal-analytics.md %})<!--{% endif %}--> is fully enabled for your Magento installation. To disable these cookies for GDPR compliance, see [Google Settings for GDPR]({{ site.baseurl }}{% link stores/compliance-gdpr-google.md %}). To learn more, see [Google Analytics Cookie Usage on Websites][1].
+The following cookies are used when <!--{% if "Default.CE Only" contains site.edition %}-->[Google Analytics]({% link marketing/google-universal-analytics.md %})<!--{% endif %}--><!--{% if "Default.EE-B2B" contains site.edition %}-->[Google Universal Analytics]({% link marketing/google-universal-analytics.md %})<!--{% endif %}--> is fully enabled for your Magento installation. To disable these cookies for GDPR compliance, see [Google Settings for GDPR]({% link stores/compliance-gdpr-google.md %}). To learn more, see [Google Analytics Cookie Usage on Websites][1].
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ### Google Universal Analytics Cookies (Non-Exempt)
@@ -274,7 +274,7 @@ JavaScript Libraries: `gtag.js` and `analytics.js`
 - `_ga`: Distinguishes visitors to your site.
 - `_gid`: Distinguishes visitors to your site.
 - `gat`: Used to throttle request rate.
-- `dc_gtm_<property-id>`: Throttles request rate when Google Analytics is deployed with [Google Tag Manager.]({{ site.baseurl }}{% link marketing/google-tag-manager.md %})
+- `dc_gtm_<property-id>`: Throttles request rate when Google Analytics is deployed with [Google Tag Manager.]({% link marketing/google-tag-manager.md %})
 - `AMP_TOKEN`: Contains a token that can be used to retrieve a Client ID from AMP Client ID service. Other possible values include opt-out, inflight request or an error retrieving a Client ID from  AMP Client ID service.
 - `_gac_<property-id>`: Contains campaign-related information for the user. Google AdWords conversion tags read this cookie if Google Analytics is linked to your [AdWords][2] account.
 

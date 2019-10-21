@@ -14,7 +14,7 @@ For more information, watch the Amazon Pay University video on [Integrating Amaz
 
 1. In the upper-right corner, click **Help**.
 
-   ![]({{ site.baseurl }}{% link images/images/payments-amazon-pay-seller-central-dashboard.png %}){: .zoom}
+   ![]({% link images/images/payments-amazon-pay-seller-central-dashboard.png %}){: .zoom}
    _Amazon Seller Central_
 
 1. In the header, set the integration chooser to "Amazon Pay (Sandbox View)."
@@ -23,7 +23,7 @@ For more information, watch the Amazon Pay University video on [Integrating Amaz
 
    * You'll find additional guides for developers in the right side column under **Documentation**, and additional resources under **Help and FAQ**.
 
-      ![]({{ site.baseurl }}{% link images/images/payments-amazon-pay-seller-central-sandbox-view.png %}){: .zoom}
+      ![]({% link images/images/payments-amazon-pay-seller-central-sandbox-view.png %}){: .zoom}
      _Getting Started Guide_
 
 

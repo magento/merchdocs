@@ -5,7 +5,7 @@ group: marketing
 
 Product listings can be set to appear by default as either a list or grid. You can also determine how many products appear per page, and which attribute is used to sort the list. Each catalog page with a product list has a set of controls that can be used to sort the products, change the format of the list, sort by attribute, and advance from one page to the next.
 
-![]({{ site.baseurl }}{% link images/images/storefront-catalog-page.png %}){: .zoom}
+![]({% link images/images/storefront-catalog-page.png %}){: .zoom}
 *Products Displayed as a Grid*
 
 ## To configure product listings
@@ -14,10 +14,10 @@ Product listings can be set to appear by default as either a list or grid. You c
 
 1. Scroll down and in the panel on the left, tap **Catalog**. Then choose **Catalog**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Storefront** section, and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Storefront** section, and do the following:
 
-   ![]({{ site.baseurl }}{% link images/images/config-catalog-catalog-storefront.png %}){: .zoom}
-   [*Storefront*]({{ site.baseurl }}{% link configuration/catalog/catalog.md %})
+   ![]({% link images/images/config-catalog-catalog-storefront.png %}){: .zoom}
+   [*Storefront*]({% link configuration/catalog/catalog.md %})
 
    * Set the default **List Mode** to one of the following:
 
@@ -38,7 +38,7 @@ Product listings can be set to appear by default as either a list or grid. You c
 
    * Set **Product Listing Sorted** by to the default attribute that is initially used to sort the list.
 
-1. If using a [flat catalog]({{ site.baseurl }}{% link catalog/catalog-flat.md %}), do the following:
+1. If using a [flat catalog]({% link catalog/catalog-flat.md %}), do the following:
 
    * To display a flat category listing of products, set **Use Flat Catalog Category** to “Yes”.
 

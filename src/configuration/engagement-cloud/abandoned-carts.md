@@ -2,24 +2,24 @@
 title: Abandoned Carts
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > [Engagement Cloud]({{ site.baseurl }}{% link configuration/engagement-cloud.md %}) > Abandoned Carts
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Abandoned Carts
 
 ## Abandoned Cart Program
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-abandoned-carts-abandoned-cart-program.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-abandoned-carts-abandoned-cart-program.png %}){: .zoom}
 _Abandoned Cart Program_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enrol abandoned cart to|Store View|Determines the [CartInsight](https://support.dotdigital.com/hc/en-gb/articles/360000456890-Getting-started) program that is triggered when a cart is abandoned. This option is disabled until an active abandoned cart program is available in your Engagement Cloud account.  Options: (Available programs)|
 |Enrol abandoned cart after|Store view|Determines the length of delay before an abandoned cart is enrolled in the program. Options: 15 minutes / 30 minutes / 1 hour / 6 hours / 12 Hours
 
 ## Customers Email series
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-abandoned-carts-customers.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-abandoned-carts-customers.png %}){: .zoom}
 _Customers_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |**Abandoned Cart 1**|||
 |Enabled/Disabled|Store View|Activates the first in your series of abandoned cart campaigns that is sent to customers when a cart is abandoned. Options: Enable / Disable|
@@ -36,10 +36,10 @@ _Customers_
 
 ## Guests
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-abandoned-carts-guests.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-abandoned-carts-guests.png %}){: .zoom}
 _Guests_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |**Abandoned Cart 1**|||
 |Enabled/Disabled|Store View|Activates the first in your series of abandoned cart campaigns that is sent to guests when a cart is abandoned. Options: Enable / Disable|

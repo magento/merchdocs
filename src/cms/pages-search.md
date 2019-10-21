@@ -2,28 +2,28 @@
 title: Page Search
 ---
 
-The Search box in the upper-left of the page grid can be used to find specific pages by keyword. For a more advanced search, you can [filter]({{ site.baseurl }}{% link stores/admin-grid-controls.md %}) the search by multiple parameters.
+The Search box in the upper-left of the page grid can be used to find specific pages by keyword. For a more advanced search, you can [filter]({% link stores/admin-grid-controls.md %}) the search by multiple parameters.
 
-![]({{ site.baseurl }}{% link images/images/pages-search-home.png %}){: .zoom}
+![]({% link images/images/pages-search-home.png %}){: .zoom}
 _Keyword Search Results_
 
 ## To search by keyword
 
 1. Enter a search term into the page search box.
 
-1. Click **Search** (![]({{ site.baseurl }}{% link images/images/btn-search.png %}){: .Inline}) to display the results. The results include all pages that contain the keyword.
+1. Click **Search** (![]({% link images/images/btn-search.png %}){: .Inline}) to display the results. The results include all pages that contain the keyword.
 
 ## To filter search
 
 1. If necessary, click **Clear All** to clear the previous search criteria.
 
-1. Click the **Filters** (![]({{ site.baseurl }}{% link images/images/btn-filter-search.png %}){: .Inline}) tab to display the selection of search filters.
+1. Click the **Filters** (![]({% link images/images/btn-filter-search.png %}){: .Inline}) tab to display the selection of search filters.
 
 1. Complete as many of the filters as necessary to describe the page(s) that you want to find.
 
 1. Click <span class="btn">Apply Filters</span> to display the results.
 
-![]({{ site.baseurl }}{% link images/images/pages-search-filter.png %}){: .zoom}
+![]({% link images/images/pages-search-filter.png %}){: .zoom}
 _Filtered Search_
 
 ## Search Filters

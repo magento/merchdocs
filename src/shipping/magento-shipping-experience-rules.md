@@ -12,28 +12,28 @@ The following instructions describe how to create a **Qualify Rule**; however, t
 
 1.  Click **Create New Experience**. Then, do the following:
 
-    ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-experiences.png %}){: .zoom}
+    ![]({% link images/images/shipping-magento-shipping-experiences.png %}){: .zoom}
     _Shipping Experiences_
 
 1.  Enter a descriptive **Name** for the new rule.
 
 1.  For now, accept the default **Status** of `Draft`. When you are ready to _go live_ with the rule in your store, you can change Status to `Production`.
 
-    ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-experiences-new.png %}){: .zoom}
+    ![]({% link images/images/shipping-magento-shipping-experiences-new.png %}){: .zoom}
     _Experience Name and Status_
 
 1.  Choose the type of rule that you want to create.
 
-    This example shows how to create a **Qualify Rule**. Notice the icon and note before each section is mapped to the corresponding step in the shipment workflow. You can also hover your mouse over the information (![]({{ site.baseurl }}{% link images/images/magento-shipping-portai-i-icon.png %})) icon for more information.
+    This example shows how to create a **Qualify Rule**. Notice the icon and note before each section is mapped to the corresponding step in the shipment workflow. You can also hover your mouse over the information (![]({% link images/images/magento-shipping-portai-i-icon.png %})) icon for more information.
 
     -  In the rule section, click **Create Rule**.
 
-       ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-experiences-qualify-rules.png %}){: .zoom}
+       ![]({% link images/images/shipping-magento-shipping-experiences-qualify-rules.png %}){: .zoom}
        _Create Rule_
 
     -  Enter a brief **Description** of the rule that states its purpose and the conditions that trigger the rule.
 
-       ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-experiences-qualify-rule-description.png %}){: .zoom}
+       ![]({% link images/images/shipping-magento-shipping-experiences-qualify-rule-description.png %}){: .zoom}
        _Description_
 
     -  Set the Conditions for the rule:
@@ -41,17 +41,17 @@ The following instructions describe how to create a **Qualify Rule**; however, t
 
           Think about conditions that are required to trigger the rule. For example, the condition might be “Country is China” or “Country is not China”. You can also combine multiple conditions, such as “Country is China or Hong Kong” or “Country is China and order items total weight is less than 50 pounds (lb)”.
 
-          ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-experiences-qualify-rule-conditions.png %}){: .zoom}
+          ![]({% link images/images/shipping-magento-shipping-experiences-qualify-rule-conditions.png %}){: .zoom}
           _Conditions_
 
        -  Choose the **Operator** that is needed to describe the condition. Then, do the following:
 
-          ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-experiences-condition-operator.png %}){: .zoom}
+          ![]({% link images/images/shipping-magento-shipping-experiences-condition-operator.png %}){: .zoom}
           _Choose an Operator_
 
        -  Complete the condition by entering appropriate values in the remaining field(s).
 
-          ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-experiences-condition-operator-country.png %}){: .zoom}
+          ![]({% link images/images/shipping-magento-shipping-experiences-condition-operator-country.png %}){: .zoom}
           _Complete the Condition_
 
        -  To add another condition, click **Add Condition**. Then, choose the logical operator that describes how the conditions are to be applied.
@@ -60,12 +60,12 @@ The following instructions describe how to create a **Qualify Rule**; however, t
 
           -  **OR** – Triggers the rule when either the previous condition, or the new condition is met.
 
-          ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-experiences-condition-multiple.png %}){: .zoom}
+          ![]({% link images/images/shipping-magento-shipping-experiences-condition-multiple.png %}){: .zoom}
           _Add Another Condition_
 
        -  Repeat the previous steps to complete the new condition.
 
-          ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-experiences-condition-multiple-complete.png %}){: .zoom}
+          ![]({% link images/images/shipping-magento-shipping-experiences-condition-multiple-complete.png %}){: .zoom}
           _Completed Condition_
 
     -  Set the Outcome for the rule:
@@ -78,14 +78,14 @@ The following instructions describe how to create a **Qualify Rule**; however, t
 
        -  To add an additional action, click **Add Outcome**.
 
-          ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-experiences-qualification-outcomes.png %}){: .zoom}
+          ![]({% link images/images/shipping-magento-shipping-experiences-qualification-outcomes.png %}){: .zoom}
           _Outcomes_
 
     -  Click **Save**.
 
        The description of the new rule appears in the list of Qualify Rules.
 
-       ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-experiences-qualification-rules.png %}){: .zoom}
+       ![]({% link images/images/shipping-magento-shipping-experiences-qualification-rules.png %}){: .zoom}
        _Qualify Rules_
 
 1.  Click **Finish** to save the rule and exit.
