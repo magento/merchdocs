@@ -65,7 +65,7 @@ _Action Logs Report Filters_
     -  **CSV**: A comma-separated value file containing plain text data
     -  **Excel XML**: An XML-based, spreadsheet data format
 
-2.  Click **Export**. The generated file saves automatically to your designated folder for downloads.
+1.  Click **Export**. The generated file saves automatically to your designated folder for downloads.
 
     ![]({% link images/images-ee/system-action-log-report-export.png %}) 
     _Action Logs Report Export_
