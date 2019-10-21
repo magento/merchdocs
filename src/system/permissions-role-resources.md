@@ -69,18 +69,14 @@ Access to the following resources can be assigned to a custom role. See the link
          </tr>
          <tr>
             <td> </td>
-            <td>
-               <p> </p>
-            </td>
+            <td> </td>
             <td>
                <a href="{% link catalog/products.md %}">Products</a>
             </td>
          </tr>
          <tr>
             <td> </td>
-            <td>
-               <p> </p>
-            </td>
+            <td> </td>
             <td>
                <a href="{% link catalog/categories.md %}">Categories</a>
             </td>
@@ -198,9 +194,7 @@ Access to the following resources can be assigned to a custom role. See the link
             <td>
                <a href="{% link customers/customer-account.md %}">My Account</a>
             </td>
-            <td>
-               <p> </p>
-            </td>
+            <td> </td>
             <td> </td>
          </tr>
          <tr>
