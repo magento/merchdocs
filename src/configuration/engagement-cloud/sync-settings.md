@@ -2,14 +2,14 @@
 title: Sync Settings
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) >  [Engagement Cloud]({{ site.baseurl }}{% link configuration/engagement-cloud.md %}) > Sync Settings
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) >  [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Sync Settings
 
 ## Address Book Mapping
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-sync-settings-address-book.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-sync-settings-address-book.png %}){: .zoom}
 _Address Book Mapping_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Allow non-subscribed contacts to be imported|Website|Determines if data from non-subscribed contacts is imported from Magento to Engagement Cloud. Options:  Yes / No|
 |Add Customers To|Website|Specifies which address book is used for registered customer data.|
@@ -18,12 +18,12 @@ _Address Book Mapping_
 
 ## Sync
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-sync-settings-sync.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-sync-settings-sync.png %}){: .zoom}
 _Sync_
 
 Choose 'Yes' for each sync type that you want to enable. When first enabled, an hour delay ensures that all contact data is included in the import.
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Customer Enabled|Website|Specifies if Magento customer data is synchronized with Engagement Cloud. Options: Yes / No|
 |Guest Enabled|Website|Specifies if Magento Guest data is synchronized with Engagement Cloud. Options: Yes / No|
@@ -35,12 +35,12 @@ Choose 'Yes' for each sync type that you want to enable. When first enabled, an 
 
 ## Create Address Book
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-sync-settings-create-address-book.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-sync-settings-create-address-book.png %}){: .zoom}
 _Create Address Book_
 
 Changing an address book with previously synchronized data resets all Magento contacts so they can be resynchronized with the new address book.
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Address Book Name|Website|Enter a name for the new address book.|
 |Visibility|Website|Determines if the address book is available for contacts to manage their own information. Options: Private / Public|

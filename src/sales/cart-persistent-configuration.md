@@ -15,12 +15,12 @@ If the session cookie expires while the customer is logged in, the persistent co
 
 1. In the _Customers_ section on the left panel, choose **Persistent Shopping Cart**.
 
-    If necessary, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the _General Options_ section.
+    If necessary, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the _General Options_ section.
 
 1. To enable the persistent shopping cart and display additional options, set _Enable Persistence_ to `Yes`.
 
-     ![]({{ site.baseurl }}{% link images/images/config-customers-persistent-shopping-cart-general-options.png %}){: .zoom}
-     _[General Options]({{ site.baseurl }}{% link configuration/customers/persistent-shopping-cart.md %})_
+     ![]({% link images/images/config-customers-persistent-shopping-cart-general-options.png %}){: .zoom}
+     _[General Options]({% link configuration/customers/persistent-shopping-cart.md %})_
 
 1. Configure the persistent cart settings:
 

@@ -3,7 +3,7 @@ conditions: Default.EE-B2B
 title: Invitations
 ---
 
-When invitations are enabled, customers can send and view invitations from the dashboard of their customer accounts. The invitation email includes a link to your store’s [Customer Login]({{ site.baseurl }}{%- link customers/customer-account.md -%}) page.
+When invitations are enabled, customers can send and view invitations from the dashboard of their customer accounts. The invitation email includes a link to your store’s [Customer Login]({% link customers/customer-account.md -%}) page.
 
 ### Invitation Workflow
 

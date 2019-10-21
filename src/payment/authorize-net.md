@@ -4,7 +4,7 @@ title: Authorize.Net
 
 {:.bs-callout .bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
-As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, do one of the following:<br/>- (Recommended) Install and configure the official Authorize.Net payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=authorize.net){:target="_blank"}.<br/>- Enable and configure the Authorize.Net payment method in the Magento configuration.<br/>These integrations support 3D Secure 2.0 verification through [CardinalCommerce](https://www.cardinalcommerce.com/products/psd2) and other third-party services.
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, do one of the following:<br/>- (Recommended) Install and configure the official Authorize.Net payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=authorize.net){:target="_blank"}.<br/>- Enable and configure the Authorize.Net payment method in the Magento configuration.<br/>These integrations support 3D Secure 2.0 verification through [CardinalCommerce](https://www.cardinalcommerce.com/products/psd2) and other third-party services.
 
 The Authorize.Net payment method has replaced the Authorize.Net Direct Post (Deprecated) payment method. Authorize.Net handles all steps in the transaction process — such as payment data collection, data submission, and response to the customer — while the customer remains in your store. Authorize.Net can be used with orders created from the Admin as well as from the store.
 
@@ -22,7 +22,7 @@ The Authorize.Net payment method has replaced the Authorize.Net Direct Post (Dep
 
 2. In the panel on the left under **Sales**, choose **Payment Methods**.
 
-3. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Authorize.Net** section.
+3. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Authorize.Net** section.
 
 4. To enable the configuration and display additional fields, set **Enabled** to 'Yes'.
 
@@ -69,7 +69,7 @@ The Authorize.Net payment method has replaced the Authorize.Net Direct Post (Dep
 
 1. Set **Payment from Applicable Countries** to one of the following:
 
-   |**All Allowed Countries** |Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
+   |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
    |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
 
 1. Enter the **Minimum Order Total** and **Maximum Order Total** for store transactions. To qualify, the order total must exactly match the minimum or maximum threshold, or fall somewhere in between.
@@ -78,7 +78,7 @@ The Authorize.Net payment method has replaced the Authorize.Net Direct Post (Dep
 
 1. To save your configuration settings, tap <span class="btn">Save Config</span> before exiting.
 
-For more information on the individual fields, refer to [Authorize.Net]({{ site.baseurl }}{% link configuration/sales/authorize-net.md %}).
+For more information on the individual fields, refer to [Authorize.Net]({% link configuration/sales/authorize-net.md %}).
 
 ### Step 4: Set Up 3-D Secure with CardinalCommerce (Optional)
 
@@ -93,8 +93,8 @@ CardinalCommerce provides a 3-D Secure Version 2.0 solution that increases appro
 1. Return to the Magento Admin. Then on the Admin sidebar, go to **Stores** > Settings > **Configuration**.
 1. In the panel on the left under **Sales**, choose **3D Secure**.
    
-    ![]({{ site.baseurl }}{% link images/images/config-sales-3dsecure-cardinalcommerce.png %}){: .zoom}
-    [_CardinalCommerce_]({{ site.baseurl }}{% link configuration/sales/cardinalcommerce.md %})
+    ![]({% link images/images/config-sales-3dsecure-cardinalcommerce.png %}){: .zoom}
+    [_CardinalCommerce_]({% link configuration/sales/cardinalcommerce.md %})
 
 1. Set **Enable for Authorize.Net** to 'Yes'.
 1. To choose the **Environment**, do one of the following: 
@@ -109,4 +109,4 @@ CardinalCommerce provides a 3-D Secure Version 2.0 solution that increases appro
    - API Identifier
 
 1. If you want the system to save a log file of interactions between your store and  CardinalCommerce, set **Debug** to 'Yes'.  
-1. When complete, click <span class="btn">Save Config</span> in the upper-right corner. Then, click [Cache Management]({{ site.baseurl }}{% link system/cache-management.md %}) in the message at the top of the workspace, and refresh all invalid caches.
+1. When complete, click <span class="btn">Save Config</span> in the upper-right corner. Then, click [Cache Management]({% link system/cache-management.md %}) in the message at the top of the workspace, and refresh all invalid caches.

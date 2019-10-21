@@ -4,7 +4,7 @@ title: eWAY (Deprecated)
 ---
 {:.bs-callout .bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
-As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, install and configure the official eWAY payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=eway){:target="_blank"}.
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, install and configure the official eWAY payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=eway){:target="_blank"}.
 
 eWAY is based in Australia, and provides secure payment processing services to merchants throughout Australia, New Zealand, the United Kingdom, Singapore, Malaysia, and Hong Kong. Their latest Rapid 3.1 API enables real-time fraud protection.
 
@@ -18,10 +18,10 @@ Sign up for an eWAY [merchant account][1]{: target="_blank"}, and get your crede
 
 2. In the panel on the left under **Sales**, choose **Payment Methods**.
 
-3. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the
+3. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the
  **eWAY** section. Then, do the following:
 
-   ![Enable eWay]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-eway1-enabled.png %}){: .zoom}
+   ![Enable eWay]({% link images/images-ee/config-sales-payment-methods-eway1-enabled.png %}){: .zoom}
    _Enable eWAY_
 
    - Set **Enabled** to `Yes`.
@@ -51,7 +51,7 @@ Sign up for an eWAY [merchant account][1]{: target="_blank"}, and get your crede
    - Sandbox API Password
    - Sandbox Client-side Encryption Key
 
-   ![eWAY Credentials]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-eway2.png %}){: .zoom}
+   ![eWAY Credentials]({% link images/images-ee/config-sales-payment-methods-eway2.png %}){: .zoom}
 
 ## Step 4: Configure Payments
 
@@ -67,15 +67,15 @@ Sign up for an eWAY [merchant account][1]{: target="_blank"}, and get your crede
 
 1. In the **Credit Card Types** box, hold down the Ctrl key and select each credit card that is accepted as payment in your store.
 
-   ![Configure Payments]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-eway3.png %}){: .zoom}
+   ![Configure Payments]({% link images/images-ee/config-sales-payment-methods-eway3.png %}){: .zoom}
    _Configure Payments_
 
 1. Set **Payment from Applicable Countries** to one of the following:
 
-   |**All Allowed Countries** |Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use this payment method.|
+   |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method.|
    |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key (PC) or the Cmd key (Mac) and select each country in the list where customers can make purchases from your store.|
 
-   ![Configure Countries]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-eway4.png %}){: .zoom}
+   ![Configure Countries]({% link images/images-ee/config-sales-payment-methods-eway4.png %}){: .zoom}
    _Configure Countries_
 
 1. In the **Sort Order** field, enter a number to determine the order in which eWAY appears when listed with other payment methods during checkout.

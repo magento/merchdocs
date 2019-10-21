@@ -2,9 +2,9 @@
 title: Configuring FPT
 ---
 
-The Fixed Product Tax [input type]({{ site.baseurl }}{% link stores/attributes-input-types.md %}) creates a section of fields for managing tax for each region.
+The Fixed Product Tax [input type]({% link stores/attributes-input-types.md %}) creates a section of fields for managing tax for each region.
 
-The following instructions show how to set up a fixed product tax for your store, using “eco tax” as an example. After setting the scope for the tax and the countries and states where the tax applies, and depending on the options you choose, the input fields can change according to the local requirements. To learn more, see [Creating Attributes]({{ site.baseurl }}{% link stores/attribute-product-create.md %}).
+The following instructions show how to set up a fixed product tax for your store, using “eco tax” as an example. After setting the scope for the tax and the countries and states where the tax applies, and depending on the options you choose, the input fields can change according to the local requirements. To learn more, see [Creating Attributes]({% link stores/attribute-product-create.md %}).
 
 ## Step 1: Enable Fixed Product Tax
 
@@ -12,7 +12,7 @@ The following instructions show how to set up a fixed product tax for your store
 
 1. In the panel on the left under _Sales_, choose **Tax**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Fixed Product Taxes** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Fixed Product Taxes** section.
 
 1. Set **Enable FPT** to `Yes`.
 
@@ -34,8 +34,8 @@ The following instructions show how to set up a fixed product tax for your store
 
 1. Set **Include FPT in Subtotal** as needed.
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-tax-fixed-product-taxes.png %}){: .zoom}
-    [_Fixed Product Taxes_]({{ site.baseurl }}{% link configuration/sales/tax.md %})
+    ![]({% link images/images/config-sales-tax-fixed-product-taxes.png %}){: .zoom}
+    [_Fixed Product Taxes_]({% link configuration/sales/tax.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.
 
@@ -49,26 +49,26 @@ The following instructions show how to set up a fixed product tax for your store
 
    - **Catalog Input for Store Owner** — Set to `Fixed Product Tax`.
 
-    ![]({{ site.baseurl }}{% link images/images/tax-fpt-attribute-properties.png %}){: .zoom}
+    ![]({% link images/images/tax-fpt-attribute-properties.png %}){: .zoom}
     _Attribute Properties_
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Advanced Attribute Properties** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Advanced Attribute Properties** section. Then, do the following:
 
    - **Attribute Code** — Enter a unique identifier in lowercase, without spaces or special characters. The maximum length is 30 characters. You can leave the field blank to the text from the Default Label field.
 
-   - **Add to Column Options** — If you want the FPT field to appear in the Inventory [grid]({{ site.baseurl }}{% link catalog/products.md %}), set to `Yes`.
+   - **Add to Column Options** — If you want the FPT field to appear in the Inventory [grid]({% link catalog/products.md %}), set to `Yes`.
 
-   - **Use in Filter Options** — If you want to be able to [filter]({{ site.baseurl }}{% link stores/admin-workspace.md %}) products in the grid based on the value of the FPT field, set to `Yes`.
+   - **Use in Filter Options** — If you want to be able to [filter]({% link stores/admin-workspace.md %}) products in the grid based on the value of the FPT field, set to `Yes`.
 
-    ![]({{ site.baseurl }}{% link images/images/tax-fpt-advanced-attribute-properties.png %}){: .zoom}
+    ![]({% link images/images/tax-fpt-advanced-attribute-properties.png %}){: .zoom}
     _Advanced Attribute Properties_
 
 1. (Optional) In the panel on the left, choose **Manage Labels**. Then, enter a label to use instead of the default label for each store view.
 
-    ![]({{ site.baseurl }}{% link images/images/attribute-new-manage-labels.png %}){: .zoom}
+    ![]({% link images/images/attribute-new-manage-labels.png %}){: .zoom}
     _Manage Labels_
 
-1. When complete, click <span class="btn">Save Attribute</span>. Then when prompted, refresh the [cache]({{ site.baseurl }}{% link system/cache-management.md %}).
+1. When complete, click <span class="btn">Save Attribute</span>. Then when prompted, refresh the [cache]({% link system/cache-management.md %}).
 
 ## Step 3: Add the FPT Attribute to an Attribute Set
 
@@ -76,13 +76,13 @@ The following instructions show how to set up a fixed product tax for your store
 
 1. In the list, click the attribute set to open the record in edit mode.
 
-    ![]({{ site.baseurl }}{% link images/images/attribute-sets-list.png %}){: .zoom}
+    ![]({% link images/images/attribute-sets-list.png %}){: .zoom}
 
 1. Drag the FPT attribute from the list of **Unassigned Attributes** on the right to the **Groups** list in the center column.
 
     Each group folder corresponds to a section of product information. You can place the attribute wherever you want it to appear when the product is open in edit mode.
 
-    ![]({{ site.baseurl }}{% link images/images/tax-fpt-attribute-set-drag.png %}){: .zoom}
+    ![]({% link images/images/tax-fpt-attribute-set-drag.png %}){: .zoom}
     _Edit Attribute Set_
 
 1. When complete, click **Save**.
@@ -97,7 +97,7 @@ The following instructions show how to set up a fixed product tax for your store
 
 1. Find the **FPT** section of fields that you added to the attribute set. Click <span class="btn">Add Tax</span> and do the following:
 
-    ![]({{ site.baseurl }}{% link images/images/tax-product-fpt-belgium.png %}){: .zoom}
+    ![]({% link images/images/tax-product-fpt-belgium.png %}){: .zoom}
     _Fixed Product Tax for Belgium_
 
    - If your Magento installation has multiple websites, choose the appropriate **Website** and base currency. In this example, the field is set by default to `All Websites [USD]`.

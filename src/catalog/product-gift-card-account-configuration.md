@@ -11,16 +11,16 @@ The Gift Card configuration establishes the default settings for all gift cards 
 
 1. In the panel on the left under **Sales**, choose **Gift Cards**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Gift Card Email Settings** section. Then do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Gift Card Email Settings** section. Then do the following:
 
     * Set **Gift Card Notification Email Sender** to the store identity that appears as the sender of gift card notifications.
 
     * Set **Gift Card Notification Email Template** to the template that is used for the notification.
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-gift-cards-gift-card-email-settings.png %}){: .zoom}
-    *[Gift Card Email Settings]({{ site.baseurl }}{% link configuration/sales/gift-cards.md %})*
+    ![]({% link images/images/config-sales-gift-cards-gift-card-email-settings.png %}){: .zoom}
+    *[Gift Card Email Settings]({% link configuration/sales/gift-cards.md %})*
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Email Sent from Gift Card Account Management** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Email Sent from Gift Card Account Management** section. Then, do the following:
 
     * Set **Gift Card Email Sender** to the store identity to appear as the sender of the gift cards.
 
@@ -28,7 +28,7 @@ The Gift Card configuration establishes the default settings for all gift cards 
 
 ## Step 2: Complete the General Settings
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Gift Card General Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Gift Card General Settings** section.
 
 1. To allow the customer to redeem the value on the card for cash, set **Redeemable** to “Yes.”
 
@@ -45,15 +45,15 @@ The Gift Card configuration establishes the default settings for all gift cards 
     | Invoiced | The gift card account is created after payment is captured and the order is invoiced. |
     {:style="table-layout:auto"}
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-gift-cards-gift-card-general-settings.png %}){: .zoom}
-    *[Gift Card General Settings]({{ site.baseurl }}{% link configuration/sales/gift-cards.md %})*
+    ![]({% link images/images/config-sales-gift-cards-gift-card-general-settings.png %}){: .zoom}
+    *[Gift Card General Settings]({% link configuration/sales/gift-cards.md %})*
 
 ## Step 3: Establish the Gift Card Code Pool
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Gift Card Account General Settings** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Gift Card Account General Settings** section. Then, do the following:
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-gift-cards-gift-card-account-general-settings.png %}){: .zoom}
-    *[Gift Card Account General Settings]({{ site.baseurl }}{% link configuration/sales/gift-cards.md %})*
+    ![]({% link images/images/config-sales-gift-cards-gift-card-account-general-settings.png %}){: .zoom}
+    *[Gift Card Account General Settings]({% link configuration/sales/gift-cards.md %})*
 
     * To customize the code, complete the following according to your preference:
 

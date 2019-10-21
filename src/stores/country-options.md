@@ -5,8 +5,8 @@ group: getting-started
 
 The Country Options identify the country where your business is located and the countries from which you accept payment.
 
-![General configuration - country settings]({{ site.baseurl }}{% link images/images/config-general-general-country-options.png %}){: .zoom}
-[_Country Options_]({{ site.baseurl }}{% link configuration/general/general.md %})
+![General configuration - country settings]({% link images/images/config-general-general-country-options.png %}){: .zoom}
+[_Country Options_]({% link configuration/general/general.md %})
 
 ## Set the country options for your store
 
@@ -17,7 +17,7 @@ If needed, clear the **User system value** checkbox for each setting you want to
 
 1. In the left panel under **General**, choose **General**.
 
-1. Expand ![Expansion selector]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Country Options** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Country Options** section.
 
 1. Choose the **Default Country** where your business is located.
 

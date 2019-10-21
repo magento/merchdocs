@@ -2,9 +2,9 @@
 title: Creating and Editing Amazon Attributes
 ---
 
-You may need to create or update Amazon and Magento attributes as you sell through Amazon and update your stores. Review the current Amazon attributes and linked Magento attributes through the [Managing Attributes]({{ site.baseurl }}{% link sales-channels/amazon/managing-attributes.md %}) tab of the Amazon Sales Channel Home dashboard. The Actions column provides actions to either create a new Magento attribute for an unlinked Amazon attribute or edit an existing linked attribute. Both actions are described below. 
+You may need to create or update Amazon and Magento attributes as you sell through Amazon and update your stores. Review the current Amazon attributes and linked Magento attributes through the [Managing Attributes]({% link sales-channels/amazon/managing-attributes.md %}) tab of the Amazon Sales Channel Home dashboard. The Actions column provides actions to either create a new Magento attribute for an unlinked Amazon attribute or edit an existing linked attribute. Both actions are described below. 
 
-As you create and update attributes, you may want to verify the attribute values for Magento and Amazon products. These values may differ if you do not sync and import values from Amazon. To review Amazon values for these attributes, see [Reviewing Amazon Attribute Values]({{ site.baseurl }}{% link sales-channels/amazon/amazon-matching-attributes-values.md %}). If you want to change those values, continue through the following instructions to create new attributes or edit existing attribute links between Amazon and Magento.
+As you create and update attributes, you may want to verify the attribute values for Magento and Amazon products. These values may differ if you do not sync and import values from Amazon. To review Amazon values for these attributes, see [Reviewing Amazon Attribute Values]({% link sales-channels/amazon/amazon-matching-attributes-values.md %}). If you want to change those values, continue through the following instructions to create new attributes or edit existing attribute links between Amazon and Magento.
 
 ## To create an attribute:
 
@@ -32,13 +32,13 @@ These steps create a new Magento attribute and links it to the selected Amazon a
 
 1. For **Comparable on Storefront**, toggle if the attribute value can be used in Amazon's "Compare By" functionality.
 
-1. Select the Magento [scope]({{ site.baseurl }}{% link configuration/scope.md %}) for the Magento attribute. And select one or more Store Views to import Amazon values into. If you select "All Store Views (Global)", this syncs and saves values to all store views. You may only want to sync values to specific store views.
+1. Select the Magento [scope]({% link configuration/scope.md %}) for the Magento attribute. And select one or more Store Views to import Amazon values into. If you select "All Store Views (Global)", this syncs and saves values to all store views. You may only want to sync values to specific store views.
 
 1. When complete, click <span class="btn">Save Attribute Settings</span>.
 
 After saving, you may want to edit the attribute to review settings and matching Amazon and Magento values for the attribute. You also have an additional option to indicate if Amazon values should overwrite Magento values.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-attribute-settings-create.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-attribute-settings-create.png %}){: .zoom}
 _Create Attribute Settings_
 
 |Field|Description|
@@ -53,8 +53,8 @@ _Create Attribute Settings_
 |Use for Promo Rule Conditions|Toggle to "Yes" to allow the Magento attribute to be available for a parameter within your promotional conditions.|
 |Used in Search|Indicates if the attribute and value can be used in product searches.|
 |Comparable on Storefront|Indicates if the attribute value can be used in Amazon's "Compare By" functionality.|
-|Magento Product Attribute Scope|Indicates the Magento [scope]({{ site.baseurl }}{% link configuration/scope.md %}) for the Magento attribute.|
-|Store Views (to import values into to)|Select your Magento [store view]({{ site.baseurl }}{% link stores/websites-stores-views.md %}) to sync the Amazon attribute values to. Selecting All Store Views updates the value across all Magento store views.|
+|Magento Product Attribute Scope|Indicates the Magento [scope]({% link configuration/scope.md %}) for the Magento attribute.|
+|Store Views (to import values into to)|Select your Magento [store view]({% link stores/websites-stores-views.md %}) to sync the Amazon attribute values to. Selecting All Store Views updates the value across all Magento store views.|
 
 ## To edit an attribute:
 
@@ -74,7 +74,7 @@ _Create Attribute Settings_
 
 1. When complete, click <span class="btn">Save Attribute Settings</span>.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-attribute-settings-edit.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-attribute-settings-edit.png %}){: .zoom}
 _Edit Attribute Settings_
 
 |Field|Description|
@@ -83,5 +83,5 @@ _Edit Attribute Settings_
 |Select Magento Product Attribute|Indicates the selected Magento attribute you want linked to the listed Amazon Attribute Name. If you want to change the linked Magento attribute, select a different attribute from the drop-down list. Values sync according to configurations.|
 |Amazon Attribute Name|Displays the name of the Amazon attribute as defined in Amazon Seller Central. The selected Magento attribute links to this Amazon attribute. You cannot edit this value through Magento.|
 |Overwrite Existing Value|Indicates if the Amazon attribute values will overwrite existing Magento values. This affects all products with this Magento attribute.<br/>**Do Not Overwrite Existing Magento Values**: (Default) Retains the Magento value, keeping different values for Magento and Amazon stores.<br />**Overwrite Existing Magento Values**: Saves the Amazon value over the Magento value in the Magento product catalog.|
-|Magento Product Attribute Scope|Indicates the Magento [scope]({{ site.baseurl }}{% link configuration/scope.md %}) for the Magento attribute.|
-|Store Views (to import values into to)|Select your Magento [store view]({{ site.baseurl }}{% link stores/websites-stores-views.md %}) to sync the Amazon attribute values to. Selecting All Store Views updates the value across all Magento store views.|
+|Magento Product Attribute Scope|Indicates the Magento [scope]({% link configuration/scope.md %}) for the Magento attribute.|
+|Store Views (to import values into to)|Select your Magento [store view]({% link stores/websites-stores-views.md %}) to sync the Amazon attribute values to. Selecting All Store Views updates the value across all Magento store views.|

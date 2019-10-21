@@ -9,12 +9,12 @@ You can make as many changes as necessary, and then update the records in a sing
 
 The selection of available actions varies by list, and additional options might appear, depending on the action selected. For example, when changing the status of a group of records, a Status box appears next to the Actions control with additional options.
 
-![Catalog records - Change Status action]({{ site.baseurl }}{% link images/images/actions-change-status.png %}){: .zoom}
+![Catalog records - Change Status action]({% link images/images/actions-change-status.png %}){: .zoom}
 _Applying an Action to Selected Records_
 
 ## Step 1: Select Records
 
-The checkbox in the first column of the list identifies each record that is a target for the action. The [filter controls]({{ site.baseurl }}{% link stores/admin-grid-controls.md %}) can be used to narrow the list to the records you want to target for the action.
+The checkbox in the first column of the list identifies each record that is a target for the action. The [filter controls]({% link stores/admin-grid-controls.md %}) can be used to narrow the list to the records you want to target for the action.
 
 1. Select the checkbox of each record that is a target for the action. Or, use one of the following **Actions** to select a group of records:
 
@@ -35,7 +35,7 @@ The checkbox in the first column of the list identifies each record that is a ta
 
       The Update Attributes page lists all the available attributes, organized by group in the panel on the left.
 
-      ![Update Attributes page]({{ site.baseurl }}{% link images/images/action-update-attributes.png %}){: .zoom}
+      ![Update Attributes page]({% link images/images/action-update-attributes.png %}){: .zoom}
       _Update Attributes_
 
    - Select the **Change** checkbox next to each attribute and make the necessary changes.
@@ -63,7 +63,7 @@ The checkbox in the first column of the list identifies each record that is a ta
 ||Shipments|PDF Shipments<br/>Print Shipping Labels|
 ||Credit Memos|PDF Credit Memos|
 |**Products**|||
-||Catalog|DeleteChange StatusUpdate Attributes|
+||Catalog|Delete<br/>Change Status<br/>Update Attributes|
 |**Customers**|||
 ||All Customers|Delete<br/>Subscribe to Newsletter<br/>Unsubscribe from Newsletter<br/>Assign a Customer Group<br/>Edit|<!--{%- if "Default.B2B Only" contains site.edition -%}-->
 ||Companies|Set Active<br/>Block<br/>Delete<br/>Edit<br/>Convert Credit|<!--{%- endif -%}-->

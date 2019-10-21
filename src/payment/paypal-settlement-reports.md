@@ -9,7 +9,7 @@ Before generating settlement reports, the store administrator must request PayPa
 
 After configuring and enabling settlement reports in the PayPal merchant account, Magento will start generating reports during the following twenty-four hours. The list of available settlement reports can be viewed from the Admin.
 
-![PayPal Settlement Reports]({{ site.baseurl }}{% link images/images/reports-sales-paypal-settlement.png %}){: .zoom}
+![PayPal Settlement Reports]({% link images/images/reports-sales-paypal-settlement.png %}){: .zoom}
 _PayPal Settlement Reports_
 
 ## To view settlement reports:

@@ -2,14 +2,14 @@
 title: Developer
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > [Engagement Cloud]({{ site.baseurl }}{% link configuration/engagement-cloud.md %}) > Developer
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Developer
 
 ## Import Settings
 
-![]({{ site.baseurl }}{% link images/images/dotdigital-dash-import.png %}){: .zoom}
+![]({% link images/images/dotdigital-dash-import.png %}){: .zoom}
 _Import Settings_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Contact Sync Size|Website|Sets the batch size limit for the amount of contacts that can be loaded for every data synchronization.|
 |Transactional Data Sync Size|Website|Sets the batch size limit for the amount of transactions that can be loaded for every data synchronization.|
@@ -17,16 +17,16 @@ _Import Settings_
 
 ## Sync Settings
 
-![Engagement Cloud Admin Tasks]({{ site.baseurl }}{% link images/images/dotdigital-dash-admin.png %}){: .zoom}
+![Engagement Cloud Admin Tasks]({% link images/images/dotdigital-dash-admin.png %}){: .zoom}
 _Admin Tasks_
 
-![Manually Run Syncs]({{ site.baseurl }}{% link images/images/config-engagement-cloud-sync-settings-manually-run-sync.png %}){: .zoom}
+![Manually Run Syncs]({% link images/images/config-engagement-cloud-sync-settings-manually-run-sync.png %}){: .zoom}
 _Manually Run Syncs_
 
-![Reset Syncs]({{ site.baseurl }}{% link images/images/dotdigital-dash-resetsync.png %}){: .zoom}
+![Reset Syncs]({% link images/images/dotdigital-dash-resetsync.png %}){: .zoom}
 _Reset Syncs_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |**Admin Task**|||
 |Automap Data Fields|Website|Automatically maps Magento customer, address, and sales data fields to the Engagement Cloud contact database.<br/><span class="btn">Run Now</span> Syncs data fields.|
@@ -51,20 +51,20 @@ _Reset Syncs_
 
 ## Debug
 
-![Debug]({{ site.baseurl }}{% link images/images/dotdigital-dash-iprestrict.png %}){: .zoom}
+![Debug]({% link images/images/dotdigital-dash-iprestrict.png %}){: .zoom}
 _Debug_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Debug Mode|Website|Determines if debug mode is enabled for the website. Options: Enable / Disable|
 |Debug API Calls Time|Website|Specifies the length of time, in seconds, that is needed to debug longer API calls.|
 
 ## OAUTH Credentials
 
-![OAUTH Credentials]({{ site.baseurl }}{% link images/images/dotdigital-dash-oauth.png %}){: .zoom}
+![OAUTH Credentials]({% link images/images/dotdigital-dash-oauth.png %}){: .zoom}
 _OAUTH Credentials_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Client ID|Website|The Engagement Cloud Client ID that is used for Single Sign-on/OAUTH access.|
 |Client Secret Key|Website|The Engagement Cloud Client Secret Pass that is used for Single Sign-on/OAUTH access.|
@@ -74,19 +74,19 @@ _OAUTH Credentials_
 
 ## Dynamic Pages IP Restriction
 
-![Dynamic Pages IP Restriction]({{ site.baseurl }}{% link images/images/dotdigital-dash-iprestrict.png %}){: .zoom}
+![Dynamic Pages IP Restriction]({% link images/images/dotdigital-dash-iprestrict.png %}){: .zoom}
 _Dynamic Pages IP Restriction_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Dynamic Pages IP Restriction|Website|To add a layer of security for external dynamic content, it is recommended that you maintain this list of IP addresses which are authorized to access dynamic content. <br/><br/>By default, Engagement Cloud uses three IP addresses to send requests and pull dynamic content. During testing, you can add your company's IP address to the list. **_Note:_** If you leave this field empty, a security check does not run.|
 
 ## Manage Cron Timings
 
-![Cron Timings]({{ site.baseurl }}{% link images/images/dotdigital-dash-cron.png %}){: .zoom}
+![Cron Timings]({% link images/images/dotdigital-dash-cron.png %}){: .zoom}
 _Cron Timings_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Importer|Website|Sets the cron job interval to synchronize imported data.|
 |Contact|Website|Sets the cron job interval to synchronize contact data.|

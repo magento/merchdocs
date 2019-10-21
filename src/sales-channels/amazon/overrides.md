@@ -22,12 +22,12 @@ Removing an override tells the listing to use the values defined by your listing
 
 When defining an override, you can also choose to enter a single type of override or any combination of the types.
 
-See [Creating and Editing Overrides]({{ site.baseurl }}{% link sales-channels/amazon/creating-editing-overrides.md %}).
+See [Creating and Editing Overrides]({% link sales-channels/amazon/creating-editing-overrides.md %}).
 
 {:.bs-callout .bs-callout-info}
 If you have listings in process, the number of listings will display in a message above the tabs.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-overrides.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-overrides.png %}){: .zoom}
 _Overrides tab_
 
 {% include amazon-workspace-controls.md %}
@@ -43,4 +43,4 @@ _Overrides tab_
 |Seller Notes Override|The new seller notes defined in the override. If the override applied to the listing is not a seller notes override, this column will be blank. |
 |Handling Override|The new handling time defined in the override (in days). If the override applied to the listing is not a handling time override, this column will be blank. |
 |List Price Override|The new listing price defined in the override. If the override applied to the listing is not a price override, "N/A" will display in this column. |
-|Action|List of available actions that can be applied to a specific listing. To apply an action, in the Actions column, click **Select** to display your options:<br/>[Edit Overrides]({{ site.baseurl }}{% link sales-channels/amazon/creating-editing-overrides.md %})<br/>[View Details]({{ site.baseurl }}{% link sales-channels/amazon/product-listing-details.md %}) |
+|Action|List of available actions that can be applied to a specific listing. To apply an action, in the Actions column, click **Select** to display your options:<br/>[Edit Overrides]({% link sales-channels/amazon/creating-editing-overrides.md %})<br/>[View Details]({% link sales-channels/amazon/product-listing-details.md %}) |

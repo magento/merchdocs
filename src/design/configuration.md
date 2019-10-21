@@ -6,7 +6,7 @@ redirect_from:
 
 The Design Configuration makes it easy to edit design-related rules and configuration settings by displaying the settings on a single page.
 
-![]({{ site.baseurl }}{% link images/images/design-configuration.png %}){: .zoom}
+![]({% link images/images/design-configuration.png %}){: .zoom}
 _Design Configuration_
 
 ## To edit the design configuration:
@@ -33,23 +33,23 @@ _Design Configuration_
 
     * In the <b>Theme Name </b>column, choose the theme that is to be used for the specified device.
 
-        ![]({{ site.baseurl }}{% link images/images/design-configuration-user-agent-rules.png %}){: .zoom}
+        ![]({% link images/images/design-configuration-user-agent-rules.png %}){: .zoom}
         _User-Agent Rules_
 
     * Repeat the process to enter additional devices. Search strings are matched in the order they are entered.
 
 1. Under **Other Settings**, expand each section. Then, follow the instructions in the linked topics to edit the settings as needed.
 
-    ![]({{ site.baseurl }}{% link images/images/design-configuration-other-settings.png %}){: .zoom}
+    ![]({% link images/images/design-configuration-other-settings.png %}){: .zoom}
     _Edit Design Configuration_
 
-   * [Pagination]({{ site.baseurl }}{% link catalog/navigation-pagination.md %})
-   * [HTML Head]({{ site.baseurl }}{% link design/html-head.md %})
-   * [Header]({{ site.baseurl }}{% link design/header.md %})
-   * [Footer]({{ site.baseurl }}{% link design/footer.md %})
-   * [Search Engine Robots]({{ site.baseurl }}{% link marketing/search-engine-robots.md %})
-   * [Product Image Watermarks]({{ site.baseurl }}{% link catalog/product-image-watermarks.md %})
-   * [Transactional Emails]({{ site.baseurl }}{% link marketing/email-template-configuration.md %})
+   * [Pagination]({% link catalog/navigation-pagination.md %})
+   * [HTML Head]({% link design/html-head.md %})
+   * [Header]({% link design/header.md %})
+   * [Footer]({% link design/footer.md %})
+   * [Search Engine Robots]({% link marketing/search-engine-robots.md %})
+   * [Product Image Watermarks]({% link catalog/product-image-watermarks.md %})
+   * [Transactional Emails]({% link marketing/email-template-configuration.md %})
 
 1. When complete, click <span class="btn">Save Configuration</span>.
 

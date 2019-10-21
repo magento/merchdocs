@@ -2,23 +2,23 @@
 title: Sales
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > Sales
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Sales
 
 ## General
 
-![]({{ site.baseurl }}{% link images/images/config-sales-sales-general.png %}){: .zoom}
-[_General_]({{ site.baseurl }}{% link marketing/sales-documents-ref-id.md %})
+![]({% link images/images/config-sales-sales-general.png %}){: .zoom}
+[_General_]({% link marketing/sales-documents-ref-id.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Hide Customer IP|Store View|Determines if the customer IP address appears on orders, invoices, shipments, and credit memos. Options: Yes / No|
 
 ## Checkout Totals Sort Order
 
-![]({{ site.baseurl }}{% link images/images/config-sales-sales-checkout-totals-sort-order.png %}){: .zoom}
-[_Checkout Totals Sort Order_]({{ site.baseurl }}{% link sales/checkout-totals-sort-order.md %})
+![]({% link images/images/config-sales-sales-checkout-totals-sort-order.png %}){: .zoom}
+[_Checkout Totals Sort Order_]({% link sales/checkout-totals-sort-order.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Subtotal|Website|A number that determines the when the subtotal is calculated in relation to other checkout totals. Default value: 10|
 |Discount|Website|A number that determines the when the discount is calculated in relation to other checkout totals. Default value: 20|
@@ -29,19 +29,19 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 
 ## Reorder
 
-![]({{ site.baseurl }}{% link images/images/config-sales-sales-reorder.png %}){: .zoom}
-[_Reorder_]({{ site.baseurl }}{% link sales/reorders-allow.md %})
+![]({% link images/images/config-sales-sales-reorder.png %}){: .zoom}
+[_Reorder_]({% link sales/reorders-allow.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Allow Reorder|Store View|Determines if the customers can reorder from their accounts. Options: Yes / No|
 
 ## Invoice and Packing Slip Design
 
-![]({{ site.baseurl }}{% link images/images/config-sales-sales-invoice-packing-slip-design.png %}){: .zoom}
-[_Invoice and Packing Slip Design_]({{ site.baseurl }}{% link marketing/sales-document-pdf-logo.md %})
+![]({% link images/images/config-sales-sales-invoice-packing-slip-design.png %}){: .zoom}
+[_Invoice and Packing Slip Design_]({% link marketing/sales-document-pdf-logo.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Logo for PDF Print-outs (200 x 50)|Store View|Identifies the logo file that appears in the header of PDF invoices and packing slips. Allowed file types: <br/>JPG /JPEG <br/>TIF/TIFF <br/>PNG|
 |Logo for HTML Print View|Store View|Identifies the logo file that appears in the header of HTML print view of invoices and packing slips. Allowed file types: <br/>JPG /JPEG <br/>GIF <br/>PNG|
@@ -49,10 +49,10 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 
 ## Minimum Order Amount
 
-![]({{ site.baseurl }}{% link images/images/config-sales-sales-minimum-order-amount.png %}){: .zoom}
-[_Minimum Order Amount_]({{ site.baseurl }}{% link sales/minimum-order-amount.md %})
+![]({% link images/images/config-sales-sales-minimum-order-amount.png %}){: .zoom}
+[_Minimum Order Amount_]({% link sales/minimum-order-amount.md %})
 
-||Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+||Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable|Website|Determines if a minimum order amount is set for the site. Options: Yes / No|
 |Minimum Amount|Website|Specifies the minimum subtotal, order after discounts are applied.|
@@ -65,38 +65,38 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 
 ## Dashboard
 
-![]({{ site.baseurl }}{% link images/images/config-sales-sales-dashboard.png %}){: .zoom}
-[_Dashboard_]({{ site.baseurl }}{% link stores/admin-dashboard.md %})
+![]({% link images/images/config-sales-sales-dashboard.png %}){: .zoom}
+[_Dashboard_]({% link stores/admin-dashboard.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Use Aggregated Data (beta)|Global|Determines if real-time, aggregated sales data is used to produce dashboard snapshot reports. If you have a lot of data to process, performance can be improved by turning off the display of real time data. Options: Yes / No|
 
 ## Orders Cron Settings
 
-![]({{ site.baseurl }}{% link images/images/config-sales-sales-orders-cron-settings.png %}){: .zoom}
-[_Orders Cron Settings_]({{ site.baseurl }}{% link system/cron.md %})
+![]({% link images/images/config-sales-sales-orders-cron-settings.png %}){: .zoom}
+[_Orders Cron Settings_]({% link system/cron.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Pending Payment Order Lifetime|Website|Determines the lifetime of pending orders in minutes. Default setting: 480 minutes (8 hours)|
 
 ## Gift Options
 
-![]({{ site.baseurl }}{% link images/images/config-sales-sales-gift-options.png %}){: .zoom}
-[_Gift Options_]({{ site.baseurl }}{% link sales/gift-options.md %})
+![]({% link images/images/config-sales-sales-gift-options.png %}){: .zoom}
+[_Gift Options_]({% link sales/gift-options.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Allow Gift Messages on Order Level|Website|Specify whether a gift message can be added for the entire order.|
 |Allow Gift Messages on Order Items|Website|Specify whether a gift message can be added for an individual order item.|
 
 ## Minimum Advertised Price
 
-![]({{ site.baseurl }}{% link images/images/config-sales-sales-minimum-advertised-price.png %}){: .zoom}
-[_Minimum Advertised Price_]({{ site.baseurl }}{% link catalog/product-price-minimum-advertised.md %})
+![]({% link images/images/config-sales-sales-minimum-advertised-price.png %}){: .zoom}
+[_Minimum Advertised Price_]({% link catalog/product-price-minimum-advertised.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable MAP|Website|Activates Minimum Advertised Price for your store. Options: Yes / No|
 |Display Actual Price|Website|Determines where the actual price of a product is visible to the customer. Options: <br/>**In Cart** - Displays the actual product price in the shopping cart. <br/>**Before Order Confirmation** - Displays the actual product price at the end of the checkout process, just before the order is confirmed. <br/>**On Gesture** - Displays the actual product price in a popup when the customer clicks the “Click for price” or “What’s this?” link.|
@@ -107,23 +107,23 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ## Order by SKU Settings
 
- ![]({{ site.baseurl }}{% link images/images-ee/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
- [_Order by SKU Settings_]({{ site.baseurl }}{% link customers/account-dashboard-order-by-sku.md %})
+ ![]({% link images/images-ee/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
+ [_Order by SKU Settings_]({% link customers/account-dashboard-order-by-sku.md %})
 
- ![]({{ site.baseurl }}{% link images/images-ee/config-sales-sales-order-by-sku-settings-customer-group.png %}){: .zoom}
- [_Order by SKU Settings for Customer Group_]({{ site.baseurl }}{% link customers/account-dashboard-order-by-sku.md %})
+ ![]({% link images/images-ee/config-sales-sales-order-by-sku-settings-customer-group.png %}){: .zoom}
+ [_Order by SKU Settings for Customer Group_]({% link customers/account-dashboard-order-by-sku.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable Order by SKU on My Account in Storefront|Website|Determines if Order by SKU is available in the customer account dashboard. Options: <br/>**Yes, for Everyone** - The Order by SKU tab appears in the account dashboard of all customers. <br/>**Yes, for Specified Customer Groups** - The Order by SKU tab appears in the account dashboard for members of specified groups. <br/>**No** - The Order by SKU tab is not available in the customer account.|
 
 <!--{% endif %}-->
 ## Instant Purchase
 
-![]({{ site.baseurl }}{% link images/images-ee/config-sales-sales-instant-purchase.png %}){: .zoom}
-[_Instant Purchase_]({{ site.baseurl }}{% link sales/checkout-instant-purchase.md %})
+![]({% link images/images-ee/config-sales-sales-instant-purchase.png %}){: .zoom}
+[_Instant Purchase_]({% link sales/checkout-instant-purchase.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled|Store View|Enables Instant Purchase for the store view, provided that the payment method, such as Braintree, has vault enabled. Options: Yes / No|
 |Button Text|Store View|Specifies the text that appears on the Instant Purchase button. The default button text is “Instant Purchase”.|
@@ -131,24 +131,24 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ## Orders, Invoices, Shipments, Credit Memos Archiving
 
-![]({{ site.baseurl }}{% link images/images-ee/config-sales-sales-orders-invoices-shipments-credit-memos-archving.png %}){: .zoom}
-[_Orders, Invoices, Shipments, Credit Memos Archiving_]({{ site.baseurl }}{% link sales/order-archive.md %})
+![]({% link images/images-ee/config-sales-sales-orders-invoices-shipments-credit-memos-archving.png %}){: .zoom}
+[_Orders, Invoices, Shipments, Credit Memos Archiving_]({% link sales/order-archive.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable Archiving|Global|Determines if archiving is enabled. Options: Yes / No|
 |Archive Orders Purchased|Global|Determines the number of days that pass before a completed order is archived. Default value: 30|
-|Order  Statuses to be Archived|Global|Determines the [status]({{ site.baseurl }}{% link sales/order-status.md %}) of orders to be archived. By default, orders with a status of either Complete or Closed are archived. Options: Pending / Processing / Suspected Fraud / Complete / Closed / Canceled / On Hold|
+|Order  Statuses to be Archived|Global|Determines the [status]({% link sales/order-status.md %}) of orders to be archived. By default, orders with a status of either Complete or Closed are archived. Options: Pending / Processing / Suspected Fraud / Complete / Closed / Canceled / On Hold|
 
 ## RMA Settings
 
-![]({{ site.baseurl }}{% link images/images-ee/config-sales-sales-rma-settings.png %}){: .zoom}
-[_RMA Settings_]({{ site.baseurl }}{% link sales/rma-configure.md %})
+![]({% link images/images-ee/config-sales-sales-rma-settings.png %}){: .zoom}
+[_RMA Settings_]({% link sales/rma-configure.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable RMA on Storefront|Website|Determines if customers can create and view RMA requests from the storefront. RMA can be applied to both new and existing orders. By default, RMA is not enabled for the storefront. Options Yes / No|
 |Enable RMA on Product Level|Website|Determines the default value for the Enable RMA field in product information.|
-|Use Store Address|Website|Determines the contact name and address that is used for shipments of returned merchandise. Options: <br/>**Yes** - Uses the [Point of Origin]({{ site.baseurl }}{% link shipping/point-of-origin.md %}) address from Shipping Settings. <br/>**No** - Opens the address form so you can enter an alternate address.|
+|Use Store Address|Website|Determines the contact name and address that is used for shipments of returned merchandise. Options: <br/>**Yes** - Uses the [Point of Origin]({% link shipping/point-of-origin.md %}) address from Shipping Settings. <br/>**No** - Opens the address form so you can enter an alternate address.|
 
 <!--{% endif %}-->

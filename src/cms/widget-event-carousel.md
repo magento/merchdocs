@@ -6,14 +6,14 @@ group: marketing
 
 The Catalog Events Carousel widget displays a slider of upcoming events with a countdown ticker for each event. You can choose the page(s) and area of the page layout where the carousel is to appear, and control the width and number of events that appear at a time. The result you get depends on your theme, where it’s positioned to appear on the page, and the options that you choose.
 
-![]({{ site.baseurl }}{% link images/images-ee/storefront-event-carousel-sidebar-gear.png %}){: .zoom}
+![]({% link images/images-ee/storefront-event-carousel-sidebar-gear.png %}){: .zoom}
 _Event Carousel in Left Sidebar_
 
 ## Step 1: Enable the Catalog Carousel Widget
 
-1. Before you begin, follow the [instructions]({{ site.baseurl }}{% link marketing/event-configure.md %}) to configure the Catalog Event widget is enabled for the storefront.
+1. Before you begin, follow the [instructions]({% link marketing/event-configure.md %}) to configure the Catalog Event widget is enabled for the storefront.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/config-catalog-catalog-events-1.png %}){: .zoom}
+    ![]({% link images/images-ee/config-catalog-catalog-events-1.png %}){: .zoom}
     _Catalog Events_
 
 ## Step 2: Create the Widget
@@ -30,7 +30,7 @@ _Event Carousel in Left Sidebar_
 
 1. Click <span class="btn">Continue</span>.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/widget-event-carousel-settings.png %}){: .zoom}
+    ![]({% link images/images-ee/widget-event-carousel-settings.png %}){: .zoom}
     *Widget Type*
 
 1. In the **Storefront Properties** section, complete the following fields:
@@ -40,7 +40,7 @@ _Event Carousel in Left Sidebar_
     | Assign to Store Views | Select the store views where the widget will be visible. You can select a specific store view, or "All Store Views". |
     | Sort Order | (Optional) Enter a number to determine the order this items appears with others in the same part of the page. (0 = first, 1 = second, 3= third, and so on.) |
 
-    ![]({{ site.baseurl }}{% link images/images-ee/widget-event-carousel-storefront-properties.png %}){: .zoom}
+    ![]({% link images/images-ee/widget-event-carousel-storefront-properties.png %}){: .zoom}
     _Storefront Properties_
 
 ## Step 3: Choose the Location
@@ -62,7 +62,7 @@ _Event Carousel in Left Sidebar_
 
     - If you want the Events Carousel to appear in an additional location in the storefront, click <span class="btn">Add Layout Update</span>. Then, repeat these steps.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/widget-event-carousel-layout-updates-catalog-category-sidebar.png %}){: .zoom}
+   ![]({% link images/images-ee/widget-event-carousel-layout-updates-catalog-category-sidebar.png %}){: .zoom}
    _Layout Updates_
 
 1. Click <span class="btn">Save and Continue Edit</span>.
@@ -79,7 +79,7 @@ _Event Carousel in Left Sidebar_
 
 1. For a custom width, enter the number of pixels in the **Block Custom Width** field. The custom width for the example on this page is set to 250 pixels.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/widget-options-custom-width.png %}){: .zoom}
+    ![]({% link images/images-ee/widget-options-custom-width.png %}){: .zoom}
     _Widget Options_
 
 1. When complete, click <span class="btn">Save</span>.

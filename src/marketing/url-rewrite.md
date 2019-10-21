@@ -6,9 +6,9 @@ The URL Rewrite tool lets you change any URL that is associated with a product, 
 
 The terms _rewrite_ and _redirect_ are often used interchangeably, but refer to slightly different processes. A URL rewrite changes the way a URL appears in the browser. A URL redirect updates the URL that is stored on the server. A URL redirect can be either temporary or permanent. Your store uses URL rewrites and redirects to make it easy for you to change the URL key of a product, category, or page and preserve existing links.
 
-By default, [automatic URL redirects]({{ site.baseurl }}{%- link marketing/url-redirect-product-automatic.md -%}) are enabled for your store and the **Create Permanent Redirect for old URL** checkbox is selected under the URL key field of each product.
+By default, [automatic URL redirects]({% link marketing/url-redirect-product-automatic.md -%}) are enabled for your store and the **Create Permanent Redirect for old URL** checkbox is selected under the URL key field of each product.
 
 {% include url-rewrite-skip.md %}
 
-![]({{ site.baseurl }}{%- link images/images/product-search-engine-optimization-create-permanent-redirect.png -%}){: .zoom}
+![]({% link images/images/product-search-engine-optimization-create-permanent-redirect.png %}){: .zoom}
 _Create Permanent Redirect for Old URL_

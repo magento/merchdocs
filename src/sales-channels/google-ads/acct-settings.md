@@ -3,7 +3,7 @@ title: Account Settings
 ---
 
 
-**Step 2 of 2** for [Ads Account Creation]({{ site.baseurl }}{% link sales-channels/google-ads/ads-acct-create.md %}).
+**Step 2 of 2** for [Ads Account Creation]({% link sales-channels/google-ads/ads-acct-create.md %}).
 
 ## Setting Up your Google Ads Account Settings
 
@@ -29,12 +29,12 @@ title: Account Settings
 
 1. A confirmation message displays. If the settings are correct, click <span class="btn">Confirm Settings</span>. If you need to modify settings, click <span class="btn">Cancel </span>to return to Account Setup.
 
-1. The [Create a Smart Shopping Campaign]({{ site.baseurl }}{% link sales-channels/google-ads/create-campaign.md %}) page opens. Complete the steps to activate your account before creating a campaign.
+1. The [Create a Smart Shopping Campaign]({% link sales-channels/google-ads/create-campaign.md %}) page opens. Complete the steps to activate your account before creating a campaign.
 
 {:.bs-callout .bs-callout-info}
 **Don't forget!** You must activate your Google Ads account, configure payment methods in your Google Ads account, and update settings in Magento for your account to go live. If you forget to add a payment method or update Magento settings, you will see a reminder message in the Magento Admin.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/google/ads-account-settings.png %}){: .zoom}   
+![]({% link images/images/sales-channels/google/ads-account-settings.png %}){: .zoom}   
 
 ## To activate your Google Ads account:
 
@@ -56,7 +56,7 @@ You must add a valid payment method to your Google Ads account. For complete det
 
 1. Add a supported payment method.
 
-1. In the Magento Admin, continue with the [onboarding process]({{ site.baseurl }}{% link sales-channels/google-ads/create-campaign.md %}).
+1. In the Magento Admin, continue with the [onboarding process]({% link sales-channels/google-ads/create-campaign.md %}).
 
 ## To update account settings:
 
@@ -70,7 +70,7 @@ As a final step, you must update the payment setting for your Google integration
 
 Next steps:
 
-* Review and resolve any [account]({{ site.baseurl }}{% link sales-channels/google-ads/account-resolve-errors.md %}) and [product]({{ site.baseurl }}{% link sales-channels/google-ads/product-resolve-errors.md %}) disapprovals.
-* [Create campaigns]({{ site.baseurl }}{% link sales-channels/google-ads/create-campaign.md %}) to run ads on Google.
+* Review and resolve any [account]({% link sales-channels/google-ads/account-resolve-errors.md %}) and [product]({% link sales-channels/google-ads/product-resolve-errors.md %}) disapprovals.
+* [Create campaigns]({% link sales-channels/google-ads/create-campaign.md %}) to run ads on Google.
 
 [1]: https://support.google.com/google-ads/answer/2375433?hl=en

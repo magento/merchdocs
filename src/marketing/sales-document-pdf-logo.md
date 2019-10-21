@@ -4,7 +4,7 @@ title: Preparing Your Invoice Logo
 
 Unlike the logo images used in HTML, the logo for PDF invoices and other sales documents can be a high-resolution, 300 dot per inch (DPI) image. However, the image must be rendered to fit a space that is 200 pixels wide by 50 pixels high. Be careful to preserve the aspect ratio when you resize the logo. Resize the logo to fit the height, and don’t worry about any unused space to the right.
 
-![]({{ site.baseurl }}{%- link images/images/logo-pdf.png -%})
+![]({% link images/images/logo-pdf.png %})
 *200 x 50 pixels*
 
 One way to resize your logo to fit the required size is to create a new, blank image with the correct dimensions. Then, paste your logo image and resize it to fit the height. With most image editing programs, you can either scale it by a percentage to preserve the aspect ratio, or hold down the Shift key and manually resize the image.
@@ -15,10 +15,10 @@ On the Admin sidebar, tap **Stores**. Then under **Settings**, choose **Configur
 
 In the panel on the left, under **Sales**, choose **Sales**.
 
-Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Invoice and Packing Slip Design** section. Then, do the following:
+Expand ![]({% link images/images/btn-expand.png %}) the **Invoice and Packing Slip Design** section. Then, do the following:
 
-![]({{ site.baseurl }}{%- link images/images/config-sales-sales-invoice-packing-slip-design.png -%}){: .zoom}
- [*Invoice and Packing Slip Design*]({{ site.baseurl }}{%- link configuration/sales/sales.md -%})
+![]({% link images/images/config-sales-sales-invoice-packing-slip-design.png %}){: .zoom}
+ [*Invoice and Packing Slip Design*]({% link configuration/sales/sales.md -%})
 
 To upload the **Logo for PDF Print-outs**, tap <span class="btn">Choose File</span>. Find the logo that you have prepared, and tap <span class="btn">Open</span>.
 

@@ -23,7 +23,7 @@ Once created and matched, the listings remove from the New Third Party tab and d
 
 1. Find the listing you wish to assign/match in the list and click **Select** in the Action column. Then click **Assign Catalog Product**. The Assign Magento Catalog Product screen displays.
 
-1. Browse for or filter the list using the [workspace controls]({{ site.baseurl }}{% link sales-channels/amazon/workspace-controls.md %}) and locate the appropriate catalog product to match to the listing.
+1. Browse for or filter the list using the [workspace controls]({% link sales-channels/amazon/workspace-controls.md %}) and locate the appropriate catalog product to match to the listing.
 
 1. When the correct product is located in the list, click **Assign Catalog Product** in the Action column.
 
@@ -42,13 +42,13 @@ Your product and listing are now matched. Amazon Sales Channel can now share pro
     - For **Categories**, assign a category for the product (optional).
 <br />Click the drop-down arrow and click a category checkbox to select the product's category. Click **Done** when finished.
     - For **Website Ids**, select the website (storefront) for which the product to be associated.
-<br />The options in this list are dependent on your Magento [store configuration]({{ site.baseurl }}{% link stores/websites-stores-views.md %}) settings.
+<br />The options in this list are dependent on your Magento [store configuration]({% link stores/websites-stores-views.md %}) settings.
     - For **Attribute Set Id** (required), select an option in the drop-down.
-<br />"Default" is the default selection. The options in this list are dependent on your Magento [attribute sets]({{ site.baseurl }}{% link stores/attribute-sets.md %}) you have configured.
+<br />"Default" is the default selection. The options in this list are dependent on your Magento [attribute sets]({% link stores/attribute-sets.md %}) you have configured.
     - For **Visibility**, select an option for the new product in the drop-down.
 <br />**Not Visible Individually** (default): The product is not included in your storefront listings, although it might be available as a variation of another product.<br />**Catalog**: The product displays in your catalog listings.<br />**Search**: The product is available for search operations.<br />**Catalog and Search**: The product is included in catalog listings and available for search operations.
     - For **Assign Tax Class**, select an option for the product in the drop-down.
-<br />The options that display in this list are dependent on the [tax classes]({{ site.baseurl }}{% link tax/tax-class.md %}) you have configured.
+<br />The options that display in this list are dependent on the [tax classes]({% link tax/tax-class.md %}) you have configured.
     -  When complete, click **Create Catalog Products**.
 
 The catalog product is created in your Magento catalog, and assigned to the Amazon listing from which it was created. With the listing now matched to an existing Amazon listing, the listing will remove from the New Third Party tab and display in the Active tab.
@@ -73,25 +73,25 @@ When creating catalog products for multiple selected listings, the product setti
     - For **Categories**, assign a category for the product (optional).
 <br />Click the drop-down arrow and click a category checkbox to select the product's category. Click **Done** when finished.
     - For **Website Ids**, select the website (storefront) for which the product to be associated.
-<br />The options in this list are dependent on your Magento [store configuration]({{ site.baseurl }}{% link stores/websites-stores-views.md %}) settings.
+<br />The options in this list are dependent on your Magento [store configuration]({% link stores/websites-stores-views.md %}) settings.
     - For **Attribute Set Id** (required), select an option in the drop-down.
-<br />"Default" is the default selection. The options in this list are dependent on your Magento [attribute sets]({{ site.baseurl }}{% link stores/attribute-sets.md %}) you have configured.
+<br />"Default" is the default selection. The options in this list are dependent on your Magento [attribute sets]({% link stores/attribute-sets.md %}) you have configured.
     - For **Visibility**, select an option for the new product in the drop-down.
 <br />**Not Visible Individually** (default): The product is not included in your storefront listings, although it might be available as a variation of another product.**Catalog**: The product displays in your catalog listings.<br />**Search**: The product is available for search operations.<br />**Catalog and Search**: The product is included in catalog listings and available for search operations.
     - For **Assign Tax Class**, select an option for the product in the drop-down.
-<br />The options that display in this list are dependent on the [tax classes]({{ site.baseurl }}{% link tax/tax-class.md %}) you have configured.
+<br />The options that display in this list are dependent on the [tax classes]({% link tax/tax-class.md %}) you have configured.
     - When complete, click **Create Catalog Products**.
 
 The catalog products are created in your Magento catalog and assigned to the Amazon listing from which it was created. With the listings now matched to their respective Amazon listing, the listings will remove from the New Third Party tab and display in the Active tab.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-magento-catalog-product.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-magento-catalog-product.png %}){: .zoom}
 _Create Magento Catalog Product_
 
 |Field|Description|
 |--- |--- |
 |Enable Product(s)|(Required) If enabled, the product will be visible in your Magento storefront; if disabled, the product will not show in your Magento storefront.|
-|Categories|You can enter the name of the category for your new product or select a category by clicking the drop-down arrow to display your options. Options are dependent on your [categories]({{ site.baseurl }}{% link catalog/category-create.md %}) configuration.|
-|Website Ids|(Required) Select the website (storefront) for which the product to be associated. Options are dependent on your Magento [store configuration]({{ site.baseurl }}{% link stores/websites-stores-views.md %}) settings|
-|Attribute Set Id|Select an attribute set from the drop-down. Options are dependent on your configured Magento [attribute sets]({{ site.baseurl }}{% link stores/attribute-sets.md %}).|
+|Categories|You can enter the name of the category for your new product or select a category by clicking the drop-down arrow to display your options. Options are dependent on your [categories]({% link catalog/category-create.md %}) configuration.|
+|Website Ids|(Required) Select the website (storefront) for which the product to be associated. Options are dependent on your Magento [store configuration]({% link stores/websites-stores-views.md %}) settings|
+|Attribute Set Id|Select an attribute set from the drop-down. Options are dependent on your configured Magento [attribute sets]({% link stores/attribute-sets.md %}).|
 |Visibility|Options:<br/>**Not Visible Individually**: The product will not be visible in your Magento storefront. This is the visibility usually assigned to variant products.<br/>**Catalog**: Allows the product to be accessed through the category it is associated to within the website.<br/>**Search**: Allows the product to only be found through the search tool.<br/>**Catalog and Search**: Allows the products to be accessed through the category structure and by using the search tool.|
-|Assign Tax Class|Assign a tax class to the new product from the drop-down. Options are dependent on your configured [tax classes]({{ site.baseurl }}{% link tax/tax-class.md %}).|
+|Assign Tax Class|Assign a tax class to the new product from the drop-down. Options are dependent on your configured [tax classes]({% link tax/tax-class.md %}).|

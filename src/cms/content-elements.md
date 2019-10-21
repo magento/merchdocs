@@ -14,7 +14,7 @@ sections:
     url: /cms/widgets.html
 ---
 
-In this section of the guide, you will learn how to create and manage content pages and blocks, and use widgets to add dynamic content.<!--{% if "Default.EE-B2B" contains site.edition %}--> Magento Commerce users can also learn how to use the [page hierarchy]({{ site.baseurl }}{% link cms/page-hierarchy.md %}) to organize content pages and add pagination, navigation, and menus.<!--{% endif %}-->
+In this section of the guide, you will learn how to create and manage content pages and blocks, and use widgets to add dynamic content.<!--{% if "Default.EE-B2B" contains site.edition %}--> Magento Commerce users can also learn how to use the [page hierarchy]({% link cms/page-hierarchy.md %}) to organize content pages and add pagination, navigation, and menus.<!--{% endif %}-->
 
 {% include grid.html sections=page.sections%}
 

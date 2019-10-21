@@ -4,7 +4,7 @@ title: Dispatches
 
 If Magento Shipping is enabled, the Dispatches grid lists all shipments that are ready to ship. For each scheduled pickup, you can create a Dispatch and printed manifest that includes each package that is to be included, per carrier.
 
-![]({{ site.baseurl }}{% link images/images/dispatches-grid.png %}){: .zoom}
+![]({% link images/images/dispatches-grid.png %}){: .zoom}
 _Dispatches_
 
 ## Create a dispatch
@@ -21,14 +21,14 @@ _Dispatches_
 
    - Choose the **Location** where the packages in the manifest are to be picked up. Then, click **Next**.
 
-       ![]({{ site.baseurl }}{% link images/images/dispatch-create-step1.png %}){: .zoom}
+       ![]({% link images/images/dispatch-create-step1.png %}){: .zoom}
        _Carrier and Location Selection_
 
 1. Set the date and time of the scheduled pick up:
 
    - In the **Ready At** field, choose the date from the calendar.
 
-       ![]({{ site.baseurl }}{% link images/images/dispatch-create-step2-date.png %}){: .zoom}
+       ![]({% link images/images/dispatch-create-step2-date.png %}){: .zoom}
        _Dispatch Date_
 
        {:.bs-callout .bs-callout-info}
@@ -36,7 +36,7 @@ _Dispatches_
 
    - Click the **Time** below the calendar, and set a scheduled pickup time.
 
-       ![]({{ site.baseurl }}{% link images/images/dispatch-create-step2-time.png %}){: .zoom}
+       ![]({% link images/images/dispatch-create-step2-time.png %}){: .zoom}
        _Dispatch Time_
 
 1. Click **Finish** to schedule the dispatch.
@@ -45,7 +45,7 @@ _Dispatches_
 
 1. Find the dispatch in the grid. Then in the _Action_ column, click **View**.
 
-    ![]({{ site.baseurl }}{% link images/images/dispatch-information.png %}){: .zoom}
+    ![]({% link images/images/dispatch-information.png %}){: .zoom}
     _Dispatch Information_
 
 1. Review the dispatch information.
@@ -54,7 +54,7 @@ _Dispatches_
 
 1. Click **Find Solutions** to get help resolving dispatch problems.
 
-    ![]({{ site.baseurl }}{% link images/images/dispatch-error-info.png %}){: .zoom}
+    ![]({% link images/images/dispatch-error-info.png %}){: .zoom}
     _Find a Solution_
 
 In this example, the problem was caused by a missing or invalid postal code in our sample data.

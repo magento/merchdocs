@@ -2,14 +2,14 @@
 title: Fraud Protection
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > Fraud Protection
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Fraud Protection
 
 ## Signifyd
 
-![]({{ site.baseurl }}{% link images/images/config-sales-fraud-protection-signifyd-configuration.png %}){: .zoom}
+![]({% link images/images/config-sales-fraud-protection-signifyd-configuration.png %}){: .zoom}
 _Configuration_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable this Solution|Website|Enables Signifyd Guaranteed Fraud Protection for your store. Options: Yes / No|
 |API Key|Website|The API key provided to you by Signifyd.|

@@ -2,18 +2,18 @@
 title: Product in Websites
 ---
 
-The Product in Websites section identifies each website where the product is available, according to the [store hierarchy]({{ site.baseurl }}{% link stores/stores-all-stores.md %}).
+The Product in Websites section identifies each website where the product is available, according to the [store hierarchy]({% link stores/stores-all-stores.md %}).
 
-![]({{ site.baseurl }}{% link images/images/scope-product-website.png %}){: .zoom}
+![]({% link images/images/scope-product-website.png %}){: .zoom}
 *Multisite Installation*
 
 ## To copy a product to a different website:
 
 1. Open the product in edit mode.
 
-1. Scroll down and expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Product in Websites** section.
+1. Scroll down and expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Product in Websites** section.
 
-    ![]({{ site.baseurl }}{% link images/images/catalog-product-in-websites-multisite-main-french.png %}){: .zoom}
+    ![]({% link images/images/catalog-product-in-websites-multisite-main-french.png %}){: .zoom}
     *Product in Websites*
 
 1. Mark the checkbox of the website where the product is to be copied
@@ -22,7 +22,7 @@ The Product in Websites section identifies each website where the product is ava
 
 1. Choose the **Store View** where the product is to be copied from.
 
-    ![]({{ site.baseurl }}{% link images/images/product-in-websites-multisite-copy-data.png %}){: .zoom}
+    ![]({% link images/images/product-in-websites-multisite-copy-data.png %}){: .zoom}
     *Product in Websites*
 
 1. When complete, tap <span class="btn">Save</span>. Then, do the following:

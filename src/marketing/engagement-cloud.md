@@ -12,7 +12,7 @@ Engagement Cloud, powered by [dotdigital][1]{: target="_blank"}, gives you the a
 * Schedule campaigns
 * Create rules to add logic
 * Automate your campaigns
-* [Generate reports]({{ site.baseurl }}{%- link reports/customer-engagement.md -%})
+* [Generate reports]({% link reports/customer-engagement.md -%})
 
 ## Changes In the Latest Release
 

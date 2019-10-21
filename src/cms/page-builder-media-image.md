@@ -5,7 +5,7 @@ title: Image
 
 Use the Image content type to add a JPG, GIF, or PNG image to the stage. In addition to the default desktop image, you can specify a secondary image for mobile devices. You can also add a caption that appears below the image and link the image to any URL, product, category, or page.
 
-![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-image-column1-giftcard.png %}){: .zoom}
+![]({% link images/images-ee/page-builder-media-image-column1-giftcard.png %}){: .zoom}
 _Image In Column_
 
 ## To add an image
@@ -14,12 +14,12 @@ _Image In Column_
 
     In this example, the image is dragged to an empty column.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-image-drag.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-image-drag.png %}){: .zoom}
     _Drag Image to Stage_
 
 1. Use one of the following methods to upload a new image or choose an existing image from the gallery:
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-image-upload-select.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-image-upload-select.png %}){: .zoom}
     _Upload Image or Select from Gallery_
 
     **Upload New Image**
@@ -34,24 +34,24 @@ _Image In Column_
 
     - In the gallery, navigate to the image and click the thumbnail. Then, click <span class="btn">Add Selected</span>.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-image-gallery-add-selected.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-media-image-gallery-add-selected.png %}){: .zoom}
         _Add Selected Image_
 
         The image appears in the target container at the placeholder location. Unlike a background image, you can move the image to a different position within the current container, or to a different container.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-image-giftcard-column.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-media-image-giftcard-column.png %}){: .zoom}
         _Image in Column_
 
 ## To change image settings
 
-1. Hover over the image container. Then, choose **Settings** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox.
+1. Hover over the image container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-image-giftcard-column-toolbox.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-image-giftcard-column-toolbox.png %}){: .zoom}
     _Image Toolbox_
 
     The file name, dimensions, and file size appear below the current image.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-image-settings-image.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-image-settings-image.png %}){: .zoom}
     _Current Image_
 
 1. To change the current image, do one of the following:
@@ -68,7 +68,7 @@ _Image In Column_
 
     - Drag the image from a directory in your local file system, and drop it on the camera icon.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-image-settings-mobile-image.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-image-settings-mobile-image.png %}){: .zoom}
     _Mobile Image_
 
 1. To link the image(s), choose one of the following destination types, and follow the instructions.
@@ -79,14 +79,14 @@ _Image In Column_
 
     - Enter the destination URL.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-image-settings-image-link-url-newtab.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-image-settings-image-link-url-newtab.png %}){: .zoom}
     _Link to URL_
 
     **Product**
 
     - Set **Link** to `Product`.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-image-settings-image-link-product-select.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-image-settings-image-link-product-select.png %}){: .zoom}
     _Link to Product_
 
     - Do one of the following:
@@ -95,7 +95,7 @@ _Image In Column_
       - Choose the product from the search results list.
       - Click the **down arrow**, and choose the product from the list.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-image-settings-image-link-product-results.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-image-settings-image-link-product-results.png %}){: .zoom}
     _Choose Product_
 
     **Category**
@@ -110,7 +110,7 @@ _Image In Column_
 
     - In the category tree, click the category name.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-image-settings-image-link-category-tree.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-image-settings-image-link-category-tree.png %}){: .zoom}
     _Link to Category_
 
     **Page**
@@ -123,7 +123,7 @@ _Image In Column_
 
       - Click the **down arrow** and choose the page from the list.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-image-settings-image-link-page-results.png %}){: .zoom}
+      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-page-results.png %}){: .zoom}
       _Link to Page_
 
     If you want to prevent the visitor from navigating away from your store, select the **Open in new tab** checkbox.
@@ -132,7 +132,7 @@ _Image In Column_
 
     The format of the caption is determined by the stylesheet that is associated with the current theme.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-image-settings-caption.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-image-settings-caption.png %}){: .zoom}
     _Image Caption_
 
 1. Expand the **Search Engine Optimization** section. Then, do the following:
@@ -149,19 +149,19 @@ _Image In Column_
 
 ## To move an image
 
-1. Hover over the image container. Then, choose **Move** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-move.png %}){: .Inline}) in the toolbox.
+1. Hover over the image container. Then, choose **Move** (![]({% link images/images-ee/icon-pb-move.png %}){: .Inline}) in the toolbox.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-image-column1-move-giftcard.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-image-column1-move-giftcard.png %}){: .zoom}
     _Move Image_
 
 1. Select and drag the image to the new position, just below the red guideline.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-image-column2-move-giftcard-red-guideline.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-image-column2-move-giftcard-red-guideline.png %}){: .zoom}
     _Red Guideline Above Target Destination_
 
 ## To remove an image from the stage
 
-1. Hover over the image container. Then, choose **Remove** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-remove.png %}){: .Inline}) in the toolbox.
+1. Hover over the image container. Then, choose **Remove** (![]({% link images/images-ee/icon-pb-remove.png %}){: .Inline}) in the toolbox.
 
 1. When prompted to confirm, click **OK**.
 
@@ -184,7 +184,7 @@ _Image In Column_
 
 |Setting|Description|
 |--- |--- |
-|Image|Adds an image that is intended to be viewed from a desktop computer to the stage. You can add images directly to a row, column, or tab. Maximum size is 4 MB. Supported file types: JPG, GIF, PNG <br/>**Upload** - Uploads an image file from your local computer to the gallery. <br/>**Select from Gallery** - Prompts you to choose an existing image from the gallery. <br/>![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"} - Allows you to either drag the image to the camera tile or browse to the image in your local file system. <br/><br/>**_Note:_** The [Banner]({{ site.baseurl }}{% link cms/page-builder-media-banner.md %}) and [Slider]({{ site.baseurl }}{% link cms/page-builder-media-slider.md %}) content types also include Upload Image and Select from Gallery options for desktop images.|
+|Image|Adds an image that is intended to be viewed from a desktop computer to the stage. You can add images directly to a row, column, or tab. Maximum size is 4 MB. Supported file types: JPG, GIF, PNG <br/>**Upload** - Uploads an image file from your local computer to the gallery. <br/>**Select from Gallery** - Prompts you to choose an existing image from the gallery. <br/>![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"} - Allows you to either drag the image to the camera tile or browse to the image in your local file system. <br/><br/>**_Note:_** The [Banner]({% link cms/page-builder-media-banner.md %}) and [Slider]({% link cms/page-builder-media-slider.md %}) content types also include Upload Image and Select from Gallery options for desktop images.|
 |Mobile Image|Adds an image that is intended to be viewed from a desktop computer to the stage. You can add images directly to a row, column, or tab. Maximum size is 4 MB. Supported file types: JPG, GIF, PNG <br/>**Upload** - Uploads an image file from your local computer to the gallery. <br/>**Select from Gallery** - Prompts you to choose an existing image from the gallery. <br/>![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"} - Allows you to either drag the image to the camera tile or browse to the image in your local file system. |
 |Link|Adds a hyperlink to the primary desktop image, and to the mobile image, if available. Options: <br/>**URL** - Links the image to a URL. <br/>**Product** - Links the image to a product detail page from your store’s catalog. <br/>**Category** - Links the image to a category page. <br/>**Page** - Links the image to a content page.|
 |Open in new tab|Determines whether a linked page opens in the same browser tab, or in a new tab. Options: <br/>![Checkbox selected]({{ site.baseurl }}/images/images/btn-checkbox.png){: width="25px"} - When the checkbox is selected, the page from your store continues to be open on the current tab, and the linked page opens in a new browser tab. <br/>![Checkbox cleared]({{ site.baseurl }}/images/images/btn-checkbox-clear.png){: width="25px"} - When the checkbox is clear, the linked page opens in the same browser tab as your store, which effectively navigates the visitor away from your store.|
@@ -195,7 +195,7 @@ _Image In Column_
 
 |Setting|Description|
 |--- |--- |
-|Appearance|Determines how the background color and/or image  appears in relation to the parent container, and the width that is available for content. Options: <br/>**Contained** - The background color or image is limited to the maximum page width that is defined by the theme. <br/>**Full Width** - Limits the image to the maximum page width that is defined by the theme. However, the background is not limited, and extends the full width of the row. **Full Bleed** - Neither the image nor the background are limited, and extend the full width of the row.  <br/><br/>**_Note:_** Full Bleed can be used only with [themes]({{ site.baseurl }}{% link design/themes.md %}) that support the layout. |
+|Appearance|Determines how the background color and/or image  appears in relation to the parent container, and the width that is available for content. Options: <br/>**Contained** - The background color or image is limited to the maximum page width that is defined by the theme. <br/>**Full Width** - Limits the image to the maximum page width that is defined by the theme. However, the background is not limited, and extends the full width of the row. **Full Bleed** - Neither the image nor the background are limited, and extend the full width of the row.  <br/><br/>**_Note:_** Full Bleed can be used only with [themes]({% link design/themes.md %}) that support the layout. |
 
 ### Background
 

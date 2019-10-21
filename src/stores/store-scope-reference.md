@@ -3,99 +3,27 @@ title: Scope Quick Reference
 group: getting-started
 ---
 
-<table>
-      <col WIDTH="200">
-	   <col WIDTH="auto">
-      <thead>
-         <tr>
-            <th>Scope</th>
-            <th>Description</th>
-         </tr>
-      </thead>
-      <tbody>
-         <tr>
-            <td colspan="2"><b>Global</b></td>
-         </tr>
-         <tr>
-            <td>Admin</td>
-            <td>All websites, stores, and store views in the installation are managed from the same <a href="{{ site.baseurl }}{% link stores/admin.md %}">Admin</a>.</td>
-         </tr>
-         <tr>
-            <td>Default Config</td>
-            <td>The global <a href="{{ site.baseurl }}{% link configuration/scope.md %}">default configuration</a> settings are used through the store hierarchy, unless they are overridden at a lower level.</td>
-         </tr>
-         <tr>
-            <td>Catalog</td>
-            <td>The term “catalog” refers to the product database as a whole, and is available throughout the installation.</td>
-         </tr>
-         <tr>
-            <td>Product Prices</td>
-            <td><a href="{{ site.baseurl }}{% link catalog/catalog-price-scope.md %}">Product prices</a> can be configured to be applied at either a global or website level.</td>
-         </tr>
-         <tr>
-            <td>Product Configurations</td>
-            <td>Attributes that are used as <a href="{{ site.baseurl }}{% link catalog/product-create-configurable.md %}">configurable product</a> options must have a global scope.</td>
-         </tr>
-         <tr>
-            <td>Customers</td>
-            <td>Customer accounts can be configured to be applied at a global or website level. Each website can have a separate set of <a href="{{ site.baseurl }}{% link customers/account-scope.md %}">customer accounts</a>, or share the same customer accounts with other websites in the installation.</td>
-         </tr>
-         <tr>
-            <td colspan="2"><b>Website</b></td>
-         </tr>
-         <tr>
-            <td>Domain</td>
-            <td>Additional <a href="{{ site.baseurl }}{% link stores/stores-all-create-website.md %}">websites</a> can be set up as subdomains of the primary domain, or  have separate IP addresses and dedicated domains.  </td>
-         </tr>
-         <tr>
-            <td>Customers</td>
-            <td>Customer accounts can be configured to be applied at a global or website level. Each website can have a separate set of <a href="{{ site.baseurl }}{% link customers/account-scope.md %}">customer accounts</a>, or share the same customer accounts with other websites in the installation.</td>
-         </tr>
-         <tr>
-            <td>Currency</td>
-            <td>Each website can be assigned a different <a href="{{ site.baseurl }}{% link stores/currency-configuration.md %}">base currency</a>. The base currency is used to process all transactions, although a different display currency might appear to the customer, according to the locale of the store view.</td>
-         </tr>
-         <tr>
-            <td>Products</td>
-            <td>Individual products are assigned to the hierarchy at the website level. The Products grid lists all products in the catalog, and the websites where they are available.The <a href="{{ site.baseurl }}{% link catalog/settings-basic-websites.md %}">Product in Websites</a> setting identifies each website where the product is available. </td>
-         </tr>
-         <tr>
-            <td>Product Prices</td>
-            <td><a href="{{ site.baseurl }}{% link catalog/catalog-price-scope.md %}">Product prices</a> can be configured to be applied at either a global or website level.</td>
-         </tr>
-         <tr>
-            <td>Payment Methods</td>
-            <td><a href="{{ site.baseurl }}{% link payment/payments.md %}">Payment methods</a> are configured at the website level, although the title and instructions can be configured for each store view.</td>
-         </tr>
-         <tr>
-            <td>Checkout</td>
-            <td>The <a href="{{ site.baseurl }}{% link sales/checkout-process.md %}">checkout process</a> takes place at the website level, although some display options can be configured for each store view. All stores associated with a website have the same <a href="{{ site.baseurl }}{% link sales/checkout-configuration.md %}">checkout configuration</a>.</td>
-         </tr>
-         <tr>
-            <td colspan="2"><b>Store</b></td>
-         </tr>
-         <tr>
-            <td>Root Category</td>
-            <td>Each store can have a separate set of products and main menu that is based on a “root” category and subcategories. Each catalog has a <a href="{{ site.baseurl }}{% link catalog/category-root.md %}">root category</a> that is assigned at the store level.</td>
-         </tr>
-         <tr>
-            <td colspan="2"><b>Store View</b></td>
-         </tr>
-         <tr>
-            <td>Subcategories</td>
-            <td>The <a href="{{ site.baseurl }}{% link catalog/category-create.md %}">subcategories</a> that make up the main menu (under the root) are assigned at the store view level.</td>
-         </tr>
-         <tr>
-            <td>Locale</td>
-            <td>Each store view can be assigned a different <a href="{{ site.baseurl }}{% link stores/locale-options.md %}">locale</a>. The display currency, units of measurement, and most of the Admin interface are specific to the locale.</td>
-         </tr>
-         <tr>
-            <td>Languages</td>
-            <td>To support multiple languages, all content, including product descriptions, must be  <a href="{{ site.baseurl }}{% link catalog/product-translate.md %}">translated</a> for each store view.</td>
-         </tr>
-         <tr>
-            <td>Display Currency</td>
-            <td>A different <a href="{{ site.baseurl }}{% link stores/currency-configuration.md %}">display currency</a> can be used for each store view, although the transactions are processed at the website level using the base currency.</td>
-         </tr>
-      </tbody>
-   </table>
+|Scope|Description|
+|--- |--- |
+|**Global**||
+|Admin|All websites, stores, and store views in the installation are managed from the same Admin.|
+|Default Config|The global [default configuration]({% link configuration/scope.md %}) settings are used through the store hierarchy, unless they are overridden at a lower level.|
+|Catalog|The term _catalog_ refers to the product database as a whole, and is available throughout the installation.|
+|Product Prices|Product prices can be configured to be applied at either a global or website level.|
+|Product Configurations|Attributes that are used as [configurable product]({% link catalog/product-create-configurable.md %}) options must have a global scope.|
+|Customers|Customer accounts can be configured to be applied at a global or website level. Each website can have a separate set of [customer accounts]({% link customers/account-scope.md %}) or share the same customer accounts with other websites in the installation.|
+|**Website**||
+|Domain|Additional [websites]({% link stores/stores-all-create-website.md %}) can be set up as subdomains of the primary domain, or  have separate IP addresses and dedicated domains.|
+|Customers|Customer accounts can be configured to be applied at a global or website level. Each website can have a separate set of [customer accounts]({% link customers/account-scope.md %}) or share the same customer accounts with other websites in the installation.|
+|Currency|Each website can be assigned a different [base currency]({% link stores/currency-configuration.md %}). The base currency is used to process all transactions, although a different display currency might appear to the customer, according to the locale of the store view.|
+|Products|Individual products are assigned to the hierarchy at the website level. The Products grid lists all products in the catalog, and the websites where they are available. The [Product in Websites]({% link catalog/settings-basic-websites.md %}) setting identifies each website where the product is available.|
+|Product Prices|[Product prices]({% link catalog/catalog-price-scope.md %}) can be configured to be applied at either a global or website level.|
+|Payment Methods|[Payment methods]({% link payment/payments.md %}) are configured at the website level, although the title and instructions can be configured for each store view.|
+|Checkout|The [checkout process]({% link sales/checkout-process.md %}) takes place at the website level, although some display options can be configured for each store view. All stores associated with a website have the same [checkout configuration]({% link sales/checkout-configuration.md %}).|
+|**Store**||
+|Root Category|Each store can have a separate set of products and main menu that is based on a “root” category and subcategories. Each catalog has a [root category]({% link catalog/category-root.md %}) that is assigned at the store level.|
+|**Store View**||
+|Subcategories|The [subcategories]({% link catalog/category-create.md %}) that make up the main menu (under the root) are assigned at the store view level.|
+|Locale|Each store view can be assigned a different [locale]({% link stores/locale-options.md %}). The display currency, units of measurement, and most of the Admin interface are specific to the locale.|
+|Languages|To support multiple languages, all content, including product descriptions, must be [translated]({% link catalog/product-translate.md %}) for each store view.|
+|Display Currency|A different [display currency]({% link stores/currency-configuration.md %}) can be used for each store view, although the transactions are processed at the website level using the base currency.|

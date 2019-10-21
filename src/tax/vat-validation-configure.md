@@ -51,10 +51,10 @@ Each tax rule is defined be three entities:
 - Product Tax Classes
 - Tax Rates
 
-Create the [tax rules]({{ site.baseurl }}{% link tax/tax-rules.md %}) that you need to use VAT ID Validation effectively.
+Create the [tax rules]({% link tax/tax-rules.md %}) that you need to use VAT ID Validation effectively.
 
-- Tax rules include tax rates and [tax classes]({{ site.baseurl }}{% link tax/tax-class.md %}).
-- Tax classes are assigned to [customer groups]({{ site.baseurl }}{% link customers/customer-groups.md %}).
+- Tax rules include tax rates and [tax classes]({% link tax/tax-class.md %}).
+- Tax classes are assigned to [customer groups]({% link customers/customer-groups.md %}).
 
 ## Step 3: Enable and Configure VAT ID Validation
 
@@ -64,12 +64,12 @@ Create the [tax rules]({{ site.baseurl }}{% link tax/tax-rules.md %}) that you n
 
 1. In the panel on the left under **Customers**, choose **Customer Configuration**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Create New Account Options** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Create New Account Options** section.
 
 1. In the following screenshot, the general customer settings that are not related to VAT Validation are grayed out.
 
-    ![]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-create-new-account-options-vat.png %}){: .zoom}
-    [_Create New Account Options_]({{ site.baseurl }}{% link configuration/customers/customer-configuration.md %})
+    ![]({% link images/images/config-customers-customer-configuration-create-new-account-options-vat.png %}){: .zoom}
+    [_Create New Account Options_]({% link configuration/customers/customer-configuration.md %})
 
 1. Set **Enable Automatic Assignment to Customer Group** to `Yes`. Then complete the following fields as needed.
 
@@ -83,10 +83,10 @@ Create the [tax rules]({{ site.baseurl }}{% link tax/tax-rules.md %}) that you n
 
 1. In the _Configuration_ panel on the left under **General**, choose **General**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Store Information** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Store Information** section. Then, do the following:
 
-    ![]({{ site.baseurl }}{% link images/images/config-general-general-store-information.png %}){: .zoom}
-    [_Store Information_]({{ site.baseurl }}{% link configuration/general/general.md %})
+    ![]({% link images/images/config-general-general-store-information.png %}){: .zoom}
+    [_Store Information_]({% link configuration/general/general.md %})
 
     - Select your **Country**.
 
@@ -96,7 +96,7 @@ Create the [tax rules]({{ site.baseurl }}{% link tax/tax-rules.md %}) that you n
 
 ## Step 5: Verify the List of EU Member Countries
 
-1. Continuing in the _General configuration_ section, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Countries Options** section.
+1. Continuing in the _General configuration_ section, expand ![]({% link images/images/btn-expand.png %}) the **Countries Options** section.
 
 1. In the **European Union Countries** list, verify that each member country of the EU is selected.
 
@@ -104,5 +104,5 @@ Create the [tax rules]({{ site.baseurl }}{% link tax/tax-rules.md %}) that you n
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/config-general-general-country-options.png %}){: .zoom}
-    [_Countries Options_]({{ site.baseurl }}{% link configuration/general/general.md %})
+    ![]({% link images/images/config-general-general-country-options.png %}){: .zoom}
+    [_Countries Options_]({% link configuration/general/general.md %})

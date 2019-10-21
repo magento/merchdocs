@@ -5,9 +5,9 @@ title: Price Priority Logic
 
 In the example below, how does the system determine if we should publish $31.99, $24.99, or $27.99?
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-price-scope.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-price-scope.png %}){: .zoom}
 
-To determine which price will be used if a product is on two websites and has a varying price per website, we use price priority logic (determined by the [website priority]({{ site.baseurl }}{% link sales-channels/amazon/listing-rules.md %})).
+To determine which price will be used if a product is on two websites and has a varying price per website, we use price priority logic (determined by the [website priority]({% link sales-channels/amazon/listing-rules.md %})).
 
 To view your stores' sort order, on the Admin screen, click **Stores** and then click **All Stores**. In the Web Site column, click the website name. The Web Site Information screen contains the Sort Order field, which determines the priority of the website. A value of ‘1’ indicates the highest priority.
 
@@ -15,7 +15,7 @@ If the product price is set to Use Default, it will fall back to the default pri
 
 ### Example 1: 
 
-||[Website Priority]({{ site.baseurl }}{% link configuration/scope.md %})|Price [Website]|Use Default|
+||[Website Priority]({% link configuration/scope.md %})|Price [Website]|Use Default|
 |---|---|---|---|
 |Default|0|$31.99|--|
 |Store 1|1|$24.99|No|
@@ -27,7 +27,7 @@ If the product price is set to Use Default, it will fall back to the default pri
 
 ### Example 2: 
 
-||[Website Priority]({{ site.baseurl }}{% link configuration/scope.md %})|Price [Website]|Use Default|
+||[Website Priority]({% link configuration/scope.md %})|Price [Website]|Use Default|
 |---|---|---|---|
 |Default|0|$31.99|--|
 |Store 1|1|$24.99|Yes|
@@ -40,13 +40,13 @@ If the product price is set to Use Default, it will fall back to the default pri
 
 ### Example 3: 
 
-||[Website Priority]({{ site.baseurl }}{% link configuration/scope.md %})|Price [Website]|Use Default|
+||[Website Priority]({% link configuration/scope.md %})|Price [Website]|Use Default|
 |---|---|---|---|
 |Default|0|$31.99|$30.00|
 |Store 1|1|$24.99|--|
 |Store 2|2|$27.99|$20.00|
 
-In this example we have added in the non-price value, which is used if you select another value for the Magento Price Source in the [Listing Price]({{ site.baseurl }}{% link sales-channels/amazon/listing-price.md %}) settings. The non-price value will always use price as the fallback price.
+In this example we have added in the non-price value, which is used if you select another value for the Magento Price Source in the [Listing Price]({% link sales-channels/amazon/listing-price.md %}) settings. The non-price value will always use price as the fallback price.
 
 - The Magento Price Source is set to Non-Price.
 - Look the website with the highest website priority, which is Store 1.

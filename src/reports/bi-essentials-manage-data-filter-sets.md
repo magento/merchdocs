@@ -12,26 +12,26 @@ A filter set can be applied to any metric that uses the same table. To learn mor
 
 1. Click **Expand All** to display the detail of each filter set that is currently available.
 
-   ![]({{ site.baseurl }}{% link images/images/magento-bi-manage-data-filter-sets.png %}){: .zoom}
+   ![]({% link images/images/magento-bi-manage-data-filter-sets.png %}){: .zoom}
    *Filter Sets*
 
 ## To create a new filter set:
 
 1. In the upper-right corner of the Filter Sets page, click <span class="btn">Create New Filter Set</span>. Then, do the following:
 
-   ![]({{ site.baseurl }}{% link images/images/magento-bi-manage-data-filter-set-create.png %}){: .zoom}
+   ![]({% link images/images/magento-bi-manage-data-filter-set-create.png %}){: .zoom}
    *Create Filter Set*
 
    * Under **Select a Table**, choose the table upon which the filter set is based.
 
-      ![]({{ site.baseurl }}{% link images/images/magento-bi-manage-data-filter-set-create-choose-table.png %}){: .zoom}
+      ![]({% link images/images/magento-bi-manage-data-filter-set-create-choose-table.png %}){: .zoom}
       *Select a Table*
 
    * Enter the **Filter Set Name**.
 
-   * Click <span class="btn">Add Filter</span>. Then, follow the [instructions]({{ site.baseurl }}{% link reports/bi-essentials-report-builder-filters.md %}) to build each part of the expression.
+   * Click <span class="btn">Add Filter</span>. Then, follow the [instructions]({% link reports/bi-essentials-report-builder-filters.md %}) to build each part of the expression.
 
-      ![]({{ site.baseurl }}{% link images/images/magento-bi-manage-data-filter-set-create-add-filter.png %}){: .zoom}
+      ![]({% link images/images/magento-bi-manage-data-filter-set-create-add-filter.png %}){: .zoom}
       *Add Filter*
 
    * To add another filter, click <span class="btn">Add Filter</span>. Then, build the expression.

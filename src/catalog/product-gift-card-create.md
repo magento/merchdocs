@@ -3,18 +3,18 @@ conditions: Default.EE-B2B
 title: Creating a Gift Card
 ---
 
-The following instructions take you through the process of creating a gift card using a [product template]({{ site.baseurl }}{% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (*).When you finish the basics, you can complete the [advanced settings]({{ site.baseurl }}{% link catalog/settings-advanced.md %}) and [other settings]({{ site.baseurl }}{% link catalog/settings-other.md %}) as needed.
+The following instructions take you through the process of creating a gift card using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (*).When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}) as needed.
 
-![]({{ site.baseurl }}{% link images/images-ee/storefront-giftcard-product-page.png %}){: .zoom}
+![]({% link images/images-ee/storefront-giftcard-product-page.png %}){: .zoom}
 _Gift Card Product Page_
 
 ## Step 1: Choose the Product Type
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. In the upper-right corner on the **Add Product** ( ![]({{ site.baseurl }}{% link images/images/btn-save-menu.png %}){: .Inline} ) menu, choose **Gift Card**.
+1. In the upper-right corner on the **Add Product** ( ![]({% link images/images/btn-save-menu.png %}){: .Inline} ) menu, choose **Gift Card**.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/product-add-gift-card.png %}){: .zoom}
+    ![]({% link images/images-ee/product-add-gift-card.png %}){: .zoom}
     _Add Gift Card_
 
 ## Step 2: Choose the Attribute Set
@@ -24,7 +24,7 @@ You can use the default “Gift Card” attribute set, or choose another. To cho
 - In the **Search** box, enter the name of the attribute set,
 - In the list, choose the attribute set that you want to use.
 
-![]({{ site.baseurl }}{% link images/images/product-create-choose-attribute-set-gift-card.png %}){: .zoom}
+![]({% link images/images/product-create-choose-attribute-set-gift-card.png %}){: .zoom}
 _Choose Attribute Set_
 
 ## Step 3: Complete the Required Settings
@@ -43,17 +43,17 @@ _Choose Attribute Set_
     | Physical | Physical gift cards can be mass produced in advance and embossed with unique codes. |
     | Combined | A combined gift card has the characteristics of both a virtual and physical gift card. |
 
-    ![]({{ site.baseurl }}{% link images/images-ee/product-create-gift-card-type.png %}){: .zoom}
+    ![]({% link images/images-ee/product-create-gift-card-type.png %}){: .zoom}
     _Gift Card Type_
 
 1. To offer the customer a choice of fixed amounts, click <span class="btn">Add Amount</span>. Then, enter the first fixed value of the card as a decimal. Repeat this step to enter the selection of fixed amounts.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/product-create-gift-card-amounts.png %}){: .zoom}
+    ![]({% link images/images-ee/product-create-gift-card-amounts.png %}){: .zoom}
     _Gift Card Amounts_
 
 1. To give customers the ability to set the value of the gift card, do the following:
 
-    - Set **Open Amount** to the `Yes` ( ![]({{ site.baseurl }}{% link images/images/btn-switch-yes.png %}){: .Inline} ) position.
+    - Set **Open Amount** to the `Yes` ( ![]({% link images/images/btn-switch-yes.png %}){: .Inline} ) position.
 
     - To define the range of minimum and maximum acceptable values, enter the **Open Amount From** and **To** values.
 
@@ -75,7 +75,7 @@ _Choose Attribute Set_
 
     The default settings in this section are determined by the system configuration.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/product-gift-card-information.png %}){: .zoom}
+    ![]({% link images/images-ee/product-gift-card-information.png %}){: .zoom}
     _Gift Card Information_
 
 1. Clear the **Use Config Settings** checkbox of any of the following fields that you want to change:
@@ -89,18 +89,18 @@ _Choose Attribute Set_
 
 Complete the information in the following sections as needed:
 
-- [Content]({{ site.baseurl }}{% link catalog/product-content.md %})
-- [Images and Videos]({{ site.baseurl }}{% link catalog/product-images-and-video.md %})
-- [Related Products, Up-Sells, and Cross-Sells]({{ site.baseurl }}{% link catalog/related-products-up-sells-cross-sells.md %})
-- [Search Engine Optimization]({{ site.baseurl }}{% link catalog/product-search-engine-optimization.md %})
-- [Customizable Options]({{ site.baseurl }}{% link catalog/settings-advanced-custom-options.md %})
-- [Products in Websites]({{ site.baseurl }}{% link catalog/settings-basic-websites.md %})
-- [Design]({{ site.baseurl }}{% link catalog/settings-advanced-design.md %})
-- [Gift Options]({{ site.baseurl }}{% link catalog/product-gift-options.md %})
+- [Content]({% link catalog/product-content.md %})
+- [Images and Videos]({% link catalog/product-images-and-video.md %})
+- [Related Products, Up-Sells, and Cross-Sells]({% link catalog/related-products-up-sells-cross-sells.md %})
+- [Search Engine Optimization]({% link catalog/product-search-engine-optimization.md %})
+- [Customizable Options]({% link catalog/settings-advanced-custom-options.md %})
+- [Products in Websites]({% link catalog/settings-basic-websites.md %})
+- [Design]({% link catalog/settings-advanced-design.md %})
+- [Gift Options]({% link catalog/product-gift-options.md %})
 
 ## Step 7: Publish the Product
 
-1. If you are ready to publish the product in the catalog, set the **Enable Product** switch to the “Yes” ( ![]({{ site.baseurl }}{% link images/images/btn-switch-yes.png %}){: .Inline} ) position.
+1. If you are ready to publish the product in the catalog, set the **Enable Product** switch to the “Yes” ( ![]({% link images/images/btn-switch-yes.png %}){: .Inline} ) position.
 
 1. Do one of the following:
 
@@ -108,16 +108,16 @@ Complete the information in the following sections as needed:
 
     - In the upper-right corner, click <span class="btn">Save</span>.
 
-    - To view the product in your store, choose **Customer View** on the **Admin** ( ![]({{ site.baseurl }}{% link images/images/btn-dropdown-blk.png %}){: .Inline} ) menu,
+    - To view the product in your store, choose **Customer View** on the **Admin** ( ![]({% link images/images/btn-dropdown-blk.png %}){: .Inline} ) menu,
 
-    ![]({{ site.baseurl }}{% link images/images/admin-customer-view.png %}){: .zoom}
+    ![]({% link images/images/admin-customer-view.png %}){: .zoom}
     _Customer View_
 
     **Method 2: Save and Close**
 
-    On the **Save** ( ![]({{ site.baseurl }}{% link images/images/btn-dropdown.png %}){: .Inline} ) menu, choose **Save & Close**.
+    On the **Save** ( ![]({% link images/images/btn-dropdown.png %}){: .Inline} ) menu, choose **Save & Close**.
 
-    ![]({{ site.baseurl }}{% link images/images/product-edit-save-close.png %}){: .zoom}
+    ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
     _Save & Close_
 
 ## Things to Remember

@@ -8,7 +8,7 @@ Magento offers some basic information on the activity between your store and you
 
 _Admin_ sidebar > **Dashboard**
 
-![]({{ site.baseurl }}{%- link images/images/yotpo-admin-dashboard.png -%}){: .zoom}
+![]({% link images/images/yotpo-admin-dashboard.png %}){: .zoom}
 _Admin Dashboard_
 
 You can click **Launch Yotpo** to access your Yotpo account for additional information.
@@ -17,14 +17,14 @@ You can click **Launch Yotpo** to access your Yotpo account for additional infor
 
 _Admin_ sidebar > **Marketing** > _User Content_ > **Yotpo Reviews**
 
-![]({{ site.baseurl }}{%- link images/images/yotpo-at-a-glance.png -%}){: .zoom}
+![]({% link images/images/yotpo-at-a-glance.png %}){: .zoom}
 _Yotpo Reviews_
 
 You can:
 
 - Click **Launch Yotpo** to access your Yotpo account for additional information.
 
-- Click **Yotpo Settings** to access your [Magento store settings]({{ site.baseurl }}{%- link configuration/yotpo/reviews-visual-marketing.md -%}) for Yotpo.
+- Click **Yotpo Settings** to access your [Magento store settings]({% link configuration/yotpo/reviews-visual-marketing.md -%}) for Yotpo.
 
 ### Basic Review Information
 

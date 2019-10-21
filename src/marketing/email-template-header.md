@@ -4,7 +4,7 @@ title: Header Template
 
 The email header template includes your logo that is linked to your store. In addition, you can easily insert variables to add store contact information to the header.
 
-![]({{ site.baseurl }}{%- link images/images/email-templates.png -%}){: .zoom}
+![]({% link images/images/email-templates.png %}){: .zoom}
 *Email Templates*
 
 ## Step 1. Load the Default Template
@@ -15,7 +15,7 @@ The email header template includes your logo that is linked to your store. In ad
 
     * Under **Load default template**, in the **Template** list under **Magento_Email**, choose “Header”.
 
-        ![]({{ site.baseurl }}{%- link images/images/email-template-magento-email-header.png -%}){: .zoom}
+        ![]({% link images/images/email-template-magento-email-header.png %}){: .zoom}
         *Default Header Template*
 
     * Tap <span class="btn">Load Template</span>.
@@ -30,7 +30,7 @@ The email header template includes your logo that is linked to your store. In ad
 
     * Enter a **Template Subject** to help organize the templates. In the grid, the list of templates can be sorted and filtered by the Subject column.
 
-        ![]({{ site.baseurl }}{%- link images/images/email-template-information.png -%}){: .zoom}
+        ![]({% link images/images/email-template-information.png %}){: .zoom}
         *Header Template Information*
 
     * In the **Template Content** box, modify the HTML as needed.
@@ -40,12 +40,12 @@ The email header template includes your logo that is linked to your store. In ad
 
     * To insert a variable, position the cursor in the code where you want the variable to appear, and tap <span class="btn">Insert Variable</span>. Then, choose the variable that you want to insert.
 
-        When a variable is selected, a [markup tag]({{ site.baseurl }}{%- link marketing/markup-tags.md -%}) for the variable is inserted in the code.
+        When a variable is selected, a [markup tag]({% link marketing/markup-tags.md -%}) for the variable is inserted in the code.
 
-        ![]({{ site.baseurl }}{%- link images/images/email-template-insert-variable.png -%}){: .zoom}
+        ![]({% link images/images/email-template-insert-variable.png %}){: .zoom}
         *Insert Variable*
 
-        Although the Store Contact variables are the ones most often included in the header, you can enter the code for any system or [custom variable]({{ site.baseurl }}{%- link marketing/variables-custom.md -%}) directly into the template.
+        Although the Store Contact variables are the ones most often included in the header, you can enter the code for any system or [custom variable]({% link marketing/variables-custom.md -%}) directly into the template.
 
     * If you need to make any CSS declarations, enter the styles in the **Template Styles** box.
 
@@ -61,14 +61,14 @@ The email header template includes your logo that is linked to your store. In ad
 
 1. In the grid, find the store view that you want to configure. Then in the **Action** column, click **Edit**.
 
-1. Scroll down and expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Transactional Emails** section.
+1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Transactional Emails** section.
 
 1. Choose the **Header Template** that is used as the default for email notifications.
 
 1. When complete, tap <span class="btn">Save Config</span>.
 
-![]({{ site.baseurl }}{%- link images/images/config-design-transactional-emails.png -%}){: .zoom}
-[*Transactional Emails*]({{ site.baseurl }}{%- link design/configuration.md -%})
+![]({% link images/images/config-design-transactional-emails.png %}){: .zoom}
+[*Transactional Emails*]({% link design/configuration.md -%})
 
 ## Field Descriptions
 

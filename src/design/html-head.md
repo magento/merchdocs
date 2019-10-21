@@ -11,13 +11,13 @@ To configure the HTML Head:
 
 1. Find the store view that you want to configure. Then, click **Edit** in the _Action_ column.
 
-1. Under **Other Settings**, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **HTML Head** section.
+1. Under **Other Settings**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **HTML Head** section.
 
 1. Update the fields as needed. (See the following Field Descriptions for more information about each item.)
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-![]({{ site.baseurl }}{% link images/images/config-design-html-head.png %}){: .zoom}
+![]({% link images/images/config-design-html-head.png %}){: .zoom}
 _HTML Head_
 
 ## Field Descriptions

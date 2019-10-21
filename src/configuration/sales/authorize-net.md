@@ -2,21 +2,21 @@
 title: Authorize.Net
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > [Payment Methods]({{ site.baseurl }}{% link configuration/sales/payment-methods.md %}) > Authorize.Net
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > Authorize.Net
 
 {:.bs-callout .bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
-As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, do one of the following:<br/>- (Recommended) Install and configure the official Authorize.Net payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=authorize.net){:target="_blank"}.<br/>- Enable and configure the Authorize.Net payment method in the Magento configuration.<br/>These integrations support 3D Secure 2.0 verification through [CardinalCommerce](https://www.cardinalcommerce.com/products/psd2) and other third-party services.
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, do one of the following:<br/>- (Recommended) Install and configure the official Authorize.Net payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=authorize.net){:target="_blank"}.<br/>- Enable and configure the Authorize.Net payment method in the Magento configuration.<br/>These integrations support 3D Secure 2.0 verification through [CardinalCommerce](https://www.cardinalcommerce.com/products/psd2) and other third-party services.
 
 ## Basic Authorize.Net Settings
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-authorize-net-basic-settings.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-authorize-net-basic-settings.png %}){: .zoom}
 _Basic Authorize.Net Settings Not Enabled_
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-authorize-net-basic-settings-enabled.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-authorize-net-basic-settings-enabled.png %}){: .zoom}
 _Basic Authorize.Net Settings Enabled_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled|Website|Determines if the Authorize.Net configuration is enabled. To enable the configuration and display additional settings, clear the Use system value checkbox. Then, choose "Yes". Options: Yes / No|
 |Title|Store View|A unique label that identifies Authorize.Net in the list of payment methods during checkout.|
@@ -31,10 +31,10 @@ _Basic Authorize.Net Settings Enabled_
 
 ## Advanced Authorize.Net Settings
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-authorize-net-advanced-settings.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-authorize-net-advanced-settings.png %}){: .zoom}
 _Advanced Authorize.Net Settings_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Accepted Currency|Website|Must be set to “US Dollar” because this is the only currency that Authorize.Net accepts.|
 |Debug|Website|Determines if  messages sent between your store and the Authorize.Net payment system are recorded in a log file. Options: Yes / No <br/><br/>**_Note:_** In accordance with PCI Data Security Standards, credit card information is not recorded in the log file.|

@@ -12,13 +12,13 @@ redirect_from:
 As a best practice, we recommend that you keep your Magento installation up to date, so you can benefit from the latest advancements. Release notes provide a detailed description of the changes in each product release, with links to additional technical information, installation instructions, and support resources. To learn more about current and past releases, see {% if "Default.EE-B2B" contains site.edition %}[Release Information][1]{: target="_blank"}{% endif %}{% if "Default.CE Only" contains site.edition %}[Release Information][2]{% endif %}.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/magento-open-source.png %}){: .zoom}
+![]({% link images/images/magento-open-source.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/magento-commerce.png %}){: .zoom}
+![]({% link images/images-ee/magento-commerce.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-b2b/magento-for-b2b-commerce.png %}){: .zoom}
+![]({% link images/images-b2b/magento-for-b2b-commerce.png %}){: .zoom}
 <!--{% endif %}-->
 
 {: .bs-callout .bs-callout-info}

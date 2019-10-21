@@ -4,7 +4,7 @@ title: User Roles
 
 To give someone restricted access to the Admin, the first step is to create a role that has the appropriate level of permissions. After the role is saved, you can add new users and assign the restricted role to grant them limited access to the Admin.
 
-![]({{ site.baseurl }}{% link images/images/permissions-role-grid.png %})
+![]({% link images/images/permissions-role-grid.png %})
 
 #### To set up a role:
 
@@ -20,7 +20,7 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
 1.  Under _Current User Identity Verification_, enter **Your Password**.
 
-    ![]({{ site.baseurl }}{% link images/images/system-permissions-role-info.png %}){: .zoom}
+    ![]({% link images/images/system-permissions-role-info.png %}){: .zoom}
     _Role Name_
 
 ## Step 2: Assign Resources
@@ -36,16 +36,16 @@ When assigning resources, be sure to disable access to the Permissions tool if y
 
     If set to `Custom` for a multisite installation, mark the checkbox of the website and store where the role is to be used.
 
-    ![]({{ site.baseurl }}{% link images/images/permissions-role-scope-custom.png %}){: .zoom}
+    ![]({% link images/images/permissions-role-scope-custom.png %}){: .zoom}
     _Custom Role Scope_
 
 1.  Under _Roles Resources_, set **Resource Access** to `Custom`.
 
 1.  In the tree, mark the checkbox of each Admin **Resource** that the role can access.
 
-    To create an Admin role with access to tax settings, choose both the Sales/Tax and System/Tax resources. If setting up a website for a region that differs from your default [shipping point of origin]({{ site.baseurl }}{% link shipping/point-of-origin.md %}), you must allow access to the System/Shipping resources for the role. The shipping settings determine the store tax rate that is used for catalog prices.
+    To create an Admin role with access to tax settings, choose both the Sales/Tax and System/Tax resources. If setting up a website for a region that differs from your default [shipping point of origin]({% link shipping/point-of-origin.md %}), you must allow access to the System/Shipping resources for the role. The shipping settings determine the store tax rate that is used for catalog prices.
 
-    ![]({{ site.baseurl }}{% link images/images/system-permissions-role-resources-product.png %}){: .zoom}
+    ![]({% link images/images/system-permissions-role-resources-product.png %}){: .zoom}
     _Role Resources Assigned_
 
     {:.bs-callout-info}
@@ -63,7 +63,7 @@ When assigning resources, be sure to disable access to the Permissions tool if y
 
 1.  Under _Current User Identity Verification_, enter **Your Password**.
 
-    ![]({{ site.baseurl }}{% link images/images/permissions-role-edit.png %}){: .zoom}
+    ![]({% link images/images/permissions-role-edit.png %}){: .zoom}
     _Editing a Role_
 
 1.  In the panel on the left, choose **Role Users**.
@@ -80,5 +80,5 @@ When assigning resources, be sure to disable access to the Permissions tool if y
 
 1.  Click **Save Role**.
 
-    ![]({{ site.baseurl }}{% link images/images/permissions-role-users.png %}){: .zoom}
+    ![]({% link images/images/permissions-role-users.png %}){: .zoom}
     _Role Users_

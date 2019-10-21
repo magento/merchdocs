@@ -3,9 +3,9 @@ conditions: Default.EE-B2B
 title: Email Reminder Templates
 ---
 
-The default email reminder template can be customized, and additional templates created for different promotions. Email reminders have a selection of specific variables that can be incorporated into the message. The information in these variables is determined by the email reminder rule that you set up, and by the cart price rule that is associated with the coupon. The Insert Variable button can be used to insert the markup tag with the variable into the template. To learn more, see: [Email]({{ site.baseurl }}{%- link marketing/email-templates.md -%}).
+The default email reminder template can be customized, and additional templates created for different promotions. Email reminders have a selection of specific variables that can be incorporated into the message. The information in these variables is determined by the email reminder rule that you set up, and by the cart price rule that is associated with the coupon. The Insert Variable button can be used to insert the markup tag with the variable into the template. To learn more, see: [Email]({% link marketing/email-templates.md -%}).
 
-![]({{ site.baseurl }}{%- link images/images-ee/email-reminder-preview-promotion-template.png -%}){: .zoom}
+![]({% link images/images-ee/email-reminder-preview-promotion-template.png %}){: .zoom}
 *Preview of Promotion Reminder*
 
 ## To customize an email reminder template
@@ -18,7 +18,7 @@ The default email reminder template can be customized, and additional templates 
 
     * Tap <span class="btn">Load Template</span>.
 
-Follow the standard [instructions]({{ site.baseurl }}{%- link marketing/email-template-custom.md -%}) to customize the template.
+Follow the standard [instructions]({% link marketing/email-template-custom.md -%}) to customize the template.
 
 ## Email Reminder Variables
 

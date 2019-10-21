@@ -13,7 +13,7 @@ By default, Magento does not merge, bundle, or minimize files, and the project d
 See [Magento Optimization Guide][1] in the developer documentation.
 
 {: .bs-callout-info}
-CSS and JavaScript files can be optimized in [Developer Mode]({{ site.baseurl }}{% link magento/installation-modes.md %}) only.
+CSS and JavaScript files can be optimized in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
 File Type       | Supported Operations
 --------------- | --------------------
@@ -29,28 +29,28 @@ Template Files  | Minify
 
 1.  In the panel on the left under _Advanced_, choose **Developer**.
 
-1.  To optimize CSS files, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **CSS Settings** section. Then, do the following:
+1.  To optimize CSS files, expand ![]({% link images/images/btn-expand.png %}) the **CSS Settings** section. Then, do the following:
 
     -  **Merge CSS Files**—Set to `Yes`.
     -  **Minify CSS Files**—Set to `Yes`.
 
-    ![]({{ site.baseurl }}{% link images/images/config-advanced-developer-css-settings.png %}){: .zoom} 
-    [_CSS Settings_]({{ site.baseurl }}{% link configuration/advanced/developer.md %})
+    ![]({% link images/images/config-advanced-developer-css-settings.png %}){: .zoom} 
+    [_CSS Settings_]({% link configuration/advanced/developer.md %})
 
-1.  To optimize JavaScript files, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **JavaScript Settings** section. Then, do the following:
+1.  To optimize JavaScript files, expand ![]({% link images/images/btn-expand.png %}) the **JavaScript Settings** section. Then, do the following:
 
     -  **Merge JavaScript Files**—Set to `Yes`.
     -  **Minify JavaScript Files**—Set to `Yes`.
 
-    ![]({{ site.baseurl }}{% link images/images/config-advanced-developer-javascript-settings.png %}){: .zoom}
-    [_JavaScript Settings_]({{ site.baseurl }}{% link configuration/advanced/developer.md %})
+    ![]({% link images/images/config-advanced-developer-javascript-settings.png %}){: .zoom}
+    [_JavaScript Settings_]({% link configuration/advanced/developer.md %})
 
-1.  To minify PHTML template files, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Template Settings** section.
+1.  To minify PHTML template files, expand ![]({% link images/images/btn-expand.png %}) the **Template Settings** section.
 
     -  **Minify Html**—Set to `Yes`.
 
-    ![]({{ site.baseurl }}{% link images/images/config-advanced-developer-template-settings.png %}){: .zoom}
-    [_Template Settings_]({{ site.baseurl }}{% link configuration/advanced/developer.md %})
+    ![]({% link images/images/config-advanced-developer-template-settings.png %}){: .zoom}
+    [_Template Settings_]({% link configuration/advanced/developer.md %})
 
 1.  When complete, click **Save Config**.
 

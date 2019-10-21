@@ -6,7 +6,7 @@ The process of adding a new content page to your store is essentially the same f
 
 The following instructions walk you through each step to create a basic page. Some advanced features are skipped over, but are covered in other topics.
 
-![]({{ site.baseurl }}{% link images/images/pages.png %}){: .zoom}
+![]({% link images/images/pages.png %}){: .zoom}
 _Pages_
 
 ## Step 1: Add a New Page
@@ -16,10 +16,10 @@ _Pages_
 1. Click <span class="btn">Add New Page</span>.
 
     <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({{ site.baseurl }}{% link images/images/pages-new-page.png %}){: .zoom}
+    ![]({% link images/images/pages-new-page.png %}){: .zoom}
     <!--{% endif %}-->
     <!--{% if "Default.EE-B2B" contains site.edition %}-->
-    ![]({{ site.baseurl }}{% link images/images-ee/pages-new-page.png %}){: .zoom}
+    ![]({% link images/images-ee/pages-new-page.png %}){: .zoom}
     <!--{% endif %}-->
     _New Page_
 
@@ -27,16 +27,16 @@ _Pages_
 
     - By default, a new page is published when the record is saved. If you do not want to publish the page immediately, set **Enable Page** to `No`.
 
-    - Enter the **Page Title**. The Page Title is the name that appears in the [breadcrumb trail]({{ site.baseurl }}{% link catalog/navigation-breadcrumb-trail.md %}) navigation.
+    - Enter the **Page Title**. The Page Title is the name that appears in the [breadcrumb trail]({% link catalog/navigation-breadcrumb-trail.md %}) navigation.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-1. To schedule design changes, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} **Custom Design Update**. Then, do the following:
+1. To schedule design changes, expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Custom Design Update**. Then, do the following:
 
-    - Use the calendar (![]({{ site.baseurl }}{% link images/images/btn-calendar.png %}){: .Inline}) to choose the **From** and **To** dates when the design change is to be in effect.
+    - Use the calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}) to choose the **From** and **To** dates when the design change is to be in effect.
 
     - If applicable, set **New Theme** to a different theme that is to be used for the page.
 
-    - To change the [Page Layout]({{ site.baseurl }}{% link design/page-layout.md %}), set **New Layout** to one of the following:
+    - To change the [Page Layout]({% link design/page-layout.md %}), set **New Layout** to one of the following:
 
       - `Empty`
       - `1 column`
@@ -44,14 +44,14 @@ _Pages_
       - `2 columns with right bar`
       - `3 columns`
 
-    ![]({{ site.baseurl }}{% link images/images/page-custom-design-update.png %}){: .zoom}
+    ![]({% link images/images/page-custom-design-update.png %}){: .zoom}
     _Custom Design Update
 
 ## Step 2: Complete the Content
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} **Content**.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Content**.
 
-    ![]({{ site.baseurl }}{% link images/images/page-content.png %}){: .zoom}
+    ![]({% link images/images/page-content.png %}){: .zoom}
     _Content_
 
 1. In the **Content Heading** box, enter the heading that you want to appear at the top of the page.
@@ -62,7 +62,7 @@ _Pages_
 
 1. Complete the content and format the text as needed. 
 
-    You can add [images]({{ site.baseurl }}{% link cms/media-storage.md %}), [variables]({{ site.baseurl }}{% link marketing/variables.md %}), and [widgets]({{ site.baseurl }}{% link cms/widgets.md %}) as needed. To learn more, see: [Using the Editor]({{ site.baseurl }}{% link cms/editor.md %}).
+    You can add [images]({% link cms/media-storage.md %}), [variables]({% link marketing/variables.md %}), and [widgets]({% link cms/widgets.md %}) as needed. To learn more, see: [Using the Editor]({% link cms/editor.md %}).
 
 1. Click <span class="btn">Save</span>.
 
@@ -70,12 +70,12 @@ _Pages_
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ## Step 2: Complete the Content
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} **Content**.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Content**.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-content.png %}){: .zoom}
+    ![]({% link images/images-ee/page-content.png %}){: .zoom}
     _Content with Page Builder_
 
-1. Complete the content, and format the text as needed. To learn more, see: [Page Builder]({{ site.baseurl }}{% link cms/page-builder.md %}).
+1. Complete the content, and format the text as needed. To learn more, see: [Page Builder]({% link cms/page-builder.md %}).
 
 1. click <span class="btn">Save</span>.
 
@@ -83,7 +83,7 @@ _Pages_
 
 ## Step 3: Complete the SEO Information
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} **Search Engine Optimization**. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Search Engine Optimization**. Then, do the following:
 
     - When the page was saved, a default URL key was created that is based on the Content Heading. You can accept the default or enter another **URL Key** that consists of all lowercase characters, with hyphens instead of spaces.
 
@@ -93,49 +93,49 @@ _Pages_
 
     - In the **Meta Description** field, enter a brief description of the page for search results listings. Ideally, the description should be from 150-160 characters in length, with a maximum limit of 255.
 
-    ![]({{ site.baseurl }}{% link images/images/page-search-engine-optimization.png %}){: .zoom}
+    ![]({% link images/images/page-search-engine-optimization.png %}){: .zoom}
     _Search Engine Optimization_
 
 1. Click <span class="btn">Save</span>.
 
 ## Step 4: Define the Scope of the Page
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} **Page in Websites**.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Page in Websites**.
 
 1. In the **Store View** list, select each view where the page is to be available. If the installation has multiple websites, select each website and store view where the page is to be available.
 
-    ![]({{ site.baseurl }}{% link images/images/page-in-websites.png %}){: .zoom}
+    ![]({% link images/images/page-in-websites.png %}){: .zoom}
     _Pages in Websites_
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 
 ## Step 5: Identify Any Parent Page
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} **Hierarchy**.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Hierarchy**.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-hierarchy.png %}){: .zoom}  
+    ![]({% link images/images-ee/page-hierarchy.png %}){: .zoom}  
     _Hierarchy_
 
 1. If this page is a child of another page, select the checkbox of the **Parent page**.
 
 ## Step 6: Enter Any Design Changes (Optional)
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} **Design**. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Design**. Then, do the following:
 
-    ![]({{ site.baseurl }}{% link images/images/page-design.png %}){: .zoom}
+    ![]({% link images/images/page-design.png %}){: .zoom}
     _Design_
 
-1. To change the [page layout]({{ site.baseurl }}{% link design/page-layout-examples.md %}), set **Layout** to one of the following:
+1. To change the [page layout]({% link design/page-layout-examples.md %}), set **Layout** to one of the following:
 
    - `Empty`
    - `1 column`
    - `2 columns with left bar`
    - `2 columns with right bar`
    - `3 columns`
-   - `Page -- Full Width` (Requires [Page Builder]({{ site.baseurl }}{% link cms/page-builder.md %}))
+   - `Page -- Full Width` (Requires [Page Builder]({% link cms/page-builder.md %}))
    - `Category -- Full Width` (Requires Page Builder)
    - `Product -- Full Width` (Requires Page Builder)
 
-1. To include additional [layout instructions]({{ site.baseurl }}{% link design/layout-updates.md %}), enter valid XML code in the **Layout Update XML** box.
+1. To include additional [layout instructions]({% link design/layout-updates.md %}), enter valid XML code in the **Layout Update XML** box.
 
 <!--{% endif %}-->
 
@@ -155,10 +155,10 @@ _Pages_
 
 1. On the **Save** menu, choose **Save & Close**.
 
-    ![]({{ site.baseurl }}{% link images/images/cms-pages-save-and-close.png %}){: .zoom}
+    ![]({% link images/images/cms-pages-save-and-close.png %}){: .zoom}
     _Save & Close_
 
-Now that your page is complete, it can be added to your store navigation, linked to other pages, or added as a link in the footer of your store. You can also use it as your new [home page]({{ site.baseurl }}{% link cms/page-home-new.md %}).
+Now that your page is complete, it can be added to your store navigation, linked to other pages, or added as a link in the footer of your store. You can also use it as your new [home page]({% link cms/page-home-new.md %}).
 
 |Command|Description|
 |--- |--- |

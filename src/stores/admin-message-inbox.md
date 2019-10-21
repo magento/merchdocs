@@ -5,12 +5,12 @@ group: getting-started
 
 Your store receives messages from Magento on a regular basis. The messages are rated by importance and might refer to system updates, patches, new releases, scheduled maintenance, or upcoming events. The bell icon in the header indicates the number of unread messages in your inbox.
 
-![Magento Admin - incoming messages]({{ site.baseurl }}{% link images/images/admin-inbox-summary.png %}){: .zoom}
+![Magento Admin - incoming messages]({% link images/images/admin-inbox-summary.png %}){: .zoom}
 _Incoming Messages_
 
 Any message of critical importance appears in a pop-up window when you log into your store. The notice continues to appear after each login until the message is either marked as read or removed.
 
-![Incoming message - Critical]({{ site.baseurl }}{% link images/images/admin-message-incoming.png %}){: .zoom}
+![Incoming message - Critical]({% link images/images/admin-message-incoming.png %}){: .zoom}
 _Message of Critical Importance_
 
 The Notifications page lists all messages ranked by severity, with the most recent at the top. The Action commands can be used to mark individual messages as read, view more detailed information, or to remove the message from the inbox.
@@ -48,7 +48,7 @@ For a message of critical importance, do one of the following:
 
    - To keep the message in your inbox, click **Mark As Read**.
 
-        ![Magento Admin - notifications ]({{ site.baseurl }}{% link images/images/admin-notifications-mark-as-read.png %}){: .zoom}
+        ![Magento Admin - notifications ]({% link images/images/admin-notifications-mark-as-read.png %}){: .zoom}
         _All Notifications_
 
    - To delete the message, click **Remove**.
@@ -73,15 +73,15 @@ For a message of critical importance, do one of the following:
 
 1. Choose **System**.
 
-1. Expand ![Expansion selector]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Notifications** section and do the following:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Notifications** section and do the following:
 
-    - If your store Admin runs over a [secure URL]({{ site.baseurl }}{% link stores/store-urls.md %}), set **Use HTTPS to Get Feed** to  `Yes`.
+    - If your store Admin runs over a [secure URL]({% link stores/store-urls.md %}), set **Use HTTPS to Get Feed** to  `Yes`.
 
     - Set **Update Frequency** to determine how often your inbox is updated.
 
         The interval can be from one to twenty-four hours.
 
-    ![]({{ site.baseurl }}{% link images/images/config-advanced-system-notifications.png %}){: .zoom}
-    [_Notifications_]({{ site.baseurl }}{% link configuration/advanced/system.md %})
+    ![]({% link images/images/config-advanced-system-notifications.png %}){: .zoom}
+    [_Notifications_]({% link configuration/advanced/system.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

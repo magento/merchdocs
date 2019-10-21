@@ -28,17 +28,17 @@ If an order is in `Unshipped` status, the **Cancel Order** option will display i
 
 ## Order and Shipping Details tab
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-order-details.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-order-details.png %}){: .zoom}
 _Order and Shipping Details_
 
 ## Order Items tab
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-order-item-details.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-order-item-details.png %}){: .zoom}
 _Order Item Details_
 
 ## Tracking tab
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-order-tracking-details.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-order-tracking-details.png %}){: .zoom}
 _Tracking Details_
 
 ## To cancel an unshipped order:

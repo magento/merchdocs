@@ -4,7 +4,7 @@ title: My Orders
 
 You have access to all of your orders from your account dashboard. Orders can be viewed, tracked, and resubmitted as new orders. Depending on the status of the order, you can print orders, invoices, and shipment records.
 
-![]({{ site.baseurl }}{% link images/images/customer-account-my-orders.png %}){: .zoom}
+![]({% link images/images/customer-account-my-orders.png %}){: .zoom}
 _My Orders_
 
 ## To view an order:
@@ -25,7 +25,7 @@ Find the order in the list and click **View Order**. From the open order, do an
 
 1. Click <span class="btn">Print</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/customer-account-print-order.png %}){: .zoom}
+    ![]({% link images/images/customer-account-print-order.png %}){: .zoom}
     _Print Order_
 
 ### Print Invoices
@@ -40,7 +40,7 @@ Find the order in the list and click **View Order**. From the open order, do an
 
 1. Click <span class="btn">Print</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/customer-account-order-invoices.png %}){: .zoom}
+    ![]({% link images/images/customer-account-order-invoices.png %}){: .zoom}
     _Invoices_
 
 ### Print Shipments
@@ -55,7 +55,7 @@ Find the order in the list and click **View Order**. From the open order, do an
 
 1. Click <span class="btn">Print</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/customer-account-order-shipments.png %}){: .zoom}
+    ![]({% link images/images/customer-account-order-shipments.png %}){: .zoom}
     _Order Shipments_
 
 ### Track a Shipment
@@ -78,5 +78,5 @@ Find the order in the list and click **View Order**. From the open order, do an
 
 1. Click <span class="btn">Print</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/customer-account-order-refunds.png %}){: .zoom}
+    ![]({% link images/images/customer-account-order-refunds.png %}){: .zoom}
     _Refunds_

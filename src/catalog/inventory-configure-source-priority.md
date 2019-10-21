@@ -12,10 +12,10 @@ When run, the algorithm:
 * Continues down the list until the order shipment is filled
 * Skips disabled sources if found in the list
 
-To configure, arrange those sources from top-to-bottom in priority for fulfilling orders. The Source Selection Algorithm (SSA) provides an algorithm Priority using this order when determining shipment and inventory deductions. See [Prioritizing Sources for a Stock]({{ site.baseurl }}{% link catalog/inventory-stock-priority.md %}).
+To configure, arrange those sources from top-to-bottom in priority for fulfilling orders. The Source Selection Algorithm (SSA) provides an algorithm Priority using this order when determining shipment and inventory deductions. See [Prioritizing Sources for a Stock]({% link catalog/inventory-stock-priority.md %}).
 
 {:.bs-callout .bs-callout-info}
-When using the [Distance Priority]({{ site.baseurl }}{% link catalog/inventory-configure-distance-priority.md %}) algorithm for shipping, if routes and data do not return for the selected [Computation mode]({{ site.baseurl }}{% link catalog/inventory-configure-distance-priority.md %}) (driving, bicycling, or walking) for a shipment, the SSA defaults to using the Source Priority.
+When using the [Distance Priority]({% link catalog/inventory-configure-distance-priority.md %}) algorithm for shipping, if routes and data do not return for the selected [Computation mode]({% link catalog/inventory-configure-distance-priority.md %}) (driving, bicycling, or walking) for a shipment, the SSA defaults to using the Source Priority.
 
-![]({{ site.baseurl }}{% link images/images/stores-inventory-stock-priorityafter.png %}){: .zoom}
+![]({% link images/images/stores-inventory-stock-priorityafter.png %}){: .zoom}
 *Source order after prioritization*

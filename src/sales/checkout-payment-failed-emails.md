@@ -5,12 +5,12 @@ group: marketing
 
 A notification is sent to the customer if the payment method that is chosen during checkout fails to complete the transaction.
 
-![]({{ site.baseurl }}{% link images/images/config-sales-checkout-payment-failed-emails.png %}){: .zoom}
-[_Payment Failed Emails_]({{ site.baseurl }}{% link configuration/sales/checkout.md %})
+![]({% link images/images/config-sales-checkout-payment-failed-emails.png %}){: .zoom}
+[_Payment Failed Emails_]({% link configuration/sales/checkout.md %})
 
 ## Step 1: Update the Email Templates
 
-Make sure that you have updated each [email template ]({{ site.baseurl }}{% link marketing/email-template-message.md %}) to reflect your brand. For a complete list of templates, see: [Email Template List]({{ site.baseurl }}{% link marketing/email-template-list.md %}).
+Make sure that you have updated each [email template ]({% link marketing/email-template-message.md %}) to reflect your brand. For a complete list of templates, see: [Email Template List]({% link marketing/email-template-list.md %}).
 
 ## Step 2: Configure the Payment Failed Emails
 
@@ -20,7 +20,7 @@ Make sure that you have updated each [email template ]({{ site.baseurl }}{% link
 
 1. In the _Sales_ section in the left panel, choose **Checkout**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Payment Failed Emails** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Payment Failed Emails** section. Then, do the following:
 
     - Set **Payment Failed Email Sender** to the store contact that appears as the sender of the message.
     - Set **Payment Failed Email Receiver** to the store contact that is to receive notification of failed email transmissions.

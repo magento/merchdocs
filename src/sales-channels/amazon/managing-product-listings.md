@@ -3,13 +3,13 @@ title: Managing Amazon Listings
 ---
 
 
-Product Listing settings are initially defined during onboarding, but can be modified at any time after your store setup is complete. You can access the listing settings for an Active or Inactive store in the [store's dashboard]({{ site.baseurl }}{% link sales-channels/amazon/amazon-store-dashboard.md %}). In the **I Want To...** section, click **Manage Listings**. The Product Listings screen displays with the Active tab displayed by default.
+Product Listing settings are initially defined during onboarding, but can be modified at any time after your store setup is complete. You can access the listing settings for an Active or Inactive store in the [store's dashboard]({% link sales-channels/amazon/amazon-store-dashboard.md %}). In the **I Want To...** section, click **Manage Listings**. The Product Listings screen displays with the Active tab displayed by default.
 
 {% include amazon-managing-listings-intro.md %}
 
-[Manage Listings by Status / Tab]({{ site.baseurl }}{% link sales-channels/amazon/managing-listings-by-tab.md %})
+[Manage Listings by Status / Tab]({% link sales-channels/amazon/managing-listings-by-tab.md %})
 
-[Manage Listings by Action]({{ site.baseurl }}{% link sales-channels/amazon/managing-listings-by-action.md %})
+[Manage Listings by Action]({% link sales-channels/amazon/managing-listings-by-action.md %})
 
 ## To access Product Listings:
 

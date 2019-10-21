@@ -14,7 +14,7 @@ For example, a 3000 x 2100 pixel JPG at 100% could be a 5mb+ image. Resizing thi
 
 1. Tap **Advanced**. Then choose **System**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the Images Upload Configuration section, and configure. TO change default settings, you may need to clear the Use system value checkbox.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the Images Upload Configuration section, and configure. TO change default settings, you may need to clear the Use system value checkbox.
 
    * To enable, make sure **Enable Frontend Resize** is set to "Yes".
 
@@ -24,8 +24,8 @@ For example, a 3000 x 2100 pixel JPG at 100% could be a 5mb+ image. Resizing thi
 
    * Set the **Maximum Height** in pixels for the image. When the image is resized, it does not exceed this height and retains proportions.
 
-      ![]({{ site.baseurl }}{% link images/images/system-image-upload-configuration.png %}){: .zoom}
-      *[Image Upload Configuration]({{ site.baseurl }}{% link configuration/advanced/system.md %})*
+      ![]({% link images/images/system-image-upload-configuration.png %}){: .zoom}
+      *[Image Upload Configuration]({% link configuration/advanced/system.md %})*
 
 1. When complete, tap <span class="btn"> Save Config </span>.
 
@@ -37,7 +37,7 @@ For example, a 3000 x 2100 pixel JPG at 100% could be a 5mb+ image. Resizing thi
          <tr>
             <th>Field</th>
             <th>
-               <a href="{{ site.baseurl }}{% link configuration/scope.md %}" class="Scope">Scope</a>
+               <a href="{% link configuration/scope.md %}" class="Scope">Scope</a>
             </th>
             <th>Description</th>
          </tr>

@@ -6,16 +6,16 @@ BI Dashboards give you a quick view of your store’s performance and sales acti
 
 It’s easy to create a new report, add it to a dashboard, and export the data to Excel. Charts and reports can be resized and dragged into position on the dashboard.
 
-![]({{ site.baseurl }}{% link images/images/magento-bi-report-builder-revenue-by-products-formula-report-holiday-sales-dashboard.png %}){: .zoom}
+![]({% link images/images/magento-bi-report-builder-revenue-by-products-formula-report-holiday-sales-dashboard.png %}){: .zoom}
 *Dashboard*
 
 ## To create a new dashboard:
 
 1. On the menu, choose **Dashboards**.
 
-1. The name of the default dashboard appears in the upper-left corner of the dashboard header. Click the down arrow ( ![]({{ site.baseurl }}{% link images/images/magento-bi-btn-down.png %}){: .Inline} ) to show the available options.
+1. The name of the default dashboard appears in the upper-left corner of the dashboard header. Click the down arrow ( ![]({% link images/images/magento-bi-btn-down.png %}){: .Inline} ) to show the available options.
 
-    ![]({{ site.baseurl }}{% link images/images/magento-bi-dashboard-create.png %}){: .zoom}
+    ![]({% link images/images/magento-bi-dashboard-create.png %}){: .zoom}
     *Create Dashboard*
 
 1. Click <span class="btn">Create Dashboard</span>. Then, do the following:
@@ -28,12 +28,12 @@ It’s easy to create a new report, add it to a dashboard, and export the data t
 
     * Click <span class="btn">Create</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/magento-bi-dashboard-create-name.png %}){: .zoom}
+    ![]({% link images/images/magento-bi-dashboard-create-name.png %}){: .zoom}
     *Dashboard Name*
 
     * The name of your new dashboard appears in the upper-left corner. Click the down arrow to show the options. If you created a group, the new dashboard appears below the group in the list.
 
-    ![]({{ site.baseurl }}{% link images/images/magento-bi-dashboard-create-add-report.png %}){: .zoom}
+    ![]({% link images/images/magento-bi-dashboard-create-add-report.png %}){: .zoom}
     *Add Report*
 
 1. To add a report, do one of the following:
@@ -41,9 +41,9 @@ It’s easy to create a new report, add it to a dashboard, and export the data t
     * Click the **Add a report** prompt on the page.
     * In the dashboard header, click **Add Report**.
 
-1. Click **Create Report** to show the [Report Builder Options]({{ site.baseurl }}{% link reports/bi-essentials-report-builder.md %}).
+1. Click **Create Report** to show the [Report Builder Options]({% link reports/bi-essentials-report-builder.md %}).
 
-    ![]({{ site.baseurl }}{% link images/images/magento-bi-report-builder.png %}){: .zoom}
+    ![]({% link images/images/magento-bi-report-builder.png %}){: .zoom}
     *Report Builder Options*
 
 ## To arrange items on a dashboard:

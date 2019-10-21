@@ -18,7 +18,7 @@ sections:
    url: /sales/checkout-process.html  
 ---
 
-Magento reduces ordering errors by automatically verifying the SKU and availability of all items before an order is submitted. In this section of the guide, you’ll learn how to configure the cart and checkout options, and offer assistance to your customers. {% if "Default.B2B Only" contains site.edition %}Magento Commerce for B2B users can also configure [Quick Order]({{ site.baseurl }}{% link sales/quick-order.md %}) to reduces the order process to several clicks for logged in customers when they know the product name or SKU of the products they want to order.{% endif %}
+Magento reduces ordering errors by automatically verifying the SKU and availability of all items before an order is submitted. In this section of the guide, you’ll learn how to configure the cart and checkout options, and offer assistance to your customers. {% if "Default.B2B Only" contains site.edition %}Magento Commerce for B2B users can also configure [Quick Order]({% link sales/quick-order.md %}) to reduces the order process to several clicks for logged in customers when they know the product name or SKU of the products they want to order.{% endif %}
 
 {% include grid.html sections=page.sections %}
 

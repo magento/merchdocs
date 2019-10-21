@@ -2,16 +2,16 @@
 title: Payment Methods
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > Payment Methods
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Payment Methods
 
 ## Country
 
 ### Merchant Location
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-merchant-location.png %}){: .zoom}
-[_Merchant Location_]({{ site.baseurl }}{% link payment/merchant-location.md %})
+![]({% link images/images/config-sales-payment-methods-merchant-location.png %}){: .zoom}
+[_Merchant Location_]({% link payment/merchant-location.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Merchant Country|Website|Identifies the country where the merchant is registered to conduct business.|
 
@@ -21,14 +21,14 @@ The following payment methods are built into Magento and do not use a third-part
 
 ### Check / Money Order
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-check-money-order.png %}){: .zoom}
-[_Check / Money Order_]({{ site.baseurl }}{% link payment/check-money-order.md %})
+![]({% link images/images/config-sales-payment-methods-check-money-order.png %}){: .zoom}
+[_Check / Money Order_]({% link payment/check-money-order.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled|Website|Determines if customers can pay by check or money order. Options: Yes / No|
 |Title|Store View|The name for this payment method that appears to customers during checkout.|
-|New Order Status|Website|Determines the initial [order status]({{ site.baseurl }}{% link sales/order-status.md %}) assigned to orders paid by a check or money order. Default value: Pending|
+|New Order Status|Website|Determines the initial [order status]({% link sales/order-status.md %}) assigned to orders paid by a check or money order. Default value: Pending|
 |Payment from Applicable Countries|Website|Determines the countries from which you accept payment by check or money order. Options: All Allowed Countries / Specific Countries|
 |Payment from Specific Countries|Website|Identifies the specific countries from which you accept payment by check or money order.|
 |Make Check Payable to|Store View|The name of the entity to whom checks and money orders should be made payable.|
@@ -39,10 +39,10 @@ The following payment methods are built into Magento and do not use a third-part
 
 ### Bank Transfer Payment
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-bank-transfer-payment.png %}){: .zoom}
-[_Bank Transfer Payment_]({{ site.baseurl }}{% link payment/bank-transfer.md %})
+![]({% link images/images/config-sales-payment-methods-bank-transfer-payment.png %}){: .zoom}
+[_Bank Transfer Payment_]({% link payment/bank-transfer.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled|Website|Determines if customers can pay by  transferring payment directly from their bank to your merchant account. Options: Yes / No|
 |Title|Store View|The name for this payment method that appears to customers during checkout.|
@@ -56,10 +56,10 @@ The following payment methods are built into Magento and do not use a third-part
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 ### Payment on Account
 
-![]({{ site.baseurl }}{% link images/images-b2b/config-sales-payment-methods-payment-on-account.png %}){: .zoom}
-[_Payment on Account_]({{ site.baseurl }}{% link payment/payment-on-account.md %})
+![]({% link images/images-b2b/config-sales-payment-methods-payment-on-account.png %}){: .zoom}
+[_Payment on Account_]({% link payment/payment-on-account.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled|Website|Determines if companies can make purchases based on company credit. Options: Yes / No|
 |Title|Store View|The name for this payment method that appears to customers during checkout.|
@@ -73,10 +73,10 @@ The following payment methods are built into Magento and do not use a third-part
 <!--{% endif %}-->
 ### Cash On Delivery Payment
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-cash-on-delivery-payment.png %}){: .zoom}
-[_Cash On Delivery Payment_]({{ site.baseurl }}{% link payment/cash-on-delivery.md %})
+![]({% link images/images/config-sales-payment-methods-cash-on-delivery-payment.png %}){: .zoom}
+[_Cash On Delivery Payment_]({% link payment/cash-on-delivery.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled|Website|Determines if customers can pay by transferring payment directly from their bank to your merchant account. Options: Yes / No|
 |Title|Store View|The name for this payment method that appears to customers during checkout.|
@@ -89,10 +89,10 @@ The following payment methods are built into Magento and do not use a third-part
 
 ### Zero Subtotal Checkout
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-zero-subtotal-checkout.png %}){: .zoom}
-[_Zero Subtotal Checkout_]({{ site.baseurl }}{% link payment/zero-subtotal-checkout.md %})
+![]({% link images/images/config-sales-payment-methods-zero-subtotal-checkout.png %}){: .zoom}
+[_Zero Subtotal Checkout_]({% link payment/zero-subtotal-checkout.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Title|Store View|The name that is used for this payment method during checkout. Default value: No Payment Information Required|
 |Enabled|Website|Determines if Zero Subtotal Checkout is available for the store administrator to manage orders that have a subtotal of zero, such as one that has been taxed, but a discount has reduced the amount to zero. Options: Yes / No|
@@ -103,14 +103,14 @@ The following payment methods are built into Magento and do not use a third-part
 
 ## Purchase Order
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-purchase-order.png %}){: .zoom}
-[_Purchase Order_]({{ site.baseurl }}{% link payment/purchase-order.md %})
+![]({% link images/images/config-sales-payment-methods-purchase-order.png %}){: .zoom}
+[_Purchase Order_]({% link payment/purchase-order.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled|Website|Determines if customers can pay by purchase order (PO). Options: Yes / No|
 |Title|Store View|The name of this payment method that appears to customers during checkout.|
-|New Order Status|Website|Determines the initial [order status]({{ site.baseurl }}{% link sales/order-status.md %}) assigned to orders paid by PO. Default value: Pending|
+|New Order Status|Website|Determines the initial [order status]({% link sales/order-status.md %}) assigned to orders paid by PO. Default value: Pending|
 |Payment from Applicable Countries|Website|Determines the countries from which you accept payment by PO. Options: All Allowed Countries / Specific Countries|
 |Payment from Specific Countries|Website|Identifies the specific countries from which you accept payment by PO.|
 |Minimum Order Total|Website|The smallest order amount that can be paid by PO.|
@@ -119,6 +119,6 @@ The following payment methods are built into Magento and do not use a third-part
 
 ### See also
 
-* [Recommended Solutions]({{ site.baseurl }}{% link configuration/sales/recommended-solutions.md %})
-* [Other PayPal Methods]({{ site.baseurl }}{% link configuration/sales/paypal-methods-other.md %})
-* [Other Payment Methods]({{ site.baseurl }}{% link configuration/sales/payment-methods-other.md %})
+* [Recommended Solutions]({% link configuration/sales/recommended-solutions.md %})
+* [Other PayPal Methods]({% link configuration/sales/paypal-methods-other.md %})
+* [Other Payment Methods]({% link configuration/sales/payment-methods-other.md %})

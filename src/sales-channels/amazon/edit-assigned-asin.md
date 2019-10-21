@@ -16,5 +16,5 @@ When an assigned ASIN is changed, Magento ends your Amazon listings attached to 
 
 1. Click <span class="btn">Save Listing Update</span> to save your changes.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-assigned-asin-edit.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-assigned-asin-edit.png %}){: .zoom}
 _Edit Assigned ASIN_

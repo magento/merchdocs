@@ -2,14 +2,14 @@
 title: Dynamic Content
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) >  [Engagement Cloud]({{ site.baseurl }}{% link configuration/engagement-cloud.md %}) > Dynamic Content
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) >  [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Dynamic Content
 
 ## External Dynamic Url
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-dynamic-content-external-dynamic-urls.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-dynamic-content-external-dynamic-urls.png %}){: .zoom}
 _External Dynamic Url_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |**Secure code for dynamic urls**|||
 |Passcode|Website|A secure password from Engagement Cloud that provides access to dynamic content such as shopping cart contents and coupon codes.|
@@ -40,10 +40,10 @@ _External Dynamic Url_
 
 ## Dynamic Products
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-dynamic-content-dynamic-products.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-dynamic-content-dynamic-products.png %}){: .zoom}
 _Dynamic Products_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |**Wishlist**|||
 |Display Type|Website|Specifies the format of dynamic wish list content. Options: Grid / List|
@@ -72,10 +72,10 @@ _Dynamic Products_
 
 ## Manual Product Push
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-dynamic-content-manual-product-push.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-dynamic-content-manual-product-push.png %}){: .zoom}
 _Manual Product Push_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |**Settings**|||
 |Display Type|Website|Determines the format of product content that is [pushed](https://support.dotdigital.com/hc/en-gb/articles/360000530384-Dynamic-content-Manual-product-push-Magento-2) to the contact's computer. Options: Grid / List|
@@ -85,9 +85,9 @@ _Manual Product Push_
 
 ## Fallback Products
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-dynamic-content-fallback-products.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-dynamic-content-fallback-products.png %}){: .zoom}
 _Fallback Products_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Products|Website|Fallback products are used as substitutes if any specified products are unavailable. Each fallback product is identified by its unique product ID, which can be found in the second column of the products grid. Separate multiple products with a comma.|
