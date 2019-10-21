@@ -10,7 +10,7 @@ If a campaign that includes a price rule is initially created without an end dat
 
 Follow the steps below to edit any of the objects in this campaign.
 
-![]({{ site.baseurl }}{% link images/images-ee/content-staging-dashboard-view-edit.png %}){: .zoom}
+![]({% link images/images-ee/content-staging-dashboard-view-edit.png %}){: .zoom}
 _Campaign Detail_
 
 ## To edit a campaign:
@@ -23,9 +23,9 @@ _Campaign Detail_
 
 1. Update the fields in the **General** information section as needed.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the section that contains the item to be edited. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the section that contains the item to be edited. Then, do the following:
 
-    ![]({{ site.baseurl }}{% link images/images-ee/content-staging-campaign-edit-products.png %}){: .zoom}
+    ![]({% link images/images-ee/content-staging-campaign-edit-products.png %}){: .zoom}
     _View/Edit Campaign Item_
 
     - Make any changes necessary to the campaign item.

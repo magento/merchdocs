@@ -4,7 +4,7 @@ title: Email a Friend
 
 The Email a Friend link makes it easy for your customers to share links to products with their friends. In the Magento demo store, the Email a Friend link appears as an envelope icon. The message template can be customized for your voice and brand. To prevent spamming, you can limit the number of recipients for each email, and the number of products that can be shared over a one-hour period.
 
-![Example storefront - email a friend]({{ site.baseurl }}{%- link images/images/storefront-email-a-friend.png -%}){: .zoom}
+![Example storefront - email a friend]({% link images/images/storefront-email-a-friend.png %}){: .zoom}
 _Email a Friend_
 
 ## Configure Email a Friend
@@ -13,10 +13,10 @@ _Email a Friend_
 
 1. In the left panel, expand **Catalog** and choose **Email to a Friend**.
 
-1. Expand ![Expansion selector]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Email Templates** section and set the options:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Email Templates** section and set the options:
 
-    ![Catalog configuration - email templates]({{ site.baseurl }}{%- link images/images/config-catalog-email-to-a-friend-email-templates.png -%}){: .zoom}
-    [_Email Templates_]({{ site.baseurl }}{%- link configuration/catalog/email-to-a-friend.md -%})
+    ![Catalog configuration - email templates]({% link images/images/config-catalog-email-to-a-friend-email-templates.png %}){: .zoom}
+    [_Email Templates_]({% link configuration/catalog/email-to-a-friend.md %})
 
     - Set **Enabled** to `Yes`.
 
@@ -56,5 +56,5 @@ When this feature is configured, store customers follow these steps to share pro
 
 1. When ready to send the message, click <span class="btn">Send Email</span>.
 
-    ![]({{ site.baseurl }}{%- link images/images/storefront-email-a-friend-form.png -%}){: .zoom}
+    ![]({% link images/images/storefront-email-a-friend-form.png %}){: .zoom}
     _Email a Friend Form_

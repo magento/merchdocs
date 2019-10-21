@@ -5,7 +5,7 @@ title: Product Alerts
 
 Customers can subscribe to two types of alerts by email: price change alerts and in-stock alerts. For each type of alert, you can determine if customers are able to subscribe, select the email template that is used, and identify the sender of the email.
 
-![]({{ site.baseurl }}{% link images/images/storefront-price-alert-signup.png %}){: .zoom}
+![]({% link images/images/storefront-price-alert-signup.png %}){: .zoom}
 *Sign Up for Price Alert*
 
 ## Price Change Alerts
@@ -16,7 +16,7 @@ When price change alerts are enabled, a “Sign up for price alert” link appea
 
 The in-stock alert creates a link called “Sign up to get notified when this product is back in stock” for every product that is out of stock. Customers can click the link to subscribe to the alert. When the product is back in stock, customers receive email notification that the product is available. Products with alerts have a Product Alerts tab in the Product Information panel that lists the customers who have subscribed to an alert.
 
-![]({{ site.baseurl }}{% link images/images/catalog-product-alerts.png %}){: .zoom}
+![]({% link images/images/catalog-product-alerts.png %}){: .zoom}
 *List of Product and Price Alert Subscriptions*
 
 ## To set up product alerts:
@@ -38,10 +38,10 @@ The in-stock alert creates a link called “Sign up to get notified when this pr
 
 1. Set **Stock Alert Email Template** to the template that you want to use for product stock alerts.
 
-1. Set **Alert Email Sender** to the [store contact]({{ site.baseurl }}{% link stores/store-email-addresses.md %}) that you want to appear as the sender of the email alert.
+1. Set **Alert Email Sender** to the [store contact]({% link stores/store-email-addresses.md %}) that you want to appear as the sender of the email alert.
 
-    ![]({{ site.baseurl }}{% link images/images/config-catalog-catalog-product-alerts.png %}){: .zoom}  
-    *[Product Alerts]({{ site.baseurl }}{% link configuration/catalog/catalog.md %})*
+    ![]({% link images/images/config-catalog-catalog-product-alerts.png %}){: .zoom}  
+    *[Product Alerts]({% link configuration/catalog/catalog.md %})*
 
 1. When complete, click <span class="btn">Save Config</span>.
 

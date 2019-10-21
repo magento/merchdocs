@@ -12,9 +12,9 @@ Assigning package information for a product enables:
 
 After a packaging type is assigned, any future orders that include the product will have the packaging information automatically set during the shipment fulfillment process (Batch Processing and Individual Orders).
 
-Pre-Package settings are defined for a product in the [Shipping]({{ site.baseurl }}{% link catalog/product-shipping.md %}) tab in Product Settings. An item that has a packaging option assigned in the [Shipping]({{ site.baseurl }}{% link catalog/product-shipping.md %}) tab are referred to as a `Pre-Packaged` item.
+Pre-Package settings are defined for a product in the [Shipping]({% link catalog/product-shipping.md %}) tab in Product Settings. An item that has a packaging option assigned in the [Shipping]({% link catalog/product-shipping.md %}) tab are referred to as a `Pre-Packaged` item.
 
-![]({{ site.baseurl }}{% link images/images/product-shipping.png %}){: .zoom}
+![]({% link images/images/product-shipping.png %}){: .zoom}
 _Shipping_
 
 ### Define Pre-Package Assignment
@@ -32,15 +32,15 @@ The Packaging Type setting is only available for _Simple Product_ and _Bundle Pr
 
     **Pre-packaged** - Choose this option when the item is shipped in its original packaging. When set to this option, additional fields appear to define the product's packaging dimensions: Item Length, Item Width, and Item Height.
 
-    **Assigned** - Choose this option to set an assigned packaging type (i.e., Small Fedex Box) for the product. When set to this option, an additional field appears to select a pre-defined Packaging Name. The list of available packaging options include both carrier-specific packaging as well as [merchant-defined packaging]({{ site.baseurl }}{% link shipping/magento-shipping-packaging.md %}).
+    **Assigned** - Choose this option to set an assigned packaging type (i.e., Small Fedex Box) for the product. When set to this option, an additional field appears to select a pre-defined Packaging Name. The list of available packaging options include both carrier-specific packaging as well as [merchant-defined packaging]({% link shipping/magento-shipping-packaging.md %}).
 
 1.  When complete, click **Save**.
 
-![]({{ site.baseurl }}{% link images/images/product-shipping-pre-packaged.png %}){: .zoom}
-[_Shipping tab, Pre-packaged_]({{ site.baseurl }}{% link catalog/product-shipping.md %})
+![]({% link images/images/product-shipping-pre-packaged.png %}){: .zoom}
+[_Shipping tab, Pre-packaged_]({% link catalog/product-shipping.md %})
 
-![]({{ site.baseurl }}{% link images/images/product-shipping-assigned.png %}){: .zoom}
-[_Shipping tab, Assigned_]({{ site.baseurl }}{% link catalog/product-shipping.md %})
+![]({% link images/images/product-shipping-assigned.png %}){: .zoom}
+[_Shipping tab, Assigned_]({% link catalog/product-shipping.md %})
 
 ### Example
 The following example demonstrates how Pre-Package definitions function when fulfilling an order with a combination of products with and without Packaging assigned.
@@ -49,17 +49,17 @@ The following example demonstrates how Pre-Package definitions function when ful
 - Strive Shoulder Pack - Pre-Packaged (10x10x10)
 - Crown Summit Backpack - None
 
-![]({{ site.baseurl }}{% link images/images/mag-shipping-packaging-example.png %}){: .zoom}
+![]({% link images/images/mag-shipping-packaging-example.png %}){: .zoom}
 _Shipping Example_
 
 Each `Joust Duffle Bag` is allocated to a separate `Small Box` and additional items are prevented from being included in the Package. The `Strive Shoulder Pack` has been defined with `Pre-Packaging` and pre-filling the Length, Width, and Height values. The remaining item(s) are added to an empty package.
 
-![]({{ site.baseurl }}{% link images/images/mag-shipping-packaging-example2.png %}){: .zoom}
+![]({% link images/images/mag-shipping-packaging-example2.png %}){: .zoom}
 _Shipping Example_
 
 When a package that contains a `Pre-Packaged` product is deleted, click **Pre-Pack** to re-assign the package.
 
-![]({{ site.baseurl }}{% link images/images/mag-shipping-packaging-example3.png %}){: .zoom}
+![]({% link images/images/mag-shipping-packaging-example3.png %}){: .zoom}
 _Shipping Example_
 
 ### Additional Notes

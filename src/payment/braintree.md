@@ -4,11 +4,11 @@ title: Braintree
 
 {:.bs-callout .bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
-As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. Starting with Magento ver. 2.2.3, Braintree provides native support for 3D Secure 2.0.<br/>To meet PSD2 requirements for earlier versions of Magento, install and configure the official Braintree payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). Older Braintree implementations that run on JavaScript SDK v2 do not support 3D Secure 2.0.
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. Starting with Magento ver. 2.2.3, Braintree provides native support for 3D Secure 2.0.<br/>To meet PSD2 requirements for earlier versions of Magento, install and configure the official Braintree payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). Older Braintree implementations that run on JavaScript SDK v2 do not support 3D Secure 2.0.
 
 Braintree offers a fully customizable checkout experience with fraud detection and PayPal integration. Braintree reduces the PCI compliance burden for merchants because the transaction takes place on the Braintree system.
 
-![Configure Braintree]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-braintree.png %}){: .zoom}
+![Configure Braintree]({% link images/images/config-sales-payment-methods-braintree.png %}){: .zoom}
 _Configure Braintree_
 
 ## Step 1: Get Your Braintree Credentials
@@ -26,7 +26,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 3. Under Recommended Solutions, in the **Braintree** section, click <span class="btn">Configure</span>. Then, do the following:
 
-   ![Configure Braintree]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-braintree.png %}){: .zoom}
+   ![Configure Braintree]({% link images/images/config-sales-payment-methods-braintree.png %}){: .zoom}
    _Configure Braintree_
    
    - Enter a **Title** to identify Braintree as a payment option during checkout.
@@ -51,7 +51,7 @@ that are recommended by Braintree. When you are ready to go live with Braintree,
      - Public Key
      - Private Key
 
-     ![Basic Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-braintree-basic-settings-part1.png %}){: .zoom}
+     ![Basic Settings]({% link images/images/config-sales-payment-methods-braintree-basic-settings-part1.png %}){: .zoom}
      Basic Settings
 
    - Set **Enable this Solution** to `Yes`.
@@ -60,12 +60,12 @@ that are recommended by Braintree. When you are ready to go live with Braintree,
 
    - If you want the ability to store customer information securely, so customers don't have to reenter it each time they make a purchase, set **Vault Enabled** to `Yes`.
 
-     ![Basic Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-braintree-basic-settings-part2.png %}){: .zoom}
+     ![Basic Settings]({% link images/images/config-sales-payment-methods-braintree-basic-settings-part2.png %}){: .zoom}
      _Basic Settings_
 
 ## Step 3: Complete the Advanced Settings
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Advanced Braintree Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Advanced Braintree Settings** section.
 
 1. In the **Vault Title** field, enter a descriptive title for your reference that identifies the vault where your customer card information is stored.
 
@@ -85,17 +85,17 @@ that are recommended by Braintree. When you are ready to go live with Braintree,
 
 1. In the **Sort Order** field, enter a number to determine the sequence in which Braintree appears when listed with other payment methods during checkout.
 
-   ![Advanced Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-braintree-advanced.png %}){: .zoom}
+   ![Advanced Settings]({% link images/images/config-sales-payment-methods-braintree-advanced.png %}){: .zoom}
    _Advanced Settings_
 
 ## Step 4: Complete the Country Specific Settings
 
 1. Set **Payment from Applicable Countries** to one of the following:
 
-   |**All Allowed Countries** |Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
+   |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
    |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
 
-   ![Country-Specific Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-braintree-country-specific-settings.png %}){: .zoom}
+   ![Country-Specific Settings]({% link images/images/config-sales-payment-methods-braintree-country-specific-settings.png %}){: .zoom}
    _Country-Specific Settings_
 
 1. To set up **Country Specific Credit Card Types**, do the following:
@@ -116,7 +116,7 @@ that are recommended by Braintree. When you are ready to go live with Braintree,
 
    - In the **Sort Order** field, enter a number to determine the sequence in which Braintree’s PayPal payment option appears when listed with other payment options during checkout.
 
-   - To display your [merchant name]({{ site.baseurl }}{% link stores/store-information.md %}) differently than what is defined in your store configuration, enter the name as you want it to appear in the **Override Merchant Name** field.
+   - To display your [merchant name]({% link stores/store-information.md %}) differently than what is defined in your store configuration, enter the name as you want it to appear in the **Override Merchant Name** field.
 
 1. Set **Payment Action** to one of the following:
 
@@ -125,7 +125,7 @@ that are recommended by Braintree. When you are ready to go live with Braintree,
 
 1. Set **Payment from Applicable Countries** to one of the following for Braintree transactions processed by PayPal:
 
-   |**All Allowed Countries** |Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use this payment method.|
+   |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method.|
    |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store.|
 
 1. To require that customers provide a billing address, set **Require Customer’s Billing Address** to `Yes`.
@@ -143,7 +143,7 @@ that are recommended by Braintree. When you are ready to go live with Braintree,
 
 1. To display the PayPal button on both the mini shopping cart and shopping cart page, set **Display on Shopping Cart** to `Yes`.
 
-   ![PayPal through Braintree Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-braintree-paypal.png %}){: .zoom}
+   ![PayPal through Braintree Settings]({% link images/images/config-sales-payment-methods-braintree-paypal.png %}){: .zoom}
    _PayPal through Braintree Settings_
 
 ## Step 6: Complete the 3D Verification Settings
@@ -156,11 +156,11 @@ that are recommended by Braintree. When you are ready to go live with Braintree,
 
 1. Set **Verify for Applicable Countries** to one of the following:
 
-   |**All Allowed Countries** |Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use this payment method.|
+   |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method.|
    |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store.|
 
 
-   ![3D Verification Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-braintree-3d-verification-settings.png %}){: .zoom}
+   ![3D Verification Settings]({% link images/images/config-sales-payment-methods-braintree-3d-verification-settings.png %}){: .zoom}
    _3D Verification Settings_
 
 ## **Step 7:** Dynamic Descriptors

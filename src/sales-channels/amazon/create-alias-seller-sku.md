@@ -56,7 +56,7 @@ View the listing in one of the Product Listing screens (Inactive, Active, Inelig
 
 1. Click <span class="btn">Save Listing Update</span>.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-alias-sku-create.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-alias-sku-create.png %}){: .zoom}
 _Create an Alias Amazon Seller SKU_
 
 |Field|Description|

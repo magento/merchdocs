@@ -10,10 +10,10 @@ The first step in creating newsletters is to configure the newsletter settings f
 
 1. In the panel on the left under **Customers**, choose **Newsletter**.
 
-1. If necessary, expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Subscription Options** section. Then, do the following:
+1. If necessary, expand ![]({% link images/images/btn-expand.png %}) the **Subscription Options** section. Then, do the following:
 
-    ![]({{ site.baseurl }}{%- link images/images/config-customers-newsletter-subscription-options.png -%}){: .zoom}
-    [Subscription Options]({{ site.baseurl }}{%- link configuration/customers.md -%})
+    ![]({% link images/images/config-customers-newsletter-subscription-options.png %}){: .zoom}
+    [Subscription Options]({% link configuration/customers.md -%})
 
     * Confirm the email template and sender of the each of the following email messages that are sent to subscribers:
 

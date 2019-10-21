@@ -2,7 +2,7 @@
 title: Inserting a Variable
 ---
 
-Your store includes many predefined [variables]({{ site.baseurl }}{% link marketing/variables-predefined.md %}) that can be incorporated into content pages and other communications. In addition, you can include your own [custom variables]({{ site.baseurl }}{% link marketing/variables-custom.md %}) that are specific to your needs.
+Your store includes many predefined [variables]({% link marketing/variables-predefined.md %}) that can be incorporated into content pages and other communications. In addition, you can include your own [custom variables]({% link marketing/variables-custom.md %}) that are specific to your needs.
 
 ## To insert a variable on a page:
 

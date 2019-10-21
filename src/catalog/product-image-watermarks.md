@@ -10,7 +10,7 @@ The watermark used for the “small” image in the following example is a black
 * Opacity: 5
 * Position: Tile
 
-![]({{ site.baseurl }}{% link images/images/storefront-watermark-tiled.png %}){: .zoom}
+![]({% link images/images/storefront-watermark-tiled.png %}){: .zoom}
 *Tiled Watermark*
 
 ## To add watermarks to product images:
@@ -19,7 +19,7 @@ The watermark used for the “small” image in the following example is a black
 
 2. Find the store view that you want to configure. Then in the **Action** column, click **Edit**.
 
-3. Under **Other Settings**, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Product Image Watermarks** section.
+3. Under **Other Settings**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Product Image Watermarks** section.
 
 4. Complete the **Base**, **Thumbnail**, **Small**, and **Swatch Image** image settings as follows. The fields in each section are the same.
 
@@ -31,25 +31,25 @@ The watermark used for the “small” image in the following example is a black
 
     * Set **Image Position** to determine where the watermark appears.
 
-    ![]({{ site.baseurl }}{% link images/images/config-design-product-image-watermarks-base.png %}){: .zoom}
-    *[Product Image Watermarks - Base]({{ site.baseurl }}{% link design/configuration.md %})*
+    ![]({% link images/images/config-design-product-image-watermarks-base.png %}){: .zoom}
+    *[Product Image Watermarks - Base]({% link design/configuration.md %})*
 
 5. When complete, tap <span class="btn"> Save Config </span>.
 
 6. When prompted to refresh the cache, tap the **Cache Management** link in the system message. Then, refresh the invalid cache.
 
-    ![]({{ site.baseurl }}{% link images/images/msg-cache-management.png %}){: .zoom}
+    ![]({% link images/images/msg-cache-management.png %}){: .zoom}
     *Refresh Cache*
 
 ## To restore the default value:
 
-Tap **Use Default Value** (![]({{ site.baseurl }}{% link images/images/btn-use-default.png %}){: .Inline}).
+Tap **Use Default Value** (![]({% link images/images/btn-use-default.png %}){: .Inline}).
 
 ## To delete a watermark:
 
-1. In the lower-left corner of the image, tap **Delete** ( ![]({{ site.baseurl }}{% link images/images/btn-trashcan2.png %}){: .Inline} ).
+1. In the lower-left corner of the image, tap **Delete** ( ![]({% link images/images/btn-trashcan2.png %}){: .Inline} ).
 
-    ![]({{ site.baseurl }}{% link images/images/product-image-watermark-delete.png %}){: .zoom}
+    ![]({% link images/images/product-image-watermark-delete.png %}){: .zoom}
     *Delete Watermark*
 
 1. Tap <span class="btn"> Save Config </span>.

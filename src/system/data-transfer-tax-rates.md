@@ -24,7 +24,7 @@ If you conduct business in several states and ship a large quantity of product, 
     * Range To
     * A column for each store view
 
-    ![]({{ site.baseurl }}{% link images/images/data-exported-tax-rates.png %}){: .zoom} 
+    ![]({% link images/images/data-exported-tax-rates.png %}){: .zoom} 
     _Exported Tax Rate Data_
 
 1.  Open the new tax rate data in a second instance of the spreadsheet, so you can see both, side by side.
@@ -38,7 +38,7 @@ If you conduct business in several states and ship a large quantity of product, 
     * `CityRate`
     * `SpecialRate`
 
-    If you need to import additional [tax zones and rates]({{ site.baseurl }}{% link tax/tax-zones-rates.md %}), you must first define them from the Admin of your store, and update the [tax rules]({{ site.baseurl }}{% link tax/tax-rules.md %}) as needed. Then, export the data, and open the file in OpenOffice Calc, so it can be used for reference. However, to keep this example simple, we import only the standard tax rate columns.
+    If you need to import additional [tax zones and rates]({% link tax/tax-zones-rates.md %}), you must first define them from the Admin of your store, and update the [tax rules]({% link tax/tax-rules.md %}) as needed. Then, export the data, and open the file in OpenOffice Calc, so it can be used for reference. However, to keep this example simple, we import only the standard tax rate columns.
 
 ## Step 2: Prepare the Import Data
 
@@ -68,9 +68,9 @@ You now have two spreadsheets open, side by side. One with the Magento export fi
 
 1.  Under Taxes, choose **Tax Zones and Rates**.
 
-1.  The imported rates appear in the list. Use the [page controls]({{ site.baseurl }}{% link catalog/navigation-pagination.md %}) to view the new tax rates.
+1.  The imported rates appear in the list. Use the [page controls]({% link catalog/navigation-pagination.md %}) to view the new tax rates.
 
-    ![]({{ site.baseurl }}{% link images/images/data-imported-tax-zones-rates.png %}){: .zoom}
+    ![]({% link images/images/data-imported-tax-zones-rates.png %}){: .zoom}
     _Imported Tax Rates_
 
 1.  Run some test transactions in your store with customers from different ZIP codes to make sure that the new tax rates work correctly.

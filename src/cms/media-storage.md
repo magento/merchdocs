@@ -2,20 +2,20 @@
 title: Media Storage
 ---
 
-Media storage helps you organize and gain access to media files that are stored on the server. The path to the location of the files is determined by the [Base URL]({{ site.baseurl }}{% link stores/store-urls.md %}) configuration. Files in media storage can be accessed from the editor while working on pages and static blocks. Media storage is usually located in the file system on the same server as the Magento program files.
+Media storage helps you organize and gain access to media files that are stored on the server. The path to the location of the files is determined by the [Base URL]({% link stores/store-urls.md %}) configuration. Files in media storage can be accessed from the editor while working on pages and static blocks. Media storage is usually located in the file system on the same server as the Magento program files.
 
-Alternatively, media files can be managed in a [database]({{ site.baseurl }}{% link system/media-storage-database.md %}), or located on a separate server or [content delivery network]({{ site.baseurl }}{% link system/media-storage-content-delivery-network.md %}). The editor can be configured to use either static or [dynamic media URLs]({{ site.baseurl }}{% link catalog/catalog-urls-dynamic-media.md %}) for catalog content in category or product descriptions.
+Alternatively, media files can be managed in a [database]({% link system/media-storage-database.md %}), or located on a separate server or [content delivery network]({% link system/media-storage-content-delivery-network.md %}). The editor can be configured to use either static or [dynamic media URLs]({% link catalog/catalog-urls-dynamic-media.md %}) for catalog content in category or product descriptions.
 
-![]({{ site.baseurl }}{% link images/images/media-storage.png %}){: .zoom}
+![]({% link images/images/media-storage.png %}){: .zoom}
 _Media Storage_
 
 ## To upload files to media storage
 
 The first two steps are the same as if you are inserting an image.
 
-1. On the toolbar of the WYSIWYG [editor]({{ site.baseurl }}{% link cms/editor.md %}), click **Insert Image** (![]({{ site.baseurl }}{% link images/images/editor-toolbar/btn-insert-edit-image.png %}){: .Inline}).
+1. On the toolbar of the WYSIWYG [editor]({% link cms/editor.md %}), click **Insert Image** (![]({% link images/images/editor-toolbar/btn-insert-edit-image.png %}){: .Inline}).
 
-1. After the **Image URL** field, click **Browse** (![]({{ site.baseurl }}{% link images/images/btn-browse.png %}){: .Inline_larger}).
+1. After the **Image URL** field, click **Browse** (![]({% link images/images/btn-browse.png %}){: .Inline_larger}).
 
 1. In the directory tree on the left, do one of the following:
 
@@ -33,7 +33,7 @@ The first two steps are the same as if you are inserting an image.
 
 The images are uploaded to the current media storage folder on the server.
 
-![]({{ site.baseurl }}{% link images/images/media-storage-insert-file.png %}){: .zoom}
+![]({% link images/images/media-storage-insert-file.png %}){: .zoom}
 _Media Storage_
 
 ## To insert an image from media storage
@@ -42,18 +42,18 @@ Open the page or block to be edited. Then, use one of the following methods to i
 
 **Method 1: From WYSIWYG Mode**
 
-1. On the toolbar of the WYSIWYG [editor]({{ site.baseurl }}{% link cms/editor.md %}), click **Insert Image** (![]({{ site.baseurl }}{% link images/images/editor-toolbar/btn-insert-edit-image.png %}){: .Inline}).
+1. On the toolbar of the WYSIWYG [editor]({% link cms/editor.md %}), click **Insert Image** (![]({% link images/images/editor-toolbar/btn-insert-edit-image.png %}){: .Inline}).
 
-1. After the **Image URL** field, click **Browse** (![]({{ site.baseurl }}{% link images/images/btn-browse.png %}){: .Inline_larger}).
+1. After the **Image URL** field, click **Browse** (![]({% link images/images/btn-browse.png %}){: .Inline_larger}).
 
-    ![]({{ site.baseurl }}{% link images/images/insert-edit-image-dialog.png %}){: .zoom}
+    ![]({% link images/images/insert-edit-image-dialog.png %}){: .zoom}
     _Insert Image (WYSIWYG Mode)_
 
 1. In the directory tree on the left, navigate to the folder where the image is stored.
 
 1. Select the tile of the image. Then, click <span class="btn">Insert File</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/media-storage-insert-file.png %}){: .zoom}
+    ![]({% link images/images/media-storage-insert-file.png %}){: .zoom}
     _Insert File_
 
 **Method 2: From HTML Mode**
@@ -62,5 +62,5 @@ Open the page or block to be edited. Then, use one of the following methods to i
 
 1. Click <span class="btn">Insert Image</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/editor-html-mode-insert-image.png %}){: .zoom}
+    ![]({% link images/images/editor-html-mode-insert-image.png %}){: .zoom}
     _Insert Image (HTML Mode)_

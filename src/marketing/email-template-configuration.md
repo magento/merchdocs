@@ -4,8 +4,8 @@ title: Configuring Email Templates
 
 The configuration determines the logo, as well as the header and footer templates that are used for all transactional email messages that are sent from your store.
 
-![Transactional email design]({{ site.baseurl }}{%- link images/images/config-design-transactional-emails.png -%}){: .zoom}
-[_Transactional Emails_]({{ site.baseurl }}{%- link design/configuration.md -%})
+![Transactional email design]({% link images/images/config-design-transactional-emails.png %}){: .zoom}
+[_Transactional Emails_]({% link design/configuration.md %})
 
 ## Step 1. Upload Your Logo
 
@@ -13,7 +13,7 @@ The configuration determines the logo, as well as the header and footer template
 
 1. Find the store view that you want to configure and click **Edit** in the _Action_ column.
 
-1. Under **Other Settings**, expand ![Expansion selector]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Transactional Emails** section.
+1. Under **Other Settings**, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Transactional Emails** section.
 
 1. To upload your prepared **Logo Image**, click <span class="btn">Upload</span> and select the file from your system.
 
@@ -25,7 +25,7 @@ The configuration determines the logo, as well as the header and footer template
 
 ## Step 2. Choose the Header and Footer Templates
 
-If you have custom header and footer templates for your store, or for different stores, you can specify which templates are used for each, according to the [scope]({{ site.baseurl }}{%- link configuration/scope.md -%}) of the configuration.
+If you have custom header and footer templates for your store, or for different stores, you can specify which templates are used for each, according to the [scope]({% link configuration/scope.md -%}) of the configuration.
 
 1. Choose the **Header Template** to be used for all transactional email messages.
 

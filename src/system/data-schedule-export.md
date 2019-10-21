@@ -3,14 +3,14 @@ conditions: Default.EE-B2B
 title: Scheduling an Export
 ---
 
-Scheduled Export is similar to manual [Export]({{ site.baseurl }}{% link system/data-export.md %}), with respect to the available export file format and types of entities that can be exported:
+Scheduled Export is similar to manual [Export]({% link system/data-export.md %}), with respect to the available export file format and types of entities that can be exported:
 
 -  You can export to CSV format
 -  You can export product and customer data
 
 The advantage of using Scheduled Export is that you can export data multiple times automatically, after specifying the export parameters, and schedule only once.
 
-![]({{ site.baseurl }}{% link images/images-ee/data-transfer-scheduled-export-add.png %}){: .zoom}
+![]({% link images/images-ee/data-transfer-scheduled-export-add.png %}){: .zoom}
 _Add Scheduled Export_
 
 The details of each export are not written to a log, but in case of failure you will receive an Export Failed email, which contains the error description. The result of the last export job appears in the Last Outcome column on the Scheduled Import/Export page.
@@ -45,7 +45,7 @@ After each export, the export file is placed in the user-defined location, and a
 
 1.  Accept CSV as the default **File Format**.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/data-transfer-scheduled-export-settings.png %}){: .zoom}
+    ![]({% link images/images-ee/data-transfer-scheduled-export-settings.png %}){: .zoom}
     _Export Settings_
 
 ## Step 2: Complete the Export File Information
@@ -55,7 +55,7 @@ After each export, the export file is placed in the user-defined location, and a
     -  **Local Server**—To save the export file on the same server where Magento is installed.
     -  **Remote FTP**—To save the export file on a remote server.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/data-transfer-scheduled-export-file-information.png %}){: .zoom}
+    ![]({% link images/images-ee/data-transfer-scheduled-export-file-information.png %}){: .zoom}
     _Export File Information_
 
 1.  Enter the **File Directory** where the export file is to be saved as follow:.
@@ -78,7 +78,7 @@ After each export, the export file is placed in the user-defined location, and a
     -  **Bcc**—Sends a blind courtesy copy. The name and address of the recipient is included in the original email distribution, but is hidden from view.
     -  **Separate Email**—Sends the copy as a separate email.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/data-transfer-scheduled-export-email-fail.png %}){: .zoom}
+    ![]({% link images/images-ee/data-transfer-scheduled-export-email-fail.png %}){: .zoom}
     _Export Failed Emails_
 
 ## Step 4: Choose the Entity Attributes

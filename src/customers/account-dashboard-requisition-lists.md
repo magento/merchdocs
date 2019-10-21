@@ -3,9 +3,9 @@ conditions: Default.B2B Only
 title: My Requisition Lists
 ---
 
-Using a requisition list saves time when purchasing frequently-ordered products because items are added to the shopping cart directly from the list. You can maintain multiple lists that focus on products from different vendors, buyers, teams, campaigns, or anything else that streamlines your workflow. Up to 999 requisition lists can be maintained for each customer account, depending on the [configuration]({{ site.baseurl }}{% link configuration/customers/requisition-lists.md %}). To enable requisition lists, see [Configuring B2B Features]({{ site.baseurl }}{% link stores/b2b-features.md %}).
+Using a requisition list saves time when purchasing frequently-ordered products because items are added to the shopping cart directly from the list. You can maintain multiple lists that focus on products from different vendors, buyers, teams, campaigns, or anything else that streamlines your workflow. Up to 999 requisition lists can be maintained for each customer account, depending on the [configuration]({% link configuration/customers/requisition-lists.md %}). To enable requisition lists, see [Configuring B2B Features]({% link stores/b2b-features.md %}).
 
-![]({{ site.baseurl }}{% link images/images-b2b/customer-account-my-requisition-lists.png %}){: .zoom}
+![]({% link images/images-b2b/customer-account-my-requisition-lists.png %}){: .zoom}
 _Requisition Lists_
 
 ## To create a requisition list:
@@ -28,7 +28,7 @@ _Requisition Lists_
 
 1. When complete, click <span class="btn">Save</span>.
 
-    ![]({{ site.baseurl }}{% link images/images-b2b/customer-account-requisition-list-create.png %}){: .zoom}
+    ![]({% link images/images-b2b/customer-account-requisition-list-create.png %}){: .zoom}
     _Create Requisition List_
 
 ## To add products to a requisition list:
@@ -44,7 +44,7 @@ Products can be added to a requisition list from product pages in the storefront
       - Choose an existing requisition list.
       - Create a new requisition list.
 
-        ![]({{ site.baseurl }}{% link images/images-b2b/product-detail-requisition-list.png %}){: .zoom}
+        ![]({% link images/images-b2b/product-detail-requisition-list.png %}){: .zoom}
         _Add to Requisition List_
 
   **Method 2:** From an Existing Order
@@ -55,7 +55,7 @@ Products can be added to a requisition list from product pages in the storefront
       - Choose an existing requisition list.
       - Create a new requisition list.
 
-        ![]({{ site.baseurl }}{% link images/images-b2b/requisition-list-add-from-order.png %}){: .zoom}
+        ![]({% link images/images-b2b/requisition-list-add-from-order.png %}){: .zoom}
         _Add to Requisition List_
 
 ## To view the updated requisition list:
@@ -68,7 +68,7 @@ Log in to your customer account. Then, use either of the following methods to vi
 
   1. In the list of requisition lists, click **View** in the _Actions_ column.
 
-      ![]({{ site.baseurl }}{% link images/images-b2b/customer-account-my-requisition-lists.png %}){: .zoom}
+      ![]({% link images/images-b2b/customer-account-my-requisition-lists.png %}){: .zoom}
       _Actions View_
 
   **Method 2:** From the Storefront
@@ -77,5 +77,5 @@ Log in to your customer account. Then, use either of the following methods to vi
 
   1. On the menu, choose **My Requisition Lists**.
 
-      ![]({{ site.baseurl }}{% link images/images-b2b/storefront-my-requisition-lists.png %}){: .zoom}
+      ![]({% link images/images-b2b/storefront-my-requisition-lists.png %}){: .zoom}
       _My Requisition Lists_

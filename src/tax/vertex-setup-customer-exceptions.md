@@ -4,18 +4,18 @@ title: Customer Exceptions
 
 Under certain circumstances, customers who are normally required to pay taxes might be certified as exempt. The available exceptions vary, depending on the jurisdiction.
 
-The Customer Exceptions configuration can be used to set up individual customer exceptions, or to upload multiple exceptions from a [CSV file]({{ site.baseurl }}{% link system/data-csv.md %}). The Customers grid lists all exception certificates currently on file per customer.
+The Customer Exceptions configuration can be used to set up individual customer exceptions, or to upload multiple exceptions from a [CSV file]({% link system/data-csv.md %}). The Customers grid lists all exception certificates currently on file per customer.
 
 Only customers with non-standard tax requirements are added to Vertex Cloud. The standard jurisdiction tax rates are used for all other customers.
 
-![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-customer-exceptions-grid.png %}){: .zoom}
+![]({% link images/images/tax-vertex-cloud-customer-exceptions-grid.png %}){: .zoom}
 _Customer Exceptions_
 
 ## Before you begin
 
 Vertex Cloud adds the Vertex Customer Code field to the customer information. Customer exceptions can be based on either the Vertex Customer Code field in the customer account, or on the tax class that is associated with the customer group to which the customer belongs.
 
-1. To assign the Vertex Customer Code to a customer, open the [customer]({{ site.baseurl }}{% link customers/customer-account-manage.md %}) account in edit mode. Then, do the following:
+1. To assign the Vertex Customer Code to a customer, open the [customer]({% link customers/customer-account-manage.md %}) account in edit mode. Then, do the following:
 
     - Under _Account Information_, scroll down to the **Vertex Customer Code** field at the bottom of the section.
 
@@ -23,13 +23,13 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
     The code can be an abbreviation of the customer name, number, or alphanumeric string.
 
-1. If you need to add new customer tax classes to Magento, see: [Adding New Tax Classes]({{ site.baseurl }}{% link tax/tax-class-new.md %}).
+1. If you need to add new customer tax classes to Magento, see: [Adding New Tax Classes]({% link tax/tax-class-new.md %}).
 
-1. If you need to add new customer groups to Magento, see: [Customer Groups]({{ site.baseurl }}{% link customers/customer-groups.md %}).
+1. If you need to add new customer groups to Magento, see: [Customer Groups]({% link customers/customer-groups.md %}).
 
 1. To assign a new customer tax class to a customer group, do the following:
 
-    - Open the [customer group]({{ site.baseurl }}{% link customers/customer-groups.md %}) in edit mode.
+    - Open the [customer group]({% link customers/customer-groups.md %}) in edit mode.
 
     - Set **Tax Class** as needed.
 
@@ -46,7 +46,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
 1. On the _Add Single Exception_ tab under **Customer Information**, do the following:
 
-    ![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-configure-exception-single.png %}){: .zoom}
+    ![]({% link images/images/tax-vertex-cloud-configure-exception-single.png %}){: .zoom}
     _Add Single Exception_
 
     - In the _Customer Name_ field, enter the full name of the customer as it appears in the Magento Customers grid.
@@ -55,8 +55,8 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
     - In the **Customer Code / Class** field, enter the corresponding Magento value, according to the Customer Type setting.
 
-        - **Code**—To identify a specific customer, enter [Vertex Customer Code]({{ site.baseurl }}{% link customers/customer-account-update.md %}) from the customer account.
-        - **Class**—To identify a specific customer class, enter the name of the [customer group]({{ site.baseurl }}{% link customers/customer-groups.md %}) that is associated with the tax class.
+        - **Code**—To identify a specific customer, enter [Vertex Customer Code]({% link customers/customer-account-update.md %}) from the customer account.
+        - **Class**—To identify a specific customer class, enter the name of the [customer group]({% link customers/customer-groups.md %}) that is associated with the tax class.
 
         The value must exactly match the corresponding Magento value found in the customer account or customer group.
 
@@ -64,7 +64,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
     - If applicable, use the calendar to choose the **End Date** when the customer is no longer available to Vertex Cloud.
 
-        ![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-configure-exception-customer-information.png %}){: .zoom}
+        ![]({% link images/images/tax-vertex-cloud-configure-exception-customer-information.png %}){: .zoom}
         _Customer Information_
 
 1. To set **Tax Result**, do one of the following:
@@ -72,7 +72,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
     - Choose “Taxable” if the customer normally pays sales or use tax.
     - Choose “Exempt” if the customer is exempt from paying sales or use tax.
 
-    ![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-configure-exception-tax-result.png %}){: .zoom}
+    ![]({% link images/images/tax-vertex-cloud-configure-exception-tax-result.png %}){: .zoom}
     _Tax Result_
 
 1. Complete the **Certificate Information** as follows:
@@ -96,7 +96,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
     - When complete, click **Validate** to verify that the information is correct.
 
-        ![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-configure-exception-certificate-information.png %}){: .zoom}
+        ![]({% link images/images/tax-vertex-cloud-configure-exception-certificate-information.png %}){: .zoom}
         _Certificate Information_
 
 1. In the **Certificate Reporting Criteria** section, do the following:
@@ -107,7 +107,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
     - In the **Expiration Date** field, enter the date that is printed on the exception certificate to indicate when it stops being valid.
 
-    ![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-configure-exception-certificate-reporting-criteria.png %}){: .zoom}
+    ![]({% link images/images/tax-vertex-cloud-configure-exception-certificate-reporting-criteria.png %}){: .zoom}
     _Certificate Reporting Criteria_
 
 1. Under _Certificate Image_, click **Browse** to upload a PDF of the certificate. Then, navigate to the image file on your computer.
@@ -115,7 +115,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
     {:.bs-callout-info}
     The PDF, JPG and BMP image formats are supported when exceptions are uploaded from a CSV file.
 
-    ![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-configure-exception-certificate-image.png %}){: .zoom}
+    ![]({% link images/images/tax-vertex-cloud-configure-exception-certificate-image.png %}){: .zoom}
     _Certificate Image_
 
 ## Upload multiple exceptions
@@ -128,7 +128,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
 1. Look for the `ExceptionFileFormat.csv` file at the bottom of the browser window. Then, open the file in your spreadsheet. For information about each item in the template, see the following column descriptions:
 
-    ![]({{ site.baseurl }}{% link images/images/tax-vertex-configure-exception-upload-template.png %})
+    ![]({% link images/images/tax-vertex-configure-exception-upload-template.png %})
 
 1. Complete the upload data according to the following field descriptions. Then, save it as a comma-separated value (CSV) file.
 
@@ -153,7 +153,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
 1. To upload the completed template, click **Browse**. Then, navigate to the file on your computer, and click **Upload File**.
 
-    ![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-configure-exception-upload-multiple.png %}){: .zoom}
+    ![]({% link images/images/tax-vertex-cloud-configure-exception-upload-multiple.png %}){: .zoom}
     _Upload Multiple Exceptions_
 
     **Customer Information**

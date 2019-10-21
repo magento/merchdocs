@@ -4,7 +4,7 @@ title: Configuring Coupon Codes
 
 The length and format of automatically generated coupon codes is controlled by the configuration. The characters can be set to all numbers, all letters, or a combination. You can insert a dash at set intervals to make it easy to read, and add a .prefix and suffix to associate the code with a specific campaign or initiative.
 
-![]({{ site.baseurl }}{%- link images/images/config-customers-promotions-auto-generated-specific-coupon-codes.png -%}){: .zoom}
+![]({% link images/images/config-customers-promotions-auto-generated-specific-coupon-codes.png %}){: .zoom}
 *Auto Generated Specific Coupon Codes*
 
 ## To format coupon codes

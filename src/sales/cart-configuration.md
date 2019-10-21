@@ -6,4 +6,4 @@ The cart configuration determines the when the customer is redirected to the car
 
 ### See also:
 
-[Checkout Configuration]({{ site.baseurl }}{% link sales/checkout-configuration.md %})
+[Checkout Configuration]({% link sales/checkout-configuration.md %})

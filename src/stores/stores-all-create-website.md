@@ -4,7 +4,7 @@ title: Adding Websites
 
 Multiple websites can be set up that use the same Magento installation. The websites can be set up to use the same domain, or different domains. If you want each store to have a dedicated checkout process under its own domain, each store must have a distinct IP address and separate security certificate.
 
-![]({{ site.baseurl }}{% link images/images/scope-multisite.png %}){:width="550px"}
+![]({% link images/images/scope-multisite.png %}){:width="550px"}
 
 ## Step 1: Create a New Website
 
@@ -14,7 +14,7 @@ Multiple websites can be set up that use the same Magento installation. The webs
 
 1. In the Website Information section, do the following:
 
-    ![]({{ site.baseurl }}{% link images/images/stores-all-create-website-information.png %}){: .zoom}
+    ![]({% link images/images/stores-all-create-website-information.png %}){: .zoom}
 
     - **Name**—Enter the domain of the new website. For example, `domain.com`.
 
@@ -28,8 +28,8 @@ Multiple websites can be set up that use the same Magento installation. The webs
 
 1. When complete, click **Save Website**.
 
-1. Set up each [store]({{ site.baseurl }}{% link stores/stores-all-create-store.md %}) and [store view]({{ site.baseurl }}{% link stores/stores-all-create-view.md %}) that is needed for the new website.
+1. Set up each [store]({% link stores/stores-all-create-store.md %}) and [store view]({% link stores/stores-all-create-view.md %}) that is needed for the new website.
 
 ## Step 2: Configure the Store URL
 
-Follow the instructions to configure the [store URLs]({{ site.baseurl }}{% link stores/store-urls.md %}).
+Follow the instructions to configure the [store URLs]({% link stores/store-urls.md %}).

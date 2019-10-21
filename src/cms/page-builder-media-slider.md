@@ -3,9 +3,9 @@ conditions: Default.EE-B2B
 title: Slider
 ---
 
-Use the Slider content type to add a slideshow of images to the stage. You can upload new images or choose existing images from the gallery or product catalog. A slider can be set to play automatically or be controlled manually with navigation buttons. In the following example, you will learn how to create a responsive slider that features and links to specific products. To associate the slider with a specific promotion, see [Dynamic Block]({{ site.baseurl }}{% link cms/page-builder-add-dynamic-block.md %}).
+Use the Slider content type to add a slideshow of images to the stage. You can upload new images or choose existing images from the gallery or product catalog. A slider can be set to play automatically or be controlled manually with navigation buttons. In the following example, you will learn how to create a responsive slider that features and links to specific products. To associate the slider with a specific promotion, see [Dynamic Block]({% link cms/page-builder-add-dynamic-block.md %}).
 
-![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slider-buy3-get1free-storefront.png %}){: .zoom}
+![]({% link images/images-ee/page-builder-media-slider-buy3-get1free-storefront.png %}){: .zoom}
 _Slider in Storefront_
 
 ## Step 1: Add a Slider
@@ -16,17 +16,17 @@ _Slider in Storefront_
 
     In this example, the background color of the row is yellow (`#ffd16`).
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slider-drag-row.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-slider-drag-row.png %}){: .zoom}
     _Drag Slider to Stage_
 
 1. Sliders have two toolboxes. Hover anywhere over the slide to show the main toolbox at the top of the container. Then, click the navigation dot at the bottom of the slide to show the toolbox for individual slides.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slider-toolbox-slide-row.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-slider-toolbox-slide-row.png %}){: .zoom}
     _Individual Slide Toolbox_
 
 ## Step 2: Set Up the First Slide
 
- On the individual slide toolbox, choose **Settings** ( ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}). Then, complete the settings, as needed, in the following sections:
+ On the individual slide toolbox, choose **Settings** ( ![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}). Then, complete the settings, as needed, in the following sections:
 
 ### Appearance
 
@@ -37,14 +37,14 @@ _Slider in Storefront_
    - `Collage Center`
    - `Collage Right`
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-slide-appearance-collage-right.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-slide-appearance-collage-right.png %}){: .zoom}
     _Appearance_
 
 1. Enter the **Slide Name**.
 
     When you are working in Edit mode, the slide name appears as a tooltip above the navigation dot. The slide name is not visible from the storefront.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slider-name-buy3-get1free.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-slider-name-buy3-get1free.png %}){: .zoom}
     _Slide Name In Navigation_
 
 1. Enter the **Minimum Height** of the slide in pixels.
@@ -65,7 +65,7 @@ In the _No Color_ box, enter one of the following:
 
 In this example, the background color of the slide is the same yellow (`#ffd16`) as the background color of the row.
 
-![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slide-settings-background-color.png %}){: .zoom}
+![]({% link images/images-ee/page-builder-media-slide-settings-background-color.png %}){: .zoom}
 _Background Color_
 
 **Method 2:** Choose the Value
@@ -75,7 +75,7 @@ _Background Color_
    - In the color picker palette, choose the color swatch.
    - In the color picker, drag the cursor to the color that you want.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-settings-background-color-picker-swatch.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-settings-background-color-picker-swatch.png %}){: .zoom}
     _Choose Swatch_
 
 1. You can use the opacity slider, just below the color picker, to create backgrounds with varying degrees of transparency.
@@ -84,7 +84,7 @@ _Background Color_
 
     The box below the slider shows the current red, green, blue, and alpha values (rgba). The last number indicates the current opacity percentage as a decimal.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-settings-background-color.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-settings-background-color.png %}){: .zoom}
     _Set Opacity_
 
 ### Background Image
@@ -95,7 +95,7 @@ _Background Color_
 
    - Click <span class="btn">Select from Gallery</span>. Find the image in the gallery. Then, click the thumbnail of the image and click <span class="btn">Add Selected</span>.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slide-settings-background-image.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-media-slide-settings-background-image.png %}){: .zoom}
         _Background Image_
 
 1. To add a **Background Mobile Image**, do one of the following:
@@ -114,7 +114,7 @@ _Background Color_
 
     In this example, the Background Size “Contain” prevents the background image from extending the full width of the slide, which in this case is the full width of the row. Rather, the background image is limited to the width of the active content area of the slide, according to the slide’s Appearance setting.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-database-tutorial-background-size.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-database-tutorial-background-size.png %}){: .zoom}
     _Background Size_
 
 1. To anchor the image in relation to the slide, set **Background Position** to one of the following positions at the top, center, or bottom of the slide:
@@ -143,17 +143,17 @@ Each slide can have either single, or multiple links and buttons. Use one of the
 
 The slide Appearance setting places a single link or button below the text. Simply follow the instructions below to complete the properties of the link or button that you want to add.
 
-![]({{ site.baseurl }}{% link images/images-ee/page-builder-slide-appearance-collage-right.png %}){: .zoom}
+![]({% link images/images-ee/page-builder-slide-appearance-collage-right.png %}){: .zoom}
 _Appearance with Text and Button (or Link)_
 
 **Method 2:** Multiple Links or Buttons
 
-1. Create a separate [block]({{ site.baseurl }}{% link cms/block-add.md %}) with the links or buttons that you want to include.
+1. Create a separate [block]({% link cms/block-add.md %}) with the links or buttons that you want to include.
 
     {: .bs-callout .bs-callout-info}
     To avoid conflict, keep all the links or buttons in the separate block and do not add a link or button directly to the slide.
 
-1. [Add a block]({{ site.baseurl }}{% link cms/page-builder-add-content-block.md %}) placeholder to the slide stage. Then, choose the block that you prepared, and place it where you want it to appear on the slide.
+1. [Add a block]({% link cms/page-builder-add-content-block.md %}) placeholder to the slide stage. Then, choose the block that you prepared, and place it where you want it to appear on the slide.
 
 1. To link the slide to a page, set **Link** to one of the following destination types. Then, follow the instructions for the type of link you want to create.
 
@@ -163,7 +163,7 @@ _Appearance with Text and Button (or Link)_
 
    - Set **Link** to `URL`. Then, enter the destination URL.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-image-settings-image-link-url-newtab.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-media-image-settings-image-link-url-newtab.png %}){: .zoom}
         _Link to URL_
 
     **Product**
@@ -174,7 +174,7 @@ _Appearance with Text and Button (or Link)_
      - Choose the product from the search results list.
      - Click the **down arrow**, and choose the product from the list.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-banner-settings-link-product.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-banner-settings-link-product.png %}){: .zoom}
     _Link to Product_
 
     **Category**
@@ -186,7 +186,7 @@ _Appearance with Text and Button (or Link)_
 
    - To choose the category, click the category name in the category tree.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-settings-link-category-womens-tees.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-settings-link-category-womens-tees.png %}){: .zoom}
     _Link to Category_
 
     **Page**
@@ -196,7 +196,7 @@ _Appearance with Text and Button (or Link)_
      - Begin typing the page name. Then in the list, click the name of the page.
      - Click the **down arrow**, and choose the page from the list.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-banner-settings-link-page.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-banner-settings-link-page.png %}){: .zoom}
     _Link to Page_
 
     If the link points to a URL that is outside of your store, and you want to prevent the visitor from navigating away from your store, select the **Open in new tab** checkbox.
@@ -237,12 +237,12 @@ _Appearance with Text and Button (or Link)_
         {: .bs-callout .bs-callout-info}
         Do not use the opacity slider in the color picker to set the overlay transparency.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-tutorial1-banner-settings-overlay-color.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-overlay-color.png %}){: .zoom}
         _Overlay Color_
 
    - In the **Overlay Transparency** field, specify the percentage of transparency that you want to apply for the overlay.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slider-overlay-settings.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-slider-overlay-settings.png %}){: .zoom}
     _Overlay Settings_
 
 1. Complete the remaining settings as needed, using the [descriptions](#slide-settings) at the end of this page for reference.
@@ -259,23 +259,23 @@ You can save time by duplicating a slide that has already been configured with t
 
 1. Complete the settings for the first slide.
 
-1. Click the navigation dot below the slide. Then, click **Duplicate** ( ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-duplicate.png %}){: .Inline}) in the slide toolbox.
+1. Click the navigation dot below the slide. Then, click **Duplicate** ( ![]({% link images/images-ee/icon-pb-duplicate.png %}){: .Inline}) in the slide toolbox.
 
 1. Click the navigation dot for the new slide, and update the content and link as needed.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slider-duplicate-slide.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-slider-duplicate-slide.png %}){: .zoom}
     _Duplicate Slide 1_
 
 **Method 2:** Add a New Blank Slide
 
-1. Hover over the current slide. Then, click **Add** ( ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-add.png %}){: .Inline}) in the main slider toolbox.
+1. Hover over the current slide. Then, click **Add** ( ![]({% link images/images-ee/icon-pb-add.png %}){: .Inline}) in the main slider toolbox.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slider-toolbox-add.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-slider-toolbox-add.png %}){: .zoom}
     _Add Blank Slide_
 
     A new blank slide with its own navigation dot and toolbox are added to the slider.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slider-slide2-toolbox.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-slider-slide2-toolbox.png %}){: .zoom}
     _Slide 2 Toolbox_
 
 1. Update the content and links as needed.
@@ -284,7 +284,7 @@ You can save time by duplicating a slide that has already been configured with t
 
 1. To view each image in the slider, click the next dot below the current image.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slider-slide2.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-slider-slide2.png %}){: .zoom}
     _Completed Slider_
 
     The slide in this example has a background image, a transparent mobile image, and an inline image that was added from the text editor. This technique works well on mobile devices by turning off the background image, and displaying only the smaller inline image. The product slide in this example has the following additional settings:
@@ -313,33 +313,33 @@ If you want a title above the slider, simply add a Text content type above the s
 
 1. In the Page Builder panel under _Elements_, drag a **Text** placeholder to the top edge of the slider. A red guideline marks the insertion point above the banner.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slider-elements-text-drag.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-slider-elements-text-drag.png %}){: .zoom}
     _Drag Text Placeholder Above Slider_
 
 1. Use the editor to format the text as needed.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slider-elements-text-editor.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-slider-elements-text-editor.png %}){: .zoom}
     _Edit the Text_
 
 ## Step 5: Configure the Slider
 
-1. Hover over the slider container to show the main toolbox. Then, choose **Settings** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}), and do the following:
+1. Hover over the slider container to show the main toolbox. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}), and do the following:
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slider-tee-shirts-main-toolbox.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-slider-tee-shirts-main-toolbox.png %}){: .zoom}
     _Slider Toolbox_
 
     - If you want the slider to begin as soon as the page loads, set **Autoplay** to `Yes`. Then, set **Autoplay Speed** to the number of milliseconds in the delay between slides.
 
         By default, the Autoplay Speed is set to 4000 ms, which is four seconds.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slider-settings-autoplay.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-media-slider-settings-autoplay.png %}){: .zoom}
         _Autoplay_
 
     - To smooth the transition from one slide to the next, set **Fade** to `Yes`.
 
         With Fade, the slides seem to stay in place, but the content changes smoothy from one to the next. Without fade, you see the horizontal movement from one slide to the next.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slider-settings-fade-infinite-loop.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-media-slider-settings-fade-infinite-loop.png %}){: .zoom}
         _Fade and Infinite Loop_
 
     - To make the slideshow repeat indefinitely while the page is open, set **Infinite Loop** to “Yes.”
@@ -350,12 +350,12 @@ If you want a title above the slider, simply add a Text content type above the s
 
       - To include a set of navigation dots below the slider, set **Show Dots** to `Yes`.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slider-settings-show-arrows-dots.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-media-slider-settings-show-arrows-dots.png %}){: .zoom}
         _Show Arrows and Dots_
 
     - Enter the **Minimum Height** of the slider in pixels.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slider-settings-minimum-height.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-media-slider-settings-minimum-height.png %}){: .zoom}
         _Minimum Height_
 
 1. Complete the remaining slider settings as needed, using the [descriptions](#slider-settings) at the bottom of this page for reference.
@@ -368,10 +368,10 @@ If you want a title above the slider, simply add a Text content type above the s
 
    When you preview the slider, resize the window so you can see how it appears on a mobile device.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slider-desktop-view.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-slider-desktop-view.png %}){: .zoom}
     _Desktop View_
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-slider-mobile-view.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-media-slider-mobile-view.png %}){: .zoom}
     _Mobile View_
 
 ## Individual Slide Toolbox

@@ -3,9 +3,9 @@ title: Store Integration
 ---
 
 
-**Step 1 of 7**{: .Blue} for [Onboarding Amazon Sales Channel]({{ site.baseurl }}{% link sales-channels/amazon/amazon-onboarding-home.md %})
+**Step 1 of 7**{: .Blue} for [Onboarding Amazon Sales Channel]({% link sales-channels/amazon/amazon-onboarding-home.md %})
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/onboarding-step-store-integration.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/onboarding-step-store-integration.png %}){: .zoom}
 
 To begin, create an Amazon Sales Channel store and connect it to your Amazon Seller Account. This integrates your Magento and Amazon accounts to share data, sync products, and more. You need your Amazon Seller Central account credentials to complete this step. You cannot continue with onboarding until you connect your stores.
 
@@ -19,7 +19,7 @@ After integrating your Amazon account, you will be prompted annually to renew yo
 1. Click <span class="btn">Setup Amazon Store</span>.
 
    {:.bs-callout .bs-callout-info}
-   A list of [Pre-Setup Tasks]({{ site.baseurl }}{% link sales-channels/amazon/amazon-pre-setup-tasks.md %}) is displayed with an overview of prerequisites. When ready, click **Begin Setup**.
+   A list of [Pre-Setup Tasks]({% link sales-channels/amazon/amazon-pre-setup-tasks.md %}) is displayed with an overview of prerequisites. When ready, click **Begin Setup**.
 
 1. For **Email Address**, enter your preferred contact email address.
 
@@ -37,7 +37,7 @@ After integrating your Amazon account, you will be prompted annually to renew yo
 
 1. Click <span class="btn">Save Marketplace</span>. Your new marketplace is saved. Next, connect your new store with your Amazon Seller Central account.
 
-    ![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-store-integration.png %}){: .zoom}
+    ![]({% link images/images/sales-channels/amazon/amazon-store-integration.png %}){: .zoom}
     _Create your Sales Channel Store_
 
 1. Click <span class="btn">Connect to Amazon Store</span> to launch Amazon Seller Central in a new tab.
@@ -54,4 +54,4 @@ After integrating your Amazon account, you will be prompted annually to renew yo
 
 1. Click **OK** to confirm. Then click <span class="btn">Next</span>.
 
-![]({{ site.baseurl }}{% link images/images/btn-next.png %}){: .Inline} [**Continue to Step 2 of Onboarding**]({{ site.baseurl }}{% link sales-channels/amazon/ob-listing-settings.md %})
+![]({% link images/images/btn-next.png %}){: .Inline} [**Continue to Step 2 of Onboarding**]({% link sales-channels/amazon/ob-listing-settings.md %})

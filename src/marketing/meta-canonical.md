@@ -33,12 +33,12 @@ You can avoid being penalized by search engines by omitting the category from th
 
 1. In the panel on the left under **Catalog**, choose **Catalog**.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Search Engine Optimization** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Search Engine Optimization** section.
 
     To change any field values, you must first clear the **Use system value** checkbox after each field.
     
-    ![]({{ site.baseurl }}{%- link images/images/config-catalog-catalog-search-engine-optimization.png -%}){: .zoom} 
-    [*Search Engine Optimization*]({{ site.baseurl }}{%- link configuration/catalog/catalog.md -%})
+    ![]({% link images/images/config-catalog-catalog-search-engine-optimization.png %}){: .zoom} 
+    [*Search Engine Optimization*]({% link configuration/catalog/catalog.md -%})
 
 1. If you want search engines to index only category pages using the full category path, do the following:
 

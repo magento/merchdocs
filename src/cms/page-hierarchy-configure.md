@@ -5,7 +5,7 @@ title: Configuring Page Hierarchy
 
 The configuration settings activate the page hierarchy system and metadata, and determine the default menu layout.
 
-![CMS Page Hierarchy]({{ site.baseurl }}{% link images/images-ee/config-general-content-management-cms-page-hierarchy.png %} "CMS Page Hierarchy"){: .zoom}
+![CMS Page Hierarchy]({% link images/images-ee/config-general-content-management-cms-page-hierarchy.png %} "CMS Page Hierarchy"){: .zoom}
 _CMS Page Hierarchy_
 
 ## To configure page hierarchy
@@ -14,6 +14,6 @@ _CMS Page Hierarchy_
 
 1. In the panel on the left, under **General**, choose **Content Management**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} **CMS Page Hierarchy**  and make any changes that are necessary.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **CMS Page Hierarchy**  and make any changes that are necessary.
 
 1. When complete, click <span class="btn">Save Config</span>.

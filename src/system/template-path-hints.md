@@ -4,19 +4,19 @@ title: Template Path Hints
 Template Path Hints are a diagnostic tool that adds notation with the path to each template that is used on the page. Template path hints can be enabled for either the storefront or the Admin.
 
 {: .bs-callout-info}
-Template Path Hints can be edited in [Developer Mode]({{ site.baseurl }}{% link magento/installation-modes.md %}) only.
+Template Path Hints can be edited in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
 See [Locate templates, layouts, and styles][1] in the developer documentation.
 
-![]({{ site.baseurl }}{% link images/images/storefront-template-path-hints.png %}){: .zoom}
+![]({% link images/images/storefront-template-path-hints.png %}){: .zoom}
 _Template Path Hints in Storefront_
 
 ## Step 1: Whitelist Your IP Address
 
-Before using template path hints, add your IP address to the [whitelist]({{ site.baseurl }}{% link system/developer-client-restrictions.md %}), so not to interfere with customers who are shopping in the store. When you are finished, make sure to clear the Magento cache to remove all hints from the store.
+Before using template path hints, add your IP address to the [whitelist]({% link system/developer-client-restrictions.md %}), so not to interfere with customers who are shopping in the store. When you are finished, make sure to clear the Magento cache to remove all hints from the store.
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-developer-developer-client-restrictions.png %}){: .zoom}
-[_Developer Client Restrictions_]({{ site.baseurl }}{% link configuration/advanced/developer.md %})
+![]({% link images/images/config-advanced-developer-developer-client-restrictions.png %}){: .zoom}
+[_Developer Client Restrictions_]({% link configuration/advanced/developer.md %})
 
 ## Step 2: Enable Template Path Hints
 
@@ -26,10 +26,10 @@ Before using template path hints, add your IP address to the [whitelist]({{ sit
 
 1.  In the panel on the left under _Advanced_, choose **Developer**.
 
-1.  Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Debug** section. Then, do the following:
+1.  Expand ![]({% link images/images/btn-expand.png %}) the **Debug** section. Then, do the following:
 
-     ![]({{ site.baseurl }}{% link images/images/config-advanced-developer-debug.png %}){: .zoom}
-     [_Debug_]({{ site.baseurl }}{% link configuration/advanced/developer.md %})
+     ![]({% link images/images/config-advanced-developer-debug.png %}){: .zoom}
+     [_Debug_]({% link configuration/advanced/developer.md %})
 
      -  To activate template path hints for the store, set **Enabled Template Path Hints for Storefront** to `Yes`.
 

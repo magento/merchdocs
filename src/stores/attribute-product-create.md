@@ -5,7 +5,7 @@ group: catalog
 
 You can create attributes while working on a product or from the Product Attributes page. The following steps show how to create attributes from the Stores menu.
 
-![]({{ site.baseurl }}{% link images/images/attribute-properties.png %}){: .zoom}
+![]({% link images/images/attribute-properties.png %}){: .zoom}
 _New Attribute Properties_
 
 ## Step 1: Describe the basic properties
@@ -14,7 +14,7 @@ _New Attribute Properties_
 
 1. Click <span class="btn">Add New Attribute</span>.
 
-   ![Add new product attribute]({{ site.baseurl }}{% link images/images/product-attribute-add-attribute-properties-flavor.png %}){: .zoom}
+   ![Add new product attribute]({% link images/images/product-attribute-add-attribute-properties-flavor.png %}){: .zoom}
    _Attribute Properties_
 
 1. Under Attribute Properties, enter a **Default Label** to identify the attribute.
@@ -35,14 +35,14 @@ _New Attribute Properties_
 
    - Select **Is Default** to use the option as the default value.
 
-   ![Product attribute - manage options]({{ site.baseurl }}{% link images/images/product-attribute-add-values-flavors.png %}){: .zoom}
+   ![Product attribute - manage options]({% link images/images/product-attribute-add-values-flavors.png %}){: .zoom}
    _Manage Options_
 
 ## Step 2: Describe the advanced properties (if needed)
 
 1. Enter a unique **Attribute Code** in lowercase characters and without spaces.
 
-   ![Product attribute - advanced properties]({{ site.baseurl }}{% link images/images/product-attribute-advanced-attribute-properties.png %}){: .zoom}
+   ![Product attribute - advanced properties]({% link images/images/product-attribute-advanced-attribute-properties.png %}){: .zoom}
    _Advanced Attribute Properties_
 
 1. Set **Scope** to indicate where in your store hierarchy the attribute can be used.
@@ -60,7 +60,7 @@ _New Attribute Properties_
    - Letters
    - Letters (a-z, A-Z) or Numbers (0-9)
 
-   ![]({{ site.baseurl }}{% link images/images/product-attribute-input-validation.png %}){: .zoom}
+   ![]({% link images/images/product-attribute-input-validation.png %}){: .zoom}
    _Input Validation_
 
 1. To add this attribute to the product grid, set the following options to `Yes`.
@@ -70,13 +70,13 @@ _New Attribute Properties_
 
 ## Step 3: Enter the field label
 
-1. Expand ![Expansion selector]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Manage titles** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Manage titles** section.
 
 1. Enter a **Title** to be used as a label for the field.
 
    If your store is available in different languages, you can enter a translated title for each view.
 
-   ![Product attribute - manage titles]({{ site.baseurl }}{% link images/images/product-attribute-add-manage-titles.png %}){: .zoom}
+   ![Product attribute - manage titles]({% link images/images/product-attribute-add-manage-titles.png %}){: .zoom}
    _Manage Titles_
 
 ## Step 4: Describe the storefront properties
@@ -113,12 +113,12 @@ _New Attribute Properties_
 
 1. When complete, click <span class="btn">Save Attribute</span>.
 
-   ![Product attributes - storefront properties]({{ site.baseurl }}{% link images/images/product-attribute-add-storefront-properties.png %}){: .zoom}
+   ![Product attributes - storefront properties]({% link images/images/product-attribute-add-storefront-properties.png %}){: .zoom}
    _Storefront Properties_
 
 ## Attributes for configurable products
 
-Any attribute that is used as a drop-down list of options for a [configurable product]({{ site.baseurl }}{% link catalog/product-create-configurable.md %}) must have the following properties:
+Any attribute that is used as a drop-down list of options for a [configurable product]({% link catalog/product-create-configurable.md %}) must have the following properties:
 
 | Property | Value |
 |----------

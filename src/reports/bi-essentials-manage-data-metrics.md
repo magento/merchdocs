@@ -10,17 +10,17 @@ Each report includes at least one query that defines the set of data, or “metr
 
 1. In the sidebar, choose **Metrics**.
 
-   ![]({{ site.baseurl }}{% link images/images/magento-bi-manage-data.png %}){: .zoom}
+   ![]({% link images/images/magento-bi-manage-data.png %}){: .zoom}
    *Metrics*
 
-1. Click the name of any metric to display detailed information.  To show the Metric Options, click the **Settings** ( ![]({{ site.baseurl }}{% link images/images/magento-bi-btn-settings.png %}){: .Inline}) icon on the right.
+1. Click the name of any metric to display detailed information.  To show the Metric Options, click the **Settings** ( ![]({% link images/images/magento-bi-btn-settings.png %}){: .Inline}) icon on the right.
 
-   ![]({{ site.baseurl }}{% link images/images/magento-bi-manage-data-metrics-detail.png %}){: .zoom}
+   ![]({% link images/images/magento-bi-manage-data-metrics-detail.png %}){: .zoom}
    *Metric Detail*
 
 1. Click **Details** to display more information about the metric.
 
-   ![]({{ site.baseurl }}{% link images/images/magento-bi-manage-data.png %}){: .zoom}
+   ![]({% link images/images/magento-bi-manage-data.png %}){: .zoom}
    *Metrics*
 
 ## Default Metrics by Table

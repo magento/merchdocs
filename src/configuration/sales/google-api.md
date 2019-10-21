@@ -2,16 +2,16 @@
 title: Google API
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > Google API
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Google API
 
 ## Google Analytics
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/config-sales-google-api-google-analytics.png %}){: .zoom}
+![]({% link images/images/config-sales-google-api-google-analytics.png %}){: .zoom}
 _Google Analytics_
 
 <!--{% endif %}-->
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable|Store View|Enables Google Analytics for your store. Options: Yes / No|<!--{% if "Default.EE-B2B" contains site.edition %}-->
 |Account Type|Store View|Determines the configuration options according to your Google Analytics account type. Options: Universal Analytics / Google Tag Manager|<!--{% endif %}-->
@@ -19,10 +19,10 @@ _Google Analytics_
 
 ### Universal Analytics
 
-![]({{ site.baseurl }}{% link images/images-ee/config-sales-google-api-google-analytics-universal-analytics.png %}){: .zoom}
+![]({% link images/images-ee/config-sales-google-api-google-analytics-universal-analytics.png %}){: .zoom}
 _Google Analytics - Universal Analytics_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Account Number|Store View|The account number, or tracking code, that was assigned when you created your Google Analytics account.|
 |Anonymize IP|Store View|Determines if identifying information is removed from IP addresses that appear in Google Analytics results.|
@@ -30,10 +30,10 @@ _Google Analytics - Universal Analytics_
 
 ### Google Tag Manager
 
-![]({{ site.baseurl }}{% link images/images-ee/config-sales-google-api-google-analytics-google-tag-manager.png %}){: .zoom}
-[_Google Analytics - Google Tag Manager_]({{ site.baseurl }}{% link marketing/google-universal-analytics.md %})
+![]({% link images/images-ee/config-sales-google-api-google-analytics-google-tag-manager.png %}){: .zoom}
+[_Google Analytics - Google Tag Manager_]({% link marketing/google-universal-analytics.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Container ID|Store View|The unique ID for the Google Tag Manager container. This value typically starts with `GTM-`. This ID is located in your Google Tab Manager account. If Google Tag manager is already installed and configured for your store, the Container ID appears automatically in this field.|
 |List property for the catalog page|Store View|Identifies the Tag Manager property associated with the catalog page. Default value: Catalog Page|
@@ -46,10 +46,10 @@ _Google Analytics - Universal Analytics_
 
 ## Google Adwords
 
-![]({{ site.baseurl }}{% link images/images/config-sales-google-api-google-adwords.png %}){: .zoom}
-[_Google Adwords_]({{ site.baseurl }}{% link marketing/google-adwords.md %})
+![]({% link images/images/config-sales-google-api-google-adwords.png %}){: .zoom}
+[_Google Adwords_]({% link marketing/google-adwords.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable|Store View|Enables Google Adwords for the store. Options: Yes / No|
 |Conversion ID|Store View|The ID from your Google AdWords account.|

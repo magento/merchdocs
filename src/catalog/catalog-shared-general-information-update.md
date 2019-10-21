@@ -5,7 +5,7 @@ title: Updating the General Information
 
 The detail information of any shared catalog can be easily updated from the Action column of the Shared Catalogs grid. The changes you make are reflected in any associated company accounts.
 
-![]({{ site.baseurl }}{% link images/images-b2b/catalogs-shared-grid-general-settings.png %}){: .zoom}
+![]({% link images/images-b2b/catalogs-shared-grid-general-settings.png %}){: .zoom}
 *General Settings*
 
 ## To update the catalog details:
@@ -14,7 +14,7 @@ The detail information of any shared catalog can be easily updated from the Acti
 
 1. Find the shared catalog in the grid. Then in the **Action** column, select **General Settings**.
 
-   ![]({{ site.baseurl }}{% link images/images-b2b/catalog-shared-update-details.png %}){: .zoom}
+   ![]({% link images/images-b2b/catalog-shared-update-details.png %}){: .zoom}
    *Catalog Details*
 
 1. Update the catalog detail information as needed.
@@ -50,7 +50,7 @@ The detail information of any shared catalog can be easily updated from the Acti
          </tr>
          <tr>
             <td>
-               <a href="{{ site.baseurl }}{% link catalog/catalog-shared-create.md %}">Duplicate</a>
+               <a href="{% link catalog/catalog-shared-create.md %}">Duplicate</a>
             </td>
             <td>Creates a duplicate copy of the catalog. For a custom catalog, the  pricing model and structure of the original, but without the company associations. If a public shared catalog is duplicated, the type of the duplicate catalog changes to “custom.”A corresponding customer group is also created with the same name as the duplicate catalog. By default, a duplicate catalog is named “Duplicate of” the original catalog. </td>
          </tr>

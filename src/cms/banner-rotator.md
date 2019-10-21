@@ -4,7 +4,7 @@ title: Rotating Banners
 ---
 
 {: .bs-callout .bs-callout-info }
-DEPRECATED: [Page Builder]({{ site.baseurl }}{% link cms/page-builder.md %})’s advanced content tools replace the previous banner functionality as described in this topic. We keep this content in the user guide as a convenience for those whose stores have customizations that prevent them from using Page Builder.
+DEPRECATED: [Page Builder]({% link cms/page-builder.md %})’s advanced content tools replace the previous banner functionality as described in this topic. We keep this content in the user guide as a convenience for those whose stores have customizations that prevent them from using Page Builder.
 
 A banner rotator can be used to display a single banner, or multiple banners in a specific sequence or random order. The next banner in the sequence appears whenever the page is refreshed.
 
@@ -12,11 +12,11 @@ The banner rotator is a widget that can be assigned to a specific page, product,
 
 ## Step 1: Create the Individual Banners
 
-Create the individual [banners]({{ site.baseurl }}{% link cms/banner-create.md %}) that you want to include in the rotator.
+Create the individual [banners]({% link cms/banner-create.md %}) that you want to include in the rotator.
 
 ## Step 2: Add a Widget
 
-Follow the basic steps to add a [widget]({{ site.baseurl }}{% link cms/widget-create.md %}).
+Follow the basic steps to add a [widget]({% link cms/widget-create.md %}).
 
 - Set **Type** to `Banner Rotator`.
 

@@ -4,7 +4,7 @@ title: Header Template
 
 The email header template includes your logo that is linked to your store. In addition, you can easily insert variables to add store contact information to the header.
 
-![Email templates]({{ site.baseurl }}{%- link images/images/email-templates.png -%}){: .zoom}
+![Email templates]({% link images/images/email-templates.png %}){: .zoom}
 _Email Templates_
 
 ## Step 1. Load the Default Template
@@ -15,7 +15,7 @@ _Email Templates_
 
 1. In the **Load default template** section, click the **Template** selector and choose `Magento_Email` > `Header`.
 
-    ![Email template header - load default template]({{ site.baseurl }}{%- link images/images/email-template-magento-email-header.png -%}){: .zoom}
+    ![Email template header - load default template]({% link images/images/email-template-magento-email-header.png %}){: .zoom}
     _Default Header Template_
 
 1. Click <span class="btn">Load Template</span>.
@@ -30,7 +30,7 @@ _Email Templates_
 
    In the grid, the list of templates can be sorted and filtered by the _Subject_ column.
 
-    ![Email template header - information]({{ site.baseurl }}{%- link images/images/email-template-information.png -%}){: .zoom}
+    ![Email template header - information]({% link images/images/email-template-information.png %}){: .zoom}
     _Header Template Information_
 
 1. In the **Template Content** box, modify the HTML as needed.
@@ -38,16 +38,16 @@ _Email Templates_
     {: .bs-callout .bs-callout-info}
     When working in the template code, be careful not to overwrite anything that is enclosed in double braces.
 
-1. To insert a [variable]({{ site.baseurl }}{%- link marketing/variables.md -%}), position the cursor in the code where you want to place the variable and click <span class="btn">Insert Variable</span>.
+1. To insert a [variable]({% link marketing/variables.md %}), position the cursor in the code where you want to place the variable and click <span class="btn">Insert Variable</span>.
 
 1. Choose the variable that you want to insert.
 
-    When a variable is selected, a [markup tag]({{ site.baseurl }}{%- link marketing/markup-tags.md -%}) for the variable is inserted in the code.
+    When a variable is selected, a [markup tag]({% link marketing/markup-tags.md %}) for the variable is inserted in the code.
 
-    ![]({{ site.baseurl }}{%- link images/images/email-template-insert-variable.png -%}){: .zoom}
+    ![Header teamplate - Insert variable]({% link images/images/email-template-insert-variable.png %}){: .zoom}
     _Insert Variable_
 
-    Although the Store Contact variables are the ones most often included in the header, you can enter the code for any system or [custom variable]({{ site.baseurl }}{%- link marketing/variables-custom.md -%}) directly into the template.
+    Although the Store Contact variables are the ones most often included in the header, you can enter the code for any system or [custom variable]({% link marketing/variables-custom.md %}) directly into the template.
 
 1. If you need to make any CSS declarations, enter the styles in the **Template Styles** box.
 
@@ -63,14 +63,14 @@ _Email Templates_
 
 1. In the grid, find the store view that you want to configure and click **Edit** in the _Action_ column.
 
-1. Scroll down and expand ![Expansion selector]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Transactional Emails** section.
+1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Transactional Emails** section.
 
 1. Choose the **Header Template** that is used as the default for email notifications.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-![Transactional email design configuration - header template]({{ site.baseurl }}{%- link images/images/config-design-transactional-emails.png -%}){: .zoom}
-[_Transactional Emails_]({{ site.baseurl }}{%- link design/configuration.md -%})
+![Transactional email design configuration - header template]({% link images/images/config-design-transactional-emails.png %}){: .zoom}
+[_Transactional Emails_]({% link design/configuration.md %})
 
 ## Field Descriptions
 

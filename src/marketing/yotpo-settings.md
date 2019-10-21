@@ -4,13 +4,13 @@ title: Yotpo Default Settings
 
 When Yotpo is enabled, Magento sets default values for your Widget and Sync settings.
 
-Access these basic Yotpo settings from _Admin_ > **Stores** > _Configuration_ > _Yotpo_ > **Reviews and Visual Marketing**. See [Reviews and Visual Marketing]({{ site.baseurl }}{%- link configuration/yotpo/reviews-visual-marketing.md -%}).
+Access these basic Yotpo settings from _Admin_ > **Stores** > _Configuration_ > _Yotpo_ > **Reviews and Visual Marketing**. See [Reviews and Visual Marketing]({% link configuration/yotpo/reviews-visual-marketing.md -%}).
 
 Additional Yotpo features and options are dependent on the Yotpo plan you choose. Magento supports the Free, Growth, and Premium plans. See Yotpo [Plan Information](https://www.yotpo.com/pricing/) for plans and features.
 
 ### Default Widget Settings
 
-![]({{ site.baseurl }}{%- link images/images/yotpo-config-widget.png -%}){: .zoom}
+![]({% link images/images/yotpo-config-widget.png %}){: .zoom}
 _Yotpo Default Widget Settings_
 
 Widget settings include the following:
@@ -23,13 +23,13 @@ Widget settings include the following:
 
 - **Enable Q&A** - When set to `Yes`, the Q&A feature displays on the product page, which enables customers to ask questions regarding a specific product directed to the Yotpo account owner and to customers who had previously purchased the product. See [Q&A Feature](https://support.yotpo.com/en/article/questions-answers-feature).
 
-- **Hide Magento Reviews** - When set to `Yes`, this disables the [Magento Product Reviews]({{ site.baseurl }}{%- link marketing/magento-product-reviews.md -%}) feature for product and category pages.
+- **Hide Magento Reviews** - When set to `Yes`, this disables the [Magento Product Reviews]({% link marketing/magento-product-reviews.md -%}) feature for product and category pages.
 
 - **Enable Debug Mode** - When set to `Yes`, debug mode is enabled to log all Yotpo processes (log file: `var/log/system.log`).|
 
 ### Default Sync Settings
 
-![]({{ site.baseurl }}{%- link images/images/yotpo-config-sync.png -%}){: .zoom}
+![]({% link images/images/yotpo-config-sync.png %}){: .zoom}
 _Yotpo Default Sync Settings_
 
 Widget settings include the following:

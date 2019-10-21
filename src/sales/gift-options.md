@@ -10,7 +10,7 @@ Each item in the order can have a separate message<!--{% if "Default.EE-B2B" con
 
  The Gift Options configuration applies to the entire website, but can be overridden at the product level.
 
-![]({{ site.baseurl }}{% link images/images/storefront-cart-gift-options-for-products-or-order.png %}){: .zoom}
+![]({% link images/images/storefront-cart-gift-options-for-products-or-order.png %}){: .zoom}
 _Gift Options in Shopping Cart_
 
 ## To enable gift options
@@ -21,13 +21,13 @@ _Gift Options in Shopping Cart_
 
 1. In the _Sales_ section in the left panel, choose **Checkout**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **My Cart Link** section **Gift Options** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **My Cart Link** section **Gift Options** section.
 
     <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({{ site.baseurl }}{% link images/images/config-sales-sales-gift-options.png %}){: .zoom}
+    ![]({% link images/images/config-sales-sales-gift-options.png %}){: .zoom}
     <!--{% endif %}-->
     <!--{% if "Default.EE-B2B" contains site.edition %}-->
-    ![]({{ site.baseurl }}{% link images/images-ee/config-sales-sales-gift-options.png %}){: .zoom}
+    ![]({% link images/images-ee/config-sales-sales-gift-options.png %}){: .zoom}
     <!--{% endif %}-->
 
 1. Set the **Gift Message** options according to your preference:

@@ -24,7 +24,7 @@ Before you enable a flat catalog for a live store, make sure to test the configu
 
     - Set **Use Flat Catalog Product** to `Yes`.
 
-    ![]({{ site.baseurl }}{% link images/images/config-catalog-catalog-storefront-use-flat-catalog.png %}){: .zoom}
+    ![]({% link images/images/config-catalog-catalog-storefront-use-flat-catalog.png %}){: .zoom}
     _Flat Catalog Configuration_
 
 1. When complete, click <span class="btn">Save Config</span>.
@@ -49,9 +49,9 @@ Before you enable a flat catalog for a live store, make sure to test the configu
 
        - Use the navigation to browse to the product under its assigned category.
 
-        If necessary, refresh the page to see the results. The change will appear within the minute, or according to your [Cron]({{ site.baseurl }}{% link system/cron.md %}) schedule.
+        If necessary, refresh the page to see the results. The change will appear within the minute, or according to your [Cron]({% link system/cron.md %}) schedule.
 
-        ![]({{ site.baseurl }}{% link images/images/storefront-flat-catalog-enabled.png %}){: .zoom}
+        ![]({% link images/images/storefront-flat-catalog-enabled.png %}){: .zoom}
         _Storefront with Flat Catalog_
 
 **Method 2: Verify the Results for a Category**
@@ -68,14 +68,14 @@ Before you enable a flat catalog for a live store, make sure to test the configu
 
        - When complete, click <span class="btn">Save</span>.
 
-            ![]({{ site.baseurl }}{% link images/images/catalog-flat-test-category.png %}){: .zoom}
+            ![]({% link images/images/catalog-flat-test-category.png %}){: .zoom}
             _Test Subcategory_
 
-       - Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Products in Category** section. Then, click **Reset Filter** to display all products.
+       - Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Products in Category** section. Then, click **Reset Filter** to display all products.
 
        - Select the checkbox of several products to add them to the new category. Then, click <span class="btn">Save</span>.
 
-            ![]({{ site.baseurl }}{% link images/images/catalog-flat-test-category-products.png %}){: .zoom}
+            ![]({% link images/images/catalog-flat-test-category-products.png %}){: .zoom}
             _Test Category Products_
 
    1. On a new browser tab, navigate to the home page of your store. Then, use the store navigation to browse to the category you created.

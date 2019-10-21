@@ -7,7 +7,7 @@ United Parcel Service offers domestic and international shipping services by lan
 {: .bs-callout .bs-callout-warning}
 UPS is discontinuing support of HTTP for its standard CGI service gateway. If a standard UPS account integration is already enabled for your Magento installation, make sure that the Gateway URL uses the HTTPS protocol in the UPS Shipping Method configuration. If needed, update the Gateway URL manually to change the protocol to HTTPS. If you are enabling a new UPS configuration for your Magento installation, use the default "United Parcel Service XML" UPS Type.
 
-UPS uses [dimensional weight]({{ site.baseurl }}{% link shipping/weight-dimensional.md %}) to determine some shipping rates.
+UPS uses [dimensional weight]({% link shipping/weight-dimensional.md %}) to determine some shipping rates.
 
 ## Step 1: Open a UPS Shipping Account
 
@@ -19,7 +19,7 @@ To offer this shipping method to your customers, you must first open an account 
 
 2. In the panel on the left, under **Sales**, choose **Shipping Methods**.
 
-3. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **UPS** section. Then, do the following:
+3. Expand ![]({% link images/images/btn-expand.png %}) the **UPS** section. Then, do the following:
 
     * Set **Enabled for Checkout** to “Yes”.
 
@@ -38,7 +38,7 @@ To offer this shipping method to your customers, you must first open an account 
     * For a standard UPS account, set **UPS Type** to “United Parcel Service”. Then do the following:
 
         {: .bs-callout .bs-callout-info}
-        The standard United Parcel Service type is scheduled for deprecation. For new configurations, you should use the default  "United Parcel Service XML" type. The XML type is also required to generate [shipping labels]({{ site.baseurl }}{% link shipping/shipping-labels.md %}).
+        The standard United Parcel Service type is scheduled for deprecation. For new configurations, you should use the default  "United Parcel Service XML" type. The XML type is also required to generate [shipping labels]({% link shipping/shipping-labels.md %}).
 
         * Set **Live Account** to one of the following:
 
@@ -53,8 +53,8 @@ To offer this shipping method to your customers, you must first open an account 
 
 4. In the **Title** field, enter the name of this shipping option as you want it to appear during checkout. By default, this field is set to “United Parcel Service”.
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-ups1.png %}){: .zoom}
-    [*Enable UPS*]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})
+    ![]({% link images/images/config-sales-shipping-methods-ups1.png %}){: .zoom}
+    [*Enable UPS*]({% link configuration/sales/shipping-methods.md %})
 
 ## Step 3: Complete the Container Description
 
@@ -89,8 +89,8 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. Enter the **Minimum Package Weight** allowed by the carrier.
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-ups2.png %}){: .zoom}
-    [*Container Description*]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})
+    ![]({% link images/images/config-sales-shipping-methods-ups2.png %}){: .zoom}
+    [*Container Description*]({% link configuration/sales/shipping-methods.md %})
 
 ## Step 4: Set Up Handling Fees
 
@@ -106,8 +106,8 @@ To offer this shipping method to your customers, you must first open an account 
 
 3. Enter the amount of the **Handling Fee** to be charged. To enter a percentage, use the decimal format. For example, enter 0.25 for 25%.
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-ups3.png %}){: .zoom}
-    [*Handling Fee*]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})
+    ![]({% link images/images/config-sales-shipping-methods-ups3.png %}){: .zoom}
+    [*Handling Fee*]({% link configuration/sales/shipping-methods.md %})
 
 ## Step 5: Specify Allowed Methods and Applicable Countries
 
@@ -121,12 +121,12 @@ To offer this shipping method to your customers, you must first open an account 
 
 2. In the **Displayed Error Message box**, type the message customers see if UPS shipping becomes unavailable.
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-ups4.png %}){: .zoom}
-    _[Allowed Methods*]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})_
+    ![]({% link images/images/config-sales-shipping-methods-ups4.png %}){: .zoom}
+    _[Allowed Methods*]({% link configuration/sales/shipping-methods.md %})_
 
 3. Set **Ship to Applicable Countries** to one of the following:
 
-    | All Allowed Countries | Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use this shipping method. |
+    | All Allowed Countries | Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this shipping method. |
     | Specific Countries | After choosing this option, the Ship to Specific Countries list appears. Select each country in the list where this shipping method can be used. |
     {:style="table-layout:auto"}
 
@@ -136,14 +136,14 @@ To offer this shipping method to your customers, you must first open an account 
 
     *  **No**–To list only the methods which are available to customers. |
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-ups5.png %}){: .zoom}
-    _[Applicable Countries]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})_
+    ![]({% link images/images/config-sales-shipping-methods-ups5.png %}){: .zoom}
+    _[Applicable Countries]({% link configuration/sales/shipping-methods.md %})_
 
 5. To create a log file with the details of UPS shipments made from your store, set **Debug** to `Yes`.
 
 6. In the **Sort Order** field, type a numeric value to determine the order in which UPS appears when listed with other shipping methods during checkout. The number with the highest priority is zero, which puts it at the top of the list.
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-ups6.png %}){: .zoom}
-    [*Debug and Sort Order*]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})
+    ![]({% link images/images/config-sales-shipping-methods-ups6.png %}){: .zoom}
+    [*Debug and Sort Order*]({% link configuration/sales/shipping-methods.md %})
 
 7. Click **Save Config**.

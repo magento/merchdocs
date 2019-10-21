@@ -2,7 +2,7 @@
 title: Product Attribute Reference
 ---
 
-The following table lists the attributes from a typical product export, in the default order in which they appear. Each attribute is represented in the CSV file as a column, and product records are represented by rows. Columns that begin with an underscore contain service data such as properties or option values for complex data. You can [export]({{ site.baseurl }}{% link system/data-export.md %}) a product from your catalog, to see how each attribute is represented in the data.
+The following table lists the attributes from a typical product export, in the default order in which they appear. Each attribute is represented in the CSV file as a column, and product records are represented by rows. Columns that begin with an underscore contain service data such as properties or option values for complex data. You can [export]({% link system/data-export.md %}) a product from your catalog, to see how each attribute is represented in the data.
 
 The installation used to export this data has the sample data installed, and has two websites and several store views. Although this list includes all columns that are typically exported, the `sku` is the only required value. To import data, you can include only the columns with changes. The `sku` should be the first column, but the order of the rest of the attributes doesn’t matter.
 

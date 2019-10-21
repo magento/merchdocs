@@ -18,9 +18,9 @@ When cross-border trade is enabled, your profit margin changes by tax rate. Prof
 
 1. In the panel on the left, under _Sales_, choose **Tax**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Calculation Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Calculation Settings** section.
 
-    ![Enable Cross Border Trade Settings]({{ site.baseurl }}{% link images/images/config-sales-tax-calculation-settings-cross-border.png %} "Enable Cross Border Trade Settings"){: .zoom}
+    ![Enable Cross Border Trade Settings]({% link images/images/config-sales-tax-calculation-settings-cross-border.png %} "Enable Cross Border Trade Settings"){: .zoom}
     _Calculation Settings_
 
 1. Set **Catalog Prices** to `Including Tax`.

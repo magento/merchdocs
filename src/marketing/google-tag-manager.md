@@ -10,7 +10,7 @@ Google Tag Manager directly transfers data and events to Google Analytics, Enhan
 You should have a Google Analytics and Tag Manager account to continue this process. The following instructions walk you through the process of configuring your Google accounts, configuring your Magento store, and creating a tag.
 
 {: .bs-callout .bs-callout-info}
-If your business operates in areas that are governed by the [General Data Protection Regulation]({{ site.baseurl }}{% link stores/compliance-gdpr.md %}), see: [Google Settings for GDPR]({{ site.baseurl }}{% link stores/compliance-gdpr-google.md %}).
+If your business operates in areas that are governed by the [General Data Protection Regulation]({% link stores/compliance-gdpr.md %}), see: [Google Settings for GDPR]({% link stores/compliance-gdpr-google.md %}).
 
 ## Step 1. Configure Your Google Analytics Account
 
@@ -99,10 +99,10 @@ For additional information, see Google's [Container export and import][5]. These
 
 1. In the panel on the left under** Sales**, choose **Google API**.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Google Analytics** section, and configure:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Google Analytics** section, and configure:
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/config-sales-google-api-google-analytics-google-tag-manager.png -%}){: .zoom} 
-    [*Google API - Google Tag Manager*]({{ site.baseurl }}{%- link configuration/sales/google-api.md -%})
+    ![]({% link images/images-ee/config-sales-google-api-google-analytics-google-tag-manager.png %}){: .zoom} 
+    [*Google API - Google Tag Manager*]({% link configuration/sales/google-api.md -%})
 
     * Set **Enable** to “Yes".
 

@@ -4,7 +4,7 @@ redirect_from:
   - /system/variables-custom.html
 ---
 
-If you know a little basic HTML, you can create custom variables and use a [markup tag]({{ site.baseurl }}{%- link marketing/markup-tags.md -%}) to incorporate them into pages, blocks, banners, and email templates.
+If you know a little basic HTML, you can create custom variables and use a [markup tag]({% link marketing/markup-tags.md -%}) to incorporate them into pages, blocks, banners, and email templates.
 
 <!-- {%- raw -%} -->
 
@@ -12,7 +12,7 @@ If you know a little basic HTML, you can create custom variables and use a [mark
 
 <!-- {% endraw %} -->
 
-![]({{ site.baseurl }}{%- link images/images/variables-custom.png -%}){: .zoom}
+![]({% link images/images/variables-custom.png %}){: .zoom}
 *Custom Variables*
 
 ## To create a custom variable
@@ -31,7 +31,7 @@ If you know a little basic HTML, you can create custom variables and use a [mark
     {: .bs-callout .bs-callout-info}
     You can drag the lower-right corner to make the boxes bigger.
 
-    ![]({{ site.baseurl }}{%- link images/images/variable-custom-add.png -%}){: .zoom}
+    ![]({% link images/images/variable-custom-add.png %}){: .zoom}
     *New Custom Variable*
 
 1. When complete, tap <span class="btn">Save</span>.

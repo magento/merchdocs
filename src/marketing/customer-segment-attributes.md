@@ -4,7 +4,7 @@ title: Customer Segment Attributes
 group: customers
 ---
 
-Customer segments are defined in a manner similar to shopping cart and catalog price rules. For an attribute to be used in a customer segment condition, the [Use in Customer Segment]({{ site.baseurl }}{%- link stores/attributes-product.md -%}) property must be set to `Yes`. Customer segment conditions can incorporate the following types of attributes:
+Customer segments are defined in a manner similar to shopping cart and catalog price rules. For an attribute to be used in a customer segment condition, the [Use in Customer Segment]({% link stores/attributes-product.md %}) property must be set to `Yes`. Customer segment conditions can incorporate the following types of attributes:
 
 | Attribute | Description |
 |---|---|

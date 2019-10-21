@@ -11,10 +11,10 @@ Email reminder rules can be sent at regular intervals by the minute, hour, or da
 
 1. In the left panel, expand **Customers** and choose **Promotions**.
 
-1. Expand ![Expansion selector]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Automated Email Reminder Rules** section. Then, do the following:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Automated Email Reminder Rules** section. Then, do the following:
 
-    ![Customers configuration - automated email reminder rules]({{ site.baseurl }}{%- link images/images-ee/config-customers-promotions-automated-email-reminder-rules.png -%}){: .zoom}
-    [_Automated Email Reminder Rules_]({{ site.baseurl }}{%- link configuration/customers/promotions.md -%})
+    ![Customers configuration - automated email reminder rules]({% link images/images-ee/config-customers-promotions-automated-email-reminder-rules.png %}){: .zoom}
+    [_Automated Email Reminder Rules_]({% link configuration/customers/promotions.md %})
 
     - Set **Enable Reminder Emails** to `Yes`.
 
@@ -32,6 +32,6 @@ Email reminder rules can be sent at regular intervals by the minute, hour, or da
 
     - To avoid repeated attempts to send failed email, enter the maximum number of attempts in the **Email Send Failure Threshold** field.
 
-    - Set **Reminder Email Sender** to the [store contact]({{ site.baseurl }}{%- link stores/store-email-addresses.md -%}) that appears as the sender of the reminder email.
+    - Set **Reminder Email Sender** to the [store contact]({% link stores/store-email-addresses.md %}) that appears as the sender of the reminder email.
 
 1. When complete, click <span class="btn">Save Config</span>.

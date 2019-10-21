@@ -4,7 +4,7 @@ title: Standard Block Layout
 
 In the following diagram, the block names that can be used to refer to a block in the layout are black, and the block types, or block class paths, are blue.
 
-![]({{ site.baseurl }}{% link images/images/page-layout-default.png %}){: .zoom}
+![]({% link images/images/page-layout-default.png %}){: .zoom}
 _Standard Block Layout_
 
 |Block Type|Description|

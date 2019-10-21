@@ -4,9 +4,9 @@ title: Adding Stores
 
 A single installation of Magento can have multiple stores that share the same Admin. Stores that are under the same website have the same IP address and domain, use the same security certificate, and share a single checkout process.
 
-The important thing to understand is that the stores use the same Magento code, and share the same Admin. Each store can have a separate catalog, or share the same catalog. Each store can have a separate [root category]({{ site.baseurl }}{% link catalog/category-root.md %}), which makes it possible to have a different main menu for each store. Stores can have different branding, presentation, and content. Before you begin, take some time to plan your store hierarchy with future growth in mind, because it is used throughout the configuration.
+The important thing to understand is that the stores use the same Magento code, and share the same Admin. Each store can have a separate catalog, or share the same catalog. Each store can have a separate [root category]({% link catalog/category-root.md %}), which makes it possible to have a different main menu for each store. Stores can have different branding, presentation, and content. Before you begin, take some time to plan your store hierarchy with future growth in mind, because it is used throughout the configuration.
 
-![]({{ site.baseurl }}{% link images/images/scope-multistore.png %}){:width="550px"}
+![]({% link images/images/scope-multistore.png %}){:width="550px"}
 
 Here are some examples of how URLs can be configured for multiple stores:
 
@@ -38,14 +38,14 @@ The first step is to choose how you want to position the store. Will the stores 
 
     -  **Code**—Enter a code in lowercase characters to identify the store. For example: `mainstore`.
 
-    -  **Root Category**—Set to the [root category]({{ site.baseurl }}{% link catalog/category-root.md %}) that defines the category structure for the main menu of the new store. If you have already created a specific root category for the store, select it. Otherwise, select “Default Category.” You can come back later and update the setting.
+    -  **Root Category**—Set to the [root category]({% link catalog/category-root.md %}) that defines the category structure for the main menu of the new store. If you have already created a specific root category for the store, select it. Otherwise, select “Default Category.” You can come back later and update the setting.
 
-    ![]({{ site.baseurl }}{% link images/images/stores-all-store-information.png %}){: .zoom}
+    ![]({% link images/images/stores-all-store-information.png %}){: .zoom}
     _Store Information_
 
 1.  When complete, click **Save Store**.
 
-    ![]({{ site.baseurl }}{% link images/images/stores-all-create-store-saved.png %}){: .zoom}
+    ![]({% link images/images/stores-all-create-store-saved.png %}){: .zoom}
     _New Store_
 
 ## Step 3: Create a Default Store View
@@ -66,7 +66,7 @@ The first step is to choose how you want to position the store. Will the stores 
 
     If you were to open your store in edit mode, you would see that it now has a default view.
 
-    ![]({{ site.baseurl }}{% link images/images/stores-all-new-store-default-view.png %}){: .zoom}
+    ![]({% link images/images/stores-all-new-store-default-view.png %}){: .zoom}
     _New Store with Default View_
 
 ## Step 4: Configure the Store URL
@@ -77,20 +77,20 @@ The first step is to choose how you want to position the store. Will the stores 
 
 1.  In the panel on the left under _General_, choose **Web**.
 
-1.  In the upper-left corner, set **Store View** to the view that you created for the new store. When prompted to confirm [scope]({{ site.baseurl }}{% link configuration/scope.md %}) switching, click **OK**.
+1.  In the upper-left corner, set **Store View** to the view that you created for the new store. When prompted to confirm [scope]({% link configuration/scope.md %}) switching, click **OK**.
 
-    ![]({{ site.baseurl }}{% link images/images/stores-all-create-store-config-view.png %}){: .zoom}
+    ![]({% link images/images/stores-all-create-store-config-view.png %}){: .zoom}
     _Choose the New Store View_
 
-1.  Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Base URLs** section. Then, do the following:
+1.  Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Base URLs** section. Then, do the following:
 
     -  After the _Base URL_ field, clear the **Use Website** checkbox.
 
     -  **Base URL**—Enter the base URL for the store.
 
-    ![]({{ site.baseurl }}{% link images/images/config-general-web-base-urls-clear-checkbox.png %})
-    [Base URLs]({{ site.baseurl }}{% link configuration/general/web.md %})
+    ![]({% link images/images/config-general-web-base-urls-clear-checkbox.png %})
+    [Base URLs]({% link configuration/general/web.md %})
 
-1.  Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Secure Base URLs** section, and repeat the previous step as needed to configure the store’s [secure URL]({{ site.baseurl }}{% link stores/store-urls.md %}).
+1.  Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Secure Base URLs** section, and repeat the previous step as needed to configure the store’s [secure URL]({% link stores/store-urls.md %}).
 
 1.  When complete, click **Save Config**.

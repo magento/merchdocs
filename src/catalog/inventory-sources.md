@@ -14,7 +14,7 @@ You start with a Default Source you can update but not disable. This source is u
 
 The following diagram helps define the Sources for a Bicycle Shop merchant selling a mountain bike, available to stocks and accessible by the SSA for shipments.
 
-![Example sources diagram]({{ site.baseurl }}{% link images/images/inventory/inventory-diagram-sources.png %})<br/>
+![Example sources diagram]({% link images/images/inventory/inventory-diagram-sources.png %})<br/>
 _Example Sources for a Mountain Bike_
 
 All stores begin with a Default Source that must remain enabled:
@@ -35,11 +35,11 @@ The Manage Sources page lists all available inventory locations and fulfillment 
 
 1. On the _Admin_ sidebar,  go to **Stores** > _Inventory_ > **Sources**.
 
-1. To add a new inventory location, see [Adding a New Source]({{ site.baseurl }}{% link catalog/inventory-sources-add.md %}).
+1. To add a new inventory location, see [Adding a New Source]({% link catalog/inventory-sources-add.md %}).
 
 1. Find the inventory source and open in **Edit** mode. Then, update the information, and save the changes.
 
-   ![Manage Sources]({{ site.baseurl }}{% link images/images/stores-inventory-sources.png %}){: .zoom}
+   ![Manage Sources]({% link images/images/stores-inventory-sources.png %}){: .zoom}
    _Manage Sources_
 
 ### Button Bar
