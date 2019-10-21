@@ -5,7 +5,7 @@ title: Video
 
 Use the Video content type to add a video that is hosted on [YouTube][1] or [Vimeo][2] to the stage. It’s easy to embed video in a page or block, as well as in product and category descriptions.
 
-![]({{ site.baseurl }}{% link images/images-ee/page-builder-storefront-video.png %}){: .zoom}
+![]({% link images/images-ee/page-builder-storefront-video.png %}){: .zoom}
 _Video on Home Page_
 
 ## To add a video
@@ -16,12 +16,12 @@ _Video on Home Page_
 
 1. In the Page Builder panel under **Media**, drag a **Video** placeholder to the stage.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-video-drag.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-media-video-drag.png %}){: .zoom}
    _Drag Video Content Type to Stage_
 
-1. Hover over the video container. Then in the toolbox, choose **Settings** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}), and do the following:
+1. Hover over the video container. Then in the toolbox, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}), and do the following:
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-video-toolbox-settings.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-media-video-toolbox-settings.png %}){: .zoom}
    _Video Toolbox_
 
    - Paste the URL of the video that you copied into the  **Video URL** field.
@@ -38,9 +38,9 @@ _Video on Home Page_
 
 ## To change video settings
 
-1. Hover over the video container. Then, choose **Settings** ( ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox and do the following:
+1. Hover over the video container. Then, choose **Settings** ( ![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox and do the following:
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-video-toolbox.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-media-video-toolbox.png %}){: .zoom}
    _Video Toolbox_
 
    - To change the current video, update the **Video URL**.
@@ -53,19 +53,19 @@ _Video on Home Page_
 
 ## To move a video
 
-1. Hover over the video container. Then, choose **Move** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-move.png %}){: .Inline}) in the toolbox.
+1. Hover over the video container. Then, choose **Move** (![]({% link images/images-ee/icon-pb-move.png %}){: .Inline}) in the toolbox.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-video-toolbox-move-col1.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-media-video-toolbox-move-col1.png %}){: .zoom}
    _Move Video_
 
 1. Select and drag the video to the new position, just below the red guideline.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-media-video-toolbox-move-col2.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-media-video-toolbox-move-col2.png %}){: .zoom}
    _Red Guideline Above Target Destination_
 
 ## To remove a video from the stage
 
-1. Hover over the video container. Then, choose **Remove** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-remove.png %}){: .Inline}) in the toolbox.
+1. Hover over the video container. Then, choose **Remove** (![]({% link images/images-ee/icon-pb-remove.png %}){: .Inline}) in the toolbox.
 
 1. When prompted to confirm, click **OK**.
 

@@ -5,7 +5,7 @@ group: content
 
 Social networking sites have a numerous plugins that can easily be added to your store. In addition, there are many extensions on Magento Connect that can be used to integrate your store with social media. The following example shows how to add a Facebook “Like” button to your store.
 
-![]({{ site.baseurl }}{%- link images/images/facebook-plugins.png -%}){: .zoom}
+![]({% link images/images/facebook-plugins.png %}){: .zoom}
 *Facebook Plugins*
 
 ## Step 1. Get the Button Code
@@ -25,7 +25,7 @@ Social networking sites have a numerous plugins that can easily be added to your
 
 1. Tap <span class="btn">Get Code</span> to copy the generated code to the clipboard.
 
-    ![]({{ site.baseurl }}{%- link images/images/facebook-like-button-setup.png -%}){: .zoom}
+    ![]({% link images/images/facebook-like-button-setup.png %}){: .zoom}
     *Like Button Setup*
 
 ## Step 2. Create a Content Block
@@ -41,7 +41,7 @@ Social networking sites have a numerous plugins that can easily be added to your
     * If your Magento installation has multiple store views, choose each **Store View** where the block is to be available.
   
     <!--{% if "Default.EE-B2B" contains site.edition %}-->
-    * If using Page Builder, add an [HTML Code]({{ site.baseurl }}{% link cms/page-builder-elements-html-code.md %}) block to the stage, and paste the snippet of code that you copied from the Facebook site. Otherwise, paste the snippet of code into the **Content** box.
+    * If using Page Builder, add an [HTML Code]({% link cms/page-builder-elements-html-code.md %}) block to the stage, and paste the snippet of code that you copied from the Facebook site. Otherwise, paste the snippet of code into the **Content** box.
     <!--{% endif %}-->
     <!--{% if "Default.CE Only" contains site.edition %}-->
     * Paste the snippet of code that you copied from the Facebook site into the **Content** box.
@@ -54,7 +54,7 @@ Social networking sites have a numerous plugins that can easily be added to your
 ## Step 3. Place the Block
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-1. If using Page Builder, follow the instructions to [add the block]({{ site.baseurl }}{% link cms/page-builder-add-content-block.md %}) to the stage. Otherwise, on the Admin sidebar, tap **Content**. Then under **Elements**, choose **Widgets**.
+1. If using Page Builder, follow the instructions to [add the block]({% link cms/page-builder-add-content-block.md %}) to the stage. Otherwise, on the Admin sidebar, tap **Content**. Then under **Elements**, choose **Widgets**.
 <!--{% endif %}-->
 <!--{% if "Default.CE Only" contains site.edition %}-->
 1. On the Admin sidebar, tap **Content**. Then under **Elements**, choose **Widgets**. <!--{% endif %}-->

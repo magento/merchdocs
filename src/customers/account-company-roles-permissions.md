@@ -3,9 +3,9 @@ conditions: Default.B2B Only
 title: Company Roles and Permissions
 ---
 
-Roles for company users set up with various levels of permission to access sales information and resources. By default, the company admin is a super user with full permissions. The [Access Denied]({{ site.baseurl }}{% link cms/pages-core.md %}) page appears if the user doesn’t have permission to access the page.
+Roles for company users set up with various levels of permission to access sales information and resources. By default, the company admin is a super user with full permissions. The [Access Denied]({% link cms/pages-core.md %}) page appears if the user doesn’t have permission to access the page.
 
-![]({{ site.baseurl }}{% link images/images-b2b/customer-company-roles-permissions.png %}){: .zoom}
+![]({% link images/images-b2b/customer-company-roles-permissions.png %}){: .zoom}
 _Roles and Permissions Page with Default Role_
 
 The system has one predefined Default User role, which you can use “as is" or modify to suit your needs. You can create as many roles as necessary to match your company structure.
@@ -26,7 +26,7 @@ The system has one predefined Default User role, which you can use “as is" or 
 
 1. Click <span class="btn">Add New Role</span>. 
 
-   ![]({{ site.baseurl }}{% link images/images-b2b/customer-company-roles-permissions-add.png %}){: .zoom}
+   ![]({% link images/images-b2b/customer-company-roles-permissions-add.png %}){: .zoom}
    _Add New Role_
 
 1. Enter a descriptive **Role Name**.
@@ -41,7 +41,7 @@ The system has one predefined Default User role, which you can use “as is" or 
 
 1. Repeat these steps to create as many roles as necessary.
 
-   ![]({{ site.baseurl }}{% link images/images-b2b/customer-account-company-roles-permissions.png %}){: .zoom}
+   ![]({% link images/images-b2b/customer-account-company-roles-permissions.png %}){: .zoom}
    _Roles and Permissions_
 
 ### Modify a role

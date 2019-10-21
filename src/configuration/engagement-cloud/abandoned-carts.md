@@ -2,47 +2,54 @@
 title: Abandoned Carts
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > [Engagement Cloud]({{ site.baseurl }}{% link configuration/engagement-cloud.md %}) > Abandoned Carts
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Abandoned Carts
 
-{: .bs-callout .bs-callout-info}
-The field definitions in on this page are not yet complete.
+## Abandoned Cart Program
 
-## Customers
+![]({% link images/images/config-engagement-cloud-abandoned-carts-abandoned-cart-program.png %}){: .zoom}
+_Abandoned Cart Program_
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-abandoned-carts-customers.png %}){: .zoom}
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enrol abandoned cart to|Store View|Determines the [CartInsight](https://support.dotdigital.com/hc/en-gb/articles/360000456890-Getting-started) program that is triggered when a cart is abandoned. This option is disabled until an active abandoned cart program is available in your Engagement Cloud account.  Options: (Available programs)|
+|Enrol abandoned cart after|Store view|Determines the length of delay before an abandoned cart is enrolled in the program. Options: 15 minutes / 30 minutes / 1 hour / 6 hours / 12 Hours
+
+## Customers Email series
+
+![]({% link images/images/config-engagement-cloud-abandoned-carts-customers.png %}){: .zoom}
 _Customers_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |**Abandoned Cart 1**|||
-|Enabled/Disabled|Store View|Options: Enable / Disable|
-|Send After (min)|Store View|Options: 15 Minutes, 20 Minutes, 25 Minutes, 30 Minutes, 40 Minutes, 50 Minutes, 60 Minutes|
-|Campaign to Send|Store View|Options: (List of Campaigns)|
+|Enabled/Disabled|Store View|Activates the first in your series of abandoned cart campaigns that is sent to customers when a cart is abandoned. Options: Enable / Disable|
+|Send After (min)|Store View|Specifies the length of delay after a cart is abandoned before the first message is sent. Options: 15 Minutes / 20 Minutes / 25 Minutes / 30 Minutes / 40 Minutes / 50 Minutes / 60 Minutes|
+|Campaign to Send|Store View|Identifies the first campaign that is sent to the abandoned cart owner. Options: (Available campaigns)|
 |**Abandoned Cart 2**|||
-|Enabled/Disabled|Store View|Options: Enable / Disable|
-|Send After (min)|Store View|Options: 15 Minutes, 20 Minutes, 25 Minutes, 30 Minutes, 40 Minutes, 50 Minutes, 60 Minutes|
-|Campaign to Send|Store View|Options: (List of Campaigns)|
+|Enabled/Disabled|Store View|Activates the second in your series of abandoned cart campaigns that is sent to customers when a cart is abandoned. Options: Enable / Disable|
+|Send After (min)|Store View|Specifies the length of delay after a cart is abandoned before the second message is sent. Options: 15 Minutes / 20 Minutes / 25 Minutes / 30 Minutes / 40 Minutes / 50 Minutes / 60 Minutes|
+|Campaign to Send|Store View|Identifies the second campaign that is sent to the abandoned cart owner. Options: (Available campaigns)|
 |**Abandoned Cart 3**|||
-|Enabled/Disabled|Store View|Options: Enable / Disable|
-|Send After (min)|Store View|Options: 15 Minutes, 20 Minutes, 25 Minutes, 30 Minutes, 40 Minutes, 50 Minutes, 60 Minutes|
-|Campaign to Send|Store View|Options: (List of Campaigns)|
+|Enabled/Disabled|Store View|Activates the third in your series of abandoned cart campaigns that is sent to customers after a cart is abandoned. Options: Enable / Disable|
+|Send After (min)|Store View|Specifies the length of delay after a cart is abandoned before the third message is sent. Options: 15 Minutes / 20 Minutes / 25 Minutes / 30 Minutes / 40 Minutes / 50 Minutes / 60 Minutes|
+|Campaign to Send|Store View|Identifies the third campaign that is sent to the abandoned cart owner.  Options: (Available campaigns)|
 
 ## Guests
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-abandoned-carts-guests.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-abandoned-carts-guests.png %}){: .zoom}
 _Guests_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |**Abandoned Cart 1**|||
-|Enabled/Disabled|Store View|Options: Enable / Disable|
-|Send After (min)|Store View|Options: 15 Minutes, 20 Minutes, 25 Minutes, 30 Minutes, 40 Minutes, 50 Minutes, 60 Minutes|
-|Campaign to Send|Store View|Options: (List of Campaigns)|
+|Enabled/Disabled|Store View|Activates the first in your series of abandoned cart campaigns that is sent to guests when a cart is abandoned. Options: Enable / Disable|
+|Send After (min)|Store View|Specifies the length of delay after a cart is abandoned before the first message is sent. Options: 15 Minutes / 20 Minutes / 25 Minutes / 30 Minutes / 40 Minutes / 50 Minutes / 60 Minutes|
+|Campaign to Send|Store View|Identifies the first campaign that is sent to the abandoned cart owner. Options: (Available campaigns)|
 |**Abandoned Cart 2**|||
-|Enabled/Disabled|Store View|Options: Enable / Disable|
-|Send After (min)|Store View|Options: 15 Minutes, 20 Minutes, 25 Minutes, 30 Minutes, 40 Minutes, 50 Minutes, 60 Minutes|
-|Campaign to Send|Store View|Options: (List of Campaigns)|
+|Enabled/Disabled|Store View|Activates the second in your series of abandoned cart campaigns that is sent to guests when a cart is abandoned. Options: Enable / Disable|
+|Send After (min)|Store View|Specifies the length of delay after a cart is abandoned before the second message is sent. Options: 15 Minutes / 20 Minutes / 25 Minutes / 30 Minutes / 40 Minutes / 50 Minutes / 60 Minutes|
+|Campaign to Send|Store View|Identifies the second campaign that is sent to the abandoned cart owner. Options: (Available campaigns)|
 |**Abandoned Cart 3**|||
-|Enabled/Disabled|Store View|Options: Enable / Disable|
-|Send After (min)|Store View|Options: 15 Minutes, 20 Minutes, 25 Minutes, 30 Minutes, 40 Minutes, 50 Minutes, 60 Minutes|
-|Campaign to Send|Store View|Options: (List of Campaigns)|
+|Enabled/Disabled|Store View|Activates the third in your series of abandoned cart campaigns that is sent to guests after a cart is abandoned. Options: Enable / Disable|
+|Send After (min)|Store View|Specifies the length of delay after a cart is abandoned before the third message is sent. Options: 15 Minutes / 20 Minutes / 25 Minutes / 30 Minutes / 40 Minutes / 50 Minutes / 60 Minutes|
+|Campaign to Send|Store View|Identifies the third campaign that is sent to the abandoned cart owner.  Options: (Available campaigns)|

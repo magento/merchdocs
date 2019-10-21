@@ -5,7 +5,7 @@ title: RMA Customer Experience
 
 Customers can use either of the following to request an RMA from the storefront:
 
-- [Orders and Returns Widget]({{ site.baseurl }}{% link cms/widget-orders-returns.md %}) in sidebar
+- [Orders and Returns Widget]({% link cms/widget-orders-returns.md %}) in sidebar
 - Orders and Returns link in footer
 
 As a best practice, make sure ro include a description of your RMA requirements and process in the store’s policy.
@@ -22,12 +22,12 @@ As a best practice, make sure ro include a description of your RMA requirements 
 
 1. Click **Continue**.
 
-    ![]({{ site.baseurl }}{% link images/images/storefront-orders-and-returns.png %}){: .zoom}
+    ![]({% link images/images/storefront-orders-and-returns.png %}){: .zoom}
     _Orders and Returns_
 
 1. Below the date, click **Return**.
 
-    ![]({{ site.baseurl }}{% link images/images/storefront-orders-and-returns-order-information.png %}){: .zoom}
+    ![]({% link images/images/storefront-orders-and-returns-order-information.png %}){: .zoom}
     _Order Detail_
 
 1. Choose the **Item** to return.
@@ -37,8 +37,8 @@ As a best practice, make sure ro include a description of your RMA requirements 
 1. Set **Resolution** to one of the following:
 
    - Exchange
-   - [Refund]({{ site.baseurl }}{% link sales/refunds-customer-account.md %})
-   - [Store Credit]({{ site.baseurl }}{% link sales/store-credit.md %})
+   - [Refund]({% link sales/refunds-customer-account.md %})
+   - [Store Credit]({% link sales/store-credit.md %})
 
 1. Set **Item Condition** to one of the following:
 
@@ -53,5 +53,5 @@ As a best practice, make sure ro include a description of your RMA requirements 
     - Out of Service
     - Other
 
-    ![]({{ site.baseurl }}{% link images/images/storefront-orders-and-returns-create-new-return.png %}){: .zoom}
+    ![]({% link images/images/storefront-orders-and-returns-create-new-return.png %}){: .zoom}
     _Create New Return_

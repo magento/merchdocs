@@ -5,17 +5,17 @@ group: marketing
 
 The Pagination settings appear at the top and bottom of the list, and control the format of the pagination links for product listings. You can set the number of links that appear in the control, and configure the Next and Previous links. For the pagination links to appear, there must be more products in the list than are allowed per page in the product list configuration.
 
-![]({{ site.baseurl }}{% link images/images/storefront-pagination-controls.png %}){: .zoom}
+![]({% link images/images/storefront-pagination-controls.png %}){: .zoom}
 *Pagination Controls*
 
 ### Pagination Controls
 
 |||
 |--- |--- |
-|![]({{ site.baseurl }}{% link images/images/controls-pagination-list-grid.png %})|View As - Displays the list in either a Grid or List format.|
-|![]({{ site.baseurl }}{% link images/images/control-pagination-sort-by.png %})|Sort By - Changes the sort order of the list. The “Used for Sorting in Product Listing” storefront property determines which [product attributes]({{ site.baseurl }}{% link stores/attributes-product.md %}) can be used to sort the list.|
-|![]({{ site.baseurl }}{% link images/images/control-pagination-show-per-page.png %})|Show Per Page - Determines how many products appear per page.|
-|![]({{ site.baseurl }}{% link images/images/control-pagination.png %})|Pagination Links - Navigation links to other pages.|
+|![]({% link images/images/controls-pagination-list-grid.png %})|View As - Displays the list in either a Grid or List format.|
+|![]({% link images/images/control-pagination-sort-by.png %})|Sort By - Changes the sort order of the list. The “Used for Sorting in Product Listing” storefront property determines which [product attributes]({% link stores/attributes-product.md %}) can be used to sort the list.|
+|![]({% link images/images/control-pagination-show-per-page.png %})|Show Per Page - Determines how many products appear per page.|
+|![]({% link images/images/control-pagination.png %})|Pagination Links - Navigation links to other pages.|
 {:style="table-layout:auto"}
 
 ## To configure the pagination controls
@@ -24,10 +24,10 @@ The Pagination settings appear at the top and bottom of the list, and control th
 
 1. Find the store view that you want to configure. Then in the **Action** column, click **Edit**.
 
-1. Under **Other Settings**, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Pagination** section.
+1. Under **Other Settings**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Pagination** section.
 
-   ![]({{ site.baseurl }}{% link images/images/config-design-pagination.png %}){: .zoom}
-   [*Pagination*]({{ site.baseurl }}{% link design/configuration.md %})
+   ![]({% link images/images/config-design-pagination.png %}){: .zoom}
+   [*Pagination*]({% link design/configuration.md %})
 
    * In the **Pagination Frame** field, enter the number of links that you want to appear in the pagination control.
 

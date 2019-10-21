@@ -12,4 +12,4 @@ To use the persistent shopping cart, the customer’s browser must be set to all
 
 - **Persistent Cookie** – A long-term persistent cookie continues in existence after the end of the session, and saves a record of the customers’ shopping contents for future reference.
 
-When using a persistent cart, we recommend that you set the lifetime of the server session and the session cookie to a long period of time. See [Session Lifetime]({{ site.baseurl }}{% link customers/customer-online-options.md %}).
+When using a persistent cart, we recommend that you set the lifetime of the server session and the session cookie to a long period of time. See [Session Lifetime]({% link customers/customer-online-options.md %}).

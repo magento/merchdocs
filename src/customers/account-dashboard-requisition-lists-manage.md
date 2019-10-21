@@ -5,7 +5,7 @@ title: Managing Requisition Lists
 
 The primary reason to maintain a requisition list is to make it easy to reorder products. Items from a requisition list can be easily added to the shopping cart, moved, or copied from one list to another.
 
-![]({{ site.baseurl }}{% link images/images-b2b/customer-account-my-requisition-lists.png %}){: .zoom}
+![]({% link images/images-b2b/customer-account-my-requisition-lists.png %}){: .zoom}
 _My Requisition Lists_
 
 ## To view a requisition list:
@@ -25,13 +25,13 @@ _My Requisition Lists_
 
 1. To change any product options, do the following:
 
-   - In the line item, click **Edit** (![]({{ site.baseurl }}{% link images/images/btn-edit.png %}){: .Inline}).
+   - In the line item, click **Edit** (![]({% link images/images/btn-edit.png %}){: .Inline}).
    - Change any options that are necessary.
    - Click **Update Requisition List**.
 
 1. Click <span class="btn">Add to Cart</span>.
 
-   ![]({{ site.baseurl }}{% link images/images-b2b/requisition-list-view.png %}){: .zoom}
+   ![]({% link images/images-b2b/requisition-list-view.png %}){: .zoom}
    _Requisition List Detail_
 
 ### Move Items to a Different List
@@ -68,7 +68,7 @@ _My Requisition Lists_
 
 1. Click <span class="btn">Save</span>.
 
-   ![]({{ site.baseurl }}{% link images/images-b2b/customer-company-requisition-list-rename.png %}){: .zoom}
+   ![]({% link images/images-b2b/customer-company-requisition-list-rename.png %}){: .zoom}
    _Rename Requisition List_
 
 ### Print the List
@@ -77,7 +77,7 @@ _My Requisition Lists_
 
 1. Verify the output device, and click <span class="btn">Print</span>.
 
-   ![]({{ site.baseurl }}{% link images/images-b2b/requisition-list-print.png %}){: .zoom}
+   ![]({% link images/images-b2b/requisition-list-print.png %}){: .zoom}
    _Print Requisition List_
 
 ## Actions

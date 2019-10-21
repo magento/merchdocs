@@ -14,6 +14,6 @@ sections:
     url: /marketing/google-adwords.html
 ---
 
-Your store configuration is integrated with the following Google tools to help optimize your content, analyze your traffic, and connect your catalog to shopping aggregators and marketplaces. <!--{%- if "Default.EE-B2B" contains site.edition -%}--> Magento Commerce users can also leverage [Google Tag Manager]({{ site.baseurl }}{%- link marketing/google-tag-manager.md -%}) to manage the many tags related to marketing campaign events.<!--{%- endif -%}-->
+Your store configuration is integrated with the following Google tools to help optimize your content, analyze your traffic, and connect your catalog to shopping aggregators and marketplaces. <!--{%- if "Default.EE-B2B" contains site.edition -%}--> Magento Commerce users can also leverage [Google Tag Manager]({% link marketing/google-tag-manager.md -%}) to manage the many tags related to marketing campaign events.<!--{%- endif -%}-->
 
 {% include grid.html sections=page.sections%}

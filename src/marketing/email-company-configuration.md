@@ -3,7 +3,7 @@ conditions: Default.B2B Only
 title: Configuring Company Email
 ---
 
-The [sales representative]({{ site.baseurl }}{%- link customers/account-company-sales-representative.md -%}) that is assigned as the primary contact for a company is configured by default as the sender of many automated email messages sent to the company.
+The [sales representative]({% link customers/account-company-sales-representative.md -%}) that is assigned as the primary contact for a company is configured by default as the sender of many automated email messages sent to the company.
 
 ## Configure company email options
 
@@ -11,7 +11,7 @@ The [sales representative]({{ site.baseurl }}{%- link customers/account-company-
 
 1. In the panel on the left, under **Customers**, choose **Company Configuration**.
 
-1. If necessary, set **Store View** to the store view to define the [scope]({{ site.baseurl }}{%- link configuration/scope.md -%}) of the configuration.
+1. If necessary, set **Store View** to the store view to define the [scope]({% link configuration/scope.md -%}) of the configuration.
 
 1. Complete the fields in the following sections.
 
@@ -19,7 +19,7 @@ The [sales representative]({{ site.baseurl }}{%- link customers/account-company-
 
     **Company Registration**
 
-    * Set **Company Registration Email Recipient** to the [store contact]({{ site.baseurl }}{%- link stores/store-email-addresses.md -%}) who is to be notified when a new company registration request is received.
+    * Set **Company Registration Email Recipient** to the [store contact]({% link stores/store-email-addresses.md -%}) who is to be notified when a new company registration request is received.
 
     * In the **Send Company Registration Email Copy To** field, enter the email address of each person who is to receive a copy of the registration notification. Separate multiple email addresses with a comma.
 
@@ -31,8 +31,8 @@ The [sales representative]({{ site.baseurl }}{%- link customers/account-company-
 
     * If you have prepared an email template that is to be used instead of the default, set **Default Company Registration Email** to the name of the template. By default, the “Company Registration Request” template is used.
 
-        ![]({{ site.baseurl }}{%- link images/images-b2b/config-customers-company-configuration-email-options-company-registration1.png -%}){: .zoom} 
-        [*Email Options - Company Registration*]({{ site.baseurl }}{%- link configuration/customers/company-configuration.md -%})
+        ![]({% link images/images-b2b/config-customers-company-configuration-email-options-company-registration1.png %}){: .zoom} 
+        [*Email Options - Company Registration*]({% link configuration/customers/company-configuration.md -%})
 
     **Customer-Related Emails**
 
@@ -46,12 +46,12 @@ The [sales representative]({{ site.baseurl }}{%- link customers/account-company-
         * Default ‘Customer Status Active’ Email
         * Default ‘Customer Status Inactive’ Email
 
-        ![]({{ site.baseurl }}{%- link images/images-b2b/config-customers-company-configuration-email-options-customer-related-emails.png -%}){: .zoom}
-        [*Customer-Related Emails*]({{ site.baseurl }}{%- link configuration/customers/company-configuration.md -%})
+        ![]({% link images/images-b2b/config-customers-company-configuration-email-options-customer-related-emails.png %}){: .zoom}
+        [*Customer-Related Emails*]({% link configuration/customers/company-configuration.md -%})
 
     **Company Status Change**
 
-    * Set **Company Status Change for Email Recipient** to the [store contact]({{ site.baseurl }}{%- link stores/store-email-addresses.md -%}) who is to be notified when the status of a company changes.
+    * Set **Company Status Change for Email Recipient** to the [store contact]({% link stores/store-email-addresses.md -%}) who is to be notified when the status of a company changes.
 
     * In the **Send Company Status Change Email Copy To** field, enter the email address of each person who is to receive a copy of the status change notification. Separate multiple email addresses with a comma.
 
@@ -74,12 +74,12 @@ The [sales representative]({{ site.baseurl }}{%- link customers/account-company-
 
     * If you have prepared an email template that is to be used instead of the default when company status changes to “Pending Approval,” set **Default ‘Company Status Change to Pending Approval’ Email** to the name of the template. By default, the “Company Status Pending Approval” template is used.
 
-        ![]({{ site.baseurl }}{%- link images/images-b2b/config-customers-company-configuration-email-options-company-status-change.png -%}){: .zoom}
-        [*Company Status Change*]({{ site.baseurl }}{%- link configuration/customers/company-configuration.md -%})
+        ![]({% link images/images-b2b/config-customers-company-configuration-email-options-company-status-change.png %}){: .zoom}
+        [*Company Status Change*]({% link configuration/customers/company-configuration.md -%})
 
     **Company Credit Emails**
 
-    * Set **Company Credit Change Email Sender** to the [store contact]({{ site.baseurl }}{%- link stores/store-email-addresses.md -%}) who is to be notified when a change is made to the credit limit that is assigned to a company. By default, the notification is sent to “Sales Representative”.
+    * Set **Company Credit Change Email Sender** to the [store contact]({% link stores/store-email-addresses.md -%}) who is to be notified when a change is made to the credit limit that is assigned to a company. By default, the notification is sent to “Sales Representative”.
 
     * In the **Send Company Credit Change Email Copy To** field, enter the email address of each person who is to receive a copy of the credit change notification. Separate multiple email addresses with a comma.
 
@@ -97,7 +97,7 @@ The [sales representative]({{ site.baseurl }}{%- link customers/account-company-
         * Refunded Email Template
         * Reverted Email Template
 
-    ![]({{ site.baseurl }}{%- link images/images-b2b/config-customers-company-configuration-email-options-company-credit.png -%}){: .zoom}
-    [*Company Credit*]({{ site.baseurl }}{%- link configuration/customers/company-configuration.md -%})
+    ![]({% link images/images-b2b/config-customers-company-configuration-email-options-company-credit.png %}){: .zoom}
+    [*Company Credit*]({% link configuration/customers/company-configuration.md -%})
 
 1. When complete, tap <span class="btn">Save Config</span>.

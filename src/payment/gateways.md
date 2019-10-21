@@ -7,16 +7,16 @@ We are in the process of moving many popular payment integrations to Magento Mar
 
 Magento supports numerous payment solutions that offer merchant services in all parts of the world. Unlike some payment solutions that transfer control to another site to complete the transaction, a payment gateway makes it possible for you to accept credit card payments directly from your store without the customer leaving your site.
 
-- [Klarna]({{ site.baseurl }}{% link payment/klarna.md %})
-- [Amazon Pay]({{ site.baseurl }}{% link configuration/sales/amazon-pay.md %})
-- [Authorize.Net Direct Post (Deprecated)]({{ site.baseurl }}{% link payment/authorize-net-direct-post.md %})
-- [Authorize.Net]({{ site.baseurl }}{% link payment/authorize-net.md %})
+- [Klarna]({% link payment/klarna.md %})
+- [Amazon Pay]({% link configuration/sales/amazon-pay.md %})
+- [Authorize.Net Direct Post (Deprecated)]({% link payment/authorize-net-direct-post.md %})
+- [Authorize.Net]({% link payment/authorize-net.md %})
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-- [CyberSource]({{ site.baseurl }}{% link payment/cybersource.md %})
+- [CyberSource (Deprecated)]({% link payment/cybersource.md %})
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-- [eWAY]({{ site.baseurl }}{% link payment/eway.md %})
+- [eWAY (Deprecated)]({% link payment/eway.md %})
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-- [Worldpay]({{ site.baseurl }}{% link payment/worldpay.md %})
+- [Worldpay]({% link payment/worldpay.md %})
 <!--{% endif %}-->

@@ -8,11 +8,11 @@ The Price Adjustment section is differs slightly for Standard and Intelligent re
 
 Sections of an intelligent repricing rule include:
 
-- [Select Rule Type]({{ site.baseurl }}{% link sales-channels/amazon/intelligent-repricing-rules.md %})
-- [Competitor Conditional Variances]({{ site.baseurl }}{% link sales-channels/amazon/competitor-conditional-variances.md %})
+- [Select Rule Type]({% link sales-channels/amazon/intelligent-repricing-rules.md %})
+- [Competitor Conditional Variances]({% link sales-channels/amazon/competitor-conditional-variances.md %})
 - **Price Adjustment**
-- [Floor Price]({{ site.baseurl }}{% link sales-channels/amazon/floor-price.md %})
-- [Optional Ceiling Price]({{ site.baseurl }}{% link sales-channels/amazon/optional-ceiling-price.md %})
+- [Floor Price]({% link sales-channels/amazon/floor-price.md %})
+- [Optional Ceiling Price]({% link sales-channels/amazon/optional-ceiling-price.md %})
 
 The price adjustment determines what you do once you have identified the competitor price source.
 
@@ -20,7 +20,7 @@ The price adjustment determines what you do once you have identified the competi
 
 {% include amazon-pricing-rules-price-adjustment-configure.md %}
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-price-adjustment.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-price-adjustment.png %}){: .zoom}
 _Intelligent Repricing Rule: Price Adjustment_
 
 |Field|Description|

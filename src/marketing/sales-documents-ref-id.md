@@ -4,19 +4,19 @@ title: Adding Reference IDs to Header
 
 The Order ID and customer IP address can be included in the header of sales documents that accompany an order. By default, both the Order ID and customer IP address appear in the header of invoices, shipment packing slips, and credit memos.
 
-![]({{ site.baseurl }}{%- link images/images/config-sales-pdf-print-outs.png -%}){: .zoom}
- [*PDF Print-outs*]({{ site.baseurl }}{%- link configuration/sales/pdf-print-outs.md -%})
+![]({% link images/images/config-sales-pdf-print-outs.png %}){: .zoom}
+ [*PDF Print-outs*]({% link configuration/sales/pdf-print-outs.md -%})
 
-## To change the Order ID settting
+## To change the Order ID setting
 
 On the Admin sidebar, tap **Stores**. Then under **Settings**, choose **Configuration**.
 
 In the panel on the left under **Sales**, choose **PDF Print-outs**.
 
-Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Invoice** section.
+Expand ![]({% link images/images/btn-expand.png %}) the **Invoice** section.
 
-![]({{ site.baseurl }}{%- link images/images/config-sales-pdf-print-outs-invoce.png -%}){: .zoom}
- [*Invoice*]({{ site.baseurl }}{%- link configuration/sales/pdf-print-outs.md -%})
+![]({% link images/images/config-sales-pdf-print-outs-invoce.png %}){: .zoom}
+ [*Invoice*]({% link configuration/sales/pdf-print-outs.md -%})
 
 Set **Display Order ID in Header** according to your preference.
 
@@ -30,10 +30,10 @@ On the Admin sidebar, tap **Stores**. Then under **Settings**, choose **Configur
 
 In the panel on the left under **Sales**, choose **Sales**.
 
-Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **General** section.
+Expand ![]({% link images/images/btn-expand.png %}) the **General** section.
 
-![]({{ site.baseurl }}{%- link images/images/config-sales-sales-general.png -%}){: .zoom}
- [*General*]({{ site.baseurl }}{%- link configuration/sales/sales.md -%})
+![]({% link images/images/config-sales-sales-general.png %}){: .zoom}
+ [*General*]({% link configuration/sales/sales.md -%})
 
 Set **Hide Customer IP** to your preference.
 

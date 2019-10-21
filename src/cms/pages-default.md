@@ -2,7 +2,7 @@
 title: Default Pages
 ---
 
-The Default Pages configuration determines the landing page that is associated with the [base URL]({{ site.baseurl }}{% link stores/store-urls.md %}), and the corresponding home page. It also determines which page appears when a “Page Not Found” error occurs, and if a [breadcrumb trail]({{ site.baseurl }}{% link catalog/navigation-breadcrumb-trail.md %}) appears at the top of each page.
+The Default Pages configuration determines the landing page that is associated with the [base URL]({% link stores/store-urls.md %}), and the corresponding home page. It also determines which page appears when a “Page Not Found” error occurs, and if a [breadcrumb trail]({% link catalog/navigation-breadcrumb-trail.md %}) appears at the top of each page.
 
 ## To configure the default pages
 
@@ -10,10 +10,10 @@ The Default Pages configuration determines the landing page that is associated w
 
 1. In the panel on the left under **General**, choose **Web**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Default Pages** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Default Pages** section. Then, do the following:
 
-    ![]({{ site.baseurl }}{% link images/images/config-general-web-default-pages.png %}){: .zoom}
-    [_Default Pages_]({{ site.baseurl }}{% link configuration/general/web.md %})
+    ![]({% link images/images/config-general-web-default-pages.png %}){: .zoom}
+    [_Default Pages_]({% link configuration/general/web.md %})
 
    - In the **Default Web URL** field, enter the relative path to the folder in the Magento installation that contains the landing page.
 

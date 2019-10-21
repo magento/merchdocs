@@ -11,10 +11,10 @@ The invitation configuration enables invitations for the store, and determines h
 
 1. In the panel on the left, under **Customers**, choose **Invitations**.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **General** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **General** section. Then, do the following:
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/config-customers-invitations-general.png -%}){: .zoom}
-    [*General*]({{ site.baseurl }}{%- link configuration/customers/invitations.md -%})
+    ![]({% link images/images-ee/config-customers-invitations-general.png %}){: .zoom}
+    [*General*]({% link configuration/customers/invitations.md -%})
 
     * Set **Enable Invitations Functionality** to “Yes".
 
@@ -34,10 +34,10 @@ The invitation configuration enables invitations for the store, and determines h
 
     * To limit the number of invitations that can be sent at one time, enter the number in the **Max Invitations Allowed to be Sent at One Time** field.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Email** section, and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Email** section, and do the following:
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/config-customers-invitations-email.png -%}){: .zoom}
-    [*Email*]({{ site.baseurl }}{%- link configuration/customers/invitations.md -%})
+    ![]({% link images/images-ee/config-customers-invitations-email.png %}){: .zoom}
+    [*Email*]({% link configuration/customers/invitations.md -%})
 
     * Select the store identity to be used as the **Customer Invitation Email Sender**.
 

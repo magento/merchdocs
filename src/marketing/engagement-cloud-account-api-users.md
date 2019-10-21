@@ -10,11 +10,11 @@ Only the account owner or another user with the “Can manage account” permiss
 
 ## To add an API user
 
-1. Tap the **Settings** ( ![]({{ site.baseurl }}{% link images/images/icon-settings-engagement-cloud.png %})) icon at the bottom of the sidebar. Then on the menu, choose **Access**.
+1. Tap the **Settings** ( ![]({% link images/images/icon-settings-engagement-cloud.png %})) icon at the bottom of the sidebar. Then on the menu, choose **Access**.
 
 1. On the Access page, choose the **API users** tab.
 
-    ![]({{ site.baseurl }}{% link images/images/engagement-cloud-access-api-users.png %}){: .zoom}
+    ![]({% link images/images/engagement-cloud-access-api-users.png %}){: .zoom}
     *API Users*
 
 1. Tap <span class="btn">New user</span>. Then, do the following:
@@ -31,12 +31,12 @@ Only the account owner or another user with the “Can manage account” permiss
 
 1. When complete, tap <span class="btn">Save</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/engagement-cloud-access-api-users-add.png %}){: .zoom}
+    ![]({% link images/images/engagement-cloud-access-api-users-add.png %}){: .zoom}
     *Manage Users*
 
 The new API user is added to the Access list.
 
-![]({{ site.baseurl }}{% link images/images/engagement-cloud-access-api-users-list.png %}){: .zoom}
+![]({% link images/images/engagement-cloud-access-api-users-list.png %}){: .zoom}
 *API Users List*
 
 [1]: https://developer.dotdigital.com/docs/getting-started-with-the-api

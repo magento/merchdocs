@@ -2,95 +2,94 @@
 title: Developer
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > [Engagement Cloud]({{ site.baseurl }}{% link configuration/engagement-cloud.md %}) > Developer
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Developer
 
 ## Import Settings
 
-![]({{ site.baseurl }}{% link images/images/dotdigital-dash-import.png %}){: .zoom}
+![]({% link images/images/dotdigital-dash-import.png %}){: .zoom}
 _Import Settings_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Contact Sync Size|Website|This sets the batch size limit you require for the amount of contacts loaded for every sync.|
-|Transactional Data Sync Size|Website|This sets the batch size limit you require for the amount of transactions loaded for every sync.|
-|Enable Subscribers Sales Data Sync|Website|Indicates if subscriber sales data will be synced. his option is disabled by default due to the increased server load and sync times.|
+|Contact Sync Size|Website|Sets the batch size limit for the amount of contacts that can be loaded for every data synchronization.|
+|Transactional Data Sync Size|Website|Sets the batch size limit for the amount of transactions that can be loaded for every data synchronization.|
+|Enable Subscribers Sales Data Sync|Website|Indicates if subscriber sales data is  synchronized. This option is disabled by default due to the increased server load and synchronization times.|
 
 ## Sync Settings
 
-![Engagement Cloud Admin Tasks]({{ site.baseurl }}{% link images/images/dotdigital-dash-admin.png %}){: .zoom}
-_Engagement Cloud Admin Tasks_
+![Engagement Cloud Admin Tasks]({% link images/images/dotdigital-dash-admin.png %}){: .zoom}
+_Admin Tasks_
 
-![Manually Run Syncs]({{ site.baseurl }}{% link images/images/dotdigital-dash-admin.png %}){: .zoom}
+![Manually Run Syncs]({% link images/images/config-engagement-cloud-sync-settings-manually-run-sync.png %}){: .zoom}
 _Manually Run Syncs_
 
-![Reset Syncs]({{ site.baseurl }}{% link images/images/dotdigital-dash-resetsync.png %}){: .zoom}
+![Reset Syncs]({% link images/images/dotdigital-dash-resetsync.png %}){: .zoom}
 _Reset Syncs_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |**Admin Task**|||
-|Automap Data Fields|Website|Indicates if the system automatically (not manually) detects, creates, and maps data fields from Magento into Engagement Cloud|
-|Delete All Contact IDs|Website|Deletes all existing contact IDs. You may use this option when connecting and using different Engagement Cloud account.|
-|**Manually run Sync**|||
-|Contact Sync|Website|Manually run a data sync, outside of an automated cron sync job.|
-|Subscriber Sync|Website|Manually run a data sync, outside of an automated cron sync job.|
-|Order Sync|Website|Manually run a data sync, outside of an automated cron sync job.|
-|Wishlist Sync|Website|Manually run a data sync, outside of an automated cron sync job.|
-|Review Sync|Website|Manually run a data sync, outside of an automated cron sync job.|
-|Catalog Sync|Website|Manually run a data sync, outside of an automated cron sync job.|
-|Importer Sync|Website|Manually run a data sync, outside of an automated cron sync job.|
-|Template Sync|Website|Manually run a data sync, outside of an automated cron sync job.|
+|Automap Data Fields|Website|Automatically maps Magento customer, address, and sales data fields to the Engagement Cloud contact database.<br/><span class="btn">Run Now</span> Syncs data fields.|
+|Delete All Contact IDs|Website|Deletes all existing contact IDs. You can use this option if you want to connect to a different Engagement Cloud account.<br/><span class="btn">Run Now</span> Deletes all Contact IDs.|
+|**Manually Run Sync**|||
+|Contact Sync|Website|Manually synchronizes contact data, instead of using an automated cron job.<br/><span class="btn">Run Now</span> Manually syncs contact data.|
+|Subscriber Sync|Website|Manually synchronizes subscriber data, instead of using an automated cron job.<br/><span class="btn">Run Now</span> Manually syncs subscriber data.|
+|Order Sync|Website|Manually synchronizes order data, instead of using an automated cron job.<br/><span class="btn">Run Now</span> Manually syncs order data.|
+|Wishlist Sync|Website|Manually synchronizes wish list data, instead of using an automated cron job.<br/><span class="btn">Run Now</span> Manually syncs wish list data.|
+|Review Sync|Website|Manually synchronizes product review data, instead of using an automated cron job.<br/><span class="btn">Run Now</span> Manually syncs review data.|
+|Catalog Sync|Website|Manually synchronizes catalog data, instead of using an automated cron job.<br/><span class="btn">Run Now</span> Manually syncs catalog data.|
+|Importer Sync|Website|Manually synchronizes import data, instead of using an automated cron job.<br/><span class="btn">Run Now</span> Manually syncs import data.|
+|Template Sync|Website|Manually synchronizes template data, instead of using an automated cron job.<br/><span class="btn">Run Now</span> Manually syncs template data.|
 |**Reset Sync Options**|||
-|Reset Customers|Website|Force marks all entries for import. At the next sync, all data is imported, not just new or changed content.|
-|Reset Subscribers|Website|Force marks all entries for import. At the next sync, all data is imported, not just new or changed content.|
-|Date Range|Website|Indicates a date range of entries to mark for reset. This is used for resetting Order, Review, Wishlist, and Catalog data. <br/>**From** - Starting date <br/>**To** - Ending date|
-|Reset Order Data|Website|Force marks all entries for import, may use a date range. At the next sync, all data is imported, not just new or changed content.|
-|Reset Review Data|Website|Force marks all entries for import, may use a date range. At the next sync, all data is imported, not just new or changed content.|
-|Reset Wishlist Data|Website|Force marks all entries for import, may use a date range. At the next sync, all data is imported, not just new or changed content.|
-|Reset Catalog Data|Website|Force marks all entries for import, may use a date range. At the next sync, all data is imported, not just new or changed content.|
+|Reset Customers|Website|Force marks all customer data for import. At the next sync, all data is imported, not just new or changed content.<br/><span class="btn">Run Now</span> Resets customer data.|
+|Reset Subscribers|Website|Force marks all subscriber data for import. At the next sync, all data is imported, not just new or changed content.<br/><span class="btn">Run Now</span> Resets subscriber data.|
+|Date Range|Website|Order, Review, Wish List, and Catalog data can be reset within a specific date range. If the From/To dates are not entered, the full set of data is refreshed.|
+|Reset Order Data|Website|Force marks all order data for import, optionally by date range. At the next sync, all data is imported, not just new or changed content.<br/><span class="btn">Run Now</span> Resets order data.|
+|Reset Review Data|Website|Force marks all product review data for import, optionally by date range. At the next sync, all data is imported, not just new or changed content.<br/><span class="btn">Run Now</span> Resets review data.|
+|Reset Wishlist Data|Website|Force marks all wish list data for import, optionally by date range. At the next sync, all data is imported, not just new or changed content.<br/><span class="btn">Run Now</span> Resets wish list data.|
+|Reset Catalog Data|Website|Force marks all catalog data for import, optionally by date range. At the next sync, all data is imported, not just new or changed content.<br/><span class="btn">Run Now</span> Resets catalog data.|
 
 ## Debug
 
-![Debug]({{ site.baseurl }}{% link images/images/dotdigital-dash-iprestrict.png %}){: .zoom}
+![Debug]({% link images/images/dotdigital-dash-iprestrict.png %}){: .zoom}
 _Debug_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Debug Mode|Website|Enables or disables debugging. Options: Enable / Disable|
-|Debug API Calls Time|Website|For longer API calls, set the amount in seconds for the debug API calls.|
+|Debug Mode|Website|Determines if debug mode is enabled for the website. Options: Enable / Disable|
+|Debug API Calls Time|Website|Specifies the length of time, in seconds, that is needed to debug longer API calls.|
 
 ## OAUTH Credentials
 
-![OAUTH Credentials]({{ site.baseurl }}{% link images/images/dotdigital-dash-oauth.png %}){: .zoom}
+![OAUTH Credentials]({% link images/images/dotdigital-dash-oauth.png %}){: .zoom}
 _OAUTH Credentials_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Client ID|Website|Client ID of the Engagement Cloud account provided by dotdigital. Used for Single Sign-on/OAUTH access.|
-|Client Secret Key|Website|Client Secret Pass of the Engagement Cloud account provided by dotdigital. Used for Single Sign-on/OAUTH access.|
+|Client ID|Website|The Engagement Cloud Client ID that is used for Single Sign-on/OAUTH access.|
+|Client Secret Key|Website|The Engagement Cloud Client Secret Pass that is used for Single Sign-on/OAUTH access.|
 |Connection|Website|Connect/Disconnect option to test and run Single Sign-on. It must be connected to work.|
-|Custom OAUTH Domain.|Website|Enter the domain URL ending in a / if your Engagement Cloud is running on a custom domain (not the Engagement Cloud domain).|
-|Custom Authorization URL|Website|The full website URL ending in a / if your Admin site is running on a different domain than your website.|
+|Custom OAUTH Domain|Website|The domain URL ending with a forward slash (/), if Engagement Cloud runs on a custom domain (rather than the Engagement Cloud domain).|
+|Custom Authorization URL|Website|The full website URL ending with a forward slash (/), if your Admin site runs on a different domain than your website.|
 
 ## Dynamic Pages IP Restriction
 
-![Dynamic Pages IP Restriction]({{ site.baseurl }}{% link images/images/dotdigital-dash-iprestrict.png %}){: .zoom}
+![Dynamic Pages IP Restriction]({% link images/images/dotdigital-dash-iprestrict.png %}){: .zoom}
 _Dynamic Pages IP Restriction_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Dynamic Pages IP Restriction|Website|To add a layer of security for external dynamic content, you can manage the  list of requesting IP addresses that these URLs will display for when requested from them.
-By default, the integration includes three IP addresses Engagement Cloud sends requests from when sending emails to pull in this content. During testing, you may want to include your company's IP address to the list. **_Note:_** If you leave this field empty, a security check does not run. We do not recommend leaving this blank.|
+|Dynamic Pages IP Restriction|Website|To add a layer of security for external dynamic content, it is recommended that you maintain this list of IP addresses which are authorized to access dynamic content. <br/><br/>By default, Engagement Cloud uses three IP addresses to send requests and pull dynamic content. During testing, you can add your company's IP address to the list. **_Note:_** If you leave this field empty, a security check does not run.|
 
 ## Manage Cron Timings
 
-![Cron Timings]({{ site.baseurl }}{% link images/images/dotdigital-dash-cron.png %}){: .zoom}
+![Cron Timings]({% link images/images/dotdigital-dash-cron.png %}){: .zoom}
 _Cron Timings_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Importer|Website|Sets the cron job interval for this data sync operation.|
-|Contact|Website|Sets the cron job interval for this data sync operation.|
-|Order|Website|Sets the cron job interval for this data sync operation.|
-|Catalog|Website|Sets the cron job interval for this data sync operation.|
-|Review and Wishlist|Website|Sets the cron job interval for this data sync operation.|
+|Importer|Website|Sets the cron job interval to synchronize imported data.|
+|Contact|Website|Sets the cron job interval to synchronize contact data.|
+|Order|Website|Sets the cron job interval to synchronize order data.|
+|Catalog|Website|Sets the cron job interval to synchronize catalog data.|
+|Review and Wishlist|Website|Sets the cron job interval to synchronize product review and wish list data.|

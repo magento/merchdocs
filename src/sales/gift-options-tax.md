@@ -13,15 +13,15 @@ Gift wrapping and printed gift card prices can be configured to include or exclu
 
 1. In the _Sales_ section, choose **Tax**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Tax Classes** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Tax Classes** section.
 
 1. Set **Tax Class for Gift Options** to the applicable tax class.
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-tax-tax-classes.png %}){: .zoom}
+    ![]({% link images/images/config-sales-tax-tax-classes.png %}){: .zoom}
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Orders, Invoices, Credit Memos Display Settings** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Orders, Invoices, Credit Memos Display Settings** section. Then, do the following:
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
+    ![]({% link images/images/config-sales-tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
     _Orders, Invoices, Credit Memos Display Settings_
 
    - Set **Display Gift Wrapping Prices** to one of the following:

@@ -2,14 +2,18 @@
 title: PayPal Payments Standard
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > [Payment Methods]({{ site.baseurl }}{% link configuration/sales/payment-methods.md %}) > PayPal Payments Standard
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > PayPal Payments Standard
+
+{:.bs-callout .bs-callout-warning}
+**Payment Services Directive Requirements:** <br/>
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. No action is needed for PayPal Payments Standard to comply with PSD2 because all requirements are handled by PayPal.
 
 ## Required Settings
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-standard-required.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-paypal-payments-standard-required.png %}){: .zoom}
 _Required Settings_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Email Associated with PayPal Merchant Account (Optional)|Website|Any email addresses that are associated with your PayPal merchant account. Email addresses are case sensitive, and must exactly match the addresses that are in your account.|
 |Partner|Website|Your PayPal Partner ID, if applicable.|
@@ -23,10 +27,10 @@ _Required Settings_
 
 ## Advertise PayPal Credit
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
 _Advertise PayPal Credit_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Publisher ID|Website|The Publisher ID associated with your PayPal Credit account.|
 |Get Publisher ID from PayPal||Fetches your Publisher ID from PayPal.|
@@ -37,10 +41,10 @@ _Advertise PayPal Credit_
 
 ## Basic Settings - PayPal Payments Standard
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-standard-basic-settings.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-paypal-payments-standard-basic-settings.png %}){: .zoom}
 _Basic Settings_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Basic Settings|||
 |Title|Store View|A name that identifies PayPal Payments Pro as a payment method during checkout.|
@@ -51,7 +55,7 @@ _Basic Settings_
 
 ## Advanced Settings
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payment-standard-advanced.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-paypal-payment-standard-advanced.png %}){: .zoom}
 _Advanced Settings_
 
 |Field|Scope|Description|
@@ -66,12 +70,12 @@ _Advanced Settings_
 |Shortcut Buttons Flavor|Store View|Determines the type of image used for the PayPal acceptance button. Options: <br/>**Dynamic** - (Recommended) Displays an image that can be dynamically changed from the PayPal server. <br/>**Static** - Displays a static image that cannot be changed dynamically.|
 |Enable PayPal Guest Checkout|Website|Allows customers who do not have PayPal accounts to make purchases with PayPal Express Checkout. Options: Yes / No|
 |Require Customer’s Billing Address|Website|Determines if the customer billing address is required. Options: Yes / No / For Virtual Quotes Only|
-|Billing Agreement Signup|Website|Determines if customers have the option to enter into a [billing agreement]({{ site.baseurl }}{% link payment/paypal-billing-agreements.md %}) with your store. Options: <br/>**Auto** - Customer can sign up for a billing agreement during Express Checkout. <br/>**Ask Customer** - Customer are asked if they want to sign up for a billing agreement. <br/>**Never** - Customers are not offered the option to  sign up for a billing agreement.|
+|Billing Agreement Signup|Website|Determines if customers have the option to enter into a [billing agreement]({% link payment/paypal-billing-agreements.md %}) with your store. Options: <br/>**Auto** - Customer can sign up for a billing agreement during Express Checkout. <br/>**Ask Customer** - Customer are asked if they want to sign up for a billing agreement. <br/>**Never** - Customers are not offered the option to  sign up for a billing agreement.|
 |Skip Order Review Step|Website|Determines if customers can complete the  transaction from the PayPal site, or are required to return to your store and complete the Order Review step before submitting the order. Options: Yes / No|
 
 ## Billing Agreement Setting
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-express-checkout-billing-agreement-settings.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-paypal-express-checkout-billing-agreement-settings.png %}){: .zoom}
 _Billing Agreement Settings_
 
 |Field|Scope|Description|
@@ -89,10 +93,10 @@ _Billing Agreement Settings_
 
 ## Settlement Report Settings
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
 _Settlement Report Settings_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Login|Website|Your user name that is required to log in to PayPal’s Secure FTP Server.|
 |Password|Website|Your password that is required to log in to PayPal’s Secure FTP Server.|
@@ -106,10 +110,10 @@ _Settlement Report Settings_
 
 ## Frontend Experience Settings
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings.png %}){: .zoom}
 _Frontend Experience Settings_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |PayPal Product Logo|Store View|Determines the PayPal logo that appears in your store. There are four basic styles in two sizes. Options: <br/>No Logo <br/>We prefer PayPal (150 x 60)<br/>We prefer PayPal (150 x 40)<br/>Now accepting PayPal (150 x 60)<br/>Now accepting PayPal (150 x 40)<br/>Payments by PayPal (150 x 60), Payments by PayPal (150 x 40), Shop now using (150 x 60), Shop now using (150 x 40)|
 |PayPal Merchant Pages Style|||

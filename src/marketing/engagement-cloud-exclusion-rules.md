@@ -6,14 +6,14 @@ redirect_from:
 
 An exclusion rule can be created to exclude abandoned cart and review emails from being sent under certain conditions. A rule describes the conditions that must be met to trigger the action. For example, a rule might exclude all abandoned carts with a subtotal that is equal to, or less than ten.
 
-![]({{ site.baseurl }}{% link images/images/engagement-cloud-exclusion-rules.png %}){: .zoom}
+![]({% link images/images/engagement-cloud-exclusion-rules.png %}){: .zoom}
 Exclusion Rules
 
 ## To add a new rule
 
 1. On the Admin sidebar, choose **Marketing**. Under **Customer Engagement**, choose **Exclusion Rules**. Then, tap <span class="btn">Add New Rule</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/engagement-cloud-exclusion-rules-iinformation.png %}){: .zoom}
+    ![]({% link images/images/engagement-cloud-exclusion-rules-iinformation.png %}){: .zoom}
     *Rule Information*
 
 1. On the **Rule Information** tab, do the following:
@@ -36,7 +36,7 @@ Exclusion Rules
     * ANY
     * ALL
 
-    ![]({{ site.baseurl }}{% link images/images/engagement-cloud-exclusion-rules-conditions.png %}){: .zoom}
+    ![]({% link images/images/engagement-cloud-exclusion-rules-conditions.png %}){: .zoom}
     *Exclusion Rule Conditions*
 
 1. Tap **Add New Condition**. Then, do the following:
@@ -47,7 +47,7 @@ Exclusion Rules
 
     * Enter the **Value** that is needed to complete the condition.
 
-        ![]({{ site.baseurl }}{% link images/images/engagement-cloud-exclusion-rules-conditions-new.png %}){: .zoom}
+        ![]({% link images/images/engagement-cloud-exclusion-rules-conditions-new.png %}){: .zoom}
         *Add New Condition*
 
     * For multiple conditions, tap <span class="btn">Add New Condition</span>. Then, repeat these steps.

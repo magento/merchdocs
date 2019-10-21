@@ -10,7 +10,7 @@ A responsive theme adjusts the page layout to fit the view port of the device. 
 
 Magento themes include layout files, template files, translation files, and skins. A skin is a collection of supporting CSS, images, and JavaScript files that together, create the visual presentation and interactions that your customers experience when they visit your store. Themes and skins can be modified and customized by a developer or designer who has knowledge of Magento theme design and access to your server. To learn more, see the [Frontend Developer Guide][1].
 
-![]({{ site.baseurl }}{% link images/images/design-responsive.png %}){: .zoom}
+![]({% link images/images/design-responsive.png %}){: .zoom}
 _Luma Theme_
 
 [1]: http://devdocs.magento.com/guides/v2.3/frontend-dev-guide/bk-frontend-dev-guide.html

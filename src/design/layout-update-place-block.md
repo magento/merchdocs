@@ -2,12 +2,12 @@
 title: Using a Layout Update
 ---
 
-Blocks can be placed in the left or right sidebar of a specific page by making a [layout update]({{ site.baseurl }}{% link design/layout-updates.md %}) to the XML code. With a few simple changes to the code, you can position the block in either sidebar, and control its position in relation to other blocks.
+Blocks can be placed in the left or right sidebar of a specific page by making a [layout update]({% link design/layout-updates.md %}) to the XML code. With a few simple changes to the code, you can position the block in either sidebar, and control its position in relation to other blocks.
 
 The term callout is sometimes used to refer to a block that is defined as a layout update with XML code. The term sidebar refers to the left or right columns of the page layout. When entering layout update code, make sure to follow the syntax exactly as shown in the example.
 
 <div class="bs-callout bs-callout-info" markdown="1">
-To place a block in the sidebar, the page must have a two-or three-column layout. To learn more, see: [Page Layout]({{ site.baseurl }}{% link design/page-layout.md %}).
+To place a block in the sidebar, the page must have a two-or three-column layout. To learn more, see: [Page Layout]({% link design/page-layout.md %}).
 </div>
 
 ## To place a block in the sidebar of a page:

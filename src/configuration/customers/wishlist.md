@@ -2,20 +2,20 @@
 title: Wish List
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Customers]({{ site.baseurl }}{% link configuration/customers.md %}) > Wish List
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) > Wish List
 
 ## General Options
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/config-customers-wishlist-general-options.png %}){: .zoom}
-[_General Options_]({{ site.baseurl }}{% link marketing/wishlist-configuration.md %})
+![]({% link images/images/config-customers-wishlist-general-options.png %}){: .zoom}
+[_General Options_]({% link marketing/wishlist-configuration.md %})
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/config-customers-wishlist-general-options-ee.png %}){: .zoom}
-[_General Options_]({{ site.baseurl }}{% link marketing/wishlist-configuration.md %})
+![]({% link images/images-ee/config-customers-wishlist-general-options-ee.png %}){: .zoom}
+[_General Options_]({% link marketing/wishlist-configuration.md %})
 <!--{% endif %}-->
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled|Store View|Activates the wish list module for your store. Options: Yes / No|<!--{% if "Default.CE Only" contains site.edition %}-->
 |Show in Sidebar|Store View|Specifies whether the wish list is visible in the sidebar. Options: Yes / No|<!--{% endif %}--><!--{% if "Default.EE-B2B" contains site.edition %}-->
@@ -25,10 +25,10 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 
 ## Share Options
 
-![]({{ site.baseurl }}{% link images/images/config-customers-wishlist-share-options.png %}){: .zoom}
-[_Share Options_]({{ site.baseurl }}{% link marketing/wishlist-configuration.md %})
+![]({% link images/images/config-customers-wishlist-share-options.png %}){: .zoom}
+[_Share Options_]({% link marketing/wishlist-configuration.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Email Sender|Store View|Determines the store contact that appears as the sender of the message sent when a wish list is shared. Default contact: General Contact|
 |Email Template|Store View|Determines the email template that is used for the message sent when a wish list is shared. Default template: Share Wishlist|
@@ -38,14 +38,14 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 ## My Wish List Link
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/config-customers-wishlist-my-wishlist-link.png %}){: .zoom}
-[_My Wish List Link_]({{ site.baseurl }}{% link marketing/wishlist-configuration.md %})
+![]({% link images/images/config-customers-wishlist-my-wishlist-link.png %}){: .zoom}
+[_My Wish List Link_]({% link marketing/wishlist-configuration.md %})
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/config-customers-wishlist-my-wishlist-link.png %}){: .zoom}
-[_My Wish List Link_]({{ site.baseurl }}{% link marketing/wishlist-configuration.md %})
+![]({% link images/images-ee/config-customers-wishlist-my-wishlist-link.png %}){: .zoom}
+[_My Wish List Link_]({% link marketing/wishlist-configuration.md %})
 <!--{% endif %}-->
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Display Wish List Summary|Store View|Configures the display of the Wish List Summary in the customer account dashboard. Options: Display number of items in wish list / Display item quantities|

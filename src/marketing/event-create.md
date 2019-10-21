@@ -3,9 +3,9 @@ conditions: Default.EE-B2B
 title: Creating Events
 ---
 
-Each event is associated with a category from your catalog, and only one event can be associated with any given category at a time. To display a list of upcoming events in your store, you must also set up a [Catalog Events Carousel]({{ site.baseurl }}{%- link cms/widget-event-carousel.md -%}) widget.
+Each event is associated with a category from your catalog, and only one event can be associated with any given category at a time. To display a list of upcoming events in your store, you must also set up a [Catalog Events Carousel]({% link cms/widget-event-carousel.md -%}) widget.
 
-![]({{ site.baseurl }}{%- link images/images-ee/category-events.png -%}){: .zoom}
+![]({% link images/images-ee/category-events.png %}){: .zoom}
 *Manage Catalog Events*
 
 ## Create an event
@@ -18,17 +18,17 @@ Each event is associated with a category from your catalog, and only one event c
 
         Because each category can have only one event at a time, any categories that already have an event are disabled .
 
-        ![]({{ site.baseurl }}{%- link images/images-ee/catalog-events-category-tree.png -%}){: .zoom}
+        ![]({% link images/images-ee/catalog-events-category-tree.png %}){: .zoom}
         *Select Category*
 
     * In the **Catalog Event Information** section, do the following:
 
-        ![]({{ site.baseurl }}{%- link images/images-ee/catalog-event-information.png -%}){: .zoom}
+        ![]({% link images/images-ee/catalog-event-information.png %}){: .zoom}
         *Catalog Event Information*
 
-    * Use the calendar (![]({{ site.baseurl }}{%- link images/images/btn-calendar.png -%})) to choose the **Start Date** of the event. Then, use the **Hour** and **Minute** sliders to set the time the event begins.
+    * Use the calendar (![]({% link images/images/btn-calendar.png %})) to choose the **Start Date** of the event. Then, use the **Hour** and **Minute** sliders to set the time the event begins.
 
-    * Use the calendar (![]({{ site.baseurl }}{%- link images/images/btn-calendar.png -%})) to choose the **End Date**of the event. Then, use the **Hour** and **Minute** sliders to set the time the event ends.
+    * Use the calendar (![]({% link images/images/btn-calendar.png %})) to choose the **End Date**of the event. Then, use the **Hour** and **Minute** sliders to set the time the event ends.
 
     * To upload an **Image** for the event widget, tap <span class="btn">Choose File</span>. Then, select the image file from your directory.
 

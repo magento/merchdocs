@@ -6,5 +6,5 @@ The order confirmation appears after the order is placed. For registered custome
 
 The order confirmation page is also called the _Success_ page, and is used by analytics programs to track conversions.
 
-![]({{ site.baseurl }}{% link images/images/storefront-checkout-confirmation-customer.png %}){: .zoom}
+![]({% link images/images/storefront-checkout-confirmation-customer.png %}){: .zoom}
 _Order Confirmation_

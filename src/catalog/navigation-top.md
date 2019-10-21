@@ -5,10 +5,10 @@ group: marketing
 
 The main menu of your store is like a directory to the different departments in your store. Each option represents a different category of products. The position and presentation of the top navigation might vary by theme, but the way it works is essentially the same.
 
-![]({{ site.baseurl }}{% link images/images/storefront-top-navigation.png %}){: .zoom}
+![]({% link images/images/storefront-top-navigation.png %}){: .zoom}
 *Top Navigation*
 
-The category structure of your catalog can influence how well your site is indexed by search engines. The more deeply nested a category, the less likely it is to be thoroughly indexed. As a general rule, anywhere between one and three visible levels is considered to be the most effective. The [root category]({{ site.baseurl }}{% link catalog/category-root.md %}) counts as the first level, although it doesn't appear in the menu. The maximum number of levels that are available in the top navigation is determined by the configuration. In addition, there might be a limit to the number of menu levels that are supported by your store theme. For example, the sample Luma theme supports up to five levels, including the root.
+The category structure of your catalog can influence how well your site is indexed by search engines. The more deeply nested a category, the less likely it is to be thoroughly indexed. As a general rule, anywhere between one and three visible levels is considered to be the most effective. The [root category]({% link catalog/category-root.md %}) counts as the first level, although it doesn't appear in the menu. The maximum number of levels that are available in the top navigation is determined by the configuration. In addition, there might be a limit to the number of menu levels that are supported by your store theme. For example, the sample Luma theme supports up to five levels, including the root.
 
 ### Counting Menu Levels
 
@@ -22,7 +22,7 @@ The category structure of your catalog can influence how well your site is index
 
 ## To set the top navigation
 
-See “[Creating Categories]({{ site.baseurl }}{% link catalog/category-create.md %})” to define the category structure of the main menu. For a multistore installation, a different main menu can be assigned as the [root category]({{ site.baseurl }}{% link catalog/category-root.md %}) for each [store]({{ site.baseurl }}{% link stores/stores-all-create-store.md %}).
+See “[Creating Categories]({% link catalog/category-create.md %})” to define the category structure of the main menu. For a multistore installation, a different main menu can be assigned as the [root category]({% link catalog/category-root.md %}) for each [store]({% link stores/stores-all-create-store.md %}).
 
 ## To set the depth of the top navigation
 
@@ -32,9 +32,9 @@ See “[Creating Categories]({{ site.baseurl }}{% link catalog/category-create.m
 
 1. Expand the **Category Top Navigation** section.
 
-   Because the depth of the top navigation has a global [configuration scope]({{ site.baseurl }}{% link configuration/scope.md %}), the setting applies to all websites, stores, and store views in the Magento installation. The Category Top Navigation configuration section is available only when Store View in the upper-left corner is set to “Default Config”.
+   Because the depth of the top navigation has a global [configuration scope]({% link configuration/scope.md %}), the setting applies to all websites, stores, and store views in the Magento installation. The Category Top Navigation configuration section is available only when Store View in the upper-left corner is set to “Default Config”.
 
-   ![]({{ site.baseurl }}{% link images/images/configuration-store-view-default-config.png %}){: .zoom}
+   ![]({% link images/images/configuration-store-view-default-config.png %}){: .zoom}
    *Default Config*
 
 1. To limit the number of subcategories that appear in the top navigation, enter the number in the **Maximal Depth** field.
@@ -43,5 +43,5 @@ See “[Creating Categories]({{ site.baseurl }}{% link catalog/category-create.m
 
 1. When complete, tap <span class="btn"> Save Config </span>.
 
-   ![]({{ site.baseurl }}{% link images/images/config-catalog-catalog-category-top-navigation.png %}){: .zoom}
-   [*Category Top Navigation*]({{ site.baseurl }}{% link configuration/catalog/catalog.md %})
+   ![]({% link images/images/config-catalog-catalog-category-top-navigation.png %}){: .zoom}
+   [*Category Top Navigation*]({% link configuration/catalog/catalog.md %})

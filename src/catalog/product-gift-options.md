@@ -6,12 +6,12 @@ Gift Options can be set at the product level to allow a gift message to be inclu
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 
-![]({{ site.baseurl }}{% link images/images/product-gift-options.png %}){: .zoom}
+![]({% link images/images/product-gift-options.png %}){: .zoom}
 <!--{% endif %}-->
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 
-![]({{ site.baseurl }}{% link images/images-ee/product-gift-options-ee.png %}){: .zoom}
+![]({% link images/images-ee/product-gift-options-ee.png %}){: .zoom}
 <!--{% endif %}-->
 
 *Gift Options*
@@ -20,7 +20,7 @@ Gift Options can be set at the product level to allow a gift message to be inclu
 
 1. Open the product in edit mode.
 
-1. Scroll down and expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Gift Options** section. Then, do the following:
+1. Scroll down and expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Gift Options** section. Then, do the following:
 
     * To override the default setting, clear the **Use Config Settings** checkbox.
 

@@ -2,10 +2,13 @@
 title: PayPal Payments Standard
 ---
 
+{:.bs-callout .bs-callout-warning}
+**Payment Services Directive Requirements:** <br/>
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. No action is needed for PayPal Payments Standard to comply with PSD2 because all requirements are handled by PayPal.
 
 PayPal Payments Standard is the easiest way to accept payments online. You can offer your customers the convenience of payment both by credit card and PayPal by simply adding a checkout button to your store.
 
-![PayPal Payments Standard]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-standard.png %}){: .zoom}
+![PayPal Payments Standard]({% link images/images/config-sales-payment-methods-paypal-payments-standard.png %}){: .zoom}
 _PayPal Payments Standard_
 
 {:.bs-callout .bs-callout-info}
@@ -77,21 +80,21 @@ PayPal Payments Standard cannot be used simultaneously with any other PayPal met
 
 You have now completed the required settings. You can either continue with the remaining settings, or save and return later fine-tune the configuration.
 
-![Required Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-standard-required.png %}){: .zoom}
+![Required Settings]({% link images/images/config-sales-payment-methods-paypal-payments-standard-required.png %}){: .zoom}
 _Required Settings_
 
 ### Step 2: Advertise PayPal Credit<b class="ContrastDarkNormal"> (Optional)</b>
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Advertise PayPal Credit** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Advertise PayPal Credit** section. Then, do the following:
 
    - Tap **Get Publisher ID from PayPal**, and follow the instructions to get your account information.
 
    - Enter your **Publisher ID**.
 
-     ![Advertise PayPal Credit]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
+     ![Advertise PayPal Credit]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
      _Advertise PayPal Credit_
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Home Page** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Home Page** section. Then, do the following:
 
    - To place a banner on the page, set **Display** to “Yes.”
 
@@ -109,7 +112,7 @@ _Required Settings_
      - 728 x 90
      - 800 x 66
 
-     ![Advertise PayPal Credit Home Page Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
+     ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
      _Advertise PayPal Credit Home Page Settings_
 
 1. Repeat the previous step for the remaining sections:
@@ -120,7 +123,7 @@ _Required Settings_
 
 ### Step 3: Complete the Basic Settings
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Basic Settings - PayPal Payments Standard** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Basic Settings - PayPal Payments Standard** section.
 
 1. Enter a **Title** to identify this payment method during checkout. It is recommended that you use the title “PayPal” for all store views.
 
@@ -133,18 +136,18 @@ _Required Settings_
 
 1. To display the “Check out with PayPal” button on the product page, set **Display on Product Details Page** to “Yes.”
 
-   ![Basic Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-standard-basic.png %}){: .zoom}
+   ![Basic Settings]({% link images/images/config-sales-payment-methods-paypal-payments-standard-basic.png %}){: .zoom}
    _Basic Settings_
 
 ### Step 4: Complete the Advanced Settings
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Advanced Settings** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Advanced Settings** section. Then, do the following:
 
    - To make PayPal Payments Standard available from both the shopping cart and mini cart, set **Display on Shopping Cart** to “Yes.”
 
    - Set **Payment Applicable From** to one of the following:
 
-     |**All Allowed Countries** |Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
+     |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
      |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
 
    - To record communications with the payment system in the log file, set **Debug Mode** to “Yes.”
@@ -171,7 +174,7 @@ _Required Settings_
      | **No** | Does not require the customer’s billing address for any purchases.|
      | **For Virtual Quotes Only** | Requires the customer’s billing address for virtual quotes only.|
 
-   - To determine if the customer can enter into a [billing agreement]({{ site.baseurl }}{% link payment/paypal-billing-agreements.md %}) with your store in the PayPal payment system when there are no active billing agreements available in the customer account, set **Billing Agreement Signup** to one of the following:
+   - To determine if the customer can enter into a [billing agreement]({% link payment/paypal-billing-agreements.md %}) with your store in the PayPal payment system when there are no active billing agreements available in the customer account, set **Billing Agreement Signup** to one of the following:
 
      | **Auto** | The customer can either enter into a billing agreement during the Express Checkout flow or use another method of payment.|
      | **Ask Customer** | The customer can decide whether to enter into a billing agreement during the Express Checkout workflow.|
@@ -182,7 +185,7 @@ _Required Settings_
 
    - To allow the customer to complete the transaction from the PayPal site without returning to your Magento store for Order Review, set **Skip Order Review Step** to “Yes.”
 
-     ![Advanced Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payment-standard-advanced.png %}){: .zoom}
+     ![Advanced Settings]({% link images/images/config-sales-payment-methods-paypal-payment-standard-advanced.png %}){: .zoom}
      _Advanced Settings_
 
 1. When complete, tap <span class="btn">Save Config</span>.

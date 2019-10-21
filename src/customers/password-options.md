@@ -10,10 +10,10 @@ The customer password options determine the level of security that is used for p
 
 1. In the panel on the left, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Password Options** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Password Options** section.
 
-    ![]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-password-options.png %}){: .zoom}
-    [_Password Options_]({{ site.baseurl }}{% link configuration/customers/customer-configuration.md %})
+    ![]({% link images/images/config-customers-customer-configuration-password-options.png %}){: .zoom}
+    [_Password Options_]({% link configuration/customers/customer-configuration.md %})
 
 1. Set the **Password Reset Protection Type** to the method you want to use for managing password reset requests:
 
@@ -36,7 +36,7 @@ The customer password options determine the level of security that is used for p
 
     - Set **Reset Password Template** to the template that is used when customers change their passwords.
 
-    - Set **Password Template Email Sender** to the [store contact]({{ site.baseurl }}{% link stores/store-email-addresses.md %}) that appears as the sender of password-related notifications.
+    - Set **Password Template Email Sender** to the [store contact]({% link stores/store-email-addresses.md %}) that appears as the sender of password-related notifications.
 
 1. Complete the following password reset security options:
 

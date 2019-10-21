@@ -13,10 +13,10 @@ Follow these instructions to apply a discount to specific products whenever a se
    The Rule Information section displays, with expandable sections for Conditions and Actions.
 
    <!--{% if "Default.CE Only" contains site.edition %}-->
-   ![]({{ site.baseurl }}{% link images/images/price-rule-catalog-new.png %}){: .zoom}
+   ![]({% link images/images/price-rule-catalog-new.png %}){: .zoom}
    <!--{% endif %}-->
    <!--{% if "Default.EE-B2B" contains site.edition %}-->
-   ![]({{ site.baseurl }}{% link images/images-ee/price-rule-catalog-new-ee.png %}){: .zoom}
+   ![]({% link images/images-ee/price-rule-catalog-new-ee.png %}){: .zoom}
    <!--{% endif %}-->
    _Rule Information_
 
@@ -41,7 +41,7 @@ Follow these instructions to apply a discount to specific products whenever a se
      The options in this list is dependent on the customer groups created and managed in the Admin > Customers > Customer Groups section.
 
    <!--{% if "Default.CE Only" contains site.edition %}-->
-   * Enter the **From** and **To** dates to determine when the price rule is in effect. You can either enter the dates, or choose the dates from the **Calendar** (![]({{ site.baseurl }}{% link images/images/btn-calendar.png %})).
+   * Enter the **From** and **To** dates to determine when the price rule is in effect. You can either enter the dates, or choose the dates from the **Calendar** (![]({% link images/images/btn-calendar.png %})).
 
      If you leave the dates blank, the rule is enabled as soon as the price rule is saved.
    <!--{% endif %}-->
@@ -55,9 +55,9 @@ Follow these instructions to apply a discount to specific products whenever a se
 
 Most of the available conditions are based on existing attribute values. To apply the rule to all products, leave the conditions blank.
 
-1. Scroll down and expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Conditions** section. The first rule begins:
+1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Conditions** section. The first rule begins:
 
-   ![]({{ site.baseurl }}{% link images/images/price-rule-catalog-condition1.png %}){: .zoom}
+   ![]({% link images/images/price-rule-catalog-condition1.png %}){: .zoom}
    *Condition - Line 1*
 
    The statement has two bold links, which when tapped, display the options for that part of the statement. If you save the condition without making additional selections, the rule applies to all products.
@@ -70,15 +70,15 @@ Most of the available conditions are based on existing attribute values. To appl
 
       If <span class="underlined">ALL</span> of these conditions are <span class="underlined">TRUE</span>:
 
-1. Tap the **Add** (![]({{ site.baseurl }}{% link images/images/btn-add-grn.png %})) button at the beginning of the next line. Select an option for the condition, such as a product attribute or combination.
+1. Tap the **Add** (![]({% link images/images/btn-add-grn.png %})) button at the beginning of the next line. Select an option for the condition, such as a product attribute or combination.
 
    * In the list under **Product Attribute**, choose the attribute that you want to use as the basis of the condition. For this example, the condition is "Attribute Set.”
 
-      ![]({{ site.baseurl }}{% link images/images/price-rule-catalog-condition2.png %}){: .zoom}
+      ![]({% link images/images/price-rule-catalog-condition2.png %}){: .zoom}
       *Condition Line 2, Part 1*
 
       {: .bs-callout .bs-callout-info}
-      For an attribute to appear in the list, it must be configured to be used in promo rule conditions. To learn more, see: [Product Attributes]({{ site.baseurl }}{% link stores/attributes-product.md %}).
+      For an attribute to appear in the list, it must be configured to be used in promo rule conditions. To learn more, see: [Product Attributes]({% link stores/attributes-product.md %}).
 
       The selected condition appears in the statement, followed by two more bold links. The options differ depending on the condition attribute you select. The statement now says:
 
@@ -88,27 +88,27 @@ Most of the available conditions are based on existing attribute values. To appl
 
    * Select or enter values for the condition. Depending on the condition, you may select products from a grid or list, enter a numerical value, and so on. For this example, tap the (<span class="underlined">...</span>) “more” link, and choose the attribute set upon which the condition is based.
 
-   ![]({{ site.baseurl }}{% link images/images/price-rule-catalog-condition3.png %}){: .zoom}
+   ![]({% link images/images/price-rule-catalog-condition3.png %}){: .zoom}
    *Condition Line 2, Part 3*
 
    The selected item appears in the statement to complete the condition.
 
       If <span class="underlined">ALL</span> of these conditions are <span class="underlined">TRUE</span>: </ br>Attribute Set <span class="underlined">is</span> Default
 
-1. To add another condition line to the statement, tap the **Add** (![]({{ site.baseurl }}{% link images/images/btn-add-grn.png %})) button, and choose one of the following:
+1. To add another condition line to the statement, tap the **Add** (![]({% link images/images/btn-add-grn.png %})) button, and choose one of the following:
 
    * Conditions Combination
    * Product Attribute
 
    Then, repeat the process until all desired conditions are complete.
 
-   If at any time you want to delete part of the condition statement, tap the **Delete** (![]({{ site.baseurl }}{% link images/images/btn-del-red.png %})) button at the end of the line.
+   If at any time you want to delete part of the condition statement, tap the **Delete** (![]({% link images/images/btn-del-red.png %})) button at the end of the line.
 
 ## Step 3: Define the Actions
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %})the **Actions** section, and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %})the **Actions** section, and do the following:
 
-   ![]({{ site.baseurl }}{% link images/images/price-rule-catalog-actions.png %}){: .zoom}
+   ![]({% link images/images/price-rule-catalog-actions.png %}){: .zoom}
    *Actions*
 
 1. Under **Pricing Structure Rules**, set **Apply** to one of the following:
@@ -129,21 +129,21 @@ Most of the available conditions are based on existing attribute values. To appl
    {: .bs-callout-info}
    Setting this to "Yes" safeguard prevents the system from applying multiple discounts (rules) to the same product.
 
-   ![]({{ site.baseurl }}{% link images/images/price-rule-catalog-saved.png %}){: .zoom}
+   ![]({% link images/images/price-rule-catalog-saved.png %}){: .zoom}
    *Pricing Structure Rules*
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ## Step 4: Add Related Dynamic Blocks **(optional)**{: .ContrastDarkNormal}
 
-[Dynamic blocks]({{ site.baseurl }}{% link cms/dynamic-blocks.md %}) that are associated with a catalog price rule appear in the storefront whenever the conditions are met.
+[Dynamic blocks]({% link cms/dynamic-blocks.md %}) that are associated with a catalog price rule appear in the storefront whenever the conditions are met.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %})the **Related Dynamic Blocks** section.
+1. Expand ![]({% link images/images/btn-expand.png %})the **Related Dynamic Blocks** section.
 
-1. Use the [search filters]({{ site.baseurl }}{% link stores/admin-workspace.md %}) to locate the dynamic block(s) that you want to associate with the rule.
+1. Use the [search filters]({% link stores/admin-workspace.md %}) to locate the dynamic block(s) that you want to associate with the rule.
 
 1. Mark the checkbox in the first column to associate the dynamic block with the rule.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/price-rule-catalog-related-dynamic-blocks.png %}){: .zoom}
+   ![]({% link images/images-ee/price-rule-catalog-related-dynamic-blocks.png %}){: .zoom}
    *Related Dynamic Blocks*
 
 ## Step 5: Schedule the Rule
@@ -152,18 +152,18 @@ Most of the available conditions are based on existing attribute values. To appl
 
     The Scheduled Changes timeline appears at the top of the page.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/price-rule-scheduled-changes.png %}){: .zoom}
+    ![]({% link images/images-ee/price-rule-scheduled-changes.png %}){: .zoom}
     *Scheduled Changes*
 
 1. In the Scheduled Changes box, click **View/Edit**.
 
     You can either edit the existing update or assign the catalog price rule to another campaign. The Edit Existing Update option is selected by default.
 
-1. To schedule the rule, enter the **Start Date** and **End Date** that the price rule is to be active. You can either enter the dates or choose the dates from the **Calendar** (![]({{ site.baseurl }}{% link images/images/btn-calendar.png %})).
+1. To schedule the rule, enter the **Start Date** and **End Date** that the price rule is to be active. You can either enter the dates or choose the dates from the **Calendar** (![]({% link images/images/btn-calendar.png %})).
 
-    To learn more, see: [Scheduled Changes]({{ site.baseurl }}{% link marketing/price-rule-catalog-scheduled-changes.md %}).
+    To learn more, see: [Scheduled Changes]({% link marketing/price-rule-catalog-scheduled-changes.md %}).
 
-    ![]({{ site.baseurl }}{% link images/images-ee/price-rule-catalog-schedule-update-edit.png %}){: .zoom}
+    ![]({% link images/images-ee/price-rule-catalog-schedule-update-edit.png %}){: .zoom}
     *Update Schedule*
 <!--{% endif %}-->
 

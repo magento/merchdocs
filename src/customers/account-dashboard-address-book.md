@@ -5,12 +5,12 @@ title: Address Book
 Customers who keep their address books current can speed through the checkout process. The address book contains the customer’s default billing and shipping addresses, and any additional addresses that they frequently use. Additional address entries are easy to access and maintain from the grid. Each customer’s address book can manage over 3,000 address book entries without impacting performance.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/customer-account-dashboard-address-book-grid.png %}){: .zoom}
+![]({% link images/images/customer-account-dashboard-address-book-grid.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/customer-account-dashboard-address-book-grid.png %}){: .zoom}
+![]({% link images/images-ee/customer-account-dashboard-address-book-grid.png %}){: .zoom}
 <!--{% endif %}-->
-[_Address Book_]({{ site.baseurl }}{% link configuration/customers/customer-configuration.md %})
+[_Address Book_]({% link configuration/customers/customer-configuration.md %})
 
 ## To add a new address:
 
@@ -18,7 +18,7 @@ Customers who keep their address books current can speed through the checkout pr
 
 1. On the Address Book page under **Additional Address** Entries, click <span class="btn">Add New Address</span>.
   
-    ![]({{ site.baseurl }}{% link images/images/customer-account-addresses-additional-address-add-new.png %}){: .zoom}
+    ![]({% link images/images/customer-account-addresses-additional-address-add-new.png %}){: .zoom}
     _Add New Address_
 
 1. Define the new address item:

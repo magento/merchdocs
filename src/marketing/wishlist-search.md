@@ -3,9 +3,9 @@ conditions: Default.EE-B2B
 title: Wish List Search
 ---
 
-Any public wish list can be found using the Wish List Search [widget]({{ site.baseurl }}{%- link cms/widgets.md -%}). The widget enables a customer to search by the name or email address of the wish list owner. Store customers can find wish lists that belong to other customers, view them and order products from them, or add the products to their own wish lists. If an item it purchased from a public wish list by another customer, it is not removed from the original wish list. The Wish List Search widget can be added to any page of your store to make it easy for customers to find the wish lists of friends and family members.
+Any public wish list can be found using the Wish List Search [widget]({% link cms/widgets.md -%}). The widget enables a customer to search by the name or email address of the wish list owner. Store customers can find wish lists that belong to other customers, view them and order products from them, or add the products to their own wish lists. If an item it purchased from a public wish list by another customer, it is not removed from the original wish list. The Wish List Search widget can be added to any page of your store to make it easy for customers to find the wish lists of friends and family members.
 
-![]({{ site.baseurl }}{%- link images/images/storefront-wishlist-search.png -%}){: .zoom}
+![]({% link images/images/storefront-wishlist-search.png %}){: .zoom}
 *Wish List Search*
 
 ## To add a Wish List Search widget
@@ -24,7 +24,7 @@ Any public wish list can be found using the Wish List Search [widget]({{ site.ba
 
    * In the **Layout Updates** section, tap <span class="btn">Add Layout Update</span>. Then, specify where you want the widget to appear.
 
-    ![]({{ site.baseurl }}{%- link images/images/widget-wishlist-search-layout-update.png -%}){: .zoom}
+    ![]({% link images/images/widget-wishlist-search-layout-update.png %}){: .zoom}
     *Layout Update*
 
 1. In the panel on the left, choose **Widget Options**. Then, do the following:
@@ -41,7 +41,7 @@ Any public wish list can be found using the Wish List Search [widget]({{ site.ba
     {: .bscallout-info}
     Shipping addresses are not included in wish lists.
 
-1. Configure the remaining widget properties as needed, following the standard [instructions]({{ site.baseurl }}{%- link cms/widget-create.md -%}).
+1. Configure the remaining widget properties as needed, following the standard [instructions]({% link cms/widget-create.md -%}).
 
 1. When complete, tap <span class="btn">Save</span>.
 

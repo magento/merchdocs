@@ -3,7 +3,7 @@ title: Translating Content
 group: operations
 ---
 
-If your store has multiple views in different [languages]({{ site.baseurl }}{% link stores/store-language-add.md %}), and you have set the locale for each view to a different language, the result is a partially translated site. The next step is to create a translated version of each page that is available from the specific store view. The Store View column of the Manage Pages list shows each view that has a translated version of the page.
+If your store has multiple views in different [languages]({% link stores/store-language-add.md %}), and you have set the locale for each view to a different language, the result is a partially translated site. The next step is to create a translated version of each page that is available from the specific store view. The Store View column of the Manage Pages list shows each view that has a translated version of the page.
 
 To translate a content page, you must create a new page that has the same URL Key as the original, but is assigned to the specific store view. Then, update the page for the specific view with the translated text. The following example shows how to create a translated version of the “About Us” page for the Spanish store view.
 
@@ -24,8 +24,8 @@ To translate a content page, you must create a new page that has the same URL K
    - On the _Design_ tab, set the column **Layout** of the page.
    - On the _Meta Data_ tab, enter the translated text for the **Keywords** and **Description**.
 
-1. When complete, click **Save Page**. Then when prompted, refresh any invalid [caches]({{ site.baseurl }}{% link system/cache-management.md %}).
+1. When complete, click **Save Page**. Then when prompted, refresh any invalid [caches]({% link system/cache-management.md %}).
 
 1. To verify the translation, go to the storefront and use the language chooser to change the store view.
 
-    Notice that there are still some elements on the page that need to be translated, including the company footer links[ block]({{ site.baseurl }}{% link cms/block-add.md %}), the [welcome message]({{ site.baseurl }}{% link design/welcome-message.md %}), and [product information]({{ site.baseurl }}{% link catalog/product-translate.md %}).
+    Notice that there are still some elements on the page that need to be translated, including the company footer links[ block]({% link cms/block-add.md %}), the [welcome message]({% link design/welcome-message.md %}), and [product information]({% link catalog/product-translate.md %}).

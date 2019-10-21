@@ -4,19 +4,20 @@ title: HTML Head
 
 The settings in the HTML Head section correspond to the `<head>` tag of an HTML page, and can be configured for each store view. In addition to meta data for the page title, description, and keywords, the section includes a link to the favicon, and miscellaneous scripts. Instructions for search engine robots and the display of the store demo notice are also configured in this section.
 
-## To configure the HTML Head:
+{:.procedure}
+To configure the HTML Head:
 
 1. On the _Admin_ sidebar, go to **Content** > _Design_ > **Configuration**.
 
 1. Find the store view that you want to configure. Then, click **Edit** in the _Action_ column.
 
-1. Under **Other Settings**, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **HTML Head** section.
+1. Under **Other Settings**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **HTML Head** section.
 
 1. Update the fields as needed. (See the following Field Descriptions for more information about each item.)
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-![]({{ site.baseurl }}{% link images/images/config-design-html-head.png %}){: .zoom}
+![]({% link images/images/config-design-html-head.png %}){: .zoom}
 _HTML Head_
 
 ## Field Descriptions

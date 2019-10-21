@@ -2,9 +2,13 @@
 title: PayPal Payments Advanced
 ---
 
-PayPal Payments Advanced is a [PCI-compliant]({{ site.baseurl }}{% link stores/compliance-pci.md %}) solution that lets your customers pay by debit or credit card without leaving your site. It includes an embedded checkout page that can be customized to create a seamless and secure checkout experience.
+{:.bs-callout .bs-callout-warning}
+**Payment Services Directive Requirements:** <br/>
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, PayPal Payments Advanced must be integrated with Cardinal Commerce. To learn more, see [3-D Secure for Payflow](https://developer.paypal.com/docs/classic/payflow/3d-secure-overview/).
 
-![PayPal Payments Advanced]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced.png %}){: .zoom}
+PayPal Payments Advanced is a [PCI-compliant]({% link stores/compliance-pci.md %}) solution that lets your customers pay by debit or credit card without leaving your site. It includes an embedded checkout page that can be customized to create a seamless and secure checkout experience.
+
+![PayPal Payments Advanced]({% link images/images/config-sales-payment-methods-paypal-payments-advanced.png %}){: .zoom}
 _PayPal Payments Advanced_
 
 Even customers without a PayPal account can make purchases through PayPal’s secure payment gateway. Accepted cards include Visa, MasterCard, Switch/Maestro, and Solo credit cards in the United States and United Kingdom. For additional convenience, PayPal Express Checkout is included with PayPal Payments Advanced.
@@ -34,7 +38,7 @@ Processing orders with PayPal Payments Advanced is the same as for any regular P
 
 | **1** | **Customer Places Order** | In the final stage of checkout, the customer taps the Place Order button. |
 | **2** | **PayPal Responds** | PayPal evaluates the request. If found to be valid, PayPal processes the transaction.|
-| **3** | **Magento Sets Order Status** | Magento receives response from PayPal, and sets the order status to one of the following:<br/>**Processing** - The transaction was successful.<br/>**Pending Payment** - The system did not receive any response from PayPal.<br/>**Canceled** - The transaction was not successful for some reason.<br/>**Suspected Fraud** -  The transaction did not pass some of the [PayPal fraud filters]({{ site.baseurl }}{% link payment/paypal-fraud-management-filter.md %}). The system receives the response from PayPal that the transaction is under review by Fraud Service.
+| **3** | **Magento Sets Order Status** | Magento receives response from PayPal, and sets the order status to one of the following:<br/>**Processing** - The transaction was successful.<br/>**Pending Payment** - The system did not receive any response from PayPal.<br/>**Canceled** - The transaction was not successful for some reason.<br/>**Suspected Fraud** -  The transaction did not pass some of the [PayPal fraud filters]({% link payment/paypal-fraud-management-filter.md %}). The system receives the response from PayPal that the transaction is under review by Fraud Service.
 | **4** | **Merchant Fulfills Order** | The merchant invoices and ships the order.|
 
 ## Setting Up PayPal Payments Advanced
@@ -82,7 +86,7 @@ Processing orders with PayPal Payments Advanced is the same as for any regular P
 
 1. In the **Merchant Location** section, set **Merchant Country** to the country where your business is located. PayPal Payments Advanced is available only in the United States.
 
-   ![Merchant Country]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-merchant-location.png %}){: .zoom}
+   ![Merchant Country]({% link images/images/config-sales-payment-methods-merchant-location.png %}){: .zoom}
    _Merchant Country_
 
 1. In the **PayPal All-in-One Payments Solutions** section under<b> PayPal Payments Advanced</b>, tap <span class="btn">Configure</span>.
@@ -120,21 +124,21 @@ Processing orders with PayPal Payments Advanced is the same as for any regular P
 
 1. If you want to offer PayPal Credit to your customers, set **Enable PayPal Credit** to “Yes.”
 
-   ![PayPal Payments Advanced Required Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-required.png %}){: .zoom}
+   ![PayPal Payments Advanced Required Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-required.png %}){: .zoom}
    _PayPal Payments Advanced Required Settings_
 
 ### Step 3: Advertise PayPal Credit (Optional)
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Advertise PayPal Credit** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Advertise PayPal Credit** section. Then, do the following:
 
    - Tap **Get Publisher ID from PayPal**, and follow the instructions to get your account information.
 
    - Enter your **Publisher ID**.
 
-     ![Advertise PayPal Credit]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
+     ![Advertise PayPal Credit]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
      _Advertise PayPal Credit_
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Home Page** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Home Page** section. Then, do the following:
 
    - To place a banner on the page, set **Display** to “Yes.”
 
@@ -152,7 +156,7 @@ Processing orders with PayPal Payments Advanced is the same as for any regular P
      - 728 x 90
      - 800 x 66
 
-   ![Advertise PayPal Credit Home Page Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
+   ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
    _Advertise PayPal Credit Home Page Settings_
 
 1. Repeat the previous step for the remaining sections:
@@ -172,7 +176,7 @@ Processing orders with PayPal Payments Advanced is the same as for any regular P
    | **Authorization** | Approves the purchase, but puts a hold on the funds. The amount is not withdrawn until it is “captured” by the merchant. |
    | **Sale** | The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
 
-   ![PayPal Payments Advanced Basic Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-basic-settings.png %}){: .zoom}
+   ![PayPal Payments Advanced Basic Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-basic-settings.png %}){: .zoom}
    _PayPal Payments Advanced Basic Settings_
 
 ### Step 5: Complete the Advanced Settings
@@ -181,7 +185,7 @@ Processing orders with PayPal Payments Advanced is the same as for any regular P
 
    - Set **Payment Applicable From** to one of the following:
 
-     |**All Allowed Countries** |Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
+     |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
      |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
 
    * Set **Debug Mode** to “Yes” to write communications with the payment system into the log file. The log file for PayPal Payments Advanced is: payments_payflow_advanced.log.
@@ -204,14 +208,14 @@ Processing orders with PayPal Payments Advanced is the same as for any regular P
 
      The “Cancel” and “Return” URLs refer to the page where a customer returns after completing or canceling the payment part of the checkout process on the PayPal server.
 
-     ![Advanced Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-advanced-settings.png %}){: .zoom}
+     ![Advanced Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advanced-settings.png %}){: .zoom}
      _Advanced Settings_
 
 Complete the following as needed for your store:
 
 #### Settlement Report Settings
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Settlement Report Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Settlement Report Settings** section.
 
 1. Under **SFTP Credentials**, do the following:
 
@@ -243,14 +247,14 @@ Complete the following as needed for your store:
 
    - Set **Time of Day** to the hour, minute, and second when you want the reports to be generated.
 
-     ![PayPal Settlement Report Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
+     ![PayPal Settlement Report Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
      _PayPal Settlement Report Settings_
 
 #### Frontend Experience Settings
 
 The frontend experience settings give you the opportunity to choose which PayPal logos appear on your site, and to customize the appearance of your PayPal merchant pages.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Frontend Experience Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Frontend Experience Settings** section.
 
 1. Choose the **PayPal Product Logo** that you want to appear in the PayPal block in your store. The PayPal logos are available in four styles and two sizes. Options include:
 
@@ -279,16 +283,16 @@ The frontend experience settings give you the opportunity to choose which PayPal
      |**Header Border Color** |2-pixel border around the header. |
      |**Page Background Color** |Background color for the checkout page and around the header and payment form.|
 
-     ![PayPal Frontend Experience Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings.png %}){: .zoom}
+     ![PayPal Frontend Experience Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings.png %}){: .zoom}
      _PayPal Frontend Experience Settings_
 
 1. When complete, tap <span class="btn">Save Config</span>.
 
 ### Step 6:Configure Basic Settings - PayPal Express Checkout
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Basic Settings - PayPal Express Checkout** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Basic Settings - PayPal Express Checkout** section. Then, do the following:
 
-   ![PayPal Express Checkout Basic Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-advanced-express-checkout-basic-settings.png %}){: .zoom}
+   ![PayPal Express Checkout Basic Settings]({% link images/images/config-sales-payment-methods-paypal-advanced-express-checkout-basic-settings.png %}){: .zoom}
    _PayPal Express Checkout Basic Settings_
 
 1. Enter a **Title** to identify this payment method during checkout. It is recommended to set the title to “PayPal” for each store view.
@@ -304,19 +308,19 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
 ### **Step 7:** Configure Advanced Settings - PayPal Express Checkout
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Advanced Settings** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Advanced Settings** section. Then, do the following:
 
    - To make PayPal Express Checkout available from both the shopping cart and mini cart, set **Display on Shopping Cart** to “Yes.”
 
    - Set **Payment Applicable From** to one of the following:
 
-     |**All Allowed Countries** |Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
+     |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
      |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
 
    * Set **Debug Mode** to “Yes” to write communications with the payment system into the log file.
 
      {:.bs-callout .bs-callout-info}
-     In accordance with [PCI Data Security Standards]({{ site.baseurl }}{% link stores/compliance-pci.md %}), credit card information is not recorded in the log file.
+     In accordance with [PCI Data Security Standards]({% link stores/compliance-pci.md %}), credit card information is not recorded in the log file.
 
    - To enable host authenticity verification, set **Enable SSL Verification** to “Yes.”
 
@@ -324,7 +328,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
    - To allow the customer to complete the transaction from the PayPal site without returning to your Magento store for Order Review, set **Skip Order Review Step** to “Yes.”
 
-     ![PayPall Express Checkout Advanced Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-express-checkout-advanced.png %}){: .zoom}
+     ![PayPall Express Checkout Advanced Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-express-checkout-advanced.png %}){: .zoom}
      _PayPal Express Checkout Advanced Settings_
 
 1. When complete, tap <span class="btn">Save Config</span>.

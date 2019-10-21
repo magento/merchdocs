@@ -5,11 +5,11 @@ title: Shared Catalogs
 
 Magento gives you the ability to maintain gated “shared” catalogs with custom pricing for different companies. In addition to the standard “master” product catalog, Magento provides customer access to two types of shared catalogs with different pricing structures.
 
-If [Shared Catalog]({{ site.baseurl }}{% link stores/b2b-features.md %}) is enabled in the configuration, the original master catalog continues to be visible from the Admin, but only the “default” public shared catalog is visible from the storefront. In addition, custom catalogs can be created that are visible only to members of specific [company]({{ site.baseurl }}{% link customers/account-companies.md %}) accounts.
+If [Shared Catalog]({% link stores/b2b-features.md %}) is enabled in the configuration, the original master catalog continues to be visible from the Admin, but only the “default” public shared catalog is visible from the storefront. In addition, custom catalogs can be created that are visible only to members of specific [company]({% link customers/account-companies.md %}) accounts.
 
 The Shared Catalogs grid lists the shared catalogs that are currently in existence, and provides tools to create and maintain the catalogs.
 
-![]({{ site.baseurl }}{% link images/images-b2b/catalogs-shared-grid.png %}){: .zoom}
+![]({% link images/images-b2b/catalogs-shared-grid.png %}){: .zoom}
 *Shared Catalogs*
 
 ## To access the Shared Catalogs page:
@@ -45,7 +45,7 @@ The Shared Catalogs grid lists the shared catalogs that are currently in existen
          </tr>
          <tr>
             <td>Customer Tax Class</td>
-            <td>The tax class that is assigned to the corresponding customer group. The Customer Tax Class column doesn’t appear in the default grid, but can be added by changing the <a href="{{ site.baseurl }}{% link stores/admin-grid-layout.md %}">column layout</a>. </td>
+            <td>The tax class that is assigned to the corresponding customer group. The Customer Tax Class column doesn’t appear in the default grid, but can be added by changing the <a href="{% link stores/admin-grid-layout.md %}">column layout</a>. </td>
          </tr>
          <tr>
             <td>Created At</td>

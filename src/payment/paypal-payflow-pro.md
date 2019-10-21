@@ -2,9 +2,13 @@
 title: PayPal Payflow Pro
 ---
 
+{:.bs-callout .bs-callout-warning}
+**Payment Services Directive Requirements:** <br/>
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, PayPal Payflow Pro must be integrated with Cardinal Commerce. To learn more, see [3-D Secure for Payflow](https://developer.paypal.com/docs/classic/payflow/3d-secure-overview/).
+
 PayPal Payflow Pro gateway, formerly known as Verisign, is available for customers of the United States, Canada, Australia, and New Zealand. Unlike other PayPal payment methods, merchants are charged a fixed monthly fee, plus a fixed fee for each transaction, regardless of their number.
 
-![Checkout with PayPal]({{ site.baseurl }}{% link images/images/storefront-cart-paypal.png %}){: .zoom}
+![Checkout with PayPal]({% link images/images/storefront-cart-paypal.png %}){: .zoom}
 _Checkout with PayPal_
 
 ## Requirements
@@ -35,29 +39,29 @@ Before you begin, set up your PayPal Payments Advanced account on the PayPal web
 
 1. Log in to your PayPal [business account][2].
 
-   ![PayPal Manager Login]({{ site.baseurl }}{% link images/images/paypal-manager-login.png %}){: .zoom}
+   ![PayPal Manager Login]({% link images/images/paypal-manager-login.png %}){: .zoom}
    _PayPal Manager Login_
 
 1. In the PayPal Manager menu, choose **Service Settings**. Under **Hosted Checkout Pages**, click **Set Up**. Then, do the following:
 
-   ![Service Settings]({{ site.baseurl }}{% link images/images/paypal-manager-service-settings.png %}){: .zoom}
+   ![Service Settings]({% link images/images/paypal-manager-service-settings.png %}){: .zoom}
    _Service Settings_
 
    - Under **Choose your settings**, set **Transaction Process Mode** to “Live”.
 
    - Under **Display options on payment page**, set **Cancel URL Method** to “POST”.
 
-     ![Display Options on Payment Page]({{ site.baseurl }}{% link images/images/paypal-manager-service-settings-display-options-payment-page.png %}){: .zoom}
+     ![Display Options on Payment Page]({% link images/images/paypal-manager-service-settings-display-options-payment-page.png %}){: .zoom}
      _Display Options on Payment Page_
 
    - Under **Billing Information**, mark the card security code **CSC** checkboxes for both required and editable fields.
 
-     ![Billing Information]({{ site.baseurl }}{% link images/images/paypal-manager-billing-information.png %}){: .zoom}
+     ![Billing Information]({% link images/images/paypal-manager-billing-information.png %}){: .zoom}
      _Billing Information_
 
    - Under **Payment Confirmation**, set **Return URL Method** to “POST”.
 
-     ![Payment Confirmation]({{ site.baseurl }}{% link images/images/paypal-manager-payment-confirmation.png %}){: .zoom}
+     ![Payment Confirmation]({% link images/images/paypal-manager-payment-confirmation.png %}){: .zoom}
      _Payment Confirmation_
 
    - Under **Security Options**, make the following settings:
@@ -66,7 +70,7 @@ Before you begin, set up your PayPal Payments Advanced account on the PayPal web
      |**CSC** |No |
      |**Enable Secure Token** |Yes |
 
-     ![Security Options]({{ site.baseurl }}{% link images/images/paypal-manager-security-options.png %}){: .zoom}
+     ![Security Options]({% link images/images/paypal-manager-security-options.png %}){: .zoom}
      _Security Options_
 
    * When complete, tap <span class="btn">Save Changes</span>.
@@ -75,12 +79,12 @@ Before you begin, set up your PayPal Payments Advanced account on the PayPal web
 
    - Choose **Layout C**.
 
-     ![Customize Your Page]({{ site.baseurl }}{% link images/images/paypal-manager-service-settings-customize-your-page.png %}){: .zoom}
+     ![Customize Your Page]({% link images/images/paypal-manager-service-settings-customize-your-page.png %}){: .zoom}
      _Customize Your Page_
 
      Layout C shows only credit and debit card fields, and can either be framed on your site or used as a stand-alone popup. The size is fixed at 490 x 565 pixels, with extra space for error messages. On some systems, this setting corrects an issue with transparent redirect.
 
-     ![Layout C Example]({{ site.baseurl }}{% link images/images/paypal-manager-payflow-pro-layout-c-example.png %}){: .zoom}
+     ![Layout C Example]({% link images/images/paypal-manager-payflow-pro-layout-c-example.png %}){: .zoom}
      _Layout C Example_
 
    - Tap <span class="btn">Save and Publish</span>.
@@ -100,7 +104,7 @@ Before you begin, set up your PayPal Payments Advanced account on the PayPal web
 
    - To add another user to the account, click **Add User**. The link is located just above the Manage Users title.
 
-     ![Manage Users]({{ site.baseurl }}{% link images/images/paypal-manager-manage-users.png %}){: .zoom}
+     ![Manage Users]({% link images/images/paypal-manager-manage-users.png %}){: .zoom}
      _Manage Users_
 
    - Complete the required fields in the following sections of the Add User form:
@@ -114,7 +118,7 @@ Before you begin, set up your PayPal Payments Advanced account on the PayPal web
 
 ### Step 2: Complete the Required Settings
 
-1. Return to Magento to complete the required settings. If the [session lifetime]({{ site.baseurl }}{% link stores/admin-session-lifetime.md %}) timed out while you were working in PayPal Manager, you’ll have to log in again.
+1. Return to Magento to complete the required settings. If the [session lifetime]({% link stores/admin-session-lifetime.md %}) timed out while you were working in PayPal Manager, you’ll have to log in again.
 
 1. On the Admin sidebar, tap **Stores**. Then under **Settings**, choose **Configuration**, and do the following:
 
@@ -128,7 +132,7 @@ Before you begin, set up your PayPal Payments Advanced account on the PayPal web
 
 1. Under **PayPal Payment Gateways**, in the **PayPal Payflow Pro** section, tap <span class="btn">Configure</span>.
 
-   ![Configure]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payflow-pro.png %}){: .zoom}
+   ![Configure]({% link images/images/config-sales-payment-methods-paypal-payflow-pro.png %}){: .zoom}
    _Configure_
 
 1. In the **Required PayPal Settings** section under Payments Pro and Express Checkout, do the following:
@@ -160,28 +164,28 @@ Before you begin, set up your PayPal Payments Advanced account on the PayPal web
 
    A proxy is used when the server firewall prevents direct access to the PayPal server. In such a case, a third-party server is used to relay traffic.
 
-   ![Required Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payflow-pro-required-a.png %}){: .zoom}
+   ![Required Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-pro-required-a.png %}){: .zoom}
    _Required Settings_
 
 1. Set **Enable This Solution** to “Yes.”
 
 1. If you want to offer PayPal Credit to your customers, set **Enable PayPal Credit** to “Yes.”
 
-   ![Enable PayPal Payflow Pro]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payflow-pro-required-b.png %}){: .zoom}
+   ![Enable PayPal Payflow Pro]({% link images/images/config-sales-payment-methods-paypal-payflow-pro-required-b.png %}){: .zoom}
    _Enable PayPal Payflow Pro_
 
 ### Step 3: Advertise PayPal Credit (Optional)
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Advertise PayPal Credit** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Advertise PayPal Credit** section. Then, do the following:
 
    - Tap **Get Publisher ID from PayPal**, and follow the instructions to get your account information.
 
    - Enter your **Publisher ID**.
 
-     ![Advertise PayPal Credit]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
+     ![Advertise PayPal Credit]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
      _Advertise PayPal Credit_
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Home Page** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Home Page** section. Then, do the following:
 
    - To place a banner on the page, set **Display** to “Yes.”
 
@@ -199,7 +203,7 @@ Before you begin, set up your PayPal Payments Advanced account on the PayPal web
      - 728 x 90
      - 800 x 66
 
-   ![Advertise PayPal Credit Home Page Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
+   ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
    _Advertise PayPal Credit Home Page Settings_
 
 1. Repeat the previous step for the remaining sections:
@@ -224,16 +228,16 @@ Before you begin, set up your PayPal Payments Advanced account on the PayPal web
    {:.bs-callout .bs-callout-info}
    American Express requires an additional agreement.
 
-   ![Basic Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payflow-pro-basic-settings.png %}){: .zoom}
+   ![Basic Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-pro-basic-settings.png %}){: .zoom}
    _Basic Settings_
 
 ### Step 5: Complete the Advanced Settings
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Advanced Settings** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Advanced Settings** section. Then, do the following:
 
    - Set **Payment Applicable From** to one of the following:
 
-     |**All Allowed Countries** |Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
+     |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
      |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
 
    - Set **Debug Mode** to “Yes” to write communications with the payment system into the log file.
@@ -245,10 +249,10 @@ Before you begin, set up your PayPal Payments Advanced account on the PayPal web
 
    - To require that customers enter a CVV code, set **Require CVV Entry** to “Yes.”
 
-     ![Advanced Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payflow-pro-advanced-settings.png %}){: .zoom}
+     ![Advanced Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-pro-advanced-settings.png %}){: .zoom}
      _Advanced Settings_
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **CVV and AVS Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **CVV and AVS Settings** section.
 
 1. To determine when a transaction should be rejected when the Address Verification System identifies a mismatch, specify how to handle each of the following scenarios:
 
@@ -260,14 +264,14 @@ Before you begin, set up your PayPal Payments Advanced account on the PayPal web
 
    - To reject a transaction based on a mismatched CVV code, set **Card Security Code Does Not Match** to “Yes.”
 
-     ![CVV and AVS Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payflow-pro-advanced-settings-cvv-avs.png %}){: .zoom}
+     ![CVV and AVS Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-pro-advanced-settings-cvv-avs.png %}){: .zoom}
      _CVV and AVS Settings_
 
 1. Complete the following, as needed for your store:
 
 #### Settlement Report Settings
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Settlement Report Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Settlement Report Settings** section.
 
 1. If you have signed up for PayPal’s Secure FTP Server, enter the following SFTP login credentials:
 
@@ -298,14 +302,14 @@ Before you begin, set up your PayPal Payments Advanced account on the PayPal web
 
    - Set **Time of Day** to the hour, minute, and second when you want the reports to be generated.
 
-     ![PayPal Settlement Report Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
+     ![PayPal Settlement Report Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
      _PayPal Settlement Report Settings_
 
 #### Frontend Experience Settings
 
 The frontend experience settings give you the opportunity to choose which PayPal logos appear on your site, and to customize the appearance of your PayPal merchant pages.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Frontend Experience Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Frontend Experience Settings** section.
 
 1. Choose the **PayPal Product Logo** that you want to appear in the PayPal block in your store. The PayPal logos are available in four styles and two sizes. Options include:
 
@@ -334,12 +338,12 @@ The frontend experience settings give you the opportunity to choose which PayPal
      |**Header Border Color** |2-pixel border around the header. |
      |**Page Background Color** |Background color for the checkout page and around the header and payment form.|
 
-     ![PayPal Frontend Experience Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings.png %}){: .zoom}
+     ![PayPal Frontend Experience Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings.png %}){: .zoom}
      _PayPal Frontend Experience Settings_
 
 ### Step 6: Basic Settings - PayPal Express Checkout
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Basic Settings - PayPal Express Checkout** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Basic Settings - PayPal Express Checkout** section.
 
 1. Enter a **Title** to identify this payment method during checkout. It is recommended to set the title to “PayPal” for each store view.
 
@@ -352,7 +356,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
 1. To display the “Check out with PayPal” button on the product page, set **Display on Product Details Page** to “Yes.”
 
-   ![Express Checkout Basic Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-pro-express-checkout-basic-settings.png %}){: .zoom}
+   ![Express Checkout Basic Settings]({% link images/images/config-sales-payment-methods-paypal-payments-pro-express-checkout-basic-settings.png %}){: .zoom}
    _Express Checkout Basic Settings_
 
 ### **Step 7:** Advanced Settings - PayPal Express Checkout
@@ -363,7 +367,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
    - Set **Payment Applicable From** to one of the following:
 
-     |**All Allowed Countries** |Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
+     |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
      |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
 
 
@@ -378,14 +382,14 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
    - To allow the customer to complete the transaction from the PayPal site without returning to your Magento store for Order Review, set **Skip Order Review Step** to “Yes.”
 
-     ![Express Checkout Advanced Setting]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-pro-express-checkout-advanced-settings.png %}){: .zoom}
+     ![Express Checkout Advanced Setting]({% link images/images/config-sales-payment-methods-paypal-payments-pro-express-checkout-advanced-settings.png %}){: .zoom}
      _Express Checkout Advanced Settings_
 
 1. When complete, tap <span class="btn">Save Config</span>.
 
 ### **Step 8:** Add Google reCAPTCHA 
 
-To better protect PayPal PayFlow Pro checkout, enable Google reCAPTCHA. It includes options to run reCAPTCHA using a clickable interface or an invisible check to validate the customer. We recommend the invisible option to increase sales conversion and protect your store. For details, see [Google reCAPTCHA]({{ site.baseurl }}{% link stores/security-google-recaptcha.md %}).
+To better protect PayPal PayFlow Pro checkout, enable Google reCAPTCHA. It includes options to run reCAPTCHA using a clickable interface or an invisible check to validate the customer. We recommend the invisible option to increase sales conversion and protect your store. For details, see [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).
 
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
 [2]: https://manager.paypal.com/

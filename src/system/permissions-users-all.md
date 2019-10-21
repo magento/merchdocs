@@ -7,10 +7,10 @@ When your store is first installed, a default Admin account is created with logi
 If there are others on your team, or service providers who need access, you can create a separate user account for each, and assign restricted access based on their business need to know. To limit the websites or stores that admin users can access when they log in, you must first create a role with limited scope and access only to the necessary resources. Then, you can assign the role to a specific user account. Admin users who are assigned to a restricted role can see and change data only for websites or stores that are associated with the role. They cannot make changes to any global settings or data.
 
 <!--{% if "Default.CE Only,Default.EE Screenshot" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/merchant-admin-users.png %}){: .zoom}
+![]({% link images/images/merchant-admin-users.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-b2b/merchant-admin-users.png %}){: .zoom}
+![]({% link images/images-b2b/merchant-admin-users.png %}){: .zoom}
 <!--{% endif %}-->
 _Example Admin Users_
 
@@ -24,7 +24,7 @@ _Example Admin Users_
 
 1.  In the _Account Information_ section, do the following:
 
-    ![]({{ site.baseurl }}{% link images/images/system-permissions-user-new.png %}){: .zoom}
+    ![]({% link images/images/system-permissions-user-new.png %}){: .zoom}
     _New User Account Information_
 
     -  Enter the **User Name** for account.
@@ -52,7 +52,7 @@ _Example Admin Users_
 
 1.  Under _Current User Identity Verification_, enter **Your Password**.
 
-    ![]({{ site.baseurl }}{% link images/images/permissions-user-current-user-identity.png %})
+    ![]({% link images/images/permissions-user-current-user-identity.png %})
     _Current User Identity Verification_
 
 ## Step 2: Define the Role
@@ -65,7 +65,7 @@ _Example Admin Users_
 
     You now have two accounts with Administrator access.
 
-    ![]({{ site.baseurl }}{% link images/images/permissions-user-roles.png %}){: .zoom}
+    ![]({% link images/images/permissions-user-roles.png %}){: .zoom}
     _Add New User Role_
 
     <table>
@@ -79,7 +79,7 @@ _Example Admin Users_
       <tbody>
          <tr>
             <td>Password</td>
-            <td>An Admin password must be seven or more characters long, and include both letters and numbers. For additional password options, see: <a href="{{ site.baseurl }}{% link stores/security-admin.md %}">Configuring Admin Security</a>.</td>
+            <td>An Admin password must be seven or more characters long, and include both letters and numbers. For additional password options, see: <a href="{% link stores/security-admin.md %}">Configuring Admin Security</a>.</td>
          </tr>
       </tbody>
     </table>

@@ -13,5 +13,5 @@ The Search box in the header of the store helps visitors find products in your c
 
 1. Either press the **Enter** key or tap a result in the list of matching products.
 
-    ![]({{ site.baseurl }}{% link images/images/storefront-search-box.png %}){: .zoom}
+    ![]({% link images/images/storefront-search-box.png %}){: .zoom}
     *Search*

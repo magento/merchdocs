@@ -19,8 +19,8 @@ You can modify the template that determines the format of customer billing and s
 #{address attribute code} or User Interface label #{address attribute code}
 ```
 
-![]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-address-templates.png %}){: .zoom}
-[_Address Templates_]({{ site.baseurl }}{% link configuration/customers/customer-configuration.md %})
+![]({% link images/images/config-customers-customer-configuration-address-templates.png %}){: .zoom}
+[_Address Templates_]({% link configuration/customers/customer-configuration.md %})
 
 ## To change the order of address fields
 
@@ -28,7 +28,7 @@ You can modify the template that determines the format of customer billing and s
 
 1. In the panel on the left, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Address Templates** section. 
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Address Templates** section. 
 
    The section includes a separate set of formatting instructions for each of the following:
 

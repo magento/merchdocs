@@ -5,11 +5,11 @@ title: 'Intelligent Repricing Rule: Competitor Conditional Variances'
 
 Sections of an intelligent repricing rule include:
 
-- [Select Rule Type]({{ site.baseurl }}{% link sales-channels/amazon/intelligent-repricing-rules.md %})
+- [Select Rule Type]({% link sales-channels/amazon/intelligent-repricing-rules.md %})
 - **Competitor Conditional Variances**
-- [Price Adjustment]({{ site.baseurl }}{% link sales-channels/amazon/price-adjustment.md %})
-- [Floor Price]({{ site.baseurl }}{% link sales-channels/amazon/floor-price.md %})
-- [Optional Ceiling Price]({{ site.baseurl }}{% link sales-channels/amazon/optional-ceiling-price.md %})
+- [Price Adjustment]({% link sales-channels/amazon/price-adjustment.md %})
+- [Floor Price]({% link sales-channels/amazon/floor-price.md %})
+- [Optional Ceiling Price]({% link sales-channels/amazon/optional-ceiling-price.md %})
 
 An intelligent repricing rule uses Amazon competitors' pricing to determine your listing price. Competitors are other sellers that are listing the same products you are listing on Amazon.
 
@@ -21,7 +21,7 @@ For example, if you have a product listed with the condition Used; Good, and the
 
 {% include amazon-intelligent-pricing-condition-variances-configure.md %}
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-competitor-cond-variances.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-competitor-cond-variances.png %}){: .zoom}
 _Intelligent Repricing Rule: Competitor Conditional Variances_
 
 |Field|Description|
@@ -36,18 +36,18 @@ _Intelligent Repricing Rule: Competitor Conditional Variances_
 
 The formula for calculating conditional variance base is as follows:
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-cond-variance-calc-1.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-cond-variance-calc-1.png %}){: .zoom}
 
 ## Example:
 
 The conditional variance settings are as follows:
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-cond-variances.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-cond-variances.png %}){: .zoom}
 
 - BMC = 100 (Competitor condition = New)
 - MCV = 80 (Merchant condition = Used; Good)
 - BMP = $7.99 (Base match price = The lowest price of the matched competitor condition)
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-cond-variance-calc-2.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-cond-variance-calc-2.png %}){: .zoom}
 
-Using the conditional variance base calculation from above, our conditional variance base = $6.39. This will be the competitor price source used for our price rule actions, explained further in [Price Adjustment]({{ site.baseurl }}{% link sales-channels/amazon/price-adjustment.md %}).
+Using the conditional variance base calculation from above, our conditional variance base = $6.39. This will be the competitor price source used for our price rule actions, explained further in [Price Adjustment]({% link sales-channels/amazon/price-adjustment.md %}).

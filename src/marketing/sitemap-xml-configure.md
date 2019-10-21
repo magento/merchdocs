@@ -10,7 +10,7 @@ Your site map should be updated as frequently as the content on your site change
 
 1. In the panel on the left under **Catalog**, choose **XML Sitemap**.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Categories Options** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Categories Options** section. Then, do the following:
 
     * Set **Frequency** to one of the following:
 
@@ -24,8 +24,8 @@ Your site map should be updated as frequently as the content on your site change
 
     * In the **Priority** field, enter a value between 0.0 and 1.0. Zero has the lowest priority.
 
-    ![]({{ site.baseurl }}{%- link images/images/config-catalog-xml-sitemap-categories-options.png -%}){: .zoom}
-    [*Categories Options*]({{ site.baseurl }}{%- link configuration/catalog/xml-sitemap.md -%})
+    ![]({% link images/images/config-catalog-xml-sitemap-categories-options.png %}){: .zoom}
+    [*Categories Options*]({% link configuration/catalog/xml-sitemap.md -%})
 
 1. Click to expand the **Products Options** section. Then, complete the **Frequency** and **Priority** settings as needed.
 
@@ -35,22 +35,22 @@ Your site map should be updated as frequently as the content on your site change
     * Base Only
     * All
 
-    ![]({{ site.baseurl }}{%- link images/images/config-catalog-xml-sitemap-products-options.png -%}){: .zoom}
-    [*Products Options*]({{ site.baseurl }}{%- link configuration/catalog/xml-sitemap.md -%})
+    ![]({% link images/images/config-catalog-xml-sitemap-products-options.png %}){: .zoom}
+    [*Products Options*]({% link configuration/catalog/xml-sitemap.md -%})
 
 1. Click to expand the **CMS Pages Options** section. Then, complete the **Frequency** and **Priority** settings as needed.
 
-    ![]({{ site.baseurl }}{%- link images/images/config-catalog-xml-sitemap-cms-pages-options.png -%}){: .zoom}
-    [*CMS Pages Options*]({{ site.baseurl }}{%- link configuration/catalog/xml-sitemap.md -%})
+    ![]({% link images/images/config-catalog-xml-sitemap-cms-pages-options.png %}){: .zoom}
+    [*CMS Pages Options*]({% link configuration/catalog/xml-sitemap.md -%})
 
 1. When complete, tap <span class="btn">Save Config</span>.
 
 ## Step 2. Complete the Generation Settings
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Generation Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Generation Settings** section.
 
-    ![]({{ site.baseurl }}{%- link images/images/config-catalog-xml-sitemap-generation-settings.png -%}){: .zoom}
-    [*Generation Settings*]({{ site.baseurl }}{%- link configuration/catalog/xml-sitemap.md -%})
+    ![]({% link images/images/config-catalog-xml-sitemap-generation-settings.png %}){: .zoom}
+    [*Generation Settings*]({% link configuration/catalog/xml-sitemap.md -%})
 
 1. To generate a sitemap, set **Enabled** to “Yes". Then, do the following:
 
@@ -70,22 +70,22 @@ Your site map should be updated as frequently as the content on your site change
 
 ## Step 3. Set the Site Map File Limits
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Sitemap File Limits** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Sitemap File Limits** section. Then, do the following:
 
     * In the **Maximum No of URLs per File** field, enter the maximum number of URLs that can be included in the sitemap. By default, the limit is 50,000.
 
     * In the **Maximum File Size** field, enter the largest size in bytes that is allocated for the sitemap. The default size is 10,485,760 bytes.
 
-    ![]({{ site.baseurl }}{%- link images/images/config-catalog-xml-sitemap-sitemap-file-limits.png -%}){: .zoom}
-    [*Sitemap File Limits*]({{ site.baseurl }}{%- link configuration/catalog/xml-sitemap.md -%})
+    ![]({% link images/images/config-catalog-xml-sitemap-sitemap-file-limits.png %}){: .zoom}
+    [*Sitemap File Limits*]({% link configuration/catalog/xml-sitemap.md -%})
 
 ## Step 4. Set the Search Engine Submission Settings
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Search Engine Submission Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Search Engine Submission Settings** section.
 
 1. If using a robots.txt file to provide instructions to search engines that crawl your site, set **Enable Submission to Robots.txt** to “Yes".
 
-    ![]({{ site.baseurl }}{%- link images/images/config-catalog-xml-sitemap-search-engine-submission-settings.png -%}){: .zoom}
-    [*Search Engine Submission Settings*]({{ site.baseurl }}{%- link configuration/catalog/xml-sitemap.md -%})
+    ![]({% link images/images/config-catalog-xml-sitemap-search-engine-submission-settings.png %}){: .zoom}
+    [*Search Engine Submission Settings*]({% link configuration/catalog/xml-sitemap.md -%})
 
 1. When complete, tap <span class="btn">Save Config</span>.

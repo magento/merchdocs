@@ -2,14 +2,14 @@
 title: Admin
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Advanced]({{ site.baseurl }}{% link configuration/advanced.md %}) > Admin
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Advanced]({% link configuration/advanced.md %}) > Admin
 
 ## Admin User Emails
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-admin-admin-user-emails.png %}){: .zoom}
-[_Admin User Emails_]({{ site.baseurl }}{% link stores/admin-email-templates-configure.md %})
+![]({% link images/images/config-advanced-admin-admin-user-emails.png %}){: .zoom}
+[_Admin User Emails_]({% link stores/admin-email-templates-configure.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Forgot Password Email Template|Global|Identifies the email template that is used for the message that is sent when an Admin users forget their passwords. Default template: Forgot Admin Password|
 |Forgot and Reset Email Sender|Global|Identifies the store contact that appears as the sender of the Forgot Password email. Default sender: General Contact|
@@ -17,19 +17,19 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 
 ## Startup Page
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-admin-startup-page.png %}){: .zoom}
-[_Startup Page_]({{ site.baseurl }}{% link stores/admin-dashboard.md %})
+![]({% link images/images/config-advanced-admin-startup-page.png %}){: .zoom}
+[_Startup Page_]({% link stores/admin-dashboard.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Startup Page|Global|Determines the Admin landing page that appears after you log in.|
 
 ## Admin Base URL
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-admin-admin-base-url.png %}){: .zoom}
-[_Admin Base URL_]({{ site.baseurl }}{% link stores/store-urls.md %})
+![]({% link images/images/config-advanced-admin-admin-base-url.png %}){: .zoom}
+[_Admin Base URL_]({% link stores/store-urls.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Use Custom Admin URL|Global|Determines if a custom URL is used to access the Magento Admin. Options: Yes / No|
 |Custom Admin URL|Global|Specifies a custom URL to access the Magento Admin. By default, the Admin URL is the same as the base URL.  <br/>**Important:** The Admin URL must be in the same Magento installation, and have the same document root as the storefront.|
@@ -38,10 +38,10 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 
 ## Security
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-admin-security.png %}){: .zoom}
-[_Security_]({{ site.baseurl }}{% link stores/security-admin.md %})
+![]({% link images/images/config-advanced-admin-security.png %}){: .zoom}
+[_Security_]({% link stores/security-admin.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Admin Account Sharing|Global|Determines if an Admin user(s) can be logged in to the same account simultaneously from different devices. Options: <br/>**Yes** - Allows multiple active sessions from the same Admin account. <br/>**No** - Allows only one active session per Admin account.|
 |Password Reset Protection Type|Global|Determines the method that is used to manage password reset requests. Options: <br/>**By IP and Email** - The password can be reset online after a response is received from the notification is sent to the email address associated with the Admin account. <br/>**By IP** - The password can be reset online without additional confirmation. <br/>**By Email** - The password can be reset only by responding by email to the notification that is sent to the email address associated with the Admin account. <br/>**None** - The password can be reset only by the store administrator.|
@@ -58,19 +58,19 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 
 ## Dashboard
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-admin-dashboard.png %}){: .zoom}
-[_Dashboard_]({{ site.baseurl }}{% link stores/admin-dashboard.md %})
+![]({% link images/images/config-advanced-admin-dashboard.png %}){: .zoom}
+[_Dashboard_]({% link stores/admin-dashboard.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable Charts|Global|Determines if the dashboard includes a chart generated from current sales data. Options: Yes / No|
 
 ## CAPTCHA
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-admin-captcha.png %}){: .zoom}
-[_CAPTCHA_]({{ site.baseurl }}{% link stores/security-captcha.md %})
+![]({% link images/images/config-advanced-admin-captcha.png %}){: .zoom}
+[_CAPTCHA_]({% link stores/security-captcha.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable CAPTCHA in Admin|Website|Enables CAPTCHA for the Admin login. Options: Yes /  No|
 |Font|Website|Determines the font that is used to display the CAPTCHA. To add your own font, put the font file in the same directory as your Magento instance, and add the declaration to the config.xml file at: `app/code/Magento/Captcha/etc` Default font: LinLibertine|
@@ -85,11 +85,19 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 <!--{% if "Default.EE Only" contains site.edition %}-->
 ## Admin Actions Logging
 
- ![]({{ site.baseurl }}{% link images/images/config-advanced-admin-actions-logging.png %}){: .zoom}
- [_Admin Actions Logging_]({{ site.baseurl }}{% link system/action-log-archive.md %})
+![]({% link images/images/config-advanced-admin-actions-logging.png %}){: .zoom}
+[_Admin Actions Logging_]({% link system/action-log-archive.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable Actions|Global|Enables action logging for each of the selected actions: <br/>Admin My Account <br/>Admin Permission Roles <br/>Admin Permission Users <br/>Admin Sign In <br/>CMS Blocks <br/>CMS Hierarchy <br/>CMS Pages <br/>Cache Management <br/>Catalog Attributes <br/>Catalog Categories <br/>Catalog Events <br/>Catalog Price Rules <br/>Catalog Product Tax Classes <br/>Catalog Product Templates <br/>Catalog Products <br/>Catalog Ratings <br/>Catalog Reviews <br/>Catalog Search <br/>Checkout Terms and Conditions <br/>Custom Variables <br/>Customer Groups <br/>Customer Invitations <br/>Customer Tax Classes <br/>Customers <br/>Gift Card Accounts <br/>Gift Registry Entity <br/>Gift Registry Type <br/>Index Management <br/>Manage Currency Rates <br/>Manage Customer Address Attributes <br/>Manage Customer Attributes <br/>Manage Design <br/>Manage Dynamic Blocks <br/>Manage Segments <br/>Manage Store Views <br/>Manage Stores <br/>Manage Websites <br/>Newsletter Queue <br/>Newsletter Subscribers <br/>Newsletter Templates <br/>PayPal Settlement Reports <br/>Reports <br/> Reward Points Rates <br/>Rule-Based Product Relations <br/>Sales Archive <br/>Sales Credit Memos <br/>Sales Invoices <br/>Sales Order Status <br/>Sales Orders <br/>Sales Shipments <br/>Shopping Cart Management <br/>Store Credit <br/>System Backups <br/>System Configuration <br/>Tax Rates <br/>Tax Rules <br/>Transactional Emails <br/>URL Rewrites <br/>Widget <br/>XML Sitemap|
-
 <!--{% endif %}-->
+
+## Admin Usage
+
+![Admin Usage]({% link images/images/config-advanced-admin-usage.png %}){: .zoom}
+_Admin Usage_
+
+Field | Scope | Description
+--- | --- | ---
+Enable Admin Usage Tracking | Global | When set to **Yes**, Magento anonymously tracks how administrators interact with the Admin to help improve the user experience. This setting applies to all administrator accounts and persists after Magento upgrades.

@@ -19,7 +19,7 @@ If you open an exported CSV file in a text editor, you will see that values are
 
 A full export of the product database contains information about each product in the catalog, and the relationships between them. Each record has fixed selection of columns that corresponds to the attributes in the catalog, although the order of the attributes is ignored during the import process.
 
-![]({{ site.baseurl }}{% link images/images/data-transfer-csv-openoffice.png %}){: .zoom}
+![]({% link images/images/data-transfer-csv-openoffice.png %}){: .zoom}
 _Exported Product CSV in OpenOffice Calc_
 
 The first row of the table contains the names of each attribute, which are used as column headers. The remaining rows describe the individual product records. Any row that begins with a value in the SKU column is the beginning of a new product record. A single product might include several rows that contain information about multiple images or product options. The next row that has a value in the SKU column begins a new product.
@@ -30,9 +30,9 @@ The category column contains a path for each category to which the product is as
 
 To import data, you need to include only the SKU and any columns with changes. Any blank columns are ignored during the import process. It is not possible to add attributes during the import process. You can include only existing attributes.
 
-For a detailed description of each product attribute, see: [Product CSV File Structure]({{ site.baseurl }}{% link system/data-attributes-product.md %}).
+For a detailed description of each product attribute, see: [Product CSV File Structure]({% link system/data-attributes-product.md %}).
 
-![]({{ site.baseurl }}{% link images/images/data-transfer-csv-product-notepad++.png %}){: .zoom}
+![]({% link images/images/data-transfer-csv-product-notepad++.png %}){: .zoom}
 _Exported Product CSV in Notepad++_
 
 **CSV Product Structure**
@@ -47,16 +47,16 @@ Column Name | Description
 
 The customers CSV file contains customer information from the database, and has the following structure:
 
-![]({{ site.baseurl }}{% link images/images/data-transfer-cvs-customer-openoffice.png %}){: .zoom}
+![]({% link images/images/data-transfer-cvs-customer-openoffice.png %}){: .zoom}
 _Exported Customer CSV in OpenOffice Calc_
 
 The first row of the table contains the names of the attribute columns (which are the same as attribute codes). There are two types of column names, as shown in the following table. Other rows contain attribute values, service data, and complex data. Each row with non-empty values in the `email` and `_website` columns starts the description of the subsequent customer. Each row can represent customer data with or without address data, or the address data only. In case a row contains only the address data, values in the columns, related to the customer profile, will be ignored and may be empty.
 
 To add or replace more than one address for a customer, in the import file add a row for each new address with empty customer data and the new or updated address data below the customer data row.
 
-For a detailed description of each customer attribute, see: [Customer CSV File Structure]({{ site.baseurl }}{% link system/data-attributes-customer.md %}).
+For a detailed description of each customer attribute, see: [Customer CSV File Structure]({% link system/data-attributes-customer.md %}).
 
-![]({{ site.baseurl }}{% link images/images/data-transfer-csv-notepad++customer.png %}){: .zoom}
+![]({% link images/images/data-transfer-csv-notepad++customer.png %}){: .zoom}
 _Exported Customer CSV in Notepad++_
 
 **CSV Customer Structure**

@@ -2,14 +2,17 @@
 title: PayPal Payments Advanced
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > [Payment Methods]({{ site.baseurl }}{% link configuration/sales/payment-methods.md %}) > PayPal Payments Advanced
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > PayPal Payments Advanced
+
+**Payment Services Directive Requirements:** <br/>
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, PayPal Payments Advanced must be integrated with Cardinal Commerce. To learn more, see [3-D Secure for Payflow](https://developer.paypal.com/docs/classic/payflow/3d-secure-overview/).
 
 ## Required Settings
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-required.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-required.png %}){: .zoom}
 _Required Settings_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Email Associated with PayPal Merchant Account (Optional)|Website|Any email addresses that are associated with your PayPal merchant account. Email addresses are case sensitive, and must exactly match the addresses that are in your account.|
 |Partner|Website|Your PayPal Partner ID, if applicable.|
@@ -23,10 +26,10 @@ _Required Settings_
 
 ## Advertise PayPal Credit
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
 _Advertise PayPal Credit_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Publisher ID|Website|The Publisher ID associated with your PayPal Credit account.|
 |Get Publisher ID from PayPal||Fetches your Publisher ID from PayPal.|
@@ -37,10 +40,10 @@ _Advertise PayPal Credit_
 
 ## Basic Settings
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-basic-settings.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-basic-settings.png %}){: .zoom}
 _Basic Settings_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Title|Store View|A name that identifies PayPal Payments Advanced as a payment method during checkout.|
 |Sort Order|Store View|A number that determines the order in which PayPal Payments Advanced appears when listed with other payment methods during checkout.|
@@ -48,10 +51,10 @@ _Basic Settings_
 
 ## Advanced Settings
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-advanced-settings2.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advanced-settings2.png %}){: .zoom}
 _Advanced Settings_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Payment Applicable From|Website|Determines the range of the applicable country selection. Options: All Allowed Countries / Specific Countries|
 |Countries Payment Applicable From|Website|Identifies each country from which payment is accepted. Only customers with a billing address in a selected country can make purchases with this payment method.|
@@ -64,10 +67,10 @@ _Advanced Settings_
 
 ## Settlement Report Settings
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
 _Settlement Report Settings_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |**SFTP Credentials**|||
 |Login|Website|Your user name that is required to log in to PayPal’s Secure FTP Server.|
@@ -82,10 +85,10 @@ _Settlement Report Settings_
 
 ## Frontend Experience Settings
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings.png %}){: .zoom}
 _Frontend Experience Settings_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |PayPal Product Logo|Store View|Determines the PayPal logo that appears in your store. There are four basic style in two sizes. Options: <br/>No Logo<br/>We prefer PayPal (150 x 60)<br/>We prefer PayPal (150 x 40)<br/>Now accepting PayPal (150 x 60)<br/>Now accepting PayPal (150 x 40)<br/>Payments by PayPal (150 x 60)<br/>Payments by PayPal (150 x 40)<br/>Shop now using (150 x 60)<br/>Shop now using (150 x 40)|
 |**PayPal Merchant Pages Style**|||
@@ -97,10 +100,10 @@ _Frontend Experience Settings_
 
 ## Basic Settings - PayPal Express Checkout
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-advanced-express-checkout-basic-settings.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-paypal-advanced-express-checkout-basic-settings.png %}){: .zoom}
 _PayPal Express Checkout Basic Settings_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Title|Store View|A name that identifies the PayPal Express Checkout payment method during checkout.|
 |Sort Order|Store View|A number that determines the order in which PayPal Express Checkout appears when listed with other payment methods during checkout. Enter 0 for the top of the list.|
@@ -109,10 +112,10 @@ _PayPal Express Checkout Basic Settings_
 
 ## PayPal Express Checkout - Advanced Settings
 
-![]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-express-checkout-advanced.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-express-checkout-advanced.png %}){: .zoom}
 _PayPal Express Checkout Advanced Settings_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Display on Shopping Cart|Store View|Determines if PayPal Express Checkout appears as a payment option in the shopping cart. Options: Yes (Recommended) / No|
 |Payment Action Applicable From|Website|Determines the range of the applicable country selection. Options: All Allowed Countries / Specific Countries|

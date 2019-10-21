@@ -6,15 +6,15 @@ The best way to understand how configurable product data is structured, is to ex
 
 In the following example, you add a set of product variations for a new size in each color. First, you export the configurable product, and examine the data structure. Then, you update the data and import it back into the catalog. If you do not want to go through the exercise of exporting the data, you can download the CSV file that is used in the example.
 
-![]({{ site.baseurl }}{% link images/images/storefront-hoodie-new-size.png %}){: .zoom}
+![]({% link images/images/storefront-hoodie-new-size.png %}){: .zoom}
 _New Size Variation Added for Each Color_
 
 ## Step 1: Verify Attribute Settings and Values
 
 1. Before you begin, make sure that the attributes that are used for product variations have the required property settings.
 
-    - [Scope]({{ site.baseurl }}{% link configuration/scope.md %})—Global
-    - [Catalog Input Type for Store Owner]({{ site.baseurl }}{% link stores/attributes-product.md %})—The input type of any attribute that is used for a product variation must be one of the following:
+    - [Scope]({% link configuration/scope.md %})—Global
+    - [Catalog Input Type for Store Owner]({% link stores/attributes-product.md %})—The input type of any attribute that is used for a product variation must be one of the following:
 
         * Dropdown
         * Visual Swatch
@@ -33,12 +33,12 @@ _New Size Variation Added for Each Color_
 
 1. Add the new value to the attribute. In the following example, a new size is added to a Text Swatch.
 
-    ![]({{ site.baseurl }}{% link images/images/data-transfer-configurable-product-add-new-attribute-value.png %}){: .zoom}
+    ![]({% link images/images/data-transfer-configurable-product-add-new-attribute-value.png %}){: .zoom}
     _Add New Value_
 
 1. When complete, click **Save Attribute**.
 
-1. If you are adding a new attribute, follow the instructions to [create the attribute]({{ site.baseurl }}{% link stores/attribute-product-create.md %}) before you begin.
+1. If you are adding a new attribute, follow the instructions to [create the attribute]({% link stores/attribute-product-create.md %}) before you begin.
 
 ## Step 2: Export the Configurable Product
 
@@ -60,21 +60,21 @@ _New Size Variation Added for Each Color_
 
     - Set **Export File Format** to `CSV`.
 
-    ![]({{ site.baseurl }}{% link images/images/data-transfer-export-settings.png %}){: .zoom}
+    ![]({% link images/images/data-transfer-export-settings.png %}){: .zoom}
     _Export Settings_
 
 1. Under **Entity Attributes**, scroll down to **SKU**. Then, do the following:
 
     - Enter the **SKU** of the configurable product that you have chosen to export, and click **Continue**.
 
-    ![]({{ site.baseurl }}{% link images/images/data-transfer-export-sku.png %}){: .zoom}
+    ![]({% link images/images/data-transfer-export-sku.png %}){: .zoom}
     _SKU_
 
     - When the export file appears at the bottom of the window, click **Open**.
 
     - When opened in a spreadsheet, the CSV file has a separate row for each simple product variation, and one row for the configurable product. The `product_type column` shows multiple simple product variations that are associated with one configurable product.
 
-        ![]({{ site.baseurl }}{% link images/images/data-transfer-csv-configurable-product.png %}){: .zoom}
+        ![]({% link images/images/data-transfer-csv-configurable-product.png %}){: .zoom}
         _Configurable Product with Variations_
 
     - Scroll to the far right of the worksheet to find the following columns. In this example, the data can be found in columns CG and CH.
@@ -100,7 +100,7 @@ _New Size Variation Added for Each Color_
         ```
         {: .no-copy}
 
-1. When you understand the structure of configurable product data, you can edit the data, or add new variations directly to the CSV file. To learn more, see [Complex Data]({{ site.baseurl }}{% link system/data-complex.md %}).
+1. When you understand the structure of configurable product data, you can edit the data, or add new variations directly to the CSV file. To learn more, see [Complex Data]({% link system/data-complex.md %}).
 
 ## Step 3: Edit the Data
 
@@ -108,12 +108,12 @@ In the following example, the set of XL sizes is copied and pasted into the work
 
 1. Copy the set of product variations that you want to use as a template for the new products.
 
-    ![]({{ site.baseurl }}{% link images/images/data-transfer-export-configurable-copy-rows.png %}){: .zoom}
+    ![]({% link images/images/data-transfer-export-configurable-copy-rows.png %}){: .zoom}
     _Copy Product Variations_
 
 1. Insert the copied rows records into the worksheet. You now have two identical sets of the simple product variations.
 
-    ![]({{ site.baseurl }}{% link images/images/data-transfer-export-configurable-copy-rows.png %}){: .zoom}
+    ![]({% link images/images/data-transfer-export-configurable-copy-rows.png %}){: .zoom}
     _Paste New Product Variations into CSV File_
 
 1. Update the data in the following columns of the new variations, as needed. For this example, all the “XL” references are changed to “XXL”.
@@ -127,7 +127,7 @@ In the following example, the set of XL sizes is copied and pasted into the work
 
     - On the row with the configurable product record, click the cell that contains the `product_variations` data. Then in the formula bar, copy the last set of parameters, beginning with the pipe symbol.
 
-        ![]({{ site.baseurl }}{% link images/images/data-transfer-export-configurable-product-product-variations-data.png %}){: .zoom}
+        ![]({% link images/images/data-transfer-export-configurable-product-product-variations-data.png %}){: .zoom}
         _product_variations_
 
 1. Paste the parameters to the end of the data. Then, edit as needed for the new variations. In this example, the `sku` and `size` parameters are updated for the new “XXL” size.
@@ -136,7 +136,7 @@ In the following example, the set of XL sizes is copied and pasted into the work
 
     In this example. only the three new variations for the new size, and the row with the updated configurable product are imported back into the catalog. The other rows can be deleted from the CSV file. However, make sure not to delete the header row with column labels.
 
-    ![]({{ site.baseurl }}{% link images/images/data-transfer-csv-configurable-product-data-ready-to-import.png %}){: .zoom}
+    ![]({% link images/images/data-transfer-csv-configurable-product-data-ready-to-import.png %}){: .zoom}
     _Data Ready to Import_
 
 1. **Save** the CSV file. The data is ready to import into the catalog.
@@ -152,24 +152,24 @@ In the following example, the set of XL sizes is copied and pasted into the work
 
 1. Under _Import Settings_, set **Entity Type** to `Products`.
 
-    ![]({{ site.baseurl }}{% link images/images/data-transfer-configurable-product-import-settings.png %}){: .zoom}
+    ![]({% link images/images/data-transfer-configurable-product-import-settings.png %}){: .zoom}
     _Import Settings_
 
 1. Under _Import Behavior_, set **Import Behavior** to `Add/Update`.
 
-    ![]({{ site.baseurl }}{% link images/images/data-transfer-configurable-product-import-behavior.png %}){: .zoom}
+    ![]({% link images/images/data-transfer-configurable-product-import-behavior.png %}){: .zoom}
     _Import Behavior_
 
 1. Under _File to Import_, click **Choose File**. Then, navigate to the CSV file that you prepared for import and choose the file.
 
-    ![]({{ site.baseurl }}{% link images/images/data-transfer-configurable-product-file-to-import.png %}){: .zoom}
+    ![]({% link images/images/data-transfer-configurable-product-file-to-import.png %}){: .zoom}
     _File to Import_
 
 1. In the upper-right corner, click **Check Data**.
 
 1. If the file is valid, click **Import**. Otherwise, correct any problems found in the data and try again.
 
-    ![]({{ site.baseurl }}{% link images/images/data-transfer-configurable-product-import-validation-results.png %}){: .zoom}
+    ![]({% link images/images/data-transfer-configurable-product-import-validation-results.png %}){: .zoom}
     _Validation Results_
 
 1. When the import is complete, click the **Cache Management** link in the message at the top of the page. Then, refresh all invalid caches.

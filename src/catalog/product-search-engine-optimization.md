@@ -2,18 +2,18 @@
 title: Search Engine Optimization
 ---
 
-The Search Engine Optimization section specifies the [URL Key]({{ site.baseurl }}{% link catalog/catalog-urls.md %}) and [meta data]({{ site.baseurl }}{% link marketing/meta-data.md %}) fields that are used by search engines to index the product. Although some search engines ignore meta keywords, others continue to use them. The current [SEO best practice]({{ site.baseurl }}{% link marketing/seo-best-practices.md %}) is to incorporate high-value keywords in both the meta title and meta description.
+The Search Engine Optimization section specifies the [URL Key]({% link catalog/catalog-urls.md %}) and [meta data]({% link marketing/meta-data.md %}) fields that are used by search engines to index the product. Although some search engines ignore meta keywords, others continue to use them. The current [SEO best practice]({% link marketing/seo-best-practices.md %}) is to incorporate high-value keywords in both the meta title and meta description.
 
-The default value for each meta data field can be auto-generated based on values specified in the configuration. Each field contains a placeholder that is replaced by an actual value. To learn more, see: [Default Field Values]({{ site.baseurl }}{% link configuration/catalog/catalog.md %}).
+The default value for each meta data field can be auto-generated based on values specified in the configuration. Each field contains a placeholder that is replaced by an actual value. To learn more, see: [Default Field Values]({% link configuration/catalog/catalog.md %}).
 
-![]({{ site.baseurl }}{% link images/images/product-search-engine-optimization.png %}){: .zoom}
+![]({% link images/images/product-search-engine-optimization.png %}){: .zoom}
 *Search Engine Optimization*
 
 ## To complete the SEO fields:
 
-1. Open the product in edit mode. Then, scroll down and expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Search Engine Optimization** section.
+1. Open the product in edit mode. Then, scroll down and expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Search Engine Optimization** section.
 
-1. The default **URL Key** is based on the product name. You can use the default, or change it as needed. To learn more, see: [Catalog URLs]({{ site.baseurl }}{% link catalog/catalog-urls.md %}).
+1. The default **URL Key** is based on the product name. You can use the default, or change it as needed. To learn more, see: [Catalog URLs]({% link catalog/catalog-urls.md %}).
 
 1. The **Meta Title** is the text that appears at the top of the browser window. You can use the default, which is based on the Product Name, or change it as needed.
 
@@ -29,7 +29,7 @@ The default value for each meta data field can be auto-generated based on values
          <tr>
             <th>Field</th>
             <th>
-               <a href="{{ site.baseurl }}{% link configuration/scope.md %}" class="Scope">Scope</a>
+               <a href="{% link configuration/scope.md %}" class="Scope">Scope</a>
             </th>
             <th>Description</th>
          </tr>

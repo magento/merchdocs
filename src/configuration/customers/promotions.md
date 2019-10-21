@@ -2,15 +2,15 @@
 title: Promotions
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Customers]({{ site.baseurl }}{% link configuration/customers.md %}) > Promotions
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) > Promotions
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ## Automated Email Reminder Rules
 
-![]({{ site.baseurl }}{% link images/images-ee/config-customers-promotions-automated-email-reminder-rules.png %}){: .zoom}
-[_Automated Email Reminder Rules_]({{ site.baseurl }}{% link marketing/email-reminder-rules-configure.md %})
+![]({% link images/images-ee/config-customers-promotions-automated-email-reminder-rules.png %}){: .zoom}
+[_Automated Email Reminder Rules_]({% link marketing/email-reminder-rules-configure.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable Reminder Emails|Global|Enables automated email reminders. If this is set to No, the following values will be ignored. Options: Yes / No|
 |Frequency|Global|Indicates the frequency with which Magento should check for new customers who qualify for the automated email reminders. Options: <br/>**Minute Intervals** - Sends the email according to the selected interval. (5 minutes, 10 minutes, 15 minutes, 20 minutes, or 30 minutes) <br/>**Hourly** - Sends email hourly, at the minute after the hour specified. Enter a value between 0-59. <br/>**Daily** - Sends email daily, from the Start Time.|
@@ -23,10 +23,10 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 <!--{% endif %}-->
 ## Auto Generated Specific Coupon Codes
 
-![]({{ site.baseurl }}{% link images/images/config-customers-promotions-auto-generated-specific-coupon-codes.png %}){: .zoom}
-[_Auto Generated Specific Coupon Codes_]({{ site.baseurl }}{% link marketing/price-rules-cart-coupon-code-configure.md %})
+![]({% link images/images/config-customers-promotions-auto-generated-specific-coupon-codes.png %}){: .zoom}
+[_Auto Generated Specific Coupon Codes_]({% link marketing/price-rules-cart-coupon-code-configure.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Code Length|Global|Defines the length of the coupon code, excluding the prefix, suffix and separators.|
 |Code Format|Global|Defines the coupon code format. Options include: <br/>**Alphanumeric** - Any combination of letters and numbers. <br/>**Alphabetical** - Letters only. <br/>**Numeric** - Numbers only.|

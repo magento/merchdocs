@@ -3,12 +3,16 @@ conditions: Default.EE-B2B
 title: Worldpay
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > [Payment Methods]({{ site.baseurl }}{% link configuration/sales/payment-methods.md %}) > Worldpay
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > Worldpay
 
-![]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-worldpay.png %}){: .zoom}
-_Worldpay_
+{:.bs-callout .bs-callout-warning}
+**Payment Services Directive Requirements:** <br/>
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, contact your Worldpay service provider and ask for their recommendation.
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+![]({% link images/images-ee/config-sales-payment-methods-worldpay.png %}){: .zoom}
+[_Worldpay_]({% link payment/worldpay.md %})
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled|Website|Determines if Worldpay is available to your customers as a payment method. Options Yes / No|
 |Title|Store View|The label that identifies Worldpay as a payment method during checkout.|

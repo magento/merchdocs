@@ -2,17 +2,17 @@
 title: System
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Advanced]({{ site.baseurl }}{% link configuration/advanced.md %}) > System
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Advanced]({% link configuration/advanced.md %}) > System
 
 ## Cron (Scheduled Tasks)
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-system-cron.png %}){: .zoom}
-[_Cron (Scheduled Tasks)_]({{ site.baseurl }}{% link system/cron.md %})
+![]({% link images/images/config-advanced-system-cron.png %}){: .zoom}
+[_Cron (Scheduled Tasks)_]({% link system/cron.md %})
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-system-cron-group-index.png %}){: .zoom}
-[_Cron Group: Index_]({{ site.baseurl }}{% link system/cron.md %})
+![]({% link images/images/config-advanced-system-cron-group-index.png %}){: .zoom}
+[_Cron Group: Index_]({% link system/cron.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Generate Schedules Every|Store View|Determines the frequency in minutes, that schedules are generated.|
 |Schedule Ahead for|Store View|Determines the number of minutes in advance that schedules are generated.|
@@ -22,10 +22,10 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 |Failure History Lifetime|Store View|Determines the number of minutes that the record of failed cron jobs are kept in the database.|
 |Use Separate Process|Store View|Determines if cron jobs are executed in parallel as separate processes. Options: Yes / No|
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-system-cron-group-default.png %}){: .zoom}
-[_Cron Group: Default_]({{ site.baseurl }}{% link system/cron.md %})
+![]({% link images/images/config-advanced-system-cron-group-default.png %}){: .zoom}
+[_Cron Group: Default_]({% link system/cron.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Generate Schedules Every|Store View|Determines the frequency in minutes, that schedules are generated.|
 |Schedule Ahead for|Store View|Determines the number of minutes in advance that schedules are generated.|
@@ -38,10 +38,10 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 <!--{% if "Default.EE Only" contains site.edition %}-->
 ## MySQL Message Queue Cleanup
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-system-mysql-message-queue-cleanup.png %}){: .zoom}
-[_MySQL Message Queue Cleanup_]({{ site.baseurl }}{% link catalog/search-mysql.md %})
+![]({% link images/images/config-advanced-system-mysql-message-queue-cleanup.png %}){: .zoom}
+[_MySQL Message Queue Cleanup_]({% link catalog/search-mysql.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Successful Messages Lifetime|Global|Determines the lifetime of successful messages in minutes. Enter zero to skip the cleanup. Default: 10080 (7 days)|
 |New Messages Lifetime|Global|Determines the lifetime of new messages in minutes. Enter zero to skip the cleanup. Default: 10080 (7 days)|
@@ -51,13 +51,13 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 <!--{% endif %}-->
 ## Mail Sending Settings
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-system-mail-sending-settings.png %}){: .zoom}
-[_Mail Sending Settings_]({{ site.baseurl }}{% link system/email-communications.md %})
+![]({% link images/images/config-advanced-system-mail-sending-settings.png %}){: .zoom}
+[_Mail Sending Settings_]({% link system/email-communications.md %})
 
 {: .bs-callout .bs-callout-warning}
 **Security Notice!** We recommend that all merchants immediately set their mail sending configuration to protect against a recently identified potential remote code execution exploit. Until this issue is resolved, we highly recommend that you avoid using [Sendmail][1]{: target="_blank"} for email communications.  In the Mail Sending Settings, make sure that Set Return Path is set to "No". To learn more, see the [Magento Security Center posting][2]{: target="_blank"}.
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Disable Email Communications|Store View|Determines if email communications are activated for the store. Options: Yes / No|
 |Host|Store View|(For Windows server only) Determines the name that is used to refer to the host . Default value: localhost|
@@ -67,19 +67,19 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 
 ## Currency
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-system-currency.png %}){: .zoom}
-[_Currency_]({{ site.baseurl }}{% link stores/currency.md %})
+![]({% link images/images/config-advanced-system-currency.png %}){: .zoom}
+[_Currency_]({% link stores/currency.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Installed Currencies|Global|Indicates the currencies that are currently available to the Magento installation. Options include all available currencies, with installed currencies selected.|
 
 ## Notifications
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-system-notifications.png %}){: .zoom}
-[_Notifications_]({{ site.baseurl }}{% link stores/admin-message-inbox.md %})
+![]({% link images/images/config-advanced-system-notifications.png %}){: .zoom}
+[_Notifications_]({% link stores/admin-message-inbox.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Use HTTPS to Get Feed|Global|Determines if Admin notifications are delivered over a secure channel.  Options: Yes / No|
 |Update Frequency|Global|Determines the frequency of Admin message updates. Options: 1 Hour, 2 Hours, 6 Hours, 12 Hours, 24 Hours|
@@ -87,12 +87,12 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 
 ## Scheduled Backup Settings
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-system-scheduled-backup-settings.png %}){: .zoom}
-[_Scheduled Backup Settings_]({{ site.baseurl }}{% link system/backups.md %})
+![]({% link images/images/config-advanced-system-scheduled-backup-settings.png %}){: .zoom}
+[_Scheduled Backup Settings_]({% link system/backups.md %})
 
 {% include backup-deprecated.md %}
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable Scheduled Backup|Global|Determines if the Magento installation is automatically backed up on a regular schedule. Options: Yes / No|
 |Backup Type|Global|Determines the elements of the Magento installation that are included in the backup. Options: Database, Database and Media, System, System (excluding Media)|
@@ -103,10 +103,10 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 <!--{% if "Default.EE Only" contains site.edition %}-->
 ## Admin Actions Log Archiving
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-system-admin-actions-log-archiving.png %}){: .zoom}
-[_Admin Actions Log Archiving_]({{ site.baseurl }}{% link system/action-log-archive.md %})
+![]({% link images/images/config-advanced-system-admin-actions-log-archiving.png %}){: .zoom}
+[_Admin Actions Log Archiving_]({% link system/action-log-archive.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Log Entry Lifetime, Days|Store View|Determines the number of days that admin actions are kept in the Admin Actions archive.  Default: 60|
 |Log Archiving Frequency|Store View|Determines how often the Admin Actions logs are archived. Options: Daily, Weekly, Monthly|
@@ -114,17 +114,17 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 <!--{% endif %}-->
 ## Full Page Cache
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-system-full-page-cache.png %}){: .zoom}
-[_Full Page Cache_]({{ site.baseurl }}{% link system/cache-full-page.md %})
+![]({% link images/images/config-advanced-system-full-page-cache.png %}){: .zoom}
+[_Full Page Cache_]({% link system/cache-full-page.md %})
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-system-full-page-cache-varnish.png %}){: .zoom}
-[_Varnish Configuration_]({{ site.baseurl }}{% link system/cache-full-page.md %})
+![]({% link images/images/config-advanced-system-full-page-cache-varnish.png %}){: .zoom}
+[_Varnish Configuration_]({% link system/cache-full-page.md %})
 
 Caching application
 Built-in Application - Not recommended for production environment.
 Varnish Caching - Recommended for production environment.
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Caching Application|Global|Determines the application that is used to manage the full-page cache. Options: <br/>**Built-in Application** - Not recommended for production environment. <br/>**Varnish Caching** - Recommended for production environment.|
 |TTL for public content|Global|Determines the lifetime of the public content cache in seconds. Default value: 120|
@@ -138,18 +138,18 @@ Varnish Caching - Recommended for production environment.
 
 ## Storage Configuration for Media
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-system-storage-cofiguration-for-media-file-system.png %}){: .zoom}
-[_Storage Configuration for Media - File System_]({{ site.baseurl }}{% link cms/media-storage.md %})
+![]({% link images/images/config-advanced-system-storage-cofiguration-for-media-file-system.png %}){: .zoom}
+[_Storage Configuration for Media - File System_]({% link cms/media-storage.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Media Storage|Global|Determines the method used to store media files. Default setting: File System|
 |Environment Update Time|Global|Determines the frequency of the media file environment updates in seconds. Default value: 3600|
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-system-storage-configuration-for-media-database.png %}){: .zoom}
-[_Storage Configuration for Media - Database_]({{ site.baseurl }}{% link cms/media-storage.md %})
+![]({% link images/images/config-advanced-system-storage-configuration-for-media-database.png %}){: .zoom}
+[_Storage Configuration for Media - Database_]({% link cms/media-storage.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Media Storage|Global|Specifies database as the method used to store media files.|
 |Select Media Database|Global|Identifies the name of the database used for media storage. Default setting: default_setup.|
@@ -159,19 +159,19 @@ Varnish Caching - Recommended for production environment.
 <!--{% if "Default.EE Only" contains site.edition %}-->
 ## Bulk Actions
 
-![]({{ site.baseurl }}{% link images/images-ee/config-advanced-system-bulk-actions.png %}){: .zoom}
-[_Bulk Actions_]({{ site.baseurl }}{% link system/action-log-bulk-actions.md %})
+![]({% link images/images-ee/config-advanced-system-bulk-actions.png %}){: .zoom}
+[_Bulk Actions_]({% link system/action-log-bulk-actions.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Days Saved in Log|Global|Determines the number of days that bulk actions are  kept in the Bulk Actions Log archive. Default: 60|
 
 ## Scheduled Import/Export File History Cleaning
 
-![]({{ site.baseurl }}{% link images/images-ee/config-advanced-system-scheduled-import-export-file-history-cleaning.png %}){: .zoom}
-[_Scheduled Import/Export File History Cleaning_]({{ site.baseurl }}{% link system/data-scheduled-import-export.md %})
+![]({% link images/images-ee/config-advanced-system-scheduled-import-export-file-history-cleaning.png %}){: .zoom}
+[_Scheduled Import/Export File History Cleaning_]({% link system/data-scheduled-import-export.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Save File, Days|Global|Determines the number of days that import/export history files are saved.|
 |Enable Scheduled File  History Cleaning|Global|Enables the scheduled file cleanup of import/export files. Options: Yes / No|
@@ -185,15 +185,15 @@ Varnish Caching - Recommended for production environment.
 <!--{% endif %}-->
 ## Image Upload Configuration
 
-![]({{ site.baseurl }}{% link images/images/system-image-upload-configuration.png %}){: .zoom}
+![]({% link images/images/system-image-upload-configuration.png %}){: .zoom}
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-[_Image Upload Configuration_]({{ site.baseurl }}{% link system/action-log-bulk-actions.md %})
+[_Image Upload Configuration_]({% link system/action-log-bulk-actions.md %})
 <!--{% endif %}-->
 <!--{% if "Default.CE Only" contains site.edition %}-->
 _Image Upload Configuration_
 <!--{% endif %}-->
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Quality|Global|Determines the JPG quality for the resized image. Lower quality reduces the file size. We recommend 80-90% to help reduce file size with high quality.Default: 80|
 |Enable Frontend Resize|Global|Enable to allow Magento to resize  large, oversized images you may upload for the Product Details Page. Magento resizing the image files using JavaScript prior to uploading the file. When the image is resized, it keeps the exact proportions, meeting and not exceeding the largest size for Maximum Width or Maximum Height. Default: Yes|

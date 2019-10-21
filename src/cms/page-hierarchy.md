@@ -7,5 +7,5 @@ Your store’s page hierarchy system gives you the ability to organize your cont
 
 The page hierarchy system uses nodes to identify related pieces of content, and to organize content pages into a parent/child relationships. A parent node is like a folder that might contain child nodes and pages. The relative position of each node and page in the hierarchy is shown as a tree. A node might contain other nodes and content pages, and a single content page might be associated with multiple nodes and other content pages in a parent/child or neighbor relationships.
 
-![]({{ site.baseurl }}{% link images/images/storefront-privacy-policy.png %}){: .zoom}
+![]({% link images/images/storefront-privacy-policy.png %}){: .zoom}
 _Page with Left Navigation_

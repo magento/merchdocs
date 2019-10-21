@@ -2,30 +2,32 @@
 title: Adding Store Views
 ---
 
-Store views are typically used to make the store available in different [locales]({{ site.baseurl }}{% link stores/locale-options.md %}). Shoppers can use the language chooser in the header of the store to change the store view.
+Store views are typically used to make the store available in different [locales]({% link stores/locale-options.md %}). Shoppers can use the language chooser in the header of the store to change the store view.
 
-![]({{ site.baseurl }}{% link images/images/scope-multiview.png %}){:width="550px"}
+![Scope - multiple store views]({% link images/images/scope-multiview.png %}){:width="550px"}
 
-#### To create a new store view:
+## Create a new store view
 
-1.  On the _Admin_ sidebar, click **Stores**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **All Stores**.
 
-1.  Under _Settings_, choose **All Stores**.
+    ![All Stores]({% link images/images/stores-all.png %}){: .zoom}
+    _All Stores_
 
-    ![]({{ site.baseurl }}{% link images/images/stores-all.png %}){: .zoom}
+1. Click **Create Store View**.
 
-1.  Click **Create Store View**.
+    ![Create store view]({% link images/images/stores-all-create-store-view.png %}){: .zoom}
+    _Create new store view_
 
-    ![]({{ site.baseurl }}{% link images/images/stores-all-create-store-view.png %}){: .zoom}
+1. Set **Store** to the parent store of this view.
 
-1.  Set **Store** to the parent store of this view.
+1. Enter a **Name** for this store view.
 
-1.  Enter a **Name** for this store view. The name appears in the language chooser in the store header. For example: Spanish.
+   The name appears in the language chooser in the store header. For example: `Spanish`.
 
-1.  Enter a **Code** in lowercase characters to identify the view. For example: _spanish_.
+1. Enter a **Code** in lowercase characters to identify the view. For example: `spanish`.
 
-1.  To activate the view, set **Status** to “Enabled.”
+1. To activate the view, set **Status** to `Enabled`.
 
-    (Optional) Enter a **Sort Order** number to determine the sequence in which this view is listed with other views.
+1. (Optional) Enter a **Sort Order** number to determine the sequence in which this view is listed with other views.
 
-1.  Click **Save Store View**.
+1. Click <span class="btn">Save Store View</span>.

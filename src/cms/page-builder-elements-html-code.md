@@ -11,7 +11,7 @@ In the following example, you will learn how to embed [Google Font][1] code and 
 
 1. Visit the [Google Fonts][1] site and choose the font family that you want to use.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-html-code-google-fonts.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-html-code-google-fonts.png %}){: .zoom}
    _Google Fonts Site_
 
 1. Copy the generated code that is to be embedded in the `<head>` section of the page and paste it temporarily into a text editor.
@@ -39,17 +39,17 @@ In the following example, you will learn how to embed [Google Font][1] code and 
 
    Use the red guideline to position the divider either before or after another content container in the row, column, or tab set.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-html-code-drag.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-html-code-drag.png %}){: .zoom}
    _Drag HTML Code Element to Stage_
 
-1. Hover over the container. Then in the toolbox, choose **Settings** ( ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}), and do the following:
+1. Hover over the container. Then in the toolbox, choose **Settings** ( ![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}), and do the following:
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-html-code-toolbox.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-html-code-toolbox.png %}){: .zoom}
    _HTML Code Toolbox_
 
    - In the text box, paste the embed Google Fonts code and style declarations that you prepared. To make it easier to read, you can enter a few spaces to indent the code.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-html-code-example.png %}){: .zoom}
+      ![]({% link images/images-ee/page-builder-elements-html-code-example.png %}){: .zoom}
       _HTML Code and Styles_
 
    - Update the remaining settings as needed, using the [descriptions](#html-settings) at the end of this page for reference.
@@ -62,26 +62,26 @@ In the following example, you will learn how to embed [Google Font][1] code and 
 
    - In the **Currently Active** section, set **Enable Page** to `Yes`.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-html-code-enable-page.png %}){: .zoom}
+      ![]({% link images/images-ee/page-builder-elements-html-code-enable-page.png %}){: .zoom}
       _Enable Page_
 
    - In the upper-right corner on the **Save** menu, choose **Save & Close**.
 
 1. Find the page in the grid. Then, select **View** in the _Actions_ column.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-html-code-preview.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-html-code-preview.png %}){: .zoom}
    _Preview Headings with New Font Family_
 
 ## HTML Code Toolbox
 
-| Tool      | [Icon]({{ site.baseurl }}{% link configuration/scope.md %})               | Description                                                                        |
+| Tool      | [Icon]({% link configuration/scope.md %})               | Description                                                                        |
 | --------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| Move      | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-move.png %})       | Moves the HTML Code container to another valid place on the page.                     |
-| Settings  | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %})   | Opens the Edit HTML Code page, where you can change the properties of the container. |
-| Hide      | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-hide.png %})       | Hides the HTML Code container.                                                        |
-| Show      | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-show.png %})       | Shows the hidden HTML Code container.                                                 |
-| Duplicate | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-duplicate.png %})  | Makes a duplicate copy of the HTML Code container.                                    |
-| Remove    | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-remove.png %})     | Deletes the HTML Code container and its content from the stage.                       |
+| Move      | ![]({% link images/images-ee/icon-pb-move.png %})       | Moves the HTML Code container to another valid place on the page.                     |
+| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %})   | Opens the Edit HTML Code page, where you can change the properties of the container. |
+| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})       | Hides the HTML Code container.                                                        |
+| Show      | ![]({% link images/images-ee/icon-pb-show.png %})       | Shows the hidden HTML Code container.                                                 |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %})  | Makes a duplicate copy of the HTML Code container.                                    |
+| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})     | Deletes the HTML Code container and its content from the stage.                       |
 
 {: #html-settings}
 ## HTML Code Settings
@@ -89,6 +89,9 @@ In the following example, you will learn how to embed [Google Font][1] code and 
 |Setting|Description|
 |--- |--- |
 |(Text Box)|A text box that is used to enter HTML, CSS, and JavaScript code. Code snippets which belong in the `<head>` section of the page can be entered here.|
+|Insert Widget...|Button used to insert a Magento widget at the cursor's position in the HTML text box.|
+|Insert Image...|Button used to insert an uploaded image or an image from the Gallery at the cursor's position in the HTML text box.|
+|Insert Variable...|Button used to insert a Magento variables at the cursor's position in the HTML text box.|
 |**Advanced**||
 |Alignment|Determines the horizontal alignment of the html code in relation to its parent container. Options: <br/>**Default** - Applies the default setting that is specified in the style sheet of the current theme. <br/>**Left** - Aligns the html code along the left border of its parent container, with allowance for any padding that is specified. <br/>**Center** - Aligns the html code in the center of its parent container, with allowance for any padding that is specified. <br/>**Right** - Aligns the html code along the right border of its parent container, with allowance for any padding that is specified.|
 |Border|Determines the border style that is applied to all sides of the html code container. Options: <br/>**Default** - Applies the default border style from the style sheet that is associated with the current theme. <br/>**None** - Provides no visible indication of container borders. <br/>**Dotted** - The container border appears as a dotted line.  <br/>**Dashed** - The container border appears as a dashed line. <br/>**Solid** - The container border appears as a solid line. <br/>**Double** - The container border appears as a double line. <br/>**Groove** - The container border appears as a grooved line. <br/>**Ridge** - The container border appears as a ridged line. <br/>**Inset** - The container border appears as an inset line. <br/>**Outset** - The container border appears as an outset line.|

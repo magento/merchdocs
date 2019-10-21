@@ -5,8 +5,8 @@ title: Restricting Access
 
 Access to a private sale, event, or site can be limited to registered customers who log in, or extended to non-registered customers who must register before gaining access.
 
-![]({{ site.baseurl }}{%- link images/images-ee/config-general-general-website-restrictions.png -%}){: .zoom}
-[*Website Restrictions*]({{ site.baseurl }}{%- link configuration/general/general.md -%})
+![]({% link images/images-ee/config-general-general-website-restrictions.png %}){: .zoom}
+[*Website Restrictions*]({% link configuration/general/general.md -%})
 
 ## To set up exclusive access
 
@@ -14,7 +14,7 @@ Access to a private sale, event, or site can be limited to registered customers 
 
 1. In the panel on the left under **General**, choose **General**.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Website Restrictions** section, and do the following:.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Website Restrictions** section, and do the following:.
 
     * Set **Access Restriction** to “Yes".
 

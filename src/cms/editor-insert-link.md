@@ -8,7 +8,7 @@ An easy way to insert a link is to use the Link button in the editor toolbar. It
 
 1. Select the text where you want to create the link. Then, click <span class="btn">Link</span> in the editor toolbar.
 
-    ![Insert Link Button]({{ site.baseurl }}{% link images/images/editor-toolbar/editor-menu-link-button.png %} "Insert Link Button"){: .zoom}
+    ![Insert Link Button]({% link images/images/editor-toolbar/editor-menu-link-button.png %} "Insert Link Button"){: .zoom}
     _Insert Link Button_
 
 1. In the **Link URL** field, enter one of the following:

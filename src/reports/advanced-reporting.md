@@ -2,11 +2,11 @@
 title: Advanced Reporting
 ---
 
-Advanced Reporting gives you access to a suite of dynamic reports that are based on your product, order, and customer data, with a personalized dashboard that is tailored to your business needs. Advanced Reporting is a free, cloud-based service that is powered by [Magento Business Intelligence]({{ site.baseurl }}{% link reports/business-intelligence.md %}).
+Advanced Reporting gives you access to a suite of dynamic reports that are based on your product, order, and customer data, with a personalized dashboard that is tailored to your business needs. Advanced Reporting is a free, cloud-based service that is powered by [Magento Business Intelligence]({% link reports/business-intelligence.md %}).
 
 For technical information, see [Advanced Reporting][1]{: target="_blank"} in our developer documentation.
 
-![]({{ site.baseurl }}{% link images/images/reporting-advanced.png %}){: .zoom}
+![]({% link images/images/reporting-advanced.png %}){: .zoom}
 *Advanced Reporting Dashboard*
 
 ## Requirements
@@ -17,9 +17,9 @@ For technical information, see [Advanced Reporting][1]{: target="_blank"} in our
 
 * Magento must have been installed or upgraded successfully without error.
 
-* In the Magento configuration, the [Base URL (Secure)]({{ site.baseurl }}{% link stores/store-urls.md %}) setting for the store view must point to the secure URL. For example https://yourdomain.com.
+* In the Magento configuration, the [Base URL (Secure)]({% link stores/store-urls.md %}) setting for the store view must point to the secure URL. For example https://yourdomain.com.
 
-* In the Magento configuration, [Use Secure URLs on Storefront]({{ site.baseurl }}{% link stores/store-urls.md %}), and [Use Secure URLs in Admin]({{ site.baseurl }}{% link stores/store-urls.md %}) must be set to “Yes.” 
+* In the Magento configuration, [Use Secure URLs on Storefront]({% link stores/store-urls.md %}), and [Use Secure URLs in Admin]({% link stores/store-urls.md %}) must be set to “Yes.” 
 
 * Make sure that [Magento crontab][2]{: target="_blank"} is created and cron jobs are running on the installed server. 
 
@@ -28,7 +28,7 @@ The initial release of Advanced Reporting supports only one base currency.
 
 ## Step 1: Enable Advanced Reporting
 
-In the Magento configuration, [Advanced Reporting]({{ site.baseurl }}{% link configuration/general/advanced-reporting.md %}) is enabled by default, and starts automatically if cron is [configured]({{ site.baseurl }}{% link configuration/advanced/system.md %}) and running. An attempt to establish the subscription is initiated at the beginning of each hour over the next 24-hours until successful. The subscription status is “pending” until the subscription is successfully established.
+In the Magento configuration, [Advanced Reporting]({% link configuration/general/advanced-reporting.md %}) is enabled by default, and starts automatically if cron is [configured]({% link configuration/advanced/system.md %}) and running. An attempt to establish the subscription is initiated at the beginning of each hour over the next 24-hours until successful. The subscription status is “pending” until the subscription is successfully established.
 
 1. On the Admin sidebar, choose **Stores**. Then under **Settings**, choose **Configuration**.
 
@@ -40,12 +40,12 @@ In the Magento configuration, [Advanced Reporting]({{ site.baseurl }}{% link con
 
    * Under **Industry Data**, choose the **Industry** that best describes your business.
 
-   ![]({{ site.baseurl }}{% link images/images/config-general-advanced-reporting.png %}){: .zoom}
+   ![]({% link images/images/config-general-advanced-reporting.png %}){: .zoom}
    *Advanced Reporting*
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-1. When prompted, click the [Cache Management]({{ site.baseurl }}{% link system/cache-management.md %}) in the message at the top of the page. Then, refresh any invalid caches.
+1. When prompted, click the [Cache Management]({% link system/cache-management.md %}) in the message at the top of the page. Then, refresh any invalid caches.
 
 1. Wait overnight, or until after the time of your next scheduled update. Then, check the status of your subscription. If the status is still “pending,” make sure that your installation meets all of the requirements.
 
@@ -63,20 +63,20 @@ In the Magento configuration, [Advanced Reporting]({{ site.baseurl }}{% link con
    * Hover over any data point for more information.
    * Click each tab to see all dashboard reports.
 
-   ![]({{ site.baseurl }}{% link images/images/reporting-advanced-data-point.png %}){: .zoom}
+   ![]({% link images/images/reporting-advanced-data-point.png %}){: .zoom}
    *Data Point*
 
 ## To access your data resources:
 
 In the upper-right corner of the Advanced Reporting dashboard, click **Additional Resources**.
 
-![]({{ site.baseurl }}{% link images/images/advanced-reporting-your-data-resources.png %}){: .zoom}
+![]({% link images/images/advanced-reporting-your-data-resources.png %}){: .zoom}
 
 ## Troubleshooting
 
 If you get a 404 “Page Not Found” message, verify that your store meets the requirements for Advanced Reporting. Then, follow the instructions to verify that the integration is installed.
 
-![]({{ site.baseurl }}{% link images/images/advanced-reporting-404.png %}){: .zoom}
+![]({% link images/images/advanced-reporting-404.png %}){: .zoom}
 *Advanced Reporting Not Available*
 
 ## Verify that the Integration is Active
@@ -87,17 +87,17 @@ If you get a 404 “Page Not Found” message, verify that your store meets the 
 
 1. To reestablish the user, click **Reauthorize**. Then, do the following:
 
-   ![]({{ site.baseurl }}{% link images/images/advanced-reporting-integration-reauthorize.png %}){: .zoom}
+   ![]({% link images/images/advanced-reporting-integration-reauthorize.png %}){: .zoom}
    *Reauthorize*
 
    * When prompted, tap <span class="btn">Reauthorize</span> to approve access to the API resources.
 
-      ![]({{ site.baseurl }}{% link images/images/advanced-reporting-integration-api.png %}){: .zoom}
+      ![]({% link images/images/advanced-reporting-integration-api.png %}){: .zoom}
       *Reauthorize Access to API Resources*
 
    * Verify that the list of Integration Tokens for Extensions is complete. Then, tap <span class="btn">Done</span>.
 
-      ![]({{ site.baseurl }}{% link images/images/advanced-reporting-integration-tokens-for-extensions.png %}){: .zoom}
+      ![]({% link images/images/advanced-reporting-integration-tokens-for-extensions.png %}){: .zoom}
       *Integration Tokens*
 
 1. Look for the message that indicates the integration “Magento Analytics user” has been reauthorized.

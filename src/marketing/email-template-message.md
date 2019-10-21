@@ -2,7 +2,7 @@
 title: Message Templates
 ---
 
-The process of customizing the body of each message is the same as the customizing the header or footer. The only difference is that there is a different message template for each activity or event that triggers a notification. You can use the templates as they are, or customize them to match your voice and brand. In addition to the template text, there's a wide selection of [variables]({{ site.baseurl }}{%- link marketing/variables.md -%}) that can be incorporated into the template.
+The process of customizing the body of each message is the same as the customizing the header or footer. The only difference is that there is a different message template for each activity or event that triggers a notification. You can use the templates as they are, or customize them to match your voice and brand. In addition to the template text, there's a wide selection of [variables]({% link marketing/variables.md -%}) that can be incorporated into the template.
 
 ## Step 1. Load the Default Template
 
@@ -14,7 +14,7 @@ The process of customizing the body of each message is the same as the customizi
 
     * Tap <span class="btn">Load Template</span>.
 
-    ![]({{ site.baseurl }}{%- link images/images/email-templates-message-load-default.png -%}){: .zoom}
+    ![]({% link images/images/email-templates-message-load-default.png %}){: .zoom}
     *Default Message Template*
 
 ## Step 2. Customize the Template
@@ -25,7 +25,7 @@ The process of customizing the body of each message is the same as the customizi
 
 1. Take note of the **Currently Used For** path to the template configuration. You will later follow this path to update the configuration.
 
-    ![]({{ site.baseurl }}{%- link images/images/email-template-message-information.png -%}){: .zoom}
+    ![]({% link images/images/email-template-message-information.png %}){: .zoom}
     *Message Template Information*
 
 1. In the **Template Content** box, modify the HTML as needed. The content consists of a combination of HTML tags, CSS directives, variables, and text.
@@ -33,17 +33,17 @@ The process of customizing the body of each message is the same as the customizi
     {: .bs-callout .bs-callout-info}
     When working in the template code, be careful not to accidentally type over the code that is enclosed in double braces.
 
-    ![]({{ site.baseurl }}{%- link images/images/email-template-message-content.png -%}){: .zoom}
+    ![]({% link images/images/email-template-message-content.png %}){: .zoom}
     *Template Message Content*
 
 1. To insert a variable, position the cursor in the code where you want the variable to appear, and tap <span class="btn">Insert Variable</span>. Then, choose the variable that you want to insert.
 
-    When a variable is selected, a [markup tag]({{ site.baseurl }}{%- link marketing/markup-tags.md -%}) for the variable is inserted in the code.
+    When a variable is selected, a [markup tag]({% link marketing/markup-tags.md -%}) for the variable is inserted in the code.
 
-    ![]({{ site.baseurl }}{%- link images/images/email-template-variable-message.png -%}){: .zoom}
+    ![]({% link images/images/email-template-variable-message.png %}){: .zoom}
     *Insert Variable*
 
-    In addition to the Store Contact variables, the list includes the Customer Account URL, Customer Email, and Customer Name. However, you are not limited to the variables in this list. You can enter the code for any system or [custom variable]({{ site.baseurl }}{%- link marketing/variables-custom.md -%}) directly into the template.
+    In addition to the Store Contact variables, the list includes the Customer Account URL, Customer Email, and Customer Name. However, you are not limited to the variables in this list. You can enter the code for any system or [custom variable]({% link marketing/variables-custom.md -%}) directly into the template.
 
 1. If you need to make any CSS declarations, enter the styles in the **Template Styles** box.
 
@@ -58,12 +58,12 @@ The process of customizing the body of each message is the same as the customizi
 
 1. Tap the link to open the template configuration page.
 
-    ![]({{ site.baseurl }}{%- link images/images/email-template-new-currently-used-for.png -%}){: .zoom}
+    ![]({% link images/images/email-template-new-currently-used-for.png %}){: .zoom}
     *Current email template*
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the section. Then, find the field for the email template that you customized, and specify the new template as the default.
+1. Expand ![]({% link images/images/btn-expand.png %}) the section. Then, find the field for the email template that you customized, and specify the new template as the default.
 
-    ![]({{ site.baseurl }}{%- link images/images/email-template-message-configuration-default-template.png -%}){: .zoom}
+    ![]({% link images/images/email-template-message-configuration-default-template.png %}){: .zoom}
     *Welcome Email Configuration*
 
 ## Step 4. Preview and Save the Template
@@ -74,7 +74,7 @@ The process of customizing the body of each message is the same as the customizi
 
    Your custom template is now available in the list of Email templates.
 
-    ![]({{ site.baseurl }}{%- link images/images/email-templates-grid-new-account-template.png -%}){: .zoom}
+    ![]({% link images/images/email-templates-grid-new-account-template.png %}){: .zoom}
 
 Field Descriptions
 

@@ -15,14 +15,14 @@ Log in to your **Vertex Cloud** account. Then in the sidebar, choose **Configure
 
 On the **Configure Overview** page, take note of the **Company Code** below your company name. You will need to enter this code later in the Magento configuration to establish the link between Magento and your Vertex account.
 
-![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-configure.png %}){: .zoom}
+![]({% link images/images/tax-vertex-cloud-configure.png %}){: .zoom}
 _Configure Vertex_
 
 The configuration settings for each company are organized into three columns on the Configure Over page. Follow the instructions in this guide to complete the configuration for each of the following:
 
-* [Registrations]({{ site.baseurl }}{% link tax/vertex-setup.md %})
-* [Products]({{ site.baseurl }}{% link tax/vertex-setup-products.md %})
-* [Customer Exceptions]({{ site.baseurl }}{% link tax/vertex-setup-customer-exceptions.md %})
+* [Registrations]({% link tax/vertex-setup.md %})
+* [Products]({% link tax/vertex-setup-products.md %})
+* [Customer Exceptions]({% link tax/vertex-setup-customer-exceptions.md %})
 
 ## Field Mapping
 

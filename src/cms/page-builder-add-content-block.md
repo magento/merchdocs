@@ -5,7 +5,7 @@ title: Add Block
 
 Use the Block content type to add an existing, active block to the stage. In the following example, the first column contains the HTML Code for the page. The second column contains a block with a Google map.
 
-![]({{ site.baseurl }}{% link images/images-ee/page-builder-add-content-block-map-about-us.png %}){: .zoom}
+![]({% link images/images-ee/page-builder-add-content-block-map-about-us.png %}){: .zoom}
 _Block with Map on “About Us” Page_
 
 ## To add an existing block
@@ -14,24 +14,24 @@ _Block with Map on “About Us” Page_
 
 1. In the Page Builder panel under **Add Content**, drag a **Block** placeholder to the stage.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-add-content-block-drag.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-add-content-block-drag.png %}){: .zoom}
     _Select Block_
 
-1. Hover over the empty block container. Then, choose **Settings** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox and do the following:
+1. Hover over the empty block container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox and do the following:
 
     * Click <span class="btn">Select Block</span>.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-add-content-block-select.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-add-content-block-select.png %}){: .zoom}
         _Select Block_
 
     - In the list of active blocks, find the row with the block that you want to add. In the first column, click <span class="btn">Select</span>. Then, click <span class="btn">Add Selected</span>.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-add-content-block-selected.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-add-content-block-selected.png %}){: .zoom}
         _Selected Block_
 
         The name of the selected block appears in the form.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-add-content-block-name.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-add-content-block-name.png %}){: .zoom}
         _Block Name_
 
     - Complete the remaining settings as needed, using the field descriptions at the end of this page for reference.
@@ -42,9 +42,9 @@ _Block with Map on “About Us” Page_
 
 ## To edit block settings
 
-1. Hover over the block container. Then, choose **Settings** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox and do the following:
+1. Hover over the block container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox and do the following:
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-add-content-block-toolbox.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-add-content-block-toolbox.png %}){: .zoom}
     _Block Toolbox_
 
     - To choose a different block, click <span class="btn">Select Block</span>. In the list of active blocks, <span class="btn">Select</span> the block that you want to add. Then, click <span class="btn">Add Selected</span>.
@@ -57,11 +57,11 @@ _Block with Map on “About Us” Page_
 
 ## To duplicate a block
 
-1. Hover over the block container. Then, choose **Duplicate** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-duplicate.png %}){: .Inline}) in the toolbox.
+1. Hover over the block container. Then, choose **Duplicate** (![]({% link images/images-ee/icon-pb-duplicate.png %}){: .Inline}) in the toolbox.
 
     The duplicate appears just below the original.
 
-1. To move the new block to a new position, hover over the container. Then, choose **Move** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-move.png %}){: .Inline}) in the toolbox.
+1. To move the new block to a new position, hover over the container. Then, choose **Move** (![]({% link images/images-ee/icon-pb-move.png %}){: .Inline}) in the toolbox.
 
 1. Select and drag the block until the red guideline appears at the new position.
 
@@ -69,7 +69,7 @@ _Block with Map on “About Us” Page_
 
 ## To remove a block from the stage
 
-1. Hover over the block container. Then, choose **Remove** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-remove.png %}){: .Inline}) in the block toolbox.
+1. Hover over the block container. Then, choose **Remove** (![]({% link images/images-ee/icon-pb-remove.png %}){: .Inline}) in the block toolbox.
 
 1. When prompted to confirm, click **OK**.
 
@@ -77,12 +77,12 @@ _Block with Map on “About Us” Page_
 
 | Tool      | Icon                                                                     | Description                                                                                            |
 | --------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| Move      | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-move.png %})      | Moves the block container and its content to another position on the stage.                            |
-| Settings  | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %})  | Opens the Edit Block page, where you can choose the block, and change the properties of the container. |
-| Hide      | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-hide.png %})      | Hides the current block container and its content.                                                     |
-| Show      | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-show.png %})      | Shows the  hidden block container and its content.                                                     |
-| Duplicate | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the block container and its content.                                         |
-| Remove    | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-remove.png %})    | Deletes the block container and its content from the stage.  |
+| Move      | ![]({% link images/images-ee/icon-pb-move.png %})      | Moves the block container and its content to another position on the stage.                            |
+| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %})  | Opens the Edit Block page, where you can choose the block, and change the properties of the container. |
+| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})      | Hides the current block container and its content.                                                     |
+| Show      | ![]({% link images/images-ee/icon-pb-show.png %})      | Shows the  hidden block container and its content.                                                     |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the block container and its content.                                         |
+| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})    | Deletes the block container and its content from the stage.  |
 
 ## Block Settings
 

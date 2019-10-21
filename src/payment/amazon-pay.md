@@ -11,17 +11,17 @@ For international merchants with a region in EU or UK, Amazon Pay provides a [m
 
 **New Features**
 
-* Amazon Pay now supports <a href="{{ site.baseurl }}{% link configuration/sales/klarna.md %}">Klarna Payments
+* Amazon Pay now supports <a href="{% link configuration/sales/klarna.md %}">Klarna Payments
 
-* Multi-currency option for EU and UK international merchants. Configure this setting through the <a href="{{ site.baseurl }}{% link payment/amazon-pay-setup.md %}">Amazon Pay setup</a>.
+* Multi-currency option for EU and UK international merchants. Configure this setting through the <a href="{% link payment/amazon-pay-setup.md %}">Amazon Pay setup</a>.
 
 ## Amazon Pay Highlights
 
 * [Shop Safely][2] - Customer purchases are protected by [Amazon’s A-to-z  Guarantee][2]. Customer password and payment information is never shared.
 
-* [Speed Through Checkout]({{ site.baseurl }}{% link payment/amazon-pay-customer-experience.md %}) - During checkout, shipping and payment information is read directly from the customer’s Amazon Payments account.
+* [Speed Through Checkout]({% link payment/amazon-pay-customer-experience.md %}) - During checkout, shipping and payment information is read directly from the customer’s Amazon Payments account.
 
-* [Log in with Amazon]({{ site.baseurl }}{% link customers/customer-sign-in.md %}) - Customers can use their Amazon password to log in to their account with your store.
+* [Log in with Amazon]({% link customers/customer-sign-in.md %}) - Customers can use their Amazon password to log in to their account with your store.
 
 [1]: https://pay.amazon.com/eu/help/5BDCWHCUC27485L
 [2]: https://pay.amazon.com/us/help/201212420?

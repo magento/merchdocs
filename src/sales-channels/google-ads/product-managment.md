@@ -9,12 +9,12 @@ Google Shopping ads provides detailed status and updates for your Google Merchan
 
 You need to configure the following for campaigns to actively display ads on Google networks. If these settings are not completed, ads do not run regardless if campaigns are listed as active.
 
-* Completed [onboarding]({{ site.baseurl }}{% link sales-channels/google-ads/onboarding-google.md %}) with a GMC and an Ads account
-* Added a payment method to Google Ads and updated settings (see [Account Settings]({{ site.baseurl }}{% link sales-channels/google-ads/acct-settings.md %}))
+* Completed [onboarding]({% link sales-channels/google-ads/onboarding-google.md %}) with a GMC and an Ads account
+* Added a payment method to Google Ads and updated settings (see [Account Settings]({% link sales-channels/google-ads/acct-settings.md %}))
 
 ## Google Products Basics
 
-Understanding the basics and [best practices]({{ site.baseurl }}{% link sales-channels/google-ads/google-best-practices.md %}) helps you get ahead with managing products:
+Understanding the basics and [best practices]({% link sales-channels/google-ads/google-best-practices.md %}) helps you get ahead with managing products:
 
 * The integration supports all Magento product types excluding gift cards, grouped products, simple products with required options, and bundled products with dynamic pricing.
 * Google has guidelines and policies to determine if a product is approved: Google [product data specifications][1], [Shopping Ads policies][2], and [Adult-oriented content][3] policies.
@@ -25,7 +25,7 @@ Understanding the basics and [best practices]({{ site.baseurl }}{% link sales-ch
 
 ## Account and Product Dashboard
 
-When accessing Google Shopping ads, the dashboard provides a list of all linked GMC accounts and products. At a glance, learn more about your product status with Google. If you have disapprovals, click **View details** to review and resolve [Product]({{ site.baseurl }}{% link sales-channels/google-ads/product-resolve-errors.md %}) details.
+When accessing Google Shopping ads, the dashboard provides a list of all linked GMC accounts and products. At a glance, learn more about your product status with Google. If you have disapprovals, click **View details** to review and resolve [Product]({% link sales-channels/google-ads/product-resolve-errors.md %}) details.
 
 {% include gmc-acct-products.md %}
 

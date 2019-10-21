@@ -5,7 +5,7 @@ title: Updating a Company Profile
 
 The company profile can be maintained from the storefront by the company admin, and also from the Admin by the store administrator.
 
-![]({{ site.baseurl }}{% link images/images-b2b/company-update.png %}){: .zoom}
+![]({% link images/images-b2b/company-update.png %}){: .zoom}
 _Company Profile_
 
 ## To update a company profile:
@@ -35,12 +35,12 @@ _Company Profile_
 |Field|Description|
 |--- |--- |
 |Company Name|The company name is entered when the company account is first created, and can be a shortened version of the full legal name.|
-|[Status]({{ site.baseurl }}{% link customers/account-company-approve.md %})|Indicates the current state of the company account. Options: <br/>**Active** - The company account is approved by the store administrator. The company administrator and associated members can log in the account from the storefront and make purchases. <br/>**Pending Approval** - A request to open a company account has been submitted, but is not yet approved by the store administrator. <br/>**Rejected** - A request to open a company account was submitted, but not approved by the store administrator. The initial login credentials that were used to submit the request are blocked. <br/>**Blocked** - Company members can log in and access the catalog, but cannot make purchases. The store administrator might block a company account that is not in good standing. The block on the account can be removed by the store administrator at any time.|
+|[Status]({% link customers/account-company-approve.md %})|Indicates the current state of the company account. Options: <br/>**Active** - The company account is approved by the store administrator. The company administrator and associated members can log in the account from the storefront and make purchases. <br/>**Pending Approval** - A request to open a company account has been submitted, but is not yet approved by the store administrator. <br/>**Rejected** - A request to open a company account was submitted, but not approved by the store administrator. The initial login credentials that were used to submit the request are blocked. <br/>**Blocked** - Company members can log in and access the catalog, but cannot make purchases. The store administrator might block a company account that is not in good standing. The block on the account can be removed by the store administrator at any time.|
 |Company Email|The email address that is associated with the company account.|
 |Sales Representative|The Admin user who is the primary contact for the company account.|
 |**Account Information**||
 |Company Legal Name|The full legal name of the company.|
-|VAT / TAX ID|The tax or [value-added tax]({{ site.baseurl }}{% link tax/vat.md %}) number that is assigned to the company for tax reporting purposes.|
+|VAT / TAX ID|The tax or [value-added tax]({% link tax/vat.md %}) number that is assigned to the company for tax reporting purposes.|
 |Reseller ID|The resale number that is assigned to the company for tax reporting purposes.|
 |Comment|These notes about the company account are for reference and visible only from the Admin.|
 |**Legal Address**||
@@ -65,8 +65,8 @@ _Company Profile_
 |Allow to Exceed Credit Limit|Indicates if the company has permission to exceed the credit limit. Options: Yes / No|
 |Reason for Change|A note that explains why the company is allowed, or disallowed to exceed the credit limit. This field is active only if the permission to exceed the credit limit changes.|
 |**Advanced Settings**||
-|Customer Group|Indicates the [customer group]({{ site.baseurl }}{% link customers/customer-groups.md %}) or [shared catalog]({{ site.baseurl }}{% link catalog/catalog-shared.md %}) that is assigned to the company.|
-|Allow Quotes|Determines if company members can prepare and submit negotiable quotes on behalf of the company.|
+|Customer Group|Indicates the [customer group]({% link customers/customer-groups.md %}) or [shared catalog]({% link catalog/catalog-shared.md %}) that is assigned to the company.|
+|Allow Quotes|Determines if company members can prepare and submit negotiable quotes on behalf of th company.|
 |Applicable Payment Methods|Indicates the payment methods that are available for company purchases. Options: B2B Payment Methods / All Enabled Payment Methods / Specific Payment Methods|
 |Payment Methods|(Admin Only) Becomes active if specific payment methods are indicated. To select multiple payment methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.|
 

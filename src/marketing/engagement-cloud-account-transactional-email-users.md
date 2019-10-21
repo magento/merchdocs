@@ -8,12 +8,12 @@ Transactional email messages are in a legally distinct category, and must not co
 
 To send transactional email through the API you can use either the REST operation Send transactional email or the SOAP method `SendTransactionalEmail`. Transactional email is sent by SMTP, and requires a dedicated user email address. To learn more, see [Transactional email - an overview][1]{: target="_blank"}.
 
-![]({{ site.baseurl }}{% link images/images/engagement-cloud-access-transactional-email-users.png %}){: .zoom}
+![]({% link images/images/engagement-cloud-access-transactional-email-users.png %}){: .zoom}
 *Transactional Email Users*
 
 ## To add a transactional email user
 
-1. Tap the **Settings** ( ![]({{ site.baseurl }}{% link images/images/icon-settings-engagement-cloud.png %})) icon at the bottom of the sidebar. Then on the menu, choose **Access**.
+1. Tap the **Settings** ( ![]({% link images/images/icon-settings-engagement-cloud.png %})) icon at the bottom of the sidebar. Then on the menu, choose **Access**.
 
 1. On the Access page, choose the **Transactional email users** tab.
 

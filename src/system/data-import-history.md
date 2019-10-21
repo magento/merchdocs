@@ -10,5 +10,5 @@ Maintains a record of data that has been imported into your store, including the
 
 1.  Under _Data Transfer_, choose **Import  History**.
 
-    ![]({{ site.baseurl }}{% link images/images/data-import-history.png %}){: .zoom}
+    ![]({% link images/images/data-import-history.png %}){: .zoom}
     _Import History_

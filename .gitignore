@@ -4,7 +4,8 @@
 /.bundle/
 /.asset-cache/
 /node_modules/
-/.jekyll-metadata
+.jekyll-metadata
+.jekyll-cache
 /.DS_Store
 ehthumbs.db
 Thumbs.db
@@ -19,3 +20,5 @@ _algolia_api_key
 .Trashes
 .idea
 /tmp/
+.history
+src/.jekyll-metadata

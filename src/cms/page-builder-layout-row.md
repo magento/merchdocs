@@ -5,7 +5,7 @@ title: Row
 
 Use the Row content type to add a new row to the stage. The row is the basic building block of all Page Builder content. Whenever you create new content, the stage is initially populated with a single, blank row. The row toolbox appears when you hover over the container. The toolbox includes options to move, hide, duplicate, edit, or remove the row. The selection of settings determines the appearance, background and layout of the row. Additional content elements can be dragged to the row from the Page Builder panel on the left.
 
-![]({{ site.baseurl }}{% link images/images-ee/page-builder-layout-page-add-content-row-tools.png %}){: .zoom}
+![]({% link images/images-ee/page-builder-layout-page-add-content-row-tools.png %}){: .zoom}
 _Row Toolbox_
 
 ## To add a row
@@ -24,7 +24,7 @@ _Row Toolbox_
       - Full Width
       - Full Bleed
 
-      ![]({{ site.baseurl }}{% link images/images-ee/page-builder-tutorial1-row-settings-appearance.png %}){: .zoom}
+      ![]({% link images/images-ee/page-builder-tutorial1-row-settings-appearance.png %}){: .zoom}
       _Appearance_
 
    **Background Color**
@@ -39,7 +39,7 @@ _Row Toolbox_
          - The hexadecimal color value for the color, such as `#ffffff`
          - The rgba value for the color, with opacity percent, such as `rgba(255, 255, 255, 0.75)`
 
-         ![]({{ site.baseurl }}{% link images/images-ee/page-builder-settings-background-color-no-color.png %}){: .zoom}
+         ![]({% link images/images-ee/page-builder-settings-background-color-no-color.png %}){: .zoom}
          _No Color_
 
       **Method 2:** Choose the Value
@@ -49,7 +49,7 @@ _Row Toolbox_
          - In the color picker palette, choose the color swatch.
          - In the color picker, drag the cursor to the color that you want.
 
-         ![]({{ site.baseurl }}{% link images/images-ee/page-builder-settings-background-color-picker-swatch.png %}){: .zoom}
+         ![]({% link images/images-ee/page-builder-settings-background-color-picker-swatch.png %}){: .zoom}
          _Choose Swatch_
 
    1. Page Builder supports a transparency layer, or _alpha channel_, that can be used to create backgrounds with varying degrees of opacity. Do the following to set the opacity of the background color:
@@ -60,7 +60,7 @@ _Row Toolbox_
 
          The box below the slider shows the current red, green, blue, and alpha values (rgba). The last number indicates the current opacity percentage as a decimal.
 
-         ![]({{ site.baseurl }}{% link images/images-ee/page-builder-settings-background-color.png %}){: .zoom}
+         ![]({% link images/images-ee/page-builder-settings-background-color.png %}){: .zoom}
          _Set Opacity_
 
    **Background Image**
@@ -72,7 +72,7 @@ _Row Toolbox_
 
       The image is added to the gallery and the dimensions of the image appear below the image in the Background section.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/page-builder-tutorial1-row-settings-background-image-selected.png %}){: .zoom}
+      ![]({% link images/images-ee/page-builder-tutorial1-row-settings-background-image-selected.png %}){: .zoom}
       _Background Image_
 
    - To use a different background image for mobile devices, repeat these steps to specify the **Background Mobile Image** that you want to use.
@@ -85,7 +85,7 @@ _Row Toolbox_
       | Contain | The background image is limited to the width of the content area. |
       | Auto | Applies the size from the current style sheet. |
 
-      ![]({{ site.baseurl }}{% link images/images-ee/page-builder-layout-row-settings-background-size-cover.png %}){: .zoom}
+      ![]({% link images/images-ee/page-builder-layout-row-settings-background-size-cover.png %}){: .zoom}
       _Background Size_
 
    - To determine how the background image is anchored in relation to the row, set **Background Position** to one of the following:
@@ -105,7 +105,7 @@ _Row Toolbox_
 
    - To repeat the background image as a tiled background, set **Background Repeat** to `Yes`.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/page-builder-settings-parallax-background.png %}){: .zoom}
+      ![]({% link images/images-ee/page-builder-settings-parallax-background.png %}){: .zoom}
       _Parallax Background_
 
    **Layout**
@@ -120,7 +120,7 @@ _Row Toolbox_
      - Center
      - Bottom
 
-      ![]({{ site.baseurl }}{% link images/images-ee/page-builder-row-layout.png %}){: .zoom}
+      ![]({% link images/images-ee/page-builder-row-layout.png %}){: .zoom}
       _Layout Settings_
 
    **Advanced**
@@ -141,7 +141,7 @@ _Row Toolbox_
 
       Then, click <span class="btn">Apply</span>.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/page-builder-settings-border-color.png %}){: .zoom}
+      ![]({% link images/images-ee/page-builder-settings-border-color.png %}){: .zoom}
       _Border Color_
 
    - Enter the **Border Width** of the row container in pixels.
@@ -150,26 +150,26 @@ _Row Toolbox_
 
       The row in the following example has a border radius of 15.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/page-builder-settings-border-radius-15.png %}){: .zoom}
+      ![]({% link images/images-ee/page-builder-settings-border-radius-15.png %}){: .zoom}
       _Row with Border Radius of 15_
 
-      ![]({{ site.baseurl }}{% link images/images-ee/page-builder-layout-row-settings-margin-padding-default.png %}){: .zoom}
+      ![]({% link images/images-ee/page-builder-layout-row-settings-margin-padding-default.png %}){: .zoom}
       _Margins & Padding_
 
-1. To preview how the content looks from the storefront, click the **Full Screen** icon (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-fullscreen.png %}){: .Inline}).
+1. To preview how the content looks from the storefront, click the **Full Screen** icon (![]({% link images/images-ee/icon-pb-fullscreen.png %}){: .Inline}).
 
    You can continue to work in full screen mode or click **Close** ( X ) in the upper-right corner to return to the workspace.
 
 1. When complete, scroll up to the top of the page and click <span class="btn">Save & Close</span> to return to the Pages grid.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-layout-row-add.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-layout-row-add.png %}){: .zoom}
    _Adding a Row_
 
 ## To change row settings
 
-1. Hover over the row container. Then, choose **Settings** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox.
+1. Hover over the row container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-tutorial1-row-toolbox.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-tutorial1-row-toolbox.png %}){: .zoom}
    _Row Toolbox Options_
 
 1. Update the settings as needed using the descriptions at the end of this page for reference.
@@ -178,21 +178,21 @@ _Row Toolbox_
 
 ## Row Toolbox
 
-| Tool | [Icon]({{ site.baseurl }}{% link configuration/scope.md %}) | Description |
+| Tool | [Icon]({% link configuration/scope.md %}) | Description |
 | --------- | ---------- | --------- |
-| Move | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-move.png %}) | Moves the row to another position in relation to other rows on the stage. |
+| Move | ![]({% link images/images-ee/icon-pb-move.png %}) | Moves the row to another position in relation to other rows on the stage. |
 | (label) | ROW  | Identifies the current content container as a row. Hover over the container to see the toolbox. |
-| Settings | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}) | Opens the Edit Row page, where you can change the properties of the container. |
-| Hide | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-hide.png %}) | Hides the current row. |
-| Show | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-show.png %}) | Shows the hidden row. |
-| Duplicate | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the row. |
-| Remove | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-remove.png %}) | Deletes the row container and its content from the stage. |
+| Settings | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the Edit Row page, where you can change the properties of the container. |
+| Hide | ![]({% link images/images-ee/icon-pb-hide.png %}) | Hides the current row. |
+| Show | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the hidden row. |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the row. |
+| Remove | ![]({% link images/images-ee/icon-pb-remove.png %}) | Deletes the row container and its content from the stage. |
 
 ## Row Settings
 
 |Setting|Description|
 |--- |--- |
-|Appearance|Determines how the background color and/or image  appears in relation to the row container and the width that is available for content. Options: <br/>**Contained** - The background color or image is limited to the maximum page width that is defined by the theme. <br/>**Full Width** - Limits the content to the maximum page width that is defined by the theme. The background color and/or image is not limited, and extends the full width of the row. <br/>**Full Bleed** - Neither the content nor the background image and/or color are limited, and extend the full width of the row. Full Bleed can be used only with [themes]({{ site.baseurl }}{% link design/themes.md %}) that support the layout.|
+|Appearance|Determines how the background color and/or image  appears in relation to the row container and the width that is available for content. Options: <br/>**Contained** - The background color or image is limited to the maximum page width that is defined by the theme. <br/>**Full Width** - Limits the content to the maximum page width that is defined by the theme. The background color and/or image is not limited, and extends the full width of the row. <br/>**Full Bleed** - Neither the content nor the background image and/or color are limited, and extend the full width of the row. Full Bleed can be used only with [themes]({% link design/themes.md %}) that support the layout.|
 
 ### Background
 

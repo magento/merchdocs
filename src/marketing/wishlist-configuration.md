@@ -10,15 +10,15 @@ The configuration enables wish lists, and determines the email template and send
 
 1. In the panel on the left under **Customers**, choose **Wish List**.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **General Options** section. Then, verify that **Enabled** is set to “Yes".
+1. Expand ![]({% link images/images/btn-expand.png %}) the **General Options** section. Then, verify that **Enabled** is set to “Yes".
 
-    ![]({{ site.baseurl }}{%- link images/images/config-customers-wishlist-general-options.png -%}){: .zoom}
-    [*General Options*]({{ site.baseurl }}{%- link configuration/customers/wishlist.md -%})
+    ![]({% link images/images/config-customers-wishlist-general-options.png %}){: .zoom}
+    [*General Options*]({% link configuration/customers/wishlist.md -%})
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Share Options** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Share Options** section. Then, do the following:
 
-    ![]({{ site.baseurl }}{%- link images/images/config-customers-wishlist-share-options.png -%}){: .zoom}
-    [*Share Options*]({{ site.baseurl }}{%- link configuration/customers/wishlist.md -%})
+    ![]({% link images/images/config-customers-wishlist-share-options.png %}){: .zoom}
+    [*Share Options*]({% link configuration/customers/wishlist.md -%})
 
    * Set **Email Sender** to the store contact that appears as the sender of the message.
 
@@ -28,12 +28,12 @@ The configuration enables wish lists, and determines the email template and send
 
    * To limit the size of the message, enter the **Email Text Length Limit**. The default value is 255.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **My Wish List Link** section. Then, set **Display Wish List Summary** to one of the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **My Wish List Link** section. Then, set **Display Wish List Summary** to one of the following:
 
    * Display number of items in wish list
    * Display item quantities
 
-    ![]({{ site.baseurl }}{%- link images/images/config-customers-wishlist-my-wishlist-link.png -%}){: .zoom}
-    [*My Wish List Link*]({{ site.baseurl }}{%- link configuration/customers/wishlist.md -%})
+    ![]({% link images/images/config-customers-wishlist-my-wishlist-link.png %}){: .zoom}
+    [*My Wish List Link*]({% link configuration/customers/wishlist.md -%})
 
 1. When complete, tap <span class="btn">Save Config</span>.

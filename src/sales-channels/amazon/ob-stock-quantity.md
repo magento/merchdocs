@@ -3,22 +3,22 @@ title: 'Onboarding: Stock/Quantity'
 ---
 
 
-**Step 2 Options**{: .Blue} for [Listing Settings]({{ site.baseurl }}{% link sales-channels/amazon/ob-listing-settings.md %})
+**Step 2 Options**{: .Blue} for [Listing Settings]({% link sales-channels/amazon/ob-listing-settings.md %})
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/onboarding-step-listing-settings.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/onboarding-step-listing-settings.png %}){: .zoom}
 
-If you are managing a store that is in "Active" or "Inactive" status, see [Stock/Quantity]({{ site.baseurl }}{% link sales-channels/amazon/stock-quantity.md %}).
+If you are managing a store that is in "Active" or "Inactive" status, see [Stock/Quantity]({% link sales-channels/amazon/stock-quantity.md %}).
 
 {% include amazon-stock-quantity.md %}
 
-These settings are part of your store's **Listing Settings**. Update these configurations during onboarding through the [Listing Settings]({{ site.baseurl }}{% link sales-channels/amazon/ob-listing-settings.md %}) step.
+These settings are part of your store's **Listing Settings**. Update these configurations during onboarding through the [Listing Settings]({% link sales-channels/amazon/ob-listing-settings.md %}) step.
 
 {:.bs-callout .bs-callout-info}
-For Magento 2.3.x users, Amazon Sales Channel supports the use of the Multi Source Inventory (MSI) extension without any additional setup. See [Managing Inventory]({{ site.baseurl }}{% link catalog/inventory-management.md %}).
+For Magento 2.3.x users, Amazon Sales Channel supports the use of the Multi Source Inventory (MSI) extension without any additional setup. See [Managing Inventory]({% link catalog/inventory-management.md %}).
 
 {% include amazon-stock-quantity-configure.md %}
 
-When complete, continue to the [Fulfilled By]({{ site.baseurl }}{% link sales-channels/amazon/ob-fulfilled-by.md %}) section.
+When complete, continue to the [Fulfilled By]({% link sales-channels/amazon/ob-fulfilled-by.md %}) section.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-stock-quantity.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-stock-quantity.png %}){: .zoom}
 _Stock/Quantity_
