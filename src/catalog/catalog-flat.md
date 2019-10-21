@@ -3,7 +3,7 @@ title: Using a Flat Catalog
 ---
 
 {:.bs-callout .bs-callout-warning}
-Starting with Magento 2.3.0+, the use of a flat catalog is no longer a best practice and is not recommended. Continued use of this feature is known to cause performance degradation and other indexing issues. Detailed description of the issue and solution is available [here]({% link https://support.magento.com/hc/en-us/articles/360034631192 %}).
+Starting with Magento 2.3.0+, the use of a flat catalog is no longer a best practice and is not recommended. Continued use of this feature is known to cause performance degradation and other indexing issues. A detailed description and solution is available in the [Help Center]({% link https://support.magento.com/hc/en-us/articles/360034631192 %}).
 
 Magento typically stores catalog data in multiple tables, based on the Entity-Attribute-Value (EAV) model. Because product attributes are stored in many tables, SQL queries are sometimes long and complex.
 
