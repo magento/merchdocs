@@ -9,11 +9,11 @@ Each website in a Magento installation has a base URL that is assigned to the st
 - **URL with IP address** — `http://###.###.###.###/magento/` or `https://###.###.###.###/magento/`
 
 {:.bs-callout .bs-callout-warning}
-Do not change the Admin URL from the default Base URL configuration. To change the Admin URL or path, see [Using a Custom Admin URL]({{ site.baseurl }}{% link stores/store-urls-custom-admin.md %}).
+Do not change the Admin URL from the default Base URL configuration. To change the Admin URL or path, see [Using a Custom Admin URL]({% link stores/store-urls-custom-admin.md %}).
 
 ## Use Secure Protocol
 
-The base URLs for your store were initially set up during the _Web Configuration_ step of the [Magento installation]({{ site.baseurl }}{% link system/web-setup-wizard.md %}). If a security certificate was available at the time, you could specify for `https` URLs to be used for the store, Admin, or both. If your Magento installation includes multiple stores, or if you plan to later add more stores, you can include the store code in the URL. All Magento resources and operations can be used with secure protocol.
+The base URLs for your store were initially set up during the _Web Configuration_ step of the [Magento installation]({% link system/web-setup-wizard.md %}). If a security certificate was available at the time, you could specify for `https` URLs to be used for the store, Admin, or both. If your Magento installation includes multiple stores, or if you plan to later add more stores, you can include the store code in the URL. All Magento resources and operations can be used with secure protocol.
 
 If a security certificate was not available for the domain at the time of the installation, make sure to update the configuration before launching your store. After a security certificate is established for your domain, you can configure either or both base URLs to operate with encrypted Secure Sockets Layer (SSL) and [Transport Layer Security][1] (TLS) protocol.
 
@@ -28,7 +28,7 @@ Magento can be configured to deliver all pages over `https` by default. If your 
 
 1. Under _General_ in the left panel, choose **Web**.
 
-1. Expand ![Expansion selector]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Base URL** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Base URL** section.
 
     - **Base URL** — Enter the fully qualified base URL for your store. Make sure to end the URL with a forward slash, so it can be extended with additional URL Keys from your store. For example: `http://yourdomain.com/`
 
@@ -45,8 +45,8 @@ Magento can be configured to deliver all pages over `https` by default. If your 
 
        For a typical installation, there is no need to update the paths for the static view files or media files because they are relative to the base URL.
 
-    ![General configuration - web base URLs]({{ site.baseurl }}{% link images/images/config-general-web-base-urls.png %}){: .zoom} 
-    [_Base URLs_]({{ site.baseurl }}{% link configuration/general/web.md %})
+    ![General configuration - web base URLs]({% link images/images/config-general-web-base-urls.png %}){: .zoom} 
+    [_Base URLs_]({% link configuration/general/web.md %})
 
     {:.bs-callout .bs-callout-info}
     Placeholders enclosed in double braces are markup tags for variables.
@@ -57,10 +57,10 @@ Magento can be configured to deliver all pages over `https` by default. If your 
 
 If your domain has a valid security certificate, you can configure the URLs of both the storefront and Admin to transmit data over a secure (https) channel. Without a valid security certificate, your store cannot operate with secure (SSL/TLS) protocol.
 
-1. Expand ![Expansion selector]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the _Base URLs (Secure)_ section. Then, do the following:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the _Base URLs (Secure)_ section. Then, do the following:
 
-    ![General configuration - secure base URLs]({{ site.baseurl }}{% link images/images/config-general-web-base-urls-secure.png %}){: .zoom}
-    [_Base URLs (Secure)_]({{ site.baseurl }}{% link configuration/general/web.md %})
+    ![General configuration - secure base URLs]({% link images/images/config-general-web-base-urls-secure.png %}){: .zoom}
+    [_Base URLs (Secure)_]({% link configuration/general/web.md %})
 
     - **Secure Base URL** — Enter the full secure base URL, followed by a forward slash. For example: `https://yourdomain.com/`
 
@@ -81,7 +81,7 @@ If your domain has a valid security certificate, you can configure the URLs of b
 
 1. For _Enhanced Security Settings_, do the following:
 
-    ![General configuration - URL enhanced security]({{ site.baseurl }}{% link images/images/config-general-web-base-urls-secure-hsts.png %}){: .zoom}
+    ![General configuration - URL enhanced security]({% link images/images/config-general-web-base-urls-secure-hsts.png %}){: .zoom}
     _Enhanced Security_
 
     - **Enable HTTP Strict Transport Security (HSTS)** — If you want your store to display only secure HTTPS page requests, set to `Yes`.
@@ -96,21 +96,21 @@ If your domain has a valid security certificate, you can configure the URLs of b
 
 1. Under _General_ in the left panel, choose **Web**.
 
-1. Expand ![Expansion selector]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **URL Options** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **URL Options** section.
 
 1. Set **Add Store Code** to your preference:
 
     - **URL with Store Code**: `http://www.yourdomain.com/magento/[store-code]/index.php/url-identifier`
     - **URL without Store Code**: `http://www.yourdomain.com/magento/index.php/url-identifier`
 
-    ![General configuration - web URL options]({{ site.baseurl }}{% link images/images/config-general-web-url-options.png %}){: .zoom}
-    [_URL Options_]({{ site.baseurl }}{% link configuration/general/web.md %})
+    ![General configuration - web URL options]({% link images/images/config-general-web-url-options.png %}){: .zoom}
+    [_URL Options_]({% link configuration/general/web.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.
 
 1. Click the **Cache Management** link in the message at the top of the workspace. Then, follow the instructions to refresh the cache.
 
-    ![Cache management message]({{ site.baseurl }}{% link images/images/msg-cache-management.png %})
+    ![Cache management message]({% link images/images/msg-cache-management.png %})
 
 ## Troubleshooting
 

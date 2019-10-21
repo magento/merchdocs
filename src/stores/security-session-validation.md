@@ -6,7 +6,7 @@ Magento allows you to validate session variables as a protective measure against
 
 For technical information, see [Use Redis for session storage][1]{: target="_blank"} in the developer documentation.
 
-![General configuration - Web session validation]({{ site.baseurl }}{% link images/images/config-general-web-session-validation-settings.png %})
+![General configuration - Web session validation]({% link images/images/config-general-web-session-validation-settings.png %})
 _Session Validation Settings_
 
 The validation checks to see that visitors are who they say they are by comparing the value in the validation variables against the session data that is already stored in `$_SESSION` data for the user. Validation fails if the information is not transmitted as expected, and the corresponding variable is empty. Depending on the session validation settings, if a session variable fails the validation process, the client session immediately terminates.
@@ -19,7 +19,7 @@ Enabling all of the validation variables can help prevent attacks, but might als
 
 1. In the left panel, expand _General_ and choose **Web**.
 
-1. Expand ![Expansion selector]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Session Validation Settings** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Session Validation Settings** section.
 
 1. Set each of the configuration options:
 

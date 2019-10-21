@@ -16,12 +16,12 @@ You need to generate, copy, and paste Marketplace access keys from your Marketpl
 
 1.  In the Magento Admin, click **System** > **Web Setup Wizard**, and then click **System Configuration**.
 
-    ![]({{ site.baseurl }}{% link images/images/marketplace-access-keys-admin.png %}){: .zoom}
+    ![]({% link images/images/marketplace-access-keys-admin.png %}){: .zoom}
     _Add Access Keys_
 
 1.  Click **Submit**. The keys are saved, only revealing the public key.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/web-setup-system-config-credentials-saved.png %}){: .zoom}
+    ![]({% link images/images-ee/web-setup-system-config-credentials-saved.png %}){: .zoom}
     _Access Keys Saved_
 
 [1]: https://marketplace.magento.com/

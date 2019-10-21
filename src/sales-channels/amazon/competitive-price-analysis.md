@@ -3,9 +3,9 @@ title: Competitive Price Analysis
 ---
 
 
-The Competitive Price Analysis report displays your Amazon listings per marketplace with the respective [Buy Box]({{ site.baseurl }}{% link sales-channels/amazon/buy-box-competitor-pricing.md %}) price and lowest competitor price values. No actions are available for the log. It is a review-only feature.
+The Competitive Price Analysis report displays your Amazon listings per marketplace with the respective [Buy Box]({% link sales-channels/amazon/buy-box-competitor-pricing.md %}) price and lowest competitor price values. No actions are available for the log. It is a review-only feature.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-competitive-price-analysis.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-competitive-price-analysis.png %}){: .zoom}
 _Competitive Price Analysis_
 
 ### Default Columns
@@ -18,6 +18,6 @@ _Competitive Price Analysis_
 |Your Landed Price|Your listing price for the product plus its shipping price. |
 |Lowest Landed Price|The lowest landed price (listing price plus its shipping price) from your Amazon competitors. |
 |Condition (lowest price)|The condition of the product listed at the lowest price. |
-|Buy Box Landed Price|The landed price (listing price plus its shipping price) of the [Buy Box]({{ site.baseurl }}{% link sales-channels/amazon/buy-box-competitor-pricing.md %}) position listing. |
+|Buy Box Landed Price|The landed price (listing price plus its shipping price) of the [Buy Box]({% link sales-channels/amazon/buy-box-competitor-pricing.md %}) position listing. |
 |Is Seller (Buy Box)|Whether or not you have won the Buy Box position for the listing (NA indicates there is no Buy Box price for the listing). |
 |Condition (Buy Box)|The condition of the Buy Box position listing. |

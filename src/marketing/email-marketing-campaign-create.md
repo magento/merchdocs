@@ -12,16 +12,16 @@ On the Welcome page, click **create a quick tester campaign**. Notice that the C
 
 Hover over the thumbnail image, to show the Select and Preview buttons. Then, do the following:
 
-* Tap **Preview** ( ![]({{ site.baseurl }}{%- link images/images/dotmailer-btn-preview.png -%})) to see a mockup of the template.
+* Tap **Preview** ( ![]({% link images/images/dotmailer-btn-preview.png %})) to see a mockup of the template.
 
 * Tap <span class="btn">Select</span> to choose the template for your campaign.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-template-preview.png -%}){: .zoom}
+![]({% link images/images/dotmailer-template-preview.png %}){: .zoom}
 *Template Preview*
 
 Enter a **Campaign name**, and accept the default **Campaign location** as the folder where the campaign will be saved.  Then, tap <span class="btn">Continue</span>.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-name.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-name.png %}){: .zoom}
 *Campaign Name*
 
 To complete the setup of your simple test campaign, do the following:
@@ -36,16 +36,16 @@ In the **From address** field, choose the email address that is to appear as the
 
 (Optional) In the **Campaign tags** field, enter as many tags as needed to filter your campaigns for reporting purposes. Press the **Tab** key to separate multiple tags.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-details.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-details.png %}){: .zoom}
 *Campaign Details*
 
 As you type, the Preview section shows how your message will appear in the inbox of each recipient. Notice how your “Friendly from name” is used to distinguish it from other email.
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-preview.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-preview.png %}){: .zoom}
 *Campaign Preview*
 
 Above the **Campaign details** section, click the **Campaign settings** tab. For this test campaign, we will use the default settings.  Tap <span class="btn">Save</span>.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-settings.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-settings.png %}){: .zoom}
 *Campaign Settings*
 
 ## Step 2. Edit the Campaign Content
@@ -60,7 +60,7 @@ The following instructions walk you through each section of the template, and in
 
 The space above the header can be used to enter a brief message. Click the text box, and enter the text that you want to appear above the header.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-preheader-text.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-preheader-text.png %}){: .zoom}
 *Preheader Text*
 
 ## Upload Your Logo
@@ -70,7 +70,7 @@ On the **Build** tab, choose **Images**. To upload your logo, click **Manage**. 
 {: .bs-callout-info}
 It is recommended to limit the combined size of all images in a campaign to less than 100kb.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-image-manager.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-image-manager.png %}){: .zoom}
 *Image Manager*
 
 To organize your images, click **New folder**. Then, enter a **name** for the untitled folder. The new folder is nested below the original parent folder.
@@ -79,7 +79,7 @@ You can create as many folders as needed, and organize them any way you want. Ov
 
 In the sidebar, click the parent folder that contains the logo that you uploaded. Then, drag the image to the new folder. Then, click **Close** (X) in the upper-right corner to return to the content editor.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-image-manager-new-folder.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-image-manager-new-folder.png %}){: .zoom}
 *New Folder*
 
 The logo that you uploaded appears in the sidebar, where it can be dragged into position. Drag and drop your logo to replace the placeholder image.
@@ -90,11 +90,11 @@ The next section of the template represents your store’s menu. However, it is 
 
 Click the menu area, so you can see the multi-column layout.  The Columns building block is located in the sidebar under Layout.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-template-menu-5-column-layout.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-template-menu-5-column-layout.png %}){: .zoom}
 
 Click each cell and enter the menu options for your store. Then, use the toolbar to change the font, size, and style of the text, as needed.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-template-menu-font-style.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-template-menu-font-style.png %}){: .zoom}
 
 ## Add Links
 
@@ -110,7 +110,7 @@ If you want to later be able to track how many people click the link, enter a co
 
 Repeat these steps to link each menu option to your store.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-template-menu-link.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-template-menu-link.png %}){: .zoom}
 *Add a Link*
 
 ## Change the Background Color
@@ -123,7 +123,7 @@ In the sidebar under the color picker, enter the hexadecimal code for the backgr
 
 Tap **Save colour** to save the color in the My colors section of the sidebar.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-template-styles-background-color.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-template-styles-background-color.png %}){: .zoom}
 *Background Color*
 
 ## Replace the Banner
@@ -134,7 +134,7 @@ Choose the banner image that you want to upload. After a moment, the image appea
 
 From the sidebar, drag the new banner to replace the placeholder.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-banner.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-banner.png %}){: .zoom}
 *Banner*
 
 ## Add Featured Products
@@ -153,7 +153,7 @@ To update the product buttons, do the following:
 * Paste the **Button URL** for the corresponding product detail page. Then, update the color and formatting as needed.
 * Repeat these steps for each product button.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-button.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-button.png %}){: .zoom}
 *Button Settings*
 
 ## Add Social Media Links
@@ -162,7 +162,7 @@ In the template, scroll down to the social media placeholder.
 
 In the building blocks sidebar under **Tools**, drag the **Social Links** building block into position in the template. The empty building block appears either above or below the placeholder.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-social-media.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-social-media.png %}){: .zoom}
 *Social Media Building Block*
 
 Click the empty building block to open the Social links settings. Then, do the following:
@@ -171,7 +171,7 @@ Click the empty building block to open the Social links settings. Then, do the f
 * For each social link, paste the **URL** of your company profile page.
 * When complete, tap <span class="btn">Apply</span>.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-social-links-settings.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-social-links-settings.png %}){: .zoom}
 *Social Links*
 
 To adjust the format and spacing of the buttons, click anywhere in the social links building block. You can experiment with these settings to adjust the size and format of the buttons. To make your buttons look like the template, do the following:
@@ -180,14 +180,14 @@ To adjust the format and spacing of the buttons, click anywhere in the social li
 * Under **Spacing**, set **Horizontal** to “15px” and **Vertical** to “None”.
 * To delete the placeholder social media links, click **Close** ( X ) in the upper-right corner.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-social-links-formats.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-social-links-formats.png %}){: .zoom}
 *Formatting the Social Media Links*
 
 ## Complete the Footer
 
 The information at the bottom of the template is important, and in many countries is required by law. You must provide a mechanism for recipients to unsubscribe, and clearly identify the sender of the email.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-footer-example.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-footer-example.png %}){: .zoom}
 *Footer Information*
 
 Do not change the “Unsubscribe” and “Forward this email “links, because they contain code that manages each operation. However, you can format the text if you like.
@@ -202,7 +202,7 @@ The template is now fully customized for your store. Tap <span class="btn">Save<
 
 To test your campaign, tap <span class="btn">Test send</span> in the template header.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-header-send-test.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-header-send-test.png %}){: .zoom}
 
 To send the test email to yourself, mark the checkbox of the email address that is associated with your dotmailer account.
 
@@ -216,7 +216,7 @@ Mark the checkbox of each additional recipient that is to receive the test email
 
 When you are ready to send the test campaign, tap <span class="btn">Test Send</span>. If prompted, tap <span class="btn">Save and send</span>.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-test-send-ready.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-test-send-ready.png %}){: .zoom}
 *Send a Test of Your Email Campaign*
 
 Check your email to see how it looks!
@@ -225,18 +225,18 @@ Check your email to see how it looks!
 
 The Summary Report validates the campaign, lists any errors that are found, and suggests areas for improvement.
 
-In addition to the Summary Report, the Reports menu has a selection of [Marketing Automation]({{ site.baseurl }}{%- link reports/customer-engagement.md -%}) reports.
+In addition to the Summary Report, the Reports menu has a selection of [Marketing Automation]({% link reports/customer-engagement.md -%}) reports.
 
 On the **Campaigns** menu, choose **My Campaigns**.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaigns-my-campaigns.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaigns-my-campaigns.png %}){: .zoom}
 *My Campaigns*
 
-In the record for your test campaign, click **Summary** ( ![]({{ site.baseurl }}{%- link images/images/dotmailer-btn-summary.png -%})) to view the summary report.
+In the record for your test campaign, click **Summary** ( ![]({% link images/images/dotmailer-btn-summary.png %})) to view the summary report.
 
 This report says that the quality of the text content needs to be improved.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-summary-report.png -%}){: .zoom}
+![]({% link images/images/dotmailer-summary-report.png %}){: .zoom}
 *Summary Report*
 
 ## Step 5: Add a Personal Note
@@ -251,22 +251,22 @@ In the toolbar at the top of the template, tap <span class="btn">Data Fields</sp
 
 In the list of data fields, choose <span class="btn">First name</span>.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-data-fields.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-data-fields.png %}){: .zoom}
 Complete the note, and add a link. Then, <span class="btn">Save</span> your work.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-personal-note.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-personal-note.png %}){: .zoom}
 *Personalized Greeting*
 
 ## Step 6: Preview the Campaign
 
 In the button bar at the top of the workspace, tap **Preview**.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-preview-desktop.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-preview-desktop.png %}){: .zoom}
 *Desktop Preview*
 
-In the upper-right corner, click **Phone** ( ![]({{ site.baseurl }}{%- link images/images/dotmailer-btn-phone.png -%})), and choose **Portrait** to see how the message looks on a mobile device.
+In the upper-right corner, click **Phone** ( ![]({% link images/images/dotmailer-btn-phone.png %})), and choose **Portrait** to see how the message looks on a mobile device.
 
-![]({{ site.baseurl }}{%- link images/images/dotmailer-campaign-preview-phone.png -%}){: .zoom}
+![]({% link images/images/dotmailer-campaign-preview-phone.png %}){: .zoom}
 *Phone Preview*
 
 **Close** the preview.

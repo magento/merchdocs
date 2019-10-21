@@ -10,7 +10,7 @@ When the state of new orders is set to _Processing_ the option to _Automatically
 
 You must generate an invoice for an order before you can print it. To view or print the PDF, first download and install a PDF reader such as [Adobe Acrobat Reader][1].
 
-![]({{ site.baseurl }}{% link images/images/sales-invoices.png %}){: .zoom}
+![]({% link images/images/sales-invoices.png %}){: .zoom}
 _Invoices_
 
 ## Invoice an order
@@ -30,7 +30,7 @@ _Invoices_
 
     The new invoice page looks similar to a completed order page, with additional fields that can be edited.
 
-    ![]({{ site.baseurl }}{% link images/images/invoice-sales-order.png %}){: .zoom}
+    ![]({% link images/images/invoice-sales-order.png %}){: .zoom}
     _Invoice Sales Order_
 
 1. If the items are ready to ship, generate a packing slip for the shipment at the same time that you create the invoice:
@@ -39,7 +39,7 @@ _Invoices_
 
        The shipment record is created at the same time the invoice is generated.
 
-       ![]({{ site.baseurl }}{% link images/images/invoice-create-shipment-fedex.png %}){: .zoom}
+       ![]({% link images/images/invoice-create-shipment-fedex.png %}){: .zoom}
        _Create Shipment_
 
     - Include a tracking number:
@@ -52,7 +52,7 @@ _Invoices_
         - In the _Items to Invoice_ section, update the **Qty to Invoice** column to include only specific items on the invoice.
         - Then, click **Update Qty’s**.
 
-        ![]({{ site.baseurl }}{% link images/images/invoice-items-to-invoice.png %}){: .zoom}
+        ![]({% link images/images/invoice-items-to-invoice.png %}){: .zoom}
         _Items to Invoice_
 
 1. If an online payment method was used for the order, set **Amount** to the appropriate option.
@@ -65,13 +65,13 @@ _Invoices_
 
 1. When complete, click **Submit Invoice** at the bottom of the page. The status of the order changes from `Pending` to `Complete`.
 
-    ![]({{ site.baseurl }}{% link images/images/invoice-submit-invoice-capture-online.png %}){: .zoom}
+    ![]({% link images/images/invoice-submit-invoice-capture-online.png %}){: .zoom}
     _Submit Invoice (Online Payment Method)_
 
-    ![]({{ site.baseurl }}{% link images/images/invoice-submit-invoice.png %}){: .zoom}
+    ![]({% link images/images/invoice-submit-invoice.png %}){: .zoom}
     _Submit Invoice (Offline Payment Method)_
 
-    ![]({{ site.baseurl }}{% link images/images/invoice-full.png %}){: .zoom}
+    ![]({% link images/images/invoice-full.png %}){: .zoom}
     _Completed Invoice_
 
 ## Print the invoice:
@@ -80,9 +80,9 @@ _Invoices_
 
 1. Save the generated PDF to a file, or print it.
 
-    To customize the default invoice, see [Preparing Your Invoice Logo]({{ site.baseurl }}{% link marketing/sales-document-pdf-logo.md %}).
+    To customize the default invoice, see [Preparing Your Invoice Logo]({% link marketing/sales-document-pdf-logo.md %}).
 
-    ![]({{ site.baseurl }}{% link images/images/invoice-print-pdf.png %}){: .zoom}
+    ![]({% link images/images/invoice-print-pdf.png %}){: .zoom}
     _Default PDF Invoice_
 
 |Payment Action |Description

@@ -11,9 +11,9 @@ A gift registry can be created for any type of event, such as a wedding, birthda
 
 When you create a new registry, it becomes an option in the list of gift registry types in the customer’s account.
 
-You can use one of the three prepared gift registries, or create your own custom registry. Each gift registry type includes a number of attributes, which are the data entry fields that a customer completes to create a gift registry. The attributes provide additional information about the event, time and location, or any other information that is needed. Depending on the input type, some attributes have multiple options. For example, the gift registry type “Wedding,” has the attribute “Role,” with the options, “Bride,” “Groom,” and “Partner”. To learn more about attributes and input types, see: [Attributes]({{ site.baseurl }}{%- link stores/attributes.md -%}).
+You can use one of the three prepared gift registries, or create your own custom registry. Each gift registry type includes a number of attributes, which are the data entry fields that a customer completes to create a gift registry. The attributes provide additional information about the event, time and location, or any other information that is needed. Depending on the input type, some attributes have multiple options. For example, the gift registry type “Wedding,” has the attribute “Role,” with the options, “Bride,” “Groom,” and “Partner”. To learn more about attributes and input types, see: [Attributes]({% link stores/attributes.md -%}).
 
-![]({{ site.baseurl }}{%- link images/images-ee/gift-registry-types.png -%}){: .zoom}
+![]({% link images/images-ee/gift-registry-types.png %}){: .zoom}
 *Gift Registry Types*
 
 ## To use a prepared gift registry
@@ -22,7 +22,7 @@ You can use one of the three prepared gift registries, or create your own custom
 
     The birthday, wedding, and baby registries are ready for customers to use from their accounts.
 
-1. Make sure to complete the [email template]({{ site.baseurl }}{%- link marketing/email-template-configuration.md -%}) configuration, so they reflect your brand.
+1. Make sure to complete the [email template]({% link marketing/email-template-configuration.md -%}) configuration, so they reflect your brand.
 
 ## To create a custom gift registry
 
@@ -40,14 +40,14 @@ You can use one of the three prepared gift registries, or create your own custom
 
     * To activate the gift registry, set **Is Listed** to “Yes".
 
-        ![]({{ site.baseurl }}{%- link images/images-ee/gift-registry-new-general-information.png -%}){: .zoom}
+        ![]({% link images/images-ee/gift-registry-new-general-information.png %}){: .zoom}
         *General Information*
 
 1. Examine each section of the Gift Registry to determine the type of information you want to include.
 
 1. In the panel on the left, choose **Attributes**. Then, tap <span class="btn">Add Attribute</span>.
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/gift-registry-type-new-attribute.png -%}){: .zoom}
+    ![]({% link images/images-ee/gift-registry-type-new-attribute.png %}){: .zoom}
     *New Gift Registry Attribute*
 
 1. For each attribute, do the following:
@@ -68,7 +68,7 @@ You can use one of the three prepared gift registries, or create your own custom
 
 1. To add another option, tap <span class="btn">Add New Option</span>. Each new option added appears in a new section at the top. Then, repeat this process for the new attribute.
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/gift-registry-new-attribute-event-location.png -%}){: .zoom}
+    ![]({% link images/images-ee/gift-registry-new-attribute-event-location.png %}){: .zoom}
     1. *Attribute with Multiple Options*
 
 When complete, tap <span class="btn">Save</span>.

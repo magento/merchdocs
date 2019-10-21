@@ -22,7 +22,7 @@ Always flush the cache when upgrading from one version of Open Source or Commerc
 
 For developer information on upgrades, see the DevDocs [Command Line Upgrade][3]. The upgrade instructions include scripts to help run and complete your upgrades. These steps require developer assistance.
 
-![]({{ site.baseurl }}{% link images/images/web-setup-system-upgrade.png %}){: .zoom}
+![]({% link images/images/web-setup-system-upgrade.png %}){: .zoom}
 _System Upgrade_
 
 ## To upgrade your Magento installation:
@@ -33,12 +33,12 @@ _System Upgrade_
 
 1.  Under _Tools_, choose **Web Setup Wizard**.
 
-    ![]({{ site.baseurl }}{% link images/images/web-setup-wizard-tiles.png %}){: .zoom}
+    ![]({% link images/images/web-setup-wizard-tiles.png %}){: .zoom}
     _Web Setup Wizard_
 
 1.  Click **Extension Manager**.
 
-    ![]({{ site.baseurl }}{% link images/images/web-setup-system-upgrade.png %}){: .zoom}
+    ![]({% link images/images/web-setup-system-upgrade.png %}){: .zoom}
     _System Upgrade_
 
 1.  When prompted, follow the instructions to copy and paste the **Public Access Key** and **Private Access Key** from your Marketplace account. Then, click **Submit**.
@@ -49,7 +49,7 @@ _System Upgrade_
     * Step 2: Create Backup
     * Step 3: System Upgrade
 
-1.  Flush the [cache]({{ site.baseurl }}{% link system/cache-management.md %}) and [reindex]({{ site.baseurl }}{% link system/index-management.md %}) when complete.
+1.  Flush the [cache]({% link system/cache-management.md %}) and [reindex]({% link system/index-management.md %}) when complete.
 
 [1]: https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html
 [2]: https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements2.html

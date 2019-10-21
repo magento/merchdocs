@@ -4,8 +4,8 @@ title: Flat Rate
 
 Flat rate is a fixed, predefined charge that can be applied per item, or per shipment. Flat rate is a simple shipping solution, especially when used with the flat-rate packaging that is available from some carriers. When enabled, Flat Rate appears as an option during checkout. Because no specific carrier is specified, you can use a carrier of your choice.
 
-![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-flat-rate.png %}){: .zoom}
- [*Flat Rate*]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})
+![]({% link images/images/config-sales-shipping-methods-flat-rate.png %}){: .zoom}
+ [*Flat Rate*]({% link configuration/sales/shipping-methods.md %})
 
 ## To set up flat rate shipping
 
@@ -15,7 +15,7 @@ Flat rate is a fixed, predefined charge that can be applied per item, or per shi
 
 1.  In the _Sales_ section in the left panel, choose **Shipping Methods**.
 
-1.  Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Flat Rate** section. Then, do the following:
+1.  Expand ![]({% link images/images/btn-expand.png %}) the **Flat Rate** section. Then, do the following:
 
 1.  Set **Enabled** to `Yes`.
 
@@ -48,7 +48,7 @@ Flat rate is a fixed, predefined charge that can be applied per item, or per shi
 
 1.  Set **Ship to Applicable Countries** to one of the following:
 
-    *  **All Allowed Countries**–Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use flat rate shipping.
+    *  **All Allowed Countries**–Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use flat rate shipping.
 
     *  **Specific Countries**–After choosing this option, the Ship to Specific Countries list appears. Select each country in the list where flat rate shipping can be used.
 

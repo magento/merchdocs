@@ -3,9 +3,9 @@ conditions: Default.EE-B2B
 title: Managing a Shopping Cart
 ---
 
-To begin an assisted shopping session, the customer must be logged into their account from the storefront to make the information available. If the customer doesn’t have an account, you can [create one]({{ site.baseurl }}{% link customers/account-create.md %}).
+To begin an assisted shopping session, the customer must be logged into their account from the storefront to make the information available. If the customer doesn’t have an account, you can [create one]({% link customers/account-create.md %}).
 
-![]({{ site.baseurl }}{% link images/images-ee/customer-account-manage-cart-items.png %}){: .zoom}
+![]({% link images/images-ee/customer-account-manage-cart-items.png %}){: .zoom}
 _Shopping Cart in Customer Account_
 
 ## To verify that the customer is logged in
@@ -16,7 +16,7 @@ _Shopping Cart in Customer Account_
 
     All visitors to the store and logged in customers appear in the list.
 
-   ![]({{ site.baseurl }}{% link images/images/customers-now-online.png %}){: .zoom}
+   ![]({% link images/images/customers-now-online.png %}){: .zoom}
    _Customers Now Online_
 
 ## To offer assisted shopping
@@ -27,16 +27,16 @@ _Shopping Cart in Customer Account_
 
 1. In the list, open the customer record in edit mode.
 
-    To find the customer record in a hurry, use the [Filters]({{ site.baseurl }}{% link stores/admin-grid-controls.md %}) control.
+    To find the customer record in a hurry, use the [Filters]({% link stores/admin-grid-controls.md %}) control.
 
     In the customer profile under _Personal Information_, the _Last Logged In_ date and time shows that the customer is currently online.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/customer-account-manage-cart.png %}){: .zoom}
+    ![]({% link images/images-ee/customer-account-manage-cart.png %}){: .zoom}
     _Customer Profile of Online Customer_
 
 1. To enter assisted shopping mode, click **Manage Shopping Cart** in the top button bar.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/customer-manage-shopping-cart.png %}){: .zoom}
+    ![]({% link images/images-ee/customer-manage-shopping-cart.png %}){: .zoom}
     _Assisted Shopping Mode_
 
 ## To add products to the cart
@@ -45,7 +45,7 @@ Use any of the following methods to add products to the cart.
 
 ### Method 1: Add Products to Cart
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Products** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Products** section.
 
 1. Find a product to add using any of the filters at the top of each column.
 
@@ -61,33 +61,33 @@ Use any of the following methods to add products to the cart.
 
       - On the left above the grid, click **Add selections to my cart**.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/customer-account-manage-cart-order-products.png %}){: .zoom}
+        ![]({% link images/images-ee/customer-account-manage-cart-order-products.png %}){: .zoom}
         _Add Product to Cart_
 
         The line item is added to the Shopping Cart at the top of the page.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/customer-account-manage-cart-update-cart.png %}){: .zoom}
+        ![]({% link images/images-ee/customer-account-manage-cart-update-cart.png %}){: .zoom}
         _Cart Updated_
 
     **To add a configurable product**
 
       - In the grid, click **Configure**.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/customer-account-manage-cart-order-configurable-product.png %}){: .zoom}
+        ![]({% link images/images-ee/customer-account-manage-cart-order-configurable-product.png %}){: .zoom}
         _Configure_
 
         In the _Associated Products_ section, choose each product option to describe the item to be ordered. Then, enter the **Quantity**.
 
       - Click **OK**.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/customer-account-manage-cart-order-configurable-product-associated.png %}){: .zoom}
+        ![]({% link images/images-ee/customer-account-manage-cart-order-configurable-product-associated.png %}){: .zoom}
         _Choose Options_
 
         The product is selected with a checkmark, and the quantity ordered appears in the grid.
 
       - To add the product to the cart, click **Add selections to my cart**.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/customer-account-manage-cart-order-configurable-product-cart.png %}){: .zoom}
+        ![]({% link images/images-ee/customer-account-manage-cart-order-configurable-product-cart.png %}){: .zoom}
         _Configurable Product in Cart_
 
       - Update product options as needed:
@@ -98,7 +98,7 @@ Use any of the following methods to add products to the cart.
 
 ### Method 2: Add Item by SKU
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Add to  Shopping Cart by SKU** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Add to  Shopping Cart by SKU** section.
 
 1. Add products individually by **SKU** or add products by uploading a CSV file.
 
@@ -108,19 +108,19 @@ Use any of the following methods to add products to the cart.
 
       - To order another product, click **Add another**.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/customer-account-manage-cart-order-product-by-sku.png %}){: .zoom}
+        ![]({% link images/images-ee/customer-account-manage-cart-order-product-by-sku.png %}){: .zoom}
         _Add Products by SKU_
 
       - Click **Add selections to my cart**.
 
       - If the item is a configurable product, choose the product options when prompted. Then, click **Add to Shopping Cart**.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/customer-account-manage-cart-order-product-by-sku.png %}){: .zoom}
+        ![]({% link images/images-ee/customer-account-manage-cart-order-product-by-sku.png %}){: .zoom}
         _Add Products by SKU_
 
     **To add products by uploading a CSV file**
 
-      - Prepare a [csv file]({{ site.baseurl }}{% link system/data-csv.md %}) with the items to be added to the cart.
+      - Prepare a [csv file]({% link system/data-csv.md %}) with the items to be added to the cart.
 
         The file must contain only two columns, with `sku` and `qty` in the header.
 
@@ -134,7 +134,7 @@ Use any of the following methods to add products to the cart.
 
 Items can be transferred to the cart from the customer’s wish list, recently viewed, compared, or ordered items. The number of items in each section appears in parentheses after the section header.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} one of the following sections.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} one of the following sections.
 
     - Wish List
     - Products in the Comparison List
@@ -152,7 +152,7 @@ Items can be transferred to the cart from the customer’s wish list, recently v
 
     - In the **Apply Coupon Code** field, enter a valid coupon code.
 
-    - Click the **Apply** (![]({{ site.baseurl }}{% link images/images/btn-apply.png %}){: .Inline}) arrow.
+    - Click the **Apply** (![]({% link images/images/btn-apply.png %}){: .Inline}) arrow.
 
 1. Adjust the quantity ordered as needed:
 
@@ -168,4 +168,4 @@ Items can be transferred to the cart from the customer’s wish list, recently v
 
 1. Click **Submit Order**.
 
-To learn more, see [Creating an Order]({{ site.baseurl }}{% link customers/customer-account-create-order.md %}).
+To learn more, see [Creating an Order]({% link customers/customer-account-create-order.md %}).

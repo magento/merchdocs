@@ -12,13 +12,13 @@ A rule is a collection of conditions (one or more) that apply changes in prices 
 
 Conditions are statements that refine the list of products and situations for applying the rule. The attributes and options for conditions differ between the types of available rules. When met, the action is completed such as discounts, buy one get one free (BOGO), and other options. Rules can be simple or as complicated as need to match your business needs, seasonal discounts and promotions, and year long opportunities. For example, you may want to add a few more options for the holidays while providing free shipping year-round when carts have a high subtotal.
 
-For [catalog price rules]({{ site.baseurl }}{%- link marketing/price-rules-catalog.md -%}), you build conditions based on [attribute sets]({{ site.baseurl }}{%- link stores/attribute-sets.md -%}) in your catalog, comparison functions, and selected attributes. You create the conditions like sentences by selecting a few statements. For example, you may create two price rules to apply discounts for children's clothing and men's/women's clothing based on the category.
+For [catalog price rules]({% link marketing/price-rules-catalog.md -%}), you build conditions based on [attribute sets]({% link stores/attribute-sets.md -%}) in your catalog, comparison functions, and selected attributes. You create the conditions like sentences by selecting a few statements. For example, you may create two price rules to apply discounts for children's clothing and men's/women's clothing based on the category.
 
-![]({{ site.baseurl }}{%- link images/images/diagram-catalog-price-rules.png -%}){: .zoom}
+![]({% link images/images/diagram-catalog-price-rules.png %}){: .zoom}
 *Example options for Catalog Price Rule*
 
-[Cart price rule]({{ site.baseurl }}{%- link marketing/price-rules-cart.md -%})
-conditions can be based on any category that is a child of the store’s [root]({{ site.baseurl }}{%- link catalog/category-root.md -%}). Price rules are set up in advance, and spring into action whenever the required conditions are met. These rules use attributes including product attribute combination like matching a SKU in the cart using product attributes, product subselection like the total quantity matching conditions, condition combinations for complicated rules, and cart attributes like subtotal.
+[Cart price rule]({% link marketing/price-rules-cart.md -%})
+conditions can be based on any category that is a child of the store’s [root]({% link catalog/category-root.md -%}). Price rules are set up in advance, and spring into action whenever the required conditions are met. These rules use attributes including product attribute combination like matching a SKU in the cart using product attributes, product subselection like the total quantity matching conditions, condition combinations for complicated rules, and cart attributes like subtotal.
 
-![]({{ site.baseurl }}{%- link images/images/diagram-cart-price-rules.png -%}){: .zoom}
+![]({% link images/images/diagram-cart-price-rules.png %}){: .zoom}
 *Example options for Cart Price Rule*

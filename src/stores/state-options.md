@@ -7,8 +7,8 @@ In many countries, the state, province, or region is a required part of a postal
 
 Because standard address formats vary from one country to another, you can also edit the template that is used to format the address for invoices, packing slips, and shipping labels.
 
-![General configuration - state options]({{ site.baseurl }}{% link images/images/config-general-general-state-options.png %}){: .zoom}
-[_State Options_]({{ site.baseurl }}{% link configuration/general/general.md %})
+![General configuration - state options]({% link images/images/config-general-general-state-options.png %}){: .zoom}
+[_State Options_]({% link configuration/general/general.md %})
 
 ## Set up the state options
 
@@ -16,7 +16,7 @@ Because standard address formats vary from one country to another, you can also 
 
 1. Under **General** in the left panel, choose **General**.
 
-1. Expand ![Expansion selector]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **State Options** section and do the following:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **State Options** section and do the following:
 
     - In the **State is required for** list, select each country where Region/State is a required entry.
 

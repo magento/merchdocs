@@ -15,14 +15,14 @@ Complete the following steps to add a new rule, describe the conditions, and def
     * If you do not want the rule to go into effect immediately, set **Active** to “No”.
 
     <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({{ site.baseurl }}{% link images/images/price-rule-cart-new.png %}){: .zoom}
+    ![]({% link images/images/price-rule-cart-new.png %}){: .zoom}
     <!--{% endif %}-->
     <!--{% if "Default.EE-B2B" contains site.edition %}-->
-    ![]({{ site.baseurl }}{% link images/images-ee/price-rule-cart-new.png %}){: .zoom}
+    ![]({% link images/images-ee/price-rule-cart-new.png %}){: .zoom}
     <!--{% endif %}-->
     _Rule Information_
 
-1. To establish the [scope]({{ site.baseurl }}{% link configuration/scope.md %}) of the rule, do the following:
+1. To establish the [scope]({% link configuration/scope.md %}) of the rule, do the following:
 
     * Select the **Websites** where the promotion is to be available.
 
@@ -30,14 +30,14 @@ Complete the following steps to add a new rule, describe the conditions, and def
 
         If you want the promotion to be available only to registered customers, do not choose the “NOT LOGGED IN” option.
 
-1. To have the cart rule applied to all cart items, set **Coupon** to "No Coupon" and skip to step 5. To associate a [coupon]({{ site.baseurl }}{% link marketing/price-rules-cart-coupon.md %}) with a price rule, set **Coupon** to “Specific Coupon.” Then, do the following:
+1. To have the cart rule applied to all cart items, set **Coupon** to "No Coupon" and skip to step 5. To associate a [coupon]({% link marketing/price-rules-cart-coupon.md %}) with a price rule, set **Coupon** to “Specific Coupon.” Then, do the following:
 
     <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({{ site.baseurl }}{% link images/images/price-rule-cart-coupon-settings.png %}){: .zoom}
+    ![]({% link images/images/price-rule-cart-coupon-settings.png %}){: .zoom}
     *Coupon Settings*
     <!--{% endif %}-->
     <!--{% if "Default.EE-B2B" contains site.edition %}-->
-    ![]({{ site.baseurl }}{% link images/images-ee/price-rule-cart-coupon-settings-ee.png %}){: .zoom}
+    ![]({% link images/images-ee/price-rule-cart-coupon-settings-ee.png %}){: .zoom}
     *Coupon Settings*
     <!--{% endif %}-->
 
@@ -49,10 +49,10 @@ Complete the following steps to add a new rule, describe the conditions, and def
     | Uses per Customer | Determines how many times the coupon code can be used by the same registered customer who belongs to any of the selected customer groups. The setting does not apply to guest shoppers who are members of the NOT LOGGED IN customer group, or to customers who shop without logging in to their accounts. If there is no limit, leave the field blank. |
     {:style="table-layout:auto"}
 
-    To learn more, see: [Coupon Codes]({{ site.baseurl }}{% link marketing/price-rules-cart-coupon.md %}).
+    To learn more, see: [Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}).
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-1. Use the **Calendar** (![]({{ site.baseurl }}{% link images/images/btn-calendar.png %})) to choose the **From** and **To** date range for the promotion.
+1. Use the **Calendar** (![]({% link images/images/btn-calendar.png %})) to choose the **From** and **To** date range for the promotion.
 
 <!--{% endif %}-->
 
@@ -61,22 +61,22 @@ Complete the following steps to add a new rule, describe the conditions, and def
     {: .bs-callout .bs-callout-info}
     The Priority setting is important when two cart rules/coupon codes are valid for the same product at the same time. The rule with the highest Priority setting (1 being the highest) will control the cart action.
 
-1. To apply the rule to published [RSS feeds]({{ site.baseurl }}{% link marketing/rss-feed.md %}), set **Public In RSS Feed** to “Yes.”
+1. To apply the rule to published [RSS feeds]({% link marketing/rss-feed.md %}), set **Public In RSS Feed** to “Yes.”
 
 1. This is a good time to save your work. Tap <span class="btn">Save and Continue Edit</span>.
 
     After the rule is saved, the name of the cart price rule {% if "Default.EE-B2B" contains site.edition %}and the Scheduled Changes box {% endif %} appear{% if "Default.CE Only" contains site.edition %}s{% endif %} at the top of the page.
 
     <!--{% if "Default.EE-B2B" contains site.edition %}-->
-    ![]({{ site.baseurl }}{% link images/images-ee/price-rule-cart-scheduled-changes.png %}){: .zoom}  
-    [Scheduled Changes]({{ site.baseurl }}{% link marketing/price-rule-cart-scheduled-changes.md %})
+    ![]({% link images/images-ee/price-rule-cart-scheduled-changes.png %}){: .zoom}  
+    [Scheduled Changes]({% link marketing/price-rule-cart-scheduled-changes.md %})
     <!--{% endif %}-->
 
 ## Step 2: Describe the Conditions
 
 In this step, the conditions are described that must be met for an order to qualify for the promotion. The rule goes into action whenever the set of conditions is met.
 
-![]({{ site.baseurl }}{% link images/images/price-rule-cart-conditions.png %}){: .zoom}
+![]({% link images/images/price-rule-cart-conditions.png %}){: .zoom}
 *Conditions*
 
 1. In the panel on the left, select **Conditions**. The first rule appears by default, and states:
@@ -89,38 +89,38 @@ In this step, the conditions are described that must be met for an order to qual
    * Click the **TRUE** link and select “TRUE” or “FALSE.”
    * Leave the condition unchanged to apply the rule to all products.
 
-1. Click **Add** (![]({{ site.baseurl }}{% link images/images/btn-add-grn.png %})) at the beginning of the next line. Select an option for the condition, such as cart attribute, product subselection, or combination. For this example, complete the next part of the condition as follows:
+1. Click **Add** (![]({% link images/images/btn-add-grn.png %})) at the beginning of the next line. Select an option for the condition, such as cart attribute, product subselection, or combination. For this example, complete the next part of the condition as follows:
 
    * When prompted to **Choose the condition to add**, choose "Products Subselection".
 
-        ![]({{ site.baseurl }}{% link images/images/price-rule-cart-condition-products-subselection.png %}){: .zoom}
+        ![]({% link images/images/price-rule-cart-condition-products-subselection.png %}){: .zoom}
         *Products Subselection*
 
    * When the next part of the condition appears, mouse over the line so you can see where each link with variable values is located.
 
-        ![]({{ site.baseurl }}{% link images/images/price-rule-cart-condition-products-subselection2.png %}){: .zoom}
+        ![]({% link images/images/price-rule-cart-condition-products-subselection2.png %}){: .zoom}
         *If ALL of these conditions are TRUE*
 
    * Click the "more" (...) link, and enter ">100". This condition requires the total quantity of the cart to be greater than 100.
 
-        ![]({{ site.baseurl }}{% link images/images/price-rule-cart-condition-products-subselection3.png %}){: .zoom}
+        ![]({% link images/images/price-rule-cart-condition-products-subselection3.png %}){: .zoom}
         *Total Quantity Value*
 
-1. Click **Add** (![]({{ site.baseurl }}{% link images/images/btn-add-grn.png %})) at the beginning of the next line. Then add a condition that is based on **Category**.
+1. Click **Add** (![]({% link images/images/btn-add-grn.png %})) at the beginning of the next line. Then add a condition that is based on **Category**.
 
-    ![]({{ site.baseurl }}{% link images/images/price-rule-cart-condition-products-subselection4.png %}){: .zoom}
+    ![]({% link images/images/price-rule-cart-condition-products-subselection4.png %}){: .zoom}
     *Category*
 
-    * In the next part of the condition, click the "**more**" (...) link to display the input field. Then, open the **Chooser** (![]({{ site.baseurl }}{% link images/images/btn-chooser.png %})) to display the category tree.
+    * In the next part of the condition, click the "**more**" (...) link to display the input field. Then, open the **Chooser** (![]({% link images/images/btn-chooser.png %})) to display the category tree.
 
     * Mark the checkbox of the category that you want to use as a condition for the price rule.
 
-        The condition can be based on any category that is a child of the store’s [root category]({{ site.baseurl }}{% link catalog/category-root.md %}).
+        The condition can be based on any category that is a child of the store’s [root category]({% link catalog/category-root.md %}).
 
-        ![]({{ site.baseurl }}{% link images/images/price-rule-cart-subselection-category.png %}){: .zoom}
+        ![]({% link images/images/price-rule-cart-subselection-category.png %}){: .zoom}
         *Choosing a Category for a Condition*
 
-1. To add more conditions, click **Add** (![]({{ site.baseurl }}{% link images/images/btn-add-grn.png %})) and define another condition.
+1. To add more conditions, click **Add** (![]({% link images/images/btn-add-grn.png %})) and define another condition.
 
 You can repeat the process as many times as needed to describe the conditions that must be met for the price rule . Here are some examples:
 
@@ -147,9 +147,9 @@ To base the condition on shopping cart totals, use one of the following cart att
 
 The shopping cart price rule actions describe how prices are updated when the conditions are met.
 
-1. Scroll down to **Actions**, and expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %})the section. Then, do the following:
+1. Scroll down to **Actions**, and expand ![]({% link images/images/btn-expand.png %})the section. Then, do the following:
 
-    ![]({{ site.baseurl }}{% link images/images/price-rule-cart-actions.png %}){: .zoom}
+    ![]({% link images/images/price-rule-cart-actions.png %}){: .zoom}
     *Cart Price Rule Actions*
 
     * Set **Apply** to one of the following discount options:
@@ -166,13 +166,13 @@ The shopping cart price rule actions describe how prices are updated when the co
 
     * In the **Maximum Qty Discount is Applied To** field, enter the maximum quantity of the same product that can qualify for the discount in the same purchase.
 
-    * Set **Apply to Shipping Amount** (![]({{ site.baseurl }}{% link images/images/btn-switch-yes.png %})) as follows:
+    * Set **Apply to Shipping Amount** (![]({% link images/images/btn-switch-yes.png %})) as follows:
 
         | Yes | Applies the discount amount separately to the subtotal and shipping amounts. |
         | No | Applies the discount amount only to the subtotal. |
         {:style="table-layout:auto"}
 
-    * To stop processing other rules after this rule is applied, set **Discard Subsequent Rules** (![]({{ site.baseurl }}{% link images/images/btn-switch-yes.png %})) to “Yes.” This safeguard prevents customers from receiving multiple discounts for the same product.
+    * To stop processing other rules after this rule is applied, set **Discard Subsequent Rules** (![]({% link images/images/btn-switch-yes.png %})) to “Yes.” This safeguard prevents customers from receiving multiple discounts for the same product.
 
     * To determine if free shipping is applied to orders that meet the conditions, set **Free Shipping** to one of the following:
 
@@ -191,32 +191,32 @@ The shopping cart price rule actions describe how prices are updated when the co
 
 The label appears in the totals section of the order to identify the discount. The label text is enclosed in parentheses, after the word, “Discount”. You can enter a default label for all store views, or enter a different label for each view.
 
-![]({{ site.baseurl }}{% link images/images/price-rule-cart-order-totals-section-discount-special.png %}){: .zoom}
+![]({% link images/images/price-rule-cart-order-totals-section-discount-special.png %}){: .zoom}
 *Discount Label in Totals Section of Order*
 
-1. Scroll down to **Labels**, and expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %})the section.
+1. Scroll down to **Labels**, and expand ![]({% link images/images/btn-expand.png %})the section.
 
 1. Enter the text that you want used as the **Default Rule Label for All Store Views**.
 
-    ![]({{ site.baseurl }}{% link images/images/price-rule-cart-label-default.png %}){: .zoom}
+    ![]({% link images/images/price-rule-cart-label-default.png %}){: .zoom}
     *Default Label*
 
 1. If your store has multiple views, or multiple websites with multiple views, enter the appropriate label text for each. For example, if each store view is in a different language, enter the translation of the label for each view.
 
-    ![]({{ site.baseurl }}{% link images/images/price-rule-cart-label-store-specific.png %}){: .zoom}
+    ![]({% link images/images/price-rule-cart-label-store-specific.png %}){: .zoom}
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ## Step 5: Add Related Banners (optional)
 
- [Banners]({{ site.baseurl }}{% link cms/banners.md %}) that are associated with the rule appear in the storefront whenever the conditions are met.
+ [Banners]({% link cms/banners.md %}) that are associated with the rule appear in the storefront whenever the conditions are met.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Related Banners** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Related Banners** section.
 
-1. Use the [search filters]({{ site.baseurl }}{% link stores/admin-workspace.md %}) to locate the banner(s) that you want to associate with the rule.
+1. Use the [search filters]({% link stores/admin-workspace.md %}) to locate the banner(s) that you want to associate with the rule.
 
 1. Mark the checkbox in the first column to associate the banner with the rule.
 
-    To learn more, see: [Using Banners in Price Rules]({{ site.baseurl }}{% link cms/banners-price-rules.md %}).
+    To learn more, see: [Using Banners in Price Rules]({% link cms/banners-price-rules.md %}).
 
 ## Step 6: Save and Test the Rule
 
@@ -315,7 +315,7 @@ Free Shipping
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 Add Reward Points
-: Specifies the number of [reward points]({{ site.baseurl }}{% link marketing/rewards-loyalty.md %}) that are earned by the customer whenever the price rule is applied.
+: Specifies the number of [reward points]({% link marketing/rewards-loyalty.md %}) that are earned by the customer whenever the price rule is applied.
 
 <!--{% endif %}-->
 Default Rule Label for All Store Views

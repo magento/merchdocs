@@ -4,11 +4,11 @@ title: PayPal Payflow Link
 
 {:.bs-callout .bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
-As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, PayPal Payflow Link must be integrated with Cardinal Commerce. To learn more, see [3-D Secure for Payflow](https://developer.paypal.com/docs/classic/payflow/3d-secure-overview/).
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, PayPal Payflow Link must be integrated with Cardinal Commerce. To learn more, see [3-D Secure for Payflow](https://developer.paypal.com/docs/classic/payflow/3d-secure-overview/).
 
 PayPal PayFlow Link is available for merchants in the United States and Canada only. Customers are not required to have a personal PayPal account, and enter their credit card information in a form that is hosted by PayPal. The information is never stored on your Magento server. PayFlow Link cannot be used for orders that are created from the Admin.
 
-![Configure]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payflow-link.png %}){: .zoom}
+![Configure]({% link images/images/config-sales-payment-methods-paypal-payflow-link.png %}){: .zoom}
 _Configure_
 
 Credit memos are supported for both online and offline refunds. However, multiple online refunds are not supported.
@@ -36,7 +36,7 @@ Credit memos are supported for both online and offline refunds. However, multipl
      | **Processing** | The transaction was successful.|
      | **Pending Paymnet** | The system did not receive a response from PayPal.|
      | **Canceled** | The transaction was not successful for some reason.|
-     | **Suspected Fraud** | The transaction did not pass some of the [PayPal fraud filters]({{ site.baseurl }}{% link payment/paypal-fraud-management-filter.md %}). The system receives the response from PayPal that the transaction is under review by Fraud Service.|
+     | **Suspected Fraud** | The transaction did not pass some of the [PayPal fraud filters]({% link payment/paypal-fraud-management-filter.md %}). The system receives the response from PayPal that the transaction is under review by Fraud Service.|
 
    - **Cancel Payment:** If the customer clicks the Cancel Payment link, the customer returns to the Payment Information stage of checkout, and the order status changes to “Canceled.”
 
@@ -122,28 +122,28 @@ Credit memos are supported for both online and offline refunds. However, multipl
 
    A proxy is used when the server firewall prevents direct access to the PayPal server. In such a case, a third-party server is used to relay traffic.
 
-   ![Required Settingd]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payflow-llink-required-a.png %}){: .zoom}
+   ![Required Settingd]({% link images/images/config-sales-payment-methods-paypal-payflow-llink-required-a.png %}){: .zoom}
    _Required Settings_
 
 1. Set **Enable This Solution** to “Yes.”
 
 1. If you want to offer PayPal Credit to your customers, set **Enable PayPal Credit** to “Yes.”
 
-   ![Enable PayPal Payflow Link]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payflow-link-required-b.png %}){: .zoom}
+   ![Enable PayPal Payflow Link]({% link images/images/config-sales-payment-methods-paypal-payflow-link-required-b.png %}){: .zoom}
    _Enable PayPal Payflow Link_
 
 ### Step 3: Advertise PayPal Credit (Optional)
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Advertise PayPal Credit** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Advertise PayPal Credit** section. Then, do the following:
 
    - Tap **Get Publisher ID from PayPal**, and follow the instructions to get your account information.
 
    - Enter your **Publisher ID**.
 
-     ![Advertise PayPal Credit]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
+     ![Advertise PayPal Credit]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
      _Advertise PayPal Credit_
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Home Page** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Home Page** section. Then, do the following:
 
    - To place a banner on the page, set **Display** to “Yes.”
 
@@ -161,7 +161,7 @@ Credit memos are supported for both online and offline refunds. However, multipl
      - 728 x 90
      - 800 x 66
 
-   ![Advertise PayPal Credit Home Page Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
+   ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
    _Advertise PayPal Credit Home Page Settings_
 
 1. Repeat the previous step for the remaining sections:
@@ -181,7 +181,7 @@ Credit memos are supported for both online and offline refunds. However, multipl
    |**Authorization** |Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is “captured” by the merchant.|
    |**Sale** |The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
 
-   ![Basic Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payflow-link-basic-settings.png %}){: .zoom}
+   ![Basic Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-link-basic-settings.png %}){: .zoom}
    _Basic Settings_
 
 ### Step 5: Complete the Advanced Settings
@@ -190,7 +190,7 @@ Credit memos are supported for both online and offline refunds. However, multipl
 
    - Set **Payment Applicable From** to one of the following:
 
-     |**All Allowed Countries** |Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
+     |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
      |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
 
    - Set **Debug Mode** to “Yes” to write communications with the payment system into the log file.
@@ -213,14 +213,14 @@ Credit memos are supported for both online and offline refunds. However, multipl
 
      The “Cancel” and “Return” URLs refer to the page where a customer returns after completing or canceling the payment part of the checkout process on the PayPal server.
 
-     ![Advanced Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payflow-link-advanced-settings.png %}){: .zoom}
+     ![Advanced Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-link-advanced-settings.png %}){: .zoom}
      _Advanced Settings_
 
 1. Complete the following as needed for your store:
 
 #### Settlement Report Settings
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Settlement Report Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Settlement Report Settings** section.
 
 1. Under **SFTP Credentials**, do the following:
 
@@ -253,14 +253,14 @@ Credit memos are supported for both online and offline refunds. However, multipl
 
    - Set **Time of Day** to the hour, minute, and second when you want the reports to be generated.
 
-     ![PayPal Settlement Report Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
+     ![PayPal Settlement Report Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
      _PayPal Settlement Report Settings_
 
 #### Frontend Experience Settings
 
 The frontend experience settings give you the opportunity to choose which PayPal logos appear on your site, and to customize the appearance of your PayPal merchant pages.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Frontend Experience Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Frontend Experience Settings** section.
 
 1. Choose the **PayPal Product Logo** that you want to appear in the PayPal block in your store. The PayPal logos are available in four styles and two sizes. Options include:
 
@@ -289,12 +289,12 @@ The frontend experience settings give you the opportunity to choose which PayPal
      |**Header Border Color** |2-pixel border around the header. |
      |**Page Background Color** |Background color for the checkout page and around the header and payment form.|
 
-     ![PayPal Frontend Experience Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings.png %}){: .zoom}
+     ![PayPal Frontend Experience Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings.png %}){: .zoom}
      PayPal Frontend Experience Settings
 
 ### Step 6: Basic Settings - PayPal Express Checkout
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Basic Settings - PayPal Express Checkout** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Basic Settings - PayPal Express Checkout** section.
 
 1. Enter a **Title** to identify this payment method during checkout. It is recommended to set the title to “PayPal” for each store view.
 
@@ -307,7 +307,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
 1. To display the “Check out with PayPal” button on the product page, set **Display on Product Details Page** to “Yes.”
 
-   ![Basic Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payflow-link-express-checkout-basic-settings.png %}){: .zoom}
+   ![Basic Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-link-express-checkout-basic-settings.png %}){: .zoom}
    _Basic Settings_
 
 ### **Step 7:** Advanced Settings - PayPal Express Checkout
@@ -318,7 +318,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
    - Set **Payment Applicable From** to one of the following:
 
-     |**All Allowed Countries** |Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
+     |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
      |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
 
    - Set **Debug Mode** to “Yes” to write communications with the payment system into the log file.
@@ -332,7 +332,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
    - To allow the customer to complete the transaction from the PayPal site without returning to your Magento store for Order Review, set **Skip Order Review Step** to “Yes.”
 
-     ![Advanced Settings]({{ site.baseurl }}{% link images/images/config-sales-payment-methods-paypal-payflow-link-express-checkout-advanced-settings.png %}){: .zoom}
+     ![Advanced Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-link-express-checkout-advanced-settings.png %}){: .zoom}
      _Advanced Settings_
 
 1. When complete, tap <span class="btn">Save Config</span>.

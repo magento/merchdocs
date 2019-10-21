@@ -2,11 +2,11 @@
 title: Products
 ---
 
-Products with tax exceptions can be entered individually through your Vertex dashboard, or uploaded from a [CSV file]({{ site.baseurl }}{% link system/data-csv.md %}) to Vertex Cloud. Each product is then mapped to appropriate tax category in the Vertex tax code hierarchy. Vertex Cloud uses a product’s tax category to apply the current rate and rule changes that are mandated by each jurisdiction.
+Products with tax exceptions can be entered individually through your Vertex dashboard, or uploaded from a [CSV file]({% link system/data-csv.md %}) to Vertex Cloud. Each product is then mapped to appropriate tax category in the Vertex tax code hierarchy. Vertex Cloud uses a product’s tax category to apply the current rate and rule changes that are mandated by each jurisdiction.
 
 The product table in your dashboard lists all products that have been entered into Vertex Cloud for the company.
 
-![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-configure-product-table.png %}){: .zoom}
+![]({% link images/images/tax-vertex-cloud-configure-product-table.png %}){: .zoom}
 _Product Table_
 
 ## Before you begin
@@ -15,9 +15,9 @@ Magento assigns tax classes to individual SKUs through the associated _Tax Class
 
 1. Make sure that you have all the information that you need. Products must be completely configured before the information can be saved.
 
-1. If you need to add new product tax classes to Magento, see: [Adding New Tax Classes]({{ site.baseurl }}{% link tax/tax-class-new.md %}). Then to assign the new tax classes to products, do the following:
+1. If you need to add new product tax classes to Magento, see: [Adding New Tax Classes]({% link tax/tax-class-new.md %}). Then to assign the new tax classes to products, do the following:
 
-    - Open the [product]({{ site.baseurl }}{% link catalog/products.md %}) in edit mode.
+    - Open the [product]({% link catalog/products.md %}) in edit mode.
     - Set **Tax Class** as needed.
     - When complete, click **Save**.
 
@@ -28,7 +28,7 @@ Magento assigns tax classes to individual SKUs through the associated _Tax Class
     - Tax Class
     - Company Start and End Date
 
-1. The easiest way to prepare your upload data is to export the products from your Magento catalog to a CSV file. If you need help, see: [Export]({{ site.baseurl }}{% link system/data-export.md %}).
+1. The easiest way to prepare your upload data is to export the products from your Magento catalog to a CSV file. If you need help, see: [Export]({% link system/data-export.md %}).
 
 1. After the export, open the file in a spreadsheet, and delete all columns except for the following:
 
@@ -56,14 +56,14 @@ Magento assigns tax classes to individual SKUs through the associated _Tax Class
 
 In the sidebar, choose **Configure**. Then in the **Products** column of the company section, click **Add**.
 
-![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-configure-products.png %}){: .zoom}
+![]({% link images/images/tax-vertex-cloud-configure-products.png %}){: .zoom}
 _Products_
 
 ### Step 1: Complete the Product Information
 
 1. On the **Add Single Product** tab, complete the following product information:
 
-    ![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-configure-products-add-single.png %}){: .zoom}
+    ![]({% link images/images/tax-vertex-cloud-configure-products-add-single.png %}){: .zoom}
     _Add Single Product_
 
 1. Set **Tax Type** to one of the following:
@@ -90,7 +90,7 @@ In this step, each product is mapped to the appropriate tax category. Tax catego
 
     For this example, the General tax category applies to an item of clothing from the Luma demo catalog.
 
-    ![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-configure-product-mapping-general.png %}){: .zoom}
+    ![]({% link images/images/tax-vertex-cloud-configure-product-mapping-general.png %}){: .zoom}
     _Product Mapping_
 
 1. Choose the tax category for the next level from the following options:
@@ -100,12 +100,12 @@ In this step, each product is mapped to the appropriate tax category. Tax catego
 
     For this example, TTP/Goods applies to the product.
 
-    ![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-configure-product-mapping-tpp-goods.png %}){: .zoom}
+    ![]({% link images/images/tax-vertex-cloud-configure-product-mapping-tpp-goods.png %}){: .zoom}
     _Mapping to TPP/Goods Tax Category_
 
 1. Choose the tax category from the next level in the list that applies to the product.
 
-    ![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-configure-product-mapping-clothing.png %}){: .zoom}
+    ![]({% link images/images/tax-vertex-cloud-configure-product-mapping-clothing.png %}){: .zoom}
     _Mapping to Clothing Tax Category_
 
 1. Continue to assign tax categories, as long as there is an applicable option. See the **Category Description** below the mapping for more information about the current tax category.
@@ -118,7 +118,7 @@ Some states have qualifying conditions that might apply to various items in the 
 
 1. Click **Add Qualifying Condition**.
 
-    ![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-configure-product-qualifying-conditions.png %}){: .zoom}
+    ![]({% link images/images/tax-vertex-cloud-configure-product-qualifying-conditions.png %}){: .zoom}
     _Qualifying Conditions_
 
 1. Under _Jurisdiction_, choose the **State** where the qualifying condition applies.
@@ -127,7 +127,7 @@ Some states have qualifying conditions that might apply to various items in the 
 
 1. Under _Qualifying Condition_, select each condition that applies to the item.
 
-    ![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-configure-product-qualifying-conditions-complete.png %}){: .zoom}
+    ![]({% link images/images/tax-vertex-cloud-configure-product-qualifying-conditions-complete.png %}){: .zoom}
     _Qualifying Conditions_
 
 1. To add another condition, click **Add Qualifying Condition**. Then, repeat the process.
@@ -142,12 +142,12 @@ Some states have qualifying conditions that might apply to various items in the 
 
 1. Choose the **Upload Multiple Products** tab. Then, click **Download File Format Template**.
 
-    ![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-configure-product-upload-multiple.png %}){: .zoom}
+    ![]({% link images/images/tax-vertex-cloud-configure-product-upload-multiple.png %}){: .zoom}
     _Upload Multiple Products_
 
 1. Look for the `ProductsSample.csv` file at the bottom of the browser window. Then, open the file in your spreadsheet.
 
-    ![]({{ site.baseurl }}{% link images/images/tax-vertex-cloud-configure-product-upload-data.png %}){: .zoom}
+    ![]({% link images/images/tax-vertex-cloud-configure-product-upload-data.png %}){: .zoom}
     _Upload Template_
 
     **Column Descriptions:**

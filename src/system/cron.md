@@ -4,18 +4,18 @@ title: Cron (Scheduled Tasks)
 
 Magento performs some operations on schedule by periodically running a script. You can control the execution and scheduling of Magento cron jobs from the Admin. Store operations that run according to a cron schedule include:
 
--  [Email ]({{ site.baseurl }}{% link marketing/communications.md %})
--  [Catalog Price Rules]({{ site.baseurl }}{% link marketing/price-rules-catalog.md %})
--  [Newsletters]({{ site.baseurl }}{% link marketing/newsletters.md %})
--  [XML Sitemap Generation]({{ site.baseurl }}{% link marketing/sitemap-xml.md %})
--  [Currency Rate Updates]({{ site.baseurl }}{% link stores/currency-update.md %})
+-  [Email ]({% link marketing/communications.md %})
+-  [Catalog Price Rules]({% link marketing/price-rules-catalog.md %})
+-  [Newsletters]({% link marketing/newsletters.md %})
+-  [XML Sitemap Generation]({% link marketing/sitemap-xml.md %})
+-  [Currency Rate Updates]({% link stores/currency-update.md %})
 
 In addition, you can configure the following to run according to a cron schedule:
 
 -  Order System Grid Updates and Reindexing
 -  Pending Payment Lifetime
 
-Make sure that the [base URLs]({{ site.baseurl }}{% link stores/store-urls.md %}) for the store are set correctly, so the URLs that are generated during cron operations are correct. See [Set up cron jobs][1].
+Make sure that the [base URLs]({% link stores/store-urls.md %}) for the store are set correctly, so the URLs that are generated during cron operations are correct. See [Set up cron jobs][1].
 
 #### To configure cron:
 
@@ -25,9 +25,9 @@ Make sure that the [base URLs]({{ site.baseurl }}{% link stores/store-urls.md %}
 
 1.  In the panel on the left under _Advanced_, choose **System**.
 
-1.  Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Cron** section.
+1.  Expand ![]({% link images/images/btn-expand.png %}) the **Cron** section.
 
-    ![]({{ site.baseurl }}{% link images/images/config-advanced-system-cron.png %}){: .zoom}
+    ![]({% link images/images/config-advanced-system-cron.png %}){: .zoom}
     _Cron (Scheduled Tasks)_
 
 1.  Then, complete the following settings for the **Index** and **Default** groups. The settings are the same in each section.
@@ -40,7 +40,7 @@ Make sure that the [base URLs]({{ site.baseurl }}{% link stores/store-urls.md %}
     * Failure History Lifetime
     * Use Separate Process
 
-    ![]({{ site.baseurl }}{% link images/images/config-advanced-system-cron-group-index.png %}){: .zoom}
+    ![]({% link images/images/config-advanced-system-cron-group-index.png %}){: .zoom}
 
 1.  When complete, click **Save Config**.
 

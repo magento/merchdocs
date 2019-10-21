@@ -18,7 +18,7 @@ sections:
     url: /design/themes.html
 ---
 
-In this section, find out about page layouts, learn how to make simple HTML changes, and discover how a new theme can easily update your store.<!--{% if "Default.EE-B2B" contains site.edition %}-->  Magento Commerce users can also learn to use [Content Staging]({{ site.baseurl }}{% link cms/content-staging.md %}) tools to easily create, preview, and schedule a wide range of content updates across a store.<!--{% endif %}-->
+In this section, find out about page layouts, learn how to make simple HTML changes, and discover how a new theme can easily update your store.<!--{% if "Default.EE-B2B" contains site.edition %}-->  Magento Commerce users can also learn to use [Content Staging]({% link cms/content-staging.md %}) tools to easily create, preview, and schedule a wide range of content updates across a store.<!--{% endif %}-->
 
 {% include grid.html sections=page.sections%}
 

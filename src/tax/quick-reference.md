@@ -2,7 +2,7 @@
 title: Tax Quick Reference
 ---
 
-Some tax settings have a choice of options that determines the way the tax is calculated and presented to the customer. To learn more, see: [International Tax Guidelines]({{ site.baseurl }}{% link tax/international-tax-guidelines.md %}).
+Some tax settings have a choice of options that determines the way the tax is calculated and presented to the customer. To learn more, see: [International Tax Guidelines]({% link tax/international-tax-guidelines.md %}).
 
 ## Tax Calculation Methods
 
@@ -16,7 +16,7 @@ Tax calculation method options include Unit Price, Row Total, and Total. The fol
 
 ## Catalog Prices With or Without Tax
 
-The possible display fields vary depending on the calculation method and whether the catalog prices include or exclude taxes. Display fields have two-decimal precision in normal computations. Some combinations of price settings display prices that both include and exclude tax. When both appear on the same line item, it can be confusing to customers, and triggers a [warning]({{ site.baseurl }}{% link tax/warning-messages.md %}).
+The possible display fields vary depending on the calculation method and whether the catalog prices include or exclude taxes. Display fields have two-decimal precision in normal computations. Some combinations of price settings display prices that both include and exclude tax. When both appear on the same line item, it can be confusing to customers, and triggers a [warning]({% link tax/warning-messages.md %}).
 
 |Setting|Calculation and Display|
 |--- |--- |

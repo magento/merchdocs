@@ -5,8 +5,8 @@ group: marketing
 
 MySQL is the default search engine. By adjusting the Catalog Search configuration, you can control the behavior of the search operations and determine the size of valid query text and the display of search recommendations. By default, MySQL always has the EAV Indexer enabled. This feature improves indexation speed and restricts the indexer from use by 3rd party extensions.
 
-![]({{ site.baseurl }}{% link images/images/config-catalog-catalog-search-mysql.png %}){: .zoom}
-*[MySQL Configuration]({{ site.baseurl }}{% link configuration/catalog/catalog.md %})*
+![]({% link images/images/config-catalog-catalog-search-mysql.png %}){: .zoom}
+*[MySQL Configuration]({% link configuration/catalog/catalog.md %})*
 
 ## To configure MySQL search
 
@@ -14,7 +14,7 @@ MySQL is the default search engine. By adjusting the Catalog Search configuratio
 
 1. In the panel on the left under **Catalog**, choose **Catalog**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Catalog Search** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Catalog Search** section.
 
 1. By default, the **Search Engine** is set to “MySQL”. If switching to MySQL, select that option. This affects the available fields.
 

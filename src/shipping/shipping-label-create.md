@@ -22,7 +22,7 @@ Follow the instructions provided by each carrier to add shipping label support t
 
 ## Step 2 Update the Configuration for Each Carrier
 
-Make sure that your [Store Information]({{ site.baseurl }}{% link stores/store-information.md %}) is complete.
+Make sure that your [Store Information]({% link stores/store-information.md %}) is complete.
 
 Follow the instructions below for each carrier account that has been activated for label printing.
 
@@ -36,7 +36,7 @@ United Parcel Service ships both domestically and internationally. However, ship
 
 1. In the _Sales_ section in the left panel, choose **Shipping Methods**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **UPS** section. 
+1. Expand ![]({% link images/images/btn-expand.png %}) the **UPS** section. 
 
 1. Verify that your UPS **Shipper Number** is correct
 
@@ -48,7 +48,7 @@ United Parcel Service ships both domestically and internationally. However, ship
 
 The United States Postal Service ships both domestically and internationally.
 
-1. Continuing in the **Shipping Methods** configuration, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **USPS** section. Then, do the following:
+1. Continuing in the **Shipping Methods** configuration, expand ![]({% link images/images/btn-expand.png %}) the **USPS** section. Then, do the following:
 
 1. Verify that the **secure Gateway URL** is entered. The correct URL should be entered automatically.
 
@@ -67,7 +67,7 @@ The United States Postal Service ships both domestically and internationally.
 
 FedEx ships domestically and internationally. Stores located outside the United States can create FedEx labels for international shipments only.
 
-1. Continuing in the **Shipping Methods** configuration, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **FedEx** section.
+1. Continuing in the **Shipping Methods** configuration, expand ![]({% link images/images/btn-expand.png %}) the **FedEx** section.
 
 1. Verify that the following FedEx credentials are correct:
 
@@ -81,7 +81,7 @@ FedEx ships domestically and internationally. Stores located outside the United 
 
 DHL provides international shipping services.
 
-1. Continuing in the **Shipping Methods** configuration, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **DHL** section.
+1. Continuing in the **Shipping Methods** configuration, expand ![]({% link images/images/btn-expand.png %}) the **DHL** section.
 
 1. Verify that the **Gateway URL** is entered.
 

@@ -2,14 +2,14 @@
 title: Advanced Reporting
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [General]({{ site.baseurl }}{% link configuration/general/general.md %}) > Advanced Reporting
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [General]({% link configuration/general/general.md %}) > Advanced Reporting
 
 ## Advanced Reporting
 
-![]({{ site.baseurl }}{% link images/images/config-general-advanced-reporting.png %}){: .zoom}
-[_Advanced Reporting_]({{ site.baseurl }}{% link reports/advanced-reporting.md %})
+![]({% link images/images/config-general-advanced-reporting.png %}){: .zoom}
+[_Advanced Reporting_]({% link reports/advanced-reporting.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Advanced Reporting Service|Global|Enables the integration of Advanced Reporting for your Magento installation.|
 |Industry|Website|Identifies your business industry to personalize Advanced Reporting.|

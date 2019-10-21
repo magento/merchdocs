@@ -8,7 +8,7 @@ During the initial installation, you are prompted to either let Magento generate
 
 For technical information, see [Install the Magento][1]{: target="_blank"} software in the developer documentation.
 
-![]({{ site.baseurl }}{% link images/images/system-encryption-key.png %}){: .zoom}
+![]({% link images/images/system-encryption-key.png %}){: .zoom}
 _Encryption Key_
 
 ## Step 1: Make the File Writable

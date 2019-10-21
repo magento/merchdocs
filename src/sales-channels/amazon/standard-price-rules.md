@@ -12,7 +12,7 @@ Sections of a standard price rule action include:
 
 {% include amazon-standard-price-rule-configure.md %}
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/ob-price-rule-action-standard-example.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/ob-price-rule-action-standard-example.png %}){: .zoom}
 _Standard Price Rule_
 
 |Field|Description|

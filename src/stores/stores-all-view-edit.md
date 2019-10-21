@@ -19,7 +19,7 @@ Code  | default | english
 
     When editing the default view, the Store and Status fields are not available.
 
-    ![Store view - edit default view]({{ site.baseurl }}{% link images/images/stores-all-edit-store-view-information.png %}){: .zoom}
+    ![Store view - edit default view]({% link images/images/stores-all-edit-store-view-information.png %}){: .zoom}
     _Editing the Default View_
 
 1. Update the following fields as needed:
@@ -32,5 +32,5 @@ Code  | default | english
 
 1. Click <span class="btn">Save Store View</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/stores-all-grid.png %}){: .zoom}
+    ![]({% link images/images/stores-all-grid.png %}){: .zoom}
     _Stores_

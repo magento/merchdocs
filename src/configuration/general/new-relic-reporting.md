@@ -2,14 +2,14 @@
 title: New Relic Reporting
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [General]({{ site.baseurl }}{% link configuration/general/general.md %}) > New Relic Reporting
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [General]({% link configuration/general/general.md %}) > New Relic Reporting
 
 ## General
 
-![]({{ site.baseurl }}{% link images/images/config-general-new-relic-reporting-general.png %}){: .zoom}
-[_General_]({{ site.baseurl }}{% link reports/new-relic-reporting.md %})
+![]({% link images/images/config-general-new-relic-reporting-general.png %}){: .zoom}
+[_General_]({% link reports/new-relic-reporting.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable New Relic Integration|Store View|Determines if your store can be used with New Relic Reporting. Options: Yes / No|
 |New Relic API URL|Store View|The URL where New Relic APIs are deployed. For example: `https://api.newrelic.com/deployments.xml`|
@@ -23,9 +23,9 @@ Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configurati
 
 ## Cron
 
-![]({{ site.baseurl }}{% link images/images/config-general-new-relic-reporting-cron.png %}){: .zoom}
-[_Cron_]({{ site.baseurl }}{% link system/cron.md %})
+![]({% link images/images/config-general-new-relic-reporting-cron.png %}){: .zoom}
+[_Cron_]({% link system/cron.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enable Cron|Store View|Determines if New Relic reports can be run on schedule with [Cron]({{ site.baseurl }}{% link system/cron.md %}). Options: Yes / No|
+|Enable Cron|Store View|Determines if New Relic reports can be run on schedule with [Cron]({% link system/cron.md %}). Options: Yes / No|

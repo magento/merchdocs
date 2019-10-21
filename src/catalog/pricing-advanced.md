@@ -4,11 +4,11 @@ redirect_from:
   - /catalog/settings-advanced-advanced-pricing.html
 ---
 
-The Advanced Pricing settings define the conditions required for special pricing that is available for a specific customer group{% if "Default.B2B Only" contains site.edition %} or shared catalog{% endif %}. Advanced Pricing can be applied to simple, virtual, downloadable, and bundle products. To apply discounted pricing to other product types, use a [catalog price rule]({{ site.baseurl }}{% link marketing/price-rules-catalog.md %}). To learn more, see: [Price Scope]({{ site.baseurl }}{% link catalog/catalog-price-scope.md %}).
+The Advanced Pricing settings define the conditions required for special pricing that is available for a specific customer group{% if "Default.B2B Only" contains site.edition %} or shared catalog{% endif %}. Advanced Pricing can be applied to simple, virtual, downloadable, and bundle products. To apply discounted pricing to other product types, use a [catalog price rule]({% link marketing/price-rules-catalog.md %}). To learn more, see: [Price Scope]({% link catalog/catalog-price-scope.md %}).
 
 Advanced pricing data is synchronized with product pages{% if "Default.B2B Only" contains site.edition %} and shared catalogs{% endif %}. For example, if you update a tier price quantity, the system updates the value {% if "Default.B2B Only" contains site.edition %}in the shared catalog and {% endif %} on the product page. {% if "Default.B2B Only" contains site.edition %}Any custom pricing that is indicated in the shared catalog has priority over customer group pricing.{% endif %}
 
-![]({{ site.baseurl }}{% link images/images/product-pricing-advanced-link.png %}){: .zoom}
+![]({% link images/images/product-pricing-advanced-link.png %}){: .zoom}
 *Advanced Pricing*
 
 ## To display the Advanced Pricing options:
@@ -19,21 +19,21 @@ Advanced pricing data is synchronized with product pages{% if "Default.B2B Only"
 
 1. Follow the instructions for the type of advanced pricing that is needed.
 
-   * [Group Price]({{ site.baseurl }}{% link catalog/product-price-group.md %})
-   * [Special Price]({{ site.baseurl }}{% link catalog/product-price-special.md %})
-   * [Tier Price]({{ site.baseurl }}{% link catalog/product-price-tier.md %})
-   * [Minimum Advertised Price]({{ site.baseurl }}{% link catalog/product-price-minimum-advertised.md %})
+   * [Group Price]({% link catalog/product-price-group.md %})
+   * [Special Price]({% link catalog/product-price-special.md %})
+   * [Tier Price]({% link catalog/product-price-tier.md %})
+   * [Minimum Advertised Price]({% link catalog/product-price-minimum-advertised.md %})
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/product-pricing-advanced.png %}){: .zoom}
+![]({% link images/images/product-pricing-advanced.png %}){: .zoom}
 *Advanced Pricing*
 <!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/product-pricing-advanced.png %}){: .zoom}
+![]({% link images/images-ee/product-pricing-advanced.png %}){: .zoom}
 *Advanced Pricing*
 <!--{% endif %}-->
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-b2b/product-pricing-advanced.png %}){: .zoom}
+![]({% link images/images-b2b/product-pricing-advanced.png %}){: .zoom}
 *Advanced Pricing*
 <!--{% endif %}-->
 
@@ -72,7 +72,7 @@ Advanced pricing data is synchronized with product pages{% if "Default.B2B Only"
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 <tr><td colspan="2">Applies the rule to a specific shared catalog.</td></tr><!--{% endif %}-->
 </tbody></table></td></tr><tr><td>Quantity</td><td>Specifies the quantity that is required to receive a tier price.</td></tr><tr><td>Price</td><td>(Required) Specifies a fixed or discount product price for members of the customer group, within the specific website. Options: Fixed / Discount<table><col WIDTH="150">
-<col WIDTH="auto"><tbody><tr><td>Fixed</td><td>(Default) The discount price is entered as a fixed decimal value. For example, enter “9.99” as the discount price.</td></tr><tr><td>Discount</td><td>The discount price is entered as a percentage (%) of the base product price. For example, enter “10” for a 10% discount.</td></tr></tbody></table></td></tr><tr><td><p><img src="{{ site.baseurl }}{% link images/images/btn-trashcan2.png %}" class="button_height" /></p></td><td>Deletes the current rule.</td></tr><tr><td>Add</td><td>Inserts an additional row for a new rule</td></tr></tbody></table></td>
+<col WIDTH="auto"><tbody><tr><td>Fixed</td><td>(Default) The discount price is entered as a fixed decimal value. For example, enter “9.99” as the discount price.</td></tr><tr><td>Discount</td><td>The discount price is entered as a percentage (%) of the base product price. For example, enter “10” for a 10% discount.</td></tr></tbody></table></td></tr><tr><td><p><img src="{% link images/images/btn-trashcan2.png %}" class="button_height" /></p></td><td>Deletes the current rule.</td></tr><tr><td>Add</td><td>Inserts an additional row for a new rule</td></tr></tbody></table></td>
          </tr>
          <tr>
             <td>Manufacturer's Suggested Retail Price</td>

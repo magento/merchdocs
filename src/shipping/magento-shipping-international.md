@@ -2,9 +2,9 @@
 title: International Shipping
 ---
 
-International item/shipment data can be pre-filled for a customer at checkout, if the information is defined for the products in the order. Pre-filled data requires configuration in Magento [Attribute Mapping]({{ site.baseurl }}{% link shipping/magento-shipping-attributes.md %}) and defining the [shipping settings]({{ site.baseurl }}{% link catalog/product-shipping.md %}) for each Magento product.
+International item/shipment data can be pre-filled for a customer at checkout, if the information is defined for the products in the order. Pre-filled data requires configuration in Magento [Attribute Mapping]({% link shipping/magento-shipping-attributes.md %}) and defining the [shipping settings]({% link catalog/product-shipping.md %}) for each Magento product.
 
-International item/shipment settings are defined for a product in the [Shipping]({{ site.baseurl }}{% link catalog/product-shipping.md %}) tab in Product Settings.
+International item/shipment settings are defined for a product in the [Shipping]({% link catalog/product-shipping.md %}) tab in Product Settings.
 
 International settings include:
 
@@ -12,8 +12,8 @@ International settings include:
 
 - **HS Code** - The Harmonized System is an international classification of products. It allows participating countries to classify traded goods on a common basis for customs purposes. At the international level, the [Harmonized System (HS)](https://unstats.un.org/unsd/tradekb/Knowledgebase/50018/Harmonized-Commodity-Description-and-Coding-Systems-HS) for classifying goods is a six-digit code system.
 
-![]({{ site.baseurl }}{% link images/images/product-shipping.png %}){: .zoom}
-[_Shipping tab_]({{ site.baseurl }}{% link catalog/product-shipping.md %})
+![]({% link images/images/product-shipping.png %}){: .zoom}
+[_Shipping tab_]({% link catalog/product-shipping.md %})
 
 ### Define International Shipping Data
 
@@ -35,7 +35,7 @@ International settings include:
 
 When the Shipping tab is defined for a product, these values (along with any other mapped attributes) are used to pre-fill international item details during order fulfillment.
 
-![]({{ site.baseurl }}{% link images/images/magento-shipping-international-example1.png %}){: .zoom}
+![]({% link images/images/magento-shipping-international-example1.png %}){: .zoom}
 _International Item Details example_
 
 Shipment Details fields are pre-filled:
@@ -56,5 +56,5 @@ Shipment Details fields are pre-filled:
 
 - _Invoice Date_ is set to the current day.
 
-![]({{ site.baseurl }}{% link images/images/magento-shipping-international-example2.png %}){: .zoom}
+![]({% link images/images/magento-shipping-international-example2.png %}){: .zoom}
 _Shipment Details example_

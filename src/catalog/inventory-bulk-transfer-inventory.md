@@ -26,7 +26,7 @@ You have an option to also unassign the source when transferring inventory quant
 
 1. Click the **Actions** drop-down menu, and choose Transfer Inventory to Source. Click **OK** to verify.
 
-    ![]({{ site.baseurl }}{% link images/images/inventory/inventory-bulk-transfer-source.gif %}){: .zoom}
+    ![]({% link images/images/inventory/inventory-bulk-transfer-source.gif %}){: .zoom}
     *Select products to transfer inventory*
 
 1. Select the origin source to transfer products to a new destination. Click **Continue**.
@@ -35,7 +35,7 @@ You have an option to also unassign the source when transferring inventory quant
 
 1. To remove the source from the products, select the optional checkbox **Unassign from origin source after transfer**.
 
-    ![]({{ site.baseurl }}{% link images/images/inventory/inventory-bulk-transfer-complete.png %}){: .zoom}
+    ![]({% link images/images/inventory/inventory-bulk-transfer-complete.png %}){: .zoom}
     *Select origin and destination for transfer*
 
 1. Click **Inventory Transfer**. All product quantities are deducted from the origin source and added to the destination source. The Quantity and Salable Quantity automatically update.

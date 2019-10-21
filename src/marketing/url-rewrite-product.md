@@ -4,9 +4,9 @@ title: Product Rewrites
 
 Before you begin, make sure that you understand exactly what the redirect should accomplish. Think in terms of _target_ / _original request_ or _redirect to_ / _redirect from_. Although people might still navigate to the former page from search engines or outdated links, the redirect causes your store to switch to the new target.
 
-If [automatic redirects]({{ site.baseurl }}{%- link marketing/url-redirect-product-automatic.md -%}) are enabled for your store, there is no need to create a rewrite when a product [URL Key]({{ site.baseurl }}{%- link catalog/catalog-urls.md -%}) is changed.
+If [automatic redirects]({% link marketing/url-redirect-product-automatic.md -%}) are enabled for your store, there is no need to create a rewrite when a product [URL Key]({% link catalog/catalog-urls.md -%}) is changed.
 
-![]({{ site.baseurl }}{%- link images/images/url-rewrite-product.png -%}){: .zoom}
+![]({% link images/images/url-rewrite-product.png %}){: .zoom}
 _Add URL Rewrite for Product_
 
 {% include url-rewrite-skip.md %}
@@ -15,7 +15,7 @@ _Add URL Rewrite for Product_
 
 To avoid mistakes, write down the _redirect to_ path and _redirect from_ path and include the URL Key and suffix (if applicable).
 
-If you are not sure, open each product page in your store, and copy the path from the address bar of your browser. When creating a product redirect, you can either include or exclude the [category path]({{ site.baseurl }}{%- link catalog/catalog-urls.md -%}). For this example, we create a product redirect without a category path.
+If you are not sure, open each product page in your store, and copy the path from the address bar of your browser. When creating a product redirect, you can either include or exclude the [category path]({% link catalog/catalog-urls.md -%}). For this example, we create a product redirect without a category path.
 
 **Product with Category Path**
 
@@ -47,12 +47,12 @@ If you are not sure, open each product page in your store, and copy the path fro
 
 1. In the grid, find the product that is the target—or destination—of the redirect and click the row.
 
-    ![]({{ site.baseurl }}{%- link images/images/url-rewrite-product-grid.png -%}){: .zoom}
+    ![]({% link images/images/url-rewrite-product-grid.png %}){: .zoom}
     _Add URL Rewrite for a Product_
 
 1. Below the category tree, click <span class="btn">Skip Category Selection</span>. For this example, the redirect does not include a category.
 
-    ![]({{ site.baseurl }}{%- link images/images/url-rewrite-skip-category-selection.png -%}){: .zoom}
+    ![]({% link images/images/url-rewrite-skip-category-selection.png %}){: .zoom}
     _Skip Category Selection_
 
     The Add URL Rewrite for a Product page displays a link to the target in the upper-left corner, and the Target Path field displays the system version of the path, which cannot be changed. Initially, the Redirect Path field also displays the target path.
@@ -71,7 +71,7 @@ If you are not sure, open each product page in your store, and copy the path fro
 
     - For your own reference, enter a brief **Description** of the rewrite.
 
-    ![]({{ site.baseurl }}{%- link images/images/url-rewrite-product-permanent-301.png -%}){: .zoom}
+    ![]({% link images/images/url-rewrite-product-permanent-301.png %}){: .zoom}
     _URL Rewrite Information_
 
 1. Before saving the redirect, review the following:
@@ -83,7 +83,7 @@ If you are not sure, open each product page in your store, and copy the path fro
 
     The new product rewrite now appears at the top of the URL Rewrites grid.
 
-    ![]({{ site.baseurl }}{%- link images/images/url-rewrite-product-saved.png -%}){: .zoom}
+    ![]({% link images/images/url-rewrite-product-saved.png %}){: .zoom}
     _URL Rewrite Saved_
 
 ## Step 3. Test the Result

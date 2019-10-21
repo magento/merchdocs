@@ -2,9 +2,9 @@
 title: Uploading Product Images
 ---
 
-For each product, you can upload multiple images, rearrange their order images, and control how each image is used. If you have a large quantity of images to manage, you might prefer to import them as a batch, rather than upload each one individually. To learn more, see [Importing Product Images]({{ site.baseurl }}{% link system/data-import-product-images.md %}).
+For each product, you can upload multiple images, rearrange their order images, and control how each image is used. If you have a large quantity of images to manage, you might prefer to import them as a batch, rather than upload each one individually. To learn more, see [Importing Product Images]({% link system/data-import-product-images.md %}).
 
-If you intend to upload large images for viewing on the Product Details page, you may want to consider setting a maximum pixel size (width and height) and automatically resizing the files prior to upload. We provide an option to enable automatic resizing of significantly larger image files as you upload. To learn more, see [Resizing Product Images]({{ site.baseurl }}{% link catalog/product-image-resizing.md %}).
+If you intend to upload large images for viewing on the Product Details page, you may want to consider setting a maximum pixel size (width and height) and automatically resizing the files prior to upload. We provide an option to enable automatic resizing of significantly larger image files as you upload. To learn more, see [Resizing Product Images]({% link catalog/product-image-resizing.md %}).
 
 ## To manage images:
 
@@ -18,27 +18,27 @@ If you intend to upload large images for viewing on the Product Details page, yo
 
    To upload an image, do one of the following:
 
-      * Drag an image from your desktop, and drop it on the **camera** ( ![]({{ site.baseurl }}{% link images/images/btn-camera.png %}){: .Inline}) tile in the Images box.
+      * Drag an image from your desktop, and drop it on the **camera** ( ![]({% link images/images/btn-camera.png %}){: .Inline}) tile in the Images box.
 
-      * In the Images box, tap the **camera** ( ![]({{ site.baseurl }}{% link images/images/btn-camera.png %}){: .Inline}) tile, and navigate to the image file on your computer. Then, select the image, and tap <span class="btn"> Open </span>.
+      * In the Images box, tap the **camera** ( ![]({% link images/images/btn-camera.png %}){: .Inline}) tile, and navigate to the image file on your computer. Then, select the image, and tap <span class="btn"> Open </span>.
 
-         ![]({{ site.baseurl }}{% link images/images/product-images-and-video-jewel-tee.png %}){: .zoom}
+         ![]({% link images/images/product-images-and-video-jewel-tee.png %}){: .zoom}
          *Upload or Drag and Drop*
 
    **Rearrange Images**
 
-   To change the order of images in the gallery, tap the **Sort** ( ![]({{ site.baseurl }}{% link images/images/btn-sort2.png %}){: .Inline} ) icon at the bottom of the image tile. Then, drag the image to a different position in the Images box.
+   To change the order of images in the gallery, tap the **Sort** ( ![]({% link images/images/btn-sort2.png %}){: .Inline} ) icon at the bottom of the image tile. Then, drag the image to a different position in the Images box.
 
-      ![]({{ site.baseurl }}{% link images/images/product-images-and-videos-drag.png %}){: .zoom}
+      ![]({% link images/images/product-images-and-videos-drag.png %}){: .zoom}
       *Change Order*
 
    **Delete an Image**
 
-   To remove an image from the gallery, tap the **Delete** ( ![]({{ site.baseurl }}{% link images/images/btn-delete.png %}){: .Inline} ) icon in the upper-right corner of the image tile.  Then, tap <span class="btn">Save</span>.
+   To remove an image from the gallery, tap the **Delete** ( ![]({% link images/images/btn-delete.png %}){: .Inline} ) icon in the upper-right corner of the image tile.  Then, tap <span class="btn">Save</span>.
 
 1. Tap the image that you want to open in detail view: Then, do any of the following:
 
-   ![]({{ site.baseurl }}{% link images/images/product-image-detail-jewel-tee.png %}){: .zoom}
+   ![]({% link images/images/product-image-detail-jewel-tee.png %}){: .zoom}
    *Image Detail View*
 
    **Enter Alt Text**
@@ -57,17 +57,17 @@ If you intend to upload large images for viewing on the Product Details page, yo
 
    When you return to the Images and Videos section, the currently assigned roles appear below each image.
 
-   ![]({{ site.baseurl }}{% link images/images/product-images-video-swatch.png %}){: .zoom}
+   ![]({% link images/images/product-images-video-swatch.png %}){: .zoom}
    *Assigned Roles*
 
    **Hide Image**
 
    To exclude an image from the thumbnail gallery, mark the **Hidden** checkbox. Then, tap <span class="btn"> Save </span>.
 
-   ![]({{ site.baseurl }}{% link images/images/product-images-and-videos-hidden.png %}){: .zoom}
+   ![]({% link images/images/product-images-and-videos-hidden.png %}){: .zoom}
    *Hidden Images*
 
-1. To close detail view, click the **Close** ( ![]({{ site.baseurl }}{% link images/images/btn-close.png %}){: .Inline} ) box in the upper-right corner.
+1. To close detail view, click the **Close** ( ![]({% link images/images/btn-close.png %}){: .Inline} ) box in the upper-right corner.
 
 1. When complete, tap <span class="btn"> Save </span>
 
@@ -99,7 +99,7 @@ If you intend to upload large images for viewing on the Product Details page, yo
          </tr>
          <tr>
             <td>
-               <a href="{{ site.baseurl }}{% link catalog/swatches.md %}">Swatch</a>
+               <a href="{% link catalog/swatches.md %}">Swatch</a>
             </td>
             <td>A swatch can be used to illustrate the color, pattern, or texture.  Example size:
 									50 x 50 pixels

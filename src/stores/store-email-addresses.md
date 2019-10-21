@@ -21,10 +21,10 @@ Before you can configure email addresses for the store, each must be set up as a
 
 1. Under **General** in the left panel, choose **Store Email Addresses**.
 
-1. Expand ![Expansion selector]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **General Contact** section and do the following:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General Contact** section and do the following:
 
-    ![General configuration - store email addresses]({{ site.baseurl }}{% link images/images/config-general-store-email-addresses-general-contact.png %}){: .zoom}
-    [_General Contact_]({{ site.baseurl }}{% link configuration/general/store-email-addresses.md %})
+    ![General configuration - store email addresses]({% link images/images/config-general-store-email-addresses-general-contact.png %}){: .zoom}
+    [_General Contact_]({% link configuration/general/store-email-addresses.md %})
 
     - In the **Sender Name** field, enter the name of the person that is associated with the General Contact identity to appear as the sender of any email messages.
 
@@ -52,7 +52,7 @@ If you use custom email addresses, make sure to update the configuration of any 
 
 1. Starting with **Order**, expand the section for each message and make sure that the correct sender is selected.
 
-    ![Sales configuration - sales emails]({{ site.baseurl }}{% link images/images/config-sales-sales-emails-order.png %}){: .zoom}
-    [_Sales Email Order Configuration_]({{ site.baseurl }}{% link configuration/sales/sales-emails.md %})
+    ![Sales configuration - sales emails]({% link images/images/config-sales-sales-emails-order.png %}){: .zoom}
+    [_Sales Email Order Configuration_]({% link configuration/sales/sales-emails.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

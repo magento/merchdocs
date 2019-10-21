@@ -8,8 +8,8 @@ The Mail Sending Settings give you the ability to route returned email or replie
 {: .bs-callout .bs-callout-info}
 **Security Notice!** We recommend that all merchants immediately set their mail sending configuration to protect against a recently identified potential remote code execution exploit. Until this issue is resolved, we highly recommend that you avoid using [Sendmail][1] for email communications.  In the Mail Sending Settings, make sure that Set Return Path is set to "No". To learn more, see the [Magento Security Center posting][2]{: target="_blank"}.
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-system-mail-sending-settings.png %}){: .zoom}
-[*Mail Sending Settings*]({{ site.baseurl }}{% link configuration/advanced/system.md %})
+![]({% link images/images/config-advanced-system-mail-sending-settings.png %}){: .zoom}
+[*Mail Sending Settings*]({% link configuration/advanced/system.md %})
 
 ## To configure email communications
 
@@ -17,7 +17,7 @@ The Mail Sending Settings give you the ability to route returned email or replie
 
 2. In the panel on the left under **Advanced**, choose **System**.
 
-3. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %})the **Mail Sending Settings** section. Then, do the following:
+3. Expand ![]({% link images/images/btn-expand.png %})the **Mail Sending Settings** section. Then, do the following:
 
     * If necessary, set **Disable Email Communications** to “No”.
 
@@ -40,8 +40,8 @@ The Mail Sending Settings give you the ability to route returned email or replie
 
     * Set **Asynchronous sending** to “Enable”.
 
-        ![]({{ site.baseurl }}{% link images/images/config-sales-sales-emails-general-settings.png %}){: .zoom}
-        [*General Settings*]({{ site.baseurl }}{% link configuration/sales/sales-emails.md %})
+        ![]({% link images/images/config-sales-sales-emails-general-settings.png %}){: .zoom}
+        [*General Settings*]({% link configuration/sales/sales-emails.md %})
 
 5. When complete, tap <span class="btn">Save Config</span>.
 

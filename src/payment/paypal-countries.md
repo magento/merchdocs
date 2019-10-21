@@ -4,17 +4,17 @@ title: PayPal by Country
 
 |Country|PayPal Payment Solution|
 |--- |--- |
-|Australia|PayPal Website Payments Standard<br/>[PayPal Payflow Pro]({{ site.baseurl }}{% link payment/paypal-payflow-pro.md %})<br/>PayPal Website Payments Pro Hosted Solution<br/>[PayPal Express Checkout]({{ site.baseurl }}{% link payment/paypal-express-checkout.md %})|
-|Canada|PayPal Website Payments Standard<br/>PayPal Website Payments Pro<br/>[PayPal Payflow Pro]({{ site.baseurl }}{% link payment/paypal-payflow-pro.md %})<br/>[PayPal Payflow Link]({{ site.baseurl }}{% link payment/paypal-payflow-link.md %}) (includes Express Checkout)<br/>[PayPal Express Checkout]({{ site.baseurl }}{% link payment/paypal-express-checkout.md %})|
-|France|PayPal Integral Evolution<br/>PayPal Website Payments Standard<br/>[PayPal Express Checkout]({{ site.baseurl }}{% link payment/paypal-express-checkout.md %})|
-|Germany|[PayPal Express Checkout]({{ site.baseurl }}{% link payment/paypal-express-checkout.md %})|
-|Hong Kong SAR China|PayPal Website Payments Pro Hosted Solution<br/>PayPal Website Payments Standard<br/>[PayPal Express Checkout]({{ site.baseurl }}{% link payment/paypal-express-checkout.md %})|
-|Italy|PayPal ProPay<br/>[Pal Payments Standard]({{ site.baseurl }}{% link payment/paypal-payments-standard.md %})<br/>[PayPal Express Checkout]({{ site.baseurl }}{% link payment/paypal-express-checkout.md %})|
-|Japan|PayPal Website Payments Plus<br/>PayPal Website Payments Standard<br/>[PayPal Express Checkout]({{ site.baseurl }}{% link payment/paypal-express-checkout.md %})|
-|New Zealand|[PayPal Payflow Pro]({{ site.baseurl }}{% link payment/paypal-payflow-pro.md %})<br/>PayPal Website Payments Standard<br/>[PayPal Express Checkout]({{ site.baseurl }}{% link payment/paypal-express-checkout.md %})|
-|Spain|PayPal Pasarela Integral<br/>PayPal Website Payments Standard<br/>[PayPal Express Checkout]({{ site.baseurl }}{% link payment/paypal-express-checkout.md %})|
-|United Kingdom|PayPal Payments Pro Hosted Solution (includes Express Checkout)<br/>[PayPal Payments Standard]({{ site.baseurl }}{% link payment/paypal-payments-standard.md %})<br/>[PayPal Express Checkout]({{ site.baseurl }}{% link payment/paypal-express-checkout.md %})|
-|United States|[PayPal Payments Advanced]({{ site.baseurl }}{% link payment/paypal-payments-advanced.md %}) (Includes Express Checkout)<br/>[PayPal Payments Pro]({{ site.baseurl }}{% link payment/paypal-payments-pro.md %}) (Includes Express Checkout)<br/>[PayPal Payments Standard+]({{ site.baseurl }}{% link payment/paypal-payments-standard.md %})<br/>[PayPal Payflow Pro]({{ site.baseurl }}{% link payment/paypal-payflow-pro.md %}) (Includes Express Checkout)<br/>[PayPal Payflow Link]({{ site.baseurl }}{% link payment/paypal-payflow-link.md %}) (Includes Express Checkout)<br/>[PayPal Express Checkout]({{ site.baseurl }}{% link payment/paypal-express-checkout.md %})|
+|Australia|PayPal Website Payments Standard<br/>[PayPal Payflow Pro]({% link payment/paypal-payflow-pro.md %})<br/>PayPal Website Payments Pro Hosted Solution<br/>[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|
+|Canada|PayPal Website Payments Standard<br/>PayPal Website Payments Pro<br/>[PayPal Payflow Pro]({% link payment/paypal-payflow-pro.md %})<br/>[PayPal Payflow Link]({% link payment/paypal-payflow-link.md %}) (includes Express Checkout)<br/>[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|
+|France|PayPal Integral Evolution<br/>PayPal Website Payments Standard<br/>[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|
+|Germany|[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|
+|Hong Kong SAR China|PayPal Website Payments Pro Hosted Solution<br/>PayPal Website Payments Standard<br/>[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|
+|Italy|PayPal ProPay<br/>[Pal Payments Standard]({% link payment/paypal-payments-standard.md %})<br/>[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|
+|Japan|PayPal Website Payments Plus<br/>PayPal Website Payments Standard<br/>[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|
+|New Zealand|[PayPal Payflow Pro]({% link payment/paypal-payflow-pro.md %})<br/>PayPal Website Payments Standard<br/>[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|
+|Spain|PayPal Pasarela Integral<br/>PayPal Website Payments Standard<br/>[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|
+|United Kingdom|PayPal Payments Pro Hosted Solution (includes Express Checkout)<br/>[PayPal Payments Standard]({% link payment/paypal-payments-standard.md %})<br/>[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|
+|United States|[PayPal Payments Advanced]({% link payment/paypal-payments-advanced.md %}) (Includes Express Checkout)<br/>[PayPal Payments Pro]({% link payment/paypal-payments-pro.md %}) (Includes Express Checkout)<br/>[PayPal Payments Standard+]({% link payment/paypal-payments-standard.md %})<br/>[PayPal Payflow Pro]({% link payment/paypal-payflow-pro.md %}) (Includes Express Checkout)<br/>[PayPal Payflow Link]({% link payment/paypal-payflow-link.md %}) (Includes Express Checkout)<br/>[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|
 
 ## Other Countries
 

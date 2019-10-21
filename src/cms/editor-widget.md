@@ -2,11 +2,11 @@
 title: Inserting a Widget
 ---
 
-The [Widget]({{ site.baseurl }}{% link cms/widget-create.md %}) tool can be used to add a variety of content elements to the page, including links to any content page or node, product, or category. Links can be positioned on the page in a block format, or incorporated directly into the content. You can use the Widget tool to create links to the following types of content:
+The [Widget]({% link cms/widget-create.md %}) tool can be used to add a variety of content elements to the page, including links to any content page or node, product, or category. Links can be positioned on the page in a block format, or incorporated directly into the content. You can use the Widget tool to create links to the following types of content:
 
-- [Content Pages]({{ site.baseurl }}{% link cms/pages.md %})
-- [Catalog Categories]({{ site.baseurl }}{% link catalog/categories.md %})
-- [Catalog Products]({{ site.baseurl }}{% link catalog/product-create.md %})
+- [Content Pages]({% link cms/pages.md %})
+- [Catalog Categories]({% link catalog/categories.md %})
+- [Catalog Products]({% link catalog/product-create.md %})
 
 By default, links inherit their style from the style sheet of the theme.
 
@@ -48,7 +48,7 @@ By default, links inherit their style from the style sheet of the theme.
 
     - In the list, choose the linked product.
 
-    - Click <span class="btn">Insert Widget</span> to place the link on the page. In the HTML, a [markup tag ]({{ site.baseurl }}{% link marketing/markup-tags-links.md %}) for the link appears at the top of the page, enclosed in double curly braces.
+    - Click <span class="btn">Insert Widget</span> to place the link on the page. In the HTML, a [markup tag ]({% link marketing/markup-tags-links.md %}) for the link appears at the top of the page, enclosed in double curly braces.
 
     - If needed, use Cut and Paste to position the markup tag in the code where you want the link to appear.
 

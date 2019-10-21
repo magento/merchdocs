@@ -4,11 +4,11 @@ title: Locations
 
 A location is required for most interactions with Magento Shipping, with variety of uses ranging from where a shipment is sent from, where a dispatch needs to occur, or where a Click & Collect order is collected.
 
-The Locations grid lists the available shipping locations and can include stores, warehouses, drop shippers, and company headquarters. Existing shipping locations can be edited or removed and new shipping locations added. The locations that you enter appear in a drop-down list for each [Shipping Partner]({{ site.baseurl }}{% link shipping/magento-shipping-carriers.md %}) profile, to identify the locations where the carrier is available.
+The Locations grid lists the available shipping locations and can include stores, warehouses, drop shippers, and company headquarters. Existing shipping locations can be edited or removed and new shipping locations added. The locations that you enter appear in a drop-down list for each [Shipping Partner]({% link shipping/magento-shipping-carriers.md %}) profile, to identify the locations where the carrier is available.
 
-The Locations grid is hosted in the Magento Shipping Portal, but can be accessed after [initial configuration]({{ site.baseurl }}{% link shipping/magento-shipping-setup.md %}) in the Magento Admin.
+The Locations grid is hosted in the Magento Shipping Portal, but can be accessed after [initial configuration]({% link shipping/magento-shipping-setup.md %}) in the Magento Admin.
 
-![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-configure-locations.png %}){: .zoom}
+![]({% link images/images/shipping-magento-shipping-configure-locations.png %}){: .zoom}
 _Locations Grid_
 
 ## To Add a New Location
@@ -28,13 +28,13 @@ _Locations Grid_
     - Drop Shipper
     - Headquarters
 
-1.  To enable [Click & Collect]({{ site.baseurl }}{% link shipping/magento-shipping-click-collect.md %}), set **Enable Click & Collect** to `Yes`.
+1.  To enable [Click & Collect]({% link shipping/magento-shipping-click-collect.md %}), set **Enable Click & Collect** to `Yes`.
 
 1.  To make this the default pickup location for all shipments, set **Set as Default Location** to `No`.
 
-    When creating a new [shipment]({{ site.baseurl }}{% link sales/shipments-create.md %}), the default location is entered automatically, but can be changed as needed.
+    When creating a new [shipment]({% link sales/shipments-create.md %}), the default location is entered automatically, but can be changed as needed.
 
-    ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-configure-locations-add-name.png %}){: .zoom}
+    ![]({% link images/images/shipping-magento-shipping-configure-locations-add-name.png %}){: .zoom}
     _Basic Settings_
 
 1.  Complete the fields in the **Address** section.
@@ -45,14 +45,14 @@ _Locations Grid_
 
     See the [Latitude/Longitude FInder][1]{: target="_blank"} to get the GPS coordinates of the location. Then, enter the **Latitude** and **Longitude** coordinates.
 
-    ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-configure-locations-address.png %}){: .zoom}
+    ![]({% link images/images/shipping-magento-shipping-configure-locations-address.png %}){: .zoom}
     _Address_
 
 1.  Complete the fields in the **Contact** section.
 
     If you need help, refer to the Field Descriptions at the end of this topic.
 
-    ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-configure-locations-add-contact.png %}){: .zoom}
+    ![]({% link images/images/shipping-magento-shipping-configure-locations-add-contact.png %}){: .zoom}
     _Contact_
 
 1.  In the _Date and Time_ section, choose the appropriate option for the shipping location in the **Timezone** drop-down.
@@ -63,7 +63,7 @@ _Locations Grid_
 
     If the location has any non-standard (holiday, seasonal, etc.) open or closed dates or times, click **Add** in the **Special Closures** or **Special Openings** sections to add the information.
 
-    ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-configure-locations-opening-hours.png %}){: .zoom}
+    ![]({% link images/images/shipping-magento-shipping-configure-locations-opening-hours.png %}){: .zoom}
      _Opening Hours_
 
 1.  When complete, click **Save**.

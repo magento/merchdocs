@@ -15,7 +15,7 @@ The data that is used to calculate tables rates is prepared in a spreadsheet and
 {: .bs-callout .bs-callout-info}
 Only one set of table rate data can be active at a time.
 
-![]({{ site.baseurl }}{% link images/images/storefront-cart-table-rate.png %}){: .zoom}
+![]({% link images/images/storefront-cart-table-rate.png %}){: .zoom}
 *Table Rate in Shopping Cart*
 
 ## Step 1: Complete the Default Settings
@@ -28,7 +28,7 @@ The first step is to complete the default settings for table rates. You can comp
 
 1.  In the _Sales_ section in the left panel, choose **Shipping Methods**.
 
-1.  Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Table Rates** section.
+1.  Expand ![]({% link images/images/btn-expand.png %}) the **Table Rates** section.
 
 1.  Set **Enabled** to `Yes`.
 
@@ -65,15 +65,15 @@ The first step is to complete the default settings for table rates. You can comp
 
 1.  Set **Ship to Applicable Countries** to one of the following:
 
-    * **All Allowed Countries**–Customers from any [country ]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use table rate shipping.
+    * **All Allowed Countries**–Customers from any [country ]({% link stores/country-options.md %}) specified in your store configuration can use table rate shipping.
     * **Specific Countries**–After choosing this option, the “Ship to Specific Countries” list appears. Select each country where customers can use table rate shipping.
 
 1.  Enter a **Sort Order** number to determine where table rates appear in the list of shipping methods during checkout. (0 = first, 1 = second, 2 = third, and so on.)
 
 1.  Click **Save Config**.
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-table-rates.png %}){: .zoom}
-    _[Table Rates]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})_
+    ![]({% link images/images/config-sales-shipping-methods-table-rates.png %}){: .zoom}
+    _[Table Rates]({% link configuration/sales/shipping-methods.md %})_
 
 ## Step 2: Prepare the Table Rate Data
 
@@ -90,7 +90,7 @@ The first step is to complete the default settings for table rates. You can comp
 
 1.  Save the `tablerates.csv` file to your computer.
 
-    ![]({{ site.baseurl }}{% link images/images/shipping-table-rates-export.png %}){: .zoom}
+    ![]({% link images/images/shipping-table-rates-export.png %}){: .zoom}
     _Export CS_
 
 1.  Open the file in a spreadsheet.
@@ -101,7 +101,7 @@ The first step is to complete the default settings for table rates. You can comp
     * The Country column must contain a [valid three-character code][1] for each row.
     * Sort the data by Region/State so the specific locations are at the top of the list, and the wildcard locations at the bottom. This will process the rules with the absolute values first, and the wildcard values later.
 
-    ![]({{ site.baseurl }}{% link images/images/table-rates-weight-destination-csv.png %}){: .zoom}
+    ![]({% link images/images/table-rates-weight-destination-csv.png %}){: .zoom}
     _Weight vs. Destination (Australia)_
 
 1.  Save the `tablerates.csv` file.
@@ -114,7 +114,7 @@ The first step is to complete the default settings for table rates. You can comp
 
 1.  Next to the **Import** field, tap **Choose File**. Select your completed `tablerates.csv` file, and import the rates.
 
-    ![]({{ site.baseurl }}{% link images/images/shipping-table-rates-import.png %}){: .zoom}
+    ![]({% link images/images/shipping-table-rates-import.png %}){: .zoom}
     _Import Table Rates_
 
 1.  Click **Save Config**.

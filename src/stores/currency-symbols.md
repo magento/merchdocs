@@ -4,7 +4,7 @@ title: Currency Symbols
 
 Manage Currency Symbols gives you the ability to customize the symbol associated with each currency that is accepted as payment in your store.
 
-![Currency symbols]({{ site.baseurl }}{% link images/images/stores-currency-symbols.png %}){: .zoom}
+![Currency symbols]({% link images/images/stores-currency-symbols.png %}){: .zoom}
 _Currency Symbols_
 
 ## Customize currency symbols
@@ -24,5 +24,5 @@ _Currency Symbols_
 
 1. When prompted to update the cache, click the **Cache Management** link and refresh any invalid cache.
 
-    ![System message - refresh the invalid cache]({{ site.baseurl }}{% link images/images/msg-cache-management.png %}){: .zoom}
+    ![System message - refresh the invalid cache]({% link images/images/msg-cache-management.png %}){: .zoom}
     _Refresh Cache_

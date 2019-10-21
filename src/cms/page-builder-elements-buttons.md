@@ -5,24 +5,24 @@ title: Buttons
 
 Use the Buttons content type to add either an individual button or a set of buttons to the stage. Buttons can be arranged horizontally or vertically, and added directly to rows, columns, tabs, and banners on the stage.
 
-![]({{ site.baseurl }}{% link images/images-ee/page-builder-storefont-banner-with-button.png %}){: .zoom}
+![]({% link images/images-ee/page-builder-storefont-banner-with-button.png %}){: .zoom}
 _Banner with Button_
 
 ## To add an individual button
 
 1. In the Page Builder panel under **Elements**, drag a **Buttons** placeholder to a row, column, or tab set on the stage.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-button-drag.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-button-drag.png %}){: .zoom}
    _Drag Button to Stage_
 
-1. If necessary, hover over the container to make the toolbox appear. Then, choose **Settings** ( ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}).
+1. If necessary, hover over the container to make the toolbox appear. Then, choose **Settings** ( ![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}).
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-button-settings.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-button-settings.png %}){: .zoom}
    _Button Toolbox_
 
 1. Enter the **Button Text** that is to appear on the button.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-button-settings-button-text.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-button-settings-button-text.png %}){: .zoom}
    _Button Text_
 
 1. Set **Button Type** to one of the following:
@@ -32,7 +32,7 @@ _Banner with Button_
    | Secondary | Applies the secondary button style from the current style sheet if applicable. |
    | Link      | Creates a hyperlink rather than a button.                                      |
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-button-settings-button-primary-secondary.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-button-settings-button-primary-secondary.png %}){: .zoom}
    _Primary and Secondary Buttons_
 
 1. Set **Button Link** to one of the following:
@@ -61,7 +61,7 @@ _Banner with Button_
 
    - Choose the product name in the list.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-button-settings-button-link-product-search.png %}){: .zoom}
+      ![]({% link images/images-ee/page-builder-elements-button-settings-button-link-product-search.png %}){: .zoom}
       _Choose Product for Button Link_
 
    **Category**
@@ -73,7 +73,7 @@ _Banner with Button_
 
    - Choose the category name in the tree.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-button-settings-button-link-category-search.png %}){: .zoom}
+      ![]({% link images/images-ee/page-builder-elements-button-settings-button-link-category-search.png %}){: .zoom}
       _Choose Category for Button Link_
 
    **Page**
@@ -85,7 +85,7 @@ _Banner with Button_
 
    - Choose the name of the page in the search results list.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-button-settings-button-link-page-search.png %}){: .zoom}
+      ![]({% link images/images-ee/page-builder-elements-button-settings-button-link-page-search.png %}){: .zoom}
       _Choose CMS Page for Button Link_
 
 1. Complete the remaining settings as needed, using the descriptions at the end of this topic for reference.
@@ -96,55 +96,55 @@ _Banner with Button_
 
 1. Follow the previous instructions to add an individual button to the stage.
 
-1. Hover over the container. Then, choose **Add** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-add-button.png %}){: .Inline}) in the toolbox.
+1. Hover over the container. Then, choose **Add** (![]({% link images/images-ee/icon-pb-add-button.png %}){: .Inline}) in the toolbox.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-buttons-toolbox-add.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-buttons-toolbox-add.png %}){: .zoom}
    _Add Button_
 
 1. Enter the text that you want to appear on the second button.
 
-1. Click the new button to display its toolbox. Then, choose **Settings** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}) and do the following:
+1. Click the new button to display its toolbox. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) and do the following:
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-button-set-edit-button2-toolbox.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-button-set-edit-button2-toolbox.png %}){: .zoom}
    _Add Button_
 
    - Set **Button Type** to `Secondary`.
 
    - Set up the **Button Link** as needed.
 
-      In this example, the link is a relative URL that goes to the [Contact Us]({{ site.baseurl }}{% link stores/contact-us.md %}) page.
+      In this example, the link is a relative URL that goes to the [Contact Us]({% link stores/contact-us.md %}) page.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-button-set-edit-button2-toolbox-settings.png %}){: .zoom}
+      ![]({% link images/images-ee/page-builder-elements-button-set-edit-button2-toolbox-settings.png %}){: .zoom}
       _Contact Us Button Settings_
 
    - Update the remaining settings as needed, using the [descriptions](#button-settings) at the end of this topic for reference.
 
    - When complete, click <span class="btn">Save</span> to close the _Edit Button_ page.
 
-1. Click the second button again. Then, choose **Duplicate** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-duplicate.png %}){: .Inline}) in the toolbox.
+1. Click the second button again. Then, choose **Duplicate** (![]({% link images/images-ee/icon-pb-duplicate.png %}){: .Inline}) in the toolbox.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-button-set-contact-us-toolbox-duplicate.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-button-set-contact-us-toolbox-duplicate.png %}){: .zoom}
    _Duplicate Button_
 
 1. Enter the text that you want to appear on the third button.
 
-1. Click the third button. Then, choose **Settings** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox and do the following:
+1. Click the third button. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox and do the following:
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-button-set-find-us-toolbox-settings.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-button-set-find-us-toolbox-settings.png %}){: .zoom}
    _Third Button Toolbox_
 
    - Update the **Button Link** as needed.
 
    - In the upper-right corner, click <span class="btn">Save</span> to close the _Edit Button_ page and return to the Page Builder workspace.
 
-1. This time, hover over the container and choose **Settings** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox. Then, do the following:
+1. This time, hover over the container and choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox. Then, do the following:
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-buttons-toolbox-settings.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-buttons-toolbox-settings.png %}){: .zoom}
    _Buttons Toolbox_
 
    - Under **Appearance**, choose `Stacked`. Then, set **All Buttons are same size** to `Yes`.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-buttons-settings-appearance-stacked.png %}){: .zoom}
+      ![]({% link images/images-ee/page-builder-elements-buttons-settings-appearance-stacked.png %}){: .zoom}
       _Stacked Buttons of the Same Size_
 
    - Update the remaining settings as needed, using the descriptions at the end of this page for reference.
@@ -153,7 +153,7 @@ _Banner with Button_
 
    The complete stacked button set appears on the stage, with one primary button and two secondary buttons.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-buttons-stacked.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-buttons-stacked.png %}){: .zoom}
    _Stacked Buttons on Stage_
 
 1. In the upper-right corner, click <span class="btn">Save</span>.
@@ -162,11 +162,11 @@ _Banner with Button_
 
 1. Click the button that you want to move.
 
-   The Move (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-move.png %}){: .Inline}) icon appears just before the button text.
+   The Move (![]({% link images/images-ee/icon-pb-move.png %}){: .Inline}) icon appears just before the button text.
 
-1. Select and drag the **Move** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-move.png %}){: .Inline}) icon to a new position for the button to within the button set.
+1. Select and drag the **Move** (![]({% link images/images-ee/icon-pb-move.png %}){: .Inline}) icon to a new position for the button to within the button set.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-button-set-move-button.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-button-set-move-button.png %}){: .zoom}
    _Moving a Button_
 
 ## To change button settings
@@ -176,10 +176,10 @@ _Banner with Button_
    - For an individual button, click the button.
    - For a button set, hover over the container.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-button-toolboxes.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-button-toolboxes.png %}){: .zoom}
    _Button Toolboxes_
 
-1. In the toolbox, choose **Settings** ( ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}).
+1. In the toolbox, choose **Settings** ( ![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}).
 
 1. Update the settings as needed, using the descriptions at the bottom of this page for reference.
 
@@ -189,22 +189,22 @@ _Banner with Button_
 
 | Tool      | Icon                                                                     | Description                                                                    |
 | --------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
-| Settings  | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %})  | Opens the Edit Button page, where you can change the properties of the button. |
-| Duplicate | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the button.                                          |
-| Remove    | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-remove.png %})    | Deletes the button from the stage.                                             |
+| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %})  | Opens the Edit Button page, where you can change the properties of the button. |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the button.                                          |
+| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})    | Deletes the button from the stage.                                             |
 
 ## Button Set Toolbox
 
-| Tool    | [Icon]({{ site.baseurl }}{% link configuration/scope.md %})               | Description                                                                        |
+| Tool    | [Icon]({% link configuration/scope.md %})               | Description                                                                        |
 | --------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| Move      | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-move.png %})       | Moves the button container to another valid place on the page.                     |
-| Add       | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-add-button.png %}) | Adds a new button to the container.                            |
+| Move      | ![]({% link images/images-ee/icon-pb-move.png %})       | Moves the button container to another valid place on the page.                     |
+| Add       | ![]({% link images/images-ee/icon-pb-add-button.png %}) | Adds a new button to the container.                            |
 | (label)   | BUTTON                                                                    | Identifies the current container as a button element.                              |
-| Settings  | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %})   | Opens the Edit Buttons page, where you can change the properties of the container. |
-| Hide      | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-hide.png %})       | Hides the button container.                                                    |
-| Show      | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-show.png %})       | Shows the hidden button container.                                                 |
-| Duplicate | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-duplicate.png %})  | Makes a duplicate copy of the button container.                                    |
-| Remove    | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-remove.png %})     | Deletes the button container and its content from the stage.                       |
+| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %})   | Opens the Edit Buttons page, where you can change the properties of the container. |
+| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})       | Hides the button container.                                                    |
+| Show      | ![]({% link images/images-ee/icon-pb-show.png %})       | Shows the hidden button container.                                                 |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %})  | Makes a duplicate copy of the button container.                                    |
+| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})     | Deletes the button container and its content from the stage.                       |
 
 {: #button-settings}
 ## Button Settings

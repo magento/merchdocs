@@ -39,11 +39,11 @@ When run, the algorithm:
 * Continues down the list until the order shipment is filled
 * Skips disabled sources if found in the list
 
-To configure, assign and order sources to a custom stock. See [Prioritizing Sources for a Stock]({{ site.baseurl }}{% link catalog/inventory-stock-priority.md %}).
+To configure, assign and order sources to a custom stock. See [Prioritizing Sources for a Stock]({% link catalog/inventory-stock-priority.md %}).
 
 The following example details the mapped sources in order, available quantity, and recommended source and amount to deduct and ship. The top source is a Drop Shipper in the United Kingdom with an available quantity of 240.
 
-![]({{ site.baseurl }}{% link images/images/inventory/inventory-diagram-ssa-sources.png %})
+![]({% link images/images/inventory/inventory-diagram-ssa-sources.png %})
 *Example SSA recommendations for a Mountain Bike*
 
 ### Distance Priority Algorithm
@@ -55,7 +55,7 @@ You have two options for calculating the distance and time to find the closest s
 * **Google MAP**: Uses [Google Maps Platform][1] services to calculate the distance and time between the shipping destination address and source locations (address and GPS coordinates). This option uses the source's Latitude and Longitude. You must provide a Google API key with [Geocoding API][2] and [Distance Matrix API][3] enabled. This option requires a Google billing plan and may incur charges through Google.
 * **Offline Calculation**: Calculates the distance using downloaded and imported geocode data to determine the closest source to the shipping destination address. This option uses the country codes of the shipping address and source. To configure this option, you may require developer assistance to initially download and import geocodes using a command line.
 
-To configure, select configurations and complete additional steps such as the Google API key or downloading shipping data. See [Configuring Distance Priority Algorithm]({{ site.baseurl }}{% link catalog/inventory-configure-distance-priority.md %}).
+To configure, select configurations and complete additional steps such as the Google API key or downloading shipping data. See [Configuring Distance Priority Algorithm]({% link catalog/inventory-configure-distance-priority.md %}).
 
 ### Custom Algorithms
 
@@ -71,11 +71,11 @@ Reservations place holds on inventory quantities deducted from the salable quant
 
 The following diagram helps define the process of reservations during an order and through to shipment.
 
-![]({{ site.baseurl }}{% link images/images/inventory/inventory-diagram-qty.png %})
+![]({% link images/images/inventory/inventory-diagram-qty.png %})
 
 A customer submits an order. Magento checks the current inventory salable quantity. If enough inventory is available at the stock level, a reservation enters placing a temporary hold for the product SKU (for that stock) and recalculates the salable quantity.
 
-After invoicing the order, you determine the product amounts to deduct and ship from your sources. The shipment is processed and sent from the selected source(s) to the customer. The quantities automatically deduct from the source inventory quantity and reservations clear. For complete details and examples, see [About Order Status and Reservations]({{ site.baseurl }}{% link catalog/inventory-about-order-status-reservation.md %}).
+After invoicing the order, you determine the product amounts to deduct and ship from your sources. The shipment is processed and sent from the selected source(s) to the customer. The quantities automatically deduct from the source inventory quantity and reservations clear. For complete details and examples, see [About Order Status and Reservations]({% link catalog/inventory-about-order-status-reservation.md %}).
 
 ### Updating Reservations
 
@@ -87,7 +87,7 @@ Here is how they work:
 * **Canceled Order**: When an order is canceled (all or partial), a compensation reservation enters to clear that amount. For example, canceling 3 backpacks enters a +3 reservation for that SKU and stock, clearing the hold. The salable quantity is increased by 3.
 * **Shipped Order**: When an order ships (all or partial), a compensation reservation enters to clear that amount. For example, shipping 2 backpacks enters a +2 reservation for that SKU and stock, clearing the hold. The product quantity is directly reduced by 2 for the shipment. The calculated salable quantity is also updated for the reduced stock amount, but no longer affected by the reservation.
 
-![]({{ site.baseurl }}{% link images/images/inventory/inventory-diagram-reservation.png %})
+![]({% link images/images/inventory/inventory-diagram-reservation.png %})
 
 All reservations need to be cleared by compensations when orders complete fulfillment, products cancel, credit memos are issued, etc. If compensations do not clear out reservations, you may have quantities held in stasis, not available for sale and never shipping.
 

@@ -12,10 +12,10 @@ The quote configuration determines the minimum required order amount for quote r
 
 1. In the sidebar on the left, expand the **Sales** section. Then, choose **Quotes**.
 
-1. Expand ![Expansion selector]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **General** section. Then, do the following:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **General** section. Then, do the following:
 
-    ![Sales quotes configuration - general]({{ site.baseurl }}{% link images/images-b2b/config-sales-quotes-general.png %}){: .zoom}
-    [_General_]({{ site.baseurl }}{% link configuration/sales/quotes.md %})
+    ![Sales quotes configuration - general]({% link images/images-b2b/config-sales-quotes-general.png %}){: .zoom}
+    [_General_]({% link configuration/sales/quotes.md %})
 
     - Enter the **Minimum Amount** in the shopping cart that must be met before a request for a quote can be submitted.
 
@@ -23,7 +23,7 @@ The quote configuration determines the minimum required order amount for quote r
 
     - In the **Default Expiration Period** fields, enter the number of **days**, **weeks**, or **months** that a quote is to remain valid.
 
-1. Expand ![Expansion selector]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Attached files** section. Then, do the following:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Attached files** section. Then, do the following:
 
     - In the **File formats for upload** field, enter the suffix of each file type that you support for files that are attached to a quote.
 
@@ -35,7 +35,7 @@ The quote configuration determines the minimum required order amount for quote r
 
         The value you enter might be overridden by the server setting.
 
-        ![Sales quotes configuration - attached files]({{ site.baseurl }}{% link images/images-b2b/config-sales-quotes-attached-files.png %}){: .zoom}
-        [_Attached Files_]({{ site.baseurl }}{% link configuration/sales/quotes.md %})
+        ![Sales quotes configuration - attached files]({% link images/images-b2b/config-sales-quotes-attached-files.png %}){: .zoom}
+        [_Attached Files_]({% link configuration/sales/quotes.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

@@ -4,7 +4,7 @@ title: Google reCAPTCHA
 
 Google reCAPTCHA ensures that a human being, rather than a computer, is interacting with the site. It provides enhanced security over Magento CAPTCHA, performs checks without potential user error when entering a series of letters and numbers, and encourages cart conversion without additional hurdles to complete a purchase.
 
-![Google reCAPTCHA - customer login]({{ site.baseurl }}{% link images/images/customer-account-login-recaptcha.png %}){: .zoom}
+![Google reCAPTCHA - customer login]({% link images/images/customer-account-login-recaptcha.png %}){: .zoom}
 _Customer Login with reCAPTCHA v2_
 
 [Google reCAPTCHA][1] verifies users with increased security and reduced clicks for each of completion, which can be implemented in two ways:
@@ -12,11 +12,11 @@ _Customer Login with reCAPTCHA v2_
 - reCAPTCHA v2 verifies users and customers using an on-click feature proving _I am not a robot_.
 - Invisible reCAPTCHA (**recommended**) performs background verification without user interaction. Users and customers are automatically verified without clicking anything.
 
-You can use Google reCAPTCHA on the [Admin Sign In]({{ site.baseurl }}{% link stores/admin-signin.md %}) page, and on various customer pages in the storefront. The styling options include your choice of a light or dark theme, and either a compact or normal size.
+You can use Google reCAPTCHA on the [Admin Sign In]({% link stores/admin-signin.md %}) page, and on various customer pages in the storefront. The styling options include your choice of a light or dark theme, and either a compact or normal size.
 
-If you have the standard [Magento CAPTCHA]({{ site.baseurl }}{% link stores/security-captcha.md %}) enabled, reCAPTCHA will override it. You can have both enabled on your Magento instance without issues.
+If you have the standard [Magento CAPTCHA]({% link stores/security-captcha.md %}) enabled, reCAPTCHA will override it. You can have both enabled on your Magento instance without issues.
 
-![Google reCAPTCHA - styles]({{ site.baseurl }}{% link images/images/recaptcha-styles.png %}){: .zoom}
+![Google reCAPTCHA - styles]({% link images/images/recaptcha-styles.png %}){: .zoom}
 _Google reCAPTCHA Styles_
 
 ## Step 1: Generate Google reCAPTCHA keys
@@ -45,7 +45,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
 1. (Optional) Select the **Send alerts to owners** checkbox to send notification if Google detects issues or suspicious traffic.
 
-    ![Google reCAPTCHA - site registration]({{ site.baseurl }}{% link images/images/recaptcha-register-new-site.png %}){: .zoom}
+    ![Google reCAPTCHA - site registration]({% link images/images/recaptcha-register-new-site.png %}){: .zoom}
     _Google reCAPTCHA Site Registration_
 
 1. Click **Register** and do the following:
@@ -54,7 +54,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
     - Scroll down to the **Adding reCAPTCHA to your site** section and expand **Keys**. You will need these keys when enabling Google reCAPTCHA.
 
-    ![Google reCAPTCHA - keys]({{ site.baseurl }}{% link images/images/recaptcha-keys.png %})
+    ![Google reCAPTCHA - keys]({% link images/images/recaptcha-keys.png %})
 
 ## Step 2: Configure Google reCAPTCHA in Magento
 
@@ -71,10 +71,10 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
     - Google API website key
     - Google API secret key
 
-    ![Google reCAPTCHA - keys configuration]({{ site.baseurl }}{% link images/images/config-security-recaptcha-keys.png %}){: .zoom}
-    [_Google reCAPTCHA keys_]({{ site.baseurl }}{% link configuration/security/google-recaptcha.md %})
+    ![Google reCAPTCHA - keys configuration]({% link images/images/config-security-recaptcha-keys.png %}){: .zoom}
+    [_Google reCAPTCHA keys_]({% link configuration/security/google-recaptcha.md %})
 
-1. Expand (![Expansion selector]({{ site.baseurl }}{% link images/images/btn-expand.png %})) the **Backend** section and set the options
+1. Expand (![Expansion selector]({% link images/images/btn-expand.png %})) the **Backend** section and set the options
 
    If needed, clear the **Use system value** checkbox to change the setting.
 
@@ -84,13 +84,13 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
     - **Size** — Choose `Normal` or `Compact`.
 
-    ![Google reCAPTCHA - backend configuration]({{ site.baseurl }}{% link images/images/config-2fa-google-recaptcha-backend.png %}){: .zoom}
-    [_Google reCAPTCHA Backend_]({{ site.baseurl }}{% link configuration/security/google-recaptcha.md %})
+    ![Google reCAPTCHA - backend configuration]({% link images/images/config-2fa-google-recaptcha-backend.png %}){: .zoom}
+    [_Google reCAPTCHA Backend_]({% link configuration/security/google-recaptcha.md %})
 
-1. Expand (![Expansion selector]({{ site.baseurl }}{% link images/images/btn-expand.png %})) the **Frontend** section and add Google reCAPTCHA to customer accounts:
+1. Expand (![Expansion selector]({% link images/images/btn-expand.png %})) the **Frontend** section and add Google reCAPTCHA to customer accounts:
 
-    ![Google reCAPTCHA - frontend configuration]({{ site.baseurl }}{% link images/images/config-2fa-google-recaptcha-frontend.png %}){: .zoom}
-    [_Google reCAPTCHA Frontend_]({{ site.baseurl }}{% link configuration/security/google-recaptcha.md %})
+    ![Google reCAPTCHA - frontend configuration]({% link images/images/config-2fa-google-recaptcha-frontend.png %}){: .zoom}
+    [_Google reCAPTCHA Frontend_]({% link configuration/security/google-recaptcha.md %})
 
    If needed, clear the **Use system value** checkbox to change the setting.
 

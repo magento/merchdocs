@@ -14,10 +14,10 @@ See [Run the Module Manager][1] in the developer documentation.
 {% include flush-cache.md %}
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/web-setup-module-manager.png %}){: .zoom}
+![]({% link images/images/web-setup-module-manager.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/web-setup-module-manager-wishlist-dependent-modules.png %}){: .zoom}
+![]({% link images/images-ee/web-setup-module-manager-wishlist-dependent-modules.png %}){: .zoom}
 <!--{% endif %}-->
 _Module Manager_
 
@@ -34,7 +34,7 @@ _Module Manager_
         {: .bs-callout-info}
         A module with dependent components will fail Readiness Check.
 
-        ![]({{ site.baseurl }}{% link images/images/web-setup-module-manager-captcha-disable-readiness-check.png %}){: .zoom}
+        ![]({% link images/images/web-setup-module-manager-captcha-disable-readiness-check.png %}){: .zoom}
         _Readiness Check_
 
         When the readiness check is complete, do one of the following:
@@ -42,36 +42,36 @@ _Module Manager_
         *  Click **Next**.
         *  Correct any issues, and **Try Again**.
 
-        ![]({{ site.baseurl }}{% link images/images/web-setup-module-manager-captcha-disable-readiness-check-complete.png %}){: .zoom}
+        ![]({% link images/images/web-setup-module-manager-captcha-disable-readiness-check-complete.png %}){: .zoom}
         _Readiness Check Complete_
 
     -  Under **Step 2**, mark the checkbox of each **Backup Option** that you want to include and click **Create Backup**.
 
-        ![]({{ site.baseurl }}{% link images/images/web-setup-module-manager-capcha-disable-create-backup.png %}){: .zoom}
+        ![]({% link images/images/web-setup-module-manager-capcha-disable-create-backup.png %}){: .zoom}
         _Create Backup_
 
         Before the backup is created, the available disk space is checked, and the store is placed in maintenance mode. It might take several minutes—or more—to create the backup, depending on the size of your database.
 
         When the backup is complete, click **Next**.
 
-        ![]({{ site.baseurl }}{% link images/images/web-setup-module-manager-capcha-enable-create-backup-complete.png %}){: .zoom}
+        ![]({% link images/images/web-setup-module-manager-capcha-enable-create-backup-complete.png %}){: .zoom}
         _Backup Complete_
 
     -  Under **Step 3**, click **Disable**. Your store is taken offline while the module is disabled.
 
-        ![]({{ site.baseurl }}{% link images/images/web-setup-module-manager-captcha-disable-module.png %}){: .zoom}
+        ![]({% link images/images/web-setup-module-manager-captcha-disable-module.png %}){: .zoom}
         _Disable Module_
 
     -  As the process is running, the details appear in the box below. To toggle the display of the log, click **Console Log**.
 
     -  When the _Success_ page appears, the module is disabled and your store returns to production mode. Click **Back to Setup Tool** to return to Module Manager.
 
-        ![]({{ site.baseurl }}{% link images/images/web-setup-module-manager-captcha-disable-module-success.png %}){: .zoom}
+        ![]({% link images/images/web-setup-module-manager-captcha-disable-module-success.png %}){: .zoom}
         _Success_
 
         In the Module Manager list, the red dot in the first column means the module is now disabled.
 
-        ![]({{ site.baseurl }}{% link images/images/web-setup-module-manager-captcha-disable-module-status-disabled.png %}){: .zoom}
+        ![]({% link images/images/web-setup-module-manager-captcha-disable-module-status-disabled.png %}){: .zoom}
         _Module Disabled_
 
 ## To enable a module:
@@ -84,7 +84,7 @@ _Module Manager_
 
     -  Under **Step 1**, click **Start Readiness Check**.
 
-        ![]({{ site.baseurl }}{% link images/images/web-setup-module-manager-captcha-enable-readiness-check.png %}){: .zoom}
+        ![]({% link images/images/web-setup-module-manager-captcha-enable-readiness-check.png %}){: .zoom}
         _Enable Module_
 
         When the readiness check is complete, do one of the following:
@@ -93,22 +93,22 @@ _Module Manager_
 
     -  Under **Step 2**, mark the checkbox of each **Backup Option** that you want to include. Click **Create Backup**.
 
-        ![]({{ site.baseurl }}{% link images/images/web-setup-module-manager-capcha-enable-create-backup.png %}){: .zoom}
+        ![]({% link images/images/web-setup-module-manager-capcha-enable-create-backup.png %}){: .zoom}
         _Create Backup_
 
     -  When the backup is complete, click **Next**.
 
     -  Under **Step 3**, click **Enable**.
 
-        ![]({{ site.baseurl }}{% link images/images/web-setup-module-manager-captcha-enable-module.png %}){: .zoom}
+        ![]({% link images/images/web-setup-module-manager-captcha-enable-module.png %}){: .zoom}
         _Enable Module_
 
     -  As the process is running, the details appear in the box below. To toggle the display of the log, click **Console Log**.
 
-        ![]({{ site.baseurl }}{% link images/images/web-setup-module-manager-captcha-enable-process-extensions.png %}){: .zoom}
+        ![]({% link images/images/web-setup-module-manager-captcha-enable-process-extensions.png %}){: .zoom}
 
     -  When the **Success** page appears, the module is enabled and your store returns to production mode. Click **Back to Setup Tool** to return to Module Manager.
 
-1.  [Flush the cache]({{ site.baseurl }}{% link system/cache-management.md %}) after installing and enabling the module.
+1.  [Flush the cache]({% link system/cache-management.md %}) after installing and enabling the module.
 
 [1]: http://devdocs.magento.com/guides/v2.3/comp-mgr/module-man/compman-checklist.html

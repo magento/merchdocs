@@ -5,7 +5,7 @@ group: marketing
 
 When customers review a product, the default ratings are quality, price, and value. In addition to these, you can add your own custom ratings. The five-star ratings that appear on catalog pages are averaged for each product.
 
-![Example storefront - custom ratings]({{ site.baseurl }}{% link images/images/attribute-custom-ratings-review.png %}){: .zoom}
+![Example storefront - custom ratings]({% link images/images/attribute-custom-ratings-review.png %}){: .zoom}
 _Ratings_
 
 ## Create your own ratings
@@ -14,14 +14,14 @@ _Ratings_
 
 1. In the upper-right corner, click <span class="btn">Add New Rating</span>.
 
-    ![Magento Admin - Ratings]({{ site.baseurl }}{% link images/images/product-reviews-rating.png %}){: .zoom}
+    ![Magento Admin - Ratings]({% link images/images/product-reviews-rating.png %}){: .zoom}
     _Ratings_
 
 1. In the _Rating Title_ section, enter the **Default Value** for the new rating.
 
    If applicable, also enter the translation for each store view.
 
-    ![Rating title settings]({{ site.baseurl }}{% link images/images/product-rating-title.png %}){: .zoom}
+    ![Rating title settings]({% link images/images/product-rating-title.png %}){: .zoom}
     _Rating Title_
 
 1. In the _Rating Visibility_ section, set **Visibility In** to the store view where the rating is to be used.
@@ -33,7 +33,7 @@ _Ratings_
 
 1. For **Sort Order**, enter a number to determine the order of this rating when listed with others.
 
-    ![Rating visibility settings]({{ site.baseurl }}{% link images/images/product-rating-visibility.png %}){: .zoom}
+    ![Rating visibility settings]({% link images/images/product-rating-visibility.png %}){: .zoom}
     _Rating Visibility_
 
 1. When complete, click <span class="btn">Save Rating</span>.

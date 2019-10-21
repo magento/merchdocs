@@ -8,9 +8,9 @@ Adding customizable options to a product is an easy way to offer customers a sel
 
 1. Open the product in edit mode.
 
-1. Scroll down and expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Customizable Options** section. Then, tap <span class="btn">Add Option</span>.
+1. Scroll down and expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Customizable Options** section. Then, tap <span class="btn">Add Option</span>.
 
-   ![]({{ site.baseurl }}{% link images/images/product-customizable-options.png %}){: .zoom}
+   ![]({% link images/images/product-customizable-options.png %}){: .zoom}
    *Customizable Options*
 
 1. In the upper-left corner, tap <span class="btn"> New Option </span>. Then, do the following:
@@ -21,12 +21,12 @@ Adding customizable options to a product is an easy way to offer customers a sel
 
    * If the option is not required to purchase the product, clear the **Required** checkbox.
 
-   ![]({{ site.baseurl }}{% link images/images/product-customizable-options-new-option.png %}){: .zoom}
+   ![]({% link images/images/product-customizable-options-new-option.png %}){: .zoom}
    *New Option*
 
 1. Tap <span class="btn"> Add New Row </span>. Then, complete the following:
 
-   ![]({{ site.baseurl }}{% link images/images/product-customizable-options-add-values.png %}){: .zoom}
+   ![]({% link images/images/product-customizable-options-add-values.png %}){: .zoom}
    *Add Value*
 
    * In the **Title** field, enter a name for this option.
@@ -41,9 +41,9 @@ Adding customizable options to a product is an easy way to offer customers a sel
 
    * Enter a **SKU** for the option. The option SKU is a suffix that is added to the product SKU.
 
-   * To change the order of the options, tap the **Change Order** icon ![]({{ site.baseurl }}{% link images/images/btn-sort-order-inline.png %}){: .Inline}, and drag the option to a new position in the list.
+   * To change the order of the options, tap the **Change Order** icon ![]({% link images/images/btn-sort-order-inline.png %}){: .Inline}, and drag the option to a new position in the list.
 
-   ![]({{ site.baseurl }}{% link images/images/product-customizable-options-move.png %}){: .zoom}
+   ![]({% link images/images/product-customizable-options-move.png %}){: .zoom}
    *Change Order of Options*
 
    * Repeat this step for each option to be added.
@@ -54,7 +54,7 @@ Adding customizable options to a product is an easy way to offer customers a sel
 
 1. In the Customizable Options section, tap <span class="btn">Import Options</span>.
 
-   ![]({{ site.baseurl }}{% link images/images/product-customizable-options.png %}){: .zoom}
+   ![]({% link images/images/product-customizable-options.png %}){: .zoom}
    *Customizable Options*
 
 1. All products with customizable options appear in the grid.
@@ -171,7 +171,7 @@ Adding customizable options to a product is an easy way to offer customers a sel
                         <td>Date</td>
                         <td>An input field for a date value. The date can be typed directly
 									into the field, selected from a list or calendar. The method of
-									input used and format of the date is determined by the <a href="{{ site.baseurl }}{% link design/configuration.md %}">Date &amp; Time Custom Options</a>
+									input used and format of the date is determined by the <a href="{% link design/configuration.md %}">Date &amp; Time Custom Options</a>
 								configuration.</td>
                      </tr>
                      <tr>

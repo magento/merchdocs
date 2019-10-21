@@ -19,4 +19,4 @@ Use the **Search** box in the header to list topics that contain specific words.
 
 ### Change Log
 
-This user guide is continually updated with new topics, changes to existing content, and improvements in the way the material is presented. Some changes are in response to feedback we receive from our readers. Check the [Change Log]({{ site.baseurl }}{% link magento/change-log.md %}) every now and then to see what’s new!
+This user guide is continually updated with new topics, changes to existing content, and improvements in the way the material is presented. Some changes are in response to feedback we receive from our readers. Check the [Change Log]({% link magento/change-log.md %}) every now and then to see what’s new!

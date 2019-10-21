@@ -24,34 +24,34 @@ Before you begin, make sure that the Storefront Properties of the SKU attribute 
 
 1. Do one of the following:
 
-   * Follow the instructions to create a [cart price rule]({{ site.baseurl }}{%- link marketing/price-rules-cart.md -%}).
+   * Follow the instructions to create a [cart price rule]({% link marketing/price-rules-cart.md -%}).
    * Open an existing cart price rule.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Conditions** section, and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Conditions** section, and do the following:
 
     * In the first line, set the first parameter to “ANY”.
 
-        ![]({{ site.baseurl }}{%- link images/images/price-rule-catalog-multiple-skus-condition1.png -%}){: .zoom}
+        ![]({% link images/images/price-rule-catalog-multiple-skus-condition1.png %}){: .zoom}
         *If ANY of these conditions are TRUE*
 
-    * Tap **Add** (![]({{ site.baseurl }}{%- link images/images/btn-add-grn.png -%})) at the beginning of the next line. Then, in the list under **Product Attribute**, choose **SKU**.
+    * Tap **Add** (![]({% link images/images/btn-add-grn.png %})) at the beginning of the next line. Then, in the list under **Product Attribute**, choose **SKU**.
 
-        ![]({{ site.baseurl }}{%- link images/images/price-rule-catalog-multiple-skus-condition1b.png -%}){: .zoom}
+        ![]({% link images/images/price-rule-catalog-multiple-skus-condition1b.png %}){: .zoom}
         *SKU is one of …*
 
     * For the comparison, you have options. If you want to locate at least one from a list of SKUs, select **is one of**. If you want to locate a group of SKUs that all must be found to apply, select **is**. We recommend selecting **is one of**.
 
     * To complete the condition, click the (**…**) “more” link. Then, tap the **Chooser** button for the list of available products.
 
-        ![]({{ site.baseurl }}{%- link images/images/price-rule-catalog-multiple-skus-condition2.png -%}){: .zoom}
+        ![]({% link images/images/price-rule-catalog-multiple-skus-condition2.png %}){: .zoom}
         *Choose Each SKU*
 
     * Browse, filter, or search to find the SKUs you want to add. In the list, mark the checkbox of each product that is to be included. Then, tap <span class="btn">Save and Apply</span> to add the SKUs to the condition.
 
-        ![]({{ site.baseurl }}{%- link images/images/price-rule-catalog-multiple-skus-condition2b.png -%}){: .zoom}
+        ![]({% link images/images/price-rule-catalog-multiple-skus-condition2b.png %}){: .zoom}
         *Multiple SKUs Added to Condition*
 
-1. Complete the rule, including any [Actions]({{ site.baseurl }}{%- link marketing/price-rules-catalog.md -%}) to be taken when the conditions are met.
+1. Complete the rule, including any [Actions]({% link marketing/price-rules-catalog.md -%}) to be taken when the conditions are met.
 
 1. When complete, tap <span class="btn">Save</span>.
 

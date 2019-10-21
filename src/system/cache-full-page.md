@@ -23,10 +23,10 @@ For technical information, see [Configure and Use Varnish][1] and [Use Redis for
 
 1.  In the panel on the left under _Advanced_, choose **System**.
 
-1.  Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Full Page Cache** section.
+1.  Expand ![]({% link images/images/btn-expand.png %}) the **Full Page Cache** section.
 
-    ![]({{ site.baseurl }}{% link images/images/config-advanced-system-full-page-cache.png %}){: .zoom}
-    [_Full Page Cache_]({{ site.baseurl }}{% link configuration/advanced/system.md %})
+    ![]({% link images/images/config-advanced-system-full-page-cache.png %}){: .zoom}
+    [_Full Page Cache_]({% link configuration/advanced/system.md %})
 
 1.  Set **Caching Application** to one of the following:
 
@@ -48,8 +48,8 @@ For technical information, see [Configure and Use Varnish][1] and [Use Redis for
         * Export VCL for Varnish 3
         * Export VCL for Varnish 4
 
-    ![]({{ site.baseurl }}{% link images/images/config-advanced-system-full-page-cache-varnish.png %}){: .zoom}
-    [_Varnish Configuration_]({{ site.baseurl }}{% link configuration/advanced/system.md %})
+    ![]({% link images/images/config-advanced-system-full-page-cache-varnish.png %}){: .zoom}
+    [_Varnish Configuration_]({% link configuration/advanced/system.md %})
 
 1.  When complete, click **Save Config**.
 

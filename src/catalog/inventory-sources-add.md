@@ -12,10 +12,10 @@ If editing the Default Source, you can edit all configurations except name and c
 
 1. Click <span class="btn">Add New Source</span>.
 
-   ![]({{ site.baseurl }}{% link images/images/stores-inventory-sources.png %}){: .zoom}
+   ![]({% link images/images/stores-inventory-sources.png %}){: .zoom}
    *Manage Sources*
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **General** section, and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **General** section, and do the following:
 
    1. Enter a unique **Name** to identify the inventory source.
 
@@ -30,10 +30,10 @@ If editing the Default Source, you can edit all configurations except name and c
       To find the GPS coordinates with [Google Maps][1], enter the address in the **Search** box. Right-click the marker on the map and choose **What’s here?**.
       The GPS coordinates appear in the details box below the street address.
 
-      ![]({{ site.baseurl }}{% link images/images/stores-inventory-source-general.png %}){: .zoom}
+      ![]({% link images/images/stores-inventory-source-general.png %}){: .zoom}
       *General*
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Contact Info** section, and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Contact Info** section, and do the following:
 
    1. For the **Contact Name**, enter the full name of the primary contact at the location.
 
@@ -43,10 +43,10 @@ If editing the Default Source, you can edit all configurations except name and c
 
    1. In the **Fax** field, enter the area code and phone number of the fax, if available.
 
-      ![]({{ site.baseurl }}{% link images/images/stores-inventory-source-contact-info.png %}){: .zoom}
+      ![]({% link images/images/stores-inventory-source-contact-info.png %}){: .zoom}
       *Contact Info*
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Address Data** section, and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Address Data** section, and do the following:
 
    1. Choose the **Country**.
 
@@ -58,13 +58,13 @@ If editing the Default Source, you can edit all configurations except name and c
 
    1. For the **Postcode**, enter the ZIP or postal code.
 
-      ![]({{ site.baseurl }}{% link images/images/stores-inventory-source-address-data.png %}){: .zoom}
+      ![]({% link images/images/stores-inventory-source-address-data.png %}){: .zoom}
       *Address Data*
 
 1. To save your work, do one of the following:
 
    * To save your work and continue editing, click <span class="btn">Save &amp; Continue</span>.
-   * To save your work and return to the Manage Sources page, click the down arrow  ( ![]({{ site.baseurl }}{% link images/images/btn-dropdown.png %}){: .Inline}) and choose **Save &amp; Close**.
+   * To save your work and return to the Manage Sources page, click the down arrow  ( ![]({% link images/images/btn-dropdown.png %}){: .Inline}) and choose **Save &amp; Close**.
 
    * To save your work on the current source record and enter a new source, choose **Save &amp; New**.
 

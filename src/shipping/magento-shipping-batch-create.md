@@ -2,15 +2,15 @@
 title: Creating a Batch
 ---
 
-Orders that are ready to ship with Magento Shipping can be booked together as multiple shipments and processed as a [batch]({{ site.baseurl }}{% link sales/batches.md %}). Each shipment includes a detailed description of the package(s) to be included, with additional instructions for the carrier. The shipment is processed according to the shipping experience rule of your choice. Documentation, including shipping labels, is generated for each package, and is available for download.
+Orders that are ready to ship with Magento Shipping can be booked together as multiple shipments and processed as a [batch]({% link sales/batches.md %}). Each shipment includes a detailed description of the package(s) to be included, with additional instructions for the carrier. The shipment is processed according to the shipping experience rule of your choice. Documentation, including shipping labels, is generated for each package, and is available for download.
 
 ## Before you begin
 
-Verify that [Magento Shipping]({{ site.baseurl }}{% link shipping/magento-shipping-setup.md %}) is enabled with valid API credentials, and that the _Advanced_ section is complete to synchronize your Magento installation with the Temando API.
+Verify that [Magento Shipping]({% link shipping/magento-shipping-setup.md %}) is enabled with valid API credentials, and that the _Advanced_ section is complete to synchronize your Magento installation with the Temando API.
 
 ## Step 1: Create a Shipping Experience Rule
 
-In this step, you will create a Batch Fulfillment Rule to automate the batch processing of shipments. To learn more, see: [Shipping Experience Rules]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %}).
+In this step, you will create a Batch Fulfillment Rule to automate the batch processing of shipments. To learn more, see: [Shipping Experience Rules]({% link shipping/magento-shipping-experience-rules.md %}).
 
 1.  In the _Admin_ sidebar, choose **Stores**.
 
@@ -30,14 +30,14 @@ In this step, you will create a Batch Fulfillment Rule to automate the batch pro
    
     *  Click **Create Rule**.
 
-        ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-experiences-batch-fulfilment-rules.png %}){: .zoom}
+        ![]({% link images/images/shipping-magento-shipping-experiences-batch-fulfilment-rules.png %}){: .zoom}
         _Batch Fulfillment Rules_
 
     *  Enter a brief **Description** of the rule that states its purpose and the conditions that trigger the rule.
 
        Because this rule is to run every time, accept the default **Condition** value of `Always`.
 
-       ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-experiences-batch-fulfilment-rule-condition.png %}){: .zoom}
+       ![]({% link images/images/shipping-magento-shipping-experiences-batch-fulfilment-rule-condition.png %}){: .zoom}
        _Condition_
 
 1.  In the **Outcomes** section, set **Action** to one of the following:
@@ -47,7 +47,7 @@ In this step, you will create a Batch Fulfillment Rule to automate the batch pro
 
 1.  Choose the carrier(s) and services that you want to use for fulfilling the orders in the batch.
 
-    ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-experiences-batch-fulfilment-rule-outcome.png %}){: .zoom}
+    ![]({% link images/images/shipping-magento-shipping-experiences-batch-fulfilment-rule-outcome.png %}){: .zoom}
     _Outcome_
 
 1.  Click **Save**.
@@ -66,26 +66,26 @@ A batch of orders can be processed if there is one or more in the Orders grid wi
 
     -  Set the **Actions** control to `Batch Process`.
 
-       ![]({{ site.baseurl }}{% link images/images/orders-actions-batch-process.png %}){: .zoom}
+       ![]({% link images/images/orders-actions-batch-process.png %}){: .zoom}
        _Action - Batch Process_
 
        Follow the progress indicator at the top of the page, as you complete the following:
 
     -  To complete Step 1, choose the **Origin Location** to establish where the orders to be shipped are booked. Then in the upper-right corner, click **Next**.
 
-       ![]({{ site.baseurl }}{% link images/images/order-batch-create-origin.png %}){: .zoom}
+       ![]({% link images/images/order-batch-create-origin.png %}){: .zoom}
        _Step 1: Choose the Origin_
 
     -  To complete Step 2, review the orders in the grid. If necessary, clear the checkmark of any order that you do not want to include in the batch. Then, click **Next**.
 
-       ![]({{ site.baseurl }}{% link images/images/order-batch-confirm.png %}){: .zoom}
+       ![]({% link images/images/order-batch-confirm.png %}){: .zoom}
        _Step 2: Confirm Shipments(s) to Process_
 
     -  In Step 3, complete the detail information for each order in the batch to prepare orders for booking.
 
 ### Prepare orders for booking
 
-In Step 3 of the batch processing workflow, you must define the packaging of each item before the quoting and booking processes can take place. The total weight is calculated based on the weight that is specified in the [product settings]({{ site.baseurl }}{% link catalog/settings.md %}). When a package type is specified, the calculated weight is updated to include the weight of the packaging, if defined in the product settings.
+In Step 3 of the batch processing workflow, you must define the packaging of each item before the quoting and booking processes can take place. The total weight is calculated based on the weight that is specified in the [product settings]({% link catalog/settings.md %}). When a package type is specified, the calculated weight is updated to include the weight of the packaging, if defined in the product settings.
 
 The _Prepare orders for booking_ page is wider than most pages, and includes a section for each order in the batch.
 
@@ -101,7 +101,7 @@ The _Prepare orders for booking_ page is wider than most pages, and includes a s
 
 1.  To ship the order in multiple packages, click **Add Another Package**. Then, complete the previous step to describe the additional package and its contents.
 
-1.  If you need to remove a package, click ![]({{ site.baseurl }}{% link images/images/btn-delete.png %}) to the right of the Weight Unit field.
+1.  If you need to remove a package, click ![]({% link images/images/btn-delete.png %}) to the right of the Weight Unit field.
 
     {: .bs-callout-info}
     Items in a removed package are not automatically restored to the previous package. In such a case, it is necessary to update the Package Contents field manually or add another package.
@@ -123,7 +123,7 @@ The _Prepare orders for booking_ page is wider than most pages, and includes a s
 
     To keep the workspace uncluttered, you can click **Hide Details** after you prepare each order in the batch for booking.
 
-    ![]({{ site.baseurl }}{% link images/images/order-batch-booking-prepare.png %}){: .zoom}
+    ![]({% link images/images/order-batch-booking-prepare.png %}){: .zoom}
     _Step 3: Prepare for Booking_
 
 1.  Click **Finish**.
@@ -142,7 +142,7 @@ Batch booking times can vary, depending on the quantity of bookings within a bat
 
 If an order was not successfully booked, it can be processed again during the standard workflow, either individually, or as part of a batch.
 
-![]({{ site.baseurl }}{% link images/images/order-batches-created.png %}){: .zoom}
+![]({% link images/images/order-batches-created.png %}){: .zoom}
 _New Batch_
 
 ## Step 3: View the Batch and Print Documentation
@@ -160,7 +160,7 @@ When a batch receives responses from all of the carriers regarding booking reque
 
 ## Step 4: Dispatch
 
-The final step in the fulfillment process is to create a dispatch and printed manifest. To continue, see [Dispatches]({{ site.baseurl }}{% link sales/dispatches.md %}).
+The final step in the fulfillment process is to create a dispatch and printed manifest. To continue, see [Dispatches]({% link sales/dispatches.md %}).
 
 ## Field Descriptions
 
@@ -173,7 +173,7 @@ The final step in the fulfillment process is to create a dispatch and printed ma
 |**STEP 3: PREPARE ORDER(S) FOR BOOKING**||
 |(checkbox)|Confirms each shipment to be booked.|
 |Pack Items|Package Type - Specifies the type of packaging to be used for the shipment.<br/><br/>Total Weight - The total weight of the package.<br/><br/>Weight Unit - The unit of measurement used for the weight.<br/><br/>Package Contents - The number of units from each line item that are in the package.<br/><br/>Add Another Package - If the order must be shipped in multiple packages, shows fields for the additional package and contents description.|
-|Shipping Experience| Determines the [shipping experience]({{ site.baseurl }}{% link shipping/magento-shipping-experience-rules.md %}) rule that is to be used for the shipment.|
+|Shipping Experience| Determines the [shipping experience]({% link shipping/magento-shipping-experience-rules.md %}) rule that is to be used for the shipment.|
 |Add-ons|(Destination Address Type) - Specifies the type of address. Options:<br/>- Business<br/>- Residential<br/>- Post office box<br/><br/>Unattended Delivery - Indicates if the carrier can leave the package unattended at the destination address.<br/><br/>Signature Required - Indicates if a signature is required.<br/><br/>Adult Signature Required - (UPS - US only) Indicates if an adult signature is required.<br/><br/>Direct Delivery Only - (UPS - US only) Indicates if direct delivery is required. Direct Delivery ensures the package is delivered to the residential or business address. Direct delivery packages cannot be redirected by the recipient, or rerouted by the driver. Direct delivery packages do not require a signature, although you can choose to require one.<br/><br/>Saturday Delivery - (UPS - US only) Indicates that the package can be delivered Monday through Saturday. When this option is chosen, only services that support Saturday delivery are listed.|
 
 ## Error Messages
