@@ -4,12 +4,31 @@ title: My Orders
 
 Customers have access to all of their orders from their account. Orders can be viewed, tracked, and resubmitted as new orders. Depending on the status of the order, customers can print their orders, invoices, shipments, and refund records.
 
+<!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({{ site.baseurl }}{% link images/images/customer-account-my-orders.png %}){: .zoom}
+<!--{% endif %}-->
+<!--{% if "Default.EE Only" contains site.edition %}-->
+![]({{ site.baseurl }}{% link images/images-ee/customer-account-my-orders.png %}){: .zoom}
+<!--{% endif %}-->
+<!--{% if "Default.B2B Only" contains site.edition %}-->
+![]({{ site.baseurl }}{% link images/images-b2b/customer-account-dashboard-my-orders.png %}){: .zoom}
+<!--{% endif %}-->
 _My Orders_
 
 ## To view an order:
 
 Find the order in the list and click **View Order**. From the open order, do any of the following:
+
+<!--{% if "Default.CE Only" contains site.edition %}-->
+![]({{ site.baseurl }}{% link images/images/customer-account-order-items-ordered.png %}){: .zoom}
+<!--{% endif %}-->
+<!--{% if "Default.EE Only" contains site.edition %}-->
+![]({{ site.baseurl }}{% link images/images-ee/customer-account-order-items-ordered.png %}){: .zoom}
+<!--{% endif %}-->
+<!--{% if "Default.B2B Only" contains site.edition %}-->
+![]({{ site.baseurl }}{% link images/images-b2b/customer-account-order-items-ordered.png %}){: .zoom}
+<!--{% endif %}-->
+_View Order_
 
 ### Reorder
 
@@ -40,8 +59,16 @@ Find the order in the list and click **View Order**. From the open order, do an
 
 1. Click <span class="btn">Print</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/customer-account-order-invoices.png %}){: .zoom}
-    _Invoices_
+<!--{% if "Default.CE Only" contains site.edition %}-->
+![]({{ site.baseurl }}{% link images/images/customer-account-order-invoices.png %}){: .zoom}
+<!--{% endif %}-->
+<!--{% if "Default.EE Only" contains site.edition %}-->
+![]({{ site.baseurl }}{% link images/images-ee/customer-account-order-invoices.png %}){: .zoom}
+<!--{% endif %}-->
+<!--{% if "Default.B2B Only" contains site.edition %}-->
+![]({{ site.baseurl }}{% link images/images-b2b/customer-account-order-invoices.png %}){: .zoom}
+<!--{% endif %}-->
+_Invoices_
 
 ### Print Shipments
 
@@ -55,8 +82,16 @@ Find the order in the list and click **View Order**. From the open order, do an
 
 1. Click <span class="btn">Print</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/customer-account-order-shipments.png %}){: .zoom}
-    _Order Shipments_
+<!--{% if "Default.CE Only" contains site.edition %}-->
+![]({{ site.baseurl }}{% link images/images/customer-account-order-shipments.png %}){: .zoom}
+<!--{% endif %}-->
+<!--{% if "Default.EE Only" contains site.edition %}-->
+![]({{ site.baseurl }}{% link images/images-ee/customer-account-order-shipments.png %}){: .zoom}
+<!--{% endif %}-->
+<!--{% if "Default.B2B Only" contains site.edition %}-->
+![]({{ site.baseurl }}{% link images/images-b2b/customer-account-order-shipments.png %}){: .zoom}
+<!--{% endif %}-->
+_Order Shipments_
 
 ### Track a Shipment
 
@@ -78,5 +113,13 @@ Find the order in the list and click **View Order**. From the open order, do an
 
 1. Click <span class="btn">Print</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/customer-account-order-refunds.png %}){: .zoom}
-    _Refunds_
+<!--{% if "Default.CE Only" contains site.edition %}-->
+![]({{ site.baseurl }}{% link images/images/customer-account-order-refunds.png %}){: .zoom}
+<!--{% endif %}-->
+<!--{% if "Default.EE Only" contains site.edition %}-->
+![]({{ site.baseurl }}{% link images/images-ee/customer-account-order-refunds.png %}){: .zoom}
+<!--{% endif %}-->
+<!--{% if "Default.B2B Only" contains site.edition %}-->
+![]({{ site.baseurl }}{% link images/images-b2b/customer-account-order-refunds.png %}){: .zoom}
+<!--{% endif %}-->
+_Refunds_

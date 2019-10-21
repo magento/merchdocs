@@ -39,6 +39,8 @@ pages:
   - label: Account Dashboard
     url: "/customers/account-dashboard.html"
     children:
+    - label: My Account
+      url: "/customers/account-dashboard-my-account.html"
     - label: My Quotes
       url: "/customers/account-dashboard-quotes.html"
       children:
