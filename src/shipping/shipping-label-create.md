@@ -18,7 +18,6 @@ Follow the instructions provided by each carrier to add shipping label support t
 | USPS | Contact [uspstechsupport@esecurecare.net](mailto:uspstechsupport@esecurecare.net) to request that API Signature Confirmation V3 be enabled for your live USPS API Access account. |
 | UPS | Contact [UPS][2] to confirm your account type supports shipping labels. To generate shipping labels, you must use the UPS XML option. |
 | DHL | Contact the [DHL Resource Center][3] to learn more about their services or send an inquiry through their [Contact Center][3]. |
-{:style="table-layout:auto"}
 
 ## Step 2 Update the Configuration for Each Carrier
 
@@ -54,12 +53,12 @@ The United States Postal Service ships both domestically and internationally.
 
 1. Enter the **Password** provided to you by USPS.
 
-1. Set **Size** to “Large”. Then, enter the following dimensions:
+1. Set **Size** to `Large`. Then, enter values for the following dimensions:
 
-    * Length
-    * Width
-    * Height
-    * Girth
+    - Length
+    - Width
+    - Height
+    - Girth
 
 1. Click **Save Config**.
 
@@ -71,9 +70,9 @@ FedEx ships domestically and internationally. Stores located outside the United 
 
 1. Verify that the following FedEx credentials are correct:
 
-   * Meter Number
-   * Key
-   * Password
+   - Meter Number
+   - Key
+   - Password
 
 1. Click **Save Config**.
 
@@ -89,15 +88,15 @@ DHL provides international shipping services.
 
 1. Verify that the following credentials are complete:
 
-    * Access ID
-    * Password
-    * Account Number
+    - Access ID
+    - Password
+    - Account Number
 
 1. Click **Save Config**.
 
 ## Step 3 Create Shipping Labels
 
-### Method 1:Create Label for New Shipment
+### Method 1: Create Label for New Shipment
 
 1. On the _Admin_ sidebar, click **Sales**.
 
@@ -117,13 +116,13 @@ DHL provides international shipping services.
 
 1. Add or update products in package:
 
-    * To add products from the order to the package, click **Add Products**. The Quantity column shows the maximum number of products that are available for the package.
+    - To add products from the order to the package, click **Add Products**. The Quantity column shows the maximum number of products that are available for the package.
 
-    * Mark the checkbox of each product to be added to the package, and enter the **Quantity** of each. Then, click **Add Selected Product(s) to Package**.
+    - Mark the checkbox of each product to be added to the package, and enter the **Quantity** of each. Then, click **Add Selected Product(s) to Package**.
 
-    * To add a new package, click **Add Package**.
+    - To add a new package, click **Add Package**.
 
-    * To delete a package, click **Delete Package**.
+    - To delete a package, click **Delete Package**.
 
     {: .bs-callout .bs-callout-info}
     If you use a package type other than the default, or require a signature, the cost of shipping might differ from what you have charged the customer. Any difference in the cost of shipping is not reflected in your store.
@@ -144,11 +143,11 @@ DHL provides international shipping services.
 
 1. Find the order in the grid, and open the Shipping form. Then, do the following:
 
-    * In the Shipping and Tracking Information section, click **Create Shipping Label**.
+    - In the Shipping and Tracking Information section, click **Create Shipping Label**.
 
-    * Distribute the ordered product(s) to the appropriate package(s), and click **OK**.
+    - Distribute the ordered product(s) to the appropriate package(s), and click **OK**.
 
-    * To review the package information, click **Show Packages**.
+    - To review the package information, click **Show Packages**.
 
 ## Step 4: Print the Labels
 
@@ -161,8 +160,9 @@ Because an individual shipment order for each package is created, multiple shipp
 
 1. On the _Admin sidebar_, click **Sales**. Then, do one of the following:
 
-    * Choose **Orders**. Find the order in the grid, and open the record. In the panel on the left, choose **Shipments**. Then, open the shipment record.
-    * Choose **Shipments**. Find the order in the grid, and open the record.
+    - Choose **Orders**. Find the order in the grid, and open the record. In the panel on the left, choose **Shipments**. Then, open the shipment record.
+
+    - Choose **Shipments**. Find the order in the grid, and open the record.
 
 1. To download the PDF file, go to the Shipping and Tracking section of the form, and click **Print Shipping Label**.
 
@@ -176,12 +176,12 @@ Because an individual shipment order for each package is created, multiple shipp
 
 1. Choose one of the following:
 
-    * Orders
-    * Shipments
+    - Orders
+    - Shipments
 
 1. In the grid, mark the checkbox of each order with shipping labels to be printed.
 
-1. Set the **Actions** control to "Print Shipping Labels".
+1. Set the **Actions** control to `Print Shipping Labels`.
 
 1. Click **Submit**.
 
@@ -189,47 +189,12 @@ A complete set of shipping labels is printed for each shipment that is related t
 
 ## Required Carrier Configuration Settings
 
-Type
-: Package types differ by carrier and method. The default package type for each carrier is initially selected.USPS does not require the package type for domestic shipments.
-
-Customs Value
-: (International shipments only) The declared value or sales price of the contents of an international shipment.
-
-Total Weight
-: The total weight of all products added to the package is calculated automatically. The value can also be changed manually, and entered as pounds or kilograms.
-
-Length, Width, Height
-: (Optional) The package dimensions are used for custom packages only. You can specify the measurements units as inches or centimeters.
-
-    Not Required
-    : No confirmation of delivery is sent to the store by the shipping carrier.
-
-    No Signature
-    : A delivery confirmation without the signature of the recipient is sent to the store by the shipping carrier.
-
-    Signature Required
-    : The shipping carrier obtains the signature of the recipient and provides the store with a printed copy.
-
-    Direct
-    : (FedEx Only) FedEx obtains a signature from someone at the delivery address. If no one is available to sign for the package, the carrier tries to deliver the package at another time.
-
-    Indirect
-    : (FedEx Residential Deliveries Only) FedEx obtains the signature of someone, possibly a neighbor or building manager, at the delivery address. The recipient can leave a signed FedEx door tag to authorize the package to be left without anyone present to sign for it.
-
-    Contents
-    : (USPS Only) Select one of the following descriptions of the package: 
-       * Gift
-       * Documents
-       * Commercial Sample
-       * Returned Goods
-       * Merchandise
-       * Other    
-    
-    Explanation
-    : (USPS Only) A detailed description of the package contents.
-
-    Adult Required
-    : The shipping carrier obtains the signature of an adult recipient and provides the store with a printed copy.
+|Field|Description|
+|--- |--- |
+|Type|Package types differ by carrier and method. The default package type for each carrier is initially selected.USPS does not require the package type for domestic shipments.|
+|Customs Value|(International shipments only) The declared value or sales price of the contents of an international shipment.|
+|Total Weight|The total weight of all products added to the package is calculated automatically. The value can also be changed manually, and entered as pounds or kilograms.|
+|Length, Width, Height|(Optional) The package dimensions are used for custom packages only. You can specify the measurements units as inches or centimeters.<br/><br/>**Not Required**: No confirmation of delivery is sent to the store by the shipping carrier.<br/><br/>**No Signature**: A delivery confirmation without the signature of the recipient is sent to the store by the shipping carrier.<br/><br/>**Signature Required**: The shipping carrier obtains the signature of the recipient and provides the store with a printed copy.<br/><br/>**Direct**: (FedEx Only) FedEx obtains a signature from someone at the delivery address. If no one is available to sign for the package, the carrier tries to deliver the package at another time.<br/><br/>**Indirect**: (FedEx Residential Deliveries Only) FedEx obtains the signature of someone, possibly a neighbor or building manager, at the delivery address. The recipient can leave a signed FedEx door tag to authorize the package to be left without anyone present to sign for it.<br/><br/>**Contents**: (USPS Only) Select one of the following descriptions of the package:<br/>- Gift<br/>- Documents<br/>- Commercial Sample<br/>- Returned Goods<br/>- Merchandise<br/>- Other<br/><br/>**Explanation**: (USPS Only) A detailed description of the package contents.<br/><br/>**Adult Required**: The shipping carrier obtains the signature of an adult recipient and provides the store with a printed copy.|
 
 [1]: http://www.fedex.com/us/web-services/index.html
 [2]: http://www.ups.com/?Site=Corporate&amp;cookie=us_en_home&amp;setCookie=yes
