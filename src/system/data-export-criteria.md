@@ -23,8 +23,7 @@ The checkbox in the first column is used to exclude attributes from the export f
 
 |Exclude|Filter|Result|
 |--- |--- |--- |
-|![]({% link link images/images/btn-exclude-unchecked.png %})|No|The exported file contains each attribute for all existing records.|
-|![]({% link link images/images/btn-exclude-unchecked.png %})|Yes|The export file contains each attribute with only the records allowed by the filter.|
-|![]({% link link images/images/btn-exclude-checked.png %})|No|The export file does not include the column for the excluded attribute, but does include all existing records.|
-|![]({% link link images/images/btn-exclude-checked.png %})|Yes|The export file does not include the column for the excluded attribute, and contains only the records allowed by the filter.|
-
+|![]({% link images/images/btn-exclude-unchecked.png %})|No|The exported file contains each attribute for all existing records.|
+|![]({% link images/images/btn-exclude-unchecked.png %})|Yes|The export file contains each attribute with only the records allowed by the filter.|
+|![]({% link images/images/btn-exclude-checked.png %})|No|The export file does not include the column for the excluded attribute, but does include all existing records.|
+|![]({% link images/images/btn-exclude-checked.png %})|Yes|The export file does not include the column for the excluded attribute, and contains only the records allowed by the filter.|
