@@ -32,6 +32,6 @@ _Banners_
 
 1. Update the other banner settings as needed.
 
-    For details about other banner properties, see [Complete the banner properties]({% link cms/banner-create.md#step-1-complete-the-banner-properties %})
+    For details about other banner properties, see [Complete the banner properties]({{ site.baseurl }}{%- link cms/banner-create.md -%}).
 
 1. When complete, click <span class="btn">Save Banner</span>.

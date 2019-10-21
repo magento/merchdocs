@@ -7,4 +7,4 @@ Magento includes a default email template for the body section of each message t
 The default templates include your logo and store information, and can be used without further customization. However as a best practice, you should view each template, and make any necessary changes before they are sent to customers.
 
 ![]({{ site.baseurl }}{%- link images/images/email-template-preview.png -%}){: .zoom}
-*Preview of Welcome Template*
+_Preview of Welcome Template_
