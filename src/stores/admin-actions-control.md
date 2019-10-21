@@ -63,7 +63,7 @@ The checkbox in the first column of the list identifies each record that is a ta
 ||Shipments|PDF Shipments<br/>Print Shipping Labels|
 ||Credit Memos|PDF Credit Memos|
 |**Products**|||
-||Catalog|DeleteChange StatusUpdate Attributes|
+||Catalog|Delete<br/>Change Status<br/>Update Attributes|
 |**Customers**|||
 ||All Customers|Delete<br/>Subscribe to Newsletter<br/>Unsubscribe from Newsletter<br/>Assign a Customer Group<br/>Edit|<!--{%- if "Default.B2B Only" contains site.edition -%}-->
 ||Companies|Set Active<br/>Block<br/>Delete<br/>Edit<br/>Convert Credit|<!--{%- endif -%}-->
