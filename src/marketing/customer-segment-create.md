@@ -11,7 +11,7 @@ _Customer Segments_
 
 ## Step 1. Enable Customer Segments
 
-1. On the _Admin_ sidebar, go to **Stores**  > Settings > **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores**  > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
@@ -35,7 +35,7 @@ _Customer Segments_
    - Enter a **Segment Name** to identify the customer segment when working in the Admin.
    - Enter a brief **Description** that explains the purpose of the segment.
    - Set **Assigned to Website** to the website where the customer segment can be used.
-   - To activate the customer segment, set **Status** to “Active.”
+   - To activate the customer segment, set **Status** to `Active`.
    - To identify the customers that this segment applies to, set **Apply to** to one of the following:
 
      - Visitors and Registered Customers
@@ -53,16 +53,16 @@ _Customer Segments_
 
    The default condition begins, “If ALL of these conditions are TRUE:”.
 
-   ![]({% link images/images-ee/customer-segment-conditions.png %}){: .zoom}
+   ![Customer segment conditions]({% link images/images-ee/customer-segment-conditions.png %}){: .zoom}
    _Conditions_
 
 1. To create a condition that targets the Millennial Generation (born 1981-1996), do the following:
 
-    - Click **Add** (![]({% link images/images/btn-add-grn.png %}) ) to display the list of conditions and select `Date Of Birth`.
+    - Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %}) ) to display the list of conditions and select `Date Of Birth`.
 
     - Click **is** to display the condition control options and select `equals or greater than`.
 
-      ![]({% link images/images-ee/customer-segment-condition-equals-or-greater-than.png %}){: .zoom}
+      ![Condition operator - equals or greater than]({% link images/images-ee/customer-segment-condition-equals-or-greater-than.png %}){: .zoom}
       _Equals or Greater Than_
 
     - Click the default date value and replace it with `1977-01-01`.

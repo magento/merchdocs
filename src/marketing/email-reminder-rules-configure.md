@@ -5,7 +5,7 @@ title: Configuring Email Reminders
 
 Email reminder rules can be sent at regular intervals by the minute, hour, or day. The configuration determines how many emails are sent in a batch, and the store identity that appears as the sender of the message.
 
-## To configure email reminders
+## Configure Email Reminders
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 

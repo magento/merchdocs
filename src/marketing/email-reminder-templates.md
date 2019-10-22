@@ -8,7 +8,7 @@ The default email reminder template can be customized, and additional templates 
 ![Email reminder preview]({% link images/images-ee/email-reminder-preview-promotion-template.png %}){: .zoom}
 _Preview of Promotion Reminder_
 
-## Customize an email reminder template
+## Customize an Email Reminder Template
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Communications_ > **Email Templates**.
 

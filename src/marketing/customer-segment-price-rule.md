@@ -6,10 +6,10 @@ group: customers
 
 A customer segment can be targeted by associating it with a [cart price rule]({% link marketing/price-rules-cart.md %}) and [banner]({% link marketing/customer-segment-banner.md %}).
 
-![]({% link images/images-ee/price-rule-cart-condition-segments.png %}){: .zoom}
+![Cart price rule - targeted customer segment]({% link images/images-ee/price-rule-cart-condition-segments.png %}){: .zoom}
 _Targeted Customer Segment_
 
-## Target a segment with a cart price rule
+## Target a Segment with a Cart Price Rule
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Cart Price Rules**.
 
@@ -24,7 +24,7 @@ _Targeted Customer Segment_
 
     - Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %}) ) to display the list of conditions. Then, choose **Customer Segment**.
 
-      ![]({% link images/images/price-rule-cart-condition-customer-segment.png %}){: .zoom}
+      ![Cart price rule - add customer segment condition]({% link images/images/price-rule-cart-condition-customer-segment.png %}){: .zoom}
       _Customer Segment_
 
     - By default, the condition is set to find a matching condition. If needed, click the **matches** link and change the operator to one of the following:
@@ -38,7 +38,7 @@ _Targeted Customer Segment_
 
     - To target a specific segment, click the More ( **…** ) link to display additional options. Then, click the **Chooser** ( ![Chooser icon]({% link images/images/icon-chooser.png %}) ) to display the list of customer segments.
 
-      ![]({% link images/images/price-rule-cart-condition-chooser.png %}){: .zoom}
+      ![Cart price rule - condition chooser]({% link images/images/price-rule-cart-condition-chooser.png %}){: .zoom}
       _Chooser_
 
     - In the list, select the checkbox of each segment that you want to target with the condition.

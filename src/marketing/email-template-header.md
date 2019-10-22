@@ -74,7 +74,7 @@ _Email Templates_
 
 ## Field Descriptions
 
-## Load Default Template
+### Load Default Template
 
 |Template|Lists the selection of available templates and identifies the template to be customized.|
 

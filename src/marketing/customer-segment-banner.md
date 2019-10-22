@@ -12,9 +12,9 @@ A [banner]({% link cms/banners.md %}) can target a specific [customer segment]({
 ![Banners list]({% link images/images-ee/banners-list.png %}){: .zoom}
 _Banners_
 
-## Associate a customer segment with a banner
+## Associate a Customer Segment with a Banner
 
-1. On the _Admin_ sidebar, go to **Content** > Elements > **Banners**.
+1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Banners**.
 
 1. Open a new or existing banner:
     - To use a new banner, click <span class="btn">Add Banner</span> in the upper-right corner.

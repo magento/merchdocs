@@ -63,7 +63,7 @@ _Email Templates_
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-![Transactional email design configuration - footer template]({% link images/images/config-design-transactional-emails.png %}){: .zoom} 
+![Transactional email design configuration - footer template]({% link images/images/config-design-transactional-emails.png %}){: .zoom}
 [_Transactional Emails_]({%- link design/configuration.md -%})
 
 ## Field Descriptions
@@ -72,7 +72,7 @@ _Email Templates_
 
 |Template|Lists the selection of available templates and identifies the template to be customized.|
 
-## Template Information
+### Template Information
 
 |Template Name|The name of your custom template.|
 |Insert Variable|Inserts a Store Contact Information variable into the template at the cursor location.|

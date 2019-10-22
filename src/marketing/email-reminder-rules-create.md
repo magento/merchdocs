@@ -8,7 +8,7 @@ Before setting up an email reminder rule, you must first set up a cart price rul
 {: .bs-callout .bs-callout-info}
 Email reminders might promote a cart price rule with, or without, a coupon. A cart price rule that defines an auto-generated coupon generates a random coupon code for each customer.
 
-## Create an email reminder
+## Create an Email Reminder
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Communications_ > **Email Reminder Rules**.
 
@@ -36,7 +36,7 @@ Email reminders might promote a cart price rule with, or without, a coupon. A ca
 
     - To send the reminder more than once, enter the number of days before the next email blast in the **Repeat Schedule** field.
 
-1. In the panel on the left, choose **Conditions**. At least one condition must be defined for the rule. The process is similar to building a [catalog price rule.]({%- link marketing/price-rules-catalog.md -%})
+1. In the panel on the left, choose **Conditions**. At least one condition must be defined for the rule. The process is similar to building a [catalog price rule.]({% link marketing/price-rules-catalog.md %})
 
 1. In the left panel, choose **Conditions**.
 
@@ -84,7 +84,7 @@ Email reminders might promote a cart price rule with, or without, a coupon. A ca
         ![Titles and descriptions - store view]({% link images/images-ee/email-reminder-rules-title-descriptions-per-store-view.png %}){: .zoom}
         _Titles and Description per Store View_
 
-1. When complete, tap <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span>.
 
 ## Trigger Conditions
 

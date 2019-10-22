@@ -30,14 +30,12 @@ _Email a Friend_
 
     - Set **Limit Sending By** to one of the following methods to identify the sender of emails:
 
-        |||
-        |--|--|
         | IP Address | (Recommended) Identifies the sender by the IP address of the computer that is used to send the emails. |
         | Cookie (unsafe) | Identifies the sender by browser cookie. This method is less effective because the sender can delete the cookie to bypass the limit. |
 
 1. When complete, click <span class="btn"> Save Config</span>.
 
-## Send email to a friend
+## Send Email to a Friend
 
 When this feature is configured, store customers follow these steps to share product information with friends.
 
@@ -56,5 +54,5 @@ When this feature is configured, store customers follow these steps to share pro
 
 1. When ready to send the message, click <span class="btn">Send Email</span>.
 
-    ![]({% link images/images/storefront-email-a-friend-form.png %}){: .zoom}
+    ![Example storefront - email to a friend]({% link images/images/storefront-email-a-friend-form.png %}){: .zoom}
     _Email a Friend Form_
