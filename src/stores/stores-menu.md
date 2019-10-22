@@ -28,6 +28,6 @@ sections:
 
 The _Stores_ menu manages settings that are used less frequently, but referenced throughout your Magento installation, including setting up the store hierarchy, configuration, sales and order settings, tax and currency, product attributes, product review ratings, and customer groups.
 
-The Stores menu is on the _Admin_ sidebar, click **Stores**.
+To access the Stores menu, click **Stores** on the _Admin_ sidebar.
 
 {% include grid.html sections=page.sections %}

@@ -6,4 +6,4 @@ When Magento is installed, a hierarchy that includes a main website, store, and 
 
 Before you begin, plan your store hierarchy in advance because it is referred to throughout the configuration. Each store can have a separate [root category]({% link catalog/category-root.md %}), which makes it possible to have an entirely different set of main menu options for each store.
 
-![]({% link images/images/scope-multisite.png %}){:width="550px"}
+![Scope diagram]({% link images/images/scope-multisite.png %}){:width="550px"}
