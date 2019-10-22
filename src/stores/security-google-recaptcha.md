@@ -117,5 +117,11 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
 1. When complete, click <span class="btn">Save Config</span>.
 
+## Step 3: Check/update PHP configuration
+This feature will only work correctly, if `allow_url_fopen` is enabled in the PHP configuration!
+Make sure to check and enable this setting before enabling Google reCAPTCHA. Otherwise won't be able to log in (for example) and see an error in your log files:
+
+`[2019-10-22 13:05:37] main.ERROR: Warning: file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in vendor/google/recaptcha/src/ReCaptcha/RequestMethod/Post.php on line 80 [] []`
+
 [1]: https://www.google.com/recaptcha/intro/v3beta.html
 [2]: https://www.google.com/recaptcha/admin
