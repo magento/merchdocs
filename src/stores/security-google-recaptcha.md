@@ -19,7 +19,23 @@ If you have the standard [Magento CAPTCHA]({% link stores/security-captcha.md %}
 ![Google reCAPTCHA - styles]({% link images/images/recaptcha-styles.png %}){: .zoom}
 _Google reCAPTCHA Styles_
 
-## Step 1: Generate Google reCAPTCHA keys
+## Step 1: Modify your PHP configuration file
+
+Depending on your environment configuration, you may need to modify your PHP configuration file. We recommend making this change before enabling Google reCAPTCHA. 
+
+{:.bs-callout .bs-callout-info}
+If you are unfamiliar with your configuration settings, you may want to contact a developer for help making these changes. Refer to [PHP Settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html){: target="_blank"}.
+
+1. Locate and open your `PHP.ini` file.
+
+2. Set `allow_url_fopen = 1`.
+
+3. Save and close the file.
+
+{:.bs-callout .bs-callout-warning}
+If this change is not made and you enable Google reCAPTCHA, you may be unable to log in, or you may see an error in your log files similar to the following example:<br/><br/>`[2019-10-22 13:05:37] main.ERROR: Warning: file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in vendor/google/recaptcha/src/ReCaptcha/RequestMethod/Post.php on line 80 [] []`
+
+## Step 2: Generate Google reCAPTCHA keys
 
 Google reCAPTCHA requires a pair of API keys to enable. You can get these keys free of charge through the [reCAPTCHA site][2]. Before generating the keys, consider the type of reCAPTCHA you want to use.
 
@@ -56,7 +72,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
     ![Google reCAPTCHA - keys]({% link images/images/recaptcha-keys.png %})
 
-## Step 2: Configure Google reCAPTCHA in Magento
+## Step 3: Configure Google reCAPTCHA in Magento
 
 1. Sign in to the Admin of your Magento store.
 
@@ -116,12 +132,6 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
       - **Use in PayPal PayflowPro payment form**
 
 1. When complete, click <span class="btn">Save Config</span>.
-
-## Step 3: Check/update PHP configuration
-This feature will only work correctly, if `allow_url_fopen` is enabled in the PHP configuration!
-Make sure to check and enable this setting before enabling Google reCAPTCHA. Otherwise won't be able to log in (for example) and see an error in your log files:
-
-`[2019-10-22 13:05:37] main.ERROR: Warning: file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in vendor/google/recaptcha/src/ReCaptcha/RequestMethod/Post.php on line 80 [] []`
 
 [1]: https://www.google.com/recaptcha/intro/v3beta.html
 [2]: https://www.google.com/recaptcha/admin
