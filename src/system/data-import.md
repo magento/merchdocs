@@ -89,10 +89,13 @@ _Import_
 
 1. In the **Images File Directory** field, enter the relative path to the location on the Magento server where uploaded images are stored. For example: `var/import`.
 
-    To learn more about importing product images, see [Importing Product Images]({% link system/data-import-product-images.md %}).
+   {: .bs-callout-info }
+   Since Magento `2.3.2` version a path specified in the **Images File Directory** will be concatenating to import images base directory - `<Magento root folder>/var/import/images`. For example, in case `var/import` files should be placed into `<Magento root directory>/var/import/images/var/import` folder.
+   
+   To learn more about importing product images, see [Importing Product Images]({% link system/data-import-product-images.md %}).
 
-    ![]({% link images/images/data-import-file-to-import.png %}){: .zoom} 
-    _File to Import_
+   ![]({% link images/images/data-import-file-to-import.png %}){: .zoom} 
+   _File to Import_
 
 ## Step 4: Check the Import Data
 
