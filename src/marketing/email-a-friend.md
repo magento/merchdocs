@@ -2,12 +2,12 @@
 title: Email a Friend
 ---
 
-The Email a Friend link makes it easy for your customers to share links to products with their friends. In the Magento demo store, the Email a Friend link appears as an envelope icon. The message template can be customized for your voice and brand. To prevent spamming, you can limit the number of recipients for each email, and the number of products that can be shared over a one-hour period.
+The Email link makes it easy for your customers to share links to products with their friends. In the Magento demo store, the Email link appears as an envelope icon. The message template can be customized for your voice and brand. To prevent spamming, you can limit the number of recipients for each email, and the number of products that can be shared over a one-hour period.
 
 ![Example storefront - email a friend]({% link images/images/storefront-email-a-friend.png %}){: .zoom}
 _Email a Friend_
 
-## Configure Email a Friend
+## Configure Email to a Friend
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -17,6 +17,8 @@ _Email a Friend_
 
     ![Catalog configuration - email templates]({% link images/images/config-catalog-email-to-a-friend-email-templates.png %}){: .zoom}
     [_Email Templates_]({% link configuration/catalog/email-to-a-friend.md %})
+
+    To change the default setting of any field, clear the **Use system value** checkbox to make the field editable.
 
     - Set **Enabled** to `Yes`.
 
@@ -35,11 +37,11 @@ _Email a Friend_
 
 1. When complete, click <span class="btn"> Save Config</span>.
 
-## Send Email to a Friend
+## Send Email to a Friend on the Storefront
 
 When this feature is configured, store customers follow these steps to share product information with friends.
 
-1. On a catalog page, click the **Email a Friend** link. Then, do one of the following:
+1. On a catalog page, click the **Email** link. Then, do one of the following:
 
    - Log in to your customer account.
    - Sign up for a new account.
@@ -55,4 +57,4 @@ When this feature is configured, store customers follow these steps to share pro
 1. When ready to send the message, click <span class="btn">Send Email</span>.
 
     ![Example storefront - email to a friend]({% link images/images/storefront-email-a-friend-form.png %}){: .zoom}
-    _Email a Friend Form_
+    _Email to a Friend Form_

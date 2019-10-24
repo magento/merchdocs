@@ -28,7 +28,7 @@ _Manage Catalog Events_
 
     - For the **Start Date** of the event, use the calendar (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the date. Then, use the **Hour** and **Minute** sliders to set the time the event begins.
 
-    - For the **End Date**of the event, use the calendar (![]({% link images/images/btn-calendar.png %})) to choose the date. Then, use the **Hour** and **Minute** sliders to set the time the event ends.
+    - For the **End Date** of the event, use the calendar (![]({% link images/images/btn-calendar.png %})) to choose the date. Then, use the **Hour** and **Minute** sliders to set the time the event ends.
 
     - To upload an **Image** for the event widget, click <span class="btn">Choose File</span>. Then, select the image file from your directory.
 
