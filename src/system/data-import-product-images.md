@@ -23,7 +23,7 @@ We recommend that you use a program that supports UTF-8 encoding to edit CSV fil
     ```
 
     {: .bs-callout-info }
-    Since Magento `2.3.2` version a path specified in the **Images File Directory** will be concatenating to import images base directory - `<Magento root folder>/var/import/images`. On early Magento versions you can use a different folder on the Magento server, as long as the path to the folder is specified during the import process.
+    Starting with the Magento `2.3.2` release, the path specified in the **Images File Directory** concatenates for import to the images base directory - `<Magento root folder>/var/import/images`. For earlier Magento releases, you can use a different folder on the Magento server, as long as the path to the folder is specified during the import process.
 
 1.  In the CSV data, enter the name of each image file to be imported on the correct row, by `sku`, and in the correct column according to image type (`base_image`, `small_image`, `thumbnail_image`, or `additional_images`).
 
@@ -42,7 +42,7 @@ We recommend that you use a program that supports UTF-8 encoding to edit CSV fil
     ```
 
     {:.bs-callout-tip}
-    Leave **Images File Directory** empty if you running import on Magento `2.3.2`/`2.3.2-p2`/`2.3.3` versions and files were uploaded into import images base directory - `<Magento root folder>/var/import/images`.
+    Leave the **Images File Directory** empty if you are running the import on Magento `2.3.2`/`2.3.2-p2`/`2.3.3` versions and files were uploaded into import images base directory - `<Magento root folder>/var/import/images`.
 
     ![]({% link images/images/data-import-images-file-to-import.png %}){: .zoom}
     _Images File Directory_
