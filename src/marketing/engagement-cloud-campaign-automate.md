@@ -6,97 +6,99 @@ redirect_from:
 
 Engagement Cloud includes three prepared automation templates, plus a blank template that you can use to create custom programs. When setting up an automated campaign, you can use existing campaigns, or create placeholders for new ones. This example uses a prepared template to create a simple Welcome campaign with a follow-up message that is sent a week later.
 
-![]({% link images/images/engagement-cloud-automation-choose-template.png %}){: .zoom}
-*Choose a Template*
+![Engagement Cloud - choose automation template]({% link images/images/engagement-cloud-automation-choose-template.png %}){: .zoom}
+_Choose a Template_
 
 ## Step 1: Create a New Program
 
-1. On the Engagement Cloud main menu, choose **Automation**. Then above the list of campaigns, tap <span class="btn">New program</span>.
+1. On the Engagement Cloud main menu, choose **Automation**. Then above the list of campaigns, click <span class="btn">New program</span>.
 
-    ![]({% link images/images/engagement-cloud-automation-my-programs.png %}){: .zoom}
-    *My Programs*
+    ![Engagement Cloud - new program]({% link images/images/engagement-cloud-automation-my-programs.png %}){: .zoom}
+    _My Programs_
 
-1. In the **Get started** section of templates, hover over the **Welcome program** template, and tap <span class="btn">Select</span>. Then, do the following:
+1. In the **Get started** section of templates, hover over the **Welcome program** template, and click <span class="btn">Select</span>. Then, do the following:
 
-    ![]({% link images/images/engagement-cloud-automation-welcome-select.png %}){: .zoom}
-    *Select Welcome Template*
+    ![Engagement Cloud - welcome template]({% link images/images/engagement-cloud-automation-welcome-select.png %}){: .zoom}
+    _Select Welcome Template_
 
-1. When prompted, enter the **Program name**. For now, you can accept the Programs folder location. Then, tap <span class="btn">Continue</span>.
+1. When prompted, enter the **Program name**. For now, you can accept the Programs folder location. Then, click <span class="btn">Continue</span>.
 
-    ![]({% link images/images/engagement-cloud-automation-program-name.png %}){: .zoom}
-    *Program Name*
+    ![Engagement Cloud - program name]({% link images/images/engagement-cloud-automation-program-name.png %}){: .zoom}
+    _Program Name_
 
     The Edit program workspace includes a flowchart of the program logic. Each box in the diagram is a node. The panel on the left has a selection of nodes that can be added to the program. You can create sophisticated automated processes using these simple building blocks.
 
-    ![]({% link images/images/engagement-cloud-automation-welcome-program-flowchart.png %}){: .zoom}
-    *Welcome Program*
+    ![Engagement Cloud - new welcome program]({% link images/images/engagement-cloud-automation-welcome-program-flowchart.png %}){: .zoom}
+    _Welcome Program_
 
 ## Step 2: Complete the Start Options
 
-1. In the flowchart **Start** node. click the “Create a start condition” text box.
+1. In the flowchart **Start** node, click the **Create a start condition** text box.
 
-    The panel on the left provides an overview of the process, and walks you through each step.
+    The panel on the right provides an overview of the process and walks you through each step.
 
-    ![]({% link images/images/engagement-cloud-automation-welcome-program-start.png %}){: .zoom}
-    *Start*
+    ![Engagement Cloud - program end node]({% link images/images/engagement-cloud-automation-welcome-program-start.png %}){: .zoom}
+    _Start_
 
-1. Under **1. Enrollment scheduling**, tap <span class="btn">Set schedule</span>.
+1. Under **1. Enrolment scheduling**, click <span class="btn">Set schedule</span>.
 
     By default, the Welcome program is scheduled to run **Daily** at **12:00 PM**.
 
-    * For this example, accept the default scheduling. Then, tap <span class="btn">Apply</span>.
+1. For this example, accept the default scheduling and click <span class="btn">Apply</span>.
 
-        The text in the Start node is updated with the schedule.
+    The text in the Start node is updated with the schedule.
 
-        ![]({% link images/images/engagement-cloud-automation-welcome-program-trigger-from-date-field.png %}){: .zoom}
-        *Enrollment Scheduling*
+      ![Engagement Cloud - enrolment scheduling]({% link images/images/engagement-cloud-automation-welcome-program-trigger-from-date-field.png %}){: .zoom}
+      _Enrolment Scheduling_
 
-1. Under **2. Enrollment rule**, tap <span class="btn">Set rule</span>.
+1. Under **2. Enrollment rule**, click <span class="btn">Set rule</span>.
 
-    The options describe the event that triggers the rule. For this program, the welcome email campaign will be triggered whenever a new account is created. Complete the trigger description as follows:
+    The options describe the event that triggers the rule. For this program, the welcome email campaign will be triggered whenever a new account is created.
 
-    ![]({% link images/images/engagement-cloud-automation-welcome-program-trigger-from-date-field.png %}){: .zoom}
-    *Trigger from Date*
+1. Complete the trigger description as follows:
 
-    * Under “Select start rule type,” accept **Trigger from contact date field**. Tap <span class="btn">Select date field</span>. Then, choose **Contact date** as the field that triggers the rule.
+    ![Engagement Cloud - program trigger]({% link images/images/engagement-cloud-automation-welcome-program-trigger-from-date-field.png %}){: .zoom}
+    _Trigger from Date_
 
-    * Accept “0” for the number of **days** to wait **after** the contact date, for the rule to go into effect. Then, select the date field that contains the value that triggers the rule.
+    - Under _Select start rule type_, accept **Trigger from contact date field**, click <span class="btn">Select date field</span>, and choose **Contact date** as the field that triggers the rule.
+
+    - Accept `0` for the number of **days** to wait **after** the contact date for the rule to go into effect. Then, select the date field that contains the value that triggers the rule.
 
         In this example, the field is `ACCOUNT_CREATED_DATE`.
 
-    * When complete, tap <span class="btn">Apply</span>.
+    - When complete, click <span class="btn">Apply</span>.
 
-    ![]({% link images/images/engagement-cloud-automation-welcome-program-start-trigger-from-date.png %}){: .zoom}
-    *Trigger from Date Field*
+    ![Engagement Cloud - program start trigger from date]({% link images/images/engagement-cloud-automation-welcome-program-start-trigger-from-date.png %}){: .zoom}
+    _Trigger from Date Field_
 
-1. Under **3. Enrollment limits**, tap <span class="btn">Set enrolment limits</span>. Then, do the following:
+1. Under **3. Enrollment limits**, click <span class="btn">Set enrolment limits</span>. Then, do the following:
 
-    * For this program, accept the default option to **re-enroll contacts every day they meet the start criteria**. Then, tap <span class="btn">Apply</span>.
+    - For this program, accept the default option to **re-enroll contacts every day they meet the start criteria**. Then, click <span class="btn">Apply</span>.
 
         This option ensures that every person who signs up for a new account will be included in the next scheduled mailing.
 
-    * Review the options in the **Start** panel. Then, tap <span class="btn">Apply</span>.
+    - Review the options in the **Start** panel. Then, click <span class="btn">Apply</span>.
 
-    ![]({% link images/images/engagement-cloud-automation-welcome-program-start-enrolment-limits.png %}){: .zoom}
-    *Enrolment Limits*
+    ![Engagement Cloud - enrolment limits]({% link images/images/engagement-cloud-automation-welcome-program-start-enrolment-limits.png %}){: .zoom}
+    _Enrolment Limits_
 
 ## Step 3: Choose the Campaign
 
 Automated programs send triggered campaigns. You can either choose an existing campaign that is set up to be triggered by a rule, or create a placeholder for a new campaign.
 
-1. In the flowchart, click the **Campaign** node. Then, tap <span class="btn">Create campaign</span>.
+1. In the flowchart, click the **Campaign** node. Then, click <span class="btn">Create campaign</span>.
 
-    ![]({% link images/images/engagement-cloud-automation-welcome-program-campaign.png %}){: .zoom}
-    *Send Campaign*
+    ![Engagement Cloud - send campaign]({% link images/images/engagement-cloud-automation-welcome-program-campaign.png %}){: .zoom}
+    _Send Campaign_
 
-1. Enter the **Campaign name**, and accept the default **Campaigns location**.
+1. Enter the **Campaign name** and accept the default **Campaigns location**.
 
-1. Tap <span class="btn">Create</span>.
+1. Click <span class="btn">Create</span>.
 
-    ![]({% link images/images/engagement-cloud-automation-welcome-program-triggered-campaign.png %}){: .zoom}
-    *Create Campaign*
+    ![Engagement Cloud - create campaign]({% link images/images/engagement-cloud-automation-welcome-program-triggered-campaign.png %}){: .zoom}
+    _Create Campaign_
 
-1. Tap <span class="btn">Apply</span>.
+1. Click <span class="btn">Apply</span>.
 
 The name of the new campaign appears in the Campaign box.
 
@@ -106,10 +108,10 @@ You can add a delay to the program to wait a number of days, or until a specific
 
 1. In the flowchart, click the **Delay** node.
 
-1. Accept the default **Wait** period of **7** days. Then, tap <span class="btn">Apply</span>.
+1. Accept the default **Wait** period of **7** days. Then, click <span class="btn">Apply</span>.
 
-    ![]({% link images/images/engagement-cloud-automation-welcome-program-delay.png %}){: .zoom}
-    *Delay*
+    ![Engagement Cloud - program delay]({% link images/images/engagement-cloud-automation-welcome-program-delay.png %}){: .zoom}
+    _Delay_
 
 ## Step 5: Create a Follow-Up Campaign
 
@@ -117,12 +119,12 @@ You can add a delay to the program to wait a number of days, or until a specific
 
 1. Enter the **Campaign name**, and accept the **Campaigns** folder as the default **Campaigns location**.
 
-1. Tap <span class="btn">Create</span>. Then, tap <span class="btn">Apply</span>.
+1. Click <span class="btn">Create</span>. Then, click <span class="btn">Apply</span>.
 
     Your follow-up campaign is added to the workflow.
 
-    ![]({% link images/images/engagement-cloud-automation-welcome-program-follow-up.png %}){: .zoom}
-    *Follow-up Campaign*
+    ![Engagement Cloud - follow up campaign]({% link images/images/engagement-cloud-automation-welcome-program-follow-up.png %}){: .zoom}
+    _Follow-up Campaign_
 
 ## Step 6: Define the End of the Program
 
@@ -132,18 +134,18 @@ All programs have defined starting and end points.
 
 1. For this example, you can accept the default name of the end point.
 
-1. Tap <span class="btn">Apply</span>.
+1. Click <span class="btn">Apply</span>.
 
-    ![]({% link images/images/engagement-cloud-automation-welcome-program-end.png %}){: .zoom}
-    *End Node*
+    ![Engagement Cloud - program end node]({% link images/images/engagement-cloud-automation-welcome-program-end.png %}){: .zoom}
+    _End Node_
 
 ## Step 7: Edit Your Campaign
 
-If you added placeholders for new campaigns, you still need to complete the definition of each campaign. However, if you used existing campaigns, your Welcome program is good to go!
+If you added placeholders for new campaigns, you still need to complete the definition of each campaign. However, if you used existing campaigns, your Welcome program is ready.
 
 1. On the **Automation** menu, choose **Triggered campaign content**.
 
-1. Find the campaign in the list, and click **Edit**( ![]({% link images/images/btn-dotmailer-edit.png %})).
+1. Find the campaign in the list and click **Edit** ( ![Edit icon]({% link images/images/btn-dotmailer-edit.png %})).
 
-    ![]({% link images/images/engagement-cloud-automation-my-campaigns.png %}){: .zoom}
-    *My Campaigns*
+    ![Engagement Cloud - my campaigns]({% link images/images/engagement-cloud-automation-my-campaigns.png %}){: .zoom}
+    _My Campaigns_
