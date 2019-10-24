@@ -5,14 +5,14 @@ redirect_from:
   - /marketing/email-marketing-automation-studio.html 
 ---
 
-Engagement Cloud, powered by [dotdigital][1], gives you the ability to produce professional, personalized communications and reports using data from your Magento store, including:
+Engagement Cloud, powered by [dotdigital][1], gives you the ability to produce professional, personalized communications and generated reports using data from your Magento store, including:
 
-- Create customized email communications
+- Customized email communications
 - Import contacts
 - Schedule campaigns
-- Create rules to add logic
-- Automate your campaigns
-- [Generate reports]({% link reports/customer-engagement.md -%})
+- Rules to add logic
+- Automation for your campaigns
+- [Generated reports]({% link reports/customer-engagement.md -%})
 
 ## Changes in the Latest Release
 

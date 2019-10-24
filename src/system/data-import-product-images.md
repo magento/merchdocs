@@ -16,29 +16,33 @@ We recommend that you use a program that supports UTF-8 encoding to edit CSV fil
 
 ## Method 1: Import Images from the Local Server
 
-1.  On the Magento server, upload the image files to the `pub/media/import` folder. This is the default folder for importing product images.
+1.  On the Magento server, upload the image files to the `var/import/images` folder. This is the default folder for importing product images.
 
     ```
-    magento installation folder]/pub/media/import
+    <Magento root folder>/var/import/images
     ```
 
-    You can use a different folder on the Magento server, as long as the path to the folder is specified during the import process.
+    {: .bs-callout-info }
+    Starting with the Magento `2.3.2` release, the path specified in the **Images File Directory** concatenates for import to the images base directory - `<Magento root folder>/var/import/images`. For earlier Magento releases, you can use a different folder on the Magento server, as long as the path to the folder is specified during the import process.
 
 1.  In the CSV data, enter the name of each image file to be imported on the correct row, by `sku`, and in the correct column according to image type (`base_image`, `small_image`, `thumbnail_image`, or `additional_images`).
 
     {:.bs-callout-info}
-    For images in the default import folder(/pub/media/import), do not include the path before the filename in the CSV data.
+    For images in the default import folder(`var/import/images`), do not include the path before the filename in the CSV data.
 
     The CSV file must include only the `sku` column and the related image columns. ![]({% link images/images/data-import-csv-image-files-default-local.png %}){: .zoom}
     _CSV Import Image from Default Location_
 
 1.  Follow the instructions to [import]({% link system/data-import.md %}) the data.
 
-    After selecting the file to import, enter the relative path following **Images File Directory**:
+1.  After selecting the file to import, enter the relative path following **Images File Directory**:
 
     ```
-    /pub/media/import
+    var/import/images
     ```
+
+    {:.bs-callout-tip}
+    Leave the **Images File Directory** empty if you are running the import on Magento `2.3.2`/`2.3.2-p2`/`2.3.3` versions and files were uploaded into import images base directory - `<Magento root folder>/var/import/images`.
 
     ![]({% link images/images/data-import-images-file-to-import.png %}){: .zoom}
     _Images File Directory_
