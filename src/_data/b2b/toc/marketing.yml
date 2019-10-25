@@ -387,7 +387,7 @@ pages:
       url: "/marketing/gift-registry-configure.html"
     - label: Gift Registry Search
       url: "/marketing/gift-registry-search.html"
-  - label: Rewards & Loyalty
+  - label: Rewards and Loyalty
     url: "/marketing/rewards-loyalty.html"
     children:
     - label: Configuring Reward Points
