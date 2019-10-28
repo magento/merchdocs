@@ -6,25 +6,27 @@ Customers can manage and monitor their own information and activities from their
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({{ site.baseurl }}{% link images/images/customer-account-dashboard.png %}){: .zoom}
+_Account Dashboard_
 <!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
 ![]({{ site.baseurl }}{% link images/images-ee/customer-account-dashboard.png %}){: .zoom}
+_Account Dashboard_
 <!--{% endif %}-->
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 ![]({{ site.baseurl }}{% link images/images-b2b/customer-account-dashboard.png %}){: .zoom}
-<!--{% endif %}-->
-_{% if "Default.B2B Only" contains site.edition %}Individual {% endif %}Account Dashboard_
-<!--{% if "Default.B2B Only" contains site.edition %}-->
+_Individual Account Dashboard_
+
 ![]({{ site.baseurl }}{% link images/images-b2b/company-admin-account-dashboard.png %}){: .zoom}
-<!--{% endif %}-->
 _Company Account Dashboard_
+<!--{% endif %}-->
 
 | Section   | Description  |
 |-----------|---------- ---|
 | [My Account]({{ site.baseurl }}{% link customers/account-dashboard-my-account.md %})| Displays summary information for your account, including contact information, default addresses from your address book, and recent orders. |<!--{% if "Default.B2B Only" contains site.edition %}-->
 | [My Quotes]({{ site.baseurl }}{% link customers/account-dashboard-quotes.md %})| (Companies Only) Lists all quotes submitted by the customer, with a link to detailed information. |<!--{% endif %}-->
-| [My Orders]({{ site.baseurl }}{% link customers/account-dashboard-my-orders.md %})| Displays a list of all customer orders, with a link to each. If enabled in the configuration, any order can be reordered by simply clicking the Reorder link. |<!--{% if "Default.EE-B2B" contains site.edition %}-->
-| [Order by SKU]({{ site.baseurl }}{% link customers/account-dashboard-order-by-sku.md %}) | Gives you the ability to add individual items to the cart by SKU or to import a list of products to be ordered from a CSV file. |<!--{% endif %}-->
+| [My Orders]({{ site.baseurl }}{% link customers/account-dashboard-my-orders.md %})| Displays a list of all customer orders, with a link to each. If enabled in the configuration, any order can be reordered by simply clicking the Reorder link. |<!--{% if "Default.EE  Only" contains site.edition %}-->
+| [Order by SKU]({{ site.baseurl }}{% link customers/account-dashboard-order-by-sku.md %}) | Gives you the ability to add individual items to the cart by SKU or to import a list of products to be ordered from a CSV file. |<!--{% endif %}--><!--{% if "Default.B2B  Only" contains site.edition %}-->
+| Order by SKU| See [Quick Order]({{ site.baseurl }}{% link sales/quick-order.md %}) . |<!--{% endif %}-->
 | [My Downloadable Products]({{ site.baseurl }}{% link customers/account-dashboard-my-downloadable-products.md %}) | Lists all downloadable products the customer has purchased, with a link to each.  |<!--{% if "Default.B2B Only" contains site.edition %}-->
 | [My Requisition Lists]({{ site.baseurl }}{% link customers/account-dashboard-requisition-lists.md %})  | (Companies Only) Maintains all requisition lists created by the customer.  |<!--{% endif %}-->
 | [My Wish List]({{ site.baseurl }}{% link customers/account-dashboard-my-wish-list.md %})  | Manage your wish lists, and place orders from wish list items. |

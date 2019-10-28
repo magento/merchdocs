@@ -25,7 +25,7 @@ _Company Structure with Teams_
 
       The Team Title can be anything that represents the structure of the company, such as a team, office, or division within the company
 
-      ![]({{ site.baseurl }}{% link images/images-b2b/company-structure-add-team.png %}){: .zoom}
+      ![]({{ site.baseurl }}{% link images/images-b2b/company-structure-tree-admin-user.png %}){: .zoom}
       _Add Team_
 
    - When complete, click <span class="btn">Save</span>.

@@ -44,7 +44,7 @@ Products can be added to a requisition list from product pages in the storefront
       - Choose an existing requisition list.
       - Create a new requisition list.
 
-        ![]({{ site.baseurl }}{% link images/images-b2b/product-detail-requisition-list.png %}){: .zoom}
+        ![]({{ site.baseurl }}{% link images/images-b2b/customer-account-requisition-list-product-detail.png %}){: .zoom}
         _Add to Requisition List_
 
   **Method 2:** From an Existing Order

@@ -19,6 +19,6 @@ Custom Catalogs and Price Lists
 : Maintain different “shared” [catalogs with custom pricing]({{ site.baseurl }}{% link catalog/catalog-shared.md %}) for specific companies.
 
 Bulk Orders
-:  Create [bulk pricing tiers]({{ site.baseurl }}{% link customers/account-dashboard-order-by-sku.md %}) with per-unit costs and discounts according to order size. Buyers can [reorder]({{ site.baseurl }}{% link customers/account-dashboard-my-orders.md %}) from previous orders or upload order data directly to the shopping cart.
+:  Create [bulk pricing tiers]({{ site.baseurl }}{% link sales/quick-order.md %}) with per-unit costs and discounts according to order size. Buyers can [reorder]({{ site.baseurl }}{% link customers/account-dashboard-my-orders.md %}) from previous orders or upload order data directly to the shopping cart.
 
 [1]: https://magento.com/products/order-management
