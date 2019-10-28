@@ -4,9 +4,9 @@ title: Category Rewrites
 
 If a category is removed from your catalog, you can use a category rewrite to redirect links to the URL of another category in your store. Think in terms of _target_ / _original request_  or _redirect to_ / _redirect from_. Although people might still navigate to the former page from search engines or outdated links, the redirect causes your store to switch to the new target.
 
-If [automatic redirects]({% link marketing/url-redirect-product-automatic.md -%}) are enabled for your store, there is no need to create a rewrite when a category [URL Key]({% link catalog/catalog-urls.md -%}) is changed.
+If [automatic redirects]({% link marketing/url-redirect-product-automatic.md %}) are enabled for your store, there is no need to create a rewrite when a category [URL Key]({% link catalog/catalog-urls.md %}) is changed.
 
-![]({% link images/images/url-rewrite-for-category.png %}){: .zoom}
+![Add URL rewrite for category]({% link images/images/url-rewrite-for-category.png %}){: .zoom}
 _URL Rewrite for Category_
 
 {% include url-rewrite-skip.md %}
@@ -24,7 +24,7 @@ If you are not sure, open each category page in your store, and copy the path fr
 
 ## Step 2. Create the Rewrite
 
-1. On the Admin sidebar, go to **Marketing** > _SEO & Search_ > **URL Rewrites**.
+1. On the _Admin_ sidebar, go to **Marketing** > _SEO & Search_ > **URL Rewrites**.
 
 1. Before you proceed, do the following to verify that the request path is available:
 
@@ -38,7 +38,7 @@ If you are not sure, open each category page in your store, and copy the path fr
 
 1. Set **Create URL Rewrite** to `For category`. Then in the category tree, choose the target category that is the destination of the redirect.
 
-    ![]({% link images/images/url-rewrite-category-choose.png %}){: .zoom}
+    ![URL rewrite - choose category]({% link images/images/url-rewrite-category-choose.png %}){: .zoom}
     _Category Tree_
 
 1. In the URL Rewrite section, do the following:
@@ -57,19 +57,19 @@ If you are not sure, open each category page in your store, and copy the path fr
 
     - For your reference, enter a brief description of the rewrite.
 
-    ![]({% link images/images/url-rewrite-category-information.png %}){: .zoom}
+    ![Category URL rewrite - settings]({% link images/images/url-rewrite-category-information.png %}){: .zoom}
     _Category Rewrite Information_
 
 1. Before saving the redirect, review the following:
 
     - The link in the upper-left corner displays the name of the target category.
-    - The Request Path contains the path for the original "redirect from" category.
+    - The Request Path contains the path for the original _redirect from_ category.
 
 1. When complete, click <span class="btn">Save</span> button.
 
     The new category rewrite appears at the top of the URL Rewrites grid.
 
-    ![]({% link images/images/url-rewrite-category-saved.png %}){: .zoom}
+    ![Category URL rewrite - saved]({% link images/images/url-rewrite-category-saved.png %}){: .zoom}
     _New Category Rewrite_
 
 ## Step 3. Test the Result
@@ -85,24 +85,8 @@ If you are not sure, open each category page in your store, and copy the path fr
 
 ## Field Descriptions
 
-Create URL Rewrite
-: Indicates the type of rewrite. The type cannot be changed after the rewrite is created. Options:
-   * Custom
-   * For category
-   * For product
-   * For CMS page
-
-Request Path
-: The category that is to be redirected. Depending on your configuration, the Request Path might include the .html or .htm suffix, and parent category. The Request Path must be unique, and cannot be in use by another redirect. If you receive an error that the Request Path already exists, delete the existing redirect, and try again.
-
-Target Path
-: The internal  path that is used by the system to point to the destination of the redirect. The target path is grayed out and cannot be edited.
-
-Redirect
-: Determines the type of redirect. Options :
-  * No - No redirect is specified.Many operations create redirect requests of this type. For example, every time you add products to a category, a redirect of the "No" type is created each store view. 
-  * Temporary (302) - Indicates to search engines that the rewrite is for a limited time. Search engines generally do not retain page rank information for temporary rewrites.
-  * Permanent (301) - Indicates to search engines that the rewrite is permanent. Search engines generally retain page rank information for permanent rewrites.
-
-Description
-: Describes the purpose of the rewrite for internal reference.
+|Create URL Rewrite|Indicates the type of rewrite. The type cannot be changed after the rewrite is created. Options: Custom / For category / For product / For CMS page|
+|Request Path|The category that is to be redirected. Depending on your configuration, the Request Path might include the .html or .htm suffix, and parent category. The Request Path must be unique, and cannot be in use by another redirect. If you receive an error that the Request Path already exists, delete the existing redirect, and try again.|
+|Target Path|The internal path that is used by the system to point to the destination of the redirect. The target path is grayed out and cannot be edited.
+Redirect|Determines the type of redirect. Options: <br/>**No** - No redirect is specified. Many operations create redirect requests of this type. For example, every time you add products to a category, a redirect of the `No` type is created each store view. <br/>**Temporary (302)** - Indicates to search engines that the rewrite is for a limited time. Search engines generally do not retain page rank information for temporary rewrites. <br/>Permanent (301) - Indicates to search engines that the rewrite is permanent. Search engines generally retain page rank information for permanent rewrites.|
+|Description|Describes the purpose of the rewrite for internal reference.|
