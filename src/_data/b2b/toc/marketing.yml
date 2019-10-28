@@ -286,11 +286,11 @@ pages:
     children:
     - label: Configuring Wish Lists
       url: "/marketing/wishlist-configuration.html"
-    - label: Updating Wishlists
+    - label: Updating Wish Lists
       url: "/marketing/wishlist-update.html"
     - label: Sharing a Wish List
       url: "/marketing/wishlist-share.html"
-    - label: Wishlist Search
+    - label: Wish List Search
       url: "/marketing/wishlist-search.html"
   - label: Product Relationships
     url: "/marketing/product-relationships.html"
