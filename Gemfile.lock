@@ -1,10 +1,10 @@
 GIT
   remote: https://github.com/magento-devdocs/devdocs-theme.git
-  revision: 84a3ed7f0df264a2c2086167efbd7d0545d329c4
-  branch: master
+  revision: c117dd10f7471f5ba0bd573b85ce854fd4c588f3
+  branch: yb_search-prefix
   specs:
-    devdocs (4)
-      jekyll (>= 3.3)
+    devdocs (6)
+      jekyll (>= 4.0)
 
 GEM
   remote: https://rubygems.org/
@@ -68,7 +68,7 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
-    jekyll-algolia (1.5.0)
+    jekyll-algolia (1.6.0)
       algolia_html_extractor (~> 2.6)
       algoliasearch (~> 1.26)
       filesize (~> 0.1)
