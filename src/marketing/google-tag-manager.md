@@ -22,7 +22,7 @@ See Google's [Set up Site Search][7] for the basics you need to get started. Als
 
     - Navigate to **Select View** > **View Settings**.
 
-    - Turn **Site Search Tracking** On.
+    - Set **Site Search Tracking** to `On`.
 
     - Set **Query** parameter to `q`.
 
