@@ -2,27 +2,27 @@
 title: Reports
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [General]({{ site.baseurl }}{% link configuration/general/general.md %}) > Reports
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [General]({% link configuration/general/general.md %}) > Reports
 
 ## Dashboard
 
-![]({{ site.baseurl }}{% link images/images/config-general-reports-dashboard.png %}){: .zoom}
-[_Dashboard_]({{ site.baseurl }}{% link stores/admin-dashboard.md %})
+![]({% link images/images/config-general-reports-dashboard.png %}){: .zoom}
+[_Dashboard_]({% link stores/admin-dashboard.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Year-to-Date Starts|Global|Specifies the month and day upon which the year-to-date calculations are based.|
 |Current Month Starts|Global|Specifies the day of the month that is used in calculations to mark the beginning of the current month.|
 
 ## General Options
 
-![]({{ site.baseurl }}{% link images/images/config-general-reports-genoptions.png %}){: .zoom}
-[_Dashboard_]({{ site.baseurl }}{% link stores/admin-dashboard.md %})
+![]({% link images/images/config-general-reports-genoptions.png %}){: .zoom}
+[_Dashboard_]({% link stores/admin-dashboard.md %})
 
 {:.bs-callout .bs-callout-info}
 If your business functions do not require reporting, we recommend that you disable the reports functionality to enhance store performance. However, some features, like dynamic customer segments, rely on report data to function properly.
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable Reports|Global|Enables or disables report events.|
 |Enable "Product View" Report|Global|Enables or disables the collection of statistics of viewed product pages.|

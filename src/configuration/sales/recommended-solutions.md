@@ -4,5 +4,5 @@ title: Recommended Solutions
 
 The following payment solutions provide an easy way for merchants who are just starting out to accept online payment by PayPal account or credit card. As your business grows, you can combine these with additional PayPal payment solutions.
 
-- [PayPal Express Checkout]({{ site.baseurl }}{% link configuration/sales/paypal-express-checkout.md %})
-- [Braintree]({{ site.baseurl }}{% link configuration/sales/braintree.md %})
+- [PayPal Express Checkout]({% link configuration/sales/paypal-express-checkout.md %})
+- [Braintree]({% link configuration/sales/braintree.md %})

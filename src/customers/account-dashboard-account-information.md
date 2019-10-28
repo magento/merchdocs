@@ -4,15 +4,7 @@ title: Account Information
 
 The basic account information includes your name and email address, and password, and can be maintained from your account dashboard.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/account-dashboard-account-information.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/account-dashboard-account-information.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-b2b/customer-account-dashboard-account-information.png %}){: .zoom}
-<!--{% endif %}-->
+![]({% link images/images/account-dashboard-account-information.png %}){: .zoom}
 _Account Information_
 
 ## To update your account information:
@@ -23,7 +15,7 @@ In the sidebar of your account, choose **Account Information**. Then, do any of 
 
 1. Update your **First Name** and **Last Name** as needed.
 
-    Additional fields appear as part of the name if the [Customer Configuration]({{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}) includes a prefix, middle initial, and suffix.
+    Additional fields appear as part of the name if the [Customer Configuration]({% link configuration/customers/customer-configuration.md %}) includes a prefix, middle initial, and suffix.
 
 1. Click <span class="btn">Save</span>.
 
@@ -37,16 +29,8 @@ In the sidebar of your account, choose **Account Information**. Then, do any of 
 
 1. Click <span class="btn">Save</span>.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/account-dashboard-account-information-change-email-address.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/account-dashboard-account-information-change-email-address.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-b2b/customer-account-dashboard-account-information-change-email-address.png %}){: .zoom}
-<!--{% endif %}-->
-_Change Email Address_
+    ![]({% link images/images/account-dashboard-account-information-change-email-address.png %}){: .zoom}
+    _Change Email Address_
 
 ### Change Your Password
 
@@ -58,13 +42,5 @@ _Change Email Address_
 
 1. When you are ready, enter it again to confirm.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/account-dashboard-account-information-change-password.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/account-dashboard-account-information-change-password.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-b2b/customer-account-dashboard-account-information-change-password.png %}){: .zoom}
-<!--{% endif %}-->
-_Change Password_
+    ![]({% link images/images/account-dashboard-account-information-change-password.png %}){: .zoom}
+    _Change Password_

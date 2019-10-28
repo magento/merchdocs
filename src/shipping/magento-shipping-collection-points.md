@@ -2,7 +2,7 @@
 title: Collection Points
 ---
 
-Collection points allow a customer to place an order online and have it shipped to a designated collection point, rather than to their address. For a description of how collection points are specified during checkout, see: [Customer Experience]({{ site.baseurl }}{% link shipping/magento-shipping-customer-experience.md %}).
+Collection points allow a customer to place an order online and have it shipped to a designated collection point, rather than to their address. For a description of how collection points are specified during checkout, see: [Customer Experience]({% link shipping/magento-shipping-customer-experience.md %}).
 
 From a Merchants perspective, you have full control over which carrier’s collection points will be made available to customers in the checkout. The fulfillment workflow is the same as Shipments. There are two areas of configuration that need to be completed before Customers can start nominating that an order be shipped to a Collection Point.
 

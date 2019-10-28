@@ -5,11 +5,11 @@ group: getting-started
 
 The dashboard is usually the first page that appears when you log in to the Admin, and gives an overview of sales and customer activity. The blocks on the left provide a snapshot of lifetime sales, average order amount, the last five orders, and search terms. The graph shows the orders and amounts for the selected date range. You can use the tabs above the graph to toggle between the two views. The tabs at the bottom provide quick reports about your best-selling products, most viewed products, new customers, and customers who have purchased the most.
 
-The dashboard is the default [startup page]({{ site.baseurl }}{% link configuration/advanced/admin.md %}) for the Admin, although you can change the configuration to display a different page when you log in. You can also set the starting dates used in dashboard reports and disable the display of the charts section.
+The dashboard is the default [startup page]({% link configuration/advanced/admin.md %}) for the Admin, although you can change the configuration to display a different page when you log in. You can also set the starting dates used in dashboard reports and disable the display of the charts section.
 
 You can produce Dashboard snapshot reports for each store view. The tabs at the bottom of the page summarize your best-selling and most viewed products, new customers, and those who have purchased the most during the time period specified.
 
-![]({{ site.baseurl }}{% link images/images/dashboard-advanced-reporting.png %}){: .zoom}
+![]({% link images/images/dashboard-advanced-reporting.png %}){: .zoom}
 _Dashboard_
 
 ## Configure the chart
@@ -26,8 +26,8 @@ When your configurations are complete, click <span class="btn">Save Config</span
 
 1. Clear the **Use system value** checkbox and set **Enable Charts** to `Yes`.
 
-   ![Advanced configuration - Dashboard settings]({{ site.baseurl }}{% link images/images/config-advanced-admin-dashboard.png %}){: .zoom}
-   [_Enable Charts_]({{ site.baseurl }}{% link configuration/advanced/admin.md %})
+   ![Advanced configuration - Dashboard settings]({% link images/images/config-advanced-admin-dashboard.png %}){: .zoom}
+   [_Enable Charts_]({% link configuration/advanced/admin.md %})
 
 ### Set the beginning dates
 
@@ -41,8 +41,8 @@ When your configurations are complete, click <span class="btn">Save Config</span
 
 1. Set **Current Month Starts** to the **Day**.
 
-   ![Admin Dashboard - date settings]({{ site.baseurl }}{% link images/images/config-general-reports-dashboard.png %}){: .zoom}
-   [_Beginning Date_]({{ site.baseurl }}{% link configuration/advanced/admin.md %})
+   ![Admin Dashboard - date settings]({% link images/images/config-general-reports-dashboard.png %}){: .zoom}
+   [_Beginning Date_]({% link configuration/advanced/admin.md %})
 
 ### Choose the data source
 
@@ -57,8 +57,8 @@ If you have a lot of data to process, the performance of the Dashboard can be im
 
    For real-time data, choose `Yes`. For historical data, choose `No`.
 
-   ![Admin dashboard - data source setting]({{ site.baseurl }}{% link images/images/config-sales-dashboard.png %}){: .zoom}
-   [_Data Source_]({{ site.baseurl }}{% link configuration/advanced/admin.md %})
+   ![Admin dashboard - data source setting]({% link images/images/config-sales-dashboard.png %}){: .zoom}
+   [_Data Source_]({% link configuration/advanced/admin.md %})
 
 ### Change the Startup Page
 
@@ -70,8 +70,8 @@ If you have a lot of data to process, the performance of the Dashboard can be im
 
    The list includes every page in the Admin menu structure.
 
-   ![Admin dashboard - startup page setting]({{ site.baseurl }}{% link images/images/config-advanced-admin-startup-page.png %}){: .zoom}
-   [_Startup Page_]({{ site.baseurl }}{% link configuration/advanced/admin.md %})
+   ![Admin dashboard - startup page setting]({% link images/images/config-advanced-admin-startup-page.png %}){: .zoom}
+   [_Startup Page_]({% link configuration/advanced/admin.md %})
 
 ## Dashboard Reports
 

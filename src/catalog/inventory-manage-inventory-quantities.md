@@ -28,7 +28,7 @@ sections:
 
 The following information details how to assign sources and quantities for new products, or changing to existing products.
 
-When creating new products, assign sources and quantities during product creation. See [Product Types]({{ site.baseurl }}{% link catalog/product-types.md %}) documentation for full instructions. These pages includes Single and Multi Source information for sources and quantities per source.
+When creating new products, assign sources and quantities during product creation. See [Product Types]({% link catalog/product-types.md %}) documentation for full instructions. These pages includes Single and Multi Source information for sources and quantities per source.
 
 When first accessing an upgraded Magento with Inventory Management, all products and quantities are assigned to the Default Source. When importing new products via .csv file, they are also assigned to the Default Source.
 
@@ -39,7 +39,7 @@ Single and Multi Source merchants can update sources, inventory quantities, and 
 
 When adding sources and quantities to your products, you can view the amounts through the Product Grid. If you have a high number of sources, hover the Quantity per Source to see the full, scrollable list of sources with current quantities.
 
-![]({{ site.baseurl }}{% link images/images/inventory/inventory-product-qty.png %}){: .zoom}
+![]({% link images/images/inventory/inventory-product-qty.png %}){: .zoom}
 *Product Quantities per Source*
 
 You have the following options to assign inventory to products.

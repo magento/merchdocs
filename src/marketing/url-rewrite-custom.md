@@ -6,7 +6,7 @@ A custom rewrite can be used to manage miscellaneous redirects, such as redirect
 
 Before you begin, make sure that you understand exactly what the redirect is to accomplish. Think in terms of "target" and "original request", or "redirect to" and "redirect from". Although people might still navigate to the former page from search engines or outdated links, the redirect causes your store to switch to the new target.
 
-![]({{ site.baseurl }}{%- link images/images/url-rewrite-custom.png -%}){: .zoom}
+![]({% link images/images/url-rewrite-custom.png %}){: .zoom}
 *Add URL Rewrite*
 
 ## Step 1. Plan the Rewrite
@@ -63,7 +63,7 @@ Redirect from:
 
     * For your reference, enter a brief description of the rewrite.
 
-    ![]({{ site.baseurl }}{%- link images/images/url-rewrite-custom-add.png -%}){: .zoom}
+    ![]({% link images/images/url-rewrite-custom-add.png %}){: .zoom}
     *Custom URL Rewrite*
 
 1. Before saving the redirect, review the following:
@@ -75,7 +75,7 @@ Redirect from:
 
     The new rewrite appears in the grid at the top of the list.
 
-    ![]({{ site.baseurl }}{%- link images/images/url-rewrite-cms-page-saved.png -%}){: .zoom}
+    ![]({% link images/images/url-rewrite-cms-page-saved.png %}){: .zoom}
     *Saved URL Rewrite*
 
 ## Step 3. Test the Result

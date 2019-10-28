@@ -5,7 +5,7 @@ title: Worldpay
 
 {:.bs-callout .bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
-As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({{ site.baseurl }}{% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, contact your Worldpay service provider and ask for their recommendation.
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, contact your Worldpay service provider and ask for their recommendation.
 
 London-based [Worldpay][1] has twenty-five offices in eleven countries around the world. The company is a global leader in card payments, multi-currency processing, and provides local in-store and mobile payment acceptance solutions for companies large and small.
 
@@ -19,7 +19,7 @@ Sign up for a Worldpay online [merchant account][2]
 
 2. Enter a **Title** to identify Worldpay as a payment option during checkout.
 
-   ![Enable Worldpay]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-worldpay1.png %}){: .zoom}
+   ![Enable Worldpay]({% link images/images-ee/config-sales-payment-methods-worldpay1.png %}){: .zoom}
    _Enable Worldpay_
 
 ## Step 3: Enter Your Worldpay Credentials
@@ -32,7 +32,7 @@ Enter the following credentials from your Worldpay account:
 - Remote Admin Authorization Password
 - MDS Secret for Transactions
 
-![Worldpay Credentials]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-worldpay2.png %}){: .zoom}
+![Worldpay Credentials]({% link images/images-ee/config-sales-payment-methods-worldpay2.png %}){: .zoom}
 _Worldpay Credentials_
 
 ## Step 4: Configure Contact Information
@@ -43,7 +43,7 @@ _Worldpay Credentials_
 
 1. Accept the default **Signature Fields** value.
 
-   ![Contact Information]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-worldpay3.png %}){: .zoom}
+   ![Contact Information]({% link images/images-ee/config-sales-payment-methods-worldpay3.png %}){: .zoom}
    _Contact Information_
 
 ## Step 5: Configure Test Mode
@@ -54,7 +54,7 @@ _Worldpay Credentials_
 
    When you are ready to go live with Worldpay, set **Test Mode** to “No.”
 
-   ![Test Mode]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-worldpay4.png %}){: .zoom}
+   ![Test Mode]({% link images/images-ee/config-sales-payment-methods-worldpay4.png %}){: .zoom}
    _Test Mode_
 
 ## Step 6: Configure Payments
@@ -72,11 +72,11 @@ _Worldpay Credentials_
 
 1. Set **Payment from Applicable Countries** to one of the following:
 
-     |**All Allowed Countries** |Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
+     |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
      |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
 
 
-   ![Configure Payments]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-worldpay5.png %}){: .zoom}
+   ![Configure Payments]({% link images/images-ee/config-sales-payment-methods-worldpay5.png %}){: .zoom}
    _Configure Payments_
 
 ## **Step 7:** Configure Fraud Prevention Settings
@@ -89,14 +89,14 @@ Set both **Order Status to Suspected Fraud for CVV** and **Order Status to Suspe
 - Not Matched
 - Partially Matched
 
-![Fraud Settings]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-worldpay6.png %}){: .zoom}
+![Fraud Settings]({% link images/images-ee/config-sales-payment-methods-worldpay6.png %}){: .zoom}
 _Fraud Settings_
 
 ## **Step 8:** Sort Order and Save
 
 1. In the **Sort Order** field, enter a number to determine the sequence in which Worldpay appears when listed with other payment methods during checkout.
 
-   ![Sort Order]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-worldpay-sort-order.png %}){: .zoom}
+   ![Sort Order]({% link images/images-ee/config-sales-payment-methods-worldpay-sort-order.png %}){: .zoom}
    _Sort Order_
 
 1. When complete, tap <span class="btn">Save Config</span>.

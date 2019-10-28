@@ -7,7 +7,7 @@ Gift cards are redeemed in the shopping cart similar to the way a coupon is appl
 
 The gift card code(s) applied to an order can be viewed by opening the order in the Admin, which makes it possible for you to retrieve the code to place it on a physical gift card, if necessary. If a gift card order is canceled or refunded, you must manually cancel the associated gift card account. You can either delete the account entirely, or deactivate it.
 
-![]({{ site.baseurl }}{% link images/images-ee/storefront-gift-card-order-customer-account.png %}){: .zoom}
+![]({% link images/images-ee/storefront-gift-card-order-customer-account.png %}){: .zoom}
 *Gift Card Detail in Cart*
 
 Scenario

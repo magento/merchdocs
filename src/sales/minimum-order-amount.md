@@ -4,7 +4,7 @@ title: Minimum Order Amount
 
 The configuration allows you to specify a minimum amount, after discounts are applied, that order subtotals are required to meet. Orders shipped to multiple address can be required to meet the minimum order amount per address. The Checkout button becomes available only after the minimum order amount is reached.
 
-![]({{ site.baseurl }}{% link images/images/storefront-cart-minimum-order-amount.png %}){: .zoom}
+![]({% link images/images/storefront-cart-minimum-order-amount.png %}){: .zoom}
 _Minimum Order Message in Cart_
 
 ## To configure a minimum order amount:
@@ -17,8 +17,8 @@ _Minimum Order Message in Cart_
 
 1. Expand the **Minimum Order Amount** section.
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-sales-minimum-order-amount.png %}){: .zoom}
-    _[Minimum Order Amount]({{ site.baseurl }}{% link configuration/sales/sales.md %})_
+    ![]({% link images/images/config-sales-sales-minimum-order-amount.png %}){: .zoom}
+    _[Minimum Order Amount]({% link configuration/sales/sales.md %})_
 
 1. Configure the minimum order amount settings:
 

@@ -11,12 +11,12 @@ The out of stock threshold indicates when a product needs to be reordered, subtr
 
 Another way you can use the stock availability threshold is to manage products that are in high demand. If you want to capture new customers, rather than sell to high-quantity buyers, you can set a maximum quantity to prevent a single buyer from taking out your entire inventory.
 
-![]({{ site.baseurl }}{% link images/images/storefront-stock-options-1-left.png %}){: .zoom}
+![]({% link images/images/storefront-stock-options-1-left.png %}){: .zoom}
 *Example of In Stock, Only 1 Left*
 
 ## Configuration options
 
-Magento stores and products support the following configurations for managing products, inventory, notifications and more. Magento provides additional configuration settings for bulk actions and the Distance Priority algorithm. For complete details, see [Inventory]({{ site.baseurl }}{% link configuration/catalog/inventory.md %}) configuration information.
+Magento stores and products support the following configurations for managing products, inventory, notifications and more. Magento provides additional configuration settings for bulk actions and the Distance Priority algorithm. For complete details, see [Inventory]({% link configuration/catalog/inventory.md %}) configuration information.
 
 |Option|Description|
 |--|--|
@@ -27,7 +27,7 @@ Magento stores and products support the following configurations for managing pr
 | Maximum Qty Allowed in Shopping Cart | Sets the maximum quantity of the product that can be purchased in a single order. |
 | Qty Uses Decimals | Allows decimal amounts, instead of whole numbers, for the quantity of a product. This is helpful for products sold by weight, volume, or length. Specified on the level of Source, calculated on the Stock level based on assigned Sources. |
 | Allow Multiple Boxes for Shipping | Sets if parts of a product can be shipped separately. |
-| Backorders | Indicates if Backorders are allowed. Specified on the level of Source, calculated on the Stock level based on assigned Sources. If enabled to allow backorders, we recommend setting a negative value for the Out-of-Stock Threshold. For details, see <a href="{{ site.baseurl }}{% link catalog/inventory-backorders.md %}">Configuring Backorders</a>.<br /><br />Options:<br /> **No Backorders**: Does not accept backorders when product is out of stock.<br />**Allow Qty Below 0**: Accepts backorders when the quantity falls below zero.<br />**Allow Qty Below 0 and Notify Customer**: Accepts backorders when the quantity falls below zero, but notifies customers that orders can still be placed.|
+| Backorders | Indicates if Backorders are allowed. Specified on the level of Source, calculated on the Stock level based on assigned Sources. If enabled to allow backorders, we recommend setting a negative value for the Out-of-Stock Threshold. For details, see <a href="{% link catalog/inventory-backorders.md %}">Configuring Backorders</a>.<br /><br />Options:<br /> **No Backorders**: Does not accept backorders when product is out of stock.<br />**Allow Qty Below 0**: Accepts backorders when the quantity falls below zero.<br />**Allow Qty Below 0 and Notify Customer**: Accepts backorders when the quantity falls below zero, but notifies customers that orders can still be placed.|
 | Notify for Quantity Below | Sets the quantity that triggers a Quantity Below notification, warning of low stock. This amount is deducted from the Salable Quantity, not from the inventory Quantity. |
 | Enable Qty Increments | Sets if the product can be sold in quantity increments. If enabled, enter the quantity of products that must be purchased in an incremental step. |
 | Automatically Return Credit Memo Item to Stock | Inventory Management does not use this value. When you complete a return or Credit Memo, the product quantity is automatically returned to the affected source quantity. |

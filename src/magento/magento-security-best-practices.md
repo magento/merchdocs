@@ -61,13 +61,13 @@ Your effort to protect your Magento installation starts with the initial setup, 
 **Your Magento Installation**
 
 - Use the latest version of Magento to ensure that your installation includes the most recent security enhancements. If for any reason you cannot upgrade to the latest version, make sure to install all security patches as recommended by Magento. Although Magento issues security patches to fix major issues, new product releases include additional improvements to help secure the site.
-- Use a unique, [custom Admin URL]({{ site.baseurl }}{% link stores/store-urls-custom-admin.md %}) instead of the default “admin” or the often-used “backend”. Although it will not directly protect your site from a determined attacker, it can reduce exposure to scripts that try to break into every Magento site. (Never leave your valuables in plain sight.)
+- Use a unique, [custom Admin URL]({% link stores/store-urls-custom-admin.md %}) instead of the default “admin” or the often-used “backend”. Although it will not directly protect your site from a determined attacker, it can reduce exposure to scripts that try to break into every Magento site. (Never leave your valuables in plain sight.)
     {:.bs-callout-info}
     Check with your hosting provider before implementing a custom Admin URL. Some hosting providers require a standard URL to meet firewall protection rules.
 - Block access to any development, staging, or testing systems. Use IP [whitelisting](https://www.sonassi.com/knowledge-base/magento-kb/secure-your-magento-admin/) and `.htaccess` password protection. When compromised, such systems can produce a data leak or be used to attack the production system.
 - Use the correct file permissions. Core Magento and directory files should be set to ready only, including `app/etc/local.xml` files.
 - Use a strong  password for the Magento Admin. To learn more, see [Creating a strong password](https://support.google.com/accounts/answer/32040?hl=en).
-- Take advantage of Magento’s security-related configuration settings for [Admin Security]({{ site.baseurl }}{% link stores/security-admin.md %}), [Password Options]({{ site.baseurl }}{% link customers/password-options.md %}), [Two-Factor Authentication for Admin access]({{ site.baseurl }}{% link stores/security-two-factor-authentication.md %}), [CAPTCHA](http://merch.docs.magento.com/ce/user_guide/Magento_Community_Edition_User_Guide.html#configuration/advanced/admin.html), and [Google reCAPTCHA]({{ site.baseurl }}{% link stores/security-google-recaptcha.md %}).
+- Take advantage of Magento’s security-related configuration settings for [Admin Security]({% link stores/security-admin.md %}), [Password Options]({% link customers/password-options.md %}), [Two-Factor Authentication for Admin access]({% link stores/security-two-factor-authentication.md %}), [CAPTCHA](http://merch.docs.magento.com/ce/user_guide/Magento_Community_Edition_User_Guide.html#configuration/advanced/admin.html), and [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).
 - Take advantage of Magento’s free [Magento Security Scan Tool](https://account.magento.com/scanner?_ga=2.67627665.1606684099.1543252630-49206304.1531415640)! Monitor your sites for security risks, update malware patches, and detect unauthorized access with this tool.
 
 ## Do not be Taken for a Ride
@@ -90,7 +90,7 @@ If your system is not immediately patched after a major security breach, there i
 
 - Check periodically for unauthorized Admin users.
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-- Check the [Admin Actions Log]({{ site.baseurl }}{% link system/action-log.md %}) for suspicious activity.
+- Check the [Admin Actions Log]({% link system/action-log.md %}) for suspicious activity.
 <!--{% endif %}-->
 - Use automated log review tools such as [Apache Scalp](https://code.google.com/p/apache-scalp/).
 - Work with your hosting provider to review server logs for suspicious activity, and to implement an Intrusion Detection System (IDS) on your network.
@@ -133,7 +133,7 @@ For additional technical best practices and developer-centric information, see t
 
 - The [Magento Security blog][2] investigates and provides insights to security issues, best practices, and solutions for all of your security questions.
 - Try out the free [Magento Security Scan Tool][3]! Monitor your sites for security risks, update malware patches, and detect unauthorized access with this tool from Magento Commerce.
-- Check all available [Developer Tools]({{ site.baseurl }}{% link system/developer-tools.md %}) through the Admin. These features can help test, verify, and prepare your site and Admin for workloads and traffic.
+- Check all available [Developer Tools]({% link system/developer-tools.md %}) through the Admin. These features can help test, verify, and prepare your site and Admin for workloads and traffic.
 - The Magento Community has limitless best practices, recommendations, and tutorials to help get you started with Magento, maintaining your catalogs, and much more. Check out the best [Community Resources][4].
 
 ### Acknowledgments

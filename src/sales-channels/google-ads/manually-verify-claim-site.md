@@ -5,12 +5,12 @@ title: Manually Verify and Claim your URL
 
 When you created your GMC account, you selected your storefront URL to associate to your GMC account. Until the site is claimed and verified by Google, the site URL will display on the Google Shopping ads dashboard with a Claim Status of "Unclaimed."
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/google/example-unclaimed-site.png %}){: .zoom}
+![]({% link images/images/sales-channels/google/example-unclaimed-site.png %}){: .zoom}
 *GMC Accounts: Unclaimed Site*
 
 Magento attempts to automatically verify and claim your storefront URL after submission to Google. If Magento is unable to verify and claim the URL automatically, a notification will display and state that the site failed to claim.
 
-A common reason for a site to remain in "Unclaimed" status is that the site has already been claimed by another GMC account. If you think this might be the case, you must [unclaim the URL]({{ site.baseurl }}{% link sales-channels/google-ads/gmc-unlink-gmc.md %}) before it can be claimed by your new GMC account. You can then manually verify and claim your site.
+A common reason for a site to remain in "Unclaimed" status is that the site has already been claimed by another GMC account. If you think this might be the case, you must [unclaim the URL]({% link sales-channels/google-ads/gmc-unlink-gmc.md %}) before it can be claimed by your new GMC account. You can then manually verify and claim your site.
 
 The manual verify and claim process includes:
 * Logging into your GMC account to copy URL information

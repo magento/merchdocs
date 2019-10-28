@@ -11,24 +11,24 @@ Google Content Experiments has been deprecated, and will eventually be replaced 
 
 1. Log in to the Admin of your Magento installation.
 
-1. Follow the instructions to enable [Google Analytics]({{ site.baseurl }}{%- link marketing/google-universal-analytics.md -%}) with Content Experiments in the Magento configuration.
+1. Follow the instructions to enable [Google Analytics]({% link marketing/google-universal-analytics.md -%}) with Content Experiments in the Magento configuration.
 
     <!--{%- if "Default.CE Only" contains site.edition -%}-->
-    ![]({{ site.baseurl }}{%- link images/images/config-sales-google-api-google-analytics-content-experiments.png -%}){: .zoom}
+    ![]({% link images/images/config-sales-google-api-google-analytics-content-experiments.png %}){: .zoom}
     <!--{%- endif -%}-->
     <!--{%- if "Default.EE-B2B" contains site.edition -%}-->
-    ![]({{ site.baseurl }}{%- link images/images-ee/config-sales-google-api-google-analytics-content-experiments.png -%}){: .zoom}
+    ![]({% link images/images-ee/config-sales-google-api-google-analytics-content-experiments.png %}){: .zoom}
     <!--{%- endif -%}-->
-    [*Enable Content Experiments*]({{ site.baseurl }}{%- link marketing/google-universal-analytics.md -%})
+    [*Enable Content Experiments*]({% link marketing/google-universal-analytics.md -%})
 
 ## Step 2. Set Up the Variations (Magento)
 
 Create multiple variations of the same product, cateogory, or page.
 
-* Each variation must have a unique [URL key]({{ site.baseurl }}{%- link catalog/catalog-urls.md -%}).
-* Each variation must have the same [store view]({{ site.baseurl }}{%- link configuration/scope.md -%}) selected.
+* Each variation must have a unique [URL key]({% link catalog/catalog-urls.md -%}).
+* Each variation must have the same [store view]({% link configuration/scope.md -%}) selected.
 
-You can create up to ten variations of each entity that you want to test. For products, use [Save &amp; Duplicate]({{ site.baseurl }}{%- link catalog/product-workspace.md -%}) to save time.
+You can create up to ten variations of each entity that you want to test. For products, use [Save &amp; Duplicate]({% link catalog/product-workspace.md -%}) to save time.
 
 ## Step 3. Set Up the Experiment (Google)
 
@@ -55,7 +55,7 @@ You must have the appropriate permissions to the Google account to create an exp
 
     * When complete, tap <span class="btn">Create View</span>. Then, click the back arrow to return to the previous page.
 
-        ![]({{ site.baseurl }}{%- link images/images/google-analytics-content-experiments-new-reporting-view.png -%}){: .zoom}
+        ![]({% link images/images/google-analytics-content-experiments-new-reporting-view.png %}){: .zoom}
         *New Reporting View*
 
 1. In the panel on the left under **Reports**, choose **Behavior > Experiments**.
@@ -79,7 +79,7 @@ You must have the appropriate permissions to the Google account to create an exp
     {: .bs-callout .bs-callout-info}
     Do not paste the code snippet into any of the variations.
 
-    ![]({{ site.baseurl }}{%- link images/images/product-view-optimization.png -%}){: .zoom}
+    ![]({% link images/images/product-view-optimization.png %}){: .zoom}
     *Product View Optimization*
 
 1. When complete, tap <span class="btn">Save</span>.

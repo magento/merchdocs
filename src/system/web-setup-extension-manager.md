@@ -10,7 +10,7 @@ For technical information, see [Run the Extension Manager][1] in the developer d
 
 {% include flush-cache.md %}
 
-![]({{ site.baseurl }}{% link images/images/web-setup-extension-manager-your-marketplace-account.png %}){: .zoom}
+![]({% link images/images/web-setup-extension-manager-your-marketplace-account.png %}){: .zoom}
 Installed Extensions
 
 #### To install an extension:
@@ -21,7 +21,7 @@ Installed Extensions
 
 1.  Under _Tools_, choose **Web Setup Wizard**.
 
-    ![]({{ site.baseurl }}{% link images/images/web-setup-wizard-tiles.png %}){: .zoom}
+    ![]({% link images/images/web-setup-wizard-tiles.png %}){: .zoom}
     _Web Setup Wizard_
 
 1.  Click **Extension Manager**. To get your access keys, do the following:
@@ -36,19 +36,19 @@ Installed Extensions
 
     -  Click **Submit**.
 
-        ![]({{ site.baseurl }}{% link images/images/system-extension-manager.png %}){: .zoom}
+        ![]({% link images/images/system-extension-manager.png %}){: .zoom}
         _Extension Manager_
 
         It will take a few minutes to generate the summary and list of all available updates, recently purchased extensions, and currently installed extensions and sample data.
 
-        ![]({{ site.baseurl }}{% link images/images/system-extension-manager-summary.png %}){: .zoom}
+        ![]({% link images/images/system-extension-manager-summary.png %}){: .zoom}
         _Summary of Your Marketplace Account_
 
 1.  In the summary at the top of the page, under _Extensions Ready to Install_, click **Review and Install**. Then, do the following:
 
     -  In the list of extensions that are ready to install, mark the checkbox of the extension that you want to install.
 
-        ![]({{ site.baseurl }}{% link images/images/system-extension-manager-ready-to-install.png %}){: .zoom}
+        ![]({% link images/images/system-extension-manager-ready-to-install.png %}){: .zoom}
         _Extensions Ready to Install_
 
     -  In the _Latest version_ column, choose the version that you want to install.
@@ -65,19 +65,19 @@ Installed Extensions
 
 1.  Before the installation begins, your store environment must be checked for compatibility. When ready to begin, click **Start Readiness Check**. The progress indicator shows where you are in the process.
 
-    ![]({{ site.baseurl }}{% link images/images/extension-install-step1.png %}){: .zoom}
+    ![]({% link images/images/extension-install-step1.png %}){: .zoom}
     _Readiness Check_
 
 1.  When the Readiness Check completes successfully, click **Next**.
 
-    ![]({{ site.baseurl }}{% link images/images/extension-install-step1-complete.png %}){: .zoom}
+    ![]({% link images/images/extension-install-step1-complete.png %}){: .zoom}
     _Readiness Check Complete_
 
 ## Step 2: Create Backup
 
 1.  Your store is placed in maintenance mode while the backup is created. When you are ready to begin, click **Create Backup**. Then, wait a few minutes for the backup to complete.
 
-    ![]({{ site.baseurl }}{% link images/images/extension-install-step2-complete.png %}){: .zoom}
+    ![]({% link images/images/extension-install-step2-complete.png %}){: .zoom}
     _Backup Complete_
 
 1.  You can see the path to the backup file at the bottom of the report. When the backup is complete, click **Next**.
@@ -86,14 +86,14 @@ Installed Extensions
 
 1.  When you are ready to begin, click **Install**. Then, wait a few moments for the installation to complete.
 
-    ![]({{ site.baseurl }}{% link images/images/extension-install-step-success.png %}){: .zoom}
+    ![]({% link images/images/extension-install-step-success.png %}){: .zoom}
     _Installation Complete_
 
 1.  When complete, click **Back to Setup Tool**. Then, click the **System Configuration** tile.
 
 1.  In the upper-right corner of Extension Manager, click the **Reset** link to log out.
 
-1.  [Flush the cache]({{ site.baseurl }}{% link system/cache-management.md %}) after installing and enabling the module.
+1.  [Flush the cache]({% link system/cache-management.md %}) after installing and enabling the module.
 
 ## Step 4: Configure the Extension for Your Store
 

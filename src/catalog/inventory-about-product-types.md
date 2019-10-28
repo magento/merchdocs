@@ -10,10 +10,10 @@ Inventory Management supports inventory and order management for all product typ
 
 |Product Type|Single Source|Multi Source|Source and Stock|Shipping and Source Selection Algorithm|
 |--|--|--|--|--|
-|[Simple]({{ site.baseurl }}{% link catalog/product-create-simple.md %})|Yes|Yes|Default Source<br/>Default Stock<br/>custom source/stock|Supports SSA recommendations and overrides at shipping|
-|[Configurable]({{ site.baseurl }}{% link catalog/product-create-configurable.md %})|Yes|Yes|Default Source<br/>Default Stock<br/>custom source/stock|Supports SSA recommendations and overrides at shipping|
-|[Virtual]({{ site.baseurl }}{% link catalog/product-create-virtual.md %})|Yes|Yes|Default Source<br/>Default Stock<br/>custom source/stock|Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results.<br/>You cannot adjust these results.|
-|[Downloadable]({{ site.baseurl }}{% link catalog/product-create-downloadable.md %})|Yes|Yes|Default Source<br/>Default Stock<br/>custom source/stock|Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results. <br/>You cannot adjust these results.|
-|[Bundle]({{ site.baseurl }}{% link catalog/product-create-bundle.md %})|Yes|No|Default Source<br/>Default Stock|Supports SSA recommendations and overrides at shipping|
-|[Grouped]({{ site.baseurl }}{% link catalog/product-create-grouped.md %})|Yes|Yes|Default Source<br/>Default Stock<br/>custom source/stock|Supports SSA recommendations and overrides at shipping|
+|[Simple]({% link catalog/product-create-simple.md %})|Yes|Yes|Default Source<br/>Default Stock<br/>custom source/stock|Supports SSA recommendations and overrides at shipping|
+|[Configurable]({% link catalog/product-create-configurable.md %})|Yes|Yes|Default Source<br/>Default Stock<br/>custom source/stock|Supports SSA recommendations and overrides at shipping|
+|[Virtual]({% link catalog/product-create-virtual.md %})|Yes|Yes|Default Source<br/>Default Stock<br/>custom source/stock|Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results.<br/>You cannot adjust these results.|
+|[Downloadable]({% link catalog/product-create-downloadable.md %})|Yes|Yes|Default Source<br/>Default Stock<br/>custom source/stock|Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results. <br/>You cannot adjust these results.|
+|[Bundle]({% link catalog/product-create-bundle.md %})|Yes|No|Default Source<br/>Default Stock|Supports SSA recommendations and overrides at shipping|
+|[Grouped]({% link catalog/product-create-grouped.md %})|Yes|Yes|Default Source<br/>Default Stock<br/>custom source/stock|Supports SSA recommendations and overrides at shipping|
 

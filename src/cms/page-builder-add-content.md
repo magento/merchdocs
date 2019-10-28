@@ -9,6 +9,6 @@ Use the Content section of the Page Builder panel to add existing content to the
 
 | Tool                                                                                | Description                                  |
 | ----------------------------------------------------------------------------------- | -------------------------------------------- |
-| [Block]({{ site.baseurl }}{% link cms/page-builder-add-content-block.md %})        | Adds an existing block to the stage.         |
-| [Dynamic Block]({{ site.baseurl }}{% link cms/page-builder-add-dynamic-block.md %}) | Adds an existing dynamic block to the stage. |
-| [Products]({{ site.baseurl }}{% link cms/page-builder-add-content-products.md %})   | Adds a list of products to the stage.        |
+| [Block]({% link cms/page-builder-add-content-block.md %})        | Adds an existing block to the stage.         |
+| [Dynamic Block]({% link cms/page-builder-add-dynamic-block.md %}) | Adds an existing dynamic block to the stage. |
+| [Products]({% link cms/page-builder-add-content-products.md %})   | Adds a list of products to the stage.        |

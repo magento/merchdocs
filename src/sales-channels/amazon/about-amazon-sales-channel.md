@@ -6,7 +6,7 @@ Amazon Sales Channel is a powerful extension that seamlessly integrates your Mag
 
 The integration connects Magento and Amazon to sync data between both platforms. Amazon Sales Channel enables you to:
 
-- [Onboard]({{ site.baseurl }}{% link sales-channels/amazon/amazon-onboarding-home.md %}) and integrate one or more Amazon Seller Central accounts with Magento.
+- [Onboard]({% link sales-channels/amazon/amazon-onboarding-home.md %}) and integrate one or more Amazon Seller Central accounts with Magento.
 
 - Import and sync your existing Amazon listings into your Magento catalog.
 
@@ -14,9 +14,9 @@ The integration connects Magento and Amazon to sync data between both platforms.
 
 - Review and fulfill (ship) orders in Magento and Amazon, syncing order status and refunds.
 
-- Review logs for analysis and errors for [competitive prices]({{ site.baseurl }}{% link sales-channels/amazon/store-reports.md %}), [listing changes]({{ site.baseurl }}{% link sales-channels/amazon/listing-changes-log.md %}), and [communication issues]({{ site.baseurl }}{% link sales-channels/amazon/communication-errors-log.md %}).
+- Review logs for analysis and errors for [competitive prices]({% link sales-channels/amazon/store-reports.md %}), [listing changes]({% link sales-channels/amazon/listing-changes-log.md %}), and [communication issues]({% link sales-channels/amazon/communication-errors-log.md %}).
 
-Manage and review all of these features, account information, listings, orders, and more on the [Amazon Sales Channel Home]({{ site.baseurl }}{% link sales-channels/amazon/amazon-sales-channel-home.md %}) central dashboard.
+Manage and review all of these features, account information, listings, orders, and more on the [Amazon Sales Channel Home]({% link sales-channels/amazon/amazon-sales-channel-home.md %}) central dashboard.
 
 ## Promotions and Pricing
 

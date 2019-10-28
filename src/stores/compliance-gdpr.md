@@ -15,9 +15,9 @@ All organizations that process personal data must disclose the following:
 
 ## Best Practices
 
-- Examine the current [privacy policies]({{ site.baseurl }}{% link stores/privacy-policy.md %}) for all of your Magento stores to ensure that they align with GDPR requirements.
+- Examine the current [privacy policies]({% link stores/privacy-policy.md %}) for all of your Magento stores to ensure that they align with GDPR requirements.
 
-- Update your your [Google settings]({{ site.baseurl }}{% link stores/compliance-gdpr-google.md %}) to ensure that its use of personal data follows GDPR requirements.
+- Update your your [Google settings]({% link stores/compliance-gdpr-google.md %}) to ensure that its use of personal data follows GDPR requirements.
 
 - Maintain transparency, and keep thorough documentation.
 

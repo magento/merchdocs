@@ -6,15 +6,15 @@ title: Products in Category
 The Products in Category section lists the products that are currently assigned to the category. The search filters at the top of each column are used to add and remove products from the category.
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-The Products in Category section lists the products that are currently assigned to the category and allows you to use [category rules]({{ site.baseurl }}{% link catalog/category-product-rules.md %}) to dynamically change the product selection when a set of conditions is met. To learn more, see [Visual Merchandiser]({{ site.baseurl }}{% link marketing/visual-merchandiser.md %}).
+The Products in Category section lists the products that are currently assigned to the category and allows you to use [category rules]({% link catalog/category-product-rules.md %}) to dynamically change the product selection when a set of conditions is met. To learn more, see [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}).
 <!--{% endif %}-->
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/category-products-in-category.png %}){: .zoom}
+![]({% link images/images/category-products-in-category.png %}){: .zoom}
 _Category Products_
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/category-products-in-category.png %}){: .zoom}
+![]({% link images/images-ee/category-products-in-category.png %}){: .zoom}
 _Category Products_
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
@@ -25,7 +25,7 @@ _Category Products_
 
    The automatic sorting and condition options appear.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/category-match-products-by-rule.png %}){: .zoom}
+   ![]({% link images/images-ee/category-match-products-by-rule.png %}){: .zoom}
    _To Match Products by Rule_
 
    **Automatic Sort**
@@ -48,7 +48,7 @@ _Category Products_
       - Choose the **Operator** that is needed to form the expression.
       - Enter the **Value** that is to be matched.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/category-rule-create.png %}){: .zoom}
+      ![]({% link images/images-ee/category-rule-create.png %}){: .zoom}
       _Add Condition to Category Rule_
 
    - Repeat this process for each attribute that is needed to describe the condition(s) to be met. For example, to match products that were created between 7 and 30 days ago, do the following:
@@ -75,12 +75,12 @@ When setting up a category rule, the products are matched and assigned to the ru
 
 | Control  | Description  |
 |----------|--------------|
-| ![]({{ site.baseurl }}{% link images/images/btn-view-as-list.png %}) | View as List |
-| ![]({{ site.baseurl }}{% link images/images/btn-view-as-tiles.png %}) | View as Tiles |
-| ![]({{ site.baseurl }}{% link images/images/btn-no.png %}) | Match by Rule - No|
-|![]({{ site.baseurl }}{% link images/images/btn-yes.png %}) | Match by Rule - Yes|
-| ![]({{ site.baseurl }}{% link images/images/btn-drag.png %}) | The drag and drop control allows you to grab a product and move it to another position in the current page of the grid. To learn more, see [Visual Merchandiser]({{ site.baseurl }}{% link marketing/visual-merchandiser.md %}). |
-| ![]({{ site.baseurl }}{% link images/images/btn-position.png %}) | Determines the position of the product in the list. |
+| ![]({% link images/images/btn-view-as-list.png %}) | View as List |
+| ![]({% link images/images/btn-view-as-tiles.png %}) | View as Tiles |
+| ![]({% link images/images/btn-no.png %}) | Match by Rule - No|
+|![]({% link images/images/btn-yes.png %}) | Match by Rule - Yes|
+| ![]({% link images/images/btn-drag.png %}) | The drag and drop control allows you to grab a product and move it to another position in the current page of the grid. To learn more, see [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}). |
+| ![]({% link images/images/btn-position.png %}) | Determines the position of the product in the list. |
 
 <!--{% endif %}-->
 
@@ -88,7 +88,7 @@ When setting up a category rule, the products are matched and assigned to the ru
 
 | Control  | Description  |
 |----------|--------------|
-| ![]({{ site.baseurl }}{% link images/images/btn-checkbox.png %}) | The checkbox in the header of the first column can be used to select all products or clear all selections. The control in the first row determines the type of search and can be set to include any record, or include only those that are either assigned or not assigned to the category. The checkbox in the first column of each row identifies products to be added to the category. Options: Yes / No / Any |
+| ![]({% link images/images/btn-checkbox.png %}) | The checkbox in the header of the first column can be used to select all products or clear all selections. The control in the first row determines the type of search and can be set to include any record, or include only those that are either assigned or not assigned to the category. The checkbox in the first column of each row identifies products to be added to the category. Options: Yes / No / Any |
 | Search Filters | The filter controls at the top of each column can be used to enter specific values you want to either include or omit from the list, depending on the Select All setting. |
 | Reset Filter | Clears all search filters. |
 | Search | Searches the catalog based on the filter criteria and displays the result. |

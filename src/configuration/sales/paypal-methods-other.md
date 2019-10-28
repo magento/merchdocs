@@ -6,11 +6,11 @@ PayPal offers a variety of payment solutions that meet the needs of businesses o
 
 ## PayPal All-In-One Methods
 
-- [PayPal Payment Advanced]({{ site.baseurl }}{% link configuration/sales/paypal-payments-advanced.md %})
-- [PayPal Payments Pro]({{ site.baseurl }}{% link configuration/sales/paypal-payments-pro.md %})
-- [PayPal Payments Standard]({{ site.baseurl }}{% link configuration/sales/paypal-payments-standard.md %})
+- [PayPal Payment Advanced]({% link configuration/sales/paypal-payments-advanced.md %})
+- [PayPal Payments Pro]({% link configuration/sales/paypal-payments-pro.md %})
+- [PayPal Payments Standard]({% link configuration/sales/paypal-payments-standard.md %})
 
 ## PayPal Payment Gateways
 
-- [PayPal Payflow Pro]({{ site.baseurl }}{% link configuration/sales/paypal-payflow-pro.md %}) (Includes Express Checkout)
-- [PayPal Payflow Link]({{ site.baseurl }}{% link configuration/sales/paypal-payflow-link.md %}) (Includes Express Checkout)
+- [PayPal Payflow Pro]({% link configuration/sales/paypal-payflow-pro.md %}) (Includes Express Checkout)
+- [PayPal Payflow Link]({% link configuration/sales/paypal-payflow-link.md %}) (Includes Express Checkout)

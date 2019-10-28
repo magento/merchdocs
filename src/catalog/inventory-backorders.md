@@ -30,10 +30,10 @@ The following is an example:
 
 The Salable Quantity for this product is 75 (25 - (-50)).
 
-![]({{ site.baseurl }}{% link images/images/inventory/inventory-backorders-before.png %}){: .zoom}
+![]({% link images/images/inventory/inventory-backorders-before.png %}){: .zoom}
 *Example Salable Quantity before backorders enabled*
 
-![]({{ site.baseurl }}{% link images/images/inventory/inventory-backorders-after.png %}){: .zoom}
+![]({% link images/images/inventory/inventory-backorders-after.png %}){: .zoom}
 *Example Salable Quantity after backorders enabled*
 
 When customers purchase over 25 products, new orders enter as backorders. As the product's salable quantity reduces to 5 (70 items have been sold), the product page will display a message "Only 5 left" on front-end. When the salable quantity reaches 0, the product displays as Out of Stock in the storefront.
@@ -56,7 +56,7 @@ These steps enable backorders for all products at the site level.
 
 1. Click **Catalog**, then choose **Inventory**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the Product Stock Options, and locate Backorders. Clear the **Use system value** checkbox and select an option from the drop-down menu:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the Product Stock Options, and locate Backorders. Clear the **Use system value** checkbox and select an option from the drop-down menu:
 
     |Option|Description|
     |--|--|
@@ -64,7 +64,7 @@ These steps enable backorders for all products at the site level.
     | Allow Qty Below 0 | To accept backorders when the quantity falls below zero. |
     | Allow Qty Below 0 and Notify Customer | To accept backorders when the quantity falls below zero, and notify the customer that the order can still be placed. |
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the Product Stock Options, and locate Out-of-Stock Threshold. Clear the **Use system value** checkbox to enter a different amount.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the Product Stock Options, and locate Out-of-Stock Threshold. Clear the **Use system value** checkbox to enter a different amount.
 
     |Option|Description|
     |--|--|
@@ -102,5 +102,5 @@ Product level configurations override global configurations. You may want to con
 
 1. Click <span class="btn">Done</span>, then click <span class="btn">Save</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/inventory/inventory-backorders-product-settings.png %}){: .zoom}
+    ![]({% link images/images/inventory/inventory-backorders-product-settings.png %}){: .zoom}
     *Advanced Inventory configured for Backorders*

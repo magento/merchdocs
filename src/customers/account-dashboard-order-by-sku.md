@@ -3,9 +3,9 @@ conditions: Default.EE Only
 title: Order by SKU
 ---
 
-[Order by SKU]({{ site.baseurl }}{% link sales/order-by-sku.md %}) gives you the ability to add individual products to your cart by SKU and quantity, or import a list of products from a file.
+[Order by SKU]({% link sales/order-by-sku.md %}) gives you the ability to add individual products to your cart by SKU and quantity, or import a list of products from a file.
 
-![]({{ site.baseurl }}{% link images/images-ee/account-dashboard-order-by-sku.png %}){: .zoom}
+![]({% link images/images-ee/account-dashboard-order-by-sku.png %}){: .zoom}
 _Order by SKU_
 
 Use either or both of the following methods to add products by SKU:
@@ -14,7 +14,7 @@ Use either or both of the following methods to add products by SKU:
 
 1. Enter the **SKU** and **Qty** of the product.
 
-2. For each additional product that you want to order, click **Add** (![]({{ site.baseurl }}{% link images/images-ee/btn-add-sku.png %}){: .Inline}). Then enter the **SKU** and **Qty**.
+2. For each additional product that you want to order, click **Add** (![]({% link images/images-ee/btn-add-sku.png %}){: .Inline}). Then enter the **SKU** and **Qty**.
 
 3. When ready, click <span class="btn">Add to Cart</span>.
 
@@ -26,9 +26,9 @@ Use either or both of the following methods to add products by SKU:
   
     - Enter the **sku** and **qty** value of each product that you want to import.
 
-    - Save it as a [CSV]({{ site.baseurl }}{% link system/data-csv.md %}) (Comma Separated Value) file.
+    - Save it as a [CSV]({% link system/data-csv.md %}) (Comma Separated Value) file.
 
-      ![]({{ site.baseurl }}{% link images/images-ee/account-dashboard-order-by-sku-import.png %}){: .zoom}
+      ![]({% link images/images-ee/account-dashboard-order-by-sku-import.png %}){: .zoom}
       _SKUs to Import_
 
       {:.bs-callout .bs-callout-info}
@@ -40,7 +40,7 @@ Use either or both of the following methods to add products by SKU:
 
     If any of the products have additional options, you will be prompted from the shopping cart that the product requires your attention.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/account-dashboard-order-by-sku-cart-product-requires-attention.png %}){: .zoom}
+    ![]({% link images/images-ee/account-dashboard-order-by-sku-cart-product-requires-attention.png %}){: .zoom}
     _Product Requires Attention_
 
     {:.bs-callout .bs-callout-info}

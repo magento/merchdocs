@@ -2,7 +2,7 @@
 title: Data Mapping
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > [Engagement Cloud]({{ site.baseurl }}{% link configuration/engagement-cloud.md %}) > Data Mapping
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Data Mapping
 
 Data field mapping establishes the relationship between customer information and activity from all stores related to your Magento website and specific contact fields in the Engagement Cloud database. Data fields can be mapped manually or automatically. To map data fields automatically, use the Automap Data Fields option in the Developer > Admin Task section of the Engagement Cloud configuration. 
 
@@ -10,10 +10,10 @@ The configuration settings in the Data Mapping section are used to map fields ma
 
 ## Customer Information
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-customer-information.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-customer-information.png %}){: .zoom}
 _Customer Information_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Title|Website|Maps the customer Name Prefix data field from Magento to your corresponding contact data field in Engagement Cloud.|
 |Customer ID|Website|Maps the Customer ID data field from Magento to your corresponding contact data field in Engagement Cloud.|
@@ -30,10 +30,10 @@ _Customer Information_
 
 ## Address
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-address.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-address.png %}){: .zoom}
 _Address_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Billing Address Line 1|Website|Maps the first line of the billing street address from Magento to your corresponding contact data field in Engagement Cloud.|
 |Billing Address Line 2|Website|Maps the second line of the billing street address from Magento to your corresponding contact data field in Engagement Cloud.|
@@ -53,10 +53,10 @@ _Address_
 
 ## Sales
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-sales.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-sales.png %}){: .zoom}
 _Sales_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Total Number of Orders|Website|Maps the total number of orders made by the customer from Magento to your corresponding contact data field in Engagement Cloud.|
 |Average Order Value|Website|Maps the average order made by the customer from Magento to your corresponding contact data field in Engagement Cloud.|
@@ -75,10 +75,10 @@ _Sales_
 
 ## System Values
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-system-values.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-system-values.png %}){: .zoom}
 _System Values_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Website Name|Website|Maps the name of the website associated with the customer's activity from Magento to your corresponding contact data field in Engagement Cloud.|
 |Store Name|Website|Maps the name of the store associated with the customer's activity from Magento to your corresponding contact data field in Engagement Cloud.|
@@ -105,10 +105,10 @@ Gives you the ability to create custom mappings to Engagement Cloud, based on th
 - Reward Warning Notification
 <!--{% endif %}-->
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-custom-attributes.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-custom-attributes.png %}){: .zoom}
 _Custom Attributes_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Attribute|Website|Lists the selection of additional data fields that can be mapped from Magento.|
 |Data Field|Website|Lists the current selection of contact data fields from Engagement Cloud that can be mapped to a Magento attribute.|
@@ -118,10 +118,10 @@ _Custom Attributes_
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ## Enterprise Data
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-data-mapping-enterprise-data.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-data-mapping-enterprise-data.png %}){: .zoom}
 _Enterprise Data_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |**Reward Points**|||
 |Points|Website|Maps the customer's number of points earned from Magento to your corresponding contact data field in Engagement Cloud.|
@@ -133,10 +133,10 @@ _Enterprise Data_
 
 ## Create Data Field
 
-![]({{ site.baseurl }}{% link images/images/config-engagement-cloud-data-mapping-create-data-field.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-data-mapping-create-data-field.png %}){: .zoom}
 _Create Data Field_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Data Field Name|Website|The name of the new Customer Engagement contact data field.|
 |Data Field Type|Website|The type of data to be entered into the field. Options: String (text) / Numeric / Date|

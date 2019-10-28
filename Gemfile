@@ -2,13 +2,12 @@
 
 source 'https://rubygems.org'
 
-gem 'devdocs', git: 'https://github.com/magento-devdocs/devdocs-theme.git', branch: 'master'
+gem 'devdocs', git: 'https://github.com/magento-devdocs/devdocs-theme.git', branch: 'yb_search-prefix'
 gem 'jekyll'
 
 group :test do
   gem 'html-proofer'
   gem 'launchy'
-  gem 'mdl'
 end
 
 group :optimization do

@@ -3,13 +3,13 @@ title: Shipping and Tax
 ---
 
 
-**Step 3 of 4** for [GMC Account Creation]({{ site.baseurl }}{% link sales-channels/google-ads/gmc-acct-create.md %}).
+**Step 3 of 4** for [GMC Account Creation]({% link sales-channels/google-ads/gmc-acct-create.md %}).
 
 To provide the best estimate of taxes, shipping, and grand totals for your customers, select the closest matching amounts for shipping and tax costs. Due to the complexity of shipping and taxes, you may want to enter shipping or tax settings through the Google Merchant Center (GMC). Your GMC account has extensive options to help you find the right calculations needed for your store. You must complete onboarding then configure values in your GMC account before Google approves your products.
 
 These settings affect the displayed costs in your Google ads. As customers review ads, Google auto-detects their location, matches ads for them, and displays the calculated costs of product price, shipping, and tax. For example, searching for shoes and hovering over these sneakers, we see the seller provides free shipping and no taxes.
 
-  ![]({{ site.baseurl }}{% link images/images/sales-channels/google/google-example-shiptax.png %}){: .zoom}
+  ![]({% link images/images/sales-channels/google/google-example-shiptax.png %}){: .zoom}
 
 {:.bs-callout .bs-callout-tip}
 We recommend overestimating amounts if you cannot provide an exact match for costs. Google performs routine checks for merchant listed taxes and shipping costs, verifying the amounts best match actual calculations from your storefront. If the Google defined amounts are lower than your actual costs, Google may disapprove of the products and/or account.
@@ -31,8 +31,8 @@ We recommend overestimating amounts if you cannot provide an exact match for cos
 
 1. When complete, click <span class="btn">Next</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/sales-channels/google/gmc-onboard-ship-tax.png %}){: .zoom}
+    ![]({% link images/images/sales-channels/google/gmc-onboard-ship-tax.png %}){: .zoom}
 
-![check]({{ site.baseurl }}{% link images/images/btn-next.png %}){: .Inline} [Continue to Step 4]({{ site.baseurl }}{% link sales-channels/google-ads/attribute-mapping.md %})
+![check]({% link images/images/btn-next.png %}){: .Inline} [Continue to Step 4]({% link sales-channels/google-ads/attribute-mapping.md %})
 
 [1]: https://support.google.com/merchants/answer/160162?hl=en

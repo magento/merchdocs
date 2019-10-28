@@ -12,7 +12,7 @@ When accessing Google Shopping ads Channel, the dashboard provides aggregated re
 * Campaign details and status for the entire run of the campaign
 * Action options to modify and manage your campaigns
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/google/ad-campaigns.png %}){: .zoom}
+![]({% link images/images/sales-channels/google/ad-campaigns.png %}){: .zoom}
 *Ad Campaigns Dashboard*
 
 ## Magento Business Intelligence Reporting
@@ -24,8 +24,8 @@ Expand your reporting options with Magento Business Intelligence (MBI). We provi
 * Product performance
 * Product Partition (group) performance
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/google/google-mbi-campaign.png %}){: .zoom}
+![]({% link images/images/sales-channels/google/google-mbi-campaign.png %}){: .zoom}
 *Campaign Performance Report*
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/google/google-mbi-clicks.png %}){: .zoom}
+![]({% link images/images/sales-channels/google/google-mbi-clicks.png %}){: .zoom}
 *Conversion Reports*

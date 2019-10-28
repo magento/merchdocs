@@ -8,87 +8,90 @@ Before setting up an email reminder rule, you must first set up a cart price rul
 {: .bs-callout .bs-callout-info}
 Email reminders might promote a cart price rule with, or without, a coupon. A cart price rule that defines an auto-generated coupon generates a random coupon code for each customer.
 
-## To create an email reminder
+## Create an Email Reminder
 
-1. On the Admin sidebar, tap **Marketing**. Then under **Communications**, choose **Email Reminder Rules**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Communications_ > **Email Reminder Rules**.
 
-1. In the upper-right corner, tap <span class="btn">Add New Rule</span>.
+1. In the upper-right corner, click <span class="btn">Add New Rule</span>.
 
 1. Complete the Rule Information, as follows:
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/email-reminder-new.png -%}){: .zoom}
-    *Rule Information*
+    ![Email reminder rule]({% link images/images-ee/email-reminder-new.png %}){: .zoom}
+    _Rule Information_
 
-    * Enter a **Rule Name** to identify the rule internally.
+    - Enter a **Rule Name** to identify the rule internally.
 
-    * Enter a brief **Description** of the rule.
+    - Enter a brief **Description** of the rule.
 
-    * To choose the **Cart Price Rule** promotion that this reminder is to advertise, tap <span class="btn">Select Rule…</span>. Then, select the rule.
+    - To choose the **Cart Price Rule** promotion that this reminder is to advertise, click <span class="btn">Select Rule…</span>, and select the rule.
 
-        ![]({{ site.baseurl }}{%- link images/images-ee/email-reminder-select-rule.png -%}){: .zoom}
-        *Select Cart Rule*
+        ![Cart rule - select]({% link images/images-ee/email-reminder-select-rule.png %}){: .zoom}
+        _Select Cart Rule_
 
-    * If you want the rule to go into effect immediately, set **Status** to “Active”.
+    - If you want the rule to go into effect immediately, set **Status** to `Active`.
 
-    * To set up a date range for the rule to be active, enter the **From** and **To** dates. You can also choose the date from the Calendar ( ![]({{ site.baseurl }}{%- link images/images/btn-calendar.png -%}) ).
+    - To set up a date range for the rule to be active, enter the **From** and **To** dates.
 
-    * To send the reminder more than once, enter the number of days before the next email blast in the **Repeat Schedule** field.
+        You can also choose the date from the Calendar ( ![Calendar icon]({% link images/images/btn-calendar.png %}) ).
 
-        To repeat the reminder multiple times, separate the number of days with a comma. For example, enter “7” to trigger the rule again in seven days; enter “7,14” to trigger the rule in seven days, and again fourteen days later.
+    - To send the reminder more than once, enter the number of days before the next email blast in the **Repeat Schedule** field.
 
-1. In the panel on the left, choose **Conditions**. At least one condition must be defined for the rule. The process is similar to building a [catalog price rule.]({{ site.baseurl }}{%- link marketing/price-rules-catalog.md -%})
+1. In the panel on the left, choose **Conditions**. At least one condition must be defined for the rule. The process is similar to building a [catalog price rule.]({% link marketing/price-rules-catalog.md %})
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/email-reminder-conditions.png -%}){: .zoom}
-    *Conditions*
+1. In the left panel, choose **Conditions**.
 
-    * Tap **Add** ( ![]({{ site.baseurl }}{%- link images/images/btn-add-grn.png -%})) to display the list of options. Then, choose one of the following conditions:
+    At least one condition must be defined for the rule. The process is similar to building a [catalog price rule.]({% link marketing/price-rules-catalog.md %})
 
-        * Wish List
-        * Shopping Cart
+    ![Email reminder conditions]({% link images/images-ee/email-reminder-conditions.png %}){: .zoom}
+    _Conditions_
 
-    * Complete the condition to describe the scenario that triggers the email reminder.
+    - Click **Add** ( ![Add icon]({% link images/images/btn-add-grn.png %})) to display the list of options. Then, choose one of the following conditions:
 
-        ![]({{ site.baseurl }}{%- link images/images-ee/email-reminder-condition-example.png -%}){: .zoom}
-        *Completed Condition*
+        - Wish List
+        - Shopping Cart
+
+    - Complete the condition to describe the scenario that triggers the email reminder.
+
+        ![email reminder conditions example]({% link images/images-ee/email-reminder-condition-example.png %}){: .zoom}
+        _Completed Condition_
 
 1. In the panel on the left, choose **Emails and Labels**.
 
-    ![]({{ site.baseurl }}{%- link images/images-ee/email-reminder-rule-emails-labels-email-templates.png -%}){: .zoom}
-    *Email and Labels*
+    ![Email reminder rule - emails and labels templates ]({% link images/images-ee/email-reminder-rule-emails-labels-email-templates.png %}){: .zoom}
+    _Email and Labels_
 
-1. In the Email Templates section, choose the email template to be used for each website and store view in your [store hierarchy]({{ site.baseurl }}{%- link stores/websites-stores-views.md -%}).
+1. In the **Email Templates** section, choose the email template to be used for each website and store view in your [store hierarchy]({% link stores/websites-stores-views.md %}).
 
-    If you do not want to send the reminder email to customers of a store view, leave the value “Not Selected”.
+    If you do not want to send the reminder email to customers of a store view, leave the value `Not Selected`.
 
 1. In the Default Titles and Description section, do the following:
 
-    * Enter the **Rule Title for All Store Views**.
+    - Enter the **Rule Title for All Store Views**.
 
         {: .bs-callout .bs-callout-info}
         This value can be incorporated into email templates by using the `promotion_name` variable.
 
-    * Enter the **Rule Description for All Store Views**.
+    - Enter the **Rule Description for All Store Views**.
 
-        ![]({{ site.baseurl }}{%- link images/images-ee/email-reminders-emails-and-labels-default-titles-description.png -%}){: .zoom}
-        *Default Titles and Description*
+        ![Email reminders - titles and descriptions]({% link images/images-ee/email-reminders-emails-and-labels-default-titles-description.png %}){: .zoom}
+        _Default Titles and Description_
 
-    * In the Titles and Descriptions Per Store View section, enter the Rule Title and Description for the **Default Store View**. For multiple store views, enter the appropriate title and description for each.
+    - In the **Titles and Descriptions Per Store View** section, enter the Rule Title and Description for the _Default Store View_. For multiple store views, enter the appropriate title and description for each.
 
         {: .bs-callout .bs-callout-info}
         The description can be incorporated into email templates by using the promotion_description variable.
 
-        ![]({{ site.baseurl }}{%- link images/images-ee/email-reminder-rules-title-descriptions-per-store-view.png -%}){: .zoom}
-        *Titles and Description per Store View*
+        ![Titles and descriptions - store view]({% link images/images-ee/email-reminder-rules-title-descriptions-per-store-view.png %}){: .zoom}
+        _Titles and Description per Store View_
 
-1. When complete, tap <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span>.
 
-##Trigger Conditions
+## Trigger Conditions
 
 |Source|Trigger|
 |--- |--- |
-|Wish List|Number of days abandonedSharingNumber of itemsSpecific items|
-|Shopping Cart|Number of days abandonedSpecific coupon code appliedLine items quantityItems quantityTotalVirtual itemsSpecific Items|
-{:style="table-layout:auto"}
+|Wish List|Number of days abandoned<br/>Sharing<br/>Number of items<br/>Specific items|
+|Shopping Cart|Number of days abandoned<br/>Specific coupon code applied<br/>Line items quantity<br/>Items quantity<br/>Total<br/>Virtual items<br/>Specific Items|
 
 ## Field Descriptions
 
@@ -98,11 +101,10 @@ Email reminders might promote a cart price rule with, or without, a coupon. A ca
 |Description|A description of the rule for internal reference.|
 |Shopping Cart Price Rule|The shopping cart rule that is associated with this email reminder. Reminder emails can promote a shopping cart price rule with or without coupon. If a shopping cart price rule includes an auto-generated coupon, the reminder rule will generate a random, unique coupon code for each customer.|
 |Assigned to Website|The websites to receive automated reminder emails based on this rule.|
-|Status|Activates the rule. If status is inactive, then all other settings are ignored, and the rule is not triggered.Options: Active / Inactive|
-|From Date|The starting date for this automated reminder rule. If no date is specified,  the rule becomes active immediately.|
+|Status|Activates the rule. If status is inactive, then all other settings are ignored, and the rule is not triggered. Options: Active / Inactive|
+|From Date|The starting date for this automated reminder rule. If no date is specified, the rule becomes active immediately.|
 |To Date|The ending date for this automated reminder rule. If no date is specified, the rule becomes active indefinitely.|
-|Repeat Schedule|The number of days before the rule is triggered,  and the reminder email sent again, provided the conditions are met. To trigger the rule more than once, enter the number of days before the next email blast, separated by a comma. For example, enter “7” to have the rule triggered again seven days later; enter “7,14” to have the rule triggered in seven days, and again fourteen days later.|
+|Repeat Schedule|The number of days before the rule is triggered, and the reminder email sent again, provided the conditions are met. To trigger the rule more than once, enter the number of days before the next email blast, separated by a comma. For example, enter `7` to have the rule triggered again seven days later; enter `7,14` to have the rule triggered in seven days, and again fourteen days later.|
 |Email Templates|Determines the email template to be used for each store view.|
 |Rule Title for All Store Views|Determines the title of the rule for each store view.|
 |Rule Description for All Store Views|Determines the description of the rule for each store view.|
-{:style="table-layout:auto"}

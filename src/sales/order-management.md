@@ -29,11 +29,11 @@ sections:
 This section describes the stages of the order workflow and how to process orders, create invoices, and shipments. It also explains how to issue credit memos and set up billing agreements.
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-Magento Commerce users have additional order management features: [Returns]({{ site.baseurl }}{% link sales/returns.md %}) and [Archive]({{ site.baseurl }}{% link sales/order-archive.md %})
+Magento Commerce users have additional order management features: [Returns]({% link sales/returns.md %}) and [Archive]({% link sales/order-archive.md %})
 
 <!--{% endif %}-->
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-Magento Commerce for B2B users can use the [Quotes]({{ site.baseurl }}{% link sales/quotes.md %}) feature to allow authorized buyers to initiate the price negotiation process by submitting a request from the shopping cart. The Quotes grid lists each quote received, and maintains a history of the communication between buyer and seller.
+Magento Commerce for B2B users can use the [Quotes]({% link sales/quotes.md %}) feature to allow authorized buyers to initiate the price negotiation process by submitting a request from the shopping cart. The Quotes grid lists each quote received, and maintains a history of the communication between buyer and seller.
 
 <!--{% endif %}-->
 {% include grid.html sections=page.sections %}

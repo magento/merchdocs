@@ -10,7 +10,7 @@ Magento Product Reviews is enabled by default.
 
 1. Under Catalog in the panel on the left, select **Catalog**.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Product Reviews** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Product Reviews** section.
 
 1. Set **Enabled** to `Yes`. This is the default setting.
 
@@ -18,7 +18,7 @@ Magento Product Reviews is enabled by default.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-![]({{ site.baseurl }}{%- link images/images/magento-product-reviews-config.png -%}){: .zoom}
+![]({% link images/images/magento-product-reviews-config.png %}){: .zoom}
 _Magento Product Reviews settings_
 
 {:.bs-callout .bs-callout-info}

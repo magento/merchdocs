@@ -2,12 +2,12 @@
 title: Issuing a Credit Memo
 ---
 
-Before a credit memo can be printed, it must first be generated for the order. Any credit memo with a [status]({{ site.baseurl }}{% link sales/order-status.md %}) of “open” has an outstanding refund due. {% if "Default.EE-B2B" contains site.edition %}If you create a credit memo for an order that includes gift options, the refund for the gift wrapping and/or printed card appears in the Refund Totals section of the credit memo. To exclude these costs from the amount to be refunded, enter the amount as an Adjustment Fee. If multiple credit memos are issued for the same order, the refund for gift options appears in only the first credit memo.{% endif %} Customers can view and print a record of their refunds from the [My Orders]({{ site.baseurl }}{% link customers/account-dashboard-my-orders.md %}) section of their account.
+Before a credit memo can be printed, it must first be generated for the order. Any credit memo with a [status]({% link sales/order-status.md %}) of “open” has an outstanding refund due. {% if "Default.EE-B2B" contains site.edition %}If you create a credit memo for an order that includes gift options, the refund for the gift wrapping and/or printed card appears in the Refund Totals section of the credit memo. To exclude these costs from the amount to be refunded, enter the amount as an Adjustment Fee. If multiple credit memos are issued for the same order, the refund for gift options appears in only the first credit memo.{% endif %}
 
 {:.bs-callout .bs-callout-info}
-If using [Vertex Cloud]({{ site.baseurl }}{% link tax/vertex.md %}), see the [Vertex Settings]({{ site.baseurl }}{% link configuration/sales/tax.md %}) configuration section for information about issuing refunds for sales orders that are invoiced when the status is either `Suspected Fraud` or `Canceled`.
+If using [Vertex Cloud]({% link tax/vertex.md %}), see the [Vertex Settings]({% link configuration/sales/tax.md %}) configuration section for information about issuing refunds for sales orders that are invoiced when the status is either `Suspected Fraud` or `Canceled`.
 
-![]({{ site.baseurl }}{% link images/images/order-credit-memo.png %}){: .zoom}
+![]({% link images/images/order-credit-memo.png %}){: .zoom}
 _Create Credit Memo_
 
 ## To issue a credit memo:
@@ -20,15 +20,15 @@ _Create Credit Memo_
 
 1. In the button bar at the top of the page, click **Credit Memo**. (The button appears only after an order is invoiced.)
 
-    ![]({{ site.baseurl }}{% link images/images/order-create-credit-memo.png %}){: .zoom}
+    ![]({% link images/images/order-create-credit-memo.png %}){: .zoom}
     <!--{% if "Default.B2B Only" contains site.edition %}-->
-    ![]({{ site.baseurl }}{% link images/images-b2b/order-account-info-credit-memo.png %}){: .zoom}
+    ![]({% link images/images-b2b/order-account-info-credit-memo.png %}){: .zoom}
     <!--{% endif %}-->
     _Create Credit Memo_
 
     The New Credit Memo page looks similar to the completed order page, with an Items to Refund section that lists each item from the invoice.
 
-    ![]({{ site.baseurl }}{% link images/images/credit-memo-items-to-refund.png %}){: .zoom}
+    ![]({% link images/images/credit-memo-items-to-refund.png %}){: .zoom}
     _Items to Refund_
 
 1. Set the return to stock option:
@@ -79,13 +79,13 @@ _Create Credit Memo_
         The status of a credit memo notification appears in the completed credit memo next to the credit memo number.
 
         <!--{% if "Default.CE Only" contains site.edition %}-->
-        ![]({{ site.baseurl }}{% link images/images/credit-memo-order-total.png %}){: .zoom}
+        ![]({% link images/images/credit-memo-order-total.png %}){: .zoom}
         <!--{% endif %}-->
         <!--{% if "Default.EE Only" contains site.edition %}-->
-        ![]({{ site.baseurl }}{% link images/images-ee/credit-memo-order-total.png %}){: .zoom}
+        ![]({% link images/images-ee/credit-memo-order-total.png %}){: .zoom}
         <!--{% endif %}-->
         <!--{% if "Default.B2B Only" contains site.edition %}-->
-        ![]({{ site.baseurl }}{% link images/images-b2b/credit-memo-order-totals.png %}){: .zoom}
+        ![]({% link images/images-b2b/credit-memo-order-totals.png %}){: .zoom}
         <!--{% endif %}-->
         _Refund Totals_
 
@@ -133,13 +133,13 @@ _Create Credit Memo_
 ### Address Information
 
 |--- |--- |
-|Billing Address|The name of the customer {% if "Default.B2B Only" contains site.edition %}buyer{% endif %} who placed the order, followed by the {% if "Default.B2B Only" contains site.edition %}company {% endif %}billing address, telephone number and [VAT]({{ site.baseurl }}{% link tax/vat.md %}), if applicable. The telephone number is linked to autodial on a mobile device.|
+|Billing Address|The name of the customer {% if "Default.B2B Only" contains site.edition %}buyer{% endif %} who placed the order, followed by the {% if "Default.B2B Only" contains site.edition %}company {% endif %}billing address, telephone number and [VAT]({% link tax/vat.md %}), if applicable. The telephone number is linked to autodial on a mobile device.|
 |Shipping Address|The name of the person to whose attention the order should be shipped, followed by the {% if "Default.B2B Only" contains site.edition %}company{% endif %} shipping address and telephone number. The telephone number is linked to autodial on a mobile device.|
 
 ### Payment & Shipping Method
 
 |--- |--- |
-|Payment Information|The method of payment to be used for the order, and purchase order number, if applicable, followed by the currency that was used to place the order.{% if "Default.B2B Only" contains site.edition %}If the order is charged to company credit, using [Payment on Account]({{ site.baseurl }}{% link payment/payment-on-account.md %}), the amount charged to the account is indicated.{% endif %}|
+|Payment Information|The method of payment to be used for the order, and purchase order number, if applicable, followed by the currency that was used to place the order.{% if "Default.B2B Only" contains site.edition %}If the order is charged to company credit, using [Payment on Account]({% link payment/payment-on-account.md %}), the amount charged to the account is indicated.{% endif %}|
 |Shipping & Handling Information|The shipping method to be used, and any handling fee that is applicable.|
 
 ### Items to Refund
@@ -172,7 +172,7 @@ _Create Credit Memo_
 |Grand Total|The total amount to be refunded|
 |Append Comments|Checkbox that determines if comments are included in the credit memo.|
 |Email Copy of Credit Memo|Checkbox that determines if a copy of the credit memo is emailed.|<!--{% if "Default.EE Only" contains site.edition %}-->
-|Refund to Store Credit|Checkbox that determines if the total is to be refunded to [store credit]({{ site.baseurl }}{% link sales/store-credit-using.md %}).|<!--{% endif %}-->
+|Refund to Store Credit|Checkbox that determines if the total is to be refunded to [store credit]({% link sales/store-credit-using.md %}).|<!--{% endif %}-->
 
 ### Refund Buttons
 
@@ -181,7 +181,7 @@ The payment method used for the order determines that refund buttons that are av
 |--- |--- |
 |<span class="btn">Refund Online</span>|If the original purchase was paid by credit card through a payment gateway, the refund amount is managed by the payment processor. To manage refunds, see the  documentation provided by your payment provider.|
 |<span class="btn">Refund Offline</span>|If the original purchase was paid by check or money order, the refund is paid directly to the customer, by issuing a check, gift card, or cash if you have a brick and mortar storefront. The credit memo serves as a record of the offline transaction.|<!--{% if "Default.B2B Only" contains site.edition %}-->
-|<span class="btn">Refund to Company Credit</span>|If the purchase was charged to company credit, the refund is returned to the [company’s account]({{ site.baseurl }}{% link customers/account-dashboard-company-credit.md %}).|<!--{% endif %}-->
+|<span class="btn">Refund to Company Credit</span>|If the purchase was charged to company credit, the refund is returned to the [company’s account]({% link customers/account-dashboard-company-credit.md %}).|<!--{% endif %}-->
 {: .buttons-table }
 
 <style>

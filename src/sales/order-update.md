@@ -4,7 +4,7 @@ title: Updating an Order
 
 After a customer places an order, it is sometimes necessary to edit the order, place it on hold, or cancel it entirely. When you change an order, the original order is canceled and a new order is generated. You can, however, change the billing or shipping address without generating a new order.
 
-![]({{ site.baseurl }}{% link images/images/sales-order-edit.png %}){: .zoom}
+![]({% link images/images/sales-order-edit.png %}){: .zoom}
 _Edit Order_
 
 ## To edit an order:
@@ -37,7 +37,7 @@ If the customer’s preferred method of payment is not available, or if the item
 
 1. Click **Hold** to place the order on hold.
 
-    ![]({{ site.baseurl }}{% link images/images/sales-order-hold.png %}){: .zoom}
+    ![]({% link images/images/sales-order-hold.png %}){: .zoom}
     _Hold Order_
 
 To remove the hold on an order, edit the order. Then, click **Unhold**.
@@ -52,7 +52,7 @@ Canceling an order changes its status from `Pending` to `Canceled`.
 
 1. Click **Cancel** to cancel the order.
 
-    ![]({{ site.baseurl }}{% link images/images/sales-order-cancel.png %}){: .zoom}
+    ![]({% link images/images/sales-order-cancel.png %}){: .zoom}
     _Cancel Order_
 
 The status of the order is now `Canceled`.

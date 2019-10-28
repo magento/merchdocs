@@ -23,5 +23,5 @@ Additional Category URLs
     http://www.example.com/all-on-sale.html
     http://www.example.com/save-now/spring-sale
 
-![]({{ site.baseurl }}{%- link images/images/url-rewrites.png -%}){: .zoom}
+![]({% link images/images/url-rewrites.png %}){: .zoom}
 *URL Rewrites*

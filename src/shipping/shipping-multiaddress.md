@@ -12,7 +12,7 @@ The Multiaddress Shipping options enable customers to ship an order to multiple 
 
 1.  In the _Sales_ section in the left panel, choose **Multishipping Settings**.
 
-1.  Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Options** section. Then, do the following:
+1.  Expand ![]({% link images/images/btn-expand.png %}) the **Options** section. Then, do the following:
 
 1.  Set **Allow Shipping to Multiple Addresses** to “Yes”.
 
@@ -20,5 +20,5 @@ The Multiaddress Shipping options enable customers to ship an order to multiple 
 
 1.  Click **Save Config**.
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-multishipping-settings-options.png %}){: .zoom}
-    _[Multiaddress Shipping Options]({{ site.baseurl }}{% link configuration/sales/multishipping-settings.md %})_
+    ![]({% link images/images/config-sales-multishipping-settings-options.png %}){: .zoom}
+    _[Multiaddress Shipping Options]({% link configuration/sales/multishipping-settings.md %})_

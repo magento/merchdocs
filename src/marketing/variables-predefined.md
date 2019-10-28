@@ -4,7 +4,7 @@ title: Adding Predefined Variables
 
 Predefined variables are easy to add to content email templates and content pages to personalize communications. The selection of available variables depends on the template.
 
-![]({{ site.baseurl }}{%- link images/images/variable-insert-contact-email.png -%}){: .zoom}
+![]({% link images/images/variable-insert-contact-email.png %}){: .zoom}
 *Variables for Contact Form Template*
 
 ## To add a variable to an email template

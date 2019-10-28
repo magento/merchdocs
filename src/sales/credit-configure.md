@@ -5,7 +5,7 @@ title: Configuring Store Credit
 
 The store credit configuration control automatic refunds, the display of available credit in customers’ accounts, and the email template that is used for notifications sent to customers.
 
-![]({{ site.baseurl }}{% link images/images-ee/config-customers-customer-configuration-store-credit-options.png %}){: .zoom}
+![]({% link images/images-ee/config-customers-customer-configuration-store-credit-options.png %}){: .zoom}
 Store Credit Options
 
 ## To configure store credit:
@@ -14,7 +14,7 @@ Store Credit Options
 
 1. In the _Customers_ section in the left panel,  choose **Customer Configuration**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Store Credit Options** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Store Credit Options** section. Then, do the following:
 
      - Set **Enable Store Credit Functionality** to `Yes`.
 

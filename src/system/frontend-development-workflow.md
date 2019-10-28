@@ -6,10 +6,10 @@ The Frontend Development Workflow type determines if Less compilation takes plac
 See [Client-side LESS compilation vs. server-side][1] in the developer documentation.
 
 {: .bs-callout-info}
-The Frontend Development Workflow configuration is available in [Developer Mode]({{ site.baseurl }}{% link magento/installation-modes.md %}) only.
+The Frontend Development Workflow configuration is available in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-developer-frontend-development-workflow.png %})<br/>
-[_Front-end Development Workflow_]({{ site.baseurl }}{% link configuration/advanced/developer.md %})
+![]({% link images/images/config-advanced-developer-frontend-development-workflow.png %})<br/>
+[_Front-end Development Workflow_]({% link configuration/advanced/developer.md %})
 
 1.  On the _Admin_ sidebar, click **Stores**.
 

@@ -21,7 +21,7 @@ If you do not have an active subscription and you are part of the Magento Commun
 The instructions in this section walk you through the activation, and introduce some basic features of Magento BI Essentials. For more detailed information, refer to the [Magento BI Help Center][2]{: target="_blank"}.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/reports-bi-essentials-sign-up.png %}){: .zoom}
+![]({% link images/images/reports-bi-essentials-sign-up.png %}){: .zoom}
 
 <!--{% endif %}-->
 ## To {% if "Default.CE Only" contains site.edition %}sign up for a new {% endif %}{% if "Default.EE-B2B" contains site.edition %}activate your {% endif %}Magento BI Essentials account:
@@ -45,10 +45,10 @@ The instructions in this section walk you through the activation, and introduce 
 1. Complete the account creation form{% if "Default.CE Only" contains site.edition %} (if your email account is already associated with a Magento account, use the **Sign In** link to log in first){% endif %}. Then, click <span class="btn">Continue</span>.
 
     <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({{ site.baseurl }}{% link images/images/reports-bi-essentials-sign-up-form.png %}){: .zoom}
+    ![]({% link images/images/reports-bi-essentials-sign-up-form.png %}){: .zoom}
     <!--{% endif %}-->
     <!--{% if "Default.EE-B2B" contains site.edition %}-->
-    ![]({{ site.baseurl }}{% link images/images/reports-bi-essentials-sign-up-form-logged-in.png %}){: .zoom}
+    ![]({% link images/images/reports-bi-essentials-sign-up-form-logged-in.png %}){: .zoom}
     <!--{% endif %}-->
     *Create Account*
 <!--{% if "Default.CE Only" contains site.edition %}-->
@@ -64,7 +64,7 @@ The instructions in this section walk you through the activation, and introduce 
 
 1. In the upper-right corner, click **Additional Resources**. Then under **Magento Business Intelligence**, choose **Magento BI Website**.
 
-    ![]({{ site.baseurl }}{% link images/images/advanced-reporting-your-data-resources.png %}){: .zoom}
+    ![]({% link images/images/advanced-reporting-your-data-resources.png %}){: .zoom}
     *Your Data Resources*
 
 ### Method 2: From your browser
@@ -73,12 +73,12 @@ The instructions in this section walk you through the activation, and introduce 
 
 1. Enter your **Email Address** and **Password**. Then, click <span class="btn">Sign In</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/magento-bi-sign-in.png %}){: .zoom}
+    ![]({% link images/images/magento-bi-sign-in.png %}){: .zoom}
     *Sign In to Magento BI*
 
 1. Your Magento BI dashboard appears.
 
-    ![]({{ site.baseurl }}{% link images/images/reports-bi-essentials-dashboard-full.png %}){: .zoom}
+    ![]({% link images/images/reports-bi-essentials-dashboard-full.png %}){: .zoom}
     *Magento BI Essentials Dashboard*
 
 [1]: https://support.magento.com/hc/en-us/articles/360016504752

@@ -6,29 +6,27 @@ If a user has issues accessing the Magento Admin with their authenticator, they 
 
 If you have issues accessing the Magento Admin with the authenticators, consider the following:
 
--  Some mobile apps include options to sync. This option reconnects the app and server, updating in case time settings changed on the device or server.
--  Revoking a device or resetting an authenticator can help users connect.
--  Clearing web cache and cookies for the Magento instance can also help. Authenticators, like Google, use generated cookies to save access and duration. Clear your cookies for your specific browser and Magento instance domain.
--  If you have blocked cookies for your browser, this will block some authenticators, like Google, from completing verification and access. Add a rule to allow cookies for your Magento instance.
+- Some mobile apps include options to sync. This option reconnects the app and server, updating in case time settings changed on the device or server.
+- Revoking a device or resetting an authenticator can help users connect.
+- Clearing web cache and cookies for the Magento instance can also help. Authenticators, like Google, use generated cookies to save access and duration. Clear your cookies for your specific browser and Magento instance domain.
+- If you have blocked cookies for your browser, this will block some authenticators, like Google, from completing verification and access. Add a rule to allow cookies for your Magento instance.
 
-## To reset authenticators per account:
+## Reset authenticators per account
 
 Resetting an authenticator also revokes all trusted devices tracked by the Admin.
 
-1.  On the _Admin_ sidebar, click **System**.
+1. On the _Admin_ sidebar, go to **System** > _Permissions_ > **All Users**.
 
-1.  Under _Permissions_, choose **All Users**.
+1. Select and edit a user from the list or add a new user account.
 
-1.  Select and edit a user from the list or add a new user account.
+1. Click **2FA**.
 
-1.  Click **2FA**.
+1. Click the **Reset…** option for one or more listed authenticators.
 
-1.  Click the **Reset…** option for one or more listed authenticators.
-
-    ![]({{ site.baseurl }}{% link images/images/system-users-2fa-reset.png %})
+    ![2FA - reset authenticators on account]({% link images/images/system-users-2fa-reset.png %})<br/>
     _Reset authenticators on an account_
 
-## To revoke a trusted device:
+## Revoke a trusted device
 
 Some users may have authenticator access issues after syncing or no longer have access to a device with previous access to the Magento Admin. If you have the option enabled to track trusted devices for an authenticator, every device that accesses the Admin has a saved entry.
 
@@ -36,29 +34,24 @@ These entries detect the device and allow log in access without requiring authen
 
 After revoking a listed device, the user must authenticate again if accessing the Admin from it.
 
-1.  On the _Admin_ sidebar, click **System**.
+1. On the _Admin_ sidebar, go to **System** > _Permissions_ > **All Users**.
 
-1.  Under _Permissions_, choose **All Users**.
+1. Select and edit a user from the list or add a new user account.
 
-1.  Do one of the following:
+1. Click **2FA**.
 
-    -  Select and edit a user from the list.
-    -  Add a new user account.
-
-1.  Click **2FA**.
-
-1.  In the **Trusted devices** grid, locate a device to remove from the account. Then, click **Revoke**.
+1. In the **Trusted devices** grid, locate a device to remove from the account and click **Revoke**.
 
     If the user accesses the Admin from this device again, they must authenticate regardless of any cookies with active duration.
 
-    ![]({{ site.baseurl }}{% link images/images/system-users-2fa-revoke-trusted.png %})
-   _ Revoke a trusted, authenticated device_
+    ![2FA - revoke trusted device]({% link images/images/system-users-2fa-revoke-trusted.png %})<br/>
+    _Revoke a trusted, authenticated device_
 
 ## Emergency CLI commands
 
 Use the following commands if you lose access to the Admin.
 
-### To disable 2FA:
+### Disable 2FA
 
 If you have issues with 2FA, you can disable the module from command-line. This disables 2FA globally.
 
@@ -66,7 +59,7 @@ If you have issues with 2FA, you can disable the module from command-line. This 
 php bin/magento msp:security:tfa:disable
 ```
 
-### To reset authenticator per account:
+### Reset authenticator per account
 
 If you need to manually reset a single user configuration, enter the following from the command-line. The command restarts configuration and 2FA subscription for the user account.
 

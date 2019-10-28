@@ -33,7 +33,7 @@ sections:
 
 Learn how to filter data and online generate reports. The report data can be opened in a spreadsheet or imported into other applications.
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-For Magento Commerce users, there are also [Private Sales Reports]({{ site.baseurl }}{% link reports/statistics.md %}).
+For Magento Commerce users, there are also [Private Sales Reports]({% link reports/statistics.md %}).
 <!--{% endif %}-->
 
 {% include grid.html sections=page.sections%}

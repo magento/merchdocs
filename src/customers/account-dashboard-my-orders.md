@@ -4,15 +4,7 @@ title: My Orders
 
 Customers have access to all of their orders from their account. Orders can be viewed, tracked, and resubmitted as new orders. Depending on the status of the order, customers can print their orders, invoices, shipments, and refund records.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/customer-account-my-orders.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/customer-account-my-orders.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-b2b/customer-account-dashboard-my-orders.png %}){: .zoom}
-<!--{% endif %}-->
+![]({% link images/images/customer-account-my-orders.png %}){: .zoom}
 _My Orders_
 
 ## To view an order:
@@ -44,7 +36,7 @@ _View Order_
 
 1. Click <span class="btn">Print</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/customer-account-print-order.png %}){: .zoom}
+    ![]({% link images/images/customer-account-print-order.png %}){: .zoom}
     _Print Order_
 
 ### Print Invoices
@@ -59,16 +51,8 @@ _View Order_
 
 1. Click <span class="btn">Print</span>.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/customer-account-order-invoices.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/customer-account-order-invoices.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-b2b/customer-account-order-invoices.png %}){: .zoom}
-<!--{% endif %}-->
-_Invoices_
+    ![]({% link images/images/customer-account-order-invoices.png %}){: .zoom}
+    _Invoices_
 
 ### Print Shipments
 
@@ -82,16 +66,8 @@ _Invoices_
 
 1. Click <span class="btn">Print</span>.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/customer-account-order-shipments.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/customer-account-order-shipments.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-b2b/customer-account-order-shipments.png %}){: .zoom}
-<!--{% endif %}-->
-_Order Shipments_
+    ![]({% link images/images/customer-account-order-shipments.png %}){: .zoom}
+    _Order Shipments_
 
 ### Track a Shipment
 
@@ -113,13 +89,5 @@ _Order Shipments_
 
 1. Click <span class="btn">Print</span>.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/customer-account-order-refunds.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/customer-account-order-refunds.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-b2b/customer-account-order-refunds.png %}){: .zoom}
-<!--{% endif %}-->
-_Refunds_
+    ![]({% link images/images/customer-account-order-refunds.png %}){: .zoom}
+    _Refunds_

@@ -28,7 +28,7 @@ Setting a source to `disabled` is helpful for the following situations:
 
 1. Click the **Actions** menu at the upper-left corner of the Sources grid and choose **Disable**.
 
-   ![Inventory Management sources - Actions menu]({{ site.baseurl }}{% link images/images/stores-inventory-sources-disable.png %}){: .zoom}
+   ![Inventory Management sources - Actions menu]({% link images/images/stores-inventory-sources-disable.png %}){: .zoom}
    _Actions menu_
 
 1. In the confirmation dialog, click <span class="btn">OK</span>.
@@ -39,7 +39,7 @@ Setting a source to `disabled` is helpful for the following situations:
 
 1. Locate a custom source and click **Edit**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **General** section and change **Is Enabled**:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **General** section and change **Is Enabled**:
 
     |Option|Description|
     |--|--|

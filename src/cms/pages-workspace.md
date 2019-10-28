@@ -4,14 +4,14 @@ title: Workspace Controls
 
 The page workspace includes tools to help you quickly find the pages you need, and commands to perform routine maintenance on individual or multiple pages. You can also quickly update page properties from the grid.
 
-![]({{ site.baseurl }}{% link images/images/pages.png %}){: .zoom}
+![]({% link images/images/pages.png %}){: .zoom}
 _Pages Grid_
 
 ## To quickly update page properties
 
 1. Click any row in the grid. To select multiple records, select the checkbox of each row that you want to update.
 
-   ![]({{ site.baseurl }}{% link images/images/page-grid-properties-update.png %}){: .zoom}
+   ![]({% link images/images/page-grid-properties-update.png %}){: .zoom}
    _Update Page Properties_
 
 1. Update any of the following properties:

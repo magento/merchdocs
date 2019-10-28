@@ -5,7 +5,7 @@ title: Updating Events
 
 Events can be edited from either the Events page or from the category that is associated with the event. When a category has an associated event, an Edit Event button appears in the upper-right corner.
 
-![]({{ site.baseurl }}{%- link images/images-ee/catalog-event-information.png -%}){: .zoom}
+![Event information]({% link images/images-ee/catalog-event-information.png %}){: .zoom}
 _Edit Event_
 
 ## Method 1: Edit Event from the Events Page
@@ -22,7 +22,9 @@ _Edit Event_
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
 
-1. In the category tree on the left, select the category that is associated with the event. Then in the upper-right corner, click <span class="btn">Edit Event</span>.
+1. In the category tree on the left, select the category that is associated with the event.
+
+1. In the upper-right corner, click <span class="btn">Edit Event</span>.
 
 1. Make the necessary changes to the event.
 

@@ -7,7 +7,7 @@ Helpful tips, tricks, and important information for your Google Shopping ads int
 
 ## Account Onboarding and Configurations
 
-Use these helpful tips when completing [Google onboarding]({{ site.baseurl }}{% link sales-channels/google-ads/onboarding-google.md %}).
+Use these helpful tips when completing [Google onboarding]({% link sales-channels/google-ads/onboarding-google.md %}).
 
 * Turn off pop-up blockers in your web browser. Some browsers may include pop-up blockers by default (like Chrome). You cannot complete onboarding with pop-up blockers enabled. Login screens open to Google using pop-up windows.
 * Always check back on your Account and Product Errors to resolve issues. Magento performs some validation immediately, listing products that are missing information required by Google before review. Google performs revolving checks on your product updates to complete reviews for corrected and added products.
@@ -21,7 +21,6 @@ Use these helpful tips when completing [Google onboarding]({{ site.baseurl }}{% 
 
 * If you exceed your Google quota (default is 150,000) for total synced line items (all items in your product feed for all countries), you will receive an account error of too many products. For example, if you sell and promote a product across three countries, the total number counts against your total. Magento cannot extend or affect this quota. To increase your limit, [contact Google with this form][2].
 * Check for and remove excessive numbers of invalid products to keep your synced product amounts within your allocated quota.
-* Consider adding product expiration dates to cycle through products on Google and stay within your allocated quota. When the expiration is reached, the product automatically deletes from Google. The default and maximum expiration date is 30 days after product addition or update to Google.
 * If you save price changes to products, or remove products, Magento immediately sends those updates to Google. You should see the updated prices and removals within an hour after saving changes. This is separate from product approval status checks with Google.
 * Ensure your products prices and availability (in or out of stock) match between your online storefront and GMC account. The quantity can differ and does not affect approval. Google uses the Magento Regular Price and Special Price. See Google's [Troubleshooter: Preemptive product disapproval (price and availability)][3].
 * Consider not selling products that require personalization or customization during checkout. See Google's [Troubleshooter: Personalized goods][4].
@@ -35,7 +34,7 @@ Use these helpful tips when completing [Google onboarding]({{ site.baseurl }}{% 
 * To better understand Google Ads issues, see Google's [Fix issues with a Shopping campaign][6].
 * Plan your campaigns and keep track through the Google Shopping ads dashboard. All campaigns are manually created and ended through the Magento Admin. Magento does not support scheduled campaigns at this time.
 * You can create many campaigns to prepare for different seasons and promotions, pausing them until ready to cycle the campaigns.
-* Google serves and runs ads in all languages you configured when [claiming and verifying your URL]({{ site.baseurl }}{% link sales-channels/google-ads/url-verify.md %}). This may increase your costs for running ads.
+* Google serves and runs ads in all languages you configured when [claiming and verifying your URL]({% link sales-channels/google-ads/url-verify.md %}). This may increase your costs for running ads.
 
 [1]: https://support.google.com/merchants/answer/2948694
 [2]: https://support.google.com/merchants/contact/additional_items

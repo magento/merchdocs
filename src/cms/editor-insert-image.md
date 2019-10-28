@@ -2,9 +2,9 @@
 title: Inserting an Image
 ---
 
-From the editor, you can insert an image that has been uploaded to [Media Storage]({{ site.baseurl }}{% link cms/media-storage.md %}) or link to an image that resides on another server.
+From the editor, you can insert an image that has been uploaded to [Media Storage]({% link cms/media-storage.md %}) or link to an image that resides on another server.
 
-![]({{ site.baseurl }}{% link images/images/media-storage.png %}){: .zoom}
+![]({% link images/images/media-storage.png %}){: .zoom}
 _Media Storage_
 
 ## Method 1: Insert an Image from Media Storage
@@ -27,7 +27,7 @@ Use this method to insert an image that is available online, but resides on anot
 
 1. On the Editor toolbar, click <span class="btn">Insert Image</span>. Then, do the following:
 
-    ![]({{ site.baseurl }}{% link images/images/editor-toolbar/editor-menu-image-button.png %}){: .zoom}
+    ![]({% link images/images/editor-toolbar/editor-menu-image-button.png %}){: .zoom}
     _Insert Image Button_
 
     - In the **Image URL** field, paste the full URL to the image on the other server.

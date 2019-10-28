@@ -26,10 +26,10 @@ For security, when a CDN is used as media storage, JavaScript may not function p
 
 1. In the upper-left corner, set **Store View** as needed.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Base URLs** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Base URLs** section. Then, do the following:
 
-    ![]({{ site.baseurl }}{% link images/images/config-general-web-base-urls.png %}){: .zoom}
-    [*Base URLs*]({{ site.baseurl }}{% link configuration/general/web.md %})
+    ![]({% link images/images/config-general-web-base-urls.png %}){: .zoom}
+    [*Base URLs*]({% link configuration/general/web.md %})
 
     - Update the **Base URL for Static View Files** with the URL of the location on the CDN where static view files are stored.
 
@@ -39,8 +39,8 @@ For security, when a CDN is used as media storage, JavaScript may not function p
 
 1. Expand the **Base URLs (Secure)** section.
 
-    ![]({{ site.baseurl }}{% link images/images/config-general-web-base-urls-secure.png %}){: .zoom}
-    [*Base URLs (Secure)*]({{ site.baseurl }}{% link configuration/general/web.md %})
+    ![]({% link images/images/config-general-web-base-urls-secure.png %}){: .zoom}
+    [*Base URLs (Secure)*]({% link configuration/general/web.md %})
 
     - Update the **Secure Base URL for Static View Files** with the URL of the location on the CDN where static view files are stored.
 

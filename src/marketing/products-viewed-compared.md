@@ -10,10 +10,10 @@ The Recently Viewed and Recently Compared blocks usually appear in the right sid
 
 1. In the panel on the left under **Catalog**, choose **Catalog**.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Recently Viewed/Compared Products** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Recently Viewed/Compared Products** section. Then, do the following:
 
-    ![]({{ site.baseurl }}{%- link images/images/config-catalog-catalog-recently-viewed-compared-products.png -%}){: .zoom}
-    [*Recently Viewed/Compared Products*]({{ site.baseurl }}{%- link configuration/catalog/catalog.md -%})
+    ![]({% link images/images/config-catalog-catalog-recently-viewed-compared-products.png %}){: .zoom}
+    [*Recently Viewed/Compared Products*]({% link configuration/catalog/catalog.md -%})
 
    * Set **Show for Current** to the website, store, or store view where the configuration applies.
 

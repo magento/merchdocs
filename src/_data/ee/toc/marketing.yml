@@ -396,7 +396,7 @@ pages:
       url: "/marketing/reward-exchange-rates.html"
     - label: Reward Points in Price Rules
       url: "/marketing/reward-points-price-rules.html"
-  - label: Private Sales & Events
+  - label: Private Sales and Events
     url: "/marketing/events-private-sales.html"
     children:
     - label: Event Components

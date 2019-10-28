@@ -25,23 +25,23 @@ Give your customers access to financing with PayPal Credit, at no additional cos
    * PayPal Express Checkout
    * Any PayPal All-In-One Solution with PayPal Express Checkout
 
-   ![PayPal Express Checkout]({{ site.baseurl }}{% link images/images/payment-recommended-solutions-paypal.png %}){: .zoom}
+   ![PayPal Express Checkout]({% link images/images/payment-recommended-solutions-paypal.png %}){: .zoom}
    _PayPal Express Checkout_
 
-1. Complete the **Required PayPal Settings**. Then, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} **Advertise PayPal Credit**.
+1. Complete the **Required PayPal Settings**. Then, expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Advertise PayPal Credit**.
 
 1. Set **Enable PayPal Credit** to “Yes”.
 
 1. Tap <span class="btn">Save Config</span>.
 
-   ![Enable PayPal Credit]({{ site.baseurl }}{% link images/images/paypal-credit-enable.png %}){: .zoom}
+   ![Enable PayPal Credit]({% link images/images/paypal-credit-enable.png %}){: .zoom}
    _Enable PayPal Credit_
 
 ## To enable PayPal Credit banners:
 
 These examples do not represent the actual size of the banners, but show their relative shape and proportion.
 
-![Bill Me Later banner sizes]({{ site.baseurl }}{% link images/images/payment-paypal-bill-me-later-banner-size.png %} "Bill Me Later banner sizes"){: .largeNoBorder}
+![Bill Me Later banner sizes]({% link images/images/payment-paypal-bill-me-later-banner-size.png %} "Bill Me Later banner sizes"){: .largeNoBorder}
 
 _Banner Sizes_
 
@@ -54,14 +54,14 @@ _Banner Sizes_
    * PayPal Express Checkout
    * Any PayPal All-In-One Solution with PayPal Express Checkout
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Required PayPal Settings** section. Then, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Advertise PayPal Credit** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Required PayPal Settings** section. Then, expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Advertise PayPal Credit** section.
 
-   ![Advertise PayPal Credit]({{ site.baseurl }}{% link images/images/paypal-credit-advertise.png %}){: .zoom}
+   ![Advertise PayPal Credit]({% link images/images/paypal-credit-advertise.png %}){: .zoom}
    _Advertise PayPal Credit_
 
 1. Click the **Get Publisher ID from PayPal** button and follow the directions to get your account information. Then, enter your **Publisher ID**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Home Page** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Home Page** section. Then, do the following:
 
    * To place a banner on the page, set **Display** to “Yes”.
 

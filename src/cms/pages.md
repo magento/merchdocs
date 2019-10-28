@@ -6,5 +6,5 @@ All content can be viewed in terms of its shelf life, just as any product in a s
 
 Content with a long shelf life is sometimes referred to as evergreen content. Examples of evergreen content include customer success stories, "how to" instructions, and Frequently Asked Questions (FAQ.) In contrast, content is perishable by nature includes events, industry news, and press releases.
 
-![]({{ site.baseurl }}{% link images/images/storefront-about-us.png %}){: .zoom}
+![]({% link images/images/storefront-about-us.png %}){: .zoom}
 _About Us_

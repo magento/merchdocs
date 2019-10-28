@@ -5,11 +5,11 @@ title: Product Workspace
 The product workspace is basically the same for all product types, although the selection of fields changes depending on the attribute set that is used. The product attributes are at the top of the form, followed by expandable sections of product information. When a new product is saved for the first time, the Store View chooser appears in the upper-left of the form.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/product-workspace.png %}){: .zoom}
+![]({% link images/images/product-workspace.png %}){: .zoom}
 *Product Workspace*
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/product-workspace-ee.png %}){: .zoom}
+![]({% link images/images-ee/product-workspace-ee.png %}){: .zoom}
 *Product Workspace*
 <!--{% endif %}-->
 
@@ -19,26 +19,26 @@ The online status of the product is indicated by the switch at the top of the fo
 
 | Control | Description |
 |----------
-| ![]({{ site.baseurl }}{% link images/images/btn-switch-yes.png %}){: .icon_col} | Indicates that the product is currently online. |
-| ![]({{ site.baseurl }}{% link images/images/btn-switch-no.png %}){: .icon_col} | Indicates that the product is currently offline. |
+| ![]({% link images/images/btn-switch-yes.png %}){: .icon_col} | Indicates that the product is currently online. |
+| ![]({% link images/images/btn-switch-no.png %}){: .icon_col} | Indicates that the product is currently offline. |
 {:style="table-layout:auto"}
 
 ## Attribute Set
 
-The name of the [attribute set]({{ site.baseurl }}{% link stores/attribute-sets.md %}) appears in the upper-left corner, and determines the fields that appear in the product record. To choose a different attribute set, click the down arrow next to the default attribute set name.
+The name of the [attribute set]({% link stores/attribute-sets.md %}) appears in the upper-left corner, and determines the fields that appear in the product record. To choose a different attribute set, click the down arrow next to the default attribute set name.
 
-![]({{ site.baseurl }}{% link images/images/product-attribute-set.png %}){: .zoom}
+![]({% link images/images/product-attribute-set.png %}){: .zoom}
 *Attribute Sets*
 
 ## Expand/Collapse
 
-To expand or collapse a section, tap either the expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} or collapse ![]({{ site.baseurl }}{% link images/images/btn-collapse.png %}){: .Inline} button to the right.
+To expand or collapse a section, tap either the expand ![]({% link images/images/btn-expand.png %}){: .Inline} or collapse ![]({% link images/images/btn-collapse.png %}){: .Inline} button to the right.
 
 ## Save Menu
 
 The Save menu includes several options that let you save and continue, save and create a new product, save and duplicate the product, or save and close.
 
-![]({{ site.baseurl }}{% link images/images/product-save-menu.png %}){: .zoom}
+![]({% link images/images/product-save-menu.png %}){: .zoom}
 *Save Menu*
 
 <table>
