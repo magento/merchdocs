@@ -53,8 +53,8 @@ Continuing from the Google Tag Manager dashboard, the next step is to create a r
 
     |Name:|Enter a name for the page description.|
     |Variable:|url|
-    |Operation:|matches RegEx. (To learn more, see [What is “matches regex” for?][3] in Tag Manager Help.)|
-    |Value:|checkout/success.*|
+    |Operation:|matches RegEx <br/>To learn more, see [What is “matches regex” for?][3] in Tag Manager Help.|
+    |Value:|`checkout/success.*`|
 
     ![Google Tag Manager - conversion page location]({% link images/images-ee/google-tag-manager-create-adwords-tag6.png %}){: .zoom}
     _Conversion Page Location_
