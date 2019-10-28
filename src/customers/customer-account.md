@@ -19,11 +19,15 @@ For B2B installations of Magento Commerce, there are two basic types of accounts
 
 Customers can access their account by clicking the **My Account** link in the header of the store. From their account, customers can view and modify information, including past and current addresses, billing and shipping preferences, newsletter subscriptions, wish list, and more.
 
-![]({% link images/images/customer-dashboard.png %}){: .zoom}
-_My Dashboard_
-
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({% link images/images-ee/customer-my-account.png %}){: .zoom}
+<!--{% if "Default.CE Only" contains site.edition %}-->
+![]({% link images/images/customer-account-dashboard-my-account.png %}){: .zoom}
+<!--{% endif %}-->
+<!--{% if "Default.EE Only" contains site.edition %}-->
+![]({% link images/images-ee/customer-account-dashboard-my-account.png %}){: .zoom}
+<!--{% endif %}-->
+<!--{% if "Default.B2B Only" contains site.edition %}-->
+![]({% link images/images-b2b/customer-account-dashboard-my-account.png %}){: .zoom}
+<!--{% endif %}-->
 _My Account_
 
 <!--{% if "Default.B2B Only" contains site.edition %}-->

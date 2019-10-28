@@ -5,10 +5,13 @@ title: Address Book
 Customers who keep their address books current can speed through the checkout process. The address book contains the customer’s default billing and shipping addresses, and any additional addresses that they frequently use. Additional address entries are easy to access and maintain from the grid. Each customer’s address book can manage over 3,000 address book entries without impacting performance.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/customer-account-dashboard-address-book-grid.png %}){: .zoom}
+![]({% link images/images/customer-account-dashboard-address-book.png %}){: .zoom}
 <!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({% link images/images-ee/customer-account-dashboard-address-book-grid.png %}){: .zoom}
+<!--{% if "Default.EE Only" contains site.edition %}-->
+![]({% link images/images-ee/customer-account-dashboard-address-book.png %}){: .zoom}
+<!--{% endif %}-->
+<!--{% if "Default.B2B Only" contains site.edition %}-->
+![]({{ site.baseurl }}{% link images/images-b2b/customer-account-dashboard-address-book.png %}){: .zoom}
 <!--{% endif %}-->
 [_Address Book_]({% link configuration/customers/customer-configuration.md %})
 
