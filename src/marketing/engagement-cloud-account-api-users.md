@@ -10,7 +10,7 @@ Only the account owner or another user with the “Can manage account” permiss
 
 ## Add an API User
 
-1. Tap the **Settings** ( ![Settings icon]({% link images/images/icon-settings-engagement-cloud.png %})) icon at the bottom of the sidebar. Then on the menu, choose **Access**.
+1. Click the **Settings** ( ![Settings icon]({% link images/images/icon-settings-engagement-cloud.png %})) icon at the bottom of the sidebar. Then on the menu, choose **Access**.
 
 1. On the Access page, choose the **API users** tab.
 

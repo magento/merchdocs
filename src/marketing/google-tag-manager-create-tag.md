@@ -7,65 +7,71 @@ If you have a Google AdWords account, you can create a tag that tracks conversio
 
 ## Step 1. Create a Tag
 
-1. Log in to your [Google Tag Manager][1]{: target="_blank"} account. Then, click the link for the container that you created for your store.
+1. Log in to your [Google Tag Manager][1] account. Then, click the link for the container that you created for your store.
 
-1. In the **New Tag** box, tap <span class="btn">Add a new tag</span>.
+1. In the **New Tag** box, click <span class="btn">Add a new tag</span>.
 
-    ![]({% link images/images-ee/google-tag-manager-workspace-new.png %}){: .zoom}
-    *Google Tag Manager*
+    ![Google Tag Manager - new workspace]({% link images/images-ee/google-tag-manager-workspace-new.png %}){: .zoom}
+    _Google Tag Manager_
 
 1. Get the following information from your AdWords account:
 
-    * Conversion ID
-    * Conversion Label
+    - Conversion ID
+    - Conversion Label
 
-    If you need help, visit Google’s [support site][2]{: target="_blank"}.
+    If you need help, visit Google’s [support site][2].
 
-1. From the Google Tag Manager dashboard, tap <span class="btn">Google AdWords</span>. Then, do the following:
+1. From the Google Tag Manager dashboard, click <span class="btn">Google AdWords</span>. Then, do the following:
 
-    * Tap the title placeholder, and enter a name for the new tag.
+    - Click the title placeholder and enter a name for the new tag.
 
-    * Under **Choose Product**, select **Google Adwords**.
+    - Under **Choose Product**, select **Google Adwords**.
 
-        ![]({% link images/images-ee/google-tag-manager-create-adwords-tag1.png %}){: .zoom}
-        *Choose Product*
+        ![Google Tag Manager - choose Google Adwords]({% link images/images-ee/google-tag-manager-create-adwords-tag1.png %}){: .zoom}
+        _Choose Product_
 
-    * Under **Choose a Tag Type**, select **AdWords Conversion Tracking**. Then, tap <span class="btn">Continue</span>.
+    - Under **Choose a Tag Type**, select **AdWords Conversion Tracking**. Then, tap <span class="btn">Continue</span>.
 
-        ![]({% link images/images-ee/google-tag-manager-create-adwords-tag2.png %}){: .zoom}
+        ![Google Tag Manager - Adwords conversion tracking]({% link images/images-ee/google-tag-manager-create-adwords-tag2.png %}){: .zoom}
+        _Adwords Conversion Tracking_
 
-1. Enter the **Conversion ID** and **Conversion Label** from your AdWords account. Then, tap <span class="btn">Continue</span>.
+1. Enter the **Conversion ID** and **Conversion Label** from your AdWords account. Then, click <span class="btn">Continue</span>.
 
-    ![]({% link images/images-ee/google-tag-manager-create-adwords-tag3.png %}){: .zoom}
-    *Configure Tag*
+    ![Google Tag Manager - conversion ID and label]({% link images/images-ee/google-tag-manager-create-adwords-tag3.png %}){: .zoom}
+    _Configure Tag_
 
 ## Step 2. Create a Rule
 
 Continuing from the Google Tag Manager dashboard, the next step is to create a rule that fires the tag on the conversion page.
 
-1. Under **Fire On**, tap <span class="btn">Some Pages</span>.
+1. Under **Fire On**, click <span class="btn">Some Pages</span>.
 
-    ![]({% link images/images-ee/google-tag-manager-create-adwords-tag4.png %}){: .zoom}
+    ![Google Tag Manager - fire on]({% link images/images-ee/google-tag-manager-create-adwords-tag4.png %}){: .zoom}
+    _Fire On Triggers_
 
 1. In the Choose Pages section, complete the following settings:
 
     |Name:|Enter a name for the page description.|
     |Variable:|url|
-    |Operation:|matches RegEx. To learn more, see: What is “matches regex” for? in Tag Manager Help|
-    |Value:|checkout/success.*|
+    |Operation:|matches RegEx <br/>To learn more, see [What is “matches regex” for?][3] in Tag Manager Help.|
+    |Value:|`checkout/success.*`|
 
-    ![]({% link images/images-ee/google-tag-manager-create-adwords-tag6.png %}){: .zoom}
-    *Conversion Page Location*
+    ![Google Tag Manager - conversion page location]({% link images/images-ee/google-tag-manager-create-adwords-tag6.png %}){: .zoom}
+    _Conversion Page Location_
 
-1. Mark the green checkbox, and tap <span class="btn">Save</span>. The trigger that you set up appears as a blue button in the Fire On section.
+1. Select the green checkbox and click <span class="btn">Save</span>.
 
-1. When complete, tap <span class="btn">Save Tag</span>.
+   The trigger that you set up appears as a blue button in the Fire On section.
 
-    ![]({% link images/images-ee/google-tag-manager-create-adwords-tag7.png %}){: .zoom}
+1. When complete, click <span class="btn">Save Tag</span>.
+
+    ![Google Tag Manager - trigger setup success]({% link images/images-ee/google-tag-manager-create-adwords-tag7.png %}){: .zoom}
+    _Success_
 
 ## Step 3. Preview and Publish
 
-The next step in the process is to preview the tag. Each time the tag is previewed, a snapshot of the version is saved. When you are satisfied with the results, go to the version that you want to use, and tap <span class="btn">Publish.</span>
+The next step in the process is to preview the tag. Each time the tag is previewed, a snapshot of the version is saved. When you are satisfied with the results, go to the version that you want to use and click <span class="btn">Publish.</span>
 
 [1]: https://www.google.com/tagmanager/
 [2]: https://support.google.com/tagmanager/answer/6105160?hl=en
+[3]: https://support.google.com/tagmanager/search?q=What+is+%E2%80%9Cmatches+regex%E2%80%9D+for%3F
