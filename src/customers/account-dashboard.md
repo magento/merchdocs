@@ -16,7 +16,7 @@ Customers can manage and monitor their own information and activities from their
 
 | Section   | Description  |
 |-----------|---------- ---|
-| My Account| Displays summary information for your account, including contact information, default addresses from your address book, and recent orders. |<!--{% if "Default.B2B Only" contains site.edition %}-->
+| [My Account]({% link customers/account-dashboard.md %})| Displays summary information for your account, including contact information, default addresses from your address book, and recent orders. |<!--{% if "Default.B2B Only" contains site.edition %}-->
 | [My Quotes]({% link customers/account-dashboard-quotes.md %})| (Companies Only) Lists all quotes submitted by the customer, with a link to detailed information. |<!--{% endif %}-->
 | [My Orders]({% link customers/account-dashboard-my-orders.md %})| Displays a list of all customer orders, with a link to each. If enabled in the configuration, any order can be reordered by simply clicking the Reorder link. |<!--{% if "Default.EE Only" contains site.edition %}-->
 | [Order by SKU]({% link customers/account-dashboard-order-by-sku.md %}) | Gives you the ability to add individual items to the cart by SKU or to import a list of products to be ordered from a CSV file. |<!--{% endif %}-->
