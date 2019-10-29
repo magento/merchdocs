@@ -35,7 +35,7 @@ Before you enable a flat catalog for a live store, make sure to test the configu
 
 **Method 1: Verify the Results for a Single Product**
 
-   1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+   1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
    1. Open a product in edit mode.
 
