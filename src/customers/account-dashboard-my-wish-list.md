@@ -59,10 +59,10 @@ _My Wish List_
 1. When complete, click <span class="btn">Save</span>.
 
     <!--{% if "Default.EE Only" contains site.edition %}-->
-    ![]({{ site.baseurl }}{% link images/images-ee/account-dashboard-wishlist-create-new.png %}){: .zoom}
+    ![]({% link images/images-ee/account-dashboard-wishlist-create-new.png %}){: .zoom}
     <!--{% endif %}-->
     <!--{% if "Default.B2B Only" contains site.edition %}-->
-    ![]({{ site.baseurl }}{% link images/images-b2b/customer-account-dashboard-wishlist-create-new.png %}){: .zoom}
+    ![]({% link images/images-b2b/customer-account-dashboard-wishlist-create-new.png %}){: .zoom}
     <!--{% endif %}-->
     _Create New Wish List_
     <!--{% endif %}-->

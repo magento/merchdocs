@@ -12,13 +12,13 @@ _My Orders_
 Find the order in the list and click **View Order**. From the open order, do any of the following:
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/customer-account-order-items-ordered.png %}){: .zoom}
+![]({% link images/images/customer-account-order-items-ordered.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/customer-account-order-items-ordered.png %}){: .zoom}
+![]({% link images/images-ee/customer-account-order-items-ordered.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-b2b/customer-account-order-items-ordered.png %}){: .zoom}
+![]({% link images/images-b2b/customer-account-order-items-ordered.png %}){: .zoom}
 <!--{% endif %}-->
 _View Order_
 

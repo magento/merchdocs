@@ -121,13 +121,13 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 ## Order by SKU Settings
 
- ![]({{ site.baseurl }}{% link images/images-ee/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
- [_Order by SKU Settings_]({{ site.baseurl }}{% link sales/quick-order.md %})
+ ![]({% link images/images-ee/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
+ [_Order by SKU Settings_]({% link sales/quick-order.md %})
 
- ![]({{ site.baseurl }}{% link images/images-ee/config-sales-sales-order-by-sku-settings-customer-group.png %}){: .zoom}
- [_Order by SKU Settings for Customer Group_]({{ site.baseurl }}{% link sales/quick-order.md %})
+ ![]({% link images/images-ee/config-sales-sales-order-by-sku-settings-customer-group.png %}){: .zoom}
+ [_Order by SKU Settings for Customer Group_]({% link sales/quick-order.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable Order by SKU on My Account in Storefront|Website|Determines if Order by SKU is available when placing a Quick Order. Options: <br/>**Yes, for Everyone** - The Quick Order option appears in the upper-right corner of the store header for all customers. <br/>**Yes, for Specified Customer Groups** - The Quick Order option appears in the upper-right corner of the store header only for members of specified groups. <br/>**No** - The Quick Order option is not available.|
 
