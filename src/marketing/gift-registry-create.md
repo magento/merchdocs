@@ -80,6 +80,8 @@ _Gift Registry Types_
 ### General Information
 
 {: .fields-table }
+|Field|Description|
+|--- |--- |
 |Code|A unique name to identify the gift registry type internally. The first character of the code must be a lowercase letter. The rest of the code can be any combination of lowercase letters (a-z), numbers (0-9), and the underscore character (_).|
 |Label|The name of the gift registry type that appears in the store.|
 |Sort Order|Determines the sequence in which this gift registry type appears when listed with other types.|
@@ -88,6 +90,8 @@ _Gift Registry Types_
 ### Attributes
 
 {: .fields-table }
+|Field|Description|
+|--- |--- |
 |Code|A unique name to identify the attribute internally. The code can include any combination of lowercase letters (a-z), numbers (0-9), and the underscore character (_).|
 |Input Type|Determines the type of data and input control that is associated with the attribute, according to type.|
 |Attribute Group|Select the group where the attribute is listed in the gift registry.|
