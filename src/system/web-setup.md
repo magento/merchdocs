@@ -132,7 +132,7 @@ To learn more, see [File systems access permissions][2]{: target="_blank"}.
 
 Change to the Web user who has full permissions to the Magento2 folder. (For example, apache or root.)
 
-```
+```bash
 su – apache
 ```
 
