@@ -263,7 +263,7 @@ Access to the following resources can be assigned to a custom role. See the link
             <td>
                <a href="{% link stores/stores-all-stores.md %}">All Stores</a>
                <br><a href="{% link stores/configuration-overview.md %}">Configuration</a>
-               <br><a href="{% link stores/terms-and-conditions.md %}">Terms &amp; Conditions</a>
+               <br><a href="{% link sales/terms-and-conditions.md %}">Terms and Conditions</a>
                <br><a href="{% link sales/order-status.md %}">Order Status</a>
             </td>
          </tr>

@@ -2,7 +2,7 @@
 title: Canonical Meta Tag
 ---
 
-Some search engines penalize websites that have multiple URLs that point to the same content. The canonical meta tag tells search engines which page to index when multiple URLs have identical or very similar content. Using the canonical meta tag can improve your site ranking and aggregate pageviews. The canonical meta tag is placed in the &lt;head&gt; block of a product or category page. It provides a link to your preferred URL, so search engines will give it greater weight.
+Some search engines penalize websites that have multiple URLs that point to the same content. The canonical meta tag tells search engines which page to index when multiple URLs have identical or very similar content. Using the canonical meta tag can improve your site ranking and aggregate pageviews. The canonical meta tag is placed in the `<head>` block of a product or category page. It provides a link to your preferred URL, so search engines will give it greater weight.
 
 ## Example 1: Category Path Creates Duplicate URLs
 
@@ -23,33 +23,33 @@ When canonical meta tags for products are enabled, the product page includes a c
 
     http://mystore.com/driven-backpack.html
 
-If you also include the category path in product URLs, the canonical URL remains domain-name/product-url-key. However, the product can also be accessed using its full URL, which includes the category. For example, if the product URL key is `driven-backpack`, and is assigned to the Gear > Bags category, the product can be accessed using either URL.
+If you also include the category path in product URLs, the canonical URL remains domain-name/product-url-key. However, the product can also be accessed using its full URL, which includes the category. For example, if the product URL key is `driven-backpack` and is assigned to the Gear > Bags category, the product can be accessed using either URL.
 
 You can avoid being penalized by search engines by omitting the category from the URL, or by using the canonical meta tag to direct search engines to index either by product or category. As a best practice, it is recommended that you enable canonical meta tags for both categories and products.
 
-## To enable the canonical meta tag
+## Enable the Canonical Meta Tag
 
-1. On the Admin sidebar, tap **Stores**. Then under **Settings**, choose elect **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the panel on the left under **Catalog**, choose **Catalog**.
+1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Search Engine Optimization** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Search Engine Optimization** section.
 
     To change any field values, you must first clear the **Use system value** checkbox after each field.
-    
-    ![]({% link images/images/config-catalog-catalog-search-engine-optimization.png %}){: .zoom} 
-    [*Search Engine Optimization*]({% link configuration/catalog/catalog.md -%})
+
+    ![Catalog configuration - search engine optimization]({% link images/images/config-catalog-catalog-search-engine-optimization.png %}){: .zoom}
+    [_Search Engine Optimization_]({% link configuration/catalog/catalog.md -%})
 
 1. If you want search engines to index only category pages using the full category path, do the following:
 
-    * Set **Use Canonical Link Meta Tag for Categories** to “Yes".
+    - Set **Use Canonical Link Meta Tag for Categories** to `Yes`.
 
-    * Set **Use Canonical Link Meta Tag for Products** to “No".
+    - Set **Use Canonical Link Meta Tag for Products** to `No`.
 
 1. If you want search engines to index product pages only using the domain-name/product-url-key format, do the following:
 
-    * Set **Use Canonical Link Meta Tag for Products** to “Yes".
+    - Set **Use Canonical Link Meta Tag for Products** to `Yes`.
 
-    * Set **Use Canonical Link Meta Tag for Categories** to “No".
+    - Set **Use Canonical Link Meta Tag for Categories** to `No`.
 
-1. When complete, tap <span class="btn">Save Config</span> .
+1. When complete, click <span class="btn">Save Config</span> .
