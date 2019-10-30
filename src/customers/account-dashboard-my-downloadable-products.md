@@ -7,8 +7,11 @@ The My Downloadable Products page links to each order of downloadable products. 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/customer-account-my-downloadable-products.png %}){: .zoom}
 <!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({% link images/images-ee/customer-dashboard-downloadable-products.png %}){: .zoom}
+<!--{% if "Default.EE Only" contains site.edition %}-->
+![]({% link images/images-ee/customer-account-my-downloadable-products.png %}){: .zoom}
+<!--{% endif %}-->
+<!--{% if "Default.B2B Only" contains site.edition %}-->
+![]({% link images/images-b2b/customer-account-my-downloadable-products.png %}){: .zoom}
 <!--{% endif %}-->
 _My Downloadable Products_
 

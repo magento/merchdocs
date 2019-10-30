@@ -11,4 +11,4 @@ The My Invitations section of the customer account lists all [invitations]({% li
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 ![]({% link images/images-b2b/customer-account-dashboard-my-invitations.png %}){: .zoom}
 <!--{% endif %}-->
-_My Invitations_
+_[My Invitations]({% link marketing/invitations.md %})_

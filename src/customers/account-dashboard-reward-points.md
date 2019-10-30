@@ -11,4 +11,4 @@ The [Reward Points]({% link marketing/rewards-loyalty.md %}) section of the cust
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 ![]({% link images/images-b2b/customer-account-dashboard-reward-points.png %}){: .zoom}
 <!--{% endif %}-->
-_Reward Points_
+_[Reward Points]({% link marketing/rewards-loyalty.md %})_
