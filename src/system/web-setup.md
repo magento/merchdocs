@@ -138,7 +138,7 @@ su – apache
 
 Change directories to the Magento2 folder, and set the following permissions. You can copy the code, and paste it as a single command.
 
-```
+```bash
 find . -type d -exec chmod 700 {} ; && find . -type f -exec chmod 600 {} ; && chmod +x bin/magento
 ```
 
