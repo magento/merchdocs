@@ -20,4 +20,3 @@ _Gift Registry Information_
 |Gift Registry Details|The Gift Registry Details might include additional information that is specific to the occasion.|
 |Registrant Information|The Registrant Information section includes the name and contact information of each person who is to receive notification of the  registry. For a wedding registry, the Role field might be included to associate the registrant as a friend of the bride or groom.|
 |Shipping Address|The Shipping Address section shows where gifts are to be sent, and includes the information a carrier needs to deliver the package.|
-{:style="table-layout:auto"}

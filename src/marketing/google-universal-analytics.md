@@ -5,10 +5,10 @@ title: Google Analytics
 Google Universal Analytics gives you the ability to define additional custom dimensions and metrics for tracking, with support for offline and mobile app interactions, and access to ongoing updates.
 
 {: .bs-callout .bs-callout-info}
-If your business operates in areas that are governed by the [General Data Protection Regulation]({% link stores/compliance-gdpr.md %}), see: [Google Settings for GDPR]({% link stores/compliance-gdpr-google.md %}).
+If your business operates in areas that are governed by the [General Data Protection Regulation]({% link stores/compliance-gdpr.md %}), see [Google Settings for GDPR]({% link stores/compliance-gdpr-google.md %}).
 
-![]({% link images/images/config-sales-google-api-google-analytics.png %}){: .zoom}
-[*Google Analytics*]({% link configuration/sales/google-api.md -%})
+![Sales configuration - Google API]({% link images/images/config-sales-google-api-google-analytics.png %}){: .zoom}
+[_Google Analytics_]({% link configuration/sales/google-api.md %})
 
 ## Step 1. Sign Up for Google Universal Analytics
 
@@ -16,18 +16,20 @@ Visit the Google website, and sign up for a [Google Universal Analytics][1] acco
 
 ## Step 2. Complete the Magento Configuration
 
-1. Return to your store, and log in to the Admin. On the Admin sidebar, tap **Stores**. Then under **Settings**, choose **Configuration**.
+1. Log in to the Admin for your Magento store.
 
-2. In the panel on the left, under **Sales**, choose **Google API**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-3. Expand ![]({% link images/images/btn-expand.png %}) the **Google Analytics** section. Then, do the following:
+1. In the left panel, expand **Sales** and choose **Google API**.
 
-    * Set **Enable** to “Yes".
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Google Analytics** section and do the following:
 
-    * Enter your Google Analytics **Account Number**.
+    - Set **Enable** to `Yes`.
 
-    * If you want to conduct A/B testing and other performance tests on your content, set **Content Experiments** to “Yes”.
+    - Enter your Google Analytics **Account Number**.
 
-4. When complete, tap <span class="btn">Save Config</span>.
+    - If you want to conduct A/B testing and other performance tests on your content, set **Content Experiments** to `Yes`.
+
+1. When complete, click <span class="btn">Save Config</span>.
 
 [1]: https://support.google.com/analytics/answer/2817075?hl=en

@@ -13,13 +13,13 @@ Magento gives your customers the ability to create gift registries for special o
 <!--{% endif %}-->
 _Creating a Baby Gift Registry_
 
-The gift registry owner can add products to the registry from their [customer dashboard]({% link marketing/gift-registry-information.md -%}). In addition, products can be transferred from the wish list or cart. The store administrator can view and share customer gift registries, and perform maintenance such as adding items from the customer’s cart, updating quantities, or deleting a gift registry.
+The gift registry owner can add products to the registry from their [customer dashboard]({% link marketing/gift-registry-information.md %}). In addition, products can be transferred from the wish list or cart. The store administrator can view and share customer gift registries, and perform maintenance such as adding items from the customer’s cart, updating quantities, or deleting a gift registry.
 
-To access a gift registry, recipients can click the link in the email they receive, or search by the recipient’s name, email, or gift registry ID. In most stores, the footer of each page has a link to the gift registry, although the location might vary by theme. In addition, the [Widget]({% link cms/widgets.md -%}) tool can be used to place [Gift Registry Search]({% link marketing/gift-registry-search.md -%}) anywhere in your store.
+To access a gift registry, recipients can click the link in the email they receive, or search by the recipient’s name, email, or gift registry ID. In most stores, the footer of each page has a link to the gift registry, although the location might vary by theme. In addition, the [Widget]({% link cms/widgets.md %}) tool can be used to place [Gift Registry Search]({% link marketing/gift-registry-search.md %}) anywhere in your store.
 
 Registry visitors who want to make a purchase can add the item to their carts directly from the gift registry. When the order is placed, the gift registry is updated to reflect the purchase.
 
-### Gift Registry Workflow
+## Gift Registry Workflow
 
 1. **Configure the store’s gift registry**. The store administrator enables the gift registry, and sets up the registry type and attributes.
 
