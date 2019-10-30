@@ -7,7 +7,7 @@ A special price can be offered for a designated period of time{% if "Default.EE-
 ![]({% link images/images/storefront-price-special.png %}){: .zoom}
 *Special Price on Product Page*
 
-To assign a special price to multiple products, such as multiple variations of a [configurable product]({% link catalog/product-create-configurable.md %}), use the [Actions control]({% link stores/admin-actions-control.md %})+ as described in Method 2.
+To assign a special price to multiple products, such as multiple variations of a [configurable product]({% link catalog/product-create-configurable.md %}), use the [Actions control]({% link stores/admin-actions-control.md %}) as described in Method 2.
 
 ## Method 1: Apply Special Price to an Individual Product
 
@@ -15,7 +15,7 @@ To assign a special price to multiple products, such as multiple variations of a
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 
-1. Tap <span class="btn">Scheduled Update</span>. Then, do the following:
+2. Tap <span class="btn">Scheduled Update</span>. Then, do the following:
 
     * In the **Update Name** field, enter a name for the special price promotion.
 
@@ -40,17 +40,17 @@ The special price goes into effect immediately after midnight at the beginning o
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 
-![]({% link images/images-ee/product-price-special.png %}){: .zoom}
+   ![]({% link images/images-ee/product-price-special.png %}){: .zoom}
 <!--{% endif %}-->
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 
-![]({% link images/images/product-price-special.png %}){: .zoom}
+   ![]({% link images/images/product-price-special.png %}){: .zoom}
 <!--{% endif %}-->
 
 *Special Pricing Settings*
 
-1. When complete, tap <span class="btn"> Done </span>. Then, tap <span class="btn">Save</span>.
+3. When complete, tap <span class="btn"> Done </span>. Then, tap <span class="btn">Save</span>.
 
     In the storefront, the Special price should appear in both catalog listing, and on the product page.
    <!--{% if "Default.EE-B2B" contains site.edition %}-->
