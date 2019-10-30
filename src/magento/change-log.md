@@ -4,6 +4,29 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what’s new!
 
+## January 2020
+
+<!--{% if "Default.B2B Only" contains site.edition %}-->
+- [Magento for B2B Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.4Commerce.html){: target="_blank"}, 2.3.4
+<!--{% endif %}-->
+<!--{% if "Default.EE Only" contains site.edition %}-->
+- [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.4Commerce.html){: target="_blank"}, 2.3.4
+<!--{% endif %}-->
+<!--{% if "Default.CE Only" contains site.edition %}-->
+- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.4OpenSource.html){: target="_blank"}, 2.3.4
+<!--{% endif %}-->
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
+- [Page Builder](https://devdocs.magento.com/page-builder/docs/release-notes.html){: target="_blank"}, 1.2
+<!--{% endif %}-->
+
+### New Topics
+
+### Updated Topics
+
+|Topic |Change|
+|--- |--- |
+|  |  |
+
 ## October 2019
 
 ### Product Releases
