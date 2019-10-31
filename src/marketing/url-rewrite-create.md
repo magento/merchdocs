@@ -25,3 +25,10 @@ Additional Category URLs
 
 ![URL rewrites grid]({% link images/images/url-rewrites.png %}){: .zoom}
 _URL Rewrites_
+
+Magento offers these URL rewrite types:
+
+* [Product Rewrites]({% link marketing/url-rewrite-product.md %})
+* [Category Rewrites]({% link marketing/url-rewrite-category.md %})
+* [CMS Page Rewrites]({% link marketing/url-rewrite-cms-page.md %})
+* [Custom Rewrites]({% link marketing/url-rewrite-custom.md %})
