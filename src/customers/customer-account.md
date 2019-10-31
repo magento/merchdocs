@@ -8,7 +8,7 @@ The header of every page in your store extends an invitation for shoppers to _Lo
 - **Create Individual or Company Account** — Depending on the configuration, a visitor to your store can choose to create either an individual or company account.
 <!--{% endif %}-->
 - **Faster checkout** — Registered customers move through checkout faster because much of the information is already in their accounts.
-- **Self service** — Registered customers can update their information, check the status of orders, and even reorder from their account dashboard.
+- **Self service** — Registered customers can update their information, check the status of orders, and even reorder from their accounts.
 
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 For B2B installations of Magento Commerce, there are two basic types of accounts that can be created: Individual and [company]({% link customers/account-companies.md %}) accounts.
@@ -17,16 +17,19 @@ For B2B installations of Magento Commerce, there are two basic types of accounts
 - Company — A [company]({% link customers/account-companies.md %}) account can be set up as a structure with teams od multiple users.
 <!--{% endif %}-->
 
-Customers can access their account dashboard by clicking the **My Account** link in the header of the store. They can use their account dashboard to view and modify their information, including past and current addresses, billing and shipping preferences, newsletter subscriptions, wish list, and more.
+Customers can access their account by clicking the **My Account** link in the header of the store. From their account, customers can view and modify information, including past and current addresses, billing and shipping preferences, newsletter subscriptions, wish list, and more.
 
-![]({% link images/images/customer-dashboard.png %}){: .zoom}
-_My Dashboard_
-
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({% link images/images-ee/customer-my-account.png %}){: .zoom}
+<!--{% if "Default.CE Only" contains site.edition %}-->
+![]({% link images/images/customer-account-dashboard-my-account.png %}){: .zoom}
+<!--{% endif %}-->
+<!--{% if "Default.EE Only" contains site.edition %}-->
+![]({% link images/images-ee/customer-account-dashboard-my-account.png %}){: .zoom}
+<!--{% endif %}-->
+<!--{% if "Default.B2B Only" contains site.edition %}-->
+![]({% link images/images-b2b/customer-account-dashboard-my-account.png %}){: .zoom}
+<!--{% endif %}-->
 _My Account_
 
-<!--{% endif %}-->
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 **Account Types**
 
