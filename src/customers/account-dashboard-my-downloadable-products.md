@@ -23,7 +23,7 @@ _My Downloadable Products_
 
 1. In the lower-right corner of the download window, click the _download_ icon.
 
-1. Look for the name of the download file to appear in the lower-left corner of the window and save the file. On the Mac, display the menu in the lower-right corner, and choose **Download**.
+1. Look for the file in the downloads location used by your web browser, and choose **Download**.
 
     ![]({% link images/images/account-dashboard-download-video.png %}){: .zoom}
     _Download Video_

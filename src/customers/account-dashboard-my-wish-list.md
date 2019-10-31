@@ -78,7 +78,7 @@ _My Wish List_
    
 1. Enter the Wish List Name. 
     
-1. If you want others to be able to see your wish list, mark the **Public Wish List** checkbox,
+1. If you want others to be able to see your wish list, select the **Public Wish List** checkbox,
    
 1. When complete, click <span class="btn">Save</span>.
 

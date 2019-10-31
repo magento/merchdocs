@@ -56,7 +56,7 @@ pages:
       - label: Managing Requisition Lists
         url: "/customers/account-dashboard-requisition-lists-manage.html"
     - label: My Wish List
-      url: "/customers/account-dashboard-my-wish-list.html"   
+      url: "/customers/account-dashboard-my-wish-list.html"
     - label: Address Book
       url: "/customers/account-dashboard-address-book.html"
     - label: Account Information

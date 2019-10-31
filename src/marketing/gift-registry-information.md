@@ -6,10 +6,10 @@ title: Gift Registry Information
 Customers can create and manage gift registries from their accounts. All of the information that is associated with each type of registry is available from the customer's account. 
 
 <!--{% if "Default.EE Only" contains site.edition %}-->
-![]({% link images/images-ee/storefront-gift-registry-create-baby-info.png %}){: .zoom}
+![Example storefront - gift registry information]({% link images/images-ee/storefront-gift-registry-create-baby-info.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({% link images/images-b2b/storefront-gift-registry-create-baby-info.png %}){: .zoom}
+![Example storefront - gift registry information]({% link images/images-b2b/storefront-gift-registry-create-baby-info.png %}){: .zoom}
 <!--{% endif %}-->
 _Gift Registry Information_
 
