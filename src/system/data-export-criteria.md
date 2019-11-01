@@ -21,43 +21,9 @@ To include only records with a specific value, such as a SKU, type the value int
 
 The checkbox in the first column is used to exclude attributes from the export file. If an attribute is excluded, the associated column in the export data is included, but empty.
 
-<table>
-      <h3 class="TableHeading">Export Criteria</h3>
-      <thead>
-         <tr>
-            <th>Exclude</th>
-            <th>Filter</th>
-            <th>Result</th>
-         </tr>
-      </thead>
-      <tbody>
-         <tr>
-            <td>
-               <img src="{% link images/images/btn-exclude-unchecked.png %}" />
-            </td>
-            <td> No</td>
-            <td>The exported file contains each attribute for all existing records.</td>
-         </tr>
-         <tr>
-            <td>
-               <img src="{% link images/images/btn-exclude-unchecked.png %}" />
-            </td>
-            <td>Yes</td>
-            <td>The export file contains each attribute with only the records allowed by the filter.</td>
-         </tr>
-         <tr>
-            <td>
-               <img src="{% link images/images/btn-exclude-checked.png %}" />
-            </td>
-            <td>No</td>
-            <td>The export file does not include the column for the excluded attribute, but does include all existing records.</td>
-         </tr>
-         <tr>
-            <td>
-               <img src="{% link images/images/btn-exclude-checked.png %}" />
-            </td>
-            <td> Yes</td>
-            <td>The export file does not include the column for the excluded attribute, and contains only the records allowed by the filter.</td>
-         </tr>
-      </tbody>
-   </table>
+|Exclude|Filter|Result|
+|--- |--- |--- |
+|![]({% link images/images/btn-exclude-unchecked.png %})|No|The exported file contains each attribute for all existing records.|
+|![]({% link images/images/btn-exclude-unchecked.png %})|Yes|The export file contains each attribute with only the records allowed by the filter.|
+|![]({% link images/images/btn-exclude-checked.png %})|No|The export file does not include the column for the excluded attribute, but does include all existing records.|
+|![]({% link images/images/btn-exclude-checked.png %})|Yes|The export file does not include the column for the excluded attribute, and contains only the records allowed by the filter.|

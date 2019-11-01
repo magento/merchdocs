@@ -44,55 +44,19 @@ To clear the filter options and return to the full report, click **Reset Filter*
 ![]({% link images/images-ee/system-action-log-report-filters.png %}){: .zoom}
 _Action Logs Report Filters_
 
-<table>
-  <h3 class="TableHeading">Filter by Field</h3>
-  <thead>
-     <tr>
-        <th>Field</th>
-        <th>description</th>
-     </tr>
-  </thead>
-  <tbody>
-     <tr>
-        <td>Time</td>
-        <td>
-           <p>In <b>From</b>, click to select a date from the dynamic calendar to define the beginning date for the filter. Then in <b>To</b>, click to select a date from the dynamic calendar to define the ending date for the filter.</p>
-        </td>
-     </tr>
-     <tr>
-        <td>Action Group</td>
-        <td>Choose an option in the drop-down field.</td>
-     </tr>
-     <tr>
-        <td>
-           <p>Action</p>
-        </td>
-        <td>Choose an option in the drop-down field.</td>
-     </tr>
-     <tr>
-        <td>IP Address</td>
-        <td>Enter the IP address of the machine used for an action.</td>
-     </tr>
-     <tr>
-        <td>Username</td>
-        <td>
-           <p>Choose an username option in the dropdown field. Default is All Users.</p>
-        </td>
-     </tr>
-     <tr>
-        <td>Result</td>
-        <td>Choose Success or Failure in the drop-down field.</td>
-     </tr>
-     <tr>
-        <td>Full Action Name</td>
-        <td>Enter text for the search to match in the field.</td>
-     </tr>
-     <tr>
-        <td>Details</td>
-        <td>Enter text for the search to match in the field.</td>
-     </tr>
-  </tbody>
-</table>
+### Filter by Field
+
+|Field|description|
+|--- |--- |
+|Time|In **From**, click to select a date from the dynamic calendar to define the beginning date for the filter. Then in **To**, click to select a date from the dynamic calendar to define the ending date for the filter.|
+|Action Group|Choose an option in the drop-down field.|
+|Action|Choose an option in the drop-down field.|
+|IP Address|Enter the IP address of the machine used for an action.|
+|Username|Choose an username option in the dropdown field. Default is All Users.|
+|Result|Choose Success or Failure in the drop-down field.|
+|Full Action Name|Enter text for the search to match in the field.|
+|Details|Enter text for the search to match in the field.|
+
 
 #### To export the action logs report:
 
