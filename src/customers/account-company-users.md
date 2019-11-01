@@ -3,7 +3,7 @@ conditions: Default.B2B Only
 title: Company Users
 ---
 
-The individuals that are associated with a company are represented in the Customers grid by the customer type, “Company User,” and are typically buyers with varying levels of permission to access store services and resources.
+The individuals who are associated with a company are represented in the Customers grid by the customer type, “Company User,” and are typically buyers with varying levels of permission to access store services and resources.
 
 ![]({% link images/images-b2b/diagram-company-structure-teams.png %}){: .zoom}
 _Company Structure with Teams of Users_
