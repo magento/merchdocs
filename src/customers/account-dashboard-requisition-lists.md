@@ -12,9 +12,9 @@ _Requisition Lists_
 
 1. Do one of the following:
 
-    **Method 1:** From Account Dashboard
+    **Method 1:** From Customer Account
 
-      - In the sidebar of your account dashboard, choose **My Requisition Lists**.
+      - In the sidebar of your account, choose **My Requisition Lists**.
 
       - On the Requisition Lists page, click **Create New Requisition List**.
 
@@ -44,7 +44,7 @@ Products can be added to a requisition list from product pages in the storefront
       - Choose an existing requisition list.
       - Create a new requisition list.
 
-        ![]({% link images/images-b2b/product-detail-requisition-list.png %}){: .zoom}
+        ![]({% link images/images-b2b/customer-account-requisition-list-product-detail.png %}){: .zoom}
         _Add to Requisition List_
 
   **Method 2:** From an Existing Order
