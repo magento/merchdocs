@@ -11,97 +11,58 @@ The report can be filtered using the options in each column. You may set a singl
 
 The Action Logs Report includes the following information:
 
--  **Time**: The date and time the action occurred
--  **Action Group**: Displays the action type, correlates to the actions enabled on _Admin Actions Logging_ screen in your store settings
--  **Action**: Displays the action that was logged
--  **IP Address**: Displays the IP address for the machine on which the action was performed
--  **Username**: Displays the login ID for the user who performed the action
--  **Result**: Displays the success or failure of the user's action
--  **Full Action Name**: Displays the backend action name
--  **Details**: Displays the backend action category
--  **Full Details**: Displays all logged details of the admin action
+- **Time** - The date and time the action occurred
+- **Action Group** - Displays the action type, correlates to the actions enabled on _Admin Actions Logging_ screen in your store settings
+- **Action** - Displays the action that was logged
+- **IP Address** - Displays the IP address for the machine on which the action was performed
+- **Username** - Displays the login ID for the user who performed the action
+- **Result** - Displays the success or failure of the user's action
+- **Full Action Name** - Displays the backend action name
+- **Details** - Displays the backend action category
+- **Full Details** - Displays all logged details of the admin action
 
-#### To view the action logs report:
+## View the Action Logs Report
 
-1.  On the _Admin_ sidebar, click **System**.
+1. On the _Admin_ sidebar, go to **System** > _Actions Logs_ > **Report**.
 
-1.  Under _Action Logs_, choose **Report**.
-
-    ![]({% link images/images-ee/system-action-log-report.png %}){: .zoom}
+    ![Action logs]({% link images/images-ee/system-action-log-report.png %}){: .zoom}
     _Action Logs Report_
 
-1.  To view the full details of a listed admin action, click **View**.
+1. To view the full details of a listed admin action, click **View**.
 
-    ![]({% link images/images-ee/system-action-log-report-view.png %}){: .zoom}
+    ![Action log entry details]({% link images/images-ee/system-action-log-report-view.png %}){: .zoom}
     _Log Entry Details_
 
-#### To filter the action logs report:
+## Filter the Action Logs Report
 
 You can define the filter options fields and then click **Search** to narrow the actions displayed.
 
 To clear the filter options and return to the full report, click **Reset Filter**.
 
-![]({% link images/images-ee/system-action-log-report-filters.png %}){: .zoom}
+![Action log report filters]({% link images/images-ee/system-action-log-report-filters.png %}){: .zoom}
 _Action Logs Report Filters_
 
-<table>
-  <h3 class="TableHeading">Filter by Field</h3>
-  <thead>
-     <tr>
-        <th>Field</th>
-        <th>description</th>
-     </tr>
-  </thead>
-  <tbody>
-     <tr>
-        <td>Time</td>
-        <td>
-           <p>In <b>From</b>, click to select a date from the dynamic calendar to define the beginning date for the filter. Then in <b>To</b>, click to select a date from the dynamic calendar to define the ending date for the filter.</p>
-        </td>
-     </tr>
-     <tr>
-        <td>Action Group</td>
-        <td>Choose an option in the drop-down field.</td>
-     </tr>
-     <tr>
-        <td>
-           <p>Action</p>
-        </td>
-        <td>Choose an option in the drop-down field.</td>
-     </tr>
-     <tr>
-        <td>IP Address</td>
-        <td>Enter the IP address of the machine used for an action.</td>
-     </tr>
-     <tr>
-        <td>Username</td>
-        <td>
-           <p>Choose an username option in the dropdown field. Default is All Users.</p>
-        </td>
-     </tr>
-     <tr>
-        <td>Result</td>
-        <td>Choose Success or Failure in the drop-down field.</td>
-     </tr>
-     <tr>
-        <td>Full Action Name</td>
-        <td>Enter text for the search to match in the field.</td>
-     </tr>
-     <tr>
-        <td>Details</td>
-        <td>Enter text for the search to match in the field.</td>
-     </tr>
-  </tbody>
-</table>
+|Field|Description|
+|--- |--- |
+|Time|In **From**, click to select a date from the dynamic calendar to define the beginning date for the filter. Then in **To**, click to select a date from the dynamic calendar to define the ending date for the filter.|
+|Action Group|Choose an action group.|
+|Action|Choose an action.|
+|IP Address|Enter the IP address of the machine used for an action.|
+|Username|Choose an username. Default is All Users.|
+|Result|Choose Success or Failure.|
+|Full Action Name|Enter text for the search to match in the field.|
+|Details|Enter text for the search to match in the field.|
 
-#### To export the action logs report:
+## Export the Action Logs Report
 
-1.  Choose an export format in the **Export to** dropdown:
+1. For **Export to**, choose an export format:
 
-    -  **CSV**: A comma-separated value file containing plain text data
-    -  **Excel XML**: An XML-based, spreadsheet data format
+    - **CSV** - A comma-separated value file containing plain text data
+    - **Excel XML** - An XML-based, spreadsheet data format
 
-1.  Click **Export**. The generated file saves automatically to your designated folder for downloads.
+1. Click <span class="btn">Export</span>.
 
-    ![]({% link images/images-ee/system-action-log-report-export.png %}) 
+   The generated file is automatically saved to your designated folder for downloads.
+
+    ![Action logs report export]({% link images/images-ee/system-action-log-report-export.png %}){: .zoom}
     _Action Logs Report Export_
