@@ -59,7 +59,7 @@ For more information, see the instructions for the specific search engine. Here 
 
 ## Step 5: Restore Previous Robot Instructions **(Optional)**
 
-You can now restore either the original, or default restrictions.
+You can now restore either the original (default) restrictions.
 
 ## Column Descriptions
 

@@ -3,7 +3,7 @@ conditions: Default.EE-B2B
 title: Configuring Smart Attributes for Visual Merchandiser
 ---
 
-The Visual Merchandiser configuration determines the attributes that can be used in the merchandising window, the minimum stock threshold, and identifies the attribute used for color, and the order of color values.
+The Visual Merchandiser configuration determines the attributes that can be used in the merchandising window and the minimum stock threshold. The configuration also identifies the attribute used for color and the order of color values.
 
 ![Catalog configuration - visual merchandiser]({% link images/images-ee/config-catalog-visual-merchandiser-general-options.png %}){: .zoom}
 _General Options_
@@ -22,6 +22,6 @@ _General Options_
 
     - Enter the **Color Attribute Code**. The default value is `color`. If your catalog uses a different attribute, enter the attribute name in lowercase.
 
-    - In the **Color Order** box, enter each color value on a separate line and in sequence, to determine the priority of each color.
+    - For **Color Order**, enter each color value on a separate line and in sequence to determine the priority of each color.
 
 1. When complete, click <span class="btn">Save Config</span>.

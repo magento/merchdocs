@@ -10,13 +10,13 @@ _Category Products Viewed as Tiles_
 
 ## Access Visual Merchandiser
 
-1. On the Admin sidebar, click **Catalog** > **Categories**.
+1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
 
 1. Drill down through the category tree and click the category that you want to edit.
 
 1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Products in Category** section.
 
-1. Tap the **View as Tiles** ( ![View as tiles]({% link images/images/btn-view-as-tiles.png %}) ) button to display the products as a grid.
+1. Click the **View as Tiles** ( ![View as tiles]({% link images/images/btn-view-as-tiles.png %}) ) button to display the products as a grid.
 
 1. When complete, click <span class="btn">Save Category</span>.
 
@@ -24,11 +24,11 @@ _Category Products Viewed as Tiles_
 
 1. Use the [sort order]({% link catalog/navigation-product-listings.md %}) and [paginate]({% link catalog/navigation-pagination.md %}) tools to view the product that you want to move.
 
-    * **Method 1: Drag and Drop**
+    - **Method 1: Drag and Drop**
 
         Grab the **Drag** (![Drag icon]({% link images/images/btn-drag.png %})) control in the upper-right corner of the product tile and drop the product into position. The number of each product adjusts to reflect the new position.
 
-    * **Method 2: Set Position Value**
+    - **Method 2: Set Position Value**
 
         In the **Position** field (![Position field]({% link images/images/btn-position.png %}))on the product tile, enter the number where you want the product to appear. Enter the number zero (0) to place the product at the top of the list.
 

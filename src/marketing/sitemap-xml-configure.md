@@ -24,12 +24,12 @@ Your site map should be updated as frequently as the content on your site change
         - `Yearly`
         - `Never`
 
-    - In the **Priority** field, enter a value between 0.0 and 1.0. Zero has the lowest priority.
+    - For **Priority**, enter a value between 0.0 and 1.0. Zero has the lowest priority.
 
     ![]({% link images/images/config-catalog-xml-sitemap-categories-options.png %}){: .zoom}
     [_Categories Options_]({% link configuration/catalog/xml-sitemap.md %})
 
-1. Click to expand the **Products Options** section and complete the **Frequency** and **Priority** settings as needed.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Products Options** section and complete the **Frequency** and **Priority** settings as needed.
 
 1. To determine the extent that images are included in the sitemap, set **Add Images into Sitemap** to one of the following:
 
@@ -40,7 +40,7 @@ Your site map should be updated as frequently as the content on your site change
     ![Catalog configuration - XML sitemap products]({% link images/images/config-catalog-xml-sitemap-products-options.png %}){: .zoom}
     [_Products Options_]({% link configuration/catalog/xml-sitemap.md %})
 
-1. Click to expand the **CMS Pages Options** section and complete the **Frequency** and **Priority** settings as needed.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **CMS Pages Options** section and complete the **Frequency** and **Priority** settings as needed.
 
     ![Catalog configuration - XML sitemap CMS pages]({% link images/images/config-catalog-xml-sitemap-cms-pages-options.png %}){: .zoom}
     [_CMS Pages Options_]({% link configuration/catalog/xml-sitemap.md -%})
@@ -58,7 +58,7 @@ Your site map should be updated as frequently as the content on your site change
 
 1. To generate a sitemap, set **Enabled** to `Yes` and do the following:
 
-    - Set **Start Time** to the hour, minute and second that you want the sitemap to be updated.
+    - Set **Start Time** to the hour, minute, and second that you want the sitemap to be updated.
 
     - Set **Frequency** to one of the following:
 
@@ -78,9 +78,9 @@ Your site map should be updated as frequently as the content on your site change
 
    If needed, clear the **Use system value** checkbox to change these settings.
 
-1. In the **Maximum No of URLs per File** field, enter the maximum number of URLs that can be included in the sitemap. By default, the limit is 50,000.
+1. For **Maximum No of URLs per File**, enter the maximum number of URLs that can be included in the sitemap. By default, the limit is 50,000.
 
-1. In the **Maximum File Size** field, enter the largest size in bytes that is allocated for the sitemap. The default size is 10,485,760 bytes.
+1. For **Maximum File Size**, enter the largest size in bytes that is allocated for the sitemap. The default size is 10,485,760 bytes.
 
     ![Catalog configuration - XML sitemap file limits]({% link images/images/config-catalog-xml-sitemap-sitemap-file-limits.png %}){: .zoom}
     [_Sitemap File Limits_]({% link configuration/catalog/xml-sitemap.md %})

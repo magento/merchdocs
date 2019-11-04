@@ -4,10 +4,8 @@ title: Integrate Magento with Yotpo
 
 With just a few steps, you can put Yotpo to work for you.
 
-1. [Create a Yotpo account](#create-a-yotpo-account).
-
-- [Create a Yotpo Account](#create-a-yotpo-account)
-- [Enable Yotpo and Connect your Magento Store](#enable-yotpo-and-connect-your-magento-store)
+1. Create a Yotpo account
+1. Enable Yotpo and Connect your Magento Store
 
 ## Create a Yotpo Account
 

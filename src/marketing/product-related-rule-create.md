@@ -21,7 +21,7 @@ For an attribute to be used in a targeted rule, the [Use for Promo Rule Conditio
 
     - Enter a **Rule Name** to identify the rule when working in the Admin.
 
-    - In the **Priority** field, enter a number that determine the order that the results appear on the page when results from other rules target the same location. Number 1 is top priority.
+    - In the **Priority** field, enter a number that determines the order that the results appear on the page when results from other rules target the same location. Number 1 is top priority.
 
     - To enable the rule, set **Status** to `Active`.
 

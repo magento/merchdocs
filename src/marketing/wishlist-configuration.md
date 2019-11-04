@@ -2,7 +2,7 @@
 title: Wish List Configuration
 ---
 
-The configuration enables wish lists, and determines the email template and sender of email messages that are used when a wish list is shared.
+The configuration enables wish lists and determines the email template and sender of email messages that are used when a wish list is shared.
 
 ## Configure the Wish List
 

@@ -2,7 +2,7 @@
 title: Promotions
 ---
 
-In this section of the guide, you will learn how to set up product relationships, and use price rules to trigger discounts based on a variety of conditions. You can use price rules to offer customer incentives, such as:
+In this section of the guide, you will learn how to set up product relationships and how to use price rules to trigger discounts based on a variety of conditions. You can use price rules to offer customer incentives, such as:
 
 - Send your best customers a coupon for a discount on a specific product
 - Offer free shipping for purchases over a certain amount

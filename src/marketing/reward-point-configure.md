@@ -3,7 +3,7 @@ conditions: Default.EE-B2B
 title: Configuring Reward Points
 ---
 
-The Reward Points configuration determines how reward points are presented in the store, and defines the basic operating parameters.
+The Reward Points configuration determines how reward points are presented in the store and defines the basic operating parameters.
 
 ![Customers configuration - reward points]({% link images/images-ee/config-customers-reward-points-reward-points.png %}){: .zoom}
  [_Reward Points_]({% link configuration/customers/reward-points.md -%})
@@ -28,10 +28,10 @@ The Reward Points configuration determines how reward points are presented in th
 
     - Enter the number of days before the reward points expire in the **Reward Points Expire in (days)** field (blank for no expiration).
 
-    - Set **Reward Points Expiry Calculation**:
+    - Set **Reward Points Expiry Calculation** to one of the following:
 
-        | Static | Determines the remaining lifetime of reward points based on the number of days set in the configuration. If the expiration limit in the configuration changes, the expiration date of existing points does not change. |
-        | Dynamic | Calculates the number of days left whenever the reward point balance increases. If the expiration limit in the configuration changes, the expiration of all existing points update accordingly. |
+        | `Static` | Determines the remaining lifetime of reward points based on the number of days set in the configuration. If the expiration limit in the configuration changes, the expiration date of existing points does not change. |
+        | `Dynamic` | Calculates the number of days left whenever the reward point balance increases. If the expiration limit in the configuration changes, the expiration of all existing points update accordingly. |
 
     - If you want to refund available reward points automatically, set **Refund Reward Points Automatically** to `Yes`.
 
@@ -54,17 +54,17 @@ In this step, the number of reward points that can be earned for various custome
 
     - To display a message in the shopping cart that includes the rewards points earned for the purchase and the customer’s current reward point balance, set **Purchase** to `Yes`.
 
-    - In the **Registration** field, enter the number of points earned for opening a customer account.
+    - For **Registration**, enter the number of points earned for opening a customer account.
 
-    - In the **Newsletter Signup** field, enter the number of points earned by registered customers who subscribe to a newsletter.
+    - For **Newsletter Signup**, enter the number of points earned by registered customers who subscribe to a newsletter.
 
-1. In the **Converting Invitation to Customer** field, enter the number of points earned by a customer who sends an invitation, if the recipient then opens a customer account. Then, do the following:
+1. For **Converting Invitation to Customer**, enter the number of points earned by a customer who sends an invitation and the recipient then opens a customer account. Then, do the following:
 
     - Enter a number in the **Invitation to Customer Conversions Quantity Limit** field to limit the number of invitation conversions that can be used to earn points for the customer who sends the invitation (blank for no limit).
 
     - In the **Invitation Conversion to Order Reward** field, enter the number of points earned by a customer sending an invitation when the recipient places an initial order.
 
-1. In the **Review Submission** field, enter the number of points earned by a customer who submits a review that is approved for publication.
+1. For **Review Submission**, enter the number of points earned by a customer who submits a review that is approved for publication.
 
 1. Then to limit the number of reviews that can be used to earn points per customer, enter the number in the **Rewarded Reviews Submission Quantity Limit** field (blank for no limit).
 
@@ -85,6 +85,6 @@ In this step, the number of reward points that can be earned for various custome
 
     - Set **Reward Points Expiry Warning Email** to the template used for the notification that is sent to customers when the expiration limit for a batch of points is reached.
 
-    - In the **Expiry Warning Before (days)** field, enter the number of days before points expire that notification is sent.
+    - For **Expiry Warning Before (days)**, enter the number of days before points expire that notification is sent.
 
 1. When complete, click <span class="btn">Save Config</span>.

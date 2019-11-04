@@ -40,12 +40,12 @@ Make sure that you have updated each [email template ]({% link marketing/email-t
 
     - Set **New Order Confirmation Template for Guest** to the template that is used for the email that is sent to guests who do not have an account with your store.
 
-    - In the **Send Order Email Copy To** field, enter the email address of anyone who is to receive a copy of the new order email. If sending a copy to multiple recipients, separate each address with a comma.
+    - For **Send Order Email Copy To**, enter the email address of anyone who is to receive a copy of the new order email. If sending a copy to multiple recipients, separate each address with a comma.
 
-    - Set **Send Order Email Copy Method**:
+    - Set **Send Order Email Copy Method** to one of the following:
 
-        | Bcc | Sends a _blind courtesy copy_ by including the recipient in the header of the same email that is sent to the customer. The BCC recipient is not visible to the customer.|
-        | Separate Email | Sends the copy as a separate email.|
+        | `Bcc` | Sends a _blind courtesy copy_ by including the recipient in the header of the same email that is sent to the customer. The BCC recipient is not visible to the customer.|
+        | `Separate Email` | Sends the copy as a separate email.|
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Order Comments** section and repeat these steps.
 

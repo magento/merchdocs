@@ -16,7 +16,7 @@ _Search Terms_
     ![Search terms general information]({% link images/images/search-terms-information.png %}){: .zoom}
     _General Information_
 
-    - Under General Information in the **Search Query** box, enter the word or phrase that you want to add as a new search term.
+    - Under _General Information_ in the **Search Query** box, enter the word or phrase that you want to add as a new search term.
 
     - If your store is available in multiple languages, choose the applicable **Store** view.
 

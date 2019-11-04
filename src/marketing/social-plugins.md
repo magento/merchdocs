@@ -12,7 +12,7 @@ _Facebook Plugins_
 
 1. On the Facebook website, go to the [button setup][1] page.
 
-1. In the **URL to Like** field, enter the URL of the page in your store that you want people to Like. For example, you might enter the URL of your store’s home page. Then, do the following:
+1. For **URL to Like**, enter the URL of the page in your store that you want people to Like. For example, you might enter the URL of your store’s home page. Then, do the following:
 
     - Choose the **Layout** for the button.
 
@@ -74,7 +74,7 @@ _Facebook Plugins_
 
 1. In the **Storefront Properties** section, do the following:
 
-    - In the **Widget Title** field, enter a title for internal reference.
+    - For **Widget Title**, enter a title for internal reference.
 
     - Set **Assign to Store Views** to `All Store Views`, or to the view where the app will be available. To select multiple views, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 

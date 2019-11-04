@@ -16,7 +16,7 @@ URL with Web Server Rewrite
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the page navigation where **General** is expanded, choose **Web**.
+1. In the left panel where **General** is expanded, choose **Web**.
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Search Engine Optimization** section.
 

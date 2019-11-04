@@ -30,7 +30,7 @@ The Order ID and customer IP address can be included in the header of sales docu
 
 1. In the left panel, expand **Sales** and choose **Sales** underneath.
 
-1. Expand ![Expansion selection]({% link images/images/btn-expand.png %}) the **General** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General** section.
 
     ![Sales configuration - general sales settings]({% link images/images/config-sales-sales-general.png %}){: .zoom}
     [_General_]({% link configuration/sales/sales.md -%})

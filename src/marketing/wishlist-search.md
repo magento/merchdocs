@@ -24,16 +24,16 @@ _Wish List Search_
 
    - In the **Layout Updates** section, click <span class="btn">Add Layout Update</span>. Then, specify where you want the widget to appear.
 
-    ![Wish list search widget -  layout]({% link images/images/widget-wishlist-search-layout-update.png %}){: .zoom}
+    ![Wish list search widget - layout]({% link images/images/widget-wishlist-search-layout-update.png %}){: .zoom}
     _Layout Update_
 
 1. In the panel on the left, choose **Widget Options**. Then, do the following:
 
 1. Set **Quick Search Form Types** to one of the following:
 
-    |All Forms|Customers can search by all available parameters.|
-    |Owner Name|Customers can search for wish lists by owner name.|
-    |Owner Email|Customers can search for wish lists by owner email address.|
+    |`All Forms`|Customers can search by all available parameters.|
+    |`Owner Name`|Customers can search for wish lists by owner name.|
+    |`Owner Email`|Customers can search for wish lists by owner email address.|
 
     {: .bscallout-info}
     Shipping addresses are not included in wish lists.

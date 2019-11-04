@@ -10,7 +10,7 @@ The [landing page]({% link cms/pages.md -%}) for a search term can be a content 
 
 ## Synonyms
 
-One way to improve the effectiveness of [catalog search]({% link catalog/search-configuration.md %}) is to include different terms that people may use to describe the same item. You don’t want to lose a sale just because someone is looking for a _sofa_, and your product is listed as a _couch_. You can capture a broader range of search terms by entering _sofa_, _davenport_, and _loveseat_ as synonyms for _couch_, and direct them to the same landing page.
+One way to improve the effectiveness of [catalog search]({% link catalog/search-configuration.md %}) is to include different terms that people may use to describe the same item. You do not want to lose a sale just because someone is looking for a _sofa_, and your product is listed as a _couch_. You can capture a broader range of search terms by entering _sofa_, _davenport_, and _loveseat_ as synonyms for _couch_, and direct them to the same landing page.
 
 ## Misspelled Words
 
