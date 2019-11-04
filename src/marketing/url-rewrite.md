@@ -10,5 +10,7 @@ By default, [automatic URL redirects]({% link marketing/url-redirect-product-au
 
 {% include url-rewrite-skip.md %}
 
+{% include url-rewrite-get-params.md %}
+
 ![]({% link images/images/product-search-engine-optimization-create-permanent-redirect.png %}){: .zoom}
 _Create Permanent Redirect for Old URL_

@@ -108,3 +108,5 @@ Redirect
 
 Description
 : Describes the purpose of the rewrite for internal reference.
+
+{% include url-rewrite-get-params.md %}
