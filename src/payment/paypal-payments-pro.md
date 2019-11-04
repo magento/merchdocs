@@ -211,7 +211,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
    |`Authorization` |Approves the purchase, but puts a hold on the funds. The amount is not withdrawn until it is “captured” by the merchant.|
    |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
 
-1. For **Credit Card Settings**, select each credit card that you accept for payment in your store. To make multiple selections, hold down the Ctrl key and click each item.
+1. For **Credit Card Settings**, select the credit cards that you accept for payment in your store. To select multiple cards, hold down the Ctrl key (PC) or the Command key (Mac) and click each one.
 
    {:.bs-callout .bs-callout-info}
    American Express requires an additional agreement.
