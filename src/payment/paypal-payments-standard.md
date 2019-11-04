@@ -226,7 +226,7 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 1. Set **Payment Applicable From** to one of the following:
 
    |`All Allowed Countries` |Customers from all countries specified in your store configuration can use this payment method.|
-   |`Specific Countries` |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store.|
+   |`Specific Countries` |After choosing this option, the Payment from Specific Countries list appears. To select multiple countries, hold down the Ctrl key (PC) or the Command key (Mac) and click each one.|
 
 1. To record communications with the payment system in the log file, set **Debug Mode** to `Yes`.
 
