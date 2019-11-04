@@ -34,7 +34,7 @@ _Facebook Plugins_
 
 1. On the _Admin_ sidebar, go to **Content** > Elements > **Blocks**.
 
-1. In the upper-right corner, click tap **Add New Block** and do the following:
+1. In the upper-right corner, click click **Add New Block** and do the following:
 
     - Enter a descriptive **Block Title** for internal reference. For example: `Facebook Like Button`.
 
@@ -64,7 +64,7 @@ _Facebook Plugins_
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
 <!--{% endif %}-->
 
-1. In the upper-right corner, tap **Add Widget** and do the following:
+1. In the upper-right corner, click **Add Widget** and do the following:
 
    - In the Settings section, set **Type** to `CMS Static Block` and click <span class="btn">Continue</span>.
 
