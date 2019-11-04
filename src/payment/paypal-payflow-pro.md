@@ -91,7 +91,9 @@ Partial invoices and partial refunds are not supported by PayPal Payflow Pro.
 
 ### Step 2: Begin Magento Configuration
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration** > _Sales_ > **Payment Methods**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+
+ 1. In the left panel, expand  **Sales** and choose **Payment Methods**.
 
    - If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view for which this configuration applies.
 
