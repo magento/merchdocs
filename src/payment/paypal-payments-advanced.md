@@ -76,7 +76,9 @@ Processing orders with PayPal Payments Advanced is the same as for any regular P
 
 ### Step 2: Begin Magento Configuration
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration** > _Sales_ > **Payment Methods**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+
+1. In the left panel, expand  **Sales** and choose **Payment Methods**.
 
    - If your Magento installation has multiple websites, stores, or views, set **Store View** in the upper-left corner to the store view for which this configuration applies.
 
