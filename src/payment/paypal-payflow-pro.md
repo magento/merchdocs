@@ -339,7 +339,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
    |`Authorization` |Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is “captured” by the merchant.|
    |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
 
-1. To display the Check out with PayPal button on the product page, set **Display on Product Details Page** to `Yes`.
+1. To display the _Check out with PayPal_ button on the product page, set **Display on Product Details Page** to `Yes`.
 
    ![Express Checkout Basic Settings]({% link images/images/config-sales-payment-methods-paypal-payments-pro-express-checkout-basic-settings.png %}){: .zoom}
    _Basic Settings - PayPal Express Checkout_
