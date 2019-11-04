@@ -16,7 +16,7 @@ Configure the quantities and additional settings per [added source]({% link cata
 
 1. Locate and open a product in **Edit** mode.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the Sources section, and configure product settings per source.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the Sources section, and configure product settings per source.
 
 1. Enter a Quantity amount.
 
@@ -52,7 +52,7 @@ Configure the quantities and additional settings per [added source]({% link cata
 
 1. Locate and open a product in **Edit** mode.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the Sources section, click **Advanced Inventory** and configure:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the Sources section, click **Advanced Inventory** and configure:
 
 1. To activate [inventory control]({% link catalog/inventory.md %}) for your catalog, set **Manage Stock** to “Yes.”
 

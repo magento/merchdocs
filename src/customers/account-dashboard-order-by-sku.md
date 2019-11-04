@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+conditions: Default.EE Only
 title: Order by SKU
 ---
 
