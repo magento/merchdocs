@@ -5,12 +5,12 @@ title: Scheduling an Import
 
 The Scheduled Import process is similar to the manual Import process, with respect to the available import file format and types of import entities:
 
--  The import file should be in .CSV format
--  You can import product and customer data
+- The import file should be in .CSV format
+- You can import product and customer data
 
 The advantage of using Scheduled Import is that you can import a data file multiple times automatically, after specifying the import parameters, and schedule only once.
 
-![]({% link images/images-ee/data-transfer-scheduled-import-add.png %}){: .zoom}
+![Scheduled data import]({% link images/images-ee/data-transfer-scheduled-import-add.png %}){: .zoom}
 _Add Scheduled Import_
 
 The details of each import operation are not written to a log, but in case of failure you will receive an Import Failed email, with a description of the error. The result of the last scheduled import job is shown in the Last Outcome column on the Scheduled Import/Export page.
@@ -21,33 +21,31 @@ After each scheduled import job, a reindex operation is performed automatically.
 
 ## Step 1: Complete the Import Settings
 
-1.  On the _Admin_ sidebar, tap **System**.
+1. On the _Admin_ sidebar, go to **System** > _Data Transfer_ > **Import/Export**.
 
-1.  Under _Data Transfer_, choose **Import/Export**.
+1. In the upper-right corner, click **Add Scheduled Import** and do the following:
 
-1.  In the upper-right corner, click **Add Scheduled Import**. Then, do the following:
+    - **Name** — Enter a name for the scheduled import.
 
-    -  **Name**—Enter a name for the scheduled import.
+    - **Description** — Enter a brief description that explains the purpose of the import and how it is to be used.
 
-    -  **Description**—Enter a brief description that explains the purpose of the import, and how it is to be used.
+    - **Entity Type** — Set to one of the following: `Products` or `Customers`
 
-    -  **Entity Type**—Set to one of the following: `Products` or `Customers`
+    - **Import Behavior** — Set to one of the following:
 
-    -  **Import Behavior**—Set to one of the following:
+        - `Append Complex Data` — Adds new complex data to the existing complex data for existing entries in the database. This is the default value.
+        - `Replace Existing Complex Data` — Writes over existing complex for existing entities in the database.
+        - `Delete Entities` — Deletes existing entries in the database.
 
-        *  `Append Complex Data`—Adds new complex data to the existing complex data for existing entries in the database. This is the default value.
-        *  `Replace Existing Complex Data`—Writes over existing complex for existing entities in the database.
-        *  `Delete Entities`—Deletes existing entries in the database.
+    - **Start Time** — Set to the hour, minute, and second that the import is scheduled to begin.
 
-    -  **Start Time**—Set to the hour, minute, and second that the import is scheduled to begin.
+    - **Frequency** — Set to one of the following: `Daily`, `Weekly`, or `Monthly`
 
-    -  **Frequency**—Set to one of the following: `Daily`, `Weekly`, or `Monthly`
+    - **Field Separator** — Enter the character that is used to separate fields in the import file. The default character is a comma.
 
-    -  **Field Separator**—Enter the character that is used to separate fields in the import file. The default character is a comma.
+    - **Multiple Value Separator** — Enter the character that is used to separate multiple values within a field.
 
-    -  **Multiple Value Separator**—Enter the character that is used to separate multiple values within a field.
-
-    -  **Status**—To activate the scheduled import, set to `Enabled`.
+    - **Status** — To activate the scheduled import, set to `Enabled`.
 
     ![]({% link images/images-ee/data-transfer-scheduled-import-settings.png %}){: .zoom}
     _Import Settings_

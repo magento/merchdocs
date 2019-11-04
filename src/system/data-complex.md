@@ -4,13 +4,13 @@ title: Complex Data
 
 The term complex data refers to the data that is associated with multiple product options. The following product types use data that originates from separate products to create product variations and multiple options.
 
--  [Configurable]({% link catalog/product-create-configurable.md %})
--  [Grouped]({% link catalog/product-create-grouped.md %})
--  [Bundle]({% link catalog/product-create-bundle.md %})
+- [Configurable]({% link catalog/product-create-configurable.md %})
+- [Grouped]({% link catalog/product-create-grouped.md %})
+- [Bundle]({% link catalog/product-create-bundle.md %})
 
 If you were to export a configurable product, you would find the standard attributes that make up a simple product, plus the additional attributes that are needed to manage complex data.
 
-![]({% link images/images/data-exported-configurable-product.png %}){: .zoom}
+![Configurable product - exported data]({% link images/images/data-exported-configurable-product.png %}){: .zoom}
 _Exported Configurable Product Data_
 
 ## Complex Data Attributes
@@ -33,6 +33,6 @@ _Exported Configurable Product Data_
 |Attribute|Description|
 |--- |--- |
 |bundle_price_type|Determines if the price of a bundle item is fixed or dynamic.|
-|bundle_sku_type|Determines if each item is assigned a variable, dynamic SKU, or if a fixed SKU is used for the bundle. Options include: Fixed / Dynamic.|
+|bundle_sku_type|Determines if each item is assigned a variable, dynamic SKU, or if a fixed SKU is used for the bundle. Options: Fixed / Dynamic.|
 |bundle_weight_type|Determines if the weight of a bundle item is variable or fixed.|
 |bundle_values|Describes teach value associated with a bundle option. For example: `name=Bundle Option One,type=dropdown; required=1, sku=sku-option2,price=10, price_type=fixed`|
