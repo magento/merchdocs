@@ -38,7 +38,7 @@ Credit memos are supported for both online and offline refunds. However, multipl
 
 1. Log in to your [PayPal business account][2].
 
-1. Go to **Service Settings** > **Hosted Checkout Pages** > **et Up Menu**, and complete the following settings:
+1. Go to **Service Settings** > **Hosted Checkout Pages** > **Set Up Menu** and complete the following settings:
 
    |**AVS** |`No`|
    |**CSC** |`No`|
