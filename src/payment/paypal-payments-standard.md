@@ -36,7 +36,9 @@ PayPal Payments Standard cannot be used simultaneously with any other PayPal met
 
 This setup method assumes you have an existing PayPal account.
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration** > _Sales_ > **Payment Methods**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+
+1.  In the left panel,  expand **Sales** and choose **Payment Methods**.
 
    - If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view for which this configuration applies.
 
