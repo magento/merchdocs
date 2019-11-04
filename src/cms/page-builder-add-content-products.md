@@ -3,7 +3,7 @@ conditions: Default.EE-B2B
 title: Add Products
 ---
 
-Use the Products content type to add a list of products to the stage. You also can use the [Add Content - Block]({% link cms/page-builder-add-content-block.md %}) tool to place the block, with product list, on the Page Builder stage. Or, you can add the product list directly to a row on a page.
+Use the Products content type to add a list of products to the stage, using either a grid or carousel layout. You also can use the [Add Content - Block]({% link cms/page-builder-add-content-block.md %}) tool to place the block, with product list, on the Page Builder stage. Or, you can add the product list directly to a row on a page.
 
 The following example shows how to add a product list to a block. A [widget]({% link cms/widgets.md %}) can then be used to place the block at a specific location on any page in your store.
 
@@ -20,75 +20,121 @@ _Product List In Storefront_
 
    - Scroll down to the Page Builder workspace. Then, in the Page Builder panel under **Add Content**, drag a **Products** placeholder to the stage.
 
-   ![]({% link images/images-ee/page-builder-add-content-products-drag.png %}){: .zoom}
+   ![Add Products content type]({% link images/images-ee/page-builder-add-content-products-drag.png %}){: .zoom}
    _Add Products_
 
-1. Hover over the empty container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox.
+1. Hover over the empty container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox to open the Products form.
 
-   ![]({% link images/images-ee/page-builder-add-content-products-toolbox.png %}){: .zoom}
+   ![Products Toolbox]({% link images/images-ee/page-builder-add-content-products-toolbox.png %}){: .zoom}
    _Products Toolbox_
 
-1. To describe the condition that determines which products are included, do the following:
+### Select Appearance
 
-   - On the Edit Products page under **Condition**, click **Add** ( ![]({% link images/images/btn-add-grn.png %}){: .Inline_larger}). Then under **Product Attribute**, choose **Category**.
+1. Choose the **Product Carousel** for the Appearance (layout) of your products list:
 
-      ![]({% link images/images-ee/page-builder-add-content-products-settings-condition.png %}){: .zoom}
-      _Condition_
+   ![Product Appearances]({% link images/images-ee/page-builder-products-appearances.png %}){: .zoom}
+   _Product Appearances_
 
-   - To complete the _Category is ..._ part of the condition, click **More** (...). Then, click the **Chooser** (![]({% link images/images/btn-chooser.png %}){: .Inline_larger}) after the field.
+1. In the **Carousel Settings**, configure the settings to match the following screenshot:
 
-      ![]({% link images/images-ee/page-builder-add-content-products-settings-condition-category-is.png %}){: .zoom}
-      _Condition_
+   ![Carousel Settings]({% link images/images-ee/page-builder-products-carousel-settings.png %}){: .zoom}
+   _Carousel Settings_
 
-   - In the category tree, drill down to the **Women & Tops** category and select the **Tees** checkbox.
+   See the [Product Carousel Settings] table below for descriptions of each setting.
 
-      The corresponding category ID appears in the field to complete the condition.
+### Select Products By
 
-      ![]({% link images/images-ee/page-builder-add-content-products-settings-condition-category-tree.png %}){: .zoom}
-      _Category Tree_
+You can select your products by **Category**, **SKU**, or **Condition**. The Category and SKU settings can also be set within the Condition settings. However, selecting the Category or SKU buttons provides an additional **Sort By** option of **Position**. For the Category option, sorting by Position displays the products in the same order that they appear in your Catalog. For the SKU option, sorting by Position displays the products in the order they appear within the Product SKUs textbox. For more information on the Position setting, see [Select Products By Settings]: Product SKUs and Sort By.
 
-   - Choose the **Sort By** option for sorting the products.
+Settings for these selection options are shown here:
 
-      ![]({% link images/images-ee/page-builder-add-content-products-settings-sortby.png %}){: .zoom}
-      _Product Sorting Options_
+   ![Selecting Products By Catagory]({% link images/images-ee/page-builder-products-settings_category.png %}){: .zoom}
+   _Selecting Products By Catagory_
 
-   - Enter the **Number of Products to Display**.
+   ![Selecting Products By SKU]({% link images/images-ee/page-builder-products-settings_sku.png %}){: .zoom}
+   _Selecting Products By SKU_
 
-      By default, the list displays five products.
+   ![Selecting Products By Condition]({% link images/images-ee/page-builder-products-settings_condition.png %}){: .zoom}
+   _Selecting Products By Condition_
 
-      ![]({% link images/images-ee/page-builder-add-content-products-list.png %}){: .zoom}
-      _Product List_
+1. Select the **Category** option button for **Select Products By** and select Women > Tops > Tees from the Category selector:
 
-   - In the upper-right corner, click <span class="btn">Save </span> to return to the Page Builder workspace.
+   ![Selecting Products with Category selector]({% link images/images-ee/page-builder-select-products-by-category.png %}){: .zoom}
+   _Selecting Products By Category_
 
-1. In the upper-right corner on the **Save** menu, click **Save & Close**.
+1. For **Sort By**, select **Position** (the default option):
 
-1. You can now use a [widget]({% link cms/widgets.md %}) to place this block wherever you want it to appear in the store. Or, use [Add Content - Block]({% link cms/page-builder-add-content-block.md %}) to add the block to an existing page, tab, or block.
+   ![Product Sorting Options]({% link images/images-ee/page-builder-products-sortby.png %}){: .zoom}
+   _Product Sorting Options_
+
+1. Enter the **Number of Products to Display** in the Product Carousel or Grid.
+
+   Values can be from 1 to 999.
+
+1. In the upper-right corner of the form, click <span class="btn">Save</span> to return to the Page Builder workspace. Your Products carousel should look something like this on the stage:
+
+   ![Products List on Admin Stage]({% link images/images-ee/page-builder-products-admin-carousel.png %}){: .zoom}
+   _Products List on Admin Stage_
+
+1. In the upper-right corner of the page, click <span class="btn">Save</span>.
+
+You can now use a [widget]({% link cms/widgets.md %}) to place this block wherever you want it to appear in the store. Or, use [Add Content - Block]({% link cms/page-builder-add-content-block.md %}) to add the block to an existing page, tab, or block.
 
 ## Add Products Toolbox
 
-| Tool      | Icon    | Description    |
-| --------- | ----------------- | -------------- |
-| Move      | ![]({% link images/images-ee/icon-pb-move.png %})      | Moves the products container and its content to another position on the stage.|
-| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %})  | Opens the Edit Products page, where you can choose the product selection, and change the properties of its container. |
-| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})      | Hides the current products container and its content.     |
-| Show      | ![]({% link images/images-ee/icon-pb-show.png %})      | Shows the  hidden products container and its content.      |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the products container and its content.     |
-| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})    | Deletes the products container and its content from the stage.      |
+| Tool      | Icon                                                   | Description                                                                                                           |
+|-----------|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Move      | ![Move icon]({% link images/images-ee/icon-pb-move.png %})      | Moves the products container and its content to another position on the stage.                                        |
+| Settings  | ![Settings icon]({% link images/images-ee/icon-pb-settings.png %})  | Opens the Edit Products page, where you can choose the product selection, and change the properties of its container. |
+| Hide      | ![Hide icon]({% link images/images-ee/icon-pb-hide.png %})      | Hides the current products container and its content.                                                                 |
+| Show      | ![Show icon]({% link images/images-ee/icon-pb-show.png %})      | Shows the  hidden products container and its content.                                                                 |
+| Duplicate | ![Duplicate icon]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the products container and its content.                                                     |
+| Remove    | ![Remove icon]({% link images/images-ee/icon-pb-remove.png %})    | Deletes the products container and its content from the stage.                                                        |
 
-## Products Settings
+## Products Appearances
 
-| Setting                       | Description      |
-| ----------------------------- | --------------- |
-| Condition             | Defines the query that retrieves the products for the list.      |
-| Sort By                       | Determines the sort order for the products in the list. Options: <br/>**Newest products first** - Sorts products from the newest to the oldest date of import. <br/>**Oldest products first** - Sorts products from the oldest to the newest date of import.<br/>**Name: A - Z** - Sorts products by name as described. <br/>**Name: Z - A** - Sorts products by name as described. <br/>**SKU: ascending** - Sorts products by SKU as described. <br/>**SKU: descending** - Sorts products by SKU as described.<br/>**Stock: low stock first** - Sorts products from the lowest to the highest stock volume. <br/>**Stock: high stock first** - Sorts products from the highest to the lowest stock volume. <br/>**Price: high to low** - Sorts products by price as described.<br/>**Price: low to high**  - Sorts products by price as described.|
+| Appearances      | Description                                                                                                                                                                                              |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Product Grid     | Displays the products within a grid that shows up to five products per row and as many rows needed to display the number entered in the **Number of Products to Display** setting. |
+| Product Carousel | Displays the products within a carousel (also known as a slider). The carousel shows up to five products per slide. <br/><br/>**Responsiveness Alert**: When you select this appearance, it is best to add the Products content type directly to a Row where it is responsive, showing fewer products per side on smaller screens. If you add it to any other content type (such as a Column or Tab), the carousel always shows five products per slide, regardless of the screen size. |
 
-| Number of Products to Display | Specifies the number of products to appear in the list.     |
-| **Advanced**                  |                  |
-| Alignment                     | Determines the horizontal alignment of the block. Options: <br/>**Default** - Applies the alignment default setting that is specified in the style sheet of the current theme. <br/>**Left** - Aligns the block along the left border of the parent container, with allowance for any padding that is specified.<br/>**Center** - Aligns the block in the center of the parent container, with allowance for any padding that is specified. <br/>**Right** - Aligns the block along the right border of the parent container, with allowance for any padding that is specified. |
-| Border        | Determines the border style that is applied to all four sides of the block container. Options: <br/>**Default** - Applies the default border style that is specified by the associated style sheet. <br/>**None** - Does not provide any visible indication of the container borders. <br/>**Dotted** - The container border appears as a dotted line.<br/>**Dashed** - The container border appears as a dashed line.<br/>**Solid** - The container border appears as a solid line.<br/>**Double** - The container border appears as a double line. <br/>**Groove** - The container border appears as a grooved line. <br/>**Ridge** - The container border appears as a ridged line. <br/>**Inset** - The container border appears as a inset line. <br/>**Outset** - The container border appears as a outset line. |
-| Border Color                  | Determines the color of the container border. Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.    |
-| Border Width                  | Determines the width in pixels of the container border.   |
-| Border Radius                 | Specifies the size of the radius that is used to round each corner of the border.  |
-| CSS Classes                   | Specifies the names of CSS classes from the current style sheet which apply to the container. Separate multiple class names with a space.  |
-| Margins and Padding           | Determines the size, in pixels, of the outer margins and inner padding of the block container. Enter the corresponding values in the diagram. <br/>**Margins** - The amount of blank space, in pixels, that is applied to the outside edge of all sides of the container. Options: Top / Right / Bottom / Left <br/>**Padding** - The amount of blank space, in pixels, that is applied to the inside edge of all sides of the container. Options: Top / Right / Bottom / Left |
+## Select Products By Settings
+
+| Settings                      | Description   |
+|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Category                      | Selects the products to display by category. When selected, this option provides a **Category** selector to choose the category of products to display.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| SKU                           | Selects products to display by SKU. When selected, this option provides a **Product SKUs** text box to enter a comma-separated list of SKUs to display.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Condition                     | Selects products to display from the conditions you define. When selected, this option provides a **Condition** selector for adding conditions to your products selection.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Category selector             | Provides a selector that lists all the categories within your catalog to choose from. For example, in the Magento sample data, there is a Gear category with the subcategories Bags, Fitness Equipment, and Watches. You can select the Gear category to include all the subcategories, or select one of the subcategories to narrow the list of products to display. Additionally, if **Sort By** is set to **Position**, the products will appear in the same order that they appear in your catalog.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Product SKUs                  | Provides a textbox into which you can enter the specific product SKUs you want to display in your Products list. Additionally, if **Sort By** is set to **Position**, these SKUs will appear in the Products list in the same order you enter them into this textbox.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Condition selector            | Provides a selector to add conditions (Gender, Price, Weight, and so on) for selecting the products you want to display in the Products list. For example, you could select only products with a Gender set to Unisex.                            |
+| Sort By                       | Determines the sort order for the products in the list. Options: <br/>**Position** (for Category and SKU options only): When you select the Category option, the Position displays products in the same order as their position in the catalog. When you select the SKU option, the Position displays products in the same order as the SKUs within the Product SKUs textbox.<br/>**Newest products first** - Sorts products by the date they were added to the catalog, displaying the products with the most recent entry dates first. <br/>**Oldest products first** - Sorts products by the date they were added to the catalog, displaying the products with the oldest entry dates first.<br/>**Name: A - Z** - Sorts products in alphabetical order. <br/>**Name: Z - A** - Sorts products in reverse alphabetical order. <br/>**SKU: ascending** - Sorts products by SKU in alphanumeric order. <br/>**SKU: descending** - Sorts products by SKU in reverse alphanumeric order.<br/>**Stock: low stock first** - Sorts products from the lowest to the highest stock volume. <br/>**Stock: high stock first** - Sorts products from the highest to the lowest stock volume. <br/>**Price: high to low** - Sorts products from highest to lowest price.<br/>**Price: low to high**  - Sorts products from lowest to highest price. |
+| Number of Products to Display | Specifies the total number of products to appear in a products grid or carousel. The default is set to 20.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+
+## Product Carousel Settings
+
+The following settings appear when you select the Product Carousel appearance at the top of the form.
+
+| Setting        | Description                                                                                                                                                                                                                                                                                                              |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Carousel Mode  | Determines how the products are displayed within the carousel. Options: <br/>**Default** - The carousel displays up to five products per slide and responsively reduces that number as needed. <br/>**Continuous** - The carousel centers and scrolls one product at a time within an infinite loop. Products to the right and left of the centered product are dimmed so that the center product is highlighted. |
+| Autoplay       | Determines if the carousel begins scrolling automatically when the page loads. Options: <br/>**Yes** - The carousel scrolls automatically as soon as the page loads. <br/>**No** - After the first slide, which appears by default, the slide navigation (dots or arrows) must be clicked to display the next slide in sequence. |
+| Autoplay Speed | Specifies the delay in milliseconds between each slide when Autoplay is used. Default value: 4000 ms (4 seconds)                                                                                                                                                                                                         |
+| Infinite Loop  | Determines if the slide show replays from the beginning after the last slide. Options: <br/>**Yes** - The slide show replays indefinitely while the page is open. <br/>**No** - The slide show plays only once. Be aware that if you set Infinite Loop to No, with Autoplay set to Yes, the autoplay will stop at the end of the number of products being displayed.                                                                                                                           |
+| Show Arrows    | Determines if each slide includes _next_ and _previous_ navigation arrows on the left and right side of each slide. Options: <br/>**Yes** - Navigation arrows appear on the left and right side of each slide. <br/>**No** - The slides do not have navigation arrows.                                                                     |
+| Show Dots      | Determines if the carousel includes navigation dots below the slides. Options: <br/>**Yes** - Navigation dots appear at the bottom of the slider. <br/>**No** - The slider does not include navigation dots.                                                                                                                                 |
+
+## Advanced
+
+| Settings                       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Alignment                     | Determines the horizontal alignment of the block. Options: <br/>**Default** - Applies the alignment default setting that is specified in the style sheet of the current theme. <br/>**Left** - Aligns the block along the left border of the parent container, with allowance for any padding that is specified.<br/>**Center** - Aligns the block in the center of the parent container, with allowance for any padding that is specified. <br/>**Right** - Aligns the block along the right border of the parent container, with allowance for any padding that is specified.                                                                                                                                                                                                                                                                      |
+| Border                        | Determines the border style that is applied to all four sides of the block container. Options: <br/>**Default** - Applies the default border style that is specified by the associated style sheet. <br/>**None** - Does not provide any visible indication of the container borders. <br/>**Dotted** - The container border appears as a dotted line.<br/>**Dashed** - The container border appears as a dashed line.<br/>**Solid** - The container border appears as a solid line.<br/>**Double** - The container border appears as a double line. <br/>**Groove** - The container border appears as a grooved line. <br/>**Ridge** - The container border appears as a ridged line. <br/>**Inset** - The container border appears as a inset line. <br/>**Outset** - The container border appears as a outset line.                               |
+| Border Color                  | Determines the color of the container border. Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Border Width                  | Determines the width in pixels of the container border.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Border Radius                 | Specifies the size of the radius that is used to round each corner of the border.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| CSS Classes                   | Specifies the names of CSS classes from the current style sheet which apply to the container. Separate multiple class names with a space.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Margins and Padding           | Determines the size, in pixels, of the outer margins and inner padding of the block container. Enter the corresponding values in the diagram. <br/>**Margins** - The amount of blank space, in pixels, that is applied to the outside edge of all sides of the container. Options: Top / Right / Bottom / Left <br/>**Padding** - The amount of blank space, in pixels, that is applied to the inside edge of all sides of the container. Options: Top / Right / Bottom / Left                                                                                                                                                                                                                                                                                                                                                                       |
+
+[Product Carousel Settings]: #product-carousel-settings
+[Select Products By Settings]: #select-products-by-settings
