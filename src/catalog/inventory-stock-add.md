@@ -31,7 +31,7 @@ After adding sources, you need to prioritize the order for the sources from top 
    ![]({% link images/images/stores-inventory-stock-sales-channel.png %}){: .zoom}
    *Sales Channels*
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Sources** section. For any stock other than the default, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Sources** section. For any stock other than the default, do the following:
 
 1. Click <span class="btn">Assign Sources</span>.
 

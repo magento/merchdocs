@@ -14,7 +14,7 @@ Coupon codes can be sent by email, or included in newsletters, catalogs, and adv
 
 1. Follow the instructions to create a [cart price rule]({% link marketing/price-rules-cart.md %}).
 
-1. On the General Information page, set **Coupon** to `Specific Coupon`.
+1. On the **Rule Information** section, set **Coupon** to `Specific Coupon`.
 
    - Enter a **Coupon Code** to be used with the promotion.
 

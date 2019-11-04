@@ -27,7 +27,7 @@ Authorize.Net handles all steps in the transaction process — such as payment d
 
 1. In the panel on the left under **Sales**, choose **Payment Methods**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Authorize.Net Direct Post (Deprecated)** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Authorize.Net Direct Post (Deprecated)** section. Then, do the following:
 
    - Set **Enabled** to “Yes.”
 
