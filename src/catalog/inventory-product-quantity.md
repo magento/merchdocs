@@ -19,7 +19,7 @@ All updated quantities and sources display in the product grid.
 
 1. Set **Source Item Status** to In Stock.
 
-1. Enter an amount update the **Qty** for on-hand stock.
+1. Enter an amount to update the **Qty** for on-hand stock.
 
 1. To set a notification for inventory quantities, do one of the following:
 
