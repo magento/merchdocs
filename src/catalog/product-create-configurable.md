@@ -270,7 +270,7 @@ _Current Configurations_
 
 ### Step 5: Add a Product Image
 
-1. Scroll down to the **Images and Videos** section. Then, expand ![]({% link images/images/btn-expand.png %}){: .Inline}the section.
+1. Scroll down to the **Images and Videos** section. Then, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the section.
 
 1. Click the **Camera** tile, and browse to the main image that you want to use for the configurable product.
 

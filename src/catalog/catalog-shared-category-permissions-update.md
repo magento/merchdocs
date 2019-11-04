@@ -11,7 +11,7 @@ title: Updating Category Permissions
 
 1. In the category tree, select the category of the products that you want to update. To include all products, select the top-level category in the tree.
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Category Permissions** section. Then, click <span class="btn">New Permission</span>and do the following:
+1. Scroll down and expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Category Permissions** section. Then, click <span class="btn">New Permission</span>and do the following:
 
     ![]({% link images/images-b2b/category-permissions-new.png %}){: .zoom}
     *New Permission*

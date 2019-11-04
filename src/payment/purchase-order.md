@@ -15,7 +15,7 @@ _Purchase Order_
 
 1. In the panel on the left, under **Sales**, choose **Payment Methods**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Purchase Order** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Purchase Order** section. Then, do the following:
 
    - To activate this payment method, set **Enabled** to “Yes.”
 
