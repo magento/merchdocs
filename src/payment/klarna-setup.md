@@ -77,7 +77,7 @@ _Klarna Merchant Portal_
    ![Klarna]({% link images/images/config-sales-payment-methods-recommended-solutions-klarna.png %}){: .zoom}
    [_Klarna_]({% link configuration/sales/klarna.md %})
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Klarna API** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Klarna API** section. Then, do the following:
 
    - Set **API Version** to one of the following:
      **Klarna Payments (Europe)**: <br/>Supported countries: AT / DE / DK / FI / NL / NO / SE / UK
@@ -93,7 +93,7 @@ _Klarna Merchant Portal_
      ![Klarna API]({% link images/images/config-sales-payment-methods-klarna-api.png %}){: .zoom}
      [_Klarna API_]({% link configuration/sales/klarna.md %})
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Klarna Payments** section. then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Klarna Payments** section. then, do the following:
 
    - Set **Enable this Solution** to `Yes`.
    - Set **Payment from applicable countries** to one of the following:

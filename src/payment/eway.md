@@ -18,7 +18,7 @@ Sign up for an eWAY [merchant account][1]{: target="_blank"}, and get your crede
 
 2. In the panel on the left under **Sales**, choose **Payment Methods**.
 
-3. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the
+3. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the
  **eWAY** section. Then, do the following:
 
    ![Enable eWay]({% link images/images-ee/config-sales-payment-methods-eway1-enabled.png %}){: .zoom}

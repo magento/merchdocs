@@ -36,7 +36,7 @@ There are two ways to assign a company to a shared catalog. You can make the ass
     ![]({% link images/images-b2b/companies-grid-edit.png %}){: .zoom}
     *Edit Company*
 
-1. On the company page, scroll down and expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Advanced Settings** section.
+1. On the company page, scroll down and expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Advanced Settings** section.
 
     ![]({% link images/images-b2b/company-customer-group-shared-catalog.png %}){: .zoom}
     *Customer Groups / Shared Catalogs*
