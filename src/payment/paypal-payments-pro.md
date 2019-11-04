@@ -248,7 +248,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
    - To reject a transaction based on a mismatched ZIP code, set **AVS Zip Does Not Match** to `Yes`.
 
-   - To reject a transaction based on mismatched country identifier, set **International AVS Indicator Does Not Match** to `Yes`.
+   - To reject a transaction based on a mismatched country identifier, set **International AVS Indicator Does Not Match** to `Yes`.
 
    - To reject a transaction based on a mismatched CVV code, set **Card Security Code Does Not Match** to `Yes`.
 
