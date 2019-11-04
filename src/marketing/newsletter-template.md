@@ -36,7 +36,7 @@ _Newsletter Templates_
         ![Newsletter template information]({% link images/images/newsletter-template-information2.png %}){: .zoom}
         _Template Information_
 
-1. Tap **Preview Template** to see how it looks. Then, make any changes that are needed.
+1. Click **Preview Template** to see how it looks. Then, make any changes that are needed.
 
 1. When complete, click <span class="btn">Save Template</span>.
 

@@ -13,6 +13,6 @@ Available Yotpo features and customization options are dependent on the Yotpo pl
 
 See the [Yotpo website](https://www.yotpo.com/platform/visual-marketing/) for more information about additional features, settings, and [Magento integration](https://www.yotpo.com/integrations/magento/).
 
-## Integrating your Magento store with your Yotpo Account
+## Integrating Your Magento Store with your Yotpo Account
 
-With Magento v2.3.3+, integrating your Magento store is a quick, simple process and gives you access to the content and data customizations available in your Yotpo account. See [Integrate your Magento Store with your Yotpo Account]({% link marketing/yotpo-connect.md -%}).
+With Magento v2.3.3+, integrating your Magento store is a quick, simple process and gives you access to the content and data customizations available in your Yotpo account. See [Integrate your Magento Store with your Yotpo Account]({% link marketing/yotpo-connect.md %}).

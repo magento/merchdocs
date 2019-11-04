@@ -4,9 +4,8 @@ title: Integrate Magento with Yotpo
 
 With just a few steps, you can put Yotpo to work for you.
 
-1. [Create a Yotpo account](#create-a-yotpo-account).
-
-1. [Enable Yotpo and connect your Magento store](#enable-yotpo-and-connect-your-magento-store).
+1. Create a Yotpo account
+1. Enable Yotpo and Connect your Magento Store
 
 ## Create a Yotpo Account
 
@@ -16,7 +15,7 @@ See Yotpo [Plan Information](https://www.yotpo.com/pricing/). You can create fre
 
 1. Complete the account information.
 
-   ![]({% link images/images/yotpo-account-creation-create.png %}){: .zoom}
+   ![Yotpo - create account]({% link images/images/yotpo-account-creation-create.png %}){: .zoom}
 
    - For **Full Name**, enter the name you want to use for your Yotpo account.
    - For **Email Address**, enter the email address you want to use for your Yotpo account.
@@ -25,7 +24,7 @@ See Yotpo [Plan Information](https://www.yotpo.com/pricing/). You can create fre
 
 1. On the _We’re Almost Done_ screen, complete the additional account information:
 
-   ![]({% link images/images/yotpo-account-creation-finish.png %}){: .zoom}
+   ![Yotpo - finish account creation]({% link images/images/yotpo-account-creation-finish.png %}){: .zoom}
 
    - Set **Platform** to `Magento 2`.
    - For **Website URL**, enter your store URL.
@@ -39,29 +38,27 @@ Your account is created. Follow the [Yotpo Wizard](https://support.yotpo.com/en/
 
 If you have an existing Yotpo account, you can enable Yotpo inside the Magento Admin.
 
-1. On the _Admin_ sidebar, click **Stores**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. Under _Settings_, click **Configuration**.
+1. In the left panel, expand **Yotpo** and choose **Reviews and Visual Marketing**.
 
-1. Under _Yotpo_ in the panel on the left, click **Reviews and Visual Marketing**.
+1. For _Store View_ in the header, click **Default Config** and choose **Default Store View**. Click <span class="btn">OK</span> to confirm.
 
-1. For _Store View_ in the header, click **Default Config** and click **Default Store View**.
+1. In the _Setup_ section, enable your Yoypo account connection:
 
-1. Click **OK** to confirm and expand the _Setup_ section.
+    - Set **Enable Yotpo** to `Yes`.
 
-1. Set **Enable Yotpo** to `Yes`.
+    - For **App Key**, enter the App Key value from your Yotpo account.
 
-1. For **App Key**, enter the App Key value from your Yotpo account.
+    - **API Secret**, enter the API Secret value from your Yotpo account.
 
-1. For **API Secret**, enter the API Secret value from your Yotpo account.
-
-   See [Finding your Yotpo App Key and API Secret](https://support.yotpo.com/en/article/finding-your-yotpo-app-key-and-api-secret).
+    See [Finding your Yotpo App Key and API Secret](https://support.yotpo.com/en/article/finding-your-yotpo-app-key-and-api-secret).
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-   ![]({% link images/images/yotpo-config-setup.png %}){: .zoom}
+   ![Yotpo configuration - setup]({% link images/images/yotpo-config-setup.png %}){: .zoom}
    _Yotpo Setup settings_
 
-After you connect your Magento store to your Yotpo account, Magento sets the default values for your [Widget]({% link marketing/yotpo-settings.md -%}) and [Sync]({% link marketing/yotpo-settings.md -%}) settings.
+After you connect your Magento store to your Yotpo account, Magento sets the default values for your [Widget]({% link marketing/yotpo-settings.md %}) and [Sync]({% link marketing/yotpo-settings.md %}) settings.
 
 Additional customization options, tasks, and features are dependent on your Yotpo plan and are available in your [Yotpo account](https://yap.yotpo.com/#/home).

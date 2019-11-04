@@ -30,7 +30,7 @@ If you have a Google AdWords account, you can create a tag that tracks conversio
         ![Google Tag Manager - choose Google Adwords]({% link images/images-ee/google-tag-manager-create-adwords-tag1.png %}){: .zoom}
         _Choose Product_
 
-    - Under **Choose a Tag Type**, select **AdWords Conversion Tracking**. Then, tap <span class="btn">Continue</span>.
+    - Under **Choose a Tag Type**, select **AdWords Conversion Tracking**. Then, click <span class="btn">Continue</span>.
 
         ![Google Tag Manager - Adwords conversion tracking]({% link images/images-ee/google-tag-manager-create-adwords-tag2.png %}){: .zoom}
         _Adwords Conversion Tracking_
