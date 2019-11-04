@@ -24,7 +24,7 @@ The properties of each attribute that is used for a configurable product variati
 |Property|Setting|
 |--- |--- |--- |
 |Scope|Global|
-[Catalog Input Type for Store Owner]({% link stores/attributes-product.md %})|The input type of any attribute that is used for a product variation must be one of the following: DropdownVisual, SwatchText, or Swatch|
+[Catalog Input Type for Store Owner]({% link stores/attributes-product.md %})|The input type of any attribute that is used for a product variation must be one of the following: Dropdown, Visual, Text Swatch, or Swatch|
 |Values Required|Yes|
 
 ### Step 1: Choose the Product Type
@@ -270,7 +270,7 @@ _Current Configurations_
 
 ### Step 5: Add a Product Image
 
-1. Scroll down to the **Images and Videos** section. Then, expand ![]({% link images/images/btn-expand.png %}){: .Inline}the section.
+1. Scroll down to the **Images and Videos** section. Then, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the section.
 
 1. Click the **Camera** tile, and browse to the main image that you want to use for the configurable product.
 

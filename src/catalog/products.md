@@ -4,7 +4,7 @@ redirect_from:
   - /products.html
 ---
 
-All products in the catalog are accessible from the[ Products]({% link catalog/products.md %}) page, where you can create new products and edit existing ones. For a multisite installation, each website can offer a different selection of products for sale from the same catalog.
+All products in the catalog are accessible from the [Products]({% link catalog/products.md %}) page, where you can create new products and edit existing ones. For a multisite installation, each website can offer a different selection of products for sale from the same catalog.
 
 The Products grid lists all products in the catalog, indicates the website(s) where they are available, and if they are currently enabled for sale. {% if "Default.B2B Only" contains site.edition %}For B2B installations with [Shared Catalog]({% link catalog/catalog-shared.md %}) enabled, the grid includes a column that indicates which products have alternate discount pricing in a shared catalog.{% endif %}
 
@@ -37,7 +37,7 @@ You can browse through the list page by page, or search for specific products. U
       <tbody>
          <tr>
             <td>Add Product</td>
-            <td>Initiates the process to create a new simple product. To choose a specific product type, click the down arrow. Options:<a href="{% link catalog/product-create-simple.md %}">Simple Product</a>, <a href="{% link catalog/product-create-configurable.md %}">Configurable Product</a>, <a href="{% link catalog/product-create-grouped.md %}">Grouped Product</a>, <a href="{% link catalog/product-create-virtual.md %}">Virtual Product</a>, <a href="{% link catalog/product-create-bundle.md %}">Bundle Product</a>, <a href="{% link catalog/product-create-downloadable.md %}">Downloadable Product</a><!--{% if "Default.EE-B2B" contains site.edition %}-->, <a href="{% link catalog/product-gift-card.md %}">Gift Card</a><!--{% endif %}-->
+            <td>Initiates the process to create a new simple product. To choose a specific product type, click the down arrow. Options: <a href="{% link catalog/product-create-simple.md %}">Simple Product</a>, <a href="{% link catalog/product-create-configurable.md %}">Configurable Product</a>, <a href="{% link catalog/product-create-grouped.md %}">Grouped Product</a>, <a href="{% link catalog/product-create-virtual.md %}">Virtual Product</a>, <a href="{% link catalog/product-create-bundle.md %}">Bundle Product</a>, <a href="{% link catalog/product-create-downloadable.md %}">Downloadable Product</a><!--{% if "Default.EE-B2B" contains site.edition %}-->, <a href="{% link catalog/product-gift-card.md %}">Gift Card</a><!--{% endif %}-->
 </td>
          </tr>
          <tr>
@@ -83,7 +83,7 @@ You can browse through the list page by page, or search for specific products. U
       <tbody markdown="1">
          <tr>
             <td>(Checkbox)</td>
-            <td>Selects multiple records to be subject to an action. The checkbox in the first column of each selected record is marked .  Options:<table><col WIDTH="150">
+            <td>Selects multiple records to be subject to an action. The checkbox in the first column of each selected record is marked. Options:<table><col WIDTH="150">
             <col WIDTH="auto"><tbody><tr><td>Select All</td><td>Selects all records found that match the current filter settings.</td></tr><tr><td>Select All on This Page</td><td>Selects only the records found on the current page that match the filter settings.</td></tr></tbody></table></td>
          </tr>
          <tr>
@@ -100,7 +100,7 @@ You can browse through the list page by page, or search for specific products. U
          </tr>
          <tr>
             <td>Type</td>
-            <td>The product type. </td>
+            <td>The product type.</td>
          </tr>
          <tr>
             <td>Attribute Set</td>

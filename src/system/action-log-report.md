@@ -42,7 +42,9 @@ To clear the filter options and return to the full report, click **Reset Filter*
 ![Action log report filters]({% link images/images-ee/system-action-log-report-filters.png %}){: .zoom}
 _Action Logs Report Filters_
 
-|Field|Description|
+### Filter by Field
+
+|Field|description|
 |--- |--- |
 |Time|In **From**, click to select a date from the dynamic calendar to define the beginning date for the filter. Then in **To**, click to select a date from the dynamic calendar to define the ending date for the filter.|
 |Action Group|Choose an action group.|

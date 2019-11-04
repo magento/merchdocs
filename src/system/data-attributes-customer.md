@@ -10,28 +10,28 @@ Each attribute, or field, is represented in the CSV file as a column, and custom
 
 |Attribute|Description|
 |--- |--- |
-|email||
-|_website||
-|_store||
-|confirmation||
-|created_at||
-|created_in||
-|disable_auto_group_change||
-|dob||
-|firstname||
-|gender||
-|group_id||
-|lastname||
-|middlename||
-|password_hash||
-|prefix||
-|rp_token||
-|rp_token_created_at||
-|store_id||
-|suffix||
-|taxvat||
-|website_id||
-|password||
+|`email`||
+|`_website`||
+|`_store`||
+|`confirmation`||
+|`created_at`||
+|`created_in`||
+|`disable_auto_group_change`||
+|`dob`||
+|`firstname`||
+|`gender`||
+|`group_id`||
+|`lastname`||
+|`middlename`||
+|`password_hash`||
+|`prefix`||
+|`rp_token`||
+|`rp_token_created_at`||
+|`store_id`||
+|`suffix`||
+|`taxvat`||
+|`website_id`||
+|`password`||
 
 ## Customer Addresses
 

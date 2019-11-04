@@ -12,7 +12,7 @@ For more information, see the [Amazon Pay and Login with Amazon][1] documentatio
 
    - In the upper-right corner, set the **Store View** chooser to establish where the Amazon Pay configuration applies.
 
-   - In the panel on the left under **Sales**, choose **Payment Methods**. Then under **Other Payment Methods**, expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Amazon Pay** section.
+   - In the panel on the left under **Sales**, choose **Payment Methods**. Then under **Other Payment Methods**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Amazon Pay** section.
 
    ![]({% link images/images/config-sales-payment-methods-amazon-pay.png %}){: .zoom}
    [_Amazon Pay_]({% link configuration/sales/amazon-pay.md %})
@@ -31,7 +31,7 @@ For more information, see the [Amazon Pay and Login with Amazon][1] documentatio
 
 ### Credentials
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Credentials** section.  Your credentials are transferred automatically from your Amazon Pay account to the Magento Admin. Your credentials can also be found in Amazon Seller Central in both Production and Sandbox modes.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Credentials** section.  Your credentials are transferred automatically from your Amazon Pay account to the Magento Admin. Your credentials can also be found in Amazon Seller Central in both Production and Sandbox modes.
 
    To use test credentials from the Amazon Pay Sandbox, do the following:
 
@@ -66,7 +66,7 @@ For more information, see the [Amazon Pay and Login with Amazon][1] documentatio
 
 ### Options
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Options** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Options** section.
 
 1. Set **Enable Amazon Pay** to “Yes.”
 

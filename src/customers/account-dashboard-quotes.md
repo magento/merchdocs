@@ -5,7 +5,7 @@ redirect_from:
   - /customers/account-company-quotes.html
 ---
 
-If quotes are enabled, the My Quotes section of the account dashboard lists all quotes submitted by the customer. Depending on their permissions, only buyers who make purchases on behalf of a company can submit requests to negotiate the price of a purchase.
+If quotes are enabled, the My Quotes section of the account lists all quotes submitted by the customer. Depending on their permissions, only buyers who make purchases on behalf of a company can submit requests to negotiate the price of a purchase.
 
 ![]({% link images/images-b2b/customer-dashboard-my-quotes.png %}){: .zoom}
 _My Quotes_

@@ -4,40 +4,40 @@ title: Adding Search Terms
 
 As you learn new words that people use to search for products in your catalog, you can add them to your search terms list to direct people to the most closely matching products in your catalog.
 
-![]({% link images/images/search-terms.png %}){: .zoom}
-*Search Terms*
+![Search terms grid]({% link images/images/search-terms.png %}){: .zoom}
+_Search Terms_
 
-## To add a new search term
+## Add a New Search Term
 
-1. On the Admin sidebar, tap **Marketing**. Then under **SEO &amp; Search**, choose **Search Terms**.
+1. On the _Admin_ sidebar, go to **Marketing** > _SEO & Search_ > **Search Terms**.
 
-1. Tap <span class="btn">Add New Search Term</span>. Then, do the following:
+1. Click <span class="btn">Add New Search Term</span> and do the following:
 
-    ![]({% link images/images/search-terms-information.png %}){: .zoom}
-    *General Information*
+    ![Search terms general information]({% link images/images/search-terms-information.png %}){: .zoom}
+    _General Information_
 
-    * Under General Information in the **Search Query** box, type the word or phrase that you want to add as a new search term.
+    - Under _General Information_ in the **Search Query** box, enter the word or phrase that you want to add as a new search term.
 
-    * If your store is available in multiple languages, choose the applicable **Store** view.
+    - If your store is available in multiple languages, choose the applicable **Store** view.
 
-    * To redirect the search results to another page in your store, or to another website, enter the full URL of the target page in the **Redirect URL** field.
+    - To redirect the search results to another page in your store, or to another website, enter the full URL of the target page in the **Redirect URL** field.
 
-    * If you want this term to be available for use as a suggestion whenever a search returns no results, set **Display in Suggested Terms** to “Yes".
+    - If you want this term to be available for use as a suggestion whenever a search returns no results, set **Display in Suggested Terms** to `Yes`.
 
-1. When complete, tap <span class="btn">Save Search</span>.
+1. When complete, click <span class="btn">Save Search</span>.
 
-## To edit a search term
+## Edit a Search Term
 
 1. In the Search Terms grid, click the row of any record to open the search term in edit mode.
 
 1. Make the necessary changes.
 
-1. When complete, tap <span class="btn">Save Search</span>.
+1. When complete, click <span class="btn">Save Search</span>.
 
-## To delete a search term
+## Delete a Search Term
 
-1. In the list, mark the checkbox of the term to be deleted.
+1. In the list, select the checkbox of the term to be deleted.
 
-1. In the upper-left corner of the list, set **Actions** to “Delete”.
+1. In the upper-left corner of the list, set **Actions** to `Delete`.
 
-1. When complete, tap <span class="btn">Submit</span>.
+1. When complete, click <span class="btn">Submit</span>.
