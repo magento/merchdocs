@@ -2,7 +2,7 @@
 title: Create a Cart Price Rule
 ---
 
-Complete the following steps to add a new rule, describe the conditions, and define the actions. Then, complete the labels and test the rule.
+Complete the following steps to add a new rule, describe the conditions, and define the actions. Then, complete the labels and test the rule.  Price rule conditions can be based on cart or [product attributes]({% link catalog/product-attributes.md %}), but not on [customizable options]({% link catalog/settings-advanced-custom-options.md %}).
 
 ## Step 1: Add a New Rule
 
