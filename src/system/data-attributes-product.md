@@ -87,10 +87,10 @@ The installation used to export this data has the sample data installed, and has
 
 |Attribute|Description|Applies to|
 |--- |--- | --- |
-|_super_products_sku|The generated SKU for a configurable product variation. For example: WB03-XS-Green|Configurable Products|
-|_super_attribute_code|The attribute code of a configurable product variation. For example: color|Configurable Products|
-|_super_attribute_option|The value of a configurable product variation. For example: green|Configurable Products|
-|_super_attribute_price_corr|A price adjustment that is associated with a configurable product variation.|Configurable Products|
-|_associated_sku|The SKU of a product that is associated with a grouped product.|Grouped Products <br/>Bundle Products|
-|_associated_default_qty|Determines the quantity of the associated product that is included.|Configurable Products<br/>Grouped Products<br/>Bundle Products|
-|_associated_position|Determines the position of the associated product when listed with other associated products.|Configurable Products<br/>Grouped Products<br/>Bundle Products|
+|`_super_products_sku`|The generated SKU for a configurable product variation. For example: WB03-XS-Green|Configurable Products|
+|`_super_attribute_code`|The attribute code of a configurable product variation. For example: color|Configurable Products|
+|`_super_attribute_option`|The value of a configurable product variation. For example: green|Configurable Products|
+|`_super_attribute_price_corr`|A price adjustment that is associated with a configurable product variation.|Configurable Products|
+|`_associated_sku`|The SKU of a product that is associated with a grouped product.|Grouped Products <br/>Bundle Products|
+|`_associated_default_qty`|Determines the quantity of the associated product that is included.|Configurable Products<br/>Grouped Products<br/>Bundle Products|
+|`_associated_position`|Determines the position of the associated product when listed with other associated products.|Configurable Products<br/>Grouped Products<br/>Bundle Products|

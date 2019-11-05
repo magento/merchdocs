@@ -27,7 +27,7 @@ Before you try to import a large amount of images, review the steps in the impor
 1. In the CSV data, enter the name of each image file to be imported on the correct row, by `sku`, and in the correct column according to image type (`base_image`, `small_image`, `thumbnail_image`, or `additional_images`).
 
     {:.bs-callout-info}
-    For images in the default import folder(`var/import/images`), do not include the path before the filename in the CSV data.
+    For images in the default import folder (`var/import/images`), do not include the path before the filename in the CSV data.
 
     The CSV file must include only the `sku` column and the related image columns.
 
@@ -48,7 +48,7 @@ Before you try to import a large amount of images, review the steps in the impor
     ![Data import images file directory]({% link images/images/data-import-images-file-to-import.png %}){: .zoom}
     _Images File Directory_
 
-    If importing multiple images for a single `sku`, insert a blank row below the `sku`, and enter the additional image file names in the appropriate columns. The additional rows are understood to belong to the parent `sku`.
+    If importing multiple images for a single `sku`, insert a blank row below the `sku` and enter the additional image file names in the appropriate columns. The additional rows are understood to belong to the parent `sku`.
 
 ## Method 2: Import Images from External Server
 

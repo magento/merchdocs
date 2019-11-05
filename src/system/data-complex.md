@@ -33,6 +33,6 @@ _Exported Configurable Product Data_
 |Attribute|Description|
 |--- |--- |
 |bundle_price_type|Determines if the price of a bundle item is fixed or dynamic.|
-|bundle_sku_type|Determines if each item is assigned a variable, dynamic SKU, or if a fixed SKU is used for the bundle. Options: Fixed / Dynamic.|
+|bundle_sku_type|Determines if each item is assigned a variable, dynamic SKU, or if a fixed SKU is used for the bundle. Options: Fixed / Dynamic|
 |bundle_weight_type|Determines if the weight of a bundle item is variable or fixed.|
 |bundle_values|Describes teach value associated with a bundle option. For example: `name=Bundle Option One,type=dropdown; required=1, sku=sku-option2,price=10, price_type=fixed`|

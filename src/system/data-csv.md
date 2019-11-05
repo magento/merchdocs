@@ -8,8 +8,7 @@ The comma-separated-value (CSV) file format is used as the basis of data transfe
 - Export: `CSV`
 
 {:.bs-callout-info}
-**Important!**
-We recommend that you use a program that supports UTF-8 encoding, such as [Notepad++][1] or [OpenOffice Calc][2], to edit CSV files. Microsoft Excel inserts additional characters into the column header of the CSV file, which can prevent the data from being imported back into Magento. If you work on the Mac, you can save your data in the CSV (Windows) format.
+**Important!** We recommend that you use a program that supports UTF-8 encoding, such as [Notepad++][1] or [OpenOffice Calc][2], to edit CSV files. Microsoft Excel inserts additional characters into the column header of the CSV file, which can prevent the data from being imported back into Magento. If you work on the Mac, you can save your data in the CSV (Windows) format.
 
 CSV files have a specific structure that must match the database. Each column heading corresponds to the Attribute Code of the field that is represented by the column. To ensure that the column headings can be read by Magento, first export the data from your store as a CSV file. You can then edit the data and re-import it into Magento.
 
@@ -35,12 +34,12 @@ For a detailed description of each product attribute, see [Product CSV File Stru
 ![Notepad++ - product CSV data]({% link images/images/data-transfer-csv-product-notepad++.png %}){: .zoom}
 _Exported Product CSV in Notepad++_
 
-**CSV Product Structure**
+### CSV Product Structure
 
 Column Name | Description
 ----------- | -----------
 `_<name>` | Column headers that begin with an underscore contain  service entity properties or complex data. Service columns are not product attributes.
-`<attribute_name>` | Column headers with an attribute code or field name identify the column of data. A column might represent a system attribute, or one that was  created by the store administrator.
+`<attribute_name>` | Column headers with an attribute code or field name identify the column of data. A column might represent a system attribute, or one that was created by the store administrator.
 
 ## Customer CSV Structure
 
@@ -58,7 +57,7 @@ For a detailed description of each customer attribute, see [Customer CSV File St
 ![Notepad++ - customer CSV data]({% link images/images/data-transfer-csv-notepad++customer.png %}){: .zoom}
 _Exported Customer CSV in Notepad++_
 
-**CSV Customer Structure**
+### CSV Customer Structure
 
 Column Name | Description
 ----------- | -----------

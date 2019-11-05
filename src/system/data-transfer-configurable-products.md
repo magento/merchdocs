@@ -13,15 +13,15 @@ _New Size Variation Added for Each Color_
 
 1. Before you begin, make sure that the attributes that are used for product variations have the required property settings.
 
-    - [Scope]({% link configuration/scope.md %}) — `Global`
-    - [Catalog Input Type for Store Owner]({% link stores/attributes-product.md %}) — The input type of any attribute that is used for a product variation must be one of the following:
+    - [**Scope**]({% link configuration/scope.md %}) — `Global`
+    - [**Catalog Input Type for Store Owner**]({% link stores/attributes-product.md %}) — The input type of any attribute that is used for a product variation must be one of the following:
 
         - `Dropdown`
         - `Visual Swatch`
         - `Text Swatch`
         - `Multi-Select`
 
-    - Values Required — `Yes`
+    - **Values Required** — `Yes`
 
 1. If you are adding a new size or color, or making any other change to an existing attribute, make sure to update the attribute with the new value.
 

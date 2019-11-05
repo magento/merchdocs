@@ -69,7 +69,7 @@ After each export, the export file is placed in the user-defined location, and a
 
 1. Set **Failed Email Template** to the template that is used for the notification.
 
-1. In the **Send Failed Email Copy To** field, enter the email address of anyone who is to receive a copy of the notification.
+1. For **Send Failed Email Copy To**, enter the email address of anyone who is to receive a copy of the notification.
 
    For multiple email addresses, separate with a comma.
 

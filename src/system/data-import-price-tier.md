@@ -65,10 +65,10 @@ You use the exported data as a template for importing tier price data.
 
     Any products without tier price updates can be deleted from the CSV file. There is no need to reimport products that have not changed.
 
-1.  **Save** the updated CSV file.
+1. **Save** the updated CSV file.
 
     {:.bs-callout-info}
-    The size of an import file cannot be larger than 2 megabytes.
+    The size of an import file cannot be larger than two megabytes.
 
 ## Step 3: Import the Updated Data
 
