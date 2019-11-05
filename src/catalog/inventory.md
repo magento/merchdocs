@@ -13,48 +13,50 @@ By default, Inventory Management is enabled by default when installing or upgrad
 
 How this setting works in Single and Multi Source inventories:
 
-* To use Magento Inventory Management, enable Manage Stock.
-* Manage Stock settings at the product level override the store configuration.
-* To use Magento Order Management or third party services such as ERP, disable Manage Stock.
-* If the product level configuration uses the system default, the store configuration overrides.
+- To use Magento Inventory Management, enable Manage Stock.
+- Manage Stock settings at the product level override the store configuration.
+- To use Magento Order Management or third party services such as ERP, disable Manage Stock.
+- If the product level configuration uses the system default, the store configuration overrides.
 
 With Inventory Management enabled, see the following to configure all settings:
 
-* [Configuring Global Options]({% link catalog/inventory-options-global.md %}): Settings that affect your entire catalog, considered the system default settings
-* [Configuring Product Options]({% link catalog/inventory-product-stock-options.md %}): Settings for a specific product that override global options
+- [Configuring Global Options]({% link catalog/inventory-options-global.md %}): Settings that affect your entire catalog, considered the system default settings
+- [Configuring Product Options]({% link catalog/inventory-product-stock-options.md %}): Settings for a specific product that override global options
 
 ## To manage stock for a store:
 
-1. On the Admin sidebar, click **Stores**. Then under Settings, choose **Configuration**.
+1. On the _Admin_ sidebar, go to  **Stores** > _Settings_ > **Configuration**.
 
 1. Select the Store View to edit.
 
-1. Click **Catalog**. Then choose **Inventory**.
+1. Click **Catalog** and choose **Inventory**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the Stock Options section, and configure Manage Stock:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Stock Options** section, and configure **Manage Stock**:
 
-   * To manage inventory and use all Magento features, select Yes.
-   * To disable Magento Inventory Management, select No. You may need to clear the Use system value checkbox.
+   - To manage inventory and use all Magento features, select `Yes`.
+   - To disable Magento Inventory Management, select `No`. You may need to clear the Use **System Value** checkbox.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
 ![]({% link images/images/config-catalog-catalog-inventory-product-stock-options.png %}){: .zoom}   
-*[Product Stock Options]({% link configuration/catalog/inventory.md %})*
+_[Product Stock Options]({% link configuration/catalog/inventory.md %})_
 
 ## To manage stock for a product:
 
-1. On the Admin sidebar, click **Catalog**. Then choose **Products**.
+1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. Locate and open a product in **Edit** mode.
+1. Locate and open a product in the grid and click **Edit** to open the product details.
 
-1. In the Sources section, click **Advanced Inventory**.
+1. In the _Sources_ section, click **Advanced Inventory**.
 
-1. Configure Manage Stock:
+1. Configure **Manage Stock**:
 
-   * To manage inventory and use all Magento features, select Yes.
-   * To disable Magento Inventory Management, select No. You may need to clear the Use system value checkbox.
+   - To manage inventory and use all Magento features, select Yes.
+   - To disable Magento Inventory Management, select No. You may need to clear the Use system value checkbox.
 
-1. When complete, click <span class="btn">Done</span>.
+1. When complete, click <span class="btn">Done</span> at the top of the Advanced Inventory page.
+
+1. Click <span class="btn">Save</span> at the top of the product page.
 
 ![]({% link images/images/product-inventory-manage-stock-yes.png %}){: .zoom}
-*Advanced Inventory for a Product*
+_Advanced Inventory for a Product_
