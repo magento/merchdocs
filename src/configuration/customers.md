@@ -14,3 +14,13 @@ _Customers configuration settings_
 <!--{% endif %}-->
 
 See the Customers child pages for more information on each section.
+
+## B2B role resources for stores
+
+Configuration options for 
+
+-  Stores > Customers > Company Configuration
+-  Stores > Customers > Requisition Lists
+-  Sales > Quotes Section
+
+are are B2B only and are controlled via settings in [Role Resources]({% link system/permissions-role-resources.html %}). These role resources must be set for the [User Role]({% link system/permissions-user-roles.md %}) that the admin user is under.

@@ -6,6 +6,18 @@ group: getting-started
 
 The quote configuration determines the minimum required order amount for quote requests, the quote lifetime, and the supported file formats for attached files.
 
+## Role resources for quotes
+
+The ability to:
+
+-  Decline
+-  Print
+-  Save as Draft
+-  Send
+-  View
+
+a quote is controlled via settings in [Role Resources]({% link system/permissions-role-resources.html %}). These role resources must be set for the [User Role]({% link system/permissions-user-roles.md %}) that the admin user is under.
+
 ## Configure quotes
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
