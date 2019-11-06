@@ -7,7 +7,7 @@ Cart price rules apply discounts to items in the shopping cart, based on a set o
 ![Example storefront - cart apply coupon]({% link images/images/storefront-cart-apply-coupon.png %}){: .zoom}
 _Apply Coupon in Cart_
 
-## To access Cart Price Rules:
+## Access Cart Price Rules
 
 1.  On the Admin sidebar, go to **Marketing** > _Promotions_ > **Cart Price Rules**.
 _
