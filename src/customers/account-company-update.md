@@ -8,7 +8,7 @@ The company profile can be maintained from the storefront by the company admin, 
 ![]({% link images/images-b2b/company-update.png %}){: .zoom}
 _Company Profile_
 
-## Company role sources
+## Company role resources
 
 The ability to:
 

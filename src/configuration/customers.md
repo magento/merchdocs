@@ -19,8 +19,8 @@ See the Customers child pages for more information on each section.
 
 Configuration options for 
 
--  Stores > Customers > Company Configuration
--  Stores > Customers > Requisition Lists
--  Sales > Quotes Section
+-  Stores > Customers > [Company Configuration]({% link configuration/customers/company-configuration.md %})
+-  Stores > Customers > [Requisition Lists}({% link configuration/customers/requisition-lists.md %})
+-  Sales > [Quotes Section]({% link sales/quotes.md %})
 
 are are B2B only and are controlled via settings in [Role Resources]({% link system/permissions-role-resources.md %}). These role resources must be set for the [User Role]({% link system/permissions-user-roles.md %}) that the admin user is under.
