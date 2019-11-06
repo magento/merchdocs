@@ -78,7 +78,7 @@ After each export, the export file is placed in the user-defined location, and a
     - `Bcc` - Sends a blind courtesy copy. The name and address of the recipient is included in the original email distribution, but is hidden from view.
     - `Separate Email` — Sends the copy as a separate email.
 
-    ![]({% link images/images-ee/data-transfer-scheduled-export-email-fail.png %}){: .zoom}
+    ![Scheduled export failed email]({% link images/images-ee/data-transfer-scheduled-export-email-fail.png %}){: .zoom}
     _Export Failed Emails_
 
 ## Step 4: Choose the Entity Attributes
