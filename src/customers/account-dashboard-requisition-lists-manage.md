@@ -93,7 +93,7 @@ Magento will generate and download a CSV list with `sku` and `qty` values.
 |Action|Description|
 |--- |--- |
 |Rename|Gives you the ability to rename the requisition list, and update the description.|
-|Export|Exports the requisition list into a CSV file.|
+|Export|Exports the requisition list into a CSV file. |
 |Print|Prints the current requisition list.|
 |Select|Manages the item selections that are to be the subject of an action. <br/>**Select All** - Selects all items in the requisition list. <br/>**Remove Selected** - Removes all selected items from the requisition list. <br/>**Copy Selected** - Copies all selected items to another requisition list.|
 |Add to Cart|Adds selected items to the shopping cart.|
