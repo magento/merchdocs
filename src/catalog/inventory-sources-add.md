@@ -33,7 +33,7 @@ If editing the Default Source, you can edit all configurations except name and c
       ![]({% link images/images/stores-inventory-source-general.png %}){: .zoom}
       *General*
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Contact Info** section, and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Contact Info** section, and do the following:
 
    1. For the **Contact Name**, enter the full name of the primary contact at the location.
 

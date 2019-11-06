@@ -66,7 +66,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
     ![]({% link images/images/config-catalog-catalog-inventory-distance-provider.png %}){: .zoom}
     *Distance Providers for Distance Based SSA*
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Google Distance Provider** section, and configure the settings:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Google Distance Provider** section, and configure the settings:
 
 1. Enter the **Google API Key**, copied from your Google Account.
 

@@ -44,7 +44,7 @@ In the **Your Store Address** field, enter the full URL of your Magento store.
 
 In the **Magento Admin Address** field, enter the full URL of the Magento Admin.
 
-Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the
+Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the
 
 **Advanced Options**, and do the following:
 
@@ -82,7 +82,7 @@ Set **Store Default Language** to the primary language of your store.
 ![]({% link images/images/system-tools-web-setup-customize-store.png %}){: .zoom}
 Customize Your Store
 
-(Optional) Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the
+(Optional) Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the
 
 **Advanced Modules Configuration**, and do the following:
 
@@ -132,11 +132,15 @@ To learn more, see [File systems access permissions][2]{: target="_blank"}.
 
 Change to the Web user who has full permissions to the Magento2 folder. (For example, apache or root.)
 
-<table><tbody><tr><td><pre>su – apache</pre></td></tr></tbody></table>
+```bash
+su – apache
+```
 
 Change directories to the Magento2 folder, and set the following permissions. You can copy the code, and paste it as a single command.
 
-<table><tbody><tr><td><pre>find . -type d -exec chmod 700 {} ; &amp;&amp; find . -type f -exec chmod 600 {} ; &amp;&amp; chmod +x bin/magento</pre></td></tr></tbody></table>
+```bash
+find . -type d -exec chmod 700 {} ; && find . -type f -exec chmod 600 {} ; && chmod +x bin/magento
+```
 
 [1]: http://devdocs.magento.com/guides/v2.3/install-gde/install-quick-ref.html
 [2]: https://devdocs.magento.com/guides/v2.3/config-guide/prod/prod_file-sys-perms.html

@@ -286,6 +286,8 @@ pages:
     children:
     - label: Configuring Wish Lists
       url: "/marketing/wishlist-configuration.html"
+    - label: Updating Wish Lists
+      url: "/marketing/wishlist-update.html"  
     - label: Sharing a Wish List
       url: "/marketing/wishlist-share.html"
   - label: Product Relationships
@@ -445,7 +447,7 @@ pages:
       url: "/marketing/variables-reference.html"
   - label: Social
     url: "/marketing/social.html"
-- label: SEO &  Search
+- label: SEO and Search
   url: "/marketing/seo-search.html"
   children:
   - label: Catalog Navigation

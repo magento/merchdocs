@@ -68,18 +68,7 @@ _Example Admin Users_
     ![]({% link images/images/permissions-user-roles.png %}){: .zoom}
     _Add New User Role_
 
-    <table>
-      <h3 class="TableHeading">Admin Password Requirements</h3>
-      <thead>
-         <tr>
-            <th>Field</th>
-            <th>Description</th>
-         </tr>
-      </thead>
-      <tbody>
-         <tr>
-            <td>Password</td>
-            <td>An Admin password must be seven or more characters long, and include both letters and numbers. For additional password options, see: <a href="{% link stores/security-admin.md %}">Configuring Admin Security</a>.</td>
-         </tr>
-      </tbody>
-    </table>
+   |Field|Description|
+   |--- |--- |
+   |Password|An Admin password must be seven or more characters long, and include both letters and numbers. For additional password options, see: [Configuring Admin Security.]({% link stores/security-admin.md %})|
+

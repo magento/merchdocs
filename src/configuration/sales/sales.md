@@ -104,7 +104,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Default “What’s This” Text Message|Store View|The pop-up text message that appears when the customer clicks the “What’s this?” link from the product view page.|
 |Manufacturer's Suggested Retail Price|Global|The retail price as suggested by the manufacturer (MSRP).|
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+<!--{% if "Default.EE Only" contains site.edition %}-->
 ## Order by SKU Settings
 
  ![]({% link images/images-ee/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
@@ -116,6 +116,20 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable Order by SKU on My Account in Storefront|Website|Determines if Order by SKU is available in the customer account dashboard. Options: <br/>**Yes, for Everyone** - The Order by SKU tab appears in the account dashboard of all customers. <br/>**Yes, for Specified Customer Groups** - The Order by SKU tab appears in the account dashboard for members of specified groups. <br/>**No** - The Order by SKU tab is not available in the customer account.|
+
+<!--{% endif %}-->
+<!--{% if "Default.B2B Only" contains site.edition %}-->
+## Order by SKU Settings
+
+ ![]({% link images/images-ee/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
+ [_Order by SKU Settings_]({% link sales/quick-order.md %})
+
+ ![]({% link images/images-ee/config-sales-sales-order-by-sku-settings-customer-group.png %}){: .zoom}
+ [_Order by SKU Settings for Customer Group_]({% link sales/quick-order.md %})
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enable Order by SKU on My Account in Storefront|Website|Determines if Order by SKU is available when placing a Quick Order. Options: <br/>**Yes, for Everyone** - The Quick Order option appears in the upper-right corner of the store header for all customers. <br/>**Yes, for Specified Customer Groups** - The Quick Order option appears in the upper-right corner of the store header only for members of specified groups. <br/>**No** - The Quick Order option is not available.|
 
 <!--{% endif %}-->
 ## Instant Purchase

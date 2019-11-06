@@ -23,5 +23,12 @@ Additional Category URLs
     http://www.example.com/all-on-sale.html
     http://www.example.com/save-now/spring-sale
 
-![]({% link images/images/url-rewrites.png %}){: .zoom}
-*URL Rewrites*
+![URL rewrites grid]({% link images/images/url-rewrites.png %}){: .zoom}
+_URL Rewrites_
+
+Magento offers these URL rewrite types:
+
+* [Product Rewrites]({% link marketing/url-rewrite-product.md %})
+* [Category Rewrites]({% link marketing/url-rewrite-category.md %})
+* [CMS Page Rewrites]({% link marketing/url-rewrite-cms-page.md %})
+* [Custom Rewrites]({% link marketing/url-rewrite-custom.md %})

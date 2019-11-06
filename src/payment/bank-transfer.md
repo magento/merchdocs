@@ -14,7 +14,7 @@ _Bank Transfer Payment_
 
 1. In the panel on the left, under **Sales**, choose **Payment Methods**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Bank Transfer Payment** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Bank Transfer Payment** section. Then, do the following:
 
    - To activate bank transfers, set **Enabled** to “Yes.”
 

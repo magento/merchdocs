@@ -14,7 +14,7 @@ Magento allows you to accept payments by check or money order. The Check / Money
 
 1. In the panel on the left under **Sales**, choose **Payment Methods**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Check / Money Order** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Check / Money Order** section. Then, do the following:
 
    - To accept payment by check or money order, set **Enabled** to “Yes.”
 

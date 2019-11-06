@@ -19,7 +19,7 @@ _Theme Assets_
 
 1. In the panel on the left under **Advanced**, choose **Developer**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Static Files Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Static Files Settings** section.
 
    ![]({% link images/images/config-advanced-developer-static-files-settings.png %}){: .zoom}
    *Static Files Settings*

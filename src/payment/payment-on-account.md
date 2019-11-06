@@ -15,7 +15,7 @@ Payment on Account is an offline payment method that allows companies to make pu
 
 1. In the panel on the left, choose **Payment Methods**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Payment on Account** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Payment on Account** section. Then, do the following:
 
    - After the Enabled field, clear the **Use system value** checkbox. Then, set **Enabled** to “Yes”.
 
