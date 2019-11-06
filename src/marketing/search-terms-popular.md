@@ -2,27 +2,29 @@
 title: Popular Search Terms
 ---
 
-The Search Terms link in the footer of your store displays the search terms used by visitors to your store, ranked by popularity. Search terms appear in a “tag cloud” format, where the size of the text indicates the popularity of the term.
+The Search Terms link in the footer of your store displays the search terms used by visitors to your store, ranked by popularity. Search terms appear in a _tag cloud_ format, where the size of the text indicates the popularity of the term.
 
 By default, Popular Search Terms is enabled as a search engine optimization tool, but has no direct connection to the catalog search process. Because the Search Terms page is indexed by search engines, any terms on the page can help improve your search engine ranking and the visibility of your store. The URL of the Popular Search Terms page is: `mystore.com/search/term/popular/`
 
-![]({% link images/images/store-front-search-terms-yoga-pants.png %}){: .zoom}
-*Popular Search Terms*
+![Example storefront - popular search terms]({% link images/images/store-front-search-terms-yoga-pants.png %}){: .zoom}
+_Popular Search Terms_
 
-## To configure Popular Search Terms
+## Configure Popular Search Terms
 
-1. On the Admin sidebar, tap **Stores**. Then under **Settings**, choose **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the panel on the left under **Catalog**, choose **Catalog**.
+1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Search Engine Optimization** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Search Engine Optimization** section.
 
-1. Clear the **Use system value** checkbox. Then, set **Popular Search Terms** as needed.
+1. Set **Popular Search Terms** as needed.
 
-1. When complete, tap <span class="btn">Save Config</span>.
+    If needed, clear the **Use system value** checkbox to change this setting.
 
-![]({% link images/images/config-catalog-catalog-search-engine-optimization.png %}){: .zoom} 
-[*Search Engine Optimization*]({% link configuration/catalog/catalog.md -%})
+1. When complete, click <span class="btn">Save Config</span>.
+
+![Catalog configuration - search engine optimization]({% link images/images/config-catalog-catalog-search-engine-optimization.png %}){: .zoom}
+[_Search Engine Optimization_]({% link configuration/catalog/catalog.md %})
 
 {: .bs-callout .bs-callout-info}
-You can further configure the caching of popular searches and additional options for your configured search engine [MySQL]({% link catalog/search-mysql.md -%}) or [Elasticsearch]({% link catalog/search-elasticsearch.md -%}).
+You can further configure the caching of popular searches and additional options for your configured search engine [MySQL]({% link catalog/search-mysql.md %}) or [Elasticsearch]({% link catalog/search-elasticsearch.md %}).

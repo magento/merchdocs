@@ -23,8 +23,8 @@ Additional Category URLs
     http://www.example.com/all-on-sale.html
     http://www.example.com/save-now/spring-sale
 
-![]({% link images/images/url-rewrites.png %}){: .zoom}
-*URL Rewrites*
+![URL rewrites grid]({% link images/images/url-rewrites.png %}){: .zoom}
+_URL Rewrites_
 
 Magento offers these URL rewrite types:
 

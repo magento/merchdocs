@@ -46,7 +46,7 @@ Follow the steps below to set up the type of free shipping promotion that you wa
 
 1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Conditions** section.
 
-1. Tap **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) to insert a condition and do the following:
+1. Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) to insert a condition and do the following:
 
     - In the list under **Cart Attribute**, choose **Subtotal**.
     - Click **is** and choose `equals or greater than`.
