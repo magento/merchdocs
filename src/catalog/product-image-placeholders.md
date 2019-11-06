@@ -11,7 +11,7 @@ _Image Placeholder_
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the panel on the left under **Catalog**, choose **Catalog**.
+1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
 1. Expand ![Expansion icon]({% link images/images/btn-expand.png %}){: .Inline} the **Product Image Placeholders** section.
 
