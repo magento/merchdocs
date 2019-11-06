@@ -7,7 +7,7 @@ Magento uses temporary images as placeholders until the permanent product images
 ![]({% link images/images/storefront-image-placeholder.png %}){: .zoom}
 _Image Placeholder_
 
-## Upload Placeholder Images:
+## Upload Placeholder Images
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
