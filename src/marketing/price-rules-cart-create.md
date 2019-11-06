@@ -266,7 +266,7 @@ To|The last date the coupon can be used.|<!--{% endif %}-->
 
 ### Conditions
 
-Specifies the conditions that must be met before the cart price rule goes into action. If left blank, the rule applies to all products in the cart.
+Specifies the conditions that must be met before the cart price rule goes into action. If left blank, the rule applies to all products in the cart. Conditions can be based on any combination of cart and product attributes. However, [customizable options]({% link catalog/settings-advanced-custom-options.md %}) cannot be referenced in cart price rule conditions.
 
 ### Actions
 
