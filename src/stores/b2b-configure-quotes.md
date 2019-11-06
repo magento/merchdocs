@@ -16,7 +16,7 @@ The ability to:
 -  Send
 -  View
 
-a quote is controlled via settings in [Role Resources]({% link system/permissions-role-resources.html %}). These role resources must be set for the [User Role]({% link system/permissions-user-roles.md %}) that the admin user is under.
+a quote is controlled via settings in [Role Resources]({% link system/permissions-role-resources.md %}). These role resources must be set for the [User Role]({% link system/permissions-user-roles.md %}) that the admin user is under.
 
 ## Configure quotes
 
