@@ -90,3 +90,5 @@ If you are not sure, open each category page in your store, and copy the path fr
 |Target Path|The internal path that is used by the system to point to the destination of the redirect. The target path is grayed out and cannot be edited.
 Redirect|Determines the type of redirect. Options: <br/>**No** - No redirect is specified. Many operations create redirect requests of this type. For example, every time you add products to a category, a redirect of the `No` type is created each store view. <br/>**Temporary (302)** - Indicates to search engines that the rewrite is for a limited time. Search engines generally do not retain page rank information for temporary rewrites. <br/>**Permanent (301)** - Indicates to search engines that the rewrite is permanent. Search engines generally retain page rank information for permanent rewrites.|
 |Description|Describes the purpose of the rewrite for internal reference.|
+
+{% include url-rewrite-get-params.md %}
