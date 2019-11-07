@@ -2,7 +2,7 @@
 
 namespace :preview do
   desc 'Preview all editions locally without regeneration'
-  task all: %w[clean ce ee b2b] do
+  task all: %w[clean build:all] do
     print 'Generating preview of all editions with no regeneration: $'.magenta
     sh 'bundle exec jekyll serve --skip-initial-build \
                                  --open-url \
