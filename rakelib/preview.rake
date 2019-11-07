@@ -38,7 +38,7 @@ def preview(edition)
     puts 'enabled the additional configuration from "_config.local.yml"'.magenta
     serve "--config=_config.yml,_config.#{edition}.yml,_config.local.yml"
   else
-    serve "--config _config.yml,_config.#{edition}.yml"
+    serve "--config=_config.yml,_config.#{edition}.yml"
   end
 end
 
