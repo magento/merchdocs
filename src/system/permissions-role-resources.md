@@ -6,8 +6,6 @@ Access to the following resources can be assigned to a custom role. See the link
 
 ### Role Resources
 
-This table roughly matches the layout of the admin panel.
-
 |--- |--- |--- |
 |[Dashboard]({% link stores/admin-dashboard.md %})|||
 |[Sales]({% link sales.md %})|[Operations]({% link sales/order-management.md %})|[Orders]({% link sales/orders.md %})<br/>[Invoices]({% link sales/invoices.md %})<br/>[Shipments]({% link sales/shipments.md %})<br/>[Credit Memos]({% link sales/credit-memos.md %})<br/>[Billing Agreements]({% link sales/billing-agreements.md %})<br/>[Transactions]({% link sales/transactions.md %})|

@@ -21,6 +21,5 @@ Configuration options for
 
 -  Stores > Customers > [Company Configuration]({% link configuration/customers/company-configuration.md %})
 -  Stores > Customers > [Requisition Lists}({% link configuration/customers/requisition-lists.md %})
--  Sales > [Quotes Section]({% link sales/quotes.md %})
 
-are are B2B only and are controlled via settings in [Role Resources]({% link system/permissions-role-resources.md %}). These role resources must be set for the [User Role]({% link system/permissions-user-roles.md %}) that the admin user is under.
+are for B2B only and are controlled via [Role Resources]({% link system/permissions-role-resources.md %}). These role resources must be set for the [User Role]({% link system/permissions-user-roles.md %}) that the admin user is under.
