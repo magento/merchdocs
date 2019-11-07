@@ -1,7 +1,6 @@
 GIT
   remote: https://github.com/magento-devdocs/devdocs-theme.git
-  revision: c117dd10f7471f5ba0bd573b85ce854fd4c588f3
-  branch: yb_search-prefix
+  revision: 5b592d07ff7f061c53a230c63e38a18f0f9cdd3e
   specs:
     devdocs (6)
       jekyll (>= 4.0)
@@ -97,7 +96,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
     mini_portile2 (2.4.0)
-    nokogiri (1.10.4)
+    nokogiri (1.10.5)
       mini_portile2 (~> 2.4.0)
     parallel (1.18.0)
     pathutil (0.16.2)
