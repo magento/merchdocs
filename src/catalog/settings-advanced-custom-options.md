@@ -2,7 +2,17 @@
 title: Customizable Options
 ---
 
-Adding customizable options to a product is an easy way to offer customers a selection of options with a variety of text, selection, and date input types. Customizable options are a good solution if your inventory needs are simple. However, because they are based on variations of a single SKU, they cannot be used to manage stock. If you have multiple products with the same options, you can set up one product, and import the options to the other products.
+Adding customizable options to a product is an easy way to offer a selection of options with a variety of text, selection, and date input types. Customizable options are a good solution if your inventory needs are simple. However, because they are based on variations of a single SKU, they cannot be used to manage stock or as the basis of price rule conditions. If you have multiple products with the same options, you can set up one product, and import the options to the other products.
+
+When a customer purchases a product with a customizable option, a description of each selected option appears below the product description, and any associated markup (or markdown) is automatically applied to the price of the item. 
+
+![]({% link images/images/storefront-customizable-option-product-detail.png %}){: .zoom}
+_Product Detail with Customizable Option_
+
+If a cart price rule is triggered by the purchase, the initial calculation applies to the product price, and secondarily to the line item price with any adjustment for applicable customizable options. In the following example, the customer purchases a duffle bag for $74.00, plus a customizable option for a monogram. A markup of $14.80 is applied to the base product price, and the adjusted price is shown as $88.80. In this case, the purchase of the duffle bag triggers a cart price rule based on the product SKU, and applies a discount to the purchase, plus free shipping. Although the cart price rule is not triggered by the customizable option, it applies the discount to the cart contents, which includes the markup for the customizable option.
+
+![]({% link images/images/storefront-customizable-option-cart-price-rule.png %}){: .zoom}
+_Cart with Customizable Option and Price Rule_
 
 ## To create customizable options:
 
@@ -11,7 +21,7 @@ Adding customizable options to a product is an easy way to offer customers a sel
 1. Scroll down and expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Customizable Options** section. Then, tap <span class="btn">Add Option</span>.
 
    ![]({% link images/images/product-customizable-options.png %}){: .zoom}
-   *Customizable Options*
+   _Customizable Options_
 
 1. In the upper-left corner, tap <span class="btn"> New Option </span>. Then, do the following:
 
@@ -35,8 +45,8 @@ Adding customizable options to a product is an easy way to offer customers a sel
 
    * Set **Price Type** to one of the following:
 
-   | Fixed | The price of the variation differs from the price of the base product by a fixed monetary amount, such as $1. |
-   | Percentage | The price of the variation differs from the price of the base product by a percentage, such as 10%. |
+      | Fixed | The price of the variation differs from the price of the base product by a fixed monetary amount, such as $1. |
+      | Percentage | The price of the variation differs from the price of the base product by a percentage, such as 10%. |
    {:style="table-layout:auto"}
 
    * Enter a **SKU** for the option. The option SKU is a suffix that is added to the product SKU.
@@ -65,126 +75,11 @@ Adding customizable options to a product is an easy way to offer customers a sel
 
 1. When complete, you can continue to add more custom options, or tap <span class="btn">Save and Close</span>.
 
-<table>
-      <b>Input Controls</b>
-      <col WIDTH="200">
-      <col WIDTH="auto">
-      <thead>
-         <tr>
-            <th>Input type</th>
-            <th>Description</th>
-         </tr>
-      </thead>
-      <tbody>
-         <tr>
-            <td colspan="2"><b>Text</b></td>
-         </tr>
-         <tr>
-            <td>
-               <p> </p>
-            </td>
-            <td>
-               <table>
-                     <col WIDTH="100">
-                     <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Field</td>
-                        <td>A single line input field for text.</td>
-                     </tr>
-                     <tr>
-                        <td>Area</td>
-                        <td>A multiple-line input box for paragraphs of text. You can use the WYSIWYG Editor to format the text with HTML tags, or type HTML directly into the text area.</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td colspan="2"><b>File</b></td>
-         </tr>
-         <tr>
-            <td>
-               <p> </p>
-            </td>
-            <td>
-               <table>
-                  <col WIDTH="100">
-                  <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>File</td>
-                        <td>A file to be uploaded by the customer.</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td colspan="2"><b>Select</b></td>
-         </tr>
-         <tr>
-            <td>
-               <p> </p>
-            </td>
-            <td>
-               <table>
-                  <col WIDTH="150">
-                  <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Drop-down</td>
-                        <td>A drop-down list of options. Only one item can be selected at a
-								time. </td>
-                     </tr>
-                     <tr>
-                        <td>Radio Buttons</td>
-                        <td>A set of options that allows only one to be selected at a time.</td>
-                     </tr>
-                     <tr>
-                        <td>Checkbox</td>
-                        <td>A checkbox is a variation of a yes/no option. If the product has more than one checkbox, multiple selections can be made at
-								the same time.</td>
-                     </tr>
-                     <tr>
-                        <td>Multiple Select</td>
-                        <td>A drop-down list of options that accepts multiple selections. To select multiple options, hold down the Ctrl
-								(PC) or Command (Mac) key.</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td colspan="2"><b>Date</b></td>
-         </tr>
-         <tr>
-            <td>
-               <p> </p>
-            </td>
-            <td>
-               <table>
-                  <col WIDTH="150">
-                  <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Date</td>
-                        <td>An input field for a date value. The date can be typed directly
-									into the field, selected from a list or calendar. The method of
-									input used and format of the date is determined by the <a href="{% link design/configuration.md %}">Date &amp; Time Custom Options</a>
-								configuration.</td>
-                     </tr>
-                     <tr>
-                        <td>Date &amp; Time</td>
-                        <td>An input field for date and time values.</td>
-                     </tr>
-                     <tr>
-                        <td>Time</td>
-                        <td>An input field for a time value.</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-      </tbody>
-   </table>
+## Input Types ##
+
+|Type|Description|
+|--- |--- |
+|Text|An input line or text box where the customer can enter the required information. Options:<br />**Field** - A  single line input field for text.<br />**Area** - A multiple-line input field. Text can be formatted with the WYSIWYG editor, or typed as HTML directly into the text box.|
+|File|Allows the customer to upload a file.|
+|Select|Allows the customer to select a single option, or multiple options, depending on input type used. Options:<br />**Drop-down** - A drop-down list of options that allows only one selection.<br />**Radio Buttons** - A set of options that allows only one selection.<br />**Checkbox** - A checkbox is a variation of a yes/no option. If the product has more than one checkbox, multiple selections can be made.<br />**Multiple Select** - A drop-down list box of options that accepts multiple selections. To choose multiple options, hold down the Ctrl (PC) or Command (Mac) key and click each option.|
+|Date|Allows the customer to enter a date or time, or choose the value from a calendar. Options: <br />**Date** - An input field for a date value. The date can be typed directly into the field, or selected from a list or calendar. The input method and format is determined by the [Date & Time Custom Options]({% link stores/attribute-date-time-options.md %}) configuration.<br />**Date & Time** - An input field for a date and time value.<br />**Time** - An input field for a time value.|

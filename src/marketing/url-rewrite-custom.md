@@ -96,3 +96,5 @@ Redirect from:
 |Target Path|The internal path that is used by the system to point to the destination. The target path is grayed out and cannot be edited.|
 |Redirect|Determines the type of redirect. Options: <br/>**No** - No redirect is specified. <br/>**Temporary (302)** - Indicates to search engines that the rewrite is for a limited time. Search engines generally do not retain page rank information for temporary rewrites. <br/>**Permanent (301)** - Indicates to search engines that the rewrite is permanent. Search engines generally retain page rank information for permanent rewrites.|
 |Description|Describes the purpose of the rewrite for internal reference.|
+
+{% include url-rewrite-get-params.md %}
