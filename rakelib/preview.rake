@@ -4,11 +4,13 @@ namespace :preview do
   desc 'Preview all editions locally without regeneration'
   task all: %w[clean build:all] do
     print 'Generating preview of all editions with no regeneration: $'.magenta
-    sh 'bundle exec jekyll serve --skip-initial-build \
-                                 --open-url \
-                                 --no-watch \
-                                 --trace \
-                                 --plugins _plugins,_checks'
+    sh 'bin/jekyll',
+          'serve',
+            '--skip-initial-build',
+            '--open-url',
+            '--no-watch',
+            '--trace',
+            '--plugins=_plugins,_checks'
   end
 
   desc 'Preview the Open Source edition locally'
@@ -45,9 +47,9 @@ end
 def serve(options)
    sh 'bin/jekyll',
         'serve',
-        '--incremental',
-        '--open-url',
-        '--trace',
-        '--plugins=_plugins,_checks',
-        options
+          '--incremental',
+          '--open-url',
+          '--trace',
+          '--plugins=_plugins,_checks',
+          options
 end
