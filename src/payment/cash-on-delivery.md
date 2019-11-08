@@ -16,7 +16,7 @@ _Cash On Delivery Payment_
 
 1. In the panel on the left, under **Sales**, select **Payment Methods**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Cash On Delivery Payment** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Cash On Delivery Payment** section. Then, do the following:
 
    - To activate Cash On Delivery Payment, set **Enabled** to “Yes.”
 

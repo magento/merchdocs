@@ -34,7 +34,7 @@ You now have a campaign and a list of customers. The next step is to schedule th
 
 1. Click <span class="btn">Save & continue</span>.
 
-1. Take one last look at the report before you send the campaign. Then, scroll down to the bottom and tap **Send campaign immediately**. When prompted to confirm, click <span class="btn">Send</span>.
+1. Take one last look at the report before you send the campaign. Then, scroll down to the bottom and click **Send campaign immediately**. When prompted to confirm, click <span class="btn">Send</span>.
 
    Your campaign is now on its way.
 

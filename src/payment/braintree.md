@@ -65,7 +65,7 @@ that are recommended by Braintree. When you are ready to go live with Braintree,
 
 ## Step 3: Complete the Advanced Settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Advanced Braintree Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Advanced Braintree Settings** section.
 
 1. In the **Vault Title** field, enter a descriptive title for your reference that identifies the vault where your customer card information is stored.
 

@@ -18,7 +18,6 @@ _algolia_api_key
 ._*
 .Spotlight-V100
 .Trashes
-.idea
 /tmp/
 .history
-src/.jekyll-metadata
+_config.local.yml
