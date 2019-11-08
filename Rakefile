@@ -21,10 +21,7 @@ desc "Same as 'test:report'"
 task test: %w[test:report]
 
 desc 'Preview the devdocs locally'
-task preview: %w[install clean] do
-  puts 'Generating devdocs locally ... '.magenta
-  Rake::Task['preview:all'].invoke
-end
+task preview: %w[preview:all]
 
 task :clean do
   print 'Cleaning after the last site generation: $ '.magenta
@@ -33,7 +30,7 @@ task :clean do
 end
 
 task :install do
-  print 'Install gems listed in the Gemfile: $ '.magenta
+  print 'Installing gems listed in the Gemfile: $ '.magenta
   sh 'bundle install'
   puts 'Installed!'.green
 end
