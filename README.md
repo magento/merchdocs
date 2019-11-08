@@ -124,13 +124,28 @@ If rake fails on your environment, generate the preview [using jekyll](#using-je
 > ***TIP***
 > Leave the serve terminal open and running. Every time you save changes to a file, it automatically regenerates the site so you can test the output immediately. Changing the `_config.yml` file requires a fresh build. Using the `--incremental` option limits re-builds to posts and pages that have changed.
 
-### To minimize build time locally:
+### Minimizing Build Time
+
+#### Building Specifc Editions
 
 You can speed the local build time up by only building one of the three versions that the full `rake preview` command builds. These are:
 
 - `rake preview:ce`: Preview the Open Source edition locally
 - `rake preview:b2b`: Preview the B2B edition locally
 - `rake preview:ee`: Preview the Commerce edition locally
+
+#### Customizing Local Config
+
+By creating your own `_config.local.yml` file, you can customize the [Jekyll
+config](https://jekyllrb.com/docs/configuration/options/) to suit your needs.
+
+##### Disable Link Checking
+
+By default, every build ensures every link in every changed page, which can
+significantly lower build times when iterating many changes quickly. You can
+turn this off by adding the following line to your `_config.local.yml` file:
+
+    check_links: false
 
 ## Build in Windows
 
