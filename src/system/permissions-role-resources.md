@@ -9,7 +9,9 @@ Access to the following resources can be assigned to a custom role. See the link
 |--- |--- |--- |
 |[Dashboard]({% link stores/admin-dashboard.md %})|||
 |[Sales]({% link sales.md %})|[Operations]({% link sales/order-management.md %})|[Orders]({% link sales/orders.md %})<br/>[Invoices]({% link sales/invoices.md %})<br/>[Shipments]({% link sales/shipments.md %})<br/>[Credit Memos]({% link sales/credit-memos.md %})<br/>[Billing Agreements]({% link sales/billing-agreements.md %})<br/>[Transactions]({% link sales/transactions.md %})|
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
 |||[Quotes Section]({% link sales/quotes.md %})| Print (B2B Only)<br/> Save as Draft (B2B Only)<br/>Decline (B2B Only)<br/>Send (B2B Only) |
+<!--{% endif %}-->
 ||[Archive]({% link system/action-log-archive.md %})||
 ||[Shopping Cart Management]({% link sales/cart.md %})||
 |[Catalog]({% link catalog/catalog-menu.md %})|[Shared Catalog]({% link catalog/catalog-shared.md %}) (B2B Only)|Manage Shared Catalog (B2B Only)|
