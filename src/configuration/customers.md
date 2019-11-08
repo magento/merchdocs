@@ -14,7 +14,7 @@ _Customers configuration settings_
 <!--{% endif %}-->
 
 See the Customers child pages for more information on each section.
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+<!--{% if "Default.B2B" contains site.edition %}-->
 ## B2B role resources for stores
 
 Configuration options for 
