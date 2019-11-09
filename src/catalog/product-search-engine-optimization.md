@@ -38,12 +38,12 @@ The default value for each meta data field can be auto-generated based on values
          <tr>
             <td>URL Key</td>
             <td>Store View</td>
-            <td>Determines the online address of the product.The URL key is added to the base URL of the store, and appears in the address bar of a browser. Magento initially creates a default, “search engine friendly” URL, that is based on the product name. The URL Key should be all lowercase characters, with hyphens instead of spaces. Do not include a suffix such as .html in the URL Key, because  it is managed in the configuration.</td>
+            <td>Determines the online address of the product. The URL key is added to the base URL of the store, and appears in the address bar of a browser. Magento initially creates a default, “search engine friendly” URL, that is based on the product name. The URL Key should be all lowercase characters, with hyphens instead of spaces. Do not include a suffix such as .html in the URL Key, because  it is managed in the configuration.</td>
          </tr>
          <tr>
             <td>Meta Title</td>
             <td>Store View</td>
-            <td>The title appears in the title bar and tab of your browser, and is also used as the title on a search engine results page (SERP). The meta title should be unique to the page, and less than 70 characters in length.{% raw %}Auto-generated value: {{name}}{% endraw %}</td>
+            <td>The title appears in the title bar and tab of your browser, and is also used as the title on a search engine results page (SERP). The meta title should be unique to the page, and less than 70 characters in length. {% raw %}Auto-generated value: {{name}}{% endraw %}</td>
          </tr>
          <tr>
             <td>Meta Keywords</td>
@@ -53,7 +53,7 @@ The default value for each meta data field can be auto-generated based on values
          <tr>
             <td>Meta Description</td>
             <td>Store View</td>
-            <td>The meta description provides a brief overview of the page for search results listings. An ideal length is between 150-160 characters in length, with a maximum of  255 characters. Although not visible to the customer, some search engines include the meta description on the search results page.{% raw %}Auto-generated value: {{name}} {{description}}{% endraw %}</td>
+            <td>The meta description provides a brief overview of the page for search results listings. An ideal length is between 150-160 characters in length, with a maximum of  255 characters. Although not visible to the customer, some search engines include the meta description on the search results page. {% raw %}Auto-generated value: {{name}} {{description}}{% endraw %}</td>
          </tr>
       </tbody>
    </table>

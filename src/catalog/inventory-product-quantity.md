@@ -15,7 +15,7 @@ All updated quantities and sources display in the product grid.
 
 1. Locate and open a product in **Edit** mode.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the **Sources** section, and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Sources** section, and do the following:
 
 1. Set **Source Item Status** to In Stock.
 

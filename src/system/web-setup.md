@@ -44,7 +44,7 @@ In the **Your Store Address** field, enter the full URL of your Magento store.
 
 In the **Magento Admin Address** field, enter the full URL of the Magento Admin.
 
-Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the
+Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the
 
 **Advanced Options**, and do the following:
 
@@ -82,7 +82,7 @@ Set **Store Default Language** to the primary language of your store.
 ![]({% link images/images/system-tools-web-setup-customize-store.png %}){: .zoom}
 Customize Your Store
 
-(Optional) Expand ![]({% link images/images/btn-expand.png %}){: .Inline}the
+(Optional) Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the
 
 **Advanced Modules Configuration**, and do the following:
 

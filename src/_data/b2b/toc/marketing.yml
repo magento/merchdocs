@@ -286,11 +286,11 @@ pages:
     children:
     - label: Configuring Wish Lists
       url: "/marketing/wishlist-configuration.html"
-    - label: Updating Wishlists
+    - label: Updating Wish Lists
       url: "/marketing/wishlist-update.html"
     - label: Sharing a Wish List
       url: "/marketing/wishlist-share.html"
-    - label: Wishlist Search
+    - label: Wish List Search
       url: "/marketing/wishlist-search.html"
   - label: Product Relationships
     url: "/marketing/product-relationships.html"
@@ -387,7 +387,7 @@ pages:
       url: "/marketing/gift-registry-configure.html"
     - label: Gift Registry Search
       url: "/marketing/gift-registry-search.html"
-  - label: Rewards & Loyalty
+  - label: Rewards and Loyalty
     url: "/marketing/rewards-loyalty.html"
     children:
     - label: Configuring Reward Points
@@ -531,7 +531,7 @@ pages:
       url: "/marketing/variables-reference.html"
   - label: Social
     url: "/marketing/social.html"
-- label: SEO &  Search
+- label: SEO and Search
   url: "/marketing/seo-search.html"
   children:
   - label: Catalog Navigation
