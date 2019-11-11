@@ -141,7 +141,7 @@ config](https://jekyllrb.com/docs/configuration/options/) to suit your needs.
 
 ##### Disable Link Checking
 
-By default, every build ensures every link in every changed page, which can
+By default, `check_links` is enabled. This option verifies every link in every project file, which can
 significantly lower build times when iterating many changes quickly. You can
 turn this off by adding the following line to your `_config.local.yml` file:
 
