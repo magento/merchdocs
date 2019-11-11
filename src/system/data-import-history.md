@@ -4,11 +4,9 @@ title: Import History
 
 Maintains a record of data that has been imported into your store, including the start date and time, user, execution time, and a link to the imported file.
 
-#### To view the import history:
+## View the Import History
 
-1.  On the _Admin_ sidebar, click **System**.
+On the _Admin_ sidebar, go to **System** > _Data Transfer_ > **Import  History**.
 
-1.  Under _Data Transfer_, choose **Import  History**.
-
-    ![]({% link images/images/data-import-history.png %}){: .zoom}
-    _Import History_
+![Data import history]({% link images/images/data-import-history.png %}){: .zoom}
+_Import History_
