@@ -2,16 +2,15 @@ title: Magento User Guide
 
 description: Merchant documentation and tutorials to help you manage a Magento store 
 logo: User Guide
-baseurl: ""
+baseurl: ''
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 theme: devdocs
 source: src
 plugins_dir: ./_plugins
-exclude: ['bin', 'node_modules', 'vendor', '.git', '.idea','Gemfile*','README.md','*.json','CODEOWNERS','package.json','vagrant.sh','s3_website.yml']
 
-version: "2.3"
+version: 2.3
 editions: 
   - 
     name: Open Source
@@ -24,9 +23,9 @@ editions:
     url: https://docs.magento.com/m2/b2b/user_guide/getting-started.html
 
 algolia:
-  application_id: 'E642SEDTHL'
-  index_name: 'merchdocs_ce'
-  api_key: 'd2d0f33ab73e291ef8d88d8b565e754c'
+  application_id: E642SEDTHL
+  index_name: merchdocs_ce
+  api_key: d2d0f33ab73e291ef8d88d8b565e754c
   max_record_size: 20000
   files_to_exclude:
     - search.md
@@ -37,7 +36,7 @@ google:
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: '' # an empty string here means all files in the project
     values:
       layout: default
       lang: en
