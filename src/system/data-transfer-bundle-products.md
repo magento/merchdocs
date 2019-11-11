@@ -41,7 +41,7 @@ In this step, the Sprite Yoga Companion Kit is exported as a ([CSV]({% link syst
 
 1.  Under **Export Settings**, set **Entity Type** to `Products`.
 
-1.  In the list of product attributes, scroll down to **SKU**. Then in the input box, enter the SKU of the bundle product that you want to export. The SKU is 24-WG080 for the product in this example. 
+1.  In the list of product attributes, scroll down to **SKU** and enter the SKU of the bundle product that you want to export. The SKU is `24-WG080` for the product in this example. 
 
 1.  Scroll down to the bottom of the section, and click <span class="btn">Continue</span>.
 
