@@ -126,7 +126,7 @@ If rake fails on your environment, generate the preview [using jekyll](#using-je
 
 ### Minimizing Build Time
 
-#### Building Specifc Editions
+#### Building specific editions
 
 You can speed the local build time up by only building one of the three versions that the full `rake preview` command builds. Building individual versions also enables incremental builds when you save a changed document, thus updating your preview. Incremental builds are disabled when `rake preview` is used to build all versions. To build a specific version, use one of the following commands:
 
