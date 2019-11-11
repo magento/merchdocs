@@ -141,9 +141,7 @@ config](https://jekyllrb.com/docs/configuration/options/) to suit your needs.
 
 ##### Disable Link Checking
 
-By default, `check_links` is enabled. This option verifies every link in every project file, which can
-significantly increase build times when iterating many changes quickly. You can
-turn off link checking by adding the following line to your `_config.local.yml` file:
+By default, `check_links` is enabled. This option verifies every link in every project file, which can significantly increase build times when iterating many changes quickly. You can turn off link checking by adding the following line to your `_config.local.yml` file:
 
     check_links: false
 
