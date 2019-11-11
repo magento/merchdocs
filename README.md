@@ -136,8 +136,7 @@ You can speed the local build time up by only building one of the three versions
 
 #### Customizing Local Config
 
-By creating your own `_config.local.yml` file, you can customize the [Jekyll
-config](https://jekyllrb.com/docs/configuration/options/) to suit your needs.
+By creating your own `_config.local.yml` file, you can customize the [Jekyll config](https://jekyllrb.com/docs/configuration/options/) to suit your needs.
 
 ##### Disable Link Checking
 
