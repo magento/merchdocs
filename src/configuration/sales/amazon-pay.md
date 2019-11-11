@@ -77,5 +77,5 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Logging|Global|Determines if Amazon log files are generated. Options: Yes / No|
-|Allowed IPs|Website|If left blank, the Login with Amazon and Amazon Pay buttons are available for all IPs addresses. To limit their availability during development, enter the IP address of each, separated by a comma. The specified IP addresses are added to white list.|
+|Allowed IPs|Website|If left blank, the Login with Amazon and Amazon Pay buttons are available for all IP addresses. To limit their availability during development, enter the IP address of each, separated by a comma. The specified IP addresses are added to white list.|
 |Developer Logs||Provides a list of available Amazon logs collected when Logging is enabled.|
