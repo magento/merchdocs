@@ -14,7 +14,7 @@ If you conduct business in several states and ship a large quantity of product, 
 
 1. Save the file, and then open it in a spreadsheet.
 
-  This example uses OpenOffice Calc.
+    This example uses OpenOffice Calc.
 
     The exported Magento tax rate data includes the following columns:
     - Code

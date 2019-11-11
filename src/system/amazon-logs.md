@@ -6,8 +6,8 @@ The Amazon Pay extension collects and provides viewable and downloadable logs fo
 
 Amazon Pay logs the following information:
 
-- **Client** — Logs all API calls and responses.
-- **INP** — Logs all Instant Payment Notifications that are sent by Amazon.
+- **Client** - Logs all API calls and responses.
+- **INP** - Logs all Instant Payment Notifications that are sent by Amazon.
 
 ## Display and Download Amazon Logs
 

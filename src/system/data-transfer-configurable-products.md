@@ -13,15 +13,15 @@ _New Size Variation Added for Each Color_
 
 1. Before you begin, make sure that the attributes that are used for product variations have the required property settings.
 
-    - [**Scope**]({% link configuration/scope.md %}) — `Global`
-    - [**Catalog Input Type for Store Owner**]({% link stores/attributes-product.md %}) — The input type of any attribute that is used for a product variation must be one of the following:
+    - [**Scope**]({% link configuration/scope.md %}) - `Global`
+    - [**Catalog Input Type for Store Owner**]({% link stores/attributes-product.md %}) - The input type of any attribute that is used for a product variation must be one of the following:
 
         - `Dropdown`
         - `Visual Swatch`
         - `Text Swatch`
         - `Multi-Select`
 
-    - **Values Required** — `Yes`
+    - **Values Required** - `Yes`
 
 1. If you are adding a new size or color, or making any other change to an existing attribute, make sure to update the attribute with the new value.
 
@@ -77,23 +77,21 @@ _New Size Variation Added for Each Color_
 
     - Scroll to the far right of the worksheet to find the following columns.
 
-        - `configurable_variations` — Defines the one-to-many relationship between the configurable product record and each variation.
-        - `configurable_variation_labels` — Defines the label that identifies each variation.
+        - `configurable_variations` - Defines the one-to-many relationship between the configurable product record and each variation.
+        - `configurable_variation_labels` - Defines the label that identifies each variation.
 
-        In this example, the data can be found in columns CG and CH. Depending on the number of variations, the string of data in the `configurable_variations` column can be quite long. The data is used an an index to the associated product variations, and has the following structure:
+      In this example, the data can be found in columns CG and CH. Depending on the number of variations, the string of data in the `configurable_variations` column can be quite long. The data is used an an index to the associated product variations, and has the following structure:
 
-        **Data Format**
+      **Data Format**
 
-        ```
-        {% raw %}sku={{SKU_VALUE}},attribute1={{VALUE}},attribute2={{VALUE}}| sku={{SKU_VALUE}},attribute1={{VALUE}},attribute2={{VALUE}}{% endraw %}
-        ```
-        {: .no-copy}
+      ```
+      {% raw %}sku={{SKU_VALUE}},attribute1={{VALUE}},attribute2={{VALUE}}| sku={{SKU_VALUE}},attribute1={{VALUE}},attribute2={{VALUE}}{% endraw %}
+      ```
+      {: .no-copy}
 
-        Each sku is separated by a pipe symbol ({% raw %}|{% endraw %}), and attributes are separated by a comma. The value of each attribute is represented by the attribute code, rather than the attribute label. Here’s how the actual data appears:
+      Each sku is separated by a pipe symbol (&#124;), and attributes are separated by a comma. The value of each attribute is represented by the attribute code, rather than the attribute label. This is how the actual data appears:
 
-        **Example Data**
-
-        ```
+      ```
         sku=MH01-XS-Black,size=XS,color=Black|sku=MH01-XS-Gray,size=XS,color=Gray|sku=MH01-XS-Orange,size=XS,color=Orange</pre>
         ```
         {: .no-copy}
@@ -180,6 +178,6 @@ In the following example, the set of XL sizes is copied and pasted into the work
     ![System message - file is valid]({% link images/images/data-transfer-configurable-product-import-validation-results.png %}){: .zoom}
     _Validation Results_
 
-1. When the import is complete, click the **Cache Management** link in the message at the top of the page and refresh all invalid caches.
+1. When the import is complete, click **Cache Management** in the message at the top of the page and refresh all invalid caches.
 
     The new product variations are now available in the catalog from the Admin and in the storefront. In this example, the hoodie is now available in size XXL for all colors.

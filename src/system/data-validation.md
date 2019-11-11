@@ -4,7 +4,7 @@ title: Data Validation
 
 All data must pass validation before it can be imported into the store, to ensure that the values are consistent with the system database. Validation begins when you tap the Check Data button. During the process, all entities in the import file are verified for the following:
 
-- **Attributes** - Column header names are verified to ensure that they match the corresponding attributes in the system database. The value of each attribute is checked to ensure that it meets the requirements of the data type (decimal, integer, varchar, text, and datetime)
+- **Attributes** - Column header names are verified to ensure that they match the corresponding attributes in the system database. The value of each attribute is checked to ensure that it meets the requirements of the data type (decimal, integer, varchar, text, and datetime).
 - **Complex Data** - Values that originate from a defined set, such as a drop-down or multiple select input type, are verified to ensure that the values exist in the defined set.
 - **Service Data** - The values in service data columns are verified to ensure that the properties or complex data values are consistent with what is already defined in the system database.
 - **Required Values** - For new entities, the presence of required attribute values in the file is checked. For existing entities, there is no need to re-check the existence of required attribute values.
