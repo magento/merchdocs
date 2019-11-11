@@ -37,7 +37,7 @@ The best way to understand how a bundle product is structured is to export the p
 
 In this step, the Sprite Yoga Companion Kit is exported as a ([CSV]({% link system/data-csv.md %})) file. You can use any other bundle product that you have in your catalog.
 
-1.  From the Admin, go to **System** > Data Transfer > **Export**.  
+1.  On the _Admin_ sidebar, go to **System** > Data Transfer > **Export**.  
 
 1.  Under **Export Settings**, set **Entity Type** to `Products`.
 
