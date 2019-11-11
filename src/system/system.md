@@ -6,7 +6,7 @@ sections:
    url: /system/data-transfer.html
 
  - title: Integrations
-   content: Establish the location of [OAuth][1] credentials and redirect URL for third-party integrations, and identify available API resources. Discover resources to extend the native capabilities of Magento.
+   content: Establish the location of OAuth credentials and redirect URL for third-party integrations, and identify available API resources. Discover resources to extend the native capabilities of Magento.
    url: /system/integrations.html
 
  - title: Permissions
