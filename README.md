@@ -142,7 +142,9 @@ By creating your own `_config.local.yml` file, you can customize the [Jekyll con
 
 By default, `check_links` is enabled. This option verifies every link in every project file, which can significantly increase build times when iterating many changes quickly. You can turn off link checking by adding the following line to your `_config.local.yml` file:
 
-    `check_links: false`
+```yaml
+check_links: false
+```
 
 ## Build in Windows
 
