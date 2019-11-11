@@ -69,7 +69,7 @@ In this step, the Sprite Yoga Companion Kit is exported as a ([CSV]({% link syst
 
 **Step 3: Import the Updated Product**
 
-1.  From the Admin, go to **System** > Data Transfer > **Import**.
+1.  On the _Admin_ sidebar, go to **System** > _Data Transfer_ > **Import**.
    
 1.  Under **Import Settings**, set **Entity Type** to `Products`.
 
