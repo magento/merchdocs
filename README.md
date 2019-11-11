@@ -134,7 +134,7 @@ You can speed the local build time up by only building one of the three versions
 - `rake preview:b2b`: Preview the B2B edition locally
 - `rake preview:ee`: Preview the Commerce edition locally
 
-#### Customizing Local Config
+#### Customizing local config
 
 By creating your own `_config.local.yml` file, you can customize the [Jekyll config](https://jekyllrb.com/docs/configuration/options/) to suit your needs.
 
