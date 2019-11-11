@@ -138,7 +138,7 @@ You can speed the local build time up by only building one of the three versions
 
 By creating your own `_config.local.yml` file, you can customize the [Jekyll config](https://jekyllrb.com/docs/configuration/options/) to suit your needs.
 
-##### Disable Link Checking
+##### Disable link checking
 
 By default, `check_links` is enabled. This option verifies every link in every project file, which can significantly increase build times when iterating many changes quickly. You can turn off link checking by adding the following line to your `_config.local.yml` file:
 
