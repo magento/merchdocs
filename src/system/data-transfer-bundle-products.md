@@ -51,7 +51,7 @@ In this step, the Sprite Yoga Companion Kit is exported as a ([CSV]({% link syst
 
 **Step 2: Edit the Data**
 
-1.  Open the downloaded CSV file in a spreadsheet. Scroll to the far right, until you can see the `bundle_values` column. In the `bundle_values` data, each element is separated by comma, and each bundle item is separated from the next with a vertical bar. (The last item does not end with a vertical bar.) Your exported bundle data should look like this:
+1.  Open the downloaded CSV file in a spreadsheet. Scroll to the far right, until you can see the `bundle_values` column. In the `bundle_values` data, each element is separated by comma, and each bundle item is separated from the next with a vertical bar. (The last item does not end with a vertical bar.) Your exported bundle data should look similar to the following example:
 
     ![]({% link images/images/product-bundle-values-export-data.png
      %}){: .zoom}
