@@ -6,7 +6,7 @@ The following tables list the attributes from a typical export of the Customers 
 
 Each attribute, or field, is represented in the CSV file as a column, and customer records are represented by rows. Columns that begin with an underscore are service entities that contain properties or complex data.
 
-### Customers Main File
+## Customers Main File
 
 |Attribute|Description|
 |--- |--- |
@@ -33,7 +33,7 @@ Each attribute, or field, is represented in the CSV file as a column, and custom
 |`website_id`||
 |`password`||
 
-### Customer Addresses
+## Customer Addresses
 
 |Attribute|Description|
 |--- |--- |
