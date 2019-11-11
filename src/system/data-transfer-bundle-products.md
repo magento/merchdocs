@@ -45,7 +45,7 @@ In this step, the Sprite Yoga Companion Kit is exported as a ([CSV]({% link syst
 
 1.  Scroll down to the bottom of the section, and click <span class="btn">Continue</span>.
 
-1.  In the **Action** column of the File name grid, click **Select**, and choose `Download`. 
+1.  In the **Action** column of the _File name_ grid, click **Select** and choose `Download`. 
 
     The file appears in the download location used by your browser.
 
