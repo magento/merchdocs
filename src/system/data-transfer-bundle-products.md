@@ -79,4 +79,4 @@ In this step, the Sprite Yoga Companion Kit is exported as a ([CSV]({% link syst
 
 1.  Click <span class="btn">Check Data</span> and wait a few moments for the data to be checked. If the file is valid, click <span class="btn">Import</span>.
 
-1. When the process is complete, go to **System** > Tools > **Cache Management**, and click <span class="btn">Flush Cache Storage</span> to ensure that the updated product is immediately available in the storefront.
+1. When the process is complete, go to **System** > _Tools_ > **Cache Management** and click <span class="btn">Flush Cache Storage</span>. This ensures that the updated product is immediately available in the storefront.
