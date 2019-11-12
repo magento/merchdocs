@@ -89,6 +89,14 @@ _Image Processing Settings_
 |--- |--- |--- |
 |Image Adapter|Global|Specifies the adapter that is used to render images. After changing the adapter setting, flush the Catalog Images cache. Options: PHP GD2, ImageMagick|
 
+## Caching Settings
+
+![]({% link images/images/config-advanced-developer-caching-settings.png %}){: .zoom}
+_Caching Settings_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+Cache User Defined Attributes | Global | When enabled, caches user-defined and system Entity Attribute Value (EAV) attributes. This option may increase performance but also requires additional space for caching. Options: Yes/No
 
 ## Static Files Settings
 
