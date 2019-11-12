@@ -171,7 +171,7 @@ _Choose Template_
 
 1. Repeat these steps for each item you want to add to the bundle.
    
-1. To change the order of items in a bundle section, click the **Move** ( ![Move icon]({% link images/images/btn-drag.png %}){: .Inline} ) icon at the beginning of the row, and drag the item to the new position. 
+1. To change the order of items in a bundle section, click the **Move** ( ![Move icon]({% link images/images/btn-drag.png %}){: .Inline} ) icon at the beginning of the row and drag the item into position. 
    
     ![]({% link images/images/product-bundle-items-move.png %}){: .zoom}
     _Change the Order of Bundle Items_
