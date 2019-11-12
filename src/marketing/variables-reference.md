@@ -2,7 +2,7 @@
 title: Variable Reference
 ---
 
-Most email templates have a section of additional variables that are specific to the template. The following are examples of some frequently used templates.
+Most [email templates]({% link marketing/email-template-custom.md -%}) have a section of [predefined variables]({% link marketing/varibles-predefined.md -%}) that are specific to the template. The following are examples of some frequently used email templates and their associated variables.
 
 <!-- {%- raw -%} -->
 
