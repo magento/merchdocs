@@ -2,7 +2,7 @@
 title: Importing Bundle Products
 ---
 
-A bundle product presents a selection of items, and allows customers to choose the ones they want to purchase. All items that make up a bundle already exist in the catalog as either simple or virtual products. Bundle products are usually created and updated from the Admin. However, you can also import data to create a new bundle product, or export existing bundle products, edit the data, and import them back into the catalog. The Sprite Yoga Companion Kit is a bundle product in the sample data that is used in the following examples.
+A bundle product presents a selection of items and allows customers to choose the ones they want to purchase. All items that make up a bundle already exist in the catalog as either [Simple Products]({% link catalog/product-create-simple.md %}) or [Virtual Products]({% link catalog/product-create-virtual.md %}). Bundle products are usually created and updated from the Admin. However, you can also import data to create a new bundle product or you can export existing bundle products, edit the data, and import them back into the catalog. The Sprite Yoga Companion Kit is a bundle product in the sample data that is used in the following examples.
 
 ![]({% link images/images/product-bundle.png %}){: .zoom}
 _Bundle Product_
@@ -51,7 +51,7 @@ In this step, the Sprite Yoga Companion Kit is exported as a ([CSV]({% link syst
 
 **Step 2: Edit the Data**
 
-1.  Open the downloaded CSV file in a spreadsheet. Scroll to the far right, until you can see the `bundle_values` column. In the `bundle_values` data, each element is separated by comma, and each bundle item is separated from the next with a vertical bar. (The last item does not end with a vertical bar.) Your exported bundle data should look like this:
+1.  Open the downloaded CSV file in a spreadsheet. Scroll to the far right, until you can see the `bundle_values` column. In the `bundle_values` data, each element is separated by comma, and each bundle item is separated from the next with a vertical bar. (The last item does not end with a vertical bar.) Your exported bundle data should look similar to the following example:
 
     ![]({% link images/images/product-bundle-values-export-data.png
      %}){: .zoom}
