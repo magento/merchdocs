@@ -8,6 +8,17 @@ The company profile can be maintained from the storefront by the company admin, 
 ![]({% link images/images-b2b/company-update.png %}){: .zoom}
 _Company Profile_
 
+## Company role resources
+
+The ability to:
+
+-  Add New Company
+-  Delete Company
+-  Reimburse Balance
+-  View companies
+
+is controlled via settings in [Role Resources]({% link system/permissions-role-resources.md %}). These role resources must be set for the [User Role]({% link system/permissions-user-roles.md %}) that the admin user is under.
+
 ## To update a company profile:
 
 1. On the _Admin_ sidebar, go to **Customers** > **Companies**.
