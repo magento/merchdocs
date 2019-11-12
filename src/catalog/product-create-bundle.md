@@ -170,6 +170,18 @@ _Choose Template_
     _Item Detail_
 
 1. Repeat these steps for each item you want to add to the bundle.
+   
+1. To change the order of items in a bundle section, click the **Move** ( ![Move icon]({% link images/images/btn-drag.png %}){: .Inline} ) icon at the beginning of the row and drag the item into position. 
+   
+    ![]({% link images/images/product-bundle-items-move.png %}){: .zoom}
+    _Change the Order of Bundle Items_
+
+    The order of items can also be changed in the data of an exported bundle product, and then reimported into the catalog. To learn more, see [Importing Bundle Products]({% link system/data-transfer-bundle-products.md %}).
+
+1. To change the order of sections in a bundle product, click the **Move** ( ![Move icon]({% link images/images/btn-drag.png %}){: .Inline} ) icon in the header of the section and drag the section to the new position. To have a better view of the workspace, collapse each section first and then drag them into position. 
+
+    ![]({% link images/images/product-bundle-section-move.png %}){: .zoom}
+    _Change the Order of Bundle Sections_
 
 1. To remove any item from the bundle, click the **Delete** ( ![]({% link images/images/btn-delete.png %}){: .Inline} ) icon.
 
