@@ -10,7 +10,7 @@ _Quotes_
 
 ## B2B role resources for stores
 
-Configuration options for quotes are are for B2B only and are controlled via [Role Resources]({% link system/permissions-role-resources.md %}). These role resources must be set for the [User Role]({% link system/permissions-user-roles.md %}) that the admin user is under.
+Configuration options for quotes are for B2B only and are controlled via [Role Resources]({% link system/permissions-role-resources.md %}). These role resources must be set for the [User Role]({% link system/permissions-user-roles.md %}) that the admin user is under.
 Find them under Stores > Settings > Configuration > Quotes Section in the Role Resources list.
 
 ## To apply an action:
