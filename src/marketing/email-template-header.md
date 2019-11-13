@@ -2,7 +2,7 @@
 title: Header Template
 ---
 
-The email header template includes your logo that is linked to your store. In addition, you can easily insert variables to add store contact information to the header.
+The email header template includes your logo that is linked to your store. If you have a basic knowledge of HTML, you can easily insert variables to add store contact information to the header.
 
 ![Email templates]({% link images/images/email-templates.png %}){: .zoom}
 _Email Templates_
