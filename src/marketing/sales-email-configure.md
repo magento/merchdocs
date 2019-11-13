@@ -9,7 +9,7 @@ A number of email messages are triggered by the events related to an order, and 
 
 ## Step 1. Update the Email Templates
 
-Make sure that you have updated each [email template ]({% link marketing/email-template-message.md %}) to reflect your brand. For a complete list of templates, see [Email Template List]({% link marketing/email-template-list.md %}).
+Make sure to update the [email header]({% link marketing/email-template-header.md %}) template to reflect your brand, and the other [email templates]({% link marketing/email-template-message.md %}) as needed. For a complete list of templates, see [Email Template List]({% link marketing/email-template-list.md %}).
 
 ## Step 2. Choose the Type of Transmission
 
@@ -17,17 +17,19 @@ Make sure that you have updated each [email template ]({% link marketing/email-t
 
 1. In the left panel, expand **Sales** and choose **Sales Emails**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General Settings** section and set **Asynchronous Sending** to one of the following:
+1. If necessary, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General Settings** section. 
+
+    ![Sales configuration - sales email general settings]({% link images/images/config-sales-sales-emails-general-settings.png %}){: .zoom}
+    [_General Settings_]({% link configuration/sales/sales.md -%})
+   
+    By default, Asynchronous sending is set to `Disable`. To change the system setting, clear the **Use system value** checkbox and set **Asynchronous sending** to one of the following:   
 
     | Disable | Sends sales email when triggered by an event. |
     | Enable | Sends sales email at predetermined, regular intervals. |
 
-    ![Sales configuration - sales email general settings]({% link images/images/config-sales-sales-emails-general-settings.png %}){: .zoom}
-    [_General Settings_]({% link configuration/sales/sales.md -%})
-
 ## Step 3. Complete the Details for Each Sales Email Message
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Order** section and do the following:
+1. If necessary, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Order** section and do the following:
 
     ![Sales configuration - sales emails order]({% link images/images/config-sales-sales-emails-order.png %}){: .zoom}
     [_Order_]({% link configuration/sales/sales-emails.md -%})
@@ -59,3 +61,5 @@ Make sure that you have updated each [email template ]({% link marketing/email-t
     - **Credit Memo** / **Credit Memo Comments**
 
 1. When complete, click <span class="btn">Save Config</span>.
+   
+   When prompted, click the [Cache Management]({% link system/cache-management.md %}) link in the message at the top of the workspace, and clear all invalid caches.
