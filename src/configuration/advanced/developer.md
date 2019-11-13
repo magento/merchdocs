@@ -96,7 +96,7 @@ _Caching Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-Cache User Defined Attributes | Global | When enabled, caches user-defined and system Entity Attribute Value (EAV) attributes. This option may increase performance but also requires additional space for caching. Options: Yes/No
+Cache User Defined Attributes | Global | When enabled, caches user-defined and system Entity Attribute Value (EAV) attributes. This option may increase performance but also requires additional space for caching. Options: Yes / No
 
 ## Static Files Settings
 
