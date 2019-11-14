@@ -2,7 +2,7 @@
 title: Configuring Email Templates
 ---
 
-The configuration determines the logo, as well as the [header]({% link marketing/email-template-header.md -%}) and [footer]({% link marketing/email-template-footer.md -%}) templates that are used for all transactional email messages that are sent from your store.
+The configuration determines the logo that appears in the default header template, as well as any custom [header]({% link marketing/email-template-header.md -%}) and [footer]({% link marketing/email-template-footer.md -%}) templates that you want to use for transactional email messages sent from your store(s).
 
 ![Transactional email design]({% link images/images/config-design-transactional-emails.png %}){: .zoom}
 [_Transactional Emails_]({% link design/configuration.md %})
