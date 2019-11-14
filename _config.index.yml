@@ -5,23 +5,6 @@ algolia:
   # Override 10KB default and use our allowed max of 20KB.
   max_record_size: 20000
 
-  # Recommended by jekyll-algolia
-  settings:                                                                      
-    searchableAttributes:                                                        
-      - title                                                                    
-      - headings                                                                 
-      - unordered(content)                                                       
-      - collection,categories,tags                                               
-      - conditions                                                               
-
-    attributesForFaceting:                                                       
-      - searchable(categories)                                                   
-      - searchable(collection)                                                   
-      - filterOnly(conditions)                                                   
-      - searchable(tags)                                                         
-      - searchable(title)                                                        
-      - type
-
 # Disable the code blocks line numbers at indexing stage
 kramdown:
   syntax_highlighter_opts:

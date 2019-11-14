@@ -5,3 +5,18 @@ baseurl: /m2/ce/user_guide
 title: Magento Open Source 2.3 User Guide
 algolia:
   index_name: merchdocs_ce
+  settings:                                                                      
+    searchableAttributes:                                                        
+      - title                                                                    
+      - headings                                                                 
+      - unordered(content)                                                       
+      - collection,categories,tags                                               
+      - conditions                                                               
+
+    attributesForFaceting:                                                       
+      - searchable(categories)                                                   
+      - searchable(collection)                                                   
+      - filterOnly(conditions)                                                   
+      - searchable(tags)                                                         
+      - searchable(title)                                                        
+      - type
