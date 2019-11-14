@@ -5,4 +5,3 @@ baseurl: /m2/ce/user_guide
 title: Magento Open Source 2.3 User Guide
 algolia:
   index_name: merchdocs_ce
-  

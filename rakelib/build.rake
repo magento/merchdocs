@@ -12,7 +12,7 @@ namespace :build do
   task :ce do
     custom_options = ENV['ce_options']
 
-    puts 'Building the Open Source edition: $ '.magenta
+    print 'Building the Open Source edition: $ '.magenta
     sh "bundle exec jekyll build #{custom_options} --verbose --trace --config _config.yml,_config.ce.yml"
     puts 'Built!'.green
   end
@@ -21,7 +21,7 @@ namespace :build do
   task :ee do
     custom_options = ENV['ee_options']
 
-    puts 'Building the Commerce edition: $ '.magenta
+    print 'Building the Commerce edition: $ '.magenta
     sh "bundle exec jekyll build #{custom_options} --verbose --trace --config _config.yml,_config.ee.yml"
     puts 'Built!'.green
   end
@@ -30,7 +30,7 @@ namespace :build do
   task :b2b do
     custom_options = ENV['b2b_options']
 
-    puts 'Building B2B edition: $ '.magenta
+    print 'Building B2B edition: $ '.magenta
     sh "bundle exec jekyll build #{custom_options} --verbose --trace --config _config.yml,_config.b2b.yml"
     puts 'Built!'.green
   end

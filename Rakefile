@@ -44,11 +44,11 @@ desc 'Generate index for Algolia'
 task :index do
 
   puts "Generating index for Algolia: Open Source ...".magenta
-  sh "bundle exec jekyll algolia --config=_config.yml,_config.index.yml,_config.ce.yml --dry-run"
+  sh "bin/jekyll algolia --config=_config.yml,_config.index.yml,_config.ce.yml"
   
   puts "Generating index for Algolia: Commerce ...".magenta
-  sh "bundle exec jekyll algolia --config=_config.yml,_config.index.yml,_config.ee.yml --dry-run"
+  sh "bin/jekyll algolia --config=_config.yml,_config.index.yml,_config.ee.yml"
   
   puts "Generating index for Algolia: B2B ...".magenta
-  sh "bundle exec jekyll algolia --config=_config.yml,_config.index.yml,_config.b2b.yml --dry-run"
+  sh "bin/jekyll algolia --config=_config.yml,_config.index.yml,_config.b2b.yml"
 end
