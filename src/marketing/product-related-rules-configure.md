@@ -25,9 +25,10 @@ The behavior and display of product relationship rules is determined by the conf
         - `Rule-Based Only`
 
     - Set **Rotation Mode for Products in Related Product List** to one of the following:
-
-        - `Do Not Rotate`
-        - `Shuffle`
+    
+        - `By Priority, Then by ID`
+        - `By Priority, Then Random`
+        - `Weighted Random`
 
 1. To complete the cross-sell product settings, do the following:
 
@@ -41,8 +42,9 @@ The behavior and display of product relationship rules is determined by the conf
 
     - Set **Rotation Mode for Products in Cross-Sell Product List** to one of the following:
 
-        - `Do Not Rotate`
-        - `Shuffle`
+        - `By Priority, Then by ID`
+        - `By Priority, Then Random`
+        - `Weighted Random`
 
 1. To complete the up-sell product settings, do the following:
 
@@ -56,7 +58,16 @@ The behavior and display of product relationship rules is determined by the conf
 
     - Set **Rotation Mode for Products in Upsell Product List** to one of the following:
 
-        - `Do Not Rotate`
-        - `Shuffle`
+        - `By Priority, Then by ID`
+        - `By Priority, Then Random`
+        - `Weighted Random`
 
 1. When complete, click <span class="btn">Save Config</span>.
+
+## Rotation Modes
+
+| Mode | Description |
+|---|---|
+| By Priority, Then by ID | Products are sorted by priority and then reordered by ID inside each priority. Products from lower priority rule will show up only when they are no products from higher priority rule left to fill the available slots. |
+| By Priority, Then Random | Products are sorted by priority and then randomized inside each priority. Products from lower priority rule will show up only when they are no products from higher priority rule left to fill the available slots. |
+| Weighted Random | Products are randomized such that products belonging to rule with higher priority will have more chance appear than those within lower priority rule. Products are then reduced to the configurable maximum limit and regrouped back by priority. This mode gives a chance to products from lower priority to appear sometimes even if the remaining slots could be filled up with products from rule with higher priority|
