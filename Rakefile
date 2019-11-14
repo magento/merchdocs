@@ -35,17 +35,20 @@ task :install do
   puts 'Installed!'.green
 end
 
-task build: %w[build:all] do
-  print 'Building all editions of the User Guide: $ '.magenta
-end
+task build: %w[build:all]
 
 desc 'Check modified files. To check all files at the particular path, provide the path (e.g. path=src/images/images)'
 task check: %w[check:image_optim check:mdl]
 
 desc 'Generate index for Algolia'
 task :index do
-  sh 'bin/jekyll',
-      'algolia',
-      '--config=_config.yml,_config.index.yml',
-      '--dry-run'
+
+  puts "Generating index for Algolia: Open Source ...".magenta
+  sh "bundle exec jekyll algolia --config=_config.yml,_config.index.yml,_config.ce.yml --dry-run"
+  
+  puts "Generating index for Algolia: Commerce ...".magenta
+  sh "bundle exec jekyll algolia --config=_config.yml,_config.index.yml,_config.ee.yml --dry-run"
+  
+  puts "Generating index for Algolia: B2B ...".magenta
+  sh "bundle exec jekyll algolia --config=_config.yml,_config.index.yml,_config.b2b.yml --dry-run"
 end
