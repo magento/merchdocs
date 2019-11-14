@@ -41,3 +41,11 @@ end
 
 desc 'Check modified files. To check all files at the particular path, provide the path (e.g. path=src/images/images)'
 task check: %w[check:image_optim check:mdl]
+
+desc 'Generate index for Algolia'
+task :index do
+  sh 'bin/jekyll',
+      'algolia',
+      '--config=_config.yml,_config.index.yml',
+      '--dry-run'
+end
