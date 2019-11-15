@@ -15,7 +15,9 @@ _Custom Variables_
 
 1. Click <span class="btn">Add New Variable</span>.
 
-1. Enter an identifier in the **Variable Code** field, using all lowercase characters without spaces. However, the underscore character can be used to represent a space. For example: `my_custom_variable`
+1. Enter an identifier in the **Variable Code** field, using all lowercase characters without spaces. 
+
+    If needed, you can use an underscore character to represent a space. For example: `my_custom_variable`
  
 1. Enter a **Variable Name**, which is used for internal reference. For example: `My Custom Variable`
    
