@@ -8,15 +8,15 @@ Your store has a copyright notice in the footer of each page. As a best practice
 ![]({% link images/images/storefront-footer-copyright.png %}){: .zoom}
 _Copyright Notice_
 
-The `&Copy;` character code is used to insert the copyright symbol, as shown in the following examples:
+The `&copy;` character code is used to insert the copyright symbol, as shown in the following examples:
 
    **Long Format Example**
 
-   `Copyright &amp;Copy; 2013-2019 Magento, Inc. All rights reserved.`
+   `Copyright &copy; 2013-2019 Magento, Inc. All rights reserved.`
 
    **Short Format Example**
 
-   `&amp;Copy; 2019 Magento, Inc. All rights reserved.`
+   `&copy; 2019 Magento, Inc. All rights reserved.`
 
 ## To change the copyright notice:
 
@@ -32,6 +32,6 @@ The `&Copy;` character code is used to insert the copyright symbol, as shown in 
       ![]({% link images/images/design-configuration-footer.png %}){: .zoom}
       _Footer_
 
-   * In the **Copyright** box, enter the copyright notice that you want to appear in the footer of each page. Use the `&Copy;` character code to insert a copyright symbol.
+   * In the **Copyright** box, enter the copyright notice that you want to appear in the footer of each page. Use the `&copy;` character code to insert a copyright symbol.
 
 1. When complete, click <span class="btn">Save Configuration</span>.
