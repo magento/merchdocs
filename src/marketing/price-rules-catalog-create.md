@@ -41,9 +41,9 @@ Follow these instructions to apply a discount to specific products whenever a se
      The options in this list is dependent on the customer groups created and managed in Customers > Customer Groups.
 
    <!--{% if "Default.CE Only" contains site.edition %}-->
-   - Enter the **From** and **To** dates to determine when the price rule is in effect. You can either enter the dates, or choose the dates from the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})).
-
-     If you leave the dates blank, the rule is enabled as soon as the price rule is saved.
+   - Enter the **From** and **To** dates to determine when the price rule is in effect.
+  
+      You can either enter the dates, or choose the dates from the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})). If you leave the dates blank, the rule is enabled as soon as the price rule is saved.
    <!--{% endif %}-->
 
    - Enter a number to establish the **Priority** of this rule in relation to other rules.
@@ -55,7 +55,7 @@ Follow these instructions to apply a discount to specific products whenever a se
 
 Most of the available conditions are based on existing attribute values. To apply the rule to all products, leave the conditions blank.
 
-1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Conditions** section. 
+1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Conditions** section.
 
     The first condition appears by default, and states:
 
@@ -84,7 +84,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
       The selected condition appears in the statement, followed by two more bold links. The options differ depending on the condition attribute you select. The statement now says:
 
-         If **ALL** of these conditions are **TRUE**: </ br>Attribute Set **is** …
+        If **ALL** of these conditions are **TRUE**: <br/>Attribute Set **is** …
 
    - Click **is** and choose the comparison operator that describes the condition to be met. These options may include an option for different comparisons, such as matching values, not including or including at least one of a value, and great than, equal to, and less than a numerical amount. In this example, the options are `is` and `is not`.
 
@@ -130,9 +130,6 @@ Most of the available conditions are based on existing attribute values. To appl
    {: .bs-callout-info}
    Setting this to `Yes` is a safeguard to prevent the system from applying multiple discounts (rules) to the same product.
 
-   ![Catalog price rules - pricing structures]({% link images/images/price-rule-catalog-saved.png %}){: .zoom}
-   _Pricing Structure Rules_
-
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ## Step 4: Add Related Dynamic Blocks (optional)
 
@@ -152,23 +149,28 @@ Most of the available conditions are based on existing attribute values. To appl
 
 ## Step 5: Schedule the Rule
 
+{: .bs-callout .bs-callout-info}
+Setting the rule to active must be added as a scheduled update. To learn more, see [Scheduled Changes]({% link marketing/price-rule-catalog-scheduled-changes.md %}).
+
 1. Click **Save and Continue Edit**.
 
     The Scheduled Changes timeline appears at the top of the page.
 
-    ![Catalog price rules - scheduled changes]({% link images/images-ee/price-rule-scheduled-changes.png %}){: .zoom}
+    ![Catalog price rules - scheduled changes]({% link images/images-ee/price-rule-scheduled-changes-new.png %}){: .zoom}
     _Scheduled Changes_
 
 1. In the _Scheduled Changes_ box, click **View/Edit**.
 
-    You can either edit the existing update or assign the catalog price rule to another campaign. The Edit Existing Update option is selected by default.
+    You can either edit the existing update or assign the catalog price rule to another campaign. The **Edit Existing Update** option is selected by default.
 
-1. To schedule the rule, enter the **Start Date** and **End Date** that the price rule is to be active. You can either enter the dates or choose the dates from the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})).
+1. To schedule the rule, enter the **Start Date** and **End Date** that the price rule is to be active.
 
-    To learn more, see [Scheduled Changes]({% link marketing/price-rule-catalog-scheduled-changes.md %}).
+    You can either enter the dates or choose the dates from the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})).
 
-    ![Catalog price rule - update schedule]({% link images/images-ee/price-rule-catalog-schedule-update-edit.png %}){: .zoom}
+    ![Catalog price rule - update schedule]({% link images/images-ee/price-rule-catalog-schedule-update.png %}){: .zoom}
     _Update Schedule_
+
+1. Scroll to the _Rule Information_ section and set the **Status** to `active`.
 <!--{% endif %}-->
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
@@ -179,15 +181,23 @@ To apply the rule, do one of the following:
 - Click <span class="btn">Save and Apply</span>.
 - Click <span class="btn">Save</span>. Then from the Catalog Price Rules page, click <span class="btn">Apply Rules</span>.
 
+![Catalog price rules - pricing structures]({% link images/images/price-rule-catalog-saved.png %}){: .zoom}
+_Pricing Structure Rules_
+
 Price rules are automatically processed with other system rules each night. When you create a new price rule, allow enough time for it to get into the system. Then, test the rule to make sure that it works correctly. As new rules are added, Magento recalculates the prices and the priorities accordingly.
 
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ## Step 6: Save and Test the Rule
 
-1. When complete, click <span class="btn">Save Rule</span>.
+1. When complete, click <span class="btn">Save</span>.
 
-2. Test the rule to make sure that it works correctly.
+    The Rule Information page displays an updated timeline in the Scheduled Changes for the rule.
+
+    ![Catalog price rules - scheduled changes]({% link images/images-ee/price-rule-scheduled-changes-updated.png %}){: .zoom}
+    _Scheduled Changes_
+
+1. Test the rule to make sure that it works correctly.
 
   Price rules are automatically processed with other system rules each night. When you create a new price rule, allow enough time for it to get into the system. Then, test the rule to make sure that it works correctly. As new rules are added, Magento recalculates the prices and the priorities accordingly.
 <!--{% endif %}-->
