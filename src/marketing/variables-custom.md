@@ -36,7 +36,7 @@ _Custom Variables_
 
 1. When complete, click <span class="btn">Save</span>.
    
-  Your custom variable is now available to be inserted into email and newsletter templates and other types of content.  The code that is inserted looks something like the following [markup tag]({% link marketing/markup-tags.md -%}):
+  Your custom variable is now available to be inserted into email and newsletter templates and other types of content.  The code that is inserted looks similar to the following [markup tag]({% link marketing/markup-tags.md -%}):
 
   `{{CustomVar code= "my_custom_variable"}}`
   
