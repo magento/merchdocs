@@ -2,7 +2,7 @@
 title: Adding Predefined Variables
 ---
 
-Predefined variables are easy to add to [email]({% link marketing/email-templates.md -%}) and [newsletter]({% link marketing/newsletters.md -%}) templates, and other types of [content]({% link cms/content-elements.md -%}) to personalize communications. The list of available predefined variables appears when you click the Insert Variable button. As shown in the following image, the list of available predefined variables for a specific email template is determined by the collection of data that is associated with the template. See the [Variable Reference]({% link marketing/variables-reference.md -%}) for a list of frequently-used email templates and their associated variables.
+Predefined variables make it easy to personalize [email]({% link marketing/email-templates.md -%}) and [newsletter]({% link marketing/newsletters.md -%}) templates, as well as other types of [content]({% link cms/content-elements.md -%}). The list of available predefined variables appears when you click the Insert Variable button. As shown in the following image, the list of available predefined variables for a specific email template is determined by the collection of data that is associated with the template. See the [Variable Reference]({% link marketing/variables-reference.md -%}) for a list of frequently-used email templates and their associated variables.
 
 ![]({% link images/images/variable-insert-contact-email.png %}){: .zoom}
 _Variables for Contact Form Template_
