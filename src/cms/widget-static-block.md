@@ -2,7 +2,7 @@
 title: Using a Widget
 ---
 
-The CMS Static Block widget gives you the ability to place an existing [content block]({% link cms/blocks.md %}) most anywhere in your store.
+The CMS Static Block [widget]({% link cms/widgets.md %}) gives you the ability to place an existing [content block]({% link cms/blocks.md %}) most anywhere in your store.
 
 ![]({% link images/images/widgets.png %}){: .zoom}
 
@@ -59,4 +59,4 @@ The CMS Static Block widget gives you the ability to place an existing [content 
 
 1. When prompted, follow the instructions at the top of the workspace to update the index and page cache.
 
-1. Return to your storefront to verify that the block appears in the correct location. To move the block, you can reopen the frontend app try a different page or block reference.
+1. Return to your storefront to verify that the block appears in the correct location. To move the block, you can reopen the widget try a different page or block reference.
