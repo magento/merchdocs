@@ -26,9 +26,6 @@ algolia:
   application_id: E642SEDTHL
   index_name: merchdocs_ce
   api_key: d2d0f33ab73e291ef8d88d8b565e754c
-  max_record_size: 20000
-  files_to_exclude:
-    - search.md
 
 google:
   gtm: GTM-KRCLXBB
