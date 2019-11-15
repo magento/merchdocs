@@ -4,7 +4,7 @@ redirect_from:
   - /system/variables-custom.html
 ---
 
-If you know a little basic HTML, you can create custom variables and use a [markup tag]({% link marketing/markup-tags.md -%}) to incorporate them into [email]({% link marketing/email-templates.md -%}) and [newsletter]({% link marketing/newsletter-template.md -%}) templates, and other types of [content]({% link cms/content-elements.md -%}).
+If you know a little basic HTML, you can create custom variables and use a [markup tag]({% link marketing/markup-tags.md -%}) to incorporate them into [email]({% link marketing/email-templates.md -%}) and [newsletter]({% link marketing/newsletter-template.md -%}) templates, as well as other types of [content]({% link cms/content-elements.md -%}).
 
 ![Custome variables]({% link images/images/variables-custom.png %}){: .zoom}
 _Custom Variables_
