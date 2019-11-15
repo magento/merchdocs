@@ -62,4 +62,4 @@ Make sure to update the [email header]({% link marketing/email-template-header.m
 
 1. When complete, click <span class="btn">Save Config</span>.
    
-   When prompted, click the [Cache Management]({% link system/cache-management.md %}) link in the message at the top of the workspace, and clear all invalid caches.
+   When prompted, click the [Cache Management]({% link system/cache-management.md %}) link in the message at the top of the workspace and clear all invalid caches.
