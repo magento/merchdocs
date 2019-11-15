@@ -37,7 +37,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
     options = checks_config['html-proofer']
 
     # Run html-proofer to check the jekyll destination directory
-    HTMLProofer.check_directory(site.dest, options).run
+    HTMLProofer.check_directory('_site', options).run
 
   # Show the message when html-proofer fails.
   # Expected that it fails when it finds broken links.

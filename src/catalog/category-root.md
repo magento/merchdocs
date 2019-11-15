@@ -9,7 +9,7 @@ The products in the main menu are determined by the root category that is assign
 ![]({% link images/images/scope-catalog.png %}){: .zoom}
 [_Scope of Main Menu_]({% link catalog/category-root.md %})
 
-From the Admin, the category structure is like an upside-down tree, with the root on top. The root has a name, but no URL key, and does not appear in the [top navigation]({% link catalog/navigation-top.md %}) of the store. All other categories in the menu are nested below the root. Because the root category is the highest level of the catalog, your store can have only one root category active at a time. You can, however, create additional root categories for alternate catalog structures, different stores, and views.
+From the Admin, the category structure is like an upside-down tree, with the root on top. The root has a name, but no URL key, and does not appear in the [top navigation]({% link catalog/navigation-top.md %}) of the store. All other categories in the menu are nested below the root. Because the root category is the highest level of the catalog, your store can have only one root category active at a time. You can, however, create additional root categories for alternate catalog structures and different stores.
 
 The following example shows how to create a new root category and assign it to a different store.
 

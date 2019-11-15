@@ -114,7 +114,7 @@ pages:
       url: "/stores/currency-configuration.html"
     - label: Currency Symbols
       url: "/stores/currency-symbols.html"
-    - label: Updating Currrency Rates
+    - label: Updating Currency Rates
       url: "/stores/currency-update.html"
   - label: Attributes
     url: "/stores/attributes.html"
@@ -160,6 +160,8 @@ pages:
     - label: Data Transfer Examples
       url: "/system/data-transfer-examples.html"
       children:
+      - label: Bundle Products
+        url: "/system/data-transfer-bundle-products.html"
       - label: Configurable Products
         url: "/system/data-transfer-configurable-products.html"
       - label: Importing Tier Prices

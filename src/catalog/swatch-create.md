@@ -39,7 +39,7 @@ Use either of the following methods to create swatches for your products:
 
     - To save the swatch, tap the Color Wheel ( ![]({% link images/images/btn-color-wheel.png %}){: .Inline} ) in the lower-right corner of the color picker.
 
-    - In the **Admin** column, enter a label to describe the color to the store administrator. Then if applicable, enter the translation of the color for each each language supported. In the following example, we include the SKU for reference in the Admin label because the colors are used only for a specific product. You can include a space or underscore in the label, but not a hyphen.
+    - In the **Admin** column, enter a label to describe the color to the store administrator. Then if applicable, enter the translation of the color for each language supported. In the following example, we include the SKU for reference in the Admin label because the colors are used only for a specific product. You can include a space or underscore in the label, but not a hyphen.
 
     - In the **Is Default** column, select the swatch that is to be the default option.
 
