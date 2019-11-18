@@ -38,5 +38,8 @@ _Custom Variables_
    
   Your custom variable is now available to be inserted into email and newsletter templates and other types of content.  The code that is inserted looks similar to the following [markup tag]({% link marketing/markup-tags.md -%}):
 
-  `{{CustomVar code= "my_custom_variable"}}`
-  
+<!-- {%- raw -%} -->
+```
+  {{CustomVar code= "my_custom_variable"}}
+```
+<!-- {% endraw %} -->
