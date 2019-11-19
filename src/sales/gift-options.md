@@ -19,9 +19,9 @@ _Gift Options in Shopping Cart_
 
 1. In the _Settings_ section, choose **Configuration**.
 
-1. In the _Sales_ section in the left panel, choose **Checkout**.
+1. In the _Sales_ section in the left panel, choose **Sales**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **My Cart Link** section **Gift Options** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Gift Options** section.
 
     <!--{% if "Default.CE Only" contains site.edition %}-->
     ![]({% link images/images/config-sales-sales-gift-options.png %}){: .zoom}
