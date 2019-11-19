@@ -259,7 +259,7 @@ pages:
         - label: Braintree
           url: "/configuration/sales/braintree.html"
       - label: Other PayPal Methods
-        url: "/configuration/sales/payment-methods-other.html"
+        url: "/configuration/sales/paypal-methods-other.html"
         children:
         - label: PayPal All-In-One Payment Solutions
           children:
