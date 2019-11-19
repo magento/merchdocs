@@ -21,10 +21,7 @@ desc "Same as 'test:report'"
 task test: %w[test:report]
 
 desc 'Preview the devdocs locally'
-task preview: %w[install clean] do
-  puts 'Generating devdocs locally ... '.magenta
-  Rake::Task['preview:all'].invoke
-end
+task preview: %w[preview:all]
 
 task :clean do
   print 'Cleaning after the last site generation: $ '.magenta
@@ -33,14 +30,25 @@ task :clean do
 end
 
 task :install do
-  print 'Install gems listed in the Gemfile: $ '.magenta
+  print 'Installing gems listed in the Gemfile: $ '.magenta
   sh 'bundle install'
   puts 'Installed!'.green
 end
 
-task build: %w[build:all] do
-  print 'Building all editions of the User Guide: $ '.magenta
-end
+task build: %w[build:all]
 
 desc 'Check modified files. To check all files at the particular path, provide the path (e.g. path=src/images/images)'
 task check: %w[check:image_optim check:mdl]
+
+desc 'Generate index for Algolia'
+task :index do
+
+  puts "Generating index for Algolia: Open Source ...".magenta
+  sh "bin/jekyll algolia --config=_config.yml,_config.index.yml,_config.ce.yml"
+  
+  puts "Generating index for Algolia: Commerce ...".magenta
+  sh "bin/jekyll algolia --config=_config.yml,_config.index.yml,_config.ee.yml"
+  
+  puts "Generating index for Algolia: B2B ...".magenta
+  sh "bin/jekyll algolia --config=_config.yml,_config.index.yml,_config.b2b.yml"
+end

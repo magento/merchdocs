@@ -7,9 +7,8 @@
 # For more details about Jekyll hooks, refer to: https://jekyllrb.com/docs/plugins/hooks/
 #
 require 'html-proofer'
-
-require_relative '../lib/double-slash-check.rb'
-require_relative '../lib/link-checker.rb'
+require 'yaml'
+require_relative '../lib/double_slash_check.rb'
 
 Jekyll::Hooks.register :site, :post_write do |site|
   # Do nothing unless 'site.check_links' is set
@@ -17,13 +16,33 @@ Jekyll::Hooks.register :site, :post_write do |site|
 
   # Do not exit when html-proofer raises an error
   begin
+    # Check 'url_ignore' in '_config.checks.yml'
+    # and add 'excludes' from Jekyll configuration.
+    #
+    checks_config = YAML.load_file('_config.checks.yml')
+    url_ignore = checks_config.dig('html-proofer', :url_ignore)
+    jekyll_excludes = site.config['exclude']
+    jekyll_excludes_as_regex =
+      jekyll_excludes.map do |item|
+        Regexp.new Regexp.escape(item)
+      end
+
+    if url_ignore
+      url_ignore.push(jekyll_excludes_as_regex).flatten!.uniq!
+    else
+      checks_config['html-proofer'].merge!(url_ignore: jekyll_excludes_as_regex)
+    end
+
+    # Read configuration options for html-proofer
+    options = checks_config['html-proofer']
+
     # Run html-proofer to check the jekyll destination directory
-    LinkChecker.check_site
+    HTMLProofer.check_directory('_site', options).run
 
   # Show the message when html-proofer fails.
   # Expected that it fails when it finds broken links.
   rescue StandardError => e
     puts e
-    puts 'Fix the broken links before pushing the changes to a remote branch.'.blue
+    puts 'Fix the broken links before you push the changes to remote branch.'.blue
   end
 end

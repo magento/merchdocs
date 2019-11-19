@@ -124,13 +124,27 @@ If rake fails on your environment, generate the preview [using jekyll](#using-je
 > ***TIP***
 > Leave the serve terminal open and running. Every time you save changes to a file, it automatically regenerates the site so you can test the output immediately. Changing the `_config.yml` file requires a fresh build. Using the `--incremental` option limits re-builds to posts and pages that have changed.
 
-### To minimize build time locally:
+### Minimizing build time
 
-You can speed the local build time up by only building one of the three versions that the full `rake preview` command builds. These are:
+#### Building specific editions
+
+You can speed the local build time up by only building one of the three versions that the full `rake preview` command builds. Building individual versions also enables incremental builds when you save a changed document, thus updating your preview. Incremental builds are disabled when `rake preview` is used to build all versions. To build a specific version, use one of the following commands:
 
 - `rake preview:ce`: Preview the Open Source edition locally
 - `rake preview:b2b`: Preview the B2B edition locally
 - `rake preview:ee`: Preview the Commerce edition locally
+
+#### Customizing local config
+
+By creating your own `_config.local.yml` file, you can customize the [Jekyll config](https://jekyllrb.com/docs/configuration/options/) to suit your needs.
+
+##### Disable link checking
+
+By default, `check_links` is enabled. This option verifies every link in every project file, which can significantly increase build times when iterating many changes quickly. You can turn off link checking by adding the following line to your `_config.local.yml` file:
+
+```yaml
+check_links: false
+```
 
 ## Build in Windows
 
