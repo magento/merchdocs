@@ -199,7 +199,6 @@ Magento offers a choice of search engines, and supports both MySQL and several v
 |Search Recommendations Count|Store View|Specifies the number of  search terms offered as recommendations. By default, no more than five are shown.|
 |Show Results Count for Each Recommendation|Store View|When set to "Yes", the number of products found for the proposed search recommendation is shown in the brackets. Options: Yes / No|
 
-
 ### Elasticsearch
 
 Magento supports the following versions of Elasticsearch: 6.0+, 5.0+, and 2.0+ (deprecated).
