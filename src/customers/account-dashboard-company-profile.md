@@ -28,7 +28,7 @@ _Company Profile_
 |Company Name|The name of the company as used throughout the system to identify the company.|
 |Company Legal Name|The full legal name of the company.|
 |Company Email|The email address that is associated with the company account.|
-|VAT / TAX ID|The [value-added tax]({% link tax/vat.md %}) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options]{% link configuration/customers/customer-configuration.md %}.|
+|VAT / TAX ID|The [value-added tax]({% link tax/vat.md %}) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options]({% link configuration/customers/customer-configuration.md %}).|
 |Reseller ID|The resale number that is assigned to the company for tax reporting purposes.|
 |**Legal Address**||
 |Street Address|The street address where the company is registered to conduct business.|

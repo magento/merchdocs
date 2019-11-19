@@ -39,7 +39,7 @@ pages:
       - label: Increase Profitability
         url: "/quick-tour/increase-profitability.html"
       - label: Seize Market Opportunities
-        url: "/quick-tour/market-opportunities.html"    
+        url: "/quick-tour/market-opportunities.html"
   - label: " Quick Tour"
     url: "/getting-started/quick-tour.html"
     children:
@@ -296,16 +296,20 @@ pages:
       - label: Other PayPal Methods
         url: "/configuration/sales/paypal-methods-other.html"
         children:
-        - label: PayPal Payments Advanced
-          url: "/configuration/sales/paypal-payments-advanced.html"
-        - label: PayPal Payments Pro
-          url: "/configuration/sales/paypal-payments-pro.html"
-        - label: PayPal Payments Standard
-          url: "/configuration/sales/paypal-payments-standard.html"
-        - label: PayPal Payflow Pro
-          url: "/configuration/sales/paypal-payflow-pro.html"
-        - label: PayPal Payflow Link
-          url: "/configuration/sales/paypal-payflow-link.html"
+        - label: PayPal All-In-One Payment Solutions
+          children:
+          - label: PayPal Payments Advanced
+            url: "/configuration/sales/paypal-payments-advanced.html"
+          - label: PayPal Payments Pro
+            url: "/configuration/sales/paypal-payments-pro.html"
+          - label: PayPal Payments Standard
+            url: "/configuration/sales/paypal-payments-standard.html"
+        - label: PayPal Payment Gateways
+          children:
+          - label: PayPal Payflow Pro
+            url: "/configuration/sales/paypal-payflow-pro.html"
+          - label: PayPal Payflow Link
+            url: "/configuration/sales/paypal-payflow-link.html"
       - label: Other Payment Methods
         url: "/configuration/sales/payment-methods-other.html"
         children:

@@ -17,7 +17,7 @@ Showing prices that include and exclude tax can be confusing to the customer. To
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the panel on the left under _Sales_, choose **Taxes**.
+1. In the panel on the left under _Sales_, choose **Tax**.
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Price Display Settings** section. Then, do the following:
 
