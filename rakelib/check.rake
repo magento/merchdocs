@@ -26,7 +26,7 @@ namespace :check do
       path = modified_md_files.join(' ')
     end
 
-    report = `mdl --style=_checks/styles/style-rules-dev --ignore-front-matter -- #{path}`
+    report = `bin/mdl --style=_checks/styles/style-rules-dev --ignore-front-matter -- #{path}`
 
     if report.empty?
       puts 'No issues found'.green
