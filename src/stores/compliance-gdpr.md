@@ -3,7 +3,9 @@ title: GDPR Compliance
 group: getting-started
 ---
 
-The General Data Protection Regulation (GDPR) is legislation that regulates data protection and privacy for all individuals in the European Union and the European Economic Area. The legislation also applies to the export of personal data outside the EU. The GDPR was adopted in April 2016, and became enforceable on 25 May, 2018. Business that are not based in the EU, but engage in global commerce are required to comply with the regulation.
+The General Data Protection Regulation (GDPR) is legislation that regulates data protection and privacy for all individuals in the European Union and the European Economic Area. The legislation also applies to the export of personal data outside the EU. The GDPR was adopted in April 2016, and became enforceable on 25 May, 2018. Business that are not based in the EU, but engage in global commerce are required to comply with the regulation. The GDPA defines personal data as follows:
+
+**Personal Data**: Any information relating to an identified or identifiable natural person (‘data subject’); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.
 
 All organizations that process personal data must disclose the following:
 
