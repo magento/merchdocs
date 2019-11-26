@@ -37,7 +37,7 @@ This expanded definition of personal information combines aspects of PI and PII,
 - Education information
 - Any of the above used that can be used to profile an individual or household
 
-To protect consumers from the unauthorized use of their personal information, the CCPA requires qualified businesses to establish procedures to notify consumers as to what specific data is being collected, and if sold or shared, to whom and for how much. Businesses must give consumers the opportunity to opt-out of the sale of their personal information, and to request that it be deleted from your system. Businesses are required to document all procedures related to CCPA compliance, and for a specified period of time to keep a record of all requests received from consumers to opt out or delete data and the action taken.
+To protect consumers from the unauthorized use of their personal information, the CCPA requires qualified businesses to establish procedures to notify consumers as to what specific data is being collected, and if sold or shared, to whom it was sold and for what value in exchange. Businesses must give consumers the opportunity to opt-out of the sale of their personal information, and to request that it be deleted. Businesses are required to document all procedures related to CCPA compliance, and for a period of 24 months to keep a record of all requests received from consumers to opt out or delete data, and the action taken.
 
 ## Business Requirements
  
