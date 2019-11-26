@@ -151,7 +151,7 @@ pages:
       url: "/stores/compliance-gdpr.html"
     - label: CCPA Compliance
       url: "/stores/compliance-ccpa.html"
-     children:
+      children:
       - label: CCPA Compliance Guide for Merchants
         url: "/stores/compliance-ccpa-guide-merchants.html"
     - label: Privacy Policy
