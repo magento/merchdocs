@@ -41,7 +41,7 @@ To protect consumers from the unauthorized use of their personal information, th
 
 ## Business Requirements
  
-The CCPA applies to businesses &#mdash; regardless of where the business is registered &#mdash; that sell products and/or services to consumers who reside in the State of California, and that collect personal information. The CCPA defines a business as:
+The CCPA applies to businesses &mdash; regardless of where the business is registered &mdash; that sell products and/or services to consumers who reside in the State of California, and that collect personal information. The CCPA defines a business as:
 
 (1) A sole proprietorship, partnership, limited liability company, corporation, association, or other legal entity that is organized or operated for the profit or financial benefit of its shareholders or other owners, that collects consumers’ personal information, or on the behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers’ personal information, that does business in the State of California, and that satisfies one or more of the following thresholds*:
 
@@ -53,7 +53,7 @@ The CCPA applies to businesses &#mdash; regardless of where the business is regi
 
 (2) Any entity that controls or is controlled by a business, as defined in paragraph (1), and that shares common branding with the business. “Control” or “controlled” means ownership of, or the power to vote, more than 50 percent of the outstanding shares of any class of voting security of a business; control in any manner over the election of a majority of the directors, or of individuals exercising similar functions; or the power to exercise a controlling influence over the management of a company. “Common branding” means a shared name, servicemark, or trademark.
 
-**If your business meets any of these requirements, follow the steps outlined in the next topic, [CCPA Compliance Guide for Magento Merchants]({% link stores/compliance-ccpa-guide-merchants.md -%}).**
+**If your business meets any of these requirements, follow the steps outlined in the next topic, [CCPA Compliance Guide]({% link stores/compliance-ccpa-guide.md -%}).**
 
 If your business does not meet these requirements, we recommend that you consider this consumer protection measure as a best practice.
 
