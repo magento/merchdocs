@@ -3,9 +3,9 @@ title: CCPA Compliance Guide for Magento Merchants
 group: getting-started
 ---
 
-This topic provides a high-level outline of the steps required for Magento merchants to comply with the [California Consumer Protection Act]({% link stores/compliance-ccpa.md -%}) (CCPA). 
+This topic provides a high-level outline of the steps required for Magento merchants to comply with the [California Consumer Protection Act]({% link stores/compliance-ccpa.md -%}) (CCPA). Because the CCPA is scheduled to take effect January 1, 2020, we recommend that you begin your compliance initiative as soon as possible.
 
-If your business is required to comply with both the [General Data Protection Regulation]({% link stores/compliance-gdpr.md -%}) (GDPR) and the CCPA, you can leverage some of the work you completed for your GDPA initiative, and modify it for the CCPA. Although the regulations have some similarities, a few differences include:
+If your business is required to comply with both the [General Data Protection Regulation]({% link stores/compliance-gdpr.md -%}) (GDPR) and the CCPA, you can leverage some of the work you completed for your GDPR initiative, and modify it for the CCPA. Although the regulations have some similarities, a few differences include:
 
 - The definition of personal information differs for each regulation.
 - The CCPA has additional data inventory and mapping requirements.
@@ -13,13 +13,11 @@ If your business is required to comply with both the [General Data Protection Re
 
 Businesses that comply with GDPR might have additional obligations under the CCPA.  To learn more, see the [CCPA Fact Sheet][4].
 
-The CCPA is scheduled to take effect January 1, 2020. We recommend that you begin your compliance initiative as soon as possible, and follow these steps: 
-
 ## Step 1: Assemble a cross-functional team to address CCPA compliance.
 
-(Functional areas: Business Strategy & Operations, Administrative Support)
+Stakeholders: Business Strategy & Operations, Legal, Administrative Support
 
-A coordinated effort is required to develop and implement a plan to address CCPA compliance. Assemble a team that represents the following functional areas of your business, and schedule a training session to bring them up to speed on the pending CCPA legislation.  Then, assign the required tasks to team members by functional area.
+A coordinated effort is required to develop and implement a plan to address CCPA compliance. Assemble a team that represents the following functional roles in your business, and schedule a training session to bring them up to speed on the pending CCPA legislation.  Then, assign required tasks to team members according to their role. 
 
 - Business Strategy & Operations
 - Legal
@@ -28,13 +26,11 @@ A coordinated effort is required to develop and implement a plan to address CCPA
 - Customer Service
 - Administrative Support
 
-From a business perspective, you must determine if you will extend these consumer protection measures only to customers in California, or make them available to all customers regardless of location.
-
-Businesses that collect, buy, or sell personal information of more than 4 million consumers have additional record-keeping and training requirements than described in this guide. 
+From a business perspective, you must determine if the company will extend these consumer protection measures only to customers in California, or make them available to all customers regardless of location.
   
 ## Step 2: Take inventory of your digital properties. 
 
-(Functional areas: Information Technology, Administrative Support)
+Stakeholders: Information Technology, Administrative Support
    
 Take inventory of your digital properties, including all integrations and those who have access to your customer data.
 
@@ -51,15 +47,15 @@ Take inventory of your digital properties, including all integrations and those 
 
       **Other Third Parties**: Those with whom you share or sell customer data.  For example, you might share customer data with an advertising network in exchange for advertising.
 
-## Step 3: Map the customer journey in your store.
+## Step 3: Map the customer journey in your store(s).
 
-(Functional areas: User Experience, Information Technology, Administrative Support)
+Stakeholders: User Experience, Information Technology, Administrative Support
 
 Identify each point in the [customer journey]({% link getting-started/quick-tour.md -%}) where personal information is collected, and the type of information that is collected at each step.
 
 Visitors to your site must be notified in advance, or at the point of data collection. For example, a Magento store without custom integrations collects personal information when a customer account is created, and during checkout. If your store has custom integrations, there might be additional data items and attributes to identify. 
 
-For data flow diagrams and technical information about database entities, see the following topics according to your version of Magento. Although these topics were written to help Magento merchants in the EU comply with the GDPR, they can be easily applied to CCPA compliance.
+For data flow diagrams and technical information about database entities, see the following topics according to your version of Magento. Although these topics were written to help Magento merchants in the EU comply with the GDPR, they can be adapted for CCPA compliance.
 
 - [General Data Protection Regulation][2] (Magento 2.x)
 - [General Data Protection Regulation][3] (Magento 1.x)
@@ -69,19 +65,19 @@ _Storefront Data Entry Points_
 
 ## Step 4: Review your agreements with service providers.
 
-(Functional areas: Legal, Administrative Support)
+Stakeholders: Legal, Administrative Support
    
 Review and update all service provider contracts to reflect CCPA requirements.
 
 ## Step 5: Update your privacy policy.
 
-(Functional areas: Legal, Administrative Support)
+Stakeholders: Legal, Administrative Support
 
 Review your current privacy policy and consider what, if any, additional disclosures are necessary. Your privacy policy should describe your online and offline business practices regarding the collection, use, disclosure, and sale of personal information and the rights of consumers to determine how their information is used. To learn more, see the [California Online Privacy Protection Policy][1] (CalOPPA)  
 
 **Use of Personal Information**: You must disclose what personal information is collected, as well as any financial incentives you receive in exchange from the sale of personal information. You must explain how the incentive is allowed under CCPA, and how the value of the personal information is calculated.
    
-**Age of Consent**: Businesses that exclusively target consumers under 16 years of age and do not sell their personal information without permission are not required to provide an opt-out notice.  Others must follow these guidelines: 
+**Age of Consent**: Businesses that exclusively target consumers under 16 years of age and do not sell their personal information without permission are not required to provide an opt-out notice. Others must follow these guidelines: 
 
   - **Minors < 13**: Parental authorization is required for minors under the age of 13 to opt-in to the sale of their personal information.
 
@@ -89,7 +85,7 @@ Review your current privacy policy and consider what, if any, additional disclos
 
 ## Step 6: Write the content for the required CCPA customer notifications.
 
-(Functional areas: Legal, Customer Service, User Experience, Administrative Support)
+Stakeholders: Legal, Customer Service, User Experience, Administrative Support
 
   **Notice of Collection**: A notice given at or before the time personal information is collected from your customer. The notice should be written in plain language, and be easy for the average customer to understand. The notice should draw the attention of the customer, and be available in multiple languages, if applicable.
 
@@ -106,9 +102,9 @@ Review your current privacy policy and consider what, if any, additional disclos
   - Categories of third parties to whom the personal information was sold or disclosed for a business purpose
   - The reasons why your business collects and/or sells personal information.
 
-## Step 7: Establish procedures and mechanisms to respond to customer requests to know, opt-out, and delete.
+## Step 7: Establish procedures and mechanisms to respond to customer requests.
 
-**Functional areas:**  Customer Service, Information Technology, User Experience, Administrative Support
+Stakeholders: Customer Service, Information Technology, User Experience, Administrative Support
 
 1.  Verify the identity of people who request to know, opt-out, or delete, regardless of whether they have a password-protected customer account, or are visiting your store as a guest.
 
@@ -125,9 +121,9 @@ Review your current privacy policy and consider what, if any, additional disclos
     - Adobe Commerce Cloud includes a tool to fulfill requests from customers to delete their personal information. 
     - Merchants running installations of Magento on premises must implement their own process to delete personal information upon request.
 
-## Step 8: Document all CCPA-related procedures and maintain records. (Administrative Support, Customer Service)
+## Step 8: Document all CCPA-related procedures and maintain records.
 
-(Functional areas: Customer Service, Administrative Support)
+Stakeholders: Customer Service, Administrative Support
 
 For a period of 24 months, maintain a record of all requests received from your customers and your company's response. 
 
