@@ -7,15 +7,15 @@ To reduce the performance impact of generating sales reports, Magento calculates
 ![]({% link images/images/reports-refresh-statistics.png %}){: .zoom}
 *Refresh Statistics*
 
-## To refresh report statistics:
+## Refresh report statistics
 
-1. On the Admin sidebar, click **Reports**. Then under Statistics, choose **Refresh Statistics**.
+1. On the _Admin_ sidebar, go to **Reports** > _Statistics_ > **Refresh Statistics**.
 
 1. In the list, select the checkbox for each report to be refreshed.
 
 1. Set the **Actions** control to one of the following:
 
-    * Refresh Lifetime Statistics
-    * Refresh Statistics for the Last Day
+   - `Refresh Lifetime Statistics`
+   - `Refresh Statistics for the Last Day`
 
-1. When complete, click <span class="btn"> Submit </span>.
+1. Click <span class="btn">Submit</span>.
