@@ -21,7 +21,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Frequency|Store View|Determines how often sitemap CMS pages are updated. Options: Always / Hourly / Daily / Weekly / Monthly / Yearly / Never|
+|Frequency|Store View|Determines how often sitemap products are updated. Options: Always / Hourly / Daily / Weekly / Monthly / Yearly / Never|
 |Priority|Store View|A value between 0.0 and 1.0 that determines the priority of product sitemap updates in relation to other content. Zero has the lowest priority.|
 
 ## CMS Pages Options

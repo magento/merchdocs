@@ -4,6 +4,9 @@ title: Google reCAPTCHA
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Security]({% link configuration/security.md %}) > Google reCAPTCHA
 
+{:.bs-callout .bs-callout-warning}
+Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini` file includes the following setting: `allow_url_fopen = 1`. This may require developer assistance. See [Required PHP Settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html){: target="_blank"}.
+
 ## General
 
 ![]({% link images/images/config-google-recaptcha-general.png %}){: .zoom}
