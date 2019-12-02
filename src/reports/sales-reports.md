@@ -23,7 +23,7 @@ The Tax Report can be filtered by time interval, date, and status. The report in
 ![]({% link images/images/reports-sales-invoiced.png %}){: .zoom}
 *Invoice Report*
 
-The Invoice Report can be filtered by time interval, date, and status. The report includes the number of orderss and invoices during the time period, with amounts invoiced, paid, and unpaid.
+The Invoice Report can be filtered by time interval, date, and status. The report includes the number of orders and invoices during the time period, with amounts invoiced, paid, and unpaid.
 
 ## Shipping
 
@@ -51,4 +51,4 @@ The [Coupons Report]({% link marketing/price-rules-cart-coupon-report.md %}) can
 ![]({% link images/images/reports-sales-paypal-settlement.png %}){: .zoom}
 *PayPal Settlement Report*
 
-The [PayPal Settlement Report]]({% link payment/paypal-settlement-reports.md %}) can be filtered by date, merchant account, transaction ID, invoice ID, or PayPal reference ID. The report includes the type of event, such as a debit card transaction, the start and finish dates, gross amount, and related fees. The report can be automatically updated with the most current data from PayPal.
+The [PayPal Settlement Report]({% link payment/paypal-settlement-reports.md %}) can be filtered by date, merchant account, transaction ID, invoice ID, or PayPal reference ID. The report includes the type of event, such as a debit card transaction, the start and finish dates, gross amount, and related fees. The report can be automatically updated with the most current data from PayPal.
