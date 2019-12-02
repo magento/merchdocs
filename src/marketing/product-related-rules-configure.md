@@ -67,7 +67,6 @@ The behavior and display of product relationship rules is determined by the conf
 ## Rotation Modes Description
 
 {: .rotation-modes-table }
-
 | Mode | Description |
 |---|---|
 | By Priority, Then by ID | Products are sorted by priority and then reordered by ID inside each priority. Products from lower priority rule will show up only when they are no products left from higher priority rule to fill the available slots. |
