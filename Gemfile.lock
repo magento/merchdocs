@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/magento-devdocs/devdocs-theme.git
-  revision: 5b592d07ff7f061c53a230c63e38a18f0f9cdd3e
+  revision: 42b6ebb8748ae5a3dc836d6891063dbebf31cbfe
   specs:
-    devdocs (6)
+    devdocs (7)
       jekyll (>= 4.0)
 
 GEM
@@ -94,8 +94,16 @@ GEM
     listen (3.2.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    mdl (0.8.0)
+      kramdown (~> 2.0)
+      kramdown-parser-gfm (~> 1.0)
+      mixlib-cli (~> 2.1, >= 2.1.1)
+      mixlib-config (>= 2.2.1, < 4)
     mercenary (0.3.6)
     mini_portile2 (2.4.0)
+    mixlib-cli (2.1.1)
+    mixlib-config (3.0.5)
+      tomlrb
     nokogiri (1.10.5)
       mini_portile2 (~> 2.4.0)
     parallel (1.18.0)
@@ -114,6 +122,7 @@ GEM
       ffi (~> 1.9)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
+    tomlrb (1.2.8)
     typhoeus (1.3.1)
       ethon (>= 0.9.0)
     unicode-display_width (1.6.0)
@@ -133,6 +142,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-sitemap
   launchy
+  mdl
 
 BUNDLED WITH
    1.17.3

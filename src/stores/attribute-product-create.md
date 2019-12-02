@@ -101,11 +101,9 @@ _New Attribute Properties_
 
    This setting makes the WYSIWYG editor available for the field.
 
-1. To include the attribute in catalog page listings, set **Visible on Catalog Pages on Storefront** to `Yes`.
+1. To include the attribute on the product page, set **Visible on Catalog Pages on Storefront** to `Yes`.
 
 1. Complete the following settings if supported by your theme:
-
-   - To include the attribute on the product detail page, set **Visible on Catalog Pages on Storefront** to `Yes`.
 
    - To include the attribute in product listings, set **Used in Product Listing** to `Yes`.
 
