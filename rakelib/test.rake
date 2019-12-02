@@ -50,7 +50,7 @@ namespace :test do
   task :md do
     puts 'Testing Markdown style with mdl ...'.magenta
     output =
-      `mdl \
+      `bin/mdl \
       --style=_checks/styles/style-rules-prod \
       --ignore-front-matter \
       --git-recurse \

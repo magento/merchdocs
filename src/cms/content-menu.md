@@ -35,7 +35,7 @@ Create [blocks]({% link cms/blocks.md %}) of content without writing any code. B
 
 Create [banners]({% link cms/banners.md %}) that are triggered by promotions and that appear only to customers in specific, targeted [segments]({% link marketing/customer-segment-banner.md %}).
 
-Dynamic Blocks
+## Dynamic Blocks
 
 Create rich, [interactive content]({% link cms/dynamic-blocks.md %}) that is driven by logic from [price rules]({% link marketing/promotions.md %}) and [customer segments]({% link marketing/customer-segments.md %}).
 
