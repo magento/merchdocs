@@ -77,10 +77,6 @@ Search suggestions and recommendations can impact server performance.
 
    * To show the number of results found for each recommendation, set **Show Results Count for Each Recommendation** to “Yes”.
 
-## Step 4: Configure Minimum Terms to Match
-
-To control the minimum number of terms from your query that the search results should match in order to be returned, specify a value in the **Minimum Terms to Match** field. This ensures optimal results relevancy for shoppers. Refer to the [Elasticsearch section of Catalog]]({% link catalog.md %}#elasticsearch) for a list of accepted values for this field.
-
 1. When complete, tap <span class="btn">Save Config</span>.
 
 [1]: http://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html
