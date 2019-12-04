@@ -25,19 +25,19 @@ _Scheduled Changes_
 
     - In the **Update Name** field, enter a name for the update to the rule.
 
-    - Enter a brief **Description** of the update and how or why it will be applied.
+    - Enter a brief **Description** of the update, including how or why it is applied.
 
     - Use the Calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}) to choose the **Start Date** and **End Date** for the scheduled change to be in effect. To create an open-ended change, leave the End Date blank.
 
     {:.bs-callout .bs-callout-info}
-    An end date cannot later be added to a price rule that was originally created without an end date. In such a case it is necessary to create a duplicate rule that includes the end date that is needed
+    You cannot add an end date cannot later to a price rule that was originally created without one. In such a case, it is necessary to create a duplicate rule that includes the end date that is needed.
 
     ![Catalog price rules - new scheduled changes]({% link images/images-ee/price-rule-catalog-schedule-update.png %}){: .zoom}
     _Add Scheduled Changes_
 
 1. Scroll down to the **Rule Information** section and make the changes for the rule.
 
-   You can schedule a change for any of the rule parameters, including the websites(scope)/customer groups for the rule, conditions of the rule, and actions applied by the rule. Fore more information, see [Creating a Catalog Price Rule]({% link marketing/price-rules-catalog-create.md %}).
+   You can schedule a change for any of the rule parameters, including the websites (scope)/customer groups for the rule, conditions of the rule, and actions applied by the rule. Fore more information, see [Creating a Catalog Price Rule]({% link marketing/price-rules-catalog-create.md %}).
 
     {:.bs-callout .bs-callout-info}
     If you make a change to any of the rule information parameters, make sure that the **Status** is set as `Active` if you want the change to result in an actively applied rule.
@@ -80,7 +80,7 @@ _Scheduled Changes_
 
     **Share a Link to the Preview**
 
-    To share a link to the store preview with your colleagues, click <span class="btn">Share</span>. Copy the link to the clipboard and then paste the link into the body of an email message.
+    To share a link to the store preview with your colleagues, click <span class="btn">Share</span>. Copy the link to the clipboard and paste it into the body of an email message.
 
     **Change the Scope of the Preview**
 

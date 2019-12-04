@@ -38,12 +38,12 @@ Follow these instructions to apply a discount to specific products whenever a se
      To choose multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
      {: .bs-callout .bs-callout-info}
-     The options in this list is dependent on the customer groups created and managed in Customers > Customer Groups.
+     The options in this list is dependent on the customer groups created and managed in _Customers_ > _Customer Groups_.
 
    <!--{% if "Default.CE Only" contains site.edition %}-->
    - Enter the **From** and **To** dates to determine when the price rule is in effect.
   
-      You can either enter the dates, or choose the dates from the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})). If you leave the dates blank, the rule is enabled as soon as the price rule is saved.
+      You can enter the dates or use the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the dates. If you leave the dates blank, the rule is enabled as soon as the price rule is saved.
    <!--{% endif %}-->
 
    - Enter a number to establish the **Priority** of this rule in relation to other rules.
@@ -199,7 +199,7 @@ Price rules are automatically processed with other system rules each night. When
 
 1. Test the rule to make sure that it works correctly.
 
-  Price rules are automatically processed with other system rules each night. When you create a new price rule, allow enough time for it to get into the system. Then, test the rule to make sure that it works correctly. As new rules are added, Magento recalculates the prices and the priorities accordingly.
+    Price rules are automatically processed with other system rules each night. When you create a new price rule, allow enough time for it to get into the system. Then, test the rule to make sure that it works correctly. As new rules are added, Magento recalculates the prices and the priorities accordingly.
 <!--{% endif %}-->
 
 ## Field Descriptions
