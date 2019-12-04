@@ -23,6 +23,10 @@ Follow the instructions provided by each carrier to add shipping label support t
 
 Make sure that your [Store Information]({% link stores/store-information.md %}) is complete.
 
+Also fill all the fields in **Origin** group in the below configuration to configure Shipping Origin Address.
+
+Go to **Stores -> Settings -> Configuration -> Sales -> Shipping Settings -> Origin**
+
 Follow the instructions below for each carrier account that has been activated for label printing.
 
 ## UPS Configuration
