@@ -6,20 +6,18 @@ For the security of your business, user accounts are locked by default after six
 
 Additional password security measures can be implemented in the [Advanced Admin]({% link configuration/advanced/admin.md %}) configuration. See [Admin Security]({% link stores/security-admin.md %}).
 
-![]({% link images/images/admin-login-locked-out-message.png %}){: .zoom}
+![Login screen alert - account is temporarily disabled]({% link images/images/admin-login-locked-out-message.png %}){: .zoom}
 _Admin Account Disabled_
 
-#### To unlock an admin account:
+### Unlock an Admin account
 
-1.  On the _Admin_ sidebar, tap **System**.
+1. On the _Admin_ sidebar, go to **System** > _Permissions_ > **Locked Users**.
 
-1.  Under Permissions, choose **Locked Users**.
+1. In the grid, select the checkbox of the locked account.
 
-1.  In the grid, mark the checkbox of the locked account.
-
-    ![]({% link images/images/permissions-locked-users-grid.png %}){: .zoom}
+    ![Permissions - locked user accounts]({% link images/images/permissions-locked-users-grid.png %}){: .zoom}
     _Locked Users_
 
-1.  In the upper-left corner, set the **Actions** control to `Unlock`.
+1. In the upper-left corner, set the **Actions** control to `Unlock`.
 
-1.  Click **Submit** to unlock the account.
+1. Click **Submit** to unlock the account.
