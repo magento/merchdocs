@@ -21,17 +21,19 @@ Follow the instructions provided by each carrier to add shipping label support t
 
 ## Step 2 Update the Configuration for Each Carrier
 
-Make sure that your [Store Information]({% link stores/store-information.md %}) is complete.
+1. Make sure that your [Store Information]({% link stores/store-information.md %}) is complete.
 
-Follow the instructions below for each carrier account that has been activated for label printing.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**. 
 
-## UPS Configuration
+1. In the left panel, expand **Sales** and select **Shipping Settings**. 
+
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Origin** section and configure the **Shipping Origin Address**.
+
+1. Follow the instructions below for each carrier account that is activated for label printing.
+
+### UPS Configuration
 
 United Parcel Service ships both domestically and internationally. However, shipping labels can be generated only for shipments that originate within the United States.
-
-1. On the _Admin_ sidebar, click **Stores**.
-
-1. In the _Settings_ section, choose **Configuration**.
 
 1. In the _Sales_ section in the left panel, choose **Shipping Methods**.
 
@@ -43,7 +45,7 @@ United Parcel Service ships both domestically and internationally. However, ship
 
 1. Click **Save Config**.
 
-## USPS Configuration
+### USPS Configuration
 
 The United States Postal Service ships both domestically and internationally.
 
@@ -62,7 +64,7 @@ The United States Postal Service ships both domestically and internationally.
 
 1. Click **Save Config**.
 
-## FedEx Configuration
+### FedEx Configuration
 
 FedEx ships domestically and internationally. Stores located outside the United States can create FedEx labels for international shipments only.
 
@@ -76,7 +78,7 @@ FedEx ships domestically and internationally. Stores located outside the United 
 
 1. Click **Save Config**.
 
-## DHL Configuration
+### DHL Configuration
 
 DHL provides international shipping services.
 
