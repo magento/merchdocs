@@ -36,7 +36,7 @@ _Scope of Base Currency_
 
 1. Define the scope of the base currency:
 
-   - In the left panel under _Catalog_, choose **Catalog**. Then, scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Price** section.
+   - In the left panel under _Catalog_, choose **Catalog**. Then, scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Price** section. (This section only appears if the scope is set as **Store View:** _Default config_.)
 
    - Set **Catalog Price Scope** to either `Global` or `Website`.
 
