@@ -50,7 +50,9 @@ _Category Tree_
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Content** section.
 
-1. To display a **Category Image** at the top of the page, click <span class="btn">Upload</span>. Then, choose the image that you want to represent the category.
+1. To display a **Category Image** at the top of the page, you can either upload your own image or use an image that already exists in your [Media Storage]({% link cms/media-storage.md %}).
+    - To upload your own image, click <span class="btn">Upload</span>. Then, choose the image that you want to represent the category.
+    - To use images from your [Media Storage]({% link cms/media-storage.md%}), click <span class="btn">Select from Gallery</span>. Then, select the image you want to represent the category. You may also leverage the [Adobe Stock Integration]({% link cms/adobe-stock.md %}) to find an appropriate image by clicking the <span class="btn">Search Adobe Stock</span> button.
 
 1. In the **Description** box, enter the text that you want to appear on the category landing page. Then, format the text as needed.
 
@@ -108,7 +110,7 @@ _Category Tree_
     - Meta Keywords
     - Meta Description
 
-    ![]({% link images/images/catalog-categories-search-engine-optimization.png %}){: .zoom}  
+    ![]({% link images/images/catalog-categories-search-engine-optimization.png %}){: .zoom}
     [_Search Engine Optimization_]({% link catalog/categories-search-engine-optimization.md %})
 
 1. Click <span class="btn">Save</span> and continue.
