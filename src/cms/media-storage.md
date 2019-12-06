@@ -15,7 +15,7 @@ The first two steps are the same as if you are inserting an image.
 
 1. On the toolbar of the WYSIWYG [editor]({% link cms/editor.md %}), click **Insert Image** (![]({% link images/images/editor-toolbar/btn-insert-edit-image.png %}){: .Inline}).
 
-1. After the **Image URL** field, click **Browse** (![]({% link images/images/btn-browse.png %}){: .Inline_larger}).
+1. After the **Source** field, click **Browse** (![]({% link images/images/btn-browse.png %}){: .Inline_larger}).
 
 1. In the directory tree on the left, do one of the following:
 
@@ -23,17 +23,25 @@ The first two steps are the same as if you are inserting an image.
 
    - Navigate to the place where you want to create a new folder and click <span class="btn">Create Folder</span>. Then, enter the folder name and click <span class="btn">OK</span>.
 
-1. To upload file(s) to media storage, click <span class="btn">Choose Files</span>. Then, do the following:
+1. To upload file(s) to media storage, you can either upload file(s) from your computer or use the [Adobe Stock Integration]({% link cms/adobe-stock.md %}):
 
-   - In the directory of your local computer, navigate to the location of the images.
+   - To upload file(s) from your computer, click <span class="btn">Choose Files</span>. Then, do the following:
 
-   - Select each image to be uploaded.
+       - In the directory of your local computer, navigate to the location of the images.
 
-   - Click <span class="btn">Open</span>.
+       - Select each image to be uploaded.
+
+       - Click <span class="btn">Open</span>.
+
+   - To use assets from Adobe Stock using the [Integration]({% link cms/adobe-stock.md %}):
+
+       - Click <span class="btn">Search Adobe Stock</span>.
+
+       - Follow our [Adobe Stock Integration usage instructions]({% link cms/adobe-stock-manage.md %}).
 
 The images are uploaded to the current media storage folder on the server.
 
-![]({% link images/images/media-storage-insert-file.png %}){: .zoom}
+![]({% link images/images/media-storage.png %}){: .zoom}
 _Media Storage_
 
 ## To insert an image from media storage
@@ -44,7 +52,7 @@ Open the page or block to be edited. Then, use one of the following methods to i
 
 1. On the toolbar of the WYSIWYG [editor]({% link cms/editor.md %}), click **Insert Image** (![]({% link images/images/editor-toolbar/btn-insert-edit-image.png %}){: .Inline}).
 
-1. After the **Image URL** field, click **Browse** (![]({% link images/images/btn-browse.png %}){: .Inline_larger}).
+1. After the **Source** field, click **Browse** (![]({% link images/images/btn-browse.png %}){: .Inline_larger}).
 
     ![]({% link images/images/insert-edit-image-dialog.png %}){: .zoom}
     _Insert Image (WYSIWYG Mode)_
