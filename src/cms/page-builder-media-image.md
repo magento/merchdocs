@@ -24,13 +24,15 @@ _Image In Column_
 
     **Upload New Image**
 
-    - Click <span class="btn">Upload New Image</span>.
+    - Click <span class="btn">Upload Image</span>.
 
     - Navigate to the image in your local file system. Then, choose the image to add it to the gallery and target container.
 
     **Select from Gallery**
 
     - Click <span class="btn">Select from Gallery</span>.
+
+    - Optionally, you can use the [Adobe Stock Integration]({% link cms/adobe-stock.md %}) to find and save an appropriate asset from among the millions provided by [Adobe Stock](https://stock.adobe.com). Check out the [full Adobe Stock Integration usage instructions]({% link cms/adobe-stock-manage.md %}) for details on how to search, refine and save Adobe Stock assets into your Gallery. Once you save an Adobe Stock asset, you will be returned to the gallery.
 
     - In the gallery, navigate to the image and click the thumbnail. Then, click <span class="btn">Add Selected</span>.
 
