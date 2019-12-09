@@ -8,7 +8,7 @@ During the initial installation, you are prompted to either let Magento generate
 
 For technical information, see [Install the Magento][1]{: target="_blank"} software in the developer documentation.
 
-![]({% link images/images/system-encryption-key.png %}){: .zoom}
+![System encryption key]({% link images/images/system-encryption-key.png %}){: .zoom}
 _Encryption Key_
 
 ## Step 1: Make the File Writable
@@ -17,17 +17,17 @@ To change the encryption key, make sure that the following file is writable: `[y
 
 ## Step 2: Change the Encryption Key
 
-1.  On the _Admin_ sidebar, click **System**.
+1. On the _Admin_ sidebar, go to **System** > _Other Settings_ > **Manage Encryption Key**.
 
-1.  Under _Other Settings_, choose **Manage Encryption Key**.
+1. Do one of the following:
 
-1.  Do one of the following:
+    - To generate a new key, set **Auto-generate Key** to `Yes`.
+    - To use a different key, set **Auto-generate Key** to `No`. Then in the **New Key** field, enter or paste the key that you want to use.
 
-    * To generate a new key, set **Auto-generate Key** to `Yes`.
-    * To use a different key, set **Auto-generate Key** to `No`. Then in the **New Key** field, enter or paste the key that you want to use.
+1. Click **Change Encryption Key**.
 
-1.  Click **Change Encryption Key**.
+1. Keep a record of the new key in a secure location.
 
-1.  Keep a record of the new key in a safe place. It will be required to decrypt the data, if any problems occur with your files.
+   It will be required to decrypt the data, if any problems occur with your files.
 
 [1]: http://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-install.html
