@@ -27,24 +27,24 @@ _Scheduled Changes_
 
     - Enter a brief **Description** of the update, including how or why it is applied.
 
-    - Use the Calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}) to choose the **Start Date** and **End Date** for the scheduled change to be in effect. To create an open-ended change, leave the End Date blank.
+    - Use the Calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}) to choose the **Start Date** and **End Date** for the scheduled change to be in effect. To create an open-ended change, leave the end date blank.
 
-    {:.bs-callout .bs-callout-info}
-    You cannot add an end date cannot later to a price rule that was originally created without one. In such a case, it is necessary to create a duplicate rule that includes the end date that is needed.
+    {:.bs-callout-info}
+    You cannot add an end date to a price rule that was originally created without one. In such a case, it is necessary to create a duplicate rule that includes the end date that is needed.
 
     ![Catalog price rules - new scheduled changes]({% link images/images-ee/price-rule-catalog-schedule-update.png %}){: .zoom}
     _Add Scheduled Changes_
 
 1. Scroll down to the **Rule Information** section and make the changes for the rule.
 
-   You can schedule a change for any of the rule parameters, including the websites (scope)/customer groups for the rule, conditions of the rule, and actions applied by the rule. Fore more information, see [Creating a Catalog Price Rule]({% link marketing/price-rules-catalog-create.md %}).
+   You can schedule changes for any rule parameter, including the websites (scope)/customer groups for the rule, conditions of the rule, and actions applied by the rule. For more information, see [Creating a Catalog Price Rule]({% link marketing/price-rules-catalog-create.md %}).
 
-    {:.bs-callout .bs-callout-info}
-    If you make a change to any of the rule information parameters, make sure that the **Status** is set as `Active` if you want the change to result in an actively applied rule.
+    {:.bs-callout-info}
+    If you make a change to any of the rule information parameters, make sure that the **Status** is set correctly. If you want the change to result in an actively applied rule, the status should be`Active`.
 
 1. When complete, click <span class="btn">Save</span>.
 
-    The scheduled change appears at the top of the product page, with the start and end dates of the campaign.
+    The scheduled change appears at the top of the page, with the start and end dates of the campaign.
 
 ## Edit a scheduled rule change
 
