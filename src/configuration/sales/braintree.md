@@ -18,7 +18,7 @@ _Basic Braintree Settings_
 |Title|Store View|Default value: Credit Card (Braintree)|
 |Environment|Store View|Options: Sandbox / Production|
 |Payment Action|Website|Determines the action taken by Braintree when a payment is processed. Options: <br/>**Authorize** - Funds on the customer’s card are authorized, but not transferred from the customer’s account. An order is created in your store Admin. You can later capture the sale and create an invoice. <br/>**Authorize and Capture** - Funds on the customer’s card are authorized and captured by Braintree, and an order and invoice are created in your store Admin.|
-|Merchant ID|Website|Merchant ID is the unique identifier for your entire gateway account, including the multiple merchant accounts that may be in your gateway. Often referred to as the public ID or production ID, your merchant ID will be different for your production and sandbox gateways.|
+|Merchant ID|Website|This is the unique identifier for your entire gateway account, including the multiple merchant accounts that may be in your gateway. As known as the _public ID_ or _production ID_, your merchant ID will be different for your production and sandbox gateways.|
 |Public Key|Website|This is your user-specific public identifier that restricts access to encrypted data. Each user associated with your Braintree gateway will have their own public key.|
 |Private Key|Website|This is your user-specific private identifier that restricts access to encrypted data. Each user associated with your Braintree gateway will have their own private key.|
 |Enable this Solution|Website|Determines if Braintree is available to your customers as a payment method. Options: Yes / No|
