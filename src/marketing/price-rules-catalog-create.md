@@ -86,7 +86,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
         If **ALL** of these conditions are **TRUE**: <br/>Attribute Set **is** …
 
-   - Click **is** and choose the comparison operator that describes the condition to be met. These options may include an option for different comparisons, such as matching values, not including or including at least one of a value, and great than, equal to, and less than a numerical amount. In this example, the options are `is` and `is not`.
+   - Click **is** and choose the comparison operator that describes the condition to be met. These options may include an option for different comparisons, such as matching values, not including or including at least one of a value, and greater than, equal to, and less than a numerical amount. In this example, the options are `is` and `is not`.
 
    - Select or enter values for the condition. Depending on the condition, you may select products from a grid or list, enter a numerical value, and so on. For this example, click the (**...**) more link and choose the attribute set upon which the condition is based.
 
