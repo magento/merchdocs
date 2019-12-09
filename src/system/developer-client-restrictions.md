@@ -20,7 +20,7 @@ For technical information, see [Custom whitelist VCL][1]{: target="_blank"} in t
     ![Advanced configuration - developer client restrictions]({% link images/images/config-advanced-developer-developer-client-restrictions.png %}){: .zoom}
     [_Developer Client Restrictions_]({% link configuration/advanced/developer.md %})
 
-1. In the **Allow IPs** field, enter your IP address.
+1. For **Allow IPs**, enter your IP address.
 
    If access is needed from multiple IP addresses, separate each with a comma.
 

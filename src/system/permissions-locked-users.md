@@ -18,6 +18,6 @@ _Admin Account Disabled_
     ![Permissions - locked user accounts]({% link images/images/permissions-locked-users-grid.png %}){: .zoom}
     _Locked Users_
 
-1. In the upper-left corner, set the **Actions** control to `Unlock`.
+1. In the upper-left corner, set **Actions** to `Unlock`.
 
 1. Click **Submit** to unlock the account.
