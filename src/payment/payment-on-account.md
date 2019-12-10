@@ -33,7 +33,7 @@ Payment on Account is an offline payment method that allows companies to make pu
 
    - Set **Minimum Order Total** and **Maximum Order Total** to the order amounts required to qualify for this payment method.
 
-     {:.bs-callout .bs-callout-info}
+     {:.bs-callout-info}
      An order qualifies if the total falls between, or exactly matches, the minimum or maximum total values.
 
    - Enter a **Sort Order** number to determine the position of Payment on Account in the list of payment methods that is shown during checkout. (0 = first, 1 = second, 2 = third, and so on.)

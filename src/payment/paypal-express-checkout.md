@@ -2,7 +2,7 @@
 title: PayPal Express Checkout
 ---
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
 As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. No action is needed for PayPal Express Checkout to comply with PSD2 because all requirements are handled by PayPal.
 
@@ -12,7 +12,7 @@ PayPal Express Checkout helps boost sales by giving your customers the ability t
 
 Customers with current PayPal accounts can make a purchase in a single step by clicking the “Check out with PayPal” button. Express Checkout can be used as a standalone, or in combination with one of PayPal’s All-In-One solutions. If you already accept credit cards online, you can offer Express Checkout as an additional option to attract new customers who prefer to pay with PayPal.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 PayPal has deprecated support for the sale of digital goods through PayPal Express Checkout, and recommends that you use either [PayPal Payments Standard]({% link payment/paypal-payments-standard.md %}) or any other PayPal payment gateway to process any order that includes [virtual products]({% link catalog/product-create-virtual.md %}).
 
 ## Requirements
@@ -31,7 +31,7 @@ Unlike other payment methods, PayPal Express Checkout allows the customer to che
 | **5** | **Customer Places Order** | The customer places the order, and the order information is submitted to PayPal.|
 | **6** | **PayPal Settles the Transaction** | PayPal receives the order and settles the transaction.|
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 PayPal Express Checkout does not support orders with multiple-addresses.
 
 ## Setting Up PayPal Express Checkout
@@ -82,14 +82,14 @@ You can have two PayPal solutions active at the same time: Express Checkout, plu
 
 ### Step 3: Complete the Required PayPal Settings
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Required PayPal Settings** section.
 
 1. (Optional) Enter the **Email Associated with PayPal Merchant Account**.
 
-   {:.bs-callout .bs-callout-warning}
+   {:.bs-callout-warning}
    Email addresses are case sensitive. To receive payment, the email address you enter must match the email address specified in your PayPal merchant account.
 
    If you do not have a PayPal account, click **Start accepting payments via PayPal**.
@@ -126,7 +126,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
      Your Merchant Account ID is in your PayPal [business account]({% link payment/paypal-business-account.md %}) profile.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 [PayPal Credit]({% link payment/paypal-credit.md %}) is enabled by default for this payment option.
 
 You have completed the Required PayPal Settings. You can continue with the Basic and Advanced Settings or click <span class="btn">Save Config</span> and return later to adjust the configuration.
@@ -212,7 +212,7 @@ You have completed the Required PayPal Settings. You can continue with the Basic
 
    The log file for PayPal Payments Advanced is payments: `_payflow_advanced.log`
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    In accordance with PCI Data Security Standards, credit card information is not recorded in the log file.
 
 1. To enable host authenticity verification, set **Enable SSL Verification** to `Yes`.
@@ -240,7 +240,7 @@ You have completed the Required PayPal Settings. You can continue with the Basic
    |`Ask Customer` |The customer can decide whether to sign a billing agreement during the Express Checkout flow.|
    |`Never` |The customer cannot sign a billing agreement during the Express Checkout flow.|
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     Merchants must ask [PayPal Merchant Technical Support](https://developer.paypal.com/support/) to enable billing agreements in their accounts. The _Billing Agreement Signup_ parameter is enabled only after PayPal confirms that billing agreements are enabled for your merchant account.
 
 1. To allow the customer to complete the transaction from the PayPal site without returning to your Magento store for Order Review, set **Skip Order Review Step** to `Yes`.
@@ -280,7 +280,7 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 
 1. To record communications with the payment system in the log file, set **Debug Mode** to `Yes`.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    The log file is stored on the server and is accessible only to developers. In accordance with PCI Data Security Standards, credit card information is not recorded in the log file.
 
 1. To enable SSL verification, set **Enable SSL verification** to `Yes`.
@@ -358,7 +358,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
    - For **Header Image URL**, enter the URL of the image that you want to appear in the upper-left corner of the payment page. The maximum file size is 750 pixels wide by 90 pixels high.
 
-     {:.bs-callout .bs-callout-info}
+     {:.bs-callout-info}
      PayPal recommends that the image be located on a secure (https) server. Otherwise, the customer’s browser may warn that “the page contains both secure and nonsecure items.”
 
    - To set the color for your pages, enter the six-character hexadecimal code, without the “#” symbol, for each of the following:

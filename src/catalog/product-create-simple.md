@@ -61,7 +61,7 @@ _Choose Attribute Set_
 
     Take note that by default, **Stock Status** is set to `In Stock`.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     **Inventory Management:** If you enable [Inventory Management]({% link catalog/inventory-management.md %}), Single Source merchants set the quantity in this section. Multi Source merchants add sources and quantities in the Sources section. See the following Assign Sources and Quantities (Inventory Management) section.
 
 1. Enter the **Weight** of the product.

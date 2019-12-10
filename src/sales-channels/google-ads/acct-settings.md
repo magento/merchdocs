@@ -11,7 +11,7 @@ title: Account Settings
 * Activate your Google Ads account through an email invitation.
 * Add a payment method in Google Ads.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 **Important:** Review the following information fully and make your configuration settings with care before saving and completing your Google Ads account. These fields cannot be modified after the account is created.
 
 ## To set your currency and timezone:
@@ -20,7 +20,7 @@ title: Account Settings
 
 1. **Currency** automatically populates for your store based on the country you selected. You can update or change this setting. For example, if you select United States, **Currency** is set to USD for US Dollar.
 
-    {:.bs-callout .bs-callout-warning}
+    {:.bs-callout-warning}
     Important: Once you select a country and currency and create your account, you cannot change the currency. You must also add a payment method and billing settings using the same currency.
 
 1. For **Timezone**, select the timezone for your store's region. The timezone you select affects all store data. For example, reports based on segments of time will generate different results depending on the timezone associated with the account.
@@ -31,7 +31,7 @@ title: Account Settings
 
 1. The [Create a Smart Shopping Campaign]({% link sales-channels/google-ads/create-campaign.md %}) page opens. Complete the steps to activate your account before creating a campaign.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 **Don't forget!** You must activate your Google Ads account, configure payment methods in your Google Ads account, and update settings in Magento for your account to go live. If you forget to add a payment method or update Magento settings, you will see a reminder message in the Magento Admin.
 
 ![]({% link images/images/sales-channels/google/ads-account-settings.png %}){: .zoom}   

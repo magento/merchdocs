@@ -150,7 +150,7 @@ _Appearance with Text and Button (or Link)_
 
 1. Create a separate [block]({% link cms/block-add.md %}) with the links or buttons that you want to include.
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     To avoid conflict, keep all the links or buttons in the separate block and do not add a link or button directly to the slide.
 
 1. [Add a block]({% link cms/page-builder-add-content-block.md %}) placeholder to the slide stage. Then, choose the block that you prepared, and place it where you want it to appear on the slide.
@@ -234,7 +234,7 @@ _Appearance with Text and Button (or Link)_
 
    - Then, click <span class="btn">Apply</span>.
 
-        {: .bs-callout .bs-callout-info}
+        {:.bs-callout-info}
         Do not use the opacity slider in the color picker to set the overlay transparency.
 
         ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-overlay-color.png %}){: .zoom}
@@ -396,8 +396,7 @@ If you want a title above the slider, simply add a Text content type above the s
 |Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a duplicate copy of the slider.|
 |Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the the slider from the stage.|
 
-{: #slide-settings}
-## Individual Slide Settings
+## Individual Slide Settings {#slide-settings}
 
 |Setting|Description|
 |--- |--- |
@@ -441,7 +440,6 @@ If you want a title above the slider, simply add a Text content type above the s
 |CSS Classes|Specifies the names of CSS classes from the current stylesheet that apply to the slide. Separate multiple class names with a space.|
 |Margins and Padding|Determines the size, in pixels, of the outer margins and inner padding of the slide. Enter the corresponding values in the diagram. <br/>**Margins** - The amount of blank space, in pixels, that is to be applied to the outside edge of all sides of the slide. Options: Top / Right / Bottom / Left <br/>**Padding** - The amount of blank space, in pixels, that is to be applied to the inside edge of all sides of the slide. Options: Top / Right / Bottom / Left|
 
-{: #slider-settings}
 ## Slider Settings
 
 |Autoplay|Determines if the slideshow begins automatically when the page loads. Options: Yes - The slider and its automated properties become active as soon as the page loads. No - After the first slide, which appears by default, the slide navigation (dots or arrows) must be clicked to display the next slide in sequence.|

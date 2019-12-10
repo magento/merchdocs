@@ -81,7 +81,6 @@ _Video on Home Page_
 |Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a duplicate copy of the video.|
 |Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the video from the stage.|
 
-{: #video-settings}
 ## Video Settings
 
 |Setting|Description|

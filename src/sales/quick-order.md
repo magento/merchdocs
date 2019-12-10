@@ -50,7 +50,7 @@ You can specify products for Quick Order using either of the following methods.
 
        - Enter the first few characters of the **Product Name**.
 
-           {:.bs-callout .bs-callout-info}
+           {:.bs-callout-info}
            Do not use the _Enter_ key to choose the name of the product.
 
        - When the list of possible matches appears, click the product that you want to order.
@@ -82,7 +82,7 @@ You can specify products for Quick Order using either of the following methods.
     ![]({% link images/images-b2b/storefront-quick-order-multiple-skus-detail.png %}){: .zoom}
     _Quick Order List_
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     If the product has required options, you are prompted to choose the options. Wait until you reach the shopping cart to add product options.
 
     ![]({% link images/images-b2b/storefront-quick-order-multiple-skus-product-options.png %}){: .zoom}

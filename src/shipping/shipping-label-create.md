@@ -126,7 +126,7 @@ DHL provides international shipping services.
 
     - To delete a package, click **Delete Package**.
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     If you use a package type other than the default, or require a signature, the cost of shipping might differ from what you have charged the customer. Any difference in the cost of shipping is not reflected in your store.
 
 1. Click **OK**.
@@ -155,7 +155,7 @@ DHL provides international shipping services.
 
 Shipping labels are generated in PDF format, and can be printed from the Admin. Each label includes the order number and package number.
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Because an individual shipment order for each package is created, multiple shipping labels might be received for a single shipment.
 
 ### Method 1: Print Label from Shipment Form

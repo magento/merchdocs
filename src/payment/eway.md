@@ -2,7 +2,7 @@
 conditions: Default.EE-B2B
 title: eWAY (Deprecated)
 ---
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
 As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, install and configure the official eWAY payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=eway){:target="_blank"}.
 
@@ -10,7 +10,7 @@ eWAY is based in Australia, and provides secure payment processing services to m
 
 ## Step 1: Get Your eWAY Credentials
 
-Sign up for an eWAY [merchant account][1]{: target="_blank"}, and get your credentials.
+Sign up for an eWAY [merchant account][1]{:target="_blank"}, and get your credentials.
 
 ## Step 2: Enable eWAY
 
@@ -62,7 +62,7 @@ Sign up for an eWAY [merchant account][1]{: target="_blank"}, and get your crede
 
 1. To save a record of communications between your store and the eWAY system in a log file, set **Debug** to `Yes`.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    In accordance with PCI Data Security Standards, credit card information is not recorded in the log file.
 
 1. In the **Credit Card Types** box, hold down the Ctrl key and select each credit card that is accepted as payment in your store.

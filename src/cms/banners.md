@@ -3,7 +3,7 @@ conditions: Default.EE-B2B
 title: Banners
 ---
 
-{: .bs-callout .bs-callout-info }
+{:.bs-callout-info}
 DEPRECATED: [Page Builder]({% link cms/page-builder.md %})’s advanced content tools replace the previous banner functionality as described in this topic. We keep this content in the user guide as a convenience for those whose stores have customizations that prevent them from using Page Builder.
 
 Banners can be used to display an image or block of content, and appear for a specific period of time for a promotion. You can create banners that are visible only to certain customer segments, or whenever price rule conditions and coupons apply.

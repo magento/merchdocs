@@ -14,7 +14,7 @@ Catalog search index | Add, edit, or delete products (single, mass, and import)<
 Stock status index | Change inventory configuration settings.
 Category permissions index | Add store, add store group, add or delete or update attribute (for searching and filtering)
 
-{: .bs-callout-info}
+{:.bs-callout-info}
 The flat product and category indexers also influence how catalog and shopping cart price rules are indexed. If you have a large number of SKUs (about 500,000 or more), you will notice a dramatic improvement in indexing time for price rules. To take advantage of this improvement, you must enable [Use Flat Catalog Product]({% link catalog/catalog-flat.md %}).
 
 ## Index actions and controls

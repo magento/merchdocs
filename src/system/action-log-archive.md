@@ -5,7 +5,7 @@ title: Archive
 
 The Admin Actions archive lists the CSV log files that are stored on the server. In the configuration, you can specify how long the log entries are stored, and how often they are archived. By default, the file name includes the current date in ISO format:  `yyyyMMddHH`
 
-{: .bs-callout-info}
+{:.bs-callout-info}
 Log archiving requires a [cron job]({% link system/cron.md %}) to be set up.
 
 ## Configure the Log Archive

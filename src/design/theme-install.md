@@ -9,7 +9,7 @@ _Magento Marketplace_
 
 ## To install a new theme:
 
-Before you begin, make sure that you have a valid set of [Magento 2 Access Keys][2]{: target="_blank"}.
+Before you begin, make sure that you have a valid set of [Magento 2 Access Keys][2]{:target="_blank"}.
 
 Follow the steps outlined in the [Marketplace Quick Tour][3], to:
 

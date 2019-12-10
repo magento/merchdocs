@@ -8,7 +8,7 @@ When enabled, Magento creates a file called `sitemap.xml` that is saved to your
 
 While your site is in development, you might include instructions in the `robots.txt` file for webcrawlers to avoid indexing the site. Then before the launch, you can change the instructions to allow the site to be indexed.
 
-For technical information, see [Add sitemap and robots.txt][1]{: target="_blank"} in the developer documentation.
+For technical information, see [Add sitemap and robots.txt][1]{:target="_blank"} in the developer documentation.
 
 ![Sitemap grid]({% link images/images/marketing-sitemap-grid-generated.png %}){: .zoom}
 _Site Map in Grid_

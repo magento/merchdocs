@@ -28,7 +28,7 @@ _Newsletter Templates_
 
       To learn more, see [Using the Editor]({% link cms/editor.md %}).
 
-        {: .bs-callout .bs-callout-info}
+        {:.bs-callout-info}
         Do not remove the unsubscribe link at the bottom of the template content. In some jurisdictions, the link is required by law.
 
     - In the **Template Styles** field, enter the CSS declarations needed to format the content.

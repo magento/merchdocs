@@ -28,7 +28,7 @@ _Custom Variables_
    - In the **Variable Plain Value** field, enter the variable value as plain text without formatting. For example:
     `This unformatted content appears in place of the variable.`
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     You can drag the lower-right corner to make the boxes bigger.
 
     ![New custom variable]({% link images/images/variable-custom-add.png %}){: .zoom}

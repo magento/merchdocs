@@ -103,7 +103,7 @@ The _Prepare orders for booking_ page is wider than most pages, and includes a s
 
 1.  If you need to remove a package, click ![]({% link images/images/btn-delete.png %}) to the right of the Weight Unit field.
 
-    {: .bs-callout-info}
+    {:.bs-callout-info}
     Items in a removed package are not automatically restored to the previous package. In such a case, it is necessary to update the Package Contents field manually or add another package.
 
 1.  Choose the applicable **Shipping Experience**.
@@ -118,7 +118,7 @@ The _Prepare orders for booking_ page is wider than most pages, and includes a s
 
 1.  Mark the checkbox of any additional delivery options that apply to the shipment.
 
-    {: .bs-callout-info}
+    {:.bs-callout-info}
     The selection of options depends on the carrier and service.
 
     To keep the workspace uncluttered, you can click **Hide Details** after you prepare each order in the batch for booking.

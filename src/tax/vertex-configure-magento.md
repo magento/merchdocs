@@ -87,8 +87,7 @@ The Vertex Shipping Product Codes section lists all shipping methods and rates t
 ![]({% link images/images/config-sales-tax-vertex-shipping-product-codes.png %}){: .zoom}
 [_Shipping Product Codes_]({% link configuration/sales/tax.md %})
 
-{: #flex-fields}
-## Vertex Flexible Fields
+## Vertex Flexible Fields {#flex-fields}
 
 If you need to identify taxability based on information in your Magento store beyond the standard customer and and product taxability drivers defined by Vertex, configure the flexible fields to be used in your Vertex Tax Assist Rules.
 

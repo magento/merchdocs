@@ -115,8 +115,7 @@ _Map with Location_
 
 1. On the **Save** menu, choose **Save & Close**.
 
-{: #styling}
-## Styling the Map
+## Styling the Map {#styling}
 
 Use the Google Maps Platform Styling Wizard to apply a one of six predefined themes or create a custom theme. You also can generate a JSON file with the map style properties or a link to the styled map.
 

@@ -7,7 +7,7 @@ title: Creating a Google Ads Account
 
 With your Google Merchant Center (GMC) created and products in-progress for approval, create a Google Ads account and complete your first Google Ads Smart Shopping campaign.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 **Wait, I have a Google Ads account!** Sorry, but the Google Shopping ads Channel implementation cannot support using an existing account. You must create a new Google Ads account.
 
 When creating your account, you will do the following:

@@ -59,7 +59,7 @@ Complete the following steps to add a new rule, describe the conditions, and def
 
 1. Enter a number to define the **Priority** of this price rule in relation to the Action settings of other price rules which are active at the same time.
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     The Priority setting is important when two cart rules/coupon codes are valid for the same product at the same time. The rule with the highest Priority setting (1 being the highest) will control the cart action.
 
 1. To apply the rule to published [RSS feeds]({% link marketing/rss-feed.md %}), set **Public In RSS Feed** to `Yes`.
@@ -216,7 +216,7 @@ _Discount Label in Totals Section of Order_
 
 [Dynamic Blocks]({% link cms/dynamic-blocks.md %}) that are associated with the rule appear in the storefront whenever the conditions are met.
 
-{: .bs-callout .bs-callout-info }
+{:.bs-callout-info}
 [Page Builder]({% link cms/page-builder.md %})’s advanced content tools replace the previous banner functionality. If your store has customizations that prevent you from using Page Builder, see [Using Banners in Price Rules]({% link cms/banners-price-rules.md %}).
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Related Dynamic Blocks** section.

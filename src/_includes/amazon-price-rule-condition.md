@@ -5,7 +5,7 @@ This process can be simple or detailed, depending on your catalog setup. You can
 
 Conditions are based on existing product attribute values. To apply the rule to all products, leave the conditions section blank.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If you want to define a condition based on a specific product attribute, the **Use for Promo Rule Conditions** field for the attribute must be set to `Yes`. The field is located on the [Storefront Properties]({% link catalog/product-attributes-add.md %}) screen for the attribute.
 
 ![]({% link images/images/sales-channels/amazon/ob-price-rules-condition-1.png %}){: .zoom}

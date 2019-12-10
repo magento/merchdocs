@@ -19,7 +19,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 ![]({% link images/images/config-general-reports-genoptions.png %}){: .zoom}
 [_Dashboard_]({% link stores/admin-dashboard.md %})
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If your business functions do not require reporting, we recommend that you disable the reports functionality to enhance store performance. However, some features, like dynamic customer segments, rely on report data to function properly.
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

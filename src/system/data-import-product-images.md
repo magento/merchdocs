@@ -21,7 +21,7 @@ Before you try to import a large amount of images, review the steps in the impor
     <Magento root folder>/var/import/images
     ```
 
-    {: .bs-callout-info }
+    {:.bs-callout-info}
     Starting with the Magento `2.3.2` release, the path specified in the **Images File Directory** concatenates for import to the images base directory - `<Magento root folder>/var/import/images`. For earlier Magento releases, you can use a different folder on the Magento server, as long as the path to the folder is specified during the import process.
 
 1. In the CSV data, enter the name of each image file to be imported on the correct row, by `sku`, and in the correct column according to image type (`base_image`, `small_image`, `thumbnail_image`, or `additional_images`).

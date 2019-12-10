@@ -43,7 +43,7 @@ The first time anyone signs in to the Admin, it displays the **Allow admin usage
 
    If an account is associated with the email address, an email will be sent to reset your password.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    An Admin password must be seven or more characters long and include both letters and numbers. See [Configuring Admin Security]({% link stores/security-admin.md %}) for information about password options.
 
 ## Sign Out of the Admin

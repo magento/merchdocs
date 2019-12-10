@@ -7,7 +7,7 @@ Like most websites and applications on the Internet, Magento requires that the v
 - If the browser’s privacy settings disallow cookies, you can configure the system to automatically redirect them to the [Enable Cookies]({% link cms/pages-core.md %}) page, which explains how to make the recommended settings with most browsers.
 - If the browser’s privacy settings disallow JavaScript, you can configure the system to display the following message above the header of every page.
 
-For technical information, see [Supported browsers][1]{: target="_blank"} in the developer documentation.
+For technical information, see [Supported browsers][1]{:target="_blank"} in the developer documentation.
 
 ## Configure browser capabilities detection
 

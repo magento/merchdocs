@@ -4,7 +4,7 @@ title: PayPal Settlement Reports
 
 The PayPal Settlement report provides the store administrator with the information about each transaction that affects the settlement of funds.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Before generating settlement reports, the store administrator must request PayPal Merchant Technical Services to create an SFTP user account, enable settlement reports generation, and enable SFTP in their PayPal business account.
 
 After configuring and enabling settlement reports in the PayPal merchant account, Magento will start generating reports during the following twenty-four hours. The list of available settlement reports can be viewed from the Admin.

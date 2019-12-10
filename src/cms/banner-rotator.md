@@ -3,7 +3,7 @@ conditions: Default.EE-B2B
 title: Rotating Banners
 ---
 
-{: .bs-callout .bs-callout-info }
+{:.bs-callout-info}
 DEPRECATED: [Page Builder]({% link cms/page-builder.md %})’s advanced content tools replace the previous banner functionality as described in this topic. We keep this content in the user guide as a convenience for those whose stores have customizations that prevent them from using Page Builder.
 
 A banner rotator can be used to display a single banner, or multiple banners in a specific sequence or random order. The next banner in the sequence appears whenever the page is refreshed.

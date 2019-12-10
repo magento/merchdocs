@@ -126,8 +126,7 @@ _Set of Tabs_
 |Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a duplicate copy of the  tab.|
 |Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the tab from the tab set.|
 
-{: #tab-settings}
-## Individual Tab Settings
+## Individual Tab Settings {#tab-settings}
 
 ### Background
 

@@ -6,7 +6,7 @@ Magento uses an encryption key to protect passwords and other sensitive data. An
 
 During the initial installation, you are prompted to either let Magento generate an encryption key, or enter one of your own. The Encryption Key tool allows you to change the key as needed. The encryption key should be changed on a regular basis to improve security, as well as at any time the original key might be compromised. Whenever the key is changed, all legacy data is re-encoded using the new key.
 
-For technical information, see [Install the Magento][1]{: target="_blank"} software in the developer documentation.
+For technical information, see [Install the Magento][1]{:target="_blank"} software in the developer documentation.
 
 ![System encryption key]({% link images/images/system-encryption-key.png %}){: .zoom}
 _Encryption Key_

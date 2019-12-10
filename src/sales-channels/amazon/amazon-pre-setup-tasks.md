@@ -27,19 +27,19 @@ All products and data synced between Magento and Amazon is managed by cron. When
 
 Before you begin to set up your Amazon Sales Channel, you must have an active Amazon Seller Central account. If you don't have an existing Amazon Seller account in the [North America][1] (US, CA, MX)  or [European](https://services.amazon.co.uk/services/sell-online/how-it-works.html) (UK) region, you can complete Amazon's seller account set up process.
 
-Amazon Sales Channel requires a [Professional Seller account][2]{: target="_blank"} on Amazon Seller Central. Amazon charges a monthly subscription and fees for selling. See [Amazon: Choose your selling plan][3]{: target="_blank"}.
+Amazon Sales Channel requires a [Professional Seller account][2]{:target="_blank"} on Amazon Seller Central. Amazon charges a monthly subscription and fees for selling. See [Amazon: Choose your selling plan][3]{:target="_blank"}.
 
 ## 3. Make sure you are an approved Amazon seller. 
 
-To integrate, you must have an approved Amazon Seller Central account. Your account must not have any restrictions for products or categories. Some products and categories require approval prior to creating listings. Review Amazon policies for category and product approval to ensure your products will be approved. See [Amazon: Categories and products requiring approval][4]{: target="_blank"}.
+To integrate, you must have an approved Amazon Seller Central account. Your account must not have any restrictions for products or categories. Some products and categories require approval prior to creating listings. Review Amazon policies for category and product approval to ensure your products will be approved. See [Amazon: Categories and products requiring approval][4]{:target="_blank"}.
 
 It is also important to ensure that you have configured the following in your Amazon Seller Central account:
 
-- Ensure your return policy is as good or better than the Amazon return policy. See [Amazon: Return Policy][5]{: target="_blank"}
+- Ensure your return policy is as good or better than the Amazon return policy. See [Amazon: Return Policy][5]{:target="_blank"}
 
-- Ensure your tax settings are configured. See [Amazon: Tax Policies][6]{: target="_blank"}.
+- Ensure your tax settings are configured. See [Amazon: Tax Policies][6]{:target="_blank"}.
 
-- Ensure that your shipping methods are configured accurately. To set up the shipping methods that Magento will offer to customers to fulfill your Amazon orders, update the [Amazon: Shipping Settings][7]{: target="_blank"} in your Amazon Seller Central account.
+- Ensure that your shipping methods are configured accurately. To set up the shipping methods that Magento will offer to customers to fulfill your Amazon orders, update the [Amazon: Shipping Settings][7]{:target="_blank"} in your Amazon Seller Central account.
 
 ## 4. Make sure your Value Added Tax (VAT) is configured for your store(s).
 (Primarily used by UK sellers.) Amazon recommends signing up for the [Amazon VAT Calculation Service](https://services.amazon.co.uk/vat-calculation-service.html). If you choose a different method, you are responsible for VAT compliance.<br/><br/>**Note**: It may take 10-14 days for Amazon to verify and activate your VAT Calculation Service account.
@@ -60,7 +60,7 @@ If your Amazon listings contain more than one product condition (new, used, like
 
 ## 8. Configure your Amazon Seller Central shipping method.
 
-To set up shipping methods that you will offer to fulfill your Amazon orders, refer to [Settings &gt; Shipping Settings][10]{: target="_blank"} in your Amazon Seller Central account.
+To set up shipping methods that you will offer to fulfill your Amazon orders, refer to [Settings &gt; Shipping Settings][10]{:target="_blank"} in your Amazon Seller Central account.
 
 ## Additional configurations
 
@@ -72,7 +72,7 @@ You may not want some products to be listed on Amazon. Amazon Sales Channel has 
 
 **Set your Amazon Seller Central Region to Inactive.**
 
-To help facilitate error-free data transition during integration, we highly recommend setting your Amazon region to `Inactive` status in Settings > Account Info > Vacation Settings. Refer to [Amazon: Listing Status for Vacations][11]{: target="_blank"}. Once your setup is complete, change the status back to `Active` in Amazon.
+To help facilitate error-free data transition during integration, we highly recommend setting your Amazon region to `Inactive` status in Settings > Account Info > Vacation Settings. Refer to [Amazon: Listing Status for Vacations][11]{:target="_blank"}. Once your setup is complete, change the status back to `Active` in Amazon.
 
 ![]({% link images/images/btn-next.png %}){: .Inline} [**Continue to Verify API Key**]({% link sales-channels/amazon/amazon-verify-api-key.md %})
 

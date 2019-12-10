@@ -30,6 +30,6 @@ If you have many rules created, you can filter the list by using the filter opti
 |Action|Click **Edit** to display the Rule Information screen and update the rule's settings (similar to creating a new rule).|<!--{% endif %}-->
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 To update a rule's properties, click the rule in the list to display the Rule Information page. There you can change the settings for the rule (similar to creating a new rule).
 <!--{% endif %}-->

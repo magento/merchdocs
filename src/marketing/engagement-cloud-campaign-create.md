@@ -70,7 +70,7 @@ _Preheader Text_
 
     Similar to the Magento [Media Storage]({% link cms/media-storage.md %}), the Image Manager is used to organize images that are available in your Engagement Cloud account.
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     It is recommended to limit the combined size of all images in a campaign to less than 100kb.
 
     ![Engagement Cloud - image manager]({% link images/images/engagement-cloud-campaign-image-manager.png %}){: .zoom}

@@ -25,5 +25,5 @@
 
     - **No**: Choose when you want to allow multiple pricing rules to apply to the same product. This could result in stacking and providing multiple discounts applied to your listing price.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 To discard subsequent rules, a pricing rule must use priorities which are set in the **Priority** field.

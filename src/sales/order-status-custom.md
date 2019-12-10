@@ -4,7 +4,7 @@ title: Custom Order Status
 
 In addition to the preset order status settings, you can create custom order status settings of your own, assign them to order states, and set a default order status for order states. For example, you might need a custom order status such as “packaging”, “backordered”, or a status that is specific to your needs. You can create a descriptive name for the custom status and assign it to the associated order state in the workflow.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Only default custom order status values are used in the order workflow. Custom status values that are not set as default can be used only in the comments section of the order.
 
 ![]({% link images/images/order-status.png %}){: .zoom}
@@ -63,7 +63,7 @@ _Order Status Settings_
 
 ## To remove an order status from an assigned state:
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 A status setting cannot be unassigned from a state if the status is currently in use.
 
 1. In the _Order Status_ grid, find the order status record to be unassigned.
