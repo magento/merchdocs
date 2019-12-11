@@ -15,6 +15,17 @@ All organizations that process personal data must disclose the following:
 - How long the data is retained
 - Whether or not the data is shared with others
 
+## GDPR and CCPA
+
+If your business is required to comply with both the GDPR and the [California Consumer Privacy Act (CCPA)]({% link stores/compliance-ccpa.md %}), you can leverage some of the work from your GDPR compliance program for the CCPA. Although the regulations have some similarities, a few differences include:
+
+- The definition of personal information differs for each regulation.
+- The GDPR requires consumers to opt in before their personal data may be used for certain purposes; CCPA provides consumers with the right to opt out.
+- The CCPA has additional data inventory and mapping requirements.
+- The regulations have different privacy policy requirements.
+
+Businesses that comply with GDPR might have additional obligations under the CCPA.  To learn more, see the [CCPA Fact Sheet][3]{:target="_blank"}.
+
 ## Best Practices
 
 - Examine the current [privacy policies]({% link stores/privacy-policy.md %}) for all of your Magento stores to ensure that they align with GDPR requirements.
@@ -29,3 +40,4 @@ All organizations that process personal data must disclose the following:
 
 [1]: https://magento.com/gdpr
 [2]: https://devdocs.magento.com/compliance/privacy/gdpr.html
+[3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
