@@ -5,7 +5,7 @@ title: Frontend Development Workflow
 The Frontend Development Workflow type determines if Less compilation takes place on the client- or server side during development. Less is an extension of CSS that has additional features and conventions, and that produces streamlined code. Client-side Less compilation is recommended for theme development. Server-side compilation is the default mode. The development workflow options are not available for stores in production mode.
 See [Client-side LESS compilation vs. server-side][1] in the developer documentation.
 
-{: .bs-callout-info}
+{:.bs-callout-info}
 The Frontend Development Workflow configuration is available in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
 ![Advanced configuration - frontend development workflow]({% link images/images/config-advanced-developer-frontend-development-workflow.png %})<br/>

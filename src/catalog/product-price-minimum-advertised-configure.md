@@ -66,7 +66,7 @@ _Click for Price_
             | In Cart | Displays the actual product price in the shopping cart. |
             | Before Order Confirmation | Displays the actual product price at the end of the checkout process, just before the order is confirmed. |
 
-        {:.bs-callout .bs-callout-info}
+        {:.bs-callout-info}
         The Manufacturer’s Suggested Retail Price and Display Actual Price fields appear only when [Minimum Advertised Price]({% link configuration/sales/sales.md %}) is enabled in the configuration.
 
 1. When complete, click <span class="btn">Done</span>. Then, click <span class="btn">Save</span>.

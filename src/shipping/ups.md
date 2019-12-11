@@ -4,7 +4,7 @@ title: UPS
 
 United Parcel Service offers domestic and international shipping services by land and air to more than 220 countries.
 
-{: .bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 UPS is discontinuing support of HTTP for its standard CGI service gateway. If a standard UPS account integration is already enabled for your Magento installation, make sure that the Gateway URL uses the HTTPS protocol in the UPS Shipping Method configuration. If needed, update the Gateway URL manually to change the protocol to HTTPS. If you are enabling a new UPS configuration for your Magento installation, use the default "United Parcel Service XML" UPS Type.
 
 UPS uses [dimensional weight]({% link shipping/weight-dimensional.md %}) to determine some shipping rates.
@@ -37,7 +37,7 @@ To offer this shipping method to your customers, you must first open an account 
 
     * For a standard UPS account, set **UPS Type** to “United Parcel Service”. Then do the following:
 
-        {: .bs-callout .bs-callout-info}
+        {:.bs-callout-info}
         The standard United Parcel Service type is scheduled for deprecation. For new configurations, you should use the default  "United Parcel Service XML" type. The XML type is also required to generate [shipping labels]({% link shipping/shipping-labels.md %}).
 
         * Set **Live Account** to one of the following:
@@ -48,7 +48,7 @@ To offer this shipping method to your customers, you must first open an account 
 
         * In the **Gateway URL** field, enter the URL that is used to calculate UPS shipping rates.
 
-            {: .bs-callout .bs-callout-info}
+            {:.bs-callout-info}
             UPS is discontinuing support of HTTP, which is used in the current default (system value). You must clear the **Use system value** checkbox and modify the URL to use HTTPS. Example: https://www.ups.com/using/services/rave/qcostcgi.cgi
 
 4. In the **Title** field, enter the name of this shipping option as you want it to appear during checkout. By default, this field is set to “United Parcel Service”.

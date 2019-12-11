@@ -159,7 +159,7 @@ Customer accounts created from the Admin do not initially have passwords assigne
 
 ## Button Bar
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Additional buttons become available when the profile is saved for the first time. To learn more, see [Updating a Customer Profile]({% link customers/customer-account-update.md %}).
 
 {: .buttons-table }

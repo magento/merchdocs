@@ -8,7 +8,7 @@ Each website in a Magento installation has a base URL that is assigned to the st
 - **Secure Base URL** — `https://www.yourdomain.com/magento/`
 - **URL with IP address** — `http://###.###.###.###/magento/` or `https://###.###.###.###/magento/`
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 Do not change the Admin URL from the default Base URL configuration. To change the Admin URL or path, see [Using a Custom Admin URL]({% link stores/store-urls-custom-admin.md %}).
 
 ## Use Secure Protocol
@@ -17,7 +17,7 @@ The base URLs for your store were initially set up during the _Web Configuration
 
 If a security certificate was not available for the domain at the time of the installation, make sure to update the configuration before launching your store. After a security certificate is established for your domain, you can configure either or both base URLs to operate with encrypted Secure Sockets Layer (SSL) and [Transport Layer Security][1] (TLS) protocol.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Magento strongly recommends for all pages of a production site, including content and product pages, to be transmitted with secure protocol.
 
 Magento can be configured to deliver all pages over `https` by default. If your store has been running up until now with standard protocol, you can improve security by enabling [HTTP Strict Transport Security][2] (HSTS). and by upgrading any insecure page requests that are received by the store. HSTS is an opt-in protocol that prevents browsers from rendering standard `http` pages that are transmitted with unsecure protocol for the specified domain. Because search engines might have already indexed each page of your store with standard `http` URLs, you can configure Magento to automatically upgrade any unsecure page requests to `https`, so you don't lose any traffic. When Magento is configured to use secure URLs for both the store and Admin, two additional fields appear that allow you to enable HSTS.
@@ -32,7 +32,7 @@ Magento can be configured to deliver all pages over `https` by default. If your 
 
     - **Base URL** — Enter the fully qualified base URL for your store. Make sure to end the URL with a forward slash, so it can be extended with additional URL Keys from your store. For example: `http://yourdomain.com/`
 
-       {:.bs-callout .bs-callout-info}
+       {:.bs-callout-info}
        Do not change the placeholder in the **Base Link URL** field. It is a placeholder that is used to create relative links to the base URL.
 
     - **Base URL for Static View Files** — (Optional) Specify an alternate location for the base URL for static view files by entering the path starting with the following placeholder:
@@ -48,7 +48,7 @@ Magento can be configured to deliver all pages over `https` by default. If your 
     ![General configuration - web base URLs]({% link images/images/config-general-web-base-urls.png %}){: .zoom} 
     [_Base URLs_]({% link configuration/general/web.md %})
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     Placeholders enclosed in double braces are markup tags for variables.
 
 1. When complete, click <span class="btn">Save Config</span>.

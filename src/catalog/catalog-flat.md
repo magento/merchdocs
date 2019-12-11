@@ -2,14 +2,14 @@
 title: Using a Flat Catalog
 ---
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 Starting with Magento 2.3.0+, the use of a flat catalog is no longer a best practice and is not recommended. Continued use of this feature is known to cause performance degradation and other indexing issues. A detailed description and solution is available in the [Help Center](https://support.magento.com/hc/en-us/articles/360034631192){:target="_blank"}.
 
 Magento typically stores catalog data in multiple tables, based on the Entity-Attribute-Value (EAV) model. Because product attributes are stored in many tables, SQL queries are sometimes long and complex.
 
 In contrast, a flat catalog creates new tables on the fly, where each row contains all the necessary data about a product or category. A flat catalog is updated automatically—either every minute, or according to your cron job. Flat catalog indexing can also speed up the processing of catalog and cart price rules. A catalog with as many as 500,000 SKUs can be indexed quickly as a flat catalog.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Before you enable a flat catalog for a live store, make sure to test the configuration in a development environment.
 
 ## Step 1: Enable the Flat Catalog

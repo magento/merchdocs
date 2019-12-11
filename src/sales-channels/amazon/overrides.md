@@ -24,7 +24,7 @@ When defining an override, you can also choose to enter a single type of overrid
 
 See [Creating and Editing Overrides]({% link sales-channels/amazon/creating-editing-overrides.md %}).
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If you have listings in process, the number of listings will display in a message above the tabs.
 
 ![]({% link images/images/sales-channels/amazon/amazon-overrides.png %}){: .zoom}

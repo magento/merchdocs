@@ -10,7 +10,7 @@ To offer a discount that is targeted to first-time customers, you can:
 - Create a customer segment that is defined as _buyers with no orders_, and then
 - Create a cart price rule that targets the new customer segment.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Ensure that the Customer Segments feature is enabled. Refer to [Creating a Customer Segment]({% link marketing/customer-segment-create.md %}).
 
 ## Step 1. Create a Customer Segment
@@ -62,7 +62,7 @@ Your customer segment is created and displayed in the Customer Segment list.
 ![Customer segments list]({% link images/images-ee/customer-segment-list-first-time.png %}){: .zoom}
 _Customer Segments List_
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Make note of the segment ID. You'll use the ID number to create the cart price rule.
 
 ## Step 2. Create the Cart Price Rule
@@ -83,7 +83,7 @@ Make note of the segment ID. You'll use the ID number to create the cart price r
 
        To select multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
-      {: .bs-callout .bs-callout-info}
+      {:.bs-callout-info}
       The options in this list are dependent on the customer groups created and managed in **Customers** > **Customer Groups**.
 
    - For **Coupon**, select `No Coupon`.
@@ -92,7 +92,7 @@ Make note of the segment ID. You'll use the ID number to create the cart price r
 
    - For **Priority**, enter a number to establish the priority of this rule in relation to other rules.
 
-      {: .bs-callout .bs-callout-info}
+      {:.bs-callout-info}
       The Priority setting is important when the same catalog product meets the conditions set for more than one price rule. The rule with the highest Priority setting becomes active for the customer. The highest priority is 1. For this example, entering `1` means that this rule is applied before any other price rule. This value will be used by the **Discard Subsequent Rules** setting in the **Action** section.
 
    - When complete, click <span class="btn">Save and Continue Edit</span>.
@@ -116,7 +116,7 @@ Make note of the segment ID. You'll use the ID number to create the cart price r
 
       For this example, the segment ID for the new segment created in Step 1 is `2`.
 
-      {: .bs-callout .bs-callout-info}
+      {:.bs-callout-info}
       If you don't know the segment ID, click the chooser icon ( ![List icon]({% link images/images/btn-chooser.png %}) ) to display the Customer Segment list. You can manually enter the ID in the field or select the checkbox for the desired segment to auto-populate the field.
 
    - Click the green checkmark ( ![Green checkmark]({% link images/images/icon-green-check.png %}) ) to save the condition setting.

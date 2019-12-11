@@ -28,7 +28,7 @@ Expand each section to review and configure listing settings. Complete all requi
 
 Click <span class="btn">Next</span> to save settings and continue to [Listing Rules]({% link sales-channels/amazon/ob-listing-rules.md %}).
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Onboarding steps and sections can be reviewed and modified as much as needed, until you click **Complete Setup** in the Store Review step. Once setup is complete, these settings can be accessed and modified from the dashboard for the sales channel store.
 
 ![]({% link images/images/sales-channels/amazon/amazon-listing-settings.png %}){: .zoom}

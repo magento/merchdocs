@@ -2,7 +2,7 @@
 title: PayPal Payments Pro
 ---
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
 As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, PayPal Payments Pro must be integrated with Cardinal Commerce. To learn more, see [3-D Secure for Payflow](https://developer.paypal.com/docs/classic/payflow/3d-secure-overview/).
 
@@ -11,7 +11,7 @@ PayPal Payments Pro brings you all the benefits of a merchant account and paymen
 ![PayPal Payments Pro]({% link images/images/storefront-mini-cart-payments-pro-racer-tank.png %}){: .zoom}
 _PayPal Payments Pro_
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 For merchants outside the US, this method is called “PayPal Website Payments Pro.”
 
 You can have two PayPal solutions active at the same time: PayPal Express Checkout, plus any one of the All-In-One solutions. If you change payment solutions, the one used previously is automatically disabled.
@@ -75,7 +75,7 @@ Before you begin, set up your PayPal Payments Pro account on the PayPal website.
 
 1. Click <span class="btn">Confirm</span>.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    If you have multiple Magento websites, you must create a separate PayPal Payments Pro account for each.
 
 1. PayPal recommends that you set up an additional user on your account. 
@@ -99,7 +99,7 @@ Before you begin, set up your PayPal Payments Pro account on the PayPal website.
 
 ### Step 2: Begin Magento Configuration
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
@@ -126,7 +126,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. (Optional) Enter the **Email Associated with your PayPal Merchant Account**.
 
-   {:.bs-callout .bs-callout-warning}
+   {:.bs-callout-warning}
    Email addresses are case sensitive. To receive payment, the email address must match the email address specified in your PayPal merchant account.
 
    If you do not have a PayPal account, click **Start accepting payments via PayPal**.
@@ -213,7 +213,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. For **Credit Card Settings**, select the credit cards that you accept for payment in your store. To select multiple cards, hold down the Ctrl key (PC) or the Command key (Mac) and click each one.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    American Express requires an additional agreement.
 
    ![PayPal Payment Pro Basic Settings]({% link images/images/config-sales-payment-methods-paypal-payments-pro-basic-settings.png %}){: .zoom}
@@ -230,7 +230,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. To write communications with the payment system into the log file, set **Debug Mode** to `Yes`.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    In accordance with PCI Data Security Standards, credit card information is not recorded in the log file.
 
 1. To enable host authenticity verification, set **Enable SSL Verification** to `Yes`.
@@ -326,7 +326,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
    - In the **Header Image URL** field, enter the URL of the image that you want to appear in the upper-left corner of the payment page. The maximum file size is 750 pixels wide by 90 pixels high.
 
-     {:.bs-callout .bs-callout-info}
+     {:.bs-callout-info}
      PayPal recommends that the image be located on a secure (https) server. Otherwise, the customer’s browser may warn that “the page contains both secure and nonsecure items.”
 
    - Enter the six-character hexadecimal code, without the “#” symbol, for each of the following:
@@ -369,7 +369,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
 1. To write communications with the payment system into the log file, set **Debug Mode** to `Yes`.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    In accordance with PCI Data Security Standards, credit card information is not recorded in the log file.
 
 1. To enable host authenticity verification, set **Enable SSL Verification** to `Yes`.

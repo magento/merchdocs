@@ -7,7 +7,7 @@ Google Shopping ads supports Smart Shopping ads. Smart Shopping campaigns help s
 
 An important aspect to creating and maintaining your ads is the daily budget. Setting a budget indicates the average maximum amount you want spend for displaying and promoting the Smart Ads per day. Google has intelligent tracking and algorithms to evaluate the popularity of your products, ad displays and click-throughs, and much more. If an ad is popular with significant click-throughs, Google may promote the ad more, possible spending more of your budget. The amounts balance, never exceeding your average, and rolling over amounts not spent from one day to the next.
 
-To learn more about Google Ads budgets, see Google's [Daily budget: Definition][1]{: target="_blank"} and [Set a budget for your campaign][2]{: target="_blank"}.
+To learn more about Google Ads budgets, see Google's [Daily budget: Definition][1]{:target="_blank"} and [Set a budget for your campaign][2]{:target="_blank"}.
 
 ## To create a Smart Shopping campaign:
 

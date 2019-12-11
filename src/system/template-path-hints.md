@@ -4,7 +4,7 @@ title: Template Path Hints
 
 Template Path Hints are a diagnostic tool that adds notation with the path to each template that is used on the page. Template path hints can be enabled for either the storefront or the Admin.
 
-{: .bs-callout-info}
+{:.bs-callout-info}
 Template Path Hints can be edited in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
 See [Locate templates, layouts, and styles][1]{: target="_blank"} in the developer documentation.

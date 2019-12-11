@@ -32,7 +32,7 @@ _Add to Newsletter Queue_
 
 1. If applicable, enter a note in the **Message** box above the instructions to unsubscribe.
 
-   {: .bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    Do not remove the instructions, which are required by law in many jurisdictions.
 
 1. When complete, click <span class="btn">Save and Resume</span>.

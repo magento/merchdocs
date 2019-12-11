@@ -4,7 +4,7 @@ title: Translate Inline
 
 You can use the Translate Inline tool in [developer mode]({% link magento/installation-modes.md %}) to touch up text in the interface to reflect your voice and brand. When the Translate Inline mode is activated, any text on the page that can be edited is outlined in red. It is easy to edit field labels, messages, and other text that appears throughout the storefront and Admin. For example, many themes use terminology such as _My Account_, _My Wishlist_, and _My Dashboard_, to help customers find their way around. However, you might prefer to simply use the words _Account_, _Wishlist_, and _Dashboard_.
 
-{: .bs-callout-info}
+{:.bs-callout-info}
 The Translate Inline tool is available only when working in [developer mode]({% link magento/installation-modes.md %}).
 
 See [Translations overview][1]{: target="_blank"} in the developer documentation.
@@ -14,7 +14,7 @@ _Translatable Text_
 
 If your store is available in multiple languages, you can make fine adjustments to the translated text for the locale. On the server, interface text is maintained in a separate CSV file for each output block, and is organized by locale. As an alternate approach, rather than use the _Translate Inline_ tool, you can also edit the CSV files directly on the server.
 
-{: .bs-callout-info}
+{:.bs-callout-info}
 To use the Translate Inline tool, your browser must allow pop-ups.
 
 ## Step 1: Disable output caches

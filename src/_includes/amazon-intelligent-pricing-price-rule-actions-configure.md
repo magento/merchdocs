@@ -18,5 +18,5 @@ Define the Rule Type in the **Select Price Rule Type** section.
 
    This is an optional numerical value that further narrows down the competitive pricing. For example, if a merchant has a 95% positive feedback rating, but only has a feedback count of 20, this might not be a competitor you would want to be included to modify your pricing against. However, if you put a value of 1000, it would require that the merchant have 95% positive feedback and a minimum of 1000 merchant reviews.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 You might use these competitor pricing and feedback options to avoid basing your pricing against a competitor who has poor feedback and is selling a lower quality product.

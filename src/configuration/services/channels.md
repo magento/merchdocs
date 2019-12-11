@@ -4,7 +4,7 @@ title: Channels
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Services]({% link configuration/services.md %}) > Channels
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 The Channels option is only available when the [Google Shopping ads Channel]({% link sales-channels/google-ads/google-ad-channel.md %}) extension is installed.
 
 ## Google Shopping ads Channel

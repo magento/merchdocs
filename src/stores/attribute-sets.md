@@ -33,7 +33,7 @@ _Attribute Sets_
 
 1. To add a new attribute to the set, drag the attribute from the **Unassigned Attributes** list to the appropriate folder in the **Groups** column.
 
-   {: .bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    System attributes are marked with a dot and cannot be removed from the Groups list. They can, however, be dragged to another Group in the attribute set.
 
 1. When complete, click <span class="btn">Save</span>.

@@ -7,7 +7,7 @@ The Scheduled Changes box appears at the top of the page when a new price rule i
 
 If there are multiple price rules running in the same campaign, the Priority setting of the price rule determines which rule takes precedence. To learn more, see [Content Staging]({% link cms/content-staging.md %}).
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If a campaign that includes a price rule is initially created without an end date, the campaign cannot be edited later to include an end date. It is recommended that you either add an end date when you create the campaign, or create a duplicate version of the existing campaign and add the end date to the duplicate as needed.
 
 ![Catalog price rule - scheduled changes]({% link images/images-ee/price-rule-catalog-scheduled.png %}){: .zoom}

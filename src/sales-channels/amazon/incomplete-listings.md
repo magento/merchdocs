@@ -14,7 +14,7 @@ There are four possible causes for an incomplete listing, each identified by its
 |Multiple Matches Found|Automatic match of this listing to your catalog failed. If multiple possible matches are found, you must select the correct match for your product.|Manually select the catalog product to match to this listing.|
 |Has Variants|If your product has variants, such as a t-shirt that is available in different sizes or colors, you must select the variant in your catalog to be correctly assigned and matched to the listing|View the variants that are associated with your product and choose the correct variant to assign and match to this listing.|
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 When incomplete listings are properly matched to your catalog products, the listing will move from the Incomplete tab and will publish to Amazon based on your [Product Listing Actions]({% link sales-channels/amazon/product-listing-actions.md %}) setting.
 
 There are three available actions on the Incomplete Listings tab to correct an Incomplete listing.
@@ -29,7 +29,7 @@ In the **Select** drop-down in the Actions column:
 
 {% include amazon-view-details-action.md %}
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If you have listings in process, the number of listings will display in a message above the tabs
 
 ![]({% link images/images/sales-channels/amazon/amazon-incomplete-listings.png %}){: .zoom}

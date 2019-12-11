@@ -5,7 +5,7 @@ title: Banner
 
 Use the Banner content type to create an illustrated, interactive component that engages users with a call to action and button.
 
-{: .bs-callout .bs-callout-info }
+{:.bs-callout-info}
 Page Builder includes a new “Banner” content type. What was previously the _Banner_ option in the Content menu is now _Dynamic Block_.
 
 ![]({% link images/images-ee/page-builder-banner-homepage.png %}){: .zoom}
@@ -145,7 +145,7 @@ _Appearance with Text and Button (or Link)_
 
 1. Create a separate [block]({% link cms/block-add.md %}) with the links or buttons that you want to include.
 
-   {: .bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    To avoid conflict, keep all the links or buttons in the separate block, and do not add a link or button directly to the banner.
 
 1. [Add a block]({% link cms/page-builder-add-content-block.md %}) placeholder to the banner stage. Then, choose the block that you prepared, and place it where you want it to appear on the banner.

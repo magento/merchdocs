@@ -2,7 +2,7 @@
 title: Authorize.Net
 ---
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
 As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, do one of the following:<br/>- (Recommended) Install and configure the official Authorize.Net payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=authorize.net){:target="_blank"}.<br/>- Enable and configure the Authorize.Net payment method in the Magento configuration.<br/>These integrations support 3D Secure 2.0 verification through [CardinalCommerce](https://www.cardinalcommerce.com/products/psd2) and other third-party services.
 
@@ -42,7 +42,7 @@ The Authorize.Net payment method has replaced the Authorize.Net Direct Post (Dep
 
 1.  In the **Transaction Key** field, enter the key value from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **API Credentials & Keys**.
 
-       {:.bs-callout .bs-callout-info}
+       {:.bs-callout-info}
        If you have previously generated a transaction key, you will enter the value. If you don't know your existing transaction key or have never established one, you can generate a new key in your Authorize.Net merchant account. If generating a new key to replace an existing key, it is important to update any existing applications that use the transaction key.
 
 1. In the **Public Client Key** field, enter the key value from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **Manage Public Client Key**.
@@ -60,7 +60,7 @@ The Authorize.Net payment method has replaced the Authorize.Net Direct Post (Dep
 
 1. If you want Authorize.Net to send an order confirmation notification to the customer, set **Email Customer** to 'Yes'.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    Merchant email settings can be configured in your Authorize.Net merchant account at **Account** > **User Profile** > **Edit Profile Information**.
 
 1. To require customers to enter a card verification value (CVV), set **Enable Credit Card Verification Field** to 'Yes'.

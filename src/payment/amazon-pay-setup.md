@@ -21,7 +21,7 @@ For more information, see the [Amazon Pay and Login with Amazon][1] documentatio
 
 1. Click <span class="btn">Register or Connect an Amazon Pay Account</span>.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    Do not use your personal Amazon account for Amazon Pay.
 
    - If you do not yet have an Amazon merchant account, choose **Create a new signin** and click <span class="btn">Select</span>. Then, follow the onscreen instructions to create a new account.
@@ -148,7 +148,7 @@ For more information, see the [Amazon Pay and Login with Amazon][1] documentatio
 
 1. If you have a payment region in EU or UK, you may have an option for **Use Multi-currency**.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    Amazon Pay multi-currency feature is supported for the payment regions EU and UK.
 
    Amazon Pay multi-currency supports:

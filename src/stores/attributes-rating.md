@@ -28,7 +28,7 @@ _Ratings_
 
    To select multiple store views, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.
 
-   {: .bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    Ratings are not visible unless assigned to a store view.
 
 1. For **Sort Order**, enter a number to determine the order of this rating when listed with others.

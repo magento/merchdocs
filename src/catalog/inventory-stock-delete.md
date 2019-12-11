@@ -5,7 +5,7 @@ title: Deleting Stocks
 
 When you delete the stock, all assigned web sites are assigned to the Default Stock. We recommend reassigning websites to other stocks prior to deletion.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 **Important:** Deleting a [stock]({% link catalog/inventory-stock.md %}) can affect salable quantities and unprocessed orders for a sales channel. If you continue using a sales channel, please add the sales channel to another existing or new stock.
 
 1. On the Admin sidebar, click **Stores**. Then under Inventory, choose **Stocks**.
