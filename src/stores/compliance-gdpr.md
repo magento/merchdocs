@@ -3,6 +3,9 @@ title: GDPR Compliance
 group: getting-started
 ---
 
+{: .bs-callout .bs-callout-info}
+This is the first in a series of topics to help Magento merchants and developers understand the implications of the General Data Protection Regulation (GDPR), and to provide guidance and technical information for compliance with the legislation. The information is intended for informational purposes only and should not be construed as legal advice. Please consult with your legal counsel to determine whether and how your business should comply with any legal obligations.
+
 The General Data Protection Regulation (GDPR) is legislation that regulates data protection and privacy for all individuals in the European Union and the European Economic Area. The legislation also applies to the export of personal data outside the EU. The GDPR was adopted in April 2016, and became enforceable on 25 May, 2018. Business that are not based in the EU, but engage in global commerce are required to comply with the regulation. The GDPA defines personal data as follows:
 
 **Personal Data**: Any information relating to an identified or identifiable natural person (‘data subject’); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.
