@@ -20,7 +20,7 @@ For the following **Other PayPal Payment Solutions**, PayPal Credit is disabled 
    - [Payments Standard]({% link payment/paypal-payments-standard.md %})
    - [Payflow Pro]({% link payment/paypal-payflow-pro.md %})
    - [Payflow Link]({% link payment/paypal-payflow-link.md %})
-   
+
 Before you configure PayPal Credit for your Magento store, make sure it is enabled in your PayPal Merchant Account.
 
 [1]: https://www.paypal.com/us/webapps/mpp/promotional-financing

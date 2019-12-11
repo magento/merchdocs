@@ -1,6 +1,6 @@
 ---
 title: Adding Custom Variables
-redirect_from: 
+redirect_from:
   - /system/variables-custom.html
 ---
 
@@ -15,12 +15,12 @@ _Custom Variables_
 
 1. Click <span class="btn">Add New Variable</span>.
 
-1. Enter an identifier in the **Variable Code** field, using all lowercase characters without spaces. 
+1. Enter an identifier in the **Variable Code** field, using all lowercase characters without spaces.
 
     If needed, you can use an underscore character to represent a space. For example: `my_custom_variable`
- 
+
 1. Enter a **Variable Name**, which is used for internal reference. For example: `My Custom Variable`
-   
+
 1. To enter the value that is associated with the variable, do one of the following:
 
    - In the **Variable HTML Value** field, enter the variable value formatted with simple HTML tags. For example:
@@ -35,7 +35,7 @@ _Custom Variables_
     _New Custom Variable_
 
 1. When complete, click <span class="btn">Save</span>.
-   
+
   Your custom variable is now available to be inserted into email and newsletter templates and other types of content.  The code that is inserted looks similar to the following [markup tag]({% link marketing/markup-tags.md -%}):
 
   'CustomVar code= "my_custom_variable"'

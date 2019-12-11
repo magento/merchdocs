@@ -29,7 +29,7 @@ Before you begin to set up your Amazon Sales Channel, you must have an active Am
 
 Amazon Sales Channel requires a [Professional Seller account][2]{:target="_blank"} on Amazon Seller Central. Amazon charges a monthly subscription and fees for selling. See [Amazon: Choose your selling plan][3]{:target="_blank"}.
 
-## 3. Make sure you are an approved Amazon seller. 
+## 3. Make sure you are an approved Amazon seller.
 
 To integrate, you must have an approved Amazon Seller Central account. Your account must not have any restrictions for products or categories. Some products and categories require approval prior to creating listings. Review Amazon policies for category and product approval to ensure your products will be approved. See [Amazon: Categories and products requiring approval][4]{:target="_blank"}.
 

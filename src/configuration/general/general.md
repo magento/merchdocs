@@ -2,7 +2,7 @@
 title: General
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [General]({% link configuration/general/general.md %}) > General 
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [General]({% link configuration/general/general.md %}) > General
 
 ## Country Options
 

@@ -20,7 +20,7 @@ Sign up for a CyberSource [merchant account][2], and get your credentials.
 1. On the Admin sidebar, go to **Stores** > Settings > **Configuration**.
 
 2. In the panel on the left under **Sales**, choose **Payment Methods**. Under **Other Payment Methods**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **CyberSource (Deprecated)** section. Then, do the following:
- 
+
    1. Set **Enabled** to `Yes`.
 
    2. Accept the **Default Payment** action of `Authorized Only`, which approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer’s bank account until the sale is “captured” by the merchant.

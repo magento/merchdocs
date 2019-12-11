@@ -13,7 +13,7 @@ VAT-related tax rules do not influence other tax rules, and do not prevent the a
 The store administrator creates more than one default customer group that can be automatically assigned to the customer during account creation, address creation or update, and checkout. The result is that different tax rules are used for intra-country (domestic) and intra-EU sales.
 
 {:.bs-callout-info}
-**Important:** 
+**Important:**
 If you sell virtual or downloadable products, which by their nature do not require shipping, the VAT rate of a customer’s location country should be used for both intra-union and domestic sales. You must create additional individual tax rules for product tax classes that correspond to the virtual products.
 
 ## Customer Registration Workflow

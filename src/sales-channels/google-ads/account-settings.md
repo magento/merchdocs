@@ -97,7 +97,7 @@ These [settings]({% link sales-channels/google-ads/acct-settings.md %}) are part
 ### To edit attribute mappings:
 
 1. Click **Edit Attribute Mapping** in the **Select** drop-down list.
-1. For complete details and information, see [Editing Attribute Mappings]({% link sales-channels/google-ads/products-edit-mappings.md %}). 
+1. For complete details and information, see [Editing Attribute Mappings]({% link sales-channels/google-ads/products-edit-mappings.md %}).
 
 ## To resend products to Google/manual reindex: {#GMCReindex}
 

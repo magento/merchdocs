@@ -45,10 +45,10 @@ task :index do
 
   puts "Generating index for Algolia: Open Source ...".magenta
   sh "bin/jekyll algolia --config=_config.yml,_config.index.yml,_config.ce.yml"
-  
+
   puts "Generating index for Algolia: Commerce ...".magenta
   sh "bin/jekyll algolia --config=_config.yml,_config.index.yml,_config.ee.yml"
-  
+
   puts "Generating index for Algolia: B2B ...".magenta
   sh "bin/jekyll algolia --config=_config.yml,_config.index.yml,_config.b2b.yml"
 end

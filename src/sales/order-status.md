@@ -1,6 +1,6 @@
 ---
 title: Order Status
-redirect_from: 
+redirect_from:
   - /stores/order-status.html
 ---
 

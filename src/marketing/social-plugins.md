@@ -41,7 +41,7 @@ _Facebook Plugins_
     - Assign a unique **Identifier** to the block, using all lowercase characters, and underscores instead of spaces. For example: `facebook_like_button`.
 
     - If your Magento installation has multiple store views, choose each **Store View** where the block is to be available.
-  
+
     <!--{% if "Default.EE-B2B" contains site.edition %}-->
     - If using Page Builder, add an [HTML Code]({% link cms/page-builder-elements-html-code.md %}) block to the stage, and paste the snippet of code that you copied from the Facebook site. Otherwise, paste the snippet of code into the **Content** box.
     <!--{% endif %}-->

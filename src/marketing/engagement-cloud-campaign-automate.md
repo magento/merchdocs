@@ -1,6 +1,6 @@
 ---
 title: Automate a Campaign
-redirect_from: 
+redirect_from:
   - /marketing/email-marketing-automation-campaign-automate.html
 ---
 

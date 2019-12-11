@@ -24,14 +24,14 @@ If the key is missing, invalid, or expired, you must add or update the Google AP
 
 1. If you are updating your API Key, locate the previous Google Shopping ads key in the list and click **Delete**.
 
-1. To create a new key, enter a description like "Google Shopping ads" and click **Add New**. 
+1. To create a new key, enter a description like "Google Shopping ads" and click **Add New**.
 
-    ![]({% link images/images/sales-channels/google/config-new-apikey.png %}){: .zoom} 
+    ![]({% link images/images/sales-channels/google/config-new-apikey.png %}){: .zoom}
     _Create an API Key_
 
 1. For the new API Key, click **Copy**.
 
-    ![]({% link images/images/sales-channels/google/config-api-portal.png %}){: .zoom} 
+    ![]({% link images/images/sales-channels/google/config-api-portal.png %}){: .zoom}
     _Copy the API Key_
 
 1. Return to the Magento Admin tab and click **Add the key** on the Google welcome screen.
@@ -42,10 +42,10 @@ If the key is missing, invalid, or expired, you must add or update the Google AP
 
 1. Click <span class="btn">Save Config</span>.
 
-    ![]({% link images/images/sales-channels/google/config-api-key.png %}){: .zoom} 
+    ![]({% link images/images/sales-channels/google/config-api-key.png %}){: .zoom}
     _Add the API Key_
 
-1. On the _Admin_ sidebar, click **Marketing**. Then under _Advertising Channels_, click **Google Shopping ads**. Magento verifies and validates the entered API key. 
+1. On the _Admin_ sidebar, click **Marketing**. Then under _Advertising Channels_, click **Google Shopping ads**. Magento verifies and validates the entered API key.
 
 {:.bs-callout-info}
 You can also [enable service logs]({% link configuration/services/channels.md %}) during this step. This option is disabled by default and should only be enabled when needed for troubleshooting, as continued logging will negatively impact performance.

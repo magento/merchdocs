@@ -28,7 +28,7 @@ The Authorize.Net payment method has replaced the Authorize.Net Direct Post (Dep
 
 
 ### Step 2: Complete Basic Settings
-   
+
 1. Enter a unique **Title** to identify the Authorize.Net payment method during checkout.
 
 1. In the **Environment** field, choose the operating mode for your type of Authorize.Net merchant account.  If working in a test environment, choose 'Sandbox'. For a live store, choose 'Production'.
@@ -92,21 +92,21 @@ CardinalCommerce provides a 3-D Secure Version 2.0 solution that increases appro
 
 1. Return to the Magento Admin. Then on the Admin sidebar, go to **Stores** > Settings > **Configuration**.
 1. In the panel on the left under **Sales**, choose **3D Secure**.
-   
+
     ![]({% link images/images/config-sales-3dsecure-cardinalcommerce.png %}){: .zoom}
     [_CardinalCommerce_]({% link configuration/sales/cardinalcommerce.md %})
 
 1. Set **Enable for Authorize.Net** to 'Yes'.
-1. To choose the **Environment**, do one of the following: 
+1. To choose the **Environment**, do one of the following:
 
-   - If Authorize.Net is currently running in test mode, accept the default 'Sandbox'. 
+   - If Authorize.Net is currently running in test mode, accept the default 'Sandbox'.
    - To set up CardinalCommerce for Authorize.Net in a live store, choose 'Production'.
-  
+
 1. Enter the following credentials from your CardinalCommerce merchant account:
 
    - Org Unit ID
    - API Key
    - API Identifier
 
-1. If you want the system to save a log file of interactions between your store and  CardinalCommerce, set **Debug** to 'Yes'.  
+1. If you want the system to save a log file of interactions between your store and  CardinalCommerce, set **Debug** to 'Yes'.
 1. When complete, click <span class="btn">Save Config</span> in the upper-right corner. Then, click [Cache Management]({% link system/cache-management.md %}) in the message at the top of the workspace, and refresh all invalid caches.

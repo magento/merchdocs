@@ -34,7 +34,7 @@ Check your shipping carrier configuration for any additional settings that may b
 1.  In the **Displayed Error Message** box, type the message to appear if free shipping becomes unavailable.
 
 1.  Set **Ship to Applicable Countries** to one of the following:
-    
+
     * **All Allowed Countries**–Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use free shipping.
 
     * **Specific Countries**–After choosing this option, the Ship to Specific Countries list appears. Select each country in the list where free shipping can be used.

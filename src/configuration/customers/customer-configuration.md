@@ -136,7 +136,7 @@ _Account Information Options_
 ## Customer Segments
 
 ![]({% link images/images-ee/config-customers-customer-configuration-customer-segments.png %}){: .zoom}
-[_Customer Segments_]({% link marketing/customer-segments.md %}) 
+[_Customer Segments_]({% link marketing/customer-segments.md %})
 
 |Template|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

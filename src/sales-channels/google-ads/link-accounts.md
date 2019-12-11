@@ -9,7 +9,7 @@ You must link your Magento web account and your Google account. To accomplish th
 {:.bs-callout-info}
 If you see a message requiring a Google API Key, see [Verifying the Google API Key]({% link sales-channels/google-ads/verify-api-key.md %}).
 
-Your [Google account][1] is a general or business specific account for adding Google services and additional account for Merchant Center and Ads. 
+Your [Google account][1] is a general or business specific account for adding Google services and additional account for Merchant Center and Ads.
 
 - If you already have a Google account, you'll need the login credentials to complete this linking process.
 
@@ -32,7 +32,7 @@ We recommend using (or creating) a Google account that is associated to your bus
 
     You may need to enter an authenticator (if added to the account during creation).
 
-    ![]({% link images/images/sales-channels/google/gmc-onboard-google-login.png %}){: .zoom} 
+    ![]({% link images/images/sales-channels/google/gmc-onboard-google-login.png %}){: .zoom}
     *Create a Smart Shopping Campaign*
 
 ![check]({% link images/images/btn-next.png %}){: .Inline}[Continue to Google Merchant Center Account]({% link sales-channels/google-ads/gmc-acct-create.md %})

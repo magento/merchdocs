@@ -97,7 +97,7 @@ _Create Credit Memo_
 
     <!--{% if "Default.B2B Only" contains site.edition %}-->
    - Refund to Company Credit
-  
+
     <!--{% endif %}-->
 1. To add a comment to the completed credit memo, scroll down to the Comments History section and enter the comment in the box.
 

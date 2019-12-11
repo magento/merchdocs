@@ -287,7 +287,7 @@ pages:
     - label: Configuring Wish Lists
       url: "/marketing/wishlist-configuration.html"
     - label: Updating Wish Lists
-      url: "/marketing/wishlist-update.html"  
+      url: "/marketing/wishlist-update.html"
     - label: Sharing a Wish List
       url: "/marketing/wishlist-share.html"
   - label: Product Relationships
@@ -536,7 +536,7 @@ pages:
   url: "/marketing/google-tools.html"
   children:
   - label: Google Settings for GDPR
-    url: "/stores/compliance-gdpr-google.html" 
+    url: "/stores/compliance-gdpr-google.html"
   - label: Google Analytics
     url: "/marketing/google-universal-analytics.html"
   - label: Google Content Experiments

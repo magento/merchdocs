@@ -27,7 +27,7 @@ In this step, you will create a Batch Fulfillment Rule to automate the batch pro
 1.  Create a rule:
 
     *  Scroll down to the _Batch Fulfillment Rules_ section.
-   
+
     *  Click **Create Rule**.
 
         ![]({% link images/images/shipping-magento-shipping-experiences-batch-fulfilment-rules.png %}){: .zoom}

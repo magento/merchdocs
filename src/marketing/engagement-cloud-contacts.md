@@ -1,6 +1,6 @@
 ---
 title: Import Your Contacts
-redirect_from: 
+redirect_from:
   - /marketing/email-marketing-automation-contacts.html
 ---
 

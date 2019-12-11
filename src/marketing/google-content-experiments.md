@@ -50,7 +50,7 @@ You must have the appropriate permissions to the Google account to create an exp
       - Identify the experiment location as either "Website" or "Mobile app".
 
       - Enter a descriptive **Reporting View Name**.
-  
+
       - Specify the **Reporting Time Zone**.
 
     - When complete, click <span class="btn">Create View</span>. Then, click the back arrow to return to the previous page.

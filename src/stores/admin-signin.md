@@ -22,7 +22,7 @@ _Admin Sign In_
 
    You can bookmark the page or save a shortcut on your desktop for easy access.
 
-1. Enter your Admin **Username** and **Password**. 
+1. Enter your Admin **Username** and **Password**.
 
    These values may populate depending on your browser's autocomplete setting.
 

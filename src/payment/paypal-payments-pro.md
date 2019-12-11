@@ -18,7 +18,7 @@ You can have two PayPal solutions active at the same time: PayPal Express Checko
 
 ## Requirements
 
-* [PayPal Merchant Account][1] (with Direct Payments Activated)  
+* [PayPal Merchant Account][1] (with Direct Payments Activated)
 
 ## Checkout Workflow
 {: .ReferenceH4}
@@ -78,7 +78,7 @@ Before you begin, set up your PayPal Payments Pro account on the PayPal website.
    {:.bs-callout-info}
    If you have multiple Magento websites, you must create a separate PayPal Payments Pro account for each.
 
-1. PayPal recommends that you set up an additional user on your account. 
+1. PayPal recommends that you set up an additional user on your account.
 
    To set up an additional user, do the following:
 
@@ -273,11 +273,11 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
    - To run test reports before “going live” with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
 
-   - Enter the **Custom Endpoint Hostname or IP Address**. 
+   - Enter the **Custom Endpoint Hostname or IP Address**.
 
      By default, the value is: `reports.paypal.com`
 
-   - Enter the **Custom Path** where reports are saved. 
+   - Enter the **Custom Path** where reports are saved.
 
      By default, the value is: `/ppreports/outgoing`
 
