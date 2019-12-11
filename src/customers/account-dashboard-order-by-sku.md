@@ -23,7 +23,7 @@ Use either or both of the following methods to add products by SKU:
 1. To prepare the list, do the following:
 
     - In a spreadsheet, create a file with the column headers `sku` and `qty` in lowercase characters.
-  
+
     - Enter the **sku** and **qty** value of each product that you want to import.
 
     - Save it as a [CSV]({% link system/data-csv.md %}) (Comma Separated Value) file.

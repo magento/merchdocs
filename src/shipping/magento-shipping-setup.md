@@ -77,7 +77,7 @@ Log in to your **Magento Shipping** account in the Magento Shipping Portal. Acce
 1. Complete the following settings as needed.
 
     - Set **Ship to Applicable Countries** to one of the following:
-    
+
       - **All Allowed Countries** – Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use Magento Shipping.
 
       - **Specific Countries** – Select each country in the list where Magento Shipping can be used. (Hold down the Ctrl key and click each country.)

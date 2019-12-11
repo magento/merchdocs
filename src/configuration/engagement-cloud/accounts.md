@@ -1,6 +1,6 @@
 ---
 title: Accounts
-redirect_from: 
+redirect_from:
   - /configuration/dotmailer/api-credentials.html
   - /configuration/dotmailer/data-accounts.html
 ---

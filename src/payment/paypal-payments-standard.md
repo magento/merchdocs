@@ -255,11 +255,11 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 
    - To run test reports before “going live” with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
 
-   - Enter the **Custom Endpoint Hostname or IP Address**. 
+   - Enter the **Custom Endpoint Hostname or IP Address**.
 
      By default, the value is: `reports.paypal.com`
 
-   - Enter the **Custom Path** where reports are saved. 
+   - Enter the **Custom Path** where reports are saved.
 
      By default, the value is: `/ppreports/outgoing`
 

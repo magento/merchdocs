@@ -1,6 +1,6 @@
 ---
 title: Import
-redirect_from: 
+redirect_from:
   - /system/data-import-troubleshooting.html
 ---
 
@@ -80,7 +80,7 @@ _Import_
 
 1. If you want to enclose any special characters that might be found in the data as an _escape sequence_, select the **Fields Enclosure** checkbox.
 
-    ![Data import behavior]({% link images/images/data-import-import-behavior.png %}){: .zoom} 
+    ![Data import behavior]({% link images/images/data-import-import-behavior.png %}){: .zoom}
     _Import Behavior_
 
 ## Step 3: Identify the Import File
@@ -89,7 +89,7 @@ _Import_
 
 1. Find the CSV file that you prepared to import and click **Open**.
 
-1. In the **Images File Directory** field, enter the relative path to the location on the Magento server where uploaded images are stored. 
+1. In the **Images File Directory** field, enter the relative path to the location on the Magento server where uploaded images are stored.
 
    For example: `var/import`.
 

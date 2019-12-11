@@ -105,7 +105,7 @@ For additional information, see Google's [Container export and import][5]. These
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Google Analytics** section and configure the following:
 
-    ![Sales configuration - Google Analytics]({% link images/images-ee/config-sales-google-api-google-analytics-google-tag-manager.png %}){: .zoom} 
+    ![Sales configuration - Google Analytics]({% link images/images-ee/config-sales-google-api-google-analytics-google-tag-manager.png %}){: .zoom}
     [_Google API - Google Tag Manager_]({% link configuration/sales/google-api.md -%})
 
     - Set **Enable** to `Yes`.

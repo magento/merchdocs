@@ -24,15 +24,15 @@ The system has one predefined Default User role, which you can use “as is" or 
 
 ### Create a role
 
-1. Click <span class="btn">Add New Role</span>. 
+1. Click <span class="btn">Add New Role</span>.
 
    ![]({% link images/images-b2b/customer-company-roles-permissions-add.png %}){: .zoom}
    _Add New Role_
 
 1. Enter a descriptive **Role Name**.
-  
+
 1. Under _Role Permissions_, do one of the following:
-  
+
   - Select the checkbox of each resource or activity that users assigned the role have permission to access.
 
   - Select the **All** checkbox. Then, clear the checkbox of each resource or activity that users assigned to the role do not have permission to access.

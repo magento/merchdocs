@@ -65,7 +65,7 @@ Configure the default configuration options for product and stock for your websi
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Admin bulk operations** section.
 
-   1. Set **Run asynchronously** to run bulk operations asynchronously for mass product actions including bulk [assign sources]({% link catalog/inventory-bulk-assign-sources.md %}), [unassign sources]({% link catalog/inventory-bulk-unassign-sources.md %}), and [transfer inventory to source]({% link catalog/inventory-bulk-transfer-inventory.md %}). It collects bulk actions up to the Asynchronous batch size, then runs those actions. This option is disabled by default. We recommend reviewing your performance with bulk actions before enabling. 
+   1. Set **Run asynchronously** to run bulk operations asynchronously for mass product actions including bulk [assign sources]({% link catalog/inventory-bulk-assign-sources.md %}), [unassign sources]({% link catalog/inventory-bulk-unassign-sources.md %}), and [transfer inventory to source]({% link catalog/inventory-bulk-transfer-inventory.md %}). It collects bulk actions up to the Asynchronous batch size, then runs those actions. This option is disabled by default. We recommend reviewing your performance with bulk actions before enabling.
 
         {% include inventory-async-queues.md %}
 

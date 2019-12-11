@@ -1,6 +1,6 @@
 ---
 title: Extension Manager
-redirect_from: 
+redirect_from:
   - /system/component-manager.html
 ---
 
@@ -52,7 +52,7 @@ Installed Extensions
         _Extensions Ready to Install_
 
     -  In the _Latest version_ column, choose the version that you want to install.
-   
+
     -  Then in the _Action_ column, click **Install**.
 
 1.  Follow the onscreen instructions to complete the following:

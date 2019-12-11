@@ -5,7 +5,7 @@ title: Check / Money Order
 
 Magento allows you to accept payments by check or money order. The Check / Money Order payment method is enabled for your story by default. You can accept checks and money orders from only specific countries, and fine-tune the configuration with minimum and maximum order total limits.
 
-![Check / Money Order]({% link images/images/config-sales-payment-methods-check-money-order.png %}){: .zoom}  
+![Check / Money Order]({% link images/images/config-sales-payment-methods-check-money-order.png %}){: .zoom}
 [_Check / Money Order_]({% link configuration/sales/payment-methods.md %})
 
 ## To configure payment by check or money order:

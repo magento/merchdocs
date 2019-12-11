@@ -1,6 +1,6 @@
 ---
 title: Social
-redirect_from: 
+redirect_from:
   - /marketing/social-connect-to-facebook.html
 ---
 

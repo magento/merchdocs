@@ -1,7 +1,7 @@
 ---
 title: Magento Marketplace
 group: operations
-redirect_from: 
+redirect_from:
   - /magento/magento-connect.html
 ---
 

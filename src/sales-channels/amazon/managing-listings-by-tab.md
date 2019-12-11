@@ -7,7 +7,7 @@ title: Managing Product Listings by Tab
 
 [Manage Listings by Action]({% link sales-channels/amazon/managing-listings-by-action.md %})
 
-![]({% link images/images/sales-channels/amazon/ob-store-review-tabs.png %}){: .zoom}   
+![]({% link images/images/sales-channels/amazon/ob-store-review-tabs.png %}){: .zoom}
  _Product Listings tabs_
 
 |Tab|Description|Actions|

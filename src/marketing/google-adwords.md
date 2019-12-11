@@ -87,7 +87,7 @@ _Magento Ad in Google Search Results_
     - Enter the encrypted text for the **Conversion Label** that appears on the Google Sites Stat notification.
 
         For example: `MlEYCOKBnGoQz6CZoAM`
-    
+
         **Sample Google AdWords Tag Code**
 
         ```html

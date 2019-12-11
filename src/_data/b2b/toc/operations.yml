@@ -322,7 +322,7 @@ pages:
     url: "/reports/business-intelligence.html"
     children:
     - label: Advanced Reporting
-      url: "/reports/advanced-reporting.html"      
+      url: "/reports/advanced-reporting.html"
     - label: BI Essentials
       url: "https://docs.magento.com/mbi/getting-started/getting-started.html"
   - label: Customer Engagement

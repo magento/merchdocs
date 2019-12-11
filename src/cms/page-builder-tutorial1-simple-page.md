@@ -81,7 +81,7 @@ _Full Bleed Row with Banner_
     ![]({% link images/images-ee/page-builder-layout-page-add-content.png %}){: .zoom}
     _Content Stage with Empty Row_
 
-1. Hover over the empty row to make the toolbox appear. 
+1. Hover over the empty row to make the toolbox appear.
 
    Each content container has a toolbox with a similar set of options.
 
@@ -537,7 +537,7 @@ The second column of the row will contain content from a customer review, includ
         ![]({% link images/images-ee/page-builder-tutorial1-column2-5stars-centered.png %}){: .zoom}
         _Centered Image_
 
-1. Position the insertion point just after the 5-star image and press the **Enter** key to start a new line. Then, enter the following text. 
+1. Position the insertion point just after the 5-star image and press the **Enter** key to start a new line. Then, enter the following text.
 
     | Awesome Tank! </ br> I’m a long distance runner and it keeps me pretty comfortable, although these companies always act like their shirts are magical and really it’s just pretty basic stuff. Still it’s a great shirt and I would recommend it.</ br> Antonia Racer Tank – Reviewed by Allyson |
 

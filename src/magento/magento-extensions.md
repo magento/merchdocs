@@ -26,7 +26,7 @@ Google reCAPTCHA ensures that a human being, rather than a computer, is interact
 
 ## Two-Factor Authentication
 
-The Magento Admin provides all access to your store, orders, and customer data. To further increase security to your Magento instance, Magento Two-Factor Authentication (2FA) adds support for [two-step authentication]({% link stores/security-two-factor-authentication.md %}) for multiple providers. 
+The Magento Admin provides all access to your store, orders, and customer data. To further increase security to your Magento instance, Magento Two-Factor Authentication (2FA) adds support for [two-step authentication]({% link stores/security-two-factor-authentication.md %}) for multiple providers.
 
 {:.bs-callout-info}
 **Magento Community Contribution** - Magento thanks [Riccardo Tempesta](https://twitter.com/rictempesta) of [MageSpecialist](https://partners.magento.com/portal/details/partner/id/129/) for contributing these features as part of the Magento Community Engineering program.

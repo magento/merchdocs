@@ -67,7 +67,7 @@ A core/text block can be used to enter free form text directly into the template
 <reference name="content">
    <block type="core/text" name="test.block">
       <action method="addText">
-         <txt><![CDATA[<h2>ATTENTION!</h2><p>Check your options 
+         <txt><![CDATA[<h2>ATTENTION!</h2><p>Check your options
 carefully before you submit.</p>]]></txt>
       </action>
    </block>

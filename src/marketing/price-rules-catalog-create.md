@@ -23,7 +23,7 @@ Follow these instructions to apply a discount to specific products whenever a se
 1. In the **Rule Information** section, do the following:
 
    - Complete the **Rule Name** and **Description** fields. These fields are for your internal reference only.
-  
+
    <!--{% if "Default.CE Only" contains site.edition %}-->
    - Set the **Status** of the price rule as needed. By default, the status is `Active`.
 
@@ -34,7 +34,7 @@ Follow these instructions to apply a discount to specific products whenever a se
    - Select the **Websites** where the rule is to be available.
 
    - Select the **Customer Groups** to which this rule applies.
-  
+
      To choose multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
      {:.bs-callout-info}
@@ -42,7 +42,7 @@ Follow these instructions to apply a discount to specific products whenever a se
 
    <!--{% if "Default.CE Only" contains site.edition %}-->
    - Enter the **From** and **To** dates to determine when the price rule is in effect.
-  
+
       You can enter the dates or use the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the dates. If you leave the dates blank, the rule is enabled as soon as the price rule is saved.
    <!--{% endif %}-->
 

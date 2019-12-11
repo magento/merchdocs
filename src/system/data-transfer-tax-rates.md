@@ -26,7 +26,7 @@ If you conduct business in several states and ship a large quantity of product, 
     - Range To
     - A column for each store view
 
-    ![Exported data - tax rates]({% link images/images/data-exported-tax-rates.png %}){: .zoom} 
+    ![Exported data - tax rates]({% link images/images/data-exported-tax-rates.png %}){: .zoom}
     _Exported Tax Rate Data_
 
 1. Open the new tax rate data in a second instance of the spreadsheet, so you can see them side by side.

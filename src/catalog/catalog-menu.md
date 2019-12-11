@@ -1,6 +1,6 @@
 ---
 title: Catalog Menu
-redirect_from: 
+redirect_from:
   - /catalog.html
 ---
 

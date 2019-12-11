@@ -1,6 +1,6 @@
 ---
 title: Setting Up Engagement Cloud
-redirect_from: 
+redirect_from:
   - /marketing/email-marketing-dotmailer-setup.html
 ---
 

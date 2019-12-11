@@ -1,6 +1,6 @@
 ---
 title: Module Manager
-redirect_from: 
+redirect_from:
   - /configuration/advanced/advanced.html
 ---
 

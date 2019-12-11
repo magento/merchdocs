@@ -1,6 +1,6 @@
 ---
 title: Design Configuration
-redirect_from: 
+redirect_from:
   - /configuration/general/design.html
 ---
 

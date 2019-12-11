@@ -4,7 +4,7 @@ title: Order Status Notification
 
 Customers can track the status of their orders by [RSS feed]({% link marketing/rss-feed.md %}) if the Order RSS feed is enabled in the configuration.  When enabled, a link to the RSS feed appears on each order.
 
-![]({% link images/images/config-catalog-rss-feeds-order.png %}){: .zoom}  
+![]({% link images/images/config-catalog-rss-feeds-order.png %}){: .zoom}
 [Customer Order Status Notification]({% link configuration/catalog/rss-feeds.md %})
 _Customer Order Status Notification_
 

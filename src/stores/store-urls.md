@@ -45,7 +45,7 @@ Magento can be configured to deliver all pages over `https` by default. If your 
 
        For a typical installation, there is no need to update the paths for the static view files or media files because they are relative to the base URL.
 
-    ![General configuration - web base URLs]({% link images/images/config-general-web-base-urls.png %}){: .zoom} 
+    ![General configuration - web base URLs]({% link images/images/config-general-web-base-urls.png %}){: .zoom}
     [_Base URLs_]({% link configuration/general/web.md %})
 
     {:.bs-callout-info}

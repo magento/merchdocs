@@ -24,7 +24,7 @@ _Free Shipping Banner in Header_
     - In the **Applies To** list, select one of the following:
 
       - Any Banner Type
-  
+
       - Specified Banner Types
 
          This setting determines the location on the page where the banner is placed. (To select more than one, hold the Ctrl key down and click each option.)

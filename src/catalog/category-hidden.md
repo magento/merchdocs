@@ -12,7 +12,7 @@ There are many ways to use hidden categories. You might want to create additiona
 
    * Set **Is Active** to `Yes`.
    * Set **Include in Menu** to `No`.
-  
+
 1. In the **Display Settings** section, set **Anchor** to `No`.
 
     The hidden category is active, but does not appear in the top menu, or in layered navigation.

@@ -14,7 +14,7 @@ _
   ![Cart price rule]({% link images/images/price-rule-cart.png %}){: .zoom}
   _Cart Price Rules_
 
-1.  If you have many rules, use the filter options at the top of each column to streamline the list. Then, click <span class="btn">Search</span> to apply the filter(s). 
+1.  If you have many rules, use the filter options at the top of each column to streamline the list. Then, click <span class="btn">Search</span> to apply the filter(s).
 
 1.  To clear all filter options and display the complete list, click **Reset Filter**.
 
