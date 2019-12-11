@@ -4,7 +4,7 @@ title: System Upgrade
 
 The System Upgrade tool can be used to upgrade your Magento installation from the Admin. The upgrade is a three-step process that should take place during off-peak hours. Before upgrade takes place, your store is put into maintenance mode, checked for readiness, and backed up.
 
-We strongly recommend reviewing the latest [release notes][1]{: target="_blank"} and [system requirements][2]{: target="_blank"} in the developer documentation.
+We strongly recommend reviewing the latest [release notes][1]{:target="_blank"} and [system requirements][2]{:target="_blank"} in the developer documentation.
 
 ## Upgrade requirements
 
@@ -20,7 +20,7 @@ Always flush the cache when upgrading from one version of Open Source or Commerc
 
 {% include flush-cache.md %}
 
-For developer information on upgrades, see [Command Line Upgrade][3]{: target="_blank"} in the developer documentation. The upgrade instructions include scripts to help run and complete your upgrades. These steps require developer assistance.
+For developer information on upgrades, see [Command Line Upgrade][3]{:target="_blank"} in the developer documentation. The upgrade instructions include scripts to help run and complete your upgrades. These steps require developer assistance.
 
 ![Web setup - System Upgrade]({% link images/images/web-setup-system-upgrade.png %}){: .zoom}
 _System Upgrade_
@@ -29,7 +29,7 @@ _System Upgrade_
 
 1. Retrieve your access keys:
 
-    - Go to [Magento Marketplace][2]{: target="_blank"} and log into your account.
+    - Go to [Magento Marketplace][2]{:target="_blank"} and log into your account.
 
     - On the _Marketplace_ tab, go to **My Products** and click **Access Keys**.
 

@@ -6,7 +6,7 @@ redirect_from:
 
 Installing an extension is a three-step process that should take place during off-peak hours. Before the extension is installed, your store is put into maintenance mode, checked for readiness, and backed up. After the extension is installed, it must be configured for your store according to the developer’s instructions.
 
-For technical information, see [Run the Extension Manager][1]{: target="_blank"} in the developer documentation.
+For technical information, see [Run the Extension Manager][1]{:target="_blank"} in the developer documentation.
 
 {% include flush-cache.md %}
 
@@ -17,7 +17,7 @@ _Installed Extensions_
 
 1. Retrieve your access keys:
 
-    - Go to [Magento Marketplace][2]{: target="_blank"} and log into your account.
+    - Go to [Magento Marketplace][2]{:target="_blank"} and log into your account.
 
     - On the _Marketplace_ tab, go to **My Products** and click **Access Keys**.
 

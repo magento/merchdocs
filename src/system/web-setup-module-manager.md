@@ -9,7 +9,7 @@ Module Manager lists the components and modules that are currently installed in 
 - The colored dot in the first column indicates if the module is currently _on_ or _off_.
 - Click the down arrow before the component name to list any dependent packages that are associated with the module.
 
-See [Run the Module Manager][1]{: target="_blank"} in the developer documentation.
+See [Run the Module Manager][1]{:target="_blank"} in the developer documentation.
 
 {% include flush-cache.md %}
 

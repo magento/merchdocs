@@ -7,7 +7,7 @@ Template Path Hints are a diagnostic tool that adds notation with the path to ea
 {:.bs-callout-info}
 Template Path Hints can be edited in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
-See [Locate templates, layouts, and styles][1]{: target="_blank"} in the developer documentation.
+See [Locate templates, layouts, and styles][1]{:target="_blank"} in the developer documentation.
 
 ![Example storefront - template path hints]({% link images/images/storefront-template-path-hints.png %}){: .zoom}
 _Template Path Hints in Storefront_

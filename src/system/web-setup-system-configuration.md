@@ -10,7 +10,7 @@ You need to generate, copy, and paste Marketplace access keys from your Marketpl
 
 1. Retrieve your access keys:
 
-    - Go to [Magento Marketplace][2]{: target="_blank"} and log into your account.
+    - Go to [Magento Marketplace][1]{:target="_blank"} and log into your account.
 
     - On the _Marketplace_ tab, go to **My Products** and click **Access Keys**.
 
