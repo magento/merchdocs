@@ -4,9 +4,9 @@ group: getting-started
 ---
 
 {: .bs-callout .bs-callout-info}
-This is the first in a series of topics to help Magento merchants and developers understand the implications of the California Consumer Protection Act, and to provide guidance and technical information for compliance with the legislation. 
+This is the first in a series of topics to help Magento merchants and developers understand the implications of the California Consumer Protection Act, and to provide guidance and technical information for compliance with the legislation.
 
-The [California Consumer Protection Act][1]{: target="_blank"} (CCPA) expands the rights of consumers in California to determine how their personal information is collected, stored, and used, with an emphasis on protecting consumers from the unauthorized sale or exchange or their personal information. The CCPA was enacted in 2018 and is effective as of January 1, 2020. 
+The [California Consumer Protection Act][1]{: target="_blank"} (CCPA) expands the rights of consumers in California to determine how their personal information is collected, stored, and used, with an emphasis on protecting consumers from the unauthorized sale or exchange or their personal information. The CCPA was enacted in 2018 and is effective as of January 1, 2020.
 
 The CCPA grants the following new rights to consumers:
 
@@ -26,8 +26,8 @@ The CCPA also requires businesses to provide "reasonable security", and includes
 Please consult with your legal counsel to determine whether and how you should comply with any CCPA requirements that may be applicable to you and your business, including the new notice, opt-out, and record-keeping requirements that businesses must implement in accordance with the law.
 
 ## Business Requirements
- 
-The CCPA applies to the following businesses &mdash; regardless of where the business is registered &mdash; that sell products and/or services to consumers who reside in the State of California, and that collect personal information: 
+
+The CCPA applies to the following businesses &mdash; regardless of where the business is registered &mdash; that sell products and/or services to consumers who reside in the State of California, and that collect personal information:
 
 (1) A sole proprietorship, partnership, limited liability company, corporation, association, or other legal entity that is organized or operated for the profit or financial benefit of its shareholders or other owners, that collects consumers’ personal information, or on the behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers’ personal information, that does business in the State of California, and that satisfies one or more of the following thresholds:
 
@@ -41,5 +41,3 @@ The CCPA applies to the following businesses &mdash; regardless of where the bus
 **If your business is subject to CCPA requirements, please consult our [CCPA Compliance Guide]({% link stores/compliance-ccpa-guide.md -%}).**
 
 [1]: https://oag.ca.gov/privacy/ccpa
-[2]: https://oag.ca.gov/sites/all/files/agweb/pdfs/privacy/ccpa-rulemaking-fact-sheet.pdf
-[3]: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180SB1121
