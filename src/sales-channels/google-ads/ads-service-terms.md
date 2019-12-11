@@ -11,7 +11,7 @@ To create your account, you need to read and accept the Google Merchant Center [
 
 1. On the **Google Ads terms of service** page, select the **I have read and agree to all terms of service** checkbox.
 
-    ![]({% link images/images/sales-channels/google/ads-onboard-terms.png %}){: .zoom}   
+    ![]({% link images/images/sales-channels/google/ads-onboard-terms.png %}){: .zoom}
 
 1. Click <span class="btn">Continue</span>.
 

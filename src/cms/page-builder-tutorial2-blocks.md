@@ -6,7 +6,7 @@ title: 'Tutorial 2: Blocks'
 The following tutorial illustrates the difference between [simple blocks]({% link cms/blocks.md %}) and [dynamic blocks]({% link cms/page-builder-add-dynamic-block.md %}), and how to use Page Builder to create each type of block.
 
 {:.bs-callout-info}
-Page Builder has a new content type called _Banner_ which is featured in the first tutorial and is unrelated to the previous banner functionality. What was previously the "Banner” option in the Content menu is now "Dynamic Block". 
+Page Builder has a new content type called _Banner_ which is featured in the first tutorial and is unrelated to the previous banner functionality. What was previously the "Banner” option in the Content menu is now "Dynamic Block".
 
 ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-storefront.png %}){: .zoom}
 _Dynamic Block in Storefront_
@@ -153,7 +153,7 @@ You have completed the Part 1 of the Block tutorial. Make sure to keep your work
 
 A dynamic block includes logic that determines where, when, and to whom it appears. In this tutorial, you will create a dynamic block for a promotion that is triggered when price rule conditions are met, and that appears only to a specific customer segment. The end result of this example is similar to the banner that was created in the first tutorial, but with logic that controls when it appears in the storefront.
 
-![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-row-page.png %}){: .zoom} 
+![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-row-page.png %}){: .zoom}
 _Luma Tee Promotion_
 
 ### Step 1: Create a Dynamic Block
@@ -223,8 +223,8 @@ The row is now divided into two columns of equal width.
 
 1. Enter the following 3 lines of text into the editor:
 
-        Even more ways to mix and match. 
-        Buy 3 Luma tees and get a 4th free. 
+        Even more ways to mix and match.
+        Buy 3 Luma tees and get a 4th free.
         Shop Tees >
 
     ![]({% link images/images-ee/page-builder-tutorial2-column-text-editor.png %}){: .zoom}
@@ -339,7 +339,7 @@ In the first tutorial, you learned how to use the [Button]({% link cms/page-buil
     ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-on-page.png %}){: .zoom}
     _Dynamic Block On Page_
 
-**Congratulations!** 
+**Congratulations!**
 You have completed the Part 2 of the Block tutorial. Make sure to keep your work for reference.
 
 ## PART 3: Edit a Dynamic Block

@@ -9,7 +9,7 @@ title: 'Onboarding: Price Rule Conditions'
 
 If you are managing a store that is in "Active" or "Inactive" status, see [Price Rule Conditions]({% link sales-channels/amazon/pricing-rule-conditions.md %}).
 
-Conditions determine which products will be eligible for the price rule. Defining the conditions for your Amazon pricing rules follow the same logic and process as defining the conditions for [Cart Price Rules]({% link marketing/price-rules-cart.md %}) in Magento. 
+Conditions determine which products will be eligible for the price rule. Defining the conditions for your Amazon pricing rules follow the same logic and process as defining the conditions for [Cart Price Rules]({% link marketing/price-rules-cart.md %}) in Magento.
 
 **If your price rule applies to all products in your Magento catalog, then leave this section blank.**
 

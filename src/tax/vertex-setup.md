@@ -1,6 +1,6 @@
 ---
 title: Setting Up Vertex
-redirect_from: 
+redirect_from:
   - /tax/vertex-configure.html
 ---
 

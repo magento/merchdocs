@@ -14,7 +14,7 @@ _Dashboard_
 
 ## Configure the chart
 
-On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration** and complete any of the following settings. 
+On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration** and complete any of the following settings.
 
 When your configurations are complete, click <span class="btn">Save Config</span>.
 

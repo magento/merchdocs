@@ -32,7 +32,7 @@ Template Files  | Minify
     - Set **Merge CSS Files** to `Yes`.
     - Set **Minify CSS Files** to `Yes`.
 
-    ![Advanced configuration - CSS settings]({% link images/images/config-advanced-developer-css-settings.png %}){: .zoom} 
+    ![Advanced configuration - CSS settings]({% link images/images/config-advanced-developer-css-settings.png %}){: .zoom}
     [_CSS Settings_]({% link configuration/advanced/developer.md %})
 
 1. To optimize JavaScript files, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **JavaScript Settings** section and do the following:

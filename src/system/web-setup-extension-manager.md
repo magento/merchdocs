@@ -1,6 +1,6 @@
 ---
 title: Extension Manager
-redirect_from: 
+redirect_from:
   - /system/component-manager.html
 ---
 

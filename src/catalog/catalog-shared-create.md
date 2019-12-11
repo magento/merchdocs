@@ -74,7 +74,7 @@ If a public shared catalog is duplicated, the type of the duplicate catalog chan
 
     The duplicate appears in the Shared Catalogs grid, with a unique ID.
 
-    ![]({% link images/images-b2b/catalog-shared-grid-duplicate.png %}){: .zoom} 
+    ![]({% link images/images-b2b/catalog-shared-grid-duplicate.png %}){: .zoom}
     *New Shared Catalog*
 
 ## Step 2: Complete the Setup

@@ -1,6 +1,6 @@
 ---
 title: Other PayPal Solutions
-redirect_from: 
+redirect_from:
   - /payment/paypal-all-in-one.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Create a Campaign
-redirect_from: 
+redirect_from:
   - /marketing/email-marketing-campaign-create.html
 ---
 
@@ -135,7 +135,7 @@ _Add a Link_
 
 1. In the template, hover over the menu background to highlight the entire row.
 
-1. In the sidebar under the color picker, enter the hexadecimal code for the background color of your store’s menu. 
+1. In the sidebar under the color picker, enter the hexadecimal code for the background color of your store’s menu.
 
    In the Magento Luma store, the background color of the menu is `#f0f0f0`.
 

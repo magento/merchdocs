@@ -17,7 +17,7 @@ PayPal has deprecated support for the sale of digital goods through PayPal Expre
 
 ## Requirements
 
-- Merchant: [Personal PayPal Account][1] 
+- Merchant: [Personal PayPal Account][1]
 - Customer: [Personal PayPal Account][2]
 
 ## Checkout Workflow
@@ -305,11 +305,11 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 
    - To run test reports before “going live” with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
 
-   - Enter the **Custom Endpoint Hostname or IP Address**. 
+   - Enter the **Custom Endpoint Hostname or IP Address**.
 
      By default, the value is: `reports.paypal.com`
 
-   - Enter the **Custom Path** where reports are saved. 
+   - Enter the **Custom Path** where reports are saved.
 
      By default, the value is: `/ppreports/outgoing`
 
@@ -386,7 +386,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
       - Product Pages
       - Cart Page
       - Mini Cart
-  
+
   For each section, complete the settings.
 
    1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the section.
@@ -431,7 +431,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 #### Features
 
 1. Complete the **Features** section, as needed for your store.
- 
+
    Features settings allow you to disable certain features related to this PayPal solution.
 
    - Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Features** section.

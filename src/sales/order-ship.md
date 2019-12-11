@@ -21,7 +21,7 @@ An order that has been paid, but is awaiting shipment has the `Processing` statu
     - Do one of the following:
 
       - Select the **Carrier** and enter the tracking **Number**.
-  
+
       - Set **Carrier** to “Custom Value”, enter a **Title** for the custom carrier, and enter the tracking **Number**.
 
 1. To make a partial shipment, scroll down to the Items to Ship section, and enter the **Qty to Ship** for each item.

@@ -37,7 +37,7 @@ _Amazon Pay on Product Page_
    _Review &amp; Payments_
 
    The pagination indicator shows how many payment methods are available. However, only four can be viewed at a time.
-  
+
    * Click the **arrow** (![]({% link images/images/btn-next2.png %}){: .Inline}) to view all available options.
 
    * Choose the **Payment Method** that you want to use for the purchase.

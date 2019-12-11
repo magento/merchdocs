@@ -1,6 +1,6 @@
 ---
 title: Business Intelligence Tools
-redirect_from: 
+redirect_from:
   - /reports/bi-essentials-dashboards.html
   - /reports/bi-essentials-report-builder.html
   - /reports/bi-essentials-report-builder-visual.html

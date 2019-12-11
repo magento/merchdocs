@@ -1,6 +1,6 @@
 ---
 title: Root Categories
-redirect_from: 
+redirect_from:
   - /catalog/products-menu.html
 ---
 

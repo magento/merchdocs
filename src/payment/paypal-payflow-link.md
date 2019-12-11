@@ -15,7 +15,7 @@ Credit memos are supported for both online and offline refunds. However, multipl
 
 ## Requirements
 
-* [PayPal Business Account][1]{:target="_blank"} The PayPal Payflow Pro gateway links the merchant account at PayPal with the merchant’s website, and acts both as a gateway and a merchant account.  
+* [PayPal Business Account][1]{:target="_blank"} The PayPal Payflow Pro gateway links the merchant account at PayPal with the merchant’s website, and acts both as a gateway and a merchant account.
 * If you manage multiple Magento websites, you must have a separate PayPal merchant account for each website.
 
 ## Customer Workflow
@@ -228,11 +228,11 @@ Complete the following sections, as needed for your store:
 
    - To run test reports before “going live” with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
 
-   - Enter the **Custom Endpoint Hostname or IP Address**. 
+   - Enter the **Custom Endpoint Hostname or IP Address**.
 
      By default, the value is: `reports.paypal.com`
 
-   - Enter the **Custom Path** where reports are saved. 
+   - Enter the **Custom Path** where reports are saved.
 
      By default, the value is: `/ppreports/outgoing`
 

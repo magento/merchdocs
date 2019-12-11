@@ -1,6 +1,6 @@
 ---
 title: Creating an Individual Customer Account
-redirect_from: 
+redirect_from:
   - /customers/customer-account-admin-create.html
   - /customers/customer-account-create.html
 ---
@@ -140,7 +140,7 @@ _Customer Information_
     ![]({% link images/images/customer-account-information-address-list.png %}){: .zoom}
     _Addresses view_
 
-    The new customer account now appears in the Customers grid. 
+    The new customer account now appears in the Customers grid.
 
     ![]({% link images/images/customers-grid-new-account.png %}){: .zoom}
     _Customers grid_

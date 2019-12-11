@@ -30,7 +30,7 @@ _Map with Location_
     - Do one of the following:
 
       - After your key is verified, click <span class="btn">Save Config</span>.
-  
+
       - If there is a problem with your key, return to the Google Maps Platform site to resolve the problem. Then, try again.
 
     **Need a Google Maps Key**

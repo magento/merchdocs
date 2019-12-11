@@ -36,7 +36,7 @@ Customer group prices are a component of tier pricing, and are set up in a simil
     * Under **Price**, do one of the following:
 
         * Choose **Fixed**. Then, enter the discounted product price.
-       
+
         * Choose **Discount**. Then, enter the discounted price as a percentage of the product price.
 
         ![]({% link images/images/product-price-group-discount.png %}){: .zoom}
