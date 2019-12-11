@@ -7,17 +7,21 @@ Google reCAPTCHA ensures that a human being, rather than a computer, is interact
 ![Google reCAPTCHA - customer login]({% link images/images/customer-account-login-recaptcha.png %}){: .zoom}
 _Customer Login with reCAPTCHA v2_
 
-[Google reCAPTCHA][1] verifies users with increased security and reduced clicks for each of completion, which can be implemented in two ways:
+[Google reCAPTCHA][1] verifies users with increased security and reduced clicks for each of completion, which can be implemented in several ways:
 
-- reCAPTCHA v2 verifies users and customers using an on-click feature proving _I am not a robot_.
-- Invisible reCAPTCHA (**recommended**) performs background verification without user interaction. Users and customers are automatically verified without clicking anything.
+1. reCAPTCHA v2  verifies users and customers using an on-click feature and includes two types
 
-You can use Google reCAPTCHA on the [Admin Sign In]({% link stores/admin-signin.md %}) page, and on various customer pages in the storefront. The styling options include your choice of a light or dark theme, and either a compact or normal size.
+    - _"I am not a robot"_ Checkbox Validate requests with the "I'm not a robot" checkbox. Users and customers  need to click the checkbox and possibly select specific images to complete a challenge.
+    - Invisible reCAPTCHA badge (**recommended**) performs background verification without user interaction. Users and customers are automatically verified and possibly select specific images to complete a challenge.
 
-If you have the standard [Magento CAPTCHA]({% link stores/security-captcha.md %}) enabled, reCAPTCHA will override it. You can have both enabled on your Magento instance without issues.
+2. reCAPTCHA v3 Verify requests with a score based on Google algorithm.
+
+You can use Google reCAPTCHA on the [Admin Sign In]({% link stores/admin-signin.md %}) page, and on various customer pages in the storefront. The reCAPCTHA v2 type includes styling options for your choice of a light or dark theme, and either a compact or normal size.
+
+If you have the standard [Magento CAPTCHA]({% link stores/security-captcha.md %}) enabled, reCAPTCHA will not override it. You can have both enabled on your Magento instance without issues.
 
 ![Google reCAPTCHA - styles]({% link images/images/recaptcha-styles.png %}){: .zoom}
-_Google reCAPTCHA Styles_
+_Google reCAPTCHA v2 Styles_
 
 {:.bs-callout .bs-callout-warning}
 Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini` file includes the following setting: `allow_url_fopen = 1`. This may require developer assistance. See [Required PHP Settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html){: target="_blank"}.
@@ -28,15 +32,21 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
 1. Open the [Google reCAPTCHA page][2] and log in to your account.
 
+1. Create/Register a new site.
+
 1. Enter a **Label** for the keys.
 
-   For example, enter `Magento`. You only need one set of keys for your entire Magento instance.
+   For example, enter `Magento v2 Invisible`. You only need one set of keys per each reCAPTCHA type for your entire Magento instance.
 
 1. Choose the type of Google reCAPTCHA that you want to use:
 
-    - `reCAPTCHA V2` — Verifies with a button click.
-    - `Invisible reCaptcha` — Verifies in the background without interaction.
-
+    - `reCAPTCHA v3` — Verify requests with a score
+        
+    - `reCAPTCHA v2` — Verifies with a button click or images selection
+            
+        - `"I am not a robot" Checkbox` Validate requests with the _"I'm not a robot"_ checkbox
+        - `Invisible reCAPTCHA badge` Validate requests in the background
+            
 1. In the **Domains** text box, enter a list of domains without the HTTP or HTTPS prefix, one per line.
 
    Google verifies the addresses entered.
@@ -51,31 +61,37 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
     ![Google reCAPTCHA - site registration]({% link images/images/recaptcha-register-new-site.png %}){: .zoom}
     _Google reCAPTCHA Site Registration_
 
-1. Click **Register** and do the following:
-
-    - When the domain(s) you added appear at the top of the page, choose the Magento domain to get your keys.
-
-    - Scroll down to the **Adding reCAPTCHA to your site** section and expand **Keys**. You will need these keys when enabling Google reCAPTCHA.
+1. Click **SUBMIT** to complete registration and receive keys.
 
     ![Google reCAPTCHA - keys]({% link images/images/recaptcha-keys.png %})
+    
+{:.bs-callout-info}
+**Pay attention!** Not all keys are applicable for all types of reCAPTCHA and could lead to unexpected behavior. Example Google reCAPTCHA keys generated for _reCAPTCHA v2 "I'm not a robot"_ will not work with _reCAPTCHA v2 Invisible_ and could block functionality where reCAPTCHA is enabled.
+    
 
 ## Step 2: Configure Google reCAPTCHA in Magento
 
+### For reCaptcha v2 types ("I'm not a robot" and Invisible)
+ 
 1. Sign in to the Admin of your Magento store.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the upper-right corner, set **Store View** to `Default Config`.
 
-1. In the left panel, expand _Security_ and choose **Google reCAPTCHA**.
+1. In the left panel, expand _Security_ and choose **Google reCaptcha**.
 
-1. On the page, expand the **General** section and enter the following generated keys:
+1. On the page, expand the **General** section and enter the following generated keys for specific reCAPTCHA type that should be enabled:
 
     - Google API website key
     - Google API secret key
 
     ![Google reCAPTCHA - keys configuration]({% link images/images/config-security-recaptcha-keys.png %}){: .zoom}
     [_Google reCAPTCHA keys_]({% link configuration/security/google-recaptcha.md %})
+    
+1. Select reCaptcha v2 type based on generated keys    
+
+    ![Google reCAPTCHA v2 - type configuration]({% link images/images/config-security-recaptcha-type-v2.png %}){: .zoom}   
 
 1. Expand (![Expansion selector]({% link images/images/btn-expand.png %})) the **Backend** section and set the options
 
@@ -83,9 +99,9 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
     - **Enable** — Set to `Yes`.
 
-    - **Theme** — Choose `Light` or `Dark`.
+    - **Theme** — Choose `Light` or `Dark`. Applicable only to _reCaptcha v2("I am not a robot")_.
 
-    - **Size** — Choose `Normal` or `Compact`.
+    - **Size** — Choose `Normal` or `Compact`.  Applicable only to _reCaptcha v2("I am not a robot")_.
 
     ![Google reCAPTCHA - backend configuration]({% link images/images/config-2fa-google-recaptcha-backend.png %}){: .zoom}
     [_Google reCAPTCHA Backend_]({% link configuration/security/google-recaptcha.md %})
@@ -99,14 +115,11 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
     - **Enable** — Set to `Yes`.
 
-    - **reCAPTCHA type** — Choose the type you want used in Admin forms. You must have added the correct API keys for the type.
+    - **Invisible badge position** — Choose `Inline` or `Bottom Right` or `Bottom Left`. Applicable only to _Invisible reCaptcha v2_ and _Invisible reCaptcha v3_. 
 
-        - reCAPTCHA v2 validates with the “I’m not a robot” checkbox.
-        - Invisible reCAPTCHA (**recommended**) validates in the background without requiring user interactions.
+    - **Theme** — Choose `Light` or `Dark`. Applicable only to _reCaptcha v2("I am not a robot")_.
 
-    - **Theme** — Choose `Light` or `Dark`.
-
-    - **Size** — Choose `Normal` or `Compact`.
+    - **Size** — Choose `Normal` or `Compact`. Applicable only to _reCaptcha v2("I am not a robot")_.
 
     - Select where the CAPTCHA is used.
   
@@ -116,9 +129,74 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
       - **Use in Forgot password**
       - **Use in Contact**
       - **Use in Create user**
+      - **Use in Review**
       - **Use in PayPal PayflowPro payment form**
+      - **Use invisible ReCaptcha in newsletter** Requires an Invisible ReCaptcha v2 or v3 key. If enabled, a badge will be displayed in every page.
+      - **Use in Send To Friend**
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-[1]: https://www.google.com/recaptcha/intro/v3beta.html
+
+### For reCaptcha v3 type
+ 
+1. Sign in to the Admin of your Magento store.
+
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+
+1. In the upper-right corner, set **Store View** to `Default Config`.
+
+1. In the left panel, expand _Security_ and choose **Google reCaptcha**.
+
+1. On the page, expand the **General** section and enter the following generated keys for _reCAPTCHA v3_:
+
+    - Google API website key
+    - Google API secret key
+
+    ![Google reCAPTCHA - keys configuration]({% link images/images/config-security-recaptcha-keys.png %}){: .zoom}
+    [_Google reCAPTCHA keys_]({% link configuration/security/google-recaptcha.md %})
+    
+1. Select *reCaptcha type* as _Invisible reCaptcha v3_   
+
+    ![Google reCAPTCHA v2 - type configuration]({% link images/images/config-security-recaptcha-type-v3.png %}){: .zoom}   
+
+1. Expand (![Expansion selector]({% link images/images/btn-expand.png %})) the **Backend** section and set the options
+
+   If needed, clear the **Use system value** checkbox to change the setting.
+
+    - **Enable** — Set to `Yes`.
+
+    - **Minimum score** — Input value from `0.0` to `1.0` where `1.0` is very likely a good interaction, `0.0` is very likely a bot. For more details see official documentation [Interpreting the score][3]   
+
+    ![Google reCAPTCHA - backend configuration]({% link images/images/config-2fa-google-recaptcha-backend-v3.png %}){: .zoom}
+
+1. Expand (![Expansion selector]({% link images/images/btn-expand.png %})) the **Frontend** section and add Google reCAPTCHA to customer accounts:
+
+    ![Google reCAPTCHA - frontend configuration]({% link images/images/config-2fa-google-recaptcha-v3-frontend.png %}){: .zoom}
+    [_Google reCAPTCHA Frontend_]({% link configuration/security/google-recaptcha.md %})
+
+   If needed, clear the **Use system value** checkbox to change the setting.
+
+    - **Enable** — Set to `Yes`.
+
+    - **Invisible badge position** — Choose `Inline` or `Bottom Right` or `Bottom Left`. Applicable only to _Invisible reCaptcha v2_ and _Invisible reCaptcha v3_. 
+
+    - **Minimum score** — Input value from `0.0` to `1.0` where `1.0` is very likely a good interaction, `0.0` is very likely a bot. For more details see official documentation [Interpreting the score][3]    
+
+    - Select where the CAPTCHA is used.
+  
+      By default, reCAPTCHA is enabled for these pages.
+
+      - **Use in Login**
+      - **Use in Forgot password**
+      - **Use in Contact**
+      - **Use in Create user**
+      - **Use in Review**
+      - **Use in PayPal PayflowPro payment form**
+      - **Use invisible ReCaptcha in newsletter** Requires an Invisible ReCaptcha v2 or v3 key. If enabled, a badge will be displayed in every page.
+      - **Use in Send To Friend**
+
+1. When complete, click <span class="btn">Save Config</span>.
+
+[1]: https://developers.google.com/recaptcha
 [2]: https://www.google.com/recaptcha/admin
+[3]: https://developers.google.com/recaptcha/docs/v3#interpreting_the_score
