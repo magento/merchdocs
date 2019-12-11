@@ -17,7 +17,7 @@ If your business is required to comply with both the [General Data Protection Re
 - The CCPA has additional data inventory and mapping requirements.
 - The regulations have different privacy policy requirements.
 
-Businesses that comply with GDPR might have additional obligations under the CCPA.  To learn more, see the [CCPA Fact Sheet][4].
+Businesses that comply with GDPR might have additional obligations under the CCPA.  To learn more, see the [CCPA Fact Sheet][3]{:target="_blank"}.
 
 ## Compliance Roadmap
 
@@ -64,12 +64,12 @@ Take inventory of your digital properties, including all integrations and those 
 
 1.  Identify each point in the [customer journey]({% link getting-started/quick-tour.md -%}) where personal information is collected, and the type of information that is collected at each step.
 
-    Visitors to your site must be notified in advance, or at the point of data collection. For example, a Magento store without custom integrations collects personal information when a customer account is created, and during checkout. If your store has custom integrations, there might be additional data items and attributes to identify. 
+    Visitors to your site must be notified in advance, or at the point of data collection. For example, a Magento store without custom integrations collects personal information when a customer account is created, and during checkout. If your store has custom integrations, there might be additional data items and attributes to identify.
 
 1.  Although the following topics were written to help Magento merchants in the EU comply with the GDPR, they can be adapted for CCPA compliance. For data flow diagrams and technical information about database entities, see the topic for your version of Magento.
 
-      - [Data Flow Diagrams][2] (Magento 2.x)
-      - [Data Flow Diagrams][3] (Magento 1.x)
+      - [Personal Information Reference (Magento 2.x)][1]
+      - [Personal Information Reference (Magento 1.x)][2]
 
     ![]({% link images/images/gdpr-frontend-data-entry-points.png %}){: .zoom}
     _Storefront Data Entry Points_
@@ -80,7 +80,7 @@ Take inventory of your digital properties, including all integrations and those 
 
 1.  Verify the identity of people who request to know, opt out, or delete, regardless of whether they have a password-protected customer account, or are visiting your store as a guest.
 
-1.  Respond to requests to know, opt out, and delete within a specific (as yet undefined) time frame. 
+1.  Respond to requests to know, opt out, and delete within a specific (as yet undefined) time frame.
 
 1.  Develop a mechanism to present the required notifications in your store, and to collect customer response.
 
@@ -114,10 +114,10 @@ Take inventory of your digital properties, including all integrations and those 
     - Categories of sources from which the personal information is collected
     - Categories of personal information about the customer that you have sold or disclosed for a business purpose
     - Categories of third parties to whom the personal information was sold or disclosed for a business purpose
-    - The reasons why your business collects and/or sells personal information.
+    - The reasons why your business collects and/or sells personal information
 
 1.  Send the content to the team, and if possible, your legal counsel for review.
-   
+
 1.  Determine where the notices will appear, how they will function (each visit, only appear when user is authenticated, or on click-through) and their position and format in relation to other content.
 
 1.  Pass the approved content to your development team.
@@ -125,17 +125,17 @@ Take inventory of your digital properties, including all integrations and those 
 ### Step 6: Review your agreements with service providers.
 
 **Stakeholders:** Legal, Administrative Support
-   
+
 Review and if necessary, update all service provider contracts to reflect CCPA requirements.
 
 ### Step 7: Update your privacy policy.
 
 **Stakeholders:** Legal, Administrative Support
 
-Review your current privacy policy and consider what, if any, additional disclosures are necessary.  
+Review your current privacy policy and consider what, if any, additional disclosures are necessary.
 
 **Use of Personal Information**: You must disclose what personal information is collected, as well as any financial incentives you receive in exchange from the sale of personal information. You must explain how the incentive is allowed under CCPA, and how the value of the personal information is calculated.
-   
+
 **Age of Consent**: If you collect or use personal information about minors, you may be subject to the following requirements:
 
 - **Minors < 13**: Parental authorization is required for minors under the age of 13 to opt in to the sale of their personal information.
@@ -146,9 +146,8 @@ Review your current privacy policy and consider what, if any, additional disclos
 
 **Stakeholders:** Customer Service, Administrative Support
 
-For a period of 24 months after each individual rights request is received, maintain a record of the request and your company's response. 
+For a period of 24 months after each individual rights request is received, maintain a record of the request and your company's response.
 
-[1]: https://en.wikipedia.org/wiki/Online_Privacy_Protection_Act 
-[2]: https://devdocs.magento.com/guides/v2.3/architecture/gdpr/magento-2x.html
-[3]: https://devdocs.magento.com/guides/v2.3/architecture/gdpr/magento-1x.html
-[4]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
+[1]: https://devdocs.magento.com/compliance/privacy/pi-data-reference-m2.html
+[2]: https://devdocs.magento.com/compliance/privaxy/pi-data-reference-m1.html
+[3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
