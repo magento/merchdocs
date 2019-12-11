@@ -31,7 +31,7 @@ Use either or both of the following methods to add products by SKU:
       ![]({% link images/images-ee/account-dashboard-order-by-sku-import.png %}){: .zoom}
       _SKUs to Import_
 
-      {:.bs-callout .bs-callout-info}
+      {:.bs-callout-info}
       Microsoft Excel supports [several CSV formats][1], including CSV (Comma delimited), CSV (Macintosh), and CSV (MS-DOS).
 
 1. On the Order by SKU page, click **Choose File**. Then, locate and select your prepared CSV file.
@@ -43,7 +43,7 @@ Use either or both of the following methods to add products by SKU:
     ![]({% link images/images-ee/account-dashboard-order-by-sku-cart-product-requires-attention.png %}){: .zoom}
     _Product Requires Attention_
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     If you entered duplicate SKUs, the quantities will be combined into a single line item in the shopping cart. Before placing the order, check the quantity ordered to make sure that it is correct. If you change the quantity of any item, click <span class="btn">Update Shopping Cart</span> to recalculate the totals.
 
 1. When ready, click <span class="btn">Proceed to Checkout</span>.

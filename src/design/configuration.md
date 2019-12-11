@@ -27,7 +27,7 @@ _Design Configuration_
 
     * In the **Search String** column, enter the browser ID for the specific device.
 
-    * A search string can be either a normal expression or Perl Compatible Regular Expression (PCRE). To learn more, see: [User Agent][1]{: target="_blank"}. The following search string identifies Firefox:
+    * A search string can be either a normal expression or Perl Compatible Regular Expression (PCRE). To learn more, see: [User Agent][1]{:target="_blank"}. The following search string identifies Firefox:
 
             /^mozilla/i
 

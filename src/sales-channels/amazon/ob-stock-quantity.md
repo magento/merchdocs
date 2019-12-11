@@ -13,7 +13,7 @@ If you are managing a store that is in "Active" or "Inactive" status, see [Stock
 
 These settings are part of your store's **Listing Settings**. Update these configurations during onboarding through the [Listing Settings]({% link sales-channels/amazon/ob-listing-settings.md %}) step.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 For Magento 2.3.x users, Amazon Sales Channel supports the use of the Multi Source Inventory (MSI) extension without any additional setup. See [Managing Inventory]({% link catalog/inventory-management.md %}).
 
 {% include amazon-stock-quantity-configure.md %}

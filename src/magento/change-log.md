@@ -17,20 +17,20 @@ Our documentation is continually updated with new topics, clarifications, and co
 ### Product Releases
 
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-- [Magento for B2B Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.3Commerce.html){: target="_blank"}, 2.3.3
+- [Magento for B2B Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.3Commerce.html){:target="_blank"}, 2.3.3
 <!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
-- [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.3Commerce.html){: target="_blank"}, 2.3.3
+- [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.3Commerce.html){:target="_blank"}, 2.3.3
 <!--{% endif %}-->
 <!--{% if "Default.CE Only" contains site.edition %}-->
-- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.3OpenSource.html){: target="_blank"}, 2.3.3
+- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.3OpenSource.html){:target="_blank"}, 2.3.3
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-- [Page Builder](https://devdocs.magento.com/page-builder/docs/release-notes.html){: target="_blank"}, 1.1
+- [Page Builder](https://devdocs.magento.com/page-builder/docs/release-notes.html){:target="_blank"}, 1.1
 <!--{% endif %}-->
-- [Google Shopping ads Channel](https://devdocs.magento.com/extensions/google-shopping-ads/release-notes/){: target="_blank"}, 3.0.1
-- [Inventory Management](https://devdocs.magento.com/guides/v2.3/inventory/release-notes.html){: target="_blank"}, 1.1.3
-- [Amazon Sales Channel](https://devdocs.magento.com/extensions/amazon-sales/release-notes/){: target="_blank"}, 3.0.0
+- [Google Shopping ads Channel](https://devdocs.magento.com/extensions/google-shopping-ads/release-notes/){:target="_blank"}, 3.0.1
+- [Inventory Management](https://devdocs.magento.com/guides/v2.3/inventory/release-notes.html){:target="_blank"}, 1.1.3
+- [Amazon Sales Channel](https://devdocs.magento.com/extensions/amazon-sales/release-notes/){:target="_blank"}, 3.0.0
 
 ### New Topics
 

@@ -40,7 +40,7 @@ _Orders Grid_
 
 1. Select the records that you want to export.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     Product data cannot be exported from the grid. To learn more, see [Export]({% link system/data-export.md %}).
 
 1. On the **Export** (![Menu selector]({% link images/images/btn-export.png %}){: .Inline}) menu in the upper-right corner, choose one of the following file formats:

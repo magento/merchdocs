@@ -5,7 +5,7 @@ title: Editing a Campaign
 
 Existing campaign objects can be edited from the Dashboard, with the exception of price rule campaigns that do not have end dates.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If a campaign that includes a price rule is initially created without an end date, the campaign cannot later be edited to include an end date. In such a case, it is necessary to create a duplicate campaign and enter the end date that is needed.
 
 Follow the steps below to edit any of the objects in this campaign.

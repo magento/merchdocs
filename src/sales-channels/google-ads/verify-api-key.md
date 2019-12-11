@@ -47,7 +47,7 @@ If the key is missing, invalid, or expired, you must add or update the Google AP
 
 1. On the _Admin_ sidebar, click **Marketing**. Then under _Advertising Channels_, click **Google Shopping ads**. Magento verifies and validates the entered API key. 
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 You can also [enable service logs]({% link configuration/services/channels.md %}) during this step. This option is disabled by default and should only be enabled when needed for troubleshooting, as continued logging will negatively impact performance.
 
 ![check]({% link images/images/btn-next.png %}){: .Inline}[Continue to Step 1]({% link sales-channels/google-ads/link-accounts.md %})

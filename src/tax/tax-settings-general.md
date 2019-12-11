@@ -66,7 +66,7 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
       - `Yes` — Use consistent pricing across different tax rates. If the catalog price includes tax, choose this setting to fix the price regardless of the customer’s tax rate.
       - `No` — Vary the price by tax rate.
 
-        {: .bs-callout-info}
+        {:.bs-callout-info}
         **Important**: 
         If [cross-border trade]({% link tax/tax-cross-border-price.md %}) is enabled, the profit margin changes by tax rate. Profit is determined by the formula (`Revenue - CustomerVAT - CostOfGoodsSold`). To enable cross-border trade, prices must be set to include tax.
 
@@ -79,7 +79,7 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
 
 ## Price Display Settings
 
-{: .bs-callout-info}
+{:.bs-callout-info}
 **Important!** 
 Some combinations of settings related to a price display that both includes and excludes tax can be confusing to the customer. To avoid triggering a warning message, see the [recommended settings]({% link tax/warning-messages.md %}).
 

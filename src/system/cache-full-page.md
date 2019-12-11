@@ -4,7 +4,7 @@ title: Full-Page Cache
 
 Magento uses full-page caching on the server to quickly display category, product, and CMS pages. Full-page caching improves response time and reduces the load on the server. Without caching, each page might need to run blocks of code and retrieve information from the database. However, with full-page caching enabled, a fully-generated page can be read directly from the cache.
 
-{: .bs-callout-info}
+{:.bs-callout-info}
 We recommend that [Varnish Cache][3] be used only in a production environment.
 
 Cached content can be used to process the requests from similar types of visits. As a result, pages shown to a casual visitor might differ from those shown to a customer. For the purposes of caching, each visit is one of three types:

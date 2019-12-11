@@ -36,7 +36,7 @@ The following instructions show how to set up basic layered navigation with filt
 
 1. Repeat these steps for each attribute that you want to include in layered navigation.
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 The [Position field]({% link stores/attributes-product.md %}) will be grayed out by default. You must save the attribute before you can modify this setting.
 
 ## Step 2: Make the Category an Anchor

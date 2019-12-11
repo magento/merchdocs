@@ -19,7 +19,7 @@ _Shipping_
 
 ### Define Pre-Package Assignment
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 The Packaging Type setting is only available for _Simple Product_ and _Bundle Product_ types.
 
 1.  On the _Admin_ sidebar, choose **Catalog** and then **Products**.

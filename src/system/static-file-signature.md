@@ -6,7 +6,7 @@ Adding a digital signature to the URL of static files makes it possible for brow
 
 See [Static content signing][1] in the developer documentation.
 
-{: .bs-callout-info}
+{:.bs-callout-info}
 The Static File Settings configuration is available only when working in [developer mode]({% link magento/installation-modes.md %}).
 
 ![]({% link images/images/config-advanced-developer-static-files-settings.png %})<br/>

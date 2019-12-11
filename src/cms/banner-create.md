@@ -3,7 +3,7 @@ conditions: Default.EE-B2B
 title: Creating a Banner
 ---
 
-{: .bs-callout .bs-callout-info }
+{:.bs-callout-info}
 DEPRECATED: [Page Builder]({% link cms/page-builder.md %})’s advanced content tools replace the previous banner functionality as described in this topic. We keep this content in the user guide as a convenience for those whose stores have customizations that prevent them from using Page Builder.
 
 A banner can be as simple as a text message or image, or contain a combination of text, images, and code that is triggered by a promotion according to schedule. After the banner is created, use the Widget tool to place it in your store, or add it to a rotating sequence of banners.

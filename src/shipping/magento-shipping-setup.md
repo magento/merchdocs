@@ -56,7 +56,7 @@ Log in to your **Magento Shipping** account in the Magento Shipping Portal. Acce
       - **Account ID**
       - **API Token**
 
-      {: .bs-callout .bs-callout-info}
+      {:.bs-callout-info}
       To run Magento Shipping in a testing environment, make sure to generate and copy the test token instead of the production token.
     <!--{% if "Default.EE-B2B" contains site.edition %}-->
 
@@ -169,7 +169,7 @@ The final step of the setup is to complete the [Location]({% link shipping/magen
 
 When the initial configuration is complete (Steps 1-3), you can access the Magento Shipping Portal directly from the Magento Admin. You can use either of the following methods to access and complete the shipping profile information from the Magento Admin.
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 The Magento Shipping Portal session times out after thirty minutes of inactivity.
 
 ### Method 1 - Menu Options

@@ -15,6 +15,6 @@ Welcome to the business-to-business implementation of the world’s leading digi
 <!--{% endif %}-->
 
 ![]({% link images/images/magento-commerce-wtihout-limits.png %}){: .zoom}
-_[Magento.com][1]{: target="_blank"}_
+_[Magento.com][1]{:target="_blank"}_
 
 [1]: https://magento.com/solutions

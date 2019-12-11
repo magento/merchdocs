@@ -83,8 +83,7 @@ In the following example, you will learn how to embed [Google Font][1] code and 
 | Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %})  | Makes a duplicate copy of the HTML Code container.                                    |
 | Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})     | Deletes the HTML Code container and its content from the stage.                       |
 
-{: #html-settings}
-## HTML Code Settings
+## HTML Code Settings {#html-settings}
 
 |Setting|Description|
 |--- |--- |

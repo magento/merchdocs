@@ -12,7 +12,7 @@ For example, if your warehouse is in Los Angeles, it costs less to ship to San D
 
 The data that is used to calculate tables rates is prepared in a spreadsheet and imported into your store. When the customer requests a quote, the results appear in the shipping estimate section of the shopping cart.
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Only one set of table rate data can be active at a time.
 
 ![]({% link images/images/storefront-cart-table-rate.png %}){: .zoom}
@@ -46,7 +46,7 @@ The first step is to complete the default settings for table rates. You can comp
 
 1.  For orders that include virtual products, set **Include Virtual Products in Price Calculation** to “Yes” if you want to be able to include the virtual product(s) in the calculation.
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     Because virtual products—such as services—have no weight, they cannot change the result of a calculation that is based on the Weight v. Destination condition. However, virtual products can change the result of a calculation that is based on either the Price v. Destination or # of Items vs Destination condition.
 
 1.  (optional) Configuring handling fee:
@@ -58,7 +58,7 @@ The first step is to complete the default settings for table rates. You can comp
 
     *  Enter the **Handling Fee** rate according to the method used to calculate the fee.
 
-      {: .bs-callout .bs-callout-info}
+      {:.bs-callout-info}
       If the handling fee is based on a percent, enter the whole number *without* the percent sign.
 
 1.  In the **Displayed Error Message** box, type the message that appears when this method is not available.
@@ -81,7 +81,7 @@ The first step is to complete the default settings for table rates. You can comp
 
     The Export and Import options now appear in the Table Rates section, with “Use Default” checkboxes to the right of each option.
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     To change any of the current settings, you must first clear the “Use Default” checkbox next to the field.
 
 1.  To change the **Condition**, clear the **Use Default** checkbox. Then, choose another option.

@@ -25,7 +25,7 @@ _Invoices_
 
 1. In the header of the sales order, choose the **Invoice** option.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     The Invoice option does not appear if the payment method is set to _Authorize and Capture_.
 
     The new invoice page looks similar to a completed order page, with additional fields that can be edited.
@@ -91,7 +91,7 @@ _Invoices_
 |Capture Offline |When the invoice is submitted, the system does not capture the payment. It is assumed that the payment is captured directly through the gateway, and you no longer have the option to capture this payment through Magento. You have the ability to create a credit memo, but you do not have the option to void the invoice. (Even though the order used an online payment, the invoice is essentially an offline invoice.)
 |Not Capture |When the invoice is submitted, the system does not capture the payment. It is assumed that you will capture the payment through Magento at a later date. There is a Capture button in the completed invoice. Before capturing, you are able to cancel the invoice. After capturing you are able to create a credit memo and void the invoice.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Do not select the _Not Capture_ option unless you are certain that you are going to capture the payment through Magento at a later date. You cannot create a credit memo until the payment has been captured using the Capture button.
 
 [1]: https://get.adobe.com/reader/

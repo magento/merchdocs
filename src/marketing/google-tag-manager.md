@@ -9,7 +9,7 @@ Google Tag Manager directly transfers data and events to Google Analytics, Enhan
 
 You should have a Google Analytics and Tag Manager account to continue this process. The following instructions walk you through the process of configuring your Google accounts, configuring your Magento store, and creating a tag.
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If your business operates in areas that are governed by the [General Data Protection Regulation]({% link stores/compliance-gdpr.md %}), see [Google Settings for GDPR]({% link stores/compliance-gdpr-google.md %}).
 
 ## Step 1. Configure Your Google Analytics Account
@@ -48,14 +48,14 @@ See Google's [Set up Site Search][7] for the basics you need to get started. Als
 
 1. Reload the page to verify that all the settings remain `On`.
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     If not all settings are `On`, repeat the previous steps, save, and reload the page. Repeat this process until all settings are set to `On`.
 
 ## Step 2. Configure Your Google Tag Manager Account
 
 The following instructions show how to configure a new container with the basic settings. A sample [Composer][4] configuration (.json) file is used to simplify the process, importing to generate a tag in a new container. For this example, we recommend that you create a new container, rather than modify an existing container.
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 For additional information, see Google's [Container export and import][5]. These instructions walk-through importing a sample JSON to a new container.
 
 1. Download the linked file [GMT_M2_Config_json.txt][6]. Then, do the following:

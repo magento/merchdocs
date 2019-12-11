@@ -2,7 +2,7 @@
 title: PayPal Payments Standard
 ---
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
 As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. No action is needed for PayPal Payments Standard to comply with PSD2 because all requirements are handled by PayPal.
 
@@ -11,7 +11,7 @@ PayPal Payments Standard is the easiest way to accept payments online. You can o
 ![PayPal Payments Standard]({% link images/images/config-sales-payment-methods-paypal-payments-standard.png %}){: .zoom}
 _Payments Standard_
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 For merchants outside the US, this method is called “PayPal Website Payments Standard.”
 
 With PayPal Payments Standard, you can swipe credit cards on mobile devices. There is no monthly fee, and you can get paid on eBay. Supported credit cards include Visa, MasterCard, Discover, and American Express. In addition, customers can pay directly from their personal PayPal accounts. PayPal Payments Standard is available in all countries on the PayPal worldwide reference list.
@@ -29,7 +29,7 @@ For customers, PayPal Payments Standard is a one-step process if the credit card
 
 ## Setting Up PayPal Payments Standard
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 PayPal Payments Standard cannot be used simultaneously with any other PayPal method, including Express Checkout. If you change payment solutions, the one used previously is disabled.
 
 ### Step 1: Begin Magento Configuration
@@ -56,12 +56,12 @@ This setup method assumes you have an existing PayPal account.
 
 ### Step 2: Complete the Required PayPal Settings
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. (Optional) Enter the **Email Associated with your PayPal Merchant Account**.
 
-   {:.bs-callout .bs-callout-warning}
+   {:.bs-callout-warning}
    Email addresses are case sensitive. To receive payment, the email address you enter must match the email address specified in your PayPal merchant account.
 
    If you do not have a PayPal account, click **Start accepting payments via PayPal**.
@@ -164,7 +164,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. To record communications with the payment system in the log file, set **Debug Mode** to `Yes`.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    The log file is stored on the server and is accessible only to developers. In accordance with PCI Data Security Standards, credit card information is not recorded in the log file.
 
 1. To enable SSL verification, set **Enable SSL verification** to `Yes`.
@@ -192,7 +192,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
    |`Ask Customer` | The customer can decide whether to enter into a billing agreement during the Express Checkout workflow.|
    |`Never` | The customer cannot enter into a billing agreement during the Express Checkout workflow.|
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    Merchants must request PayPal Merchant Technical Support to enable billing agreements in their accounts. The _Billing Agreement Signup_ parameter can be enabled only after PayPal confirms that billing agreements are enabled for your merchant account.
 
 1. To allow the customer to complete the transaction from the PayPal site without returning to your Magento store for Order Review, set **Skip Order Review Step** to `Yes`.
@@ -230,7 +230,7 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 
 1. To record communications with the payment system in the log file, set **Debug Mode** to `Yes`.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    The log file is stored on the server and is accessible only to developers. In accordance with PCI Data Security Standards, credit card information is not recorded in the log file.
 
 1. To enable SSL verification, set **Enable SSL verification** to `Yes`.
@@ -308,7 +308,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
    - For **Header Image URL**, enter the URL of the image that you want to appear in the upper-left corner of the payment page. The maximum file size is 750 pixels wide by 90 pixels high.
 
-     {:.bs-callout .bs-callout-info}
+     {:.bs-callout-info}
      PayPal recommends that the image be located on a secure (https) server. Otherwise, the customer’s browser may warn that “the page contains both secure and nonsecure items.”
 
    - To set the color for your pages, enter the six-character hexadecimal code, without the “#” symbol, for each of the following:

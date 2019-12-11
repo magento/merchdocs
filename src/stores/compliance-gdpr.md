@@ -21,9 +21,9 @@ All organizations that process personal data must disclose the following:
 
 - Maintain transparency, and keep thorough documentation.
 
-- Visit the [Magento website][1]{: target="_blank"} to learn how Magento helps merchants prepare for GDPR compliance.
+- Visit the [Magento website][1]{:target="_blank"} to learn how Magento helps merchants prepare for GDPR compliance.
 
-- For developers in need of technical information, including data flow diagrams and mapping, see [Magento 2.3 GDPR compliance][2]{: target="_blank"}.
+- For developers in need of technical information, including data flow diagrams and mapping, see [Magento 2.3 GDPR compliance][2]{:target="_blank"}.
 
 [1]: https://magento.com/gdpr
 [2]: https://devdocs.magento.com/guides/v2.3/architecture/gdpr/magento-2x.html

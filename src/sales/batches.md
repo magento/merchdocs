@@ -4,7 +4,7 @@ title: Batches
 
 Batch processing allows you to process a large number of shipments in a fraction of the time it would take to process the shipments manually. Unlike the standard process to create a [shipment]({% link sales/shipments.md %}), the batch process leverages the Temando API, which is [synchronized]({% link shipping/magento-shipping-setup.md %}) to your Magento installation.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 At this time, batch processing is available only for domestic shipments.
 
 The Batches grid lists the available [Magento Shipping]({% link shipping/magento-shipping.md %}) batches, the number of shipments in each, and their status. You can view the detail of a single batch, print packing slips, and shipping labels. The grid at the bottom of the page lists the shipments in the batch.

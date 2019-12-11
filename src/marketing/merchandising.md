@@ -25,6 +25,6 @@ Merchandising is a term used in retail to describe the art and science of floor 
 
 ## Magento eBook
 
-Curated commerce uses intelligence gleaned from customer segmentation: the practice of dividing markets into discrete customer groups that share similar characteristics. Get the [eBook][1]{: target="_blank"} now!
+Curated commerce uses intelligence gleaned from customer segmentation: the practice of dividing markets into discrete customer groups that share similar characteristics. Get the [eBook][1]{:target="_blank"} now!
 
 [1]: https://magento.com/resources/curated-commerce

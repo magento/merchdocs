@@ -18,7 +18,7 @@ Product information provides data common to every instance of the same product l
 
 Listing information provides seller-specific information about products. These details often differ from other sellers' listing for the same product. For example, you may sell the same yoga pants as another seller, but your item number, condition, price, or shipping method time may be different. These details are unique to your listing for the product.
 
-If you want to contribute product information or correct erroneous information on a product detail page, refer to [Amazon: Product Detail][1]{: target="_blank"}.
+If you want to contribute product information or correct erroneous information on a product detail page, refer to [Amazon: Product Detail][1]{:target="_blank"}.
 
 ## Amazon Fulfillment
 
@@ -33,12 +33,12 @@ Amazon Sales Channel supports both options, receiving and tracking these orders 
 
 Amazon follows a set of policies and workflows to ensure all sellers and products adhere to specified guidelines. To best ensure your products and account are approved and eligible for listing, we recommend reviewing the following information and policies:
 
-- [Help for Amazon sellers][2]{: target="_blank"}
-- [Product detail page rules][3]{: target="_blank"}
-- [Shipping policies][4]{: target="_blank"}
-- [Policies and agreements][5]{: target="_blank"}
-- [Selling policies][6]{: target="_blank"}
-- [Prohibited seller activities and actions][7]{: target="_blank"}
+- [Help for Amazon sellers][2]{:target="_blank"}
+- [Product detail page rules][3]{:target="_blank"}
+- [Shipping policies][4]{:target="_blank"}
+- [Policies and agreements][5]{:target="_blank"}
+- [Selling policies][6]{:target="_blank"}
+- [Prohibited seller activities and actions][7]{:target="_blank"}
 
 [1]: https://sellercentral.amazon.com/gp/help/external/200335450?language=en_US&amp;ref=efph_200335450_cont_G200182950
 [2]: https://sellercentral.amazon.com/gp/help/external/help-page.html?itemID=2&amp;language=en_US&amp;ref=efph_2_bred_200390640

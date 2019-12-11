@@ -5,7 +5,7 @@ title: 'Tutorial 2: Blocks'
 
 The following tutorial illustrates the difference between [simple blocks]({% link cms/blocks.md %}) and [dynamic blocks]({% link cms/page-builder-add-dynamic-block.md %}), and how to use Page Builder to create each type of block.
 
-{: .bs-callout bs-callout-info}
+{:.bs-callout-info}
 Page Builder has a new content type called _Banner_ which is featured in the first tutorial and is unrelated to the previous banner functionality. What was previously the "Banner” option in the Content menu is now "Dynamic Block". 
 
 ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-storefront.png %}){: .zoom}
@@ -103,7 +103,7 @@ In this tutorial, you will create a simple block with content from Google Maps. 
 
     - Click **Get API Key**.
 
-    - Follow the [instructions][1]{: target="_blank"} to configure your Google Maps account and billing.
+    - Follow the [instructions][1]{:target="_blank"} to configure your Google Maps account and billing.
 
     - Copy your API Key. Then, complete the previous instructions to enter and test your key.
 

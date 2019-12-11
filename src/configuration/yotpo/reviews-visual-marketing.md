@@ -44,5 +44,5 @@ _Yotpo Default Sync Settings_
 |Orders Sync Limit|50|Defines the maximum number of orders to send to Yotpo in a single transmission.|
 |Orders Sync Statuses|Complete |Defines the order status(es) that are sent to Yotpo. Default is `Complete`. Multiple order statuses can be selected by pressing the `Ctrl/Cmd` on your keyboard.|
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 To change the settings for any of these fields, you must clear the **Use Website** checkbox.

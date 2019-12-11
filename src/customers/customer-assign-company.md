@@ -5,7 +5,7 @@ title: Changing the Company Assignment
 
 If allowed in the configuration, the company admin adds users to the company. However, the company assignment of a customer profile can also be made or changed from the Admin.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If an individual already has a personal account with the store, and later goes to work for a company, do not assign the person’s individual account to the company. Rather, create a new company user account for the person with a company email address.
 
 ## To assign a customer to a company:

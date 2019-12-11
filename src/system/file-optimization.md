@@ -12,7 +12,7 @@ By default, Magento does not merge, bundle, or minimize files, and the project d
 
 See [Magento Optimization Guide][1] in the developer documentation.
 
-{: .bs-callout-info}
+{:.bs-callout-info}
 CSS and JavaScript files can be optimized in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
 File Type       | Supported Operations

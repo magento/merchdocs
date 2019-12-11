@@ -51,7 +51,7 @@ If you are new to Engagement Cloud, you must first sign up for a free account. T
 
    To continue, see [Create a Campaign]({% link marketing/engagement-cloud-campaign-create.md %}).
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     At some point while working with your free trial, you’ll be asked to verify your account. When prompted, click the free trial message above the header and follow the instructions. Until then, the status of your account will be _unverified_.
 
     ![Engagement Cloud - build your first campaign]({% link images/images/engagement-cloud-free-trial-build-campaign.png %}){: .zoom}

@@ -101,7 +101,6 @@ For a formatted divider with specific settings, it is more efficient to make a d
 | Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the divider container.                                                   |
 | Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})    | Deletes the divider container and its content from the stage.                                      |
 
-{: #divider-settings}
 ## Divider Settings
 
 |Setting|Description|

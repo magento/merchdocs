@@ -12,5 +12,5 @@ Page Builder makes it easy to create content-rich pages with custom layouts that
 - Rich assortment of content types
 - Custom product attribute input types
 
-{: .bs-callout .bs-callout-tip}
+{:.bs-callout-tip}
 If you are just getting started with Page Builder, you can get up to speed quickly by completing the [tutorials]({% link cms/page-builder-learn.md %}).

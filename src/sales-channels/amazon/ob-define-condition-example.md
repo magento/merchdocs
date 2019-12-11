@@ -9,7 +9,7 @@ Any areas in the conditions that are bold can be clicked to see the various opti
 
 **Don’t add conditions if all products within the selected website are eligible.**
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 There is a complex set of back-end processes to communicate with Amazon's systems directly. Based on the number of items you are attempting to list and how busy Amazon's systems are (for example, Black Friday can be a slow time to list new products), it may take additional time for your items to be listed on Amazon.
 
 See the Conditions section of [Creating a Cart Price Rule]({% link marketing/price-rules-catalog-create.md %}).
@@ -20,7 +20,7 @@ This process can be simple or detailed, depending on your catalog setup. You can
 
 Conditions are based on existing product attribute values. To apply the rule to all products, leave the conditions section blank.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If you want to define a condition based on a specific product attribute, the **Use for Promo Rule Conditions** field for the attribute must be set to "Yes." The field is located on the [Storefront Properties]({% link catalog/product-attributes-add.md %}) screen for the attribute.
 
 ![]({% link images/images/sales-channels/amazon/ob-listing-rule-conditions-start.png %}){: .zoom}
