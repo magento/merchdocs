@@ -617,8 +617,8 @@ pages:
 - label: Google Tools
   url: "/marketing/google-tools.html"
   children:
-  - label: Google Settings for GDPR
-    url: "/stores/compliance-gdpr-google.html"
+  - label: Google Privacy Settings
+    url: "/stores/compliance-privacy-google.html"
   - label: Google Analytics
     url: "/marketing/google-universal-analytics.html"
   - label: Google Content Experiments
