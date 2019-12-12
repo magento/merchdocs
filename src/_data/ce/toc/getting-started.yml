@@ -147,13 +147,13 @@ pages:
       url: "/stores/compliance-pci.html"
     - label: Payment Services Directive
       url: "/stores/compliance-payment-services-directive.html"
-    - label: GDPR Compliance
-      url: "/stores/compliance-gdpr.html"
     - label: CCPA Compliance
       url: "/stores/compliance-ccpa.html"
       children:
       - label: CCPA Compliance Guide
-        url: "/stores/compliance-ccpa-guide.html"     
+        url: "/stores/compliance-ccpa-guide.html"
+    - label: GDPR Compliance
+      url: "/stores/compliance-gdpr.html" 
     - label: Privacy Policy
       url: "/stores/privacy-policy.html"
     - label: Cookie Law Compliance
