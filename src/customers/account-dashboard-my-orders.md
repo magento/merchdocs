@@ -15,7 +15,23 @@ Customers have access to all of their orders from their account. Orders can be v
 <!--{% endif %}-->
 _My Orders_
 
-## To view an order:
+## Search for an order
+
+Use the Order Search fields to filter your order history or to find orders from other company users.
+
+Fill in one or more fields to filter by:
+
+| Filter | Description |
+| -- | -- |
+| SKU or Product Name | Enter either a SKU or product name |
+| Order Number | Can be either a full or partial order number |
+| Order Status | Choose a value from the dropdown to filter by status |
+| Invoice Number | Enter either a full or partial invoice number. |
+| Order Date | Set one or both date fields to filter by order date. |
+| Created by | Filter company orders by the order creator. |
+| Order Total | Set min, max, or both values to filter by order total. |
+
+## View an order
 
 Find the order in the list and click **View Order**. From the open order, do any of the following:
 
@@ -44,69 +60,33 @@ _View Order_
 
 1. Click <span class="btn">Print</span>.
 
-    ![]({% link images/images/customer-account-print-order.png %}){: .zoom}
-    _Print Order_
-
 ### Print Invoices
 
 1. On the **Invoices** tab, click one of the following:
 
-    - Print All Invoices
+   -  Print All Invoices
 
-    - Print Invoice
+   -  Print Invoice
 
 1. Verify the output device or choose another.
 
 1. Click <span class="btn">Print</span>.
-
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/customer-account-order-invoices.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE Only" contains site.edition %}-->
-    ![]({% link images/images-ee/customer-account-order-invoices.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
-    ![]({% link images/images-b2b/customer-account-order-invoices.png %}){: .zoom}
-    <!--{% endif %}-->
-    _Invoices_
 
 ### Print Shipments
 
 1. On the **Order Shipments** tab, click one of the following:
 
-    - Print All Shipments
+   -  Print All Shipments
 
-    - Print Shipment
+   -  Print Shipment
 
 1. Verify the output device or choose another.
 
 1. Click <span class="btn">Print</span>.
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/customer-account-order-shipments.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE Only" contains site.edition %}-->
-    ![]({% link images/images-ee/customer-account-order-shipments.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
-    ![]({% link images/images-b2b/customer-account-order-shipments.png %}){: .zoom}
-    <!--{% endif %}-->
-    _Print All Shipments_
-
 ### Track a Shipment
 
 1. On the **Order Shipments** tab, click **Track this Shipment**.
-
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/customer-account-order-shipments.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE Only" contains site.edition %}-->
-    ![]({% link images/images-ee/customer-account-order-shipments.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
-    ![]({% link images/images-b2b/customer-account-order-shipments.png %}){: .zoom}
-    <!--{% endif %}-->
-    _Track This Shipment_
 
 1. Any tracking information that is available appears in a popup window.
 
@@ -116,21 +96,10 @@ _View Order_
 
 1. On the **Refunds** tab, click one of the following:
 
-    - Print All Refunds
+   -  Print All Refunds
 
-    - Print Refund
+   -  Print Refund
 
 1. Verify the output device or choose another.
 
 1. Click <span class="btn">Print</span>.
-
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/customer-account-order-refunds.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE Only" contains site.edition %}-->
-    ![]({% link images/images-ee/customer-account-order-refunds.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
-    ![]({% link images/images-b2b/customer-account-order-refunds.png %}){: .zoom}
-    <!--{% endif %}-->
-    _Refunds_
