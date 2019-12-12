@@ -202,16 +202,15 @@ _Image Upload Configuration_
 
 ## Adobe Stock Integration
 
-![]({% link images/images/system-adobe-stock-integration.png %}){: .zoom}
+![Advanced configuration - Adobe Stock integration]({% link images/images/system-adobe-stock-integration.png %}){: .zoom}
 _Adobe Stock Integration_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enabled Adobe Stock|Global|Switch that enables or disables the Adobe Stock Integration|
-|API Key (Client ID)|Global|An API key is required to connect your Magento application to the Adobe Stock service. You can get an API key by creating an integration at [console.adobe.io](https://console.adobe.io/).|
-|Client Secret|Global|A Client Secret is required. You can get a Client Secret by creating an integration at [console.adobe.io](https://console.adobe.io/)|
-|Test Connection||Run a test checking that the API key is valid for use with Adobe Stock's service.|
-
+|Enabled Adobe Stock|Global|Enables or disables the Adobe Stock Integration.|
+|API Key (Client ID)|Global|An API key is required to connect your Magento store to the Adobe Stock service. For more information about generating this key and configuring this integration, see [Adobe Stock Integration]({% link cms/adobe-stock.md %}).|
+|Client Secret|Global|The Client Secret for your Adobe Stock integration is required. For more information about retrieving this secret and configuring this integration, see [Adobe Stock Integration]({% link cms/adobe-stock.md %}).|
+|Test Connection||Runs a test to verify that the API key is valid for use with the Adobe Stock service.|
 
 [1]: https://en.wikipedia.org/wiki/Sendmail
 [2]: https://magento.com/security/news/new-zend-framework-1-security-vulnerability

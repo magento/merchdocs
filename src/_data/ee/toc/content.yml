@@ -34,7 +34,7 @@ pages:
         url: "/cms/page-home-new.html"
     - label: Media Storage
       url: "/cms/media-storage.html"
-      chidlren:
+      children:
       - label: Adobe Stock Integration
         url: "/cms/adobe-stock.html"
         children:

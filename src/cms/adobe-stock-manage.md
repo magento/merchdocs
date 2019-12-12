@@ -2,70 +2,88 @@
 title: Using Adobe Stock Images
 ---
 
-[Adobe Stock][adobe-stock] images can be used in place of uploading your own image content. One
-common use case is, when creating a new page, it is desirable to upload and place
-image content.
+[Adobe Stock][adobe-stock] images can be used in place of uploading your own image content. One common use case is, when creating a new page, it is desirable to upload and place image content.
 
-### Access the Adobe Stock Search Grid
+## Access the Adobe Stock search grid
 
-The Adobe Stock search panel is accessible when [**Adding** or **Editing** a
-**Page**]({% link cms/page-add.md %}), [**Category**]({% link catalog/category-create.md %})
-or when [inserting images via the **Content Editor**]({% link cms/editor-insert-image.md %}).
+The Adobe Stock search panel is accessible when you [add or edit a page]({% link cms/page-add.md %}), when you [create or edit a category]({% link catalog/category-create.md %}), or when you [insert images via the Content Editor]({% link cms/editor-insert-image.md %}).
 
-To access the Adobe Stock search panel when adding a new page or editing an
-existing page:
+{:.procedure}
+To search Adobe Stock assets and add a stock image to a page:
 
-1. From the main menu on the left, click **Content** and then **Pages**
-2. Click either **Add a New Page** or, in the grid of page results under the
-   **Action** column, click **Select** and then **Edit**
-3. Expand the **Content** section and:
-    - If you have WYSIWYG mode disabled, click **Insert Image...**
-    - If you have WYSIWYG mode enabled, click **Show/Hide Editor** and then
-      click **Insert Image...**
-4. Click the **Search Adobe Stock** button
+1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Pages**.
 
-To access the Adobe Stock search panel when adding a new category or editing an
-existing category:
+1. Click <span class="btn">Add a New Page</span>.
 
-1. From the main menu on the left, click **Catalog** and then **Categories**
-2. Click either **Add Root Category**, **Add Subcategory** or, in the list of categories
-   on the left, click an existing category
-3. Expand the **Content** section and under **Category Image** click **Select
-   from Gallery**
-4. Click the **Search Adobe Stock** button
+   If you want to edit an existing page, you can use the _Action_ column to click **Select** and choose **Edit**.
 
-To access the Adobe Stock search panel from anywhere the WYSIWYG Editor is
-available:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and do the following:
+<!--{% if "Default.CE Only" contains site.edition %}-->
 
-1. Click **Show/Hide Editor**
-2. Click **Insert Image...**
-3. Click the **Search Adobe Stock** button
+    - If you have WYSIWYG mode disabled, click **Insert Image**.
 
-![Adobe Stock Search Results]({% link images/images/adobe-stock/search-grid.png %}){: .zoom}
+    - If you have WYSIWYG mode enabled, click **Show/Hide Editor** and then click **Insert Image**.
+<!--{% endif %}-->
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
 
-### Filter and Search for Adobe Stock Assets
+    - If you have [Page Builder enabled]({% link cms/page-builder-setup.md %}), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click <span class="btn">Select from Gallery</span>. 
 
-The [Adobe Stock Search Grid][access-search] provides querying and filtering functionality
-to help you find the perfect image for your Magento stores.
+      ![]({% link images/images-ee/page-builder-media-image-drag.png %}){: .zoom}
+      _Drag Image to Stage_
+  
+    - If you have the [WYSIWYG editor enabled]({% link cms/editor-configure.md %}), click **Show/Hide Editor** and then click **Insert Image**.
+<!--{% endif %}-->
 
-By default, the search results shown are from an Adobe Stock curated gallery of
-a few hundred results. As soon as you apply your own keyword search, you will be
+1. Click <span class="btn">Search Adobe Stock</span>.
+
+{:.procedure}
+To search Adobe Stock assets and add a stock image to a category:
+
+1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+
+1. Click **Add Root Category** or **Add Subcategory**.
+
+   If you want to add the image to an existing category, click the category name in the list on the left..
+
+1. Expand the **Content** section, and under **Category Image** click **Select from Gallery**.
+
+1. Click <span class="btn">Search Adobe Stock</span>.
+
+{:.procedure}
+To search Adobe Stock assets and add a stock image from the WYSIWYG Editor:
+
+1. Click **Show/Hide Editor**.
+
+1. Click **Insert Image**.
+
+1. Click <span class="btn">Search Adobe Stock</span>.
+
+    ![Adobe Stock search results]({% link images/images/adobe-stock/search-grid.png %}){: .zoom}
+    _Adobe Stock search results_
+
+## Filter and Search for Adobe Stock Assets
+
+The [Adobe Stock Search Grid][access-search] provides querying and filtering functionality to help you find the perfect image for your Magento stores.
+
+By default, the search results shown are from an Adobe Stock curated gallery of a few hundred results. As soon as you apply your own keyword search, you will be
 searching the millions of assets available via Adobe Stock.
 
-#### Search for Adobe Stock Assets by Keywords
+### Search for Adobe Stock Assets by Keywords
 
-1. [Access the Adobe Stock Search grid][access-search]
-2. Enter your keyword search into the **Search by keyword** input field in the
-   top-left and click the magnifying glass or press **Enter**
+1. [Access the Adobe Stock Search grid][access-search].
 
-![Adobe Stock Search Results for the "mango" keyword]({% link images/images/adobe-stock/mango.png %}){: .zoom}
+1. Enter your keyword search into the **Search by keyword** input field in the top-left and click the magnifying glass or press **Enter**.
 
-#### Filter Adobe Stock Assets
+    ![Adobe Stock Search Results for the "mango" keyword]({% link images/images/adobe-stock/mango.png %}){: .zoom}
+    _Adobe Stock search results - "mango" keyword_
 
-1. [Run a keyword search for Adobe Stock assets][search-by-keywords]
-2. Click the **Filters** button
-3. You have several filters available to you to further refine your search
-   results:
+### Filter Adobe Stock Assets
+
+1. [Run a keyword search for Adobe Stock assets][search-by-keywords].
+  
+1. Click <span class="btn">Filters</span>.
+
+    There are several filters available to refine your search results:
 
     |Filter|Description|
     |---|---|
@@ -76,107 +94,108 @@ searching the millions of assets available via Adobe Stock.
     |Safe search|Enable or disable Safe search|
     |Isolated Assets|Show only Isolated Assets, which have subjects appear alone on a solid background|
 
-4. Click **Apply Filters**
-5. The search result grid is updated with your refined search
+    ![Adobe Stock search filters]({% link images/images/adobe-stock/filters.png %}){: .zoom}
+    _Adobe Stock Search Filters_
 
-![Adobe Stock Search Filters]({% link images/images/adobe-stock/filters.png %}){: .zoom}
+1. Click **Apply Filters**.
 
-### View Image Details
+    The search result grid is updated with your refined search.
 
-Each image has details available for viewing. Additional image-specific actions,
-such as [saving image previews][save-preview] or [saving (and optionally licensing)
-images][save-licensed], are available via this detailed view. To view image
-details:
+## View Image Details
 
-1. [Access the Adobe Stock Search grid][access-search]
-2. Click on an image in the search results
-3. Further image details are displayed, such as:
-    - a larger version of the image
-    - image metadata such as **Dimensions**, **File type**, **Category**, **File
-      #** and **Keywords**
-    - related images such as images from the same **series** or **model**
-    - action buttons such as [**Save Preview**][save-preview] and [**Save (and
-      optionally license) Image**][save-licensed]
+Each image has details available for viewing. Additional image-specific actions, such as [saving image previews][save-preview] or [saving (and optionally licensing) images][save-licensed], are available via this detailed view.
 
-![Adobe Stock Image Details]({% link images/images/adobe-stock/image-details.png %}){: .zoom}
+1. [Access the Adobe Stock Search grid][access-search].
 
-### Log In to Adobe IMS
+1. Click an image in the search results.
 
-To gain complete access to an image and eliminate the Adobe Stock watermark, you
-must [sign in with an Adobe IMS account][ims-signin] and purchase credits to
-license rights to use an image. To sign in to Adobe IMS within Magento:
+    Further image details are displayed, such as:
+    - A larger version of the image
+    - Image metadata, such as **Dimensions**, **File type**, **Category**, **File#**, and **Keywords**
+    - Related images, such as images from the same **series** or **model**
+    - Action buttons, such as [**Save Preview**][save-preview] and [**Save (and optionally license) Image**][save-licensed]
 
-1. [Access the Adobe Stock Search grid][access-search]
-2. Click **Sign In** in the top-right
-3. A new browser popup window will guide you through the [Adobe IMS sign-in
-   process][ims-signin]
-4. After completing the IMS sign-in process, the [licensed
-   state][licensed-state] of images will be displayed in search results as an
-   additional label
+    ![Adobe Stock image details]({% link images/images/adobe-stock/image-details.png %}){: .zoom}
+    _Adobe Stock image details_
 
-![Adobe IMS Sign In]({% link images/images/adobe-stock/ims-login.png %}){: .zoom}
+## Log In to Adobe IMS
 
-### See Licensed State of Search Results
+To gain complete access to an image and eliminate the Adobe Stock watermark, you must [sign in with an Adobe IMS account][ims-signin] and purchase credits to
+license rights to use an image.
 
-1. [Log in to Adobe IMS][log-in-to-ims]
-2. All licensed images associated to your Adobe IMS account will have an additional
-   label displayed on them, making it clear which images you have licensed
+1. [Access the Adobe Stock Search grid][access-search].
 
-![Adobe Stock Search Results with Licensed Images]({% link images/images/adobe-stock/licensed-images.png %}){: .zoom}
+1. Click **Sign In** at the top-right.
+
+    A new browser window guides you through the [Adobe IMS sign-in process][ims-signin].
+
+    After completing the IMS sign-in process, the [licensed state][licensed-state] of images is displayed in search results as an additional label.
+
+    ![Adobe IMS sign in]({% link images/images/adobe-stock/ims-login.png %}){: .zoom}
+    _Adobe IMS sign in_
+
+### View the Licensed State of Search Results
+
+[Log in to Adobe IMS][log-in-to-ims].
+
+All licensed images associated to your Adobe IMS account will have an additional label displayed on them, making it clear which images you have licensed
+
+![Adobe Stock search results with licensed images]({% link images/images/adobe-stock/licensed-images.png %}){: .zoom}
+_Search Results with Licensed Images_
 
 ### Save Images to the Media Storage
 
-Images searched for via the Adobe Stock Integration can be saved to the
-Magento [Media Storage][media-storage] for easy re-use across your Magento
+Images searched for via the Adobe Stock Integration can be saved to the Magento [Media Storage][media-storage] for easy re-use across your Magento
 store.
 
-Two types of images can be saved: an [image preview][save-preview] as well as a
-[licensed image][save-licensed].
+You can save two types of images: an [image preview][save-preview] or a [licensed image][save-licensed].
 
-#### Save Image Preview
+#### Save an Image Preview
 
-An image preview is a watermarked version of an Adobe Stock asset. Image
-previews are free and are a good way to try out different images before you
-decide to purchase a license for specific images and use them on your production
-stores.
+An image preview is a watermarked version of an Adobe Stock asset. Image previews are free and are a good way to experiment with different images before you
+decide to purchase a license for specific images and use them on your production stores.
 
-1. [Access the Adobe Stock Search grid][access-search]
-2. Click on an image in the search grid in order to [view the image
-   details][view-details]
-3. Click on the **Save Preview** button
-4. A popup will display asking what file name you'd like to save the image to
-   the [Media Storage][media-storage] as. A default file name is provided, but
-   you can customize the name to your liking.
-5. Click **Confirm**
-6. You will be redirected to the [Media Storage][media-storage] and your saved
-   preview will be displayed.
+1. [Access the Adobe Stock Search grid][access-search].
 
-![Save Preview Image]({% link images/images/adobe-stock/save-preview.png %}){: .zoom}
+1. Click an image in the search grid in order to [view the image details][view-details].
 
-#### Save Licensed Image
+1. Click <span class="btn">Save Preview</span>.
 
-Adobe Stock assets that you wish to use for your production Magento stores should
-be licensed in order to ensure you have legal access to the image as well as to
-eliminate the Adobe Stock watermark present on all [image
-previews][save-preview]. In order to license images or to save already-licensed
-images, you will need to [log in to Adobe IMS][log-in-to-ims].
+    This displays a prompt for you to specify a file name that is used to save the image to the [Media Storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
 
-1. [Log in to Adobe IMS][log-in-to-ims]
-2. Click on an image in the search grid in order to [view the image
-   details][view-details]
-3. Depending on if you have already licensed this image or not:
-    - If you have already licensed the image, then click the **Save** button
-    - If you have _not_ licensed the image, then click the **License and Save**
-      button (note that you will need to have [Adobe Stock
-      credits][stock-credits] available in your account to do so)
-4. A popup will display asking what file name you'd like to save the image to
-   the [Media Storage][media-storage] as. A default file name is provided, but
-   you can customize the name to your liking.
-5. Click **Confirm**
-6. You will be redirected to the [Media Storage][media-storage] and your saved
-   preview will be displayed.
+    ![Save Adobe Stock preview image]({% link images/images/adobe-stock/save-preview.png %}){: .zoom}
+    _Save the preview image_
+  
+1. Click <span class="btn">Confirm</span>.
 
-![Save Licensed Image]({% link images/images/adobe-stock/save-licensed.png %}){: .zoom}
+    The page redirects to the [Media Storage][media-storage] and your saved preview is displayed.
+
+#### Save a Licensed Image
+
+Adobe Stock assets that you want to use for your production Magento stores should be licensed to ensure you have legal access to the image as well as to
+eliminate the Adobe Stock watermark that is present on all [image previews][save-preview]. To license images or to save already-licensed images, you must be logged in to Adobe IMS.
+
+1. [Log in to Adobe IMS][log-in-to-ims].
+
+1. Click an image in the search grid in order to [view the image details][view-details].
+
+1. Depending on the current licensing status of the image, do one of the following:
+
+    - If the image is already licensed, click <span class="btn">Save</span>.
+
+    - If the image is _not_ licensed, click <span class="btn">License and Save</span>.
+
+       {:.bs-callout-info}
+       You must have available [Adobe Stock credits][stock-credits] in your account to license the image.
+  
+    This displays a prompt for you to specify a file name that is used to save the image to the [Media Storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
+
+    ![Save Adobe Stock licensed image]({% link images/images/adobe-stock/save-licensed.png %}){: .zoom}
+    _Save the licensed image_
+
+1. Click <span class="btn">Confirm</span>.
+
+    The page redirects to the [Media Storage][media-storage] and your saved preview is displayed.
 
 [adobe-stock]: https://stock.adobe.com
 [media-storage]: {% link cms/media-storage.md %}
@@ -185,8 +204,8 @@ images, you will need to [log in to Adobe IMS][log-in-to-ims].
 [view-details]: #view-image-details
 [log-in-to-ims]: #log-in-to-adobe-ims
 [ims-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
-[licensed-state]: #see-licensed-state-of-search-results
+[licensed-state]: #view-the-licensed-state-of-search-results
 [save-to-media-storage]: #save-images-to-the-media-storage
-[save-preview]: #save-image-preview
-[save-licensed]: #save-licensed-image
+[save-preview]: #save-an-image-preview
+[save-licensed]: #save-a-licensed-image
 [stock-credits]: https://helpx.adobe.com/stock/help/credit-packs.html

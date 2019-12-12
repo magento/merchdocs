@@ -40,7 +40,5 @@ Use this method to insert an image that is available online, but resides on anot
 
 ## Method 3: Use the Adobe Stock Integration
 
-If you have an Adobe Stock plan associated to your Adobe IMS account, you can
-search for, license and save from the millions of available assets provided by
-the Stock service. Full usage instructions are available in our [Adobe Stock
-Integration usage documentation]({% link cms/adobe-stock-manage.md %}).
+If you have an Adobe Stock plan associated to your Adobe IMS account, you can search for, license and save from the millions of available assets provided by
+the Stock service. See [Using Adobe Stock Images]({% link cms/adobe-stock-manage.md %}).
