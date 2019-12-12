@@ -4,6 +4,21 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what’s new!
 
+
+## December 2019
+
+### New Topics
+
+- [CCPA Compliance]({% link stores/compliance-ccpa.md %})
+- [CCPA Compliance Guide]({% link stores/compliance-ccpa-guide.md %})
+
+### Updated Topics
+
+|Topic |Change|
+|--- |--- |
+|[Google Privacy Settings for GDOR]({% link stores/compliance-privacy-google.md %})|This topic now applies to privacy regulations in general, and is not limited to GDPR.|
+
+
 ## November 2019
 
 ### Updated Topics
