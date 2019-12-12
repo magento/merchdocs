@@ -33,14 +33,14 @@ Businesses that comply with GDPR might have additional obligations under the CCP
 
 - Examine the current [privacy policies]({% link stores/privacy-policy.md %}) for all of your Magento stores to ensure that they align with GDPR requirements.
 
-- Update your your [Google settings]({% link stores/compliance-gdpr-google.md %}) to ensure that its use of personal data meets GDPR requirements.
+- Update your your [Google settings]({% link stores/compliance-privacy-google.md %}) to ensure that its use of personal data meets GDPR requirements.
 
 - Maintain transparency, and keep thorough documentation.
 
 - Visit the [Magento website][1]{: target="_blank"} to learn how Magento helps merchants prepare for GDPR compliance.
 
-- For developers in need of technical information, including links to data flow diagrams and database entity mapping, see [GDPR][2]{: target="_blank"}.
+- For developers in need of technical information, including links to data flow diagrams and database entity mapping, see the [Personal Information Reference][2]{: target="_blank"}.
 
 [1]: https://magento.com/gdpr
-[2]: https://devdocs.magento.com/compliance/privacy/gdpr.html
+[2]: https://devdocs.magento.com/compliance/privacy/pi-data-reference-m2.html
 [3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf

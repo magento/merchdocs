@@ -54,7 +54,7 @@ Take inventory of your digital properties, including all integrations and those 
 
       **Service Providers**:  Those who have access to your customer data for a business purpose, and provide services on your behalf. For example, Adobe is service provider, as are some developers of customizations and extensions and services. 
 
-      Check the default settings of Google Universal Analytics, Google Tag Manager &mdash; and any other data services you use &mdash; and make any changes necessary to comply with the regulation. To learn more, see [Google Analytics Settings for GDPR]({% link stores/compliance-gdpr-google.md -%}).  
+      Check the default settings of Google Universal Analytics, Google Tag Manager &mdash; and any other data services you use &mdash; and make any changes necessary to comply with the regulation. To learn more, see [Google Privacy Settings]({% link stores/compliance-privacy-google.md -%}).  
 
       **Other Third Parties**: Those with whom you share or sell customer data. For example, you might share customer data with an advertising network in exchange for advertising.
 
@@ -66,7 +66,7 @@ Take inventory of your digital properties, including all integrations and those 
 
     Visitors to your site must be notified in advance, or at the point of data collection. For example, a Magento store without custom integrations collects personal information when a customer account is created, and during checkout. If your store has custom integrations, there might be additional data items and attributes to identify.
 
-1.  Although the following topics were written to help Magento merchants in the EU comply with the GDPR, they can be adapted for CCPA compliance. For data flow diagrams and technical information about database entities, see the topic for your version of Magento.
+1.  See the following topics for applicable data flow diagrams and database entity mappings for each version of Magento:
 
       - [Personal Information Reference (Magento 2.x)][1]
       - [Personal Information Reference (Magento 1.x)][2]

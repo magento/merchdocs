@@ -204,7 +204,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 |Topic |Change |
 |--- |--- |
-|[Google Settings for GDPR]({% link stores/compliance-gdpr-google.md %})|Moved this topic from the Getting Started/Industry Compliance section to Marketing/Google Tools.|
+|[Google Settings for GDPR]({% link stores/compliance-privacy-google.md %})|Moved this topic from the Getting Started/Industry Compliance section to Marketing/Google Tools.|
 |[GDPR Compliance]({% link stores/compliance-gdpr.md %})|Added “Best Practice” checklist.|
 |[dotmailer]({% link marketing/engagement-cloud.md %})|Engagement Cloud by dotdigital now replaces dotmailer.|
 |[Setting up Amazon Pay]({% link payment/amazon-pay-setup.md %})|Added configuration option for multi-currency.|
