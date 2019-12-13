@@ -349,6 +349,13 @@ pages:
       url: "/marketing/price-rules-cart-buy-x-get-y-free.html"
     - label: Discount with Minimum Purchase
       url: "/marketing/price-rule-discount-minimum-purchase.html"
+  - label: Product Recommendations
+    url: "/marketing/product-recommendations.html"
+    children:
+    - label: Create New Recommendation
+      url: "/marketing/create-new-rec.html"
+    - label: Edit Existing Recommendation
+      url: "/marketing/edit-existing-rec.html"
 - label: Communications
   url: "/marketing/communications.html"
   children:
