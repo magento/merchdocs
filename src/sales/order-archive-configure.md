@@ -22,7 +22,7 @@ Your store can be configured to archive orders, invoices, shipments, and credit 
 
     - Set **Enable Archiving** to `Yes`.
 
-        {:.bs-callout .bs-callout-info}
+        {:.bs-callout-info}
         If you later decide to turn archiving off, all archived orders will be restored to the previous state.
 
     - Set **Archive Orders Purchased** to the number of days to keep an order in the grid before it is archived. By default, this waiting period is set to 30 days.

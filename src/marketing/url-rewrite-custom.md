@@ -51,7 +51,7 @@ Redirect from:
 
     - In the **Request Path** field, enter the URL key and path—if applicable—of the product, category, or CMS page that is to be redirected.
 
-        {: .bs-callout .bs-callout-info}
+        {:.bs-callout-info}
         The Request Path must be unique for the specified store. If there is already a redirect that uses the same Request Path, you will receive an error when you try to save the redirect. The previous redirect must be deleted before you can create a new one.
 
     - In the **Target Path** field, enter the URL of the destination. If the target is located on another website, enter the fully qualified URL.

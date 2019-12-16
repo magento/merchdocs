@@ -61,7 +61,7 @@ If you are not sure, open each product page in your store, and copy the path fro
 
     - In the **Request Path** field, replace the default by entering the URL key and suffix (if applicable) of the original product request. This is the _redirect from_ product that you identified in the planning step.
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     The Request Path must be unique for the specified store. If there is already a redirect that uses the same Request Path, you will receive an error when you try to save the redirect. The previous redirect must be deleted before you can create a new one.
 
     - Set **Redirect Type** to one of the following:

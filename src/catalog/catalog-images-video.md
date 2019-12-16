@@ -1,6 +1,6 @@
 ---
 title: Catalog Images and Video
-redirect_from: 
+redirect_from:
   - /catalog/settings-basic-image-management.html
 ---
 

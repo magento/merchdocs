@@ -1,6 +1,6 @@
 ---
 title: Gift Options
-redirect_from: 
+redirect_from:
   - /sales/checkout-gift-options.html
 ---
 

@@ -48,14 +48,14 @@ See Google's [Set up Site Search][7] for the basics you need to get started. Als
 
 1. Reload the page to verify that all the settings remain `On`.
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     If not all settings are `On`, repeat the previous steps, save, and reload the page. Repeat this process until all settings are set to `On`.
 
 ## Step 2. Configure Your Google Tag Manager Account
 
 The following instructions show how to configure a new container with the basic settings. A sample [Composer][4] configuration (.json) file is used to simplify the process, importing to generate a tag in a new container. For this example, we recommend that you create a new container, rather than modify an existing container.
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 For additional information, see Google's [Container export and import][5]. These instructions walk-through importing a sample JSON to a new container.
 
 1. Download the linked file [GMT_M2_Config_json.txt][6]. Then, do the following:
@@ -105,7 +105,7 @@ For additional information, see Google's [Container export and import][5]. These
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Google Analytics** section and configure the following:
 
-    ![Sales configuration - Google Analytics]({% link images/images-ee/config-sales-google-api-google-analytics-google-tag-manager.png %}){: .zoom} 
+    ![Sales configuration - Google Analytics]({% link images/images-ee/config-sales-google-api-google-analytics-google-tag-manager.png %}){: .zoom}
     [_Google API - Google Tag Manager_]({% link configuration/sales/google-api.md -%})
 
     - Set **Enable** to `Yes`.

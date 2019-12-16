@@ -1,6 +1,6 @@
 ---
 title: Terms and Conditions
-redirect_from: 
+redirect_from:
   - /stores/terms-and-conditions.html
 ---
 

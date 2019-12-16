@@ -4,7 +4,7 @@ title: Configuring a Persistent Cart
 
 During the setup of a persistent shopping cart, you can specify the lifetime of the cookies, and which options you want to make available for various customer activities.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If the session cookie expires while the customer is logged in, the persistent cookie remains active.
 
 ## To configure a persistent cart
@@ -41,7 +41,7 @@ If the session cookie expires while the customer is logged in, the persistent co
        - **Yes** – The shopping cart is cleared when a registered customer logs out.
        - **No** – The shopping cart is saved when a registered customer logs out.
 
-       {:.bs-callout .bs-callout-info}
+       {:.bs-callout-info}
        If the session cookie expires while the customer is still logged in, the persistent cookie remains in use.
 
     - Set **Persist Shopping Cart** to one of the following:

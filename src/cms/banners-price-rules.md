@@ -3,7 +3,7 @@ conditions: Default.EE-B2B
 title: Using Banners in Price Rules
 ---
 
-{: .bs-callout .bs-callout-info }
+{:.bs-callout-info}
 DEPRECATED: [Page Builder]({% link cms/page-builder.md %})’s advanced content tools replace the previous banner functionality as described in this topic. We keep this content in the user guide as a convenience for those whose stores have customizations that prevent them from using Page Builder.
 
 Any banners you create can be associated with both catalog and cart price rules for a promotion. To associate a banner with a price rule, you must first create both the banner and the price rule. Related banners can be associated with a price rule from the Banner tool, or from either the [Cart Price Rule]({% link marketing/price-rules-cart.md %}) or [Catalog Price Rule]({% link marketing/price-rules-catalog.md %}) tool.
@@ -27,7 +27,7 @@ _Related Banners_
 
     - If necessary, use the search filters to find the price rule(s) that you want. Then, select the checkbox of each banner that you want to associate with the price rule.
 
-    {: .bs-callout .bs-callout-info }
+    {:.bs-callout-info}
     If your banners don’t appear in the grid, click **Reset Filter**.
 
 1. When complete, click <span class="btn">Save Rule</span>.

@@ -12,7 +12,7 @@ sections:
    - title: About Order Status and Reservations
      content: As you manage orders with shipments, refunds, and cancellations, Magento automatically updates your inventory quantities with reservations. Reservations ensure you do not oversell products across your entire stock.
      url: /catalog/inventory-about-order-status-reservation.html
-      
+
    - title: About Product Types
      content: Inventory Management supports all product types. Options and requirements may differ per product type for sources, stocks, and shipping.
      url: /catalog/inventory-about-ssa.html

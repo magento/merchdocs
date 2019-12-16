@@ -7,11 +7,11 @@ The System Menu includes tools to import and export data, install extensions, ma
 The System menu is on the _Admin_ sidebar, click **System**.
 
 -  [Data Transfer]({% link system/data-transfer.md %})
-    
+
     The Import and Export tools give you the ability to manage multiple records in a single operation. You can import new items, and also update, replace, and delete existing products and tax rates.
 
 -  [Extensions]({% link system/integrations.md %})
-    
+
     Manage integrations and extensions for your store.
 
 -  [Tools]({% link system/tools.md %})

@@ -5,7 +5,7 @@ title: Ended Listings
 
 The Ended Listings tab displays all the Amazon products that have been manually ended (removed) from your Amazon Seller Central account. These products meet all of the listing requirements and can be republished at any time and do not require additional information. If a product is in the Ineligible Listings tab, you may need to modify your [listing settings]({% link sales-channels/amazon/ob-listing-settings.md %}) to so that your product meets listing eligibility.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If you have listings in process, the number of listings will display in a message above the tabs
 
 ## To manually end a single or multiple Amazon listings

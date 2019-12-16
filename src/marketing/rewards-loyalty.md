@@ -17,7 +17,7 @@ Reward point [balances]({% link marketing/reward-point-configure.md %}) can be m
 
 Points can be [redeemed]({% link marketing/reward-exchange-rates.md %}) by admin users and customers (if enabled) during checkout. In the Payment Method section, a Use my Reward Points checkbox appears above the enabled payment methods. The available points and monetary exchange rate is included. If the available balance is greater than the order grand total, no additional payment methods is required. The amount of reward points applied to the order appears with the order totals, subtracted from the grand total, similar to a store credit or gift cards. If reward points are used in conjunction with store credit or a gift card, the reward points are deducted first, and the store credit or gift card is deducted if the order total is greater than the redeemable amount of reward points.
 
-{: .bs-callout-info }
+{:.bs-callout-info}
 Reward points are not recommended for use with COD purchases, because receipt of payment cannot be confirmed until after the order is invoiced.
 
 ## Refunding to Reward Points

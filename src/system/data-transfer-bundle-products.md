@@ -9,7 +9,7 @@ _Bundle Product_
 
 ## Change the Order of Bundle Items
 
-There are two ways to change the order of items in a bundle product. 
+There are two ways to change the order of items in a bundle product.
 
 ### Method 1: Drag and Drop
 
@@ -28,7 +28,7 @@ The best way to understand how a bundle product is structured is to export the p
 - SKU
 - Color
 - Price
-- Default option indicator 
+- Default option indicator
 - Default quantity
 - Price type
 - Quantity editable indicator
@@ -37,15 +37,15 @@ The best way to understand how a bundle product is structured is to export the p
 
 In this step, the Sprite Yoga Companion Kit is exported as a ([CSV]({% link system/data-csv.md %})) file. You can use any other bundle product that you have in your catalog.
 
-1.  On the _Admin_ sidebar, go to **System** > Data Transfer > **Export**.  
+1.  On the _Admin_ sidebar, go to **System** > Data Transfer > **Export**.
 
 1.  Under **Export Settings**, set **Entity Type** to `Products`.
 
-1.  In the list of product attributes, scroll down to **SKU** and enter the SKU of the bundle product that you want to export. The SKU is `24-WG080` for the product in this example. 
+1.  In the list of product attributes, scroll down to **SKU** and enter the SKU of the bundle product that you want to export. The SKU is `24-WG080` for the product in this example.
 
 1.  Scroll down to the bottom of the section and click <span class="btn">Continue</span>.
 
-1.  In the **Action** column of the _File name_ grid, click **Select** and choose `Download`. 
+1.  In the **Action** column of the _File name_ grid, click **Select** and choose `Download`.
 
     The file appears in the download location used by your browser.
 
@@ -57,20 +57,20 @@ In this step, the Sprite Yoga Companion Kit is exported as a ([CSV]({% link syst
      %}){: .zoom}
     _Bundle Values_
 
-1.  To make it easier to edit, you can copy the `bundle_values` data, and paste it into a text editor, Then, add a line break after each item, so each item is on a separate line. After editing the data, carefully remove the line breaks and paste the edited data back into the `bundle_values` column. 
-    
+1.  To make it easier to edit, you can copy the `bundle_values` data, and paste it into a text editor, Then, add a line break after each item, so each item is on a separate line. After editing the data, carefully remove the line breaks and paste the edited data back into the `bundle_values` column.
+
     In the following illustration, a `position=[number]` parameter is added to each yoga strap to change the order of the items in the store listing.
 
     ![]({% link images/images/product-bundle-values-position-parameter.png
     %}){: .zoom}
     _Position Parameter_
 
-1.  After editing the data, **Save** the CSV file. 
+1.  After editing the data, **Save** the CSV file.
 
 **Step 3: Import the Updated Product**
 
 1.  On the _Admin_ sidebar, go to **System** > _Data Transfer_ > **Import**.
-   
+
 1.  Under **Import Settings**, set **Entity Type** to `Products`.
 
 1.  Set **Import Behavior** to `Replace`. This option overwrites the previous data for your bundle product, rather than adding your changes as additional items.

@@ -23,7 +23,7 @@ The possible display fields vary depending on the calculation method and whether
 |Excluding Tax|Using this setting, the base item price is used as it is entered and the tax calculation methods are applied.|
 |IncludingTax|Using this setting, the base item price excluding tax is calculated first. This value is used as the base price, and the tax calculation methods are applied.|
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 **Important!** Changes have been made from earlier versions for EU merchants or other VAT merchants who display prices including tax and operate in several countries with multiple store views. If you load prices with more than two digits of precision, Magento automatically rounds all prices to two digits to ensure that a consistent price is presented to buyers.
 
 ## Shipping Prices With or Without Tax

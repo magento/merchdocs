@@ -195,7 +195,7 @@ If you have Ruby installed on the workstation, then you can skip this installati
     - In the Windows UI, open search and type `path`.
     - In the Windows CMD console, type `echo %path%`.
 
->  **NOTE** 
+>  **NOTE**
 >  If you encounter problems with Ruby, or the `gem` command is not recognized, you can install the `rubyinstaller-devkit.exe` development kit located in the `c:ProgramDatachocolateybin` folder.
 
 ### Install Git for Windows
@@ -267,5 +267,5 @@ You may have to close and reopen the Git Bash application after the Choco instal
       Server running... press ctrl-c to stop.
     ```
 
->  **NOTE** 
+>  **NOTE**
 >  The `.bash_profile` file CAN be created and managed using Git Bash, which is useful for aliases and other customizations, This file is in the `users/Administrator` folder.)

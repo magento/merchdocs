@@ -77,8 +77,11 @@ The installation used to export this data has the sample data installed, and has
 |is_decimal_divided|Determines if parts of the product can be shipped separately. Options: Yes / No|
 |website_id|For installations with multiple websites, identifies a specific website where the product is available. If blank, the product is available in all websites.|
 |related_skus|Lists the sku of each product that has been identified as a Related Product. For example: `24-WG080,24-UG03,24-UG01,24-UG02`|
+|related_position|Determines the position (sort order) of the SKUs that are listed as Related Products in the related_skus column. For example: `1,2,3,4`|
 |crosssell_skus|Lists the sku of each product that has been identified as a Cross-sell.|
-|upsell_skus|Lists the sku of each product that has been identified as an Upsell.|
+|crosssell_position|Determines the position (sort order) of the SKUs that are listed as Cross-sell Products in the crosssell_skus column.|
+|upsell_skus|Lists the sku of each product that has been identified as an Up-sell.|
+|upsell_position|Determines the position (sort order) of the SKUs that are listed as Up-sell Products in the upsell_skus column.|
 |additional_images|The  file names of any additional image to be associated with the product, preceded by a forward slash. For example: `/image.jpg`|
 |additional_image_labels|The labels associated with any additional images. For example: `Label 1`, `Label 2`|
 |custom_options|Specifies the properties and values assigned to each custom option. For example: <br/>`name=Color,type=drop_down,required=1,price= price_type=fixed,sku=,option_title=Black|name=Color,type=drop_down,required=1,price=,price_type=fixed,sku=,option_title=White`|

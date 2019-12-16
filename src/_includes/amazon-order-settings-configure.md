@@ -9,7 +9,7 @@
 
     - **Enabled**: Choose when you want to create corresponding Magento orders when new orders are received from Amazon. Magento orders are created based on Amazon status and stock levels.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     Must be set to `Enabled` to manage Amazon orders in Amazon Sales Channel. When set to `Disabled`, your Amazon orders will display in the Orders tab but will not have a corresponding Magento order number and cannot be managed in Amazon Sales Channel. Information for these orders is for review only. You must manage these orders in your Amazon Seller Central account.
 
 1. For **Import Amazon Orders Into Magento Store** (required), select which Magento Store the Amazon orders will be associated with when they are created in the Magento Order grid. The list of options in this drop-down is dependent on the Magento stores you have set up in your configuration. See [Stores]({% link stores/stores-all-stores.md %}).
@@ -26,7 +26,7 @@
 
     - **Build Using Amazon Order Number**: Choose when you want to create the Magento order number using the corresponding Amazon-assigned order number.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     Once an order is imported, the Amazon Order Number and the Magento Order Number display in the [Orders tab]({% link sales-channels/amazon/managing-orders.md %}).
 
 1. For **Pending Orders** (required), select an option in the drop-down. Options:
@@ -35,7 +35,7 @@
 
     - **Reserve Quantity**: Choose when you want the order quantity in the Amazon order to be "reserved" in your Magento stock quantity. When this option is selected and you receive an Amazon order, the quantity ordered will "reserve" in your Magento stock quantity to prevent your Magento stock from "over selling."
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     Remember, Amazon orders do not import into and create new orders in Magento until Amazon verifies the order and payment method and changes the order status to `Unshipped`.
 
 1. For **Order Status** (required), select an option from the drop-down. Options:

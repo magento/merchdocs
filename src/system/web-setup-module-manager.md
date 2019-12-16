@@ -1,6 +1,6 @@
 ---
 title: Module Manager
-redirect_from: 
+redirect_from:
   - /configuration/advanced/advanced.html
 ---
 
@@ -31,7 +31,7 @@ _Module Manager_
 
     -  Under **Step 1: Readiness Check**, click **Start Readiness Check** to verify that your installation has the correct version of PHP and required extensions and file permissions.
 
-        {: .bs-callout-info}
+        {:.bs-callout-info}
         A module with dependent components will fail Readiness Check.
 
         ![]({% link images/images/web-setup-module-manager-captcha-disable-readiness-check.png %}){: .zoom}

@@ -14,7 +14,7 @@ When the results appear, tap **Details** for more information. Then, do one of t
 * If your system fails the readiness check, correct the issue and tap <span class="btn"> Try Again </span>.
 * If your system meets the requirements, tap <span class="btn"> Next </span>.
 
-For technical information, see [Installation quick reference (tutorial)][1]{: target="_blank"} in the developer documentation. ![]({% link images/images/system-tools-web-setup-readiness-check.png %}){: .zoom}
+For technical information, see [Installation quick reference (tutorial)][1]{:target="_blank"} in the developer documentation. ![]({% link images/images/system-tools-web-setup-readiness-check.png %}){: .zoom}
 Readiness Check
 
 ## Step 2: Add a Database
@@ -128,7 +128,7 @@ If the installation fails to complete, view the **Console Log** to learn more. T
 
 After Setup is complete, do the following to set the recommended permissions for all files and folders in your Magento 2 installation. These instructions require using the command line which may need developer assistance.
 
-To learn more, see [File systems access permissions][2]{: target="_blank"}.
+To learn more, see [File systems access permissions][2]{:target="_blank"}.
 
 Change to the Web user who has full permissions to the Magento2 folder. (For example, apache or root.)
 

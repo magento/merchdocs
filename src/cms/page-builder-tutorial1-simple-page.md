@@ -58,7 +58,7 @@ _Full Bleed Row with Banner_
 
     The New Theme setting can be used to override the default theme and to apply a different theme to the page.
 
-    {: .bs-callout bs-callout-info"}
+    {:.bs-callout-info}
     The Full Width layout can be used only with a compatible [theme]({% link design/themes.md %}).
 
     ![]({% link images/images-ee/page-builder-tutorial1-design-section.png %}){: .zoom}
@@ -75,13 +75,13 @@ _Full Bleed Row with Banner_
     - Page Builder [panel]({% link cms/page-builder-workspace.md %}) on the left
     - [Stage]({% link cms/page-builder-workspace.md %}) with empty row where you can drag content types or columns
 
-    {: .bs-callout bs-callout-info"}
+    {:.bs-callout-info}
     The [Content Heading]({% link cms/page-builder-workspace.md %}) field is optional. It is by default, formatted as a heading level 1 (H1) according to the theme. For the purpose of this tutorial, the Content Heading field is left blank.
 
     ![]({% link images/images-ee/page-builder-layout-page-add-content.png %}){: .zoom}
     _Content Stage with Empty Row_
 
-1. Hover over the empty row to make the toolbox appear. 
+1. Hover over the empty row to make the toolbox appear.
 
    Each content container has a toolbox with a similar set of options.
 
@@ -108,7 +108,7 @@ _Full Bleed Row with Banner_
 
 ### Step 3: Add a Banner
 
-{: .bs-callout bs-callout-info"}
+{:.bs-callout-info}
 Page Builder has a new content type called _Banner_, which is featured in this step. What was previously the "Banner” option in the Content menu is now "Dynamic Block".
 
 1. Expand the **Content** section and expand **Media** in the Page Builder panel on the left.
@@ -120,7 +120,7 @@ Page Builder has a new content type called _Banner_, which is featured in this s
 
 1. Hover over the banner container to make the toolbox appear.
 
-    {: .bs-callout bs-callout-info"}
+    {:.bs-callout-info}
     The stage now has two content containers, each with a separate toolbox. Because the banner is nested inside the row, make sure that you are working in the correct toolbox.
 
     In addition to the toolbox, the Upload Image and Select from Gallery buttons are included so you can make quick changes to the banner directly from the stage.
@@ -537,7 +537,7 @@ The second column of the row will contain content from a customer review, includ
         ![]({% link images/images-ee/page-builder-tutorial1-column2-5stars-centered.png %}){: .zoom}
         _Centered Image_
 
-1. Position the insertion point just after the 5-star image and press the **Enter** key to start a new line. Then, enter the following text. 
+1. Position the insertion point just after the 5-star image and press the **Enter** key to start a new line. Then, enter the following text.
 
     | Awesome Tank! </ br> I’m a long distance runner and it keeps me pretty comfortable, although these companies always act like their shirts are magical and really it’s just pretty basic stuff. Still it’s a great shirt and I would recommend it.</ br> Antonia Racer Tank – Reviewed by Allyson |
 
@@ -567,7 +567,7 @@ The second column of the row will contain content from a customer review, includ
 
     - Hover over the second column. Then in the toolbox, choose **Settings** ( ![]({% link images/images-ee/icon-pb-settings.png %}) ), and scroll down to the **Layout** section.
 
-        {: .bs-callout bs-callout-info"}
+        {:.bs-callout-info}
         Make sure to select the Column container rather than the Text container.
 
     - In the **Minimum Height** field, enter `450` as the height in pixels, of the image in the first column.
@@ -623,7 +623,7 @@ With all three rows complete, the final step is to rearrange the rows to match t
 
 1. Hold down the mouse button and verify that all content in the row is selected. Then, drag the row into position below the red guideline at the bottom of the page.
 
-    {: .bs-callout bs-callout-info"}
+    {:.bs-callout-info}
     If you accidentally move only part of the content — such as the image — simply move the content back where it belongs, and try again.
 
     ![]({% link images/images-ee/page-builder-tutorial1-row-toolbox-move-to-position.png %}){: .zoom}

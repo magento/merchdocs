@@ -2,7 +2,7 @@
 title: Printing Credit Memos
 ---
 
-To print or view the completed credit memo, you must have a PDF reader installed on your computer. You can download [Adobe Reader][1]{: target="_blank"} at no charge.
+To print or view the completed credit memo, you must have a PDF reader installed on your computer. You can download [Adobe Reader][1]{:target="_blank"} at no charge.
 
 ![]({% link images/images/sales-credit-memos-print.png %}){: .zoom}
 _Credit Memos_

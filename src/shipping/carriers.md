@@ -13,7 +13,7 @@ Before you can offer your customers a selection of shipping carriers,you must co
 The configuration options vary for each carrier. However, all require the following stops:
 
 1.  Open a shipping account with the carrier.
-    
+
 2.  Enter your account number or user ID, and the gateway URL to their system into the configuration of your store. See [Magento Connect]({% link magento/magento-marketplace.md %}) for additional shipping services for your Magento installation.
 
 ## UPS

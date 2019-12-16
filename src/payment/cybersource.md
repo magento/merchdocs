@@ -3,7 +3,7 @@ conditions: Default.EE-B2B
 title: CyberSource (Deprecated)
 ---
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
 As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, install and configure the official CyberSource payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=cybersource#q=cybersource&idx=m2_cloud_prod_default_products&p=0&nR%5Bvisibility_search%5D%5B%3D%5D%5B0%5D=1){:target="_blank"}. 3D Secure 2.0 verification is available through [CardinalCommerce](https://www.cardinalcommerce.com/products/psd2).
 
@@ -20,7 +20,7 @@ Sign up for a CyberSource [merchant account][2], and get your credentials.
 1. On the Admin sidebar, go to **Stores** > Settings > **Configuration**.
 
 2. In the panel on the left under **Sales**, choose **Payment Methods**. Under **Other Payment Methods**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **CyberSource (Deprecated)** section. Then, do the following:
- 
+
    1. Set **Enabled** to `Yes`.
 
    2. Accept the **Default Payment** action of `Authorized Only`, which approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer’s bank account until the sale is “captured” by the merchant.

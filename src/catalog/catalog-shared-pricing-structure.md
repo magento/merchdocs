@@ -91,7 +91,7 @@ The selection of products in the grid cannot be changed from the Custom Prices p
 
     The grid displays the products in the currently selected categories, and you can use the [standard controls]({% link stores/admin-grid-controls.md %}) to find products and filter the list.
 
-    ![]({% link images/images-b2b/catalog-shared-custom-pricing-mass-actions.png %}){: .zoom}  
+    ![]({% link images/images-b2b/catalog-shared-custom-pricing-mass-actions.png %}){: .zoom}
     *Select All*
 
 1. Set the **Actions** control to one of the following:
@@ -108,7 +108,7 @@ The selection of products in the grid cannot be changed from the Custom Prices p
     *Set Discount*
 
     The discount is applied to all selected products, and the Custom Price column reflects the type of discount and amount applied.
-   
+
     ![]({% link images/images-b2b/catalog-shared-set-custom-prices-actions-set-discount-applied.png %}){: .zoom}
     *Custom Price Column with Discount*
 

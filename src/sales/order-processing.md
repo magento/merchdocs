@@ -72,7 +72,7 @@ _View Order_
 
 To open a pending sales order, click the **Edit** button in the upper-right corner.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Orders can be edited only while the status is `Pending`. The Edit button is not visible for orders that are `Processing`<!--{% if "Default.B2B Only" contains site.edition %}-->, or for orders that are based on a [negotiated quote]({% link sales/quotes.md %})<!--{% endif %}-->.
 
 ![]({% link images/images/sales-order-pending-edit.png %}){: .zoom}

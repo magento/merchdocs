@@ -1,6 +1,6 @@
 ---
 title: Social
-redirect_from: 
+redirect_from:
   - /marketing/social-connect-to-facebook.html
 ---
 
@@ -9,7 +9,7 @@ Your Magento store can be connected to social networks by installing a Marketpla
 - [Marketplace Extensions]({% link magento/magento-marketplace.md %})
 - [Adding Social Plugins]({% link marketing/social-plugins.md %})
 
-{: .bs-callout .bs-callout-info}
-Magento Commerce has removed the native _Magento Social_ Facebook integration and no longer supports the extension. Go to the [Magento Marketplace][1]{: target="_blank"} to locate alternative extensions for Facebook integration.
+{:.bs-callout-info}
+Magento Commerce has removed the native _Magento Social_ Facebook integration and no longer supports the extension. Go to the [Magento Marketplace][1]{:target="_blank"} to locate alternative extensions for Facebook integration.
 
 [1]: https://marketplace.magento.com/catalogsearch/result/?q=Facebook

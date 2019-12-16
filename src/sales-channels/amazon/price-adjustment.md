@@ -3,7 +3,7 @@ title: Price Adjustment
 ---
 
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 The Price Adjustment section is differs slightly for Standard and Intelligent repricing rules. The "Match Competitor Price" option is only available in the Price Action drop-down when the Rule Type field is set to " Intelligent repricing rule."
 
 Sections of an intelligent repricing rule include:

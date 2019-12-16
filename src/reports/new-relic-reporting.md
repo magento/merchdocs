@@ -1,12 +1,15 @@
 ---
 title: New Relic Reporting
+
 ---
 
-New Relic is a SaaS based subscription service that provides detailed real-time visibility into business and performance metrics for data-driven decision making.
+[New Relic][1] is a software analytics service that helps you analyze and improve application interactions. Magento Commerce Cloud accounts include the software for the New Relic APM service. For more information, see [New Relic services][4]{:target="_blank"} in our developer documentation.
 
 ## Step 1: Sign Up for a New Relic Account
 
-1. Visit the [New Relic][1] website, and sign up for an account. You can also sign up for a [free trial account][2].
+1. Go to the [New Relic][1] website and sign up for an account.
+
+   You can also sign up for a [free trial account][2].
 
 1. Follow the instructions on the site. When prompted choose the product that you want to install first.
 
@@ -23,22 +26,26 @@ To use New Relic APM Pro to gather and transmit data, the PHP agent must be ins
 
 1. When prompted to choose a web agent, click **PHP**.
 
-1. Follow the instructions to set up the PHP agent on your server. If you need help, see: [New Relic for PHP][3].
+1. Follow the instructions to set up the PHP agent on your server.
 
-1. Make sure that cron is running on your server. To learn more, see:  [Configure and run cron][4].
+   If you need help, see [New Relic for PHP][3].
+
+1. Make sure that cron is running on your server.
+
+   To learn more, see [Configure and run cron][5] in our developer documentation.
 
 ## Step 3: Configure Your Store
 
-1. On the Admin menu, click **Stores**. Then under **Settings**, choose **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the panel on the left under **General**, choose **New Relic Reporting**. Then, do the following:
+1. In the left panel where **General** is expanded, choose **New Relic Reporting** and do the following:
 
     ![]({% link images/images/config-general-new-relic-reporting-general.png %}){: .zoom}
-    *[New Relic Reporting]({% link configuration/general/new-relic-reporting.md %})*
+    [_New Relic Reporting_]({% link configuration/general/new-relic-reporting.md %})
 
-    * Set **Enable New Relic Integration** to “Yes.”
+    * Set **Enable New Relic Integration** to `Yes`.
 
-    * In the **Insights API URL**, replace the percent (% symbol with your New Relic Account ID.
+    * In the **Insights API URL**, replace the percent (%) symbol with your New Relic Account ID.
 
     * Enter your **New Relic Account ID**.
 
@@ -50,11 +57,11 @@ To use New Relic APM Pro to gather and transmit data, the PHP agent must be ins
 
 1. In the **New Relic Application Name** field, enter a name to identify the configuration for internal reference.
 
-1. (Optional) For the **Send Adminhtml and Frontend as Separate Apps** field, select "No" (default) or "Yes" to send collected data for the storefront and Admin as separate apps to New Relic.
+1. (Optional) For the **Send Adminhtml and Frontend as Separate Apps** field, select `Yes` to send collected data for the storefront and Admin as separate apps to New Relic.
 
    This option requires a name entered for the **New Relic Application Name**.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     Enabling this feature reduces the number of false positive New Relic alerts and allows for configured monitoring and alerts strictly for frontend performance. New Relic receives separate app data files with names of Application Name appended to Adminhtml and frontend. For example: MyStore_Adminhtml
 
 1. When complete, click <span class="btn">Save Config</span>.
@@ -64,13 +71,14 @@ To use New Relic APM Pro to gather and transmit data, the PHP agent must be ins
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Cron** section.
 
     ![]({% link images/images/config-general-new-relic-reporting-cron.png %}){: .zoom}
-    *[Cron]({% link configuration/general/new-relic-reporting.md %})*
+    [_Cron_]({% link configuration/general/new-relic-reporting.md %})
 
-1. Set **Enable Cron** to”Yes".
+1. Set **Enable Cron** to `Yes`.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
 [1]: http://newrelic.com/
 [2]: http://newrelic.com/magento
 [3]: https://docs.newrelic.com/docs/agents/php-agent/getting-started/new-relic-php
-[4]: http://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cron.html
+[4]: https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html
+[5]: http://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cron.html

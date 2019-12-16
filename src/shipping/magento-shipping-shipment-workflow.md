@@ -7,7 +7,7 @@ The value of the Status column in the Shipments grid reflects the state of the s
 | | | |
 |![]({% link images/images/icon-ms-order-received.png %})|**You receive your customer’s order.**|A quote is generated for the shipment. (Status: Pending) The shipment is booked with a carrier. (Status: Fulfilled)|
 |![]({% link images/images/icon-ms-shipment-dispatched.png %})|**Shipment is dispatched.**|An attempt to <a href="{% link sales/dispatches.md %}">dispatch</a> is in progress (Status: Completing) The dispatch is complete. (Status: Completed)|
-|![]({% link images/images/icon-x.png %})|**Shipment canceled.**|The shipment is canceled. (Status: Canceled)| 
+|![]({% link images/images/icon-x.png %})|**Shipment canceled.**|The shipment is canceled. (Status: Canceled)|
 
 ## To show the Shipment Status column
 

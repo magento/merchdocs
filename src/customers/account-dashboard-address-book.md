@@ -20,7 +20,7 @@ Customers who keep their address books current can speed through the checkout pr
 1. In the sidebar of your customer account, choose **Address Book**.
 
 1. On the Address Book page under **Additional Address** Entries, click <span class="btn">Add New Address</span>.
-  
+
     ![]({% link images/images/customer-account-addresses-additional-address-add-new.png %}){: .zoom}
     _Add New Address_
 

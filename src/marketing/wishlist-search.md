@@ -35,7 +35,7 @@ _Wish List Search_
     |`Owner Name`|Customers can search for wish lists by owner name.|
     |`Owner Email`|Customers can search for wish lists by owner email address.|
 
-    {: .bscallout-info}
+    {:.bs-callout-info}
     Shipping addresses are not included in wish lists.
 
 1. Configure the remaining widget properties as needed, following the standard [instructions]({% link cms/widget-create.md %}).
