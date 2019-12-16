@@ -33,7 +33,7 @@ The [Support Tools]({% link system/support.md %}) can be used as a resource duri
 Magento uses [roles and permissions]({% link system/permissions.md %}) to create different levels of access for Admin users, which gives you the ability to grant permission on a “need to know” basis to people who work on your site.
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-### Action Logs
+### Action Log
 
 The [Action Log]({% link system/action-log.md %}) tracks the activities of administrators who work in your store. For most events, the available information includes the action, the name of the user who performed it, whether it was a success or failure, and the ID of the object that was the target of the action. The Admin Actions archive lists the CSV log files that are stored on the server.
 
