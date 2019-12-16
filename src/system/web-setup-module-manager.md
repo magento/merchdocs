@@ -39,9 +39,7 @@ _Module Manager_
         _Readiness Check_
 
         When the readiness check is complete, do one of the following:
-
            - Click **Next**.
-        
            - Correct any issues and click **Try Again**.
 
         ![Module Manager - readiness check complete]({% link images/images/web-setup-module-manager-captcha-disable-readiness-check-complete.png %}){: .zoom}
@@ -60,7 +58,7 @@ _Module Manager_
         _Backup Complete_
 
     - Under **Step 3**, click **Disable**.
-  
+
       Your store is taken offline while the module is disabled.
 
       ![Module Manager - disable module]({% link images/images/web-setup-module-manager-captcha-disable-module.png %}){: .zoom}
@@ -92,9 +90,7 @@ _Module Manager_
         _Readiness Check_
 
         When the readiness check is complete, do one of the following:
-        
            - Click **Next**.
-        
            - Correct any issues and click **Try Again**.
 
     - Under **Step 2**, mark the checkbox of each **Backup Option** that you want to include. Click **Create Backup**.
