@@ -91,9 +91,9 @@ _Module Manager_
 
         When the readiness check is complete, do one of the following:
         
-        - Click **Next**.
+           - Click **Next**.
         
-        - Correct any issues and click **Try Again**.
+           - Correct any issues and click **Try Again**.
 
     - Under **Step 2**, mark the checkbox of each **Backup Option** that you want to include. Click **Create Backup**.
 
