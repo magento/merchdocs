@@ -37,7 +37,7 @@ In the **Action** column of the grid, select one of the following:
 
 ## View system report details
 
-1. For the report you need, select **View** in the ACtions column.
+1. For the report you need, select **View** in the Actions column.
 
    ![System report - view details]({% link images/images/system-report-grid-action-view.png %}){: .zoom}
    _View System Report_
