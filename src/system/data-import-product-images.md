@@ -48,7 +48,7 @@ Before you try to import a large amount of images, review the steps in the impor
     ![Data import images file directory]({% link images/images/data-import-images-file-to-import.png %}){: .zoom}
     _Images File Directory_
 
-    If importing multiple images for a single `sku`, insert a blank row below the `sku` and enter the additional image file names in the appropriate columns. The additional rows are understood to belong to the parent `sku`.
+    If importing multiple images for a single `sku`, insert them in a column named `additional_images`, separated by commas. Example: `image02.jpg,image03.jpg`.
 
 ## Method 2: Import Images from External Server
 
