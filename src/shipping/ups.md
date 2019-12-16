@@ -147,3 +147,18 @@ To offer this shipping method to your customers, you must first open an account 
     [*Debug and Sort Order*]({% link configuration/sales/shipping-methods.md %})
 
 7. Click **Save Config**.
+
+## Step 6: Setup Shipping Origin Address
+
+1. Make sure that your [Store Information]({% link stores/store-information.md %}) is complete.
+
+2. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+
+3. In the left panel, expand **Sales** and select **Shipping Settings**.
+
+4. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Origin** section and configure the **Shipping Origin Address**.
+
+    ![]({% link images/images/shipping-origin-magento.png %}){: .zoom}
+
+5. Click **Save Config**.
+
