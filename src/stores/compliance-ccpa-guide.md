@@ -6,7 +6,7 @@ group: getting-started
 {: .bs-callout .bs-callout-info}
 The information provided in this Guide is intended for informational purposes only and should not be construed as legal advice. Please consult with your legal counsel to determine whether and how your business should comply with any legal obligations.
 
-This topic provides a high-level outline of the steps required for Magento merchants to comply with privacy regulations such as the [California Consumer Protection Act]({% link stores/compliance-ccpa.md -%}) (CCPA).
+This topic provides a high-level outline of the steps required for Magento merchants to comply with privacy regulations such as the [California Consumer Privacy Act]({% link stores/compliance-ccpa.md -%}) (CCPA).
 
 ## GDPR and CCPA
 
