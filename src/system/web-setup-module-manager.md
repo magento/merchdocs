@@ -7,6 +7,7 @@ redirect_from:
 Module Manager lists the components and modules that are currently installed in your Magento system. Before a module is disabled, the system completes a readiness check and creates a backup.
 
 - The colored dot in the first column indicates if the module is currently _on_ or _off_.
+
 - Click the down arrow before the component name to list any dependent packages that are associated with the module.
 
 See [Run the Module Manager][1]{:target="_blank"} in the developer documentation.
@@ -39,8 +40,9 @@ _Module Manager_
 
         When the readiness check is complete, do one of the following:
 
-        - Click **Next**.
-        - Correct any issues, and **Try Again**.
+           - Click **Next**.
+        
+           - Correct any issues and click **Try Again**.
 
         ![Module Manager - readiness check complete]({% link images/images/web-setup-module-manager-captcha-disable-readiness-check-complete.png %}){: .zoom}
         _Readiness Check Complete_
