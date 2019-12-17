@@ -3,7 +3,7 @@ title: About GMC and Ads with Magento
 ---
 
 
-The Google Shopping ads integration leverages Google Merchant Center (GMC) and Google Ads accounts with your Magento product catalog. Learn more about these accounts, how they work, and the integrations with Magento. We simplify the entire process for syncing product data, creating ads, and managing everything through a single integration. 
+The Google Shopping ads integration leverages Google Merchant Center (GMC) and Google Ads accounts with your Magento product catalog. Learn more about these accounts, how they work, and the integrations with Magento. We simplify the entire process for syncing product data, creating ads, and managing everything through a single integration.
 
 {% include google-faq.md %}
 

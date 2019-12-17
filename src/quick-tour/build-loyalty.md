@@ -16,7 +16,7 @@ Request a Quote
 :  Authorized company buyers can initiate a price negotiation by [requesting a quote]({% link sales/quote-request.md %}) from the shopping cart.
 
 Punch Out Solutions
-:  Establish new customers with third-party solutions, such as [Punch Out Catalogs][2] and [PunchOut2Go][3]. You can find these solutions on the [Magento Marketplace][1]{: target="_blank"}.
+:  Establish new customers with third-party solutions, such as [Punch Out Catalogs][2] and [PunchOut2Go][3]. You can find these solutions on the [Magento Marketplace][1]{:target="_blank"}.
 
 [1]: https://marketplace.magento.com/
 [2]: https://www.punchoutcatalogs.com/

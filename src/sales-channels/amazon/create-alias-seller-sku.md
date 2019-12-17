@@ -3,7 +3,7 @@ title: Creating an Alias Amazon Seller SKU
 ---
 
 
-An Alias Amazon Seller SKU is used to create a new Amazon listing from same product in your Magento catalog. If you are an experienced Amazon seller, you may be familiar with the [Amazon Global SKU][1]{: target="_blank"} and Marketplace-specific SKU for inventory and shipping. Following similar principles for Amazon Sales Channel, the Amazon Seller SKU controls product listing information at multi-regional level, and the Alias Amazon Seller SKU can be used to control product listing information at a region-specific level.
+An Alias Amazon Seller SKU is used to create a new Amazon listing from same product in your Magento catalog. If you are an experienced Amazon seller, you may be familiar with the [Amazon Global SKU][1]{:target="_blank"} and Marketplace-specific SKU for inventory and shipping. Following similar principles for Amazon Sales Channel, the Amazon Seller SKU controls product listing information at multi-regional level, and the Alias Amazon Seller SKU can be used to control product listing information at a region-specific level.
 
 This function can be used to perform two functions:
 

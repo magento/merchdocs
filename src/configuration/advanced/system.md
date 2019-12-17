@@ -54,15 +54,15 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 ![]({% link images/images/config-advanced-system-mail-sending-settings.png %}){: .zoom}
 [_Mail Sending Settings_]({% link system/email-communications.md %})
 
-{: .bs-callout .bs-callout-warning}
-**Security Notice!** We recommend that all merchants immediately set their mail sending configuration to protect against a recently identified potential remote code execution exploit. Until this issue is resolved, we highly recommend that you avoid using [Sendmail][1]{: target="_blank"} for email communications.  In the Mail Sending Settings, make sure that Set Return Path is set to "No". To learn more, see the [Magento Security Center posting][2]{: target="_blank"}.
+{:.bs-callout-warning}
+**Security Notice!** We recommend that all merchants immediately set their mail sending configuration to protect against a recently identified potential remote code execution exploit. Until this issue is resolved, we highly recommend that you avoid using [Sendmail][1]{:target="_blank"} for email communications.  In the Mail Sending Settings, make sure that Set Return Path is set to "No". To learn more, see the [Magento Security Center posting][2]{:target="_blank"}.
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Disable Email Communications|Store View|Determines if email communications are activated for the store. Options: Yes / No|
 |Host|Store View|(For Windows server only) Determines the name that is used to refer to the host . Default value: localhost|
 |Port (25)|Store View|(For Windows server only) Identifies the port used for email communications. Default value: 25|
-|Set Return-Path|Global|Determines if a routing address is used for returned emails. Options: No ([Recommended Security Measure](https://magento.com/security/news/new-zend-framework-1-security-vulnerability){: target="_blank"}) / Yes / Specified|
+|Set Return-Path|Global|Determines if a routing address is used for returned emails. Options: No ([Recommended Security Measure](https://magento.com/security/news/new-zend-framework-1-security-vulnerability){:target="_blank"}) / Yes / Specified|
 |Return-Path Email|Global|Specifies the routing email address for returned emails.|
 
 ## Currency

@@ -179,7 +179,6 @@ _Image In Column_
 |Upload New Image||Uploads an image from your local file system to the gallery.|
 |Select from Gallery||Chooses an existing image from the gallery.|
 
-{: #image-settings}
 ## Image Settings
 
 |Setting|Description|

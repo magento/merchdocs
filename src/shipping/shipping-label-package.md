@@ -8,7 +8,7 @@ The Create Packages window appears when you choose to create a shipping label. Y
 
 1. Complete the fields as described below.
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     If you select the non-default value in the Type field or choose to require a signature confirmation, the price of a shipment may differ from the one you charged to the customer.
 
 1. To view a list of shipped products and add them to the package, click **Add Products**.

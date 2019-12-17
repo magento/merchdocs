@@ -4,7 +4,7 @@ title: Automatic Product Redirects
 
 Your store can be configured to automatically generate a permanent redirect whenever the URL key of a product or category changes. In the Search Engine Optimization section, the checkbox below the URL key indicates if permanent redirects are enabled. If your store is already configured to automatically redirect catalog URLs, making a redirect is as easy as updating the URL key. The process to create an automatic redirect is the same for both products and categories.
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 When automatic redirects are enabled and you save a category, all product and category rewrites are generated in real time and stored in database tables by default. This could result in significant performance issues for categories with many assigned products. The solution is to change this default and skip the generation of category/products URL rewrites for products on category save. In this case, product rewrites are generated only for the canonical product URL.
 
 ## Set Up Automatic Redirects
@@ -63,10 +63,9 @@ When automatic redirects are enabled and you save a category, all product and ca
 
    The permanent redirect is now in effect for the category and any associated product URLs.
 
-{: #skip-rewrite}
-## Skip Generation of Product URL Rewrites for Category Save
+## Skip Generation of Product URL Rewrites for Category Save {#skip-rewrite}
 
-{: .bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 Turning off automatic generation of category/products URL rewrites results in permanent removal of all existing category/product type URL rewrites, which cannot be restored. This could potentially cause unresolved category/product type URL conflicts that will require a manual update of the URL key to resolve.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.

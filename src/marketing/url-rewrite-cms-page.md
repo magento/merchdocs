@@ -45,7 +45,7 @@ If you are not sure, open each page in your store, and copy the path from the ad
 
     - In the **Request Path** field, enter the URL key of the original page that the customer requests. This is the _redirect from_ page.
 
-        {: .bs-callout .bs-callout-info}
+        {:.bs-callout-info}
         The Request Path must be unique for the specified store. If there is already a redirect that uses the same Request Path, you will receive an error when you try to save the redirect. The previous redirect must be deleted before you can create a new one.
 
     - Set **Redirect** to one of the following:

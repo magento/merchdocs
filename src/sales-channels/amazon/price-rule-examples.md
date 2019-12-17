@@ -176,7 +176,7 @@ Because the lowest competitor price for the Used condition is $13, the product i
 
 The final price after the rule is applied: $13
 
-####  Intelligent repricing rule combining ceiling price, currency conversion, and VAT 
+####  Intelligent repricing rule combining ceiling price, currency conversion, and VAT
 
 | Field | Setting |
 |----------|

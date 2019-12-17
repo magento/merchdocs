@@ -11,7 +11,7 @@ You can also define custom Magento Shipping attributes, allowing for greater fle
 ![]({% link images/images/magento-shipping-attributes.png %}){: .zoom}
 _Product Attribute Mapping_
 
-{: .bs-callout-info}
+{:.bs-callout-info}
 Mapping for **Resource**, **Object**, or **Array** attribute types is not supported.
 
 ## To Map Magento Shipping Attributes

@@ -10,7 +10,7 @@ _Privacy Policy_
 
 ## Edit your privacy policy
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 The Luma sample data includes a sample privacy policy that you can modify for your use.
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Pages**.
@@ -24,7 +24,7 @@ The Luma sample data includes a sample privacy policy that you can modify for yo
     ![Privacy Policy page - edit content]({% link images/images/page-privacy-content-edit.png %}){: .zoom}
     _Content_
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     If you change the URL key of the privacy policy page, you must also create a [custom URL rewrite]({% link marketing/url-rewrite-cms-page.md %}) to redirect traffic to the new URL key. Otherwise, the link in the footer will return `404 Page Not Found`.
 
 1. When complete, click <span class="btn">Save Page</span>.

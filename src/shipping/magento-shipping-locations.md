@@ -43,7 +43,7 @@ _Locations Grid_
 
 1.  For **Dependent Locality**, enter an additional descriptive name to describe the location, such as the name of the neighborhood, small town, or suburb.
 
-    See the [Latitude/Longitude FInder][1]{: target="_blank"} to get the GPS coordinates of the location. Then, enter the **Latitude** and **Longitude** coordinates.
+    See the [Latitude/Longitude FInder][1]{:target="_blank"} to get the GPS coordinates of the location. Then, enter the **Latitude** and **Longitude** coordinates.
 
     ![]({% link images/images/shipping-magento-shipping-configure-locations-address.png %}){: .zoom}
     _Address_

@@ -2,7 +2,7 @@
 title: Import/Export Tax Rates
 ---
 
-If you conduct business in several states and ship a large quantity of product, entering tax rates manually can be very time consuming. It is faster and more efficient to download tax rates by ZIP code and import them into Magento. The following example shows how to import a set of California tax rates downloaded from the [Avalara][1] website. Avalara is a [Magento Technology Partner][2] and provides [tax rate tables][3] for every ZIP code in the United States, which you can download at no charge.
+If you conduct business in several states and ship a large quantity of product, entering tax rates manually can be very time consuming. It is faster and more efficient to download tax rates by ZIP code and import them into Magento. The following example shows how to import a set of California tax rates downloaded from the [Avalara][1]{:target="_blank"} website. Avalara is a [Magento Technology Partner][2]{:target="_blank"} and provides [tax rate tables][3]{:target="_blank"} for every ZIP code in the United States, which you can download at no charge.
 
 ## Step 1: Export the Magento Tax Rate Data
 
@@ -26,7 +26,7 @@ If you conduct business in several states and ship a large quantity of product, 
     - Range To
     - A column for each store view
 
-    ![Exported data - tax rates]({% link images/images/data-exported-tax-rates.png %}){: .zoom} 
+    ![Exported data - tax rates]({% link images/images/data-exported-tax-rates.png %}){: .zoom}
     _Exported Tax Rate Data_
 
 1. Open the new tax rate data in a second instance of the spreadsheet, so you can see them side by side.

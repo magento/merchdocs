@@ -33,14 +33,14 @@ The in-stock alert creates a link called “Sign up to get notified when this pr
 
 1. To offer alerts when out-of-stock products become available again, set **Allow Alert When Product Comes Back in Stock** to “Yes.”
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     The “Sign up to get notified when this product is back in stock” message appears only when **Inventory Stock Options - Display Out of Stock Products** is set to “Yes.”
 
 1. Set **Stock Alert Email Template** to the template that you want to use for product stock alerts.
 
 1. Set **Alert Email Sender** to the [store contact]({% link stores/store-email-addresses.md %}) that you want to appear as the sender of the email alert.
 
-    ![]({% link images/images/config-catalog-catalog-product-alerts.png %}){: .zoom}  
+    ![]({% link images/images/config-catalog-catalog-product-alerts.png %}){: .zoom}
     *[Product Alerts]({% link configuration/catalog/catalog.md %})*
 
 1. When complete, click <span class="btn">Save Config</span>.

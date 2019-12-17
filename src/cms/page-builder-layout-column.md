@@ -106,7 +106,6 @@ _Grid Divisions on Row with Two Columns_
 |Duplicate|![]({% link images/images-ee/icon-pb-duplicate.png %})|Makes a duplicate copy of the current column.|
 |Remove|![]({% link images/images-ee/icon-pb-remove.png %})|Deletes the current column and its content.|
 
-{: #column-settings}
 ## Column Settings
 
 |Setting|Description|

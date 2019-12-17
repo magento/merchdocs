@@ -1,6 +1,6 @@
 ---
 title: Themes
-redirect_from: 
+redirect_from:
   - /design/theme-responsive.html
 ---
 

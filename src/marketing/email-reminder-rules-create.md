@@ -5,7 +5,7 @@ title: Creating Email Reminders
 
 Before setting up an email reminder rule, you must first set up a cart price rule to define the promotion that is being offered. Rule conditions that trigger an email reminder can be based on cart properties, wishlist properties, or both.
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Email reminders might promote a cart price rule with, or without, a coupon. A cart price rule that defines an auto-generated coupon generates a random coupon code for each customer.
 
 ## Create an Email Reminder
@@ -68,7 +68,7 @@ Email reminders might promote a cart price rule with, or without, a coupon. A ca
 
     - Enter the **Rule Title for All Store Views**.
 
-        {: .bs-callout .bs-callout-info}
+        {:.bs-callout-info}
         This value can be incorporated into email templates by using the `promotion_name` variable.
 
     - Enter the **Rule Description for All Store Views**.
@@ -78,7 +78,7 @@ Email reminders might promote a cart price rule with, or without, a coupon. A ca
 
     - In the **Titles and Descriptions Per Store View** section, enter the Rule Title and Description for the _Default Store View_. For multiple store views, enter the appropriate title and description for each.
 
-        {: .bs-callout .bs-callout-info}
+        {:.bs-callout-info}
         The description can be incorporated into email templates by using the promotion_description variable.
 
         ![Titles and descriptions - store view]({% link images/images-ee/email-reminder-rules-title-descriptions-per-store-view.png %}){: .zoom}

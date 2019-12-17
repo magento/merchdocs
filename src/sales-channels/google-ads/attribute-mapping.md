@@ -11,9 +11,9 @@ For more information on attributes and data, see [About Google and Magento Catal
 
 This step can take additional time to complete. You may have an option to create attributes in your Magento catalog for a few of these settings. When you complete this step, the attributes are added and may require additional configurations after creating the account. You must complete this step to create your Google Merchant Center account. You can edit these settings at any time after completion.
 
-For more information about Google's product attributes, see Google's [Product data specification][1]{: target="_blank"}.
+For more information about Google's product attributes, see Google's [Product data specification][1]{:target="_blank"}.
 
-{:.bs-callout .bs-callout-tip}
+{:.bs-callout-tip}
 **Bulk resolve product errors**: If you have a large number of products with the same error, you may be able to solve it by creating a [Magento attribute]({% link stores/attribute-product-create.md %}), configuring it for your products, and mapping it to one of the following Google attributes.
 
 ![]({% link images/images/sales-channels/google/gmc-onboard-attributes.png %}){: .zoom}
@@ -122,12 +122,12 @@ Magento and Google do the following:
 * Magento sends all information you configured and entered during onboarding to Google.
 * Google immediately creates the GMC account and begins the process to verify and claim the URL.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     The automated verify and claim process can take a few hours. Check the [GMC Account]({% link sales-channels/google-ads/google-account-managment.md %}) section of the dashboard to check the status. If the automated process fails, see [Unclaim a Claimed URL]({% link sales-channels/google-ads/gmc-unlink-gmc.md %}).
 
 * Once your URL is verified and claimed, and if you have no account errors, Google begins reviewing and approving your synced products. These products become your Google Merchant Center catalog.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If Magento has an issue when creating attributes, a message may display. To resolve, see [Editing Attribute Mappings]({% link sales-channels/google-ads/products-edit-mappings.md %}).
 
 ![check]({% link images/images/btn-next.png %}){: .Inline} [Continue to Google Ads]({% link sales-channels/google-ads/ads-acct-create.md %})

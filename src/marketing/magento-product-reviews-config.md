@@ -4,7 +4,7 @@ title: Enable Magento Product Reviews
 
 The Magento Product Reviews function is enabled by default.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 To set these fields to `No` and disable Magento Product Reviews, you must clear the **Use system value** checkboxes.
 
 ## Enable Product Reviews

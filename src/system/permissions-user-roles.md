@@ -4,81 +4,76 @@ title: User Roles
 
 To give someone restricted access to the Admin, the first step is to create a role that has the appropriate level of permissions. After the role is saved, you can add new users and assign the restricted role to grant them limited access to the Admin.
 
-![]({% link images/images/permissions-role-grid.png %})
+![Magento Admin - user roles]({% link images/images/permissions-role-grid.png %})
 
-#### To set up a role:
+## Set up a role
 
-1.  On the _Admin_ sidebar, click **System**.
+1. On the _Admin_ sidebar, go to **System** > _Permissions_ > **User Roles**.
 
-1.  Under _Permissions_, choose **User Roles**.
+1. In the upper-right corner, click <span class="btn">Add New Role</span>. Then, complete the steps to define the role:
 
-1.  In the upper-right corner, click **Add New Role**. Then, do the following:
+### Step 1: Add the role name
 
-## Step 1: Define the Role
+1. Under _Role Information_, enter a descriptive **Role Name**.
 
-1.  Under _Role Information_, enter a descriptive **Role Name**.
+1. Under _Current User Identity Verification_, enter **Your Password**.
 
-1.  Under _Current User Identity Verification_, enter **Your Password**.
-
-    ![]({% link images/images/system-permissions-role-info.png %}){: .zoom}
+    ![System permissions - role information]({% link images/images/system-permissions-role-info.png %}){: .zoom}
     _Role Name_
 
-## Step 2: Assign Resources
+### Step 2: Assign resources
 
 {:.bs-callout-info}
-**Important!** 
-When assigning resources, be sure to disable access to the Permissions tool if you are limiting access for a given role. Otherwise, users will be able to modify their own permissions.
+**Important!** When assigning resources, be sure to disable access to the Permissions tool if you are limiting access for a given role. Otherwise, users will be able to modify their own permissions.
 
-1.  Set **Role Scopes** to one of the following:
+1. Set **Role Scopes** to one of the following:
 
-    -  All
-    -  Custom
+    - `All`
+    - `Custom`
 
-    If set to `Custom` for a multisite installation, mark the checkbox of the website and store where the role is to be used.
+    If set to `Custom` for a multisite installation, select the checkbox of the website and store where the role is to be used.
 
-    ![]({% link images/images/permissions-role-scope-custom.png %}){: .zoom}
+    ![User role resources - custom scope]({% link images/images/permissions-role-scope-custom.png %}){: .zoom}
     _Custom Role Scope_
 
-1.  Under _Roles Resources_, set **Resource Access** to `Custom`.
+1. Under _Roles Resources_, set **Resource Access** to `Custom`.
 
-1.  In the tree, mark the checkbox of each Admin **Resource** that the role can access.
+1. In the tree, select the checkbox of each Admin **Resource** that the role can access.
 
     To create an Admin role with access to tax settings, choose both the Sales/Tax and System/Tax resources. If setting up a website for a region that differs from your default [shipping point of origin]({% link shipping/point-of-origin.md %}), you must allow access to the System/Shipping resources for the role. The shipping settings determine the store tax rate that is used for catalog prices.
 
-    ![]({% link images/images/system-permissions-role-resources-product.png %}){: .zoom}
+    ![Assigned user role resources]({% link images/images/system-permissions-role-resources-product.png %}){: .zoom}
     _Role Resources Assigned_
 
     {:.bs-callout-info}
     The list of available permissions may include additional options for Magento developed, Core Bundled, and installed extensions. By selecting the top-most permission for each feature, you assign all permissions available for the user.
 
-1.  When complete, click **Save Role**.
+1. When complete, click <span class="btn">Save Role</span>.
 
     The role now appears in the grid, and can be assigned to new user accounts.
 
-## User role assignments
+## Edit user role assignments
 
-#### To edit user role assignments:
+1. From the **Roles** grid, open the record in edit mode.
 
-1.  From the **Roles** grid, open the record in edit mode.
+1. Under _Current User Identity Verification_, enter **Your Password**.
 
-1.  Under _Current User Identity Verification_, enter **Your Password**.
-
-    ![]({% link images/images/permissions-role-edit.png %}){: .zoom}
+    ![Enter your password to edit the role]({% link images/images/permissions-role-edit.png %}){: .zoom}
     _Editing a Role_
 
-1.  In the panel on the left, choose **Role Users**.
+1. In the left panel, choose **Role Users**.
 
     The _Role Users_ option appears only after a new role is saved.
 
-1.  To search for a specific user record, do the following:
+1. To search for a specific user record, do the following:
 
-    -  Enter the value in the search filter at the top of a column. Then, press **Enter**.
+    - Enter the value in the search filter at the top of a column. Then, press **Enter**.
 
-    -  When you are ready to return to the full list, click **Reset Filter**.
+    - When you are ready to return to the full list, click **Reset Filter**.
 
-1.  Mark the checkbox of any user(s) to be assigned to the role.
+1. Select the checkbox of any user(s) to be assigned to the role.
 
-1.  Click **Save Role**.
+1. Click <span class="btn">Save Role</span>.
 
-    ![]({% link images/images/permissions-role-users.png %}){: .zoom}
+    ![User accounts assigned to the role]({% link images/images/permissions-role-users.png %}){: .zoom}
     _Role Users_

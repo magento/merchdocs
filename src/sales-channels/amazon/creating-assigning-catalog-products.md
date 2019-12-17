@@ -65,7 +65,7 @@ The catalog product is created in your Magento catalog, and assigned to the Amaz
 1. Click **OK** to accept the confirmation message. The Create Magento Catalog Product screen displays.
 
 1. Complete the catalog settings for the products.
-<br />{:.bs-callout .bs-callout-info}
+<br />{:.bs-callout-info}
 When creating catalog products for multiple selected listings, the product settings entered are applied to all the listings.
 
     - Set the **Enable Product(s)** toggle to Yes or No (required).

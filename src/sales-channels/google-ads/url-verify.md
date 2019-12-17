@@ -5,7 +5,7 @@ title: URL Verification
 
 **Step 2 of 4** for [GMC Account Creation]({% link sales-channels/google-ads/gmc-acct-create.md %}).
 
-In this step, you will select your website URL to associate to the new Google Merchant Center (GMC) account. The selected site URL will be submitted to Google to be verified and claimed. This URL verification identifies you as the authorized owner of your storefront URL (domain). We recommend reviewing Google's [Verify and claim your website URL][1]{: target="_blank"}.
+In this step, you will select your website URL to associate to the new Google Merchant Center (GMC) account. The selected site URL will be submitted to Google to be verified and claimed. This URL verification identifies you as the authorized owner of your storefront URL (domain). We recommend reviewing Google's [Verify and claim your website URL][1]{:target="_blank"}.
 
 Magento attempts to automatically verify and claim your site URL after submission. If Magento is unable to verify and claim the URL automatically, it displays a notification that site failed to claim.
 
@@ -28,7 +28,7 @@ After accepting the Google terms and conditions, you will select your website UR
 
     ![]({% link images/images/sales-channels/google/gmc-onboard-url.png %}){: .zoom}
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     If you have multiple website URLs to integration, complete the onboarding process individually for each URL.
 
 1. Add the store views for your URL by selecting a view name, country, and language for each. You can add multiple store views with a different language selected per view for international storefronts.
@@ -43,7 +43,7 @@ After accepting the Google terms and conditions, you will select your website UR
 
    1. Repeat per store view and locale as needed.
 
-        {:.bs-callout .bs-callout-info}
+        {:.bs-callout-info}
         Google serves and runs ads the all languages you add in this step. This may increase your costs for running ads. You may want to limit your supported languages when first onboarding, and add languages over time to estimate ad costs for international customers.
 
         ![]({% link images/images/sales-channels/google/store-views.png %}){: .zoom}

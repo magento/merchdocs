@@ -2,7 +2,7 @@
 title: PayPal Payflow Link
 ---
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
 As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, PayPal Payflow Link must be integrated with Cardinal Commerce. To learn more, see [3-D Secure for Payflow](https://developer.paypal.com/docs/classic/payflow/3d-secure-overview/).
 
@@ -15,7 +15,7 @@ Credit memos are supported for both online and offline refunds. However, multipl
 
 ## Requirements
 
-* [PayPal Business Account][1]{: target="_blank"} The PayPal Payflow Pro gateway links the merchant account at PayPal with the merchant’s website, and acts both as a gateway and a merchant account.  
+* [PayPal Business Account][1]{:target="_blank"} The PayPal Payflow Pro gateway links the merchant account at PayPal with the merchant’s website, and acts both as a gateway and a merchant account.
 * If you manage multiple Magento websites, you must have a separate PayPal merchant account for each website.
 
 ## Customer Workflow
@@ -46,7 +46,7 @@ Credit memos are supported for both online and offline refunds. However, multipl
 
 1. **Save** the settings.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    If you have multiple Magento websites, you must create a separate PayPal Payments Advanced account for each.
 
 1. When prompted to create a layout, do the following:
@@ -87,12 +87,12 @@ Credit memos are supported for both online and offline refunds. However, multipl
 
 ### Step 3: Complete the Required PayPal Settings
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. (Optional) Enter the **Email Associated with your PayPal Merchant Account**.
 
-   {:.bs-callout .bs-callout-warning}
+   {:.bs-callout-warning}
    Email addresses are case sensitive. To receive payment, the email address must match the email address specified in your PayPal merchant account.
 
    If you do not have a PayPal account, click **Start accepting payments via PayPal**.
@@ -189,7 +189,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. To write communications with the payment system into the log file, set **Debug Mode** to `Yes`.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    In accordance with PCI Data Security Standards, credit card information is not recorded in the log file.
 
 1. To enable host authenticity verification, set **Enable SSL verification** to `Yes`.
@@ -228,11 +228,11 @@ Complete the following sections, as needed for your store:
 
    - To run test reports before “going live” with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
 
-   - Enter the **Custom Endpoint Hostname or IP Address**. 
+   - Enter the **Custom Endpoint Hostname or IP Address**.
 
      By default, the value is: `reports.paypal.com`
 
-   - Enter the **Custom Path** where reports are saved. 
+   - Enter the **Custom Path** where reports are saved.
 
      By default, the value is: `/ppreports/outgoing`
 
@@ -281,7 +281,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
    - In the **Header Image URL** field, enter the URL of the image that you want to appear in the upper-left corner of the payment page. The maximum file size is 750 pixels wide by 90 pixels high.
 
-     {:.bs-callout .bs-callout-info}
+     {:.bs-callout-info}
      PayPal recommends that the image be located on a secure (https) server. Otherwise, the customer’s browser may warn that “the page contains both secure and nonsecure items.”
 
    - Enter the six-character hexadecimal code, without the “#” symbol, for each of the following:
@@ -324,7 +324,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
 1. To write communications with the payment system into the log file, set **Debug Mode** to `Yes`.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    In accordance with PCI Data Security Standards, credit card information is not recorded in the log file.
 
 1. To enable host authenticity verification, set **Enable SSL Verification** to `Yes`.

@@ -55,5 +55,5 @@ Before you begin, make sure that the Storefront Properties of the SKU attribute 
 
 1. When your rule is complete, click <span class="btn">Save</span>.
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 {%- include new-price-rule.md -%}

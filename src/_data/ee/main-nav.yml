@@ -8,23 +8,23 @@
 
   - label: Basic Configuration
     url: /configuration/configuration-basic.html
-  
+
   - label: Configuration Reference
     url: /stores/configuration.html
 
   - label: Magento Extensions
-    url: /magento/magento-extensions.html 
-  
+    url: /magento/magento-extensions.html
+
   - label: Change Log
     url: /magento/change-log.html
 
   - label: Documentation Resources
-    url: https://magento.com/technical-resources 
+    url: https://magento.com/technical-resources
 
 - label: Catalog
   url: /catalog.html
   children:
-  
+
   - label: Catalog Menu
     url: /catalog/catalog-menu.html
 
@@ -58,7 +58,7 @@
 - label: Marketing
   url: /marketing.html
   children:
-  
+
   - label: Marketing Menu
     url: /marketing/marketing-menu.html
 
@@ -86,7 +86,7 @@
 - label: Content
   url: /content.html
   children:
-  
+
   - label: Content Menu
     url: /cms/content-menu.html
 
@@ -102,7 +102,7 @@
 - label: Customers
   url: /customers.html
   children:
-  
+
   - label: Customers Menu
     url: /customers/customers-menu.html
 
@@ -118,7 +118,7 @@
 - label: Sales
   url: /sales.html
   children:
-  
+
   - label: Sales Menu
     url: /sales/sales-menu.html
 
@@ -137,7 +137,7 @@
 - label: Operations
   url: /operations.html
   children:
-  
+
   - label: Stores
     url: /stores/stores.html
 

@@ -5,7 +5,7 @@ title: Address Search
 
 Your customers could have a large number of saved addresses and information in their address book, especially regular, returning customers or companies entering multiple orders and shipment locations. Displaying a large amount of addresses can slow checkout loading and processes considerably, and result in a negative shopping experience. To help increase the responsiveness of checkout, we recommend activating and configuring address search for your site.
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Address search is not enabled by default. You must configure this feature to include the functionality on your site.
 
 When this feature is enabled and the customer's number of saved addresses meets or exceeds the configured limit, only one address is displayed (the default address, if the customer has one) for the _Shipping_ and _Review & Payments_ steps. The customer can change the selected address by clicking **Change Address** and then searching for the correct address by city, state, street, or zip. This feature also supports address selection for gift registry checkout.

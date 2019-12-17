@@ -59,7 +59,7 @@ As you work on the company structure, you can drag teams or divisions to other l
 
 ## To delete a team:
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Before deleting a team, make sure that the correct team is selected. Deleted teams cannot be restored.
 
 1. Select the team to be deleted.

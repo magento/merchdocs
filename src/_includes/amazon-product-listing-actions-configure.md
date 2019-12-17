@@ -11,5 +11,5 @@
 
 1. For **Default Handling Time** (required), enter a numerical amount of lead time days needed before shipment. The default value is 2 days.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 This default handing time value is only effective for Amazon listings created through Amazon Sales Channel. Any Amazon listings that were created in your Amazon Seller Central account use the default handling time set for the listing in Amazon.

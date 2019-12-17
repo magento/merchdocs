@@ -1,6 +1,6 @@
 ---
 title: Product Settings
-redirect_from: 
+redirect_from:
   - /catalog/settings-basic-product-details.html
   - /catalog/settings-basic.html
 ---

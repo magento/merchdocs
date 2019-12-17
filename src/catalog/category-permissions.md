@@ -5,7 +5,7 @@ title: Category Permissions
 
 Category access can be limited to specific customer groups, or restricted entirely. You can control the display of product prices, and determine which customer groups can add products to the cart, and specify the landing page.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Category Permissions has a global scope and when enabled, restricts access to each category according to its individual permissions. By default, Category Permissions is not enabled.
 
 For example, if you sell only to wholesale customers, you can allow anyone to browse the catalog, but display prices and allow purchases only to those in the Wholesale customer group. In the following example, only logged in users have access to the “Collections” category. For guests, the “Collections” option doesn’t appear in the main menu.
@@ -25,7 +25,7 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
 1. Set **Enable** to “Yes.” Then, configure the following as needed:
 
-    ![]({% link images/images-ee/config-catalog-catalog-category-permissions.png %}){: .zoom} 
+    ![]({% link images/images-ee/config-catalog-catalog-category-permissions.png %}){: .zoom}
     *[Category Permissions]({% link configuration/catalog/catalog.md %})*
 
     **Browsing Category**
