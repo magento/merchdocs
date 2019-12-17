@@ -23,7 +23,7 @@ To display your shipping policy during checkout, complete the Shipping Policy Pa
 
 1.  Either paste or enter your **Shipping Policy** into the text box.
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     If you use a word processor to compose the text, make sure to save the document as a .txt file to remove any control characters from the text. Then, copy and paste the text into the Shipping Policy text box.
 
     ![]({% link images/images/config-sales-shipping-settings-shipping-policy-parameters.png %}){: .zoom}

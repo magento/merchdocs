@@ -93,7 +93,7 @@ If you intend to upload large images for viewing on the Product Details page, yo
          </tr>
          <tr>
             <td>Base Image</td>
-            <td>The base image is the main image on the product detail page. Image zoom is activated if you upload an image that is larger image than the image container. Depending on the level of zoom that you want to achieve, the base image should be two or three times the size of the container. Example sizes: 
+            <td>The base image is the main image on the product detail page. Image zoom is activated if you upload an image that is larger image than the image container. Depending on the level of zoom that you want to achieve, the base image should be two or three times the size of the container. Example sizes:
             <br />470 x 470 pixels (without Zoom)<br />1100 x 1100 pixels (with Zoom)
 								</td>
          </tr>

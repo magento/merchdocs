@@ -25,7 +25,7 @@ Protecting the environment is the most critical aspect of ensuring the security 
 
 - Make sure that the server operating system is secure. Work with your hosting provider to ensure that  there is no unnecessary software running on the server.
 - Use only secure communications protocol (SSH/SFTP/HTTPS) to manage files, and disable FTP.
-- Magento includes `.htaccess` files to protect system files when using the Apache web server. If you use a different web server such as NGINX, make sure that all system files and directories are protected. For an sample NGINX configuration, see [magento-nginx.conf](https://gist.github.com/gwillem/cd5ae6845fa33aa0d481){: target="_blank"} on GitHub.
+- Magento includes `.htaccess` files to protect system files when using the Apache web server. If you use a different web server such as NGINX, make sure that all system files and directories are protected. For an sample NGINX configuration, see [magento-nginx.conf](https://gist.github.com/gwillem/cd5ae6845fa33aa0d481){:target="_blank"} on GitHub.
 - Use strong and unique passwords, and change them periodically.
 - Keep the system up to date, and immediately install patches when new security issues are discovered.
 - Closely monitor any issues that are reported for software components used by your Magento installation, including the operating system, MySQL database, PHP, Redis (if used), Apache or NGINX, Memcached, Solr, and any other components in your specific configuration.
@@ -34,8 +34,8 @@ Protecting the environment is the most critical aspect of ensuring the security 
 ### Advanced Techniques
 
 - Automate the deployment process, if possible, and use private keys for data transfer.
-- Limit access to the Magento Admin by updating the  whitelist with the IP address of each computer that is authorized to use the  Admin and Magento Connect downloader. For examples of how to whitelist IP addresses, see [Secure Your Magento Admin](https://www.sonassi.com/knowledge-base/magento-kb/secure-your-magento-admin/){: target="_blank"}.
-- Do not install extensions directly on a production server. To disable the Magento Connect downloader on the production site, either remove or block access to the `/downloader` directory. You can also use the same [whitelisting](https://www.sonassi.com/knowledge-base/magento-kb/secure-your-magento-admin/){: target="_blank"} methods.
+- Limit access to the Magento Admin by updating the  whitelist with the IP address of each computer that is authorized to use the  Admin and Magento Connect downloader. For examples of how to whitelist IP addresses, see [Secure Your Magento Admin](https://www.sonassi.com/knowledge-base/magento-kb/secure-your-magento-admin/){:target="_blank"}.
+- Do not install extensions directly on a production server. To disable the Magento Connect downloader on the production site, either remove or block access to the `/downloader` directory. You can also use the same [whitelisting](https://www.sonassi.com/knowledge-base/magento-kb/secure-your-magento-admin/){:target="_blank"} methods.
 - Use two-factor authorization for Admin logins. There are several extensions available that provide additional security by requiring an additional passcode that is generated on your phone, or a token from a special device.
 - Review your server for “development leftovers.” Make sure there are no accessible log files, publicly visible .git directories, tunnels to execute SQL, database dumps, `phpinfo` files, or any other unprotected files that are not required, and that might be used in an attack.
 - Limit outgoing connections to only those that are required, such as for a payment integration.

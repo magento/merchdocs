@@ -13,7 +13,7 @@ Downloadable products can be configured to require that the customer log in to a
 
 The following instructions take you through the process of creating a downloadable product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}) as needed.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Downloadable file names can include letters and numbers. Either a dash or underscore character can be used to represent a space between words. Any invalid characters in the file name are replaced with an underscore.
 
 ## Step 1: Choose the Product Type

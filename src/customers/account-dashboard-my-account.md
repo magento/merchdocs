@@ -2,7 +2,7 @@
 title: My Account
 ---
 
-The My Account section of the customer dashboard gives customers an overview of their information and activity related to your store. 
+The My Account section of the customer dashboard gives customers an overview of their information and activity related to your store.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/customer-account-dashboard-my-account.png %}){: .zoom}

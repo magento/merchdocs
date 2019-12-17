@@ -4,7 +4,7 @@ title: Session Validation
 
 Magento allows you to validate session variables as a protective measure against possible session fixation attacks or attempts to poison or hijack user sessions. The Session Validation Settings determine how session variables are validated during each store visit and if the session ID is included in the URL of the store.
 
-For technical information, see [Use Redis for session storage][1]{: target="_blank"} in the developer documentation.
+For technical information, see [Use Redis for session storage][1]{:target="_blank"} in the developer documentation.
 
 ![General configuration - Web session validation]({% link images/images/config-general-web-session-validation-settings.png %})
 _Session Validation Settings_

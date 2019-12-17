@@ -7,7 +7,7 @@ The Companies page lists all current company accounts, regardless of status. Any
 
 The [Actions control]({% link stores/admin-actions-control.md %}) above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions]({% link system/permissions.md %}) of the user.
 
-![]({% link images/images-b2b/customer-companies-grid.png %}){: .zoom} 
+![]({% link images/images-b2b/customer-companies-grid.png %}){: .zoom}
 _Companies Grid_
 
 ## To apply an action:
@@ -63,14 +63,14 @@ The credit in the accounts of selected companies is converted to the current rat
 1. Set the **Actions** column to `Edit`.
 
     The value of each value that can be updated appears in a text box.
-  
+
     ![]({% link images/images-b2b/companies-grid-quick-edit.png %}){: .zoom}
     _Quick Edit_
 
 1. Update any of the following values as needed:
 
     - Company Name
-  
+
     - Company Email
 
     - Phone Number

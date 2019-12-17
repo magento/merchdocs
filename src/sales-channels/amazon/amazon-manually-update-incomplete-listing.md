@@ -48,7 +48,7 @@ _Example: Manually select ASIN from multiple possible matches_
 
 1. Review the catalog product information (SKU and Product Name) for which you are trying to match to an Amazon listing.
 
-1. For **Select Correct Amazon Listing**, select the correct ASIN for the listing you wish to match to this product. 
+1. For **Select Correct Amazon Listing**, select the correct ASIN for the listing you wish to match to this product.
 
    The displayed options include catalog products that are identified as possible matches. If none of the displayed options are correct, you can select `Manually Enter Correct ASIN` and manually enter the ASIN for the product.
 
@@ -67,7 +67,7 @@ _Example: Manually select ASIN from possible variant matches_
 
 1. Review the catalog product information (SKU and Product Name) for which you are trying to match to an Amazon listing.
 
-1. For **Condition**, select the appropriate condition.  
+1. For **Condition**, select the appropriate condition.
 
    The list of options available is dependent on your [Product Listing Condition]({% link sales-channels/amazon/product-listing-condition.md %}) settings.
 

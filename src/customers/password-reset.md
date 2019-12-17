@@ -22,7 +22,7 @@ Customers usually reset their passwords from the storefront by clicking the “F
 
 1. Enter it again to confirm and click <span class="btn">Reset Password</span>.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     Your new password must be six or more characters in length without spaces.
 
     When you receive confirmation that the password is updated, you can use the new password to sign in to your account.
@@ -39,7 +39,7 @@ Customers usually reset their passwords from the storefront by clicking the “F
 
 ## To revoke a customer’s OAuth tokens:
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Do not proceed unless you are a developer familiar with API Authentication.
 
 1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.

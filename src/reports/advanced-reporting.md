@@ -4,7 +4,7 @@ title: Advanced Reporting
 
 Advanced Reporting gives you access to a suite of dynamic reports that are based on your product, order, and customer data, with a personalized dashboard that is tailored to your business needs. Advanced Reporting is a free, cloud-based service that is powered by [Magento Business Intelligence][1].
 
-For technical information, see [Advanced Reporting][2]{: target="_blank"} in our developer documentation.
+For technical information, see [Advanced Reporting][2]{:target="_blank"} in our developer documentation.
 
 ![]({% link images/images/reporting-advanced.png %}){: .zoom}
 _Advanced Reporting Dashboard_
@@ -21,9 +21,9 @@ _Advanced Reporting Dashboard_
 
 * In the Magento configuration for [store URLs]({% link stores/store-urls.md %}), **Use Secure URLs on Storefront** and **Use Secure URLs in Admin** must be set to `Yes`.
 
-* Make sure that [Magento crontab][3]{: target="_blank"} is created and cron jobs are running on the installed server.
+* Make sure that [Magento crontab][3]{:target="_blank"} is created and cron jobs are running on the installed server.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 The initial release of Advanced Reporting supports only one base currency.
 
 ## Step 1: Enable Advanced Reporting

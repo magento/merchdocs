@@ -4,7 +4,7 @@ title: Product Alert Run Settings
 
 These settings enable you to select how often Magento checks for changes that require alerts to be sent. Additionally, you can select the recipient, sender, and template for emails that are sent if the sending of alerts fails.
 
-![]({% link images/images/config-catalog-catalog-product-alerts-run-settings.png %}){: .zoom}  
+![]({% link images/images/config-catalog-catalog-product-alerts-run-settings.png %}){: .zoom}
 *[Product Alert Run Settings]({% link configuration/catalog/catalog.md %})*
 
 ## To set up product alerts:

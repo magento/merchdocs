@@ -4,7 +4,7 @@ title: Setting Up Klarna
 
 To offer your customers the benefit of paying with Klarna, you must first sign up for a Klarna account and gain access to the Klarna Merchant Portal. Then, complete the Klarna configuration from the Admin of your Magento store.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 **Important**: Klarna does not support currency switches to display multiple currencies in one website. Magento uses a base currency and tax configured at the website level (not store view) to avoid rounding and mismatch issues. To support multiple currencies, create a website per currency, using different URLs configured at the Magento website level (not store view).
 
 ![Klarna Merchant Portal]({% link images/images/payments-klarna-dashboard-playground-env.png %}){: .zoom}
@@ -87,7 +87,7 @@ _Klarna Merchant Portal_
    - To use the Klarna Playground for test transactions, set **Test Mode** to `Yes`.
    - To generate a record of interactions while testing the integration, set **Debug Mode** to `Yes`.
 
-     {:.bs-callout .bs-callout-info}
+     {:.bs-callout-info}
      Turn Debug Mode off before going live with Klarna in your production store.
 
      ![Klarna API]({% link images/images/config-sales-payment-methods-klarna-api.png %}){: .zoom}

@@ -50,7 +50,7 @@ Coupon codes can be sent by email, or included in newsletters, catalogs, and adv
     - Choose the **Start Date** and **End Date** from the Calendar ( ![Calendar icon]({% link images/images/btn-calendar.png %}) ). If you leave the date range empty, the rule will not expire.
 
     - When complete, click <span class="btn">Save</span>.
-  
+
       ![Cart price rule - scheduled change]({% link images/images/price-rule-cart-coupon-scheduled-change.png %}){: .zoom}
       _Scheduled Change_
 

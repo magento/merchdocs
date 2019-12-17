@@ -3,7 +3,7 @@ title: New Relic Reporting
 
 ---
 
-[New Relic][1] is a software analytics service that helps you analyze and improve application interactions. Magento Commerce Cloud accounts include the software for the New Relic APM service. For more information, see [New Relic services][4]{: target="_blank"} in our developer documentation.
+[New Relic][1] is a software analytics service that helps you analyze and improve application interactions. Magento Commerce Cloud accounts include the software for the New Relic APM service. For more information, see [New Relic services][4]{:target="_blank"} in our developer documentation.
 
 ## Step 1: Sign Up for a New Relic Account
 
@@ -61,7 +61,7 @@ To use New Relic APM Pro to gather and transmit data, the PHP agent must be ins
 
    This option requires a name entered for the **New Relic Application Name**.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     Enabling this feature reduces the number of false positive New Relic alerts and allows for configured monitoring and alerts strictly for frontend performance. New Relic receives separate app data files with names of Application Name appended to Adminhtml and frontend. For example: MyStore_Adminhtml
 
 1. When complete, click <span class="btn">Save Config</span>.

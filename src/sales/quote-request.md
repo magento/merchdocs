@@ -5,7 +5,7 @@ title: Requesting a Quote
 
 If [B2B Quotes]({% link stores/b2b-features.md %}) are enabled in the configuration, an authorized buyer from a company can initiate the price negotiation process by requesting a quote from the shopping cart.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 A request for a quote cannot include discount codes or gift cards.
 
 ![]({% link images/images-b2b/storefront-cart-hero-hoodie.png %}){: .zoom}

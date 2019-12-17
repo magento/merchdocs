@@ -22,7 +22,7 @@ _Admin Sign In_
 
    You can bookmark the page or save a shortcut on your desktop for easy access.
 
-1. Enter your Admin **Username** and **Password**. 
+1. Enter your Admin **Username** and **Password**.
 
    These values may populate depending on your browser's autocomplete setting.
 
@@ -43,7 +43,7 @@ The first time anyone signs in to the Admin, it displays the **Allow admin usage
 
    If an account is associated with the email address, an email will be sent to reset your password.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    An Admin password must be seven or more characters long and include both letters and numbers. See [Configuring Admin Security]({% link stores/security-admin.md %}) for information about password options.
 
 ## Sign Out of the Admin

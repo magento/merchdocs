@@ -29,7 +29,7 @@ A confirmation message displays that the product is scheduled to be listed on Am
 
 Listing information is published to Amazon based on your cron settings. Listing information will send to Amazon at the next data sync. Until Amazon replies with the listing confirmation, the manually published listing(s) remains on the Ready to List tab with a status of "List in Progress." Once the listing confirmation is received from Amazon, the listing(s) removes from the Ready to List tab and displays in the Active tab with a status of "Active."
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If you have listings in process, the number of listings will display in a message above the tabs
 
 ![]({% link images/images/sales-channels/amazon/amazon-ready-to-list.png %}){: .zoom}

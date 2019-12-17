@@ -4,7 +4,7 @@ title: Customizable Options
 
 Adding customizable options to a product is an easy way to offer a selection of options with a variety of text, selection, and date input types. Customizable options are a good solution if your inventory needs are simple. However, because they are based on variations of a single SKU, they cannot be used to manage stock or as the basis of price rule conditions. If you have multiple products with the same options, you can set up one product, and import the options to the other products.
 
-When a customer purchases a product with a customizable option, a description of each selected option appears below the product description, and any associated markup (or markdown) is automatically applied to the price of the item. 
+When a customer purchases a product with a customizable option, a description of each selected option appears below the product description, and any associated markup (or markdown) is automatically applied to the price of the item.
 
 ![]({% link images/images/storefront-customizable-option-product-detail.png %}){: .zoom}
 _Product Detail with Customizable Option_

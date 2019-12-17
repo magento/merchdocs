@@ -2,7 +2,7 @@
 title: Shipping
 ---
 
-The Shipping tab defines international and packaging data for products in your catalog. Data defined on this tab is used by Magento Shipping to pre-fill shipping information for customers during checkout and for other order fulfillment workflows.  
+The Shipping tab defines international and packaging data for products in your catalog. Data defined on this tab is used by Magento Shipping to pre-fill shipping information for customers during checkout and for other order fulfillment workflows.
 
 [International shipping]({% link shipping/magento-shipping-international.md %}) information is collected in the Country of Origin and HS Code fields. [Packaging information]({% link shipping/magento-shipping-pre-packaged.md %}) for an item is defined in the Packaging Type field.
 

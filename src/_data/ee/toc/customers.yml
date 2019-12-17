@@ -50,7 +50,7 @@ pages:
     - label: My Wish List
       url: "/customers/account-dashboard-my-wish-list.html"
     - label: Reward Points
-      url: "/customers/account-dashboard-reward-points.html"      
+      url: "/customers/account-dashboard-reward-points.html"
     - label: Gift Registry
       url: "/customers/account-dashboard-gift-registry.html"
     - label: Address Book
@@ -70,7 +70,7 @@ pages:
     - label: Newsletter Subscription
       url: "/customers/account-dashboard-newsletter-subscriptions.html"
     - label: My Invitations
-      url: "/customers/account-dashboard-my-invitations.html"      
+      url: "/customers/account-dashboard-my-invitations.html"
 - label: Customer Groups
   url: "/customers/customer-groups.html"
 - label: Customer Segments

@@ -1,11 +1,11 @@
 ---
 title: Customer Engagement Reporting
-redirect_from: 
+redirect_from:
   - /reports/dotmailer-dashboard.html
   - /reports/marketing-automation.html
 ---
 
-The Customer Engagement section of the Reports menu provides data import and report options for [dotdigital]({% link marketing/engagement-cloud.md -%}). 
+The Customer Engagement section of the Reports menu provides data import and report options for [dotdigital]({% link marketing/engagement-cloud.md -%}).
 
 These options include:
 
@@ -38,7 +38,7 @@ _Engagement Cloud Reports Dashboard_
 
 ## Required: Sync settings for reporting
 
-Prior to configuring reporting options, you should complete [Enagagement Cloud configuration]({% link configuration/engagement-cloud/accounts.md -%}) and [enable syncs]({% link configuration/engagement-cloud/sync-settings.md -%}). 
+Prior to configuring reporting options, you should complete [Enagagement Cloud configuration]({% link configuration/engagement-cloud/accounts.md -%}) and [enable syncs]({% link configuration/engagement-cloud/sync-settings.md -%}).
 
 For Syncs, most integrations set the following to "yes": Customer Enabled, Guest Enabled, Subscriber Enabled, and Order Enabled. This shares and syncs dotdigital data with the Magento integration. Data is synced in batches to Magento.
 
@@ -83,21 +83,21 @@ To directly link your Engagement Cloud and Magento accounts without requiring a 
 
 ## Manage sync jobs
 
-You have options in the Dashboard to manually run or reset sync operations. 
+You have options in the Dashboard to manually run or reset sync operations.
 
 ### To manually sync:
 
 Between automated syncs (run by cron job), you may need to manually run sync jobs. The syncs run according to Engagement Cloud configurations.
 
 1. Click **Reports** in the Admin. Under _Customer Engagement_, select **Dashboard**.
-1. To run a contact sync, click <span class="btn">Run Contact Sync</span> at the top. 
+1. To run a contact sync, click <span class="btn">Run Contact Sync</span> at the top.
 1. To run a importer sync, click <span class="btn">Run Importer Sync</span> at the top.
 
     ![Sync Options]({% link images/images/dotdigital-dash-btn.png %}){: .zoom}
     _Sync Options_
 
 1. Expand *Sync Settings*, then expand *Manually Run Sync*.
-1. Click <span class="btn">Run Now</span> for the different sync options: Contact, Subscriber, Order, Wishlist, Review, Catalog, Importer, and Template. 
+1. Click <span class="btn">Run Now</span> for the different sync options: Contact, Subscriber, Order, Wishlist, Review, Catalog, Importer, and Template.
 
     ![Manually Run Syncs]({% link images/images/dotdigital-dash-admin.png %}){: .zoom}
     _Manually Run Syncs_
@@ -110,7 +110,7 @@ The reset options for data syncs force marks all entries for import. At the next
 1. Expand *Sync Settings*, then expand *Reset Sync*.
 1. To Reset Customers or Reset Subscribers, click <span class="btn">Run Now</span> for those operations.
 1. To reset all other operations:
-   
+
    1. Enter a **Date Range** with a start (**From**) and end (**To**) date.
    1. Click <span class="btn">Run Now</span> for a data sync: Order, FReview, Wishlist, and Catalog. All data is cleared and then reset.
 
@@ -131,7 +131,7 @@ Cron jobs are the heart of data synchronization between dotdigital Engagement Cl
 
 ## Restrict IP Access
 
-To add a layer of security for external dynamic content, you can manage the  list of requesting IP addresses that these URLs will display for when requested from them. 
+To add a layer of security for external dynamic content, you can manage the  list of requesting IP addresses that these URLs will display for when requested from them.
 
 By default, the integration includes three IP addresses Engagement Cloud sends requests from when sending emails to pull in this content. During testing, you may want to include your company's IP address to the list.
 
