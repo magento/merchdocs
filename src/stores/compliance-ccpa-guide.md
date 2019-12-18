@@ -4,7 +4,7 @@ group: getting-started
 ---
 
 {: .bs-callout .bs-callout-info}
-The information provided in this Guide is intended for informational purposes only and should not be construed as legal advice. Please consult with your legal counsel to determine whether and how your business should comply with any legal obligations.
+This is the second in a series of topics to help Magento merchants and developers understand the implications of the California Consumer Protection Act. The information is based on the text of the statute. Please consult with your attorney to confirm if CCPA applies to your business before taking action on compliance.
 
 This topic provides a high-level outline of the steps required for Magento merchants to comply with privacy regulations such as the [California Consumer Privacy Act]({% link stores/compliance-ccpa.md -%}) (CCPA).
 
@@ -157,6 +157,9 @@ Review your current privacy policy and consider what, if any, additional disclos
   - **Minors < 13**: Parental authorization is required for minors under the age of 13 to opt in to the sale of their personal information.
 
   - **Minors 13 to < 16**: Minors at least 13 and less than 16 years of age can opt in to the sale of their personal information, provided the business establishes a reasonable process to document the action. The process must be set forth in the company's [privacy policy]({% link stores/privacy-policy.md -%}). When a business receives requests from minors in this age range, it must inform them of their right to opt out at a later date, and explain how to do it.
+
+  {: .bs-callout .bs-callout-info}
+  Merchants are prohibited from storing the personal data of children on our platform or systems. If there is reason to believe collected data belongs to a minor, it must be removed from our platform immediately to avoid breach of Magento license terms.
 
 ### Step 8: Document all related procedures and maintain records.
 
