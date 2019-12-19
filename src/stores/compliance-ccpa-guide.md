@@ -3,8 +3,8 @@ title: CCPA Compliance Guide
 group: getting-started
 ---
 
-{: .bs-callout .bs-callout-info}
-This is one in a series of topics to help Magento merchants and developers understand the implications of the California Consumer Protection Act. The information is based on the text of the statute. Please consult with your attorney to confirm if CCPA applies to your business before taking action on compliance.
+{:.bs-callout-info}
+This is one in a series of topics to help Magento merchants and developers understand the implications of the California Consumer Protection Act. The information is based on the text of the statute. Consult with your attorney to confirm if CCPA applies to your business before taking action on compliance.
 
 This topic provides a high-level outline of the steps required for Magento merchants to comply with privacy regulations such as the [California Consumer Privacy Act]({% link stores/compliance-ccpa.md -%}) (CCPA).
 

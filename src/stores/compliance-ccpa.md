@@ -3,8 +3,8 @@ title: CCPA Compliance
 group: getting-started
 ---
 
-{: .bs-callout .bs-callout-info}
-This is one in a series of topics to help Magento merchants and developers understand the implications of the California Consumer Protection Act. The information is based on the text of the statute. Please consult with your attorney to confirm if CCPA applies to your business before taking action on compliance.
+{:.bs-callout-info}
+This is one in a series of topics to help Magento merchants and developers understand the implications of the California Consumer Protection Act. The information is based on the text of the statute. Consult with your attorney to confirm if CCPA applies to your business before taking action on compliance.
 
 The [California Consumer Privacy Act][1]{: target="_blank"} (CCPA) expands the rights of consumers in California to determine how their personal information is collected, stored, and used, with an emphasis on protecting consumers from the unauthorized sale or exchange or their personal information. The CCPA was enacted in 2018 and is effective as of January 1, 2020.
 
