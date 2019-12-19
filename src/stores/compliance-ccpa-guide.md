@@ -29,7 +29,7 @@ A coordinated effort is required to develop and implement a plan to address comp
 
 ### Step 1: Assemble a cross-functional team to address regulation compliance.
 
-Assemble a team that represents the following functional roles in your business, and schedule a training session to bring them up to speed on the pending legislation.  Then, assign required tasks to stakeholders by role. 
+Assemble a team that represents the following functional roles in your business, and schedule a training session to bring them up to speed on the pending legislation.  Then, assign required tasks to stakeholders by role.
 
 - Business Strategy & Operations
 - Legal
@@ -39,14 +39,14 @@ Assemble a team that represents the following functional roles in your business,
 - Administrative Support
 
 From a business perspective, you must determine if the company will extend these consumer protection measures only to customers in California, or make them available to all customers regardless of location.
-  
-### Step 2: Take inventory of your digital properties. 
+
+### Step 2: Take inventory of your digital properties.
 
 **Stakeholders:** Information Technology, Legal, Administrative Support
-   
+
 Take inventory of your digital properties, including all integrations and those who have access to your customer data.
 
-  1.  Determine what public and private personal information is collected through your website(s) and mobile application(s).  For example, a standard Magento database stores the following types of public and private personal information: 
+  1.  Determine what public and private personal information is collected through your website(s) and mobile application(s).  For example, a standard Magento database stores the following types of public and private personal information:
 
       - **Public**: Wish Lists, Product Reviews
 
@@ -56,9 +56,9 @@ Take inventory of your digital properties, including all integrations and those 
 
   1.  Identify the parties with whom you share data. Your list will include service providers and third-parties such as advertising networks, internet service providers, data analytics providers, government entities, operating systems and platforms, social networks, and consumer data resellers who do not directly collect personal information from your customers.
 
-      - **Service Providers**:  Those who have access to your customer data for a business purpose, and provide services on your behalf. For example, Adobe is service provider, as are some developers of customizations and extensions and services. 
+      - **Service Providers**:  Those who have access to your customer data for a business purpose, and provide services on your behalf. For example, Adobe is service provider, as are some developers of customizations and extensions and services.
 
-        Check the default settings of Google Universal Analytics, Google Tag Manager &mdash; and any other data services you use &mdash; and make any changes necessary to comply with the regulation. To learn more, see [Google Privacy Settings]({% link stores/compliance-privacy-google.md -%}).  
+        Check the default settings of Google Universal Analytics, Google Tag Manager &mdash; and any other data services you use &mdash; and make any changes necessary to comply with the regulation. To learn more, see [Google Privacy Settings]({% link stores/compliance-privacy-google.md -%}).
 
       - **Other Third Parties**: Those with whom you share or sell customer data. For example, you might share customer data with an advertising network in exchange for advertising.
 
@@ -101,7 +101,7 @@ Merchants, as data controllers, are responsible to do the following:
 1.  Develop a mechanism to present the required notifications in your store, and to collect customer response.
 
 1.  Establish procedures to respond to and document each of the following requests:
-   
+
     - **Requests to Know**: Visitors to your store must be informed of any arrangement(s) that you have to sell or share their personal information with third parties, and be given the opportunity to opt out. The details of your use of personal information, and the parties with whom you share or sell data can be maintained in your privacy policy.
 
     - **Requests to Opt Out**: The CCPA requires businesses to provide a **Do Not Sell My Info** link at each point where personal data is collected, if it will be sold or transferred to third parties in exchange for valuable consideration. Additional user-enabled input controls, such as checkboxes and buttons, can be used in email communications, website preference settings, or in website forms at the point of data collection for individuals to submit a valid opt-out request.
@@ -122,7 +122,7 @@ Merchants, as data controllers, are responsible to do the following:
     - **Notice of Right to Opt Out**: A notice that informs your customers of their right to opt out of the sale of their personal information.
 
     - **Notice of Financial Incentive**: A notice that explains each financial incentive, price, or service difference that your company receives in exchange for personal information.
-    
+
     - **How to Submit a Request for Personal Information Collection and Use**: Instructions for individuals to submit a request that you disclose the personal information that you have collected about the individual, including:
 
       - Specific pieces of personal information that you have collected about the customer
@@ -158,7 +158,7 @@ Review your current privacy policy and consider what, if any, additional disclos
 
   - **Minors 13 to < 16**: Minors at least 13 and less than 16 years of age can opt in to the sale of their personal information, provided the business establishes a reasonable process to document the action. The process must be set forth in the company's [privacy policy]({% link stores/privacy-policy.md -%}). When a business receives requests from minors in this age range, it must inform them of their right to opt out at a later date, and explain how to do it.
 
-  {: .bs-callout .bs-callout-info}
+  {: .bs-callout-info}
   Merchants are prohibited from storing the personal data of children on our platform or systems. If there is reason to believe collected data belongs to a minor, it must be removed from our platform immediately to avoid breach of Magento license terms.
 
 ### Step 8: Document all related procedures and maintain records.
