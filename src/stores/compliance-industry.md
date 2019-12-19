@@ -11,5 +11,5 @@ Magento offers a range of security and privacy capabilities that meet legal requ
 
 In this section of the guide, you will learn about [Payment Card Industry (PCI)]({% link stores/compliance-pci.md %}) compliance, and the importance of establishing procedures to protect your customers' payment information. You will also learn how to bring your store into compliance with privacy regulations such as the [Global Data Protection Regulation (GDPR)]({% link stores/compliance-gdpr.md %}), the [California Consumer Protection Act (CCPA)]({% link stores/compliance-ccpa.md %}), and the [cookie law]({% link stores/compliance-cookie-law.md %}). In addition, you will learn how to customize and maintain a [privacy policy]({% link stores/privacy-policy.md %}) for your store.
 
-{: .bs-callout .bs-callout-info}
-This information is intended for informational purposes only and should not be construed as legal advice. Please consult with your legal counsel to determine whether and how your business should comply with any legal obligations.
+{:.bs-callout-info}
+This information is intended for informational purposes only and should not be construed as legal advice. Consult with your legal counsel to determine whether and how your business should comply with any legal obligations.
