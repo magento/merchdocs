@@ -142,29 +142,49 @@ pages:
       url: "/stores/store-mode-single.html"
   - label: Industry Compliance
     url: "/stores/compliance-industry.html"
+    versionless: true
     children:
-    - label: PCI Compliance Guidelines
-      url: "/stores/compliance-pci.html"
-    - label: Payment Services Directive
-      url: "/stores/compliance-payment-services-directive.html"
-    - label: CCPA Compliance
-      url: "/stores/compliance-ccpa.html"
-      children:
-      - label: CCPA Compliance Guide
-        url: "/stores/compliance-ccpa-guide.html"
-    - label: GDPR Compliance
-      url: "/stores/compliance-gdpr.html"
-    - label: Privacy Policy
-      url: "/stores/privacy-policy.html"
-    - label: Cookie Law Compliance
-      url: "/stores/compliance-cookie-law.html"
-      children:
-      - label: Cookie Restriction Mode
-        url: "/stores/compliance-cookie-restriction-mode.html"
-      - label: Cookie Reference
-        url: "/stores/cookie-reference.html"
+
     - label: Accessibility
+      versionless: true
       url: "/catalog/navigation-accessibility.html"
+
+    - label: Payments
+
+      children:
+      - label: PCI Compliance Guidelines
+        url: "/stores/compliance-pci.html"
+      - label: Payment Services Directive
+        versionless: true
+        url: "/stores/compliance-payment-services-directive.html"
+
+    - label: Privacy
+
+      children:
+
+      - label: CCPA Compliance
+        versionless: true
+        url: "/stores/compliance-ccpa.html"
+        children:
+          - label: CCPA Compliance Guide
+            versionless: true
+            url: "/stores/compliance-ccpa-guide.html"
+      - label: GDPR Compliance
+        versionless: true
+        url: "/stores/compliance-gdpr.html" 
+      - label: Privacy Policy
+        versionless: true
+        url: "/stores/privacy-policy.html"
+      - label: Cookie Law Compliance
+        versionless: true
+        url: "/stores/compliance-cookie-law.html"
+        children:
+            - label: Cookie Restriction Mode
+              versionless: true
+              url: "/stores/compliance-cookie-restriction-mode.html"
+            - label: Cookie Reference
+              versionless: true
+              url: "/stores/cookie-reference.html"
 - label: Configuration Reference
   url: "/stores/configuration.html"
   children:
