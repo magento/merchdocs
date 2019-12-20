@@ -28,6 +28,7 @@ The installation used to export this data has the sample data installed, and has
 |special_price_from_date|The beginning date of the time period when the special price is in effect.|
 |special_price_to_date|The last date of the time period when the special price is in effect.|
 |url_key|The part of the URL that identifies the product. The default value is based on the product name. For example: `product-name`|
+|save_rewrites_history|When provided with value `1` in combination with a new `url_key`, a new 301 url rewrite will be generated so the old url will be redirected to the new url.|
 |meta_title|The meta title appears in the title bar and tab of the browser and search results lists. The meta title should be unique to the product, incorporate high-value keywords, and be less than 70 characters in length.|
 |meta_keywords|Meta keywords are visible only to search engines, and are ignored by some search engines. Choose high-value keywords, separated by a comma. For example: `keyword1`, `keyword2`, `keyword3`|
 |meta_description|Meta descriptions provide a brief overview of the product for search results listings. Ideally, a meta description should be between 150-160 characters in length, although the field accepts up to 255 characters.|
