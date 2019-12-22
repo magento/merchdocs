@@ -13,7 +13,7 @@ Cached content can be used to process the requests from similar types of visits.
 - `Sessioned` - During a sessioned visit, shoppers who interact with the store — through activities such as comparing products or adding products to the shopping cart — are assigned a session ID. Cached pages that are generated during the session are used only by that shopper during the session.
 - `Customer` - Customer sessions are created for those who have registered for an account with your store and shop while logged in to their accounts. During the session, customers can be presented with special offers, promotions, and prices that are based on their assigned customer group.
 
-For technical information, see [Configure and Use Varnish][1] and [Use Redis for the Magento page and default cache][2] in the developer documentation.
+For technical information, see [Configure and Use Varnish][1]{:target="_blank"} and [Use Redis for the Magento page and default cache][2]{:target="_blank"} in the developer documentation.
 
 ## Configure the Full-page Cache
 
