@@ -26,9 +26,9 @@ The Mail Sending Settings give you the ability to route returned email or replie
         | Host | localhost |
         | Port (25) | 25 |
 
-    - Until the current [security issue][2] is resolved, we highly recommend that you set **Set Return Path** to `No`.
+    - Until the current [security issue][2]{:target="_blank"} is resolved, we highly recommend that you set **Set Return Path** to `No`.
 
-        | No | ([Recommended Security Measure][2] Routes returned email to the default store email address. |
+        | No | ([Recommended Security Measure][2]{:target="_blank"} Routes returned email to the default store email address. |
         | Yes | Routes returned email to the default store email address. |
         | Specified | Routes returned email to the email address specified in the **Return Path Email** field. |
 
