@@ -62,14 +62,14 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
     *For Specific Customer Groups*
 
-        To allow only members of specific customer groups to see the price of products in the category, do the following:
+    To allow only members of specific customer groups to see the price of products in the category, do the following:
 
-         1. Set **Display Product Prices** to “Yes, for Specified Customer Groups”.
+    1. Set **Display Product Prices** to “Yes, for Specified Customer Groups”.
 
-         2. In the **Customer Groups** box, select each group that is allowed to see the price of products in the category. (For multiple options, hold down the Ctrl key, and click each group.)
+    2. In the **Customer Groups** box, select each group that is allowed to see the price of products in the category. (For multiple options, hold down the Ctrl key, and click each group.)
 
-            ![]({% link images/images-ee/category-permissions-price-customer-groups.png %}){: .zoom}
-            *Only Wholesale Customer Group Can See Prices*
+        ![]({% link images/images-ee/category-permissions-price-customer-groups.png %}){: .zoom}
+        *Only Wholesale Customer Group Can See Prices*
 
     **Add to Cart**
 
