@@ -4,6 +4,21 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what’s new!
 
+
+## December 2019
+
+### New Topics
+
+- [CCPA Compliance]({% link stores/compliance-ccpa.md %})
+- [CCPA Compliance Guide]({% link stores/compliance-ccpa-guide.md %})
+
+### Updated Topics
+
+|Topic |Change|
+|--- |--- |
+|[Google Privacy Settings for GDOR]({% link stores/compliance-privacy-google.md %})|This topic now applies to privacy regulations in general, and is not limited to GDPR.|
+
+
 ## November 2019
 
 ### Updated Topics
@@ -204,7 +219,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 |Topic |Change |
 |--- |--- |
-|[Google Settings for GDPR]({% link stores/compliance-gdpr-google.md %})|Moved this topic from the Getting Started/Industry Compliance section to Marketing/Google Tools.|
+|[Google Settings for GDPR]({% link stores/compliance-privacy-google.md %})|Moved this topic from the Getting Started/Industry Compliance section to Marketing/Google Tools.|
 |[GDPR Compliance]({% link stores/compliance-gdpr.md %})|Added “Best Practice” checklist.|
 |[dotmailer]({% link marketing/engagement-cloud.md %})|Engagement Cloud by dotdigital now replaces dotmailer.|
 |[Setting up Amazon Pay]({% link payment/amazon-pay-setup.md %})|Added configuration option for multi-currency.|

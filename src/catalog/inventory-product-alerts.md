@@ -40,7 +40,7 @@ The in-stock alert creates a link called “Sign up to get notified when this pr
 
 1. Set **Alert Email Sender** to the [store contact]({% link stores/store-email-addresses.md %}) that you want to appear as the sender of the email alert.
 
-    ![]({% link images/images/config-catalog-catalog-product-alerts.png %}){: .zoom}  
+    ![]({% link images/images/config-catalog-catalog-product-alerts.png %}){: .zoom}
     *[Product Alerts]({% link configuration/catalog/catalog.md %})*
 
 1. When complete, click <span class="btn">Save Config</span>.

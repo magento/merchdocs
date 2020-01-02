@@ -13,7 +13,7 @@ _Checkout with PayPal_
 
 ## Requirements
 
-- [PayPal Business Account][1] The PayPal Payflow Pro gateway links the merchant account at PayPal with the merchant’s website, and acts both as a gateway and a merchant account.  
+- [PayPal Business Account][1] The PayPal Payflow Pro gateway links the merchant account at PayPal with the merchant’s website, and acts both as a gateway and a merchant account.
 
 - If you manage multiple Magento websites, you must have a separate PayPal merchant account for each website.
 
@@ -85,7 +85,7 @@ Partial invoices and partial refunds are not supported by PayPal Payflow Pro.
      - User Login Information
      - Assign Privilege to User
 
-   - Click <span class="btn">Update</span>. 
+   - Click <span class="btn">Update</span>.
 
 1. In the upper-right corner, click **Log Out**.
 
@@ -261,11 +261,11 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
    - To run test reports before “going live” with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
 
-   - Enter the **Custom Endpoint Hostname or IP Address**. 
+   - Enter the **Custom Endpoint Hostname or IP Address**.
 
      By default, the value is: `reports.paypal.com`
 
-   - Enter the **Custom Path** where reports are saved. 
+   - Enter the **Custom Path** where reports are saved.
 
      By default, the value is: `/ppreports/outgoing`
 
@@ -371,7 +371,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
 When complete, click <span class="btn">Save Config</span>.
 
-### Step 9: Add Google reCAPTCHA 
+### Step 9: Add Google reCAPTCHA
 
 To better protect PayPal PayFlow Pro checkout, enable Google reCAPTCHA. It includes options to run reCAPTCHA using a clickable interface or an invisible check to validate the customer. We recommend the invisible option to increase sales conversion and protect your store. For details, see [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).
 

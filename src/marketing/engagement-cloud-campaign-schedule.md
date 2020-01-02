@@ -1,6 +1,6 @@
 ---
 title: Schedule Your Campaign
-redirect_from: 
+redirect_from:
   - /marketing/email-marketing-automation-campaign-send.html
 ---
 

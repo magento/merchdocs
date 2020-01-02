@@ -34,7 +34,7 @@ title: Account Settings
 {:.bs-callout-info}
 **Don't forget!** You must activate your Google Ads account, configure payment methods in your Google Ads account, and update settings in Magento for your account to go live. If you forget to add a payment method or update Magento settings, you will see a reminder message in the Magento Admin.
 
-![]({% link images/images/sales-channels/google/ads-account-settings.png %}){: .zoom}   
+![]({% link images/images/sales-channels/google/ads-account-settings.png %}){: .zoom}
 
 ## To activate your Google Ads account:
 

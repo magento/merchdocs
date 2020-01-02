@@ -78,15 +78,15 @@ pages:
     - label: Company Users
       url: "/customers/account-dashboard-company-users.html"
     - label: Reward Points
-      url: "/customers/account-dashboard-reward-points.html"  
+      url: "/customers/account-dashboard-reward-points.html"
     - label: Gift Registry
-      url: "/customers/account-dashboard-gift-registry.html"        
+      url: "/customers/account-dashboard-gift-registry.html"
     - label: My Product Reviews
       url: "/customers/account-dashboard-my-product-reviews.html"
     - label: Newsletter Subscription
       url: "/customers/account-dashboard-newsletter-subscriptions.html"
     - label: My Invitations
-      url: "/customers/account-dashboard-my-invitations.html"           
+      url: "/customers/account-dashboard-my-invitations.html"
 - label: Company Accounts
   url: "/customers/account-companies.html"
   children:

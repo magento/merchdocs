@@ -23,9 +23,9 @@ Follow the instructions provided by each carrier to add shipping label support t
 
 1. Make sure that your [Store Information]({% link stores/store-information.md %}) is complete.
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**. 
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the left panel, expand **Sales** and select **Shipping Settings**. 
+1. In the left panel, expand **Sales** and select **Shipping Settings**.
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Origin** section and configure the **Shipping Origin Address**.
 
@@ -37,7 +37,7 @@ United Parcel Service ships both domestically and internationally. However, ship
 
 1. In the _Sales_ section in the left panel, choose **Shipping Methods**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **UPS** section. 
+1. Expand ![]({% link images/images/btn-expand.png %}) the **UPS** section.
 
 1. Verify that your UPS **Shipper Number** is correct
 

@@ -29,7 +29,7 @@ Sign up for an eWAY [merchant account][1]{:target="_blank"}, and get your creden
    - Set **Connection Type** to one of the following:
 
      - **Direct connection** - Completes the transaction without leaving your website.
-     - **Responsive shared page** - Redirects to a page for your store that is hosted on the eWAY server to complete the transaction. 
+     - **Responsive shared page** - Redirects to a page for your store that is hosted on the eWAY server to complete the transaction.
 
    - Enter a **Title** to identify eWAY as a payment option during checkout.
 

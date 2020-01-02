@@ -1,6 +1,6 @@
 ---
 title: Introduction
-redirect_from: 
+redirect_from:
   - /getting-started/welcome.html
 ---
 

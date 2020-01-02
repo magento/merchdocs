@@ -25,7 +25,7 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
 1. Set **Enable** to “Yes.” Then, configure the following as needed:
 
-    ![]({% link images/images-ee/config-catalog-catalog-category-permissions.png %}){: .zoom} 
+    ![]({% link images/images-ee/config-catalog-catalog-category-permissions.png %}){: .zoom}
     *[Category Permissions]({% link configuration/catalog/catalog.md %})*
 
     **Browsing Category**

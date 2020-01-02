@@ -10,7 +10,7 @@ The time it takes to load resource files can be reduced by merging and bundling 
 
 By default, Magento does not merge, bundle, or minimize files, and the project developer should determine which file optimization methods should be used.
 
-See [Magento Optimization Guide][1] in the developer documentation.
+See [Magento Optimization Guide][1]{:target="_blank"} in the developer documentation.
 
 {:.bs-callout-info}
 CSS and JavaScript files can be optimized in [Developer Mode]({% link magento/installation-modes.md %}) only.
@@ -32,7 +32,7 @@ Template Files  | Minify
     - Set **Merge CSS Files** to `Yes`.
     - Set **Minify CSS Files** to `Yes`.
 
-    ![Advanced configuration - CSS settings]({% link images/images/config-advanced-developer-css-settings.png %}){: .zoom} 
+    ![Advanced configuration - CSS settings]({% link images/images/config-advanced-developer-css-settings.png %}){: .zoom}
     [_CSS Settings_]({% link configuration/advanced/developer.md %})
 
 1. To optimize JavaScript files, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **JavaScript Settings** section and do the following:

@@ -60,7 +60,7 @@ _Pages_
 
     If you prefer to work directly with the HTML code, click <span class="btn">Show / Hide Editor</span>.
 
-1. Complete the content and format the text as needed. 
+1. Complete the content and format the text as needed.
 
     You can add [images]({% link cms/media-storage.md %}), [variables]({% link marketing/variables.md %}), and [widgets]({% link cms/widgets.md %}) as needed. To learn more, see: [Using the Editor]({% link cms/editor.md %}).
 
@@ -112,7 +112,7 @@ _Pages_
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Hierarchy**.
 
-    ![]({% link images/images-ee/page-hierarchy.png %}){: .zoom}  
+    ![]({% link images/images-ee/page-hierarchy.png %}){: .zoom}
     _Hierarchy_
 
 1. If this page is a child of another page, select the checkbox of the **Parent page**.

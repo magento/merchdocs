@@ -6,7 +6,7 @@ title: Payment on Account
 
 Payment on Account is an offline payment method that allows companies to make purchases up to the credit limit that is specified in their profile. Payment on Account can be enabled globally, or per company, and appears during checkout only if enabled. When Payment on Account is used as a payment method, a message appears at the top of the order that indicates the status of the account. To configure Payment on Account for a specific company, see: [Updating a Company Profile]({% link customers/account-company-update.md %}).
 
-![Payment on Account]({% link images/images-b2b/config-sales-payment-methods-payment-on-account.png %}){: .zoom}  
+![Payment on Account]({% link images/images-b2b/config-sales-payment-methods-payment-on-account.png %}){: .zoom}
 [_Payment on Account_]({% link configuration/sales/payment-methods.md %})
 
 ## To configure payment on account:

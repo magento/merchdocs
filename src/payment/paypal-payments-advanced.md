@@ -20,13 +20,13 @@ PayPal Payments Advanced cannot be used for orders created from the Admin of you
 
 ## Requirements
 
-- [PayPal Business Account][1]  
+- [PayPal Business Account][1]
 - If you manage multiple Magento websites, you must have a separate PayPal merchant account for each website.
 
 ## Checkout Workflow
 
 | **1** | **Customer Chooses Payment Method**| During checkout, the customer chooses to pay with PayPal Payments Advanced. The Pay Now button appears instead of the Place Order button.|
-| **2** | **Pay Now** | The customer taps Pay Now, and a PayPal-hosted form appears. The customer enters the card information, and the card is verified. If successful, the order confirmation page appears. 
+| **2** | **Pay Now** | The customer taps Pay Now, and a PayPal-hosted form appears. The customer enters the card information, and the card is verified. If successful, the order confirmation page appears.
 | | **Pay with PayPal** | The form also includes the Pay with PayPal button, which redirects the customer to the PayPal site, where payment can be made with PayPal Express Checkout.|
 | **4** | **Troubleshooting** | If the transaction fails for any reason, an error message appears on the checkout page and the customer is instructed to try again. Any issues are managed by PayPal.|
 
@@ -241,18 +241,18 @@ Complete the following sections, as needed for your store:
 
    - To run test reports before “going live,” set **Sandbox Mode** to `Yes`.
 
-   - Enter the **Custom Endpoint Hostname or IP Address**. 
-   
+   - Enter the **Custom Endpoint Hostname or IP Address**.
+
      By default, the value is: `reports.paypal.com`
 
-   - Enter the **Custom Path** where reports are saved. 
-   
+   - Enter the **Custom Path** where reports are saved.
+
      By default, the value is: `/ppreports/outgoing`
 
 1. To generate reports according to a schedule, complete the **Scheduled Fetching** settings:
 
    - Set **Enable Automatic Fetching** to `Yes`.
-  
+
    - Set **Schedule** to one of the following:
 
      - `Daily`

@@ -2,7 +2,7 @@
 title: Design & Theme
 sections:
   - title: Design Configuration
-    content: Set the design-related rules and configuration settings on the Design Configuration page. 
+    content: Set the design-related rules and configuration settings on the Design Configuration page.
     url: /design/configuration.html
 
   - title: Page Setup
@@ -10,11 +10,11 @@ sections:
     url: /design/page-setup.html
 
   - title: Page Layout
-    content: Learn how to change the presentation of content across your site by updating page layouts. 
+    content: Learn how to change the presentation of content across your site by updating page layouts.
     url: /design/page-layout.html
 
   - title: Themes
-    content: Learn how themes determine the visual presentation and interactions that your customers experience when they visit your store. 
+    content: Learn how themes determine the visual presentation and interactions that your customers experience when they visit your store.
     url: /design/themes.html
 ---
 

@@ -109,7 +109,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
     - **Size** — Choose `Normal` or `Compact`.
 
     - Select where the CAPTCHA is used.
-  
+
       By default, reCAPTCHA is enabled for these pages.
 
       - **Use in Login**

@@ -1,7 +1,7 @@
 ---
 title: About This Release
 group: getting-started
-redirect_from: 
+redirect_from:
   - /frontmatter/contents.html
   - /magento/questions-and-answers.html
   - /magento/about-this-guide.html
