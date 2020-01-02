@@ -10,7 +10,7 @@ Access to the following resources can be assigned to a role when you set the **R
 | |[Archive]({% link system/action-log-archive.md %})|[Orders]({% link sales/orders.md %}) <br/>[Invoices]({% link sales/invoices.md %}) <br/>[Shipments]({% link sales/shipments.md %}) <br/>[Credit Memos]({% link sales/credit-memos.md %})|<!--{% endif %}-->
 | |[Shopping Cart Management]({% link sales/cart.md %})| |
 |[Catalog]({% link catalog/catalog-menu.md %})|[Inventory]({% link catalog/inventory.md %})|[Products]({% link catalog/products.md %}) <br/>[Categories]({% link catalog/categories.md %})|
-| |[Category Permissions]({% link category-permissions.md %})| |
+| |[Category Permissions]({% link catalog/category-permissions.md %})| |
 |[Customers]({% link customers.md %})|[All Customers]({% link customers/customers-all.md %}) <!--{% if "Default.EE-B2B" contains site.edition %}--><br/>[Now Online]({% link customers/now-online.md %}) <br/>[Customer Groups]({% link customers/customer-groups.md %}) <br/>[Segments]({% link marketing/customer-segments.md %}) <!--{% endif %}--><!--{% if "Default.B2B Only" contains site.edition %}--><br/>[Companies]({% link customers/account-companies.md %}) <!--{% endif %}-->| |
 |[Carts]({% link sales/cart.md %})|<!--{% if "Default.EE-B2B" contains site.edition %}-->[Manage Carts]({% link sales/shopping-assisted-cart-manage.md %})<!--{% endif %}--> | |
 |[My Account]({% link customers/account-dashboard-my-account.md %})| | |
