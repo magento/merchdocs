@@ -15,7 +15,7 @@ To offer this shipping method to your customers, you must first open an account 
 
 ## Step 2: Enable UPS for Your Store
 
-1.  On the _Admin sidebar_, go to **Stores** _Settings_ > **Configuration**.
+1. On the _Admin sidebar_, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the panel on the left, under **Sales**, choose **Shipping Methods**.
 
@@ -44,7 +44,6 @@ To offer this shipping method to your customers, you must first open an account 
 
             | Yes | Runs UPS in production mode, and offers UPS as a shipping method to your customers. |
             | No | Runs UPS in a test mode. |
-            {:style="table-layout:auto"}
 
         * In the **Gateway URL** field, enter the URL that is used to calculate UPS shipping rates.
 
@@ -75,7 +74,6 @@ To offer this shipping method to your customers, you must first open an account 
     | Residential | Most of your shipments are business to consumer (B2C). |
     | Commercial | Most of your shipments are business to business (B2B). |
     | Define Automatically | UPS determines the destination as either residential or commercial, and uses the appropriate rate from the merchant’s UPS account. |
-    {:style="table-layout:auto"}
 
 1. Enter the **Maximum Package Weight** allowed by the carrier.
 
@@ -122,7 +120,7 @@ To offer this shipping method to your customers, you must first open an account 
 1. In the **Displayed Error Message box**, type the message customers see if UPS shipping becomes unavailable.
 
     ![]({% link images/images/config-sales-shipping-methods-ups4.png %}){: .zoom}
-    _[Allowed Methods*]({% link configuration/sales/shipping-methods.md %})_
+    _[Allowed Methods]({% link configuration/sales/shipping-methods.md %})_
 
 1. Set **Ship to Applicable Countries** to one of the following:
 
@@ -132,9 +130,9 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. Set **Show Method if Not Applicable** to one of the following:
 
-    *  **Yes**–To list all UPS shipping methods to customers, regardless of their availability.
+    * **Yes**–To list all UPS shipping methods to customers, regardless of their availability.
 
-    *  **No**–To list only the methods which are available to customers. |
+    * **No**–To list only the methods which are available to customers. |
 
     ![]({% link images/images/config-sales-shipping-methods-ups5.png %}){: .zoom}
     _[Applicable Countries]({% link configuration/sales/shipping-methods.md %})_
@@ -156,10 +154,10 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. In the left panel, expand **Sales** and select **Shipping Settings**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Origin** on the page and configure the shipping origin addres.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Origin** on the page and configure the shipping origin address.
 
     ![]({% link images/images/shipping-origin-magento.png %}){: .zoom}
-    [Sales configuration - shipping origin address options]({% link configuration/sales/shipping-methods.md %}#origin)
+    [Sales configuration - shipping origin address options]({% link configuration/sales/shipping-methods.md %})
 
 1. Click <span class="btn">Save Config</span>.
 
