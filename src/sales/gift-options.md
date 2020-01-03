@@ -11,8 +11,8 @@ The Gift Options configuration applies to the entire website, but can be overrid
 ![]({% link images/images/storefront-cart-gift-options-for-products-or-order.png %}){: .zoom}
 _Example storefront - Gift Options in Shopping Cart_
 
-
-To enable gift options
+{:.procedure}
+To enable gift options:
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
