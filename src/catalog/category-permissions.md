@@ -17,109 +17,109 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
 ## Step 1: Configure Category Permissions
 
-1. On the Admin sidebar, tap **Stores**. Then under Settings, choose **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the panel on the left under **Catalog**, choose **Catalog**.
+1. In the left panel, expand **Catalog** and choose **Catalog**.
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Category Permissions** section.
 
-1. Set **Enable** to “Yes.” Then, configure the following as needed:
+1. Set **Enable** to `Yes`.
 
     ![]({% link images/images-ee/config-catalog-catalog-category-permissions.png %}){: .zoom}
     *[Category Permissions]({% link configuration/catalog/catalog.md %})*
 
-    **Browsing Category**
+1. Set the **Allow Browsing Category** option, which applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
 
-    The Allow Browsing Category setting applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
+    {:.procedure}
+    For Specific Customer Groups
 
-    *For Specific Customer Groups*
+      To allow members of a specific customer group to browse through category products, do the following:
 
-    To allow members of a specific customer group to browse through category products, do the following:
+    - Set **Allow Browsing Category** to `Specified Customer Groups`.
 
-    1. Set **Allow Browsing Category** to “Specified Customer Groups”.
-
-    2. In the **Customer Groups** box, select each group that is allowed to browse through products in the category. (For multiple options, hold down the Ctrl key, and click each group.)
+    - In the **Customer Groups** box, select each group that is allowed to browse through products in the category. (For multiple options, hold down the Ctrl key, and click each group.)
 
         ![]({% link images/images-ee/category-permissions-allow-browsing-customer-groups.png %}){: .zoom}
         *Allow Browsing by Wholesale Customer Group*
 
-    *Redirect to Landing Page*
+    {:.procedure}
+    Redirect to Landing Page
 
-    The Allow Browsing Category setting applies to all categories in the [website]({% link stores/websites-stores-views.md %}). However, a different Landing Page can be configured for each store view.
+      Although the "Allow Browsing Category" setting applies to all categories in the website, you can configure a different Landing Page for each store view.
 
-    To restrict access and redirect to a landing page, do the following:
+      To restrict access and redirect to a landing page, do the following:
 
-    1. Set **Allow Browsing Category** to “No, Redirect to Landing Page”.
+    - Set **Allow Browsing Category** to `No, Redirect to Landing Page`.
 
-    2. Choose the **Landing Page** to which visitors will be redirected.
+    - Choose the **Landing Page** to which visitors will be redirected.
 
         ![]({% link images/images-ee/category-permissions-browse-category-landing-page.png %}){: .zoom}
         *Redirect to Home Page*
 
-    **Product Prices**
+1. Set the **Display Product Prices** option, which applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
 
-    The Display Product Prices setting applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
+    {:.procedure}
+    For Specific Customer Groups
 
-    *For Specific Customer Groups*
+      To allow only members of specific customer groups to see the price of products in the category, do the following:
 
-    To allow only members of specific customer groups to see the price of products in the category, do the following:
+    - Set **Display Product Prices** to `Yes, for Specified Customer Groups`.
 
-    1. Set **Display Product Prices** to “Yes, for Specified Customer Groups”.
-
-    2. In the **Customer Groups** box, select each group that is allowed to see the price of products in the category. (For multiple options, hold down the Ctrl key, and click each group.)
+    - In the **Customer Groups** box, select each group that is allowed to see the price of products in the category. (For multiple options, hold down the Ctrl key, and click each group.)
 
         ![]({% link images/images-ee/category-permissions-price-customer-groups.png %}){: .zoom}
         *Only Wholesale Customer Group Can See Prices*
 
-    **Add to Cart**
+1. Set the **Allow Adding to Cart** option, which applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
 
-    The Add to Cart setting applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
+    {:.procedure}
+    For Specific Customer Groups
 
-    *For Specific Customer Groups*
+      To allow only members of specific customer groups to put category products into the shopping cart, do the following:
 
-    To allow only members of specific customer groups to put category products into the shopping cart, do the following:
+    - Set **Allow Adding to Cart** to `Yes, for Specified Customer Groups`.
 
-    1. Set **Allow Adding to Cart** to “Yes, for Specified Customer Groups”.
-
-    2. In the **Customer Groups** box, select each group that is allowed to add products from the category to the cart. (For multiple options, hold down the Ctrl key, and click each group.)
+    - In the **Customer Groups** box, select each group that is allowed to add products from the category to the cart. (For multiple options, hold down the Ctrl key, and click each group.)
 
         ![]({% link images/images-ee/category-permissions-cart-customer-groups.png %}){: .zoom}
         *Only Wholesale Customer Group Can Put Product in Cart*
 
-    **Disallow Catalog Search**
+1. Set the **Disallow Catalog Search** option to prevent members of a specific customer group from using Catalog Search.
 
-    The Disallow Catalog Search setting prevents members of a specific customer group from using Catalog Search. The setting applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
+   The setting applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
 
-    *For Guests*
+    {:.procedure}
+    For Guest
 
-    To allow only logged in customers to use Catalog Search, select “NOT LOGGED IN”.
+    To allow only logged in customers to use Catalog Search, select `NOT LOGGED IN`.
 
-    *For Specific Customer Groups*
+    {:.procedure}
+    For Specific Customer Groups
 
     In the **Disallow Catalog Search By** box, select each group to be prevented from using Category Search. (For multiple options, hold down the Ctrl key, and click each group.)
 
     ![]({% link images/images-ee/category-permissions-disallow-category-search.png %}){: .zoom}
     *Catalog Search Not Allowed for General Customer Group*
 
-2. When complete, tap <span class="btn"> Save Config </span>.
+1. When complete, click <span class="btn">Save Config</span>.
 
-3. When prompted to update the cache, click the **Cache Management** link in the system message, and follow the instructions to refresh the cache.
+1. When prompted to update the cache, click the **Cache Management** link in the system message and follow the instructions to refresh the cache.
 
 ## Step 2: Apply Category Permissions
 
-1. On the Admin sidebar, tap **Catalog**. choose **Categories**.
+1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
 
 1. In the category tree, select the target category.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Category Permissions** section. Then do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) **Category Permissions** on the page and do the following:
 
-    * To create a permissions rule, tap <span class="btn">New Permission</span>.
+    - To create a permissions rule, click <span class="btn">New Permission</span>.
 
-    ![]({% link images/images-ee/category-permissions-section-admin.png %}){: .zoom}
-    *Category Permissions Section*
+      ![]({% link images/images-ee/category-permissions-section-admin.png %}){: .zoom}
+      *Category Permissions Section*
 
-    * Choose the applicable **Website** and **Customer Group**.
+    - Choose the applicable **Website** and **Customer Group**.
 
-    * Set the individual permissions as needed.
+    - Set the individual permissions as needed.
 
-1. When complete, tap <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span>.
