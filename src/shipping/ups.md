@@ -15,7 +15,7 @@ To offer this shipping method to your customers, you must first open an account 
 
 ## Step 2: Enable UPS for Your Store
 
-1.  On the _Admin sidebar_, go ttot **Stores** _Settings_ > **Configuration**.
+1.  On the _Admin sidebar_, go to **Stores** _Settings_ > **Configuration**.
 
 1. In the panel on the left, under **Sales**, choose **Shipping Methods**.
 
