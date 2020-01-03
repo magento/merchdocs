@@ -263,8 +263,8 @@ pages:
         url: "/system/web-setup-module-manager.html"
       - label: System Upgrade
         url: "/system/web-setup-system-upgrade.html"
-      - label: Web Setup
-        url: "/system/web-setup.html"
+      - label: System Configuration
+        url: "/system/web-setup-system-configuration.html"
 - label: Reports
   url: /reports.html
   children:

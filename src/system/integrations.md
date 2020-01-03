@@ -2,7 +2,7 @@
 title: Integrations
 ---
 
-Establishes the location of [OAuth][1] credentials and redirect URL for third-party integrations, and identifies the available API resources that are needed for the integration.
+Establishes the location of [OAuth][1]{:target="_blank"} credentials and redirect URL for third-party integrations, and identifies the available API resources that are needed for the integration.
 
 ![Integrations]({% link images/images/integrations.png %}){: .zoom}
 _Integrations_
@@ -59,7 +59,7 @@ By default, the system does not permit anonymous guest access to CMS, catalog, a
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-See [Restricting access to anonymous web APIs][2] in the Magento developer documentation.
+See [Restricting access to anonymous web APIs][2]{:target="_blank"} in the Magento developer documentation.
 
 [1]: http://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-oauth.html
 [2]: http://devdocs.magento.com/guides/v2.3/rest/anonymous-api-security.html
