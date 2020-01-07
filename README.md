@@ -1,5 +1,7 @@
 # Magento 2 Merchant Documentation
 
+TEST
+
 Welcome! This site contains the latest Magento merchant documentation for ongoing Magento 2.3.x releases. For additional information, see our [Contribution Guide](https://github.com/magento/merchdocs/blob/master/.github/CONTRIBUTING.md) and [Wiki](https://github.com/magento/merchdocs/wiki).
 
 ## Contribute
