@@ -2,7 +2,9 @@
 title: Adding New Blocks
 ---
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->{: .bs-callout-info}The following instructions apply only to Magento installations that do not have Page Builder enabled. To learn how to add blocks with Page Builder, see [Tutorial 2: Blocks]({% link cms/page-builder-tutorial2-blocks.md %}).
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{: .bs-callout-info}
+The following instructions apply only if your Magento installation does not have Page Builder enabled. To learn how to add blocks with Page Builder, see [Tutorial 2: Blocks]({% link cms/page-builder-tutorial2-blocks.md %}).
 <!--{% endif %}-->
 
 Custom blocks of content can be created, and then added to any page, group of pages, or even to another block. For example, you might place an image slider in a block, and then place the block on the home page.
