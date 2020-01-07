@@ -15,6 +15,7 @@ Customers have access to all of their orders from their account. Orders can be v
 <!--{% endif %}-->
 _My Orders_
 
+<!--{% if "Default.B2B Only" contains site.edition %}-->
 ## Search for an order
 
 Use the Order Search fields to filter your order history or to find orders from other company users.
@@ -31,6 +32,8 @@ Fill in one or more fields to filter by:
 | Created by | Filter company orders by the order creator. |
 | Order Total | Set min, max, or both values to filter by order total. |
 
+Search results include orders from subordinate users.
+<!--{% endif %}-->
 ## View an order
 
 Find the order in the list and click **View Order**. From the open order, do any of the following:
