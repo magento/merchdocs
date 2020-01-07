@@ -10,7 +10,7 @@ The Country Options identify the country where your business is located and the 
 
 ## Set the country options for your store
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If needed, clear the **User system value** checkbox for each setting you want to change.
 
 1. On the _Admin_ sidebar, go to **Stores** > **Settings** > **Configuration**.

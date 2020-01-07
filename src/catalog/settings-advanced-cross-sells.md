@@ -4,7 +4,7 @@ title: Cross-sells
 
 Cross-sell items are similar to impulse purchases positioned next to the cash register in the checkout line. Products offered as a cross-sell appear on the shopping cart page, just before the customer begins the checkout process.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 To show or hide cross-sell items per store view, see the Store &gt; Configuration &gt; Sales &gt; [Checkout &gt; Shopping Cart]({% link configuration/sales/checkout.md %}) option called Show Cross-sell Items in the Shopping Cart. You may want to hide cross-sells during specific sales or for A/B testing in a store view.
 
 ![]({% link images/images/storefront-cart-cross-sells.png %}){: .zoom}

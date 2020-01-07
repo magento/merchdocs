@@ -1,22 +1,24 @@
 ---
-title: Google Analytics Settings for GDPR
+title: Google Privacy Settings
 group: marketing
+redirect_from: 
+  - /stores/compliance-gdpr-google.html
 ---
 
-If your business operates in areas that are governed by the [General Data Protection Regulation]({% link stores/compliance-gdpr.md %}), some of the default settings of <!--{% if "Default.CE Only" contains site.edition %}-->[Google Analytics]({% link marketing/google-universal-analytics.md %})<!--{% endif %}-->{% if "Default.EE-B2B" contains site.edition %}[Google Universal Analytics]({% link marketing/google-universal-analytics.md %}) and [Google Tag Manager]({% link marketing/google-tag-manager.md %}){% endif %} must be modified to comply with the regulation. Follow these steps to ensure that your use of customer data remains in compliance with the GDPR.
+If your business is required to comply with privacy regulations such as the [GDPR]({% link stores/compliance-gdpr.md %}) or [CCPA]({% link stores/compliance-ccpa.md %}), the default settings of <!--{% if "Default.CE Only" contains site.edition %}-->[Google Analytics]({% link marketing/google-universal-analytics.md %})<!--{% endif %}-->{% if "Default.EE-B2B" contains site.edition %}[Google Universal Analytics]({% link marketing/google-universal-analytics.md %}) and [Google Tag Manager]({% link marketing/google-tag-manager.md %}){% endif %} can be changed to meet privacy requirements. Follow these steps to ensure that your use of customer data remains in compliance.
 
 ![Google Analytics - data sharing settings]({% link images/images/google-data-sharing-settings.png %}){: .zoom}
 _Google Data Sharing Settings_
 
 ## Step 1: Update Google Settings
 
-1. [Sign in][1] to your company’s **Google Analytics** account.
+1. [Sign in][1]{: target="_blank"} to your company’s **Google Analytics** account.
 
 1. At the bottom of the left sidebar, choose **Admin**. Then, navigate to the account that you want to edit, if applicable.
 
 1. In the **Account** column, click **Account Settings**.
 
-1. Turn off data sharing in order to meet GDPR requirements.
+1. Turn off data sharing in order to meet privacy regulation requirements.
 
     The default Google Analytics settings share your company data with Google and other parties, To turn off data sharing, clear the selection checkbox for the following settings:
 
@@ -27,33 +29,30 @@ _Google Data Sharing Settings_
 
 1. Accept the Data Processing Amendment.
 
-    The Google Ads Data Processing Terms describe how Google processes data, and the measures it takes to ensure data security for business that are subject to the GDPR. A record of your legal entities and contact information is also maintained with the amendment. To [learn more][2], click the link in the message at the top of the page.
+    The Google Ads Data Processing Terms describe how Google processes data, and the measures it takes to ensure data security for business that are subject to the GDPR. A record of your legal entities and contact information is also maintained with the amendment. To [learn more][2]{: target="_blank"}, click the link in the message at the top of the page.
 
    - Scroll down the page to **Data Processing Amendment**.
-
    - Click <span class="btn">Review Amendment</span> to read the **Google Ads Data Processing Terms**.
-
    - Click <span class="btn">Accept</span>.
-
    - Click <span class="btn">Save</span>.
 
 1. Complete the DPA Administration details.
 
    - Click **Manage DPA Details** to open a DPA administration page where you can edit contacts and your organization's legal entities.
 
-   - In the **Legal Entities** section, click the **Edit** ( ![]({% link images/images/btn-ga-edit.png %}){: .Inline}) icon and add  one or more registered name(s) for your organization. When complete, click <span class="btn">Save</span>.
+   - In the **Legal Entities** section, click the **Edit** ( ![]({% link images/images/btn-ga-edit.png %}){: .Inline}) icon and add one or more registered name(s) for your organization. When complete, click <span class="btn">Save</span>.
 
    - In the **Contacts** section, click the **Add** ( ![]({% link images/images/btn-ga-add.png %}){: .Inline}) icon and enter the information for the first contact. Then, select the checkbox of each applicable role and click <span class="btn">Add</span>.
 
         | Primary Contact | (Notification Email Address) The contact to whom notices are sent. |
-        | Data Protection Officer | (If applicable) The person who is designated to facilitate GDPR compliance. |
-        | EEA Representative | (If applicable) The person who represents customers outside of the EU regarding their GDPR obligations. |
+        | Data Protection Officer | (If applicable) The person who is designated to facilitate privacy regulation compliance. |
+        | European Economic Area (EEA) Representative | (If applicable) The person who represents customers outside of the EU regarding their GDPR obligations. |
 
         Repeat to add another contact, if applicable.
 
 ## Step 2: Modify Your Google JS Libraries
 
-Google supports three JavaScript libraries to measure website usage, depending on the Google product: `gtag.js`, `analytics.js`, and `ga.js`. To meet GDPR requirements, the standard code must be modified for the following requirements:
+Google supports three JavaScript libraries to measure website usage, depending on the Google product: `gtag.js`, `analytics.js`, and `ga.js`. To meet privacy requirements, the standard code can be modified as follows:
 
 ### Anonymize IP Addresses
 
@@ -62,7 +61,7 @@ Google supports three JavaScript libraries to measure website usage, depending o
     analytics.js
     : `ga(’set’, ‘anonymizeIp’, true);`
 
-    To learn more, see the [Analytics.js Field Reference][3].
+    To learn more, see the [Analytics.js Field Reference][3]{: target="_blank"}.
 
     If you use the legacy `ga.js` library, add the following snippet:
 
@@ -74,7 +73,7 @@ Google supports three JavaScript libraries to measure website usage, depending o
     gtag.js
     : `gtag(’event’, ’your_event’, { ‘anonymize_ip’: true })`
 
-    To learn more, see [IP Anonymization in Analytics][4] in Google Help.
+    To learn more, see [IP Anonymization in Analytics][4]{: target="_blank"} in Google Help.
 
 ### Force SSL
 
@@ -90,7 +89,7 @@ Update your [privacy policy]({% link stores/privacy-policy.md %}) to state that 
 - Uses Google Analytics
 - Masks IP addresses to hide personal information
 - Has turned off Google Data Sharing
-- Does not use other Google services in conjunction with Google Analytics cookies.
+- Does not use other Google services in conjunction with Google Analytics cookies
 
 [1]: https://www.google.com/analytics/
 [2]: https://support.google.com/analytics/answer/3379636

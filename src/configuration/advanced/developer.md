@@ -4,7 +4,7 @@ title: Developer
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Advanced]({% link configuration/advanced.md %}) > Developer
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Available in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
 ## Frontend Development Workflow

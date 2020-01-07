@@ -16,8 +16,8 @@ Magento Shipping is a multi-carrier shipping and fulfillment solution that combi
 
 ## Changes in the Latest Release
 
-{: .bs-callout .bs-callout-info}
-Your Magento version determines the Magento Shipping version used. Documentation is updated for the current Magento release. See [Releases](https://devdocs.magento.com/release/){: target="_blank"} for versioning and compatibility information.
+{:.bs-callout-info}
+Your Magento version determines the Magento Shipping version used. Documentation is updated for the current Magento release. See [Releases](https://devdocs.magento.com/release/){:target="_blank"} for versioning and compatibility information.
 
 ### New Features
 

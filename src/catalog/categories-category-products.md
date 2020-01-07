@@ -59,7 +59,7 @@ _Category Products_
 
 1. When complete, click <span class="btn">Save Category</span>.
 
-{:.bs-callout .bs-callout-tip}
+{:.bs-callout-tip}
 When setting up a category rule, the products are matched and assigned to the rule when the category is saved. Therefore, if you add a new product to the catalog and want to include it in the rule, you must re-save each category that is set to match products by rule to ensure that the new product is included.
 
 |Option|Description|

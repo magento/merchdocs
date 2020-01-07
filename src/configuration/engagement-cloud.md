@@ -1,6 +1,6 @@
 ---
 title: Engagement Cloud
-redirect_from: 
+redirect_from:
   - /configuration/dotmailer.html
 ---
 

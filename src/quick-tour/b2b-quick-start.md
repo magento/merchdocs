@@ -24,19 +24,19 @@ sections:
 
   - title: Requisition Lists
     content: Maintain up to 99 different requisition lists to save time with frequently ordered products. Add items directly to the cart, or transfer items from one requisition list to another.
-    url: /customers/account-dashboard-requisition-lists.html   
+    url: /customers/account-dashboard-requisition-lists.html
 
   - title: Quotes
     content: Buyers can negotiate directly with the seller for a custom discount. The system saves a snapshot of the catalog, and the history of all activity related to the quote.
-    url: /sales/quote-request.html   
+    url: /sales/quote-request.html
 
   - title: Payment On Account
     content: Give companies the convenience of charging purchases to their account, up to the credit limit that you determine for the company.
-    url: /payment/payment-on-account.html  
+    url: /payment/payment-on-account.html
 
   - title: Integration
     content: Magento includes a flexible application programming interface (API) that integrates with a variety of ERP solutions from Magento partners.
-    url: /system/integrations.html  
+    url: /system/integrations.html
 ---
 
 Follow these links to learn about the Magento components that you will use to manage your stores for both business-to-business and business-to-consumer.

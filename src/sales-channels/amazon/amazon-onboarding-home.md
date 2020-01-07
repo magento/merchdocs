@@ -7,9 +7,9 @@ This section describes the requirements and pre-setup tasks for the onboarding p
 
 Amazon Sales Channel supports the creation of multiple Amazon Sales Channel stores. For a single Amazon Seller Central account that operates in the Amazon region that includes U.S./Canada/Mexico, you will create three Amazon Sales Channel stores (one for U.S. sales, one for Mexico sales, and one for Canada sales). Each of the three stores will define the region during its setup and be integrated with the same Amazon Seller Central account. If you have more than one Amazon Seller Central account, you could potentially have up to three Amazon Sales Channel stores for each of your Amazon Seller Central accounts.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 **Helpful onboarding tips.**
-<br />Amazon Sales Channel requires a [Professional Seller account][1]{: target="_blank"} on Amazon Seller Central, in the North America or European (UK) region. Amazon charges a monthly subscription and fees for selling. See [Amazon: Choose your selling plan][2]{: target="_blank"}.<br />
+<br />Amazon Sales Channel requires a [Professional Seller account][1]{:target="_blank"} on Amazon Seller Central, in the North America or European (UK) region. Amazon charges a monthly subscription and fees for selling. See [Amazon: Choose your selling plan][2]{:target="_blank"}.<br />
 <br />Your progress through the onboarding process is saved whenever you click a save option on a screen or click **Next**. Your integration is complete when you click **Complete Setup**. We recommend that you review all instructions to complete your configuration.<br />
 <br />Until your account and integration is active, your status is `In Setup`. If you access your integration to edit settings and configurations, you return to onboarding with your currently saved configurations.<br />
 <br />Your Amazon Sales Channel settings affect your Amazon listings. You can review your listings during setup and make any changes before completing your setup and publishing your listings in [Store Review]({% link sales-channels/amazon/ob-store-review.md %}). You can also modify your Amazon Sales Channel settings after your setup is complete.

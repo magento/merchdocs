@@ -6,8 +6,8 @@ Cross-border trade (also referred to as price consistency) supports European Uni
 
 Merchants operating across regions and geographies can show their customers a single price by including the tax in the price of the product. Pricing is clean and uncluttered regardless of tax structures and rates that vary from country to country.
 
-{: .bs-callout-info}
-When cross-border trade is enabled, your profit margin changes by tax rate. Profit is determined by the formula: 
+{:.bs-callout-info}
+When cross-border trade is enabled, your profit margin changes by tax rate. Profit is determined by the formula:
 `Revenue - CustomerVAT - CostOfGoodsSold`
 
 ## To enable cross-border price consistency:

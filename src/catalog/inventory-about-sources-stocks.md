@@ -53,5 +53,5 @@ The following are important options to understand for Inventory Management:
 * **Out-of-Stock Threshold** sets an amount to subtract from your Salable Quantity. If you enable backorders, this value is not deducted from the Salable Quantity.
 * **Backorders** determines if products can be sold beyond a zero inventory, saving orders until restocked. When enabled, we recommend configuring the Out-of-Stock Threshold.
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 The Out-of-Stock Threshold value supports negative and positive amounts. If you enable Backorders, we recommend setting this value to a negative amount for the maximum amount of products that can be backordered before the product is truly considered out of stock.

@@ -2,7 +2,7 @@
 title: PayPal Payments Advanced
 ---
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
 As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, PayPal Payments Advanced must be integrated with Cardinal Commerce. To learn more, see [3-D Secure for Payflow](https://developer.paypal.com/docs/classic/payflow/3d-secure-overview/).
 
@@ -15,18 +15,18 @@ Even customers without a PayPal account can make purchases through PayPal’s se
 
 You can have two PayPal solutions active at the same time: Express Checkout, plus any All-In-One or Payment Gateway solution. If you change payment solutions, the one that was used previously is disabled.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 PayPal Payments Advanced cannot be used for orders created from the Admin of your store.
 
 ## Requirements
 
-- [PayPal Business Account][1]  
+- [PayPal Business Account][1]
 - If you manage multiple Magento websites, you must have a separate PayPal merchant account for each website.
 
 ## Checkout Workflow
 
 | **1** | **Customer Chooses Payment Method**| During checkout, the customer chooses to pay with PayPal Payments Advanced. The Pay Now button appears instead of the Place Order button.|
-| **2** | **Pay Now** | The customer taps Pay Now, and a PayPal-hosted form appears. The customer enters the card information, and the card is verified. If successful, the order confirmation page appears. 
+| **2** | **Pay Now** | The customer taps Pay Now, and a PayPal-hosted form appears. The customer enters the card information, and the card is verified. If successful, the order confirmation page appears.
 | | **Pay with PayPal** | The form also includes the Pay with PayPal button, which redirects the customer to the PayPal site, where payment can be made with PayPal Express Checkout.|
 | **4** | **Troubleshooting** | If the transaction fails for any reason, an error message appears on the checkout page and the customer is instructed to try again. Any issues are managed by PayPal.|
 
@@ -55,7 +55,7 @@ Processing orders with PayPal Payments Advanced is the same as for any regular P
 
    - **Save** the settings.
 
-     {:.bs-callout .bs-callout-info}
+     {:.bs-callout-info}
      If you have multiple Magento websites, you must create a separate PayPal Payments Advanced account for each.
 
 1. When prompted to create a layout, do the following:
@@ -96,14 +96,14 @@ Processing orders with PayPal Payments Advanced is the same as for any regular P
 
 ### Step 3: Complete the Required PayPal Settings
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Required PayPal Settings** section, if needed.
 
 1. (Optional) Enter the **Email Associated with your PayPal Merchant Account**.
 
-   {:.bs-callout .bs-callout-warning}
+   {:.bs-callout-warning}
    Email addresses are case sensitive. To receive payment, the email address must match the email address specified in your PayPal merchant account.
 
    If you do not have a PayPal account, click **Start accepting payments via PayPal**.
@@ -202,7 +202,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
    The log file for PayPal Payments Advanced is: `payments_payflow_advanced.log`.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    In accordance with PCI Data Security Standards, credit card information is not recorded in the log file.
 
 1. To enable host authenticity verification, set **Enable SSL verification** to `Yes`.
@@ -241,18 +241,18 @@ Complete the following sections, as needed for your store:
 
    - To run test reports before “going live,” set **Sandbox Mode** to `Yes`.
 
-   - Enter the **Custom Endpoint Hostname or IP Address**. 
-   
+   - Enter the **Custom Endpoint Hostname or IP Address**.
+
      By default, the value is: `reports.paypal.com`
 
-   - Enter the **Custom Path** where reports are saved. 
-   
+   - Enter the **Custom Path** where reports are saved.
+
      By default, the value is: `/ppreports/outgoing`
 
 1. To generate reports according to a schedule, complete the **Scheduled Fetching** settings:
 
    - Set **Enable Automatic Fetching** to `Yes`.
-  
+
    - Set **Schedule** to one of the following:
 
      - `Daily`
@@ -294,7 +294,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
    - In the **Header Image URL** field, enter the URL of the image that you want to appear in the upper-left corner of the payment page. The maximum file size is 750 pixels wide by 90 pixels high.
 
-     {:.bs-callout .bs-callout-info}
+     {:.bs-callout-info}
      PayPal recommends that the image be located on a secure (https) server. Otherwise, the customer’s browser may warn that “the page contains both secure and nonsecure items.”
 
    - Enter the six-character hexadecimal code, without the “#” symbol, for each of the following:
@@ -337,7 +337,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
 1. To write communications with the payment system into the log file, set **Debug Mode** to `Yes`.
 
-     {:.bs-callout .bs-callout-info}
+     {:.bs-callout-info}
      In accordance with [PCI Data Security Standards]({% link stores/compliance-pci.md %}), credit card information is not recorded in the log file.
 
 1. To enable host authenticity verification, set **Enable SSL Verification** to `Yes`.

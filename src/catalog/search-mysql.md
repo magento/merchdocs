@@ -20,7 +20,7 @@ MySQL is the default search engine. By adjusting the Catalog Search configuratio
 
 1. To limit the length and word count of search query text, set the **Minimal Query Length** and **Maximum Query Length**.
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     **Important:** The value set for this minimum and maximum range must be compatible with the corresponding range set in your MySQL search engine configurations. For example, if you set these values to 2 and 300 in Magento, update the values in your search engine.
 
 1. To limit the amount of popular search results to cache for faster responses, set an amount for **Number of top search results to cache**.

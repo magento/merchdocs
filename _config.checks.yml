@@ -18,7 +18,7 @@ html-proofer:
 
   # Sort errors by description in the report
   :error_sort: :desc
-  
+
   # Use up to 3 parallel processes to speed up internal file checks.
   :parallel:
     :in_processes: 3

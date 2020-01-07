@@ -34,7 +34,7 @@ The process of customizing the body of each message is the same as the customizi
 
    The content consists of a combination of HTML tags, CSS directives, variables, and text.
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     When working in the template code, be careful not to accidentally type over the code that is enclosed in double braces.
 
     ![Email templates - template comtent]({% link images/images/email-template-message-content.png %}){: .zoom}

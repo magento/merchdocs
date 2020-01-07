@@ -3,7 +3,7 @@ title: Cookie Reference
 group: getting-started
 ---
 
-The default Magento cookies are classified as Exempt / Non-Exempt to help merchants meet [GDPR]({% link stores/compliance-gdpr.md %}) requirements. Merchants should use this information as a guide, and consult with legal advisors to update their Privacy and Cookie Policies as part of a comprehensive GDPR compliance strategy.
+The default Magento cookies are classified as Exempt / Non-Exempt to help merchants meet the requirements of privacy regulations such as the [GDPR]({% link stores/compliance-gdpr.md %}). Merchants should use this information as a guide, and consult with legal advisors to update their Privacy and Cookie Policies as part of a comprehensive privacy regulation compliance strategy.
 
 ## Magento 2 Default Cookies
 
@@ -264,7 +264,7 @@ Local storage for Banner functionality.
 <!--{% endif %}-->
 ## Google Analytics Cookies
 
-The following cookies are used when <!--{% if "Default.CE Only" contains site.edition %}-->[Google Analytics]({% link marketing/google-universal-analytics.md %})<!--{% endif %}--><!--{% if "Default.EE-B2B" contains site.edition %}-->[Google Universal Analytics]({% link marketing/google-universal-analytics.md %})<!--{% endif %}--> is fully enabled for your Magento installation. To disable these cookies for GDPR compliance, see [Google Settings for GDPR]({% link stores/compliance-gdpr-google.md %}). To learn more, see [Google Analytics Cookie Usage on Websites][1].
+The following cookies are used when <!--{% if "Default.CE Only" contains site.edition %}-->[Google Analytics]({% link marketing/google-universal-analytics.md %})<!--{% endif %}--><!--{% if "Default.EE-B2B" contains site.edition %}-->[Google Universal Analytics]({% link marketing/google-universal-analytics.md %})<!--{% endif %}--> is fully enabled for your Magento installation. To disable these cookies for privacy regulation compliance, see [Google Privacy Settings]({% link stores/compliance-privacy-google.md %}). To learn more, see [Google Analytics Cookie Usage on Websites][1].
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ### Google Universal Analytics Cookies (Non-Exempt)

@@ -263,8 +263,8 @@ pages:
         url: "/system/web-setup-module-manager.html"
       - label: System Upgrade
         url: "/system/web-setup-system-upgrade.html"
-      - label: Web Setup
-        url: "/system/web-setup.html"
+      - label: System Configuration
+        url: "/system/web-setup-system-configuration.html"
 - label: Reports
   url: /reports.html
   children:
@@ -287,7 +287,7 @@ pages:
     url: "/reports/business-intelligence.html"
     children:
     - label: Advanced Reporting
-      url: "/reports/advanced-reporting.html"      
+      url: "/reports/advanced-reporting.html"
     - label: BI Essentials
       url: "https://docs.magento.com/mbi/getting-started/getting-started.html"
   - label: Customer Engagement

@@ -12,7 +12,7 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 ## Step 2: Enable USPS for Your Store
 
-1. On the _Admin_ sidebar, click **Stores**. 
+1. On the _Admin_ sidebar, click **Stores**.
 
 1. In the _Settings_ section, choose **Configuration**.
 

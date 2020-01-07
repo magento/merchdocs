@@ -206,7 +206,6 @@ _Banner with Button_
 | Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %})  | Makes a duplicate copy of the button container.                                    |
 | Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})     | Deletes the button container and its content from the stage.                       |
 
-{: #button-settings}
 ## Button Settings
 
 |Setting|Description|

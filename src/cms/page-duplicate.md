@@ -27,7 +27,7 @@ _Save &amp; Duplicate_
      - The Page Title is the same as the original.
      - A unique, but temporary URL Key is assigned.
      - The Status of the page is `Disabled`.
-  
+
       ![]({% link images/images/pages-grid-duplicated-page.png %}){: .zoom}
       _Duplicate Page in Grid_
 

@@ -20,7 +20,7 @@ To get started, we recommend:
 * Update the [Default Source]({% link catalog/inventory-sources.md %}) with information for your single inventory location. You don't need to create additional sources.
 * Update the [Default Stock]({% link catalog/inventory-stock.md %}). Ensure all of your websites are selected as sales channels. As you add new websites, Magento automatically adds them to the Default Stock. You don't need to create additional sources.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 As your business expands, add additional sources and stocks and update your inventory management configuration to become a multi source merchants. See [Expanding to Multi Source Inventory]({% link catalog/inventory-expand-restructure-inventory.md %}) for all details.
 
 ## Multi Source Merchants

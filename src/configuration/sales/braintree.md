@@ -4,7 +4,7 @@ title: Braintree
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > Braintree
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
 As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. Starting with Magento ver. 2.2.3, Braintree provides native support for 3D Secure 2.0.<br/>To meet PSD2 requirements for earlier versions of Magento, install and configure the official Braintree payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). Older Braintree implementations that run on JavaScript SDK v2 do not support 3D Secure 2.0.
 
@@ -18,9 +18,9 @@ _Basic Braintree Settings_
 |Title|Store View|Default value: Credit Card (Braintree)|
 |Environment|Store View|Options: Sandbox / Production|
 |Payment Action|Website|Determines the action taken by Braintree when a payment is processed. Options: <br/>**Authorize** - Funds on the customer’s card are authorized, but not transferred from the customer’s account. An order is created in your store Admin. You can later capture the sale and create an invoice. <br/>**Authorize and Capture** - Funds on the customer’s card are authorized and captured by Braintree, and an order and invoice are created in your store Admin.|
-|Merchant ID|Website|The email address that is associated with your Braintree account.|
-|Public Key|Website|The public part of a unique key pair that restricts access to encrypted data. For the public key, enter the password that is associated with the email address used for your Braintree account.|
-|Private Key|Website|The private part of a unique key pair that restricts access to encrypted data, and is known only to the merchant.|
+|Merchant ID|Website|This is the unique identifier for your entire gateway account, including the multiple merchant accounts that may be in your gateway. As known as the _public ID_ or _production ID_, your merchant ID will be different for your production and sandbox gateways.|
+|Public Key|Website|This is your user-specific public identifier that restricts access to encrypted data. Each user associated with your Braintree gateway will have their own public key.|
+|Private Key|Website|This is your user-specific private identifier that restricts access to encrypted data. Each user associated with your Braintree gateway will have their own private key.|
 |Enable this Solution|Website|Determines if Braintree is available to your customers as a payment method. Options: Yes / No|
 |Enable PayPal through Braintree|Website|Determines if PayPal is included as a payment method through Braintree. Options: Yes / No|
 |Vault Enabled|Website|When enabled, provides secure storage for customer payment information, so customers don't have to reenter their credit card information for each purchase. Options: Yes / No.|

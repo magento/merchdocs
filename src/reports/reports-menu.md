@@ -52,7 +52,7 @@ The selection of reports for [private sales and events]({% link reports/statisti
 
 ### Business Intelligence
 
-Integrated [Business Intelligence]({% link reports/business-intelligence.md %}) tools provide the insight you need to make strategic business decisions.  
+Integrated [Business Intelligence]({% link reports/business-intelligence.md %}) tools provide the insight you need to make strategic business decisions.
 
 ### Customer Engagement
 

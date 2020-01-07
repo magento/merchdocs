@@ -5,7 +5,7 @@ title: Creating a Related Product Rule
 
 The process of creating a related product rule is similar to setting up a price rule. First, you define the conditions to match, and then choose the products that you want to display. At any given time there might be a number of active rules that can be triggered to display related products, up-sells, and cross-sells. The priority of each rule determines the order in which the block of products appears on the page.
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 For an attribute to be used in a targeted rule, the [Use for Promo Rule Conditions]({% link stores/attributes-product.md -%}) property must be set to `Yes`.
 
 ## Create a Related Product Rule

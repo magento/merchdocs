@@ -7,7 +7,7 @@ When Cookie Restriction Mode is enabled, visitors to your store are notified tha
 
 Your [privacy policy]({% link stores/privacy-policy.md %}) should include the name of your store and contact information, and explain the purpose of each cookie that is used by your store. To learn more, see: [Cookie Reference]({% link stores/cookie-reference.md %}).
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If you change the URL key of the privacy policy, you must also create a custom URL rewrite to redirect traffic to the new URL key. Otherwise, the link in the Cookie Restriction Mode message will return `404 Page Not Found`.
 
 ![Example storefront - cookie restriction notice]({% link images/images/storefront-cookie-restriction-message.png %}){: .zoom}

@@ -21,12 +21,12 @@ Assigning a customer group to a company is essentially the same as assigning a s
 
 1. Set the appropriate **Customer Group**.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     The Customer Group list includes all existing shared catalogs, even if Shared Catalogs is disabled in the configuration.
 
     Changing the customer group assigned to the company updates the profiles of all company members.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     If the customer group assignment is changed from a shared catalog to a regular customer group, company members lose access to the shared catalog and the master catalog becomes available to them from the storefront.
 
 1. When prompted to confirm, click **Proceed**. Then, click **Save**.

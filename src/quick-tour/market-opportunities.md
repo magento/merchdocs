@@ -4,7 +4,7 @@ title: Seize Market Opportunities
 ---
 
 Business Intelligence
-:  Use [Magento Business Intelligence][1]{: target="_blank"} to visually analyze your data, identify trends, and make smarter decisions. Discover hidden opportunities in long-tail market segments that can be targeted and developed over time.
+:  Use [Magento Business Intelligence][1]{:target="_blank"} to visually analyze your data, identify trends, and make smarter decisions. Discover hidden opportunities in long-tail market segments that can be targeted and developed over time.
 
 Geographic Locations
 :  Expand into new markets and geographic locations with [multiple sites and stores]({% link stores/websites-stores-views.md %}) for different locales and markets.

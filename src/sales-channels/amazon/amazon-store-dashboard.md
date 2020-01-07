@@ -19,7 +19,7 @@ The store dashboard includes the following sections and provides access to addit
 ![]({% link images/images/sales-channels/amazon/amazon-store-dashboard.png %}){: .zoom}
 _Amazon Store Dashboard_
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If you select a store with the **In Setup** status, the Onboarding steps open with populated data saved for the store integration.
 
 |Section|Description|

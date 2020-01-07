@@ -20,7 +20,7 @@ sections:
  - title: Attributes
    content: Learn how to create and manage the pieces of information that are used in product descriptions.
    url: /stores/attributes.html
-redirect_from: 
+redirect_from:
   - /stores/x-stores.html
 ---
 

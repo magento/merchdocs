@@ -42,11 +42,11 @@ Because the suffix is controlled by the system configuration, you should never t
 You can configure the URL to either include or exclude the category path. By default, the category path is included in all category and product pages. The following examples show the same product URL with, and without, the category path.
 
 #### URL with Category Path
-  
+
 `http://mystore.com/women/tops-women/hoodies-and-sweatshirts-women/helena-hooded-fleece.html`
-  
+
 #### URL without Category Path
-  
+
 `http://mystore.com/helena-hooded-fleece.html`
 
 To prevent search engines from indexing multiple URLs that lead to the same content, you can exclude the category path from the URL. Another method is to use a canonical meta tag to let search engines know which URLs to index and which to ignore. By default, Magento does not include the category path in product URLs.

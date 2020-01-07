@@ -15,7 +15,7 @@ During onboarding, your listing rules will be applied to your catalog products. 
 
 {% include amazon-listing-rules-configure.md %}
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 **Important!** When you continue to **Listing Preview** (step 4), the option you selected in the Website field locks for this integration. To change the website after continuing to step 4, you must exit this [store integration]({% link sales-channels/amazon/store-integration.md %}) and begin a new one.
 
 See [Listing Rules]({% link sales-channels/amazon/listing-rules.md %}).

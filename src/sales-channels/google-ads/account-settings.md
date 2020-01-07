@@ -38,7 +38,7 @@ The settings page includes:
 
 ### Google Ads
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 These [settings]({% link sales-channels/google-ads/acct-settings.md %}) are part of your Google ads account setup and cannot be edited after creating the account.
 
 |Option|Description|
@@ -76,7 +76,7 @@ These [settings]({% link sales-channels/google-ads/acct-settings.md %}) are part
    * To assign a flat shipping rate for all your products, select **Use a flat rate for all orders** and enter an amount per country listed. To set free shipping, select this option and enter 0 for the flat rate.
    * To configure your shipping costs in Google Merchant Center, select **I will set this up on Google Merchant Center**.
 
-      {:.bs-callout .bs-callout-info}
+      {:.bs-callout-info}
       If you select this option and your country's required shipping costs, you may receive an [account error] until you configure this setting in Google Merchant Center.
 
 1. Update your tax settings or select a new option. For more information, see [Shipping and Tax]({% link sales-channels/google-ads/shipping-tax.md %}).
@@ -84,7 +84,7 @@ These [settings]({% link sales-channels/google-ads/acct-settings.md %}) are part
    * If you are operating inside of the United States, select **Use auto tax estimation (U.S. Only)** for Google to provide estimated taxes based on the address of customers and your configurations. For **Select the states where you operate from**, select the states where you operate from the list or by entering the name. For more information, see Google's [Set up tax settings (US only)][1].
    * If you want to configure your tax information in your Google Merchant Center account, select **I will set this up on Google Merchant Center**.
 
-      {:.bs-callout .bs-callout-info}
+      {:.bs-callout-info}
       If you select this option, all your products will be disapproved until you configure this setting in Google Merchant Center.
 
    * If you are operating from a country that uses VAT or have no nexus in the United States, select **VAT is included in my product price, I don’t want to use tax settings**.
@@ -97,7 +97,7 @@ These [settings]({% link sales-channels/google-ads/acct-settings.md %}) are part
 ### To edit attribute mappings:
 
 1. Click **Edit Attribute Mapping** in the **Select** drop-down list.
-1. For complete details and information, see [Editing Attribute Mappings]({% link sales-channels/google-ads/products-edit-mappings.md %}). 
+1. For complete details and information, see [Editing Attribute Mappings]({% link sales-channels/google-ads/products-edit-mappings.md %}).
 
 ## To resend products to Google/manual reindex: {#GMCReindex}
 

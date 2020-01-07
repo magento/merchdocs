@@ -25,7 +25,7 @@ In the **Select** drop-down:
 
 {% include amazon-end-lising-action.md %}
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If you have listings in process, a message will be displayed above the tabs indicating how many.
 
 ![]({% link images/images/sales-channels/amazon/amazon-inactive-listings.png %}){: .zoom}

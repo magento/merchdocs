@@ -4,7 +4,7 @@ title: Tax Rules
 
 Tax rules incorporate a combination of product class, customer class and tax rate. Each customer is assigned to a customer class, and each product is assigned a product class. Magento analyzes the shopping cart of each customer and calculates the appropriate tax according to the customer and product classes, and the region (based on the customer’s shipping address, billing address or shipping origin).
 
-{: .bs-callout-info}
+{:.bs-callout-info}
 When numerous taxes must be defined, you can simplify the process by importing them.
 
 ![]({% link images/images/tax-rules.png %}){: .zoom}

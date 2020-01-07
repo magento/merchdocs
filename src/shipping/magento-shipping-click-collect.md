@@ -10,7 +10,7 @@ Every Click & Collect order generates a pickup record. Like a shipment, the pick
 
 Complete the setup of your Click & Collect [Locations]({% link shipping/magento-shipping-locations.md %}). The location name, address, and opening/closing hours are visible to the customer during checkout. Special hours are included if they go into effect within the next seven days.
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 The pickup location that a customer chooses during cannot be changed from the Admin.
 
 Create a Qualify [Shipping Experience Rule]({% link shipping/magento-shipping-experience-rules.md %}) with the outcome set to “Offer click and collect locations”. The rule can be configured to offer one or more locations. If the Click & Collection location is set to “All,” any new locations appear to the customer during checkout.

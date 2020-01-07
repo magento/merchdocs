@@ -7,14 +7,14 @@ FedEx is one of the world’s largest shipping service companies, providing air,
 ![]({% link images/images/storefront-checkout-shipping-fedex.png %}){: .zoom}
 *FedEx Shipping Options at Checkout*
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 FedEx now uses [dimensional weight]({% link shipping/weight-dimensional.md %}) to determine some shipping rates.
 
 ## Step 1: Register for FedEx Web Services Production
 
 You must create a [FedEx merchant account][1] and register for FedEx Web Services Production Access. After creating a FedEx account, read through the production account information page, then click the Obtain Production Key link at the bottom of the page to register and obtain a key.
 
-{: .bs-callout.bs-callout-info}
+{:.bs-callout-info}
 Make sure to copy or write down the authentication key. You will need it to set up FedEx in your Magento shipping settings.
 
 ## Step 2: Enable FedEx for Your Store
@@ -40,7 +40,7 @@ Make sure to copy or write down the authentication key. You will need it to set 
 
 1. If you have set up a FedEx sandbox and want to work in the testing environment, set **Sandbox Mode** to `Yes`.
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     Remember to set Sandbox Mode to "No" when you are ready to offer FedEx as a shipping method to your customers.
 
     ![]({% link images/images/config-sales-shipping-methods-fedex-account-settings.png %}){: .zoom}

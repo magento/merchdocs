@@ -150,7 +150,7 @@ _New Company_
       - Choose **All Enabled Payment Methods**.
 
       - Choose the **Specific Payments**.
-  
+
       To select multiple payment methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
 1. When complete, click <span class="btn">Save</span>.

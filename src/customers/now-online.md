@@ -25,7 +25,7 @@ The Now Online option on the Customers menu lists all customers and visitors who
       [_Online Customers Options_]({% link configuration/customers/customer-configuration.md %})
 
       - In the **Online Minutes Interval** field, enter the number of minutes for the customer session to be visible from the Admin. Leave the field empty to accept the default interval of fifteen minutes.
-  
+
       - In the **Customer Data Lifetime** field, enter the number of minutes before any unsaved data entered by the customer expires.
 
 1. When complete, click <span class="btn">Save Config</span>.

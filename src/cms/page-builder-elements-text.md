@@ -60,7 +60,7 @@ To create a link for a telephone number or email, see [Adding Custom Variables](
 
 1. Hover over the text container. Then, choose **Settings** ( ![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox.
 
-   {: .bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    Because the text container is tightly nested inside another container, make sure that you have the correct toolbox.
 
    ![]({% link images/images-ee/page-builder-elements-text-toolbox.png %}){: .zoom}
@@ -82,7 +82,6 @@ To create a link for a telephone number or email, see [Adding Custom Variables](
 | Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the text container.                |
 | Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})    | Deletes the text container and its content from the stage.   |
 
-{: #text-settings}
 ## Text Settings
 
 |Setting|Description|
