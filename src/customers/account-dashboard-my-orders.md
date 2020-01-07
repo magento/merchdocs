@@ -18,21 +18,19 @@ _My Orders_
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 ## Search for an order
 
-Use the Order Search fields to filter your order history or to find orders from other company users.
+Use the Order Search fields to filter your order history or to find orders from subordinate users.
 
 Fill in one or more fields to filter by:
 
 | Filter | Description |
 | -- | -- |
-| SKU or Product Name | Enter either a SKU or product name |
-| Order Number | Can be either a full or partial order number |
-| Order Status | Choose a value from the dropdown to filter by status |
+| SKU or Product Name | Enter either a SKU or product name. |
+| Order Number | Can be either a full or partial order number. |
+| Order Status | Choose a value from the dropdown to filter by status. |
 | Invoice Number | Enter either a full or partial invoice number. |
 | Order Date | Set one or both date fields to filter by order date. |
 | Created by | Filter company orders by the order creator. |
 | Order Total | Set min, max, or both values to filter by order total. |
-
-Search results include orders from subordinate users.
 <!--{% endif %}-->
 ## View an order
 
