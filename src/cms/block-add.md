@@ -37,7 +37,7 @@ _Blocks Workspace_
 
 1.  Use the [editor]({% link cms/editor.md %}) to format text, create links and tables, images, video, and audio.
 
-1.  If you prefer to work with HTML code, click <span class="btn">Show / Hide Editor</span>
+1.  If you prefer to work with HTML code, click <span class="btn">Show / Hide Editor</span>.
 
     ![]({% link images/images/block-editor-hidden.png %}){: .zoom}
     _Editor (Hidden)_
