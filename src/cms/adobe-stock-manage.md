@@ -80,7 +80,7 @@ searching the millions of assets available via Adobe Stock.
 ### Filter Adobe Stock Assets
 
 1. [Run a keyword search for Adobe Stock assets][search-by-keywords].
-  
+
 1. Click <span class="btn">Filters</span>.
 
     There are several filters available to refine your search results:
@@ -118,27 +118,27 @@ Each image has details available for viewing. Additional image-specific actions,
     ![Adobe Stock image details]({% link images/images/adobe-stock/image-details.png %}){: .zoom}
     _Adobe Stock image details_
 
-## Log In to Adobe IMS
+## Log In to Your Adobe Account
 
-To gain complete access to an image and eliminate the Adobe Stock watermark, you must [sign in with an Adobe IMS account][ims-signin] and purchase credits to
+To gain complete access to an image and eliminate the Adobe Stock watermark, you must [sign in with an Adobe account][adobe-signin] and purchase credits to
 license rights to use an image.
 
 1. [Access the Adobe Stock Search grid][access-search].
 
 1. Click **Sign In** at the top-right.
 
-    A new browser window guides you through the [Adobe IMS sign-in process][ims-signin].
+    A new browser window guides you through the [Adobe sign-in process][adobe-signin].
 
-    After completing the IMS sign-in process, the [licensed state][licensed-state] of images is displayed in search results as an additional label.
+    After completing the sign-in process, the [licensed state][licensed-state] of images is displayed in search results as an additional label.
 
-    ![Adobe IMS sign in]({% link images/images/adobe-stock/ims-login.png %}){: .zoom}
-    _Adobe IMS sign in_
+    ![Adobe sign in]({% link images/images/adobe-stock/ims-login.png %}){: .zoom}
+    _Adobe account sign in_
 
 ### View the Licensed State of Search Results
 
-[Log in to Adobe IMS][log-in-to-ims].
+[Log in to your Adobe account][log-in-to-adobe-account].
 
-All licensed images associated to your Adobe IMS account will have an additional label displayed on them, making it clear which images you have licensed
+All licensed images associated to your Adobe account will have an additional label displayed on them, making it clear which images you have licensed.
 
 ![Adobe Stock search results with licensed images]({% link images/images/adobe-stock/licensed-images.png %}){: .zoom}
 _Search Results with Licensed Images_
@@ -173,9 +173,9 @@ decide to purchase a license for specific images and use them on your production
 #### Save a Licensed Image
 
 Adobe Stock assets that you want to use for your production Magento stores should be licensed to ensure you have legal access to the image as well as to
-eliminate the Adobe Stock watermark that is present on all [image previews][save-preview]. To license images or to save already-licensed images, you must be logged in to Adobe IMS.
+eliminate the Adobe Stock watermark that is present on all [image previews][save-preview]. To license images or to save already-licensed images, you must be logged in to your Adobe account.
 
-1. [Log in to Adobe IMS][log-in-to-ims].
+1. [Log in to your Adobe account][log-in-to-adobe-account].
 
 1. Click an image in the search grid in order to [view the image details][view-details].
 
@@ -202,8 +202,8 @@ eliminate the Adobe Stock watermark that is present on all [image previews][save
 [access-search]: #access-the-adobe-stock-search-grid
 [search-by-keywords]: #search-for-adobe-stock-assets-by-keywords
 [view-details]: #view-image-details
-[log-in-to-ims]: #log-in-to-adobe-ims
-[ims-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
+[log-in-to-adobe-account]: #log-in-to-your-adobe-account
+[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
 [licensed-state]: #view-the-licensed-state-of-search-results
 [save-to-media-storage]: #save-images-to-the-media-storage
 [save-preview]: #save-an-image-preview

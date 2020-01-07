@@ -11,8 +11,7 @@ The Adobe Stock service provides businesses with access to millions of high-qual
 
 ## Prerequisites
 
-This integration requires an [adobe.io Console][io-console] account and Magento 2.3.4 or newer. In order to license [Adobe Stock][adobe-stock] images, a paid plan
-is also required.
+This integration requires an [adobe.io Console][io-console] account and Magento 2.3.4 or newer. In order to license [Adobe Stock][adobe-stock] images, a paid [Adobe Stock][adobe-stock] plan and an [Adobe account][adobe-signin] are also required.
 
 ## Integrate Magento and Adobe Stock
 
@@ -85,6 +84,7 @@ Use the **API Key** and **Client secret** generated in the [previous section][cr
 1. When complete, click <span class="btn">Save Config</span>.
 
 [adobe-stock]: https://stock.adobe.com
+[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
 [media-storage]: {% link cms/media-storage.md %}
 [io-console]: https://console.adobe.io
 [create-integration]: #create-an-adobeio-integration
