@@ -16,7 +16,7 @@ Before modifying quantities and settings, you need to assign [sources]({% link c
 
    This section allows you to modify the source, update inventory quantities, and more.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     Currently, only Simple, Configurable, Virtual, Downloadable, and Grouped products support multiple sources. Bundle products can be created and managed with only the Default Source and Stock.
 
     ![]({% link images/images/inventory/inventory-product-sources-before.png %}){: .zoom}

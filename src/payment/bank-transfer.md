@@ -37,7 +37,7 @@ _Bank Transfer Payment_
 
    - Set **Minimum Order Total** and **Maximum Order Total** to the amounts required to qualify to use this payment method.
 
-     {:.bs-callout .bs-callout-info}
+     {:.bs-callout-info}
      An order qualifies if the total falls between, or exactly matches, the minimum or maximum total values.
 
 1. Enter a **Sort Order** number to determine the position of Bank Transfer in the list of payment methods during checkout. (0 = first, 1 = second, 2 = third, and so on.)

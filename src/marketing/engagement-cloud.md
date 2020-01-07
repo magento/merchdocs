@@ -1,8 +1,8 @@
 ---
 title: Engagement Cloud
-redirect_from: 
+redirect_from:
   - /marketing/email-marketing-automation.html
-  - /marketing/email-marketing-automation-studio.html 
+  - /marketing/email-marketing-automation-studio.html
 ---
 
 Engagement Cloud, powered by [dotdigital][1], gives you the ability to produce professional, personalized communications and generated reports using data from your Magento store, including:

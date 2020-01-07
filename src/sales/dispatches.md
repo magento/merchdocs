@@ -31,7 +31,7 @@ _Dispatches_
        ![]({% link images/images/dispatch-create-step2-date.png %}){: .zoom}
        _Dispatch Date_
 
-       {:.bs-callout .bs-callout-info}
+       {:.bs-callout-info}
        The date and time must be at least 30 minutes in the future.
 
    - Click the **Time** below the calendar, and set a scheduled pickup time.

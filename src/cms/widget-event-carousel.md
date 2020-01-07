@@ -57,7 +57,7 @@ _Event Carousel in Left Sidebar_
       - `Sidebar Additional`
       - `Sidebar Main`
 
-       {:.bs-callout-info"}
+       {:.bs-callout-info}
        The results vary according to theme and page layout. The “Catalog Events Carousel Default Template.” must also be specified in the category configuration.
 
     - If you want the Events Carousel to appear in an additional location in the storefront, click <span class="btn">Add Layout Update</span>. Then, repeat these steps.

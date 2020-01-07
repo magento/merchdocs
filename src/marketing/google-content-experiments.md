@@ -4,7 +4,7 @@ title: Google Content Experiments
 
 The following example shows how to set up an A/B test of products, categories, or content pages using Google Analytics Content Experiments. We recommend that you keep two browser tabs open while working through the instructions, because you will need to bounce back and forth between the Magento Admin and your Google Analytics account.
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Google Content Experiments has been deprecated and will eventually be replaced by [Google Optimize][1].
 
 ## Step 1. Enable Content Experiments (Magento)
@@ -32,7 +32,7 @@ You can create up to ten variations of each entity that you want to test. For pr
 
 ## Step 3. Set Up the Experiment (Google)
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 You must have the appropriate permissions to the Google account to create an experiment.
 
 1. Open another browser tab, and log into your [Google Analytics][2] account. If necessary, navigate to the **Account** and **Property**.
@@ -50,7 +50,7 @@ You must have the appropriate permissions to the Google account to create an exp
       - Identify the experiment location as either "Website" or "Mobile app".
 
       - Enter a descriptive **Reporting View Name**.
-  
+
       - Specify the **Reporting Time Zone**.
 
     - When complete, click <span class="btn">Create View</span>. Then, click the back arrow to return to the previous page.
@@ -78,7 +78,7 @@ You must have the appropriate permissions to the Google account to create an exp
 
 1. Paste the code snippet that you copied from Google Analytics into the **Experiment Code** text box.
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     Do not paste the code snippet into any of the variations.
 
     ![Product view optimization]({% link images/images/product-view-optimization.png %}){: .zoom}

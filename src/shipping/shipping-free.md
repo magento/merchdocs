@@ -4,7 +4,7 @@ title: Free Shipping
 
 Free shipping is one of the most effective promotions you can offer. It can be based on a minimum purchase, or set up as a [cart price rule]({% link marketing/price-rules-cart.md %}) that is applied when a set of conditions is met. If both apply to the same order, the configuration setting takes precedence over the cart rule.
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Check your shipping carrier configuration for any additional settings that may be required for free shipping.
 
 ![]({% link images/images/config-sales-shipping-methods-free-shipping.png %}){: .zoom}
@@ -28,13 +28,13 @@ Check your shipping carrier configuration for any additional settings that may b
 
 1.  Enter the **Minimum Order Amount** to qualify for free shipping.
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     To use Free Shipping with [Table Rates]({% link shipping/shipping-table-rate.md %}), make the Minimum Order Amount so high that it is never met. This prevents Free Shipping from going into effect, unless it is triggered by a price rule.
 
 1.  In the **Displayed Error Message** box, type the message to appear if free shipping becomes unavailable.
 
 1.  Set **Ship to Applicable Countries** to one of the following:
-    
+
     * **All Allowed Countries**–Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use free shipping.
 
     * **Specific Countries**–After choosing this option, the Ship to Specific Countries list appears. Select each country in the list where free shipping can be used.

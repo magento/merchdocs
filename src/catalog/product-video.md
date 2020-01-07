@@ -6,7 +6,7 @@ To add product video, you must first obtain an API Key from your Google account,
 
 ## Step 1: Get Your YouTube API Key
 
-1. Log in to your Google account, and visit the [Google Developers Console][1]{: target="_blank"}. Then, do the following:
+1. Log in to your Google account, and visit the [Google Developers Console][1]{:target="_blank"}. Then, do the following:
 
     * Under Use Google APIs, click **Enable and manage APIs**.
 

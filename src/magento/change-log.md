@@ -4,6 +4,21 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what’s new!
 
+
+## December 2019
+
+### New Topics
+
+- [CCPA Compliance]({% link stores/compliance-ccpa.md %})
+- [CCPA Compliance Guide]({% link stores/compliance-ccpa-guide.md %})
+
+### Updated Topics
+
+|Topic |Change|
+|--- |--- |
+|[Google Privacy Settings for GDOR]({% link stores/compliance-privacy-google.md %})|This topic now applies to privacy regulations in general, and is not limited to GDPR.|
+
+
 ## November 2019
 
 ### Updated Topics
@@ -17,20 +32,20 @@ Our documentation is continually updated with new topics, clarifications, and co
 ### Product Releases
 
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-- [Magento for B2B Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.3Commerce.html){: target="_blank"}, 2.3.3
+- [Magento for B2B Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.3Commerce.html){:target="_blank"}, 2.3.3
 <!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
-- [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.3Commerce.html){: target="_blank"}, 2.3.3
+- [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.3Commerce.html){:target="_blank"}, 2.3.3
 <!--{% endif %}-->
 <!--{% if "Default.CE Only" contains site.edition %}-->
-- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.3OpenSource.html){: target="_blank"}, 2.3.3
+- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.3OpenSource.html){:target="_blank"}, 2.3.3
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-- [Page Builder](https://devdocs.magento.com/page-builder/docs/release-notes.html){: target="_blank"}, 1.1
+- [Page Builder](https://devdocs.magento.com/page-builder/docs/release-notes.html){:target="_blank"}, 1.1
 <!--{% endif %}-->
-- [Google Shopping ads Channel](https://devdocs.magento.com/extensions/google-shopping-ads/release-notes/){: target="_blank"}, 3.0.1
-- [Inventory Management](https://devdocs.magento.com/guides/v2.3/inventory/release-notes.html){: target="_blank"}, 1.1.3
-- [Amazon Sales Channel](https://devdocs.magento.com/extensions/amazon-sales/release-notes/){: target="_blank"}, 3.0.0
+- [Google Shopping ads Channel](https://devdocs.magento.com/extensions/google-shopping-ads/release-notes/){:target="_blank"}, 3.0.1
+- [Inventory Management](https://devdocs.magento.com/guides/v2.3/inventory/release-notes.html){:target="_blank"}, 1.1.3
+- [Amazon Sales Channel](https://devdocs.magento.com/extensions/amazon-sales/release-notes/){:target="_blank"}, 3.0.0
 
 ### New Topics
 
@@ -204,7 +219,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 |Topic |Change |
 |--- |--- |
-|[Google Settings for GDPR]({% link stores/compliance-gdpr-google.md %})|Moved this topic from the Getting Started/Industry Compliance section to Marketing/Google Tools.|
+|[Google Settings for GDPR]({% link stores/compliance-privacy-google.md %})|Moved this topic from the Getting Started/Industry Compliance section to Marketing/Google Tools.|
 |[GDPR Compliance]({% link stores/compliance-gdpr.md %})|Added “Best Practice” checklist.|
 |[dotmailer]({% link marketing/engagement-cloud.md %})|Engagement Cloud by dotdigital now replaces dotmailer.|
 |[Setting up Amazon Pay]({% link payment/amazon-pay-setup.md %})|Added configuration option for multi-currency.|

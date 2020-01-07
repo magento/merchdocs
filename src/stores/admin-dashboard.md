@@ -14,7 +14,7 @@ _Dashboard_
 
 ## Configure the chart
 
-On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration** and complete any of the following settings. 
+On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration** and complete any of the following settings.
 
 When your configurations are complete, click <span class="btn">Save Config</span>.
 
@@ -46,7 +46,7 @@ When your configurations are complete, click <span class="btn">Save Config</span
 
 ### Choose the data source
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If you have a lot of data to process, the performance of the Dashboard can be improved by turning off the display of real time data.
 
 1. In the left side panel, click to expand **Sales** and choose **Sales**.

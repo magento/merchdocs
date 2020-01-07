@@ -1,6 +1,6 @@
 ---
 title: Your Login Credentials
-redirect_from: 
+redirect_from:
   - /getting-started/for-your-records.html
 ---
 

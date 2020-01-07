@@ -23,7 +23,7 @@ The following example shows how to schedule a temporary price change for a produ
 
     To create an open-ended campaign, leave the End Date blank. For this example, the campaign is scheduled to begin the minute the sun reaches the northernmost point of the equator. This year, the summer solstice takes place on June 20th, at 3:34 AM PST.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     An end date cannot later be added to a price rule campaign that was originally created without an end date. In such a case it is necessary to create a duplicate campaign that includes the end date that is needed
 
     ![]({% link images/images-ee/content-staging-campaign-schedule-update.png %}){: .zoom}

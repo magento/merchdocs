@@ -82,12 +82,12 @@ _Magento Ad in Google Search Results_
       - 2 - Displays a two-line notification with a link to more information about Google tracking.
       - 3 - Displays no customer notification.
 
-    - Enter the [hexadecimal code][4]{: target="_blank"} for the **Conversion Color** that you want to use for the Google Site Stats notification label.
+    - Enter the [hexadecimal code][4]{:target="_blank"} for the **Conversion Color** that you want to use for the Google Site Stats notification label.
 
     - Enter the encrypted text for the **Conversion Label** that appears on the Google Sites Stat notification.
 
         For example: `MlEYCOKBnGoQz6CZoAM`
-    
+
         **Sample Google AdWords Tag Code**
 
         ```html

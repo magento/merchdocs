@@ -5,7 +5,7 @@ title: Archive
 
 Archiving orders on a regular basis improves performance and keeps your workspace free of unnecessary information, so you can focus on current business. Invoices, shipments, and credit memos can be archived automatically or manually, and can be viewed at any time.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 The Archive option appears in the Sales menu only when archiving is [enabled]({% link configuration/sales/sales.md %}).
 
 ![Orders, Invoices, Shipments, Credit Memos Archiving]({% link images/images/order-move-to-archive.png %} "Orders, Invoices, Shipments, Credit Memos Archiving"){: .zoom}
@@ -29,7 +29,7 @@ _[Move Order to Archive]({% link configuration/sales/sales.md %})_
 
     - In the **Order Statuses to be Archived** list, select each order status to use for identifying orders to archive. To select multiple items, hold down the Ctrl (Windows) or Command (Mac) key as you click each item.
 
-        ![]({% link images/images-ee/config-sales-sales-orders-invoices-shipments-credit-memos-archving.png %}){: .zoom}  
+        ![]({% link images/images-ee/config-sales-sales-orders-invoices-shipments-credit-memos-archving.png %}){: .zoom}
         [_Orders, Invoices, Shipments, Credit Memos Archiving_]({% link configuration/sales/sales.md %})
 
 1. Click **Save Config**.
@@ -62,7 +62,7 @@ _[Move Order to Archive]({% link configuration/sales/sales.md %})_
 
     - In the _Archive_ section, choose **Orders**.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     Like the Orders page, the title of the archived orders page is “Orders.” The only noticeable difference is the option in the button bar to “Return to Order Management.” The URL of the page also indicates that you are in the order archive.
 
 1. In the _Action_ column, click **View**.

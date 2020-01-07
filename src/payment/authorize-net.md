@@ -2,7 +2,7 @@
 title: Authorize.Net
 ---
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
 As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, do one of the following:<br/>- (Recommended) Install and configure the official Authorize.Net payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=authorize.net){:target="_blank"}.<br/>- Enable and configure the Authorize.Net payment method in the Magento configuration.<br/>These integrations support 3D Secure 2.0 verification through [CardinalCommerce](https://www.cardinalcommerce.com/products/psd2) and other third-party services.
 
@@ -28,7 +28,7 @@ The Authorize.Net payment method has replaced the Authorize.Net Direct Post (Dep
 
 
 ### Step 2: Complete Basic Settings
-   
+
 1. Enter a unique **Title** to identify the Authorize.Net payment method during checkout.
 
 1. In the **Environment** field, choose the operating mode for your type of Authorize.Net merchant account.  If working in a test environment, choose 'Sandbox'. For a live store, choose 'Production'.
@@ -42,7 +42,7 @@ The Authorize.Net payment method has replaced the Authorize.Net Direct Post (Dep
 
 1.  In the **Transaction Key** field, enter the key value from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **API Credentials & Keys**.
 
-       {:.bs-callout .bs-callout-info}
+       {:.bs-callout-info}
        If you have previously generated a transaction key, you will enter the value. If you don't know your existing transaction key or have never established one, you can generate a new key in your Authorize.Net merchant account. If generating a new key to replace an existing key, it is important to update any existing applications that use the transaction key.
 
 1. In the **Public Client Key** field, enter the key value from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **Manage Public Client Key**.
@@ -60,7 +60,7 @@ The Authorize.Net payment method has replaced the Authorize.Net Direct Post (Dep
 
 1. If you want Authorize.Net to send an order confirmation notification to the customer, set **Email Customer** to 'Yes'.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    Merchant email settings can be configured in your Authorize.Net merchant account at **Account** > **User Profile** > **Edit Profile Information**.
 
 1. To require customers to enter a card verification value (CVV), set **Enable Credit Card Verification Field** to 'Yes'.
@@ -92,21 +92,21 @@ CardinalCommerce provides a 3-D Secure Version 2.0 solution that increases appro
 
 1. Return to the Magento Admin. Then on the Admin sidebar, go to **Stores** > Settings > **Configuration**.
 1. In the panel on the left under **Sales**, choose **3D Secure**.
-   
+
     ![]({% link images/images/config-sales-3dsecure-cardinalcommerce.png %}){: .zoom}
     [_CardinalCommerce_]({% link configuration/sales/cardinalcommerce.md %})
 
 1. Set **Enable for Authorize.Net** to 'Yes'.
-1. To choose the **Environment**, do one of the following: 
+1. To choose the **Environment**, do one of the following:
 
-   - If Authorize.Net is currently running in test mode, accept the default 'Sandbox'. 
+   - If Authorize.Net is currently running in test mode, accept the default 'Sandbox'.
    - To set up CardinalCommerce for Authorize.Net in a live store, choose 'Production'.
-  
+
 1. Enter the following credentials from your CardinalCommerce merchant account:
 
    - Org Unit ID
    - API Key
    - API Identifier
 
-1. If you want the system to save a log file of interactions between your store and  CardinalCommerce, set **Debug** to 'Yes'.  
+1. If you want the system to save a log file of interactions between your store and  CardinalCommerce, set **Debug** to 'Yes'.
 1. When complete, click <span class="btn">Save Config</span> in the upper-right corner. Then, click [Cache Management]({% link system/cache-management.md %}) in the message at the top of the workspace, and refresh all invalid caches.

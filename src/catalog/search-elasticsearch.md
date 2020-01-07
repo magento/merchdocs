@@ -3,7 +3,7 @@ title: Elasticsearch
 group: marketing
 ---
 
-Elasticsearch is a powerful and highly scalable distributed search engine that is used by such high-volume sites as eBay, Wikipedia, and GitHub. The implementation of Elasticsearch includes both search suggestions and recommendations. For installation instructions, see [Set up Elasticsearch service][1]{: target="_blank"} in the developer documentation.
+Elasticsearch is a powerful and highly scalable distributed search engine that is used by such high-volume sites as eBay, Wikipedia, and GitHub. The implementation of Elasticsearch includes both search suggestions and recommendations. For installation instructions, see [Set up Elasticsearch service][1]{:target="_blank"} in the developer documentation.
 
 ## Step 1: Configure Search Options
 
@@ -21,8 +21,8 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 
    * Elasticsearch 6.0+ (Recommended) &mdash;For the best performance, we recommend that you use the latest version of Elasticsearch 6.0+.
 
-   {: .bs-callout .bs-callout-info}
-   To learn more about using Elasticsearch versions 2.x and 5.x, see [Change the Elasticsearch Client][2]{: target="_blank"}.
+   {:.bs-callout-info}
+   To learn more about using Elasticsearch versions 2.x and 5.x, see [Change the Elasticsearch Client][2]{:target="_blank"}.
 
    ![]({% link images/images/config-catalog-catalog-search-elasticsearch-1.png %}){: .zoom}
    *[Elasticsearch Settings]({% link configuration/catalog/catalog.md %})*
@@ -31,7 +31,7 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 
 1. To limit the length and word count of search query text, set the **Minimal Query Length** and **Maximum Query Length**.
 
-   {: .bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    **Important:** The value set for this minimum and maximum range must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set these values to 2 and 300 in Magento, update the values in your search engine.
 
 1. To limit the amount of popular search results to cache for faster responses, set an amount for **Number of top search results to cache**.
@@ -59,7 +59,7 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 
 ## Step 3: Configure Suggestions and Recommendations
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Search suggestions and recommendations can impact server performance.
 
 1. Set **Enable Search Suggestions** to “Yes”. Then, do the following:

@@ -80,7 +80,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
 |Field|Description|
 |--|--|
-|**General**| | 
+|**General**| |
 |Name|(Required) A unique name that identifies the  inventory source for Admin users.|
 |Code|(Required) A unique, alphanumeric code that is used by the system to identify the inventory source. Enter the code in upper or lowercase characters and/or numbers, without spaces. If necessary, a hyphen or underscore can be used instead of a space. The code cannot be edited after creating the source. It is a unique ID used when you assign sources to stocks and export and/or import product data.|
 |Is Enabled|Determines if the inventory source is available to be used. Options: Yes / No|

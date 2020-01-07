@@ -13,7 +13,7 @@ sections:
   - title: Promotions
     content: Learn to set up catalog and cart price rules that trigger discounts based on a variety of conditions.
     url: /marketing/promotions.html
-   
+
   - title: Communications
     content: Personalize email notifications and sales documents to support your brand. Create newsletters, and manage subscriptions.
     url: /marketing/communications.html
@@ -21,7 +21,7 @@ sections:
   - title: SEO &amp; Search
     content: Learn about the search tools that are available to your customers. Fine-tune the configuration of your store to increase sales, and learn best practices and techniques to support your SEO initiative.
     url: /marketing/seo-search.html
-  
+
   - title: Google Tools
     content: Learn how to optimize your content, analyze your traffic, and connect your catalog to shopping aggregators and marketplaces.
     url: /marketing/google-tools.html

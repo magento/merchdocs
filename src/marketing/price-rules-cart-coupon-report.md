@@ -49,7 +49,7 @@ _Coupons Report_
       - To include all coupon activity from all price rules, set **Cart Price Rule** to `Any`.
       - To include only activity related to a specific price rule, set **Cart Price Rule** to `Specified` and select the cart price rule in the list.
 
-1. When ready to run the report, click <span class="btn">Show Report</span>. 
+1. When ready to run the report, click <span class="btn">Show Report</span>.
 
    The report appears at the bottom of the page.
 

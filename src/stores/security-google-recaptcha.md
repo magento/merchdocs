@@ -19,8 +19,8 @@ If you have the standard [Magento CAPTCHA]({% link stores/security-captcha.md %}
 ![Google reCAPTCHA - styles]({% link images/images/recaptcha-styles.png %}){: .zoom}
 _Google reCAPTCHA Styles_
 
-{:.bs-callout .bs-callout-warning}
-Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini` file includes the following setting: `allow_url_fopen = 1`. This may require developer assistance. See [Required PHP Settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html){: target="_blank"}.
+{:.bs-callout-warning}
+Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini` file includes the following setting: `allow_url_fopen = 1`. This may require developer assistance. See [Required PHP Settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html){:target="_blank"}.
 
 ## Step 1: Generate Google reCAPTCHA keys
 
@@ -109,7 +109,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
     - **Size** — Choose `Normal` or `Compact`.
 
     - Select where the CAPTCHA is used.
-  
+
       By default, reCAPTCHA is enabled for these pages.
 
       - **Use in Login**

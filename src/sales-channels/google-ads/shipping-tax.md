@@ -11,7 +11,7 @@ These settings affect the displayed costs in your Google ads. As customers revie
 
   ![]({% link images/images/sales-channels/google/google-example-shiptax.png %}){: .zoom}
 
-{:.bs-callout .bs-callout-tip}
+{:.bs-callout-tip}
 We recommend overestimating amounts if you cannot provide an exact match for costs. Google performs routine checks for merchant listed taxes and shipping costs, verifying the amounts best match actual calculations from your storefront. If the Google defined amounts are lower than your actual costs, Google may disapprove of the products and/or account.
 
 ## To set your shipping and tax rates:
@@ -21,7 +21,7 @@ We recommend overestimating amounts if you cannot provide an exact match for cos
    * To assign a flat shipping rate for all your products, select *Use a flat rate for all orders* and enter an amount per country listed. To set free shipping, select this option and enter 0 for the flat rate.
    * To configure your shipping costs in Google Merchant Center, select *I will set this up on Google Merchant Center*.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     If you select this option and your country's required shipping costs, you may receive an account error until you configure this setting in Google Merchant Center.
 
 1. 	Select and set configurations to **Set your tax cost**:

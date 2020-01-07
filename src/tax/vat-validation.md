@@ -4,7 +4,7 @@ title: VAT ID Validation
 
 _VAT ID Validation_ automatically calculates the required tax for B2B transactions that take place within the European Union (EU), based on the merchant and customer locale. Magento performs VAT ID validation using the web services of the [European Commission][1] server.
 
-{: .bs-callout-info}
+{:.bs-callout-info}
 VAT-related tax rules do not influence other tax rules, and do not prevent the application of other tax rules. Only one tax rule can be applied at a given time.
 
 - VAT is charged if the merchant and customer are located in the same EU country.
@@ -12,8 +12,8 @@ VAT-related tax rules do not influence other tax rules, and do not prevent the a
 
 The store administrator creates more than one default customer group that can be automatically assigned to the customer during account creation, address creation or update, and checkout. The result is that different tax rules are used for intra-country (domestic) and intra-EU sales.
 
-{: .bs-callout-info}
-**Important:** 
+{:.bs-callout-info}
+**Important:**
 If you sell virtual or downloadable products, which by their nature do not require shipping, the VAT rate of a customer’s location country should be used for both intra-union and domestic sales. You must create additional individual tax rules for product tax classes that correspond to the virtual products.
 
 ## Customer Registration Workflow

@@ -13,7 +13,7 @@ To view your stores' sort order, on the Admin screen, click **Stores** and then 
 
 If the product price is set to Use Default, it will fall back to the default price value instead of the website price value.
 
-### Example 1: 
+### Example 1:
 
 ||[Website Priority]({% link configuration/scope.md %})|Price [Website]|Use Default|
 |---|---|---|---|
@@ -25,7 +25,7 @@ If the product price is set to Use Default, it will fall back to the default pri
 - Look at the website with the highest website priority, which is Store 1.
 - Since Store 1 is set to use the website price (Use Default = No), the published price will be $24.99.
 
-### Example 2: 
+### Example 2:
 
 ||[Website Priority]({% link configuration/scope.md %})|Price [Website]|Use Default|
 |---|---|---|---|
@@ -38,7 +38,7 @@ If the product price is set to Use Default, it will fall back to the default pri
 - Since Store 1 **is not** set to use the website price (Use Default = Yes) look at the next website in the sort order.
 - Since Store 2 **is** set to use the website price (Use Default = No), the published price will be $27.99.
 
-### Example 3: 
+### Example 3:
 
 ||[Website Priority]({% link configuration/scope.md %})|Price [Website]|Use Default|
 |---|---|---|---|

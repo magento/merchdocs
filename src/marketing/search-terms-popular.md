@@ -26,5 +26,5 @@ _Popular Search Terms_
 ![Catalog configuration - search engine optimization]({% link images/images/config-catalog-catalog-search-engine-optimization.png %}){: .zoom}
 [_Search Engine Optimization_]({% link configuration/catalog/catalog.md %})
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 You can further configure the caching of popular searches and additional options for your configured search engine [MySQL]({% link catalog/search-mysql.md %}) or [Elasticsearch]({% link catalog/search-elasticsearch.md %}).

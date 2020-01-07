@@ -2,14 +2,14 @@
 title: Using a Flat Catalog
 ---
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 Starting with Magento 2.3.0+, the use of a flat catalog is no longer a best practice and is not recommended. Continued use of this feature is known to cause performance degradation and other indexing issues. A detailed description and solution is available in the [Help Center](https://support.magento.com/hc/en-us/articles/360034631192){:target="_blank"}.
 
 Magento typically stores catalog data in multiple tables, based on the Entity-Attribute-Value (EAV) model. Because product attributes are stored in many tables, SQL queries are sometimes long and complex.
 
 In contrast, a flat catalog creates new tables on the fly, where each row contains all the necessary data about a product or category. A flat catalog is updated automatically—either every minute, or according to your cron job. Flat catalog indexing can also speed up the processing of catalog and cart price rules. A catalog with as many as 500,000 SKUs can be indexed quickly as a flat catalog.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Before you enable a flat catalog for a live store, make sure to test the configuration in a development environment.
 
 ## Step 1: Enable the Flat Catalog
@@ -29,19 +29,19 @@ Before you enable a flat catalog for a live store, make sure to test the configu
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-1. When prompted to update the cache, click the **Cache Management** link in the system message and follow the instructions to refresh the cache.
+1. When prompted to update the cache, click **Cache Management** in the system message and follow the instructions to refresh the cache.
 
 ## Step 2: Verify the Results
 
 **Method 1: Verify the Results for a Single Product**
 
-   1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+   1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
    1. Open a product in edit mode.
 
    1. In the **Name** field, add the text `_TEST` to the end of the product name.
 
-   1. Click <span class="btn"> Save </span>.
+   1. Click <span class="btn">Save</span>.
 
    1. On a new browser tab, navigate to the home page of your store. Then, do the following:
 
@@ -49,7 +49,7 @@ Before you enable a flat catalog for a live store, make sure to test the configu
 
        - Use the navigation to browse to the product under its assigned category.
 
-        If necessary, refresh the page to see the results. The change will appear within the minute, or according to your [Cron]({% link system/cron.md %}) schedule.
+        If necessary, refresh the page to see the results. The change will appear within the minute or according to your [Cron]({% link system/cron.md %}) schedule.
 
         ![]({% link images/images/storefront-flat-catalog-enabled.png %}){: .zoom}
         _Storefront with Flat Catalog_

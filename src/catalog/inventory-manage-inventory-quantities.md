@@ -8,11 +8,11 @@ sections:
    - title: Assigning Quantities per Product
      content: Add on-hand inventory amounts to your products per source. This information is specific for Multi Source merchants.
      url: /catalog/inventory-product-quantity.html
-      
+
    - title: Bulk Assigning Sources
      content: Assign sources to selected products as a mass action.
      url: /catalog/inventory-bulk-assign-sources.html
-    
+
    - title: Bulk Unassigning Sources
      content: Unassign sources from selected products as a mass action. We recommend using the Transfer Inventory to Source option if you need to transfer inventory and remove the source.
      url: /catalog/inventory-bulk-unassign-sources.html

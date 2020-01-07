@@ -30,7 +30,7 @@ _Blocks Workspace_
    - Assign a unique **Identifier** for the block. Use all lowercase characters with underscores instead of spaces.
 
    - Select each **Store View** where the block is to be available.
-  
+
 <!--{% if "Default.CE Only" contains site.edition %}-->
    - Use the [editor]({% link cms/editor.md %}) to format text, create links and tables, images, video, and audio.
 

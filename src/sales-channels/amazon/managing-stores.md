@@ -17,7 +17,7 @@ The Amazon Stores tab provides a list of your Amazon stores along with some basi
 
 - **Delete Store**: Choose when you wish to delete an existing Amazon store and its integration settings with your Amazon Seller Central account. Deleting the account will remove the store from Amazon Sales Channel, along with all account settings, listings, logs and other information related to this store. The account cannot be retrieved after deletion.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 To change the website assigned to the store during integration, you must delete the store and add the store again with the different website through the onboarding process.
 
 You will notice some [workspace controls]({% link sales-channels/amazon/workspace-controls.md %}) that are common throughout the Amazon Sales Channel.

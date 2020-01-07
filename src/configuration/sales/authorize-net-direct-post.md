@@ -4,7 +4,7 @@ title: Authorize.Net Direct Post (Deprecated)
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > Authorize.Net Direct Post (Deprecated)
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 Authorize.Net has deprecated the Authorize.Net Direct Post payment method. You must configure the Authorize.Net payment method as the replacement method. Refer to [Authorize.Net]({% link configuration/sales/authorize-net.md %}) for more information.
 
 ![]({% link images/images/config-sales-payment-methods-authorize-net-direct-post.png %}){: .zoom}

@@ -4,7 +4,7 @@ title: Customer Segments with Banners
 group: customers
 ---
 
-{: .bs-callout .bs-callout-info }
+{:.bs-callout-info}
 DEPRECATED: [Page Builder]({% link cms/page-builder.md %})’s advanced content tools replace the previous banner functionality as described in this topic. We keep this content in the user guide as a convenience for those whose stores have customizations that prevent them from using Page Builder.
 
 A [banner]({% link cms/banners.md %}) can target a specific [customer segment]({%- link marketing/customer-segments.md -%}), and be incorporated into a [cart price rule]({%- link marketing/price-rules-cart.md -%}). Because customer segments are dynamic, the price rule can adjust to changes in customer activity.

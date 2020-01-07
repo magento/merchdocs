@@ -4,7 +4,7 @@ title: Authorize.Net Direct Post (Deprecated)
 
 Authorize.Net handles all steps in the transaction process — such as payment data collection, data submission, and response to the customer — while the customer remains in your store. Authorize.Net Direct Post (Deprecated) can be used with orders created from the Admin as well as from the store.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 **Deprecation Notice:** Authorize.Net has deprecated the Authorize.Net Direct Post (Deprecated) payment method. If you use this method, you must update the [MD5 Hash key with a new Signature key ][1]. The Authorize.Net payment method must be set up as the replacement payment method. Refer to [Authorize.Net]({% link payment/authorize-net.md %}) for more information.
 
 ## Customer Workflow

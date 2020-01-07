@@ -1,6 +1,6 @@
 ---
 title: Creating an Individual Customer Account
-redirect_from: 
+redirect_from:
   - /customers/customer-account-admin-create.html
   - /customers/customer-account-create.html
 ---
@@ -140,7 +140,7 @@ _Customer Information_
     ![]({% link images/images/customer-account-information-address-list.png %}){: .zoom}
     _Addresses view_
 
-    The new customer account now appears in the Customers grid. 
+    The new customer account now appears in the Customers grid.
 
     ![]({% link images/images/customers-grid-new-account.png %}){: .zoom}
     _Customers grid_
@@ -159,7 +159,7 @@ Customer accounts created from the Admin do not initially have passwords assigne
 
 ## Button Bar
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Additional buttons become available when the profile is saved for the first time. To learn more, see [Updating a Customer Profile]({% link customers/customer-account-update.md %}).
 
 {: .buttons-table }

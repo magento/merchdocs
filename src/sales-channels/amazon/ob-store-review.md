@@ -22,7 +22,7 @@ Store Review is the final step of the onboarding process. At this stage of onboa
 1. When you are satisfied with your listings, click <span class="btn">Complete Setup</span>.
 <br/>You can edit these settings at any time after completing onboarding setup. Access the store integration through the [Amazon Sales Channel Home]({% link sales-channels/amazon/amazon-sales-channel-home.md %}).
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Your Amazon Sales Channel store setup completes, your listing information is published to your Amazon Seller Central account, and the status of the new store changes "Active" on the Amazon Sales Channel Home screen.
 
 In this final step, you need to review each of your listings and modify as needed to ensure your listings are published as you want. Each tab displays based on their status according to your current settings. If you want to update a listing, match it to your Magento catalog, to change its publish status, you can use the available actions on each screen as described below.
