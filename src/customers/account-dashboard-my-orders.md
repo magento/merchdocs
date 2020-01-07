@@ -32,6 +32,7 @@ Fill in one or more fields to filter by:
 | Order Date | Set one or both date fields to filter by order date. |
 | Created by | Filter company orders by the order creator. |
 | Order Total | Set min, max, or both values to filter by order total. |
+
 <!--{% endif %}-->
 ## View an order
 
