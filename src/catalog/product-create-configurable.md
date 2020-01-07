@@ -1,6 +1,6 @@
 ---
 title: Configurable Product
-redirect_from: 
+redirect_from:
   - /catalog/product-create-configurable-add-configurations.html
 ---
 
@@ -263,7 +263,7 @@ When configuration for images, price, and quantity are complete, click <span cla
     ![]({% link images/images/product-create-configurable-summary.png %}){: .zoom}
     _Summary_
 
-The current product variations appear at the bottom of the Configuration section. 
+The current product variations appear at the bottom of the Configuration section.
 
 ![]({% link images/images/product-create-configurable-summary.png %}){: .zoom}
 _Current Configurations_

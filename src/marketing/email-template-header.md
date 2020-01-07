@@ -35,7 +35,7 @@ _Email Templates_
 
 1. In the **Template Content** box, modify the HTML as needed.
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     When working in the template code, be careful not to overwrite anything that is enclosed in double braces.
 
 1. To insert a [variable]({% link marketing/variables.md %}), position the cursor in the code where you want to place the variable and click <span class="btn">Insert Variable</span>.

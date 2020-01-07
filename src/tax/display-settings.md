@@ -6,7 +6,7 @@ The price display settings determine if product and shipping prices include or e
 
 If the product price includes tax, the tax appears only if there is a tax rule that matches the tax origin or if a customer address matches the tax rule. Events that can trigger a match include when a customer creates an account, logs in, or generates a tax and shipping estimate from the shopping cart.
 
-{: .bs-callout-info}
+{:.bs-callout-info}
 **Important!**
 Showing prices that include and exclude tax can be confusing to the customer. To avoid triggering a warning message, see the [guidelines]({% link tax/international-tax-guidelines.md %}) for your country and [recommended settings]({% link tax/warning-messages.md %}) to avoid warning messages.
 

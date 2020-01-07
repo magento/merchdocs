@@ -17,7 +17,7 @@ _Image Placeholder_
 
 1. For each image role, click <span class="btn">Choose File</span>. Find the image on your computer and upload the file. You can use the same image for all three roles, or you can upload a different placeholder image for each role.
 
-    ![]({% link images/images/config-catalog-catalog-product-image-placeholders.png %}){: .zoom}  
+    ![]({% link images/images/config-catalog-catalog-product-image-placeholders.png %}){: .zoom}
     _[Product Image Placeholders]({% link configuration/catalog/catalog.md %})_
 
 1. When complete, click <span class="btn">Save</span>.

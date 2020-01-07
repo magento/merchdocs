@@ -14,7 +14,7 @@ To save time when creating products, the default value of several product fields
 
 The placeholders that represent the value of another field are enclosed in double-curly braces. Any attribute code that is included in the product [attribute set]({% link stores/attribute-sets.md %}) can be used as a placeholder.
 
-![]({% link images/images/config-catalog-catalog-product-fields-auto-generation.png %}){: .zoom}  
+![]({% link images/images/config-catalog-catalog-product-fields-auto-generation.png %}){: .zoom}
 *[Product Fields Auto-Generation]({% link configuration/catalog/catalog.md %})*
 
 ## To edit the placeholder value:
@@ -27,7 +27,7 @@ The placeholders that represent the value of another field are enclosed in doubl
 
    For example, if there’s a specific keyword that you want to include for every product, or a phrase that you want to include in every meta description, you can type the value directly into the appropriate field.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    If you want to keep the existing placeholder values, be careful to preserve the double curly braces that enclose each markup tag.
 
 1. When complete, tap <span class="btn"> Save Config </span>.

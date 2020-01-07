@@ -20,7 +20,7 @@ _My Wish List_
 1. From your wish list, point to the product to display the options.
 
 1. To add a **Comment** about the product, enter the text in the box below the price.
-   
+
     <!--{% if "Default.CE Only" contains site.edition %}-->
     ![]({% link images/images/account-dashboard-wishlist-edit-options.png %}){: .zoom}
     <!--{% endif %}-->
@@ -75,11 +75,11 @@ _My Wish List_
 ## To create a new wish list:
 
 1. In the upper-right corner, click **Create New Wish List**.
-   
-1. Enter the Wish List Name. 
-    
+
+1. Enter the Wish List Name.
+
 1. If you want others to be able to see your wish list, select the **Public Wish List** checkbox,
-   
+
 1. When complete, click <span class="btn">Save</span>.
 
     <!--{% if "Default.EE Only" contains site.edition %}-->

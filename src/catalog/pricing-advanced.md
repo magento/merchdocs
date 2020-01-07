@@ -1,6 +1,6 @@
 ---
 title: Advanced Pricing
-redirect_from: 
+redirect_from:
   - /catalog/settings-advanced-advanced-pricing.html
 ---
 

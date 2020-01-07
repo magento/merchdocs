@@ -34,7 +34,7 @@ The Gift Card configuration establishes the default settings for all gift cards 
 
 1. In the **Lifetime (days)** field, enter the number of days before the card expires. Leave the field blank if there is no expiration date.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     Depending on your location, it may be illegal for gift cards to expire. Check your local laws before setting a lifetime for your gift cards.
 
 1. If you want the customer to have the option to enter a message to accompany the gift card, set **Allow Gift Message** to “Yes.” Then in the **Gift Message Maximum Length** field, enter the number of characters available for the message.

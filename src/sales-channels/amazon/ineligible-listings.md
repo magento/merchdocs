@@ -7,7 +7,7 @@ The Ineligible Listings tab displays a list of all the products that are current
 
 To move a product out of the Ineligible Listings tab, you may need to [modify your listing rules]({% link sales-channels/amazon/listing-rules.md %}) to allow your products to be eligible.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If you have listings in process, the number of listings will display in a message above the tabs.
 
 ![]({% link images/images/sales-channels/amazon/amazon-ineligible-listings.png %}){: .zoom}

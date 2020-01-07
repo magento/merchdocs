@@ -5,7 +5,7 @@ title: Worldpay
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > Worldpay
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
 As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, contact your Worldpay service provider and ask for their recommendation.
 

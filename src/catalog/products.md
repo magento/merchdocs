@@ -1,6 +1,6 @@
 ---
 title: Products Grid
-redirect_from: 
+redirect_from:
   - /products.html
 ---
 

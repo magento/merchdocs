@@ -19,7 +19,7 @@ The Default Pages configuration determines the landing page that is associated w
 
         The default value is `cms`.
 
-        {: .bs-callout .bs-callout-info markdown="1"}
+        {:.bs-callout-info}
         For a specific store view, clear the **Use Default** checkbox next to the Default Web URL field, and any other default fields to be changed.
 
    - Set **CMS  Home Page** to the CMS page to be used as the home page.

@@ -2,7 +2,7 @@
 title: Point of Purchase
 sections:
  - title: Instant Purchase
-   content: Instant Purchase allows customers to speed through the checkout process using information that is saved in their account. 
+   content: Instant Purchase allows customers to speed through the checkout process using information that is saved in their account.
    url: /sales/checkout-instant-purchase.html
 
  - title: Shopping Cart
@@ -15,7 +15,7 @@ sections:
 
  - title: Checkout
    content: The Checkout page leads the customer through each step of the process for completing the order transaction. Customers who are logged into their accounts can complete checkout quickly, because much of the information is already in their accounts.
-   url: /sales/checkout-process.html  
+   url: /sales/checkout-process.html
 ---
 
 Magento reduces ordering errors by automatically verifying the SKU and availability of all items before an order is submitted. In this section of the guide, you’ll learn how to configure the cart and checkout options, and offer assistance to your customers. {% if "Default.B2B Only" contains site.edition %}Magento Commerce for B2B users can also configure [Quick Order]({% link sales/quick-order.md %}) to reduces the order process to several clicks for logged in customers when they know the product name or SKU of the products they want to order.{% endif %}

@@ -39,7 +39,7 @@ To run test transactions from the Amazon Pay Sandbox, you must copy the keys fro
 
    * Your keys are formatted as a JSON string, with each item enclosed in double quotes. **Copy** your keys, and paste them into Notepad. Then, **Close** the box. You will need them to complete the Amazon Pay configuration for Sandbox Mode in the Magento Admin.
 
-     {:.bs-callout .bs-callout-info}
+     {:.bs-callout-info}
      Your keys are confidential, and should not be shared.
 
      ![Your Credentials]({% link images/images/payments-amazon-pay-your-keys.png %}){: .zoom}

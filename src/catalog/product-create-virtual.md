@@ -9,7 +9,7 @@ Virtual products — or digital goods — represent non-tangible items such as m
 
 Aside from the absence of the Weight field, the process of creating a virtual product and a simple product is the same. The following instructions take you through the process of creating a virtual product using a [product template]({% link stores/attribute-sets.md %}) , required fields, and basic settings. When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}) as needed.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 PayPal has deprecated support for the sale of digital goods through PayPal Express Checkout, and recommends that you use either [PayPal Payments Standard]({% link payment/paypal-payments-standard.md %}) or any other PayPal payment gateway to process any order that includes virtual products.
 
 ![]({% link images/images/product-virtual-membership.png %}){: .zoom}

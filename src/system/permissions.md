@@ -13,5 +13,5 @@ If an Admin user’s access is restricted to specific websites or stores, the we
 By default, the system automatically logs (records) all actions performed by a user when making a change to a store. Admin actions can be reviewed in the [Action Logs Report]({% link system/action-log-report.md %}). Configure logging in [Admin Actions Logging]({% link system/action-log.md %}) in your store's advanced admin settings.
 
 <!--{% endif %}-->
-![]({% link images/images/system-users-all.png %})
+![Magento Admin - all user accounts]({% link images/images/system-users-all.png %})
 _All Users_

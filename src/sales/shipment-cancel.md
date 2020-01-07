@@ -4,7 +4,7 @@ title: Canceling a Shipment
 
 Before a shipment is dispatched to a carrier, it can be canceled by opening the order and navigating to the shipment, provided the carrier supports cancellations. Some carriers restrict or limit cancellations after a booking. For example, UPS allows cancellations, but requires that you wait 24 hours after the shipment is booked. If a shipment is canceled, the cancellation cannot be reversed. The only recourse is to recreate the order.
 
-## To cancel a shipment: 
+## To cancel a shipment:
 
 1. On the _Admin_ menu, choose **Sales**.
 

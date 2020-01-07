@@ -4,7 +4,7 @@ title: Yotpo Product Reviews
 
 [Yotpo](https://www.yotpo.com/) is a user-generated content marketing platform enabling merchants to gather, curate, manage, and respond to all kinds of user content from just a single platform. Yotpo integrates with Magento to help you to maximize the power of user-generated content.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Yotpo installs automatically with Magento version 2.3.3+. Yotpo is available for previous Magento versions but requires installation from the [Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=yotpo).
 
 Yotpo integrates seamlessly with your Magento store, so you can accelerate growth by leveraging your customer feedback. With Yotpo, Magento merchants can easily collect and intelligently display customer content like reviews, photos, and videos at key touchpoints throughout the buyer journey to improve trust, social proof, and sales. Magento merchants can also access feedback data and insight into consumer behavior.

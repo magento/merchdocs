@@ -5,7 +5,7 @@ group: getting-started
 
 Your Magento account contains information that can be useful to trusted employees and service providers who help to manage your site. As the primary account holder, you have authority to grant limited access to your account to other Magento account holders. When your account is shared, all sensitive information—such as your billing history or credit card information—remains protected. It is not shared at any time with other users.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 All actions taken by users with shared access to your account are your sole responsibility. Magento Inc. is not responsible for any actions taken by users to whom you grant shared account access.
 
 ![]({% link images/images/magento-account-shared.png %}){: .zoom}

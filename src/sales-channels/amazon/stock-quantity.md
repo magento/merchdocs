@@ -7,7 +7,7 @@ Stock/Quantity settings are part of your store's listing settings. You can acces
 
 {% include amazon-stock-quantity.md %}
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 For Magento 2.3.x users, Amazon Sales Channel supports the use of the Multi Source Inventory (MSI) extension without any additional setup. See [Managing Inventory]({% link catalog/inventory-management.md %}).
 
 {% include amazon-stock-quantity-configure.md %}

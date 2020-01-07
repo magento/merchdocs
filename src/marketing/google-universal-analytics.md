@@ -5,7 +5,7 @@ title: Google Analytics
 Google Universal Analytics gives you the ability to define additional custom dimensions and metrics for tracking, with support for offline and mobile app interactions, and access to ongoing updates.
 
 {: .bs-callout .bs-callout-info}
-If your business operates in areas that are governed by the [General Data Protection Regulation]({% link stores/compliance-gdpr.md %}), see [Google Settings for GDPR]({% link stores/compliance-gdpr-google.md %}).
+If your business is subject to privacy regulations such as the [General Data Protection Regulation]({% link stores/compliance-gdpr.md %}) and/or the [California Consumer Privacy Act]({% link stores/compliance-ccpa.md %}), see [Google Privacy Settings]({% link stores/compliance-privacy-google.md %}).
 
 ![Sales configuration - Google API]({% link images/images/config-sales-google-api-google-analytics.png %}){: .zoom}
 [_Google Analytics_]({% link configuration/sales/google-api.md %})

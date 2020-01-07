@@ -48,5 +48,5 @@ Personas can be created directly from the Experience Preview pane.
 ![]({% link images/images/magento-shipping-preview-experiences-results.png %}){: .zoom}
 _Example Preview_
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Multiple Personas can be created and are stored against the Magento Shipping account. You can quickly change previews by selecting a different saved persona in the _Simulate a customer's cart_ drop-down.

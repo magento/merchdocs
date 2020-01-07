@@ -1,6 +1,6 @@
 ---
 title: Basic Shipping Methods
-redirect_from: 
+redirect_from:
   - /shipping/shipping-methods.html
 ---
 

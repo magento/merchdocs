@@ -4,17 +4,17 @@ title: Onboarding Google Shopping ads Channel
 
 
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Beginning with Magento version 2.3.3, Google Shopping ads Channel is included with Magento and does not require separate install. Onboarding and management processes remain the same. Merchants using previous Magento versions (2.2.4+, 2.3.0, 2.3.1, and 2.3.2) can install or update a previous version of the extension via the [Magento Marketplace](https://marketplace.magento.com/magento-google-shopping-ads.html).
 
 This guide walks you through the entire onboarding process of setting up your accounts including Magento web account, Google Merchant Center (GMC) account, and Google Ads account. With your accounts created, your account and products start the Google approval process. You do not need to create your accounts prior to onboarding.
 
 ![]({% link images/images/sales-channels/google/google-onboard-process.png %})
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Turn off pop-up blockers in your web browser. Some browsers may include pop-up blockers by default (like Chrome). You cannot complete onboarding with pop-up blockers enabled.<br/><br/>Your progress through the onboarding process will not be saved until you click **Complete Setup**. We recommend completing all of these instructions to fully save your configurations.
 
-{:.bs-callout .bs-callout-tip}
+{:.bs-callout-tip}
 **Invalid API key error?** You should have a valid API key to start onboarding. If you receive an invalid key error, [follow these instructions]({% link sales-channels/google-ads/verify-api-key.md %}) to update your API key. You only need to add this key once.<br/><br/>**Already claimed your URL to a Google Merchant Center account?** If your storefront URL is already verified and claimed to a GMC account, you must [unclaim the URL]({% link sales-channels/google-ads/gmc-unlink-gmc.md %}) for the automated verify and claim process to succeed.
 
 |Steps|What Happens|

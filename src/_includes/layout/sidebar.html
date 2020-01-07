@@ -4,7 +4,7 @@
     <div class="sidebar-wrapper">
       {% assign edition = site.edition | downcase %}
       {% assign toc = site.data[edition].toc[page.group] %}
-  
+
       <h4 class="guide-title">{{ toc.label }}</h4>
       <div class="collapsible-navigation">
           <ul>
@@ -13,9 +13,8 @@
           {% endfor %}
           </ul>
       </div>
-  
+
     </div>
-  
+
   </aside>
   <!-- /sidebar -->
-  

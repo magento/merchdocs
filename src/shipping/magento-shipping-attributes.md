@@ -2,7 +2,7 @@
 title: Attribute Mapping
 ---
 
-Magento Shipping product attributes are available for mapping in Magento Admin. When associated to a Magneto product attribute, the attribute value is available to pre-fill values in the fulfillment processes.
+Magento Shipping product attributes are available for mapping in Magento Admin. When associated to a Magento product attribute, the attribute value is available to pre-fill values in the fulfillment processes.
 
 Attribute mapping allows you to map Magento Shipping attributes to Magento [product attributes]({% link catalog/product-attributes.md %}) defined in your Magento catalog. Mapping data is used to auto-assign shipping information/values when fulfilling orders, resulting in a more efficient and less frustrating experience for customers.
 
@@ -11,7 +11,7 @@ You can also define custom Magento Shipping attributes, allowing for greater fle
 ![]({% link images/images/magento-shipping-attributes.png %}){: .zoom}
 _Product Attribute Mapping_
 
-{: .bs-callout-info}
+{:.bs-callout-info}
 Mapping for **Resource**, **Object**, or **Array** attribute types is not supported.
 
 ## To Map Magento Shipping Attributes

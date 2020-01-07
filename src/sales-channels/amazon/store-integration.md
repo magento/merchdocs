@@ -9,7 +9,7 @@ title: Store Integration
 
 To begin, create an Amazon Sales Channel store and connect it to your Amazon Seller Account. This integrates your Magento and Amazon accounts to share data, sync products, and more. You need your Amazon Seller Central account credentials to complete this step. You cannot continue with onboarding until you connect your stores.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 After integrating your Amazon account, you will be prompted annually to renew your Amazon Sales Channel connection to Amazon by granting access again.
 
 ## To integrate with Amazon:
@@ -18,14 +18,14 @@ After integrating your Amazon account, you will be prompted annually to renew yo
 
 1. Click <span class="btn">Setup Amazon Store</span>.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    A list of [Pre-Setup Tasks]({% link sales-channels/amazon/amazon-pre-setup-tasks.md %}) is displayed with an overview of prerequisites. When ready, click **Begin Setup**.
 
 1. For **Email Address**, enter your preferred contact email address.
 
 1. For **New Store Name**, enter a descriptive name for your new Amazon Sales Channel store.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    This name is used as a Magento reference only and will identify the store in the list on the Amazon Sales Channel Home page. You will want to make it something your team can easily identify. For example, your Amazon store that sells in the United States region might be named "Amazon Store USA".
 
 1. For **Amazon Marketplace**, select the region in which for your Amazon store sells. Options:

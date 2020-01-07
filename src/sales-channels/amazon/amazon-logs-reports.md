@@ -14,5 +14,5 @@ The following logs apply to Amazon Sales Channel and are not store specific. The
 
 {% include amazon-store-reports.md %}
 
-{:.bs-callout .bs-callout-tip}
+{:.bs-callout-tip}
 You can also check the log file for additional information when troubleshooting is needed. See [Amazon Sales Channel Settings]({% link sales-channels/amazon/sales-channel-settings.md %}). Amazon Sales Channel synchronization logging is written to the `{Magento Root}/var/log/channel_amazon.log` file and can be viewed in [developer mode]({% link magento/installation-modes.md %}).

@@ -11,7 +11,7 @@ This option allows you to select one or more products, the origin source to tran
 * If a product does not have that source, it is skipped.
 * All product inventory for the source is moved. You cannot transfer a partial quantity.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If the origin and destination sources are in different stocks, this will affect the aggregated Salable Quantity and reservations for in-progress orders.
 
 You have an option to also unassign the source when transferring inventory quantities.
