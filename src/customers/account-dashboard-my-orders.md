@@ -18,7 +18,8 @@ _My Orders_
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 ## Search for an order
 
-Use the Order Search fields to filter your order history or to find orders from subordinate users.
+Use the Order Search fields to filter your order history.
+Search results contain matching orders from subordinate users from all websites within the Magento instance.
 
 Fill in one or more fields to filter by:
 
