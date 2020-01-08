@@ -27,7 +27,8 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Enable this Solution|Store View|Enables Klarna for the current store view. Options: Yes / No|
 |Payment from applicable countries|Store View|Determines the countries where Klarna is available for this store view. Options: All Allowed Countries / Specific Countries|
 |Enable B2B|Store View|Allows B2B payments, if previously set up in your Klarna account. Options: Yes / No|
-|Data sharing|Store View|(U.S. only) Determines if customer data is shared with Klarna before the customer places an order. Sharing data allows Klarna to personalize credit offerings for the customer. Options: Yes / No|
+|Data sharing|Store View|Determines if customer data is shared with Klarna before the customer places an order. Sharing data allows Klarna to personalize credit offerings for the customer. Options: Yes / No|
+|Data sharing on load|Store View|Allows you to determine when customer data is shared with Klarna. Options:<br />**No**: Customer billing and shipping address information is not shared with Klarna until the transaction is authorized. If a shipping address error is encountered during authorization, the customer is instructed to return to the previous step and correct the problem.<br />**Yes**: Customer billing and shipping address information is shared with Klarna when the payment method is selected during the checkout process.|
 |Sort Order|Store View|A number that determines the sequence in which Klarna appears with other payment methods during checkout. If left blank, Klarna appears next in the list of active payment methods.|
 
 ## Klarna Payments Design
@@ -38,14 +39,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Details color|Store View|The [hexadecimal code](https://www.w3schools.com/colors/colors_picker.asp) for the background color of details that appear on the Klarna page during checkout. For example: #0072CC|
-|Button color|Store View|The hexadecimal code for the background color of buttons that appear on the Klarna page during checkout. For example: #0072CC|
-|Button text color|Store View|The hexadecimal code for the color of text that appears on Klarna buttons during checkout. For example: #0072CC|
-|Checkbox color|Store View|The hexadecimal code for the color of checkboxes that appear on the Klarna page during checkout. For example: #0072CC|
-|Checkmark color|Store View|The hexadecimal code for the color of the checkmark in checkboxes that appear on the Klarna page during checkout. For example: #0072CC|
-|Header color|Store View|The hexadecimal code for the background color of the header section of the Klarna page during checkout. For example: #0072CC|
-|Link color|Store View|The hexadecimal code for the color of link text on the Klarna page during checkout. For example: #0072CC|
 |Border color|Store View|The hexadecimal code for the color of borders on the Klarna page during checkout. For example: #0072CC|
 |Selected border color|Store View|The hexadecimal code for the color of borders around the active section on the Klarna page during checkout. For example: #0072CC|
 |Text color|Store View|The hexadecimal code for the color of the main text on the Klarna page during checkout. For example: #0072CC|
-|Secondary text color|Store View|The hexadecimal code for the color of secondary text on the Klarna page during checkout. For example: #0072CC|
 |Border Radius|Store View|The number of pixels that define the size of the curve at each corner of a box with borders. For example: 46px|
