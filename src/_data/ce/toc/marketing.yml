@@ -356,6 +356,8 @@ pages:
       url: "/marketing/create-new-rec.html"
     - label: Edit Existing Recommendation
       url: "/marketing/edit-existing-rec.html"
+    - label: Calculating Recommendation Performance
+      url: "/marketing/recommendation-metrics.html"
 - label: Communications
   url: "/marketing/communications.html"
   children:

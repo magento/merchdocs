@@ -2,43 +2,24 @@
 title: Edit Existing Recommendations
 ---
 
-The Recently Viewed and Recently Compared blocks usually appear in the right sidebar of a catalog page. The number of products listed in each block can be configured for each website, store, or store view.
+You can modify certain settings for an existing recommendation.
 
-## Configure Recently Viewed/Compared Products
+1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Product Recommendations**. The **Product Recommendations** dashboard appears.
 
-1. On the _Admin_ sidebar, go to **Marketing** > _Settings_ > **Product Recommendations**.
+1. In the table of recommendations, select the one you want to edit.
 
-1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
+1. Click the **Edit** button.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Recently Viewed/Compared Products** section and do the following:
+1. You can modify the following settings:
 
-    ![Catalog configuration - recently viewed/compared products]({% link images/images/config-catalog-catalog-recently-viewed-compared-products.png %}){: .zoom}
-    [_Recently Viewed/Compared Products_]({% link configuration/catalog/catalog.md %})
+    * Recommendation name
+    * Placement
+    * Position
+    * Number of products to display
+    * Display name
+    * Excluded categories
 
-   - Set **Show for Current** to the website, store, or store view where the configuration applies.
+    {:.bs-callout-info}
+    You cannot modify the page type or recommendation type for an existing recommendation. These settings inform the metrics Magento uses to track the performance of a recommendation. Altering these values would cause inconsistencies in the data the metrics report.
 
-   - In the **Default Recently Viewed Products Count** field, enter the number of recently viewed products to appear in the list.
-
-   - In the **Default Recently Compared Products Count**, enter the number of recently compared products to appear in the list.
-
-1. When complete, click <span class="btn">Save Config</span>.
-
-
-
-Name your Recommendation
-
-Select page type
-
-Select Recommendation type
-
-Select placement
-
-Choose position
-
-Choose number of products
-
-Storefront display label
-
-Exclude categories
-
-Save as Draft or Activate
+1. When you finish modifying the recommendation, click **Save Changes**. You also can select to **Activate** or **Deactivate** the recommendation.
