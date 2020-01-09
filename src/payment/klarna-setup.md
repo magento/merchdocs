@@ -28,21 +28,21 @@ _Klarna Merchant Portal_
 
 1. To generate your API Credentials for Klarna’s Playground environment, do one of the following:
 
-   - On the Home page of your account under Preferences, click  **Settings**.
-   - In the upper-left corner of the page, click the **Menu** icon. Then in the left sidebar under Preferences, click **Settings**.
+   - On the Home page of your account under **Preferences**, click  **Settings**.
+   - In the upper-left corner of the page, click the **Menu** icon. Then in the left sidebar under **Preferences**, click **Settings**.
 
    Then, do the following:
 
    - On the **API Credentials** tab, click <span class="btn">Generate new API credentials</span>. Then when prompted, click **Create credentials**.
-   - After your credentials are generated, click **Download as .txt**. Look in the area where your browser saves downloads, and open the file. Keep  the file open, and save it in a place where you can find it. 
+   - After your credentials are generated, click **Download as .txt**. Look in the area where your browser saves downloads and open the file. Keep the file open, and save it in a place where you can find it. 
    - Mark the checkbox to confirm that you have saved your credentials, and click **Close**.
 
      ![Generate API Credentials]({% link images/images/payments-klarna-dashboard-playground-settings.png %}){: .zoom}
      _Generate API Credentials_
 
-1.   Click the menu icon in the upper-left corner. Then under Preferences, click **Branding**.
+1.   Click the **Menu** icon in the upper-left corner. Then in the sidebar under **Preferences**, click **Branding**.
 
-     In the box at the top of the page, copy your **Merchant ID** and paste it into the text file that contains your API credentials. You will need this information to complete the Magento configuration.
+     In the box at the top of the page, copy your **Merchant ID** and paste it into the text file with your API credentials. You will need this information to complete the Magento configuration.
 
      ![Branding]({% link images/images/payments-klarna-portal-brand.png %}){: .zoom}
      _Branding_
