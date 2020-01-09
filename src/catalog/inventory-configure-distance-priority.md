@@ -99,7 +99,7 @@ Offline calculations use country codes to determine the distance between the shi
 
 ### Step 1: Download and Import Geocodes
 
-Complete command line configuration to download and import geocodes countries to ship to and have source locations in. This step may require developer assistance. See DevDocs [Import geocodes for Inventory Management][6].
+Complete command line configuration to download and import geocodes countries to ship to and have source locations in. This step may require developer assistance. See [Import geocodes][6] on DevDocs.
 
 Complete these commands anytime you need to add more geocodes.
 
