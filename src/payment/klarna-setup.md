@@ -47,7 +47,7 @@ _Klarna Merchant Portal_
      ![Branding]({% link images/images/payments-klarna-portal-brand.png %}){: .zoom}
      _Branding_
 
-1.   You can return to your Klarna account later to complete the remaining settings.
+     You can return to your Klarna account later to complete the remaining settings.
 
 ## Step 2: Configure Magento
 
