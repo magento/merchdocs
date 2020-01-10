@@ -12,7 +12,7 @@ When enabled, the _Tax configuration_ page includes the following Vertex section
 - **Vertex Shipping Product Codes** — Displays available shipping methods and costs
 - **Vertex Logging** — Located at the bottom of the page. Provides logging information and configuration
 
-## To begin the Magento Configuration:
+## Begin the Magento configuration
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -67,7 +67,7 @@ When enabled, the _Tax configuration_ page includes the following Vertex section
 
 1. When you are ready to continue, complete the following sections:
 
-## Vertex Delivery Terms
+## Vertex delivery terms
 
 Set the delivery terms (shipping terms) that determines the vendor or customer jurisdiction where the title transfer of a supply takes place. You can set a global term and overrides per country. These options provide support to EU VAT.
 
@@ -80,7 +80,7 @@ Set the delivery terms (shipping terms) that determines the vendor or customer j
     ![]({% link images/images/config-sales-tax-vertex-delivery-terms.png %}){: .zoom}
     [_Vertex Delivery Terms_]({% link configuration/sales/tax.md %})
 
-## Vertex Shipping Product Codes
+## Vertex Shipping product codes
 
 The Vertex Shipping Product Codes section lists all shipping methods and rates that are currently mapped to product SKUs in Vertex Cloud.
 
@@ -91,7 +91,7 @@ The Vertex Shipping Product Codes section lists all shipping methods and rates t
 
 If you need to identify taxability based on information in your Magento store beyond the standard customer and and product taxability drivers defined by Vertex, configure the flexible fields to be used in your Vertex Tax Assist Rules.
 
-### Step 1: Create Custom Flexible Field in Magento
+### Step 1: Create custom Flexible Field in Magento
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Vertex Flexible Fields** section.
 
@@ -115,7 +115,7 @@ If you need to identify taxability based on information in your Magento store be
 
 1. Click <span class="btn">Save Config</span>.
 
-### Step 2: Use the Flex Field in a Vertex Tax Assist Rule
+### Step 2: Use the Flex Field in a Vertex Tax assist rule
 
 [Add a new tax assist rule][1] or edit an existing rule for your Vertex Cloud account that uses the configured flex field for tax calculation.
 
@@ -127,7 +127,7 @@ In this example, `Flex Code 1` is mapped to _Product_ > _Eco Collection_ and whe
 ![]({% link images/images/tax-vertex-cloud-tax-assist-order.png %}){: .zoom}
 _Vertex Tax Assist Rule_
 
-## Vertex Tax Classes
+## Vertex tax classes
 
 By default, many of the following tax classes are initially set to `None`.
 
@@ -151,7 +151,7 @@ By default, many of the following tax classes are initially set to `None`.
 
 1. In the **Vertex Tax Classes** section, complete as many of the following settings as applicable:
 
-### Adjustment Fees
+### Adjustment fees
 
 1. Set **Refund Adjustments Class** to one of the following:
 
@@ -166,7 +166,7 @@ By default, many of the following tax classes are initially set to `None`.
     [_Adjustment Fees_]({% link configuration/sales/tax.md %})
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 
-### Gift Wrap Order
+### Gift wrap order
 
 1. Set **Gift Wrap for Order Class** to one of the following:
 
@@ -178,7 +178,7 @@ By default, many of the following tax classes are initially set to `None`.
     ![]({% link images/images-ee/config-sales-tax-vertex-tax-classes-gift-wrap-order.png %}){: .zoom}
     [_Gift Wrap - Order_]({% link configuration/sales/tax.md %})
 
-### Gift Wrap Single Product
+### Gift wrap single product
 
 1. Set **Gift Wrap Class for Single Product** to one of the following:
 
@@ -190,7 +190,7 @@ By default, many of the following tax classes are initially set to `None`.
     ![]({% link images/images-ee/config-sales-tax-vertex-tax-classes-gift-wrap-single-product.png %}){: .zoom}
     [_Gift Wrap - Single Product_]({% link configuration/sales/tax.md %})
 
-### Printed Gift Card
+### Printed gift card
 
 1. Set **Item Line Class for Printed Gift Card** to one of the following:
 
@@ -202,7 +202,7 @@ By default, many of the following tax classes are initially set to `None`.
     ![]({% link images/images-ee/config-sales-tax-vertex-tax-classes-printed-gift-card.png %}){: .zoom}
     [_Printed Gift Card_]({% link configuration/sales/tax.md %})
 
-### Reward Points
+### Reward points
 
 1. Set **Class for Reward Points Discount Line Item** to one of the following:
 
@@ -215,7 +215,7 @@ By default, many of the following tax classes are initially set to `None`.
     [_Reward Points_]({% link configuration/sales/tax.md %})
 <!--{% endif %}-->
 
-### Vertex Logging
+### Vertex logging
 
 1. To track and review Vertex actions and taxes, enable the logging options.
 
