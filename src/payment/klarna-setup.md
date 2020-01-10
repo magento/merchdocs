@@ -20,7 +20,7 @@ _Klarna Merchant Portal_
 
 1. Do one of the following:
 
-   - To create a new account, Click <span class="btn">Get Started</span>. Then, complete the onboarding process to create an account. When you receive the confirmation email from Klarna, click <span class="btn">Activate account</span> to log in.
+   - To create a new account, click <span class="btn">Get Started</span>. Then, complete the onboarding process to create an account. When you receive the confirmation email from Klarna, click <span class="btn">Activate account</span> to log in.
    - If you already have an account, click **Log in** in the upper-right corner.
 
      ![Create a Klarna Merchant Account]({% link images/images/payments-klarna-merchant-account-create.png %}){: .zoom}
