@@ -18,19 +18,18 @@ To search Adobe Stock assets and add a stock image to a page:
    If you want to edit an existing page, you can use the _Action_ column to click **Select** and choose **Edit**.
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and do the following:
-<!--{% if "Default.CE Only" contains site.edition %}-->
 
+<!--{% if "Default.CE Only" contains site.edition %}-->
     - If you have WYSIWYG mode disabled, click **Insert Image**.
 
     - If you have WYSIWYG mode enabled, click **Show/Hide Editor** and then click **Insert Image**.
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-
-    - If you have [Page Builder enabled]({% link cms/page-builder-setup.md %}), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click <span class="btn">Select from Gallery</span>. 
+    - If you have [Page Builder enabled]({% link cms/page-builder-setup.md %}), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click <span class="btn">Select from Gallery</span>.
 
       ![]({% link images/images-ee/page-builder-media-image-drag.png %}){: .zoom}
       _Drag Image to Stage_
-  
+
     - If you have the [WYSIWYG editor enabled]({% link cms/editor-configure.md %}), click **Show/Hide Editor** and then click **Insert Image**.
 <!--{% endif %}-->
 
@@ -165,7 +164,7 @@ decide to purchase a license for specific images and use them on your production
 
     ![Save Adobe Stock preview image]({% link images/images/adobe-stock/save-preview.png %}){: .zoom}
     _Save the preview image_
-  
+
 1. Click <span class="btn">Confirm</span>.
 
     The page redirects to the [Media Storage][media-storage] and your saved preview is displayed.
@@ -187,7 +186,7 @@ eliminate the Adobe Stock watermark that is present on all [image previews][save
 
        {:.bs-callout-info}
        You must have available [Adobe Stock credits][stock-credits] in your account to license the image.
-  
+
     This displays a prompt for you to specify a file name that is used to save the image to the [Media Storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
 
     ![Save Adobe Stock licensed image]({% link images/images/adobe-stock/save-licensed.png %}){: .zoom}

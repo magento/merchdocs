@@ -24,7 +24,7 @@ then [configure the Adobe Stock Integration in your Magento Admin][configure].
 
 1. Ensure **Access an API** is selected and click **Continue**.
 
-1. Under the **Creative Cloud** column, ensure **Creative SDK** is selected and click **Continue**. 
+1. Under the **Creative Cloud** column, ensure **Creative SDK** is selected and click **Continue**.
 
    At this time, _do not_ use the **Adobe Stock** service on this screen.
 
@@ -75,7 +75,7 @@ Use the **API Key** and **Client secret** generated in the [previous section][cr
    - Enter your **API Key (Client ID)**.
    - Enter your **Client secret**.
    - Click <span class="btn">**Test Connection**</span> to validate your keys.
-  
+
     ![Advanced configuration - Adobe Stock integration]({% link images/images/system-adobe-stock-integration.png %}){: .zoom}
     _Adobe Stock Integration_
 

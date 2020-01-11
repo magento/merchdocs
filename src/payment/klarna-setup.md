@@ -34,13 +34,13 @@ _Klarna Merchant Portal_
    Then, do the following:
 
    - On the **API Credentials** tab, click <span class="btn">Generate new API credentials</span>. Then when prompted, click **Create credentials**.
-   - After your credentials are generated, click **Download as .txt**. Look in the area where your browser saves downloads and open the file. Keep the file open, and save it in a place where you can find it. 
+   - After your credentials are generated, click **Download as .txt**. Look in the area where your browser saves downloads and open the file. Keep the file open, and save it in a place where you can find it.
    - Select the checkbox to confirm that you have saved your credentials and click **Close**.
 
      ![Generate API Credentials]({% link images/images/payments-klarna-dashboard-playground-settings.png %}){: .zoom}
      _Generate API Credentials_
 
-1.   Click the **Menu** icon in the upper-left corner. Then in the sidebar under **Preferences**, click **Branding**.
+1. Click the **Menu** icon in the upper-left corner. Then in the sidebar under **Preferences**, click **Branding**.
 
      In the box at the top of the page, copy your **Merchant ID** and paste it into the text file with your API credentials. You will need this information to complete the Magento configuration.
 
@@ -89,7 +89,7 @@ _Klarna Merchant Portal_
    - If your Klarna account supports B2B payments, set **Enable B2B** to `Yes`.
    - If you want Klarna to prepare a set of personalized credit options for each customer, set **Data sharing** to `Yes`.
    -Set **Data sharing on load** to one of the following:
-   
+
      |**No** |Customer billing and shipping address information is shared with Klarna after the transaction is authorized. If a shipping address error is encountered during authorization, the customer is instructed to return to the previous step and correct the problem.|
      |**Yes** |Customer billing and shipping address information is shared with Klarna when the payment method is selected during the checkout process.|
 

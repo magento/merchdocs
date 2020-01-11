@@ -33,7 +33,7 @@ _Image In Column_
     **Select from Gallery**
 
     - Click <span class="btn">Select from Gallery</span>.
-  
+
     - In the gallery do one of the following:
 
         - Click <span class="btn">Search Adobe Stock</span>. Search for an image and save the preview or licensed image After you save an Adobe Stock asset, you will be returned to the gallery.
