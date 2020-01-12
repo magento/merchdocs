@@ -321,6 +321,8 @@ pages:
         url: "/marketing/yotpo-glance.html"
       - label: Common Tasks
         url: "/marketing/yotpo-tasks.html"
+      - label: Yotpo Reporting and Analytics
+        url: "/marketing/yotpo-reporting.html"
 - label: Promotions
   url: "/marketing/promotions.html"
   children:
