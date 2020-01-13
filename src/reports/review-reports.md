@@ -2,7 +2,7 @@
 title: Review Reports
 ---
 
-If using the built-in Magento Reviews, Review Reports provide information about product reviews by customer and by product.
+If you are using the built-in Magento Reviews, Review Reports provide information about product reviews by customer and by product.
 
 If [Yotpo Reviews]({% link marketing/yotpo-reviews-intro.md %}) is enabled, the built-in Magento Reviews function and reporting (By Customers and By Products) is disabled. [Yotpo Reporting]({% link marketing/yotpo-reporting.md %}) is accessed in your Yotpo account.
 
