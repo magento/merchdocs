@@ -24,4 +24,4 @@ The Product Reviews Report lists all products that have been reviewed by custome
 
 ## Yotpo Reviews
 
-[Yotpo](https://www.yotpo.com/) is a user-generated content marketing platform enabling merchants to gather, curate, manage, and respond to all kinds of user content from just a single platform. For more Yotpo information, see [Yotpo Reviews]({% link marketing/yotpo-reviews-intro.md %}) and [Yotpo Reporting]({% link marketing/yotpo-reporting.md %}).
+[Yotpo](https://www.yotpo.com/) is a user-generated content marketing platform that enables merchants to gather, curate, manage, and respond to all kinds of user content from just a single platform. For more Yotpo information, see [Yotpo Reviews]({% link marketing/yotpo-reviews-intro.md %}) and [Yotpo Reporting]({% link marketing/yotpo-reporting.md %}).
