@@ -23,7 +23,7 @@ This release contains changes to correct a variety of issues and to update docum
 
 - The **Yotpo Reviews** and **Yotpo Analytics** links in the Admin > Reports section have been updated to redirect to the connected Yotpo account information.
 
-- Corrected issues related to the syncing of invalid orders. Invalid orders are now listed in the log, and additional sync are not attempted.
+- Corrected issues related to the syncing of invalid orders. Invalid orders are now listed in the log, and additional syncs are not attempted.
 
 - Corrected an issue preventing orders from syncing correctly.
 
