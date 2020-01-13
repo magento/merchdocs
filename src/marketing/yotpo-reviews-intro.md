@@ -27,6 +27,6 @@ This release contains changes to correct a variety of issues and to update docum
 
 - Corrected an issue preventing orders from syncing correctly.
 
-- Updated _Yotpo Setup Guide_ links in the Admin.
+- Updated  documentation links in the Admin.
 
 - Corrected an issue preventing Yotpo settings from displaying in the Admin after setup, when `Single-Store` mode is selected.
