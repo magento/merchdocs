@@ -7,7 +7,7 @@ The Footer configuration section is where you can update the [copyright notice](
 ![]({% link images/images/config-design-footer.png %}){: .zoom}
 _Footer_
 
-## To configure the footer:
+## Configure the footer
 
 1. On the _Admin_ sidebar, go to **Content** > _Design_ > **Configuration**.
 
