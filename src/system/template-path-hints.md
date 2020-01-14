@@ -33,6 +33,10 @@ Before using template path hints, add your IP address to the [whitelist]({% lin
 
      -  To activate template path hints for the store, set **Enabled Template Path Hints for Storefront** to `Yes`.
 
+     -  To enable template path hints for the store with only passing params in url, set **Enable Hints for Storefront with URL Parameter** to `Yes`.
+
+     -  To set value for the url param. default value is `magento`.
+
      -  To activate template path hints for the Admin, set **Enabled Template Path Hints for Admin** to `Yes`.
 
      -  To include the names of blocks, set **Add Block Names to Hints** to `Yes`.
