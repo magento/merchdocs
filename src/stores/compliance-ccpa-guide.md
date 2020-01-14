@@ -4,7 +4,7 @@ group: getting-started
 ---
 
 {:.bs-callout-info}
-This is one in a series of topics to help Magento merchants and developers understand the implications of the California Consumer Protection Act. The information is based on the text of the statute. Consult with your attorney to confirm if CCPA applies to your business before taking action on compliance.
+This is one in a series of topics to help Magento merchants and developers understand the implications of the California Consumer Privacy Act. The information is based on the text of the statute. Consult with your attorney to confirm if CCPA applies to your business before taking action on compliance.
 
 This topic provides a high-level outline of the steps required for Magento merchants to comply with privacy regulations such as the [California Consumer Privacy Act]({% link stores/compliance-ccpa.md -%}) (CCPA).
 
@@ -23,9 +23,9 @@ Businesses that comply with GDPR might have additional obligations under the CCP
 
 A coordinated effort is required to develop and implement a plan to address compliance. Use this roadmap as a guide to mobilize resources and prioritize tasks so you can move ahead on multiple fronts.  The process is essentially the same for all installations of Magento, with the following exception:
 
-- **Adobe Commerce Cloud**: Merchants with stores hosted on [Adobe Commerce Cloud][4]{:target="_blank"} can ask their Magento Technical Account Manager for help responding to customer requests.
+- **Adobe Commerce Cloud**: Merchants with stores hosted on [Adobe Commerce Cloud][4]{:target="_blank"} can ask their Magento Technical Account Manager or Customer Support for help responding to consumer requests.
 
-- **On-Premise Magento**: Merchants with on-premise installations of Magento must develop their own processes and tools to respond to and manage customer requests related to privacy regulations.
+- **On-Premise Magento**: Merchants with on-premise installations of Magento must develop their own processes and tools to respond to and manage consumer requests related to privacy regulations.
 
 ### Step 1: Assemble a cross-functional team to address regulation compliance.
 
@@ -38,13 +38,13 @@ Assemble a team that represents the following functional roles in your business,
 - Customer Service
 - Administrative Support
 
-From a business perspective, you must determine if the company will extend these consumer protection measures only to customers in California, or make them available to all customers regardless of location.
+From a business perspective, you must determine if your company will extend these privacy protection measures only to consumers in California, or make them available to all consumers, regardless of location.
 
 ### Step 2: Take inventory of your digital properties.
 
 **Stakeholders:** Information Technology, Legal, Administrative Support
 
-Take inventory of your digital properties, including all integrations and those who have access to your customer data.
+Take inventory of your digital properties, including all integrations and those who have access to your consumer data.
 
   1.  Determine what public and private personal information is collected through your website(s) and mobile application(s).  For example, a standard Magento database stores the following types of public and private personal information:
 
@@ -54,13 +54,13 @@ Take inventory of your digital properties, including all integrations and those 
 
       If your Magento installation has been customized, additional personal information might be collected. Personal information might also reside in [cookies]({% link stores/cookie-reference.md -%}), tags, and other technologies that collect information.
 
-  1.  Identify the parties with whom you share data. Your list will include service providers and third-parties such as advertising networks, internet service providers, data analytics providers, government entities, operating systems and platforms, social networks, and consumer data resellers who do not directly collect personal information from your customers.
+  1.  Identify the parties with whom you share data. Your list will include service providers and third parties such as advertising networks, internet service providers, data analytics providers, government entities, operating systems and platforms, social networks, and consumer data resellers who do not directly collect personal information from your consumers.
 
-      - **Service Providers**:  Those who have access to your customer data for a business purpose, and provide services on your behalf. For example, Adobe is service provider, as are some developers of customizations and extensions and services.
+      - **Service Providers**:  Those who have access to your consumer data for a business purpose, and provide services on your behalf. For example, Adobe is service provider, as are some developers of customizations, extensions, and services.
 
         Check the default settings of Google Universal Analytics, Google Tag Manager &mdash; and any other data services you use &mdash; and make any changes necessary to comply with the regulation. To learn more, see [Google Privacy Settings]({% link stores/compliance-privacy-google.md -%}).
 
-      - **Other Third Parties**: Those with whom you share or sell customer data. For example, you might share customer data with an advertising network in exchange for advertising.
+      - **Other Third Parties**: Those with whom you share or sell consumer data. For example, you might share consumer data with an advertising network in exchange for advertising.
 
 ### Step 3: Map the customer journey and data collection process in your store(s).
 
@@ -84,21 +84,21 @@ Take inventory of your digital properties, including all integrations and those 
 
 From a data management perspective, each request for personal information involves the following parties:
 
-- **Data Subjects** (Consumers): Under CCPA, any customer in California who provides personal information to make a purchase and/or to maintain a customer account might submit a request to access or delete their personal data.
+- **Data Subjects** (Consumers): Under CCPA, any person in California who provides personal information to make a purchase and/or to maintain a customer account might submit a request to access or delete their personal data.
 
-- **Data Controllers** (Brands): Magento merchants collect and store personal information from their customers and guests who make purchases in their store(s).
+- **Entities acting as Busineses within the scope of CCPA** (Brands): Magento merchants collect and store personal information from their customers and guests who make purchases in their store(s).
 
-- **Data Processor** (Technology Vendors): Adobe (Magento Commerce) acts as a Processor of the personal data that is stored as part the services provided to merchants. As a processor, Adobe processes personal data in accordance with the merchant's permission and instructions, as set forth in the license agreement.
+- **Data Processor** (Technology Vendors): Adobe (Magento Commerce) acts as a processor of the personal data that is stored as part the services provided to merchants. As a processor, Adobe processes personal data in accordance with the merchant's permission and instructions, as set forth in the license agreement.
 
-Merchants, as data controllers, are responsible to do the following:
+Merchants are responsible to do the following:
 
 1.  Identify the parties involved in the Data Subject Access Request (DSAR), and verify the identity of person who requests to know, opt out, or delete, regardless of whether the person has a password-protected customer account, or shops in your store as a guest.
 
-1.  Respond to each request to know, opt out, and delete in an electronically transferable format within 45 days.
+1.  Disclose and deliver information to a consumer in response to their rights request within 45 days of receiving a verifiable consumer request from the consumer unless doing so is not possible (in which case the law contains certain other requirements for a business to maintain compliance for delays of up to an additional 45 days).
 
     Merchants must respond to each DSAR within 45 days, beginning from the day the request is received. If necessary, merchants can take up to an additional 45 days to respond, for a maximum total of 90 days from the day the request is received, provided that the merchant notifies the customer to explain the reason for the delay.
 
-1.  Develop a mechanism to present the required notifications in your store, and to collect customer response.
+1.  Develop a mechanism to present the required notifications in your store, and to collect consumer response.
 
 1.  Establish procedures to respond to and document each of the following requests:
 
@@ -108,7 +108,7 @@ Merchants, as data controllers, are responsible to do the following:
 
     - **Requests to Delete**
 
-      - Merchants whose stores are hosted on Adobe Commerce Cloud should contact Magento Support for assistance deleting personal information. Contact your Magento Technical Account Manager for more information.
+      - Merchants whose stores are hosted on Adobe Commerce Cloud should contact Magento Support for assistance deleting personal information. Contact your Magento Technical Account Manager or Customer Support for more information.
       - Merchants running installations of Magento on premise must implement their own process and script to delete personal information upon request.
 
 ### Step 5: Write the content for the required customer notifications.
@@ -117,24 +117,24 @@ Merchants, as data controllers, are responsible to do the following:
 
 1.  In partnership with your legal counsel, determine the types of notices that should be added to your website to meet CCPA obligations.
 
-    - **Notice of Collection**: A notice given at or before the time personal information is collected from your customer. The notice should be written in plain language, and be easy for the average customer to understand. The notice should be conspicuous and provided in the same language(s) as your website content.
+    - **Notice of Collection**: A notice given at or before the time personal information is collected from the consumer. The notice should be written in plain language, and be easy for the average person to understand. The notice should be conspicuous and provided in the same language(s) as your website content.
 
-    - **Notice of Right to Opt Out**: A notice that informs your customers of their right to opt out of the sale of their personal information.
+    - **Notice of Right to Opt Out**: A notice that informs consumers of their right to opt out of the sale of their personal information.
 
     - **Notice of Financial Incentive**: A notice that explains each financial incentive, price, or service difference that your company receives in exchange for personal information.
 
     - **How to Submit a Request for Personal Information Collection and Use**: Instructions for individuals to submit a request that you disclose the personal information that you have collected about the individual, including:
 
-      - Specific pieces of personal information that you have collected about the customer
-      - Categories of personal information that you have collected about the customer
+      - Specific pieces of personal information that you have collected about the consumer
+      - Categories of personal information that you have collected about the consumer
       - Categories of sources from which the personal information is collected
-      - Categories of personal information about the customer that you have sold or disclosed for a business purpose
+      - Categories of personal information about the consumer that you have sold or disclosed for a business purpose
       - Categories of third parties to whom the personal information was sold or disclosed for a business purpose
       - The reasons why your business collects and/or sells personal information
 
 1.  Send the content to the team, and if possible, your legal counsel for review.
 
-1.  Determine where the notices will appear, how they will function (each visit, only appear when user is authenticated, or on click-through) and their position and format in relation to other content.
+1.  Determine where the notices will appear, how they will function (for each visit, appear only when user is authenticated, or on click-through) and their position and format in relation to other content.
 
 1.  Pass the approved content to your development team.
 
