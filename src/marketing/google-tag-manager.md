@@ -9,8 +9,8 @@ Google Tag Manager directly transfers data and events to Google Analytics, Enhan
 
 You should have a Google Analytics and Tag Manager account to continue this process. The following instructions walk you through the process of configuring your Google accounts, configuring your Magento store, and creating a tag.
 
-{:.bs-callout-info}
-If your business operates in areas that are governed by the [General Data Protection Regulation]({% link stores/compliance-gdpr.md %}), see [Google Settings for GDPR]({% link stores/compliance-gdpr-google.md %}).
+{: .bs-callout .bs-callout-info}
+If your business is subject to privacy regulations such as the [General Data Protection Regulation]({% link stores/compliance-gdpr.md %}) and/or the [California Consumer Privacy Act]({% link stores/compliance-ccpa.md %}), see [Google Privacy Settings]({% link stores/compliance-privacy-google.md %}).
 
 ## Step 1. Configure Your Google Analytics Account
 

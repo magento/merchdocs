@@ -8,7 +8,7 @@ Reindexing data speeds up processing, and reduces the time the customer has to w
 
 The indexers can be set to either update on save or on schedule. All indexes can use either option, except Customer Grid which only supports on save. When indexing on save, Magento starts a reindex on save actions. The Index Management page will update and flush the reindex message within a minute or two. When reindexing on a schedule, a reindex runs according to a schedule as a cron job. A system message appears if a [cron job]({% link system/cron.md %}) is not available to update any indexers that become invalid. Your store remains accessible during reindex processes.
 
-When you need to reindex, a notification appears at the top of the page. The index and message clears based on the reindex mode and potential actions you take. See [Indexing overview][1] in DevDocs developer documentation.
+When you need to reindex, a notification appears at the top of the page. The index and message clears based on the reindex mode and potential actions you take. See [Indexing overview][1]{:target="_blank"} in the developer documentation.
 
 ![Index management - notification]({% link images/images/system-index-management-notification.png %}){: .zoom}
 _Reindex notification_
@@ -67,7 +67,7 @@ For those using the B2B extension and have set Elasticsearch as the fulltext (`c
 
 ## Reindex using the command line
 
-Magento provides additional reindex options using the command line. These options may require developer support to complete. For complete details and command options, see [Reindex][2] in [Manage the indexers][3]. The DevDocs PHP Developer Guide also includes an [Indexing section][4].
+Magento provides additional reindex options using the command line. These options may require developer support to complete. For complete details and command options, see [Reindex][2]{:target="_blank"} in [Manage the indexers][3]{:target="_blank"}. The DevDocs PHP Developer Guide also includes an [Indexing section][4]{:target="_blank"}.
 
 [1]: http://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html
 [2]: https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex
