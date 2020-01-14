@@ -27,14 +27,13 @@ Before using template path hints, add your IP address to the [whitelist]({% lin
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Debug** section and do the following:
 
-     -  To activate template path hints for the Admin, set **Enabled Template Path Hints for Admin** to `Yes`.
     ![Advanced configuration - debug]({% link images/images/config-advanced-developer-debug.png %}){: .zoom}
     [_Debug_]({% link configuration/advanced/developer.md %})
 
     - To activate template path hints for the store, set **Enabled Template Path Hints for Storefront** to `Yes`.
-    
+
     - To enable template path hints for the store with only passing params in url, set **Enable Hints for Storefront with URL Parameter** to `Yes`.
-    
+
     - To set value for the url param. default value is `magento`.
 
     - To activate template path hints for the Admin, set **Enabled Template Path Hints for Admin** to `Yes`.
