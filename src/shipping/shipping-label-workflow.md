@@ -20,4 +20,4 @@ Step 3:  Carrier sends label and tracking number
   *  For returned products with RMA numbers, the old tracking numbers are replaced with new ones.
 
 Step 4:  Administrator downloads and prints the label
-: After the shipping label is generated, the new shipment is saved and the label can be printed. If the shipping label cannot be created due to problems with the connection or any other reason, the shipment is not created.Depending on your browser settings,  the PDF file can be opened and printed. Each label appears on a separate page in the PDF.
+: After the shipping label is generated, the new shipment is saved and the label can be printed. If the shipping label cannot be created due to problems with the connection or any other reason, the shipment is not created. Depending on your browser settings,  the PDF file can be opened and printed. Each label appears on a separate page in the PDF.

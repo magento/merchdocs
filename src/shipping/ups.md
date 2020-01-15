@@ -157,7 +157,7 @@ To offer this shipping method to your customers, you must first open an account 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Origin** on the page and configure the shipping origin address.
 
     ![]({% link images/images/shipping-origin-magento.png %}){: .zoom}
-    [Sales configuration - shipping origin address options]({% link configuration/sales/shipping-methods.md %})
+    [Sales configuration - shipping origin address options]({% link configuration/sales/shipping-settings.md %})
 
 1. Click <span class="btn">Save Config</span>.
 
