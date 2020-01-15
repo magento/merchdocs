@@ -154,7 +154,7 @@ The list of email templates is organized alphabetically by Magento module.
 |--- |--- |
 | Cron Error Warning | **Page:** Catalog > [Catalog]({% link configuration/catalog/catalog.md %})<br/>**Section:** Product Alerts Run Settings<br/>**Field:** Error Email Template |
 | Price Alert | **Page:** Catalog > [Catalog]({% link configuration/catalog/catalog.md %})<br/>**Section:** Product Alerts<br/>**Field:** Price Alert Email Template |
-| Stock Alert | **Page:** <Catalog > [Catalog]({% link configuration/catalog/catalog.md %})<br/>**Section:** Product Alerts<br/>**Field:** Stock Alert Email Template |
+| Stock Alert | **Page:** Catalog > [Catalog]({% link configuration/catalog/catalog.md %})<br/>**Section:** Product Alerts<br/>**Field:** Stock Alert Email Template |
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ## Magento_Reminder

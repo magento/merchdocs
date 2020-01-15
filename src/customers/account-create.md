@@ -55,7 +55,7 @@ _Create an Account_
 
 1. When complete, click <span class="btn">Create an Account</span>.
 
-    You can now use your email address and password to [sign in]({% link stores/admin-signin.md %}) to your account to complete the address information.
+    You can now use your email address and password to [sign in]({% link customers/customer-sign-in.md %}) to your account to complete the address information.
 
 ## Method 2: Create Account from Admin
 

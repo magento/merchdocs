@@ -7,7 +7,7 @@ The invitation configuration enables invitations for the store, and determines h
 
 ## Configure Invitations
 
-1. On the _Admin_ sidebar, go to **Stores** _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Customers** and choose **Invitations**.
 

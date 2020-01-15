@@ -3,7 +3,7 @@ title: Admin Sign In
 group: getting-started
 ---
 
-You will first learn how to sign in and out of the Admin and how to reset your password. All of the instructions in the rest of this guide are written for a user with full administrative privileges and begin with the assumption that you are logged in to the Admin. See [Permissions]({% link system/permissions.md %}) for more info about about Admin users and roles.
+You will first learn how to sign in and out of the Admin and how to reset your password. All of the instructions in the rest of this guide are written for a user with full administrative privileges and begin with the assumption that you are logged in to the Admin. See [Permissions]({% link system/permissions.md %}) for more info about Admin users and roles.
 
 The [Advanced Admin]({% link configuration/advanced/admin.md %}) configuration determines how many times an admin user can try to log in before the account is locked. By default, six attempts are allowed. See [Locked Users]({% link system/permissions-locked-users.md %}) for information about unlocking a user account.
 
