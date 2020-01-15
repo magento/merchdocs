@@ -46,15 +46,17 @@ If your store has multiple views in different languages, the same products are a
 
 1. In the tree, find the category to be translated and open in edit mode.
 
-1. On the _General Information_ tab, translate the following fields:
+1. On the _Basic Information_, translate **Category Name**.
 
-    - Name
-    - Description
-    - Page Title
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Content** section, translate **Description**.
+    
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Search Engine Optimization Settings** section, translate the following fields:
+
+    - Meta Title
     - Meta Keywords
     - Meta Description
 
-1. To translate the **URL Key**, do the following:
+1. To translate the **URL Key** under the **Search Engine Optimization Settings** section, do the following:
 
     - Clear the **Use Default Value** checkbox to the right of the field.
 
