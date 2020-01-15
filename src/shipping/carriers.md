@@ -26,7 +26,7 @@ The [United States Postal Service]({% link shipping/usps.md %}) is the independe
 
 ## FedEx
 
-Offers [domestic and international]]({% link shipping/fedex.md %}) shipping services by land and air to more than 220 countries.
+Offers [domestic and international]({% link shipping/fedex.md %}) shipping services by land and air to more than 220 countries.
 
 ## DHL
 
