@@ -293,7 +293,6 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Shipping Partners]({% link shipping/magento-shipping-carriers.md %})|Added information about new supported countries and initial carrier support limited to DHL Express.|
 |[Vertex]({% link tax/vertex.md %})|Added release notes for Vertex Cloud integration. Updates include new delivery terms, performance enhancements, caching, and more.|
 |[Configuring Magento]({% link tax/vertex-configure-magento.md %})|Added updates for configuration options including Vertex tax links, delivery terms (or shipping terms), logging options, and more.|
-|[Test the Configuration]({% link tax/vertex-test-configuration.md %})|Added Vertex troubleshooting and caching information.|
 |[Tax]({% link configuration/sales/tax.md %}) (configuration reference)|Added updates for all Vertex updates.|
 |[Customer Experience]({% link shipping/magento-shipping-customer-experience.md %})|Added information for Click &amp; Collect and Collection Points storefront experiences.|
 |[Batches]({% link sales/batches.md %})|Updated information and added content on domestic shipments only.|
