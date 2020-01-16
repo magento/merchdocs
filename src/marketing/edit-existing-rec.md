@@ -20,6 +20,6 @@ You can modify certain settings for an existing recommendation.
     * Excluded categories
 
     {:.bs-callout-info}
-    You cannot modify the page type or recommendation type for an existing recommendation. These settings inform the metrics Magento uses to track the performance of a recommendation. Altering these values would cause inconsistencies in the data the metrics report.
+    You cannot modify the page type or recommendation type for an existing recommendation.
 
 1. When you finish modifying the recommendation, click **Save Changes**. You also can select to **Activate** or **Deactivate** the recommendation.

@@ -1,0 +1,51 @@
+---
+title: Best Practices Using Recommendations
+---
+
+This section discusses best practices for deploying recommendations to your storefront.
+
+## Placement
+
+While you can use recommendations almost anywhere on your page, Magento recommends adhering to the following best practices:
+
+- Diversify your recommendation types. Customers start ignoring recommendations if they suggest the same products over and over again.
+
+- Do not deploy the same recommendations to your cart page and order confirmation page. Consider using `Most Added to Cart` for the cart page and `Bought This, Bought That` for the order confirmation page.
+
+- Keep your site tidy. Do not deploy more than three recommendation units on same page.
+
+- If your store sells clothing, the `More like this` recommendation can suggest gender-specific items that do not match the gender of the product being viewed.
+
+## Which Recommendations to Use
+
+Magento provides a large set of recommendations you can deploy to your site. But which recommendations should you use and where should you place them? The following table provides some best practices:
+
+|**Page**|**Recommendation type**|
+|---|---|
+|Home page|Most purchased, top sellers|
+|Product page|Viewed this, viewed that|
+|Cart|Bought this, bought that|
+
+Remember that experimentation is key. Try the above, track metrics, then adjust if needed.
+
+## Metrics
+
+Metrics are a powerful tool to help you track the success of a recommendation. The following best practices illustrate how you can use metrics to create actionable insights:
+
+- **Viewability %** - This metric measures how frequently a rendered recommendation unit is viewed. If viewability is low but click through rate is high, consider moving the recommendation higher up on page to make it more viewable.
+
+- **Click-through-rate %** - This metric measure how frequently items within the recommendation unit are clicked. If a recommendation unit has a low click-through rate compared to other recommendation units, consider deploying different recommendations or moving the recommendation higher up on page.
+
+## Labels
+
+The label you give a recommendation affects how a shopper interprets the contents as being relevant to them. The following table gives guidance on label names.
+
+|**Recommendation Type**|**Recommended Storefront Labels**|
+|---|---|
+|Most viewed<br> Most added to cart<br>Most purchased|Most popular<br>Trending<br>Popular right now<br>Recently popular<br>Popular items inspired by this item (PDP)<br>Top sellers|
+|Just for You|Just for you<br>Recommended for you<br>Inspired by your shopping trends|
+|Viewed This, Viewed That|Customers who viewed this item also viewed<br>Customers also viewed<br>Related items<br>Inspired by your|
+|Viewed This, Bought That|Customers who viewed this ultimately bought<br>Customers ultimately purchased<br>What do others buy after viewing this item?|
+|Bought This, Bought That|Get everything you need<br>Don't forget these<br>Frequently bought together|
+|More Like This|More items like this<br>Similar to this|
+|Generic|You may also like<br>Shoppers also liked<br>Similar options<br>Related items|
