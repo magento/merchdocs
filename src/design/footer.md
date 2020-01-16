@@ -7,11 +7,11 @@ The Footer configuration section is where you can update the [copyright notice](
 ![]({% link images/images/config-design-footer.png %}){: .zoom}
 _Footer_
 
-## To configure the footer:
+## Configure the footer
 
 1. On the _Admin_ sidebar, go to **Content** > _Design_ > **Configuration**.
 
-1. Find the store view that you want to configure. Then in the **** column, click **Edit**.
+1. Find the store view that you want to configure. Then, click **Edit** in the _Action_ column.
 
 1. Under **Other Settings**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Footer** section.
 

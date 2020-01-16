@@ -92,7 +92,7 @@ If your domain has a valid security certificate, you can configure the URLs of b
 
 ### Include the store code in URLs
 
-1. On the _Admin_ sidebar, go to **Stores** _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. Under _General_ in the left panel, choose **Web**.
 
