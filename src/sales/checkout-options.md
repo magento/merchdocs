@@ -15,13 +15,11 @@ The checkout options control a number of attributes for the checkout page, inclu
 
 ## To change the checkout options:
 
-1. On the _Admin_ sidebar, click **Stores**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the _Settings_ section, choose **Configuration**.
+1. On the left panel, expand **Sales** and choose **Checkout**.
 
-1. In the _Sales_ section on the left panel, choose **Checkout**.
-
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Checkout Options** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Checkout Options** section.
 
 1. Set the checkout options:
 
