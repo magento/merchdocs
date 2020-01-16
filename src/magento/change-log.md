@@ -23,6 +23,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 - [Adobe Stock Integration]({% link cms/adobe-stock.md %})
 - [Using Adobe Stock Images]({% link cms/adobe-stock-manage.md %})
+- [Yotpo Reporting and Analytics]({% link marketing/yotpo-reporting.md %})
 
 ### Updated Topics
 
@@ -35,6 +36,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Developer]({% link configuration/advanced/developer.md %})|Added content for the Cache User Defined Attributes field.|
 |[Elasticsearch]({% link catalog/search-elasticsearch.md %}) <br/>[Catalog]({% link configuration/catalog/catalog.md %}) (configuration)|Added content to describe usage of the new "Minimum terms to match" field.|
 |[Klarna]({% link payment/klarna.md %}) <br/>[Setting Up Klarna]({% link payment/klarna-setup.md %}) <br/>[Klarna]({% link configuration/sales/klarna.md %}) (configuration)|Updated content for the new configuration field to Klarna Payments.|
+|[Yotpo Product Reviews]({% link marketing/yotpo-reviews-intro.md %}) <br/>[Review Reports]({% link reports/review-reports.md %}) <br/>[Business Intelligence Tools]({% link reports/business-intelligence.md %}) |Updates for Yotpo Product Reviews, including connections to **Yotpo Reviews** and **Yotpo Analytics** links in the Admin > Reports section.|
 
 ## December 2019
 
@@ -47,7 +49,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 |Topic |Change|
 |--- |--- |
-|[Google Privacy Settings for GDPR]({% link stores/compliance-privacy-google.md %})|This topic now applies to privacy regulations in general, and is not limited to GDPR.|
+|[Google Privacy Settings for GDPR]({% link stores/compliance-privacy-google.md %})|Renamed "Google Privacy Settings". This topic now applies to privacy regulations in general, and is not limited to GDPR.|
 
 ## November 2019
 
