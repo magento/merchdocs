@@ -16,7 +16,7 @@ Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini`�
 |--|--|--|
 |Google API website key|Website|Sets the Google API website key generated when creating your Google reCAPTCHA account. For complete details, see [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).|
 |Google API secret key|Website|Sets the secret key generated when creating your Google  reCAPTCHA account. For complete details, see [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).|
-|reCaptcha type|Website|Indicates the type of Google reCAPTCHA to use. You must have added the correct API keys for the type.<br/><br/>Options:<br/>**Invisible reCaptcha v3** (default) validates in the background without requiring user interactions based on score.<br/>**Invisible reCaptcha v2** (recommended) validates in the background without requiring user interactions.<br/>**reCaptcha v2** (default) validates with the _I’m not a robot_ checkbox.|
+|reCaptcha type|Website|Indicates the type of Google reCAPTCHA to use. You must have added the correct API keys for the type.<br/><br/>Options:<br/>**Invisible reCaptcha v3** (default) validates in the background without requiring user interactions based on score.<br/>**Invisible reCaptcha v2** (recommended) validates in the background without requiring user interactions.<br/>**reCaptcha v2**  validates with the _I’m not a robot_ checkbox.|
 
 ## Backend
 
