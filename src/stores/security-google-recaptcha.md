@@ -115,7 +115,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
     - **Enable** — Set to `Yes`.
 
-    - **Invisible badge position** — Choose `Inline` or `Bottom Right` or `Bottom Left`. Applicable only to _Invisible reCaptcha v2_ and _Invisible reCaptcha v3_. 
+    - **Invisible badge position** — Choose `Inline`, `Bottom Right`, or `Bottom Left`. Applicable only to _Invisible reCaptcha v2_ and _Invisible reCaptcha v3_. 
 
     - **Theme** — Choose `Light` or `Dark`. Applicable only to _reCaptcha v2("I am not a robot")_.
 
