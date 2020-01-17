@@ -49,7 +49,7 @@ Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini`�
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--|--|--|
-|Enable|Website|Indicates if Google reCAPTCHA is enabled for protection of the storefront pages. Options: Yes, No (default)|
+|Enable|Website|Indicates if Google reCAPTCHA protection for the storefront pages is enabled. Options: Yes, No (default)|
 |Theme|Global|Determines the theme used for Google reCAPTCHA box on the Magento storefront pages. See examples at [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}). Options: Light Theme (default) / Dark Theme  <br/>**_Note:_** Applicable only to _reCaptcha v2("I am not a robot")_.|
 |Language Code|Store View|Determines the languages used for the widget. This forces the UX text to render in the selected language. If not configured, the widget auto-detects the user's language.|
 |Size|Website|Determines the size for the Google reCAPTCHA box on the Magento storefront pages. See examples at [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}). Options: Normal (default) / Compact  <br/>**_Note:_** Applicable only to _reCaptcha v2("I am not a robot")_.|
