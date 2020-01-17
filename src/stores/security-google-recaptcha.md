@@ -137,7 +137,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 1. When complete, click <span class="btn">Save Config</span>.
 
 
-### For reCaptcha v3 type
+### For reCaptcha v3
  
 1. Sign in to the Admin of your Magento store.
 
