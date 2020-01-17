@@ -178,7 +178,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
     - **Enable** — Set to `Yes`.
 
-    - **Invisible badge position** — Choose `Inline` or `Bottom Right` or `Bottom Left`. Applicable only to _Invisible reCaptcha v2_ and _Invisible reCaptcha v3_. 
+    - **Invisible badge position** — Choose `Inline`, `Bottom Right`, or `Bottom Left`. Applicable only to _Invisible reCaptcha v2_ and _Invisible reCaptcha v3_. 
 
     - **Minimum score** — Input value from `0.0` to `1.0` where `1.0` is very likely a good interaction, `0.0` is very likely a bot. For more details see official documentation [Interpreting the score][3]    
 
