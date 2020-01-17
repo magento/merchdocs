@@ -89,7 +89,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
     ![Google reCAPTCHA - keys configuration]({% link images/images/config-security-recaptcha-keys.png %}){: .zoom}
     [_Google reCAPTCHA keys_]({% link configuration/security/google-recaptcha.md %})
     
-1. Select reCaptcha v2 type based on generated keys    
+1. Select the reCaptcha v2 type based on the generated keys    
 
     ![Google reCAPTCHA v2 - type configuration]({% link images/images/config-security-recaptcha-type-v2.png %}){: .zoom}   
 
