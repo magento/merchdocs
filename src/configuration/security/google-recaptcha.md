@@ -34,7 +34,7 @@ Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini`�
 |Enable|Global|Indicates if Google reCAPTCHA is enabled for protection of the Magento Admin login screen. Options: Yes, No (default)|
 |Theme|Global|Determines the theme used for Google reCAPTCHA box on the Magento Admin login screen. See examples at [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}). Options: Light Theme (default) / Dark Theme <br/>**_Note:_** Applicable only to _reCaptcha v2("I am not a robot")_.|
 |Size|Global|Determines the size for the Google reCAPTCHA box on the Magento Admin login screen. See examples at [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}). Options: Normal (default) / Compact <br/>**_Note:_** Applicable only to _reCaptcha v2("I am not a robot")_.|
-|Minimum score|Global|Determines the size minimal score for the Google reCAPTCHA to verify if an interaction is legitimate on the Magento Admin login screen. Value from `0.0` to `1.0` where `1.0` is very likely a good interaction, `0.0` is very likely a bot. See examples at [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).<br/>**_Note:_** Applicable only to _Invisible reCaptcha v3_.|
+|Minimum score|Global|Determines the minimum score for the Google reCAPTCHA to verify if an interaction on the Magento Admin login screen is legitimate. The value can be from `0.0` to `1.0`, where `1.0` is very likely a good interaction, and `0.0` is very likely a bot. See examples at [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).<br/>**_Note:_** Applicable only to _Invisible reCaptcha v3_.|
 
 ## Frontend
 
