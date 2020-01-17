@@ -81,7 +81,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
 1. In the left panel, expand _Security_ and choose **Google reCaptcha**.
 
-1. On the page, expand the **General** section and enter the following generated keys for specific reCAPTCHA type that should be enabled:
+1. On the page, expand the **General** section and enter the following generated keys for the specific reCAPTCHA type to be enabled:
 
     - Google API website key
     - Google API secret key
