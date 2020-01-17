@@ -16,9 +16,9 @@ global exclusions...
 
 1. In the **Select page type** section, select the page on which you want the recommendation to appear.
 
-1. In the **Select Recommendation type** section, specify the type of recommendation you want to appear on the selected page type. Note that certain page types [restrict what type of recommendation]({% link marketing/config-prod-recs.md %}#supportedrecs) you can select.
+1. In the **Select Recommendation type** section, specify the type of recommendation you want to appear on the selected page type. Note that certain page types [restrict what type of recommendation]({% link marketing/product-recommendations.md %}#supportedrecs) you can select.
 
-1. In the **Select placement** section, specify the [container where you want the recommendation]({% link marketing/config-prod-recs.md %}#productrecplacement) to appear on the page.
+1. In the **Select placement** section, specify the [container where you want the recommendation]({% link marketing/product-recommendations.md %}#productrecplacement) to appear on the page.
 
 1. The **Choose position** section displays all recommendations (if any) created for the page type you selected above. You can select and move the rows in the **Choose position** table to order the recommendations within the container.
 

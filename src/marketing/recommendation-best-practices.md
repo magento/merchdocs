@@ -2,11 +2,11 @@
 title: Best Practices Using Recommendations
 ---
 
-This section discusses best practices for deploying recommendations to your storefront.
+This section includes best practices for deploying recommendations to your storefront.
 
-## Placement
+## General
 
-While you can use recommendations almost anywhere on your page, Magento recommends adhering to the following best practices:
+Magento recommends the following guidelines when using recommendations:
 
 - Diversify your recommendation types. Customers start ignoring recommendations if they suggest the same products over and over again.
 
@@ -14,11 +14,11 @@ While you can use recommendations almost anywhere on your page, Magento recommen
 
 - Keep your site tidy. Do not deploy more than three recommendation units on same page.
 
-- If your store sells clothing, the `More like this` recommendation can suggest gender-specific items that do not match the gender of the product being viewed.
+- If your store sells clothing, the `More like this` recommendation can suggest gender-specific items that do not match the gender of the product being viewed. Consider only using this recommendation type for non-clothing categories.
 
-## Which Recommendations to Use
+## Usage
 
-Magento provides a large set of recommendations you can deploy to your site. But which recommendations should you use and where should you place them? The following table provides some best practices:
+Magento provides a large set of recommendations you can deploy to various pages on your site. But which recommendations should you use on those pages? The following table provides some suggestions:
 
 |**Page**|**Recommendation type**|
 |---|---|
@@ -32,9 +32,9 @@ Remember that experimentation is key. Try the above, track metrics, then adjust 
 
 Metrics are a powerful tool to help you track the success of a recommendation. The following best practices illustrate how you can use metrics to create actionable insights:
 
-- **Viewability %** - This metric measures how frequently a rendered recommendation unit is viewed. If viewability is low but click through rate is high, consider moving the recommendation higher up on page to make it more viewable.
+- **Viewability %** - This metric measures how frequently a rendered recommendation unit is viewed. If viewability is low but click through rate is high, consider moving the recommendation higher up on the page to make it more viewable.
 
-- **Click-through-rate %** - This metric measure how frequently items within the recommendation unit are clicked. If a recommendation unit has a low click-through rate compared to other recommendation units, consider deploying different recommendations or moving the recommendation higher up on page.
+- **Click-through-rate %** - This metric measures how frequently items within the recommendation unit are clicked. If a recommendation unit has a low click-through rate compared to other recommendation units, consider deploying different recommendations or moving the recommendation higher up on the page.
 
 ## Labels
 
