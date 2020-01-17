@@ -14,7 +14,7 @@ _Customer Login with reCAPTCHA v2_
     - _"I am not a robot"_ requires users and customers to click the "I'm not a robot" checkbox and possibly select specific images to complete a challenge.
     - Invisible reCAPTCHA badge (**recommended**) performs background verification without user interaction. Users and customers are automatically verified, but might be required to select specific images to complete a challenge.
 
-2. reCAPTCHA v3 Verify requests with a score based on Google algorithm.
+2. reCAPTCHA v3 Verify requests with a score based on a Google algorithm.
 
 You can use Google reCAPTCHA on the [Admin Sign In]({% link stores/admin-signin.md %}) page, and on various customer pages in the storefront. The reCAPCTHA v2 type includes styling options for your choice of a light or dark theme, and either a compact or normal size.
 
