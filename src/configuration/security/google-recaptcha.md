@@ -58,6 +58,6 @@ Before Google reCAPTCHA can be configured, you must ensure that yourÂ `PHP.ini`Â
 |Use in Forgot password|Website|Adds Google reCAPTCHA to the forgot password form. Options: Yes (default) / No|
 |Use in Contact|Website|Adds Google reCAPTCHA to the contact form. Options: Yes (default) / No|
 |Use in Create user|Website|Adds Google reCAPTCHA to the create customer form. Options: Yes (default) / No|
-|Use in Review|Website|Adds Google reCAPTCHA to the review form on product details page. Options: Yes (default) / No|
+|Use in Review|Website|Adds Google reCAPTCHA to the review form on a product details page. Options: Yes (default) / No|
 |Use invisible ReCaptcha in newsletter|Website|Adds Google reCAPTCHA to all storefront pages where newsletter subscription functionality is shown. Options: Yes (default) / No <br/>**_Note:_** Requires an Invisible ReCaptcha v2 or v3 key. If enabled, a badge will be displayed in every page.|
 |Use in PayPal Payflow Pro payment form|Website|Adds Google reCAPTCHA to the PayPal Payflow Pro payform form during checkout. Options: Yes (default) / No <br/>**_Note:_** This option is available out-of-the-box for v2.3.2 and later. To add the option for v2.3.0 and 2.3.1, see the Magento Support article [PayPal Payflow Pro active carding activity](https://support.magento.com/hc/en-us/articles/360025515991).|
