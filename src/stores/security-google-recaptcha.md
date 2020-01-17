@@ -42,7 +42,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
     - `reCAPTCHA v3` — Verify requests with a score
         
-    - `reCAPTCHA v2` — Verifies with a button click or images selection
+    - `reCAPTCHA v2` — Verifies with a button click or image selections
             
         - `"I am not a robot" Checkbox` Validate requests with the _"I'm not a robot"_ checkbox
         - `Invisible reCAPTCHA badge` Validate requests in the background
