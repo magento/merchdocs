@@ -66,7 +66,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
     ![Google reCAPTCHA - keys]({% link images/images/recaptcha-keys.png %})
     
 {:.bs-callout-info}
-**Pay attention!** Not all keys are applicable for all types of reCAPTCHA and could lead to unexpected behavior. Example Google reCAPTCHA keys generated for _reCAPTCHA v2 "I'm not a robot"_ will not work with _reCAPTCHA v2 Invisible_ and could block functionality where reCAPTCHA is enabled.
+**Important!** Not all keys are applicable for all types of reCAPTCHA, and misapplying them could lead to unexpected behavior. For example, Google reCAPTCHA keys generated for _reCAPTCHA v2 "I'm not a robot"_ will not work with _reCAPTCHA v2 Invisible_ and could block functionality where reCAPTCHA is enabled.
     
 
 ## Step 2: Configure Google reCAPTCHA in Magento
