@@ -9,7 +9,7 @@ _Customer Login with reCAPTCHA v2_
 
 [Google reCAPTCHA][1] verifies users with increased security and reduced clicks for each of completion, which can be implemented in several ways:
 
-1. reCAPTCHA v2  verifies users and customers using an on-click feature and includes two types
+1. reCAPTCHA v2 verifies users and customers using an on-click feature and one of the following verification methods:
 
     - _"I am not a robot"_ Checkbox Validate requests with the "I'm not a robot" checkbox. Users and customers  need to click the checkbox and possibly select specific images to complete a challenge.
     - Invisible reCAPTCHA badge (**recommended**) performs background verification without user interaction. Users and customers are automatically verified and possibly select specific images to complete a challenge.
