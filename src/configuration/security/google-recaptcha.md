@@ -50,7 +50,7 @@ Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini`�
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--|--|--|
 |Enable|Website|Indicates if Google reCAPTCHA protection for the storefront pages is enabled. Options: Yes, No (default)|
-|Theme|Global|Determines the theme used for Google reCAPTCHA box on the Magento storefront pages. See examples at [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}). Options: Light Theme (default) / Dark Theme  <br/>**_Note:_** Applicable only to _reCaptcha v2("I am not a robot")_.|
+|Theme|Global|Determines the theme used for the Google reCAPTCHA box on the Magento storefront pages. See examples at [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}). Options: Light Theme (default) / Dark Theme  <br/>**_Note:_** Applicable only to _reCaptcha v2("I am not a robot")_.|
 |Language Code|Store View|Determines the languages used for the widget. This forces the UX text to render in the selected language. If not configured, the widget auto-detects the user's language.|
 |Size|Website|Determines the size for the Google reCAPTCHA box on the Magento storefront pages. See examples at [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}). Options: Normal (default) / Compact  <br/>**_Note:_** Applicable only to _reCaptcha v2("I am not a robot")_.|
 |Minimum score|Website|Determines the size minimal score for the Google reCAPTCHA to verify if an interaction is legitimate on the Magento storefront pages. Value from `0.0` to `1.0` where `1.0` is very likely a good interaction, `0.0` is very likely a bot. See examples at [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}). <br/>**_Note:_** Applicable only to _Invisible reCaptcha v3_.|
