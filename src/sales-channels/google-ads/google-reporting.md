@@ -15,9 +15,9 @@ When accessing Google Shopping ads Channel, the dashboard provides aggregated re
 ![]({% link images/images/sales-channels/google/ad-campaigns.png %}){: .zoom}
 *Ad Campaigns Dashboard*
 
-## Magento Business Intelligence Reporting
+## MBI
 
-Expand your reporting options with Magento Business Intelligence (MBI). We provide links to create a new account, or request to activate Google Shopping ads Channel reports on an existing account. To get started with MBI, select one of the linked options. MBI Essentials provides a Google Shopping Performance Dashboard to review the aggregated results of your Smart Shopping campaigns. MBI Pro provides the features of Essentials and additional options to add data sets to further enhance reporting.
+Expand your reporting options with Magento Business Intelligence (MBI). We provide links to create a new account, or request to activate Google Shopping ads Channel reports on an existing account. To get started with MBI, select one of the linked options. MBI provides a Google Shopping Performance Dashboard to review the aggregated results of your Smart Shopping campaigns. Additionally, you can add data sets to further enhance reporting.
 
 * Account performance
 * Campaign performance
