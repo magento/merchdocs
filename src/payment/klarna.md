@@ -6,11 +6,7 @@ Klarna lets your customers choose how they want to pay, and supports the purchas
 
 ## Changes In the Latest Release
 
-**New Features**
-
-- Klarna now supports B2B payments for select merchants in Sweden and Germany. To use this feature, B2B payments must be enabled in your Klarna account.  To learn more, contact [Klarna Merchant Support][1].
-- Klarna now supports [PayBright][2] with extended payment options for Canadian merchants.
-- Klarna has a new logo and payment badge that features the company name with a pink background.
+In the Magento configuration, the Klarna Payments section has a new "Data sharing on load" field that can be set to share customer data after the transaction is authorized, or when the Klarna payment method is selected during checkout.
 
 ## Klarna payment methods
 
