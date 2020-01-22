@@ -34,7 +34,9 @@ The [503 Service Unavailable]({% link configuration/general/general.md %}) page 
 
 The About Us page is linked from the footer of your store. You can include images, video, links to press releases and announcements. The sample page has an image on the right, and one of a decorative sort to indicate the end of the page.
 
-![]({% link images/images/storefront-customer-service.png %}){: .zoom}
-_Customer Service_
+## Customer Service
 
 The Customer Service page is another node in the page hierarchy. The two headers on the page have content that only becomes visible when the header is clicked.
+
+![]({% link images/images/storefront-customer-service.png %}){: .zoom}
+_Customer Service_

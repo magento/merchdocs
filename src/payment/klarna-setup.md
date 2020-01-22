@@ -20,7 +20,7 @@ _Klarna Merchant Portal_
 
 1. Do one of the following:
 
-   - To create a new account, Click <span class="btn">Get Started</span>. Then, complete the onboarding process to create an account. When you receive the confirmation email from Klarna, click <span class="btn">Activate account</span> to log in.
+   - To create a new account, click <span class="btn">Get Started</span>. Then, complete the onboarding process to create an account. When you receive the confirmation email from Klarna, click <span class="btn">Activate account</span> to log in.
    - If you already have an account, click **Log in** in the upper-right corner.
 
      ![Create a Klarna Merchant Account]({% link images/images/payments-klarna-merchant-account-create.png %}){: .zoom}
@@ -34,20 +34,20 @@ _Klarna Merchant Portal_
    Then, do the following:
 
    - On the **API Credentials** tab, click <span class="btn">Generate new API credentials</span>. Then when prompted, click **Create credentials**.
-   - After your credentials are generated, click **Download as .txt**. Look in the area where your browser saves downloads and open the file. Keep the file open, and save it in a place where you can find it. 
-   - Mark the checkbox to confirm that you have saved your credentials, and click **Close**.
+   - After your credentials are generated, click **Download as .txt**. Look in the area where your browser saves downloads and open the file. Keep the file open, and save it in a place where you can find it.
+   - Select the checkbox to confirm that you have saved your credentials and click **Close**.
 
      ![Generate API Credentials]({% link images/images/payments-klarna-dashboard-playground-settings.png %}){: .zoom}
      _Generate API Credentials_
 
-1.   Click the **Menu** icon in the upper-left corner. Then in the sidebar under **Preferences**, click **Branding**.
+1. Click the **Menu** icon in the upper-left corner. Then in the sidebar under **Preferences**, click **Branding**.
 
      In the box at the top of the page, copy your **Merchant ID** and paste it into the text file with your API credentials. You will need this information to complete the Magento configuration.
 
      ![Branding]({% link images/images/payments-klarna-portal-brand.png %}){: .zoom}
      _Branding_
 
-1.   You can return to your Klarna account later to complete the remaining settings.
+     You can return to your Klarna account later to complete the remaining settings.
 
 ## Step 2: Configure Magento
 
