@@ -29,8 +29,6 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 |Topic |Change|
 |--- |--- |
-|[Klarna]({% link configuration/sales/klarna.md %})|The Klarna Payments configuration has a new "Data sharing on load" field that determines if customer data is shared after the transaction is authorized, or when the Klarna payment method is selected during checkout.|
-|[Setting Up Klarna]({% link payment/klarna-setup.md %})|Updated the instructions to include the new "Data sharing on load" field.|
 |[Catalog Images and Video]({% link catalog/catalog-images-video.md %}) <br/>[Creating Categories]({% link catalog/category-create.md %}) <br/>[Inserting an Image]({% link cms/editor-insert-image.md %}) <br/>[Media Storage]({% link cms/media-storage.md %}) <br/>{% if "Default.B2B Only" contains site.edition %}[Image]({% link cms/page-builder-media-image.md %}) (Page Builder) <br/>{% endif %}[System]({% link configuration/advanced/system.md %}) (configuration)|Updated content in media topics to reflect the new Adobe Stock integration.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
 |[Add Products]({% link cms/page-builder-add-content-products.md %}) <br/>[Slider]({% link cms/page-builder-media-slider.md %})|Updated content for the Page Builder Carousel layout.|<!--{% endif %}--><!--{% if "Default.B2B Only" contains site.edition %}-->
 |[Role Resources]({% link system/permissions-role-resources.md %}) <br/>[Updating a Company Profile]({% link customers/account-company-update.md %}) <br/>[Configuring Quotes]({% link stores/b2b-configure-quotes.md %}) <br/>[Customers]({% link configuration/customers.md %}) (configuration)|Updated content for improved access control support for B2B features.|
