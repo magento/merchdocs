@@ -88,8 +88,9 @@ _Klarna Merchant Portal_
 
    - If your Klarna account supports B2B payments, set **Enable B2B** to `Yes`.
    - If you want Klarna to prepare a set of personalized credit options for each customer, set **Data sharing** to `Yes`.
-   -Set **Data sharing on load** to one of the following:
-   
+
+   - Set **Data sharing on load** to one of the following:
+
      |**No** |Customer billing and shipping address information is shared with Klarna after the transaction is authorized. If a shipping address error is encountered during authorization, the customer is instructed to return to the previous step and correct the problem.|
      |**Yes** |Customer billing and shipping address information is shared with Klarna when the payment method is selected during the checkout process.|
 
