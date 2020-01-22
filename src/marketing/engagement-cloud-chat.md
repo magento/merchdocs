@@ -17,7 +17,7 @@ When Chat is enabled in the Magento configuration, the Chat option appears in th
 ![]({% link images/images/engagement-cloud-account-chats.png %}){: .zoom}
 _Live Chat from Engagement Cloud Account_
 
-## To access Chat settings:
+## Access Chat settings
 
 Do one of the following:
 
