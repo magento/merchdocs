@@ -46,11 +46,11 @@ If you are new to Engagement Cloud, you must first sign up for a free account. T
 
     If you set up the Chat widget at a later time, you will be required to log in to your Engagement Cloud account.  When your account opens, click the **Chat** option in the sidebar on the left. Then at the top of the page, choose **Settings**.
 
-1. In the **Theme** section **For new visitors**, click **Sonar**.
+1. In the **Theme** section **For new visitors**, click <span class="btn">Sonar</span>.
 
     This setting makes the Chat button glow green for new visitors to your store.
 
-    The diagram to the right shows how the chat window looks with the current settings.  For this example, we use the default color settings.
+    The diagram to the right shows how the chat window looks with the current settings.
 
 1. When complete, click <span class="btn">Save and generate code</span>.
 
