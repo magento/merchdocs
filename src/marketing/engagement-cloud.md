@@ -7,16 +7,21 @@ redirect_from:
 
 Engagement Cloud, powered by [dotdigital][1], gives you the ability to produce professional, personalized communications and generated reports using data from your Magento store, including:
 
-- Customized email communications
-- [Chat]({% link marketing/engagement-cloud-chat.md -%})
-- Import contacts
-- Schedule campaigns
-- Rules to add logic
-- Automation for your campaigns
-- [Generated reports]({% link reports/customer-engagement.md -%})
+- [Chat with customers]({% link marketing/engagement-cloud-chat.md %})
+- [Customize email campaigns][2]
+- [Import contacts][3]
+- [Add logic][4]
+- [Automate campaigns][5]
+- [Schedule campaigns][6]
+- [Generate reports]({% link reports/customer-engagement.md %})
 
-## Changes in the Latest Release
+## Changes In the Latest Release
 
-Engagement Cloud includes a new [Chat]({% link marketing/engagement-cloud-chat.md -%}) widget that makes it easy for shoppers to communicate in real time with members of your team. The [Chat Settings]({% link configuration/engagement-cloud/chat-settings.md -%}) can be accessed from the Engagement Cloud section of the Magento configuration, or directly from your Engagement Cloud account.
+Engagement Cloud includes a new [Chat]({% link marketing/engagement-cloud-chat.md -%}) widget that makes it easy for shoppers to communicate in real time with customers as they shop in your store. The [Chat Settings]({% link configuration/engagement-cloud/chat-settings.md -%}) can be accessed from the Engagement Cloud section of the Magento configuration, or directly from your Engagement Cloud account.
 
 [1]: https://dotdigital.com/
+[2]: https://support.dotdigital.com/hc/en-gb/articles/115001930050-Email-campaigns-an-overview
+[3]: https://support.dotdigital.com/hc/en-gb/articles/212211898-Importing-contacts-into-an-address-book
+[4]: https://support.dotdigital.com/hc/en-gb/articles/212213938-Using-decisions-to-branch-automated-programs
+[5]: https://support.dotdigital.com/hc/en-gb/articles/212213998-Automated-and-triggered-campaigns-an-overview
+[6]: https://support.dotdigital.com/hc/en-gb/articles/212213998-Automated-and-triggered-campaigns-an-overview
