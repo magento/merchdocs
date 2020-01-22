@@ -2,7 +2,7 @@
 title: Email Templates
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) >  [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Email Templates
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Email Templates
 
 ## Email Templates
 
