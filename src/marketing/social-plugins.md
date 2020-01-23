@@ -34,39 +34,35 @@ _Facebook Plugins_
 
 1. On the _Admin_ sidebar, go to **Content** > Elements > **Blocks**.
 
-1. In the upper-right corner, click click **Add New Block** and do the following:
+1. In the upper-right corner, click **Add New Block**.
 
-    - Enter a descriptive **Block Title** for internal reference. For example: `Facebook Like Button`.
+1. Enter a descriptive **Block Title** for internal reference. For example: `Facebook Like Button`.
 
-    - Assign a unique **Identifier** to the block, using all lowercase characters, and underscores instead of spaces. For example: `facebook_like_button`.
+1. Assign a unique **Identifier** to the block, using all lowercase characters, and underscores instead of spaces. For example: `facebook_like_button`.
 
-    - If your Magento installation has multiple store views, choose each **Store View** where the block is to be available.
+1. If your Magento installation has multiple store views, choose each **Store View** where the block is to be available.
 
-    <!--{% if "Default.EE-B2B" contains site.edition %}-->
-    - If using Page Builder, add an [HTML Code]({% link cms/page-builder-elements-html-code.md %}) block to the stage, and paste the snippet of code that you copied from the Facebook site. Otherwise, paste the snippet of code into the **Content** box.
-    <!--{% endif %}-->
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    - Paste the snippet of code that you copied from the Facebook site into the **Content** box.
-    <!--{% endif %}-->
+1. Add the code snippet to the block content:
 
-    - If the block is not ready to go live, set **Enable Block** to `No`.
+    - {:.edition-ee}If using Page Builder, add an [HTML Code]({% link cms/page-builder-elements-html-code.md %}) block to the stage and paste the snippet of code that you copied from the Facebook site. Otherwise, paste the snippet of code into the **Content** box.
+
+    - {:.edition-ce}Paste the snippet of code that you copied from the Facebook site into the **Content** box.
+
+1. If the block is not ready to go live, set **Enable Block** to `No`.
 
 1. When complete, click <span class="btn">Save Block</span>.
 
 ## Step 3. Place the Block
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-1. If using Page Builder, follow the instructions to [add the block]({% link cms/page-builder-add-content-block.md %}) to the stage.
+1. Add the block.
 
-   Otherwise, on the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
-<!--{% endif %}-->
-<!--{% if "Default.CE Only" contains site.edition %}-->
-1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
-<!--{% endif %}-->
+   - {:.edition-ee}If using Page Builder, follow the instructions to [add the block]({% link cms/page-builder-add-content-block.md %}) to the stage. Otherwise, on the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
+
+   - {:.edition-ce}On the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
 
 1. In the upper-right corner, click **Add Widget** and do the following:
 
-   - In the Settings section, set **Type** to `CMS Static Block` and click <span class="btn">Continue</span>.
+   - {:.edition-b2b}In the Settings section, set **Type** to `CMS Static Block` and click <span class="btn">Continue</span>.
 
    - Verify that **Design Theme** is set to the current theme.
 

@@ -32,34 +32,31 @@ Coupon codes can be sent by email, or included in newsletters, catalogs, and adv
 
 1. Make the coupon valid for a period of time.
 
-    <!--{%- if "Default.CE Only" contains site.edition -%}-->
-    Complete the **From** and **To** dates. To select the date, click the **Calendar** (![]({% link images/images/btn-calendar.png %})) icon next to each field. If you leave the date range empty, the rule does not expire.
-    <!--{%- endif -%}-->
-    <!--{%- if "Default.EE-B2B" contains site.edition -%}-->
-    Do one of the following:
+    - {:.edition-ce}Complete the **From** and **To** dates. To select the date, click the **Calendar** (![]({% link images/images/btn-calendar.png %})) icon next to each field. If you leave the date range empty, the rule does not expire.
 
-    **Schedule New Update**
+    - {:.edition-ee}Do one of the following:
 
-    - Click <span class="btn">Schedule New Update</span> in the upper-right corner of the page. Then, do the following:
+      - **Schedule New Update**
+
+         - Click <span class="btn">Schedule New Update</span> in the upper-right corner of the page. Then, do the following:
 
         ![]({% link images/images/price-rule-cart-coupon-schedule-new-update.png %}){: .zoom}
         *Schedule Update*
 
-    - Enter the **Update Name** and **Description**.
+          - Enter the **Update Name** and **Description**.
 
-    - Choose the **Start Date** and **End Date** from the Calendar ( ![Calendar icon]({% link images/images/btn-calendar.png %}) ). If you leave the date range empty, the rule will not expire.
+          - Choose the **Start Date** and **End Date** from the Calendar ( ![Calendar icon]({% link images/images/btn-calendar.png %}) ). If you leave the date range empty, the rule will not expire.
 
-    - When complete, click <span class="btn">Save</span>.
+          - When complete, click <span class="btn">Save</span>.
 
-      ![Cart price rule - scheduled change]({% link images/images/price-rule-cart-coupon-scheduled-change.png %}){: .zoom}
-      _Scheduled Change_
+          ![Cart price rule - scheduled change]({% link images/images/price-rule-cart-coupon-scheduled-change.png %}){: .zoom}
+          _Scheduled Change_
 
-    **Assign to Existing Update**
+      - **Assign to Existing Update**
 
-    - Select **Assign to Another Update**.
+          - Select **Assign to Another Update**.
 
-    - Find the update in the list, and click <span class="btn">Select</span>.
-    <!--{%- endif -%}-->
+          - Find the update in the list, and click <span class="btn">Select</span>.
 
 1. Complete the [cart price rule]({% link marketing/price-rules-cart.md %}) as needed.
 

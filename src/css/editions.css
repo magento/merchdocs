@@ -1,0 +1,133 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+li.edition-ee, 
+li.edition-ce, 
+li.edition-b2b {
+  list-style: none;
+  position: relative;
+}
+
+li.edition-ee::before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    top: .2em;
+    left: -1.5em;
+    background-image: url('i/ee-only.svg');
+    background-size: 100%;
+}
+
+li.edition-ce::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  top: .2em;
+  left: -1.5em;
+  background-image: url('i/ce-only.svg');
+  background-size: 100%;
+}
+
+li.edition-b2b::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  top: .2em;
+  left: -1.5em;
+  background-image: url('i/b2b-only.svg');
+  background-size: 100%;
+}
+
+.edition-ee {
+  background-color: #FCE7DD
+}
+
+.edition-ce {  
+  background-color: #EEF0F0
+}
+
+.edition-b2b{ 
+  background-color: #DEF1F2
+}
+
+div.edition-ee,
+div.edition-ce,
+div.edition-b2b {
+  position: relative;
+  margin: 20px 0 20px 0;
+  padding: 15px 15px 0px 52px;
+  border-radius: 2px;
+}
+
+div.edition-ee::before,
+p.edition-ee::before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  top: 13px;
+  left: 15px;
+  background-image: url('i/ee-only.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+div.edition-ee{  
+  border: 1px solid #F5700F;
+}
+
+div.edition-ce::before,
+p.edition-ce::before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  top: 13px;
+  left: 15px;
+  background-image: url('i/ce-only.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+div.edition-ce {  
+  border: 1px solid #636365;
+}
+
+p.edition-ee,
+p.edition-ce,
+p.edition-b2b {
+  position: relative;
+  margin: 20px 0 20px 0;
+  padding: 15px 15px 10px 52px;
+  border-radius: 2px;
+}
+
+.caption-edition-ee::after {
+  display: inline-block;
+  content: " (Magento Commerce)";
+  color: #F5700F;
+  padding-left: 8px;
+}
+
+.caption-edition-ce::after {
+  display: inline-block;
+  content: " (Magento Open Source)";
+  color: #636365 ;
+  padding-left: 8px;
+}
+
+.caption-edition-b2b::after {
+  display: inline-block;
+  content: " (Magento Commerce for B2B)";
+  color: #23A3A7;
+  padding-left: 8px;
+}

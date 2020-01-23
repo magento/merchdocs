@@ -14,13 +14,8 @@ Complete the following steps to add a new rule, describe the conditions, and def
 
     - If you do not want the rule to go into effect immediately, set **Active** to `No`.
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![Cart price rule - rule information]({% link images/images/price-rule-cart-new.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE-B2B" contains site.edition %}-->
     ![Cart price rule - rule information]({% link images/images-ee/price-rule-cart-new.png %}){: .zoom}
-    <!--{% endif %}-->
-    _Rule Information_
+    <span class="caption-edition-ee">_Rule Information_</span>
 
 1. To establish the [scope]({% link configuration/scope.md %}) of the rule, do the following:
 
@@ -43,19 +38,12 @@ Complete the following steps to add a new rule, describe the conditions, and def
         | Uses per Coupon | Determines how many times the coupon code can be used. If there is no limit, leave the field blank. |
         | Uses per Customer | Determines how many times the coupon code can be used by the same registered customer who belongs to any of the selected customer groups. The setting does not apply to guest shoppers who are members of the NOT LOGGED IN customer group, or to customers who shop without logging in to their accounts. If there is no limit, leave the field blank. |
 
-      <!--{% if "Default.CE Only" contains site.edition %}-->
-      ![Cart price rule - coupon settings]({% link images/images/price-rule-cart-coupon-settings.png %}){: .zoom}
-      <!--{% endif %}-->
-      <!--{% if "Default.EE-B2B" contains site.edition %}-->
-      ![Cart price rule  - coupon settings]({% link images/images-ee/price-rule-cart-coupon-settings-ee.png %}){: .zoom}
-      <!--{% endif %}-->
-      _Coupon Settings_
+        To learn more, see [Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}).
 
-      To learn more, see [Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}).
-<!--{% if "Default.CE Only" contains site.edition %}-->
+        ![Cart price rule  - coupon settings]({% link images/images-ee/price-rule-cart-coupon-settings-ee.png %}){: .zoom}
+        <span class="caption-edition-ee">_Coupon Settings_</span>
 
-1. Use the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the **From** and **To** date range for the promotion.
-<!--{% endif %}-->
+    - {:.edition-ce}Use the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the **From** and **To** date range for the promotion.
 
 1. Enter a number to define the **Priority** of this price rule in relation to the Action settings of other price rules which are active at the same time.
 
@@ -64,17 +52,14 @@ Complete the following steps to add a new rule, describe the conditions, and def
 
 1. To apply the rule to published [RSS feeds]({% link marketing/rss-feed.md %}), set **Public In RSS Feed** to `Yes`.
 
-1. This is a good time to save your work. Click <span class="btn">Save and Continue Edit</span>.
+1. Click <span class="btn">Save and Continue Edit</span>.
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    After the rule is saved, the name of the cart price rule appears at the top of the page.
-    <!--{% endif %}-->
-    <!--{% if "Default.EE-B2B" contains site.edition %}-->
-    After the rule is saved, the name of the cart price rule and the Scheduled Changes box appear at the top of the page.
+    - {:.edition-ce}After the rule is saved, the name of the cart price rule appears at the top of the page.
+
+    - {:.edition-ee}After the rule is saved, the name of the cart price rule and the Scheduled Changes box appear at the top of the page.
 
     ![Cart price rule - scheduled changes]({% link images/images-ee/price-rule-cart-scheduled-changes.png %}){: .zoom}
-    [_Scheduled Changes_]({% link marketing/price-rule-cart-scheduled-changes.md %})
-    <!--{% endif %}-->
+    <span class="caption-edition-ee">[_Scheduled Changes_]({% link marketing/price-rule-cart-scheduled-changes.md %})</span>
 
 ## Step 2: Describe the Conditions
 
@@ -211,7 +196,10 @@ _Discount Label in Totals Section of Order_
 
     ![]({% link images/images/price-rule-cart-label-store-specific.png %}){: .zoom}
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+<div class="edition-ee" markdown="1">
+Step 5 applies to Magento Commerce only
+</div>
+
 ## Step 5: Add Related Dynamic Blocks (optional)
 
 [Dynamic Blocks]({% link cms/dynamic-blocks.md %}) that are associated with the rule appear in the storefront whenever the conditions are met.
@@ -234,18 +222,7 @@ _Discount Label in Totals Section of Order_
 1. Test the rule to make sure that it works correctly.
 
     Price rules are automatically processed with other system rules each night. When you create a new price rule, allow enough time for it to get into the system. Then, test the rule to make sure that it works correctly. As new rules are added, Magento recalculates the prices and the priorities accordingly.
-<!--{% endif %}-->
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-## Step 5: Save and Test the Rule
-
-1. When complete, click <span class="btn">Save Rule</span>.
-
-1. Test the rule to make sure that it works correctly.
-
-    Price rules are automatically processed with other system rules each night. When you create a new price rule, allow enough time for it to get into the system. Then, test the rule to make sure that it works correctly. As new rules are added, Magento recalculates the prices and the priorities accordingly.
-
-<!--{% endif %}-->
 ## Field Descriptions
 
 ### Rule Information
@@ -258,11 +235,16 @@ _Discount Label in Totals Section of Order_
 |Websites|(Required) Identifies the websites where the rule can be used.
 |Customer Groups|(Required) Identifies the customer groups to which the rule applies.
 |Coupon|(Required) Indicates if a coupon is associated with the rule. Options: <br/>**No Coupon** - No coupon is associated with the rule. <br/>**Specific Coupon** - A specific coupon is associated with the rule. <br/>**Coupon Code** - When prompted, enter the Coupon Code that the customer must enter to take advantage of the promotion. <br/>**Use Auto Generation** - Select the checkbox to automatically generate multiple coupon codes that can be used with the promotion. <br/>**Auto** - Displays the Coupons Information section to define the format of the  coupon codes to be generated.|
-|Uses per Customer|Determines how many times the coupon code can be used by the same registered customer who belongs to any selected customer group. Does not apply to guest shoppers who are members of the NOT LOGGED IN customer group, or to customers who shop without logging in to their accounts. For no limit, leave blank.|<!--{% if "Default.CE Only" contains site.edition %}-->
-|From|The first date the coupon can be used.|
-To|The last date the coupon can be used.|<!--{% endif %}-->
+|Uses per Customer|Determines how many times the coupon code can be used by the same registered customer who belongs to any selected customer group. Does not apply to guest shoppers who are members of the NOT LOGGED IN customer group, or to customers who shop without logging in to their accounts. For no limit, leave blank.|
 |Priority|A number that indicates the priority of this rule in relation to others. The highest priority is number 1.|
 |Public in RSS Feed|Determines if the promotion is included in your store’s public RSS feed. Options:  Yes / No|
+
+<div class="edition-ce" markdown="1">
+Fields in Magento Open Source only
+</div>
+
+|From|The first date the coupon can be used.|
+|To|The last date the coupon can be used.|
 
 ### Conditions
 
@@ -278,8 +260,12 @@ Specifies the conditions that must be met before the cart price rule goes into a
 |Discount Qty Step (Buy X)|Sets the number of products represented by `X` in a `Buy X Get Y Free` promotion.|
 |Apply to Shipping Amount|Determines if the discount is applied separately to the subtotal and shipping amounts. Otherwise, it is applied only to the subtotal. Options: Yes / No
 |Discard Subsequent Rules|Determines if additional rules can be applied to this purchase. To prevent multiple discounts from being applied to the same purchase, select `Yes`.  Options: Yes / No|
-|Free Shipping| Determines if free shipping is included in the promotion, and if so, for which items. Options: <br/>**No** - Free shipping is not available when a coupon that is based on the rule is used. <br/>**For matching items only** - Free shipping is available only for specific items in the cart that match the rule. <br/>**For shipment with matching items** - Free shipping is available for the entire cart when a coupon that is based on the rule is used.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
-|Add Reward Points|Specifies the number of [reward points]({% link marketing/rewards-loyalty.md %}) that are earned by the customer whenever the price rule is applied.|<!--{% endif %}-->
+|Free Shipping| Determines if free shipping is included in the promotion, and if so, for which items. Options: <br/>**No** - Free shipping is not available when a coupon that is based on the rule is used. <br/>**For matching items only** - Free shipping is available only for specific items in the cart that match the rule. <br/>**For shipment with matching items** - Free shipping is available for the entire cart when a coupon that is based on the rule is used.|
+
+<div class="edition-ee" markdown="1">
+Fields in Magento Commerce only
+</div>
+|Add Reward Points|Specifies the number of [reward points]({% link marketing/rewards-loyalty.md %}) that are earned by the customer whenever the price rule is applied.|
 
 ### Labels
 
@@ -288,12 +274,9 @@ Specifies the conditions that must be met before the cart price rule goes into a
 |Default Rule Label for All Store Views|A default label that identifies the discount and can be used for all store views.|
 |Store View Specific Labels|If applicable, specifies a different label to identify the discount for each store view.|
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-### Related Dynamic Blocks
+### <span class="caption-edition-ee">Related Dynamic Blocks</span>
 
 Identifies any dynamic block(s) that are associated with the rule.
-
-<!--{% endif %}-->
 
 <!--
   This is a style declaration so that long field names are not multi-wrapped by table auto styling for column widths.
