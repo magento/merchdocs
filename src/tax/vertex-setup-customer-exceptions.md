@@ -126,13 +126,13 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
 1. Choose the **Upload Multiple Exceptions** tab and click **Download File Format Template**.
 
-1. Locate the `ExceptionFileFormat.csv` file in your downloads location and open the file in your spreadsheet.
+1. Locate the `ExceptionFileFormat.csv` file in your downloads location and open the file in your spreadsheet application.
 
    For information about each item in the template, see the following column descriptions:
 
     ![]({% link images/images/tax-vertex-configure-exception-upload-template.png %})
 
-1. Complete the upload data according to the following field descriptions. Then, save it as a comma-separated value (CSV) file.
+1. Complete the upload data according to the following field descriptions and save it as a comma-separated value (CSV) file.
 
     **Column Descriptions**
 
