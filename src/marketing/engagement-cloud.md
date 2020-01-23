@@ -17,7 +17,9 @@ Engagement Cloud, powered by [dotdigital][1], gives you the ability to produce p
 
 ## Changes In the Latest Release
 
-Engagement Cloud includes a new [Chat]({% link marketing/engagement-cloud-chat.md -%}) widget that makes it easy for shoppers to communicate in real time with customers as they shop in your store. The [Chat Settings]({% link configuration/engagement-cloud/chat-settings.md -%}) can be accessed from the Engagement Cloud section of the Magento configuration, or directly from your Engagement Cloud account.
+- Engagement Cloud includes a new [Chat]({% link marketing/engagement-cloud-chat.md %}) widget that makes it easy for shoppers to communicate in real time with customers in your store. Chat can be accessed from the Engagement Cloud section of the Magento configuration, or directly from your Engagement Cloud account.
+- In the [Email Template]({% link configuration/engagement-cloud/email-templates.md %}) configuration, additional campaigns can be synced with Magento to become options in lists of available email templates.
+- In the [Developer]({% link configuration/engagement-cloud/developer.md %}) configuration under Import Settings, the /pub folder can be removed from synced URLs.
 
 [1]: https://dotdigital.com/
 [2]: https://support.dotdigital.com/hc/en-gb/articles/115001930050-Email-campaigns-an-overview
