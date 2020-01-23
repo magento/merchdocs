@@ -1,5 +1,5 @@
 ---
-title: Customer Exceptions
+title: Vertex Customer Exceptions
 ---
 
 Under certain circumstances, customers who are normally required to pay taxes might be certified as exempt. The available exceptions vary, depending on the jurisdiction.
@@ -51,12 +51,12 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
     - In the _Customer Name_ field, enter the full name of the customer as it appears in the Magento Customers grid.
 
-    - Set **Customer Type** to `Code` or `Class`. The _Customer Type_ determines the value that is entered in the next field.
+    - Set **Customer Type** to `Code` or `Class`, which determines the value that is entered in the next field.
 
     - In the **Customer Code / Class** field, enter the corresponding Magento value, according to the Customer Type setting.
 
-        - **Code**—To identify a specific customer, enter [Vertex Customer Code]({% link customers/customer-account-update.md %}) from the customer account.
-        - **Class**—To identify a specific customer class, enter the name of the [customer group]({% link customers/customer-groups.md %}) that is associated with the tax class.
+        - **Code** — To identify a specific customer, enter [Vertex Customer Code]({% link customers/customer-account-update.md %}) from the customer account.
+        - **Class** — To identify a specific customer class, enter the name of the [customer group]({% link customers/customer-groups.md %}) that is associated with the tax class.
 
         The value must exactly match the corresponding Magento value found in the customer account or customer group.
 
@@ -69,8 +69,8 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
 1. To set **Tax Result**, do one of the following:
 
-    - Choose “Taxable” if the customer normally pays sales or use tax.
-    - Choose “Exempt” if the customer is exempt from paying sales or use tax.
+    - Choose `Taxable` if the customer normally pays sales or use tax.
+    - Choose `Exempt` if the customer is exempt from paying sales or use tax.
 
     ![]({% link images/images/tax-vertex-cloud-configure-exception-tax-result.png %}){: .zoom}
     _Tax Result_
@@ -79,8 +79,8 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
     - Set **Exception Type** to one of the following:
 
-        - **Exemption Certificate**—Certifies that the customer has permission to purchase merchandise for resale without paying sales or use tax at the time of purchase.
-        - **Direct Pay Permit**—For customers who aren’t sure if the items are for resale, permits the customer to purchase merchandise without paying sales or use tax at the time of purchase. The payment is deferred, and then paid directly to the tax authority, as applicable.
+        - `Exemption Certificate` — Certifies that the customer has permission to purchase merchandise for resale without paying sales or use tax at the time of purchase.
+        - `Direct Pay Permit` — For customers who aren’t sure if the items are for resale, permits the customer to purchase merchandise without paying sales or use tax at the time of purchase. The payment is deferred, and then paid directly to the tax authority, as applicable.
 
     - For the **Start Date** field, use the calendar to choose the date the customer exception becomes available to Vertex Cloud for tax calculations and reporting purposes.
 
@@ -88,7 +88,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
     - Set **Exception Jurisdiction** to the state or territory where the exception applies.
 
-    - Set **Exception Reason** to the code that identifies the reason for the exception, according to the jurisdiction. For the _Direct Pay Permit_ exception type, the field defaults to “Direct Pay Permit.”
+    - Set **Exception Reason** to the code that identifies the reason for the exception, according to the jurisdiction. For the _Direct Pay Permit_ exception type, the field defaults to `Direct Pay Permit`.
 
     - If the exception applies to a specific product, choose the **Product Name** from the list of products that have been mapped to Vertex Cloud.
 
@@ -126,11 +126,13 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
 1. Choose the **Upload Multiple Exceptions** tab and click **Download File Format Template**.
 
-1. Look for the `ExceptionFileFormat.csv` file at the bottom of the browser window. Then, open the file in your spreadsheet. For information about each item in the template, see the following column descriptions:
+1. Locate the `ExceptionFileFormat.csv` file in your downloads location and open the file in your spreadsheet application.
+
+   For information about each item in the template, see the following column descriptions:
 
     ![]({% link images/images/tax-vertex-configure-exception-upload-template.png %})
 
-1. Complete the upload data according to the following field descriptions. Then, save it as a comma-separated value (CSV) file.
+1. Complete the upload data according to the following field descriptions and save it as a comma-separated value (CSV) file.
 
     **Column Descriptions**
 

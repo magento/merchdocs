@@ -1,8 +1,10 @@
 ---
-title: Configuring Magento
+title: Configuring Magento for Vertex Tax Calculations
+redirect_from:
+  - /tax/vertex-test-configuration.html
 ---
 
-To complete the Magento configuration, you will need to enter a few values from Vertex Cloud. If you need help, see [Vertex Field Mapping]({% link tax/vertex-field-mapping.md %}).
+To complete the Magento configuration for Vertex tax calculations, you will need to enter a few values from Vertex Cloud. If you need help, see [Vertex Field Mapping]({% link tax/vertex-field-mapping.md %}).
 
 When enabled, the _Tax configuration_ page includes the following Vertex sections:
 
@@ -18,7 +20,7 @@ When enabled, the _Tax configuration_ page includes the following Vertex section
 
 1. To define the [scope]({% link configuration/scope.md %}) of the configuration for a multisite or multistore installation, set the **Store View** chooser in the upper-left corner to the specific website or store view that is to be configured.
 
-1. In the panel on the left, expand **Sales** and choose **Tax**.
+1. In the left panel, expand **Sales** and choose **Tax**.
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Vertex Settings** on the page to enable Vertex and configure initial settings.
 
@@ -34,7 +36,9 @@ When enabled, the _Tax configuration_ page includes the following Vertex section
 
     - Enter the **Vertex Trusted ID** from your Vertex Cloud account. To find your _Vertex Trusted ID_, log in to your Vertex Cloud account and go to **Settings** > **View All Connectors**.
 
-    - Verify and accept the default values for the [Vertex Calculation API URL](https://mgconnect.vertexsmb.com/vertex-wa/services/CalculateTax70) and [Vertex Address Validation API URL](https://mgconnect.vertexsmb.com/vertex-wa/services/LookupTaxAreas70). These connect the integration with Vertex Cloud.
+    - Verify the default values for the **Vertex Calculation API URL** and **Vertex Address Validation API URL**.
+
+      These connect the integration with Vertex Cloud and must match the URL displayed in your _Vertex Connectors_ page for the Magento connector in the **ERP Connector URL** and **Address Lookup URL** fields. Clear the **Use system value** checkbox and change these values if needed.
 
     - To determine when tax is calculated for an invoice according to the [workflow]({% link sales/order-workflow.md %}), set **When to send invoiced to Vertex** to one of the following:
 
@@ -117,7 +121,7 @@ If you need to identify taxability based on information in your Magento store be
 
 ### Step 2: Use the Flex Field in a Vertex Tax assist rule
 
-[Add a new tax assist rule][1] or edit an existing rule for your Vertex Cloud account that uses the configured flex field for tax calculation.
+[Add a new tax assist rule][5] or edit an existing rule for your Vertex Cloud account that uses the configured flex field for tax calculation.
 
 ![]({% link images/images/tax-vertex-cloud-tax-assist.png %}){: .zoom}
 _Vertex Tax Assist Rule_
@@ -265,4 +269,27 @@ By default, many of the following tax classes are initially set to `None`.
 
     - Set **Actions** to `Refresh`. Then, click **Submit**.
 
-[1]: https://helpcenter.vertexsmb.com/docs/company-configuration/tax-assist/add-a-tax-assist-rule/
+## Test the Vertex Configuration
+
+After completing the [configuration]({% link tax/vertex-configure-magento.md %}), your Magento store is connected to Vertex Cloud. Visit the [Vertex Cloud Help Center][1] to review your settings in more detail, and to learn how to enter [test transactions][2], [generate returns][3], and [run reports.][4]
+
+Vertex Cloud has excellent documentation with videos to help you come up to speed. When your testing is complete and you are ready, you can [Go Live][2] with the click of a button.
+
+![]({% link images/images/tax-vertex-cloud-help-center.png %}){: .zoom}
+
+### Vertex API Automatically Disabled
+
+When the Vertex connector is enabled and the [Display prices in Catalog]({% link configuration/sales/tax.md %}) is set to `Including Tax`, updating your product prices in the Magento catalog to include tax could significantly degrade Magento performance. In this situation, the Vertex connector will automatically disable and you will see an error message in the [Vertex configuration page]({% link tax/vertex-configure-magento.md %}). You must set this value to `Excluding Tax` to re-enable the Vertex connector.
+
+![]({% link images/images/vertex-error.png %}){: .zoom}
+_Vertex API error_
+
+### Vertex Cache Management
+
+When clearing caches using [Cache Management]({% link system/cache-management.md %}), Vertex has a cache option included. This option improves performance during the checkout process.
+
+[1]: https://helpcenter.vertexsmb.com/
+[2]: https://helpcenter.vertexsmb.com/docs/getting-started/test-mode/
+[3]: https://helpcenter.vertexsmb.com/docs/returns/manage-tax-returns-test-mode-vs-live/
+[4]: https://helpcenter.vertexsmb.com/docs/reports/overview/
+[5]: https://helpcenter.vertexsmb.com/docs/company-configuration/tax-assist/add-a-tax-assist-rule/

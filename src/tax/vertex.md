@@ -11,15 +11,15 @@ The integration includes tax configuration for your stores, overrides per countr
 ![]({% link images/images/tile-vertex-exemption-certificates.png %}) | **Manage Exception Certificates**<br>Vertex makes it easy to manage customers by jurisdiction who have non-standard tax requirements.
 ![]({% link images/images/tile-vertex-prepare-returns.png %}) | **Generate Returns**<br>Vertex Cloud automatically regenerates signature-ready PDF returns and sends a message when the returns are available.
 
-## Changes In the Latest Releases
+## Changes in the Latest Releases
 
 ### Release 2.3.4
 
-{:.new}New Feature — **Address Validation**
+- {:.new}New Feature — **Storefront Address Validation**
 
-The Vertex Address Validation module is now included. When this functionality is enabled, the storefront prompts to correct address information on both the shipping and billing steps of the one-page checkout.
+The Vertex Address Validation module is now included. When you [configure this functionality]({% link tax/vertex-configure-address.md %}), the storefront prompts the customer to correct address information on both the shipping and billing steps of the one-page checkout.
 
-{:.fix}Enhancements
+- {:.fix}Enhancements
 
 - The Vertex Trusted ID is now encrypted when saved to the database and masked in the Vertex Log tables.
 - Fixed Product Taxes created through Magento are now submitted to Vertex. If you are using Fixed Product Taxes, please consult your Vertex representative to determine how this may affect your tax calculation.
