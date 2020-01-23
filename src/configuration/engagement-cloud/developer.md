@@ -2,7 +2,7 @@
 title: Developer
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Developer
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Developer
 
 ## Import Settings
 
