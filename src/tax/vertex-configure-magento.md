@@ -37,7 +37,7 @@ When enabled, the _Tax configuration_ page includes the following Vertex section
     - Enter the **Vertex Trusted ID** from your Vertex Cloud account. To find your _Vertex Trusted ID_, log in to your Vertex Cloud account and go to **Settings** > **View All Connectors**.
 
     - Verify the default values for the **Vertex Calculation API URL** and **Vertex Address Validation API URL**.
-  
+
       These connect the integration with Vertex Cloud and must match the URL displayed in your _Vertex Connectors_ page for the Magento connector in the **ERP Connector URL** and **Address Lookup URL** fields. Clear the **Use system value** checkbox and change these values if needed.
 
     - To determine when tax is calculated for an invoice according to the [workflow]({% link sales/order-workflow.md %}), set **When to send invoiced to Vertex** to one of the following:
