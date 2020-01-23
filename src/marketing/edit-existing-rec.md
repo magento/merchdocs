@@ -1,6 +1,5 @@
 ---
 title: Edit Existing Recommendations
-group: product-recommendations
 ---
 
 You can modify certain settings for an existing recommendation.

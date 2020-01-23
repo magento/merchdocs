@@ -1,6 +1,5 @@
 ---
 title: Best Practices Using Recommendations
-group: product-recommendations
 ---
 
 This section includes best practices using recommendations on your storefront.
