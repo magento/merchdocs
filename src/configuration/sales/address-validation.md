@@ -1,5 +1,5 @@
 ---
-title: Address Validation
+title: Vertex Address Validation
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Address Validation
