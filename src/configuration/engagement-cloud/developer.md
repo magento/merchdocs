@@ -6,14 +6,15 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Enga
 
 ## Import Settings
 
-![]({% link images/images/dotdigital-dash-import.png %}){: .zoom}
+![]({% link images/images/config-engagement-cloud-developer-import-settings.png %}){: .zoom}
 _Import Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Contact Sync Size|Website|Sets the batch size limit for the amount of contacts that can be loaded for every data synchronization.|
 |Transactional Data Sync Size|Website|Sets the batch size limit for the amount of transactions that can be loaded for every data synchronization.|
-|Enable Subscribers Sales Data Sync|Website|Indicates if subscriber sales data is  synchronized. This option is disabled by default due to the increased server load and synchronization times.|
+|Enable Subscribers Sales Data Sync|Website|Indicates if subscriber sales data is synchronized. This option is disabled by default due to the increased server load and synchronization times.|
+|Remove /pub directory from URLs|Global|Determines if the /pub path is included or removed from URLs. Options:<br /> **Yes**: Removes the /pub path from URLs.<br /> **No**: Leaves the /pub path in URLs.|
 
 ## Sync Settings
 
