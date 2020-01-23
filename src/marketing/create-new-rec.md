@@ -1,11 +1,12 @@
 ---
 title: Create New Recommendation
+group: product-recommendations
 ---
 
 The **Create New Recommendation** page allows you to configure which recommendation type you want to appear on a specific page.
 
 !!!
-global exclusions...
+Need to document global exclusions...
 !!!
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Product Recommendations**.

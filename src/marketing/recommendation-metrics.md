@@ -1,17 +1,18 @@
 ---
 title: Recommendation Metrics
+group: product-recommendations
 ---
 
 To analyze how well your recommendations are performing, Magento collects the following metrics:
 
-- **Impressions** - Number of Recommendation units that were rendered on the page. Note that the recommendation can be rendered but not within the viewport of the shopper's browser.
+-  **Impressions** - Number of times a Recommendation unit is loaded and rendered on a page. Note that the recommendation can be rendered on a page but not viewed by the shopper; for example, a Recommendation unit can be loaded “below the fold” of the browser’s viewport.
 
-- **Viewable Impressions** - Number of Recommendation units that appeared in the viewport of the shopper's browser. Magento counts this as being viewable.
+-  **Views** - Number of Recommendation units that appear in the viewport of the shopper's browser (e.g. scrolled into view)
 
-- **Clicks** - Number of units that were clicked.
+-  **Clicks** - Number of times a shopper clicks an item in a Recommendation unit.
 
-- **Viewability %** - Number of **Views** divided by the number of **Impressions** for the Recommendation unit.
+-  **Viewability %** - Percentage of Recommendation unit impressions that register a view.
 
-- **Click-through rate (CTR) %** - Number of **Clicks** divided by the number of **Views** for the Recommendation unit.
+-  **Click-through rate (CTR) %** - Percentage of Recommendation unit impressions that register a click.
 
-- **Revenue** - Revenue driven by a recommendation. Revenue is calculated by the total value of the items purchased (including tax) after clicking on a product from the Recommendations unit.
+-  **Revenue** - Revenue driven by a Recommendation. Revenue is calculated by the total value of items that were clicked on in a Recommendation unit and ultimately purchased.

@@ -1,5 +1,6 @@
 ---
 title: Edit Existing Recommendations
+group: product-recommendations
 ---
 
 You can modify certain settings for an existing recommendation.
@@ -12,12 +13,12 @@ You can modify certain settings for an existing recommendation.
 
 1. You can modify the following settings:
 
-    * Recommendation name
-    * Placement
-    * Position
-    * Number of products to display
-    * Display name
-    * Excluded categories
+    -  Recommendation name
+    -  Placement
+    -  Position
+    -  Number of products to display
+    -  Display name
+    -  Excluded categories
 
     {:.bs-callout-info}
     You cannot modify the page type or recommendation type for an existing recommendation.
