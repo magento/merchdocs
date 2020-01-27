@@ -18,7 +18,7 @@ _My Orders_
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 ## Filter orders
 
-Initial _My Orders_ results contain matching orders from subordinate users from all websites within the Magento instance.
+Your initial _My Orders_ results also contain matching orders from subordinate users from all websites within the Magento instance.
 Use Order filters to quickly find records within the results.
 To show the filter options, select the Filter button. Use the Close button to hide the filters.
 
