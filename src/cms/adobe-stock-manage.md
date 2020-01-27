@@ -87,7 +87,7 @@ searching the millions of assets available via Adobe Stock.
     |Filter|Description|
     |---|---|
     |Subcategory|Filter for images that are **Photos** or **Illustrations**|
-    |Orientation|Filter for images by size, shape and aspect|
+    |Orientation|Filter for images by size, shape, and aspect|
     |Color|Use a color pallette to filter for images by color|
     |Price|Filter for images based on their cost|
     |Safe search|Enable or disable Safe search|
