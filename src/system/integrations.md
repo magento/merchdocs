@@ -9,7 +9,7 @@ _Integrations_
 
 ## Onboarding workflow
 
-1. **Authorize the integration** - Go to the system/integration screen, find the relevant integration, and authorize.
+1. **Authorize the integration** - Go to the **System** > _Extensions_ > **Integrations** screen, find the relevant integration, and authorize.
 1. **Verify and establish login** - When prompted, accept the access requested. If redirected to a third-party, log in to the system, or create a new account. After a successful login, you return to the integration page.
 1. **Receive confirmation of authorized integration** - The system sends notification that the integration has been authorized successfully. After setting up an integration and receiving the credentials, it is no longer necessary to make calls to access or request tokens.
 

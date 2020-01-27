@@ -78,7 +78,7 @@ The checkbox in the first column of the list identifies each record that is a ta
 |**Content**|||
 |*Elements*|||
 ||Pages|Delete<br/>Disable<br/>Enable<br/>Edit|
-||Blocks|DeleteEdit|
+||Blocks|Delete<br/>Edit|
 |**Reports**|||
 ||Refresh Statistics|Refresh Lifetime Statistics<br/>Refresh Statistics for the Last Day|
 |**Stores**|||
