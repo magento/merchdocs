@@ -66,3 +66,10 @@
     top: 20%;
   }
 }
+
+/* Banner on top of the site header */
+.message-banner {
+    margin: 0;
+    padding: 10px;
+  }
+  

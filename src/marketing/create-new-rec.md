@@ -1,5 +1,6 @@
 ---
 title: Create New Recommendation
+path: product-recommendations
 ---
 
 The **Create New Recommendation** page allows you to configure which recommendation type you want to appear on a specific page.

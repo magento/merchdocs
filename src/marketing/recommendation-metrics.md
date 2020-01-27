@@ -1,5 +1,6 @@
 ---
 title: Recommendation Metrics
+path: product-recommendations
 ---
 
 To analyze how well your recommendations are performing, Magento collects the following metrics:
