@@ -16,10 +16,11 @@ Customers have access to all of their orders from their account. Orders can be v
 _My Orders_
 
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-## Search for an order
+## Filter orders
 
-Use the Order Search fields to filter your order history.
-Search results contain matching orders from subordinate users from all websites within the Magento instance.
+Initial _My Orders_ results contain matching orders from subordinate users from all websites within the Magento instance.
+Use Order filters to quickly find records within the results.
+To show the filter options, select the Filter button. Use the Close button to hide the filters.
 
 Fill in one or more fields to filter by:
 
