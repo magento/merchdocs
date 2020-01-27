@@ -2,7 +2,7 @@
 title: My Orders
 ---
 
-Customers have access to all of their orders from their account. Orders can be viewed, tracked, and resubmitted as new orders. Depending on the status of the order, customers can print their orders, invoices, shipments, and refund records.
+Customers have access to all of their orders from their account. Orders can be viewed, filtered, tracked, and resubmitted as new orders. Depending on the status of the order, customers can print their orders, invoices, shipments, and refund records.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/customer-account-my-orders.png %}){: .zoom}
@@ -20,7 +20,7 @@ _My Orders_
 
 Your initial _My Orders_ results also contain matching orders from subordinate users from all websites within the Magento instance.
 Use Order filters to quickly find records within the results.
-To show the filter options,  click <span class="btn">Filter</span>. Click <span class="btn">Close</span> to hide the filters.
+To show the filter options, click <span class="btn">Filter</span>. Click <span class="btn">Close</span> to hide the filters.
 
 Fill in one or more fields to filter by:
 
@@ -60,33 +60,27 @@ _View Order_
 
 1. Click **Print Order**.
 
-1. Verify the output device, or choose another.
-
-1. Click <span class="btn">Print</span>.
+1. Follow the instructions in the Print dialog to complete the printing.
 
 ### Print Invoices
 
 1. On the **Invoices** tab, click one of the following:
 
-   -  Print All Invoices
+   -  **Print All Invoices**
 
-   -  Print Invoice
+   -  **Print Invoice**
 
-1. Verify the output device or choose another.
-
-1. Click <span class="btn">Print</span>.
+1. Follow the instructions in the Print dialog to complete the printing.
 
 ### Print Shipments
 
 1. On the **Order Shipments** tab, click one of the following:
 
-   -  Print All Shipments
+   -  **Print All Shipments**
 
-   -  Print Shipment
+   -  **Print Shipment**
 
-1. Verify the output device or choose another.
-
-1. Click <span class="btn">Print</span>.
+1. Follow the instructions in the Print dialog to complete the printing.
 
 ### Track a Shipment
 
@@ -100,10 +94,8 @@ _View Order_
 
 1. On the **Refunds** tab, click one of the following:
 
-   -  Print All Refunds
+   -  **Print All Refunds**
 
-   -  Print Refund
+   -  **Print Refund**
 
-1. Verify the output device or choose another.
-
-1. Click <span class="btn">Print</span>.
+1. Follow the instructions in the Print dialog to complete the printing.
