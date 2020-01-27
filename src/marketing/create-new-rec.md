@@ -5,10 +5,6 @@ path: product-recommendations
 
 The **Create New Recommendation** page allows you to configure which recommendation type you want to appear on a specific page.
 
-!!!
-Need to document global exclusions...
-!!!
-
 1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Product Recommendations**.
 
 1. Click the **Create Recommendation** button.
@@ -27,6 +23,6 @@ Need to document global exclusions...
 
 1. In the **Storefront display label** section, enter the name for your recommendation. This is the name your shoppers will see on the storefront.
 
-1. (Optional) In the **Exclude categories** section, specify the product categories that should not be included as part of this recommendation. You can select up to 25 categories.
+1. (Optional) In the **Exclude categories** section, specify the product categories that should not be included as part of this recommendation. You can select up to 25 categories. You also can specify categories you want to exclude [globally]({% link marketing/product-recommendations.md %}#globalexclusions).
 
 1. Click **Save as Draft** to edit the recommendation at a later date or **Activate** if you want to enable the recommendation on your storefront.

@@ -46,3 +46,13 @@ The following table lists the storefront pages, where you can place the recommen
 |**Product Detail**|Below main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this|
 |**Cart**|Below main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this|
 |**Confirmation**|Below main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this|
+
+## Global Category Exclusions {#globalexclusions}
+
+You can specify categories that you never want to be included in your recommendations.
+
+1. Click the **Settings** button (gear icon) to display the **Global Category Exclusions** page.
+
+1. Enter a category you want to exclude in the **Available categories** field. You can select up to 50 categories.
+
+1. Click the **Save changes** button when you are finished selecting the categories you want to exclude.
