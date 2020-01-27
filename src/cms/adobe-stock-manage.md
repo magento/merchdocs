@@ -42,7 +42,7 @@ To search Adobe Stock assets and add a stock image to a category:
 
 1. Click **Add Root Category** or **Add Subcategory**.
 
-   If you want to add the image to an existing category, click the category name in the list on the left..
+   If you want to add the image to an existing category, click the category name in the list on the left.
 
 1. Expand the **Content** section, and under **Category Image** click **Select from Gallery**.
 
