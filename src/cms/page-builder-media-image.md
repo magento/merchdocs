@@ -43,7 +43,7 @@ _Image In Column_
           ![]({% link images/images-ee/page-builder-media-image-gallery-add-selected.png %}){: .zoom}
           _Add Selected Image_
 
-      The image appears in the target container at the placeholder location. Unlike a background image, you can move the image to a different position within the current container, or to a different container.
+      The image appears in the target container at the placeholder location. Unlike a background image, you can move the image to a different position within the current container or to a different container.
 
       ![]({% link images/images-ee/page-builder-media-image-giftcard-column.png %}){: .zoom}
       _Image in Column_
