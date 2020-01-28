@@ -2,7 +2,7 @@
 title: Data Mapping
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Data Mapping
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Data Mapping
 
 Data field mapping establishes the relationship between customer information and activity from all stores related to your Magento website and specific contact fields in the Engagement Cloud database. Data fields can be mapped manually or automatically. To map data fields automatically, use the Automap Data Fields option in the Developer > Admin Task section of the Engagement Cloud configuration.
 

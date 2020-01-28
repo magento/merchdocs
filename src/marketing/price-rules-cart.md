@@ -10,7 +10,7 @@ _Apply Coupon in Cart_
 ## Access Cart Price Rules
 
 1.  On the Admin sidebar, go to **Marketing** > _Promotions_ > **Cart Price Rules**.
-_
+
   ![Cart price rule]({% link images/images/price-rule-cart.png %}){: .zoom}
   _Cart Price Rules_
 

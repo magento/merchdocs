@@ -19,9 +19,13 @@ In certain business-to-business transactions, VAT is not assessed. Magento can v
 
 ## Step 2: Set Up Product Tax Classes
 
-1. On the _Admin_ sidebar, go to **Sales** > **Tax** > **Product Tax Classes**.
+1. On the _Admin_ sidebar, go to **Stores** >  _Taxes_ > **Tax Rules**.
 
-1. Click <span class="btn">Add New</span> and create three new classes:
+1. Click **Add New Tax Rule**. Then, expand ![]({% link images/images/btn-expand.png %}) the **Additional Settings** section.
+
+1. Under _Product Tax Class_, click **Add New Tax Class**.
+
+1. Enter the **Name** of the new tax class in the text box. Then, click the checkmark to add the new class to the list of available product tax classes and create three new classes:
 
     - VAT Standard
     - VAT Reduced
@@ -31,7 +35,7 @@ In certain business-to-business transactions, VAT is not assessed. Magento can v
 
 ## Step 3: Set Up Tax Zones and Rates
 
-1. On the _Admin_ sidebar, go to **Sales** > **Tax** > **Manage Tax Zones** > **Rates**.
+1. On the _Admin_ sidebar, go to **Stores** >  _Taxes_ > **Tax Zones and Rates**.
 
     For this example you can remove the U.S. tax rates, or leave them as they are.
 
@@ -55,7 +59,7 @@ In certain business-to-business transactions, VAT is not assessed. Magento can v
 
 A tax rule is a combination of a customer tax class, a product tax class, and a tax rate.
 
-1. On the _Admin_ sidebar, go to **Sales** > **Tax** > **Manage Tax Rules**.
+1. On the _Admin_ sidebar, go to **Stores** >  _Taxes_ > **Tax Rules**.
 
 1. Add new tax rules as follows:
 

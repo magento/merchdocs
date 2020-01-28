@@ -3,7 +3,7 @@ title: Sales
 group: sales
 sections:
   - title: Point of Purchase
-    content: The cart is positioned at the end of the path to purchase, at the intersection of “Buy” and “Abandon.” It is perhaps, the most important page in the store. Learn how to configure the shopping cart and offer assistance to your customers.
+    content: The cart is positioned at the end of the path to purchase, at the intersection of “Buy” and “Abandon”. It is perhaps, the most important page in the store. Learn how to configure the shopping cart and offer assistance to your customers.
     url: /sales/point-of-purchase.html
 
   - title: Order Management

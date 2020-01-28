@@ -133,7 +133,7 @@ _Customer Attributes_
 |--- |--- |
 |Show on Storefront|Determines if the attribute appears as a field in the customer information in the storefront. Options: Yes / No|
 |Sort Order|Specifies the sort order of this attribute in relation to other customer attributes. The sort order determines the sequence that fields receive focus during data entry when using [keyboard navigation]({% link catalog/navigation-accessibility.md %}).|
-|Forms to Use in|Determines the pages with data entry forms where the attribute appears. Hold down the Ctrl key to choose multiple forms. Options: <br/>[Customer Registration]({% link customers/account-dashboard-account-information.md %}) <br/>[Customer Account Edit]({% link sales/checkout-process.md %}) <br/>[Admin Checkout]({% link sales/checkout-process.md %})|
+|Forms to Use in|Determines the pages with data entry forms where the attribute appears. Hold down the Ctrl key to choose multiple forms. Options: <br/>[Customer Registration]({% link customers/account-dashboard-account-information.md %}) <br/>[Customer Account Edit]({% link customers/account-create.md %}) <br/>[Admin Checkout]({% link sales/checkout-process.md %})|
 
 ## Default Customer Attributes
 
