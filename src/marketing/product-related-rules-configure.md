@@ -25,7 +25,7 @@ The behavior and display of product relationship rules is determined by the conf
         - `Rule-Based Only`
 
     - Set **Rotation Mode for Products in Related Product List** to one of the following:
-    
+
         - `By Priority, Then by ID`
         - `By Priority, Then Random`
         - `Weighted Random`
