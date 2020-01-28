@@ -43,7 +43,7 @@ Before you try to import a large amount of images, review the steps in the impor
     ```
 
     {:.bs-callout-tip}
-    Leave the **Images File Directory** empty if you are running the import on Magento `2.3.2`/`2.3.2-p2`/`2.3.3` versions and files were uploaded into import images base directory - `<Magento root folder>/var/import/images`.
+    Leave the **Images File Directory** empty if you are running the import on Magento `2.3.2`/`2.3.2-p2`/`2.3.3`/`2.3.4` versions and files were uploaded into import images base directory - `<Magento root folder>/var/import/images`.
 
     ![Data import images file directory]({% link images/images/data-import-images-file-to-import.png %}){: .zoom}
     _Images File Directory_
