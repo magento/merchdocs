@@ -2,7 +2,7 @@
 title: My Orders
 ---
 
-Customers have access to all of their orders from their account. Orders can be viewed, tracked, and resubmitted as new orders. Depending on the status of the order, customers can print their orders, invoices, shipments, and refund records.
+Customers have access to all of their orders from their account. Orders can be viewed, filtered, tracked, and resubmitted as new orders. Depending on the status of the order, customers can print their orders, invoices, shipments, and refund records.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/customer-account-my-orders.png %}){: .zoom}
@@ -15,7 +15,27 @@ Customers have access to all of their orders from their account. Orders can be v
 <!--{% endif %}-->
 _My Orders_
 
-## To view an order:
+<!--{% if "Default.B2B Only" contains site.edition %}-->
+## Filter orders
+
+Your initial _My Orders_ results also contain matching orders from subordinate users from all websites within the Magento instance.
+Use Order filters to quickly find records within the results.
+To show the filter options, click <span class="btn">Filter</span>. Click <span class="btn">Close</span> to hide the filters.
+
+Fill in one or more fields to filter by:
+
+| Filter | Description |
+| -- | -- |
+| SKU or Product Name | Enter either a SKU or product name. |
+| Order Number | Can be either a full or partial order number. |
+| Order Status | Choose a value from the dropdown to filter by status. |
+| Invoice Number | Enter either a full or partial invoice number. |
+| Order Date | Set one or both date fields to filter by order date. |
+| Created by | Filter company orders by the order creator. |
+| Order Total | Set min, max, or both values to filter by order total. |
+
+<!--{% endif %}-->
+## View an order
 
 Find the order in the list and click **View Order**. From the open order, do any of the following:
 
@@ -40,73 +60,31 @@ _View Order_
 
 1. Click **Print Order**.
 
-1. Verify the output device, or choose another.
-
-1. Click <span class="btn">Print</span>.
-
-    ![]({% link images/images/customer-account-print-order.png %}){: .zoom}
-    _Print Order_
+1. Follow the instructions in the Print dialog to complete the printing.
 
 ### Print Invoices
 
 1. On the **Invoices** tab, click one of the following:
 
-    - Print All Invoices
+   -  **Print All Invoices**
 
-    - Print Invoice
+   -  **Print Invoice**
 
-1. Verify the output device or choose another.
-
-1. Click <span class="btn">Print</span>.
-
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/customer-account-order-invoices.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE Only" contains site.edition %}-->
-    ![]({% link images/images-ee/customer-account-order-invoices.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
-    ![]({% link images/images-b2b/customer-account-order-invoices.png %}){: .zoom}
-    <!--{% endif %}-->
-    _Invoices_
+1. Follow the instructions in the Print dialog to complete the printing.
 
 ### Print Shipments
 
 1. On the **Order Shipments** tab, click one of the following:
 
-    - Print All Shipments
+   -  **Print All Shipments**
 
-    - Print Shipment
+   -  **Print Shipment**
 
-1. Verify the output device or choose another.
-
-1. Click <span class="btn">Print</span>.
-
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/customer-account-order-shipments.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE Only" contains site.edition %}-->
-    ![]({% link images/images-ee/customer-account-order-shipments.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
-    ![]({% link images/images-b2b/customer-account-order-shipments.png %}){: .zoom}
-    <!--{% endif %}-->
-    _Print All Shipments_
+1. Follow the instructions in the Print dialog to complete the printing.
 
 ### Track a Shipment
 
 1. On the **Order Shipments** tab, click **Track this Shipment**.
-
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/customer-account-order-shipments.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE Only" contains site.edition %}-->
-    ![]({% link images/images-ee/customer-account-order-shipments.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
-    ![]({% link images/images-b2b/customer-account-order-shipments.png %}){: .zoom}
-    <!--{% endif %}-->
-    _Track This Shipment_
 
 1. Any tracking information that is available appears in a popup window.
 
@@ -116,21 +94,8 @@ _View Order_
 
 1. On the **Refunds** tab, click one of the following:
 
-    - Print All Refunds
+   -  **Print All Refunds**
 
-    - Print Refund
+   -  **Print Refund**
 
-1. Verify the output device or choose another.
-
-1. Click <span class="btn">Print</span>.
-
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/customer-account-order-refunds.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE Only" contains site.edition %}-->
-    ![]({% link images/images-ee/customer-account-order-refunds.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
-    ![]({% link images/images-b2b/customer-account-order-refunds.png %}){: .zoom}
-    <!--{% endif %}-->
-    _Refunds_
+1. Follow the instructions in the Print dialog to complete the printing.
