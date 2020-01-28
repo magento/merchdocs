@@ -30,7 +30,7 @@ then [configure the Adobe Stock Integration in your Magento Admin][configure].
 
 1. On the final **Integration Details** screen, do the following:
 
-    - For **Name**, enter a descriptive name for your integration
+    - For **Name**, enter a descriptive name for your integration.
 
     - For **Description**, enter a longer form description for your integration
 
