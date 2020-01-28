@@ -2,8 +2,47 @@
 title: Change Log
 ---
 
-Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what’s new!
+Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what’s new.
 
+## January 2020
+
+<!--{% if "Default.B2B Only" contains site.edition %}-->
+- [Magento for B2B Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.4Commerce.html){: target="_blank"}, 2.3.4 (pre-release)
+<!--{% endif %}-->
+<!--{% if "Default.EE Only" contains site.edition %}-->
+- [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.4Commerce.html){: target="_blank"}, 2.3.4 (pre-release)
+<!--{% endif %}-->
+<!--{% if "Default.CE Only" contains site.edition %}-->
+- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.4OpenSource.html){: target="_blank"}, 2.3.4 (pre-release)
+<!--{% endif %}-->
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
+- [Page Builder](https://devdocs.magento.com/page-builder/docs/release-notes.html){: target="_blank"}, 1.2 (pre-release)
+<!--{% endif %}-->
+
+### New Topics
+
+- [Adobe Stock Integration]({% link cms/adobe-stock.md %})
+- [Using Adobe Stock Images]({% link cms/adobe-stock-manage.md %})
+- [Engagement Cloud Chat]({% link marketing/engagement-cloud-chat.md %})
+- [Chat Settings]({% link configuration/engagement-cloud/chat-settings.md %})
+- [Configuring Storefront Address Validation]({% link tax/vertex-configure-address.md %})
+- [Vertex Address Validation]({% link configuration/sales/address-validation.md %})
+- [Yotpo Reporting and Analytics]({% link marketing/yotpo-reporting.md %})
+
+### Updated Topics
+
+|Topic |Change|
+|--- |--- |
+|[Catalog Images and Video]({% link catalog/catalog-images-video.md %}) <br/>[Creating Categories]({% link catalog/category-create.md %}) <br/>[Inserting an Image]({% link cms/editor-insert-image.md %}) <br/>[Media Storage]({% link cms/media-storage.md %}) <br/>{% if "Default.B2B Only" contains site.edition %}[Image]({% link cms/page-builder-media-image.md %}) (Page Builder) <br/>{% endif %}[System]({% link configuration/advanced/system.md %}) (configuration)|Updated content in media topics to reflect the new Adobe Stock integration.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
+|[Add Products]({% link cms/page-builder-add-content-products.md %}) <br/>[Slider]({% link cms/page-builder-media-slider.md %})|Updated content for the Page Builder Carousel layout.|<!--{% endif %}--><!--{% if "Default.B2B Only" contains site.edition %}-->
+|[Role Resources]({% link system/permissions-role-resources.md %}) <br/>[Updating a Company Profile]({% link customers/account-company-update.md %}) <br/>[Configuring Quotes]({% link stores/b2b-configure-quotes.md %}) <br/>[Customers]({% link configuration/customers.md %}) (configuration)|Updated content for improved access control support for B2B features.|
+|[Managing Requisition Lists]({% link customers/account-dashboard-requisition-lists-manage.md %}) <br/>[Customers]({% link configuration/customers.md %})|Added information for exporting requisition lists.|<!--{% endif %}-->
+|[Developer]({% link configuration/advanced/developer.md %})|Added content for the Cache User Defined Attributes field.|
+|[Elasticsearch]({% link catalog/search-elasticsearch.md %}) <br/>[Catalog]({% link configuration/catalog/catalog.md %}) (configuration)|Added content to describe usage of the new "Minimum terms to match" field.|
+|[Engagement Cloud]({% link marketing/engagement-cloud.md %})<br />[Setting Up Engagement Cloud]({% link marketing/engagement-cloud-setup.md %})<br />[Email Template]({% link configuration/engagement-cloud/email-templates.md %}) (configuration)<br />[Developer]({% link configuration/engagement-cloud/developer.md %}) (configuration)|Updated content for release features and fixes, including the new Chat feature.|
+|[Vertex Cloud]({% link tax/vertex.md %})|Updated content for release features and fixes.|
+|[Klarna]({% link payment/klarna.md %}) <br/>[Setting Up Klarna]({% link payment/klarna-setup.md %}) <br/>[Klarna]({% link configuration/sales/klarna.md %}) (configuration)|Updated content for the new configuration field to Klarna Payments.|
+|[Yotpo Product Reviews]({% link marketing/yotpo-reviews-intro.md %}) <br/>[Review Reports]({% link reports/review-reports.md %}) <br/>[Business Intelligence Tools]({% link reports/business-intelligence.md %}) |Updates for Yotpo Product Reviews, including connections to **Yotpo Reviews** and **Yotpo Analytics** links in the Admin > Reports section.|
 
 ## December 2019
 
@@ -16,8 +55,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 |Topic |Change|
 |--- |--- |
-|[Google Privacy Settings for GDOR]({% link stores/compliance-privacy-google.md %})|This topic now applies to privacy regulations in general, and is not limited to GDPR.|
-
+|[Google Privacy Settings for GDPR]({% link stores/compliance-privacy-google.md %})|Renamed "Google Privacy Settings". This topic now applies to privacy regulations in general, and is not limited to GDPR.|
 
 ## November 2019
 
@@ -293,7 +331,6 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Shipping Partners]({% link shipping/magento-shipping-carriers.md %})|Added information about new supported countries and initial carrier support limited to DHL Express.|
 |[Vertex]({% link tax/vertex.md %})|Added release notes for Vertex Cloud integration. Updates include new delivery terms, performance enhancements, caching, and more.|
 |[Configuring Magento]({% link tax/vertex-configure-magento.md %})|Added updates for configuration options including Vertex tax links, delivery terms (or shipping terms), logging options, and more.|
-|[Test the Configuration]({% link tax/vertex-test-configuration.md %})|Added Vertex troubleshooting and caching information.|
 |[Tax]({% link configuration/sales/tax.md %}) (configuration reference)|Added updates for all Vertex updates.|
 |[Customer Experience]({% link shipping/magento-shipping-customer-experience.md %})|Added information for Click &amp; Collect and Collection Points storefront experiences.|
 |[Batches]({% link sales/batches.md %})|Updated information and added content on domestic shipments only.|
