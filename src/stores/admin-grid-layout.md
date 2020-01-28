@@ -29,7 +29,7 @@ _Order Grid Columns_
 
 1. Click the **View** (![View control]({% link images/images/btn-default-view.png %}){: .Inline}) control.
 
-1. Click**Save Current View**.
+1. Click **Save Current View**.
 
 1. Enter a **name** for the view.
 

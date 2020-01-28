@@ -21,7 +21,7 @@ After each scheduled import job, a reindex operation is performed automatically.
 
 ## Step 1: Complete the Import Settings
 
-1. On the _Admin_ sidebar, go to **System** > _Data Transfer_ > **Import/Export**.
+1. On the _Admin_ sidebar, go to **System** > _Data Transfer_ > **Scheduled Import/Export**.
 
 1. In the upper-right corner, click **Add Scheduled Import** and do the following:
 

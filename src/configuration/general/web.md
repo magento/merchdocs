@@ -58,7 +58,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 |--- |--- |--- |
 |Default Web URL|Store View|Indicates the  landing page that is associated with the base URL. This is set by default to “cms” to indicate a page from  Magento’s content management system. You can also use a different type of landing page, such as a blog. For example, if a blog is installed on the server at magento/blog, you can enter the name of the “blog” folder as a relative path to the selection of pages.|
 |CMS Home Page|Store View|To choose the home page for the store, simply select the CMS page from the list. By default, the CMS Home Page lists the entire selection of CMS pages that are available for your store.|
-|Default No-route URL|Store View|Contains the URL of the default page that you want to appear when if a `404 Page not Found` error occurs. The default value is `cms/index/noRoute`.|
+|Default No-route URL|Store View|Contains the URL of the default page that you want to appear when a `404 Page not Found` error occurs. The default value is `cms/noroute/index`.|
 |CMS No Route Page|Store View|Identifies a specific CMS page that you want to appear when a 404 Page Not Found error occurs. The default page is 404 Not Found.|
 |CMS No Cookies Page|Store View|Identifies a specific CMS page that appears when cookies are not enabled for the browser. The page explains why cookies are used, and how to enable them for each browser. The default page is Enable Cookies.|
 |Show Breadcrumbs for CMS Pages|Store View|Determines if a breadcrumb trail appears on all CMS pages in the catalog. Options: Yes / No|

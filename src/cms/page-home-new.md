@@ -6,7 +6,7 @@ You can maintain a selection of different home pages, and activate the page that
 
 ## To Change the Home Page
 
-1. Complete the steps to add a new [page]({% link cms/page-add.md %}).
+1. Complete the steps to add a [new page]({% link cms/page-add.md %}).
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 

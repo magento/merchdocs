@@ -4,9 +4,9 @@ group: getting-started
 ---
 
 {:.bs-callout-info}
-This is one in a series of topics to help Magento merchants and developers understand the implications of the California Consumer Protection Act. The information is based on the text of the statute. Consult with your attorney to confirm if CCPA applies to your business before taking action on compliance.
+This is one in a series of topics to help Magento merchants and developers understand the implications of the California Consumer Privacy Act. The information is based on the text of the statute. Consult with your attorney to confirm if CCPA applies to your business before taking action on compliance.
 
-The [California Consumer Privacy Act][1]{: target="_blank"} (CCPA) expands the rights of consumers in California to determine how their personal information is collected, stored, and used, with an emphasis on protecting consumers from the unauthorized sale or exchange or their personal information. The CCPA was enacted in 2018 and is effective as of January 1, 2020.
+The [California Consumer Privacy Act][1]{: target="_blank"} (CCPA) expands the rights of consumers in California to determine how their personal information is collected, stored, and used, with an emphasis on protecting consumers from the unauthorized sale or exchange or their personal information. The CCPA was enacted in 2018 and went into effect January 1, 2020.
 
 The CCPA grants the following new rights to consumers:
 
@@ -19,7 +19,7 @@ For CCPA purposes, personal information in this context is defined as:
 
   "Information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household." (Section 1798.140)
 
-In this regard, it covers certain data elements that may not be considered personal data in the context of other laws or regulations. Magento customers should keep this in mind when determining whether and how they should comply with the law.
+In this regard, it covers certain data elements that may not be considered personal data in the context of other laws or regulations. Magento merchants should keep this in mind when determining whether and how they should comply with the law.
 
 The CCPA also requires businesses to provide "reasonable security", and includes expanded data protection provisions for consumers, including the right to pursue legal action in the event of a data breach.
 
@@ -27,7 +27,7 @@ Please consult with your legal counsel to determine whether and how you should c
 
 ## Business Requirements
 
-The CCPA applies to the following businesses &mdash; regardless of where the business is registered &mdash; that sell products and/or services to consumers who reside in the State of California, and that collect personal information:
+The CCPA applies to the following businesses &mdash; regardless of where the business is registered &mdash; that do business in California and collect, share, or sell California consumers' personal data:
 
 (1) A sole proprietorship, partnership, limited liability company, corporation, association, or other legal entity that is organized or operated for the profit or financial benefit of its shareholders or other owners, that collects consumers’ personal information, or on the behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers’ personal information, that does business in the State of California, and that satisfies one or more of the following thresholds:
 
