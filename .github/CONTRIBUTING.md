@@ -2,7 +2,10 @@
 
 Share your knowledge with the community by contributing to Magento Documentation!
 You can contribute by creating an issue or pull request (PR) on our [MerchDocs](https://github.com/magento/merchdocs) GitHub repository.
+
 We welcome all types of contributions; from minor typo fixes to new topics.
+
+You must review and sign the Adobe Contributor License Agreement (CLA) if this is your first time contributing. You only need to sign the CLA once.
 
 Magento Documentation staff members and Community Maintainers review issues and pull requests on a regular basis. We do our best to address all issues as soon as possible, but working through the backlog takes time. We appreciate your patience.
 
