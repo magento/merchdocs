@@ -63,7 +63,7 @@ If the customer’s preferred method of payment is not available, or if the item
 
 To remove the hold on an order, edit the order. Then, click **Unhold**.
 
-## Cancel a pending order:
+## Cancel a pending order
 
 Canceling an order changes its status from `Pending` to `Canceled`.
 
