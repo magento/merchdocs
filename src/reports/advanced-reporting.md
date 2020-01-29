@@ -24,7 +24,7 @@ _Advanced Reporting Dashboard_
 * Make sure that [Magento crontab][3]{:target="_blank"} is created and cron jobs are running on the installed server.
 
 {:.bs-callout-info}
-The initial release of Advanced Reporting supports only one base currency.
+Advanced Reporting can be used only with Magento installations that have continually used a single [base currency]({% link stores/currency-configuration.md %}).
 
 ## Step 1: Enable Advanced Reporting
 
@@ -76,10 +76,7 @@ In the upper-right corner of the Advanced Reporting dashboard, click **Additiona
 
 If you get a 404 “Page Not Found” message, verify that your store meets the requirements for Advanced Reporting. Then, follow the instructions to verify that the integration is installed.
 
-![]({% link images/images/advanced-reporting-404.png %}){: .zoom}
-*Advanced Reporting Not Available*
-
-## Verify that the Integration is Active
+### Verify that the Integration is Active
 
 1. On the _Admin_ sidebar, go to **System** > _Extensions_ > **Integration**.
 
@@ -103,6 +100,10 @@ If you get a 404 “Page Not Found” message, verify that your store meets the 
 1. Look for the message that indicates the integration “Magento Analytics user” is reauthorized.
 
 1. Wait overnight, or until after the time of your next scheduled update.
+
+### Verify Single Base Currency
+
+Advanced Reporting can be used only with Magento installations that have used only a single [base currency]({% link stores/currency-configuration.md %}), and that have a history of orders processed with the same base currency. Advanced Reporting will not work if you change the base currency and as a result, have orders processed with different base currencies.
 
 ## Dashboard Reports
 
