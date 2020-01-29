@@ -13,7 +13,7 @@ Each attribute, or field, is represented in the CSV file as a column, and custom
 |`email`|The customer’s email address.|
 |`_website`||
 |`_store`||
-|`confirmation`|Confirmation flag|
+|`confirmation`|Confirmation flag.|
 |`created_at`|The date the customer account was created.|
 |`created_in`|The store view where the account was created.|
 |`disable_auto_group_change`|Determines if customer groups can be dynamically assigned during VAT ID validation.|
@@ -24,11 +24,11 @@ Each attribute, or field, is represented in the CSV file as a column, and custom
 |`lastname`|The last name of the customer.|
 |`middlename`|The middle name or middle initial of the customer.|
 |`password_hash`|Password hash|
-|`prefix`|Any prefix that is used with the customer name.(Mr., Ms., Mrs., Dr., etc.)|
-|`rp_token`|Reset password token|
-|`rp_token_created_at`|Date when the password was reset|
+|`prefix`|Any prefix that is used with the customer name (such as Mr., Ms., Mrs., Dr., etc.).|
+|`rp_token`|Reset password token.|
+|`rp_token_created_at`|Date when the password was reset.|
 |`store_id`|Store ID|
-|`suffix`|Any suffix that is used with the customer name. (Jr., Sr., Esquire, etc.)|
+|`suffix`|Any suffix that is used with the customer name (such as Jr., Sr., Esquire, etc.).|
 |`taxvat`||
 |`website_id`|The website ID of the site where the customer account was created.|
 |`password`|The customer password.|
@@ -48,7 +48,7 @@ Each attribute, or field, is represented in the CSV file as a column, and custom
 |`lastname`|The customer’s last name.|
 |`middlename`|The middle name or middle initial of the customer.|
 |`postcode`|The ZIP or postal code where the customer address is located.|
-|`prefix`|Any prefix that is used with the customer name.(Mr., Ms., Mrs., Dr., etc.)|
+|`prefix`|Any prefix that is used with the customer name (such as Mr., Ms., Mrs., Dr., etc.).|
 |`region`|The region where the customer address is located.|
 |`region_id`|Region id|
 |`street`|The street address of the customer. A second line of the street address is available if specified in the configuration.|
