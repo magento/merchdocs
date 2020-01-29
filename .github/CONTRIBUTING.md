@@ -5,9 +5,11 @@ You can contribute by creating an issue or pull request (PR) on our [MerchDocs](
 
 We welcome all types of contributions; from minor typo fixes to new topics.
 
-You must review and sign the Adobe Contributor License Agreement (CLA) if this is your first time contributing. You only need to sign the CLA once.
-
 Magento Documentation staff members and Community Maintainers review issues and pull requests on a regular basis. We do our best to address all issues as soon as possible, but working through the backlog takes time. We appreciate your patience.
+
+## Contributor License Agreement
+
+All third-party contributions to this project must be accompanied by a signed contributor license agreement. This gives Adobe permission to redistribute your contributions as part of the project. [Sign our CLA](https://opensource.adobe.com/cla.html). You only need to submit an Adobe CLA one time, so if you have submitted one previously, you are good to go!
 
 ## Rewards for contributions
 
