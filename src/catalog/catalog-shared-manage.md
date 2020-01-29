@@ -8,38 +8,13 @@ The Shared Catalogs page provides access to the tools you need to manage your sh
 ![]({% link images/images-b2b/catalogs-shared-grid-action-column-controls.png %}){: .zoom}
 *Shared Catalog Actions*
 
-The [Actions control]({% link stores/admin-actions-control.md %}) in the upper-left corner can be used with the mass actions control to delete selected shared catalogs that are no longer needed. In the grid, the Actions column contains the full selection of tools to manage your shared catalogs.
+The [Actions controls]({% link stores/admin-actions-control.md %}) in the upper-left corner can be used with the mass actions control to delete selected shared catalogs that are no longer needed. In the grid, the Actions column contains the full selection of tools to manage your shared catalogs.
 
-<table>
-      <h3 class="TableHeading">Action Controls</h3>
-      <thead>
-         <tr>
-            <th>Field</th>
-            <th>Description</th>
-         </tr>
-      </thead>
-      <tbody>
-         <tr>
-            <td>
-               <a href="{% link catalog/catalog-shared-pricing-structure.md %}">Set Pricing and Structure</a>
-            </td>
-            <td>Determines the product selection and custom pricing that is available in the shared catalog.</td>
-         </tr>
-         <tr>
-            <td>
-               <a href="{% link catalog/catalog-shared-assign-companies.md %}">Assign Companies</a>
-            </td>
-            <td>Determines which companies can access a custom shared catalog.</td>
-         </tr>
-         <tr>
-            <td>
-               <a href="{% link catalog/catalog-shared-general-information-update.md %}">General Settings</a>
-            </td>
-            <td>Determines the catalog detail information, including the name, catalog type, customer tax class, and description.</td>
-         </tr>
-         <tr>
-            <td>Delete</td>
-            <td>Deletes the selected shared catalog(s).</td>
-         </tr>
-      </tbody>
-   </table>
+## Actions controls
+
+|Control|Description|
+|------|-----------|
+|[Set Pricing and Structure]({% link catalog/catalog-shared-pricing-structure.md %})|Determines the product selection and custom pricing that is available in the shared catalog.|
+|[Assign Companies]({% link catalog/catalog-shared-assign-companies.md %})|Determines which companies can access a custom shared catalog.|
+|[General Settings]({% link catalog/catalog-shared-general-information-update.md %})|Determines the catalog detail information, including the name, catalog type, customer tax class, and description.|
+|Delete|Deletes the selected shared catalog(s).|

@@ -12,10 +12,10 @@ _Company Profile_
 
 The ability to:
 
--  Add New Company
--  Delete Company
--  Reimburse Balance
--  View companies
+- Add New Company
+- Delete Company
+- Reimburse Balance
+- View companies
 
 is controlled via settings in [Role Resources]({% link system/permissions-role-resources.md %}). These role resources must be set for the [User Role]({% link system/permissions-user-roles.md %}) that the admin user is under.
 
