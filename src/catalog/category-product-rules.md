@@ -11,7 +11,7 @@ Each condition consists of an attribute, value, and logical operator. Only attri
 {:.bs-callout-info}
 Make sure to configure each attribute that is used in the rule as a [“smart” attribute]({% link marketing/visual-merchandiser-configuration.md %}).
 
-![]({% link images/images-ee/category-product-rule.png %}){: .zoom}
+![]({% link images/images-ee/category-product-rule-with-stock.png %}){: .zoom}
 *Category Product Rule*
 
 Category product rules can speed up the process of assigning specific products to categories, based on conditions that determine which products appear in the category. The “smart” attributes that can be used with category product rules are specified in the [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}) configuration.
@@ -70,6 +70,9 @@ Match products by rule
 Automatic Sorting
 : Automatically applies a sorting order to the list of category products. Options: None, Move low stock to top, Move low stock to bottom, Special price to top, Special price to bottom, Newest products first, Sort by color, Name: A - Z, Name: Z - A, SKU: Ascending, SKU: Descending, Price: High to Low, and Price: Low to High
 
+{:.bs-callout-info}
+If you have configurable products with child products, the parent product stock is calculated based on the combined total of child product stocks. For example,if you have configurable product _Proteus Fitness Jackshirt_  with orange , red, and yellow child products with different stock quantities of each, the parent product stock is calculated based on the combined total of stock of orange, red, and yellow child products. With the `Move low stock to top` option, it calculates the stock of parent configurable products by  combining all of its salable child products stock and sorts it accordingly.
+ 
 Add Condition
 : Adds an additional condition to the rule.
 
@@ -84,6 +87,9 @@ Attribute
    * Price - Includes products based on price.
    * Quantity - Includes products based on the quantity in stock.
    * SKU - Includes products based on SKU.
+
+{:.bs-callout-info}
+The quantity of configurable product with child options is calculated by combining all the salable child product quantities. For example, if you have a configurable product _Nona Fitness Tank_ with purple, red, and yellow color options and different quantities of each, the parent product (Nona Fitness Tank) quantity is a combined salable quantity of the purple, red, and yellow color child products.
 
 Operator
 : Specifies the operator that is applied to the attribute value to meet the  condition. Unless an operator is specified, “Equal” is used as the default. Options: Equal, Not equal, Greater than, Greater than or equal to, Less than, Less than or equal to, and Contains

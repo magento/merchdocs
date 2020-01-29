@@ -14,7 +14,7 @@ The Products in Category section lists the products that are currently assigned 
 _Category Products_
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({% link images/images-ee/category-products-in-category.png %}){: .zoom}
+![]({% link images/images-ee/category-products-in-category-with-stock.png %}){: .zoom}
 _Category Products_
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
@@ -72,6 +72,9 @@ When setting up a category rule, the products are matched and assigned to the ru
 |Operator|Specifies the operator that is applied to the attribute value to meet the condition. Unless an operator is specified, `Equal` is used as the default. Options: Equal / Not equal / Greater than / Greater than or equal to / Less than / Less than or equal to / Contains|
 |Value|Specifies the value  the attribute must have to meet the condition.|
 |Logic|The Logic column is used to define multiple conditions, and appears only when an additional condition is added. Options: OR / AND|
+
+{:.bs-callout-info}
+The quantity of configurable product with child options is calculated by combining all the salable child product quantities. For example, if you have a configurable product _Nona Fitness Tank_ with purple, red, and yellow color options and different quantities of each, the parent product (Nona Fitness Tank) quantity is a combined salable quantity of the purple, red, and yellow color child products.
 
 | Control  | Description  |
 |----------|--------------|
