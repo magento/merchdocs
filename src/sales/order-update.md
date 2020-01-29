@@ -100,6 +100,6 @@ The status of the order is now `Canceled`.
 |<span class="btn">Back</span>|Returns to the Orders page without saving changes.|
 |<span class="btn">Send Email</span>|Sends an email about the order to the customer.|
 |<span class="btn">Credit Memo</span>|Initiates the process to create a [credit memo]({% link sales/credit-memo-create.md %}).|
-|<span class="btn">Hold</span> / <span class="btn">Unhold</span>|Changes the status of the sales order to “On Hold”. To release the hold on the sales order, choose “Unhold”.|
+|<span class="btn">Hold</span> / <span class="btn">Unhold</span>|Changes the status of the sales order to _On Hold_. To release the hold on the sales order, choose `Unhold`.|
 |<span class="btn">Reorder</span>|Creates a new pending order based on the current order.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
 |<span class="btn">Create Returns</span>|Initiates the process to [return]({% link sales/returns.md %}) one or more items from the order.|<!--{% endif %}-->
