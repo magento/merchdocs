@@ -13,6 +13,20 @@ _`Pending` Order Options_
 
 If you modify the substance of an order, the original order is canceled and a new order is generated. You can, however, change the billing or shipping address without generating a new order.
 
+### Button Bar
+
+{: .buttons-table }
+|Button|Description|
+|--- |--- |
+|<span class="btn">Back</span>|Returns to the Orders page without saving changes.|
+|<span class="btn">Cancel</span>|Cancels the pending order.|
+|<span class="btn">Send Email</span>|Sends an email about the pending order to the customer.|
+|<span class="btn">Hold</span> / <span class="btn">Unhold</span>|Changes the status of the pending order to _On Hold_. To release the hold, choose `Unhold`.|
+|<span class="btn">Invoice</span>|Creates an [invoice]({% link sales/invoice-create.md %}) from the pending order by converting the order to an invoice, and changes the order status to `processing`.|
+|<span class="btn">Ship</span>|Creates a [shipment]({% link sales/shipments-create.md %}) record for the order.|
+|<span class="btn">Reorder</span>|Creates a new pending order that is a duplicate of the current pending order.|
+|<span class="btn">Edit</span>|Opens a pending order in edit mode. The Edit button is only available for pending orders{% if "Default.B2B Only" contains site.edition %}, or for orders based on negotiated [quotes]({% link sales/quotes.md %}){% endif %}.|
+
 ## Processing Orders
 
 When the payment process begins, the status of the order changes to `processing`. Although it is no longer possible to change the substance of the order, the billing and shipping address can be edited. The order can no longer be canceled, although a credit memo can be issued for the full or partial amount of the order{% if "Default.EE-B2B" contains site.edition %}, or a return merchandise authorization (RMA) issued for product returns{% endif %}. To learn more, see [Processing an Order]({% link sales/order-processing.md %}).
@@ -24,6 +38,18 @@ When the payment process begins, the status of the order changes to `processing`
 ![]({% link images/images-ee/order-button-bar-processing.png %}){: .zoom}
 <!--{% endif %}-->
 _`Processing` Order Options_
+
+### Button Bar
+
+{: .buttons-table }
+|Button|Description|
+|--- |--- |
+|<span class="btn">Back</span>|Returns to the Orders page without saving changes.|
+|<span class="btn">Send Email</span>|Sends an email about the order to the customer.|
+|<span class="btn">Credit Memo</span>|Initiates the process to create a [credit memo]({% link sales/credit-memo-create.md %}).|
+|<span class="btn">Hold</span> / <span class="btn">Unhold</span>|Changes the status of the sales order to _On Hold_. To release the hold on the sales order, choose `Unhold`.|
+|<span class="btn">Reorder</span>|Creates a new pending order based on the current order.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
+|<span class="btn">Create Returns</span>|Initiates the process to [return]({% link sales/returns.md %}) one or more items from the order.|<!--{% endif %}-->
 
 ## Edit a pending order
 
@@ -78,28 +104,8 @@ Canceling an order changes its status from `Pending` to `Canceled`.
 
 The status of the order is now `Canceled`.
 
-### Button Bar for Pending Orders
-
-{: .buttons-table }
-|Button|Description|
-|--- |--- |
-|<span class="btn">Back</span>|Returns to the Orders page without saving changes.|
-|<span class="btn">Cancel</span>|Cancels the pending order.|
-|<span class="btn">Send Email</span>|Sends an email about the pending order to the customer.|
-|<span class="btn">Hold</span> / <span class="btn">Unhold</span>|Changes the status of the pending order to _On Hold_. To release the hold, choose `Unhold`.|
-|<span class="btn">Invoice</span>|Creates an [invoice]({% link sales/invoice-create.md %}) from the pending order by converting the order to an invoice, and changes the order status to `processing`.|
-|<span class="btn">Ship</span>|Creates a [shipment]({% link sales/shipments-create.md %}) record for the order.|
-|<span class="btn">Reorder</span>|Creates a new pending order that is a duplicate of the current pending order.|
-|<span class="btn">Edit</span>|Opens a pending order in edit mode. The Edit button is only available for pending orders{% if "Default.B2B Only" contains site.edition %}, or for orders based on negotiated [quotes]({% link sales/quotes.md %}){% endif %}.|
-
-### Button Bar for Processing Orders
-
-{: .buttons-table }
-|Button|Description|
-|--- |--- |
-|<span class="btn">Back</span>|Returns to the Orders page without saving changes.|
-|<span class="btn">Send Email</span>|Sends an email about the order to the customer.|
-|<span class="btn">Credit Memo</span>|Initiates the process to create a [credit memo]({% link sales/credit-memo-create.md %}).|
-|<span class="btn">Hold</span> / <span class="btn">Unhold</span>|Changes the status of the sales order to _On Hold_. To release the hold on the sales order, choose `Unhold`.|
-|<span class="btn">Reorder</span>|Creates a new pending order based on the current order.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
-|<span class="btn">Create Returns</span>|Initiates the process to [return]({% link sales/returns.md %}) one or more items from the order.|<!--{% endif %}-->
+<style>
+.buttons-table td:first-of-type {
+  width: 160px;
+}
+</style>
