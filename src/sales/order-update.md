@@ -48,7 +48,7 @@ _`Processing` Order Options_
 
    - To save changes made to line items, and reprocess the order, click **Submit Order**.
 
-## Place an order on hold:
+## Place an order on hold
 
 If the customer’s preferred method of payment is not available, or if the item is temporarily out of stock, you can put the order on hold.
 
