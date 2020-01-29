@@ -2,7 +2,7 @@
 title: Email Templates
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) >  [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Email Templates
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Email Templates
 
 ## Email Templates
 
@@ -46,4 +46,5 @@ _Email Templates_
 |**Product Alerts**|||
 |Stock Alert|Website|The campaign that sends notification to a customer of a stock alert. Options: (All available campaigns)|
 |Product Price Alert|Website|The campaign that sends notification to a customer of a product price alert. Options: (All available campaigns)|
-
+|**Additional Templates**|||
+|Sync additional campaigns as templates|Website|Maps additional campaigns as templates. Synced templates can be selected from Magento.<br /><span class="btn">Sync New Campaign</span>Map a new campaign to appear in lists of available campaign templates. Options: <br />**Campaign**: Lists mapped campaigns by name.<br />**Action**: Lists the action that triggers the campaign.|

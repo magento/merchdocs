@@ -23,10 +23,10 @@ Use business intelligence tools to gain the insight you need to make sound busin
 [2]: https://devdocs.magento.com/guides/v2.3/advanced-reporting/overview.html
 [3]: https://docs.magento.com/mbi/getting-started/essentials-vs-pro.html
 [4]: https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html
-[6]: https://support.yotpo.com/en/article/yotpo-insights
+[6]: https://support.yotpo.com/en/analytics
 [7]: https://www.yotpo.com/
-[8]: https://www.yotpo.com/
-
+[8]: https://www.yotpo.com/platform/insights/
+[9]: https://support.yotpo.com/en/article/yotpo-insights
 <!--
   This is a style declaration so that first column does not wrap
 -->

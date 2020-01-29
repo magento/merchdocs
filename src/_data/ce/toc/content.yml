@@ -32,6 +32,12 @@ pages:
         url: "/cms/page-home-new.html"
     - label: Media Storage
       url: "/cms/media-storage.html"
+      children:
+      - label: Adobe Stock Integration
+        url: "/cms/adobe-stock.html"
+        children:
+        - label: Using Adobe Stock Images
+          url: "/cms/adobe-stock-manage.html"
     - label: Using the Editor
       url: "/cms/editor.html"
       children:
