@@ -25,7 +25,7 @@ When the payment process begins, the status of the order changes to `processing`
 <!--{% endif %}-->
 _`Processing` Order Options_
 
-## Edit a pending order:
+## Edit a pending order
 
 1. On the _Admin_ sidebar, click **Sales**.
 
