@@ -86,7 +86,7 @@ The status of the order is now `Canceled`.
 |<span class="btn">Back</span>|Returns to the Orders page without saving changes.|
 |<span class="btn">Cancel</span>|Cancels the pending order.|
 |<span class="btn">Send Email</span>|Sends an email about the pending order to the customer.|
-|<span class="btn">Hold</span> / <span class="btn">Unhold</span>|Changes the status of the pending order to “On Hold”. To release the hold, choose “Unhold”.|
+|<span class="btn">Hold</span> / <span class="btn">Unhold</span>|Changes the status of the pending order to _On Hold_. To release the hold, choose `Unhold`.|
 |<span class="btn">Invoice</span>|Creates an [invoice]({% link sales/invoice-create.md %}) from the pending order by converting the order to an invoice, and changes the order status to `processing`.|
 |<span class="btn">Ship</span>|Creates a [shipment]({% link sales/shipments-create.md %}) record for the order.|
 |<span class="btn">Reorder</span>|Creates a new pending order that is a duplicate of the current pending order.|
