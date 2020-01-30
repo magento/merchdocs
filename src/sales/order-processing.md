@@ -2,7 +2,7 @@
 title: Processing an Order
 ---
 
-When a customer places an order, a sales order is created as a temporary record of the transaction. The sales order has a status of “Pending” until payment is received. Sales orders can be edited while pending, and can be canceled up until the time that an invoice is generated. An easy way to think of it is this: Orders become invoices, and invoices become shipments. The Orders grid lists all orders, regardless of where they are in the [workflow]({% link sales/order-workflow.md %}).
+When a customer places an order, a sales order is created as a temporary record of the transaction. The sales order has a status of “Pending” until payment is received. Sales orders can be edited while pending, and can be canceled up until the time that an invoice is generated. An easy way to think of it is this: Orders become invoices, and invoices become shipments. The Orders grid lists all orders, regardless of where they are in the [workflow]({% link sales/order-workflow.md %}). To learn how to offer customers assistance with an order, see [Updating an Order]({% link sales/order-update.md %}).
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/orders.png %}){: .zoom}
