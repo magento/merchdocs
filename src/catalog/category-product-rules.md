@@ -23,6 +23,8 @@ Use caution when applying a category product rule, because any products that do 
 
 1. For each attribute that is to be used in the rule, make sure that the “[Use in Product Listing]({% link stores/attributes-product.md %})” storefront property is set to “Yes”.
 
+{:.bs-callout-info} Make sure the attribute you select is NOT multiselect Input Type.
+
 1. Complete the [configuration]({% link marketing/visual-merchandiser-configuration.md %}) to identify each “smart” attribute that is to be used with Visual Merchandiser.
 
 ## Step 2: Create the Category Rule
