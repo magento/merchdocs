@@ -1,6 +1,6 @@
 ---
 title: Product Recommendations
-path: product-recommendations
+tag: product-recommendations
 ---
 
 Product recommendations are a powerful marketing tool you can use to increase conversions, boost revenue, and stimulate shopper engagement. Product recommendations are surfaced on the storefront in the form of units such as “Customers who viewed this product also viewed”. Because these suggestions are backed by a deep analysis of aggregated visitor data, they result in highly engaging, relevant, and personalized experiences for the shopper.
@@ -10,7 +10,11 @@ You can create, manage, and deploy recommendations across your store views direc
 {:.bs-callout-info}
 For information about how to install the product recommendations module so you can begin collecting shopper behavior and catalog data, refer to the [developer documentation](https://devdocs.magento.com/recommendations/install.html).
 
-On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Product Recommendations**. The product recommendation dashboard appears. This dashboard displays a table of previously configured recommendations (if any). From here, you can [create a new recommendation]({% link marketing/create-new-rec.md %}) or [edit an existing recommendation]({% link marketing/edit-existing-rec.md %}).
+## Dashboard {#dashboard}
+
+On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Product Recommendations**. The **Product Recommendations** dashboard appears. From here, you can [create a new recommendation]({% link marketing/create-new-rec.md %}) or [edit an existing recommendation]({% link marketing/edit-existing-rec.md %}).
+
+This dashboard displays a table of previously configured recommendations (if any) along with the [metrics]({% link marketing/recommendation-metrics.md %}) being tracked on those recommendations. You can use the date filter to refine the recommendations by `Last 24 hours`, `Last 7 days`, and `Last 30 days`.
 
 ## Available Recommendation Types {#availablerectypes}
 
@@ -32,8 +36,8 @@ You can place the recommendations in one of the following page locations.
 {:.bs-callout-info}
 Some storefront pages restrict where you can place the recommendations. Refer to the table below for more information.
 
--  **Above main content** - Recommendations appear above the main content area just below the top navigation bar.
--  **Below main content (default)** - Recommendations appear below the main content area and before any other content blocks on the page, like **Related Products**.
+-  **At the top of main content** - Recommendations appear above the main content area just below the top navigation bar.
+-  **At the bottom of main content (default)** - Recommendations appear below the main content area and before any other content blocks on the page, like **Related Products**.
 
 ## Supported Recommendations for Each Storefront Page {#supportedrecs}
 
@@ -41,17 +45,17 @@ The following table lists the storefront pages, where you can place the recommen
 
 |**Page**|**Possible Placement**|**Supported Recommendations**|
 |---|---|---|
-|**Home page**|Above main content<br>Below main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you|
-|**Category**|Above main content<br>Below main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you|
-|**Product Detail**|Below main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this|
-|**Cart**|Below main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this|
-|**Confirmation**|Below main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this|
+|**Home page**|At the top of main content<br>At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you|
+|**Category**|At the top of main content<br>At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you|
+|**Product Detail**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this|
+|**Cart**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this|
+|**Confirmation**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this|
 
 ## Global Category Exclusions {#globalexclusions}
 
 You can specify categories that you never want to be included in your recommendations.
 
-1. Click the **Settings** button (gear icon) to display the **Global Category Exclusions** page.
+1. Click **Settings** (gear icon) to display the **Global Category Exclusions** page.
 
 1. Enter a category you want to exclude in the **Available categories** field. You can select up to 50 categories.
 

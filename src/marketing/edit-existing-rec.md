@@ -1,6 +1,6 @@
 ---
 title: Edit Existing Recommendations
-path: product-recommendations
+tag: product-recommendations
 ---
 
 You can modify certain settings for an existing recommendation.

@@ -1,11 +1,13 @@
 ---
 title: Create New Recommendation
-path: product-recommendations
+tag: product-recommendations
 ---
 
-The **Create New Recommendation** page allows you to configure which recommendation type you want to appear on a specific page.
+When you create a recommendation, you are creating what is called a *recommendation unit*. A recommendation unit has a title, such as "Recommended for you", "People also like", and so on. You can configure which pages should display the recommendation unit, where on the page you want the recommendation unit to appear, and which recommendation type you want to use, such as "most viewed", "most purchased", and so on. After you create and activate the recommendation unit, Magento will begin [collecting metrics]({% link marketing/recommendation-metrics.md %}) that measure data such as if a unit was rendered on a page, if it was viewed, if it was clicked by a user, and so on. The [Product Recommendations]({% link marketing/product-recommendations.md %}#dashboard) dashboard displays these metrics for each recommendation unit to help you make informed business decisions.
 
-1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Product Recommendations**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Product Recommendations** to display the **Product Recommendations** dashboard.
+
+1. Specify the [Store View]({% link configuration/scope-change.md %}) where you want the recommendations to display.
 
 1. Click the **Create Recommendation** button.
 
@@ -21,8 +23,12 @@ The **Create New Recommendation** page allows you to configure which recommendat
 
 1. In the **Choose number of products** section, use the slider to specify how many products you want to appear in this recommendation. The default is `5`. Maximum is `20`.
 
-1. In the **Storefront display label** section, enter the name for your recommendation. This is the name your shoppers will see on the storefront.
+1. In the **Storefront display label** section, enter the name for your recommendation. This is the name your shoppers will see on the storefront. Magento provides the [following guidance for label names]({% link marketing/recommendation-best-practices.md %}#bplabels).
 
-1. (Optional) In the **Exclude categories** section, specify the product categories that should not be included as part of this recommendation. You can select up to 25 categories. You also can specify categories you want to exclude [globally]({% link marketing/product-recommendations.md %}#globalexclusions).
+1. (Optional) In the **Exclude categories** section, specify the product categories that should not be included as part of this recommendation. You can select up to 25 categories. You also can specify categories you want to exclude [from all recommendations]({% link marketing/product-recommendations.md %}#globalexclusions).
 
-1. Click **Save as Draft** to edit the recommendation at a later date or **Activate** if you want to enable the recommendation on your storefront.
+1. When you finish configuring your recommendation you can click:
+
+    -  **Save as draft** to edit the recommendation unit at a later date. Note that you cannot modify the page type or recommendation type for a recommendation unit in a draft state.
+
+    -  **Activate** to enable the recommendation unit on your storefront.

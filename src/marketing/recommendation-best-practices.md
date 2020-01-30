@@ -1,6 +1,6 @@
 ---
 title: Best Practices Using Recommendations
-path: product-recommendations
+tag: product-recommendations
 ---
 
 This section includes best practices using recommendations on your storefront.
@@ -21,7 +21,7 @@ Magento recommends the following guidelines when using recommendations:
 
 Magento provides a large set of recommendations you can deploy to various pages on your site. But which recommendations should you use on those pages? The following table provides some suggestions:
 
-|**Page**|**Recommendation type**|
+|**Page**|**Recommendation Type**|
 |---|---|
 |Home page|Most purchased, top sellers|
 |Product page|Viewed this, viewed that|
@@ -33,9 +33,9 @@ Remember that experimentation is key. Try the above, track metrics, then adjust 
 
 Metrics are a powerful tool to help you track the success of a recommendation. The following best practices illustrate how you can use metrics to create actionable insights:
 
--  ** **Viewability %** - This metric measures how frequently a rendered recommendation unit is viewed. If viewability is low but click through rate is high, consider moving the recommendation higher up on the page to make it more viewable.
+-  **Viewability %** - This metric measures how frequently a rendered recommendation unit is viewed. If viewability is low but click through rate is high, consider moving the recommendation higher up on the page to make it more viewable.
 
--  ** **Click-through-rate (CTR) %** - This metric measures how frequently items within the recommendation unit are clicked. If a recommendation unit has a low click-through rate compared to other recommendation units, consider deploying different recommendations or moving the recommendation higher up on the page.
+-  **Click-through-rate (CTR) %** - This metric measures how frequently items within the recommendation unit are clicked. If a recommendation unit has a low click-through rate compared to other recommendation units, consider deploying different recommendations or moving the recommendation higher up on the page.
 
 ## Labels {#bplabels}
 
@@ -45,7 +45,7 @@ The label you give a recommendation affects how a shopper interprets the content
 |---|---|
 |Most viewed<br> Most added to cart<br>Most purchased|Most popular<br>Trending<br>Popular right now<br>Recently popular<br>Popular items inspired by this item (PDP)<br>Top sellers|
 |Just for You|Just for you<br>Recommended for you<br>Inspired by your shopping trends|
-|Viewed This, Viewed That|Customers who viewed this item also viewed<br>Customers also viewed<br>Related items<br>Inspired by your|
+|Viewed This, Viewed That|Customers who viewed this item also viewed<br>Customers also viewed<br>Related items|
 |Viewed This, Bought That|Customers who viewed this ultimately bought<br>Customers ultimately purchased<br>What do others buy after viewing this item?|
 |Bought This, Bought That|Get everything you need<br>Don't forget these<br>Frequently bought together|
 |More Like This|More items like this<br>Similar to this|
