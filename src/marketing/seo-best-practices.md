@@ -6,7 +6,7 @@ Search engine optimization is the practice of fine-tuning the content and presen
 
 ## Commerce Resources
 
-See the latest [Magento eBooks][2]{: target="_blank"} to gain access to expert insight and online [business resources][1]{: target="_blank"} to help develop and improve your store.
+See the latest [Magento eBooks][2]{:target="_blank"} to gain access to expert insight and online [business resources][1]{:target="_blank"} to help develop and improve your store.
 
 ## Meta Data
 

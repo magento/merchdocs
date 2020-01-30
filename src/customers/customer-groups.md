@@ -41,7 +41,7 @@ _Customer Groups_
 1. Click <span class="btn"> Add New Customer Group </span>.
 
     - Enter a unique **Group Name** less than 32 characters to identify the group.
-  
+
     - Select the **Tax Class** that applies to the group.
 
     ![]({% link images/images/stores-customer-group-information.png %}){: .zoom}
@@ -66,9 +66,9 @@ _Customer Groups_
 1. Find the customer in the list and select the checkbox in the first column.
 
     - Set the **Actions** control to `Assign a Customer Group`.
-  
+
     - Set the **Group** control to the new group.
-  
+
     - When prompted to confirm, click <span class="btn">OK</span>.
 
       ![]({% link images/images/stores-customer-group-assign.png %}){: .zoom}

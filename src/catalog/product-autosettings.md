@@ -1,7 +1,7 @@
 ---
 conditions: Default.EE-B2B
 title: Autosettings
-redirect_from: 
+redirect_from:
   - /catalog/settings-advanced-autosettings.html
 ---
 

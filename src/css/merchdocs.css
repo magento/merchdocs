@@ -54,15 +54,15 @@
 
 @media only screen and (max-width: 769px) {
 
-  .home-intro { 
+  .home-intro {
     min-height: auto;
   }
-  
+
   .home-intro::before {
     display: none;
   }
 
-  .home-intro::after { 
+  .home-intro::after {
     top: 20%;
   }
 }

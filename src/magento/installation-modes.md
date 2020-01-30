@@ -25,4 +25,4 @@ See the following pages for more information about non-configuration setting typ
 <!--{% endif %}-->
 - [Template Path Hint]({% link system/template-path-hints.md %})
 
-The Magento mode can be changed only from the command line of the server by a user with appropriate permissions. See [Set the Magento Mode](http://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html){: target="_blank"} for more information.
+The Magento mode can be changed only from the command line of the server by a user with appropriate permissions. See [Set the Magento Mode](http://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html){:target="_blank"} for more information.

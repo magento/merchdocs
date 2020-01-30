@@ -16,7 +16,7 @@ Access to specific cache maintenance actions can be assigned to users by [role](
 ![Role resources - cache management]({% link images/images/system-permissions-role-resources-cache-management.png %}){: .zoom}
 [_Cache Management Role Resources_]({% link system/permissions-role-resources.md %})
 
-For technical information, see [Magento cache overview][1] in the developer documentation.
+For technical information, see [Magento cache overview][1]{:target="_blank"} in the developer documentation.
 
 ![Cache management]({% link images/images/system-cache-management-invalid.png %}){: .zoom}
 _Cache Management_
@@ -30,7 +30,7 @@ Reindexing and caching have different purposes Magento. [Indexes]({% link system
 - Flush the cache after upgrading from one version of Open Source or Commerce to another.
 - When flushing caches, consider the type of cache and scheduling the flushing during non-peak times. For example, pick a time when few customers may access the site such as late night or early morning. Clearing some cache types during peak times cause result in a high load on the Admin and may result in a down site until completed.
 - When [reindexing]({% link system/index-management.md %}), you do not need to also perform a flush cache.
-  
+
 Access the Cache Management page by doing one of the following:
 
 - Click the **Cache Management** link in the message above the workspace.
@@ -71,7 +71,7 @@ Access the Cache Management page by doing one of the following:
 
 ## Flush Using the Command Line
 
-Magento provides additional flush cache options using the command line. These options may require developer support to complete. For complete details and command options, see [Magento cache overview][2] and [Manage the cache][3] in the developer documentation.
+Magento provides additional flush cache options using the command line. These options may require developer support to complete. For complete details and command options, see [Magento cache overview][2]{:target="_blank"} and [Manage the cache][3]{:target="_blank"} in the developer documentation.
 
 ## Controls
 

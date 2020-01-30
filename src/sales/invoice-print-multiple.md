@@ -4,7 +4,7 @@ title: Printing Multiple Invoices
 
 Invoices can be printed individually or as a batch. However, before an invoice can be printed, it must first be generated for the order. To add your logo and address to the invoice, see: [Preparing Your Invoice Logo]({% link marketing/sales-document-pdf-logo.md %}).
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 To view or print the PDF, you must have a PDF reader. You can download [Adobe Reader][1] at no charge.
 
 ## To print multiple invoices:

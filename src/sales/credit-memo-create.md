@@ -4,7 +4,7 @@ title: Issuing a Credit Memo
 
 Before a credit memo can be printed, it must first be generated for the order. Any credit memo with a [status]({% link sales/order-status.md %}) of “open” has an outstanding refund due. {% if "Default.EE-B2B" contains site.edition %}If you create a credit memo for an order that includes gift options, the refund for the gift wrapping and/or printed card appears in the Refund Totals section of the credit memo. To exclude these costs from the amount to be refunded, enter the amount as an Adjustment Fee. If multiple credit memos are issued for the same order, the refund for gift options appears in only the first credit memo.{% endif %}
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If using [Vertex Cloud]({% link tax/vertex.md %}), see the [Vertex Settings]({% link configuration/sales/tax.md %}) configuration section for information about issuing refunds for sales orders that are invoiced when the status is either `Suspected Fraud` or `Canceled`.
 
 ![]({% link images/images/order-credit-memo.png %}){: .zoom}
@@ -33,7 +33,7 @@ _Create Credit Memo_
 
 1. Set the return to stock option:
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     If an online payment method was used, you cannot edit these fields.
 
    - If the product is to be returned to inventory, mark the **Return to Stock** checkbox. With Magento Inventory Management enabled, the inventory quantity returns to the source that sent the shipment.
@@ -97,7 +97,7 @@ _Create Credit Memo_
 
     <!--{% if "Default.B2B Only" contains site.edition %}-->
    - Refund to Company Credit
-  
+
     <!--{% endif %}-->
 1. To add a comment to the completed credit memo, scroll down to the Comments History section and enter the comment in the box.
 

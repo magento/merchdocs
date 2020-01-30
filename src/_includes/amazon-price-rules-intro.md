@@ -1,7 +1,7 @@
 
 You can add pricing rules for your Amazon listings. Price rules can be used to automatically adjust your listing prices, based on a set of defined conditions. Price rules are triggered and calculate your adjusted price before your product is listed on Amazon.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 The price source for your Amazon listings is defined in the **Magento Price Source** field in your [Listing Price]({% link sales-channels/amazon/ob-listing-price.md %}) settings. Any adjustment calculations defined in the pricing rule use price source as the starting value.
 
 Amazon Sales Channel gives you the ability to set pricing rules, these pricing rules allow you to set your Amazon Listing price different than your Price Source. Additionally, you can stack multiple rules that will work together to adjust your price.

@@ -17,12 +17,12 @@ Make sure to update the [email header]({% link marketing/email-template-header.m
 
 1. In the left panel, expand **Sales** and choose **Sales Emails**.
 
-1. If necessary, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General Settings** section. 
+1. If necessary, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General Settings** section.
 
     ![Sales configuration - sales email general settings]({% link images/images/config-sales-sales-emails-general-settings.png %}){: .zoom}
     [_General Settings_]({% link configuration/sales/sales.md -%})
-   
-    By default, Asynchronous sending is set to `Disable`. To change the system setting, clear the **Use system value** checkbox and set **Asynchronous sending** to one of the following:   
+
+    By default, Asynchronous sending is set to `Disable`. To change the system setting, clear the **Use system value** checkbox and set **Asynchronous sending** to one of the following:
 
     | Disable | Sends sales email when triggered by an event. |
     | Enable | Sends sales email at predetermined, regular intervals. |
@@ -61,5 +61,5 @@ Make sure to update the [email header]({% link marketing/email-template-header.m
     - **Credit Memo** / **Credit Memo Comments**
 
 1. When complete, click <span class="btn">Save Config</span>.
-   
+
    When prompted, click the [Cache Management]({% link system/cache-management.md %}) link in the message at the top of the workspace and clear all invalid caches.

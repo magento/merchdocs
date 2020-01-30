@@ -1,10 +1,10 @@
 ---
 title: Other PayPal Solutions
-redirect_from: 
+redirect_from:
   - /payment/paypal-all-in-one.html
 ---
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
 Beginning September 14, 2019, European banks may decline payments which do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. For most PayPal solutions, no action is needed to comply with PSD2 because the requirements are handled by PayPal. For information about specific PayPal solutions, see the note at the top of each page.
 
@@ -16,7 +16,7 @@ PayPal is a global leader in online payments and a fast and secure way for your 
 
 The selection of available PayPal solutions varies by merchant location. PayPal Express Checkout and PayPal Payments Standard can be used in all parts of the world. To learn more, see: [PayPal Solutions by Country]({% link payment/paypal-countries.md %}).
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 You cannot have more than one PayPal method enabled at a time, with the exception of PayPal Express Checkout. PayPal Express Checkout can be used in combination with other PayPal payment methods, except for PayPal Payments Standard. If you change payment solutions, the previously method is disabled.
 
 ## PayPal All-In-One Payment Solutions

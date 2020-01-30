@@ -9,14 +9,14 @@ With your Magento web and Google accounts linked, you can create a Google Mercha
 
 {% include gmc-domains.md %}
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 **Wait, I have claimed my URL with another GMC account!** If your storefront URL is already verified and claimed by another GMC account, you must [unclaim]({% link sales-channels/google-ads/gmc-unlink-gmc.md %}) any URL that is already claimed for another GMC account before continuing with account creation.
 
 When creating your account, you will do the following:
 
 ![]({% link images/images/sales-channels/google/gmc-acct1.png %})
 
-{:.bs-callout .bs-callout-tip}
+{:.bs-callout-tip}
 Your progress through the onboarding process will not complete until you click **Complete Setup**. We recommend completing all of these instructions to fully save your configurations, create your GMC account, and send the URL to Google to start URL claiming and verification.
 
 |Steps|What Happens|

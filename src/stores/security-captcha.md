@@ -69,7 +69,7 @@ Customers can be required to enter a CAPTCHA each time they log in to their acco
 - Checkout as Guest
 - Register During Checkout
 - Contact Us
-- Payflow Pro (Requires installing a patch according to KB [PayPal Payflow Pro active carding activity][1]{: target="_blank"}.)
+- Payflow Pro (Requires installing a patch according to KB [PayPal Payflow Pro active carding activity][1]{:target="_blank"}.)
 
 ![Storefront - CAPTCHA configuration]({% link images/images/config-customers-customer-configuration-captcha.png %}){: .zoom}
 _Customer CAPTCHA Configuration_

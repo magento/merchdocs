@@ -25,7 +25,7 @@ With multiple source locations, global customers, and carriers with various ship
 
 SSA is able extensible for third party support and custom algorithms for recommending cost effective shipments.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 SSA functions differently for Virtual and Downloadable products, which may not incur shipping costs. In these cases, the system runs the algorithm implicitly when it creates invoices, and always uses the suggested results. You cannot adjust these results for Virtual and Downloadable products.
 
 ### Source Priority Algorithm

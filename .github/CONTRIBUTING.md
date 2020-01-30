@@ -13,7 +13,7 @@ As you contribute PRs, you gain [Contribution Points](https://devdocs.magento.co
 
 If you write and contribute a full topic, we will add your name (or your company's name) at the top of the MerchDocs page and link it to your blog or website!
 
-## Get started 
+## Get started
 
 ![Get started workflow](https://github.com/magento/merchdocs/wiki/images/merchdocs-fork.png)
 

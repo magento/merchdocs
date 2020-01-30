@@ -323,6 +323,8 @@ pages:
         url: "/marketing/yotpo-glance.html"
       - label: Common Tasks
         url: "/marketing/yotpo-tasks.html"
+      - label: Yotpo Reporting and Analytics
+        url: "/marketing/yotpo-reporting.html"
 - label: Promotions
   url: "/marketing/promotions.html"
   children:
@@ -356,7 +358,7 @@ pages:
     - label: Discount with Minimum Purchase
       url: "/marketing/price-rule-discount-minimum-purchase.html"
     - label: Discount with First Purchase
-      url: "/marketing/price-rule-discount-first-purchase.html"    
+      url: "/marketing/price-rule-discount-first-purchase.html"
   - label: Related Product Rules
     url: "/marketing/product-related-rules.html"
     children:
@@ -480,6 +482,8 @@ pages:
           url: "/marketing/engagement-cloud-account-api-users.html"
         - label: Transactional Email Users
           url: "/marketing/engagement-cloud-account-transactional-email-users.html"
+    - label: Chat
+      url: "/marketing/engagement-cloud-chat.html"
     - label: Create a Campaign
       url: "/marketing/engagement-cloud-campaign-create.html"
       children:
@@ -619,8 +623,8 @@ pages:
 - label: Google Tools
   url: "/marketing/google-tools.html"
   children:
-  - label: Google Settings for GDPR
-    url: "/stores/compliance-gdpr-google.html"
+  - label: Google Privacy Settings
+    url: "/stores/compliance-privacy-google.html"
   - label: Google Analytics
     url: "/marketing/google-universal-analytics.html"
   - label: Google Content Experiments

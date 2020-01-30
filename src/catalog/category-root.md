@@ -1,6 +1,6 @@
 ---
 title: Root Categories
-redirect_from: 
+redirect_from:
   - /catalog/products-menu.html
 ---
 
@@ -48,7 +48,7 @@ The following example shows how to create a new root category and assign it to a
 
 ## Step 3: Assign the Root Category to the Store
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > All Stores**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **All Stores**.
 
 1. In the **Stores** column of the grid, click the store that you want to assign the new catalog.
 

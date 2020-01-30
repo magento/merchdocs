@@ -33,7 +33,7 @@ _Cash On Delivery Payment_
 
    - Set **Minimum Order Total** and **Maximum Order Total** to the order amounts that are required to qualify for COD payment.
 
-     {:.bs-callout .bs-callout-info}
+     {:.bs-callout-info}
      An order qualifies if the total is between, or matches, the minimum or maximum order total.
 
    - Enter a **Sort Order** number to determine the sequence in which Cash On Delivery is listed with other payment methods during checkout. (0 = first, 1 = second, 2 = third, and so on.)

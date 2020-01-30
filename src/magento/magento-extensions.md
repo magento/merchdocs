@@ -14,21 +14,21 @@ For technical, developer, and extension development information, see Magento Dev
 - [Order Processing with Inventory Management](https://devdocs.magento.com/guides/v2.3/rest/tutorials/inventory/index.html) tutorial
 - REST API content, starting with [Managing sources](https://devdocs.magento.com/guides/v2.3/rest/modules/inventory/manage-sources.html)
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 **Magento Community Contribution** - Magento thanks all [Contributors and Maintainers](https://github.com/magento-engcom/msi/graphs/contributors) in the [Magento Inventory](https://github.com/magento/inventory) (was MSI) special project for contributing these features as part of the Magento Community Engineering program.
 
 ## [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %})
 
 Google reCAPTCHA ensures that a human being, rather than a computer, is interacting with your site. Enable and configure reCAPTCHA using invisible or interactive checks to enhance secure access to the Magento Admin and storefront.
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 **Magento Community Contribution** - Magento thanks [Riccardo Tempesta](https://twitter.com/rictempesta) of [MageSpecialist](https://partners.magento.com/portal/details/partner/id/129/) for contributing these features as part of the Magento Community Engineering program.
 
 ## Two-Factor Authentication
 
-The Magento Admin provides all access to your store, orders, and customer data. To further increase security to your Magento instance, Magento Two-Factor Authentication (2FA) adds support for [two-step authentication]({% link stores/security-two-factor-authentication.md %}) for multiple providers. 
+The Magento Admin provides all access to your store, orders, and customer data. To further increase security to your Magento instance, Magento Two-Factor Authentication (2FA) adds support for [two-step authentication]({% link stores/security-two-factor-authentication.md %}) for multiple providers.
 
-{: .bs-callout-info }
+{:.bs-callout-info}
 **Magento Community Contribution** - Magento thanks [Riccardo Tempesta](https://twitter.com/rictempesta) of [MageSpecialist](https://partners.magento.com/portal/details/partner/id/129/) for contributing these features as part of the Magento Community Engineering program.
 
 ## Google Shopping ads Channel

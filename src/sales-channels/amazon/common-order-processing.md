@@ -15,7 +15,7 @@ Common Magento [order processing]({% link sales/order-processing.md %}) tasks in
 - [Create an invoice]({% link sales/invoice-create.md %})
 - Cancel an order
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If an order is in "Unshipped" status, you can cancel an Amazon order on the [Amazon Order Details]({% link sales-channels/amazon/amazon-order-details.md %}) screen. If an order has been shipped, it cannot be canceled.
 
 See [Magento Order Management]({% link sales/order-management.md %}).

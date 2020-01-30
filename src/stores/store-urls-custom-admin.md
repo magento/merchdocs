@@ -36,7 +36,7 @@ As a precaution, do not try to change the Admin URL by yourself unless you know 
 
     - Enter the **Custom Admin URL**: `http://yourdomain.com/magento/`
 
-        {:.bs-callout .bs-callout-info}
+        {:.bs-callout-info}
         The Admin URL must be in the same Magento installation, and have the same document root as the storefront.
 
     - Set **Custom Admin Path** to `Yes`.

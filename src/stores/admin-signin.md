@@ -3,7 +3,7 @@ title: Admin Sign In
 group: getting-started
 ---
 
-You will first learn how to sign in and out of the Admin and how to reset your password. All of the instructions in the rest of this guide are written for a user with full administrative privileges and begin with the assumption that you are logged in to the Admin. See [Permissions]({% link system/permissions.md %}) for more info about about Admin users and roles.
+You will first learn how to sign in and out of the Admin and how to reset your password. All of the instructions in the rest of this guide are written for a user with full administrative privileges and begin with the assumption that you are logged in to the Admin. See [Permissions]({% link system/permissions.md %}) for more info about Admin users and roles.
 
 The [Advanced Admin]({% link configuration/advanced/admin.md %}) configuration determines how many times an admin user can try to log in before the account is locked. By default, six attempts are allowed. See [Locked Users]({% link system/permissions-locked-users.md %}) for information about unlocking a user account.
 
@@ -22,7 +22,7 @@ _Admin Sign In_
 
    You can bookmark the page or save a shortcut on your desktop for easy access.
 
-1. Enter your Admin **Username** and **Password**. 
+1. Enter your Admin **Username** and **Password**.
 
    These values may populate depending on your browser's autocomplete setting.
 
@@ -43,7 +43,7 @@ The first time anyone signs in to the Admin, it displays the **Allow admin usage
 
    If an account is associated with the email address, an email will be sent to reset your password.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    An Admin password must be seven or more characters long and include both letters and numbers. See [Configuring Admin Security]({% link stores/security-admin.md %}) for information about password options.
 
 ## Sign Out of the Admin

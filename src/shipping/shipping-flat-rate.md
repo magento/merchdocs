@@ -29,7 +29,7 @@ Flat rate is a fixed, predefined charge that can be applied per item, or per shi
 
     * **None**–Disables the payment type. The Flat Rate option is listed in the cart, but with a rate of zero—which is the same as free shipping.
 
-    * **Per Order**–Charges a single flat rate for the entire order. 
+    * **Per Order**–Charges a single flat rate for the entire order.
 
     * **Per Item**-Charges a single flat rate for each item. The rate is multiplied by the number of items in the cart, regardless of whether there are multiple quantities of the same,or of different items.
 

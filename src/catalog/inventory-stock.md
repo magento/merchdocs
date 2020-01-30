@@ -29,7 +29,7 @@ For Multi Source merchants, create and configure stocks as needed to best fit yo
 
 For a multisite installation, the Default Stock is initially assigned to the [Main Website]({% link stores/stores-all-create-website.md %}) and default store.
 
-![]({% link images/images/stores-inventory-stock.png %}){: .zoom}  
+![]({% link images/images/stores-inventory-stock.png %}){: .zoom}
 *Manage Stock*
 
 ### Button Bar

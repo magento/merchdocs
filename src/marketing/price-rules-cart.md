@@ -10,11 +10,11 @@ _Apply Coupon in Cart_
 ## Access Cart Price Rules
 
 1.  On the Admin sidebar, go to **Marketing** > _Promotions_ > **Cart Price Rules**.
-_
+
   ![Cart price rule]({% link images/images/price-rule-cart.png %}){: .zoom}
   _Cart Price Rules_
 
-1.  If you have many rules, use the filter options at the top of each column to streamline the list. Then, click <span class="btn">Search</span> to apply the filter(s). 
+1.  If you have many rules, use the filter options at the top of each column to streamline the list. Then, click <span class="btn">Search</span> to apply the filter(s).
 
 1.  To clear all filter options and display the complete list, click **Reset Filter**.
 
@@ -34,6 +34,6 @@ _
 |Action|Click **Edit** to display the Rule Information screen and update the rule's settings (similar to creating a new rule).|<!--{% endif %}-->
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 To update a rule's properties, click the rule in the list to display the Rule Information page. There you can change the settings for the rule (similar to creating a new rule).
 <!--{% endif %}-->

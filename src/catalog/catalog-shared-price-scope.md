@@ -18,7 +18,7 @@ If you have a multisite installation, make sure to configure the price scope bef
 
 1. Set **Catalog Price Scope** to “Website”.
 
-    ![]({% link images/images-ee/config-catalog-catalog-price-website.png %}){: .zoom}  
+    ![]({% link images/images-ee/config-catalog-catalog-price-website.png %}){: .zoom}
     *Catalog Price Scope*
 
 1. Tap <span class="btn">Save Config</span>.

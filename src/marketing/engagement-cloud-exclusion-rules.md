@@ -1,6 +1,6 @@
 ---
 title: Exclusion Rules
-redirect_from: 
+redirect_from:
   - /marketing/email-marketing-automation-exclusion-rules.html
 ---
 
@@ -32,7 +32,7 @@ _Exclusion Rules_
     - Choose the **Websites** where the rule applies.
 
 1. Choose the **Conditions** tab and define the conditions for the rule.
-  
+
     Before you define the condition, think about what you want the rule to accomplish. Then, describe the condition in terms of attribute values and actions. A rule can be set to meet any or all of the stated condition, and a single rule can have multiple conditions.
 
     - Set **Conditions Combination Match** to one of the following:

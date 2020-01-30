@@ -7,22 +7,22 @@ Keep up with the latest news from the ecosystem, and connect with other merchant
 [Magento Forums][1]
 :  This is the place to find solutions, become acquainted with international communities, and join a special interest chat! Share your knowledge and earn kudos from others!
 
-[Facebook][2]{: target="_blank"}
+[Facebook][2]{:target="_blank"}
 : Find out what’s happening and join the discussion on our Facebook page!
 
-[Twitter][3]{: target="_blank"}
+[Twitter][3]{:target="_blank"}
 :  Follow us on Twitter!
 
-[LinkedIn][4]{: target="_blank"}
+[LinkedIn][4]{:target="_blank"}
 :  Join a Magento group on LinkedIn.
 
-[Google+][5]{: target="_blank"}
+[Google+][5]{:target="_blank"}
 :  Add us to your circle on Google+.
 
-[YouTube][7]{: target="_blank"}
+[YouTube][7]{:target="_blank"}
 :  Learn while you watch videos on our YouTube channel!
 
-[Meetup][8]{: target="_blank"}
+[Meetup][8]{:target="_blank"}
 :  Find a Magento Meetup near you!
 
 [1]: https://community.magento.com/

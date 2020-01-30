@@ -8,7 +8,7 @@ Category rules dynamically change the product selection according to a set of co
 
 Each condition consists of an attribute, value, and logical operator. Only attributes with the “[Use in Product Listing]({% link stores/attributes-product.md %})” property set to “Yes” can be used in category rules. If you want to use an attribute that is not included in product listings, open the attribute in edit mode, and set “Use in Product Listing” to “Yes.” Although Date attributes are not supported, you can use the Date Created or Date Modified attributes to define a date, or range of dates. For example, to include only products that were created during the past week, set Date Created to a value of “<7”.
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Make sure to configure each attribute that is used in the rule as a [“smart” attribute]({% link marketing/visual-merchandiser-configuration.md %}).
 
 ![]({% link images/images-ee/category-product-rule.png %}){: .zoom}
@@ -16,7 +16,7 @@ Make sure to configure each attribute that is used in the rule as a [“smart”
 
 Category product rules can speed up the process of assigning specific products to categories, based on conditions that determine which products appear in the category. The “smart” attributes that can be used with category product rules are specified in the [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}) configuration.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Use caution when applying a category product rule, because any products that do not meet the condition are removed from the category. For example, if you create a rule that includes only purple tank tops, all other tank tops are removed from the category.
 
 ## Step 1: Configure the “Smart” Attributes
@@ -59,7 +59,7 @@ Use caution when applying a category product rule, because any products that do 
 
 1. When complete, tap <span class="btn">Save Category</span>.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 When setting up a category rule, the products are matched and assigned to the rule when the category is saved. Therefore, if you add a new product to the catalog and want to include it in the rule, you must re-save each category that is set to match products by rule, to ensure that the new product is included.
 
 ### Menu options

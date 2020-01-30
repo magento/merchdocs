@@ -17,7 +17,7 @@ _Currency Symbols_
 
 1. To override the default symbol, clear the **Use Standard** checkbox. Then, enter the symbol that you want to use.
 
-    {: .bs-callout-info}
+    {:.bs-callout-info}
     It is not possible to change the alignment of the currency symbol from left to right.
 
 1. When complete, click <span class="btn">Save Currency Symbols</span>.

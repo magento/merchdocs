@@ -202,7 +202,7 @@ In this step, you create two new custom attributes to show how the Page Builder 
 
     For the purpose of this example, we will temporarily add the new attributes to the `default` attribute set. At the end of this tutorial, remove the attributes from the attribute set, so they won't impact your catalog.
 
-    {: .bs-callout bs-callout-info}
+    {:.bs-callout-info}
     If you don't want to make changes to your live store, you can follow along without updating the attribute set.
 
 1. Find the `default` attribute set in the grid, and open in edit mode. Then, do the following:

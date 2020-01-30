@@ -1,11 +1,11 @@
 ---
 title: Accounts
-redirect_from: 
+redirect_from:
   - /configuration/dotmailer/api-credentials.html
   - /configuration/dotmailer/data-accounts.html
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Accounts
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Accounts
 
 ## Settings
 

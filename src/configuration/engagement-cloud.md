@@ -1,6 +1,6 @@
 ---
 title: Engagement Cloud
-redirect_from: 
+redirect_from:
   - /configuration/dotmailer.html
 ---
 
@@ -9,6 +9,7 @@ The Engagement Cloud configuration settings can be found in **System** > **Confi
 See the following pages for more information on each section:
 
 - [Accounts]({% link configuration/engagement-cloud/accounts.md %})
+- [Chat Settings]({% link configuration/engagement-cloud/chat-settings.md %})
 - [Data Mapping]({% link configuration/engagement-cloud/data-mapping.md %})
 - [Sync Settings]({% link configuration/engagement-cloud/sync-settings.md %})
 - [Abandoned Carts]({% link configuration/engagement-cloud/abandoned-carts.md %})

@@ -21,7 +21,7 @@ Before you try to import a large amount of images, review the steps in the impor
     <Magento root folder>/var/import/images
     ```
 
-    {: .bs-callout-info }
+    {:.bs-callout-info}
     Starting with the Magento `2.3.2` release, the path specified in the **Images File Directory** concatenates for import to the images base directory - `<Magento root folder>/var/import/images`. For earlier Magento releases, you can use a different folder on the Magento server, as long as the path to the folder is specified during the import process.
 
 1. In the CSV data, enter the name of each image file to be imported on the correct row, by `sku`, and in the correct column according to image type (`base_image`, `small_image`, `thumbnail_image`, or `additional_images`).
@@ -43,12 +43,12 @@ Before you try to import a large amount of images, review the steps in the impor
     ```
 
     {:.bs-callout-tip}
-    Leave the **Images File Directory** empty if you are running the import on Magento `2.3.2`/`2.3.2-p2`/`2.3.3` versions and files were uploaded into import images base directory - `<Magento root folder>/var/import/images`.
+    Leave **Images File Directory** empty if you are running the import on Magento `2.3.2`/`2.3.2-p2`/`2.3.3`/`2.3.4` versions and files were uploaded into import images base directory - `<Magento root folder>/var/import/images`.
 
     ![Data import images file directory]({% link images/images/data-import-images-file-to-import.png %}){: .zoom}
     _Images File Directory_
 
-    If importing multiple images for a single `sku`, insert a blank row below the `sku` and enter the additional image file names in the appropriate columns. The additional rows are understood to belong to the parent `sku`.
+    If importing multiple images for a single `sku`, insert the images in a column named `additional_images` (add the column if not already added), separated by commas. Example: `image02.jpg,image03.jpg`
 
 ## Method 2: Import Images from External Server
 

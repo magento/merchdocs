@@ -25,7 +25,7 @@ After adding sources, you need to prioritize the order for the sources from top 
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Sales Channels** section. Then, select the **Websites**where this stock is available. For a multisite installation, hold the Ctrl key and click each website.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    If you select a website or sales channel assigned to another stock, it will be unassigned from that stock. Any Sales Channels not assigned to a custom stock are assigned to the Default Stock.
 
    ![]({% link images/images/stores-inventory-stock-sales-channel.png %}){: .zoom}

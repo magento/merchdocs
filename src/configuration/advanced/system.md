@@ -54,15 +54,15 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 ![]({% link images/images/config-advanced-system-mail-sending-settings.png %}){: .zoom}
 [_Mail Sending Settings_]({% link system/email-communications.md %})
 
-{: .bs-callout .bs-callout-warning}
-**Security Notice!** We recommend that all merchants immediately set their mail sending configuration to protect against a recently identified potential remote code execution exploit. Until this issue is resolved, we highly recommend that you avoid using [Sendmail][1]{: target="_blank"} for email communications.  In the Mail Sending Settings, make sure that Set Return Path is set to "No". To learn more, see the [Magento Security Center posting][2]{: target="_blank"}.
+{:.bs-callout-warning}
+**Security Notice!** We recommend that all merchants immediately set their mail sending configuration to protect against a recently identified potential remote code execution exploit. Until this issue is resolved, we highly recommend that you avoid using [Sendmail][1]{:target="_blank"} for email communications.  In the Mail Sending Settings, make sure that Set Return Path is set to "No". To learn more, see the [Magento Security Center posting][2]{:target="_blank"}.
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Disable Email Communications|Store View|Determines if email communications are activated for the store. Options: Yes / No|
 |Host|Store View|(For Windows server only) Determines the name that is used to refer to the host . Default value: localhost|
 |Port (25)|Store View|(For Windows server only) Identifies the port used for email communications. Default value: 25|
-|Set Return-Path|Global|Determines if a routing address is used for returned emails. Options: No ([Recommended Security Measure](https://magento.com/security/news/new-zend-framework-1-security-vulnerability){: target="_blank"}) / Yes / Specified|
+|Set Return-Path|Global|Determines if a routing address is used for returned emails. Options: No ([Recommended Security Measure](https://magento.com/security/news/new-zend-framework-1-security-vulnerability){:target="_blank"}) / Yes / Specified|
 |Return-Path Email|Global|Specifies the routing email address for returned emails.|
 
 ## Currency
@@ -199,6 +199,18 @@ _Image Upload Configuration_
 |Enable Frontend Resize|Global|Enable to allow Magento to resize  large, oversized images you may upload for the Product Details Page. Magento resizing the image files using JavaScript prior to uploading the file. When the image is resized, it keeps the exact proportions, meeting and not exceeding the largest size for Maximum Width or Maximum Height. Default: Yes|
 |Maximum Width|Global|Determines the maximum pixel width for the image. When the image is resized, it does not exceed this width. Default: 1920|
 |Maximum Height|Global|Determines the maximum pixel height for the image. When the image is resized, it does not exceed this height. Default: 1200|
+
+## Adobe Stock Integration
+
+![Advanced configuration - Adobe Stock integration]({% link images/images/system-adobe-stock-integration.png %}){: .zoom}
+_Adobe Stock Integration_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled Adobe Stock|Global|Enables or disables the Adobe Stock Integration.|
+|API Key (Client ID)|Global|An API key is required to connect your Magento store to the Adobe Stock service. For more information about generating this key and configuring this integration, see [Adobe Stock Integration]({% link cms/adobe-stock.md %}).|
+|Client Secret|Global|The Client Secret for your Adobe Stock integration is required. For more information about retrieving this secret and configuring this integration, see [Adobe Stock Integration]({% link cms/adobe-stock.md %}).|
+|Test Connection||Runs a test to verify that the API key is valid for use with the Adobe Stock service.|
 
 [1]: https://en.wikipedia.org/wiki/Sendmail
 [2]: https://magento.com/security/news/new-zend-framework-1-security-vulnerability

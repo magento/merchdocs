@@ -49,11 +49,10 @@ pages:
           url: "/tax/vertex-setup-customer-exceptions.html"
         - label: Vertex Field Mapping
           url: "/tax/vertex-field-mapping.html"
-      - label: Configuring Magento
+      - label: Configuring Vertex Tax Calculations
         url: "/tax/vertex-configure-magento.html"
-        children:
-        - label: Test the Configuration
-          url: "/tax/vertex-test-configuration.html"
+      - label: Configuring Storefront Address Validation
+        url: "/tax/vertex-configure-address.html"   
     - label: General Tax Settings
       url: "/tax/tax-settings-general.html"
       children:
@@ -300,54 +299,32 @@ pages:
   children:
   - label: Reports Menu
     url: "/reports/reports-menu.html"
-    children:
-    - label: Refresh Statistics
-      url: "/reports/statistics.html"
   - label: Marketing Reports
     url: "/reports/marketing-reports.html"
   - label: Review Reports
     url: "/reports/review-reports.html"
   - label: Sales Reports
     url: "/reports/sales-reports.html"
+    children:
+    - label: Refresh Statistics
+      url: "/reports/statistics.html"
   - label: Customer Reports
     url: "/reports/customer-reports.html"
   - label: Product Reports
     url: "/reports/product-reports.html"
   - label: Private Sales Reports
     url: "/reports/private-sales-reports.html"
-  - label: Customer Engagement
-    url: "/reports/customer-engagement.html"
   - label: Business Intelligence
     url: "/reports/business-intelligence.html"
     children:
     - label: Advanced Reporting
       url: "/reports/advanced-reporting.html"
-    - label: Magento BI Essentials
-      url: "/reports/bi-essentials.html"
-      children:
-      - label: Dashboards
-        url: "/reports/bi-essentials-dashboards.html"
-      - label: Report Builder
-        url: "/reports/bi-essentials-report-builder.html"
-        children:
-        - label: Visual Report Builder
-          url: "/reports/bi-essentials-report-builder-visual.html"
-          children:
-          - label: Filters
-            url: "/reports/bi-essentials-report-builder-filters.html"
-          - label: Formulas
-            url: "/reports/bi-essentials-report-builder-formulas.html"
-      - label: Manage Data
-        url: "/reports/bi-essentials-manage-data.html"
-        children:
-        - label: Metrics
-          url: "/reports/bi-essentials-manage-data-metrics.html"
-        - label: Filter Sets
-          url: "/reports/bi-essentials-manage-data-filter-sets.html"
-      - label: Export Data
-        url: "/reports/bi-essentials-export-data.html"
-    - label: New Relic Reporting
-      url: "/reports/new-relic-reporting.html"
-      children:
+    - label: MBI
+      url: "https://docs.magento.com/mbi/getting-started/getting-started.html"
+  - label: Customer Engagement
+    url: "/reports/customer-engagement.html"
+  - label: New Relic Reporting
+    url: "/reports/new-relic-reporting.html"
+    children:
       - label: New Relic Queries
         url: "/reports/new-relic-queries.html"

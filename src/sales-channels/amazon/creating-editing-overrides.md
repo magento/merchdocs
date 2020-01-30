@@ -66,7 +66,7 @@ _Editing or Removing an Override_
 
 The **Edit Listing Overrides** action is available in the Actions drop-down when viewing listings on the Inactive, Active, Overrides, and Ineligible tabs.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Because you are modifying overrides for multiple listings, the Listing Details section does not display as it does when modifying a single listing.
 
 1. View the listing on a Products Listings tab (Inactive, Active, Overrides, or Ineligible).

@@ -40,5 +40,5 @@ Widget settings include the following:
 
 - **Orders Sync Statuses** - This setting defines the order status(es) that are sent to Yotpo. Default is `Complete`.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 To change the settings for any of these fields, you must clear the **Use Website** checkbox.

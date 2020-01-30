@@ -8,7 +8,7 @@ Unlike the standard business-to-consumer model, Magento is designed to meet the 
 
 B2B merchants often require capabilities such as flexible bulk and per-unit pricing, the ability to issue quotes with negotiated pricing, and to place orders from a requisition list. A typical order might be charged to the customer’s company account and fulfilled from multiple warehouses.
 
-To learn about Magento Commerce for B2B from a technical perspective, see the [B2B Developer Guide][1]{: target="_blank"}.
+To learn about Magento Commerce for B2B from a technical perspective, see the [B2B Developer Guide][1]{:target="_blank"}.
 
 ![Example of company structure]({% link images/images-b2b/diagram-company-structure.png %}){: .zoom}
 

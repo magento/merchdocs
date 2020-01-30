@@ -4,7 +4,7 @@ title: Configuring Distance Priority Algorithm
 
 The Distance Priority algorithm compares the location of the shipping destination address with source locations to determine the closest source to fulfill shipments. The distance may be determined by physical distance or time spent traveling from one location to another, using database data or driving, walking, or bicycling directions. Use this [Source Selection Algorithm]({% link catalog/inventory-about-ssa.md %}) to recommend the closest source to shipping destination addresses.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 We recommend entering the full street address and GPS coordinates for your [sources]({% link catalog/inventory-sources-add.md %}) if using the Distance Priority algorithm.
 
 You have two options for calculating the distance and time to find the closest source for shipment fulfillment:
@@ -72,7 +72,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
 1. For **Computation mode**, select a configuration.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     When using this algorithm for shipping, if routes and data does not return for the selected Computation mode (driving, bicycling, or walking) for a shipment, the SSA defaults to using the Source Priority. We recommend also setting the [priority for sources per stock]({% link catalog/inventory-stock-priority.md %}).
 
     |Option|Description|
@@ -99,7 +99,7 @@ Offline calculations use country codes to determine the distance between the shi
 
 ### Step 1: Download and Import Geocodes
 
-Complete command line configuration to download and import geocodes countries to ship to and have source locations in. This step may require developer assistance. See DevDocs [Import geocodes for Inventory Management][6].
+Complete command line configuration to download and import geocodes countries to ship to and have source locations in. This step may require developer assistance. See [Import geocodes][6] on DevDocs.
 
 Complete these commands anytime you need to add more geocodes.
 
@@ -121,4 +121,4 @@ Complete these commands anytime you need to add more geocodes.
 [3]: https://developers.google.com/maps/documentation/distance-matrix/start
 [4]: https://developers.google.com/maps/documentation/javascript/distancematrix#travel_modes
 [5]: https://www.geonames.org/
-[6]: https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-inventory.html
+[6]: https://devdocs.magento.com/guides/v2.3/inventory/inventory-cli-reference.html#import-geocodes

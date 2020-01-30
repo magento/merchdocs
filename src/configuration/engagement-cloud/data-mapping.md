@@ -2,9 +2,9 @@
 title: Data Mapping
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Data Mapping
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Data Mapping
 
-Data field mapping establishes the relationship between customer information and activity from all stores related to your Magento website and specific contact fields in the Engagement Cloud database. Data fields can be mapped manually or automatically. To map data fields automatically, use the Automap Data Fields option in the Developer > Admin Task section of the Engagement Cloud configuration. 
+Data field mapping establishes the relationship between customer information and activity from all stores related to your Magento website and specific contact fields in the Engagement Cloud database. Data fields can be mapped manually or automatically. To map data fields automatically, use the Automap Data Fields option in the Developer > Admin Task section of the Engagement Cloud configuration.
 
 The configuration settings in the Data Mapping section are used to map fields manually. The Data Mapping section displays a list of the available Engagement Cloud contact data fields for each Magento data item. Initially there are only a few contact database fields as examples that can be mapped to Magento. You can create additional Engagement Cloud contact data fields and also include mapping to Magento custom attributes. To learn more, see [Data syncing: Data Mapping - Magento 2](https://support.dotdigital.com/hc/en-gb/articles/360000449530-Data-syncing-Data-mapping-Magento-2).
 
@@ -19,7 +19,7 @@ _Customer Information_
 |Customer ID|Website|Maps the Customer ID data field from Magento to your corresponding contact data field in Engagement Cloud.|
 |Firstname|Website|Maps the First Name customer data field from Magento to the corresponding contact data field in Engagement Cloud. Default data field: FIRSTNAME|
 |Lastname|Website|Maps the Last Name customer data field from Magento to the corresponding contact data field in Engagement Cloud. Default data field: LASTTNAME|
-|D.O.B.|Website|Maps the Date of Birth customer data field from Magento to a corresponding contact data field in Engagement Cloud.| 
+|D.O.B.|Website|Maps the Date of Birth customer data field from Magento to a corresponding contact data field in Engagement Cloud.|
 |Gender|Website|Maps the Gender customer data field from Magento to the corresponding contact data field in Engagement Cloud. Default data field: GENDER|
 |Created At|Website|Maps the date the customer account was created from Magento to a corresponding contact data field in Engagement Cloud.
 |Last Logged in Date|Website|Maps the date the customer last logged in from Magento to a corresponding contact data field in Engagement Cloud.|
