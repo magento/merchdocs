@@ -368,6 +368,8 @@ pages:
       url: "/marketing/recommendation-metrics.html"
     - label: Recommendation Best Practices
       url: "/marketing/recommendation-best-practices.html"
+    - label: Limitations with Product Recommendations
+      url: "/marketing/product-recs-limitations.html"
   - label: Related Product Rules
     url: "/marketing/product-related-rules.html"
     children:
