@@ -30,8 +30,7 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
 1. Set the **Allow Browsing Category** option, which applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
 
-    {:.procedure}
-    For Specific Customer Groups
+    **For Specific Customer Groups**
 
       To allow members of a specific customer group to browse through category products, do the following:
 
@@ -42,8 +41,7 @@ When enabled, a new “Category Permissions” section appears on the Category p
         ![]({% link images/images-ee/category-permissions-allow-browsing-customer-groups.png %}){: .zoom}
         _Allow Browsing by Wholesale Customer Group_
 
-    {:.procedure}
-    Restrict Access and Redirect to Landing Page
+    **Restrict Access and Redirect to Landing Page**
 
     Although the "Allow Browsing Category" setting applies to all categories in the website, you can configure a different Landing Page for each store view.
 
@@ -56,8 +54,7 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
 1. Set the **Display Product Prices** option, which applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
 
-    {:.procedure}
-    For Specific Customer Groups
+    **For Specific Customer Groups**
 
     To allow only members of specific customer groups to see the price of products in the category, do the following:
 
@@ -70,8 +67,7 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
 1. Set the **Allow Adding to Cart** option, which applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
 
-    {:.procedure}
-    For Specific Customer Groups
+    **For Specific Customer Groups**
 
     To allow only members of specific customer groups to put category products into the shopping cart, do the following:
 
@@ -86,13 +82,11 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
     The setting applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
 
-    {:.procedure}
-    For Guest
+    **For Guest**
 
     To allow only logged in customers to use Catalog Search, select `NOT LOGGED IN`.
 
-    {:.procedure}
-    For Specific Customer Groups
+    **For Specific Customer Groups**
 
     In the **Disallow Catalog Search By** box, select each group to be prevented from using Category Search. (For multiple options, hold down the Ctrl key, and click each group.)
 
