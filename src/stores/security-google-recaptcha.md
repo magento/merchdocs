@@ -45,7 +45,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
         - `"I am not a robot" Checkbox` Validate requests with the _"I'm not a robot"_ checkbox
         - `Invisible reCAPTCHA badge` Validate requests in the background
-    
+
 1. In the **Domains** text box, enter a list of domains without the HTTP or HTTPS prefix, one per line.
 
    Google verifies the addresses entered.
@@ -89,7 +89,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
 1. Select the reCaptcha v2 type based on the generated keys.
 
-    ![Google reCAPTCHA v2 - type configuration]({% link images/images/config-security-recaptcha-type-v2.png %}){: .zoom}   
+    ![Google reCAPTCHA v2 - type configuration]({% link images/images/config-security-recaptcha-type-v2.png %}){: .zoom}
 
 1. Expand (![Expansion selector]({% link images/images/btn-expand.png %})) the **Backend** section and set the options
 
@@ -154,7 +154,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
 1. Select *reCaptcha type* as _Invisible reCaptcha v3_.
 
-    ![Google reCAPTCHA v2 - type configuration]({% link images/images/config-security-recaptcha-type-v3.png %}){: .zoom} 
+    ![Google reCAPTCHA v2 - type configuration]({% link images/images/config-security-recaptcha-type-v3.png %}){: .zoom}
 
 1. Expand (![Expansion selector]({% link images/images/btn-expand.png %})) the **Backend** section and set the options.
 
@@ -177,7 +177,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
     - **Invisible badge position** — Choose `Inline`, `Bottom Right`, or `Bottom Left`. Applicable only to _Invisible reCaptcha v2_ and _Invisible reCaptcha v3_.
 
-    - **Minimum score** — Input a value from `0.0` to `1.0`, where `1.0` is very likely a good interaction, and `0.0` is very likely a bot. For more details, see the official product documentation [Interpreting the score][3]   
+    - **Minimum score** — Input a value from `0.0` to `1.0`, where `1.0` is very likely a good interaction, and `0.0` is very likely a bot. For more details, see the official product documentation [Interpreting the score][3]
 
     - Select where the CAPTCHA is used.
   
