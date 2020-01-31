@@ -24,7 +24,7 @@ _Page Builder Save as Template dialog_
 
 1. **Created For** is an optional selector you can use to assign the template to a particular content area so that it can be filtered and more easily found when you want to apply that template later. Assigning the template to a particular content area does not limit its use to that area. You can use any template anywhere that Page Builder content is allowed.
 
-1. Click <span class="btn">Save</span>. You should see a confirmation message that your template is saved.
+1. Click <span class="btn">Save</span>. A confirmation message appears indicating that your template is saved.
 
 ## Apply a template
 
@@ -53,14 +53,14 @@ To delete an existing template:
    ![Navigating to Templates page]({% link images/images-ee/pagebuilder-templates-content-templates.png %}){: .zoom}
 _Navigating to Templates page_
 
-1. From the _Templates_ page, choose a template and click <span class="btn">Delete</span> at the end of the row and confirm the deletion. To see the entire template, click on the Template's thumbnail image. This expands the image so you can view the entire template as needed.
+1. From the _Templates_ page, choose a template and click <span class="btn">Delete</span> at the end of the row, then confirm the deletion. To see the entire template, click on the Template's thumbnail image. This expands the image so you can view the entire template as needed.
 
    ![Templates page]({% link images/images-ee/pagebuilder-templates-delete.png %}){: .zoom}
 _Delete a Template_
 
 ## Filter templates
 
-The Apply Template grid provides two ways to filter the templates grid:
+The _Apply Template_ grid and the _Templates_ page grid provide two ways to filter the templates grid:
 
 ![Page Builder Apply Template grid]({% link images/images-ee/pagebuilder-templates-apply-slideout-withfilters.png %}){: .zoom}
 _Page Builder Apply Template grid_
