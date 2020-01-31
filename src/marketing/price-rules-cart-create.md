@@ -185,7 +185,7 @@ The shopping cart price rule actions describe how prices are updated when the co
          | No | Allows multiple pricing rules to apply to the same product. This could result in stacking and providing multiple discounts applied to your listing price. |
 
          {:.bs-callout-warning}
-         To discard subsequent rules, a pricing rule must use your defined priorities which are set in the Priority field of each rule, and multiple rules should not have the same defined priority. See **Priority** in the **Add a New Rule** step.
+         To discard subsequent rules, a pricing rule must use the defined priorities that are set in the Priority field of each rule, and multiple rules should not have the same defined priority. See **Priority** in the **Add a New Rule** step.
 
     - To determine if free shipping is applied to orders that meet the conditions, set **Free Shipping** to one of the following:
 
