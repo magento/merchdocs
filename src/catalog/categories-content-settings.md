@@ -13,39 +13,8 @@ The Content settings determine any additional content appears on the category pa
 *Category Content*
 <!--{% endif %}-->
 
-<table>
-<col WIDTH="200">
-<col WIDTH="100">
-<col WIDTH="auto">
-      <thead>
-         <tr>
-            <th>Field</th>
-            <th>Scope</th>
-            <th>Description</th>
-         </tr>
-      </thead>
-      <tbody>
-         <tr>
-            <td>Category Image</td>
-            <td>Store View</td>
-            <td>Specifies an image for the top of the category page.<table>
-            <col WIDTH="150">
-         <col WIDTH="auto"><tbody markdown="1"><tr><td>Upload</td><td>Uploads an image file from your local computer to the gallery, and uses it as the category image.</td></tr><!--{% if "Default.EE-B2B" contains site.edition %}--><tr><td markdown="1"><p class="tableBodyButton">Select from Gallery</p></td><td>Prompts you to choose an existing image from the gallery.</td></tr><tr><td><img src="{% link images/images-ee/icon-pb-camera.png %}" class="Icon" /></td><td>Either drag an image file to the camera tile, or browse to the image, and select it from your local file system.</td></tr><!--{% endif %}-->
-</tbody></table></td>
-         </tr>
-         <tr>
-            <td>Description</td>
-            <td>Store View</td>
-            <td>Specifies a description that appears on the category page.<table><col WIDTH="150">
-            <col WIDTH="auto"><tbody markdown="1"><!--{% if "Default.EE-B2B" contains site.edition %}--><tr><td markdown="1"><p class="tableBodyButton">Edit with <a href="{% link cms/page-builder.md %}">Page Builder</a></p></td>
-            <td>Opens the Page Builder <a href="{% link cms/page-builder-workspace.md %}">workspace</a>.</td></tr><!--{% endif %}--><!--{% if "Default.CE Only" contains site.edition %}--><tr><td markdown="1"><p class="tableBodyButton">WYSIWYG Editor</p></td><td>Toggles the <a href="{% link cms/editor.md %}">editor</a> between WYSIWYG and HTML modes.</td></tr><!--{% endif %}--></tbody></table></td>
-         </tr>
-         <tr>
-            <td>Add CMS Block</td>
-            <td>Store View</td>
-            <td>
-               <p>Adds an existing <a href="{% link cms/blocks.md %}">CMS block</a> to the category page.</p>
-            </td>
-         </tr>
-      </tbody>
-   </table>
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Category Image|Store View|Specifies an image for the top of the category page. Methods: <br/><span class="btn">Upload</span> - Uploads an image file from your local computer to the gallery, and uses it as the category image.  <br/><span class="btn">Select from Gallery</span> - Prompts you to choose an existing image from the gallery. <!--{% if "Default.EE-B2B" contains site.edition %}--><br/>![]({% link images/images-ee/icon-pb-camera.png %}){: width="30px"} - Either drag an image file to the camera tile, or browse to the image and select it from your local file system.<!--{% endif %}-->|
+|Description|Store View|Specifies a description that appears on the category page. <!--{% if "Default.EE-B2B" contains site.edition %}--><br/><span class="btn">Edit with Page Builder</span> - Opens the [Page Builder workspace]({% link cms/page-builder-workspace.md %}), where you can edit the description.<!--{% endif %}--><!--{% if "Default.CE Only" contains site.edition %}--><span class="btn">Show / Hide Editor</span> - Toggles the display between WYSIWYG editor and HTML modes.<!--{% endif %}-->|
+|Add CMS Block|Store View|Adds an existing [CMS block]({% link cms/blocks.md %}) to the category page.|

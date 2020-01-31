@@ -17,35 +17,10 @@ Before you add products to your catalog, you need to establish the basic categor
 *Category Tree*
 <!--{% endif %}-->
 
-<table>
-<col WIDTH="200">
-<col WIDTH="auto">
-      <thead>
-         <tr>
-            <th>Control</th>
-            <th>Description</th>
-         </tr>
-      </thead>
-      <tbody>
-         <tr>
-            <td>Add Root Category</td>
-            <td>Creates a new root category.</td>
-         </tr>
-         <tr>
-            <td>Add Subcategory</td>
-            <td>Adds a subcategory below the current category or subcategory.</td>
-         </tr>
-         <tr>
-            <td>Collapse All / Expand All</td>
-            <td>Either collapses or expands the category tree.</td>
-         </tr>
-         <tr>
-            <td>Delete</td>
-            <td>Removes the current category or subcategory from the tree.</td>
-         </tr>
-         <tr>
-            <td>Save</td>
-            <td>Saves any changes made to the category.</td>
-         </tr>
-      </tbody>
-   </table>
+|Control|Description|
+|--- |--- |
+|<span class="btn">Add Root Category</span> |Creates a new root category.|
+|<span class="btn">Add Subcategory</span> |Adds a subcategory below the current category or subcategory.|
+|Collapse All / Expand All |Either collapses or expands the category tree.|
+|<span class="btn">Delete</span> |Removes the current category or subcategory from the tree.|
+|<span class="btn">Save</span> |Saves any changes made to the category.|
