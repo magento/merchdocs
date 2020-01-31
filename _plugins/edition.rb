@@ -1,3 +1,6 @@
+# Copyright © Magento, Inc. All rights reserved.
+# See COPYING.txt for license details.
+
 Jekyll::Hooks.register :pages, :post_init do |page|
 
   page_with_conditions = page.data['conditions']
