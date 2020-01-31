@@ -79,6 +79,11 @@ defaults:
       group: marketing
   -
     scope:
+      path: product-recommendations
+    values:
+      group: marketing
+  -
+    scope:
       path: operations
     values:
       group: operations

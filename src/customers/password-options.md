@@ -17,9 +17,9 @@ The customer password options determine the level of security that is used for p
 
 1. Set the **Password Reset Protection Type** to the method you want to use for managing password reset requests:
 
-    | By IP and Email | The password can be reset online after a response is received from a reset notification sent to the email address associated with the Admin account. |
+    | By IP and Email | The password can be reset online after a response is received from a reset notification sent to the email address associated with the Customer account. |
     | By IP | The password can be reset online without additional confirmation. |
-    | By Email | The password can be reset only by responding to an email notification that is sent to the email address associated with the Admin account. |
+    | By Email | The password can be reset only by responding to an email notification that is sent to the email address associated with the Customer account. |
     | None | The password can be reset only by the store administrator. |
 
 1. To limit the number of password reset requests sent per hour, do the following:
@@ -49,10 +49,10 @@ The customer password options determine the level of security that is used for p
       - Numeric
       - Special Characters
 
-    - In the **Maximum Login  Failures to Lockout Account** field, enter the number of failed login attempts until the Admin account is locked. For unlimited attempts, enter zero (0).
+    - In the **Maximum Login  Failures to Lockout Account** field, enter the number of failed login attempts until the Customer account is locked. For unlimited attempts, enter zero (0).
 
     - In the **Minimum Password Length** field, enter the minimum number of characters that can be used in a password. The number must be greater than zero.
 
-    - In the **Lockout Time (minutes)** field, enter the number of minutes an Admin account is locked after too many failed attempts to log in.
+    - In the **Lockout Time (minutes)** field, enter the number of minutes an Customer account is locked after too many failed attempts to log in.
 
 1. When complete, click <span class="btn">Save Config</span>.
