@@ -24,7 +24,7 @@ The properties of each attribute that is used for a configurable product variati
 |Property|Setting|
 |--- |--- |--- |
 |Scope|Global|
-[Catalog Input Type for Store Owner]({% link stores/attributes-product.md %})|The input type of any attribute that is used for a product variation must be one of the following: Dropdown, Visual, Text Swatch, or Swatch|
+[Catalog Input Type for Store Owner]({% link stores/attributes-product.md %})|The input type of any attribute that is used for a product variation must be one of the following: Dropdown, Visual Swatch, or Text Swatch.|
 |Values Required|Yes|
 
 ### Step 1: Choose the Product Type

@@ -26,12 +26,11 @@ When enabled, a new “Category Permissions” section appears on the Category p
 1. Set **Enable** to `Yes`.
 
     ![]({% link images/images-ee/config-catalog-catalog-category-permissions.png %}){: .zoom}
-    *[Category Permissions]({% link configuration/catalog/catalog.md %})*
+    _[Category Permissions]({% link configuration/catalog/catalog.md %})_
 
 1. Set the **Allow Browsing Category** option, which applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
 
-    {:.procedure}
-    For Specific Customer Groups
+    **For Specific Customer Groups**
 
       To allow members of a specific customer group to browse through category products, do the following:
 
@@ -40,66 +39,59 @@ When enabled, a new “Category Permissions” section appears on the Category p
     - In the **Customer Groups** box, select each group that is allowed to browse through products in the category. (For multiple options, hold down the Ctrl key, and click each group.)
 
         ![]({% link images/images-ee/category-permissions-allow-browsing-customer-groups.png %}){: .zoom}
-        *Allow Browsing by Wholesale Customer Group*
+        _Allow Browsing by Wholesale Customer Group_
 
-    {:.procedure}
-    Redirect to Landing Page
+    **Restrict Access and Redirect to Landing Page**
 
-      Although the "Allow Browsing Category" setting applies to all categories in the website, you can configure a different Landing Page for each store view.
-
-      To restrict access and redirect to a landing page, do the following:
+    Although the "Allow Browsing Category" setting applies to all categories in the website, you can configure a different Landing Page for each store view.
 
     - Set **Allow Browsing Category** to `No, Redirect to Landing Page`.
 
     - Choose the **Landing Page** to which visitors will be redirected.
 
-        ![]({% link images/images-ee/category-permissions-browse-category-landing-page.png %}){: .zoom}
-        *Redirect to Home Page*
+    ![]({% link images/images-ee/category-permissions-browse-category-landing-page.png %}){: .zoom}
+    _Redirect to Home Page_
 
 1. Set the **Display Product Prices** option, which applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
 
-    {:.procedure}
-    For Specific Customer Groups
+    **For Specific Customer Groups**
 
-      To allow only members of specific customer groups to see the price of products in the category, do the following:
+    To allow only members of specific customer groups to see the price of products in the category, do the following:
 
     - Set **Display Product Prices** to `Yes, for Specified Customer Groups`.
 
     - In the **Customer Groups** box, select each group that is allowed to see the price of products in the category. (For multiple options, hold down the Ctrl key, and click each group.)
 
-        ![]({% link images/images-ee/category-permissions-price-customer-groups.png %}){: .zoom}
-        *Only Wholesale Customer Group Can See Prices*
+    ![]({% link images/images-ee/category-permissions-price-customer-groups.png %}){: .zoom}
+    _Only Wholesale Customer Group Can See Prices_
 
 1. Set the **Allow Adding to Cart** option, which applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
 
-    {:.procedure}
-    For Specific Customer Groups
+    **For Specific Customer Groups**
 
-      To allow only members of specific customer groups to put category products into the shopping cart, do the following:
+    To allow only members of specific customer groups to put category products into the shopping cart, do the following:
 
     - Set **Allow Adding to Cart** to `Yes, for Specified Customer Groups`.
 
     - In the **Customer Groups** box, select each group that is allowed to add products from the category to the cart. (For multiple options, hold down the Ctrl key, and click each group.)
 
-        ![]({% link images/images-ee/category-permissions-cart-customer-groups.png %}){: .zoom}
-        *Only Wholesale Customer Group Can Put Product in Cart*
+      ![]({% link images/images-ee/category-permissions-cart-customer-groups.png %}){: .zoom}
+      _Only Wholesale Customer Group Can Put Product in Cart_
 
 1. Set the **Disallow Catalog Search** option to prevent members of a specific customer group from using Catalog Search.
 
-   The setting applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
+    The setting applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
 
-    {:.procedure}
-    For Guest
+    **For Guest**
 
     To allow only logged in customers to use Catalog Search, select `NOT LOGGED IN`.
 
-    {:.procedure}
-    For Specific Customer Groups
+    **For Specific Customer Groups**
 
     In the **Disallow Catalog Search By** box, select each group to be prevented from using Category Search. (For multiple options, hold down the Ctrl key, and click each group.)
 
     ![]({% link images/images-ee/category-permissions-disallow-category-search.png %}){: .zoom}
-    *Catalog Search Not Allowed for General Customer Group*
+    _Catalog Search Not Allowed for General Customer Group_
 
 1. When complete, click <span class="btn">Save Config</span>.
 
@@ -116,7 +108,7 @@ When enabled, a new “Category Permissions” section appears on the Category p
     - To create a permissions rule, click <span class="btn">New Permission</span>.
 
       ![]({% link images/images-ee/category-permissions-section-admin.png %}){: .zoom}
-      *Category Permissions Section*
+      _Category Permissions Section_
 
     - Choose the applicable **Website** and **Customer Group**.
 
