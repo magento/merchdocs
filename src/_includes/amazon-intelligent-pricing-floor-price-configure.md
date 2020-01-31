@@ -6,11 +6,11 @@ Define your lowest price setting in the **Floor Price** section.
 
 1. For **Floor Price Action**, select an option.
 
-    - **Decrease By**: Choose when you want the defined floor price source value to be decreased before listing to Amazon.
+    - **Decrease By**: Choose when you want the defined floor price source value (defined in the **Floor Price Source** field) to be decreased before listing to Amazon.
 
-    - **Increase By**: Choose when you want the defined floor price source value to be increased before listing to Amazon.
+    - **Increase By**: Choose when you want the defined floor price source value (defined in the **Floor Price Source** field) to be increased before listing to Amazon.
 
-    - **Match**: Choose when you do not want the listing price to fluctuate below or above the price source defined in the **Floor Price Source** field. When selected, the **Apply** and **Floor Adjustment Amount** fields are disabled.
+    - **Match**: Choose when you do not want the listing price to fluctuate below the defined floor price source value (defined in the **Floor Price Source** field). When selected, the **Apply** and **Floor Adjustment Amount** fields are disabled.
 
 1. The **Apply** field defaults to `Apply as percentage`.
 
