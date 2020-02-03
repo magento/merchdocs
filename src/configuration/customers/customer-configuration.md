@@ -145,17 +145,24 @@ _Account Information Options_
 
 ## CAPTCHA
 
+<!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/config-customers-customer-configuration-captcha.png %}){: .zoom}
+<!--{% endif %}-->
+<!--{% if "Default.EE Only" contains site.edition %}-->
+![]({% link images/images-ee/config-customers-customer-configuration-captcha.png %}){: .zoom}
+<!--{% endif %}-->
+<!--{% if "Default.B2B Only" contains site.edition %}-->
+![]({% link images/images-b2b/config-customers-customer-configuration-captcha.png %}){: .zoom}
+<!--{% endif %}-->
 [_CAPTCHA_]({% link stores/security-captcha.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enable CAPTCHA on Frontend|Website|Enables the CAPTCHA in the storefront. Options: Yes /  No|
-|Font|Website|Determines the font that is used to display the CAPTCHA. To add your own font, put the font file in the same directory as your Magento instance, and add the declaration to the config.xml file at: `app/code/Magento/Captcha/etc`|
-|Forms|Website|Determines the form(s) where CAPTCHA is used. Options: Create User Login, Forgot Password, Checkout as Guest, Register during Checkout, Contact Us, Payflow Pro (Requires installing a patch according to KB [PayPal Payflow Pro active carding activity](https://support.magento.com/hc/en-us/articles/360025515991))|
-|Displaying Mode|Website|Determines when the  CAPTCHA appears. Options: <br/>**Always** - CAPTCHA is always required to log in. <br/>**After number of attempts to login** - When selected displays the "Number of Unsuccessful Attempts to Login" field. Enter the number of login attempts allowed. A value of 0 (zero) is similar to setting Displaying Mode to Always. This option does not cover the Forgot Password and Create User forms. If CAPTCHA is enabled and set to be appear, then it is always included on these form.<br/>_**Note:**_ To track the number of unsuccessful attempts to log in, the attempts to log in under one email address from one IP-address are counted. The maximum allowed number of attempts to log in from one IP-address is 1,000. This limitation is only applied when the CAPTCHA functionality is enabled.|
+|Enable CAPTCHA on Storefront|Website|Enables CAPTCHA in the store(s) associated with the Magento website. Options: Yes / No|
+|Font|Website|Determines the font that is used to display the CAPTCHA. To add your own font, put the font file in the same directory as your Magento installation, and add the declaration to the `config.xml` file at: `app/code/Magento/Captcha/etc`|
+|Forms|Website|Determines the form(s) where CAPTCHA is used. Options: Applying coupon code, Create User,  Login, Forgot Password, Contact Us, Change Password, <!--{% if "Default.CE Only" contains site.edition %}-->Payflow Pro (see [security patch](https://support.magento.com/hc/en-us/articles/360025515991)), Send to Friend Form, Share Wishlist Form<!--{% endif %}--><!--{% if "Default.EE Only" contains site.edition %}-->Share Wishlist Form, Add Gift Card Code, Payflow Pro (see [security patch](https://support.magento.com/hc/en-us/articles/360025515991)), Send to Friend Form<!--{% endif %}--><!--{% if "Default.B2B Only" contains site.edition %}-->Share Wishlist Form, Create company, Add Gift Card Code, Payflow Pro (see [security patch](https://support.magento.com/hc/en-us/articles/360025515991))<!--{% endif %}--><br />_**Note:**_ The Create User, Forgot Password, and Payflow Pro forms are always enabled when selected.|
+|Displaying Mode|Website|Determines when the  CAPTCHA appears. Options: <br/>**Always** - CAPTCHA is always required to log in. <br/>**After number of attempts to login** - This option applies only to the Admin Sign In form. When selected, the "Number of Unsuccessful Attempts to Login" field appears. Enter the number of login attempts that you want to allow. A value of 0 (zero) is similar to setting Displaying Mode to 'Always'.<br/>_**Note:**_ To track the number of unsuccessful login attempts, each attempt to log in under one email address and from one IP-address is counted. The maximum number of login attempts allowed from the same  IP-address is 1,000. This limitation applies only when CAPTCHA is enabled.|
 |CAPTCHA Timeout (minutes)|Website|Determines the lifetime of the current CAPTCHA. When the CAPTCHA expires, the user must reload the page.|
-|Number of Symbols|Website|Determines the number of symbols that are used in the  CAPTCHA. Maximum allowed value is 8. You can also specify a range, for example, 5-8.|
-|Symbols Used in CAPTCHA|Website|Determines which symbols are used in the CAPTCHA. Only letters (a-z and A-Z) and numbers (0-9) are allowed. The default set of symbols suggested in the field excludes similar looking symbols like i, l, or 1. Displaying these symbols in CAPTCHA decreases the chances that a user will recognize CAPTCHA correctly.|
-|Case Sensitive|Website|Determines if the characters used in the CAPTCHA are case sensitive. Options: Yes / No|
-
+|Number of Symbols|Website|Determines the number of symbols that appaer in the CAPTCHA, with a maximum of 8. You can also specify a range, for example, 5-8.|
+|Symbols Used in CAPTCHA|Website|Determines the letters (a-z and A-Z) and numbers (0-9) that appear in the CAPTCHA. Symbols that are hard to distinguish from other symbols, such as `i`, `l`, or `1`, are not included in the default set of CAPTCHA symbols.|
+|Case Sensitive|Website|Determines if CAPTCHA characters are case sensitive. Options: Yes / No|
