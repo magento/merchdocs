@@ -1,3 +1,6 @@
+# Copyright © Magento, Inc. All rights reserved.
+# See COPYING.txt for license details.
+
 namespace :build do
   desc 'Build all User Guide editions. Optionally, use "ce_options", "ee_options", and "b2b_options" to pass additional options correspondingly.'
   # task :all => [:ce, :ee, :b2b] do
