@@ -53,7 +53,7 @@ _Admin Sign In with CAPTCHA_
 
     - In the **CAPTCHA Timeout (minutes)** field, enter the number of minutes before the CAPTCHA expires. When the CAPTCHA expires, the administrator must reload the page.
 
-    - Enter the **Number of Symbols** to appear in the CAPTCHA. Up to eight symbols can be used. For a variable number of symbols that changes with each CAPTCHA, enter a range (such as `5-8`).
+    - Enter the **Number of Symbols** to appear in the CAPTCHA. Up to eight (`8`) symbols can be used. For a variable number of symbols that changes with each CAPTCHA, enter a range (such as `5-8`).
 
     - In the **Symbols Used in CAPTCHA** field, enter the letters (a-z and A-Z) and numbers (0-9) that you want to appear randomly in the CAPTCHA. Symbols that are hard to distinguish from other symbols, such as `i`, `l`, or `1`, are not included in the default set of CAPTCHA symbols.
 
@@ -88,7 +88,7 @@ Customers can be required to enter a CAPTCHA each time they log in to their acco
 
     - Enter the name of the **Font** to be used for the CAPTCHA symbols (default: `LinLibertine`).
 
-        To add your own font, the font file must reside in the same directory as your Magento installation, and be declared in the `config.xml` file of the CAPTCHA module.
+        To add your own font, the font file must reside in the same directory as your Magento installation and must be declared in the `config.xml` file of the CAPTCHA module.
 
     - Select any of the following **Forms** where the CAPTCHA is to be used. To choose multiple forms, hold down the Ctrl key (PC) or Command key (Mac).
 
