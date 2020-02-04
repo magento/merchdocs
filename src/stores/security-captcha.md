@@ -35,7 +35,7 @@ _Admin Sign In with CAPTCHA_
 
     - Enter the name of the **Font** to be used for CAPTCHA symbols (default: `LinLibertine`).
 
-        To add your own font, the font file must reside in the same directory as your Magento installation, and be declared in the `config.xml` file of the Captcha module at: `app/code/Magento/Captcha/etc`
+        To add your own font, the font file must reside in the same directory as your Magento installation and must be declared in the `config.xml` file of the Captcha module at `app/code/Magento/Captcha/etc`.
 
     - Select any of the following **Forms** where the CAPTCHA is to be used. To choose multiple forms, hold down the Ctrl key (PC) or Command key (Mac).
 
@@ -45,7 +45,7 @@ _Admin Sign In with CAPTCHA_
     - Set **Displaying Modes** to one of the following:
 
       - `Always` — CAPTCHA is always required to log in to the Admin.
-      - `After number of attempts to login` — This option applies only to the Admin Login form. When selected, the _Number of Unsuccessful Attempts to Login_ field appears. Enter the number of login attempts that you want to allow. A value of 0 (zero) is similar to setting Displaying Mode to `Always`.
+      - `After number of attempts to login` — This option applies only to the Admin Login form. When selected, the Number of Unsuccessful Attempts to Login field appears. Enter the number of login attempts that you want to allow. A value of 0 (zero) is similar to setting Displaying Mode to `Always`.
 
       To track the number of unsuccessful login attempts, each attempt to log in under one email address and from one IP-address is counted. The maximum number of login attempts allowed from the same IP-address is 1,000. This limitation applies only when CAPTCHA is enabled.
 
