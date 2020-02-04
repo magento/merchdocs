@@ -119,7 +119,7 @@ Customers can be required to enter a CAPTCHA each time they log in to their acco
 
     - In the **CAPTCHA Timeout (minutes)** field, enter the number of minutes before the CAPTCHA expires. When the CAPTCHA expires, the customer must reload the page to generate a new CAPTCHA.
 
-    - Enter the **Number of Symbols** to appear in the CAPTCHA. Up to eight symbols can be used. For a variable number of symbols that changes with each CAPTCHA, enter a range (such as `5-8`).
+    - Enter the **Number of Symbols** to appear in the CAPTCHA. Up to eight (`8`) symbols can be used. For a variable number of symbols that changes with each CAPTCHA, enter a range (such as `5-8`).
 
     - In the **Symbols Used in CAPTCHA** field, enter the letters (a-z and A-Z) and numbers (0-9) that you want to appear randomly in the CAPTCHA. The default set of characters does not include similar symbols such as `I` or `1`. For best results, use symbols that users can readily identify.
 
