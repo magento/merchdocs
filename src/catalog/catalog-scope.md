@@ -7,7 +7,7 @@ Magento uses the term _catalog_ to refer to the product database as a whole. Acc
 
 In sales, the term _catalog_ usually refers to a curated selection of products that is available for sale. For example, a store might have a “Spring Catalog” and a “Fall Catalog”.
 
-Like the table of contents of a printed catalog, the main menu of your store — or “top navigation” — organizes products by category to make it easy for customers to find what they want. The main menu is based on a “root category,” which is a container for the menu that is assigned to the store. Because the specific menu options are defined at the store view level, each view can have a different main menu based on the same root category. Within each menu, you can offer a curated selection of products that is suitable for the store.
+Like the table of contents of a printed catalog, the main menu of your store — or _top navigation_ — organizes products by category to make it easy for customers to find what they want. The main menu is based on a _root category_, which is a container for the menu that is assigned to the store. Because the specific menu options are defined at the store view level, each view can have a different main menu based on the same root category. Within each menu, you can offer a curated selection of products that is suitable for the store.
 
 ![]({% link images/images/scope-catalog.png %}){: .zoom}
 *Product Catalog in Store Hierarchy*

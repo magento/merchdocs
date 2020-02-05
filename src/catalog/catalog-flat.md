@@ -56,7 +56,7 @@ There are two methods you can use to verify the results.
         ![]({% link images/images/storefront-flat-catalog-enabled.png %}){: .zoom}
         _Storefront with Flat Catalog_
 
-## Method 2: Verify the results for a category
+### Method 2: Verify the results for a category
 
    1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
 

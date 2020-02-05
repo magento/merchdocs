@@ -14,6 +14,6 @@ The selection of products in any shared catalog can be easily updated from the A
 
 1. For the the shared catalog in the [grid]({% link stores/admin-grid-controls.md %}), go to the **Action** column and select **Set Pricing and Structure**.
 
-1. Follow the instructions in [Step 1: Choose Products]({% link catalog/catalog-shared-pricing-structure.md %}).
+1. Follow the instructions in [Step 2: Choose Products]({% link catalog/catalog-shared-pricing-structure.md %}).
 
-   You can skip the first step, because the scope of a shared catalog cannot be changed after it is saved for the first time.
+   You can skip the first item, because the scope of a shared catalog cannot be changed after it is saved for the first time.

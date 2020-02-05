@@ -54,6 +54,6 @@ The following requirements must be met for a complex product — such as bundle,
 
    When a category is selected, the following occurs:
 
-    * The toggle in the first column of the grid is set to the green _On_ position for each selected product.
-    * If a product is assigned to multiple categories and is omitted in one of them, it will continue to be available through the other categories and through [catalog search]({% link catalog/search.md %}).
-    * The system automatically sets [Category Permissions]({% link catalog/category-permissions.md %}) to _Allow_ for the selected products.
+    * The toggle in the first column of the grid is set to the green `On` position for each selected product.
+    * If a product is assigned to multiple categories and is omitted in one of them, it continues to be available through the other categories and through [catalog search]({% link catalog/search.md %}).
+    * The system automatically sets [Category Permissions]({% link catalog/category-permissions.md %}) to `Allow` for the selected products.

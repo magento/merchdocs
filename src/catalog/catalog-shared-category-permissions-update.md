@@ -3,7 +3,7 @@ conditions: Default.B2B Only
 title: Updating Category Permissions
 ---
 
-[Category permissions]({% link catalog/category-permissions.md %}) are automatically set to “Allow” for products that are added from the category tree to a shared catalog. You can later adjust the permissions, or create additional rules, as needed.
+[Category permissions]({% link catalog/category-permissions.md %}) are automatically set to _Allow_ for products that are added from the category tree to a shared catalog. You can later adjust the permissions, or create additional rules, as needed.
 
 ## Update category permissions
 

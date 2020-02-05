@@ -3,7 +3,7 @@ conditions: Default.B2B Only
 title: Configuring Catalog Price Scope
 ---
 
-If you have a multisite installation, make sure to configure the price scope before you create your shared catalogs. The [price scope]({% link catalog/catalog-price-scope.md %}) can be set to “Global” or “Website”. However, it can be set only at the beginning of the setup process. The Website chooser appears during Step 2 of the [shared catalog setup]({% link catalog/catalog-shared-pricing-structure.md %}).
+If you have a multisite installation, make sure to configure the price scope before you create your shared catalogs. The [price scope]({% link catalog/catalog-price-scope.md %}) can be set to `Global` or `Website`. However, it can be set only at the beginning of the setup process. The Website chooser appears during Step 2 of the [shared catalog setup]({% link catalog/catalog-shared-pricing-structure.md %}).
 
 ![]({% link images/images-b2b/catalog-shared-scope-pricing-step2.png %}){: .zoom}
 *Website Chooser*

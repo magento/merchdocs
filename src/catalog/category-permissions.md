@@ -23,10 +23,10 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Category Permissions** section.
 
-1. Set **Enable** to `Yes`.
-
     ![]({% link images/images-ee/config-catalog-catalog-category-permissions.png %}){: .zoom}
     _[Category Permissions]({% link configuration/catalog/catalog.md %})_
+
+1. Set **Enable** to `Yes`.
 
 1. Set the **Allow Browsing Category** option, which applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
 

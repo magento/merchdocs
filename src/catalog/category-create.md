@@ -15,7 +15,7 @@ _Category Tree_
 _Category Tree_
 <!--{% endif %}-->
 
-## Step 1: Create a Category
+## Step 1: Create a category
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
 
@@ -29,7 +29,7 @@ _Category Tree_
 
 1. Click <span class="btn">Add Subcategory</span>.
 
-## Step 2: Complete the Basic Information
+## Step 2: Complete the basic information
 
 1. If you want the category to be immediately available in the store, set **Enable Category** to `Yes`.
 
@@ -48,7 +48,7 @@ _Category Tree_
 
 1. Click <span class="btn">Save</span> and continue.
 
-## Step 3: Complete the Category Content
+## Step 3: Complete the category content
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Content** section.
 
@@ -71,7 +71,7 @@ _Category Tree_
     ![]({% link images/images/category-content.png %}){: .zoom}
     [_Content_]({% link catalog/categories-content-settings.md %})
 
-## Step 4: Complete the Display Settings
+## Step 4: Complete the display settings
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Display Settings** section.
 
@@ -106,7 +106,7 @@ _Category Tree_
     ![]({% link images/images/category-display-settings.png %}){: .zoom}
     [_Display Settings_]({% link catalog/categories-display-settings.md %})
 
-## Step 5: Complete the Search Engine Optimization Settings
+## Step 5: Complete the search engine optimization settings
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Search Engine Optimization Settings** section.
 
@@ -121,7 +121,7 @@ _Category Tree_
 
 1. Click <span class="btn">Save</span> and continue.
 
-## Step 6: Choose the Products in Category
+## Step 6: Choose the products in category
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Products in Category** section. Then, use one of the following methods to add products to the category.
 
@@ -143,7 +143,7 @@ _Category Tree_
 1. Click <span class="btn">Save</span> and continue.
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-## Step 7: Set Category Permissions
+## Step 7: Set the category permissions
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Category Permissions** section and do the following:
 
@@ -167,10 +167,10 @@ _Category Tree_
 <!--{% endif %}-->
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-## Step 7: Complete the Design Settings
+## Step 7: Complete the design settings
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-## Step 8: Complete the Design Settings
+## Step 8: Complete the design settings
 <!--{% endif %}-->
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Design** section and do the following:

@@ -6,7 +6,7 @@ group: marketing
 
 Category rules dynamically change the product selection according to a set of conditions. Each category can have only one category rule, although the single rule can have multiple conditions. For example, you can create a category rule for a specific brand. Products of the same brand are automatically added to the list, even if they’re not assigned to the same category. You can add as many conditions to the expression as needed to describe the products that you want to include.
 
-Each condition consists of an attribute, value, and logical operator. Only attributes with the “[Use in Product Listing]({% link stores/attributes-product.md %})” property set to “Yes” can be used in category rules. If you want to use an attribute that is not included in product listings, open the attribute in edit mode, and set “Use in Product Listing” to “Yes.” Although Date attributes are not supported, you can use the Date Created or Date Modified attributes to define a date, or range of dates. For example, to include only products that were created during the past week, set Date Created to a value of “<7”.
+Each condition consists of an attribute, value, and logical operator. Only attributes with the “[Use in Product Listing]({% link stores/attributes-product.md %})” property set to `Yes` can be used in category rules. You must set this property for the attribute if you want to use an attribute that is not included in product listings. Although Date attributes are not supported, you can use the Date Created or Date Modified attributes to define a date, or range of dates. For example, to include only products that were created during the past week, set "Date Created" to a value of `<7`.
 
 {:.bs-callout-info}
 Make sure to configure each attribute that is used in the rule as a [“smart” attribute]({% link marketing/visual-merchandiser-configuration.md %}).
@@ -19,7 +19,7 @@ Category product rules can speed up the process of assigning specific products t
 {:.bs-callout-info}
 Use caution when applying a category product rule, because any products that do not meet the condition are removed from the category. For example, if you create a rule that includes only purple tank tops, all other tank tops are removed from the category.
 
-## Step 1: Configure the “Smart” attributes
+## Step 1: Configure the “smart” attributes
 
 1. For each attribute that is to be used in the rule, make sure that the [Use in Product Listing]({% link stores/attributes-product.md %}) storefront property is set to `Yes`.
 
@@ -33,7 +33,7 @@ Use caution when applying a category product rule, because any products that do 
 
    The automatic sorting and condition options appear.
 
-1. Click <span class="btn">Add Condition</span>, and do the following:
+1. Click <span class="btn">Add Condition</span> and do the following:
 
     * Choose the **Attribute** that is the basis of the condition.
 

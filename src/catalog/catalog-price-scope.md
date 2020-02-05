@@ -16,7 +16,7 @@ For B2B, see also [Configuring Catalog Price Scope]({% link catalog/catalog-shar
 
 ## Configure price scope
 
-1. On the _Admin_ menu, go to **Stores** _Settings_ > **Configuration**.
+1. On the _Admin_ menu, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 

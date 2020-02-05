@@ -47,9 +47,9 @@ In the **Products in Category** section, click the tiles (![]({% link images/ima
     ![]({% link images/images-ee/category-edit-automatic-sorting.png %}){: .zoom}
     *Match Products by Rule*
 
-   1. Set **Automatic Sorting** to your preference.
+1. Set **Automatic Sorting** to your preference.
 
-   1. Follow the instructions in the next step to create a category rule.
+1. Follow the instructions in the next step to create a category rule.
 
 ## Step 3: Create a category rule
 

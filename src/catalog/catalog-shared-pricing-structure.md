@@ -10,13 +10,15 @@ Setting up the pricing and structure of a shared catalog is a two-step process. 
 
 In the standard category tree, the root category is the topmost container and is referred to as _Default Category_ in the sample data. However, when shared catalogs are enabled, the category tree has an additional outer container called _Root Catalog_. The root catalog encompasses all other category structures that exist in the system. To learn more, see [Catalog Scope]({% link catalog/catalog-scope.md %}).
 
+## Step 1: Open the shared catalog pricing and structure configuration
+
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. For the the shared catalog in the [grid]({% link stores/admin-grid-controls.md %}), go to the **Action** column and select**Set Pricing and Structure**.
+1. For the the shared catalog in the [grid]({% link stores/admin-grid-controls.md %}), go to the **Action** column and select **Set Pricing and Structure**.
 
 1. The first time the shared catalog is configured, click <span class="btn">Configure</span> to continue with the following steps.
 
-## Step 1: Choose the products
+## Step 2: Choose the products
 
 The first step in the process is to choose the products that you want to include in the shared catalog. The product selection page features the [category tree]({% link catalog/category-create.md %}) on the left, and a synchronized product grid on the right. If you click a category in the tree, the products in the category appear in the grid.
 
@@ -56,7 +58,7 @@ Only categories with selected products appear in the [top navigation]({% link ca
     ![]({% link images/images-b2b/catalog-shared-choose-products-step1.png %}){: .zoom}
     *Step 1: Select Products for Catalog*
 
-## Step 2: Set custom prices
+## Step 3: Set custom prices
 
 You can set custom pricing for each product individually, or use the Action control to set custom pricing as a fixed amount or percentage for multiple product records.
 

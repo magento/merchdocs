@@ -5,7 +5,7 @@ title: Creating a Shared Catalog
 
 There are two ways to create a shared catalog. You can create a new shared catalog of either type, or duplicate an existing shared catalog. A newly created shared catalog does not include any products, and is not yet assigned to a company.
 
-When a shared catalog is created, the system automatically creates a [customer group]({% link customers/account-company-customer-group.md %}) by the same name. For example, if you create a custom shared catalog called _ABC Catalog_, this also creates a corresponding customer group called _ABC Catalog_. Assigning a company to the shared custom catalog is essentially the same as assigning them to a customer group.
+When a shared catalog is created, the system automatically creates a [customer group]({% link customers/account-company-customer-group.md %}) by the same name. For example, if you create a custom shared catalog called "ABC Catalog", this also creates a corresponding _ABC Catalog_ customer group. Assigning a company to the shared custom catalog is essentially the same as assigning them to a customer group.
 
 A newly created shared catalog does not include products, custom pricing, or company associations. The exception to this is a public catalog, which is automatically assigned to guests and to customers who are not associated with a company.
 
