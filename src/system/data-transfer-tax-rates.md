@@ -2,7 +2,10 @@
 title: Import/Export Tax Rates
 ---
 
-If you conduct business in several states and ship a large quantity of product, entering tax rates manually can be very time consuming. It is faster and more efficient to download tax rates by ZIP code and import them into Magento. The following example shows how to import a set of California tax rates downloaded from the [Avalara][1]{:target="_blank"} website. Avalara is a [Magento Technology Partner][2]{:target="_blank"} and provides [tax rate tables][3]{:target="_blank"} for every ZIP code in the United States, which you can download at no charge.
+If you conduct business in several states and ship a large quantity of product, entering tax rates manually can be very time consuming. It is faster and more efficient to download tax rates by ZIP code and import them into Magento. The following example shows how to import a set of state-specific tax rates downloaded from the a trusted source. Avalara provides [tax rate tables](http://www.avalara.com/taxrates/en/download-tax-tables.html){:target="_blank"} for every ZIP code in the United States, that you can download at no charge.
+
+{:.bs-callout .bs-callout-info}
+If you are interested in automating your sales and use tax compliance and reporting, Magento versions 2.3.0+ offer [Vertex Cloud]({% link tax/vertex.md %}){:target=“_blank”} as a trusted, built-in option. You can also find Magento-trusted options on the [Magento Partners](https://partners.magento.com/portal/directory/?_token=_vJAasZxq5QA0moyZVfX1SczSr3WWWRp&query=sales+tax){:target="_blank"} site.
 
 ## Step 1: Export the Magento Tax Rate Data
 
@@ -82,7 +85,3 @@ You now have two spreadsheets open, side by side. One with the Magento export fi
     _Imported Tax Rates_
 
 1. Run some test transactions in your store with customers from different ZIP codes to make sure that the new tax rates work correctly.
-
-[1]: https://partners.magento.com/portal/details/partner/id/30
-[2]: http://partners.magento.com/partner_locator/search.aspx?f0=Types+of+Partners&amp;f0v0=Technology+Partner
-[3]: http://www.avalara.com/taxrates/en/download-tax-tables.html
