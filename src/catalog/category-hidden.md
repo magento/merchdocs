@@ -10,8 +10,8 @@ There are many ways to use hidden categories. You might want to create additiona
 
 1. In the category tree, select the category you want to hide and do the following:
 
-   * Set **Is Active** to `Yes`.
-   * Set **Include in Menu** to `No`.
+   - Set **Is Active** to `Yes`.
+   - Set **Include in Menu** to `No`.
 
 1. In the **Display Settings** section, set **Anchor** to `No`.
 
@@ -22,8 +22,8 @@ There are many ways to use hidden categories. You might want to create additiona
    {:.bs-callout-info}
    Although the category is hidden, you can create subcategories beneath it and make them active.
 
-   * Set **Enable Category** to `Yes`.
-   * In the **Display Settings** section, set **Anchor** to `Yes`.
+   - Set **Enable Category** to `Yes`.
+   - In the **Display Settings** section, set **Anchor** to `Yes`.
 
     As active categories, you can now link to them from other places in your store, but they will not appear in the menu.
 
