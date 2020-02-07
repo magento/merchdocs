@@ -43,7 +43,7 @@ Only categories with selected products appear in the [top navigation]({% link ca
 
     - The toggle in the first column of the grid is set to the green _On_ position for each selected product.
     - If a product is assigned to multiple categories and is not selected in one of them, it will continue to be available through the other categories, and also when using [catalog search]({% link catalog/search.md %}).
-    - The system automatically sets [Category Permissions]({% link catalog/category-permissions.md %}) to _Allow_ for the selected products.
+    - The system automatically sets [Category Permissions]({% link catalog/category-permissions.md %}) to `Allow` for the selected products.
 
 1. If necessary, use the filters and other [grid controls]({% link stores/admin-grid-controls.md %}) to find the products that you want to include in the shared catalog.
 
