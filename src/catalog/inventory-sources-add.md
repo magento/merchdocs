@@ -6,77 +6,79 @@ Manage inventory and order fulfillment from multiple locations with custom sourc
 
 If editing the Default Source, you can edit all configurations except name and code. We recommend single source merchants add information matching their location.
 
-## To add a new inventory source:
+## Add a new inventory source
 
-1. On the Admin sidebar, click **Stores**. Then under **Inventory**, choose **Sources**.
+1. On the _Admin_ sidebar, go to **Stores** > _Inventory_ > **Sources**.
 
 1. Click <span class="btn">Add New Source</span>.
 
    ![]({% link images/images/stores-inventory-sources.png %}){: .zoom}
-   *Manage Sources*
+   _Manage Sources_
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **General** section, and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **General** section and do the following:
 
-   1. Enter a unique **Name** to identify the inventory source.
+    - Enter a unique **Name** to identify the inventory source.
 
-   1. Enter a unique **Code**. The code supports upper and lower case letters, numbers, dashes, and underscores. The code is a unique ID used when assigning to stock and exporting-importing data.
+    - Enter a unique **Code**.
 
-   1. If this inventory source is ready to use, set **Is Enabled** to “Yes.”
+      The code supports upper and lower case letters, numbers, dashes, and underscores. The code is a unique ID used when assigning to stock and exporting-importing data.
 
-   1. Enter a brief **Description** for this location for quick reference or additional details.
+    - If this inventory source is ready to use, set **Is Enabled** to `Yes`.
 
-   1. In the **Latitude** and **Longitude** fields, enter the Global Positioning System (GPS) coordinates of the facility location.
+    - Enter a brief **Description** for this location for quick reference or additional details.
 
-      To find the GPS coordinates with [Google Maps][1], enter the address in the **Search** box. Right-click the marker on the map and choose **What’s here?**.
-      The GPS coordinates appear in the details box below the street address.
+    - In the **Latitude** and **Longitude** fields, enter the Global Positioning System (GPS) coordinates of the facility location.
+
+      To find the GPS coordinates with [Google Maps][1], enter the address in the **Search** box. Right-click the marker on the map and choose **What’s here?**. The GPS coordinates appear in the details box below the street address.
 
       ![]({% link images/images/stores-inventory-source-general.png %}){: .zoom}
-      *General*
+      _General_
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Contact Info** section, and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Contact Info** section and do the following:
 
-   1. For the **Contact Name**, enter the full name of the primary contact at the location.
+    - For the **Contact Name**, enter the full name of the primary contact at the location.
 
-   1. Enter an **Email** address for contacting the location.
+    - Enter an **Email** address for contacting the location.
 
-   1. For the **Phone**, enter the area code and phone number.
+    - For the **Phone**, enter the area code and phone number.
 
-   1. In the **Fax** field, enter the area code and phone number of the fax, if available.
+    - In the **Fax** field, enter the area code and phone number of the fax, if available.
 
       ![]({% link images/images/stores-inventory-source-contact-info.png %}){: .zoom}
-      *Contact Info*
+      _Contact Info_
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Address Data** section, and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Address Data** section and do the following:
 
-   1. Choose the **Country**.
+    - Choose the **Country**.
 
-   1. For the **State/Province**, enter the standard abbreviation for the state or province.
+    - For the **State/Province**, enter the standard abbreviation for the state or province.
 
-   1. Enter the **City**.
+    - Enter the **City**.
 
-   1. Enter the physical **Street** address.
+    - Enter the physical **Street** address.
 
-   1. For the **Postcode**, enter the ZIP or postal code.
+    - For the **Postcode**, enter the ZIP or postal code.
 
       ![]({% link images/images/stores-inventory-source-address-data.png %}){: .zoom}
-      *Address Data*
+      _Address Data_
 
 1. To save your work, do one of the following:
 
-   * To save your work and continue editing, click <span class="btn">Save &amp; Continue</span>.
-   * To save your work and return to the Manage Sources page, click the down arrow  ( ![]({% link images/images/btn-dropdown.png %}){: .Inline}) and choose **Save &amp; Close**.
+    - To save your work and continue editing, click <span class="btn">Save & Continue</span>.
 
-   * To save your work on the current source record and enter a new source, choose **Save &amp; New**.
+    - To save your work and return to the Manage Sources page, click the down arrow ( ![]({% link images/images/btn-dropdown.png %})) and choose **Save & Close**.
 
-### Button Bar
+    - To save your work on the current source record and enter a new source, choose **Save & New**.
+
+## Button bar
 
 |Button|Description|
 |--|--|
 |Back|Returns to the Manage Sources page.|
 |Reset|Restores all fields in the form to their values at the time of the last save.|
-|Save &amp; Continue|Saves all changes, and keeps the form open for further editing. Click the down arrow for these additional options:<br/>**Save &amp; Close**: Saves changes to the current record, closes the form, and returns to the Manage Sources page.<br/>**Save &amp; New**:Saves changes and closes the current record, and opens a new blank form.|
+|Save & Continue|Saves all changes, and keeps the form open for further editing. Click the down arrow for these additional options:<br/>**Save & Close** - Saves changes to the current record, closes the form, and returns to the Manage Sources page.<br/>**Save & New** - Saves changes and closes the current record, and opens a new blank form.|
 
-### Field Descriptions
+## Field descriptions
 
 |Field|Description|
 |--|--|
@@ -87,7 +89,7 @@ If editing the Default Source, you can edit all configurations except name and c
 |Description|A brief description of the inventory source location. Include details helpful to your Admin users.|
 |Latitude|Specifies the latitude coordinate of the inventory source for GPS. Enter the value  as a number, preceded by a plus or minus sign as needed. The degree symbol and letters are not permitted. For example: Latitude 32.7555|
 |Longitude|Specifies the longitude coordinate of the inventory source for GPS. Enter the value  as a number, preceded by a plus or minus sign as needed. The degree symbol and letters are not permitted. For example: Longitude -97.3308|
-|**Contact Info**|
+|**Contact Info**| |
 |Contact Name|The name of the primary contact at the inventory source location.|
 |Email|The email of the primary contact.|
 |Phone|The area code and telephone number of the primary contact, using the format that you prefer.  For example: (123) 456-7890 or 123-456-7890|

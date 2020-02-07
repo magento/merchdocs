@@ -6,13 +6,13 @@ Before modifying quantities and settings, you need to assign [sources]({% link c
 
 {% include unassign-source.md %}
 
-## To assign sources to a product:
+## Assign sources to a product
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. Locate and open a product in **Edit** mode.
+1. Open a product in **Edit** mode.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Sources** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Sources** section.
 
    This section allows you to modify the source, update inventory quantities, and more.
 
@@ -24,7 +24,7 @@ Before modifying quantities and settings, you need to assign [sources]({% link c
 
 1. To add a source, click **Assign Sources**.
 
-1. On the Assign Sources page, select the checkbox next to each source that you want to assign for the product.
+1. On the _Assign Sources_ page, select the checkbox next to each source that you want to assign for the product.
 
     ![Product - assign sources]({% link images/images/inventory/inventory-product-assign-sources.png %}){: .zoom}
     _Assign sources to the product_
@@ -34,6 +34,6 @@ Before modifying quantities and settings, you need to assign [sources]({% link c
 1. Do one of the following to save:
 
    - Click <span class="btn">Save</span>.
-   - On the **Save** (![menu button]({% link images/images/btn-dropdown.png %}){: .Inline}) menu, choose **Save & Close**.
+   - On the **Save** (![menu button]({% link images/images/btn-dropdown.png %})) menu, choose **Save & Close**.
 
 After assigning sources, update the [inventory quantity]({% link catalog/inventory-product-quantity.md %}) for each product source.
