@@ -131,3 +131,45 @@ p.edition-b2b {
   color: #23A3A7;
   padding-left: 8px;
 }
+
+.heading-edition-ee::after {
+  display: inline-block;
+  content: " (Magento Commerce only)";
+  color: #F5700F;
+  padding-left: 8px;
+}
+
+.heading-edition-ce::after {
+  display: inline-block;
+  content: " (Magento Open Source only)";
+  color: #636365 ;
+  padding-left: 8px;
+}
+
+.heading-edition-b2b::after {
+  display: inline-block;
+  content: " (Magento Commerce for B2B only)";
+  color: #23A3A7;
+  padding-left: 8px;
+}
+
+.card-edition-ee::before {
+  display: inline-block;
+  content: " (Magento Commerce only)";
+  color: #F5700F;
+  padding-right: 8px;
+}
+
+.card-edition-ce::before {
+  display: inline-block;
+  content: " (Magento Open Source only)";
+  color: #636365 ;
+  padding-right: 8px;
+}
+
+.card-edition-b2b::before {
+  display: inline-block;
+  content: " (Magento Commerce for B2B only)";
+  color: #23A3A7;
+  padding-right: 8px;
+}

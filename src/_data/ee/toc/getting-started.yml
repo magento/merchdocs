@@ -144,24 +144,18 @@ pages:
     url: "/stores/compliance-industry.html"
     versionless: true
     children:
-
     - label: Accessibility
       versionless: true
       url: "/catalog/navigation-accessibility.html"
-
     - label: Payments
-
       children:
       - label: PCI Compliance Guidelines
         url: "/stores/compliance-pci.html"
       - label: Payment Services Directive
         versionless: true
         url: "/stores/compliance-payment-services-directive.html"
-
     - label: Privacy
-
       children:
-
       - label: CCPA Compliance
         versionless: true
         url: "/stores/compliance-ccpa.html"
@@ -326,6 +320,8 @@ pages:
       url: "/configuration/sales/fraud-protection.html"
     - label: Gift Cards
       url: "/configuration/sales/gift-cards.html"
+    - label: Address Validation
+      url: "/configuration/sales/address-validation.html"
   - label: Sales Channels
     url: "/configuration/sales-channels.html"
     children:
@@ -341,6 +337,8 @@ pages:
     children:
     - label: Accounts
       url: "/configuration/engagement-cloud/accounts.html"
+    - label: Chat Settings
+      url: "/configuration/engagement-cloud/chat-settings.html"
     - label: Data Mapping
       url: "/configuration/engagement-cloud/data-mapping.html"
     - label: Sync Settings

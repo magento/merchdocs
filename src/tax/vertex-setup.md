@@ -11,8 +11,6 @@ To enter the information that is needed to calculate tax and file returns, you m
 {:.bs-callout-info}
 Some Vertex field names differ from those used by Magento. See [Vertex Field Mapping]({% link tax/vertex-field-mapping.md %}) for the differences between the two.
 
-## To set up your Vertex account:
-
 1. Log in to your **Vertex Cloud** account.
 
 1. In the sidebar, choose **Configure**.

@@ -5,10 +5,12 @@ title: Image
 
 Use the Image content type to add a JPG, GIF, or PNG image to the stage. In addition to the default desktop image, you can specify a secondary image for mobile devices. You can also add a caption that appears below the image and link the image to any URL, product, category, or page.
 
+Optionally, you can use the [Adobe Stock Integration]({% link cms/adobe-stock.md %}) to find and save an appropriate asset from among the millions provided by [Adobe Stock](https://stock.adobe.com). See [Using Adobe Stock Images]({% link cms/adobe-stock-manage.md %}) for details about how to search, refine, and save Adobe Stock assets into your Gallery.
+
 ![]({% link images/images-ee/page-builder-media-image-column1-giftcard.png %}){: .zoom}
 _Image In Column_
 
-## To add an image
+## Add an image
 
 1. In the Page Builder panel under **Media**, drag an **Image** placeholder to the target container.
 
@@ -17,14 +19,14 @@ _Image In Column_
     ![]({% link images/images-ee/page-builder-media-image-drag.png %}){: .zoom}
     _Drag Image to Stage_
 
-1. Use one of the following methods to upload a new image or choose an existing image from the gallery:
+1. Use one of the following methods to upload a new image, save an Adobe Stock image, or choose an existing image from the gallery:
 
     ![]({% link images/images-ee/page-builder-media-image-upload-select.png %}){: .zoom}
     _Upload Image or Select from Gallery_
 
     **Upload New Image**
 
-    - Click <span class="btn">Upload New Image</span>.
+    - Click <span class="btn">Upload Image</span>.
 
     - Navigate to the image in your local file system. Then, choose the image to add it to the gallery and target container.
 
@@ -32,17 +34,21 @@ _Image In Column_
 
     - Click <span class="btn">Select from Gallery</span>.
 
-    - In the gallery, navigate to the image and click the thumbnail. Then, click <span class="btn">Add Selected</span>.
+    - In the gallery do one of the following:
 
-        ![]({% link images/images-ee/page-builder-media-image-gallery-add-selected.png %}){: .zoom}
-        _Add Selected Image_
+        - Click <span class="btn">Search Adobe Stock</span>. Search for an image and save the preview or licensed image After you save an Adobe Stock asset, you will be returned to the gallery.
 
-        The image appears in the target container at the placeholder location. Unlike a background image, you can move the image to a different position within the current container, or to a different container.
+        - Navigate to the image and click the thumbnail. Then, click <span class="btn">Add Selected</span>.
 
-        ![]({% link images/images-ee/page-builder-media-image-giftcard-column.png %}){: .zoom}
-        _Image in Column_
+          ![]({% link images/images-ee/page-builder-media-image-gallery-add-selected.png %}){: .zoom}
+          _Add Selected Image_
 
-## To change image settings
+      The image appears in the target container at the placeholder location. Unlike a background image, you can move the image to a different position within the current container or to a different container.
+
+      ![]({% link images/images-ee/page-builder-media-image-giftcard-column.png %}){: .zoom}
+      _Image in Column_
+
+## Change image settings
 
 1. Hover over the image container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox.
 
@@ -147,7 +153,7 @@ _Image In Column_
 
 1. In the upper-right corner, click **Save** to close the Edit Image page and return to the Page Builder workspace.
 
-## To move an image
+## Move an image
 
 1. Hover over the image container. Then, choose **Move** (![]({% link images/images-ee/icon-pb-move.png %}){: .Inline}) in the toolbox.
 
@@ -159,7 +165,7 @@ _Image In Column_
     ![]({% link images/images-ee/page-builder-media-image-column2-move-giftcard-red-guideline.png %}){: .zoom}
     _Red Guideline Above Target Destination_
 
-## To remove an image from the stage
+## Remove an image from the stage
 
 1. Hover over the image container. Then, choose **Remove** (![]({% link images/images-ee/icon-pb-remove.png %}){: .Inline}) in the toolbox.
 

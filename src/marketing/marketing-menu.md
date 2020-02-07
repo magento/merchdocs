@@ -19,7 +19,7 @@ Create [catalog]({% link marketing/price-rules-catalog.md %}) and [cart]({% link
 
 - {:.edition-ee}Create [related product rules]({% link marketing/product-related-rules.md %}) and manage [gift card accounts]({% link catalog/product-gift-card-accounts.md %}).
 
-### <span class="caption-edition-ee">Private Sales</span>
+### <span class="heading-edition-ee">Private Sales</span>
 
 Private Sales and other catalog events are a great way to [leverage]({% link marketing/promotions.md %}) your existing customer base to generate buzz and new leads with exclusive access for members only, or by invitation.
 

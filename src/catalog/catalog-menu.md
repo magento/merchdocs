@@ -1,7 +1,5 @@
 ---
 title: Catalog Menu
-redirect_from:
-  - /catalog.html
 ---
 
 The Catalog Menu provides easy access to product creation, category, and inventory management tools{% if "Default.EE Only,Default.CE Only" contains site.edition %}.{% endif %} {% if "Default.B2B Only" contains site.edition %}, as well as shared catalogs for custom pricing.{% endif %}
@@ -29,9 +27,9 @@ Create the [category]({% link catalog/categories.md %}) structure that is the fo
 
 See [Categories]({% link catalog/categories.md %}).
 
-## Shared Catalogs
+## <span class="heading-edition-b2b">Shared Catalogs</span>
 
-- {:.edition-b2b}[Shared catalogs]({% link catalog/catalog-shared.md %}) give you the ability to make custom pricing available to different companies.
+[Shared catalogs]({% link catalog/catalog-shared.md %}) give you the ability to make custom pricing available to different companies.
 
 ![]({% link images/images-b2b/catalog-shared-choose-products-step1.png %}){: .zoom}
-[_Shared catalog products_]({% link catalog/categories.md %})
+_Shared catalog products_

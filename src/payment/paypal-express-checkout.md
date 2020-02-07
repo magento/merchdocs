@@ -25,7 +25,7 @@ PayPal has deprecated support for the sale of digital goods through PayPal Expre
 Unlike other payment methods, PayPal Express Checkout allows the customer to check out at the beginning of the usual checkout workflow from the product page, the mini shopping cart, and shopping cart.
 
 | **1** |**Customer Places Order** | The customer taps the “Check out with PayPal” button.|
-| **2** | **Customer Is Redirected to PayPal Site** | The customer is redirected to the PayPal site to complete the transaction. <br/> The customer taps the “Check out with PayPal” button. and is redirected to the PayPal site to complete the transaction.|
+| **2** | **Customer Is Redirected to PayPal Site** | The customer is redirected to the PayPal site to complete the transaction.|
 | **3** | **Customer Logs into their PayPal Account** | The customer must log in to their PayPal account to complete the transaction. The payment system uses the customer’s billing and shipping information from their PayPal account.|
 | **4** | **Customer Returns to the Checkout Page** | The customer is redirected back to the checkout page in your store to review the order.|
 | **5** | **Customer Places Order** | The customer places the order, and the order information is submitted to PayPal.|

@@ -20,49 +20,34 @@ _Klarna Merchant Portal_
 
 1. Do one of the following:
 
-   - To create a new account, complete the Onboarding form to create a Klarna merchant account. Then, click <span class="btn">Create account</span>.
-   - If you already have an account, click **Log in here**.
+   - To create a new account, click <span class="btn">Get Started</span>. Then, complete the onboarding process to create an account. When you receive the confirmation email from Klarna, click <span class="btn">Activate account</span> to log in.
+   - If you already have an account, click **Log in** in the upper-right corner.
 
      ![Create a Klarna Merchant Account]({% link images/images/payments-klarna-merchant-account-create.png %}){: .zoom}
      _Create a Klarna Merchant Account_
 
 1. To generate your API Credentials for Klarna’s Playground environment, do one of the following:
 
-   - Click the **Settings** icon.
-   - In the main menu, choose **Settings**.
+   - On the Home page of your account under **Preferences**, click  **Settings**.
+   - In the upper-left corner of the page, click the **Menu** icon. Then in the left sidebar under **Preferences**, click **Settings**.
 
    Then, do the following:
 
-   - On the **API Credentials** tab, click <span class="btn">Generate new API credentials</span>.
-   - **Copy** your credentials to a text editor. You will need them later to complete the Magento configuration.
+   - On the **API Credentials** tab, click <span class="btn">Generate new API credentials</span>. Then when prompted, click **Create credentials**.
+   - After your credentials are generated, click **Download as .txt**. Look in the area where your browser saves downloads and open the file. Keep the file open, and save it in a place where you can find it.
+   - Select the checkbox to confirm that you have saved your credentials and click **Close**.
 
      ![Generate API Credentials]({% link images/images/payments-klarna-dashboard-playground-settings.png %}){: .zoom}
      _Generate API Credentials_
 
-1. If necessary, sign in to your Klarna account. Then on the **Store Settings** tab, do the following:
+1. Click the **Menu** icon in the upper-left corner. Then in the sidebar under **Preferences**, click **Branding**.
 
-     Take note of your **Store ID** in the upper-left corner of the page. You should have this information available, along with your API credentials, to complete the Klarna setup. Complete the following store information:
-
-     - Store name
-     - Homepage URL
-     - Customer Support Email
-     - Customer Support Phone
-
-     ![Store Settings]({% link images/images/payments-klarna-settings-menu.png %}){: .zoom}
-     _Store Settings_
-
-     In the upper-right corner, click the **Menu** icon ( ![]({% link images/images/icon-payments-klarna-menu.png %}){: .Inline}). Then, choose **Branding**.
-
-     If your logo and icon files are ready, follow the onscreen instructions to upload them to the Klarna portal. If the files aren’t ready, you can complete this step later.
-
-     |Feature | Instructions|
-     |--- | ---|
-     | **Icon** | Your icon appears in the Klarna app. <br/>Recommended size: 180 x 180 pixels <br/>Aspect ratio 1:1<br/>Supported File types: PNG or JPG (JPEG)|
-     | **Logo** | Your logo appears in communications and statements sent to customers. For best results save your logo as a PNG file with a transparent background.<br/>Supported File types: PNG or JPG (JPEG)|
-     | **Feature Image** | Your feature image appears in the Klarna app. Recommended size: At least 1340 x 1000 pixels.Aspect ratio: 1.34:1<br/>Supported File types: PNG or JPG (JPEG)|
+     In the box at the top of the page, copy your **Merchant ID** and paste it into the text file with your API credentials. You will need this information to complete the Magento configuration.
 
      ![Branding]({% link images/images/payments-klarna-portal-brand.png %}){: .zoom}
      _Branding_
+
+     You can return to your Klarna account later to complete the remaining settings.
 
 ## Step 2: Configure Magento
 
@@ -72,7 +57,7 @@ _Klarna Merchant Portal_
 
 1. In the upper-left corner, choose the **Store View** where the configuration applies. If your installation has only one view, accept the `Default Config` setting.
 
-1. In the panel on the left, under **Sales**, choose **Payment Methods**. Under **Other Payment Methods**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Klarna** section. Then, click <span class="btn">Configure</span>.
+1. In the panel on the left under **Sales**, choose **Payment Methods**. In the **Klarna** section, click <span class="btn">Configure</span>.
 
    ![Klarna]({% link images/images/config-sales-payment-methods-recommended-solutions-klarna.png %}){: .zoom}
    [_Klarna_]({% link configuration/sales/klarna.md %})
@@ -82,7 +67,7 @@ _Klarna Merchant Portal_
    - Set **API Version** to one of the following:
      **Klarna Payments (Europe)**: <br/>Supported countries: AT / DE / DK / FI / NL / NO / SE / UK
      **Klarna Payments (North America)**
-   - In the **Merchant ID/EID** field, enter the **username** from your Klarna API credentials.
+   - In the **Merchant ID/EID** field, enter the **Merchant ID** from your Klarna credentials.
    - In the **Password/Shared secret** field, enter the **password** from your Klarna API credentials.
    - To use the Klarna Playground for test transactions, set **Test Mode** to `Yes`.
    - To generate a record of interactions while testing the integration, set **Debug Mode** to `Yes`.
@@ -102,7 +87,13 @@ _Klarna Merchant Portal_
       |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store.|
 
    - If your Klarna account supports B2B payments, set **Enable B2B** to `Yes`.
-   - (U.S. Only) If you want Klarna to prepare set of personalized credit options for each customer, set **Data sharing** to `Yes`.
+   - If you want Klarna to prepare a set of personalized credit options for each customer, set **Data sharing** to `Yes`.
+
+   - Set **Data sharing on load** to one of the following:
+
+     |**No** |Customer billing and shipping address information is shared with Klarna after the transaction is authorized. If a shipping address error is encountered during authorization, the customer is instructed to return to the previous step and correct the problem.|
+     |**Yes** |Customer billing and shipping address information is shared with Klarna when the payment method is selected during the checkout process.|
+
    - Enter a **Sort Order** number to determine the position of Klarna in the list of payment methods during checkout. (0 = first, 1 = second, 2 = third, and so on.)
 
      ![Klarna Payments]({% link images/images/config-sales-payment-methods-klarna-payments.png %}){: .zoom}
@@ -116,19 +107,12 @@ _Klarna Merchant Portal_
 
 You can complete the Klarna Payment Design Settings now, or at a later time. You might use a color picker to experiment with different colors for each element to match your store’s theme. The results might vary, depending on theme.
 
-Enter the hexadecimal value of the color that you want to use for each element.
+Enter the hexadecimal value of the color that you want to use for the following elements.
 
 - Details color
-- Button color
-- Button text color
-- Checkbox color
-- Checkbox check mark color
-- Header color
-- Link color
 - Border color
 - Selected border color
 - Text color
-- Secondary text color
 - Border radius
 
 ![Klarna Payments Design]({% link images/images/config-sales-payment-methods-klarna-payments-design.png %}){: .zoom}

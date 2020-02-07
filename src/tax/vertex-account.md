@@ -6,7 +6,7 @@ Vertex offers three pricing plans, plus access to additional services. All Verte
 
 ![]({% link images/images/tax-vertex-pricing.png %}){: .zoom}
 
-## To sign up for a Vertex account:
+## Sign up for a Vertex account
 
 1. Visit the [Vertex][2] web site to learn more about their services and pricing. Then in the menu at the top of the page, choose **Pricing**.
 

@@ -4,7 +4,7 @@ redirect_from:
   - /marketing/email-marketing-dotmailer-setup.html
 ---
 
-If you are new to Engagement Cloud, you must first sign up for a free account. Then, follow the instructions to complete the setup and gain access to your account dashboard.
+If you are new to Engagement Cloud, you must first sign up for a free account. Then, follow the instructions to complete the setup and log in to your account dashboard.
 
 ## Step 1: Sign Up for a Free Trial
 
@@ -22,7 +22,7 @@ If you are new to Engagement Cloud, you must first sign up for a free account. T
     ![Engagement Cloud - free trial sign up]({% link images/images/engagement-cloud-free-trial-form.png %}){: .zoom}
     _Create an Account_
 
-1. Wait a few moments while your account is created. When the _congratulations_ message appears, click Close ( ![Close icon]({% link images/images/icon-close-engagement-cloud.png %})).
+1. Wait a few moments while your account is created. When the _congratulations_ message appears, click **Close** ( ![Close icon]({% link images/images/icon-close-engagement-cloud.png %})).
 
     Engagement Cloud is now enabled, and your **API Username** and **API Password** appear in the **Settings** section of the Magento configuration.
 
@@ -33,19 +33,45 @@ If you are new to Engagement Cloud, you must first sign up for a free account. T
     ![Engagement Cloud configuration - account credentials]({% link images/images/config-engagement-cloud-accounts-api-credentials-valid.png %}){: .zoom}
     _Account Credentials_
 
-## Step 2: Log in to Your Account
+## Step 2: Set Up Engagement Cloud Chat (Optional)
 
-1. In a new browser window, go to the [dotdigital][1] website.
+1. In the Magento Configuration under **Engagement Cloud**, choose **Chat Settings**.
 
-1. In the upper-right corner, click **Login**. Then, do the following:
+1. Set **Enabled** to `Yes`. Then, click <span class="btn">Save Config</span>.
 
-    - Enter your email address and password that you specified when you signed up for the account.
+1. Return to the **Chat Settings** section, and at **Configure Chat Widget**, click <span class="btn">Configure</span>.
 
-    - Check your email for the authorization request message from dotdigital. Then, click the activation link to get started. The activation link is valid for one hour.
+    ![]({% link images/images/config-engagement-cloud-chat-settings-enabled.png %}){: .zoom}
+    _[Chat Settings - Enabled]({% link marketing/engagement-cloud-setup.md %})_
 
-        If you can’t find the message, check your Junk Email folder.
+    If you set up the Chat widget at a later time, you will be required to log in to your Engagement Cloud account.  When your account opens, click the **Chat** option in the sidebar on the left. Then at the top of the page, choose **Settings**.
 
-1. During the welcome interview, you are asked to answer a few questions about your business. Complete the interview, and navigate through the introduction.
+1. In the **Theme** section **For new visitors**, click <span class="btn">Sonar</span>.
+
+    This setting makes the Chat button glow green for new visitors to your store.
+
+    The diagram to the right shows how the chat window looks with the current settings.
+
+1. When complete, click <span class="btn">Save and generate code</span>.
+
+    ![]({% link images/images/config-engagement-cloud-accounts-chat-settings-widget.png %}){: .zoom}
+    _Chat Widget Settings_
+
+1. In your store, the name of the team appears in the heading of the Chat window. To set up your Chat Teams, do one of the following:
+
+    - From the **Chat Settings** tab of your Engagement Cloud account, choose the **Teams** tab.
+
+    - From the **Chat Settings** section of the Magento configuration, at **Configure Chat Teams**, click <span class="btn">Configure</span>.
+
+    Then, do the following:
+
+    - Enter your **Team name**. (You can set up more teams later.)
+
+1. When complete, click <span class="btn">Save</span>.
+
+## Step 3: Create a Campaign
+
+1. During the welcome interview, you are asked to answer a few questions about your business. When prompted, complete the interview and navigate through the introduction.
 
 1. Click <span class="btn">Build your first campaign</span>.
 
@@ -57,7 +83,7 @@ If you are new to Engagement Cloud, you must first sign up for a free account. T
     ![Engagement Cloud - build your first campaign]({% link images/images/engagement-cloud-free-trial-build-campaign.png %}){: .zoom}
     _Build Your First Campaign_
 
-## Step 3: Complete the Magento Configuration
+## Step 4: Complete the Magento Configuration
 
 The Engagement Cloud configuration includes numerous settings to sync order, catalog, and abandoned cart data, and to configure additional features. To learn more, see the [Quick Start Configuration Guide for Magento 2][2].
 

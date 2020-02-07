@@ -2,7 +2,7 @@
 title: Inserting an Image
 ---
 
-From the editor, you can insert an image that has been uploaded to [Media Storage]({% link cms/media-storage.md %}) or link to an image that resides on another server.
+From the editor, you can insert an image that has been uploaded to [Media Storage]({% link cms/media-storage.md %}), link to an image that resides on another server or use the Adobe Stock Integration to search for and use Adobe Stock assets.
 
 ![]({% link images/images/media-storage.png %}){: .zoom}
 _Media Storage_
@@ -37,3 +37,10 @@ Use this method to insert an image that is available online, but resides on anot
     - In the **Title** field, enter a relevant title for the image.
 
 1. Click <span class="btn">Insert</span> to complete the process.
+
+## Method 3: Use the Adobe Stock Integration
+
+If you have an [Adobe Stock][adobe-stock] plan associated to your Adobe account, you can search for, license and save from the millions of available assets provided by
+the Stock service. See [Using Adobe Stock Images]({% link cms/adobe-stock-manage.md %}).
+
+[adobe-stock]: https://stock.adobe.com

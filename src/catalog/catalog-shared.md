@@ -1,6 +1,6 @@
 ---
-conditions: Default.B2B Only
 title: Shared Catalogs
+b2b_only: true
 ---
 
 Magento gives you the ability to maintain gated “shared” catalogs with custom pricing for different companies. In addition to the standard “master” product catalog, Magento provides customer access to two types of shared catalogs with different pricing structures.

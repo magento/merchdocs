@@ -3,7 +3,7 @@ title: Using a Flat Catalog
 ---
 
 {:.bs-callout-warning}
-Starting with Magento 2.3.0+, the use of a flat catalog is no longer a best practice and is not recommended. Continued use of this feature is known to cause performance degradation and other indexing issues. A detailed description and solution is available in the [Help Center](https://support.magento.com/hc/en-us/articles/360034631192){:target="_blank"}.
+Magento no longer recommends the use of a flat catalog as a best practice. Continued use of this feature is known to cause performance degradation and other indexing issues. A detailed description and solution is available in the [Help Center](https://support.magento.com/hc/en-us/articles/360034631192){:target="_blank"}.<br/><br/>Affected versions include: <br/>- Magento Commerce Cloud 2.1.x and above<br/>- Magento Commerce (On-Premise) 2.1.x and above<br/>- Magento Open Source 2.1.x and above <br/><br/>On any Magento version, some extensions only work with flat tables, thus creating a risk if you disable flat tables. If you know that you have some extensions that use Flat Catalog indexers, you need to be aware of this risk when setting those values to `No`.
 
 Magento typically stores catalog data in multiple tables, based on the Entity-Attribute-Value (EAV) model. Because product attributes are stored in many tables, SQL queries are sometimes long and complex.
 

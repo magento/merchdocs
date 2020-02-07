@@ -48,7 +48,7 @@ Complete the following steps to add a new rule, describe the conditions, and def
 1. Enter a number to define the **Priority** of this price rule in relation to the Action settings of other price rules which are active at the same time.
 
     {:.bs-callout-info}
-    The Priority setting is important when two cart rules/coupon codes are valid for the same product at the same time. The rule with the highest Priority setting (1 being the highest) will control the cart action.
+    The Priority setting is important when two cart rules/coupon codes are valid for the same product at the same time. The rule with the highest Priority setting (1 being the highest) will control the cart action. See **Discard Subsequent Price Rules** in the **Define the Actions** step.
 
 1. To apply the rule to published [RSS feeds]({% link marketing/rss-feed.md %}), set **Public In RSS Feed** to `Yes`.
 
@@ -164,7 +164,13 @@ The shopping cart price rule actions describe how prices are updated when the co
         | Yes | Applies the discount amount separately to the subtotal and shipping amounts. |
         | No | Applies the discount amount only to the subtotal. |
 
-    - To stop processing other rules after this rule is applied, set **Discard Subsequent Rules** (![Option toggle]({% link images/images/btn-switch-yes.png %})) to `Yes`. This safeguard prevents customers from receiving multiple discounts for the same product.
+    - To stop processing other rules after this rule is applied, set **Discard Subsequent Rules** (![Option toggle]({% link images/images/btn-switch-yes.png %})) to `Yes`. This setting prevents multiple discounts from being applied to the same product.
+
+         | Yes | Prevents any other pricing rules that may apply to a product from being applied. Discarding subsequent rules means that, in the event that multiple pricing rules apply to the same product, only the pricing rule with the highest defined priority (in a rule's Priority field) will be applied to the qualifying product. This prevents multiple pricing rules from stacking and providing unintended additional discounts. |
+         | No | Allows multiple pricing rules to apply to the same product. This could result in stacking and providing multiple discounts applied to your listing price. |
+
+         {:.bs-callout-warning}
+         To discard subsequent rules, a pricing rule must use the defined priorities that are set in the Priority field of each rule, and multiple rules should not have the same defined priority. See **Priority** in the **Add a New Rule** step.
 
     - To determine if free shipping is applied to orders that meet the conditions, set **Free Shipping** to one of the following:
 
