@@ -12,7 +12,7 @@ Each condition consists of an attribute, value, and logical operator. Only attri
 Make sure to configure each attribute that is used in the rule as a [“smart” attribute]({% link marketing/visual-merchandiser-configuration.md %}).
 
 ![]({% link images/images-ee/category-product-rule.png %}){: .zoom}
-*Category Product Rule*
+_Category Product Rule_
 
 Category product rules can speed up the process of assigning specific products to categories, based on conditions that determine which products appear in the category. The “smart” attributes that can be used with category product rules are specified in the [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}) configuration.
 
@@ -38,29 +38,29 @@ Use caution when applying a category product rule, because any products that do 
 
 1. Click <span class="btn">Add Condition</span> and do the following:
 
-    * Choose the **Attribute** that is the basis of the condition.
+    - Choose the **Attribute** that is the basis of the condition.
 
-    * Choose the **Operator** that is needed to form the expression.
+    - Choose the **Operator** that is needed to form the expression.
 
-    * Enter the **Value** that is to be matched.
+    - Enter the **Value** that is to be matched.
 
       ![]({% link images/images-ee/category-rule-create.png %}){: .zoom}
-      *Add Condition to Category Rule*
+      _Add Condition to Category Rule_
 
 1. Repeat this process for each attribute that is needed to describe the condition(s) to be met.
 
    For example, to match products that were created between 7 and 30 days ago, do the following:
 
-    * Set **Date Created** to `Less than 30`.
+    - Set **Date Created** to `Less than 30`.
 
-    * Set **Logic** to `AND`.
+    - Set **Logic** to `AND`.
 
-    * Set **Date Modified** to `Greater than 7`.
+    - Set **Date Modified** to `Greater than 7`.
 
 1. To apply a sort order automatically to the dynamically generated product list, set **Automatic Sorting** to one of the following:
 
-    * `Move out of stock to bottom`
-    * `Special price to top`
+    - `Move out of stock to bottom`
+    - `Special price to top`
 
 1. When complete, click <span class="btn">Save Category</span>.
 
@@ -81,14 +81,14 @@ Add Condition
 Attribute
 : Determines the attribute that is used as the basis of the condition.
  Options:
-   * Clone Category ID(s) - Dynamically clones products from multiple categories based on Category ID.
-   * Color - Includes products based on color.
-   * Date Created (days ago) - Includes products based on the number of days since the products were added to the catalog.
-   * Date Modified (days ago) - Includes products  based on the number of days since the products were last modified.
-   * Name - Includes products based on the product name.
-   * Price - Includes products based on price.
-   * Quantity - Includes products based on the quantity in stock.
-   * SKU - Includes products based on SKU.
+   - Clone Category ID(s) - Dynamically clones products from multiple categories based on Category ID.
+   - Color - Includes products based on color.
+   - Date Created (days ago) - Includes products based on the number of days since the products were added to the catalog.
+   - Date Modified (days ago) - Includes products  based on the number of days since the products were last modified.
+   - Name - Includes products based on the product name.
+   - Price - Includes products based on price.
+   - Quantity - Includes products based on the quantity in stock.
+   - SKU - Includes products based on SKU.
 
 Operator
 : Specifies the operator that is applied to the attribute value to meet the  condition. Unless an operator is specified, `Equal` is used as the default. Options: Equal / Not equal / Greater than / Greater than or equal to / Less than / Less than or equal to / Contains
