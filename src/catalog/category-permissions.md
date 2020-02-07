@@ -73,7 +73,7 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
     - Set **Allow Adding to Cart** to `Yes, for Specified Customer Groups`.
 
-    - In the **Customer Groups** box, select each group that is allowed to add products from the category to the cart. (To select multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) as you click each group.)
+    - In the **Customer Groups** box, select each group that is allowed to add products from the category to the cart. To select multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) as you click each group.
 
       ![]({% link images/images-ee/category-permissions-cart-customer-groups.png %}){: .zoom}
       _Only Wholesale Customer Group Can Put Product in Cart_
@@ -88,7 +88,7 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
     **For Specific Customer Groups**
 
-    In the **Disallow Catalog Search By** box, select each group to be prevented from using Category Search. (To select multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) as you click each group.)
+    In the **Disallow Catalog Search By** box, select each group to be prevented from using Category Search. To select multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) as you click each group.
 
     ![]({% link images/images-ee/category-permissions-disallow-category-search.png %}){: .zoom}
     _Catalog Search Not Allowed for General Customer Group_
