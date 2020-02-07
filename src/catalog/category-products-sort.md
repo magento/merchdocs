@@ -18,14 +18,14 @@ You can set up the category options separately for each [store]({% link stores/s
 1. In the category tree on the left, choose the category that you want to edit.
 
     ![]({% link images/images-ee/category-workspace.png %}){: .zoom}
-    *Category Tree*
+    _Category Tree_
 
 ## Step 2: Sort the products
 
 In the **Products in Category** section, click the tiles (![]({% link images/images/btn-view-as-tiles.png %})) icon to show the product tiles in a grid. Then, use either the **Manual** or **Automatic** method to sort the products.
 
 ![]({% link images/images-ee/category-products-tiles.png %}){: .zoom}
-*Product Tiles*
+_Product Tiles_
 
 ### Method 1: Manual sort
 
@@ -34,7 +34,7 @@ In the **Products in Category** section, click the tiles (![]({% link images/ima
 1. Click <span class="btn">Sort</span> to apply the new sort order.
 
     ![]({% link images/images-ee/category-edit-sort-order.png %}){: .zoom}
-    *Sort Order*
+    _Sort Order_
 
 1. To save the sort order, click <span class="btn">Save Category</span>.
 
@@ -45,7 +45,7 @@ In the **Products in Category** section, click the tiles (![]({% link images/ima
 1. Set **Match products by rule** (![]({% link images/images/btn-switch-yes.png %})) to `Yes`.
 
     ![]({% link images/images-ee/category-edit-automatic-sorting.png %}){: .zoom}
-    *Match Products by Rule*
+    _Match Products by Rule_
 
 1. Set **Automatic Sorting** to your preference.
 
@@ -58,21 +58,21 @@ In the **Products in Category** section, click the tiles (![]({% link images/ima
 1. Click <span class="btn">Add Condition</span> and do the following:
 
     ![]({% link images/images-ee/category-edit-condition.png %}){: .zoom}
-    *Category Condition*
+    _Category Condition_
 
-   * Choose the **Attribute** that is the basis of the condition.
+   - Choose the **Attribute** that is the basis of the condition.
 
-   * Set **Operator** to one of the following:
+   - Set **Operator** to one of the following:
 
-       * `Equal`
-       * `Not equal`
-       * `Greater than`
-       * `Greater than or equal to`
-       * `Less than`
-       * `Less than or equal to`
-       * `Contains`
+       - `Equal`
+       - `Not equal`
+       - `Greater than`
+       - `Greater than or equal to`
+       - `Less than`
+       - `Less than or equal to`
+       - `Contains`
 
-   * Enter the appropriate **Value**.
+   - Enter the appropriate **Value**.
 
 1. To add another condition, click <span class="btn">Add Condition</span> and repeat the process.
 
@@ -80,7 +80,7 @@ In the **Products in Category** section, click the tiles (![]({% link images/ima
 
 1. When complete, click <span class="btn">Save Category</span>.
 
-1. When prompted to refresh the cache, click the **Cache Management** link and refresh each invalid cache.
+1. When prompted to refresh the cache, click **Cache Management** and refresh each invalid cache.
 
 1. In the storefront, verify that the product selection, sorting, and category rules work correctly.
 
