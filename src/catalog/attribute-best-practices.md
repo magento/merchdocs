@@ -6,7 +6,7 @@ Use these best practices when you plan and create product attributes.
 
 ## Attribute names
 
-Establish consistent attribute naming conventions, including letter case and punctuation. For example, `Color:Green` and  `Color:green` might be considered as two different attribute values by different systems. Such noise in the data can affect business rules, search results and data filters for applications that match products to rules.
+Establish consistent attribute naming conventions, including letter case and punctuation. For example, `Color:Green` and `Color:green` might be considered as two different attribute values by different systems. Such noise in the data can affect business rules, search results, and data filters for applications that match products to rules.
 
 ## Attribute use
 
