@@ -15,5 +15,5 @@ Consider the category structure and available attribute values when using busine
 - `[Category:  All Products/Shirts/Father’s Day/Polos/Sale]`
 - `[Category Path: Men/Shirts/Polos]`
 - `[Child Category: Polos]`
-  
+
 It’s important to clearly define categorical relationships such as parent category, sub category, category path, and any associated keywords and attributes such as availability, sale price, brand, size and color.
