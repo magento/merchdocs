@@ -36,7 +36,7 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
     - Set **Allow Browsing Category** to `Specified Customer Groups`.
 
-    - In the **Customer Groups** box, select each group that is allowed to browse through products in the category. (To select multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) as you click each group.)
+    - In the **Customer Groups** box, select each group that is allowed to browse through products in the category. To select multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) as you click each group.
 
         ![]({% link images/images-ee/category-permissions-allow-browsing-customer-groups.png %}){: .zoom}
         _Allow Browsing by Wholesale Customer Group_
