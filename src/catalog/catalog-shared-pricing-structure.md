@@ -6,7 +6,7 @@ title: Set Pricing and Structure
 Setting up the pricing and structure of a shared catalog is a two-step process. Your current place in the process is highlighted with a number in the progress bar at the top of the page. You can view the other step in the process at any time by clicking the progress bar. For example, if you’re working on custom pricing, you might want to return to the product selection page for reference. Simply click **Products** in the progress bar at the top of the page. Then click **Pricing** to return to the custom pricing page. You will not lose any of your work.
 
 ![]({% link images/images-b2b/catalog-shared-products-in-catalog-workspace.png %}){: .zoom}
-*Products in Catalog*
+_Products in Catalog_
 
 In the standard category tree, the root category is the topmost container and is referred to as _Default Category_ in the sample data. However, when shared catalogs are enabled, the category tree has an additional outer container called _Root Catalog_. The root catalog encompasses all other category structures that exist in the system. To learn more, see [Catalog Scope]({% link catalog/catalog-scope.md %}).
 
@@ -29,21 +29,21 @@ Only categories with selected products appear in the [top navigation]({% link ca
     The scope of the configuration can be set only before the shared catalog is saved for the first time. If you later edit the product selection, the Store chooser is not available.
 
     ![]({% link images/images-b2b/catalog-shared-products-step1-scope.png %}){: .zoom}
-    *Choose Store*
+    _Choose Store_
 
 1. In the category tree, do any of the following:
 
-    * To include all products, click **Select all**, or mark the checkbox of the parent category.
-    * To include specific categories of products, select the checkbox of each category that you want to include.
-    * To include or exclude an individual product, select or clear the checkbox of product.
+    - To include all products, click **Select all**, or mark the checkbox of the parent category.
+    - To include specific categories of products, select the checkbox of each category that you want to include.
+    - To include or exclude an individual product, select or clear the checkbox of product.
 
     The notation below each category in the tree shows the number of products from the category that are currently included in the shared catalog. The notation below the [root category]({% link catalog/category-root.md %}) shows the total number of products from all categories that are currently selected for the shared catalog.
 
 1. To view category products in the grid, click the name of the category in the tree. When a category is selected, the following occurs:
 
-    * The toggle in the first column of the grid is set to the green _On_ position for each selected product.
-    * If a product is assigned to multiple categories and is not selected in one of them, it will continue to be available through the other categories, and also when using [catalog search]({% link catalog/search.md %}).
-    * The system automatically sets [Category Permissions]({% link catalog/category-permissions.md %}) to _Allow_ for the selected products.
+    - The toggle in the first column of the grid is set to the green _On_ position for each selected product.
+    - If a product is assigned to multiple categories and is not selected in one of them, it will continue to be available through the other categories, and also when using [catalog search]({% link catalog/search.md %}).
+    - The system automatically sets [Category Permissions]({% link catalog/category-permissions.md %}) to _Allow_ for the selected products.
 
 1. If necessary, use the filters and other [grid controls]({% link stores/admin-grid-controls.md %}) to find the products that you want to include in the shared catalog.
 
@@ -56,7 +56,7 @@ Only categories with selected products appear in the [top navigation]({% link ca
 1. Click <span class="btn">Next</span>.
 
     ![]({% link images/images-b2b/catalog-shared-choose-products-step1.png %}){: .zoom}
-    *Step 1: Select Products for Catalog*
+    _Step 1: Select Products for Catalog_
 
 ## Step 3: Set custom prices
 
@@ -67,10 +67,10 @@ You can set custom pricing for each product individually, or use the Action cont
 
 Use the Custom Price column of the grid to set the discount to a fixed amount or a percentage for the following product types:
 
-* [Simple]({% link catalog/product-create-simple.md %}) (including configurable product variations)
-* [Bundle]({% link catalog/product-create-bundle.md %})
-* [Downloadable]({% link catalog/product-create-downloadable.md %})
-* [Virtual]({% link catalog/product-create-virtual.md %})
+- [Simple]({% link catalog/product-create-simple.md %}) (including configurable product variations)
+- [Bundle]({% link catalog/product-create-bundle.md %})
+- [Downloadable]({% link catalog/product-create-downloadable.md %})
+- [Virtual]({% link catalog/product-create-virtual.md %})
 
 The Custom Price column is blank for [configurable]({% link catalog/product-create-configurable.md %}) and [grouped]({% link catalog/product-create-grouped.md %}) products types, and [gift cards]({% link catalog/product-gift-card.md %}).
 
@@ -81,18 +81,18 @@ The selection of products in the grid cannot be changed from the Custom Prices p
 1. For a multisite installation, set the **Website** chooser to the website where the custom prices apply.
 
     ![]({% link images/images-b2b/catalog-shared-scope-pricing-step2.png %}){: .zoom}
-    *Choose Website*
+    _Choose Website_
 
 1. Use one of the following methods to select the products where the custom pricing is to apply.
 
-    * Use the category tree to select all products in a specific category.
-    * Set the Mass Actions control in the header to `Select All`.
-    * Mark the checkbox of individual product(s).
+    - Use the category tree to select all products in a specific category.
+    - Set the Mass Actions control in the header to `Select All`.
+    - Mark the checkbox of individual product(s).
 
     The grid displays the products in the currently selected categories, and you can use the [standard controls]({% link stores/admin-grid-controls.md %}) to find products and filter the list.
 
     ![]({% link images/images-b2b/catalog-shared-custom-pricing-mass-actions.png %}){: .zoom}
-    *Select All*
+    _Select All_
 
 1. Set the **Actions** control to one of the following:
 
@@ -100,17 +100,17 @@ The selection of products in the grid cannot be changed from the Custom Prices p
     | Adjust Fixed Price | Applies a fixed price to all selected products. |
 
     ![]({% link images/images-b2b/catalog-shared-set-custom-prices-discount.png %}){: .zoom}
-    *Actions Control - Set Discount*
+    _Actions Control - Set Discount_
 
 1. When prompted, enter the discount and click **Apply**.
 
     ![]({% link images/images-b2b/catalog-shared-set-custom-prices-actions-set-discount.png %}){: .zoom}
-    *Set Discount*
+    _Set Discount_
 
     The discount is applied to all selected products, and the Custom Price column reflects the type of discount and amount applied.
 
     ![]({% link images/images-b2b/catalog-shared-set-custom-prices-actions-set-discount-applied.png %}){: .zoom}
-    *Custom Price Column with Discount*
+    _Custom Price Column with Discount_
 
 1. When the custom pricing is complete, click <span class="btn">Generate Catalog</span> then <span class="btn">Save</span>.
 
@@ -123,29 +123,29 @@ The following instructions show how to apply tier pricing to a single product. T
 1. For the product in the grid, go to the **Tier Price** column and click **Configure**.
 
     ![]({% link images/images-b2b/catalog-shared-tier-price-configure.png %}){: .zoom}
-    *Configure Tier Price*
+    _Configure Tier Price_
 
 1. On the _Advanced Pricing_ page, click <span class="btn">Add Price</span> and do the following:
 
     ![]({% link images/images-b2b/catalog-shared-tier-price-configure-add-price.png %}){: .zoom}
-    *Catalog and Tier Price*
+    _Catalog and Tier Price_
 
-    * Choose the **Website** where the tier price applies.
-    * Enter the quantity of the product that must be purchased to receive the discount.
-    * Set **Price** to one of the following discount types:
-        * `Fixed`
-        * `Discount`
-    * Enter the amount of the discount.
-    * To enter another tier, click <span class="btn">Add Price</span> and repeat the process.
+    - Choose the **Website** where the tier price applies.
+    - Enter the quantity of the product that must be purchased to receive the discount.
+    - Set **Price** to one of the following discount types:
+        - `Fixed`
+        - `Discount`
+    - Enter the amount of the discount.
+    - To enter another tier, click <span class="btn">Add Price</span> and repeat the process.
 
     ![]({% link images/images-b2b/catalog-shared-tier-price-configure-multiple-tiers.png %}){: .zoom}
-    *Multiple Tier Prices*
+    _Multiple Tier Prices_
 
 1. When complete, click <span class="btn">Done</span>.
 
     In the grid, the number of tiers is shown in parentheses in the Tier Price column.
 
     ![]({% link images/images-b2b/catalog-shared-tier-price-configure-parentheses.png %}){: .zoom}
-    *Multiple Tiers*
+    _Multiple Tiers_
 
 The shared catalog is now saved to the database. Its name appears in the Shared Catalog column of the Products grid. The next step is to assign the shared catalog to a company.
