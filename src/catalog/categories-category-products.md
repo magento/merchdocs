@@ -21,7 +21,7 @@ _Category Products_
 
 ## Apply a category rule
 
-1. Set **Match products by rule** to the `Yes` position.
+1. Set **Match products by rule** to `Yes`.
 
    The automatic sorting and condition options appear.
 
