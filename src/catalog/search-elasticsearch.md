@@ -15,11 +15,11 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 
 1. For the **Search Engine** field, clear the **Use system value** checkbox and choose the version that is installed on your server.
 
-   * Elasticsearch (Deprecated) &mdash; Elasticsearch 2.0+ has reached end of life, and is now deprecated. To learn more, see <a href="https://www.elastic.co/support/eol" target="_blank">Elastic Product End of Life Dates.
+   * Elasticsearch (Deprecated) &mdash; Elasticsearch 2.x has reached end of life, and is now deprecated. To learn more, see <a href="https://www.elastic.co/support/eol" target="_blank">Elastic Product End of Life Dates.
 
-   * Elasticsearch 5.0+ (Default) &mdash; Elasticsearch 5.0+ is scheduled for end of life. To learn more, see <a href="https://www.elastic.co/support/eol" target="_blank">Elastic Product End of Life Dates.
+   * Elasticsearch 5.x (Default) &mdash; Elasticsearch 5.x is scheduled for end of life. To learn more, see <a href="https://www.elastic.co/support/eol" target="_blank">Elastic Product End of Life Dates.
 
-   * Elasticsearch 6.0+ (Recommended) &mdash;For the best performance, we recommend that you use the latest version of Elasticsearch 6.0+.
+   * Elasticsearch 6.x (Recommended) &mdash;For the best performance, we recommend that you use the latest version of Elasticsearch 6.x.
 
    {:.bs-callout-info}
    To learn more about using Elasticsearch versions 2.x and 5.x, see [Change the Elasticsearch Client][2]{:target="_blank"}.
@@ -27,7 +27,7 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
    ![]({% link images/images/config-catalog-catalog-search-elasticsearch-1.png %}){: .zoom}
    *[Elasticsearch Settings]({% link configuration/catalog/catalog.md %})*
 
-1. For **Enable EAV Indexer**, set if you want to enable or disable the Product EAV indexer. This feature improves indexation speed and restricts the indexer from use by 3rd party extensions. This option only displays for Elasticsearch or Elasticsearch 5.0+ Search Engines.
+1. For **Enable EAV Indexer**, set if you want to enable or disable the Product EAV indexer. This feature improves indexation speed and restricts the indexer from use by 3rd party extensions. This option only displays for Elasticsearch or Elasticsearch 5.x Search Engines.
 
 1. To limit the length and word count of search query text, set the **Minimal Query Length** and **Maximum Query Length**.
 
