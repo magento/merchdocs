@@ -24,7 +24,8 @@ _Customer Reorder Link in Admin_
 
 ## Criteria for Reorder to be allowed for an order:
 
-1. Reorder configuration must be enabled in backend admin.
-2. If order is in hold, then reorder will not available for the order.
-3. Reorder will not be available, If one of the items in the order is unavailable or disabled in Magento.
-4. Reorder will not be available, If one ot the items in the order is out of stock.
+1. For the reorder option to appear for an order, **Allow Reorder** must be enabled in the **Admin** > _Stores_ > **Configuration** > **Sales**.
+
+1. If order is in Hold status, the reorder option is disabled.
+
+1. If one of the items in the order is unavailable, out of stock, or disabled in Magento, the reorder option is disabled.
