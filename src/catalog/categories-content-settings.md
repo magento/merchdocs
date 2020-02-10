@@ -6,11 +6,11 @@ The Content settings determine any additional content appears on the category pa
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/category-content.png %}){: .zoom}
-*Category Content*
+_Category Content_
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![]({% link images/images-ee/category-content.png %}){: .zoom}
-*Category Content*
+_Category Content_
 <!--{% endif %}-->
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

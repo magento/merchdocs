@@ -12,7 +12,7 @@ For B2B, see also [Configuring Catalog Price Scope]({% link catalog/catalog-shar
 <!--{% endif %}-->
 
 ![]({% link images/images/scope-product-price.png %}){: .zoom}
-*Price Scope*
+_Price Scope_
 
 ## Configure price scope
 
@@ -29,11 +29,11 @@ For B2B, see also [Configuring Catalog Price Scope]({% link catalog/catalog-shar
 
     <!--{% if "Default.CE Only" contains site.edition %}-->
     ![]({% link images/images/config-catalog-catalog-price.png %}){: .zoom}
-    *Catalog Price Scope*
+    _Catalog Price Scope_
     <!--{% endif %}-->
     <!--{% if "Default.EE-B2B" contains site.edition %}-->
     ![]({% link images/images-ee/config-catalog-catalog-price-website.png %}){: .zoom}
-    *Catalog Price Scope*
+    _Catalog Price Scope_
     <!--{% endif %}-->
 
 1. When complete, click <span class="btn">Save Config</span>.

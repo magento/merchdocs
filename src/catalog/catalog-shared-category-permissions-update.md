@@ -3,7 +3,7 @@ conditions: Default.B2B Only
 title: Updating Category Permissions
 ---
 
-[Category permissions]({% link catalog/category-permissions.md %}) are automatically set to _Allow_ for products that are added from the category tree to a shared catalog. You can later adjust the permissions, or create additional rules, as needed.
+[Category permissions]({% link catalog/category-permissions.md %}) are automatically set to `Allow` for products that are added from the category tree to a shared catalog. You can later adjust the permissions, or create additional rules, as needed.
 
 ## Update category permissions
 
@@ -18,13 +18,13 @@ title: Updating Category Permissions
 1. Click <span class="btn">New Permission</span> and do the following:
 
     ![]({% link images/images-b2b/category-permissions-new.png %}){: .zoom}
-    *New Permission*
+    _New Permission_
 
-    * Choose the **Customer Group** that corresponds to the shared catalog and change the permission settings as needed.
+    - Choose the **Customer Group** that corresponds to the shared catalog and change the permission settings as needed.
 
       ![]({% link images/images-b2b/shared-catalog-category-permissions.png %}){: .zoom}
-      *Category Permissions Rule*
+      _Category Permissions Rule_
 
-    * To create a new permissions rule for another customer group, click <span class="btn">New Permissions</span> and repeat the process.
+    - To create a new permissions rule for another customer group, click <span class="btn">New Permissions</span> and repeat the process.
 
 1. When complete, click <span class="btn">Save</span>.

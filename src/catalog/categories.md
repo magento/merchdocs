@@ -6,15 +6,15 @@ Before you add products to your catalog, you need to establish the basic categor
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/catalog-categories.png %}){: .zoom}
-*Category Tree*
+_Category Tree_
 <!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
 ![]({% link images/images-ee/catalog-categories.png %}){: .zoom}
-*Category Tree*
+_Category Tree_
 <!--{% endif %}-->
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 ![]({% link images/images-b2b/catalog-categories.png %}){: .zoom}
-*Category Tree*
+_Category Tree_
 <!--{% endif %}-->
 
 |Control|Description|

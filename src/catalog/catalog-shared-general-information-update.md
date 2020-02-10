@@ -6,7 +6,7 @@ title: Updating the General Information
 The detail information of any shared catalog can be easily updated from the Action column of the Shared Catalogs grid. The changes you make are reflected in any associated company accounts.
 
 ![]({% link images/images-b2b/catalogs-shared-grid-general-settings.png %}){: .zoom}
-*General Settings*
+_General Settings_
 
 ## Update the catalog details
 
@@ -15,12 +15,12 @@ The detail information of any shared catalog can be easily updated from the Acti
 1. For the the shared catalog in the [grid]({% link stores/admin-grid-controls.md %}) that you want to update, go to the **Action** column and select **General Settings**.
 
    ![]({% link images/images-b2b/catalog-shared-update-details.png %}){: .zoom}
-   *Catalog Details*
+   _Catalog Details_
 
 1. Update the catalog detail information as needed.
 
-   * Changing the name of a shared catalog, also changes the name of the corresponding customer group.
-   * Changing the catalog type from `Custom` to `Public` converts the existing public catalog to a custom catalog. Any companies associated with the original public catalog are reassigned to the replacement. A public catalog cannot be converted to a custom catalog.
+   - Changing the name of a shared catalog, also changes the name of the corresponding customer group.
+   - Changing the catalog type from `Custom` to `Public` converts the existing public catalog to a custom catalog. Any companies associated with the original public catalog are reassigned to the replacement. A public catalog cannot be converted to a custom catalog.
 
 1. When complete, click <span class="btn">Save</span>.
 
