@@ -49,7 +49,7 @@ If you are interested in automating your sales and use tax compliance and report
 
 ## Step 2: Prepare the Import Data
 
-You have two spreadsheets open, side by side. One with the Magento export file structure and the other with the new tax rate data that you want to import.
+You have two spreadsheets open, side by side. One contains the Magento export file structure, and the other contains the new tax rate data that you want to import.
 
 1. To create a place to work in the spreadsheet with the new data, insert as many blank columns at the far left as needed and use cut-and-paste to rearrange the columns so they match the order of the Magento export data.
 
