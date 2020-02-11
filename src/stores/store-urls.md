@@ -13,14 +13,14 @@ Do not change the Admin URL from the default Base URL configuration. To change t
 
 ## Use Secure Protocol
 
-The base URLs for your store were initially set up during the _Web Configuration_ step of the [Magento installation]({% link system/web-setup-wizard.md %}). If a security certificate was available at the time, you could specify for `https` URLs to be used for the store, Admin, or both. If your Magento installation includes multiple stores, or if you plan to later add more stores, you can include the store code in the URL. All Magento resources and operations can be used with secure protocol.
+The base URLs for your store were initially set up during the _Web Configuration_ step of the [Magento installation]({% link system/web-setup-wizard.md %}). If a security certificate was available at the time, you could specify for `HTTPS` URLs to be used for the store, Admin, or both. If your Magento installation includes multiple stores, or if you plan to later add more stores, you can include the store code in the URL. All Magento resources and operations can be used with secure protocol.
 
 If a security certificate was not available for the domain at the time of the installation, make sure to update the configuration before launching your store. After a security certificate is established for your domain, you can configure either or both base URLs to operate with encrypted Secure Sockets Layer (SSL) and [Transport Layer Security][1] (TLS) protocol.
 
 {:.bs-callout-info}
 Magento strongly recommends for all pages of a production site, including content and product pages, to be transmitted with secure protocol.
 
-Magento can be configured to deliver all pages over `https` by default. If your store has been running up until now with standard protocol, you can improve security by enabling [HTTP Strict Transport Security][2] (HSTS). and by upgrading any insecure page requests that are received by the store. HSTS is an opt-in protocol that prevents browsers from rendering standard `http` pages that are transmitted with unsecure protocol for the specified domain. Because search engines might have already indexed each page of your store with standard `http` URLs, you can configure Magento to automatically upgrade any unsecure page requests to `https`, so you don't lose any traffic. When Magento is configured to use secure URLs for both the store and Admin, two additional fields appear that allow you to enable HSTS.
+Magento can be configured to deliver all pages over `HTTPS` by default. If your store has been running up until now with standard protocol, you can improve security by enabling [HTTP Strict Transport Security][2] (HSTS). and by upgrading any insecure page requests that are received by the store. HSTS is an opt-in protocol that prevents browsers from rendering standard `HTTP` pages that are transmitted with unsecure protocol for the specified domain. Because search engines might have already indexed each page of your store with standard `HTTP` URLs, you can configure Magento to automatically upgrade any unsecure page requests to `HTTPS`, so you don't lose any traffic. When Magento is configured to use secure URLs for both the store and Admin, two additional fields appear that allow you to enable `HSTS`.
 
 ### Configure the base URL
 
@@ -88,7 +88,9 @@ If your domain has a valid security certificate, you can configure the URLs of b
 
     - **Upgrade Insecure Requests** — To upgrade any requests for standard unsecured HTTP pages to secure HTTPS, set to `Yes`.
 
-1. When complete, click <span class="btn">Save Config</span>.
+1.  Most Magento installations use the default  `X-Forward-Proto` **Offloader Header** to identify the protocol as either `HTTP` or `HTTPS`. If your server configuration uses a different `offloader_header`, enter it here.
+
+1.  When complete, click <span class="btn">Save Config</span>.
 
 ### Include the store code in URLs
 
