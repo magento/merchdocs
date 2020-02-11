@@ -27,7 +27,7 @@ Magento 2 version:
 Notifications of Changes:
 
 -  [ ] Changes to Admin interface?
--  [ ] Changes to process or beghavior?
+-  [ ] Changes to process or behavior?
 -  [ ] Other information for merchant users?
 
 ## Content
