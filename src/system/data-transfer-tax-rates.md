@@ -51,7 +51,7 @@ If you are interested in automating your sales and use tax compliance and report
 
 You have two spreadsheets open, side by side. One contains the Magento export file structure, and the other contains the new tax rate data that you want to import.
 
-1. To create a place to work in the spreadsheet with the new data, insert as many blank columns at the far left as needed and use cut-and-paste to rearrange the columns so they match the order of the Magento export data.
+1. To create a place to work in the spreadsheet with the new data, insert as many blank columns at the far right as needed and use cut-and-paste to rearrange the columns so they match the order of the Magento export data.
 
 1. Rename the column headers to match the Magento export data.
 
