@@ -49,7 +49,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 |Use Secure URLs on Storefront|Store View|If your domain has a security certificate, you can choose to run the storefront, with or without SSL encryption. Options:<br />**Yes** - Store URLs begin with `https` to indicate that the page is delivered with encrypted, secure protocol. <br />**No** - Store URLs begin with `http` to indicate that the page is delivered without secure protocol.|
 |Use Secure URLs in Admin|Global|If your domain has a security certificate, you can choose to run the store Admin, with or without SSL encryption. Options: <br />**Yes** - Admin URLs begin with `https` to indicate that the page is delivered with encrypted, secure protocol.<br />**No** - Admin URLs begin with `http` to indicate that the page is delivered without secure protocol.<br /> When secure URLs are enabled for both the store and Admin, two additional fields appear to enable and configure `HSTS`.|
 |Enable HTTP Strict Transport Security (HSTS)|Store View|When enabled, [`HSTS`](1) provides a measure of security against "man in the middle" attacks, and prevents users from overriding the "invalid certificate" message. Options: Yes / No|
-|Upgrade Insecure Requests|Store View| When enabled, coverts insecure (`HTTP`) requests received from the browser to the secure (`HTTPS`) protocol. Options: Yes / No|
+|Upgrade Insecure Requests|Store View| When enabled, coverts unsecure (`HTTP`) requests received from the browser to the secure (`HTTPS`) protocol. Options: Yes / No|
 |Offloader Header|Global|Specifies the `offloader_header` value in your server configuration to identify the protocol between the client and load balancer. Most Magento installations use the default value, `X-Forwarded-Proto` (XFP) to identify the protocol as either `HTTP` or `HTTPS`.|
 
 ## Default Pages
@@ -59,7 +59,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Default Web URL|Store View|Indicates the  landing page that is associated with the base URL. This is set by default to “cms” to indicate a page from  Magento’s content management system. You can also use a different type of landing page, such as a blog. For example, if a blog is installed on the server at magento/blog, you can enter the name of the “blog” folder as a relative path to the selection of pages.|
+|Default Web URL|Store View|Indicates the landing page that is associated with the base URL. This is set by default to “cms” to indicate a page from  Magento’s content management system. You can also use a different type of landing page, such as a blog. For example, if a blog is installed on the server at magento/blog, you can enter the name of the “blog” folder as a relative path to the selection of pages.|
 |CMS Home Page|Store View|To choose the home page for the store, simply select the CMS page from the list. By default, the CMS Home Page lists the entire selection of CMS pages that are available for your store.|
 |Default No-route URL|Store View|Contains the URL of the default page that you want to appear when a `404 Page not Found` error occurs. The default value is `cms/noroute/index`.|
 |CMS No Route Page|Store View|Identifies a specific CMS page that you want to appear when a 404 Page Not Found error occurs. The default page is 404 Not Found.|
