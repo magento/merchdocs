@@ -65,7 +65,7 @@ You have two spreadsheets open, side by side. One with the Magento export file s
 
 1. Save the prepared data as a .CSV file.
 
-   When prompted, verify that a comma is used a Field delimiter and double quotes as the Text delimiter. Then click **OK**.
+   When prompted, verify that a comma is used as a Field delimiter and double quotes as the Text delimiter. Then click **OK**.
 
 ## Step 3: Import the Tax Rates
 
