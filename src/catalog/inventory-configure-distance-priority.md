@@ -11,7 +11,7 @@ You have two options for calculating the distance and time to find the closest s
 
 - **Google MAP** - Uses [Google Maps Platform][1] services to calculate the distance and time between the shipping destination address and source locations. This option uses the source's Latitude and Longitude (GPS coordinates) and may use the street address depending on the computation mode. This option uses the source's Latitude and Longitude. You must provide a Google API key with [Geocoding API][2] and [Distance Matrix API][3] enabled, and you may incur charges through Google.
 
-- **Offline Calculation** - Calculates the distance using downloaded and imported geocode data using zip/post codes and GPS coordinates to determine the closest source to the shipping destination address. To configure this option, you may require developer assistance to initially download and import geocodes using a command line.
+- **Offline Calculation** - Calculates the distance using downloaded and imported geocode data using zip/post codes and GPS coordinates to determine the closest source to the shipping destination address. To configure this option, you may require developer assistance to initially download and import geocodes using command line instructions.
 
 ## Configure Google Maps
 
