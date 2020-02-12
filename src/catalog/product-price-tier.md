@@ -65,6 +65,8 @@ The prices in the storefront take precedence from the highest to the lowest quan
         *Tier Price as a Fixed Amount*
 
         **Method 2: Enter Price as Percentage**
+        
+        Note: Price as Percentage calculation works on top of regular price and doesn't work with Special Price.
 
         1. Set **Price** to “Discount”.
 
