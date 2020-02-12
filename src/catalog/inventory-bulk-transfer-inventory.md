@@ -23,7 +23,7 @@ You have an option to also unassign the source when transferring inventory quant
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. Select the products where you want to modify sources.
+1. Select the products for which you want to modify sources.
 
    Browse or search to find products and select checkboxes for transfer.
 
