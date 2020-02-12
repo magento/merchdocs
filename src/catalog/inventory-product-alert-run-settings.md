@@ -17,7 +17,7 @@ These settings enable you to select how often Magento checks for changes that re
 
 1. To determine how often product alerts are sent, set **Frequency** to one of the following:
 
-   * `Daily`
+   - `Daily`
    * `Weekly`
    * `Monthly`
 
