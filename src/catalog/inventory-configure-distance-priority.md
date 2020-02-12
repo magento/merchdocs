@@ -62,7 +62,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
 1. In the left panel, expand **Catalog** and choose **Inventory**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Distance Provider for Distance Based SSA** section and set **Provider**to `Google MAP`.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Distance Provider for Distance Based SSA** section and set **Provider** to `Google MAP`.
 
     ![]({% link images/images/config-catalog-catalog-inventory-distance-provider.png %}){: .zoom}
     _Distance Providers for Distance Based SSA_
