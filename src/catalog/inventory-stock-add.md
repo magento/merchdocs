@@ -42,7 +42,7 @@ _New Stock_
     - Select checkboxes for all sources you want to assign to the stock.
 
     - Click <span class="btn">Done</span>.
-  
+
       The added sources display in Assigned Sources.
 
       ![]({% link images/images/stores-inventory-stock-assign-sources.png %}){: .zoom}
