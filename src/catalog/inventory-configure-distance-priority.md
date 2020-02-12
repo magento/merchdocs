@@ -76,7 +76,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
       {:.bs-callout-info}
       When using this algorithm for shipping, if routes and data does not return for the selected Computation mode (driving, bicycling, or walking) for a shipment, the SSA defaults to using the Source Priority. We recommend also setting the [priority for sources per stock]({% link catalog/inventory-stock-priority.md %}).
 
-      | Driving | Default setting, requests standard driving directions using the road network |
+      | Driving | (Default) Requests standard driving directions using the road network |
       | Walking | Requests walking directions using pedestrian paths and sidewalks (where available) |
       | Bicycling | Requests bicycling directions using bicycle paths and preferred streets (where available). The [Distance Matrix Service][4] is currently only available in the US and some Canadian cities. |
 
