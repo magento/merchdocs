@@ -51,7 +51,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
     - Choose the **Country**.
 
-    - For the **State/Province**, enter the standard abbreviation for the state or province.
+    - For **State/Province**, enter the standard abbreviation for the state or province.
 
     - Enter the **City**.
 
