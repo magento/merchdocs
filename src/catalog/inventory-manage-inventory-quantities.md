@@ -2,7 +2,7 @@
 title: Managing Inventory Quantities
 ---
 
-The following information details how to assign sources and quantities for new products, or changing to existing products.
+The following information details how to assign sources and quantities for new products or making changes to existing products.
 
 When creating new products, assign sources and quantities during product creation. See [Product Types]({% link catalog/product-types.md %}) documentation for full instructions. These pages includes Single and Multi Source information for sources and quantities per source.
 
