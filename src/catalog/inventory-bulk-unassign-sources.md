@@ -10,9 +10,9 @@ We strongly recommend completing all orders and shipments for those products pri
 
 ## Unassign source and quantities
 
-1. On the _Admin_ sidebar, click **Catalog** > **Products**.
+1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. Select the products where you want to modify sources.
+1. Select the products for which you want to modify sources.
 
    Browse or search to find the products and select those checkboxes.
 
