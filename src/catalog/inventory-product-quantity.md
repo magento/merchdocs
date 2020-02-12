@@ -26,7 +26,7 @@ All updated quantities and sources display in the product grid.
       - Default Notify Quantity - Select the **Use Default** checkbox. Magento checks and uses the setting in Advanced Inventory or global Store configuration.
 
     ![]({% link images/images/inventory/inventory-product-quantities.png %}){: .zoom}
-    *Update Product Quantities per Source*
+    _Update Product Quantities per Source_
 
 1. Do one of the following to save:
 
