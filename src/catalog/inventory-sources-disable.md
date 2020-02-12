@@ -24,7 +24,7 @@ Setting a source to `disabled` is helpful for the following situations:
 
 1. On the _Admin_ sidebar, go to **Stores** > _Inventory_ > **Sources**.
 
-1. Select the checkbox for each enabled custom source that you want to disable
+1. Select the checkbox for each enabled custom source that you want to disable.
 
 1. Click the **Actions** menu at the top-left corner and choose **Disable**.
 
