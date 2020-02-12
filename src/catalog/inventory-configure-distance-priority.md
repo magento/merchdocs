@@ -82,7 +82,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
     - For **Value**, select a value type:
 
-      | Distance | Default setting, returns the distance between points in metrics (kilometers and meters) or imperial (miles and feet) |
+      | Distance | (Default) Returns the distance between points in metrics (kilometers and meters) or imperial (miles and feet) |
       | Time to Destination | Returns the time required to travel from the source locations to the shipping address in hours and minutes |
 
     ![]({% link images/images/config-catalog-catalog-inventory-distance-provider-settings.png %}){: .zoom}
