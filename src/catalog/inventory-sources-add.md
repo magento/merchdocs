@@ -76,7 +76,7 @@ If editing the Default Source, you can edit all configurations except name and c
 |--|--|
 |Back|Returns to the Manage Sources page.|
 |Reset|Restores all fields in the form to their values at the time of the last save.|
-|Save & Continue|Saves all changes, and keeps the form open for further editing. Click the down arrow for these additional options:<br/>**Save & Close** - Saves changes to the current record, closes the form, and returns to the Manage Sources page.<br/>**Save & New** - Saves changes and closes the current record, and opens a new blank form.|
+|Save & Continue|Saves all changes and keeps the form open for further editing. Click the down arrow for additional options:<br/>**Save & Close** - Saves changes to the current record, closes the form, and returns to the Manage Sources page.<br/>**Save & New** - Saves changes, closes the current record, and opens a new blank form.|
 
 ## Field descriptions
 
