@@ -75,7 +75,7 @@ _Cart with Customizable Option and Price Rule_
 
 1. When complete, you can continue to add more custom options, or tap <span class="btn">Save and Close</span>.
 
-## Input Types ##
+## Input Types
 
 |Type|Description|
 |--- |--- |
