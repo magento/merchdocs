@@ -42,7 +42,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
     - For **Phone**, enter the area code and phone number.
 
-    - In the **Fax** field, enter the area code and phone number of the fax, if available.
+    - For **Fax**, enter the area code and phone number of the fax, if available.
 
       ![]({% link images/images/stores-inventory-source-contact-info.png %}){: .zoom}
       _Contact Info_
