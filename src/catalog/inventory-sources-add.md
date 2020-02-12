@@ -40,7 +40,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
     - Enter an **Email** address for contacting the location.
 
-    - For the **Phone**, enter the area code and phone number.
+    - For **Phone**, enter the area code and phone number.
 
     - In the **Fax** field, enter the area code and phone number of the fax, if available.
 
