@@ -45,6 +45,6 @@ When Magento checks for custom settings to apply, it follows this order:
 
 For example, you may configure backorders differently across your store. You may have backorders configured as follows:
 
-- Globally: Enable backorders for the store, set Out-of-Stock Threshold to -50
+- Globally: Enable backorders for the store, set Out-of-Stock Threshold to `-50`
 
-- Product: Disable backorders for a specific product, set Out-of-Stock Threshold to 10
+- Product: Disable backorders for a specific product, set Out-of-Stock Threshold to `10`
