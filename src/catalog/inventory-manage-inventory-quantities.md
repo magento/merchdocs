@@ -27,7 +27,7 @@ You have the following options to assign inventory to products:
 
 - [Bulk Assigning Sources]({% link catalog/inventory-bulk-assign-sources.md %}) - Assign sources to selected products as a mass action.
 
-- [Bulk Unassigning Sources]({% link catalog/inventory-bulk-unassign-sources.md %}) - Unassign sources from selected products as a mass action. We recommend using the Transfer Inventory to Source option if you need to transfer inventory and remove the source.
+- [Bulk Unassigning Sources]({% link catalog/inventory-bulk-unassign-sources.md %}) - Unassign sources from selected products as a mass action. We recommend using the [Transfer Inventory to Source]({% link catalog/inventory-bulk-transfer-inventory.md %}) option if you need to transfer inventory and remove the source.
 
 - [Transferring Inventory to Source]({% link catalog/inventory-bulk-transfer-inventory.md %}) - Mass transfer all inventory from one origin source to a destination source.
 
