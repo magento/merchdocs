@@ -80,7 +80,7 @@ Configure the quantities and additional settings per [added source]({% link cata
    | Allow Qty Below 0 | To accept backorders when the quantity falls below zero. |
    | Allow Qty Below 0 and Notify Customer | To accept backorders when the quantity falls below zero, and notify the customer that the order can still be placed. |
 
-   For complete information on backorders, see [Configuring Backorders]({% link catalog/inventory-backorders.md %}).
+   For more information, see [Configuring Backorders]({% link catalog/inventory-backorders.md %}).
 
 1. In the **Notify for Quantity Below** field, enter the stock level that triggers notification that the item is out of stock.
 
