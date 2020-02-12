@@ -32,7 +32,7 @@ As you enter shipments, your on-hand inventory quantities deduct entered amounts
     {:.bs-callout-info}
     **Important:** When using the Distance Priority algorithm for shipping and routes and data does not return for the selected [Computation mode]({% link catalog/inventory-configure-distance-priority.md %}) (driving, bicycling, or walking) for a shipment, the SSA defaults to the Source Priority. We recommend also setting the [priority for sources per stock]({% link catalog/inventory-stock-priority.md %}).
 
-    - For the **Select a Source to Ship from**, select a source from the menu to send a shipment.
+    - For  **Select a Source to Ship from**, select a source from the menu to send a shipment.
 
     - For each line item, keep the recommended amount or enter a specific amount in the **Qty to Deduct**.
 
