@@ -19,7 +19,7 @@ These settings enable you to select how often Magento checks for changes that re
 
    - `Daily`
    - `Weekly`
-   * `Monthly`
+   - `Monthly`
 
 1. To determine the time of day product alerts are sent, set **Start Time** to the hour, minute, and second.
 
