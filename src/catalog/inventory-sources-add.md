@@ -27,7 +27,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
     - Enter a brief **Description** for this location for quick reference or additional details.
 
-    - In the **Latitude** and **Longitude** fields, enter the Global Positioning System (GPS) coordinates of the facility location.
+    - For **Latitude** and **Longitude**, enter the Global Positioning System (GPS) coordinates of the facility location.
 
       To find the GPS coordinates with [Google Maps][1], enter the address in the **Search** box. Right-click the marker on the map and choose **What’s here?**. The GPS coordinates appear in the details box below the street address.
 
