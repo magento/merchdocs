@@ -7,28 +7,25 @@ about: Create an issue related to a community engineering effort
 
 <!-- (REQUIRED) Provide information for the doc request including any Community code issues or PRs, Magento versions, or user guide pages. -->
 
-Type of Doc:
+Type of documentation (new topic, update with links to the affected topics, other):
 
--  [ ] New topic
--  [ ] Topic Update, user guide link:
--  [ ] Other
+- ...
+- ...
 
-Magento 2 GitHub Issue: https://github.com/magento/merchdocs/issues/link
+Links to related Magento 2 GitHub issues or pull requests:
 
-Magento 2 GitHub PR: https://github.com/magento/merchdocs/pull/link
+- ...
+- ...
 
-Magento 2 version:
+Affected Magento 2 versions:
 
--  [ ] 2.3.X
--  [ ] 2.4.X
--  [ ] back port
--  [ ] forward port
+- ...
+- ...
 
-Notifications of Changes:
+What has changed in Magento 2 (Admin interface, process/behavior, other):
 
--  [ ] Changes to Admin interface?
--  [ ] Changes to process or behavior?
--  [ ] Other information for merchant users?
+- ...
+- ...
 
 ## Content
 
