@@ -36,7 +36,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Contact Info** section and do the following:
 
-    - For the **Contact Name**, enter the full name of the primary contact at the location.
+    - For **Contact Name**, enter the full name of the primary contact at the location.
 
     - Enter an **Email** address for contacting the location.
 
