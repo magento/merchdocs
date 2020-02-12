@@ -54,7 +54,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 1. Expand the menu and click **APIs & Services** > **Credentials**. Copy the Google API Key.
 
     ![]({% link images/images/config-catalog-catalog-inventory-google-key3.png %}){: .zoom}
-    _Google API Key Copy_*
+    _Google API Key Copy_
 
 ### Step 2: Configure the Google MAP Provider
 
