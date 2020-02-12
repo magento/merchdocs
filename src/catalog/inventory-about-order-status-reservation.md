@@ -70,7 +70,7 @@ She buys two great park bikes for her daughters, a BMX bike for her son, a nice 
 
 ### Example order from Biking Adventures
 
-She shows her family the great finds, but makes some changes. Before payment completes, she cancels two of the 33-BikeFun SKUs (her daughters did not like them). This is a partial cancellation due to payment pending, so no credit memo needed. To update, Magento adds back to the salable quantity stock for Canada. The order is paid and all products ship, arriving in time for vacation. Magento updates the salable quantity and source quantities for the shipping warehouses for the shipped products.
+She shows her family the great finds, but makes some changes. Before payment completes, she cancels two of the 33-BikeFun SKUs (her daughters did not like them). This is a partial cancellation due to payment pending, so no credit memo needed. To update, Magento adds back to the salable quantity stock for Canada. The order is paid, and all products ship, arriving in time for vacation. Magento updates the salable quantity and source quantities for the shipping warehouses for the shipped products.
 
 But the shirt didn't quite fit her husband. Jenny requests a refund and sends back his shirt. The creation of the credit memo adds one 54-BikeLife shirt back to the Canada stock and shipping warehouse.
 
