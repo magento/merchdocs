@@ -54,4 +54,4 @@ To complete and ship an order, it must have completed payment and be invoiced. A
 
 ### Shipments and reservations
 
-As shipments generate, reservations for products clear and product quantity is deducted. The on-hand quantity per stock updates based on the shipment details. For example, if you send shipments for 10 products from two sources, the quantities for those sources deduct 10 each. The Salable Quantity automatically refreshes for associated stocks, providing customers and staff with the latest product amounts. And the reservations clear completely, no longer counting against the Salable Quantity.
+As shipments generate, reservations for products clear, and product quantity is deducted. The on-hand quantity per stock updates based on the shipment details. For example, if you send shipments for 10 products from two sources, the quantities for those sources deduct 10 each. The Salable Quantity automatically refreshes for associated stocks, providing customers and staff with the latest product amounts. And the reservations clear completely, no longer counting against the Salable Quantity.
