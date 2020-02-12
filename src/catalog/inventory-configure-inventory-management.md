@@ -41,7 +41,7 @@ When Magento checks for custom settings to apply, it follows this order:
 
 1. Magento then checks the Product **Advanced Inventory** settings.
 
-1. If **Use Config Settings** is selected for the product settings, it checks for a value in the Stores > Configuration > **Inventory** page.
+1. If **Use Config Settings** is selected for the product settings, it checks for a value in the **Stores** > _Configuration_ > **Inventory** page.
 
 For example, you may configure backorders differently across your store. You may have backorders configured as follows:
 
