@@ -6,7 +6,7 @@ Magento supports inventory management for all sizes of businesses, including a s
 
 - Single Source merchants ship products from one location. You are considered a Single Source merchant/mode until you start adding custom sources and stocks to your installation.
 
-- Multi Source merchants ship products from more than one location such as brick-and-mortar stores, warehouses, drop shippers, and distribution centers. After adding custom sources per location, you automatically become a Multi Source merchant or mode.
+- Multi Source merchants ship products from more than one location such as brick-and-mortar stores, warehouses, drop shippers, and distribution centers. After adding custom sources per location, you automatically become a Multi Source merchant.
 
 ## Single Source merchants
 
