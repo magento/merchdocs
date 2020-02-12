@@ -5,7 +5,7 @@ title: Product Alerts
 Customers can subscribe to two types of alerts by email: price change alerts and in-stock alerts. For each type of alert, you can determine if customers are able to subscribe, select the email template that is used, and identify the sender of the email.
 
 ![]({% link images/images/storefront-price-alert-signup.png %}){: .zoom}
-*Sign Up for Price Alert*
+_Sign Up for Price Alert_
 
 ## Price change alerts
 
