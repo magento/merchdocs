@@ -82,7 +82,7 @@ Configure the quantities and additional settings per [added source]({% link cata
 
    For more information, see [Configuring Backorders]({% link catalog/inventory-backorders.md %}).
 
-1. In the **Notify for Quantity Below** field, enter the stock level that triggers notification that the item is out of stock.
+1. For **Notify for Quantity Below**, enter the stock level that triggers notification that the item is out of stock.
 
    This amount is subtracted from the Salable Quantity at the stock level.
 
