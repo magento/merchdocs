@@ -25,7 +25,7 @@ Configure the quantities and additional settings per [added source]({% link cata
 
       If cleared, enter the stock level amount that triggers the item's out of stock notice. The amount entered is subtracted from the item's Salable Quantity at the stock level. 
 
-       Select to use Default |Magento checks the product Advanced Inventory options for configuration settings.
+       Select to use Default - Magento checks the product Advanced Inventory options for configuration settings.
        Clear to Modify|Enter a value for the Notify Quantity, overriding Advanced Inventory and Store configuration settings.
 
 1. When complete, click <span class="btn">Done</span>, then <span class="btn">Save</span>.
