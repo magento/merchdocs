@@ -20,7 +20,7 @@ As you enter shipments, your on-hand inventory quantities deduct entered amounts
 
 1. Locate the order and open in **View** mode.
 
-1. If the order is paid and invoiced, and is ready to ship, click <span class="btn">Ship</span>.
+1. If the order is paid and invoiced and is ready to ship, click <span class="btn">Ship</span>.
 
 1. Complete the Source Selection for sending products per source:
 
