@@ -57,7 +57,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
     - Enter the physical **Street** address.
 
-    - For the **Postcode**, enter the ZIP or postal code.
+    - For **Postcode**, enter the ZIP or postal code.
 
       ![]({% link images/images/stores-inventory-source-address-data.png %}){: .zoom}
       _Address Data_
