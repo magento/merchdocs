@@ -109,7 +109,7 @@ _Conditions_
         ![Cart price rule condition]({% link images/images/price-rule-cart-condition-products-subselection2.png %}){: .zoom}
         _If ALL of these conditions are TRUE_
 
-   - Click the "more" (...) link, and enter `>100`. This condition requires the total quantity of the cart to be greater than 100.
+   - Click the "more" (...) link, and enter `greater than 100`. This condition requires the total quantity of the cart to be greater 101 or greater.
 
         ![Cart price rule condition - total quantity value]({% link images/images/price-rule-cart-condition-products-subselection3.png %}){: .zoom}
         _Total Quantity Value_
@@ -121,7 +121,7 @@ _Conditions_
 
     - In the next part of the condition, click the **more** (...) link to display the input field. Then, open the **Chooser** (![List icon]({% link images/images/btn-chooser.png %})) to display the category tree.
 
-    - Select the checkbox of the category that you want to use as a condition for the price rule.
+    - Select the checkbox of the category that you want to use as a condition for the price rule. Click the ![Add icon]({% link images/images/btn-checkmark-green.png %}) icon to accept the category selection(s).
 
         The condition can be based on any category that is a child of the store’s [root category]({% link catalog/category-root.md %}).
 
