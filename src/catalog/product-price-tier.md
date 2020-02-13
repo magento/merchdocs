@@ -65,11 +65,11 @@ The prices in the storefront take precedence from the highest to the lowest quan
         _Tier Price as a Fixed Amount_
 
         **Method 2: Enter Price as Percentage**
-        
+
         1. Set **Price** to `Discount`.
 
         1. In the next field, enter the discounted price as a percentage off the base price of the product. For example, for a 15 percent discount, enter the number 15. (The price is saved with two decimal positions, such as “15.00”.)
-        
+
            **Note**: To get the discounted price, the defined percentage is calculated against the value defined in the **Price** field, not the **Special Price** field.
 
         <!--{% if "Default.CE Only,Default.EE Only" contains site.edition %}-->
@@ -86,4 +86,4 @@ The prices in the storefront take precedence from the highest to the lowest quan
 
 1. To add another set of tier pricing for a different website or customer group, repeat the process.
 
-1. When complete, click <span class="btn"> Done </span>. Then, tap <span class="btn">Save</span>.
+1. When complete, click <span class="btn"> Done </span>. Then, click <span class="btn">Save</span>.
