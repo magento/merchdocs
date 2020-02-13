@@ -14,8 +14,8 @@ A source can have priority in the scope of stock in one warehouse, but not neces
 
 In this example, the merchant has a mountain bike available for shipment from stores, warehouses, and a drop shipper.
 
-![]({% link images/images/inventory/inventory-diagram-sources.png %})<br />
-*Example Sources for a Mountain Bike*
+![]({% link images/images/inventory/inventory-diagram-sources.png %})<br/>
+_Example Sources for a Mountain Bike_
 
 ## Stocks
 
@@ -25,24 +25,22 @@ Sales Channels represent entities selling your inventory, including websites, st
 
 You start with a Default Stock assigned with the Default Source and your website, best used by Single Source merchants. Only the Default Source can be assigned to this stock. Multi Source merchants create custom stocks for custom sources and websites as needed.
 
-![]({% link images/images/inventory/inventory-diagram-stock.png %})
-
-*Example Stocks for a Mountain Bike and Store*
+![]({% link images/images/inventory/inventory-diagram-stock.png %})<br/>
+_Example Stocks for a Mountain Bike and Store_
 
 ## Product Quantities
 
 Quantity is the number of products in your active inventory, available for purchase. The quantity of products increases and decreases when you complete shipments or adjust inventory. Adding products to a cart will not affect this amount. The Salable Quantity tracks the availability of the product for a sales channel and also uses this value for determining available stock for purchase. Depending on the number of your sources, you see and manage product quantity for one of the following:
 
-* **Quantity**: For Single Source merchants, the Quantity column and value tracks the amount of on-hand inventory available.
-* **Quantity per Source**: For Multi Source merchants, the Quantity per Source column and values track the on-hand inventory available by location. If you add multiple sources, this value replaces the Quantity and lists every source and assigned quantity.
+- **Quantity** - For Single Source merchants, the Quantity column and value tracks the amount of on-hand inventory available.
+- **Quantity per Source** - For Multi Source merchants, the Quantity per Source column and values track the on-hand inventory available by location. If you add multiple sources, this value replaces the Quantity and lists every source and assigned quantity.
 
 Reservations track stock requests for the entire shopping process: adding products to cart, completing checkout, and managing refunds. For available inventory and stock, reservations reserve inventory amounts per order through the checkout process, subtracted from the salable quantity. Reservations convert to quantity deductions when invoicing and shipping products.
 
 Salable Quantity calculates the virtual inventory of products (or availability), taking into account configured thresholds, reserved or sold amounts, and quantities per source. For each stock, Magento accesses all assigned sources and aggregates associated product quantities. With this base value, it then subtracts all reservation amounts and the Notify for Quantity Below threshold.
 
-![]({% link images/images/inventory/inventory-diagram-salable-qty.png %})
-
-*Calculating the Salable Quantity for a Stock*
+![]({% link images/images/inventory/inventory-diagram-salable-qty.png %})<br/>
+_Calculating the Salable Quantity for a Stock_
 
 ## Inventory Configurations
 
@@ -50,8 +48,8 @@ Every product, source, and stock includes a number of options to configure for y
 
 The following are important options to understand for Inventory Management:
 
-* **Out-of-Stock Threshold** sets an amount to subtract from your Salable Quantity. If you enable backorders, this value is not deducted from the Salable Quantity.
-* **Backorders** determines if products can be sold beyond a zero inventory, saving orders until restocked. When enabled, we recommend configuring the Out-of-Stock Threshold.
+- **Out-of-Stock Threshold** - Sets an amount to subtract from your Salable Quantity. If you enable backorders, this value is not deducted from the Salable Quantity.
+- **Backorders** - Determines if products can be sold beyond a zero inventory, saving orders until restocked. When enabled, we recommend configuring the Out-of-Stock Threshold.
 
 {:.bs-callout-info}
 The Out-of-Stock Threshold value supports negative and positive amounts. If you enable Backorders, we recommend setting this value to a negative amount for the maximum amount of products that can be backordered before the product is truly considered out of stock.

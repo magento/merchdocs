@@ -29,11 +29,11 @@ With Inventory Management enabled, see the following to configure all settings:
 
 ## Enable or Disable Inventory Management
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ < **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the panel to the left, click **Catalog** and choose **Inventory**.
+1. In the left panel, expand **Catalog** and choose **Inventory**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Product Stock Options** section, and configure:
+1. Expand ![]({% link images/images/btn-expand.png %}) **Product Stock Options** and configure:
 
    - To manage inventory and use all Magento features, set **Manage Stock** to `Yes` (default).
 
@@ -44,10 +44,10 @@ With Inventory Management enabled, see the following to configure all settings:
    ![]({% link images/images/config-catalog-catalog-inventory-product-stock-options.png %}){: .zoom}
    _[Product Stock Options]({% link configuration/catalog/inventory.md %})_
 
-## Manage Stock for a Store
+## Manage stock for a store
 
 See [Configure Global Options]({% link catalog/inventory-options-global.md %}).
 
-## Manage Stock for a Product
+## Manage stock for a product
 
 See [Configuring Product Options]({% link catalog/inventory-product-stock-options.md %}).
