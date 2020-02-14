@@ -137,7 +137,7 @@ _Payment & Shipping Method_
 |Payment Information|The method of payment to be used for the order, and purchase order number, if applicable, followed by the currency that was used to place the order.{% if "Default.B2B Only" contains site.edition %} If the order is charged to company credit, using [Payment on Account]({% link payment/payment-on-account.md %}), the amount charged to the account is indicated.{% endif %}|
 |Shipping & Handling Information|The shipping method to be used, and any handling fee that is applicable.|
 
-## Review items ordered:
+## Review items ordered
 
 ![]({% link images/images/order-items-ordered-tristan.png %}){: .zoom}
 _Items Ordered_
