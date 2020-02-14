@@ -2,11 +2,11 @@
 title: Updating an Order
 ---
 
-When helping a customer who has placed an order, the first thing you need to determine is the status of the order because the available options are different for a `pending` order than for one that is `processing`.
+When helping a customer who has placed an order, you need to determine the status of the order. The available options for a `Pending` order are different than the options for a `Processing` order. For more information, see [Processing an Order]({% link sales/order-processing.md %}).
 
 ## Pending Orders
 
-After a customer places an order, but before the payment is processed, you can edit the order, place it on hold, or cancel it entirely. The button bar of a pending order lists the actions that can be applied.
+After a customer places an order, but before the payment is received, the order is in `Pending` status. You can edit the order, place it on hold, or cancel it entirely. The button bar of a pending order lists the available actions for an order.
 
 ![]({% link images/images/order-button-bar-pending.png %}){: .zoom}
 _`Pending` Order Options_
@@ -29,7 +29,7 @@ If you modify the substance of an order, the original order is canceled and a ne
 
 ## Processing Orders
 
-When the payment process begins, the status of the order changes to `processing`. Although it is no longer possible to change the substance of the order, the billing and shipping address can be edited. The order can no longer be canceled, although a credit memo can be issued for the full or partial amount of the order{% if "Default.EE-B2B" contains site.edition %}, or a return merchandise authorization (RMA) issued for product returns{% endif %}. To learn more, see [Processing an Order]({% link sales/order-processing.md %}).
+When payment is received and the invoice is generated, the status of the order changes to `Processing`. You cannot change the substance of a `Processing` order, but you can edit the billing and shipping address. A `Processing` order cannot be canceled, but a credit memo can be issued for the full or partial amount of the order{% if "Default.EE-B2B" contains site.edition %}, or a return merchandise authorization (RMA) issued for product returns{% endif %}. To learn more, see [Processing an Order]({% link sales/order-processing.md %}).
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/order-button-bar-processing.png %}){: .zoom}
@@ -76,9 +76,9 @@ _`Processing` Order Options_
 
 ## Place an order on hold
 
-If the customer’s preferred method of payment is not available, or if the item is temporarily out of stock, you can put the order on hold.
+If the customer’s preferred method of payment is not available or if the item is temporarily out of stock, you can place the order on hold.
 
-1. In the _Orders_ grid, find the pending order that you want to place on hold.
+1. In the _Orders_ grid, find the `Pending` order that you want to place on hold.
 
 1. In the _Action_ column, click **View**.
 
@@ -87,7 +87,7 @@ If the customer’s preferred method of payment is not available, or if the item
     ![]({% link images/images/sales-order-hold.png %}){: .zoom}
     _Hold Order_
 
-To remove the hold on an order, edit the order. Then, click **Unhold**.
+To remove the hold on an order, edit the order again and click **Unhold**.
 
 ## Cancel a pending order
 
