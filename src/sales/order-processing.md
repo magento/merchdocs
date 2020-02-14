@@ -15,7 +15,7 @@ When a customer places an order, a sales order is created as a temporary record 
 <!--{% endif %}-->
 _Orders_
 
-## View an order:
+## View an order
 
 1. On the _Admin_ sidebar, click **Sales**.
 
