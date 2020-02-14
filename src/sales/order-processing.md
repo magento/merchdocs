@@ -70,7 +70,7 @@ _View Order_
 |<span class="btn">Reorder</span>|Creates a new sales order based on the current order.|
 |<span class="btn">Edit</span>|Opens a pending order in edit mode. The Edit button isn’t visible for orders with a status of “Processing”{% if "Default.B2B Only" contains site.edition %}, or orders that are based on negotiated quotes{% endif %}.|
 
-## Process an order:
+## Process an order
 
 To open a `Pending` order, click the **Edit** button in the upper-right corner.
 
