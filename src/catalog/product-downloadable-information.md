@@ -2,7 +2,7 @@
 title: Downloadable Information
 ---
 
-The Downloadable Information section is used to generate the links to downloadable products and samples. To learn more, see: [Downloadable Product]({% link catalog/product-create-downloadable.md %}).
+The Downloadable Information section is used to generate the links to downloadable products and samples. To learn more, see [Downloadable Product]({% link catalog/product-create-downloadable.md %}).
 
 ![]({% link images/images/product-downloadable-information.png %}){: .zoom}
-*Downloadable Information*
+_Downloadable Information_

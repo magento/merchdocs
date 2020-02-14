@@ -8,47 +8,51 @@ Product listings can be set to appear by default as either a list or grid. You c
 ![]({% link images/images/storefront-catalog-page.png %}){: .zoom}
 _Products Displayed as a Grid_
 
-## To configure product listings
+## Configure product listings
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the panel on the left under **Catalog**, choose **Catalog**.
+1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Storefront** section, and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Storefront** section.
 
    ![]({% link images/images/config-catalog-catalog-storefront.png %}){: .zoom}
    [_Storefront_]({% link configuration/catalog/catalog.md %})
 
-   * Set the default **List Mode** to one of the following:
+1. Set the default **List Mode** to one of the following:
 
-      * Grid Only
-      * List Only
-      * Grid (default) / List
-      * List (default / Grid
+    - `Grid Only`
+    - `List Only`
+    - `Grid (default) / List`
+    - `List (default / Grid`
 
-   * In the **Products per Page on Grid Allowed Values** field, enter the number of products that you want to appear per page when shown in grid format. To enter a selection of values, separate each number by a comma.
+1. In the **Products per Page on Grid Allowed Values** field, enter the number of products that you want to appear per page when shown in grid format.
 
-   * In the **Products per Page on Grid Default Value** field, enter the default number of products to appear in the grid per page.
+   To enter a selection of values, separate each number by a comma.
 
-   * In the **Products per Page on List Allowed Values** field, enter the number of products that you want to appear per page when shown in list format. To enter a selection of values, separate each number by a comma.
+1. In the **Products per Page on Grid Default Value** field, enter the default number of products to appear in the grid per page.
 
-   * In the **Products per page on List Default Value** field, enter the default number of products that appear in the list, per page.
+1. In the **Products per Page on List Allowed Values** field, enter the number of products that you want to appear per page when shown in list format.
 
-   * To give customers the option to list all products, set **Allow All Products on Page** to `Yes`.
+   To enter a selection of values, separate each number by a comma.
 
-   * Set **Product Listing Sorted** by to the default attribute that is initially used to sort the list.
+1. In the **Products per page on List Default Value** field, enter the default number of products that appear in the list, per page.
 
-1. If using a [flat catalog]({% link catalog/catalog-flat.md %}) (not recommended), do the following:
+1. To give customers the option to list all products, set **Allow All Products on Page** to `Yes`.
 
-   * To display a flat category listing of products, set **Use Flat Catalog Category** to `Yes`.
+1. Set **Product Listing Sorted** by to the default attribute that is initially used to sort the list.
 
-   * To display a flat product listing, set **Use Flat Catalog Product** to `Yes`.
+1. If using a [flat catalog]({% link catalog/catalog-flat.md %}) (**not recommended**), do the following:
+
+   - To display a flat category listing of products, set **Use Flat Catalog Category** to `Yes`.
+
+   - To display a flat product listing, set **Use Flat Catalog Product** to `Yes`.
 
 1. If you want to allow dynamic references for media assets in category and product URLs, set **Allow Dynamic Media URLs in Products and Categories** to `Yes`.
 
-1. When complete, click <span class="btn"> Save Config </span>.
+1. When complete, click <span class="btn">Save Config</span>.
 
-## Page Controls
+## Page controls
 
 |Control|Description|
 |--- |--- |
@@ -56,4 +60,3 @@ _Products Displayed as a Grid_
 |Sort By|Changes the sort order of the list.|
 |Show Per Page|Determines how many products appear per page.|
 |Pagination Links|Navigation links to other pages.|
-{:style="table-layout:auto"}

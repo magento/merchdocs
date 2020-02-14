@@ -9,4 +9,4 @@ If you are just starting out, you can create a few sample products to experiment
 After you learn the basics, the most efficient way to add a large number of products to the catalog is to [import]({% link system/data-import.md %}) them from a CSV file.
 
 ![]({% link images/images/storefront-product-page.png %}){: .zoom}
-*Product Catalog*
+_Product Catalog_

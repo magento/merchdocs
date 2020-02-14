@@ -8,4 +8,4 @@ redirect_from:
 The Autosettings section includes any attributes that are dependencies for other operations. You can apply the default [RMA configuration]({% link sales/rma-configure.md %}) setting to the product, or override it, as needed.
 
 ![]({% link images/images-ee/product-autosettings.png %}){: .zoom}
-*Autosettings*
+_Autosettings_

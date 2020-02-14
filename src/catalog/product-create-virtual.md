@@ -7,28 +7,29 @@ Virtual products — or digital goods — represent non-tangible items such as m
 - [Grouped Product]({% link catalog/product-create-grouped.md %})
 - [Bundle Product]({% link catalog/product-create-bundle.md %})
 
-Aside from the absence of the Weight field, the process of creating a virtual product and a simple product is the same. The following instructions take you through the process of creating a virtual product using a [product template]({% link stores/attribute-sets.md %}) , required fields, and basic settings. When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}) as needed.
+Aside from the absence of the Weight field, the process of creating a virtual product and a simple product is the same. The following instructions take you through the process of creating a virtual product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}) as needed.
 
 {:.bs-callout-info}
-PayPal has deprecated support for the sale of digital goods through PayPal Express Checkout, and recommends that you use either [PayPal Payments Standard]({% link payment/paypal-payments-standard.md %}) or any other PayPal payment gateway to process any order that includes virtual products.
+PayPal has deprecated support for the sale of digital goods through PayPal Express Checkout and recommends that you use either [PayPal Payments Standard]({% link payment/paypal-payments-standard.md %}) or any other PayPal payment gateway to process any order that includes virtual products.
 
 ![]({% link images/images/product-virtual-membership.png %}){: .zoom}
 _Virtual Product_
 
-## Step 1: Choose the Product Type
+## Step 1: Choose the product type
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. In the upper-right corner on the **Add Product** ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu, choose **Virtual Product**.
+1. On the **Add Product** ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the top-right corner, choose **Virtual Product**.
 
     ![]({% link images/images/21product-add-virtual.png %}){: .zoom}
     _Add Virtual Product_
 
-## Step 2: Choose the Attribute Set
+## Step 2: Choose the attribute set
 
 To choose the [attribute set]({% link stores/attribute-sets.md %}) that is used as a template for the product, do one of the following:
 
 - In the **Search** box, enter the name of the attribute set.
+
 - In the list, choose the attribute set that you want to use.
 
 The form is updated to reflect the change.
@@ -36,43 +37,44 @@ The form is updated to reflect the change.
 ![]({% link images/images/product-create-choose-attribute-set.png %}){: .zoom}
 _Choose Attribute Set_
 
-## Step 3: Complete the Required Settings
+## Step 3: Complete the required settings
 
 1. Enter the product **Product Name**.
 
-1. Accept the default **SKU** that is based on the product name, or enter another.
+1. Accept the default **SKU** that is based on the product name or enter another.
 
 1. Enter the product **Price**.
 
-1. Because the product is not yet ready to publish, set **Enable Product** to `No` ( ![]({% link images/images/btn-switch-no.png %}){: .Inline} ).
+1. Because the product is not yet ready to publish, set **Enable Product** to `No` ( ![]({% link images/images/btn-switch-no.png %}) ).
 
 1. Click <span class="btn"> Save </span> and continue.
 
-    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the upper-left corner.
+    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the top-left corner.
 
 1. Choose the **Store View** where the product is to be available.
 
     ![]({% link images/images/product-create-store-view-choose.png %}){: .zoom}
     _Choose Store View_
 
-## Step 4: Complete the Basic Settings
+## Step 4: Complete the basic settings
 
 1. Set **Tax Class** to one of the following:
 
-    - None
-    - Taxable Goods
+    - `None`
+    - `Taxable Goods`
 
-1. Enter the **Quantity** of the product that is currently in stock. Then, do the following:
+1. Enter the **Quantity** of the product that is currently in stock and do the following:
 
     - Accept the default **Stock Status** setting, `In Stock`.
 
-    Note that the **Weight** field is not used, because a virtual product is not shipped.
+      Note that the **Weight** field is not used, because a virtual product is not shipped.
 
     - Accept the default **Visibility** setting, `Catalog, Search`.
 
-    {% include inventory-assign-sources-quantities.md %}
+    {:.bs-callout-info}
+    **Inventory Management:** If you enable [Inventory Management]({% link catalog/inventory-management.md %}), Single Source merchants set the quantity in this section. Multi Source merchants add sources and quantities in the Sources section. See the following "Assign Sources and Quantities (Inventory Management)" section.
 
-1. To assign **Categories** to the product, click the **Select…** box. Then, do either of the following:
+1. To assign **Categories** to the product, click the **Select…** box and do either of the following:
 
     **Choose an existing category:**
 
@@ -88,9 +90,11 @@ _Choose Attribute Set_
 
     - Click <span class="btn">Create Category</span>.
 
-    There might be additional individual attributes that describe the product. The selection varies attribute set, and you can complete them later.
+    There might be additional individual attributes that describe the product. The selection varies by attribute set and you can complete them later.
 
-## Step 5: Complete the Product Information
+{% include inventory-assign-sources-quantities.md %}
+
+## Step 5: Complete the product information
 
 Complete the information in the following sections as needed:
 
@@ -103,29 +107,31 @@ Complete the information in the following sections as needed:
 - [Design]({% link catalog/settings-advanced-design.md %})
 - [Gift Options]({% link catalog/product-gift-options.md %})
 
-## Step 6: Publish the Product
+## Step 6: Publish the product
 
-1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` ( ![]({% link images/images/btn-switch-yes.png %}){: .Inline} ).
+1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` ( ![]({% link images/images/btn-switch-yes.png %}) ).
 
 1. Do one of the following:
 
     **Method 1: Save and Preview**
 
-    1. In the upper-right corner, click <span class="btn">Save</span>.
+    1. At the top-right corner, click <span class="btn">Save</span>.
 
-    1. To view the product in your store, choose **Customer View** on the **Admin** ( ![]({% link images/images/btn-dropdown-blk.png %}){: .Inline} ) menu. The store opens in a new browser tab.
+    1. To view the product in your store, choose **Customer View** on the **Admin** ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
+
+      The store opens in a new browser tab.
 
     ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
     _Customer View_
 
     **Method 2: Save and Close**
 
-    On the **Save** (![]({% link images/images/btn-dropdown.png %}){: .Inline} ) menu, choose **Save & Close**.
+    On the **Save** (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
 
     ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
     _Save & Close_
 
-## Things to Remember
+## Things to remember
 
 - Virtual products are used for non-tangible products such as services, subscriptions, and warranties.
 

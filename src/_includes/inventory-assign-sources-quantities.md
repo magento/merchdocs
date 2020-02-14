@@ -3,26 +3,25 @@
 
 For Multi Source merchants using Inventory Management, scroll down to the Sources section and assign sources and quantities:
 
-1. To add a source, click **Assign Sources**. The Assign Sources page displays.
+1. To add a source, click **Assign Sources**.
 
-1. Browse or search for a source you want to add. Select the checkbox next to the source(s) you want to add for the product.
+1. In the _Assign Sources_ page, browse or search for a source you want to add for the product and select the checkbox next to each source.
 
     ![]({% link images/images/inventory/inventory-product-assign-sources.png %}){: .zoom}
-    *Assign sources to the product*
+    _Assign sources to the product_
 
 1. Click **Done** to add the sources.
 
 1. To change settings and quantities per assigned source, do the following:
 
-    * Set **Source Item Status** to In Stock.
+    - Set **Source Item Status** to `In Stock`.
 
-    * Enter an amount update the **Qty** for on-hand stock.
+    - Enter an amount update the **Qty** for on-hand stock.
 
-    * To set a notification for inventory quantities, do one of the following:
+    - To set a notification for inventory quantities, do one of the following:
 
-    | Custom Notify Quantity | Clear the **Notify Quantity Use Default** checkbox and enter an amount in **Notify Quantity**. |
-    | Default Notify Quantity | Select the **Notify Quantity Use Default** checkbox. Magento checks and uses the setting in Advanced Inventory or global Store configuration. |
-    {:style="table-layout:auto"}
+      | Custom Notify Quantity | Clear the **Use Default** checkbox and enter an amount in **Notify Quantity**. |
+      | Default Notify Quantity | Select the **Use Default** checkbox. Magento checks and uses the setting in Advanced Inventory or global Store configuration. |
 
     ![]({% link images/images/inventory/inventory-product-quantities.png %}){: .zoom}
-    *Update Product Quantities per Source*
+    _Update Product Quantities per Source_

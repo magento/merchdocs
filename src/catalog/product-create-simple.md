@@ -9,20 +9,21 @@ The following instructions take you through the process of creating a simple pro
 ![]({% link images/images/product-simple.png %}){: .zoom}
 _Simple Product_
 
-## Step 1: Choose the Product Type
+## Step 1: Choose the product type
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. In the upper-right corner on the **Add Product** ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu, choose **Simple Product**.
+1. On the **Add Product** ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the top-right, choose **Simple Product**.
 
     ![]({% link images/images/product-add-simple.png %}){: .zoom}
     _Add Simple Product_
 
-## Step 2: Choose the Attribute Set
+## Step 2: Choose the attribute set
 
 To choose the [attribute set]({% link stores/attribute-sets.md %}) that is used as a template for the product, do one of the following:
 
 - In the **Search** box, enter the name of the attribute set.
+
 - In the list, choose the attribute set that you want to use.
 
 The form is updated to reflect the change.
@@ -30,7 +31,7 @@ The form is updated to reflect the change.
 ![]({% link images/images/product-create-choose-attribute-set.png %}){: .zoom}
 _Choose Attribute Set_
 
-## Step 3: Complete the Required Settings
+## Step 3: Complete the required settings
 
 1. Enter the product **Product Name**.
 
@@ -38,37 +39,36 @@ _Choose Attribute Set_
 
 1. Enter the product **Price**.
 
-1. Because the product is not yet ready to publish, set the **Enable Product** option to `No` ![]({% link images/images/btn-switch-no.png %}){: .Inline}.
+1. Because the product is not yet ready to publish, set the **Enable Product** option to `No` ![]({% link images/images/btn-switch-no.png %}).
 
 1. Click <span class="btn">Save</span> and continue.
 
-    When the product is saved, the [Store View]({% link catalog/product-scope.md %})
-    chooser appears in the upper-left corner.
+    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the top-left corner.
 
 1. Choose the **Store View** where the product is to be available.
 
     ![]({% link images/images/product-create-store-view-choose.png %}){: .zoom}
     _Choose Store View_
 
-## Step 4: Complete the Basic Settings
+## Step 4: Complete the basic settings
 
 1. Set **Tax Class** to one of the following:
 
-    - None
-    - Taxable Goods
+    - `None`
+    - `Taxable Goods`
 
 1. Enter the **Quantity** of the product that is currently in stock.
 
     Take note that by default, **Stock Status** is set to `In Stock`.
 
     {:.bs-callout-info}
-    **Inventory Management:** If you enable [Inventory Management]({% link catalog/inventory-management.md %}), Single Source merchants set the quantity in this section. Multi Source merchants add sources and quantities in the Sources section. See the following Assign Sources and Quantities (Inventory Management) section.
+    **Inventory Management:** If you enable [Inventory Management]({% link catalog/inventory-management.md %}), Single Source merchants set the quantity in this section. Multi Source merchants add sources and quantities in the Sources section. See the following "Assign Sources and Quantities (Inventory Management)" section.
 
 1. Enter the **Weight** of the product.
 
 1. Accept the default **Visibility** setting, `Catalog, Search`.
 
-1. To assign **Categories** to the product, click the **Select…** box. Then, do either of the following:
+1. To assign **Categories** to the product, click the **Select…** box and do either of the following:
 
     **Choose an existing category:**
 
@@ -92,9 +92,10 @@ _Choose Attribute Set_
     _Product Details_
 
 There might be additional individual attributes that describe the product. The selection varies attribute set, and you can complete them later.
+
 {% include inventory-assign-sources-quantities.md %}
 
-## Step 5: Complete the Product Information
+## Step 5: Complete the product information
 
 Scroll down and complete the information in the following sections as needed:
 
@@ -107,9 +108,9 @@ Scroll down and complete the information in the following sections as needed:
 - [Design]({% link catalog/settings-advanced-design.md %})
 - [Gift Options]({% link catalog/product-gift-options.md %})
 
-## Step 6: Publish the Product
+## Step 6: Publish the product
 
-1. If you are ready to publish the product in the catalog, set the **Enable Product** switch to `Yes` ![]({% link images/images/btn-switch-yes.png %}){: .Inline}.
+1. If you are ready to publish the product in the catalog, set the **Enable Product** switch to `Yes` ![]({% link images/images/btn-switch-yes.png %}).
 
 1. Do one of the following:
 
@@ -117,7 +118,9 @@ Scroll down and complete the information in the following sections as needed:
 
     1. In the upper-right corner, click <span class="btn">Save</span>.
 
-    1. To view the product in your store, choose **Customer View** on the **Admin** (![]({% link images/images/btn-dropdown-blk.png %}){: .Inline}) menu. The store opens in a new browser tab.
+    1. To view the product in your store, choose **Customer View** on the **Admin** (![]({% link images/images/btn-dropdown-blk.png %})) menu.
+
+      The store opens in a new browser tab.
 
     ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
     _Customer View_
@@ -129,7 +132,7 @@ Scroll down and complete the information in the following sections as needed:
     ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
     _Save & Close_
 
-## Things to Remember
+## Things to remember
 
 - Simple products can be included in configurable, bundle, and grouped product types.
 
