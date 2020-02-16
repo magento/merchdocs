@@ -85,7 +85,7 @@ If you intend to upload large images for viewing on the Product Details page, yo
          <tr>
             <td>Thumbnail</td>
             <td>Thumbnail images appear in the thumbnail gallery, shopping cart, and in some blocks such as Related Items.
-								Example size: 50 x 50 pixels </td>
+                                Example size: 50 x 50 pixels </td>
          </tr>
          <tr>
             <td>Small Image</td>
@@ -95,15 +95,15 @@ If you intend to upload large images for viewing on the Product Details page, yo
             <td>Base Image</td>
             <td>The base image is the main image on the product detail page. Image zoom is activated if you upload an image that is larger image than the image container. Depending on the level of zoom that you want to achieve, the base image should be two or three times the size of the container. Example sizes:
             <br />470 x 470 pixels (without Zoom)<br />1100 x 1100 pixels (with Zoom)
-								</td>
+         </td>
          </tr>
          <tr>
             <td>
                <a href="{% link catalog/swatches.md %}">Swatch</a>
             </td>
             <td>A swatch can be used to illustrate the color, pattern, or texture.  Example size:
-									50 x 50 pixels
-								</td>
+                                    50 x 50 pixels
+            </td>
          </tr>
       </tbody>
    </table>

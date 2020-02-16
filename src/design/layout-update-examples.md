@@ -11,12 +11,12 @@ The following blocks types can be manipulated with custom layout instructions. E
 ?
 <!-- Action can be specified inside either a <block>
 or <reference> instruction. -->
-	<action method="someActionName">
- 		<arg1>Value 1</arg1>
-		<arg2>Value 2</arg2>
-		<!--   -->
-		 <argN>Value N</argN>
-	</action>
+    <action method="someActionName">
+        <arg1>Value 1</arg1>
+        <arg2>Value 2</arg2>
+        <!--   -->
+         <argN>Value N</argN>
+    </action>
 <!--   -->
 ```
 

@@ -405,7 +405,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
    1. Set **Layout** to one of the following:
 
        |`Vertical` |(Default) Displays PayPal Smart Buttons vertically. <br/>The buyer must either log in to PayPal or create a PayPal account regardless of whether **Enable Guest Checkout** is selected.|
-       |`Horizontal` |Displays PayPal Smart Buttons horizontally.	<br/>When **Enable Guest Checkout** is selected, the **Pay with Debit Card or Credit Card** button displays on the PayPal pop-up window. Otherwise, the buyer must either log in to PayPal or create a PayPal account.|
+       |`Horizontal` |Displays PayPal Smart Buttons horizontally. <br/>When **Enable Guest Checkout** is selected, the **Pay with Debit Card or Credit Card** button displays on the PayPal pop-up window. Otherwise, the buyer must either log in to PayPal or create a PayPal account.|
 
    1. Set **Size** to one of the following:
 

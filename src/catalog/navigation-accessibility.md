@@ -8,7 +8,7 @@ For more information about Accessibility, see [Accessibility Guidelines][2].
 
 <table>
       <col WIDTH="150">
-	   <col WIDTH="auto">
+      <col WIDTH="auto">
       <thead>
          <tr>
             <th>ENVIRONMENT</th>
@@ -56,7 +56,7 @@ For more information about Accessibility, see [Accessibility Guidelines][2].
             <td>
                <table>
                   <col WIDTH="150">
-	               <col WIDTH="auto">
+                  <col WIDTH="auto">
                   <tbody>
                      <tr>
                         <td>Next Page</td>
@@ -91,7 +91,7 @@ For more information about Accessibility, see [Accessibility Guidelines][2].
             <td>
                <table>
                   <col WIDTH="150">
-	               <col WIDTH="auto">
+                  <col WIDTH="auto">
                   <tbody>
                      <tr>
                         <td>Button - choose</td>
