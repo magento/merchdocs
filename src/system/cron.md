@@ -32,13 +32,13 @@ Make sure that the [base URLs]({% link stores/store-urls.md %}) for the store ar
 
    The settings are the same in each section.
 
-    - Generate Schedules Every
-    - Schedule Ahead for
-    - Missed if not Run Within
-    - History Cleanup Every
-    - Success History Lifetime
-    - Failure History Lifetime
-    _ Use Separate Process
+    - **Generate Schedules Every** - Magento will schedule future cron jobs every N minutes. Schedules are stored in the database.
+    - **Schedule Ahead for** - How far in advance cron jobs will be scheduled (in minutes). E.g. if this setting is set to 10, then when cron runs Magento will schedule cron jobs for the next 10 minutes.
+    - **Missed if not Run Within** - If the cron job wasn't run in N minutes after its scheduled time, it receives 'missed' status (which means it's too late for it to be executed). 
+    - **History Cleanup Every** - Every N minutes Magento will try to clean up the history of ended tasks from the database.
+    - **Success History Lifetime** - History of cron jobs that were finished successfully ('success' status) will be kept in the database for N minutes. 
+    - **Failure History Lifetime** - History of cron jobs that were finished with an error ('error' status) will be kept in the database for N minutes.
+    - **Use Separate Process** - If set to 'Yes', all cron jobs from the group will be run in a separate system process. Otherwise one process will handle all group’s jobs.
 
     ![Advanced configuration - cron group index]({% link images/images/config-advanced-system-cron-group-index.png %}){: .zoom}
     _Cron Group Index_
