@@ -18,7 +18,7 @@ With PayPal Payments Standard, you can swipe credit cards on mobile devices. The
 
 ## Merchant Requirements
 
-* [PayPal Business Account][1]
+- [PayPal Business Account][1]
 
 ## Checkout Workflow
 
@@ -38,9 +38,9 @@ This setup method assumes you have an existing PayPal account.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1.  In the left panel,  expand **Sales** and choose **Payment Methods**.
+1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-   - If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view for which this configuration applies.
+1. If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view for which this configuration applies.
 
 1. In the **Merchant Location** section, select the **Merchant Country** where your business is located.
 
@@ -200,7 +200,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
    ![Advanced Settings]({% link images/images/config-sales-payment-methods-paypal-payment-standard-advanced.png %}){: .zoom}
    _Advanced Settings - PayPal Website Payments Standard_
 
-Complete the following sections, as needed for your store:
+1. Complete the following sections, as needed for your store:
 
    - PayPal Billing Agreement Settings
    - Settlement Report Settings
@@ -320,7 +320,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
      ![Frontend Experience Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings1.png %}){: .zoom}
      _Frontend Experience Settings - PayPal Payments Standard_
 
-When complete, click <span class="btn">Save Config</span>.
+1. When complete, click <span class="btn">Save Config</span>.
 
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
 [2]: https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm

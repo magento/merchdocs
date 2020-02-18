@@ -19,7 +19,7 @@ _Block with Map on “About Us” Page_
 
 1. Hover over the empty block container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox and do the following:
 
-    * Click <span class="btn">Select Block</span>.
+    - Click <span class="btn">Select Block</span>.
 
         ![]({% link images/images-ee/page-builder-add-content-block-select.png %}){: .zoom}
         _Select Block_
