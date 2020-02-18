@@ -15,7 +15,7 @@ _Shipping, Pre-packaged_
 ![]({% link images/images/product-shipping-assigned.png %}){: .zoom}
 _Shipping, Assigned_
 
-|Field|Scope|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |---|---|
 |Country of Origin|Global|Used by Magento Shipping for International Shipments. Defines the country from which the item ships.|
 |HS Code|Global|Used by Magento Shipping for International Shipments. The Harmonized System is an international nomenclature for the classification of products. It allows participating countries to classify traded goods on a common basis for customs purposes. At the international level, the [Harmonized System (HS)](https://unstats.un.org/unsd/tradekb/Knowledgebase/50018/Harmonized-Commodity-Description-and-Coding-Systems-HS) for classifying goods is a six-digit code system.|

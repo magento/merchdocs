@@ -4,9 +4,9 @@ title: Other Product Settings
 
 The remaining product settings are located at the bottom of the page. Some settings are available for all products, and others are available for specific product types. Additional settings might appear when the product is saved for the first time.
 
-## Expand or Collapse Each Section:
+## Expand or collapse each section
 
-Click the section. The button indicates if it is currently expanded ![]({% link images/images/btn-expand.png %}){: .Inline}or collapsed ![]({% link images/images/btn-collapse.png %}){: .Inline}.
+Click the section. The button indicates if it is currently expanded ![]({% link images/images/btn-expand.png %}) or collapsed ![]({% link images/images/btn-collapse.png %}).
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/product-settings-other.png %}){: .zoom}
@@ -17,7 +17,7 @@ _Other Settings_
 _Other Settings_
 <!--{% endif %}-->
 
-### General Settings
+## General settings
 
 |Section|Description|
 |--- |--- |
@@ -31,7 +31,7 @@ _Other Settings_
 |[Scheduled Design Update]({% link catalog/product-scheduled-design-update.md %})|Gives you the ability to apply a different theme to the product page, change the column layout, determine where product options appear, and enter custom XML code|<!--{% endif %}-->
 |[Gift Options]({% link catalog/product-gift-options.md %})|Gift Options can be set at the product level to allow a gift message to be added to the product during checkout.|
 
-### Product-Specific Settings
+## Product-specific settings
 
 | Section | Description |
 |----------
@@ -39,6 +39,5 @@ _Other Settings_
 | [Customizable Options]({% link catalog/settings-advanced-custom-options.md %}) | Customizable options are based on variations of a single SKU, and can be a good solution if your inventory needs are simple. |
 |[Shipping]({% link catalog/product-shipping.md %})|Product and packaging settings used for [Magento Shipping]({% link shipping/magento-shipping.md %}) fulfillment. Includes Country of Origin, HS Code, and Packaging Type settings. |
 | [Downloadable Information]({% link catalog/product-downloadable-information.md %}) | The Downloadable Information section is used to generate the links to downloadable products and samples. |
-| [Grouped Products]({% link catalog/product-grouped-products.md %}) | The Grouped Products section is used to add items to a Grouped product type, and also to edit the current selection of items. |
-| [Bundle Items]({% link catalog/product-bundle-items.md %}) | The Bundle Items section is used to add items to a Bundle product type, and also to edit the current selection of items. |
- {:style="table-layout:auto"}
+| [Grouped Products]({% link catalog/product-grouped-products.md %}) | The Grouped Products section is used to add items to a Grouped product type and to edit the current selection of items. |
+| [Bundle Items]({% link catalog/product-bundle-items.md %}) | The Bundle Items section is used to add items to a Bundle product type and to edit the current selection of items. |
