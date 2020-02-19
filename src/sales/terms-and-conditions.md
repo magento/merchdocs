@@ -44,22 +44,22 @@ _Terms and Conditions at Checkout_
     ![]({% link images/images/terms-conditions-new.png %}){: .zoom}
     _New Condition_
 
-   - Enter the **Condition Name** for internal reference.
+    - Enter the **Condition Name** for internal reference.
 
-   - Set **Status** to `Enabled`.
+    - Set **Status** to `Enabled`.
 
-   - Set **Show Content as** to one of the following:
+    - Set **Show Content as** to one of the following:
 
-      - **Text** – Displays the terms and conditions content as unformatted text.
-      - **HTML** – Displays the content as HTML which can be formatted.
+        |`Text`|Displays the terms and conditions content as unformatted text.|
+        |`HTML`|Displays the content as HTML which can be formatted.|
 
-   - Select each **Store View** where the Terms and Conditions is to be used.
+    - Select each **Store View** where the Terms and Conditions is to be used.
 
-   - Enter the **Checkbox Text** to be used as the text for the Terms and Conditions link. For example, `I understand and accept the terms and conditions of the sale`.
+    - Enter the **Checkbox Text** to be used as the text for the Terms and Conditions link. For example, `I understand and accept the terms and conditions of the sale`.
 
-   - In the **Content** box, enter the full text of the terms and conditions of the sale.
+    - In the **Content** box, enter the full text of the terms and conditions of the sale.
 
-   - (Optional) Enter the **Content Height (css)** in pixels to determine the height of the text box where the terms and conditions statement appears during checkout.
+    - (Optional) Enter the **Content Height (css)** in pixels to determine the height of the text box where the terms and conditions statement appears during checkout.
 
         For example, to make the text box one inch high on a 96 dpi display, enter `96`. A scroll bar appears if the content extends beyond the height of the box.
 
