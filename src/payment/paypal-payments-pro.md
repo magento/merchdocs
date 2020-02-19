@@ -18,7 +18,7 @@ You can have two PayPal solutions active at the same time: PayPal Express Checko
 
 ## Requirements
 
-* [PayPal Merchant Account][1] (with Direct Payments Activated)
+- [PayPal Merchant Account][1] (with Direct Payments Activated)
 
 ## Checkout Workflow
 {: .ReferenceH4}
@@ -106,7 +106,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. In the left panel, expand  **Sales** and choose **Payment Methods**.
 
-   - If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view for which this configuration applies.
+1. If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view for which this configuration applies.
 
 1. In the **Merchant Location** section, select the **Merchant Country** where your business is located.
 
@@ -381,7 +381,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
    ![Express Checkout Advanced Settings]({% link images/images/config-sales-payment-methods-paypal-payments-pro-express-checkout-advanced-settings.png %}){: .zoom}
    _Advanced Settings - PayPal Express Checkout_
 
-When complete, click <span class="btn">Save Config</span>.
+1. When complete, click <span class="btn">Save Config</span>.
 
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
 [2]: https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm
