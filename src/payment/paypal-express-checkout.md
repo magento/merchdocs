@@ -42,23 +42,23 @@ You can have two PayPal solutions active at the same time: Express Checkout, plu
 
 1. Before you begin, you must configure your PayPal merchant account on the PayPal website.
 
-   - Log in to your PayPal Advanced account at [manager.paypal.com][3].
+    - Log in to your PayPal Advanced account at [manager.paypal.com][3].
 
-   - Go to **Service Settings** > **Hosted Checkout Pages** > **Set Up**, and make the following settings:
+    - Go to **Service Settings** > **Hosted Checkout Pages** > **Set Up**, and make the following settings:
 
-     |**AVS**|`No` |
-     |**CSC**|`No` |
-     |**Enable Secure Token**|`Yes` |
+      |**AVS**|`No` |
+      |**CSC**|`No` |
+      |**Enable Secure Token**|`Yes` |
 
-   - **Save** the settings.
+    - **Save** the settings.
 
 1. PayPal recommends that you set up an additional user on your account. To set up an additional user, do the following:
 
-   - Go to [manager.paypal.com][3] and log in to your account.
+    - Go to [manager.paypal.com][3] and log in to your account.
 
-   - Follow the instructions to set up an additional user.
+    - Follow the instructions to set up an additional user.
 
-   - **Save** the changes.
+    - **Save** the changes.
 
 ### Step 2: Begin Magento Configuration
 
@@ -66,7 +66,7 @@ You can have two PayPal solutions active at the same time: Express Checkout, plu
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-   - If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view for which this configuration applies.
+    - If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view for which this configuration applies.
 
 1. In the **Merchant Location** section, select the **Merchant Country** where your business is located.
 
@@ -96,14 +96,14 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. Set **API Authentication Methods** to one of the following:
 
-   - `API Signature`
-   - `API Certificate`
+    - `API Signature`
+    - `API Certificate`
 
    If necessary, click <span class="btn">Get Credentials from PayPal</span>. Then, complete the following:
 
-     - API Username
-     - API Password
-     - API Signature
+    - API Username
+    - API Password
+    - API Signature
 
 1. If you are using credentials from your sandbox account, set **Sandbox Mode** to `Yes`.
 
@@ -120,9 +120,9 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. To enable [PayPal In-Context Checkout]({% link payment/paypal-in-context-checkout.md %}), do the following:
 
-   - Set **Enable In-Context Checkout Experience** to `Yes`.
+    - Set **Enable In-Context Checkout Experience** to `Yes`.
 
-   - Enter your PayPal **Merchant Account ID**.
+    - Enter your PayPal **Merchant Account ID**.
 
      Your Merchant Account ID is in your PayPal [business account]({% link payment/paypal-business-account.md %}) profile.
 
@@ -151,26 +151,26 @@ You have completed the Required PayPal Settings. You can continue with the Basic
 
 1. Set **Position** to one of the following:
 
-   - `Header (center)`
-   - `Sidebar (right)`
+    - `Header (center)`
+    - `Sidebar (right)`
 
 1. Set **Size** to one of the following:
 
-   - `190 x 100`
-   - `234 x 60`
-   - `300 x 50`
-   - `468 x 60`
-   - `728 x 90`
-   - `800 x 66`
+    - `190 x 100`
+    - `234 x 60`
+    - `300 x 50`
+    - `468 x 60`
+    - `728 x 90`
+    - `800 x 66`
 
    ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
    _Advertise PayPal Credit - Home Page Settings_
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the remaining sections and repeat the previous steps:
 
-   - Catalog Category Page
-   - Catalog Product Page
-   - Checkout Cart Page
+    - Catalog Category Page
+    - Catalog Product Page
+    - Checkout Cart Page
 
 ### Step 5: Complete the Basic Settings - PayPal Express Checkout
 
@@ -248,13 +248,13 @@ You have completed the Required PayPal Settings. You can continue with the Basic
     ![Advanced Settings]({% link images/images/config-sales-payment-methods-paypal-express-checkout-advanced-settings.png %}){: .zoom}
     _Advanced Settings - PayPal Express Checkout_
 
-Complete the additional sections, as needed for your store:
+1. Complete the additional sections, as needed for your store:
 
-   - PayPall Billing Agreement Settings
-   - Settlement Report Settings
-   - Frontend Experience Settings
-   - Customize Smart Buttons
-   - Features
+    - PayPall Billing Agreement Settings
+    - Settlement Report Settings
+    - Frontend Experience Settings
+    - Customize Smart Buttons
+    - Features
 
 #### PayPal Billing Agreement Settings
 
@@ -298,38 +298,38 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 
 1. For **SFTP Credentials**, do the following:
 
-   - If you have signed up for PayPal’s Secure FTP Server, enter the following SFTP login credentials:
+    - If you have signed up for PayPal’s Secure FTP Server, enter the following SFTP login credentials:
 
-     - Login
-     - Password
+      - Login
+      - Password
 
-   - To run test reports before “going live” with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
+    - To run test reports before “going live” with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
 
-   - Enter the **Custom Endpoint Hostname or IP Address**.
+    - Enter the **Custom Endpoint Hostname or IP Address**.
 
      By default, the value is: `reports.paypal.com`
 
-   - Enter the **Custom Path** where reports are saved.
+    - Enter the **Custom Path** where reports are saved.
 
      By default, the value is: `/ppreports/outgoing`
 
 1. To generate reports according to a schedule, complete the **Scheduled Fetching** settings:
 
-   - Set **Enable Automatic Fetching** to `Yes`.
+    - Set **Enable Automatic Fetching** to `Yes`.
 
-   - Set **Schedule** to one of the following:
+    - Set **Schedule** to one of the following:
 
-     - `Daily`
-     - `Every 3 Days`
-     - `Every 7 Days`
-     - `Every 10 Days`
-     - `Every 14 Days`
-     - `Every 30 Days`
-     - `Every 40 Days`
+      - `Daily`
+      - `Every 3 Days`
+      - `Every 7 Days`
+      - `Every 10 Days`
+      - `Every 14 Days`
+      - `Every 30 Days`
+      - `Every 40 Days`
 
-     PayPal retains each report for 45 days.
+      PayPal retains each report for 45 days.
 
-   - Set **Time of Day** to the hour, minute, and second when you want the reports to be generated.
+    - Set **Time of Day** to the hour, minute, and second when you want the reports to be generated.
 
      ![Settlement Report Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
      _Settlement Report Settings - PayPal Express Checkout_
@@ -342,110 +342,108 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
 1. Select the **PayPal Product Logo** that you want to appear in the PayPal block in your store. The PayPal logos are available in four styles and two sizes. Options include:
 
-   - No Logo
-   - We Prefer PayPal (150 x 60 or 150 x 40)
-   - Now Accepting PayPal (150 x 60 or 150 x 40)
-   - Payments by PayPal (150 x 60 or 150 x 40)
-   - Shop Now Using PayPal (150 x 60 or 150 x 40)
+    - No Logo
+    - We Prefer PayPal (150 x 60 or 150 x 40)
+    - Now Accepting PayPal (150 x 60 or 150 x 40)
+    - Payments by PayPal (150 x 60 or 150 x 40)
+    - Shop Now Using PayPal (150 x 60 or 150 x 40)
 
 1. To customize the appearance of your PayPal merchant pages, do the following:
 
-   - Enter the name of the **Page Style** that you want to apply to your PayPal merchant pages. Options include:
+    - Enter the name of the **Page Style** that you want to apply to your PayPal merchant pages. Options include:
 
-     |**paypal** |Uses the PayPal page style.|
-     |**primary** |Uses the page style that you identified as the “primary” style in your account profile.|
-     |**your_custom_value** |Uses a custom payment page style, which is specified in your account profile.|
+      |**paypal** |Uses the PayPal page style.|
+      |**primary** |Uses the page style that you identified as the “primary” style in your account profile.|
+      |**your_custom_value** |Uses a custom payment page style, which is specified in your account profile.|
 
-   - For **Header Image URL**, enter the URL of the image that you want to appear in the upper-left corner of the payment page. The maximum file size is 750 pixels wide by 90 pixels high.
+    - For **Header Image URL**, enter the URL of the image that you want to appear in the upper-left corner of the payment page. The maximum file size is 750 pixels wide by 90 pixels high.
 
-     {:.bs-callout-info}
-     PayPal recommends that the image be located on a secure (https) server. Otherwise, the customer’s browser may warn that “the page contains both secure and nonsecure items.”
+      {:.bs-callout-info}
+      PayPal recommends that the image be located on a secure (https) server. Otherwise, the customer’s browser may warn that “the page contains both secure and nonsecure items.”
 
-   - To set the color for your pages, enter the six-character hexadecimal code, without the “#” symbol, for each of the following:
+    - To set the color for your pages, enter the six-character hexadecimal code, without the “#” symbol, for each of the following:
 
-     |**Header Background Color** |Background color for the checkout page header.|
-     |**Header Border Color** |2-pixel border around the header. |
-     |**Page Background Color** |Background color for the checkout page and around the header and payment form.|
+      |**Header Background Color** |Background color for the checkout page header.|
+      |**Header Border Color** |2-pixel border around the header. |
+      |**Page Background Color** |Background color for the checkout page and around the header and payment form.|
 
-     ![Frontend Experience Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings1.png %}){: .zoom}
-     _Frontend Experience Settings - PayPal Express Checkout_
+      ![Frontend Experience Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings1.png %}){: .zoom}
+      _Frontend Experience Settings - PayPal Express Checkout_
 
 #### Customize Smart Buttons
 
-1. Complete the **Customize Smart Buttons** sections, as needed for your store.
+Complete the **Customize Smart Buttons** sections, as needed for your store.
 
-   PayPal's Express Checkout Smart Payment Buttons feature allows you to customize the PayPal button, which can be displayed on the Checkout, Product Detail, Cart, and Mini Cart pages, PayPal's internal research suggests that the default options are highly recognizable and might lead to increase purchase rates, but their defaults might not match your store's styling. You can choose:
+PayPal's Express Checkout Smart Payment Buttons feature allows you to customize the PayPal button, which can be displayed on the Checkout, Product Detail, Cart, and Mini Cart pages, PayPal's internal research suggests that the default options are highly recognizable and might lead to increase purchase rates, but their defaults might not match your store's styling. You can choose:
 
-     - The size, color, and shape of the PayPal button.
-     - The text that appears on the PayPal button.
-     - The layout, when multiple buttons are displayed (horizontal or vertical).
+- The size, color, and shape of the PayPal button.
+- The text that appears on the PayPal button.
+- The layout, when multiple buttons are displayed (horizontal or vertical).
 
-   To customize buttons, expand ![]({% link images/images/btn-expand.png %}){: .Inline} each of the following sections and adjust the settings:
+To customize buttons, expand ![]({% link images/images/btn-expand.png %}){: .Inline} each of the following sections and adjust the settings:
 
-      - Checkout Page
-      - Product Pages
-      - Cart Page
-      - Mini Cart
+- Checkout Page
+- Product Pages
+- Cart Page
+- Mini Cart
 
-  For each section, complete the settings.
+For each section, complete the settings.
 
-   1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the section.
 
-   1. Set **Customize Button** to `Yes`.
+1. Set **Customize Button** to `Yes`.
 
-   1. To set the text that PayPal displays on the Smart Payment Button, set **Label** to one of the following:
+1. To set the text that PayPal displays on the Smart Payment Button, set **Label** to one of the following:
 
-       |`Checkout`| PayPal Checkout |
-       |`Pay`| PayPal Checkout |
-       |`Buy Now`| Buy Now with PayPal |
-       |`PayPal`| PayPal |
-       |`Installment`| PayPal|
-       |`Credit`| PayPal Credit |
+    |`Checkout`| PayPal Checkout |
+    |`Pay`| PayPal Checkout |
+    |`Buy Now`| Buy Now with PayPal |
+    |`PayPal`| PayPal |
+    |`Installment`| PayPal|
+    |`Credit`| PayPal Credit |
 
-   1. Set **Layout** to one of the following:
+1. Set **Layout** to one of the following:
 
-       |`Vertical` |(Default) Displays PayPal Smart Buttons vertically. <br/>The buyer must either log in to PayPal or create a PayPal account regardless of whether **Enable Guest Checkout** is selected.|
-       |`Horizontal` |Displays PayPal Smart Buttons horizontally.	<br/>When **Enable Guest Checkout** is selected, the **Pay with Debit Card or Credit Card** button displays on the PayPal pop-up window. Otherwise, the buyer must either log in to PayPal or create a PayPal account.|
+    |`Vertical` |(Default) Displays PayPal Smart Buttons vertically. <br/>The buyer must either log in to PayPal or create a PayPal account regardless of whether **Enable Guest Checkout** is selected.|
+    |`Horizontal` |Displays PayPal Smart Buttons horizontally.	<br/>When **Enable Guest Checkout** is selected, the **Pay with Debit Card or Credit Card** button displays on the PayPal pop-up window. Otherwise, the buyer must either log in to PayPal or create a PayPal account.|
 
-   1. Set **Size** to one of the following:
+1. Set **Size** to one of the following:
 
-       |`Medium` |250 pixels by 35 pixels.|
-       |`Large` |350 pixels by 40 pixels.|
-       |`Responsive` |(Default) Adjusts to the width of the container. The minimum width is 100 pixels, and the maximum width is 500 pixels. The height dynamically adjusts based on the width.|
+    |`Medium` |250 pixels by 35 pixels.|
+    |`Large` |350 pixels by 40 pixels.|
+    |`Responsive` |(Default) Adjusts to the width of the container. The minimum width is 100 pixels, and the maximum width is 500 pixels. The height dynamically adjusts based on the width.|
 
-   1. Set **Shape** to one of the following:
+1. Set **Shape** to one of the following:
 
-       |`Pill` |(Default) The button is shaped like a pill (long in the center and curved on the ends).|
-       |`Rectangle` |Squared shape, without curves, in a rectangle.|
+    |`Pill` |(Default) The button is shaped like a pill (long in the center and curved on the ends).|
+    |`Rectangle` |Squared shape, without curves, in a rectangle.|
 
-   1. Set **Color** to one of the following:
+1. Set **Color** to one of the following:
 
-       - `Gold` (Default)
-       - `Blue`
-       - `Silver`
-       - `Black`
+    - `Gold` (Default)
+    - `Blue`
+    - `Silver`
+    - `Black`
 
-       ![Checkout Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings2.png %}){: .zoom}
-       _Customize Smart Buttons settings - Checkout Page - PayPal Express Checkout_
+    ![Checkout Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings2.png %}){: .zoom}
+    _Customize Smart Buttons settings - Checkout Page - PayPal Express Checkout_
 
 #### Features
 
-1. Complete the **Features** section, as needed for your store.
+Complete the **Features** section, as needed for your store. Features settings allow you to disable certain features related to this PayPal solution.
 
-   Features settings allow you to disable certain features related to this PayPal solution.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Features** section.
 
-   - Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Features** section.
+    **Disable Funding Options** determines which other PayPal funding options are displayed on the Checkout page. Selected options will never be displayed on the Checkout page. Unselected options will be displayed only if PayPal supports the store's currency and the buyer's location. Options include:
 
-     **Disable Funding Options** determines which other PayPal funding options are displayed on the Checkout page. Selected options will never be displayed on the Checkout page. Unselected options will be displayed only if PayPal supports the store's currency and the buyer's location. Options include:
-
-     - PayPal Credit
-     - PayPal Guest Checkout Credit Card Icons
-     - Elektronisches Lastschriftverfahren - German ELV
+    - PayPal Credit
+    - PayPal Guest Checkout Credit Card Icons
+    - Elektronisches Lastschriftverfahren - German ELV
 
      ![Checkout Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings3.png %}){: .zoom}
      _Features - PayPal Express Checkout_
 
-When complete, click <span class="btn">Save Config</span>.
+1. When complete, click <span class="btn">Save Config</span>.
 
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
 [2]: https://www.paypal.com/webapps/mpp/buying-online
