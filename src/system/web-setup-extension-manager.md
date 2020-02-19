@@ -4,6 +4,9 @@ redirect_from:
   - /system/component-manager.html
 ---
 
+{: .bs-callout-info}
+If your Magento installation is hosted on Adobe Commerce Cloud, see [Install, manage, and upgrade extensions][1].
+
 Installing an extension is a three-step process that should take place during off-peak hours. Before the extension is installed, your store is put into maintenance mode, checked for readiness, and backed up. After the extension is installed, it must be configured for your store according to the developer’s instructions.
 
 For technical information, see [Run the Extension Manager][1]{:target="_blank"} in the developer documentation.
@@ -82,7 +85,7 @@ _Installed Extensions_
 
 1. You can see the path to the backup file at the bottom of the report. When the backup is complete, click <span class="btn">Next</span>.
 
-## Step 3: Component Install
+### Step 3: Component Install
 
 1. When you are ready to begin, click **Install**. Then, wait a few moments for the installation to complete.
 
