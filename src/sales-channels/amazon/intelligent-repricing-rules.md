@@ -10,9 +10,9 @@ An intelligent repricing rule uses Amazon competitors' pricing to determine your
 Sections of an intelligent repricing rule include:
 
 - **Select Rule Type**
-* [Competitor Conditional Variances]({% link sales-channels/amazon/competitor-conditional-variances.md %})
+- [Competitor Conditional Variances]({% link sales-channels/amazon/competitor-conditional-variances.md %})
 - [Price Adjustment]({% link sales-channels/amazon/price-adjustment.md %})
-* [Floor Price]({% link sales-channels/amazon/floor-price.md %})
+- [Floor Price]({% link sales-channels/amazon/floor-price.md %})
 - [Optional Ceiling Price]({% link sales-channels/amazon/optional-ceiling-price.md %})
 
 ## To configure the Select Rule Type section of an Intelligent Repricing Rule Action:

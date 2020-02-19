@@ -19,9 +19,9 @@ An easy way to insert a link is to use the Link button in the editor toolbar. It
 
 1. Set **Target** to one of the following:
 
-    * `Open link in the same window`
+    - `Open link in the same window`
 
-    * `Open in a new window`
+    - `Open in a new window`
 
 1. In the **Title** field, enter the tooltip text to appear when someone hovers over the link.
 
