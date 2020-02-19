@@ -44,8 +44,8 @@ _Magento Ad in Google Search Results_
 
 1. To choose how you want to manage the your AdWords tag, do one of the following:
 
-   - If you plan to add the script to your store yourself, choose **Save instructions and tag**.
-   - If you plan to have someone else add the script to your store, choose **Email instructions and tag**.
+    - If you plan to add the script to your store yourself, choose **Save instructions and tag**.
+    - If you plan to have someone else add the script to your store, choose **Email instructions and tag**.
 
 1. When complete, click <span class="btn">Done</span>.
 
@@ -78,9 +78,9 @@ _Magento Ad in Google Search Results_
 
     - Enter the **Conversion Format** to be used for the Google Sites Stat notification on the conversion page.
 
-      - 1 - Displays a one-line notification with a link to more information about Google tracking.
-      - 2 - Displays a two-line notification with a link to more information about Google tracking.
-      - 3 - Displays no customer notification.
+        |1 |Displays a one-line notification with a link to more information about Google tracking.|
+        |2 |Displays a two-line notification with a link to more information about Google tracking.|
+        |3 |Displays no customer notification.|
 
     - Enter the [hexadecimal code][4]{:target="_blank"} for the **Conversion Color** that you want to use for the Google Site Stats notification label.
 
