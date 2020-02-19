@@ -3,6 +3,9 @@ title: Install an Extension
 group: getting-started
 ---
 
+{: .bs-callout-info}
+If your Magento installation is hosted on Adobe Commerce Cloud, see [Install, manage, and upgrade extensions][1].
+
 Installing an extension is a three-step process that should take place during off-peak hours. Before the extension is installed, your store is put into maintenance mode, checked for readiness, and backed up. After the extension is installed, it must be configured for your store according to the developer’s instructions.
 
 ## Step 1: Retrieve Your Access Key
@@ -29,7 +32,7 @@ Installing an extension is a three-step process that should take place during of
     ![Extension Manager]({% link images/images/system-extension-manager.png %}){: .zoom}
     _Extension Manager_
 
-    It will take a few minutes to generate the summary and list of all available updates, recently purchased extensions, and currently installed extensions and sample data.
+    It will take a few minutes to generate the summary and list all available updates, recently purchased extensions, and currently installed extensions and sample data.
 
     ![Marketplace - Account Summary]({% link images/images/system-extension-manager-summary.png %}){: .zoom}
      _Summary of Your Marketplace Account_
@@ -90,3 +93,5 @@ Installing an extension is a three-step process that should take place during of
 1. In the left panel, find the new tab for the extension you installed.
 
 1. Follow the instructions from the extension developer to complete the configuration.
+
+[1]: https://devdocs.magento.com/cloud/howtos/install-components.html
