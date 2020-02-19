@@ -1,7 +1,7 @@
 rule 'MD001' # Header levels should only increment by one level at a time
 exclude_rule 'MD002'
 rule 'MD003', :style => :atx # Header style
-rule 'MD004'
+rule 'MD004' # Unordered list style, default "consistent"
 exclude_rule 'MD005'
 exclude_rule 'MD006'
 exclude_rule 'MD007'
