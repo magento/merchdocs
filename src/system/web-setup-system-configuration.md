@@ -2,21 +2,17 @@
 title: System Config
 ---
 
-To sync and add extensions, modules, and components from Magento Marketplace to your Magento Admin, you need to add and sync Marketplace access keys. The System Config page of the Web Setup Wizard saves allows you to add these keys and sync with Marketplace.
+{: .bs-callout-info}
+If your Magento installation is hosted on Adobe Commerce Cloud, see [Install, manage, and upgrade extensions][1].
 
-You need to generate, copy, and paste Marketplace access keys from your Marketplace account to the Magento Admin. When added, the services remain in sync, including your purchased and added extensions.
+Your Marketplace access key is used to synchronize your Magento installation with your Magento Marketplace account. After the services are synchronized, you can add extensions, modules, and components using the Web Setup Wizard in the Admin of your store. The services remain in sync so you can easily install extensions, as well as keep track of all extensions that you purchase and install.
 
-## Synchronize Magento and your Marketplace account
+![]({% link images/images/magento-marketplace-system-config.png %}){: .zoom}
+_Add Access Keys_
 
-1. Retrieve your access keys:
+If you need help setting up your access key, see [Set Up Your Marketplace Credentials]({% link magento/magento-marketplace-credentials.md %}).
 
-    - Go to [Magento Marketplace][1]{:target="_blank"} and log into your account.
-
-    - On the _Marketplace_ tab, go to **My Products** and click **Access Keys**.
-
-        If you need to generate a new set of access keys, click **Create a New Access Key**.
-
-    - Find the set of access keys (public key and private key) in the list and make them available for the next steps.
+## Synchronize Magento with Your Marketplace Account
 
 1. Log in to the Admin of your Magento store as a user with full administrator rights.
 
@@ -31,7 +27,7 @@ You need to generate, copy, and paste Marketplace access keys from your Marketpl
 
 1. Click <span class="btn">Save Config</span>.
 
-   The keys are saved, only revealing the public key.
+   After the keys are saved, only the public key remains visible.
 
     ![]({% link images/images/magento-marketplace-system-config-saved.png %}){: .zoom}
     _Access Keys Saved_
