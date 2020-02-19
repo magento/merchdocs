@@ -6,9 +6,7 @@ group: getting-started
 {: .bs-callout-info}
 If your Magento installation is hosted on Adobe Commerce Cloud, see [Install, manage, and upgrade extensions][1].
 
-The Web Setup System Configuration tool uses the public and private keys from your Marketplace [profile]({% link magento/magento-marketplace-credentials.md %}) to synchronize your store with Magento Marketplace.
-
-After your store is synchronized, you will be required to enter the private key each time you install an extension, module, or component from Magento Marketplace.
+The Web Setup System Configuration tool uses the public and private keys from your Marketplace [profile]({% link magento/magento-marketplace-credentials.md %}) to synchronize your store with Magento Marketplace. After your store is synchronized, the services remain in sync so you can easily add extensions, as well as keep track of all extensions you have purchased and installed.
 
 ## Step 1: Retrieve Your Marketplace Credentials
 
@@ -36,5 +34,8 @@ After your store is synchronized, you will be required to enter the private key 
 1. When complete, click **Save Config**. It takes a few moments for your store to synchronize with Magento Marketplace.
 
 In the future if you ever want to change your Marketplace credentials, you can create a new access key, reset your Marketplace system configuration, and resynchronize your store with the new key values.
+
+{: .bs-callout-info}
+The Web Setup Wizard does not automatically return to the Admin of your store. When you are ready to close the tool, enter the URL of your store Admin in the address line of the browser tab.
 
 [1]: https://devdocs.magento.com/cloud/howtos/install-components.html
