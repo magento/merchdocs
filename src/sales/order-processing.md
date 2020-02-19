@@ -2,7 +2,7 @@
 title: Processing an Order
 ---
 
-When a customer places an order, a sales order is created as a temporary record of the transaction. The sales order has a status of “Pending” until payment is received. Sales orders can be edited while pending, and can be canceled up until the time that an invoice is generated. An easy way to think of it is this: Orders become invoices, and invoices become shipments. The Orders grid lists all orders, regardless of where they are in the [workflow]({% link sales/order-workflow.md %}). To learn how to offer customers assistance with an order, see [Updating an Order]({% link sales/order-update.md %}).
+When a customer places an order, a sales order is created as a temporary record of the transaction. The sales order has a status of `Pending` until payment is received. While in `Pending` status, orders can be edited or canceled up until the time that payment is received and an invoice is generated. An easy way to think of it is that orders become invoices, and invoices become shipments. The Orders grid lists all orders, regardless of where they are in the [workflow]({% link sales/order-workflow.md %}). To learn how to help customers with an order, see [Updating an Order]({% link sales/order-update.md %}).
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/orders.png %}){: .zoom}
@@ -15,7 +15,7 @@ When a customer places an order, a sales order is created as a temporary record 
 <!--{% endif %}-->
 _Orders_
 
-## To view an order:
+## View an order
 
 1. On the _Admin_ sidebar, click **Sales**.
 
@@ -27,9 +27,11 @@ _Orders_
 
 1. Check order status:
 
-   - A pending order can be modified, put on hold, canceled, or invoiced and shipped.
+   - A `Pending` order can be modified, put on hold, canceled, or invoiced and shipped.
 
-   - A completed order can be reordered.
+   - A `Processing` order can no longer edit the substance of or cancel the order, but the billing and shipping address can be edited.
+
+   - A `Completed` order can be reordered.
 
 The panel on the left of an open order provides access to different types of information that is related to the order.
 
@@ -68,12 +70,12 @@ _View Order_
 |<span class="btn">Reorder</span>|Creates a new sales order based on the current order.|
 |<span class="btn">Edit</span>|Opens a pending order in edit mode. The Edit button isn’t visible for orders with a status of “Processing”{% if "Default.B2B Only" contains site.edition %}, or orders that are based on negotiated quotes{% endif %}.|
 
-## To process an order:
+## Process an order
 
-To open a pending sales order, click the **Edit** button in the upper-right corner.
+To open a `Pending` order, click the **Edit** button in the upper-right corner.
 
 {:.bs-callout-info}
-Orders can be edited only while the status is `Pending`. The Edit button is not visible for orders that are `Processing`<!--{% if "Default.B2B Only" contains site.edition %}-->, or for orders that are based on a [negotiated quote]({% link sales/quotes.md %})<!--{% endif %}-->.
+Orders can be edited only while in `Pending` status. The Edit button is not visible for orders in a different status<!--{% if "Default.B2B Only" contains site.edition %}--> or for orders that are based on a [negotiated quote]({% link sales/quotes.md %})<!--{% endif %}-->.
 
 ![]({% link images/images/sales-order-pending-edit.png %}){: .zoom}
 _Edit Sales Order_
@@ -135,7 +137,7 @@ _Payment & Shipping Method_
 |Payment Information|The method of payment to be used for the order, and purchase order number, if applicable, followed by the currency that was used to place the order.{% if "Default.B2B Only" contains site.edition %} If the order is charged to company credit, using [Payment on Account]({% link payment/payment-on-account.md %}), the amount charged to the account is indicated.{% endif %}|
 |Shipping & Handling Information|The shipping method to be used, and any handling fee that is applicable.|
 
-## To review items ordered:
+## Review items ordered
 
 ![]({% link images/images/order-items-ordered-tristan.png %}){: .zoom}
 _Items Ordered_
@@ -159,7 +161,7 @@ In the **Order Total** section, do the following:
     <!--{% endif %}-->
     _Order Total_
 
-1. If you are ready to invoice the order, click **Invoice**. Then follow the instructions to [Create an Invoice.]({% link sales/invoice-create.md %})
+1. If you are ready to invoice the order, click **Invoice**. Then follow the instructions to [Create an Invoice]({% link sales/invoice-create.md %}).
 
 |Field|Description|
 |--- |--- |
