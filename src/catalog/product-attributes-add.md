@@ -37,7 +37,7 @@ _Attribute Properties_
 
 1. For `Dropdown` and `Multiple Select` input types, do the following:
 
-   - Under **Values**, click <span class="btn"> Add Value </span>.
+   - Under **Values**, click <span class="btn">Add Value</span>.
 
    - Enter the first value that you want to appear in the list.
 

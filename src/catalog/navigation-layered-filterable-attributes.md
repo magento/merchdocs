@@ -19,7 +19,7 @@ The following instructions show how to set up basic layered navigation with filt
 
 1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
 
-1. Browse or user filtered search to find an attribute in the list and open it in edit mode.
+1. Browse or use filtered search to find an attribute in the list and open it in edit mode.
 
    ![]({% link images/images/attribute-search.png %}){: .zoom}
    _Enter search terms per column to use Filtered Search_
