@@ -13,9 +13,9 @@ _Configurable Product_
 
 ## Part 1: Creating a configurable product
 
-Although a configurable product uses more SKUs, and may initially take a little longer to set up, it can save you time in the long run. If you plan to grow your business, the configurable product type is a good choice for products with multiple options.
+Although a configurable product uses more SKUs and may initially take a little longer to set up, it can save you time in the long run. If you plan to grow your business, the configurable product type is a good choice for products with multiple options.
 
-Before you begin, prepare an [attribute set]({% link stores/attribute-sets.md %}) that includes an attribute that is set to one of the allowable input types for each product variation. For example, the attribute set might include dropdown attributes for color and size.
+Before you begin, prepare an [attribute set]({% link stores/attribute-sets.md %}) that includes an attribute that is set to one of the allowable input types for each product variation. For example, the attribute set might include drop-down attributes for color and size.
 
 The properties of each attribute that is used for a configurable product variation must have the following settings:
 
@@ -38,16 +38,16 @@ The properties of each attribute that is used for a configurable product variati
 
 ### Step 2: Choose the attribute set
 
-The [attribute set]({% link stores/attribute-sets.md %}) determines the selection of fields that are used in the product. The attribute set that is used in the following example has attributes for color and size. The name of the attribute set is indicated at the top of the page, and is initially set to `Default`.
+The [attribute set]({% link stores/attribute-sets.md %}) determines the selection of fields that are used in the product. The attribute set that is used in the following example has attributes for color and size. The name of the attribute set is indicated at the top of the page and is initially set to `Default`.
 
 1. To choose the attribute set for the product, click the field at the top of the page and do one of the following:
 
-    - In the **Search** box, enter the name of the attribute set.
+    - For **Search**, enter the name of the attribute set.
     - In the list, choose the attribute set that you want to use.
 
     The form is updated to reflect the change.
 
-1. If you need to add an additional attribute to the attribute set, click <span class="btn">Add Attribute</span> and follow the instruction in [Adding an Attribute]({% link catalog/product-attributes-add.md %}).
+1. If you need to add an additional attribute to the attribute set, click <span class="btn">Add Attribute</span> and follow the instructions in [Adding an Attribute]({% link catalog/product-attributes-add.md %}).
 
     ![]({% link images/images/product-create-choose-attribute-set.png %}){: .zoom}
     _Choose Template_
@@ -56,7 +56,7 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
 1. Enter the product **Product Name**.
 
-1. Accept the default **SKU** that is based on the product name, or enter another.
+1. Accept the default **SKU** that is based on the product name or enter another.
 
 1. Enter the product **Price**.
 
@@ -78,15 +78,15 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
     - `None`
     - `Taxable Goods`
 
-1. The **Quantity** is determined by the product variations, so you can leave it blank for now.
+1. The **Quantity** is determined by the product variations, so you can leave it blank.
 
 1. Leave the **Stock Status** as set.
 
-    The Stock Status of a configurable product is determined by each associated configuration. Because the product was saved without entering a quantity, the Stock Status is now set to `Out of Stock`.
+    The Stock Status of a configurable product is determined by each associated configuration. Because the product was saved without entering a quantity, the **Stock Status** is now set to `Out of Stock`.
 
 1. Enter the product **Weight**.
 
-1. Accept the default **Visibility** setting, `Catalog, Search`.
+1. Accept the default **Visibility** setting of `Catalog, Search`.
 
 1. To feature the product in the list of[ new products]({% link cms/widget-new-products-list.md %}), select the **Set Product as New** checkbox.
 
@@ -121,7 +121,7 @@ This is a good time to save your work. In the upper-right corner, click <span cl
 
 ## Part 2: Adding configurations
 
-The following example shows how to add configurations for three colors and three sizes. In all, nine simple products will be created with unique SKUs to cover every possible combination of variations. By default, the product name and SKU for each variation is based on the parent product name or SKU, plus the attribute value.
+The following example shows how to add configurations for three colors and three sizes. In all, nine simple products will be created with unique SKUs to cover every possible combination of variations. By default, the product name and SKU for each variation is based on the attribute value and either the parent product name or SKU.
 
 The progress bar at the top of the page shows where you are in the process and guides you through each step.
 
@@ -130,14 +130,14 @@ _Progress Bar_
 
 ### Step 1: Choose the attributes
 
-1. Continuing from Part 1, scroll down to the **Configurations** section and click <span class="btn">Create Configurations</span>.
+1. Continuing from Part 1, scroll down to the _Configurations_ section and click <span class="btn">Create Configurations</span>.
 
     ![]({% link images/images/product-configurable-create-configurations.png %}){: .zoom}
     _Configurations_
 
 1. Select the checkbox of each attribute that you want to include as a configuration.
 
-   For this example, we choose color and size.
+   For this example, we choose `color` and `size`.
 
 1. The list includes all attributes from the attribute set that can be used in a configurable product.
 
@@ -168,7 +168,7 @@ _Progress Bar_
 
 ### Step 3: Configure the images, price, and quantity
 
-This step determines the images, pricing and quantity of each configuration. The available options are the same for each, and you can choose only one. You can apply the same setting to all SKUs, apply a unique setting to each SKU, or skip the settings for now.
+This step determines the images, pricing, and quantity of each configuration. The available options are the same for each, and you can choose only one. You can apply the same setting to all SKUs, apply a unique setting to each SKU, or skip the settings for now.
 
 Choose the configuration options that apply.
 
@@ -191,9 +191,9 @@ Because we already uploaded an image for the parent product, we’ll use this op
 
 1. Select the **attribute** that the images illustrate, such as `color`.
 
-1. For each attribute value, either browse to the images that you want to use for that configuration, or drag them to the box.
+1. For each attribute value, either browse to the images that you want to use for that configuration or drag them to the box.
 
-    If you drag the an image to a value box, it appears in the sections for the other values, as well. If you want to delete an image, click the trashcan (![]({% link images/images/btn-trashcan2.png %}){: .Inline}) icon.
+    If you drag the an image to a value box, it also appears in the sections for the other values. If you want to delete an image, click the trashcan (![]({% link images/images/btn-trashcan2.png %}){: .Inline}) icon.
 
     ![]({% link images/images/product-configurable-create-configurations-add-images-unique.png %}){: .zoom}
     _Unique Images per SKU_
@@ -231,7 +231,7 @@ Because we already uploaded an image for the parent product, we’ll use this op
     ![]({% link images/images/product-configurations-quantity-same-all-skus.png %}){: .zoom}
     _Same Quantity for All SKUs_
 
-1. If needed, apply the Same Quantity to All SKUs (Inventory Management)
+1. If needed, apply the Same Quantity to All SKUs (Inventory Management).
 
     For Multi Source merchants using [Inventory Management]({% link catalog/inventory-management.md %}), assign sources and add quantities for all generated product variants:
 
@@ -259,9 +259,7 @@ When configuration for images, price, and quantity are complete, click <span cla
 
 ### Step 4: Generate the product configurations
 
-1. Wait a moment for the list of products to appear.
-
-1. Do one of the following:
+1. Wait a moment for the list of products to appear and do one of the following:
 
     - If you are satisfied with the configurations, click **Next**.
     - To make corrections, click **Back**.
@@ -269,18 +267,18 @@ When configuration for images, price, and quantity are complete, click <span cla
     ![]({% link images/images/product-create-configurable-summary.png %}){: .zoom}
     _Summary_
 
-The current product variations appear at the bottom of the Configuration section.
+The current product variations appear at the bottom of the _Configuration_ section.
 
 ![]({% link images/images/product-create-configurable-summary.png %}){: .zoom}
 _Current Configurations_
 
 ### Step 5: Add a Product Image
 
-1. Scroll down to the **Images and Videos** section and expand ![]({% link images/images/btn-expand.png %}) the section.
+1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Images and Videos** section.
 
 1. Click the **Camera** tile and browse to the main image that you want to use for the configurable product.
 
-To learn more, see [Images and Video]({% link catalog/product-images-and-video.md %}).
+For more information, see [Images and Video]({% link catalog/product-images-and-video.md %}).
 
 ### Step 6: Complete the product information
 
@@ -302,15 +300,13 @@ Scroll down and complete the information in the following sections as needed:
 
 ### Step 7: Publish the product
 
-1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` ( ![]({% link images/images/btn-switch-yes.png %}) ).
-
-1. Do one of the following:
+1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` ( ![]({% link images/images/btn-switch-yes.png %}) ) and do one of the following:
 
     **Method 1: Save and preview**
 
     - In the upper-right corner, click <span class="btn">Save</span>.
 
-    - To view the product in your store, choose **Customer View** on the **Admin** ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
+    - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
 
       The store opens in a new browser tab.
 
@@ -319,7 +315,7 @@ Scroll down and complete the information in the following sections as needed:
 
     **Method 2: Save and close**
 
-    On the **Save** (![]({% link images/images/btn-dropdown.png %})) menu, choose **Save & Close**.
+    On the _Save_ (![]({% link images/images/btn-dropdown.png %})) menu, choose **Save & Close**.
 
     ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
     _Save & Close_
@@ -330,9 +326,9 @@ If you have a different image for each variation you can set the configuration t
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the left panel, expand **Sales** and choose **Checkout**.
+1. In the left panel, expand **Sales** and choose **Checkout** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Shopping Cart** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the _Shopping Cart_ section.
 
 1. Set **Configurable Product Image** to `Product Thumbnail Itself`.
 

@@ -28,7 +28,7 @@ _Content_
 <!--{% endif %}-->
 <!--{% if "Default.CE Only" contains site.edition %}-->
 
-1. Enter the main product **Description**, and use the [toolbar]({% link cms/editor.md %}) to format as needed.
+1. Enter the main product **Description** and use the [toolbar]({% link cms/editor.md %}) to format as needed.
 
     You can drag the lower-right corner to change the height of the text box.
 
@@ -37,5 +37,5 @@ _Content_
 1. Enter a **Short Description** of the product and format as needed.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-To learn more, see [Using the Editor]({% link cms/editor.md %}).
+For more information, see [Using the Editor]({% link cms/editor.md %}).
 <!--{% endif %}-->

@@ -88,7 +88,7 @@ _Choose Template_
 
     - The **Quantity** is not available because the value is determined for each bundle item.
 
-    - The **Stock Status** is set by default to `In Stock`.
+    - By default, the **Stock Status** is set to `In Stock`.
 
 1. To determine the weight of the bundle, do one of the following:
 
@@ -141,7 +141,7 @@ _Choose Template_
     ![]({% link images/images/product-bundle-new-option.png %}){: .zoom}
     _Add Bundle Options_
 
-    - Enter an **Option Title** to be used field label.
+    - Enter an **Option Title** to be used as the field label.
 
     - Set **Input Type** to one of the following:
 
@@ -161,7 +161,7 @@ _Choose Template_
       ![]({% link images/images/product-bundle-add-products-to-option.png %}){: .zoom}
       _Add Selected Products_
 
-    - After the items appear in the Options section choose one to be the **Default** selection.
+    - After the items appear in the Options section, choose one to be the **Default** selection.
 
     - In the **Default Quantity** column, enter the quantity of each item that is to be added to the bundle when a customer chooses the item.
 
@@ -172,7 +172,7 @@ _Choose Template_
 
       By default, the Default Quantity that is included in a bundle item cannot be changed by the customer. However, the customer can enter the quantity of the item that is to be included in the bundle.
 
-      For example, if the Default Quantity of the Sprite Status Ball is set to 2, and the customer orders 4 of that bundle option, the total number of total balls purchased is 8.
+      For example, if the Default Quantity of the Sprite Status Ball is set to `2`, and the customer orders `4` of that bundle option, the total number of total balls purchased is `8`.
 
       ![]({% link images/images/product-bundle-item-detail.png %}){: .zoom}
       _Item Detail_
@@ -184,7 +184,7 @@ _Choose Template_
     ![]({% link images/images/product-bundle-items-move.png %}){: .zoom}
     _Change the Order of Bundle Items_
 
-    The order of items can also be changed in the data of an exported bundle product, and then reimported into the catalog. To learn more, see [Importing Bundle Products]({% link system/data-transfer-bundle-products.md %}).
+    The order of items can also be changed in the data of an exported bundle product and then reimported into the catalog. For more information, see [Importing Bundle Products]({% link system/data-transfer-bundle-products.md %}).
 
 1. To change the order of sections in a bundle product, click the **Move** ( ![Move icon]({% link images/images/btn-drag.png %}) ) icon in the header of the section and drag the section to the new position.
 
@@ -220,7 +220,7 @@ Scroll down and complete the information in the following sections as needed:
 
     - In the upper-right corner, click <span class="btn">Save</span>.
 
-    - To view the product in your store, choose **Customer View** on the **Admin** ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
+    - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
 
       The store opens in a new browser tab.
 
@@ -248,16 +248,16 @@ Scroll down and complete the information in the following sections as needed:
 
 |Field|Description|
 |--- |--- |
-|SKU|Determines if each item is assigned a variable, dynamic SKU, or if a fixed SKU is used for the bundle. Options: Fixed / Dynamic.|
-|Weight|Specifies the weight is calculated based on the items selected, or is a fixed weight for the entire bundle. Options: Fixed / Dynamic.|
-|Price View|Determines if the product price is shown as a range, from the least expensive  to the most expensive (Price Range), or with the least expensive shown (As Low As). Options: Price Range / As Low As.|
+|SKU|Determines if each item is assigned a variable or dynamic SKU or if a fixed SKU is used for the bundle. Options: Fixed / Dynamic.|
+|Weight|Specifies whether the weight is calculated based on the items selected or is a fixed weight for the entire bundle. Options: Fixed / Dynamic.|
+|Price View|Determines if the product price is shown as a range, from the least expensive to the most expensive (Price Range) or with the least expensive shown (As Low As). Options: Price Range / As Low As.|
 |Ship Bundle Items|Specifies if individual items can be shipped separately.|
 
 ## Things to remember
 
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | Customers can “build their own” bundle product. |
+| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | Customers can _build their own_ bundle product. |
 | ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | Bundle items can be simple or virtual products without custom options. |
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | The Price View can be set to a price range or to `As Low As`. |
+| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | The Price View can be set to either `Price Range` or `As Low As`. |
 | ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | SKU and Weight can be either `Fixed` or `Dynamic`. |
 | ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | The quantity can be a preset or user-defined value. However, do not assign the User Defined property to checkbox or multiple-select input types. |
 | ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | Bundle items can be shipped together or separately. |

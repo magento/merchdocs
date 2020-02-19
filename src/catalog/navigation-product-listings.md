@@ -26,21 +26,21 @@ _Products Displayed as a Grid_
     - `Grid (default) / List`
     - `List (default / Grid`
 
-1. In the **Products per Page on Grid Allowed Values** field, enter the number of products that you want to appear per page when shown in grid format.
+1. For **Products per Page on Grid Allowed Values**, enter the number of products that you want to appear per page when shown in grid format.
 
    To enter a selection of values, separate each number by a comma.
 
-1. In the **Products per Page on Grid Default Value** field, enter the default number of products to appear in the grid per page.
+1. For **Products per Page on Grid Default Value**, enter the default number of products to appear in the grid per page.
 
-1. In the **Products per Page on List Allowed Values** field, enter the number of products that you want to appear per page when shown in list format.
+1. For **Products per Page on List Allowed Values**, enter the number of products that you want to appear per page when shown in list format.
 
    To enter a selection of values, separate each number by a comma.
 
-1. In the **Products per page on List Default Value** field, enter the default number of products that appear in the list, per page.
+1. For **Products per page on List Default Value**, enter the default number of products that appear in the list, per page.
 
 1. To give customers the option to list all products, set **Allow All Products on Page** to `Yes`.
 
-1. Set **Product Listing Sorted** by to the default attribute that is initially used to sort the list.
+1. Set **Product Listing Sorted by** to the default attribute that is initially used to sort the list.
 
 1. If using a [flat catalog]({% link catalog/catalog-flat.md %}) (**not recommended**), do the following:
 

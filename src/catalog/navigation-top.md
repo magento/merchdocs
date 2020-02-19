@@ -37,7 +37,7 @@ See “[Creating Categories]({% link catalog/category-create.md %})” to define
 
 1. To limit the number of subcategories that appear in the top navigation, enter the number in the **Maximal Depth** field.
 
-   The default value is zero, which does not place a limit on the number of subcategory levels.
+   The default value is `0`, which does not place a limit on the number of subcategory levels.
 
 1. When complete, click <span class="btn">Save Config</span>.
 

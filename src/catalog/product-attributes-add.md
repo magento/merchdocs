@@ -31,17 +31,17 @@ _Attribute Properties_
 
 1. Under **Attribute Properties**, enter an **Attribute Label** to identify the attribute.
 
-1. Set **Catalog Input Type for Store Owner** to the type in [input control]({% link stores/attributes-input-types.md %}) to be used for data entry.
+1. Set **Catalog Input Type for Store Owner** to the type of [input control]({% link stores/attributes-input-types.md %}) to be used for data entry.
 
    If the attribute is used for a [configurable product]({% link catalog/product-create-configurable.md %}), choose `Dropdown`.  Then, set **Required** to `Yes`.
 
 1. For `Dropdown` and `Multiple Select` input types, do the following:
 
-   - Under **Values**, tap <span class="btn"> Add Value </span>.
+   - Under **Values**, click <span class="btn"> Add Value </span>.
 
    - Enter the first value that you want to appear in the list.
 
-      You can enter one value for the Admin, and a translation of the value for each store view. If you have only one store view, you can enter only the Admin value and it will be used for the storefront as well.
+      You can enter one value for the Admin and a translation of the value for each store view. If you have only one store view, you can enter only the Admin value, and it will be used for the storefront as well.
 
    - Click <span class="btn">Add Value</span> and repeat the previous step for each option that you want to include in the list.
 

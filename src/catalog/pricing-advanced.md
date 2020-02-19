@@ -4,7 +4,7 @@ redirect_from:
   - /catalog/settings-advanced-advanced-pricing.html
 ---
 
-The Advanced Pricing settings define the conditions required for special pricing that is available for a specific customer group{% if "Default.B2B Only" contains site.edition %} or shared catalog{% endif %}. Advanced Pricing can be applied to simple, virtual, downloadable, and bundle products. To apply discounted pricing to other product types, use a [catalog price rule]({% link marketing/price-rules-catalog.md %}). To learn more, see [Price Scope]({% link catalog/catalog-price-scope.md %}).
+The Advanced Pricing settings define the conditions required for special pricing that is available for a specific customer group{% if "Default.B2B Only" contains site.edition %} or shared catalog{% endif %}. Advanced Pricing can be applied to simple, virtual, downloadable, and bundle products. To apply discounted pricing to other product types, use a [catalog price rule]({% link marketing/price-rules-catalog.md %}). For more information, see [Price Scope]({% link catalog/catalog-price-scope.md %}).
 
 Advanced pricing data is synchronized with product pages{% if "Default.B2B Only" contains site.edition %} and shared catalogs{% endif %}. For example, if you update a tier price quantity, the system updates the value {% if "Default.B2B Only" contains site.edition %}in the shared catalog and {% endif %} on the product page. {% if "Default.B2B Only" contains site.edition %}Any custom pricing that is indicated in the shared catalog has priority over customer group pricing.{% endif %}
 
@@ -15,7 +15,7 @@ _Advanced Pricing_
 
 1. Open the product in edit mode.
 
-1. Under the **Price** field, click **Advanced Pricing**.
+1. Under **Price**, click **Advanced Pricing**.
 
 1. Follow the instructions for the type of advanced pricing that is needed.
 

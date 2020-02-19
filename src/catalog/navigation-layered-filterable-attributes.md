@@ -5,7 +5,7 @@ group: marketing
 
 Layered navigation can be used to search for products by category or by attribute. For example, when a shopper chooses the Mens/Shorts category from the top navigation, the initial results include all products in the category. The list can be filtered further by choosing a specific style, climate, color, material, pattern, or price—or a combination of values. Filterable attributes appear in an expanding section that lists each attribute value. As an option, the list of products with matching results can be configured to include products with, or without, a match.
 
-The attribute properties, combined with the product input type determines which attributes can be used for layered navigation. Layered navigation is available only for [_anchor_]({% link catalog/categories-display-settings.md %}) categories, but can also be added to search results pages. The **Catalog Input Type for Store Owner** property of each attribute must be set to `Dropdown`, `Multiple Select`, or `Price`. To make the attributes filterable, the **Use in Layered Navigation** property of each must be set to either `Filterable (with results)` or `Filterable (no results)`.
+The attribute properties, combined with the product input type, determine which attributes can be used for layered navigation. Layered navigation is available only for [_anchor_]({% link catalog/categories-display-settings.md %}) categories, but can also be added to search results pages. The **Catalog Input Type for Store Owner** property of each attribute must be set to `Dropdown`, `Multiple Select`, or `Price`. To make the attributes filterable, the **Use in Layered Navigation** property of each must be set to either `Filterable (with results)` or `Filterable (no results)`.
 
 ![]({% link images/images/storefront-layered-navigation-filtered.png %}){: .zoom}
 _Filterable Attributes In Layered Navigation_
@@ -19,7 +19,7 @@ The following instructions show how to set up basic layered navigation with filt
 
 1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
 
-1. Find an attribute in the list using the filtered search or browsing and open it in edit mode.
+1. Browse or user filtered search to find an attribute in the list and open it in edit mode.
 
    ![]({% link images/images/attribute-search.png %}){: .zoom}
    _Enter search terms per column to use Filtered Search_

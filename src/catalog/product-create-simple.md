@@ -2,9 +2,9 @@
 title: Simple Product
 ---
 
-One of the keys to harnessing the power of product types is learning when to use a simple, standalone product. A simple product can be sold individually, or as part of a grouped, configurable, or bundle product. A simple product with custom options is sometimes referred to as a composite product.
+One of the keys to harnessing the power of product types is learning when to use a simple, standalone product. A simple product can be sold individually or as part of a grouped, configurable, or bundle product. A simple product with custom options is sometimes referred to as a _composite product_.
 
-The following instructions take you through the process of creating a simple product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (*). When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}) as needed.
+The following instructions demonstrate the process of creating a simple product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}), as needed.
 
 ![]({% link images/images/product-simple.png %}){: .zoom}
 _Simple Product_
@@ -13,7 +13,7 @@ _Simple Product_
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. On the **Add Product** ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the top-right, choose **Simple Product**.
+1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the top-right, choose **Simple Product**.
 
     ![]({% link images/images/product-add-simple.png %}){: .zoom}
     _Add Simple Product_
@@ -22,7 +22,7 @@ _Simple Product_
 
 To choose the [attribute set]({% link stores/attribute-sets.md %}) that is used as a template for the product, do one of the following:
 
-- In the **Search** box, enter the name of the attribute set.
+- For **Search**, enter the name of the attribute set.
 
 - In the list, choose the attribute set that you want to use.
 
@@ -33,9 +33,9 @@ _Choose Attribute Set_
 
 ## Step 3: Complete the required settings
 
-1. Enter the product **Product Name**.
+1. Enter the **Product Name**.
 
-1. Accept the default **SKU** that is based on the product name, or enter another.
+1. Accept the default **SKU** that is based on the product name or enter another.
 
 1. Enter the product **Price**.
 
@@ -59,14 +59,14 @@ _Choose Attribute Set_
 
 1. Enter the **Quantity** of the product that is currently in stock.
 
-    Take note that by default, **Stock Status** is set to `In Stock`.
+    By default, **Stock Status** is set to `In Stock`.
 
     {:.bs-callout-info}
-    **Inventory Management:** If you enable [Inventory Management]({% link catalog/inventory-management.md %}), Single Source merchants set the quantity in this section. Multi Source merchants add sources and quantities in the Sources section. See the following "Assign Sources and Quantities (Inventory Management)" section.
+    **Inventory Management:** If you enable [Inventory Management]({% link catalog/inventory-management.md %}), Single Source merchants set the quantity in this section. Multi Source merchants add sources and quantities in the Sources section. See the following _Assign Sources and Quantities (Inventory Management)_ section.
 
 1. Enter the **Weight** of the product.
 
-1. Accept the default **Visibility** setting, `Catalog, Search`.
+1. Accept the default **Visibility** setting of `Catalog, Search`.
 
 1. To assign **Categories** to the product, click the **Select…** box and do either of the following:
 
@@ -127,7 +127,7 @@ Scroll down and complete the information in the following sections as needed:
 
     **Method 2: Save and Close**
 
-    On the **Save** (![]({% link images/images/btn-dropdown.png %}){: .Inline}) menu, choose **Save & Close**.
+    On the _Save_ (![]({% link images/images/btn-dropdown.png %}){: .Inline}) menu, choose **Save & Close**.
 
     ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
     _Save & Close_

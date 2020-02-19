@@ -24,7 +24,7 @@ _Gift Card Accounts_
 
 1. Find the gift card account in the grid and open it in edit mode.
 
-    The Gift Card Code appears at the top of the Information section.
+    The Gift Card Code appears at the top of the _Information_ section.
 
     ![]({% link images/images-ee/gift-card-account-information.png %}){: .zoom}
     _Gift Card Account Information_
@@ -38,7 +38,7 @@ _Gift Card Accounts_
     ![]({% link images/images-ee/gift-card-account-add-new.png %}){: .zoom}
     _New Account_
 
-1. In the **Information** section, make sure that **Active** is set to `Yes`  and do the following:
+1. In the _Information_ section, set **Active** to `Yes` and do the following:
 
     - To make the card balance redeemable at checkout or transferred to the customer’s store credit, set **Redeemable** to `Yes`.
 

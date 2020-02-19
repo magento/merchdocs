@@ -2,13 +2,13 @@
 title: Grouped Product
 ---
 
-A grouped product consists of simple standalone products that are presented as a group. You can offer variations of a single product, or group them by season or theme. Presenting a grouped product can create an incentive for customers to purchase additional items. A grouped product provides an easy way to offer variations of a product, and list them all on the same page.
+A grouped product consists of simple standalone products that are presented as a group. You can offer variations of a single product or group them by season or theme. Presenting a grouped product can create an incentive for customers to purchase additional items. A grouped product provides an easy way to offer variations of a product and list them all on the same page.
 
-For example, you might sell open stock flatware, and list every type of utensil that is used in a formal place setting. Some might order multiple salad forks, fish forks, dinner forks, dinner knives, fish knives, butter knives, soup spoons, and dessert spoons. Other customers might order a simple fork, knife, and spoon. Customers can order as many of each item as they want.
+For example, you might sell open stock flatware and list every type of utensil that is used in a formal place setting. Some might order multiple salad forks, fish forks, dinner forks, dinner knives, fish knives, butter knives, soup spoons, and dessert spoons. Other customers might order a simple fork, knife, and spoon. Customers can order as many of each item as they want.
 
 Although they are presented as a group, each product in the group is purchased as a separate item. In the shopping cart, each item and the quantity purchased appears a separate line item.
 
-The following instructions take you through the process of creating a grouped product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}) as needed.
+The following instructions demonstrate the process of creating a grouped product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}), as needed.
 
 ![]({% link images/images/product-grouped.png %}){: .zoom}
 _Grouped Product_
@@ -17,7 +17,7 @@ _Grouped Product_
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. On the **Add Product** ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the top-right corner, choose **Grouped Product**.
+1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the top-right corner, choose **Grouped Product**.
 
     ![]({% link images/images/21product-add-grouped.png %}){: .zoom}
     _Add Grouped Product_
@@ -26,7 +26,7 @@ _Grouped Product_
 
 To choose the [attribute set]({% link stores/attribute-sets.md %}) that is used as a template for the product, do one of the following:
 
-- In the **Search** box, enter the name of the attribute set.
+- For **Search**, enter the name of the attribute set.
 - In the list, choose the attribute set that you want to use.
 
 The form is updated to reflect the change.
@@ -36,9 +36,9 @@ _Choose Template_
 
 ## Step 3: Complete the required settings
 
-1. Enter the product **Product Name**.
+1. Enter the **Product Name**.
 
-1. Accept the default **SKU** that is based on the product name, or enter another.
+1. Accept the default **SKU** that is based on the product name or enter another.
 
     Take note that the **Quantity** field is not available because the value is derived from the individual products that make up the group.
 
@@ -55,7 +55,7 @@ _Choose Template_
 
 ## Step 4: Complete the basic settings
 
-1. Accept the **Stock Status** setting, `In Stock`.
+1. Accept the **Stock Status** setting of `In Stock`.
 
 1. To assign **Categories** to the product, click the **Select…** box and do either of the following:
 
@@ -73,7 +73,7 @@ _Choose Template_
 
     - Click <span class="btn">Create Category</span>.
 
-1. Accept the **Visibility** settings, `Catalog, Search`.
+1. Accept the **Visibility** settings of `Catalog, Search`.
 
 1. To feature the product in the list of[ new products]({% link cms/widget-new-products-list.md %}), choose the **Set Product as New** **From** and **To** dates on the calendar.
 
@@ -136,7 +136,7 @@ Complete the information in the following sections as needed:
 
     - In the upper-right corner, click <span class="btn">Save</span>.
 
-    - To view the product in your store, choose **Customer View** on the **Admin** ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
+    - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
 
       The store opens in a new browser tab.
 
@@ -145,7 +145,7 @@ Complete the information in the following sections as needed:
 
     **Method 2: Save and Close**
 
-    On the **Save** (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
+    On the _Save_ (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
 
     ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
     _Save & Close_

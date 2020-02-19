@@ -28,16 +28,16 @@ _Pagination Controls_
    ![]({% link images/images/config-design-pagination.png %}){: .zoom}
    [_Pagination_]({% link design/configuration.md %})
 
-1. In the **Pagination Frame** field, enter the number of links that you want to appear in the pagination control.
+1. For **Pagination Frame**, enter the number of links that you want to appear in the pagination control.
 
-1. In the **Pagination Frame Skip** field, enter the number of links that you want to skip ahead before displaying the next set of links in the pagination control.
+1. For **Pagination Frame Skip**, enter the number of links that you want to skip ahead before displaying the next set of links in the pagination control.
 
     For example, if the pagination frame has five links, and you want to jump to the next five links, how many links do you want to skip ahead? If you set this to four, then the last link from the previous set will be the first link in the next set.
 
-1. In the **Anchor Text for Previous** field, enter the text that you want to appear for the Previous link.
+1. For **Anchor Text for Previous**, enter the text that you want to appear for the Previous link.
 
     Leave blank to use the default arrow.
 
-1. In the **Anchor Text for Next** field, enter the text that you want to appear for the Next link. Leave blank to use the default arrow.
+1. For **Anchor Text for Next**, enter the text that you want to appear for the Next link. Leave blank to use the default arrow.
 
 1. When complete, click <span class="btn">Save Config</span>.

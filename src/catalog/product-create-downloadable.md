@@ -20,18 +20,18 @@ Downloadable file names can include letters and numbers. Either a dash or unders
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. On the **Add Product** ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the top-right corner, choose **Downloadable Product**.
+1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the top-right corner, choose `Downloadable Product`.
 
     ![]({% link images/images/21product-add-downloadable.png %}){: .zoom}
     _Add Downloadable Product_
 
 ## Step 2: Choose the attribute set
 
-The sample data includes an [attribute set]({% link stores/attribute-sets.md %}) called _Downloadable_ that has special fields for downloadable products. You can use an existing template, or create another before the product is saved.
+The sample data includes an [attribute set]({% link stores/attribute-sets.md %}) called _Downloadable_ that has special fields for downloadable products. You can use an existing template or create another before the product is saved.
 
 To choose the attribute set that is used as a template for the product, do one of the following:
 
-- In the **Search** box, enter the name of the attribute set.
+- For **Search**, enter the name of the attribute set.
 
 - In the list, choose the `Downloadable` attribute set.
 
@@ -42,9 +42,9 @@ _Choose Attribute Set_
 
 ## Step 3: Complete the required settings
 
-1. Enter the product **Product Name**.
+1. Enter the **Product Name**.
 
-1. Accept the default **SKU** that is based on the product name, or enter another.
+1. Accept the default **SKU** that is based on the product name or enter another.
 
 1. Enter the product **Price**.
 
@@ -72,12 +72,12 @@ _Choose Attribute Set_
 
     - By default, **Stock Status** is set to `Out of Stock`.
 
-    - The **Weight** field is not used, because downloadable products are not shipped.
+    - Because downloadable products are not shipped, the **Weight** field is not used.
 
     {:.bs-callout-info}
-    **Inventory Management:** If you enable [Inventory Management]({% link catalog/inventory-management.md %}), Single Source merchants set the quantity in this section. Multi Source merchants add sources and quantities in the Sources section. See the following "Assign Sources and Quantities (Inventory Management)" section.
+    **Inventory Management:** If you enable [Inventory Management]({% link catalog/inventory-management.md %}), Single Source merchants set the quantity in this section. Multi Source merchants add sources and quantities in the Sources section. See the following _Assign Sources and Quantities (Inventory Management)_ section.
 
-1. Accept the default **Visibility** setting, `Catalog, Search`.
+1. Accept the default **Visibility** setting of `Catalog, Search`.
 
 1. To feature the product in the list of[ new products]({% link cms/widget-new-products-list.md %}), select the **Set Product as New** checkbox.
 
@@ -113,16 +113,16 @@ _Choose Attribute Set_
 
 ## Step 5: Complete the downloadable information
 
-Scroll down to **Downloadable Information** and expand ![]({% link images/images/btn-expand.png %}){: .Inline} the section. Then, select the **Is this downloadable product?** checkbox.
+Scroll down and expand ![]({% link images/images/btn-expand.png %}){: .Inline} the _Downloadable Information_ section. Then, select the **Is this downloadable product?** checkbox.
 
-The Downloadable Information section has two parts. The first part describes each download link, and the second part describes each sample file. The default value for many of these options can be set in the [configuration]({% link catalog/product-download-options.md %}).
+The _Downloadable Information_ section has two parts. The first part describes each download link, and the second part describes each sample file. The default value for many of these options can be set in the [configuration]({% link catalog/product-download-options.md %}).
 
 ![]({% link images/images/product-downloadable-information.png %}){: .zoom}
 _Downloadable Information_
 
 ### Complete the links
 
-1. In the Links section, enter the **Title** that you want to use as a heading for the download links.
+1. In the _Links_ section, enter the **Title** that you want to use as a heading for the download links.
 
 1. If applicable, select the **Links can be purchased separately** checkbox.
 
@@ -188,15 +188,13 @@ Scroll down and complete the information in the following sections as needed:
 
 ## Step 7: Publish the product
 
-1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` ( ![]({% link images/images/btn-switch-yes.png %}) ).
-
-1. Do one of the following:
+1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` ( ![]({% link images/images/btn-switch-yes.png %}) ) and do one of the following:
 
     **Method 1: Save and Preview**
 
     - In the upper-right corner, click <span class="btn">Save</span>.
 
-    - To view the product in your store, choose **Customer View** on the **Admin** ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
+    - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
 
       The store opens in a new browser tab.
 
@@ -205,17 +203,17 @@ Scroll down and complete the information in the following sections as needed:
 
     **Method 2: Save and Close**
 
-    On the **Save** ( ![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
+    On the _Save_ ( ![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
 
     ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
     _Save & Close_
 
 ## Things to remember
 
-- Downloadable products can be uploaded to the server, or linked to from another server on the Internet.
+- Downloadable products can be uploaded to the server or linked to from another server on the Internet.
 
 - You can determine the number of times a customer can download a product.
 
 - Customers who purchase a downloadable product can be required to log in before going through checkout.
 
-- The delivery of a downloadable product can be made when the order is in either a `Pending` or `Invoiced` state.
+- The delivery of a downloadable product can be made when the order is in either a `Pending` or `Invoiced` status.

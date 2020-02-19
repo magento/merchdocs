@@ -2,7 +2,7 @@
 title: Image Placeholders
 ---
 
-Magento uses temporary images as placeholders until the permanent product images become available. A different placeholder can be uploaded for each role. The initial placeholder image is the Magento logo, which you can replace with an image of your choice.
+Magento uses temporary images as placeholders until the permanent product images become available. A different placeholder can be uploaded for each role. The initial placeholder image is the Magento logo, which you can replace with the image of your choice.
 
 ![]({% link images/images/storefront-image-placeholder.png %}){: .zoom}
 _Image Placeholder_
@@ -13,11 +13,11 @@ _Image Placeholder_
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![Expansion icon]({% link images/images/btn-expand.png %}) the **Product Image Placeholders** section.
+1. Expand ![Expansion icon]({% link images/images/btn-expand.png %}) the _Product Image Placeholders_ section.
 
 1. For each image role, click <span class="btn">Choose File</span>, find the image on your computer, and upload the file.
 
-   You can use the same image for all three roles or you can upload a different placeholder image for each role.
+   You can use the same image for all three roles, or you can upload a different placeholder image for each role.
 
     ![]({% link images/images/config-catalog-catalog-product-image-placeholders.png %}){: .zoom}
     [_Product Image Placeholders_]({% link configuration/catalog/catalog.md %})

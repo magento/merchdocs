@@ -2,12 +2,9 @@
 title: Virtual Product
 ---
 
-Virtual products — or digital goods — represent non-tangible items such as memberships, services, warranties, or subscriptions and digital downloads of books, music, videos, or other products. Virtual products can be sold individually, or included as part of the following product types:
+Virtual products, or digital goods, represent non-tangible items such as memberships, services, warranties, or subscriptions and digital downloads of books, music, videos, or other products. Virtual products can be sold individually or included as part of the [Grouped Product]({% link catalog/product-create-grouped.md %}) or [Bundle Product]({% link catalog/product-create-bundle.md %}) product types.
 
-- [Grouped Product]({% link catalog/product-create-grouped.md %})
-- [Bundle Product]({% link catalog/product-create-bundle.md %})
-
-Aside from the absence of the Weight field, the process of creating a virtual product and a simple product is the same. The following instructions take you through the process of creating a virtual product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}) as needed.
+Aside from the absence of the Weight field, the process of creating a virtual product and a simple product is the same. The following instructions demonstrate the process of creating a virtual product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}), as needed.
 
 {:.bs-callout-info}
 PayPal has deprecated support for the sale of digital goods through PayPal Express Checkout and recommends that you use either [PayPal Payments Standard]({% link payment/paypal-payments-standard.md %}) or any other PayPal payment gateway to process any order that includes virtual products.
@@ -19,7 +16,7 @@ _Virtual Product_
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. On the **Add Product** ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the top-right corner, choose **Virtual Product**.
+1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the top-right corner, choose **Virtual Product**.
 
     ![]({% link images/images/21product-add-virtual.png %}){: .zoom}
     _Add Virtual Product_
@@ -28,7 +25,7 @@ _Virtual Product_
 
 To choose the [attribute set]({% link stores/attribute-sets.md %}) that is used as a template for the product, do one of the following:
 
-- In the **Search** box, enter the name of the attribute set.
+- For **Search**, enter the name of the attribute set.
 
 - In the list, choose the attribute set that you want to use.
 
@@ -39,7 +36,7 @@ _Choose Attribute Set_
 
 ## Step 3: Complete the required settings
 
-1. Enter the product **Product Name**.
+1. Enter the **Product Name**.
 
 1. Accept the default **SKU** that is based on the product name or enter another.
 
@@ -65,14 +62,14 @@ _Choose Attribute Set_
 
 1. Enter the **Quantity** of the product that is currently in stock and do the following:
 
-    - Accept the default **Stock Status** setting, `In Stock`.
+    - Accept the default **Stock Status** setting of `In Stock`.
 
-      Note that the **Weight** field is not used, because a virtual product is not shipped.
+      Because a virtual product is not shipped, the **Weight** field is not used.
 
-    - Accept the default **Visibility** setting, `Catalog, Search`.
+    - Accept the default **Visibility** setting of `Catalog, Search`.
 
     {:.bs-callout-info}
-    **Inventory Management:** If you enable [Inventory Management]({% link catalog/inventory-management.md %}), Single Source merchants set the quantity in this section. Multi Source merchants add sources and quantities in the Sources section. See the following "Assign Sources and Quantities (Inventory Management)" section.
+    **Inventory Management:** If you enable [Inventory Management]({% link catalog/inventory-management.md %}), Single Source merchants set the quantity in this section. Multi Source merchants add sources and quantities in the Sources section. See the following _Assign Sources and Quantities (Inventory Management)_ section.
 
 1. To assign **Categories** to the product, click the **Select…** box and do either of the following:
 
@@ -117,7 +114,7 @@ Complete the information in the following sections as needed:
 
     1. At the top-right corner, click <span class="btn">Save</span>.
 
-    1. To view the product in your store, choose **Customer View** on the **Admin** ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
+    1. To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
 
       The store opens in a new browser tab.
 
@@ -126,7 +123,7 @@ Complete the information in the following sections as needed:
 
     **Method 2: Save and Close**
 
-    On the **Save** (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
+    On the _Save_ (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
 
     ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
     _Save & Close_
@@ -137,4 +134,4 @@ Complete the information in the following sections as needed:
 
 - Virtual products are much like simple products, but without weight.
 
-- Shipping Options do not appear during checkout unless there is a tangible product in the cart.
+- Shipping options do not appear during checkout unless there is a tangible product in the cart.

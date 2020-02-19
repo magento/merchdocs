@@ -2,7 +2,7 @@
 title: Gift Options
 ---
 
-Gift Options can be set at the product level to allow a gift message to be included during checkout. To override the default configuration setting, clear the Use Config Settings checkbox.
+Gift Options can be set at the product level to allow a gift message to be included during checkout. To override the default configuration setting, clear the **Use Config Settings** checkbox.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/product-gift-options.png %}){: .zoom}
@@ -16,7 +16,7 @@ _Gift Options_
 
 1. Open the product in edit mode.
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Gift Options** section and do the following:
+1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the _Gift Options_ section and do the following:
 
     - To override the default setting, clear the **Use Config Settings** checkbox.
 

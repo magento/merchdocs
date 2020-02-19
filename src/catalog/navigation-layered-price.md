@@ -3,7 +3,7 @@ title: Price Navigation
 group: marketing
 ---
 
-Price navigation can be used to distribute products by price range in layered navigation. You can also split each range in intervals. There are ways to calculate price navigation:
+Price navigation can be used to distribute products by price range in layered navigation. You can also split each range in intervals. There are a few ways to calculate price navigation:
 
 - Automatic (Equalize Price Ranges)
 - Automatic (Equalize Product Counts)
@@ -58,7 +58,7 @@ If necessary, first clear the **Use system value** checkbox to change these sett
 
 1. To display a single price when multiple products with the same price, set **Display Price Interval as One Price** to `Yes`.
 
-1. In the **Interval Division Limit** field, enter the threshold for a number of products within a price range.
+1. For **Interval Division Limit**, enter the threshold for a number of products within a price range.
 
    The range cannot be further split beyond this limit. The default value is `9`.
 
@@ -78,5 +78,3 @@ If necessary, first clear the **Use system value** checkbox to change these sett
 
     ![]({% link images/images/config-catalog-catalog-layered-navigation-manual.png %}){: .zoom}
     [_Manual_]({% link configuration/catalog/catalog.md %})
-
-

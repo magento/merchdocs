@@ -3,7 +3,7 @@ conditions: Default.EE-B2B
 title: Configuring Gift Card Accounts
 ---
 
-The Gift Card configuration establishes the default settings for all gift cards for the store view, and manages the code pool. The code pool is a set of unique gift card codes in a specific format. Codes from the pool are used each time a gift card account is created. It is the responsibility of the store administrator to ensure that there are enough codes available for gift card sales. Make sure to generate a code pool before offering gift cards for sale. By default, Magento generates 1,000 codes. A new pool is not generated until there are no more codes available in the current pool.
+The Gift Card configuration establishes the default settings for all gift cards for the store view and manages the code pool. The code pool is a set of unique gift card codes in a specific format. Codes from the pool are used each time a gift card account is created. It is the responsibility of the store administrator to ensure that there are enough codes available for gift card sales. Make sure to generate a code pool before offering gift cards for sale. By default, Magento generates 1,000 codes. A new code pool is not generated until there are no more codes available in the current pool.
 
 ## Step 1: Configure Email Notifications
 
@@ -28,30 +28,30 @@ The Gift Card configuration establishes the default settings for all gift cards 
 
 ## Step 2: Complete the general settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Gift Card General Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the _Gift Card General Settings_ section.
 
 1. To allow the customer to redeem the value on the card for cash, set **Redeemable** to `Yes`.
 
-1. In the **Lifetime (days)** field, enter the number of days before the card expires.
+1. For **Lifetime (days)**, enter the number of days before the card expires.
 
-   Leave the field blank if there is no expiration date.
+   If there is no expiration date, leave the field blank.
 
     {:.bs-callout-info}
     Depending on your location, it may be illegal for gift cards to expire. Check your local laws before setting a lifetime for your gift cards.
 
-1. If you want the customer to have the option to enter a message to accompany the gift card, set **Allow Gift Message** to `Yes` and enter the number of characters available for the message in the **Gift Message Maximum Length** field.
+1. If you want the customer to have the option to enter a message to accompany the gift card, set **Allow Gift Message** to `Yes` and enter the number of characters available for the message for **Gift Message Maximum Length**.
 
 1. Set **Generate Gift Card Account when Orders Item is** to one of the following:
 
-    | Ordered | The gift card account is created when the order is placed. |
-    | Invoiced | The gift card account is created after payment is captured and the order is invoiced. |
+    |Ordered|The gift card account is created when the order is placed. |
+    |Invoiced|The gift card account is created after payment is captured and the order is invoiced. |
 
     ![]({% link images/images/config-sales-gift-cards-gift-card-general-settings.png %}){: .zoom}
     [_Gift Card General Settings_]({% link configuration/sales/gift-cards.md %})
 
 ## Step 3: Establish the gift card code pool
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Gift Card Account General Settings** section and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the _Gift Card Account General Settings_ section and do the following:
 
     ![]({% link images/images/config-sales-gift-cards-gift-card-account-general-settings.png %}){: .zoom}
     [_Gift Card Account General Settings_]({% link configuration/sales/gift-cards.md %})
