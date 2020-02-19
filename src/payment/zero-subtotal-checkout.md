@@ -41,6 +41,6 @@ _Zero Subtotal Checkout_
      |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
      |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
 
-   * Enter a **Sort Order** number to determine the position of Zero Subtotal Checkout in the list of payment methods during checkout. (0 = first, 1 = second, 2 = third, and so on.)
+   - Enter a **Sort Order** number to determine the position of Zero Subtotal Checkout in the list of payment methods during checkout. (0 = first, 1 = second, 2 = third, and so on.)
 
 1. When complete, tap <span class="btn"> Save Config </span>.

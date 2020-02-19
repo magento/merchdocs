@@ -19,14 +19,14 @@ _Exported Configurable Product Data_
 
 |Attribute|Description|
 |--- |--- |
-|associated_skus|Identifies the SKUs of the individual products that make up the group.|
+|configurable_variation_labels|Labels that identify product variations. For example: `Choose Color:` or `Choose Size:`|
+|configurable_variations|Describes the values associated with a product variation. For example: `sku=sku-red xs,color=red,size=xs,price=10.99,display=1,image=/pub/media/import/image1.png|sku=sku-red-m,color=red,size=m,price=20.88,display=1,image=/pub/media/import/image2.png`|
 
 ### Grouped Products
 
 |Attribute|Description|
 |--- |--- |
-|configurable_variation_labels|Labels that identify product variations. For example: `Choose Color:` or `Choose Size:`|
-|configurable_variations|Describes the values associated with a product variation. For example: `sku=sku-red xs,color=red,size=xs,price=10.99,display=1,image=/pub/media/import/image1.png|sku=sku-red-m,color=red,size=m,price=20.88,display=1,image=/pub/media/import/image2.png`|
+|associated_skus|Identifies the SKUs of the individual products that make up the group.|
 
 ### Bundle Products
 
