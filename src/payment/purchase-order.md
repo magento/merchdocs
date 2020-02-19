@@ -33,6 +33,6 @@ _Purchase Order_
      {:.bs-callout-info}
      An order qualifies if the total falls between, or exactly matches, the minimum or maximum total values.
 
-   * Enter a **Sort Order** number to determine the position of Purchase Order in the list of payment methods during checkout. (0 = first, 1 = second, 2 = third, and so on.)
+   - Enter a **Sort Order** number to determine the position of Purchase Order in the list of payment methods during checkout. (0 = first, 1 = second, 2 = third, and so on.)
 
 1. When complete, tap <span class="btn"> Save Config </span>.
