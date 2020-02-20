@@ -16,22 +16,23 @@ The following instructions take you through the process of creating a downloadab
 {:.bs-callout-info}
 Downloadable file names can include letters and numbers. Either a dash or underscore character can be used to represent a space between words. Any invalid characters in the file name are replaced with an underscore.
 
-## Step 1: Choose the Product Type
+## Step 1: Choose the product type
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. In the upper-right corner on the **Add Product** ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu, choose **Downloadable Product**.
+1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the top-right corner, choose `Downloadable Product`.
 
     ![]({% link images/images/21product-add-downloadable.png %}){: .zoom}
     _Add Downloadable Product_
 
-## Step 2: Choose the Attribute Set
+## Step 2: Choose the attribute set
 
-The sample data includes an [attribute set]({% link stores/attribute-sets.md %}) called “Downloadable” that has special fields for downloadable products. You can use an existing template, or create another before the product is saved.
+The sample data includes an [attribute set]({% link stores/attribute-sets.md %}) called _Downloadable_ that has special fields for downloadable products. You can use an existing template or create another before the product is saved.
 
 To choose the attribute set that is used as a template for the product, do one of the following:
 
-- In the **Search** box, enter the name of the attribute set.
+- For **Search**, enter the name of the attribute set.
+
 - In the list, choose the `Downloadable` attribute set.
 
 The form is updated to reflect the change.
@@ -39,46 +40,48 @@ The form is updated to reflect the change.
 ![]({% link images/images/product-create-choose-attribute-set-downloadable.png %}){: .zoom}
 _Choose Attribute Set_
 
-## Step 3: Complete the Required Settings
+## Step 3: Complete the required settings
 
-1. Enter the product **Product Name**.
+1. Enter the **Product Name**.
 
-1. Accept the default **SKU** that is based on the product name, or enter another.
+1. Accept the default **SKU** that is based on the product name or enter another.
 
 1. Enter the product **Price**.
 
-1. Because the product is not yet ready to publish, set **Enable Product** to `No` ( ![]({% link images/images/btn-switch-no.png %}){: .Inline} ).
+1. Because the product is not yet ready to publish, set **Enable Product** to `No` ( ![]({% link images/images/btn-switch-no.png %}) ).
 
 1. Click <span class="btn">Save</span> and continue.
 
-    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the upper-left corner.
+    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the top-left corner.
 
 1. Choose the **Store View** where the product is to be available.
 
     ![]({% link images/images/product-create-store-view-choose.png %}){: .zoom}
     _Choose Store View_
 
-## Step 4: Complete the Basic Settings
+## Step 4: Complete the basic settings
 
 1. Set **Tax Class** to one of the following:
 
-    - None
-    - Taxable Goods
+    - `None`
+    - `Taxable Goods`
 
-1. Enter the **Quantity** of the product that is currently in stock. For Multi Source merchants with Inventory Management, see the expanded instructions.
+1. Enter the **Quantity** of the product that is currently in stock.
 
-    Take note of the following:
+   Take note of the following:
 
     - By default, **Stock Status** is set to `Out of Stock`.
-    - The **Weight** field is not used, because downloadable products are not shipped.
 
-    {% include inventory-assign-sources-quantities.md %}
+    - Because downloadable products are not shipped, the **Weight** field is not used.
 
-1. Accept the default **Visibility** setting, `Catalog, Search`.
+    {:.bs-callout-info}
+    **Inventory Management:** If you enable [Inventory Management]({% link catalog/inventory-management.md %}), Single Source merchants set the quantity in this section. Multi Source merchants add sources and quantities in the Sources section. See the following _Assign Sources and Quantities (Inventory Management)_ section.
+
+1. Accept the default **Visibility** setting of `Catalog, Search`.
 
 1. To feature the product in the list of[ new products]({% link cms/widget-new-products-list.md %}), select the **Set Product as New** checkbox.
 
-1. To assign **Categories** to the product, click the **Select…** box. Then, do either of the following:
+1. To assign **Categories** to the product, click the **Select…** box and do either of the following:
 
     **Choose an existing category:**
 
@@ -96,45 +99,47 @@ _Choose Attribute Set_
 
 1. Set **Format** to one of the following:
 
-    - Download
-    - DVD
+    - `Download`
+    - `DVD`
 
     If necessary, you can edit the [attribute]({% link stores/attribute-product-create.md %}) to add more values.
 
     ![]({% link images/images/product-details-downloadable.png %}){: .zoom}
     _Product Details_
 
-    There might be additional attributes that describe the product. The selection varies by attribute set, and you can complete them later.
+    There might be additional attributes that describe the product. The selection varies by attribute set and you can complete them later.
 
-## Step 5: Complete the Downloadable Information
+{% include inventory-assign-sources-quantities.md %}
 
-Scroll down to **Downloadable Information** and expand ![]({% link images/images/btn-expand.png %}){: .Inline} the section. Then, select the **Is this downloadable product?** checkbox.
+## Step 5: Complete the downloadable information
 
-The Downloadable Information section has two parts. The first part describes each download link, and the second part describes each sample file. The default value for many of these options can be set in the [configuration]({% link catalog/product-download-options.md %}).
+Scroll down and expand ![]({% link images/images/btn-expand.png %}){: .Inline} the _Downloadable Information_ section. Then, select the **Is this downloadable product?** checkbox.
+
+The _Downloadable Information_ section has two parts. The first part describes each download link, and the second part describes each sample file. The default value for many of these options can be set in the [configuration]({% link catalog/product-download-options.md %}).
 
 ![]({% link images/images/product-downloadable-information.png %}){: .zoom}
 _Downloadable Information_
 
-### Complete the Links
+### Complete the links
 
-1. In the Links section, enter the **Title** that you want to use as a heading for the download links.
+1. In the _Links_ section, enter the **Title** that you want to use as a heading for the download links.
 
 1. If applicable, select the **Links can be purchased separately** checkbox.
 
-1. Click <span class="btn">Add Link</span>. Then, do the following:
+1. Click <span class="btn">Add Link</span> and do the following:
 
    - Enter the **Title** and **Price** of the download.
 
    - For both **File** and **Sample** files, choose one of the following methods of distribution for the downloads:
 
-      - **Upload File** - To upload the the distribution file to the server, choose `Upload File`. Then, browse to the file, and select it for upload.
-      - **URL** - To access the distribution file from a URL, choose `URL`. Then, enter the full URL to the download file.
+      |Upload File|Choose this method to upload the the distribution file to the server. Browse to the file and select it for upload.|
+      |URL|Choose this method to access the distribution file from a URL. Enter the full URL to the download file.|
 
    - Set **Shareable** to one of the following:
 
-      - **No** - Requires customers to log in to their accounts to access the download link.
-      - **Yes** - Sends the link by email, which customers can share with others.
-      - **Use Config** - Uses the method that is specified in the [Dowloadable Product Options]({% link configuration/catalog/catalog.md %}) configuration.
+      |No|Requires customers to log in to their accounts to access the download link.|
+      |Yes|Sends the link by email, which customers can share with others.|
+      |Use Config|Uses the method that is specified in the [Dowloadable Product Options]({% link configuration/catalog/catalog.md %}) configuration.|
 
    - Do one of the following:
 
@@ -144,11 +149,11 @@ _Downloadable Information_
     ![]({% link images/images/product-downloadable-link-detail.png %}){: .zoom}
     _Link Detail_
 
-1. To add another link, click <span class="btn">Add Link</span>. Then, repeat these steps.
+1. To add another link, click <span class="btn">Add Link</span> and repeat these steps.
 
-### Complete the Samples
+### Complete the samples
 
-1. In the Samples section, enter the **Title** that you want to use as a heading for the samples.
+1. In the _Samples_ section, enter the **Title** that you want to use as a heading for the samples.
 
 1. To complete the information for each sample, click <span class="btn">Add Link</span>.
 
@@ -161,14 +166,14 @@ _Downloadable Information_
 
    - Choose one of the following distribution methods:
 
-      - **Upload File** - To upload the the sample distribution file to the server, choose `Upload File`. Then, browse to the file and select it for upload.
-      - **URL** - To access the sample distribution file from a URL, choose `URL`. Then, enter the full URL to the download file.
+      |Upload File|Choose this method to upload the the distribution file to the server. Browse to the file and select it for upload.|
+      |URL|Choose this method to access the distribution file from a URL. Enter the full URL to the download file.|
 
    - To add another sample, click <span class="btn">Add Link</span> and repeat these steps.
 
-   - To change the order of the samples, grab the **Change Order** ( ![]({% link images/images/btn-sort-order-inline.png %}){: .Inline} ) icon and drag the sample to a new position.
+   - To change the order of the samples, grab the **Change Order** ( ![]({% link images/images/btn-sort-order-inline.png %}) ) icon and drag the sample to a new position.
 
-## Step 6: Complete the Product Information
+## Step 6: Complete the product information
 
 Scroll down and complete the information in the following sections as needed:
 
@@ -181,34 +186,34 @@ Scroll down and complete the information in the following sections as needed:
 - [Design]({% link catalog/settings-advanced-design.md %})
 - [Gift Options]({% link catalog/product-gift-options.md %})
 
-## Step 7: Publish the Product
+## Step 7: Publish the product
 
-1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` ( ![]({% link images/images/btn-switch-yes.png %}){: .Inline} ).
-
-1. Do one of the following:
+1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` ( ![]({% link images/images/btn-switch-yes.png %}) ) and do one of the following:
 
     **Method 1: Save and Preview**
 
     - In the upper-right corner, click <span class="btn">Save</span>.
 
-    - To view the product in your store, choose **Customer View** on the **Admin** ( ![]({% link images/images/btn-dropdown-blk.png %}){: .Inline} ) menu. The store opens in a new browser tab.
+    - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
 
-    ![]({% link images/images/admin-customer-view.png %}){: .zoom}
-    _Customer View_
+      The store opens in a new browser tab.
+
+      ![]({% link images/images/admin-customer-view.png %}){: .zoom}
+      _Customer View_
 
     **Method 2: Save and Close**
 
-    On the **Save** ( ![]({% link images/images/btn-dropdown.png %}){: .Inline} ) menu, choose **Save & Close**.
+    On the _Save_ ( ![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
 
     ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
     _Save & Close_
 
-## Things to Remember
+## Things to remember
 
-- Downloadable products can be uploaded to the server, or linked to from another server on the Internet.
+- Downloadable products can be uploaded to the server or linked to from another server on the Internet.
 
 - You can determine the number of times a customer can download a product.
 
 - Customers who purchase a downloadable product can be required to log in before going through checkout.
 
-- The delivery of a downloadable product can be made when the order is in either a `Pending` or `Invoiced` state.
+- The delivery of a downloadable product can be made when the order is in either a `Pending` or `Invoiced` status.

@@ -229,10 +229,10 @@ You may have to close and reopen the Git Bash application after the Choco instal
 
 1. Open Git Bash. The **Git Bash** executable is on the shortcut menu.
 
-1. Change to the directory you created for Git repositories and clone the DevDocs repository.
+1. Change to the directory you created for Git repositories and clone the MerchDocs repository.
 
     ```bash
-    git clone git@github.com:magento-docs/merchdocs.git
+    git clone git@github.com:magento/merchdocs.git
     ```
 
 1. Change to the `merchdocs` directory.

@@ -12,76 +12,76 @@ Verify that [Magento Shipping]({% link shipping/magento-shipping-setup.md %}) is
 
 In this step, you will create a Batch Fulfillment Rule to automate the batch processing of shipments. To learn more, see: [Shipping Experience Rules]({% link shipping/magento-shipping-experience-rules.md %}).
 
-1.  In the _Admin_ sidebar, choose **Stores**.
+1. In the _Admin_ sidebar, choose **Stores**.
 
-1.  In the _Shipping_ section, choose **Experiences**.
+1. In the _Shipping_ section, choose **Experiences**.
 
-1.  Create a new experience:
+1. Create a new experience:
 
-    *  Click **Create New Experience**.
+    - Click **Create New Experience**.
 
-    *  Enter a descriptive **Name** for the new rule.
+    - Enter a descriptive **Name** for the new rule.
 
-    *  Set the **Status** of the rule to `Production`.
+    - Set the **Status** of the rule to `Production`.
 
-1.  Create a rule:
+1. Create a rule:
 
-    *  Scroll down to the _Batch Fulfillment Rules_ section.
+    - Scroll down to the _Batch Fulfillment Rules_ section.
 
-    *  Click **Create Rule**.
+    - Click **Create Rule**.
 
         ![]({% link images/images/shipping-magento-shipping-experiences-batch-fulfilment-rules.png %}){: .zoom}
         _Batch Fulfillment Rules_
 
-    *  Enter a brief **Description** of the rule that states its purpose and the conditions that trigger the rule.
+    - Enter a brief **Description** of the rule that states its purpose and the conditions that trigger the rule.
 
        Because this rule is to run every time, accept the default **Condition** value of `Always`.
 
        ![]({% link images/images/shipping-magento-shipping-experiences-batch-fulfilment-rule-condition.png %}){: .zoom}
        _Condition_
 
-1.  In the **Outcomes** section, set **Action** to one of the following:
+1. In the **Outcomes** section, set **Action** to one of the following:
 
     - Book Shipment with Cheapest Carrier Service
     - Book Shipment with Carrier Service
 
-1.  Choose the carrier(s) and services that you want to use for fulfilling the orders in the batch.
+1. Choose the carrier(s) and services that you want to use for fulfilling the orders in the batch.
 
     ![]({% link images/images/shipping-magento-shipping-experiences-batch-fulfilment-rule-outcome.png %}){: .zoom}
     _Outcome_
 
-1.  Click **Save**.
+1. Click **Save**.
 
 ## Step 2: Process a Batch of Orders
 
 A batch of orders can be processed if there is one or more in the Orders grid with the status of `Pending`.
 
-1.  On the _Admin_ sidebar, choose **Sales**.
+1. On the _Admin_ sidebar, choose **Sales**.
 
-1.  Choose **Orders**, and do the following:
+1. Choose **Orders**, and do the following:
 
-1.  In the _Orders_ grid, select the checkbox of each order to include in the batch.
+1. In the _Orders_ grid, select the checkbox of each order to include in the batch.
 
-1.  Set up the batch processing:
+1. Set up the batch processing:
 
-    -  Set the **Actions** control to `Batch Process`.
+    - Set the **Actions** control to `Batch Process`.
 
        ![]({% link images/images/orders-actions-batch-process.png %}){: .zoom}
        _Action - Batch Process_
 
        Follow the progress indicator at the top of the page, as you complete the following:
 
-    -  To complete Step 1, choose the **Origin Location** to establish where the orders to be shipped are booked. Then in the upper-right corner, click **Next**.
+    - To complete Step 1, choose the **Origin Location** to establish where the orders to be shipped are booked. Then in the upper-right corner, click **Next**.
 
        ![]({% link images/images/order-batch-create-origin.png %}){: .zoom}
        _Step 1: Choose the Origin_
 
-    -  To complete Step 2, review the orders in the grid. If necessary, clear the checkmark of any order that you do not want to include in the batch. Then, click **Next**.
+    - To complete Step 2, review the orders in the grid. If necessary, clear the checkmark of any order that you do not want to include in the batch. Then, click **Next**.
 
        ![]({% link images/images/order-batch-confirm.png %}){: .zoom}
        _Step 2: Confirm Shipments(s) to Process_
 
-    -  In Step 3, complete the detail information for each order in the batch to prepare orders for booking.
+    - In Step 3, complete the detail information for each order in the batch to prepare orders for booking.
 
 ### Prepare orders for booking
 
@@ -89,7 +89,7 @@ In Step 3 of the batch processing workflow, you must define the packaging of eac
 
 The _Prepare orders for booking_ page is wider than most pages, and includes a section for each order in the batch.
 
-1.  Describe each package in each order:
+1. Describe each package in each order:
 
     - Choose the **Package Type**.
 
@@ -99,24 +99,24 @@ The _Prepare orders for booking_ page is wider than most pages, and includes a s
 
     - Enter the number of each item that is included in the package.
 
-1.  To ship the order in multiple packages, click **Add Another Package**. Then, complete the previous step to describe the additional package and its contents.
+1. To ship the order in multiple packages, click **Add Another Package**. Then, complete the previous step to describe the additional package and its contents.
 
-1.  If you need to remove a package, click ![]({% link images/images/btn-delete.png %}) to the right of the Weight Unit field.
+1. If you need to remove a package, click ![]({% link images/images/btn-delete.png %}) to the right of the Weight Unit field.
 
     {:.bs-callout-info}
     Items in a removed package are not automatically restored to the previous package. In such a case, it is necessary to update the Package Contents field manually or add another package.
 
-1.  Choose the applicable **Shipping Experience**.
+1. Choose the applicable **Shipping Experience**.
 
-1.  Specify optional delivery options:
+1. Specify optional delivery options:
 
-    -  Under **Add-ons**, choose one of the following types of destination address:
+    - Under **Add-ons**, choose one of the following types of destination address:
 
        - Business
        - Residential
        - Post office box
 
-1.  Mark the checkbox of any additional delivery options that apply to the shipment.
+1. Mark the checkbox of any additional delivery options that apply to the shipment.
 
     {:.bs-callout-info}
     The selection of options depends on the carrier and service.
@@ -126,7 +126,7 @@ The _Prepare orders for booking_ page is wider than most pages, and includes a s
     ![]({% link images/images/order-batch-booking-prepare.png %}){: .zoom}
     _Step 3: Prepare for Booking_
 
-1.  Click **Finish**.
+1. Click **Finish**.
 
 The new batch appears at the top of the Batches grid, with the status of `Created`.
 
@@ -153,8 +153,8 @@ When a batch receives responses from all of the carriers regarding booking reque
 
 1. Do one of the following to print the documentation associated with the batch:
 
-   -  Click **Print All Packing Slips**.
-   -  Click **Download Documentation Links**.
+   - Click **Print All Packing Slips**.
+   - Click **Download Documentation Links**.
 
    All of the associated documentation is collated into a single file for you to print. Downloaded documentation is saved as a compressed zip file, and each individual document is saved as a .PNG file.
 
