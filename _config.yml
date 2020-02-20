@@ -3,6 +3,7 @@ title: Magento User Guide
 description: Merchant documentation and tutorials to help you manage a Magento store
 logo: User Guide
 baseurl: ''
+url: "https://docs.magento.com"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge

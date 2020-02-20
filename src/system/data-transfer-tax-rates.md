@@ -2,7 +2,10 @@
 title: Import/Export Tax Rates
 ---
 
-If you conduct business in several states and ship a large quantity of product, entering tax rates manually can be very time consuming. It is faster and more efficient to download tax rates by ZIP code and import them into Magento. The following example shows how to import a set of California tax rates downloaded from the [Avalara][1]{:target="_blank"} website. Avalara is a [Magento Technology Partner][2]{:target="_blank"} and provides [tax rate tables][3]{:target="_blank"} for every ZIP code in the United States, which you can download at no charge.
+If you conduct business in several states and ship a large quantity of product, entering tax rates manually can be very time consuming. It is faster and more efficient to download tax rates by ZIP code and import them into Magento. The following example shows how to import a set of state-specific tax rates downloaded from the a trusted source. Avalara provides [tax rate tables](http://www.avalara.com/taxrates/en/download-tax-tables.html), that you can download at no charge, for every ZIP code in the United States.
+
+{:.bs-callout .bs-callout-info}
+If you are interested in automating your sales and use tax compliance and reporting, Magento versions 2.2.4+ and 2.3.0+ offer [Vertex Cloud]({% link tax/vertex.md %}){:target=“_blank”} as a trusted, built-in option. You can also find Magento-trusted options on the [Magento Partners](https://partners.magento.com/portal/directory/?_token=_vJAasZxq5QA0moyZVfX1SczSr3WWWRp&query=sales+tax) site.
 
 ## Step 1: Export the Magento Tax Rate Data
 
@@ -12,7 +15,7 @@ If you conduct business in several states and ship a large quantity of product, 
 
 1. Look for the file in the download location for your web browser.
 
-1. Save the file, and then open it in a spreadsheet.
+1. Save and open the file in a spreadsheet.
 
     This example uses OpenOffice Calc.
 
@@ -46,9 +49,9 @@ If you conduct business in several states and ship a large quantity of product, 
 
 ## Step 2: Prepare the Import Data
 
-You now have two spreadsheets open, side by side. One with the Magento export file structure, and the other with the new tax rate data that you want to import.
+You have two spreadsheets open, side by side. One contains the Magento export file structure, and the other contains the new tax rate data that you want to import.
 
-1. To create a place to work in the spreadsheet with the new data, insert as many blank columns at the far left as needed and use cut-and-paste to rearrange the columns so they match the order of the Magento export data.
+1. To create a place to work in the spreadsheet with the new tax rate data, insert as many blank columns at the far right as needed to add data from the Magento export file. Use cut-and-paste to add the data and then rearrange the columns so they match the order of the Magento export data file.
 
 1. Rename the column headers to match the Magento export data.
 
@@ -62,7 +65,7 @@ You now have two spreadsheets open, side by side. One with the Magento export fi
 
 1. Save the prepared data as a .CSV file.
 
-   When prompted, verify that a comma is used a **Field delimiter** and double quotes as the **Text delimiter** and click **OK**.
+   When prompted, verify that a comma is used as a Field delimiter and double quotes as the Text delimiter. Then click **OK**.
 
 ## Step 3: Import the Tax Rates
 
@@ -70,7 +73,7 @@ You now have two spreadsheets open, side by side. One with the Magento export fi
 
 1. Click **Browse** and choose the CSV tax rate file that you prepared to import. Then, click **Import Tax Rates**.
 
-    It might take several minutes to import the data. When the process is complete, the message, `The tax rate has been imported` appears. If you receive an error message, correct the problem in the data and try again.
+    It might take several minutes to import the data. When the process is complete, the `The tax rate has been imported` message appears. If you receive an error message, correct the problem in the data and try again.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Zones and Rates**.
 
@@ -82,7 +85,3 @@ You now have two spreadsheets open, side by side. One with the Magento export fi
     _Imported Tax Rates_
 
 1. Run some test transactions in your store with customers from different ZIP codes to make sure that the new tax rates work correctly.
-
-[1]: https://partners.magento.com/portal/details/partner/id/30
-[2]: http://partners.magento.com/partner_locator/search.aspx?f0=Types+of+Partners&amp;f0v0=Technology+Partner
-[3]: http://www.avalara.com/taxrates/en/download-tax-tables.html

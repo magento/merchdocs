@@ -6,6 +6,9 @@
 # For example, 'preview:all' is defined in the 'rakelib/preview.rake' file.
 # To see the list of tasks to use, run 'rake -T'.
 
+# Copyright © Magento, Inc. All rights reserved.
+# See COPYING.txt for license details.
+
 require 'html-proofer'
 require 'kramdown'
 require 'launchy'

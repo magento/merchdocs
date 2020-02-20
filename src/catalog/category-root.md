@@ -13,11 +13,11 @@ From the Admin, the category structure is like an upside-down tree, with the roo
 
 The following example shows how to create a new root category and assign it to a different store.
 
-## Step 1: Create a New Root Category
+## Step 1: Create a new root category
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
 
-1. In the panel on the left, click <span class="btn">Add Root Category</span>.
+1. On the left, click <span class="btn">Add Root Category</span>.
 
     <!--{% if "Default.CE Only" contains site.edition %}-->
     ![]({% link images/images/category-root.png %}){: .zoom}
@@ -40,13 +40,13 @@ The following example shows how to create a new root category and assign it to a
 
 1. When complete, click <span class="btn">Save</span>.
 
-## Step 2: Build Out the Main Menu
+## Step 2: Build out the main menu
 
-1. In the panel on the left, select the new root category that you created in the previous step.
+1. On the left, select the new root category that you created in the previous step.
 
-1. Click <span class="btn">Add Subcategory</span>. Then, follow the instructions to create the [category structure]({% link catalog/category-create.md %}) for the main menu.
+1. Click <span class="btn">Add Subcategory</span> and follow the instructions to create the [category structure]({% link catalog/category-create.md %}) for the main menu.
 
-## Step 3: Assign the Root Category to the Store
+## Step 3: Assign the root category to the store
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **All Stores**.
 
@@ -54,7 +54,9 @@ The following example shows how to create a new root category and assign it to a
 
 1. Set **Root Category** to the new root category that you created.
 
-1. Make sure that the store has a **Default Store View** assigned. The store must have at least one [store view]({% link stores/stores-all-create-view.md %}).
+1. Make sure that the store has a **Default Store View** assigned.
+
+   The store must have at least one [store view]({% link stores/stores-all-create-view.md %}).
 
 1. When complete, click <span class="btn">Save Store</span>.
 

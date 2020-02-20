@@ -7,7 +7,7 @@ Friction-Free Purchasing
 :  Magento’s self-service model makes it easy to build loyalty for fast, [friction-free purchasing]({% link customers/account-dashboard.md %}).
 
 Fast Reordering
-:  CUstomers can create new orders based on [previous orders]({% link customers/account-dashboard-my-orders.md %}) from the convenience of their customer account.
+:  Customers can create new orders based on [previous orders]({% link customers/account-dashboard-my-orders.md %}) from the convenience of their customer account.
 
 Order by SKU
 :  Customers can add individual products to their cart [by SKU]({% link sales/order-by-sku.md %}) and quantity or import a list of products from a file.
