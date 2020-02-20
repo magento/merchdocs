@@ -18,7 +18,7 @@ _Click for Price_
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. If applicable, set **Store View** at the top-right corner to the view where the configuration applies.
+1. If applicable, set **Store View** at the upper-right corner to the view where the configuration applies.
 
 1. In the left panel, expand **Sales** and choose **Sales** underneath.
 
@@ -37,7 +37,7 @@ Use one of the following methods to configure the MAP settings:
 
 1. To determine when and where you want the actual price to be visible to customers, do the following:
 
-    - To change the default value, clear the **Use system value** checkbox.
+    - To change the default value, deselect the **Use system value** checkbox.
 
     - Set **Display Actual Price** to one of the following:
         - In Cart

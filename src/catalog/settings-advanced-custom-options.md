@@ -25,7 +25,7 @@ _Cart with Customizable Option and Price Rule_
    ![]({% link images/images/product-customizable-options.png %}){: .zoom}
    _Customizable Options_
 
-1. In the top-left corner, click <span class="btn">New Option</span>.
+1. In the upper-left corner, click <span class="btn">New Option</span>.
 
 1. Complete the new option settings:
 
@@ -33,7 +33,7 @@ _Cart with Customizable Option and Price Rule_
 
    - Set the **Option Type** for data entry.
 
-   - If the option is not required to purchase the product, clear the **Required** checkbox.
+   - If the option is not required to purchase the product, deselect the **Required** checkbox.
 
    ![]({% link images/images/product-customizable-options-new-option.png %}){: .zoom}
    _New Option_

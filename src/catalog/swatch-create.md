@@ -37,7 +37,7 @@ Use either of the following methods to create swatches for your products.
 
         ![]({% link images/images/attribute-swatch-color-picker-hex-value.png %}){: .zoom}
 
-    - To save the swatch, click the Color Wheel ( ![]({% link images/images/btn-color-wheel.png %})) in the bottom-right corner of the color picker.
+    - To save the swatch, click the Color Wheel ( ![]({% link images/images/btn-color-wheel.png %})) in the lower-right corner of the color picker.
 
     - In the **Admin** column, enter a label to describe the color to the store administrator.
 

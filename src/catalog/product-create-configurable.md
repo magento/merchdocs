@@ -31,7 +31,7 @@ The properties of each attribute that is used for a configurable product variati
 
 1. On the _Admin_ sidebar, go to  **Catalog** > **Products**.
 
-1. On the **Add Product** ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the top-right corner, choose **Configurable Product**.
+1. On the **Add Product** ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right corner, choose **Configurable Product**.
 
     ![]({% link images/images/21product-add-configurable.png %}){: .zoom}
     _Add Configurable Product_
@@ -64,7 +64,7 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
 1. Click <span class="btn">Save</span> and continue.
 
-    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the top-left corner.
+    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the upper-left corner.
 
 1. Choose the **Store View** where the product is to be available.
 
@@ -117,7 +117,7 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
 ### Step 5: Save and continue
 
-This is a good time to save your work. In the top-right corner, click <span class="btn">Save</span>. In the next series of steps, you’ll set up the configurations for each variation of the product.
+This is a good time to save your work. In the upper-right corner, click <span class="btn">Save</span>. In the next series of steps, you’ll set up the configurations for each variation of the product.
 
 ## Part 2: Adding configurations
 
@@ -152,7 +152,7 @@ _Progress Bar_
 
    - Select the checkbox to select the attribute.
 
-1. In the top-right corner, click <span class="btn">Next</span>.
+1. In the upper-right corner, click <span class="btn">Next</span>.
 
 ### Step 2: Enter the attribute values
 
@@ -255,7 +255,7 @@ Because we already uploaded an image for the parent product, we’ll use this op
     ![]({% link images/images/product-configurations-quantity-different.png %}){: .zoom}
     _Different Quantities per Attribute_
 
-When configuration for images, price, and quantity are complete, click <span class="btn">Next</span> in the top-right corner.
+When configuration for images, price, and quantity are complete, click <span class="btn">Next</span> in the upper-right corner.
 
 ### Step 4: Generate the product configurations
 
@@ -304,7 +304,7 @@ Scroll down and complete the information in the following sections as needed:
 
     **Method 1: Save and preview**
 
-    - In the top-right corner, click <span class="btn">Save</span>.
+    - In the upper-right corner, click <span class="btn">Save</span>.
 
     - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
 

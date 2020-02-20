@@ -48,7 +48,7 @@ You can click **Use Default Value** (![]({% link images/images/btn-use-default.p
 
 ## Delete a watermark
 
-1. In the bottom-left corner of the image, click **Delete** ( ![]({% link images/images/btn-trashcan2.png %}) ).
+1. In the lower-left corner of the image, click **Delete** ( ![]({% link images/images/btn-trashcan2.png %}) ).
 
     ![]({% link images/images/product-image-watermark-delete.png %}){: .zoom}
     _Delete Watermark_

@@ -10,7 +10,7 @@ A bundle is a _build your own_, customizable product. Each item in a bundle can 
     ![]({% link images/images/product-bundle.png %}){: .zoom}
     _Bundle Product_
 
-The selection of options appears when the customer clicks either the _Customize_ and _Add to Cart_ button. Because the products that are included in the bundle vary, the SKU, Price, and Weight can be set to either a dynamic or fixed value.
+The selection of options appears when the customer clicks either _Customize_ or _Add to Cart_. Because the products that are included in the bundle vary, the SKU, Price, and Weight can be set to either a dynamic or fixed value.
 
 {:.bs-callout-info}
 Minimum Advertised Price (MAP) is not available for Bundle products with dynamic pricing.
@@ -26,7 +26,7 @@ The following instructions take you through the process of creating a bundle pro
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. In the top-right corner on the **Add Product** ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu, choose **Bundle Product**.
+1. In the upper-right corner on the **Add Product** ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu, choose **Bundle Product**.
 
     ![]({% link images/images/21product-add-bundle.png %}){: .zoom}
     _Add Bundle Product_
@@ -68,7 +68,7 @@ _Choose Template_
 
 1. Click <span class="btn">Save</span> and continue.
 
-    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the top-left corner.
+    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the upper-left corner.
 
 1. Choose the **Store View** where the product is to be available.
 
@@ -218,7 +218,7 @@ Scroll down and complete the information in the following sections as needed:
 
     **Method 1: Save and preview**
 
-    - In the top-right corner, click <span class="btn">Save</span>.
+    - In the upper-right corner, click <span class="btn">Save</span>.
 
     - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
 

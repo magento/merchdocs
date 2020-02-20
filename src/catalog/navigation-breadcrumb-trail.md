@@ -18,7 +18,7 @@ _Breadcrumb Trail_
 
     - Expand the **Default Pages** section.
 
-    - Clear the **Use system value** checkbox.
+    - Deselect the **Use system value** checkbox.
 
     - Set **Show Breadcrumbs for CMS Pages** to `No`.
 

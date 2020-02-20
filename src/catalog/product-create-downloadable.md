@@ -20,7 +20,7 @@ Downloadable file names can include letters and numbers. Either a dash or unders
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the top-right corner, choose `Downloadable Product`.
+1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right corner, choose `Downloadable Product`.
 
     ![]({% link images/images/21product-add-downloadable.png %}){: .zoom}
     _Add Downloadable Product_
@@ -52,7 +52,7 @@ _Choose Attribute Set_
 
 1. Click <span class="btn">Save</span> and continue.
 
-    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the top-left corner.
+    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the upper-left corner.
 
 1. Choose the **Store View** where the product is to be available.
 
@@ -192,7 +192,7 @@ Scroll down and complete the information in the following sections as needed:
 
     **Method 1: Save and Preview**
 
-    - In the top-right corner, click <span class="btn">Save</span>.
+    - In the upper-right corner, click <span class="btn">Save</span>.
 
     - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
 

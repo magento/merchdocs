@@ -13,7 +13,7 @@ _Simple Product_
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the top-right, choose **Simple Product**.
+1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right, choose **Simple Product**.
 
     ![]({% link images/images/product-add-simple.png %}){: .zoom}
     _Add Simple Product_
@@ -43,7 +43,7 @@ _Choose Attribute Set_
 
 1. Click <span class="btn">Save</span> and continue.
 
-    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the top-left corner.
+    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the upper-left corner.
 
 1. Choose the **Store View** where the product is to be available.
 
@@ -116,7 +116,7 @@ Scroll down and complete the information in the following sections as needed:
 
     **Method 1: Save and Preview**
 
-    1. In the top-right corner, click <span class="btn">Save</span>.
+    1. In the upper-right corner, click <span class="btn">Save</span>.
 
     1. To view the product in your store, choose **Customer View** on the **Admin** (![]({% link images/images/btn-dropdown-blk.png %})) menu.
 

@@ -13,7 +13,7 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Catalog Search** section.
 
-1. For **Search Engine**, clear the **Use system value** checkbox and choose the version that is installed on your server.
+1. For **Search Engine**, deselect the **Use system value** checkbox and choose the version that is installed on your server.
 
    - Elasticsearch (Deprecated) - Elasticsearch 2.x has reached end of life, and is now deprecated. To learn more, see [Elastic Product End of Life Dates](https://www.elastic.co/support/eol){:target="_blank"}.
 

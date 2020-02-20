@@ -59,7 +59,7 @@ These steps enable backorders for all products at the site level.
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Product Stock Options**.
 
-1. For **Backorders**, clear the **Use system value** checkbox and select an option:
+1. For **Backorders**, deselect the **Use system value** checkbox and select an option:
 
     |Option|Description|
     |--|--|
@@ -67,7 +67,7 @@ These steps enable backorders for all products at the site level.
     | Allow Qty Below 0 | To accept backorders when the quantity falls below zero. |
     | Allow Qty Below 0 and Notify Customer | To accept backorders when the quantity falls below zero, and notify the customer that the order can still be placed. |
 
-1. For **Out-of-Stock Threshold**, clear the **Use system value** checkbox and enter a different amount.
+1. For **Out-of-Stock Threshold**, deselect the **Use system value** checkbox and enter a different amount.
 
     |Option|Description|
     |--|--|
@@ -89,7 +89,7 @@ Product level configurations override global configurations. You may want to con
 
    This displays page of product specific configurations. Any setting listed as global displays the current global setting for the store.
 
-1. For **Backorders**, clear the **Use Config Setting** checkbox and select an option:
+1. For **Backorders**, deselect the **Use Config Setting** checkbox and select an option:
 
     |Option|Description|
     |--|--|
@@ -97,7 +97,7 @@ Product level configurations override global configurations. You may want to con
     | Allow Qty Below 0 | To accept backorders when the quantity falls below zero. |
     | Allow Qty Below 0 and Notify Customer | To accept backorders when the quantity falls below zero, and notify the customer that the order can still be placed. |
 
-1. For **Out-of-Stock Threshold**, clear the **Use Config Setting** checkbox and enter an amount:
+1. For **Out-of-Stock Threshold**, deselect the **Use Config Setting** checkbox and enter an amount:
 
     |Option|Description|
     |--|--|

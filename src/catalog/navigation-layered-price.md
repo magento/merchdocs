@@ -36,7 +36,7 @@ Iterative splitting provides the best distribution of products among price range
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Layered Navigation** section.
 
-   By default, **Display Product Count** is set to `Yes`. You can clear the **Use system value** checkbox to change this setting.
+   By default, **Display Product Count** is set to `Yes`. You can deselect the **Use system value** checkbox to change this setting.
 
     ![]({% link images/images/config-catalog-catalog-layered-navigation.png %}){: .zoom}
     [_Layered Navigation_]({% link configuration/catalog/catalog.md %})
@@ -52,7 +52,7 @@ Leave **Price Navigation Steps Calculation** set to the default, `Automatic (Equ
 ### Method 2: Automatic (equalize product counts)
 
 {:.bs-callout-info}
-If necessary, first clear the **Use system value** checkbox to change these settings.
+If necessary, first deselect the **Use system value** checkbox to change these settings.
 
 1. Set **Price Navigation Steps Calculation** to `Automatic (equalize product counts)`.
 
@@ -68,7 +68,7 @@ If necessary, first clear the **Use system value** checkbox to change these sett
 ### Method 3: Manual
 
 {:.bs-callout-info}
-If necessary, first clear the **Use system value** checkbox to change these settings.
+If necessary, first deselect the **Use system value** checkbox to change these settings.
 
 1. Set **Price Navigation Steps Calculation** to `Manual`.
 

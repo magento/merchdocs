@@ -35,7 +35,7 @@ Only categories with selected products appear in the [top navigation]({% link ca
 
     - To include all products, click **Select all**, or select the checkbox of the parent category.
     - To include specific categories of products, select the checkbox of each category that you want to include.
-    - To include or exclude an individual product, select or clear the checkbox of product.
+    - To include or exclude an individual product, select or deselect the checkbox of product.
 
     The notation below each category in the tree shows the number of products from the category that are currently included in the shared catalog. The notation below the [root category]({% link catalog/category-root.md %}) shows the total number of products from all categories that are currently selected for the shared catalog.
 

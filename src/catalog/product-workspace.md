@@ -2,7 +2,7 @@
 title: Product Workspace
 ---
 
-The product workspace is basically the same for all product types, although the selection of fields changes depending on the attribute set that is used. The product attributes are at the top of the form, followed by expandable sections of product information. When a new product is saved for the first time, the Store View chooser appears at the top-left of the form.
+The product workspace is basically the same for all product types, although the selection of fields changes depending on the attribute set that is used. The product attributes are at the top of the form, followed by expandable sections of product information. When a new product is saved for the first time, the Store View chooser appears at the upper-left of the form.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/product-workspace.png %}){: .zoom}
@@ -24,14 +24,14 @@ The online status of the product is indicated by the switch at the top of the fo
 
 ## Attribute set
 
-The name of the [attribute set]({% link stores/attribute-sets.md %}) appears in the top-left corner and determines the fields that appear in the product record. To choose a different attribute set, click the down arrow next to the default attribute set name.
+The name of the [attribute set]({% link stores/attribute-sets.md %}) appears in the upper-left corner and determines the fields that appear in the product record. To choose a different attribute set, click the down arrow next to the default attribute set name.
 
 ![]({% link images/images/product-attribute-set.png %}){: .zoom}
 _Attribute Set_
 
 ## Expand/collapse
 
-To expand or collapse a section, click either the expand ![]({% link images/images/btn-expand.png %}) or collapse ![]({% link images/images/btn-collapse.png %}) button to the right.
+To expand or collapse a section, click either the expand ![]({% link images/images/btn-expand.png %}) or collapse ![]({% link images/images/btn-collapse.png %}) icon to the right.
 
 ## Save menu
 

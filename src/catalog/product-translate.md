@@ -11,11 +11,11 @@ If your store has multiple views in different languages, the same products are a
 
 1. In the grid, find the product to be translated and open it in edit mode.
 
-1. In the top-left corner, set **Store View** to the view for the translation and click <span class="btn">OK</span> when prompted to confirm.
+1. In the upper-left corner, set **Store View** to the view for the translation and click <span class="btn">OK</span> when prompted to confirm.
 
 1. For each field to be edited, do the following:
 
-    - Clear the **Use Default Value** checkbox to the right of the field.
+    - Deselect the **Use Default Value** checkbox to the right of the field.
 
     - Either paste or type the translated text into the field.
 
@@ -42,7 +42,7 @@ If your store has multiple views in different languages, the same products are a
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
 
-1. In the top-left corner set **Store View** to the view for the translation and click <span class="btn">OK</span> when prompted to confirm.
+1. In the upper-left corner set **Store View** to the view for the translation and click <span class="btn">OK</span> when prompted to confirm.
 
 1. In the tree, find the category to be translated and open it in edit mode.
 
@@ -58,7 +58,7 @@ If your store has multiple views in different languages, the same products are a
 
 1. Under the **Search Engine Optimization Settings** section, do the following to translate the **URL Key**:
 
-    - Clear the **Use Default Value** checkbox to the right of the field.
+    - Deselect the **Use Default Value** checkbox to the right of the field.
 
     - Enter the translated text.
 

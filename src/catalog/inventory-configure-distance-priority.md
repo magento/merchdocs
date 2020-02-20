@@ -108,7 +108,7 @@ Complete these commands anytime you need to add more geocodes.
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Distance Provider for Distance Based SSA** section.
 
-1. Clear the **Use system value** checkbox and set **Provider** to `Offline Calculation`.
+1. deselect the **Use system value** checkbox and set **Provider** to `Offline Calculation`.
 
     ![]({% link images/images/config-catalog-catalog-inventory-distance-offline.png %}){: .zoom}
     _Distance Providers for Distance Based SSA_

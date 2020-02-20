@@ -10,7 +10,7 @@ If you plan to upload large images for viewing on the _Product Details_ page, yo
 
 1. Open the product in edit mode.
 
-1. To work with a specific store view, set the **Store View** chooser in the top-left corner to the applicable view.
+1. To work with a specific store view, set the **Store View** chooser in the upper-left corner to the applicable view.
 
 1. Scroll down and expand the _Images and Videos_ section.
 
@@ -34,7 +34,7 @@ _Change Order_
 
 ### Delete an image
 
-To remove an image from the gallery, click the **Delete** ( ![]({% link images/images/btn-delete.png %}) ) icon in the top-right corner of the image tile and click <span class="btn">Save</span>.
+To remove an image from the gallery, click the **Delete** ( ![]({% link images/images/btn-delete.png %}) ) icon in the upper-right corner of the image tile and click <span class="btn">Save</span>.
 
 ### Set image details
 
@@ -43,7 +43,7 @@ Click the image that you want to open in detail view and do any of the following
    ![]({% link images/images/product-image-detail-jewel-tee.png %}){: .zoom}
    _Image Detail View_
 
-  To close detail view, click **Close** ( ![]({% link images/images/btn-close.png %}) ) in the top-right corner.
+  To close detail view, click **Close** ( ![]({% link images/images/btn-close.png %}) ) in the upper-right corner.
 
 When complete, click <span class="btn">Save</span>.
 

@@ -58,7 +58,7 @@ _Category Tree_
     - To use images from your [Media Storage]({% link cms/media-storage.md%}), click <span class="btn">Select from Gallery</span> and select the image you want to represent the category.
 
     {:.bs-callout-info}
-    Inside the Media Gallery, you may also leverage the [Adobe Stock Integration]({% link cms/adobe-stock.md %}) to find an appropriate image by clicking the <span class="btn">Search Adobe Stock</span> button.
+    Inside the Media Gallery, you may also leverage the [Adobe Stock Integration]({% link cms/adobe-stock.md %}) to find an appropriate image by clicking  <span class="btn">Search Adobe Stock</span>.
 
 1. In the **Description** box, enter the text that you want to appear on the category landing page.
 
@@ -85,7 +85,7 @@ _Category Tree_
 
 1. To change the **Available Product Listing Sort By** options, do the following:
 
-    - Clear the **Use All** checkbox.
+    - deselect the **Use All** checkbox.
 
     - Select one or more of the available values to be available for customers to sort the list. By default, all available values are included. For example, the values might include:
 
@@ -97,7 +97,7 @@ _Category Tree_
 
 1. To change the default layered navigation [price step]({% link catalog/navigation-layered-price.md %}) setting, do the following:
 
-    - Clear the **Use Config Settings** checkbox.
+    - deselect the **Use Config Settings** checkbox.
 
     - Enter the value to be used as an incremental price step for layered navigation.
 

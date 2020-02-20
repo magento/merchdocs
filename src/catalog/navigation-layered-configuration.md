@@ -15,7 +15,7 @@ The layered navigation configuration determines if a product count appears in pa
     [_Layered Navigation_]({% link configuration/catalog/catalog.md %})
 
     {:.bs-callout-info}
-    If necessary, first clear the **Use system value** checkbox to change these settings.
+    If necessary, first deselect the **Use system value** checkbox to change these settings.
 
     - To display the number of products found for each attribute, set **Display Product Count** to `Yes`.
 

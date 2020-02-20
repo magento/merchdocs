@@ -25,7 +25,7 @@ The following aspects of a shared catalog must be set up before it can be used:
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Shared Catalogs**.
 
-1. In the top-right corner, click <span class="btn">Add a Shared Catalog</span> and do the following:
+1. In the upper-right corner, click <span class="btn">Add a Shared Catalog</span> and do the following:
 
     - Enter a **Name** for the shared catalog.
 

@@ -26,7 +26,7 @@ Setting a source to `disabled` is helpful for the following situations:
 
 1. Select the checkbox for each enabled custom source that you want to disable.
 
-1. Click the **Actions** menu at the top-left corner and choose **Disable**.
+1. Click the **Actions** menu at the upper-left corner and choose **Disable**.
 
    ![Inventory Management sources - Actions menu]({% link images/images/stores-inventory-sources-disable.png %}){: .zoom}
    _Actions menu_

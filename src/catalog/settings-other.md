@@ -6,7 +6,7 @@ The remaining product settings are located at the bottom of the page. Some setti
 
 ## Expand or collapse each section
 
-Click the section. The button indicates if it is currently expanded ![]({% link images/images/btn-expand.png %}) or collapsed ![]({% link images/images/btn-collapse.png %}).
+Click the section. The selector indicates if it is currently expanded ![]({% link images/images/btn-expand.png %}) or collapsed ![]({% link images/images/btn-collapse.png %}).
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/product-settings-other.png %}){: .zoom}

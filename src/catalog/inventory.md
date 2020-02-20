@@ -37,7 +37,7 @@ With Inventory Management enabled, see the following to configure all settings:
 
    - To manage inventory and use all Magento features, set **Manage Stock** to `Yes` (default).
 
-   - To disable Magento Inventory Management, clear the **Use system value** checkbox and set **Manage Stock** to `No`.
+   - To disable Magento Inventory Management, deselect the **Use system value** checkbox and set **Manage Stock** to `No`.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
