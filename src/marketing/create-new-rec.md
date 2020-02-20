@@ -1,6 +1,7 @@
 ---
 title: Create New Recommendation
 tag: product-recommendations
+conditions: Default.EE Only
 ---
 
 When you create a recommendation, you are creating what is called a *recommendation unit*. A recommendation unit has a title, such as "Recommended for you", "People also like", and so on. You can configure which pages should display the recommendation unit, where on the page you want the recommendation unit to appear, and which recommendation type you want to use, such as "most viewed", "most purchased", and so on. After you create and activate the recommendation unit, Magento will begin [collecting metrics]({% link marketing/recommendation-metrics.md %}) that measure data such as if a unit was rendered on a page, if it was viewed, if it was clicked by a user, and so on. The [Product Recommendations]({% link marketing/product-recommendations.md %}#dashboard) dashboard displays these metrics for each recommendation unit to help you make informed business decisions.

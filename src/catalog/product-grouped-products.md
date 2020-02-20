@@ -2,7 +2,7 @@
 title: Grouped Products
 ---
 
-The Grouped Products section is used to add individual products to a [Grouped ]({% link catalog/product-create-grouped.md %})product. After the products are added, they appear in the section.
+The _Grouped Products_ section is used to add individual products to a [Grouped ]({% link catalog/product-create-grouped.md %}) product. After the products are added, they appear in the _Grouped Products_ section.
 
 ![]({% link images/images/product-grouped-products-strap.png %}){: .zoom}
-*Grouped Product Items*
+_Grouped Product Items_

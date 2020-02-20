@@ -28,11 +28,11 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Products per Page on Grid Default Value|Store View|Determines the number of products displayed per page by default in Grid View.|
 |Products per Page on List Allowed Values|Store View|Determines the number of products displayed in List View. To provide a selection of options, enter multiple values separated by commas.|
 |Products per Page on List Default Value|Store View|Determines the number of products displayed per page by default, in List View.|
-|Product Listing Sort by|Store View|Determines the sort order of the search results list. The selection of options is determined by the Display Settings of the category and the available attributes that are set to be “Used for Sorting in Product Listing”. The default is set to “Use All Available Attributes” and typically includes: Best Value, Name, Price|
-|Allow All Products per Page|Store View|If set to “Yes”, includes the “ALL” option in the “Show per Page” control.|
-|Use [Flat Catalog]({% link catalog/catalog-flat.md %}) Category|Global|Enables the flat category structure. Options: Yes / No|
-|Use Flat Catalog Product|Global|Enables the flat product structure. Options: Yes / No|
-|Swatches per Product|Store View|Determines the number of swatches available for each product. Default:16|
+|Product Listing Sort by|Store View|Determines the sort order of the search results list. The selection of options is determined by the Display Settings of the category and the available attributes that are set to be `Used for Sorting in Product Listing`. The default is set to `Use All Available Attributes` and typically includes Best Value, Name, Price|
+|Allow All Products per Page|Store View|If set to `Yes`, includes the `ALL` option in the “Show per Page” control.|
+|Use [Flat Catalog]({% link catalog/catalog-flat.md %}) Category|Global|Enables the flat category structure. (not recommended) Options: Yes / No|
+|Use Flat Catalog Product|Global|Enables the flat product structure. (not recommended) Options: Yes / No|
+|Swatches per Product|Store View|Determines the number of swatches available for each product. Default: `16`|
 
 ## Product Reviews
 
@@ -50,9 +50,9 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Allow Alerts When Product Price Changes|Store View|Determines if email alerts are available for product price changes. Options:  Yes / No|
+|Allow Alerts When Product Price Changes|Store View|Determines if email alerts are available for product price changes. Options: Yes / No|
 |Price Alert Email Template|Store View|Identifies the template that is used for product price change email alerts. Default template: Product price alert|
-|Allow Alert When Product Comes Back in Stock|Website|Determines if customers can choose to receive an alert when the product comes back in stock. Options:  Yes / No|
+|Allow Alert When Product Comes Back in Stock|Website|Determines if customers can choose to receive an alert when the product comes back in stock. Options: Yes / No|
 |Stock Alert Email Template|Store View|Identifies the template that is used for stock alert email notifications. Default template: Product stock alert|
 |Alert Email Sender|Store View|Determines the store contact that appears as the sender of the product alert email message.|
 
@@ -63,10 +63,10 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Frequency|Global|Choose how often product alerts are sent out: Daily, Weekly, or Monthly|
+|Frequency|Global|Choose how often product alerts are sent out. Options: Daily /  Weekly / Monthly|
 |Start Time|Global|Choose what time of day the product alert process starts. This time should be after any price or inventory updates are performed.|
 |Error Email Recipient|Global|Identify the email address of the person (normally a store administrator) who should receive an email notification when there is an error in the product alert process.|
-|Error Email Sender|Global|Select the role that the email will be “from”.|
+|Error Email Sender|Global|Select the role that the email will be `from`.|
 |Error Email Template|Global|Select the email template to use for product alert error notifications.|
 
 ## Product Image Placeholders
@@ -97,7 +97,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Show for Current|Website|Limits the products shown to the current website. Options: Website, Store, Store View|
+|Show for Current|Website|Limits the products shown to the current website. Options: Website / Store / Store View|
 |Default Recently Viewed Products Count|Store View|Determines the maximum number of recently viewed products that appear in the list.|
 |Default Recently Compared Products Count|Store View|Determines the maximum number of recently compared products that appear in the list.|
 
@@ -131,7 +131,7 @@ _[Price]({% link catalog/catalog-price-scope.md %})_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Display Product Count|Store View|Determines if the product count appears after each attribute, price range, and category. Options: Yes / No|
-|[Price Navigation Step Calculation]({% link catalog/navigation-layered-price.md %})|Store View|Determines the method used to determine the price navigation step. Options: <br/>**Automatic (equalize price ranges)** - Bases the calculation on the price range of products in the group. <br/>**Automatic (equalize product counts)** - Bases the calculation on the number of products in the group. Establishes a threshold for the minimum number of products in the group, to prevent them from being divided into smaller groups. <br/>**Manual** - Uses the division limit that you enter for price intervals.|
+|[Price Navigation Step Calculation]({% link catalog/navigation-layered-price.md %})|Store View|Determines the method used to determine the price navigation step. Options: <br/>Automatic (equalize price ranges) - Bases the calculation on the price range of products in the group. <br/>Automatic (equalize product counts) - Bases the calculation on the number of products in the group. Establishes a threshold for the minimum number of products in the group, to prevent them from being divided into smaller groups. <br/>Manual - Uses the division limit that you enter for price intervals.|
 |Default Price Navigation Step|Store View|Determines the number of products that are included in each step.|
 |Maximum Number of Price Intervals|Store View|Establishes a limit for the number of price intervals that appear in layered navigation.|
 
@@ -144,9 +144,9 @@ _[Price]({% link catalog/catalog-price-scope.md %})_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable|Global|Activates category restrictions. By default, using this feature restricts all categories. Options: Yes / No|
-|Allow Browsing Category|Website|Determines who is allowed to browse through categories. Options: <br/>**Yes, for Everyone** - Allows all visitors and customers to the browse the category. <br/>**Yes, for Specified Customer Groups** - Allows only members of selected customer groups to browse the category. <br/>**No, Redirect to Landing Page** - Denies access to the category and redirects to the selected page.|
-|Display Product Prices|Website|Controls the display of product prices for the category. Options: <br/>**Yes, for Everyone** - Allows everyone to see the price of products in the category. <br/>**Yes, for Specified Customer Groups** - Allows only members of selected customer groups to see the price of products in the category. <br/>**No** - Turns off the display of product prices for the category.|
-|Allow Adding to Cart|Website|Determines who can purchase products from the category. Options: <br/>**Yes, for Everyone** - Allows everyone to place products from the category into their shopping carts. <br/>**Yes, for Specified Customer Groups** - Allows only members of selected customer groups to place products from the category into their shopping carts. <br/>**No** - Does not allow anyone to place products from the category into their shopping carts.|
+|Allow Browsing Category|Website|Determines who is allowed to browse through categories. Options: <br/>Yes, for Everyone - Allows all visitors and customers to the browse the category. <br/>Yes, for Specified Customer Groups - Allows only members of selected customer groups to browse the category. <br/>No, Redirect to Landing Page - Denies access to the category and redirects to the selected page.|
+|Display Product Prices|Website|Controls the display of product prices for the category. Options: <br/>Yes, for Everyone - Allows everyone to see the price of products in the category. <br/>Yes, for Specified Customer Groups - Allows only members of selected customer groups to see the price of products in the category. <br/>No - Turns off the display of product prices for the category.|
+|Allow Adding to Cart|Website|Determines who can purchase products from the category. Options: <br/>Yes, for Everyone - Allows everyone to place products from the category into their shopping carts. <br/>Yes, for Specified Customer Groups - Allows only members of selected customer groups to place products from the category into their shopping carts. <br/>No - Does not allow anyone to place products from the category into their shopping carts.|
 |Disallow Catalog Search by|Website|Identifies the customer groups that are not allowed to search for products in the category.|
 
 <!--{% endif %}-->
@@ -187,46 +187,45 @@ Magento offers a choice of search engines, and supports both MySQL and several v
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Minimal Query Length|Store View|The minimum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your MySQL search engine configurations. For example, if you set this value to 2 in Magento, update the value in your search engine.|
-|Maximum Query Length|Store View|The maximum number of characters allowed in a catalog search.The value set for this option must be compatible with the corresponding range set in your MySQL search engine configurations. For example, if you set this value to 300 in Magento, update the value in your search engine.|
-|Number of top search results to cache|Store View|The number of popular search terms and results to cache for faster responses. Entering a value of 0 caches all search terms and results when entered a second time. Default value: 100|
-|Search Engine|Global|Identifies the search engine used to process requests for catalog data. By default, Magento Enterprise uses the MySQL search engine. Selected value: MySQLEAV product indexer is always enabled for MySQL. This feature improves indexation speed and restricts the indexer from use by 3rd party extensions.|
-|Autocomplete Limit|Store View|The maximum number of search results to display for search autocomplete. Restricting this amount increases performance of searches and reduces the displayed list size. Default value: 8|
-|Enable Search Suggestions|Store View|Determines if search suggestions appear for common misspellings. When enabled, search suggestions are offered for any request that returns no results. Search suggestions can impact the performance of search. Options: Yes / No. When set to Yes, additional options display for Enable Search Recommendations and associated fields.|
-|Search Suggestions Count|Store View|The maximum number of search suggestions offered. Default value: 2|
+|Minimal Query Length|Store View|The minimum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your MySQL search engine configurations. For example, if you set this value to `2` in Magento, update the value in your search engine.|
+|Maximum Query Length|Store View|The maximum number of characters allowed in a catalog search.The value set for this option must be compatible with the corresponding range set in your MySQL search engine configurations. For example, if you set this value to `300` in Magento, update the value in your search engine.|
+|Number of top search results to cache|Store View|The number of popular search terms and results to cache for faster responses. Entering a value of `0` caches all search terms and results when entered a second time. Default value: `100`|
+|Search Engine|Global|Identifies the search engine used to process requests for catalog data. By default, Magento Enterprise uses the MySQL search engine. Selected value: MySQLEAV product indexer is always enabled for MySQL. This feature improves indexation speed and restricts the indexer from use by 3rd-party extensions.|
+|Autocomplete Limit|Store View|The maximum number of search results to display for search autocomplete. Restricting this amount increases performance of searches and reduces the displayed list size. Default value: `8`|
+|Enable Search Suggestions|Store View|Determines if search suggestions appear for common misspellings. When enabled, search suggestions are offered for any request that returns no results. Search suggestions can impact the performance of search. Options: Yes / No. <br/>When set to `Yes`, additional options display for Enable Search Recommendations and associated fields.|
+|Search Suggestions Count|Store View|The maximum number of search suggestions offered. Default value: `2`|
 |Show Results Count for Each Suggestion|Store View|Determines if the number of search results is shown for each suggestion. Depending on theme, the number usually appears in brackets after the suggestion. Options: Yes / No|
-|Enable Search Recommendations|Store View|Determines if search recommendations are offered when a search returns no results. Options include: Yes / No. When set to Yes, additional options display for Search Recommendations Count and Shows Results Count for Each Recommendation.|
-|Search Recommendations Count|Store View|Specifies the number of  search terms offered as recommendations. By default, no more than five are shown.|
-|Show Results Count for Each Recommendation|Store View|When set to "Yes", the number of products found for the proposed search recommendation is shown in the brackets. Options: Yes / No|
-
+|Enable Search Recommendations|Store View|Determines if search recommendations are offered when a search returns no results. Options include: Yes / No. <br/>When set to `Yes`, additional options display for Search Recommendations Count and Shows Results Count for Each Recommendation.|
+|Search Recommendations Count|Store View|Specifies the number of  search terms offered as recommendations. By default, no more than five (5) are shown.|
+|Show Results Count for Each Recommendation|Store View|When set to `Yes`, the number of products found for the proposed search recommendation is shown in the brackets. Options: Yes / No|
 
 ### Elasticsearch
 
-Magento supports the following versions of Elasticsearch: 6.0+, 5.0+, and 2.0+ (deprecated).
+Magento supports the following versions of Elasticsearch: 6.x, 5.x, and 2.x (deprecated).
 
 ![]({% link images/images/config-catalog-catalog-search-elasticsearch.png %}){: .zoom}
 [_Catalog Search - Elastic Search_]({% link catalog/search-elasticsearch.md %}) (including 6.0+)
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Minimal Query Length|Store View|The minimum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set this value to 2 in Magento, update the value in your search engine.|
-|Maximum Query Length|Store View|The maximum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set this value to 300 in Magento, update the value in your search engine.|
-|Number of top search results to cache|Store View|The number of popular search terms and results to cache for faster responses. Entering a value of 0 caches all search terms and results when entered a second time. Default value: 100|
-|Enable EAV Indexer|Global|Determines if you want to enable or disable the Product EAV indexer. This feature improves indexation speed and restricts the indexer from use by 3rd party extensions. This option only displays for Elasticsearch or Elasticsearch 5.0+ Search Engines. Default Option: Yes for enabled|
-|Search Engine|Global|Identifies the search engine used to process requests for catalog data. Options: <br/> **Elasticsearch** - (Deprecated) Elasticsearch 2.0+ has reached end of life. To learn more, see [Elastic Product End of Life Dates](https://www.elastic.co/support/eol). <br/>**Elasticsearch 5.0+** - (Default) Elasticsearch 5.0+ is scheduled for end of life. To learn more, see [Elastic Product End of Life Dates](https://www.elastic.co/support/eol). <br/>**Elasticsearch 6.0+** - (Recommended) For the best performance, we recommend that you use the latest version of Elasticsearch 6.0+ <br/>_**Note:**_ To learn more about using Elasticsearch versions 2.x and 5.x, see [Change the Elasticsearch Client](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html).|
-|Autocomplete Limit|Store View|The maximum number of search results to display for search autocomplete. Restricting this amount increases performance of searches and reduces the displayed list size. Default value: 8|
+|Minimal Query Length|Store View|The minimum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set this value to `2` in Magento, update the value in your search engine.|
+|Maximum Query Length|Store View|The maximum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set this value to `300` in Magento, update the value in your search engine.|
+|Number of top search results to cache|Store View|The number of popular search terms and results to cache for faster responses. Entering a value of `0` caches all search terms and results when entered a second time. Default value: `100`|
+|Enable EAV Indexer|Global|Determines if you want to enable or disable the Product EAV indexer. This feature improves indexation speed and restricts the indexer from use by 3rd party extensions. This option only displays for Elasticsearch or Elasticsearch 5.x Search Engines. Default Option: Yes for enabled|
+|Search Engine|Global|Identifies the search engine used to process requests for catalog data. Options: <br/> Elasticsearch - (Deprecated) Elasticsearch 2.x has reached end of life. To learn more, see [Elastic Product End of Life Dates](https://www.elastic.co/support/eol). <br/>Elasticsearch 5.x - (Default) Elasticsearch 5.x is scheduled for end of life. To learn more, see [Elastic Product End of Life Dates](https://www.elastic.co/support/eol). <br/>Elasticsearch 6.x - (Recommended) For the best performance, we recommend that you use the latest version of Elasticsearch 6.x <br/>_**Note:**_ To learn more about using Elasticsearch versions 2.x and 5.x, see [Change the Elasticsearch Client](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html).|
+|Autocomplete Limit|Store View|The maximum number of search results to display for search autocomplete. Restricting this amount increases performance of searches and reduces the displayed list size. Default value: `8`|
 |Elasticsearch Server Hostname|Global|Specifies the name of the Elasticsearch server. Default value: `localhost`|
 |Elasticsearch Server Port|Global|Specifies the number of the server port used by Elasticsearch.|
-|Elasticsearch Index Prefix|Global|Assigns a prefix to identify the Elasticsearch index. Example: Magento2|
+|Elasticsearch Index Prefix|Global|Assigns a prefix to identify the Elasticsearch index. Example: `Magento2`|
 |Enable Elasticsearch HTTP Auth|Global|If enabled, uses HTTP authentication to prompt for a username and password before accessing Elasticsearch Server. Options: Yes / No|
-|Elasticsearch Server Timeout|Global|Determines the number of seconds before the server times out. Default value: 15|
+|Elasticsearch Server Timeout|Global|Determines the number of seconds before the server times out. Default value: `15`|
 |Test Connection||Validates the Elasticsearch connection.|
-|Enable Search Suggestions|Store View|Determines if search suggestions appear for common misspellings. When enabled, search suggestions are offered for any request that returns no results. Search suggestions can impact the performance of search. Options: Yes / No. When set to Yes, additional options display for Enable Search Recommendations and associated fields.|
-|Search Suggestions Count|Store View|Determines the number of search suggestions that are offered. For example: 2|
+|Enable Search Suggestions|Store View|Determines if search suggestions appear for common misspellings. When enabled, search suggestions are offered for any request that returns no results. Search suggestions can impact the performance of search. Options: Yes / No. <br/>When set to `Yes`, additional options display for Enable Search Recommendations and associated fields.|
+|Search Suggestions Count|Store View|Determines the number of search suggestions that are offered. For example: `2`|
 |Show Results Count for Each Suggestion|Store View|Determines if the number of search results is shown for each suggestion. Depending on theme, the number usually appears in brackets after the suggestion. Options: Yes / No|
-|Enable Search Recommendations|Store View|Determines if search recommendations are enabled for the store view. Options: Yes / No <br/>When set to Yes, additional options display for Search Recommendations Count and Shows Results Count for Each Recommendation.|
-|Search Recommendations  Count|Store View|Specifies the number of  search terms offered as recommendations. By default, no more than five are shown.|
-|Show Results Count for Each Recommendation|Store View|When set to "Yes", the number of products found for the proposed search recommendation is shown in the brackets. Options: Yes / No|
+|Enable Search Recommendations|Store View|Determines if search recommendations are enabled for the store view. Options: Yes / No <br/>When set to `Yes`, additional options display for Search Recommendations Count and Shows Results Count for Each Recommendation.|
+|Search Recommendations  Count|Store View|Specifies the number of  search terms offered as recommendations. By default, no more than five (5) are shown.|
+|Show Results Count for Each Recommendation|Store View|When set to `Yes`, the number of products found for the proposed search recommendation is shown in the brackets. Options: Yes / No|
 
 ## Downloadable Product Options
 
@@ -235,25 +234,25 @@ Magento supports the following versions of Elasticsearch: 6.0+, 5.0+, and 2.0+ (
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Order Item Status to Enable Downloads|Website|Determines the status that an order must have before downloads become available. Options include: Pending, Invoiced|
+|Order Item Status to Enable Downloads|Website|Determines the status that an order must have before downloads become available. Options: Pending / Invoiced|
 |Default Maximum Number of Downloads|Website|Determines the default number of downloads available to a customer.|
-|Shareable|Website|Determines if customers must log in to their accounts to access the download link. Options include: <br/>**Yes** - Allows the link to be sent by email, which can then be shared with others. <br/>**No** - Requires customers to log in to their accounts to access the download link.|
+|Shareable|Website|Determines if customers must log in to their accounts to access the download link. Options: <br/>**Yes** - Allows the link to be sent by email, which can then be shared with others. <br/>**No** - Requires customers to log in to their accounts to access the download link.|
 |Default Sample Title|Store View|The default title for all sample files.|
 |Default Link Title|Store View|The default link for all downloadable titles.|
-|Opens Links in New Window|Website|Determines if the download link opens in a new browser window. Options include: Yes / No|
-|Use Content Disposition|Store View|Determines how the link to the downloadable content is delivered, as an email attachment, or as an inline link in a browser window. Options include: <br/>**Attachment** - The download link is delivered as an email attachment. <br/>**Inline** - The download link is delivered as an inline link on a web page.|
-|Disable Guest Checkout if Cart Contains Downloadable Items|Website|Determines if guests who are purchase downloadable products must register for an account and log in to complete the checkout process. Options include: <br/>**Yes** - If the cart contains downloadable products, the guest will have to either register for an account, or login to an existing account to complete the purchase. <br/>**No** - The download link is delivered as an inline link in the body of the email message.  <br/> _**Note:**_ Guest checkout is only available for download products if Sharable is set to "Yes".|
+|Opens Links in New Window|Website|Determines if the download link opens in a new browser window. Options: Yes / No|
+|Use Content Disposition|Store View|Determines how the link to the downloadable content is delivered, as an email attachment or as an inline link in a browser window. Options: <br/>**Attachment** - The download link is delivered as an email attachment. <br/>**Inline** - The download link is delivered as an inline link on a web page.|
+|Disable Guest Checkout if Cart Contains Downloadable Items|Website|Determines if guests who are purchase downloadable products must register for an account and log in to complete the checkout process. Options: <br/>**Yes** - If the cart contains downloadable products, the guest will have to either register for an account, or login to an existing account to complete the purchase. <br/>**No** - The download link is delivered as an inline link in the body of the email message.  <br/> _**Note:**_ Guest checkout is only available for download products if Sharable is set to `Yes`.|
 
-## Date &amp; Time Custom Options
+## Date & Time Custom Options
 
 ![]({% link images/images/config-catalog-catalog-date-time-custom-options.png %}){: .zoom}
-[_Date &amp; Time Custom Options_]({% link stores/attribute-date-time-options.md %})
+[_Date & Time Custom Options_]({% link stores/attribute-date-time-options.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Use JavaScript Calendar|Store View|Determines if the JavaScript calendar is used as an input control for date fields. Options include: Yes / No If set to “No”, a separate dropdown appears for each part of the date field.|
-|Date Fields Order|Store View|Establishes the order of the three date fields. Options include: Day,  Month, Year|
-|Time Format|Store View|Sets the time format to either a  twelve or twenty-four hour clock. Options include: 12h AM/PM, 24h|
+|Use JavaScript Calendar|Store View|Determines if the JavaScript calendar is used as an input control for date fields. Options: Yes / No <br/>If set to `No`, a separate dropdown appears for each part of the date field.|
+|Date Fields Order|Store View|Establishes the order of the three date fields. Options: Day / Month / Year|
+|Time Format|Store View|Sets the time format to either a  twelve or twenty-four hour clock. Options: 12h AM/PM / 24h|
 |Year Range|Store View|Defines the beginning and ending range of years that appear in the drop-down Year field. The value must be entered in YYYY format.|
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
@@ -277,13 +276,13 @@ Magento supports the following versions of Elasticsearch: 6.0+, 5.0+, and 2.0+ (
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Maximum Number of Products in Related Products List|Global|Determines the maximum number of products that can appear in the Related Products list.|
-|Show Related Products|Global|Determines which list of related products appears in the store. It can be either the list that is selected manually in the Product Information,  the list that is generated in response to a product relationship rule, or a combination of the two. Options: Both Selected and Rule-Based, Selected Only, Rule-Based Only|
-|Rotation Mode for Products in Related Products List|Global|Determines the order in which products in the Related Products list appear. Options: Do not rotate, Shuffle|
+|Show Related Products|Global|Determines which list of related products appears in the store. It can be either the list that is selected manually in the Product Information, the list that is generated in response to a product relationship rule, or a combination of the two. Options: Both Selected and Rule-Based / Selected Only / Rule-Based Only|
+|Rotation Mode for Products in Related Products List|Global|Determines the order in which products in the Related Products list appear. Options: Do not rotate / Shuffle|
 |Maximum Number of Products in Cross-Sell Product List|Global|Determines the maximum number of products that can appear in the Cross-Sell list.|
-|Show Cross-Sell Products|Global|Determines which list of cross-sell products appears in the store. It can be either the list that is selected manually in the Product Information, the list that is generated in response to a product relationship rule, or a combination of the two. Options: Both Selected and Rule-Based, Selected Only, Rule-Based Only|
-|Rotation Mode for Products in Cross-Sell Products List|Global|Determines the order in which products in the Cross-Sell Products list appear. Options: Do not rotate, Shuffle|
+|Show Cross-Sell Products|Global|Determines which list of cross-sell products appears in the store. It can be either the list that is selected manually in the Product Information, the list that is generated in response to a product relationship rule, or a combination of the two. Options: Both Selected and Rule-Based / Selected Only / Rule-Based Only|
+|Rotation Mode for Products in Cross-Sell Products List|Global|Determines the order in which products in the Cross-Sell Products list appear. Options: Do not rotate / Shuffle|
 |Maximum Number of Products in Upsell Product List|Global|Determines the maximum number of products that can appear in the Upsell Products list.|
-|Show Upsell Products|Global|Determines which list of up-sell products appears in the store. It can be either the list that is selected manually in the Product Information, the list that is generated in response to a product relationship rule, or a combination of the two. Options: Both Selected and Rule-Based, Selected Only, Rule-Based Only|
-|Rotation Mode for Products in Upsell Product List|Global|Determines the order in which products in the Upsell Product list appear. Options: Do not rotate, Shuffle|
+|Show Upsell Products|Global|Determines which list of up-sell products appears in the store. It can be either the list that is selected manually in the Product Information, the list that is generated in response to a product relationship rule, or a combination of the two. Options: Both Selected and Rule-Based / Selected Only / Rule-Based Only|
+|Rotation Mode for Products in Upsell Product List|Global|Determines the order in which products in the Upsell Product list appear. Options: Do not rotate / Shuffle|
 
 <!--{% endif %}-->

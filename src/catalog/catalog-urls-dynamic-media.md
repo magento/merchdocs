@@ -9,27 +9,26 @@ As with all [markup tags]({% link marketing/markup-tags.md %}), the directive is
 
 `{% raw %}{{media url="path/to/image.jpg"}}{% endraw %}`
 
-Dynamic URL directives are processed from saved HTML content when the page is rendered on the storefront. Each time the page is rendered, the content is scanned for `{% raw %}{{media url="..."}}{% endraw %}`, and replaces the directive with the corresponding media URL.
+Dynamic URL directives are processed from saved HTML content when the page is rendered on the storefront. Each time the page is rendered, the content is scanned for `{% raw %}{{media url="..."}}{% endraw %}` and each directive is replaced with the corresponding media URL.
 
 {% include directives-caution.md %}
 
-## To configure static media URLs:
+## Configure static media URLs
 
 By default, images inserted into the catalog from the WYSIWYG editor have relative, dynamic URLs. If you prefer to use a static URL, you can change the configuration setting.
 
-1. On the Admin sidebar, tap **Stores**. Then under **Settings**, choose **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the panel on the left under **General**, choose **Content Management**.
+1. In the left panel under **General**, choose **Content Management**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **WYSIWYG Options** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **WYSIWYG Options** section.
 
    ![]({% link images/images/config-general-content-management-wysiwyg-options.png %}){: .zoom}
-   *[WYSIWYG Options]({% link configuration/general/content-management.md %})*
+   _[WYSIWYG Options]({% link configuration/general/content-management.md %})_
 
 1. Set **Use Static URLs for Media Content in WYSIWYG** to one of the following:
 
-   | Yes | Uses static URLs for media content that is inserted with the WYSIWYG editor. Static URLs are absolute, and break if the [base URL]({% link stores/store-urls.md %}) of the store changes. |
-   | No | (Default) Uses dynamic URLs for media content that is inserted with the WYSIWYG editor, based on the `{% raw %}{{media url="..."}}{% endraw %}` directive. Dynamic URLs are relative, and do not break if the [base URL]({% link stores/store-urls.md %}) of the store changes. |
-   {:style="table-layout:auto"}
+   | Yes | Uses static URLs for media content that is inserted with the WYSIWYG editor. Static URLs are absolute and break if the [base URL]({% link stores/store-urls.md %}) of the store changes. |
+   | No | (Default) Uses dynamic URLs for media content that is inserted with the WYSIWYG editor, based on the `{% raw %}{{media url="..."}}{% endraw %}` directive. Dynamic URLs are relative and do not break if the [base URL]({% link stores/store-urls.md %}) of the store changes. |
 
-1. When complete, tap <span class="btn">Save Config</span>.
+1. When complete, click <span class="btn">Save Config</span>.

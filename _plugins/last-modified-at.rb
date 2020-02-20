@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+# Copyright © Magento, Inc. All rights reserved.
+# See COPYING.txt for license details.
 #
 # This custom plugin dynamically sets the 'last_modified_at' parameter
 # for each page except 'redirect.html' pages.
