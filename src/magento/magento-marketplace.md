@@ -24,7 +24,7 @@ Follow these steps to install your Marketplace purchases to an installation of M
 
 # Adobe Commerce Cloud
 
-Marketplace extensions can be added to installations of Magento that are hosted on Adobe Commerce Cloud only from a development environment. Composer is used to add the code to a branch in GitHub, where it is tested in an integration environment, and deployed to a staging environment before being pushed to production.  To learn more, see [Install, manage, and upgrade extensions][3].
+Marketplace extensions can be added to installations of Magento that are hosted on Adobe Commerce Cloud only from a development environment. Composer is used to add the code to a branch in GitHub, where it is tested in an integration environment and deployed to a staging environment before being pushed to production. To learn more, see [Install, manage, and upgrade extensions][3].
 
 [1]: https://marketplace.magento.com/
 [2]: https://magento.com/
