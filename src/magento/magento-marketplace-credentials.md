@@ -23,7 +23,6 @@ When you create a new access key, it must first be used to synchronize your stor
 1. On the _Marketplace_ tab under _My Products_, click **Access Keys**. Then, do one of the following:
 
   - Check to see if you already have a set of access keys for your Marketplace purchases. You can create multiple sets of access keys for different purposes.
-
   - Click **Create a New Access Key**. Enter a name for the new key pair and click **OK**. Valid characters include upper- and lowercase characters, and hyphens instead of spaces.
 
 1. When complete, click **OK**. Your new access key is enabled and appears in the list.
