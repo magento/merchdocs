@@ -10,7 +10,7 @@ The Web Setup System Configuration tool uses the public and private keys from yo
 
 ## Step 1: Retrieve Your Marketplace Credentials
 
-1. Log in to your Magento account to retrieve your Magento Marketplace access key.
+1. If continuing from the previous topic, your browser is already open to the Access Key page of your Marketplace profile. Otherwise, log in to your Magento account to retrieve your Magento Marketplace access key.
 
     If you need help, see [Set Up Your Marketplace Credentials]({% link magento/magento-marketplace-credentials.md %}).
 
@@ -22,8 +22,8 @@ The Web Setup System Configuration tool uses the public and private keys from yo
 
 1. On the Admin sidebar, go to **System** > _Tools_ > **Web Setup Wizard**.  Then, choose **System Configuration**.
 
-   ![]({% link images/images/web-setup-wizard-tiles.png %}){: .zoom}
-    [_Setup Wizard_]
+    ![]({% link images/images/web-setup-wizard-tiles.png %}){: .zoom}
+    _Setup Wizard_
 
 1. Paste the **Public Access Key** that you copied from your Marketplace profile.
 
@@ -36,6 +36,6 @@ The Web Setup System Configuration tool uses the public and private keys from yo
 In the future if you ever want to change your Marketplace credentials, you can create a new access key, reset your Marketplace system configuration, and resynchronize your store with the new key values.
 
 {: .bs-callout-info}
-The Web Setup Wizard does not automatically return to the Admin of your store. When you are ready to close the tool, enter the URL of your store Admin in the address line of the browser tab.
+The Web Setup Wizard does not automatically return to the Admin of your store. When you are ready to close the tool, enter the URL of your store Admin in the address line of the browser tab, and sign in to the Admin.
 
 [1]: https://devdocs.magento.com/cloud/howtos/install-components.html
