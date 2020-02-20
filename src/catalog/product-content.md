@@ -30,7 +30,7 @@ _Content_
 
 1. Enter the main product **Description** and use the [toolbar]({% link cms/editor.md %}) to format as needed.
 
-    You can drag the lower-right corner to change the height of the text box.
+    You can drag the bottom-right corner to change the height of the text box.
 
 <!--{% endif %}-->
 

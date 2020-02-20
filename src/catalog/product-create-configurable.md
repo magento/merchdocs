@@ -19,7 +19,7 @@ Before you begin, prepare an [attribute set]({% link stores/attribute-sets.md %}
 
 The properties of each attribute that is used for a configurable product variation must have the following settings:
 
-### Product Variation Attribute Requirements
+### Product variation attribute requirements
 
 |Property|Setting|
 |--- |--- |--- |
@@ -27,7 +27,7 @@ The properties of each attribute that is used for a configurable product variati
 [Catalog Input Type for Store Owner]({% link stores/attributes-product.md %})|The input type of any attribute that is used for a product variation must be one of the following: Dropdown, Visual Swatch, or Text Swatch.|
 |Values Required|Yes|
 
-### Step 1: Choose the Product Type
+### Step 1: Choose the product type
 
 1. On the _Admin_ sidebar, go to  **Catalog** > **Products**.
 
@@ -117,7 +117,7 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
 ### Step 5: Save and continue
 
-This is a good time to save your work. In the upper-right corner, click <span class="btn">Save</span>. In the next series of steps, you’ll set up the configurations for each variation of the product.
+This is a good time to save your work. In the top-right corner, click <span class="btn">Save</span>. In the next series of steps, you’ll set up the configurations for each variation of the product.
 
 ## Part 2: Adding configurations
 
@@ -152,7 +152,7 @@ _Progress Bar_
 
    - Select the checkbox to select the attribute.
 
-1. In the upper-right corner, click <span class="btn">Next</span>.
+1. In the top-right corner, click <span class="btn">Next</span>.
 
 ### Step 2: Enter the attribute values
 
@@ -220,7 +220,7 @@ Because we already uploaded an image for the parent product, we’ll use this op
     ![]({% link images/images/product-configurable-create-configurations-price-unique.png %}){: .zoom}
     _Unique Price per SKU_
 
-#### Configure the Quantity
+#### Configure the quantity
 
 **_Method 1: Apply the same quantity to all SKUs_**
 
@@ -255,7 +255,7 @@ Because we already uploaded an image for the parent product, we’ll use this op
     ![]({% link images/images/product-configurations-quantity-different.png %}){: .zoom}
     _Different Quantities per Attribute_
 
-When configuration for images, price, and quantity are complete, click <span class="btn">Next</span> in the upper-right corner.
+When configuration for images, price, and quantity are complete, click <span class="btn">Next</span> in the top-right corner.
 
 ### Step 4: Generate the product configurations
 
@@ -272,7 +272,7 @@ The current product variations appear at the bottom of the _Configuration_ secti
 ![]({% link images/images/product-create-configurable-summary.png %}){: .zoom}
 _Current Configurations_
 
-### Step 5: Add a Product Image
+### Step 5: Add a product image
 
 1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Images and Videos** section.
 
@@ -304,7 +304,7 @@ Scroll down and complete the information in the following sections as needed:
 
     **Method 1: Save and preview**
 
-    - In the upper-right corner, click <span class="btn">Save</span>.
+    - In the top-right corner, click <span class="btn">Save</span>.
 
     - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
 

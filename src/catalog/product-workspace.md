@@ -2,7 +2,7 @@
 title: Product Workspace
 ---
 
-The product workspace is basically the same for all product types, although the selection of fields changes depending on the attribute set that is used. The product attributes are at the top of the form, followed by expandable sections of product information. When a new product is saved for the first time, the Store View chooser appears in the upper-left of the form.
+The product workspace is basically the same for all product types, although the selection of fields changes depending on the attribute set that is used. The product attributes are at the top of the form, followed by expandable sections of product information. When a new product is saved for the first time, the Store View chooser appears at the top-left of the form.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/product-workspace.png %}){: .zoom}
@@ -31,7 +31,7 @@ _Attribute Set_
 
 ## Expand/collapse
 
-To expand or collapse a section, tap either the expand ![]({% link images/images/btn-expand.png %}){: .Inline} or collapse ![]({% link images/images/btn-collapse.png %}){: .Inline} button to the right.
+To expand or collapse a section, click either the expand ![]({% link images/images/btn-expand.png %}) or collapse ![]({% link images/images/btn-collapse.png %}) button to the right.
 
 ## Save menu
 

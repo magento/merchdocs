@@ -113,7 +113,7 @@ _Choose Attribute Set_
 
 ## Step 5: Complete the downloadable information
 
-Scroll down and expand ![]({% link images/images/btn-expand.png %}){: .Inline} the _Downloadable Information_ section. Then, select the **Is this downloadable product?** checkbox.
+Scroll down, expand ![]({% link images/images/btn-expand.png %}) the _Downloadable Information_ section, and select the **Is this downloadable product?** checkbox.
 
 The _Downloadable Information_ section has two parts. The first part describes each download link, and the second part describes each sample file. The default value for many of these options can be set in the [configuration]({% link catalog/product-download-options.md %}).
 
@@ -192,7 +192,7 @@ Scroll down and complete the information in the following sections as needed:
 
     **Method 1: Save and Preview**
 
-    - In the upper-right corner, click <span class="btn">Save</span>.
+    - In the top-right corner, click <span class="btn">Save</span>.
 
     - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
 

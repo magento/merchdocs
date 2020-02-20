@@ -12,7 +12,7 @@ In contrast, a flat catalog creates new tables on the fly, where each row contai
 {:.bs-callout-info}
 Before you enable a flat catalog for a live store, make sure to test the configuration in a development environment.
 
-## Step 1: Enable the Flat Catalog
+Step 1: Enable the Flat Catalog
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -60,7 +60,7 @@ There are two methods you can use to verify the results.
 
    1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
 
-   1. In the upper-left corner, verify that **Store View** is set to `All Store Views`.
+   1. In the top-left corner, verify that **Store View** is set to `All Store Views`.
 
         If prompted, click **OK** to confirm.
 
@@ -96,7 +96,7 @@ Do the following to remove the test data and restore the original product name a
 
    1. In the category tree, select the test subcategory that you created.
 
-   1. In the upper-right corner, click <span class="btn">Delete</span>.
+   1. In the top-right corner, click <span class="btn">Delete</span>.
 
    1. When prompted to confirm, click <span class="btn">OK</span>.
 
@@ -110,7 +110,7 @@ Do the following to remove the test data and restore the original product name a
 
    1. Remove the `_TEST` text that you added to the **Product Name**.
 
-   1. In the upper-right corner, click <span class="btn">Save</span>.
+   1. In the top-right corner, click <span class="btn">Save</span>.
 
 ### Restore the original catalog configuration
 

@@ -16,11 +16,11 @@ Depending on your store and sales, you may want to enable or disable backorders 
 
 We recommend configuring specific thresholds and settings to best support backorders.
 
-### Out-of-Stock Threshold
+### Out-of-Stock threshold
 
 Use a negative value for this threshold to set the maximum amount of products that can be backordered before the product is truly considered out of stock. This amount adds to the salable quantity. The value set at the product level overrides any value set at the global level.
 
-The formula for the Salable Quantity is: (Quantity - (out-of-Stock Threshold)).
+The formula for the Salable Quantity is: `(Quantity - (Out-of-Stock Threshold))`
 
 The following is an example:
 
@@ -29,7 +29,7 @@ The following is an example:
 - Only X left Threshold: 5
 - Out of Stock Threshold: -50
 
-The Salable Quantity for this product is 75 (25 - (-50)).
+The Salable Quantity for this product is `75 (25 - (-50))`.
 
 ![]({% link images/images/inventory/inventory-backorders-before.png %}){: .zoom}
 _Example Salable Quantity before backorders enabled_
@@ -37,7 +37,7 @@ _Example Salable Quantity before backorders enabled_
 ![]({% link images/images/inventory/inventory-backorders-after.png %}){: .zoom}
 _Example Salable Quantity after backorders enabled_
 
-When customers purchase over 25 products, new orders enter as backorders. As the product's salable quantity reduces to 5 (70 items have been sold), the product page will display a message "Only 5 left" on the storefront. When the salable quantity reaches 0, the product displays as "Out of Stock" in the storefront.
+When customers purchase over 25 products, new orders enter as backorders. As the product's salable quantity reduces to 5 (70 items have been sold), the product page will display a message "Only 5 left" on the storefront. When the salable quantity reaches 0, the product is displayed as "Out of Stock" in the storefront.
 
 ### Notify for Quantity Below
 

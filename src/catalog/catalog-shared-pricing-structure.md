@@ -33,7 +33,7 @@ Only categories with selected products appear in the [top navigation]({% link ca
 
 1. In the category tree, do any of the following:
 
-    - To include all products, click **Select all**, or mark the checkbox of the parent category.
+    - To include all products, click **Select all**, or select the checkbox of the parent category.
     - To include specific categories of products, select the checkbox of each category that you want to include.
     - To include or exclude an individual product, select or clear the checkbox of product.
 
@@ -87,7 +87,7 @@ The selection of products in the grid cannot be changed from the Custom Prices p
 
     - Use the category tree to select all products in a specific category.
     - Set the Mass Actions control in the header to `Select All`.
-    - Mark the checkbox of individual product(s).
+    - Select the checkbox of individual product(s).
 
     The grid displays the products in the currently selected categories, and you can use the [standard controls]({% link stores/admin-grid-controls.md %}) to find products and filter the list.
 

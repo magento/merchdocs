@@ -12,7 +12,7 @@ _Gift Card Product Page_
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. In the upper-right corner on the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu, choose **Gift Card**.
+1. In the top-right corner on the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu, choose **Gift Card**.
 
     ![]({% link images/images-ee/product-add-gift-card.png %}){: .zoom}
     _Add Gift Card_
@@ -108,7 +108,7 @@ Complete the information in the following sections as needed:
 
     **Method 1: Save and Preview**
 
-    - In the upper-right corner, click <span class="btn">Save</span>.
+    - In the top-right corner, click <span class="btn">Save</span>.
 
     - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu,
 

@@ -22,7 +22,7 @@ You can set up the category options separately for each [store]({% link stores/s
 
 ## Step 2: Sort the products
 
-In the **Products in Category** section, click the tiles (![]({% link images/images/btn-view-as-tiles.png %})) icon to show the product tiles in a grid. Then, use either the **Manual** or **Automatic** method to sort the products.
+In the **Products in Category** section, click the tiles (![]({% link images/images/btn-view-as-tiles.png %})) icon to show the product tiles in a grid. Use either the **Manual** or **Automatic** method to sort the products.
 
 ![]({% link images/images-ee/category-products-tiles.png %}){: .zoom}
 _Product Tiles_

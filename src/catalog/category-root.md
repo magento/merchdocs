@@ -36,7 +36,7 @@ The following example shows how to create a new root category and assign it to a
 
    - Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Products in Category** section.
 
-   - Use the [search filters]({% link stores/admin-grid-controls.md %}) to find the products you want. Then, select the checkbox for each product that you want to copy into the new catalog.
+   - Use the [search filters]({% link stores/admin-grid-controls.md %}) to find the products you want and select the checkbox for each product that you want to copy into the new catalog.
 
 1. When complete, click <span class="btn">Save</span>.
 

@@ -29,7 +29,7 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 
 1. If you want to enable or disable the Product EAV indexer, set the **Enable EAV Indexer**.
 
-   This feature improves indexation speed and restricts the indexer from use by 3rd-party extensions. This option only displays for Elasticsearch or Elasticsearch 5.x Search Engines.
+   This feature improves indexation speed and restricts the indexer from use by 3rd-party extensions. This option only available for Elasticsearch or Elasticsearch 5.x Search Engines.
 
 1. To limit the length and word count of search query text, set a value for **Minimal Query Length** and **Maximum Query Length**.
 

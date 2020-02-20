@@ -22,7 +22,7 @@ To assign a special price to multiple products, such as multiple variations of a
 
 1. Use the **Calendar** ( ![]({% link images/images/btn-calendar.png %}) ) to choose the **Start Date** and **End Date** for the special price promotion.
 
-   You can use the **Hour** and **Minute** sliders to choose the start and end time, as well. Then, click <span class="btn">Close</span>.
+   You can use the **Hour** and **Minute** sliders to choose the start and end time, as well. Click <span class="btn">Close</span> when the the start and end are set.
 
     ![]({% link images/images-ee/product-price-special-scheduled-update.png %}){: .zoom}
     _Save as New Update_
@@ -32,7 +32,7 @@ To assign a special price to multiple products, such as multiple variations of a
     ![]({% link images/images-ee/product-price-special.png %}){: .zoom}
     _Special Pricing Settings_
 
-1. When complete, click <span class="btn"> Done </span>. Then, click <span class="btn">Save</span>.
+1. When complete, click <span class="btn"> Done </span> and then <span class="btn">Save</span>.
 
     In the storefront, the Special price should appear in both catalog listing and on the product page.
 

@@ -8,7 +8,7 @@ The Shared Catalogs page provides access to the tools you need to manage your sh
 ![]({% link images/images-b2b/catalogs-shared-grid-action-column-controls.png %}){: .zoom}
 *Shared Catalog Actions*
 
-The [Actions controls]({% link stores/admin-actions-control.md %}) in the upper-left corner can be used with the mass actions control to delete selected shared catalogs that are no longer needed. In the grid, the Actions column contains the full selection of tools to manage your shared catalogs.
+The [Actions controls]({% link stores/admin-actions-control.md %}) in the top-left corner can be used with the mass actions control to delete selected shared catalogs that are no longer needed. In the grid, the Actions column contains the full selection of tools to manage your shared catalogs.
 
 ## Actions controls
 

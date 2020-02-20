@@ -123,7 +123,7 @@ _Category Tree_
 
 ## Step 6: Choose the products in category
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Products in Category** section. Then, use one of the following methods to add products to the category.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Products in Category** section and use one of the following methods to add products to the category.
 
 1. Use the [filters]({% link stores/admin-grid-controls.md %}) as needed to find the products.
 

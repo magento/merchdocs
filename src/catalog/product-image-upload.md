@@ -10,7 +10,7 @@ If you plan to upload large images for viewing on the _Product Details_ page, yo
 
 1. Open the product in edit mode.
 
-1. To work with a specific store view, set the **Store View** chooser in the upper-left corner to the applicable view.
+1. To work with a specific store view, set the **Store View** chooser in the top-left corner to the applicable view.
 
 1. Scroll down and expand the _Images and Videos_ section.
 
@@ -27,7 +27,7 @@ To upload an image, do one of the following:
 
 ### Rearrange images
 
-To change the order of images in the gallery, click the **Sort** ( ![]({% link images/images/btn-sort2.png %}) ) icon at the bottom of the image tile. Then, drag the image to a different position in the _Images_ box.
+To change the order of images in the gallery, click the **Sort** ( ![]({% link images/images/btn-sort2.png %}) ) icon at the bottom of the image tile and  drag the image to a different position in the _Images_ box.
 
 ![]({% link images/images/product-images-and-videos-drag.png %}){: .zoom}
 _Change Order_
@@ -43,7 +43,7 @@ Click the image that you want to open in detail view and do any of the following
    ![]({% link images/images/product-image-detail-jewel-tee.png %}){: .zoom}
    _Image Detail View_
 
-  To close detail view, click **Close** ( ![]({% link images/images/btn-close.png %}) ) in the upper-right corner.
+  To close detail view, click **Close** ( ![]({% link images/images/btn-close.png %}) ) in the top-right corner.
 
 When complete, click <span class="btn">Save</span>.
 

@@ -134,7 +134,7 @@ Complete the information in the following sections as needed:
 
     **Method 1: Save and Preview**
 
-    - In the upper-right corner, click <span class="btn">Save</span>.
+    - In the top-right corner, click <span class="btn">Save</span>.
 
     - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
 

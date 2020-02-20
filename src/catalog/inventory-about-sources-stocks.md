@@ -28,7 +28,7 @@ You start with a Default Stock assigned with the Default Source and your website
 ![]({% link images/images/inventory/inventory-diagram-stock.png %})<br/>
 _Example Stocks for a Mountain Bike and Store_
 
-## Product Quantities
+## Product quantities
 
 Quantity is the number of products in your active inventory, available for purchase. The quantity of products increases and decreases when you complete shipments or adjust inventory. Adding products to a cart will not affect this amount. The Salable Quantity tracks the availability of the product for a sales channel and also uses this value for determining available stock for purchase. Depending on the number of your sources, you see and manage product quantity for one of the following:
 
@@ -42,7 +42,7 @@ Salable Quantity calculates the virtual inventory of products (or availability),
 ![]({% link images/images/inventory/inventory-diagram-salable-qty.png %})<br/>
 _Calculating the Salable Quantity for a Stock_
 
-## Inventory Configurations
+## Inventory configurations
 
 Every product, source, and stock includes a number of options to configure for your store at the global, source, stock, and product level. For a full list of these options, see [Configuring Inventory Management]({% link catalog/inventory-configure-inventory-management.md %}).
 

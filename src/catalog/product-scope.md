@@ -10,7 +10,7 @@ _Multisite Installation_
 
 If you have only a single store with the default view, you can run your store in [Single Store Mode]({% link stores/store-mode-single.md %}) to hide the scope settings. However, if your store has multiple views, a scope indicator appears below the name of each field.
 
-- To edit product information for a specific view, use the Store View control in the upper-left corner to choose the view. Additional controls become available for any field that can be edited at the store view level.
+- To edit product information for a specific view, use the Store View control in the top-left corner to choose the view. Additional controls become available for any field that can be edited at the store view level.
 
 - To define the scope of a product in a multisite installation, see the [Product in Websites]({% link catalog/settings-basic-websites.md %}) section of product information.
 

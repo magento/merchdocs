@@ -11,7 +11,7 @@ _Add Attribute_
 
 1. Open the product in edit mode.
 
-1. In the upper-right corner, click <span class="btn">Add Attribute</span>.
+1. In the top-right corner, click <span class="btn">Add Attribute</span>.
 
    ![]({% link images/images/product-attribute-add-select.png %}){: .zoom}
    _New Attribute_

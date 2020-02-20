@@ -43,7 +43,7 @@ The form is updated to reflect the change.
 ![]({% link images/images/product-create-choose-attribute-set.png %}){: .zoom}
 _Choose Template_
 
-## Step 3: Complete the Required Settings
+## Step 3: Complete the required settings
 
 1. Enter the product **Product Name**.
 
@@ -218,7 +218,7 @@ Scroll down and complete the information in the following sections as needed:
 
     **Method 1: Save and preview**
 
-    - In the upper-right corner, click <span class="btn">Save</span>.
+    - In the top-right corner, click <span class="btn">Save</span>.
 
     - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
 

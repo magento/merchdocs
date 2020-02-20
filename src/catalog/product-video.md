@@ -2,7 +2,7 @@
 title: Adding Product Video
 ---
 
-To add product video, you must first obtain an API Key from your Google account, and enter it in the configuration of your store. Then, you can link to the video from the product.
+To add product video, you must first obtain an API Key from your Google account and enter it in the configuration of your store. Then, you can link to the video from the product.
 
 ## Step 1: Get your YouTube API key
 
