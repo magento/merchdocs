@@ -23,12 +23,12 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|List Mode|Store View|Determines the format of the search results list. Options: <br/>Grid Only - Formats the list as a grid of rows and columns. Each product appears in a single cell of the grid. <br/>List Only - Formats the list with each product on a separate row. <br/>Grid (default / List) - By default, products appear in Grid view and can be toggled to List view. <br/>List (default / Grid) - By default, products appear in List View and can be toggled to Grid view.|
+|List Mode|Store View|Determines the format of the search results list. Options: <br/>**Grid Only** - Formats the list as a grid of rows and columns. Each product appears in a single cell of the grid. <br/>**List Only** - Formats the list with each product on a separate row. <br/>**Grid (default / List)** - By default, products appear in Grid view and can be toggled to List view. <br/>**List (default / Grid)** - By default, products appear in List View and can be toggled to Grid view.|
 |Products per Page on Grid Allowed Values|Store View|Determines the number of products displayed in Grid View. To provide a selection of options, enter multiple values separated by commas.|
 |Products per Page on Grid Default Value|Store View|Determines the number of products displayed per page by default in Grid View.|
 |Products per Page on List Allowed Values|Store View|Determines the number of products displayed in List View. To provide a selection of options, enter multiple values separated by commas.|
 |Products per Page on List Default Value|Store View|Determines the number of products displayed per page by default, in List View.|
-|Product Listing Sort by|Store View|Determines the sort order of the search results list. The selection of options is determined by the Display Settings of the category and the available attributes that are set to be `Used for Sorting in Product Listing`. The default is set to `Use All Available Attributes` and typically includes: Best Value, Name, Price|
+|Product Listing Sort by|Store View|Determines the sort order of the search results list. The selection of options is determined by the Display Settings of the category and the available attributes that are set to be `Used for Sorting in Product Listing`. The default is set to `Use All Available Attributes` and typically includes Best Value, Name, Price|
 |Allow All Products per Page|Store View|If set to `Yes`, includes the `ALL` option in the “Show per Page” control.|
 |Use [Flat Catalog]({% link catalog/catalog-flat.md %}) Category|Global|Enables the flat category structure. (not recommended) Options: Yes / No|
 |Use Flat Catalog Product|Global|Enables the flat product structure. (not recommended) Options: Yes / No|
@@ -187,10 +187,10 @@ Magento offers a choice of search engines, and supports both MySQL and several v
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Minimal Query Length|Store View|The minimum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your MySQL search engine configurations. For example, if you set this value to 2 in Magento, update the value in your search engine.|
-|Maximum Query Length|Store View|The maximum number of characters allowed in a catalog search.The value set for this option must be compatible with the corresponding range set in your MySQL search engine configurations. For example, if you set this value to 300 in Magento, update the value in your search engine.|
+|Minimal Query Length|Store View|The minimum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your MySQL search engine configurations. For example, if you set this value to `2` in Magento, update the value in your search engine.|
+|Maximum Query Length|Store View|The maximum number of characters allowed in a catalog search.The value set for this option must be compatible with the corresponding range set in your MySQL search engine configurations. For example, if you set this value to `300` in Magento, update the value in your search engine.|
 |Number of top search results to cache|Store View|The number of popular search terms and results to cache for faster responses. Entering a value of `0` caches all search terms and results when entered a second time. Default value: `100`|
-|Search Engine|Global|Identifies the search engine used to process requests for catalog data. By default, Magento Enterprise uses the MySQL search engine. Selected value: MySQLEAV product indexer is always enabled for MySQL. This feature improves indexation speed and restricts the indexer from use by 3rd party extensions.|
+|Search Engine|Global|Identifies the search engine used to process requests for catalog data. By default, Magento Enterprise uses the MySQL search engine. Selected value: MySQLEAV product indexer is always enabled for MySQL. This feature improves indexation speed and restricts the indexer from use by 3rd-party extensions.|
 |Autocomplete Limit|Store View|The maximum number of search results to display for search autocomplete. Restricting this amount increases performance of searches and reduces the displayed list size. Default value: `8`|
 |Enable Search Suggestions|Store View|Determines if search suggestions appear for common misspellings. When enabled, search suggestions are offered for any request that returns no results. Search suggestions can impact the performance of search. Options: Yes / No. <br/>When set to `Yes`, additional options display for Enable Search Recommendations and associated fields.|
 |Search Suggestions Count|Store View|The maximum number of search suggestions offered. Default value: `2`|
@@ -201,7 +201,7 @@ Magento offers a choice of search engines, and supports both MySQL and several v
 
 ### Elasticsearch
 
-Magento supports the following versions of Elasticsearch: 6.0+, 5.0+, and 2.0+ (deprecated).
+Magento supports the following versions of Elasticsearch: 6.x, 5.x, and 2.x (deprecated).
 
 ![]({% link images/images/config-catalog-catalog-search-elasticsearch.png %}){: .zoom}
 [_Catalog Search - Elastic Search_]({% link catalog/search-elasticsearch.md %}) (including 6.0+)
@@ -211,12 +211,12 @@ Magento supports the following versions of Elasticsearch: 6.0+, 5.0+, and 2.0+ (
 |Minimal Query Length|Store View|The minimum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set this value to `2` in Magento, update the value in your search engine.|
 |Maximum Query Length|Store View|The maximum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set this value to `300` in Magento, update the value in your search engine.|
 |Number of top search results to cache|Store View|The number of popular search terms and results to cache for faster responses. Entering a value of `0` caches all search terms and results when entered a second time. Default value: `100`|
-|Enable EAV Indexer|Global|Determines if you want to enable or disable the Product EAV indexer. This feature improves indexation speed and restricts the indexer from use by 3rd party extensions. This option only displays for Elasticsearch or Elasticsearch 5.0+ Search Engines. Default Option: Yes for enabled|
-|Search Engine|Global|Identifies the search engine used to process requests for catalog data. Options: <br/> Elasticsearch - (Deprecated) Elasticsearch 2.0+ has reached end of life. To learn more, see [Elastic Product End of Life Dates](https://www.elastic.co/support/eol). <br/>Elasticsearch 5.0+ - (Default) Elasticsearch 5.0+ is scheduled for end of life. To learn more, see [Elastic Product End of Life Dates](https://www.elastic.co/support/eol). <br/>Elasticsearch 6.0+ - (Recommended) For the best performance, we recommend that you use the latest version of Elasticsearch 6.0+ <br/>_**Note:**_ To learn more about using Elasticsearch versions 2.x and 5.x, see [Change the Elasticsearch Client](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html).|
+|Enable EAV Indexer|Global|Determines if you want to enable or disable the Product EAV indexer. This feature improves indexation speed and restricts the indexer from use by 3rd party extensions. This option only displays for Elasticsearch or Elasticsearch 5.x Search Engines. Default Option: Yes for enabled|
+|Search Engine|Global|Identifies the search engine used to process requests for catalog data. Options: <br/> Elasticsearch - (Deprecated) Elasticsearch 2.x has reached end of life. To learn more, see [Elastic Product End of Life Dates](https://www.elastic.co/support/eol). <br/>Elasticsearch 5.x - (Default) Elasticsearch 5.x is scheduled for end of life. To learn more, see [Elastic Product End of Life Dates](https://www.elastic.co/support/eol). <br/>Elasticsearch 6.x - (Recommended) For the best performance, we recommend that you use the latest version of Elasticsearch 6.x <br/>_**Note:**_ To learn more about using Elasticsearch versions 2.x and 5.x, see [Change the Elasticsearch Client](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html).|
 |Autocomplete Limit|Store View|The maximum number of search results to display for search autocomplete. Restricting this amount increases performance of searches and reduces the displayed list size. Default value: `8`|
 |Elasticsearch Server Hostname|Global|Specifies the name of the Elasticsearch server. Default value: `localhost`|
 |Elasticsearch Server Port|Global|Specifies the number of the server port used by Elasticsearch.|
-|Elasticsearch Index Prefix|Global|Assigns a prefix to identify the Elasticsearch index. Example: Magento2|
+|Elasticsearch Index Prefix|Global|Assigns a prefix to identify the Elasticsearch index. Example: `Magento2`|
 |Enable Elasticsearch HTTP Auth|Global|If enabled, uses HTTP authentication to prompt for a username and password before accessing Elasticsearch Server. Options: Yes / No|
 |Elasticsearch Server Timeout|Global|Determines the number of seconds before the server times out. Default value: `15`|
 |Test Connection||Validates the Elasticsearch connection.|
@@ -236,12 +236,12 @@ Magento supports the following versions of Elasticsearch: 6.0+, 5.0+, and 2.0+ (
 |--- |--- |--- |
 |Order Item Status to Enable Downloads|Website|Determines the status that an order must have before downloads become available. Options: Pending / Invoiced|
 |Default Maximum Number of Downloads|Website|Determines the default number of downloads available to a customer.|
-|Shareable|Website|Determines if customers must log in to their accounts to access the download link. Options: <br/>Yes - Allows the link to be sent by email, which can then be shared with others. <br/>No - Requires customers to log in to their accounts to access the download link.|
+|Shareable|Website|Determines if customers must log in to their accounts to access the download link. Options: <br/>**Yes** - Allows the link to be sent by email, which can then be shared with others. <br/>**No** - Requires customers to log in to their accounts to access the download link.|
 |Default Sample Title|Store View|The default title for all sample files.|
 |Default Link Title|Store View|The default link for all downloadable titles.|
 |Opens Links in New Window|Website|Determines if the download link opens in a new browser window. Options: Yes / No|
-|Use Content Disposition|Store View|Determines how the link to the downloadable content is delivered, as an email attachment or as an inline link in a browser window. Options: <br/>Attachment - The download link is delivered as an email attachment. <br/>Inline - The download link is delivered as an inline link on a web page.|
-|Disable Guest Checkout if Cart Contains Downloadable Items|Website|Determines if guests who are purchase downloadable products must register for an account and log in to complete the checkout process. Options: <br/>Yes - If the cart contains downloadable products, the guest will have to either register for an account, or login to an existing account to complete the purchase. <br/>No - The download link is delivered as an inline link in the body of the email message.  <br/> _**Note:**_ Guest checkout is only available for download products if Sharable is set to `Yes`.|
+|Use Content Disposition|Store View|Determines how the link to the downloadable content is delivered, as an email attachment or as an inline link in a browser window. Options: <br/>**Attachment** - The download link is delivered as an email attachment. <br/>**Inline** - The download link is delivered as an inline link on a web page.|
+|Disable Guest Checkout if Cart Contains Downloadable Items|Website|Determines if guests who are purchase downloadable products must register for an account and log in to complete the checkout process. Options: <br/>**Yes** - If the cart contains downloadable products, the guest will have to either register for an account, or login to an existing account to complete the purchase. <br/>**No** - The download link is delivered as an inline link in the body of the email message.  <br/> _**Note:**_ Guest checkout is only available for download products if Sharable is set to `Yes`.|
 
 ## Date & Time Custom Options
 
@@ -276,7 +276,7 @@ Magento supports the following versions of Elasticsearch: 6.0+, 5.0+, and 2.0+ (
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Maximum Number of Products in Related Products List|Global|Determines the maximum number of products that can appear in the Related Products list.|
-|Show Related Products|Global|Determines which list of related products appears in the store. It can be either the list that is selected manually in the Product Information, the list that is generated in response to a product relationship rule, or a combination of the two. Options: Both Selected and Rule-Based, Selected Only, Rule-Based Only|
+|Show Related Products|Global|Determines which list of related products appears in the store. It can be either the list that is selected manually in the Product Information, the list that is generated in response to a product relationship rule, or a combination of the two. Options: Both Selected and Rule-Based / Selected Only / Rule-Based Only|
 |Rotation Mode for Products in Related Products List|Global|Determines the order in which products in the Related Products list appear. Options: Do not rotate / Shuffle|
 |Maximum Number of Products in Cross-Sell Product List|Global|Determines the maximum number of products that can appear in the Cross-Sell list.|
 |Show Cross-Sell Products|Global|Determines which list of cross-sell products appears in the store. It can be either the list that is selected manually in the Product Information, the list that is generated in response to a product relationship rule, or a combination of the two. Options: Both Selected and Rule-Based / Selected Only / Rule-Based Only|

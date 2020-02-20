@@ -10,18 +10,18 @@ Different factors can affect the price of the same product in one location and n
 - {:.edition-b2b}See also [Configuring Catalog Price Scope]({% link catalog/catalog-shared-price-scope.md %}).
 
 ![]({% link images/images/scope-product-price.png %}){: .zoom}
-*Price Scope*
+_Price Scope_
 
 ## Configure price scope
 
-1. On the _Admin_ menu, go to **Stores** _Settings_ > **Configuration**.
+1. On the _Admin_ menu, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the left panel, expand **Catalog** and choose **Catalog**.
+1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Scroll down to the **Price** section. Then, set **Catalog Price Scope** to one of the following:
+1. Scroll down to the **Price** section and set **Catalog Price Scope** to one of the following:
 
-    - Global
-    - Website
+    * `Global`
+    * `Website`
 
     The scope setting that you choose appears below price fields in your catalog.
 
