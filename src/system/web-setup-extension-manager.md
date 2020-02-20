@@ -37,7 +37,7 @@ _Installed Extensions_
 
 1. Click **Extension Manager**.
 
-1. Copy and paste your **Public Key** and **Private Key**, then click <span class="btn">Submit</span>.
+1. Copy and paste your **Public Key** and **Private Key**, and click <span class="btn">Submit</span>.
 
     ![Extension Manager]({% link images/images/system-extension-manager.png %}){: .zoom}
     _Extension Manager_
@@ -61,7 +61,9 @@ _Installed Extensions_
 1. Follow the onscreen instructions to complete the following:
 
     - Step 1: Readiness Check
+
     - Step 2: Create Backup
+
     - Step 3: Component Install
 
 ### Step 1: Readiness Check
@@ -107,6 +109,9 @@ _Installed Extensions_
 1. In the left panel, find the new tab for the extension you installed.
 
 1. Follow the instructions from the extension developer to complete the configuration.
+
+{: .bs-callout-info}
+The Web Setup Wizard does not automatically return to the Admin of your store. When you are ready to close the tool, enter the URL of your store Admin in the address line of the browser tab, and sign in to the Admin.
 
 [1]: http://devdocs.magento.com/guides/v2.3/comp-mgr/extens-man/extensman-checklist.html
 [2]: https://marketplace.magento.com/
