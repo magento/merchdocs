@@ -42,6 +42,6 @@ If your  browser is not already open to the Access Key page of your Marketplace 
 If you ever want to change your Marketplace credentials in the future, you can create a new access key, reset your Marketplace system configuration, and resynchronize your store with the new key values.
 
 {: .bs-callout-info}
-The Web Setup Wizard does not automatically return to the Admin of your store. When you are ready to close the tool, enter the URL of your store Admin in the address line of the browser tab, and sign in to the Admin.
+The Web Setup Wizard does not automatically return to the Admin of your store. When you are ready to close the tool, enter the URL of your store Admin in the address line of the browser tab and sign in to the Admin.
 
 [1]: https://devdocs.magento.com/cloud/howtos/install-components.html
