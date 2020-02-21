@@ -38,7 +38,9 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
     - Click **Next**.
 
-1. Enter a billing account or create one. You can skip and add a billing account later. A billing account is required to use this service.
+1. Enter a billing account or create one. You can skip and add a billing account later.
+
+    A billing account is required to use this service.
 
 1. Click **Console** to open and configure your Google Cloud Platform options.
 
@@ -51,7 +53,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
     - Search for [Geocoding API][2] and [Distance Matrix API][3]. Select and enable each service.
 
-1. Expand the menu and click **APIs & Services** > **Credentials**. Copy the Google API Key.
+1. Expand the menu, click **APIs & Services** > **Credentials**, and copy the Google API Key.
 
     ![]({% link images/images/config-catalog-catalog-inventory-google-key3.png %}){: .zoom}
     _Google API Key Copy_
@@ -67,7 +69,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
     ![]({% link images/images/config-catalog-catalog-inventory-distance-provider.png %}){: .zoom}
     _Distance Providers for Distance Based SSA_
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Google Distance Provider_ section, and configure the settings:
+1. Expand ![]({% link images/images/btn-expand.png %}) the _Google Distance Provider_ section and configure the settings:
 
     - For **Google API Key**, enter the key copied from your Google Account.
 
