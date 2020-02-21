@@ -18,7 +18,7 @@ If your  browser is not already open to the Access Key page of your Marketplace 
 
     Keep this browser tab open and continue to the next step.
 
-## Step 2: Synchronize Your Store
+## Step 2: Synchronize your store
 
 1. Open a new browser tab and log in to the Admin of your store as a user with full administrator rights.
 
