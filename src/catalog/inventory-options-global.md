@@ -26,7 +26,7 @@ Configure the default configuration options for product and stock for your websi
 
     - To display an “In Stock” or “Out of Stock” message on the product page, set **Display Products Availability In Stock on Storefront** to `Yes`.
     
-    - To keep consistency between inventory and catalog, set **Synchronize with Catalog** to `Yes`. With the option enabled inventory data will be adjusted according to the catalog changes (product removed; product SKU changed; product type changed; etc.)
+    - To keep consistency between inventory and catalog, set **Synchronize with Catalog** to `Yes`. With this option enabled, inventory data will be adjusted according to the catalog changes (such as product removed, product SKU changed, and product type changed).
 
        ![]({% link images/images/config-catalog-catalog-inventory-stock-options.png %}){: .zoom}
        [_Stock Options_]({% link configuration/catalog/inventory.md %})
