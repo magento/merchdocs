@@ -20,20 +20,24 @@ The Web Setup System Configuration tool uses the public and private keys from yo
 
 1. Open a new browser tab, and log in to the Admin of your store as a user with full administrator rights.
 
-1. On the Admin sidebar, go to **System** > _Tools_ > **Web Setup Wizard**.  Then, choose **System Configuration**.
+1. On the Admin sidebar, go to **System** > _Tools_ > **Web Setup Wizard**.  
+
+1. Click **System Configuration**.
 
     ![]({% link images/images/web-setup-wizard-tiles.png %}){: .zoom}
     _Setup Wizard_
 
 1. Paste the **Public Access Key** that you copied from your Marketplace profile.
 
-1. Return to the browser tab with your Marketplace profile, and **Copy** your _Private Key_.
+1. Return to the browser tab with your Marketplace profile and **Copy** your _Private Key_.
 
 1. On the browser tab with your Marketplace System Configuration, paste your **Private Key**.
 
-1. When complete, click **Save Config**. It takes a few moments for your store to synchronize with Magento Marketplace.
+1. When complete, click **Save Config**.
 
-In the future if you ever want to change your Marketplace credentials, you can create a new access key, reset your Marketplace system configuration, and resynchronize your store with the new key values.
+    It takes a few moments for your store to synchronize with Magento Marketplace.
+
+If you ever want to change your Marketplace credentials in the future, you can create a new access key, reset your Marketplace system configuration, and resynchronize your store with the new key values.
 
 {: .bs-callout-info}
 The Web Setup Wizard does not automatically return to the Admin of your store. When you are ready to close the tool, enter the URL of your store Admin in the address line of the browser tab, and sign in to the Admin.
