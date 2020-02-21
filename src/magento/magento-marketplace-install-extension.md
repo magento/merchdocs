@@ -21,3 +21,5 @@ To learn more, see [Install, manage, and upgrade extensions][1].
 
 ![Marketplace - Account Summary]({% link images/images/web-setup-extension-manager-summary.png %}){: .zoom}
  _Summary of Your Marketplace Account_
+
+[1]: https://devdocs.magento.com/cloud/howtos/install-components.html
