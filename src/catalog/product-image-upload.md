@@ -27,14 +27,14 @@ To upload an image, do one of the following:
 
 ### Rearrange images
 
-To change the order of images in the gallery, click the **Sort** ( ![]({% link images/images/btn-sort2.png %}) ) icon at the bottom of the image tile. Then, drag the image to a different position in the _Images_ box.
+To change the order of images in the gallery, click the **Sort** ( ![]({% link images/images/btn-sort2.png %}) ) icon at the bottom of the image tile and  drag the image to a different position in the _Images_ box.
 
 ![]({% link images/images/product-images-and-videos-drag.png %}){: .zoom}
 _Change Order_
 
 ### Delete an image
 
-To remove an image from the gallery, click the **Delete** ( ![]({% link images/images/btn-delete.png %}) ) icon in the top-right corner of the image tile and click <span class="btn">Save</span>.
+To remove an image from the gallery, click the **Delete** ( ![]({% link images/images/btn-delete.png %}) ) icon in the upper-right corner of the image tile and click <span class="btn">Save</span>.
 
 ### Set image details
 

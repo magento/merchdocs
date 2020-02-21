@@ -17,7 +17,7 @@ _Grouped Product_
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the top-right corner, choose **Grouped Product**.
+1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right corner, choose **Grouped Product**.
 
     ![]({% link images/images/21product-add-grouped.png %}){: .zoom}
     _Add Grouped Product_
@@ -46,7 +46,7 @@ _Choose Template_
 
 1. Click <span class="btn">Save</span> and continue.
 
-    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the top-left corner.
+    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the upper-left corner.
 
 1. Choose the **Store View** where the product is to be available.
 
@@ -128,7 +128,7 @@ Complete the information in the following sections as needed:
 
 ## Step 6: Publish the product
 
-1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` ( ![]({% link images/images/btn-switch-yes.png %}) ).
+1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes`.
 
 1. Do one of the following:
 
@@ -162,7 +162,7 @@ If you have a different image for each product in the group, you can set the con
 
 1. Set **Grouped Product Image** to `Product Thumbnail Itself`.
 
-    If necessary, clear the **Use system value** checkbox to set this option.
+    If necessary, deselect the **Use system value** checkbox to set this option.
 
 1. Click <span class="btn">Save Config</span>.
 

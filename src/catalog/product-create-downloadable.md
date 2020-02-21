@@ -2,16 +2,16 @@
 title: Downloadable Product
 ---
 
-A downloadable product can be anything that you can deliver as a file, such as an eBook, music, video, software application, or update. You can offer an album for sale, and sell each song individually. You can also use a downloadable product to deliver an electronic version of your product catalog.
+A downloadable product can be anything that you can deliver as a file, such as an eBook, music, video, software application, or update. You can offer an album for sale and sell each song individually. You can also use a downloadable product to deliver an electronic version of your product catalog.
 
-Because the actual download is not available until after the purchase, you can provide samples, such as an excerpt from a book, a clip from an audio file, or a trailer from a video that the customer can try before purchasing the product. The files that you make available for download can be either uploaded to your server, or from a different server.
+Because the actual download is not available until after the purchase, you can provide samples, such as an excerpt from a book, a clip from an audio file, or a trailer from a video that the customer can try before purchasing the product. The files that you make available for download can be either uploaded to your server or from a different server.
 
 ![]({% link images/images/storefront-product-downloadable.png %}){: .zoom}
 _Downloadable Product_
 
-Downloadable products can be configured to require that the customer log in to an account to receive the link, or can be sent by email and shared with others. The status of the order before the download becomes available, default values, and other delivery options are set in the configuration. To learn more, see: [Download Options]({% link catalog/product-download-options.md %}).
+Downloadable products can be configured to require that the customer log in to an account to receive the link or can be sent by email and shared with others. The status of the order before the download becomes available, default values, and other delivery options are set in the configuration. Fore more information, see [Download Options]({% link catalog/product-download-options.md %}).
 
-The following instructions take you through the process of creating a downloadable product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}) as needed.
+The following instructions demonstrate the process of creating a downloadable product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}) as needed.
 
 {:.bs-callout-info}
 Downloadable file names can include letters and numbers. Either a dash or underscore character can be used to represent a space between words. Any invalid characters in the file name are replaced with an underscore.
@@ -20,7 +20,7 @@ Downloadable file names can include letters and numbers. Either a dash or unders
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the top-right corner, choose `Downloadable Product`.
+1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right corner, choose `Downloadable Product`.
 
     ![]({% link images/images/21product-add-downloadable.png %}){: .zoom}
     _Add Downloadable Product_
@@ -48,11 +48,11 @@ _Choose Attribute Set_
 
 1. Enter the product **Price**.
 
-1. Because the product is not yet ready to publish, set **Enable Product** to `No` ( ![]({% link images/images/btn-switch-no.png %}) ).
+1. Because the product is not yet ready to publish, set **Enable Product** to `No`.
 
 1. Click <span class="btn">Save</span> and continue.
 
-    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the top-left corner.
+    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the upper-left corner.
 
 1. Choose the **Store View** where the product is to be available.
 
@@ -81,7 +81,7 @@ _Choose Attribute Set_
 
 1. To feature the product in the list of[ new products]({% link cms/widget-new-products-list.md %}), select the **Set Product as New** checkbox.
 
-1. To assign **Categories** to the product, click the **Select…** box and do either of the following:
+1. To assign Categories to the product, click the **Select…** box and do either of the following:
 
     **Choose an existing category:**
 
@@ -113,7 +113,7 @@ _Choose Attribute Set_
 
 ## Step 5: Complete the downloadable information
 
-Scroll down and expand ![]({% link images/images/btn-expand.png %}){: .Inline} the _Downloadable Information_ section. Then, select the **Is this downloadable product?** checkbox.
+Scroll down, expand ![]({% link images/images/btn-expand.png %}) the _Downloadable Information_ section, and select the **Is this downloadable product?** checkbox.
 
 The _Downloadable Information_ section has two parts. The first part describes each download link, and the second part describes each sample file. The default value for many of these options can be set in the [configuration]({% link catalog/product-download-options.md %}).
 
@@ -188,7 +188,7 @@ Scroll down and complete the information in the following sections as needed:
 
 ## Step 7: Publish the product
 
-1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` ( ![]({% link images/images/btn-switch-yes.png %}) ) and do one of the following:
+1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` and do one of the following:
 
     **Method 1: Save and Preview**
 
