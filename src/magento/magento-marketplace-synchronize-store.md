@@ -8,7 +8,7 @@ If your Magento installation is hosted on Adobe Commerce Cloud, see [Install, ma
 
 The Web Setup System Configuration tool uses the public and private keys from your Marketplace [profile]({% link magento/magento-marketplace-credentials.md %}) to synchronize your store with Magento Marketplace. After your store is synchronized, the services remain in sync so you can easily add extensions, as well as keep track of all extensions you have purchased and installed.
 
-## Step 1: Retrieve Your Marketplace Credentials
+## Step 1: Retrieve your Marketplace credentials
 
 If your  browser is not already open to the Access Key page of your Marketplace profile (continuing from the previous topic),  log in to your Magento account to retrieve your Magento Marketplace access key.
 
@@ -18,7 +18,7 @@ If your  browser is not already open to the Access Key page of your Marketplace 
 
     Keep this browser tab open and continue to the next step.
 
-## Step 2: Synchronize Your Store
+## Step 2: Synchronize your store
 
 1. Open a new browser tab and log in to the Admin of your store as a user with full administrator rights.
 
