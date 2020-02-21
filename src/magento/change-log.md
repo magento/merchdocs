@@ -17,7 +17,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 |Topic |Change|
 |--- |--- |
-|[System Config]({% link system/web-setup-system-configuration.md %})<br />[Extension Manager]({% link system/web-setup-extension-manager.md %})|Added note for Adobe Commerce Cloud users; linked to new [Magento Marketplace]({% link magento/magento-marketplace.md %}) section in Getting Started.|
+|[System Config]({% link system/web-setup-system-configuration.md %})<br />[Extension Manager]({% link system/web-setup-extension-manager.md %})|Added note for Adobe Commerce Cloud users with links to new [Magento Marketplace]({% link magento/magento-marketplace.md %}) section in Getting Started.|
 
 ## January 2020
 
