@@ -30,6 +30,22 @@ Magento provides the following types of recommendations:
 -  **Bought this, bought that** - Recommends items most often purchased by shoppers who purchased the specified item
 -  **More like this** - Recommends items based on similar content and attributes
 
+### Backup recommendations
+
+If there is not sufficient data to provide personalized recommendations to your shoppers, Magento provides backup recommendations to use until those personalized recommendations can be surfaced.
+
+For example, if you deploy the **Recommended for you** recommendation type to your homepage, a first time shopper on your site will not have generated enough behavioral data to accurately recommended personalized products. In this case, Magento will surface **Most viewed** recommendations to this shopper, because **Most viewed** does not require any behavioral data.
+
+The following recommendation types will fallback to **Most viewed** if there is not sufficient behavioral data collected:
+
+-  **Recommended for you**
+
+-  **Viewed this, viewed that**
+
+-  **Viewed this, bought that**
+
+-  **Bought this, bought that**
+
 ## Product Recommendations Placement {#productrecplacement}
 
 You can place the recommendations in one of the following page locations.
