@@ -15,8 +15,8 @@ Your access key is a set of public and private keys that is used to synchronize 
 
 1. In the upper-right corner next to your name, click the down arrow and choose **My Profile**.
 
-![]({% link images/images/magento-marketplace-profile.png %}){: .zoom}
-_Your Marketplace Profile_
+  ![]({% link images/images/magento-marketplace-profile.png %}){: .zoom}
+  _Your Marketplace Profile_
 
 1. On the _Marketplace_ tab under _My Products_, click **Access Keys**. Then, do one of the following:
 
