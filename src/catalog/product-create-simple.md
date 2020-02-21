@@ -39,7 +39,7 @@ _Choose Attribute Set_
 
 1. Enter the product **Price**.
 
-1. Because the product is not yet ready to publish, set the **Enable Product** option to `No` ![]({% link images/images/btn-switch-no.png %}).
+1. Because the product is not yet ready to publish, set the **Enable Product** option to `No`.
 
 1. Click <span class="btn">Save</span> and continue.
 
@@ -110,7 +110,7 @@ Scroll down and complete the information in the following sections as needed:
 
 ## Step 6: Publish the product
 
-1. If you are ready to publish the product in the catalog, set the **Enable Product** switch to `Yes` ![]({% link images/images/btn-switch-yes.png %}).
+1. If you are ready to publish the product in the catalog, set the **Enable Product** switch to `Yes`.
 
 1. Do one of the following:
 

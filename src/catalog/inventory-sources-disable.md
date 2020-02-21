@@ -16,9 +16,9 @@ You cannot disable the Default Source. Magento uses this source for all new, imp
 
 Setting a source to `disabled` is helpful for the following situations:
 
-- **Adding a new store or warehouse** - As you open new storefronts or bring new warehouses and shipment locations online, add a source entry to set up product inventory using import and connect to potential stocks.
-- **Seasonal shipments** - Holidays can be an extremely busy time of the year. You may want to restrict shipping only from specific shipment locations such as warehouses to keep brick-and-mortar locations well stocked and focused on local shoppers. Or you may add new shipment locations for a limited time to handle higher rates of sales and incoming orders.
-- **Closing a location** - When closing a location for movement to new facilities or permanently, disable to stop new shipments from the location.
+- Adding a new store or warehouse - As you open new storefronts or bring new warehouses and shipment locations online, add a source entry to set up product inventory using import and connect to potential stocks.
+- Seasonal shipments - Holidays can be an extremely busy time of the year. You may want to restrict shipping only from specific shipment locations such as warehouses to keep brick-and-mortar locations well stocked and focused on local shoppers. Or you may add new shipment locations for a limited time to handle higher rates of sales and incoming orders.
+- Closing a location - When closing a location for movement to new facilities or permanently, disable to stop new shipments from the location.
 
 ## Disable one or more custom sources
 
@@ -26,7 +26,7 @@ Setting a source to `disabled` is helpful for the following situations:
 
 1. Select the checkbox for each enabled custom source that you want to disable.
 
-1. Click the **Actions** menu at the upper-left corner and choose **Disable**.
+1. Click the _Actions_ menu at the upper-left corner and choose **Disable**.
 
    ![Inventory Management sources - Actions menu]({% link images/images/stores-inventory-sources-disable.png %}){: .zoom}
    _Actions menu_
@@ -39,7 +39,7 @@ Setting a source to `disabled` is helpful for the following situations:
 
 1. Locate a custom source and click **Edit**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **General** section and change **Is Enabled**:
+1. Expand ![]({% link images/images/btn-expand.png %}) the _General_ section and change **Is Enabled**:
 
     | Yes | Source is enabled. The quantity adds to Salable Quantity. The source lists with current quantity when shipping orders. The Source Selection Algorithm checks it the source for shipping. |
     | No | Source is disabled. Quantities are not added to Salable Quantities. The source does not list when shipping orders. Shipping options skip this source. |

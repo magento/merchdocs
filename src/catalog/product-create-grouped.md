@@ -128,7 +128,7 @@ Complete the information in the following sections as needed:
 
 ## Step 6: Publish the product
 
-1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` ( ![]({% link images/images/btn-switch-yes.png %}) ).
+1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes`.
 
 1. Do one of the following:
 

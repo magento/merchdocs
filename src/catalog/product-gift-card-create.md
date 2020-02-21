@@ -55,7 +55,7 @@ _Choose Attribute Set_
 
 1. To give customers the ability to set the value of the gift card, do the following:
 
-    - Set **Open Amount** to `Yes` ( ![]({% link images/images/btn-switch-yes.png %}) ).
+    - Set **Open Amount** to `Yes`.
 
     - To define the range of minimum and maximum acceptable values, enter the **Open Amount From** and **To** values.
 
@@ -102,7 +102,7 @@ Complete the information in the following sections as needed:
 
 ## Step 7: Publish the product
 
-1. If you are ready to publish the product in the catalog, set the **Enable Product** switch to `Yes` ( ![]({% link images/images/btn-switch-yes.png %}) ).
+1. If you are ready to publish the product in the catalog, set the **Enable Product** switch to `Yes`.
 
 1. Do one of the following:
 

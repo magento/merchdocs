@@ -4,7 +4,7 @@ title: Assigning Quantities per Product
 
 After adding [sources]({% link catalog/inventory-product-sources.md %}), update the inventory quantities for your product. These values track the on-hand, available stock amounts.
 
-To hide a source's inventory from shipments without removing the source, select Out of Stock for Source Item Status. The SSA and shipment options only access sources listed as In Stock with available inventory quantity.
+To hide a source's inventory from shipments without removing the source, set _Source Item Status_ to `Out of Stock`. The SSA and shipment options only access sources listed as `In Stock` with available inventory quantity.
 
 All updated quantities and sources display in the product grid.
 
@@ -31,9 +31,9 @@ All updated quantities and sources display in the product grid.
 1. Do one of the following to save:
 
    - Click <span class="btn">Save</span>.
-   - On the **Save** (![]({% link images/images/btn-dropdown.png %})) menu, choose **Save & Close**.
+   - On the _Save_ (![]({% link images/images/btn-dropdown.png %})) menu, click **Save & Close**.
 
-The Product Grid updates with a list of all sources and related quantities. For products with more than five assigned sources, hover over the Quantity per Source column to see the full list.
+The Product Grid updates with a list of all sources and related quantities. For products with more than five assigned sources, hover over the _Quantity per Source_ column to see the full list.
 
 ![]({% link images/images/inventory/inventory-product-qty.png %}){: .zoom}
 _Product Quantities per Source_

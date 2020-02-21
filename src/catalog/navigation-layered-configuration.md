@@ -7,9 +7,9 @@ The layered navigation configuration determines if a product count appears in pa
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the left panel, expand the **Catalog** section and choose **Catalog** underneath.
+1. In the left panel, expand the _Catalog_ section and choose **Catalog** underneath.
 
-1. Expand the **Layered Navigation** section and do the following:
+1. Expand the _Layered Navigation_ section and do the following:
 
     ![]({% link images/images/config-catalog-catalog-layered-navigation.png %}){: .zoom}
     [_Layered Navigation_]({% link configuration/catalog/catalog.md %})

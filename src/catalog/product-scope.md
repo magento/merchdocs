@@ -10,7 +10,7 @@ _Multisite Installation_
 
 If you have only a single store with the default view, you can run your store in [Single Store Mode]({% link stores/store-mode-single.md %}) to hide the scope settings. However, if your store has multiple views, a scope indicator appears below the name of each field.
 
-- To edit product information for a specific view, use the Store View control in the upper-left corner to choose the view. Additional controls become available for any field that can be edited at the store view level.
+- To edit product information for a specific view, use the _Store View_ control in the upper-left corner to choose the view. Additional controls become available for any field that can be edited at the store view level.
 
 - To define the scope of a product in a multisite installation, see the [Product in Websites]({% link catalog/settings-basic-websites.md %}) section of product information.
 
@@ -18,13 +18,13 @@ The process of editing a product for a store view is like adding a layer of prod
 
 You can only edit or assign products for the site you have permissions for, not for all sites where the product is assigned.
 
-Although the Spanish store view is selected in the following example, the product information still appears in the original language of the default store view. To translate the product information, you must switch to the Spanish view, and translate the text fields — such as product title, description, and the meta data. To learn more, see: [Translating Products]({% link catalog/product-translate.md %}).
+Although the _Spanish_ store view is selected in the following example, the product information still appears in the original language of the default store view. To translate the product information, you must switch to the _Spanish_ store view and translate the text fields — such as product title, description, and the meta data. For more information, see [Translating Products]({% link catalog/product-translate.md %}).
 
 ## Edit a product for a different view
 
 1. In the upper-left corner, set **Store View** to the specific view to be edited.
 
-1. When prompted to confirm, click <span class="btn">OK</span> to switch scope.
+1. Click <span class="btn">OK</span> to confirm the scope change.
 
     ![]({% link images/images/product-store-view-spanish-racer-tank.png %}){: .zoom}
     _Store View_
@@ -42,7 +42,7 @@ Although the Spanish store view is selected in the following example, the produc
 
 1. To verify the change in your store, do the following:
 
-    - In the upper-right corner, click the **Admin** menu arrow and choose **Customer View**.
+    - In the upper-right corner, click the _Admin_ menu arrow and choose **Customer View**.
 
         ![]({% link images/images/product-admin-menu-customer-view.png %}){: .zoom}
         _Customer View_

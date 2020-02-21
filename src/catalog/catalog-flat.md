@@ -18,7 +18,7 @@ Step 1: Enable the Flat Catalog
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand the **Storefront** section and do the following:
+1. Expand the _Storefront_ section and do the following:
 
     - Set **Use Flat Catalog Category** to `Yes`. (If necessary, deselect the **Use system value** checkbox.)
 
@@ -41,7 +41,7 @@ There are two methods you can use to verify the results.
 
    1. Open a product in edit mode.
 
-   1. In the **Name** field, add the text `_TEST` to the end of the product name.
+   1. For **Name**, add the text `_TEST` to the end of the product name.
 
    1. Click <span class="btn">Save</span>.
 
@@ -66,7 +66,7 @@ There are two methods you can use to verify the results.
 
    1. In the category tree, select an existing category, click <span class="btn">Add Subcategory</span>, and do the following:
 
-       - In the **Category Name** field, enter `Test Category`.
+       - For **Category Name**, enter `Test Category`.
 
        - When complete, click <span class="btn">Save</span>.
 
@@ -118,7 +118,7 @@ Do the following to remove the test data and restore the original product name a
 
    1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-   1. Expand the **Storefront** section and do the following:
+   1. Expand the _Storefront_ section and do the following:
 
        - Set **Use Flat Catalog Category** to `No`.
 

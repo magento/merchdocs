@@ -2,7 +2,7 @@
 title: MAP Logic
 ---
 
-For products with prices that depend on a selected option (such as custom options, or simple products with their own SKUs and stock management), the following logic is applied, according to the product type and price setting. The actual price is used by order management and customer management tools, and reports.
+For products with prices that depend on a selected option (such as custom options or simple products with their own SKUs and stock management), the following logic is applied, according to the product type and price setting. The actual price is used by order management, customer management tools, and reports.
 
 ## Using MAP with product types
 

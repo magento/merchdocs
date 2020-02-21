@@ -8,15 +8,15 @@ To add product video, you must first obtain an API Key from your Google account 
 
 1. Log in to your Google account and visit the [Google Developers Console][1].
 
-1. Under Use Google APIs, click **Enable and manage APIs**.
+1. Under _Use Google APIs_, click **Enable and manage APIs**.
 
 1. In the left panel, choose **Credentials**.
 
-1. Expand the Add Credentials menu, and choose **API key**.
+1. Expand the _Add Credentials_ menu, and choose **API key**.
 
 1. When prompted to create a new key, choose **Server key**.
 
-1. Enter a name for the key, and click <span class="btn">Create</span>.
+1. Enter a name for the key and click <span class="btn">Create</span>.
 
 1. Wait a few moments while the key is generated and then copy the key to the clipboard.
 
@@ -28,7 +28,7 @@ To add product video, you must first obtain an API Key from your Google account 
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Product Video** section and paste your **YouTube API key**.
+1. Expand ![]({% link images/images/btn-expand.png %}) the _Product Video_ section and paste your **YouTube API key**.
 
     ![]({% link images/images/config-catalog-catalog-product-video.png %}){: .zoom}
     _Product Video_
@@ -41,7 +41,7 @@ To add product video, you must first obtain an API Key from your Google account 
 
 1. Open a product in edit mode.
 
-1. In the **Images and Video** section, click <span class="btn">Add Video</span>.
+1. In the _Images and Video_ section, click <span class="btn">Add Video</span>.
 
     If you haven’t yet configured your YouTube API key, click <span class="btn">OK</span> to continue. You won’t be able to link to a YouTube video, but you can go through the process.
 

@@ -4,7 +4,7 @@ title: Group Price
 
 A discounted price on any product can be extended to members of a specific customer group, provided they shop while logged in to their accounts. The discounted price appears on the product page with the regular price noted below, and replaces the regular price in the shopping cart.
 
-Customer group prices are a component of tier pricing, and are set up in a similar way. The only difference is that customer group prices have a quantity of 1.
+Customer group prices are a component of tier pricing and are set up in a similar way. The only difference is that customer group prices have a quantity of 1.
 
 ![]({% link images/images/storefront-price-group.png %}){: .zoom}
 _Customer Group Discount_
@@ -13,9 +13,9 @@ _Customer Group Discount_
 
 1. Open the product in edit mode.
 
-1. Below the **Price** field, click **Advanced Pricing**.
+1. Below the _Price_ field, click **Advanced Pricing**.
 
-1. In the **Customer Group Price** section, click <span class="btn">Add</span>.
+1. In the _Customer Group Price_ section, click <span class="btn">Add</span>.
 
     <!--{% if "Default.CE Only" contains site.edition %}-->
     ![]({% link images/images/product-price-group.png %}){: .zoom}
@@ -26,11 +26,11 @@ _Customer Group Discount_
 
 1. Configure the group price:
 
-    - For a multisite installation, choose the **Website** where the group price applies.
+    - For a multi-site installation, choose the **Website** where the group price applies.
 
     - Choose the **Customer Group** that is to receive the discount.
 
-    - Enter a **Quantity** of 1.
+    - Enter a **Quantity** of `1`.
 
     - For **Price**, set the pricing type and amount:
 

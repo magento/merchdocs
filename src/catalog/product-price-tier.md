@@ -34,9 +34,9 @@ The prices in the storefront take precedence from the highest to the lowest quan
 
 1. Open the product in edit mode.
 
-1. Below the **Price** field, click **Advanced Pricing**.
+1. Below the _Price_ field, click **Advanced Pricing**.
 
-1. In the **Tier Price** section, click <span class="btn">Add</span>.
+1. In the _Tier Price_ section, click <span class="btn">Add</span>.
 
    If you’re creating a tier of several prices, click **Add** for each additional level, so you can work all tiers at the same time. Each tier in the group has the same website and customer group{% if "Default.B2B Only" contains site.edition %} or shared catalog assignment{% endif %}, but a different quantity and price.
 
@@ -46,7 +46,7 @@ The prices in the storefront take precedence from the highest to the lowest quan
 
     - If necessary, choose the **Customer Group** {% if "Default.B2B Only" contains site.edition %}or **Shared Catalog** {% endif %} that is to receive the discount.
 
-    - In the **Qty** field, enter the quantity that must be ordered to receive the discount.
+    - For **Qty**, enter the quantity that must be ordered to receive the discount.
 
     - Use one of the following methods to enter the tier prices:
 
@@ -54,7 +54,7 @@ The prices in the storefront take precedence from the highest to the lowest quan
 
         - Set **Price** to `Fixed`.
 
-        - In the next field, enter the adjusted price for one unit at that tier.
+        - Then, enter the adjusted price for one unit at that tier.
 
         ![]({% link images/images/product-price-tier-fixed.png %}){: .zoom}
         _Tier Price as a Fixed Amount_
@@ -63,12 +63,12 @@ The prices in the storefront take precedence from the highest to the lowest quan
 
         - Set **Price** to `Discount`.
 
-        - In the next field, enter the discounted price as a percentage off the base price of the product.
+        - Then, enter the discounted price as a percentage off the base price of the product.
 
-        For example, for a 15 percent discount, enter the number 15. (The price is saved with two decimal positions, such as “15.00”.)
+        For example, for a 15 percent discount, enter the number `15`. (The price is saved with two decimal positions, such as `15.00`.)
 
         {:.bs-callout-info}
-        To get the discounted price, the defined percentage is calculated against the value defined in the **Price** field, not the **Special Price** field.
+        To get the discounted price, the defined percentage is calculated against the value defined in the _Price_ field, not the _Special Price_ field.
 
         <!--{% if "Default.CE Only,Default.EE Only" contains site.edition %}-->
         ![]({% link images/images/product-price-tier-discount.png %}){: .zoom}

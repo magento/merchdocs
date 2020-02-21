@@ -16,7 +16,7 @@ To assign a special price to multiple products, such as multiple variations of a
 
 1. Click <span class="btn">Scheduled Update</span>.
 
-1. In the **Update Name** field, enter a name for the special price promotion.
+1. For **Update Name**, enter a name for the special price promotion.
 
 1. Enter a brief **Description**.
 
@@ -27,23 +27,23 @@ To assign a special price to multiple products, such as multiple variations of a
     ![]({% link images/images-ee/product-price-special-scheduled-update.png %}){: .zoom}
     _Save as New Update_
 
-1. Scroll down to the **Price** field, click **Advanced Pricing**, and enter the amount of the **Special Price**.
+1. Scroll down to the _Price_ field, click **Advanced Pricing**, and enter the amount of the **Special Price**.
 
     ![]({% link images/images-ee/product-price-special.png %}){: .zoom}
     _Special Pricing Settings_
 
 1. When complete, click <span class="btn"> Done </span> and then <span class="btn">Save</span>.
 
-    In the storefront, the Special price should appear in both catalog listing and on the product page.
+    In the storefront, the special price should appear in both catalog listing and on the product page.
 
     The Scheduled Change appears at the top of the page.
 
     ![]({% link images/images-ee/product-price-special-scheduled-change.png %}){: .zoom}
-    _Scheduled Change*
+    _Scheduled Change_
 <!--{% endif %}-->
 <!--{% if "Default.CE Only" contains site.edition %}-->
 
-1. Scroll down to the **Price** field, click **Advanced Pricing**, and enter the amount of the **Special Price**.
+1. Scroll down to the _Price_ field, click **Advanced Pricing**, and enter the amount of the **Special Price**.
 
 1. Use the **Calendar** ( ![]({% link images/images/btn-calendar.png %}) ) to choose the **Start Date** and **End Date** for the special price promotion.
 
@@ -54,7 +54,7 @@ To assign a special price to multiple products, such as multiple variations of a
 
 1. When complete, click <span class="btn">Done</span> and then <span class="btn">Save</span>.
 
-    In the storefront, the Special price should appear in both catalog listing and on the product page.
+    In the storefront, the special price should appear in both catalog listing and on the product page.
 <!--{% endif %}-->
 
 ## Method 2: Apply Special Price to Multiple Products
@@ -88,15 +88,15 @@ The following example shows how to assign the same special price to multiple pro
     ![]({% link images/images/product-price-special-action-update-attributes.png %}){: .zoom}
     _Update Attributes_
 
-1. Scroll down to the **Special Price** field and do the following:
+1. Scroll down to the _Special Price_ field and do the following:
 
-    - Select the **Change** checkbox below the **Special Price** field and enter the special price that you want to offer.
+    - Select the **Change** checkbox below the _Special Price_ field and enter the special price that you want to offer.
 
-    - Select the **Change** checkbox below the **Special Price From Date** field, click the **Calendar** ( ![]({% link images/images/btn-calendar.png %}) ), and choose the first date of the special price promotion.
+    - Select the **Change** checkbox below the _Special Price From Date_ field, click the **Calendar** ( ![]({% link images/images/btn-calendar.png %}) ), and choose the first date of the special price promotion.
 
-        The special price goes into effect immediately after midnight at the beginning of the start date (00:01), and continues until just before midnight (23:59) on the day before the end date.
+        The special price goes into effect immediately after midnight at the beginning of the start date (00:01) and continues until just before midnight (23:59) on the day before the end date.
 
-    - Select the **Change** checkbox below the **Special Price To Date** field, click the **Calendar** ( ![]({% link images/images/btn-calendar.png %}) ), and choose the last date of the special price promotion.
+    - Select the **Change** checkbox below the _Special Price To Date_ field, click the **Calendar** ( ![]({% link images/images/btn-calendar.png %}) ), and choose the last date of the special price promotion.
 
     ![]({% link images/images/product-price-special-action-update-attributes-fields.png %}){: .zoom}
     _Special Price Fields_
@@ -112,9 +112,7 @@ The following example shows how to assign the same special price to multiple pro
 
 ## Testing
 
-If the special price doesn’t appear correctly in the storefront on both the catalog listing and product pages, do the following:
-
-1. Clear your browser cache.
+If the special price does not appear correctly in the storefront on both the catalog listing and product pages, clear your browser cache:
 
 1. On the _Admin_ sidebar, go to **System** > **Cache Management**.
 

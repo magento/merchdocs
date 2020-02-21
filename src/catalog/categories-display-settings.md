@@ -2,7 +2,7 @@
 title: Display Settings
 ---
 
-The Display Settings determine which content elements appear on a category page and the order in which products appear. You can enable CMS blocks, set the anchor status of the category, and manage sorting options from the Display Settings tab. For examples of how categories are reflected in the storefront, see [Catalog Navigation]({% link catalog/navigation.md %}).
+Display Settings determine which content elements appear on a category page and the order in which products appear. You can enable CMS blocks, set the anchor status of the category, and manage sorting options from the _Display Settings_ tab. For examples of how categories are reflected in the storefront, see [Catalog Navigation]({% link catalog/navigation.md %}).
 
 ![]({% link images/images/category-display-settings.png %}){: .zoom}
 _Display Settings_

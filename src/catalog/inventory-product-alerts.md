@@ -2,18 +2,18 @@
 title: Product Alerts
 ---
 
-Customers can subscribe to two types of alerts by email: price change alerts and in-stock alerts. For each type of alert, you can determine if customers are able to subscribe, select the email template that is used, and identify the sender of the email.
+Customers can subscribe to two types of alerts by email - price change alerts and in-stock alerts. For each type of alert, you can determine if customers are able to subscribe, select the email template that is used and identify the sender of the email.
 
 ![]({% link images/images/storefront-price-alert-signup.png %}){: .zoom}
 _Sign Up for Price Alert_
 
 ## Price change alerts
 
-When price change alerts are enabled, a “Sign up for price alert” link appears on every product page. Customers can click the link to subscribe to alerts related to the product. Guests are prompted to open an account with your store. Whenever the price changes, or the product goes on special, everyone who has signed up to be notified receives an email alert.
+When price change alerts are enabled, a _Sign up for price alert_ link appears on every product page. Customers can click the link to subscribe to alerts related to the product. Guests are prompted to open an account with your store. Whenever the price changes or the product goes on special, everyone who has signed up to be notified receives an email alert.
 
 ## In-Stock alerts
 
-The in-stock alert creates a link called “Sign up to get notified when this product is back in stock” for every product that is out of stock. Customers can click the link to subscribe to the alert. When the product is back in stock, customers receive email notification that the product is available. Products with alerts have a Product Alerts tab in the Product Information panel that lists the customers who have subscribed to an alert.
+The in-stock alert creates a link called _Sign up to get notified when this product is back in stock_ for every product that is out of stock. Customers can click the link to subscribe to the alert. When the product is back in stock, customers receive email notification that the product is available. Products with alerts have a _Product Alerts_ tab in the Product Information panel that lists the customers who have subscribed to an alert.
 
 ![]({% link images/images/catalog-product-alerts.png %}){: .zoom}
 _List of Product and Price Alert Subscriptions_
@@ -24,7 +24,7 @@ _List of Product and Price Alert Subscriptions_
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Click to expand the **Product Alerts** section, and do the following:
+1. Click to expand the _Product Alerts_ section and do the following:
 
     ![]({% link images/images/config-catalog-catalog-product-alerts.png %}){: .zoom}
     [_Product Alerts_]({% link configuration/catalog/catalog.md %})
@@ -36,7 +36,7 @@ _List of Product and Price Alert Subscriptions_
     - To offer alerts when out-of-stock products become available again, set **Allow Alert When Product Comes Back in Stock** to `Yes`.
 
       {:.bs-callout-info}
-      The “Sign up to get notified when this product is back in stock” message appears only when **Inventory Stock Options - Display Out of Stock Products** is set to `Yes`.
+      The _Sign up to get notified when this product is back in stock_ message appears only when **Inventory Stock Options - Display Out of Stock Products** is set to `Yes`.
 
     - Set **Stock Alert Email Template** to the template that you want to use for product stock alerts.
 
@@ -52,7 +52,7 @@ Next, configure, add, or modify the email template for your price alert. You may
 
 1. Click <span class="btn">Add New Template</span>.
 
-1. Under **Load default template**, choose the **Template** that you want to customize.
+1. Under _Load default template_, choose the **Template** that you want to customize.
 
    This may be the alert template from your theme. Or you can select the `Price Alert` or `Stock Alert` templates under _Magento_PriceAlert_.
 

@@ -27,7 +27,7 @@ If your store has multiple views in different languages, the same products are a
 
 1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
 
-1. In the list, find the attribute to be translated, and open in edit mode.
+1. In the list, find the attribute to be translated and open in edit mode.
 
 1. In the left panel, choose **Manage Labels**.
 
@@ -46,9 +46,9 @@ If your store has multiple views in different languages, the same products are a
 
 1. In the tree, find the category to be translated and open it in edit mode.
 
-1. On the _Basic Information_, translate **Category Name**.
+1. For _Basic Information_, translate **Category Name**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Content** section and translate **Description**.
+1. Expand ![]({% link images/images/btn-expand.png %}) the _Content_ section and translate **Description**.
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Search Engine Optimization Settings** section and translate the following fields:
 
@@ -56,7 +56,7 @@ If your store has multiple views in different languages, the same products are a
     - **Meta Keywords**
     - **Meta Description**
 
-1. Under the **Search Engine Optimization Settings** section, do the following to translate the **URL Key**:
+1. Under the _Search Engine Optimization Settings_ section, do the following to translate the **URL Key**:
 
     - Deselect the **Use Default Value** checkbox to the right of the field.
 

@@ -3,7 +3,7 @@ title: Configuring Catalog Search
 group: marketing
 ---
 
-Magento offers a choice of search engines and versions, and supports both MySQL and Elasticsearch. The search engine configuration includes a set of general settings and additional features specific to the search engine. By default, Magento uses the MySQL search engine.
+Magento offers a choice of search engines and versions and supports both MySQL and Elasticsearch. The search engine configuration includes a set of general settings and additional features specific to the search engine. By default, Magento uses the MySQL search engine.
 
 ## MySQL
 
@@ -19,7 +19,7 @@ All search engines include a set of search options.
 
 |Option|Scope|Description|
 |--- |--- |--- |
-|Minimal Query Length|Store View|The minimum number of characters allowed in a catalog search.The value set for this option must be compatible with the corresponding range set in your selected search engine configurations. For example, if you set this value to `2` in Magento, update the value in your search engine.|
+|Minimal Query Length|Store View|The minimum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your selected search engine configurations. For example, if you set this value to `2` in Magento, update the value in your search engine.|
 |Maximum Query Length|Store View|The maximum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your selected search engine configurations. For example, if you set this value to `300` in Magento, update the value in your search engine.|
 |Number of top search results to cache|Store View|The number of popular search terms and results to cache for faster responses. Entering a value of `0` caches all search terms and results when entered a second time. Default value: 100|
 |Autocomplete Limit|Store View|The maximum number of search results to display for search autocomplete. Restricting this amount increases performance of searches and reduces the displayed list size. Default value: 8|

@@ -15,7 +15,7 @@ _Product Workspace_
 
 ## Enable Product setting
 
-The online status of the product is indicated by the switch at the top of the form. To change the online status, simply set the **Enable Product** switch to the `Yes` or `No` position.
+The online status of the product is indicated by the switch at the top of the form. To change the online status, set the **Enable Product** switch to `Yes` or `No`.
 
 | Control | Description |
 |----------
@@ -31,11 +31,11 @@ _Attribute Set_
 
 ## Expand/collapse
 
-To expand or collapse a section, click either the expand ![]({% link images/images/btn-expand.png %}) or collapse ![]({% link images/images/btn-collapse.png %}) icon to the right.
+To expand or collapse a section, click either the expand ![]({% link images/images/btn-expand.png %}) or collapse ![]({% link images/images/btn-collapse.png %}) icon.
 
 ## Save menu
 
-The Save menu includes several options that let you save and continue, save and create a new product, save and duplicate the product, or save and close.
+The _Save_ menu includes several options that let you save and continue, save and create a new product, save and duplicate the product, or save and close.
 
 ![]({% link images/images/product-save-menu.png %}){: .zoom}
 _Save Menu_

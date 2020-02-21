@@ -12,11 +12,11 @@ Each field in the form corresponds to an attribute from your product catalog. To
 
 1. In the footer of the store, click **Advanced Search**.
 
-1. In the Advanced Search form, add full or partial values in as many fields as necessary.
+1. In the _Advanced Search_ form, add full or partial values in as many fields as necessary.
 
 1. Click <span class="btn">Search</span> to display the results.
 
     ![]({% link images/images/storefront-search-advanced-results-modify.png %}){: .zoom}
     _Search Results_
 
-1. If you don’t see what you are looking for in the search results, click **Modify your search** and try another combination of criteria.
+1. If you do not see what you are looking for in the search results, click **Modify your search** and try another combination of criteria.
