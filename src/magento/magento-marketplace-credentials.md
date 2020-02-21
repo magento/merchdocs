@@ -24,7 +24,9 @@ Your access key is a set of public and private keys that is used to synchronize 
 
   - Click **Create a New Access Key**. Enter a name for the new key pair and click **OK**. Valid characters include upper- and lowercase characters, and hyphens instead of spaces.
 
-1. When complete, click **OK**. Your new access key is enabled and appears in the list.
+1. When complete, click **OK**. 
+
+    Your new access key is enabled and appears in the list.
 
   Notice the _Copy_ link after each public and private key. In the next step, you will copy and paste these values to synchronize your store with Magento Marketplace.
 
