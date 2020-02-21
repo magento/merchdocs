@@ -10,7 +10,7 @@ The Web Setup System Configuration tool uses the public and private keys from yo
 
 ## Step 1: Retrieve Your Marketplace Credentials
 
-1. If continuing from the previous topic, your browser is already open to the Access Key page of your Marketplace profile. Otherwise, log in to your Magento account to retrieve your Magento Marketplace access key.
+If your  browser is not already open to the Access Key page of your Marketplace profile (continuing from the previous topic),  log in to your Magento account to retrieve your Magento Marketplace access key.
 
     If you need help, see [Set Up Your Marketplace Credentials]({% link magento/magento-marketplace-credentials.md %}).
 
