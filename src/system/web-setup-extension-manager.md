@@ -5,113 +5,134 @@ redirect_from:
 ---
 
 {: .bs-callout-info}
-If your Magento installation is hosted on Adobe Commerce Cloud, see [Install, manage, and upgrade extensions][1].
+If your Magento installation is hosted on Adobe Commerce Cloud or requires installation from the command line of the server, see [Install, manage, and upgrade extensions][1].
 
-Installing an extension is a three-step process that should take place during off-peak hours. Before the extension is installed, your store is put into maintenance mode, checked for readiness, and backed up. After the extension is installed, it must be configured for your store according to the developer’s instructions.
+Installing an extension from the Admin is a three-step process that should take place during off-peak hours. Before the extension is installed, your store is put into maintenance mode, checked for readiness, and backed up. After the extension is installed, it must be configured for your store according to the developer’s instructions.
 
-For technical information, see [Run the Extension Manager][1]{:target="_blank"} in the developer documentation.
-
-{% include flush-cache.md %}
-
-![Web setup - Extension Manager]({% link images/images/web-setup-extension-manager-your-marketplace-account.png %}){: .zoom}
-_Installed Extensions_
+As a best practice, an extension should be installed and tested in a development environment before it is pushed to production. For technical information, see [Run the Extension Manager][1] in the developer documentation.
 
 ## Install an extension
 
-1. Retrieve your access keys:
+1. Log in to your Magento account and go to **Marketplace** > _My Products_ > **Access Keys**.
 
-    - Go to [Magento Marketplace][2]{:target="_blank"} and log into your account.
+    Keep this browser tab open so you can easily retrieve your [access key]({% link magento/magento-marketplace-credentials.md %}).
 
-    - On the _Marketplace_ tab, go to **My Products** and click **Access Keys**.
-
-        If you need to generate a new set of access keys, click **Create a New Access Key**.
-
-    - Find the set of access keys (public key and private key) in the list and make them available for the next steps.
-
-1. Log in to the Admin of your Magento store as a user with full administrator rights.
+1. In a new browser tab, log in to the Admin of your Magento store as a user with full administrator rights.
 
 1. On the _Admin_ sidebar, go to **System** > _Tools_ > **Web Setup Wizard**.
 
     ![Web Setup Wizard - Tools]({% link images/images/web-setup-wizard-tiles.png %}){: .zoom}
-    _Web Setup Wizard_
+    _Setup Wizard_
 
 1. Click **Extension Manager**.
 
-1. Copy and paste your **Public Key** and **Private Key**, and click <span class="btn">Submit</span>.
+1. Copy and paste your **Public Key** and **Private Key** from your Magento account, and click <span class="btn">Submit</span>.
 
-    ![Extension Manager]({% link images/images/system-extension-manager.png %}){: .zoom}
-    _Extension Manager_
+    ![Extension Manager]({% link images/images/web-setup-extension-manager-access-key.png %}){: .zoom}
+    _Public and Private Keys_
 
-    It will take a few minutes to generate the summary and list of all available updates, recently purchased extensions, and currently installed extensions and sample data.
+    It might take a few minutes to list all available updates, recently purchased extensions, and currently installed extensions and sample data.
 
-    ![Marketplace - Account Summary]({% link images/images/system-extension-manager-summary.png %}){: .zoom}
-     _Summary of Your Marketplace Account_
+    ![Marketplace - Account Summary]({% link images/images/web-setup-extension-manager-summary-detail.png %}){: .zoom}
+     _Summary of Marketplace Account_
 
 1. Locate _Extensions Ready to Install_ at the top of the page and click <span class="btn">Review and Install</span>. Then, do the following:
 
     - In the list of extensions that are ready to install, select the checkbox of the extension that you want to install.
 
-        ![Extension Manager - Extensions ready to install]({% link images/images/system-extension-manager-ready-to-install.png %}){: .zoom}
-        _Extensions Ready to Install_
-
     - In the _Latest version_ column, choose the version that you want to install.
 
     - In the _Action_ column, click **Install**.
 
-1. Follow the onscreen instructions to complete the following:
+    ![Extension Manager - Extensions ready to install]({% link images/images/web-setup-extension-manager-ready-to-install.png %}){: .zoom}
+    _Extensions Ready to Install_
 
-    - Step 1: Readiness Check
-
-    - Step 2: Create Backup
-
-    - Step 3: Component Install
+1. Follow the onscreen instructions and progress indicator to complete the installation.
 
 ### Step 1: Readiness Check
 
-1. Before the installation begins, your store environment must be checked for compatibility. When ready to begin, click **Start Readiness Check**. The progress indicator shows where you are in the process.
+Before the installation begins, your store environment is checked for compatibility.
 
-    ![Extension install - readiness check]({% link images/images/extension-install-step1.png %}){: .zoom}
+1. Click **Start Readiness Check**.
+
+    The progress indicator shows where you are in the process.
+
+    ![Extension install - readiness check]({% link images/images/web-setup-extension-manager-step1.png %}){: .zoom}
     _Readiness Check_
 
 1. When the Readiness Check completes successfully, click <span class="btn">Next</span>.
 
-    ![Extension install - readiness check complete]({% link images/images/extension-install-step1-complete.png %}){: .zoom}
+    ![Extension install - readiness check complete]({% link images/images/web-setup-extension-manager-step1-complete.png %}){: .zoom}
     _Readiness Check Complete_
 
 ### Step 2: Create Backup
 
-1. Your store is placed in maintenance mode while the backup is created. When you are ready to begin, click **Create Backup**. Then, wait a few minutes for the backup to complete.
+Your store is put in Maintenance Mode while the backup is created. By default, the backup includes the code, media, and database.
 
-    ![Extension install - backup complete]({% link images/images/extension-install-step2-complete.png %}){: .zoom}
+1. Clear the checkbox of any item that you do not want to include in the backup.
+
+    ![]({% link images/images/web-setup-extension-manager-step2.png %}){: .zoom}
+    _Backup Options_
+
+1. Click <span class="btn">Create Backup</span>.
+
+   The backup takes a few minutes to complete. A summary report provides information about each step of the process, and lists the path to the backup file at the end of the report.
+
+    ![]({% link images/images/web-setup-extension-manager-step2-complete.png %}){: .zoom}
     _Backup Complete_
 
-1. You can see the path to the backup file at the bottom of the report. When the backup is complete, click <span class="btn">Next</span>.
+1. When the backup is complete, click <span class="btn">Next</span>.
 
 ### Step 3: Component Install
 
-1. When you are ready to begin, click **Install**. Then, wait a few moments for the installation to complete.
+During this part of the process, your store is taken offline to prevent the installation from interferring with the shopping experience.
 
-    ![Extension install - installation complete]({% link images/images/extension-install-step-success.png %}){: .zoom}
+1. When you are ready to begin, click **Install**.
+
+    Depending on your [cron]({% link system/cron.md %}) settings, it might take some time for the installation to complete. The page shows the current status, and you can track the detailed progress in the console log. The Success page appears when the process is complete.
+
+    ![Extension install - installation complete]({% link images/images/web-setup-extension-manager-success.png %}){: .zoom}
     _Installation Complete_
 
-1. When complete, click **Back to Setup Tool**. Then, click **System Configuration**.
+1. When the installation is complete, click **Back to Setup Tool**.
 
-1. In the upper-right corner of Extension Manager, click the **Reset** link to log out.
+1. Do one of the following to exit the Setup Wizard and return to the Admin.
 
-1. [Flush the cache]({% link system/cache-management.md %}) after installing and enabling the module.
+    - If you have synchronized your store and want to maintain the synchronization, enter the URL of the Admin in the address bar of the browser.  Then, log in to the Admin.
 
-## Configure the extension for your store
+    - If you want to clear the access key, click **System Configuration**. Then in the upper-right corner, click the **Reset** link to clear the access key and log out.
 
-1. Log in to the Admin of your store.
+    ![Web Setup Wizard - Tools]({% link images/images/web-setup-wizard-tiles.png %}){: .zoom}
+    _Setup Wizard_
+
+### Step 4: Flush the cache
+
+{% include flush-cache.md %}
+
+1. If necessary, log in to the Admin of your store.
+
+1. Do one of the following:
+
+    - Click **Cache Management** in the message above the workspace.
+
+    - On the Admin sidebar, go to **System** > _Tools_ > **Cache Management**.
+
+1. Click <span class="btn">Flush Magento Cache</span>.
+
+    ![]({% link images/images/system-cache-management-invalid.png %}){: .zoom}
+    _Flush Magento Cache_
+
+### Step 5: Configure the extension for your store
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the left panel, find the new tab for the extension you installed.
+1. In the left panel, find the new configuration section for the extension you installed.
 
 1. Follow the instructions from the extension developer to complete the configuration.
 
-{: .bs-callout-info}
-The Web Setup Wizard does not automatically return to the Admin of your store. When you are ready to close the tool, enter the URL of your store Admin in the address line of the browser tab, and sign in to the Admin.
+1. In the Admin, look for any new commands the extension has added to the menus.
+
+    For example, a slider extension might add new commands to the Content menu.
 
 [1]: http://devdocs.magento.com/guides/v2.3/comp-mgr/extens-man/extensman-checklist.html
 [2]: https://marketplace.magento.com/
