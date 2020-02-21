@@ -146,11 +146,11 @@ _Progress Bar_
 
 1. If you need to add a new attribute, click <span class="btn">Create New Attribute</span> and do the following:
 
-   - Complete the attribute properties.
+    - Complete the attribute properties.
 
-   - Click <span class="btn">Save Attribute</span>.
+    - Click <span class="btn">Save Attribute</span>.
 
-   - Select the checkbox to select the attribute.
+    - Select the checkbox to select the attribute.
 
 1. In the upper-right corner, click <span class="btn">Next</span>.
 
@@ -235,13 +235,13 @@ Because we already uploaded an image for the parent product, we’ll use this op
 
     For Multi Source merchants using [Inventory Management]({% link catalog/inventory-management.md %}), assign sources and add quantities for all generated product variants:
 
-   - Select the **Apply single quantity to each SKUs** option.
+    - Select the **Apply single quantity to each SKUs** option.
 
-   - To add a source, click **Assign Sources**.
+    - To add a source, click **Assign Sources**.
 
-   - Browse or search for a source you want to add. Select the checkbox next to the source(s) you want to add for the product.
+    - Browse or search for a source you want to add. Select the checkbox next to the source(s) you want to add for the product.
 
-   - Enter an on-hand inventory amount per source.
+    - Enter an on-hand inventory amount per source.
 
     ![]({% link images/images/inventory/inventory-configure-product-quantity.png %}){: .zoom}
     _Same Quantity for All SKUs_
@@ -262,6 +262,7 @@ When configuration for images, price, and quantity are complete, click <span cla
 1. Wait a moment for the list of products to appear and do one of the following:
 
     - If you are satisfied with the configurations, click **Next**.
+
     - To make corrections, click **Back**.
 
     ![]({% link images/images/product-create-configurable-summary.png %}){: .zoom}
