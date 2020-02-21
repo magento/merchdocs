@@ -14,7 +14,9 @@ If your  browser is not already open to the Access Key page of your Marketplace 
 
     If you need help, see [Set Up Your Marketplace Credentials]({% link magento/magento-marketplace-credentials.md %}).
 
-1. Find your Marketplace Access Key in the list, and **Copy** your _Public Key_. (Keep this browser tab open and continue to the next step.)
+1. Find your Marketplace Access Key in the list and **Copy** your _Public Key_. 
+
+    Keep this browser tab open and continue to the next step.
 
 ## Step 2: Synchronize Your Store
 
