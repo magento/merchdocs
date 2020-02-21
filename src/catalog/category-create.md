@@ -6,14 +6,8 @@ The category structure of your catalog is like an upside-down tree, with the roo
 
 For a website with multiple [stores]({% link stores/stores-all-create-store.md %}), you can create a different root category for each store that defines the set of categories that is used for the [top navigation]({% link catalog/navigation-top.md %}).
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/catalog-categories.png %}){: .zoom}
-_Category Tree_
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![]({% link images/images-ee/catalog-categories.png %}){: .zoom}
-_Category Tree_
-<!--{% endif %}-->
+<span class="caption-edition-ee">_Category Tree_</span>
 
 ## Step 1: Create a category
 
@@ -37,20 +31,17 @@ _Category Tree_
 
 1. Enter the **Category Name**.
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/category-basic-information.png %}){: .zoom}
-    _Basic Information_
-    <!--{% endif %}-->
-    <!--{% if "Default.EE Only,Default.B2B Only" contains site.edition %}-->
     ![]({% link images/images-ee/catalog-categories-currently-active.png %}){: .zoom}
-    _Basic Information_
-    <!--{% endif %}-->
+    <span class="caption-edition-ee">_Basic Information_</span>
 
 1. Click <span class="btn">Save</span> and continue.
 
 ## Step 3: Complete the category content
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Content** section.
+
+    ![]({% link images/images-ee/category-content.png %}){: .zoom}
+    <span class="caption-edition-ee">_Category Content_</span>
 
 1. To display a **Category Image** at the top of the page, you can either upload your own image or use an image that already exists in your [Media Storage]({% link cms/media-storage.md %}).
 
@@ -67,9 +58,6 @@ _Category Tree_
 1. To include a content block on the category landing page, choose the **CMS Block** that you want to appear.
 
 1. Click <span class="btn">Save</span> and continue.
-
-    ![]({% link images/images/category-content.png %}){: .zoom}
-    [_Content_]({% link catalog/categories-content-settings.md %})
 
 ## Step 4: Complete the display settings
 
@@ -131,24 +119,21 @@ _Category Tree_
 
 1. In the first column, select the checkbox for each product to include in the category.
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/categories-products-in-catalog.png %}){: .zoom}
-     *[Products In Category]({% link catalog/categories-category-products.md %})*
-    <!--{% endif %}-->
-    <!--{% if "Default.EE-B2B" contains site.edition %}-->
     ![]({% link images/images-ee/catalog-categories-products-in-category.png %}){: .zoom}
-     *[Products In Category]({% link catalog/categories-category-products.md %})*
-    <!--{% endif %}-->
+    <span class="caption-edition-ee">[_Products In Category_]({% link catalog/categories-category-products.md %})</span>
 
 1. Click <span class="btn">Save</span> and continue.
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-## Step 7: Set the category permissions
+## <span class="heading-edition-ee">Step 7: Set the category permissions</span>
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Category Permissions** section and do the following:
 
     - For a multisite installation, choose the **Website** where the category permissions apply.
-    - Choose the **Customer Group** or **Shared Catalog** where the category permissions apply.
+
+    - {:.edition-ee}Choose the **Customer Group** where the category permissions apply.
+
+    - {:.edition-b2b}Choose the **Customer Group** or **Shared Catalog** where the category permissions apply.
+
     - Set the following permissions as needed:
         - Browsing Category
         - Display Product Prices
@@ -156,50 +141,34 @@ _Category Tree_
 
 1. To add another permission rule, click <span class="btn">New Permission</span> and repeat the process.
 
-    <!--{% if "Default.EE Only" contains site.edition %}-->
-    ![]({% link images/images-ee/category-permissions-section-admin.png %}){: .zoom}
-    [_Category Permissions_]({% link catalog/category-permissions.md %})
-    <!--{% endif %}-->
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
     ![]({% link images/images-b2b/catalog-category-create-permissions.png %}){: .zoom}
-    [_Category Permissions_]({% link catalog/category-permissions.md %})
-    <!--{% endif %}-->
-<!--{% endif %}-->
+    <span class="caption-edition-b2b">[_Category Permissions_]({% link catalog/category-permissions.md %})</span>
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-## Step 7: Complete the design settings
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ## Step 8: Complete the design settings
-<!--{% endif %}-->
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Design** section and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Design** section.
 
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
-    - To apply the parent category design settings to this category, set **Use Parent Category Settings** to `Yes`.
-    <!--{% endif %}-->
+1. Set the design settings as needed:
+
+    - {:.edition-b2b}To apply the parent category design settings to this category, set **Use Parent Category Settings** to `Yes`.
+
     - To change the design of the category pages, choose the **Theme** that you want to apply.
+
     - To change the column layout of the category pages, choose the **Layout** that you want to apply.
+
     - To enter custom code, enter valid XML code in the **Layout Update XML** box.
+
     - To use the same design for product pages, set **Apply Design to Products** to `Yes`.
 
-    <!--{% if "Default.CE-EE" contains site.edition %}-->
-    ![]({% link images/images/catalog-categories-design.png %}){: .zoom}
-    [_Design_]({% link catalog/categories-custom-design.md %})
-    <!--{% endif %}-->
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
     ![]({% link images/images-b2b/catalog-category-design.png %}){: .zoom}
-    [_Design_]({% link catalog/categories-custom-design.md %})
-    <!--{% endif %}-->
+    <span class="caption-edition-b2b">[_Design_]({% link catalog/categories-custom-design.md %})</span>
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    To schedule the design update for a specific time period, do the following:
+    - {:.edition-ce}To schedule the design update for a specific time period, do the following:
 
-    - Expand the **Schedule Design Update** section.
-    - Use the calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}) to choose the Schedule Update **From** and **To** dates.
+      - Expand the **Schedule Design Update** section.
+      - Use the calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}) to choose the Schedule Update **From** and **To** dates.
 
-    ![]({% link images/images/category-scheduled-design-update.png %}){: .zoom}
-    [_Scheduled Design Update_]({% link catalog/categories-custom-design.md %})
+        ![]({% link images/images/category-scheduled-design-update.png %}){: .zoom}
+        [_Scheduled Design Update_]({% link catalog/categories-custom-design.md %})
 
-    <!--{% endif %}-->
 1. When complete, click <span class="btn">Save</span>.

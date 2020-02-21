@@ -52,11 +52,7 @@ The Products in Category section also allows you to use [category rules]({% link
 {:.bs-callout-tip}
 When setting up a category rule, the products are matched and assigned to the rule when the category is saved. Therefore, if you add a new product to the catalog and want to include it in the rule, you must re-save each category that is set to match products by rule to ensure that the new product is included.
 
-## Page options and controls
-
-<div class="edition-ee" markdown="1">
-Options and controls in Magento Commerce only
-</div>
+## <span class="heading-edition-ee">Page options</span>
 
 |Option|Description|
 |--- |--- |
@@ -73,7 +69,11 @@ Options and controls in Magento Commerce only
 |Value|Specifies the value  the attribute must have to meet the condition.|
 |Logic|The Logic column is used to define multiple conditions, and appears only when an additional condition is added. Options: OR / AND|
 
-### Controls
+## Controls
+
+<div class="edition-ee" markdown="1">
+Controls in Magento Commerce only
+</div>
 
 | Control  | Description  |
 |----------|--------------|
@@ -85,7 +85,7 @@ Options and controls in Magento Commerce only
 | ![]({% link images/images/btn-position.png %}) | Determines the position of the product in the list. |
 
 <div class="edition-ce" markdown="1">
-Controls in Magento Commerce only
+Controls in Magento Open Source only
 </div>
 
 | Control  | Description  |
