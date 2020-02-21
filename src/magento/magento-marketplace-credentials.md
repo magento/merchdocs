@@ -5,9 +5,9 @@ group: getting-started
 
 Before you can install an extension purchased from Magento Marketplace, sign in to your Magento account and verify that you have an active access key. You can sign in to your Magento account from the header of [Marketplace][1] or [Magento.com][2].
 
-Your access key is a set of public and private keys that is used to synchronize your Magento installation with your Magento account, and verify your credentials. After your account is synchronized, will be reqired to enter your private key each time you install an extension or module from Magento Marketplace, or upgrade your Magento installation. You can create multiple access keys for different purposes, and enable or disable them as needed.
+Your access key is a set of public and private keys that is used to synchronize your Magento installation with your Magento account and verify your credentials. After your account is synchronized, you must enter your private key each time you install an extension or module from Magento Marketplace or upgrade your Magento installation. You can create multiple access keys for different purposes, and enable or disable them as needed.
 
-## Step 1: Create an Access Key
+## Step 1: Create an access key
 
 1. Sign in to your Magento account.
 
