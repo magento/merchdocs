@@ -47,9 +47,9 @@ _Slider in Storefront_
     ![]({% link images/images-ee/page-builder-media-slider-name-buy3-get1free.png %}){: .zoom}
     _Slide Name In Navigation_
 
-1. Enter the **Minimum Height** of the slide in pixels.
+1. Enter the **Minimum Height** for the slide. The minimum height can be a number with any valid CSS unit (such as 100px, 50%, 50em, 100vh) or a calculation (such as 100vh - 237px).
 
-    The minimum height of the slide in this example is the default 300 pixels.
+   For example, you can set the minimum height of a slide to stretch the full-height of the page, giving you compelling options for full-page background images and videos.
 
 ### Background Color
 
@@ -125,7 +125,7 @@ _Background Color_
 
     If you want to repeat the background image, set **Background Repeat** to `Yes`.
 
-### Slider Content
+### Slide Content
 
 1. In the **Content** section, enter the **Message Text** that you want to appear with the slide.
 
@@ -353,9 +353,11 @@ If you want a title above the slider, simply add a Text content type above the s
         ![]({% link images/images-ee/page-builder-media-slider-settings-show-arrows-dots.png %}){: .zoom}
         _Show Arrows and Dots_
 
-    - Enter the **Minimum Height** of the slider in pixels.
+      - Enter the **Minimum Height** for the slide. The minimum height can be a number with any valid CSS unit (such as 100px, 50%, 50em, 100vh) or a calculation (such as 100vh - 237px).
 
-        ![]({% link images/images-ee/page-builder-media-slider-settings-minimum-height.png %}){: .zoom}
+        For example, you can set the minimum height of a slider to stretch the full-height of the page, giving you compelling options for full-page background images and videos.
+
+        ![]({% link images/images-ee/page-builder-media-slider-settings-minimum-height.png %}){: width="400px"}{: .zoom}
         _Minimum Height_
 
 1. Complete the remaining slider settings as needed, using the [descriptions](#slider-settings) at the bottom of this page for reference.
@@ -402,7 +404,10 @@ If you want a title above the slider, simply add a Text content type above the s
 |--- |--- |
 |Appearance|Determines the slider layout. Options: <br/>**Poster** - Centers content and button on the slide. The overlay, if used, extends the full width of the slide. <br/>**Collage Left** - Places content and button in a defined area on the left side of the slide. The overlay, if used, covers only the defined area. <br/>**Collage Center** - Places content and button in a defined area that is centered on the slide. The overlay, if used, covers only the defined area. <br/>**Collage Right** - Places content and button in a defined area on the right side of the slide. The overlay, if used, covers only the defined area.|
 |Slide Name|Specifies a name for the slide.|
-|Minimum Height|Specifies the minimum height of the slide in pixels.|
+|Minimum Height|Specifies the minimum height of the slide using any CSS unit (200px, 100vh, 45em, 50%) or calculation between units (100vh - 237px). For example, you can set the slide's minimum height to cover the full-height of the page, then use background images and videos for compelling design options.|
+
+{:.bs-callout-info}
+When the slide is set to the full-height of the page (100vh), the slider that contains the slide also stretches the full height of the page to accommodate the height of the slide.
 
 ### Background
 
@@ -450,7 +455,7 @@ If you want a title above the slider, simply add a Text content type above the s
 | Infinite Loop  | Determines if the slide show replays from the beginning after the last slide. Options: <br/>**Yes** - The slide show replays indefinitely while the page is open. <br/>**No** - The slide show plays only once.                                                                                                                            |
 | Show Arrows    | Determines if each slide includes _next_ and _previous_ navigation arrows on the left and right side of each slide. Options: <br/>**Yes** - Navigation arrows appear on the left and right side of each slide. <br/>**No** - The slides do not have navigation arrows.                                                                     |
 | Show Dots      | Determines if the slider includes navigation dots below the slides. Options: <br/>**Yes** - Navigation dots appear at the bottom of the slider. <br/>**No** - The slider does not include navigation dots.                                                                                                                                 |
-| Minimum Height | Specifies the minimum height of the slider in pixels.                                                                                                                                                                                                                                                                    |
+| Minimum Height | Specifies the minimum height of the slider using any CSS unit (200px, 100vh, 45em, 50%) or calculation between units (100vh - 237px). For example, you can set the slider's minimum height to cover the full-height of the page, then use background images and videos for compelling design options. |
 
 ### Advanced
 

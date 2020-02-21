@@ -27,6 +27,21 @@ _Row Toolbox_
       ![]({% link images/images-ee/page-builder-tutorial1-row-settings-appearance.png %}){: .zoom}
       _Appearance_
 
+   **Layout**
+
+   - Enter the **Minimum Height** for the row. This value can be a number with any valid CSS unit (such as 100px, 50%, 50em, 100vh) or a calculation (such as 100vh - 237px).
+
+      For example, you can set the minimum height of a row to stretch the full-height of the page, giving you compelling options for full-page background images and videos.
+
+   - Choose one of the following **Vertical Alignment** settings to align any content containers that are added to the row:
+
+     - Top
+     - Center
+     - Bottom
+
+      ![]({% link images/images-ee/page-builder-row-layout.png %}){: width="400px"}{: .zoom}
+      _Layout Settings_
+
    **Background Color**
 
    1. Use one of the following methods to set the background color:
@@ -107,21 +122,6 @@ _Row Toolbox_
 
       ![]({% link images/images-ee/page-builder-settings-parallax-background.png %}){: .zoom}
       _Parallax Background_
-
-   **Layout**
-
-   - Enter the **Minimum Height** of the row in pixels.
-
-      For example, you might set Minimum Height to match the height of a background image to ensure that the full image is visible.
-
-   - Choose one of the following **Vertical Alignment** settings to align any content containers that are added to the row:
-
-     - Top
-     - Center
-     - Bottom
-
-      ![]({% link images/images-ee/page-builder-row-layout.png %}){: .zoom}
-      _Layout Settings_
 
    **Advanced**
 
@@ -206,7 +206,7 @@ _Row Toolbox_
 |Background Attachment|Determines how the background image moves in relation to the scrolling page. Options: <br/>**Scroll** - The background image is synchronized to move down as the page scrolls. Use Parallax Background to control the scrolling speed.<br/>**Fixed** - (Not available for mobile) The background image does not move as the container scrolls over the image and is fixed at the specified background position.|
 |Background Repeat|Determines if the background image is repeated. Options: <br/>**Yes** - The background image is repeated to fill the available space. <br/>**No** - Uses only a single instance of the background image.|
 |Parallax Background|Determines the speed of a scrolling background image in relation to the scrolling of the page. The background can be set to scroll more slowly to create a sense of immersion. Options: <br/>**Enable Parallax Background** - Enables parallax scrolling of the background image. <br/>**Parallax Speed** - Determines how fast the background image moves in relation to page scrolling. Accepts values in the range of `-1.0` to `2.0`.|
-|Layout|Determines the minimum height and vertical alignment of the row. Options: <br/>**Minimum Height** - Determines the minimum height of the row. For example, you might set the minimum height to match the height of a background image to ensure that the full image is visible. <br/>**Vertical Alignment** - Determines the vertical position of content containers that are added to the row.|
+|Layout|Determines the minimum height and vertical alignment of the row. Options: <br/>**Minimum Height** - Determines the minimum height of the row using any CSS unit (px, vh, em, %) or calculation between units (100vh - 237px). For example, you can set the minimum height to cover the full-height of the page to create background images and videos that fill the entire page.<br/>**Vertical Alignment** - Determines the vertical position of content containers that are added to the row.|
 
 ### Advanced
 

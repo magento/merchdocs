@@ -43,6 +43,10 @@ Under **Appearance**, choose one of the following settings:
 ![]({% link images/images-ee/page-builder-tutorial1-row-banner-settings-appearance-collage-right.png %}){: .zoom}
 _Appearance_
 
+Enter the **Minimum Height** for the row. The minimum height can be a number with any valid CSS unit (such as 100px, 50%, 50em, 100vh) or a calculation (such as 100vh - 237px).
+
+For example, you can set the minimum height of a banner to stretch the full-height of the page, giving you compelling options for full-page background images and videos.
+
 ### Background Color
 
 Use one of the following methods to set the background color:
@@ -277,7 +281,7 @@ You can use an overlay to apply a background color to the active content area th
 |Setting|Description|
 |--- |--- |
 |Appearance|Determines the banner layout. Options: <br/>**Poster** - Centers content and button on the banner. The overlay, if used, extends the full width of the banner. <br/>**Collage Left** - Places content and button in a defined area on the left side of the banner. The overlay, if used, covers only the defined area. <br/>**Collage Center** - Places content and button in a defined area that is centered on the banner. The overlay, if used, covers only the defined area. <br/>**Collage Right** - Places content and button in a defined area on the right side of the banner. The overlay, if used, covers only the defined area.|
-|Minimum Height|Specifies the minimum height of the banner in pixels.|
+|Minimum Height | Specifies the minimum height of the banner using any CSS unit (200px, 100vh, 45em, 50%) or calculation between units (100vh - 237px). For example, you can set the banner's minimum height to cover the full-height of the page, then use background images and videos for compelling design options. |
 
 ### Background
 
