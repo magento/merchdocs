@@ -280,7 +280,7 @@ Fields in Magento Commerce only
 |Default Rule Label for All Store Views|A default label that identifies the discount and can be used for all store views.|
 |Store View Specific Labels|If applicable, specifies a different label to identify the discount for each store view.|
 
-### <span class="caption-edition-ee">Related Dynamic Blocks</span>
+### <span class="heading-edition-ee">Related Dynamic Blocks</span>
 
 Identifies any dynamic block(s) that are associated with the rule.
 

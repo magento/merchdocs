@@ -1,5 +1,4 @@
 ---
-conditions: Default.B2B Only
 title: Quotes
 b2b_only: true
 ---

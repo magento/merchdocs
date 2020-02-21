@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Customer Segments in Price Rules
 group: customers
 ---
