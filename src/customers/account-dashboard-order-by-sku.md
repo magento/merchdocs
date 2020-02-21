@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE Only
+ee_only: true
 title: Order by SKU
 ---
 

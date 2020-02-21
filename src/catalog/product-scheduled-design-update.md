@@ -1,5 +1,5 @@
 ---
-conditions: Default.CE Only
+ce_only: true
 title: Schedule Design Update
 ---
 
