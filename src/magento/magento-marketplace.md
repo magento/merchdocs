@@ -14,13 +14,11 @@ _[Magento Marketplace][1]_
 
 ## Adobe Commerce Cloud
 
-Magento installations that are hosted on Adobe Commerce Cloud have a more complex installation process that requires a Magento development environment where the integration is tested and deployed to a staging environment before being pushed to production. To learn more, see [Install, manage, and upgrade extensions][3].
+For installations of Magento that are hosted on Adobe Commerce Cloud, Marketplace extensions can be added only from a development environment where the integration can be tested and deployed to a staging environment before being pushed to production. To learn more, see [Install, manage, and upgrade extensions][3].
 
 ## "On Premise" Magento Commerce
 
-Although your server might be physically located in your facility or elsewhere, we use the term _on premise_ to refer to any non-cloud installation of Magento Commerce. As a best practice, and regardless of hosting environment, all extensions should be installed and tested in a development environment before being pushed to production.
-
-Follow these steps to install your Marketplace purchases to an installation of Magento Commerce that resides on an "on premise" server.
+Follow these steps to install your Marketplace purchases to an installation of Magento Commerce that resides on an _on premise_ server. Although your server might be physically located in your facility or elsewhere, the term _on premise_ refers to any non-cloud installation of Magento Commerce. As a best practice, extensions should be installed and tested in a development environment before being pushed to production.
 
 1. Set up your Magento Marketplace [Access Key]({% link magento/magento-marketplace-credentials.md %}).
 
