@@ -12,15 +12,15 @@ In contrast, a flat catalog creates new tables on the fly, where each row contai
 {:.bs-callout-info}
 Before you enable a flat catalog for a live store, make sure to test the configuration in a development environment.
 
-## Step 1: Enable the Flat Catalog
+Step 1: Enable the Flat Catalog
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand the **Storefront** section and do the following:
+1. Expand the _Storefront_ section and do the following:
 
-    - Set **Use Flat Catalog Category** to `Yes`. (If necessary, clear the **Use system value** checkbox.)
+    - Set **Use Flat Catalog Category** to `Yes`. (If necessary, deselect the **Use system value** checkbox.)
 
     - Set **Use Flat Catalog Product** to `Yes`.
 
@@ -41,7 +41,7 @@ There are two methods you can use to verify the results.
 
    1. Open a product in edit mode.
 
-   1. In the **Name** field, add the text `_TEST` to the end of the product name.
+   1. For **Name**, add the text `_TEST` to the end of the product name.
 
    1. Click <span class="btn">Save</span>.
 
@@ -66,7 +66,7 @@ There are two methods you can use to verify the results.
 
    1. In the category tree, select an existing category, click <span class="btn">Add Subcategory</span>, and do the following:
 
-       - In the **Category Name** field, enter `Test Category`.
+       - For **Category Name**, enter `Test Category`.
 
        - When complete, click <span class="btn">Save</span>.
 
@@ -118,7 +118,7 @@ Do the following to remove the test data and restore the original product name a
 
    1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-   1. Expand the **Storefront** section and do the following:
+   1. Expand the _Storefront_ section and do the following:
 
        - Set **Use Flat Catalog Category** to `No`.
 

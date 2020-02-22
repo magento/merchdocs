@@ -11,7 +11,7 @@ Price navigation can be used to distribute products by price range in layered na
 
 With the first two methods, the navigation steps are calculated automatically. The manual method lets you specify a division limit for price intervals. The following example shows the difference between price navigation steps of 10 and 100.
 
-Iterative splitting provides the best distribution of products among price ranges. With iterative splitting, after choosing the $0.00-$99 range, the customer can drill-down through several sub-ranges of prices. Price-range splitting stops when the number of products reaches the threshold set by the Interval Division Limit.
+Iterative splitting provides the best distribution of products among price ranges. With iterative splitting, after choosing the $0.00-$99 range, the customer can drill down through several sub-ranges of prices. Price-range splitting stops when the number of products reaches the threshold set by the Interval Division Limit.
 
 ## Example: Price navigation steps
 
@@ -34,9 +34,9 @@ Iterative splitting provides the best distribution of products among price range
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Layered Navigation** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the _Layered Navigation_ section.
 
-   By default, **Display Product Count** is set to `Yes`. You can clear the **Use system value** checkbox to change this setting.
+   By default, **Display Product Count** is set to `Yes`. If necessary, deselect the **Use system value** checkbox to change this setting.
 
     ![]({% link images/images/config-catalog-catalog-layered-navigation.png %}){: .zoom}
     [_Layered Navigation_]({% link configuration/catalog/catalog.md %})
@@ -47,12 +47,12 @@ Iterative splitting provides the best distribution of products among price range
 
 ### Method 1: Automatic (equalize price ranges)
 
-Leave **Price Navigation Steps Calculation** set to the default, `Automatic (Equalize Price Ranges)`. This setting uses the standard algorithm for price navigation.
+Leave **Price Navigation Steps Calculation** set to `Automatic (Equalize Price Ranges)` (default). This setting uses the standard algorithm for price navigation.
 
 ### Method 2: Automatic (equalize product counts)
 
 {:.bs-callout-info}
-If necessary, first clear the **Use system value** checkbox to change these settings.
+If necessary, first deselect the **Use system value** checkbox to change these settings.
 
 1. Set **Price Navigation Steps Calculation** to `Automatic (equalize product counts)`.
 
@@ -68,7 +68,7 @@ If necessary, first clear the **Use system value** checkbox to change these sett
 ### Method 3: Manual
 
 {:.bs-callout-info}
-If necessary, first clear the **Use system value** checkbox to change these settings.
+If necessary, first deselect the **Use system value** checkbox to change these settings.
 
 1. Set **Price Navigation Steps Calculation** to `Manual`.
 
