@@ -5,11 +5,11 @@ redirect_from:
 ---
 
 {: .bs-callout-info}
-If your Magento installation is hosted on Adobe Commerce Cloud or requires installation from the command line of the server, see [Install, manage, and upgrade extensions][1].
+If your Magento installation is hosted on [Adobe Commerce Cloud][1] or requires installation from the command line of the server, see [Install, manage, and upgrade extensions][2].
 
 Installing an extension from the Admin is a three-step process that should take place during off-peak hours. Before the extension is installed, your store is put into maintenance mode, checked for readiness, and backed up. After the extension is installed, it must be configured for your store according to the developer’s instructions.
 
-As a best practice, an extension should be installed and tested in a development environment before it is pushed to production. For technical information, see [Run the Extension Manager][1] in the developer documentation.
+As a best practice, an extension should be installed and tested in a development environment before it is pushed to production. For technical information, see [Run the Extension Manager][3] in the developer documentation.
 
 ## Install an extension
 
@@ -26,7 +26,9 @@ As a best practice, an extension should be installed and tested in a development
 
 1. Click **Extension Manager**.
 
-1. Copy and paste your **Public Key** and **Private Key** from your Magento account, and click <span class="btn">Submit</span>.
+1. Copy and paste your **Public Key** and **Private Key** from your Magento account.
+
+1. Click <span class="btn">Submit</span>.
 
     ![Extension Manager]({% link images/images/web-setup-extension-manager-access-key.png %}){: .zoom}
     _Public and Private Keys_
@@ -49,7 +51,7 @@ As a best practice, an extension should be installed and tested in a development
 
 1. Follow the onscreen instructions and progress indicator to complete the installation.
 
-### Step 1: Readiness Check
+### Step 1: Readiness check
 
 Before the installation begins, your store environment is checked for compatibility.
 
@@ -65,7 +67,7 @@ Before the installation begins, your store environment is checked for compatibil
     ![Extension install - readiness check complete]({% link images/images/web-setup-extension-manager-step1-complete.png %}){: .zoom}
     _Readiness Check Complete_
 
-### Step 2: Create Backup
+### Step 2: Create backup
 
 Your store is put in Maintenance Mode while the backup is created. By default, the backup includes the code, media, and database.
 
@@ -83,7 +85,7 @@ Your store is put in Maintenance Mode while the backup is created. By default, t
 
 1. When the backup is complete, click <span class="btn">Next</span>.
 
-### Step 3: Component Install
+### Step 3: Component install
 
 During this part of the process, your store is taken offline to prevent the installation from interferring with the shopping experience.
 
@@ -134,5 +136,6 @@ During this part of the process, your store is taken offline to prevent the inst
 
     For example, a slider extension might add new commands to the Content menu.
 
-[1]: http://devdocs.magento.com/guides/v2.3/comp-mgr/extens-man/extensman-checklist.html
-[2]: https://marketplace.magento.com/
+[1]: https://www.adobe.com/commerce/magento/enterprise.html
+[2]: http://devdocs.magento.com/guides/v2.3/comp-mgr/extens-man/extensman-checklist.html
+[3]: https://devdocs.magento.com/guides/v2.3/comp-mgr/extens-man/extensman-checklist.html
