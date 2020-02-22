@@ -40,6 +40,6 @@ _Add Access Keys_
 Your Magento installation is now synchronized with your Magento account. To install an extension, module, or upgrade, you will need to provide your private key before proceeding.
 
 {: .bs-callout-info}
-The Web Setup Wizard does not automatically return to the Admin of your store. When you are ready to close the tool, enter the URL of your store Admin in the address line of the browser tab, and sign in to the Admin.
+The Web Setup Wizard does not automatically return to the Admin of your store. When you are ready to close the tool, enter the URL of your store Admin in the address line of the browser tab and sign in to the Admin.
 
 [1]: https://devdocs.magento.com/cloud/howtos/install-components.html
