@@ -7,7 +7,7 @@ redirect_from:
 
 [Magento Marketplace][1] is our next generation application store that offers merchants a curated selection of solutions, and provides qualified developers the tools, platform, and prime location to build a thriving business.
 
-The installation process for Marketplace purchases is different for "on premise" installations of Magento Commerce than for [Adobe Commerce Cloud][2].
+The installation process for Marketplace purchases is different for _on premise_ installations of Magento Commerce than for Magento installations hosted on [Adobe Commerce Cloud][2].
 
 ![]({% link images/images/magento-marketplace.png %}){: .zoom}
 _[Magento Marketplace][1]_
@@ -18,7 +18,7 @@ Magento installations that are hosted on Adobe Commerce Cloud have a more comple
 
 ## "On Premise" Magento Commerce
 
-Although your server might be physically located in your facility or elsewhere, we use the term "on premise" to refer to any non-cloud installation of Magento Commerce. As a best practice, and regardless of hosting environment, all extensions should be installed and tested in a development environment before being pushed to production.
+Although your server might be physically located in your facility or elsewhere, we use the term _on premise_ to refer to any non-cloud installation of Magento Commerce. As a best practice, and regardless of hosting environment, all extensions should be installed and tested in a development environment before being pushed to production.
 
 Follow these steps to install your Marketplace purchases to an installation of Magento Commerce that resides on an "on premise" server.
 
