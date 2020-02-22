@@ -15,11 +15,12 @@ Advanced installations might require the assistance of a system integrator, deve
 
 - Some extensions have an installation process that must be completed from the command line of your server.
 
-- Magento installations hosted on Adobe Commerce Cloud have a more complex installation process that requires a Magento development environment where the integration is tested and deployed to a staging environment before being pushed to production.
+- Magento installations hosted on [Adobe Commerce Cloud][1] require an extension to be installed in a Magento development environment where the integration can be tested and deployed to a staging environment before being pushed to production.
 
-To learn more, see [Install, manage, and upgrade extensions][1].
+To learn more, see [Install, manage, and upgrade extensions][2].
 
 ![Marketplace - Account Summary]({% link images/images/web-setup-extension-manager-summary.png %}){: .zoom}
  _Summary of Your Marketplace Account_
 
-[1]: https://devdocs.magento.com/cloud/howtos/install-components.html
+[1]: https://www.adobe.com/commerce/magento/enterprise.html
+[2]: https://devdocs.magento.com/cloud/howtos/install-components.html
