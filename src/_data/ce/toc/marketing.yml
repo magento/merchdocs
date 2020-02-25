@@ -278,207 +278,180 @@ pages:
             url: "/sales-channels/amazon/listing-improvements.html"
       - label: Version 4.0+
         children:
-        - label: Getting Started with Amazon Sales Channel
-          url: "/sales-channels/amazon/amazon-getting-started.html"
+        - label: Amazon Sales Channel
+          url: "/sales-channels/asc/amazon-sales-channel.html"
+          children:
+        - label: Amazon and Sales Channel Basics
+          url: "/sales-channels/asc/amazon-getting-started.html"
           children:
           - label: About Amazon Sales Channel
-            url: "/sales-channels/amazon/about-amazon-sales-channel.html"
+            url: "/sales-channels/asc/about-amazon-sales-channel.html"
           - label: About Amazon Marketplace
-            url: "/sales-channels/amazon/about-amazon-marketplace.html"
+            url: "/sales-channels/asc/about-amazon-marketplace.html"
           - label: About Amazon and your Magento Catalog
-            url: "/sales-channels/amazon/about-listings-and-catalog.html"
+            url: "/sales-channels/asc/about-listings-and-catalog.html"
           - label: Best Practices and Limitations
-            url: "/sales-channels/amazon/amazon-best-practices.html"
+            url: "/sales-channels/asc/amazon-best-practices.html"
         - label: Onboarding Amazon Sales Channel
-          url: "/sales-channels/amazon/amazon-onboarding-home.html"
+          url: "/sales-channels/asc/amazon-onboarding-home.html"
           children:
           - label: Pre-Setup Tasks
-            url: "/sales-channels/amazon/amazon-pre-setup-tasks.html"
+            url: "/sales-channels/asc/amazon-pre-setup-tasks.html"
             children:
             - label: Creating Attributes for Amazon
-              url: "/sales-channels/amazon/ob-creating-magento-attributes.html"
+              url: "/sales-channels/asc/ob-creating-magento-attributes.html"
           - label: Verify the Amazon API Key
-            url: "/sales-channels/amazon/amazon-verify-api-key.html"
+            url: "/sales-channels/asc/amazon-verify-api-key.html"
           - label: Store Integration
-            url: "/sales-channels/amazon/store-integration.html"
+            url: "/sales-channels/asc/store-integration.html"
+        - label: Store Settings
+          url: "/sales-channels/asc/ob-store-review.html" 
+          children:
           - label: Listing Settings
-            url: "/sales-channels/amazon/ob-listing-settings.html"
+            url: "/sales-channels/asc/listing-settings.html"
             children:
             - label: Product Listing Actions
-              url: "/sales-channels/amazon/ob-product-listing-actions.html"
+              url: "/sales-channels/asc/product-listing-actions.html"
             - label: Third Party Listings
-              url: "/sales-channels/amazon/ob-third-party-listings.html"
+              url: "/sales-channels/asc/third-party-listing-settings.html"
             - label: Listing Price
-              url: "/sales-channels/amazon/ob-listing-price.html"
-            - label: "(B2B) Business Price"
-              url: "/sales-channels/amazon/ob-business-pricing.html"
+              url: "/sales-channels/asc/listing-price.html"
+            - label: "(B2B) Business Pricing"
+              url: "/sales-channels/asc/business-pricing.html"
             - label: Stock/Quantity
-              url: "/sales-channels/amazon/ob-stock-quantity.html"
+              url: "/sales-channels/asc/stock-quantity.html"
             - label: Fulfilled By
-              url: "/sales-channels/amazon/ob-fulfilled-by.html"
+              url: "/sales-channels/asc/fulfilled-by.html"
             - label: Catalog Search
-              url: "/sales-channels/amazon/ob-catalog-search.html"
+              url: "/sales-channels/asc/catalog-search.html"
             - label: Product Listing Condition
-              url: "/sales-channels/amazon/ob-product-listing-condition.html"
-          - label: Listing Rules
-            url: "/sales-channels/amazon/ob-listing-rules.html"
-          - label: Listing Preview
-            url: "/sales-channels/amazon/ob-listing-preview.html"
+              url: "/sales-channels/asc/product-listing-condition.html"
           - label: Order Settings
-            url: "/sales-channels/amazon/ob-order-settings.html"
+            url: "/sales-channels/asc/order-settings.html"
+          - label: Listing Rules
+            url: "/sales-channels/asc/listing-rules.html"
+            children:
+            - label: Listing Rule Preview
+              url: "/sales-channels/asc/listing-rule-preview.html"
           - label: Pricing Rules
-            url: "/sales-channels/amazon/ob-pricing-rules.html"
+            url: "/sales-channels/asc/pricing-products.html"
             children:
+            - label: Add New Pricing Rule
+              url: "/sales-channels/asc/add-pricing-rule.html"
             - label: Price Rule General Settings
-              url: "/sales-channels/amazon/ob-pricing-rules-general-settings.html"
+              url: "/sales-channels/asc/pricing-rule-general-settings.html"
             - label: Price Rule Conditions
-              url: "/sales-channels/amazon/ob-pricing-rules-conditions.html"
+              url: "/sales-channels/asc/pricing-rule-conditions.html"
             - label: Price Rule Actions
-              url: "/sales-channels/amazon/ob-pricing-rules-actions.html"
-          - label: Store Review
-            url: "/sales-channels/amazon/ob-store-review.html"
-        - label: Amazon Sales Channel Home
-          url: "/sales-channels/amazon/amazon-sales-channel-home.html"
-          children:
-          - label: Workspace Controls
-            url: "/sales-channels/amazon/workspace-controls.html"
-        - label: Managing Stores
-          url: "/sales-channels/amazon/managing-stores.html"
-          children:
-          - label: Amazon Store Dashboard
-            url: "/sales-channels/amazon/amazon-store-dashboard.html"
-          - label: Store Integration Settings
-            url: "/sales-channels/amazon/store-integration-settings.html"
-          - label: Sales Channel Settings
-            url: "/sales-channels/amazon/sales-channel-settings.html"
-        - label: Managing Attributes
-          url: "/sales-channels/amazon/managing-attributes.html"
-          children:
-          - label: Creating and Editing Attributes
-            url: "/sales-channels/amazon/creating-attributes.html"
-          - label: Managing Attribute Values
-            url: "/sales-channels/amazon/amazon-matching-attributes-values.html"
-        - label: Managing Listing Settings
-          url: "/sales-channels/amazon/listing-settings.html"
-          children:
-          - label: Product Listing Actions
-            url: "/sales-channels/amazon/product-listing-actions.html"
-          - label: Third Party Listings
-            url: "/sales-channels/amazon/third-party-listing-settings.html"
-          - label: Listing Price
-            url: "/sales-channels/amazon/listing-price.html"
-          - label: "(B2B) Business Pricing"
-            url: "/sales-channels/amazon/business-pricing.html"
-          - label: Stock/Quantity
-            url: "/sales-channels/amazon/stock-quantity.html"
-          - label: Fulfilled By
-            url: "/sales-channels/amazon/fulfilled-by.html"
-          - label: Catalog Search
-            url: "/sales-channels/amazon/catalog-search.html"
-          - label: Product Listing Condition
-            url: "/sales-channels/amazon/product-listing-condition.html"
-        - label: Managing Listing Rules
-          url: "/sales-channels/amazon/listing-rules.html"
-          children:
-          - label: Listing Rule Preview
-            url: "/sales-channels/amazon/listing-rule-preview.html"
-        - label: Managing Listing Pricing
-          url: "/sales-channels/amazon/pricing-products.html"
-          children:
-          - label: Add New Pricing Rule
-            url: "/sales-channels/amazon/add-pricing-rule.html"
-          - label: Price Rule General Settings
-            url: "/sales-channels/amazon/pricing-rule-general-settings.html"
-          - label: Price Rule Conditions
-            url: "/sales-channels/amazon/pricing-rule-conditions.html"
-          - label: Price Rule Actions
-            url: "/sales-channels/amazon/pricing-rule-actions.html"
-            children:
-            - label: Standard Price Rule
-              url: "/sales-channels/amazon/standard-price-rules.html"
-            - label: Intelligent Repricing Rule
-              url: "/sales-channels/amazon/intelligent-repricing-rules.html"
+              url: "/sales-channels/asc/pricing-rule-actions.html"
               children:
-              - label: Competitor Conditional Variances
-                url: "/sales-channels/amazon/competitor-conditional-variances.html"
-              - label: Price Adjustment
-                url: "/sales-channels/amazon/price-adjustment.html"
-              - label: Floor Price
-                url: "/sales-channels/amazon/floor-price.html"
-              - label: Optional Ceiling Price
-                url: "/sales-channels/amazon/optional-ceiling-price.html"
-          - label: Price Rule Examples
-            url: "/sales-channels/amazon/price-rule-examples.html"
-          - label: Price Scope
-            url: "/sales-channels/amazon/price-scope.html"
-            children:
-            - label: Price Priority Logic
-              url: "/sales-channels/amazon/price-priority-logic.html"
-          - label: Buy Box Competitor Pricing
-            url: "/sales-channels/amazon/buy-box-competitor-pricing.html"
-          - label: Lowest Competitor Pricing
-            url: "/sales-channels/amazon/lowest-competitor-pricing.html"
-        - label: Managing Listings
-          url: "/sales-channels/amazon/managing-product-listings.html"
+              - label: Standard Price Rule
+                url: "/sales-channels/asc/standard-price-rules.html"
+              - label: Intelligent Repricing Rule
+                url: "/sales-channels/asc/intelligent-repricing-rules.html"
+                children:
+                - label: Competitor Conditional Variances
+                  url: "/sales-channels/asc/competitor-conditional-variances.html"
+                - label: Price Adjustment
+                  url: "/sales-channels/asc/price-adjustment.html"
+                - label: Floor Price
+                  url: "/sales-channels/asc/floor-price.html"
+                - label: Optional Ceiling Price
+                  url: "/sales-channels/asc/optional-ceiling-price.html"
+                - label: Price Rule Examples
+                  url: "/sales-channels/asc/price-rule-examples.html"
+                - label: Price Scope
+                  url: "/sales-channels/asc/price-scope.html"
+                  children:
+                  - label: Price Priority Logic
+                    url: "/sales-channels/asc/price-priority-logic.html"
+                  - label: Buy Box Competitor Pricing
+                    url: "/sales-channels/asc/buy-box-competitor-pricing.html"
+                  - label: Lowest Competitor Pricing
+                    url: "/sales-channels/asc/lowest-competitor-pricing.html"
+              - label: Store Reports
+                url: "/sales-channels/asc/amazon-logs-reports.html"
+                children:
+                - label: Competitive Price Analysis
+                  url: "/sales-channels/asc/competitive-price-analysis.html"
+                - label: Listing Improvements
+                  url: "/sales-channels/asc/listing-improvements.html"
+              - label: Logs
+                url: "/sales-channels/asc/listing-changes-log.html"
+                children:
+                - label: Listing Changes Log
+                  url: "/sales-channels/asc/listing-changes-log.html"
+                - label: Communication Errors Log
+                  url: "/sales-channels/asc/communication-errors-log.html"
+              - label: Store Integration Settings
+                url: "/sales-channels/asc/store-integration-settings.html"
+        - label: Amazon Sales Channel Home
+          url: "/sales-channels/asc/amazon-sales-channel-home.html"
           children:
-          - label: Managing by Status/Tab
-            url: "/sales-channels/amazon/managing-listings-by-tab.html"
+          - label: Amazon Stores
+            url: "/sales-channels/asc/managing-stores.html"
+            children:
+            - label: Sales Channel Admin Settings
+              url: "/sales-channels/asc/sales-channel-settings.html"
+            - label: Amazon Store Dashboard
+              url: "/sales-channels/asc/amazon-store-dashboard.html"
+          - label: Learning and Preparation
+            url: "/sales-channels/asc/learning-preparation.html"
+          - label: Attributes
+            url: "/sales-channels/asc/managing-attributes.html"
+            children:
+            - label: Create and Edit Attributes
+              url: "/sales-channels/asc/creating-attributes.html"
+            - label: Manage Attribute Values
+              url: "/sales-channels/asc/amazon-matching-attributes-values.html"
+        - label: Manage Listings
+          url: "/sales-channels/asc/managing-product-listings.html"
+          children:
+          - label: Manage by Status/Tab
+            url: "/sales-channels/asc/managing-listings-by-tab.html"
             children:
             - label: Incomplete Listings
-              url: "/sales-channels/amazon/incomplete-listings.html"
+              url: "/sales-channels/asc/incomplete-listings.html"
             - label: New Third Party Listings
-              url: "/sales-channels/amazon/new-third-party-listings.html"
+              url: "/sales-channels/asc/new-third-party-listings.html"
             - label: Ready to List
-              url: "/sales-channels/amazon/ready-to-list.html"
+              url: "/sales-channels/asc/ready-to-list.html"
             - label: Inactive Listings
-              url: "/sales-channels/amazon/inactive-listings.html"
+              url: "/sales-channels/asc/inactive-listings.html"
             - label: Active Listings
-              url: "/sales-channels/amazon/active-listings.html"
+              url: "/sales-channels/asc/active-listings.html"
             - label: Overrides
-              url: "/sales-channels/amazon/overrides.html"
+              url: "/sales-channels/asc/overrides.html"
             - label: Ineligible Listings
-              url: "/sales-channels/amazon/ineligible-listings.html"
+              url: "/sales-channels/asc/ineligible-listings.html"
             - label: Ended Listings
-              url: "/sales-channels/amazon/ended-listings.html"
-          - label: Managing by Actions
-            url: "/sales-channels/amazon/managing-listings-by-action.html"
+              url: "/sales-channels/asc/ended-listings.html"
+          - label: Manage by Actions
+            url: "/sales-channels/asc/managing-listings-by-action.html"
             children:
-            - label: Creating and Assigning Products
-              url: "/sales-channels/amazon/creating-assigning-catalog-products.html"
-            - label: Creating and Editing Overrides
-              url: "/sales-channels/amazon/creating-editing-overrides.html"
+            - label: Create and Assign Products
+              url: "/sales-channels/asc/creating-assigning-catalog-products.html"
+            - label: Create and Edit Overrides
+              url: "/sales-channels/asc/creating-editing-overrides.html"
             - label: Create an Alias Seller SKU
-              url: "/sales-channels/amazon/create-alias-seller-sku.html"
+              url: "/sales-channels/asc/create-alias-seller-sku.html"
             - label: Edit an Assigned ASIN
-              url: "/sales-channels/amazon/edit-assigned-asin.html"
+              url: "/sales-channels/asc/edit-assigned-asin.html"
             - label: End an Amazon Listing
-              url: "/sales-channels/amazon/end-listings-manually.html"
+              url: "/sales-channels/asc/end-listings-manually.html"
             - label: Update Required Info
-              url: "/sales-channels/amazon/amazon-manually-update-incomplete-listing.html"
+              url: "/sales-channels/asc/amazon-manually-update-incomplete-listing.html"
             - label: View Details
-              url: "/sales-channels/amazon/product-listing-details.html"
-        - label: Managing Orders and Fulfillment
-          url: "/sales-channels/amazon/managing-orders.html"
+              url: "/sales-channels/asc/product-listing-details.html"
+        - label: Manage Orders and Fulfillment
+          url: "/sales-channels/asc/managing-orders.html"
           children:
-          - label: Order Settings
-            url: "/sales-channels/amazon/order-settings.html"
           - label: View Amazon Order Details
-            url: "/sales-channels/amazon/amazon-order-details.html"
+            url: "/sales-channels/asc/amazon-order-details.html"
           - label: Common Order Processing Tasks
-            url: "/sales-channels/amazon/common-order-processing.html"
+            url: "/sales-channels/asc/common-order-processing.html"
           - label: Fulfillment Workflows
-            url: "/sales-channels/amazon/fulfillment-workflows.html"
-        - label: Logs and Reports
-          url: "/sales-channels/amazon/amazon-logs-reports.html"
-          children:
-          - label: Listing Changes Log
-            url: "/sales-channels/amazon/listing-changes-log.html"
-          - label: Communication Errors Log
-            url: "/sales-channels/amazon/communication-errors-log.html"
-          - label: Competitive Price Analysis
-            url: "/sales-channels/amazon/competitive-price-analysis.html"
-          - label: Listing Improvements
-            url: "/sales-channels/amazon/listing-improvements.html"
+            url: "/sales-channels/asc/fulfillment-workflows.html"
 - label: Shopping Tools
   url: "/marketing/shopping-tools.html"
   children:
