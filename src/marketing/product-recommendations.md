@@ -32,11 +32,11 @@ Magento provides the following types of recommendations:
 
 ### Backup recommendations
 
-If there is not sufficient data to provide personalized recommendations to your shoppers, Magento provides backup recommendations to use until those personalized recommendations can be surfaced.
+If there is not sufficient input data to provide all requested recommendation items in a unit, Magento provides backup recommendations to fill those items.
 
-For example, if you deploy the **Recommended for you** recommendation type to your homepage, a first time shopper on your site will not have generated enough behavioral data to accurately recommended personalized products. In this case, Magento will surface **Most viewed** recommendations to this shopper, because **Most viewed** does not require any behavioral data.
+For example, if you deploy the **Recommended for you** recommendation type to your homepage, a first time shopper on your site will not have generated enough behavioral data to accurately recommended personalized products. In this case, Magento will surface items based on the **Most viewed** recommendation type to this shopper.
 
-The following recommendation types will fallback to **Most viewed** if there is not sufficient behavioral data collected:
+The following recommendation types will fallback to **Most viewed** if there is not sufficient input data collected:
 
 -  **Recommended for you**
 
