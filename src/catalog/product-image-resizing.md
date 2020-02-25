@@ -16,13 +16,13 @@ For example, a 3000 x 2100 pixel JPG at 100% could be a 5mb+ image file. Resizin
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the _Images Upload Configuration_ section.
 
-    To change default settings, you may need to clear the **Use system value** checkbox.
+    To change default settings, you may need to deselect the **Use system value** checkbox.
 
 1. To enable, make sure **Enable Frontend Resize** is set to `Yes`.
 
-1. Enter a **Quality** setting from 1 to 100%.
+1. Enter a **Quality** setting between 1 to 100%.
 
-      We recommend 80-90% for a reduced file size and high quality.
+      We recommend a setting between 80-90% for a reduced file size and high quality.
 
 1. Set the **Maximum Width** in pixels for the image.
 
