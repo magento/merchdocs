@@ -87,6 +87,13 @@ _Background Color_
     ![]({% link images/images-ee/page-builder-settings-background-color.png %}){: .zoom}
     _Set Opacity_
 
+### Background Type
+
+The background type can be an image or a video. Page Builder defaults to `Image` and shows various image settings. If you select `Video`, Page Builder swaps the image settings with video settings. Both background types are described as follows.
+
+![]({% link images/images-ee/page-builder-background-type.png %}){: .zoom}
+_Background Type_
+
 ### Background Image
 
 1. To add a standard **Background Image** for desktop devices, do one of the following:
@@ -124,6 +131,25 @@ _Background Color_
    - `Right`
 
     If you want to repeat the background image, set **Background Repeat** to `Yes`.
+
+### Background Video
+
+1. For the **Background Type**, select **Video**.
+
+2. In the **Video URL** field, enter a valid video URL. A valid video URL can be a link to a:
+
+   - YouTube video: `https://youtu.be/CoDhMRUUjeI`
+   - Vimeo video: `https://vimeo.com/190156113`
+   - Video file (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`
+
+   ![]({% link images/images-ee/page-builder-video-url.png %}){: .zoom}
+   _Background Video URL_
+
+3. Apply additional settings as follows:
+
+   - Select an **Overlay Color** to apply a transparent tint to the video.
+   - Change **Infinite Loop**, **Lazy Load**, and **Play Only When Visible** settings as needed. By default, all these settings are set to **Yes**.
+   - Add a **Fallback Image** to display on the screen before a video loads and in the event that the video does not load for some reason.
 
 ### Slide Content
 
@@ -414,11 +440,28 @@ When the slide is set to the full-height of the page (100vh), the slider that co
 |Setting|Description|
 |--- |--- |
 |Background Color|Determines the background color and opacity of the slide.|
+|Background Type|Determines whether the background is an image or a video.|
+
+### Background Image
+
+|Setting|Description|
+|--- |--- |
 |Background Image|Determines the location of the background image and applies the image to the slide. Options: <br/>**Upload** - Uploads an image file from your local computer to the gallery and then applies it as the background image for the slide. <br/>**Select from Gallery** - Prompts you to choose an existing image from the gallery as the background image for the slide. <br/>![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"} - Allows you to either drag the image to the camera tile or browse to the image in your local file system.|
 |Background Mobile Image|Determines the location of the background image file to use for mobile devices, and applies the image to the slide. If left blank, the standard desktop background image is used. Options: <br/>**Upload** - Uploads an image file from your local computer to the gallery and then applies it as the background image for the slide. <br/>**Select from Gallery** - Prompts you to choose an existing image from the gallery as the background image for the slide. <br/>![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"} - Allows you to either drag the image to the camera tile or browse to the image in your local file system.|
 |Background Size|Determines how the background image is scaled in relation to the width of the slide. Options: <br/>**Cover** - The background image covers the full width of the slide. <br/>**Contain** - The background image is limited to the width of the content area of the slide. <br/>**Auto** - Applies the default background size that is specified in the stylesheet of the current theme.|
 |Background Position|Determines the anchor point of the image in relation to the slide. Options: Top Left / Top Center / Top Right / Center Left / Center / Center Right / Bottom Left / Bottom Center / Bottom Right|
 |Background Repeat|Determines if the background image is repeated to fill the available space in the slide. Options: <br/>**Yes** - The background image is repeated to fill the available space. <br/>**No** - Uses only a single instance of the background image.|
+
+### Background Video
+
+|Setting|Description|
+|--- |--- |
+|Video URL|Link to the video you want to play for the background. Valid video URLs can be:<br/>- links to YouTube videos: `https://youtu.be/CoDhMRUUjeI`<br/>- links to Vimeo videos: `https://vimeo.com/190156113`<br/>- links to valid video files (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`|
+|Overlay Color|Color with opacity for creating a tint over the video.|
+|Infinite Loop|Determines if the video repeats. Options:<br/> **Yes** - (Default) The video repeats in an infinite loop.<br/> **No** - The video plays once and stops.<br/>|
+|Lazy Load|Determines when the video loads. Options:<br/> **Yes** - (Default) The video loads from its source only when visible on the screen.<br/> **No** - The video loads with the page, even when not visible.<br/>|
+|Play Only When Visible|Determines when the video plays. Options:<br/> **Yes** - (Default) The video starts playing only when it is visible.<br/> **No** - The video starts playing immediately after it loads, regardless of whether it is visible.<br/>|
+|Fallback Image|Image that displays on the screen before a video loads as well as when the event does not load for some reason.|
 
 ### Content
 

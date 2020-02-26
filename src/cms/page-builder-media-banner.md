@@ -83,14 +83,18 @@ _No Color_
       ![]({% link images/images-ee/page-builder-settings-background-color.png %}){: .zoom}
       _Set Opacity_
 
+### Background Type
+
+A background for a row can be an image or a video. Page Builder defaults to `Image` and shows various image settings. If you select `Video`, Page Builder swaps the image settings with video settings. Both background types are described as follows.
+
+![]({% link images/images-ee/page-builder-background-type.png %}){: .zoom}
+_Background Type_
+
 ### Background Image
 
-1. Scroll down to the **Background** section.
+1. Set **Background Type** to **Image**.
 
-1. At the **Background Image** field, click <span class="btn">Upload</span>.
-
-   ![]({% link images/images-ee/page-builder-tutorial1-row-background-image-upload.png %}){: .zoom}
-   _Upload Background Image_
+1. Click <span class="btn">Upload</span>.
 
 1. Navigate to the image in your local file system. Then, choose the file that you want to use.
 
@@ -110,6 +114,25 @@ _No Color_
 
    ![]({% link images/images-ee/page-builder-tutorial1-banner-background.png %}){: .zoom}
    _Banner with Background Image_
+
+### Background Video
+
+1. Set **Background Type** to **Video**.
+
+2. In the **Video URL** field, enter a valid video URL. A valid video URL can be a link to a:
+
+   - YouTube video: `https://youtu.be/CoDhMRUUjeI`
+   - Vimeo video: `https://vimeo.com/190156113`
+   - Video file (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`
+
+   ![]({% link images/images-ee/page-builder-video-url.png %}){: .zoom}
+   _Background Video URL_
+
+3. Apply additional settings as follows:
+
+   - Select an **Overlay Color** to apply a transparent tint to the video.
+   - Change **Infinite Loop**, **Lazy Load**, and **Play Only When Visible** settings as needed. By default, all these settings are set to `Yes`.
+   - Add a **Fallback Image** to display on the screen before a video loads and in the event that the video does not load for some reason.
 
 ### Banner Content
 
@@ -288,12 +311,29 @@ You can use an overlay to apply a background color to the active content area th
 |Setting|Description|
 |--- |--- |
 |Background Color|Determines the background color and opacity of the banner.|
+|Background Type|Determines whether the background is an image or a video.|
+
+### Background Image
+
+|Setting|Description|
+|--- |--- |
 |Background Image|Determines the location of the background image and applies the image to the banner. Options: <br/>**Upload** - Uploads an image file from your local computer to the gallery and then applies it as the background image for the banner. <br/>**Select from Gallery** - Prompts you to choose an existing image from the gallery as the background image for the banner. <br/>![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"} - Allows you to either drag the image to the camera tile or browse to the image in your local file system.|
 |Background Mobile Image|Determines the location of the background image that is to be used for mobile devices and applies the image to the banner. If left blank, the standard desktop background image is used. Options: <br/>**Upload** - Uploads an image file from your local computer to the gallery and then applies it as the background image for the banner. <br/>**Select from Gallery** - Prompts you to choose an existing image from the gallery as the background image for the banner. <br/>![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"} - Allows you to either drag the image to the camera tile or browse to the image in your local file system.|
 |Background Size|Determines how the background image is scaled in relation to the width of the banner. Options: <br/>**Cover** - The background image covers the full width of the banner. <br/>**Contain** - The background image is limited to the width of the content area. <br/>**Auto** - Applies the default background size that is specified in the stylesheet of the current theme.|
 |Background Position|Determines the anchor point of the image in relation to the banner. Options: Top Left / Top Center / Top Right / Center Left / Center / Center Right / Bottom Left / Bottom Center / Bottom Right|
 |Background Attachment|Determines how the background image moves in relation to the scrolling page. Options: <br/>**Scroll** - The background image is synchronized to move down as the page scrolls. Use Parallax Background to control the scrolling speed.<br/>**Fixed** - (Not available for mobile) The background image does not move as the container scrolls over the image and is fixed at the specified background position.|
 |Background Repeat|Determines if the background image is repeated. Options: <br/>**Yes** - The background image is repeated to fill the available space. <br/>**No** - Uses only a single instance of the background image.|
+
+### Background Video
+
+|Setting|Description|
+|--- |--- |
+|Video URL|Link to the video you want to play for the background. Valid video URLs can be:<br/>- links to YouTube videos: `https://youtu.be/CoDhMRUUjeI`<br/>- links to Vimeo videos: `https://vimeo.com/190156113`<br/>- links to valid video files (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`|
+|Overlay Color|Color with opacity for creating a tint over the video.|
+|Infinite Loop|Determines if the video repeats. Options:<br/> **Yes** - (Default) The video repeats in an infinite loop.<br/> **No** - The video plays once and stops.<br/>|
+|Lazy Load|Determines when the video loads. Options:<br/> **Yes** - (Default) The video loads from its source only when visible on the screen.<br/> **No** - The video loads with the page, even when not visible.<br/>|
+|Play Only When Visible|Determines when the video plays. Options:<br/> **Yes** - (Default) The video starts playing only when it is visible.<br/> **No** - The video starts playing immediately after it loads, regardless of whether it is visible.<br/>|
+|Fallback Image|Image that displays on the screen before a video loads as well as when the event does not load for some reason.|
 
 ### Content
 
