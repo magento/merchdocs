@@ -18,7 +18,7 @@ If continuing from the previous topic, your browser is already open to the Acces
 
     If you need help, see [Set Up Your Marketplace Credentials]({% link magento/magento-marketplace-credentials.md %}).
 
-1. Find your Marketplace Access Key in the list and **Copy** your _Public Key_. 
+1. Find your Marketplace Access Key in the list and **Copy** your _Public Key_.
 
     Keep this browser tab open and continue to the next step.
 
@@ -26,7 +26,7 @@ If continuing from the previous topic, your browser is already open to the Acces
 
 1. Open a new browser tab and log in to the Admin of your store as a user with full administrator rights.
 
-1. On the Admin sidebar, go to **System** > _Tools_ > **Web Setup Wizard**.  
+1. On the Admin sidebar, go to **System** > _Tools_ > **Web Setup Wizard**.
 
 1. Click **System Configuration**.
 
