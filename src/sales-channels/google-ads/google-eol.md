@@ -4,16 +4,20 @@ tag: google-shopping
 ---
 
 
-Google Shopping ads Channel is going away on April 28, 2020. When we first launched this feature, our goal was to simplify your ad management, help you expand your reach, and leverage Google's powerful Smart Shopping Campaigns for you to win in the Google marketplace. Unfortunately, our extension did not meet those expectations. Requiring Google Ads customers to first close their existing account and open a new one became a hurdle for our Magento merchants. Regrettably, this limitation prevented us from delivering the added value we sought from this extension.
+Google Shopping ads Channel will be disabled on April 28, 2020. When we first launched this feature, our goal was to simplify your ad management, help you expand your reach, and leverage Google's powerful Smart Shopping Campaigns for you to win in the marketplace. Unfortunately, our extension did not meet those expectations. Requiring Google Ads customers to first close their existing account and open a new one became a hurdle for our Magento merchants. Regrettably, this limitation prevented us from delivering the added value we sought from this extension.
 
-We are incredibly sorry for the disruption this may cause you, but we are confident this communication will give you ample time to minimize this impact by transitioning your Google Campaigns and product catalog from your Magento Admin and into a new service. As you may be aware, one of Magento’s strengths is its network of developers who create third-party extensions that complement Magento’s products and services. We encourage you to visit the [Magento Marketplace](https://marketplace.magento.com/) and search for “Google Ads” to find the best alternative extension that meets your specific needs.
+Still, we are confident this communication will give you ample time to minimize the impact by transitioning your Google Campaigns and product catalog from your Magento admin and into a new service. As you may be aware, one of Magento’s strengths is its network of developers who create third-party extensions that complement Magento’s products and services. We encourage you to visit the [Magento Marketplace](https://marketplace.magento.com/) and search for “Google Ads” to find the best alternative extension that meets your specific needs. We apologize for any disruption this may cause.
 
 What to expect next:
 
-- We will soon disable the extension on the [Magento Marketplace](https://marketplace.magento.com/).
-- On April 28, 2020, the extension will be removed from core Magento, and the service will be shut down. Magento customers will no longer be able to access Google Shopping Campaigns from their Magento Admin.
+- On XXXXX, we will remove the extension from the [Magento Marketplace](https://marketplace.magento.com/).
+- On April 28, 2020, the Google Shopping ads Channel extension will be disabled for all Magento versions.
 
 ## Common Questions
+
+1. What happens when the extension is disabled?
+
+    Customers who have the extension installed may still see Google Shopping ads in the Magento Admin, but when clicked, a `Google Shopping ads has been disabled.` message appears. Also, future Magento updates will no longer automatically install the extension.
 
 1. What happens to the campaigns I am currently running?
 
