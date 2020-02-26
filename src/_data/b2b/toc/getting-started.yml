@@ -412,6 +412,15 @@ pages:
       url: "/configuration/advanced/developer.html"
 - label: Magento Extensions
   url: "/magento/magento-extensions.html"
+- label: Magento Marketplace
+  url: "/magento/magento-marketplace.html"
+  children:
+  - label: Set Up Your Marketplace Credentials
+    url: "/magento/magento-marketplace-credentials.html"
+  - label: Synchronize Your Store
+    url: "/magento/magento-marketplace-synchronize-store.html"
+  - label: Install an Extension
+    url: "/magento/magento-marketplace-install-extension.html"
 - label: Change Log
   url: "/magento/change-log.html"
 - label: Documentation Resources
