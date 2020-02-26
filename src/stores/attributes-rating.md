@@ -10,7 +10,7 @@ _Ratings_
 
 ## Create your own ratings
 
-1. On the _Admin_ sidebar, go to **Stores** > Attributes > **Ratings**.
+1. On the _Admin_ sidebar, go to **Stores** > Attributes > **Rating**.
 
 1. In the upper-right corner, click <span class="btn">Add New Rating</span>.
 
@@ -32,6 +32,8 @@ _Ratings_
    Ratings are not visible unless assigned to a store view.
 
 1. For **Sort Order**, enter a number to determine the order of this rating when listed with others.
+
+1. If you want to show your rating on front end, tick the **Is Active** checkbox.
 
     ![Rating visibility settings]({% link images/images/product-rating-visibility.png %}){: .zoom}
     _Rating Visibility_
