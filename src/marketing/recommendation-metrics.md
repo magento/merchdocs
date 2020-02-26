@@ -16,4 +16,6 @@ To analyze how well your recommendations are performing, Magento collects the fo
 
 -  **Click-through rate (CTR) %** - Percentage of Recommendation unit impressions that register a click.
 
+-  **Viewable Click-through Rate (vCTR) %** - Percentage of Recommendation unit viewable impressions that register a click.
+
 -  **Revenue** - Revenue driven by a Recommendation. Revenue is calculated by the total value of items that were clicked on in a Recommendation unit and ultimately purchased.
