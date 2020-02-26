@@ -1,5 +1,6 @@
 ---
 title: Account Settings
+tag: google-shopping
 ---
 
 

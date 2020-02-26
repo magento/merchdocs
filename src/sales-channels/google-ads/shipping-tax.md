@@ -1,5 +1,6 @@
 ---
 title: Shipping and Tax
+tag: google-shopping
 ---
 
 
