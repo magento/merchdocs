@@ -222,7 +222,7 @@ Final price after the standard pricing rule is applied: $13.75 + $5.00 = $18.75
 
 In this example, we have chosen to define our most competitive price by looking at our Amazon competitor’s lowest price who also have 95% positive feedback and a minimum feedback count of 1,000 merchant reviews.
 
-]({% link sales-channels/asc/assets/amazon-price-adjustment-example.png %}){: .zoom}
+![]({% link sales-channels/asc/assets/amazon-price-adjustment-example.png %}){: .zoom}
 _Price Adjustment Example_
 
 After running this search based on these parameters, our competitive price comes back at $25.

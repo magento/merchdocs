@@ -34,7 +34,7 @@ When you have your filtering options set, click **Apply Filters** to filter the 
 ![]({% link sales-channels/asc/assets/workspace-controls-filters.png %}){: .zoom}
 _Filters Control Example_
 
-Once you've applied filters to your data, **Active Filters** information will display. You can click the ]({% link sales-channels/asc/assets/x-icon-clear-filters.png %}){: .Inline}icon to clear a specific filter option or click **Clear All** to clear all applied filters.
+Once you've applied filters to your data, **Active Filters** information will display. You can click the ![]({% link sales-channels/asc/assets/x-icon-clear-filters.png %}){: .Inline}icon to clear a specific filter option or click **Clear All** to clear all applied filters.
 
 ![]({% link sales-channels/asc/assets/applied-filters-line.png %}){: .zoom}
 _Active Filters Example_
