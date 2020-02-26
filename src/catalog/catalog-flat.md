@@ -12,7 +12,7 @@ In contrast, a flat catalog creates new tables on the fly, where each row contai
 {:.bs-callout-info}
 Before you enable a flat catalog for a live store, make sure to test the configuration in a development environment.
 
-Step 1: Enable the Flat Catalog
+## Step 1: Enable the Flat Catalog
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -66,7 +66,7 @@ There are two methods you can use to verify the results.
 
 1. In the category tree, select an existing category, click <span class="btn">Add Subcategory</span>, and do the following:
 
-       - For **Category Name**, enter `Test Category`.
+    - For **Category Name**, enter `Test Category`.
 
     - When complete, click <span class="btn">Save</span>.
 
