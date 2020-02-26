@@ -19,10 +19,10 @@ The **Create Override** action is available when viewing listings on the Inactiv
 
 1. Determine the type of override you are creating. You can define a single override type or any combination of types for the listing (Price, Handling Time, Condition, Seller Notes).
 
-    - **Price**: Click the **Change Listing Price** option. Enter your defined price value in the **Price Override** field.
-    - **Handling Time**: Click the **Change Handling Time** option. Enter the defined time value (in days) in the **Handling Time Override** field.
-    * **Condition**: Click the **Change Condition** option. Select the correct option in the **Condition Override** drop-down.
-    - **Seller Notes**: Click the **Change Seller Notes** option. Enter your notes text in the **Seller Notes Override** field.
+   - **Price**: Click the **Change Listing Price** option. Enter your defined price value in the **Price Override** field.
+   - **Handling Time**: Click the **Change Handling Time** option. Enter the defined time value (in days) in the **Handling Time Override** field.
+   - **Condition**: Click the **Change Condition** option. Select the correct option in the **Condition Override** drop-down.
+   - **Seller Notes**: Click the **Change Seller Notes** option. Enter your notes text in the **Seller Notes Override** field.
 
 1. Click <span class="btn">Save Listing Override</span>.
 <br />The Product Listing Overrides screen closes. The status of the listing changes to "Relist in Progress." The change will be published to Amazon with your next data sync (as configured in your cron settings). The listing is also added to the Overrides tab.
@@ -47,10 +47,10 @@ The **Edit Overrides** action is available when viewing listings on the Override
 1. To edit your override settings, define the sections for the type you want to change (Price, Handling Time, Condition, Seller Notes).
 <br />To keep an override type the same, ensure the **No Change To** option selected for the type. This is the default setting. This leaves the previously defined override value unchanged.
 
-    - **Price**: Click the **Change Listing Price** option. Enter your defined price value for **Price Override**.
-    - **Handling Time**: Click the **Change Handling Time** option. Enter the defined time value (in days) for **Handling Time Override**.
-    - **Condition**: Click the **Change Condition** option. Select the correct option for **Condition Override**.
-    - **Seller Notes**: Click the **Change Seller Notes** option. Enter your notes text for **Seller Notes Override**.
+   - **Price**: Click the **Change Listing Price** option. Enter your defined price value for **Price Override**.
+   - **Handling Time**: Click the **Change Handling Time** option. Enter the defined time value (in days) for **Handling Time Override**.
+   - **Condition**: Click the **Change Condition** option. Select the correct option for **Condition Override**.
+   - **Seller Notes**: Click the **Change Seller Notes** option. Enter your notes text for **Seller Notes Override**.
 
 1. To remove an override type, click the **Remove** option for each of the types you want to remove. If not removed, the previously defined value remains in the override.
 
@@ -80,10 +80,10 @@ Because you are modifying overrides for multiple listings, the Listing Details s
 1. To edit your override settings, define the sections for the type you want to change (Price, Handling Time, Condition, Seller Notes).
 <br />To keep an override the same, ensure the **No Change To** option selected for the type. "No Change To" is the default setting. This leaves the previously defined override value unchanged.
 
-    - **Price**: Click the **Change Listing Price** option. Enter your defined price value for **Price Override**.
-    - **Handling Time**: Click the **Change Handling Time** option. Enter the defined time value (in days) for **Handling Time Override**.
-    - **Condition**: Click the **Change Condition** option. Select the correct option for **Condition Override**.
-    - **Seller Notes**: Click the **Change Seller Notes** option. Enter your notes text for **Seller Notes Override**.
+   - **Price**: Click the **Change Listing Price** option. Enter your defined price value for **Price Override**.
+   - **Handling Time**: Click the **Change Handling Time** option. Enter the defined time value (in days) for **Handling Time Override**.
+   - **Condition**: Click the **Change Condition** option. Select the correct option for **Condition Override**.
+   - **Seller Notes**: Click the **Change Seller Notes** option. Enter your notes text for **Seller Notes Override**.
 
 1. To remove an override type, click the **Remove** option for each of the types you want to remove. If not removed, the previously defined value remains in the override.
 
