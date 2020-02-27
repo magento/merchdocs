@@ -68,7 +68,7 @@ _Create Attribute Settings_
 
 ## To edit an attribute:
 
-1. On the Admin sidebar, click **Marketing**. Then under Channels, choose **Amazon**.
+1. On the _Admin_ sidebar,  go to **Marketing** > _Channels_ > **Amazon**.
 
 1. Click **Attributes** tab. Locate an Amazon attribute and click **Edit Attribute**.
 
