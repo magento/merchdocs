@@ -38,7 +38,7 @@ The **Edit Overrides** action is available when viewing listings on the Override
 
 1. View a listing on a Products Listings tab (Inactive, Active, Overrides, or Ineligible).
 
-1. In the Action column, click **Select** and then click **Edit Overrides**. The Product Listing Overrides screen displays just as when creating an override.
+1. In the _Action_ column, click **Select** and then click **Edit Overrides** to open the Product Listing Overrides page.
 
     ![]({% link sales-channels/asc/assets/amazon-select-edit-overrides.png %})
 
