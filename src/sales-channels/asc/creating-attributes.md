@@ -30,7 +30,9 @@ These steps create a new Magento attribute and links it to the selected Amazon a
 
    Attributes tend to be part of an attribute set, such as a set for colors having attributes for blue, green, yellow, and red.
 
-1. Select the value **Type** of the attribute value, such as text, numbers, and so on. The selection affects the allowed value for the attribute.
+1. Select the value **Type** of the attribute value, such as text, numbers, and so on.
+
+    The selection affects the allowed value for the attribute.
 
 1. For **Use for Promo Rule Conditions**, toggle to allow the Magento attribute to be available for a parameter within your promotional conditions.
 
