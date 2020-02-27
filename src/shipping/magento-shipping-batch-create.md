@@ -153,8 +153,8 @@ When a batch receives responses from all of the carriers regarding booking reque
 
 1. Do one of the following to print the documentation associated with the batch:
 
-   - Click **Print All Packing Slips**.
-   - Click **Download Documentation Links**.
+    - Click **Print All Packing Slips**.
+    - Click **Download Documentation Links**.
 
    All of the associated documentation is collated into a single file for you to print. Downloaded documentation is saved as a compressed zip file, and each individual document is saved as a .PNG file.
 

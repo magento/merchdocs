@@ -62,8 +62,8 @@ Next, configure, add, or modify the email template for your price alert. You may
 
 1. Read through the existing content and make changes as needed for the following:
 
-   - **Template Subject** - This text is displayed in the subject line of an email.
-   - **Template Content** - This text is displayed in the full content of the sent email.
+   |Template Subject|This text is displayed in the subject line of an email.|
+   |Template Content|This text is displayed in the full content of the sent email.|
 
 1. To add generated information from Magento data, use the **Insert Variable** option to use a list of available variables.
 

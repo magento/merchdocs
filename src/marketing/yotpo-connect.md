@@ -17,20 +17,20 @@ See Yotpo [Plan Information](https://www.yotpo.com/pricing/). You can create fre
 
    ![Yotpo - create account]({% link images/images/yotpo-account-creation-create.png %}){: .zoom}
 
-   - For **Full Name**, enter the name you want to use for your Yotpo account.
-   - For **Email Address**, enter the email address you want to use for your Yotpo account.
-   - For **Password**, enter the password you want to use for your Yotpo account.
-   - Click **Create Account**.
+    - For **Full Name**, enter the name you want to use for your Yotpo account.
+    - For **Email Address**, enter the email address you want to use for your Yotpo account.
+    - For **Password**, enter the password you want to use for your Yotpo account.
+    - Click **Create Account**.
 
 1. On the _We’re Almost Done_ screen, complete the additional account information:
 
    ![Yotpo - finish account creation]({% link images/images/yotpo-account-creation-finish.png %}){: .zoom}
 
-   - Set **Platform** to `Magento 2`.
-   - For **Website URL**, enter your store URL.
-   - For **Monthly Orders**, choose a quantity range in the drop-down menu.
-   - For **Phone Number**, enter the phone number you want to associate with your Yotpo account.
-   - Click **Finish**.
+    - Set **Platform** to `Magento 2`.
+    - For **Website URL**, enter your store URL.
+    - For **Monthly Orders**, choose a quantity range in the drop-down menu.
+    - For **Phone Number**, enter the phone number you want to associate with your Yotpo account.
+    - Click **Finish**.
 
 Your account is created. Follow the [Yotpo Wizard](https://support.yotpo.com/en/article/setting-up-yotpo-on-magento-v22-and-above) to enable Yotpo with your Magento Store.
 
@@ -50,7 +50,7 @@ If you have an existing Yotpo account, you can enable Yotpo inside the Magento A
 
     - For **App Key**, enter the App Key value from your Yotpo account.
 
-    - **API Secret**, enter the API Secret value from your Yotpo account.
+    - For **API Secret**, enter the API Secret value from your Yotpo account.
 
     See [Finding your Yotpo App Key and API Secret](https://support.yotpo.com/en/article/finding-your-yotpo-app-key-and-api-secret).
 

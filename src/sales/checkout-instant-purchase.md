@@ -19,10 +19,10 @@ _Instant Purchase_
 
 The following payment methods can be used to provide secure access to saved credit card information:
 
-  - [Braintree Credit Cards]({% link payment/braintree.md %})
-  - [Braintree with PayPal Enabled]({% link payment/braintree.md %})
-  - [PayPal Payflow Pro]({% link payment/paypal-payflow-pro.md %})
-  - Instant Purchase cannot be used with Braintree Credit Cards if 3D Secure is enabled.
+- [Braintree Credit Cards]({% link payment/braintree.md %})
+- [Braintree with PayPal Enabled]({% link payment/braintree.md %})
+- [PayPal Payflow Pro]({% link payment/paypal-payflow-pro.md %})
+- Instant Purchase cannot be used with Braintree Credit Cards if 3D Secure is enabled.
 
 ## To make an Instant Purchase:
 

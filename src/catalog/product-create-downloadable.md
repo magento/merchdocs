@@ -128,20 +128,20 @@ _Downloadable Information_
 
 1. Click <span class="btn">Add Link</span> and do the following:
 
-   - Enter the **Title** and **Price** of the download.
+    - Enter the **Title** and **Price** of the download.
 
-   - For both **File** and **Sample** files, choose one of the following methods of distribution for the downloads:
+    - For both **File** and **Sample** files, choose one of the following methods of distribution for the downloads:
 
       |Upload File|Choose this method to upload the the distribution file to the server. Browse to the file and select it for upload.|
       |URL|Choose this method to access the distribution file from a URL. Enter the full URL to the download file.|
 
-   - Set **Shareable** to one of the following:
+    - Set **Shareable** to one of the following:
 
       |No|Requires customers to log in to their accounts to access the download link.|
       |Yes|Sends the link by email, which customers can share with others.|
       |Use Config|Uses the method that is specified in the [Dowloadable Product Options]({% link configuration/catalog/catalog.md %}) configuration.|
 
-   - Do one of the following:
+    - Do one of the following:
 
       - To limit downloads per customer, enter the number of **Max. Downloads**.
       - To allow unlimited downloads, select the **Unlimited** checkbox.
@@ -162,16 +162,16 @@ _Downloadable Information_
 
 1. Complete the link detail as follows:
 
-   - Enter the **Title** of the individual sample.
+    - Enter the **Title** of the individual sample.
 
-   - Choose one of the following distribution methods:
+    - Choose one of the following distribution methods:
 
       |Upload File|Choose this method to upload the the distribution file to the server. Browse to the file and select it for upload.|
       |URL|Choose this method to access the distribution file from a URL. Enter the full URL to the download file.|
 
-   - To add another sample, click <span class="btn">Add Link</span> and repeat these steps.
+    - To add another sample, click <span class="btn">Add Link</span> and repeat these steps.
 
-   - To change the order of the samples, grab the **Change Order** ( ![]({% link images/images/btn-sort-order-inline.png %}) ) icon and drag the sample to a new position.
+    - To change the order of the samples, grab the **Change Order** ( ![]({% link images/images/btn-sort-order-inline.png %}) ) icon and drag the sample to a new position.
 
 ## Step 6: Complete the product information
 
