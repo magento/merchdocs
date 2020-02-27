@@ -40,7 +40,9 @@ These steps create a new Magento attribute and links it to the selected Amazon a
 
 1. For **Comparable on Storefront**, toggle if the attribute value can be used in Amazon's "Compare By" functionality.
 
-1. Select the Magento [scope]({% link configuration/scope.md %}) for the Magento attribute. And select one or more Store Views to import Amazon values into. If you select "All Store Views (Global)", this syncs and saves values to all store views. You may only want to sync values to specific store views.
+1. Select the Magento [scope]({% link configuration/scope.md %}) for the Magento attribute, and then select one or more Store Views to import Amazon values into.
+
+    If you select `All Store Views (Global)`, this syncs and saves values to all store views. You may only want to sync values to specific store views.
 
 1. When complete, click <span class="btn">Save Attribute Settings</span>.
 
