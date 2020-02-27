@@ -26,7 +26,9 @@ The API key is validated each time you access your Amazon Sales Channel.
 
    - If you need to create a Magento account, visit [here][2]{:target="_blank"} and register. This account should be part of your company or business.
 
-1. API keys can be viewed and generated on the **API Portal** tab in your Magento account. If you need to create a new API key, enter a description like "Amazon Sales Channel" and click **Add New**. The new key is generated and displayed with the name you entered. Click **Copy** to copy the new key.
+1. If needed, you can view and generate API keys on the **API Portal** tab in your Magento account.
+
+    If you need to create a new API key, enter a description like "Amazon Sales Channel" and click **Add New**. The new key is generated and displayed with the name you entered. Click **Copy** to copy the new key.
 
     ![]({% link sales-channels/asc/assets/amazon-add-api-key.png %}){: .zoom}
     _Generate or Copy an API Key_
