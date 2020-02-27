@@ -73,7 +73,7 @@ Because you are modifying overrides for multiple listings, the Listing Details s
 
 1. Click the checkbox in the left-side column to select each of the listings you want to modify.
 
-1. In the Actions drop-down, click **Edit Listing Overrides**. The Product Listing Overrides screen displays just as when creating an override.
+1. Click **Actions**  and select **Edit Listing Overrides** to open the the Product Listing Overrides page.
 
     ![]({% link sales-channels/asc/assets/amazon-actions-edit-listing-overrides.png %})
 
