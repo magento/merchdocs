@@ -18,7 +18,7 @@ If you have listings in process, the number of listings will display in a messag
 
 1. Click **OK** on the confirmation message that displays.
 
-## To manually end a single Amazon listing
+## Manually end a single Amazon listing
 
 1. Locate the listing you want to end on the Inactive, Active, or Ineligible tab.
 
