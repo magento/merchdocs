@@ -66,7 +66,7 @@ The catalog product is created in your Magento catalog, and assigned to the Amaz
 
 1. Click the **Actions** field. Then click **Create New Catalog Product(s)**.
 
-1. Click **OK** to accept the confirmation message. The Create Magento Catalog Product screen displays.
+1. Click **OK** to accept the confirmation message and open the Create Magento Catalog Product page.
 
 1. Complete the catalog settings for the products.
 <br />{:.bs-callout-info}
