@@ -37,12 +37,12 @@ Use one of the following methods to configure the MAP settings:
 
 1. To determine when and where you want the actual price to be visible to customers, do the following:
 
-    - To change the default value, deselect the **Use system value** checkbox.
+   - To change the default value, deselect the **Use system value** checkbox.
 
-    - Set **Display Actual Price** to one of the following:
-        - In Cart
-        - Before Order Confirmation
-        - On Gesture (on click)
+   - Set **Display Actual Price** to one of the following:
+      - In Cart
+      - Before Order Confirmation
+      - On Gesture (on click)
 
 1. Enter the text that you want to appear in the **Default Popup Text Message**.
 
