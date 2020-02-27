@@ -7,7 +7,7 @@ When accessing Amazon Sales Channel, Magento automatically checks and validates 
 
 If the Amazon API key is missing, invalid, or expired, you must update your key. A message displays prompting you to get an API key and to add they key to your Amazon Sales Channel configuration.
 
-## To get and add the Amazon API key as prompted:
+## Get and add the Amazon API key as prompted
 
 The API key is validated each time you access your Amazon Sales Channel.
 
