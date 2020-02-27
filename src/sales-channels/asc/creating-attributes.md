@@ -78,7 +78,9 @@ _Create Attribute Settings_
 
 1. Click the drop-down to **Select Magento Product Attribute** to link to the displayed Amazon Attribute Name.
 
-1. Indicate if you want the Amazon synced value to overwrite existing Magento values. For example, you may not want to overwrite the prices from Amazon into Magento.
+1. Indicate if you want the Amazon synced value to overwrite existing Magento values.
+
+    For example, you may not want to overwrite the prices from Amazon into Magento.
     - **Do Not Overwrite Existing Magento Values**: Retains the Magento value, keeping different values for Magento and Amazon stores.
     - **Overwrite Existing Magento Values**: Saves the Amazon value over the Magento value in the Magento product catalog.
 
