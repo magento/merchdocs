@@ -11,7 +11,7 @@ The **Create Override** action is available when viewing listings on the Inactiv
 
 1. View a listing on a Products Listings tab.
 
-1. In the Action column, click **Select** and then click **Create Override**. The Product Listing Overrides screen displays.
+1. In the _Action_ column, click **Select** and then click **Create Override** to open the Product Listing Overrides page.
 
     ![]({% link sales-channels/asc/assets/amazon-select-create-override.png %})
 
