@@ -15,7 +15,7 @@ When you create a new catalog product from an Amazon listing:
 
 The rest of the necessary settings are determined by the Magento product settings you select during creation.
 
-Once created and matched, the listings remove from the New Third Party tab and display on the Active tab.
+When created and matched, the listings remove from the New Third Party tab and display on the Active tab.
 
 ## To assign a single catalog product to an Amazon listing
 
