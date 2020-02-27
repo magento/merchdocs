@@ -58,15 +58,17 @@ The catalog product is created in your Magento catalog, and assigned to the Amaz
 1. View your product listings on the New Third Party tab.
 
 1. Select the listings for which to create catalog products.
-<br />You can click individual checkboxes in the left-side column or you can click the drop-down arrow in the top-left column and choose **Select All** or **Select All on this Page**.
+
+     You can click individual checkboxes in the left-side column or you can click the drop-down arrow in the top-left column and choose **Select All** or **Select All on this Page**.
 
 1. Click the **Actions** field. Then click **Create New Catalog Product(s)**.
 
 1. Click **OK** to accept the confirmation message. The Create Magento Catalog Product screen displays.
 
 1. Complete the catalog settings for the products.
-<br />{:.bs-callout-info}
-When creating catalog products for multiple selected listings, the product settings entered are applied to all the listings.
+
+     {:.bs-callout-info}
+     When creating catalog products for multiple selected listings, the product settings entered are applied to all the listings.
 
     - Set the **Enable Product(s)** toggle to Yes or No (required).
 <br />**Yes**: Select this option to make the product eligible for your Magento storefront sales.<br />**No**: Select this option to make the product ineligible for your Magento storefront sales.

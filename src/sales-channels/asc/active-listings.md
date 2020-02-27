@@ -11,7 +11,7 @@ In the **Actions** drop-down:
 
 {% include amazon-edit-listing-overrides-action.md %}
 
-In the **Select** drop-down in the Actions column:
+In the **Select** drop-down in the _Actions_ column:
 
 {% include amazon-view-details-action.md %}
 
@@ -43,4 +43,4 @@ _Active Listings_
 |Amazon Quantity|The quantity available once the product is actively listed on Amazon.|
 |Status|The status of the listing, defined by Amazon.|
 |Buy Box Won|Whether the product listing won the Buy Box position.|
-|Action|List of available actions that can be applied to a specific listing. To apply an action, in the Actions column, click **Select** to display your options:<br />[View Details]({% link sales-channels/asc/product-listing-details.md %})<br />[Create Override]({% link sales-channels/asc/creating-editing-overrides.md %})<br />[Edit Assigned ASIN]({% link sales-channels/asc/edit-assigned-asin.md %})<br />[Create Alias Seller SKU]({% link sales-channels/asc/create-alias-seller-sku.md %})<br />[Switch to Fulfilled By Amazon/Merchant ]({% link sales-channels/asc/fulfilled-by.md %})<br />[End Listing]({% link sales-channels/asc/ended-listings.md %})|
+|Action|List of available actions that can be applied to a specific listing. To apply an action, in the _Actions_ column, click **Select** to display your options:<br />[View Details]({% link sales-channels/asc/product-listing-details.md %})<br />[Create Override]({% link sales-channels/asc/creating-editing-overrides.md %})<br />[Edit Assigned ASIN]({% link sales-channels/asc/edit-assigned-asin.md %})<br />[Create Alias Seller SKU]({% link sales-channels/asc/create-alias-seller-sku.md %})<br />[Switch to Fulfilled By Amazon/Merchant ]({% link sales-channels/asc/fulfilled-by.md %})<br />[End Listing]({% link sales-channels/asc/ended-listings.md %})|

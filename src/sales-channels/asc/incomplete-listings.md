@@ -23,7 +23,7 @@ In the **Actions** drop-down:
 
 {% include amazon-re-attempt-auto-match-action.md %}
 
-In the **Select** drop-down in the Actions column:
+In the **Select** drop-down in the _Actions_ column:
 
 {% include amazon-update-required-info-action.md %}
 
@@ -46,4 +46,4 @@ _Incomplete Listings_
 |Landed Price|The listing price for the product plus its shipping price.|
 |Amazon Quantity|The quantity available once the product is actively listed on Amazon.|
 |Status|The status of the listing, defined by Amazon. See the Status table above.|
-|Action|List of available actions that can be applied to a specific listing. To apply an action, in the Actions column, click **Select** to display your options:<br />[Update Required Info]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %})<br />[View Details]({% link sales-channels/asc/product-listing-details.md %})|
+|Action|List of available actions that can be applied to a specific listing. To apply an action, in the _Actions_ column, click **Select** to display your options:<br />[Update Required Info]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %})<br />[View Details]({% link sales-channels/asc/product-listing-details.md %})|

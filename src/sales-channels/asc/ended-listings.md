@@ -57,4 +57,4 @@ _Ended Listings_
 |Landed Price|The listing price for the product plus its shipping price.|
 |Amazon Quantity|The quantity available once the product is actively listed on Amazon.|
 |Status|The status of the listing, defined by Amazon.|
-|Action|List of available actions that can be applied to a specific listing. To apply an action, in the Actions column, click **Select** to display your options:<br />[View Details]({% link sales-channels/asc/product-listing-details.md %})<br />[Publish on Amazon]({% link sales-channels/asc/ended-listings.md %})<br />[Create Alias Seller SKU]({% link sales-channels/asc/create-alias-seller-sku.md %})|
+|Action|List of available actions that can be applied to a specific listing. To apply an action, in the _Actions_ column, click **Select** to display your options:<br />[View Details]({% link sales-channels/asc/product-listing-details.md %})<br />[Publish on Amazon]({% link sales-channels/asc/ended-listings.md %})<br />[Create Alias Seller SKU]({% link sales-channels/asc/create-alias-seller-sku.md %})|

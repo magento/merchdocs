@@ -5,7 +5,7 @@ title: Managing Stores
 
 When accessing your Amazon Sales Channel, the Amazon Stores tab displays by default on Amazon Sales Channel Home. You can access Amazon Sales Channel Home by clicking **Marketing** in the admin sidebar. Then under Channels, click **Amazon**.
 
-The Amazon Stores tab provides a list of your Amazon stores along with some basic statistics and management options. Displayed statistics include each store's status, date created, last updated, available management actions, and defined region. Management options (available in the **Select** drop-down in the Actions column) include:
+The Amazon Stores tab provides a list of your Amazon stores along with some basic statistics and management options. Displayed statistics include each store's status, date created, last updated, available management actions, and defined region. Management options (available in the **Select** drop-down in the _Actions_ column) include:
 
 - **Manage Store**: The action for this option is dependent on the status of the store selected.
 <br />If the store is in Active or Inactive status, this displays the [store's dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}) giving you access to the store's data, revenue and order information, and listing and order settings.<br />
