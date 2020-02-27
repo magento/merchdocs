@@ -72,7 +72,9 @@ _Create Attribute Settings_
 
 1. Click **Attributes** tab. Locate an Amazon attribute and click **Edit Attribute**.
 
-1. To enable or disable the syncing of the Amazon values to the linked Magento attribute, toggle Is Active. When activated to "Yes", the values sync according to your configuration.
+1. To enable or disable the syncing of the Amazon values to the linked Magento attribute, toggle **Is Active**.
+
+    When set to `Yes`, the values sync according to your configuration.
 
 1. Click the drop-down to **Select Magento Product Attribute** to link to the displayed Amazon Attribute Name.
 
