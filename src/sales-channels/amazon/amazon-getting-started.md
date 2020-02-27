@@ -1,5 +1,6 @@
 ---
 title: Getting Started with Amazon Sales Channel
+tag: asc-old
 sections:
    - title: About Amazon Sales Channel
      content: Amazon Sales Channel is a powerful, comprehensive extension that integrates Magento with your Amazon Seller Central account. With this extension, you can create a centralized product catalog and manage your Amazon listings, orders, and fulfillment in Magento.
