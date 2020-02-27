@@ -21,7 +21,9 @@ When created and matched, the listings remove from the New Third Party tab and d
 
 1. View your product listings on the New Third Party tab.
 
-1. Find the listing you wish to assign/match in the list and click **Select** in the Action column. Then click **Assign Catalog Product**. The Assign Magento Catalog Product screen displays.
+1. Find the listing you wish to assign/match in the list, click **Select** in the _Action_ column, and then click **Assign Catalog Product**.
+
+    This opens the Assign Magento Catalog Product page.
 
 1. Browse for or filter the list using the [workspace controls]({% link sales-channels/asc/workspace-controls.md %}) and locate the appropriate catalog product to match to the listing.
 
