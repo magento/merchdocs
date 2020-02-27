@@ -56,7 +56,7 @@ To set up shipping methods that you will offer to fulfill your Amazon orders, re
 
 ## Additional configurations
 
-Once your Amazon account is set up and active, there are several Magento recommendations that will help streamline the Amazon Sales Channel onboarding process.
+When your Amazon account is set up and active, there are several Magento recommendations that will help streamline the Amazon Sales Channel onboarding process.
 
 **Review and note any products you don't want to list on Amazon.**
 
