@@ -71,7 +71,7 @@ Because you are modifying overrides for multiple listings, the Listing Details s
 
 1. View the listing on a Products Listings tab (Inactive, Active, Overrides, or Ineligible).
 
-1. Click the checkbox in the left-side column to select each of the listings you want to modify.
+1. Select the checkbox in the left-side column to select each of the listings you want to modify.
 
 1. Click **Actions**  and select **Edit Listing Overrides** to open the the Product Listing Overrides page.
 
