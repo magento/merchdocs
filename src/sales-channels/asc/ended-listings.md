@@ -8,7 +8,7 @@ The Ended Listings tab displays all the Amazon products that have been manually 
 {:.bs-callout-info}
 If you have listings in process, the number of listings will display in a message above the tabs
 
-## To manually end a single or multiple Amazon listings
+## Manually end a single or multiple Amazon listings
 
 1. Locate the listing(s) you want to end on the Inactive, Active, or Ineligible tab.
 
