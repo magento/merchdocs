@@ -52,8 +52,8 @@ _Condition_
 
 1. To include **Free Shipping**, choose one of the following options:
 
-   - `For matching items only`
-   - `For shipment with matching items`
+    - `For matching items only`
+    - `For shipment with matching items`
 
 1. Click <span class="btn">Save and Continue Edit</span>. Then, complete the rest of the rule as needed.
 

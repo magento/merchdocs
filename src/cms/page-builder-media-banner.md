@@ -11,7 +11,7 @@ Page Builder includes a new “Banner” content type. What was previously the _
 ![]({% link images/images-ee/page-builder-banner-homepage.png %}){: .zoom}
 _Banner on Home Page_
 
-## To add a banner
+## Add a banner
 
 1. Open the page where you want to place the banner and expand the **Content** section.
 
@@ -27,7 +27,7 @@ _Banner on Home Page_
    ![]({% link images/images-ee/page-builder-tutorial1-banner-toolbox.png %}){: .zoom}
    _Banner Toolbox_
 
-1. Complete the settings, as needed, in the following sections:
+1. Complete the settings as described in the following sections.
 
 ### Appearance
 
@@ -35,20 +35,19 @@ Banners are extremely easy to set up and maintain, because they are based on one
 
 Under **Appearance**, choose one of the following settings:
 
-   - `Poster`
-   - `Collage Left`
-   - `Collage Center`
-   - `Collage Right`
+- `Poster`
+- `Collage Left`
+- `Collage Center`
+- `Collage Right`
 
 ![]({% link images/images-ee/page-builder-tutorial1-row-banner-settings-appearance-collage-right.png %}){: .zoom}
 _Appearance_
 
-### Background Color
+### Background color
 
 Use one of the following methods to set the background color:
 
-**Method 1:** Enter the Value
-
+#### Method 1: Enter the Vv
 In the _No Color_ box, enter one of the following:
 
 - A predefined color name, such as `White`
@@ -58,12 +57,12 @@ In the _No Color_ box, enter one of the following:
 ![]({% link images/images-ee/page-builder-settings-background-color-no-color.png %}){: .zoom}
 _No Color_
 
-**Method 2:** Choose the Value
+#### Method 2: Choose the value
 
 1. Click the swatch to the left of the _No Color_ box. Then do one of the following:
 
    - In the color picker palette, choose the color swatch.
-   - - In the color picker, drag the cursor to the color that you want.
+   - In the color picker, drag the cursor to the color that you want.
 
    ![]({% link images/images-ee/page-builder-settings-background-color-picker-swatch.png %}){: .zoom}
    _Choose Swatch_
@@ -79,7 +78,7 @@ _No Color_
       ![]({% link images/images-ee/page-builder-settings-background-color.png %}){: .zoom}
       _Set Opacity_
 
-### Background Image
+### Background image
 
 1. Scroll down to the **Background** section.
 
@@ -107,7 +106,7 @@ _No Color_
    ![]({% link images/images-ee/page-builder-tutorial1-banner-background.png %}){: .zoom}
    _Banner with Background Image_
 
-### Banner Content
+### Banner content
 
 Notice the placeholder text that appears on the right side of the row. The position of this text reflects the Appearance setting that you specified.
 
@@ -130,18 +129,18 @@ Notice the placeholder text that appears on the right side of the row. The posit
    ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-content-message-text.png %}){: .zoom}
    _Message Text_
 
-### Banner Links and Buttons
+### Banner links and buttons
 
 A banner can have either single, or multiple links and buttons. Use one of the following methods to add links and/or buttons to the banner.
 
-**Method 1:** Single Link or Button
+#### Method 1: Single link or button
 
 The banner Appearance setting places a single link or button below the text. Simply follow the instructions below to complete the properties of the link or button that you want to add.
 
 ![]({% link images/images-ee/page-builder-tutorial1-row-banner-settings-appearance-collage-right.png %}){: .zoom}
 _Appearance with Text and Button (or Link)_
 
-**Method 2:** Multiple Links or Buttons
+#### Method 2: Multiple links or buttons
 
 1. Create a separate [block]({% link cms/block-add.md %}) with the links or buttons that you want to include.
 
@@ -152,22 +151,14 @@ _Appearance with Text and Button (or Link)_
 
 1. Scroll down to the **Link** field below the Message Text box.
 
-1. To link the banner, choose one of the following destination types and follow the instructions.
+1. To link the banner, choose one of the following destination types.
 
-   **URL**
+   - **URL** - Set **Link** to `URL` and enter the destination URL.
 
-   - Set **Link** to `URL`.
+      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-url-newtab.png %}){: .zoom}
+      _Link to URL_
 
-   - Enter the destination URL.
-
-   ![]({% link images/images-ee/page-builder-media-image-settings-image-link-url-newtab.png %}){: .zoom}
-   _Link to URL_
-
-   **Product**
-
-   - Set **Link** to `Product`.
-
-   - Do one of the following:
+   - **Product** - Set **Link** to `Product` and do one of the following:
 
       - Begin typing the product name or SKU.
       - Choose the product from the search results list.
@@ -176,25 +167,14 @@ _Appearance with Text and Button (or Link)_
    ![]({% link images/images-ee/page-builder-media-banner-settings-link-product.png %}){: .zoom}
    _Link to Product_
 
-   **Category**
+   - **Category** - Set **Link** to `Category` and select the category.
 
-   - Set **Link** to `Category`.
-
-   - Do one of the following:
-
-      - Begin typing the category name.
-      - In the category tree, drill down to the category.
-
-   - In the category tree, click the category name.
+      You can begin typing the category name or drill down to the category in the tree.
 
       ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-link-category-tree.png %}){: .zoom}
       _Link to Category_
 
-   **Page**
-
-   - Set **Link** to `Page`.
-
-   - Do one of the following:
+   - **Page** - Set **Link** to `Page` and do one of the following:
 
       - Begin typing the page name. Then, click the name of the page in the list.
       - Click the **down arrow**, and choose the page from the list.
@@ -202,33 +182,33 @@ _Appearance with Text and Button (or Link)_
       ![]({% link images/images-ee/page-builder-media-banner-settings-link-page.png %}){: .zoom}
       _Link to Page_
 
-   - If the link points to a URL that is outside of your store and you want to prevent the visitor from navigating away from your store, select the **Open in new banner** checkbox.
+1. If the link points to a URL that is outside of your store and you want to prevent the visitor from navigating away from your store, select the **Open in new banner** checkbox.
 
-   - Set **Show Button** to one of the following:
+1. Set **Show Button** to one of the following:
 
-      - `Always`
-      - `On Hover`
-      - `Never Show`
+   - `Always`
+   - `On Hover`
+   - `Never Show`
 
-   - In the **Button Text** field, enter the text to appear on the button.
+1. In the **Button Text** field, enter the text to appear on the button.
 
-   - Set **Button Type** to one of the following:
+1. Set **Button Type** to one of the following:
 
-      - `Primary`
-      - `Secondary`
-      - `Link`
+   - `Primary`
+   - `Secondary`
+   - `Link`
 
    The button style from the current theme determines the button format. Typically, a primary button has a more prominent background color than a secondary button.
 
-### Banner Overlay
+### Banner overlay
 
 You can use an overlay to apply a background color to the active content area that is defined by the Appearance setting. The banner background image continues to be visible for the full width of the banner.
 
 1. Set **Show Overlay** to one of the following:
 
-   - Always
-   - On Hover
-   - Never Show
+   - `Always`
+   - `On Hover`
+   - `Never Show`
 
 1. In the **Overlay Color** field, do one of the following:
 
@@ -258,7 +238,7 @@ You can use an overlay to apply a background color to the active content area th
 
 1. When prompted, click the [Cache Management]({% link system/cache-management.md %}) link in the message at the top of the page. Then refresh any invalid cache.
 
-## Banner Toolbox
+## Banner toolbox
 
 |Tool|Icon|Description|
 |--- |--- |--- |
@@ -272,7 +252,7 @@ You can use an overlay to apply a background color to the active content area th
 |Upload New Image||Uploads an image from your local file system to the gallery for the banner background.|
 |Select from Gallery||Uses an existing image from the gallery for the banner background.|
 
-## Banner Settings
+## Banner settings
 
 |Setting|Description|
 |--- |--- |

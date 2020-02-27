@@ -47,8 +47,8 @@ If you are not sure, open each category page in your store, and copy the path fr
 
     - In the **Request Path** field, enter the URL key of the category that the customer requests. This is the _redirect from_ category.
 
-    {:.bs-callout-info}
-    The Request Path must be unique for the specified store. If there is already a redirect that uses the same Request Path, you will receive an error when you try to save the redirect. The previous redirect must be deleted before you can create a new one.
+      {:.bs-callout-info}
+      The Request Path must be unique for the specified store. If there is already a redirect that uses the same Request Path, you will receive an error when you try to save the redirect. The previous redirect must be deleted before you can create a new one.
 
     - Set **Redirect** to one of the following:
 
@@ -78,8 +78,8 @@ If you are not sure, open each category page in your store, and copy the path fr
 
 1. Do one of the following:
 
-   - Navigate to the original _redirect from_ category.
-   - In the address bar of the browser, enter the path to the original _redirect from_ category immediately after the store URL. Then, press **Enter**.
+    - Navigate to the original _redirect from_ category.
+    - In the address bar of the browser, enter the path to the original _redirect from_ category immediately after the store URL. Then, press **Enter**.
 
     The new target category appears instead of the original category request.
 

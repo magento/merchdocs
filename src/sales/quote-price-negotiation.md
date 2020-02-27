@@ -121,9 +121,9 @@ In the _Items Quoted_ section, make the following changes, if needed:
 
 1. Send or save the quote:
 
-   - If the quote is ready to send back to the buyer, click **Send**.
+    - If the quote is ready to send back to the buyer, click **Send**.
 
-   - To continue working on the quote later, click **Save as Draft**.
+    - To continue working on the quote later, click **Save as Draft**.
 
 ## Step 4:  Follow up on a quote
 
