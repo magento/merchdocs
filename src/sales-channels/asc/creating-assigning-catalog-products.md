@@ -35,7 +35,9 @@ Your product and listing are now matched. Amazon Sales Channel can now share pro
 
 1. View your product listings on the New Third Party tab.
 
-1. Find the listing you wish to create in your Magento catalog and click **Select** in the Action column. Then click **Create New Catalog Product**. The Create Magento Catalog Product screen displays.
+1. Find the listing you wish to create in your Magento catalog, click **Select** in the _Action_ column, and then click **Create New Catalog Product**. 
+
+    This opens the Create Magento Catalog Product page.
 
 1. Complete the catalog settings for the product.
 
