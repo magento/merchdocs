@@ -18,7 +18,9 @@ The API key is validated each time you access your Amazon Sales Channel.
     ![]({% link sales-channels/asc/assets/amazon-api-verification-prompt.png %}){: .zoom}
     _Get and Add the Amazon API Key Prompt_
 
-1. Click **Sign in** to access your Magento web account. The [Magento Accounts][1]{:target="_blank"} page displays in a new browser tab.
+1. Click **Sign in** to access your Magento web account.
+
+    The [Magento Accounts][1]{:target="_blank"} page displays in a new browser tab.
 
    - If you are logged into your Magento account, the API Portal section of the My Account page displays automatically.
 
