@@ -26,7 +26,9 @@ These steps create a new Magento attribute and links it to the selected Amazon a
 
 1. Enter a **Magento Product Attribute Code**. This value must be all lowercase without spaces.
 
-1. For **Attribute Set Ids**, select an Magento Attribute Set to assign the attribute to. Attributes tend to be part of an attribute set, such as a set for colors having attributes for blue, green, yellow, and red.
+1. For **Attribute Set Ids**, select an Magento Attribute Set to assign.
+
+   Attributes tend to be part of an attribute set, such as a set for colors having attributes for blue, green, yellow, and red.
 
 1. Select the value **Type** of the attribute value, such as text, numbers, and so on. The selection affects the allowed value for the attribute.
 
