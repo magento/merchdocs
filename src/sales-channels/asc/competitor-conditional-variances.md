@@ -49,7 +49,7 @@ The formula for calculating conditional variance base is as follows:
 
 ![]({% link sales-channels/asc/assets/amazon-cond-variance-calc-1.png %}){: .zoom}
 
-## Example:
+## Example
 
 The conditional variance settings are as follows:
 
