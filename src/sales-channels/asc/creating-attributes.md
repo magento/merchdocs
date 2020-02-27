@@ -24,7 +24,9 @@ These steps create a new Magento attribute and links it to the selected Amazon a
 
 1. Enter a **Magento Product Attribute Name**.
 
-1. Enter a **Magento Product Attribute Code**. This value must be all lowercase without spaces.
+1. Enter a **Magento Product Attribute Code**.
+
+    This value must be all lowercase without spaces.
 
 1. For **Attribute Set Ids**, select an Magento Attribute Set to assign.
 
