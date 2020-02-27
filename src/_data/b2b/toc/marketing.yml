@@ -71,7 +71,7 @@ pages:
         - label: Campaign Reporting
           url: "/sales-channels/google-ads/google-reporting.html"
     - label: Amazon Sales Channel 4.0+
-      url: "/sales-channels/amazon/amazon-sales-channel.html"
+      url: "/sales-channels/asc/amazon-sales-channel.html"
       children:
       - label: Amazon Sales Channel
         url: "/sales-channels/asc/amazon-sales-channel.html"

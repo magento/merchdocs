@@ -1,5 +1,6 @@
 ---
 title: Logs and Store Reports
+tag: asc-old
 ---
 
 Amazon Sales Channel includes some valuable logs and reports that allow you to view the changes that are affecting your Amazon listings and orders. You can use these reports to see what is happening in your store and to understand various listing statuses.

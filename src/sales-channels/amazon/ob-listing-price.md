@@ -1,5 +1,6 @@
 ---
 title: 'Onboarding: Listing Price'
+tag: asc-old
 ---
 
 **Step 2 Options**{: .Blue} for [Listing Settings]({% link sales-channels/amazon/ob-order-settings.md %})

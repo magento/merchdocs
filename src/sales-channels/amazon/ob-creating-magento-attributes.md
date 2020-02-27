@@ -1,5 +1,6 @@
 ---
 title: Creating Attributes for Amazon
+tag: asc-old
 ---
 
 

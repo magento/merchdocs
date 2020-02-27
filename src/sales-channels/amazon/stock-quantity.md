@@ -1,5 +1,6 @@
 ---
 title: Stock/Quantity
+tag: asc-old
 ---
 
 

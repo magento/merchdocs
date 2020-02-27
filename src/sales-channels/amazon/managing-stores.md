@@ -1,5 +1,6 @@
 ---
 title: Managing Stores
+tag: asc-old
 ---
 
 
