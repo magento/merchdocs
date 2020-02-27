@@ -9,7 +9,7 @@ The Amazon Value differs depending on the attribute type and the Amazon attribut
 
 ## Review attribute values
 
-1. On the Admin sidebar, click **Marketing** > _Channels_ > **Amazon**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
 
 1. Click the **Attributes** tab. Locate an Amazon attribute and click either **Create Attribute** or **Edit Attribute**.
 
