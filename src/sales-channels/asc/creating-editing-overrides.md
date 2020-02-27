@@ -90,7 +90,7 @@ Because you are modifying overrides for multiple listings, the Listing Details s
 1. Click <span class="btn">Save Listing Override</span>.
 <br />The Product Listing Overrides screen closes. The status of the listings changes to "Relist in Progress." The change will be published to Amazon with your next data sync (as configured in your cron settings). If not already listed, the listings are also added to the Overrides tab.
 
-### Override Types
+### Override types
 
 |Override|Description|
 |--- |--- |
