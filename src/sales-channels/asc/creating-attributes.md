@@ -10,21 +10,31 @@ As you create and update attributes, you may want to verify the attribute values
 
 These steps create a new Magento attribute and links it to the selected Amazon attribute. Depending on configurations, the values may start syncing between catalogs.
 
-1. On the Admin sidebar, click **Marketing**. Then under Channels, choose **Amazon**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
 
-1. Click **Attributes** tab. Locate an Amazon attribute and click **Create Attribute**.
+1. Click **Attributes** tab, locate an Amazon attribute, and click **Create Attribute**.
 
-1. To enable or disable the syncing of the Amazon values to the linked Magento attribute, toggle Is Active. When activated to "Yes", the values sync according to your configuration.
+1. To enable or disable the syncing of the Amazon values to the linked Magento attribute, toggle **Is Active**.
 
-1. To create a new Magento attribute to link to this Amazon attribute, select "Create New Magento Attribute" for **Select Magento Product Attribute**. The attribute will link to the displayed Amazon Attribute Name.
+    When set to `Yes`, the values sync according to your configuration.
+
+1. To create a new Magento attribute to link to this Amazon attribute, select `Create New Magento Attribute` for **Select Magento Product Attribute**.
+
+    The attribute will link to the displayed Amazon Attribute Name.
 
 1. Enter a **Magento Product Attribute Name**.
 
-1. Enter a **Magento Product Attribute Code**. This value must be all lowercase without spaces.
+1. Enter a **Magento Product Attribute Code**.
 
-1. For **Attribute Set Ids**, select an Magento Attribute Set to assign the attribute to. Attributes tend to be part of an attribute set, such as a set for colors having attributes for blue, green, yellow, and red.
+    This value must be all lowercase without spaces.
 
-1. Select the value **Type** of the attribute value, such as text, numbers, and so on. The selection affects the allowed value for the attribute.
+1. For **Attribute Set Ids**, select an Magento Attribute Set to assign.
+
+   Attributes tend to be part of an attribute set, such as a set for colors having attributes for blue, green, yellow, and red.
+
+1. Select the value **Type** of the attribute value, such as text, numbers, and so on.
+
+    The selection affects the allowed value for the attribute.
 
 1. For **Use for Promo Rule Conditions**, toggle to allow the Magento attribute to be available for a parameter within your promotional conditions.
 
@@ -32,7 +42,9 @@ These steps create a new Magento attribute and links it to the selected Amazon a
 
 1. For **Comparable on Storefront**, toggle if the attribute value can be used in Amazon's "Compare By" functionality.
 
-1. Select the Magento [scope]({% link configuration/scope.md %}) for the Magento attribute. And select one or more Store Views to import Amazon values into. If you select "All Store Views (Global)", this syncs and saves values to all store views. You may only want to sync values to specific store views.
+1. Select the Magento [scope]({% link configuration/scope.md %}) for the Magento attribute, and then select one or more Store Views to import Amazon values into.
+
+    If you select `All Store Views (Global)`, this syncs and saves values to all store views. You may only want to sync values to specific store views.
 
 1. When complete, click <span class="btn">Save Attribute Settings</span>.
 
@@ -58,15 +70,19 @@ _Create Attribute Settings_
 
 ## To edit an attribute:
 
-1. On the Admin sidebar, click **Marketing**. Then under Channels, choose **Amazon**.
+1. On the _Admin_ sidebar,  go to **Marketing** > _Channels_ > **Amazon**.
 
-1. Click **Attributes** tab. Locate an Amazon attribute and click **Edit Attribute**.
+1. Click **Attributes** tab, locate an Amazon attribute, and click **Edit Attribute**.
 
-1. To enable or disable the syncing of the Amazon values to the linked Magento attribute, toggle Is Active. When activated to "Yes", the values sync according to your configuration.
+1. To enable or disable the syncing of the Amazon values to the linked Magento attribute, toggle **Is Active**.
+
+    When set to `Yes`, the values sync according to your configuration.
 
 1. Click the drop-down to **Select Magento Product Attribute** to link to the displayed Amazon Attribute Name.
 
-1. Indicate if you want the Amazon synced value to overwrite existing Magento values. For example, you may not want to overwrite the prices from Amazon into Magento.
+1. Indicate if you want the Amazon synced value to overwrite existing Magento values.
+
+    For example, you may not want to overwrite the prices from Amazon into Magento.
     - **Do Not Overwrite Existing Magento Values**: Retains the Magento value, keeping different values for Magento and Amazon stores.
     - **Overwrite Existing Magento Values**: Saves the Amazon value over the Magento value in the Magento product catalog.
 

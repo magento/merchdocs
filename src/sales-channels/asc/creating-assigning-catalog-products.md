@@ -15,13 +15,15 @@ When you create a new catalog product from an Amazon listing:
 
 The rest of the necessary settings are determined by the Magento product settings you select during creation.
 
-Once created and matched, the listings remove from the New Third Party tab and display on the Active tab.
+When created and matched, the listings remove from the New Third Party tab and display on the Active tab.
 
 ## To assign a single catalog product to an Amazon listing
 
 1. View your product listings on the New Third Party tab.
 
-1. Find the listing you wish to assign/match in the list and click **Select** in the Action column. Then click **Assign Catalog Product**. The Assign Magento Catalog Product screen displays.
+1. Find the listing you wish to assign/match in the list, click **Select** in the _Action_ column, and then click **Assign Catalog Product**.
+
+    This opens the Assign Magento Catalog Product page.
 
 1. Browse for or filter the list using the [workspace controls]({% link sales-channels/asc/workspace-controls.md %}) and locate the appropriate catalog product to match to the listing.
 
@@ -33,7 +35,9 @@ Your product and listing are now matched. Amazon Sales Channel can now share pro
 
 1. View your product listings on the New Third Party tab.
 
-1. Find the listing you wish to create in your Magento catalog and click **Select** in the Action column. Then click **Create New Catalog Product**. The Create Magento Catalog Product screen displays.
+1. Find the listing you wish to create in your Magento catalog, click **Select** in the _Action_ column, and then click **Create New Catalog Product**. 
+
+    This opens the Create Magento Catalog Product page.
 
 1. Complete the catalog settings for the product.
 
@@ -63,7 +67,7 @@ The catalog product is created in your Magento catalog, and assigned to the Amaz
 
 1. Click the **Actions** field. Then click **Create New Catalog Product(s)**.
 
-1. Click **OK** to accept the confirmation message. The Create Magento Catalog Product screen displays.
+1. Click **OK** to accept the confirmation message and open the Create Magento Catalog Product page.
 
 1. Complete the catalog settings for the products.
 

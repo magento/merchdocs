@@ -16,6 +16,6 @@ Options available in the left-side menu include:
 
 ## Access Amazon Sales Channel
 
-1. On the Admin sidebar, click **Marketing** > _Channels> **Amazon**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
 
 The Amazon Sales Channel home page displays, defaulted to the Amazon Stores view.

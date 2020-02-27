@@ -40,7 +40,7 @@ _Order Item Details_
 ![]({% link sales-channels/asc/assets/amazon-order-tracking-details.png %}){: .zoom}
 _Tracking Details_
 
-## To cancel an unshipped order:
+## Cancel an unshipped order
 
 1. On the Amazon Sales Channel Home > Orders screen, locate the order you want to cancel in the list.
 

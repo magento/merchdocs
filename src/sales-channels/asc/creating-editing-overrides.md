@@ -11,7 +11,7 @@ The **Create Override** action is available when viewing listings on the Inactiv
 
 1. View a listing on a Products Listings tab.
 
-1. In the Action column, click **Select** and then click **Create Override**. The Product Listing Overrides screen displays.
+1. In the _Action_ column, click **Select** and then click **Create Override** to open the Product Listing Overrides page.
 
     ![]({% link sales-channels/asc/assets/amazon-select-create-override.png %})
 
@@ -74,7 +74,7 @@ Because you are modifying overrides for multiple listings, the Listing Details s
 
 1. View the listing on a Products Listings tab (Inactive, Active, Overrides, or Ineligible).
 
-1. Click the checkbox in the left-side column to select each of the listings you want to modify.
+1. Select the checkbox in the left-side column to select each of the listings you want to modify.
 
 1. In the _Actions_ drop-down, click **Edit Listing Overrides**. The Product Listing Overrides screen displays just as when creating an override.
 
@@ -95,7 +95,7 @@ Because you are modifying overrides for multiple listings, the Listing Details s
 
     The Product Listing Overrides screen closes. The status of the listings changes to `Relist in Progress`. The change will be published to Amazon with your next data sync (as configured in your cron settings). If not already listed, the listings are also added to the Overrides tab.
 
-### Override Types
+### Override types
 
 |Override|Description|
 |--- |--- |

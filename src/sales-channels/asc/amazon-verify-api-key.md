@@ -7,7 +7,7 @@ When accessing Amazon Sales Channel, Magento automatically checks and validates 
 
 If the Amazon API key is missing, invalid, or expired, you must update your key. A message displays prompting you to get an API key and to add they key to your Amazon Sales Channel configuration.
 
-## To get and add the Amazon API key as prompted:
+## Get and add the Amazon API key as prompted
 
 The API key is validated each time you access your Amazon Sales Channel.
 
@@ -18,7 +18,9 @@ The API key is validated each time you access your Amazon Sales Channel.
     ![]({% link sales-channels/asc/assets/amazon-api-verification-prompt.png %}){: .zoom}
     _Get and Add the Amazon API Key Prompt_
 
-1. Click **Sign in** to access your Magento web account. The [Magento Accounts][1]{:target="_blank"} page displays in a new browser tab.
+1. Click **Sign in** to access your Magento web account.
+
+    The [Magento Accounts][1]{:target="_blank"} page displays in a new browser tab.
 
    - If you are logged into your Magento account, the API Portal section of the My Account page displays automatically.
 
@@ -26,12 +28,18 @@ The API key is validated each time you access your Amazon Sales Channel.
 
    - If you need to create a Magento account, visit [here][2]{:target="_blank"} and register. This account should be part of your company or business.
 
-1. API keys can be viewed and generated on the **API Portal** tab in your Magento account. If you need to create a new API key, enter a description like "Amazon Sales Channel" and click **Add New**. The new key is generated and displayed with the name you entered. Click **Copy** to copy the new key.
+1. If needed, you can view and generate API keys on the **API Portal** tab in your Magento account.
+
+    If you need to create a new API key, enter a description like "Amazon Sales Channel" and click **Add New**. The new key is generated and displayed with the name you entered. Click **Copy** to copy the new key.
 
     ![]({% link sales-channels/asc/assets/amazon-add-api-key.png %}){: .zoom}
     _Generate or Copy an API Key_
 
-1. With the new key generated and copied, return to the Amazon Sales Channel browser tab. On the Welcome to Amazon Sales Channel screen, click **Add the key**. The browser exits Amazon Sales channel, and a store configuration page opens to **Stores** > **Configuration** > **Services** > **Magento Services**.
+1. With the new key generated and copied, return to the Amazon Sales Channel browser tab.
+
+1. On the Welcome to Amazon Sales Channel screen, click **Add the key**.
+
+    The browser exits Amazon Sales channel and a store configuration page opens to **Stores** > **Configuration** > **Services** > **Magento Services**.
 
 1. Paste the copied key into the **Production Api key** field.
 
