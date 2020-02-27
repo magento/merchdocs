@@ -14,7 +14,9 @@ These steps create a new Magento attribute and links it to the selected Amazon a
 
 1. Click **Attributes** tab. Locate an Amazon attribute and click **Create Attribute**.
 
-1. To enable or disable the syncing of the Amazon values to the linked Magento attribute, toggle Is Active. When activated to "Yes", the values sync according to your configuration.
+1. To enable or disable the syncing of the Amazon values to the linked Magento attribute, toggle **Is Active**.
+
+    When set to `Yes`, the values sync according to your configuration.
 
 1. To create a new Magento attribute to link to this Amazon attribute, select "Create New Magento Attribute" for **Select Magento Product Attribute**. The attribute will link to the displayed Amazon Attribute Name.
 
