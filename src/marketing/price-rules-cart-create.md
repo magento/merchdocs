@@ -10,31 +10,31 @@ Complete the following steps to add a new rule, describe the conditions, and def
 
 1. Click <span class="btn">Add New Rule</span> and do the following:
 
-    - Under **Rule Information**, complete the **Rule Name** and **Description**.
+   - Under **Rule Information**, complete the **Rule Name** and **Description**.
 
-    - If you do not want the rule to go into effect immediately, set **Active** to `No`.
+   - If you do not want the rule to go into effect immediately, set **Active** to `No`.
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![Cart price rule - rule information]({% link images/images/price-rule-cart-new.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE-B2B" contains site.edition %}-->
-    ![Cart price rule - rule information]({% link images/images-ee/price-rule-cart-new.png %}){: .zoom}
-    <!--{% endif %}-->
-    _Rule Information_
+   <!--{% if "Default.CE Only" contains site.edition %}-->
+   ![Cart price rule - rule information]({% link images/images/price-rule-cart-new.png %}){: .zoom}
+   <!--{% endif %}-->
+   <!--{% if "Default.EE-B2B" contains site.edition %}-->
+   ![Cart price rule - rule information]({% link images/images-ee/price-rule-cart-new.png %}){: .zoom}
+   <!--{% endif %}-->
+   _Rule Information_
 
 1. To establish the [scope]({% link configuration/scope.md %}) of the rule, do the following:
 
-    - Select the **Websites** where the promotion is to be available.
+   - Select the **Websites** where the promotion is to be available.
 
-    - Select the **Customer Groups** to which the promotion applies.
+   - Select the **Customer Groups** to which the promotion applies.
 
-        If you want the promotion to be available only to registered customers, **do not** choose the `NOT LOGGED IN` option.
+      If you want the promotion to be available only to registered customers, **do not** choose the `NOT LOGGED IN` option.
 
 1. Set the rule to apply with or without a [coupon]({% link marketing/price-rules-cart-coupon.md %}).
 
-    - To have the cart rule applied to all cart items, set **Coupon** to `No Coupon` and skip to step 5.
+   - To have the cart rule applied to all cart items, set **Coupon** to `No Coupon` and skip to step 5.
 
-    - To associate a coupon with a price rule, set **Coupon** to `Specific Coupon`. Then, do the following:
+   - To associate a coupon with a price rule, set **Coupon** to `Specific Coupon`. Then, do the following:
 
       - Enter a free-text **Coupon Code** that the customer must enter to receive the discount.
 
@@ -87,29 +87,29 @@ _Conditions_
 
    The first condition appears by default, and states:
 
-    If **ALL** of these conditions are **TRUE**:
+      If **ALL** of these conditions are **TRUE**:
 
     The statement has two bold links that you can click to display the selection of options for that part of the statement. You can create different conditions by changing the combination of these values. Do any of the following:
 
-    - Click **ALL** and select `ALL` or `ANY`.
-    - Click **TRUE** and select `TRUE` or `FALSE`.
-    - Leave the condition unchanged to apply the rule to all products.
+   - Click **ALL** and select `ALL` or `ANY`.
+   - Click **TRUE** and select `TRUE` or `FALSE`.
+   - Leave the condition unchanged to apply the rule to all products.
 
 1. Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) at the beginning of the next line and select an option for the condition, such as cart attribute, product subselection, or combination.
 
    For this example, complete the next part of the condition as follows:
 
-    - When prompted to **Choose the condition to add**, choose `Products Subselection`.
+   - When prompted to **Choose the condition to add**, choose `Products Subselection`.
 
         ![Cart price rule condition - products subselection]({% link images/images/price-rule-cart-condition-products-subselection.png %}){: .zoom}
         _Products Subselection_
 
-    - When the next part of the condition appears, hover over the line so you can see where each link with variable values is located.
+   - When the next part of the condition appears, hover over the line so you can see where each link with variable values is located.
 
         ![Cart price rule condition]({% link images/images/price-rule-cart-condition-products-subselection2.png %}){: .zoom}
         _If ALL of these conditions are TRUE_
 
-    - Click the "more" (...) link, and enter `greater than 100`. This condition requires the total quantity of the cart to be 101 or greater.
+   - Click the "more" (...) link, and enter `greater than 100`. This condition requires the total quantity of the cart to be 101 or greater.
 
         ![Cart price rule condition - total quantity value]({% link images/images/price-rule-cart-condition-products-subselection3.png %}){: .zoom}
         _Total Quantity Value_
@@ -119,14 +119,14 @@ _Conditions_
     ![Cart price rule condition - product attribute category]({% link images/images/price-rule-cart-condition-products-subselection4.png %}){: .zoom}
     _Category_
 
-    - In the next part of the condition, click the **more** (...) link to display the input field. Then, open the **Chooser** (![List icon]({% link images/images/btn-chooser.png %})) to display the category tree.
+   - In the next part of the condition, click the **more** (...) link to display the input field. Then, open the **Chooser** (![List icon]({% link images/images/btn-chooser.png %})) to display the category tree.
 
-    - Select the checkbox of the category that you want to use as a condition for the price rule. Click the ![Add icon]({% link images/images/btn-checkmark-green.png %}) icon to accept the category selection(s).
+   - Select the checkbox of the category that you want to use as a condition for the price rule. Click the ![Add icon]({% link images/images/btn-checkmark-green.png %}) icon to accept the category selection(s).
 
-        The condition can be based on any category that is a child of the store’s [root category]({% link catalog/category-root.md %}).
+      The condition can be based on any category that is a child of the store’s [root category]({% link catalog/category-root.md %}).
 
-        ![Cart price rule condition - product category]({% link images/images/price-rule-cart-subselection-category.png %}){: .zoom}
-        _Choosing a Category for a Condition_
+      ![Cart price rule condition - product category]({% link images/images/price-rule-cart-subselection-category.png %}){: .zoom}
+      _Choosing a Category for a Condition_
 
 1. To add more conditions, click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) and define another condition.
 
@@ -160,7 +160,7 @@ The shopping cart price rule actions describe how prices are updated when the co
     ![Cart price rule - actions ]({% link images/images/price-rule-cart-actions.png %}){: .zoom}
     _Cart Price Rule Actions_
 
-    - Set **Apply** to one of the following discount options:
+   - Set **Apply** to one of the following discount options:
 
         {: .fields-table }
         | Percent of product price discount | Discounts item by subtracting a percentage from the original price. The discount applies to each qualifying item in the cart. For example: Enter 10 in Discount Amount for an updated price that is 10% less than the original price. |
@@ -168,18 +168,18 @@ The shopping cart price rule actions describe how prices are updated when the co
         | Fixed amount discount for whole cart | Discounts the entire cart by subtracting a fixed amount from the cart total. For example: Enter 10 in Discount Amount to subtract $10 from the cart total. By default, the discount applies only to the cart subtotal. To apply the discount to the subtotal and shipping separately, use the _Apply to Shipping Amount_ option. |
         | Buy X get Y free | Defines a quantity that the customer must purchase to receive a quantity for free. (The Discount Amount is Y.) |
 
-    - Enter the **Discount Amount** as a number, without symbols. For example, depending on the discount option selected, the number 10 might indicate a percentage, a fixed amount, or a quantity of items.
+   - Enter the **Discount Amount** as a number, without symbols. For example, depending on the discount option selected, the number 10 might indicate a percentage, a fixed amount, or a quantity of items.
 
-    - For a _Buy X get Y Free_ discount, enter the quantity in the **Discount Qty Step (Buy X)** field that the customer must purchase to receive the discount.
+   - For a _Buy X get Y Free_ discount, enter the quantity in the **Discount Qty Step (Buy X)** field that the customer must purchase to receive the discount.
 
-    - In the **Maximum Qty Discount is Applied To** field, enter the maximum quantity of the same product that can qualify for the discount in the same purchase.
+   - In the **Maximum Qty Discount is Applied To** field, enter the maximum quantity of the same product that can qualify for the discount in the same purchase.
 
-    - Set **Apply to Shipping Amount** (![Option toggle]({% link images/images/btn-switch-yes.png %})) as follows:
+   - Set **Apply to Shipping Amount** (![Option toggle]({% link images/images/btn-switch-yes.png %})) as follows:
 
         | Yes | Applies the discount amount separately to the subtotal and shipping amounts. |
         | No | Applies the discount amount only to the subtotal. |
 
-    - To stop processing other rules after this rule is applied, set **Discard Subsequent Rules** (![Option toggle]({% link images/images/btn-switch-yes.png %})) to `Yes`. This setting prevents multiple discounts from being applied to the same product.
+   - To stop processing other rules after this rule is applied, set **Discard Subsequent Rules** (![Option toggle]({% link images/images/btn-switch-yes.png %})) to `Yes`. This setting prevents multiple discounts from being applied to the same product.
 
          | Yes | Prevents any other pricing rules that may apply to a product from being applied. Discarding subsequent rules means that, in the event that multiple pricing rules apply to the same product, only the pricing rule with the highest defined priority (in a rule's Priority field) will be applied to the qualifying product. This prevents multiple pricing rules from stacking and providing unintended additional discounts. |
          | No | Allows multiple pricing rules to apply to the same product. This could result in stacking and providing multiple discounts applied to your listing price. |
@@ -187,13 +187,13 @@ The shopping cart price rule actions describe how prices are updated when the co
          {:.bs-callout-warning}
          To discard subsequent rules, a pricing rule must use the defined priorities that are set in the Priority field of each rule, and multiple rules should not have the same defined priority. See **Priority** in the **Add a New Rule** step.
 
-    - To determine if free shipping is applied to orders that meet the conditions, set **Free Shipping** to one of the following:
+   - To determine if free shipping is applied to orders that meet the conditions, set **Free Shipping** to one of the following:
 
         | No | Free shipping is not available. |
         | For matching items only | Free shipping is available only for items that match the conditions of the rule. |
         | For shipment with matching items | Free shipping is available for any shipment that includes matching item(s). |
 
-    - In the **Add Rewards Points** field, enter the number of points the customer earns whenever the cart price rule is applied. (If reward points are not enabled, leave this field blank.)
+   - In the **Add Rewards Points** field, enter the number of points the customer earns whenever the cart price rule is applied. (If reward points are not enabled, leave this field blank.)
 
 1. Define as many additional conditions as needed for the action.
 

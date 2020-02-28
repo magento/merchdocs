@@ -39,13 +39,13 @@ You must have the appropriate permissions to the Google account to create an exp
 
 1. In the sidebar on the left, choose **Admin**. Then, do one of the following:
 
-    **Choose an Existing View**
+   **Choose an Existing View**
 
-    In the header of the **View** column, click the **down arrow**, and choose the view that is to provide the data for the experiment.
+   In the header of the **View** column, click the **down arrow**, and choose the view that is to provide the data for the experiment.
 
-    **Create a New Reporting View**
+   **Create a New Reporting View**
 
-    - In the header of the **View** column, click <span class="btn">Create View</span>. Then, do the following:
+   - In the header of the **View** column, click <span class="btn">Create View</span>. Then, do the following:
 
       - Identify the experiment location as either "Website" or "Mobile app".
 
@@ -53,7 +53,7 @@ You must have the appropriate permissions to the Google account to create an exp
 
       - Specify the **Reporting Time Zone**.
 
-    - When complete, click <span class="btn">Create View</span>. Then, click the back arrow to return to the previous page.
+   - When complete, click <span class="btn">Create View</span>. Then, click the back arrow to return to the previous page.
 
         ![Google Analytics - content experiments reporting]({% link images/images/google-analytics-content-experiments-new-reporting-view.png %}){: .zoom}
         _New Reporting View_
@@ -62,11 +62,11 @@ You must have the appropriate permissions to the Google account to create an exp
 
 1. Click <span class="btn">Create experiment</span>. Then, do the following:
 
-    - Specify the percentage of traffic to redirect.
+   - Specify the percentage of traffic to redirect.
 
-    - Specify the **Original Page URL** and the URLs of each **page variation** that you want to test.
+   - Specify the **Original Page URL** and the URLs of each **page variation** that you want to test.
 
-    - Complete the other options. If you need help see [Configure & Modify Experiments][3].
+   - Complete the other options. If you need help see [Configure & Modify Experiments][3].
 
 1. When the experiment is set up, click <span class="btn">Manually Insert the Code</span>. Then, copy the code snippet.
 
