@@ -39,53 +39,53 @@ Partial invoices and partial refunds are not supported by PayPal Payflow Pro.
 
 1. In the PayPal Manager menu, choose **Service Settings**. Under **Hosted Checkout Pages**, click **Set Up**. Then, do the following:
 
-    - Under **Choose your settings**, set **Transaction Process Mode** to `Live`.
+   - Under **Choose your settings**, set **Transaction Process Mode** to `Live`.
 
-    - Under **Display options on payment page**, set **Cancel URL Method** to `POST`.
+   - Under **Display options on payment page**, set **Cancel URL Method** to `POST`.
 
-    - Under **Billing Information**, mark the card security code **CSC** checkboxes for both required and editable fields.
+   - Under **Billing Information**, mark the card security code **CSC** checkboxes for both required and editable fields.
 
-    - Under **Payment Confirmation**, set **Return URL Method** to `POST`.
+   - Under **Payment Confirmation**, set **Return URL Method** to `POST`.
 
-    - Under **Security Options**, complete the following settings:
+   - Under **Security Options**, complete the following settings:
 
       |**AVS** |`No` |
       |**CSC** |`No` |
       |**Enable Secure Token** |`Yes` |
 
-    - Click <span class="btn">Save Changes</span>.
+   - Click <span class="btn">Save Changes</span>.
 
 1. In the PayPal Manager menu, again choose **Service Settings**. Then under **Hosted Checkout Pages**, choose **Customize**, and do the following:
 
-    - Choose **Layout C**.
+   - Choose **Layout C**.
 
       Layout C shows only credit and debit card fields, and can either be framed on your site or used as a stand-alone popup. The size is fixed at 490 x 565 pixels, with extra space for error messages. On some systems, this setting corrects an issue with transparent redirect.
 
-    - Click <span class="btn">Save and Publish</span>.
+   - Click <span class="btn">Save and Publish</span>.
 
 1. In the PayPal Manager menu, choose **Account Administration**. Under **Manage Security**, click **Transaction Settings**. Then, do the following:
 
-    - Set **Allow reference transactions** to `Yes`.
+   - Set **Allow reference transactions** to `Yes`.
 
-    - Click <span class="btn">Confirm</span>.
+   - Click <span class="btn">Confirm</span>.
 
       {:.bs-callout-info}
       If you have multiple Magento websites, you must create a separate PayPal Payments Advanced account for each.
 
 1. PayPal recommends that you set up an additional user on your account. To set up an additional user, do the following:
 
-    - In the second row of the main menu, click **Manage Users**.
+   - In the second row of the main menu, click **Manage Users**.
 
-    - To add another user to the account, click **Add User**. The link is located just above the Manage Users title.
+   - To add another user to the account, click **Add User**. The link is located just above the Manage Users title.
 
-    - Complete the required fields in the following sections of the Add User form:
+   - Complete the required fields in the following sections of the Add User form:
 
       - Admin Confirmation
       - User Information
       - User Login Information
       - Assign Privilege to User
 
-    - Click <span class="btn">Update</span>.
+   - Click <span class="btn">Update</span>.
 
 1. In the upper-right corner, click **Log Out**.
 
@@ -93,9 +93,9 @@ Partial invoices and partial refunds are not supported by PayPal Payflow Pro.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-    - In the left panel, expand  **Sales** and choose **Payment Methods**.
+   - In the left panel, expand  **Sales** and choose **Payment Methods**.
 
-    - If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view for which this configuration applies.
+   - If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view for which this configuration applies.
 
 1. In the **Merchant Location** section, select the **Merchant Country** where your business is located.
 
@@ -135,11 +135,11 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. If your system uses a proxy server to establish the connection to the PayPal system, set **Use Proxy** to `Yes`. Then, do the following:
 
-    - Enter the IP address of the **Proxy Host**.
+   - Enter the IP address of the **Proxy Host**.
 
-    - Enter the port number of the **Proxy Port**.
+   - Enter the port number of the **Proxy Port**.
 
-    A proxy is used when the server firewall prevents direct access to the PayPal server. In such a case, a third-party server is used to relay traffic.
+      A proxy is used when the server firewall prevents direct access to the PayPal server. In such a case, a third-party server is used to relay traffic.
 
 1. Set **Enable This Solution** to `Yes`.
 
@@ -167,26 +167,26 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. Set **Position** to one of the following:
 
-    - `Header (center)`
-    - `Sidebar (right)`
+   - `Header (center)`
+   - `Sidebar (right)`
 
 1. Set **Size** to one of the following:
 
-    - `190 x 100`
-    - `234 x 60`
-    - `300 x 50`
-    - `468 x 60`
-    - `728 x 90`
-    - `800 x 66`
+   - `190 x 100`
+   - `234 x 60`
+   - `300 x 50`
+   - `468 x 60`
+   - `728 x 90`
+   - `800 x 66`
 
     ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
     _Advertise PayPal Credit - Home Page_
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the remaining sections and repeat the previous steps:
 
-    - Catalog Category Page
-    - Catalog Product Page
-    - Checkout Cart Page
+   - Catalog Category Page
+   - Catalog Product Page
+   - Checkout Cart Page
 
 ### Step 5: Complete the Basic Settings - PayPal Payflow Pro
 
@@ -232,13 +232,13 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. To determine when a transaction should be rejected when the Address Verification System identifies a mismatch, specify how to handle each of the following scenarios:
 
-    - To reject a transaction based on a mismatched street mismatch, set **AVS Street Does Not Match** to `Yes`.
+   - To reject a transaction based on a mismatched street mismatch, set **AVS Street Does Not Match** to `Yes`.
 
-    - To reject a transaction based on a mismatched ZIP code, set **AVS Zip Does Not Match** to `Yes`.
+   - To reject a transaction based on a mismatched ZIP code, set **AVS Zip Does Not Match** to `Yes`.
 
-    - To reject a transaction based on mismatched country identifier, set **International AVS Indicator Does Not Match** to `Yes`.
+   - To reject a transaction based on mismatched country identifier, set **International AVS Indicator Does Not Match** to `Yes`.
 
-    - To reject a transaction based on a mismatched CVV code, set **Card Security Code Does Not Match** to `Yes`.
+   - To reject a transaction based on a mismatched CVV code, set **Card Security Code Does Not Match** to `Yes`.
 
      ![CVV and AVS Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-pro-advanced-settings-cvv-avs.png %}){: .zoom}
      _CVV and AVS Settings - PayPal Payflow Pro_
@@ -254,26 +254,26 @@ Complete the following sections, as needed for your store:
 
 1. For **SFTP Credentials**, do the following:
 
-    - If you have signed up for PayPal’s Secure FTP Server, enter the following SFTP login credentials:
+   - If you have signed up for PayPal’s Secure FTP Server, enter the following SFTP login credentials:
 
       - Login
       - Password
 
-    - To run test reports before “going live” with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
+   - To run test reports before “going live” with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
 
-    - Enter the **Custom Endpoint Hostname or IP Address**.
+   - Enter the **Custom Endpoint Hostname or IP Address**.
 
       By default, the value is: `reports.paypal.com`
 
-    - Enter the **Custom Path** where reports are saved.
+   - Enter the **Custom Path** where reports are saved.
 
       By default, the value is: `/ppreports/outgoing`
 
 1. To generate reports according to a schedule, complete the **Scheduled Fetching** settings:
 
-    - Set **Enable Automatic Fetching** to `Yes`.
+   - Set **Enable Automatic Fetching** to `Yes`.
 
-    - Set **Schedule** to one of the following:
+   - Set **Schedule** to one of the following:
 
       - `Daily`
       - `Every 3 Days`
@@ -285,7 +285,7 @@ Complete the following sections, as needed for your store:
 
       PayPal retains each report for 45 days.
 
-    - Set **Time of Day** to the hour, minute, and second when you want the reports to be generated.
+   - Set **Time of Day** to the hour, minute, and second when you want the reports to be generated.
 
       ![PayPal Settlement Report Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
       _Settlement Report Settings_
@@ -298,26 +298,26 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
 1. Choose the **PayPal Product Logo** that you want to appear in the PayPal block in your store. The PayPal logos are available in four styles and two sizes. Options include:
 
-    - No Logo
-    - We Prefer PayPal (150 x 60 or 150 x 40)
-    - Now Accepting PayPal (150 x 60 or 150 x 40)
-    - Payments by PayPal (150 x 60 or 150 x 40)
-    - Shop Now Using (150 x 60 or 150 x 40)
+   - No Logo
+   - We Prefer PayPal (150 x 60 or 150 x 40)
+   - Now Accepting PayPal (150 x 60 or 150 x 40)
+   - Payments by PayPal (150 x 60 or 150 x 40)
+   - Shop Now Using (150 x 60 or 150 x 40)
 
 1. To customize the appearance of your PayPal merchant pages, do the following:
 
-    - Enter the name of the **Page Style** that you want to apply to your PayPal merchant pages. Options include:
+   - Enter the name of the **Page Style** that you want to apply to your PayPal merchant pages. Options include:
 
       |**paypal** |Uses the PayPal page style.|
       |**primary** |Uses the page style that you identified as the “primary” style in your account profile.|
       |**your_custom_value** |Uses a custom payment page style, which is specified in your account profile.|
 
-    - In the **Header Image URL** field, enter the URL of the image that you want to appear in the upper-left corner of the payment page. The maximum file size is 750 pixels wide by 90 pixels high.
+   - In the **Header Image URL** field, enter the URL of the image that you want to appear in the upper-left corner of the payment page. The maximum file size is 750 pixels wide by 90 pixels high.
 
       {:.bs-callout-info}
       PayPal recommends that the image be located on a secure (https) server. Otherwise, the customer’s browser may warn that “the page contains both secure and nonsecure items.”
 
-    - Enter the six-character hexadecimal code, without the “#” symbol, for each of the following:
+   - Enter the six-character hexadecimal code, without the “#” symbol, for each of the following:
 
       |**Header Background Color** |Background color for the checkout page header.|
       |**Header Border Color** |2-pixel border around the header. |
