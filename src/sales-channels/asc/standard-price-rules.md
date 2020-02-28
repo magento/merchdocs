@@ -12,7 +12,7 @@ Sections of a standard price rule action include:
 
 ## To complete the Price Rule Actions section for a Standard Price Rule:
 
-1. For **Rule Type**, choose `Standard price rule` in the drop-down.
+1. For **Rule Type**, choose `Standard price rule`.
 
 1. For **Price Action**, choose an option.
 
