@@ -46,16 +46,16 @@ In this tutorial, you will create a simple block with content from Google Maps. 
 
 1. In the upper-right corner, click <span class="btn">Add New Block</span>. Then, do the following:
 
-    - In the **Block Title** field, enter `Google Map`.
+   - In the **Block Title** field, enter `Google Map`.
 
-    - In the **Identifier** field, enter `google-map`.
+   - In the **Identifier** field, enter `google-map`.
 
-    - Choose the **Store View** where the block is to be available.
+   - Choose the **Store View** where the block is to be available.
 
-        ![]({% link images/images-ee/page-builder-tutorial2-block-new-google-map.png %}){: .zoom}
-        _Block Information_
+      ![]({% link images/images-ee/page-builder-tutorial2-block-new-google-map.png %}){: .zoom}
+      _Block Information_
 
-    - In the upper-right corner, **Save** the settings and return to the Page Builder workspace.
+   - In the upper-right corner, **Save** the settings and return to the Page Builder workspace.
 
 ### Step 2: Add a Google Map
 
@@ -86,26 +86,26 @@ In this tutorial, you will create a simple block with content from Google Maps. 
 
 1. Scroll down to the **Advanced Content Tools** section. Then, complete the applicable instructions:
 
-    **Have a Google Maps Key**
+   **Have a Google Maps Key**
 
-    - Paste your **Google Maps API Key**.
+   - Paste your **Google Maps API Key**.
 
-    - Click **Test Key**.
+   - Click **Test Key**.
 
-    - Do one of the following:
+   - Do one of the following:
 
       - After your key is verified, click <span class="btn">Save Config</span>.
       - If there is a problem with your key, return to the Google Maps site to resolve the problem. Then, try again.
 
-    **Need a Google Maps Key**
+   **Need a Google Maps Key**
 
-    To set up a Google Maps key, you must be a site administrator with authority to enable billing for your account. If you’re not ready to set up a Google Maps account at this time, you can skip this step and use the Google Maps placeholder for now.
+   To set up a Google Maps key, you must be a site administrator with authority to enable billing for your account. If you’re not ready to set up a Google Maps account at this time, you can skip this step and use the Google Maps placeholder for now.
 
-    - Click **Get API Key**.
+   - Click **Get API Key**.
 
-    - Follow the [instructions][1]{:target="_blank"} to configure your Google Maps account and billing.
+   - Follow the [instructions][1]{:target="_blank"} to configure your Google Maps account and billing.
 
-    - Copy your API Key. Then, complete the previous instructions to enter and test your key.
+   - Copy your API Key. Then, complete the previous instructions to enter and test your key.
 
 ### Step 4: Add the Block to a Page
 
@@ -127,19 +127,19 @@ In this tutorial, you will create a simple block with content from Google Maps. 
     ![]({% link images/images-ee/page-builder-add-content-block-toolbox.png %}){: .zoom}
     _Block Toolbox_
 
-    - On the Edit Block page, click <span class="btn">Select Block</span>.
+   - On the Edit Block page, click <span class="btn">Select Block</span>.
 
         ![]({% link images/images-ee/page-builder-add-content-block-settings-block-select.png %}){: .zoom}
         _Select Block_
 
-    - In the search box, enter `map` and press the **Enter** key to find the block that you created.
+   - In the search box, enter `map` and press the **Enter** key to find the block that you created.
 
-    - In the grid, click <span class="btn">Select</span> to choose the Google Maps block. Then in the upper-right corner, click <span class="btn">Add Selected</span>.
+   - In the grid, click <span class="btn">Select</span> to choose the Google Maps block. Then in the upper-right corner, click <span class="btn">Add Selected</span>.
 
         ![]({% link images/images-ee/page-builder-add-content-block-settings-block-select.png %}){: .zoom}
         _Find Block in List_
 
-    - In the upper-right corner, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
+   - In the upper-right corner, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
 
 1. In the upper-right corner on the **Save** menu, choose **Save & Close**.
 
@@ -168,29 +168,29 @@ _Luma Tee Promotion_
     ![]({% link images/images-ee/page-builder-tutorial2-block-dynamic-new.png %}){: .zoom}
     _New Dynamic Block_
 
-    - Set **Enable Dynamic Block** to `Yes`.
+   - Set **Enable Dynamic Block** to `Yes`.
 
-    - In the a **Dynamic Block Name** field, enter `Tee Shirt Promo`.
+   - In the a **Dynamic Block Name** field, enter `Tee Shirt Promo`.
 
-    - Set **Dynamic Block Type** to `Content Area`. Then, click <span class="btn">Done</span>.
+   - Set **Dynamic Block Type** to `Content Area`. Then, click <span class="btn">Done</span>.
 
-        The Dynamic Block Type determines where in the [page layout]({% link design/page-layout-standard.md %}) the block is to be placed. When setting up a dynamic block for your store, take into consideration both the [page layout]({% link design/page-layout.md %}) and the [theme]({% link design/themes.md %}), so you can put the available space to good use. Some stores have an active content area that limited to a fixed width, while others extend the full width of the screen.
+      The Dynamic Block Type determines where in the [page layout]({% link design/page-layout-standard.md %}) the block is to be placed. When setting up a dynamic block for your store, take into consideration both the [page layout]({% link design/page-layout.md %}) and the [theme]({% link design/themes.md %}), so you can put the available space to good use. Some stores have an active content area that limited to a fixed width, while others extend the full width of the screen.
 
-        ![]({% link images/images-ee/page-builder-dynamic-block-type.png %}){: .zoom}
-        _Dynamic Block Type_
+      ![]({% link images/images-ee/page-builder-dynamic-block-type.png %}){: .zoom}
+      _Dynamic Block Type_
 
-    - In the **Customer Segment** list, select the checkbox of each segment that you want to apply to the dynamic block. Then, click <span class="btn">Done</span> to save the setting.
+   - In the **Customer Segment** list, select the checkbox of each segment that you want to apply to the dynamic block. Then, click <span class="btn">Done</span> to save the setting.
 
-        For this example, we created two [customer segments]({% link marketing/customer-segments.md %}) that identify registered customers by gender. This dynamic block appears only to registered female customers who are logged in to their accounts while they shop in your store.
+      For this example, we created two [customer segments]({% link marketing/customer-segments.md %}) that identify registered customers by gender. This dynamic block appears only to registered female customers who are logged in to their accounts while they shop in your store.
 
-        ![]({% link images/images-ee/page-builder-dynamic-block-customer-segment.png %}){: .zoom}
-        _Choose a Customer Segment_
+      ![]({% link images/images-ee/page-builder-dynamic-block-customer-segment.png %}){: .zoom}
+      _Choose a Customer Segment_
 
 ### Step 2: Complete the Settings
 
 Expand the **Content** section. Then, do the following:
 
-**Add an Image**
+#### Add an Image
 
 1. In the Page Builder panel under _Media_, drag an **Image** placeholder to the row. Click <span class="btn">Select from Gallery</span> and choose the `wide-banner-background.png` image.
 
@@ -205,7 +205,7 @@ Expand the **Content** section. Then, do the following:
 
 1. In the upper-right corner of the Tee Shirt Promo page, click <span class="btn">Save</span>.
 
-**Add Columns**
+#### Add Columns
 
 In the Page Builder panel under **Layout**, drag a **Column** placeholder to the stage.
 
@@ -214,14 +214,14 @@ _Two Equal Columns_
 
 The row is now divided into two columns of equal width.
 
-**Add Text**
+#### Add Text
 
 1. In the Page Builder panel under **Elements**, drag a **Text** placeholder to the second column.
 
     ![]({% link images/images-ee/page-builder-tutorial2-column-text-drag.png %}){: .zoom}
     _Drag Text Box to Column_
 
-1. Enter the following 3 lines of text into the editor:
+1. Enter the following three lines of text into the editor:
 
         Even more ways to mix and match.
         Buy 3 Luma tees and get a 4th free.
@@ -246,7 +246,7 @@ The row is now divided into two columns of equal width.
     ![]({% link images/images-ee/page-builder-tutorial2-column-text-editor-text-formatted.png %}){: .zoom}
     _Formatted Text_
 
-**Add a Link**
+#### Add a Link
 
 In the first tutorial, you learned how to use the [Button]({% link cms/page-builder-elements-buttons.md %}) content type to create a link. This example shows how to insert a link from the editor toolbar.
 
@@ -303,36 +303,36 @@ In the first tutorial, you learned how to use the [Button]({% link cms/page-buil
 
 1. In the Admin sidebar, choose **Content**. Then under **Elements**, choose **Pages**
 
-1. Open the Simple Page that you created in the [first tutorial]({% link cms/page-builder-tutorial1-simple-page.md %}) in edit mode. Then expand the **Content** section and do the following:
+1. Open the Simple Page that you created in the [first tutorial]({% link cms/page-builder-tutorial1-simple-page.md %}) in edit mode and expand the **Content** section.
 
-   - In the Page Builder panel, expand the **Layout** section. Then, drag a **Row** placeholder to the top of the stage.
+1. In the Page Builder panel, expand the **Layout** section. Then, drag a **Row** placeholder to the top of the stage.
 
-   - In the Page Builder panel, expand the **Add Content** section. Then, drag a **Dynamic Block** placeholder to the new row.
+1. In the Page Builder panel, expand the **Add Content** section. Then, drag a **Dynamic Block** placeholder to the new row.
 
-        ![]({% link images/images-ee/page-builder-dynamic-block-drag.png %}){: .zoom}
-        _Drag Dynamic Block to Row_
+    ![]({% link images/images-ee/page-builder-dynamic-block-drag.png %}){: .zoom}
+    _Drag Dynamic Block to Row_
 
-   - Hover over the dynamic block container. Then in the toolbox, choose Settings (![]({% link images/images-ee/icon-pb-settings.png %})).
+1. Hover over the dynamic block container. Then in the toolbox, choose Settings (![]({% link images/images-ee/icon-pb-settings.png %})).
 
-        ![]({% link images/images-ee/page-builder-dynamic-block-settings.png %}){: .zoom}
-        _Dynamic Block Toolbox_
+    ![]({% link images/images-ee/page-builder-dynamic-block-settings.png %}){: .zoom}
+    _Dynamic Block Toolbox_
 
-   - On the Edit Dynamic Block page, click <span class="btn">Select Dynamic Block</span>.
+1. On the Edit Dynamic Block page, click <span class="btn">Select Dynamic Block</span>.
 
-        ![]({% link images/images-ee/page-builder-dynamic-block-select.png %}){: .zoom}
-        _Select Dynamic Block_
+    ![]({% link images/images-ee/page-builder-dynamic-block-select.png %}){: .zoom}
+    _Select Dynamic Block_
 
-   - On the Select Dynamic Block page, find the "Tee Shirt Promo” dynamic block that you created and click <span class="btn">Select</span>. Then, click <span class="btn">Add Selected</span>.
+1. On the Select Dynamic Block page, find the "Tee Shirt Promo” dynamic block that you created and click <span class="btn">Select</span>. Then, click <span class="btn">Add Selected</span>.
 
-        ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-select.png %}){: .zoom}
-        _Select Dynamic Block_
+    ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-select.png %}){: .zoom}
+    _Select Dynamic Block_
 
-        A summary of the dynamic block information appears below.
+    A summary of the dynamic block information appears below.
 
-        ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-edit.png %}){: .zoom}
-        _Dynamic Block Information_
+    ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-edit.png %}){: .zoom}
+    _Dynamic Block Information_
 
-   - Accept the default **Template**, "Dynamic Block Block Template".
+1. Accept the default **Template**, "Dynamic Block Block Template".
 
 1. When complete, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
 
@@ -361,13 +361,13 @@ _Dynamic Block in Storefront_
 
    - Hold down the mouse button, and drag the border two divisions to the left.
 
-        ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-edit-column-width.png %}){: .zoom}
-        _Grid Divisions_
+      ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-edit-column-width.png %}){: .zoom}
+      _Grid Divisions_
 
-        The first column is now four of twelve (4/12) grid divisions wide, and the second column is eight of twelve (8/12) divisions wide.
+      The first column is now four of twelve (4/12) grid divisions wide, and the second column is eight of twelve (8/12) divisions wide.
 
-        ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-edit-column-width-changed.png %}){: .zoom}
-        _Two Unequal Columns_
+      ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-edit-column-width-changed.png %}){: .zoom}
+      _Two Unequal Columns_
 
 1. To change the text color, do the following:
 
@@ -403,8 +403,8 @@ Because this dynamic block is visible only to members of a specific customer seg
 
    - If the sample data is installed on your system, use the following credentials:
 
-        | Email | `roni_cost@example.com` |
-        | Password | `roni_cost3@example.com` |
+      | Email | `roni_cost@example.com` |
+      | Password | `roni_cost3@example.com` |
 
    - Click <span class="btn">Sign In</span>.
 

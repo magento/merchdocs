@@ -24,8 +24,8 @@ Before you begin, make sure that the Storefront Properties of the SKU attribute 
 
 1. Do one of the following:
 
-   - Follow the instructions to create a new [cart price rule]({% link marketing/price-rules-cart.md %}).
-   - Open an existing cart price rule.
+    - Follow the instructions to create a new [cart price rule]({% link marketing/price-rules-cart.md %}).
+    - Open an existing cart price rule.
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Conditions** section, and do the following:
 

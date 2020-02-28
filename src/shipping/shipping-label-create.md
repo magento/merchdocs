@@ -72,9 +72,9 @@ FedEx ships domestically and internationally. Stores located outside the United 
 
 1. Verify that the following FedEx credentials are correct:
 
-   - Meter Number
-   - Key
-   - Password
+    - Meter Number
+    - Key
+    - Password
 
 1. Click **Save Config**.
 

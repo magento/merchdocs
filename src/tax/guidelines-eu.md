@@ -103,13 +103,13 @@ Complete the following General tax settings:
 
 1. In the **Default Tax Destination Calculation** section, do the following:
 
-   - Clear the **Use Website** checkbox after each field,
+    - Clear the **Use Website** checkbox after each field,
 
-   - Update the following values to match your site's Shipping Settings [point of origin]({% link shipping/point-of-origin.md %}).
+    - Update the following values to match your site's Shipping Settings [point of origin]({% link shipping/point-of-origin.md %}).
 
-        - Default Country
-        - Default State
-        - Default Post Code
+      - Default Country
+      - Default State
+      - Default Post Code
 
         This setting ensures that tax is calculated correctly when product prices include tax.
 

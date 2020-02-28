@@ -25,24 +25,24 @@ _Pages_
 
 1. On the new page, do the following:
 
-    - By default, a new page is published when the record is saved. If you do not want to publish the page immediately, set **Enable Page** to `No`.
+   - By default, a new page is published when the record is saved. If you do not want to publish the page immediately, set **Enable Page** to `No`.
 
-    - Enter the **Page Title**. The Page Title is the name that appears in the [breadcrumb trail]({% link catalog/navigation-breadcrumb-trail.md %}) navigation.
+   - Enter the **Page Title**. The Page Title is the name that appears in the [breadcrumb trail]({% link catalog/navigation-breadcrumb-trail.md %}) navigation.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 1. To schedule design changes, expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Custom Design Update**. Then, do the following:
 
-    - Use the calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}) to choose the **From** and **To** dates when the design change is to be in effect.
+   - Use the calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}) to choose the **From** and **To** dates when the design change is to be in effect.
 
-    - If applicable, set **New Theme** to a different theme that is to be used for the page.
+   - If applicable, set **New Theme** to a different theme that is to be used for the page.
 
-    - To change the [Page Layout]({% link design/page-layout.md %}), set **New Layout** to one of the following:
+   - To change the [Page Layout]({% link design/page-layout.md %}), set **New Layout** to one of the following:
 
-      - `Empty`
-      - `1 column`
-      - `2 columns with left bar`
-      - `2 columns with right bar`
-      - `3 columns`
+     - `Empty`
+     - `1 column`
+     - `2 columns with left bar`
+     - `2 columns with right bar`
+     - `3 columns`
 
     ![]({% link images/images/page-custom-design-update.png %}){: .zoom}
     _Custom Design Update
@@ -85,13 +85,13 @@ _Pages_
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Search Engine Optimization**. Then, do the following:
 
-    - When the page was saved, a default URL key was created that is based on the Content Heading. You can accept the default or enter another **URL Key** that consists of all lowercase characters, with hyphens instead of spaces.
+   - When the page was saved, a default URL key was created that is based on the Content Heading. You can accept the default or enter another **URL Key** that consists of all lowercase characters, with hyphens instead of spaces.
 
-    - Enter a **Meta Title** for the page. The Meta Title should be less than seventy characters in length and appears in the browser title bar and tab.
+   - Enter a **Meta Title** for the page. The Meta Title should be less than seventy characters in length and appears in the browser title bar and tab.
 
-    - Enter your choice of high-value **Meta Keywords** that search engines can use to index the page. Separate multiple words with a comma. Meta keywords are ignored by some search engines, but used by others.
+   - Enter your choice of high-value **Meta Keywords** that search engines can use to index the page. Separate multiple words with a comma. Meta keywords are ignored by some search engines, but used by others.
 
-    - In the **Meta Description** field, enter a brief description of the page for search results listings. Ideally, the description should be from 150-160 characters in length, with a maximum limit of 255.
+   - In the **Meta Description** field, enter a brief description of the page for search results listings. Ideally, the description should be from 150-160 characters in length, with a maximum limit of 255.
 
     ![]({% link images/images/page-search-engine-optimization.png %}){: .zoom}
     _Search Engine Optimization_
