@@ -15,7 +15,7 @@ sections:
 
  - title: System Config
    content: The System Config tool uses the public and private keys from your Marketplace account to synchronize web setup operations.
-   url: /system/web-setup-extension-manager.html
+   url: /system/web-setup-system-configuration.html
 ---
 
 The Setup Wizard can be used to easily install and uninstall components, modules, and extensions, manage modules, upgrade your installation, and make changes to the Web setup of your installation.

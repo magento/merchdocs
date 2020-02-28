@@ -43,8 +43,8 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
     - `reCAPTCHA v3` — Verify requests with a score
     - `reCAPTCHA v2` — Verifies with a button click or image selections
 
-        - `"I am not a robot" Checkbox` Validate requests with the _"I'm not a robot"_ checkbox
-        - `Invisible reCAPTCHA badge` Validate requests in the background
+      - `"I am not a robot" Checkbox` Validate requests with the _"I'm not a robot"_ checkbox
+      - `Invisible reCAPTCHA badge` Validate requests in the background
 
 1. In the **Domains** text box, enter a list of domains without the HTTP or HTTPS prefix, one per line.
 
@@ -109,7 +109,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
     ![Google reCAPTCHA - frontend configuration]({% link images/images/config-2fa-google-recaptcha-frontend.png %}){: .zoom}
     [_Google reCAPTCHA Frontend_]({% link configuration/security/google-recaptcha.md %})
 
-   If needed, clear the **Use system value** checkbox to change the setting.
+    If needed, clear the **Use system value** checkbox to change the setting.
 
     - **Enable** — Set to `Yes`.
 
@@ -171,7 +171,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
     ![Google reCAPTCHA - frontend configuration]({% link images/images/config-2fa-google-recaptcha-v3-frontend.png %}){: .zoom}
     [_Google reCAPTCHA Frontend_]({% link configuration/security/google-recaptcha.md %})
 
-   If needed, clear the **Use system value** checkbox to change the setting.
+    If needed, clear the **Use system value** checkbox to change the setting.
 
     - **Enable** — Set to `Yes`.
 
