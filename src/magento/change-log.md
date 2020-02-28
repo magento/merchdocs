@@ -4,6 +4,21 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what’s new.
 
+## February 2020
+
+### New Topics
+
+- [Magento Marketplace]({% link magento/magento-marketplace.md %})
+- [Set Up Your Marketplace Credentials]({% link magento/magento-marketplace-credentials.md %})
+- [Synchronize Your Store]({% link magento/magento-marketplace-synchronize-store.md %})
+- [Intall an Extension]({% link magento/magento-marketplace-install-extension.md %})
+
+### Updated Topics
+
+|Topic |Change|
+|--- |--- |
+|[System Config]({% link system/web-setup-system-configuration.md %})<br />[Extension Manager]({% link system/web-setup-extension-manager.md %})|Added note for Adobe Commerce Cloud users with links to new [Magento Marketplace]({% link magento/magento-marketplace.md %}) section in Getting Started.|
+
 ## January 2020
 
 <!--{% if "Default.B2B Only" contains site.edition %}-->

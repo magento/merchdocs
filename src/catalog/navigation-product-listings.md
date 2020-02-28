@@ -44,9 +44,9 @@ _Products Displayed as a Grid_
 
 1. If using a [flat catalog]({% link catalog/catalog-flat.md %}) (**not recommended**), do the following:
 
-   - To display a flat category listing of products, set **Use Flat Catalog Category** to `Yes`.
+    - To display a flat category listing of products, set **Use Flat Catalog Category** to `Yes`.
 
-   - To display a flat product listing, set **Use Flat Catalog Product** to `Yes`.
+    - To display a flat product listing, set **Use Flat Catalog Product** to `Yes`.
 
 1. If you want to allow dynamic references for media assets in category and product URLs, set **Allow Dynamic Media URLs in Products and Categories** to `Yes`.
 

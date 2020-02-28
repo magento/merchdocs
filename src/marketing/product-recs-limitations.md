@@ -6,8 +6,6 @@ conditions: Default.EE Only
 
 As we continue to evolve this technology and ensure you are successful in implementing product recommendations, it is critical that we are clear about any limitations to this technology. The following lists features that are not supported at this time:
 
-1. Currency conversion - If multiple store views have localized currencies, the recommendations displayed on storefronts will be in base currency. How you have your currency configured in your catalog will be how your currency will appear in your recommendation unit. A workaround is to only show products without pricing.
-
 1. Customer grouped pricing - Product recommendations do not support customer grouped pricing. Recommendations do support regular and special pricing. See [advanced pricing]({% link catalog/pricing-advanced.md %}) for more information.
 
 1. Bundled and grouped products - Product recommendations do not support bundled and group products. These products will not be shown in a recommendation unit.

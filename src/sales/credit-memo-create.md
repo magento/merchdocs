@@ -36,9 +36,9 @@ _Create Credit Memo_
     {:.bs-callout-info}
     If an online payment method was used, you cannot edit these fields.
 
-   - If the product is to be returned to inventory, mark the **Return to Stock** checkbox. With Magento Inventory Management enabled, the inventory quantity returns to the source that sent the shipment.
+    - If the product is to be returned to inventory, mark the **Return to Stock** checkbox. With Magento Inventory Management enabled, the inventory quantity returns to the source that sent the shipment.
 
-   - If the product will not be returned to inventory, leave the checkbox blank.
+    - If the product will not be returned to inventory, leave the checkbox blank.
 
        The Return to Stock checkbox appears only if inventory Stock Options are set to `Decrease Stock When Order Is Placed`.
 
@@ -56,25 +56,25 @@ _Create Credit Memo_
 
 1. Update the **Refunds Totals** section as applicable:
 
-   - In the **Refund Shipping** field, enter any amount that is to be refunded from the shipping fee.
+    - In the **Refund Shipping** field, enter any amount that is to be refunded from the shipping fee.
 
         This field initially displays the total shipping amount from the order that is available for refund. It is equal to the full shipping amount from the order, less any shipping amount that has already been refunded. Like the quantity, the amount can be reduced, but not increased.
 
-   - In the **Adjustment Refund** field, enter a value to be added to the total amount refunded as an additional refund that does not apply to any particular part of the order (shipping, items, or tax).
+    - In the **Adjustment Refund** field, enter a value to be added to the total amount refunded as an additional refund that does not apply to any particular part of the order (shipping, items, or tax).
 
         The amount entered cannot raise the total refund higher than the paid amount.
 
-   - In the **Adjustment Fee** field, enter a value to be subtracted from the total amount refunded.
+    - In the **Adjustment Fee** field, enter a value to be subtracted from the total amount refunded.
 
         This amount is not subtracted from a specific section of the order such as shipping, items, or tax.
 
-   - If the purchase was paid with store credit, mark the **Refund to Store Credit** checkbox to credit the amount to the customer account balance.
+    - If the purchase was paid with store credit, mark the **Refund to Store Credit** checkbox to credit the amount to the customer account balance.
 
-   - To add a comment, enter the text in the **Credit Memo Comments** box.
+    - To add a comment, enter the text in the **Credit Memo Comments** box.
 
-   - To send an email notification to the customer, mark the **Email Copy of Credit Memo** checkbox.
+    - To send an email notification to the customer, mark the **Email Copy of Credit Memo** checkbox.
 
-   - To include the comments you have entered in the email, mark the **Append Comments** checkbox.
+    - To include the comments you have entered in the email, mark the **Append Comments** checkbox.
 
         The status of a credit memo notification appears in the completed credit memo next to the credit memo number.
 
@@ -91,21 +91,21 @@ _Create Credit Memo_
 
 1. To complete the process and generate the credit memo, choose one of the following refund option buttons, according to the payment type:
 
-   - Refund Offline
+    - Refund Offline
 
-   - Refund Online
+    - Refund Online
 
     <!--{% if "Default.B2B Only" contains site.edition %}-->
-   - Refund to Company Credit
+    - Refund to Company Credit
 
     <!--{% endif %}-->
 1. To add a comment to the completed credit memo, scroll down to the Comments History section and enter the comment in the box.
 
    A history of all activity related to the order is listed.
 
-   - To send the comment to the customer by email, mark the **Notify Customer by Email** checkbox.
+    - To send the comment to the customer by email, mark the **Notify Customer by Email** checkbox.
 
-   - To post the comment in the customer’s account, mark the **Visible on Frontend** checkbox.
+    - To post the comment in the customer’s account, mark the **Visible on Frontend** checkbox.
 
 1. Click **Submit Comment**.
 

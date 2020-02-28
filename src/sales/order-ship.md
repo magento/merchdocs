@@ -48,8 +48,8 @@ An order that has been paid, but is awaiting shipment has the `Processing` statu
 
 1. If you want to add a comment to the order, scroll down to the Comments History section, and enter the comment in the box.
 
-   - To send the comment to the customer by email, select the **Notify Customer by Email** checkbox.
+    - To send the comment to the customer by email, select the **Notify Customer by Email** checkbox.
 
-   - To post the comment in the customer’s account, select the **Visible on Frontend** checkbox.
+    - To post the comment in the customer’s account, select the **Visible on Frontend** checkbox.
 
 1. Click <span class="btn">Submit Comment</span>.
