@@ -45,7 +45,7 @@ When an order is received from Amazon, the extension is set to Create Magento Or
     {:.bs-callout .bs-callout-info}
     Once an order is imported, the Amazon Order Number and the Magento Order Number display in the [Orders tab]({% link sales-channels/asc/managing-orders.md %}).
 
-1. For **Pending Orders** (required), choose an option in the drop-down. Options:
+1. For **Pending Orders** (required), choose an option:
 
     - **Do Not Reserve Quantity**: Choose when you do not want your Magento stock quantity affected by your Amazon orders. Choose when you use Amazon for your fulfillment process (FBA). When this option is selected and you receive an Amazon order, the quantity ordered will not affect your Magento stock quantity.
 
