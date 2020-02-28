@@ -1,5 +1,6 @@
 ---
 title: 'Intelligent Repricing Rule: Competitor Conditional Variances'
+tag: asc-old
 ---
 
 

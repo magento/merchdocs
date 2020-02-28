@@ -1,5 +1,6 @@
 ---
 title: Managing Amazon Pricing
+tag: asc-old
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 title: Amazon Sales Channel
+tag: asc-old
 sections:
    - title: Getting Started with Amazon Sales Channel
      content: Learn more about Amazon and Amazon Sales Channel basics, key features, best practices, and more.

@@ -1,5 +1,6 @@
 ---
 title: Pricing Rule General Settings
+tag: asc-old
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 title: Creating an Alias Amazon Seller SKU
+tag: asc-old
 ---
 
 
