@@ -87,18 +87,20 @@ pages:
           url: "/sales-channels/asc/about-listings-and-catalog.html"
         - label: Best Practices and Limitations
           url: "/sales-channels/asc/amazon-best-practices.html"
-      - label: Onboarding Amazon Sales Channel
+      - label: Onboard Amazon Sales Channel
         url: "/sales-channels/asc/amazon-onboarding-home.html"
         children:
         - label: Pre-Setup Tasks
           url: "/sales-channels/asc/amazon-pre-setup-tasks.html"
           children:
-          - label: Creating Attributes for Amazon
+          - label: Create Magento Attributes for Amazon
             url: "/sales-channels/asc/ob-creating-magento-attributes.html"
         - label: Verify the Amazon API Key
           url: "/sales-channels/asc/amazon-verify-api-key.html"
         - label: Store Integration
           url: "/sales-channels/asc/store-integration.html"
+        - label: Create Listing Rule
+          url: "/sales-channels/asc/ob-create-listing-rule.html"
       - label: Store Settings
         url: "/sales-channels/asc/ob-store-review.html" 
         children:

@@ -10,7 +10,7 @@ The Third Party Listings section defines if your Magento catalog will import pro
 
 When set to `Import listing`, Amazon Sales Channel imports your Amazon listings into your Magento catalog, attempting to match them to existing products. If a match is not automatically found, you can import the Amazon listing as a new Magento product or manually match the listing to a product.
 
-If you choose to import listings, select the Magento attributes with values for Amazon Seller SKU and Amazon ASIN. If you do not have Magento [product attributes]({% link sales-channels/asc/ob-creating-magento-attributes.md %}), consider creating and assigning them. Mapping these attributes helps correctly match imported Amazon listings to your Magento products.
+If you choose to import listings, choose the Magento attributes with values for Amazon Seller SKU and Amazon ASIN. If you do not have Magento [product attributes]({% link sales-channels/asc/ob-creating-magento-attributes.md %}), consider creating and assigning them. Mapping these attributes helps correctly match imported Amazon listings to your Magento products.
 
 The initial listing import initiates when completing your store's setup during onboarding. After setup is complete and based on your cron settings, Magento continually checks for newly added Amazon listings (not created in Amazon Sales Channel) and updates your catalog according to these settings.
 
@@ -18,7 +18,7 @@ The initial listing import initiates when completing your store's setup during o
 
 1. Expand the **Third Party Listings** section.
 
-1. For **Import Third Party Listings** (required), select an option in the drop down:
+1. For **Import Third Party Listings** (required), choose an option in the drop down:
 
     - **Import Listing**: Choose when you want products and information from your Amazon listings to import into your Magento catalog of products. This is the recommended and the default setting.
 
@@ -27,9 +27,9 @@ The initial listing import initiates when completing your store's setup during o
     {:.bs-callout .bs-callout-info}
     The following options fields are only active when you select `Import Listing`.
 
-1. For **Attribute That Contains Amazon Seller SKU**, select the Magento attribute that matches to the Amazon Seller SKU value.
+1. For **Attribute That Contains Amazon Seller SKU**, choose the Magento attribute that matches to the Amazon Seller SKU value.
 
-1. For **Attribute That Contains Amazon ASIN**, select the Magento attribute that you created and match it to the Amazon ASIN.
+1. For **Attribute That Contains Amazon ASIN**, choose the Magento attribute that you created and match it to the Amazon ASIN.
 
     {:.bs-callout .bs-callout-info}
     If you did not create these Magento attributes for your Amazon listings, see [Creating Attributes for Amazon Matching]({% link sales-channels/asc/ob-creating-magento-attributes.md %}) for information.

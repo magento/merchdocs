@@ -21,7 +21,7 @@ If an order is in `Unshipped` status, the **Cancel Order** option will display i
 
 1. Click **Cancel Order** in the header bar. If the order is not in `Unshipped` status, "Cancel Order" will not display.
 
-1. For **Reason For Cancellation**, select an option.
+1. For **Reason For Cancellation**, choose an option.
 
 1. Click **Cancel Order** in the header bar. The order is canceled, and the Status column for the order on the Order tab is updated to `Canceled`.
 

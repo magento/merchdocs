@@ -80,7 +80,7 @@ You can click **Reset** to set the options back to default settings, or you can 
 
 The Export option allows you to export the displayed data to a data file than can be imported to a third-party software or separate database. Data exported is limited to the data displayed. You'll want to make sure you add or remove columns if needed prior to using the Export control.
 
-When ready to export your data, select an export format option and click **Export**.
+When ready to export your data, choose an export format option and click **Export**.
 
 - CSV - a comma-separated value file containing plain text data
 - Excel XML - an XML-based, spreadsheet data format (typically used for Excel users)

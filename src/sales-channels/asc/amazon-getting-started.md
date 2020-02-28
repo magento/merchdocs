@@ -10,7 +10,7 @@ sections:
      url: /sales-channels/amazon/about-amazon-marketplace.html
 
    - title: About Amazon and your Magento Catalog
-     content: Amazon Sales Channel can import your Amazon listings and continually sync with your Magento catalog. Once your Magento catalog is synced, you have a single, central catalog of products that can be listed to both your Amazon and Magento stores.
+     content: Amazon Sales Channel can import your Amazon listings and continually sync with your Magento catalog. After your Magento catalog is synced, you have a single, central catalog of products that can be listed to both your Magento stores and to your Amazon Central Seller account.
      url: /sales-channels/amazon/about-listings-and-catalog.html
 
    - title: Amazon Sales Channel Best Practices and Limitations

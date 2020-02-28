@@ -12,15 +12,15 @@ Sections of a standard price rule action include:
 
 ## To complete the Price Rule Actions section for a Standard Price Rule:
 
-1. For **Rule Type**, select `Standard price rule` in the drop-down.
+1. For **Rule Type**, choose `Standard price rule`.
 
-1. For **Price Action**, select an option in the drop-down.
+1. For **Price Action**, choose an option.
 
     - **Decrease By**: Choose when you want the defined price source value to be decreased before listing to Amazon.
 
     - **Increase By**: Choose when you want the defined price source value to be increased before listing to Amazon.
 
-1. For **Apply**, select an option:
+1. For **Apply**, choose an option:
 
     - **Apply as percentage**: Choose when you want the defined price source value adjusted by a percentage.
 

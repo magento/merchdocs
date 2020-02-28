@@ -22,22 +22,22 @@ The options listed in Magento Price Source, Minimum Advertised Price (Map), and 
 
 1. Click **Listing Price** to expand the section.
 
-1. For **Magento Price Source** (required), select a pricing attribute. The default is `Price`.
+1. For **Magento Price Source** (required), choose a pricing attribute. The default is `Price`.
 
    The option selected in this field determines the price source used for your Amazon listings. If you create pricing rules, the rules are applied to the value defined for the attribute selected here. You may select any configured pricing attribute, however, if the selected attribute is not filled in for a product, the price source for the product will default back to `Price` when pricing rules are applied to determine the published Amazon listing price.
 
-1. For **Minimum Advertised Price (MAP)**, select a pricing attribute. The default is no selection.
+1. For **Minimum Advertised Price (MAP)**, choose a pricing attribute. The default is no selection.
 
-   This field enables a minimum advertised price (MAP) for a product. When you define a pricing attribute and your listing price for a product falls below your determined minimum price (based on your pricing source and rules), this value becomes the MAP for the listing. This allows you to implement pricing rules while still controlling your minimum price for a product. To prevent a listing price from being too low, select a pricing attribute to use as your MAP. However, if the selected pricing field is not defined for a product, the MAP will not be used.
+   This field enables a minimum advertised price (MAP) for a product. When you define a pricing attribute and your listing price for a product falls below your determined minimum price (based on your pricing source and rules), this value becomes the MAP for the listing. This allows you to implement pricing rules while still controlling your minimum price for a product. To prevent a listing price from being too low, choose a pricing attribute to use as your MAP. However, if the selected pricing field is not defined for a product, the MAP will not be used.
 
-1. For **Strike Through Price (MSRP)**, select a pricing attribute. The default is no selection.
+1. For **Strike Through Price (MSRP)**, choose a pricing attribute. The default is no selection.
 
    This field determines which pricing attribute is used as the manufacturer's suggested retail price (MSRP) for a product. If your listing price is less than the defined MSRP, your Amazon listing will display a strike-through of the MSRP price and display the lower listing price, along with the calculated “You Save” amount and percentage. However, if the selected pricing field is not defined for a product, the MSRP feature will not be calculated.
 
    {:.bs-callout .bs-callout-info}
    This will only apply to listings that have won the [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) position. The Buy Box is awarded by Amazon to the seller who has the product listed usually at the best price, along with other factors such as FBA/Prime shipping offered, availability, and the seller’s performance.
 
-1. For **Apply Value Added Tax (VAT)**, select an option:
+1. For **Apply Value Added Tax (VAT)**, choose an option:
 
    - **Disabled**: (Default) Choose when you do not want to apply VAT to your listing price.
 
@@ -50,7 +50,7 @@ The options listed in Magento Price Source, Minimum Advertised Price (Map), and 
 
    The value entered in this field will be used to calculate the VAT amount to be added to the listing price. If 10.2 is entered, a 10.20% VAT will be applied to your listing price. This field is disabled when the Apply Value Added Tax (VAT) field is set to `Disabled`.
 
-1. **(UK Only)** For **Amazon Product Tax Code (PTC)**, select an option:
+1. **(UK Only)** For **Amazon Product Tax Code (PTC)**, choose an option:
 
    - **Do Not Manage PTC**: (Default) Select this option if you are using a 3rd-party tax calculation service or already have all your tax calculations set up in your Amazon Seller Central account. When set to this option, Amazon Sales Channel sends no product tax code information to your Amazon Seller Central account.
 
@@ -61,7 +61,7 @@ The options listed in Magento Price Source, Minimum Advertised Price (Map), and 
    {:.bs-callout .bs-callout-info}
    If you use Amazon's VAT Calculation Service, you must know the tax category for your products. A PTC is Amazon's tax category ID code for B2B purchases in the EU. See [Amazon's Product Tax Codes](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&language=en_US).
 
-1. For **Currency Conversion**, select an option. The default is `Disabled`.
+1. For **Currency Conversion**, choose an option. The default is `Disabled`.
 
    The options in this drop-down are dependent on your [Magento currency]({% link configuration/general/currency-setup.md %}) settings. If no options are available, you may need to set up your currency settings.
 

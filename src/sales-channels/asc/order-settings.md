@@ -28,15 +28,15 @@ When an order is received from Amazon, the extension is set to Create Magento Or
     {:.bs-callout .bs-callout-info}
     Must be set to `Enabled` to manage Amazon orders in Amazon Sales Channel. When set to `Disabled`, your Amazon orders will display in the Orders tab but will not have a corresponding Magento order number and cannot be managed in Amazon Sales Channel. Information for these orders is for review only. You must manage these orders in your Amazon Seller Central account.
 
-1. For **Import Amazon Orders Into Magento Store** (required), select which Magento Store the Amazon orders will be associated with when they are created in the Magento Order grid. The list of options in this drop-down is dependent on the Magento stores you have set up in your configuration. See [Stores]({% link stores/stores-all-stores.md %}).
+1. For **Import Amazon Orders Into Magento Store** (required), choose which Magento Store the Amazon orders will be associated with when they are created in the Magento Order grid. The list of options in this drop-down is dependent on the Magento stores you have set up in your configuration. See [Stores]({% link stores/stores-all-stores.md %}).
 
-1. For **Customer Creation**, select an option in the drop-down. Options:
+1. For **Customer Creation**, choose an option:
 
     - **No Customer Creation (guest)**: Choose when you do not want to create a customer account in Magento using the imported customer data from the Amazon order. When selected, this option tells Magento to process an imported Amazon order the same way it processes a guest checkout in Magento.
 
     - **Build New Customer Account**: Choose when you want to create a New Customer Account in Magento using the customer data imported with the Amazon order. This builds your customer database from your Amazon orders.
 
-1. For **Order Number Source**, select an option in the drop-down. Options:
+1. For **Order Number Source**, choose an option:
 
     - **Build Using Magento Order Number**: Choose when you want to create a unique Magento order number for the corresponding Amazon order using the Magento incrementally-assigned order ID.
 
@@ -45,7 +45,7 @@ When an order is received from Amazon, the extension is set to Create Magento Or
     {:.bs-callout .bs-callout-info}
     Once an order is imported, the Amazon Order Number and the Magento Order Number display in the [Orders tab]({% link sales-channels/asc/managing-orders.md %}).
 
-1. For **Pending Orders** (required), select an option in the drop-down. Options:
+1. For **Pending Orders** (required), choose an option:
 
     - **Do Not Reserve Quantity**: Choose when you do not want your Magento stock quantity affected by your Amazon orders. Choose when you use Amazon for your fulfillment process (FBA). When this option is selected and you receive an Amazon order, the quantity ordered will not affect your Magento stock quantity.
 
@@ -54,7 +54,7 @@ When an order is received from Amazon, the extension is set to Create Magento Or
     {:.bs-callout .bs-callout-info}
     Remember, Amazon orders do not import into and create new orders in Magento until Amazon verifies the order and payment method and changes the order status to `Unshipped`.
 
-1. For **Order Status** (required), select an option from the drop-down. Options:
+1. For **Order Status** (required), choose an option:
 
     - **Default Order Status**: Choose when you want newly created orders imported from Amazon to be assigned your defined default order status for new orders. The default status for new orders (unless you have created a custom order status for new orders) is `Pending`. See [Processing Orders]({% link sales/order-processing.md %}).
 

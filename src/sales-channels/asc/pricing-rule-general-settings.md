@@ -17,7 +17,7 @@ Define the name, description, active dates, priority for a rule and sets the beh
 
    This could include information on the products that qualify, the active dates, the formula for calculating your adjusted price, or any other information you'd find useful if you ever needed to modify the rule.
 
-1. For **Status**, select an option:
+1. For **Status**, choose an option:
 
     - **Active**: Choose when you want the pricing rule to apply to your eligible products and adjust your listing pricing before publishing to Amazon.
 
@@ -27,7 +27,7 @@ Define the name, description, active dates, priority for a rule and sets the beh
 
 1. For **Priority**, enter a numerical value for the rule's priority. Priority value equal to 1 is the highest priority. When you have multiple active pricing rules, you can use priority to determine which rule is applied first. This field is required to use the Discard Subsequent Rules feature.
 
-1. For **Discard Subsequent Rules**, select an option.
+1. For **Discard Subsequent Rules**, choose an option.
 
     - **Yes**: Choose when you do not want any other pricing rules that may apply to a product to be applied. Discarding subsequent rules means that, in the event that multiple pricing rules apply to the same product, only the pricing rule with the highest defined priority will be applied to a qualifying product. This prevents multiple pricing rules from stacking and providing unintended additional discounts.
 

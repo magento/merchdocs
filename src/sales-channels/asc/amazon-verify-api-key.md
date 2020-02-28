@@ -54,7 +54,5 @@ The API key is validated each time you access your Amazon Sales Channel.
 
 ![]({% link images/images/btn-next.png %}){: .Inline} [**Continue to Store Integration**]({% link sales-channels/asc/store-integration.md %})
 
-See [Onboarding Amazon Sales Channel](https://docs.magento.com/m2/ce/user_guide/sales-channels/amazon/amazon-onboarding-home.html).
-
 [1]: https://account.magento.com/apiportal/index/index/
 [2]: https://account.magento.com/customer/account/login?_ga=2.148719543.106278199.1554930092-1646992284.1551820871

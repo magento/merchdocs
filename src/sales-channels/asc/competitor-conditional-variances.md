@@ -20,7 +20,7 @@ For example, if you have a product listed with the condition Used; Good, and the
 
 Define your condition variances in the **Competitor Conditional Variances** section.
 
-For **Conditional Variance**, select an option in the drop-down.
+For **Conditional Variance**, choose an option in the drop-down.
 
 - **Use all competitor's product conditions**: (Default selection) Choose when you want your product to compare against any available condition (if a match does not exist for the condition you are listing).
 
