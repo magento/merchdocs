@@ -33,7 +33,7 @@ _Ratings_
 
 1. For **Sort Order**, enter a number to determine the order of this rating when listed with others.
 
-1. If you want to show your rating on front end, tick the **Is Active** checkbox.
+1. If you want to show your rating on the storefront, select the **Is Active** checkbox.
 
     ![Rating visibility settings]({% link images/images/product-rating-visibility.png %}){: .zoom}
     _Rating Visibility_
