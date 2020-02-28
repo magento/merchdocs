@@ -38,11 +38,11 @@ _Pages_
 
    - To change the [Page Layout]({% link design/page-layout.md %}), set **New Layout** to one of the following:
 
-     - `Empty`
-     - `1 column`
-     - `2 columns with left bar`
-     - `2 columns with right bar`
-     - `3 columns`
+      - `Empty`
+      - `1 column`
+      - `2 columns with left bar`
+      - `2 columns with right bar`
+      - `3 columns`
 
     ![]({% link images/images/page-custom-design-update.png %}){: .zoom}
     _Custom Design Update

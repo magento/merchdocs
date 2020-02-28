@@ -166,12 +166,12 @@ _Appearance with Text and Button (or Link)_
 
    - **Product** - Set **Link** to `Product` and do one of the following:
 
-     - Begin typing the **product name** or **SKU**.
-     - Choose the product from the search results list.
-     - Click the **down arrow**, and choose the product from the list.
+      - Begin typing the **product name** or **SKU**.
+      - Choose the product from the search results list.
+      - Click the **down arrow**, and choose the product from the list.
 
-      ![]({% link images/images-ee/page-builder-media-banner-settings-link-product.png %}){: .zoom}
-      _Link to Product_
+       ![]({% link images/images-ee/page-builder-media-banner-settings-link-product.png %}){: .zoom}
+       _Link to Product_
 
    - **Category** - Set **Link** to `Category` and select the category.
 
@@ -182,11 +182,11 @@ _Appearance with Text and Button (or Link)_
 
    - **Page** - Set **Link** to `Page` and do one of the following:
 
-     - Begin typing the page name. Then in the list, click the name of the page.
-     - Click the **down arrow**, and choose the page from the list.
+      - Begin typing the page name. Then in the list, click the name of the page.
+      - Click the **down arrow**, and choose the page from the list.
 
-      ![]({% link images/images-ee/page-builder-media-banner-settings-link-page.png %}){: .zoom}
-      _Link to Page_
+       ![]({% link images/images-ee/page-builder-media-banner-settings-link-page.png %}){: .zoom}
+       _Link to Page_
 
       If the link points to a URL that is outside of your store, and you want to prevent the visitor from navigating away from your store, select the **Open in new tab** checkbox.
 
@@ -212,14 +212,14 @@ _Appearance with Text and Button (or Link)_
 
    - Set **Show Overlay** to one of the following:
 
-     - `Always`
-     - `On Hover`
-     - `Never Show`
+      - `Always`
+      - `On Hover`
+      - `Never Show`
 
    - In the **Overlay Color** field, do one of the following:
 
-     - Click the **No Color** swatch, and choose a swatch.
-     - In the **No Color** field, either enter a valid color name or hexadecimal value.
+      - Click the **No Color** swatch, and choose a swatch.
+      - In the **No Color** field, either enter a valid color name or hexadecimal value.
 
    - Then, click <span class="btn">Apply</span>.
 
@@ -335,9 +335,9 @@ If you want a title above the slider, simply add a Text content type above the s
 
    - To choose the type of navigation controls for the slider, do the following:
 
-     - To include _Next_ and _Previous_ arrows on the left and right side of each slide, set **Show Arrows** to `Yes`.
+      - To include _Next_ and _Previous_ arrows on the left and right side of each slide, set **Show Arrows** to `Yes`.
 
-     - To include a set of navigation dots below the slider, set **Show Dots** to `Yes`.
+      - To include a set of navigation dots below the slider, set **Show Dots** to `Yes`.
 
         ![]({% link images/images-ee/page-builder-media-slider-settings-show-arrows-dots.png %}){: .zoom}
         _Show Arrows and Dots_
