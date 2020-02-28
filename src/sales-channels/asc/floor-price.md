@@ -21,7 +21,7 @@ Floor price is only used with [intelligent repricing rules]({% link sales-channe
 
 Define your lowest price setting in the **Floor Price** section.
 
-1. For **Floor Price Source**, choose an attribute from the drop-down.
+1. For **Floor Price Source**, choose an attribute.
 
    Select your Magento attribute that will indicate your relative floor limit. For example, if you don’t want your product listing price to go below the Cost of your item, you would choose the Cost attribute.
 
