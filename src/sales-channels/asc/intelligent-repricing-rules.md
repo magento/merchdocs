@@ -27,7 +27,7 @@ Define the Rule Type in the **Select Price Rule Type** section.
 
     - **Use Lowest Competitor Price**: Choose when you want to compare and adjust your listing price to competitor pricing for the same product. When this option is selected, the **Minimum Positive Feedback** and **Minimum Feedback Count** fields enable.
 
-1. If enabled, choose an option for **Minimum Positive Feedback** .
+1. If enabled, choose an option for **Minimum Positive Feedback**.
 
     - **All Competitor's Prices**: Choose when you want to compare and adjust your pricing based on all competitor prices for the same product.
 
