@@ -30,7 +30,7 @@ When an order is received from Amazon, the extension is set to Create Magento Or
 
 1. For **Import Amazon Orders Into Magento Store** (required), choose which Magento Store the Amazon orders will be associated with when they are created in the Magento Order grid. The list of options in this drop-down is dependent on the Magento stores you have set up in your configuration. See [Stores]({% link stores/stores-all-stores.md %}).
 
-1. For **Customer Creation**, choose an option in the drop-down. Options:
+1. For **Customer Creation**, choose an option:
 
     - **No Customer Creation (guest)**: Choose when you do not want to create a customer account in Magento using the imported customer data from the Amazon order. When selected, this option tells Magento to process an imported Amazon order the same way it processes a guest checkout in Magento.
 
