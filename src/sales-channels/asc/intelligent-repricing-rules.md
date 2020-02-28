@@ -21,7 +21,7 @@ Define the Rule Type in the **Select Price Rule Type** section.
 
 1. For **Rule Type**, choose `Intelligent repricing rule` in the drop-down.
 
-1. For **Competitor Price Source**, choose an option in the drop-down.
+1. For **Competitor Price Source**, choose an option.
 
     - **Use "Buy Box" Price**: Choose when you want to adjust your Amazon pricing based on the Amazon Buy Box seller price. A [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) price exists when multiple sellers on Amazon offer the same product. Amazon defines the Buy Box seller based on performance requirements. Merchants seek to win the Buy Box seller status and offers maximum visibility of your product listings.
 
