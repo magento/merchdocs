@@ -14,7 +14,7 @@ Listing rules are initially defined during onboarding, but can be modified at an
 
     The Listing Rules page appears.
 
-1. Define your desired conditions for the eligibility of products to be listed on Amazon and click <span class="btn">Preview changes</span>. You can also click <span class="btn">Preview changes</span> to skip this step.
+1. Define your desired conditions for the eligibility of products to be listed on Amazon and click <span class="btn">Preview changes</span>, or click <span class="btn">Preview changes</span> to skip this step.
 
     See [Example: Define a Condition]({% link sales-channels/asc/ob-define-condition-example.md %}).
 
