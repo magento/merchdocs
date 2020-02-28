@@ -36,7 +36,7 @@ When an order is received from Amazon, the extension is set to Create Magento Or
 
     - **Build New Customer Account**: Choose when you want to create a New Customer Account in Magento using the customer data imported with the Amazon order. This builds your customer database from your Amazon orders.
 
-1. For **Order Number Source**, choose an option in the drop-down. Options:
+1. For **Order Number Source**, choose an option:
 
     - **Build Using Magento Order Number**: Choose when you want to create a unique Magento order number for the corresponding Amazon order using the Magento incrementally-assigned order ID.
 
