@@ -54,7 +54,7 @@ When an order is received from Amazon, the extension is set to Create Magento Or
     {:.bs-callout .bs-callout-info}
     Remember, Amazon orders do not import into and create new orders in Magento until Amazon verifies the order and payment method and changes the order status to `Unshipped`.
 
-1. For **Order Status** (required), choose an option from the drop-down. Options:
+1. For **Order Status** (required), choose an option:
 
     - **Default Order Status**: Choose when you want newly created orders imported from Amazon to be assigned your defined default order status for new orders. The default status for new orders (unless you have created a custom order status for new orders) is `Pending`. See [Processing Orders]({% link sales/order-processing.md %}).
 
