@@ -18,13 +18,13 @@ For your products to be listed on the Amazon Business (B2B) site, you must first
 
 1. Expand the **(B2B) Business Price** section.
 
-1. For **Enable Business Pricing**, select an option (default is `Disabled`).
+1. For **Enable Business Pricing**, choose an option (default is `Disabled`).
 
     - **Disabled**: Choose when you do not want to enable business-to-business sales. All other fields in this section are disabled when this option is selected.
 
     - **Enabled**: Choose when you want to enable your business-to-business sales. When enabled, the business price is set equal to the list price after all pricing rules have been applied. The business price follows the website pricing scope, if enabled. A business price can not be less than $1.
 
-1. For **Enable Tiered Pricing**, select an option (default is `Disabled`).
+1. For **Enable Tiered Pricing**, choose an option (default is `Disabled`).
 
     - **Disabled**: Choose when you want the same listing price for all order quantities. All Pricing Level fields in this section are disabled when this option is selected.
 

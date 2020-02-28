@@ -3,13 +3,13 @@ title: Pre-Setup Tasks
 ---
 
 
-Before [Store Integration]({% link sales-channels/asc/store-integration.md %}), you must ensure that your Amazon Seller Central account and your Magento account are ready for the integration. To achieve a successful integration, we have outlined some required pre-setup tasks.
+Before [Store Integration]({% link sales-channels/asc/store-integration.md %}), you must ensure that your Amazon Seller Central account and your Magento account are ready for the integration. To successfully integrate, we have outlined some required pre-setup tasks.
 
-Every time you set up a new Amazon store, a list of setup tasks is displayed. We recommend that you review these tasks before you [add an Amazon store]({% link sales-channels/asc/store-integration.md %}). You can review these tasks in the Learning and Preparation view of the [Amazon Sales Channel home page]({% link sales-channels/asc/amazon-sales-channel-home.md %}).
+When you set up your first Amazon store in Amazon Sales Channel, a list of setup tasks appears. We recommend that you review these tasks before you [add an Amazon store]({% link sales-channels/asc/store-integration.md %}). After adding your first store, you can review these tasks in the Learning and Preparation view of the [Amazon Sales Channel home page]({% link sales-channels/asc/amazon-sales-channel-home.md %}).
 
 ## 1. Enable background tasks in Magento
 
-All products and data synced between Magento and Amazon is managed by cron. When you complete tasks such as add or update listings and receive orders, a cron job sends and receives data between your Magento backend and your Amazon Seller Central account.
+All products and data synced between Magento and Amazon is managed by a [cron job]({% link system/cron.md %}). When you complete tasks such as add or update listings and receive orders, a cron job sends and receives data between your Magento backend and your Amazon Seller Central account.
 
 - [Enable Magento cron]({% link system/cron.md %}).
 
@@ -40,7 +40,7 @@ It is also important to ensure that you have configured the following in your Am
 
 During onboarding, Amazon Sales Channel uses product attributes to match your existing Amazon listings (if applicable) to existing products in your Magento catalog. After onboarding, these product attributes are used to publish your Magento catalog items to an Amazon listing and to sync your product data between Magento and Amazon.
 
-To have the highest number of Magento products automatically match with Amazon listings, we recommend creating a set of product attributes for your Magento catalog. Before you set up your Amazon Sales Channel store, we recommend adding Magento product attributes to match these Amazon attributes, for example: ASIN, EAN, ISBN, UPC, or GCID. See [Onboarding: Create a product attribute in Magento]({% link sales-channels/asc/ob-creating-magento-attributes.md %}).
+To have the highest number of Magento products automatically match with Amazon listings, we recommend creating a set of product attributes for your Magento catalog. Before you set up your Amazon Sales Channel store, we recommend adding Magento product attributes to match these Amazon attributes, for example: ASIN, EAN, ISBN, UPC, or GCID. See [Create a product attribute in Magento]({% link sales-channels/asc/ob-creating-magento-attributes.md %}).
 
 ## 6. Configure your currency and conversion (as needed)
 
@@ -66,7 +66,7 @@ You may not want some products to be listed on Amazon. Amazon Sales Channel has 
 
 To help facilitate error-free data transition during integration, we highly recommend setting your Amazon region to `Inactive` status in Settings > Account Info > Vacation Settings. Refer to [Amazon: Listing Status for Vacations][11]{:target="_blank"}. Once your setup is complete, change the status back to `Active` in Amazon.
 
-![]({% link images/images/btn-next.png %}){: .Inline} [**Continue to Verify API Key**]({% link sales-channels/asc/amazon-verify-api-key.md %})
+![]({% link images/images/btn-next.png %}){: .Inline} [**Continue to Creating Magento Attributes**]({% link sales-channels/asc/ob-creating-magento-attributes.md %})
 
 [1]: https://services.amazon.com/content/sell-on-amazon.html
 [2]: https://services.amazon.com/content/sell-on-amazon.htm/

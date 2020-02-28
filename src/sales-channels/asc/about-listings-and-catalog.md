@@ -20,22 +20,22 @@ An Amazon listing is a product page for every product you sell through the Amazo
 
 When you have created a listing Magento products, they are submitted to Amazon for approval. Most successful listings are approved within a few hours. If your listing is approved, it will display in the Amazon Marketplace for immediate orders by customers. The Amazon Sales Channel provides a set of tabs to review Amazon listings. Depending on the issue or required data, you may need to review your Amazon Seller Central account for specific details on these listings.
 
-- **Active**: Lists approved product listings available through the marketplace.
+- [Active]({% link sales-channels/asc/active-listings.md %}): Lists approved product listings available through the marketplace.
 
-- **Ready to List**: Lists products meeting listing rules requirements and ready to publish to Amazon.
+- [Ready to List]({% link sales-channels/asc/ready-to-list.md %}): Lists products meeting listing rules requirements and ready to publish to Amazon.
 
-- **Inactive**: Lists products not available on the marketplace due to being blocked for a specific reason (such as branding issue), closed and requiring relisting, etc.
+- [Inactive]({% link sales-channels/asc/inactive-listings.md %}): Lists products not available on the marketplace due to being blocked for a specific reason (such as branding issue), closed and requiring relisting, etc.
 
-- **Ineligible**: Due to the listing rules, lists product that cannot be actively listed on the marketplace (such as 0 quantity, sell dates, etc).
+- [Ineligible]({% link sales-channels/asc/ineligible-listings.md %}): Due to the listing rules, lists product that cannot be actively listed on the marketplace (such as `0` quantity, sell dates, etc).
 
-- **Incomplete**: Lists products missing required information. Update the product data for another review.
+- [Incomplete]({% link sales-channels/asc/incomplete-listings.md %}): Lists products missing required information. Update the product data for another review.
 
-- **Ended**: Lists product listings eligible for listing but manually removed from Amazon. You can relist these products.
+- [Ended]({% link sales-channels/asc/ended-listings.md %}): Lists product listings eligible for listing but manually removed from Amazon. You can relist these products.
 
 ## Syncing Data
 
-Magento communicates product and order data between your Amazon Seller Central account and the Magento backend. The constant updates provide a single source through Magento to manage and maintain your inventories, fulfilling orders, tracking sales, and reducing overhead and duplication of work. Reporting captures the latest data for tracking trends and resolving communication issues caught between the two systems.
+Magento communicates product and order data between your Amazon Seller Central account and the Magento backend. The continual updates provide a single source through Magento to manage and maintain your inventories, fulfilling orders, tracking sales, and reducing overhead and duplication of work. Reporting captures the latest data for tracking trends and resolving communication issues caught between the two systems.
 
-All syncing is managed by a cron job, set to update every five minutes.
+All syncing is managed by a [cron job]({% link system/cron.md %}), set to update every five minutes in your [Pre-Setup Tasks]({% link sales-channels/asc/amazon-pre-setup-tasks.md %}).
 
 [1]: https://www.amazon.com/gp/seller/asin-upc-isbn-info.html

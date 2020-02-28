@@ -6,7 +6,7 @@ redirect_from:
 
 Fulfilled By settings are part of your store's listing settings. Listing settings are accessed from the [store's dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
-Fulfilled By settings define who fulfills (or ships) orders. If all of your orders are fulfilled using one method, select between merchant (you) or Amazon. If you plan on fulfilling orders from your locations and using Amazon, we recommend using the third option and configuring a Magento product attribute.
+Fulfilled By settings define who fulfills (or ships) orders. If all of your orders are fulfilled using one method, choose between merchant (you) or Amazon. If you plan on fulfilling orders from your locations and using Amazon, we recommend using the third option and configuring a Magento product attribute.
 
 - **Fulfilled by Merchant**: Choose when you, the merchant, will fulfill all orders. When an order is placed, inventory will be deducted from your Magento catalog.
 
@@ -20,7 +20,7 @@ The fulfillment method is a regional attribute, and based on the Amazon Marketpl
 
 1. Expand **Fulfilled By**.
 
-1. For the **Product Fulfilled By**, select who fulfills (ships) the order:
+1. For the **Product Fulfilled By**, choose who fulfills (ships) the order:
 
     - **Fulfilled by Merchant**: Merchant fulfills order.
 

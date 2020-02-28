@@ -39,6 +39,7 @@ Amazon follows a set of policies and workflows to ensure all sellers and product
 - [Policies and agreements][5]{:target="_blank"}
 - [Selling policies][6]{:target="_blank"}
 - [Prohibited seller activities and actions][7]{:target="_blank"}
+- [Listing renewed (refurbished, pre-owned, and open-box) products on Amazon][8]{:target="_blank"}
 
 [1]: https://sellercentral.amazon.com/gp/help/external/200335450?language=en_US&amp;ref=efph_200335450_cont_G200182950
 [2]: https://sellercentral.amazon.com/gp/help/external/help-page.html?itemID=2&amp;language=en_US&amp;ref=efph_2_bred_200390640
@@ -47,3 +48,4 @@ Amazon follows a set of policies and workflows to ensure all sellers and product
 [5]: https://www.amazon.com/gp/help/customer/display.html?nodeId=1161272
 [6]: https://www.amazon.com/gp/help/customer/display.html?nodeId=200267770
 [7]: https://www.amazon.com/gp/help/customer/display.html?nodeId=200414320
+[8]: https://services.amazon.com/renewed.html

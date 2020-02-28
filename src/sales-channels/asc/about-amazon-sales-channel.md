@@ -2,15 +2,15 @@
 title: About Amazon Sales Channel
 ---
 
-Amazon Sales Channel is a powerful extension that seamlessly integrates your Magento Admin with your Amazon Seller Central account. Once integrated, Magento becomes a "central command center" for managing listings, monitoring orders and inventory, and controlling pricing for your Amazon store.
+Amazon Sales Channel is a powerful extension that seamlessly integrates your Magento Admin with your Amazon Seller Central account. After integration, Magento becomes a "central command center" for managing Amazon listings, monitoring orders and inventory, and controlling listing pricing for your Amazon store.
 
 The integration connects Magento and Amazon to sync data between both platforms. Amazon Sales Channel enables you to:
 
 - [Onboard]({% link sales-channels/asc/amazon-onboarding-home.md %}) and integrate one or more Amazon Seller Central accounts with Magento.
 
-- Import and sync your existing Amazon listings into your Magento catalog.
+- Import and sync your existing Amazon listings and match to products in your Magento catalog.
 
-- Create and manage Amazon listings for your Magento catalog products.
+- Create and manage Amazon listings for products in your Magento catalog.
 
 - Review and fulfill (ship) orders in Magento and Amazon, syncing order status and refunds.
 
@@ -24,13 +24,13 @@ With Amazon Sales Channel, you can:
 
 - Synchronize Amazon listing pricing to Magento catalog price (or alternate price attribute)
 
-- Enable MSRP strike-through pricing to increase customer value proposition
+- Enable MSRP strike-through pricing in your Amazon listings to increase customer value proposition
 
-- Enable and manage Minimum Advertised Price (MAP)
+- Enable and manage Minimum Advertised Price (MAP) in your Amazon listings
 
-- Apply additional VAT tax
+- Apply additional VAT tax in your Amazon pricing
 
-- Set a custom value for "available quantity" to display with listings to increase buyer urgency
+- Set a custom value for "available quantity" to display with your Amazon listings to increase buyer urgency
 
 ## Pricing Rules
 
@@ -40,7 +40,7 @@ With Amazon Sales Channel, you can:
 
 - Create and manage pricing rules for everyday sale or seasonal promotions
 
-- Create price floors to protect your lowest price
+- Create price floors and ceiling prices to protect your lowest and highest prices
 
 - Create and manage intelligent pricing rules that will automatically adjust your product pricing relative to other Amazon competitors (lowest Amazon competitor and Amazon Best Buy Box price)
 
@@ -54,11 +54,11 @@ With Amazon Sales Channel, you can:
 
 - Create overrides to set an individual price, handling time, condition, and seller notes message
 
-- Import and match your Amazon product attributes for automatic product matching with your Magento catalog
+- Import and map product attributes from your Amazon listings to automatically match with products in your Magento catalog
 
 - Set multiple search parameters to match Amazon listings to your Magento catalog
 
-- Set extensive rules to determine which of your Magento products are eligible to be listed on Amazon
+- Set customizable rules to determine which of your Magento products are eligible to be listed on Amazon
 
 - Set a default handling time for your new Amazon listings
 
@@ -78,15 +78,15 @@ With Amazon Sales Channel, you can:
 
 - Support and process orders in Amazon and Magento
 
-- Import your Amazon orders into Magento
+- Import your Amazon orders into Magento or leave them in Amazon
 
 - Define which of your Magento website stores to associate with your Amazon orders for importing and managing orders
 
-- Review, cancel, and ship orders from Magento and/or Amazon depending on the selected fulfillment
+- Review, cancel, and ship orders from Magento and/or Amazon depending on your fulfillment setup
 
 - Map your Amazon order status to custom status within Magento (optional)
 
-- Review and manage order errors, resolving issues and connecting with customers
+- Review and manage order errors to resolve issues and connect with customers
 
 - Send order tracking data to your Amazon Seller Central account
 

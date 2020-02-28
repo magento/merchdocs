@@ -20,7 +20,7 @@ The price adjustment determines what you do once you have identified the competi
 
 Define your pricing adjustment in the **Price Adjustment** section.
 
-1. For **Price Action**, select an option:
+1. For **Price Action**, choose an option:
 
     - **Decrease By**: Choose when you want the defined price source value to be to be adjusted down, creating a lower price for the rule, before listing to Amazon.
 
@@ -28,7 +28,7 @@ Define your pricing adjustment in the **Price Adjustment** section.
 
     - **Match Competitor Price**: (Intelligent repricing rule only) Choose when you want to change your Amazon listing price to match the lowest competitor price, based on your competitor feedback and variance parameters. When set to `Match`, the **Apply** and **Adjustment Amount** fields are removed.
 
-1. For **Apply**, select an option:
+1. For **Apply**, choose an option:
 
     - **Apply as percentage**: Choose when you want the defined price source value adjusted by a percentage.
 

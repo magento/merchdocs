@@ -25,7 +25,7 @@ Changes to quantity and eligibility status impact all listings that share the Am
 
 1. Click **Listing Rules**.
 
-1. For **Website**, select an option.
+1. For **Website**, choose an option.
 
    These options are dependent on the [websites]({% link stores/websites-stores-views.md %}) you have set up in your Magento configuration. Select the website to represent which website to have eligible products listed on Amazon. Only one website can be selected, as each website requires a unique Amazon store created in Amazon Sales Channel.
 

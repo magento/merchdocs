@@ -1,5 +1,5 @@
 ---
-title: Onboarding Amazon Sales Channel
+title: Onboard Amazon Sales Channel
 ---
 
 
@@ -19,15 +19,7 @@ Amazon Sales Channel supports the creation of multiple Amazon Sales Channel stor
 |[Pre-Setup Tasks]({% link sales-channels/asc/amazon-pre-setup-tasks.md %})|Before you onboard, you must ensure you have an active and approved Amazon Seller Central account. There are also some Magento requirements and recommendations to complete prior to onboarding.|
 |[Verify the Amazon API Key]({% link sales-channels/asc/amazon-verify-api-key.md %})|When accessing Amazon Sales Channel, Magento automatically checks and validates the Amazon API key you have added in your store configuration. If your API key has not been added or is invalid, you will be prompted to [add or update your Amazon API Key]({% link sales-channels/asc/amazon-verify-api-key.md %}).|
 |[Store Integration]({% link sales-channels/asc/store-integration.md %})|The first step is to create an Amazon Sales Channel store and connect your Amazon Seller Central account. You will need the primary log-in credentials for your Amazon Seller Central account (the email or phone used to create the seller account).|
-|[Store Review]({% link sales-channels/asc/ob-store-review.md %})|After you connect your Amazon Sales Channel store, you can access your store and listing settings on the store's [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).|
-
-<!---
-|[Step 2: Listing Settings]({% link sales-channels/asc/listing-settings.md %})|Configure the interaction settings between your Magento catalog and Amazon listings. These listing settings include attribute mappings between Magento and Amazon, fulfillment, quantity thresholds, and more.|
-|[Step 3: Listing Rules]({% link sales-channels/asc/listing-rules.md %})|Configure listing rules to define which Magento catalog products are eligible to be listed on the Amazon marketplace. You have a number of options to include and exclude products, for example automatic creation of listings for new eligible products and exclusion of existing Amazon products setting them to ineligible. <br />In this step, you also select the website for the integration.|
-|[Step 4: Listing Preview]({% link sales-channels/asc/listing-rule-preview.md %})|With your listing rules finalized, review your Magento catalog products as Amazon listings. <br />**Important!** After you continue to **Listing Preview** (step 4), you cannot change the website selected for the integration. To change the website, you will need to remove this integration and begin a new one.|
-|[Step 5: Order Settings]({% link sales-channels/asc/order-settings.md %})|Order handling settings control important information related to how Amazon orders will be processed within Magento. Orders will be imported from the time of integration, while past orders will not be imported into Magento unless they are in an "Unshipped" status when the store was integrated.|
-|[Step 6: Pricing Rules]({% link sales-channels/asc/pricing-products.md %})|Define pricing rules to automatically adjust your Amazon listing prices, based on a beginning price source attribute. Additionally, you can stack multiple rules and use intelligent pricing to adjust your Amazon listing price based on competitors' [Buy Box Price]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) or [Lowest Competitor Price]({% link sales-channels/asc/lowest-competitor-pricing.md %}).|
---->
+|[Create Listing Rule]({% link sales-channels/asc/ob-create-listing-rule.md %})|After you connect your Amazon Sales Channel store, you must create a listing rule or skip the step to start the import process. You can also access your store and listing settings on the store's [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).|
 
 [1]: https://services.amazon.com/content/sell-on-amazon.htm/
 [2]: https://services.amazon.com/selling/pricing.html

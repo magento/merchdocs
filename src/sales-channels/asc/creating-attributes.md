@@ -18,7 +18,7 @@ These steps create a new Magento attribute and links it to the selected Amazon a
 
     When set to `Yes`, the values sync according to your configuration.
 
-1. To create a new Magento attribute to link to this Amazon attribute, select `Create New Magento Attribute` for **Select Magento Product Attribute**.
+1. To create a new Magento attribute to link to this Amazon attribute, choose `Create New Magento Attribute` for **Select Magento Product Attribute**.
 
     The attribute will link to the displayed Amazon Attribute Name.
 
@@ -28,7 +28,7 @@ These steps create a new Magento attribute and links it to the selected Amazon a
 
     This value must be all lowercase without spaces.
 
-1. For **Attribute Set Ids**, select an Magento Attribute Set to assign.
+1. For **Attribute Set Ids**, choose an Magento Attribute Set to assign.
 
    Attributes tend to be part of an attribute set, such as a set for colors having attributes for blue, green, yellow, and red.
 
@@ -56,7 +56,7 @@ _Create Attribute Settings_
 |Field|Description|
 |--- |--- |
 |Is Active|Indicates if this attribute is live and actively syncs between Amazon and Magento. Set to "Yes" to ensure the attribute values from Amazon and Magento stay in sync for the selected attribute.|
-|Select Magento Product Attribute|Indicates the selected Magento attribute you want linked to the listed Amazon Attribute Name. When creating a new Magento attribute, select "Create New Magento Attribute."|
+|Select Magento Product Attribute|Indicates the selected Magento attribute you want linked to the listed Amazon Attribute Name. When creating a new Magento attribute, choose "Create New Magento Attribute."|
 |Amazon Attribute Name|Displays the name of the Amazon attribute as defined in Amazon Seller Central. The selected Magento attribute links to this Amazon attribute. You cannot edit this value through Magento.|
 |Magento Product Attribute Name|Indicates the Magento attribute name, or label.|
 |Magento Product Attribute Code|Indicates the Magento attribute code, all in lowercase characters without spaces.|
@@ -96,7 +96,7 @@ _Edit Attribute Settings_
 |Field|Description|
 |--- |--- |
 |Is Active|Indicates if this attribute is live and actively syncs between Amazon and Magento. Set to "Yes" to ensure the attribute values from Amazon and Magento stay in sync for the selected attribute.|
-|Select Magento Product Attribute|Indicates the selected Magento attribute you want linked to the listed Amazon Attribute Name. If you want to change the linked Magento attribute, select a different attribute from the drop-down list. Values sync according to configurations.|
+|Select Magento Product Attribute|Indicates the selected Magento attribute you want linked to the listed Amazon Attribute Name. If you want to change the linked Magento attribute, choose a different attribute from the drop-down list. Values sync according to configurations.|
 |Amazon Attribute Name|Displays the name of the Amazon attribute as defined in Amazon Seller Central. The selected Magento attribute links to this Amazon attribute. You cannot edit this value through Magento.|
 |Overwrite Existing Value|Indicates if the Amazon attribute values will overwrite existing Magento values. This affects all products with this Magento attribute.<br/>**Do Not Overwrite Existing Magento Values**: (Default) Retains the Magento value, keeping different values for Magento and Amazon stores.<br />**Overwrite Existing Magento Values**: Saves the Amazon value over the Magento value in the Magento product catalog.|
 |Magento Product Attribute Scope|Indicates the Magento [scope]({% link configuration/scope.md %}) for the Magento attribute.|
