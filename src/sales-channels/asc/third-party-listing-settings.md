@@ -20,9 +20,9 @@ The initial listing import initiates when completing your store's setup during o
 
 1. For **Import Third Party Listings** (required), choose an option in the drop down:
 
-    - **Import Listing**: Choose when you want products and information from your Amazon listings to import into your Magento catalog of products. This is the recommended and the default setting.
+    - **Import Listing** - Choose when you want products and information from your Amazon listings to import into your Magento catalog of products. This is the recommended and the default setting.
 
-    - **Do Not Import Listing**: Choose when you want to manually [create and assign new products]({% link catalog/products.md %}) to your Magento catalog for your Amazon listings.
+    - **Do Not Import Listing** - Choose when you want to manually [create and assign new products]({% link catalog/products.md %}) to your Magento catalog for your Amazon listings.
 
     {:.bs-callout .bs-callout-info}
     The following options fields are only active when you select `Import Listing`.
@@ -39,6 +39,6 @@ _Third Party Listings_
 
 |Field|Description|
 |---|---|
-|Import Third Party Listings|Required field. Options:<br/>**Import Listing**: (Default) Choose when you want products and information from your Amazon listings to import into your Magento catalog of products. <br/>**Do Not Import Listing**: Choose when you want to manually [create and assign new products]({% link catalog/products.md %}) to your Magento catalog for your Amazon listings.|
-|Attribute That Contains Amazon Seller SKU|Only active when `Import Listing` is selected.<br />Select the Magento attribute to match to the Amazon attribute for the Amazon Seller SKU. This attribute should have been created during onboarding. See [Creating Amazon Product Attributes for Amazon Matching]({% link sales-channels/asc/ob-creating-magento-attributes.md %}). You may need to review your Magento [attributes]({% link sales-channels/asc/managing-attributes.md %}) and create or edit an attribute to match to this Amazon data.|
-|Attribute That Contains Amazon ASIN|Only active when `Import Listing` is selected.<br />Select the Magento attribute that matches to the Amazon attribute for the Amazon ASIN. This attribute should have been created during onboarding. See [Creating Amazon Product Attributes for Amazon Matching]({% link sales-channels/asc/ob-creating-magento-attributes.md %}). You may need to review your Magento [attributes]({% link sales-channels/asc/managing-attributes.md %}) and create or edit an attribute to match to this Amazon data.|
+|Import Third Party Listings|Required. Options:<br/>**Import Listing** - (Default) Choose when you want products and information from your Amazon listings to import into your Magento catalog of products. <br/>**Do Not Import Listing** - Choose when you want to manually [create and assign new products]({% link catalog/products.md %}) to your Magento catalog for your Amazon listings.|
+|Attribute That Contains Amazon Seller SKU|Only active when `Import Listing` is selected.<br/>Select the Magento attribute to match to the Amazon attribute for the Amazon Seller SKU. This attribute should have been created during onboarding. See [Creating Amazon Product Attributes for Amazon Matching]({% link sales-channels/asc/ob-creating-magento-attributes.md %}). You may need to review your Magento [attributes]({% link sales-channels/asc/managing-attributes.md %}) and create or edit an attribute to match to this Amazon data.|
+|Attribute That Contains Amazon ASIN|Only active when `Import Listing` is selected.<br/>Select the Magento attribute that matches to the Amazon attribute for the Amazon ASIN. This attribute should have been created during onboarding. See [Creating Amazon Product Attributes for Amazon Matching]({% link sales-channels/asc/ob-creating-magento-attributes.md %}). You may need to review your Magento [attributes]({% link sales-channels/asc/managing-attributes.md %}) and create or edit an attribute to match to this Amazon data.|

@@ -6,7 +6,7 @@ After you connect your Amazon Sales Channel store, you should review your store'
 
 ## Advanced Store Settings
 
-1. On the Admin sidebar, click **Marketing** > _Channels_ > **Amazon**.
+1. On the _Admin_ sidebar, click **Marketing** > _Channels_ > **Amazon**.
 
 1. Select the store you want to review and click <span class="btn">View Store</span>.
 

@@ -3,7 +3,7 @@ title: Communication Errors Log
 ---
 
 
-The Communication Errors Log displays any reported communication errors with Amazon. Information includes the affected Amazon Sales Channel store, error code and brief description, and the date and time of the error.
+The Communication Errors Log shows any reported communication errors with Amazon. Information includes the affected Amazon Sales Channel store, error code and brief description, and the date and time of the error.
 
 No actions are available for the log. It is a review-only feature.
 

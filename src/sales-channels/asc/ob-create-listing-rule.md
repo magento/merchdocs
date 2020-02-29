@@ -29,13 +29,13 @@ Listing rules are initially defined during onboarding, but can be modified at an
 
          To change an `Ineligible` listing to an `Eligible` listing, repeat this process and modify your listing rule(s).
 
-    - **Eligible Listings** - Products listed on this tab are eligible for Amazon listing based on your current listing rule setup and are eligible by Amazon requirements. This tab includes your existing Amazon listings that will import (if you have the **Import Third Party Listings** field set to `Import Listing` in your [Listing Settings]({% link sales-channels/asc/listing-settings.md %})).
+    - **Eligible Listings** - Products listed on this tab are eligible for Amazon listing based on your current listing rule setup and are eligible by Amazon requirements. This tab includes your existing Amazon listings that will import (if you have **Import Third Party Listings** set to `Import Listing` in your [Listing Settings]({% link sales-channels/asc/listing-settings.md %})).
 
     - **New Listings** - Products listed on this tab include your Magento catalog products that are newly eligible for Amazon listing based on your current listing rule setup and will create new Amazon listings.
 
 1. When complete, click <span class="btn">Save and Close</span>.
 
-   The store's dashboard displays.
+   The store's dashboard opens.
 
 Completing the store's integration initiates the order import for Pending/Unshipped orders created after the integration was created.
 

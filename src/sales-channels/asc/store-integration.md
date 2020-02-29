@@ -59,13 +59,13 @@ After integrating your Amazon account, you will be prompted annually to renew yo
 
 1. Complete the Amazon Two-Factor Authorization (2FA) by entering the code you receive from Amazon and click <span class="btn">Sign in</span>.
 
-1. Click <span class="btn">Continue</span> on the Amazon Marketplace Web Service confirmation screen.
+1. Click <span class="btn">Continue</span> on the Amazon Marketplace Web Service confirmation page.
 
-   You have granted Amazon Sales Channel permission to access and share data with your Amazon Seller Central account. The Amazon screen closes. A confirmation message is displayed for the integration.
+   You have granted Amazon Sales Channel permission to access and share data with your Amazon Seller Central account. The Amazon page closes. A confirmation message appears for the integration.
 
 1. Click **OK** to confirm.
 
-   The [Amazon Sales Channel home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) page displays with all your Amazon store cards.
+   The [Amazon Sales Channel home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) page opens with all your Amazon store cards.
 
    ![]({% link sales-channels/asc/assets/asc-dashboard-after-2fa.png %}){: .zoom}
     _Amazon Sales Channel home with new store card_

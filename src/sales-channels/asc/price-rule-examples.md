@@ -18,7 +18,7 @@ For example, let’s say we have three pricing rules set up:
 | 2. $2 off sale products | 2 | Yes |
 | 3. 5% off all products | 3 | No |
 
-In this scenario, rules #1 and #2 would apply to the eligible products. Rule #3 would only apply to eligible products not contained within Rule #2. This is because it has a lower priority than #2 and Discard Subsequent Rules is set to Yes. So, the eligible products in the sale category would receive 10% off and $2 off their Amazon listing price.
+In this scenario, rules #1 and #2 would apply to the eligible products. Rule #3 would only apply to eligible products not contained within Rule #2. This is because it has a lower priority than #2 and Discard Subsequent Rules is set to `Yes`. So, the eligible products in the sale category would receive 10% off and $2 off their Amazon listing price.
 
 ### Applying two standard price rules
 

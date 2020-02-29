@@ -18,17 +18,17 @@ When the Amazon Sales Channel extension is installed, default values are set in 
 
 1. For **Show Dashboard Chart**, choose an option.
 
-    - **Yes**: (Default) Choose when you want the **Revenue** section to display on the store's [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}). If set to `Yes`, the **Revenue** section displays a graphical representation for the store's revenue for the last 7 or 30 days.
+    - **Yes** - (Default) Choose when you want the **Revenue** section to display on the store's [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}). If set to `Yes`, the **Revenue** section shows a graphical representation for the store's revenue for the last 7 or 30 days.
 
-    - **No**: Choose when you do not want the **Revenue** section to display on the store's [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
+    - **No** - Choose when you do not want the **Revenue** section to display on the store's [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
 1. For **Clear Log History**, choose an option.
 
-    - **Once Daily**: Select this option to clear your store's activity history once daily.
+    - **Once Daily** - Choose to clear your store's activity history once daily.
 
-    - **Once Weekly**: Select this option to clear your store's activity history once weekly.
+    - **Once Weekly** - Choose to clear your store's activity history once weekly.
 
-    - **Once Monthly**: (Default) Select this option to clear your store's activity history once monthly.
+    - **Once Monthly** - (Default) Choose to clear your store's activity history once monthly.
 
 1. For **Background Tasks (CRON) Source**, choose `Magento CRON`.
 

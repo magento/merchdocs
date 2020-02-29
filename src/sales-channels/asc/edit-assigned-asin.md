@@ -6,13 +6,13 @@ You can edit the Amazon ASIN value assigned to a product in your Magento catalog
 
 When an assigned ASIN is changed, Magento ends your Amazon listings attached to the old ASIN, validates the ASIN with Amazon, creates a new listing for the updated ASIN, and updates listing information in Amazon Sales Channel.
 
-## To edit an assigned ASIN
+## Edit an assigned ASIN
 
-1. View the listing in one of the Product Listing screens (Inactive, Active, or Ineligible).
+1. View the listing in one of the Product Listing pages (Inactive, Active, or Ineligible).
 
-1. In the _Action_ column, click **Edit Assigned ASIN** to open the Product Listing Update page.
+1. Under _Action_, click **Edit Assigned ASIN** to open the _Product Listing Update_ page.
 
-1. Enter the new ASIN value in the **Assign ASIN** field.
+1. Enter the new ASIN value for **Assign ASIN**.
 
 1. Click <span class="btn">Save Listing Update</span> to save your changes.
 

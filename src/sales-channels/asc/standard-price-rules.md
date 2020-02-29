@@ -10,21 +10,21 @@ Sections of a standard price rule action include:
 - Select Rule Type
 - Price Adjustment
 
-## To complete the Price Rule Actions section for a Standard Price Rule:
+## Complete the Price Rule Actions
 
 1. For **Rule Type**, choose `Standard price rule`.
 
 1. For **Price Action**, choose an option.
 
-    - **Decrease By**: Choose when you want the defined price source value to be decreased before listing to Amazon.
+    - **Decrease By** - Choose when you want the defined price source value to be decreased before listing to Amazon.
 
-    - **Increase By**: Choose when you want the defined price source value to be increased before listing to Amazon.
+    - **Increase By** - Choose when you want the defined price source value to be increased before listing to Amazon.
 
 1. For **Apply**, choose an option:
 
-    - **Apply as percentage**: Choose when you want the defined price source value adjusted by a percentage.
+    - **Apply as percentage** - Choose when you want the defined price source value adjusted by a percentage.
 
-    - **Apply as fixed amount**: Choose when you want the defined price source value adjusted by a fixed amount.
+    - **Apply as fixed amount** - Choose when you want the defined price source value adjusted by a fixed amount.
 
 1. For **Adjustment Amount** (required), enter the numerical value for the price adjustment.
 
@@ -39,7 +39,7 @@ _Standard Price Rule_
 
 |Field|Description|
 |---|---|
-|Rule Type|Select "Standard price rule."|
-|Price Action|Options:<br/>**Decrease By**: Choose when you want the defined price source value to be decreased before listing to Amazon.<br/>**Increase By**: Choose when you want the defined price source value to be increased before listing to Amazon.|
-|Apply|Options:<br/>**Apply as percentage**: Choose when you want the defined price source value adjusted by a percentage.<br/>**Apply as fixed amount**: Choose when you want the defined price source value adjusted by a fixed amount.|
-|Adjustment Amount|Required.<br/><br/>If you selected "Apply as percentage" in the **Apply** field, enter the percent value (example: 25 for a 25% percent adjustment).<br/><br/>If you selected "Apply as fixed amount" in the **Apply** field, enter the numerical value for the fixed amount (example: 25 for a $25 fixed adjustment).|
+|Rule Type|Select `Standard price rule`.|
+|Price Action|Options:<br/>**Decrease By** - Choose when you want the defined price source value to be decreased before listing to Amazon.<br/>**Increase By** - Choose when you want the defined price source value to be increased before listing to Amazon.|
+|Apply|Options:<br/>**Apply as percentage** - Choose when you want the defined price source value adjusted by a percentage.<br/>**Apply as fixed amount** - Choose when you want the defined price source value adjusted by a fixed amount.|
+|Adjustment Amount|Required.<br/><br/>If you chose `Apply as percentage` for **Apply**, enter the percent value (example: 25 for a 25% percent adjustment).<br/><br/>If you chose `Apply as fixed amount` for **Apply**, enter the numerical value for the fixed amount (example: 25 for a $25 fixed adjustment).|

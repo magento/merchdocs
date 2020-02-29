@@ -16,23 +16,25 @@ Orders that are not imported:
 
 An Amazon order is added to the to the Orders tab when Amazon Sales Channel receives information that Amazon has changed the order status from "Pending" to "Unshipped" in Amazon Seller Central. Amazon places an order in "Pending" status while the order and the payment method are verified. Remember, information sync depends on your cron settings and the time it takes Amazon to process information.
 
-You can review your Amazon order information on the Orders tab.
+You can review your Amazon order information on the _Orders_ tab.
 
 If your [order settings]({% link sales-channels/asc/order-settings.md %}) are defined to create a corresponding Magento order for your Amazon orders, you can manage your orders the same way you [process your Magento orders]({% link sales/order-processing.md %}). If your [order settings]({% link sales-channels/asc/order-settings.md %}) are set to not create corresponding Magento orders, you can review your order information on the Orders tab but must manage your orders in Amazon Seller Central.
 
-When managing Amazon orders in Amazon Sales Channel, you will use the [Magento Order Management]({% link sales/order-management.md %}) processes and workflows. When you click the Magento order number for the order, the order displays in a new tab the same as if you accessed the order in Sales grid in the admin panel.
+When managing Amazon orders in Amazon Sales Channel, you will use the [Magento Order Management]({% link sales/order-management.md %}) processes and workflows. When you click the Magento order number for the order, the order appears in a new tab the same as if you accessed the order in Sales grid in the admin panel.
 
-## To view your Amazon order information:
+## View your Amazon order information
 
-1. On the Admin sidebar, click **Marketing**. Then, under **Channels**, click **Amazon**.
+1. On the _Admin_ sidebar, click **Marketing** > _Channels_ > **Amazon**.
 
-1. In Amazon Sales Channel Home, click the **Orders** tab.
+1. In Amazon Sales Channel Home, click **Orders**.
 
 1. If you want to view additional details for an individual order, click **View Amazon Order Details** in the Action column.
-<br />This displays the [Amazon Order Details]({% link sales-channels/asc/amazon-order-details.md %}) screen to view the details for the selected order.
+
+    This shows the [Amazon Order Details]({% link sales-channels/asc/amazon-order-details.md %}) page to view the details for the selected order.
 
 1. If you want to manage an individual order, click the number in the Magento Order Number column.
-<br />This displays the Magento [order processing]({% link sales/order-processing.md %}) screen in a new tab.
+
+    This shows the Magento [order processing]({% link sales/order-processing.md %}) page in a new tab.
 
 See [Common Order Processing Tasks]({% link sales-channels/asc/common-order-processing.md %})
 
@@ -53,11 +55,11 @@ _Order Management_
 |Total|The total dollar value of the order as received from Amazon Seller Central. |
 |[Fulfillment Channel]({% link sales-channels/asc/fulfilled-by.md %})|Identifies the party responsible for sorting, packing, and shipping of an order. Options: Merchant / Amazon |
 |Items Unshipped|The number of items in the order that have not yet been shipped. |
-|Reserved|Based on your [order settings]({% link sales-channels/asc/order-settings.md %}), if "Pending Orders" status is set to reserve quantity in your stock, then this will display "Yes" or "No" accordingly.<br/>If set to "Yes":<br/>- When the order is processed by Amazon Seller Central and the corresponding Magento order is created, the reserve quantity is removed from available stock.<br/>- When an order is canceled, the reserve quantity is added back to available stock. |
+|Reserved|Based on your [order settings]({% link sales-channels/asc/order-settings.md %}), if "Pending Orders" status is set to reserve quantity in your stock, then this will display `Yes` or `No` accordingly.<br/>If set to `Yes`:<br/>- When the order is processed by Amazon Seller Central and the corresponding Magento order is created, the reserve quantity is removed from available stock.<br/>- When an order is canceled, the reserve quantity is added back to available stock. |
 |Purchase Date|The date of the purchase as received from Amazon Seller Central. |
 |Latest Ship Date|The latest date that Amazon Seller Central expects you to ship the order so that it arrives on time. This is very important for maintaining your Amazon Seller Central business score. |
 |Last Action|A custom message from Amazon Seller Central to Amazon Sales Channel that explains the action was last taken for the order. This allows the merchant to have a single location in Amazon Sales Channel to view the status of Amazon Seller Central orders. The last action text may let the store owner know that an Amazon Seller Central order has been canceled, that the Amazon Seller Central has successfully invoiced the order payment, that the system attempted to create a new Magento order but was unable to, or that a corresponding Magento order was successfully created. |
-|Action|[View Amazon Order Details]({% link sales-channels/asc/amazon-order-details.md %})<br/><br/>The order amount, customer email, customer name, and Magento order number (if set to create a corresponding order) populate when the order is added to the Orders tab. |
+|Action|[View Amazon Order Details]({% link sales-channels/asc/amazon-order-details.md %})<br/><br/>The order amount, customer email, customer name, and Magento order number (if set to create a corresponding order) populate when the order is added to the _Orders_ tab. |
 
 ### Optional Columns
 

@@ -3,18 +3,18 @@ title: View Listing Details
 ---
 
 
-The Product Listing Details page provides additional information on your active products, including the Listing Activity Log which displays the changes on an individual SKU / Product. This information can help you understand competitive metrics on your products and on individual SKU/product changes.
+The _Product Listing Details_ page provides additional information on your active products, including the Listing Activity Log which shows the changes on an individual SKU / Product. This information can help you understand competitive metrics on your products and on individual SKU/product changes.
 
-- **Listing Details**: Product details including the Name and Amazon Seller SKU.
-- **Listing Activity Log**: Historical record of all the changes that have occurred for this listing, such as pricing and quantity/stock changes. No further actions are required. This is provided for review to understand the change history.
-- **Buy Box Competitor Pricing**: This displays data on Amazon's [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) status and competitor pricing.
-- **Lowest Competitor Pricing**: This displays the lowest Amazon competitor's pricing and feedback information.
+- **Listing Details** - Product details including the Name and Amazon Seller SKU.
+- **Listing Activity Log** - Historical record of all the changes that have occurred for this listing, such as pricing and quantity/stock changes. No further actions are required. This is provided for review to understand the change history.
+- **Buy Box Competitor Pricing** - This shows data on Amazon's [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) status and competitor pricing.
+- **Lowest Competitor Pricing** - This shows the lowest Amazon competitor's pricing and feedback information.
 
 {% include amazon-workspace-controls.md %}
 
 ## Listing Details
 
-Displays product information includes:
+Shows product information includes:
 
 - Amazon Name
 - Catalog (Magento) SKU
@@ -25,7 +25,7 @@ _Listing Details_
 
 ## Listing Activity Log
 
-Displays all recent activity for the Amazon listing. Information displayed includes:
+Shows all recent activity for the Amazon listing. Information includes:
 
 - Amazon Seller SKU: Identifies the Stock Keeping Unit (SKU) defined for the listing.
 - ASIN: Identifies the 10-digit Amazon product identifier.
@@ -38,7 +38,7 @@ _Product Listing Details: Listing Activity Log_
 
 ## Buy Box Competitor Pricing
 
-Displays information for the Amazon merchant who holds the [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) position for the listing. This can be used to understand the price positioning of your competitors on Amazon. Information displayed includes:
+Shows information for the Amazon merchant who holds the [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) position for the listing. This can be used to understand the price positioning of your competitors on Amazon. Information includes:
 
 - ASIN: The 10-digit Amazon product identifier.
 - Is Seller: Identifies if you are the Buy Box seller. Options Yes/No.
@@ -53,7 +53,7 @@ _Product Listing Details: Buy Box Competitor Pricing_
 
 ## Lowest Competitor Pricing
 
-Displays information about Amazon competitors for the same listing. This can be used to understand the price positioning of your competitors on Amazon. Information displayed includes:
+Shows information about Amazon competitors for the same listing. This can be used to understand the price positioning of your competitors on Amazon. Information includes:
 
 - ASIN: The 10-digit Amazon product identifier.
 - Condition: Identifies the condition defined for the listing.

@@ -19,7 +19,7 @@ This feature allows you to manipulate your Amazon prices in a way that is very s
 You can add pricing rules for your Amazon listings. Price rules can be used to automatically adjust your listing prices, based on a set of defined conditions. Price rules are triggered and calculate your adjusted price before your product is listed on Amazon.
 
 {:.bs-callout .bs-callout-info}
-The price source for your Amazon listings is defined in the **Magento Price Source** field in your [Listing Price]({% link sales-channels/asc/listing-price.md %}) settings. Any adjustment calculations defined in the pricing rule use price source as the starting value.
+The price source for your Amazon listings is defined for **Magento Price Source** in your [Listing Price]({% link sales-channels/asc/listing-price.md %}) settings. Any adjustment calculations defined in the pricing rule use price source as the starting value.
 
 Amazon Sales Channel gives you the ability to set pricing rules, these pricing rules allow you to set your Amazon Listing price different than your Price Source. Additionally, you can stack multiple rules that will work together to adjust your price.
 
@@ -57,4 +57,4 @@ Another pricing option is a price override, which is set at the individual listi
 |Stop Further Rules Processing|Whether any further price rules will be processed on products eligible for this rule, as set in [Pricing Rule General Settings]({% link sales-channels/asc/pricing-rule-general-settings.md %}).|
 |From Date|The beginning of the time period in which the rule is active.|
 |To Date|The end of the time period in which the rule is active.|
-|Action|Lists all actions that can be applied to a specific listing. To apply an action, in the Action column, click the **Select** drop-down. Options: Edit Price Rule / Delete Price Rule|
+|Action|Lists all actions that can be applied to a specific listing. To apply an action, in the Action column, click **Select**. Options: Edit Price Rule / Delete Price Rule|

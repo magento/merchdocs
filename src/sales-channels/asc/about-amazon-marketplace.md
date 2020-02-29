@@ -12,7 +12,7 @@ Amazon listings contain two categories of information: Product Information and L
 
 **Product Information**
 
-Product information provides data common to every instance of the same product listed on Amazon. For example, several sellers may list a particular brand of yoga pants on Amazon. The general details about the product, such as the name and model number, are the same each time the product is listed. When more than one seller contributes data to a product, Amazon determines which seller's product information will be displayed on the product detail page.
+Product information provides data common to every instance of the same product listed on Amazon. For example, several sellers may list a particular brand of yoga pants on Amazon. The general details about the product, such as the name and model number, are the same each time the product is listed. When more than one seller contributes data to a product, Amazon determines which seller's product information will appear on the product detail page.
 
 **Listing Information**
 

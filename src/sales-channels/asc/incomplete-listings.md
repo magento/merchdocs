@@ -40,10 +40,10 @@ _Incomplete Listings_
 |Column|Description|
 |--- |--- |
 |Amazon Seller SKU|The SKU (Stock Keeping Unit) assigned by Amazon to a product to identify the product, options, price, and manufacturer.|
-|ASIN|A unique block of 10 letters and/or numbers that identify items.<br /><br />ASIN stands for the Amazon Standard Identification Numbers. An ASIN is a unique block of 10 letters and/or numbers that identify items. For books, the ASIN is the same as the ISBN number, but for all other products a new ASIN is created when the item is uploaded to their catalog. You can find an items ASIN on the product detail page on Amazon, along with further details relating to the item.|
+|ASIN|A unique block of 10 letters and/or numbers that identify items.<br/><br/>ASIN stands for the Amazon Standard Identification Numbers. An ASIN is a unique block of 10 letters and/or numbers that identify items. For books, the ASIN is the same as the ISBN number, but for all other products a new ASIN is created when the item is uploaded to their catalog. You can find an items ASIN on the product detail page on Amazon, along with further details relating to the item.|
 |Product Listing Name|The name of the product.|
 |[Condition]({% link sales-channels/asc/product-listing-condition.md %})|The condition of the product.|
 |Landed Price|The listing price for the product plus its shipping price.|
 |Amazon Quantity|The quantity available once the product is actively listed on Amazon.|
 |Status|The status of the listing, defined by Amazon. See the Status table above.|
-|Action|List of available actions that can be applied to a specific listing. To apply an action, in the _Actions_ column, click **Select** to display your options:<br />[Update Required Info]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %})<br />[View Details]({% link sales-channels/asc/product-listing-details.md %})|
+|Action|List of available actions that can be applied to a specific listing. To apply an action, in the _Actions_ column, click **Select** to display your options:<br/>[Update Required Info]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %})<br/>[View Details]({% link sales-channels/asc/product-listing-details.md %})|

@@ -4,7 +4,7 @@ title: Buy Box Competitor Pricing
 
 The Buy Box is awarded by Amazon to the seller who has the product listed usually at the best price, along with other factors such as FBA/Prime shipping offered, availability, and the seller’s performance.
 
-The Buy Box Competitor Pricing tab displays the Buy Box listing price, shipping price, and landed price of your competitors. This can be used to understand the price positioning of your competitors on Amazon.
+The _Buy Box Competitor Pricing_ tab includes the Buy Box listing price, shipping price, and landed price of your competitors. This can be used to understand the price positioning of your competitors on Amazon.
 
 [Intelligent repricing rules]({% link sales-channels/asc/intelligent-repricing-rules.md %}) can be configured to adjust your pricing based on the Amazon Buy Box price.
 

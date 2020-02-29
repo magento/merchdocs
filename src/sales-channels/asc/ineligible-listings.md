@@ -3,7 +3,7 @@ title: Ineligible Listings
 ---
 
 
-The Ineligible Listings tab displays a list of all the products that are currently published on Amazon but are not eligible as a listing based on your current listing rules. If a previous product was eligible and the listing rules are modified making some products ineligible, the quantity associated with a product drops to 0 and the product is marked as ineligible but will still be present on your Amazon Seller Account.
+The _Ineligible Listings_ tab shows a list of all the products that are currently published on Amazon but are not eligible as a listing based on your current listing rules. If a previous product was eligible and the listing rules are modified making some products ineligible, the quantity associated with a product drops to 0 and the product is marked as ineligible but will still be present on your Amazon Seller Account.
 
 To move a product out of the Ineligible Listings tab, you may need to [modify your listing rules]({% link sales-channels/asc/listing-rules.md %}) to allow your products to be eligible.
 
