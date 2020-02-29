@@ -44,7 +44,7 @@ Your product and listing are now matched. Amazon Sales Channel can now share pro
     - Set the **Enable Product(s)** toggle to `Yes` or `No` (required).
 <br/>**Yes** - Choose to make the product eligible for your Magento storefront sales.<br/>**No** - Choose to make the product ineligible for your Magento storefront sales.
     - For **Categories**, assign a category for the product (optional).
-<br/>Click the down arrow and click a category checkbox to select the product's category. Click **Done** when finished.
+<br/>Click the down arrow and select a category checkbox to select the product's category. Click **Done** when finished.
     - For **Website Ids**, choose the website (storefront) for which the product to be associated.
 <br/>The options in this list depend on your Magento [store configuration]({% link stores/websites-stores-views.md %}) settings.
     - For **Attribute Set Id** (required), choose an option.
@@ -63,7 +63,7 @@ The catalog product is created in your Magento catalog and assigned to the Amazo
 
 1. Select the listings for which to create catalog products.
 
-     You can click individual checkboxes in the left-side column, or you can click the down arrow in the top-left column and choose **Select All** or **Select All on this Page**.
+     You can select individual checkboxes in the left-side column, or you can click the down arrow in the top-left column and choose **Select All** or **Select All on this Page**.
 
 1. Click **Actions** > **Create New Catalog Product(s)**.
 
@@ -77,7 +77,7 @@ The catalog product is created in your Magento catalog and assigned to the Amazo
     - Set the **Enable Product(s)** toggle to `Yes` or `No` (required).
 <br/>**Yes** - Choose to make the product eligible for your Magento storefront sales.<br/>**No** - Choose to make the product ineligible for your Magento storefront sales.
     - For **Categories**, assign a category for the product (optional).
-<br/>Click the down arrow and click a category checkbox to select the product's category. Click **Done** when finished.
+<br/>Click the down arrow and select a category checkbox to select the product's category. Click **Done** when finished.
     - For **Website Ids**, choose the website (storefront) for which the product to be associated.
 <br/>The options in this list depend on your Magento [store configuration]({% link stores/websites-stores-views.md %}) settings.
     - For **Attribute Set Id** (required), choose an option.

@@ -10,7 +10,7 @@ _Amazon Sales Channel Workspace Controls Examples_
 
 ## Actions
 
-_Actions_ include a list of actions that are available to a user for a page. When chosen, the action is applied to all selected items. To apply an action to a specific item, mark the checkbox in the first column of each item and choose an option under _Actions_.
+_Actions_ include a list of actions that are available to a user for a page. When chosen, the action is applied to all selected items. To apply an action to a specific item, select the checkbox in the first column of each item and choose an option under _Actions_.
 
 For example, the **Actions** drop-down on the Attributes page includes the _Re-import Product Attribute Values_ action. Choosing this action will ping the corresponding Amazon Seller Central account and refresh the Magento data for each of the Amazon store items checked in the left-side column.
 
@@ -66,8 +66,8 @@ The Columns control allows you to add or remove columns of data from the page di
 
 The example below shows a Columns control. The checked options correspond to the column headers that are shown on the page.
 
-- To add a data column to your page, check the checkbox.
-- To remove a data column from your page, uncheck the checkbox.
+- To add a data column to your page, select the checkbox.
+- To remove a data column from your page, do not select the checkbox.
 
 ![]({% link sales-channels/asc/assets/workspace-controls-columns.png %}){: .zoom}
 _Columns Control Example_
