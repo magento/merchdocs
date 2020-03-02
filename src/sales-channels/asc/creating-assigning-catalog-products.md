@@ -3,7 +3,7 @@ title: Creating and Assigning Products
 ---
 
 
-When viewing _New Third Party_ tab during onboarding or when managing your listings, you can match your Magento catalog products to an existing Amazon listing. There are two options for this matching. You can assign a listing to an existing catalog product, or you can use the information from the listing to create new catalog products. These options are helpful when your Amazon listings do not automatically match to your Magento catalog.
+When viewing _New Third Party_ tab when managing your listings, you can match your Magento catalog products to an existing Amazon listing. There are two options for this matching. You can assign a listing to an existing catalog product, or you can use the information from the listing to create new catalog products. These options are helpful when your Amazon listings do not automatically match to your Magento catalog.
 
 Assigning (or matching) your products to your Amazon listings is necessary to use the full feature set of Amazon Sales Channel.
 
