@@ -26,7 +26,7 @@ If you have listings in process, the number of listings will display in a messag
 
 1. Click **OK** on the confirmation message.
 
-When ending a single listing or multiple listings, a message appears confirming that the selected listing is being processed to end. Ended listings can be managed on Ended tab in Manage Listings. Once processed and removed from Amazon, the status for the listing will display as "Manually Ended". Ended listings will remain removed from Amazon until you manually republish the listing using the Republish to Amazon action.
+When ending a single listing or multiple listings, a message confirms that the selected listing is being processed to end. Ended listings can be managed on Ended tab in Manage Listings. When processed and removed from Amazon, the status for the listing will appear as "Manually Ended". Ended listings will remain removed from Amazon until you manually republish the listing using the Republish to Amazon action.
 
 ## Republish a single or multiple Amazon listing that has been ended
 
