@@ -1,7 +1,7 @@
 ---
 title: Listing Price
 redirect_from:
-  - /sales-channels/amazon/ob-listing-price.html
+  - /sales-channels/asc/ob-listing-price.html
 ---
 
 Listing Price options are part of your store's listing settings. Listing settings are accessed from the [store's dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).

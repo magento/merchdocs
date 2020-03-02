@@ -1,7 +1,7 @@
 ---
 title: Product Listing Actions
 redirect_from:
-  - /sales-channels/amazon/ob-product-listing-actions.html
+  - /sales-channels/asc/ob-product-listing-actions.html
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: Price Rule Actions
 redirect_from:
-  - /sales-channels/amazon/ob-pricing-rules-actions.html
+  - /sales-channels/asc/ob-pricing-rules-actions.html
 ---
 
 

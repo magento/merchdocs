@@ -1,7 +1,7 @@
 ---
 title: Listing Settings
 redirect_from:
-  - /sales-channels/amazon/ob-listing-settings.html
+  - /sales-channels/asc/ob-listing-settings.html
 ---
 
 Listing settings for an Active or Inactive store are accessed from the [store's dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).

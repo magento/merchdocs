@@ -1,7 +1,7 @@
 ---
 title: Order Settings
 redirect_from:
-  - /sales-channels/amazon/ob-order-settings.html
+  - /sales-channels/asc/ob-order-settings.html
 ---
 
 You can access your order settings on the [store's dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}). In the left-side menu, click **Order Settings**. The _Order Settings_ page opens.

@@ -1,7 +1,7 @@
 ---
 title: Stock/Quantity
 redirect_from:
-  - /sales-channels/amazon/ob-stock-quantity.html
+  - /sales-channels/asc/ob-stock-quantity.html
 ---
 
 

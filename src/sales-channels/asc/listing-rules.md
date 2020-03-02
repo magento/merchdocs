@@ -1,7 +1,7 @@
 ---
 title: Listing Rules
 redirect_from:
-  - /sales-channels/amazon/ob-listing-rules.html
+  - /sales-channels/asc/ob-listing-rules.html
 ---
 
 

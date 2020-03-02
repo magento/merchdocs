@@ -1,7 +1,7 @@
 ---
 title: Pricing Rule General Settings
 redirect_from:
-  - /sales-channels/amazon/ob-pricing-rules-general-settings.html
+  - /sales-channels/asc/ob-pricing-rules-general-settings.html
 ---
 
 

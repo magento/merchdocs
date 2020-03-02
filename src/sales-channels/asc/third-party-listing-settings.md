@@ -1,7 +1,7 @@
 ---
 title: Third Party Listings
 redirect_from:
-  - /sales-channels/amazon/ob-third-party-listings.html
+  - /sales-channels/asc/ob-third-party-listings.html
 ---
 
 Third Party Listing settings are part of your store's listing settings. Listing settings are accessed from the [store's dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
