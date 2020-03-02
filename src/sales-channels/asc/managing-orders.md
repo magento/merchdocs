@@ -3,22 +3,22 @@ title: Managing Orders and Fulfillment
 ---
 
 
-Amazon Sales Channel imports your Amazon Seller Central orders into Magento for review on the Orders tab in Amazon Sales Channel Home.
+Amazon Sales Channel imports your Amazon Seller Central orders into Magento for review on the _Orders_ tab on the Amazon Sales Channel home page.
 
 Orders that are imported:
 
-- Orders that are in "Unshipped" status in your Amazon Seller Central account at the time of [store integration]({% link sales-channels/asc/store-integration.md %}) during onboarding.
+- Orders that are in `Unshipped` status in your Amazon Seller Central account at the time of [store integration]({% link sales-channels/asc/store-integration.md %}) during onboarding.
 - All new orders in your Amazon Seller Central account after [store integration]({% link sales-channels/asc/store-integration.md %}).
 
 Orders that are not imported:
 
-- Orders that existed in your Amazon Seller Central account at the time of [store integration]({% link sales-channels/asc/store-integration.md %}) but were in a status other than "Unshipped."
+- Orders that existed in your Amazon Seller Central account at the time of [store integration]({% link sales-channels/asc/store-integration.md %}) but were in a status other than `Unshipped`.
 
-An Amazon order is added to the to the Orders tab when Amazon Sales Channel receives information that Amazon has changed the order status from "Pending" to "Unshipped" in Amazon Seller Central. Amazon places an order in "Pending" status while the order and the payment method are verified. Remember, information sync depends on your cron settings and the time it takes Amazon to process information.
+An Amazon order is added to the to the _Orders_ tab when Amazon Sales Channel receives information that Amazon has changed the order status from `Pending` to `Unshipped` in Amazon Seller Central. Amazon places an order in `Pending` status while the order and the payment method are verified. Remember, information sync depends on your cron settings and the time it takes Amazon to process information.
 
 You can review your Amazon order information on the _Orders_ tab.
 
-If your [order settings]({% link sales-channels/asc/order-settings.md %}) are defined to create a corresponding Magento order for your Amazon orders, you can manage your orders the same way you [process your Magento orders]({% link sales/order-processing.md %}). If your [order settings]({% link sales-channels/asc/order-settings.md %}) are set to not create corresponding Magento orders, you can review your order information on the Orders tab but must manage your orders in Amazon Seller Central.
+If your [order settings]({% link sales-channels/asc/order-settings.md %}) are defined to create a corresponding Magento order for your Amazon orders, you can manage your orders the same way you [process your Magento orders]({% link sales/order-processing.md %}). If your [order settings]({% link sales-channels/asc/order-settings.md %}) are set to not create corresponding Magento orders, you can review your order information on the _Orders_ tab but must manage your orders in Amazon Seller Central.
 
 When managing Amazon orders in Amazon Sales Channel, you will use the [Magento Order Management]({% link sales/order-management.md %}) processes and workflows. When you click the Magento order number for the order, the order appears in a new tab the same as if you accessed the order in Sales grid in the admin panel.
 
@@ -26,9 +26,9 @@ When managing Amazon orders in Amazon Sales Channel, you will use the [Magento O
 
 1. On the _Admin_ sidebar, click **Marketing** > _Channels_ > **Amazon**.
 
-1. In Amazon Sales Channel Home, click **Orders**.
+1. On the Amazon Sales Channel home page, click **Orders**.
 
-1. If you want to view additional details for an individual order, click **View Amazon Order Details** in the Action column.
+1. If you want to view additional details for an individual order, click **View Amazon Order Details** in the _Action_ column.
 
     This shows the [Amazon Order Details]({% link sales-channels/asc/amazon-order-details.md %}) page to view the details for the selected order.
 

@@ -3,7 +3,7 @@ title: Workspace Controls
 ---
 
 
-[Amazon Sales Channel Home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) have some common workspace controls including Filters, Default View, Columns, and Export. Not all pages will have the same control options.
+The [Amazon Sales Channel home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) page has some common workspace controls including Filters, Default View, Columns, and Export. Not all pages will have the same control options.
 
 ![]({% link sales-channels/asc/assets/amazon-workspace-controls.png %}){: .zoom}
 _Amazon Sales Channel Workspace Controls Examples_

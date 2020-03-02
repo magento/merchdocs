@@ -10,7 +10,7 @@ sections:
      url: /sales-channels/asc/amazon-onboarding-home.html
 
    - title: Amazon Sales Channel Home
-     content: Learn more about your Amazon Sales Channel Home dashboard and options available. Access and manage store configurations, listings, and more.
+     content: Learn more about your Amazon Sales Channel home page and options available. Access and manage store configurations, listings, and more.
      url: /sales-channels/asc/amazon-sales-channel-home.html
 
    - title: Managing Attributes

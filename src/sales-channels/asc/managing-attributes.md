@@ -15,7 +15,7 @@ The Amazon Sales Channel allows you to access, review, create, and manage attrib
 
 ### Attribute Options
 
-Access and view all linked attributes through the Attributes tab on the Amazon Sales Channel Home page. View this page through the Amazon Sales Channel Home dashboard. Through this page you can:
+Access and view all linked attributes through the _Attributes_ tab on the Amazon Sales Channel home page. On this page you can:
 
 - [Create and edit attributes]({% link sales-channels/asc/creating-attributes.md %})
 - [Review Amazon attribute values]({% link sales-channels/asc/amazon-matching-attributes-values.md %})
