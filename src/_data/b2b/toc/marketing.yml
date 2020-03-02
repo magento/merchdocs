@@ -188,10 +188,6 @@ pages:
         - label: Amazon Stores
           url: "/sales-channels/asc/managing-stores.html"
           children:
-          - label: Sales Channel Admin Settings
-            url: "/sales-channels/asc/sales-channel-settings.html"
-          - label: Amazon Store Dashboard
-            url: "/sales-channels/asc/amazon-store-dashboard.html"
         - label: Learning and Preparation
           url: "/sales-channels/asc/learning-preparation.html"
         - label: Attributes
@@ -201,6 +197,10 @@ pages:
             url: "/sales-channels/asc/creating-attributes.html"
           - label: Manage Attribute Values
             url: "/sales-channels/asc/amazon-matching-attributes-values.html"
+      - label: Sales Channel Admin Settings
+        url: "/sales-channels/asc/sales-channel-settings.html"
+      - label: Amazon Store Dashboard
+        url: "/sales-channels/asc/amazon-store-dashboard.html"
       - label: Manage Listings
         url: "/sales-channels/asc/managing-product-listings.html"
         children:
