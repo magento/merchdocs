@@ -6,35 +6,58 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 ## February 2020
 
-### New Topics
+### New topics
 
 - [Magento Marketplace]({% link magento/magento-marketplace.md %})
 - [Set Up Your Marketplace Credentials]({% link magento/magento-marketplace-credentials.md %})
 - [Synchronize Your Store]({% link magento/magento-marketplace-synchronize-store.md %})
-- [Intall an Extension]({% link magento/magento-marketplace-install-extension.md %})
+- [Install an Extension]({% link magento/magento-marketplace-install-extension.md %})
 
-### Updated Topics
+### Updated topics
 
 |Topic |Change|
 |--- |--- |
 |[System Config]({% link system/web-setup-system-configuration.md %})<br />[Extension Manager]({% link system/web-setup-extension-manager.md %})|Added note for Adobe Commerce Cloud users with links to new [Magento Marketplace]({% link magento/magento-marketplace.md %}) section in Getting Started.|
+|[CAPTCHA]({% link stores/security-captcha.md %}) <br/>[Customer Configuration]({% link configuration/customers/customer-configuration.md %}) |Updated for clarification about which storefront forms can be used with CAPTCHA.|
+|[Managing Amazon Pricing]({% link sales-channels/amazon/pricing-products.md %}) <br/>[Intelligent Repricing Rule: Select Rule Type]({% link sales-channels/amazon/intelligent-repricing-rules.md %}) <br/>[Intelligent Repricing Rule: Floor Price]({% link sales-channels/amazon/floor-price.md %}) <br/>[Intelligent Repricing Rule: Optional Ceiling Price]({% link sales-channels/amazon/optional-ceiling-price.md %})  |Updates text for Amazon intelligent repricing rules and added alert text pertaining to vacation/test mode.|
+|[Product Attribute Reference]({% link system/data-attributes-product.md %})|Added information for the `save_rewrites_history` field.|
+|[Import/Export Tax Rates]({% link system/data-transfer-tax-rates.md %}) |Updates for Avalara partner references and added Vertex and partner note for automating their tax system.|
+|[Allow Reorders]({% link sales/reorders-allow.md %}) |Added criteria for reorder functionality to be available for an order.|
+|[Elasticsearch]({% link catalog/search-elasticsearch.md %}) <br/>[Catalog]({% link configuration/catalog/catalog.md %}) (configuration reference) |Corrections and updated to reflect current information about Elasticsearch version.|
+|[Store URLs]({% link stores/store-urls.md %}) <br/>[Web]({% link configuration/general/web.md %}) (configuration reference)|Added field descriptions and instructions for Base URLs (Secure) configuration.|
+|[Tier Price]({% link catalog/product-price-tier.md %}) |Added clarification that tier prices are calculated on top of `Price` field and not using _Special price_.|
+|[Processing an Order]({% link sales/order-processing.md %}) <br/>[Updating an Order]({% link sales/order-update.md %}) |Added some clarification around pending, processing, and completed orders.|
+|[Create a Cart Price Rule]({% link marketing/price-rules-cart-create.md %}) |Added text for accepting your category selections and updated images for quantity and category selections. Updated information about Priority and Discard Subsequent Rules settings.|
+|[Complex Data]({% link system/data-complex.md %}) |Fixed tables for complex data examples of configurable and grouped products to match labeling of headings.|
+|[Cron (Scheduled Tasks)]({% link system/cron.md %}) |Added descriptions for Cron configuration settings.|
+|[Ratings]({% link stores/attributes-rating.md %})|Made navigation correction and added `Is Active` checkbox information.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
+|[Creating Category Rules]({% link catalog/category-product-rules.md %})|Improved instructions on how to create Visual Merchandiser attribute.|<!--{% endif %}-->
+|[Advanced Reporting]({% link reports/advanced-reporting.md %})|Updated to clarify that Advanced Reporting can be used only with Magento installations that have continually used a single base currency.|
 
 ## January 2020
 
+### Product releases
+
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-- [Magento for B2B Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.4Commerce.html){: target="_blank"}, 2.3.4 (pre-release)
+- [Magento for B2B Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.4Commerce.html){: target="_blank"}, 2.3.4
 <!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
-- [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.4Commerce.html){: target="_blank"}, 2.3.4 (pre-release)
+- [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.4Commerce.html){: target="_blank"}, 2.3.4
 <!--{% endif %}-->
 <!--{% if "Default.CE Only" contains site.edition %}-->
-- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.4OpenSource.html){: target="_blank"}, 2.3.4 (pre-release)
+- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.4OpenSource.html){: target="_blank"}, 2.3.4
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-- [Page Builder](https://devdocs.magento.com/page-builder/docs/release-notes.html){: target="_blank"}, 1.2 (pre-release)
+- [Page Builder](https://devdocs.magento.com/page-builder/docs/release-notes.html){: target="_blank"}, 1.2
 <!--{% endif %}-->
 
-### New Topics
+<!--{% if "Default.EE Only" contains site.edition %}-->
+### New section
+
+- [Product Recommendations]({% link marketing/product-recommendations.md %}) (Early Access Program)
+
+<!--{% endif %}-->
+### New topics
 
 - [Adobe Stock Integration]({% link cms/adobe-stock.md %})
 - [Using Adobe Stock Images]({% link cms/adobe-stock-manage.md %})
@@ -44,45 +67,61 @@ Our documentation is continually updated with new topics, clarifications, and co
 - [Vertex Address Validation]({% link configuration/sales/address-validation.md %})
 - [Yotpo Reporting and Analytics]({% link marketing/yotpo-reporting.md %})
 
-### Updated Topics
+### Updated topics
 
 |Topic |Change|
 |--- |--- |
-|[Catalog Images and Video]({% link catalog/catalog-images-video.md %}) <br/>[Creating Categories]({% link catalog/category-create.md %}) <br/>[Inserting an Image]({% link cms/editor-insert-image.md %}) <br/>[Media Storage]({% link cms/media-storage.md %}) <br/>{% if "Default.B2B Only" contains site.edition %}[Image]({% link cms/page-builder-media-image.md %}) (Page Builder) <br/>{% endif %}[System]({% link configuration/advanced/system.md %}) (configuration)|Updated content in media topics to reflect the new Adobe Stock integration.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
+|[Catalog Images and Video]({% link catalog/catalog-images-video.md %}) <br/>[Creating Categories]({% link catalog/category-create.md %}) <br/>[Inserting an Image]({% link cms/editor-insert-image.md %}) <br/>[Media Storage]({% link cms/media-storage.md %}) <br/>{% if "Default.B2B Only" contains site.edition %}[Image]({% link cms/page-builder-media-image.md %}) (Page Builder) <br/>{% endif %}[System]({% link configuration/advanced/system.md %}) (configuration reference)|Updated content in media topics to reflect the new Adobe Stock integration.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
 |[Add Products]({% link cms/page-builder-add-content-products.md %}) <br/>[Slider]({% link cms/page-builder-media-slider.md %})|Updated content for the Page Builder Carousel layout.|<!--{% endif %}--><!--{% if "Default.B2B Only" contains site.edition %}-->
 |[Role Resources]({% link system/permissions-role-resources.md %}) <br/>[Updating a Company Profile]({% link customers/account-company-update.md %}) <br/>[Configuring Quotes]({% link stores/b2b-configure-quotes.md %}) <br/>[Customers]({% link configuration/customers.md %}) (configuration)|Updated content for improved access control support for B2B features.|
 |[Managing Requisition Lists]({% link customers/account-dashboard-requisition-lists-manage.md %}) <br/>[Customers]({% link configuration/customers.md %})|Added information for exporting requisition lists.|<!--{% endif %}-->
 |[Developer]({% link configuration/advanced/developer.md %})|Added content for the Cache User Defined Attributes field.|
-|[Elasticsearch]({% link catalog/search-elasticsearch.md %}) <br/>[Catalog]({% link configuration/catalog/catalog.md %}) (configuration)|Added content to describe usage of the new "Minimum terms to match" field.|
-|[Engagement Cloud]({% link marketing/engagement-cloud.md %})<br />[Setting Up Engagement Cloud]({% link marketing/engagement-cloud-setup.md %})<br />[Email Template]({% link configuration/engagement-cloud/email-templates.md %}) (configuration)<br />[Developer]({% link configuration/engagement-cloud/developer.md %}) (configuration)|Updated content for release features and fixes, including the new Chat feature.|
+|[Elasticsearch]({% link catalog/search-elasticsearch.md %}) <br/>[Catalog]({% link configuration/catalog/catalog.md %}) (configuration reference)|Added content to describe usage of the new `Minimum terms to match` field.|
+|[Engagement Cloud]({% link marketing/engagement-cloud.md %})<br />[Setting Up Engagement Cloud]({% link marketing/engagement-cloud-setup.md %})<br />[Email Template]({% link configuration/engagement-cloud/email-templates.md %}) (configuration reference)<br />[Developer]({% link configuration/engagement-cloud/developer.md %}) (configuration reference)|Updated content for release features and fixes, including the new Chat feature.|
 |[Vertex Cloud]({% link tax/vertex.md %})|Updated content for release features and fixes.|
-|[Klarna]({% link payment/klarna.md %}) <br/>[Setting Up Klarna]({% link payment/klarna-setup.md %}) <br/>[Klarna]({% link configuration/sales/klarna.md %}) (configuration)|Updated content for the new configuration field to Klarna Payments.|
+|[Klarna]({% link payment/klarna.md %}) <br/>[Setting Up Klarna]({% link payment/klarna-setup.md %}) <br/>[Klarna]({% link configuration/sales/klarna.md %}) (configuration reference)|Updated content for the new configuration field to Klarna Payments.|
 |[Yotpo Product Reviews]({% link marketing/yotpo-reviews-intro.md %}) <br/>[Review Reports]({% link reports/review-reports.md %}) <br/>[Business Intelligence Tools]({% link reports/business-intelligence.md %}) |Updates for Yotpo Product Reviews, including connections to **Yotpo Reviews** and **Yotpo Analytics** links in the Admin > Reports section.|
+|[Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}) <br/>[Google reCAPTCHA]({% link configuration/security/google-recaptcha.md %}) (configuration reference)|Updated documentation related to Google reCAPTCHA to reflect all changes over some previous releases.|
+|[Configurable Product]({% link catalog/product-create-configurable.md %})|Updated to correct information about the valid input types for `Catalog Input Type for Store Owner`.|
+|[Processing an Order]({% link sales/order-processing.md %}) <br/>[Updating an Order]({% link sales/order-update.md %})|Updated to clarify the available options in the button bar for pending and processing orders, including why the Cancel button isn't always available.|
+|[Business Intelligence Tools]({% link reports/business-intelligence.md %}) <br/>[Campaign Reporting]({% link sales-channels/google-ads/google-reporting.md %}) |Updated information about Magento store integration with Magento Business Intelligence (MBI).|
+|[Template Path Hints]({% link system/template-path-hints.md %}) | Added information about the `Enable Hints for Storefront with URL Parameter`.|
 
 ## December 2019
 
-### New Topics
+### New topics
 
 - [CCPA Compliance]({% link stores/compliance-ccpa.md %})
 - [CCPA Compliance Guide]({% link stores/compliance-ccpa-guide.md %})
 
-### Updated Topics
+### Updated topics
 
 |Topic |Change|
 |--- |--- |
 |[Google Privacy Settings for GDPR]({% link stores/compliance-privacy-google.md %})|Renamed "Google Privacy Settings". This topic now applies to privacy regulations in general, and is not limited to GDPR.|
+|[Braintree]({% link configuration/sales/braintree.md %}) (configuration reference)|Updated to correct descriptions for some fields in the Basic Braintree Settings.|
+|[Importing Product Images]({% link system/data-import-product-images.md %})|Updated to correct information about importing multiple images to a single SKU.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
+|[Creating a Catalog Price Rule]({% link marketing/price-rules-catalog-create.md %}) <br/>[Scheduled Changes for Catalog Price Rules]({% link marketing/price-rule-catalog-scheduled-changes.md %})|Updated to clarify the process for creating a catalog price rule and using the change schedule to make it active.|<!--{% endif %}-->
+|[Creating Shipping Labels]({% link shipping/shipping-label-create.md %})|Added information for configuration of the Shipping Origin address.|
+|[Currency Configuration]({% link stores/currency-configuration.md %})|Updated to clarify availability of the `Price` section.|
 
 ## November 2019
 
-### Updated Topics
+### Updated topics
 
 |Topic |Change|
 |--- |--- |
 |[PayPal Credit]({% link payment/paypal-credit.md %})<br/>[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})<br/>[Payments Advanced]({% link payment/paypal-payments-advanced.md %})<br/>[Payments Pro]({% link payment/paypal-payments-pro.md %})<br/>[Payments Standard]({% link payment/paypal-payments-standard.md %})<br/>[Payflow Pro]({% link payment/paypal-payflow-pro.md %})<br/>[Payflow Link]({% link payment/paypal-payflow-link.md %})|Updated screen images and configuration steps for PayPal payment configurations. Also updated the PayPal Credit topic to remove steps to enable and, instead, refer to the configuration topic for each payment option.|
+|[Product Attribute Reference]({% link system/data-attributes-product.md %}) |Added information for the `related_position`, `crosssell_position`, and `upsell_position` fields that set the position (sort order) for Related, Cross-sell and Up-sell Products.|
+|[Copyright Notice]({% link design/copyright-notice.md %})|Updated to correct the `&Copy;` to © to work properly and meet the standard.|
+|R[oot Categories]({% link catalog/category-root.md %})|Updated to correct the suggestion that you could set the root category on a store view level, which is only possible on the store (group) level.|
+|[Enabling Inventory Management]({% link catalog/inventory.md %})| Updated to correct and clarify the information about enabling and disabling Inventory Management.|
+|[Cart Price Rules]({% link marketing/price-rules-cart.md %}) <br/>[Create a Cart Price Rule]({% link marketing/price-rules-cart-create.md %}) <br/>[Customizable Options]({% link catalog/settings-advanced-custom-options.md %}) |Updated to clarify that customizable options cannot be used as a basis of cart price rule conditions.|
+|[URL Rewrites]({% link marketing/url-rewrite.md %}) <br/>[Product Rewrites]({% link marketing/url-rewrite-product.md %}) <br/>[Category Rewrites]({% link marketing/url-rewrite-category.md %}) <br/>[CMS Page Rewrites]({% link marketing/url-rewrite-cms-page.md %}) <br/>[Custom URL Rewrites]({% link marketing/url-rewrite-custom.md %}) |Added a note about existing GET parameters being removed during redirect.|
 
 ## October 2019
 
-### Product Releases
+### Product releases
 
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 - [Magento for B2B Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.3Commerce.html){:target="_blank"}, 2.3.3
@@ -100,7 +139,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 - [Inventory Management](https://devdocs.magento.com/guides/v2.3/inventory/release-notes.html){:target="_blank"}, 1.1.3
 - [Amazon Sales Channel](https://devdocs.magento.com/extensions/amazon-sales/release-notes/){:target="_blank"}, 3.0.0
 
-### New Topics
+### New topics
 
 - [3D Secure]({% link configuration/sales/3d-secure.md %})
 - [CardinalCommerce]({% link configuration/sales/cardinalcommerce.md %})
@@ -116,7 +155,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 - [Sales Channel Configuration]({% link configuration/sales-channels.md %})
 - [Global Settings]({% link configuration/sales-channels/global-settings.md %})
 
-### Updated Topics
+### Updated topics
 
 |Topic |Change|
 |--- |--- |
@@ -157,22 +196,22 @@ Our documentation is continually updated with new topics, clarifications, and co
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 ## August 2019
 
-### New Topics
+### New topics
 
 - [Discount with First Purchase]({% link marketing/price-rule-discount-first-purchase.md %})
 
 <!--{% endif %}-->
 ## July 2019
 
-### Product Releases
+### Product releases
 
 - Google Shopping ads Channel 2.0 and 3.0
 
-### New Topics
+### New topics
 
 - [Payment Services Directive]({% link stores/compliance-payment-services-directive.md %})
 
-### Updated Topics
+### Updated topics
 
 |Topic |Change |
 |--- |--- |
@@ -189,7 +228,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 ## June 2019
 
-### Product Releases
+### Product releases
 
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 - Magento for B2B Commerce, 2.3.2
@@ -201,7 +240,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 - Magento Open Source, 2.3.2
 <!--{% endif %}-->
 
-### New Topics
+### New topics
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 - [Address Search]({% link sales/checkout-address-search.md %})
@@ -209,7 +248,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 - [Manually Verify and Claim a URL]({% link sales-channels/google-ads/manually-verify-claim-site.md %}) (Google Shopping ads Channel)
 - [Channels]({% link configuration/services/channels.md %}) (Google Shopping ads Channel)
 
-### Updated Topics
+### Updated topics
 
 |Topic |Change |
 |--- |--- |
@@ -231,24 +270,24 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 ## May 2019
 
-### Product Releases
+### Product releases
 
 - Amazon Sales Channel 2.0
 - Amazon Sales Channel 1.0 GA
 
 ## April 2019
 
-### Product Releases
+### Product releases
 
 - Google Shopping ads Channel 1.0
 - Amazon Sales Channel 1.0 Beta
 
-### New Sections
+### New sections
 
 - [Google Shopping ads Channel]({% link sales-channels/google-ads/google-ad-channel.md %})
 - [Amazon Sales Channel]({% link sales-channels/amazon/amazon-sales-channel.md %})
 
-### New Topics
+### New topics
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 - [Rotating Dynamic Blocks]({% link cms/dynamic-blocks-rotate.md %})
@@ -268,7 +307,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 - [2FA]({% link configuration/security/2fa.md %}) (configuration reference)
 - [Google reCAPTCHA]({% link configuration/security/google-recaptcha.md %}) (configuration reference)
 
-### Updated Topics
+### Updated topics
 
 |Topic |Change |
 |--- |--- |
@@ -287,7 +326,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 ## March 2019
 
-### Product Releases
+### Product releases
 
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 - Magento for B2B Commerce, 2.3.1
@@ -303,23 +342,23 @@ Our documentation is continually updated with new topics, clarifications, and co
 <!--{% endif %}-->
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-### New Sections
+### New sections
 
 - [Page Builder]({% link cms/page-builder.md %})
 <!--{% endif %}-->
 
-### New Topics
+### New topics
 
 - [Resizing Product Images]({% link catalog/product-image-resizing.md %})
 - [Authorize.Net]({% link payment/authorize-net.md %})
 - [Authorize.Net]({% link configuration/sales/authorize-net.md %}) (configuration reference)
 - [Keyboard Accessibility]({% link catalog/navigation-accessibility.md %})
-- [Click &amp; Collect]({% link shipping/magento-shipping-click-collect.md %})
+- [Click & Collect]({% link shipping/magento-shipping-click-collect.md %})
 - [Collection Points]({% link shipping/magento-shipping-collection-points.md %})
 - [Shipment Workflow]({% link shipping/magento-shipping-shipment-workflow.md %})
 - [Canceling a Shipment]({% link sales/shipment-cancel.md %})
 
-### Updated Topics
+### Updated topics
 
 |Topic |Change |
 |--- |--- |
@@ -356,12 +395,12 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 ## February 2019
 
-### New Topics
+### New topics
 
 - [Configuring Distance Priority Algorithm]({% link catalog/inventory-configure-distance-priority.md %})
 - [Configuring Source Priority Algorithm]({% link catalog/inventory-configure-source-priority.md %})
 
-### Updated Topics
+### Updated topics
 
 |Topic |Change |
 |--- |--- |
@@ -373,7 +412,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 ## December 2018
 
-### Updated Topics
+### Updated topics
 
 |Topic |Change |
 |--- |--- |
@@ -388,7 +427,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 ## November 2018
 
-### Product Releases
+### Product releases
 
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 - Magento for B2B Commerce, 2.3.0 GA
@@ -401,11 +440,11 @@ Our documentation is continually updated with new topics, clarifications, and co
 <!--{% endif %}-->
 - Multi Source Inventory (MSI), 1.0
 
-### New Topics
+### New topics
 
 - [About Order Status and Reservation]({% link catalog/inventory-about-order-status-reservation.md %})
 
-### Updated Topics
+### Updated topics
 
 |--- |--- |
 |[Catalog]({% link configuration/catalog/catalog.md %}) (configuration reference)|Updated and added fields and screenshots for Catalog Search options.|
@@ -429,7 +468,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 ## October 2018
 
-### Product Releases
+### Product releases
 
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 - Magento for B2B Commerce, 2.3.0 Beta
@@ -442,11 +481,11 @@ Our documentation is continually updated with new topics, clarifications, and co
 <!--{% endif %}-->
 - Multi Source Inventory (MSI), 1.0 Beta
 
-### New Sections
+### New section
 
 - [Managing Inventory]({% link catalog/inventory-management.md %})
 
-### Updated Topics
+### Updated topics
 
 |Topic |Change |
 |--- |--- |
