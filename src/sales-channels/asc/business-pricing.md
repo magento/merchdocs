@@ -28,7 +28,7 @@ For your products to be listed on the Amazon Business (B2B) site, you must first
 
     - **Disabled** - Choose when you want the same listing price for all order quantities. When chosen, all Pricing Level fields in this section are disabled.
 
-    - **Enabled** - Choose when you want to enable pricing that adjusts based on order quantity. When enabled, the Pricing Level quantity and discount fields enable.
+    - **Enabled** - Choose when you want to enable pricing that adjusts based on order quantity. When chosen, the Pricing Level quantity and discount fields are enabled.
 
 1. Complete the **Pricing Level** settings.
 
