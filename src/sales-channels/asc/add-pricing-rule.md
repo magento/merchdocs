@@ -4,15 +4,15 @@ title: Add Pricing Rules
 
 Pricing rules can be configured or modified at any time after your store is connected. Pricing rules are part of Listing Settings and can be accessed in the [store's dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
-**Standard Price Rule:**
+## Standard Price Rule:**
 A standard price rule action allows you to increase or decrease an Amazon listing price by a specific percentage or fixed dollar amount relative to the Magento catalog price (or price source).
 
-**Intelligent Repricing Rule:**
+## Intelligent Repricing Rule:**
 An intelligent repricing rule uses Amazon competitors' pricing to determine your listing price. Competitors are other sellers that are listing the same products you are listing on Amazon.
 
-## Add a standard pricing rule
+### Add a standard pricing rule
 
-1. Select a store from [Amazon Stores]({% link sales-channels/asc/managing-stores.md %}) on the Amazon Sales Channel Home.
+1. Choose a store from [Amazon Stores]({% link sales-channels/asc/managing-stores.md %}) on the Amazon Sales Channel home page.
 
 1. On the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}), click **Pricing Rules** in the left-side menu.
 
@@ -26,9 +26,9 @@ An intelligent repricing rule uses Amazon competitors' pricing to determine your
 
 1. When complete, click **Save Pricing Rule**.
 
-## Add an intelligent repricing rule
+### Add an intelligent repricing rule
 
-1. Select a store from [Amazon Stores]({% link sales-channels/asc/managing-stores.md %}) on the Amazon Sales Channel Home.
+1. Choose a store from [Amazon Stores]({% link sales-channels/asc/managing-stores.md %}) on the Amazon Sales Channel home page.
 
 1. On the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}), click **Pricing Rules** in the left-side menu.
 

@@ -10,17 +10,17 @@ Your Amazon listings are compared against your rules, based on the conditions yo
 
 Listing Preview allows you to preview your potential Amazon listings and make any necessary adjustments to your listing rules. If you need to adjust your listing rules, click **Listing Rules** ???
 
-Your potential Amazon listings will populate on the Listing Preview screen in one of three tabs:
+Your potential Amazon listings will populate on the Listing Preview page in one of three tabs:
 
-- **Ineligible Listings**: Products listed on this tab are not eligible for Amazon listing based on your current listing rule settings.
+- **Ineligible Listings** - Products listed on this tab are not eligible for Amazon listing based on your current listing rule settings.
 
    Ineligible products will not be published to Amazon. If an ineligible product is already listed on Amazon and you match the Amazon listing to your Magento catalog product, the quantity for the Amazon listing will change to 0 to prevent sales of the product. To manually remove a listing, see [Ending an Amazon Listing]({% link sales-channels/asc/end-listings-manually.md %}). Products that are not eligible by Amazon requirements are not listed here. Those products are listed on the [Inactive Listings tab]({% link sales-channels/asc/inactive-listings.md %}).
 
-- **Eligible Listings**: Products listed on this tab are eligible for Amazon listing based on your current listing rule setup and are eligible by Amazon requirements. This tab includes your existing Amazon listings that will import (if you have the **Import Third Party Listings** field set to `Import Listing` in the Listing Settings step).
+- **Eligible Listings** - Products listed on this tab are eligible for Amazon listing based on your current listing rule setup and are eligible by Amazon requirements. This tab includes your existing Amazon listings that will import (if you have **Import Third Party Listings** set to `Import Listing` in the Listing Settings).
 
-- **New Listings**: Products listed on this tab include your Magento catalog products that are newly eligible for Amazon listing based on your current listing rule setup and will create new Amazon listings.
+- **New Listings** - Products listed on this tab include your Magento catalog products that are newly eligible for Amazon listing based on your current listing rule setup and will create new Amazon listings.
 
-## To view your listing preview:
+## View your listing preview
 
 1. Access your listing rules for an active store.
 
@@ -30,7 +30,7 @@ Your potential Amazon listings will populate on the Listing Preview screen in on
 
 1. Click **Preview Changes** in the header bar.
 
-1. Review and confirm your listings in the Ineligible Listings, Eligible Listings, and New Listings tabs.
+1. Review and confirm your listings in the _Ineligible Listings_, _Eligible Listings_, and _New Listings_ tabs.
 
 1. If your listings match your expectations, click **Save Listing Rules**. If your listings do no not display as expected, click **Back** and continue to modify your conditions until your listings match your expectations.
 
@@ -45,7 +45,7 @@ _Listing Preview Workflow_
 |Field|Description|
 |--- |--- |
 |Product ID |The unique, sequential number that is assigned to a Magento catalog product when it is added. |
-|Thumbnail |Displays a thumbnail of the main product image. |
+|Thumbnail |Shows a thumbnail of the main product image. |
 |Name |The name of the product, managed in the Magento [Products Grid]({% link catalog/products.md %}). |
 |Type |The type of product, managed in the Magento [Products Grid]({% link catalog/products.md %}). |
 |Attribute Set |The name of the attribute set used as a template for the product, managed in the Magento [Products Grid]({% link catalog/products.md %}). |

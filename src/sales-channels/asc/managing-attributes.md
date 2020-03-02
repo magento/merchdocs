@@ -15,7 +15,7 @@ The Amazon Sales Channel allows you to access, review, create, and manage attrib
 
 ### Attribute Options
 
-Access and view all linked attributes through the Attributes tab on the Amazon Sales Channel Home screen. View this page through the Amazon Sales Channel Home dashboard. Through this page you can:
+Access and view all linked attributes through the Attributes tab on the Amazon Sales Channel Home page. View this page through the Amazon Sales Channel Home dashboard. Through this page you can:
 
 - [Create and edit attributes]({% link sales-channels/asc/creating-attributes.md %})
 - [Review Amazon attribute values]({% link sales-channels/asc/amazon-matching-attributes-values.md %})
@@ -32,4 +32,4 @@ _Attributes view_
 |Product Catalog Attribute Code |The name of the Magento attribute that is matched with the Amazon attribute name. If the attribute is not matched to a Magento attribute, this field will be blank. |
 |Overwrite Magento Values |If set to "Enabled", the Amazon attribute value will overwrite the corresponding Magento attribute value. This setting only applies when a Magento attribute exists and is matched with the Amazon attribute. Options: Disabled / Enabled |
 |Status |If set to `Enabled`, the Amazon and Magento attributes will update stay in sync. |
-|Action |Links to the [Create / Edit Attribute]({% link sales-channels/asc/creating-attributes.md %}) screen for the selected attribute. If a Magento Product Catalog attribute does not exist, the **Create** link displays. If a Magento Product Catalog attribute is matched to the Amazon attribute, the **Edit** link displays. |
+|Action |Links to the [Create / Edit Attribute]({% link sales-channels/asc/creating-attributes.md %}) page for the selected attribute. If a Magento Product Catalog attribute does not exist, the **Create** link enables. If a Magento Product Catalog attribute is matched to the Amazon attribute, the **Edit** link enables. |

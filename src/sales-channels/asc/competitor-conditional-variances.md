@@ -16,19 +16,19 @@ If a product exists with the same condition as yours, the base match price will 
 
 For example, if you have a product listed with the condition Used; Good, and the base match price is $7.99, and a competitor exists with the same product in the same condition (Used; Good) at a lower price, that price is used. If a competitor does not exist with the same condition, the system checks for a competitor with the next condition, which is New. If a competitor is found with that condition, the lowest of the prices is used.
 
-## To configure the Competitor Conditional Variances section of an Intelligent Repricing Rule Price action:
+## Configure the Competitor Conditional Variances
 
-Define your condition variances in the **Competitor Conditional Variances** section.
+Define your condition variances in the _Competitor Conditional Variances_ section.
 
-For **Conditional Variance**, choose an option in the drop-down.
+For **Conditional Variance**, choose an option:
 
-- **Use all competitor's product conditions**: (Default selection) Choose when you want your product to compare against any available condition (if a match does not exist for the condition you are listing).
+- **Use all competitor's product conditions** - (Default selection) Choose when you want your product to compare against any available condition (if a match does not exist for the condition you are listing).
 
-- **Use Only Matching Competitor’s Product Condition**: Choose when you want your product to compare only against competitor's products in the same condition. If no match exists, the product will price at the Price Source.
+- **Use Only Matching Competitor’s Product Condition** - Choose when you want your product to compare only against competitor's products in the same condition. If no match exists, the product will price at the Price Source.
 
-- **Apply Variance (if competitor’s product condition differs)**: Choose to first try to compare against your matched product condition. If no matching condition exists, a variance (as a percentage) will be applied relative to your product condition and the lowest competitor’s condition.
+- **Apply Variance (if competitor’s product condition differs)** - Choose to first try to compare against your matched product condition. If no matching condition exists, a variance (as a percentage) will be applied relative to your product condition and the lowest competitor’s condition.
 
-   When the `Apply Variance` feature is selected, additional variance fields display for each of your Amazon conditions. This feature allows you to utilize intelligent repricing rules when you offer products that are in a different condition than your competitors. To understand the calculation behind conditional variance, you will need to first understand that all variance is determined from a base match price.
+   When the `Apply Variance` feature is chosen, additional variance fields display for each of your Amazon conditions. This feature allows you to utilize intelligent repricing rules when you offer products that are in a different condition than your competitors. To understand the calculation behind conditional variance, you will need to first understand that all variance is determined from a base match price.
 
    Conditional variance options are only available when your listing settings for Condition are set to map condition values using a Magento product attribute. For all mapped conditions, you can denote a variance percentage of 1-100. The exception is collectibles, in which case a percentage greater than 100 may be applied.
 
@@ -39,7 +39,7 @@ _Intelligent Repricing Rule: Competitor Conditional Variances_
 |--- |--- |
 |Competitor Conditional Variances|Use all competitor’s product conditions - If a match does not exist for the condition you are listing your product with, this option will match against any available condition. It will first attempt to match your condition, and will then work its way down from the New condition to Used; Acceptable.<br/><br/>Use only matching competitor’s product condition - This option will match against your product's condition. If no match exists, the product will price at the Price Source.<br/><br/>Apply variance (if competitor’s product condition differs) - This option will first try to match against your matched product condition. If no matching condition exists, it will apply a variance (as a percentage) relative to your product condition and the lowest competitor’s condition.<br/><br/>The conditional variance option is only available when your listing settings for Condition are set to map condition values using a Magento product attribute. For all mapped conditions, you can denote a variance percentage of 1-100. The exception to this is collectibles, in which case a percentage greater than 100 may be applied.<br/><br/>This feature allows you to utilize intelligent repricing rules when you offer products that are in a different condition than your competitors'. To understand the calculation behind conditional variance, you will need to first understand that all variance is determined from a base match price.|
 
-## Calculating Conditional Variance Base
+## Calculate the Conditional Variance Base
 
 - Base Match Condition Variance (BMC) = The variance for the condition of our base match price competitor. In our example, BMC will be the variance for the New condition.
 - Merchant Condition Variance (MCV) = The variance for the condition of our product. In our example, MCV = the variance for condition Used; Good.

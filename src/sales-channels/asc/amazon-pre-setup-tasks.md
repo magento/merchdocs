@@ -34,7 +34,9 @@ It is also important to ensure that you have configured the following in your Am
 - Ensure that your shipping methods are configured accurately. To set up the shipping methods that Magento will offer to customers to fulfill your Amazon orders, update the [Amazon: Shipping Settings][7]{:target="_blank"} in your Amazon Seller Central account.
 
 ## 4. Make sure your Value Added Tax (VAT) is configured for your store(s)
-(Primarily used by UK sellers.) Amazon recommends signing up for the [Amazon VAT Calculation Service](https://services.amazon.co.uk/vat-calculation-service.html). If you choose a different method, you are responsible for VAT compliance.<br/><br/>**Note**: It may take 10-14 days for Amazon to verify and activate your VAT Calculation Service account.
+(Primarily used by UK sellers.) Amazon recommends signing up for the [Amazon VAT Calculation Service](https://services.amazon.co.uk/vat-calculation-service.html). If you choose a different method, you are responsible for VAT compliance.
+
+    **Note**: It may take 10-14 days for Amazon to verify and activate your VAT Calculation Service account.
 
 ## 5. Increase the number of automatic catalog matches
 

@@ -8,9 +8,9 @@ No actions are available for the logs or store reports, as they are review-only 
 
 The following logs can be accessed from the [store's dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
-- The [Listing Changes Log]({% link sales-channels/asc/listing-changes-log.md %}) displays the changes that have occurred in your Amazon Seller Account as a reflection of your Amazon Sales Channel settings.
+- The [Listing Changes Log]({% link sales-channels/asc/listing-changes-log.md %}) shows the changes that have occurred in your Amazon Seller Account as a reflection of your Amazon Sales Channel settings.
 
-- The [Communication Errors Log]({% link sales-channels/asc/communication-errors-log.md %}) displays any reported communication errors with Amazon.
+- The [Communication Errors Log]({% link sales-channels/asc/communication-errors-log.md %}) shows any reported communication errors with Amazon.
 
 The following store-specific reports can be accessed from the [store's dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 

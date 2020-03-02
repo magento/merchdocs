@@ -5,7 +5,7 @@ redirect_from:
 ---
 
 
-You can access the listing rules for an Active or Inactive store in the [store's dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}). In the **I Want To...** section, click **Listing Rules**.
+You can access the listing rules for an Active or Inactive store in the [store's dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}). In the _I Want To..._ section, click **Listing Rules**.
 
 Listing Rules define the rules to determine which products Amazon Sales Channel will publish to your Amazon Marketplace. These rules provide many options to create simple to complex rules to include or exclude products as listings. Each rule consists of conditions that set the requirements for product listing eligibility.
 
@@ -21,13 +21,13 @@ Your listing rules are continually synchronized with your Magento catalog. When 
 
 Changes to quantity and eligibility status impact all listings that share the Amazon Seller SKU in marketplaces which exist for stores selling in the same region (as defined in the Amazon Marketplace field during [Store Integration]({% link sales-channels/asc/store-integration.md %})) will also be impacted. However, a change to a shared Amazon Seller SKU in one region will not affect the product's Amazon listings in a different region (as defined during Store Integration).
 
-## To configure Listing Rules settings:
+## Configure Listing Rules settings
 
 1. Click **Listing Rules**.
 
 1. For **Website**, choose an option.
 
-   These options are dependent on the [websites]({% link stores/websites-stores-views.md %}) you have set up in your Magento configuration. Select the website to represent which website to have eligible products listed on Amazon. Only one website can be selected, as each website requires a unique Amazon store created in Amazon Sales Channel.
+   These options depend on the [websites]({% link stores/websites-stores-views.md %}) you have set up in your Magento configuration. Select the website to represent which website to have eligible products listed on Amazon. Only one website can be selected, as each website requires a unique Amazon store created in Amazon Sales Channel.
 
 1. Define your desired conditions for the eligibility of products to be listed on Amazon.
 
@@ -38,7 +38,7 @@ _Listing Rules_
 
 |Field|Description|
 |---|---|
-|Websites|The options in this drop-down are dependent on the [websites]({% link stores/websites-stores-views.md %}) you have set up in your Magento configuration. Select the website to represent which website to have eligible products listed on Amazon. Only one website can be selected, as each website requires a unique Amazon store created in Amazon Sales Channel. |
+|Websites|The available options depend on the [websites]({% link stores/websites-stores-views.md %}) you have set up in your Magento configuration. Select the website to represent which website to have eligible products listed on Amazon. Only one website can be selected, as each website requires a unique Amazon store created in Amazon Sales Channel. |
 |Conditions|Used to define the Magento attributes for product eligibility within your Amazon region. See [Example: Define a Condition]({% link sales-channels/asc/ob-define-condition-example.md %}). |
 
 **Conditions Workspace**

@@ -13,23 +13,23 @@ Sections of an intelligent repricing rule include:
 
 The automated limit settings are used to help protect the ceiling pricing against the intelligent pricing rules. This allows the store owner to set a high-price-limit for their intelligent pricing rules.
 
-## To configure the Optional Ceiling Price section of an Intelligent Repricing Rule Price action:
+## Configure the Optional Ceiling Price
 
 Select your optional highest price setting in the **Optional Ceiling Price** section.
 
-1. For **Ceiling Price Source**, choose an attribute from the drop-down.
+1. For **Ceiling Price Source**, choose an attribute.
 
    Select your Magento attribute that will indicate your relative ceiling limit. For example, if you do not want your product listing price to go above the MSRP of your item, you would choose the Manufacturer's Suggested Retail Price attribute.
 
 1. For **Ceiling Price Action**, choose an option.
 
-    - **Decrease By**: Choose when you want the defined Ceiling Price Source value to be adjusted down, creating a lower ceiling price for the rule, before listing to Amazon.
+    - **Decrease By** - Choose when you want the defined Ceiling Price Source value to be adjusted down, creating a lower ceiling price for the rule, before listing to Amazon.
 
-    - **Increase By**: Choose when you want the defined Ceiling Price Source value to be adjusted up, creating a higher ceiling price for the rule, before listing to Amazon.
+    - **Increase By** - Choose when you want the defined Ceiling Price Source value to be adjusted up, creating a higher ceiling price for the rule, before listing to Amazon.
 
-    - **Match**: Choose when you do not want the listing price to fluctuate above the defined Ceiling Price Source value. When set to `Match`, the **Apply** and **Ceiling Adjustment Amount** fields are disabled.
+    - **Match** - Choose when you do not want the listing price to fluctuate above the defined Ceiling Price Source value. When set to `Match`, **Apply** and **Ceiling Adjustment Amount** are disabled.
 
-1. The **Apply** field defaults to `Apply as percentage`.
+1. **Apply** defaults to `Apply as percentage`.
 
 1. For **Ceiling Adjustment Price**, enter the numerical value for the percent to adjust your Ceiling Price Source.
 
@@ -41,6 +41,6 @@ _Optional Ceiling Price Section_
 |Field |Description|
 |---|---|
 |Ceiling Price Source|Choose the Magento attribute that will indicate your relative ceiling limit. For example, if you don’t want your product listing price to go above the MSRP of your item, you would choose the Manufacturer's Suggested Retail Price attribute. |
-|Ceiling Price Action |Select a pricing adjustment action. Options:<br/>**Decrease By**: Choose when you want the defined Ceiling Price Source value to be adjusted down, creating a lower ceiling price for the rule, before listing to Amazon.<br/>**Increase By**: Choose when you want the defined Ceiling Price Source value to be adjusted up, creating a higher ceiling price for the rule, before listing to Amazon.<br/>**Match**: Choose when you do not want the listing price to fluctuate above the defined Ceiling Price Source value. When selected, the **Apply** and **Ceiling Adjustment Amount** fields are disabled. |
+|Ceiling Price Action |Select a pricing adjustment action. Options:<br/>**Decrease By** - Choose when you want the defined Ceiling Price Source value to be adjusted down, creating a lower ceiling price for the rule, before listing to Amazon.<br/>**Increase By** - Choose when you want the defined Ceiling Price Source value to be adjusted up, creating a higher ceiling price for the rule, before listing to Amazon.<br/>**Match** - Choose when you do not want the listing price to fluctuate above the defined Ceiling Price Source value. When chosen, **Apply** and **Ceiling Adjustment Amount** are disabled. |
 |Apply|Apply as percentage: A percentage adjustment relative to the Ceiling Price Source. |
 |Ceiling Price Adjustment|Enter the numerical value for the percent to adjust your Ceiling Price Source. |

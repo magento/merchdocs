@@ -20,7 +20,7 @@ In the **Select** drop-down:
 {% include amazon-view-details-action.md %}
 
 {:.bs-callout-info}
-If you have listings in process, a message will be displayed above the tabs indicating how many.
+If you have listings in process, a message will appear above the tabs indicating the number of listings.
 
 ![]({% link sales-channels/asc/assets/amazon-listings-new-third-party.png %}){: .zoom}
 _New Third Party Listings_

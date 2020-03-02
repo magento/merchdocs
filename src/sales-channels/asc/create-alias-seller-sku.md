@@ -21,11 +21,11 @@ This function can be used to perform two functions:
 
     After you've created an Alias Amazon Seller SKU, you can use your listing settings, rules, and overrides to control the listing information for the region. Product attributes that can be defined per region for a listing include quantity/stock, fulfillment method, condition, product eligibility, and handling time.
 
-## To create an Alias Amazon Seller SKU to be used for a region-specific purpose
+## Create an Alias Amazon Seller SKU to be used for a region-specific purpose
 
-View the listing in one of the Product Listing screens (Inactive, Active, Ineligible, or Ended).
+View the listing in one of the Product Listing pages (Inactive, Active, Ineligible, or Ended).
 
-1. In the Action column, click **Create Alias Seller SKU**.
+1. Under _Action_, click **Create Alias Seller SKU**.
 
 1. For **Assign New Seller SKU**, enter a unique alphanumeric value.
 
@@ -35,19 +35,19 @@ View the listing in one of the Product Listing screens (Inactive, Active, Inelig
 
     This value auto-populates with the ASIN that is matched to your catalog product. Changing this value will match your catalog product to two Amazon listings based on the ASIN.
 
-1. Toggle the Remove Existing Seller SKU option to Yes or No.
+1. Toggle the Remove Existing Seller SKU option to `Yes` or `No`.
 
-    - **Yes**: Select this option to delete the listing and create a new listing using the new information provided.
+    - **Yes** - Choose to delete the listing and create a new listing using the new information provided.
 
-    - **No**: Select this option to create a new listing and keep the old listing unchanged.
+    - **No** - Choose to create a new listing and keep the old listing unchanged.
 
 1. Click <span class="btn">Save Listing Update</span>.
 
-## To create an Alias Amazon Seller SKU to be used to match a single catalog product to two Amazon listings
+## Create an Alias Amazon Seller SKU to be used to match a single catalog product to two Amazon listings
 
-1. View the listing in one of the Product Listing screens (Inactive, Active, Ineligible, or Ended).
+1. View the listing in one of the Product Listing pages (Inactive, Active, Ineligible, or Ended).
 
-1. In the Action column, click **Create Alias Seller SKU**.
+1. Under _Action_, click **Create Alias Seller SKU**.
 
 1. For **Assign New Seller SKU**, enter a unique alphanumeric value.
 
@@ -57,11 +57,11 @@ View the listing in one of the Product Listing screens (Inactive, Active, Inelig
 
     This value auto-populates with the ASIN that is matched to your catalog product. Changing this value will match your catalog product to two Amazon listings based on the ASIN.
 
-1. Toggle the Remove Existing Seller SKU option to Yes or No.
+1. Toggle the Remove Existing Seller SKU option to `Yes` or `No`.
 
-    - **Yes**: Select this option to delete the listing and create a new listing using the new information provided.
+    - **Yes** - Choose to delete the listing and create a new listing using the new information provided.
 
-    - **No**: Select this option to create a new listing and keep the old listing unchanged.
+    - **No** - Choose to create a new listing and keep the old listing unchanged.
 
 1. Click <span class="btn">Save Listing Update</span>.
 
@@ -72,6 +72,6 @@ _Create an Alias Amazon Seller SKU_
 |--- |--- |
 |Assign New Seller SKU|Enter a new, unique alphanumeric value to be linked to the original Amazon Seller SKU. This number is only used by Amazon Sales Channel to match to your catalog product. You can use any SKU value, but the value can only be used once in your catalog. |
 |Assign New ASIN|Enter the ASIN value for the listing to which you want to match your catalog product. Only modify this field when matching a single catalog product to the ASIN for another listing for the same product. This value must match the ASIN assigned by Amazon or the listing will not be rejected by Amazon. |
-|Remove Existing Seller SKU|Options:<br/>**Yes**: Select this option to delete the listing and create a new listing using the new information provided. The new listing will display in the Active tab, and the old listing will move to the Ended tab.<br/>**No**: Select this option to create a new listing and keep the old listing unchanged. Both listings will display in the Active tab once the new listing is created. |
+|Remove Existing Seller SKU|Options:<br/>**Yes** - Choose to delete the listing and create a new listing using the new information provided. The new listing will display in the Active tab, and the old listing will move to the _Ended_ tab.<br/>**No** - Choose to create a new listing and keep the old listing unchanged. Both listings will display in the Active tab once the new listing is created. |
 
 [1]: https://sellercentral.amazon.com/gp/help/external/help.html?itemID=201394090&amp;language=en_US&amp;ref=efph_201394090_cont_G201062890

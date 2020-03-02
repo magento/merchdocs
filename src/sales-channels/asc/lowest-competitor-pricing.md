@@ -5,7 +5,7 @@ title: Lowest Competitor Pricing
 
 Lowest Competitor Pricing
 
-The Lowest Competitor Pricing table displays the lowest final landing price, but is broken down into shipping price and listing price. This can be used to understand the price positioning of your competitors on Amazon.
+The Lowest Competitor Pricing table shows the lowest final landing price, but is broken down into shipping price and listing price. This can be used to understand the price positioning of your competitors on Amazon.
 
 [Intelligent repricing rules]({% link sales-channels/asc/intelligent-repricing-rules.md %}) can be configured to adjust your pricing based on the competitor prices.
 
