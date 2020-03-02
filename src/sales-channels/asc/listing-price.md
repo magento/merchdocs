@@ -63,7 +63,7 @@ The options listed in Magento Price Source, Minimum Advertised Price (Map), and 
 
 1. For **Currency Conversion**, choose an option. The default is `Disabled`.
 
-   The options in this drop-down depend on your [Magento currency]({% link configuration/general/currency-setup.md %}) settings. If no options are available, you may need to set up your currency settings.
+   The available options depend on your [Magento currency]({% link configuration/general/currency-setup.md %}) settings. If no options are available, you may need to set up your currency settings.
 
 ![]({% link sales-channels/asc/assets/amazon-listing-price.png %}){: .zoom}
 _Listing Price_

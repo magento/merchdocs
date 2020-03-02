@@ -69,7 +69,7 @@ _Example: Manually select ASIN from possible variant matches_
 
 1. For **Condition**, choose the appropriate condition.
 
-   The list of options available here depends on your [Product Listing Condition]({% link sales-channels/asc/product-listing-condition.md %}) settings.
+   The list of available options depends on your [Product Listing Condition]({% link sales-channels/asc/product-listing-condition.md %}) settings.
 
 1. Click <span class="btn">Save Listing Update</span> to save the product match.
 

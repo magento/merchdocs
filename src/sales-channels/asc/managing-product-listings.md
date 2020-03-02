@@ -13,7 +13,7 @@ Product Listing settings are initially defined during onboarding, but can be mod
 
 ## Access product listings
 
-1. On the _Admin_ sidebar, click **Marketing** > _Channels_ > **Amazon**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
 
 1. In the _Amazon Stores_ view, click the store name for which you want to view listings.
 
