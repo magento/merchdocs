@@ -14,7 +14,7 @@ Settings are grouped and available in sections, to expand and configure as neede
 
 ## Manage listing settings
 
-1. View the store's dashboard and click **Listing Settings** in the left-side menu.
+1. View the store's [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}) and click **Listing Settings** in the left-side menu.
 
 1. Expand each section to review and configure listing settings. Complete all required fields to continue.
     - [Product Listing Actions]({% link sales-channels/asc/product-listing-actions.md %}): Defines if eligible Magento products automatically publish to Amazon and the default handling time for shipments (2 is default).

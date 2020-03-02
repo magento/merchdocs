@@ -15,7 +15,10 @@ The API key is validated each time you access your Amazon Sales Channel.
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**. 
 
-    If you need to update your API key, a modal will appear to prompt you through the process.
+    If this is your first time accessing Amazon Sales Channel or if you need to update your API key, a modal will appear to prompt you through the process.
+
+    ![]({% link sales-channels/asc/assets/amazon-api-verification-prompt.png %}){: .zoom}
+    _Get and Add the Amazon API Key Prompt_
 
 1. Click **Sign in** to access your Magento web account.
 
@@ -38,7 +41,7 @@ The API key is validated each time you access your Amazon Sales Channel.
 
 1. On the _Welcome to Amazon Sales Channel_ page, click **Add the key**.
 
-    The browser exits Amazon Sales channel and a store configuration page opens to **Stores** > **Configuration** > **Services** > **Magento Services**.
+    The browser exits Amazon Sales channel and a store configuration page opens the _Api Keys_ page in the Magento Admin at **Stores** > _Settings_ > **Configuration** > **Services** > **Magento Services**.
 
 1. Paste the copied key for **Production Api key**.
 
@@ -47,9 +50,11 @@ The API key is validated each time you access your Amazon Sales Channel.
     ![]({% link sales-channels/asc/assets/config-magento-services-api-screen.png %}){: .zoom}
     _Add your API Key in the Magento Service modal in your Store Configuration_
 
-1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**. Magento verifies and validates your API key and allows you to continue with setup.
+1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**. 
 
-   If prompted to verify the key again, repeat the process.
+   Reaccessing Amazon Sales Channel triggers Magento verify and validate your API key and allows you to continue.
+
+   If prompted to verify the key again, repeat this _Add and Verify_ process.
 
 ![]({% link images/images/btn-next.png %}){: .Inline} [**Continue to Store Integration**]({% link sales-channels/asc/store-integration.md %})
 

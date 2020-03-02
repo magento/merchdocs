@@ -8,7 +8,7 @@ The Amazon Sales Channel home page is your landing page when accessing your Amaz
 ![]({% link sales-channels/asc/assets/amazon-sales-channel-home-tabs.png %}){: .zoom}
 _Amazon Sales Channel home page_
 
-View options available in the left-side menu include:
+Views available in the left-side menu include:
 
 - [Amazon Stores]({% link sales-channels/asc/managing-stores.md %}) - (Default view) View summary information for each of your Amazon Sales Channel stores. Click <span class="btn">View Store</span> to view the store's [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 - Learning and Preparation - Review your Amazon and Magento recommended setup tasks and available learning materials.

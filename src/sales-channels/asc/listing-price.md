@@ -16,7 +16,7 @@ The options listed in Magento Price Source, Minimum Advertised Price (Map), and 
 
 ## Access Listing Settings
 
-1. On the Amazon Sales Channel home page, click **View Store** to view store's dashboard.
+1. On the Amazon Sales Channel home page, click **View Store** to view the store's [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
 1. Click **Listing Settings**. The Listing Settings page appears with the _Product Listing Actions_ section expanded.
 
