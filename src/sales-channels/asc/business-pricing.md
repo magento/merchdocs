@@ -26,7 +26,7 @@ For your products to be listed on the Amazon Business (B2B) site, you must first
 
 1. For **Enable Tiered Pricing**, choose an option (default is `Disabled`).
 
-    - **Disabled** - Choose when you want the same listing price for all order quantities. All Pricing Level fields in this section are disabled when chosen.
+    - **Disabled** - Choose when you want the same listing price for all order quantities. When chosen, all Pricing Level fields in this section are disabled.
 
     - **Enabled** - Choose when you want to enable pricing that adjusts based on order quantity. When enabled, the Pricing Level quantity and discount fields enable.
 
