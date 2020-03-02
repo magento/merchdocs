@@ -24,7 +24,7 @@ When managing Amazon orders in Amazon Sales Channel, you will use the [Magento O
 
 ## View your Amazon order information
 
-1. On the _Admin_ sidebar, click **Marketing** > _Channels_ > **Amazon**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
 
 1. In Amazon Sales Channel Home, click **Orders**.
 
