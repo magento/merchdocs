@@ -1,7 +1,7 @@
 ---
 title: Price Rule Conditions
 redirect_from:
-  - /sales-channels/amazon/ob-pricing-rules-conditions.html
+  - /sales-channels/asc/ob-pricing-rules-conditions.html
 ---
 
 

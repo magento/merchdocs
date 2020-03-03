@@ -15,7 +15,7 @@ If an order is in `Unshipped` status, the _Cancel Order_ option will appear in t
 
 ## Cancel and order in `Unshipped` status
 
-1. View the order on the _Orders_ tab in Amazon Sales Channel Home.
+1. View the order on the _Orders_ tab on the Amazon Sales Channel home page.
 
 1. Under _Action_, click **View Amazon Order Details**.
 

@@ -1,41 +1,36 @@
 ---
-title: Managing Stores
+title: Amazon Stores View
 ---
 
 
-When accessing your Amazon Sales Channel, the _Amazon Stores_ tab opens by default on Amazon Sales Channel Home. In the _Admin_ sidebar, go to **Marketing** >  _Channels_ > **Amazon**.
+When viewing the Amazon Sales Channel home page, the _Amazon Stores_ view opens by default.
 
-The _Amazon Stores_ tab provides a list of your Amazon stores along with some basic statistics and management options. Displayed statistics include each store's status, date created, last updated, available management actions, and defined region. Management options (available under **Select** in the _Actions_ column) include:
+![]({% link sales-channels/asc/assets/amazon-sales-channel-home-tabs.png %}){: .zoom}
+_Amazon Stores view_
 
-- **Manage Store** - The action for this option is dependent on the status of the store selected.
+The _Amazon Stores_ view shows a "store card" for each of your Amazon stores along with some basic statistics and management options. Summary information shown in each card includes each store's status, date created, last updated date, listings that need attention (example: Incomplete Listings) and the assigned Magento website. 
 
-    If the store is in `Active` or `Inactive` status, this shows the [store's dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}) giving you access to the store's data, revenue and order information, and listing and order settings.
-    
-    If the store is in `Setup` status, this shows the [Store Review]({% link sales-channels/asc/ob-store-review.md %}) step for the store's setup process, where you can review and modify your stores settings, listing and order settings, and pricing rules before completing setup.
+When viewing the _Amazon Store_ view, each store card allows you to:
 
-- **Change to Active/Inactive** - Choose when you want to change the status of the store selected. This feature allows you to control order and listing activity at the Amazon regional level, because each Amazon store has a defined region during setup.
+- Click **View Store** to open a store's [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
-    Changing an Inactive store to Active status will activate listings and order activity for the store, using the stores current setup (listing settings, price rules, overrides, etc.)
-    
-    Changing a store's status from `Active` to `Inactive` will suspend listings and order activity for the store. An Inactive store will retain all settings and listings, but will temporarily stop the synchronization of pricing, quantity, and order management until the store is changed to `Active` status. This feature allows you to control your store activity at the Regional level without the need to recreate or reintegrate your Amazon store or the loss of historical order and sales data.
+- Click **Action** to change a store's status or delete a store.
 
-- **Delete Store** - Choose when you wish to delete an existing Amazon store and its integration settings with your Amazon Seller Central account. Deleting the account will remove the store from Amazon Sales Channel, along with all account settings, listings, logs and other information related to this store. The account cannot be retrieved after deletion.
+   - **Activate** / **Deactivate** - Choose to change the status of the store to `Active` or `Inactive`, respectively.
+
+      Changing an `Inactive` store to `Active` status will activate listings and order activity for the store, using the stores current store settings (listing settings, price rules, overrides, etc.)
+
+      Changing a store's status from `Active` to `Inactive` status will suspend listings and order activity for the store. An Inactive store will retain all store settings and listings, but will temporarily stop the synchronization of pricing, quantity, and order management until the store is changed back to `Active` status. This feature allows you to control your store activity at the Regional level without the need to recreate or reintegrate your Amazon store or the loss of historical order and sales data.
+
+   - **Delete** - Choose to delete a store that is no longer needed.
+
+      Choose when you wish to delete an existing Amazon store and its integration settings with your Amazon Seller Central account. Deleting the account will remove the store from Amazon Sales Channel, along with all account settings, listings, logs and other information related to this store. The store cannot be retrieved after deletion, a new store must be created.
 
 {:.bs-callout-info}
-To change the website assigned to the store during integration, you must delete the store and add the store again with the different website through the onboarding process.
+To change the website assigned to the store during integration, you must delete the store and add the store again with the different website defined during store integration.
 
-You will notice some [workspace controls]({% link sales-channels/asc/workspace-controls.md %}) that are common throughout the Amazon Sales Channel.
-
-One workspace control unique to the Amazon Stores tab is the <span class="btn">Setup Amazon Store</span> button. When you want to set up a new Amazon store, click this button and begin the [onboarding]({% link sales-channels/asc/amazon-onboarding-home.md %}) for the new store.
-
-![]({% link sales-channels/asc/assets/amazon-managing-stores.png %}){: .zoom}
-_Amazon Stores_
-
-|Column|Description|
+|Store Card|Description|
 |--- |--- |
-|Amazon Store Name|The name defined for each store during its [store integration]({% link sales-channels/asc/store-integration.md %}).|
-|Region|The region (defined during [store integration]({% link sales-channels/asc/store-integration.md %})) in which your Amazon store sells. Example: United States, Canada, United Kingdom.|
-|Status|The status of your store. Options:<br/>**In Setup** - Store setup is incomplete and not available for sales activity. Accessing or managing the store opens in Onboarding steps. <br/>**Active** - Store setup is complete and verified with Amazon and is available for sales activity. To review revenue and update settings, see [Store Dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).<br/>**Inactive** - Store setup is complete, but is not in use or available for sales activity. You may want to set to inactive to pause sales on Amazon. If active, sales revenue and additional settings save to update prior to activating. To review revenue and update settings, see [Store Dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).|
-|Created On|The date the Amazon store was created in Amazon Sales Channel.|
-|Last Updated|The date of the most recent change to the Amazon store's setup.|
-|Actions|Lists available actions that can be applied to the store listed. Click **Select** and choose an option. Options:<br/>[Manage Store]({% link sales-channels/asc/managing-stores.md %})<br/>[Change To Active/Inactive]({% link sales-channels/asc/managing-stores.md %})<br/>[Delete Store]({% link sales-channels/asc/managing-stores.md %})
+|Top section|Includes: <br/>The region icon for the store, defined during store integration.<br/> The assigned **Magento Website**, defined during store integration.<br/>The **Status** of your store. Options: **Active** - Store integration is complete and verified with Amazon and is available for sales activity. **Inactive** - Store integration is complete, but is not in use or available for sales activity. When `Inactive`, your Amazon sales are paused. When `Active`, sales revenue and additional settings save to update prior to activating.<br/>The **Last Updated** date of the most recent change to the Amazon store's setup.<br/>The **Created** date when the Amazon store was created in Amazon Sales Channel.|
+|Middle Section|Includes a store activity summary chart for the last 30 days and includes and alert for any listings that need attention.|
+|Bottom section|Includes the View Store and Action options.<br/>Click **View Store** to open the store's [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).<br/> Click **Actions** to activate, deactivate, or delete a store.|

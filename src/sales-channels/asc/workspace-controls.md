@@ -3,7 +3,7 @@ title: Workspace Controls
 ---
 
 
-[Amazon Sales Channel Home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) have some common workspace controls including Filters, Default View, Columns, and Export. Not all pages will have the same control options.
+The [Amazon Sales Channel home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) page has some common workspace controls including Filters, Default View, Columns, and Export. Not all pages will have the same control options.
 
 ![]({% link sales-channels/asc/assets/amazon-workspace-controls.png %}){: .zoom}
 _Amazon Sales Channel Workspace Controls Examples_
@@ -34,7 +34,7 @@ When you have your filtering options set, click **Apply Filters** to filter the 
 ![]({% link sales-channels/asc/assets/workspace-controls-filters.png %}){: .zoom}
 _Filters Control Example_
 
-After you apply filters to your data, **Active Filters** information will appear. You can click the ![]({% link sales-channels/asc/assets/x-icon-clear-filters.png %}){: .Inline}icon to clear a specific filter option or click **Clear All** to clear all applied filters.
+After you apply filters to your data, **Active Filters** information will appear. You can click the ![]({% link sales-channels/asc/assets/x-icon-clear-filters.png %}){: .Inline} icon to clear a specific filter option or click **Clear All** to clear all applied filters.
 
 ![]({% link sales-channels/asc/assets/applied-filters-line.png %}){: .zoom}
 _Active Filters Example_

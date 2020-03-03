@@ -8,7 +8,7 @@ Listing rules are initially defined during onboarding, but can be modified at an
 
 1. Click <span class="btn">View Store</span> for the added store.
 
-    The store's dashboard appears with the `No products listed to Amazon` message.
+    The store's [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}) appears with the `No products listed to Amazon` message.
 
 1. Click <span class="btn">Preview and List Eligible Products</span>.
 
@@ -35,7 +35,7 @@ Listing rules are initially defined during onboarding, but can be modified at an
 
 1. When complete, click <span class="btn">Save and Close</span>.
 
-   The store's dashboard opens.
+   The store's [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}) opens.
 
 Completing the store's integration initiates the order import for Pending/Unshipped orders created after the integration was created.
 

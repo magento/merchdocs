@@ -1,7 +1,7 @@
 ---
 title: Listing Rule Preview
 redirect_from:
-  - /sales-channels/amazon/ob-listing-preview.html
+  - /sales-channels/asc/ob-listing-preview.html
 ---
 
 When you are modifying your condition definitions for your listing rules for an Active store, you can click **Preview Changes** to apply your rules changes and view how your listings are impacted. It is recommended to verify your listings in this listing preview feature before saving your changes to your listing rules.

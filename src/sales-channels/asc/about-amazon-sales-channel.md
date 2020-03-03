@@ -16,7 +16,7 @@ The integration connects Magento and Amazon to sync data between both platforms.
 
 - Review logs for analysis and errors for [competitive prices]({% link sales-channels/asc/store-reports.md %}), [listing changes]({% link sales-channels/asc/listing-changes-log.md %}), and [communication issues]({% link sales-channels/asc/communication-errors-log.md %}).
 
-Manage and review all of these features, account information, listings, orders, and more on the [Amazon Sales Channel Home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) central dashboard.
+Manage and review all of these features, account information, listings, orders, and more on the [Amazon Sales Channel home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) page.
 
 ## Promotions and Pricing
 

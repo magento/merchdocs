@@ -3,31 +3,31 @@ title: Amazon Sales Channel
 sections:
    - title: Getting Started with Amazon Sales Channel
      content: Learn more about Amazon and Amazon Sales Channel basics, key features, best practices, and more.
-     url: /sales-channels/amazon/amazon-getting-started.html
+     url: /sales-channels/asc/amazon-getting-started.html
 
    - title: Onboarding Amazon Sales Channel
      content: Quickly setup and integrate Amazon Seller Central and Magento with a guided onboarding process. Get your Amazon Sales Channel up and running to start selling.
-     url: /sales-channels/amazon/amazon-onboarding-home.html
+     url: /sales-channels/asc/amazon-onboarding-home.html
 
    - title: Amazon Sales Channel Home
-     content: Learn more about your Amazon Sales Channel Home dashboard and options available. Access and manage store configurations, listings, and more.
-     url: /sales-channels/amazon/amazon-sales-channel-home.html
+     content: Learn more about your Amazon Sales Channel home page and options available. Access and manage store configurations, listings, and more.
+     url: /sales-channels/asc/amazon-sales-channel-home.html
 
    - title: Managing Attributes
      content: Amazon Sales Channel maps products between your Magento catalog and Amazon using product attributes. Learn more about creating, mapping, and managing those attributes.
-     url: /sales-channels/amazon/managing-product-listings.html
+     url: /sales-channels/asc/managing-product-listings.html
 
    - title: Managing Amazon Listings
      content: As you continue selling through the Amazon Marketplace, you may need to update, add, and manage your listings (settings, rules, and pricing). Learn more about reviewing the status and completing updates.
-     url: /sales-channels/amazon/managing-product-listings.html
+     url: /sales-channels/asc/managing-product-listings.html
 
    - title: Managing Orders and Fulfillment
      content: Amazon Sales Channel supports order fulfillment and shipments through Amazon and Magento. Learn more about fulfilling through Amazon, directly through Magento, and order management options.
-     url: /sales-channels/amazon/managing-orders.html
+     url: /sales-channels/asc/managing-orders.html
 
    - title: Logs and Reports
      content: Learn more about tracked errors and interactions between Amazon and Magento.
-     url: /sales-channels/amazon/amazon-logs-reports.html
+     url: /sales-channels/asc/amazon-logs-reports.html
 ---
 
 Amazon Sales Channel in Magento is a powerful, comprehensive extension that enables Magento merchants to seamlessly sell products in the Amazon Marketplace, the world's largest global internet shopping destination. This extension enables Amazon sales by integrating Magento with your Amazon Seller Central account and providing both automation and synchronization of catalog and order data. Completely manage all Amazon listings, implement simple or intelligent pricing rules, and maintain your orders and inventory through a single Magento dashboard.

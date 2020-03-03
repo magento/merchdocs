@@ -3,7 +3,7 @@ title: Amazon Store Dashboard
 ---
 
 
-In the _Amazon Stores_ view in Amazon Sales Channel Home, you can click **View Store** for a store (in Active or Inactive status) to access the store's dashboard.
+In the _Amazon Stores_ view on Amazon Sales Channel home page, you can click **View Store** for a store (in Active or Inactive status) to access the store's [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
 The store dashboard is the primary location for you to view the activity for one of your Amazon stores. With your Amazon Seller stores added and integrated, all orders and sales track through your store data view. On the dashboard, you can view revenue, track trends, and review sales data for all listings. All listings and sales are further grouped and tracked by listing type, including active, inactive, in-progress, incomplete, and orders awaiting shipment.
 

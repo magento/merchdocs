@@ -25,6 +25,6 @@ title: Managing Product Listings by Tab
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
 
-1. In the _Amazon Stores_ tab, click the store name for which you want to view listings.
+1. In the _Amazon Stores_ view, click the store name for which you want to view listings.
 
 1. On the store [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}), under _I Want to See..._, click **Manage Listings**.

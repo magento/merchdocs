@@ -1,7 +1,7 @@
 ---
 title: Managing Amazon Pricing
 redirect_from:
-  - /sales-channels/amazon/ob-pricing-rules.html
+  - /sales-channels/asc/ob-pricing-rules.html
 ---
 
 Amazon Sales Channel gives you the ability to set pricing rules, which allow you to set your Amazon listing price different than your Price Source. Additionally, you can stack multiple rules and even use the intelligent pricing to adjust your Amazon listing price based on competitors' Buy Box price or the lowest competitor price.

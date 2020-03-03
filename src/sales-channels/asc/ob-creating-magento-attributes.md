@@ -2,7 +2,7 @@
 title: Create Magento Attributes for Amazon
 ---
 
-Prior to onboarding your Amazon Seller Central accounts, we recommend adding Magento [product attributes]({% link stores/attributes-product.md %}) to map your product listings. After you complete onboarding, you can manage your product attributes through the [Managing Attributes]({% link sales-channels/asc/managing-attributes.md %}) tab of the [Amazon Sales Channel Home]({% link sales-channels/asc/amazon-sales-channel-home.md %}).
+Prior to onboarding your Amazon Seller Central accounts, we recommend adding Magento [product attributes]({% link stores/attributes-product.md %}) to map your product listings. After you complete onboarding, you can manage your product attributes through the [Attributes]({% link sales-channels/asc/managing-attributes.md %}) tab of the [Amazon Sales Channel home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) page.
 
 These instructions detail how to create Magento attributes for Amazon ASIN and Amazon Condition. We recommend creating additional attributes including Amazon EAN, Amazon ISBN, and Amazon UPC. You may want to also create an Amazon Price attribute if you want to use your Amazon listing price as a price source for pricing rules. These attributes are used when configuring your listing and pricing settings during onboarding. They are also be used when creating Amazon listings and when updating and syncing your Magento catalog with your Amazon listings.
 

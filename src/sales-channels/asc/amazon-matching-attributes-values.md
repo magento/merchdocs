@@ -1,5 +1,5 @@
 ---
-title: Reviewing Amazon Attribute Values
+title: Review Amazon Attribute Values
 ---
 
 
@@ -7,20 +7,20 @@ As you map Amazon attributes to Magento attributes, Amazon Sales Channel tracks 
 
 The Amazon Value differs depending on the attribute type and the Amazon attribute you view. For example, a listed Amazon value for `Label` would be a text value while `AmazonListPrice` would be a numerical amount. The status indicates if the Amazon value has been imported.
 
-## Review attribute values
+## Review your attribute values
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
 
-1. Click the _Attributes_ tab, locate an Amazon attribute, and click either **Create Attribute** or **Edit Attribute**.
+1. Click **Attributes** in the left-side menu, locate an Amazon attribute, and click either **Create** or **Edit** in the _Action_ column.
 
-1. Click the _Matching Attribute Values_ tab.
+1. Click the **Matching Attribute Values** tab.
 
 1. To further review Magento product information, click a linked Magento Product SKU.
 
     The _Magento product edit_ page opens.
 
 ![]({% link sales-channels/asc/assets/amazon-managing-attribute-values.png %}){: .zoom}
-_Managing Attribute Values_
+_Review Attribute Values_
 
 |Field|Description|
 |--- |--- |

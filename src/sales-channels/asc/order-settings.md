@@ -1,7 +1,7 @@
 ---
 title: Order Settings
 redirect_from:
-  - /sales-channels/amazon/ob-order-settings.html
+  - /sales-channels/asc/ob-order-settings.html
 ---
 
 You can access your order settings on the [store's dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}). In the left-side menu, click **Order Settings**. The _Order Settings_ page opens.
@@ -10,16 +10,16 @@ Order Settings define how Amazon orders are imported into and processed in Magen
 
 Beginning when you integrate Amazon Sales Channel with your Amazon Seller Central account during onboarding, Amazon orders import and create new orders in Amazon Sales Channel. Amazon orders are imported and create new orders when the Amazon sets the order status to `Unshipped`. Orders that existed in Amazon in any status other than `Unshipped` prior to your store's integration will not import.
 
-When an order is created on Amazon, it is not immediately imported into Amazon Sales Channel. Amazon assigns a `Pending` status to newly created orders. Once Amazon verifies the order and payment method, Amazon changes the order's status to `Unshipped`. This status change triggers Amazon Sales Channel to import the order and create a corresponding order. Amazon Sales Channel creates a matching order that corresponds to the Amazon order. Orders created in Amazon Sales Channel display and can be managed in the [Orders]({% link sales-channels/asc/managing-orders.md %}) tab in Amazon Sales Channel Home.
+When an order is created on Amazon, it is not immediately imported into Amazon Sales Channel. Amazon assigns a `Pending` status to newly created orders. After it verifies the order and payment method, Amazon changes the order's status to `Unshipped`. This status change triggers Amazon Sales Channel to import the order and create a corresponding order. Amazon Sales Channel creates a matching order that corresponds to the Amazon order. Orders created in Amazon Sales Channel are displayed and can be managed in the [_Orders_]({% link sales-channels/asc/managing-orders.md %}) tab on the Amazon Sales Channel home page.
 
 {:.bs-callout-info}
 When an order is received from Amazon, the extension is set to Create Magento Order, and the ordered item SKU cannot be matched to an existing Magento catalog product, the order synchronization process: <br/>- creates a Magento catalog product with the SKU<br/>- Sets the product status to `Disabled` and the inventory setting to `Do Not Manage Inventory`<br/>- Creates the Magento order
 
-# To configure Order Settings:
+# Configure Order Settings
 
 1. Click **Order Settings** in the onboarding progress bar.
 
-1. For **Import Amazon Orders** (required), choose an option in the drop-down:
+1. For **Import Amazon Orders** (required), choose an option:
 
     - **Disabled** - Choose when you do not want to create corresponding orders in Magento when new orders are received from Amazon. When chosen, all other fields on this page are disabled.
 
@@ -28,7 +28,7 @@ When an order is received from Amazon, the extension is set to Create Magento Or
     {:.bs-callout .bs-callout-info}
     Must be set to `Enabled` to manage Amazon orders in Amazon Sales Channel. When set to `Disabled`, your Amazon orders will display in the Orders tab but will not have a corresponding Magento order number and cannot be managed in Amazon Sales Channel. Information for these orders is for review only. You must manage these orders in your Amazon Seller Central account.
 
-1. For **Import Amazon Orders Into Magento Store** (required), choose which Magento Store the Amazon orders will be associated with when they are created in the Magento Order grid. The list of options in this drop-down is dependent on the Magento stores you have set up in your configuration. See [Stores]({% link stores/stores-all-stores.md %}).
+1. For **Import Amazon Orders Into Magento Store** (required), choose which Magento Store the Amazon orders will be associated with when they are created in the Magento Order grid. The list of options depends on the Magento stores you have set up in your configuration. See [Stores]({% link stores/stores-all-stores.md %}).
 
 1. For **Customer Creation**, choose an option:
 
@@ -43,13 +43,13 @@ When an order is received from Amazon, the extension is set to Create Magento Or
     - **Build Using Amazon Order Number** - Choose when you want to create the Magento order number using the corresponding Amazon-assigned order number.
 
     {:.bs-callout .bs-callout-info}
-    Once an order is imported, the Amazon Order Number and the Magento Order Number display in the [Orders tab]({% link sales-channels/asc/managing-orders.md %}).
+    After an order is imported, the Amazon Order Number and the Magento Order Number are displayed in the [_Orders_ tab]({% link sales-channels/asc/managing-orders.md %}).
 
 1. For **Pending Orders** (required), choose an option:
 
-    - **Do Not Reserve Quantity** - Choose when you do not want your Magento stock quantity affected by your Amazon orders. Choose when you use Amazon for your fulfillment process (FBA). When this option is selected and you receive an Amazon order, the quantity ordered will not affect your Magento stock quantity.
+    - **Do Not Reserve Quantity** - Choose when you do not want your Magento stock quantity affected by your Amazon orders. Choose when you use Amazon for your fulfillment process (FBA). When this option is chosen and you receive an Amazon order, the quantity ordered will not affect your Magento stock quantity.
 
-    - **Reserve Quantity** - Choose when you want the order quantity in the Amazon order to be "reserved" in your Magento stock quantity. When this option is selected and you receive an Amazon order, the quantity ordered will "reserve" in your Magento stock quantity to prevent your Magento stock from "over selling."
+    - **Reserve Quantity** - Choose when you want the order quantity in the Amazon order to be "reserved" in your Magento stock quantity. When this option is chosen and you receive an Amazon order, the quantity ordered will "reserve" in your Magento stock quantity to prevent your Magento stock from "over selling."
 
     {:.bs-callout .bs-callout-info}
     Remember, Amazon orders do not import into and create new orders in Magento until Amazon verifies the order and payment method and changes the order status to `Unshipped`.
@@ -60,7 +60,7 @@ When an order is received from Amazon, the extension is set to Create Magento Or
 
     - **Custom Order Status** - Choose when you want newly created orders imported from Amazon to be assigned a status other than the default.
 
-       - **Processing Order Status** - Enables when **Order Status** is set to `Custom Order Status`. Select the status you want to use for newly created orders imported from Amazon. The options that display in this field are based on the default status options in Magento. See [Order Status]({% link sales/order-status.md %}). You can also create a custom order status to display here for selection. To create a custom order status, see [Custom Order Status]({% link sales/order-status-custom.md %}).
+       - **Processing Order Status** - Enables when **Order Status** is set to `Custom Order Status`. Choose the status you want to use for newly created orders imported from Amazon. The options that display in this field are based on the default status options in Magento. See [Order Status]({% link sales/order-status.md %}). You can also create a custom order status to display here for selection. To create a custom order status, see [Custom Order Status]({% link sales/order-status-custom.md %}).
 
 ![]({% link sales-channels/asc/assets/amazon-order-settings.png %}){: .zoom}
 _Order Settings_
@@ -68,12 +68,12 @@ _Order Settings_
 |Field|Description|
 |---|---|
 |Import Amazon Orders|Options:<br/>**Disabled** - Choose when you do not want to create corresponding orders in Magento when new orders are received from Amazon. When chosen, all other fields on this page are disabled.<br/>**Enabled** - Choose when you want to create corresponding Magento orders when new orders are received from Amazon. Magento orders are created based on Amazon status and stock levels.<br/><br/>`Enabled` must be chosen to manage Amazon orders in Amazon Sales Channel. When `Disabled` is chosen, your Amazon orders will display in the _Orders_ tab but will not have a corresponding Magento order number and cannot be managed in Amazon Sales Channel. Information for these orders is for review only. You must manage these orders in your Amazon Seller Central account. |
-|Import Amazon Orders Into Magento Store|Select which Magento Store the Amazon orders will be associated with when they are created in the Magento Order grid. The list of options depends on the Magento stores you have set up in your configuration. See [Stores]({% link stores/stores-all-stores.md %}). |
-|Customer Creation|Options:<br/>**No Customer Creation (guest)** - Choose when you do not want to create a customer account in Magento using the imported customer data from the Amazon order. When chosen, this option tells Amazon Sales Channel to process an imported Amazon order the same way it processes a guest checkout in Magento.<br/>**Build New Customer Account** - Cho ose when you want to create a New Customer Account in your Magento customer database using the customer data imported with the Amazon order. This builds your Magentocustomer database from your Amazon orders. |
+|Import Amazon Orders Into Magento Store|Choose which Magento Store the Amazon orders will be associated with when they are created in the Magento Order grid. The list of options depends on the Magento stores you have set up in your configuration. See [Stores]({% link stores/stores-all-stores.md %}). |
+|Customer Creation|Options:<br/>**No Customer Creation (guest)** - Choose when you do not want to create a customer account in Magento using the imported customer data from the Amazon order. When chosen, this option tells Amazon Sales Channel to process an imported Amazon order the same way it processes a guest checkout in Magento.<br/>**Build New Customer Account** - Choose when you want to create a New Customer Account in your Magento customer database using the customer data imported with the Amazon order. This builds your Magento customer database from your Amazon orders. |
 |Order Number Source|Options:<br/>**Build Using Magento Order Number** - Choose when you want to create a unique Amazon Sales Channel order number for the corresponding Amazon order using the Magento incrementally-assigned order ID. <br/>**Build Using Amazon Order Number** - Choose when you want to create the Magento order number using the corresponding Amazon-assigned order number. |
 |Pending Orders|Options:<br/>**Do Not Reserve Quantity** - Choose when you do not want your Magento stock quantity affected by your Amazon orders. Choose this option if you use Amazon for your fulfillment process (FBA). When chosen and you receive an Amazon order, the quantity ordered will not affect your Magento stock quantity.<br/>**Reserve Quantity** - Choose when you want the order quantity in the Amazon order to be "reserved" in your Magento stock quantity. When chosen and you receive an Amazon order, the quantity ordered will "reserve" in your Magento stock quantity to prevent your Magento stock from "over selling." The "reserved" quantity will not be available for purchase through your Magento storefront. |
 |Order Status|Options:<br/>**Default Order Status** - Choose when you want newly created orders imported from Amazon to be assigned your defined default order status for new orders. The default status for new orders (unless you have created a custom order status for new orders) is `Pending`. See [Processing Orders]({% link sales/order-processing.md %}).<br/>**Custom Order Status** - Choose when you want newly created orders imported from Amazon to be assigned a status other than the default. When chosen, **Processing Order Status** enables for you to choose the status you want to use for newly created orders imported from Amazon. |
-|Processing Orders Status|Enables when Order Status is set to `Custom Order Status`." Choose an option. The options that display in this field depend on the default status options in Magento. See [Order Status]({% link sales/order-status.md %}). You can also create a custom order status to display here. To create a custom order status, see [Custom Order Status]({% link sales/order-status-custom.md %}). |
+|Processing Orders Status|Enables when **Order Status** is set to `Custom Order Status`." Choose an option. The options that display in this field depend on the default status options in Magento. See [Order Status]({% link sales/order-status.md %}). You can also create a custom order status to display here. To create a custom order status, see [Custom Order Status]({% link sales/order-status-custom.md %}). |
 
 ## Magento Order Creation
 

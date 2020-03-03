@@ -101,7 +101,28 @@ pages:
           url: "/sales-channels/asc/store-integration.html"
         - label: Create Listing Rule
           url: "/sales-channels/asc/ob-create-listing-rule.html"
-      - label: Store Settings
+      - label: Amazon Sales Channel Home
+        url: "/sales-channels/asc/amazon-sales-channel-home.html"
+        children:
+        - label: Amazon Stores
+          url: "/sales-channels/asc/managing-stores.html"
+          children:
+        - label: Learning and Preparation
+          url: "/sales-channels/asc/learning-preparation.html"
+        - label: Attributes
+          url: "/sales-channels/asc/attributes-view.html"
+          children:
+          - label: Managing Attributes
+            url: "/sales-channels/asc/managing-attributes.html"
+          - label: Create and Edit Attributes
+            url: "/sales-channels/asc/creating-attributes.html"
+          - label: Review Attribute Values
+            url: "/sales-channels/asc/amazon-matching-attributes-values.html"
+      - label: Sales Channel Admin Settings
+        url: "/sales-channels/asc/sales-channel-settings.html"
+      - label: Amazon Store Dashboard
+        url: "/sales-channels/asc/amazon-store-dashboard.html"
+      - label: Manage Store Settings
         url: "/sales-channels/asc/ob-store-review.html" 
         children:
         - label: Listing Settings
@@ -182,25 +203,6 @@ pages:
                 url: "/sales-channels/asc/communication-errors-log.html"
             - label: Store Integration Settings
               url: "/sales-channels/asc/store-integration-settings.html"
-      - label: Amazon Sales Channel Home
-        url: "/sales-channels/asc/amazon-sales-channel-home.html"
-        children:
-        - label: Amazon Stores
-          url: "/sales-channels/asc/managing-stores.html"
-          children:
-          - label: Sales Channel Admin Settings
-            url: "/sales-channels/asc/sales-channel-settings.html"
-          - label: Amazon Store Dashboard
-            url: "/sales-channels/asc/amazon-store-dashboard.html"
-        - label: Learning and Preparation
-          url: "/sales-channels/asc/learning-preparation.html"
-        - label: Attributes
-          url: "/sales-channels/asc/managing-attributes.html"
-          children:
-          - label: Create and Edit Attributes
-            url: "/sales-channels/asc/creating-attributes.html"
-          - label: Manage Attribute Values
-            url: "/sales-channels/asc/amazon-matching-attributes-values.html"
       - label: Manage Listings
         url: "/sales-channels/asc/managing-product-listings.html"
         children:

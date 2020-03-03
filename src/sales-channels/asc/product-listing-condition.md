@@ -1,7 +1,7 @@
 ---
 title: Product Listing Condition
 redirect_from:
-  - /sales-channels/amazon/ob-product-listing-condition.html
+  - /sales-channels/asc/ob-product-listing-condition.html
 ---
 
 Product Listing Condition settings are part of your store's listing settings. You can access the listing settings for an Active or Inactive store in the [store's dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}). In the **I Want To...** section, click **Listing Settings**. The _Listing Settings_ page opens with the _Product Listing Actions_ section expanded by default. Click **Product Listing Condition** to expand the section, if needed.
