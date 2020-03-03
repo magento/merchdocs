@@ -10,12 +10,12 @@ Order Settings define how Amazon orders are imported into and processed in Magen
 
 Beginning when you integrate Amazon Sales Channel with your Amazon Seller Central account during onboarding, Amazon orders import and create new orders in Amazon Sales Channel. Amazon orders are imported and create new orders when the Amazon sets the order status to `Unshipped`. Orders that existed in Amazon in any status other than `Unshipped` prior to your store's integration will not import.
 
-When an order is created on Amazon, it is not immediately imported into Amazon Sales Channel. Amazon assigns a `Pending` status to newly created orders. Once Amazon verifies the order and payment method, Amazon changes the order's status to `Unshipped`. This status change triggers Amazon Sales Channel to import the order and create a corresponding order. Amazon Sales Channel creates a matching order that corresponds to the Amazon order. Orders created in Amazon Sales Channel display and can be managed in the [_Orders_]({% link sales-channels/asc/managing-orders.md %}) tab on the Amazon Sales Channel home page.
+When an order is created on Amazon, it is not immediately imported into Amazon Sales Channel. Amazon assigns a `Pending` status to newly created orders. After it verifies the order and payment method, Amazon changes the order's status to `Unshipped`. This status change triggers Amazon Sales Channel to import the order and create a corresponding order. Amazon Sales Channel creates a matching order that corresponds to the Amazon order. Orders created in Amazon Sales Channel are displayed and can be managed in the [_Orders_]({% link sales-channels/asc/managing-orders.md %}) tab on the Amazon Sales Channel home page.
 
 {:.bs-callout-info}
 When an order is received from Amazon, the extension is set to Create Magento Order, and the ordered item SKU cannot be matched to an existing Magento catalog product, the order synchronization process: <br/>- creates a Magento catalog product with the SKU<br/>- Sets the product status to `Disabled` and the inventory setting to `Do Not Manage Inventory`<br/>- Creates the Magento order
 
-# onfigure Order Settings
+# Configure Order Settings
 
 1. Click **Order Settings** in the onboarding progress bar.
 
@@ -43,7 +43,7 @@ When an order is received from Amazon, the extension is set to Create Magento Or
     - **Build Using Amazon Order Number** - Choose when you want to create the Magento order number using the corresponding Amazon-assigned order number.
 
     {:.bs-callout .bs-callout-info}
-    Once an order is imported, the Amazon Order Number and the Magento Order Number display in the [_Orders_ tab]({% link sales-channels/asc/managing-orders.md %}).
+    After an order is imported, the Amazon Order Number and the Magento Order Number are displayed in the [_Orders_ tab]({% link sales-channels/asc/managing-orders.md %}).
 
 1. For **Pending Orders** (required), choose an option:
 
