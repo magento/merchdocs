@@ -3,7 +3,7 @@ title: Learning and Preparation
 ---
 
 
-The _Learning and Preparation_ view contains a list of pre-setup tasks and available learning materials, such as:
+The _Learning and Preparation_ view shows the list of pre-setup tasks that are recommended prior to integrating your Amazon stores. It also provides links to learning materials, such as:
 
 - [User Guide]({% link sales-channels/asc/amazon-sales-channel.md %})
 - Video tutorials

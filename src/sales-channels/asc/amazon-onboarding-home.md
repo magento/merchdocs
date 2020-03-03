@@ -11,7 +11,7 @@ Amazon Sales Channel supports the creation of multiple Amazon Sales Channel stor
 **Helpful onboarding tips.**
 <br/>Amazon Sales Channel requires a [Professional Seller account][1]{:target="_blank"} on Amazon Seller Central, in the North America or European (UK) region. Amazon charges a monthly subscription and fees for selling. See [Amazon: Choose your selling plan][2]{:target="_blank"}.<br/>
 <br/>Onboarding is simple. Just create your store and then connect it to to your Amazon Seller Central account.<br/>
-<br/>When your store is connected, Amazon Sales Channel attempts to import your Amazon listings and match them to your catalog, based on your [attribute mapping]({% link sales-channels/asc/managing-attributes.md %}).<br/>
+<br/>When your store is connected, Amazon Sales Channel attempts to import your Amazon listings and match them to your catalog, based on your [attribute mapping]({% link sales-channels/asc/attributes-view.md %}).<br/>
 <br/>Your Amazon Sales Channel settings affect your Amazon listings. Your initial listing, pricing, and product settings are defaulted for you. You can modify your listing, pricing, order, and reporting settings after you've connected your Amazon Seller Central account.
 
 |Steps|What Happens|
