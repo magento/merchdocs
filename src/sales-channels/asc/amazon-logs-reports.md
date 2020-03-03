@@ -6,13 +6,13 @@ Amazon Sales Channel includes some valuable logs and store reports that allow yo
 
 No actions are available for the logs or store reports, as they are review-only features.
 
-The following logs can be accessed from the [store's dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
+The following logs can be accessed from the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
 - The [Listing Changes Log]({% link sales-channels/asc/listing-changes-log.md %}) shows the changes that have occurred in your Amazon Seller Account as a reflection of your Amazon Sales Channel settings.
 
 - The [Communication Errors Log]({% link sales-channels/asc/communication-errors-log.md %}) shows any reported communication errors with Amazon.
 
-The following store-specific reports can be accessed from the [store's dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
+The following store-specific reports can be accessed from the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
 - The [Competitive Price Analysis]({% link sales-channels/asc/competitive-price-analysis.md %}) report shows your Amazon landed price (listing price plus shipping price) in relation to the Buy Box price and lowest competitor price.
 

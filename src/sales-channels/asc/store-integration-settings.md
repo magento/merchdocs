@@ -7,9 +7,9 @@ After integrating your store, review and configure the integration settings stor
 
 ## Modify store integration settings
 
-1. Click a store name in the _Amazon Stores_ view on the Amazon Sales Channel home page to display the store's [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
+1. Click a store name in the _Amazon Stores_ view on the Amazon Sales Channel home page to display the store [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
-1. On the [store's dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}), under the _I Want To..._ header, click **Store Integration Settings**.
+1. On the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}), under the _I Want To..._ header, click **Store Integration Settings**.
 
 1. For **Email Address**, update your preferred contact email address.
 

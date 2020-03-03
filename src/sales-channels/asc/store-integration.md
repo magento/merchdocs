@@ -51,7 +51,7 @@ After integrating your Amazon account, you will be prompted annually to renew yo
 
    The modal will close and the new store will appear on the [Amazon Sales Channel home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) page with a confirmation message that the store was created successfully.
 
-1. For the newly created store, click <span class="btn">Connect store</span> on the new store's card to launch Amazon Seller Central in a new tab.
+1. For the newly created store, click <span class="btn">Connect store</span> on the new store card to launch Amazon Seller Central in a new tab.
 
 1. Enter your Amazon Seller Central account credentials and click <span class="btn">Sign in</span>.
 

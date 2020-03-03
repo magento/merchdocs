@@ -3,7 +3,7 @@ title: Amazon Store Dashboard
 ---
 
 
-In the _Amazon Stores_ view on Amazon Sales Channel home page, you can click **View Store** on a store card to open the store's dashboard.
+In the _Amazon Stores_ view on Amazon Sales Channel home page, you can click **View Store** on a store card to open the store dashboard.
 
 The store dashboard is the primary location for you to view the activity for each of your Amazon stores. With your Amazon Seller stores added and integrated, orders and sales track through your store data view. On the dashboard, you can view revenue, track trends, and review sales data for your listings. Listings and sales are further grouped and tracked by listing type, including active, inactive, and in-progress.
 
@@ -22,7 +22,7 @@ The header of the store dashboard displays the same basic store information that
 
 The store dashboard also includes store data and links to settings or more information:
 
-- [**Store Settings**]({% link sales-channels/asc/ob-store-review.md %}) - Access your store's settings and reports.
+- [**Store Settings**]({% link sales-channels/asc/ob-store-review.md %}) - Access your store settings and reports.
 
    - [**Listing settings**]({% link sales-channels/asc/listing-settings.md %}) - Control how your product catalog interacts with the Amazon marketplace.
    - [**Order settings**]({% link sales-channels/asc/order-settings.md %}) - Control how Amazon orders are managed.
@@ -32,7 +32,7 @@ The store dashboard also includes store data and links to settings or more infor
    - **Logs** - [Listing changes]({% link sales-channels/asc/listing-changes-log.md %}) and [communication errors]({% link sales-channels/asc/communication-errors-log.md %}).
    - [**Store integration settings**]({% link sales-channels/asc/store-integration-settings.md %}) - Review email and Amazon Sales Channel store name settings in the Magento Admin.
 
-- **Store Listings** - Shows a graphical representation for the store's sales for the last 7 or 30 days along with lifetime sales data.
+- **Store Listings** - Shows a graphical representation for the store sales for the last 7 or 30 days along with lifetime sales data.
 
    This section also shows listing counts for your [active listings]({% link sales-channels/asc/active-listings.md %}), [inactive listings]({% link sales-channels/asc/inactive-listings.md %}), and in progress listings, along with links to their corresponding [_Product Listings_]({% link sales-channels/asc/managing-product-listings.md %}) page. You can also click [**Manage Listings**]({% link sales-channels/asc/managing-product-listings.md %}) to open the [_Product Listings_]({% link sales-channels/asc/managing-product-listings.md %}) page.
 
