@@ -15,7 +15,7 @@ When an order is created on Amazon, it is not immediately imported into Amazon S
 {:.bs-callout-info}
 When an order is received from Amazon, the extension is set to Create Magento Order, and the ordered item SKU cannot be matched to an existing Magento catalog product, the order synchronization process: <br/>- creates a Magento catalog product with the SKU<br/>- Sets the product status to `Disabled` and the inventory setting to `Do Not Manage Inventory`<br/>- Creates the Magento order
 
-# onfigure Order Settings
+# Configure Order Settings
 
 1. Click **Order Settings** in the onboarding progress bar.
 
