@@ -44,6 +44,8 @@ These steps create a new Magento attribute and map it to an Amazon attribute. De
 
 1. Choose the Magento [scope]({% link configuration/scope.md %}) for the Magento attribute, and then select one or more Store Views to import Amazon values into.
 
+    If the scope is set to `Global`, the _Store View_ cannot be changed after the attribute is created.
+
     If you choose `All Store Views (Global)`, this syncs and saves values to all of your Amazon store views. You may only want to sync values to specific store views.
 
 1. When complete, click <span class="btn">Save Attribute Settings</span>.
@@ -88,11 +90,11 @@ _Create Attribute Settings_
 
     - **Overwrite Existing Magento Values** - Overwrites the Magento value in the Magento product catalog with the incoming Amazon value.
 
-1. If available for edit, choose one or more **Store Views (to import Amazon values into)**. 
+1. If available for edit, choose one or more **Store Views (to import Amazon values into)**.
+
+    If the attribute was created with a `Global` scope, the _Store View_ cannot be changed after the attribute is created.
 
     If you choose `All Store Views (Global)`, this syncs and saves values to all store views. You may only want to sync values to specific store views.
-
-    If the attribute was created with the `Global` scope, Store View options do not appear when editing an attribute.
 
 1. When complete, click <span class="btn">Save Attribute Settings</span>.
 

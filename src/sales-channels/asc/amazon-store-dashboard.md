@@ -3,28 +3,48 @@ title: Amazon Store Dashboard
 ---
 
 
-In the _Amazon Stores_ view on Amazon Sales Channel home page, you can click **View Store** for a store (in Active or Inactive status) to access the store's [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
+In the _Amazon Stores_ view on Amazon Sales Channel home page, you can click **View Store** on a store card to open the store's dashboard.
 
-The store dashboard is the primary location for you to view the activity for one of your Amazon stores. With your Amazon Seller stores added and integrated, all orders and sales track through your store data view. On the dashboard, you can view revenue, track trends, and review sales data for all listings. All listings and sales are further grouped and tracked by listing type, including active, inactive, in-progress, incomplete, and orders awaiting shipment.
+The store dashboard is the primary location for you to view the activity for each of your Amazon stores. With your Amazon Seller stores added and integrated, orders and sales track through your store data view. On the dashboard, you can view revenue, track trends, and review sales data for your listings. Listings and sales are further grouped and tracked by listing type, including active, inactive, and in-progress.
 
-You can also review and update your store settings, integration settings, listing settings, price rules, order settings, and more from the store dashboard. On the dashboard, click one of your integrated stores. This store dashboard opens for stores in _Active_ and _Inactive_ status and shows data on sales, access for listings, and configuration options for the store.
-
-The store dashboard includes the following sections and provides access to additional information:
-
-- **Store Data** - Shows sales data and links to your listings by status.
-- **Revenue** - Shows a graphical representation for the store's revenue for the last 7 or 30 days.
-- **Most Recent Orders** - Shows the most recent orders that have been received from your Amazon listings association with the store.
-- **I Want to See...** - Provides links to view and update your various store, listing, rules, and order settings.
+You can also access your [store settings]({% link sales-channels/asc/ob-store-review.md %}), manage your listings, and view sales data and recent order information.
 
 ![]({% link sales-channels/asc/assets/amazon-store-dashboard.png %}){: .zoom}
 _Amazon Store Dashboard_
 
-{:.bs-callout-info}
-If you select a store with the **In Setup** status, the Onboarding steps open with populated data saved for the store integration.
+The header of the store dashboard displays the same basic store information that is shown on the store card:
 
-|Section|Description|
-|--- |--- |
-|Store Data|Details about your store including lifetime sales, listings by status, and orders awaiting shipment. Click the a link to view details: Options:<br/>[Active Listings]({% link sales-channels/asc/active-listings.md %})<br/>[Inactive Listings]({% link sales-channels/asc/inactive-listings.md %})<br/>[In Progress Listing]({% link sales-channels/asc/ready-to-list.md %})<br/>[Incomplete Listings]({% link sales-channels/asc/incomplete-listings.md %})<br/>[Orders Awaiting Shipment]({% link sales-channels/asc/managing-orders.md %})|
-|Revenue|A line graph of your sales revenue over a period of time. You can select to view either the data for last 7 days or the data for the last 30 days. The default view option is `Last 7 Days`. You can click to change the time period for the graph. This graph shows the store data from only your Amazon Seller Central account.|
-|Most Recent Orders|A listing of the basic details for the most recent orders that have been placed in the Amazon store (through your Amazon Seller Central account). Data includes Purchase Date, Order Number, Status, Buyer's Name, and purchase Grand Total. Clicking an order number will display the order details, similar to the [Magento Order View]({% link sales/order-processing.md %}).|
-|I Want to See...|Links to configurations and settings for the store:<br/>[Manage Listings]({% link sales-channels/asc/managing-product-listings.md %})<br/>[Listing Rules]({% link sales-channels/asc/listing-rules.md %})<br/>[Pricing Rules]({% link sales-channels/asc/pricing-products.md %})<br/>[Store Reports]({% link sales-channels/asc/amazon-logs-reports.md %})<br/>[Store Integration Settings]({% link sales-channels/asc/store-integration-settings.md %})<br/>[Listing Settings]({% link sales-channels/asc/listing-settings.md %})<br/>[Order Settings]({% link sales-channels/asc/managing-orders.md %})|
+- Store Name
+- Magento Website
+- Status
+- Created
+- Last Updated
+
+The store dashboard also includes store data and links to settings or more information:
+
+- [**Store Settings**]({% link sales-channels/asc/ob-store-review.md %}) - Access your store's settings and reports.
+
+   - [**Listing settings**]({% link sales-channels/asc/listing-settings.md %}) - Control how your product catalog interacts with the Amazon marketplace.
+   - [**Order settings**]({% link sales-channels/asc/order-settings.md %}) - Control how Amazon orders are managed.
+   - [**Listing rules**]({% link sales-channels/asc/listing-rules.md %}) - Define which catalog products are eligible to be listed on Amazon.
+   - [**Pricing rules**]({% link sales-channels/asc/pricing-products.md %}) - Define how the Amazon list price will be altered for qualified listings.
+  - **Store reports** - [Competitive price analysis]({% link sales-channels/asc/competitive-price-analysis.md %}) and [listing improvements]({% link sales-channels/asc/listing-improvements.md %}).
+   - **Logs** - [Listing changes]({% link sales-channels/asc/listing-changes-log.md %}) and [communication errors]({% link sales-channels/asc/communication-errors-log.md %}).
+   - [**Store integration settings**]({% link sales-channels/asc/store-integration-settings.md %}) - Review email and Amazon Sales Channel store name settings in the Magento Admin.
+
+- **Store Listings** - Shows a graphical representation for the store's sales for the last 7 or 30 days along with lifetime sales data.
+
+   This section also shows listing counts for your [active listings]({% link sales-channels/asc/active-listings.md %}), [inactive listings]({% link sales-channels/asc/inactive-listings.md %}), and in progress listings, along with links to their corresponding [_Product Listings_]({% link sales-channels/asc/managing-product-listings.md %}) page. You can also click [**Manage Listings**]({% link sales-channels/asc/managing-product-listings.md %}) to open the [_Product Listings_]({% link sales-channels/asc/managing-product-listings.md %}) page.
+
+   {:.bs-callout-info}
+   **In Progress Listings** are either your Ready to List listings or your Incomplete listings, depending on your [_Product Listing Actions_]({% link sales-channels/asc/product-listing-actions.md %}) settings.<br/>If **Automatic List Action** is set to:<br/>- `Do Not Automatically List Eligible Products`, the link opens your [_Ready to List_]({% link sales-channels/asc/ready-to-list.md %}) listings.<br/>- `Automatically List Eligible Products`, the link opens your [_Incomplete_]({% link sales-channels/asc/incomplete-listings.md %}) listings.
+
+- **Recent Orders** - Shows a list of basic details for the most recent orders that have been placed in the Amazon store (through your Amazon Seller Central account). Information shown includes:
+
+   - Purchase Date
+   - Order Number
+   - Status
+   - Buyer's Name
+   - Grand Total
+
+- **Seller Central links** - Provides links to important Amazon Seller Central information.
