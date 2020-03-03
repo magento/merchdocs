@@ -16,13 +16,13 @@ When viewing the _Amazon Store_ view, each store card allows you to:
 
 - Click **Action** to change a store's status or delete a store.
 
-   - **Activate** / **Deactivate** - Allows you to change a store's status.
+   - **Activate** / **Deactivate** - Choose to change the status of the store to `Active` or `Inactive`, respectively.
 
       Changing an `Inactive` store to `Active` status will activate listings and order activity for the store, using the stores current store settings (listing settings, price rules, overrides, etc.)
 
       Changing a store's status from `Active` to `Inactive` status will suspend listings and order activity for the store. An Inactive store will retain all store settings and listings, but will temporarily stop the synchronization of pricing, quantity, and order management until the store is changed back to `Active` status. This feature allows you to control your store activity at the Regional level without the need to recreate or reintegrate your Amazon store or the loss of historical order and sales data.
 
-   - **Delete** - Allows you to delete a store that is no longer needed.
+   - **Delete** - Choose to delete a store that is no longer needed.
 
       Choose when you wish to delete an existing Amazon store and its integration settings with your Amazon Seller Central account. Deleting the account will remove the store from Amazon Sales Channel, along with all account settings, listings, logs and other information related to this store. The store cannot be retrieved after deletion, a new store must be created.
 
