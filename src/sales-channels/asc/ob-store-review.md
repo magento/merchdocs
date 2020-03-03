@@ -2,7 +2,7 @@
 title: Store Settings
 ---
 
-After you create and integrate your Amazon Sales Channel store, you should review your store's default settings to ensure your product, listing, pricing, and other settings are correct for your store.
+After you create and integrate your Amazon Sales Channel store, you should review your store default settings to ensure your product, listing, pricing, and other settings are correct for your store.
 
 ## Store Settings
 
@@ -10,7 +10,7 @@ After you create and integrate your Amazon Sales Channel store, you should revie
 
 1. Select the store you want to view and click <span class="btn">View Store</span>.
 
-1. On the store's dashboard, click a store setting in the left-side menu.
+1. On the store dashboard, click a store setting in the left-side menu.
 
    - [**Listing settings**]({% link sales-channels/asc/listing-settings.md %}) - Control how your product catalog interacts with the Amazon marketplace.
    - [**Order settings**]({% link sales-channels/asc/order-settings.md %}) - Control how Amazon orders are managed.

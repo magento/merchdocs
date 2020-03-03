@@ -4,11 +4,11 @@ redirect_from:
   - /sales-channels/asc/ob-order-settings.html
 ---
 
-You can access your order settings on the [store's dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}). In the left-side menu, click **Order Settings**. The _Order Settings_ page opens.
+You can access your order settings on the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}). In the left-side menu, click **Order Settings**. The _Order Settings_ page opens.
 
 Order Settings define how Amazon orders are imported into and processed in Magento.
 
-Beginning when you integrate Amazon Sales Channel with your Amazon Seller Central account during onboarding, Amazon orders import and create new orders in Amazon Sales Channel. Amazon orders are imported and create new orders when the Amazon sets the order status to `Unshipped`. Orders that existed in Amazon in any status other than `Unshipped` prior to your store's integration will not import.
+Beginning when you integrate Amazon Sales Channel with your Amazon Seller Central account during onboarding, Amazon orders import and create new orders in Amazon Sales Channel. Amazon orders are imported and create new orders when the Amazon sets the order status to `Unshipped`. Orders that existed in Amazon in any status other than `Unshipped` prior to your store integration will not import.
 
 When an order is created on Amazon, it is not immediately imported into Amazon Sales Channel. Amazon assigns a `Pending` status to newly created orders. After it verifies the order and payment method, Amazon changes the order's status to `Unshipped`. This status change triggers Amazon Sales Channel to import the order and create a corresponding order. Amazon Sales Channel creates a matching order that corresponds to the Amazon order. Orders created in Amazon Sales Channel are displayed and can be managed in the [_Orders_]({% link sales-channels/asc/managing-orders.md %}) tab on the Amazon Sales Channel home page.
 

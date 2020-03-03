@@ -2,7 +2,7 @@
 title: Add Pricing Rules
 ---
 
-Pricing rules can be configured or modified at any time after your store is connected. Pricing rules are part of Listing Settings and can be accessed in the [store's dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
+Pricing rules can be configured or modified at any time after your store is connected. Pricing rules are part of Listing Settings and can be accessed in the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
 ## Standard Price Rule:**
 A standard price rule action allows you to increase or decrease an Amazon listing price by a specific percentage or fixed dollar amount relative to the Magento catalog price (or price source).
