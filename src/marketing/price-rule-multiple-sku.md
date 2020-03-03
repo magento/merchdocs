@@ -37,7 +37,7 @@ Before you begin, make sure that the Storefront Properties of the `sku` attribut
     - Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) at the beginning of the next line. Then, in the list under **Product Attribute**, choose `SKU`.
 
         ![Catalog price rule condition - SKU is one of]({% link images/images/price-rule-catalog-multiple-skus-condition1a.png %}){: .zoom}
-        _Condition based on SKU …_
+        _Condition based on SKU_
 
     - For the comparison, you have options. If you want to locate at least one from a list of SKUs, `select is one of`. If you want to locate a group of SKUs that all must be found to apply, select `is`. We recommend selecting `is one of`.
 
