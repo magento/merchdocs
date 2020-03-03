@@ -47,15 +47,6 @@ When an order is received from Amazon, your Amazon store is set to `Create Magen
     {:.bs-callout .bs-callout-info}
     After an order is imported, the Magento Order Number is shown in the Recent Orders list on the store dashboard. The Amazon Order Number shows when viewing the order in the [Magento Orders]({% link sales/orders.md %}) workspace.
 
-1. For **Pending Orders** (required), choose an option:
-
-    - **Do Not Reserve Quantity** - Choose when you do not want your Magento stock quantity affected by your Amazon orders. Choose when you use Amazon for your fulfillment process (FBA). When chosen and you receive an Amazon order, the quantity ordered will not affect your Magento stock quantity.
-
-    - **Reserve Quantity** - Choose when you want the order quantity in the Amazon order to be "reserved" in your Magento stock quantity. When chosen and you receive an Amazon order, the quantity ordered will "reserve" in your Magento stock quantity to prevent your Magento stock from "over selling."
-
-    {:.bs-callout .bs-callout-info}
-    Remember, Amazon orders do not import into and create orders in Magento until Amazon verifies the order and payment method and changes the order status to `Unshipped`.
-
 1. For **Order Status** (required), choose an option:
 
     - **Default Order Status** - Choose when you want newly created orders imported from Amazon to be assigned your defined default order status for new orders. The default status for new orders (unless you have created a custom order status for new orders) is `Pending`. See [Processing Orders]({% link sales/order-processing.md %}).
@@ -63,6 +54,8 @@ When an order is received from Amazon, your Amazon store is set to `Create Magen
     - **Custom Order Status** - Choose when you want newly created orders imported from Amazon to be assigned a status other than the default.
 
        - **Processing Order Status** - Enables when **Order Status** is set to `Custom Order Status`. Choose the status you want to use for newly created orders imported from Amazon. The options in this field are based on the default status options in Magento. See [Order Status]({% link sales/order-status.md %}). You can also create a custom order status to display here for selection. To create a custom order status, see [Custom Order Status]({% link sales/order-status-custom.md %}).
+
+1. When complete, click **Save order settings**.
 
 ![]({% link sales-channels/asc/assets/amazon-order-settings.png %}){: .zoom}
 _Order Settings_
