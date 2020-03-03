@@ -13,7 +13,7 @@ When attribute mapping is set up, Magento can communicate product information ba
 
 Amazon Sales Channel allows you to access, review, create, and manage attributes, as needed, in the [_Attributes_ view]({% link sales-channels/asc/attributes-view.md %}) on the Amazon Sales Channel home page. If you add a new attribute to your Magento catalog, you may need to update those values across all products.
 
-For more information on Magento attribute sets and values, see
+For more information on Magento attribute sets and values, see:
 
 - [Managing Attributes basics]({% link catalog/product-attributes.md %})
 - [Create a new attribute](https://docs.magento.com/m2/ee/user_guide/sales-channels/asc/creating-attributes.html#create-an-attribute)
