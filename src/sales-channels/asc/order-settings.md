@@ -76,7 +76,8 @@ Magento orders are created for Amazon orders based on the following status and i
 
 ### Order Creation with Multi Source Inventory (MSI)
 
-*Supported in Magento 2.3.x integrations only.
+{:.bs-callout .bs-callout-info}
+Supported in Magento 2.3.x integrations only.
 
 |Fulfillment Channel|Magento Inventory Status|Amazon Order Status|Create Magento Order Setting|Inventory Reserved|
 |---|---|---|---|---|---|
