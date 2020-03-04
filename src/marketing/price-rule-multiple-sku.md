@@ -6,7 +6,7 @@ A single catalog price rule can be applied to multiple SKUs, which makes it poss
 
 ## Step 1. Verify Storefront Properties of Attribute
 
-Before you begin, make sure that the Storefront Properties of the `sku` attribute are set to `Use in Promo Rules`.
+Before you begin, make sure that the [Storefront Properties]({% link stores/attributes-product.md %}) of the `sku` attribute are set to `Use in Promo Rules`.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
 
@@ -14,7 +14,7 @@ Before you begin, make sure that the Storefront Properties of the `sku` attribut
 
 1. Click to open the `sku` attribute in edit mode.
 
-1. In the left panel, choose **Storefront Properties**. Then, make sure that **Use for Promo Rule Conditions** is set to `Yes`.
+1. In the left panel, click **Storefront Properties**. Then, make sure that **Use for Promo Rule Conditions** is set to `Yes`.
 
 1. If you changed the value of the property, click <span class="btn">Save Attribute</span>.
 
@@ -34,7 +34,7 @@ Before you begin, make sure that the Storefront Properties of the `sku` attribut
         ![Catalog price rule condition - ANY]({% link images/images/price-rule-catalog-multiple-skus-condition1.png %}){: .zoom}
         _If ANY of these conditions are TRUE_
 
-    - Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) at the beginning of the next line. Then, in the list under **Product Attribute**, choose `SKU`.
+    - Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) at the beginning of the next line. Then, in the list under **Product Attribute**, click `SKU`.
 
         ![Catalog price rule condition - SKU is one of]({% link images/images/price-rule-catalog-multiple-skus-condition1a.png %}){: .zoom}
         _Condition based on SKU_
