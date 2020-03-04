@@ -3,8 +3,13 @@ title: Price Scope
 ---
 
 
-Magento provides configuration for your pricing scope to be set to global or website. If pricing is set to global scope, there will be a single price source for all websites. If pricing is set to website scope, websites can vary their pricing across and also have a fallback default pricing value. To set your price scope, see [Magento Price configuration]({% link configuration/catalog/catalog.md %}).
+Magento provides configuration for your [pricing scope](https://docs.magento.com/m2/ee/user_guide/configuration/catalog/catalog.html#price) to be set to `Global` or `Website`. If pricing is set to `Global`, there will be a single price source for all websites. If pricing is set to `Website`, your websites can vary their pricing across and also have a fallback default pricing value. See [Catalog Price](https://docs.magento.com/m2/ee/user_guide/configuration/catalog/catalog.html#price).
 
-If you change your catalog price scope from global to website, all price type attributes will also change to website scope. For more information, see [Adding Websites]({% link stores/stores-all-create-website.md %}).
+If you change your catalog price scope from `Global` to `Website`, all price type attributes will also change to `Website`. See [Adding Websites]({% link stores/stores-all-create-website.md %}).
 
-When a website price is selected, there are two price sources: the website price and the default (fall back) price. For the Amazon integration, based on your Listing Rules, you can map products from multiple websites into a single Amazon marketplace. However, this introduces the issue of which price should be published if the product exists on multiple websites with differing prices.
+When a website price is chosen, there are two price sources:
+
+- The website price
+- The default (fall back) price
+
+For the Amazon Sales Channel integration, based on your [Listing Rules]({% link sales-channels/asc/listing-rules.md %}), you can map products from multiple websites into a single Amazon Marketplace Country ( defined during [store integration]({% link sales-channels/asc/store-integration.md %})). However, this introduces the issue of which price should be published if the product exists on multiple websites with differing prices.

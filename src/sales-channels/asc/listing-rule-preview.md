@@ -4,43 +4,40 @@ redirect_from:
   - /sales-channels/asc/ob-listing-preview.html
 ---
 
-When you are modifying your condition definitions for your listing rules for an Active store, you can click **Preview Changes** to apply your rules changes and view how your listings are impacted. It is recommended to verify your listings in this listing preview feature before saving your changes to your listing rules.
+When you are modifying your condition definitions for your listing rules, you can click **Preview Changes** to apply your rules changes and view how your listings are impacted. You should verify your listings in this listing preview feature before saving your listing rule changes.
 
-Your Amazon listings are compared against your rules, based on the conditions you defined. You can then review which products will move to an ineligible status based on your current Amazon Seller Central account, which products will move from an ineligible state back to an eligible state, and which products will be New Amazon Listings and added to your Amazon listing from your eligible Magento catalog.
+Your Amazon listings are compared against your rules and defined conditions. You can then review which products will move to an ineligible status based on your current Amazon Seller Central account, which products will move from an ineligible state back to eligible status and which products will be New Amazon Listings and added to your Amazon listing from your eligible Magento products.
 
-Listing Preview allows you to preview your potential Amazon listings and make any necessary adjustments to your listing rules. If you need to adjust your listing rules, click **Listing Rules** ???
+Listing Preview allows you to preview your potential Amazon listings and make any necessary adjustments to your listing rules.
 
-Your potential Amazon listings will populate on the Listing Preview page in one of three tabs:
+Your potential Amazon listings will populate on the _Listing Preview_ page in one of three tabs:
 
-- **Ineligible Listings** - Products listed on this tab are not eligible for Amazon listing based on your current listing rule settings.
+- **Ineligible Listings** - Products listed are not eligible for Amazon listing based on your current listing rules and conditions.
 
-   Ineligible products will not be published to Amazon. If an ineligible product is already listed on Amazon and you match the Amazon listing to your Magento catalog product, the quantity for the Amazon listing will change to 0 to prevent sales of the product. To manually remove a listing, see [Ending an Amazon Listing]({% link sales-channels/asc/end-listings-manually.md %}). Products that are not eligible by Amazon requirements are not listed here. Those products are listed on the [Inactive Listings tab]({% link sales-channels/asc/inactive-listings.md %}).
+   Ineligible products will not be published to Amazon. If an ineligible product is already listed on Amazon and you match the Amazon listing to your Magento catalog product, the quantity for the Amazon listing will change to `0` to prevent sales of the product. To manually remove a listing, see [Ending an Amazon Listing]({% link sales-channels/asc/end-listings-manually.md %}). Products that are not eligible by Amazon requirements are not listed here. Those products are listed on the [Inactive Listings tab]({% link sales-channels/asc/inactive-listings.md %}).
 
-- **Eligible Listings** - Products listed on this tab are eligible for Amazon listing based on your current listing rule setup and are eligible by Amazon requirements. This tab includes your existing Amazon listings that will import (if you have **Import Third Party Listings** set to `Import Listing` in the Listing Settings).
+- **Eligible Listings** - Products listed are eligible for Amazon listing based on your current listing rules and conditions and are also eligible by Amazon requirements. This list includes your existing Amazon listings that will import (if you have **Import Third Party Listings** set to `Import Listing` in [Listing Settings]({% link sales-channels/asc/third-party-listing-settings.md %})).
 
-- **New Listings** - Products listed on this tab include your Magento catalog products that are newly eligible for Amazon listing based on your current listing rule setup and will create new Amazon listings.
+- **New Listings** - Products listed include your Magento catalog products that are newly eligible for Amazon listing based on your current listing rules and conditions and will create and publish new Amazon listings.
 
 ## View your listing preview
 
-1. Access your listing rules for an active store.
+1. Click **Listing Rules** on the store dashboard.
 
-1. View your [listing rules]({% link sales-channels/asc/listing-rules.md %}).
+1. View or add your [listing rules]({% link sales-channels/asc/listing-rules.md %}).
 
 1. Modify your [Listing Rule Conditions]({% link sales-channels/asc/ob-define-condition-example.md %}).
 
-1. Click **Preview Changes** in the header bar.
+1. Click **Preview Changes**.
 
 1. Review and confirm your listings in the _Ineligible Listings_, _Eligible Listings_, and _New Listings_ tabs.
 
-1. If your listings match your expectations, click **Save Listing Rules**. If your listings do no not display as expected, click **Back** and continue to modify your conditions until your listings match your expectations.
+1. If your listings match your expectations, click **Save and close**. If your listings do no not display as expected, click **Back** and modify your rules and conditions until your listings match your expectations.
 
 ![]({% link sales-channels/asc/assets/amazon-listing-rule-preview.png %}){: .zoom}
 _Listing Rule Preview_
 
 ## Listing Preview Workflow
-
-![]({% link sales-channels/asc/assets/listing-preview-flowchart.png %}){: .zoom}
-_Listing Preview Workflow_
 
 |Field|Description|
 |--- |--- |

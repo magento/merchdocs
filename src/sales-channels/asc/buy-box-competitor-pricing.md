@@ -2,14 +2,28 @@
 title: Buy Box Competitor Pricing
 ---
 
-The Buy Box is awarded by Amazon to the seller who has the product listed usually at the best price, along with other factors such as FBA/Prime shipping offered, availability, and the seller’s performance.
+The Buy Box is awarded by Amazon to the seller who has the product listed usually at the best price, along with other factors such as FBA/Prime shipping offered, availability, and the seller's performance.
 
-The _Buy Box Competitor Pricing_ tab includes the Buy Box listing price, shipping price, and landed price of your competitors. This can be used to understand the price positioning of your competitors on Amazon.
+The _Buy Box Competitor Pricing_ tab  on the _Product Listing Details_ page includes the Buy Box listing price, shipping price, and landed price of your competitors. This can be used to understand the price positioning of your competitors on Amazon.
 
 [Intelligent repricing rules]({% link sales-channels/asc/intelligent-repricing-rules.md %}) can be configured to adjust your pricing based on the Amazon Buy Box price.
 
 ![]({% link sales-channels/asc/assets/amazon-listing-details-buy-box.png %}){: .zoom}
 _Buy Box Competitor Pricing_
+
+## Access Buy Box competitor pricing details
+
+1. Click **Manage Listings** on the store dashboard.
+
+   The the [_Product Listing_]({% link sales-channels/asc/managing-product-listings.md %}) page opens.
+
+1. On any of the listing status tabs, click a product listing name for a listing.
+
+   The _Product Listing Details_ page opens.
+
+1. Click the **Buy Box Competitor Pricing** tab.
+
+   Shows the merchant and price whose listing holds the Buy Box on Amazon.
 
 |Column|Description|
 |--- |--- |

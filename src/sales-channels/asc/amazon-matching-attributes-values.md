@@ -24,7 +24,7 @@ _Review Attribute Values_
 
 |Field|Description|
 |--- |--- |
-|Region|The region for sales activity defined in the Amazon Marketplace when the Amazon store was set up in Amazon Sales Channel.|
+|Region|The region for sales activity defined in **Amazon Marketplace Country** during store integration.|
 |Magento Product SKU|Indicates the Magento products synced with the Amazon store. The value is a product ID assigned by Magento and linked to a product in the catalog. Click the link to open the product in Magento.|
 |ASIN|Indicates the Amazon Standard Identification Number (ASIN) 10-character alphanumeric unique identifier assigned to the product by Amazon for product identification.|
 |Amazon Value|Indicates the value for the selected attribute. The Amazon Value differs depending on the attribute type and the Amazon attribute you view. For example, a listed Amazon value for Label would be a text value while AmazonListPrice would be a numerical amount. The status indicates if the Amazon value has been imported.|

@@ -4,7 +4,7 @@ redirect_from:
   - /sales-channels/asc/ob-pricing-rules.html
 ---
 
-Amazon Sales Channel gives you the ability to set pricing rules, which allow you to set your Amazon listing price different than your Price Source. Additionally, you can stack multiple rules and even use the intelligent pricing to adjust your Amazon listing price based on competitors' Buy Box price or the lowest competitor price.
+Amazon Sales Channel allows you to set pricing rules, which allow you to set your Amazon listing price different than the defined **Magento Price Source** in your [Listing Price]({% link sales-channels/asc/listing-price.md %}). You can also stack multiple rules and even use the intelligent pricing to adjust your Amazon listing price based on competitors' [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) price or the [lowest competitor price]({% link sales-channels/asc/lowest-competitor-pricing.md %}).
 
 There are two types of pricing rules:
 
@@ -21,7 +21,7 @@ You can add pricing rules for your Amazon listings. Price rules can be used to a
 {:.bs-callout .bs-callout-info}
 The price source for your Amazon listings is defined for **Magento Price Source** in your [Listing Price]({% link sales-channels/asc/listing-price.md %}) settings. Any adjustment calculations defined in the pricing rule use price source as the starting value.
 
-Amazon Sales Channel gives you the ability to set pricing rules, these pricing rules allow you to set your Amazon Listing price different than your Price Source. Additionally, you can stack multiple rules that will work together to adjust your price.
+Pricing rules allow you to set your Amazon Listing price different than your **Magento Price Source** in your [Listing Price]({% link sales-channels/asc/listing-price.md %}) settings. Additionally, you can stack multiple rules that will work together to adjust your price.
 
 A pricing/repricing rule requires three sets of information during its setup:
 
@@ -29,19 +29,17 @@ A pricing/repricing rule requires three sets of information during its setup:
 - [Pricing Rule Conditions]({% link sales-channels/asc/pricing-rule-conditions.md %}): Determine which products will be eligible for the price rule.
 - [Pricing Rule Actions]({% link sales-channels/asc/pricing-rule-actions.md %}): Define the adjustment calculations that will be applied to the price source to determine the listing price.
 
-You can create [standard pricing rules]({% link sales-channels/asc/standard-price-rules.md %}) that will automatically adjust your Amazon listing price relative to the selected Magento Price Source. This feature allows you to manipulate your Amazon prices in a way that is very similar to Magento's [Catalog Price Rules]({% link marketing/price-rules-catalog.md %}). You can create complex rules that automatically change prices for specific products, products inside of specific categories, or products with specific attributes. You can complete traditional settings and reprice your products to increase or decrease based on a fixed amount or a percentage.
+You can create [standard pricing rules]({% link sales-channels/asc/standard-price-rules.md %}) that will automatically adjust your Amazon listing price relative to the selected **Magento Price Source** in your [Listing Price]({% link sales-channels/asc/listing-price.md %}) settings. This feature allows you to manipulate your Amazon prices in a way that is very similar to Magento's [Catalog Price Rules]({% link marketing/price-rules-catalog.md %}). You can create complex rules that automatically change prices for specific products, products inside of specific categories, or products with specific attributes. You can complete traditional settings and reprice your products to increase or decrease based on a fixed amount or a percentage.
 
-Another powerful tool is the [Intelligent Repricing]({% link sales-channels/asc/intelligent-repricing-rules.md %}) feature that adjusts your Amazon listing price based on competitor [Buy Box Price]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) or [Lowest Competitor Price]({% link sales-channels/asc/lowest-competitor-pricing.md %}). Similar to Magento's [Catalog Price Rules]({% link marketing/price-rules-catalog.md %}), this advanced feature allows you to manipulate your Amazon prices by creating complex rules that allow you define the scope for a price change for specific products, products inside of specific categories, or even with specific product attributes.
+Another powerful tool is the [Intelligent Repricing]({% link sales-channels/asc/intelligent-repricing-rules.md %}) feature that adjusts your Amazon listing price based on competitor [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) price or [Lowest Competitor Price]({% link sales-channels/asc/lowest-competitor-pricing.md %}). Similar to Magento's [Catalog Price Rules]({% link marketing/price-rules-catalog.md %}), this advanced feature allows you to manipulate your Amazon prices by creating complex rules that allow you define the scope for a price change for specific products, products inside of specific categories, or even with specific product attributes.
 
-Using intelligent repricing to adjust your products listing prices on Amazon, based on competitor's pricing. Amazon Sales Channel has built in safeguards for you to set to protect margins or avoid matching the prices of a merchant with low feedback. Using intelligent repricing rules, Amazon listing prices can be automatically manipulated as a fixed or percentage amount (up or down) or even synchronized to the Buy Box or Lowest Price on a per item basis. Rules can even be stacked to provide unlimited flexibility.
-
-Pricing rules determine if your product is listed on Amazon using your defined Price Source or if the price is automatically adjusted before listing on Amazon, based on defined conditions for the rule.
+Using intelligent repricing to adjust your Amazon listing prices, based on competitor's pricing. Amazon Sales Channel has built in safeguards for you to configure to protect margins or avoid matching the prices of a merchant with low feedback. Using [intelligent repricing rules]({% link marketing/intelligent-repricing-rules.md %}), Amazon listing prices can be automatically manipulated as a fixed or percentage amount (up or down) or even synchronized to the [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) price or [Lowest Competitor Price]({% link sales-channels/asc/lowest-competitor-pricing.md %}) on a per item basis. Rules can even be stacked to provide unlimited flexibility.
 
 You can control important aspects of rules, such as active/inactive status, website eligibility, optional date ranges, and optional priority levels (used for rule stacking).
 
 For example, you can define and set the conditions for a price rule that, when the conditions are met, automatically adjust your listing price before it is sent to Amazon.
 
-Another pricing option is a price override, which is set at the individual listing level. A price override can be set, and an override ignores/takes priority over all other defaults, settings, and rules. An override can be set for price, handling time, condition, and seller notes (with a few exceptions). See [Overrides]({% link sales-channels/asc/overrides.md %}).
+Another pricing option is a [price override]({% link sales-channels/asc/overrides.md %}), which is set at the individual listing level. A [price override]({% link sales-channels/asc/overrides.md %}) can be set, and an override ignores/takes priority over all other defaults, settings, and rules. An [override]({% link sales-channels/asc/overrides.md %}) can be set for price, handling time, condition, and seller notes (with a few exceptions).
 
  ![]({% link sales-channels/asc/assets/amazon-pricing-rules.png %}){: .zoom}
  _Pricing Rules_
@@ -57,4 +55,4 @@ Another pricing option is a price override, which is set at the individual listi
 |Stop Further Rules Processing|Whether any further price rules will be processed on products eligible for this rule, as set in [Pricing Rule General Settings]({% link sales-channels/asc/pricing-rule-general-settings.md %}).|
 |From Date|The beginning of the time period in which the rule is active.|
 |To Date|The end of the time period in which the rule is active.|
-|Action|Lists all actions that can be applied to a specific listing. To apply an action, in the Action column, click **Select**. Options: Edit Price Rule / Delete Price Rule|
+|Action|Lists all actions that can be applied to a specific listing. To apply an action, click **Select** in the _Action_ column. Options: Edit Price Rule / Delete Price Rule|
