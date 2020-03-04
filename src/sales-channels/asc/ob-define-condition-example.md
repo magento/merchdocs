@@ -38,7 +38,7 @@ You can create different conditions by changing the combination of these values.
 
 `If ALL of these conditions are TRUE:`
 
-1. Click the **Add** (![]({% link images/images/btn-add-grn.png %}){: .Inline}) button at the beginning of the condition line to display available attributes on which the condition function. Select an attribute on which to base the condition, such as a conditions combination or a product attribute.
+1. Click the **Add** (![]({% link images/images/btn-add-grn.png %}){: .Inline}) icon at the beginning of the condition line to display available attributes on which the condition function. Select an attribute on which to base the condition, such as a conditions combination or a product attribute.
 
     - **Conditions Combination** - Choose to allow you to create an additional set of `All/Any` and `True/False` conditions inside the existing set.
 
