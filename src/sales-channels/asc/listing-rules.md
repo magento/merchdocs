@@ -19,7 +19,7 @@ Your listing rules are continually synchronized with your Magento catalog. When 
 
 - If an ineligible product is already listed on Amazon and you match the Amazon listing to your Magento catalog product, the quantity for the Amazon listing will change to `0` to prevent sales of the product. Amazon listings can be [manually removed]({% link sales-channels/asc/end-listings-manually.md %}).
 
-Changes to quantity and eligibility status impact all listings that share the Amazon Seller SKU in marketplaces which exist for stores selling in the same region (as defined in **Amazon Marketplace Country** during [store integration]({% link sales-channels/asc/store-integration.md %})) will also be impacted. However, a change to a shared Amazon Seller SKU in one region will not affect the product's Amazon listings in a different country.
+Changes to quantity and eligibility status impact all listings that share the Amazon Seller SKU in marketplaces that exist for stores selling in the same region (as defined in **Amazon Marketplace Country** during [store integration]({% link sales-channels/asc/store-integration.md %})). However, a change to a shared Amazon Seller SKU in one region will not affect the product's Amazon listings in a different country.
 
 ![]({% link sales-channels/asc/assets/ob-listing-rules.png %}){: .zoom}
 _Listing Rules_
