@@ -13,8 +13,8 @@ A [standard price rule]({% link sales-channels/asc/standard-price-rules.md %}) a
 
 |Section|Description|
 |--- |--- |
-|Select Rule Type|Set the rule type to `Standard price rule`.|
-|Price Adjustment|Define the adjustment calculations that will be applied to the price source to determine the listing price|
+|[Select Rule Type]({% link sales-channels/asc/standard-price-rules.md %})|Set the rule type to `Standard price rule`.|
+|[Price Adjustment]({% link sales-channels/asc/standard-price-rules.md %})|Define the adjustment calculations that will be applied to the price source to determine the listing price|
 
 ## Intelligent Repricing Rule
 

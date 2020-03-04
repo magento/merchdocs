@@ -7,7 +7,7 @@ title: 'Example: Define a Condition'
 
 Any areas in the conditions that are bold can be clicked to see the various options.
 
-**Don’t add conditions if all products within the selected website are eligible.**
+**Do not add conditions if all products within the selected website are eligible.**
 
 {:.bs-callout-info}
 There is a complex set of back-end processes to communicate with Amazon's systems directly. Based on the number of items you are attempting to list and how busy Amazon's systems are (for example, Black Friday can be a slow time to list new products), it may take additional time for your items to be listed on Amazon.
@@ -38,25 +38,25 @@ You can create different conditions by changing the combination of these values.
 
 `If ALL of these conditions are TRUE:`
 
-1. Click the **Add** (![]({% link images/images/btn-add-grn.png %}){: .Inline}) button at the beginning of the condition line to display available attributes on which the condition function. Select an attribute on which to base the condition, such as a conditions combination or a product attribute.
+1. Click the **Add** (![]({% link images/images/btn-add-grn.png %}){: .Inline}) icon at the beginning of the condition line to display available attributes on which the condition function. Select an attribute on which to base the condition, such as a conditions combination or a product attribute.
 
     - **Conditions Combination** - Choose to allow you to create an additional set of `All/Any` and `True/False` conditions inside the existing set.
 
     ![]({% link sales-channels/asc/assets/ob-conditions-combinations.png %}){: .zoom}
     _Conditions Combination_
 
-    - **Product Attribute** - The product attributes in this drop-down is dependent on the setup of the attribute. For an attribute to display in the list, it must be configured to be used in promo rule conditions. See the Use for Promo Rule Conditions field in [Product Attributes]({% link stores/attributes-product.md %}).
+    - **Product Attribute** - The product attributes depend on the setup of the attribute. For an attribute to display in the list, it must be configured to be used in promo rule conditions. See the **Use for Promo Rule Conditions** in [Product Attributes]({% link stores/attributes-product.md %}).
 
-        1. In the list under **Product Attribute**, choose the attribute that you want to use as the basis of the condition. For this example, the selected condition is `Amazon FBA`.
+        In the list under **Product Attribute**, choose the attribute that you want to use as the basis of the condition. For this example, the selected condition is `Amazon FBA`.
 
         ![]({% link sales-channels/asc/assets/ob-condition-attribute-dropdown.png %}){: .zoom}
         _Condition Line 2, Part 2_
 
         The selected condition appears in the statement, followed by two more bold links. The options differ depending on the product attribute you select.
 
-        Once you set the attribute, it cannot be changed. To change the attribute, you must delete the line and add the new attribute. You can delete a condition line by clicking the **Delete** (![]({% link images/images/btn-del-red.png %}){: .Inline}) button at the end of the line.
+        Once you set the attribute, it cannot be changed. To change the attribute, you must delete the line and add the new attribute. You can delete a condition line by clicking the **Delete** (![]({% link images/images/btn-del-red.png %}){: .Inline}) icon at the end of the line.
 
-        1. Click **is** and choose the comparison operator that describes the condition for products to meet. For this example, the comparison operator is "is." The available options depend on the attribute selected in the previous step and may include different comparison options such as matching values, not including or including at least one of a value, and greater than, equal to, and less than a numerical amount. In this example, the options are “is” and “is not.”
+        1. Click **is** and choose the comparison operator that describes the condition for products to meet. For this example, the comparison operator is `is`. The available options depend on the attribute selected in the previous step and may include different comparison options such as matching values, not including or including at least one of a value, and greater than, equal to, and less than a numerical amount. In this example, the options are `is` and `is not`.
 
         1. Click **...** and choose the attribute value upon which the condition is based. The options depend on the attribute's setup. You may be asked to select an option from a drop-down, or you may need to enter text or numerical values for the condition. For this example, the options are in a drop-down, and the selection is `Yes`.
 
@@ -69,4 +69,4 @@ You can create different conditions by changing the combination of these values.
 
 To add another condition line to the statement, return to step 1 and repeat the process until all desired conditions are complete.
 
-You can delete a line of the condition statement at any time by clicking the **Delete** (![]({% link images/images/btn-del-red.png %}){: .Inline}) button at the end of the line.
+You can delete a line of the condition statement at any time by clicking the **Delete** (![]({% link images/images/btn-del-red.png %}){: .Inline}) icon at the end of the line.

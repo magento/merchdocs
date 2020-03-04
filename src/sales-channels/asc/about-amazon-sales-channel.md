@@ -110,13 +110,13 @@ With Amazon Sales Channel, you can review report information about:
 
 - Product Best Buy Box Competitor Pricing data
 
-- Product Lowest Competitor’s Pricing data
+- Product Lowest Competitor's Pricing data
 
 ## Support for Global Sales
 
 With Amazon Sales Channel, you can:
 
-- Manage multiple Amazon Marketplace regions all from your Magento Admin
+- Manage multiple Amazon Marketplace regions (countries) all from your Magento Admin
 
 - Support multiple currencies using the Magento Currency Conversion Tool
 

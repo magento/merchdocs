@@ -3,7 +3,7 @@ title: View Listing Details
 ---
 
 
-The _Product Listing Details_ page provides additional information on your active products, including the Listing Activity Log which shows the changes on an individual SKU / Product. This information can help you understand competitive metrics on your products and on individual SKU/product changes.
+The _Product Listing Details_ page shows additional information on your active product listings, including the Listing Activity Log which shows the changes on an individual SKU / Product. This information can help you understand competitive metrics on your products and on individual SKU/product changes. Additional information accessed on the _Product Listing Details_ page includes:
 
 - **Listing Details** - Product details including the Name and Amazon Seller SKU.
 - **Listing Activity Log** - Historical record of all the changes that have occurred for this listing, such as pricing and quantity/stock changes. No further actions are required. This is provided for review to understand the change history.

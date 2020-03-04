@@ -74,26 +74,10 @@ _Order Settings_
 
 Magento orders are created for Amazon orders based on the following status and inventory conditions.
 
-### Order Creation without Multi Source Inventory (MSI)
-
-|Fulfillment Channel|Magento Inventory Status|Amazon Order Status|Create Magento Order Setting|Reserve Inventory = Yes|Reserve Inventory = No|
-|---|---|---|---|---|---|
-|FBA|In-stock<br/>Out-of-stock<br/>Do Not Manage|Pending|No|Inventory not reserved|Inventory not reserved|
-|FBA|In-stock<br/>Out-of-stock<br/>Do Not Manage|PendingAvailability|No|Inventory not reserved|Inventory not reserved|
-|FBA|In-stock<br/>Out-of-stock<br/>Do Not Manage|Canceled|No|Inventory not reserved|Inventory not reserved|
-|FBA|In-stock<br/>Out-of-stock<br/>Do Not Manage|Error|No|Inventory not reserved|Inventory not reserved|
-|FBA|In-stock<br/>Out-of-stock<br/>Do Not Manage|Unshipped|No|Inventory not reserved|Inventory not reserved|
-|FBA|In-stock<br/>Out-of-stock<br/>Do Not Manage|PartiallyShipped|No|Inventory not reserved|Inventory not reserved|
-|FBA|In-stock<br/>Out-of-stock<br/>Do Not Manage|Shipped|Yes|Inventory not reserved|Inventory not reserved|
-|FBM|In-stock<br/>Out-of-stock<br/>Do Not Manage|Pending|No|Inventory reserved|Inventory not reserved|
-|FBM|In-stock<br/>Out-of-stock<br/>Do Not Manage|PendingAvailability|No|Inventory not reserved |Inventory not reserved|
-|FBM|In-stock<br/>Out-of-stock<br/>Do Not Manage|Canceled|No|Inventory not reserved|Inventory not reserved|
-|FBM|In-stock<br/>Out-of-stock<br/>Do Not Manage|Error|No|Inventory not reserved|Inventory not reserved|
-|FBM|In-stock<br/>Out-of-stock<br/>Do Not Manage|Unshipped|Yes|Inventory reserved|Inventory not reserved|
-|FBM|In-stock<br/>Out-of-stock<br/>Do Not Manage|PartiallyShipped|Yes|Inventory reserved|Inventory not reserved|
-|FBM|In-stock<br/>Out-of-stock<br/>Do Not Manage|Shipped|Yes|Inventory reserved|Inventory not reserved|
-
 ### Order Creation with Multi Source Inventory (MSI)
+
+{:.bs-callout .bs-callout-info}
+Supported in Magento 2.3.x integrations only.
 
 |Fulfillment Channel|Magento Inventory Status|Amazon Order Status|Create Magento Order Setting|Inventory Reserved|
 |---|---|---|---|---|---|
@@ -117,5 +101,5 @@ Magento orders are created for Amazon orders based on the following status and i
 |FBM|Out-of-stock|Shipped|No|No|
 
 {:.bs-callout-info}
-If an Amazon order is imported in a `Partially Shipped` or `Shipped` status, the inventory reservation that is created will be for all items in the order. Amazon Sales Channel does not compensate for items that have been previously shipped. This behavior is the same in both non-MSI and MSI integrations.<br/>
+If an Amazon order is imported in a `Partially Shipped` or `Shipped` status, the inventory reservation that is created will be for all items in the order. Amazon Sales Channel does not compensate for items that have been previously shipped.<br/>
 <br/>If an order is Fulfilled by Amazon (FBA) but an item is in `out of stock` status, Magento is unable to create a corresponding order. This is a limitation of MSI integrations.
