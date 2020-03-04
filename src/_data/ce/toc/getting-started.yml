@@ -228,16 +228,18 @@ pages:
   - label: Customers
     url: "/configuration/customers.html"
     children:
-    - label: Newsletter
-      url: "/configuration/customers/newsletter.html"
     - label: Customer Configuration
       url: "/configuration/customers/customer-configuration.html"
-    - label: Wish List
-      url: "/configuration/customers/wishlist.html"
-    - label: Promotions
-      url: "/configuration/customers/promotions.html"
+    - label: Login as Customer
+      url: "/configuration/customers/login-as-customer.html"
+    - label: Newsletter
+      url: "/configuration/customers/newsletter.html"
     - label: Persistent Shopping Cart
       url: "/configuration/customers/persistent-shopping-cart.html"
+    - label: Promotions
+      url: "/configuration/customers/promotions.html"
+    - label: Wish List
+      url: "/configuration/customers/wishlist.html"
   - label: Sales
     url: "/configuration/sales.html"
     children:
