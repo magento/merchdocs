@@ -10,7 +10,7 @@ Before you begin, make sure that the [Storefront Properties]({% link stores/attr
 
 1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
 
-1. In the search filter at the top of the **Attribute Code** column, enter `sku` and click <span class="btn">Search</span>.
+1. In the search filter at the top of the _Attribute Code_ column, enter `sku` and click <span class="btn">Search</span>.
 
 1. Click to open the `sku` attribute in edit mode.
 
