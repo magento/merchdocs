@@ -27,7 +27,7 @@ Define your lowest price setting in the _Floor Price_ section.
 
 1. For **Floor Price Action**, choose an option.
 
-    - **Decrease By** - Choose when you want the defined _-Floor Price Source_ value to be adjusted down, creating a lower floor price for the rule, before listing to Amazon.
+    - **Decrease By** - Choose when you want the defined _Floor Price Source_ value to be adjusted down, creating a lower floor price for the rule, before listing to Amazon.
 
     - **Increase By** - Choose when you want the defined _Floor Price Source_ value to be adjusted up, creating a higher floor price for the rule, before listing to Amazon.
 
