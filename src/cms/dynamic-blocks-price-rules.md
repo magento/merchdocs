@@ -5,7 +5,8 @@ title: Dynamic Blocks in Price Rules
 
 Any [dynamic block]({% link cms/dynamic-blocks.md %}) that you create can be associated with catalog and cart price rules for a promotion. To make the association, you must first create both the dynamic block and the price rule. The association can be made while working on a price rule or when working on a dynamic block.
 
-The dynamic block is displayed only when the rule fires. If the promotion is targeted to segment A, the block is shown to segment A. If the promomotion is not active, the block is not displayed.
+After you create this association, the dynamic block is displayed only when the rule fires. If the promotion is targeted to segment A, the block is dispalyed to segment A. If the promotion is not active, the block is not displayed.
+
 
 ## To associate a dynamic block with a price rule:
 
