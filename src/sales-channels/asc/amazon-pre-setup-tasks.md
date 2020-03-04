@@ -46,7 +46,7 @@ To have the highest number of Magento products automatically match with Amazon l
 
 ## 6. Configure your currency and conversion (as needed)
 
-If your Amazon store uses a different currency than is configured for your Magento store, [enable the currency][8] and set the [currency conversion rate][9].
+If your Amazon store uses a different currency than is configured for your Magento store, [enable the currency]({% link configuration/general/currency-setup.md %}) and set the [currency conversion rate]({% link stores/currency-update.md %}).
 
 ## 7. Create a Product Condition attribute (as needed)
 
@@ -62,7 +62,7 @@ When your Amazon account is set up and active, there are several Magento recomme
 
 **Review and note any products you don't want to list on Amazon.**
 
-You may not want some products to be listed on Amazon. Amazon Sales Channel has a listing rule engine that is used to determine which products are eligible for publishing to Amazon. [Listing rules]({% link sales-channels/asc/listing-rules.md %}) allow you to select subsets of products to be published (or not published) to your Amazon Seller Central account, such as by category selection or by defining one or more product attributes. Like Magento [catalog]({% link marketing/price-rules-catalog.md %}) or [shopping cart]({% link marketing/price-rules-cart.md %}) price rules, product attributes used for Amazon listing eligibility must be set to “Used for Promo Rule Conditions”.
+You may not want some products to be listed on Amazon. Amazon Sales Channel has a listing rule engine that is used to determine which products are eligible for publishing to Amazon. [Listing rules]({% link sales-channels/asc/listing-rules.md %}) allow you to select subsets of products to be published (or not published) to your Amazon Seller Central account, such as by category selection or by defining one or more product attributes. Like Magento [catalog]({% link marketing/price-rules-catalog.md %}) or [shopping cart]({% link marketing/price-rules-cart.md %}) price rules, product attributes used for Amazon listing eligibility muse have **Use for Promo Rule Conditions** set to `Yes`. See the **Use for Promo Rule Conditions** in [Product Attributes]({% link stores/attributes-product.md %}).
 
 **Set your Amazon Seller Central Region to Inactive**
 
@@ -77,7 +77,5 @@ To help facilitate error-free data transition during integration, we highly reco
 [5]: https://www.amazon.com/gp/help/customer/display.html?nodeId=15015721&amp;language=en_US&amp;ref=ag_home_cont_200364110
 [6]: https://sellercentral.amazon.com/gp/help/external/help.html?itemID=200405820&amp;language=en_US&amp;ref=efph_200405820_cont_521
 [7]: https://sellercentral.amazon.com/sbr/ref=xx_shipset_dnav_xx#shipping_templates
-[8]: https://docs.magento.com/m2/ce/user_guide/configuration/general/currency-setup.html
-[9]: https://docs.magento.com/m2/ce/user_guide/stores/currency-update.html
 [10]: https://sellercentral.amazon.com/gp/help/G891
 [11]: https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620&amp;language=en_MX&amp;ref=ag_200135620_cont_191
