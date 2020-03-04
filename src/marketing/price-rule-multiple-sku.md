@@ -20,7 +20,7 @@ Before you begin, make sure that the [Storefront Properties]({% link stores/attr
 
 ## Step 2. Apply a Price Rule to Multiple SKUs
 
-1. On the _Admin_ sidebar, click **Marketing**. > _Promotions_ > **Catalog Price Rules**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Catalog Price Rules**.
 
 1. Do one of the following:
 
