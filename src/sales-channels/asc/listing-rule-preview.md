@@ -32,7 +32,9 @@ Your potential Amazon listings will populate on the _Listing Preview_ page in on
 
 1. Review and confirm your listings in the _Ineligible Listings_, _Eligible Listings_, and _New Listings_ tabs.
 
-1. If your listings match your expectations, click **Save and close**. If your listings do no not display as expected, click **Back** and modify your rules and conditions until your listings match your expectations.
+1. If your listings match your expectations, click **Save and close**.
+
+    If your listings do no not appear as expected, click **Back** and modify your rules and conditions until your listings match your expectations.
 
 ![]({% link sales-channels/asc/assets/amazon-listing-rule-preview.png %}){: .zoom}
 _Listing Rule Preview_
