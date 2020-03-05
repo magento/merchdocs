@@ -29,7 +29,7 @@ Beginning with Magento version 2.3.3, Google Shopping ads Channel is included wi
 --->
 
 {:.bs-callout-warning}
-Google Shopping ads Channel will be disabled on April 28, 2020. This includes:<br/>- Removing the extension from the Magento Marketplace<br/>- Removing the extension from future Magento updates<br/>- Disabling the extension functionality for all users<br/><br/>If you are a Google Shopping ads user, see [End of Life]({% link sales-channels/google-ads/google-eol.md %}) for more information.
+Google Shopping ads Channel will be disabled on April 28, 2020. This includes:<br/>- Removing the extension from the [Magento Marketplace](https://marketplace.magento.com/)<br/>- Removing the extension from future Magento updates<br/>- Disabling extension functionality for all users<br/><br/>If you are a Google Shopping ads user, see [End of Life]({% link sales-channels/google-ads/google-eol.md %}) for more information.
 
 Simplify your Google promotions and ad campaign management by integrating your Magento catalog with Google through Magento's Google Shopping ads Channel. This extension syncs your Magento product catalog and other information with your Google Merchant Center (GMC) and Ads accounts to promote and sell products. When you have integrated your Magento catalog, you can manage your GMC catalog and publish Google Smart Shopping ads campaigns directly from Magento.
 
