@@ -144,6 +144,19 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Send Quote Email Copy To|Store View|Specifies the email address of each person who is to receive a copy of the quote email. Separate multiple addresses with a comma.|
 |Send Quote Email Copy Method|Store View|Indicates the email method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
 
+## Purchase Order Approval
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled|Store View|When enabled, sends emails during the purchase order process. Options: Yes / No |
+| Created Purchase Order (to Buyer) | Store View | Sends an email confirmation to the purchase order creator. |
+| Approved Purchase Order (to Buyer) | Store View | Sends an email to the creator on purchase order Approval. |
+| Rejected Purchase Order (to Buyer) | Store View | Sends an email to the creator when the purchase order has been Rejected. |
+| Modified and Approved Purchase Order (to Buyer) | Store View | Sends an email when the purchase order has been changed and Approved. |
+| Expired Purchase Order | Store View | Sends an email when a purchase order has expired. |
+| Error Purchase Order | Store View | Sends an email when an order was approved but failed to convert to an order. |
+| Purchase Order required Approval | Store View | Sends an email to notify the creator that the purchase order requires approval. |
+| Purchase Order about to expire | Store View | Sends and email when an order is close to expiring.|
+
 <!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
 ## RMA
