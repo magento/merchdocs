@@ -17,7 +17,7 @@ title: Ending an Amazon Listing
 
 1. View the listing on the _Active_ tab in [Managing Listings]({% link sales-channels/asc/managing-product-listings.md %}).
 
-1. Under _Action_, click **Select** > **End Listing**.
+1. In the _Action_ column, click **Select** > **End Listing**.
 
 1. Click **OK** on the confirmation message.
 

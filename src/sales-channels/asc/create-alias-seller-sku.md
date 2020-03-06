@@ -1,5 +1,5 @@
 ---
-title: Creating an Alias Amazon Seller SKU
+title: Create an Alias Amazon Seller SKU
 ---
 
 
@@ -25,7 +25,7 @@ This function can be used to perform two functions:
 
 View the listing in one of the Product Listing pages (Inactive, Active, Ineligible, or Ended).
 
-1. Under _Action_, click **Create Alias Seller SKU**.
+1. Under **Actions**, click **Create Alias Seller SKU**.
 
 1. For **Assign New Seller SKU**, enter a unique alphanumeric value.
 
@@ -47,7 +47,7 @@ View the listing in one of the Product Listing pages (Inactive, Active, Ineligib
 
 1. View the listing in one of the Product Listing pages (Inactive, Active, Ineligible, or Ended).
 
-1. Under _Action_, click **Create Alias Seller SKU**.
+1. Under **Actions**, click **Create Alias Seller SKU**.
 
 1. For **Assign New Seller SKU**, enter a unique alphanumeric value.
 

@@ -10,7 +10,7 @@ When an assigned ASIN is changed, Magento ends your Amazon listings attached to 
 
 1. View the listing in one of the Product Listing pages (Inactive, Active, or Ineligible).
 
-1. Under _Action_, click **Edit Assigned ASIN** to open the _Product Listing Update_ page.
+1. Under **Actions**, click **Edit Assigned ASIN** to open the _Product Listing Update_ page.
 
 1. Enter the new ASIN value for **Assign ASIN**.
 

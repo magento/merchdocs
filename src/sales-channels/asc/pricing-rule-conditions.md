@@ -42,7 +42,7 @@ You can create different conditions by changing the combination of these values.
    ![]({% link sales-channels/asc/assets/ob-conditions-combinations.png %}){: .zoom}
    _Conditions Combination_
 
-   **Product Attribute** - The available product attributes depend on the [setup of the attribute]({% link stores/attribute-product-create.md %}). For an attribute to display in the list, **Use for Promo Rule Conditions** for the attribute must be set to `Yes` in your [Storefront Properties]({% link stores/attribute-product-create.md %}).
+   **Product Attribute** - The available product attributes depend on the [setup of the attribute]({% link stores/attribute-product-create.md %}). For an attribute to show in the list, **Use for Promo Rule Conditions** for the attribute must be set to `Yes` in your [Storefront Properties]({% link stores/attribute-product-create.md %}).
 
    - For **Product Attribute**, choose the attribute that you want to define as the base of the condition. For this example, the selected condition is `Category`.
 
@@ -53,13 +53,13 @@ You can create different conditions by changing the combination of these values.
 
       After you set the attribute, it cannot be edited. To change the attribute, you must delete the line and add the new attribute. You can delete a condition line by clicking the **Delete** (![]({% link images/images/btn-del-red.png %}){: .Inline}) icon at the end of the line.
 
-   - Click **is** and choose the comparison operator that describes the condition for products to meet. 
-   
+   - Click **is** and choose the comparison operator that describes the condition for products to meet.
+
       For this example, the comparison operator is `is`. The available options depend on the attribute selected in the previous step and may include different comparison options such as matching values, not including or including at least one of a value, and greater than, equal to, and less than a numerical amount. In this example, the options are `is` and `is not`.
 
-   - Click **...** and choose the attribute value upon which the condition is based. The options depend on the attribute's setup. 
-   
-      You might be prompted to select an option or enter a value for the condition. For this example, the field appears blank. To select your category(ies) for the rule, click the chooser icon (![]({% link images/images/btn-chooser.png %}){: .Inline}) to display your selection options. This rule is for Books, select the **Books** checkbox. The category number populates. Click the green checkmark icon (![]({% link images/images/btn-checkmark-green.png %}){: .Inline}) to accept your category selection(s).
+   - Click **...** and choose the attribute value upon which the condition is based. The options depend on the attribute's setup.
+
+      You might be prompted to select an option or enter a value for the condition. For this example, the field appears blank. To select your category(ies) for the rule, click the chooser icon (![]({% link images/images/btn-chooser.png %}){: .Inline}) to show your selection options. This rule is for Books, select the **Books** checkbox. The category number populates. Click the green checkmark icon (![]({% link images/images/btn-checkmark-green.png %}){: .Inline}) to accept your category selection(s).
 
       ![]({% link sales-channels/asc/assets/ob-price-rule-condition-3.png %}){: .zoom}
       _Condition Line 2, Part 3_

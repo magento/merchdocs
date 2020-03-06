@@ -3,7 +3,14 @@ title: Managing Amazon Listings
 ---
 
 
-Product Listing settings are initially defined during onboarding, but can be modified at any time after your store setup is complete. You can access the listing settings for an Active or Inactive store in the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}). In the _I Want To..._ section, click **Manage Listings**. The _Product Listings_ page shows the _Active_ tab.
+Product Listing settings can be modified at any time after your store is integrated. You can access your listing settings on the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
+
+On the store dashboard, click **Manage Listings** in the _Store Listings_ section. The _Product Listings_ page opens to the _Active_ tab by default.
+
+You can also click **Active Listings**, **Inactive Listings**, and **In Progress Listings** in the _Store Listings_ section to directly access those tabs.
+
+{:.bs-callout-info}
+**In Progress Listings** are either your _Ready to List_ listings or your _Incomplete Listings_, depending on your [_Product Listing Actions_]({% link sales-channels/asc/product-listing-actions.md %}) settings.<br/>If **Automatic List Action** is set to:<br/>- `Do Not Automatically List Eligible Products`, the link opens your [_Ready to List_]({% link sales-channels/asc/ready-to-list.md %}) listings.<br/>- `Automatically List Eligible Products`, the link opens your [_Incomplete_]({% link sales-channels/asc/incomplete-listings.md %}) listings.
 
 {% include amazon-managing-listings-intro.md %}
 
@@ -15,6 +22,6 @@ Product Listing settings are initially defined during onboarding, but can be mod
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
 
-1. In the _Amazon Stores_ view, click the store name for which you want to view listings.
+1. Click **View Store** on a store card.
 
-1. On the store dashboard, under _I Want to See.._, click **Manage Listings**.
+1. On the store dashboard, click **Manage Listings** in the _Store Listings_ section.

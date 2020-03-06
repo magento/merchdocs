@@ -1,5 +1,5 @@
 ---
-title: Creating and Editing Overrides
+title: Create and Edit Overrides
 ---
 
 
@@ -7,11 +7,11 @@ You can create and override for a listing or edit or remove an override that has
 
 ## Create an override for a single listing
 
-The **Create Override** action is available when viewing listings on the Inactive, Active, and Ineligible tabs.
+The _Create Override_ action is available when viewing listings on the Inactive, Active, and Ineligible tabs.
 
 1. View a listing on a _Products Listings_ tab.
 
-1. Under _Action_, click **Select** > **Create Override** to open the Product Listing Overrides page.
+1. In the _Action_ column, click **Select** > **Create Override** to open the Product Listing Overrides page.
 
     ![]({% link sales-channels/asc/assets/amazon-select-create-override.png %})
 
@@ -37,9 +37,9 @@ _Create an Override_
 
 The _Edit Overrides_ action is available when viewing listings on the _Overrides_ tab.
 
-1. View a listing on a Products Listings tab (Inactive, Active, Overrides, or Ineligible).
+1. View a listing on the _Product Listings_ page (_Inactive_, _Active_, _Overrides_, or _Ineligible_ tab).
 
-1. Under _Action_, click **Select** > **Edit Overrides**. The _Product Listing Overrides_ page opens just as when creating an override.
+1. In the _Action_ column, click **Select** > **Edit Overrides**. The _Product Listing Overrides_ page opens just as when creating an override.
 
     ![]({% link sales-channels/asc/assets/amazon-select-edit-overrides.png %})
 

@@ -30,7 +30,7 @@ With Amazon Sales Channel, you can:
 
 - Apply additional VAT tax in your Amazon pricing
 
-- Set a custom value for "available quantity" to display with your Amazon listings to increase buyer urgency
+- Set a custom value for "available quantity" to show with your Amazon listings to increase buyer urgency
 
 ## Pricing Rules
 
