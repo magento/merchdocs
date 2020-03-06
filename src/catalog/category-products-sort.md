@@ -13,7 +13,7 @@ You can set up the category options separately for each [store]({% link stores/s
 
 1. If necessary, choose the **Store View** where the settings apply.
 
-    For a multistore installation, the Store View setting applies the sort order to all available views within the store.
+    For a multi-store installation, the Store View setting applies the sort order to all available views within the store.
 
 1. In the category tree on the left, choose the category that you want to edit.
 
@@ -22,7 +22,7 @@ You can set up the category options separately for each [store]({% link stores/s
 
 ## Step 2: Sort the products
 
-In the **Products in Category** section, click the tiles (![]({% link images/images/btn-view-as-tiles.png %})) icon to show the product tiles in a grid. Then, use either the **Manual** or **Automatic** method to sort the products.
+In the _Products in Category_ section, click the tiles (![]({% link images/images/btn-view-as-tiles.png %})) icon to show the product tiles in a grid. Use either the **Manual** or **Automatic** method to sort the products.
 
 ![]({% link images/images-ee/category-products-tiles.png %}){: .zoom}
 _Product Tiles_

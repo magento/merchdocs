@@ -76,25 +76,25 @@ _Conditions_
 
     The statement has two bold links that you can click to display the selection of options for that part of the statement. You can create different conditions by changing the combination of these values. Do any of the following:
 
-   - Click **ALL** and select `ALL` or `ANY`.
-   - Click **TRUE** and select `TRUE` or `FALSE`.
-   - Leave the condition unchanged to apply the rule to all products.
+    - Click **ALL** and select `ALL` or `ANY`.
+    - Click **TRUE** and select `TRUE` or `FALSE`.
+    - Leave the condition unchanged to apply the rule to all products.
 
 1. Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) at the beginning of the next line and select an option for the condition, such as cart attribute, product subselection, or combination.
 
    For this example, complete the next part of the condition as follows:
 
-   - When prompted to **Choose the condition to add**, choose `Products Subselection`.
+    - When prompted to **Choose the condition to add**, choose `Products Subselection`.
 
         ![Cart price rule condition - products subselection]({% link images/images/price-rule-cart-condition-products-subselection.png %}){: .zoom}
         _Products Subselection_
 
-   - When the next part of the condition appears, hover over the line so you can see where each link with variable values is located.
+    - When the next part of the condition appears, hover over the line so you can see where each link with variable values is located.
 
         ![Cart price rule condition]({% link images/images/price-rule-cart-condition-products-subselection2.png %}){: .zoom}
         _If ALL of these conditions are TRUE_
 
-   - Click the "more" (...) link, and enter `greater than 100`. This condition requires the total quantity of the cart to be 101 or greater.
+    - Click the "more" (...) link, and enter `greater than 100`. This condition requires the total quantity of the cart to be 101 or greater.
 
         ![Cart price rule condition - total quantity value]({% link images/images/price-rule-cart-condition-products-subselection3.png %}){: .zoom}
         _Total Quantity Value_

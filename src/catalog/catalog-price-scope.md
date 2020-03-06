@@ -20,12 +20,12 @@ _Price Scope_
 
 1. Scroll down to the **Price** section and set **Catalog Price Scope** to one of the following:
 
-    * `Global`
-    * `Website`
+   - `Global`
+   - `Website`
 
-    The scope setting that you choose appears below price fields in your catalog.
+   The scope setting that you choose appears below price fields in your catalog.
 
-    ![]({% link images/images-ee/config-catalog-catalog-price-website.png %}){: .zoom}
-    <span class="caption-edition-ee">*Catalog Price Scope*</span>
+   ![]({% link images/images-ee/config-catalog-catalog-price-website.png %}){: .zoom}
+   <span class="caption-edition-ee">*Catalog Price Scope*</span>
 
 1. When complete, click <span class="btn">Save Config</span>.

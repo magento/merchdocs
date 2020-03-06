@@ -19,8 +19,8 @@ _Customer Segments_
 
 1. Verify that **Enable Customer Segment Functionality** is set to `Yes`.
 
-      ![Customers configuration - customer segments]({% link images/images-ee/config-customers-customer-configuration-customer-segments.png %}){: .zoom}
-      [_Customer Segments_]({% link configuration/customers/customer-configuration.md %})
+    ![Customers configuration - customer segments]({% link images/images-ee/config-customers-customer-configuration-customer-segments.png %}){: .zoom}
+    [_Customer Segments_]({% link configuration/customers/customer-configuration.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.
 
@@ -32,15 +32,14 @@ _Customer Segments_
 
 1. Complete the **Segment Information**.
 
-   - Enter a **Segment Name** to identify the customer segment when working in the Admin.
-   - Enter a brief **Description** that explains the purpose of the segment.
-   - Set **Assigned to Website** to the website where the customer segment can be used.
-   - To activate the customer segment, set **Status** to `Active`.
-   - To identify the customers that this segment applies to, set **Apply to** to one of the following:
+    - Enter a **Segment Name** to identify the customer segment when working in the Admin.
+    - Enter a brief **Description** that explains the purpose of the segment.
+    - Set **Assigned to Website** to the website where the customer segment can be used.
+    - To identify the customers that this segment applies to, set **Apply to** to one of the following:
 
-     - Visitors and Registered Customers
-     - Registered Customers
-     - Visitors
+      - Visitors and Registered Customers
+      - Registered Customers
+      - Visitors
 
      Additional options become available in the left pane.
 

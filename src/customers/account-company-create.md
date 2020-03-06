@@ -18,16 +18,16 @@ Before you begin, make sure that [B2B Features]({% link stores/b2b-features.md %
 
 1. In the **Company Information** section, do the following:
 
-    - Complete the required fields:
+   - Complete the required fields:
 
-        - Company Name
-        - Company Email
+     - Company Name
+     - Company Email
 
-    - If the information is available, complete the remaining fields, as applicable.
+   - If the information is available, complete the remaining fields, as applicable.
 
-        - Company Legal Name
-        - VAT/TAX ID
-        - Re-seller ID
+     - Company Legal Name
+     - VAT/TAX ID
+     - Re-seller ID
 
     ![]({% link images/images-b2b/customer-account-company-information.png %}){: .zoom}
     _Company Information_
@@ -39,16 +39,16 @@ Before you begin, make sure that [B2B Features]({% link stores/b2b-features.md %
 
 1. In the **Company Administrator** section, do the following:
 
-    - Enter the **Email address** for the company admin.
+   - Enter the **Email address** for the company admin.
 
       The email address for the company admin can be the same as the company email address, or a different email address. If a different email address is entered, a company user account is created, in addition to the company admin account.
 
-    - Enter the **First Name** and **Last Name** of the Company Admin.
+   - Enter the **First Name** and **Last Name** of the Company Admin.
 
-    - Optionally complete the following fields:
+   - Optionally complete the following fields:
 
-      - Job Title
-      - Gender
+     - Job Title
+     - Gender
 
     ![]({% link images/images-b2b/customer-account-company-administrator.png %})
     _Company Administrator_
@@ -72,23 +72,23 @@ _New Company_
 
 1. Click <span class="btn">Add New Company</span>. Then, do the following:
 
-    - Complete these required fields:
+   - Complete these required fields:
 
-      - Company Name
-      - Company Email
+     - Company Name
+     - Company Email
 
-    - By default, the **Status** of the account is “Active”. If you’re not ready for the account to go live, set Status to “Pending Approval”.
-    - If applicable, choose the Admin account of the **Sales Representative** who is to manage the account.
+   - By default, the **Status** of the account is “Active”. If you’re not ready for the account to go live, set Status to “Pending Approval”.
+   - If applicable, choose the Admin account of the **Sales Representative** who is to manage the account.
 
 1. In the **Account Information** section, do the following:
 
-    - Complete the following fields as applicable:
+   - Complete the following fields as applicable:
 
-      - Company Legal Name
-      - VAT/TAX ID
-      - Reseller ID
+     - Company Legal Name
+     - VAT/TAX ID
+     - Reseller ID
 
-    - In the **Comment** field, enter any additional information about the customer that might be needed.
+   - In the **Comment** field, enter any additional information about the customer that might be needed.
 
       The Comments are visible only from the Admin.
 
@@ -97,61 +97,61 @@ _New Company_
 
 1. In the **Legal Address** section, complete these required fields:
 
-    - Street Address
-    - City Country
-    - ZIP/Postal Code
-    - Phone Number
+   - Street Address
+   - City Country
+   - ZIP/Postal Code
+   - Phone Number
 
 1. In the **Company Admin** section, do the following:
 
-    - Complete these required fields:
+   - Complete these required fields:
 
-      - Email
-      - First Name
-      - Last Name
+     - Email
+     - First Name
+     - Last Name
 
-    - The following optional parts of the name might be applicable to some customer names more than others, and can be used at your discretion.
+   - The following optional parts of the name might be applicable to some customer names more than others, and can be used at your discretion.
 
-      - Prefix
-      - Middle Name/Initial
-      - Suffix
+     - Prefix
+     - Middle Name/Initial
+     - Suffix
 
-    - If the information is available, complete the remaining fields to describe the Company Admin:
+   - If the information is available, complete the remaining fields to describe the Company Admin:
 
-      - Job Title
-      - Gender
+     - Job Title
+     - Gender
 
     ![]({% link images/images-b2b/customers-company-create-company-admin.png %}){: .zoom}
     _Company Admin_
 
 1. The **Company Credit** section displays a summary of the customer’s credit activity. Complete as many of the fields in the lower part of the section as applicable.
 
-    - Credit Currency
-    - Credit Limit
-    - Allow to Exceed Credit Limit
-    - Reason for Change
+   - Credit Currency
+   - Credit Limit
+   - Allow to Exceed Credit Limit
+   - Reason for Change
 
     ![]({% link images/images-b2b/customers-company-create-company-credit-admin.png %}){: .zoom}
     _Company Credit_
 
 1. In the **Advanced Settings** section, do the following:
 
-    - The customer group assignment determines which shared catalog is available to the company and its employees. By default, the company is assigned to the customer group that is set as the default in the configuration.
+    The customer group assignment determines which shared catalog is available to the company and its employees. By default, the company is assigned to the customer group that is set as the default in the configuration.
 
-      You can change the **Customer Group** assignment for the Company and its employees to a group that has access to a different shared catalog, or to a standard customer group. You are prompted to confirm before the group is changed.
+   - You can change the **Customer Group** assignment for the Company and its employees to a group that has access to a different shared catalog, or to a standard customer group. You are prompted to confirm before the group is changed.
 
-    ![]({% link images/images-b2b/customers-company-create-advanced-settings-customer-group-admin.png %}){: .zoom}
-    _Advanced Settings_
+      ![]({% link images/images-b2b/customers-company-create-advanced-settings-customer-group-admin.png %}){: .zoom}
+      _Advanced Settings_
 
-    - If you want to allow company employees to generate quotes from their account, set **Allow Quotes** to `Yes`.
+   - If you want to allow company employees to generate quotes from their account, set **Allow Quotes** to `Yes`.
 
-    - To change the default payment methods that are available to the company, clear the **Use config settings** checkbox. Then, do one of the following:
+   - To change the default payment methods that are available to the company, clear the **Use config settings** checkbox. Then, do one of the following:
 
-      - Choose **All Enabled Payment Methods**.
+     - Choose **All Enabled Payment Methods**.
 
-      - Choose the **Specific Payments**.
+     - Choose the **Specific Payments**.
 
-      To select multiple payment methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
+        To select multiple payment methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
 1. When complete, click <span class="btn">Save</span>.
 

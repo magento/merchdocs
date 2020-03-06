@@ -17,7 +17,7 @@ On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Product Recommend
 
 This dashboard displays a table of previously configured recommendations (if any) along with the [metrics]({% link marketing/recommendation-metrics.md %}) being tracked on those recommendations. You can use the date filter to refine the recommendations by `Last 24 hours`, `Last 7 days`, and `Last 30 days`.
 
-## Available Recommendation Types {#availablerectypes}
+## Available recommendation types {#availablerectypes}
 
 Magento provides the following types of recommendations:
 
@@ -30,7 +30,23 @@ Magento provides the following types of recommendations:
 -  **Bought this, bought that** - Recommends items most often purchased by shoppers who purchased the specified item
 -  **More like this** - Recommends items based on similar content and attributes
 
-## Product Recommendations Placement {#productrecplacement}
+### Backup recommendations
+
+If there is not sufficient input data to provide all requested recommendation items in a unit, Magento provides backup recommendations to fill those items.
+
+For example, if you deploy the **Recommended for you** recommendation type to your homepage, a first time shopper on your site will not have generated enough behavioral data to accurately recommended personalized products. In this case, Magento will surface items based on the **Most viewed** recommendation type to this shopper.
+
+The following recommendation types will fallback to **Most viewed** if there is not sufficient input data collected:
+
+-  **Recommended for you**
+
+-  **Viewed this, viewed that**
+
+-  **Viewed this, bought that**
+
+-  **Bought this, bought that**
+
+## Product recommendations placement {#productrecplacement}
 
 You can place the recommendations in one of the following page locations.
 
@@ -40,7 +56,7 @@ Some storefront pages restrict where you can place the recommendations. Refer to
 -  **At the top of main content** - Recommendations appear above the main content area just below the top navigation bar.
 -  **At the bottom of main content (default)** - Recommendations appear below the main content area and before any other content blocks on the page, like **Related Products**.
 
-## Supported Recommendations for Each Storefront Page {#supportedrecs}
+## Supported recommendations for each storefront page {#supportedrecs}
 
 The following table lists the storefront pages, where you can place the recommendations, and the recommendation types allowed on that page.
 
@@ -52,7 +68,7 @@ The following table lists the storefront pages, where you can place the recommen
 |**Cart**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this|
 |**Confirmation**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this|
 
-## Global Category Exclusions {#globalexclusions}
+## Global category exclusions {#globalexclusions}
 
 You can specify categories that you never want to be included in your recommendations.
 

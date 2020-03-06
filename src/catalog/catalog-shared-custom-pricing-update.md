@@ -17,6 +17,6 @@ _General Settings_
 1. On the _Catalog Structure_ page, click <span class="btn">Configure</span> and do one of the following:
 
     - In the progress indicator at the top of the page, click **Pricing**.
-    - In the top-right corner, click <span class="btn">Next</span>.
+    - In the upper-right corner, click <span class="btn">Next</span>.
 
 1. Follow the instructions in [Step 2: Set Custom Prices]({% link catalog/catalog-shared-pricing-structure.md %}).

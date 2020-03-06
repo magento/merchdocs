@@ -17,8 +17,8 @@ In the following example, you will rework a prepared template for the Magento Lu
 
 1. Do one of the following;
 
-   - On the **Create** page, click the **New email campaign** tile.
-   - In the main menu under **Campaigns**, choose **New Campaign**.
+    - On the **Create** page, click the **New email campaign** tile.
+    - In the main menu under **Campaigns**, choose **New Campaign**.
 
     ![Engagement Cloud - new campaign]({% link images/images/engagement-cloud-create-new-email-campaign.png %}){: .zoom}
     _Create New Email Campaign_

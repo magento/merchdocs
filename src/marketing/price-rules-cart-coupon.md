@@ -22,8 +22,8 @@ Coupon codes can be sent by email, or included in newsletters, catalogs, and adv
 
    - To limit the number of times the coupon can be used, complete the following:
 
-        - **Uses per Coupon**
-        - **Uses per Customer**
+      - **Uses per Coupon**
+      - **Uses per Customer**
 
         For unlimited use, leave these fields blank.
 
@@ -32,31 +32,31 @@ Coupon codes can be sent by email, or included in newsletters, catalogs, and adv
 
 1. Make the coupon valid for a period of time.
 
-    - {:.edition-ce}Complete the **From** and **To** dates. To select the date, click the **Calendar** (![]({% link images/images/btn-calendar.png %})) icon next to each field. If you leave the date range empty, the rule does not expire.
+   - {:.edition-ce}Complete the **From** and **To** dates. To select the date, click the **Calendar** (![]({% link images/images/btn-calendar.png %})) icon next to each field. If you leave the date range empty, the rule does not expire.
 
-    - {:.edition-ee}Do one of the following:
+   - {:.edition-ee}Do one of the following:
 
-      - **Schedule New Update**
+      **Schedule New Update**
 
-         - Click <span class="btn">Schedule New Update</span> in the upper-right corner of the page. Then, do the following:
+      - Click <span class="btn">Schedule New Update</span> in the upper-right corner of the page. Then, do the following:
 
         ![]({% link images/images/price-rule-cart-coupon-schedule-new-update.png %}){: .zoom}
         *Schedule Update*
 
-          - Enter the **Update Name** and **Description**.
+      - Enter the **Update Name** and **Description**.
 
-          - Choose the **Start Date** and **End Date** from the Calendar ( ![Calendar icon]({% link images/images/btn-calendar.png %}) ). If you leave the date range empty, the rule will not expire.
+      - Choose the **Start Date** and **End Date** from the Calendar ( ![Calendar icon]({% link images/images/btn-calendar.png %}) ). If you leave the date range empty, the rule will not expire.
 
-          - When complete, click <span class="btn">Save</span>.
+      - When complete, click <span class="btn">Save</span>.
 
-          ![Cart price rule - scheduled change]({% link images/images/price-rule-cart-coupon-scheduled-change.png %}){: .zoom}
-          _Scheduled Change_
+         ![Cart price rule - scheduled change]({% link images/images/price-rule-cart-coupon-scheduled-change.png %}){: .zoom}
+         _Scheduled Change_
 
-      - **Assign to Existing Update**
+      **Assign to Existing Update**
 
-          - Select **Assign to Another Update**.
+      - Select **Assign to Another Update**.
 
-          - Find the update in the list, and click <span class="btn">Select</span>.
+      - Find the update in the list, and click <span class="btn">Select</span>.
 
 1. Complete the [cart price rule]({% link marketing/price-rules-cart.md %}) as needed.
 
@@ -84,9 +84,9 @@ The generation of discount coupons is an asynchronous operation, which executes 
 
    - Set the **Code Format** to one of the following:
 
-     - `Alphanumeric`
-     - `Alphabetical`
-     - `Numeric`
+      - `Alphanumeric`
+      - `Alphabetical`
+      - `Numeric`
 
    - (Optional) Enter a **Code Prefix** to be added to the beginning of the code.
 

@@ -56,17 +56,17 @@ _Facebook Plugins_
 
 1. Add the block.
 
-   - {:.edition-ee}If using Page Builder, follow the instructions to [add the block]({% link cms/page-builder-add-content-block.md %}) to the stage. Otherwise, on the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
+    - {:.edition-ee}If using Page Builder, follow the instructions to [add the block]({% link cms/page-builder-add-content-block.md %}) to the stage. Otherwise, on the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
 
-   - {:.edition-ce}On the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
+    - {:.edition-ce}On the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
 
 1. In the upper-right corner, click **Add Widget** and do the following:
 
-   - {:.edition-b2b}In the Settings section, set **Type** to `CMS Static Block` and click <span class="btn">Continue</span>.
+    - {:.edition-b2b}In the Settings section, set **Type** to `CMS Static Block` and click <span class="btn">Continue</span>.
 
-   - Verify that **Design Theme** is set to the current theme.
+    - Verify that **Design Theme** is set to the current theme.
 
-   - Click <span class="btn">Continue</span>.
+    - Click <span class="btn">Continue</span>.
 
 1. In the **Storefront Properties** section, do the following:
 

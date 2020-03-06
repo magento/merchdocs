@@ -38,7 +38,7 @@ For a website with multiple [stores]({% link stores/stores-all-create-store.md %
 
 ## Step 3: Complete the category content
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the _Content_ section.
 
     ![]({% link images/images-ee/category-content.png %}){: .zoom}
     <span class="caption-edition-ee">_Category Content_</span>
@@ -49,11 +49,11 @@ For a website with multiple [stores]({% link stores/stores-all-create-store.md %
     - To use images from your [Media Storage]({% link cms/media-storage.md%}), click <span class="btn">Select from Gallery</span> and select the image you want to represent the category.
 
     {:.bs-callout-info}
-    Inside the Media Gallery, you may also leverage the [Adobe Stock Integration]({% link cms/adobe-stock.md %}) to find an appropriate image by clicking the <span class="btn">Search Adobe Stock</span> button.
+    Inside the Media Gallery, you may also leverage the [Adobe Stock Integration]({% link cms/adobe-stock.md %}) to find an appropriate image by clicking <span class="btn">Search Adobe Stock</span>.
 
-1. In the **Description** box, enter the text that you want to appear on the category landing page.
+1. For **Description**, enter the text that you want to appear on the category landing page.
 
-   You can format the text as needed. To learn more, see [Using the Editor]({% link cms/editor.md %}).
+   You can format the text as needed. For more information, refer to [Using the Editor]({% link cms/editor.md %}).
 
 1. To include a content block on the category landing page, choose the **CMS Block** that you want to appear.
 
@@ -61,7 +61,7 @@ For a website with multiple [stores]({% link stores/stores-all-create-store.md %
 
 ## Step 4: Complete the display settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Display Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the _Display Settings_ section.
 
 1. Set **Display Mode** to one of the following:
 
@@ -71,9 +71,9 @@ For a website with multiple [stores]({% link stores/stores-all-create-store.md %
 
 1. If you want the category page to include the _Filter by Attribute_ section of layered navigation, set **Anchor** to `Yes`.
 
-1. To change the **Available Product Listing Sort By** options, do the following:
+1. To change the _Available Product Listing Sort By_ options, do the following:
 
-    - Clear the **Use All** checkbox.
+    - Deselect the **Use All** checkbox.
 
     - Select one or more of the available values to be available for customers to sort the list. By default, all available values are included. For example, the values might include:
 
@@ -85,7 +85,7 @@ For a website with multiple [stores]({% link stores/stores-all-create-store.md %
 
 1. To change the default layered navigation [price step]({% link catalog/navigation-layered-price.md %}) setting, do the following:
 
-    - Clear the **Use Config Settings** checkbox.
+    - Deselect the **Use Config Settings** checkbox.
 
     - Enter the value to be used as an incremental price step for layered navigation.
 
@@ -96,7 +96,7 @@ For a website with multiple [stores]({% link stores/stores-all-create-store.md %
 
 ## Step 5: Complete the search engine optimization settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Search Engine Optimization Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the _Search Engine Optimization Settings_ section.
 
 1. Complete the following [meta data]({% link marketing/meta-data.md %}) for the category:
 
@@ -111,7 +111,7 @@ For a website with multiple [stores]({% link stores/stores-all-create-store.md %
 
 ## Step 6: Choose the products in category
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Products in Category** section. Then, use one of the following methods to add products to the category.
+1. Expand ![]({% link images/images/btn-expand.png %}) the _Products in Category_ section and use one of the following methods to add products to the category.
 
 1. Use the [filters]({% link stores/admin-grid-controls.md %}) as needed to find the products.
 
@@ -128,7 +128,7 @@ For a website with multiple [stores]({% link stores/stores-all-create-store.md %
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Category Permissions** section and do the following:
 
-    - For a multisite installation, choose the **Website** where the category permissions apply.
+    - For a multi-site installation, choose the **Website** where the category permissions apply.
 
     - {:.edition-ee}Choose the **Customer Group** where the category permissions apply.
 
@@ -165,8 +165,9 @@ For a website with multiple [stores]({% link stores/stores-all-create-store.md %
 
     - {:.edition-ce}To schedule the design update for a specific time period, do the following:
 
-      - Expand the **Schedule Design Update** section.
-      - Use the calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}) to choose the Schedule Update **From** and **To** dates.
+    - Expand the _Schedule Design Update_ section.
+
+    - Use the calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}) to choose the Schedule Update **From** and **To** dates.
 
         ![]({% link images/images/category-scheduled-design-update.png %}){: .zoom}
         [_Scheduled Design Update_]({% link catalog/categories-custom-design.md %})
