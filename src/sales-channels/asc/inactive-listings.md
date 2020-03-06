@@ -3,15 +3,15 @@ title: Inactive Listings
 ---
 
 
-Listings that display on this tab include your products that have been published to Amazon but are not active on the Amazon marketplace. Your listings could be inactive for a few different reasons. For example, you might not be eligible to list that particular brand. Inactive listings are dictated by Amazon’s listing standards and your Amazon Seller Central account permissions.
+The _Inactive_ tab shows your products that have been published to Amazon but are not active on the Amazon marketplace. Your listings could be inactive for a few different reasons. For example, you might not be eligible to list that particular brand. Inactive listings are dictated by Amazon's listing standards and your Amazon Seller Central account permissions.
 
-In the **Actions** drop-down:
+Under **Actions**:
 
 {% include amazon-end-listing-s-action.md %}
 
 {% include amazon-edit-listing-overrides-action.md %}
 
-In the **Select** drop-down:
+Under **Select** in the _Actions_ column:
 
 {% include amazon-view-details-action.md %}
 
@@ -26,7 +26,7 @@ In the **Select** drop-down:
 {% include amazon-end-lising-action.md %}
 
 {:.bs-callout-info}
-If you have listings in process, a message will appear above the tabs indicating the number of listing.
+If you have listings in process, a message will appear above the tabs indicating the number of listings.
 
 ![]({% link sales-channels/asc/assets/amazon-inactive-listings.png %}){: .zoom}
 _Inactive Listings_
@@ -42,5 +42,5 @@ _Inactive Listings_
 |Landed Price|The listing price for the product plus its shipping price.|
 |Amazon Quantity|The quantity available once the product is actively listed on Amazon.|
 |Status|The status of the listing, defined by Amazon.|
-|Inactive Reason (if provided by Amazon)|Amazon will not always provide a reason for inactive listings, and you may need to reach out to customer support to resolve listing issues. In some instances, Amazon will notify you of a reason. To view these responses, in the _Actions_ column, click **View Details**. If these issues are resolved and Amazon lifts the error, the products will change to Active listings and move to the Active listings table.|
-|Action|List of available actions that can be applied to a specific listing. To apply an action, in the _Actions_ column, click **Select** to display your options:<br/>[View Details]({% link sales-channels/asc/product-listing-details.md %})<br/>[Create Override]({% link sales-channels/asc/creating-editing-overrides.md %})<br/>[Edit Assigned ASIN]({% link sales-channels/asc/edit-assigned-asin.md %})<br/>[Create Alias Seller SKU]({% link sales-channels/asc/create-alias-seller-sku.md %})<br/>[Switch to Fulfilled By Amazon/Merchant ]({% link sales-channels/asc/fulfilled-by.md %})<br/>[End Listing]({% link sales-channels/asc/ended-listings.md %})|
+|Inactive Reason (if provided by Amazon)|Amazon will not always provide a reason for inactive listings, and you may need to reach out to customer support to resolve listing issues. In some instances, Amazon will notify you of a reason. To view these responses, click **View Details** in the _Actions_ column. If these issues are resolved and Amazon removes the error, the products will move to the _Active_ tab.|
+|Action|List of available actions that can be applied to a specific listing. To apply an action, click **Select** in the _Actions_ column to show your options:<br/>[View Details]({% link sales-channels/asc/product-listing-details.md %})<br/>[Create Override]({% link sales-channels/asc/creating-editing-overrides.md %})<br/>[Edit Assigned ASIN]({% link sales-channels/asc/edit-assigned-asin.md %})<br/>[Create Alias Seller SKU]({% link sales-channels/asc/create-alias-seller-sku.md %})<br/>[Switch to Fulfilled By Amazon/Merchant ]({% link sales-channels/asc/fulfilled-by.md %})<br/>[End Listing]({% link sales-channels/asc/ended-listings.md %})|

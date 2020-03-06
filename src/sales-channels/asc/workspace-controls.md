@@ -23,7 +23,7 @@ The Filters control shows options for narrowing the data shown in the table. Fil
 
 Filters controls can include dynamic calendars to narrow data for specified dates, drop-down menus for columns that have pre-defined selections, and free-text fields that may contain custom data.
 
-The example below shows the settings for filtering the list of orders to display only orders that meet the following criteria:
+The example below shows the settings for filtering the list of orders to show only orders that meet the following criteria:
 
 - Orders placed between 2/01/2019 and 2/07/2019, and
 - Orders with a buyer named of `Smith`, and

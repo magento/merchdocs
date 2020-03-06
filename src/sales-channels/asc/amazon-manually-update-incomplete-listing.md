@@ -8,7 +8,7 @@ Listings that display on the _Incomplete_ tab include your Magento catalog produ
 
 1. View the listing(s) on the _Incomplete_ tab in [Manage Listings]({% link sales-channels/asc/managing-product-listings.md %}).
 
-1. Under _Action_, click **Select** > **Update Required Info** for the listing you want to update.
+1. In the _Action_ column, click **Select** > **Update Required Info** for the listing you want to update.
 
 1. Review the catalog product information (SKU and Product Name) for which you are trying to match to an Amazon listing.
 
@@ -25,7 +25,7 @@ _Example: Manually assign ASIN for no listing match_
 
 1. View the listing(s) on the _Incomplete_ tab in [Manage Listings]({% link sales-channels/asc/managing-product-listings.md %}).
 
-1. Under _Action_, click **Select** > **Update Required Info** for the listing you want to update.
+1. In the _Action_ column, click **Select** > **Update Required Info** for the listing you want to update.
 
 1. Review the catalog product information (SKU and Product Name) for which you are trying to match to an Amazon listing.
 
@@ -44,7 +44,7 @@ _Example: Manually select ASIN from multiple possible matches_
 
 1. View the listing(s) on the _Incomplete_ tab in [Manage Listings]({% link sales-channels/asc/managing-product-listings.md %}).
 
-1. Under _Action_, click **Select** > **Update Required Info** for the listing you want to update.
+1. In the _Action_ column, click **Select** > **Update Required Info** for the listing you want to update.
 
 1. Review the catalog product information (SKU and Product Name) for which you are trying to match to an Amazon listing.
 
@@ -63,7 +63,7 @@ _Example: Manually select ASIN from possible variant matches_
 
 1. View the listing(s) on the Incomplete tab in [Manage Listings]({% link sales-channels/asc/managing-product-listings.md %}).
 
-1. Under _Action_, click **Select** > **Update Required Info** for the listing you want to update.
+1. In the _Action_ column, click **Select** > **Update Required Info** for the listing you want to update.
 
 1. Review the catalog product information (SKU and Product Name) for which you are trying to match to an Amazon listing.
 

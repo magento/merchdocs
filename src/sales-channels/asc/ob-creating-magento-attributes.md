@@ -14,7 +14,7 @@ These instructions detail how to create Magento attributes for Amazon ASIN and A
 
 1. Click **Stores** in the left-side menu. In the _Attributes_ section, click **Product**.
 
-1. Click **Add New Attribute** to display the Attributes Properties.
+1. Click **Add New Attribute** to show the Attributes Properties.
 
 1. For **Default Label**, enter `Amazon ASIN` (the name for your attribute).
 
@@ -49,7 +49,7 @@ _Amazon ASIN Attribute_
 
 1. Click **Stores** in the left-side menu. In the _Attributes_ section, click **Product**.
 
-1. Click **Add New Attribute** to display the Attributes Properties.
+1. Click **Add New Attribute** to show the Attributes Properties.
 
 1. For **Default Label**, enter `Amazon Condition` (the name for your attribute).
 

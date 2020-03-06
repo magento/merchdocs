@@ -4,7 +4,7 @@ Define the Rule Type in the **Select Price Rule Type** section.
 
 1. For **Competitor Price Source**, select an option in the drop-down.
 
-    - **Use "Buy Box" Price**: Choose when you want to adjust your Amazon pricing based on the Amazon Buy Box seller price. A [Buy Box]({% link sales-channels/amazon/buy-box-competitor-pricing.md %}) price exists when multiple sellers on Amazon offer the same product. Amazon defines the Buy Box seller based on performance requirements. Merchants seek to win the Buy Box seller status and offers maximum visibility of your product listings.
+    - **Use "Buy Box" Price**: Choose when you want to adjust your Amazon pricing based on the Amazon Buy Box seller price. A [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) price exists when multiple sellers on Amazon offer the same product. Amazon defines the Buy Box seller based on performance requirements. Merchants seek to win the Buy Box seller status and offers maximum visibility of your product listings.
 
     - **Use Lowest Competitor Price**: Choose when you want to compare and adjust your listing price to competitor pricing for the same product. When this option is selected, the **Minimum Positive Feedback** and **Minimum Feedback Count** fields enable.
 

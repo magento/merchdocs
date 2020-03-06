@@ -38,14 +38,14 @@ You can create different conditions by changing the combination of these values.
 
 `If ALL of these conditions are TRUE:`
 
-1. Click the **Add** (![]({% link images/images/btn-add-grn.png %}){: .Inline}) icon at the beginning of the condition line to display available attributes on which the condition function. Select an attribute on which to base the condition, such as a conditions combination or a product attribute.
+1. Click the **Add** (![]({% link images/images/btn-add-grn.png %}){: .Inline}) icon at the beginning of the condition line to show available attributes on which the condition function. Select an attribute on which to base the condition, such as a conditions combination or a product attribute.
 
     - **Conditions Combination** - Choose to allow you to create an additional set of `All/Any` and `True/False` conditions inside the existing set.
 
     ![]({% link sales-channels/asc/assets/ob-conditions-combinations.png %}){: .zoom}
     _Conditions Combination_
 
-    - **Product Attribute** - The product attributes depend on the setup of the attribute. For an attribute to display in the list, it must be configured to be used in promo rule conditions. See the **Use for Promo Rule Conditions** in [Product Attributes]({% link stores/attributes-product.md %}).
+    - **Product Attribute** - The product attributes depend on the setup of the attribute. For an attribute to show in the list, it must be configured to be used in promo rule conditions. See the **Use for Promo Rule Conditions** in [Product Attributes]({% link stores/attributes-product.md %}).
 
         In the list under **Product Attribute**, choose the attribute that you want to use as the basis of the condition. For this example, the selected condition is `Amazon FBA`.
 
