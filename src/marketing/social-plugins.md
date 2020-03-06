@@ -66,11 +66,11 @@ _Facebook Plugins_
 
 1. In the upper-right corner, click **Add Widget** and do the following:
 
-   - In the Settings section, set **Type** to `CMS Static Block` and click <span class="btn">Continue</span>.
+    - In the Settings section, set **Type** to `CMS Static Block` and click <span class="btn">Continue</span>.
 
-   - Verify that **Design Theme** is set to the current theme.
+    - Verify that **Design Theme** is set to the current theme.
 
-   - Click <span class="btn">Continue</span>.
+    - Click <span class="btn">Continue</span>.
 
 1. In the **Storefront Properties** section, do the following:
 

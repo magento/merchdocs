@@ -18,9 +18,9 @@ Before you enable a flat catalog for a live store, make sure to test the configu
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand the **Storefront** section and do the following:
+1. Expand the _Storefront_ section and do the following:
 
-    - Set **Use Flat Catalog Category** to `Yes`. (If necessary, clear the **Use system value** checkbox.)
+    - Set **Use Flat Catalog Category** to `Yes`. (If necessary, deselect the **Use system value** checkbox.)
 
     - Set **Use Flat Catalog Product** to `Yes`.
 
@@ -37,19 +37,19 @@ There are two methods you can use to verify the results.
 
 ### Method 1: Verify the results for a single product
 
-   1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
+1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-   1. Open a product in edit mode.
+1. Open a product in edit mode.
 
-   1. In the **Name** field, add the text `_TEST` to the end of the product name.
+1. For **Name**, add the text `_TEST` to the end of the product name.
 
-   1. Click <span class="btn">Save</span>.
+1. Click <span class="btn">Save</span>.
 
-   1. On a new browser tab, navigate to the home page of your store and do the following:
+1. On a new browser tab, navigate to the home page of your store and do the following:
 
-       - Search for the product you edited.
+    - Search for the product you edited.
 
-       - Use the navigation to browse to the product under its assigned category.
+    - Use the navigation to browse to the product under its assigned category.
 
         If necessary, refresh the page to see the results. The change will appear within the minute or according to your [Cron]({% link system/cron.md %}) schedule.
 
@@ -58,33 +58,33 @@ There are two methods you can use to verify the results.
 
 ### Method 2: Verify the results for a category
 
-   1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
 
-   1. In the upper-left corner, verify that **Store View** is set to `All Store Views`.
+1. In the upper-left corner, verify that **Store View** is set to `All Store Views`.
 
-        If prompted, click **OK** to confirm.
+    If prompted, click **OK** to confirm.
 
-   1. In the category tree, select an existing category, click <span class="btn">Add Subcategory</span>, and do the following:
+1. In the category tree, select an existing category, click <span class="btn">Add Subcategory</span>, and do the following:
 
-       - In the **Category Name** field, enter `Test Category`.
+    - For **Category Name**, enter `Test Category`.
 
-       - When complete, click <span class="btn">Save</span>.
+    - When complete, click <span class="btn">Save</span>.
 
-            ![]({% link images/images/catalog-flat-test-category.png %}){: .zoom}
-            _Test Subcategory_
+        ![]({% link images/images/catalog-flat-test-category.png %}){: .zoom}
+        _Test Subcategory_
 
-       - Expand ![]({% link images/images/btn-expand.png %}) the **Products in Category** section and click **Reset Filter** to display all products.
+    - Expand ![]({% link images/images/btn-expand.png %}) the **Products in Category** section and click **Reset Filter** to display all products.
 
-       - Select the checkbox of several products to add them to the new category.
+    - Select the checkbox of several products to add them to the new category.
 
-       - Click <span class="btn">Save</span>.
+    - Click <span class="btn">Save</span>.
 
-            ![]({% link images/images/catalog-flat-test-category-products.png %}){: .zoom}
-            _Test Category Products_
+        ![]({% link images/images/catalog-flat-test-category-products.png %}){: .zoom}
+        _Test Category Products_
 
-   1. On a new browser tab, navigate to the home page of your store and use the store navigation to browse to the category you created.
+1. On a new browser tab, navigate to the home page of your store and use the store navigation to browse to the category you created.
 
-        If necessary, refresh the page to see the results. The change will appear within the minute or according to your cron schedule.
+    If necessary, refresh the page to see the results. The change will appear within the minute or according to your cron schedule.
 
 ## Step 3: Remove the test data
 
@@ -92,38 +92,38 @@ Do the following to remove the test data and restore the original product name a
 
 ### Remove the test category
 
-   1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
 
-   1. In the category tree, select the test subcategory that you created.
+1. In the category tree, select the test subcategory that you created.
 
-   1. In the upper-right corner, click <span class="btn">Delete</span>.
+1. In the upper-right corner, click <span class="btn">Delete</span>.
 
-   1. When prompted to confirm, click <span class="btn">OK</span>.
+1. When prompted to confirm, click <span class="btn">OK</span>.
 
-        This will not remove the products that are assigned to the category.
+    This will not remove the products that are assigned to the category.
 
 ### Restore the original product name
 
-   1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
 
-   1. Open the test product in edit mode.
+1. Open the test product in edit mode.
 
-   1. Remove the `_TEST` text that you added to the **Product Name**.
+1. Remove the `_TEST` text that you added to the **Product Name**.
 
-   1. In the upper-right corner, click <span class="btn">Save</span>.
+1. In the upper-right corner, click <span class="btn">Save</span>.
 
 ### Restore the original catalog configuration
 
-   1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-   1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
+1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-   1. Expand the **Storefront** section and do the following:
+1. Expand the _Storefront_ section and do the following:
 
-       - Set **Use Flat Catalog Category** to `No`.
+    - Set **Use Flat Catalog Category** to `No`.
 
-       - Set **Use Flat Catalog Product** to `No`.
+    - Set **Use Flat Catalog Product** to `No`.
 
-   1. When complete, click <span class="btn">Save Config</span>.
+1. When complete, click <span class="btn">Save Config</span>.
 
-   1. When prompted, refresh the cache.
+1. When prompted, refresh the cache.

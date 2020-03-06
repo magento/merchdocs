@@ -8,164 +8,190 @@ Use the Row content type to add a new row to the stage. The row is the basic bui
 ![]({% link images/images-ee/page-builder-layout-page-add-content-row-tools.png %}){: .zoom}
 _Row Toolbox_
 
-## To add a row
+## Add a row
 
 1. In the Page Builder panel under **Layout**, drag a new **Row** to the stage, just below the first row.
 
-1. To format the row, hover over the container. Then, choose **Settings**  in the toolbox and complete the following as needed:
+1. To format the row, hover over the container. Then, choose **Settings**  in the toolbox and complete the settings as described in the following sections.
 
-   **Appearance**
-
-   The Appearance setting determines how the background color and/or background image appears in relation to the container and width of the content area.
-
-   Set **Appearance** to one of the following:
-
-      - Contained
-      - Full Width
-      - Full Bleed
-
-      ![]({% link images/images-ee/page-builder-tutorial1-row-settings-appearance.png %}){: .zoom}
-      _Appearance_
-
-   **Background Color**
-
-   1. Use one of the following methods to set the background color:
-
-      **Method 1**: Enter the Value
-
-      In the _No Color_ box, enter one of the following:
-
-         - A predefined color name, such as `White`
-         - The hexadecimal color value for the color, such as `#ffffff`
-         - The rgba value for the color, with opacity percent, such as `rgba(255, 255, 255, 0.75)`
-
-         ![]({% link images/images-ee/page-builder-settings-background-color-no-color.png %}){: .zoom}
-         _No Color_
-
-      **Method 2:** Choose the Value
-
-      Click the swatch to the left of the _No Color_ box and do one of the following:
-
-         - In the color picker palette, choose the color swatch.
-         - In the color picker, drag the cursor to the color that you want.
-
-         ![]({% link images/images-ee/page-builder-settings-background-color-picker-swatch.png %}){: .zoom}
-         _Choose Swatch_
-
-   1. Page Builder supports a transparency layer, or _alpha channel_, that can be used to create backgrounds with varying degrees of opacity. Do the following to set the opacity of the background color:
-
-      - Locate the **Opacity** slider just below the color picker.
-
-      - Drag the slider to the 75% setting. Then, click <span class="btn">Apply</span>.
-
-         The box below the slider shows the current red, green, blue, and alpha values (rgba). The last number indicates the current opacity percentage as a decimal.
-
-         ![]({% link images/images-ee/page-builder-settings-background-color.png %}){: .zoom}
-         _Set Opacity_
-
-   **Background Image**
-
-   - To apply a **Background Image** to the row, do one of the following:
-
-      - Click <span class="btn">Upload</span>. Then, navigate to the image on your local drive and click <span class="btn">Open</span>.
-      - Click <span class="btn">Select from Gallery</span>, select the image that you want to use for the row background, and click <span class="btn">Add Selected</span>.
-
-      The image is added to the gallery and the dimensions of the image appear below the image in the Background section.
-
-      ![]({% link images/images-ee/page-builder-tutorial1-row-settings-background-image-selected.png %}){: .zoom}
-      _Background Image_
-
-   - To use a different background image for mobile devices, repeat these steps to specify the **Background Mobile Image** that you want to use.
-
-   **Background Size and Position**
-
-   - Set the **Background Size** to one of the following:
-
-      | Cover | The background image covers the full width of the row. |
-      | Contain | The background image is limited to the width of the content area. |
-      | Auto | Applies the size from the current style sheet. |
-
-      ![]({% link images/images-ee/page-builder-layout-row-settings-background-size-cover.png %}){: .zoom}
-      _Background Size_
-
-   - To determine how the background image is anchored in relation to the row, set **Background Position** to one of the following:
-
-      | Top | Left / Center / Right |
-      | Center | Left / Center / Right |
-      | Bottom | Left / Center / Right |
-
-      The anchor point is like a push pin that attaches the image to the row at the specified background position.
-
-   - The attached background image can be set to a fixed position, or to move as the page scrolls. Set **Background Attachment** to one of the following:
-
-     - Scroll
-     - Fixed (Desktop only)
-
-   - To control the speed of a scrolling background image, expand the **Parallax Background** section. Set **Enable Parallax Background** to `Yes`. Then, enter the **Parallax Speed** as a decimal value between `-1.0` and `2.0`.
-
-   - To repeat the background image as a tiled background, set **Background Repeat** to `Yes`.
-
-      ![]({% link images/images-ee/page-builder-settings-parallax-background.png %}){: .zoom}
-      _Parallax Background_
-
-   **Layout**
-
-   - Enter the **Minimum Height** of the row in pixels.
-
-      For example, you might set Minimum Height to match the height of a background image to ensure that the full image is visible.
-
-   - Choose one of the following **Vertical Alignment** settings to align any content containers that are added to the row:
-
-     - Top
-     - Center
-     - Bottom
-
-      ![]({% link images/images-ee/page-builder-row-layout.png %}){: .zoom}
-      _Layout Settings_
-
-   **Advanced**
-
-   - Set the horizontal **Alignment** of content containers that are added to the row to one of the following:
-
-     - Default
-     - Left
-     - Center
-     - Right
-
-   - Choose the **Border** style that you want to apply to all sides of the row container.
-
-   - To choose the **Border Color**, do one of the following:
-
-     - Click the _No Color_ swatch and choose a colored swatch.
-     - In the _No Color_ field, enter a valid color name or hexadecimal value.
-
-      Then, click <span class="btn">Apply</span>.
-
-      ![]({% link images/images-ee/page-builder-settings-border-color.png %}){: .zoom}
-      _Border Color_
-
-   - Enter the **Border Width** of the row container in pixels.
-
-   - For a border with curved corners, enter the **Border Radius** in pixels.
-
-      The row in the following example has a border radius of 15.
-
-      ![]({% link images/images-ee/page-builder-settings-border-radius-15.png %}){: .zoom}
-      _Row with Border Radius of 15_
-
-      ![]({% link images/images-ee/page-builder-layout-row-settings-margin-padding-default.png %}){: .zoom}
-      _Margins & Padding_
-
-1. To preview how the content looks from the storefront, click the **Full Screen** icon (![]({% link images/images-ee/icon-pb-fullscreen.png %}){: .Inline}).
+1. To preview how the content looks from the storefront, click the **Full Screen** icon (![]({% link images/images-ee/icon-pb-fullscreen.png %})).
 
    You can continue to work in full screen mode or click **Close** ( X ) in the upper-right corner to return to the workspace.
 
-1. When complete, scroll up to the top of the page and click <span class="btn">Save & Close</span> to return to the Pages grid.
+1. When the settings are complete, scroll up to the top of the page and click <span class="btn">Save & Close</span> to return to the Pages grid.
 
    ![]({% link images/images-ee/page-builder-layout-row-add.png %}){: .zoom}
    _Adding a Row_
 
-## To change row settings
+### Appearance
+
+The Appearance setting determines how the background color and/or background image appears in relation to the container and width of the content area.
+
+#### Layout
+
+- Enter the **Minimum Height** for the row. This value can be a number with any valid CSS unit (such as 100px, 50%, 50em, 100vh) or a calculation (such as 100vh - 237px).
+
+   For example, you can set the minimum height of a row to stretch the full-height of the page, giving you compelling options for full-page background images and videos.
+
+- Choose one of the following **Vertical Alignment** settings to align any content containers that are added to the row:
+
+   - Top
+   - Center
+   - Bottom
+
+   ![]({% link images/images-ee/page-builder-row-layout.png %}){: width="400px"}{: .zoom}
+   _Layout Settings_
+
+#### Background Color
+
+- Contained
+- Full Width
+- Full Bleed
+
+![]({% link images/images-ee/page-builder-tutorial1-row-settings-appearance.png %}){: .zoom}
+_Appearance_
+
+### Background Color
+
+Use one of the following methods to set the background color:
+
+#### Method 1: Enter the Value
+
+In the _No Color_ box, enter one of the following:
+
+- A predefined color name, such as `White`
+- The hexadecimal color value for the color, such as `#ffffff`
+- The rgba value for the color, with opacity percent, such as `rgba(255, 255, 255, 0.75)`
+
+![]({% link images/images-ee/page-builder-settings-background-color-no-color.png %}){: .zoom}
+_No Color_
+
+#### Method 2: Choose the Value
+
+1. Click the swatch to the left of the _No Color_ box and do one of the following:
+
+   - In the color picker palette, choose the color swatch.
+   - In the color picker, drag the cursor to the color that you want.
+
+    ![]({% link images/images-ee/page-builder-settings-background-color-picker-swatch.png %}){: .zoom}
+    _Choose Swatch_
+
+1. Set the opacity of the background color:
+
+    Page Builder supports a transparency layer, or _alpha channel_, that can be used to create backgrounds with varying degrees of opacity.
+
+   **Background Type**
+
+   A background type can be an image or a video. Page Builder defaults to `Image` and shows various image settings. If you select `Video`, Page Builder swaps the image settings with video settings. Both background types are described as follows.
+
+   ![]({% link images/images-ee/page-builder-background-type.png %}){: .zoom}
+   _Background Type_
+
+   **Background Image**
+
+   - To apply a background image to the row, do one of the following:
+
+      The box below the slider shows the current red, green, blue, and alpha values (rgba). The last number indicates the current opacity percentage as a decimal.
+
+      ![]({% link images/images-ee/page-builder-settings-background-color.png %}){: .zoom}
+      _Set Opacity_
+
+### Background Image
+
+1. To apply a **Background Image** to the row, do one of the following:
+
+   - Set the **Background Size** to one of the following:
+
+    ![]({% link images/images-ee/page-builder-tutorial1-row-settings-background-image-selected.png %}){: .zoom}
+    _Background Image_
+
+1. To use a different background image for mobile devices, repeat these steps to specify the **Background Mobile Image** that you want to use.
+
+### Background Size and Position
+
+1. Set the **Background Size** to one of the following:
+
+   | Cover | The background image covers the full width of the row. |
+   | Contain | The background image is limited to the width of the content area. |
+   | Auto | Applies the size from the current style sheet. |
+
+    ![]({% link images/images-ee/page-builder-layout-row-settings-background-size-cover.png %}){: .zoom}
+    _Background Size_
+
+1. To determine how the background image is anchored in relation to the row, set **Background Position** to one of the following:
+
+   | Top | Left / Center / Right |
+   | Center | Left / Center / Right |
+   | Bottom | Left / Center / Right |
+
+    The anchor point is like a push pin that attaches the image to the row at the specified background position.
+
+1. Set **Background Attachment** to one of the following:
+
+   **Background Video**
+
+   To apply a background video to the row, do the following:
+
+   - In the **Video URL** field, enter a valid video URL. Valid video URLs can be:
+
+      - links to YouTube videos: `https://youtu.be/CoDhMRUUjeI`
+      - links to Vimeo videos: `https://vimeo.com/190156113`
+      - links to valid video files (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`
+
+      ![]({% link images/images-ee/page-builder-video-url.png %}){: .zoom}
+      _Background Video URL_
+
+   - Apply additional settings as follows:
+
+      - Select an **Overlay Color** to apply a transparent tint to the video.
+      - Change **Infinite Loop**, **Lazy Load**, and **Play Only When Visible** settings as needed. By default, all these settings are set to `Yes`.
+      - Add a **Fallback Image** to display on the screen before a video loads and in the event that the video does not load for some reason.
+
+    For example, you might set Minimum Height to match the height of a background image to ensure that the full image is visible.
+
+1. Choose one of the following **Vertical Alignment** settings to align any content containers that are added to the row:
+
+   - `Top`
+   - `Center`
+   - `Bottom`
+
+    ![]({% link images/images-ee/page-builder-row-layout.png %}){: .zoom}
+    _Layout Settings_
+
+### Advanced
+
+1. Set the horizontal **Alignment** of content containers that are added to the row to one of the following:
+
+   - Default
+   - Left
+   - Center
+   - Right
+
+1. Choose the **Border** style that you want to apply to all sides of the row container.
+
+1. To choose the **Border Color**, do one of the following:
+
+   - Click the _No Color_ swatch and choose a colored swatch.
+   - In the _No Color_ field, enter a valid color name or hexadecimal value.
+
+    Then, click <span class="btn">Apply</span>.
+
+    ![]({% link images/images-ee/page-builder-settings-border-color.png %}){: .zoom}
+    _Border Color_
+
+1. Enter the **Border Width** of the row container in pixels.
+
+1. For a border with curved corners, enter the **Border Radius** in pixels.
+
+  The row in the following example has a border radius of 15.
+
+  ![]({% link images/images-ee/page-builder-settings-border-radius-15.png %}){: .zoom}
+  _Row with Border Radius of 15_
+
+  ![]({% link images/images-ee/page-builder-layout-row-settings-margin-padding-default.png %}){: .zoom}
+    _Margins & Padding_
+
+## Change row settings
 
 1. Hover over the row container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox.
 
@@ -176,7 +202,7 @@ _Row Toolbox_
 
 1. When complete, click <span class="btn">Save</span> in the upper-right corner to close the Edit Row page. Then again in the upper-right corner, click <span class="btn">Save</span>.
 
-## Row Toolbox
+## Row toolbox
 
 | Tool | [Icon]({% link configuration/scope.md %}) | Description |
 | --------- | ---------- | --------- |
@@ -188,25 +214,50 @@ _Row Toolbox_
 | Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the row. |
 | Remove | ![]({% link images/images-ee/icon-pb-remove.png %}) | Deletes the row container and its content from the stage. |
 
-## Row Settings
+## Row settings
 
 |Setting|Description|
 |--- |--- |
 |Appearance|Determines how the background color and/or image  appears in relation to the row container and the width that is available for content. Options: <br/>**Contained** - The background color or image is limited to the maximum page width that is defined by the theme. <br/>**Full Width** - Limits the content to the maximum page width that is defined by the theme. The background color and/or image is not limited, and extends the full width of the row. <br/>**Full Bleed** - Neither the content nor the background image and/or color are limited, and extend the full width of the row. Full Bleed can be used only with [themes]({% link design/themes.md %}) that support the layout.|
+|Layout|Determines the minimum height and vertical alignment of the row. Options: <br/>**Minimum Height** - Determines the minimum height of the row using any CSS unit (px, vh, em, %) or calculation between units (100vh - 237px). For example, you can set the minimum height to cover the full-height of the page to create background images and videos that fill the entire page.<br/>**Vertical Alignment** - Determines the vertical position of content containers that are added to the row.|
 
 ### Background
 
 |Setting|Description|
 |--- |--- |
 |Background Color|Determines the background color and opacity of the row.|
+|Background Type|Determines whether the background is an image or a video.|
+
+### Background Image
+
+|Setting|Description|
+|--- |--- |
 |Background Image|Determines the location of the background image and applies the image to the row. Options: <br/>**Upload** - Uploads an image file from your local computer to the gallery and then applies it as the background image for the row. <br/>**Select from Gallery** - Prompts you to choose an existing image from the gallery as the background image for the row. <br/>![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"} - Allows you to either drag the image to the camera tile or browse to the image in your local file system.|
 |Background Mobile Image|Determines the location of the background image that is to be used for mobile devices and applies the image to the row. If left blank, the standard desktop background image is used. Options: <br/>**Upload** - Uploads an image file from your local computer to the gallery and then applies it as the background image for the row. <br/>**Select from Gallery** - Prompts you to choose an existing image from the gallery as the background image for the row. <br/>![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"} - Allows you to either drag the image to the camera tile or browse to the image in your local file system.|
 |Background Size|Determines how the background image is scaled in relation to the width of the row. Options: <br/>**Cover** - The background image covers the full width of the row. <br/>**Contain** - The background image is limited to the width of the content area. <br/>**Auto** - Applies the default background size that is specified in the stylesheet of the current theme.|
 |Background Position|Determines the anchor point of the image in relation to the row. Options: Top Left / Top Center / Top Right / Center Left / Center / Center Right / Bottom Left / Bottom Center / Bottom Right|
 |Background Attachment|Determines how the background image moves in relation to the scrolling page. Options: <br/>**Scroll** - The background image is synchronized to move down as the page scrolls. Use Parallax Background to control the scrolling speed.<br/>**Fixed** - (Not available for mobile) The background image does not move as the container scrolls over the image and is fixed at the specified background position.|
 |Background Repeat|Determines if the background image is repeated. Options: <br/>**Yes** - The background image is repeated to fill the available space. <br/>**No** - Uses only a single instance of the background image.|
-|Parallax Background|Determines the speed of a scrolling background image in relation to the scrolling of the page. The background can be set to scroll more slowly to create a sense of immersion. Options: <br/>**Enable Parallax Background** - Enables parallax scrolling of the background image. <br/>**Parallax Speed** - Determines how fast the background image moves in relation to page scrolling. Accepts values in the range of `-1.0` to `2.0`.|
-|Layout|Determines the minimum height and vertical alignment of the row. Options: <br/>**Minimum Height** - Determines the minimum height of the row. For example, you might set the minimum height to match the height of a background image to ensure that the full image is visible. <br/>**Vertical Alignment** - Determines the vertical position of content containers that are added to the row.|
+
+### Background Video
+
+|Setting|Description|
+|--- |--- |
+|Video URL|Link to the video you want to play for the background. Valid video URLs can be:<br/>- links to YouTube videos: `https://youtu.be/CoDhMRUUjeI`<br/>- links to Vimeo videos: `https://vimeo.com/190156113`<br/>- links to valid video files (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`|
+|Overlay Color|Color with opacity for creating a tint over the video.|
+|Infinite Loop|Determines if the video repeats. Options:<br/> **Yes** - (Default) The video repeats in an infinite loop.<br/> **No** - The video plays once and stops.<br/>|
+|Lazy Load|Determines when the video loads. Options:<br/> **Yes** - (Default) The video loads from its source only when visible on the screen.<br/> **No** - The video loads with the page, even when not visible.<br/>|
+|Play Only When Visible|Determines when the video plays. Options:<br/> **Yes** - (Default) The video starts playing only when it is visible.<br/> **No** - The video starts playing immediately after it loads, regardless of whether it is visible.<br/>|
+|Fallback Image|Image that displays on the screen before a video loads as well as when the event does not load for some reason.|
+
+### Parallax Background
+
+Determines the speed of a scrolling background image in relation to the scrolling of the page. The background can be set to scroll more slowly to create a sense of immersion.
+
+|Setting|Description|
+|--- |--- |
+|Enable Parallax Background| Enables parallax scrolling of the background image.|
+|Parallax Speed|Determines how fast the background image moves in relation to page scrolling. Accepts values in the range of `-1.0` to `2.0`.|
 
 ### Advanced
 

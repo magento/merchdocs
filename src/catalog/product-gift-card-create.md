@@ -55,7 +55,7 @@ _Choose Attribute Set_
 
 1. To give customers the ability to set the value of the gift card, do the following:
 
-    - Set **Open Amount** to `Yes` ( ![]({% link images/images/btn-switch-yes.png %}) ).
+    - Set **Open Amount** to `Yes`.
 
     - To define the range of minimum and maximum acceptable values, enter the **Open Amount From** and **To** values.
 
@@ -80,7 +80,7 @@ There might be additional individual attributes that describe the product. The s
     ![]({% link images/images-ee/product-gift-card-information.png %}){: .zoom}
     _Gift Card Information_
 
-1. Clear the **Use Config Settings** checkbox for any of the following fields that you want to change:
+1. Deselect the **Use Config Settings** checkbox for any of the following fields that you want to change:
 
     |Treat Balance as Store Credit|Determines if the gift card holder can redeem the balance as store credit. |
     |Lifetime (days)|Determines the number of days after purchase until the gift card expires. If you do not want to set a limit for the lifetime of the card, leave this field blank. |
@@ -102,7 +102,7 @@ Complete the information in the following sections as needed:
 
 ## Step 7: Publish the product
 
-1. If you are ready to publish the product in the catalog, set the **Enable Product** switch to `Yes` ( ![]({% link images/images/btn-switch-yes.png %}) ).
+1. If you are ready to publish the product in the catalog, set the **Enable Product** switch to `Yes`.
 
 1. Do one of the following:
 

@@ -2,9 +2,9 @@
 title: Shipping
 ---
 
-The Shipping tab defines international and packaging data for products in your catalog. Data defined on this tab is used by Magento Shipping to pre-fill shipping information for customers during checkout and for other order fulfillment workflows.
+The _Shipping_ tab defines international and packaging data for products in your catalog. Data defined on this tab is used by Magento Shipping to pre-fill shipping information for customers during checkout and for other order fulfillment workflows.
 
-[International shipping]({% link shipping/magento-shipping-international.md %}) information is collected in the Country of Origin and HS Code fields. [Packaging information]({% link shipping/magento-shipping-pre-packaged.md %}) for an item is defined in the Packaging Type field.
+[International shipping]({% link shipping/magento-shipping-international.md %}) information is collected in the _Country of Origin_ and _HS Code_ fields. [Packaging information]({% link shipping/magento-shipping-pre-packaged.md %}) for an item is defined in the _Packaging Type_ field.
 
 ![]({% link images/images/product-shipping.png %}){: .zoom}
 _Shipping_
@@ -15,7 +15,7 @@ _Shipping, Pre-packaged_
 ![]({% link images/images/product-shipping-assigned.png %}){: .zoom}
 _Shipping, Assigned_
 
-|Field|Scope|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |---|---|
 |Country of Origin|Global|Used by Magento Shipping for International Shipments. Defines the country from which the item ships.|
 |HS Code|Global|Used by Magento Shipping for International Shipments. The Harmonized System is an international nomenclature for the classification of products. It allows participating countries to classify traded goods on a common basis for customs purposes. At the international level, the [Harmonized System (HS)](https://unstats.un.org/unsd/tradekb/Knowledgebase/50018/Harmonized-Commodity-Description-and-Coding-Systems-HS) for classifying goods is a six-digit code system.|

@@ -5,13 +5,13 @@ title: Configuring Gift Card Accounts
 
 The Gift Card configuration establishes the default settings for all gift cards for the store view and manages the code pool. The code pool is a set of unique gift card codes in a specific format. Codes from the pool are used each time a gift card account is created. It is the responsibility of the store administrator to ensure that there are enough codes available for gift card sales. Make sure to generate a code pool before offering gift cards for sale. By default, Magento generates 1,000 codes. A new code pool is not generated until there are no more codes available in the current pool.
 
-## Step 1: Configure Email Notifications
+## Step 1: Configure email notifications
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Sales** and choose **Gift Cards**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Gift Card Email Settings** section and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the _Gift Card Email Settings_ section and do the following:
 
     - Set **Gift Card Notification Email Sender** to the store identity that appears as the sender of gift card notifications.
 
@@ -20,7 +20,7 @@ The Gift Card configuration establishes the default settings for all gift cards 
     ![]({% link images/images/config-sales-gift-cards-gift-card-email-settings.png %}){: .zoom}
     [_Gift Card Email Settings_]({% link configuration/sales/gift-cards.md %})
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Email Sent from Gift Card Account Management** section and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the _Email Sent from Gift Card Account Management_ section and do the following:
 
     - Set **Gift Card Email Sender** to the store identity to appear as the sender of the gift cards.
 
