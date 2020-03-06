@@ -14,6 +14,9 @@
 
   - label: Magento Extensions
     url: /magento/magento-extensions.html
+  
+  - label: Magento Marketplace
+    url: /magento/magento-marketplace.html
 
   - label: Change Log
     url: /magento/change-log.html

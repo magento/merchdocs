@@ -21,34 +21,34 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **UPS** section. Then, do the following:
 
-    * Set **Enabled for Checkout** to “Yes”.
+    - Set **Enabled for Checkout** to `Yes`.
 
-    * For a UPS XML account (default), set **UPS Type** to “United Parcel Service XML”. Then do the following:
+    - For a UPS XML account (default), set **UPS Type** to “United Parcel Service XML”. Then do the following:
 
-        * Enter the following UPS credentials: User ID, Access License Number, Password
+      - Enter the following UPS credentials: User ID, Access License Number, Password
 
-        * Set **Mode** to “Live” to send data to the UPS shipping system over a secure connection. (Development mode does not send data over a secure connection.)
+      - Set **Mode** to “Live” to send data to the UPS shipping system over a secure connection. (Development mode does not send data over a secure connection.)
 
-        * Verify the **Gateway XML URL** that is required to send requests by XML file.
+      - Verify the **Gateway XML URL** that is required to send requests by XML file.
 
-        * Set **Order of Shipment** to the region where the shipment originates.
+      - Set **Order of Shipment** to the region where the shipment originates.
 
-        * If you have special rates with UPS, set **Enable Negotiated Rates** to “Yes”. Then, enter the six-digit **Shipper Number** assigned to you by UPS.
+      - If you have special rates with UPS, set **Enable Negotiated Rates** to “Yes”. Then, enter the six-digit **Shipper Number** assigned to you by UPS.
 
-    * For a standard UPS account, set **UPS Type** to “United Parcel Service”. Then do the following:
+    - For a standard UPS account, set **UPS Type** to “United Parcel Service”. Then do the following:
 
         {:.bs-callout-info}
         The standard United Parcel Service type is scheduled for deprecation. For new configurations, you should use the default  "United Parcel Service XML" type. The XML type is also required to generate [shipping labels]({% link shipping/shipping-labels.md %}).
 
-        * Set **Live Account** to one of the following:
+      - Set **Live Account** to one of the following:
 
-            | Yes | Runs UPS in production mode, and offers UPS as a shipping method to your customers. |
-            | No | Runs UPS in a test mode. |
+          | Yes | Runs UPS in production mode, and offers UPS as a shipping method to your customers. |
+          | No | Runs UPS in a test mode. |
 
-        * In the **Gateway URL** field, enter the URL that is used to calculate UPS shipping rates.
+      - In the **Gateway URL** field, enter the URL that is used to calculate UPS shipping rates.
 
-            {:.bs-callout-info}
-            UPS is discontinuing support of HTTP, which is used in the current default (system value). You must clear the **Use system value** checkbox and modify the URL to use HTTPS. Example: https://www.ups.com/using/services/rave/qcostcgi.cgi
+          {:.bs-callout-info}
+          UPS is discontinuing support of HTTP, which is used in the current default (system value). You must clear the **Use system value** checkbox and modify the URL to use HTTPS. Example: https://www.ups.com/using/services/rave/qcostcgi.cgi
 
 1. In the **Title** field, enter the name of this shipping option as you want it to appear during checkout. By default, this field is set to “United Parcel Service”.
 
@@ -59,13 +59,13 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. Set **Packages Request Type** to one of the following:
 
-   * Use origin weight (few requests)
-   * Divide to equal weight (one request)
+    - Use origin weight (few requests)
+    - Divide to equal weight (one request)
 
 1. In the **Container** field, specify the typical packaging type that is used for shipment.
 
-   * LBS
-   * KGS
+    - LBS
+    - KGS
 
 1. Set **Weight Unit** to the system you use to measure product weight. The weight system supported by UPS varies by country. If in doubt, ask UPS which weight system you should use. Options include:
 
@@ -79,11 +79,11 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. Set **Pickup Method** to one of the following:
 
-   * Regular Daily Pickup
-   * On Call Air
-   * One Time Pickup
-   * Letter Center
-   * Customer Counter
+    - Regular Daily Pickup
+    - On Call Air
+    - One Time Pickup
+    - Letter Center
+    - Customer Counter
 
 1. Enter the **Minimum Package Weight** allowed by the carrier.
 
@@ -94,13 +94,13 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. Set **Calculate Handling Fee** to one of the following methods:
 
-    * Fixed
-    * Percent
+    - `Fixed`
+    - `Percent`
 
 1. Set **Handling Applied** to one of the following:
 
-    * Per Order
-    * Per Package
+    - `Per Order`
+    - `Per Package`
 
 1. Enter the amount of the **Handling Fee** to be charged. To enter a percentage, use the decimal format. For example, enter 0.25 for 25%.
 
@@ -113,9 +113,9 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. Set **Free Method** to the UPS service you want to use for offers of free shipping. Then, do one of the following:
 
-   * Set **Free Shipping with Minimum Order Amount** to `Enable`. Then, enter the **Minimum Order Amount for Free Shipping**.
+    - Set **Free Shipping with Minimum Order Amount** to `Enable`. Then, enter the **Minimum Order Amount for Free Shipping**.
 
-   * Set **Free Shipping with Minimum Order Amount** to `Disable`.
+    - Set **Free Shipping with Minimum Order Amount** to `Disable`.
 
 1. In the **Displayed Error Message box**, type the message customers see if UPS shipping becomes unavailable.
 
@@ -130,9 +130,8 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. Set **Show Method if Not Applicable** to one of the following:
 
-    * **Yes**–To list all UPS shipping methods to customers, regardless of their availability.
-
-    * **No**–To list only the methods which are available to customers. |
+    |Yes|To list all UPS shipping methods to customers, regardless of their availability.|
+    |No|To list only the methods which are available to customers. |
 
     ![]({% link images/images/config-sales-shipping-methods-ups5.png %}){: .zoom}
     _[Applicable Countries]({% link configuration/sales/shipping-methods.md %})_
@@ -160,4 +159,3 @@ To offer this shipping method to your customers, you must first open an account 
     [Sales configuration - shipping origin address options]({% link configuration/sales/shipping-settings.md %})
 
 1. Click <span class="btn">Save Config</span>.
-

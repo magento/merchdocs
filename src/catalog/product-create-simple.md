@@ -13,7 +13,7 @@ _Simple Product_
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the top-right, choose **Simple Product**.
+1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right, choose **Simple Product**.
 
     ![]({% link images/images/product-add-simple.png %}){: .zoom}
     _Add Simple Product_
@@ -39,11 +39,11 @@ _Choose Attribute Set_
 
 1. Enter the product **Price**.
 
-1. Because the product is not yet ready to publish, set the **Enable Product** option to `No` ![]({% link images/images/btn-switch-no.png %}).
+1. Because the product is not yet ready to publish, set the **Enable Product** option to `No`.
 
 1. Click <span class="btn">Save</span> and continue.
 
-    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the top-left corner.
+    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the upper-left corner.
 
 1. Choose the **Store View** where the product is to be available.
 
@@ -110,7 +110,7 @@ Scroll down and complete the information in the following sections as needed:
 
 ## Step 6: Publish the product
 
-1. If you are ready to publish the product in the catalog, set the **Enable Product** switch to `Yes` ![]({% link images/images/btn-switch-yes.png %}).
+1. If you are ready to publish the product in the catalog, set the **Enable Product** switch to `Yes`.
 
 1. Do one of the following:
 

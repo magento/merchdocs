@@ -30,24 +30,22 @@ If the session cookie expires while the customer is logged in, the persistent co
 
     - Set **Enable “Remember Me”** to one of the following:
 
-        - **Yes** – Displays the _Remember Me_ checkbox on the Login page of your store, so that customers can choose to save their shopping cart information.
-
-        - **No** – Persistence can still be enabled, but customers are not given the option to choose if they want to save their information.
+       |`Yes` |Displays the _Remember Me_ checkbox on the Login page of your store, so that customers can choose to save their shopping cart information.|
+       |`No` |Persistence can still be enabled, but customers are not given the option to choose if they want to save their information.|
 
     - To preselect the _Remember Me_ checkbox, set **Remember Me Default Value** to `Yes`.
 
     - Set **Clear Persistence on Log Out** to one of the following:
 
-       - **Yes** – The shopping cart is cleared when a registered customer logs out.
-       - **No** – The shopping cart is saved when a registered customer logs out.
+       |`Yes` |The shopping cart is cleared when a registered customer logs out.|
+       |`No` |The shopping cart is saved when a registered customer logs out.|
 
        {:.bs-callout-info}
        If the session cookie expires while the customer is still logged in, the persistent cookie remains in use.
 
     - Set **Persist Shopping Cart** to one of the following:
 
-        - **Yes** – If the session cookie expires, the persistent cookie is preserved. If a guest shopper later logs in or creates a new account, the shopping cart is restored.
-
-        - **No** – The shopping cart is not preserved for guests after the session cookie expires.
+       |`Yes` |If the session cookie expires, the persistent cookie is preserved. If a guest shopper later logs in or creates a new account, the shopping cart is restored.
+       |`No` |The shopping cart is not preserved for guests after the session cookie expires.
 
 1. Click **Save Config**.

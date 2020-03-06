@@ -8,7 +8,7 @@ Use the Slider content type to add a slideshow of images to the stage. You can u
 ![]({% link images/images-ee/page-builder-media-slider-buy3-get1free-storefront.png %}){: .zoom}
 _Slider in Storefront_
 
-## Step 1: Add a Slider
+## Step 1: Add a slider
 
 1. Open the page, block, or dynamic block where you want to place the slider. Then, expand the **Content** section.
 
@@ -24,7 +24,7 @@ _Slider in Storefront_
     ![]({% link images/images-ee/page-builder-media-slider-toolbox-slide-row.png %}){: .zoom}
     _Individual Slide Toolbox_
 
-## Step 2: Set Up the First Slide
+## Step 2: Set up the first slide
 
  On the individual slide toolbox, choose **Settings** ( ![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}). Then, complete the settings, as needed, in the following sections:
 
@@ -51,7 +51,7 @@ _Slider in Storefront_
 
    For example, you can set the minimum height of a slide to stretch the full-height of the page, giving you compelling options for full-page background images and videos.
 
-### Background Color
+### Background color
 
 Use one of the following methods to set the background color of the slide:
 
@@ -136,7 +136,7 @@ _Background Type_
 
 1. For the **Background Type**, select **Video**.
 
-2. In the **Video URL** field, enter a valid video URL. A valid video URL can be a link to a:
+1. In the **Video URL** field, enter a valid video URL. A valid video URL can be a link to a:
 
    - YouTube video: `https://youtu.be/CoDhMRUUjeI`
    - Vimeo video: `https://vimeo.com/190156113`
@@ -145,10 +145,12 @@ _Background Type_
    ![]({% link images/images-ee/page-builder-video-url.png %}){: .zoom}
    _Background Video URL_
 
-3. Apply additional settings as follows:
+1. Apply additional settings as follows:
 
    - Select an **Overlay Color** to apply a transparent tint to the video.
+
    - Change **Infinite Loop**, **Lazy Load**, and **Play Only When Visible** settings as needed. By default, all these settings are set to **Yes**.
+
    - Add a **Fallback Image** to display on the screen before a video loads and in the event that the video does not load for some reason.
 
 ### Slide Content
@@ -161,18 +163,18 @@ _Background Type_
 
     Text can be entered and edited either from the stage or from Slider Settings.
 
-### Slide Links and Buttons
+### Slide links and buttons
 
 Each slide can have either single, or multiple links and buttons. Use one of the following methods to add links and/or buttons to a slide.
 
-**Method 1:** Single Link or Button
+#### Method 1: Single link or button
 
 The slide Appearance setting places a single link or button below the text. Simply follow the instructions below to complete the properties of the link or button that you want to add.
 
 ![]({% link images/images-ee/page-builder-slide-appearance-collage-right.png %}){: .zoom}
 _Appearance with Text and Button (or Link)_
 
-**Method 2:** Multiple Links or Buttons
+#### Method 2: Multiple links or buttons
 
 1. Create a separate [block]({% link cms/block-add.md %}) with the links or buttons that you want to include.
 
@@ -185,65 +187,54 @@ _Appearance with Text and Button (or Link)_
 
     The first slide in this example is linked to the Women > Tees category.
 
-    **URL**
+   - **URL** - Set **Link** to `URL`. Then, enter the destination URL.
 
-   - Set **Link** to `URL`. Then, enter the destination URL.
+      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-url-newtab.png %}){: .zoom}
+      _Link to URL_
 
-        ![]({% link images/images-ee/page-builder-media-image-settings-image-link-url-newtab.png %}){: .zoom}
-        _Link to URL_
-
-    **Product**
-
-   - Set **Link** to `Product`. Then, do one of the following:
+   - **Product** - Set **Link** to `Product` and do one of the following:
 
      - Begin typing the **product name** or **SKU**.
      - Choose the product from the search results list.
      - Click the **down arrow**, and choose the product from the list.
 
-    ![]({% link images/images-ee/page-builder-media-banner-settings-link-product.png %}){: .zoom}
-    _Link to Product_
+      ![]({% link images/images-ee/page-builder-media-banner-settings-link-product.png %}){: .zoom}
+      _Link to Product_
 
-    **Category**
+   - **Category** - Set **Link** to `Category` and select the category.
 
-   - Set **Link** to `Category`. Then, do one of the following:
+      You can begin typing the category name or drill down to the category in the tree.
 
-     - Begin typing the category name.
-     - In the category tree, drill down to the category.
+      ![]({% link images/images-ee/page-builder-settings-link-category-womens-tees.png %}){: .zoom}
+      _Link to Category_
 
-   - To choose the category, click the category name in the category tree.
-
-    ![]({% link images/images-ee/page-builder-settings-link-category-womens-tees.png %}){: .zoom}
-    _Link to Category_
-
-    **Page**
-
-   - Set **Link** to `Page`. Then, do one of the following:
+   - **Page** - Set **Link** to `Page` and do one of the following:
 
      - Begin typing the page name. Then in the list, click the name of the page.
      - Click the **down arrow**, and choose the page from the list.
 
-    ![]({% link images/images-ee/page-builder-media-banner-settings-link-page.png %}){: .zoom}
-    _Link to Page_
+      ![]({% link images/images-ee/page-builder-media-banner-settings-link-page.png %}){: .zoom}
+      _Link to Page_
 
-    If the link points to a URL that is outside of your store, and you want to prevent the visitor from navigating away from your store, select the **Open in new tab** checkbox.
+      If the link points to a URL that is outside of your store, and you want to prevent the visitor from navigating away from your store, select the **Open in new tab** checkbox.
 
-   - Set **Show Button** to one of the following:
+1. Set **Show Button** to one of the following:
 
-     - `Always`
-     - `On Hover`
-     - `Never Show`
+   - `Always`
+   - `On Hover`
+   - `Never Show`
 
-   - In the **Button Text** field, enter the text to appear on the button.
+1. In the **Button Text** field, enter the text to appear on the button.
 
-   - Set **Button Type** to one of the following:
+1. Set **Button Type** to one of the following:
 
-     - `Primary`
-     - `Secondary`
-     - `Link`
+   - `Primary`
+   - `Secondary`
+   - `Link`
 
     The button style from the current theme determines the button format. Typically, a primary button has a more prominent background color than a secondary button. You can find examples of primary and secondary buttons in the Magento Admin.
 
-    **Slide Overlay**
+1. Set the **Slide Overlay**.
 
     You can use an overlay to apply a background color to the active content area that is defined by the Appearance setting. The slide background image continues to be visible for the full width of the banner.
 
@@ -275,7 +266,7 @@ _Appearance with Text and Button (or Link)_
 
 1. When complete, click <span class="btn">Save</span> to close the Edit Slide page and return to the Page Builder workspace.
 
-## Step 3: Add More Slides
+## Step 3: Add more slides
 
 Use one of the following methods to add slides.
 
@@ -333,7 +324,7 @@ You can save time by duplicating a slide that has already been configured with t
 
     If the slide is duplicated, you must update each duplicate slide with the correct information for each tee shirt.
 
-## Step 4: Add a Title
+## Step 4: Add a title
 
 If you want a title above the slider, simply add a Text content type above the slider. Then, format the text as needed.
 
@@ -347,39 +338,39 @@ If you want a title above the slider, simply add a Text content type above the s
     ![]({% link images/images-ee/page-builder-media-slider-elements-text-editor.png %}){: .zoom}
     _Edit the Text_
 
-## Step 5: Configure the Slider
+## Step 5: Configure the slider
 
 1. Hover over the slider container to show the main toolbox. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}), and do the following:
 
     ![]({% link images/images-ee/page-builder-media-slider-tee-shirts-main-toolbox.png %}){: .zoom}
     _Slider Toolbox_
 
-    - If you want the slider to begin as soon as the page loads, set **Autoplay** to `Yes`. Then, set **Autoplay Speed** to the number of milliseconds in the delay between slides.
+   - If you want the slider to begin as soon as the page loads, set **Autoplay** to `Yes`. Then, set **Autoplay Speed** to the number of milliseconds in the delay between slides.
 
-        By default, the Autoplay Speed is set to 4000 ms, which is four seconds.
+      By default, the Autoplay Speed is set to 4000 ms, which is four seconds.
 
-        ![]({% link images/images-ee/page-builder-media-slider-settings-autoplay.png %}){: .zoom}
-        _Autoplay_
+      ![]({% link images/images-ee/page-builder-media-slider-settings-autoplay.png %}){: .zoom}
+      _Autoplay_
 
-    - To smooth the transition from one slide to the next, set **Fade** to `Yes`.
+   - To smooth the transition from one slide to the next, set **Fade** to `Yes`.
 
-        With Fade, the slides seem to stay in place, but the content changes smoothy from one to the next. Without fade, you see the horizontal movement from one slide to the next.
+      With Fade, the slides seem to stay in place, but the content changes smoothy from one to the next. Without fade, you see the horizontal movement from one slide to the next.
 
-        ![]({% link images/images-ee/page-builder-media-slider-settings-fade-infinite-loop.png %}){: .zoom}
-        _Fade and Infinite Loop_
+      ![]({% link images/images-ee/page-builder-media-slider-settings-fade-infinite-loop.png %}){: .zoom}
+      _Fade and Infinite Loop_
 
-    - To make the slideshow repeat indefinitely while the page is open, set **Infinite Loop** to “Yes.”
+   - To make the slideshow repeat indefinitely while the page is open, set **Infinite Loop** to “Yes.”
 
-    - To choose the type of navigation controls for the slider, do the following:
+   - To choose the type of navigation controls for the slider, do the following:
 
-      - To include _Next_ and _Previous_ arrows on the left and right side of each slide, set **Show Arrows** to `Yes`.
+     - To include _Next_ and _Previous_ arrows on the left and right side of each slide, set **Show Arrows** to `Yes`.
 
-      - To include a set of navigation dots below the slider, set **Show Dots** to `Yes`.
+     - To include a set of navigation dots below the slider, set **Show Dots** to `Yes`.
 
         ![]({% link images/images-ee/page-builder-media-slider-settings-show-arrows-dots.png %}){: .zoom}
         _Show Arrows and Dots_
 
-      - Enter the **Minimum Height** for the slide. The minimum height can be a number with any valid CSS unit (such as 100px, 50%, 50em, 100vh) or a calculation (such as 100vh - 237px).
+     - Enter the **Minimum Height** for the slide. The minimum height can be a number with any valid CSS unit (such as 100px, 50%, 50em, 100vh) or a calculation (such as 100vh - 237px).
 
         For example, you can set the minimum height of a slider to stretch the full-height of the page, giving you compelling options for full-page background images and videos.
 
@@ -402,7 +393,7 @@ If you want a title above the slider, simply add a Text content type above the s
     ![]({% link images/images-ee/page-builder-media-slider-mobile-view.png %}){: .zoom}
     _Mobile View_
 
-## Individual Slide Toolbox
+## Individual slide toolbox
 
 |Tool|Icon|Description|
 |--- |--- |--- |
@@ -412,7 +403,7 @@ If you want a title above the slider, simply add a Text content type above the s
 |Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a duplicate copy of the current slide.|
 |Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the current slide from the slider.|
 
-## Slider Toolbox
+## Slider toolbox
 
 |Tool|Icon|Description|
 |--- |--- |--- |
@@ -424,7 +415,7 @@ If you want a title above the slider, simply add a Text content type above the s
 |Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a duplicate copy of the slider.|
 |Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the the slider from the stage.|
 
-## Individual Slide Settings {#slide-settings}
+## Individual slide settings {#slide-settings}
 
 |Setting|Description|
 |--- |--- |
@@ -488,7 +479,7 @@ When the slide is set to the full-height of the page (100vh), the slider that co
 |CSS Classes|Specifies the names of CSS classes from the current stylesheet that apply to the slide. Separate multiple class names with a space.|
 |Margins and Padding|Determines the size, in pixels, of the outer margins and inner padding of the slide. Enter the corresponding values in the diagram. <br/>**Margins** - The amount of blank space, in pixels, that is to be applied to the outside edge of all sides of the slide. Options: Top / Right / Bottom / Left <br/>**Padding** - The amount of blank space, in pixels, that is to be applied to the inside edge of all sides of the slide. Options: Top / Right / Bottom / Left|
 
-## Slider Settings
+## Slider settings
 
 | Setting        | Description                                                                                                                                                                                                                                                                                                              |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

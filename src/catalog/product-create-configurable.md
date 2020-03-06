@@ -6,7 +6,7 @@ redirect_from:
 
 A configurable product looks like a single product with drop-down lists of options for each variation. Each option is actually a separate simple product with a unique SKU, which makes it possible to track inventory for each product variation. You could achieve a similar effect by using a simple product with custom options, but without the ability to track inventory for each variation.
 
-The following instructions take you through the process of creating a configurable product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}) as needed.
+The following instructions demonstrate the process of creating a configurable product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}) as needed.
 
 ![]({% link images/images/product-configurable.png %}){: .zoom}
 _Configurable Product_
@@ -19,19 +19,19 @@ Before you begin, prepare an [attribute set]({% link stores/attribute-sets.md %}
 
 The properties of each attribute that is used for a configurable product variation must have the following settings:
 
-### Product Variation Attribute Requirements
+### Product variation attribute requirements
 
 |Property|Setting|
 |--- |--- |--- |
 |Scope|Global|
-[Catalog Input Type for Store Owner]({% link stores/attributes-product.md %})|The input type of any attribute that is used for a product variation must be one of the following: Dropdown, Visual Swatch, or Text Swatch.|
+[Catalog Input Type for Store Owner]({% link stores/attributes-product.md %})|The input type of any attribute that is used for a product variation must be one of the following: `Dropdown`, `Visual Swatch`, or `Text Swatch`.|
 |Values Required|Yes|
 
-### Step 1: Choose the Product Type
+### Step 1: Choose the product type
 
 1. On the _Admin_ sidebar, go to  **Catalog** > **Products**.
 
-1. On the **Add Product** ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the top-right corner, choose **Configurable Product**.
+1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right corner, choose **Configurable Product**.
 
     ![]({% link images/images/21product-add-configurable.png %}){: .zoom}
     _Add Configurable Product_
@@ -60,11 +60,11 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
 1. Enter the product **Price**.
 
-1. Because the product is not yet ready to publish, set **Enable Product** to `No` ( ![]({% link images/images/btn-switch-no.png %}) ).
+1. Because the product is not yet ready to publish, set **Enable Product** to `No`.
 
 1. Click <span class="btn">Save</span> and continue.
 
-    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the top-left corner.
+    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the upper-left corner.
 
 1. Choose the **Store View** where the product is to be available.
 
@@ -82,7 +82,7 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
 1. Leave the **Stock Status** as set.
 
-    The Stock Status of a configurable product is determined by each associated configuration. Because the product was saved without entering a quantity, the **Stock Status** is now set to `Out of Stock`.
+    The Stock Status of a configurable product is determined by each associated configuration. Because the product was saved without entering a quantity, the **Stock Status** is set to `Out of Stock`.
 
 1. Enter the product **Weight**.
 
@@ -90,7 +90,7 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
 1. To feature the product in the list of[ new products]({% link cms/widget-new-products-list.md %}), select the **Set Product as New** checkbox.
 
-1. To assign **Categories** to the product, click the **Select…** box and do either of the following:
+1. To assign Categories to the product, click the **Select…** box and do either of the following:
 
     **Choose an existing category:**
 
@@ -130,7 +130,7 @@ _Progress Bar_
 
 ### Step 1: Choose the attributes
 
-1. Continuing from Part 1, scroll down to the _Configurations_ section and click <span class="btn">Create Configurations</span>.
+1. Continuing from above, scroll down to the _Configurations_ section and click <span class="btn">Create Configurations</span>.
 
     ![]({% link images/images/product-configurable-create-configurations.png %}){: .zoom}
     _Configurations_
@@ -146,11 +146,11 @@ _Progress Bar_
 
 1. If you need to add a new attribute, click <span class="btn">Create New Attribute</span> and do the following:
 
-   - Complete the attribute properties.
+    - Complete the attribute properties.
 
-   - Click <span class="btn">Save Attribute</span>.
+    - Click <span class="btn">Save Attribute</span>.
 
-   - Select the checkbox to select the attribute.
+    - Select the checkbox to select the attribute.
 
 1. In the upper-right corner, click <span class="btn">Next</span>.
 
@@ -160,7 +160,7 @@ _Progress Bar_
 
     ![]({% link images/images/product-create-configurable-step2.png %}){: .zoom}
 
-1. To rearrange the attributes, grab the Change Order ( ![]({% link images/images/btn-sort-order-inline.png %}) ) icon and move the section to a new position.
+1. To rearrange the attributes, grab the **Change Order** ( ![]({% link images/images/btn-sort-order-inline.png %}) ) icon and move the section to a new position.
 
    The order determines the position of the drop-down lists on the product page.
 
@@ -193,7 +193,7 @@ Because we already uploaded an image for the parent product, we’ll use this op
 
 1. For each attribute value, either browse to the images that you want to use for that configuration or drag them to the box.
 
-    If you drag the an image to a value box, it also appears in the sections for the other values. If you want to delete an image, click the trashcan (![]({% link images/images/btn-trashcan2.png %}){: .Inline}) icon.
+    If you drag the an image to a value box, it also appears in the sections for the other values. If you want to delete an image, click the **trashcan** (![]({% link images/images/btn-trashcan2.png %}){: .Inline}) icon.
 
     ![]({% link images/images/product-configurable-create-configurations-add-images-unique.png %}){: .zoom}
     _Unique Images per SKU_
@@ -220,7 +220,7 @@ Because we already uploaded an image for the parent product, we’ll use this op
     ![]({% link images/images/product-configurable-create-configurations-price-unique.png %}){: .zoom}
     _Unique Price per SKU_
 
-#### Configure the Quantity
+#### Configure the quantity
 
 **_Method 1: Apply the same quantity to all SKUs_**
 
@@ -235,13 +235,13 @@ Because we already uploaded an image for the parent product, we’ll use this op
 
     For Multi Source merchants using [Inventory Management]({% link catalog/inventory-management.md %}), assign sources and add quantities for all generated product variants:
 
-   - Select the **Apply single quantity to each SKUs** option.
+    - Select the **Apply single quantity to each SKUs** option.
 
-   - To add a source, click **Assign Sources**.
+    - To add a source, click **Assign Sources**.
 
-   - Browse or search for a source you want to add. Select the checkbox next to the source(s) you want to add for the product.
+    - Browse or search for a source you want to add. Select the checkbox next to the source(s) you want to add for the product.
 
-   - Enter an on-hand inventory amount per source.
+    - Enter an on-hand inventory amount per source.
 
     ![]({% link images/images/inventory/inventory-configure-product-quantity.png %}){: .zoom}
     _Same Quantity for All SKUs_
@@ -262,6 +262,7 @@ When configuration for images, price, and quantity are complete, click <span cla
 1. Wait a moment for the list of products to appear and do one of the following:
 
     - If you are satisfied with the configurations, click **Next**.
+
     - To make corrections, click **Back**.
 
     ![]({% link images/images/product-create-configurable-summary.png %}){: .zoom}
@@ -272,9 +273,9 @@ The current product variations appear at the bottom of the _Configuration_ secti
 ![]({% link images/images/product-create-configurable-summary.png %}){: .zoom}
 _Current Configurations_
 
-### Step 5: Add a Product Image
+### Step 5: Add a product image
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Images and Videos** section.
+1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the _Images and Videos_ section.
 
 1. Click the **Camera** tile and browse to the main image that you want to use for the configurable product.
 
@@ -300,7 +301,7 @@ Scroll down and complete the information in the following sections as needed:
 
 ### Step 7: Publish the product
 
-1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` ( ![]({% link images/images/btn-switch-yes.png %}) ) and do one of the following:
+1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` and do one of the following:
 
     **Method 1: Save and preview**
 
@@ -339,10 +340,10 @@ If you have a different image for each variation you can set the configuration t
 
 ## Things to remember
 
-- A configurable product allows the shopper to choose options from drop-down, multiple select, visual swatch and text swatch input types. Each option is actually a separate, simple product.
+- A configurable product allows the shopper to choose options from drop-down, multiple select, visual swatch and text swatch input types. Each option is a separate, simple product.
 
 - The attributes that are used for product variations must have a global scope and the customer must be required to choose a value. The product variation attributes must be included in the attribute set that is used as a template for the configurable product.
 
 - The attribute set that is used as a template for a configurable product must include the attribute(s) that contain the values that are needed for each product variation.
 
-- The thumbnail image in the shopping cart can be set to display the image from the configurable product record, or from the product variation.
+- The thumbnail image in the shopping cart can be set to display the image from the configurable product record or from the product variation.

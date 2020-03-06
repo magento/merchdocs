@@ -37,9 +37,9 @@ You can specify products for Quick Order using either of the following methods.
 
     - To place a quick order by **SKU**, do the following:
 
-       - Enter the **SKU**.
+      - Enter the **SKU**.
 
-       - Click **Add to List**.
+      - Click **Add to List**.
 
           The SKU appears in the input line, with the product detail below.
 
@@ -48,15 +48,15 @@ You can specify products for Quick Order using either of the following methods.
 
     - To place a quick order by **Product Name**, do the following:
 
-       - Enter the first few characters of the **Product Name**.
+      - Enter the first few characters of the **Product Name**.
 
-           {:.bs-callout-info}
-           Do not use the _Enter_ key to choose the name of the product.
+          {:.bs-callout-info}
+          Do not use the _Enter_ key to choose the name of the product.
 
-       - When the list of possible matches appears, click the product that you want to order.
+      - When the list of possible matches appears, click the product that you want to order.
 
-           ![]({% link images/images-b2b/quick-order-product-name.png %}){: .zoom}
-           _Click to Choose Product Name_
+          ![]({% link images/images-b2b/quick-order-product-name.png %}){: .zoom}
+          _Click to Choose Product Name_
 
 1. Enter the **Qty**.
 
@@ -68,12 +68,12 @@ You can specify products for Quick Order using either of the following methods.
 
 1. In the **Enter Multiple SKUs** box, do one of the following:
 
-   - Enter one SKU per line
+    - Enter one SKU per line
 
-   - Enter all SKUs on the same line, separated by commas, and without spaces.
+    - Enter all SKUs on the same line, separated by commas, and without spaces.
 
-      ![]({% link images/images-b2b/storefront-quick-order-multiple-skus.png %}){: .zoom}
-      _Enter Multiple SKUs_
+        ![]({% link images/images-b2b/storefront-quick-order-multiple-skus.png %}){: .zoom}
+        _Enter Multiple SKUs_
 
 1. To add the products to the list, click **Add to List**.
 

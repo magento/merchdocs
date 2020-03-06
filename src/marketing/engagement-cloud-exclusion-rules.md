@@ -24,8 +24,8 @@ _Exclusion Rules_
 
     - Set **Rule Type** to one of the following:
 
-        - `Abandoned Cart Exclusion Rule`
-        - `Review Email Exclusion Rule`
+      - `Abandoned Cart Exclusion Rule`
+      - `Review Email Exclusion Rule`
 
     - Leave **Status** set to `Inactive` for now. (You can change it to `Active` later .)
 
