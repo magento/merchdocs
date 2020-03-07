@@ -3,29 +3,23 @@ title: Ready to List
 ---
 
 
-The _Ready to List_ tab shows your Magento catalog meet your defined listing settings and are ready to publish to Amazon as a **new** listing. This tab appears when you click **Manage Listings** on the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
+The _Ready to List_ tab shows your Magento catalog meet your defined listing settings and are ready to publish to Amazon as a **new** listing. This tab appears on the _Product Listings_ page when you click **Manage Listings** on the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
 The _Ready to List_ tab appears only when [**Automatic List Action**]({% link sales-channels/asc/product-listing-actions.md %}) in your listing settings is set to `Do Not Automatically List Eligible Products`. This setting tells Amazon Sales Channel that any new Amazon listings must be published manually.
 
-When [**Automatic List Action**]({% link sales-channels/asc/product-listing-actions.md %}) is set to `Automatically List Eligible Products`, Amazon Sales Channel automatically publishes new listings for your eligible catalog products. Since new listings are published automatically, this tab does not display.
+When [**Automatic List Action**]({% link sales-channels/asc/product-listing-actions.md %}) is set to `Automatically List Eligible Products`, Amazon Sales Channel automatically publishes new listings for your eligible catalog products. Since new listings are published automatically, the _Ready to List_ tab does not display.
 
-You have a few options to manually publish a new listing to Amazon.
+Under _Actions_:
 
-## Publish a single or multiple catalog products to new Amazon listing(s)
+{% include amazon-publish-to-amazon-action.md %}
 
-1. In the left-side column, click to check each of the listings you wish to publish.
+Under **Select** in the _Action_ column:
 
-1. Under **Actions**, click **Publish Product to Amazon** for the listing you want to publish.
+{% include amazon-publish-on-amazon-action.md %}
 
-A message confirms that the product(s) is scheduled to be listed on Amazon.
+{% include amazon-view-details-action.md %}
 
-## Publish a single catalog product to a new Amazon listing
-
-1. In the _Action_ column, click **Select** > **Publish on Amazon** for the listing you want to publish.
-
-A message confirms that the product is scheduled to be listed on Amazon.
-
-Listing information is published to Amazon based on your cron settings. Listing information will send to Amazon at the next data sync. Until Amazon replies with the listing confirmation, the manually published listing(s) remains on the _Ready to List_ tab with a `List in Progress` status. Once the listing confirmation is received from Amazon, the listing(s) moves to the _Active tab_ with an `Active` status.
+You have a few options to manually [publish a new listing to Amazon]({% link sales-channels/asc/publish-listings-manually.md %}).
 
 {:.bs-callout-info}
 If you have listings in process, the number of listings will display in a message above the tabs.
@@ -44,7 +38,7 @@ _Ready to List_
 |Landed Price|The listing price for the product plus its shipping price.|
 |Amazon Quantity|The quantity available once the product is actively listed on Amazon.|
 |Status|The status of the listing, defined by Amazon.|
-|Action|List of available actions that can be applied to a specific listing. To apply an action, click **Select** in the _Actions_ column to show your options:<br/>[Publish on Amazon]({% link sales-channels/asc/ended-listings.md %}#publish-a-single-or-multiple-amazon-listing-that-has-been-ended)<br/>[View Details]({% link sales-channels/asc/product-listing-details.md %})|
+|Action|List of available actions that can be applied to a specific listing. To apply an action, click **Select** in the _Action_ column to show your options:<br/>[Publish on Amazon]({% link sales-channels/asc/publish-listings-manually.md %})<br/>[View Details]({% link sales-channels/asc/product-listing-details.md %})|
 
 ### Common Causes of Ready to List Listings
 

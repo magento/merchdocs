@@ -238,6 +238,10 @@ pages:
             url: "/sales-channels/asc/edit-assigned-asin.html"
           - label: End an Amazon Listing
             url: "/sales-channels/asc/end-listings-manually.html"
+          - label: Publish an Amazon Listing
+            url: "/sales-channels/asc/publish-listings-manually.html"
+          - label: Switch to Fulfilled by Amazon/Merchant
+            url: "/sales-channels/asc/fulfilled-by.html"
           - label: Update Required Info
             url: "/sales-channels/asc/amazon-manually-update-incomplete-listing.html"
           - label: View Details

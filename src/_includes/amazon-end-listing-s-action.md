@@ -1,2 +1,2 @@
 
-- **End Listing(s) on Amazon**: Choose to remove all selected listings from the Amazon marketplace. See [Ended Listings]({% link sales-channels/asc/ended-listings.md %}).
+- **End Listing(s) on Amazon**: Choose to remove all selected listings from the Amazon marketplace. See [End an Amazon Listing]({% link sales-channels/asc/end-listings-manually.md %}).

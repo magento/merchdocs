@@ -8,41 +8,27 @@ The _Ended_ tab shows all the Amazon products that have been manually ended (rem
 {:.bs-callout-info}
 If you have listings in process, the number of listings will display in a message above the tabs.
 
-## Manually end a single or multiple Amazon listings
+Under _Actions_:
 
-1. Locate the listing(s) you want to end on the _Inactive_, _Active_, or _Ineligible_ tab.
+{% include amazon-publish-to-amazon-action.md %}
 
-1. In the left-side column, click to check each of the listings you wish to end.
+Under **Select** in the _Action_ column:
 
-1. Under **Actions**, click **End listing(s) on Amazon**.
+{% include amazon-view-details-action.md %}
 
-1. Click **OK** on the confirmation message.
+{% include amazon-publish-on-amazon-action.md %}
 
-## Manually end a single Amazon listing
+{% include amazon-create-alias-sku-action.md %}
 
-1. Locate the listing you want to end on the _Inactive_, _Active_, or _Ineligible_ tab.
+For ending listings, see:
 
-1. In the _Action_ column, click **Select** > **End Listing**
+- [Manually end a single or multiple Amazon listings]({% link sales-channels/asc/end-listings-manually.md %})
+- [Manually end a single Amazon listing]({% link sales-channels/asc/end-listings-manually.md %})
 
-1. Click **OK** on the confirmation message.
+For publishing listings, see:
 
-When ending a single listing or multiple listings, a message confirms that the selected listing is being processed to end. Ended listings can be managed on Ended tab in Manage Listings. When processed and removed from Amazon, the status for the listing will appear as "Manually Ended". Ended listings will remain removed from Amazon until you manually republish the listing using the Republish to Amazon action.
-
-## Publish a single or multiple Amazon listing that has been ended
-
-1. In the left-side column, click to check each of the listings you wish to republish.
-
-1. Under **Actions**, click **Publish Product to Amazon**.
-
-1. Click **OK** on the confirmation message.
-
-## Publish a single Amazon listing that has been ended
-
-1. In the _Action_ column, click **Select** > **End Listing**.
-
-1. Click **OK** on the confirmation message.
-
-    A confirmation message will display that the selected listing is being processed to publish to Amazon.
+- [Publish a single or multiple Amazon listing that has been ended]({% link sales-channels/asc/publish-listings-manually.md %})
+- [Publish a single Amazon listing that has been ended]({% link sales-channels/asc/publish-listings-manually.md %})
 
 ![]({% link sales-channels/asc/assets/amazon-ended-listings.png %}){: .zoom}
 _Ended Listings_
@@ -58,4 +44,4 @@ _Ended Listings_
 |Landed Price|The listing price for the product plus its shipping price.|
 |Amazon Quantity|The quantity available once the product is actively listed on Amazon.|
 |Status|The status of the listing, defined by Amazon.|
-|Action|List of available actions that can be applied to a specific listing. To apply an action, click **Select** in the _Actions_ column to show your options:<br/>[View Details]({% link sales-channels/asc/product-listing-details.md %})<br/>[Publish on Amazon]({% link sales-channels/asc/ended-listings.md %}#publish-a-single-or-multiple-amazon-listing-that-has-been-ended)<br/>[Create Alias Seller SKU]({% link sales-channels/asc/create-alias-seller-sku.md %}#create-an-alias-amazon-seller-sku-to-be-used-for-a-region-specific-purpose)|
+|Action|List of available actions that can be applied to a specific listing. To apply an action, click **Select** in the _Action_ column to show your options:<br/>[View Details]({% link sales-channels/asc/product-listing-details.md %})<br/>[Publish On Amazon]({% link sales-channels/asc/publish-listings-manually.md %})<br/>[Create Alias Seller SKU]({% link sales-channels/asc/create-alias-seller-sku.md %}#create-an-alias-amazon-seller-sku-to-be-used-for-a-region-specific-purpose)|

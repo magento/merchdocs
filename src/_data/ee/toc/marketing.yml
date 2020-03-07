@@ -346,9 +346,13 @@ pages:
           - label: Edit an Assigned ASIN
             url: "/sales-channels/amazon/edit-assigned-asin.html"
           - label: End an Amazon Listing
-            url: "/sales-channels/amazon/end-listings-manually.html"
+            url: "/sales-channels/asc/end-listings-manually.html"
+          - label: Publish an Amazon Listing
+            url: "/sales-channels/asc/publish-listings-manually.html"
+          - label: Switch to Fulfilled by Amazon/Merchant
+            url: "/sales-channels/asc/fulfilled-by.html"
           - label: Update Required Info
-            url: "/sales-channels/amazon/amazon-manually-update-incomplete-listing.html"
+            url: "/sales-channels/asc/amazon-manually-update-incomplete-listing.html"
           - label: View Details
             url: "/sales-channels/amazon/product-listing-details.html"
       - label: Managing Orders and Fulfillment

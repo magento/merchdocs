@@ -23,9 +23,9 @@ This function can be used to perform two functions:
 
 ## Create an Alias Amazon Seller SKU to be used for a region-specific purpose
 
-View the listing in one of the Product Listing pages (Inactive, Active, Ineligible, or Ended).
+View the listing on the _Product Listings_ page (_Inactive_, _Active_, _Ineligible_, or _Ended_ tab).
 
-1. Under **Actions**, click **Create Alias Seller SKU**.
+1. Under _Actions_, click **Create Alias Seller SKU**.
 
 1. For **Assign New Seller SKU**, enter a unique alphanumeric value.
 
@@ -33,7 +33,7 @@ View the listing in one of the Product Listing pages (Inactive, Active, Ineligib
 
 1. For **Assign New ASIN**, make no change.
 
-    This value auto-populates with the ASIN that is matched to your catalog product. Changing this value will match your catalog product to two Amazon listings based on the ASIN.
+    This value auto-populates with the product ASIN that is matched to your catalog product. Changing this value will match your catalog product to two Amazon listings based on the ASIN.
 
 1. Toggle the Remove Existing Seller SKU option to `Yes` or `No`.
 
@@ -45,9 +45,9 @@ View the listing in one of the Product Listing pages (Inactive, Active, Ineligib
 
 ## Create an Alias Amazon Seller SKU to be used to match a single catalog product to two Amazon listings
 
-1. View the listing in one of the Product Listing pages (Inactive, Active, Ineligible, or Ended).
+1. View the listing on the _Product Listings_ page (_Inactive_, _Active_, _Ineligible_, or _Ended_ tabs).
 
-1. Under **Actions**, click **Create Alias Seller SKU**.
+1. Under _Actions_, click **Create Alias Seller SKU**.
 
 1. For **Assign New Seller SKU**, enter a unique alphanumeric value.
 
@@ -55,7 +55,7 @@ View the listing in one of the Product Listing pages (Inactive, Active, Ineligib
 
 1. For **Assign New ASIN**, enter a unique alphanumeric value.
 
-    This value auto-populates with the ASIN that is matched to your catalog product. Changing this value will match your catalog product to two Amazon listings based on the ASIN.
+    This value auto-populates with the product ASIN that is matched to your catalog product. Changing this value will match your catalog product to two Amazon listings based on the ASIN.
 
 1. Toggle the Remove Existing Seller SKU option to `Yes` or `No`.
 

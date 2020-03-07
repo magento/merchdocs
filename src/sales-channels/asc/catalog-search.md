@@ -5,9 +5,9 @@ redirect_from:
 ---
 
 
-Catalog Search settings are part of your store listing settings. Listing settings are accessed from the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
+_Catalog Search_ settings are part of your store listing settings. Listing settings are accessed from the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
-Catalog Search settings enable you to set attribute matching that help to map eligible Magento products with Amazon listings. Once mapped, Amazon activates actions related to pricing, quantity, overrides, and order and product synchronization.
+_Catalog Search_ settings enable you to set attribute matching that help to map eligible Magento products with Amazon listings. Once mapped, Amazon activates actions related to pricing, quantity, overrides, and order and product synchronization.
 
 Defining these mapping values increases the potential for exact matches, minimizing the need to manually match product listings. Adding the attributes as part of your [Pre-Setup Tasks]({% link sales-channels/asc/amazon-pre-setup-tasks.md %}), Amazon Sales Channel has a higher potential for automatically matching your products during onboarding and syncs product data between Amazon and Magento.
 

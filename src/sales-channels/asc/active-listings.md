@@ -7,13 +7,13 @@ The _Active_ tab shows your Amazon listings that are active on the Amazon market
 
 The available actions on the _Active_ tab include:
 
-Under **Actions**:
+Under _Actions_:
 
 {% include amazon-end-listing-s-action.md %}
 
 {% include amazon-edit-listing-overrides-action.md %}
 
-Under **Select** in the _Actions_ column:
+Under **Select** in the _Action_ column:
 
 {% include amazon-view-details-action.md %}
 
@@ -45,4 +45,4 @@ _Active Listings_
 |Amazon Quantity|The quantity available once the product is actively listed on Amazon.|
 |Status|The status of the listing, defined by Amazon.|
 |Buy Box Won|Whether the product listing won the Buy Box position.|
-|Action|List of available actions that can be applied to a specific listing. To apply an action, click **Select** in the _Actions_ column to show your options:<br/>[View Details]({% link sales-channels/asc/product-listing-details.md %})<br/>[Create Override]({% link sales-channels/asc/creating-editing-overrides.md %})<br/>[Edit Assigned ASIN]({% link sales-channels/asc/edit-assigned-asin.md %})<br/>[Create Alias Seller SKU]({% link sales-channels/asc/create-alias-seller-sku.md %})<br/>[Switch to Fulfilled By Amazon/Merchant ]({% link sales-channels/asc/fulfilled-by.md %})<br/>[End Listing]({% link sales-channels/asc/ended-listings.md %})|
+|Action|List of available actions that can be applied to a specific listing. To apply an action, click **Select** in the _Action_ column to show your options:<br/>[View Details]({% link sales-channels/asc/product-listing-details.md %})<br/>[Create Override]({% link sales-channels/asc/creating-editing-overrides.md %})<br/>[Edit Assigned ASIN]({% link sales-channels/asc/edit-assigned-asin.md %})<br/>[Create Alias Seller SKU]({% link sales-channels/asc/create-alias-seller-sku.md %}#create-an-alias-amazon-seller-sku-to-be-used-for-a-region-specific-purpose)<br/>[Switch to Fulfilled By Amazon/Merchant ]({% link sales-channels/asc/fulfilled-by.md %}#configure-fulfilled-by-settings)<br/>[End Listing]({% link sales-channels/asc/end-listings-manually.md %})|

@@ -22,7 +22,7 @@ Removing an override tells the listing to use the values defined by your listing
 
 When defining an override, you can also choose to enter a single type of override or any combination of the types.
 
-See [Creating and Editing Overrides]({% link sales-channels/asc/creating-editing-overrides.md %}).
+See [Create and Edit Overrides]({% link sales-channels/asc/creating-editing-overrides.md %}).
 
 {:.bs-callout-info}
 If you have listings in process, the number of listings will display in a message above the tabs.
@@ -38,9 +38,9 @@ _Overrides tab_
 |---|---|
 |Amazon Seller SKU|The SKU (Stock Keeping Unit) assigned by Amazon to a product to identify the product, options, price, and manufacturer. |
 |ASIN|A unique block of 10 letters and/or numbers that identify items.<br/><br/>ASIN stands for the Amazon Standard Identification Numbers. An ASIN is a unique block of 10 letters and/or numbers that identify items. For books, the ASIN is the same as the ISBN number, but for all other products a new ASIN is created when the item is uploaded to their catalog. You can find an items ASIN on the product detail page on Amazon, along with further details relating to the item. |
-|Condition Override|The new condition defined in the override. If the override applied to the listing is not a condition override, "Not Selected" will display. |
+|Condition Override|The new condition defined in the override. If the override applied to the listing is not a condition override, `Not Selected` will show in this column. |
 |Product Listing Name|The name of the product. |
 |Seller Notes Override|The new seller notes defined in the override. If the override applied to the listing is not a seller notes override, this column will be blank. |
 |Handling Override|The new handling time defined in the override (in days). If the override applied to the listing is not a handling time override, this column will be blank. |
-|List Price Override|The new listing price defined in the override. If the override applied to the listing is not a price override, `N/A` will display in this column. |
-|Action|List of available actions that can be applied to a specific listing. To apply an action, in the _Actions_ column, click **Select** to show your options:<br/>[Edit Overrides]({% link sales-channels/asc/creating-editing-overrides.md %}#edit-or-remove-an-override-for-a-single-listing)<br/>[View Details]({% link sales-channels/asc/product-listing-details.md %}) |
+|List Price Override|The new listing price defined in the override. If the override applied to the listing is not a price override, `N/A` will show in this column. |
+|Action|List of available actions that can be applied to a specific listing. To apply an action, in the _Action_ column, click **Select** to show your options:<br/>[Edit Overrides]({% link sales-channels/asc/creating-editing-overrides.md %}#edit-or-remove-an-override-for-a-single-listing)<br/>[View Details]({% link sales-channels/asc/product-listing-details.md %}) |

@@ -1,5 +1,5 @@
 ---
-title: Creating and Assigning Products
+title: Create and Assign Products
 ---
 
 
@@ -19,7 +19,7 @@ When created and matched, the listings remove from the _New Third Party_ tab and
 
 ## Assign a single catalog product to an Amazon listing
 
-1. View your product listings on the _New Third Party_ tab.
+1. View your product listings on the [_New Third Party_]({% link sales-channels/asc/new-third-party-listings.md %}) tab.
 
 1. Find the listing you wish to assign in the list, click **Select** in the _Action_ column, and click **Assign Catalog Product**.
 
@@ -33,7 +33,7 @@ Your product and listing are now matched. Amazon Sales Channel can now share pro
 
 ## Create a single catalog product using the Amazon listing information
 
-1. View your product listings on the _New Third Party_ tab.
+1. View your product listings on the [_New Third Party_]({% link sales-channels/asc/new-third-party-listings.md %}) tab.
 
 1. Find the listing you wish to create in your Magento catalog, click **Select** in the _Action_ column, and click **Create New Catalog Product**.
 
@@ -59,13 +59,13 @@ The catalog product is created in your Magento catalog and assigned to the Amazo
 
 ## Create a multiple catalog products using their Amazon listing information
 
-1. View your product listings on the _New Third Party_ tab.
+1. View your product listings on the [_New Third Party_]({% link sales-channels/asc/new-third-party-listings.md %}) tab.
 
 1. Select the listings for which to create catalog products.
 
      You can select individual checkboxes in the left-side column, or you can click the down arrow in the top-left column and choose **Select All** or **Select All on this Page**.
 
-1. Click **Actions** > **Create New Catalog Product(s)**.
+1. Under _Actions_, click **Create New Catalog Product(s)**.
 
 1. Click **OK** to accept the confirmation message and open the _Create Magento Catalog Product_ page.
 
@@ -88,7 +88,7 @@ The catalog product is created in your Magento catalog and assigned to the Amazo
 <br/>The options that display in this list depend on the [tax classes]({% link tax/tax-class.md %}) you have configured.
     - When complete, click **Create Catalog Products**.
 
-The catalog products are created in your Magento catalog and assigned to the Amazon listing from which it was created. With the listings now matched to their respective Amazon listing, the listings will remove from the _New Third Party_ tab and appear in the _Active_ tab.
+The catalog products are created in your Magento catalog and assigned to the Amazon listing from which it was created. With the listings now matched to their respective Amazon listing, the listings will remove from the [_New Third Party_]({% link sales-channels/asc/new-third-party-listings.md %}) tab and appear in the [_Active_]({% link sales-channels/asc/active-listings.md %}) tab.
 
 ![]({% link sales-channels/asc/assets/amazon-magento-catalog-product.png %}){: .zoom}
 _Create Magento Catalog Product_
