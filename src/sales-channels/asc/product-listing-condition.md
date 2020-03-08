@@ -35,7 +35,7 @@ During [Pre-Setup Tasks]({% link sales-channels/asc/amazon-pre-setup-tasks.md %}
 
     - **Assign Condition Using Product Attribute** - Choose when your Magento catalog contains products in various conditions. When chosen, **Condition Attribute** enables and is required.
 
-1. For **Condition Attribute**, choose the Magento attribute to map values to each Amazon condition attribute. 
+1. For **Condition Attribute**, choose the Magento attribute to map values to each Amazon condition attribute.
 
    You may have [created the attribute]({% link sales-channels/asc/ob-creating-magento-attributes.md %}) during [Pre-Setup Tasks]({% link sales-channels/asc/amazon-pre-setup-tasks.md %}). When chosen, you must the additional field for each of the standard Amazon conditions. Map Magento attribute values to each Amazon condition.
 

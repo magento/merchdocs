@@ -5,7 +5,7 @@ redirect_from:
 ---
 
 
-You can access the listing rules for store in the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}). 
+You can access the listing rules for store in the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
 Listing Rules define the rules to determine which products Amazon Sales Channel will publish to Amazon. These rules provide many options to create simple to complex rules to include or exclude products as listings. Each rule consists of conditions that set the requirements for product listing eligibility.
 
