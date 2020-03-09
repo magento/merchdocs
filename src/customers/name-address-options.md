@@ -41,7 +41,7 @@ _[Customer Account Sign Up Form]({% link configuration/customers/customer-config
 
    Place a semicolon before the first value to display a blank value at the top of the list.
 
-1. In the **Suffix Dropdown Options** field, enter each suffix that you want to appear in the list, separated by a semicolon.
+1. For **Suffix Dropdown Options**, enter each suffix that you want to appear in the list, separated by a semicolon.
 
    Place a semicolon before the first value to display an blank value at the top of the list.
 
