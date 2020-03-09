@@ -12,9 +12,13 @@ sections:
   - title: Widgets
     content: Learn how to use the Widget tool, which makes it easy to place existing content, such as blocks and interactive elements, almost anywhere in your store.
     url: /cms/widgets.html
+
+  - title: Page Hierarchy
+    content: <span class="card-edition-ee">Learn how to use the page hierarchy to organize content pages and add pagination, navigation, and menus.</span>
+    url: /cms/page-hierarchy.html
 ---
 
-In this section of the guide, you will learn how to create and manage content pages and blocks, and use widgets to add dynamic content.<!--{% if "Default.EE-B2B" contains site.edition %}--> Magento Commerce users can also learn how to use the [page hierarchy]({% link cms/page-hierarchy.md %}) to organize content pages and add pagination, navigation, and menus.<!--{% endif %}-->
+In this section of the guide, you will learn how to create and manage content pages and blocks, and use widgets to add dynamic content.
 
 {% include grid.html sections=page.sections%}
 

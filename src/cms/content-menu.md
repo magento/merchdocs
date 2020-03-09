@@ -14,7 +14,7 @@ Your content should reflect the branding of your store, and be delivered with yo
 <!--{% endif %}-->
 _Content Menu_
 
-## To display the Content menu:
+## Display the Content menu
 
 On the _Admin_ sidebar, choose **Content**.
 
@@ -22,24 +22,20 @@ On the _Admin_ sidebar, choose **Content**.
 
 Create [pages]({% link cms/pages.md %}) with text, images, blocks, variables, and widgets, that can be incorporated into the navigation of your store, and linked to other pages.
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-Then, organize your pages into a [hierarchy]({% link cms/page-hierarchy.md %}) with navigation.
+- {:.edition-ee}Then, organize your pages into a [hierarchy]({% link cms/page-hierarchy.md %}) with navigation.
 
-<!--{% endif %}-->
 ## Blocks
 
 Create [blocks]({% link cms/blocks.md %}) of content without writing any code. Blocks can contain text, images, and even video, and can be assigned to any part of the page layout.
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-## Banners _(Deprecated)_
+## <span class="heading-edition-ee">Banners _(Deprecated)_</span>
 
 Create [banners]({% link cms/banners.md %}) that are triggered by promotions and that appear only to customers in specific, targeted [segments]({% link marketing/customer-segment-banner.md %}).
 
-## Dynamic Blocks
+## <span class="heading-edition-ee">Dynamic Blocks</span>
 
 Create rich, [interactive content]({% link cms/dynamic-blocks.md %}) that is driven by logic from [price rules]({% link marketing/promotions.md %}) and [customer segments]({% link marketing/customer-segments.md %}).
 
-<!--{% endif %}-->
 ## Widgets
 
 [Widgets]({% link cms/widgets.md %}) display dynamic data and add blocks, links, and interactive elements most anywhere in your store.
@@ -48,9 +44,6 @@ Create rich, [interactive content]({% link cms/dynamic-blocks.md %}) that is dri
 
 Learn to manage the visual presentation of your store, apply themes, and schedule [design]({% link design/design-menu.md %}) changes.
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-## Staging
+## <span class="heading-edition-ee">Staging</span>
 
 [Content Staging]({% link cms/content-staging.md %}) gives your business team the ability to easily create, preview, and schedule a wide range of content updates directly from the Admin of your store.
-
-<!--{% endif %}-->

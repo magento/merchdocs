@@ -4,19 +4,14 @@ title: Duplicating a Page
 
 Any content page can be used as a template, and saved as a duplicate. You might use this time-saving technique to create a consistent design for content pages throughout your site. The duplicate page retains the Page Title of the original, but the URL Key and Status fields must be updated.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/page-duplicate-save-menu.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![]({% link images/images-ee/page-duplicate-save-menu.png %}){: .zoom}
-<!--{% endif %}-->
-_Save &amp; Duplicate_
+<span class="caption-edition-ee">_Save & Duplicate_</span>
 
-## To duplicate a page
+## Duplicate a page
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Pages**.
 
-1. In the grid, find the page that you want to duplicate. Then, click **Edit** mode in the _Action_ column.
+1. In the grid, find the page that you want to duplicate and click **Edit** in the _Action_ column.
 
 1. On the **Save** menu, choose **Save & Duplicate**. Then, do the following:
 
@@ -51,7 +46,7 @@ _Save &amp; Duplicate_
    ![]({% link images/images/pages-grid-duplicate-updated-url-key.png %}){: .zoom}
    _Duplicate Page with Updated URL Key_
 
-## Save Menu
+## Save menu
 
 |Command|Description|
 |--- |--- |

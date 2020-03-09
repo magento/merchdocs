@@ -9,19 +9,20 @@ The following instructions walk you through each step to create a basic page. So
 ![]({% link images/images/pages.png %}){: .zoom}
 _Pages_
 
-## Step 1: Add a New Page
+## Step 1: Add a new page
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Pages**.
 
 1. Click <span class="btn">Add New Page</span>.
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/pages-new-page.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE-B2B" contains site.edition %}-->
-    ![]({% link images/images-ee/pages-new-page.png %}){: .zoom}
-    <!--{% endif %}-->
-    _New Page_
+   ![]({% link images/images-ee/pages-new-page.png %}){: .zoom}
+   <span class="caption-edition-ee">_New Page_</span>
+
+## Step 2: Set up the page and add the content
+
+<div class="edition-ce" markdown="1">
+Steps for Magento Open Source only
+</div>
 
 1. On the new page, do the following:
 
@@ -29,7 +30,6 @@ _Pages_
 
    - Enter the **Page Title**. The Page Title is the name that appears in the [breadcrumb trail]({% link catalog/navigation-breadcrumb-trail.md %}) navigation.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
 1. To schedule design changes, expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Custom Design Update**. Then, do the following:
 
    - Use the calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}) to choose the **From** and **To** dates when the design change is to be in effect.
@@ -44,15 +44,13 @@ _Pages_
      - `2 columns with right bar`
      - `3 columns`
 
-    ![]({% link images/images/page-custom-design-update.png %}){: .zoom}
-    _Custom Design Update
-
-## Step 2: Complete the Content
+     ![]({% link images/images/page-custom-design-update.png %}){: .zoom}
+     <span class="caption-edition-ce">_Custom Design Update_</span>
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Content**.
 
     ![]({% link images/images/page-content.png %}){: .zoom}
-    _Content_
+    <span class="caption-edition-ce">_Content_</span>
 
 1. In the **Content Heading** box, enter the heading that you want to appear at the top of the page.
 
@@ -62,24 +60,28 @@ _Pages_
 
 1. Complete the content and format the text as needed.
 
-    You can add [images]({% link cms/media-storage.md %}), [variables]({% link marketing/variables.md %}), and [widgets]({% link cms/widgets.md %}) as needed. To learn more, see: [Using the Editor]({% link cms/editor.md %}).
+    You can add [images]({% link cms/media-storage.md %}), [variables]({% link marketing/variables.md %}), and [widgets]({% link cms/widgets.md %}) as needed. To learn more, see [Using the Editor]({% link cms/editor.md %}).
 
 1. Click <span class="btn">Save</span>.
 
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-## Step 2: Complete the Content
+<div class="edition-ee" markdown="1">
+Steps for Magento Commerce only
+</div>
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Content**.
+1. On the new page, do the following:
+
+   - By default, a new page is published when the record is saved. If you do not want to publish the page immediately, set **Enable Page** to `No`.
+
+   - Enter the **Page Title**. The Page Title is the name that appears in the [breadcrumb trail]({% link catalog/navigation-breadcrumb-trail.md %}) navigation.
+
+1. Expand ![]({% link images/images/btn-expand.png %}) **Content**.
 
     ![]({% link images/images-ee/page-content.png %}){: .zoom}
-    _Content with Page Builder_
+    <span class="caption-edition-ee">_Content with Page Builder_</span>
 
-1. Complete the content, and format the text as needed. To learn more, see: [Page Builder]({% link cms/page-builder.md %}).
+1. Complete the content, and format the text as needed. To learn more, see [Page Builder]({% link cms/page-builder.md %}).
 
 1. click <span class="btn">Save</span>.
-
-<!--{% endif %}-->
 
 ## Step 3: Complete the SEO Information
 
@@ -98,28 +100,29 @@ _Pages_
 
 1. Click <span class="btn">Save</span>.
 
-## Step 4: Define the Scope of the Page
+## Step 4: Define the scope of the page
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Page in Websites**.
+1. Expand ![]({% link images/images/btn-expand.png %}) **Page in Websites**.
 
-1. In the **Store View** list, select each view where the page is to be available. If the installation has multiple websites, select each website and store view where the page is to be available.
+1. In the **Store View** list, select each view where the page is to be available.
+
+   If the installation has multiple websites, select each website and store view where the page is to be available.
 
     ![]({% link images/images/page-in-websites.png %}){: .zoom}
     _Pages in Websites_
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 
-## Step 5: Identify Any Parent Page
+## <span class="heading-edition-ee">Step 5: Identify any parent page</span>
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Hierarchy**.
+1. Expand ![]({% link images/images/btn-expand.png %}) **Hierarchy**.
 
     ![]({% link images/images-ee/page-hierarchy.png %}){: .zoom}
     _Hierarchy_
 
 1. If this page is a child of another page, select the checkbox of the **Parent page**.
 
-## Step 6: Enter Any Design Changes (Optional)
+## <span class="heading-edition-ee">Step 6: Enter Any Design Changes</span>
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Design**. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) **Design**.
 
     ![]({% link images/images/page-design.png %}){: .zoom}
     _Design_
@@ -137,9 +140,7 @@ _Pages_
 
 1. To include additional [layout instructions]({% link design/layout-updates.md %}), enter valid XML code in the **Layout Update XML** box.
 
-<!--{% endif %}-->
-
-## Step {% if "Default.CE Only" contains site.edition %}6{% endif %}{% if "Default.EE-B2B" contains site.edition %}7{% endif %}: Preview the Page
+## Step 7: Preview the Page
 
 1. On the **Save** menu, choose **Save & Close** to return to the Pages grid.
 
@@ -147,7 +148,7 @@ _Pages_
 
 1. To return to the grid, click <span class="btn">Back</span> in the upper-left corner of the browser window.
 
-## Step {% if "Default.CE Only" contains site.edition %}7{% endif %}{% if "Default.EE-B2B" contains site.edition %}8{% endif %}: Publish the Page
+## Step 8: Publish the Page
 
 1. Select **Edit** in the _Action_ column of the grid.
 
@@ -159,6 +160,8 @@ _Pages_
     _Save & Close_
 
 Now that your page is complete, it can be added to your store navigation, linked to other pages, or added as a link in the footer of your store. You can also use it as your new [home page]({% link cms/page-home-new.md %}).
+
+### Save menu
 
 |Command|Description|
 |--- |--- |
