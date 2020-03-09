@@ -4,7 +4,7 @@ title: Name and Address Options
 
 The Name and Address Options determine which fields are included in the name and address forms when customers create an [account]({% link customers/account-create.md %}) with your store.
 
-<!--{% if "Default.EE-B2B Only" contains site.edition %}-->
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![]({% link images/images-ee/storefront-customer-account-address-book.png %}){: .zoom}
 _[Customer Account Sign Up Form]({% link configuration/customers/customer-configuration.md %})_
 
@@ -28,7 +28,7 @@ _[Customer Account Sign Up Form]({% link configuration/customers/customer-config
    ![]({% link images/images-ee/config-customer-configuration-scope.png %}){: .zoom}
    _[Configuration Scope]({% link configuration/scope.md %})_
 
-## Step 2: Choose the name and address options
+## Step 2: Configure the name and address options
 
 1. Return to the **Name and Address Options** section of the Customer Configuration page.
 
@@ -45,11 +45,13 @@ _[Customer Account Sign Up Form]({% link configuration/customers/customer-config
 
    Place a semicolon before the first value to display an blank value at the top of the list.
 
-1. Set the following fields to either `Optional` or `Required`, according to your preference.
+1. To include the following fields in customer forms, set the value of each to `Optional` or `Required`, as needed.
 
    - **Show Telephone**
    - **Show Company**
    - **Show Fax**
+
+## Step 3: Save and refresh
 
 1. When complete, click <span class="btn">Save Config</span>.
 
@@ -134,7 +136,7 @@ _[Customer Account Sign Up Form]({% link configuration/customers/customer-config
    ![]({% link images/images/storefront-customer-account-gender.png %}){: .zoom}
    _[Gender Options in Customer Sign Up Form]({% link configuration/customers/customer-configuration.md %})_
 
-1. Set the following fields to either `Optional` or `Required`, according to your preference.
+1. To include the following fields in customer forms, set the value of each to `Optional` or `Required`, as needed.
 
    - **Show Telephone**
    - **Show Company**
