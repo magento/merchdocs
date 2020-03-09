@@ -91,7 +91,7 @@ _[Customer Account Sign Up Form]({% link configuration/customers/customer-config
 
    If not using the `Default config` scope setting, you must clear the `Use Default` checkbox for each field before changing the value.
 
-1. Enter a number from 1 to 4 for the **Number of Lines in a Street Address**. By default, the street address is 3 lines.
+1. For **Number of Lines in a Street Address**, enter a number from 1 to 4. By default, the street address is 3 lines.
 
 1. To include a prefix (such as Mr. or Mrs.) as part of the name, set **Show Prefix** to `Yes`.
 
