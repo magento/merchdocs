@@ -26,12 +26,12 @@ _Grouped Product_
 
 To choose the [attribute set]({% link stores/attribute-sets.md %}) that is used as a template for the product, do one of the following:
 
-- For **Search**, enter the name of the attribute set.
-- In the list, choose the attribute set that you want to use.
+- To search, enter the name of the **Attribute Set**.
+- In the list, choose the **Attribute Set** that you want to use.
 
 The form is updated to reflect the change.
 
-![]({% link images/images/product-create-choose-attribute-set.png %}){: .zoom}
+![]({% link images/images/product-grouped-create-choose-attribute-set.png %}){: .zoom}
 _Choose Template_
 
 ## Step 3: Complete the required settings
@@ -46,11 +46,11 @@ _Choose Template_
 
 1. Click <span class="btn">Save</span> and continue.
 
-    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the upper-left corner.
+    When the product is saved, the product name appears at the top of the page, and the [Store View]({% link catalog/product-scope.md %}) chooser appears in the upper-left corner.
 
 1. Choose the **Store View** where the product is to be available.
 
-    ![]({% link images/images/product-create-store-view-choose.png %}){: .zoom}
+    ![]({% link images/images/product-grouped-create-store-view-choose.png %}){: .zoom}
     _Choose Store View_
 
 ## Step 4: Complete the basic settings
