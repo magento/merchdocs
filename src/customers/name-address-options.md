@@ -109,7 +109,7 @@ _[Customer Account Sign Up Form]({% link configuration/customers/customer-config
    - Optional
    - Required
 
-   Then in the **Suffix Dropdown Options** field, enter each suffix that you want to appear in the list, separated by a semicolon.
+   For **Suffix Dropdown Options**, enter each suffix that you want to appear in the list, separated by a semicolon.
 
    You can place a semicolon before the first value to display a blank value at the top of the list.
 
