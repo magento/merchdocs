@@ -98,7 +98,7 @@ _[Customer Account Sign Up Form]({% link configuration/customers/customer-config
    ![]({% link images/images/storefront-customer-account-prefix.png %}){: .zoom}
    _[Prefix in Customer Sign Up Form]({% link configuration/customers/customer-configuration.md %})_
 
-   Then in the **Prefix Dropdown Options** field, enter each prefix that you want to appear in the list, separated by a semicolon.
+   For **Prefix Dropdown Options**, enter each prefix that you want to appear in the list, separated by a semicolon.
 
    You can place a semicolon before the first value to display a blank value at the top of the list.
 
