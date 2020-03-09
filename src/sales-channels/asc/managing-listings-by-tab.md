@@ -31,7 +31,7 @@ width: 190px;
 }
 </style>
 
-## Access Product Listings
+## Access product listings
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
 
