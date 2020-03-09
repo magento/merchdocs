@@ -17,7 +17,7 @@ Orders imported from Amazon are managed in the [Magento Orders]({% link sales/or
 {:.bs-callout-info}
 When an order is received from Amazon, your Amazon store is set to `Create Magento Order`, and the ordered item SKU cannot be matched to an existing Magento catalog product, the order synchronization process: <br/>- creates a Magento catalog product with the SKU<br/>- Sets the product status to `Disabled` and the inventory setting to `Do Not Manage Inventory`<br/>- Creates the Magento order
 
-## Configure Order Settings
+## Configure order settings
 
 1. Click **Order Settings** on the store dashboard.
 
