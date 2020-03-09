@@ -86,7 +86,7 @@ _Account Information Options_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Number of Lines in a Street Address|Website|Determines the number of lines in the street address. The street address consists of one to four lines. If the field is blank, the default street address of two lines is used.|
+|Number of Lines in a Street Address|Website|Determines the number of lines in the street address. The street address consists of from 1 to 4 lines. If the field is blank, the default street address of 3 lines is used.|
 |Show Prefix|Website|Determines if the customer name includes a prefix at the beginning, such as Mr., Mrs., and so on. Options: No / Optional / Required|
 |Prefix Dropdown Options|Website|Defines the list of prefix options. Separate values with a semicolon. Place a semicolon before the first value to display an empty value at the top of the list.|
 |Show Middle Name (initia)|Website|Determines if the middle initial is included as part of the customer name. If used, the middle initial is an optional field. Options: Yes / No|
