@@ -30,7 +30,7 @@ _[Customer Account Sign Up Form]({% link configuration/customers/customer-config
 
 ## Step 2: Configure the name and address options
 
-1. Return to the **Name and Address Options** section of the Customer Configuration page.
+1. Return to the Name and Address Options section of the Customer Configuration page.
 
    If not using the `Default config` scope setting, you must clear the `Use Default` checkbox for each field before changing the value.
 
@@ -87,7 +87,7 @@ _[Customer Account Sign Up Form]({% link configuration/customers/customer-config
 
 ## Step 2: Configure the name and address options
 
-1. Return to the **Name and Address Options** section of the Customer Configuration page.
+1. Return to the Name and Address Options section of the Customer Configuration page.
 
    If not using the `Default config` scope setting, you must clear the `Use Default` checkbox for each field before changing the value.
 
