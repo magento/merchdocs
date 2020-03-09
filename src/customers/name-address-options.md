@@ -37,7 +37,7 @@ _[Customer Account Sign Up Form]({% link configuration/customers/customer-config
    ![]({% link images/images-ee/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
    _[Name and Address Options]({% link configuration/customers/customer-configuration.md %})_
 
-1. In the **Prefix Dropdown Options** field, enter each prefix that you want to appear in the list, separated by a semicolon.
+1. For **Prefix Dropdown Options**, enter each prefix that you want to appear in the list, separated by a semicolon.
 
    Place a semicolon before the first value to display a blank value at the top of the list.
 
