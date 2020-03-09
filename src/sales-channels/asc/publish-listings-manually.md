@@ -6,7 +6,7 @@ title: Publish an Amazon Listing
 
 1. View the listing(s) on the _Ended_ tab on the [Product Listings]({% link sales-channels/asc/managing-product-listings.md %}) page (_Inactive_, _Active_, or _Ineligible_ tab).
 
-1. In the left-side column, click to check each of the listings you wish to republish.
+1. In the left column, click to check each of the listings you want to republish.
 
 1. Under _Actions_, click **Publish Product to Amazon**.
 
