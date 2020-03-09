@@ -8,7 +8,7 @@ When corresponding Magento orders are created for Amazon orders, the Amazon orde
 
 The Magento order number does not show with the _Recent Orders_ information. The Magento order number only shows when you click the Order Number on the store dashboard and open the order in [Magento order processing]({% link sales/order-processing.md %}). When viewing the Magento order, the Amazon Order number appears in the _Payment & Shipping Method_ section, along with options to _View or Cancel Amazon Order_ and _View all Amazon Orders_, depending on the order's shipping status.
 
-See [cancel an unshipped order]({% link sales-channels/asc/amazon-order-details.md %}#cancel-an-order-in-unshipped-status).
+See [cancel an unshipped order]({% link sales-channels/asc/cancel-unshipped-order.md %}).
 
 ![]({% link sales-channels/asc/assets/amazon-order-number-payment-info.png %}){: .zoom}
 _Amazon Order info in the Magento Order_
@@ -29,8 +29,9 @@ Common Magento [order processing]({% link sales/order-processing.md %}) tasks in
 - [Issuing a credit/refund]({% link sales/credit-memo-create.md %})
 - [Fulfilling/shipping an order]({% link sales/shipments-create.md %})
 - [Create an invoice]({% link sales/invoice-create.md %})
+- [Cancel and unshipped order]({% link sales-channels/cancel-unshipped-order.md %})
 
 {:.bs-callout-info}
-If an order is in `Unshipped` status, you can cancel an Amazon order on the [Amazon Order Details]({% link sales-channels/asc/amazon-order-details.md %}) page. If an order has been shipped, it cannot be canceled.
+If an order is in `Unshipped` status, you can [cancel an Amazon order]({% link sales-channels/cancel-unshipped-order.md %}) on the [Amazon Order Details]({% link sales-channels/asc/amazon-order-details.md %}) page. If an order has been shipped, it cannot be canceled.
 
 See [Magento Order Management]({% link sales/order-management.md %}).
