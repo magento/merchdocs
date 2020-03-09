@@ -9,21 +9,21 @@ There are four possible causes for an incomplete listing, each identified by its
 
 |Status|Reason|Action|
 |--- |--- |--- |
-|Missing Condition|Amazon accepts listings in various conditions (example: New, Refurbished, Used: Like New) listing requires a defined condition.|Manually [assign a condition]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %}#update-required-info-missing-condition) to a listing.|
-|Unable to Assign to Amazon Listing|Automatic match of this listing to your catalog failed. If no match is found, the listing cannot be managed by Amazon Sales Channel|Manually [assign an ASIN]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %}#update-required-info-unable-to-assign-to-amazon-listing) to the catalog product to match to the listing.|
-|Multiple Matches Found|Automatic match of this listing to your catalog failed. If multiple possible matches are found, you must select the correct match for your product.|Manually [update required info]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %}#update-required-info-multiple-matches-found) to match to the product and listing.|
-|Has Variants|If your product has variants, such as a t-shirt that is available in different sizes or colors, you must choose the variant in your catalog to be correctly assigned and matched to the listing|View the variants that are associated with your product and manually [choose the correct variant]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %}#update-required-info-has-variants) to assign and match to this listing.|
+|Missing Condition|Amazon accepts listings in various conditions (example: New, Refurbished, Used: Like New) listing requires a defined condition.|Update required info and manually [assign a condition]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %}#update-required-info-missing-condition) to a listing.|
+|Unable to Assign to Amazon Listing|Automatic match of this listing to your catalog failed. If no match is found, the listing cannot be managed by Amazon Sales Channel|Update required info and manually [assign an ASIN]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %}#update-required-info-unable-to-assign-to-amazon-listing) to the catalog product to match to the listing.|
+|Multiple Matches Found|Automatic match of this listing to your catalog failed. If multiple possible matches are found, you must select the correct match for your product.|Update required info and manually [choose a product match]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %}#update-required-info-multiple-matches-found) to match to the product and listing.|
+|Has Variants|If your product has variants, such as a t-shirt that is available in different sizes or colors, you must choose the variant in your catalog to be correctly assigned and matched to the listing|Update required info and manually [choose the correct variant]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %}#update-required-info-has-variants) to assign and match to this listing.|
 
 {:.bs-callout-info}
-When incomplete listings are properly matched to your catalog products, the listing will move from the _Incomplete_ tab and will publish to Amazon based on your [Product Listing Actions]({% link sales-channels/asc/product-listing-actions.md %}) settings.
+When incomplete listings are properly matched to your catalog products, the listing will move from the _Incomplete_ tab and will publish to Amazon based on your [_Product Listing Actions_]({% link sales-channels/asc/product-listing-actions.md %}) settings.
 
 The available actions on the _Incomplete_ tab include:
 
-Under **Actions**:
+Under _Actions_:
 
 {% include amazon-re-attempt-auto-match-action.md %}
 
-Under **Select** in the _Actions_ column:
+Under **Select** in the _Action_ column:
 
 {% include amazon-update-required-info-action.md %}
 
@@ -46,4 +46,4 @@ _Incomplete Listings_
 |Landed Price|The listing price for the product plus its shipping price.|
 |Amazon Quantity|The quantity available once the product is actively listed on Amazon.|
 |Status|The status of the listing, defined by Amazon. See the Status table above.|
-|Action|List of available actions that can be applied to a specific listing. To apply an action, click **Select** in the _Actions_ column to show your options:<br/>[Update Required Info]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %})<br/>[View Details]({% link sales-channels/asc/product-listing-details.md %})|
+|Action|List of available actions that can be applied to a specific listing. To apply an action, click **Select** in the _Action_ column to show your options:<br/>[Update Required Info]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %})<br/>[View Details]({% link sales-channels/asc/product-listing-details.md %})|

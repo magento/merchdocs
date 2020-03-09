@@ -1,8 +1,8 @@
 ---
-title: Creating and Editing Attributes
+title: Create and Edit Attributes
 ---
 
-You may need to create or update Magento attributes as you sell through Amazon and update your stores. Review the current Amazon attributes and linked Magento attributes through the [_Attributes_ view]({% link sales-channels/asc/attributes-view.md %}) of the Amazon Sales Channel home page. The _Actions_ column shows the available actions for the attribute. You can either create and map a new Magento attribute for an unlinked Amazon attribute, or you can edit an existing Magento attribute and its mapping to an Amazon attribute. Both actions are described below.
+You may need to create or update Magento attributes as you sell through Amazon and update your stores. Review the current Amazon attributes and linked Magento attributes through the [_Attributes_ view]({% link sales-channels/asc/attributes-view.md %}) of the Amazon Sales Channel home page. The _Action_ column shows the available actions for the attribute. You can either create and map a new Magento attribute for an unlinked Amazon attribute, or you can edit an existing Magento attribute and its mapping to an Amazon attribute. Both actions are described below.
 
 As you create and update attributes, you may want to verify the attribute values for Magento and Amazon products. These values may differ if you do not sync and import values from Amazon. To review Amazon values for these attributes, see [Reviewing Amazon Attribute Values]({% link sales-channels/asc/amazon-matching-attributes-values.md %}). If you want to change those values, you can edit an existing attribute and the mapping between Amazon and Magento.
 
@@ -12,7 +12,7 @@ These steps create a new Magento attribute and map it to an Amazon attribute. De
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
 
-1. Click **Attributes** in the left-side menu, locate an Amazon attribute, and click **Create Attribute** in the _Actions_ column.
+1. Click **Attributes** in the left-side menu, locate an Amazon attribute, and click **Create Attribute** in the _Action_ column.
 
 1. To enable the syncing of the Amazon values to the linked Magento attribute, set **Is Active** to `Yes`.
 

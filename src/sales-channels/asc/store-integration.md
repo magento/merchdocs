@@ -47,7 +47,7 @@ After integrating your Amazon account, you will be prompted annually to renew yo
 
        Mapping attributes helps ensure your Amazon listing correctly matches to the corresponding product in your Magento catalog.
 
-1. Click <span class="btn">Connect</span>. 
+1. Click <span class="btn">Connect</span>.
 
    The modal will close and the new store will appear on the [Amazon Sales Channel home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) page with a confirmation message that the store was created successfully.
 
