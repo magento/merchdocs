@@ -255,6 +255,8 @@ pages:
           url: "/sales-channels/asc/common-order-processing.html"
         - label: Fulfillment Workflows
           url: "/sales-channels/asc/fulfillment-workflows.html"
+        - label: Cancel Unshipped Orders
+          url: "/sales-channels/asc/cancel-unshipped-order.html"
     - label: Amazon Sales Channel 2.x / 3.x
       children:
       - label: Getting Started with Amazon Sales Channel

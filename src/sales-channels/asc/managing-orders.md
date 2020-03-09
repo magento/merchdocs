@@ -1,45 +1,51 @@
 ---
-title: Managing Orders and Fulfillment
+title: Manage Orders and Fulfillment
 ---
 
 
-Amazon Sales Channel imports your Amazon Seller Central orders into Magento for review on the _Orders_ tab on the Amazon Sales Channel home page.
+Order information received from Amazon Seller Central shows in the _Recent Orders_ section of the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
-Orders that are imported:
+Regardless of your [order import settings]({% link sales-channels/asc/order-settings.md %}), Amazon orders that existed in your Amazon Seller Central account prior to your [store integration]({% link sales-channels/asc/store-integration.md %}) will not import into Magento.
 
-- Orders that are in `Unshipped` status in your Amazon Seller Central account at the time of [store integration]({% link sales-channels/asc/store-integration.md %}) during onboarding.
-- All new orders in your Amazon Seller Central account after [store integration]({% link sales-channels/asc/store-integration.md %}).
+## With Order Import Disabled
 
-Orders that are not imported:
+After [store integration]({% link sales-channels/asc/store-integration.md %}), [**Import Amazon Orders**]({% link sales-channels/asc/order-settings.md %}#configure-order-settings) is `Disabled` by default. This means that your Amazon order information will show on the store dashboard, but your Amazon orders are not imported and cannot be managed in Magento.
 
-- Orders that existed in your Amazon Seller Central account at the time of [store integration]({% link sales-channels/asc/store-integration.md %}) but were in a status other than `Unshipped`.
+If your [order import settings]({% link sales-channels/asc/order-settings.md %}) are set to `Disabled`, order information received from Amazon appears in the _Recent Orders_ section of the store dashboard. Order information is view only, and managing these orders must be done in Amazon Seller Central.
 
-An Amazon order is added to the to the _Orders_ tab when Amazon Sales Channel receives information that Amazon has changed the order status from `Pending` to `Unshipped` in Amazon Seller Central. Amazon places an order in `Pending` status while the order and the payment method are verified. Remember, information sync depends on your cron settings and the time it takes Amazon to process information.
+![]({% link sales-channels/asc/assets/amazon-recent-orders-not-imported.png %}){: .zoom}
+_Recent Orders - Not Imported_
 
-You can review your Amazon order information on the _Orders_ tab.
+## With Order Import Enabled
 
-If your [order settings]({% link sales-channels/asc/order-settings.md %}) are defined to create a corresponding Magento order for your Amazon orders, you can manage your orders the same way you [process your Magento orders]({% link sales/order-processing.md %}). If your [order settings]({% link sales-channels/asc/order-settings.md %}) are set to not create corresponding Magento orders, you can review your order information on the _Orders_ tab but must manage your orders in Amazon Seller Central.
+If you want to import and manage your your Amazon orders in Magento, you can change the [**Import Amazon Orders**]({% link sales-channels/asc/order-settings.md %}#configure-order-settings) setting to `Enabled`. This means that when new orders are received from Amazon, corresponding Magento orders are created, based on Amazon status and stock levels.
 
-When managing Amazon orders in Amazon Sales Channel, you will use the [Magento Order Management]({% link sales/order-management.md %}) processes and workflows. When you click the Magento order number for the order, the order appears in a new tab the same as if you accessed the order in Sales grid in the admin panel.
+All new orders created in Amazon will import into Magento, but not immediately. Amazon assigns a `Pending` status to newly created orders. After Amazon verifies the order and payment method, the order status is changed to `Unshipped`. This status change by Amazon triggers the order import, and Magento creates a matching, corresponding order.
+
+An Amazon order is added to the to the _Recent Orders_ section of the store dashboard when Amazon changes the order status from `Pending` to `Unshipped`. Remember, information sync depends on your cron settings and the time it takes Amazon to process information.
+
+![]({% link sales-channels/asc/assets/amazon-recent-orders-imported.png %}){: .zoom}
+_Recent Orders - Imported_
+
+You will manage your imported Amazon orders in the [Magento Orders]({% link sales/orders.md %}) process and workflow, just like your other Magento stores and sales. When viewing your recent orders on the store dashboard, you click the Magento order number to open the order in the [Magento order process]({% link sales/order-processing.md %}#order-view-descriptions).
+
+![]({% link sales-channels/asc/assets/amazon-order-processing.png %}){: .zoom}
+_Order Processing in Magento_
+
+{:.bs-callout .bs-callout-info}
+Amazon orders that are not imported and do not have a corresponding Magento order number must be managed in your Amazon Seller Central account.
 
 ## View your Amazon order information
 
-1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
+1. Click **View Store** on a store card.
 
-1. On the Amazon Sales Channel home page, click **Orders**.
+1. View your orders in the _Recent Orders_ section.
 
-1. If you want to view additional details for an individual order, click **View Amazon Order Details** in the _Action_ column.
+1. To view order details or manage an order, click the order number in the _Order Number_ column.
 
-    This shows the [Amazon Order Details]({% link sales-channels/asc/amazon-order-details.md %}) page to view the details for the selected order.
-
-1. If you want to manage an individual order, click the number in the Magento Order Number column.
-
-    This shows the Magento [order processing]({% link sales/order-processing.md %}) page in a new tab.
+    The [Magento Order View]({% link sales/order-processing.md %}#process-an-order) appears for the order.
 
 See [Common Order Processing Tasks]({% link sales-channels/asc/common-order-processing.md %})
-
-![]({% link sales-channels/asc/assets/amazon-managing-orders.png %}){: .zoom}
-_Order Management_
 
 {% include amazon-workspace-controls.md %}
 
@@ -47,25 +53,8 @@ _Order Management_
 
 |Column|Description|
 |---|---|
-|Amazon Order Number|The order number generated by your Amazon Central Seller account and imported into Magento. |
-|Amazon Store Name|The name of the Amazon store in which the order was placed. Click the store name to view the store [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}). |
-|Magento Order Number|The corresponding order number created by Magento when the order information is received from your Amazon Seller Central account (if set to create a corresponding order in your [order settings]({% link sales-channels/asc/order-settings.md %}). Click the number to view and manage the order similar to [Processing a Magento Order]({% link sales/order-processing.md %}). |
-|Buyer Name|The name of the person who placed the order as received from Amazon Seller Central. |
+|Purchase Date|The date of the purchase as received from Amazon Seller Central.|
+|Order Number|The order number generated by your Amazon Central Seller account and imported into Magento. |
 |Status|The status of the order. Options: Pending / Unshipped / Shipped / Canceled / Completed / Partially Shipped |
-|Total|The total dollar value of the order as received from Amazon Seller Central. |
-|[Fulfillment Channel]({% link sales-channels/asc/fulfilled-by.md %})|Identifies the party responsible for sorting, packing, and shipping of an order. Options: Merchant / Amazon |
-|Items Unshipped|The number of items in the order that have not yet been shipped. |
-|Reserved|Based on your [order settings]({% link sales-channels/asc/order-settings.md %}), if "Pending Orders" status is set to reserve quantity in your stock, then this will display `Yes` or `No` accordingly.<br/>If set to `Yes`:<br/>- When the order is processed by Amazon Seller Central and the corresponding Magento order is created, the reserve quantity is removed from available stock.<br/>- When an order is canceled, the reserve quantity is added back to available stock. |
-|Purchase Date|The date of the purchase as received from Amazon Seller Central. |
-|Latest Ship Date|The latest date that Amazon Seller Central expects you to ship the order so that it arrives on time. This is very important for maintaining your Amazon Seller Central business score. |
-|Last Action|A custom message from Amazon Seller Central to Amazon Sales Channel that explains the action was last taken for the order. This allows the merchant to have a single location in Amazon Sales Channel to view the status of Amazon Seller Central orders. The last action text may let the store owner know that an Amazon Seller Central order has been canceled, that the Amazon Seller Central has successfully invoiced the order payment, that the system attempted to create a new Magento order but was unable to, or that a corresponding Magento order was successfully created. |
-|Action|[View Amazon Order Details]({% link sales-channels/asc/amazon-order-details.md %})<br/><br/>The order amount, customer email, customer name, and Magento order number (if set to create a corresponding order) populate when the order is added to the _Orders_ tab. |
-
-### Optional Columns
-
-|Column|Description|
-|---|---|
-|Order Id|This is the identifier assigned by Magento for the Amazon order when the order was received from Amazon and created in the Amazon Sales Channel. |
-|Merchant Id|This is the number assigned by Magento to the Amazon store you created and integrated with an Amazon Seller Central account. |
-|Is Prime|Identifies the order as using the Amazon Prime shipping option. Options: Yes / No. |
-|Items Shipped|Identifies the number of items in the order in Shipped status. |
+|Buyer's Name|The name of the person who placed the order as received from Amazon Seller Central.|
+|Grand Total|The total dollar value of the order as received from Amazon Seller Central.|

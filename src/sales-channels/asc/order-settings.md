@@ -6,7 +6,7 @@ redirect_from:
 
 Order Settings define if and how Amazon orders are imported into and processed in Magento and can be accessed on the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
-By default, order settings are set to `Disabled`. This means that your Amazon orders will show on the store dashboard but cannot be managed in Magento.
+By default, your order import settings are set to `Disabled`. This means that your Amazon orders will show on the store dashboard but cannot be managed in Magento.
 
 After [store integration]({% link sales-channels/asc/store-integration.md %}) is complete, you can change your order settings. If you set your order settings to `Enabled`, Amazon orders will import and create new, corresponding orders in Magento. Regardless of your order settings, Amazon orders that existed prior to your store integration will not import.
 
@@ -17,7 +17,7 @@ Orders imported from Amazon are managed in the [Magento Orders]({% link sales/or
 {:.bs-callout-info}
 When an order is received from Amazon, your Amazon store is set to `Create Magento Order`, and the ordered item SKU cannot be matched to an existing Magento catalog product, the order synchronization process: <br/>- creates a Magento catalog product with the SKU<br/>- Sets the product status to `Disabled` and the inventory setting to `Do Not Manage Inventory`<br/>- Creates the Magento order
 
-# Configure Order Settings
+## Configure order settings
 
 1. Click **Order Settings** on the store dashboard.
 
