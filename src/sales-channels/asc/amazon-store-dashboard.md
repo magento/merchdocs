@@ -28,7 +28,7 @@ The store dashboard also includes store data and links to settings or more infor
     - [**Order settings**]({% link sales-channels/asc/order-settings.md %}) - Control how Amazon orders are managed.
     - [**Listing rules**]({% link sales-channels/asc/listing-rules.md %}) - Define which catalog products are eligible to be listed on Amazon.
     - [**Pricing rules**]({% link sales-channels/asc/pricing-products.md %}) - Define how the Amazon list price will be altered for qualified listings.
-    - [**Store reports**]({% link sales-channels/asc/amazon-logs-reports.md %} - [Competitive price analysis]({% link sales-channels/asc/competitive-price-analysis.md %}) and [listing improvements]({% link sales-channels/asc/listing-improvements.md %}).
+    - [**Store reports**]({% link sales-channels/asc/amazon-logs-reports.md %}) - [Competitive price analysis]({% link sales-channels/asc/competitive-price-analysis.md %}) and [listing improvements]({% link sales-channels/asc/listing-improvements.md %}).
     - [**Logs**]({% link sales-channels/asc/amazon-logs-reports.md %}) - [Listing changes]({% link sales-channels/asc/listing-changes-log.md %}) and [communication errors]({% link sales-channels/asc/communication-errors-log.md %}).
     - [**Store integration settings**]({% link sales-channels/asc/store-integration-settings.md %}) - Review email and Amazon Sales Channel store name settings in the Magento Admin.
 
