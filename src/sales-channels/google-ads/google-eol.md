@@ -20,7 +20,7 @@ What to expect next:
 
 1. What does deactivating Google Shopping ads mean?
 
-    The Google Shopping ads Channel extension will be deactivated in all Magento versions. The extension will stop working, and if accessed in the Magento Admin from a previous install, a `Google Shopping ads has been disabled.` message appears. The extension will no longer sync product or ad campaign data with Google.
+    The Google Shopping ads Channel extension will be deactivated in all Magento versions. The extension will stop working, and if accessed in the Magento Admin from a previous install, a `Google Shopping ads has been disabled.` message appears. The extension will no longer send product feed data to Google Merchant Center or sync ad campaigns data with Google ads.
 
     Also, the extension will be removed from the Magento Marketplace as well as from any future Magento releases.
 
