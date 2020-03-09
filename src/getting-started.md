@@ -26,11 +26,11 @@ If you have used this guide before, you can review the [Change Log]({% link mage
 <div class="bs-callout bs-callout-info" markdown="1">
 Starting with our 2.3.2 release, we are no longer producing and publishing an updated 2.3 User Guide PDF to match our online content. This makes it possible for us to provide an improved online User Guide experience and publish content updates more frequently.
 
-{% if "Default.EE Only" contains site.edition %}You can [download the 2.3.1 PDF guide][1] from our site.{% endif %}
-{% if "Default.B2B Only" contains site.edition %}You can [download the 2.3.1 PDF guide][2] from our site.{% endif %}
-{% if "Default.CE Only" contains site.edition %}You can [download the 2.3.1 PDF guide][3] from our site.{% endif %}
+Magento Commerce|[Download the 2.3.1 PDF guide][1] from our site
+Magento Commerce for B2B|[Download the 2.3.1 PDF guide][2] from our site
+Magento Open Source|[Download the 2.3.1 PDF guide][3] from our site
 
-If you are using an earlier release of Magento, see [Documentation &amp; Resources][4] to find the correct guide.
+If you are using an earlier release of Magento, see [Documentation & Resources][4] to find the correct documentation.
 </div>
 
 {% include grid.html sections=page.sections%}

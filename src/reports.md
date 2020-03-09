@@ -22,6 +22,10 @@ sections:
     content: This category includes Views, Bestsellers, Low Stock, Ordered, and Downloads.
     url: /reports/product-reports.html
 
+  - title: Private Sales Reports
+    content: <span class="card-edition-ee">This category provides information about events and private sales.</span>
+    url: /reports/private-sales-reports.html
+
   - title: Business Intelligence
     content: Access business intelligence tools and reporting to gain valuable insights.
     url: /reports/business-intelligence.html
@@ -32,8 +36,5 @@ sections:
 ---
 
 Learn how to filter data and online generate reports. The report data can be opened in a spreadsheet or imported into other applications.
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-For Magento Commerce users, there are also [Private Sales Reports]({% link reports/statistics.md %}).
-<!--{% endif %}-->
 
 {% include grid.html sections=page.sections%}
