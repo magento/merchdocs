@@ -4,7 +4,7 @@ title: Products in Category
 
 The Products in Category section lists the products that are currently assigned to the category. The search filters at the top of each column are used to add and remove products from the category.
 
-<div class="edition-cee" markdown="1">
+<div class="edition-ee" markdown="1">
 The Products in Category section also allows you to use [category rules]({% link catalog/category-product-rules.md %}) to dynamically change the product selection when a set of conditions is met. To learn more, see [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}).
 </div>
 
@@ -60,7 +60,7 @@ When setting up a category rule, the products are matched and assigned to the ru
 |Automatic Sorting|Automatically applies a sorting order to the list of category products. Options: <br/>None<br/>Move low stock to top<br/>Move low stock to bottom<br/>Special price to top<br/>Special price to bottom<br/>Newest products first<br/>Sort by color<br/>Name: A - Z<br/>Name: Z - A<br/>SKU: Ascending<br/>SKU: Descending<br/>Price: High to Low<br/>Price: Low to High|
 |Add Condition|Adds another condition to the rule.|
 
-### Conditions
+## <span class="heading-edition-ee">Page conditions</span>
 
 |Option|Description|
 |--- |--- |
@@ -69,7 +69,7 @@ When setting up a category rule, the products are matched and assigned to the ru
 |Value|Specifies the value  the attribute must have to meet the condition.|
 |Logic|The Logic column is used to define multiple conditions, and appears only when an additional condition is added. Options: OR / AND|
 
-## Controls
+## Page controls
 
 <div class="edition-ee" markdown="1">
 Controls in Magento Commerce only

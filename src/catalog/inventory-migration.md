@@ -33,10 +33,8 @@ When first installing or upgrading to Magento 2.3.x Open Source, Commerce, or Co
 - New [import/export features]({% link catalog/inventory-import-export.md %}) allow you to mass add sources, update inventory quantities, and set stock status (in/out of stock) for all SKUs in your catalog. These features allow you to modify for one, selected, or all sources.
 
 - New bulk options through the Product grid page support [assigning sources]({% link catalog/inventory-bulk-assign-sources.md %}), [unassigning sources]({% link catalog/inventory-bulk-unassign-sources.md %}), and [transferring inventory to sources]({% link catalog/inventory-bulk-transfer-inventory.md %}).
-<!--{% if "Default.B2B Only" contains site.edition %}-->
 
 - Inventory Management supports B2B inventory. At this time, all B2B products must be assigned to the Default Source and Default Stock. Future updates will resolve this issue.
-<!--{% endif %}-->
 
 ## Magento Order Management and Inventory Management
 

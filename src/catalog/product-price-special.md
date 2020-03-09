@@ -2,17 +2,20 @@
 title: Special Price
 ---
 
-A special price can be offered for a designated period of time{% if "Default.EE-B2B" contains site.edition %} as a [Scheduled Update]({% link cms/content-staging-scheduled-update.md %}){% endif %}. During the specified time period, the special price appears instead of the regular price, followed by a notation that shows the regular price.
+A special price can be offered for a designated period of time. During the specified time period, the special price appears instead of the regular price, followed by a notation that shows the regular price.
 
 ![]({% link images/images/storefront-price-special.png %}){: .zoom}
 _Special Price on Product Page_
 
-To assign a special price to multiple products, such as multiple variations of a [configurable product]({% link catalog/product-create-configurable.md %}), use the [Actions control]({% link stores/admin-actions-control.md %}) as described in Method 2.
+## Apply special price to an individual product
 
-## Method 1: Apply special price to an individual product
+You can easily set a special price for a single product in the catalog.
+
+### <span class="heading-edition-ee">Use a Scheduled Update</span>
+
+Magento Commerce includes support for [Scheduled Updates]({% link cms/content-staging-scheduled-update.md %}). Use these promotional tools to  apply a special price to a specific product for a specified time period.  
 
 1. Open the product in edit mode.
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 
 1. Click <span class="btn">Scheduled Update</span>.
 
@@ -32,7 +35,7 @@ To assign a special price to multiple products, such as multiple variations of a
     ![]({% link images/images-ee/product-price-special.png %}){: .zoom}
     _Special Pricing Settings_
 
-1. When complete, click <span class="btn"> Done </span> and then <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Done</span> and then <span class="btn">Save</span>.
 
     In the storefront, the special price should appear in both catalog listing and on the product page.
 
@@ -40,10 +43,14 @@ To assign a special price to multiple products, such as multiple variations of a
 
     ![]({% link images/images-ee/product-price-special-scheduled-change.png %}){: .zoom}
     _Scheduled Change_
-<!--{% endif %}-->
-<!--{% if "Default.CE Only" contains site.edition %}-->
 
-1. Scroll down to the _Price_ field, click **Advanced Pricing**, and enter the amount of the **Special Price**.
+### <span class="heading-edition-ee">Use a simple start and end date</span>
+
+Magento Open Source includes simple start and end date options in the Advanced Pricing options.
+
+1. Open the product in edit mode.
+
+1. Scroll down to the _Price_ field, click **Advanced Pricing**, and enter the **Special Price** amount.
 
 1. Use the **Calendar** ( ![]({% link images/images/btn-calendar.png %}) ) to choose the **Start Date** and **End Date** for the special price promotion.
 
@@ -55,9 +62,10 @@ To assign a special price to multiple products, such as multiple variations of a
 1. When complete, click <span class="btn">Done</span> and then <span class="btn">Save</span>.
 
     In the storefront, the special price should appear in both catalog listing and on the product page.
-<!--{% endif %}-->
 
-## Method 2: Apply Special Price to Multiple Products
+## Apply a special price to multiple products
+
+To assign a special price to multiple products, such as multiple variations of a [configurable product]({% link catalog/product-create-configurable.md %}), use the [Actions control]({% link stores/admin-actions-control.md %}).
 
 The following example shows how to assign the same special price to multiple product variations of a configurable product.
 
