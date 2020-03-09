@@ -39,7 +39,9 @@ The _Edit Overrides_ action is available when viewing listings on the _Overrides
 
 1. View a listing on the _Product Listings_ page (_Overrides_ tab).
 
-1. In the _Action_ column, click **Select** > **Edit Overrides**. The _Product Listing Overrides_ page opens.
+1. In the _Action_ column, click **Select** > **Edit Overrides**.
+
+   The _Product Listing Overrides_ page opens.
 
     ![]({% link sales-channels/asc/assets/amazon-select-edit-overrides.png %})
 

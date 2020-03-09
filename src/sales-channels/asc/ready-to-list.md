@@ -3,11 +3,11 @@ title: Ready to List
 ---
 
 
-The _Ready to List_ tab shows your Magento catalog meet your defined listing settings and are ready to publish to Amazon as a **new** listing. This tab appears on the _Product Listings_ page when you click **Manage Listings** on the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
+The _Ready to List_ tab shows your Magento catalog products that meet your listing settings and are ready to publish to Amazon as a **new** listing. Unlike other listing tabs, this tab does not always appear on the [_Product Listings_]({% link sales-channels/asc/managing-product-listings.md %}) page.
 
 The _Ready to List_ tab appears only when [**Automatic List Action**]({% link sales-channels/asc/product-listing-actions.md %}) in your listing settings is set to `Do Not Automatically List Eligible Products`. This setting tells Amazon Sales Channel that any new Amazon listings must be published manually.
 
-When [**Automatic List Action**]({% link sales-channels/asc/product-listing-actions.md %}) is set to `Automatically List Eligible Products`, Amazon Sales Channel automatically publishes new listings for your eligible catalog products. Since new listings are published automatically, the _Ready to List_ tab does not display.
+When [**Automatic List Action**]({% link sales-channels/asc/product-listing-actions.md %}) is set to `Automatically List Eligible Products`, Amazon Sales Channel automatically publishes new listings for your eligible catalog products. Because new listings are published automatically, the _Ready to List_ tab is not displayed.
 
 Under _Actions_:
 
