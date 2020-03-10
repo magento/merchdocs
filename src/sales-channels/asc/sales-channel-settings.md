@@ -5,7 +5,6 @@ title: Sales Channel Admin Settings
 
 When the Amazon Sales Channel extension is installed, default values are set in the Admin for Amazon Sales Channel. These settings can be modified in your configuration settings for your Amazon store. These settings include:
 
-- Dashboard view of the Revenue section
 - Intervals for clearing Activity Log history
 - Cron source selection
 - Log synchronization options
@@ -15,12 +14,6 @@ When the Amazon Sales Channel extension is installed, default values are set in 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. Scroll down and click **Sales Channels** and then **Global Settings**.
-
-1. For **Show Dashboard Chart**, choose an option.
-
-    - **Yes** - (Default) Choose when you want the **Revenue** section to show on the store [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}). If set to `Yes`, the **Revenue** section shows a graphical representation for the store revenue for the last 7 or 30 days.
-
-    - **No** - Choose when you do not want the **Revenue** section to show on the store [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
 1. For **Clear Log History**, choose an option.
 
@@ -41,4 +34,4 @@ When the Amazon Sales Channel extension is installed, default values are set in 
 1. Click <span class="btn">Save Config</span>.
 
 ![]({% link sales-channels/asc/assets/config-sales-channel-global-settings.png %}){: .zoom}
-[_Amazon Sales Channel Global Settings_]({% link configuration/sales-channels/global-settings.md %})
+[_Sales Channel Settings_]({% link configuration/sales-channels/global-settings.md %})

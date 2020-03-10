@@ -14,7 +14,7 @@ The following logs can be accessed from the [store dashboard]({% link sales-chan
 
 The following store-specific reports can be accessed from the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
-- The [Competitive Price Analysis]({% link sales-channels/asc/competitive-price-analysis.md %}) report shows your Amazon landed price (listing price plus shipping price) in relation to the Buy Box price and lowest competitor price.
+- The [Competitive Price Analysis]({% link sales-channels/asc/competitive-price-analysis.md %}) report shows your Amazon landed price (listing price plus shipping price) in relation to the [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) price and [lowest competitor]({% link sales-channels/asc/lowest-competitor-pricing.md %}) price.
 
 - The [Listing Improvements]({% link sales-channels/asc/listing-improvements.md %}) report shows all suggested listing improvements provided by Amazon for the selected store.
 

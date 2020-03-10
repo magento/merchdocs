@@ -41,7 +41,7 @@ _Product Listing Details: Listing Activity Log_
 Shows information for the Amazon merchant who holds the [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) position for the listing. This can be used to understand the price positioning of your competitors on Amazon. Information shown includes:
 
 - ASIN: The 10-digit Amazon product identifier.
-- Is Seller: Identifies if you are the Buy Box seller. Options Yes/No.
+- Is Seller: Identifies if you are the [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) seller. Options Yes / No.
 - Condition: Identifies the condition defined for the listing.
 - Listing Price: Identifies the price at which the listing was published.
 - Shipping Price: Identifies the shipping price added to the listing.

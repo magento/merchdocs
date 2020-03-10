@@ -1,5 +1,5 @@
 ---
-title: Managing Amazon Pricing
+title: Manage Amazon Pricing
 redirect_from:
   - /sales-channels/asc/ob-pricing-rules.html
 ---

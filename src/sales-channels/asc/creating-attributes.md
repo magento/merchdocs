@@ -4,7 +4,7 @@ title: Create and Edit Attributes
 
 You may need to create or update Magento attributes as you sell through Amazon and update your stores. Review the current Amazon attributes and linked Magento attributes through the [_Attributes_ view]({% link sales-channels/asc/attributes-view.md %}) of the Amazon Sales Channel home page. The _Action_ column shows the available actions for the attribute. You can either create and map a new Magento attribute for an unlinked Amazon attribute, or you can edit an existing Magento attribute and its mapping to an Amazon attribute. Both actions are described below.
 
-As you create and update attributes, you may want to verify the attribute values for Magento and Amazon products. These values may differ if you do not sync and import values from Amazon. To review Amazon values for these attributes, see [Reviewing Amazon Attribute Values]({% link sales-channels/asc/amazon-matching-attributes-values.md %}). If you want to change those values, you can edit an existing attribute and the mapping between Amazon and Magento.
+As you create and update attributes, you may want to verify the attribute values for Magento and Amazon products. These values may differ if you do not sync and import values from Amazon. To review Amazon values for these attributes, see [Reviewing Amazon Attribute Mapping]({% link sales-channels/asc/amazon-matching-attributes-values.md %}). If you want to change those values, you can [edit or create a mapping]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %}) between Amazon and Magento.
 
 ## Create an attribute
 
