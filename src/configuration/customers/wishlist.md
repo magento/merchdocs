@@ -6,22 +6,20 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## General Options
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/config-customers-wishlist-general-options.png %}){: .zoom}
-[_General Options_]({% link marketing/wishlist-configuration.md %})
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![]({% link images/images-ee/config-customers-wishlist-general-options-ee.png %}){: .zoom}
-[_General Options_]({% link marketing/wishlist-configuration.md %})
-<!--{% endif %}-->
+<span class="caption-edition-ee">[_General Options_]({% link marketing/wishlist-configuration.md %})</span>
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enabled|Store View|Activates the wish list module for your store. Options: Yes / No|<!--{% if "Default.CE Only" contains site.edition %}-->
-|Show in Sidebar|Store View|Specifies whether the wish list is visible in the sidebar. Options: Yes / No|<!--{% endif %}--><!--{% if "Default.EE-B2B" contains site.edition %}-->
-|Enable Multiple Wish Lists|Store View|When set to “Yes”, allows customers to create and maintain multiple wish lists. Options: Yes / No|
+|Enabled|Store View|Activates the wish list module for your store. Options: Yes / No|
+|Show in Sidebar|Store View|Specifies visibility of the wish list(s) in the sidebar. <br/>Options: Yes / No|
+
+<div class="edition-ee" markdown="1">
+Magento Commerce supports multiple wish lists. These are options in Magento Commerce only.
+</div>
+
+|Enable Multiple Wish Lists|Store View|When set to `Yes`, allows customers to create and maintain multiple wish lists. Options: Yes / No|
 |Number of Multiple Wish Lists|Store View|If multiple wish lists are enabled, determines the maximum number of wish lists customers can have associated with their account.|
-|Show in Sidebar|Store View|Specifies whether wish lists are visible in the sidebar. Options: Yes / No|<!--{% endif %}-->
 
 ## Share Options
 
@@ -37,14 +35,8 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## My Wish List Link
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/config-customers-wishlist-my-wishlist-link.png %}){: .zoom}
-[_My Wish List Link_]({% link marketing/wishlist-configuration.md %})
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![]({% link images/images-ee/config-customers-wishlist-my-wishlist-link.png %}){: .zoom}
-[_My Wish List Link_]({% link marketing/wishlist-configuration.md %})
-<!--{% endif %}-->
+<span class="caption-edition-ee">[_My Wish List Link_]({% link marketing/wishlist-configuration.md %})</span>
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

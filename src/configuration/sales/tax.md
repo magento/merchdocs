@@ -149,25 +149,24 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Orders, Invoices, Credit Memos Display Settings
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/config-sales-tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
-[_Orders, Invoices, Credit Memos Display Settings_]({% link tax/display-settings.md %})
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![]({% link images/images-ee/config-sales-tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
-[_Orders, Invoices, Credit Memos Display Settings_]({% link tax/display-settings.md %})
-<!--{% endif %}-->
+<span class="caption-edition-ee">[_Orders, Invoices, Credit Memos Display Settings_]({% link tax/display-settings.md %})</span>
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Display Prices|Store View|Determines if the prices on sales documents include or exclude tax, or if each document shows two versions of the price; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
 |Display Subtotal|Store View|Determines if the subtotal on sales documents includes or excludes tax, or if each document shows two versions of the subtotal; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
-|Display Shipping Amount|Store View|Determines if the shipping amount on sales documents includes or excludes tax, or if each document shows two versions of the subtotal; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|<!--{% if "Default.EE-B2B" contains site.edition %}-->
-|Display Gift Wrapping Prices|Store View|Determines if gift wrapping prices are included in the subtotal. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
-|Display Printed Card Prices|Store View|Determines if printed card prices are included in the subtotal. Options: Excluding Tax / Including Tax / Including and Excluding Tax|<!--{% endif %}-->
+|Display Shipping Amount|Store View|Determines if the shipping amount on sales documents includes or excludes tax, or if each document shows two versions of the subtotal; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
 |Include Tax in Order Total|Store View|Determines if the grand total on sales documents includes  tax. Options include: Yes / No|
 |Display Full Tax Summary|Store View|Determines if the full tax summary appears on sales documents. Options: Yes / No|
 |Display Zero Tax Subtotal|Store View|Determines of the subtotal section on sales documents appears when no tax is charged. Options: Yes / No|
+
+<div class="edition-ee" markdown="1">
+Options in Magento Commerce only
+</div>
+
+|Display Gift Wrapping Prices|Store View|Determines if gift wrapping prices are included in the subtotal. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
+|Display Printed Card Prices|Store View|Determines if printed card prices are included in the subtotal. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
 
 ## Fixed Product Taxes
 

@@ -33,8 +33,8 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |--- |--- |--- |
 |Use Custom Admin URL|Global|Determines if a custom URL is used to access the Magento Admin. Options: Yes / No|
 |Custom Admin URL|Global|Specifies a custom URL to access the Magento Admin. By default, the Admin URL is the same as the base URL.  <br/>**Important:** The Admin URL must be in the same Magento installation, and have the same document root as the storefront.|
-|Use Custom Admin Path|Global|Determines if a custom path is used to access the Magento Admin.The default path is `admin`. Options: Yes / No|
-|Custom Admin Path|Global|Changes the name of the default Admin path to something that is hard to guess. Enter the custom path  name in lowercase characters. For example:  aardvark|
+|Use Custom Admin Path|Global|Determines if a custom path is used to access the Magento Admin. The default path is `admin`. Options: Yes / No|
+|Custom Admin Path|Global|Changes the name of the default Admin path to something that is hard to guess. Enter the custom path name in lowercase characters. For example: aardvark|
 
 ## Security
 
@@ -82,8 +82,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Symbols Used in CAPTCHA|Website|Determines which symbols are used in the CAPTCHA. Only letters (a-z and A-Z) and numbers (0-9) are allowed. The default set of symbols suggested in the field excludes similar looking symbols like i, l, or 1. Displaying these symbols in CAPTCHA decreases the chances that a user will recognize CAPTCHA correctly.|
 |Case Sensitive|Website|Determines if the characters used in the CAPTCHA are case sensitive. Options: Yes / No|
 
-<!--{% if "Default.EE Only" contains site.edition %}-->
-## Admin Actions Logging
+## <span class="heading-edition-ee">Admin Actions Logging</span>
 
 ![]({% link images/images/config-advanced-admin-actions-logging.png %}){: .zoom}
 [_Admin Actions Logging_]({% link system/action-log-archive.md %})
@@ -91,7 +90,6 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable Actions|Global|Enables action logging for each of the selected actions: <br/>Admin My Account <br/>Admin Permission Roles <br/>Admin Permission Users <br/>Admin Sign In <br/>CMS Blocks <br/>CMS Hierarchy <br/>CMS Pages <br/>Cache Management <br/>Catalog Attributes <br/>Catalog Categories <br/>Catalog Events <br/>Catalog Price Rules <br/>Catalog Product Tax Classes <br/>Catalog Product Templates <br/>Catalog Products <br/>Catalog Ratings <br/>Catalog Reviews <br/>Catalog Search <br/>Checkout Terms and Conditions <br/>Custom Variables <br/>Customer Groups <br/>Customer Invitations <br/>Customer Tax Classes <br/>Customers <br/>Gift Card Accounts <br/>Gift Registry Entity <br/>Gift Registry Type <br/>Index Management <br/>Manage Currency Rates <br/>Manage Customer Address Attributes <br/>Manage Customer Attributes <br/>Manage Design <br/>Manage Dynamic Blocks <br/>Manage Segments <br/>Manage Store Views <br/>Manage Stores <br/>Manage Websites <br/>Newsletter Queue <br/>Newsletter Subscribers <br/>Newsletter Templates <br/>PayPal Settlement Reports <br/>Reports <br/> Reward Points Rates <br/>Rule-Based Product Relations <br/>Sales Archive <br/>Sales Credit Memos <br/>Sales Invoices <br/>Sales Order Status <br/>Sales Orders <br/>Sales Shipments <br/>Shopping Cart Management <br/>Store Credit <br/>System Backups <br/>System Configuration <br/>Tax Rates <br/>Tax Rules <br/>Transactional Emails <br/>URL Rewrites <br/>Widget <br/>XML Sitemap|
-<!--{% endif %}-->
 
 ## Admin Usage
 

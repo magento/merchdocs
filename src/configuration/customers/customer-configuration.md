@@ -46,7 +46,6 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 |Welcome Email|Store View|Identifies the email template that is used for the Welcome message that is sent after the account is confirmed.|
 |Generate Human-Friendly Customer ID|Global|Determines if the field that is used to enter and store the VAT ID number is visible from the storefront. Options: Yes / No|
 
-
 ## Password Options
 
 ![]({% link images/images/config-customers-customer-configuration-password-options.png %}){: .zoom}
@@ -77,12 +76,14 @@ _Account Information Options_
 |Change Email Template|Store View|Identifies the default email template that is used when a customer changes their email address.|
 |Change Email and Password Template|Store View|Identifies the default email template that is used when a customer changes their email address and password.|
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-
 ## Name and Address Options
 
+<div class="edition-ce" markdown="1">
+Options in Magento Open Source only
+</div>
+
 ![]({% link images/images/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
-[_Name and Address Options_]({% link customers/name-address-options.md %})
+<span class="caption-edition-ce">[_Name and Address Options_]({% link customers/name-address-options.md %})</span>
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -99,14 +100,12 @@ _Account Information Options_
 |Show Company|Website|Determines if the customer's company is included in the name and address form. Options: No / Optional / Required|
 |Show Fax|Website|Determines if the customer's fax number is included in the name and address form. Options: No / Optional / Required|
 
-<!--{% endif %}-->
-
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-
-## Name and Address Options
+<div class="edition-ee" markdown="1">
+Options in Magento Commerce only
+</div>
 
 ![]({% link images/images-ee/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
-[_Name and Address Options_]({% link customers/name-address-options.md %})
+<span class="caption-edition-ee">[_Name and Address Options_]({% link customers/name-address-options.md %})</span>
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -116,14 +115,10 @@ _Account Information Options_
 |Show Company|Website|Determines if the customer's company is included in the name and address form. Options: No / Optional / Required|
 |Show Fax|Website|Determines if the customer's fax number is included in the name and address form. Options: No / Optional / Required|
 
-<!--{% endif %}-->
-
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-
-## Store Credit Options
+## <span class="heading-edition-ee">Store Credit Options</span>
 
 ![]({% link images/images-ee/config-customers-customer-configuration-store-credit-options.png %}){: .zoom}
-[_Store Credit Options_]({% link sales/credit-configure.md %})
+<span class="caption-edition-ee">[_Store Credit Options_]({% link sales/credit-configure.md %})</span>
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -132,8 +127,6 @@ _Account Information Options_
 |Refund Store Credit Automatically|Global|Determines if store refund is issued automatically. Options: Yes / No|
 |Store Credit Update Email Sender|Store View|Determines the store identity that appears as the sender of credit update notifications sent to customers.|
 |Store Credit Update Email Template|Store View|Determines the email template used for credit updates.|
-
-<!--{% endif %}-->
 
 ## Login Options
 
@@ -156,39 +149,27 @@ _Account Information Options_
 |HTML|Store View|This template defines the order of address fields located under the Customer Addresses area in the Admin panel (Customers > Manage Customers) and those located on the Add New Address page when a customer creates a new billing or shipping address on his or her account page.|
 |PDF|Store View|The template defines the display of billing and shipping addresses in the printed invoices, shipments, and credit memos.|
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-
-## Customer Segments
+## <span class="heading-edition-ee">Customer Segments</span>
 
 ![]({% link images/images-ee/config-customers-customer-configuration-customer-segments.png %}){: .zoom}
-[_Customer Segments_]({% link marketing/customer-segments.md %})
+<span class="caption-edition-ee">[_Customer Segments_]({% link marketing/customer-segments.md %})</span>
 
 |Template|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable Customer Segment Functionality|Global|Determines if customer segments can be used to create targeted promotions. Options: Yes / No|
 
-<!--{% endif %}-->
-
 ## CAPTCHA
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/config-customers-customer-configuration-captcha.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
 ![]({% link images/images-ee/config-customers-customer-configuration-captcha.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({% link images/images-b2b/config-customers-customer-configuration-captcha.png %}){: .zoom}
-<!--{% endif %}-->
-[_CAPTCHA_]({% link stores/security-captcha.md %})
+<span class="caption-edition-ee">[_CAPTCHA_]({% link stores/security-captcha.md %})</span>
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable CAPTCHA on Storefront|Website|Enables CAPTCHA in the store(s) associated with the Magento website. Options: Yes / No|
 |Font|Website|Determines the font that is used to display the CAPTCHA. To add your own font, put the font file in the same directory as your Magento installation and add the declaration to the `config.xml` file at `app/code/Magento/Captcha/etc`.|
-|Forms|Website|Determines the form(s) where CAPTCHA is used. Options: Applying Coupon Code, Create User, Login, Forgot Password, Contact Us, Change Password, <!--{% if "Default.CE Only" contains site.edition %}-->Payflow Pro (see [security patch](https://support.magento.com/hc/en-us/articles/360025515991)), Send to Friend Form, Share Wishlist Form<!--{% endif %}--><!--{% if "Default.EE Only" contains site.edition %}-->Share Wishlist Form, Add Gift Card Code, Payflow Pro (see [security patch](https://support.magento.com/hc/en-us/articles/360025515991)), Send to Friend Form<!--{% endif %}--><!--{% if "Default.B2B Only" contains site.edition %}-->Share Wishlist Form, Create company, Add Gift Card Code, Payflow Pro (see [security patch](https://support.magento.com/hc/en-us/articles/360025515991))<!--{% endif %}--><br />_**Note:**_ The Create User, Forgot Password, and Payflow Pro forms are always enabled when selected.|
+|Forms|Website|Determines the form(s) where CAPTCHA is used. Options: <br />Applying Coupon Code <br />Create user <br />Login <br />Forgot password <br />Contact Us <br />Change password <br />Share Wishlist Form <br />Send to Friend Form <br />Payflow Pro (see [security patch](https://support.magento.com/hc/en-us/articles/360025515991)) <br />Add Gift Card Code<span class="caption-edition-ee"></span> <br />Create company<span class="caption-edition-b2b"></span><br /><br />_**Note:**_ The Create User, Forgot Password, and Payflow Pro forms are always enabled when selected.|
 |Displaying Mode|Website|Determines when the CAPTCHA appears. Options: <br/>**Always** - CAPTCHA is always required to log in. <br/>**After number of attempts to login** - This option applies only to the Admin Sign In form. When selected, the Number of Unsuccessful Attempts to Login field appears. Enter the number of login attempts that you want to allow. A value of 0 (zero) is similar to setting Displaying Mode to 'Always'.<br/>_**Note:**_ To track the number of unsuccessful login attempts, each attempt to log in under one email address and from one IP-address is counted. The maximum number of login attempts allowed from the same IP-address is 1,000. This limitation applies only when CAPTCHA is enabled.|
 |CAPTCHA Timeout (minutes)|Website|Determines the lifetime of the current CAPTCHA. When the CAPTCHA expires, the user must reload the page.|
-|Number of Symbols|Website|Determines the number of symbols that appaer in the CAPTCHA, with a maximum of 8. You can also specify a range, for example, 5-8.|
+|Number of Symbols|Website|Determines the number of symbols that appear in the CAPTCHA, with a maximum of 8. You can also specify a range, for example, 5-8.|
 |Symbols Used in CAPTCHA|Website|Determines the letters (a-z and A-Z) and numbers (0-9) that appear in the CAPTCHA. Symbols that are hard to distinguish from other symbols, such as `i`, `l`, or `1`, are not included in the default set of CAPTCHA symbols.|
 |Case Sensitive|Website|Determines if CAPTCHA characters are case sensitive. Options: Yes / No|

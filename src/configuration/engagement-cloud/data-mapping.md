@@ -100,10 +100,8 @@ Gives you the ability to create custom mappings to Engagement Cloud, based on th
 - Tax/VAT Number
 - Failures Number
 - First Failure Date
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-- Reward Update Notification
-- Reward Warning Notification
-<!--{% endif %}-->
+- Reward Update Notification<span class="heading-edition-ee"></span>
+- Reward Warning Notification<span class="heading-edition-ee"></span>
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-custom-attributes.png %}){: .zoom}
 _Custom Attributes_
@@ -115,11 +113,10 @@ _Custom Attributes_
 |Action|Website|Deletes the current custom mapping.|
 |<span class="btn">Add New Attribute</span>||Adds a new custom mapping.|
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-## Enterprise Data
+##  <span class="heading-edition-ee">Enterprise Data</span>
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-enterprise-data.png %}){: .zoom}
-_Enterprise Data_
+ <span class="caption-edition-ee">_Enterprise Data_</span>
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -129,7 +126,7 @@ _Enterprise Data_
 |Expiration Date|Website|Maps the expiration date of the customer's reward points from Magento to your corresponding contact data field in Engagement Cloud.|
 |Last Used Date|Website|Maps the date the customer's reward points were last used from Magento to your corresponding contact data field in Engagement Cloud.|
 |**Customer Information**|||
-|Customer Segments|Website|Maps the customer segment that applies to the customer from Magento to your corresponding contact data field in Engagement Cloud.|<!--{% endif %}-->
+|Customer Segments|Website|Maps the customer segment that applies to the customer from Magento to your corresponding contact data field in Engagement Cloud.|
 
 ## Create Data Field
 

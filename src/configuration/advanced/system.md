@@ -35,8 +35,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Failure History Lifetime|Store View|Determines the number of minutes that the record of failed cron jobs are kept in the database.|
 |Use Separate Process|Store View|Determines if cron jobs are executed in parallel as separate processes. Options: Yes / No|
 
-<!--{% if "Default.EE Only" contains site.edition %}-->
-## MySQL Message Queue Cleanup
+## <span class="heading-edition-ee">MySQL Message Queue Cleanup</span>
 
 ![]({% link images/images/config-advanced-system-mysql-message-queue-cleanup.png %}){: .zoom}
 [_MySQL Message Queue Cleanup_]({% link catalog/search-mysql.md %})
@@ -48,7 +47,6 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Failed Messages Lifetime|Global|Determines the lifetime of failed messages in minutes. Enter zero to skip the cleanup. Default: 10080 (7 days)|
 |Retry Messages in Progress After|Global|Determines how long the system waits for a message in progress before retrying. Default: 1440 (24 hours)|
 
-<!--{% endif %}-->
 ## Mail Sending Settings
 
 ![]({% link images/images/config-advanced-system-mail-sending-settings.png %}){: .zoom}
@@ -100,8 +98,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Frequency|Global|Determines how often the schedule backup takes place. Options: Daily, Weekly, Monthly|
 |Maintenance Mode|Global|Determines if store is put in Maintenance Mode during the scheduled backup. Options: Yes / No|
 
-<!--{% if "Default.EE Only" contains site.edition %}-->
-## Admin Actions Log Archiving
+## <span class="heading-edition-ee">Admin Actions Log Archiving</span>
 
 ![]({% link images/images/config-advanced-system-admin-actions-log-archiving.png %}){: .zoom}
 [_Admin Actions Log Archiving_]({% link system/action-log-archive.md %})
@@ -111,7 +108,6 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Log Entry Lifetime, Days|Store View|Determines the number of days that admin actions are kept in the Admin Actions archive.  Default: 60|
 |Log Archiving Frequency|Store View|Determines how often the Admin Actions logs are archived. Options: Daily, Weekly, Monthly|
 
-<!--{% endif %}-->
 ## Full Page Cache
 
 ![]({% link images/images/config-advanced-system-full-page-cache.png %}){: .zoom}
@@ -156,8 +152,7 @@ Varnish Caching - Recommended for production environment.
 |Synchronize||Synchronizes the transfer of all media to the specified database location.|
 |Environment Update Time|Global|Determines the frequency of the media file environment updates in seconds. Default value: 3600|
 
-<!--{% if "Default.EE Only" contains site.edition %}-->
-## Bulk Actions
+## <span class="heading-edition-ee">Bulk Actions</span>
 
 ![]({% link images/images-ee/config-advanced-system-bulk-actions.png %}){: .zoom}
 [_Bulk Actions_]({% link system/action-log-bulk-actions.md %})
@@ -166,7 +161,7 @@ Varnish Caching - Recommended for production environment.
 |--- |--- |--- |
 |Days Saved in Log|Global|Determines the number of days that bulk actions are  kept in the Bulk Actions Log archive. Default: 60|
 
-## Scheduled Import/Export File History Cleaning
+## <span class="heading-edition-ee">Scheduled Import/Export File History Cleaning</span>
 
 ![]({% link images/images-ee/config-advanced-system-scheduled-import-export-file-history-cleaning.png %}){: .zoom}
 [_Scheduled Import/Export File History Cleaning_]({% link system/data-scheduled-import-export.md %})
@@ -182,16 +177,10 @@ Varnish Caching - Recommended for production environment.
 |Error Email Sender|Global|Identifies the store contact that appears as the sender of the notification. Default sender: General Contact|
 |Error Email Template|Global|Identifies the email template that is used for the import/export file cleaning error notification. Default template: File History Clean Failed|
 
-<!--{% endif %}-->
 ## Image Upload Configuration
 
 ![]({% link images/images/system-image-upload-configuration.png %}){: .zoom}
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 [_Image Upload Configuration_]({% link system/action-log-bulk-actions.md %})
-<!--{% endif %}-->
-<!--{% if "Default.CE Only" contains site.edition %}-->
-_Image Upload Configuration_
-<!--{% endif %}-->
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
