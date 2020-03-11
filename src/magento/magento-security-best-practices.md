@@ -89,9 +89,7 @@ If your system is not immediately patched after a major security breach, there i
 ### Security Review
 
 - Check periodically for unauthorized Admin users.
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-- Check the [Admin Actions Log]({% link system/action-log.md %}) for suspicious activity.
-<!--{% endif %}-->
+- {:.edition-ee}Check the [Admin Actions Log]({% link system/action-log.md %}) for suspicious activity.
 - Use automated log review tools such as [Apache Scalp](https://code.google.com/p/apache-scalp/).
 - Work with your hosting provider to review server logs for suspicious activity, and to implement an Intrusion Detection System (IDS) on your network.
 - Use a file and data integrity checking tool such as [TripWire](http://www.tripwire.com/) to receive notification of any potential malware installation.

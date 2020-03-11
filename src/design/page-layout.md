@@ -6,19 +6,14 @@ The layout of each page in your store consists of distinct sections, or containe
 
 On the page, content blocks float to fill the available space, according to the section of the [page layout]({% link design/block-layout-standard.md %}) where they are assigned to appear. You will discover that if you change the layout from a three-column to a two-column layout, the content of the main area expands to fill the available space, and any blocks that are associated with the unused side bar seem to disappear. However, if you restore the three-column layout, the blocks reappear. This fluid approach, or liquid layout, makes it possible to change the page layout without having to rework the content. If you are used to working with individual HTML pages, you will discover that this modular, “building block” approach requires a different way of thinking.
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![]({% link images/images-ee/storefront-2-column-ee.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/storefront-2-column.png %}){: .zoom}
-<!--{% endif %}-->
-_Two Column Page Layout_
+<span class="caption-edition-ee">_Two Column Page Layout_</span>
 
-## To configure default layouts:
+## Configure default layouts
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the panel on the left under **General**, choose **Web**.
+1. In the left panel under **General**, choose **Web**.
 
 1. Expand the **Default Layouts** section, and do the following:
 

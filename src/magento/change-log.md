@@ -30,33 +30,23 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Create a Cart Price Rule]({% link marketing/price-rules-cart-create.md %}) |Added text for accepting your category selections and updated images for quantity and category selections. Updated information about Priority and Discard Subsequent Rules settings.|
 |[Complex Data]({% link system/data-complex.md %}) |Fixed tables for complex data examples of configurable and grouped products to match labeling of headings.|
 |[Cron (Scheduled Tasks)]({% link system/cron.md %}) |Added descriptions for Cron configuration settings.|
-|[Ratings]({% link stores/attributes-rating.md %})|Made navigation correction and added `Is Active` checkbox information.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
-|[Creating Category Rules]({% link catalog/category-product-rules.md %})|Improved instructions on how to create Visual Merchandiser attribute.|<!--{% endif %}-->
+|[Ratings]({% link stores/attributes-rating.md %})|Made navigation correction and added `Is Active` checkbox information.|
+|[Creating Category Rules]({% link catalog/category-product-rules.md %})|Improved instructions on how to create Visual Merchandiser attribute.|
 |[Advanced Reporting]({% link reports/advanced-reporting.md %})|Updated to clarify that Advanced Reporting can be used only with Magento installations that have continually used a single base currency.|
 
 ## January 2020
 
 ### Product releases
 
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-- [Magento for B2B Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.4Commerce.html){: target="_blank"}, 2.3.4
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
-- [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.4Commerce.html){: target="_blank"}, 2.3.4
-<!--{% endif %}-->
-<!--{% if "Default.CE Only" contains site.edition %}-->
-- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.4OpenSource.html){: target="_blank"}, 2.3.4
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+- [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html){: target="_blank"}, 2.3.4
+- [Magento Commerce for B2B](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html){: target="_blank"}, 2.3.4
+- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-open-source.html){: target="_blank"}, 2.3.4
 - [Page Builder](https://devdocs.magento.com/page-builder/docs/release-notes.html){: target="_blank"}, 1.2
-<!--{% endif %}-->
 
-<!--{% if "Default.EE Only" contains site.edition %}-->
 ### New section
 
 - [Product Recommendations]({% link marketing/product-recommendations.md %}) (Early Access Program)
 
-<!--{% endif %}-->
 ### New topics
 
 - [Adobe Stock Integration]({% link cms/adobe-stock.md %})
@@ -71,10 +61,10 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 |Topic |Change|
 |--- |--- |
-|[Catalog Images and Video]({% link catalog/catalog-images-video.md %}) <br/>[Creating Categories]({% link catalog/category-create.md %}) <br/>[Inserting an Image]({% link cms/editor-insert-image.md %}) <br/>[Media Storage]({% link cms/media-storage.md %}) <br/>{% if "Default.B2B Only" contains site.edition %}[Image]({% link cms/page-builder-media-image.md %}) (Page Builder) <br/>{% endif %}[System]({% link configuration/advanced/system.md %}) (configuration reference)|Updated content in media topics to reflect the new Adobe Stock integration.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
-|[Add Products]({% link cms/page-builder-add-content-products.md %}) <br/>[Slider]({% link cms/page-builder-media-slider.md %})|Updated content for the Page Builder Carousel layout.|<!--{% endif %}--><!--{% if "Default.B2B Only" contains site.edition %}-->
+|[Catalog Images and Video]({% link catalog/catalog-images-video.md %}) <br/>[Creating Categories]({% link catalog/category-create.md %}) <br/>[Inserting an Image]({% link cms/editor-insert-image.md %}) <br/>[Media Storage]({% link cms/media-storage.md %}) <br/>[Image]({% link cms/page-builder-media-image.md %}) (Page Builder) <br/>[System]({% link configuration/advanced/system.md %}) (configuration reference)|Updated content in media topics to reflect the new Adobe Stock integration.|
+|[Add Products]({% link cms/page-builder-add-content-products.md %}) <br/>[Slider]({% link cms/page-builder-media-slider.md %})|Updated content for the Page Builder Carousel layout.|
 |[Role Resources]({% link system/permissions-role-resources.md %}) <br/>[Updating a Company Profile]({% link customers/account-company-update.md %}) <br/>[Configuring Quotes]({% link stores/b2b-configure-quotes.md %}) <br/>[Customers]({% link configuration/customers.md %}) (configuration)|Updated content for improved access control support for B2B features.|
-|[Managing Requisition Lists]({% link customers/account-dashboard-requisition-lists-manage.md %}) <br/>[Customers]({% link configuration/customers.md %})|Added information for exporting requisition lists.|<!--{% endif %}-->
+|[Managing Requisition Lists]({% link customers/account-dashboard-requisition-lists-manage.md %}) <br/>[Customers]({% link configuration/customers.md %})|Added information for exporting requisition lists.|
 |[Developer]({% link configuration/advanced/developer.md %})|Added content for the Cache User Defined Attributes field.|
 |[Elasticsearch]({% link catalog/search-elasticsearch.md %}) <br/>[Catalog]({% link configuration/catalog/catalog.md %}) (configuration reference)|Added content to describe usage of the new `Minimum terms to match` field.|
 |[Engagement Cloud]({% link marketing/engagement-cloud.md %})<br />[Setting Up Engagement Cloud]({% link marketing/engagement-cloud-setup.md %})<br />[Email Template]({% link configuration/engagement-cloud/email-templates.md %}) (configuration reference)<br />[Developer]({% link configuration/engagement-cloud/developer.md %}) (configuration reference)|Updated content for release features and fixes, including the new Chat feature.|
@@ -100,8 +90,8 @@ Our documentation is continually updated with new topics, clarifications, and co
 |--- |--- |
 |[Google Privacy Settings for GDPR]({% link stores/compliance-privacy-google.md %})|Renamed "Google Privacy Settings". This topic now applies to privacy regulations in general, and is not limited to GDPR.|
 |[Braintree]({% link configuration/sales/braintree.md %}) (configuration reference)|Updated to correct descriptions for some fields in the Basic Braintree Settings.|
-|[Importing Product Images]({% link system/data-import-product-images.md %})|Updated to correct information about importing multiple images to a single SKU.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
-|[Creating a Catalog Price Rule]({% link marketing/price-rules-catalog-create.md %}) <br/>[Scheduled Changes for Catalog Price Rules]({% link marketing/price-rule-catalog-scheduled-changes.md %})|Updated to clarify the process for creating a catalog price rule and using the change schedule to make it active.|<!--{% endif %}-->
+|[Importing Product Images]({% link system/data-import-product-images.md %})|Updated to correct information about importing multiple images to a single SKU.|
+|[Creating a Catalog Price Rule]({% link marketing/price-rules-catalog-create.md %}) <br/>[Scheduled Changes for Catalog Price Rules]({% link marketing/price-rule-catalog-scheduled-changes.md %})|Updated to clarify the process for creating a catalog price rule and using the change schedule to make it active.|
 |[Creating Shipping Labels]({% link shipping/shipping-label-create.md %})|Added information for configuration of the Shipping Origin address.|
 |[Currency Configuration]({% link stores/currency-configuration.md %})|Updated to clarify availability of the `Price` section.|
 
@@ -123,18 +113,10 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 ### Product releases
 
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-- [Magento for B2B Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.3Commerce.html){:target="_blank"}, 2.3.3
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
-- [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.3Commerce.html){:target="_blank"}, 2.3.3
-<!--{% endif %}-->
-<!--{% if "Default.CE Only" contains site.edition %}-->
-- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.3OpenSource.html){:target="_blank"}, 2.3.3
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+- [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-3-commerce.html){:target="_blank"}, 2.3.3
+- [Magento Commerce for B2B](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-3-commerce.html){:target="_blank"}, 2.3.3
+- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-3-open-source.html){:target="_blank"}, 2.3.3
 - [Page Builder](https://devdocs.magento.com/page-builder/docs/release-notes.html){:target="_blank"}, 1.1
-<!--{% endif %}-->
 - [Google Shopping ads Channel](https://devdocs.magento.com/extensions/google-shopping-ads/release-notes/){:target="_blank"}, 3.0.1
 - [Inventory Management](https://devdocs.magento.com/guides/v2.3/inventory/release-notes.html){:target="_blank"}, 1.1.3
 - [Amazon Sales Channel](https://devdocs.magento.com/extensions/amazon-sales/release-notes/){:target="_blank"}, 3.0.0
@@ -181,9 +163,9 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Engagement Cloud]({% link marketing/engagement-cloud.md %})|Updated Changes in the Latest Release.|
 |Engagement Cloud - [Data Mapping]({% link configuration/engagement-cloud/data-mapping.md %})|Completed configuration field descriptions, and added the following new fields: First Category Purchased / Last Category Purchased.|
 |Engagement Cloud - [Developer]({% link configuration/engagement-cloud/developer.md %})|Completed configuration field descriptions, and added the following new field to the Import Settings section: Enable Subscribers Sales Data Sync.|
-|Engagement Cloud -<br/>[Abandoned Cart]({% link configuration/engagement-cloud/abandoned-carts.md %})<br/>[Automation]({% link configuration/engagement-cloud/automation.md %})<br/>[Configuration]({% link configuration/engagement-cloud/configuration.md %})<br/>[Dynamic Content]({% link configuration/engagement-cloud/dynamic-content.md %})<br/>[Email Templates]({% link configuration/engagement-cloud/email-templates.md %})<br/>[Sync Settings]({% link configuration/engagement-cloud/sync-settings.md %})<br/>[Transactional Emails]({% link configuration/engagement-cloud/transactional-emails.md %})|Completed configuration field descriptions.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
+|Engagement Cloud -<br/>[Abandoned Cart]({% link configuration/engagement-cloud/abandoned-carts.md %})<br/>[Automation]({% link configuration/engagement-cloud/automation.md %})<br/>[Configuration]({% link configuration/engagement-cloud/configuration.md %})<br/>[Dynamic Content]({% link configuration/engagement-cloud/dynamic-content.md %})<br/>[Email Templates]({% link configuration/engagement-cloud/email-templates.md %})<br/>[Sync Settings]({% link configuration/engagement-cloud/sync-settings.md %})<br/>[Transactional Emails]({% link configuration/engagement-cloud/transactional-emails.md %})|Completed configuration field descriptions.|
 |[Add Products]({% link cms/page-builder-add-content-products.md %})|Updated information to include a new Page Builder feature used to configure the sort order for products in the list.|
-|[HTML Code]({% link cms/page-builder-elements-html-code.md %}) |Updated information for new buttons for inserting images, widgets, variables in Page Builder HTML content type.|<!--{% endif %}-->
+|[HTML Code]({% link cms/page-builder-elements-html-code.md %}) |Updated information for new buttons for inserting images, widgets, variables in Page Builder HTML content type.|
 |[Assigning Sources per Product]({% link catalog/inventory-product-sources.md %}) |UI updates for assigning sources for products.|
 |[Disabling Sources]({% link catalog/inventory-sources-disable.md %}) |Updates for new Actions menu to enable and disable selected sources.|
 |[Amazon Sales Channel Settings]({% link sales-channels/amazon/sales-channel-settings.md %})|Added information for the _Enable Debug Logging_ setting. |
@@ -193,14 +175,12 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Amazon Sales Channel Onboarding: Listing Price]({% link sales-channels/amazon/ob-listing-price.md %})|Updated VAT description and Listing Price screen capture and added PTC field descriptions for EU sales.|
 |[Amazon Sales Channel Listing Price]({% link sales-channels/amazon/listing-price.md %})|Updated VAT description and Listing Price screen capture and added PTC field descriptions for EU sales.|
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ## August 2019
 
 ### New topics
 
 - [Discount with First Purchase]({% link marketing/price-rule-discount-first-purchase.md %})
 
-<!--{% endif %}-->
 ## July 2019
 
 ### Product releases
@@ -221,30 +201,22 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
 |[Braintree]({% link payment/braintree.md %})|Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
 |[Other Payment Methods]({% link payment/gateways.md %})|Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
-|[Authorize.Net]({% link payment/authorize-net.md %})|Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|<!--{% if "Default.EE-B2B" contains site.edition %}-->
+|[Authorize.Net]({% link payment/authorize-net.md %})|Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
 |[CyberSource]({% link payment/cybersource.md %}) |Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
 |[eWay]({% link payment/eway.md %}) |Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
-|[Worldpay]({% link payment/worldpay.md %}) |Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|<!--{% endif %}-->
+|[Worldpay]({% link payment/worldpay.md %}) |Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
 
 ## June 2019
 
 ### Product releases
 
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-- Magento for B2B Commerce, 2.3.2
-<!--{% endif %}-->
-<!--{% if "Default.EE,Default.EE Only" contains site.edition %}-->
-- Magento Commerce, 2.3.2
-<!--{% endif %}-->
-<!--{% if "Default.CE Only" contains site.edition %}-->
-- Magento Open Source, 2.3.2
-<!--{% endif %}-->
+- [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.2Commerce.html){: target="_blank"}, 2.3.2
+- [Magento Commerce for B2B](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.2Commerce.html){: target="_blank"}, 2.3.2
+- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.2OpenSource.html){: target="_blank"}, 2.3.2
 
 ### New topics
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 - [Address Search]({% link sales/checkout-address-search.md %})
-<!--{% endif %}-->
 - [Manually Verify and Claim a URL]({% link sales-channels/google-ads/manually-verify-claim-site.md %}) (Google Shopping ads Channel)
 - [Channels]({% link configuration/services/channels.md %}) (Google Shopping ads Channel)
 
@@ -256,9 +228,9 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Unclaiming a Claimed URL]({% link sales-channels/google-ads/gmc-unlink-gmc.md %}) <br>(Google Shopping ads Channel)|Clarified language for "claiming" vs "linking" and moved topic to Managing Google Accounts section.|
 |[Verifying the Google API Key ]({% link sales-channels/google-ads/verify-api-key.md %}) <br>(Google Shopping ads Channel)|Updated the steps and screen shots to include the new logging configuration option.|
 |[Services]({% link configuration/services.md %})|Updated the screen shot to include the new Channels section.|
-|[Customer Engagement]({% link reports/customer-engagement.md %})|Replaced the Marketing Automation page with a new Customer Engagement page for dotdigital Engagement Cloud reporting. Includes configuration, manual sync, reset, and more options for reporting on features and performance.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
+|[Customer Engagement]({% link reports/customer-engagement.md %})|Replaced the Marketing Automation page with a new Customer Engagement page for dotdigital Engagement Cloud reporting. Includes configuration, manual sync, reset, and more options for reporting on features and performance.|
 |[Checkout Options]({% link sales/checkout-options.md %})|Updated information for the Checkout options to include the new Address Search feature.|
-|[Checkout]({% link configuration/sales/checkout.md %}) (configuration reference)|Updated information for the Checkout options to include the new Address Search feature.|<!--{% endif %}-->
+|[Checkout]({% link configuration/sales/checkout.md %}) (configuration reference)|Updated information for the Checkout options to include the new Address Search feature.|
 |[UPS]({% link shipping/ups.md %})|Updated configuration information for the United Parcel Service XML as the default account type. If you choose to create a new UPS Standard account type (scheduled for deprecation), HTTPS is now the default for the URL.|
 |[Shipping Methods]({% link configuration/sales/shipping-methods.md %})|Updated UPS configuration information for the United Parcel Service XML as the default account type. If you choose to create a new UPS Standard account type (scheduled for deprecation), HTTPS is now the default for the URL.|
 |[Coupon Codes]({% link marketing/price-rules-cart-coupon.md %})|Added information about support for asynchronous operations in the Admin.|
@@ -289,10 +261,8 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 ### New topics
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 - [Rotating Dynamic Blocks]({% link cms/dynamic-blocks-rotate.md %})
 - [Dynamic Blocks in Price Rules]({% link cms/dynamic-blocks-price-rules.md %})
-<!--{% endif %}-->
 - [Engagement Cloud]({% link marketing/engagement-cloud.md %})
 - [Setting Up Engagement Cloud]({% link marketing/engagement-cloud-setup.md %})
 - [Account Details]({% link marketing/engagement-cloud-account-details.md %})
@@ -328,24 +298,14 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 ### Product releases
 
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-- Magento for B2B Commerce, 2.3.1
-<!--{% endif %}-->
-<!--{% if "Default.EE,Default.EE Only" contains site.edition %}-->
-- Magento Commerce, 2.3.1
-<!--{% endif %}-->
-<!--{% if "Default.CE Only" contains site.edition %}-->
-- Magento Open Source, 2.3.1
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+- [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.1Commerce.html){: target="_blank"}, 2.3.1
+- [Magento Commerce for B2B](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.1Commerce.html){: target="_blank"}, 2.3.1
+- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.1OpenSource.html){: target="_blank"}, 2.3.1
 - Page Builder, 1.0 GA
-<!--{% endif %}-->
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ### New sections
 
 - [Page Builder]({% link cms/page-builder.md %})
-<!--{% endif %}-->
 
 ### New topics
 
@@ -366,17 +326,17 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Google reCAPTCHA]({% link stores/security-google-recaptcha.md %})|Added entry for Payflow Pro for Google reCAPTCHA during checkout. This option is available in v2.3.2.<br>To add this option for v2.3.0 and 2.3.1, see Magento Support KB [PayPal Payflow Pro active carding activity](https://support.magento.com/hc/en-us/articles/360025515991).|
 |[CAPTCHA]({% link stores/security-captcha.md %})|Added entry for Payflow Pro for CAPTCHA during checkout. This option is available in v2.3.2.<br>To add this option for v2.3.0 and 2.3.1, see Magento Support KB [PayPal Payflow Pro active carding activity](https://support.magento.com/hc/en-us/articles/360025515991).|
 |[Elasticsearch]({% link catalog/search-elasticsearch.md %})|Updated for Elasticsearch 6.x support. Elasticsearch 5.x and 2.x are deprecated.|
-|[Filterable Attributes]({% link catalog/navigation-layered-filterable-attributes.md %})|Note added to Use in Layered Navigation option to better detail how it affects price filtering in the storefront. Updated screenshots.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
+|[Filterable Attributes]({% link catalog/navigation-layered-filterable-attributes.md %})|Note added to Use in Layered Navigation option to better detail how it affects price filtering in the storefront. Updated screenshots.|
 |[Action Logs]({% link system/action-log.md %})|Updated content for configuring and using Action Logs.|
-|[Action Log Report]({% link system/action-log-report.md %})|Updated content, added instructions for filtering and exporting.|<!--{% endif %}-->
+|[Action Log Report]({% link system/action-log-report.md %})|Updated content, added instructions for filtering and exporting.|
 |[Admin Sign In]({% link stores/admin-signin.md %})|Updated login information, autocomplete, and added links for CAPTCHA, reCAPTCHA, and Two-Factor Authentication.|
 |[Creating Accounts]({% link customers/account-create.md %})|Updated instructions and images for creating accounts.|
 |[Address Book]({% link customers/account-dashboard-address-book.md %})|Updated instructions and options for creating and managing accounts, new filtering, and more.|
 |[Account Dashboard]({% link customers/account-dashboard.md %})|Updated instructions and options for creating and managing accounts, new filtering, and more.|
 |[Managing Customer Accounts]({% link customers/customer-account-manage.md %})|Updated instructions and new options for creating and managing accounts, new filtering, and more.|
 |[Create a Cart Price Rule]({% link marketing/price-rules-cart-create.md %})|Added Is Active toggle to enable/disable rules.|
-|[Create a Catalog Price Rule]({% link marketing/price-rules-catalog-create.md %})|Added Is Active toggle to enable/disable rules.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
-|[Address Attributes]({% link stores/attributes-customer-address.md %})|Added information for Alphanumeric with Spaces Input Validation option, updates screenshots and instructions.<!--{% endif %}-->
+|[Create a Catalog Price Rule]({% link marketing/price-rules-catalog-create.md %})|Added Is Active toggle to enable/disable rules.|
+|[Address Attributes]({% link stores/attributes-customer-address.md %})|Added information for Alphanumeric with Spaces Input Validation option, updates screenshots and instructions.
 |[Authorize.Net Direct Post]({% link payment/authorize-net-direct-post.md %})|Added information for deprecated payment method.|
 |[Authorize.Net Direct Post]({% link configuration/sales/authorize-net-direct-post.md %}) (configuration reference)|Added information for deprecated payment method.|
 |[Configuring Wishlist]({% link marketing/wishlist-configuration.md %})|Added field for Show in Sidebar to show/hide wishlists.|
@@ -429,15 +389,9 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 ### Product releases
 
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-- Magento for B2B Commerce, 2.3.0 GA
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
-- Magento Commerce, 2.3.0 GA
-<!--{% endif %}-->
-<!--{% if "Default.CE Only" contains site.edition %}-->
-- Magento Open Source, 2.3.0 GA
-<!--{% endif %}-->
+- [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html){: target="_blank"}, 2.3.0
+- [Magento Commerce for B2B](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html){: target="_blank"}, 2.3.0
+- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.0OpenSource.html){: target="_blank"}, 2.3.0
 - Multi Source Inventory (MSI), 1.0
 
 ### New topics
@@ -456,8 +410,8 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Content Management]({% link configuration/general/content-management.md %}) (configuration reference)|Added option for newly supported TinyMCE 4 editor for CMS content in WYSIWYG options.|
 |[Configuring the Editor]({% link cms/editor-configure.md %})|Added configuration information for TinyMCE 4.|
 |[Using the Editor]({% link cms/editor.md %})|Added TinyMCE 4 information for using the new editor.|
-|[Google API]({% link configuration/sales/google-api.md %}) (configuration reference)|Added and updated descriptions for fields.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
-|[Google Tag Manager]({% link marketing/google-tag-manager.md %})|Updated Google instructions for configuring Google Tag Manager.|<!--{% endif %}-->
+|[Google API]({% link configuration/sales/google-api.md %}) (configuration reference)|Added and updated descriptions for fields.|0
+|[Google Tag Manager]({% link marketing/google-tag-manager.md %})|Updated Google instructions for configuring Google Tag Manager.|0
 |[Checkout]({% link configuration/sales/checkout.md %}) (configuration reference)|Added field and information for the Checkout option Show Cross-sell Items in the Shopping Cart.|
 |[Cross-sells]({% link catalog/settings-advanced-cross-sells.md %})|Added note about hiding and showing cross-sells in the shopping cart.|
 |[Themes]({% link design/themes.md %})|Added filtering for themes and screenshot.|
@@ -470,15 +424,9 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 ### Product releases
 
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-- Magento for B2B Commerce, 2.3.0 Beta
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
 - Magento Commerce, 2.3.0 Beta
-<!--{% endif %}-->
-<!--{% if "Default.CE Only" contains site.edition %}-->
+- Magento Commerce for B2B, 2.3.0 Beta
 - Magento Open Source, 2.3.0 Beta
-<!--{% endif %}-->
 - Multi Source Inventory (MSI), 1.0 Beta
 
 ### New section
@@ -500,7 +448,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Magento Extensions]({% link magento/magento-extensions.md %})|Adding information on MSI and Inventory Management.|
 |[Customer Groups]({% link customers/customer-groups.md %})|Updated menu location for option, moved to Customers from Stores. Updated screenshots. Add filtering information.|
 |[Filterable Attributes]({% link catalog/navigation-layered-filterable-attributes.md %})|Note added to Step 1, item 3 explaining the Position field will be grayed out until the attribute is saved.|
-|[Product Attributes]({% link stores/attributes-product.md %})|Note added to Storefront Properties &gt; Position explaining the Position field will be grayed out until the attribute is saved.|
+|[Product Attributes]({% link stores/attributes-product.md %})|Note added to Storefront Properties and Position explaining the Position field will be grayed out until the attribute is saved.|
 |[Google API]({% link configuration/sales/google-api.md %})|Updated Google Adwords screen shot and description with new Send Order Currency field.|
 |[Product Scope]({% link catalog/product-scope.md %})|Added information on permissions required for editing and assigning products to select or all sites.|
 |[Customer Configuration]({% link configuration/customers/customer-configuration.md %}) (configuration reference)|Updated the Name and Address screen shots and field descriptions.|

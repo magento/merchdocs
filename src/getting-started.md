@@ -23,15 +23,8 @@ This section of the guide provides information for the “why, where, and how”
 
 If you have used this guide before, you can review the [Change Log]({% link magento/change-log.md %}) for information about the latest additions and updates to the guide.
 
-<div class="bs-callout bs-callout-info" markdown="1">
-Starting with our 2.3.2 release, we are no longer producing and publishing an updated 2.3 User Guide PDF to match our online content. This makes it possible for us to provide an improved online User Guide experience and publish content updates more frequently.
-
-Magento Commerce|[Download the 2.3.1 PDF guide][1] from our site
-Magento Commerce for B2B|[Download the 2.3.1 PDF guide][2] from our site
-Magento Open Source|[Download the 2.3.1 PDF guide][3] from our site
-
-If you are using an earlier release of Magento, see [Documentation & Resources][4] to find the correct documentation.
-</div>
+{:.bs-callout-info}
+Starting with our 2.3.2 release, we are no longer producing and publishing an updated 2.3 User Guide PDF to match our online content. This makes it possible for us to provide an improved online User Guide experience and publish content updates more frequently. See [About this Release]({% link magento/about-this-release.md %}) for more information and links to the archived PDF guides.
 
 {% include grid.html sections=page.sections%}
 
