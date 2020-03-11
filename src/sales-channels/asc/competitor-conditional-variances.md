@@ -12,7 +12,7 @@ Sections of an intelligent repricing rule include:
 
 An intelligent repricing rule uses Amazon competitors' pricing to determine your listing price. Competitors are other sellers that are listing the same products you are listing on Amazon.
 
-If a product exists with the same condition, the base match price will be the lowest competitor price with the same condition. If no competitor product match your condition, the base match price will then go through other available competitor conditions starting with New, Refurbished, and continuing down through available conditions. After a condition is found, the base match price will be the lowest price within that condition.
+If a product exists with the same condition, the base match price will be the [lowest competitor]({% link sales-channels/asc/lowest-competitor-pricing.md %}) price with the same condition. If no competitor product match your condition, the base match price will then go through other available competitor conditions starting with New, Refurbished, and continuing down through available conditions. After a condition is found, the base match price will be the lowest price within that condition.
 
 For example, if you have a product listed with the condition Used; Good, and the base match price is $7.99, and a competitor exists with the same product in the same condition (Used; Good) at a lower price, that price is used. If a competitor does not exist with the same condition, the system checks for a competitor with the next condition, which is New. If a competitor is found with that condition, the lowest of the prices is used.
 

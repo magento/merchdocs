@@ -2,13 +2,13 @@
 title: About Amazon Marketplace
 ---
 
-Amazon Marketplace is an e-commerce platform owned and operated by Amazon that enables third-party sellers to sell new or used products. Using Amazon Marketplace, third-party sellers gain access to Amazon's world-wide customer base. Those who list products on Amazon for sale, including Magento users, are defined by Amazon as "third-party sellers."
+[Amazon Marketplace](https://services.amazon.com/content/sell-on-amazon.html) is an e-commerce platform owned and operated by Amazon that enables third-party sellers to sell new or used products. Using Amazon Marketplace, third-party sellers gain access to Amazon's world-wide customer base. Those who list products on Amazon for sale, including Magento users, are defined by Amazon as "third-party sellers."
 
 Third-party sellers of any size can create an Amazon Seller Central account and use the Amazon Marketplace to reach Amazon's global customer base. Once an account is created and active, sellers can add and list products for sale, manage orders and inventory, and fulfill orders.
 
 ## Amazon Listings
 
-Amazon listings contain two categories of information: Product Information and Listing Information.
+Amazon listings contain two categories of information: **Product Information** and **Listing Information**.
 
 **Product Information**
 
@@ -16,22 +16,23 @@ Product information provides data common to every instance of the same product l
 
 **Listing Information**
 
-Listing information provides seller-specific information about products. These details often differ from other sellers' listing for the same product. For example, you may sell the same yoga pants as another seller, but your item number, condition, price, or shipping method time may be different. These details are unique to your listing for the product.
+Listing information provides seller-specific information about products. These details often differ from other sellers' listing for the same product. For example, you may sell the same yoga pants as another seller, but your item number, condition, price, or shipping method/time may be different. These details are unique to your listing for the product.
 
 If you want to contribute product information or correct erroneous information on a product detail page, refer to [Amazon: Product Detail][1]{:target="_blank"}.
 
 ## Amazon Fulfillment
 
-Amazon offers two options for order fulfillment and shipping to third-party sellers:
+Amazon offers two options for order fulfillment and shipping:
 
-- Fulfilled by the merchant (FBM): Third-party sellers store their own inventory. When a customer places an order, the seller handles the packaging and shipping to the customer. This option allows you to complete shipments through Magento or another third party.
-- Fulfilled by Amazon (FBA): Third-party sellers store inventory in Amazon's fulfillment centers around the world. When a customer places an order, Amazon handles the packaging and shipping to the customer. Order details and status are sent to Magento.
+- **Fulfilled by the merchant (FBM)**: Third-party sellers store their own inventory. When a customer places an order, the seller handles the packaging and shipping to the customer. This option allows you to complete shipments through Magento or another third party.
 
-Amazon Sales Channel supports both options, receiving and tracking these orders through the Magento Admin. As you complete fulfillment, status updates automatically. For complete details, see [Fulfillment Workflows]({% link sales-channels/asc/fulfillment-workflows.md %}).
+- **Fulfilled by Amazon (FBA)**: Third-party sellers store inventory in Amazon's fulfillment centers around the world. When a customer places an order, Amazon handles the packaging and shipping to the customer. Order details and status are sent to Magento.
+
+Amazon Sales Channel supports both options, receiving and tracking these orders. As you complete fulfillment, order statuses update automatically. See [Fulfillment Workflows]({% link sales-channels/asc/fulfillment-workflows.md %}).
 
 ## Before selling on Amazon
 
-Amazon follows a set of policies and workflows to ensure all sellers and products adhere to specified guidelines. To best ensure your products and account are approved and eligible for listing, we recommend reviewing the following information and policies:
+Amazon follows a set of policies and workflows to ensure all sellers and products adhere to specified guidelines. To ensure your products and account are approved and eligible for listing, we recommend reviewing the following information and policies:
 
 - [Help for Amazon sellers][2]{:target="_blank"}
 - [Product detail page rules][3]{:target="_blank"}

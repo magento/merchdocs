@@ -76,7 +76,7 @@ pages:
       - label: Amazon Sales Channel
         url: "/sales-channels/asc/amazon-sales-channel.html"
         children:
-      - label: Amazon and Sales Channel Basics
+      - label: Getting Started with Amazon Sales Channel
         url: "/sales-channels/asc/amazon-getting-started.html"
         children:
         - label: About Amazon Sales Channel
@@ -112,11 +112,11 @@ pages:
         - label: Attributes
           url: "/sales-channels/asc/attributes-view.html"
           children:
-          - label: Managing Attributes
+          - label: Manage Attributes
             url: "/sales-channels/asc/managing-attributes.html"
           - label: Create and Edit Attributes
             url: "/sales-channels/asc/creating-attributes.html"
-          - label: Review Attribute Values
+          - label: View Attribute Mapping
             url: "/sales-channels/asc/amazon-matching-attributes-values.html"
       - label: Sales Channel Admin Settings
         url: "/sales-channels/asc/sales-channel-settings.html"
@@ -258,6 +258,7 @@ pages:
         - label: Cancel Unshipped Orders
           url: "/sales-channels/asc/cancel-unshipped-order.html"
     - label: Amazon Sales Channel 2.x / 3.x
+      url: "/sales-channels/amazon/amazon-sales-channel.html"
       children:
       - label: Getting Started with Amazon Sales Channel
         url: "/sales-channels/amazon/amazon-getting-started.html"

@@ -1,5 +1,5 @@
 ---
-title: Managing Product Listings by Tab
+title: Manage Product Listings by Tab
 ---
 
 

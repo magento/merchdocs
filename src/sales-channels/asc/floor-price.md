@@ -11,7 +11,7 @@ Sections of an intelligent repricing rule include:
 - **Floor Price**
 - [Optional Ceiling Price]({% link sales-channels/asc/optional-ceiling-price.md %})
 
-The floor price settings automatically protect your lowest product price against the intelligent pricing rules. This allows the store owner to set a floor (lowest price) for their intelligent pricing rules. This means that your products will not be listed below a desired price.
+The [floor price]({% link sales-channels/asc/floor-price.md %}) settings automatically protect your lowest product price against the intelligent pricing rules. This allows the store owner to set a floor (lowest price) for their intelligent pricing rules. This means that your products will not be listed below a desired price.
 
 Floor price attributes are based on the website scope if your Magento store is using website pricing scope. See [Price Scope]({% link sales-channels/asc/price-scope.md %}).
 

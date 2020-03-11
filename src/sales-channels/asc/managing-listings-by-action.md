@@ -1,5 +1,5 @@
 ---
-title: Managing Product Listings by Action
+title: Manage Product Listings by Action
 ---
 
 

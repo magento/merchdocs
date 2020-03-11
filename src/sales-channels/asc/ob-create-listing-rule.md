@@ -2,17 +2,17 @@
 title: 'Onboarding: Create Listing Rule'
 ---
 
-Listing rules are initially defined during onboarding, but can be modified at any time after your store setup is complete. After onboarding, you can access the listing rules for an Active or Inactive store in the store’s dashboard. For more information, see [Listing Rules]({% link sales-channels/asc/listing-rules.md %}).
+Listing rules can be defined during onboarding, but can also be modified at any time after your store setup is complete. After onboarding, you can access the listing rules in the store dashboard. See [Listing Rules]({% link sales-channels/asc/listing-rules.md %}).
 
 ## Create a listing rule during onboarding
 
-1. Click <span class="btn">View Store</span> for the added store.
+1. After your store is connected, click <span class="btn">View Store</span> for the added store.
 
     The store [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}) appears with the `No products listed to Amazon` message.
 
 1. Click <span class="btn">Preview and List Eligible Products</span>.
 
-    The Listing Rules page appears.
+    The _Listing Rules_ page appears.
 
 1. Define your desired conditions for the eligibility of products to be listed on Amazon and click <span class="btn">Preview changes</span>, or click <span class="btn">Preview changes</span> to skip this step.
 
@@ -37,7 +37,9 @@ Listing rules are initially defined during onboarding, but can be modified at an
 
    The store [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}) opens.
 
-Completing the store integration initiates the order import for Pending/Unshipped orders created after the integration was created.
+After onboarding your store is complete, the information sync between Magento and Amazon is initiated. You can view your Amazon order information in the _Recent Orders_ section of the store dashboard.
+
+By default, order import is disabled. If you [enable order import]({% link sales-channels/asc/order-settings.md %}) in your Order Settings, Amazon orders created after the store is integrated and are in `Pending` or `Unshipped` status with Amazon are imported and can be [managed]({% link sales-channels/asc/managing-orders.md %}) in Magento.
 
 {:.bs-callout .bs-callout-warning}
-Additional store settings are set to default values during store integration. You should review your [Store Settings]({% link sales-channels/asc/ob-store-review.md %}) to ensure your store is set up for your specific needs.
+Additional store settings are set to default values during store integration. You should review your [Store Settings]({% link sales-channels/asc/ob-store-review.md %}) to ensure your store is configured for your specific needs.

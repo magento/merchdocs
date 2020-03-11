@@ -1,5 +1,5 @@
 ---
-title: Review Amazon Attribute Values
+title: View Amazon Attribute Mapping
 ---
 
 
@@ -7,7 +7,7 @@ As you map Amazon attributes to Magento attributes, Amazon Sales Channel tracks 
 
 The Amazon Value differs depending on the attribute type and the Amazon attribute you view. For example, a listed Amazon value for `Label` would be a text value while `AmazonListPrice` would be a numerical amount. The status indicates if the Amazon value has been imported.
 
-## Review your attribute values
+## View your attribute values
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
 
@@ -15,12 +15,13 @@ The Amazon Value differs depending on the attribute type and the Amazon attribut
 
 1. Click the **Matching Attribute Values** tab.
 
-1. To further review Magento product information, click a linked Magento Product SKU.
+    Listings that have a corresponding Magento catalog product will show a linked value in the _Magento Product SKU_ column. Clicking a link will open the corresponding catalog product detail page. Changes to Amazon attributes on the product detail page do not syn back to Amazon Sales Channel.
 
-    The _Magento product edit_ page opens.
+{:.bs-callout .bs-callout-tip}
+To edit or assign the mapping for a listing to a catalog product, see [Update Required Info]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %}).
 
 ![]({% link sales-channels/asc/assets/amazon-managing-attribute-values.png %}){: .zoom}
-_Review Attribute Values_
+_View Attribute Values_
 
 |Field|Description|
 |--- |--- |
