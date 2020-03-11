@@ -4,18 +4,10 @@ title: Updating a Customer Profile
 
 The panel on the left of the Customer Information page includes information about customer activity, such as when the customer last signed in or out of their account, addresses, order statistics, recent orders, shopping cart contents, product reviews, newsletter subscriptions, and so on.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/customer-profile.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
 ![]({% link images/images-ee/customer-profile.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({% link images/images-ee/customer-profile.png %}){: .zoom}
-<!--{% endif %}-->
-_Customer Profile_
+<span class="caption-edition-ee">_Customer Profile_</span>
 
-## To update a customer profile:
+## Update a customer profile
 
 1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
 
@@ -25,7 +17,7 @@ _Customer Profile_
 
 1. When complete, click <span class="btn">Save Customer</span>.
 
-## Button Bar
+## Button bar
 
 {: .buttons-table }
 | Button   | Description  |

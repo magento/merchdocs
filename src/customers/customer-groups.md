@@ -4,22 +4,14 @@ title: Customer Groups
 
 Customer groups determine which discounts are available and the tax class that is associated with the group. The default customer groups are General, Not Logged In, and Wholesale.
 
-<!--{% if "Default.B2B Only" contains site.edition %}-->
+<div class="edition-b2b" markdown="1">
 The selection of customer groups includes all regular customer groups, and shared catalogs, even if [Shared Catalogs]({% link stores/b2b-features.md %}) is not enabled in the configuration. Only one customer group or shared catalog can be assigned to a [company]({% link customers/account-companies.md %}) at a time.
+</div>
 
-<!--{% endif %}-->
-<!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/customer-groups.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
-![]({% link images/images/customer-groups.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({% link images/images-b2b/customer-groups.png %}){: .zoom}
-<!--{% endif %}-->
 _Customer Groups_
 
-## To filter customer groups:
+## Filter customer groups
 
 1. On the _Admin_ sidebar, go to **Customers** > **Customer Groups**.
 
@@ -34,7 +26,7 @@ _Customer Groups_
 
     The page displays the subset of filtered customer groups and members.
 
-## To create a customer group:
+## Create a customer group
 
 1. On the _Admin_ sidebar, go to **Customers** > **Customer Groups**.
 
@@ -49,7 +41,7 @@ _Customer Groups_
 
 1. When complete, click <span class="btn">Save Customer Group</span>.
 
-## To edit a customer group:
+## Edit a customer group
 
 1. On the _Admin_ sidebar, go to **Customers** > **Customer Groups**.
 
@@ -59,7 +51,7 @@ _Customer Groups_
 
 1. When complete, click <span class="btn">Save Customer Group</span>.
 
-## To assign a customer to a different group:
+## Assign a customer to a different group:
 
 1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
 
@@ -74,12 +66,12 @@ _Customer Groups_
       ![]({% link images/images/stores-customer-group-assign.png %}){: .zoom}
       _Assign a Customer Group_
 
-## To delete a customer group
+## Delete a customer group
 
-<!--{% if "Default.B2B Only" contains site.edition %}-->
+<div class="edition-b2b" markdown="1">
 A customer group that is associated with a [shared catalog]({% link catalog/catalog-shared.md %}) cannot be deleted.
+</div>
 
-<!--{% endif %}-->
 1. On the _Admin_ sidebar, go to **Customers** > **Customer Groups**.
 
 1. Open the record in edit mode.

@@ -6,24 +6,23 @@ Customer have easy access to their accounts from every page in your store. Depen
 
 If [Amazon Pay]({% link payment/amazon-pay.md %}) is enabled for your store, customers who sign in with the credentials from their Amazon account can use the shipping addresses and payment methods that are available in their Amazon account during checkout. [Login with Amazon]({% link configuration/sales/amazon-pay.md %}) requires customers to grant permission to share data from their Amazon accounts with your store.
 
-<!--{% if "Default.B2B Only" contains site.edition %}-->
+<div class="edition-b2b" markdown="1">
 Before company admins can sign in to their accounts, they must first set the password by clicking the link in the Welcome email. The system verifies that the company exists and checks the status of the company account. The sign-in process can proceed only if the company account is _active_.
+</div>
 
-<!--{% endif %}-->
 If a [CAPTCHA]({% link stores/security-captcha.md %}) enabled in the configuration, the person must correctly complete a test that verifies them to be human, before gaining access to their accounts.
 
 When customers forget their passwords, a reset link is sent to the email address that is associated with the account. The number of times a customer can try to enter a password, the number of minutes between attempts, the number of total attempts before the account is locked, and the length of the lockout is set in the [Password Options]({% link customers/password-options.md %}) configuration.
 
 ![]({% link images/images/storefront-sign-in-create-account.png %}){: .zoom}
 _Sign In_
-<!--{% if "Default.B2B Only" contains site.edition %}-->
 
-## Set your password before first sign in
+## <span class="heading-edition-b2b">Set your password before first sign in</span>
 
 1. Look for a Welcome email to arrive from the store. Then, follow the instructions and click **link** to set your password.
 
     ![]({% link images/images-b2b/welcome-email-company-admin.png %}){: .zoom}
-    _Welcome Email_
+    _Example Welcome Email_
 
 1. Enter a **New Password** for your account and again to confirm.
 
@@ -37,27 +36,18 @@ _Sign In_
 1. Click <span class="btn">Set a New Password</span>.
 
     ![]({% link images/images-b2b/customer-login-company-admin.png %}){: .zoom}
-    _Customer Login_
+    <span class="caption-edition-b2b">_Customer Login_</span>
 
 1. When the Customer Login page appears, enter your **Email** and **Password**. Then, click **Sign In** to access your account dashboard.
 
     ![]({% link images/images-b2b/customer-company-dashboard.png %}){: .zoom}
-    _Account Dashboard_
-<!--{% endif %}-->
+    <span class="caption-edition-b2b">_Account Dashboard_</span>
 
 ## Sign in to your customer account
 
 1. In the header of the store, click **Sign in**.
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
     ![]({% link images/images/customer-login.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE Only" contains site.edition %}-->
-    ![]({% link images/images-ee/customer-login.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
-    ![]({% link images/images-b2b/customer-login.png %}){: .zoom}
-    <!--{% endif %}-->
     _Customer Login_
 
 1. Enter your **Email** address and **Password**. Then, click <span class="btn">Sign in</span>.

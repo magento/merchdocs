@@ -4,22 +4,14 @@ title: Customers Menu
 
 The Customers menu provides access to customer account management tools, and gives you the ability to see who is currently online in your store.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/admin-menu-customers.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
-![]({% link images/images-ee/admin-menu-customers-ee.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
 ![]({% link images/images-b2b/admin-menu-customers-b2b.png %}){: .zoom}
-<!--{% endif %}-->
-_Customers Menu_
+<span class="caption-edition-b2b">_Customers Menu_</span>
 
-## To display the Customers menu:
+## Display the Customers menu
 
-On the _Admin_ sidebar, click <span class="btn">Customers </span>.
+On the _Admin_ sidebar, click **Customers**.
 
-## Menu Options
+## Menu options
 
 ### All Customers
 
@@ -33,15 +25,10 @@ Lists all customers and visitors who are currently [online]({% link customers/no
 
 The [customer group]({% link customers/customer-groups.md %}) determines which discounts are available to shoppers and the tax class for the purchase.
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-### [Segments]({% link marketing/customer-segments.md %})
+### <span class="heading-edition-ee">Segments</span>
 
-Dynamically display content and promotions to specific customers based on properties such as customer address, order history, shopping cart contents, and more.
+Dynamically display content and promotions to specific customers [based on properties]({% link marketing/customer-segments.md %}) such as customer address, order history, shopping cart contents, and more.
 
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-### Companies
+### <span class="heading-edition-b2b">Companies</span>
 
 Lists all active [company accounts]({% link customers/account-companies.md %}) and pending requests, regardless of status setting, and provides the tools needed to create and [manage]({% link customers/account-company-manage.md %}) company accounts.
-
-<!--{% endif %}-->

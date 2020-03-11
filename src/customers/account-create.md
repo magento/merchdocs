@@ -9,20 +9,16 @@ Visitors to your store can open an account to manage their purchases and activit
 
 The following instructions represent the default customer account configuration. To change the selection and behavior of some of the fields in the form, see [Configuring Customer Accounts]({% link customers/customer-account-configuration.md %}).
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/storefront-create-an-account-link.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
-![]({% link images/images-ee/storefront-create-an-account-link.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({% link images/images-b2b/storefront-create-an-account-options.png %}){: .zoom}
-<!--{% endif %}-->
 _Create an Account_
 
-## Method 1: Create Account from Storefront
+## Create account from storefront
 
-1. From the storefront, click **Create an Account** in the upper-right corner of the header. {% if "Default.B2B Only" contains site.edition %}Then, choose **Create New Customer**.{% endif %}
+A store customer creates a new account on the storefront.
+
+1. From the storefront, click **Create an Account** in the upper-right corner of the header.
+
+   - {:.edition-b2b}For a B2B store, choose **Create an Account** > **Create New Customer**.
 
 1. Under **Personal Information**, enter your **First Name** and **Last Name**.
 
@@ -42,10 +38,10 @@ _Create an Account_
 
 1. Enter a **Password** that includes three of the following types of information:
 
-    - Lowercase characters
-    - Uppercase characters
-    - Numbers
-    - Special Characters
+   - Lowercase characters
+   - Uppercase characters
+   - Numbers
+   - Special Characters
 
     After you press **Enter**, the strength of the password is evaluated and appears below the field. If the password is considered to be _Weak_, try another until it evaluated as _Strong_.
 
@@ -57,37 +53,39 @@ _Create an Account_
 
     You can now use your email address and password to [sign in]({% link customers/customer-sign-in.md %}) to your account to complete the address information.
 
-## Method 2: Create Account from Admin
+## Create a new account from the Admin
+
+As a merchant, you can create a new customer account from the Admin.
 
 1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
 
 1. Click <span class="btn">Add New Customer</span>.
 
-### Step 1: Complete the Account Information
+### Step 1: Complete the account information
 
 ![]({% link images/images/customer-account-new-information.png %}){: .zoom}
 _Customer Information_
 
 1. In the **Account Information** section, do the following:
 
-    - For a multisite installation, set **Associate to Website** to the website where the customer account applies.
-    - If applicable, assign the customer to a different **Customer Group**.
-    - If you are using [VAT ID Validation]({% link tax/vat-validation.md %}) and want to **Disable Automatic Group Change Based on VAT ID**, select the checkbox.
+   - For a multisite installation, set **Associate to Website** to the website where the customer account applies.
+   - If applicable, assign the customer to a different **Customer Group**.
+   - If you are using [VAT ID Validation]({% link tax/vat-validation.md %}) and want to **Disable Automatic Group Change Based on VAT ID**, select the checkbox.
 
 1. Complete the required fields:
 
-    - First Name
-    - Last Name
-    - Email
+   - First Name
+   - Last Name
+   - Email
 
 1. Complete the optional fields as needed:
 
-    - Name Prefix
-    - Middle Name/Initial
-    - Name Suffix
-    - Date of Birth
-    - Tax/VAT Number
-    - Gender
+   - Name Prefix
+   - Middle Name/Initial
+   - Name Suffix
+   - Date of Birth
+   - Tax/VAT Number
+   - Gender
 
 1. Set **Send Welcome Email From** to the store view from which the Welcome email is to be sent.
 
@@ -99,35 +97,28 @@ _Customer Information_
 
     After the customer account is saved, the full set of options appears in the panel on the left and in the menu at the top of the page. The Customer View tab displays a summary of the account.
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/customer-account-create-saved.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE-B2B" contains site.edition %}-->
     ![]({% link images/images-ee/customer-account-create-saved.png %}){: .zoom}
-    <!--{% endif %}-->
-    _Customer View_
+    <span class="caption-edition-ee">_Customer View_</span>
 
-### Step 2: Complete the Address Information
+### Step 2: Complete the address information
 
-1. In the panel on the left, choose **Addresses**. Then, click <span class="btn">Add New Addresses</span>.
+1. In the panel on the left, choose **Addresses** and click <span class="btn">Add New Addresses</span>.
 
 1. If the same address is used for both billing and shipping, toggle both options.
 
-    - Default Billing Address
-    - Default Shipping Address
+   - Default Billing Address
+   - Default Shipping Address
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
     ![]({% link images/images/customer-account-information-addresses.png %}){: .zoom}
-    _Add an Address_
-    <!--{% endif %}-->
+    <span class="caption-edition-ce">_Add an Address_</span>
 
 1. Scroll down and complete the required address fields in the second column.
 
-    - Street Address
-    - City
-    - Country
-    - State/Province
-    - ZIP/Postal Code
+   - Street Address
+   - City
+   - Country
+   - State/Province
+   - ZIP/Postal Code
 
 1. Enter the **Phone Number** for this address.
 
@@ -145,7 +136,7 @@ _Customer Information_
     ![]({% link images/images/customers-grid-new-account.png %}){: .zoom}
     _Customers grid_
 
-### Step 3: Reset the Password
+### Step 3: Reset the password
 
 Customer accounts created from the Admin do not initially have passwords assigned.
 
@@ -157,7 +148,7 @@ Customer accounts created from the Admin do not initially have passwords assigne
 
 1. Notification is sent to the account owner, with instructions for setting the password.
 
-## Button Bar
+## Button bar
 
 {:.bs-callout-info}
 Additional buttons become available when the profile is saved for the first time. To learn more, see [Updating a Customer Profile]({% link customers/customer-account-update.md %}).
@@ -175,7 +166,7 @@ Additional buttons become available when the profile is saved for the first time
 |<span class="btn">Save and Continue Edit</span>|Saves changes and keeps the customer profile open.|
 |<span class="btn">Save Customer</span>|Saves changes and closes the customer profile.|
 
-## Field Descriptions
+## Fields
 
 |Field|Description|
 |--- |--- |
