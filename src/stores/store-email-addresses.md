@@ -42,13 +42,13 @@ If you use custom email addresses, make sure to update the configuration of any 
 
     The page has a separate section for each of the following:
 
-      - Order and Order Comments
-      - Invoice and Invoice Comments
-      - Shipment and Shipment Comments
-      - Credit Memo and Credit Memo Comments
-      <!--{% if "Default.EE-B2B" contains site.edition %}-->
-      - RMA, RMA Authorization, RMA Admin Comments, and RMA Customer Comments
-      <!--{% endif %}-->
+    - Order and Order Comments
+    - Invoice and Invoice Comments
+    - Shipment and Shipment Comments
+    - Credit Memo and Credit Memo Comments
+    <!--{% if "Default.EE-B2B" contains site.edition %}-->
+    - RMA, RMA Authorization, RMA Admin Comments, and RMA Customer Comments
+    <!--{% endif %}-->
 
 1. Starting with **Order**, expand the section for each message and make sure that the correct sender is selected.
 

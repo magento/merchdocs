@@ -18,7 +18,7 @@ When customers forget their passwords, a reset link is sent to the email address
 _Sign In_
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 
-## To set your password before first sign in:
+## Set your password before first sign in
 
 1. Look for a Welcome email to arrive from the store. Then, follow the instructions and click **link** to set your password.
 
@@ -29,10 +29,10 @@ _Sign In_
 
     The password must include at least three of the following character types:
 
-      - Lowercase characters (abc...)
-      - Uppercase characters (ABC...)
-      - Numbers (1234567890)
-      - Special characters (!@#$...)
+    - Lowercase characters (abc...)
+    - Uppercase characters (ABC...)
+    - Numbers (1234567890)
+    - Special characters (!@#$...)
 
 1. Click <span class="btn">Set a New Password</span>.
 
@@ -45,7 +45,7 @@ _Sign In_
     _Account Dashboard_
 <!--{% endif %}-->
 
-## To sign in to your customer account:
+## Sign in to your customer account
 
 1. In the header of the store, click **Sign in**.
 
@@ -64,7 +64,7 @@ _Sign In_
 
     If you can’t remember your password, click **Forgot Your Password?**. Then, follow the [instructions]({% link customers/password-reset.md %}) to reset your password.
 
-## To sign in with Amazon:
+## Sign in with Amazon
 
 1. In the header of the store, click **Sign in**.
 

@@ -187,8 +187,6 @@ pages:
     children:
     - label: Integration with ERP Systems
       url: "/system/erp-systems.html"
-    - label: Magento Marketplace
-      url: "/magento/magento-marketplace.html"
   - label: Permissions
     url: "/system/permissions.html"
     children:

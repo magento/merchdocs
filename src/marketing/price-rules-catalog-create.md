@@ -22,34 +22,34 @@ Follow these instructions to apply a discount to specific products whenever a se
 
 1. In the **Rule Information** section, do the following:
 
-   - Complete the **Rule Name** and **Description** fields. These fields are for your internal reference only.
+    - Complete the **Rule Name** and **Description** fields. These fields are for your internal reference only.
 
    <!--{% if "Default.CE Only" contains site.edition %}-->
-   - Set the **Status** of the price rule as needed. By default, the status is `Active`.
+    - Set the **Status** of the price rule as needed. By default, the status is `Active`.
 
      {:.bs-callout-info}
      After the rule is created, its status can be updated by changing the status to `Active` or `Inactive` as needed.
    <!--{% endif %}-->
 
-   - Select the **Websites** where the rule is to be available.
+    - Select the **Websites** where the rule is to be available.
 
-   - Select the **Customer Groups** to which this rule applies.
+    - Select the **Customer Groups** to which this rule applies.
 
-     To choose multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
+        To choose multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
-     {:.bs-callout-info}
-     The options in this list is dependent on the customer groups created and managed in _Customers_ > _Customer Groups_.
+        {:.bs-callout-info}
+        The options in this list is dependent on the customer groups created and managed in _Customers_ > _Customer Groups_.
 
    <!--{% if "Default.CE Only" contains site.edition %}-->
-   - Enter the **From** and **To** dates to determine when the price rule is in effect.
+    - Enter the **From** and **To** dates to determine when the price rule is in effect.
 
-      You can enter the dates or use the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the dates. If you leave the dates blank, the rule is enabled as soon as the price rule is saved.
+        You can enter the dates or use the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the dates. If you leave the dates blank, the rule is enabled as soon as the price rule is saved.
    <!--{% endif %}-->
 
-   - Enter a number to establish the **Priority** of this rule in relation to other rules.
+    - Enter a number to establish the **Priority** of this rule in relation to other rules.
 
-     {:.bs-callout-info}
-     The Priority setting is important when the same catalog product meet the conditions set for more than one price rule. The rule with the highest Priority setting (1 being the highest) will become active for the product.
+        {:.bs-callout-info}
+        The Priority setting is important when the same catalog product meet the conditions set for more than one price rule. The rule with the highest Priority setting (1 being the highest) will become active for the product.
 
 ## Step 2: Define the Conditions
 
@@ -74,7 +74,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
 1. Click the **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) icon at the beginning of the next line and select an option for the condition, such as a product attribute or combination.
 
-   - In the list under **Product Attribute**, choose the attribute that you want to use as the basis of the condition. For this example, the condition is `Attribute Set`.
+    - In the list under **Product Attribute**, choose the attribute that you want to use as the basis of the condition. For this example, the condition is `Attribute Set`.
 
       ![Catalog price rule - condition line 2]({% link images/images/price-rule-catalog-condition2.png %}){: .zoom}
       _Condition Line 2, Part 1_
@@ -86,9 +86,9 @@ Most of the available conditions are based on existing attribute values. To appl
 
         If **ALL** of these conditions are **TRUE**: <br/>Attribute Set **is** …
 
-   - Click **is** and choose the comparison operator that describes the condition to be met. These options may include an option for different comparisons, such as matching values, not including or including at least one of a value, and greater than, equal to, and less than a numerical amount. In this example, the options are `is` and `is not`.
+    - Click **is** and choose the comparison operator that describes the condition to be met. These options may include an option for different comparisons, such as matching values, not including or including at least one of a value, and greater than, equal to, and less than a numerical amount. In this example, the options are `is` and `is not`.
 
-   - Select or enter values for the condition. Depending on the condition, you may select products from a grid or list, enter a numerical value, and so on. For this example, click the (**...**) more link and choose the attribute set upon which the condition is based.
+    - Select or enter values for the condition. Depending on the condition, you may select products from a grid or list, enter a numerical value, and so on. For this example, click the (**...**) more link and choose the attribute set upon which the condition is based.
 
    ![Catalog price rule - condition line 2]({% link images/images/price-rule-catalog-condition3.png %}){: .zoom}
    _Condition Line 2, Part 3_
@@ -99,8 +99,8 @@ Most of the available conditions are based on existing attribute values. To appl
 
 1. To add another condition line to the statement, click the **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) icon and choose one of the following:
 
-   - `Conditions Combination`
-   - `Product Attribute`
+    - `Conditions Combination`
+    - `Product Attribute`
 
    Then, repeat the process until all desired conditions are complete.
 

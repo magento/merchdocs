@@ -19,9 +19,9 @@ _Backups_
 
 1. In the upper-right corner, click the button for the type of backup you want to create:
 
-    - **System Backup** - Creates a complete backup of the database and the file system. During the process, you can choose to include the media folder in the backup.
-    - **Database and Media Backup** - Creates a backup of the database and the media folder.
-    - **Database Backup** - Creates a backup of the database.
+    |System Backup|Creates a complete backup of the database and the file system. During the process, you can choose to include the media folder in the backup.|
+    |Database and Media Backup|Creates a backup of the database and the media folder.|
+    |Database Backup|Creates a backup of the database.|
 
 1. To put the store into maintenance mode during the backup, select the checkbox.
 
@@ -37,10 +37,10 @@ _Backups_
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Backup Settings** section and do the following:
 
-   - Set Enabled Schedule Backup to `Yes`.
-   - Set the **Scheduled Backup Type**.
-   - Set the **Start Time**.
-   - Set the **Frequency**.
-   - Set **Maintenance Mode** to `Yes`.
+    - Set Enabled Schedule Backup to `Yes`.
+    - Set the **Scheduled Backup Type**.
+    - Set the **Start Time**.
+    - Set the **Frequency**.
+    - Set **Maintenance Mode** to `Yes`.
 
 1. When complete, click <span class="btn">Save Config</span>.

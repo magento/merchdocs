@@ -43,14 +43,14 @@ When this feature is configured, store customers follow these steps to share pro
 
 1. On a catalog page, click the **Email** link. Then, do one of the following:
 
-   - Log in to your customer account.
-   - Sign up for a new account.
+    - Log in to your customer account.
+    - Sign up for a new account.
 
 1. Complete the **Message** and enter the recipient **Name** and **Email Address**. To add more recipients, do the following:
 
-   - Click <span class="btn">Add Invitee</span>.
+    - Click <span class="btn">Add Invitee</span>.
 
-   - Enter the **Name** and **Email Address** of the additional person.
+    - Enter the **Name** and **Email Address** of the additional person.
 
         You can send the message to as many additional people as the configuration allows.
 
