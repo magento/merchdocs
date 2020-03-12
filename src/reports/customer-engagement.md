@@ -12,13 +12,8 @@ These options include:
 * Dashboard to customize synchronization, account access, etc.
 * Various reports to help you track Engagement Cloud syncs, activity, and performance
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/admin-menu-reports.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![]({% link images/images-ee/admin-menu-reports-ee.png %}){: .zoom}
-<!--{% endif %}-->
-*Customer Engagement Reports*
+<span class="caption-edition-ee">*Customer Engagement Reports*</span>
 
 ## Dashboard Options and Configurations
 
