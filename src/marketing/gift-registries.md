@@ -5,12 +5,7 @@ title: Gift Registries
 
 Magento gives your customers the ability to create gift registries for special occasions, and to invite their friends and family to purchase their gifts from the gift registry. Magento keeps track of all items purchased and the quantities remaining.
 
-<!--{% if "Default.EE Only" contains site.edition %}-->
 ![Example storefront - gift registry]({% link images/images-ee/storefront-gift-registry-create-baby-info.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![Example storefront - gift registry]({% link images/images-b2b/storefront-gift-registry-create-baby-info.png %}){: .zoom}
-<!--{% endif %}-->
 _Creating a Baby Gift Registry_
 
 The gift registry owner can add products to the registry from their [customer dashboard]({% link marketing/gift-registry-information.md %}). In addition, products can be transferred from the wish list or cart. The store administrator can view and share customer gift registries, and perform maintenance such as adding items from the customer’s cart, updating quantities, or deleting a gift registry.

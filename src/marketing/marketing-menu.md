@@ -9,9 +9,9 @@ The Marketing menu provides access tools for managing promotions, communications
 
 ## Display the Marketing Menu
 
-On the _Admin_ sidebar, click <span class="btn">Marketing</span>.
+On the _Admin_ sidebar, click **Marketing**.
 
-## Main Sections
+## Main sections
 
 ### Promotions
 

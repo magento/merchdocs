@@ -13,13 +13,8 @@ Google Content Experiments has been deprecated and will eventually be replaced b
 
 1. Follow the instructions to enable [Google Analytics]({% link marketing/google-universal-analytics.md %}) with Content Experiments in the Magento configuration.
 
-    <!--{%- if "Default.CE Only" contains site.edition -%}-->
-    ![Sales configuration - Google Analytics]({% link images/images/config-sales-google-api-google-analytics-content-experiments.png %}){: .zoom}
-    <!--{%- endif -%}-->
-    <!--{%- if "Default.EE-B2B" contains site.edition -%}-->
     ![Sales configuration - Google Analytics]({% link images/images-ee/config-sales-google-api-google-analytics-content-experiments.png %}){: .zoom}
-    <!--{%- endif -%}-->
-    [_Enable Content Experiments_]({% link marketing/google-universal-analytics.md -%})
+    <span class="caption-edition-ee">[_Enable Content Experiments_]({% link marketing/google-universal-analytics.md %})</span>
 
 ## Step 2. Set Up the Variations (Magento)
 

@@ -13,8 +13,5 @@ Up-sells
 Cross-sells
 :  [Cross-sell products]({% link catalog/settings-advanced-cross-sells.md %}) are offered on the shopping cart page as last-minute purchases before the checkout process begins.
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-Related Product Rules
+<span class="heading-edition-ee">Related Product Rules</span>
 :  [Related product rules]({% link marketing/product-related-rules.md %}) give you the ability to target the selection of products that are presented to customers as related products, up-sells, and cross-sells.
-
-<!--{% endif %}-->

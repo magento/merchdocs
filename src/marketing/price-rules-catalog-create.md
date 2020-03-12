@@ -12,41 +12,32 @@ Follow these instructions to apply a discount to specific products whenever a se
 
    The Rule Information section includes expandable sections for Conditions and Actions.
 
-   <!--{% if "Default.CE Only" contains site.edition %}-->
-   ![Catalog price rule - information]({% link images/images/price-rule-catalog-new.png %}){: .zoom}
-   <!--{% endif %}-->
-   <!--{% if "Default.EE-B2B" contains site.edition %}-->
    ![Catalog price rule - information]({% link images/images-ee/price-rule-catalog-new-ee.png %}){: .zoom}
-   <!--{% endif %}-->
-   _Rule Information_
+   <span class="caption-edition-ee">_Rule Information_</span>
 
 1. In the **Rule Information** section, do the following:
 
-    - Complete the **Rule Name** and **Description** fields. These fields are for your internal reference only.
+   - Complete the **Rule Name** and **Description** fields. These fields are for your internal reference only.
 
-   <!--{% if "Default.CE Only" contains site.edition %}-->
-    - Set the **Status** of the price rule as needed. By default, the status is `Active`.
+   - {:.edition-ce}Set the **Status** of the price rule as needed. By default, the status is `Active`.
 
-     {:.bs-callout-info}
-     After the rule is created, its status can be updated by changing the status to `Active` or `Inactive` as needed.
-   <!--{% endif %}-->
+      {:.bs-callout-info}
+      After the rule is created, its status can be updated by changing the status to `Active` or `Inactive` as needed.
 
-    - Select the **Websites** where the rule is to be available.
+   - Select the **Websites** where the rule is to be available.
 
-    - Select the **Customer Groups** to which this rule applies.
+   - Select the **Customer Groups** to which this rule applies.
 
         To choose multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
         {:.bs-callout-info}
         The options in this list is dependent on the customer groups created and managed in _Customers_ > _Customer Groups_.
 
-   <!--{% if "Default.CE Only" contains site.edition %}-->
-    - Enter the **From** and **To** dates to determine when the price rule is in effect.
+   - {:.edition-ce}Enter the **From** and **To** dates to determine when the price rule is in effect.
 
         You can enter the dates or use the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the dates. If you leave the dates blank, the rule is enabled as soon as the price rule is saved.
-   <!--{% endif %}-->
 
-    - Enter a number to establish the **Priority** of this rule in relation to other rules.
+   - Enter a number to establish the **Priority** of this rule in relation to other rules.
 
         {:.bs-callout-info}
         The Priority setting is important when the same catalog product meet the conditions set for more than one price rule. The rule with the highest Priority setting (1 being the highest) will become active for the product.
@@ -66,15 +57,15 @@ Most of the available conditions are based on existing attribute values. To appl
 
     The statement has two bold links that you can click to display the selection of options for that part of the statement. You can create different conditions by changing the combination of these values. Do any of the following:
 
-    - Click **ALL** and select `ALL` or `ANY`.
-    - Click **TRUE** and select `TRUE` or `FALSE`.
-    - Leave the condition unchanged to apply the rule to all products.
+   - Click **ALL** and select `ALL` or `ANY`.
+   - Click **TRUE** and select `TRUE` or `FALSE`.
+   - Leave the condition unchanged to apply the rule to all products.
 
    You can create different conditions by changing the combination of these values. For this example, the default condition is used.
 
 1. Click the **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) icon at the beginning of the next line and select an option for the condition, such as a product attribute or combination.
 
-    - In the list under **Product Attribute**, choose the attribute that you want to use as the basis of the condition. For this example, the condition is `Attribute Set`.
+   - In the list under **Product Attribute**, choose the attribute that you want to use as the basis of the condition. For this example, the condition is `Attribute Set`.
 
       ![Catalog price rule - condition line 2]({% link images/images/price-rule-catalog-condition2.png %}){: .zoom}
       _Condition Line 2, Part 1_
@@ -86,9 +77,9 @@ Most of the available conditions are based on existing attribute values. To appl
 
         If **ALL** of these conditions are **TRUE**: <br/>Attribute Set **is** …
 
-    - Click **is** and choose the comparison operator that describes the condition to be met. These options may include an option for different comparisons, such as matching values, not including or including at least one of a value, and greater than, equal to, and less than a numerical amount. In this example, the options are `is` and `is not`.
+   - Click **is** and choose the comparison operator that describes the condition to be met. These options may include an option for different comparisons, such as matching values, not including or including at least one of a value, and greater than, equal to, and less than a numerical amount. In this example, the options are `is` and `is not`.
 
-    - Select or enter values for the condition. Depending on the condition, you may select products from a grid or list, enter a numerical value, and so on. For this example, click the (**...**) more link and choose the attribute set upon which the condition is based.
+   - Select or enter values for the condition. Depending on the condition, you may select products from a grid or list, enter a numerical value, and so on. For this example, click the (**...**) more link and choose the attribute set upon which the condition is based.
 
    ![Catalog price rule - condition line 2]({% link images/images/price-rule-catalog-condition3.png %}){: .zoom}
    _Condition Line 2, Part 3_
@@ -99,8 +90,8 @@ Most of the available conditions are based on existing attribute values. To appl
 
 1. To add another condition line to the statement, click the **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) icon and choose one of the following:
 
-    - `Conditions Combination`
-    - `Product Attribute`
+   - `Conditions Combination`
+   - `Product Attribute`
 
    Then, repeat the process until all desired conditions are complete.
 
@@ -130,10 +121,9 @@ Most of the available conditions are based on existing attribute values. To appl
    {:.bs-callout-info}
    Setting this to `Yes` is a safeguard to prevent the system from applying multiple discounts (rules) to the same product.
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-## Step 4: Add Related Dynamic Blocks (optional)
+## <span class="heading-edition-ee">Step 4: Add Related Dynamic Blocks</span>
 
-[Dynamic blocks]({% link cms/dynamic-blocks.md %}) that are associated with a catalog price rule appear in the storefront whenever the conditions are met.
+[Dynamic blocks]({% link cms/dynamic-blocks.md %}) that are associated with a catalog price rule appear in the storefront whenever the conditions are met. This is an optional step.
 
 {:.bs-callout-info}
 [Page Builder]({% link cms/page-builder.md %})’s advanced content tools replace the previous banner functionality. If your store has customizations that prevent you from using Page Builder, see [Using Banners in Price Rules]({% link cms/banners-price-rules.md %}).
@@ -145,9 +135,9 @@ Most of the available conditions are based on existing attribute values. To appl
 1. Select the checkbox in the first column to associate the dynamic block with the rule.
 
    ![Catalog price rule - related dynamic blocks]({% link images/images-ee/price-rule-catalog-related-dynamic-blocks.png %}){: .zoom}
-   _Related Dynamic Blocks_
+   <span class="caption-edition-ee">_Related Dynamic Blocks_</span>
 
-## Step 5: Schedule the Rule
+## Step 5: <span class="heading-edition-ee">Schedule the Rule</span>
 
 {:.bs-callout-info}
 Setting the rule to active must be added as a scheduled update. To learn more, see [Scheduled Changes]({% link marketing/price-rule-catalog-scheduled-changes.md %}).
@@ -157,7 +147,7 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
     The Scheduled Changes timeline appears at the top of the page.
 
     ![Catalog price rules - scheduled changes]({% link images/images-ee/price-rule-scheduled-changes-new.png %}){: .zoom}
-    _Scheduled Changes_
+    <span class="caption-edition-ee">_Scheduled Changes_</span>
 
 1. In the _Scheduled Changes_ box, click **View/Edit**.
 
@@ -168,52 +158,47 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
     You can either enter the dates or choose the dates from the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})).
 
     ![Catalog price rule - update schedule]({% link images/images-ee/price-rule-catalog-schedule-update.png %}){: .zoom}
-    _Update Schedule_
+    <span class="caption-edition-ee">_Update Schedule_</span>
 
 1. Scroll to the _Rule Information_ section and set the **Status** to `active`.
-<!--{% endif %}-->
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-## Step 4: Apply and Test the Rule
+## Step 6: Save and test the rule
 
-To apply the rule, do one of the following:
+1. When complete, save the rule.
 
-- Click <span class="btn">Save and Apply</span>.
-- Click <span class="btn">Save</span>. Then from the Catalog Price Rules page, click <span class="btn">Apply Rules</span>.
+   - {:.edition-ce}Click <span class="btn">Save and Apply</span>.
 
-![Catalog price rules - pricing structures]({% link images/images/price-rule-catalog-saved.png %}){: .zoom}
-_Pricing Structure Rules_
+      ![Catalog price rules - pricing structures]({% link images/images/price-rule-catalog-saved.png %}){: .zoom}
+      <span class="caption-edition-ce">_Pricing Structure Rules_</span>
 
-Price rules are automatically processed with other system rules each night. When you create a new price rule, allow enough time for it to get into the system. Then, test the rule to make sure that it works correctly. As new rules are added, Magento recalculates the prices and the priorities accordingly.
+   - {:.edition-ee}Click <span class="btn">Save</span>.
 
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-## Step 6: Save and Test the Rule
+      The Rule Information page displays an updated timeline in the Scheduled Changes for the rule.
 
-1. When complete, click <span class="btn">Save</span>.
-
-    The Rule Information page displays an updated timeline in the Scheduled Changes for the rule.
-
-    ![Catalog price rules - scheduled changes]({% link images/images-ee/price-rule-scheduled-changes-updated.png %}){: .zoom}
-    _Scheduled Changes_
+      ![Catalog price rules - scheduled changes]({% link images/images-ee/price-rule-scheduled-changes-updated.png %}){: .zoom}
+      <span class="caption-edition-ee">_Scheduled Changes_</span>
 
 1. Test the rule to make sure that it works correctly.
 
-    Price rules are automatically processed with other system rules each night. When you create a new price rule, allow enough time for it to get into the system. Then, test the rule to make sure that it works correctly. As new rules are added, Magento recalculates the prices and the priorities accordingly.
-<!--{% endif %}-->
+   Price rules are automatically processed with other system rules each night. When you create a new price rule, allow enough time for it to get into the system. Then, test the rule to make sure that it works correctly. As new rules are added, Magento recalculates the prices and the priorities accordingly.
 
 ## Field Descriptions
 
 ### Rule Information
 
 |Rule name|(Required) The name of the rule is for internal reference.
-|Description|A description of the rule should include the purpose of the rule and explain how it is used.|<!--{% if "Default.CE Only" contains site.edition %}-->
-|Status|(Required) Determines if the rule is currently active in the store. Options: Yes / No|<!--{% endif %}-->
+|Description|A description of the rule should include the purpose of the rule and explain how it is used.|
 |Websites|(Required) Identifies the websites where the rule can be used.|
-|Customer Groups|(Required) Identifies the customer groups to which the rule applies.|<!--{% if "Default.CE Only" contains site.edition %}-->
-|From|Specifies the first day the price rule is in effect. If left blank, the price rule goes into effect as soon as it is saved.|
-|To|Specifies the last day the price rule is in effect. If left blank, the price rule continues indefinitely.|<!--{% endif %}-->
+|Customer Groups|(Required) Identifies the customer groups to which the rule applies.|
 |Priority|A number that indicates the priority of this rule in relation to others. The highest priority is number 1.|
+
+<div class="edition-ce" markdown="1">
+These options are in Magento Open Source only.
+</div>
+
+|Status|(Required) Determines if the rule is currently active in the store. Options: Yes / No|
+|From|Specifies the first day the price rule is in effect. If left blank, the price rule goes into effect as soon as it is saved.|
+|To|Specifies the last day the price rule is in effect. If left blank, the price rule continues indefinitely.|
 
 ### Conditions
 
@@ -225,9 +210,6 @@ Specifies the conditions that must be met before the catalog price rule goes int
 |Discount Amount|(Required) The amount of discount that is offered.|
 |Discard Subsequent Rules|Determines if additional rules can be applied to this purchase. To prevent multiple discounts from being applied to the same purchase, select `Yes`. Options: Yes / No|
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-### Related Dynamic Blocks
+### <span class="heading-edition-ee">Related Dynamic Blocks</span>
 
 Identifies any dynamic block(s) that are associated with the rule.
-
-<!--{% endif %}-->
