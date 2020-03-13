@@ -46,6 +46,15 @@ The following recommendation types will fallback to **Most viewed** if there is 
 
 -  **Bought this, bought that**
 
+### Filter recommendations
+
+Magento filters recommendations based on product attributes. For example, Magento will not recommend men's products if a customer is viewing a product for a women. If you deploy the **Most viewed** recommendation type to a catalog page, the recommendations that appear are filtered to show recommendations within that same category. Likewise, recommendations deployed to a product detail page are filtered to show other products within that product's category. The following table describes how the recommendations are filtered based on the recommendation type and page.
+
+|**Recommendation Type**|**Page**|**Filtered By**|
+|---|---|---|
+|Most popular|Home<br>Category<br>Product Detail<br>Cart<br>Order Confirmation|No filter<br>Category<br>Product's categories<br>Product's categories<br>Product's categories|
+|Recommended for you|Home<br>Category|No filter<br>Category|
+
 ## Product recommendations placement {#productrecplacement}
 
 You can place the recommendations in one of the following page locations.
