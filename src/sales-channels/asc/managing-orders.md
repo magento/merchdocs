@@ -5,37 +5,33 @@ title: Manage Orders and Fulfillment
 
 Order information received from Amazon Seller Central shows in the _Recent Orders_ section of the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
-Regardless of your [order import settings]({% link sales-channels/asc/order-settings.md %}), Amazon orders that existed in your Amazon Seller Central account prior to your [store integration]({% link sales-channels/asc/store-integration.md %}) will not import into Magento.
-
-## With Order Import Disabled
-
-After [store integration]({% link sales-channels/asc/store-integration.md %}), [**Import Amazon Orders**]({% link sales-channels/asc/order-settings.md %}#configure-order-settings) is `Disabled` by default. This means that your Amazon order information will show on the store dashboard, but your Amazon orders are not imported and cannot be managed in Magento.
-
-If your [order import settings]({% link sales-channels/asc/order-settings.md %}) are set to `Disabled`, order information received from Amazon appears in the _Recent Orders_ section of the store dashboard. Order information is view only, and managing these orders must be done in Amazon Seller Central.
-
-![]({% link sales-channels/asc/assets/amazon-recent-orders-not-imported.png %}){: .zoom}
-_Recent Orders - Not Imported_
-
 ## With Order Import Enabled
 
-If you want to import and manage your your Amazon orders in Magento, you can change the [**Import Amazon Orders**]({% link sales-channels/asc/order-settings.md %}#configure-order-settings) setting to `Enabled`. This means that when new orders are received from Amazon, corresponding Magento orders are created, based on Amazon status and stock levels.
+After [store integration]({% link sales-channels/asc/store-integration.md %}), [**Import Amazon Orders**]({% link sales-channels/asc/order-settings.md %}#configure-order-settings) is `Enabled` by default. This means that corresponding Magento orders are created for your Amazon orders and can be managed in the [Magento Orders]({% link sales/orders.md %}) workflow.
 
-All new orders created in Amazon will import into Magento, but not immediately. Amazon assigns a `Pending` status to newly created orders. After Amazon verifies the order and payment method, the order status is changed to `Unshipped`. This status change by Amazon triggers the order import, and Magento creates a matching, corresponding order.
+{:.bs-callout .bs-callout-info}
+Regardless of your order import settings, Amazon orders that existed in your Amazon Seller Central account prior to your [store integration]({% link sales-channels/asc/store-integration.md %}) will not import.
 
-An Amazon order is added to the to the _Recent Orders_ section of the store dashboard when Amazon changes the order status from `Pending` to `Unshipped`. Remember, information sync depends on your cron settings and the time it takes Amazon to process information.
+New orders created in Amazon will import into Magento, but not immediately. Amazon assigns a `Pending` status to new orders. After Amazon verifies the order and the payment method, the order status is changed to `Unshipped`. This status change by Amazon triggers the order import into Magento. When imported, the order information appears in the _Recent Orders_ section of the store dashboard, and Magento creates a corresponding order.
 
-![]({% link sales-channels/asc/assets/amazon-recent-orders-imported.png %}){: .zoom}
-_Recent Orders - Imported_
-
-You will manage your imported Amazon orders in the [Magento Orders]({% link sales/orders.md %}) process and workflow, just like your other Magento stores and sales. When viewing your recent orders on the store dashboard, you click the Magento order number to open the order in the [Magento order process]({% link sales/order-processing.md %}#order-view-descriptions).
+Imported Amazon orders can be managed in the [Magento Orders]({% link sales/orders.md %}) and workflow, just like your other Magento stores. When viewing the store dashboard, you click the Magento order number to open the order in the [Magento order process]({% link sales/order-processing.md %}#order-view-descriptions).
 
 ![]({% link sales-channels/asc/assets/amazon-order-processing.png %}){: .zoom}
 _Order Processing in Magento_
 
-{:.bs-callout .bs-callout-info}
-Amazon orders that are not imported and do not have a corresponding Magento order number must be managed in your Amazon Seller Central account.
+![]({% link sales-channels/asc/assets/amazon-recent-orders-imported.png %}){: .zoom}
+_Recent Orders - Imported_
 
-## View your Amazon order information
+## With Order Import Disabled
+
+If you do not want to import and manage your your Amazon orders in Magento, you can change the [**Import Amazon Orders**]({% link sales-channels/asc/order-settings.md %}#configure-order-settings) setting to `Disabled`. This means that when new orders are received from Amazon, corresponding Magento orders are created.
+
+When disabled, order information received from Amazon appears in the _Recent Orders_ section of the store dashboard. This order information is view only, and you must manage these orders in Amazon Seller Central.
+
+![]({% link sales-channels/asc/assets/amazon-recent-orders-not-imported.png %}){: .zoom}
+_Recent Orders - Not Imported_
+
+## View your recent Amazon order information
 
 1. Click **View Store** on a store card.
 

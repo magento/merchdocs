@@ -22,7 +22,7 @@ The initial listing import initiates when [store integration]({% link sales-chan
 
 1. For **Import Third Party Listings** (required), choose an option:
 
-    - **Import Listing** - Choose when you want product information from your Amazon listings to import into your Magento product catalog. This is the recommended and the default setting.
+    - **Import Listing** - (Default) Choose when you want product information from your Amazon listings to import into your Magento product catalog. This is the recommended and the default setting.
 
     - **Do Not Import Listing** - Choose when you want to manually [create and assign new products]({% link catalog/products.md %}) to your Magento catalog for your Amazon listings.
 

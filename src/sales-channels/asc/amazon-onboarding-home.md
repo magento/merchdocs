@@ -3,12 +3,12 @@ title: Onboard Amazon Sales Channel
 ---
 
 
-This section describes the requirements and pre-setup tasks for the onboarding process and helps you create, connect, and integrate your Amazon Sales Channel store. Onboarding is simple and fast, after you understand some key concepts how Amazon works with the Amazon Sales Channel in Magento.
+This section describes the pre-setup tasks, steps for onboarding, and some key concepts how Amazon works with the Amazon Sales Channel in Magento.
 
-Amazon Sales Channel supports the creation of multiple Amazon Sales Channel stores. For a single Amazon Seller Central account that operates in the Amazon region that includes U.S./Canada/Mexico, you will create three Amazon Sales Channel stores (one for U.S. sales, one for Mexico sales, and one for Canada sales). Each of the three stores will define the region during its setup and be integrated with the same Amazon Seller Central account. If you have more than one Amazon Seller Central account, you could potentially have up to three Amazon Sales Channel stores for each of your Amazon Seller Central accounts.
+Amazon Sales Channel supports multiple Amazon Sales Channel stores. For a single Amazon Seller Central account that operates in the Amazon region that includes U.S./Canada/Mexico, you will create three Amazon Sales Channel stores (one for U.S. sales, one for Mexico sales, and one for Canada sales). Each of the three stores will define the marketplace country during its creation. If you have more than one Amazon Seller Central account, you could potentially have up to three Amazon Sales Channel stores for each of your Amazon Seller Central accounts. If you also sell in the U.K., you would have a fourth Amazon store.
 
 {:.bs-callout-info}
-**Helpful onboarding tips.**
+**Helpful onboarding tips**
 <br/>Amazon Sales Channel requires a [Professional Seller account][1]{:target="_blank"} on Amazon Seller Central, in the North America or European (UK) region. Amazon charges a monthly subscription and fees for selling. See [Amazon: Choose your selling plan][2]{:target="_blank"}.<br/>
 <br/>Onboarding is simple. Just create your store and then integrate (connect) it to to your Amazon Seller Central account.<br/>
 <br/>When your store is connected, Amazon Sales Channel attempts to import your Amazon listings and match them to your catalog, based on your [attribute mapping]({% link sales-channels/asc/attributes-view.md %}).<br/>
