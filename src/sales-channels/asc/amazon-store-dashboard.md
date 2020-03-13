@@ -7,7 +7,7 @@ In the _Amazon Stores_ view on Amazon Sales Channel home page, you can click **V
 
 The store dashboard is the primary location for you to view the activity for each of your Amazon stores. With your Amazon Seller stores added and integrated, orders and sales track through your store data view. On the dashboard, you can view revenue, track trends, and review sales data for your listings. Listings and sales are further grouped and tracked by listing type, including active, inactive, and in-progress.
 
-You can also access your [store settings]({% link sales-channels/asc/ob-store-review.md %}), manage your listings, and view sales data and recent order information.
+You can also access your [store settings]({% link sales-channels/asc/ob-store-review.md %}), [manage your listings]({% link sales-channels/asc/managing-product-listings.md %}), and view sales data and recent order information.
 
 ![]({% link sales-channels/asc/assets/amazon-store-dashboard.png %}){: .zoom}
 _Amazon Store Dashboard_

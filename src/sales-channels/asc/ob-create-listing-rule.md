@@ -2,7 +2,7 @@
 title: 'Onboarding: Create Listing Rule'
 ---
 
-Listing rules can be defined during onboarding, but can also be modified at any time after your store setup is complete. After onboarding, you can access the listing rules in the store dashboard. See [Listing Rules]({% link sales-channels/asc/listing-rules.md %}).
+Listing rules can be defined during onboarding, but can also be modified at any time. After onboarding, you can access the [listing rules]({% link sales-channels/asc/listing-rules.md %}) on the store [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
 ## Create a listing rule during onboarding
 
@@ -39,7 +39,7 @@ Listing rules can be defined during onboarding, but can also be modified at any 
 
 After onboarding your store is complete, the information sync between Magento and Amazon is initiated. You can view your Amazon order information in the _Recent Orders_ section of the store dashboard.
 
-By default, order import is disabled. If you [enable order import]({% link sales-channels/asc/order-settings.md %}) in your Order Settings, Amazon orders created after the store is integrated and are in `Pending` or `Unshipped` status with Amazon are imported and can be [managed]({% link sales-channels/asc/managing-orders.md %}) in Magento.
+By default, order import is enabled. This means that corresponding Magento orders are created for your Amazon orders and can be managed in the [Magento Orders]({% link sales/orders.md %}) workflow. You can [disable order import]({% link sales-channels/asc/order-settings.md %}) in your Order Settings, but then you must manage orders in your Amazon Seller Central account.
 
 {:.bs-callout .bs-callout-warning}
-Additional store settings are set to default values during store integration. You should review your [Store Settings]({% link sales-channels/asc/ob-store-review.md %}) to ensure your store is configured for your specific needs.
+Remaining store settings (listings, pricing, rules, fulfillment, more) are initially set to default values. You should review and modify your [Store Settings]({% link sales-channels/asc/ob-store-review.md %}), as needed, to ensure your store is configured for your specific needs.

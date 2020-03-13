@@ -14,7 +14,7 @@ Defining these mapping values increases the potential for exact matches, minimiz
 If you only create the Amazon ASIN attribute (without adding ASIN values per product), your Magento products may not automatically your Amazon listings will automatically. You can [manually assign]({% link sales-channels/asc/creating-assigning-catalog-products.md %}) your products. However, manual matching does not create the data elements needed to share and sync your product data.
 
 {:.bs-callout-info}
-**Important:** If you manually matched a product and you need to update an ASIN, UPC, or other data element for the product, you would have to update the data in both places, in your Magento catalog and in your Amazon listing in your Amazon Seller Central account.
+**Important:** If you manually matched a product and you need to update an ASIN, UPC, or other data element for the product, you must update the data in both places, in your Magento catalog and in your Amazon listing in your Amazon Seller Central account.
 
 We recommend mapping these attributes and values if available. Completing this mapping is not required, but is beneficial for product matching and required for proper catalog syncing between Amazon and Magento.
 

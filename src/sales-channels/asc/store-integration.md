@@ -5,7 +5,7 @@ title: Store Integration
 
 To get started with Amazon Sales Channel, you must create (add) an Amazon Sales Channel store and connect it to your Amazon Seller Account. These two steps integrate your Magento and Amazon accounts to share data, sync products, and more.
 
-_You will need the primary log-in credentials for your Amazon Seller Central account (the email or phone used to create the seller account) for this step._
+_You will need the primary log-in credentials for your Amazon Seller Central account (the email or phone used to create the seller account) to connect your store._
 
 {:.bs-callout-info}
 After integration, you will be prompted annually to renew your Amazon Sales Channel connection to Amazon by granting access again.
@@ -14,7 +14,7 @@ After integration, you will be prompted annually to renew your Amazon Sales Chan
 
 1. In the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
 
-    When adding your first Amazon Sales Channel store, the _Pre-Setup Tasks_ modal appears to review prior to completing the integration. After your first store, pre-setup tasks can be accessed on the [Amazon Sales Channel home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) page under _Learning and Preparation_ the left-side menu.
+    When adding your first Amazon Sales Channel store, the _Pre-Setup Tasks_ modal appears. After your first store is added, pre-setup tasks can be accessed on the [Amazon Sales Channel home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) page under _Learning and Preparation_ in the left-side menu.
 
 1. Click <span class="btn">Add Amazon Store</span>.
 
@@ -25,14 +25,16 @@ After integration, you will be prompted annually to renew your Amazon Sales Chan
 
 1. For **Magento Website to use for Amazon Listing**, choose which of your Magento websites to connect for this Amazon Sales Channel store.
 
+    This setting also defines the default Magento store for [importing Amazon orders]({% link sales-channels/asc/order-settings.md %}).
+
 1. For **Email Address**, enter your preferred contact email address.
 
 1. For **New Store Name**, enter a descriptive name for your new Amazon Sales Channel store.
 
    {:.bs-callout-info}
-   This name is used as a Magento reference only and will identify the store in the list on the [Amazon Sales Channel home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) page. You will want to make it something your team can easily identify. For example, your Amazon store that sells in the United States region might be named `Amazon Store USA`.
+   This name is used as a Magento reference only and will identify the store on the [Amazon Sales Channel home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) page. You want to make it something your team can easily identify. For example, your Amazon store that sells in the United States region might be named `Amazon Store USA`.
 
-1. For **Amazon Marketplace Country**, choose the region/country in which this Amazon Sales Channel store list products. Options:
+1. For **Amazon Marketplace Country**, choose the region/country in which this Amazon Sales Channel store sells products. Options:
 
     - United States
     - Canada
@@ -51,28 +53,30 @@ After integration, you will be prompted annually to renew your Amazon Sales Chan
 
 1. Click <span class="btn">Connect</span>.
 
-   The modal will close and the new store will appear on the [Amazon Sales Channel home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) page with a confirmation message that the store was created successfully.
+   The modal will close and the new store will appear on the [Amazon Sales Channel home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) page with a confirmation message.
 
 ## Connect a store to Amazon Seller Central
 
-1. For the newly added store, click <span class="btn">Connect store</span> on the new store card to launch Amazon Seller Central in a new tab.
+1. On the store dashboard, click <span class="btn">Connect store</span> on the store card to launch Amazon Seller Central in a new tab.
 
 1. Enter your Amazon Seller Central account credentials and click <span class="btn">Sign in</span>.
 
    To complete this connection, you must sign in to your Amazon Seller Central account using the login credentials for the primary user (the email or phone used to create the seller account).
 
-1. Complete the Amazon Two-Factor Authorization (2FA) by entering the code you receive from Amazon and click <span class="btn">Sign in</span>.
+1. If prompted, complete the Amazon Two-Factor Authorization (2FA) by entering the code you receive from Amazon and click <span class="btn">Sign in</span>.
 
-1. Click <span class="btn">Continue</span> on the Amazon Marketplace Web Service confirmation page.
+1. On the _Amazon Marketplace Web Service_ confirmation page, select the "I understand..." checkbox and click <span class="btn">Next</span>.
 
-   You have granted Amazon Sales Channel permission to access and share data with your Amazon Seller Central account. The Amazon page closes and a confirmation message appears for the store integration.
+1. On the _You are almost done_ message, click <span class="btn">Continue</span>.
 
-1. Click **OK** to confirm.
+   You have granted Amazon Sales Channel permission to access and share data with your Amazon Seller Central account. The Amazon page closes and a confirmation message appears.
 
    The [Amazon Sales Channel home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) page opens showing your Amazon store cards.
 
-   ![]({% link sales-channels/asc/assets/asc-dashboard-after-2fa.png %}){: .zoom}
-    _Amazon Sales Channel home with new store card_
+   To view the store dashboard, click **View Store** on the store card.
+
+![]({% link sales-channels/asc/assets/asc-dashboard-after-2fa.png %}){: .zoom}
+_Amazon Sales Channel home with new store card_
 
 Your new Amazon Sales Channel store is now connected to your Amazon Seller Central account.
 
