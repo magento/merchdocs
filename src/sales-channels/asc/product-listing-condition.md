@@ -6,7 +6,7 @@ redirect_from:
 
 Product Listing Condition settings are part of your store listing settings. You can access the listing settings on the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
-Amazon requires a product listing to have a defined condition. If all your products are new, you can select one of the Amazon condition options to represent all of your products as your global condition value. Standard Amazon conditions include:
+Amazon requires a product listing to have a defined condition. If all your products are the same condition, you can select one of the Amazon condition options to represent all of your products as your global condition value. Standard Amazon conditions include:
 
 - New
 - Refurbished

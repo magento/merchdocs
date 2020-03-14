@@ -39,7 +39,7 @@ Listing rules can be defined during onboarding, but can also be modified at any 
 
 After onboarding your store is complete, the information sync between Magento and Amazon is initiated. You can view your Amazon order information in the _Recent Orders_ section of the store dashboard.
 
-By default, order import is enabled. This means that corresponding Magento orders are created for your Amazon orders and can be managed in the [Magento Orders]({% link sales/orders.md %}) workflow. You can [disable order import]({% link sales-channels/asc/order-settings.md %}) in your Order Settings, but then you must manage orders in your Amazon Seller Central account.
-
 {:.bs-callout .bs-callout-warning}
-Remaining store settings (listings, pricing, rules, fulfillment, more) are initially set to default values. You should review and modify your [Store Settings]({% link sales-channels/asc/ob-store-review.md %}), as needed, to ensure your store is configured for your specific needs.
+There are some important store settings (listings, pricing, rules, fulfillment, more) that have default values for a new store. You should review your [Store Settings]({% link sales-channels/asc/default-store-settings.md %}) to ensure your store is set up for your specific needs.
+
+![]({% link images/images/btn-next.png %}){: .Inline} [**Continue to Default Store Settings**]({% link sales-channels/asc/default-store-settings.md %})
