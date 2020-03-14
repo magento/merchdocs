@@ -101,6 +101,8 @@ pages:
           url: "/sales-channels/asc/store-integration.html"
         - label: Create Listing Rule
           url: "/sales-channels/asc/ob-create-listing-rule.html"
+        - label: Default Store Settings
+          url: "/sales-channels/asc/default-store-settings.html"
       - label: Amazon Sales Channel Home
         url: "/sales-channels/asc/amazon-sales-channel-home.html"
         children:
