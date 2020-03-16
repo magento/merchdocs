@@ -20,96 +20,96 @@ _Create Credit Memo_
 
 1. In the button bar at the top of the page, click **Credit Memo**. (The button appears only after an order is invoiced.)
 
-    ![]({% link images/images/order-create-credit-memo.png %}){: .zoom}
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
-    ![]({% link images/images-b2b/order-account-info-credit-memo.png %}){: .zoom}
-    <!--{% endif %}-->
-    _Create Credit Memo_
+   ![]({% link images/images/order-create-credit-memo.png %}){: .zoom}
+   <!--{% if "Default.B2B Only" contains site.edition %}-->
+   ![]({% link images/images-b2b/order-account-info-credit-memo.png %}){: .zoom}
+   <!--{% endif %}-->
+   _Create Credit Memo_
 
-    The New Credit Memo page looks similar to the completed order page, with an Items to Refund section that lists each item from the invoice.
+   The New Credit Memo page looks similar to the completed order page, with an Items to Refund section that lists each item from the invoice.
 
-    ![]({% link images/images/credit-memo-items-to-refund.png %}){: .zoom}
-    _Items to Refund_
+   ![]({% link images/images/credit-memo-items-to-refund.png %}){: .zoom}
+   _Items to Refund_
 
 1. Set the return to stock option:
 
-    {:.bs-callout-info}
-    If an online payment method was used, you cannot edit these fields.
+   {:.bs-callout-info}
+   If an online payment method was used, you cannot edit these fields.
 
-    - If the product is to be returned to inventory, mark the **Return to Stock** checkbox. With Magento Inventory Management enabled, the inventory quantity returns to the source that sent the shipment.
+   - If the product is to be returned to inventory, mark the **Return to Stock** checkbox. With Magento Inventory Management enabled, the inventory quantity returns to the source that sent the shipment.
 
-    - If the product will not be returned to inventory, leave the checkbox blank.
+   - If the product will not be returned to inventory, leave the checkbox blank.
 
-       The Return to Stock checkbox appears only if inventory Stock Options are set to `Decrease Stock When Order Is Placed`.
+      The Return to Stock checkbox appears only if inventory Stock Options are set to `Decrease Stock When Order Is Placed`.
 
 1. Enter the quantity to refund:
 
-    - In the **Qty to Refund** box, enter the number of items to be returned. Then, press the **Enter** key to record the change.
+   - In the **Qty to Refund** box, enter the number of items to be returned. Then, press the **Enter** key to record the change.
 
-        The <span class="btn">Update Qty’s</span> button becomes active.
+      The <span class="btn">Update Qty’s</span> button becomes active.
 
-    - Enter **0** for the **Qty to Refund** of any items that are not to be refunded.
+   - Enter **0** for the **Qty to Refund** of any items that are not to be refunded.
 
     - Click **Update Qty’s** to recalculate the total.
 
-        The amount to be credited cannot exceed the maximum amount that is available for refund.
+      The amount to be credited cannot exceed the maximum amount that is available for refund.
 
 1. Update the **Refunds Totals** section as applicable:
 
-    - In the **Refund Shipping** field, enter any amount that is to be refunded from the shipping fee.
+   - In the **Refund Shipping** field, enter any amount that is to be refunded from the shipping fee.
 
-        This field initially displays the total shipping amount from the order that is available for refund. It is equal to the full shipping amount from the order, less any shipping amount that has already been refunded. Like the quantity, the amount can be reduced, but not increased.
+      This field initially displays the total shipping amount from the order that is available for refund. It is equal to the full shipping amount from the order, less any shipping amount that has already been refunded. Like the quantity, the amount can be reduced, but not increased.
 
-    - In the **Adjustment Refund** field, enter a value to be added to the total amount refunded as an additional refund that does not apply to any particular part of the order (shipping, items, or tax).
+   - In the **Adjustment Refund** field, enter a value to be added to the total amount refunded as an additional refund that does not apply to any particular part of the order (shipping, items, or tax).
 
-        The amount entered cannot raise the total refund higher than the paid amount.
+      The amount entered cannot raise the total refund higher than the paid amount.
 
-    - In the **Adjustment Fee** field, enter a value to be subtracted from the total amount refunded.
+   - In the **Adjustment Fee** field, enter a value to be subtracted from the total amount refunded.
 
-        This amount is not subtracted from a specific section of the order such as shipping, items, or tax.
+      This amount is not subtracted from a specific section of the order such as shipping, items, or tax.
 
-    - If the purchase was paid with store credit, mark the **Refund to Store Credit** checkbox to credit the amount to the customer account balance.
+   - If the purchase was paid with store credit, mark the **Refund to Store Credit** checkbox to credit the amount to the customer account balance.
 
-    - To add a comment, enter the text in the **Credit Memo Comments** box.
+   - To add a comment, enter the text in the **Credit Memo Comments** box.
 
-    - To send an email notification to the customer, mark the **Email Copy of Credit Memo** checkbox.
+   - To send an email notification to the customer, mark the **Email Copy of Credit Memo** checkbox.
 
-    - To include the comments you have entered in the email, mark the **Append Comments** checkbox.
+   - To include the comments you have entered in the email, mark the **Append Comments** checkbox.
 
-        The status of a credit memo notification appears in the completed credit memo next to the credit memo number.
+      The status of a credit memo notification appears in the completed credit memo next to the credit memo number.
 
-        <!--{% if "Default.CE Only" contains site.edition %}-->
-        ![]({% link images/images/credit-memo-order-total.png %}){: .zoom}
-        <!--{% endif %}-->
-        <!--{% if "Default.EE Only" contains site.edition %}-->
-        ![]({% link images/images-ee/credit-memo-order-total.png %}){: .zoom}
-        <!--{% endif %}-->
-        <!--{% if "Default.B2B Only" contains site.edition %}-->
-        ![]({% link images/images-b2b/credit-memo-order-totals.png %}){: .zoom}
-        <!--{% endif %}-->
-        _Refund Totals_
+      <!--{% if "Default.CE Only" contains site.edition %}-->
+      ![]({% link images/images/credit-memo-order-total.png %}){: .zoom}
+      <!--{% endif %}-->
+      <!--{% if "Default.EE Only" contains site.edition %}-->
+      ![]({% link images/images-ee/credit-memo-order-total.png %}){: .zoom}
+      <!--{% endif %}-->
+      <!--{% if "Default.B2B Only" contains site.edition %}-->
+      ![]({% link images/images-b2b/credit-memo-order-totals.png %}){: .zoom}
+      <!--{% endif %}-->
+      _Refund Totals_
 
 1. To complete the process and generate the credit memo, choose one of the following refund option buttons, according to the payment type:
 
-    - Refund Offline
+   - Refund Offline
 
-    - Refund Online
+   - Refund Online
 
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
-    - Refund to Company Credit
+   <!--{% if "Default.B2B Only" contains site.edition %}-->
+   - Refund to Company Credit
 
-    <!--{% endif %}-->
+   <!--{% endif %}-->
 1. To add a comment to the completed credit memo, scroll down to the Comments History section and enter the comment in the box.
 
    A history of all activity related to the order is listed.
 
-    - To send the comment to the customer by email, mark the **Notify Customer by Email** checkbox.
+   - To send the comment to the customer by email, mark the **Notify Customer by Email** checkbox.
 
-    - To post the comment in the customer’s account, mark the **Visible on Frontend** checkbox.
+   - To post the comment in the customer’s account, mark the **Visible on Frontend** checkbox.
 
 1. Click **Submit Comment**.
 
-    In the panel on the left, choose **Credit Memos**. Any credit memos that are associated with this order appear in the list.
+   In the panel on the left, choose **Credit Memos**. Any credit memos that are associated with this order appear in the list.
 
 ## Field Descriptions
 
