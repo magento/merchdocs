@@ -61,7 +61,7 @@ _Create Credit Memo_
    - To return the product to inventory, select the **Return to Stock** checkbox.
 
       The product returns to stock automatically if [Product Stock Options]({% link configuration/catalog/inventory.md %}) is set to `Automatically Return Credit Memo Item to Stock`. With Magento Inventory Management enabled, the item returns to the source that sent the shipment.
- 
+
    - Update the **Qty to Refund**, and click <span class="btn">Update Qty's</span>.
 
       ![]({% link images/images/invoice-credit-memo-items-to-refund.png %}){: .zoom}
@@ -130,7 +130,7 @@ _Create Credit Memo_
    - Select the **Return to Stock** checkbox if you want to return the returned product to inventory.
 
       With Magento Inventory Management enabled, the inventory quantity returns to the source that sent the shipment. The product returns to stock automaticallys if [Product Stock Options]({% link configuration/catalog/inventory.md %}) is set to `Automatically Return Credit Memo Item to Stock`.
- 
+
    - Update the **Qty to Refund**, and click <span class="btn">Update Qty's</span>.
 
       The amount to be credited cannot exceed the maximum amount that is available for refund.
