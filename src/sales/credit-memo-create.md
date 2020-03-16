@@ -87,20 +87,19 @@ _Create Credit Memo_
 
 1. Do the following, as applicable:
 
-   - To refund the amount to the customer's store credit, select the  **Refund to Store Credit** checkbox.
+      <!--{% if "Default.EE-B2B" contains site.edition %}-->
+      - To refund the amount to the customer's store credit, select the  **Refund to Store Credit** checkbox.
 
-   <!--{% if "Default.B2B Only" contains site.edition %}-->
-   - To refund the amount to the customer's company credit, select the **Refund to Company Credit** checkbox.
+      <!--{% endif %}-->
+      <!--{% if "Default.B2B Only" contains site.edition %}-->
+      - To refund the amount to the customer's company credit, select the **Refund to Company Credit** checkbox.
 
-   <!--{% endif %}-->
-   - To issue on offline refund, click <span class="btn">Refund Offline</span>.
-
-   - To issue an online refund, click <span class="btn">Refund</span>.
-
-   <!--{% if "Default.B2B Only" contains site.edition %}-->
-   - If the purchase was paid with company credit, click <span class="btn">Refund to Company Credit</span>.
-
-   <!--{% endif %}-->
+      <!--{% endif %}-->
+      - To issue on offline refund, click <span class="btn">Refund Offline</span>.
+      - To issue an online refund, click <span class="btn">Refund</span>.
+      <!--{% if "Default.B2B Only" contains site.edition %}-->
+      - If the purchase was paid with company credit, click <span class="btn">Refund to Company Credit</span>.
+      <!--{% endif %}-->
 
       ![]({% link images/images/credit-memo-order-total-refund.png %}){: .zoom}
       _Items to Refund_
