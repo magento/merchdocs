@@ -6,24 +6,16 @@ The purpose of Onepage Checkout is to gather the information that is needed and 
 
 Magento’s Onepage Checkout is enabled by default. If you are implementing a custom integration or checkout extension, it might be necessary to disable Onepage Checkout.
 
-## To disable Onepage Checkout
+## Disable Onepage Checkout
 
-1. On the _Admin_ sidebar, click **Stores**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the _Settings_ section, choose **Configuration**.
-
-1. In the _Sales_ section in the left panel, choose **Checkout**.
+1. On the left panel, expand **Sales** and choose **Checkout**.
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Checkout Options** section.
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/config-sales-checkout-checkout-options.png %}){: .zoom}
-    [_Checkout Options_]({% link configuration/sales/checkout.md %})
-    <!--{% endif %}-->
-    <!--{% if "Default.EE-B2B" contains site.edition %}-->
     ![]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
-    [_Checkout Options_]({% link configuration/sales/checkout.md %})
-    <!--{% endif %}-->
+    <span class="caption-edition-ee">[_Checkout Options_]({% link configuration/sales/checkout.md %})</span>
 
 1. If necessary, clear the **Use system value** checkbox.
 

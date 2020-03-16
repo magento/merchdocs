@@ -18,13 +18,14 @@ If the customer does not have a default shipping address, the Shipping page disp
 ![]({% link images/images-ee/storefront-checkout-address-search-no-default.png %}){: .zoom}
 _No address selected_
 
-<!--{% if "Default.B2B Only" contains site.edition %}-->Enabling address search also affects the checkout for negotiated quotes where customer's number of saved addresses meets or exceeds the configured limit. When the quote is complete and the customer proceeds to the checkout, only the selected shipping address is displayed. The page also displays a message that the shipping address is locked and can only be changed in the quote.
+<div class="edition-b2b" markdown="1">
+Enabling address search also affects the checkout for negotiated quotes where customer's number of saved addresses meets or exceeds the configured limit. When the quote is complete and the customer proceeds to the checkout, only the selected shipping address is displayed. The page also displays a message that the shipping address is locked and can only be changed in the quote.
+</div>
 
 ![]({% link images/images-b2b/storefront-checkout-quote-address-limit.png %}){: .zoom}
-_Shipping address locked for quote_
+<span class="caption-edition-b2b">_Shipping address locked for quote_</span>
 
-<!--{% endif %}-->
-## To enable address search:
+## Enable address search
 
 1. On the _Admin_ sidebar, click **Stores**.
 
@@ -37,7 +38,7 @@ _Shipping address locked for quote_
     ![]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
     [_Checkout Options_]({% link configuration/sales/checkout.md %})
 
-1. Set **Enable Address Search** to "Yes".
+1. Set **Enable Address Search** to `Yes`.
 
 1. Set the **Number of Customer Addresses Limit** option to specify the threshold for including the address search feature.
 

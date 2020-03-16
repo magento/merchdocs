@@ -58,10 +58,8 @@ Log in to your **Magento Shipping** account in the Magento Shipping Portal. Acce
 
       {:.bs-callout-info}
       To run Magento Shipping in a testing environment, make sure to generate and copy the test token instead of the production token.
-    <!--{% if "Default.EE-B2B" contains site.edition %}-->
 
-1. If your store offers [return merchandise authorization]({% link sales/returns.md %}), set **Enabled for RMA** to `Yes`.
-  <!--{% endif %}-->
+1. <span class="card-edition-ee">If your store offers [return merchandise authorization]({% link sales/returns.md %}), set **Enabled for RMA** to `Yes`.</span>
 
 1. (Optional) Configure customer shipping options:
 
@@ -94,13 +92,8 @@ Log in to your **Magento Shipping** account in the Magento Shipping Portal. Acce
 
 1. Click <span class="btn">Save Config</span>.
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/config-sales-shipping-methods-magento-shipping.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE-B2B" contains site.edition %}-->
     ![]({% link images/images-ee/config-sales-shipping-methods-magento-shipping.png %}){: .zoom}
-    <!--{% endif %}-->
-    [_Magento Shipping_]({% link configuration/sales/shipping-methods.md %})
+    <span class="caption-edition-ee">[_Magento Shipping_]({% link configuration/sales/shipping-methods.md %})</span>
 
 ## Step 3: Complete the Remaining Settings
 
@@ -202,7 +195,6 @@ On the _Admin_ sidebar, click **Stores** and choose one of the following in the 
 1. Follow the instructions to complete the [Location]({% link shipping/magento-shipping-locations.md %}), [Carrier]({% link shipping/magento-shipping-carriers.md %}), and [Package]({% link shipping/magento-shipping-packaging.md %}) information.
 
 1. When the profiles are complete, create [Shipping Experience Rules]({% link shipping/magento-shipping-experience-rules.md %}) to add logic and automate parts of your shipping workflow.
-
 
     ![]({% link images/images/config-sales-shipping-methods-magento-shipping-sections.png %}){: .zoom}
     _Shipping Profiles Configuration_

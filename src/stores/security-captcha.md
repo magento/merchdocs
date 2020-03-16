@@ -16,7 +16,7 @@ For an extra level of security, you can add a CAPTCHA to the Admin Sign In and 
 ![Magento Admin - Sign in with CAPTCHA]({% link images/images/security-captcha-admin.png %}){: .zoom}
 _Admin Sign In with CAPTCHA_
 
-### Configure CAPTCHA for the Admin:
+### Configure CAPTCHA for the Admin
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -65,18 +65,10 @@ _Admin Sign In with CAPTCHA_
 
 Customers can be required to enter a CAPTCHA each time they log in to their accounts, or after several unsuccessful attempts to log in. In addition, numerous forms used throughout the storeferont can be configured to require verification by CAPTCHA.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/config-customers-customer-configuration-captcha.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
 ![]({% link images/images-ee/config-customers-customer-configuration-captcha.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({% link images/images-b2b/config-customers-customer-configuration-captcha.png %}){: .zoom}
-<!--{% endif %}-->
-[_Customer CAPTCHA Configuration_]({% link configuration/customers/customer-configuration.md %})
+<span class="caption-edition-ee">[_Customer CAPTCHA Configuration_]({% link configuration/customers/customer-configuration.md %})</span>
 
-### Configure CAPTCHA for the storefront:
+### Configure CAPTCHA for the storefront
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -97,18 +89,12 @@ Customers can be required to enter a CAPTCHA each time they log in to their acco
       - Login
       - Forgot password
       - Contact Us
-      - Change password<!--{% if "Default.CE Only" contains site.edition %}-->
-      - Payflow Pro (see [security patch](https://support.magento.com/hc/en-us/articles/360025515991))
-      - Send to Friend Form
-      - Share Wishist Form<!--{% endif %}--><!--{% if "Default.EE Only" contains site.edition %}-->
+      - Change password
       - Share Wishlist Form
-      - Add Gift Card Code
       - Payflow Pro (see [security patch](https://support.magento.com/hc/en-us/articles/360025515991))
-      - Send to Friend Form<!--{% endif %}--><!--{% if "Default.B2B Only" contains site.edition %}-->
-      - Share Wishlist Form
-      - Create company
-      - Add Gift Card Code
-      - Payflow Pro (see [security patch](https://support.magento.com/hc/en-us/articles/360025515991))<!--{% endif %}-->
+      - {:.edition-ce}Send to Friend Form
+      - {:.edition-ee}Add Gift Card Code
+      - {:.edition-b2b}Create company
 
     - Set **Displaying Mode** to one of the following:
 

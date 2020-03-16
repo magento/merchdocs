@@ -4,22 +4,22 @@ title: 'Checkout Step 1: Shipping'
 
 The first step of the checkout process is for the customer to complete the shipping address information, and to choose the shipping method. If the customer has an account, the shipping address is entered automatically, but can be changed if needed.
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+<div class="edition-ee" markdown="1">
 The format of the street address for the recipient and sender is determined by the properties of the [customer address attribute]({% link stores/attributes-customer-address.md %}). The input validation setting determines the valid characters that can be used in a shipping address.
+</div>
 
-<!--{% endif %}-->
 The progress bar at the top of the page follows each step of the checkout process, and the Order Summary shows the information entered so far.
 
 ![]({% link images/images/storefront-checkout-step1-shipping.png %}){: .zoom}
 _Checkout Step 1: Shipping_
 
-## To ship to a different address
+## Ship to a different address
 
 1. If there are additional entries in the address book, find the address where the order is to be shipped.
 
 1. To select the address, click **Ship Here**.
 
-## To add a new address
+## Add a new address
 
 1. At the bottom of the **Shipping Address** section, click **+ New Address**.
 
@@ -39,7 +39,7 @@ _Checkout Step 1: Shipping_
     ![]({% link images/images/storefront-checkout-step1-shipping-new-address-selected.png %}){: .zoom}
     _New Shipping Address Selected_
 
-## To choose the shipping method:
+## Choose the shipping method
 
 1. In the list of [shipping]({% link shipping/shipping.md %}) methods, choose the option that you want to use.
 

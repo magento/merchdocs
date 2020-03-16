@@ -34,11 +34,9 @@ After choosing the location, the customer is prompted to choose the collection p
 
 During Order Review, the collection point location appears in the Ship To section, rather than the customer’s shipping address.
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-## Returns
+## <span class="heading-edition-ee">Returns</span>
 
 When creating a return shipment, you can generate a list of shipping quotes and choose the carrier that you want to use. The return label can be included in the original shipment.
 
 ![]({% link images/images-ee/return-shipment-shipping-quotes.png %}){: .zoom}
 _Shipping Quotes for RMA Request_
-<!--{% endif %}-->

@@ -11,11 +11,11 @@ You can have up to five different email addresses to represent distinct function
 
 Each identity and its associated email address can be associated with specific automated email messages and appear as the sender of email messages that are sent from your store.
 
-## Step 1: Set Up the Email Addresses for Your Domain
+## Step 1: Set up the email addresses for your domain
 
 Before you can configure email addresses for the store, each must be set up as a valid email address for your domain. Follow the instructions from your server administrator or email hosting provider to create each email addresses that is needed.
 
-## Step 2: Configure the Email Addresses for Your Store
+## Step 2: Configure the email addresses for your store
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -34,7 +34,7 @@ Before you can configure email addresses for the store, each must be set up as a
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-## Step 3: Update the Sales Email Configuration
+## Step 3: Update the sales email configuration
 
 If you use custom email addresses, make sure to update the configuration of any related email messages, so the correct identity appears as the sender.
 
@@ -46,9 +46,7 @@ If you use custom email addresses, make sure to update the configuration of any 
     - Invoice and Invoice Comments
     - Shipment and Shipment Comments
     - Credit Memo and Credit Memo Comments
-    <!--{% if "Default.EE-B2B" contains site.edition %}-->
-    - RMA, RMA Authorization, RMA Admin Comments, and RMA Customer Comments
-    <!--{% endif %}-->
+    - {:.edition-ee}RMA, RMA Authorization, RMA Admin Comments, and RMA Customer Comments
 
 1. Starting with **Order**, expand the section for each message and make sure that the correct sender is selected.
 

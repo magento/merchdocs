@@ -7,29 +7,21 @@ Your store can be configured to require shoppers to open an account before makin
 ![]({% link images/images/storefront-checkout-as-guest.png %}){: .zoom}
 _Checkout as Guest_
 
-## To disable guest checkout:
+## Disable guest checkout
 
-1. On the _Admin_ sidebar, click **Stores**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the _Settings_ section, choose **Configuration**.
+1. On the left panel, expand **Sales** and choose **Checkout**.
 
-1. In the _Sales_ section in the left panel, choose **Checkout**.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Checkout Options** section.
 
-1. Expand ![]({% link images/images/btn-expand.png %})the **Checkout Options** section.
-
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/config-sales-checkout-checkout-options.png %}){: .zoom}
-    [_Checkout Options_]({% link configuration/sales/checkout.md %})
-    <!--{% endif %}-->
-    <!--{% if "Default.EE-B2B" contains site.edition %}-->
     ![]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
-    [_Checkout Options_]({% link configuration/sales/checkout.md %})
-    <!--{% endif %}-->
+    <span class="caption-edition-ee">[_Checkout Options_]({% link configuration/sales/checkout.md %})</span>
 
 1. If necessary, clear the **Use system value** checkbox.
 
 1. If the setting is for a specific store view, choose the store view where the configuration applies. When prompted, click **OK** to continue.
 
-1. Set **Allow Guest Checkout** to "No".
+1. Set **Allow Guest Checkout** to `No`.
 
 1. Click **Save Config**.

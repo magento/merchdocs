@@ -5,6 +5,10 @@ sections:
    content: Instant Purchase allows customers to speed through the checkout process using information that is saved in their account.
    url: /sales/checkout-instant-purchase.html
 
+ - title: Quick Order
+   content: <span class="card-edition-b2b">Configure Quick Order to reduce the order process to several clicks for logged in customers when they know the product name or SKU of the products they want to order.</span>
+   url: /sales/quick-order.html
+
  - title: Shopping Cart
    content: The cart is where the order total is calculated, along with discount coupons and estimated shipping and tax.
    url: /sales/cart.html
@@ -18,7 +22,7 @@ sections:
    url: /sales/checkout-process.html
 ---
 
-Magento reduces ordering errors by automatically verifying the SKU and availability of all items before an order is submitted. In this section of the guide, you’ll learn how to configure the cart and checkout options, and offer assistance to your customers. {% if "Default.B2B Only" contains site.edition %}Magento Commerce for B2B users can also configure [Quick Order]({% link sales/quick-order.md %}) to reduces the order process to several clicks for logged in customers when they know the product name or SKU of the products they want to order.{% endif %}
+Magento reduces ordering errors by automatically verifying the SKU and availability of all items before an order is submitted. In this section of the guide, you’ll learn how to configure the cart and checkout options, and offer assistance to your customers.
 
 {% include grid.html sections=page.sections %}
 

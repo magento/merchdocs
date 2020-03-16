@@ -20,11 +20,5 @@ In this guide, you can drill down through any section of the reference and follo
 - [Services]({% link configuration/services.md %})
 - [Advanced]({% link configuration/advanced.md %})
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![Magento Admin - Configuration]({% link images/images/config.png %}){: .zoom}
-_Configuration_
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![Magento Admin - Configuration]({% link images/images-ee/config-ee.png %}){: .zoom}
-_Configuration_
-<!--{% endif %}-->
+<span class="caption-edition-ee">_Configuration_</span>
