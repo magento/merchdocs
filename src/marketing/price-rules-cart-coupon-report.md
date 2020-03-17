@@ -27,16 +27,16 @@ _Coupons Report_
 
     - Set **Date Used** to one of the following:
 
-        - `Order Created`
-        - `Order Updated`
+      - `Order Created`
+      - `Order Updated`
 
         The Order Updated report is created in real-time and does not require a refresh.
 
     - To define the period of time covered by the report, set **Period** to one of the following:
 
-        - `Day`
-        - `Month`
-        - `Year`
+      - `Day`
+      - `Month`
+      - `Year`
 
     - To define the date range of the report, enter the **From** and **To** dates in M/D/YY format.
 

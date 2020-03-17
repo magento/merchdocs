@@ -122,17 +122,17 @@ The selection of value-added delivery options is determined by shipping method a
 
 1. (Magento Shipping UPS - US only):
 
-   - If available and applicable, mark the **Adult Signature Required** checkbox.
+    - If available and applicable, mark the **Adult Signature Required** checkbox.
 
-   - If you want to prevent the delivery from being redirected or rerouted by the recipient or driver, choose **Direct Delivery Only**.
+    - If you want to prevent the delivery from being redirected or rerouted by the recipient or driver, choose **Direct Delivery Only**.
 
-   - If needed for a time-critical delivery, mark the **Saturday Delivery** checkbox.
+    - If needed for a time-critical delivery, mark the **Saturday Delivery** checkbox.
 
 1. To identify the type of address, set **Destination Address Type** to one of the following:
 
-   - Business
-   - Residential
-   - Post Office Box
+    - Business
+    - Residential
+    - Post Office Box
 
     ![]({% link images/images/shipment-magento-shipping-add-ons.png %}){: .zoom}
     _Add-Ons_
@@ -141,9 +141,9 @@ The selection of value-added delivery options is determined by shipping method a
 
 1. Set customer shipping preferences:
 
-   - To use the customer’s preferred method of shipping, mark the **Customer Preference** checkbox.
+    - To use the customer’s preferred method of shipping, mark the **Customer Preference** checkbox.
 
-   - To override the customer’s preferred method, clear the **Customer Preference** checkbox. Then, choose another method.
+    - To override the customer’s preferred method, clear the **Customer Preference** checkbox. Then, choose another method.
 
 1. Click **Get Quotes**.
 

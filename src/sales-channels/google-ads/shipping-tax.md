@@ -18,16 +18,16 @@ We recommend overestimating amounts if you cannot provide an exact match for cos
 
 1. Select and set a flat rate or configure in Google to Set your shipping cost:
 
-   * To assign a flat shipping rate for all your products, select *Use a flat rate for all orders* and enter an amount per country listed. To set free shipping, select this option and enter 0 for the flat rate.
-   * To configure your shipping costs in Google Merchant Center, select *I will set this up on Google Merchant Center*.
+    - To assign a flat shipping rate for all your products, select *Use a flat rate for all orders* and enter an amount per country listed. To set free shipping, select this option and enter 0 for the flat rate.
+    - To configure your shipping costs in Google Merchant Center, select *I will set this up on Google Merchant Center*.
 
     {:.bs-callout-info}
     If you select this option and your country's required shipping costs, you may receive an account error until you configure this setting in Google Merchant Center.
 
-1. 	Select and set configurations to **Set your tax cost**:
+1. Select and set configurations to **Set your tax cost**:
 
-    * If you are operating inside of the United States, select **Use auto tax estimation (U.S. Only)**. If you only sell and ship to some states in the US, select the states where you operate from the list or by entering the name. Google provides estimated taxes based on the address of customers and your configurations. For details, see Google's [Set up tax settings (US only)][1].
-    * If you are operating out of a country that uses VAT, or have no nexus in the United States, select **Don't configure tax/VAT is included in my product price**.
+    - If you are operating inside of the United States, select **Use auto tax estimation (U.S. Only)**. If you only sell and ship to some states in the US, select the states where you operate from the list or by entering the name. Google provides estimated taxes based on the address of customers and your configurations. For details, see Google's [Set up tax settings (US only)][1].
+    - If you are operating out of a country that uses VAT, or have no nexus in the United States, select **Don't configure tax/VAT is included in my product price**.
 
 1. When complete, click <span class="btn">Next</span>.
 

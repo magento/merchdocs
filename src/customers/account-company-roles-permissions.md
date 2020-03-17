@@ -33,9 +33,9 @@ The system has one predefined Default User role, which you can use “as is" or 
 
 1. Under _Role Permissions_, do one of the following:
 
-  - Select the checkbox of each resource or activity that users assigned the role have permission to access.
+   - Select the checkbox of each resource or activity that users assigned the role have permission to access.
 
-  - Select the **All** checkbox. Then, clear the checkbox of each resource or activity that users assigned to the role do not have permission to access.
+   - Select the **All** checkbox. Then, clear the checkbox of each resource or activity that users assigned to the role do not have permission to access.
 
 1. Click <span class="btn">Save Role</span>.
 
@@ -81,27 +81,51 @@ The system has one predefined Default User role, which you can use “as is" or 
 ## Role Permissions
 
 - All
-  - Sales
-    - Checkout (place order)
+
+   - Sales
+
+     - Checkout (place order)
+
 - Use Pay On Account method
-  - View Orders
+
+   - View Orders
+
 - View orders of subordinate users
+
 - Quotes
-  - View
+
+   - View
+
 - Request, Edit, Delete
+
 - Checkout with quote
+
 - View quotes of subordinate users
+
 - Company Profile
-  - Account Information (View)
-    - Edit
-  - Legal Address
-    - Edit
-  - Contacts (View)
-  - Payment Information (View)
+
+   - Account Information (View)
+
+     - Edit
+
+   - Legal Address
+
+     - Edit
+
+   - Contacts (View)
+
+   - Payment Information (View)
+
 - Company User Management
-  - View roles and permissions
-    - Manage roles and permissions
-  - View users and teams
-  - Manage users and teams
+
+   - View roles and permissions
+
+     - Manage roles and permissions
+
+   - View users and teams
+
+   - Manage users and teams
+
 - Company Credit
-  - View
+
+   - View

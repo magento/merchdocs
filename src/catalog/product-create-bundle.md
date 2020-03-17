@@ -10,12 +10,12 @@ A bundle is a _build your own_, customizable product. Each item in a bundle can 
     ![]({% link images/images/product-bundle.png %}){: .zoom}
     _Bundle Product_
 
-The selection of options appears when the customer clicks either the _Customize_ and _Add to Cart_ button. Because the products that are included in the bundle vary, the SKU, Price, and Weight can be set to either a dynamic or fixed value.
+The options appear when the customer clicks either **Customize** or **Add to Cart**. Because the products that are included in the bundle vary, the SKU, Price, and Weight can be set to either a dynamic or fixed value.
 
 {:.bs-callout-info}
-Minimum Advertised Price (MAP) is not available for Bundle products with dynamic pricing.
+Minimum Advertised Price (MAP) is not available for Bundle products that use dynamic pricing.
 
-If [Instant Purchase]({% link sales/checkout-instant-purchase.md %}) is available, the _Instant Purchase_ button appears below the **Add to Cart** button for each item in the bundle.
+If [Instant Purchase]({% link sales/checkout-instant-purchase.md %}) is available, the _Instant Purchase_ button appears below the _Add to Cart_ button for each item in the bundle.
 
 ![]({% link images/images/product-bundle-customize.png %}){: .zoom}
 _Customize Bundle_
@@ -26,7 +26,7 @@ The following instructions take you through the process of creating a bundle pro
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. In the top-right corner on the **Add Product** ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu, choose **Bundle Product**.
+1. In the upper-right corner on the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu, choose **Bundle Product**.
 
     ![]({% link images/images/21product-add-bundle.png %}){: .zoom}
     _Add Bundle Product_
@@ -35,7 +35,7 @@ The following instructions take you through the process of creating a bundle pro
 
 To choose the [attribute set]({% link stores/attribute-sets.md %}) that is used as a template for the product, do one of the following:
 
-- In the **Search** box, enter the name of the attribute set,
+- For **Search**, enter the name of the attribute set,
 - In the list, choose the attribute set that you want to use.
 
 The form is updated to reflect the change.
@@ -43,7 +43,7 @@ The form is updated to reflect the change.
 ![]({% link images/images/product-create-choose-attribute-set.png %}){: .zoom}
 _Choose Template_
 
-## Step 3: Complete the Required Settings
+## Step 3: Complete the required settings
 
 1. Enter the product **Product Name**.
 
@@ -53,22 +53,22 @@ _Choose Template_
 
     - A **Dynamic SKU** can be assigned automatically to each bundle item by adding a suffix to the default SKU. By default, this is set to `Yes`.
 
-    - If you prefer to assign a unique SKU for each bundle item, set **Dynamic SKU** to `No` ( ![]({% link images/images/btn-switch-no.png %})).
+    - If you prefer to assign a unique SKU for each bundle item, set **Dynamic SKU** to `No`.
 
     ![]({% link images/images/product-bundle-dynamic-sku-price.png %}){: .zoom}
     _Dynamic SKU and Price_
 
 1. To determine the price of the bundle, do one of the following:
 
-    - To have the price reflect the options chosen by the customer, leave the **Dynamic Price** set to `Yes` and the **Price** field blank.
+    - To have the price reflect the options chosen by the customer, set **Dynamic Price** to `Yes` and leave **Price** blank.
 
-    - To charge a fixed price for the bundle, set **Dynamic Price** to `No` ( ![]({% link images/images/btn-switch-no.png %})) and enter the **Price** that you want to charge for the bundle.
+    - To charge a fixed price for the bundle, set **Dynamic Price** to `No` and enter the **Price** that you want to charge for the bundle.
 
-1. Because the product is not yet ready to publish, set **Enable Product** to `No` ( ![]({% link images/images/btn-switch-no.png %}) ).
+1. Because the product is not yet ready to publish, set **Enable Product** to `No`.
 
 1. Click <span class="btn">Save</span> and continue.
 
-    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the top-left corner.
+    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the upper-left corner.
 
 1. Choose the **Store View** where the product is to be available.
 
@@ -92,18 +92,18 @@ _Choose Template_
 
 1. To determine the weight of the bundle, do one of the following:
 
-    - To have the weight reflect the options chosen by the customer, leave **Dynamic Weight** set to `Yes` and the **Weight** field blank.
+    - To have the weight reflect the options chosen by the customer, set **Dynamic Weight** set `Yes` and leave **Weight** blank.
 
-    - To assign a fixed weight to the bundle, set **Dynamic Weight** to `No` ( ![]({% link images/images/btn-switch-no.png %})) and enter the **Weight** of the bundle.
+    - To assign a fixed weight to the bundle, set **Dynamic Weight** to `No` and enter the **Weight** of the bundle.
 
     ![]({% link images/images/product-bundle-dynamic-weight.png %}){: .zoom}
     _Dynamic Weight_
 
-1. To feature the product in the list of[ new products]({% link cms/widget-new-products-list.md %}), select the **Set Product as New** checkbox.
+1. To feature the product in the list of [new products]({% link cms/widget-new-products-list.md %}), select the **Set Product as New** checkbox.
 
-1. Accept the default **Visibility** setting, `Catalog, Search`.
+1. Accept the default **Visibility** setting of `Catalog, Search`.
 
-1. To assign **Categories** to the product, click the **Select…** box and do either of the following:
+1. To assign Categories to the product, click the **Select…** box and do either of the following:
 
     **Choose an existing category:**
 
@@ -161,18 +161,18 @@ _Choose Template_
       ![]({% link images/images/product-bundle-add-products-to-option.png %}){: .zoom}
       _Add Selected Products_
 
-    - After the items appear in the Options section, choose one to be the **Default** selection.
+    - After the items appear in the _Options_ section, choose an item to be the **Default** selection.
 
-    - In the **Default Quantity** column, enter the quantity of each item that is to be added to the bundle when a customer chooses the item.
+    - In the _Default Quantity_ column, enter the quantity of each item that is to be added to the bundle when a customer chooses the item.
 
-    - To allow customers to change the quantity of a bundle item, select the **User Defined** option.
+    - To allow customers to change the quantity of a bundle item, select **User Defined**.
 
       {:.bs-callout-info}
-      The quantity can be a preset or user-defined value. However, do not assign the User Defined property to checkbox or multiple-select input types.
+      The quantity can be a preset or user-defined value. However, do not assign the _User Defined_ property to checkbox or multiple-select input types.
 
       By default, the Default Quantity that is included in a bundle item cannot be changed by the customer. However, the customer can enter the quantity of the item that is to be included in the bundle.
 
-      For example, if the Default Quantity of the Sprite Status Ball is set to `2`, and the customer orders `4` of that bundle option, the total number of total balls purchased is `8`.
+      For example, if the Default Quantity of the Sprite Status Ball is set to `2` and the customer orders `4` of that bundle option, the total number of total balls purchased is `8`.
 
       ![]({% link images/images/product-bundle-item-detail.png %}){: .zoom}
       _Item Detail_
@@ -229,7 +229,7 @@ Scroll down and complete the information in the following sections as needed:
 
     **Method 2: Save and close**
 
-    On the **Save** (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
+    On the _Save_ (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
 
     ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
     _Save & Close_
@@ -259,7 +259,7 @@ Scroll down and complete the information in the following sections as needed:
 | ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | Bundle items can be simple or virtual products without custom options. |
 | ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | The Price View can be set to either `Price Range` or `As Low As`. |
 | ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | SKU and Weight can be either `Fixed` or `Dynamic`. |
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | The quantity can be a preset or user-defined value. However, do not assign the User Defined property to checkbox or multiple-select input types. |
+| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | The quantity can be a preset or user-defined value. However, do not assign the _User Defined_ property to checkbox or multiple-select input types. |
 | ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | Bundle items can be shipped together or separately. |
 
 <style>

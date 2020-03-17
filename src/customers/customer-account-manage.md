@@ -42,8 +42,8 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 
 1. Set the **Actions** control to one of the following:
 
-   - `Active`
-   - `Inactive`
+    - `Active`
+    - `Inactive`
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 
@@ -72,36 +72,36 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 
 **Method 1:** Quick Edit
 
-   1. In the first column, select the checkbox of the customer account to be edited.
+1. In the first column, select the checkbox of the customer account to be edited.
 
-   1. Set the **Actions** column to `Edit`.
+1. Set the **Actions** column to `Edit`.
 
-         The value of each value that can be updated appears in a text box. Only some values of the selected customer record can be edited from the grid.
+    The value of each value that can be updated appears in a text box. Only some values of the selected customer record can be edited from the grid.
 
-         ![]({% link images/images/customers-grid-quick-edit.png %}){: .zoom}
-         _Quick Edit_
+    ![]({% link images/images/customers-grid-quick-edit.png %}){: .zoom}
+    _Quick Edit_
 
-   1. Update any of the following values, as needed:
+1. Update any of the following values, as needed:
 
-      - Email
-      - Group
-      - Phone
-      - ZIP
-      - Web Site
-      - Tax/VAT Number
-      - Gender
+    - Email
+    - Group
+    - Phone
+    - ZIP
+    - Web Site
+    - Tax/VAT Number
+    - Gender
 
-   1. Click **Save**.
+1. Click **Save**.
 
 **Method 2:** Full Edit
 
-   1. In the grid, find the customer record to be edited.
+1. In the grid, find the customer record to be edited.
 
-   2. In the _Actions_ column on the far right, click **Edit**.
+1. In the _Actions_ column on the far right, click **Edit**.
 
-   3. Make the necessary changes to the company information.
+1. Make the necessary changes to the company information.
 
-      To learn more, see [Updating Customer Accounts]({% link customers/customer-account-update.md %}).
+    To learn more, see [Updating Customer Accounts]({% link customers/customer-account-update.md %}).
 
 ## Actions Control
 
