@@ -108,7 +108,7 @@ _Create Credit Memo_
 
 1. On the _Admin_ sidebar, click **Sales** > **Orders**.
 
-1. Find the completed order in the grid. Then click the **View** link to open the order.
+1. Find the completed order in the grid and click the **View** link to open it.
 
 1. In the button bar at the top of the page, click **Invoice**. Scroll down to the bottom of the page and click <span class="btn">Submit Invoice"</span>.
 
