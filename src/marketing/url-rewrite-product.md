@@ -33,11 +33,11 @@ If you are not sure, open each product page in your store, and copy the path fro
 
 1. Before you proceed, do the following to verify that the request path is available.
 
-   - In the search filter at the top of the **Request Path** column, enter the URL key of the page to be redirected and click <span class="btn">Search</span>.
+    - In the search filter at the top of the **Request Path** column, enter the URL key of the page to be redirected and click <span class="btn">Search</span>.
 
-   - If there are multiple redirect records for the page, find the one that matches the applicable store view and open it in edit mode.
+    - If there are multiple redirect records for the page, find the one that matches the applicable store view and open it in edit mode.
 
-   - In the upper-right corner, click <span class="btn">Delete</span>. When prompted, click <span class="btn">OK</span> to confirm.
+    - In the upper-right corner, click <span class="btn">Delete</span>. When prompted, click <span class="btn">OK</span> to confirm.
 
 1. In the upper-right corner of the URL Rewrites page, click <span class="btn">Add URL Rewrite</span>.
 
@@ -61,13 +61,13 @@ If you are not sure, open each product page in your store, and copy the path fro
 
     - In the **Request Path** field, replace the default by entering the URL key and suffix (if applicable) of the original product request. This is the _redirect from_ product that you identified in the planning step.
 
-    {:.bs-callout-info}
-    The Request Path must be unique for the specified store. If there is already a redirect that uses the same Request Path, you will receive an error when you try to save the redirect. The previous redirect must be deleted before you can create a new one.
+      {:.bs-callout-info}
+      The Request Path must be unique for the specified store. If there is already a redirect that uses the same Request Path, you will receive an error when you try to save the redirect. The previous redirect must be deleted before you can create a new one.
 
     - Set **Redirect Type** to one of the following:
 
-        - `Temporary (302)`
-        - `Permanent (301)`
+      - `Temporary (302)`
+      - `Permanent (301)`
 
     - For your own reference, enter a brief **Description** of the rewrite.
 

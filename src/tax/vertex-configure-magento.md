@@ -104,11 +104,11 @@ If you need to identify taxability based on information in your Magento store be
 
 1. Expand the area for the category you want to use to map a Magento field. There are three available flexible field categories:
 
-   - **Code Fields** - Use this category to define a fields using an alphanumeric string value with a maximum length of 40 characters. Strings that exceed the size limit are truncated. You can create a maximum of 25 flexible code fields.
+    - **Code Fields** - Use this category to define a fields using an alphanumeric string value with a maximum length of 40 characters. Strings that exceed the size limit are truncated. You can create a maximum of 25 flexible code fields.
 
-   - **Numeric Fields** - Use this category to define fields using numeric values for data, such as durations and weights, including floating decimal points. You can create a maximum of 10 flexible numeric fields.
+    - **Numeric Fields** - Use this category to define fields using numeric values for data, such as durations and weights, including floating decimal points. You can create a maximum of 10 flexible numeric fields.
 
-   - **Date Fields** - Use this category to define fields using dates in the format YYYY/MM/DD. You can create a maximum of five flexible date fields.
+    - **Date Fields** - Use this category to define fields using dates in the format YYYY/MM/DD. You can create a maximum of five flexible date fields.
 
 1. For the _Field ID_ you want to configure, click the **Data Source** option to display the list of Magento fields and select the field to use as a flexible field in Vertex Cloud.
 

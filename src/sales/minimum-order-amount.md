@@ -28,8 +28,8 @@ _Minimum Order Message in Cart_
 
     - Set **Include Tax to Amount** to one of the following:
 
-        - `Yes` – Requires the subtotal to meet the minimum amount with tax included.
-        - `No` – Requires the subtotal to meet the minimum amount without tax.
+        |`Yes` |Requires the subtotal to meet the minimum amount with tax included.|
+        |`No` |Requires the subtotal to meet the minimum amount without tax.|
 
 1. Optionally, customize minimum order amount message settings:
 
@@ -45,9 +45,9 @@ _Minimum Order Message in Cart_
 
     - Optionally, customize minimum order amount message settings:
 
-       - To customize the message that appears at the top of the cart for multi-address orders that do not meet the minimum, enter the text in the **Multi-address Description Message** box.
+      - To customize the message that appears at the top of the cart for multi-address orders that do not meet the minimum, enter the text in the **Multi-address Description Message** box.
 
-       - To customize the shopping cart error message for multi-address orders that do not meet the minimum, enter the text in the **Multi-address Error to Show in Shopping Cart** box.
+      - To customize the shopping cart error message for multi-address orders that do not meet the minimum, enter the text in the **Multi-address Error to Show in Shopping Cart** box.
 
        Leave the message description fields blank to use the default messages.
 

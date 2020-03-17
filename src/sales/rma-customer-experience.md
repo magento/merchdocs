@@ -36,9 +36,9 @@ As a best practice, make sure ro include a description of your RMA requirements 
 
 1. Set **Resolution** to one of the following:
 
-   - Exchange
-   - [Refund]({% link sales/refunds-customer-account.md %})
-   - [Store Credit]({% link sales/store-credit.md %})
+    - Exchange
+    - [Refund]({% link sales/refunds-customer-account.md %})
+    - [Store Credit]({% link sales/store-credit.md %})
 
 1. Set **Item Condition** to one of the following:
 

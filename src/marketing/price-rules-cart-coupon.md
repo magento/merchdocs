@@ -16,14 +16,14 @@ Coupon codes can be sent by email, or included in newsletters, catalogs, and adv
 
 1. On the **Rule Information** section, set **Coupon** to `Specific Coupon`.
 
-   - Enter a **Coupon Code** to be used with the promotion.
+    - Enter a **Coupon Code** to be used with the promotion.
 
         The format of the code as numeric, alphanumeric or alphabetical is determined by the [configuration]({% link marketing/price-rules-cart-coupon-code-configure.md %}).
 
-   - To limit the number of times the coupon can be used, complete the following:
+    - To limit the number of times the coupon can be used, complete the following:
 
-        - **Uses per Coupon**
-        - **Uses per Customer**
+      - **Uses per Coupon**
+      - **Uses per Customer**
 
         For unlimited use, leave these fields blank.
 
@@ -81,21 +81,21 @@ The generation of discount coupons is an asynchronous operation, which executes 
     ![Cart price rule - manage coupon codes]({% link images/images/price-rule-cart-manage-coupon-codes.png %}){: .zoom}
     _Manage Coupon codes_
 
-   - In the **Coupons Qty** field, enter the number of coupons that you want to generate.
+    - In the **Coupons Qty** field, enter the number of coupons that you want to generate.
 
-   - Enter the **Code Length**, not including the prefix, suffix, or separators.
+    - Enter the **Code Length**, not including the prefix, suffix, or separators.
 
-   - Set the **Code Format** to one of the following:
+    - Set the **Code Format** to one of the following:
 
-     - `Alphanumeric`
-     - `Alphabetical`
-     - `Numeric`
+      - `Alphanumeric`
+      - `Alphabetical`
+      - `Numeric`
 
-   - (Optional) Enter a **Code Prefix** to be added to the beginning of the code.
+    - (Optional) Enter a **Code Prefix** to be added to the beginning of the code.
 
-   - (Optional) Enter a **Code Suffix** to be added to the end of the code.
+    - (Optional) Enter a **Code Suffix** to be added to the end of the code.
 
-   - (Optional) In the **Dash Every X Characters** field, enter the number of characters between each dash. For example, if the code is twelve characters long, and there is a dash every four characters, it will look like ` xxxx-xxxx-xxxx`. Dashes make codes easier to read and enter.
+    - (Optional) In the **Dash Every X Characters** field, enter the number of characters between each dash. For example, if the code is twelve characters long, and there is a dash every four characters, it will look like ` xxxx-xxxx-xxxx`. Dashes make codes easier to read and enter.
 
 1. When complete, click <span class="btn">Generate</span>.
 

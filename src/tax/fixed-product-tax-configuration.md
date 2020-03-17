@@ -18,17 +18,17 @@ The following instructions show how to set up a fixed product tax for your store
 
 1. To determine how fixed product taxes are used in store prices, choose the FPT setting for each of the following price display locations:
 
-   - **Display Prices in Product Lists**
-   - **Display Prices on Product View Page**
-   - **Display Prices in Sales Modules**
-   - **Display Prices in Emails**.
+    - **Display Prices in Product Lists**
+    - **Display Prices on Product View Page**
+    - **Display Prices in Sales Modules**
+    - **Display Prices in Emails**.
 
     Options (same for each)
 
-     - `Including FPT Only`
-     - `Including FPT and FPT description`
-     - `Excluding FPT. Including FPT description and final price`
-     - `Excluding FPT`
+    - `Including FPT Only`
+    - `Including FPT and FPT description`
+    - `Excluding FPT. Including FPT description and final price`
+    - `Excluding FPT`
 
 1. Set **Apply Tax to FPT** as needed.
 
@@ -45,20 +45,20 @@ The following instructions show how to set up a fixed product tax for your store
 
 1. In the upper-right corner, click **Add New Attribute**. Then, do the following:
 
-   - Enter a **Default Label** to identify the attribute.
+    - Enter a **Default Label** to identify the attribute.
 
-   - **Catalog Input for Store Owner** — Set to `Fixed Product Tax`.
+    - **Catalog Input for Store Owner** — Set to `Fixed Product Tax`.
 
     ![]({% link images/images/tax-fpt-attribute-properties.png %}){: .zoom}
     _Attribute Properties_
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Advanced Attribute Properties** section. Then, do the following:
 
-   - **Attribute Code** — Enter a unique identifier in lowercase, without spaces or special characters. The maximum length is 30 characters. You can leave the field blank to the text from the Default Label field.
+    - **Attribute Code** — Enter a unique identifier in lowercase, without spaces or special characters. The maximum length is 30 characters. You can leave the field blank to the text from the Default Label field.
 
-   - **Add to Column Options** — If you want the FPT field to appear in the Inventory [grid]({% link catalog/products.md %}), set to `Yes`.
+    - **Add to Column Options** — If you want the FPT field to appear in the Inventory [grid]({% link catalog/products.md %}), set to `Yes`.
 
-   - **Use in Filter Options** — If you want to be able to [filter]({% link stores/admin-workspace.md %}) products in the grid based on the value of the FPT field, set to `Yes`.
+    - **Use in Filter Options** — If you want to be able to [filter]({% link stores/admin-workspace.md %}) products in the grid based on the value of the FPT field, set to `Yes`.
 
     ![]({% link images/images/tax-fpt-advanced-attribute-properties.png %}){: .zoom}
     _Advanced Attribute Properties_
@@ -100,12 +100,12 @@ The following instructions show how to set up a fixed product tax for your store
     ![]({% link images/images/tax-product-fpt-belgium.png %}){: .zoom}
     _Fixed Product Tax for Belgium_
 
-   - If your Magento installation has multiple websites, choose the appropriate **Website** and base currency. In this example, the field is set by default to `All Websites [USD]`.
+    - If your Magento installation has multiple websites, choose the appropriate **Website** and base currency. In this example, the field is set by default to `All Websites [USD]`.
 
-   - Set **Country/State** to the region where the fixed product tax applies.
+    - Set **Country/State** to the region where the fixed product tax applies.
 
-   - Enter the fixed product tax as a decimal amount in the **Tax** field.
+    - Enter the fixed product tax as a decimal amount in the **Tax** field.
 
-   - To add more fixed product taxes, click <span class="btn">Add Tax</span> and repeat the process.
+    - To add more fixed product taxes, click <span class="btn">Add Tax</span> and repeat the process.
 
 1. When complete, click <span class="btn">Save</span>.
