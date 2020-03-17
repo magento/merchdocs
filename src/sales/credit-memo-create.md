@@ -114,7 +114,9 @@ _Create Credit Memo_
 
 1. Find the completed order in the grid and click the **View** link to open it.
 
-1. In the button bar at the top of the page, click **Invoice**. Scroll down to the bottom of the page and click <span class="btn">Submit Invoice"</span>.
+1. In the button bar at the top of the page, click **Invoice**.
+
+1. Scroll down to the bottom of the page and click <span class="btn">Submit Invoice"</span>.
 
 1. In the button bar at the top of the invoice, click **Credit Memo**.
 
