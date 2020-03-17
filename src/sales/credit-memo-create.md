@@ -156,7 +156,7 @@ _Create Credit Memo_
 
 1. To add a comment, enter the text in the **Credit Memo Comments** box. Then, do the following:
 
-   - To send an email notification to the customer, mark the **Email Copy of Credit Memo** checkbox.
+   - To send an email notification to the customer, select the **Email Copy of Credit Memo** checkbox.
 
    - To include the comments you have entered in the email, select the **Append Comments** checkbox.
 
