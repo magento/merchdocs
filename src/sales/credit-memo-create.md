@@ -152,7 +152,7 @@ _Create Credit Memo_
 
       This amount is not subtracted from a specific section of the order such as shipping, items, or tax.
 
-   - If the purchase was paid with store credit, mark the **Refund to Store Credit** checkbox to credit the amount to the customer account balance.
+   - If the purchase was paid with store credit, select the **Refund to Store Credit** checkbox to credit the amount to the customer account balance.
 
 1. To add a comment, enter the text in the **Credit Memo Comments** box. Then, do the following:
 
