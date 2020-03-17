@@ -46,7 +46,7 @@ _Create Credit Memo_
    - To issue an `offline` refund, go to step #6.
    - To issue an `online` refund, continue with step #4.
 
-1. Click **Invoices** in the panel on the left. Find the invoice in the grid and click **View.**
+1. Click **Invoices** in the panel on the left. Find the invoice in the grid and click **View**.
 
    ![]({% link images/images/order-invoices-grid.png %}){: .zoom}
    _Invoices Grid_
@@ -88,7 +88,7 @@ _Create Credit Memo_
 1. Do the following, as applicable:
 
       <!--{% if "Default.EE-B2B" contains site.edition %}-->
-      - To refund the amount to the customer's store credit, select the  **Refund to Store Credit** checkbox.
+      - To refund the amount to the customer's store credit, select the **Refund to Store Credit** checkbox.
 
       <!--{% endif %}-->
       <!--{% if "Default.B2B Only" contains site.edition %}-->
