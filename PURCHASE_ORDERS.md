@@ -79,7 +79,7 @@ From here you can:
 
 ## Purchase Order rules engine
 
-Most companies have an order approval heirarchy. For instance:
+Most companies have an order approval hierarchy. For instance:
 
 *  Any PO less than X value is automatically approved.
 *  POs that is over X value but less than Q must be approved by Y.
