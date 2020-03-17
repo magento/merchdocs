@@ -46,7 +46,9 @@ _Create Credit Memo_
    - To issue an `offline` refund, go to step #6.
    - To issue an `online` refund, continue with step #4.
 
-1. Click **Invoices** in the panel on the left. Find the invoice in the grid and click **View**.
+1. Click **Invoices** in the left panel.
+
+1. Find the invoice in the grid and click **View**.
 
    ![]({% link images/images/order-invoices-grid.png %}){: .zoom}
    _Invoices Grid_
