@@ -160,7 +160,7 @@ _Create Credit Memo_
 
    - If the purchase was paid with store credit, select the **Refund to Store Credit** checkbox to credit the amount to the customer account balance.
 
-1. To add a comment, enter the text in the **Credit Memo Comments** box. Then, do the following:
+1. To add a comment, enter the text in the **Credit Memo Comments** box and do the following:
 
    - To send an email notification to the customer, select the **Email Copy of Credit Memo** checkbox.
 
