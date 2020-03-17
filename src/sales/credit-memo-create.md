@@ -65,7 +65,7 @@ _Create Credit Memo_
    - Update the **Qty to Refund**, and click <span class="btn">Update Qty's</span>.
 
       ![]({% link images/images/invoice-credit-memo-items-to-refund.png %}){: .zoom}
-      _Intems to Refund_
+      _Items to Refund_
 
 1. Update the **Refunds Totals** section as follows:
 
