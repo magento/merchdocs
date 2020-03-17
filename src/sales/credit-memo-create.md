@@ -58,7 +58,9 @@ _Create Credit Memo_
    ![]({% link images/images/order-invoice-capture-online.png %}){: .zoom}
    _Capture Online_
 
-1. In the button bar at the top of the invoice, click **Credit Memo**. Then, verify the information in the **Items to Refund** section. If applicable, do the following:
+1. In the button bar at the top of the invoice, click **Credit Memo**.
+
+1. Verify the information in the **Items to Refund** section and do the following, if applicable:
 
    - To return the product to inventory, select the **Return to Stock** checkbox.
 
