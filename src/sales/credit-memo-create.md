@@ -158,7 +158,7 @@ _Create Credit Memo_
 
    - To send an email notification to the customer, mark the **Email Copy of Credit Memo** checkbox.
 
-   - To include the comments you have entered in the email, mark the **Append Comments** checkbox.
+   - To include the comments you have entered in the email, select the **Append Comments** checkbox.
 
       The status of a credit memo notification appears in the completed credit memo next to the credit memo number.
 
