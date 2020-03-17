@@ -131,7 +131,7 @@ _Create Credit Memo_
    <!--{% endif %}-->
    _Create Credit Memo_
 
-1. Verify the information in the **Items to Refund** section, and if applicable, do the following:
+1. Verify the information in the **Items to Refund** section and do the following, if applicable:
 
    - Select the **Return to Stock** checkbox if you want to return the returned product to inventory.
 
