@@ -9,7 +9,7 @@ The Design Configuration makes it easy to edit design-related rules and configur
 ![]({% link images/images/design-configuration.png %}){: .zoom}
 _Design Configuration_
 
-## To edit the design configuration:
+## Edit the design configuration
 
 1. On the _Admin_ sidebar, go to **Content** > _Design_ > **Configuration**.
 
@@ -23,33 +23,33 @@ _Design Configuration_
 
 1. If the theme is to be used for only a specific device, do the following:
 
-    * Under **Design Rule** section under **User Agent Rules**, click <span class="btn">Add New User Agent Rule</span>.
+    - Under **Design Rule** section under **User Agent Rules**, click <span class="btn">Add New User Agent Rule</span>.
 
-    * In the **Search String** column, enter the browser ID for the specific device.
+    - In the **Search String** column, enter the browser ID for the specific device.
 
-    * A search string can be either a normal expression or Perl Compatible Regular Expression (PCRE). To learn more, see: [User Agent][1]{:target="_blank"}. The following search string identifies Firefox:
+    - A search string can be either a normal expression or Perl Compatible Regular Expression (PCRE). To learn more, see: [User Agent][1]{:target="_blank"}. The following search string identifies Firefox:
 
             /^mozilla/i
 
-    * In the <b>Theme Name </b>column, choose the theme that is to be used for the specified device.
+    - In the <b>Theme Name </b>column, choose the theme that is to be used for the specified device.
 
         ![]({% link images/images/design-configuration-user-agent-rules.png %}){: .zoom}
         _User-Agent Rules_
 
-    * Repeat the process to enter additional devices. Search strings are matched in the order they are entered.
+    - Repeat the process to enter additional devices. Search strings are matched in the order they are entered.
 
 1. Under **Other Settings**, expand each section. Then, follow the instructions in the linked topics to edit the settings as needed.
 
     ![]({% link images/images/design-configuration-other-settings.png %}){: .zoom}
     _Edit Design Configuration_
 
-   * [Pagination]({% link catalog/navigation-pagination.md %})
-   * [HTML Head]({% link design/html-head.md %})
-   * [Header]({% link design/header.md %})
-   * [Footer]({% link design/footer.md %})
-   * [Search Engine Robots]({% link marketing/search-engine-robots.md %})
-   * [Product Image Watermarks]({% link catalog/product-image-watermarks.md %})
-   * [Transactional Emails]({% link marketing/email-template-configuration.md %})
+    - [Pagination]({% link catalog/navigation-pagination.md %})
+    - [HTML Head]({% link design/html-head.md %})
+    - [Header]({% link design/header.md %})
+    - [Footer]({% link design/footer.md %})
+    - [Search Engine Robots]({% link marketing/search-engine-robots.md %})
+    - [Product Image Watermarks]({% link catalog/product-image-watermarks.md %})
+    - [Transactional Emails]({% link marketing/email-template-configuration.md %})
 
 1. When complete, click <span class="btn">Save Configuration</span>.
 

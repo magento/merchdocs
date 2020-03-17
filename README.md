@@ -169,8 +169,8 @@ Only Administrators can use Chocolatey features. You can use the Administrator a
 
 1. Verify Chocolatey was added to the environment variables:
 
-    - In the Windows UI, open search and type `path`.
-    - In the Windows CMD console, type `echo %path%`.
+   - In the Windows UI, open search and type `path`.
+   - In the Windows CMD console, type `echo %path%`.
 
     You should see `C:ProgramDatachocolateybin` in the path.
 
@@ -192,8 +192,8 @@ If you have Ruby installed on the workstation, then you can skip this installati
 
 1. Verify the environment variables were added properly:
 
-    - In the Windows UI, open search and type `path`.
-    - In the Windows CMD console, type `echo %path%`.
+   - In the Windows UI, open search and type `path`.
+   - In the Windows CMD console, type `echo %path%`.
 
 >  **NOTE**
 >  If you encounter problems with Ruby, or the `gem` command is not recognized, you can install the `rubyinstaller-devkit.exe` development kit located in the `c:ProgramDatachocolateybin` folder.
@@ -229,10 +229,10 @@ You may have to close and reopen the Git Bash application after the Choco instal
 
 1. Open Git Bash. The **Git Bash** executable is on the shortcut menu.
 
-1. Change to the directory you created for Git repositories and clone the DevDocs repository.
+1. Change to the directory you created for Git repositories and clone the MerchDocs repository.
 
     ```bash
-    git clone git@github.com:magento-docs/merchdocs.git
+    git clone git@github.com:magento/merchdocs.git
     ```
 
 1. Change to the `merchdocs` directory.

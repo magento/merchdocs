@@ -121,9 +121,9 @@ In the _Items Quoted_ section, make the following changes, if needed:
 
 1. Send or save the quote:
 
-   - If the quote is ready to send back to the buyer, click **Send**.
+    - If the quote is ready to send back to the buyer, click **Send**.
 
-   - To continue working on the quote later, click **Save as Draft**.
+    - To continue working on the quote later, click **Save as Draft**.
 
 ## Step 4:  Follow up on a quote
 
@@ -161,7 +161,7 @@ _Negotiation Comments and Quote Totals_
 |Company|The legal name of the [company]({% link customers/account-companies.md %}) that the buyer represents.|
 |Company Admin Email|The email address of the [company administrator]({% link customers/account-company-admin.md %}).|
 |Sales Rep|The [sales representative]({% link customers/account-company-sales-representative.md %}) who works for the seller, and is the primary contact assigned to the company account.|
-|Shared Catalog (or Customer Group)|The [shared catalog]({% link catalog/catalog-shared.md %}) or customer group({% link customers/customer-groups.md %}) to which the company is assigned. The quote might include custom prices from the shared catalog that is assigned to the company.|
+|Shared Catalog (or Customer Group)|The [shared catalog]({% link catalog/catalog-shared.md %}) or [customer group]({% link customers/customer-groups.md %}) to which the company is assigned. The quote might include custom prices from the shared catalog that is assigned to the company.|
 
 ### Add to Quote by SKU
 

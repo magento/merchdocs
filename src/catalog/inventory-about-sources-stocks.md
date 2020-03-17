@@ -8,14 +8,14 @@ These descriptions include products, sources, and stocks for a bicycle company w
 
 ## Sources
 
-[Sources]({% link catalog/inventory-sources.md %}) are the physical locations where product inventory is managed and shipped for order fulfillment, or where services are available. These locations can include warehouses, brick-and-mortar stores, distribution centers, and drop shippers. Magento leverages the quantities and salable quantities per stock and manages inventory amounts automatically for managed products and orders. If you have one source, you are considered in Single Source mode. If you have multiple sources, you are considered in Multi Source mode.
+[Sources]({% link catalog/inventory-sources.md %}) are the physical locations where product inventory is managed and shipped for order fulfillment or where services are available. These locations can include warehouses, brick-and-mortar stores, distribution centers, and drop shippers. Magento leverages the quantities and salable quantities per stock and manages inventory amounts automatically for managed products and orders. If you have one source, you are considered in _Single Source_ mode. If you have multiple sources, you are considered in _Multi Source_ mode.
 
-A source can have priority in the scope of stock in one warehouse, but not necessarily in all warehouses as the source can be re-used in different stocks. The number of stocks and sources adds to the complexity for determining the best warehouse or store to fulfill an order. For example, you may have a limited number of products available from your brick-and-mortar locations with an extensive inventory in your warehouses, and services in key locations with limited availability.
+A source can have priority in the scope of stock in one warehouse, but not necessarily in all warehouses as the source can be re-used in different stocks. The number of stocks and sources adds to the complexity for determining the best warehouse or store to fulfill an order. For example, you may have a limited number of products available from your brick-and-mortar locations with an extensive inventory in your warehouses and services in key locations with limited availability.
 
 In this example, the merchant has a mountain bike available for shipment from stores, warehouses, and a drop shipper.
 
-![]({% link images/images/inventory/inventory-diagram-sources.png %})<br />
-*Example Sources for a Mountain Bike*
+![]({% link images/images/inventory/inventory-diagram-sources.png %})<br/>
+_Example Sources for a Mountain Bike_
 
 ## Stocks
 
@@ -25,33 +25,31 @@ Sales Channels represent entities selling your inventory, including websites, st
 
 You start with a Default Stock assigned with the Default Source and your website, best used by Single Source merchants. Only the Default Source can be assigned to this stock. Multi Source merchants create custom stocks for custom sources and websites as needed.
 
-![]({% link images/images/inventory/inventory-diagram-stock.png %})
+![]({% link images/images/inventory/inventory-diagram-stock.png %})<br/>
+_Example Stocks for a Mountain Bike and Store_
 
-*Example Stocks for a Mountain Bike and Store*
+## Product quantities
 
-## Product Quantities
+Quantity is the number of products in your active inventory that is available for purchase. The quantity of products increases and decreases when you complete shipments or adjust inventory. Adding products to a cart will not affect this amount. The Salable Quantity tracks the availability of the product for a sales channel and also uses this value for determining available stock for purchase. Depending on the number of your sources, you see and manage product quantity for one of the following:
 
-Quantity is the number of products in your active inventory, available for purchase. The quantity of products increases and decreases when you complete shipments or adjust inventory. Adding products to a cart will not affect this amount. The Salable Quantity tracks the availability of the product for a sales channel and also uses this value for determining available stock for purchase. Depending on the number of your sources, you see and manage product quantity for one of the following:
+- **Quantity** - For Single Source merchants, the _Quantity_ column and value tracks the amount of on-hand inventory available.
+- **Quantity per Source** - For Multi Source merchants, the _Quantity per Source_ column and values track the on-hand inventory available by location. If you add multiple sources, this value replaces the Quantity and lists every source and assigned quantity.
 
-* **Quantity**: For Single Source merchants, the Quantity column and value tracks the amount of on-hand inventory available.
-* **Quantity per Source**: For Multi Source merchants, the Quantity per Source column and values track the on-hand inventory available by location. If you add multiple sources, this value replaces the Quantity and lists every source and assigned quantity.
-
-Reservations track stock requests for the entire shopping process: adding products to cart, completing checkout, and managing refunds. For available inventory and stock, reservations reserve inventory amounts per order through the checkout process, subtracted from the salable quantity. Reservations convert to quantity deductions when invoicing and shipping products.
+Reservations track stock requests for the entire shopping process - adding products to cart, completing checkout, and managing refunds. For available inventory and stock, reservations reserve inventory amounts per order through the checkout process, subtracted from the salable quantity. Reservations convert to quantity deductions when invoicing and shipping products.
 
 Salable Quantity calculates the virtual inventory of products (or availability), taking into account configured thresholds, reserved or sold amounts, and quantities per source. For each stock, Magento accesses all assigned sources and aggregates associated product quantities. With this base value, it then subtracts all reservation amounts and the Notify for Quantity Below threshold.
 
-![]({% link images/images/inventory/inventory-diagram-salable-qty.png %})
+![]({% link images/images/inventory/inventory-diagram-salable-qty.png %})<br/>
+_Calculating the Salable Quantity for a Stock_
 
-*Calculating the Salable Quantity for a Stock*
+## Inventory configurations
 
-## Inventory Configurations
-
-Every product, source, and stock includes a number of options to configure for your store at the global, source, stock, and product level. For a full list of these options, see [Configuring Inventory Management]({% link catalog/inventory-configure-inventory-management.md %}).
+Every product, source, and stock includes a number of options to configure for your store at the global, source, stock, and product level. For a full list of these options, refer to [Configuring Inventory Management]({% link catalog/inventory-configure-inventory-management.md %}).
 
 The following are important options to understand for Inventory Management:
 
-* **Out-of-Stock Threshold** sets an amount to subtract from your Salable Quantity. If you enable backorders, this value is not deducted from the Salable Quantity.
-* **Backorders** determines if products can be sold beyond a zero inventory, saving orders until restocked. When enabled, we recommend configuring the Out-of-Stock Threshold.
+- **Out-of-Stock Threshold** - Sets an amount to subtract from your Salable Quantity. If you enable Backorders, this value is not deducted from the Salable Quantity.
+- **Backorders** - Determines if products can be sold beyond a zero inventory, saving orders until restocked. When enabled, we recommend configuring the Out-of-Stock Threshold.
 
 {:.bs-callout-info}
 The Out-of-Stock Threshold value supports negative and positive amounts. If you enable Backorders, we recommend setting this value to a negative amount for the maximum amount of products that can be backordered before the product is truly considered out of stock.
