@@ -6,13 +6,15 @@ The following instructions take you through the basic tax configuration for your
 
 Admin [permissions]({% link system/permissions.md %}) can be set to restrict access to [tax resources]({% link system/permissions-role-resources.md %}), based on the business “need to know.” To create an Admin role with access to tax settings, choose both the Sales/Tax and System/Tax resources. If setting up a website for a region that differs from your default shipping point of origin, you must also allow access to the System/Shipping resources for the role. The shipping settings determine the store tax rate that is used for catalog prices.
 
-## To configure the general tax settings:
+## Configure the general tax settings
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. For a multisite configuration, set **Store View** to the website and store that is the target of the configuration.
 
-1. Complete the following configuration settings. If necessary, clear the **Use System value** checkbox of any settings that are grayed out.
+1. Complete the following configuration settings.
+
+   If necessary, clear the **Use System value** checkbox of any settings that are grayed out.
 
 ### Tax Classes
 
@@ -20,21 +22,11 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Tax Classes** section. Then, do the following:
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/config-sales-tax-tax-classes.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE Only" contains site.edition %}-->
     ![]({% link images/images-ee/config-sales-tax-tax-classes.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
-    ![]({% link images/images-b2b/config-sales-tax-tax-classes.png %}){: .zoom}
-    <!--{% endif %}-->
-    [_Tax Classes_]({% link configuration/sales/tax.md %})
+    <span class="caption-edition-ee">[_Tax Classes_]({% link configuration/sales/tax.md %})</span>
 
     - **Tax Class for Shipping** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
-    <!--{% if "Default.EE Only" contains site.edition %}-->
-    - **Tax Class for Gift Options** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
-    <!--{% endif %}-->
+    - {:.edition-ee}**Tax Class for Gift Options** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
     - **Default Tax Class for Product** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
     - **Default Tax Class for Customer** — Set to the appropriate class. The default class is: `Retail Customer` and `Wholesale Customer`
 
@@ -56,7 +48,7 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
     - Set **Tax Calculation Based On** to one of the following:
 
         |`Shipping Address`|The address where the order is to be shipped|
-        |`Billing Address`|The billing address of the customer{% if "Default.B2B Only" contains site.edition %} or company{% endif %}|
+        |`Billing Address`|The billing address of the customer or company|
         |`Shipping Origin`|The address that is specified as the [point of origin]({% link shipping/point-of-origin.md %}) for your store.|
 
     - Set **Catalog Prices** to `Excluding Tax` or `Including Tax`.
@@ -74,9 +66,9 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
         |`Yes`|Use consistent pricing across different tax rates. If the catalog price includes tax, choose this setting to fix the price regardless of the customer’s tax rate.|
         |`No`|Vary the price by tax rate.|
 
-          {:.bs-callout-info}
-          **Important**:
-          If [cross-border trade]({% link tax/tax-cross-border-price.md %}) is enabled, the profit margin changes by tax rate. Profit is determined by the formula (`Revenue - CustomerVAT - CostOfGoodsSold`). To enable cross-border trade, prices must be set to include tax.
+         {:.bs-callout-info}
+         **Important**:
+         If [cross-border trade]({% link tax/tax-cross-border-price.md %}) is enabled, the profit margin changes by tax rate. Profit is determined by the formula (`Revenue - CustomerVAT - CostOfGoodsSold`). To enable cross-border trade, prices must be set to include tax.
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Default Tax Destination Calculation** section. Then, specify the country that is to be the default for tax calculations.
 

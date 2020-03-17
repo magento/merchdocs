@@ -59,7 +59,7 @@ In the sidebar, choose **Configure**. Then in the **Products** column of the com
 ![]({% link images/images/tax-vertex-cloud-configure-products.png %}){: .zoom}
 _Products_
 
-### Step 1: Complete the Product Information
+### Step 1: Complete the product information
 
 1. On the **Add Single Product** tab, complete the following product information:
 
@@ -79,7 +79,7 @@ _Products_
 
 1. Use the calendar to choose the **Start Date** that the product becomes available to Vertex Cloud. If applicable, choose the **End Date** that the product is no longer available.
 
-### Step 2: Map Each Product
+### Step 2: Map each product
 
 In this step, each product is mapped to the appropriate tax category. Tax categories can be mapped to a granular level for individual products. See the [Vertex Tax Codes][1] reference.
 
@@ -112,7 +112,7 @@ In this step, each product is mapped to the appropriate tax category. Tax catego
 
     For this example, Clothing is the last tax category that applies to the product.
 
-### Step 3: Add Any Qualifying Conditions
+### Step 3: Add any qualifying conditions
 
 Some states have qualifying conditions that might apply to various items in the tax category.
 
@@ -166,7 +166,7 @@ Some states have qualifying conditions that might apply to various items in the 
 
 1. Continue to prepare the data.
 
-### Step 1: Prepare the Data
+### Step 1: Prepare the data
 
 In this step, columns of data are pasted from the CSV file that you exported to the `ProductsSample.csv` template. To make it easy, open each file in a different instance of your spreadsheet. Then, paste each applicable column of data into the template.
 
@@ -187,18 +187,18 @@ In this step, columns of data are pasted from the CSV file that you exported to 
 
     This is where having the data sorted by category helps, because it groups products of a similar type together.
 
-    In this example, the data includes clothing, sports gear,{% if "Default.EE-B2B" contains site.edition %} gift cards,{% endif %} and downloadable videos. Because there is not a code available at this level for sports gear, you can leave those records blank, and complete them later in Vertex Cloud.
+    In this example, the data includes clothing, sports gear, gift cards, and downloadable videos. Because there is not a code available at this level for sports gear, you can leave those records blank, and complete them later in Vertex Cloud.
 
     - **Clothing**: `VTX04-00143`
-    - **Digital Goods**: `VTX04-00544`<!--{% if "Default.EE-B2B" contains site.edition %}-->
-    - **Gift Certificate/Cards**: `VTX04-02252`<!--{% endif %}-->
+    - **Digital Goods**: `VTX04-00544`
+    - {:.edition-ee}**Gift Certificate/Cards**: `VTX04-02252`
     - **Gear**: --
 
     Products that are uploaded without a tax category can later be assigned manually to the appropriate tax category at a more granular level.
 
 1. When the template is ready to upload, **Save** the CSV file.
 
-### Step 2: Upload the Data
+### Step 2: Upload the data
 
 1. To upload the completed template, click **Browse**.
 

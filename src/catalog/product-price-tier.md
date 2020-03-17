@@ -23,7 +23,7 @@ The prices in the storefront take precedence from the highest to the lowest quan
 
 1. In the _Tier Price_ section, click <span class="btn">Add</span>.
 
-   If you’re creating a tier of several prices, click **Add** for each additional level, so you can work all tiers at the same time. Each tier in the group has the same website and customer group{% if "Default.B2B Only" contains site.edition %} or shared catalog assignment{% endif %}, but a different quantity and price.
+   If you’re creating a tier of several prices, click **Add** for each additional level, so you can work all tiers at the same time. Each tier in the group has the same website and customer group or shared catalog assignment, but a different quantity and price.
 
 ## Configure the price tier
 

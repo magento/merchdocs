@@ -10,6 +10,4 @@ This section of the guide demonstrates how to perform routine index and cache ma
 - [Cron (scheduled tasks)]({% link system/cron.md %})
 - [Developer tools]({% link system/developer-tools.md %})
 - [Web Setup Wizard]({% link system/web-setup-wizard.md %})
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-- [Support]({% link system/support.md %})
-<!--{% endif %}-->
+- {:.edition-ee}[Support]({% link system/support.md %})

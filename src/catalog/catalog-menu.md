@@ -2,7 +2,7 @@
 title: Catalog Menu
 ---
 
-The Catalog Menu provides easy access to product creation, category, and inventory management tools{% if "Default.B2B Only" contains site.edition %}, as well as shared catalogs for custom pricing{% endif %}.
+The Catalog Menu provides easy access to product creation, category, and inventory management tools, as well as shared catalogs for custom pricing in B2B stores.
 
 ![]({% link images/images-b2b/admin-menu-catalog.png %}){: .zoom}
 <span class="caption-edition-b2b">_Catalog Menu_</span>

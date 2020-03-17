@@ -2,7 +2,7 @@
 title: Content Settings
 ---
 
-The Content settings determine any additional content appears on the category page. In addition to the list of category products, the page can include an image, description, and CMS block. {% if "Default.EE-B2B" contains site.edition %}You can use [Page Builder]({% link cms/page-builder.md %})’s advanced content tools to enter the category description. {% endif %}
+The Content settings determine any additional content appears on the category page. In addition to the list of category products, the page can include an image, description, and CMS block. In Magento Commerce, you can use the [Page Builder]({% link cms/page-builder.md %}) advanced content tools to enter the category description.
 
 ![]({% link images/images-ee/category-content.png %}){: .zoom}
 <span class="caption-edition-ee">_Category Content_</span>

@@ -13,7 +13,7 @@ You can easily set a special price for a single product in the catalog.
 
 ### <span class="heading-edition-ee">Use a Scheduled Update</span>
 
-Magento Commerce includes support for [Scheduled Updates]({% link cms/content-staging-scheduled-update.md %}). Use these promotional tools to  apply a special price to a specific product for a specified time period.  
+Magento Commerce includes support for [Scheduled Updates]({% link cms/content-staging-scheduled-update.md %}). Use these promotional tools to  apply a special price to a specific product for a specified time period.
 
 1. Open the product in edit mode.
 
