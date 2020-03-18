@@ -48,12 +48,14 @@ The following recommendation types will fallback to **Most viewed** if there is 
 
 ### Filter recommendations
 
-Magento filters recommendations based on product attributes. For example, Magento will not recommend men's products if a customer is viewing a product for a women. If you deploy the **Most viewed** recommendation type to a catalog page, the recommendations that appear are filtered to show recommendations within that same category. Likewise, recommendations deployed to a product detail page are filtered to show other products within that product's category. The following table describes how the recommendations are filtered based on the recommendation type and page.
+Magento filters recommendations based on direct category assignments and their subcategories. For example, if the category of the product is `Gear`, the recommendation unit displays products that have categories under `Gear`, such as `Gear/Bags` or `Gear/Fitness Equipment`. This direct category filtering ensures that if you deploy a recommendation type, such as **Most viewed** to a product detail page, the recommendation unit displays the most viewed products under that same product category rather than the most viewed products in your entire catalog.
 
-|**Recommendation Type**|**Page**|**Filtered By**|
+The following table describes how the recommendations are filtered based on the recommendation type and page.
+
+|Recommendation Type|Page|Filtered By|
 |---|---|---|
-|Most popular|Home<br>Category<br>Product Detail<br>Cart<br>Order Confirmation|No filter<br>Category<br>Product's categories<br>Product's categories<br>Product's categories|
-|Recommended for you|Home<br>Category|No filter<br>Category|
+|Most popular|Home<br>Category<br>Product Detail<br>Cart<br>Order Confirmation|No filter. Magento displays the most popular products for the entire site<br>Products under that category<br>Products under that product's category(-ies)<br>Products under that product's category(-ies) based on the items in the cart<br>Categories for products the shopper just purchased|
+|Recommended for you|Home<br>Category|No filter. Magento displays products based on the current shopper's browsing history on the site<br>Products under that category|
 
 ## Product recommendations placement {#productrecplacement}
 
@@ -69,7 +71,7 @@ Some storefront pages restrict where you can place the recommendations. Refer to
 
 The following table lists the storefront pages, where you can place the recommendations, and the recommendation types allowed on that page.
 
-|**Page**|**Possible Placement**|**Supported Recommendations**|
+|Page|Possible Placement|Supported Recommendations|
 |---|---|---|
 |**Home page**|At the top of main content<br>At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you|
 |**Category**|At the top of main content<br>At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you|
