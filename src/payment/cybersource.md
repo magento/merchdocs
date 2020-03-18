@@ -1,11 +1,13 @@
 ---
 conditions: Default.EE-B2B
-title: CyberSource (Deprecated)
+title: CyberSource - Deprecated
 ---
 
 {:.bs-callout-warning}
-**Payment Services Directive Requirements:** <br/>
-As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, install and configure the official CyberSource payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=cybersource#q=cybersource&idx=m2_cloud_prod_default_products&p=0&nR%5Bvisibility_search%5D%5B%3D%5D%5B0%5D=1){:target="_blank"}. 3D Secure 2.0 verification is available through [CardinalCommerce](https://www.cardinalcommerce.com/products/psd2).
+**Deprecation Notice** <br/>
+Due to the Payment Service Directive [PSD2]({% link stores/compliance-payment-services-directive.md %}) and the continued evolution of many APIs, this payment integration is at risk of becoming outdated and no longer security compliant in the future. For this reason, it is now deprecated and we are recommending that you disable it in your Magento configuration and transition to the corresponding [Magento Marketplace extension](https://marketplace.magento.com/catalogsearch/result/?q=cybersource#q=cybersource&idx=m2_cloud_prod_default_products&p=0&nR%5Bvisibility_search%5D%5B%3D%5D%5B0%5D=1){:target="_blank"}.<br/><br/>
+**This integration will be removed from the Magento 2.4.0 release and has been deprecated from versions of 2.3.**<br/><br/>
+For details about making a secure transition from deprecated payment integrations, see our [DevBlog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog){:target="_blank"}.
 
 [CyberSource][1] was one of the pioneers in the early online payment industry, and later acquired Authorize.Net. Today, CyberSource is a wholly-owned subsidiary of Visa Inc. Over 400,000 businesses worldwide use CyberSource to process online payments, streamline fraud management, and to simplify payment security. The company is based in Foster City, California, and has offices throughout Asia, Europe, Latin America, the Middle East, Africa, and the United States.
 
@@ -17,15 +19,15 @@ Sign up for a CyberSource [merchant account][2], and get your credentials.
 
 ## Step 2: Enable CyberSource
 
-1. On the Admin sidebar, go to **Stores** > Settings > **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-2. In the panel on the left under **Sales**, choose **Payment Methods**. Under **Other Payment Methods**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **CyberSource (Deprecated)** section. Then, do the following:
+1. In the panel on the left under **Sales**, choose **Payment Methods**. Under **Other Payment Methods**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **CyberSource (Deprecated)** section. Then, do the following:
 
-   1. Set **Enabled** to `Yes`.
+   - Set **Enabled** to `Yes`.
 
-   2. Accept the **Default Payment** action of `Authorized Only`, which approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer’s bank account until the sale is “captured” by the merchant.
+   - Accept the **Default Payment** action of `Authorized Only`, which approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer’s bank account until the sale is “captured” by the merchant.
 
-   3. Enter a **Title** to identify CyberSource during checkout.
+   - Enter a **Title** to identify CyberSource during checkout.
 
    ![Enable CyberSource]({% link images/images-ee/config-sales-payment-methods-cybersource1.png %}){: .zoom}
    _Enable CyberSource_

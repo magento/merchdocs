@@ -4,8 +4,10 @@ title: Worldpay
 ---
 
 {:.bs-callout-warning}
-**Payment Services Directive Requirements:** <br/>
-As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, contact your Worldpay service provider and ask for their recommendation.
+**Deprecation Notice** <br/>
+Due to the Payment Service Directive [PSD2]({% link stores/compliance-payment-services-directive.md %}) and the continued evolution of many APIs, this payment integration is at risk of becoming outdated and no longer security compliant in the future. For this reason, it is now deprecated and we are recommending that you disable it in your Magento configuration  contact your Worldpay service provider and ask for their recommendation.<br/><br/>
+<b>This integration will be removed from the Magento 2.4.0 release and will be deprecated from versions of 2.3.</b><br/><br/>
+For details about making a secure transition from deprecated payment integrations, see our [DevBlog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog){:target="_blank"}.
 
 London-based [Worldpay][1] has twenty-five offices in eleven countries around the world. The company is a global leader in card payments, multi-currency processing, and provides local in-store and mobile payment acceptance solutions for companies large and small.
 
