@@ -1,5 +1,6 @@
 ---
 title: Editing Attribute Mappings
+tag: google-shopping
 ---
 
 

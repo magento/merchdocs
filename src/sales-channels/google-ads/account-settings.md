@@ -1,5 +1,6 @@
 ---
 title: Editing Account Settings
+tag: google-shopping
 ---
 
 After [onboarding]({% link sales-channels/google-ads/onboarding-google.md %}), you can edit and update your account settings anytime on the Settings page in the Google Shopping ads dashboard. Available settings include all GMC options and information you selected when you created your account. The page also provides information and access to your Ads account and to the Magento web and Google accounts linked to this Google Shopping ads Channel integration.

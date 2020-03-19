@@ -1,5 +1,6 @@
 ---
 title: Manually Verify and Claim your URL
+tag: google-shopping
 ---
 
 
