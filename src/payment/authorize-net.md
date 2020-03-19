@@ -9,7 +9,7 @@ Due to the Payment Service Directive [PSD2]({% link stores/compliance-payment-se
 **This integration will be removed from the Magento 2.4.0 release and has been deprecated from versions of 2.3.**<br/><br/>
 For details about making a secure transition from deprecated payment integrations, see our [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
-The Authorize.Net payment method has replaced the Authorize.Net Direct Post payment method. Authorize.Net handles all steps in the transaction process — such as payment data collection, data submission, and response to the customer — while the customer remains in your store. Authorize.Net can be used with orders created from the Admin as well as from the store.
+The Authorize.Net payment method has replaced the Authorize.Net Direct Post payment method. Authorize.Net handles all steps in the transaction process, such as payment data collection, data submission, and response to the customer, while the customer remains in your store.
 
 ## Customer Workflow
 
@@ -40,19 +40,18 @@ The Authorize.Net payment method has replaced the Authorize.Net Direct Post paym
    | **Authorize Only** | Funds on the customer's card are authorized by Authorize.Net, and an order is created in your store’s Admin. You can later create an invoice and capture the funds.|
    | **Authorize and Capture** | Funds on the customer's card are authorized and captured by Authorize.Net, and an order and invoice are created in your store’s Admin.|
 
-1. In the **API Login ID** field, enter the login ID from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **API Credentials & Keys**.
+1. For the **API Login ID**, enter the login ID from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **API Credentials & Keys**.
 
-1. In the **Transaction Key** field, enter the key value from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **API Credentials & Keys**.
+1. For the **Transaction Key**, enter the key value from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **API Credentials & Keys**.
 
        {:.bs-callout-info}
        If you have previously generated a transaction key, you will enter the value. If you don't know your existing transaction key or have never established one, you can generate a new key in your Authorize.Net merchant account. If generating a new key to replace an existing key, it is important to update any existing applications that use the transaction key.
 
-1. In the **Public Client Key** field, enter the key value from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **Manage Public Client Key**.
+1. For the **Public Client Key**, enter the key value from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **Manage Public Client Key**.
 
-1. In the **Signature Key** field, enter the key value from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **API Credentials & Keys**.
+1. For the **Signature Key**, enter the key value from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **API Credentials & Keys**.
 
 1. Skip the **Merchant MD5 (deprecated)** field. Authorize.Net does not use this data field.
-
 
 ### Step 3: Complete Advanced Settings
 
