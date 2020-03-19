@@ -48,7 +48,7 @@ What to expect next:
 
 1. What will happen to the catalog I am currently syncing back to GMC?
 
-    The catalog feed synced with the extension will stop updating in Google Merchant Center on April 28, 2020. For more information on setting up a new product feed, see the [Google Onboarding Guide](https://support.google.com/merchants/answer/7439058?hl=en).
+    The catalog feed synced with the extension will stop updating in Google Merchant Center on April 28, 2020. For more information about setting up a new product feed, see the [Google Onboarding Guide](https://support.google.com/merchants/answer/7439058?hl=en).
 
 1. What actions and when do I need to take prior to the disable date to minimize any disruption?
 
