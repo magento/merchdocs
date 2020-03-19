@@ -6,6 +6,12 @@
       This documentation is for the Product Recommendations Early Access Program. If you would like to participate, <a href="mailto:magento-product-recs-feedback@adobe.com">E-mail us</a>!
     </div>
   {% endif %}
+
+  {% if page.tag == "google-shopping" %}
+    <div class="message-banner">
+      <b>Google Shopping ads Channel will be disabled on April 28, 2020. See <a href="https://docs.magento.com/m2/ce/user_guide/sales-channels/google-ads/google-eol.html">End of Life</a> for more information.</b>
+    </div>
+  {% endif %}
   
   {% if page.tag == "asc-old" %}
     <div class="version-message-banner">
