@@ -1,5 +1,6 @@
 ---
 title: Best Practices for Google
+tag: google-shopping
 ---
 
 
