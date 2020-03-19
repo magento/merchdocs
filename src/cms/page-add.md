@@ -9,7 +9,7 @@ The following instructions walk you through each step to create a basic page. So
 ![]({% link images/images/pages.png %}){: .zoom}
 _Pages_
 
-## Step 1: Add a New Page
+## Step 1: Add a new page
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Pages**.
 
@@ -47,7 +47,7 @@ _Pages_
     ![]({% link images/images/page-custom-design-update.png %}){: .zoom}
     _Custom Design Update
 
-## Step 2: Complete the Content
+## Step 2: Complete the content
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Content**.
 
@@ -68,7 +68,8 @@ _Pages_
 
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-## Step 2: Complete the Content
+
+## Step 2: Complete the content
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Content**.
 
@@ -77,11 +78,11 @@ _Pages_
 
 1. Complete the content, and format the text as needed. To learn more, see: [Page Builder]({% link cms/page-builder.md %}).
 
-1. click <span class="btn">Save</span>.
+1. Click <span class="btn">Save</span>.
 
 <!--{% endif %}-->
 
-## Step 3: Complete the SEO Information
+## Step 3: Complete the SEO information
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Search Engine Optimization**. Then, do the following:
 
@@ -98,7 +99,7 @@ _Pages_
 
 1. Click <span class="btn">Save</span>.
 
-## Step 4: Define the Scope of the Page
+## Step 4: Define the scope of the page
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Page in Websites**.
 
@@ -108,7 +109,7 @@ _Pages_
     _Pages in Websites_
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 
-## Step 5: Identify Any Parent Page
+## Step 5: Identify any parent page
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Hierarchy**.
 
@@ -117,9 +118,9 @@ _Pages_
 
 1. If this page is a child of another page, select the checkbox of the **Parent page**.
 
-## Step 6: Enter Any Design Changes (Optional)
+## Step 6: Enter any design changes (optional)
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Design**. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Design**.
 
     ![]({% link images/images/page-design.png %}){: .zoom}
     _Design_
@@ -135,11 +136,13 @@ _Pages_
    - `Category -- Full Width` (Requires Page Builder)
    - `Product -- Full Width` (Requires Page Builder)
 
-1. To include additional [layout instructions]({% link design/layout-updates.md %}), enter valid XML code in the **Layout Update XML** box.
+1. If applicable, select the name of the **Custom Layout Update** file that you want to apply to the page. To learn more, see [Layout instructions][1] in the Frontend Developer Guide.
+
+1. To apply a different theme to the page, select the name of the **New Theme**.
 
 <!--{% endif %}-->
 
-## Step {% if "Default.CE Only" contains site.edition %}6{% endif %}{% if "Default.EE-B2B" contains site.edition %}7{% endif %}: Preview the Page
+## Step {% if "Default.CE Only" contains site.edition %}6{% endif %}{% if "Default.EE-B2B" contains site.edition %}7{% endif %}: Preview the page
 
 1. On the **Save** menu, choose **Save & Close** to return to the Pages grid.
 
@@ -166,3 +169,5 @@ Now that your page is complete, it can be added to your store navigation, linked
 |Save & New|Save and close the current page, and begin a new page.|
 |Save & Duplicate|Save and close the current page, and open a new duplicate copy.|
 |Save & Close|Save and close the current page, and return to the Pages grid.|
+
+[1]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/xml-instructions.html
