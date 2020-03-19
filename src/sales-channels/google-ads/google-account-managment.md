@@ -1,5 +1,6 @@
 ---
 title: Managing Google Accounts
+tag: google-shopping
 ---
 
 
