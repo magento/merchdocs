@@ -1,41 +1,55 @@
 ---
-title: Using a Layout Update
+title: Using Layout Updates
 ---
 
-Blocks can be placed in the left or right sidebar of a specific page by making a [layout update]({% link design/layout-updates.md %}) to the XML code. With a few simple changes to the code, you can position the block in either sidebar, and control its position in relation to other blocks.
+[Layout updates]({% link design/layout-updates.md %}) make it possible to customize the layout of a page. Layout updates offer more flexibility than a [widget]({% link cms/widgets.md %}), but require access to the server and a basic knowledge of XML.
 
-The term callout is sometimes used to refer to a block that is defined as a layout update with XML code. The term sidebar refers to the left or right columns of the page layout. When entering layout update code, make sure to follow the syntax exactly as shown in the example.
+The following steps show how to use a layout update to place a block on a page. For specific examples and help with syntax, see [Common layout customization tasks][4] in the Frontend Developer Guide.
 
-<div class="bs-callout bs-callout-info" markdown="1">
-To place a block in the sidebar, the page must have a two-or three-column layout. To learn more, see: [Page Layout]({% link design/page-layout.md %}).
-</div>
+## Step 1: Create the block
 
-## To place a block in the sidebar of a page:
+1. Create the [block]({% link cms/block-add.md %}) that you want to place.
 
-1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Blocks**.
+1. Take note of the `block_id`, because you will need to reference it in the layout update instructions.
 
-1. In the grid, find the block you want to place, and take note of its **Identifier**. Make sure that you have the correct spelling.
+## Step 2: Compose the layout update in XML
+
+1. Compose the layout instructions in XML to [Reference a CMS Block][3].
+
+1. Save the [layout instructions][2] on the server in the layout folder where XML files are saved for the theme. For example:
+
+   `<theme_dir>/<Namespace>_<Module>/layout`
+
+   The [layout handle][4] is the filename that begins with the `cms_page_view_selectable_`, followed by the URL key of the CMS page, the layout update option, andrake the  `xml` file suffix. In the following example, `customer-service` is the URL key of the page, and `ChatTool` is the option that you select to apply the layout update to the page.
+
+   `cms_page_view_selectable_`<`customer-service`>`_`<`ChatTool`>`.xml`
+
+   |--- |--- |
+   |CMS Page Identifier|The URL key of the page with any forward slash (/) replaced by an underscore (_).|
+   |Layout Update Name|The option that appears in the Custom Layout Update drop-down list.|
+
+## Step 3: Reference the layout update from the page
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Pages**.
 
-1. Find the page where you want to place the block, and open the page in edit mode.
+1. Find the page where you want to place the block, and open in edit mode.
 
-1. In the panel on the left, choose **Design**. Then, do the following:
+1. In the left panel, click **Design**.
 
-   - In the **Layout Update XML** box, enter the code for the right or left sidebar.
+   All available layout updates that are associated with the page appear in the Custom Layout Update list.
 
-      **Code for CMS Block in Sidebar**
+   ![]({% link images/images/page-design-custom-layout-update.png %}){: .zoom}
+   _Custom Layout Update_
 
-      ```
-      <reference name="right">
-      <block type="cms/block" name="right.permanent.callout">
-      <action method="setBlockId"><block_id>your-block-id</block_id></action>
-      </block>
-      </reference>
-      ```
+1. Select the **Custom Layout Update** that you want to apply to the page.
 
-   - Change the **reference name** to identify either the “right” or “left” column, according to the layout of the page.
+## Step 4: Save and refresh cache
 
-   - Change the **block_id** to the identifier of the block that is being placed.
+1. When complete, click <span class="btn">Save & Close</span>.
 
-1. When complete, click <span class="btn">Save Page</span>.
+1. In the message at the top of the workspace, click **Cache Management** and refresh each invalid cache.
+
+[1]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/layout-overview.html
+[2]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/xml-instructions.html
+[3]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/xml-manage.html#ref_cms_block
+[4]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/layout-overview.html
