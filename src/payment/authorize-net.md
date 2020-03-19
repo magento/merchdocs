@@ -7,7 +7,7 @@ tag: payments-deprecated
 **Deprecation Notice** <br/>
 Due to the Payment Service Directive [PSD2]({% link stores/compliance-payment-services-directive.md %}) and the continued evolution of many APIs, this payment integration is at risk of becoming outdated and no longer security compliant in the future. For this reason, it is now deprecated and we are recommending that you disable it in your Magento configuration and transition to the corresponding [Magento Marketplace extension](https://marketplace.magento.com/catalogsearch/result/?q=authorize.net){:target="_blank"}.<br/><br/>
 **This integration will be removed from the Magento 2.4.0 release and has been deprecated from versions of 2.3.**<br/><br/>
-For details about making a secure transition from deprecated payment integrations, see our [DevBlog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog){:target="_blank"}.
+For details about making a secure transition from deprecated payment integrations, see our [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
 The Authorize.Net payment method has replaced the Authorize.Net Direct Post payment method. Authorize.Net handles all steps in the transaction process — such as payment data collection, data submission, and response to the customer — while the customer remains in your store. Authorize.Net can be used with orders created from the Admin as well as from the store.
 
