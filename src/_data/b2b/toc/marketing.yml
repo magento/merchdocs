@@ -9,6 +9,8 @@ pages:
     - label: Google Shopping ads Channel
       url: "/sales-channels/google-ads/google-ad-channel.html"
       children:
+      - label: End of Life
+        url: "/sales-channels/google-ads/google-eol.html"
       - label: Getting Started with Google
         url: "/sales-channels/google-ads/getting-started-google.html"
         children:
