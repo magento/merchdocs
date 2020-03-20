@@ -1,5 +1,6 @@
 ---
 title: Unclaiming a Claimed URL
+tag: google-shopping
 ---
 
 
