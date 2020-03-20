@@ -31,7 +31,7 @@ _Standard Block Layout_
 |page/template_links|There are two blocks of this type in the standard layout. The `top.links` block is a child of the header block, and corresponds to the top navigation menu. The `footer_links` block is a child of the footer block, and corresponds to the bottom navigation menu. <br/><br/>**_Note:_** It is possible to manipulate the template links, as shown in the examples.|
 |page/switch|There are two blocks of this type in a standard layout. The `store_language` block is a child of the header block, and corresponds to the top language switcher. The `store_switcher` block is a child of the footer block, and corresponds to the bottom store switcher.|
 |core/messages|There are two blocks of this type in a standard layout. The `global_messages` block displays global messages. The `messages` block is used to display all other messages. If you remove these blocks, the customer won't be able to see any messages.|
-|core/text_list|This type of block is widely used throughout Magento, and is used as a placeholder for rendering children blocks.|
+|core/text_list|This type of block is widely used throughout Magento as a placeholder for rendering children blocks.|
 |core/profiler|There is only one instance of this type of block per page. It is used for the internal Magento profiler and should not be used for any other purpose.|
 
 [1]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/layout-overview.html
