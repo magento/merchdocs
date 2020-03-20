@@ -1,5 +1,6 @@
 ---
 title: About Google and Magento Attributes
+tag: google-shopping
 ---
 
 

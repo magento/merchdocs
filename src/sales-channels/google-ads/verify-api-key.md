@@ -1,5 +1,6 @@
 ---
 title: Add/Update the Google API Key
+tag: google-shopping
 ---
 
 

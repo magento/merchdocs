@@ -1,5 +1,6 @@
 ---
 title: Getting Started with Google Shopping ads Channel
+tag: google-shopping
 sections:
    - title: About GMC and Ads with Magento
      content: Learn more about Google Merchant Center and Google Ads accounts, products, campaigns, and more. These are the key accounts used to integrate Magento and Google.

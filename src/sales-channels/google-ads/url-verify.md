@@ -1,5 +1,6 @@
 ---
 title: URL Verification
+tag: google-shopping
 ---
 
 
