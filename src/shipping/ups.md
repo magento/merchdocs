@@ -73,7 +73,6 @@ To offer this shipping method to your customers, you must first open an account 
 
     | Residential | Most of your shipments are business to consumer (B2C). |
     | Commercial | Most of your shipments are business to business (B2B). |
-    | Define Automatically | UPS determines the destination as either residential or commercial, and uses the appropriate rate from the merchant’s UPS account. |
 
 1. Enter the **Maximum Package Weight** allowed by the carrier.
 

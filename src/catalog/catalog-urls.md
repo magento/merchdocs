@@ -10,14 +10,14 @@ The URLs you assign to products and categories play a major role in determining 
 
 A dynamic URL is created _on the fly_ and might include a query string with variables for the product ID, sort order, and the page where the request was made. When a customer searches for a product in your store, the resulting URL might look something like this:
 
-`http://mystore.com/catalogsearch/result/?q=racer+back`
-`http://mystore.com/women/tops-women.html?style_general=135`
+- `http://mystore.com/catalogsearch/result/?q=racer+back`
+- `http://mystore.com/women/tops-women.html?style_general=135`
 
 ### Static URL
 
 A static URL is a fixed address for a specific page. A static URL can be displayed in a search engine friendly format or one that references products and categories by ID. Search engine friendly URLs include words that people might use to look for a product, and require Web Server Rewrites to be enabled. Files with static URLs are commonly used for product and category pages, content pages, and [theme assets]({% link design/theme-assets.md %}).
 
-`http://mystore.com/antonia-racer-tank.html`
+- `http://mystore.com/antonia-racer-tank.html`
 
 ## URL components
 
@@ -33,21 +33,22 @@ Your catalog can be configured to either include or exclude the suffix as part o
 
 Because the suffix is controlled by the system configuration, you should never type it directly into the URL key of a category or product. (Doing so will result in a double suffix at the end of the URL.) Whether you decide to use the suffix or not, be consistent and use the same setting for all your product and category pages. Here are examples of URLs with—and without—a suffix.
 
-`http://mystore.com/helena-hooded-fleece.html`
-`http://mystore.com/helena-hooded-fleece.htm`
-`http://mystore.com/helena-hooded-fleece`
+#### URL with HTML suffix
+- `http://mystore.com/helena-hooded-fleece.html`
+- `http://mystore.com/helena-hooded-fleece.htm`
+
+#### URL without HTML suffix
+- `http://mystore.com/helena-hooded-fleece`
 
 ### Category path
 
 You can configure the URL to either include or exclude the category path. By default, the category path is included in all category and product pages. The following examples show the same product URL with, and without, the category path.
 
 #### URL with category path
-
-`http://mystore.com/women/tops-women/hoodies-and-sweatshirts-women/helena-hooded-fleece.html`
+- `http://mystore.com/women/tops-women/hoodies-and-sweatshirts-women/helena-hooded-fleece.html`
 
 #### URL without category path
-
-`http://mystore.com/helena-hooded-fleece.html`
+- `http://mystore.com/helena-hooded-fleece.html`
 
 To prevent search engines from indexing multiple URLs that lead to the same content, you can exclude the category path from the URL. Another method is to use a canonical meta tag to let search engines know which URLs to index and which to ignore. By default, Magento does not include the category path in product URLs.
 
