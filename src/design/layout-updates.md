@@ -14,7 +14,7 @@ The XML layout of your Magento store is a hierarchical structure of containers a
 
 The [Widget]({% link cms/widgets.md %}) tool is an easy way to add an existing [content block]({% link cms/blocks.md %}) to the default layout of a page. For more advanced updates, you must save the XML layout update code on the server, and then reference the file as a custom layout update from the Admin. For an overview of the process, see [Making Layout Updates]({% link design/layout-update-place-block.md %}).
 
-In the following diagram, the names that refer to contiainers are black, and the block types, or block class paths, are blue.
+In the following diagram, the names that refer to containers are black and the block types, or block class paths, are blue.
 
 ![]({% link images/images/page-layout-default.png %}){: .zoom}
 _Standard Block Layout_
