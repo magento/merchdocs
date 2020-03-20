@@ -205,10 +205,10 @@ pages:
         url: "/payment/amazon-pay-manage.html"
       - label: Amazon Pay Resources
         url: "/payment/amazon-pay-resources.html"
-    - label: Authorize.Net Direct Post (Deprecated)
-      url: "/payment/authorize-net-direct-post.html"
-    - label: Authorize.Net
+    - label: Authorize.Net - Deprecated
       url: "/payment/authorize-net.html"
+    - label: Authorize.Net Direct Post - Deprecated
+      url: "/payment/authorize-net-direct-post.html"
   - label: Basic Payment Methods
     url: "/payment/payment-methods.html"
     children:

@@ -1,5 +1,6 @@
 ---
 title: About GMC and Ads with Magento
+tag: google-shopping
 ---
 
 

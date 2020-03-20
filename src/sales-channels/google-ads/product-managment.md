@@ -1,5 +1,6 @@
 ---
 title: Managing Products
+tag: google-shopping
 ---
 
 
