@@ -20,7 +20,7 @@ The following steps show how to use a layout update to place a block on a page. 
 
    `<theme_dir>/<Namespace>_<Module>/layout`
 
-   The [layout handle][4] is the filename that begins with the `cms_page_view_selectable_`, followed by the URL key of the CMS page, the layout update option, andrake the  `xml` file suffix. In the following example, `customer-service` is the URL key of the page, and `ChatTool` is the option that you select to apply the layout update to the page.
+   The [layout handle][4] is the filename that begins with `cms_page_view_selectable_`, followed by the URL key of the CMS page, the layout update option, and the `xml` file suffix. In the following example, `customer-service` is the URL key of the page, and `ChatTool` is the option that you select to apply the layout update to the page.
 
    `cms_page_view_selectable_`<`customer-service`>`_`<`ChatTool`>`.xml`
 
