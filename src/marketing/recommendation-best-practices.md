@@ -24,7 +24,7 @@ Magento provides a large set of recommendations you can deploy to various pages 
 
 |**Page**|**Recommendation Type**|
 |---|---|
-|Home page|Most purchased, top sellers|
+|Home page|Recommended for you|
 |Product page|Viewed this, viewed that|
 |Cart|Bought this, bought that|
 
@@ -45,7 +45,7 @@ The label you give a recommendation affects how a shopper interprets the content
 |**Recommendation Type**|**Recommended Storefront Labels**|
 |---|---|
 |Most viewed<br> Most added to cart<br>Most purchased|Most popular<br>Trending<br>Popular right now<br>Recently popular<br>Popular items inspired by this item (PDP)<br>Top sellers|
-|Just for You|Just for you<br>Recommended for you<br>Inspired by your shopping trends|
+|Recommended for you|Just for you<br>Recommended for you<br>Inspired by your shopping trends|
 |Viewed This, Viewed That|Customers who viewed this item also viewed<br>Customers also viewed<br>Related items|
 |Viewed This, Bought That|Customers who viewed this ultimately bought<br>Customers ultimately purchased<br>What do others buy after viewing this item?|
 |Bought This, Bought That|Get everything you need<br>Don't forget these<br>Frequently bought together|
