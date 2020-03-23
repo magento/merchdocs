@@ -17,7 +17,11 @@ sections:
      content: Amazon Sales Channel maps products between your Magento catalog and Amazon using product attributes. Learn more about creating, mapping, and managing those attributes.
      url: /sales-channels/asc/attributes-view.html
 
-   - title: Manage Amazon Listings
+   - title: Manage Store Settings
+     content: View and modify your store settings, including listing settings, order settings, and listing and pricing rules.
+     url: /sales-channels/asc/ob-store-review.html
+
+   - title: Manage Listings
      content: As you sell through the Amazon Marketplace, you may need to update, add, and manage your listings (settings, rules, and pricing). Learn more about creating and modifying your store and listing settings.
      url: /sales-channels/asc/managing-product-listings.html
 
