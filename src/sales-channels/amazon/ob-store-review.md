@@ -1,6 +1,5 @@
 ---
-title: 'Onboarding: Store Review'
-tag: asc-old
+title: 'Onboarding: Store Review' 
 ---
 
 

@@ -1,6 +1,5 @@
 ---
-title: Store Reports
-tag: asc-old
+title: Store Reports 
 ---
 
 

@@ -1,6 +1,5 @@
 ---
-title: Standard Price Rule Actions
-tag: asc-old
+title: Standard Price Rule Actions 
 ---
 
 

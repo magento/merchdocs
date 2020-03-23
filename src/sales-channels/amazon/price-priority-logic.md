@@ -1,6 +1,5 @@
 ---
-title: Price Priority Logic
-tag: asc-old
+title: Price Priority Logic 
 ---
 
 

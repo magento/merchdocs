@@ -1,6 +1,5 @@
 ---
-title: Creating and Assigning Products
-tag: asc-old
+title: Creating and Assigning Products 
 ---
 
 

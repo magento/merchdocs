@@ -1,6 +1,5 @@
 ---
-title: Onboarding Amazon Sales Channel
-tag: asc-old
+title: Onboarding Amazon Sales Channel 
 ---
 
 

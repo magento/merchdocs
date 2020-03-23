@@ -1,6 +1,5 @@
 ---
-title: Store Integration
-tag: asc-old
+title: Store Integration 
 ---
 
 

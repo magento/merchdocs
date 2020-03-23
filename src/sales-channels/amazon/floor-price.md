@@ -1,6 +1,5 @@
 ---
-title: 'Intelligent Repricing Rule: Floor Price'
-tag: asc-old
+title: 'Intelligent Repricing Rule: Floor Price' 
 ---
 
 

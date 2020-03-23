@@ -1,6 +1,5 @@
 ---
-title: Common Order Processing Tasks
-tag: asc-old
+title: Common Order Processing Tasks 
 ---
 
 Amazon Sales Channel can manage your Amazon orders, including emailing the buyer, fulfilling the order (shipping), issuing credits/refunds, adding comments, and more. To manage your Amazon orders, your [order settings]({% link sales-channels/amazon/order-settings.md %}) must be set to create corresponding Magento orders when Amazon orders are received. Amazon order information displays on the Orders tab in Amazon Sales Channel Home.

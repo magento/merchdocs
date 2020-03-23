@@ -1,6 +1,5 @@
 ---
-title: Managing Stores
-tag: asc-old
+title: Managing Stores 
 ---
 
 

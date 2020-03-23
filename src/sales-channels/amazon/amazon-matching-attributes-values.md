@@ -1,6 +1,5 @@
 ---
-title: Reviewing Amazon Attribute Values
-tag: asc-old
+title: Reviewing Amazon Attribute Values 
 ---
 
 

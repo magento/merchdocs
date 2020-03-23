@@ -1,6 +1,5 @@
 ---
-title: Managing Attributes
-tag: asc-old
+title: Managing Attributes 
 ---
 
 

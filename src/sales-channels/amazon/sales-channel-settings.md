@@ -1,6 +1,5 @@
 ---
-title: Amazon Sales Channel Settings
-tag: asc-old
+title: Amazon Sales Channel Settings 
 ---
 
 

@@ -1,6 +1,5 @@
 ---
-title: Add Pricing Rules
-tag: asc-old
+title: Add Pricing Rules 
 ---
 
 Pricing rules are initially defined during onboarding, but can be modified at any time after your store setup is complete. You can access the Pricing rules for an Active or Inactive store in the [store's dashboard]({% link sales-channels/amazon/amazon-store-dashboard.md %}). In the **I Want To...** section, click **Pricing Rules**.

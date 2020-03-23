@@ -3,7 +3,7 @@ title: Store Integration Settings
 ---
 
 
-After integrating your store, review and configure the integration settings store through the Amazon Store Dashboard. These settings display for **Inactive** and **Active** stores. Stores with the **In Setup** status can be configured through the [Onboarding steps]({% link sales-channels/asc/amazon-onboarding-home.md %}).
+After integrating your store, review and configure the integration settings store through the Amazon Store Dashboard. These settings display for **Inactive** and **Active** stores. Here you can change the name of your Amazon store and the email address you associated with the store during store integration.
 
 ## Modify store integration settings
 

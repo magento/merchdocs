@@ -1,6 +1,5 @@
 ---
-title: View Listing Details
-tag: asc-old
+title: View Listing Details 
 ---
 
 

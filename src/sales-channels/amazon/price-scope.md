@@ -1,6 +1,5 @@
 ---
-title: Price Scope
-tag: asc-old
+title: Price Scope 
 ---
 
 

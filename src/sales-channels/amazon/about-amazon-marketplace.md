@@ -1,6 +1,5 @@
 ---
-title: About Amazon Marketplace
-tag: asc-old
+title: About Amazon Marketplace 
 ---
 
 Amazon Marketplace is an e-commerce platform owned and operated by Amazon that enables third-party sellers to sell new or used products. Using Amazon Marketplace, third-party sellers gain access to Amazon's world-wide customer base. Those who list products on Amazon for sale, including Magento users, are defined by Amazon as "third-party sellers."
@@ -48,3 +47,4 @@ Amazon follows a set of policies and workflows to ensure all sellers and product
 [5]: https://www.amazon.com/gp/help/customer/display.html?nodeId=1161272
 [6]: https://www.amazon.com/gp/help/customer/display.html?nodeId=200267770
 [7]: https://www.amazon.com/gp/help/customer/display.html?nodeId=200414320
+""'

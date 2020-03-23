@@ -1,6 +1,5 @@
 ---
-title: Add or Verify the Amazon API Key
-tag: asc-old
+title: Add or Verify the Amazon API Key 
 ---
 
 

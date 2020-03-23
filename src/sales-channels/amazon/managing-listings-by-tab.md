@@ -1,6 +1,5 @@
 ---
-title: Managing Product Listings by Tab
-tag: asc-old
+title: Managing Product Listings by Tab 
 ---
 
 

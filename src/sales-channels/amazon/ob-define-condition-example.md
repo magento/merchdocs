@@ -1,6 +1,5 @@
 ---
-title: 'Example: Define a Condition'
-tag: asc-old
+title: 'Example: Define a Condition' 
 ---
 
 

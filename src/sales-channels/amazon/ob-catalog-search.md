@@ -1,6 +1,5 @@
 ---
-title: 'Onboarding: Catalog Search'
-tag: asc-old
+title: 'Onboarding: Catalog Search' 
 ---
 
 

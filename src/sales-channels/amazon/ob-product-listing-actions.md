@@ -1,6 +1,5 @@
 ---
-title: 'Onboarding: Product Listing Actions'
-tag: asc-old
+title: 'Onboarding: Product Listing Actions' 
 ---
 
 

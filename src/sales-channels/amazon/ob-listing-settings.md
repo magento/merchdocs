@@ -1,6 +1,5 @@
 ---
-title: 'Onboarding: Listing Settings'
-tag: asc-old
+title: 'Onboarding: Listing Settings' 
 ---
 
 

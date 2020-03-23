@@ -1,6 +1,5 @@
 ---
-title: 'Onboarding: Price Rule General Settings'
-tag: asc-old
+title: 'Onboarding: Price Rule General Settings' 
 ---
 
 

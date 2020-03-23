@@ -1,6 +1,5 @@
 ---
-title: Ready to List
-tag: asc-old
+title: Ready to List 
 ---
 
 

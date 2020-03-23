@@ -1,6 +1,5 @@
 ---
-title: Amazon Order Details
-tag: asc-old
+title: Amazon Order Details 
 ---
 
 

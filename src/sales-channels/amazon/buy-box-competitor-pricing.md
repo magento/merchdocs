@@ -1,6 +1,5 @@
 ---
-title: Buy Box Competitor Pricing
-tag: asc-old
+title: Buy Box Competitor Pricing 
 ---
 
 Buy Box Competitor Pricing

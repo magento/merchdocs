@@ -1,6 +1,5 @@
 ---
-title: Managing Listing Settings
-tag: asc-old
+title: Managing Listing Settings 
 ---
 
 

@@ -1,6 +1,5 @@
 ---
-title: Creating Attributes for Amazon
-tag: asc-old
+title: Creating Attributes for Amazon 
 ---
 
 

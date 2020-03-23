@@ -1,6 +1,5 @@
 ---
-title: Communication Errors Log
-tag: asc-old
+title: Communication Errors Log 
 ---
 
 

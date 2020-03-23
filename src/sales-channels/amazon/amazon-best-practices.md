@@ -1,6 +1,5 @@
 ---
-title: Amazon Sales Channel: Best Practices and Limitations
-tag: asc-old
+title: Amazon Sales Channel: Best Practices and Limitations 
 ---
 
 Best practices include:

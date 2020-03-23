@@ -1,6 +1,5 @@
 ---
-title: Store Integration Settings
-tag: asc-old
+title: Store Integration Settings 
 ---
 
 

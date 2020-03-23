@@ -1,6 +1,5 @@
 ---
-title: Price Rule Examples
-tag: asc-old
+title: Price Rule Examples 
 ---
 
 ## Standard Price Rule Examples

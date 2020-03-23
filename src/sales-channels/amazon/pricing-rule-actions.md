@@ -1,6 +1,5 @@
 ---
-title: Price Rule Actions
-tag: asc-old
+title: Price Rule Actions 
 ---
 
 

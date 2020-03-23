@@ -1,6 +1,5 @@
 ---
-title: 'Intelligent Repricing Rule: Select Rule Type'
-tag: asc-old
+title: 'Intelligent Repricing Rule: Select Rule Type' 
 ---
 
 {:.bs-callout .bs-callout-warning}

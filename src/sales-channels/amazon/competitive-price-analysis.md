@@ -1,6 +1,5 @@
 ---
-title: Competitive Price Analysis
-tag: asc-old
+title: Competitive Price Analysis 
 ---
 
 

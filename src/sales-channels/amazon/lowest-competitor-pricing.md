@@ -1,6 +1,5 @@
 ---
-title: Lowest Competitor Pricing
-tag: asc-old
+title: Lowest Competitor Pricing 
 ---
 
 

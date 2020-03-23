@@ -1,6 +1,5 @@
 ---
-title: 'Onboarding: Stock/Quantity'
-tag: asc-old
+title: 'Onboarding: Stock/Quantity' 
 ---
 
 

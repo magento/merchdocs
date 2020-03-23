@@ -1,6 +1,5 @@
 ---
-title: Managing Amazon Listings
-tag: asc-old
+title: Managing Amazon Listings 
 ---
 
 

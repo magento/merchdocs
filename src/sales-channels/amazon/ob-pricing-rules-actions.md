@@ -1,6 +1,5 @@
 ---
-title: 'Onboarding: Price Rule Actions'
-tag: asc-old
+title: 'Onboarding: Price Rule Actions' 
 ---
 
 

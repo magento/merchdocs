@@ -1,6 +1,5 @@
 ---
-title: 'Onboarding: Pricing Rules'
-tag: asc-old
+title: 'Onboarding: Pricing Rules' 
 ---
 
 
