@@ -8,7 +8,7 @@ To get started with Amazon Sales Channel, you must create (add) an Amazon Sales 
 _You will need the primary log-in credentials for your Amazon Seller Central account (the email or phone used to create the seller account) to connect your store._
 
 {:.bs-callout-info}
-After integration, you will be prompted annually to renew your Amazon Sales Channel connection to Amazon by granting access again.
+After your first store integration, you will be prompted annually to renew your Amazon Sales Channel connection to Amazon by granting access again. You can renew or revoke this authorization in the _Current Authorizations_ table in the _Amazon MWS Developer Permissions_ section of the **Settings** > **User Permissions** page of your Seller Central account.
 
 ## Add an Amazon store
 
