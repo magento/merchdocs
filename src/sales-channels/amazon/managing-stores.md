@@ -1,5 +1,5 @@
 ---
-title: Managing Stores 
+title: Managing Stores
 ---
 
 

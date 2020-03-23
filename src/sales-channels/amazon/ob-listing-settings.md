@@ -1,5 +1,5 @@
 ---
-title: 'Onboarding: Listing Settings' 
+title: 'Onboarding: Listing Settings'
 ---
 
 

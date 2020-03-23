@@ -1,5 +1,5 @@
 ---
-title: Pricing Rule General Settings 
+title: Pricing Rule General Settings
 ---
 
 

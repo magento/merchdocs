@@ -1,5 +1,5 @@
 ---
-title: 'Onboarding: Price Rule General Settings' 
+title: 'Onboarding: Price Rule General Settings'
 ---
 
 

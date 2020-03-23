@@ -1,5 +1,5 @@
 ---
-title: Listing Price  
+title: Listing Price
 ---
 
 

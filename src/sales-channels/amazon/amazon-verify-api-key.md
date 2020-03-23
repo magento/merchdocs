@@ -1,5 +1,5 @@
 ---
-title: Add or Verify the Amazon API Key 
+title: Add or Verify the Amazon API Key
 ---
 
 

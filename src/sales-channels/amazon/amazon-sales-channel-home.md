@@ -1,5 +1,5 @@
 ---
-title: Amazon Sales Channel Home 
+title: Amazon Sales Channel Home
 ---
 
 

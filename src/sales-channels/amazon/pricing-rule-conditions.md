@@ -1,5 +1,5 @@
 ---
-title: Price Rule Conditions 
+title: Price Rule Conditions
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: 'Intelligent Repricing Rule: Select Rule Type' 
+title: 'Intelligent Repricing Rule: Select Rule Type'
 ---
 
 {:.bs-callout .bs-callout-warning}

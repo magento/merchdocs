@@ -1,5 +1,5 @@
 ---
-title: Active Listings 
+title: Active Listings
 ---
 
 

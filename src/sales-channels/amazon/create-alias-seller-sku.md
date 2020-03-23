@@ -1,5 +1,5 @@
 ---
-title: Creating an Alias Amazon Seller SKU 
+title: Creating an Alias Amazon Seller SKU
 ---
 
 

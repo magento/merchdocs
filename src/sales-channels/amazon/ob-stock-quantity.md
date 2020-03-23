@@ -1,5 +1,5 @@
 ---
-title: 'Onboarding: Stock/Quantity' 
+title: 'Onboarding: Stock/Quantity'
 ---
 
 

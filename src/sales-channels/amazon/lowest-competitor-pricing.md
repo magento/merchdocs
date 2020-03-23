@@ -1,5 +1,5 @@
 ---
-title: Lowest Competitor Pricing 
+title: Lowest Competitor Pricing
 ---
 
 

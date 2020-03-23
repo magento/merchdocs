@@ -1,5 +1,5 @@
 ---
-title: Price Scope 
+title: Price Scope
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: Amazon Store Dashboard 
+title: Amazon Store Dashboard
 ---
 
 

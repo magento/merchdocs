@@ -1,5 +1,5 @@
 ---
-title: 'Onboarding: Listing Preview' 
+title: 'Onboarding: Listing Preview'
 ---
 
 

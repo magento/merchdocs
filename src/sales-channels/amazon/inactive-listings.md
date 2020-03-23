@@ -1,9 +1,9 @@
 ---
-title: Inactive Listings 
+title: Inactive Listings
 ---
 
 
-Listings that display on this tab include your products that have been published to Amazon but are not active on the Amazon marketplace. Your listings could be inactive for a few different reasons. For example, you might not be eligible to list that particular brand. Inactive listings are dictated by Amazon’s listing standards and your Amazon Seller Central account permissions.
+Listings that display on this tab include your products that have been published to Amazon but are not active on the Amazon marketplace. Your listings could be inactive for a few different reasons. For example, you might not be eligible to list that particular brand. Inactive listings are dictated by Amazon's listing standards and your Amazon Seller Central account permissions.
 
 In the **Actions** drop-down:
 

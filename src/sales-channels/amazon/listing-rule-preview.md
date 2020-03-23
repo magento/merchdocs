@@ -1,5 +1,5 @@
 ---
-title: Listing Rule Preview 
+title: Listing Rule Preview
 ---
 
 

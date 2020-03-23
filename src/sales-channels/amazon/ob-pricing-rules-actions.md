@@ -1,5 +1,5 @@
 ---
-title: 'Onboarding: Price Rule Actions' 
+title: 'Onboarding: Price Rule Actions'
 ---
 
 

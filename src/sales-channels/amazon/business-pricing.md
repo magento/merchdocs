@@ -1,5 +1,5 @@
 ---
-title: "(B2B) Business Price" 
+title: "(B2B) Business Price"
 ---
 
 (B2B) Business Price settings are part of your store's listing settings. You can access the listing settings for an Active or Inactive store in the [store's dashboard]({% link sales-channels/amazon/amazon-store-dashboard.md %}). In the **I Want To...** section, click **Listing Settings**. The Listing Settings screen displays with the Product Listing Actions section expanded by default. Click **(B2B) Business Price** to expand the section.

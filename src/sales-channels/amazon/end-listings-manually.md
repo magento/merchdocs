@@ -1,5 +1,5 @@
 ---
-title: Ending an Amazon Listing 
+title: Ending an Amazon Listing
 ---
 
 

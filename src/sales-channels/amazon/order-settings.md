@@ -1,5 +1,5 @@
 ---
-title: Order Settings 
+title: Order Settings
 ---
 
 

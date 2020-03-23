@@ -1,5 +1,5 @@
 ---
-title: 'Onboarding: Third Party Listings' 
+title: 'Onboarding: Third Party Listings'
 ---
 
 

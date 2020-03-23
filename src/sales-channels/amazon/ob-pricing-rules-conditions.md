@@ -1,5 +1,5 @@
 ---
-title: 'Onboarding: Price Rule Conditions' 
+title: 'Onboarding: Price Rule Conditions'
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: Reviewing Amazon Attribute Values 
+title: Reviewing Amazon Attribute Values
 ---
 
 

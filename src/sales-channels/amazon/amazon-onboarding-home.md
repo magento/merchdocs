@@ -1,5 +1,5 @@
 ---
-title: Onboarding Amazon Sales Channel 
+title: Onboarding Amazon Sales Channel
 ---
 
 

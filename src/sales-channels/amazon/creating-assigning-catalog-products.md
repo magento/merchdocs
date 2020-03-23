@@ -1,5 +1,5 @@
 ---
-title: Creating and Assigning Products 
+title: Creating and Assigning Products
 ---
 
 

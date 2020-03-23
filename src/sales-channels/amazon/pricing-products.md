@@ -1,5 +1,5 @@
 ---
-title: Managing Amazon Pricing 
+title: Managing Amazon Pricing
 ---
 
 

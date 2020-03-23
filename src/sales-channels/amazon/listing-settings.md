@@ -1,5 +1,5 @@
 ---
-title: Managing Listing Settings 
+title: Managing Listing Settings
 ---
 
 

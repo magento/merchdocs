@@ -1,5 +1,5 @@
 ---
-title: Incomplete Listings 
+title: Incomplete Listings
 ---
 
 

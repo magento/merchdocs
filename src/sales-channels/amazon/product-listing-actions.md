@@ -1,5 +1,5 @@
 ---
-title: Product Listing Actions 
+title: Product Listing Actions
 ---
 
 

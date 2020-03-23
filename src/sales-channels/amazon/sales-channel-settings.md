@@ -1,5 +1,5 @@
 ---
-title: Amazon Sales Channel Settings 
+title: Amazon Sales Channel Settings
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: 'Onboarding: Listing Rules' 
+title: 'Onboarding: Listing Rules'
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: Update Required Info (Incomplete Listing) 
+title: Update Required Info (Incomplete Listing)
 ---
 
 Listings that display on the Incomplete tab include your Magento catalog products that meet your Amazon eligibility requirements as defined in your listing rules but are missing information required by Amazon before listing.

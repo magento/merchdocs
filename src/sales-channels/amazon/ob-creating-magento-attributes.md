@@ -1,5 +1,5 @@
 ---
-title: Creating Attributes for Amazon 
+title: Creating Attributes for Amazon
 ---
 
 

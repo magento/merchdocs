@@ -1,5 +1,5 @@
 ---
-title: Amazon Sales Channel 
+title: Amazon Sales Channel
 sections:
    - title: Get Started with Amazon Sales Channel
      content: Learn more about Amazon and Amazon Sales Channel basics, key features, best practices, and more.

@@ -1,5 +1,5 @@
 ---
-title: Managing Amazon Listings 
+title: Managing Amazon Listings
 ---
 
 

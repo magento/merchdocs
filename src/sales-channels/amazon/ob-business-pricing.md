@@ -1,5 +1,5 @@
 ---
-title: 'Onboarding: (B2B) Business Price' 
+title: 'Onboarding: (B2B) Business Price'
 ---
 
 

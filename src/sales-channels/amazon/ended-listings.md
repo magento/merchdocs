@@ -1,5 +1,5 @@
 ---
-title: Ended Listings 
+title: Ended Listings
 ---
 
 

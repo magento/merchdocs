@@ -1,5 +1,5 @@
 ---
-title: 'Onboarding: Catalog Search' 
+title: 'Onboarding: Catalog Search'
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: 'Onboarding: Product Listing Actions' 
+title: 'Onboarding: Product Listing Actions'
 ---
 
 

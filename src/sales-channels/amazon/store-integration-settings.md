@@ -1,5 +1,5 @@
 ---
-title: Store Integration Settings 
+title: Store Integration Settings
 ---
 
 

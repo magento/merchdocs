@@ -1,5 +1,5 @@
 ---
-title: View Listing Details 
+title: View Listing Details
 ---
 
 

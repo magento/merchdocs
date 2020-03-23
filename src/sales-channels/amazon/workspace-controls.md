@@ -1,5 +1,5 @@
 ---
-title: Workspace Controls 
+title: Workspace Controls
 ---
 
 

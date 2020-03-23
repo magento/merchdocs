@@ -1,5 +1,5 @@
 ---
-title: Store Reports 
+title: Store Reports
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: Ready to List 
+title: Ready to List
 ---
 
 

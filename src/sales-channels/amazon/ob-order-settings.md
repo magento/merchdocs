@@ -1,5 +1,5 @@
 ---
-title: 'Onboarding: Order Settings' 
+title: 'Onboarding: Order Settings'
 ---
 
 

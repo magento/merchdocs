@@ -1,5 +1,5 @@
 ---
-title: Listing Improvements  
+title: Listing Improvements
 ---
 
 

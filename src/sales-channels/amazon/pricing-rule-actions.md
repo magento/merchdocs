@@ -1,5 +1,5 @@
 ---
-title: Price Rule Actions 
+title: Price Rule Actions
 ---
 
 

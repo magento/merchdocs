@@ -1,5 +1,5 @@
 ---
-title: Ineligible Listings 
+title: Ineligible Listings
 ---
 
 

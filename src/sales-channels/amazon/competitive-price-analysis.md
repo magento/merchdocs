@@ -1,5 +1,5 @@
 ---
-title: Competitive Price Analysis 
+title: Competitive Price Analysis
 ---
 
 

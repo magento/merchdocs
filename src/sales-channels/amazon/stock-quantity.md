@@ -1,5 +1,5 @@
 ---
-title: Stock/Quantity 
+title: Stock/Quantity
 ---
 
 
