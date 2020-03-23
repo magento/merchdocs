@@ -30,7 +30,7 @@ Magento provides the following types of recommendations:
 -  **Bought this, bought that** - Recommends items most often purchased by shoppers who purchased the specified item
 -  **More like this** - Recommends items based on similar content and attributes
 
-### Backup recommendations
+### Backup recommendations {#backup-recommendations}
 
 If there is not sufficient input data to provide all requested recommendation items in a unit, Magento provides backup recommendations to fill those items.
 
@@ -46,16 +46,19 @@ The following recommendation types will fallback to **Most viewed** if there is 
 
 -  **Bought this, bought that**
 
-### Filter recommendations
+### Filter recommendations {#filter-recommendations}
 
-For certain page types, Magento filters the recommendations so the products recommended are relevant in a given context. These recommendations are filtered based on direct category assignments and their subcategories. For example, if the category of the product is `Gear`, the recommendation unit displays products that have categories under `Gear`, such as `Gear/Bags` or `Gear/Fitness Equipment`. This direct category filtering ensures that if you deploy a recommendation type, such as **Most popular** to a product detail page, the recommendation unit displays the most popular products under that same product category rather than the most popular products in your entire catalog.
+Magento defines default filters for the **Most popular**, **Trending**, and **Recommended for you** recommendation types. By filtering recommendations, Magento provides more relevant results. For example, if you deploy the **Most popular** recommendation type to a product detail page, you would not want all products in the catalog to be displayed, but rather a smaller subset of products relevant to the product being viewed. Magento filters recommendations based on direct category assignments and their subcategories. For example, if the category of the product is `Gear`, the recommendation unit displays products that have categories under `Gear`, such as `Gear/Bags` or `Gear/Fitness Equipment`.
 
-The following table describes how the recommendations are filtered based on the recommendation type and page.
+The following table describes how the **Most popular**, **Trending**, and **Recommended for you** recommendation types are filtered based on the page.
 
-|Recommendation Type|Page|Filtered By|
+|Page|Filtered By|
 |---|---|---|
-|Most popular|Home<br>Category<br>Product Detail<br>Cart<br>Order Confirmation|No filter. Magento displays the most popular products for the entire site<br>Products under that category<br>Products under that product's category(-ies)<br>Products under that product's category(-ies) based on the items in the cart<br>Categories for products the shopper just purchased|
-|Recommended for you|Home<br>Category|No filter. Magento displays products based on the current shopper's browsing history on the site<br>Products under that category|
+|Home|No filter|
+|Category|Products under that category|
+|Product Detail|Products under that product's category(-ies)|
+|Cart|Categories of the products in the shopper's cart|
+|Order Confirmation|Categories for products the shopper just purchased|
 
 ## Product recommendations placement {#productrecplacement}
 
