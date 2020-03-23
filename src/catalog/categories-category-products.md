@@ -4,9 +4,8 @@ title: Products in Category
 
 The Products in Category section lists the products that are currently assigned to the category. The search filters at the top of each column are used to add and remove products from the category.
 
-<div class="edition-ee" markdown="1">
+{: .edition-ee }
 The Products in Category section also allows you to use [category rules]({% link catalog/category-product-rules.md %}) to dynamically change the product selection when a set of conditions is met. To learn more, see [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}).
-</div>
 
 ![]({% link images/images-ee/category-products-in-category.png %}){: .zoom}
 <span class="caption-edition-ee">_Category Products_</span>
@@ -71,9 +70,8 @@ When setting up a category rule, the products are matched and assigned to the ru
 
 ## Page controls
 
-<div class="edition-ee" markdown="1">
+{: .edition-ee }
 Controls in Magento Commerce only
-</div>
 
 | Control  | Description  |
 |----------|--------------|
@@ -84,9 +82,8 @@ Controls in Magento Commerce only
 | ![]({% link images/images/btn-drag.png %}) | The drag and drop control allows you to grab a product and move it to another position in the current page of the grid. To learn more, see [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}). |
 | ![]({% link images/images/btn-position.png %}) | Determines the position of the product in the list. |
 
-<div class="edition-ce" markdown="1">
+{: .edition-ce }
 Controls in Magento Open Source only
-</div>
 
 | Control  | Description  |
 |----------|--------------|

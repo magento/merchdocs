@@ -20,9 +20,8 @@ _Pages_
 
 ## Step 2: Set up the page and add the content
 
-<div class="edition-ce" markdown="1">
+{: .edition-ce }
 Steps for Magento Open Source only
-</div>
 
 1. On the new page, do the following:
 
@@ -64,9 +63,8 @@ Steps for Magento Open Source only
 
 1. Click <span class="btn">Save</span>.
 
-<div class="edition-ee" markdown="1">
+{: .edition-ee }
 Steps for Magento Commerce only
-</div>
 
 1. On the new page, do the following:
 

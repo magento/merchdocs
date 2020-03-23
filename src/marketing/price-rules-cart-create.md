@@ -202,9 +202,8 @@ _Discount Label in Totals Section of Order_
 
     ![]({% link images/images/price-rule-cart-label-store-specific.png %}){: .zoom}
 
-<div class="edition-ee" markdown="1">
+{: .edition-ee }
 Step 5 applies to Magento Commerce only
-</div>
 
 ## Step 5: Add Related Dynamic Blocks (optional)
 
@@ -245,9 +244,8 @@ Step 5 applies to Magento Commerce only
 |Priority|A number that indicates the priority of this rule in relation to others. The highest priority is number 1.|
 |Public in RSS Feed|Determines if the promotion is included in your store’s public RSS feed. Options:  Yes / No|
 
-<div class="edition-ce" markdown="1">
+{: .edition-ce }
 Fields in Magento Open Source only
-</div>
 
 |From|The first date the coupon can be used.|
 |To|The last date the coupon can be used.|
@@ -268,9 +266,9 @@ Specifies the conditions that must be met before the cart price rule goes into a
 |Discard Subsequent Rules|Determines if additional rules can be applied to this purchase. To prevent multiple discounts from being applied to the same purchase, select `Yes`.  Options: Yes / No|
 |Free Shipping| Determines if free shipping is included in the promotion, and if so, for which items. Options: <br/>**No** - Free shipping is not available when a coupon that is based on the rule is used. <br/>**For matching items only** - Free shipping is available only for specific items in the cart that match the rule. <br/>**For shipment with matching items** - Free shipping is available for the entire cart when a coupon that is based on the rule is used.|
 
-<div class="edition-ee" markdown="1">
+{: .edition-ee }
 Fields in Magento Commerce only
-</div>
+
 |Add Reward Points|Specifies the number of [reward points]({% link marketing/rewards-loyalty.md %}) that are earned by the customer whenever the price rule is applied.|
 
 ### Labels

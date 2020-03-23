@@ -48,14 +48,12 @@ The Order workspace lists all current orders. Each row in the grid represents a 
 |Payment Method|The method of payment to be used for the order.|
 |Total Refunded|Any amount from the order that is to be refunded to the customer.|
 
-<div class="edition-ee" markdown="1">
+{: .edition-ee }
 This column is available in Magento Commerce only.
-</div>
 
 |Refunded to Store Credit|Any amount from the order that is to be refunded to the customer’s store credit.|
 
-<div class="edition-b2b" markdown="1">
+{: .edition-b2b }
 This field is available in Magento Commerce for B2B only.
-</div>
 
 |Company Name|The name of the company who placed the order.|

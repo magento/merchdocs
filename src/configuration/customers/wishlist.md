@@ -14,9 +14,8 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 |Enabled|Store View|Activates the wish list module for your store. Options: Yes / No|
 |Show in Sidebar|Store View|Specifies visibility of the wish list(s) in the sidebar. <br/>Options: Yes / No|
 
-<div class="edition-ee" markdown="1">
+{: .edition-ee }
 Magento Commerce supports multiple wish lists. These are options in Magento Commerce only.
-</div>
 
 |Enable Multiple Wish Lists|Store View|When set to `Yes`, allows customers to create and maintain multiple wish lists. Options: Yes / No|
 |Number of Multiple Wish Lists|Store View|If multiple wish lists are enabled, determines the maximum number of wish lists customers can have associated with their account.|

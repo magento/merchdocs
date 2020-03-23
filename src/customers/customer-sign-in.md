@@ -6,9 +6,8 @@ Customer have easy access to their accounts from every page in your store. Depen
 
 If [Amazon Pay]({% link payment/amazon-pay.md %}) is enabled for your store, customers who sign in with the credentials from their Amazon account can use the shipping addresses and payment methods that are available in their Amazon account during checkout. [Login with Amazon]({% link configuration/sales/amazon-pay.md %}) requires customers to grant permission to share data from their Amazon accounts with your store.
 
-<div class="edition-b2b" markdown="1">
+{: .edition-b2b }
 Before company admins can sign in to their accounts, they must first set the password by clicking the link in the Welcome email. The system verifies that the company exists and checks the status of the company account. The sign-in process can proceed only if the company account is _active_.
-</div>
 
 If a [CAPTCHA]({% link stores/security-captcha.md %}) enabled in the configuration, the person must correctly complete a test that verifies them to be human, before gaining access to their accounts.
 

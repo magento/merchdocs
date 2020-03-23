@@ -22,9 +22,8 @@ If you have many rules created, you can filter the list by using the filter opti
 |ID|Enter text to filter the list for a specific rule ID number.|
 |Rule|Enter text to filter the list based on the rule name defined when the rule was created.|
 
-<div class="edition-ce" markdown="1">
+{: .edition-ce }
 These options are in Magento Open Source only.
-</div>
 
 |Start|Use the dynamic calendar fields (To: and From:) to filter the list based on the start date for the rule as defined when the rule was created.|
 |End|Use the dynamic calendar fields (To: and From:) to filter the list based on the end date for the rule as defined when the rule was created.|
@@ -33,9 +32,8 @@ These options are in Magento Open Source only.
 {:.bs-callout-info}
 To update a rule's properties, click the rule in the list to display the Rule Information page. There you can change the settings for the rule (similar to creating a new rule).
 
-<div class="edition-ce" markdown="1">
+{: .edition-ce }
 These options are in Magento Commerce only.
-</div>
 
 |Priority|Enter text in this field to filter the list based on the priority defined for a rule.|
 |Web Site|Use this option to filter the list based on websites defined for a rule.|

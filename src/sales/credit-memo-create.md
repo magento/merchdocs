@@ -115,9 +115,8 @@ _Create Credit Memo_
 |Email|The email address of the customer or buyer. The email address is linked to open a new email message.|
 |Customer Group|The name of the customer group or shared catalog to which the customer is assigned.|
 
-<div class="edition-b2b" markdown="1">
+{: .edition-b2b }
 This information is displayed for Magento Commerce for B2B only.
-</div>
 
 |Company Name|The name of the company that employs the buyer, and on whose behalf the order is placed. The company name is linked to the company profile.|
 
@@ -163,15 +162,13 @@ This information is displayed for Magento Commerce for B2B only.
 |Append Comments|Checkbox that determines if comments are included in the credit memo.|
 |Email Copy of Credit Memo|Checkbox that determines if a copy of the credit memo is emailed.|
 
-<div class="edition-ee" markdown="1">
+{: .edition-ee }
 This information is displayed for Magento Commerce only.
-</div>
 
 |Refund to Store Credit|Checkbox that determines if the total is to be refunded to [store credit]({% link sales/store-credit-using.md %}).|
 
-<div class="edition-b2b" markdown="1">
+{: .edition-b2b }
 This information is displayed for Magento Commerce for B2B only.
-</div>
 
 |Subtotal|The total of all line items to be refunded.|
 

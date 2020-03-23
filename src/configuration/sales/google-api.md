@@ -16,9 +16,8 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Anonymize IP|Store View|Determines if identifying information is removed from IP addresses that appear in Google Analytics results.|
 |Enable Content Experiments|Store View|Activates [Google Content Experiments](https://support.google.com/analytics/answer/1745147?hl=en&ref_topic=1745207), which can be used to test up to ten different versions of the same page. Options: Yes / No|
 
-<div class="edition-ee" markdown="1">
+{: .edition-ee }
 This option is in Magento Commerce only.
-</div>
 
 |Account Type|Store View|Determines the configuration options according to your Google Analytics account type. Options: Universal Analytics (default) / Google Tag Manager|
 

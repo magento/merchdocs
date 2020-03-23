@@ -37,15 +37,13 @@ _Apply Coupon in Cart_
 |Status|Use this option to filter the list based on rule status, `Active` or `Inactive`.|
 |Web Site|Use this option to filter the list based on websites defined for a rule.|
 
-<div class="edition-ee" markdown="1">
-Columns in Magento Commerce only
-</div>
+{: .edition-ee }
+Column in Magento Commerce only
 
 |Action|Click **Edit** to display the Rule Information page and update the rule's settings (similar to creating a new rule).|
 
-<div class="edition-ce" markdown="1">
+{: .edition-ce }
 Columns in Magento Open Source only
-</div>
 
 |Start|Use the dynamic calendar fields (To: and From:) to filter the list based on the start date for the rule as defined when the rule was created.|
 |End|Use the dynamic calendar fields (To: and From:) to filter the list based on the end date for the rule as defined when the rule was created.|

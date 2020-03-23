@@ -8,9 +8,8 @@ The Advanced Pricing settings define the conditions required for special pricing
 
 Advanced pricing data is synchronized with product pages. For example, if you update a tier price quantity, the system updates the value on the product page.
 
-<div class="edition-b2b" markdown="1">
+{: .edition-b2b }
 In Magento Commerce for B2b, advanced pricing data is synchronized with product pages and shared catalogs. For example, if you update a tier price quantity, the system updates the value in the shared catalog and on the product page. Any custom pricing that is indicated in the shared catalog has priority over customer group pricing.
-</div>
 
 ![]({% link images/images/product-pricing-advanced-link.png %}){: .zoom}
 _Advanced Pricing_
@@ -37,9 +36,8 @@ _Advanced Pricing_
 
 Enter the special price to offer a discounted price during a specified time period or scheduled campaign. When a special price is available, the retail price is crossed out and the special price appears below in large, bold text.
 
-<div class="edition-ce" markdown="1">
+{: .edition-ee }
 Special Price From dates in Magento Open Source only
-</div>
 
 |From|Sets the first date the Special Price is available. You can either enter the date or select it from the calendar.|
 |To|Sets the last date the Special Price is available. You can either enter the date or select it from the calendar.

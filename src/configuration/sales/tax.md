@@ -161,9 +161,8 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Display Full Tax Summary|Store View|Determines if the full tax summary appears on sales documents. Options: Yes / No|
 |Display Zero Tax Subtotal|Store View|Determines of the subtotal section on sales documents appears when no tax is charged. Options: Yes / No|
 
-<div class="edition-ee" markdown="1">
+{: .edition-ee }
 Options in Magento Commerce only
-</div>
 
 |Display Gift Wrapping Prices|Store View|Determines if gift wrapping prices are included in the subtotal. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
 |Display Printed Card Prices|Store View|Determines if printed card prices are included in the subtotal. Options: Excluding Tax / Including Tax / Including and Excluding Tax|

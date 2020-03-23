@@ -18,9 +18,8 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 |Clear Persistence on Log Out|Website|Defines whether the persistent cookie is deleted when a store customer logs out. No matter how Clear Persistence on Log Out is configured, if a customer does not log out, but the session cookie expires, the persistent cookie is still used.|
 |Persist Shopping Cart|Website|Defines whether using the persistent cookie gives access to the shopping cart data of the correspondent account. Options: <br/>**Yes** - The shopping cart contents are saved after the session ends. <br/>**No** - The shopping cart contents are not saved after the session ends.|
 
-<div class="edition-ee" markdown="1">
+{: .edition-ee }
 Options in Magento Commerce only
-</div>
 
 |Persist Wish List|Website|Determines if the state of customer wish lists is retained when the session ends. Options: <br/>**Yes** - The wish list contents are saved when the session ends. <br/>**No** - The wish list is not saved when the session ends.|
 |Persist Recently Ordered Items|Website|Determines if the state of recently ordered items is retained when the session ends. Options: <br/>**Yes** - The state of Recently Ordered Items is saved when the session ends. <br/>**No** - The state of Recently Ordered Items is not saved when the session ends.|

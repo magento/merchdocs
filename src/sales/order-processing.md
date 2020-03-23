@@ -78,9 +78,8 @@ Review the following sections in the sales order, using the field descriptions f
 |Purchased From|Indicates the website, store, and store view where the order was placed.|
 |Placed from IP|Indicates the IP address of the computer from which the order was placed.|
 
-<div class="edition-b2b" markdown="1">
+{: .edition-b2b }
 This field is available in Magento Commerce for B2B only.
-</div>
 
 |Order Placed from Quote|Indicates the quote from which the order was generated, if applicable. The quote name is linked to the quote.|
 
@@ -89,9 +88,8 @@ This field is available in Magento Commerce for B2B only.
 |Email|The email address of the customer or buyer. The email address is linked to open a new email message.|
 |Customer Group|The name of the customer group or shared catalog to which the customer is assigned.|
 
-<div class="edition-b2b" markdown="1">
+{: .edition-b2b }
 This field is available in Magento Commerce for B2B only.
-</div>
 
 |Company Name|The name of the company that employs the buyer, and on whose behalf the order is placed. The company name is linked to the company profile.|
 
@@ -166,15 +164,13 @@ In the **Order Total** section, do the following:
 |Total Refunded|The total amount refunded from the order, if applicable.|
 |Total Due|The total amount that is due.|
 
-<div class="edition-ee" markdown="1">
+{: .edition-ee }
 This field is available in Magento Commerce only.
-</div>
 
 |Store Credit|The amount of available store credit that is applied to the order, if applicable.|
 
-<div class="edition-b2b" markdown="1">
+{: .edition-b2b }
 These fields are available in Magento Commerce for B2B only.
-</div>
 
 |Catalog Total Price|The total price of the items in the quote without tax, according to the prices in the shared catalog or master catalog that is used as the basis of the quote. If the storefront display currency differs from the base currency, the value appears in both currencies, with the storefront display in square brackets.|
 |Negotiated Discount|The discount that is the result of a quote  negotiated between buyer and seller. If the storefront display currency differs from the base currency, the value appears in both currencies, with the storefront display in square brackets.|

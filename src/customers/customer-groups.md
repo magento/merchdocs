@@ -4,9 +4,8 @@ title: Customer Groups
 
 Customer groups determine which discounts are available and the tax class that is associated with the group. The default customer groups are General, Not Logged In, and Wholesale.
 
-<div class="edition-b2b" markdown="1">
+{: .edition-b2b }
 The selection of customer groups includes all regular customer groups, and shared catalogs, even if [Shared Catalogs]({% link stores/b2b-features.md %}) is not enabled in the configuration. Only one customer group or shared catalog can be assigned to a [company]({% link customers/account-companies.md %}) at a time.
-</div>
 
 ![]({% link images/images/customer-groups.png %}){: .zoom}
 _Customer Groups_
@@ -68,9 +67,8 @@ _Customer Groups_
 
 ## Delete a customer group
 
-<div class="edition-b2b" markdown="1">
+{: .edition-b2b }
 A customer group that is associated with a [shared catalog]({% link catalog/catalog-shared.md %}) cannot be deleted.
-</div>
 
 1. On the _Admin_ sidebar, go to **Customers** > **Customer Groups**.
 

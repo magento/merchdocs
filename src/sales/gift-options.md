@@ -6,9 +6,8 @@ redirect_from:
 
 The selection of available gift options appears in the cart before the checkout process begins. The Gift Options configuration determines if customers can add a gift message or greeting card, and the gift wrapping options that are available. Each item in the order can have a separate message and gift wrapping. When applied to the entire order, customers can also add a gift receipt and greeting card.
 
-<div class="edition-ee" markdown="1">
+{: .edition-ee }
 Greeting cards, gift wrapping, and gift receipts are available in Magento Commerce only.
-</div>
 
 The Gift Options configuration applies to the entire website, but can be overridden at the product level.
 

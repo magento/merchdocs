@@ -24,9 +24,8 @@ Click the section to expand, if needed. The selector indicates if it is currentl
 |[Design]({% link catalog/settings-advanced-design.md %})|These settings allow you to apply a different theme to the product page, change the column layout, determine where product options appear, and enter custom XML code.|
 |[Gift Options]({% link catalog/product-gift-options.md %})|These options can be set at the product level to allow a gift message to be added to the product during checkout.|
 
-<div class="edition-ce" markdown="1">
+{: .edition-ce }
 Section in Magento Open Source only
-</div>
 
 |[Scheduled Design Update]({% link catalog/product-scheduled-design-update.md %})|This section allows you to apply a different theme to the product page, change the column layout, determine where product options appear, and enter custom XML code|
 

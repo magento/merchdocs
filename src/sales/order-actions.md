@@ -7,9 +7,8 @@ To apply an action to specific orders, mark the checkbox in the first column of 
 ![]({% link images/images-ee/orders-action.png %}){: .zoom}
 <span class="caption-edition-ee">_Order Actions_</span>
 
-<div class="edition-ee" markdown="1">
+{: .edition-ee }
 Move to Archive is available in Magento Commerce only.
-</div>
 
 ## Action Controls
 

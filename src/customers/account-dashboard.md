@@ -4,9 +4,8 @@ title: Account Dashboard
 
 Customers can manage and monitor their own information and activities from their account dashboard. Customers can reorder, track orders, manage shipping addresses and payment methods, product reviews, newsletter subscriptions, and more.
 
-<div class="edition-b2b" markdown="1">
+{: .edition-b2b }
 FOr a B2B store, the full range of B2B options are available only for customers who are associated with a company. Otherwise, the dashboard options for individual accounts are the same as those available to Magento Commerce customers.
-</div>
 
 ![]({% link images/images-ee/customer-account-dashboard.png %}){: .zoom}
 <span class="caption-edition-ee">_Account Dashboard_</span>
@@ -26,9 +25,8 @@ FOr a B2B store, the full range of B2B options are available only for customers 
 | [My Product Reviews]({% link marketing/product-reviews.md %}) | Displays a list of all product reviews submitted by the customer, with a link to each.  |
 | [Newsletter Subscriptions]({% link marketing/newsletters.md %})  | Lists all available newsletters. Those to which the customer is currently subscribed have a checkmark. |
 
-<div class="edition-ee" markdown="1">
+{: .edition-ee }
 These are options in Magento Commerce only.
-</div>
 
 | [Order by SKU]({% link customers/account-dashboard-order-by-sku.md %}) | Gives you the ability to add individual items to the cart by SKU or to import a list of products to be ordered from a CSV file. |
 | [Store Credit]({% link customers/account-dashboard-store-credit.md %}) | Displays the current amount of store credit from returns, refunds, and redeemed gift card that can be applied to purchases.  |
@@ -38,9 +36,8 @@ These are options in Magento Commerce only.
 | [Gift Registry]({% link marketing/gift-registries.md %}) | Used to list and maintains gift registries, and  add new ones. |
 | [My Invitations]({% link marketing/invitations.md %}) | Lists all invitations the customer has created and sent for scheduled events. |
 
-<div class="edition-b2b" markdown="1">
+{: .edition-b2b }
 These are options in Magento Commerce for B2B only.
-</div>
 
 | [My Quotes]({% link customers/account-dashboard-quotes.md %})| (Companies Only) Lists all quotes submitted by the customer, with a link to detailed information. |
 | [My Requisition Lists]({% link customers/account-dashboard-requisition-lists.md %})  | (Companies Only) Maintains all requisition lists created by the customer.  |

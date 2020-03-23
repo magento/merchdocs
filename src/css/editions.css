@@ -54,7 +54,7 @@ li.edition-b2b::before {
 }
 
 .edition-b2b{ 
-  background-color: #DEF1F2
+  background-color: #EBFCFD
 }
 
 div.edition-ee,
@@ -100,6 +100,24 @@ p.edition-ce::before {
 
 div.edition-ce {  
   border: 1px solid #636365;
+}
+
+div.edition-b2b::before,
+p.edition-b2b::before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  top: 13px;
+  left: 15px;
+  background-image: url('i/b2b-only.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+div.edition-b2b{  
+  border: 1px solid #23A3A7;
 }
 
 p.edition-ee,

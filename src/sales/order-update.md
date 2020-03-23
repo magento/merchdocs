@@ -45,9 +45,8 @@ When payment is received and the invoice is generated, the status of the order c
 |<span class="btn">Hold</span> / <span class="btn">Unhold</span>|Changes the status of the sales order to _On Hold_. To release the hold on the sales order, choose `Unhold`.|
 |<span class="btn">Reorder</span>|Creates a new pending order based on the current order.|
 
-<div class="edition-ee" markdown="1">
+{: .edition-ee }
 This button is displayed for Magento Commerce only.
-</div>
 
 |<span class="btn">Create Returns</span>|Initiates the process to [return]({% link sales/returns.md %}) one or more items from the order.|
 

@@ -76,9 +76,8 @@ The checkbox in the first column of the list identifies each record that is a ta
 |--- |--- |
 |All Customers|Delete<br/>Subscribe to Newsletter<br/>Unsubscribe from Newsletter<br/>Assign a Customer Group<br/>Edit|
 
-<div class="edition-b2b" markdown="1">
+{: .edition-b2b }
 This field is available in Magento Commerce for B2B only.
-</div>
 
 |Companies|Set Active<br/>Block<br/>Delete<br/>Edit<br/>Convert Credit|]
 

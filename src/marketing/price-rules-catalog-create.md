@@ -182,7 +182,7 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
 
    Price rules are automatically processed with other system rules each night. When you create a new price rule, allow enough time for it to get into the system. Then, test the rule to make sure that it works correctly. As new rules are added, Magento recalculates the prices and the priorities accordingly.
 
-## Field Descriptions
+## Field descriptions
 
 ### Rule Information
 
@@ -192,9 +192,8 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
 |Customer Groups|(Required) Identifies the customer groups to which the rule applies.|
 |Priority|A number that indicates the priority of this rule in relation to others. The highest priority is number 1.|
 
-<div class="edition-ce" markdown="1">
+{: .edition-ce }
 These options are in Magento Open Source only.
-</div>
 
 |Status|(Required) Determines if the rule is currently active in the store. Options: Yes / No|
 |From|Specifies the first day the price rule is in effect. If left blank, the price rule goes into effect as soon as it is saved.|

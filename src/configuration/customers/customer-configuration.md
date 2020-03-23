@@ -78,9 +78,8 @@ _Account Information Options_
 
 ## Name and Address Options
 
-<div class="edition-ce" markdown="1">
+{: .edition-ce }
 Options in Magento Open Source only
-</div>
 
 ![]({% link images/images/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
 <span class="caption-edition-ce">[_Name and Address Options_]({% link customers/name-address-options.md %})</span>
@@ -100,9 +99,8 @@ Options in Magento Open Source only
 |Show Company|Website|Determines if the customer's company is included in the name and address form. Options: No / Optional / Required|
 |Show Fax|Website|Determines if the customer's fax number is included in the name and address form. Options: No / Optional / Required|
 
-<div class="edition-ee" markdown="1">
+{: .edition-ee }
 Options in Magento Commerce only
-</div>
 
 ![]({% link images/images-ee/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
 <span class="caption-edition-ee">[_Name and Address Options_]({% link customers/name-address-options.md %})</span>

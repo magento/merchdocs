@@ -91,9 +91,8 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Checkout View Settings|Website|**Configure** - Click to configure the following checkboxes that appear during checkout: Address Type / Authority to Leave / Signature Required|
 |Advanced Settings|Website|**Configure** - Click to configure synchronization with other systems.|
 
-<div class="edition-ee" markdown="1">
+{: .edition-ee }
 This option is in Magento Commerce only.
-</div>
 
 |Enabled for RMA|Website|When enabled, supports [return merchandise authorization]({% link sales/returns.md %}). Options: Yes / No|
 

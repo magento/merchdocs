@@ -103,9 +103,8 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 |Assign a Customer Group|Assigns selected customers to a customer group.|
 |Edit|Allows some values of a single selected customer record to be edited from the grid. By default, the following values are available for a quick edit: Email, Group, Phone, ZIP, Web Site, Tax VAT Number, and Gender.|
 
-<div class="edition-b2b" markdown="1">
+{: .edition-b2b }
 These are options in Magento Commerce for B2B only.
-</div>
 
 |Set Active|Removes a block on selected customer accounts, and changes the status to `Active`. The customers can log in and make purchases from their accounts.|
 |Set Inactive|Blocks the selected customer accounts, and changes the status to `Inactive`. The blocked customers will not be able to log in or make purchases from their accounts. The customer account of a company admin cannot be set to `Inactive`. Another user in the company must first be assigned as company admin.|

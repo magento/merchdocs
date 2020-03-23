@@ -5,9 +5,8 @@ title: Bulk Actions
 
 The Bulk Actions Log records the details of asynchronous mass operations that run in the background, such as import/export or assigning [custom prices]({% link catalog/catalog-shared-custom-pricing-update.md %}) to multiple products in a [shared catalog]({% link catalog/catalog-shared.md %}).
 
-<div class="edition-b2b" markdown="1">
+{: .edition-b2b }
 Custom prices in shared catalogs is available in Magento Commerce for B2B only.
-</div>
 
 ![Bulk actions log]({% link images/images-ee/system-bulk-actions-log.png %}){: .zoom}
 _Bulk Actions Log_

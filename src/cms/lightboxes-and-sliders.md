@@ -9,9 +9,8 @@ In Magento Commerce, it is easy to add a [slider]({% link cms/page-builder-media
 
 There is also a wide assortment of jQuery-based image lightboxes, sliders, and carousels available on [Magento Marketplace][1], and some are free.
 
-<div class="edition-ce" markdown="1">
+{: .edition-ce }
 To add a lightbox or slider to your store, download an extension from Magento Marketplace and follow the instructions to [install the extension]({% link system/web-setup-extension-manager.md %}). For additional help, see the documentation provided by the extension developer.
-</div>
 
 ![]({% link images/images/marketplace-sliders.png %}){: .zoom}
 _Slider Extensions_
