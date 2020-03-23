@@ -39,10 +39,13 @@ The store dashboard also includes store data and links to settings or more infor
    {:.bs-callout-info}
    **In Progress Listings** are either your _Ready to List_ listings or your _Incomplete Listings_, depending on your [_Product Listing Actions_]({% link sales-channels/asc/product-listing-actions.md %}) settings.<br/>If **Automatic List Action** is set to:<br/>- `Do Not Automatically List Eligible Products`, the link opens your [_Ready to List_]({% link sales-channels/asc/ready-to-list.md %}) listings.<br/>- `Automatically List Eligible Products`, the link opens your [_Incomplete_]({% link sales-channels/asc/incomplete-listings.md %}) listings.
 
-- **Recent Orders** - Shows a list of basic details for the most recent orders that have been placed in the Amazon store (through your Amazon Seller Central account). Information shown includes:
+- **Recent Orders** - Shows information for your last 60 orders that have been placed in the Amazon store (through your Amazon Seller Central account). Information shown includes:
 
     - Purchase Date
     - Order Number
+
+        {:.bs-callout .bs-callout-info}
+        You can click the Amazon order number shown in the _Order Number_ column to access the order details and fulfillment information. If order import is enabled in your [Order Settings]({% link sales-channels/asc/order-settings.md %}), clicking the order number link will open the order in the [Magento Orders]({% link sales/orders.md %}) workflow. If order import is disabled in your [Order Settings]({% link sales-channels/asc/order-settings.md %}), clicking the order number link will open the order details in Amazon Seller Central.
     - Status
     - Buyer's Name
     - Grand Total
