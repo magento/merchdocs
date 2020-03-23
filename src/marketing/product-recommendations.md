@@ -48,12 +48,14 @@ The following recommendation types will fallback to **Most viewed** if there is 
 
 ### Filter recommendations {#filter-recommendations}
 
-Magento defines default filters for the **Most popular**, **Trending**, and **Recommended for you** recommendation types. By filtering recommendations, Magento provides more relevant results. For example, if you deploy the **Most popular** recommendation type to a product detail page, you would not want all products in the catalog to be displayed, but rather a smaller subset of products relevant to the product being viewed. Magento filters recommendations based on direct category assignments and their subcategories. For example, if the category of the product is `Gear`, the recommendation unit displays products that have categories under `Gear`, such as `Gear/Bags` or `Gear/Fitness Equipment`.
+Magento defines default filters for the **Most popular**, **Trending**, and **Recommended for you** recommendation types. By filtering recommendations, Magento provides more relevant results. For example, if you deploy the **Most popular** recommendation type to a product detail page, you would not want products from the entire catalog to be displayed, but rather a smaller subset of products relevant to the product being viewed.
+
+Magento filters recommendations based on direct category assignments and their subcategories. For example, if the category of the product is `Gear`, the recommendation unit displays products that have categories under `Gear`, such as `Gear/Bags` or `Gear/Fitness Equipment`.
 
 The following table describes how the **Most popular**, **Trending**, and **Recommended for you** recommendation types are filtered based on the page.
 
 |Page|Filtered By|
-|---|---|---|
+|---|---|
 |Home|No filter|
 |Category|Products under that category|
 |Product Detail|Products under that product's category(-ies)|
