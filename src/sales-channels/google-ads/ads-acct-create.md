@@ -1,5 +1,6 @@
 ---
 title: Creating a Google Ads Account
+tag: google-shopping
 ---
 
 

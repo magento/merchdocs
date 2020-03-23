@@ -1,12 +1,15 @@
 ---
-title: Authorize.Net
+title: Authorize.Net - Deprecated
+tag: payments-deprecated
 ---
 
 {:.bs-callout-warning}
-**Payment Services Directive Requirements:** <br/>
-As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, do one of the following:<br/>- (Recommended) Install and configure the official Authorize.Net payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=authorize.net){:target="_blank"}.<br/>- Enable and configure the Authorize.Net payment method in the Magento configuration.<br/>These integrations support 3D Secure 2.0 verification through [CardinalCommerce](https://www.cardinalcommerce.com/products/psd2) and other third-party services.
+**Deprecation Notice** <br/>
+Due to the Payment Service Directive [PSD2]({% link stores/compliance-payment-services-directive.md %}) and the continued evolution of many APIs, this payment integration is at risk of becoming outdated and no longer security compliant in the future. For this reason, it is now deprecated and we are recommending that you disable it in your Magento configuration and transition to the corresponding [Magento Marketplace extension](https://marketplace.magento.com/catalogsearch/result/?q=authorize.net){:target="_blank"}.<br/><br/>
+**This integration will be removed from the Magento 2.4.0 release and has been deprecated from versions of 2.3.**<br/><br/>
+For details about making a secure transition from deprecated payment integrations, see our [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
-The Authorize.Net payment method has replaced the Authorize.Net Direct Post (Deprecated) payment method. Authorize.Net handles all steps in the transaction process — such as payment data collection, data submission, and response to the customer — while the customer remains in your store. Authorize.Net can be used with orders created from the Admin as well as from the store.
+The Authorize.Net payment method has replaced the Authorize.Net Direct Post payment method. Authorize.Net handles all steps in the transaction process, such as payment data collection, data submission, and response to the customer, while the customer remains in your store.
 
 ## Customer Workflow
 
@@ -18,14 +21,13 @@ The Authorize.Net payment method has replaced the Authorize.Net Direct Post (Dep
 
 ### Step 1: Enable Authorize.Net
 
-1. On the Admin sidebar, go to **Stores** > Settings > **Configuration**.
+1. On the Admin sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-2. In the panel on the left under **Sales**, choose **Payment Methods**.
+1. In the panel on the left under **Sales**, choose **Payment Methods**.
 
-3. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Authorize.Net** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Authorize.Net** section.
 
-4. To enable the configuration and display additional fields, set **Enabled** to 'Yes'.
-
+1. To enable the configuration and display additional fields, set **Enabled** to 'Yes'.
 
 ### Step 2: Complete Basic Settings
 
@@ -38,19 +40,18 @@ The Authorize.Net payment method has replaced the Authorize.Net Direct Post (Dep
    | **Authorize Only** | Funds on the customer's card are authorized by Authorize.Net, and an order is created in your store’s Admin. You can later create an invoice and capture the funds.|
    | **Authorize and Capture** | Funds on the customer's card are authorized and captured by Authorize.Net, and an order and invoice are created in your store’s Admin.|
 
-1. In the **API Login ID** field, enter the login ID from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **API Credentials & Keys**.
+1. For the **API Login ID**, enter the login ID from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **API Credentials & Keys**.
 
-1.  In the **Transaction Key** field, enter the key value from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **API Credentials & Keys**.
+1. For the **Transaction Key**, enter the key value from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **API Credentials & Keys**.
 
        {:.bs-callout-info}
        If you have previously generated a transaction key, you will enter the value. If you don't know your existing transaction key or have never established one, you can generate a new key in your Authorize.Net merchant account. If generating a new key to replace an existing key, it is important to update any existing applications that use the transaction key.
 
-1. In the **Public Client Key** field, enter the key value from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **Manage Public Client Key**.
+1. For the **Public Client Key**, enter the key value from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **Manage Public Client Key**.
 
-1. In the **Signature Key** field, enter the key value from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **API Credentials & Keys**.
+1. For the **Signature Key**, enter the key value from your Authorize.Net merchant account. Obtain the value in your Authorize.Net account at **Account** > **Settings** > **Security Settings** > **API Credentials & Keys**.
 
 1. Skip the **Merchant MD5 (deprecated)** field. Authorize.Net does not use this data field.
-
 
 ### Step 3: Complete Advanced Settings
 
