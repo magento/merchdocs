@@ -51,7 +51,7 @@ _Pages Grid_
    <!--{% if "Default.EE-B2B" contains site.edition %}-->
    If enabled, the [Page Builder]({% link cms/page-builder.md %}) stage and panel appear below the Content Heading.
 
-1. Complete the content and format the text as needed. To learn more, see [Workspace]({% link cms/page-builder-workspace.md %}}).
+1. Complete the content and format the text as needed. To learn more, see [Workspace]({% link cms/page-builder-workspace.md %}).
 
    If PageBuilder is not enabled, the editor opens in WYSIWYG mode with the toolbar at the top.
    <!--{% endif %}--> 
