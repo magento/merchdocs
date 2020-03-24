@@ -104,13 +104,14 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Default “What’s This” Text Message|Store View|The pop-up text message that appears when the customer clicks the “What’s this?” link from the product view page.|
 |Manufacturer's Suggested Retail Price|Global|The retail price as suggested by the manufacturer (MSRP).|
 
-## <span class="heading-edition-ee">Order by SKU Settings</span>
+{: .heading-edition-ee }
+## Order by SKU Settings
 
 ![]({% link images/images-ee/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
-<span class="caption-edition-ee">[_Order by SKU Settings_]({% link customers/account-dashboard-order-by-sku.md %})</span>
+_[Order by SKU Settings]({% link customers/account-dashboard-order-by-sku.md %})_{:.caption-edition-ee}
 
 ![]({% link images/images-ee/config-sales-sales-order-by-sku-settings-customer-group.png %}){: .zoom}
-<span class="caption-edition-ee">_Order by SKU Settings for Customer Group_</span>
+_Order by SKU Settings for Customer Group_{:.caption-edition-ee}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -126,10 +127,11 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Enabled|Store View|Enables Instant Purchase for the store view, provided that the payment method, such as Braintree, has vault enabled. Options: Yes / No|
 |Button Text|Store View|Specifies the text that appears on the Instant Purchase button. The default button text is “Instant Purchase”.|
 
-## <span class="heading-edition-ee">Orders, Invoices, Shipments, Credit Memos Archiving</span>
+{: .heading-edition-ee }
+## Orders, Invoices, Shipments, Credit Memos Archiving
 
 ![]({% link images/images-ee/config-sales-sales-orders-invoices-shipments-credit-memos-archving.png %}){: .zoom}
-<span class="caption-edition-ee">[_Orders, Invoices, Shipments, Credit Memos Archiving_]({% link sales/order-archive.md %})</span>
+_[Orders, Invoices, Shipments, Credit Memos Archiving]({% link sales/order-archive.md %})_{:.caption-edition-ee}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -137,10 +139,11 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Archive Orders Purchased|Global|Determines the number of days that pass before a completed order is archived. Default value: 30|
 |Order  Statuses to be Archived|Global|Determines the [status]({% link sales/order-status.md %}) of orders to be archived. By default, orders with a status of either Complete or Closed are archived. Options: Pending / Processing / Suspected Fraud / Complete / Closed / Canceled / On Hold|
 
-## <span class="heading-edition-ee">RMA Settings</span>
+{: .heading-edition-ee }
+## RMA Settings
 
 ![]({% link images/images-ee/config-sales-sales-rma-settings.png %}){: .zoom}
-<span class="caption-edition-ee">[_RMA Settings_]({% link sales/rma-configure.md %})</span>
+_[RMA Settings]({% link sales/rma-configure.md %})_{:.caption-edition-ee}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

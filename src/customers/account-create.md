@@ -98,7 +98,7 @@ _Customer Information_
     After the customer account is saved, the full set of options appears in the panel on the left and in the menu at the top of the page. The Customer View tab displays a summary of the account.
 
     ![]({% link images/images-ee/customer-account-create-saved.png %}){: .zoom}
-    <span class="caption-edition-ee">_Customer View_</span>
+    _Customer View_{:.caption-edition-ee}
 
 ### Step 2: Complete the address information
 
@@ -110,7 +110,7 @@ _Customer Information_
    - Default Shipping Address
 
     ![]({% link images/images/customer-account-information-addresses.png %}){: .zoom}
-    <span class="caption-edition-ce">_Add an Address_</span>
+    _Add an Address_{:.caption-edition-ce}
 
 1. Scroll down and complete the required address fields in the second column.
 

@@ -21,7 +21,7 @@ _Create Credit Memo_
    This button appears only after an order is invoiced.)
 
     ![]({% link images/images-b2b/order-account-info-credit-memo.png %}){: .zoom}
-    <span class="caption-edition-b2b">_Create Credit Memo_</span>
+    _Create Credit Memo_{:.caption-edition-b2b}
 
     The New Credit Memo page looks similar to the completed order page, with an Items to Refund section that lists each item from the invoice.
 
@@ -76,14 +76,14 @@ _Create Credit Memo_
         The status of a credit memo notification appears in the completed credit memo next to the credit memo number.
 
         ![]({% link images/images-b2b/credit-memo-order-totals.png %}){: .zoom}
-        <span class="caption-edition-b2b">_Refund Totals_</span>
+        _Refund Totals_{:.caption-edition-b2b}
 
 1. To complete the process and generate the credit memo, choose one of the following refund option buttons, according to the payment type:
 
     {: .buttons-table }
     |<span class="btn">Refund Online</span>|If the original purchase was paid by credit card through a payment gateway, the refund amount is managed by the payment processor. To manage refunds, see the  documentation provided by your payment provider.|
     |<span class="btn">Refund Offline</span>|If the original purchase was paid by check or money order, the refund is paid directly to the customer, by issuing a check, gift card, or cash if you have a brick and mortar storefront. The credit memo serves as a record of the offline transaction.|
-    |<span class="btn">Refund to Company Credit</span>|<span class="card-edition-b2b"></span> If the purchase was charged to company credit, the refund is returned to the [company’s account]({% link customers/account-dashboard-company-credit.md %}).|
+    |<span class="btn">Refund to Company Credit</span>|If the purchase was charged to company credit, the refund is returned to the [company’s account]({% link customers/account-dashboard-company-credit.md %})_._{:.caption-edition-b2b}|
 
 1. To add a comment to the completed credit memo, scroll down to the Comments History section and enter the comment in the box.
 

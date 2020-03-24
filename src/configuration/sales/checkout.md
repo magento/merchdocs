@@ -7,7 +7,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 ## Checkout Options
 
 ![]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
-<span class="caption-edition-ee">[_Checkout Options_]({% link sales/checkout-options.md %})</span>
+_[Checkout Options]({% link sales/checkout-options.md %})_{:.caption-edition-ee}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -26,7 +26,7 @@ These are options in Magento Commerce only.
 ## Shopping Cart
 
 ![]({% link images/images-b2b/config-sales-checkout-shopping-cart.png %}){: .zoom}
-<span class="caption-edition-ee">[_Shopping Cart_]({% link sales/cart-configuration.md %})</span>
+_[Shopping Cart]({% link sales/cart-configuration.md %})_{:.caption-edition-ee}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

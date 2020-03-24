@@ -7,7 +7,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 ## General Options
 
 ![]({% link images/images-ee/config-customers-wishlist-general-options-ee.png %}){: .zoom}
-<span class="caption-edition-ee">[_General Options_]({% link marketing/wishlist-configuration.md %})</span>
+_[General Options]({% link marketing/wishlist-configuration.md %})_{:.caption-edition-ee}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -35,7 +35,7 @@ Magento Commerce supports multiple wish lists. These are options in Magento Comm
 ## My Wish List Link
 
 ![]({% link images/images-ee/config-customers-wishlist-my-wishlist-link.png %}){: .zoom}
-<span class="caption-edition-ee">[_My Wish List Link_]({% link marketing/wishlist-configuration.md %})</span>
+_[My Wish List Link]({% link marketing/wishlist-configuration.md %})_{:.caption-edition-ee}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

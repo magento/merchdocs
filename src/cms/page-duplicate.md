@@ -5,7 +5,7 @@ title: Duplicating a Page
 Any content page can be used as a template, and saved as a duplicate. You might use this time-saving technique to create a consistent design for content pages throughout your site. The duplicate page retains the Page Title of the original, but the URL Key and Status fields must be updated.
 
 ![]({% link images/images-ee/page-duplicate-save-menu.png %}){: .zoom}
-<span class="caption-edition-ee">_Save & Duplicate_</span>
+_Save & Duplicate_{:.caption-edition-ee}
 
 ## Duplicate a page
 

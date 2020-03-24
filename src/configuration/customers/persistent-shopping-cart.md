@@ -7,7 +7,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 ## General Options
 
 ![]({% link images/images-ee/config-customers-persistent-shopping-cart-general-options-ee.png %}){: .zoom}
-<span class="caption-edition-ee">[_General Options_]({% link sales/cart-persistent-configuration.md %})</span>
+_[General Options]({% link sales/cart-persistent-configuration.md %})_{:.caption-edition-ee}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

@@ -5,7 +5,7 @@ title: Processing an Order
 When a customer places an order, a sales order is created as a temporary record of the transaction. The sales order has a status of `Pending` until payment is received. While in `Pending` status, orders can be edited or canceled up until the time that payment is received and an invoice is generated. An easy way to think of it is that orders become invoices, and invoices become shipments. The Orders grid lists all orders, regardless of where they are in the [workflow]({% link sales/order-workflow.md %}). To learn how to help customers with an order, see [Updating an Order]({% link sales/order-update.md %}).
 
 ![]({% link images/images-ee/orders.png %}){: .zoom}
-<span class="caption-edition-ee">_Orders_</span>
+_Orders_{:.caption-edition-ee}
 
 ## View an order
 
@@ -26,7 +26,7 @@ When a customer places an order, a sales order is created as a temporary record 
 The left panel for an open order provides access to different types of information that is related to the order.
 
 ![]({% link images/images-ee/order-view.png %}){: .zoom}
-<span class="caption-edition-ee">_View Order_</span>
+_View Order_{:.caption-edition-ee}
 
 ### Order view descriptions
 
@@ -67,7 +67,7 @@ Review the following sections in the sales order, using the field descriptions f
 ## Order & Account Information
 
 ![]({% link images/images-b2b/order-and-account-information.png %}){: .zoom}
-<span class="caption-edition-b2b">_Order & Account Information_</span>
+_Order & Account Information_{:.caption-edition-b2b}
 
 ### Order information
 
@@ -127,7 +127,7 @@ In the **Order Total** section, do the following:
 1. If you want the comment to be visible in the customer account, select the **Visible on Storefront** checkbox.
 
     ![]({% link images/images-b2b/order-total.png %}){: .zoom}
-    <span class="caption-edition-b2b">_Order Total_</span>
+    _Order Total_{:.caption-edition-b2b}
 
 1. If you are ready to invoice the order, click **Invoice**. Then follow the instructions to [Create an Invoice]({% link sales/invoice-create.md %}).
 

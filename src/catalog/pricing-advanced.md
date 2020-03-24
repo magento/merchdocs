@@ -46,10 +46,10 @@ Special Price From dates in Magento Open Source only
 
 This is the actual cost of the item.
 
-### <span class="heading-edition-ee">Customer Group Price</span><span class="heading-edition-ce"> </span>
+### Customer Group Price
 
 ![]({% link images/images-ee/product-pricing-advanced.png %}){: .zoom}
-<span class="caption-edition-ee">_Advanced Pricing_</span>
+_Advanced Pricing_{:.caption-edition-ee}
 
 Sets up promotional and tier prices for specific customer groups.
 
@@ -60,12 +60,13 @@ Sets up promotional and tier prices for specific customer groups.
 |![]({% link images/images/btn-trashcan2.png %}) |Deletes the current rule.|
 |<span class="btn">Add</span>|Inserts an additional row for a new rule.|
 
-### <span class="heading-edition-b2b">Catalog and Tier Price</span>
+{: .heading-edition-b2b }
+### Catalog and Tier Price
 
 Sets up promotional and tier prices for specific shared catalogs and customer groups.
 
 ![]({% link images/images-b2b/product-pricing-advanced.png %}){: .zoom}
-<span class="caption-edition-b2b">_Advanced Pricing_</span>
+_Advanced Pricing_{:.caption-edition-b2b}
 
 |Website|Identifies the website where the group price rule applies. This option appears only if the installation has multiple websites.|
 |Group or Catalog|(Required) Identifies the customer group or shared catalog that qualifies to receive the discount price. When a value in a group or catalog field is changed, the corresponding custom price row that matched the previous setting is deleted from the shared catalog. <br/>**ALL GROUPS** - Applies the rule to all customer groups. The value is not applied to the shared catalog and changes in advanced pricing data are not synchronized with the shared catalog.<br/>**NOT LOGGED IN** - Applies the rule guests and customers who are not logged in to their accounts.<br/>**Shared Catalogs** - Applies the rule to a specific shared catalog.|

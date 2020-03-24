@@ -104,12 +104,12 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 ## Price
 
 ![]({% link images/images-ee/config-catalog-catalog-price.png %}){: .zoom}
-<span class="caption-edition-ee">_[Price]({% link catalog/catalog-price-scope.md %})_</span>
+_[Price]({% link catalog/catalog-price-scope.md %})_{:.caption-edition-ee}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Catalog Price Scope|Global|Determines the scope of the base currency. Options: Global / Website.|
-|<span class="heading-edition-ee">Default Product Price</span>|Global|Defines the default product price, if applicable.|
+|**Catalog Price Scope**|Global|Determines the scope of the base currency. Options: Global / Website.|
+|**Default Product Price**{:.caption-edition-ee}|Global|Defines the default product price, if applicable.|
 
 ## Layered Navigation
 
@@ -129,7 +129,8 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Default Price Navigation Step|Store View|Determines the number of products that are included in each step.|
 |Maximum Number of Price Intervals|Store View|Establishes a limit for the number of price intervals that appear in layered navigation.|
 
-## <span class="heading-edition-ee">Category Permissions</span>
+{: .heading-edition-ee }
+## Category Permissions
 
 ![]({% link images/images-ee/config-catalog-catalog-category-permissions.png %}){: .zoom}
 [_Category Permissions_]({% link catalog/category-permissions.md %})
@@ -247,7 +248,8 @@ Magento supports the following versions of Elasticsearch: 6.x, 5.x, and 2.x (dep
 |Time Format|Store View|Sets the time format to either a  twelve or twenty-four hour clock. Options: 12h AM/PM / 24h|
 |Year Range|Store View|Defines the beginning and ending range of years that appear in the drop-down Year field. The value must be entered in YYYY format.|
 
-## <span class="heading-edition-ee">Catalog Events</span>
+{: .heading-edition-ee }
+## Catalog Events
 
 ![]({% link images/images-ee/config-catalog-catalog-events.png %}){: .zoom}
 [_Catalog Events_]({% link marketing/events-private-sales.md %})
@@ -259,7 +261,8 @@ Magento supports the following versions of Elasticsearch: 6.x, 5.x, and 2.x (dep
 |Number of Events to be Displayed in the Event Slider Widget|Store View|Determines the number of events that appear in the Event Slider widget on the category pages. To override, use the `limit=”x”` variable.|
 |Events to Scroll per Click in Event Slider Widget|Store View|Determines the number of events that appear in the Event Slider widget on CMS pages, such as the home page. To override, use the `scroll=”x”` variable.|
 
-## <span class="heading-edition-ee">Rule-Based Product Relations</span>
+{: .heading-edition-ee }
+## Rule-Based Product Relations
 
 ![]({% link images/images/config-catalog-catalog-rule-based-product-relations.png %}){: .zoom}
 [_Rule-Based Product Relations_]({% link marketing/product-related-rules.md %})

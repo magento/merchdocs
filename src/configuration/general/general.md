@@ -47,12 +47,13 @@ _Locale Options configuration settings_
 |Weekend Days|Store View|The days that fall on the weekend in the market served by the store view.|
 {:style="table-layout:auto"}
 
-## <span class="heading-edition-ee">Website Restrictions</span>
+{: .heading-edition-ee }
+## Website Restrictions
 
 See [Website Restrictions]({% link marketing/event-restrict-access.md %}) for specific configuration fields and options.
 
 ![General > Website Restrictions]({% link images/images-ee/config-general-general-website-restrictions.png %}){: .zoom}
-<span class="caption-edition-ee">*Website Restrictions configuration settings*</span>
+*Website Restrictions configuration settings*{:.caption-edition-ee}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

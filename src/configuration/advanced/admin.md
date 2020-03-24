@@ -82,7 +82,8 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Symbols Used in CAPTCHA|Website|Determines which symbols are used in the CAPTCHA. Only letters (a-z and A-Z) and numbers (0-9) are allowed. The default set of symbols suggested in the field excludes similar looking symbols like i, l, or 1. Displaying these symbols in CAPTCHA decreases the chances that a user will recognize CAPTCHA correctly.|
 |Case Sensitive|Website|Determines if the characters used in the CAPTCHA are case sensitive. Options: Yes / No|
 
-## <span class="heading-edition-ee">Admin Actions Logging</span>
+{: .heading-edition-ee }
+## Admin Actions Logging
 
 ![]({% link images/images/config-advanced-admin-actions-logging.png %}){: .zoom}
 [_Admin Actions Logging_]({% link system/action-log-archive.md %})

@@ -15,7 +15,7 @@ Complete the following steps to add a new rule, describe the conditions, and def
     - If you do not want the rule to go into effect immediately, set **Active** to `No`.
 
     ![Cart price rule - rule information]({% link images/images-ee/price-rule-cart-new.png %}){: .zoom}
-    <span class="caption-edition-ee">_Rule Information_</span>
+    _Rule Information_{:.caption-edition-ee}
 
 1. To establish the [scope]({% link configuration/scope.md %}) of the rule, do the following:
 
@@ -41,7 +41,7 @@ Complete the following steps to add a new rule, describe the conditions, and def
         To learn more, see [Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}).
 
         ![Cart price rule  - coupon settings]({% link images/images-ee/price-rule-cart-coupon-settings-ee.png %}){: .zoom}
-        <span class="caption-edition-ee">_Coupon Settings_</span>
+        _Coupon Settings_{:.caption-edition-ee}
 
     - {:.edition-ce}Use the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the **From** and **To** date range for the promotion.
 
@@ -59,7 +59,7 @@ Complete the following steps to add a new rule, describe the conditions, and def
     - {:.edition-ee}After the rule is saved, the name of the cart price rule and the Scheduled Changes box appear at the top of the page.
 
     ![Cart price rule - scheduled changes]({% link images/images-ee/price-rule-cart-scheduled-changes.png %}){: .zoom}
-    <span class="caption-edition-ee">[_Scheduled Changes_]({% link marketing/price-rule-cart-scheduled-changes.md %})</span>
+    _[Scheduled Changes]({% link marketing/price-rule-cart-scheduled-changes.md %})_{:.caption-edition-ee}
 
 ## Step 2: Describe the Conditions
 
@@ -278,7 +278,8 @@ Fields in Magento Commerce only
 |Default Rule Label for All Store Views|A default label that identifies the discount and can be used for all store views.|
 |Store View Specific Labels|If applicable, specifies a different label to identify the discount for each store view.|
 
-### <span class="heading-edition-ee">Related Dynamic Blocks</span>
+{: .heading-edition-ee }
+### Related Dynamic Blocks
 
 Identifies any dynamic block(s) that are associated with the rule.
 

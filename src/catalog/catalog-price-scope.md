@@ -26,6 +26,6 @@ _Price Scope_
    The scope setting that you choose appears below price fields in your catalog.
 
    ![]({% link images/images-ee/config-catalog-catalog-price-website.png %}){: .zoom}
-   <span class="caption-edition-ee">*Catalog Price Scope*</span>
+   *Catalog Price Scope*{:.caption-edition-ee}
 
 1. When complete, click <span class="btn">Save Config</span>.

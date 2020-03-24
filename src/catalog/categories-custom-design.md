@@ -11,11 +11,12 @@ _Design_
 |--- |--- |
 |Use Parent Category Settings|Allows the current category to inherit the design settings from the parent category. If used, all other fields in the Design section become unavailable. Options: Yes / No|
 |Theme|Applies a custom theme to the category.|
-|Layout|Applies a different layout to the category page. Options: <br/>**No layout updates** - By default, layout updates are not available for category pages. <br/>**Empty** - Use to define your own page layout. (Requires an understanding of XML.) <br/>**1 column** - Applies a one-column layout to the category page. <br/>**2 columns with left bar** - Applies a two-column layout with a left sidebar to the category page. <br/>**2 columns with right bar** - Applies a two-column layout with a right sidebar to the category page. <br/>**3 columns** - Applies a three-column layout to the category page. <br/>**Page -- Full Width**<span class="caption-edition-ee"> </span>- (Requires [Page Builder]({% link cms/page-builder.md %})) Applies the full-width layout for CMS pages to the category page. <br/>**Category -- Full Width**<span class="caption-edition-ee"> </span>- (Requires Page Builder) Applies the full-width layout for category pages to the category page. <br/>**Product -- Full Width**<span class="caption-edition-ee"> </span>- (Requires Page Builder) Applies the full-width layout for product pages to the category page.|
+|Layout|Applies a different layout to the category page. Options: <br/>**No layout updates** - By default, layout updates are not available for category pages. <br/>**Empty** - Use to define your own page layout. (Requires an understanding of XML.) <br/>**1 column** - Applies a one-column layout to the category page. <br/>**2 columns with left bar** - Applies a two-column layout with a left sidebar to the category page. <br/>**2 columns with right bar** - Applies a two-column layout with a right sidebar to the category page. <br/>**3 columns** - Applies a three-column layout to the category page. <br/>_Additional options_{:.caption-edition-ee}:<br/>**Page -- Full Width** - (Requires [Page Builder]({% link cms/page-builder.md %})) Applies the full-width layout for CMS pages to the category page. <br/>**Category -- Full Width** - (Requires Page Builder) Applies the full-width layout for category pages to the category page. <br/>**Product -- Full Width** - (Requires Page Builder) Applies the full-width layout for product pages to the category page.|
 |Layout Update XML|Updates the theme [layout with custom XML]({% link design/layout-updates.md %}) code.|
 |Apply Design to Products|When selected, applies the custom settings to all products in the category.|
 
-## <span class="heading-edition-ce">Scheduled Design Update</span>
+{:.edition-ce}
+## Scheduled Design Update
 
 The Scheduled Design Update section determines the range of dates when a custom design is applied to category pages.
 

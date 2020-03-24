@@ -7,7 +7,7 @@ Tier pricing lets you offer a quantity discount from a product listing or produc
 If you have many products to update, it is most efficient to import the tier price changes, rather than enter them individually. For more information, see [Importing Tier Prices]({% link system/data-import-price-tier.md %}).
 
 ![]({% link images/images-ee/storefront-tier-pricing-water-bottle.png %}){: .zoom}
-<span class="caption-edition-ee">_Tier Price on Product Page_</span>
+_Tier Price on Storefront Product Page_{:.caption-edition-ee}
 
 The product page calculates the quantity discount and displays a message such as:
 
@@ -60,7 +60,7 @@ The prices in the storefront take precedence from the highest to the lowest quan
       To get the discounted price, the defined percentage is calculated against the value defined in the _Price_ field, not the _Special Price_ field.
 
    ![]({% link images/images-b2b/product-price-tier-discount.png %}){: .zoom}
-   <span class="caption-edition-b2b">_Tier Price as a Percentage_</span>
+   _Tier Price as a Percentage_{:.caption-edition-b2b}
 
 ## Complete the price configuration
 

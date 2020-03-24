@@ -16,7 +16,7 @@ _Pages_
 1. Click <span class="btn">Add New Page</span>.
 
    ![]({% link images/images-ee/pages-new-page.png %}){: .zoom}
-   <span class="caption-edition-ee">_New Page_</span>
+   _New Page_{:.caption-edition-ee}
 
 ## Step 2: Set up the page and add the content
 
@@ -44,12 +44,12 @@ Steps for Magento Open Source only
      - `3 columns`
 
      ![]({% link images/images/page-custom-design-update.png %}){: .zoom}
-     <span class="caption-edition-ce">_Custom Design Update_</span>
+     _Custom Design Update_{:.caption-edition-ce}
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Content**.
 
     ![]({% link images/images/page-content.png %}){: .zoom}
-    <span class="caption-edition-ce">_Content_</span>
+    _Content_{:.caption-edition-ce}
 
 1. In the **Content Heading** box, enter the heading that you want to appear at the top of the page.
 
@@ -75,7 +75,7 @@ Steps for Magento Commerce only
 1. Expand ![]({% link images/images/btn-expand.png %}) **Content**.
 
     ![]({% link images/images-ee/page-content.png %}){: .zoom}
-    <span class="caption-edition-ee">_Content with Page Builder_</span>
+    _Content with Page Builder_{:.caption-edition-ee}
 
 1. Complete the content, and format the text as needed. To learn more, see [Page Builder]({% link cms/page-builder.md %}).
 
@@ -109,7 +109,8 @@ Steps for Magento Commerce only
     ![]({% link images/images/page-in-websites.png %}){: .zoom}
     _Pages in Websites_
 
-## <span class="heading-edition-ee">Step 5: Identify any parent page</span>
+{: .heading-edition-ee }
+## Step 5: Identify any parent page
 
 1. Expand ![]({% link images/images/btn-expand.png %}) **Hierarchy**.
 
@@ -118,7 +119,8 @@ Steps for Magento Commerce only
 
 1. If this page is a child of another page, select the checkbox of the **Parent page**.
 
-## <span class="heading-edition-ee">Step 6: Enter Any Design Changes</span>
+{: .heading-edition-ee }
+## Step 6: Enter Any Design Changes
 
 1. Expand ![]({% link images/images/btn-expand.png %}) **Design**.
 

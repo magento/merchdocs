@@ -12,7 +12,8 @@ The list of email templates is organized alphabetically by Magento module.
 |--- |--- |
 | Payment Failed | **Page:** Sales > [Checkout]({% link configuration/sales/checkout.md %})<br/>**Section:** Payment Failed Emails<br/>**Field:** Payment Failed Template|
 
-## <span class="heading-edition-b2b">Magento_Company</span>
+{: .heading-edition-b2b }
+## Magento_Company
 
 {: .template-table }
 |Template|Configuration path|
@@ -31,7 +32,8 @@ The list of email templates is organized alphabetically by Magento module.
 | Customer Status Inactive | **Page:** <br/>**Section:** <br/>**Field:** |
 | Sales Representative Assigned to Company | **Page:** <br/>**Section:** <br/>**Field:** |
 
-## <span class="heading-edition-b2b">Magento_CompanyCredit</span>
+{: .heading-edition-b2b }
+## Magento_CompanyCredit
 
 {: .template-table }
 |Template|Configuration path|
@@ -65,7 +67,8 @@ The list of email templates is organized alphabetically by Magento module.
 | Remind Password | **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Password Options<br/>**Field:** Remind Email Template |
 | Reset Password | **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Password Options <br/>**Field:** Reset Password Template |
 
-## <span class="heading-edition-ee">Magento_CustomerBalance</span>
+{: .heading-edition-ee }
+## Magento_CustomerBalance
 
 {: .template-table }
 |Template|Configuration path|
@@ -88,7 +91,8 @@ The list of email templates is organized alphabetically by Magento module.
 | Footer (Magento/luma) | n/a |
 | Header | n/a |
 
-## <span class="heading-edition-ee">Magento_GiftCard</span>
+{: .heading-edition-ee }
+## Magento_GiftCard
 
 {: .template-table }
 |Template|Configuration path|
@@ -118,7 +122,8 @@ The list of email templates is organized alphabetically by Magento module.
 |--- |--- |
 | Customer Invitation | **Page:** <br/>**Section:** <br/>**Field:** |
 
-## <span class="heading-edition-b2b">Magento_NegotiableQuote</span>
+{: .heading-edition-b2b }
+## Magento_NegotiableQuote
 
 {: .template-table }
 |Template|Configuration path|
@@ -148,14 +153,16 @@ The list of email templates is organized alphabetically by Magento module.
 | Price Alert | **Page:** Catalog > [Catalog]({% link configuration/catalog/catalog.md %})<br/>**Section:** Product Alerts<br/>**Field:** Price Alert Email Template |
 | Stock Alert | **Page:** Catalog > [Catalog]({% link configuration/catalog/catalog.md %})<br/>**Section:** Product Alerts<br/>**Field:** Stock Alert Email Template |
 
-## <span class="heading-edition-ee">Magento_Reminder</span>
+{: .heading-edition-ee }
+## Magento_Reminder
 
 {: .template-table }
 |Template|Configuration path|
 |--- |--- |
 | Promotion Notification/Reminder | **Page:** <br/>**Section:** <br/>**Field:** |
 
-## <span class="heading-edition-ee">Magento_Reward</span>
+{: .heading-edition-ee }
+## Magento_Reward
 
 {: .template-table }
 |Template|Configuration path|
@@ -163,7 +170,8 @@ The list of email templates is organized alphabetically by Magento module.
 | Balance Update | **Page:** <br/>**Section:** <br/>**Field:** |
 | Points Expiry Warning | **Page:** <br/>**Section:** <br/>**Field:** |
 
-## <span class="heading-edition-ee">Magento_Rma</span>
+{: .heading-edition-ee }
+## Magento_Rma
 
 {: .template-table }
 |Template|Configuration path|
@@ -213,7 +221,8 @@ The list of email templates is organized alphabetically by Magento module.
 | Shipment Update for Guest | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Shipment Comments<br/>**Field:** Shipment Comment Email Template for Guest |
 | Shipment Update for Guest (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Shipment Comments<br/>**Field:** Shipment Comment Email Template for Guest |
 
-## <span class="heading-edition-ee">Magento_ScheduledImportExport</span>
+{: .heading-edition-ee }
+## Magento_ScheduledImportExport
 
 {: .template-table }
 |Template|Configuration path|

@@ -16,7 +16,8 @@ When customers forget their passwords, a reset link is sent to the email address
 ![]({% link images/images/storefront-sign-in-create-account.png %}){: .zoom}
 _Sign In_
 
-## <span class="heading-edition-b2b">Set your password before first sign in</span>
+{: .heading-edition-b2b }
+## Set your password before first sign in
 
 1. Look for a Welcome email to arrive from the store. Then, follow the instructions and click **link** to set your password.
 
@@ -35,12 +36,12 @@ _Sign In_
 1. Click <span class="btn">Set a New Password</span>.
 
     ![]({% link images/images-b2b/customer-login-company-admin.png %}){: .zoom}
-    <span class="caption-edition-b2b">_Customer Login_</span>
+    _Customer Login_{:.caption-edition-b2b}
 
 1. When the Customer Login page appears, enter your **Email** and **Password**. Then, click **Sign In** to access your account dashboard.
 
     ![]({% link images/images-b2b/customer-company-dashboard.png %}){: .zoom}
-    <span class="caption-edition-b2b">_Account Dashboard_</span>
+    _Account Dashboard_{:.caption-edition-b2b}
 
 ## Sign in to your customer account
 

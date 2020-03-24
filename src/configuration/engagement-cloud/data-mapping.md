@@ -100,8 +100,8 @@ Gives you the ability to create custom mappings to Engagement Cloud, based on th
 - Tax/VAT Number
 - Failures Number
 - First Failure Date
-- Reward Update Notification<span class="heading-edition-ee"></span>
-- Reward Warning Notification<span class="heading-edition-ee"></span>
+- {:.edition-ee}Reward Update Notification
+- {:.edition-ee}Reward Warning Notification
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-custom-attributes.png %}){: .zoom}
 _Custom Attributes_
@@ -113,10 +113,11 @@ _Custom Attributes_
 |Action|Website|Deletes the current custom mapping.|
 |<span class="btn">Add New Attribute</span>||Adds a new custom mapping.|
 
-##  <span class="heading-edition-ee">Enterprise Data</span>
+{: .heading-edition-ee }
+## Enterprise Data
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-enterprise-data.png %}){: .zoom}
- <span class="caption-edition-ee">_Enterprise Data_</span>
+_Enterprise Data_{:.caption-edition-ee}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

@@ -59,7 +59,7 @@ The checkbox in the first column of the list identifies each record that is a ta
 
 |List|Actions|
 |--- |--- |
-|Orders|Cancel<br/>Hold<br/>Unhold<br/>Print Invoices<br/>Print Packing Slips<br/>Print Credit Memos<br/>Print All<br/>Print Shipping Labels <br/>Move to Archive<span class="heading-edition-ee"></span>|
+|Orders|Cancel<br/>Hold<br/>Unhold<br/>Print Invoices<br/>Print Packing Slips<br/>Print Credit Memos<br/>Print All<br/>Print Shipping Labels <br/>_Move to Archive_{:.caption-edition-ee}|
 |Invoices|PDF Invoices|
 |Shipments|PDF Shipments<br/>Print Shipping Labels|
 |Credit Memos|PDF Credit Memos|

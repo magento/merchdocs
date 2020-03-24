@@ -150,7 +150,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 ## Orders, Invoices, Credit Memos Display Settings
 
 ![]({% link images/images-ee/config-sales-tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
-<span class="caption-edition-ee">[_Orders, Invoices, Credit Memos Display Settings_]({% link tax/display-settings.md %})</span>
+_[Orders, Invoices, Credit Memos Display Settings]({% link tax/display-settings.md %})_{:.caption-edition-ee}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

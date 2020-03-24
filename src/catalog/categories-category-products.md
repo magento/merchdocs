@@ -8,9 +8,10 @@ The Products in Category section lists the products that are currently assigned 
 The Products in Category section also allows you to use [category rules]({% link catalog/category-product-rules.md %}) to dynamically change the product selection when a set of conditions is met. To learn more, see [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}).
 
 ![]({% link images/images-ee/category-products-in-category.png %}){: .zoom}
-<span class="caption-edition-ee">_Category Products_</span>
+_Category Products_{:.caption-edition-ee}
 
-## <span class="heading-edition-ee">Apply a category rule</span>
+{: .heading-edition-ee }
+## Apply a category rule
 
 1. Set **Match products by rule** to `Yes`.
 
@@ -51,7 +52,8 @@ The Products in Category section also allows you to use [category rules]({% link
 {:.bs-callout-tip}
 When setting up a category rule, the products are matched and assigned to the rule when the category is saved. Therefore, if you add a new product to the catalog and want to include it in the rule, you must re-save each category that is set to match products by rule to ensure that the new product is included.
 
-## <span class="heading-edition-ee">Page options</span>
+{: .heading-edition-ee }
+## Page options
 
 |Option|Description|
 |--- |--- |
@@ -59,7 +61,8 @@ When setting up a category rule, the products are matched and assigned to the ru
 |Automatic Sorting|Automatically applies a sorting order to the list of category products. Options: <br/>None<br/>Move low stock to top<br/>Move low stock to bottom<br/>Special price to top<br/>Special price to bottom<br/>Newest products first<br/>Sort by color<br/>Name: A - Z<br/>Name: Z - A<br/>SKU: Ascending<br/>SKU: Descending<br/>Price: High to Low<br/>Price: Low to High|
 |Add Condition|Adds another condition to the rule.|
 
-## <span class="heading-edition-ee">Page conditions</span>
+{: .heading-edition-ee }
+## Page conditions
 
 |Option|Description|
 |--- |--- |

@@ -13,7 +13,7 @@ These options include:
 * Various reports to help you track Engagement Cloud syncs, activity, and performance
 
 ![]({% link images/images-ee/admin-menu-reports-ee.png %}){: .zoom}
-<span class="caption-edition-ee">*Customer Engagement Reports*</span>
+*Customer Engagement Reports*{:.caption-edition-ee}
 
 ## Dashboard Options and Configurations
 

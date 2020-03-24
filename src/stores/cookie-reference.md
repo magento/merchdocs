@@ -13,7 +13,8 @@ Some of these cookies may provide configuration options, including enable/disabl
 
 ### Requested Functionality Cookies (Exempt)
 
-#### <span class="heading-edition-ee">`add_to_cart`</span>
+{: .heading-edition-ee }
+#### `add_to_cart`
 
 Used by Google Tag Manager. Captures the product SKU, name, price and quantity removed from the cart, and makes the information available for future integration by third-party scripts.
 
@@ -35,7 +36,8 @@ Preserves the destination page the customer was loading before being directed to
 - Expiration Policy: Session
 - Module: `Magento_Customer`
 
-#### <span class="heading-edition-ee">`mage-banners-cache-storage`</span>
+{: .heading-edition-ee }
+#### `mage-banners-cache-storage`
 
 Stores banner content locally to improve performance.
 
@@ -113,7 +115,8 @@ Stores product IDs of recently previously viewed products for easy navigation.
 - Expiration Policy: Per local storage rules
 - Module: `Magento_Catalog`
 
-#### <span class="heading-edition-ee">`remove_from_cart`</span>
+{: .heading-edition-ee }
+#### `remove_from_cart`
 
 Used by [Google Tag Manager]({% link marketing/google-tag-manager.md %}). Captures the product SKU, name, price and quantity added to the cart, and makes the information available for future integration by third-party scripts.
 
@@ -245,7 +248,8 @@ Tracks the specific store view / locale selected by the shopper.
 - Expiration Policy: 1 year
 - Module: `Magento_Store`
 
-#### <span class="heading-edition-ee">`mage-banners-cache-storage` - local storage</span>
+{: .heading-edition-ee }
+#### `mage-banners-cache-storage` - local storage
 
 Local storage for Banner functionality.
 
@@ -258,7 +262,8 @@ Local storage for Banner functionality.
 
 The following cookies are used when [Google Analytics]({% link marketing/google-universal-analytics.md %}) or [Google Universal Analytics]({% link marketing/google-universal-analytics.md %}) is fully enabled for your Magento installation. To disable these cookies for privacy regulation compliance, see [Google Privacy Settings]({% link stores/compliance-privacy-google.md %}). To learn more, see [Google Analytics Cookie Usage on Websites][1].
 
-### <span class="heading-edition-ee">Google Universal Analytics Cookies  - Non-Exempt</span>
+{:.edition-ee}
+### Google Universal Analytics Cookies  - Non-Exempt
 
 JavaScript Libraries: `gtag.js` and `analytics.js`
 
@@ -269,7 +274,8 @@ JavaScript Libraries: `gtag.js` and `analytics.js`
 - `AMP_TOKEN`: Contains a token that can be used to retrieve a Client ID from AMP Client ID service. Other possible values include opt-out, inflight request or an error retrieving a Client ID from  AMP Client ID service.
 - `_gac_<property-id>`: Contains campaign-related information for the user. Google AdWords conversion tags read this cookie if Google Analytics is linked to your [AdWords][2] account.
 
-### <span class="heading-edition-ce">Google Analytics Cookies - Non-Exempt</span>
+{:.edition-ce}
+### Google Analytics Cookies - Non-Exempt
 
 JavaScript Library: `ga.js`
 

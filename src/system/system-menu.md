@@ -22,7 +22,8 @@ Manage [integrations]({% link system/integrations.md %}) and extensions for your
 
 Use this collection of [tools]({% link system/tools.md %}) to manage your system resources, including cache and index management, backups, and installation settings.
 
-### <span class="heading-edition-ee">Support</span>
+{: .heading-edition-ee }
+### Support
 
 The [Support Tools]({% link system/support.md %}) can be used as a resource during the development and optimization processes, and as a diagnostic tool to help our Support team identify and resolve issues with your system.
 
@@ -30,7 +31,8 @@ The [Support Tools]({% link system/support.md %}) can be used as a resource duri
 
 Magento uses [roles and permissions]({% link system/permissions.md %}) to create different levels of access for Admin users, which gives you the ability to grant permission on a “need to know” basis to people who work on your site.
 
-### <span class="heading-edition-ee">Action Log</span>
+{: .heading-edition-ee }
+### Action Log
 
 The [Action Log]({% link system/action-log.md %}) tracks the activities of administrators who work in your store. For most events, the available information includes the action, the name of the user who performed it, whether it was a success or failure, and the ID of the object that was the target of the action. The Admin Actions archive lists the CSV log files that are stored on the server.
 

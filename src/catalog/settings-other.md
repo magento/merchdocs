@@ -9,7 +9,7 @@ The remaining product settings are located at the bottom of the page. Some setti
 Click the section to expand, if needed. The selector indicates if it is currently expanded ![]({% link images/images/btn-expand.png %}) or collapsed ![]({% link images/images/btn-collapse.png %}).
 
 ![]({% link images/images-ee/product-settings-other-ee.png %}){: .zoom}
-<span class="caption-edition-ee">_Other Settings_</span>
+_Other Settings_{:.caption-edition-ee}
 
 ## General settings
 

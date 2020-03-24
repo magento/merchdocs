@@ -24,22 +24,22 @@ To enable gift options:
 1. Expand ![]({% link images/images/btn-expand.png %}) **Gift Options** on the page.
 
     ![]({% link images/images-ee/config-sales-sales-gift-options.png %}){: .zoom}
-    <span class="caption-edition-ee">[_Sales configuration - Gift Options settings_]({% link configuration/sales/sales.md %}#gift-options)</span>
+    _[Sales configuration - Gift Options settings]({% link configuration/sales/sales.md %}#gift-options)_{:.caption-edition-ee}
 
 1. Set the gift message options according to your preference:
 
     - **Allow Gift Messages on Order Level**
     - **Allow Gift Messages for Order Items**
 
-1. <span class="card-edition-ee"><span>Set the gift wrapping options according to your preference:
+1. _Set the gift wrapping options according to your preference:_{:.card-edition-ee}
 
     - **Allow Gift Wrapping on Order Level**
     - **Allow Gift Wrapping for Order Items**
 
-1. <span class="card-edition-ee"><span>To provide customers with an option to include a gift receipt, set **Allow Gift Receipt** to `Yes`.
+1. _To provide customers with an option to include a gift receipt, set **Allow Gift Receipt** to `Yes`._{:.card-edition-ee}
 
-1. <span class="card-edition-ee"><span>To provide customers with an option to include a printed card, set **Allow Printed Card** to `Yes`.
+1. _To provide customers with an option to include a printed card, set **Allow Printed Card** to `Yes`._{:.card-edition-ee}
 
-1. <span class="card-edition-ee"><span>Enter the **Default Price for Printed Card**.
+1. _Enter the **Default Price for Printed Card**._{:.card-edition-ee}
 
 1. Click <span class="btn">Save Config</span>.

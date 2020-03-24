@@ -5,7 +5,7 @@ title: My Wish List
 A wish list is a convenient way for customers to keep track of products that they like, but are not ready to buy. Items from a wish list can be shared with others or added to the shopping cart. If the customer has multiple wish lists, the name of the current wish list appears at the top of the page.
 
 ![]({% link images/images-ee/account-dashboard-wishlist.png %}){: .zoom}
-<span class="caption-edition-ee">_My Wish List_</span>
+_My Wish List_{:.caption-edition-ee}
 
 ## Update the product listing
 
@@ -14,7 +14,7 @@ A wish list is a convenient way for customers to keep track of products that the
 1. To add a **Comment** about the product, enter the text in the box below the price.
 
     ![]({% link images/images-ee/account-dashboard-wishlist-edit-options.png %}){: .zoom}
-    <span class="caption-edition-ee">_Edit Options_</span>
+    _Edit Options_{:.caption-edition-ee}
 
 1. To change the selection of product options, click **Edit**. Then, do the following:
 
@@ -40,14 +40,15 @@ A wish list is a convenient way for customers to keep track of products that the
 1. Click <span class="btn">Share Wish List</span>.
 
     ![]({% link images/images-ee/account-dashboard-wishlist-sharing.png %}){: .zoom}
-    <span class="caption-edition-ee">_Share Your Wish List_</span>
+    _Share Your Wish List_
 
     The message is sent from your primary [store contact]({% link stores/store-email-addresses.md %}) and includes a thumbnail image of each product, with links to your store.
 
     ![]({% link images/images/account-dashboard-wishlist-sharing-email.png %}){: .zoom}
     _Shared Wish List Email_
 
-## <span class="heading-edition-ee">Create a new wish list</span>
+{: .heading-edition-ee }
+## Create a new wish list
 
 1. In the upper-right corner, click **Create New Wish List**.
 
@@ -58,4 +59,4 @@ A wish list is a convenient way for customers to keep track of products that the
 1. When complete, click <span class="btn">Save</span>.
 
     ![]({% link images/images-ee/account-dashboard-wishlist-create-new.png %}){: .zoom}
-    <span class="caption-edition-ee">_Create New Wish List_</span>
+    _Create New Wish List_{:.caption-edition-ee}

@@ -18,7 +18,7 @@ _Customer Group Discount_
 1. In the _Customer Group Price_ section, click <span class="btn">Add</span>.
 
    ![]({% link images/images-ee/product-price-group.png %}){: .zoom}
-   <span class="caption-edition-ee">_Advanced Pricing_</span>
+   _Advanced Pricing_{:.caption-edition-ee}
 
 1. Configure the group price:
 

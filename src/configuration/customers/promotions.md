@@ -4,10 +4,11 @@ title: Promotions
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) > Promotions
 
-## <span class="heading-edition-ee">Automated Email Reminder Rules</span>
+{: .heading-edition-ee }
+## Automated Email Reminder Rules
 
 ![]({% link images/images-ee/config-customers-promotions-automated-email-reminder-rules.png %}){: .zoom}
-<span class="caption-edition-ee">[_Automated Email Reminder Rules_]({% link marketing/email-reminder-rules-configure.md %})</span>
+_[Automated Email Reminder Rules]({% link marketing/email-reminder-rules-configure.md %})_{:.caption-edition-ee}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

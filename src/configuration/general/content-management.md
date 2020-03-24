@@ -15,10 +15,11 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 |WYSIWYG Editor|Website|Determines the version of the TinyMCE editor that is used for the WYSIWYG editor. Options: <br/>**TinyMCE 4** - (Default) Uses the TinyMCE version 4.6 as the default WYSIWYG editor. <br/>**TinyMCE 3** (deprecated) - Uses the legacy TinyMCE 3 editor, which is now deprecated.|
 |Use Static URLs for Media Content in WYSIWYG|Global|Determines if [static URLs]({% link catalog/catalog-urls-dynamic-media.md %}) are used for media content that is referenced from the WYSIWYG editor. The setting applies to all places where the WYSIWYG editor is available, including products, categories, pages, blocks, etc. Options: <br/>**Yes** - Uses static URLs for media content that is inserted with the WYSIWYG editor. Static URLs are absolute and break if the [base URL]({% link stores/store-urls.md %}) of the store changes. <br/>**No** (Default) - Uses dynamic URLs for media content that is inserted with the WYSIWYG editor, based on the  `{% raw %}{{media url="..."}}{% endraw %}` directive. Dynamic URLs are relative and do not break if the [base URL]({% link stores/store-urls.md %}) of the store changes.|
 
-##  <span class="heading-edition-ee">CMS Page Hierarchy</span>
+{: .heading-edition-ee }
+## CMS Page Hierarchy
 
 ![]({% link images/images-ee/config-general-content-management-cms-page-hierarchy.png %}){: .zoom}
- <span class="caption-edition-ee">[_CMS Page Hierarchy_]({% link cms/page-hierarchy.md %})</span>
+_[CMS Page Hierarchy]({% link cms/page-hierarchy.md %})_{:.caption-edition-ee}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -26,10 +27,11 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 |Enable Hierarchy Metadata|Global|Gives you the ability to associate meta data with pages in the hierarchy. Options: Yes / No|
 |Default Layout for Hierarchy Menu|Global|Determines the default menu style. Options: Content / Left Column / Right Column|
 
-##  <span class="heading-edition-ee">Advanced Content Tools</span>
+{: .heading-edition-ee }
+## Advanced Content Tools
 
 ![]({% link images/images/config-general-content-management-advanced-content-tools.png %}){: .zoom}
-<span class="caption-edition-ee">[_Advanced Content Tools_]({% link cms/page-builder-workspace.md %})</span>
+_[Advanced Content Tools]({% link cms/page-builder-workspace.md %})_{:.caption-edition-ee}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

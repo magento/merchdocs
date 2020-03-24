@@ -68,7 +68,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 {% include shipping-status-note.md %}
 
 ![]({% link images/images-ee/config-sales-shipping-methods-magento-shipping.png %}){: .zoom}
-<span class="caption-edition-ee">[_Magento Shipping_]({% link shipping/magento-shipping-setup.md %})</span>
+_[Magento Shipping]({% link shipping/magento-shipping-setup.md %})_{:.caption-edition-ee}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

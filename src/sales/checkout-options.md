@@ -5,7 +5,7 @@ title: Checkout Options
 The checkout options control a number of attributes for the checkout page, including the layout. There are options you can configure to place constraints on checkout, including allowing guest checkout and enforcing a terms and conditions agreement. There are also options for controlling the display of information during the checkout process.
 
 ![]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
-<span class="caption-edition-ee">[*Checkout Options*]({% link configuration/sales/checkout.md %})</span>
+_[Checkout Options]({% link configuration/sales/checkout.md %})_{:.caption-edition-ee}
 
 ## Change the checkout options
 

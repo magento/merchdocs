@@ -11,9 +11,10 @@ The header of every page in your store extends an invitation for shoppers to _Lo
 Customers can access their account by clicking the **My Account** link in the header of the store. From their account, customers can view and modify information, including past and current addresses, billing and shipping preferences, newsletter subscriptions, wish list, and more.
 
 ![]({% link images/images-ee/customer-account-dashboard-my-account.png %}){: .zoom}
-<span class="caption-edition-ee">_My Account_</span>
+_My Account_{:.caption-edition-ee}
 
-## <span class="heading-edition-b2b">Account Types</span>
+{: .heading-edition-b2b }
+## Account types
 
 For B2B installations of Magento Commerce, there are two basic types of accounts that can be created: Individual and [company]({% link customers/account-companies.md %}) accounts.
 

@@ -17,7 +17,7 @@ Complete [Step 2]({% link marketing/price-rules-cart.md %}) of the cart instruct
 - Product attributes
 - Products
 - Cart attributes
-- <span class="caption-edition-ee">Customer segments</span>
+- {:.edition-ee}Customer segments
 
 If left blank, the rule is triggered for every cart.
 

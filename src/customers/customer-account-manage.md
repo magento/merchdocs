@@ -27,7 +27,8 @@ Deleted customer accounts cannot be restored. Information about customer activit
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 
-### <span class="heading-edition-b2b">Set active/inactive</span>
+{: .heading-edition-b2b }
+### Set active/inactive
 
 Customers with inactive accounts cannot log in or make purchases from their accounts.
 

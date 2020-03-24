@@ -13,7 +13,7 @@ Follow these instructions to apply a discount to specific products whenever a se
    The Rule Information section includes expandable sections for Conditions and Actions.
 
    ![Catalog price rule - information]({% link images/images-ee/price-rule-catalog-new-ee.png %}){: .zoom}
-   <span class="caption-edition-ee">_Rule Information_</span>
+   _Rule Information_{:.caption-edition-ee}
 
 1. In the **Rule Information** section, do the following:
 
@@ -121,7 +121,8 @@ Most of the available conditions are based on existing attribute values. To appl
    {:.bs-callout-info}
    Setting this to `Yes` is a safeguard to prevent the system from applying multiple discounts (rules) to the same product.
 
-## <span class="heading-edition-ee">Step 4: Add Related Dynamic Blocks</span>
+{: .heading-edition-ee }
+## Step 4: Add Related Dynamic Blocks
 
 [Dynamic blocks]({% link cms/dynamic-blocks.md %}) that are associated with a catalog price rule appear in the storefront whenever the conditions are met. This is an optional step.
 
@@ -135,9 +136,10 @@ Most of the available conditions are based on existing attribute values. To appl
 1. Select the checkbox in the first column to associate the dynamic block with the rule.
 
    ![Catalog price rule - related dynamic blocks]({% link images/images-ee/price-rule-catalog-related-dynamic-blocks.png %}){: .zoom}
-   <span class="caption-edition-ee">_Related Dynamic Blocks_</span>
+   _Related Dynamic Blocks_{:.caption-edition-ee}
 
-## Step 5: <span class="heading-edition-ee">Schedule the Rule</span>
+{: .heading-edition-ee }
+## Step 5: Schedule the Rule
 
 {:.bs-callout-info}
 Setting the rule to active must be added as a scheduled update. To learn more, see [Scheduled Changes]({% link marketing/price-rule-catalog-scheduled-changes.md %}).
@@ -147,7 +149,7 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
     The Scheduled Changes timeline appears at the top of the page.
 
     ![Catalog price rules - scheduled changes]({% link images/images-ee/price-rule-scheduled-changes-new.png %}){: .zoom}
-    <span class="caption-edition-ee">_Scheduled Changes_</span>
+    _Scheduled Changes_{:.caption-edition-ee}
 
 1. In the _Scheduled Changes_ box, click **View/Edit**.
 
@@ -158,7 +160,7 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
     You can either enter the dates or choose the dates from the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})).
 
     ![Catalog price rule - update schedule]({% link images/images-ee/price-rule-catalog-schedule-update.png %}){: .zoom}
-    <span class="caption-edition-ee">_Update Schedule_</span>
+    _Update Schedule_{:.caption-edition-ee}
 
 1. Scroll to the _Rule Information_ section and set the **Status** to `active`.
 
@@ -169,14 +171,14 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
    - {:.edition-ce}Click <span class="btn">Save and Apply</span>.
 
       ![Catalog price rules - pricing structures]({% link images/images/price-rule-catalog-saved.png %}){: .zoom}
-      <span class="caption-edition-ce">_Pricing Structure Rules_</span>
+      _Pricing Structure Rules_{:.caption-edition-ce}
 
    - {:.edition-ee}Click <span class="btn">Save</span>.
 
       The Rule Information page displays an updated timeline in the Scheduled Changes for the rule.
 
       ![Catalog price rules - scheduled changes]({% link images/images-ee/price-rule-scheduled-changes-updated.png %}){: .zoom}
-      <span class="caption-edition-ee">_Scheduled Changes_</span>
+      _Scheduled Changes_{:.caption-edition-ee}
 
 1. Test the rule to make sure that it works correctly.
 
@@ -209,6 +211,7 @@ Specifies the conditions that must be met before the catalog price rule goes int
 |Discount Amount|(Required) The amount of discount that is offered.|
 |Discard Subsequent Rules|Determines if additional rules can be applied to this purchase. To prevent multiple discounts from being applied to the same purchase, select `Yes`. Options: Yes / No|
 
-### <span class="heading-edition-ee">Related Dynamic Blocks</span>
+{: .heading-edition-ee }
+### Related Dynamic Blocks
 
 Identifies any dynamic block(s) that are associated with the rule.

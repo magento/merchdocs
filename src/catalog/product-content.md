@@ -4,10 +4,11 @@ title: Content
 
 The Content section is used to enter and edit the main product description that appears on the product page. The short description can be used in most RSS feeds, and might also appear in catalog listings, depending on theme. The product description can be formatted using the [editor]({% link cms/editor.md %}) toolbar.
 
-## Enter the product description in Magento Commerce
+{: .heading-edition-ee }
+## Add the product description
 
 ![]({% link images/images-ee/catalog-product-content.png %}){: .zoom}
-_Content_
+_Content_{:.caption-edition-ee}
 
 1. Open the product in edit mode.
 
@@ -19,12 +20,13 @@ _Content_
 
 1. Enter a **Short Description** of the product and format as needed.
 
-## Enter the product description in Magento Open Source
+{: .heading-edition-ce }
+## Add the product description
 
 Enter only plain ASCII characters into the text box. If pasting text from a word processor, save it first as a plain .TXT file to remove any invisible control characters.
 
 ![]({% link images/images/product-simple-content.png %}){: .zoom}
-_Content_
+_Content_{:.caption-edition-ce}
 
 1. Open the product in edit mode.
 

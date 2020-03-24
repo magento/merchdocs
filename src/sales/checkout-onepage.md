@@ -15,7 +15,7 @@ Magento’s Onepage Checkout is enabled by default. If you are implementing a cu
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Checkout Options** section.
 
     ![]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
-    <span class="caption-edition-ee">[_Checkout Options_]({% link configuration/sales/checkout.md %})</span>
+    _[Checkout Options]({% link configuration/sales/checkout.md %})_{:.caption-edition-ee}
 
 1. If necessary, clear the **Use system value** checkbox.
 

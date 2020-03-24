@@ -11,7 +11,8 @@ _Special Price on Product Page_
 
 You can easily set a special price for a single product in the catalog.
 
-### <span class="heading-edition-ee">Use a Scheduled Update</span>
+{: .heading-edition-ee }
+### Use a Scheduled Update
 
 Magento Commerce includes support for [Scheduled Updates]({% link cms/content-staging-scheduled-update.md %}). Use these promotional tools to  apply a special price to a specific product for a specified time period.
 
@@ -44,7 +45,8 @@ Magento Commerce includes support for [Scheduled Updates]({% link cms/content-st
     ![]({% link images/images-ee/product-price-special-scheduled-change.png %}){: .zoom}
     _Scheduled Change_
 
-### <span class="heading-edition-ee">Use a simple start and end date</span>
+{: .heading-edition-ce }
+### Use a simple start and end date
 
 Magento Open Source includes simple start and end date options in the Advanced Pricing options.
 

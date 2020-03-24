@@ -35,7 +35,8 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Failure History Lifetime|Store View|Determines the number of minutes that the record of failed cron jobs are kept in the database.|
 |Use Separate Process|Store View|Determines if cron jobs are executed in parallel as separate processes. Options: Yes / No|
 
-## <span class="heading-edition-ee">MySQL Message Queue Cleanup</span>
+{: .heading-edition-ee }
+## MySQL Message Queue Cleanup
 
 ![]({% link images/images/config-advanced-system-mysql-message-queue-cleanup.png %}){: .zoom}
 [_MySQL Message Queue Cleanup_]({% link catalog/search-mysql.md %})
@@ -98,7 +99,8 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Frequency|Global|Determines how often the schedule backup takes place. Options: Daily, Weekly, Monthly|
 |Maintenance Mode|Global|Determines if store is put in Maintenance Mode during the scheduled backup. Options: Yes / No|
 
-## <span class="heading-edition-ee">Admin Actions Log Archiving</span>
+{: .heading-edition-ee }
+## Admin Actions Log Archiving
 
 ![]({% link images/images/config-advanced-system-admin-actions-log-archiving.png %}){: .zoom}
 [_Admin Actions Log Archiving_]({% link system/action-log-archive.md %})
@@ -152,7 +154,8 @@ Varnish Caching - Recommended for production environment.
 |Synchronize||Synchronizes the transfer of all media to the specified database location.|
 |Environment Update Time|Global|Determines the frequency of the media file environment updates in seconds. Default value: 3600|
 
-## <span class="heading-edition-ee">Bulk Actions</span>
+{: .heading-edition-ee }
+## Bulk Actions
 
 ![]({% link images/images-ee/config-advanced-system-bulk-actions.png %}){: .zoom}
 [_Bulk Actions_]({% link system/action-log-bulk-actions.md %})
@@ -161,7 +164,8 @@ Varnish Caching - Recommended for production environment.
 |--- |--- |--- |
 |Days Saved in Log|Global|Determines the number of days that bulk actions are  kept in the Bulk Actions Log archive. Default: 60|
 
-## <span class="heading-edition-ee">Scheduled Import/Export File History Cleaning</span>
+{: .heading-edition-ee }
+## Scheduled Import/Export File History Cleaning
 
 ![]({% link images/images-ee/config-advanced-system-scheduled-import-export-file-history-cleaning.png %}){: .zoom}
 [_Scheduled Import/Export File History Cleaning_]({% link system/data-scheduled-import-export.md %})

@@ -32,7 +32,7 @@ If you modify the substance of an order, the original order is canceled and a ne
 When payment is received and the invoice is generated, the status of the order changes to `Processing`. You cannot change the substance of a `Processing` order, but you can edit the billing and shipping address. A `Processing` order cannot be canceled, but a credit memo can be issued for the full or partial amount of the order, or a return merchandise authorization (RMA) issued for product returns. To learn more, see [Processing an Order]({% link sales/order-processing.md %}).
 
 ![]({% link images/images-ee/order-button-bar-processing.png %}){: .zoom}
-<span class="caption-edition-ee">_Processing Order Options_</span>
+_Processing Order Options_{:.caption-edition-ee}
 
 ### Button bar
 

@@ -5,7 +5,7 @@ title: Marketing Menu
 The Marketing menu provides access tools for managing promotions, communications, SEO, and user-generated content.
 
 ![Magento Admin - Marketing menu]({% link images/images-ee/admin-menu-marketing-ee.png %}){: .zoom}
-<span class="caption-edition-ee">_Marketing Menu_</span>
+_Marketing Menu_{:.caption-edition-ee}
 
 ## Display the Marketing Menu
 
@@ -19,7 +19,8 @@ Create [catalog]({% link marketing/price-rules-catalog.md %}) and [cart]({% link
 
 - {:.edition-ee}Create [related product rules]({% link marketing/product-related-rules.md %}) and manage [gift card accounts]({% link catalog/product-gift-card-accounts.md %}).
 
-### <span class="heading-edition-ee">Private Sales</span>
+{: .heading-edition-ee }
+### Private Sales
 
 Private Sales and other catalog events are a great way to [leverage]({% link marketing/promotions.md %}) your existing customer base to generate buzz and new leads with exclusive access for members only, or by invitation.
 

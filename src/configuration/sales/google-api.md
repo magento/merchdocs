@@ -7,7 +7,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 ## Google Analytics
 
 ![]({% link images/images-ee/config-sales-google-api-google-analytics-ee.png %}){: .zoom}
-<span class="caption-edition-ee">[_Google Analytics_]({% link marketing/google-universal-analytics.md %})</span>
+_[Google Analytics]({% link marketing/google-universal-analytics.md %})_{:.caption-edition-ee}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -21,10 +21,11 @@ This option is in Magento Commerce only.
 
 |Account Type|Store View|Determines the configuration options according to your Google Analytics account type. Options: Universal Analytics (default) / Google Tag Manager|
 
-### <span class="heading-edition-ee">Google Analytics - Google Tag Manager</span>
+{: .heading-edition-ee }
+### Google Analytics - Google Tag Manager
 
 ![]({% link images/images-ee/config-sales-google-api-google-analytics-google-tag-manager.png %}){: .zoom}
-<span class="caption-edition-ee">_Google Analytics - Google Tag Manager_</span>
+_Google Analytics - Google Tag Manager_{:.caption-edition-ee}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

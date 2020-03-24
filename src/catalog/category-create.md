@@ -7,7 +7,7 @@ The category structure of your catalog is like an upside-down tree, with the roo
 For a website with multiple [stores]({% link stores/stores-all-create-store.md %}), you can create a different root category for each store that defines the set of categories that is used for the [top navigation]({% link catalog/navigation-top.md %}).
 
 ![]({% link images/images-ee/catalog-categories.png %}){: .zoom}
-<span class="caption-edition-ee">_Category Tree_</span>
+_Category Tree_{:.caption-edition-ee}
 
 ## Step 1: Create a category
 
@@ -32,7 +32,7 @@ For a website with multiple [stores]({% link stores/stores-all-create-store.md %
 1. Enter the **Category Name**.
 
     ![]({% link images/images-ee/catalog-categories-currently-active.png %}){: .zoom}
-    <span class="caption-edition-ee">_Basic Information_</span>
+    _Basic Information_{:.caption-edition-ee}
 
 1. Click <span class="btn">Save</span> and continue.
 
@@ -41,7 +41,7 @@ For a website with multiple [stores]({% link stores/stores-all-create-store.md %
 1. Expand ![]({% link images/images/btn-expand.png %}) the _Content_ section.
 
     ![]({% link images/images-ee/category-content.png %}){: .zoom}
-    <span class="caption-edition-ee">_Category Content_</span>
+    _Category Content_{:.caption-edition-ee}
 
 1. To display a **Category Image** at the top of the page, you can either upload your own image or use an image that already exists in your [Media Storage]({% link cms/media-storage.md %}).
 
@@ -120,11 +120,12 @@ For a website with multiple [stores]({% link stores/stores-all-create-store.md %
 1. In the first column, select the checkbox for each product to include in the category.
 
     ![]({% link images/images-ee/catalog-categories-products-in-category.png %}){: .zoom}
-    <span class="caption-edition-ee">[_Products In Category_]({% link catalog/categories-category-products.md %})</span>
+    _[Products In Category]({% link catalog/categories-category-products.md %})_{:.caption-edition-ee}
 
 1. Click <span class="btn">Save</span> and continue.
 
-## <span class="heading-edition-ee">Step 7: Set the category permissions</span>
+{: .heading-edition-ee }
+## Step 7: Set the category permissions
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Category Permissions** section and do the following:
 
@@ -142,7 +143,7 @@ For a website with multiple [stores]({% link stores/stores-all-create-store.md %
 1. To add another permission rule, click <span class="btn">New Permission</span> and repeat the process.
 
     ![]({% link images/images-b2b/catalog-category-create-permissions.png %}){: .zoom}
-    <span class="caption-edition-b2b">[_Category Permissions_]({% link catalog/category-permissions.md %})</span>
+    _[Category Permissions]({% link catalog/category-permissions.md %})_{:.caption-edition-b2b}
 
 ## Step 8: Complete the design settings
 
@@ -161,7 +162,7 @@ For a website with multiple [stores]({% link stores/stores-all-create-store.md %
     - To use the same design for product pages, set **Apply Design to Products** to `Yes`.
 
     ![]({% link images/images-b2b/catalog-category-design.png %}){: .zoom}
-    <span class="caption-edition-b2b">[_Design_]({% link catalog/categories-custom-design.md %})</span>
+    _[Design]({% link catalog/categories-custom-design.md %})_{:.caption-edition-b2b}
 
     - {:.edition-ce}To schedule the design update for a specific time period, do the following:
 
