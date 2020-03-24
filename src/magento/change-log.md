@@ -11,7 +11,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |Topic |Change|
 |--- |--- |
 |[Layout Updates]({% link design/layout-updates.md %})|Updated all topics in this section to reflect the change in layout update implementation. Layout updates are now saved on the server and selected from a list.|
-|[Blocks]({% link cms/block-add.md %})<br />[Using a Layout Update]({% link design/layout-update-place-block.md %})<br />[Adding a New Page]({% link cms/page-add.md %})|Updated the process of using a layout update to add a block to a page.|
+|[Blocks]({% link cms/block-add.md %})<br />[Using a Layout Update]({% link design/layout-update-place-block.md %})<br />[Adding a New Page]({% link cms/page-add.md %})|Updated the process of applying a layout update to a page.|
 |[Design Settings]({% link catalog/categories-custom-design.md %}) - Category [Design Settings]({% link catalog/settings-advanced-design.md %}) - Product|Updated the Custom Layout Update field and description.|
 
 ## February 2020
