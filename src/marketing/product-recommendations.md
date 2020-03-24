@@ -29,6 +29,7 @@ Magento provides the following types of recommendations:
 -  **Viewed this, bought that** - Recommends items most often purchased by shoppers who viewed the specified item
 -  **Bought this, bought that** - Recommends items most often purchased by shoppers who purchased the specified item
 -  **More like this** - Recommends items based on similar content and attributes
+-  **Trending** - Recommends items based on recent momentum of product’s popularity
 
 ### Backup recommendations {#backup-recommendations}
 
@@ -45,6 +46,8 @@ The following recommendation types will fallback to **Most viewed** if there is 
 -  **Viewed this, bought that**
 
 -  **Bought this, bought that**
+
+-  **Trending**
 
 ### Filter recommendations {#filter-recommendations}
 
@@ -78,11 +81,11 @@ The following table lists the storefront pages, where you can place the recommen
 
 |Page|Possible Placement|Supported Recommendations|
 |---|---|---|
-|**Home page**|At the top of main content<br>At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you|
-|**Category**|At the top of main content<br>At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you|
-|**Product Detail**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this|
-|**Cart**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this|
-|**Confirmation**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this|
+|**Home page**|At the top of main content<br>At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you<br>Trending|
+|**Category**|At the top of main content<br>At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you<br>Trending|
+|**Product Detail**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
+|**Cart**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
+|**Confirmation**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
 
 ## Global category exclusions {#globalexclusions}
 
