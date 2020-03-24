@@ -20,13 +20,13 @@ _Pages Grid_
 
 1. Click <span class="btn">Add New Page</span>.
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/pages-new-page.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE-B2B" contains site.edition %}-->
-    ![]({% link images/images-ee/pages-new-page.png %}){: .zoom}
-    <!--{% endif %}-->
-    _New Page_
+   <!--{% if "Default.CE Only" contains site.edition %}-->
+   ![]({% link images/images/pages-new-page.png %}){: .zoom}
+   <!--{% endif %}-->
+   <!--{% if "Default.EE-B2B" contains site.edition %}-->
+   ![]({% link images/images-ee/pages-new-page.png %}){: .zoom}
+   <!--{% endif %}-->
+   _New Page_
 
 1. If you do not want to publish the page immediately, set **Enable Page** to `No`.
 
@@ -54,17 +54,17 @@ _Pages Grid_
 1. Complete the content and format the text as needed. To learn more, see [Workspace]({% link cms/page-builder-workspace.md %}).
 
    If PageBuilder is not enabled, the editor opens in WYSIWYG mode with the toolbar at the top.
-   <!--{% endif %}--> 
+   <!--{% endif %}-->
 
    <!--{% if "Default.CE Only" contains site.edition %}-->
    By default, the editor opens in WYSIWYG mode with the toolbar at the top.
-   <!--{% endif %}--> 
+   <!--{% endif %}-->
 
 1. If you prefer to work directly with the HTML code, click <span class="btn">Show / Hide Editor</span>.
 
 1. Complete the content and format the text as needed.
 
-    You can add [images]({% link cms/media-storage.md %}), [variables]({% link marketing/variables.md %}), and [widgets]({% link cms/widgets.md %}) as needed. To learn more, see: [Using the Editor]({% link cms/editor.md %}).
+   You can add [images]({% link cms/media-storage.md %}), [variables]({% link marketing/variables.md %}), and [widgets]({% link cms/widgets.md %}) as needed. To learn more, see: [Using the Editor]({% link cms/editor.md %}).
 
 1. Click <span class="btn">Save</span>.
 
@@ -75,9 +75,9 @@ _Pages Grid_
    ![]({% link images/images/page-search-engine-optimization.png %}){: .zoom}
    _Search Engine Optimization_
 
-1.  Either accept the default or enter another **URL Key** that consists of all lowercase characters, with hyphens instead of spaces.
+1. Either accept the default or enter another **URL Key** that consists of all lowercase characters, with hyphens instead of spaces.
 
-      The default URL key was created when the page was saved that is based on the Content Heading.
+   The default URL key was created when the page was saved that is based on the Content Heading.
 
 1. Enter a **Meta Title** for the page. The Meta Title should be less than seventy characters in length and appears in the browser title bar and tab.
 
@@ -102,8 +102,8 @@ _Pages Grid_
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Hierarchy**.
 
-    ![]({% link images/images-ee/page-hierarchy.png %}){: .zoom}
-    _Hierarchy_
+   ![]({% link images/images-ee/page-hierarchy.png %}){: .zoom}
+   _Hierarchy_
 
 1. If this page is a child of another page, select the checkbox of the **Parent page**.
 
@@ -118,15 +118,15 @@ _Pages Grid_
 
 1. To change the column layout of the page, set **Layout** to one of the following:
 
-      -  `Empty`
-      -  `1 column`
-      -  `2 columns with left bar`
-      -  `2 columns with right bar`
-      -  `3 columns`<!--{% if "Default.EE-B2B" contains site.edition %}-->
-      -  `Page -- Full Width` (Requires [Page Builder]({% link cms/page-builder.md %}))
-      -  `Category -- Full Width` (Requires Page Builder)
-      -  `Product -- Full Width` (Requires Page Builder)<!--{% endif %}-->
-   
+   - `Empty`
+   - `1 column`
+   - `2 columns with left bar`
+   - `2 columns with right bar`
+   - `3 columns`<!--{% if "Default.EE-B2B" contains site.edition %}-->
+   - `Page -- Full Width` (Requires [Page Builder]({% link cms/page-builder.md %}))
+   - `Category -- Full Width` (Requires Page Builder)
+   - `Product -- Full Width` (Requires Page Builder)<!--{% endif %}-->
+
 1. To apply a **Custom Layout Update**, choose the name of the file from the list. To learn more, see [Layout Updates]({% link design/layout-updates.md %}).<!--{% if "Default.CE Only" contains site.edition %}-->
 
 1. To schedule a design change, expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Custom Design Update**.
@@ -160,8 +160,8 @@ _Pages Grid_
 
 1. On the **Save** menu, choose **Save & Close**.
 
-    ![]({% link images/images/cms-pages-save-and-close.png %}){: .zoom}
-    _Save & Close_
+   ![]({% link images/images/cms-pages-save-and-close.png %}){: .zoom}
+   _Save & Close_
 
 |Command|Description|
 |--- |--- |
