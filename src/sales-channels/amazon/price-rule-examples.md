@@ -10,7 +10,7 @@ The ability to discard subsequent rules is a great feature inside of pricing rul
 
 If Discard Subsequent Rules is set to Yes, the rules with lower priority (higher numbers) will not apply to the eligible products.
 
-For example, let’s say we have three pricing rules set up:
+For example, let's say we have three pricing rules set up:
 
 | Rule Name | [Priority]({% link configuration/scope.md %}){: .Scope} | Discard Subsequent Rule |
 |----------|
@@ -220,7 +220,7 @@ Final price after the standard pricing rule is applied: $13.75 + $5.00 = $18.75
 
 ### Price Adjustment
 
-In this example, we have chosen to define our most competitive price by looking at our Amazon competitor’s lowest price who also have 95% positive feedback and a minimum feedback count of 1,000 merchant reviews.
+In this example, we have chosen to define our most competitive price by looking at our Amazon competitor's lowest price who also have 95% positive feedback and a minimum feedback count of 1,000 merchant reviews.
 
 ![]({% link images/images/sales-channels/amazon/amazon-price-adjustment-example.png %}){: .zoom}
 _Price Adjustment Example_

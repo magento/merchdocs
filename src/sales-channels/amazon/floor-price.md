@@ -28,7 +28,7 @@ In this example, the floor price is set to be 3% above the cost of the item.
 
 |Field|Description|
 |--- |--- |
-|Floor Price Source|Choose the Magento attribute that will indicate your relative floor limit. For example, if you don’t want your product listing price to go below the cost of your item, you would choose the attribute Cost. |
+|Floor Price Source|Choose the Magento attribute that will indicate your relative floor limit. For example, if you don't want your product listing price to go below the cost of your item, you would choose the attribute Cost. |
 |Floor Price Action|Select a pricing adjustment action. Options:<br/>**Decrease By**: Choose when you want the defined Floor Price Source value to be adjusted down, creating a lower floor price for the rule, before listing to Amazon.<br/>**Increase By**: Choose when you want the defined Floor Price Source value to be adjusted up, creating a higher floor price for the rule, before listing to Amazon.<br/>**Match**: Choose when you do not want the listing price to fluctuate below the defined Floor Price Source value. When selected, the **Apply** and **Floor Adjustment Amount** fields are disabled. |
 |Apply|Apply as percentage: A percentage adjustment relative to the Floor Price Source. |
 |Floor Adjustment Amount |Enter the numerical value for the percent to adjust your Floor Price Source. |
