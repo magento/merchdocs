@@ -68,7 +68,7 @@ Once your Amazon account is set up and active, there are several Magento recomme
 
 **Review and note any products you don't want to list on Amazon.**
 
-You may not want some products to be listed on Amazon. Amazon Sales Channel has a listing rule engine that is used to determine which products are eligible for publishing to Amazon. [Listing rules]({% link sales-channels/amazon/listing-rules.md %}) allow you to select subsets of products to be published (or not published) to your Amazon Seller Central account, such as by category selection or by defining one or more product attributes. Like Magento [catalog]({% link marketing/price-rules-catalog.md %}) or [shopping cart]({% link marketing/price-rules-cart.md %}) price rules, product attributes used for Amazon listing eligibility must be set to “Used for Promo Rule Conditions”.
+You may not want some products to be listed on Amazon. Amazon Sales Channel has a listing rule engine that is used to determine which products are eligible for publishing to Amazon. [Listing rules]({% link sales-channels/amazon/listing-rules.md %}) allow you to select subsets of products to be published (or not published) to your Amazon Seller Central account, such as by category selection or by defining one or more product attributes. Like Magento [catalog]({% link marketing/price-rules-catalog.md %}) or [shopping cart]({% link marketing/price-rules-cart.md %}) price rules, product attributes used for Amazon listing eligibility must be set to "Used for Promo Rule Conditions".
 
 **Set your Amazon Seller Central Region to Inactive.**
 

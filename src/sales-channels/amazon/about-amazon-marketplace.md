@@ -47,3 +47,4 @@ Amazon follows a set of policies and workflows to ensure all sellers and product
 [5]: https://www.amazon.com/gp/help/customer/display.html?nodeId=1161272
 [6]: https://www.amazon.com/gp/help/customer/display.html?nodeId=200267770
 [7]: https://www.amazon.com/gp/help/customer/display.html?nodeId=200414320
+""'

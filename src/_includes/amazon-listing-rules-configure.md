@@ -9,4 +9,4 @@
 
 1. Define your desired conditions for the eligibility of products to be listed on Amazon.
 
-See [Example: Define a Condition]({% link sales-channels/amazon/ob-define-condition-example.md %}).
+See [Example: Define a Condition]({% link sales-channels/asc/ob-define-condition-example.md %}).

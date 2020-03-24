@@ -27,7 +27,7 @@
     - **Build Using Amazon Order Number**: Choose when you want to create the Magento order number using the corresponding Amazon-assigned order number.
 
     {:.bs-callout-info}
-    Once an order is imported, the Amazon Order Number and the Magento Order Number display in the [Orders tab]({% link sales-channels/amazon/managing-orders.md %}).
+    Once an order is imported, the Amazon Order Number and the Magento Order Number display in the [Orders tab]({% link sales-channels/asc/managing-orders.md %}).
 
 1. For **Pending Orders** (required), select an option in the drop-down. Options:
 
