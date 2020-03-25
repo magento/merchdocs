@@ -29,8 +29,9 @@ Magento provides the following types of recommendations:
 -  **Viewed this, bought that** - Recommends items most often purchased by shoppers who viewed the specified item
 -  **Bought this, bought that** - Recommends items most often purchased by shoppers who purchased the specified item
 -  **More like this** - Recommends items based on similar content and attributes
+-  **Trending** - Recommends items based on recent momentum of product’s popularity
 
-### Backup recommendations
+### Backup recommendations {#backup-recommendations}
 
 If there is not sufficient input data to provide all requested recommendation items in a unit, Magento provides backup recommendations to fill those items.
 
@@ -46,6 +47,24 @@ The following recommendation types will fallback to **Most viewed** if there is 
 
 -  **Bought this, bought that**
 
+-  **Trending**
+
+### Filter recommendations {#filter-recommendations}
+
+Magento defines default filters for the **Most popular**, **Trending**, and **Recommended for you** recommendation types. By filtering recommendations, Magento provides more relevant results. For example, if you deploy the **Most popular** recommendation type to a product detail page, you would not want products from the entire catalog to be displayed, but rather a smaller subset of products relevant to the product being viewed.
+
+Magento filters recommendations based on direct category assignments and their subcategories. For example, if the category of the product is `Gear`, the recommendation unit displays products that have categories under `Gear`, such as `Gear/Bags` or `Gear/Fitness Equipment`.
+
+The following table describes how the **Most popular**, **Trending**, and **Recommended for you** recommendation types are filtered based on the page.
+
+|Page|Filtered By|
+|---|---|
+|Home|No filter|
+|Category|Products under that category|
+|Product Detail|Products under that product's category(-ies)|
+|Cart|Categories of the products in the shopper's cart|
+|Order Confirmation|Categories for products the shopper just purchased|
+
 ## Product recommendations placement {#productrecplacement}
 
 You can place the recommendations in one of the following page locations.
@@ -60,13 +79,13 @@ Some storefront pages restrict where you can place the recommendations. Refer to
 
 The following table lists the storefront pages, where you can place the recommendations, and the recommendation types allowed on that page.
 
-|**Page**|**Possible Placement**|**Supported Recommendations**|
+|Page|Possible Placement|Supported Recommendations|
 |---|---|---|
-|**Home page**|At the top of main content<br>At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you|
-|**Category**|At the top of main content<br>At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you|
-|**Product Detail**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this|
-|**Cart**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this|
-|**Confirmation**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this|
+|**Home page**|At the top of main content<br>At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you<br>Trending|
+|**Category**|At the top of main content<br>At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you<br>Trending|
+|**Product Detail**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
+|**Cart**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
+|**Confirmation**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
 
 ## Global category exclusions {#globalexclusions}
 
