@@ -82,6 +82,8 @@ pages:
       url: "/catalog/settings-basic-websites.html"
     - label: Design
       url: "/catalog/settings-advanced-design.html"
+    - label: Schedule Design Update
+      url: "/catalog/product-scheduled-design-update.html"
     - label: Autosettings
       url: "/catalog/product-autosettings.html"
     - label: Shipping
