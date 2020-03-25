@@ -57,7 +57,7 @@ You can create different conditions by changing the combination of these values.
 
         1. Click **is** and choose the comparison operator that describes the condition for products to meet. For this example, the comparison operator is "is." The available options depend on the attribute selected in the previous step and may include different comparison options such as matching values, not including or including at least one of a value, and greater than, equal to, and less than a numerical amount. In this example, the options are "is" and "is not."
 
-      1. Click **...** and choose the attribute value upon which the condition is based. The options displayed depend on the attribute's setup. You may be asked to select an option from a drop-down, or you may need to enter text or numerical values for the condition. For this example, the options are in a drop-down, and the selection is "Yes."
+        1. Click **...** and choose the attribute value upon which the condition is based. The options displayed depend on the attribute's setup. You may be asked to select an option from a drop-down, or you may need to enter text or numerical values for the condition. For this example, the options are in a drop-down, and the selection is "Yes."
 
         <br/>The selected item displays in the statement to complete the condition.
 

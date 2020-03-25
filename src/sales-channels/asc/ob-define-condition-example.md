@@ -40,32 +40,32 @@ You can create different conditions by changing the combination of these values.
 
 1. Click the **Add** (![]({% link images/images/btn-add-grn.png %}){: .Inline}) icon at the beginning of the condition line to show available attributes on which the condition function. Select an attribute on which to base the condition, such as a conditions combination or a product attribute.
 
-    - **Conditions Combination** - Choose to allow you to create an additional set of `All/Any` and `True/False` conditions inside the existing set.
+   - **Conditions Combination** - Choose to allow you to create an additional set of `All/Any` and `True/False` conditions inside the existing set.
 
-    ![]({% link sales-channels/asc/assets/ob-conditions-combinations.png %}){: .zoom}
-    _Conditions Combination_
+      ![]({% link sales-channels/asc/assets/ob-conditions-combinations.png %}){: .zoom}
+      _Conditions Combination_
 
-    - **Product Attribute** - The product attributes depend on the setup of the attribute. For an attribute to show in the list, it must be configured to be used in promo rule conditions. See the **Use for Promo Rule Conditions** in [Product Attributes]({% link stores/attributes-product.md %}).
+   - **Product Attribute** - The product attributes depend on the setup of the attribute. For an attribute to show in the list, it must be configured to be used in promo rule conditions. See the **Use for Promo Rule Conditions** in [Product Attributes]({% link stores/attributes-product.md %}).
 
-        In the list under **Product Attribute**, choose the attribute that you want to use as the basis of the condition. For this example, the selected condition is `Amazon FBA`.
+      In the list under **Product Attribute**, choose the attribute that you want to use as the basis of the condition. For this example, the selected condition is `Amazon FBA`.
 
-        ![]({% link sales-channels/asc/assets/ob-condition-attribute-dropdown.png %}){: .zoom}
-        _Condition Line 2, Part 2_
+      ![]({% link sales-channels/asc/assets/ob-condition-attribute-dropdown.png %}){: .zoom}
+      _Condition Line 2, Part 2_
 
-        The selected condition appears in the statement, followed by two more bold links. The options differ depending on the product attribute you select.
+      The selected condition appears in the statement, followed by two more bold links. The options differ depending on the product attribute you select.
 
-        Once you set the attribute, it cannot be changed. To change the attribute, you must delete the line and add the new attribute. You can delete a condition line by clicking the **Delete** (![]({% link images/images/btn-del-red.png %}){: .Inline}) icon at the end of the line.
+      Once you set the attribute, it cannot be changed. To change the attribute, you must delete the line and add the new attribute. You can delete a condition line by clicking the **Delete** (![]({% link images/images/btn-del-red.png %}){: .Inline}) icon at the end of the line.
 
-        1. Click **is** and choose the comparison operator that describes the condition for products to meet. For this example, the comparison operator is `is`. The available options depend on the attribute selected in the previous step and may include different comparison options such as matching values, not including or including at least one of a value, and greater than, equal to, and less than a numerical amount. In this example, the options are `is` and `is not`.
+     1. Click **is** and choose the comparison operator that describes the condition for products to meet. For this example, the comparison operator is `is`. The available options depend on the attribute selected in the previous step and may include different comparison options such as matching values, not including or including at least one of a value, and greater than, equal to, and less than a numerical amount. In this example, the options are `is` and `is not`.
 
-        1. Click **...** and choose the attribute value upon which the condition is based. The options depend on the attribute's setup. You may be asked to select an option from a drop-down, or you may need to enter text or numerical values for the condition. For this example, the options are in a drop-down, and the selection is `Yes`.
+     1. Click **...** and choose the attribute value upon which the condition is based. The options depend on the attribute's setup. You may be asked to select an option from a drop-down, or you may need to enter text or numerical values for the condition. For this example, the options are in a drop-down, and the selection is `Yes`.
 
-        The selected item appears in the statement to complete the condition.
+         The selected item appears in the statement to complete the condition.
 
         ![]({% link sales-channels/asc/assets/ob-listing-rule-condition-is.png %}){: .zoom}
         _Condition Line 2, Part 3_
 
-    This condition is complete. As stated, this condition means that any product in your Magento catalog that has the Amazon FBA attribute set to a value of `Yes` is eligible for listing to Amazon for the region and store you are setting up. You can add more condition lines to further narrow your eligible products.
+   This condition is complete. As stated, this condition means that any product in your Magento catalog that has the Amazon FBA attribute set to a value of `Yes` is eligible for listing to Amazon for the region and store you are setting up. You can add more condition lines to further narrow your eligible products.
 
 To add another condition line to the statement, return to step 1 and repeat the process until all desired conditions are complete.
 
