@@ -47,8 +47,8 @@ For those using the B2B extension and have set Elasticsearch as the fulltext (`c
 
 1. Set **Actions** to one of the following:
 
-    - `Update on Save`
-    - `Update by Schedule`
+   - `Update on Save`
+   - `Update by Schedule`
 
     {:.bs-callout-info}
     **Important:** Customer Grid can only be reindexed using `Update on Save`. This index does **not** support `Update by Schedule`.

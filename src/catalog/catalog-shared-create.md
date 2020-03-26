@@ -27,13 +27,13 @@ The following aspects of a shared catalog must be set up before it can be used:
 
 1. In the upper-right corner, click <span class="btn">Add a Shared Catalog</span> and do the following:
 
-    - Enter a **Name** for the shared catalog.
+   - Enter a **Name** for the shared catalog.
 
       The name you assign is used throughout the Admin and customer dashboard, if applicable, to refer to the shared catalog. It also becomes the name of the corresponding customer group.
 
-    - Set **Type** to `Custom`.
+   - Set **Type** to `Custom`.
 
-    - Choose the appropriate **Customer Tax Class** that applies to purchases made from the shared catalog.
+   - Choose the appropriate **Customer Tax Class** that applies to purchases made from the shared catalog.
 
       The following example shows a new custom catalog for a specific wholesale customer.
 
@@ -59,10 +59,10 @@ If a public shared catalog is duplicated, the type of the duplicate catalog chan
 
 1. In the options across the top of the page, click **Duplicate** and update the following fields as needed:
 
-    - **Name**
-    - **Type**
-    - **Customer Tax Class**
-    - **Description**
+   - **Name**
+   - **Type**
+   - **Customer Tax Class**
+   - **Description**
 
     ![]({% link images/images-b2b/catalog-shared-duplicate.png %}){: .zoom}
     _Duplicate Shared Catalog_

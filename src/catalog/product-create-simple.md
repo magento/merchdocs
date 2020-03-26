@@ -54,8 +54,8 @@ _Choose Attribute Set_
 
 1. Set **Tax Class** to one of the following:
 
-    - `None`
-    - `Taxable Goods`
+   - `None`
+   - `Taxable Goods`
 
 1. Enter the **Quantity** of the product that is currently in stock.
 
@@ -70,19 +70,19 @@ _Choose Attribute Set_
 
 1. To assign **Categories** to the product, click the **Select…** box and do either of the following:
 
-    **Choose an existing category:**
+   **Choose an existing category:**
 
-    - Start typing in the box to find a match.
+   - Start typing in the box to find a match.
 
-    - Select the checkbox of each category that is to be assigned.
+   - Select the checkbox of each category that is to be assigned.
 
-    **Create a new category:**
+   **Create a new category:**
 
-    - Click <span class="btn">New Category</span>.
+   - Click <span class="btn">New Category</span>.
 
-    - Enter the **Category Name** and choose the **Parent Category** to determine its position in the menu structure.
+   - Enter the **Category Name** and choose the **Parent Category** to determine its position in the menu structure.
 
-    - Click <span class="btn">Create Category</span>.
+   - Click <span class="btn">Create Category</span>.
 
 1. To feature the product in the list of[ new products]({% link cms/widget-new-products-list.md %}), select the **Set Product as New** checkbox.
 
@@ -114,23 +114,23 @@ Scroll down and complete the information in the following sections as needed:
 
 1. Do one of the following:
 
-    **Method 1: Save and Preview**
+   **Method 1: Save and Preview**
 
-    1. In the upper-right corner, click <span class="btn">Save</span>.
+   - In the upper-right corner, click <span class="btn">Save</span>.
 
-    1. To view the product in your store, choose **Customer View** on the **Admin** (![]({% link images/images/btn-dropdown-blk.png %})) menu.
+   - To view the product in your store, choose **Customer View** on the **Admin** (![]({% link images/images/btn-dropdown-blk.png %})) menu.
 
       The store opens in a new browser tab.
 
-    ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
-    _Customer View_
+     ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
+     _Customer View_
 
-    **Method 2: Save and Close**
+   **Method 2: Save and Close**
 
-    On the _Save_ (![]({% link images/images/btn-dropdown.png %}){: .Inline}) menu, choose **Save & Close**.
+   On the _Save_ (![]({% link images/images/btn-dropdown.png %}){: .Inline}) menu, choose **Save & Close**.
 
-    ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
-    _Save & Close_
+   ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
+   _Save & Close_
 
 ## Things to remember
 

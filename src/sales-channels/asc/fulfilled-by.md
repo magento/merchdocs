@@ -24,13 +24,13 @@ The fulfillment method is a regional attribute, and based on the **Amazon Market
 
 1. For **Product Fulfilled By**, choose who fulfills (ships) the order:
 
-    - **Fulfilled by Merchant** - Merchant fulfills order.
+   - **Fulfilled by Merchant** - Merchant fulfills order.
 
-    - **Fulfilled by Amazon** - Amazon warehouse fulfills order.
+   - **Fulfilled by Amazon** - Amazon warehouse fulfills order.
 
-    - **Assign Fulfilled By Using Magento Product Attribute** - A Magento attribute indicates who fulfills the order per product.
+   - **Assign Fulfilled By Using Magento Product Attribute** - A Magento attribute indicates who fulfills the order per product.
 
-       If chosen, choose the Magento attribute you want to map in **Fulfilled by Attribute**.
+      If chosen, choose the Magento attribute you want to map in **Fulfilled by Attribute**.
 
 1. When complete, click **Save listing settings**.
 

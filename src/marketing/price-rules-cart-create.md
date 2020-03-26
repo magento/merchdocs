@@ -14,13 +14,13 @@ Complete the following steps to add a new rule, describe the conditions, and def
 
    - If you do not want the rule to go into effect immediately, set **Active** to `No`.
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![Cart price rule - rule information]({% link images/images/price-rule-cart-new.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE-B2B" contains site.edition %}-->
-    ![Cart price rule - rule information]({% link images/images-ee/price-rule-cart-new.png %}){: .zoom}
-    <!--{% endif %}-->
-    _Rule Information_
+   <!--{% if "Default.CE Only" contains site.edition %}-->
+   ![Cart price rule - rule information]({% link images/images/price-rule-cart-new.png %}){: .zoom}
+   <!--{% endif %}-->
+   <!--{% if "Default.EE-B2B" contains site.edition %}-->
+   ![Cart price rule - rule information]({% link images/images-ee/price-rule-cart-new.png %}){: .zoom}
+   <!--{% endif %}-->
+   _Rule Information_
 
 1. To establish the [scope]({% link configuration/scope.md %}) of the rule, do the following:
 

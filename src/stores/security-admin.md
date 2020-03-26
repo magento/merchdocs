@@ -54,8 +54,8 @@ For technical information, see [Security overview][3]{:target="_blank"} in the d
 
    - Set **Password Change** to one of the following:
 
-     - `Forced` — Requires that Admin users change their passwords after the account setup.
-     - `Recommended` — Recommends that Admin users change their passwords after the account setup.
+      - `Forced` — Requires that Admin users change their passwords after the account setup.
+      - `Recommended` — Recommends that Admin users change their passwords after the account setup.
 
 1. When complete, click <span class="btn">Save Config</span>.
 

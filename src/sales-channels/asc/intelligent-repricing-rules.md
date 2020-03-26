@@ -25,15 +25,15 @@ Define the Rule Type in the _Select Rule Type_ section.
 
 1. For **Competitor Price Source**, choose an option:
 
-    - **Use "Buy Box" Price** - Choose when you want to adjust your Amazon pricing based on the Amazon [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) seller price. A [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) price exists when multiple sellers on Amazon offer the same product. Amazon defines the [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) seller based on performance requirements. Merchants seek to win the [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) seller status and offers maximum visibility of your product listings.
+   - **Use "Buy Box" Price** - Choose when you want to adjust your Amazon pricing based on the Amazon [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) seller price. A [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) price exists when multiple sellers on Amazon offer the same product. Amazon defines the [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) seller based on performance requirements. Merchants seek to win the [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) seller status and offers maximum visibility of your product listings.
 
-    - **Use Lowest Competitor Price** - Choose when you want to compare and adjust your listing price to competitor pricing for the same product. When chosen, the _Minimum Positive Feedback_ and _Minimum Feedback Count_ fields enable.
+   - **Use Lowest Competitor Price** - Choose when you want to compare and adjust your listing price to competitor pricing for the same product. When chosen, the _Minimum Positive Feedback_ and _Minimum Feedback Count_ fields enable.
 
 1. If enabled, choose an option for **Minimum Positive Feedback**.
 
-    - **All Competitor's Prices** - Choose when you want to compare and adjust your pricing based on all competitor prices for the same product.
+   - **All Competitor's Prices** - Choose when you want to compare and adjust your pricing based on all competitor prices for the same product.
 
-    - **Minimum 80/90/95/98% positive feedback** - Choose when you want to limit the competitors to whom the price is compared for the same product. This will narrow the competitors further by requiring their listing to have a minimum of the chosen percentage of positive feedback before applying the lowest price rule.
+   - **Minimum 80/90/95/98% positive feedback** - Choose when you want to limit the competitors to whom the price is compared for the same product. This will narrow the competitors further by requiring their listing to have a minimum of the chosen percentage of positive feedback before applying the lowest price rule.
 
 1. If enabled, enter a numerical value for **Minimum Feedback Count**.
 

@@ -59,8 +59,8 @@ _Action Logs Report Filters_
 
 1. For **Export to**, choose an export format:
 
-    - **CSV** - A comma-separated value file containing plain text data
-    - **Excel XML** - An XML-based, spreadsheet data format
+   - **CSV** - A comma-separated value file containing plain text data
+   - **Excel XML** - An XML-based, spreadsheet data format
 
 1. Click <span class="btn">Export</span>.
 
