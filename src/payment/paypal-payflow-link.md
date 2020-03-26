@@ -224,18 +224,18 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
    - If you have signed up for PayPal’s Secure FTP Server, enter the following SFTP login credentials:
 
-     - Login
-     - Password
+      - Login
+      - Password
 
    - To run test reports before “going live” with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
 
    - Enter the **Custom Endpoint Hostname or IP Address**.
 
-     By default, the value is: `reports.paypal.com`
+      By default, the value is: `reports.paypal.com`
 
    - Enter the **Custom Path** where reports are saved.
 
-     By default, the value is: `/ppreports/outgoing`
+      By default, the value is: `/ppreports/outgoing`
 
 1. To generate reports according to a schedule, complete the **Scheduled Fetching** settings:
 
@@ -243,13 +243,13 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
    - Set **Schedule** to one of the following:
 
-     - `Daily`
-     - `Every 3 Days`
-     - `Every 7 Days`
-     - `Every 10 Days`
-     - `Every 14 Days`
-     - `Every 30 Days`
-     - `Every 40 Days`
+      - `Daily`
+      - `Every 3 Days`
+      - `Every 7 Days`
+      - `Every 10 Days`
+      - `Every 14 Days`
+      - `Every 30 Days`
+      - `Every 40 Days`
 
      PayPal retains each report for 45 days.
 

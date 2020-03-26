@@ -69,9 +69,9 @@ _Scope of Base Currency_
 
    - **Frequency** — To determine how often the rates are updated, set to one of the following:
 
-     - Daily
-     - Weekly
-     - Monthy
+      - Daily
+      - Weekly
+      - Monthy
 
    - **Error Email Recipient** — Enter the email address of the person who is to receive email notification if an error occurs during the import process.
 

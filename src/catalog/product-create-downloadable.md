@@ -63,16 +63,16 @@ _Choose Attribute Set_
 
 1. Set **Tax Class** to one of the following:
 
-    - `None`
-    - `Taxable Goods`
+   - `None`
+   - `Taxable Goods`
 
 1. Enter the **Quantity** of the product that is currently in stock.
 
    Take note of the following:
 
-    - By default, **Stock Status** is set to `Out of Stock`.
+   - By default, **Stock Status** is set to `Out of Stock`.
 
-    - Because downloadable products are not shipped, the **Weight** field is not used.
+   - Because downloadable products are not shipped, the **Weight** field is not used.
 
     {:.bs-callout-info}
     **Inventory Management:** If you enable [Inventory Management]({% link catalog/inventory-management.md %}), Single Source merchants set the quantity in this section. Multi Source merchants add sources and quantities in the Sources section. See the following _Assign Sources and Quantities (Inventory Management)_ section.
@@ -83,31 +83,31 @@ _Choose Attribute Set_
 
 1. To assign Categories to the product, click the **Select…** box and do either of the following:
 
-    **Choose an existing category:**
+   **Choose an existing category:**
 
-    - Start typing in the box to find a match.
+   - Start typing in the box to find a match.
 
-    - Select the checkbox of each category that is to be assigned.
+   - Select the checkbox of each category that is to be assigned.
 
-    **Create a new category:**
+   **Create a new category:**
 
-    - Click <span class="btn">New Category</span>.
+   - Click <span class="btn">New Category</span>.
 
-    - Enter the **Category Name** and choose the **Parent Category** to determine its position in the menu structure.
+   - Enter the **Category Name** and choose the **Parent Category** to determine its position in the menu structure.
 
-    - Click <span class="btn">Create Category</span>.
+   - Click <span class="btn">Create Category</span>.
 
 1. Set **Format** to one of the following:
 
-    - `Download`
-    - `DVD`
+   - `Download`
+   - `DVD`
 
-    If necessary, you can edit the [attribute]({% link stores/attribute-product-create.md %}) to add more values.
+   If necessary, you can edit the [attribute]({% link stores/attribute-product-create.md %}) to add more values.
 
     ![]({% link images/images/product-details-downloadable.png %}){: .zoom}
     _Product Details_
 
-    There might be additional attributes that describe the product. The selection varies by attribute set and you can complete them later.
+   There might be additional attributes that describe the product. The selection varies by attribute set and you can complete them later.
 
 {% include inventory-assign-sources-quantities.md %}
 
@@ -128,20 +128,20 @@ _Downloadable Information_
 
 1. Click <span class="btn">Add Link</span> and do the following:
 
-    - Enter the **Title** and **Price** of the download.
+   - Enter the **Title** and **Price** of the download.
 
-    - For both **File** and **Sample** files, choose one of the following methods of distribution for the downloads:
+   - For both **File** and **Sample** files, choose one of the following methods of distribution for the downloads:
 
       |Upload File|Choose this method to upload the the distribution file to the server. Browse to the file and select it for upload.|
       |URL|Choose this method to access the distribution file from a URL. Enter the full URL to the download file.|
 
-    - Set **Shareable** to one of the following:
+   - Set **Shareable** to one of the following:
 
       |No|Requires customers to log in to their accounts to access the download link.|
       |Yes|Sends the link by email, which customers can share with others.|
       |Use Config|Uses the method that is specified in the [Dowloadable Product Options]({% link configuration/catalog/catalog.md %}) configuration.|
 
-    - Do one of the following:
+   - Do one of the following:
 
       - To limit downloads per customer, enter the number of **Max. Downloads**.
       - To allow unlimited downloads, select the **Unlimited** checkbox.
@@ -162,16 +162,16 @@ _Downloadable Information_
 
 1. Complete the link detail as follows:
 
-    - Enter the **Title** of the individual sample.
+   - Enter the **Title** of the individual sample.
 
-    - Choose one of the following distribution methods:
+   - Choose one of the following distribution methods:
 
       |Upload File|Choose this method to upload the the distribution file to the server. Browse to the file and select it for upload.|
       |URL|Choose this method to access the distribution file from a URL. Enter the full URL to the download file.|
 
-    - To add another sample, click <span class="btn">Add Link</span> and repeat these steps.
+   - To add another sample, click <span class="btn">Add Link</span> and repeat these steps.
 
-    - To change the order of the samples, grab the **Change Order** ( ![]({% link images/images/btn-sort-order-inline.png %}) ) icon and drag the sample to a new position.
+   - To change the order of the samples, grab the **Change Order** ( ![]({% link images/images/btn-sort-order-inline.png %}) ) icon and drag the sample to a new position.
 
 ## Step 6: Complete the product information
 
@@ -190,18 +190,18 @@ Scroll down and complete the information in the following sections as needed:
 
 1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` and do one of the following:
 
-    **Method 1: Save and Preview**
+   **Method 1: Save and Preview**
 
-    - In the upper-right corner, click <span class="btn">Save</span>.
+   - In the upper-right corner, click <span class="btn">Save</span>.
 
-    - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
+   - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
 
       The store opens in a new browser tab.
 
       ![]({% link images/images/admin-customer-view.png %}){: .zoom}
       _Customer View_
 
-    **Method 2: Save and Close**
+    *Method 2: Save and Close**
 
     On the _Save_ ( ![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
 

@@ -27,17 +27,17 @@ The first two steps are the same as if you are inserting an image.
 
    - To upload file(s) from your computer, click <span class="btn">Choose Files</span>. Then, do the following:
 
-       - In the directory of your local computer, navigate to the location of the images.
+      - In the directory of your local computer, navigate to the location of the images.
 
-       - Select each image to be uploaded.
+      - Select each image to be uploaded.
 
-       - Click <span class="btn">Open</span>.
+      - Click <span class="btn">Open</span>.
 
    - To use assets from Adobe Stock using the [Integration]({% link cms/adobe-stock.md %}):
 
-       - Click <span class="btn">Search Adobe Stock</span>.
+      - Click <span class="btn">Search Adobe Stock</span>.
 
-       - Add a preview or licensed image from Adobe Stock. See [Using Adobe Stock Images]({% link cms/adobe-stock-manage.md %}).
+      - Add a preview or licensed image from Adobe Stock. See [Using Adobe Stock Images]({% link cms/adobe-stock-manage.md %}).
 
 The images are uploaded to the current media storage folder on the server.
 

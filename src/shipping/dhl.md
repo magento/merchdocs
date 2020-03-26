@@ -14,10 +14,10 @@ DHL offers integrated international services and tailored, customer-focused solu
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **DHL** section. Then, do the following:
 
-    - Set **Enabled for Checkout** to "Yes".
-    - In the **Title** field, type a name that will be used to refer to this shipping method during checkout.
-    - In most cases, you can accept the default **Gateway URL**. If DHL has given you an alternate URL, enter that value in this field.
-    - Use the credentials provided by DHL to complete the following fields:
+   - Set **Enabled for Checkout** to "Yes".
+   - In the **Title** field, type a name that will be used to refer to this shipping method during checkout.
+   - In most cases, you can accept the default **Gateway URL**. If DHL has given you an alternate URL, enter that value in this field.
+   - Use the credentials provided by DHL to complete the following fields:
       - Access ID
       - Password
       - Account Number
@@ -29,31 +29,31 @@ _[DHL Account Settings]({% link configuration/sales/shipping-methods.md %})_
 
 1. In the **Content Type** list, select the option that best describes the type of package you ship:
 
-    - Documents
-    - Non documents
+   - Documents
+   - Non documents
 
    The handling fee is optional, and appears as an additional charge that is added to the DHL shipping cost. If you want to include a handling fee, do the following:
 
-    - In the **Calculate Handling Fee** list, select the method you want to use to calculate handling fees:
+   - In the **Calculate Handling Fee** list, select the method you want to use to calculate handling fees:
 
       - `Fixed`
       - `Percentage`
 
-    - In the **Handling Applied** list, select how you want the handling fees applied:
+   - In the **Handling Applied** list, select how you want the handling fees applied:
 
       - `Per Order`
       - `Per Package`
 
-    - In the **Handling Fee** field, enter the amount to be charged, based on the method you have chosen to calculate the amount. For example, if the charge is based on a fixed fee, enter the amount as a decimal, such as: 4.90. However, if the handling fee is based on a percentage of the order, enter the amount as a percentage. For example, if you are charging six percent of the order, enter the value as: .06.
+   - In the **Handling Fee** field, enter the amount to be charged, based on the method you have chosen to calculate the amount. For example, if the charge is based on a fixed fee, enter the amount as a decimal, such as: 4.90. However, if the handling fee is based on a percentage of the order, enter the amount as a percentage. For example, if you are charging six percent of the order, enter the value as: .06.
 
-    - You can allow the total order weight to be broken up to ensure an accurate calculation of shipping charges. To permit this, set **Divide Order Weight** to "Yes".
+   - You can allow the total order weight to be broken up to ensure an accurate calculation of shipping charges. To permit this, set **Divide Order Weight** to "Yes".
 
-    - Set the **Weight Unit** of the package to one of the following:
+   - Set the **Weight Unit** of the package to one of the following:
 
       - `Pounds`
       - `Kilograms`
 
-    - Set the **Size** of a typical package to one of the following:
+   - Set the **Size** of a typical package to one of the following:
 
       - `Regular`
       - `Specific`
@@ -75,14 +75,14 @@ _[DHL Account Settings]({% link configuration/sales/shipping-methods.md %})_
 
 1. In the **Free Method** list, choose the method you prefer to use for free shipping. Then, do the following:
 
-    - Set **Free Shipping Amount Threshold** to one of the following:
+   - Set **Free Shipping Amount Threshold** to one of the following:
 
         |`Enable`|If offering Free Shipping with Minimum Order, enter the **Minimum Order Amount for Free Shipping**.|
         |`Disable`|Does not apply free DHL shipping to any orders.|
 
       This is similar to the standard Free Shipping method, but appears in the DHL section so customers know which method is used for their order.
 
-    - In the next **Free Shipping Amount Threshold** field, enter the minimum amount for an order to qualify for free shipping.
+   - In the next **Free Shipping Amount Threshold** field, enter the minimum amount for an order to qualify for free shipping.
 
       ![]({% link images/images/config-sales-shipping-methods-dhl-allowed-methods.png %}){: .zoom}
       _[DHL Allowed Methods]({% link configuration/sales/shipping-methods.md %})_
@@ -91,8 +91,8 @@ _[DHL Account Settings]({% link configuration/sales/shipping-methods.md %})_
 
 1. Set **Ship to Applicable Countries** to one of the following:
 
-    - All Allowed Countries
-    - Specific Countries
+   - All Allowed Countries
+   - Specific Countries
 
     If shipping to specific countries, select each country from the **Ship to Specific Countries** list.
 

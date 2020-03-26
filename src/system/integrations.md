@@ -19,23 +19,23 @@ _Integrations_
 
 1. Enter the following Integration Info:
 
-    - Enter the **Name** of the integration and the contact **Email** address.
+   - Enter the **Name** of the integration and the contact **Email** address.
 
-    - Enter the **Callback URL** where OAuth credentials can be sent when using OAuth for token exchange. We strongly recommend using `https://`.
+   - Enter the **Callback URL** where OAuth credentials can be sent when using OAuth for token exchange. We strongly recommend using `https://`.
 
-    - Enter the **Identity Link URL** to redirect the users to a third-party account with these Magento integration credentials.
+   - Enter the **Identity Link URL** to redirect the users to a third-party account with these Magento integration credentials.
 
     ![New integration]({% link images/images/integration-new.png %}){: .zoom}
     _New Integration_
 
 1. In the left panel, choose **API** and do the following:
 
-    - Set **Resource Access** to one of the following:
+   - Set **Resource Access** to one of the following:
 
-        - `All`
-        - `Custom`
+      - `All`
+      - `Custom`
 
-    - For custom access, select the checkbox of each resource that is needed.
+   - For custom access, select the checkbox of each resource that is needed.
 
         ![Integrations - available API]({% link images/images/integrations-available-api.png %}){: .zoom}
         _Resources Needed for Custom Access_

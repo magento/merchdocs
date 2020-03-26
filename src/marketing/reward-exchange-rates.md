@@ -31,14 +31,14 @@ When converting currency to points, the amount of points cannot be divided. Any 
     ![Reward exchange rates - information]({% link images/images-ee/reward-exchange-rate-new.png %}){: .zoom}
     _Reward Exchange Rate Information_
 
-    - Set **Website** to the sites where the reward exchange rate applies.
+   - Set **Website** to the sites where the reward exchange rate applies.
 
-    - Set **Customer Group** to the groups where the reward exchange rate applies.
+   - Set **Customer Group** to the groups where the reward exchange rate applies.
 
-    - Set **Direction** to one of the following:
+   - Set **Direction** to one of the following:
 
-        - `Points to Currency`
-        - `Currency to Points`
+      - `Points to Currency`
+      - `Currency to Points`
 
     For either Direction setting, the amount is represented in the base currency of the website.
 

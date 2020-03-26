@@ -25,13 +25,13 @@ _Tiled Watermark_
 
    The fields in each section are the same.
 
-    - Enter the **Image Opacity** as a percentage. For example: `40`
+   - Enter the **Image Opacity** as a percentage. For example: `40`
 
-    - Enter the **Image Size** in pixels. For example: `200 x 200`
+   - Enter the **Image Size** in pixels. For example: `200 x 200`
 
-    - Click <span class="btn">Upload</span> and choose the image file that you want to use.
+   - Click <span class="btn">Upload</span> and choose the image file that you want to use.
 
-    - Set **Image Position** to determine where the watermark appears.
+   - Set **Image Position** to determine where the watermark appears.
 
     ![]({% link images/images/config-design-product-image-watermarks-base.png %}){: .zoom}
     [_Product Image Watermarks - Base_]({% link design/configuration.md %})

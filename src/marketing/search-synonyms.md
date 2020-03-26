@@ -21,16 +21,16 @@ _Search Results_
     ![New search synonyms group]({% link images/images/search-synonym-group-new.png %}){: .zoom}
     _New Synonym Group_
 
-    - Set **Scope** to the store views whee the synonyms apply.
+   - Set **Scope** to the store views whee the synonyms apply.
 
-    - Enter each synonym in the group, separated by comma. Choose words that people might use as search criteria. For example:
+   - Enter each synonym in the group, separated by comma. Choose words that people might use as search criteria. For example:
 
-        - `sweatshirt, sweat shirt, hoodie, fleece`
-        - `cell phone, mobile phone, smart phone`
-        - `couch, sofa, davenport`
-        - `wrought iron, rot iron, rod iron`
+      - `sweatshirt, sweat shirt, hoodie, fleece`
+      - `cell phone, mobile phone, smart phone`
+      - `couch, sofa, davenport`
+      - `wrought iron, rot iron, rod iron`
 
-    - To merge these synonyms into a group with others that have the same scope, select the **Merge existing synonyms** checkbox.
+   - To merge these synonyms into a group with others that have the same scope, select the **Merge existing synonyms** checkbox.
 
 1. When complete, click <span class="btn">Save Synonym Group</span>.
 

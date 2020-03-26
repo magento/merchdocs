@@ -26,18 +26,18 @@ _Manage Catalog Events_
     ![Catalog event information]({% link images/images-ee/catalog-event-information.png %}){: .zoom}
     _Catalog Event Information_
 
-    - For the **Start Date** of the event, use the calendar (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the date. Then, use the **Hour** and **Minute** sliders to set the time the event begins.
+   - For the **Start Date** of the event, use the calendar (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the date. Then, use the **Hour** and **Minute** sliders to set the time the event begins.
 
-    - For the **End Date** of the event, use the calendar (![]({% link images/images/btn-calendar.png %})) to choose the date. Then, use the **Hour** and **Minute** sliders to set the time the event ends.
+   - For the **End Date** of the event, use the calendar (![]({% link images/images/btn-calendar.png %})) to choose the date. Then, use the **Hour** and **Minute** sliders to set the time the event ends.
 
-    - To upload an **Image** for the event widget, click <span class="btn">Choose File</span>. Then, select the image file from your directory.
+   - To upload an **Image** for the event widget, click <span class="btn">Choose File</span>. Then, select the image file from your directory.
 
-    - In the **Sort Order** field, enter a number to indicate the sequence in which this event appears when listed with other events.
+   - In the **Sort Order** field, enter a number to indicate the sequence in which this event appears when listed with other events.
 
-    - Select the checkbox of each page where you want to display the countdown ticker:
+   - Select the checkbox of each page where you want to display the countdown ticker:
 
-        - Category Page
-        - Product Page
+      - Category Page
+      - Product Page
 
 1. When complete, click <span class="btn">Save</span>.
 
