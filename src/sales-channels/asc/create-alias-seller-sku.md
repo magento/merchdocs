@@ -37,9 +37,9 @@ View the listing on the _Product Listings_ page (_Inactive_, _Active_, _Ineligib
 
 1. Toggle the Remove Existing Seller SKU option to `Yes` or `No`.
 
-    - **Yes** - Choose to delete the listing and create a new listing using the new information provided.
+   - **Yes** - Choose to delete the listing and create a new listing using the new information provided.
 
-    - **No** - Choose to create a new listing and keep the old listing unchanged.
+   - **No** - Choose to create a new listing and keep the old listing unchanged.
 
 1. Click <span class="btn">Save Listing Update</span>.
 
@@ -59,9 +59,9 @@ View the listing on the _Product Listings_ page (_Inactive_, _Active_, _Ineligib
 
 1. Toggle the Remove Existing Seller SKU option to `Yes` or `No`.
 
-    - **Yes** - Choose to delete the listing and create a new listing using the new information provided.
+   - **Yes** - Choose to delete the listing and create a new listing using the new information provided.
 
-    - **No** - Choose to create a new listing and keep the old listing unchanged.
+   - **No** - Choose to create a new listing and keep the old listing unchanged.
 
 1. Click <span class="btn">Save Listing Update</span>.
 

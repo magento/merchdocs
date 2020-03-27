@@ -19,22 +19,22 @@ Email reminders might promote a cart price rule with, or without, a coupon. A ca
     ![Email reminder rule]({% link images/images-ee/email-reminder-new.png %}){: .zoom}
     _Rule Information_
 
-    - Enter a **Rule Name** to identify the rule internally.
+   - Enter a **Rule Name** to identify the rule internally.
 
-    - Enter a brief **Description** of the rule.
+   - Enter a brief **Description** of the rule.
 
-    - To choose the **Cart Price Rule** promotion that this reminder is to advertise, click <span class="btn">Select Rule…</span>, and select the rule.
+   - To choose the **Cart Price Rule** promotion that this reminder is to advertise, click <span class="btn">Select Rule…</span>, and select the rule.
 
         ![Cart rule - select]({% link images/images-ee/email-reminder-select-rule.png %}){: .zoom}
         _Select Cart Rule_
 
-    - If you want the rule to go into effect immediately, set **Status** to `Active`.
+   - If you want the rule to go into effect immediately, set **Status** to `Active`.
 
-    - To set up a date range for the rule to be active, enter the **From** and **To** dates.
+   - To set up a date range for the rule to be active, enter the **From** and **To** dates.
 
         You can also choose the date from the Calendar ( ![Calendar icon]({% link images/images/btn-calendar.png %}) ).
 
-    - To send the reminder more than once, enter the number of days before the next email blast in the **Repeat Schedule** field.
+   - To send the reminder more than once, enter the number of days before the next email blast in the **Repeat Schedule** field.
 
 1. In the panel on the left, choose **Conditions**. At least one condition must be defined for the rule. The process is similar to building a [catalog price rule.]({% link marketing/price-rules-catalog.md %})
 
@@ -45,15 +45,15 @@ Email reminders might promote a cart price rule with, or without, a coupon. A ca
     ![Email reminder conditions]({% link images/images-ee/email-reminder-conditions.png %}){: .zoom}
     _Conditions_
 
-    - Click **Add** ( ![Add icon]({% link images/images/btn-add-grn.png %})) to display the list of options. Then, choose one of the following conditions:
+   - Click **Add** ( ![Add icon]({% link images/images/btn-add-grn.png %})) to display the list of options. Then, choose one of the following conditions:
 
-        - Wish List
-        - Shopping Cart
+      - Wish List
+      - Shopping Cart
 
-    - Complete the condition to describe the scenario that triggers the email reminder.
+   - Complete the condition to describe the scenario that triggers the email reminder.
 
-        ![email reminder conditions example]({% link images/images-ee/email-reminder-condition-example.png %}){: .zoom}
-        _Completed Condition_
+      ![email reminder conditions example]({% link images/images-ee/email-reminder-condition-example.png %}){: .zoom}
+      _Completed Condition_
 
 1. In the panel on the left, choose **Emails and Labels**.
 
@@ -66,17 +66,17 @@ Email reminders might promote a cart price rule with, or without, a coupon. A ca
 
 1. In the Default Titles and Description section, do the following:
 
-    - Enter the **Rule Title for All Store Views**.
+   - Enter the **Rule Title for All Store Views**.
 
         {:.bs-callout-info}
         This value can be incorporated into email templates by using the `promotion_name` variable.
 
-    - Enter the **Rule Description for All Store Views**.
+   - Enter the **Rule Description for All Store Views**.
 
         ![Email reminders - titles and descriptions]({% link images/images-ee/email-reminders-emails-and-labels-default-titles-description.png %}){: .zoom}
         _Default Titles and Description_
 
-    - In the **Titles and Descriptions Per Store View** section, enter the Rule Title and Description for the _Default Store View_. For multiple store views, enter the appropriate title and description for each.
+   - In the **Titles and Descriptions Per Store View** section, enter the Rule Title and Description for the _Default Store View_. For multiple store views, enter the appropriate title and description for each.
 
         {:.bs-callout-info}
         The description can be incorporated into email templates by using the promotion_description variable.

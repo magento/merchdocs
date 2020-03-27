@@ -24,9 +24,9 @@ _Event Carousel in Left Sidebar_
 
 1. In the Settings section, do the following:
 
-    - Set **Type** to `Catalog Events Carousel`.
+   - Set **Type** to `Catalog Events Carousel`.
 
-    - Choose the **Design Theme** that is used by the store.
+   - Choose the **Design Theme** that is used by the store.
 
 1. Click <span class="btn">Continue</span>.
 
@@ -47,11 +47,11 @@ _Event Carousel in Left Sidebar_
 
 1. In the Layout Updates section, click <span class="btn">Add Layout Update</span>. Then, do the following:
 
-    - Set **Display On** to `Specified Page`.
+   - Set **Display On** to `Specified Page`.
 
-    - Set **Page** to `CMS Home Page`.
+   - Set **Page** to `CMS Home Page`.
 
-    - Set **Container** one fo the following:
+   - Set **Container** one fo the following:
 
       - `Main Content Area`
       - `Sidebar Additional`
@@ -60,7 +60,7 @@ _Event Carousel in Left Sidebar_
        {:.bs-callout-info}
        The results vary according to theme and page layout. The “Catalog Events Carousel Default Template.” must also be specified in the category configuration.
 
-    - If you want the Events Carousel to appear in an additional location in the storefront, click <span class="btn">Add Layout Update</span>. Then, repeat these steps.
+   - If you want the Events Carousel to appear in an additional location in the storefront, click <span class="btn">Add Layout Update</span>. Then, repeat these steps.
 
    ![]({% link images/images-ee/widget-event-carousel-layout-updates-catalog-category-sidebar.png %}){: .zoom}
    _Layout Updates_
@@ -73,9 +73,9 @@ _Event Carousel in Left Sidebar_
 
 1. In the panel on the left, choose **Widget Options**. Then, do the following:
 
-    - In the **Frame Size** field, enter the number of events that you want to list in the slider at the same time. To view only one event at a time, enter `1`.
+   - In the **Frame Size** field, enter the number of events that you want to list in the slider at the same time. To view only one event at a time, enter `1`.
 
-    - In the **Scroll** field, enter the number of event listings that you want to scroll per click. To scroll to the next event, enter `1`.
+   - In the **Scroll** field, enter the number of event listings that you want to scroll per click. To scroll to the next event, enter `1`.
 
 1. For a custom width, enter the number of pixels in the **Block Custom Width** field. The custom width for the example on this page is set to 250 pixels.
 

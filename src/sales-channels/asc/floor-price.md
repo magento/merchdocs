@@ -27,11 +27,11 @@ Define your lowest price setting in the _Floor Price_ section.
 
 1. For **Floor Price Action**, choose an option.
 
-    - **Decrease By** - Choose when you want the defined _Floor Price Source_ value to be adjusted down, creating a lower floor price for the rule, before listing to Amazon.
+   - **Decrease By** - Choose when you want the defined _Floor Price Source_ value to be adjusted down, creating a lower floor price for the rule, before listing to Amazon.
 
-    - **Increase By** - Choose when you want the defined _Floor Price Source_ value to be adjusted up, creating a higher floor price for the rule, before listing to Amazon.
+   - **Increase By** - Choose when you want the defined _Floor Price Source_ value to be adjusted up, creating a higher floor price for the rule, before listing to Amazon.
 
-    - **Match** - Choose when you do not want the listing price to fluctuate below the defined _Floor Price Source_ value. When set to `Match`, the _Apply_ and _Floor Adjustment Amount_ fields are disabled.
+   - **Match** - Choose when you do not want the listing price to fluctuate below the defined _Floor Price Source_ value. When set to `Match`, the _Apply_ and _Floor Adjustment Amount_ fields are disabled.
 
 1. **Apply** defaults to `Apply as percentage`.
 
@@ -40,7 +40,7 @@ Define your lowest price setting in the _Floor Price_ section.
 In this example, the floor price is set to be 3% above the cost of the item.
 
 ![]({% link sales-channels/asc/assets/ob-intelligent-pricde-rule-floor-price.png %}){: .zoom}
- _Intelligent Repricing Rule: Floor Price_
+_Intelligent Repricing Rule: Floor Price_
 
 |Field|Description|
 |--- |--- |

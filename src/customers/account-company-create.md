@@ -20,14 +20,14 @@ Before you begin, make sure that [B2B Features]({% link stores/b2b-features.md %
 
    - Complete the required fields:
 
-     - Company Name
-     - Company Email
+      - Company Name
+      - Company Email
 
    - If the information is available, complete the remaining fields, as applicable.
 
-     - Company Legal Name
-     - VAT/TAX ID
-     - Re-seller ID
+      - Company Legal Name
+      - VAT/TAX ID
+      - Re-seller ID
 
     ![]({% link images/images-b2b/customer-account-company-information.png %}){: .zoom}
     _Company Information_
@@ -47,8 +47,8 @@ Before you begin, make sure that [B2B Features]({% link stores/b2b-features.md %
 
    - Optionally complete the following fields:
 
-     - Job Title
-     - Gender
+      - Job Title
+      - Gender
 
     ![]({% link images/images-b2b/customer-account-company-administrator.png %})
     _Company Administrator_
@@ -74,8 +74,8 @@ _New Company_
 
    - Complete these required fields:
 
-     - Company Name
-     - Company Email
+      - Company Name
+      - Company Email
 
    - By default, the **Status** of the account is “Active”. If you’re not ready for the account to go live, set Status to “Pending Approval”.
    - If applicable, choose the Admin account of the **Sales Representative** who is to manage the account.
@@ -84,9 +84,9 @@ _New Company_
 
    - Complete the following fields as applicable:
 
-     - Company Legal Name
-     - VAT/TAX ID
-     - Reseller ID
+      - Company Legal Name
+      - VAT/TAX ID
+      - Reseller ID
 
    - In the **Comment** field, enter any additional information about the customer that might be needed.
 
@@ -106,20 +106,20 @@ _New Company_
 
    - Complete these required fields:
 
-     - Email
-     - First Name
-     - Last Name
+      - Email
+      - First Name
+      - Last Name
 
    - The following optional parts of the name might be applicable to some customer names more than others, and can be used at your discretion.
 
-     - Prefix
-     - Middle Name/Initial
-     - Suffix
+      - Prefix
+      - Middle Name/Initial
+      - Suffix
 
    - If the information is available, complete the remaining fields to describe the Company Admin:
 
-     - Job Title
-     - Gender
+      - Job Title
+      - Gender
 
     ![]({% link images/images-b2b/customers-company-create-company-admin.png %}){: .zoom}
     _Company Admin_
@@ -147,9 +147,9 @@ _New Company_
 
    - To change the default payment methods that are available to the company, clear the **Use config settings** checkbox. Then, do one of the following:
 
-     - Choose **All Enabled Payment Methods**.
+      - Choose **All Enabled Payment Methods**.
 
-     - Choose the **Specific Payments**.
+      - Choose the **Specific Payments**.
 
         To select multiple payment methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 

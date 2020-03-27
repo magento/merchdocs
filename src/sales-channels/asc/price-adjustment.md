@@ -22,23 +22,23 @@ Define your pricing adjustment in the _Price Adjustment_ section.
 
 1. For **Price Action**, choose an option:
 
-    - **Decrease By** - Choose when you want the defined price source value to be to be adjusted down, creating a lower price for the rule, before listing to Amazon.
+   - **Decrease By** - Choose when you want the defined price source value to be to be adjusted down, creating a lower price for the rule, before listing to Amazon.
 
-    - **Increase By** - Choose when you want the defined price source value to be adjusted up, creating a higher price for the rule, before listing to Amazon.
+   - **Increase By** - Choose when you want the defined price source value to be adjusted up, creating a higher price for the rule, before listing to Amazon.
 
-    - **Match Competitor Price** - (Intelligent repricing rule only) Choose when you want to change your Amazon listing price to match the [lowest competitor]({% link sales-channels/asc/lowest-competitor-pricing.md %}) price, based on your competitor feedback and variance parameters. When set to `Match Competitor Price`, the _Apply_ and _Adjustment Amount_ fields are removed.
+   - **Match Competitor Price** - (Intelligent repricing rule only) Choose when you want to change your Amazon listing price to match the [lowest competitor]({% link sales-channels/asc/lowest-competitor-pricing.md %}) price, based on your competitor feedback and variance parameters. When set to `Match Competitor Price`, the _Apply_ and _Adjustment Amount_ fields are removed.
 
 1. For **Apply**, choose an option:
 
-    - **Apply as percentage** - Choose when you want the defined **Magento Price Source** defined in your [Listing Price]({% link sales-channels/asc/listing-price.md %}) adjusted by a percentage.
+   - **Apply as percentage** - Choose when you want the defined **Magento Price Source** defined in your [Listing Price]({% link sales-channels/asc/listing-price.md %}) adjusted by a percentage.
 
-    - **Apply as fixed amount** - Choose when you want the defined **Magento Price Source** defined in your [Listing Price]({% link sales-channels/asc/listing-price.md %}) adjusted by a fixed amount.
+   - **Apply as fixed amount** - Choose when you want the defined **Magento Price Source** defined in your [Listing Price]({% link sales-channels/asc/listing-price.md %}) adjusted by a fixed amount.
 
 1. For **Adjustment Amount** (required), enter the numerical value for the price adjustment.
 
-    - When **Apply** is set to `Apply as percentage`, enter the percent value (example: enter `25` for a 25% percent adjustment).
+   - When **Apply** is set to `Apply as percentage`, enter the percent value (example: enter `25` for a 25% percent adjustment).
 
-    - When **Apply** is set to `Apply as fixed amount`, enter the numerical value for the fixed amount (example: enter `25` for a $25 fixed adjustment).
+   - When **Apply** is set to `Apply as fixed amount`, enter the numerical value for the fixed amount (example: enter `25` for a $25 fixed adjustment).
 
 ![]({% link sales-channels/asc/assets/amazon-price-adjustment.png %}){: .zoom}
 _Intelligent Repricing Rule: Price Adjustment_

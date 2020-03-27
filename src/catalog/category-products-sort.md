@@ -64,13 +64,13 @@ _Product Tiles_
 
    - Set **Operator** to one of the following:
 
-       - `Equal`
-       - `Not equal`
-       - `Greater than`
-       - `Greater than or equal to`
-       - `Less than`
-       - `Less than or equal to`
-       - `Contains`
+      - `Equal`
+      - `Not equal`
+      - `Greater than`
+      - `Greater than or equal to`
+      - `Less than`
+      - `Less than or equal to`
+      - `Contains`
 
    - Enter the appropriate **Value**.
 

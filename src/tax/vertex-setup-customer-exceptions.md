@@ -17,11 +17,11 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
 1. To assign the Vertex Customer Code to a customer, open the [customer]({% link customers/customer-account-manage.md %}) account in edit mode. Then, do the following:
 
-    - Under _Account Information_, scroll down to the **Vertex Customer Code** field at the bottom of the section.
+   - Under _Account Information_, scroll down to the **Vertex Customer Code** field at the bottom of the section.
 
-    - Enter a unique code to identify the customer.
+   - Enter a unique code to identify the customer.
 
-    The code can be an abbreviation of the customer name, number, or alphanumeric string.
+      The code can be an abbreviation of the customer name, number, or alphanumeric string.
 
 1. If you need to add new customer tax classes to Magento, see: [Adding New Tax Classes]({% link tax/tax-class-new.md %}).
 
@@ -29,9 +29,9 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
 1. To assign a new customer tax class to a customer group, do the following:
 
-    - Open the [customer group]({% link customers/customer-groups.md %}) in edit mode.
+   - Open the [customer group]({% link customers/customer-groups.md %}) in edit mode.
 
-    - Set **Tax Class** as needed.
+   - Set **Tax Class** as needed.
 
 1. When complete, click **Save Customer Group**.
 
@@ -41,71 +41,71 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
 1. On the _Configure Overview_ page, in the _Customer Exceptions_ column of the company section, do one of the following:
 
-    - Click **Add**.
-    - Click **Customers**. Then above the grid, click **Add Customer Exception**.
+   - Click **Add**.
+   - Click **Customers**. Then above the grid, click **Add Customer Exception**.
 
 1. On the _Add Single Exception_ tab under **Customer Information**, do the following:
 
     ![]({% link images/images/tax-vertex-cloud-configure-exception-single.png %}){: .zoom}
     _Add Single Exception_
 
-    - In the _Customer Name_ field, enter the full name of the customer as it appears in the Magento Customers grid.
+   - In the _Customer Name_ field, enter the full name of the customer as it appears in the Magento Customers grid.
 
-    - Set **Customer Type** to `Code` or `Class`, which determines the value that is entered in the next field.
+   - Set **Customer Type** to `Code` or `Class`, which determines the value that is entered in the next field.
 
-    - In the **Customer Code / Class** field, enter the corresponding Magento value, according to the Customer Type setting.
+   - In the **Customer Code / Class** field, enter the corresponding Magento value, according to the Customer Type setting.
 
-        - **Code** — To identify a specific customer, enter [Vertex Customer Code]({% link customers/customer-account-update.md %}) from the customer account.
-        - **Class** — To identify a specific customer class, enter the name of the [customer group]({% link customers/customer-groups.md %}) that is associated with the tax class.
+      - **Code** — To identify a specific customer, enter [Vertex Customer Code]({% link customers/customer-account-update.md %}) from the customer account.
+      - **Class** — To identify a specific customer class, enter the name of the [customer group]({% link customers/customer-groups.md %}) that is associated with the tax class.
 
         The value must exactly match the corresponding Magento value found in the customer account or customer group.
 
-    - For the **Start Date** field, use the calendar to choose the date that the customer becomes available to Vertex Cloud. The customer Start Date must be on or after the company Start Date.
+   - For the **Start Date** field, use the calendar to choose the date that the customer becomes available to Vertex Cloud. The customer Start Date must be on or after the company Start Date.
 
-    - If applicable, use the calendar to choose the **End Date** when the customer is no longer available to Vertex Cloud.
+   - If applicable, use the calendar to choose the **End Date** when the customer is no longer available to Vertex Cloud.
 
-        ![]({% link images/images/tax-vertex-cloud-configure-exception-customer-information.png %}){: .zoom}
-        _Customer Information_
+      ![]({% link images/images/tax-vertex-cloud-configure-exception-customer-information.png %}){: .zoom}
+      _Customer Information_
 
 1. To set **Tax Result**, do one of the following:
 
-    - Choose `Taxable` if the customer normally pays sales or use tax.
-    - Choose `Exempt` if the customer is exempt from paying sales or use tax.
+   - Choose `Taxable` if the customer normally pays sales or use tax.
+   - Choose `Exempt` if the customer is exempt from paying sales or use tax.
 
     ![]({% link images/images/tax-vertex-cloud-configure-exception-tax-result.png %}){: .zoom}
     _Tax Result_
 
 1. Complete the **Certificate Information** as follows:
 
-    - Set **Exception Type** to one of the following:
+   - Set **Exception Type** to one of the following:
 
-        - `Exemption Certificate` — Certifies that the customer has permission to purchase merchandise for resale without paying sales or use tax at the time of purchase.
-        - `Direct Pay Permit` — For customers who aren’t sure if the items are for resale, permits the customer to purchase merchandise without paying sales or use tax at the time of purchase. The payment is deferred, and then paid directly to the tax authority, as applicable.
+      - `Exemption Certificate` — Certifies that the customer has permission to purchase merchandise for resale without paying sales or use tax at the time of purchase.
+      - `Direct Pay Permit` — For customers who aren’t sure if the items are for resale, permits the customer to purchase merchandise without paying sales or use tax at the time of purchase. The payment is deferred, and then paid directly to the tax authority, as applicable.
 
-    - For the **Start Date** field, use the calendar to choose the date the customer exception becomes available to Vertex Cloud for tax calculations and reporting purposes.
+   - For the **Start Date** field, use the calendar to choose the date the customer exception becomes available to Vertex Cloud for tax calculations and reporting purposes.
 
-    - If applicable, use the calendar to choose the **End Date** when the customer exception stops being available to Vertex Cloud.
+   - If applicable, use the calendar to choose the **End Date** when the customer exception stops being available to Vertex Cloud.
 
-    - Set **Exception Jurisdiction** to the state or territory where the exception applies.
+   - Set **Exception Jurisdiction** to the state or territory where the exception applies.
 
-    - Set **Exception Reason** to the code that identifies the reason for the exception, according to the jurisdiction. For the _Direct Pay Permit_ exception type, the field defaults to `Direct Pay Permit`.
+   - Set **Exception Reason** to the code that identifies the reason for the exception, according to the jurisdiction. For the _Direct Pay Permit_ exception type, the field defaults to `Direct Pay Permit`.
 
-    - If the exception applies to a specific product, choose the **Product Name** from the list of products that have been mapped to Vertex Cloud.
+   - If the exception applies to a specific product, choose the **Product Name** from the list of products that have been mapped to Vertex Cloud.
 
-    - Enter the **Exception Number** from the certificate.
+   - Enter the **Exception Number** from the certificate.
 
-    - When complete, click **Validate** to verify that the information is correct.
+   - When complete, click **Validate** to verify that the information is correct.
 
-        ![]({% link images/images/tax-vertex-cloud-configure-exception-certificate-information.png %}){: .zoom}
-        _Certificate Information_
+      ![]({% link images/images/tax-vertex-cloud-configure-exception-certificate-information.png %}){: .zoom}
+      _Certificate Information_
 
 1. In the **Certificate Reporting Criteria** section, do the following:
 
-    - In the **Issue Date** field, enter the date the exception certificate was issued to the customer by the jurisdiction.
+   - In the **Issue Date** field, enter the date the exception certificate was issued to the customer by the jurisdiction.
 
-    - In the **Review Date** field, enter the date when the validity of the exception certificate is scheduled to be reexamined.
+   - In the **Review Date** field, enter the date when the validity of the exception certificate is scheduled to be reexamined.
 
-    - In the **Expiration Date** field, enter the date that is printed on the exception certificate to indicate when it stops being valid.
+   - In the **Expiration Date** field, enter the date that is printed on the exception certificate to indicate when it stops being valid.
 
     ![]({% link images/images/tax-vertex-cloud-configure-exception-certificate-reporting-criteria.png %}){: .zoom}
     _Certificate Reporting Criteria_

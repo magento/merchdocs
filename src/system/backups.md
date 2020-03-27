@@ -37,10 +37,10 @@ _Backups_
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Backup Settings** section and do the following:
 
-    - Set Enabled Schedule Backup to `Yes`.
-    - Set the **Scheduled Backup Type**.
-    - Set the **Start Time**.
-    - Set the **Frequency**.
-    - Set **Maintenance Mode** to `Yes`.
+   - Set Enabled Schedule Backup to `Yes`.
+   - Set the **Scheduled Backup Type**.
+   - Set the **Start Time**.
+   - Set the **Frequency**.
+   - Set **Maintenance Mode** to `Yes`.
 
 1. When complete, click <span class="btn">Save Config</span>.
