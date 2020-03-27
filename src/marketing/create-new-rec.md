@@ -20,17 +20,23 @@ After you create and activate the recommendation unit, Magento will begin [colle
 
 1. In the **Name your Recommendation** section, enter a name that uniquely identifies the recommendation, such as *Home page most viewed* or *Cart trending*. This is used for internal tracking only to help you identify this recommendation on your dashboard.
 
-1. In the **Storefront display label** section, enter the name for your recommendation, such as "We found other products you might like!". This is the name your shoppers will see on the storefront. Magento provides the [following guidance for label names]({% link marketing/recommendation-best-practices.md %}#bplabels).
+1. In the **Storefront display label** section, enter the name for your recommendation, such as "We found other products you might like!".
+
+   This is the name your shoppers will see on the storefront. Magento provides the [following guidance for label names]({% link marketing/recommendation-best-practices.md %}#bplabels).
 
 1. In the **Select page type** section, select the page on which you want the recommendation to appear. Options are: **Home Page**, **Category**, **Product Detail**, **Cart**, and **Confirmation**.
 
 1. In the **Select Recommendation type** section, specify the type of recommendation you want to appear on the selected page type. Note that certain page types [restrict what type of recommendation]({% link marketing/product-recommendations.md %}#supportedrecs) you can select.
 
-1. In the **Choose number of products** section, use the slider to specify how many products you want to appear in this recommendation unit. The default is `5`. Maximum is `20`.
+1. In the **Choose number of products** section, use the slider to specify how many products you want to appear in this recommendation unit.
 
-1. In the **Select placement** section, specify the [container where you want the recommendation unit]({% link marketing/product-recommendations.md %}#productrecplacement) to appear on the page. Options are **At the bottom of main content** or **At the top of main content**.
+   The default is `5`. Maximum is `20`.
 
-1. The **Choose position** section displays all recommendations (if any) created for the page type you selected above. You can select and move the rows in the **Choose position** table to order the recommendations within the container.
+1. In the **Select placement** section, specify the [container where you want the recommendation unit]({% link marketing/product-recommendations.md %}#productrecplacement) to appear on the page.
+
+Options are **At the bottom of main content** or **At the top of main content**.
+
+   The **Choose position** section displays all recommendations (if any) created for the page type you selected. You can select and move the rows in the **Choose position** table to order the recommendations within the container.
 
 1. (Optional) In the **Exclude categories** section, specify the product categories that should not be included as part of this recommendation. You can select up to 25 categories. You also can specify categories you want to exclude [from all recommendations]({% link marketing/product-recommendations.md %}#globalexclusions).
 
