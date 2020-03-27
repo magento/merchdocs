@@ -11,7 +11,7 @@ Custom layout updates can be applied to product category pages, product pages, a
 
 Any change made to the layout is applied when the associated entity—which can be either a product, category, or CMS page—becomes active in the frontend of the store.
 
-Custom layout update instructions consist of well-formed XML tags, without the `<?xml ...>` declaration and root tag. As with normal XML, every tag must either be empty or properly closed, as shown in the following examples:
+Custom layout update instructions consist of well-formed XML tags, without the `<?xml ...>` declaration and root tag. As with normal XML, every tag must either be empty or properly closed, as shown in the following examples. For more information, see [Layout instructions][1] in the developer documentation.
 
 ```
 <tag attribute="value" />
@@ -64,3 +64,5 @@ This instruction performs final modifications to blocks which are already part o
 |`name`|`block name` |(Required) he name of the block to be extended.|
 |`*` |`any other` |Any other attribute specific for the `<block>` instruction.|
 |`parent` |`block name` |he name of the block that should become a new parent for the referenced block.|
+
+[1]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/xml-instructions.html

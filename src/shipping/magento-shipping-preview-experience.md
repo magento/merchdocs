@@ -16,34 +16,33 @@ Preview Experience:
 
 Personas can be created directly from the Experience Preview pane.
 
-1.  In the _Admin_ sidebar, choose **Stores**.
+1. In the _Admin_ sidebar, choose **Stores**.
 
-1.  In the _Shipping_ section, choose **Experiences**. The Magento Shipping Portal opens in a new tab.
+1. In the _Shipping_ section, choose **Experiences**. The Magento Shipping Portal opens in a new tab.
 
-1.  In the _Simulate a customer's cart_ drop-down, choose `New Persona`.
+1. In the _Simulate a customer's cart_ drop-down, choose `New Persona`.
 
-1.  Enter information for the persona to match the customer use case you would like to test.
+1. Enter information for the persona to match the customer use case you would like to test.
 
-    - Persona Nickname
-    - Country
-    - Post Code
-    - Weight Unit
-    - Currency
-    - Items in cart
-        - Name
-        - Sku
-        - Category
-        - Weight
-        - Price
-        - Qty
-            (To add more items, click the + icon.)
+   - Persona Nickname
+   - Country
+   - Post Code
+   - Weight Unit
+   - Currency
+   - Items in cart
+      - Name
+      - Sku
+      - Category
+      - Weight
+      - Price
+      - Qty (To add more items, click the + icon.)
 
     ![]({% link images/images/magento-shipping-preview-experiences-example-persona.png %}){: .zoom}
     _Example Persona_
 
-1.	Click **Save**. The preview is triggered with the new persona automatically selected.
+1. Click **Save**. The preview is triggered with the new persona automatically selected.
 
-1.	The preview is triggered with the new persona automatically selected. Based on your shipping configuration, possible and excluded carriers display in the preview.
+1. The preview is triggered with the new persona automatically selected. Based on your shipping configuration, possible and excluded carriers display in the preview.
 
 ![]({% link images/images/magento-shipping-preview-experiences-results.png %}){: .zoom}
 _Example Preview_

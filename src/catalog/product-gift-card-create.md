@@ -55,9 +55,9 @@ _Choose Attribute Set_
 
 1. To give customers the ability to set the value of the gift card, do the following:
 
-    - Set **Open Amount** to `Yes`.
+   - Set **Open Amount** to `Yes`.
 
-    - To define the range of minimum and maximum acceptable values, enter the **Open Amount From** and **To** values.
+   - To define the range of minimum and maximum acceptable values, enter the **Open Amount From** and **To** values.
 
     You can create gift cards with fixed pricing, open amount pricing, or both.
 
@@ -106,18 +106,18 @@ Complete the information in the following sections as needed:
 
 1. Do one of the following:
 
-    **Method 1: Save and Preview**
+   **Method 1: Save and Preview**
 
-    - In the upper-right corner, click <span class="btn">Save</span>.
+   - In the upper-right corner, click <span class="btn">Save</span>.
 
-    - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu,
+   - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu,
 
     ![]({% link images/images/admin-customer-view.png %}){: .zoom}
     _Customer View_
 
-    **Method 2: Save and Close**
+   **Method 2: Save and Close**
 
-    On the _Save_ ( ![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
+   On the _Save_ ( ![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
 
     ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
     _Save & Close_

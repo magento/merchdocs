@@ -21,9 +21,9 @@ The Product Listing Actions section defines how your catalog interacts with Amaz
 
 1. For **Automatic List Action** (required), choose an option:
 
-    - **Automatically List Eligible Products** - (Default) Choose when you want your Magento catalog products (that meet Amazon's eligibility requirements) to automatically publish to Amazon and create new Amazon Listings.
+   - **Automatically List Eligible Products** - (Default) Choose when you want your Magento catalog products (that meet Amazon's eligibility requirements) to automatically publish to Amazon and create new Amazon Listings.
 
-    - **Do Not Automatically List Eligible Products** - Choose when you want to manually select your eligible Magento catalog products and create new Amazon listings. When chosen, catalog products that meet your listing criteria and contain all required information display on the [_Ready to List_]({% link sales-channels/asc/ready-to-list.md %}) tab for manual publish to Amazon.
+   - **Do Not Automatically List Eligible Products** - Choose when you want to manually select your eligible Magento catalog products and create new Amazon listings. When chosen, catalog products that meet your listing criteria and contain all required information display on the [_Ready to List_]({% link sales-channels/asc/ready-to-list.md %}) tab for manual publish to Amazon.
 
 1. For **Default Handling Time** (required), enter a numerical amount of lead time days needed before shipment. The default value is `2 days`.
 

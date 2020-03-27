@@ -17,11 +17,11 @@ When the Amazon Sales Channel extension is installed, default values are set in 
 
 1. For **Clear Log History**, choose an option.
 
-    - **Once Daily** - Choose to clear your store activity history once daily.
+   - **Once Daily** - Choose to clear your store activity history once daily.
 
-    - **Once Weekly** - Choose to clear your store activity history once weekly.
+   - **Once Weekly** - Choose to clear your store activity history once weekly.
 
-    - **Once Monthly** - (Default) Choose to clear your store activity history once monthly.
+   - **Once Monthly** - (Default) Choose to clear your store activity history once monthly.
 
 1. For **Background Tasks (CRON) Source**, choose `Magento CRON`.
 

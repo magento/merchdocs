@@ -35,8 +35,8 @@ _Divider with Padding in Container with Dashed Border_
 
    - To change the divider **Line Color**, do one of the following:
 
-     - Enter a valid [HTML color name][1]. For example, `Teal`.
-     - Enter the hexadecimal color value. For example, `#008080`.
+      - Enter a valid [HTML color name][1]. For example, `Teal`.
+      - Enter the hexadecimal color value. For example, `#008080`.
 
    - When complete, click <span class="btn">Apply</span>.
 

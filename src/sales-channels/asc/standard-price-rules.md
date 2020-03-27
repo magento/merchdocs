@@ -20,21 +20,21 @@ Sections of a standard price rule action include:
 
 1. For **Price Action**, choose an option.
 
-    - **Decrease By** - Choose when you want the defined **Magento Price Source** defined in your [Listing Price]({% link sales-channels/asc/listing-price.md %}) value to be decreased before listing to Amazon.
+   - **Decrease By** - Choose when you want the defined **Magento Price Source** defined in your [Listing Price]({% link sales-channels/asc/listing-price.md %}) value to be decreased before listing to Amazon.
 
-    - **Increase By** - Choose when you want the defined **Magento Price Source** defined in your [Listing Price]({% link sales-channels/asc/listing-price.md %}) value to be increased before listing to Amazon.
+   - **Increase By** - Choose when you want the defined **Magento Price Source** defined in your [Listing Price]({% link sales-channels/asc/listing-price.md %}) value to be increased before listing to Amazon.
 
 1. For **Apply**, choose an option:
 
-    - **Apply as percentage** - Choose when you want the defined **Magento Price Source** defined in your [Listing Price]({% link sales-channels/asc/listing-price.md %}) value adjusted by a percentage.
+   - **Apply as percentage** - Choose when you want the defined **Magento Price Source** defined in your [Listing Price]({% link sales-channels/asc/listing-price.md %}) value adjusted by a percentage.
 
-    - **Apply as fixed amount** - Choose when you want the defined **Magento Price Source** defined in your [Listing Price]({% link sales-channels/asc/listing-price.md %}) value adjusted by a fixed amount.
+   - **Apply as fixed amount** - Choose when you want the defined **Magento Price Source** defined in your [Listing Price]({% link sales-channels/asc/listing-price.md %}) value adjusted by a fixed amount.
 
 1. For **Adjustment Amount** (required), enter the numerical value for the price adjustment.
 
-    - When **Apply** is set to `Apply as percentage`, enter the percent value (example: enter `25` for a 25% percent price adjustment).
+   - When **Apply** is set to `Apply as percentage`, enter the percent value (example: enter `25` for a 25% percent price adjustment).
 
-    - When **Apply** is set to `Apply as fixed amount`, enter the numerical value for the fixed amount (example: enter `25` for a $25 fixed price adjustment).
+   - When **Apply** is set to `Apply as fixed amount`, enter the numerical value for the fixed amount (example: enter `25` for a $25 fixed price adjustment).
 
 1. When complete, click **Save pricing rule**.
 

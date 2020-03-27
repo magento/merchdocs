@@ -33,8 +33,8 @@ Go to [Braintree Payments][1] and sign up for an account.
 
    - Set the current operating **Environment** for Braintree transactions to one of the following:
 
-     - Sandbox
-     - Production
+      - `Sandbox`
+      - `Production`
 
      When testing the configuration in a sandbox, use only [credit card numbers ][2]
 that are recommended by Braintree. When you are ready to go live with Braintree, set **Environment** to `Production`.
@@ -48,8 +48,8 @@ that are recommended by Braintree. When you are ready to go live with Braintree,
 
    - Enter the following credentials from your Braintree account:
 
-     - Public Key
-     - Private Key
+      - Public Key
+      - Private Key
 
      ![Basic Settings]({% link images/images/config-sales-payment-methods-braintree-basic-settings-part1.png %}){: .zoom}
      Basic Settings
@@ -100,7 +100,7 @@ that are recommended by Braintree. When you are ready to go live with Braintree,
 
 1. To set up **Country Specific Credit Card Types**, do the following:
 
-   - Tap <span class="btn">Add</span>.
+   - Click <span class="btn">Add</span>.
 
    - Set the **Country**, and choose each **Allowed Credit Card Type**.
 
@@ -158,7 +158,6 @@ that are recommended by Braintree. When you are ready to go live with Braintree,
 
    |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method.|
    |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store.|
-
 
    ![3D Verification Settings]({% link images/images/config-sales-payment-methods-braintree-3d-verification-settings.png %}){: .zoom}
    _3D Verification Settings_

@@ -14,17 +14,17 @@ Your site map should be updated as frequently as the content on your site change
 
     If needed, clear the **Use system value** checkbox to change these settings.
 
-    - Set **Frequency** to one of the following:
+   - Set **Frequency** to one of the following:
 
-        - `Always`
-        - `Hourly`
-        - `Daily`
-        - `Weekly`
-        - `Monthly`
-        - `Yearly`
-        - `Never`
+      - `Always`
+      - `Hourly`
+      - `Daily`
+      - `Weekly`
+      - `Monthly`
+      - `Yearly`
+      - `Never`
 
-    - For **Priority**, enter a value between 0.0 and 1.0. Zero has the lowest priority.
+   - For **Priority**, enter a value between 0.0 and 1.0. Zero has the lowest priority.
 
     ![]({% link images/images/config-catalog-xml-sitemap-categories-options.png %}){: .zoom}
     [_Categories Options_]({% link configuration/catalog/xml-sitemap.md %})
@@ -33,9 +33,9 @@ Your site map should be updated as frequently as the content on your site change
 
 1. To determine the extent that images are included in the sitemap, set **Add Images into Sitemap** to one of the following:
 
-    - `None`
-    - `Base Only`
-    - `All`
+   - `None`
+   - `Base Only`
+   - `All`
 
     ![Catalog configuration - XML sitemap products]({% link images/images/config-catalog-xml-sitemap-products-options.png %}){: .zoom}
     [_Products Options_]({% link configuration/catalog/xml-sitemap.md %})
@@ -58,19 +58,19 @@ Your site map should be updated as frequently as the content on your site change
 
 1. To generate a sitemap, set **Enabled** to `Yes` and do the following:
 
-    - Set **Start Time** to the hour, minute, and second that you want the sitemap to be updated.
+   - Set **Start Time** to the hour, minute, and second that you want the sitemap to be updated.
 
-    - Set **Frequency** to one of the following:
+   - Set **Frequency** to one of the following:
 
-        - `Daily`
-        - `Weekly`
-        - `Monthly`
+      - `Daily`
+      - `Weekly`
+      - `Monthly`
 
-    - In the **Error Email Recipient** field, enter the email address of the person who is to receive notification if an error occurs during a sitemap update.
+   - In the **Error Email Recipient** field, enter the email address of the person who is to receive notification if an error occurs during a sitemap update.
 
-    - Set **Error Email Sender** to the store contact who appears as the sender of the error notification.
+   - Set **Error Email Sender** to the store contact who appears as the sender of the error notification.
 
-    - Set **Error Email Template** to the template used for the error notification.
+   - Set **Error Email Template** to the template used for the error notification.
 
 ## Step 3. Set the Site Map File Limits
 

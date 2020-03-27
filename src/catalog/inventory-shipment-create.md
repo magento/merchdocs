@@ -24,7 +24,7 @@ As you enter shipments, your on-hand inventory quantities deduct entered amounts
 
 1. Complete the Source Selection for sending products per source:
 
-    - To view shipping recommendations, click **Source Selection Algorithm** and select an algorithm.
+   - To view shipping recommendations, click **Source Selection Algorithm** and select an algorithm.
 
       |[Source Priority]({% link catalog/inventory-configure-source-priority.md %})|Recommends shipments from sources according to the orders of sources assigned to the stock.|
       |[Distance Priority]({% link catalog/inventory-configure-distance-priority.md %})|Recommends shipments from sources closest to the shipping address based on physical distance or shortest time to deliver.|
@@ -32,11 +32,11 @@ As you enter shipments, your on-hand inventory quantities deduct entered amounts
     {:.bs-callout-info}
     **Important:** When using the Distance Priority algorithm for shipping and routes and data does not return for the selected [Computation mode]({% link catalog/inventory-configure-distance-priority.md %}) (driving, bicycling, or walking) for a shipment, the SSA defaults to the Source Priority. We recommend also setting the [priority for sources per stock]({% link catalog/inventory-stock-priority.md %}).
 
-    - For  **Select a Source to Ship from**, select a source from the menu to send a shipment.
+   - For  **Select a Source to Ship from**, select a source from the menu to send a shipment.
 
-    - For each line item, keep the recommended amount or enter a specific amount in the **Qty to Deduct**.
+   - For each line item, keep the recommended amount or enter a specific amount in the **Qty to Deduct**.
 
-    - Click <span class="btn">Proceed to Shipment</span>.
+   - Click <span class="btn">Proceed to Shipment</span>.
 
       ![]({% link images/images/shipment-magento-shipping-sources.png %}){: .zoom}
       _Select a Source and enter a Quantity_

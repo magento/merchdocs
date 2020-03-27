@@ -28,23 +28,23 @@ For technical information, see [Configure and Use Varnish][1]{:target="_blank"} 
 
 1. Set **Caching Application** to one of the following:
 
-    - `Built-in Application`
-    - `Varnish Caching`
+   - `Built-in Application`
+   - `Varnish Caching`
 
 1. To set the timeout for the page cache, enter the **TTL for public content**. (The default value is `86400`)
 
 1. If using Varnish, complete the **Varnish Configuration** section as follows:
 
-    - **Access list** - Enter the IP addresses that can purge the Varnish configuration to generate a config file. Separate multiple entries with a comma. The default value is `localhost`.
+   - **Access list** - Enter the IP addresses that can purge the Varnish configuration to generate a config file. Separate multiple entries with a comma. The default value is `localhost`.
 
-    - **Backend host** - Enter the IP address of the backend host that generates config files. The default value is `localhost`.
+   - **Backend host** - Enter the IP address of the backend host that generates config files. The default value is `localhost`.
 
-    - **Backend port** - Identify the backend port that is used to generate config files. The default value is: `8080`
+   - **Backend port** - Identify the backend port that is used to generate config files. The default value is: `8080`
 
-    - To export the configuration as a `varnish.vcl` file, click the button for the version of Varnish that you use.
+   - To export the configuration as a `varnish.vcl` file, click the button for the version of Varnish that you use.
 
-        - <span class="btn">Export VCL for Varnish 3</span>
-        - <span class="btn">Export VCL for Varnish 4</span>
+      - <span class="btn">Export VCL for Varnish 3</span>
+      - <span class="btn">Export VCL for Varnish 4</span>
 
     ![Advance configuration - full page cache varnish]({% link images/images/config-advanced-system-full-page-cache-varnish.png %}){: .zoom}
     [_Varnish Configuration_]({% link configuration/advanced/system.md %})
