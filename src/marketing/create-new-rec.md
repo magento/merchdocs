@@ -8,15 +8,9 @@ When you create a recommendation, you are creating what is called a *recommendat
 
    ![Recommendation unit]({% link images/images-ee/p-rex-unit.png %}){: .zoom}
 
-The products inside the above recommendation unit are called *recommendation items*. When you create a new recommendation, you configure:
+The products inside the above recommendation unit are called *recommended items*.
 
--  Which pages should display the recommendation unit
-
--  Where on the page you want the recommendation unit to appear
-
--  Which recommendation type you want to use, such as "most viewed", "most purchased", and so on
-
-After you create and activate the recommendation unit, Magento will begin [collecting metrics]({% link marketing/recommendation-metrics.md %}) that measure data such as if a unit was rendered on a page, if it was viewed, if it was clicked by a user, and so on. The [Product Recommendations]({% link marketing/product-recommendations.md %}#dashboard) dashboard displays these metrics for each recommendation unit to help you make informed business decisions.
+After you create and activate the recommendation unit, Magento will begin [collecting metrics]({% link marketing/recommendation-metrics.md %}) that measure data such as impressions, views, and clicks, and so on. The [Product Recommendations]({% link marketing/product-recommendations.md %}#dashboard) dashboard displays these metrics for each recommendation unit to help you make informed business decisions.
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Product Recommendations** to display the **Product Recommendations** dashboard.
 
@@ -24,7 +18,7 @@ After you create and activate the recommendation unit, Magento will begin [colle
 
 1. Click the **Create Recommendation** button.
 
-1. In the **Name your Recommendation** section, enter a name that uniquely identifies the recommendation. This is used for internal tracking only. Your shoppers will not see this name.
+1. In the **Name your Recommendation** section, enter a name that uniquely identifies the recommendation, such as *Home page most viewed* or *Cart trending*. This is used for internal tracking only to help you identify this recommendation on your dashboard.
 
 1. In the **Storefront display label** section, enter the name for your recommendation, such as "We found other products you might like!". This is the name your shoppers will see on the storefront. Magento provides the [following guidance for label names]({% link marketing/recommendation-best-practices.md %}#bplabels).
 
