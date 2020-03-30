@@ -40,11 +40,11 @@ What to expect next:
 
 1. How can I migrate my existing Google Merchant Center account elsewhere?
 
-    We recommend you explore the following two options:
+   We recommend you explore the following two options:
 
-    - Update product feed data directly from your Google Merchant Center account. See the [Google Onboarding Guide](https://support.google.com/merchants/answer/7439058?hl=en).
+   - Update product feed data directly from your Google Merchant Center account. See the [Google Onboarding Guide](https://support.google.com/merchants/answer/7439058?hl=en).
 
-    - Visit the [Magento Marketplace](https://marketplace.magento.com/) to find a Google product feed extension that meets your needs.
+   - Visit the [Magento Marketplace](https://marketplace.magento.com/) to find a Google product feed extension that meets your needs.
 
 1. What will happen to the catalog I am currently syncing back to GMC?
 

@@ -33,10 +33,10 @@ Make sure to copy or write down the authentication key. You will need it to set 
 
 1. Enter the following information from your FedEx account:
 
-    - Account ID
-    - Meter Number
-    - Key
-    - Password
+   - Account ID
+   - Meter Number
+   - Key
+   - Password
 
 1. If you have set up a FedEx sandbox and want to work in the testing environment, set **Sandbox Mode** to `Yes`.
 
@@ -50,18 +50,18 @@ Make sure to copy or write down the authentication key. You will need it to set 
 
 1. Select the **Packages Request Type** to the option that best describes your preference when splitting an order into multiple shipments:
 
-    - Divide to equal weight (one request)
-    - Use origin weight (few requests)
+   - Divide to equal weight (one request)
+   - Use origin weight (few requests)
 
 1. Select the type of **Packaging** typically used to ship products from your store. Options include:
 
-    - FedEx Envelope
-    - FedEx Pak
-    - FedEx Box
-    - FedEx Tube
-    - FedEx 10kg Box
-    - FedEx 25kg Box
-    - Your Packaging
+   - FedEx Envelope
+   - FedEx Pak
+   - FedEx Box
+   - FedEx Tube
+   - FedEx 10kg Box
+   - FedEx 25kg Box
+   - Your Packaging
 
 1. Set **Dropoff** to the pick-up method that will be used for delivery. Options include:
 
@@ -73,8 +73,8 @@ Make sure to copy or write down the authentication key. You will need it to set 
 
 1. Set **Weight Unit** to the unit of measurement that is used in your locale. Options include:
 
-    - Pounds
-    - Kilograms
+   - Pounds
+   - Kilograms
 
 1. Enter the **Maximum Package Weight** allowed for FedEx shipments.
 
@@ -85,12 +85,12 @@ Make sure to copy or write down the authentication key. You will need it to set 
 
 1. (Optional) Add a handling fee to the amount charged by FedEx, which is not visible during checkout.
 
-    - Set **Calculate Handling Fee** to one of the following:
+   - Set **Calculate Handling Fee** to one of the following:
 
       - `Fixed Fee`
       - `Percentage`
 
-    - In the **Handling Applied** list, choose one of the following methods for managing handling fees:
+   - In the **Handling Applied** list, choose one of the following methods for managing handling fees:
 
       - `Per Order`
       - `Per Package`
@@ -113,13 +113,13 @@ Residential Delivery
 
     When choosing methods, take into consideration your FedEx account, the frequency and size of your shipments, and if you allow international shipments. You can offer as many or as few methods as you want. Options include:
 
-    - Europe First Priority
-    - Delivery day options: 1 Day Freight, 2 Day Freight, 2 Day, 2 Day AM, 3 Day Freight
-    - Domestic options–Express Saver, Ground, First, Overnight, Home Delivery, Standard Overnight
-    - International options–International Economy, Intl Economy Freight, International First, International Ground, International, Priority Intl
-    - Priority options–Freight, Priority Overnight
-    - Smart Post–If offering the Smart Post method, enter the **Hub ID**.
-    - Freight options–Freight, National Freight
+   - Europe First Priority
+   - Delivery day options: 1 Day Freight, 2 Day Freight, 2 Day, 2 Day AM, 3 Day Freight
+   - Domestic options–Express Saver, Ground, First, Overnight, Home Delivery, Standard Overnight
+   - International options–International Economy, Intl Economy Freight, International First, International Ground, International, Priority Intl
+   - Priority options–Freight, Priority Overnight
+   - Smart Post–If offering the Smart Post method, enter the **Hub ID**.
+   - Freight options–Freight, National Freight
 
 1. In the **Free Method** list, choose the method you prefer to use for free shipping. Then, do the following:
 
@@ -139,10 +139,10 @@ Residential Delivery
 
 1. Set **Ship to Applicable Countries** to one of the following:
 
-    - `All Allowed Countries`
-    - `Specific Countries`
+   - `All Allowed Countries`
+   - `Specific Countries`
 
-        If applicable, set **Ship to Specific Countries** to each country where your customers are allowed to ship by FedEx. (Hold the Ctrl key down to select multiple options.)
+      If applicable, set **Ship to Specific Countries** to each country where your customers are allowed to ship by FedEx. (Hold the Ctrl key down to select multiple options.)
 
 1. If you want to keep a log of all communication between your store and the FedEx system, set **Debug** to `Yes`.
 

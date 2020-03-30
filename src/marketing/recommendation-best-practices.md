@@ -22,9 +22,9 @@ Magento recommends the following guidelines when using recommendations:
 
 Magento provides a large set of recommendations you can deploy to various pages on your site. But which recommendations should you use on those pages? The following table provides some suggestions:
 
-|**Page**|**Recommendation Type**|
+|Page|Recommendation Type|
 |---|---|
-|Home page|Most purchased, top sellers|
+|Home page|Recommended for you|
 |Product page|Viewed this, viewed that|
 |Cart|Bought this, bought that|
 
@@ -42,12 +42,13 @@ Metrics are a powerful tool to help you track the success of a recommendation. T
 
 The label you give a recommendation affects how a shopper interprets the contents as being relevant to them. The following table gives guidance on label names.
 
-|**Recommendation Type**|**Recommended Storefront Labels**|
+|Recommendation Type|Recommended Storefront Labels|
 |---|---|
 |Most viewed<br> Most added to cart<br>Most purchased|Most popular<br>Trending<br>Popular right now<br>Recently popular<br>Popular items inspired by this item (PDP)<br>Top sellers|
-|Just for You|Just for you<br>Recommended for you<br>Inspired by your shopping trends|
+|Recommended for you|Just for you<br>Recommended for you<br>Inspired by your shopping trends|
 |Viewed This, Viewed That|Customers who viewed this item also viewed<br>Customers also viewed<br>Related items|
 |Viewed This, Bought That|Customers who viewed this ultimately bought<br>Customers ultimately purchased<br>What do others buy after viewing this item?|
 |Bought This, Bought That|Get everything you need<br>Don't forget these<br>Frequently bought together|
 |More Like This|More items like this<br>Similar to this|
 |Generic|You may also like<br>Shoppers also liked<br>Similar options<br>Related items|
+|Trending|Trending<br>Trending now<br>Recently trending<br>Hot items<br>Trending related products (PDP)|

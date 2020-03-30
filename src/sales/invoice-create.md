@@ -35,22 +35,22 @@ _Invoices_
 
 1. If the items are ready to ship, generate a packing slip for the shipment at the same time that you create the invoice:
 
-    - In the _Shipping Information_ section, click the **Create Shipment** checkbox to select it.
+   - In the _Shipping Information_ section, click the **Create Shipment** checkbox to select it.
 
-       The shipment record is created at the same time the invoice is generated.
+      The shipment record is created at the same time the invoice is generated.
 
-       ![]({% link images/images/invoice-create-shipment-fedex.png %}){: .zoom}
-       _Create Shipment_
+      ![]({% link images/images/invoice-create-shipment-fedex.png %}){: .zoom}
+      _Create Shipment_
 
-    - Include a tracking number:
+   - Include a tracking number:
 
-        - Click **Add Tracking Number**.
-        - Enter the tracking information: Carrier, Title, Number
+      - Click **Add Tracking Number**.
+      - Enter the tracking information: Carrier, Title, Number
 
-    - Optionally, generate a partial invoice:
+   - Optionally, generate a partial invoice:
 
-        - In the _Items to Invoice_ section, update the **Qty to Invoice** column to include only specific items on the invoice.
-        - Then, click **Update Qty’s**.
+      - In the _Items to Invoice_ section, update the **Qty to Invoice** column to include only specific items on the invoice.
+      - Then, click **Update Qty’s**.
 
         ![]({% link images/images/invoice-items-to-invoice.png %}){: .zoom}
         _Items to Invoice_
@@ -59,9 +59,9 @@ _Invoices_
 
 1. To notify customers by email when the invoice is generated, do the following:
 
-    - Click the **Email Copy of Invoice** checkbox to select it.
+   - Click the **Email Copy of Invoice** checkbox to select it.
 
-    - Enter any **Invoice Comments**. To include the comments in the notification email, mark the **Append Comments** checkbox.
+   - Enter any **Invoice Comments**. To include the comments in the notification email, mark the **Append Comments** checkbox.
 
 1. When complete, click **Submit Invoice** at the bottom of the page. The status of the order changes from `Pending` to `Complete`.
 

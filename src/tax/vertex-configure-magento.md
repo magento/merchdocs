@@ -24,41 +24,41 @@ When enabled, the _Tax configuration_ page includes the following Vertex section
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Vertex Settings** on the page to enable Vertex and configure initial settings.
 
-    - Set **Use Vertex Tax Links** to `Enable`. This setting enables performance enhancements and allows you to enable and configure Vertex settings.
+   - Set **Use Vertex Tax Links** to `Enable`. This setting enables performance enhancements and allows you to enable and configure Vertex settings.
 
-        ![]({% link images/images/config-sales-tax-vertex-settings.png %}){: .zoom}
-        [_Vertex Settings Disabled_]({% link configuration/sales/tax.md %})
+      ![]({% link images/images/config-sales-tax-vertex-settings.png %}){: .zoom}
+      [_Vertex Settings Disabled_]({% link configuration/sales/tax.md %})
 
-    - Set **Vertex Tax Calculation** to `Enable` the extension and configure settings.
+   - Set **Vertex Tax Calculation** to `Enable` the extension and configure settings.
 
-        {:.bs-callout-info}
-        You must have this option set to use Vertex and save configurations.
+      {:.bs-callout-info}
+      You must have this option set to use Vertex and save configurations.
 
-    - Enter the **Vertex Trusted ID** from your Vertex Cloud account. To find your _Vertex Trusted ID_, log in to your Vertex Cloud account and go to **Settings** > **View All Connectors**.
+   - Enter the **Vertex Trusted ID** from your Vertex Cloud account. To find your _Vertex Trusted ID_, log in to your Vertex Cloud account and go to **Settings** > **View All Connectors**.
 
-    - Verify the default values for the **Vertex Calculation API URL** and **Vertex Address Validation API URL**.
+   - Verify the default values for the **Vertex Calculation API URL** and **Vertex Address Validation API URL**.
 
       These connect the integration with Vertex Cloud and must match the URL displayed in your _Vertex Connectors_ page for the Magento connector in the **ERP Connector URL** and **Address Lookup URL** fields. Clear the **Use system value** checkbox and change these values if needed.
 
-    - To determine when tax is calculated for an invoice according to the [workflow]({% link sales/order-workflow.md %}), set **When to send invoiced to Vertex** to one of the following:
+   - To determine when tax is calculated for an invoice according to the [workflow]({% link sales/order-workflow.md %}), set **When to send invoiced to Vertex** to one of the following:
 
-        - `When Invoice Created`
-        - `When Order Status is Changed` - The invoice generates when orders enter the selected status. If this value is selected, set the **Invoice when Order Status** option to specify the status.
+      - `When Invoice Created`
+      - `When Order Status is Changed` - The invoice generates when orders enter the selected status. If this value is selected, set the **Invoice when Order Status** option to specify the status.
 
-    - To set the **Use Vertex for orders shipping to**, select the countries and nations to apply Vertex taxes for destination addresses. If a shipping address is not available on the order, the billing address is used.
+   - To set the **Use Vertex for orders shipping to**, select the countries and nations to apply Vertex taxes for destination addresses. If a shipping address is not available on the order, the billing address is used.
 
-    - Set how you want to **Summarize Tax By**. Choose `Product and Shipping` or `Jurisdiction`.
+   - Set how you want to **Summarize Tax By**. Choose `Product and Shipping` or `Jurisdiction`.
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Vertex Company Information** section. Then, do the following:
 
     ![]({% link images/images/config-sales-tax-vertex-company-information.png %}){: .zoom}
     [_Vertex Company Information_]({% link configuration/sales/tax.md %})
 
-    - Enter the **Company Code** from the heading of the Configure Company page of your [Vertex Cloud account]({% link tax/vertex-account.md %}).
+   - Enter the **Company Code** from the heading of the Configure Company page of your [Vertex Cloud account]({% link tax/vertex-account.md %}).
 
-    - Enter the **Location Code** from the _Registration Details_ section of your Vertex Cloud account. This is the specific jurisdiction where the company is registered to file tax returns. This value corresponds to the Location Code that is entered as a Registered Location.
+   - Enter the **Location Code** from the _Registration Details_ section of your Vertex Cloud account. This is the specific jurisdiction where the company is registered to file tax returns. This value corresponds to the Location Code that is entered as a Registered Location.
 
-    - Complete the remaining company address fields.
+   - Complete the remaining company address fields.
 
 1. Click <span class="btn">Save Config</span>.
 
@@ -104,11 +104,11 @@ If you need to identify taxability based on information in your Magento store be
 
 1. Expand the area for the category you want to use to map a Magento field. There are three available flexible field categories:
 
-    - **Code Fields** - Use this category to define a fields using an alphanumeric string value with a maximum length of 40 characters. Strings that exceed the size limit are truncated. You can create a maximum of 25 flexible code fields.
+   - **Code Fields** - Use this category to define a fields using an alphanumeric string value with a maximum length of 40 characters. Strings that exceed the size limit are truncated. You can create a maximum of 25 flexible code fields.
 
-    - **Numeric Fields** - Use this category to define fields using numeric values for data, such as durations and weights, including floating decimal points. You can create a maximum of 10 flexible numeric fields.
+   - **Numeric Fields** - Use this category to define fields using numeric values for data, such as durations and weights, including floating decimal points. You can create a maximum of 10 flexible numeric fields.
 
-    - **Date Fields** - Use this category to define fields using dates in the format YYYY/MM/DD. You can create a maximum of five flexible date fields.
+   - **Date Fields** - Use this category to define fields using dates in the format YYYY/MM/DD. You can create a maximum of five flexible date fields.
 
 1. For the _Field ID_ you want to configure, click the **Data Source** option to display the list of Magento fields and select the field to use as a flexible field in Vertex Cloud.
 
@@ -141,8 +141,8 @@ By default, many of the following tax classes are initially set to `None`.
 
 1. Set **Tax Class for Gift Options** to one of the following:
 
-    - None
-    - Gift Options
+   - None
+   - Gift Options
 
 1. To change the **Default Tax Class for Product**, clear the **Use System Value** checkbox. Then, choose the applicable tax class.
 
@@ -159,8 +159,8 @@ By default, many of the following tax classes are initially set to `None`.
 
 1. Set **Refund Adjustments Class** to one of the following:
 
-    - None
-    - Refund Adjustments
+   - None
+   - Refund Adjustments
 
 1. Accept the default value for **Adjustment Fee Code**.
 
@@ -174,8 +174,8 @@ By default, many of the following tax classes are initially set to `None`.
 
 1. Set **Gift Wrap for Order Class** to one of the following:
 
-    - None
-    - Order Gift Wrapping
+   - None
+   - Order Gift Wrapping
 
 1. Accept the default value for **Gift Wrap for Order Code**.
 
@@ -186,8 +186,8 @@ By default, many of the following tax classes are initially set to `None`.
 
 1. Set **Gift Wrap Class for Single Product** to one of the following:
 
-    - None
-    - Item Gift Wrapping
+   - None
+   - Item Gift Wrapping
 
 1. Accept the default value for **Gift Wrap Code Prefix for Single Product**.
 
@@ -198,8 +198,8 @@ By default, many of the following tax classes are initially set to `None`.
 
 1. Set **Item Line Class for Printed Gift Card** to one of the following:
 
-    - None
-    - Printed Gift Card
+   - None
+   - Printed Gift Card
 
 1. Accept the default value for **Item Line Code for Printed Gift Card**.
 
@@ -210,8 +210,8 @@ By default, many of the following tax classes are initially set to `None`.
 
 1. Set **Class for Reward Points Discount Line Item** to one of the following:
 
-    - None
-    - Reward Points
+   - None
+   - Reward Points
 
 1. Accept the default value for **Product Code for Reward Points Discount Line Item**.
 
@@ -252,22 +252,22 @@ By default, many of the following tax classes are initially set to `None`.
 
 1. Expand ( ![]({% link images/images/btn-expand.png %}) ) the **Calculation Settings** section. Then, do the following:
 
-    - Clear the **Use system value** checkbox.
+   - Clear the **Use system value** checkbox.
 
-    - Set **Tax Calculation Method Based On** to `Vertex`.
+   - Set **Tax Calculation Method Based On** to `Vertex`.
 
-        ![]({% link images/images/config-sales-tax-calculation-settings.png %}){: .zoom}
-        _Calculation Settings_
+      ![]({% link images/images/config-sales-tax-calculation-settings.png %}){: .zoom}
+      _Calculation Settings_
 
 1. When complete, click <span class="btn">Save Config</span>.
 
 1. To [refresh the cache]({% link system/cache-management.md %}), do the following:
 
-    - On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management**.
+   - On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management**.
 
-    - Select the checkbox of each invalid cache.
+   - Select the checkbox of each invalid cache.
 
-    - Set **Actions** to `Refresh`. Then, click **Submit**.
+   - Set **Actions** to `Refresh`. Then, click **Submit**.
 
 ## Test the Vertex Configuration
 

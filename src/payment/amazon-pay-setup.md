@@ -24,12 +24,12 @@ For more information, see the [Amazon Pay and Login with Amazon][1] documentatio
    {:.bs-callout-info}
    Do not use your personal Amazon account for Amazon Pay.
 
-    - If you do not yet have an Amazon merchant account, choose **Create a new signin** and click <span class="btn">Select</span>. Then, follow the onscreen instructions to create a new account.
+   - If you do not yet have an Amazon merchant account, choose **Create a new signin** and click <span class="btn">Select</span>. Then, follow the onscreen instructions to create a new account.
 
       ![]({% link images/images/config-sales-payment-methods-amazon-pay-account-setup.png %}){: .zoom}
       _Create Amazon Pay Account_
 
-    - If you already have an Amazon merchant account, choose **Use existing Amazon signin** and click <span class="btn">Select</span>. Then, complete the following sections.
+   - If you already have an Amazon merchant account, choose **Use existing Amazon signin** and click <span class="btn">Select</span>. Then, complete the following sections.
 
 ## Credentials
 
@@ -39,11 +39,11 @@ For more information, see the [Amazon Pay and Login with Amazon][1] documentatio
 
    To use test credentials from the Amazon Pay Sandbox, do the following:
 
-    - Get your [Test Credentials]({% link payment/amazon-pay-seller-central.md %}) for the Amazon Pay Sandbox.
+   - Get your [Test Credentials]({% link payment/amazon-pay-seller-central.md %}) for the Amazon Pay Sandbox.
 
-    - In the Magento Amazon Pay configuration under Credentials, select the **Test Credentials** checkbox.
+   - In the Magento Amazon Pay configuration under Credentials, select the **Test Credentials** checkbox.
 
-    - Enter the following credentials that you copied from the [Amazon Pay Sandbox]({% link payment/amazon-pay-seller-central.md %}) on Amazon Seller Central:
+   - Enter the following credentials that you copied from the [Amazon Pay Sandbox]({% link payment/amazon-pay-seller-central.md %}) on Amazon Seller Central:
 
       - Merchant Id
       - Access Key Id
@@ -51,7 +51,7 @@ For more information, see the [Amazon Pay and Login with Amazon][1] documentatio
       - Client ID
       - Client Secret
 
-    - Set **Sandbox** to `Yes`.
+   - Set **Sandbox** to `Yes`.
 
      When you are through testing and ready to go live with Amazon Pay, return to the configuration and clear the **Test Credentials** checkbox. Then, set Sandbox to `No` and click <span class="btn">Save Config</span>.
 
@@ -64,9 +64,9 @@ For more information, see the [Amazon Pay and Login with Amazon][1] documentatio
 
    Look for the message, _Your Amazon configuration is valid_ at the top of the Configuration page.
 
-    - If your credentials are valid, continue with the configuration.
+   - If your credentials are valid, continue with the configuration.
 
-    - Otherwise, correct your credentials and try again.
+   - Otherwise, correct your credentials and try again.
 
 ## Options
 
@@ -104,35 +104,35 @@ For more information, see the [Amazon Pay and Login with Amazon][1] documentatio
 
    To override the default display language for the current store view, enter one of the following language parameters for **Button Display Language**:
 
-    - en-GB - English (Great Britain)
-    - de-DE - German (Germany)
-    - fr-FR - French (France)
-    - it-IT - Italian (Italy)
-    - sp-SP - Spanish (Spain)
+   - en-GB - English (Great Britain)
+   - de-DE - German (Germany)
+   - fr-FR - French (France)
+   - it-IT - Italian (Italy)
+   - sp-SP - Spanish (Spain)
 
      To learn more, see [Language][2] in the Amazon Pay Integration Guide.
 
 1. Set **Button Color** to one of the following:
 
-    - `Gold`
-    - `Light Gray`
-    - `Dark Gray`
+   - `Gold`
+   - `Light Gray`
+   - `Dark Gray`
 
      To learn more, see the [Merchant Tools][3] page on the Amazon Pay website.
 
 1. Set **Button Size** to one of the following:
 
-    - `Small`
-    - `Medium`
-    - `Large`
-    - `Extra Large`
+   - `Small`
+   - `Medium`
+   - `Large`
+   - `Extra Large`
 
 1. Choose `Yes` for each feature that you want to enable for the current store view:
 
-    - Login with Amazon available in authentication popup
-    - Amazon Pay button on Product Page
-    - Amazon Pay button in minicart
-    - Display Amazon Pay Method
+   - Login with Amazon available in authentication popup
+   - Amazon Pay button on Product Page
+   - Amazon Pay button in minicart
+   - Display Amazon Pay Method
 
    ![]({% link images/images/config-sales-payment-methods-amazon-pay-advanced-frontend.png %}){: .zoom}
    [_Frontend_]({% link configuration/sales/amazon-pay.md %})
@@ -153,18 +153,18 @@ For more information, see the [Amazon Pay and Login with Amazon][1] documentatio
 
    Amazon Pay multi-currency supports:
 
-    - Australian Dollar (AUD)
-    - British Pound (GBP)
-    - Danish Krone (DKK)
-    - Euro (EUR)
-    - Hong Kong Dollar (HKD)
-    - Japanese Yen (JPY)
-    - New Zealand Dollar (NZD)
-    - Norwegian Krone (NOK)
-    - South African Rand (ZAR)
-    - Swedish Krone (SEK)
-    - Swiss Franc (CHF)
-    - United States Dollar (USD)
+   - Australian Dollar (AUD)
+   - British Pound (GBP)
+   - Danish Krone (DKK)
+   - Euro (EUR)
+   - Hong Kong Dollar (HKD)
+   - Japanese Yen (JPY)
+   - New Zealand Dollar (NZD)
+   - Norwegian Krone (NOK)
+   - South African Rand (ZAR)
+   - Swedish Krone (SEK)
+   - Swiss Franc (CHF)
+   - United States Dollar (USD)
 
    ![Sales configuration - Amazon Pay multi-currency]({% link images/images/amazon-pay-multi-currency.png %}){: .zoom}
    [_Sales Options_]({% link configuration/sales/amazon-pay.md %})
@@ -190,9 +190,9 @@ For more information, see the [Amazon Pay and Login with Amazon][1] documentatio
 
 1. In the message at the top of the page to refresh cache types, click **Cache Management**. Then, do the following:
 
-    - Select the checkbox of each invalid cache.
+   - Select the checkbox of each invalid cache.
 
-    - With the control set to _Refresh_, click <span class="btn">Submit</span>.
+   - With the control set to _Refresh_, click <span class="btn">Submit</span>.
 
 [1]: https://amzn.github.io/amazon-payments-magento-2-plugin/index.html
 [2]: https://pay.amazon.com/uk/developer/documentation/lpwa/201953980#ENTER_LANGUAGE_PARAMETER

@@ -17,16 +17,16 @@ Configure the quantities and additional settings per [added source]({% link cata
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Sources** section and configure product settings per source.
 
-    - Enter a **Qty** (quantity) amount.
+   - Enter a **Qty** (quantity) amount.
 
-    - Set the **Source Item Status** as `In Stock` or `Out of Stock`.
+   - Set the **Source Item Status** as `In Stock` or `Out of Stock`.
 
-    - To modify the Notify for Quantity Below per source, clear or select the **Notify Quantity Use Default** checkbox.
+   - To modify the Notify for Quantity Below per source, clear or select the **Notify Quantity Use Default** checkbox.
 
       If cleared, enter the stock level amount that triggers the item's out of stock notice. The amount entered is subtracted from the item's Salable Quantity at the stock level.
 
-       Select to use Default - Magento checks the product Advanced Inventory options for configuration settings.
-       Clear to Modify - Enter a value for the Notify Quantity, overriding Advanced Inventory and Store configuration settings.
+      `Select to use Default` - Magento checks the product Advanced Inventory options for configuration settings.
+      `Clear to Modify` - Enter a value for the Notify Quantity, overriding Advanced Inventory and Store configuration settings.
 
 1. When complete, click <span class="btn">Done</span>, then <span class="btn">Save</span>.
 

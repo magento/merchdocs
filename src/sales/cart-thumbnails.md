@@ -24,12 +24,12 @@ _Thumbnail Images in Cart_
 
 1. Configure the cart thumbnail settings:
 
-    - Set **Grouped Product Image** to one of the following:
+   - Set **Grouped Product Image** to one of the following:
 
       - Product Thumbnail Itself
       - Parent Product Thumbnail
 
-    - Set **Configurable Product Image** to one of the following:
+   - Set **Configurable Product Image** to one of the following:
 
       - Product Thumbnail Itself
       - Parent Product Thumbnail

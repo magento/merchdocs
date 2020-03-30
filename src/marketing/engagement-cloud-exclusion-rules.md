@@ -20,22 +20,22 @@ _Exclusion Rules_
 
 1. On the **Rule Information** tab, do the following:
 
-    - Enter a descriptive **Rule Name**.
+   - Enter a descriptive **Rule Name**.
 
-    - Set **Rule Type** to one of the following:
+   - Set **Rule Type** to one of the following:
 
       - `Abandoned Cart Exclusion Rule`
       - `Review Email Exclusion Rule`
 
-    - Leave **Status** set to `Inactive` for now. (You can change it to `Active` later .)
+   - Leave **Status** set to `Inactive` for now. (You can change it to `Active` later .)
 
-    - Choose the **Websites** where the rule applies.
+   - Choose the **Websites** where the rule applies.
 
 1. Choose the **Conditions** tab and define the conditions for the rule.
 
     Before you define the condition, think about what you want the rule to accomplish. Then, describe the condition in terms of attribute values and actions. A rule can be set to meet any or all of the stated condition, and a single rule can have multiple conditions.
 
-    - Set **Conditions Combination Match** to one of the following:
+   - Set **Conditions Combination Match** to one of the following:
 
       - `ANY`
       - `ALL`
@@ -43,7 +43,7 @@ _Exclusion Rules_
         ![Exclusion rule conditions]({% link images/images/engagement-cloud-exclusion-rules-conditions.png %}){: .zoom}
         _Exclusion Rule Conditions_
 
-    - Click <span class="btn">Add New Condition</span>. Then, do the following:
+   - Click <span class="btn">Add New Condition</span>. Then, do the following:
 
       - Choose the **Attribute** that is the subject of the conditional statement.
 
@@ -54,6 +54,6 @@ _Exclusion Rules_
         ![Exclusion rule - add new condition]({% link images/images/engagement-cloud-exclusion-rules-conditions-new.png %}){: .zoom}
         _Add New Condition_
 
-    - To add another condition, click <span class="btn">Add New Condition</span> and repeat these steps.
+   - To add another condition, click <span class="btn">Add New Condition</span> and repeat these steps.
 
 1. When complete, click <span class="btn">Save</span>.

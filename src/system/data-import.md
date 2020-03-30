@@ -25,11 +25,11 @@ _Import_
 
 1. Under _Import Settings_, set **Entity Type** to one of the following:
 
-    - `Advanced Pricing`
-    - `Products`
-    - `Customers and Addresses`
-    - `Customers Main File`
-    - `Customer Addresses`
+   - `Advanced Pricing`
+   - `Products`
+   - `Customers and Addresses`
+   - `Customers Main File`
+   - `Customer Addresses`
 
 1. Click **Download Sample File**.
 
@@ -59,14 +59,14 @@ _Import_
 
 1. Set **Import Behavior** to one of the following:
 
-    - `Add/Update` (For products, you can update all fields except SKU through import.)
-    - `Replace`
-    - `Delete`
+   - `Add/Update` (For products, you can update all fields except SKU through import.)
+   - `Replace`
+   - `Delete`
 
 1. To determine what happens when an error is encountered when importing data, choose one of the following:
 
-    - `Stop on Error`
-    - `Skip error entries`
+   - `Stop on Error`
+   - `Skip error entries`
 
 1. In the **Allowed Errors Count** field, enter the number of errors that can occur before the import is canceled.
 

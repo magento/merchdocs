@@ -57,35 +57,35 @@ _Choose Attribute Set_
 
 1. Set **Tax Class** to one of the following:
 
-    - `None`
-    - `Taxable Goods`
+   - `None`
+   - `Taxable Goods`
 
 1. Enter the **Quantity** of the product that is currently in stock and do the following:
 
-    - Accept the default **Stock Status** setting of `In Stock`.
+   - Accept the default **Stock Status** setting of `In Stock`.
 
       Because a virtual product is not shipped, the **Weight** field is not used.
 
-    - Accept the default **Visibility** setting of `Catalog, Search`.
+   - Accept the default **Visibility** setting of `Catalog, Search`.
 
     {:.bs-callout-info}
     **Inventory Management:** If you enable [Inventory Management]({% link catalog/inventory-management.md %}), Single Source merchants set the quantity in this section. Multi Source merchants add sources and quantities in the Sources section. See the following _Assign Sources and Quantities (Inventory Management)_ section.
 
 1. To assign **Categories** to the product, click the **Select…** box and do either of the following:
 
-    **Choose an existing category:**
+   **Choose an existing category:**
 
-    - Start typing in the box to find a match.
+   - Start typing in the box to find a match.
 
-    - Select the checkbox of the category that is to be assigned.
+   - Select the checkbox of the category that is to be assigned.
 
-    **Create a new category:**
+   **Create a new category:**
 
-    - Click <span class="btn">New Category</span>.
+   - Click <span class="btn">New Category</span>.
 
-    - Enter the **Category Name** and choose the **Parent Category** to determine its position in the menu structure.
+   - Enter the **Category Name** and choose the **Parent Category** to determine its position in the menu structure.
 
-    - Click <span class="btn">Create Category</span>.
+   - Click <span class="btn">Create Category</span>.
 
     There might be additional individual attributes that describe the product. The selection varies by attribute set and you can complete them later.
 
@@ -110,20 +110,20 @@ Complete the information in the following sections as needed:
 
 1. Do one of the following:
 
-    **Method 1: Save and Preview**
+   **Method 1: Save and Preview**
 
-    1. At the upper-right corner, click <span class="btn">Save</span>.
+   - At the upper-right corner, click <span class="btn">Save</span>.
 
-    1. To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
+   - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
 
       The store opens in a new browser tab.
 
     ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
     _Customer View_
 
-    **Method 2: Save and Close**
+   **Method 2: Save and Close**
 
-    On the _Save_ (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
+   On the _Save_ (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
 
     ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
     _Save & Close_
