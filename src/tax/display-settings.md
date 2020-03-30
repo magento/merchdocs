@@ -40,29 +40,29 @@ Expand ![]({% link images/images/btn-expand.png %}) the **Shopping Cart Display 
 ![]({% link images/images/config-sales-tax-shopping-cart-display-settings.png %}){: .zoom}
 _Shopping Cart Display Settings_
 
-- **Display Prices** — Set to one of the following:
+**Display Prices** — Set to one of the following:
 
-    - Excluding Tax
-    - Including Tax
-    - Including and Excluding Tax
+- Excluding Tax
+- Including Tax
+- Including and Excluding Tax
 
-- **Display Subtotal** — Set to one of the following:
+**Display Subtotal** — Set to one of the following:
 
-    - Excluding Tax
-    - Including Tax
-    - Including and Excluding Tax
+- Excluding Tax
+- Including Tax
+- Including and Excluding Tax
 
-- **Display Shipping Amount** — Set to one of the following:
+**Display Shipping Amount** — Set to one of the following:
 
-    - Excluding Tax
-    - Including Tax
-    - Including and Excluding Tax
+- Excluding Tax
+- Including Tax
+- Including and Excluding Tax
 
-- Set the following to `Yes` or `No` according to your preference:
+Set the following to `Yes` or `No` according to your preference:
 
-    - Include Tax in Order Total
-    - Display Full Tax Summary
-    - Display Zero Tax Subtotal
+- Include Tax in Order Total
+- Display Full Tax Summary
+- Display Zero Tax Subtotal
 
 ## Step 3: Configure Order, Invoice, & Credit Memo Display Settings
 
@@ -71,25 +71,25 @@ _Shopping Cart Display Settings_
     ![]({% link images/images/config-sales-tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
     _Orders, Invoices, Credit Memos Display Settings_
 
-    - **Display Prices** — Set to one of the following:
+   - **Display Prices** — Set to one of the following:
 
       - Excluding Tax
       - Including Tax
       - Including and Excluding Tax
 
-    - **Display Subtotal** — Set to one of the following:
+   - **Display Subtotal** — Set to one of the following:
 
       - Excluding Tax
       - Including Tax
       - Including and Excluding Tax
 
-    - **Display Shipping Amount** — Set to one of the following:
+   - **Display Shipping Amount** — Set to one of the following:
 
       - Excluding Tax
       - Including Tax
       - Including and Excluding Tax
 
-    - Set the following to `Yes` or `No` according to your preference:
+   - Set the following to `Yes` or `No` according to your preference:
 
       - Include Tax in Order Total
       - Display Full Tax Summary

@@ -66,9 +66,9 @@ _Navigation Menu on About Us Page_
 
    - To assign the node to a specific part of the book, set **Chapter/Section** to one of the following:
 
-     - `Chapter`
-     - `Section`
-     - `Both`
+      - `Chapter`
+      - `Section`
+      - `Both`
 
       If you don’t want to include the node as part of the book, choose `None`.
 
@@ -96,10 +96,10 @@ _Navigation Menu on About Us Page_
 
    - To specify the location of the menu in relation to the content, set **Menu Layout** ot one of the following:
 
-     - `Use Default`
-     - `Content`
-     - `Left Column`
-     - `Right Column`
+      - `Use Default`
+      - `Content`
+      - `Left Column`
+      - `Right Column`
 
    - To specify how much detail is included in the menu, set **Menu Detalization** to one of the following:
 

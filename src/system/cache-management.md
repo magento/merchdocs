@@ -46,8 +46,8 @@ Access the Cache Management page by doing one of the following:
 
 1. To select a group of caches, set **Mass Actions** to one of the following:
 
-    - `Select All`
-    - `Select Visible`
+   - `Select All`
+   - `Select Visible`
 
 1. Select the checkbox of each cache to be targeted by the action.
 
@@ -119,19 +119,19 @@ Web Services Configuration | REST and SOAP configurations, generated WSDL file. 
 
 - Clean Cache Actions
 
-    - Flush Cache Storage
-    - Flush Magento Cache
+   - Flush Cache Storage
+   - Flush Magento Cache
 
 - Cache Type Management
 
-    - Toggle Cache Type
-    - Refresh Cache Type
+   - Toggle Cache Type
+   - Refresh Cache Type
 
 - Additional Cache Management
 
-    - Catalog Images Cache
-    - Flush Js/Css
-    - Flush Static Files
+   - Catalog Images Cache
+   - Flush Js/Css
+   - Flush Static Files
 
 [1]: http://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html
 [2]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html

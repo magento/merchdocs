@@ -73,9 +73,9 @@ Create the [tax rules]({% link tax/tax-rules.md %}) that you need to use VAT IDÂ
 
 1. Set **Enable Automatic Assignment to Customer Group** to `Yes`. Then complete the following fields as needed.
 
-    - Default Group
-    - Default Value for Disable Automatic Group Changes Based on VATÂ ID
-    - Show VAT Number on Storefront
+   - Default Group
+   - Default Value for Disable Automatic Group Changes Based on VATÂ ID
+   - Show VAT Number on Storefront
 
 1. When complete, click <span class="btn">Save Config</span>.
 
@@ -88,9 +88,9 @@ Create the [tax rules]({% link tax/tax-rules.md %}) that you need to use VAT IDÂ
     ![]({% link images/images/config-general-general-store-information.png %}){: .zoom}
     [_Store Information_]({% link configuration/general/general.md %})
 
-    - Select your **Country**.
+   - Select your **Country**.
 
-    - Enter your **VAT Number**. Then, click **Validate VAT Number**. The result appears immediately.
+   - Enter your **VAT Number**. Then, click **Validate VAT Number**. The result appears immediately.
 
 1. When complete, click <span class="btn">Save Config</span>.
 

@@ -18,7 +18,7 @@ With PayPal Payments Standard, you can swipe credit cards on mobile devices. The
 
 ## Merchant Requirements
 
-* [PayPal Business Account][1]
+- [PayPal Business Account][1]
 
 ## Checkout Workflow
 
@@ -38,9 +38,9 @@ This setup method assumes you have an existing PayPal account.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1.  In the left panel,  expand **Sales** and choose **Payment Methods**.
+1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-   - If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view for which this configuration applies.
+1. If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view for which this configuration applies.
 
 1. In the **Merchant Location** section, select the **Merchant Country** where your business is located.
 
@@ -73,9 +73,9 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
    If necessary, click <span class="btn">Get Credentials from PayPal</span>. Then, complete the following:
 
-     - API Username
-     - API Password
-     - API Signature
+   - API Username
+   - API Password
+   - API Signature
 
 1. If you are using credentials from your sandbox account, set **Sandbox Mode** to `Yes`.
 
@@ -202,9 +202,9 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 Complete the following sections, as needed for your store:
 
-   - PayPal Billing Agreement Settings
-   - Settlement Report Settings
-   - Frontend Experience Settings
+- PayPal Billing Agreement Settings
+- Settlement Report Settings
+- Frontend Experience Settings
 
 #### PayPal Billing Agreement Settings
 
@@ -250,18 +250,18 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 
    - If you have signed up for PayPal’s Secure FTP Server, enter the following SFTP login credentials:
 
-     - Login
-     - Password
+      - Login
+      - Password
 
    - To run test reports before “going live” with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
 
    - Enter the **Custom Endpoint Hostname or IP Address**.
 
-     By default, the value is: `reports.paypal.com`
+      By default, the value is: `reports.paypal.com`
 
    - Enter the **Custom Path** where reports are saved.
 
-     By default, the value is: `/ppreports/outgoing`
+      By default, the value is: `/ppreports/outgoing`
 
 1. To generate reports according to a schedule, complete the **Scheduled Fetching** settings:
 
@@ -269,20 +269,20 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 
    - Set **Schedule** to one of the following:
 
-     - `Daily`
-     - `Every 3 Days`
-     - `Every 7 Days`
-     - `Every 10 Days`
-     - `Every 14 Days`
-     - `Every 30 Days`
-     - `Every 40 Days`
+      - `Daily`
+      - `Every 3 Days`
+      - `Every 7 Days`
+      - `Every 10 Days`
+      - `Every 14 Days`
+      - `Every 30 Days`
+      - `Every 40 Days`
 
-     PayPal retains each report for 45 days.
+      PayPal retains each report for 45 days.
 
    - Set **Time of Day** to the hour, minute, and second when you want the reports to be generated.
 
-     ![Settlement Report Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
-     _Settlement Report Settings - PayPal Payments Standard_
+      ![Settlement Report Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
+      _Settlement Report Settings - PayPal Payments Standard_
 
 #### Frontend Experience Settings
 
@@ -302,25 +302,25 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
    - Enter the name of the **Page Style** that you want to apply to your PayPal merchant pages. Options include:
 
-     |**paypal** |Uses the PayPal page style.|
-     |**primary** |Uses the page style that you identified as the “primary” style in your account profile.|
-     |**your_custom_value** |Uses a custom payment page style, which is specified in your account profile.|
+      |**paypal** |Uses the PayPal page style.|
+      |**primary** |Uses the page style that you identified as the “primary” style in your account profile.|
+      |**your_custom_value** |Uses a custom payment page style, which is specified in your account profile.|
 
    - For **Header Image URL**, enter the URL of the image that you want to appear in the upper-left corner of the payment page. The maximum file size is 750 pixels wide by 90 pixels high.
 
-     {:.bs-callout-info}
-     PayPal recommends that the image be located on a secure (https) server. Otherwise, the customer’s browser may warn that “the page contains both secure and nonsecure items.”
+      {:.bs-callout-info}
+      PayPal recommends that the image be located on a secure (https) server. Otherwise, the customer’s browser may warn that “the page contains both secure and nonsecure items.”
 
    - To set the color for your pages, enter the six-character hexadecimal code, without the “#” symbol, for each of the following:
 
-     |**Header Background Color** |Background color for the checkout page header.|
-     |**Header Border Color** |2-pixel border around the header. |
-     |**Page Background Color** |Background color for the checkout page and around the header and payment form.|
+      |**Header Background Color** |Background color for the checkout page header.|
+      |**Header Border Color** |2-pixel border around the header. |
+      |**Page Background Color** |Background color for the checkout page and around the header and payment form.|
 
-     ![Frontend Experience Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings1.png %}){: .zoom}
-     _Frontend Experience Settings - PayPal Payments Standard_
+      ![Frontend Experience Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings1.png %}){: .zoom}
+      _Frontend Experience Settings - PayPal Payments Standard_
 
-When complete, click <span class="btn">Save Config</span>.
+1. When complete, click <span class="btn">Save Config</span>.
 
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
 [2]: https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm

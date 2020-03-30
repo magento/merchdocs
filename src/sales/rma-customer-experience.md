@@ -16,9 +16,9 @@ As a best practice, make sure ro include a description of your RMA requirements 
 
 1. Enter the order information:
 
-    - Order ID
-    - Billing Last Name
-    - Email
+   - Order ID
+   - Billing Last Name
+   - Email
 
 1. Click **Continue**.
 
@@ -42,16 +42,16 @@ As a best practice, make sure ro include a description of your RMA requirements 
 
 1. Set **Item Condition** to one of the following:
 
-    - Unopened
-    - Opened
-    - Damaged
+   - Unopened
+   - Opened
+   - Damaged
 
 1. Set **Reason to Return** to one of the following:
 
-    - Wrong Color
-    - Wrong Size
-    - Out of Service
-    - Other
+   - Wrong Color
+   - Wrong Size
+   - Out of Service
+   - Other
 
     ![]({% link images/images/storefront-orders-and-returns-create-new-return.png %}){: .zoom}
     _Create New Return_

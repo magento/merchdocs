@@ -50,19 +50,20 @@ _Category Tree_
 
 ## Step 3: Complete the category content
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the _Content_ section.
 
 1. To display a **Category Image** at the top of the page, you can either upload your own image or use an image that already exists in your [Media Storage]({% link cms/media-storage.md %}).
 
-    - To upload your own image, click <span class="btn">Upload</span> and choose the image that you want to represent the category.
-    - To use images from your [Media Storage]({% link cms/media-storage.md%}), click <span class="btn">Select from Gallery</span> and select the image you want to represent the category.
+   - To upload your own image, click <span class="btn">Upload</span> and choose the image that you want to represent the category.
+
+   - To use images from your [Media Storage]({% link cms/media-storage.md%}), click <span class="btn">Select from Gallery</span> and select the image you want to represent the category.
 
     {:.bs-callout-info}
-    Inside the Media Gallery, you may also leverage the [Adobe Stock Integration]({% link cms/adobe-stock.md %}) to find an appropriate image by clicking the <span class="btn">Search Adobe Stock</span> button.
+    Inside the Media Gallery, you may also leverage the [Adobe Stock Integration]({% link cms/adobe-stock.md %}) to find an appropriate image by clicking <span class="btn">Search Adobe Stock</span>.
 
-1. In the **Description** box, enter the text that you want to appear on the category landing page.
+1. For **Description**, enter the text that you want to appear on the category landing page.
 
-   You can format the text as needed. To learn more, see [Using the Editor]({% link cms/editor.md %}).
+   You can format the text as needed. For more information, refer to [Using the Editor]({% link cms/editor.md %}).
 
 1. To include a content block on the category landing page, choose the **CMS Block** that you want to appear.
 
@@ -73,33 +74,33 @@ _Category Tree_
 
 ## Step 4: Complete the display settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Display Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the _Display Settings_ section.
 
 1. Set **Display Mode** to one of the following:
 
-    - Products Only
-    - Static Block Only
-    - Static Block and Products
+   - Products Only
+   - Static Block Only
+   - Static Block and Products
 
 1. If you want the category page to include the _Filter by Attribute_ section of layered navigation, set **Anchor** to `Yes`.
 
-1. To change the **Available Product Listing Sort By** options, do the following:
+1. To change the _Available Product Listing Sort By_ options, do the following:
 
-    - Clear the **Use All** checkbox.
+   - Deselect the **Use All** checkbox.
 
-    - Select one or more of the available values to be available for customers to sort the list. By default, all available values are included. For example, the values might include:
+   - Select one or more of the available values to be available for customers to sort the list. By default, all available values are included. For example, the values might include:
 
-        - Position
-        - Product Name
-        - Price
+      - Position
+      - Product Name
+      - Price
 
 1. To set the default sort order for the category, choose the **Default Product Listing Sort By** value.
 
 1. To change the default layered navigation [price step]({% link catalog/navigation-layered-price.md %}) setting, do the following:
 
-    - Clear the **Use Config Settings** checkbox.
+   - Deselect the **Use Config Settings** checkbox.
 
-    - Enter the value to be used as an incremental price step for layered navigation.
+   - Enter the value to be used as an incremental price step for layered navigation.
 
 1. Click <span class="btn">Save</span> and continue.
 
@@ -108,13 +109,13 @@ _Category Tree_
 
 ## Step 5: Complete the search engine optimization settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Search Engine Optimization Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the _Search Engine Optimization Settings_ section.
 
 1. Complete the following [meta data]({% link marketing/meta-data.md %}) for the category:
 
-    - Meta Title
-    - Meta Keywords
-    - Meta Description
+   - Meta Title
+   - Meta Keywords
+   - Meta Description
 
     ![]({% link images/images/catalog-categories-search-engine-optimization.png %}){: .zoom}
     [_Search Engine Optimization_]({% link catalog/categories-search-engine-optimization.md %})
@@ -123,7 +124,7 @@ _Category Tree_
 
 ## Step 6: Choose the products in category
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Products in Category** section. Then, use one of the following methods to add products to the category.
+1. Expand ![]({% link images/images/btn-expand.png %}) the _Products in Category_ section and use one of the following methods to add products to the category.
 
 1. Use the [filters]({% link stores/admin-grid-controls.md %}) as needed to find the products.
 
@@ -147,12 +148,14 @@ _Category Tree_
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Category Permissions** section and do the following:
 
-    - For a multisite installation, choose the **Website** where the category permissions apply.
-    - Choose the **Customer Group** or **Shared Catalog** where the category permissions apply.
-    - Set the following permissions as needed:
-        - Browsing Category
-        - Display Product Prices
-        - Add to Cart
+   - For a multi-site installation, choose the **Website** where the category permissions apply.
+
+   - Choose the **Customer Group** or **Shared Catalog** where the category permissions apply.
+
+   - Set the following permissions as needed:
+      - Browsing Category
+      - Display Product Prices
+      - Add to Cart
 
 1. To add another permission rule, click <span class="btn">New Permission</span> and repeat the process.
 
@@ -175,31 +178,31 @@ _Category Tree_
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Design** section and do the following:
 
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
-    - To apply the parent category design settings to this category, set **Use Parent Category Settings** to `Yes`.
-    <!--{% endif %}-->
-    - To change the design of the category pages, choose the **Theme** that you want to apply.
-    - To change the column layout of the category pages, choose the **Layout** that you want to apply.
-    - To enter custom code, enter valid XML code in the **Layout Update XML** box.
-    - To use the same design for product pages, set **Apply Design to Products** to `Yes`.
+   <!--{% if "Default.B2B Only" contains site.edition %}-->
+   - To apply the parent category design settings to this category, set **Use Parent Category Settings** to `Yes`.
+   <!--{% endif %}-->
+   - To change the design of the category pages, choose the **Theme** that you want to apply.
+   - To change the column layout of the category pages, choose the **Layout** that you want to apply.
+   - To enter custom code, enter valid XML code in the **Layout Update XML** box.
+   - To use the same design for product pages, set **Apply Design to Products** to `Yes`.
 
-    <!--{% if "Default.CE-EE" contains site.edition %}-->
-    ![]({% link images/images/catalog-categories-design.png %}){: .zoom}
-    [_Design_]({% link catalog/categories-custom-design.md %})
-    <!--{% endif %}-->
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
-    ![]({% link images/images-b2b/catalog-category-design.png %}){: .zoom}
-    [_Design_]({% link catalog/categories-custom-design.md %})
-    <!--{% endif %}-->
+   <!--{% if "Default.CE-EE" contains site.edition %}-->
+   ![]({% link images/images/catalog-categories-design.png %}){: .zoom}
+   [_Design_]({% link catalog/categories-custom-design.md %})
+   <!--{% endif %}-->
+   <!--{% if "Default.B2B Only" contains site.edition %}-->
+   ![]({% link images/images-b2b/catalog-category-design.png %}){: .zoom}
+   [_Design_]({% link catalog/categories-custom-design.md %})
+   <!--{% endif %}-->
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    To schedule the design update for a specific time period, do the following:
+   <!--{% if "Default.CE Only" contains site.edition %}-->
+   To schedule the design update for a specific time period, do the following:
 
-    - Expand the **Schedule Design Update** section.
-    - Use the calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}) to choose the Schedule Update **From** and **To** dates.
+   - Expand the _Schedule Design Update_ section.
+   - Use the calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}) to choose the Schedule Update **From** and **To** dates.
 
-    ![]({% link images/images/category-scheduled-design-update.png %}){: .zoom}
-    [_Scheduled Design Update_]({% link catalog/categories-custom-design.md %})
+   ![]({% link images/images/category-scheduled-design-update.png %}){: .zoom}
+   [_Scheduled Design Update_]({% link catalog/categories-custom-design.md %})
 
-    <!--{% endif %}-->
+   <!--{% endif %}-->
 1. When complete, click <span class="btn">Save</span>.

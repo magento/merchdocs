@@ -15,8 +15,9 @@ Credit memos are supported for both online and offline refunds. However, multipl
 
 ## Requirements
 
-* [PayPal Business Account][1]{:target="_blank"} The PayPal Payflow Pro gateway links the merchant account at PayPal with the merchant’s website, and acts both as a gateway and a merchant account.
-* If you manage multiple Magento websites, you must have a separate PayPal merchant account for each website.
+- [PayPal Business Account][1]{:target="_blank"} The PayPal Payflow Pro gateway links the merchant account at PayPal with the merchant’s website, and acts both as a gateway and a merchant account.
+
+- If you manage multiple Magento websites, you must have a separate PayPal merchant account for each website.
 
 ## Customer Workflow
 
@@ -69,9 +70,9 @@ Credit memos are supported for both online and offline refunds. However, multipl
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
- 1. In the left panel, expand > **Sales** and choose **Payment Methods**.
+1. In the left panel, expand > **Sales** and choose **Payment Methods**.
 
-   - If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view for which this configuration applies.
+1. If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view for which this configuration applies.
 
 1. In the **Merchant Location** section, select the **Merchant Country** where your business is located.
 
@@ -210,7 +211,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
    ![Advanced Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-link-advanced-settings.png %}){: .zoom}
    _Advanced Settings - PayPal Payflow Link_
 
-Complete the following sections, as needed for your store:
+1. Complete the following sections, as needed for your store:
 
    - Settlement Report Settings
    - Frontend Experience Settings
@@ -223,18 +224,18 @@ Complete the following sections, as needed for your store:
 
    - If you have signed up for PayPal’s Secure FTP Server, enter the following SFTP login credentials:
 
-     - Login
-     - Password
+      - Login
+      - Password
 
    - To run test reports before “going live” with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
 
    - Enter the **Custom Endpoint Hostname or IP Address**.
 
-     By default, the value is: `reports.paypal.com`
+      By default, the value is: `reports.paypal.com`
 
    - Enter the **Custom Path** where reports are saved.
 
-     By default, the value is: `/ppreports/outgoing`
+      By default, the value is: `/ppreports/outgoing`
 
 1. To generate reports according to a schedule, complete the **Scheduled Fetching** settings:
 
@@ -242,13 +243,13 @@ Complete the following sections, as needed for your store:
 
    - Set **Schedule** to one of the following:
 
-     - `Daily`
-     - `Every 3 Days`
-     - `Every 7 Days`
-     - `Every 10 Days`
-     - `Every 14 Days`
-     - `Every 30 Days`
-     - `Every 40 Days`
+      - `Daily`
+      - `Every 3 Days`
+      - `Every 7 Days`
+      - `Every 10 Days`
+      - `Every 14 Days`
+      - `Every 30 Days`
+      - `Every 40 Days`
 
      PayPal retains each report for 45 days.
 
@@ -336,7 +337,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
    ![Advanced Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-link-express-checkout-advanced-settings.png %}){: .zoom}
    _Advanced Settings - PayPal Express Checkout_
 
-When complete, click <span class="btn">Save Config</span>.
+1. When complete, click <span class="btn">Save Config</span>.
 
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
 [2]: https://manager.paypal.com/

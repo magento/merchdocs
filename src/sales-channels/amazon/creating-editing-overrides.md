@@ -21,7 +21,7 @@ The **Create Override** action is available when viewing listings on the Inactiv
 
     - **Price**: Click the **Change Listing Price** option. Enter your defined price value in the **Price Override** field.
     - **Handling Time**: Click the **Change Handling Time** option. Enter the defined time value (in days) in the **Handling Time Override** field.
-    * **Condition**: Click the **Change Condition** option. Select the correct option in the **Condition Override** drop-down.
+    - **Condition**: Click the **Change Condition** option. Select the correct option in the **Condition Override** drop-down.
     - **Seller Notes**: Click the **Change Seller Notes** option. Enter your notes text in the **Seller Notes Override** field.
 
 1. Click <span class="btn">Save Listing Override</span>.

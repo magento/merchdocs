@@ -168,9 +168,6 @@ pages:
       url: "/system/data-attributes-customer.html"
   - label: Integrations
     url: "/system/integrations.html"
-    children:
-    - label: Magento Marketplace
-      url: "/magento/magento-marketplace.html"
   - label: Permissions
     url: "/system/permissions.html"
     children:

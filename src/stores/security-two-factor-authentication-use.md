@@ -29,9 +29,9 @@ With the U2F device configured, the user attaches the device to their system whe
 
 1. Click the plus sign ( **+** ) to add a new entry. Then, do the following:
 
-    - Line up the red box with the QR code to scan with the camera on the mobile device.
+   - Line up the red box with the QR code to scan with the camera on the mobile device.
 
-    - When it recognizes the QR code and adds an entry, enter that 6-digit code in the Admin **Authenticator code** field.
+   - When it recognizes the QR code and adds an entry, enter that 6-digit code in the Admin **Authenticator code** field.
 
 1. When complete, click <span class="btn">Confirm</span>.
 
@@ -66,16 +66,16 @@ The Authy authenticator includes multiple types of apps available from this page
 
 1. When prompted to register yourself with Authy, do the following:
 
-    - Select your **Country**.
+   - Select your **Country**.
 
-    - Enter your **Phone number**.
+   - Enter your **Phone number**.
 
-    - Select one of the following **Verification methods**:
+   - Select one of the following **Verification methods**:
 
       - `SMS`
       - `Call Me`
 
-    - Click **Continue**.
+   - Click **Continue**.
 
     A message is sent to your phone through SMS text or a call.
 
@@ -95,17 +95,17 @@ The Authy authenticator includes multiple types of apps available from this page
 
 1. Choose one of the following methods to authenticate:
 
-    - `Use one touch` — Sends an alert to your Authy app. In the app, accept the access.
-    - `Use authy token` — Prompts to enter a code from your Authy app.
+   - `Use one touch` — Sends an alert to your Authy app. In the app, accept the access.
+   - `Use authy token` — Prompts to enter a code from your Authy app.
 
 1. If you have trouble signing in, choose the method you want to use to receive the code. Then, enter the code that you receive to access the Admin.
 
-    The app includes these additional emergency methods.
+   The app includes these additional emergency methods.
 
-    - `Send me a code via SMS` — A text SMS message is sent to the configured mobile device.
-    - `Send me a code via phone call` — The user receives a phone call with a code.
+   - `Send me a code via SMS` — A text SMS message is sent to the configured mobile device.
+   - `Send me a code via phone call` — The user receives a phone call with a code.
 
-    Your account is verified and opens.
+   Your account is verified and opens.
 
 ## Duo
 
@@ -120,19 +120,19 @@ The Duo Mobile app is available through [Google Play][3] or [iOS App Store][4]. 
     ![Example storefront - Duo setup]({% link images/images/storefront-2fa-duo-user1.png %}){: .zoom}
     _Duo Setup_
 
-    - Select your device.
+   - Select your device.
 
         ![Duo authentication - select device ]({% link images/images/storefront-2fa-duo-user2.png %}){: .zoom}
         _Device Type_
 
-    - When prompted, enter your **phone number**, and click **Continue**.
+   - When prompted, enter your **phone number**, and click **Continue**.
 
         This example requests your phone number, because we are using a mobile device.
 
         ![Duo authentication - enter phone number]({% link images/images/storefront-2fa-duo-user3.png %}){: .zoom}
         _Enter Your Phone Number_
 
-    - When prompted to install Duo Mobile for your phone type, click <span class="btn">I have Duo Mobile</span>.
+   - When prompted to install Duo Mobile for your phone type, click <span class="btn">I have Duo Mobile</span>.
 
         ![Duo authentication - verify app installation]({% link images/images/storefront-2fa-duo-user5.png %}){: .zoom}
         _Verify App Installation_
@@ -144,9 +144,9 @@ The Duo Mobile app is available through [Google Play][3] or [iOS App Store][4]. 
 
 1. To configure your settings for the device, choose the action that you want to take place when you sign in.
 
-    - `Ask me to choose an authenticator method` — Allows the user to select when logging in and authenticating in the Magento Admin.
-    - `Automatically send this device a Duo Push` — Sends a message to your device to accept or deny for access.
-    - `Automatically call this device` — Calls and provides a passcode for entering
+   - `Ask me to choose an authenticator method` — Allows the user to select when logging in and authenticating in the Magento Admin.
+   - `Automatically send this device a Duo Push` — Sends a message to your device to accept or deny for access.
+   - `Automatically call this device` — Calls and provides a passcode for entering
 
     ![Duo verification actions]({% link images/images/storefront-2fa-duo-user7.png %}){: .zoom}
     _Duo verification code_
@@ -162,9 +162,9 @@ The following example displays the options when selecting Ask me to choose an au
 
 1. Choose the method that you want to use to authenticate:
 
-    - `Send Me a Push` — Click to receive a push notice to Duo Mobile. Accept to authenticate.
-    - `Call Me` — Click this option, receive a call with a code, and enter the passcode.
-    - `Enter a Passcode` — Click this option to receive and enter a passcode.
+   - `Send Me a Push` — Click to receive a push notice to Duo Mobile. Accept to authenticate.
+   - `Call Me` — Click this option, receive a call with a code, and enter the passcode.
+   - `Enter a Passcode` — Click this option to receive and enter a passcode.
 
 1. Complete the push or code to fully sign in to the Admin.
 

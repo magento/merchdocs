@@ -49,14 +49,14 @@ Processing orders with PayPal Payments Advanced is the same as for any regular P
 
    - Go to **Service Settings** > **Hosted Checkout Pages** > **Set Up Menu**, and complete the following settings:
 
-     |**AVS** |`No` |
-     |**CSC** |`No` |
-     |**Enable Secure Token** |`Yes` |
+      |**AVS** |`No` |
+      |**CSC** |`No` |
+      |**Enable Secure Token** |`Yes` |
 
    - **Save** the settings.
 
-     {:.bs-callout-info}
-     If you have multiple Magento websites, you must create a separate PayPal Payments Advanced account for each.
+      {:.bs-callout-info}
+      If you have multiple Magento websites, you must create a separate PayPal Payments Advanced account for each.
 
 1. When prompted to create a layout, do the following:
 
@@ -80,7 +80,7 @@ Processing orders with PayPal Payments Advanced is the same as for any regular P
 
 1. In the left panel, expand  **Sales** and choose **Payment Methods**.
 
-   - If your Magento installation has multiple websites, stores, or views, set **Store View** in the upper-left corner to the store view for which this configuration applies.
+1. If your Magento installation has multiple websites, stores, or views, set **Store View** in the upper-left corner to the store view for which this configuration applies.
 
 1. In the **Merchant Location** section, set **Merchant Country** to the country where your business is located. PayPal Payments Advanced is available only in the United States.
 
@@ -126,7 +126,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
    - Enter the port number of the **Proxy Port**.
 
-     A proxy is used when the server firewall prevents direct access to the PayPal server. In this case, a third-party server is used to relay traffic.
+      A proxy is used when the server firewall prevents direct access to the PayPal server. In this case, a third-party server is used to relay traffic.
 
 1. Set **Enable This Solution** to `Yes`.
 
@@ -164,8 +164,8 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
    - `728 x 90`
    - `800 x 66`
 
-   ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
-   _Advertise PayPal Credit - Home Page_
+    ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
+    _Advertise PayPal Credit - Home Page_
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the remaining sections and repeat the previous steps:
 
@@ -181,7 +181,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. If you offer multiple payment methods, enter a number in the **Sort Order** field to determine the sequence in which PayPal Payments Advanced appears when listed with other payment methods during checkout.
 
-3. Set **Payment Action** to one of the following:
+1. Set **Payment Action** to one of the following:
 
    |`Authorization` |Approves the purchase, but puts a hold on the funds. The amount is not withdrawn until it is “captured” by the merchant. |
    |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
@@ -225,8 +225,8 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 Complete the following sections, as needed for your store:
 
-   - Settlement Report Settings
-   - Frontend Experience Settings
+- Settlement Report Settings
+- Frontend Experience Settings
 
 #### Settlement Report Settings
 
@@ -243,11 +243,11 @@ Complete the following sections, as needed for your store:
 
    - Enter the **Custom Endpoint Hostname or IP Address**.
 
-     By default, the value is: `reports.paypal.com`
+      By default, the value is: `reports.paypal.com`
 
    - Enter the **Custom Path** where reports are saved.
 
-     By default, the value is: `/ppreports/outgoing`
+      By default, the value is: `/ppreports/outgoing`
 
 1. To generate reports according to a schedule, complete the **Scheduled Fetching** settings:
 
@@ -255,20 +255,20 @@ Complete the following sections, as needed for your store:
 
    - Set **Schedule** to one of the following:
 
-     - `Daily`
-     - `Every 3 Days`
-     - `Every 7 Days`
-     - `Every 10 Days`
-     - `Every 14 Days`
-     - `Every 30 Days`
-     - `Every 40 Days`
+      - `Daily`
+      - `Every 3 Days`
+      - `Every 7 Days`
+      - `Every 10 Days`
+      - `Every 14 Days`
+      - `Every 30 Days`
+      - `Every 40 Days`
 
-     PayPal retains each report for 45 days.
+      PayPal retains each report for 45 days.
 
    - Set **Time of Day** to the hour, minute, and second when you want the reports to be generated.
 
-     ![PayPal Settlement Report Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
-     _Settlement Report Settings - PayPal Payments Advanced_
+      ![PayPal Settlement Report Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
+      _Settlement Report Settings - PayPal Payments Advanced_
 
 #### Frontend Experience Settings
 
@@ -288,23 +288,23 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
    - Enter the name of the **Page Style** that you want to apply to your PayPal merchant pages. Options include:
 
-     |**paypal** |Uses the PayPal page style.|
-     |**primary** |Uses the page style that you identified as the “primary” style in your account profile.|
-     |**your_custom_value** |Uses a custom payment page style, which is specified in your account profile.|
+      |**paypal** |Uses the PayPal page style.|
+      |**primary** |Uses the page style that you identified as the “primary” style in your account profile.|
+      |**your_custom_value** |Uses a custom payment page style, which is specified in your account profile.|
 
    - In the **Header Image URL** field, enter the URL of the image that you want to appear in the upper-left corner of the payment page. The maximum file size is 750 pixels wide by 90 pixels high.
 
-     {:.bs-callout-info}
-     PayPal recommends that the image be located on a secure (https) server. Otherwise, the customer’s browser may warn that “the page contains both secure and nonsecure items.”
+      {:.bs-callout-info}
+      PayPal recommends that the image be located on a secure (https) server. Otherwise, the customer’s browser may warn that “the page contains both secure and nonsecure items.”
 
    - Enter the six-character hexadecimal code, without the “#” symbol, for each of the following:
 
-     |**Header Background Color** |Background color for the checkout page header.|
-     |**Header Border Color** |2-pixel border around the header. |
-     |**Page Background Color** |Background color for the checkout page and around the header and payment form.|
+      |**Header Background Color** |Background color for the checkout page header.|
+      |**Header Border Color** |2-pixel border around the header. |
+      |**Page Background Color** |Background color for the checkout page and around the header and payment form.|
 
-     ![PayPal Frontend Experience Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings.png %}){: .zoom}
-     _Frontend Experience Settings - PayPal Payments Advanced_
+      ![PayPal Frontend Experience Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings.png %}){: .zoom}
+      _Frontend Experience Settings - PayPal Payments Advanced_
 
 ### Step 7: Complete Basic Settings - PayPal Express Checkout
 
@@ -349,7 +349,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
      ![PayPall Express Checkout Advanced Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-express-checkout-advanced.png %}){: .zoom}
      _PayPal Express Checkout Advanced Settings_
 
-When complete, click <span class="btn">Save Config</span>.
+1. When complete, click <span class="btn">Save Config</span>.
 
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
 [2]: https://manager.paypal.com/

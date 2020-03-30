@@ -14,14 +14,14 @@ _Facebook Plugins_
 
 1. For **URL to Like**, enter the URL of the page in your store that you want people to Like. For example, you might enter the URL of your store’s home page. Then, do the following:
 
-    - Choose the **Layout** for the button.
+   - Choose the **Layout** for the button.
 
-    - Enter the **Width** in pixels that is available on your site for the button and any associated text message.
+   - Enter the **Width** in pixels that is available on your site for the button and any associated text message.
 
-    - Set **Action Type** to one of the following:
+   - Set **Action Type** to one of the following:
 
-        - `Like`
-        - `Recommend`
+      - `Like`
+      - `Recommend`
 
 1. Click <span class="btn">Get Code</span> to copy the generated code to the clipboard.
 
@@ -36,20 +36,20 @@ _Facebook Plugins_
 
 1. In the upper-right corner, click click **Add New Block** and do the following:
 
-    - Enter a descriptive **Block Title** for internal reference. For example: `Facebook Like Button`.
+   - Enter a descriptive **Block Title** for internal reference. For example: `Facebook Like Button`.
 
-    - Assign a unique **Identifier** to the block, using all lowercase characters, and underscores instead of spaces. For example: `facebook_like_button`.
+   - Assign a unique **Identifier** to the block, using all lowercase characters, and underscores instead of spaces. For example: `facebook_like_button`.
 
-    - If your Magento installation has multiple store views, choose each **Store View** where the block is to be available.
+   - If your Magento installation has multiple store views, choose each **Store View** where the block is to be available.
 
-    <!--{% if "Default.EE-B2B" contains site.edition %}-->
-    - If using Page Builder, add an [HTML Code]({% link cms/page-builder-elements-html-code.md %}) block to the stage, and paste the snippet of code that you copied from the Facebook site. Otherwise, paste the snippet of code into the **Content** box.
-    <!--{% endif %}-->
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    - Paste the snippet of code that you copied from the Facebook site into the **Content** box.
-    <!--{% endif %}-->
+   <!--{% if "Default.EE-B2B" contains site.edition %}-->
+   - If using Page Builder, add an [HTML Code]({% link cms/page-builder-elements-html-code.md %}) block to the stage, and paste the snippet of code that you copied from the Facebook site. Otherwise, paste the snippet of code into the **Content** box.
+   <!--{% endif %}-->
+   <!--{% if "Default.CE Only" contains site.edition %}-->
+   - Paste the snippet of code that you copied from the Facebook site into the **Content** box.
+   <!--{% endif %}-->
 
-    - If the block is not ready to go live, set **Enable Block** to `No`.
+   - If the block is not ready to go live, set **Enable Block** to `No`.
 
 1. When complete, click <span class="btn">Save Block</span>.
 
@@ -74,11 +74,11 @@ _Facebook Plugins_
 
 1. In the **Storefront Properties** section, do the following:
 
-    - For **Widget Title**, enter a title for internal reference.
+   - For **Widget Title**, enter a title for internal reference.
 
-    - Set **Assign to Store Views** to `All Store Views`, or to the view where the app will be available. To select multiple views, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
+   - Set **Assign to Store Views** to `All Store Views`, or to the view where the app will be available. To select multiple views, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
-    - Enter a number in the **Sort Order** field to determine the order of the block if it assigned to appear in the same location on the page as other content elements. The top position is zero.
+   - Enter a number in the **Sort Order** field to determine the order of the block if it assigned to appear in the same location on the page as other content elements. The top position is zero.
 
 1. In the Layout Updates section, click <span class="btn">Add Layout Update</span>. Then, set **Display On** to the category, product, or page where you want the block to appear.
 
@@ -86,13 +86,13 @@ _Facebook Plugins_
 
     To place the block on a specific page, do the following:
 
-    - Set **Display On** to `Specified Page`. Then, select the **Page** where you want the block to appear.
+   - Set **Display On** to `Specified Page`. Then, select the **Page** where you want the block to appear.
 
-    - Choose the **Block Reference** to identify the place on the page where the block is to be placed.
+   - Choose the **Block Reference** to identify the place on the page where the block is to be placed.
 
-    - Accept the default setting for **Template**, which is set to `CMS Static Block Default Template`.
+   - Accept the default setting for **Template**, which is set to `CMS Static Block Default Template`.
 
-    - Click <span class="btn">Save and Continue Edit</span>.
+   - Click <span class="btn">Save and Continue Edit</span>.
 
 1. In the panel on the left, choose **Widget Options**.
 

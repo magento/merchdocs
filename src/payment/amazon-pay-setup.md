@@ -26,8 +26,8 @@ For more information, see the [Amazon Pay and Login with Amazon][1] documentatio
 
    - If you do not yet have an Amazon merchant account, choose **Create a new signin** and click <span class="btn">Select</span>. Then, follow the onscreen instructions to create a new account.
 
-     ![]({% link images/images/config-sales-payment-methods-amazon-pay-account-setup.png %}){: .zoom}
-     _Create Amazon Pay Account_
+      ![]({% link images/images/config-sales-payment-methods-amazon-pay-account-setup.png %}){: .zoom}
+      _Create Amazon Pay Account_
 
    - If you already have an Amazon merchant account, choose **Use existing Amazon signin** and click <span class="btn">Select</span>. Then, complete the following sections.
 
@@ -45,11 +45,11 @@ For more information, see the [Amazon Pay and Login with Amazon][1] documentatio
 
    - Enter the following credentials that you copied from the [Amazon Pay Sandbox]({% link payment/amazon-pay-seller-central.md %}) on Amazon Seller Central:
 
-     - Merchant Id
-     - Access Key Id
-     - Secret Access Key
-     - Client ID
-     - Client Secret
+      - Merchant Id
+      - Access Key Id
+      - Secret Access Key
+      - Client ID
+      - Client Secret
 
    - Set **Sandbox** to `Yes`.
 
@@ -104,35 +104,35 @@ For more information, see the [Amazon Pay and Login with Amazon][1] documentatio
 
    To override the default display language for the current store view, enter one of the following language parameters for **Button Display Language**:
 
-     - en-GB - English (Great Britain)
-     - de-DE - German (Germany)
-     - fr-FR - French (France)
-     - it-IT - Italian (Italy)
-     - sp-SP - Spanish (Spain)
+   - en-GB - English (Great Britain)
+   - de-DE - German (Germany)
+   - fr-FR - French (France)
+   - it-IT - Italian (Italy)
+   - sp-SP - Spanish (Spain)
 
      To learn more, see [Language][2] in the Amazon Pay Integration Guide.
 
 1. Set **Button Color** to one of the following:
 
-     - `Gold`
-     - `Light Gray`
-     - `Dark Gray`
+   - `Gold`
+   - `Light Gray`
+   - `Dark Gray`
 
      To learn more, see the [Merchant Tools][3] page on the Amazon Pay website.
 
 1. Set **Button Size** to one of the following:
 
-     - `Small`
-     - `Medium`
-     - `Large`
-     - `Extra Large`
+   - `Small`
+   - `Medium`
+   - `Large`
+   - `Extra Large`
 
 1. Choose `Yes` for each feature that you want to enable for the current store view:
 
-     - Login with Amazon available in authentication popup
-     - Amazon Pay button on Product Page
-     - Amazon Pay button in minicart
-     - Display Amazon Pay Method
+   - Login with Amazon available in authentication popup
+   - Amazon Pay button on Product Page
+   - Amazon Pay button in minicart
+   - Display Amazon Pay Method
 
    ![]({% link images/images/config-sales-payment-methods-amazon-pay-advanced-frontend.png %}){: .zoom}
    [_Frontend_]({% link configuration/sales/amazon-pay.md %})

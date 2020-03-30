@@ -4,56 +4,57 @@ title: Watermarks
 
 If you go to the expense of creating your own original product images, there is not much you can do to prevent unscrupulous competitors from stealing them with the click of a mouse. However, you can make them a less attractive target by placing a watermark on each image to identify them as your property. A watermark file can be either a JPG (JPEG), GIF, or PNG image. Both GIF and PNG file types support transparent layers, which can be used to give the watermark a transparent background.
 
-The watermark used for the “small” image in the following example is a black logo with a transparent background, and saved as a PNG file with the following settings:
+The watermark used for the _small_ image in the following example is a black logo with a transparent background and saved as a PNG file with the following settings:
 
-* Size: 50x50
-* Opacity: 5
-* Position: Tile
+- Size: 50x50
+- Opacity: 5
+- Position: Tile
 
 ![]({% link images/images/storefront-watermark-tiled.png %}){: .zoom}
-*Tiled Watermark*
+_Tiled Watermark_
 
-## To add watermarks to product images:
+## Add watermarks to product images
 
-1. On the Admin sidebar, tap **Content**. Then under **Design**, choose **Configuration**.
+1. On the _Admin_ sidebar, go to **Content** > _Design_ > **Configuration**.
 
-2. Find the store view that you want to configure. Then in the **Action** column, click **Edit**.
+1. Find the store view that you want to configure and click **Edit** in the _Action_ column.
 
-3. Under **Other Settings**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Product Image Watermarks** section.
+1. Under _Other Settings_, expand ![]({% link images/images/btn-expand.png %}) the _Product Image Watermarks_ section.
 
-4. Complete the **Base**, **Thumbnail**, **Small**, and **Swatch Image** image settings as follows. The fields in each section are the same.
+1. Complete the **Base**, **Thumbnail**, **Small**, and **Swatch Image** image settings as follows.
 
-    * Enter the **Image Opacity** as a percentage. For example: 40
+   The fields in each section are the same.
 
-    * Enter the **Image Size**, in pixels. For example: 200 x 200
+   - Enter the **Image Opacity** as a percentage. For example: `40`
 
-    * Tap <span class="btn"> Upload</span>, and choose the image file that you want to use.
+   - Enter the **Image Size** in pixels. For example: `200 x 200`
 
-    * Set **Image Position** to determine where the watermark appears.
+   - Click <span class="btn">Upload</span> and choose the image file that you want to use.
+
+   - Set **Image Position** to determine where the watermark appears.
 
     ![]({% link images/images/config-design-product-image-watermarks-base.png %}){: .zoom}
-    *[Product Image Watermarks - Base]({% link design/configuration.md %})*
+    [_Product Image Watermarks - Base_]({% link design/configuration.md %})
 
-5. When complete, tap <span class="btn"> Save Config </span>.
+1. When complete, click <span class="btn">Save Config</span>.
 
-6. When prompted to refresh the cache, tap the **Cache Management** link in the system message. Then, refresh the invalid cache.
+1. When prompted to refresh the cache, click **Cache Management** in the system message and refresh the invalid cache.
 
     ![]({% link images/images/msg-cache-management.png %}){: .zoom}
-    *Refresh Cache*
+    _Refresh Cache_
 
-## To restore the default value:
+{:.bs-callout-info}
+You can click **Use Default Value** (![]({% link images/images/btn-use-default.png %})) to restore the default value.
 
-Tap **Use Default Value** (![]({% link images/images/btn-use-default.png %}){: .Inline}).
+## Delete a watermark
 
-## To delete a watermark:
-
-1. In the lower-left corner of the image, tap **Delete** ( ![]({% link images/images/btn-trashcan2.png %}){: .Inline} ).
+1. In the lower-left corner of the image, click the **Delete** ( ![]({% link images/images/btn-trashcan2.png %}) ) icon.
 
     ![]({% link images/images/product-image-watermark-delete.png %}){: .zoom}
-    *Delete Watermark*
+    _Delete Watermark_
 
-1. Tap <span class="btn"> Save Config </span>.
+1. Click <span class="btn">Save Config</span>.
 
-1. When prompted to refresh the cache, tap the **Cache Management** link in the system message. Then, refresh the invalid cache.
+1. When prompted to refresh the cache, click **Cache Management** in the system message and refresh the invalid cache.
 
-    If the watermark image persists in the storefront, return to Cache Management and tap <span class="btn">  Flush Magento Cache </span>.
+    If the watermark image persists in the storefront, return to Cache Management and click <span class="btn">Flush Magento Cache</span>.

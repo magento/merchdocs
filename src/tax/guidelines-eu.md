@@ -48,19 +48,17 @@ Create the following tax rules:
 
 1. Under the default website, create a store view for **Germany**. Then, do the following:
 
-    - On the _Admin_ sidebar, click **Stores**.
+   - On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-    - Under _Settings_, choose **Configuration**.
+   - In the upper-left corner, set **Default Config** to the French store.
 
-    - In the upper-left corner, set **Default Config** to the French store.
+   - On the General page, expand ![]({% link images/images/btn-expand.png %}) the **Countries Options** section, and set the default country to “France.”
 
-    - On the General page, expand ![]({% link images/images/btn-expand.png %}) the **Countries Options** section, and set the default country to “France.”
+   - Complete the locale options as needed.
 
-    - Complete the locale options as needed.
+1. In the upper-left corner, choose the German **Store View**.
 
-1. In the upper-left corner, choose the German **Store View**. Then, do the following:
-
-    - On the _General_ page, expand ![]({% link images/images/btn-expand.png %}) **Countries Options**, and set the default country to “Germany.”
+1. On the _General_ page, expand ![]({% link images/images/btn-expand.png %}) **Countries Options**, and set the default country to “Germany.”
 
 1. Complete the locale options as needed.
 
@@ -107,9 +105,9 @@ Complete the following General tax settings:
 
    - Update the following values to match your site's Shipping Settings [point of origin]({% link shipping/point-of-origin.md %}).
 
-        - Default Country
-        - Default State
-        - Default Post Code
+      - Default Country
+      - Default State
+      - Default Post Code
 
         This setting ensures that tax is calculated correctly when product prices include tax.
 

@@ -30,7 +30,7 @@ Gift wrapping and printed gift card prices can be configured to include or exclu
       - Including Tax
       - Including and Excluding Tax
 
-    - Set **Display Printed Gift Card Prices** to one of the following:
+   - Set **Display Printed Gift Card Prices** to one of the following:
 
       - Excluding Tax
       - Including Tax

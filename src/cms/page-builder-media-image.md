@@ -24,29 +24,29 @@ _Image In Column_
     ![]({% link images/images-ee/page-builder-media-image-upload-select.png %}){: .zoom}
     _Upload Image or Select from Gallery_
 
-    **Upload New Image**
+### Upload new image
 
-    - Click <span class="btn">Upload Image</span>.
+1. Click <span class="btn">Upload Image</span>.
 
-    - Navigate to the image in your local file system. Then, choose the image to add it to the gallery and target container.
+1. Navigate to the image in your local file system. Then, choose the image to add it to the gallery and target container.
 
-    **Select from Gallery**
+### Select from gallery
 
-    - Click <span class="btn">Select from Gallery</span>.
+1. Click <span class="btn">Select from Gallery</span>.
 
-    - In the gallery do one of the following:
+1. In the gallery do one of the following:
 
-        - Click <span class="btn">Search Adobe Stock</span>. Search for an image and save the preview or licensed image After you save an Adobe Stock asset, you will be returned to the gallery.
+   - Click <span class="btn">Search Adobe Stock</span> and search for an image. Then you can save the preview or licensed image. After you save an Adobe Stock asset, you are returned to the gallery.
 
-        - Navigate to the image and click the thumbnail. Then, click <span class="btn">Add Selected</span>.
+   - Navigate to the image, click the thumbnail, and then click <span class="btn">Add Selected</span>.
 
-          ![]({% link images/images-ee/page-builder-media-image-gallery-add-selected.png %}){: .zoom}
-          _Add Selected Image_
+      ![]({% link images/images-ee/page-builder-media-image-gallery-add-selected.png %}){: .zoom}
+      _Add Selected Image_
 
-      The image appears in the target container at the placeholder location. Unlike a background image, you can move the image to a different position within the current container or to a different container.
+    The image appears in the target container at the placeholder location. Unlike a background image, you can move the image to a different position within the current container or to a different container.
 
-      ![]({% link images/images-ee/page-builder-media-image-giftcard-column.png %}){: .zoom}
-      _Image in Column_
+    ![]({% link images/images-ee/page-builder-media-image-giftcard-column.png %}){: .zoom}
+    _Image in Column_
 
 ## Change image settings
 
@@ -62,75 +62,55 @@ _Image In Column_
 
 1. To change the current image, do one of the following:
 
-    - Click <span class="btn">Upload</span>. Then, navigate to the image in your local file system and choose the file.
+   - Click <span class="btn">Upload</span>. Then, navigate to the image in your local file system and choose the file.
 
-    - Click <span class="btn">Select from Gallery</span>. Navigate to the image in the gallery. Then, click the thumbnail and click <span class="btn">Add Selected</span>.
+   - Click <span class="btn">Select from Gallery</span>. Navigate to the image in the gallery. Then, click the thumbnail and click <span class="btn">Add Selected</span>.
 
 1. To add a mobile image, do one of the following:
 
-    - Click <span class="btn">Upload</span>. Then, navigate to the image in your local file system and choose the file.
+   - Click <span class="btn">Upload</span>. Then, navigate to the image in your local file system and choose the file.
 
-    - Click <span class="btn">Select from Gallery</span>. Navigate to the image in the gallery. Then, click the thumbnail and click <span class="btn">Add Selected</span>.
+   - Click <span class="btn">Select from Gallery</span>. Navigate to the image in the gallery. Then, click the thumbnail and click <span class="btn">Add Selected</span>.
 
-    - Drag the image from a directory in your local file system, and drop it on the camera icon.
+   - Drag the image from a directory in your local file system, and drop it on the camera icon.
 
     ![]({% link images/images-ee/page-builder-media-image-settings-mobile-image.png %}){: .zoom}
     _Mobile Image_
 
 1. To link the image(s), choose one of the following destination types, and follow the instructions.
 
-    **URL**
+   - **URL** - Set **Link** to `URL` and enter the destination URL.
 
-    - Set **Link** to `URL`.
+      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-url-newtab.png %}){: .zoom}
+      _Link to URL_
 
-    - Enter the destination URL.
+   - **Product** - Set **Link** to `Product` and do one of the following:
 
-    ![]({% link images/images-ee/page-builder-media-image-settings-image-link-url-newtab.png %}){: .zoom}
-    _Link to URL_
-
-    **Product**
-
-    - Set **Link** to `Product`.
-
-    ![]({% link images/images-ee/page-builder-media-image-settings-image-link-product-select.png %}){: .zoom}
-    _Link to Product_
-
-    - Do one of the following:
+      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-product-select.png %}){: .zoom}
+      _Link to Product_
 
       - Begin typing the product name or SKU.
       - Choose the product from the search results list.
       - Click the **down arrow**, and choose the product from the list.
 
-    ![]({% link images/images-ee/page-builder-media-image-settings-image-link-product-results.png %}){: .zoom}
-    _Choose Product_
+       ![]({% link images/images-ee/page-builder-media-image-settings-image-link-product-results.png %}){: .zoom}
+       _Choose Product_
 
-    **Category**
+   - **Category** - Set **Link** to `Category` and select the category.
 
-    - Set **Link** to `Category`.
+      You can begin typing the category name or drill down to the category in the tree.
 
-    - Do one of the following:
+      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-category-tree.png %}){: .zoom}
+      _Link to Category_
 
-      - Begin typing the category name.
-
-      - In the category tree, drill down to the category.
-
-    - In the category tree, click the category name.
-
-    ![]({% link images/images-ee/page-builder-media-image-settings-image-link-category-tree.png %}){: .zoom}
-    _Link to Category_
-
-    **Page**
-
-    - Set **Link** to `Page`.
-
-    - Do one of the following:
+   - **Page** - Set **Link** to `Page` and do one of the following:
 
       - Begin typing the page name. Then, click the name of the page in the list.
 
       - Click the **down arrow** and choose the page from the list.
 
-      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-page-results.png %}){: .zoom}
-      _Link to Page_
+       ![]({% link images/images-ee/page-builder-media-image-settings-image-link-page-results.png %}){: .zoom}
+       _Link to Page_
 
     If you want to prevent the visitor from navigating away from your store, select the **Open in new tab** checkbox.
 
@@ -143,9 +123,9 @@ _Image In Column_
 
 1. Expand the **Search Engine Optimization** section. Then, do the following:
 
-    - In the **Alternative Text** field, enter the “alt” text that you want to be available to improve accessibility.
+   - In the **Alternative Text** field, enter the “alt” text that you want to be available to improve accessibility.
 
-    - In the **Title Attribute** field, enter the text that you want to appear as a tooltip on mouseover.
+   - In the **Title Attribute** field, enter the text that you want to appear as a tooltip on mouseover.
 
     Both of these fields are visible to search engines, and improve the way the page is indexed.
 
@@ -171,7 +151,7 @@ _Image In Column_
 
 1. When prompted to confirm, click **OK**.
 
-## Image Toolbox
+## Image toolbox
 
 |Tool|Icon|Description|
 |--- |--- |--- |
@@ -185,7 +165,7 @@ _Image In Column_
 |Upload New Image||Uploads an image from your local file system to the gallery.|
 |Select from Gallery||Chooses an existing image from the gallery.|
 
-## Image Settings
+## Image settings
 
 |Setting|Description|
 |--- |--- |

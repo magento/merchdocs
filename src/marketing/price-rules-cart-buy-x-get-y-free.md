@@ -30,18 +30,18 @@ _Condition_
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Actions** section and do the following:
 
-    - Set **Apply** to `Buy X get Y free (discount amount is Y)`.
+   - Set **Apply** to `Buy X get Y free (discount amount is Y)`.
 
-    - Set **Discount Amount** to `1`. This is the quantity the customer will receive for free.
+   - Set **Discount Amount** to `1`. This is the quantity the customer will receive for free.
 
-    - To limit the number of discounts that can be applied when the condition is met, enter the number in the **Maximum Qty Discount is Applied To** field. For example, enter `1` to discount only one item.
+   - To limit the number of discounts that can be applied when the condition is met, enter the number in the **Maximum Qty Discount is Applied To** field. For example, enter `1` to discount only one item.
 
-    - In the **Discount Qty Step (Buy X)** field, enter the quantity that the customer must purchase to qualify for the discount. In this example, the customer must purchase three.
+   - In the **Discount Qty Step (Buy X)** field, enter the quantity that the customer must purchase to qualify for the discount. In this example, the customer must purchase three.
 
-    - If you want to prevent other discounts from being applied to the purchase, set **Discard subsequent rules** to `Yes`.
+   - If you want to prevent other discounts from being applied to the purchase, set **Discard subsequent rules** to `Yes`.
 
-        ![Cart price rule - buy 3 get 1 free]({% link images/images/price-rule-cart-buy-3-get-1-actions.png %}){: .zoom}
-        _Buy 3 Get 1 Free_
+      ![Cart price rule - buy 3 get 1 free]({% link images/images/price-rule-cart-buy-3-get-1-actions.png %}){: .zoom}
+      _Buy 3 Get 1 Free_
 
 1. To apply the rule only to specific items in the cart, complete the condition to describe the cart item(s) and/or product attribute(s) that are required for the promotion.
 

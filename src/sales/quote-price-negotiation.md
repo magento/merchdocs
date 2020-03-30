@@ -108,16 +108,16 @@ In the _Items Quoted_ section, make the following changes, if needed:
 
 1. To apply a discount to the quote as a whole:
 
-    - Under _Quote Totals_ in the _Negotiated Price_ section, choose one of the following discount types:
+   - Under _Quote Totals_ in the _Negotiated Price_ section, choose one of the following discount types:
 
-        - Percentage Discount
-        - Amount Discount
-        - Proposed Price
+      - Percentage Discount
+      - Amount Discount
+      - Proposed Price
 
-    - Enter the amount as a percentage or flat price
+   - Enter the amount as a percentage or flat price
 
-        ![]({% link images/images-b2b/quote-detail-negotiation-comments.png %}){: .zoom}
-        _Negotiation Comments_
+      ![]({% link images/images-b2b/quote-detail-negotiation-comments.png %}){: .zoom}
+      _Negotiation Comments_
 
 1. Send or save the quote:
 

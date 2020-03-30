@@ -24,38 +24,38 @@ Some Vertex field names differ from those used by Magento. See [Vertex Field Map
 
 1. Complete the **Basic Information** section:
 
-    - Choose the **Country** where the business is located.
+   - Choose the **Country** where the business is located.
 
-    - Enter a **Company Code** that will be used to establish the connect between Vertex and your Magento installation. Take note of the Company Code, because you will need it later for the Magento configuration.
+   - Enter a **Company Code** that will be used to establish the connect between Vertex and your Magento installation. Take note of the Company Code, because you will need it later for the Magento configuration.
 
-    - Verify the **Company Name/Filing Entity** that was initially entered during the Vertex registration. If necessary, update the value.
+   - Verify the **Company Name/Filing Entity** that was initially entered during the Vertex registration. If necessary, update the value.
 
-    - Enter the company **Federal ID Number**.
+   - Enter the company **Federal ID Number**.
 
-    - The **Start Date** is set to the first of the year, so you can test historical transactions. This is the default Start Date for customers and products that you set up in Vertex Cloud.
+   - The **Start Date** is set to the first of the year, so you can test historical transactions. This is the default Start Date for customers and products that you set up in Vertex Cloud.
 
 1. Complete the **Address** section:
 
-    - Complete the following fields to describe the _primary contact_ at the company:
+   - Complete the following fields to describe the _primary contact_ at the company:
 
-        - First Name and Last Name
-        - Job Title
-        - Email Address
-        - Phone number
+      - First Name and Last Name
+      - Job Title
+      - Email Address
+      - Phone number
 
-    - Complete the following address fields for the _company_:
+   - Complete the following address fields for the _company_:
 
-        - Street Address
-        - City
-        - State
-        - Zip/Postal Code
+      - Street Address
+      - City
+      - State
+      - Zip/Postal Code
 
 1. You can skip the **Discount Codes** section, because they are not used by Magento.
 
 1. When complete, click **Add Company**. Then when prompted, do one of the following:
 
-    - To confirm your address, click **Yes, Confirm Address Information**.
-    - To make corrections, click **No, edit address information**.
+   - To confirm your address, click **Yes, Confirm Address Information**.
+   - To make corrections, click **No, edit address information**.
 
     A summary of your _Filing Entity Information_ appears in the black section at the top of the _Configure Company_ page; however, the configuration is not yet complete.
 
@@ -71,9 +71,9 @@ This enables each jurisdiction where your company calculates and reports sales a
 
 1. Choose the territory where jurisdictions are to be enabled for the company:
 
-    - United States
-    - Canada
-    - International
+   - United States
+   - Canada
+   - International
 
     ![]({% link images/images/tax-vertex-cloud-configure-registration-country.png %}){: .zoom}
     _Registration_
@@ -94,19 +94,19 @@ The configuration settings for each company are organized into three columns on 
 
 1. Under **Common Forms**, complete at least one of the forms listed. The company might need to include one or more schedules, in addition to the required return. To complete the required forms for the state, do the following:
 
-    - Click the name of the form.
+   - Click the name of the form.
 
         ![]({% link images/images/tax-vertex-configure-jurisdictions-texas-registrations-returns.png %}){: .zoom}
         _Texas Returns_
 
-    - If applicable, select the checkbox of each schedule that is needed in addition to the required form. Then, complete the **Registration Details**.
+   - If applicable, select the checkbox of each schedule that is needed in addition to the required form. Then, complete the **Registration Details**.
 
-        The Registration Details vary for each jurisdiction. The Texas Sales/Use Tax Return includes the following fields:
+      The Registration Details vary for each jurisdiction. The Texas Sales/Use Tax Return includes the following fields:
 
-        - **Registration Number**—Enter the registration number from your state tax resellers permit.
-        - **Filing Method**—(Optional) Choose the method that you want to use to file your returns. Options: Mail a paper return, Web File
-        - **Filing Frequency**—Choose how often you want to file returns. Options: Monthly, Quarterly, Annually
-        - **Single Location Code**—(Optional) Some forms have a Single/Multi Location indicator, and Location Code that is preprinted on the form.
+      - **Registration Number**—Enter the registration number from your state tax resellers permit.
+      - **Filing Method**—(Optional) Choose the method that you want to use to file your returns. Options: Mail a paper return, Web File
+      - **Filing Frequency**—Choose how often you want to file returns. Options: Monthly, Quarterly, Annually
+      - **Single Location Code**—(Optional) Some forms have a Single/Multi Location indicator, and Location Code that is preprinted on the form.
 
 1. When complete, click **Save**. Then, click **Return to Company Overview**.
 
@@ -129,19 +129,19 @@ _Enabled State_
 
 1. Under _Location Information_, do the following:
 
-    - Enter the **Location Code**.
+   - Enter the **Location Code**.
 
-        The Location Code is an identifier that is used in batch uploads of adjustment files. If you do not have a preassigned Location Code, you can create one. The Location Code cannot be changed after the company configuration is saved.
+      The Location Code is an identifier that is used in batch uploads of adjustment files. If you do not have a preassigned Location Code, you can create one. The Location Code cannot be changed after the company configuration is saved.
 
-        Take note of the Location Code that you enter, because you need it later for the Magento configuration.
+      Take note of the Location Code that you enter, because you need it later for the Magento configuration.
 
-    - Enter the **Location Name**.
-    - Use the **Calendar** to choose the **Start Date** for the location to be recognized by Vertex Cloud.
+   - Enter the **Location Name**.
+   - Use the **Calendar** to choose the **Start Date** for the location to be recognized by Vertex Cloud.
 
 1. Under _Location Address_, do the following:
 
-    - Enter the **Street Address** of the business location. For a two-line address, also complete **Street Address 2**.
-    - Enter the **City**, **State**, and **Zip/Postal Code** of the business location.
+   - Enter the **Street Address** of the business location. For a two-line address, also complete **Street Address 2**.
+   - Enter the **City**, **State**, and **Zip/Postal Code** of the business location.
 
 1. Any additional requirements for the location are listed under **Location Specific Information**. The options vary from state to state. Complete this section, as applicable.
 
@@ -159,13 +159,13 @@ _Advanced Settings_
 
 1. Do the following for the applicable **Cities**, **Counties**, and **Districts/Other** options:
 
-    - Click **Edit**.
-    - Clear the checkbox of any jurisdiction where the company has no tax requirements.
+   - Click **Edit**.
+   - Clear the checkbox of any jurisdiction where the company has no tax requirements.
 
 1. Choose one of the following dates for the jurisdiction settings to take effect.
 
-    - Today
-    - Company Start Date
+   - Today
+   - Company Start Date
 
 1. When complete, click **Save**.
 
@@ -185,12 +185,12 @@ _Advanced Settings_
 
 1. The basic Vertex configuration is now complete. At this point, you can either skip ahead to the Magento configuration, or continue the Vertex configuration.
 
-    - Complete the [Magento Configuration]({% link tax/vertex-configure-magento.md %})
+   - Complete the [Magento Configuration]({% link tax/vertex-configure-magento.md %})
 
-    - Continue with the following sections of the Vertex configuration:
+   - Continue with the following sections of the Vertex configuration:
 
-        - [Products]({% link tax/vertex-setup-products.md %})
-        - [Customer Exceptions]({% link tax/vertex-setup-customer-exceptions.md %})
+      - [Products]({% link tax/vertex-setup-products.md %})
+      - [Customer Exceptions]({% link tax/vertex-setup-customer-exceptions.md %})
 
 [1]: https://helpcenter.vertexsmb.com/docs/getting-started/test-mode/
 [2]: https://helpcenter.vertexsmb.com/docs/company-configuration/registrations/adding-new-locations/
