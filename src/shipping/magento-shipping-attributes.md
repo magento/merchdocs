@@ -27,7 +27,7 @@ Mapping for **Resource**, **Object**, or **Array** attribute types is not suppor
 
 1.  For the _Magento product attribute_ drop-down in the _Magento Product Attribute_ column, choose the corresponding Magento product attribute.
 
-4.	Click **Save Mapping**.
+4. Click **Save Mapping**.
 
 ## To Add a Custom Magento Shipping Attribute
 
