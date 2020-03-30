@@ -18,7 +18,9 @@ After you create and activate the recommendation unit, Magento will begin [colle
 
 1. Click the **Create Recommendation** button.
 
-1. In the **Name your Recommendation** section, enter a name that uniquely identifies the recommendation, such as *Home page most viewed* or *Cart trending*. This is used for internal tracking only to help you identify this recommendation on your dashboard.
+1. In the **Name your Recommendation** section, enter a name that uniquely identifies the recommendation, such as *Home page most viewed* or *Cart trending*.
+
+   This is used to help you identify this recommendation on your dashboard.
 
 1. In the **Storefront display label** section, enter the name for your recommendation, such as "We found other products you might like!".
 
