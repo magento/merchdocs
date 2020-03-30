@@ -23,9 +23,9 @@ _Free Shipping Banner in Header_
 
    - In the **Applies To** list, select one of the following:
 
-     - Any Banner Type
+      - Any Banner Type
 
-     - Specified Banner Types
+      - Specified Banner Types
 
          This setting determines the location on the page where the banner is placed. (To select more than one, hold the Ctrl key down and click each option.)
 
@@ -63,9 +63,9 @@ _Free Shipping Banner in Header_
 
    - Do either of the following:
 
-     - Click **Browse** to find the image on your local computer.
+      - Click **Browse** to find the image on your local computer.
 
-     - Locate the image in the media folders on the left.
+      - Locate the image in the media folders on the left.
 
    - Click <span class="btn">Insert File</span>.
 

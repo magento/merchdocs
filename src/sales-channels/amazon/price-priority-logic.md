@@ -9,7 +9,7 @@ In the example below, how does the system determine if we should publish $31.99,
 
 To determine which price will be used if a product is on two websites and has a varying price per website, we use price priority logic (determined by the [website priority]({% link sales-channels/amazon/listing-rules.md %})).
 
-To view your stores' sort order, on the Admin screen, click **Stores** and then click **All Stores**. In the Web Site column, click the website name. The Web Site Information screen contains the Sort Order field, which determines the priority of the website. A value of ‘1’ indicates the highest priority.
+To view your stores' sort order, on the Admin screen, click **Stores** and then click **All Stores**. In the Web Site column, click the website name. The Web Site Information screen contains the Sort Order field, which determines the priority of the website. A value of '1' indicates the highest priority.
 
 If the product price is set to Use Default, it will fall back to the default price value instead of the website price value.
 

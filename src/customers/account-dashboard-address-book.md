@@ -26,11 +26,11 @@ Customers who keep their address books current can speed through the checkout pr
 
 1. Define the new address item:
 
-    - Complete the contact and address information.
+   - Complete the contact and address information.
 
       By default, the customer’s first and last names initially appear in the form.
 
-    - Select the following checkboxes to indicate how the address is to be used. Select both checkboxes if the same address is used for both billing and shipping.
+   - Select the following checkboxes to indicate how the address is to be used. Select both checkboxes if the same address is used for both billing and shipping.
 
       - Use as my default billing address
       - Use as my default shipping address

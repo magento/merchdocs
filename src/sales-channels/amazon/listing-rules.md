@@ -23,7 +23,7 @@ _Listing Rules_
 
 Any areas in the conditions that are bold can be clicked to see the various options.
 
-- Don’t add conditions if all products within the selected website(s) are eligible.
+- Don't add conditions if all products within the selected website(s) are eligible.
 - There is a complex set of back-end processes to communicate with Amazon's systems directly. Based on the number of items you are attempting to list, and how busy Amazon's systems might be (for example, Black Friday can be a slow time to list new products), it may take time for your items to be listed on Amazon.
 
 For more information about conditions, see [Describe the Conditions]({% link marketing/price-rules-cart.md %}).

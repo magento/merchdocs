@@ -22,20 +22,20 @@ Follow the steps below to set up the type of free shipping promotion that you wa
 
 1. Complete the **Rule Information** as follows:
 
-    - Enter a **Rule Name** for internal reference.
-    - Enter a brief **Description** to describe the rule.
-    - Set **Active** to `Yes`.
-    - In the **Websites** box, select each site where the free shipping coupon is to be available.
-    - Select the **Customer Groups** to which the rule applies.
-    - Set **Coupon** to one of the following:
+   - Enter a **Rule Name** for internal reference.
+   - Enter a brief **Description** to describe the rule.
+   - Set **Active** to `Yes`.
+   - In the **Websites** box, select each site where the free shipping coupon is to be available.
+   - Select the **Customer Groups** to which the rule applies.
+   - Set **Coupon** to one of the following:
       - To offer a free shipping promotion without a coupon, accept the default (`No Coupon`) setting.
       - To use a coupon with the price rule, select `Specific Coupon`. If necessary, complete the instructions to set up a [coupon]({% link marketing/price-rules-cart-coupon.md %}).
 
 1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Actions** section and do the following:
 
-    - Set **Apply** to `Percent of product price discount`.
-    - Set **Apply to Shipping Amount** to `Yes`.
-    - Set **Free Shipping** to `For shipment with matching items`.
+   - Set **Apply** to `Percent of product price discount`.
+   - Set **Apply to Shipping Amount** to `Yes`.
+   - Set **Free Shipping** to `For shipment with matching items`.
 
       ![Cart price rule - free shipping actions]({% link images/images/price-rule-cart-free-shipping-actions.png %}){: .zoom}
       _Price Rule Action_
@@ -48,18 +48,18 @@ Follow the steps below to set up the type of free shipping promotion that you wa
 
 1. Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) to insert a condition and do the following:
 
-    - In the list under **Cart Attribute**, choose **Subtotal**.
-    - Click **is** and choose `equals or greater than`.
-    - Click **...** and enter a threshold value for the Subtotal, such as `100`, to complete the condition.
+   - In the list under **Cart Attribute**, choose **Subtotal**.
+   - Click **is** and choose `equals or greater than`.
+   - Click **...** and enter a threshold value for the Subtotal, such as `100`, to complete the condition.
 
       ![Cart price rule - condition]({% link images/images/price-rule-cart-free-shipping-condition1.png %}){: .zoom}
       _Condition_
 
 1. If necessary, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Actions** section and do the following:
 
-    - Set **Apply** to `Percent of product price discount`.
-    - Set **Apply to Shipping Amount** to `Yes`.
-    - Set **Free Shipping** to `For shipment with matching items`.
+   - Set **Apply** to `Percent of product price discount`.
+   - Set **Apply to Shipping Amount** to `Yes`.
+   - Set **Free Shipping** to `For shipment with matching items`.
 
       ![Cart price rule - free shipping actions]({% link images/images/price-rule-cart-free-shipping-actions-example2.png %}){: .zoom}
       _Actions_
@@ -72,6 +72,6 @@ Complete [Step 4]({% link marketing/price-rules-cart.md -%}) of the cart price r
 
 {%- include new-price-rule.md -%}
 
-1. When your rule is complete, click <span class="btn"> Save Rule</span>.
+1. When your rule is complete, click <span class="btn">Save Rule</span>.
 
 1. Test the rule to make sure that it works correctly.
