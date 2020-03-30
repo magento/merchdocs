@@ -26,7 +26,6 @@ Purchase Orders must also be enabled at the Company level:
 1. Go to **Customers** > Companies > **<Company Name>** > **Edit** > Advanced Settings.
 1. Set 'Enable Purchase Orders' to 'Yes'.
 
-{.bs-callout-info}
 With both these settings set to 'Yes', all orders placed for that Company will start as Purchase Orders.
 
 ## Enable Purchase Orders on storefront
@@ -79,7 +78,8 @@ From here you can:
 
 ## Purchase Order rules engine
 
-Most companies have an order approval hierarchy. For instance:
+Most companies have order approval rules for purchase orders. Companies can control who gets to create purchase orders and how much they can spend.
+For instance:
 
 *  Any PO less than X value is automatically approved.
 *  POs that is over X value but less than Q must be approved by Y.
@@ -88,11 +88,64 @@ Most companies have an order approval hierarchy. For instance:
 
 Magneto lets you set up these rules to enforce company policy.
 
+To create rules, users with permissions have an 'Approval Rules' link in the left nav bar.
+Permissions to create rules are set in the Access Control List.
+
+If no rules have been created, the list is empty and a Create Rule button is displayed.
+Click the button to create a new rule.
+
+On the Approval Rules form, rules can be Enabled or Disabled.
+
+*  For 'Rule name', provide a short but descriptive name for the Rule: "Orders less than $100". Names must be unique.
+*  Description: A longer explanation of the rule.
+*  Applies to: Choose the company Role(s) that this rule will apply to.
+
+### Rule types
+
+Choose the rule type from the dropdown menu.
+
+#### Order Total
+
+Approve the PO from the order total, including tax.
+
+For Order Total amount, choose from:
+
+*  More than
+*  Equal to
+*  Less than
+
+Select the currency type and enter the amount.
+
+Some companies set a monthly spending limit per user.
+Select whether this rule limits:
+
+*  per order: Users are limited per each order.
+*  per month: Users have a monthly spending cap.
+
+#### Number of SKUs
+
+This rule is based on the number of SKUs or unique products in the order.
+This is the number of distinct item types, not the number of items being ordered.
+For instance:
+
+*  2 large white shirts
+*  3 medium white shirts
+
+That is 5 items but 2 distinct SKUs.
+
+Set the Number of SKUs value:
+
+*  More than
+*  Equal to
+*  Less than
+
+and the quantity of SKUs.
+
 ## Purchase Order email templates
 
 Throughout the process, emails are sent to users at important stages of the workflow.
 
-PO creators will get emails on:
+Purchase order creators will get emails on:
 
 *  PO Creation
 *  Approval
