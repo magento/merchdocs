@@ -9,7 +9,7 @@ Store tax is calculated based on the store’s address. The actual customer tax 
 ![]({% link images/images/tax-zones-rates.png %}){: .zoom}
 _Tax Zones and Rates_
 
-## To define a new tax rate
+## Define a new tax rate
 
 1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Zones and Rates**.
 
@@ -17,35 +17,35 @@ _Tax Zones and Rates_
 
 1. Enter a **Tax Identifier**.
 
-1. To apply the tax rate to a single ZIP or postal code, enter the code in the **Zip/Post Code** field.
+1. To apply the tax rate to a single ZIP or postal code, enter the code for **Zip/Post Code**.
 
-1. The asterisk wildcard (`*`) can be used to match up to ten characters in the code. For example, `90*` represents all ZIP codes from 90000 through 90999.
+   The asterisk wildcard (`*`) can be used to match up to ten characters in the code. For example, `90*` represents all ZIP codes from 90000 through 90999.
 
 1. To apply the tax rate to a range of ZIP or postal codes, do the following:
 
-    - Select the **Zip/Post is Range** checkbox. Then in the _Range From_ and _Range To_ fields, enter the first and last ZIP or postal code to define the range.
+   - Select the **Zip/Post is Range** checkbox. Then in the _Range From_ and _Range To_ fields, enter the first and last ZIP or postal code to define the range.
 
-        ![]({% link images/images/tax-rate-new-zip-post-range.png %}){: .zoom}
-        _ZIP/Post is Range_
+      ![]({% link images/images/tax-rate-new-zip-post-range.png %}){: .zoom}
+       _ZIP/Post is Range_
 
-    - Choose the **State** where the tax rate applies.
+   - Choose the **State** where the tax rate applies.
 
-    - Choose the **Country** where the tax rate applies.
+   - Choose the **Country** where the tax rate applies.
 
-    - Enter the **Rate Percent** that is used for the tax rate calculation.
+   - Enter the **Rate Percent** that is used for the tax rate calculation.
 
 1. When complete, click <span class="btn">Save Rate</span>.
 
-    ![]({% link images/images/tax-rate-new.png %}){: .zoom}
-    _New Tax Rate_
+   ![]({% link images/images/tax-rate-new.png %}){: .zoom}
+   _New Tax Rate_
 
-## To edit an existing tax rate:
+## Edit an existing tax rate
 
 1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Zones and Rates**.
 
 1. Find the tax rate in the _Tax Zones and Rates_ grid, and open the record in edit mode.
 
-    If there are many rates in the list, use the [filter controls]({% link stores/admin-grid-controls.md %}) to find the rate you need.
+   If there are many rates in the list, use the [filter controls]({% link stores/admin-grid-controls.md %}) to find the rate you need.
 
 1. Make the necessary changes to the **Tax Rate Information**.
 

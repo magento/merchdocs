@@ -12,45 +12,45 @@ Vertex offers three pricing plans, plus access to additional services. All Verte
 
 1. Choose the pricing plan you want, and click **Request Info**.
 
-    {:.bs-callout-info}
-    Vertex Cloud is available to companies located in the U.S. or Canada.
+   {:.bs-callout-info}
+   Vertex Cloud is available to companies located in the U.S. or Canada.
 
 1. You will receive an email with a link to register your Vertex Cloud account. Click the link, and complete the registration as follows:
 
-    - Enter your **Username**, **Password**, and **Password Confirmation**. Your username and password are case sensitive. Make sure to write them down for future reference.
+   - Enter your **Username**, **Password**, and **Password Confirmation**. Your username and password are case sensitive. Make sure to write them down for future reference.
 
-    - Complete the fields in the **Company Information** section.
+   - Complete the fields in the **Company Information** section.
 
-    - Complete the fields in the **Contact Information** section.
+   - Complete the fields in the **Contact Information** section.
 
-    - To continue, select the **I agree to the terms of service** checkbox.
+   - To continue, select the **I agree to the terms of service** checkbox.
 
 1. Under _Subscription Information_, choose one of the following **Subscription Levels**, according to your pricing plan:
 
-    - Standard
-    - Professional
-    - Premium
+   - Standard
+   - Professional
+   - Premium
 
-    Select the checkbox of any optional features and services that you want to add to your account.
+   Select the checkbox of any optional features and services that you want to add to your account.
 
 1. Under **Billing Information**, do the following:
 
-    - Complete your **Billing Address**.
+   - Complete your **Billing Address**.
 
-    {:.bs-callout-info}
-    Your company’s billing address is required if paying by credit card, and must be located in either the U.S. or Canada.
+   {:.bs-callout-info}
+   Your company’s billing address is required if paying by credit card, and must be located in either the U.S. or Canada.
 
-    - Choose the **Payment Method** that you want to use. Then, complete the required information.
+   - Choose the **Payment Method** that you want to use. Then, complete the required information.
 
 1. To complete the process, click **Submit Billing Information & Finish**.
 
 1. Complete the [Vertex Cloud configuration]({% link tax/vertex-setup.md %}).
 
-    {:.bs-callout-info}
-    Some of our instructions include links for more information in the Vertex Cloud Help Center. You must be logged in to your account to gain access to the Vertex Cloud Help Center.
+   {:.bs-callout-info}
+   Some of our instructions include links for more information in the Vertex Cloud Help Center. You must be logged in to your account to gain access to the Vertex Cloud Help Center.
 
-    ![]({% link images/images/tax-vertex-cloud-dashboard.png %}){: .zoom}
-    _Vertex Cloud Dashboard_
+   ![]({% link images/images/tax-vertex-cloud-dashboard.png %}){: .zoom}
+   _Vertex Cloud Dashboard_
 
 [1]: https://www.vertexsmb.com/pricing/
 [2]: https://www.vertexsmb.com/

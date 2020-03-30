@@ -8,9 +8,13 @@ Fixed product taxes apply at the item level, based on the product. In some juris
 
 We recommend that you exercise caution when quoting FPT prices in email, because the difference in price can affect customer confidence in their orders. For example, if you display Order Review prices without showing FPT, customers who buy items with associated FPT will see a total that includes the FPT tax amount, but without an itemized breakdown. The difference in price might lead some customers to abandon their carts because the total differs from the amount expected.
 
-## FPT Display Prices
+## FPT display prices
 
-|FPT|Display Setting and Calculation|
+|FPT|Display setting and calculation|
 |--- |--- |
-|Not Taxed|**Excluding FPT** - FPT appears as a separate row in the cart, and the  value is used in appropriate tax calculations. <br/>**Including FPT** - FPT is added to the base price of an item; but is not included in tax- rule-based calculations. <br/>**Excluding FPT, FPT Description, Final Price** - Prices appear without FPT amount or description. FPT is not included in tax-rule-based calculations.|
-|Taxed|**Excluding FPT** - FPT appears as a separate row in the cart, and the  value is used in appropriate tax calculations. <br/>**Including FPT** - FPT is included in the price of an item, and no change to tax calculations is required. <br/>**Excluding FPT, FPT Description, Final Price** - Prices appear without the FPT amount or description. However, FPT is included in tax-rule-based calculations.|
+|Not Taxed|**Excluding FPT**|FPT appears as a separate row in the cart, and the  value is used in appropriate tax calculations.
+| |**Including FPT**|FPT is added to the base price of an item; but is not included in tax- rule-based calculations.|
+| |**Excluding FPT, FPT Description, Final Price**|Prices appear without FPT amount or description. FPT is not included in tax-rule-based calculations.|
+|Taxed|**Excluding FPT**|FPT appears as a separate row in the cart, and the  value is used in appropriate tax calculations.|
+| |**Including FPT**|FPT is included in the price of an item, and no change to tax calculations is required.|
+| |**Excluding FPT, FPT Description, Final Price**|Prices appear without the FPT amount or description. However, FPT is included in tax-rule-based calculations.|
