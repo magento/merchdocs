@@ -96,13 +96,21 @@ Click the button to create a new rule.
 
 On the Approval Rules form, rules can be Enabled or Disabled.
 
+### Rule types and common options
+
+Choose the rule type from the dropdown menu.
+All rules have common options:
+
 *  For 'Rule name', provide a short but descriptive name for the Rule: "Orders less than $100". Names must be unique.
 *  Description: A longer explanation of the rule.
 *  Applies to: Choose the company Role(s) that this rule will apply to.
 
-### Rule types
+#### Requires approval from
 
-Choose the rule type from the dropdown menu.
+Companies can require approvals from one or more users in other roles.
+
+To require an approval from a single user, choose the approval role from the dropdown.
+If this rule requires further approvers, click the 'Add additional approver' link, and choose the next approver role.
 
 #### Order Total
 
@@ -139,7 +147,29 @@ Set the Number of SKUs value:
 *  Equal to
 *  Less than
 
-and the quantity of SKUs.
+and the quantity of SKUs to test.
+
+Select whether this rule limits:
+
+*  per order: Users are limited per each order.
+*  per month: Users have a monthly spending cap.
+
+#### Shipping cost
+
+Some companies will limit or control shipping costs. Use this rule to approve or disapprove by shipping cost.
+
+Set the Shipping cost value:
+
+*  More than
+*  Equal to
+*  Less than
+
+and the shipping amount to test.
+
+Select whether this rule limits:
+
+*  per order: Shipping cost limited per each order.
+*  per month: Shipping costs are limited monthly.
 
 ## Purchase Order email templates
 
