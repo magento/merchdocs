@@ -273,7 +273,7 @@ pages:
       url: "/payment/cybersource.html"
     - label: eWAY - Deprecated
       url: "/payment/eway.html"
-    - label: Worldpay
+    - label: Worldpay - Deprecated
       url: "/payment/worldpay.html"
   - label: Basic Payment Methods
     url: "/payment/payment-methods.html"
