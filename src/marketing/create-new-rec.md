@@ -20,7 +20,9 @@ After you create and activate the recommendation unit, Magento will begin [colle
 
 1. In the **Name your Recommendation** section, enter an internally-facing name that uniquely identifies the recommendation on your dashboard, such as *Home page most popular*.
 
-1. In the **Storefront display label** section, enter an externally-facing name your shoppers will see, such as "Top sellers". Magento provides the [following guidance for label names]({% link marketing/recommendation-best-practices.md %}#bplabels).
+1. In the **Storefront display label** section, enter an externally-facing name your shoppers will see, such as "Top sellers".
+
+   Magento provides the [following guidance for label names]({% link marketing/recommendation-best-practices.md %}#bplabels).
 
 1. In the **Select page type** section, select the page on which you want the recommendation to appear.
 
