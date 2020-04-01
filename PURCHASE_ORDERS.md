@@ -41,6 +41,14 @@ Initially, only the Company Admins can assign permissions to Customers.
       *  View Purchase Orders - Allows the viewing of Purchase Orders created by the user and all subordinate users.
       *  Auto-approve POs created within this role - Skips rule checking and auto-approves POs made by anyone in this role.
 
+
+## Purchase order roles and permissions
+
+Company admins can control permissions around purchase orders through the Access Control List (ACL).
+
+
+
+
 ## Manage Purchase Orders
 
 Company Users with Purchase Order permissions can create, edit and delete POs created by themselves and subordinate users.
@@ -65,14 +73,12 @@ You can also click the Comments tab to see any comments about this PO and the Hi
 
 ### Purchase Order approval
 
-From the View Purchase Order page, users with permissions can manage the PO workflow from here.
+From the View Purchase Order page, users, with proper Role permissions, can:
 
-From here you can:
-
-*  Approve Purchase Order
-*  Reject Purchase Order
-*  Cancel Purchase Order
-*  Add Comment - Use the Add Comment field.
+*  Approve Purchase Orders
+*  Reject Purchase Orders
+*  Cancel Purchase Orders
+*  Add Comments - Use the Add Comment field.
 
 <!-- New topic might be needed for rules. -->
 
@@ -86,7 +92,7 @@ For instance:
 *  Any PO over X value must be approved by Y and Z.
 *  Anyone making a PO at the Director level or above are automatically approved.
 
-Magneto lets you set up these rules to enforce company policy.
+Magneto lets you set up these rules to enforce company policies.
 
 To create rules, users with permissions have an 'Approval Rules' link in the left nav bar.
 Permissions to create rules are set in the Access Control List.
@@ -96,7 +102,7 @@ Click the button to create a new rule.
 
 On the Approval Rules form, rules can be Enabled or Disabled.
 
-### Rule types and common options
+## Rule types and common options
 
 Choose the rule type from the dropdown menu.
 All rules have common options:
@@ -105,14 +111,14 @@ All rules have common options:
 *  Description: A longer explanation of the rule.
 *  Applies to: Choose the company Role(s) that this rule will apply to.
 
-#### Requires approval from
+### Requires approval from
 
 Companies can require approvals from one or more users in other roles.
 
-To require an approval from a single user, choose the approval role from the dropdown.
+To require an approval, choose an approval role from the dropdown.
 If this rule requires further approvers, click the 'Add additional approver' link, and choose the next approver role.
 
-#### Order Total
+### Order Total
 
 Approve the PO from the order total, including tax.
 
@@ -130,7 +136,7 @@ Select whether this rule limits:
 *  per order: Users are limited per each order.
 *  per month: Users have a monthly spending cap.
 
-#### Number of SKUs
+### Number of SKUs
 
 This rule is based on the number of SKUs or unique products in the order.
 This is the number of distinct item types, not the number of items being ordered.
@@ -154,7 +160,7 @@ Select whether this rule limits:
 *  per order: Users are limited per each order.
 *  per month: Users have a monthly spending cap.
 
-#### Shipping cost
+### Shipping cost
 
 Some companies will limit or control shipping costs. Use this rule to approve or disapprove by shipping cost.
 
