@@ -15,5 +15,5 @@ Magento supports numerous payment solutions that offer merchant services in all 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 - [CyberSource]({% link payment/cybersource.md %}) - Deprecated
 - [eWAY]({% link payment/eway.md %}) - Deprecated
-- [Worldpay]({% link payment/worldpay.md %})
+- [Worldpay]({% link payment/worldpay.md %}) - Deprecated
 <!--{% endif %}-->
