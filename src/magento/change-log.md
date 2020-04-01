@@ -25,7 +25,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Create New Recommendation]({% link marketing/create-new-rec.md %})|Additional content to describe how product recommendations use Adobe Sensei.|
 |[Best Practices Using Recommendations]({% link marketing/recommendation-best-practices.md %})| Additional content to describe the Trending recommendation type.|<!--{% endif %}-->
 |<!--{% if "Default.EE-B2B" contains site.edition %}-->[Worldpay]({% link payment/worldpay.md %})<br />[CyberSource - Deprecated]({% link payment/cybersource.md %})<br />[eWAY - Deprecated]({% link payment/eway.md %})<br /><!--{% endif %}-->[Authorize.Net - Deprecated]({% link payment/authorize-net.md %})<br />[Authorize.Net Direct Post- Deprecated]({% link payment/authorize-net-direct-post.md %})|Updated information for transitioning from deprecated payment integrations.|
-|[UPS]({% link shipping/ups.md %})|Correction for the available "Destination Type" options.|
+|[UPS]({% link shipping/ups.md %})|Correction for the available _Destination Type_ options.|
 |[Create a Credit Memo]({% link sales/credit-memo-create.md %})|Improved information about the credit memo refund process for online (credit) and offline (cash/money order) orders.|
 |[Create a Cart Price Rule]({% link marketing/price-rules-cart-create.md %})|Updates to reflect UI changes.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
 |[Dynamic Blocks in Price Rules]({% link cms/dynamic-blocks-price-rules.md %})|Updates to clarify dynamic block and promotional rule associations.|<!--{% endif %}-->
