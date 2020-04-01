@@ -2,30 +2,32 @@
 title: Message Templates
 ---
 
-The process of customizing the body of each message is the same as the customizing the header or footer. The only difference is that there is a different message template for each activity or event that triggers a notification. You can use the templates as they are, or customize them to match your voice and brand. In addition to the template text, there is a wide selection of [variables]({% link marketing/variables.md %}) that can be incorporated into the template.
+The process of customizing the body of each message is the same as the customizing the header or footer. The only difference is that there is a different message template for each activity or event that triggers a notification. You can use the templates as they are, or customize them to match your voice and brand. In addition to the template text, there is a wide selection of whitelisted [predefined]({% link marketing/variables-predefined.md %}) variables and [custom]({% link marketing/variables-custom.md %}) varibles that you can create and incorporate into the template.
 
-## Step 1. Load the Default Template
+## Step 1. Load the default template
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Communications_ > **Email Templates**.
 
-1. Click <span class="btn">Add New Template</span>. Then, do the following:
+1. Click <span class="btn">Add New Template</span>.
 
-    - Under **Load default template**, choose the template that you want to customize.
+   ![Email templates - load default template]({% link images/images/email-templates-message-load-default.png %}){: .zoom}
+   _Template Information_
+
+1. Do the following:
+
+    - Under **Load default template**, choose the **Template** that you want to customize.
 
     - Click <span class="btn">Load Template</span>.
 
-    ![Email templates - load default template]({% link images/images/email-templates-message-load-default.png %}){: .zoom}
-    _Default Message Template_
-
-## Step 2. Customize the Template
+## Step 2. Customize the template
 
 1. In the **Template Name** field, enter a name for your custom template.
 
 1. If needed, change the **Template Subject**.
 
-   This is contains the first line of the message, which is the salutation by default. You can leave it as is, or enter something more descriptive.
+   This is the first line of the message, which is the salutation by default. You can leave it as is, or enter something more descriptive.
 
-1. Take note of the **Currently Used For** path to the template configuration. You will later follow this path to update the configuration.
+1. Take note of the **Currently Used For** path to the template. You will later follow this path to update the configuration.
 
     ![Email templates - template information]({% link images/images/email-template-message-information.png %}){: .zoom}
     _Message Template Information_
@@ -37,49 +39,56 @@ The process of customizing the body of each message is the same as the customizi
     {:.bs-callout-info}
     When working in the template code, be careful not to accidentally type over the code that is enclosed in double braces.
 
-    ![Email templates - template comtent]({% link images/images/email-template-message-content.png %}){: .zoom}
-    _Template Message Content_
+1. To insert a variable, position the cursor in the code where you want the variable to appear.
 
-1. To insert a variable, position the cursor in the code where you want the variable to appear, click <span class="btn">Insert Variable</span>, and choose the variable that you want to insert.
+   The selection of variables varies by template, and includes whitelisted predefined and custom variables, if avalable.
 
-    When a variable is selected, a [markup tag]({% link marketing/markup-tags.md -%}) for the variable is inserted in the code.
+1. Click <span class="btn">Insert Variable</span> and choose the variable that you want to insert.
 
-    ![Email templates - insert variable]({% link images/images/email-template-variable-message.png %}){: .zoom}
-    _Insert Variable_
+   ![Email templates - insert variable]({% link images/images/email-template-insert-variable.png %}){: .zoom}
+   _Insert Variable_
 
-    In addition to the Store Contact variables, the list includes the Customer Account URL, Customer Email, and Customer Name. However, you are not limited to the variables in this list. You can enter the code for any system or [custom variable]({% link marketing/variables-custom.md %}) directly into the template.
+   A command to insert the variable is enclosed in curly braces and added to the code at the cursor location. For example:
 
-1. If you need to make any CSS declarations, enter the styles in the **Template Styles** box.
+   `customVar code=my_custom_variable`
 
-## Step 3. Update the Configuration
+1. To make CSS declarations, enter the styles in the **Template Styles** box.
 
-1. In the breadcrumb trail at the top of the Template Information section, find the following information, as it relates to your template.
+## Step 3. Update the configuration
 
-   In this example the template configuration is located on the Customer Configuration page, in the Create New Account Options section, and in the Default Welcome Email field.
+The Currently Used For breadcrumb trail at the top of the Template Information section shows where the template is used. In this example the template configuration is located on the Customer Configuration page, in the Create New Account Options section, and in the Default Welcome Email field.
 
-    |Page|Customer Configuration|
-    |Section|Create New Account Options|
-    |Field|Default Welcome Email|
+|Page|Customer Configuration|
+|Section|Create New Account Options|
+|Field|Default Welcome Email|
 
-1. Click the link to open the template configuration page.
+1. In the **Currently Used For** breadcrumb trail, click the link to open the template configuration page.
 
     ![]({% link images/images/email-template-new-currently-used-for.png %}){: .zoom}
     _Current email template_
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the section, find the field for the email template that you customized, and specify the new custom template as the default.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the section, and find the field for the email template that you customized.
 
-    ![Customers configuration - default welcome email template]({% link images/images/email-template-message-configuration-default-template.png %}){: .zoom}
-    _Welcome Email Configuration_
+1. Clear the **Use system value** checkbox, and click the name of your custom template.
 
-## Step 4. Preview and Save the Template
+   ![Customers configuration - default welcome email template]({% link images/images/email-template-message-configuration-default-template.png %}){: .zoom}
+   _Welcome Email Configuration_
 
-1. When you are ready to review your work, click <span class="btn">Preview Template</span>. Then, make adjustments to the template as needed.
+1. When complete, click <span class="btn">Save Config</span>.
+
+1. In the message at the top of the workspace, click **Cache Management** and clear any invalid cache.
+
+## Step 4. Preview and save the template
+
+1. When you are ready to review your work, click <span class="btn">Preview Template</span>.
+
+1. Update the template as needed.
 
 1. When complete, click <span class="btn">Save Template</span>.
 
    Your custom template is now available in the list of Email templates.
 
-    ![]({% link images/images/email-templates-grid-new-account-template.png %}){: .zoom}
+   ![]({% link images/images/email-templates-grid-new-account-template.png %}){: .zoom}
 
 ## Field Descriptions
 
