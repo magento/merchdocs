@@ -17,7 +17,7 @@ _Predefined Variables for Email Template_
 
     - To use the variable in a new template, click <span class="btn">Add New Template</span> and customize the default template code. To learn more, see [Message Templates]({% link marketing/email-template-message.md %}).
 
-1. For a list of the predefined variables that can be used with this email template, click <span class="btn">Insert Variable</span>.
+1. For a list of the [predefined]({% link marketing/variables-predefined.md %}) variables that can be used with this email template, click <span class="btn">Insert Variable</span>.
 
    Determine which variable you want to insert into the template. Then, click **Close** (x) in the upper-right corner. (You will return to this later.)
 
