@@ -41,7 +41,7 @@ The process of customizing the body of each message is the same as the customizi
 
 1. To insert a variable, position the cursor in the code where you want the variable to appear.
 
-   The selection of variables varies by template, and includes whitelisted predefined and custom variables, if avalable.
+   The selection of variables varies by template and includes whitelisted [predefined]({% link marketing/variables-predefined.md %}) and [custom]({% link marketing/variables-custom.md %}) variables, if available.
 
 1. Click <span class="btn">Insert Variable</span> and choose the variable that you want to insert.
 
