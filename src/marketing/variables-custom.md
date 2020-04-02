@@ -26,9 +26,9 @@ Only whitelisted [predefined]({% link marketing/variables-predefined.md %}) or c
 
 1. To enter the value that is associated with the variable, do one of the following:
 
-   - In the **Variable HTML Value** field, enter the variable value formatted with simple HTML tags For example:
+   - For **Variable HTML Value**, enter the variable value formatted with simple HTML tags. For example:
       `<b>This formatted content appears in place of the variable.</b>`
-   - In the **Variable Plain Value** field, enter the variable value as plain text without formatting. For example:
+   - For **Variable Plain Value**, enter the variable value as plain text without formatting. For example:
       `This unformatted content appears in place of the variable.`
 
    {:.bs-callout-info}
