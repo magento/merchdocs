@@ -93,5 +93,5 @@ The following example shows how to use [Page Builder]({% link cms/page-builder.m
    ![Page Builder stage]({% link images/images-ee/pagebuilder-variable-inserted.png %}){: .zoom}
    _Variable Placeholder_
 
-1. When the content is complete, click <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span>.
 <!--{% endif %}-->
