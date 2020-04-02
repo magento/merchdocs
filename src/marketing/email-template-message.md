@@ -21,7 +21,7 @@ The process of customizing the body of each message is the same as the customizi
 
 ## Step 2. Customize the template
 
-1. In the **Template Name** field, enter a name for your custom template.
+1. For **Template Name**, enter a name for your custom template.
 
 1. If needed, change the **Template Subject**.
 
