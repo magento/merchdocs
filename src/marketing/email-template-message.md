@@ -56,7 +56,7 @@ The process of customizing the body of each message is the same as for customizi
 
 ## Step 3. Update the configuration
 
-The Currently Used For breadcrumb trail at the top of the Template Information section shows where the template is used. In this example the template configuration is located on the Customer Configuration page, in the Create New Account Options section, and in the Default Welcome Email field.
+The Currently Used For breadcrumb trail at the top of the Template Information section shows where the template is used. In this example, the template configuration is located on the Customer Configuration page, in the Create New Account Options section, and in the Default Welcome Email field.
 
 |Page|Customer Configuration|
 |Section|Create New Account Options|
