@@ -65,8 +65,10 @@ _Klarna Merchant Portal_
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Klarna API** section. Then, do the following:
 
    - Set **API Version** to one of the following:
-     **Klarna Payments (Europe)**: <br/>Supported countries: AT / DE / DK / FI / NL / NO / SE / UK
-     **Klarna Payments (North America)**
+     * **Klarna Payments (Europe)**: 
+        * Supported countries: AT / DE / DK / FI / NL / NO / SE / UK / CH
+     * **Klarna Payments (North America)**
+        * Supported countries: CA / US
    - In the **Merchant ID/EID** field, enter the **Merchant ID** from your Klarna credentials.
    - In the **Password/Shared secret** field, enter the **password** from your Klarna API credentials.
    - To use the Klarna Playground for test transactions, set **Test Mode** to `Yes`.
