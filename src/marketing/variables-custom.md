@@ -18,7 +18,7 @@ Only whitelisted [predefined]({% link marketing/variables-predefined.md %}) or c
    ![Custom variables]({% link images/images/variables-custom.png %}){: .zoom}
    _Custom Variables_
 
-1. Enter an identifier in the **Variable Code** field, using all lowercase characters without spaces.
+1. Enter an identifier for **Variable Code**, using all lowercase characters without spaces.
 
    If needed, you can use an underscore character or hyphen to represent a space. For example: `my_custom_variable`
 
