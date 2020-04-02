@@ -62,7 +62,7 @@ The following example shows how to insert a variable into a page.
    ![New custom variable]({% link images/images/variable-custom-insert-content.png %}){: .zoom}
    _Custom Variable Code_
 
-1. When the content is complete, click <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span>.
 <!--{% endif %}-->
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
