@@ -72,7 +72,7 @@ The following example shows how to use [Page Builder]({% link cms/page-builder.m
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Content** section.
 
-1. In the left panel, click **Elements**. Then, do one of the following:
+1. In the left panel, click **Elements** and do one of the following:
 
    - Click in an existing text area where you want to insert the variable.
 
