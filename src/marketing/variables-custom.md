@@ -50,7 +50,7 @@ The following example shows how to insert a variable into a page.
 
 1. Position the insertion point in the editor where you want the variable to appear and click <span class="btn">Insert Variable</span>.
 
-1. Select the option for the custom variable that you want to insert. Then, click <span class="btn">Insert Variable</span>.
+1. Select the option for the custom variable that you want to insert and click <span class="btn">Insert Variable</span>.
 
    ![New custom variable]({% link images/images/variable-custom-insert-select.png %}){: .zoom}
    _Select Custom Variable_
