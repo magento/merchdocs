@@ -69,7 +69,7 @@ The Currently Used For breadcrumb trail at the top of the Template Information s
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the section, and find the field for the email template that you customized.
 
-1. Clear the **Use system value** checkbox, and click the name of your custom template.
+1. Clear the **Use system value** checkbox and click the name of your custom template.
 
    ![Customers configuration - default welcome email template]({% link images/images/email-template-message-configuration-default-template.png %}){: .zoom}
    _Welcome Email Configuration_
