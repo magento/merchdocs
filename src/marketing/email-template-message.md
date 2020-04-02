@@ -2,7 +2,7 @@
 title: Message Templates
 ---
 
-The process of customizing the body of each message is the same as the customizing the header or footer. The only difference is that there is a different message template for each activity or event that triggers a notification. You can use the templates as they are, or customize them to match your voice and brand. In addition to the template text, there is a wide selection of whitelisted [predefined]({% link marketing/variables-predefined.md %}) variables and [custom]({% link marketing/variables-custom.md %}) varibles that you can create and incorporate into the template.
+The process of customizing the body of each message is the same as for the header or footer. The only difference is the message template for each activity or event that triggers a notification. You can use the templates as they are, or customize them to match your voice and brand. In addition to the template text, there is a wide selection of whitelisted [predefined]({% link marketing/variables-predefined.md %}) variables and [custom]({% link marketing/variables-custom.md %}) varibles that you can create and incorporate into the template.
 
 ## Step 1. Load the default template
 
