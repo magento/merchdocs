@@ -25,7 +25,7 @@ The process of customizing the body of each message is the same as the customizi
 
 1. If needed, change the **Template Subject**.
 
-   This is the first line of the message, which is the salutation by default. You can leave it as is, or enter something more descriptive.
+   This is the first line of the message, which is the salutation by default. You can leave it as is, or you can enter something more descriptive.
 
 1. Take note of the **Currently Used For** path to the template. You will later follow this path to update the configuration.
 
