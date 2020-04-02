@@ -18,7 +18,7 @@ Only whitelisted [predefined]({% link marketing/variables-predefined.md %}) or c
    ![Custom variables]({% link images/images/variables-custom.png %}){: .zoom}
    _Custom Variables_
 
-1. Enter an identifier in the **Variable Code** field, using all lowercase characters without spaces.
+1. Enter an identifier for **Variable Code**, using all lowercase characters without spaces.
 
    If needed, you can use an underscore character or hyphen to represent a space. For example: `my_custom_variable`
 
@@ -48,9 +48,9 @@ The following example shows how to insert a variable into a page.
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Content** section. Then, click <span class="btn">Show / Hide Editor</span> to work in HTML.
 
-1. Position the insertion point in the editor where you want the variable to appear. Then, click <span class="btn">Insert Variable</span>.
+1. Position the insertion point in the editor where you want the variable to appear and click <span class="btn">Insert Variable</span>.
 
-1. Select the option for the custom variable that you want to insert. Then, click <span class="btn">Insert Variable</span>.
+1. Select the option for the custom variable that you want to insert and click <span class="btn">Insert Variable</span>.
 
    ![New custom variable]({% link images/images/variable-custom-insert-select.png %}){: .zoom}
    _Select Custom Variable_
@@ -62,7 +62,7 @@ The following example shows how to insert a variable into a page.
    ![New custom variable]({% link images/images/variable-custom-insert-content.png %}){: .zoom}
    _Custom Variable Code_
 
-1. When the content is complete, click <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span>.
 <!--{% endif %}-->
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
@@ -72,7 +72,7 @@ The following example shows how to use [Page Builder]({% link cms/page-builder.m
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Content** section.
 
-1. In the left panel, click **Elements**. Then, do one of the following:
+1. In the left panel, click **Elements** and do one of the following:
 
    - Click in an existing text area where you want to insert the variable.
 
