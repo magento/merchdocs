@@ -48,7 +48,7 @@ The following example shows how to insert a variable into a page.
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Content** section. Then, click <span class="btn">Show / Hide Editor</span> to work in HTML.
 
-1. Position the insertion point in the editor where you want the variable to appear. Then, click <span class="btn">Insert Variable</span>.
+1. Position the insertion point in the editor where you want the variable to appear and click <span class="btn">Insert Variable</span>.
 
 1. Select the option for the custom variable that you want to insert. Then, click <span class="btn">Insert Variable</span>.
 
