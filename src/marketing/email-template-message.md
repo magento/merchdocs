@@ -52,7 +52,7 @@ The process of customizing the body of each message is the same as the customizi
 
    `customVar code=my_custom_variable`
 
-1. To make CSS declarations, enter the styles in the **Template Styles** box.
+1. To make CSS declarations, enter the styles in **Template Styles**.
 
 ## Step 3. Update the configuration
 
