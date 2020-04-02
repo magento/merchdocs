@@ -83,7 +83,7 @@ The following example shows how to use [Page Builder]({% link cms/page-builder.m
    ![Page Builder stage]({% link images/images-ee/variable-custom-pagebuilder-stage.png %}){: .zoom}
    _PageBuilder Stage and Panel_
 
-1. In the list, select the custom variable that you want to insert. Then, click <span class="btn">Insert Variable</span>.
+1. In the list, select the custom variable that you want to insert and click <span class="btn">Insert Variable</span>.
 
    ![New custom variable]({% link images/images-ee/variable-custom-insert-select.png %}){: .zoom}
    _Select Custom Variable_
