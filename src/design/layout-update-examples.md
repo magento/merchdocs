@@ -12,12 +12,12 @@ The completed layout update code is saved as an XML file  to the directory for t
 ?
 <!-- Action can be specified inside either a <block>
 or <reference> instruction. -->
-	<action method="someActionName">
- 		<arg1>Value 1</arg1>
-		<arg2>Value 2</arg2>
-		<!--   -->
-		 <argN>Value N</argN>
-	</action>
+    <action method="someActionName">
+        <arg1>Value 1</arg1>
+        <arg2>Value 2</arg2>
+        <!--   -->
+         <argN>Value N</argN>
+    </action>
 <!--   -->
 ```
 
