@@ -1,5 +1,6 @@
 ---
 title: Creating a Google Merchant Center Account
+tag: google-shopping
 ---
 
 

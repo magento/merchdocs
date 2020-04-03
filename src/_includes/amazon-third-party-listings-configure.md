@@ -17,4 +17,4 @@
 1. For **Attribute That Contains Amazon ASIN**, select the Magento attribute that you created and match it to the Amazon ASIN.
 
     {:.bs-callout-info}
-    If you did not create these Magento attributes for your Amazon listings, see [Creating Attributes for Amazon Matching]({% link sales-channels/amazon/ob-creating-magento-attributes.md %}) for information.
+    If you did not create these Magento attributes for your Amazon listings, see [Creating Attributes for Amazon Matching]({% link sales-channels/asc/ob-creating-magento-attributes.md %}) for information.

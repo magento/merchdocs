@@ -31,8 +31,8 @@ _Shared Access_
 
    - To share your personal contact information, mark the checkbox of each item that you want to make available to the other person:
 
-     - Your Email
-     - Your Phone
+      - Your Email
+      - Your Phone
 
 1. In the **Grant Account Permissions** section, mark the checkbox of each Magento product and service that you want to share.
 

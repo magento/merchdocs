@@ -15,9 +15,9 @@ To make a product appear in the list by date range, the “New From” dates mus
 
 1. Find each product that you want to feature, and open in edit mode. Then, do the following:
 
-    - In the **Set Product as New From** field, click the calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}). Then, choose the first date that you want the product to be featured.
+   - In the **Set Product as New From** field, click the calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}). Then, choose the first date that you want the product to be featured.
 
-    - In the **To** field, click the calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}). Then, choose the last date that you want the product to be featured.
+   - In the **To** field, click the calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}). Then, choose the last date that you want the product to be featured.
 
     ![]({% link images/images/product-set-as-new.png %}){: .zoom}
     _"Set Product As New" Date Range_
@@ -38,9 +38,9 @@ The code that determines the content of the New Products list and its placement 
 
 1. In the Settings section, do the following:
 
-    - Set **Type** to `Catalog New Products List`.
+   - Set **Type** to `Catalog New Products List`.
 
-    - Choose the **Design Theme** that is used by the store.
+   - Choose the **Design Theme** that is used by the store.
 
 1. Click <span class="btn">Continue</span>.
 
@@ -60,13 +60,13 @@ The code that determines the content of the New Products list and its placement 
 
 1. In the Layout Updates section, click <span class="btn">Add Layout Update</span>. Then, do the following:
 
-    - Set **Display On** to `Specified Page.`
+   - Set **Display On** to `Specified Page.`
 
-    - Set **Page** to `CMS Home Page`.
+   - Set **Page** to `CMS Home Page`.
 
-    - Set **Block Reference** to `Main Content Area`.
+   - Set **Block Reference** to `Main Content Area`.
 
-    - Set **Template** to one of the following:
+   - Set **Template** to one of the following:
 
       - `New Product List Template`
       - `New Products Grid Template`
@@ -89,11 +89,11 @@ The code that determines the content of the New Products list and its placement 
 
 1. Complete the remaining information as follows:
 
-    - To provide navigation control for lists with multiple pages, set **Display Page Control** to “Yes”. Then, in the **Number of Products per Page** field, enter the number of products you want to appear on each page.
+   - To provide navigation control for lists with multiple pages, set **Display Page Control** to “Yes”. Then, in the **Number of Products per Page** field, enter the number of products you want to appear on each page.
 
-    - Set **Number of Products to Display** to the number of new products that you want to include in the list. The default setting is 10.
+   - Set **Number of Products to Display** to the number of new products that you want to include in the list. The default setting is 10.
 
-    - In the **Cache Lifetime (Seconds)** field, choose how often you want to refresh the list of new products. By default, the cache is set to 86400 seconds, or 24 hours.
+   - In the **Cache Lifetime (Seconds)** field, choose how often you want to refresh the list of new products. By default, the cache is set to 86400 seconds, or 24 hours.
 
     ![]({% link images/images/widget-options-new-product-list.png %}){: .zoom}
     _Widget Options_
