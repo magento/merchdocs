@@ -370,12 +370,12 @@ If you want a title above the slider, simply add a Text content type above the s
         ![]({% link images/images-ee/page-builder-media-slider-settings-show-arrows-dots.png %}){: .zoom}
         _Show Arrows and Dots_
 
-     - Enter the **Minimum Height** for the slide. The minimum height can be a number with any valid CSS unit (such as 100px, 50%, 50em, 100vh) or a calculation (such as 100vh - 237px).
+   - Enter the **Minimum Height** for the slide. The minimum height can be a number with any valid CSS unit (such as 100px, 50%, 50em, 100vh) or a calculation (such as 100vh - 237px).
 
-        For example, you can set the minimum height of a slider to stretch the full-height of the page, giving you compelling options for full-page background images and videos.
+      For example, you can set the minimum height of a slider to stretch the full-height of the page, giving you compelling options for full-page background images and videos.
 
-        ![]({% link images/images-ee/page-builder-media-slider-settings-minimum-height.png %}){: width="400px"}{: .zoom}
-        _Minimum Height_
+      ![]({% link images/images-ee/page-builder-media-slider-settings-minimum-height.png %}){: width="400px"}{: .zoom}
+      _Minimum Height_
 
 1. Complete the remaining slider settings as needed, using the [descriptions](#slider-settings) at the bottom of this page for reference.
 
