@@ -121,6 +121,8 @@ pages:
     url: "/cms/page-builder-setup.html"
   - label: Workspace
     url: "/cms/page-builder-workspace.html"
+  - label: Templates
+    url: "/cms/page-builder-templates.html"
   - label: Layout
     url: "/cms/page-builder-layout.html"
     children:
