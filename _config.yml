@@ -1,4 +1,4 @@
-title: Magento User Guide
+title: Magento 2.3 User Guide
 
 description: Merchant documentation and tutorials to help you manage a Magento store
 logo: User Guide
@@ -25,7 +25,7 @@ editions:
 
 algolia:
   application_id: E642SEDTHL
-  index_name: merchdocs_ce
+  index_name: merchdocs_b2b
   api_key: d2d0f33ab73e291ef8d88d8b565e754c
 
 google:
