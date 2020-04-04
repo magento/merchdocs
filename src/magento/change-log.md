@@ -2,7 +2,7 @@
 title: Change Log
 ---
 
-Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what’s new.
+Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what's new.
 
 ## March 2020
 
@@ -12,7 +12,9 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 ### New section
 
-- [Amazon Sales Channel]({% link sales-channels/asc/amazon-sales-channel.md %}) (4.0)
+- [Amazon Sales Channel 4.0+]({% link sales-channels/asc/amazon-sales-channel.md %})
+
+- [Amazon Sales Channel 2.x / 3.x]({% link sales-channels/amazon/amazon-sales-channel.md %})
 
 ### Updated topics
 
@@ -141,7 +143,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |--- |--- |
 |[PayPal Credit]({% link payment/paypal-credit.md %})<br/>[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})<br/>[Payments Advanced]({% link payment/paypal-payments-advanced.md %})<br/>[Payments Pro]({% link payment/paypal-payments-pro.md %})<br/>[Payments Standard]({% link payment/paypal-payments-standard.md %})<br/>[Payflow Pro]({% link payment/paypal-payflow-pro.md %})<br/>[Payflow Link]({% link payment/paypal-payflow-link.md %})|Updated screen images and configuration steps for PayPal payment configurations. Also updated the PayPal Credit topic to remove steps to enable and, instead, refer to the configuration topic for each payment option.|
 |[Product Attribute Reference]({% link system/data-attributes-product.md %}) |Added information for the `related_position`, `crosssell_position`, and `upsell_position` fields that set the position (sort order) for Related, Cross-sell and Up-sell Products.|
-|[Copyright Notice]({% link design/copyright-notice.md %})|Updated to correct the `&Copy;` to © to work properly and meet the standard.|
+|[Copyright Notice]({% link design/copyright-notice.md %})|Updated to correct the `&Copy;` to &copy; to work properly and meet the standard.|
 |R[oot Categories]({% link catalog/category-root.md %})|Updated to correct the suggestion that you could set the root category on a store view level, which is only possible on the store (group) level.|
 |[Enabling Inventory Management]({% link catalog/inventory.md %})| Updated to correct and clarify the information about enabling and disabling Inventory Management.|
 |[Cart Price Rules]({% link marketing/price-rules-cart.md %}) <br/>[Create a Cart Price Rule]({% link marketing/price-rules-cart-create.md %}) <br/>[Customizable Options]({% link catalog/settings-advanced-custom-options.md %}) |Updated to clarify that customizable options cannot be used as a basis of cart price rule conditions.|
@@ -340,7 +342,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |Topic |Change |
 |--- |--- |
 |[Google Settings for GDPR]({% link stores/compliance-privacy-google.md %})|Moved this topic from the Getting Started/Industry Compliance section to Marketing/Google Tools.|
-|[GDPR Compliance]({% link stores/compliance-gdpr.md %})|Added “Best Practice” checklist.|
+|[GDPR Compliance]({% link stores/compliance-gdpr.md %})|Added "Best Practice" checklist.|
 |[dotmailer]({% link marketing/engagement-cloud.md %})|Engagement Cloud by dotdigital now replaces dotmailer.|
 |[Setting up Amazon Pay]({% link payment/amazon-pay-setup.md %})|Added configuration option for multi-currency.|
 |[Amazon Pay]({% link payment/amazon-pay.md %})|Added release information for Amazon Pay including multi-currency and Klarna support.|
