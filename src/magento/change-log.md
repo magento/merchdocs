@@ -36,7 +36,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Banner]({% link cms/page-builder-media-banner.md %})<br/>[Row]({% link cms/page-builder-layout-row.md %})<br/>[Slider]({% link cms/page-builder-media-slider.md %})|Updated content for new _Minimum Height_ option and support for full-height functionality. Additional content for new video background feature.|
 |[Video]({% link cms/page-builder-media-video.md %})|Additional content for new _Autoplay_ feature.|
 |[Worldpay - Deprecated]({% link payment/worldpay.md %})|Updated information for deprecation status.|<!--{% endif %}-->
-|[Signifyd Guaranteed Fraud Protection]({% link payment/worldpay.md %})|Added important note for deprecated status and transitioning from this integration to a Marketplace extension.|
+|[Signifyd Guaranteed Fraud Protection]({% link sales/fraud-protection-signifyd.md %})|Added important note for deprecated status and transitioning from this integration to a Marketplace extension.|
 
 ## March 2020
 
