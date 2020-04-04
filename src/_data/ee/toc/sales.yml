@@ -265,7 +265,7 @@ pages:
   - label: Fraud Protection
     url: "/sales/fraud-protection.html"
     children:
-    - label: Signifyd
+    - label: Signifyd Fraud Protection - Deprecated
       url: "/sales/fraud-protection-signifyd.html"
 - label: Shipping
   url: "/shipping/shipping.html"
