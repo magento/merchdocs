@@ -74,6 +74,19 @@ _Customer Groups_
       ![]({% link images/images/stores-customer-group-assign.png %}){: .zoom}
       _Assign a Customer Group_
 
+## To relate a group of customers to specific discounts:
+
+1. On the _Admin_ sidebar, go to **Marketing** > **Cart Price Rules**.
+
+1. Create a New Rule or Edit an existing rule.
+
+1. Set which customer groups the rule will be used to.
+
+    ![]({% link images/images/stores-customer-group-discounts.png %}){: .zoom}
+      _Relate a Customer Group to Specific Discounts_
+
+1. When complete, click <span class="btn">Save</span>.
+
 ## To delete a customer group
 
 <!--{% if "Default.B2B Only" contains site.edition %}-->
