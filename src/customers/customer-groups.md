@@ -83,7 +83,7 @@ _Customer Groups_
 1. Set which customer groups the rule will be used to.
 
     ![]({% link images/images/stores-customer-group-discounts.png %}){: .zoom}
-      _Relate a Customer Group to Specific Discounts_
+      _Customer Group to Specific Discounts_
 
 1. When complete, click <span class="btn">Save</span>.
 
