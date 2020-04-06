@@ -80,7 +80,7 @@ _Customer Groups_
 
 1. Create a new rule or edit an existing rule.
 
-1. Set which customer groups the rule will be used to.
+1. Select the customer groups the rule will apply to.
 
     ![]({% link images/images/stores-customer-group-discounts.png %}){: .zoom}
       _Customer Group to Specific Discounts_
