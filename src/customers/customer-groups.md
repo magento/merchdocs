@@ -78,7 +78,7 @@ _Customer Groups_
 
 1. On the _Admin_ sidebar, go to **Marketing** > **Cart Price Rules**.
 
-1. Create a New Rule or Edit an existing rule.
+1. Create a new rule or edit an existing rule.
 
 1. Set which customer groups the rule will be used to.
 
