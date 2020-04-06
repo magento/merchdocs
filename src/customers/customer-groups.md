@@ -85,7 +85,7 @@ _Customer Groups_
     ![]({% link images/images/stores-customer-group-discounts.png %}){: .zoom}
       _Customer Group to Specific Discounts_
 
-1. When complete, click <span class="btn">Save</span>.
+1. Click <span class="btn">Save</span>.
 
 ## To delete a customer group
 
