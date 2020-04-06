@@ -49,7 +49,8 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 - [Amazon Sales Channel 4.0+]({% link sales-channels/asc/amazon-sales-channel.md %})
 
-- [Amazon Sales Channel 2.x / 3.x]({% link sales-channels/amazon/amazon-sales-channel.md %})
+   {:.bs-callout .bs-callout-info}
+   The original _Amazon Sales Channel_ section has been renamed [Amazon Sales Channel 2.x / 3.x]({% link sales-channels/amazon/amazon-sales-channel.md %}) and is specific to versions prior to 4.0.0.
 
 ### Updated topics
 
