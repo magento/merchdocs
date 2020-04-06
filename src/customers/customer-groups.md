@@ -76,9 +76,9 @@ _Customer Groups_
 
 ## To associate a group of customers with specific discounts
 
-1. On the _Admin_ sidebar, go to **Marketing** > **Cart Price Rules**.
+1. On the _Admin_ sidebar, go to **Marketing** > **Promotions** > **Cart Price Rules**.
 
-1. Create a new rule or edit an existing rule.
+1. Select the cart price rule with the discount to apply, or [create a new price rule]({% link marketing/price-rules-catalog.md %}).
 
 1. Select the customer groups the rule will apply to.
 
@@ -86,6 +86,8 @@ _Customer Groups_
       _Customer Group to Specific Discounts_
 
 1. Click <span class="btn">Save</span>.
+
+_**Note:**_ You can also use Advance pricing to apply product discounts to customer groups. See [Advanced pricing]({% link catalog/product-price-group.md %}).
 
 ## To delete a customer group
 
