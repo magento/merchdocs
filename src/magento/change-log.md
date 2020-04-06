@@ -23,7 +23,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 - [Inventory Management](https://devdocs.magento.com/guides/v2.3/inventory/release-notes.html){:target="_blank"}, 1.1.4
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-### New topics
+### New topic
 
 - [Templates]({% link cms/page-builder-templates.md %})
 <!--{% endif %}-->
@@ -37,6 +37,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Video]({% link cms/page-builder-media-video.md %})|Additional content for new _Autoplay_ feature.|
 |[Worldpay - Deprecated]({% link payment/worldpay.md %})|Updated information for deprecation status.|<!--{% endif %}-->
 |[Signifyd Guaranteed Fraud Protection]({% link sales/fraud-protection-signifyd.md %})|Added important note for deprecated status and transitioning from this integration to a Marketplace extension.|
+|[Session Validation]({% link stores/security-session-validation.md %})<br/>[Web]({% link configuration/general/web.md %}) (configuration reference) |Removed the _Use SID on Frontend_ (session ID) option from the Session Validation Settings information because it is no longer available due to security requirements.|
 
 ## March 2020
 
