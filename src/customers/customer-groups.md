@@ -74,7 +74,7 @@ _Customer Groups_
       ![]({% link images/images/stores-customer-group-assign.png %}){: .zoom}
       _Assign a Customer Group_
 
-## To relate a group of customers to specific discounts:
+## To associate a group of customers with specific discounts
 
 1. On the _Admin_ sidebar, go to **Marketing** > **Cart Price Rules**.
 
