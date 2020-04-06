@@ -87,7 +87,8 @@ _Customer Groups_
 
 1. Click <span class="btn">Save</span>.
 
-_**Note:**_ You can also use Advance pricing to apply product discounts to customer groups. See [Advanced pricing]({% link catalog/product-price-group.md %}).
+{:.bs-callout-info}
+You can also use Advance pricing to apply product discounts to customer groups. See [Advanced pricing]({% link catalog/product-price-group.md %}).
 
 ## To delete a customer group
 
