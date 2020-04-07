@@ -2,7 +2,7 @@
 title: Configuring Storefront Address Validation
 ---
 
-Your [Vertex Cloud account]({% link tax/vertex-account.md %}) also includes the Vertex Address Validation module. When this functionality is enabled for your Magento store, the storefront prompts the customer to correct the address information on both the shipping and billing steps of the one-page checkout.
+Your [Vertex Cloud account]({% link tax/vertex-account.md %}) also includes the Vertex Address Validation module. When this functionality is enabled for your Magento store, the storefront prompts the customer to correct the address information on both the shipping and billing steps of the one-page checkout and when the customer adds an address to their account.
 
 ![]({% link images/images/tax-vertex-cloud-address-verify-store.png %}){: .zoom}
 _Address validation message for correction_
@@ -23,8 +23,8 @@ To enable Vertex address validation for the storefront:
 
    This setting enables allows you to configure the address validation settings.
 
-    ![]({% link images/images/config-sales-address-validation.png %}){: .zoom}
-    [_Address Validation settings - enabled_]({% link configuration/sales/address-validation.md %})
+   ![]({% link images/images/config-sales-address-validation.png %}){: .zoom}
+   [_Address Validation settings - enabled_]({% link configuration/sales/address-validation.md %})
 
 1. Verify and accept the default value for **Vertex Address Validation API URL**.
 
@@ -32,14 +32,14 @@ To enable Vertex address validation for the storefront:
 
 1. If you want to display a message when the address is correctly verified, set **Confirmation Message when no action is needed**  to `Enable`.
 
-    The default is to disable this function so that a message is displayed only if the address does not match a validated address with a prompt to correct it.
+   The default is to disable this function so that a message is displayed only if the address does not match a validated address with a prompt to correct it.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
 1. To [refresh the cache]({% link system/cache-management.md %}), do the following:
 
-    - On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management**.
+   - On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management**.
 
-    - Select the checkbox of each invalid cache.
+   - Select the checkbox of each invalid cache.
 
-    - Set **Actions** to `Refresh` and click **Submit**.
+   - Set **Actions** to `Refresh` and click **Submit**.
