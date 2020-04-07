@@ -41,13 +41,37 @@ Initially, only the Company Admins can assign permissions to Customers.
       *  View Purchase Orders - Allows the viewing of Purchase Orders created by the user and all subordinate users.
       *  Auto-approve POs created within this role - Skips rule checking and auto-approves POs made by anyone in this role.
 
-
 ## Purchase order roles and permissions
 
-Company admins can control permissions around purchase orders through the Access Control List (ACL).
+Company admins can control permissions around purchase orders through Role Permissions.
 
+Company admins will have a 'Roles and Permission' on the left side nav bar.
+Click the Add New Role button to create a new role or select Edit from the Role table to changes existing permissions.
 
+| Permission | Description |
+| All | Enabled all role permissions |
+| Sales | Enabled purchasing on the site. |
+| Allow Checkout | Enables users to checkout. |
+| Use Pay on Account Method | Allow users to use company payment account. |
+| View orders | Allows users to see their own order. |
+| View orders of subordinate users | Allows users to view orders made by users with stricter permissions. |
+| Quotes | Allows merchants to quote prices for an order or product. |
+| View | Allows users to view their quotes.|
+| Request, Edit, Delete | Permissions for creating and manipulating quotes. |
+| Checkout with quote | Allows users to complete a quoted order. |
+| View quotes of subordinate users | Users can see quoted orders made by stricter permissions. |
+| Order Approval | |
+| View My Purchase Orders | Allows you to see purchase orders you created. |
+| View for subordinates | Allows users to purchase orders made by users with stricter permissions. |
+| View for all company | View all purchase orders. |
+| Auto-approve POs created within this role | Users in this role do not need any approvals to create a PO. |
+| View Approval Rules | Allows users to see approval rules. |
+| Create, Edit and Delete | Allows users to manipulate approval rules. |
 
+## Negotiable quotes
+
+Negotiable quotes allows buyers and sellers to negotiate a price for a purchase order before purchasing.
+To enable negotiable quotes, set XXXXXXXXX in the ACL.
 
 ## Manage Purchase Orders
 
@@ -190,7 +214,7 @@ Purchase order creators will get emails on:
 *  Error - For instance, if a product was available at PO creation time but unavailable at approval time, an error will occur.
 
 Emails are also sent to the required approver(s).
-If a PO requires multiple approvals, emails are sent to the next approver in the correct approver order.
+If a purchase order requires multiple approvals, emails are sent to the next approver in the correct approver order.
 
 The email templates can be modified as needed.
 They can be found at **Stores** > **Configuration** > **Sales** > **Sales Emails** > **Purchase Order Approval**.
