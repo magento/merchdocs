@@ -4,6 +4,41 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what’s new.
 
+## April 2020
+
+### Product releases
+
+<!--{% if "Default.B2B Only" contains site.edition %}-->
+- [Magento for B2B Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.5Commerce.html){: target="_blank"}, pre-release 2.3.5
+<!--{% endif %}-->
+<!--{% if "Default.EE Only" contains site.edition %}-->
+- [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.5Commerce.html){: target="_blank"}, pre-release 2.3.5
+<!--{% endif %}-->
+<!--{% if "Default.CE Only" contains site.edition %}-->
+- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.5OpenSource.html){: target="_blank"}, pre-release 2.3.5
+<!--{% endif %}-->
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
+- [Page Builder](https://devdocs.magento.com/page-builder/docs/release-notes.html){: target="_blank"}, 1.3
+<!--{% endif %}-->
+- [Inventory Management](https://devdocs.magento.com/guides/v2.3/inventory/release-notes.html){:target="_blank"}, 1.1.4
+
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
+### New topic
+
+- [Templates]({% link cms/page-builder-templates.md %})
+<!--{% endif %}-->
+
+### Updated topics
+
+|Topic |Change|
+|--- |--- |
+|[Configure Global Options]({% link catalog/inventory-options-global.md %})|Added information for the new _Synchronize with Catalog_ option provided by Inventory Management. |<!--{% if "Default.EE-B2B" contains site.edition %}-->
+|[Banner]({% link cms/page-builder-media-banner.md %})<br/>[Row]({% link cms/page-builder-layout-row.md %})<br/>[Slider]({% link cms/page-builder-media-slider.md %})|Updated content for new _Minimum Height_ option and support for full-height functionality. Additional content for new video background feature.|
+|[Video]({% link cms/page-builder-media-video.md %})|Additional content for new _Autoplay_ feature.|
+|[Worldpay - Deprecated]({% link payment/worldpay.md %})|Updated information for deprecation status.|<!--{% endif %}-->
+|[Signifyd Guaranteed Fraud Protection]({% link sales/fraud-protection-signifyd.md %})|Added important note for deprecated status and transitioning from this integration to a Marketplace extension.|
+|[Session Validation]({% link stores/security-session-validation.md %})<br/>[Web]({% link configuration/general/web.md %}) (configuration reference) |Removed the _Use SID on Frontend_ (session ID) option from the Session Validation Settings information because it is no longer available due to security requirements.|
+
 ## March 2020
 
 ### Product releases
