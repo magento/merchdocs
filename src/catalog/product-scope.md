@@ -42,12 +42,12 @@ Although the _Spanish_ store view is selected in the following example, the prod
 
 1. To verify the change in your store, do the following:
 
-    - In the upper-right corner, click the _Admin_ menu arrow and choose **Customer View**.
+   - In the upper-right corner, click the _Admin_ menu arrow and choose **Customer View**.
 
-        ![]({% link images/images/product-admin-menu-customer-view.png %}){: .zoom}
-        _Customer View_
+      ![]({% link images/images/product-admin-menu-customer-view.png %}){: .zoom}
+      _Customer View_
 
-    - In the upper-right corner of the store, set the **Language Chooser** to the store view of the product that you edited and find the product that you edited for the view.
+   - In the upper-right corner of the store, set the **Language Chooser** to the store view of the product that you edited and find the product that you edited for the view.
 
-        ![]({% link images/images/storefront-language-chooser.png %}){: .zoom}
-        _Language Chooser_
+      ![]({% link images/images/storefront-language-chooser.png %}){: .zoom}
+      _Language Chooser_

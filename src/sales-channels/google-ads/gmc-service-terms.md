@@ -1,5 +1,6 @@
 ---
 title: Accepting GMC Terms of Service
+tag: google-shopping
 ---
 
 

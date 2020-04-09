@@ -32,8 +32,8 @@ _Credit Memos_
 
    - When prompted, do one of the following:
 
-       - To save the document, Click **Save**. Then, follow the prompts to save the file to your computer. When the download is complete, open the PDF in Adobe Reader and print the document.
+      - To save the document, Click **Save**. Then, follow the prompts to save the file to your computer. When the download is complete, open the PDF in Adobe Reader and print the document.
 
-       - To view the document, click **Open**. The printed-ready PDF credit memo opens in Adobe Reader. From here, you can either print the credit memo or save it to your computer.
+      - To view the document, click **Open**. The printed-ready PDF credit memo opens in Adobe Reader. From here, you can either print the credit memo or save it to your computer.
 
 [1]: http://www.adobe.com/products/reader.html "Get Adobe Reader"

@@ -1,5 +1,6 @@
 ---
 title: Onboarding Google Shopping ads Channel
+tag: google-shopping
 ---
 
 

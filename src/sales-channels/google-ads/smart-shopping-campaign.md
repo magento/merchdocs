@@ -1,5 +1,6 @@
 ---
 title: Creating a Google Smart Shopping Campaign
+tag: google-shopping
 ---
 
 

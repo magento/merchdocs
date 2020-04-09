@@ -1,10 +1,13 @@
 ---
 conditions: Default.EE-B2B
-title: eWAY (Deprecated)
+title: eWAY - Deprecated
 ---
+
 {:.bs-callout-warning}
-**Payment Services Directive Requirements:** <br/>
-As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, install and configure the official eWAY payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=eway){:target="_blank"}.
+**Deprecation Notice** <br/>
+Due to the Payment Service Directive [PSD2]({% link stores/compliance-payment-services-directive.md %}) and the continued evolution of many APIs, this payment integration is at risk of becoming outdated and no longer security compliant in the future. For this reason, it is now deprecated and we are recommending that you disable it in your Magento configuration and transition to the corresponding [Magento Marketplace extension](https://marketplace.magento.com/catalogsearch/result/?q=eway){:target="_blank"}.<br/><br/>
+<b>This integration will be removed from the Magento 2.4.0 release and has been deprecated from versions of 2.3.</b><br/><br/>
+For details about making a secure transition from deprecated payment integrations, see our [DevBlog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog){:target="_blank"}.
 
 eWAY is based in Australia, and provides secure payment processing services to merchants throughout Australia, New Zealand, the United Kingdom, Singapore, Malaysia, and Hong Kong. Their latest Rapid 3.1 API enables real-time fraud protection.
 
@@ -28,8 +31,8 @@ Sign up for an eWAY [merchant account][1]{:target="_blank"}, and get your creden
 
    - Set **Connection Type** to one of the following:
 
-     - **Direct connection** - Completes the transaction without leaving your website.
-     - **Responsive shared page** - Redirects to a page for your store that is hosted on the eWAY server to complete the transaction.
+      - **Direct connection** - Completes the transaction without leaving your website.
+      - **Responsive shared page** - Redirects to a page for your store that is hosted on the eWAY server to complete the transaction.
 
    - Enter a **Title** to identify eWAY as a payment option during checkout.
 

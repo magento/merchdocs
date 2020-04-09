@@ -32,16 +32,16 @@ As a precaution, do not try to change the Admin URL by yourself unless you know 
 
     If needed, clear the **Use system value** checkbox to change the setting.
 
-    - Set **Use Custom Admin URL** to `Yes`.
+   - Set **Use Custom Admin URL** to `Yes`.
 
-    - Enter the **Custom Admin URL**: `http://yourdomain.com/magento/`
+   - Enter the **Custom Admin URL**: `http://yourdomain.com/magento/`
 
         {:.bs-callout-info}
         The Admin URL must be in the same Magento installation, and have the same document root as the storefront.
 
-    - Set **Custom Admin Path** to `Yes`.
+   - Set **Custom Admin Path** to `Yes`.
 
-    - Enter the **Custom Admin Path**.
+   - Enter the **Custom Admin Path**.
 
         The path that you enter is appended to the Custom Admin URL after the last forward slash.
 
@@ -57,14 +57,14 @@ As a precaution, do not try to change the Admin URL by yourself unless you know 
 
     On the server, the _admin path_ is located in the `app/etc/env.php` file. Look for the `<adminhtml>` argument in the `<admin>` section:
 
-    - **Default Admin Path**
+   - **Default Admin Path**
 
         ```php?start_inline=1
         # <frontName><![CDATA[admin]]></frontName>
         ```
         {: .no-copy}
 
-    - **New Admin Path**
+   - **New Admin Path**
 
         ```php?start_inline=1
         # <frontName><![CDATA[backend]]></frontName>
@@ -73,5 +73,5 @@ As a precaution, do not try to change the Admin URL by yourself unless you know 
 
 1. Use one of the following methods to clear the Magento cache:
 
-    - On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management**. Then, click **Flush Magento Cache**.
-    - On the server, navigate to the `var/cache` folder and delete the contents of the `cache` folder.
+   - On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management**. Then, click **Flush Magento Cache**.
+   - On the server, navigate to the `var/cache` folder and delete the contents of the `cache` folder.

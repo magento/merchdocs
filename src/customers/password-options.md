@@ -24,35 +24,35 @@ The customer password options determine the level of security that is used for p
 
 1. To limit the number of password reset requests sent per hour, do the following:
 
-    - In the **Max Number of Password Reset Requests** field, enter the maximum number of password reset requests that can be sent per hour.
+   - In the **Max Number of Password Reset Requests** field, enter the maximum number of password reset requests that can be sent per hour.
 
-    - In the **Min Time Between Password Reset Requests** field, enter the minimum number of minutes that must elapse between requests.
+   - In the **Min Time Between Password Reset Requests** field, enter the minimum number of minutes that must elapse between requests.
 
 1. To configure the password reset email notification, do the following:
 
-    - Set **Forgot Email Template** to the template that is used for the email sent to customers who have forgotten their passwords.
+   - Set **Forgot Email Template** to the template that is used for the email sent to customers who have forgotten their passwords.
 
-    - Set **Remind Email Template** to the template that is used when a password hint is sent to customers.
+   - Set **Remind Email Template** to the template that is used when a password hint is sent to customers.
 
-    - Set **Reset Password Template** to the template that is used when customers change their passwords.
+   - Set **Reset Password Template** to the template that is used when customers change their passwords.
 
-    - Set **Password Template Email Sender** to the [store contact]({% link stores/store-email-addresses.md %}) that appears as the sender of password-related notifications.
+   - Set **Password Template Email Sender** to the [store contact]({% link stores/store-email-addresses.md %}) that appears as the sender of password-related notifications.
 
 1. Complete the following password reset security options:
 
-    - In the **Recovery Link Expiration Period (hours)** field, enter the number of hours before the password recovery link expires.
+   - In the **Recovery Link Expiration Period (hours)** field, enter the number of hours before the password recovery link expires.
 
-    - In the **Number of Required Character Classes** field, enter the number of different character types that must be included in a password based on the following character classes:
+   - In the **Number of Required Character Classes** field, enter the number of different character types that must be included in a password based on the following character classes:
 
       - Lowercase
       - Uppercase
       - Numeric
       - Special Characters
 
-    - In the **Maximum Login  Failures to Lockout Account** field, enter the number of failed login attempts until the Customer account is locked. For unlimited attempts, enter zero (0).
+   - In the **Maximum Login  Failures to Lockout Account** field, enter the number of failed login attempts until the Customer account is locked. For unlimited attempts, enter zero (0).
 
-    - In the **Minimum Password Length** field, enter the minimum number of characters that can be used in a password. The number must be greater than zero.
+   - In the **Minimum Password Length** field, enter the minimum number of characters that can be used in a password. The number must be greater than zero.
 
-    - In the **Lockout Time (minutes)** field, enter the number of minutes an Customer account is locked after too many failed attempts to log in.
+   - In the **Lockout Time (minutes)** field, enter the number of minutes an Customer account is locked after too many failed attempts to log in.
 
 1. When complete, click <span class="btn">Save Config</span>.

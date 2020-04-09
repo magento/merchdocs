@@ -45,34 +45,34 @@ Processing orders with PayPal Payments Advanced is the same as for any regular P
 
 1. Before you begin, set up your PayPal Payments Advanced account on the PayPal website.
 
-    - Log in to your [PayPal business account][2].
+   - Log in to your [PayPal business account][2].
 
-    - Go to **Service Settings** > **Hosted Checkout Pages** > **Set Up Menu**, and complete the following settings:
+   - Go to **Service Settings** > **Hosted Checkout Pages** > **Set Up Menu**, and complete the following settings:
 
       |**AVS** |`No` |
       |**CSC** |`No` |
       |**Enable Secure Token** |`Yes` |
 
-    - **Save** the settings.
+   - **Save** the settings.
 
       {:.bs-callout-info}
       If you have multiple Magento websites, you must create a separate PayPal Payments Advanced account for each.
 
 1. When prompted to create a layout, do the following:
 
-    - At the top of the page, click <span class="btn">Customize</span>.
+   - At the top of the page, click <span class="btn">Customize</span>.
 
-    - Choose **Layout C**.
+   - Choose **Layout C**.
 
-    - Click <span class="btn">Save and Publish</span>.
+   - Click <span class="btn">Save and Publish</span>.
 
 1. PayPal recommends that you set up an additional user on your account. To set up an additional user, do the following:
 
-    - Log in to your [PayPal business account][2].
+   - Log in to your [PayPal business account][2].
 
-    - Follow the instructions to set up an additional user.
+   - Follow the instructions to set up an additional user.
 
-    - **Save** the changes.
+   - **Save** the changes.
 
 ### Step 2: Begin Magento Configuration
 
@@ -80,7 +80,7 @@ Processing orders with PayPal Payments Advanced is the same as for any regular P
 
 1. In the left panel, expand  **Sales** and choose **Payment Methods**.
 
-    - If your Magento installation has multiple websites, stores, or views, set **Store View** in the upper-left corner to the store view for which this configuration applies.
+1. If your Magento installation has multiple websites, stores, or views, set **Store View** in the upper-left corner to the store view for which this configuration applies.
 
 1. In the **Merchant Location** section, set **Merchant Country** to the country where your business is located. PayPal Payments Advanced is available only in the United States.
 
@@ -122,9 +122,9 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. If your system uses a proxy server to establish the connection to the PayPal system, set **Use Proxy** to `Yes.` Then, do the following:
 
-    - Enter the IP address of the **Proxy Host**.
+   - Enter the IP address of the **Proxy Host**.
 
-    - Enter the port number of the **Proxy Port**.
+   - Enter the port number of the **Proxy Port**.
 
       A proxy is used when the server firewall prevents direct access to the PayPal server. In this case, a third-party server is used to relay traffic.
 
@@ -152,26 +152,26 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. Set **Position** to one of the following:
 
-    - `Header (center)`
-    - `Sidebar (right)`
+   - `Header (center)`
+   - `Sidebar (right)`
 
 1. Set **Size** to one of the following:
 
-    - `190 x 100`
-    - `234 x 60`
-    - `300 x 50`
-    - `468 x 60`
-    - `728 x 90`
-    - `800 x 66`
+   - `190 x 100`
+   - `234 x 60`
+   - `300 x 50`
+   - `468 x 60`
+   - `728 x 90`
+   - `800 x 66`
 
     ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
     _Advertise PayPal Credit - Home Page_
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the remaining sections and repeat the previous steps:
 
-    - Catalog Category Page
-    - Catalog Product Page
-    - Checkout Cart Page
+   - Catalog Category Page
+   - Catalog Product Page
+   - Checkout Cart Page
 
 ### Step 5: Complete the Basic Settings - PayPal Payments Advanced
 
@@ -234,26 +234,26 @@ Complete the following sections, as needed for your store:
 
 1. For **SFTP Credentials**, do the following:
 
-    - If you have signed up for PayPal’s Secure FTP Server, enter the following SFTP login credentials:
+   - If you have signed up for PayPal’s Secure FTP Server, enter the following SFTP login credentials:
 
       - Login
       - Password
 
-    - To run test reports before “going live,” set **Sandbox Mode** to `Yes`.
+   - To run test reports before “going live,” set **Sandbox Mode** to `Yes`.
 
-    - Enter the **Custom Endpoint Hostname or IP Address**.
+   - Enter the **Custom Endpoint Hostname or IP Address**.
 
       By default, the value is: `reports.paypal.com`
 
-    - Enter the **Custom Path** where reports are saved.
+   - Enter the **Custom Path** where reports are saved.
 
       By default, the value is: `/ppreports/outgoing`
 
 1. To generate reports according to a schedule, complete the **Scheduled Fetching** settings:
 
-    - Set **Enable Automatic Fetching** to `Yes`.
+   - Set **Enable Automatic Fetching** to `Yes`.
 
-    - Set **Schedule** to one of the following:
+   - Set **Schedule** to one of the following:
 
       - `Daily`
       - `Every 3 Days`
@@ -265,7 +265,7 @@ Complete the following sections, as needed for your store:
 
       PayPal retains each report for 45 days.
 
-    - Set **Time of Day** to the hour, minute, and second when you want the reports to be generated.
+   - Set **Time of Day** to the hour, minute, and second when you want the reports to be generated.
 
       ![PayPal Settlement Report Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
       _Settlement Report Settings - PayPal Payments Advanced_
@@ -278,26 +278,26 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
 1. Choose the **PayPal Product Logo** that you want to appear in the PayPal block in your store. The PayPal logos are available in four styles and two sizes. Options include:
 
-    - No Logo
-    - We Prefer PayPal (150 x 60 or 150 x 40)
-    - Now Accepting PayPal (150 x 60 or 150 x 40)
-    - Payments by PayPal (150 x 60 or 150 x 40)
-    - Shop Now Using (150 x 60 or 150 x 40)
+   - No Logo
+   - We Prefer PayPal (150 x 60 or 150 x 40)
+   - Now Accepting PayPal (150 x 60 or 150 x 40)
+   - Payments by PayPal (150 x 60 or 150 x 40)
+   - Shop Now Using (150 x 60 or 150 x 40)
 
 1. To customize the appearance of your PayPal merchant pages, do the following:
 
-    - Enter the name of the **Page Style** that you want to apply to your PayPal merchant pages. Options include:
+   - Enter the name of the **Page Style** that you want to apply to your PayPal merchant pages. Options include:
 
       |**paypal** |Uses the PayPal page style.|
       |**primary** |Uses the page style that you identified as the “primary” style in your account profile.|
       |**your_custom_value** |Uses a custom payment page style, which is specified in your account profile.|
 
-    - In the **Header Image URL** field, enter the URL of the image that you want to appear in the upper-left corner of the payment page. The maximum file size is 750 pixels wide by 90 pixels high.
+   - In the **Header Image URL** field, enter the URL of the image that you want to appear in the upper-left corner of the payment page. The maximum file size is 750 pixels wide by 90 pixels high.
 
       {:.bs-callout-info}
       PayPal recommends that the image be located on a secure (https) server. Otherwise, the customer’s browser may warn that “the page contains both secure and nonsecure items.”
 
-    - Enter the six-character hexadecimal code, without the “#” symbol, for each of the following:
+   - Enter the six-character hexadecimal code, without the “#” symbol, for each of the following:
 
       |**Header Background Color** |Background color for the checkout page header.|
       |**Header Border Color** |2-pixel border around the header. |

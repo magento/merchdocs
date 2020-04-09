@@ -19,9 +19,9 @@ Amazon Pay logs the following information:
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Advanced** section, and then expand **Developer Options**.
 
-    - If there are generated logs, select a link to download to view Client and IPN logs.
+   - If there are generated logs, select a link to download to view Client and IPN logs.
 
-    - If logs are not available or have not been generated, a message displays `No logs are currently available.`
+   - If logs are not available or have not been generated, a message displays `No logs are currently available.`
 
     ![Sales configuration - Amazon Pay developer options]({% link images/images/config-sales-payment-methods-amazon-pay-developer-options.png %}){: .zoom}
     _Amazon Pay Developer Options_

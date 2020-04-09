@@ -9,7 +9,7 @@
 
     - **Assign Condition Using Product Attribute**: Choose when your Magento catalog contains products in various conditions. When this option is selected, the **Condition Attribute** field enables and is required.
 
-1. For **Condition Attribute**, select the Magento attribute to map values to each Amazon condition attribute. You may have [created the attribute]({% link sales-channels/amazon/ob-creating-magento-attributes.md %}) during pre-setup tasks. When selected, you must the additional field for each of the standard Amazon conditions. Map Magento attribute values to each Amazon condition.
+1. For **Condition Attribute**, select the Magento attribute to map values to each Amazon condition attribute. You may have [created the attribute]({% link sales-channels/asc/ob-creating-magento-attributes.md %}) during pre-setup tasks. When selected, you must the additional field for each of the standard Amazon conditions. Map Magento attribute values to each Amazon condition.
 
    If your products fall into only one condition, you can map to that single Amazon condition, leaving the others blank.
 
