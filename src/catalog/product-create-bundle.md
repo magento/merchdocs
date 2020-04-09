@@ -264,12 +264,3 @@ Scroll down and complete the information in the following sections as needed:
 | ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | SKU and Weight can be either `Fixed` or `Dynamic`. |
 | ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | The quantity can be a preset or user-defined value. However, do not assign the _User Defined_ property to checkbox or multiple-select input types. |
 | ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | Bundle items can be shipped together or separately. |
-
-<style>
-.controls-table td:first-of-type {
-  width: 150px;
-}
-.controls-table td:last-of-type  {
-  width: 400px;
-}
-</style
