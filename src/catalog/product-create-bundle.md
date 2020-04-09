@@ -136,6 +136,9 @@ _Choose Template_
     ![]({% link images/images/product-bundle-items.png %}){: .zoom}
     _Bundle Items_
 
+    If you select `Together` and have enabled _In-Store Delivery_, all bundle items must be assigned the same [source]({% link catalog/inventory-sources.md %}).
+    <!-- Add link to In-Store Delivery when the topic is added -->
+
 1. Click <span class="btn">Add Option</span> and do the following:
 
     ![]({% link images/images/product-bundle-new-option.png %}){: .zoom}
@@ -269,4 +272,4 @@ Scroll down and complete the information in the following sections as needed:
 .controls-table td:last-of-type  {
   width: 400px;
 }
-</style>
+</style
