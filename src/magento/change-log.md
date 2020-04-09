@@ -22,11 +22,12 @@ Our documentation is continually updated with new topics, clarifications, and co
 <!--{% endif %}-->
 - [Inventory Management](https://devdocs.magento.com/guides/v2.3/inventory/release-notes.html){:target="_blank"}, 1.1.4
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-### New topic
+### New topics
 
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
 - [Templates]({% link cms/page-builder-templates.md %})
 <!--{% endif %}-->
+- [Magento Services]({% link configuration/services/saas.md %})
 
 ### Updated topics
 
