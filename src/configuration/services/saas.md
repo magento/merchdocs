@@ -43,7 +43,9 @@ _SaaS Environment_
 
 To create a SaaS Environment, request the Magento API key from the Magento license holder for your store.
 
-1. In the Magento Admin, choose **Stores** > Settings > **Configuration** > **Services** > **Magento Services**.
+1. On the _Admin_ sidebar, go to  **Stores** > _Settings_ > **Configuration**.
+
+1.  In the left panel, expand **Services** and choose **Magento Services**.
 
 1. In the **API Keys** section, paste your key value into the **Production Api Key** field regardless of whether you are in a production environment or non-production environment.
 
@@ -53,7 +55,7 @@ To create a SaaS Environment, request the Magento API key from the Magento licen
 
 1. If there are not any SaaS projects created, click the **Request New Project** to display the **Project Name** field and enter a name for your SaaS project.
 
-   Magento creates a SaaS project and as many SaaS environments you are entitled to.
+   Magento creates a SaaS project and the number of SaaS environments you are entitled to.
 
 1. Select the **SaaS Environment** to use for the current configuration of your Magento store.
 
