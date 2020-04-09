@@ -6,7 +6,7 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
 ![Magento Admin - user roles]({% link images/images/permissions-role-grid.png %})
 
-## Set up a role
+## Define a role
 
 1. On the _Admin_ sidebar, go to **System** > _Permissions_ > **User Roles**.
 
@@ -50,16 +50,13 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
 1. When complete, click <span class="btn">Save Role</span>.
 
-    The role now appears in the grid, and can be assigned to new user accounts.
+    The role now appears in the grid and can be assigned to user accounts.
 
-## Edit user role assignments
+## Assign a role to user(s)
 
 1. From the **Roles** grid, open the record in edit mode.
 
-1. Under _Current User Identity Verification_, enter **Your Password**.
-
-    ![Enter your password to edit the role]({% link images/images/permissions-role-edit.png %}){: .zoom}
-    _Editing a Role_
+1. Under _Current User Identity Verification_, enter your user account password.
 
 1. In the left panel, choose **Role Users**.
 

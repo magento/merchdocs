@@ -3,11 +3,11 @@ title: Your Admin Account
 group: getting-started
 ---
 
-Your Admin account was initially set up during the installation, and might contain initial placeholder information or sample data ißnformation. You can personalize your user name and password and update your first name, last name, and email address at any time.
-
-See [Permissions]({% link system/permissions.md %}) for information about Admin and user roles.
+Your Admin account was initially set up during the installation, and might contain initial placeholder information or sample data information. You can personalize your user name and password and update your first name, last name, and email address at any time.
 
 See [Adding Users]({% link system/permissions-users-all.md %}) for information on adding or editing users.
+
+See [Permissions]({% link system/permissions.md %}) and [User Roles]({% link system/permissions-user-roles.md %}) for information about Admin and user roles.
 
 ## Edit Account Information
 

@@ -54,7 +54,7 @@ _Example Admin Users_
 
 1. Click the calendar icon to set the **Expiration Date** for the user account.
 
-    Defining an expiration date is helpful when a user or role is temporary. After the defined expiration date, the user account status changes to `Inactive` and can be updated.
+    Defining an expiration date is helpful when a user or role is temporary. After the defined expiration date, the user account status changes to `Inactive` and can be updated, if neededß.
 
 1. Under _Current User Identity Verification_, enter your user account password.
 
