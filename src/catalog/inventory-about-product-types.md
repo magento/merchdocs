@@ -12,7 +12,7 @@ Inventory Management supports inventory and order management for all product typ
 |Product Type|Shipping and Source Selection Algorithm|
 |--|--|
 |[Simple]({% link catalog/product-create-simple.md %})|Supports SSA recommendations and overrides at shipping.|
-|[Configurable]({% link catalog/product-create-configurable.md %})|Supports SSA recommendations and overrides at shipping|
+|[Configurable]({% link catalog/product-create-configurable.md %})|Supports SSA recommendations and overrides at shipping.|
 |[Virtual]({% link catalog/product-create-virtual.md %})|Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results.<br/>You cannot adjust these results.|
 |[Downloadable]({% link catalog/product-create-downloadable.md %})|Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results. <br/>You cannot adjust these results.|
 |[Bundle]({% link catalog/product-create-bundle.md %})|Supports SSA recommendations and overrides at shipping|
