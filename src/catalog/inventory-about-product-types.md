@@ -9,17 +9,11 @@ Inventory Management supports inventory and order management for all product typ
 - Multi Source merchants assign sources, quantities per source, and settings during or after product creation. Magento assigns all newly imported products to the Default Source, requiring additional edits to assign sources and quantities.
 
 {: .list-table }
-|Product Type|Single Source|Multi Source|Source and Stock|Shipping and Source Selection Algorithm|
-|--|--|--|--|--|
-|[Simple]({% link catalog/product-create-simple.md %})|Yes|Yes|Default Source<br/>Default Stock<br/>custom source/stock|Supports SSA recommendations and overrides at shipping|
-|[Configurable]({% link catalog/product-create-configurable.md %})|Yes|Yes|Default Source<br/>Default Stock<br/>custom source/stock|Supports SSA recommendations and overrides at shipping|
-|[Virtual]({% link catalog/product-create-virtual.md %})|Yes|Yes|Default Source<br/>Default Stock<br/>custom source/stock|Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results.<br/>You cannot adjust these results.|
-|[Downloadable]({% link catalog/product-create-downloadable.md %})|Yes|Yes|Default Source<br/>Default Stock<br/>custom source/stock|Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results. <br/>You cannot adjust these results.|
-|[Bundle]({% link catalog/product-create-bundle.md %})|Yes|No|Default Source<br/>Default Stock|Supports SSA recommendations and overrides at shipping|
-|[Grouped]({% link catalog/product-create-grouped.md %})|Yes|Yes|Default Source<br/>Default Stock<br/>custom source/stock|Supports SSA recommendations and overrides at shipping|
-
-<style>
-.list-table td:nth-of-type(4) {
-  width: 200px;
-}
-</style>
+|Product Type|Shipping and Source Selection Algorithm|
+|--|--|
+|[Simple]({% link catalog/product-create-simple.md %})|Supports SSA recommendations and overrides at shipping|
+|[Configurable]({% link catalog/product-create-configurable.md %})|Supports SSA recommendations and overrides at shipping|
+|[Virtual]({% link catalog/product-create-virtual.md %})|Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results.<br/>You cannot adjust these results.|
+|[Downloadable]({% link catalog/product-create-downloadable.md %})|Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results. <br/>You cannot adjust these results.|
+|[Bundle]({% link catalog/product-create-bundle.md %})|Supports SSA recommendations and overrides at shipping|
+|[Grouped]({% link catalog/product-create-grouped.md %})|Supports SSA recommendations and overrides at shipping|
