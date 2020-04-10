@@ -6,6 +6,10 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Signifyd
 
+{:.bs-callout-warning}
+**Deprecation Notice** <br/>
+Due to the continued evolution of many APIs, the Signifyd Guaranteed Fraud Protection fraud protection integration is at risk of becoming outdated and no longer security compliant in the future. For this reason, it is now deprecated and we are recommending that you disable it in your Magento configuration and transition to the [Signifyd Fraud & Chargeback Protection extension](https://marketplace.magento.com/signifyd-module-connect.html){:target="_blank"} that is available on Magento Marketplace.
+
 ![]({% link images/images/config-sales-fraud-protection-signifyd-configuration.png %}){: .zoom}
 _Configuration_
 
