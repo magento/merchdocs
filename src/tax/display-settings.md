@@ -19,7 +19,7 @@ Showing prices that include and exclude tax can be confusing to the customer. To
 
 1. In the left panel, expand **Sales** and choose **Tax**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Price Display Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the _Price Display Settings_ section.
 
 1. For **Display Product Prices in Catalog**, choose one of the following:
 
