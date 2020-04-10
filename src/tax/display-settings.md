@@ -38,7 +38,7 @@ Showing prices that include and exclude tax can be confusing to the customer. To
 
 ## Step 2: Configure shopping cart display settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Shopping Cart Display Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the _Shopping Cart Display Settings_ section.
 
    ![]({% link images/images/config-sales-tax-shopping-cart-display-settings.png %}){: .zoom}
    _Shopping Cart Display Settings_
