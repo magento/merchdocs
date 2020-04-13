@@ -2,11 +2,16 @@
 title: Klarna
 ---
 
+Klarna is the smooothest way to boost sales and increase your average order value. You get customers who buy more and do it more often. And you always get paid in full upfront while your customers pay at a later date.
+
 Klarna lets your customers choose how they want to pay, and supports the purchase with buyer protection and excellent customer service.
 
 ## Changes In the Latest Release
 
-In the Magento configuration, the Klarna Payments section has a new "Data sharing on load" field that can be set to share customer data after the transaction is authorized, or when the Klarna payment method is selected during checkout.
+### New Features
+
+-  Added support for Australia and New Zealand markets
+-  Improved configuration: Changed scope of API Comfiguration from `Store View` to `Website;` streamlined many field labels.
 
 ## Klarna payment methods
 
