@@ -22,7 +22,7 @@ Some Vertex field names differ from those used by Magento. See [Vertex Field Map
 
 ## Configure company
 
-1. Complete the **Basic Information** section:
+1. Complete the _Basic Information_ section:
 
    - Choose the **Country** where the business is located.
 
