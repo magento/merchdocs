@@ -1,6 +1,10 @@
 ---
-title: Signifyd Guaranteed Fraud Protection
+title: Signifyd Guaranteed Fraud Protection - Deprecated
 ---
+
+{:.bs-callout-warning}
+**Deprecation Notice** <br/>
+Due to the continued evolution of many APIs, this fraud protection integration is at risk of becoming outdated and no longer security compliant in the future. For this reason, it is now deprecated and we are recommending that you disable it in your Magento configuration and transition to the [Signifyd Fraud & Chargeback Protection extension](https://marketplace.magento.com/signifyd-module-connect.html){:target="_blank"} that is available on Magento Marketplace.
 
 Signifyd Guaranteed Fraud Protection automates your order review process so you can accept more orders and maximize revenue without chargeback losses. Signifyd automatically reviews orders for fraud, and indicates which orders to ship, and which to reject. The results of the Signifyd Guarantee Decision appear as a column in the [Orders]({% link sales/orders.md %}) grid.
 
