@@ -22,7 +22,7 @@ The integration includes tax configuration for your stores, overrides per countr
 
 - {:.fix}Enhancements
 
-- The Flexible Field options are now sorted alphabetically by the current Admin user’s locale.
+- The _Flexible Field_ options are now sorted alphabetically by the current Admin user’s locale.
 - Vertex now uses the order billing address to calculate taxes on virtual products. Shipping-related flexible fields are no longer completed for virtual products.
 - The _Use Vertex for orders shipping to_, _Summarize Tax by_, and _Global Delivery Term_ configuration settings now provide an option to be restored to their default setting.
 - The WSDL URL now supports ports and basic authentication.
