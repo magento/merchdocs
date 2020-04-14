@@ -19,7 +19,7 @@ Vertex offers three pricing plans, plus access to additional services. All Verte
 
    - Enter your **Username**, **Password**, and **Password Confirmation**. Your username and password are case sensitive. Make sure to write them down for future reference.
 
-   - Complete the fields in the **Company Information** section.
+   - Complete the fields in the _Company Information_ section.
 
    - Complete the fields in the **Contact Information** section.
 
