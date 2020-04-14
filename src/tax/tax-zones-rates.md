@@ -23,7 +23,7 @@ _Tax Zones and Rates_
 
 1. To apply the tax rate to a range of ZIP or postal codes, do the following:
 
-   - Select the **Zip/Post is Range** checkbox. Then in the _Range From_ and _Range To_ fields, enter the first and last ZIP or postal code to define the range.
+   - Select the **Zip/Post is Range** checkbox and define the range by entering the first and last ZIP or postal code for **Range From** and **Range To**.
 
       ![]({% link images/images/tax-rate-new-zip-post-range.png %}){: .zoom}
        _ZIP/Post is Range_

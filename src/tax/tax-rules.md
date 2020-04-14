@@ -22,9 +22,9 @@ _Tax Rules_
 
    If you need to edit an existing tax rate, do the following:
 
-   - Hover over the tax rate, and click the **Edit**![]({% link images/images/btn-edit.png %}) icon.
+   - Hover over the tax rate and click the **Edit**![]({% link images/images/btn-edit.png %}) icon.
 
-   - Update the form as needed, and click <span class="btn">Save</span>.
+   - Update the form as needed and click <span class="btn">Save</span>.
 
    ![]({% link images/images/tax-rule-information.png %}){: .zoom}
    _Tax Rule Information_
@@ -48,7 +48,7 @@ _Tax Rules_
 
 1. To import tax rates, do the following:
 
-   - Click **Choose File**, and navigate to the CSV file with the tax rates to be imported.
+   - Click **Choose File** and navigate to the CSV file with the tax rates to be imported.
 
    - Click **Import Tax Rates**.
 
@@ -63,17 +63,17 @@ _Import / Export Tax Rates_
 
 1. Choose the **Customer Tax Class** to which the rule applies.
 
-   - To edit a customer tax class, click the edit ![]({% link images/images/btn-edit.png %}) icon. Then, update the form as needed and click <span class="btn">Save</span>.
+   - To edit a customer tax class, click the edit ![]({% link images/images/btn-edit.png %}) icon, update the form as needed, and click <span class="btn">Save</span>.
 
-   - To create a new tax class, click <span class="btn">Add New Tax Class</span>. Then, complete the form as needed, and click <span class="btn">Save</span>.
+   - To create a new tax class, click <span class="btn">Add New Tax Class</span>, complete the form as needed, and click <span class="btn">Save</span>.
 
 1. Choose the **Product Tax Class** to which the rule applies.
 
-   - To edit a product tax class, click the edit ![]({% link images/images/btn-edit.png %}) icon. Then, update the form as needed and click **Save**.
+   - To edit a product tax class, click the edit ![]({% link images/images/btn-edit.png %}) icon, update the form as needed, and click **Save**.
 
-   - To create a new tax class, click <span class="btn">Add New Tax Class</span>. Then, complete the form as needed and click <span class="btn">Save</span>.
+   - To create a new tax class, click <span class="btn">Add New Tax Class</span>, complete the form as needed, and click <span class="btn">Save</span>.
 
-1. When more than one tax applies, enter a number to indicate the priority of this tax for **Priority** field.
+1. When more than one tax applies, enter a number to indicate the priority of this tax for **Priority**.
 
    If two tax rules with the same priority apply, the taxes are added together. If two taxes with different priority settings apply, the taxes are compounded.
 

@@ -21,7 +21,7 @@ The following instructions show how to set up a fixed product tax for your store
    - **Display Prices in Product Lists**
    - **Display Prices on Product View Page**
    - **Display Prices in Sales Modules**
-   - **Display Prices in Emails**.
+   - **Display Prices in Emails**
 
    Options (same for each):
 
@@ -47,7 +47,7 @@ The following instructions show how to set up a fixed product tax for your store
 
    - Enter a **Default Label** to identify the attribute.
 
-   - **Catalog Input for Store Owner** — Set to `Fixed Product Tax`.
+   - Set **Catalog Input for Store Owner** to `Fixed Product Tax`.
 
    ![]({% link images/images/tax-fpt-attribute-properties.png %}){: .zoom}
    _Attribute Properties_
@@ -106,7 +106,7 @@ The following instructions show how to set up a fixed product tax for your store
 
    - Set **Country/State** to the region where the fixed product tax applies.
 
-   - Enter the fixed product tax as a decimal amount in the **Tax** field.
+   - For **Tax**, enter the fixed product tax as a decimal amount.
 
 1. To add more fixed product taxes, click <span class="btn">Add Tax</span> and repeat the process.
 

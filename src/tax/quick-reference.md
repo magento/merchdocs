@@ -2,7 +2,7 @@
 title: Tax Quick Reference
 ---
 
-Some tax settings have a choice of options that determines the way the tax is calculated and presented to the customer. To learn more, see [International Tax Guidelines]({% link tax/international-tax-guidelines.md %}).
+Some tax settings have a choice of options that determines the way the tax is calculated and presented to the customer. For more information, see [International Tax Guidelines]({% link tax/international-tax-guidelines.md %}).
 
 ## Tax calculation methods
 

@@ -13,7 +13,7 @@ We recommend that you exercise caution when quoting FPT prices in email, becaus
 |FPT|Display setting and calculation|
 |--- |--- |
 |Not Taxed|**Excluding FPT**|FPT appears as a separate row in the cart, and the  value is used in appropriate tax calculations.
-| |**Including FPT**|FPT is added to the base price of an item; but is not included in tax- rule-based calculations.|
+| |**Including FPT**|FPT is added to the base price of an item; but is not included in tax-rule-based calculations.|
 | |**Excluding FPT, FPT Description, Final Price**|Prices appear without FPT amount or description. FPT is not included in tax-rule-based calculations.|
 |Taxed|**Excluding FPT**|FPT appears as a separate row in the cart, and the  value is used in appropriate tax calculations.|
 | |**Including FPT**|FPT is included in the price of an item, and no change to tax calculations is required.|

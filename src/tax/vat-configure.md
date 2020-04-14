@@ -61,7 +61,7 @@ In certain business-to-business transactions, VAT is not assessed. Magento can v
 
 A tax rule is a combination of a customer tax class, a product tax class, and a tax rate.
 
-1. On the _Admin_ sidebar, go to **Stores** >  _Taxes_ > **Tax Rules**.
+1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Rules**.
 
 1. Add new tax rules as follows:
 

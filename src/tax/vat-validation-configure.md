@@ -102,7 +102,7 @@ Create the [tax rules]({% link tax/tax-rules.md %}) that you need to use VAT IDÂ
 
 1. In the **European Union Countries** list, verify that each member country of the EU is selected.
 
-   To change the default setting, clear the **Use system values** checkbox. Hold down the Ctrl key (PC) or the Command key (Mac) and click each country that you want to add, or remove.
+   To change the default setting, clear the **Use system values** checkbox. Hold down the Ctrl key (PC) or the Command key (Mac) and click each country that you want to add or remove.
 
 1. When complete, click <span class="btn">Save Config</span>.
 

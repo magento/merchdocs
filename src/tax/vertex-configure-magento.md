@@ -85,7 +85,7 @@ Set the delivery terms (shipping terms) that determines the vendor or customer j
 
 1. (Optional) Create a **Delivery Term Override** for each country you want a specific delivery term that differs from the global.
 
-   Click **Add**. Select a country and term.
+   Click **Add** and select a country and term.
 
    ![]({% link images/images/config-sales-tax-vertex-delivery-terms.png %}){: .zoom}
    [_Vertex Delivery Terms_]({% link configuration/sales/tax.md %})

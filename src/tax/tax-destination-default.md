@@ -15,10 +15,10 @@ _Default Tax Destination Calculation_
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Default Tax Destination Calculation** section.
 
-1. For, **Default Country**, set the country upon which tax calculations are based.
+1. Set **Default Country** to the country upon which tax calculations are based.
 
-1. For **Default State**, set the state or province that is used as the basis of tax calculations.
+1. Set **Default State** to the state or province that is used as the basis of tax calculations.
 
-1. For **Default Post Code** to the ZIP or postal code that is used as the basis of local tax calculations.
+1. Set **Default Post Code** to the ZIP or postal code that is used as the basis of local tax calculations.
 
 1. When complete, click <span class="btn">Save Config</span>.

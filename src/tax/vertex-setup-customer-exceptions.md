@@ -62,7 +62,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
       |Code|To identify a specific customer, enter [Vertex Customer Code]({% link customers/customer-account-update.md %}) from the customer account.|
       |Class|To identify a specific customer class, enter the name of the [customer group]({% link customers/customer-groups.md %}) that is associated with the tax class. The value must exactly match the corresponding Magento value found in the customer account or customer group.|
 
-   - For the **Start Date** field, use the calendar to choose the date that the customer becomes available to Vertex Cloud. The customer Start Date must be on or after the company Start Date.
+   - For **Start Date**, use the calendar to choose the date that the customer becomes available to Vertex Cloud. The customer Start Date must be on or after the company Start Date.
 
    - If applicable, use the calendar to choose the **End Date** when the customer is no longer available to Vertex Cloud.
 
@@ -154,7 +154,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
    |`FileName`|(Optional) The file name of the exemption certificate image on your computer. Only one image can be referenced. However, the same image can be used for multiple certificates. During the upload, you will be prompted to navigate to the image on your computer. Supported file types: PDF, JPG, BMP|
    |`TaxResult`|A single character code that identifies the type of customer exemption. <br/>**T** - The customer is generally taxable, but is exempt in specific jurisdictions and situations. <br/>**E** - The customer is exempt in all jurisdictions.|
 
-1. To upload the completed template, click **Browse**. Then, navigate to the file on your computer, and click **Upload File**.
+1. To upload the completed template, click **Browse**. Then, navigate to the file on your computer and click **Upload File**.
 
    ![]({% link images/images/tax-vertex-cloud-configure-exception-upload-multiple.png %}){: .zoom}
    _Upload Multiple Exceptions_

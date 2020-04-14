@@ -21,9 +21,9 @@ Vertex offers three pricing plans, plus access to additional services. All Verte
 
    - Complete the fields in the _Company Information_ section.
 
-   - Complete the fields in the **Contact Information** section.
+   - Complete the fields in the _Contact Information_ section.
 
-   - To continue, select the **I agree to the terms of service** checkbox.
+   - Select the **I agree to the terms of service** checkbox.
 
 1. Under _Subscription Information_, choose one of the following **Subscription Levels**, according to your pricing plan:
 
@@ -33,14 +33,14 @@ Vertex offers three pricing plans, plus access to additional services. All Verte
 
    Select the checkbox of any optional features and services that you want to add to your account.
 
-1. Under **Billing Information**, do the following:
+1. Under _Billing Information_, do the following:
 
    - Complete your **Billing Address**.
 
    {:.bs-callout-info}
    Your company’s billing address is required if paying by credit card, and must be located in either the U.S. or Canada.
 
-   - Choose the **Payment Method** that you want to use. Then, complete the required information.
+   - Choose the **Payment Method** that you want to use and complete the required information.
 
 1. To complete the process, click **Submit Billing Information & Finish**.
 
