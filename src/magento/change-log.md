@@ -2,9 +2,20 @@
 title: Change Log
 ---
 
-Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what’s new.
+Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what's new.
 
 ## March 2020
+
+### Product releases
+
+- [Amazon Sales Channel](https://devdocs.magento.com/extensions/amazon-sales/release-notes/#v400){:target="_blank"}, 4.0.0
+
+### New section
+
+- [Amazon Sales Channel 4.0+]({% link sales-channels/asc/amazon-sales-channel.md %})
+
+   {:.bs-callout .bs-callout-info}
+   The original _Amazon Sales Channel_ section has been renamed [Amazon Sales Channel 2.x / 3.x]({% link sales-channels/amazon/amazon-sales-channel.md %}) and is specific to versions prior to 4.0.0.
 
 ### Updated topics
 
@@ -12,7 +23,17 @@ Our documentation is continually updated with new topics, clarifications, and co
 |--- |--- |
 |[Layout Updates]({% link design/layout-updates.md %})|Updated all topics in this section to reflect the change in layout update implementation. Layout updates are now saved on the server and selected from a list.|
 |[Blocks]({% link cms/block-add.md %})<br />[Using a Layout Update]({% link design/layout-update-place-block.md %})<br />[Adding a New Page]({% link cms/page-add.md %})|Updated the process of applying a layout update to a page.|
-|[Design Settings]({% link catalog/categories-custom-design.md %}) - Category [Design Settings]({% link catalog/settings-advanced-design.md %}) - Product|Updated the Custom Layout Update field and description.|
+|[Design Settings]({% link catalog/categories-custom-design.md %}) - Category<br />[Design Settings]({% link catalog/settings-advanced-design.md %}) - Product|Updated the Custom Layout Update field and description.|<!--{% if "Default.EE Only" contains site.edition %}-->
+|[Product Recommendations]({% link marketing/product-recommendations.md %})| Additional content to describe how product recommendations use Adobe Sensei and new content to describe the Trending recommendation type. |
+|[Create New Recommendation]({% link marketing/create-new-rec.md %})|Additional content to describe how product recommendations use Adobe Sensei.|
+|[Best Practices Using Recommendations]({% link marketing/recommendation-best-practices.md %})| Additional content to describe the Trending recommendation type.|<!--{% endif %}-->
+|<!--{% if "Default.EE-B2B" contains site.edition %}-->[Worldpay]({% link payment/worldpay.md %})<br />[CyberSource - Deprecated]({% link payment/cybersource.md %})<br />[eWAY - Deprecated]({% link payment/eway.md %})<br /><!--{% endif %}-->[Authorize.Net - Deprecated]({% link payment/authorize-net.md %})<br />[Authorize.Net Direct Post- Deprecated]({% link payment/authorize-net-direct-post.md %})|Updated information for transitioning from deprecated payment integrations.|
+|[UPS]({% link shipping/ups.md %})|Correction for the available _Destination Type_ options.|
+|[Create a Credit Memo]({% link sales/credit-memo-create.md %})|Improved information about the credit memo refund process for online (credit) and offline (cash/money order) orders.|
+|[Create a Cart Price Rule]({% link marketing/price-rules-cart-create.md %})|Updates to reflect UI changes.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
+|[Dynamic Blocks in Price Rules]({% link cms/dynamic-blocks-price-rules.md %})|Updates to clarify dynamic block and promotional rule associations.|<!--{% endif %}-->
+|[Grouped Product]({% link catalog/product-create-grouped.md %})|Updates to reflect UI changes and improved instructions for choosing the attribute set.|
+|[Price Rule with Multiple SKUs]({% link marketing/price-rule-multiple-sku.md %})|Improve content to specify Catalog Price Rules, rather than Cart Price Rules.|
 
 ## February 2020
 
@@ -123,7 +144,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |--- |--- |
 |[PayPal Credit]({% link payment/paypal-credit.md %})<br/>[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})<br/>[Payments Advanced]({% link payment/paypal-payments-advanced.md %})<br/>[Payments Pro]({% link payment/paypal-payments-pro.md %})<br/>[Payments Standard]({% link payment/paypal-payments-standard.md %})<br/>[Payflow Pro]({% link payment/paypal-payflow-pro.md %})<br/>[Payflow Link]({% link payment/paypal-payflow-link.md %})|Updated screen images and configuration steps for PayPal payment configurations. Also updated the PayPal Credit topic to remove steps to enable and, instead, refer to the configuration topic for each payment option.|
 |[Product Attribute Reference]({% link system/data-attributes-product.md %}) |Added information for the `related_position`, `crosssell_position`, and `upsell_position` fields that set the position (sort order) for Related, Cross-sell and Up-sell Products.|
-|[Copyright Notice]({% link design/copyright-notice.md %})|Updated to correct the `&Copy;` to © to work properly and meet the standard.|
+|[Copyright Notice]({% link design/copyright-notice.md %})|Updated to correct the `&Copy;` to &copy; to work properly and meet the standard.|
 |R[oot Categories]({% link catalog/category-root.md %})|Updated to correct the suggestion that you could set the root category on a store view level, which is only possible on the store (group) level.|
 |[Enabling Inventory Management]({% link catalog/inventory.md %})| Updated to correct and clarify the information about enabling and disabling Inventory Management.|
 |[Cart Price Rules]({% link marketing/price-rules-cart.md %}) <br/>[Create a Cart Price Rule]({% link marketing/price-rules-cart-create.md %}) <br/>[Customizable Options]({% link catalog/settings-advanced-custom-options.md %}) |Updated to clarify that customizable options cannot be used as a basis of cart price rule conditions.|
@@ -322,7 +343,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |Topic |Change |
 |--- |--- |
 |[Google Settings for GDPR]({% link stores/compliance-privacy-google.md %})|Moved this topic from the Getting Started/Industry Compliance section to Marketing/Google Tools.|
-|[GDPR Compliance]({% link stores/compliance-gdpr.md %})|Added “Best Practice” checklist.|
+|[GDPR Compliance]({% link stores/compliance-gdpr.md %})|Added "Best Practice" checklist.|
 |[dotmailer]({% link marketing/engagement-cloud.md %})|Engagement Cloud by dotdigital now replaces dotmailer.|
 |[Setting up Amazon Pay]({% link payment/amazon-pay-setup.md %})|Added configuration option for multi-currency.|
 |[Amazon Pay]({% link payment/amazon-pay.md %})|Added release information for Amazon Pay including multi-currency and Klarna support.|
