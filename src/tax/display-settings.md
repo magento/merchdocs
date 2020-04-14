@@ -28,7 +28,7 @@ Showing prices that include and exclude tax can be confusing to the customer. To
    - `Including and Excluding Tax`
 
    {:.bs-callout-info}
-   If you set this option to `Including Tax`, the tax appears only if there is a tax rule that matches the tax origin, or if there is a customer address that matches the tax rule. Events that can trigger a match include customer account creation, login, or the use of the Tax and Shipping estimation tool in the shopping cart.
+   If you set this option to `Including Tax`, the tax appears only if there is a tax rule that matches the tax origin or if there is a customer address that matches the tax rule. Events that can trigger a match include customer account creation, login, or the use of the Tax and Shipping estimation tool in the shopping cart.
 
 1. For **Display Shipping Prices**, choose one of the following:
 
