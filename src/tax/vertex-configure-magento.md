@@ -121,7 +121,9 @@ If you need to identify taxability based on information in your Magento store be
 
 ### Step 2: Use the Flex Field in a Vertex Tax assist rule
 
-[Add a new tax assist rule][5] or edit an existing rule for your Vertex Cloud account that uses the configured flex field for tax calculation.
+Add a new tax assist rule or edit an existing rule for your Vertex Cloud account that uses the configured flex field for tax calculation.
+
+For detailed information about adding tax assist rules in the Vertex Cloud, see [Add a tax assist rule][5] (requires a login to the Vertex Documentation Center).
 
 ![]({% link images/images/tax-vertex-cloud-tax-assist.png %}){: .zoom}
 _Vertex Tax Assist Rule_

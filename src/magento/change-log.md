@@ -38,6 +38,8 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Worldpay - Deprecated]({% link payment/worldpay.md %})|Updated information for deprecation status.|<!--{% endif %}-->
 |[Signifyd Guaranteed Fraud Protection]({% link sales/fraud-protection-signifyd.md %})|Added important note for deprecated status and transitioning from this integration to a Marketplace extension.|
 |[Session Validation]({% link stores/security-session-validation.md %})<br/>[Web]({% link configuration/general/web.md %}) (configuration reference) |Removed the _Use SID on Frontend_ (session ID) option from the Session Validation Settings information because it is no longer available due to security requirements.|
+|[Vertex Cloud]({% link tax/vertex.md %})|Updated content for release features and fixes.|
+|[Configuring Storefront Address Validation]({% link tax/vertex-configure-address.md %})|Updated to include Vertex address validation for customer accounts.|
 
 ## March 2020
 
