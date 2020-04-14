@@ -23,7 +23,7 @@ The following instructions show how to set up a fixed product tax for your store
    - **Display Prices in Sales Modules**
    - **Display Prices in Emails**.
 
-   Options (same for each)
+   Options (same for each):
 
    - `Including FPT Only`
    - `Including FPT and FPT description`
