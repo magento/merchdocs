@@ -30,7 +30,7 @@ Merchants who are audited for taxes paid for digital goods, must provide two pie
 1. Export the tax amounts that are related to the tax rates for the digital goods product tax class.
 
 {:.ref-header}
-See also
+See also:
 
 - [European Commission Taxation and Customs Union ][1]
 - [EU 1015 Place of Supply Changes][2]
