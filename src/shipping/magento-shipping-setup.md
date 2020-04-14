@@ -2,9 +2,9 @@
 title: Setting Up Magento Shipping
 ---
 
-When enabled, Magento Shipping adds [Dispatch]({% link sales/dispatches.md %}) and [Batches]({% link sales/batches.md %}) options to the Magento Sales menu, a Shipping section to the [Stores]({% link stores/stores-menu.md %}) menu, and new sections of detailed information in each [shipment]({% link sales/shipments-create.md %}). In the storefront, the selection of available Magento Shipping options appears during checkout.
-
 {% include shipping-status-note.md %}
+
+When enabled, Magento Shipping adds [Dispatch]({% link sales/dispatches.md %}) and [Batches]({% link sales/batches.md %}) options to the Magento Sales menu, a Shipping section to the [Stores]({% link stores/stores-menu.md %}) menu, and new sections of detailed information in each [shipment]({% link sales/shipments-create.md %}). In the storefront, the selection of available Magento Shipping options appears during checkout.
 
 For an activated Magento Shipping account, you can complete the following steps to configure Magento Shipping for your site.
 
