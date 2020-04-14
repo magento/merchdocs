@@ -98,7 +98,7 @@ The configuration settings for each company are organized into three columns on 
     ![]({% link images/images/tax-vertex-cloud-configure-registration-country-states.png %}){: .zoom}
     _States_
 
-1. Under **Common Forms**, complete at least one of the forms listed.
+1. Under _Common Forms_, complete at least one of the forms listed.
 
    The company might need to include one or more schedules, in addition to the required return. To complete the required forms for the state, do the following:
 
