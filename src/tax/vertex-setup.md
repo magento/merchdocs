@@ -52,7 +52,7 @@ Some Vertex field names differ from those used by Magento. See [Vertex Field Map
       - State
       - Zip/Postal Code
 
-1. You can skip the **Discount Codes** section, because they are not used by Magento.
+1. You can skip the _Discount Codes_ section, because they are not used by Magento.
 
 1. When complete, click **Add Company**.
 
