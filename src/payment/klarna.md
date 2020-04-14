@@ -2,9 +2,7 @@
 title: Klarna
 ---
 
-Klarna is the smooothest way to boost sales and increase your average order value. You get customers who buy more and do it more often. And you always get paid in full upfront while your customers pay at a later date.
-
-Klarna lets your customers choose how they want to pay, and supports the purchase with buyer protection and excellent customer service.
+Klarna lets your customers choose how they want to pay, and supports the purchase with buyer protection and excellent customer service. Your customers can buy now and pay later, while you receive payment in full at the time of purchase.
 
 ## Changes In the Latest Release
 
