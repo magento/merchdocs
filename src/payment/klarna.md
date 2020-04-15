@@ -2,7 +2,7 @@
 title: Klarna
 ---
 
-Klarna lets your customers choose how they want to pay, and supports the purchase with buyer protection and excellent customer service. Your customers can buy now and pay later, while you receive payment in full at the time of purchase.
+Klarna lets your customers choose how they want to pay and supports the purchase with buyer protection and excellent customer service. Your customers can buy now and pay later, while you receive payment in full at the time of purchase.
 
 ## Changes In the Latest Release
 
