@@ -34,6 +34,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 {: .topics-table }
 |Topic |Change|
 |--- |--- |
+|[Klarna]({% link payment/klarna.md %})<br />[Setting Up Klarna]({% link payment/klarna-setup.md %})<br />[Klarna]({% link configuration/sales/klarna.md %}) (reference)|Updated Changes In the Latest Release, and configuration section titles and field labels.|
 |[Configure Global Options]({% link catalog/inventory-options-global.md %})|Added information for the new _Synchronize with Catalog_ option provided by Inventory Management. |<!--{% if "Default.EE-B2B" contains site.edition %}-->
 |[Banner]({% link cms/page-builder-media-banner.md %})<br/>[Row]({% link cms/page-builder-layout-row.md %})<br/>[Slider]({% link cms/page-builder-media-slider.md %})|Updated content for new _Minimum Height_ option and support for full-height functionality. Additional content for new video background feature.|
 |[Video]({% link cms/page-builder-media-video.md %})|Additional content for new _Autoplay_ feature.|
