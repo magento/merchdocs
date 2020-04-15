@@ -2,6 +2,8 @@
 title: International Shipping
 ---
 
+{% include shipping-status-note.md %}
+
 International item/shipment data can be pre-filled for a customer at checkout, if the information is defined for the products in the order. Pre-filled data requires configuration in Magento [Attribute Mapping]({% link shipping/magento-shipping-attributes.md %}) and defining the [shipping settings]({% link catalog/product-shipping.md %}) for each Magento product.
 
 International item/shipment settings are defined for a product in the [Shipping]({% link catalog/product-shipping.md %}) tab in Product Settings.
