@@ -89,7 +89,7 @@ _Klarna Merchant Portal_
    - Set **Allowed Countries** to one of the following:
 
       |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method.|
-      |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store.|
+      |**Specific Countries** |When selected, the Payment from Specific Countries list appears. Hold down the Ctrl key (PC) or the Command key (Mac) and select each country in the list where customers can make purchases from your store.|
 
    - If your Klarna account supports B2B payments, set **Enable B2B** to `Yes`.
    - If you want Klarna to prepare a set of personalized credit options for each customer, set **Enable Data sharing** to `Yes`.
