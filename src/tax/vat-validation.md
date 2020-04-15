@@ -16,7 +16,7 @@ The store administrator creates more than one default customer group that can be
 **Important:**
 If you sell virtual or downloadable products, which by their nature do not require shipping, the VAT rate of a customer’s location country should be used for both intra-union and domestic sales. You must create additional individual tax rules for product tax classes that correspond to the virtual products.
 
-## Customer Registration Workflow
+## Customer registration workflow
 
 If VAT ID Validation is enabled, after registration each customer is proposed to enter the VAT ID number. However only those who are registered VAT customers are expected to fill this field.
 
@@ -24,7 +24,7 @@ After a customer specifies the VAT number and other address fields, and chooses 
 
 If enabled, you can override VAT ID Validation for individual customers by selecting the checkbox on the Customer Information page.
 
-## Checkout Workflow
+## Checkout workflow
 
 If a customer’s VAT validation is performed during checkout, the VAT request identifier and VAT request date are saved in the Comments History section of the order.
 
