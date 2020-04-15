@@ -15,7 +15,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Merchant ID|Website|The Merchant ID from your Klarna account. Your Merchant ID is located in the upper-left corner of the _Store Settings_ tab in the Klarna Merchant Portal.|
 |Password|Website|The API password from your Klarna account.|
 |Mode|Website|Determines if Klarna is currently operating in a playground or production environment for the store. Options: Playground/ Production|
-|Logging|Website|(For development only) Determines if a log is generated of all actions. Options: Enable / Disable<br/><br/>**_Important:_** Logging exposes sensitive information, and is not to be used in a production environment.|
+|Logging|Website|(For development only) Determines if a log is generated of all actions. Options: Enable / Disable<br/><br/>**_Important:_** Logging exposes sensitive information and is not to be used in a production environment.|
 
 ## Klarna Payments
 
