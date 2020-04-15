@@ -9,7 +9,7 @@ Klarna lets your customers choose how they want to pay and supports the purchase
 ### New Features
 
 -  Added support for Australia and New Zealand markets
--  Improved configuration: Changed scope of API Comfiguration from `Store View` to `Website;` streamlined many field labels.
+-  Improved configuration: Changed scope of API Configuration from `Store View` to `Website`; updated section name and field label changes.
 
 ## Klarna payment methods
 
