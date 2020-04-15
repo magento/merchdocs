@@ -78,7 +78,7 @@ _Klarna Merchant Portal_
    - To generate a record of interactions while testing the integration, set **Logging** to `Enable`.
 
      {:.bs-callout-info}
-     Turn Logging off before going live with Klarna in your production store.
+     Set **Logging** to `Disabled` before going live with Klarna in your production store.
 
      ![API Configuration]({% link images/images/config-sales-payment-methods-klarna-api.png %}){: .zoom}
      [_API Configuration_]({% link configuration/sales/klarna.md %})
