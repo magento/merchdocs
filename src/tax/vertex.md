@@ -11,7 +11,7 @@ The integration includes tax configuration for your stores, overrides per countr
 ![]({% link images/images/tile-vertex-exemption-certificates.png %}) | **Manage Exception Certificates**<br>Vertex makes it easy to manage customers by jurisdiction who have non-standard tax requirements.
 ![]({% link images/images/tile-vertex-prepare-returns.png %}) | **Generate Returns**<br>Vertex Cloud automatically regenerates signature-ready PDF returns and sends a message when the returns are available.
 
-## Changes in the Latest Releases
+## Changes in the latest releases
 
 ### Release 2.3.4
 

@@ -2,6 +2,8 @@
 title: Supported Countries
 ---
 
+{% include shipping-status-note.md %}
+
 Updated with Magento version 2.3.2, supported countries include:
 
 |Country|Carrier Support|
