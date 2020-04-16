@@ -43,6 +43,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Session Validation]({% link stores/security-session-validation.md %})<br/>[Web]({% link configuration/general/web.md %}) (configuration reference) |Removed the _Use SID on Frontend_ (session ID) option from the Session Validation Settings information because it is no longer available due to security requirements.|
 |[Vertex Cloud]({% link tax/vertex.md %})|Updated content for release features and fixes.|
 |[Configuring Storefront Address Validation]({% link tax/vertex-configure-address.md %})|Updated to include Vertex address validation for customer accounts.|
+|[Amazon Pay]({% link payment/amazon-pay.md %})|Updated content for release features and fixes.|
 
 ## March 2020
 
