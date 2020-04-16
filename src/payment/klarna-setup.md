@@ -69,8 +69,8 @@ _Klarna Merchant Portal_
       - **Klarna Payments (North America)**
       - **Klarna Payments (Europe)**
       - **Klarna Payments (Oceana)**
-      
-      Supported countries:  AT, DE, DK, FI, NL, NO, SE, US, AU, NZ  
+
+      Supported countries:  AT, DE, DK, FI, NL, NO, SE, US, AU, NZ
 
    - Enter the **Merchant ID** from your Klarna account.
    - Enter the **Password** from your Klarna account.
