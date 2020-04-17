@@ -126,6 +126,8 @@ Click the button to create a new rule.
 
 On the Approval Rules form, rules can be Enabled or Disabled.
 
+Note: When assigning a role as an approver, ensure that there is at least one user in that role.
+
 ## Rule types and common options
 
 Choose the rule type from the dropdown menu.
@@ -148,9 +150,9 @@ Approve the PO from the order total, including tax.
 
 For Order Total amount, choose from:
 
-*  More than
-*  Equal to
-*  Less than
+*  is more than
+*  is equal to
+*  is less than
 
 Select the currency type and enter the amount.
 
@@ -173,9 +175,9 @@ That is 5 items but 2 distinct SKUs.
 
 Set the Number of SKUs value:
 
-*  More than
-*  Equal to
-*  Less than
+*  is more than
+*  is equal to
+*  is less than
 
 and the quantity of SKUs to test.
 
@@ -190,9 +192,9 @@ Some companies will limit or control shipping costs. Use this rule to approve or
 
 Set the Shipping cost value:
 
-*  More than
-*  Equal to
-*  Less than
+*  is more than
+*  is equal to
+*  is less than
 
 and the shipping amount to test.
 
