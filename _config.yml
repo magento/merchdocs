@@ -1,9 +1,14 @@
+# This file sets default project configuration for the User Guides website generator
+# See default Jekyll configuration at https://jekyllrb.com/docs/configuration/default/
+
 title: Magento 2.3 User Guide
 
 description: Merchant documentation and tutorials to help you manage a Magento store
 logo: User Guide
-baseurl: ''
+baseurl: /m2/user_guide
 url: "https://docs.magento.com"
+destination: _site/m2/user_guide
+
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
@@ -12,16 +17,6 @@ source: src
 plugins_dir: ./_plugins
 
 version: 2.3
-editions:
-  -
-    name: Open Source
-    url: https://docs.magento.com/m2/ce/user_guide/getting-started.html
-  -
-    name: Commerce
-    url: https://docs.magento.com/m2/ee/user_guide/getting-started.html
-  -
-    name: B2B
-    url: https://docs.magento.com/m2/b2b/user_guide/getting-started.html
 
 algolia:
   application_id: E642SEDTHL
