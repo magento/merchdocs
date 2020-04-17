@@ -113,9 +113,21 @@ _Custom Attributes_
 |Attribute|Website|Lists the selection of additional data fields that can be mapped from Magento.|
 |Data Field|Website|Lists the current selection of contact data fields from Engagement Cloud that can be mapped to a Magento attribute.|
 |Action|Website|Deletes the current custom mapping.|
-|<span class="btn">Add New Attribute</span>||Adds a new custom mapping.|
+|<span class="btn">Add New Attribute</span>||Adds a new custom mapping.|<!--{% if "Default.B2B Only" contains site.edition %}-->
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+## B2B Data
+
+![]({% link images/images-b2b/config-engagement-data-fields-mapping-b2b-data.png %}){: .zoom}
+_B2B Data_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Customer Type|Website|Lists the selection of customer types that can be mapped from Magento.|
+|Company|Website|Lists the selection of companies that can be mapped from Magento.|
+|Company Status|Website|Lists the selection of company status settings that can be mapped from Magento.|
+|Store Credit Balance|Website|Lists the selection of store credit balance amounts that can be mapped from Magento.|
+|Shared Catalog Name|Website|Lists the selection of shared catalogs that can be mapped from Magento.|<!--{% endif %}--><!--{% if "Default.EE-B2B" contains site.edition %}-->
+
 ## Enterprise Data
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-enterprise-data.png %}){: .zoom}
