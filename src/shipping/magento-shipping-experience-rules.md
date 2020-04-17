@@ -2,6 +2,8 @@
 title: Shipping Experience Rules
 ---
 
+{% include shipping-status-note.md %}
+
 The following instructions describe how to create a **Qualify Rule**; however, the process is essentially the same for all shipping experience rules. You will describe the condition, choose an operator, and define the action to be taken. Follow these basic instructions to create any type of rule. Refer to the Field Descriptions table at the end of this topic for more information about different rule types and options.
 
 ## To Create a Shipping Experience Rule

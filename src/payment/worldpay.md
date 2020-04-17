@@ -77,7 +77,6 @@ _Worldpay Credentials_
      |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
      |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
 
-
    ![Configure Payments]({% link images/images-ee/config-sales-payment-methods-worldpay5.png %}){: .zoom}
    _Configure Payments_
 
