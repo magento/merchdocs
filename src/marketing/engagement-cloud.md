@@ -19,7 +19,7 @@ Engagement Cloud, powered by [dotdigital][1], gives you the ability to produce p
 
 -  New B2B integration syncs company, shared catalog, and quote data.
 -  Enhanced web behavior tracking includes browsed products and abandoned search data.
--  Improved coupon code resend functionality
+-  Coupon Code URL Builder supports dynamic expiration dates, and makes easy to resend previously generated coupon codes.
 
 [1]: https://dotdigital.com/
 [2]: https://support.dotdigital.com/hc/en-gb/articles/115001930050-Email-campaigns-an-overview
