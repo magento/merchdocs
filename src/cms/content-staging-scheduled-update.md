@@ -29,6 +29,9 @@ The following example shows how to schedule a temporary price change for a produ
     ![]({% link images/images-ee/content-staging-campaign-schedule-update.png %}){: .zoom}
     _Scheduling a Product Update_
 
+    {:.bs-callout-info}
+    Date/Time have to be always in timezone of appropriate Website. For example, if you have multiple Websites in different timezones, but you want to start campaign based on US time, you need to schedule an update for each Website separately and define date/time in local time. 
+
 1. Scroll down to the **Price** field and click **Advanced Pricing**.
 
 1. Enter a **Special Price** for the product during the scheduled campaign. Then, click <span class="btn">Done</span>.
