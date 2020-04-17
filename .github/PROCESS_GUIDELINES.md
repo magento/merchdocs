@@ -1,6 +1,6 @@
-# MerchDocs maintainer guidelines
+# MerchDocs processing guidelines
 
-In general, our documentation maintainers (Magento staff members) use the same [guidelines](https://devdocs.magento.com/guides/v2.3/contributor-guide/maintainers.html) for [`magento/devdocs`](https://github.com/magento/devdocs) maintainers.
+In general, our documentation crew (Magento staff members) use similar [guidelines](https://devdocs.magento.com/guides/v2.3/contributor-guide/maintainers.html) for [`magento/devdocs`](https://github.com/magento/devdocs) maintainers.
 
 ## General expectations
 
@@ -18,8 +18,6 @@ In general, our documentation maintainers (Magento staff members) use the same [
 
    - Assign [labels](https://github.com/magento/merchdocs/labels) as appropriate
 
-- If a maintainer creates a pull request, it should be reviewed by another Magento Documentation staff member
-
 ## Labels
 
 Labels are important because they help us identify pull requests and ensure that contributors receive points and recognition. See [awards and points](https://devdocs.magento.com/guides/v2.3/contributor-guide/contributing.html#devdocs-awards-and-points). These points are awarded for all Magento Documentation repositories.
@@ -28,25 +26,25 @@ Here is a brief summary of the most important labels:
 
 - `New topic`: Entirely new documents
 - `Major update`: Significant new info: new section in existing topic, etc.
-- `Technical`: Changes to technical content/code/processes/naming conventions (any change to technical content)
+- `Minor update`: Changes to technical content/code/processes/naming conventions (any change to the information provided)
 - `Editorial`: Typos, grammatical inconsistencies, or minor rewrites
 - `small changes`: See [Small changes workflow](#small-changes-workflow)
 
-We also use version labels when appropriate. Maintainers will add or remove labels when appropriate.
+We also use version labels when appropriate. Doc team members will add or remove labels when appropriate.
 
 See https://github.com/magento/merchdocs/labels for all labels and their descriptions.
 
 ## Testing
 
-Currently, we only test internal links. In the future, we plan to expand tests to include external links, Markdown linting, and spell checking.
+Currently, we test internal links and markdown linting. In the future, we plan to expand tests to include external links and spell checking.
 
-We use private CI/CD stack and do not provide access to it.
+We use private CI/CD stack and do not provide outside access to it.
 
 Every pull request to the `master` branch must pass tests before it can be merged. When a pull request is ready for tests, a member of the admins team must add the test trigger phrase to the pull request as a comment. The trigger phrase is "_running tests_". By approving a pull request, you are signalling an admin that the pull request is ready for tests.
 
 ## Projects
 
-We use several projects to help organize issues and pull requests. You can add existing issues and pull requests to these projects as you see fit.
+We use several projects to help organize issues and pull requests. Doc team members can add existing issues and pull requests to these projects as needed.
 
 https://github.com/magento/merchdocs/projects
 
