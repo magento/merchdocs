@@ -24,7 +24,7 @@ desc "Same as 'test:report'"
 task test: %w[test:report]
 
 desc 'Preview the devdocs locally'
-task preview: %w[preview:all]
+task preview: %w[preview:local]
 
 task :clean do
   print 'Cleaning after the last site generation: $ '.magenta
@@ -38,7 +38,7 @@ task :install do
   puts 'Installed!'.green
 end
 
-task build: %w[build:all]
+task build: %w[build:dev]
 
 desc 'Check modified files. To check all files at the particular path, provide the path (e.g. path=src/images/images)'
 task check: %w[check:image_optim check:mdl]
@@ -46,12 +46,6 @@ task check: %w[check:image_optim check:mdl]
 desc 'Generate index for Algolia'
 task :index do
 
-  puts "Generating index for Algolia: Open Source ...".magenta
-  sh "bin/jekyll algolia --config=_config.yml,_config.index.yml,_config.ce.yml"
-
-  puts "Generating index for Algolia: Commerce ...".magenta
-  sh "bin/jekyll algolia --config=_config.yml,_config.index.yml,_config.ee.yml"
-
-  puts "Generating index for Algolia: B2B ...".magenta
-  sh "bin/jekyll algolia --config=_config.yml,_config.index.yml,_config.b2b.yml"
+  puts 'Generating index for Algolia ...'.magenta
+  sh 'bin/jekyll algolia --config=_config.yml,_config.index.yml'
 end
