@@ -136,7 +136,7 @@ _Choose Template_
     ![]({% link images/images/product-bundle-items.png %}){: .zoom}
     _Bundle Items_
 
-    If you select `Together` and have enabled _In-Store Delivery_, all bundle items must be assigned the same [source]({% link catalog/inventory-sources.md %}).
+    If you select `Together`, all bundle items must be assigned the same [source]({% link catalog/inventory-sources.md %}).
     <!-- Add link to In-Store Delivery when the topic is added -->
 
 1. Click <span class="btn">Add Option</span> and do the following:
