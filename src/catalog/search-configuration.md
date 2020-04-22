@@ -7,11 +7,11 @@ Magento offers a choice of search engines and versions and supports both MySQL a
 
 ## MySQL
 
-[MySQL]({% link catalog/search-mysql.md %}) is the default search engine used by Magento.
+MySQL is the default search engine used by Magento.
 
 ## Elasticsearch
 
-[Elasticsearch]({% link catalog/search-elasticsearch.md %}) is a powerful and highly scalable distributed search engine that is used by many industry leaders with high-volume sites.
+Elasticsearch is a powerful and highly scalable distributed search engine that is used by many industry leaders with high-volume sites.
 
 ## General search options
 

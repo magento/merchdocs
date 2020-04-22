@@ -27,4 +27,4 @@ _Popular Search Terms_
 [_Search Engine Optimization_]({% link configuration/catalog/catalog.md %})
 
 {:.bs-callout-info}
-You can further configure the caching of popular searches and additional options for your configured search engine [MySQL]({% link catalog/search-mysql.md %}) or [Elasticsearch]({% link catalog/search-elasticsearch.md %}).
+You can further configure the caching of popular [catalog searches({% link catalog/search-configuration.md %}).

@@ -678,13 +678,6 @@ pages:
       url: "/catalog/search-weighted.html"
     - label: Configuring Catalog Search
       url: "/catalog/search-configuration.html"
-    - label: Configuring Catalog Search
-      url: "/catalog/search-configuration.html"
-      children:
-      - label: MySQL
-        url: "/catalog/search-mysql.html"
-      - label: Elasticsearch
-        url: "/catalog/search-elasticsearch.html"
   - label: Search Terms
     url: "/marketing/search-terms.html"
     children:

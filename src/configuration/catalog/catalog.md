@@ -182,8 +182,6 @@ Magento offers a choice of search engines, and supports both MySQL and several v
 
 ### MySQL
 
-![]({% link images/images/config-catalog-catalog-search-mysql.png %}){: .zoom}
-[_Catalog Search - MySQL_]({% link catalog/search-configuration.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -201,10 +199,7 @@ Magento offers a choice of search engines, and supports both MySQL and several v
 
 ### Elasticsearch
 
-Magento supports the following versions of Elasticsearch: 6.x, 5.x, and 2.x (deprecated).
-
-![]({% link images/images/config-catalog-catalog-search-elasticsearch.png %}){: .zoom}
-[_Catalog Search - Elastic Search_]({% link catalog/search-elasticsearch.md %}) (including 6.0+)
+Magento supports the following versions of Elasticsearch: 7.x, 6.x, and 5.x (deprecated).
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
