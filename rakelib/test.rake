@@ -52,6 +52,9 @@ namespace :test do
   desc 'Test Markdown style with mdl'
   task :md do
     puts 'Testing Markdown style with mdl ...'.magenta
+    print 'List the rules: $ '.magenta
+    sh 'bin/mdl -l --style=_checks/styles/style-rules-prod'
+    puts 'Linting ...'.magenta
     output =
       `bin/mdl \
       --style=_checks/styles/style-rules-prod \

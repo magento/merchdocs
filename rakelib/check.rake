@@ -9,8 +9,11 @@ namespace :check do
     path = ENV['path']
     unless path
       modified_files = `git ls-files --modified --others --exclude-standard`.split("\n").reject {|file| File.extname(file) == '.md'}
-      abort 'Didn\'t find any modified files.'.blue if modified_files.empty?
+      deleted_files = `git ls-files --deleted`.split("\n")
       path = modified_files.join(' ')
+      image_files_to_check = (modified_files - deleted_files).select { |file| File.extname(file) =~ /\.(png|jpg|jpeg|gif)/i }
+      abort 'Didn\'t find any modified files.'.blue if image_files_to_check.empty?
+      path = image_files_to_check.join(' ')
     end
     system "bin/image_optim  --no-pngout --no-svgo --recursive #{path}"
   end
@@ -22,11 +25,11 @@ namespace :check do
 
     unless path
       modified_files = `git ls-files --modified --others --exclude-standard`.split("\n")
-      modified_md_files = modified_files.select { |file| File.extname(file) == '.md' }
-
-      abort 'Cannot find any modified .md files.'.magenta if modified_md_files.empty?
-
-      path = modified_md_files.join(' ')
+      deleted_files = `git ls-files --deleted`.split("\n")
+      abort 'Cannot find any modified .md files.'.magenta if modified_files.empty?
+      md_files_to_check = (modified_files - deleted_files).select { |file| File.extname(file) == '.md' }
+      abort 'Cannot find any modified .md files.'.magenta if md_files_to_check.empty?
+      path = md_files_to_check.join(' ')
     end
 
     report = `bin/mdl --style=_checks/styles/style-rules-dev --ignore-front-matter -- #{path}`
