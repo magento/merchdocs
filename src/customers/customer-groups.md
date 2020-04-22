@@ -74,6 +74,22 @@ _Customer Groups_
       ![]({% link images/images/stores-customer-group-assign.png %}){: .zoom}
       _Assign a Customer Group_
 
+## To associate a group of customers with specific discounts
+
+1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Cart Price Rules**.
+
+1. Select the cart price rule with the discount to apply, or [create a new price rule]({% link marketing/price-rules-catalog.md %}).
+
+1. Select the customer groups the rule will apply to.
+
+    ![]({% link images/images/stores-customer-group-discounts.png %}){: .zoom}
+      _Customer Group to Specific Discounts_
+
+1. Click <span class="btn">Save</span>.
+
+{:.bs-callout-info}
+You can also use Advance pricing to apply product discounts to customer groups. See [Advanced pricing]({% link catalog/product-price-group.md %}).
+
 ## To delete a customer group
 
 <!--{% if "Default.B2B Only" contains site.edition %}-->

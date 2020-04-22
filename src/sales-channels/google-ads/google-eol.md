@@ -3,7 +3,7 @@ title: End of Life
 tag: google-shopping
 ---
 
-Google Shopping ads Channel will be deactivated and removed from the [Magento Marketplace](https://marketplace.magento.com/) on April 28, 2020. We apologize for any disruption this may cause.
+Google Shopping ads Channel will be disabled and removed from the [Magento Marketplace](https://marketplace.magento.com/) on April 28, 2020. We apologize for any disruption this may cause.
 
 To minimize the impact of transitioning out of the Google Shopping ads Channel extension, we recommend two alternatives.
 
@@ -14,25 +14,25 @@ To minimize the impact of transitioning out of the Google Shopping ads Channel e
 What to expect next:
 
 - On March 19, 2020, the extension will be removed from the [Magento Marketplace](https://marketplace.magento.com/).
-- On April 28, 2020, the Google Shopping ads Channel extension will be deactivated in all Magento versions.
+- On April 28, 2020, the Google Shopping ads Channel extension will be disabled in all Magento versions.
 
 ## Common Questions
 
 1. What is happening?
 
-    The Google Shopping ads Channel extension will be deactivated in all Magento versions. The extension will stop working, and if accessed in the Magento Admin from a previous install, a `Google Shopping ads has been disabled.` message appears. The extension will no longer sync product or ad campaign data with Google.
+    The Google Shopping ads Channel extension will be disabled in all Magento versions. The extension will stop working, and if accessed in the Magento Admin from a previous install, a `Google Shopping ads has been disabled.` message appears. The extension will no longer sync product or ad campaign data with Google.
 
-    Also, the extension will be removed from the Magento Marketplace as well as from any future Magento releases.
+    Also, the extension will be removed from the Magento Marketplace and disabled in any future Magento releases.
 
 1. When is this happening?
 
-    Google Shopping ads Channel will be removed from the Magento Marketplace on March 19, 2020 and deactivated in Magento on April 28, 2020. Before that date, we encourage users of the extension to visit the [Magento Marketplace](https://marketplace.magento.com/) and search for "Google Shopping" to find an alternative extension.
+    Google Shopping ads Channel will be removed from the Magento Marketplace on March 19, 2020 and disabled in Magento on April 28, 2020. Before that date, we encourage users of the extension to visit the [Magento Marketplace](https://marketplace.magento.com/) and search for "Google Shopping" to find an alternative extension.
 
 1. What happens in the Magento Admin when the extension is deactivated?
 
     The extension will stop sending product feed data to Google Merchant Center and stop syncing Smart Shopping Campaigns with Google ads.
 
-    Merchants who have the extension installed may still see Google Shopping ads in the Magento Admin, but when clicked, a `Google Shopping ads has been disabled.` message appears. Also, future Magento updates will no longer automatically install the extension.
+    Merchants who have the extension installed may still see Google Shopping ads in the Magento Admin, but when clicked, a `Google Shopping ads has been disabled.` message appears.
 
 1. What will happen to my existing Smart Shopping Campaigns?
 

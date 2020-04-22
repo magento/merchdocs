@@ -2,6 +2,8 @@
 title: Click & Collect
 ---
 
+{% include shipping-status-note.md %}
+
 Click & Collect allows customers to order online, and pick up their orders at the store or another designated location. For a description of how Click & Collect is specified during checkout, see [Customer Experience]({% link shipping/magento-shipping-customer-experience.md %}).
 
 Every Click & Collect order generates a pickup record. Like a shipment, the pickup record is associated with the specific order. The main difference between the two is that a pickup does not have packaging or quote/booking requirements. Because Click & Collect is available only from the storefront, it cannot be used for orders that are created from the Admin.
