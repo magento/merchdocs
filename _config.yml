@@ -5,9 +5,9 @@ title: Magento 2.3 User Guide
 
 description: Merchant documentation and tutorials to help you manage a Magento store
 logo: User Guide
-baseurl: /m2/user_guide
+baseurl: /user-guide
 url: "https://docs.magento.com"
-destination: _site/m2/user_guide
+destination: _site/user-guide
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
