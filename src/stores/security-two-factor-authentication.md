@@ -31,8 +31,8 @@ The Magento Admin provides all access to your store, orders, and customer data. 
 
 1. (Optional) **Enable “trust this device” option** — Set to one of the following:
 
-    - `Yes` — The user does not have to enter their authenticator code for every login per device.
-    - `No` — Forces authentication for every login.
+   - `Yes` — The user does not have to enter their authenticator code for every login per device.
+   - `No` — Forces authentication for every login.
 
     ![Security configuration - Google Authenticator]({% link images/images/config-2fa-google-authenticator.png %}){: .zoom}
     _Google Authenticator_
@@ -43,8 +43,8 @@ The Magento Admin provides all access to your store, orders, and customer data. 
 
 1. (Optional) **Enable “trust this device” option** — Set to one of the following:
 
-    - `Yes` — The user does not have to enter their authenticator code for every login per device.
-    - `No` — Forces authentication for every login.
+   - `Yes` — The user does not have to enter their authenticator code for every login per device.
+   - `No` — Forces authentication for every login.
 
     ![Security configuration - U2F devices]({% link images/images/config-2fa-utf-devices.png %}){: .zoom}
     _U2F Devices_
@@ -55,13 +55,13 @@ The Magento Admin provides all access to your store, orders, and customer data. 
 
 1. (Optional) **Enable “trust this device” option** — Set to one of the following:
 
-    - `Yes` — The user does not have to enter their authenticator code for every login per device.
-    - `No` — Forces authentication for every login.
+   - `Yes` — The user does not have to enter their authenticator code for every login per device.
+   - `No` — Forces authentication for every login.
 
 1. Enter the following keys for your account:
 
-    - Integration key
-    - Secret key
+   - Integration key
+   - Secret key
 
 1. Enter the **API hostname**.
 
@@ -76,8 +76,8 @@ The Magento Admin provides all access to your store, orders, and customer data. 
 
 1. (Optional) **Enable “trust this device” option** — Set to one of the following:
 
-    - `Yes` — The user does not have to enter their authenticator code for every login per device.
-    - `No` — Forces authentication for every login.
+   - `Yes` — The user does not have to enter their authenticator code for every login per device.
+   - `No` — Forces authentication for every login.
 
 1. (Optional) To change the **OneTouch Message**, clear the **Use system value** checkbox. Then, enter the message that you want to use.
 
@@ -101,8 +101,8 @@ We recommend only enabling one authenticator per account. If you require multipl
 
 1. Do one of the following:
 
-    - Select and edit a user from the list.
-    - Add a new user account.
+   - Select and edit a user from the list.
+   - Add a new user account.
 
 1. In the User Information menu, select **2FA**.
 
@@ -123,9 +123,9 @@ This option requires all Admin users to configure and use all forced authenticat
 
 1. In the left panel, expand _Security_ and choose **2FA**. Then, do the following:
 
-    - In the **General** section, clear the **Use system value** checkbox for Force providers.
+   - In the **General** section, clear the **Use system value** checkbox for Force providers.
 
-    - Select one or more authenticators.
+   - Select one or more authenticators.
 
 1. When complete, click <span class="btn">Save Config</span>.
 

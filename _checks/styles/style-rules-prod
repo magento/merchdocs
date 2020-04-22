@@ -4,9 +4,9 @@ rule 'MD003', :style => :atx # Header style
 rule 'MD004' # Unordered list style, default "consistent"
 rule 'MD005' # inconsistent indentation for list items at the same level
 rule 'MD006' # consider starting bulleted lists at the beginning of the line
-exclude_rule 'MD007'
+rule 'MD007', :indent => 3 # unordered list indentation
 rule 'MD009' # no trailing spaces
-exclude_rule 'MD010'
+rule 'MD010'
 exclude_rule 'MD011'
 exclude_rule 'MD012'
 exclude_rule 'MD013'

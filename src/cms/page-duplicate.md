@@ -24,9 +24,9 @@ _Save &amp; Duplicate_
 
    - Find the duplicate page in the grid, and take note of the following:
 
-     - The Page Title is the same as the original.
-     - A unique, but temporary URL Key is assigned.
-     - The Status of the page is `Disabled`.
+      - The Page Title is the same as the original.
+      - A unique, but temporary URL Key is assigned.
+      - The Status of the page is `Disabled`.
 
       ![]({% link images/images/pages-grid-duplicated-page.png %}){: .zoom}
       _Duplicate Page in Grid_

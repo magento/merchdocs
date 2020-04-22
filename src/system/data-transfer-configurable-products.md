@@ -13,15 +13,15 @@ _New Size Variation Added for Each Color_
 
 1. Before you begin, make sure that the attributes that are used for product variations have the required property settings.
 
-    - [**Scope**]({% link configuration/scope.md %}) - `Global`
-    - [**Catalog Input Type for Store Owner**]({% link stores/attributes-product.md %}) - The input type of any attribute that is used for a product variation must be one of the following:
+   - [**Scope**]({% link configuration/scope.md %}) - `Global`
+   - [**Catalog Input Type for Store Owner**]({% link stores/attributes-product.md %}) - The input type of any attribute that is used for a product variation must be one of the following:
 
-        - `Dropdown`
-        - `Visual Swatch`
-        - `Text Swatch`
-        - `Multi-Select`
+      - `Dropdown`
+      - `Visual Swatch`
+      - `Text Swatch`
+      - `Multi-Select`
 
-    - **Values Required** - `Yes`
+   - **Values Required** - `Yes`
 
 1. If you are adding a new size or color, or making any other change to an existing attribute, make sure to update the attribute with the new value.
 
@@ -46,39 +46,39 @@ _New Size Variation Added for Each Color_
 
 1. Find the configurable product to export:
 
-    - Click **Filters**.
-    - Set **Type** to `Configurable Product` and click **Apply Filters**.
-    - Choose the configurable product that you want to use for your test export and take note of the **SKU**.
+   - Click **Filters**.
+   - Set **Type** to `Configurable Product` and click **Apply Filters**.
+   - Choose the configurable product that you want to use for your test export and take note of the **SKU**.
 
 1. On the _Admin_ sidebar, go to **System** > _Data Transfer_ > **Export**.
 
 1. Under **Export Settings**, do the following:
 
-    - Set **Entity Type** to `Products`.
+   - Set **Entity Type** to `Products`.
 
-    - Set **Export File Format** to `CSV`.
+   - Set **Export File Format** to `CSV`.
 
     ![Data export settings]({% link images/images/data-transfer-export-settings.png %}){: .zoom}
     _Export Settings_
 
 1. Under **Entity Attributes**, scroll down to **SKU** and do the following:
 
-    - Enter the **SKU** of the configurable product that you have chosen to export and click **Continue**.
+   - Enter the **SKU** of the configurable product that you have chosen to export and click **Continue**.
 
-    ![Data export SKU]({% link images/images/data-transfer-export-sku.png %}){: .zoom}
-    _SKU_
+      ![Data export SKU]({% link images/images/data-transfer-export-sku.png %}){: .zoom}
+      _SKU_
 
-    - Look for the file in the download location for your web browser and open it as a spreadsheet.
+   - Look for the file in the download location for your web browser and open it as a spreadsheet.
 
         The CSV file has a separate row for each simple product variation, and one row for the configurable product. The `product_type column` shows multiple simple product variations that are associated with one configurable product.
 
         ![Example data - configurable product with variations]({% link images/images/data-transfer-csv-configurable-product.png %}){: .zoom}
         _Configurable Product with Variations_
 
-    - Scroll to the far right of the worksheet to find the following columns.
+   - Scroll to the far right of the worksheet to find the following columns.
 
-        - `configurable_variations` - Defines the one-to-many relationship between the configurable product record and each variation.
-        - `configurable_variation_labels` - Defines the label that identifies each variation.
+      - `configurable_variations` - Defines the one-to-many relationship between the configurable product record and each variation.
+      - `configurable_variation_labels` - Defines the label that identifies each variation.
 
       In this example, the data can be found in columns CG and CH. Depending on the number of variations, the string of data in the `configurable_variations` column can be quite long. The data is used an an index to the associated product variations, and has the following structure:
 
@@ -118,19 +118,19 @@ In the following example, the set of XL sizes is copied and pasted into the work
 
 1. Update the data in the following columns of the new variations, as needed.
 
-    - `sku`
-    - `name`
-    - `url_key`
-    - `additional_attributes`
+   - `sku`
+   - `name`
+   - `url_key`
+   - `additional_attributes`
 
    For this example, all the `XL` references are changed to `XXL`.
 
 1. The next step is to update the information in the `product_variations` column of the configurable product record, so the new variations are included as part of the configurable product.
 
-    - On the row with the configurable product record, click the cell that contains the `product_variations` data. Then in the formula bar, copy the last set of parameters, beginning with the pipe symbol.
+   - On the row with the configurable product record, click the cell that contains the `product_variations` data. Then in the formula bar, copy the last set of parameters, beginning with the pipe symbol.
 
-        ![product_variations data]({% link images/images/data-transfer-export-configurable-product-product-variations-data.png %}){: .zoom}
-        _product_variations_
+      ![product_variations data]({% link images/images/data-transfer-export-configurable-product-product-variations-data.png %}){: .zoom}
+      _product_variations_
 
 1. Paste the parameters to the end of the data and edit as needed for the new variations.
 

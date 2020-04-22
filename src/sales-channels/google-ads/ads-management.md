@@ -1,5 +1,6 @@
 ---
 title: Managing Ad Campaigns
+tag: google-shopping
 ---
 
 

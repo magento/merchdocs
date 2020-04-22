@@ -29,13 +29,13 @@ _System Upgrade_
 
 1. Retrieve your access keys:
 
-    - Go to [Magento Marketplace][2]{:target="_blank"} and log into your account.
+   - Go to [Magento Marketplace][2]{:target="_blank"} and log into your account.
 
-    - On the _Marketplace_ tab, go to **My Products** and click **Access Keys**.
+   - On the _Marketplace_ tab, go to **My Products** and click **Access Keys**.
 
         If you need to generate a new set of access keys, click **Create a New Access Key**.
 
-    - Find the set of access keys (public key and private key) in the list and make them available for the next steps.
+   - Find the set of access keys (public key and private key) in the list and make them available for the next steps.
 
 1. Log in to the Admin of your Magento store as a user with full administrator rights.
 
@@ -53,9 +53,9 @@ _System Upgrade_
 
 1. Follow the onscreen instructions to complete the following steps:
 
-    - Step 1: Select Version
-    - Step 2: Create Backup
-    - Step 3: System Upgrade
+   - Step 1: Select Version
+   - Step 2: Create Backup
+   - Step 3: System Upgrade
 
 1. Flush the [cache]({% link system/cache-management.md %}) and [reindex]({% link system/index-management.md %}) when complete.
 

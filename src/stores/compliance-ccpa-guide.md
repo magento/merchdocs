@@ -48,19 +48,19 @@ Take inventory of your digital properties, including all integrations and those 
 
 1. Determine what public and private personal information is collected through your website(s) and mobile application(s).  For example, a standard Magento database stores the following types of public and private personal information:
 
-    - **Public**: Wish Lists, Product Reviews
+   - **Public**: Wish Lists, Product Reviews
 
-    - **Private**: Customer Information, Order Information, Reward Points, Gift Registry, Address Book, Store Credit, Payment Methods, Billing Agreements, Newsletter Subscriptions, Invitations.
+   - **Private**: Customer Information, Order Information, Reward Points, Gift Registry, Address Book, Store Credit, Payment Methods, Billing Agreements, Newsletter Subscriptions, Invitations.
 
       If your Magento installation has been customized, additional personal information might be collected. Personal information might also reside in [cookies]({% link stores/cookie-reference.md -%}), tags, and other technologies that collect information.
 
 1. Identify the parties with whom you share data. Your list will include service providers and third parties such as advertising networks, internet service providers, data analytics providers, government entities, operating systems and platforms, social networks, and consumer data resellers who do not directly collect personal information from your consumers.
 
-    - **Service Providers**:  Those who have access to your consumer data for a business purpose, and provide services on your behalf. For example, Adobe is service provider, as are some developers of customizations, extensions, and services.
+   - **Service Providers**:  Those who have access to your consumer data for a business purpose, and provide services on your behalf. For example, Adobe is service provider, as are some developers of customizations, extensions, and services.
 
       Check the default settings of Google Universal Analytics, Google Tag Manager &mdash; and any other data services you use &mdash; and make any changes necessary to comply with the regulation. To learn more, see [Google Privacy Settings]({% link stores/compliance-privacy-google.md -%}).
 
-    - **Other Third Parties**: Those with whom you share or sell consumer data. For example, you might share consumer data with an advertising network in exchange for advertising.
+   - **Other Third Parties**: Those with whom you share or sell consumer data. For example, you might share consumer data with an advertising network in exchange for advertising.
 
 ### Step 3: Map the customer journey and data collection process in your store(s).
 
@@ -72,8 +72,8 @@ Take inventory of your digital properties, including all integrations and those 
 
 1. See the following topics for applicable data flow diagrams and database entity mappings for each version of Magento:
 
-    - [Personal Information Reference (Magento 2.x)][1]
-    - [Personal Information Reference (Magento 1.x)][2]
+   - [Personal Information Reference (Magento 2.x)][1]
+   - [Personal Information Reference (Magento 1.x)][2]
 
     ![](https://devdocs.magento.com/compliance/privacy/frontend-data-entry-points.svg){: .zoom}
     _Storefront Data Entry Points_
@@ -102,11 +102,11 @@ Merchants are responsible to do the following:
 
 1. Establish procedures to respond to and document each of the following requests:
 
-    - **Requests to Know**: Visitors to your store must be informed of any arrangement(s) that you have to sell or share their personal information with third parties, and be given the opportunity to opt out. The details of your use of personal information, and the parties with whom you share or sell data can be maintained in your privacy policy.
+   - **Requests to Know**: Visitors to your store must be informed of any arrangement(s) that you have to sell or share their personal information with third parties, and be given the opportunity to opt out. The details of your use of personal information, and the parties with whom you share or sell data can be maintained in your privacy policy.
 
-    - **Requests to Opt Out**: The CCPA requires businesses to provide a **Do Not Sell My Info** link at each point where personal data is collected, if it will be sold or transferred to third parties in exchange for valuable consideration. Additional user-enabled input controls, such as checkboxes and buttons, can be used in email communications, website preference settings, or in website forms at the point of data collection for individuals to submit a valid opt-out request.
+   - **Requests to Opt Out**: The CCPA requires businesses to provide a **Do Not Sell My Info** link at each point where personal data is collected, if it will be sold or transferred to third parties in exchange for valuable consideration. Additional user-enabled input controls, such as checkboxes and buttons, can be used in email communications, website preference settings, or in website forms at the point of data collection for individuals to submit a valid opt-out request.
 
-    - **Requests to Delete**
+   - **Requests to Delete**
 
       - Merchants whose stores are hosted on Adobe Commerce Cloud should contact Magento Support for assistance deleting personal information. Contact your Magento Technical Account Manager or Customer Support for more information.
       - Merchants running installations of Magento on premise must implement their own process and script to delete personal information upon request.
@@ -117,13 +117,13 @@ Merchants are responsible to do the following:
 
 1. In partnership with your legal counsel, determine the types of notices that should be added to your website to meet CCPA obligations.
 
-    - **Notice of Collection**: A notice given at or before the time personal information is collected from the consumer. The notice should be written in plain language, and be easy for the average person to understand. The notice should be conspicuous and provided in the same language(s) as your website content.
+   - **Notice of Collection**: A notice given at or before the time personal information is collected from the consumer. The notice should be written in plain language, and be easy for the average person to understand. The notice should be conspicuous and provided in the same language(s) as your website content.
 
-    - **Notice of Right to Opt Out**: A notice that informs consumers of their right to opt out of the sale of their personal information.
+   - **Notice of Right to Opt Out**: A notice that informs consumers of their right to opt out of the sale of their personal information.
 
-    - **Notice of Financial Incentive**: A notice that explains each financial incentive, price, or service difference that your company receives in exchange for personal information.
+   - **Notice of Financial Incentive**: A notice that explains each financial incentive, price, or service difference that your company receives in exchange for personal information.
 
-    - **How to Submit a Request for Personal Information Collection and Use**: Instructions for individuals to submit a request that you disclose the personal information that you have collected about the individual, including:
+   - **How to Submit a Request for Personal Information Collection and Use**: Instructions for individuals to submit a request that you disclose the personal information that you have collected about the individual, including:
 
       - Specific pieces of personal information that you have collected about the consumer
       - Categories of personal information that you have collected about the consumer
@@ -154,9 +154,9 @@ Review your current privacy policy and consider what, if any, additional disclos
 
 - **Age of Consent**: If you collect or use personal information about minors, you may be subject to the following requirements:
 
-    - **Minors < 13**: Parental authorization is required for minors under the age of 13 to opt in to the sale of their personal information.
+   - **Minors < 13**: Parental authorization is required for minors under the age of 13 to opt in to the sale of their personal information.
 
-    - **Minors 13 to < 16**: Minors at least 13 and less than 16 years of age can opt in to the sale of their personal information, provided the business establishes a reasonable process to document the action. The process must be set forth in the company's [privacy policy]({% link stores/privacy-policy.md -%}). When a business receives requests from minors in this age range, it must inform them of their right to opt out at a later date, and explain how to do it.
+   - **Minors 13 to < 16**: Minors at least 13 and less than 16 years of age can opt in to the sale of their personal information, provided the business establishes a reasonable process to document the action. The process must be set forth in the company's [privacy policy]({% link stores/privacy-policy.md -%}). When a business receives requests from minors in this age range, it must inform them of their right to opt out at a later date, and explain how to do it.
 
   {: .bs-callout-info}
   Merchants are prohibited from storing the personal data of children on our platform or systems. If there is reason to believe collected data belongs to a minor, it must be removed from our platform immediately to avoid breach of Magento license terms.

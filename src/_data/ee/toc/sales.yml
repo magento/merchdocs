@@ -239,15 +239,15 @@ pages:
         url: "/payment/amazon-pay-manage.html"
       - label: Amazon Pay Resources
         url: "/payment/amazon-pay-resources.html"
-    - label: Authorize.Net Direct Post (Deprecated)
-      url: "/payment/authorize-net-direct-post.html"
-    - label: Authorize.Net
+    - label: Authorize.Net - Deprecated
       url: "/payment/authorize-net.html"
-    - label: CyberSource (Deprecated)
+    - label: Authorize.Net Direct Post - Deprecated
+      url: "/payment/authorize-net-direct-post.html"
+    - label: CyberSource - Deprecated
       url: "/payment/cybersource.html"
-    - label: eWAY (Deprecated)
+    - label: eWAY - Deprecated
       url: "/payment/eway.html"
-    - label: Worldpay
+    - label: Worldpay - Deprecated
       url: "/payment/worldpay.html"
   - label: Basic Payment Methods
     url: "/payment/payment-methods.html"

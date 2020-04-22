@@ -35,12 +35,12 @@ Flat rate is a fixed, predefined charge that can be applied per item, or per shi
 
 1. (Optional) Configure handling fee:
 
-    - If charging an additional handling fee, set **Calculate Handling Fee** to one of the following:
+   - If charging an additional handling fee, set **Calculate Handling Fee** to one of the following:
 
       - `Fixed`
       - `Percent`
 
-    - Enter the **Handling Fee** rate according to the method used to calculate the fee. For example, if the fee is calculating based on a percentage, enter 0.06 for 6 percent. If using a fixed amount calculation, enter the fee as a decimal.
+   - Enter the **Handling Fee** rate according to the method used to calculate the fee. For example, if the fee is calculating based on a percentage, enter 0.06 for 6 percent. If using a fixed amount calculation, enter the fee as a decimal.
 
 1. In the **Displayed Error Message** box, type the message that appears if Flat Rate Shipping becomes unavailable.
 

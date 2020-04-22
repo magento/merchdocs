@@ -24,9 +24,9 @@ _Pop-up Calendar_
 
    - Set the order of each part of the date field as needed:
 
-     - Month
-     - Day
-     - Year
+      - Month
+      - Day
+      - Year
 
 1. To set your preferred time format, do the following:
 
@@ -34,8 +34,8 @@ _Pop-up Calendar_
 
    - Set **Time Format** to one of the following:
 
-     - `12h AM/PM`
-     - `24h`
+      - `12h AM/PM`
+      - `24h`
 
 1. To establish the **Year Range** for the drop-down values, enter the year (YYYY) to set the **from** and **to** dates.
 
