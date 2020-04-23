@@ -17,16 +17,22 @@ See the [Yotpo website](https://www.yotpo.com/platform/visual-marketing/) for mo
 
 With Magento v2.3.3+, integrating your Magento store is a quick, simple process and gives you access to the content and data customizations available in your Yotpo account. See [Integrate your Magento Store with your Yotpo Account]({% link marketing/yotpo-connect.md %}).
 
-## Changes In the Latest Release
+## Changes in the Latest Release
 
-This release contains changes to correct a variety of issues and to update documentation and Yotpo-specific links.
+This release contains enhancements and resolved issues.
 
-- The **Yotpo Reviews** and **Yotpo Analytics** links in the Admin > Reports section have been updated to redirect to the connected Yotpo account information.
+### Enhancements
 
-- Corrected issues related to the syncing of invalid orders. Invalid orders are now listed in the log, and additional syncs are not attempted.
+- Order status updates (example: shipped, invoiced) are now included in the product review data shared between Magento and Yotpo.
 
-- Corrected an issue preventing orders from syncing correctly.
+### Resolved Issues
 
-- Updated  documentation links in the Admin.
+- Corrected an issue causing errors when accessing Magento Analytics.
 
-- Corrected an issue preventing Yotpo settings from displaying in the Admin after setup when `Single-Store` mode is selected.
+- Corrected an issue causing errors in the review star display on product pages.
+
+- Changed the data transfer process for products with no reviews to optimize system performance.
+
+- Shortened the system wait time for network "timeout" issues.
+
+- Corrected an issue preventing the _Ask a Question_ feature from appearing on product pages.
