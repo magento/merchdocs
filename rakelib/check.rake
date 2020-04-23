@@ -10,7 +10,6 @@ namespace :check do
     unless path
       modified_files = `git ls-files --modified --others --exclude-standard`.split("\n").reject {|file| File.extname(file) == '.md'}
       deleted_files = `git ls-files --deleted`.split("\n")
-      path = modified_files.join(' ')
       image_files_to_check = (modified_files - deleted_files).select { |file| File.extname(file) =~ /\.(png|jpg|jpeg|gif)/i }
       abort 'Didn\'t find any modified files.'.blue if image_files_to_check.empty?
       path = image_files_to_check.join(' ')
@@ -28,7 +27,6 @@ namespace :check do
       deleted_files = `git ls-files --deleted`.split("\n")
       abort 'Cannot find any modified .md files.'.magenta if modified_files.empty?
       md_files_to_check = (modified_files - deleted_files).select { |file| File.extname(file) == '.md' }
-      abort 'Cannot find any modified .md files.'.magenta if md_files_to_check.empty?
       path = md_files_to_check.join(' ')
     end
 
