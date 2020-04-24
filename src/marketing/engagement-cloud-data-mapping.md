@@ -129,7 +129,7 @@ The configuration settings in the Data Mapping section are used to map fields ma
 
 1. In the Magento configuration, go to **DOTDIGITAL** > **Sync Settings**.
 
-1. Set **B2B Quote Enabled** to `Yes`, and press <span class="btn">Save Config</span>.
+1. Set **B2B Quote Enabled** to `Yes` and press <span class="btn">Save Config</span>.
 
 1. On the Admin sidebar, go to **System** > _Tools_ > **Cache Management**, and refresh any invalid cache.
 
