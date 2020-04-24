@@ -81,7 +81,7 @@ The generation of discount coupons is an asynchronous operation, which executes 
    ![Cart price rule - manage coupon codes]({% link images/images/price-rule-cart-manage-coupon-codes.png %}){: .zoom}
    _Manage Coupon codes_
 
-   -  In the **Coupons Qty** field, enter the number of coupons that you want to generate.
+   -  For **Coupons Qty**, enter the number of coupons that you want to generate.
 
    -  Enter the **Code Length**, not including the prefix, suffix, or separators.
 
