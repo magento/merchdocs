@@ -178,6 +178,6 @@ Do the following to test the dynamic coupon code URLs that you generate with the
 
 1. Copy the coupon code that appears in the browser.
 
-1. Make a test purchase in your Magento store, and apply the coupon code in the shopping cart.
+1. Make a test purchase in your Magento store and apply the coupon code in the shopping cart.
 
  [1]: https://support.dotdigital.com/hc/en-gb/articles/360000466730-Dynamic-content-Coupon-codes-Magento-2
