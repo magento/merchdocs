@@ -122,7 +122,7 @@ The generation of discount coupons is an asynchronous operation, which executes 
 
 1. Enter the **Code Prefix** and **Code Suffix** if applicable.
 
-1. In the **Expires After (days)** field do one of the following:
+1. For **Expires After (days)**, do one of the following:
 
    -  Enter the number of days the coupon code is valid.
    -  Leave the field blank for a dynamic expiration date.
