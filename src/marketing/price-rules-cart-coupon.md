@@ -152,7 +152,7 @@ Do the following to test the dynamic coupon code URLs that you generate with the
 
 ### Method 1: Run a test campaign
 
-1. Generate the dynamic URL as described above, and insert it into a dotdigital test campaign.
+1. Generate the dynamic URL as described above and insert it into a dotdigital test campaign.
 
 1. Run the test campaign and check your email for the code.
 
