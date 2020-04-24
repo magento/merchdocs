@@ -16,11 +16,11 @@ If [dotdigital]({% link marketing/engagement-cloud.md %}) is enabled, you can us
 
 1. Follow the instructions to create a [cart price rule]({% link marketing/price-rules-cart.md %}).
 
-1. On the **Rule Information** section, set **Coupon** to `Specific Coupon`.
+1. In the **Rule Information** section, set **Coupon** to `Specific Coupon`.
 
-   -  Enter a **Coupon Code** to be used with the promotion.
+1. Enter a **Coupon Code** to be used with the promotion.
 
-      The format of the code as numeric, alphanumeric or alphabetical is determined by the [configuration]({% link marketing/price-rules-cart-coupon-code-configure.md %}).
+   The format of the code as numeric, alphanumeric or alphabetical is determined by the [configuration]({% link marketing/price-rules-cart-coupon-code-configure.md %}).
 
 1. To limit the number of times the coupon can be used, do the following:
 
