@@ -168,7 +168,7 @@ Do the following to test the dynamic coupon code URLs that you generate with the
 
 1. Click <span class="btn">Save Config</span>.
 
-1. Go to **System** > _Tools_ > **Cache Management**, and clear any invalid cache.
+1. Go to **System** > _Tools_ > **Cache Management** and clear any invalid cache.
 
 1. Use the _dotdigital Coupon URL Builder_ to generate a URL.
 
