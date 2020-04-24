@@ -90,7 +90,7 @@ The configuration settings in the Data Mapping section are used to map fields ma
 
 1. In the left panel, go to **DOTDIGITAL** > **Sync Settings**.
 
-1. Scroll down to the bottom of the _Sync_ section, and verify that **Catalog Enabled** is set to `Yes`.
+1. Scroll down to the bottom of the _Sync_ section and verify that **Catalog Enabled** is set to `Yes`.
 
    If you changed the setting, click <span class="btn">Save Config</span> before continuing to the next step.
 
@@ -101,7 +101,7 @@ The configuration settings in the Data Mapping section are used to map fields ma
 
 1. Click <span class="btn">Save Config</span>.
 
-1. On the Admin sidebar, go to **System** > _Tools_ > **Cache Management**. Then, refresh any invalid cache.
+1. On the Admin sidebar, go to **System** > _Tools_ > **Cache Management** and refresh any invalid cache.
 
 1. Do one of the following:
 
@@ -122,14 +122,14 @@ The configuration settings in the Data Mapping section are used to map fields ma
 
 1. In the Magento comfiguration, verify that [B2B Quotes]({% link stores/b2b-features.md %}) is enabled.
 
-1. Before continuing, verify that you have [Quote]({% link sales/quotes.md %}) data available to sync with dotdigital. If not, wait until there are quotes available to work with.
+1. Before continuing, verify that you have [Quote]({% link sales/quotes.md %}) data available to sync with dotdigital. If not, wait until there are quotes available.
 
    ![]({% link images/images-b2b/quote-grid-new.png %}){: .zoom}
    [_Quotes_]({% link configuration/engagement-cloud/developer.md %})
 
 1. In the Magento configuration, go to **DOTDIGITAL** > **Sync Settings**.
 
-1. Set **B2B Quote Enabled** to `Yes`, and press <span class="btn">Save Config</span>.
+1. Set **B2B Quote Enabled** to `Yes` and press <span class="btn">Save Config</span>.
 
 1. On the Admin sidebar, go to **System** > _Tools_ > **Cache Management**, and refresh any invalid cache.
 

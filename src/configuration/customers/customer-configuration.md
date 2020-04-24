@@ -46,7 +46,6 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 |Welcome Email|Store View|Identifies the email template that is used for the Welcome message that is sent after the account is confirmed.|
 |Generate Human-Friendly Customer ID|Global|Determines if the field that is used to enter and store the VAT ID number is visible from the storefront. Options: Yes / No|
 
-
 ## Password Options
 
 ![]({% link images/images/config-customers-customer-configuration-password-options.png %}){: .zoom}
