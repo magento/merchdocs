@@ -172,7 +172,7 @@ Do the following to test the dynamic coupon code URLs that you generate with the
 
 1. Use the _dotdigital Coupon URL Builder_ to generate a URL.
 
-1. Click the generated URL to copy it to the clipboard, and paste it into the address bar of a new browser tab.
+1. Click the generated URL to copy it to the clipboard and paste it into the address bar of a new browser tab.
 
 1. At the end of the URL, replace the `@EMAIL@` placeholder with an email address that you use for testing, and press return to display the coupon code.
 
