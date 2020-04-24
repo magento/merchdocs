@@ -17,9 +17,9 @@ Engagement Cloud, powered by [dotdigital][1], gives you the ability to produce p
 
 ## Changes In the Latest Release
 
--  New B2B integration syncs company, shared catalog, and quote data.
+-  A new B2B integration syncs [data mappings]({% link marketing/engagement-cloud-data-mapping.md %}) for company, shared catalog, and quote data with your dotdigital account.
 -  Enhanced web behavior tracking includes browsed products and abandoned search data.
--  Coupon Code URL Builder supports dynamic expiration dates, and makes easy to resend previously generated coupon codes.
+-  [dotdigital Coupon Code URL Builder]({% link marketing/price-rules-cart-coupon.md %}) generates a URL with a dynamic coupon code for a specific contact that can be used in dotdigital email campaigns.
 
 [1]: https://dotdigital.com/
 [2]: https://support.dotdigital.com/hc/en-gb/articles/115001930050-Email-campaigns-an-overview
