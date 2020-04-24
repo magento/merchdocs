@@ -28,12 +28,15 @@ Our documentation is continually updated with new topics, clarifications, and co
 - [Templates]({% link cms/page-builder-templates.md %})
 <!--{% endif %}-->
 - [Magento Services]({% link configuration/services/saas.md %})
+- [Data Mapping]({% link marketing/engagement-cloud-data-mapping.md %})
 
 ### Updated topics
 
 {: .topics-table }
 |Topic |Change|
 |--- |--- |
+|[Engagement Cloud]({% link marketing/engagement-cloud.md %})<br />[Sync Settings]({% link configuration/engagement-cloud/sync-settings.md %}) (reference)<br />[Developer]({% link configuration/engagement-cloud/developer.md %}) (reference)|Updated dotdigital Changes In the Latest Release, and added new B2B functionality to the configuration.|
+|[Coupon Codes]({% link marketing/price-rules-cart-coupon.md %})|Added new dotdigital Coupon Code URL Builder|
 |[Klarna]({% link payment/klarna.md %})<br />[Setting Up Klarna]({% link payment/klarna-setup.md %})<br />[Klarna]({% link configuration/sales/klarna.md %}) (reference)|Updated Changes In the Latest Release, and configuration section titles and field labels.|
 |[Configure Global Options]({% link catalog/inventory-options-global.md %})|Added information for the new _Synchronize with Catalog_ option provided by Inventory Management. |<!--{% if "Default.EE-B2B" contains site.edition %}-->
 |[Banner]({% link cms/page-builder-media-banner.md %})<br/>[Row]({% link cms/page-builder-layout-row.md %})<br/>[Slider]({% link cms/page-builder-media-slider.md %})|Updated content for new _Minimum Height_ option and support for full-height functionality. Additional content for new video background feature.|

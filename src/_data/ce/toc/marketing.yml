@@ -589,6 +589,8 @@ pages:
           url: "/marketing/engagement-cloud-account-api-users.html"
         - label: Transactional Email Users
           url: "/marketing/engagement-cloud-account-transactional-email-users.html"
+      - label: Data Mapping
+        url: "/marketing/engagement-cloud-data-mapping.html"
     - label: Chat
       url: "/marketing/engagement-cloud-chat.html"
     - label: Create a Campaign

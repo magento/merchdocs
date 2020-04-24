@@ -4,14 +4,10 @@ title: Data Mapping
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Data Mapping
 
-Data field mapping establishes the relationship between customer information and activity from all stores related to your Magento website and specific contact fields in the Engagement Cloud database. Data fields can be mapped manually or automatically. To map data fields automatically, use the Automap Data Fields option in the Developer > Admin Task section of the Engagement Cloud configuration.
-
-The configuration settings in the Data Mapping section are used to map fields manually. The Data Mapping section displays a list of the available Engagement Cloud contact data fields for each Magento data item. Initially there are only a few contact database fields as examples that can be mapped to Magento. You can create additional Engagement Cloud contact data fields and also include mapping to Magento custom attributes. To learn more, see [Data syncing: Data Mapping - Magento 2](https://support.dotdigital.com/hc/en-gb/articles/360000449530-Data-syncing-Data-mapping-Magento-2).
-
 ## Customer Information
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-customer-information.png %}){: .zoom}
-_Customer Information_
+[_Customer Information_]({% link marketing/engagement-cloud-data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -31,7 +27,7 @@ _Customer Information_
 ## Address
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-address.png %}){: .zoom}
-_Address_
+[_Address_]({% link marketing/engagement-cloud-data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -54,7 +50,7 @@ _Address_
 ## Sales
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-sales.png %}){: .zoom}
-_Sales_
+[_Sales_]({% link marketing/engagement-cloud-data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -76,7 +72,7 @@ _Sales_
 ## System Values
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-system-values.png %}){: .zoom}
-_System Values_
+[_System Values_]({% link marketing/engagement-cloud-data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -106,20 +102,32 @@ Gives you the ability to create custom mappings to Engagement Cloud, based on th
 <!--{% endif %}-->
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-custom-attributes.png %}){: .zoom}
-_Custom Attributes_
+[_Custom Attributes_]({% link marketing/engagement-cloud-data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Attribute|Website|Lists the selection of additional data fields that can be mapped from Magento.|
 |Data Field|Website|Lists the current selection of contact data fields from Engagement Cloud that can be mapped to a Magento attribute.|
 |Action|Website|Deletes the current custom mapping.|
-|<span class="btn">Add New Attribute</span>||Adds a new custom mapping.|
+|<span class="btn">Add New Attribute</span>||Adds a new custom mapping.|<!--{% if "Default.B2B Only" contains site.edition %}-->
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+## B2B Data
+
+![]({% link images/images-b2b/config-engagement-data-fields-mapping-b2b-data.png %}){: .zoom}
+[_B2B Data_]({% link marketing/engagement-cloud-data-mapping.md %})
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Customer Type|Website|Lists the selection of customer types that can be mapped from Magento.|
+|Company|Website|Lists the selection of companies that can be mapped from Magento.|
+|Company Status|Website|Lists the selection of company status settings that can be mapped from Magento.|
+|Store Credit Balance|Website|Lists the selection of store credit balance amounts that can be mapped from Magento.|
+|Shared Catalog Name|Website|Lists the selection of shared catalogs that can be mapped from Magento.|<!--{% endif %}--><!--{% if "Default.EE-B2B" contains site.edition %}-->
+
 ## Enterprise Data
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-enterprise-data.png %}){: .zoom}
-_Enterprise Data_
+[_Enterprise Data_]({% link marketing/engagement-cloud-data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -134,7 +142,7 @@ _Enterprise Data_
 ## Create Data Field
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-create-data-field.png %}){: .zoom}
-_Create Data Field_
+[_Create Data Field_]({% link marketing/engagement-cloud-data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
