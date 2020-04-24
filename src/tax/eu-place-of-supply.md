@@ -13,7 +13,7 @@ Merchants who are audited for taxes paid for digital goods, must provide two pie
 - The customer’s shipping address and a record of a successful payment transaction can be used to establish the customer place of residence. (Payment is accepted only if the shipping address matches payment provider information.)
 - The information can also be captured directly from the data store in the Magento database tables.
 
-## To collect digital goods tax information:
+## Collect digital goods tax information
 
 1. Load the tax rates for all EU member countries.
 
@@ -29,7 +29,8 @@ Merchants who are audited for taxes paid for digital goods, must provide two pie
 
 1. Export the tax amounts that are related to the tax rates for the digital goods product tax class.
 
-**See also:**
+{:.ref-header}
+See also:
 
 - [European Commission Taxation and Customs Union ][1]
 - [EU 1015 Place of Supply Changes][2]

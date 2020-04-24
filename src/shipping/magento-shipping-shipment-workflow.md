@@ -2,6 +2,8 @@
 title: Shipment Workflow
 ---
 
+{% include shipping-status-note.md %}
+
 The value of the Status column in the Shipments grid reflects the state of the shipment as it moves through the workflow. If the Status column isn’t currently visible in the Shipments grid, you can change the [grid layout]({% link stores/admin-grid-layout.md %}) to include the column. Then, use the [grid controls]({% link stores/admin-grid-controls.md %}) to filter the shipments by status.
 
 | | | |

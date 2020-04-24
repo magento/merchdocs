@@ -2,6 +2,8 @@
 title: Attribute Mapping
 ---
 
+{% include shipping-status-note.md %}
+
 Magento Shipping product attributes are available for mapping in Magento Admin. When associated to a Magento product attribute, the attribute value is available to pre-fill values in the fulfillment processes.
 
 Attribute mapping allows you to map Magento Shipping attributes to Magento [product attributes]({% link catalog/product-attributes.md %}) defined in your Magento catalog. Mapping data is used to auto-assign shipping information/values when fulfilling orders, resulting in a more efficient and less frustrating experience for customers.

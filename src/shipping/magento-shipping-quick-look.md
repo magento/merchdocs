@@ -2,6 +2,8 @@
 title: Quick Look
 ---
 
+{% include shipping-status-note.md %}
+
 ## Advanced Shipments
 
 Magento Shipping is now available in [several countries]({% link shipping/magento-shipping-countries.md %}), where you can create shipments with advanced features such as route and package information with dimensional weight, carrier quotes, international details with required export information, harmonization codes, shipping documents and labels, delivery instructions, and tracking information.
