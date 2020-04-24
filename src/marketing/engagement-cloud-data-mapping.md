@@ -90,7 +90,7 @@ The configuration settings in the Data Mapping section are used to map fields ma
 
 1. In the left panel, go to **DOTDIGITAL** > **Sync Settings**.
 
-1. Scroll down to the bottom of the _Sync_ section, and verify that **Catalog Enabled** is set to `Yes`.
+1. Scroll down to the bottom of the _Sync_ section and verify that **Catalog Enabled** is set to `Yes`.
 
    If you changed the setting, click <span class="btn">Save Config</span> before continuing to the next step.
 
