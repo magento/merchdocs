@@ -4,7 +4,7 @@ title: Data Mapping
 
 Data mapping establishes the relationship between customer information and activity from all stores related to your Magento website and specific contact fields in the dotdigital database. Data fields can be mapped manually or automatically.
 
-The configuration settings in the Data Mapping section are used to map fields manually. The Data Mapping section displays a list of the available dotdigital contact data fields for each Magento data item. Initially there are only a few contact database fields as examples that can be mapped to Magento. You can create additional dotdigital contact data fields and also include mapping to Magento custom attributes. After mapping the data fields, each component of your Magento database can be synchronized for import into dotdigital. To learn more, see [Data syncing: Data mapping - Magento 2](1).
+The configuration settings in the Data Mapping section are used to map fields manually. The Data Mapping section displays a list of the available dotdigital contact data fields for each Magento data item. Initially there are only a few contact database fields as examples that can be mapped to Magento. You can create additional dotdigital contact data fields and also include mapping to Magento custom attributes. After mapping the data fields, each component of your Magento database can be synchronized for import into dotdigital. To learn more, see [Data syncing: Data mapping - Magento 2][1].
 
 ## Map data fields automatically
 
@@ -78,7 +78,7 @@ The configuration settings in the Data Mapping section are used to map fields ma
 
 1. In your dotdigital account, verify that the customer data is correctly synced with the company data.
 
-   To learn more, see [Sync company data](2) in the dotdigital Help Centre.
+   To learn more, see [Sync company data][2] in the dotdigital Help Centre.
 
 ### Sync B2B Shared Catalog
 
@@ -116,7 +116,7 @@ The configuration settings in the Data Mapping section are used to map fields ma
 
 1. Verify that the Catalog_[Level]_[Shared catalog name] data is correct.
 
-   To learn more, see [Sync shared catalogs](3)) in the dotdigital Help Centre.
+   To learn more, see [Sync shared catalogs][3] in the dotdigital Help Centre.
 
 ### Sync B2B Quotes
 
@@ -137,7 +137,7 @@ The configuration settings in the Data Mapping section are used to map fields ma
 
 1. In your dotdigital account, verify that the imported quote data is correct.
 
-   To learn more, see [Sync B2B quotes](4) in the dotdigital Help Centre.
+   To learn more, see [Sync B2B quotes][4] in the dotdigital Help Centre.
 
 <!--{% endif %}-->
 
