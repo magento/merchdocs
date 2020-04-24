@@ -122,7 +122,7 @@ The configuration settings in the Data Mapping section are used to map fields ma
 
 1. In the Magento comfiguration, verify that [B2B Quotes]({% link stores/b2b-features.md %}) is enabled.
 
-1. Before continuing, verify that you have [Quote]({% link sales/quotes.md %}) data available to sync with dotdigital. If not, wait until there are quotes available to work with.
+1. Before continuing, verify that you have [Quote]({% link sales/quotes.md %}) data available to sync with dotdigital. If not, wait until there are quotes available.
 
    ![]({% link images/images-b2b/quote-grid-new.png %}){: .zoom}
    [_Quotes_]({% link configuration/engagement-cloud/developer.md %})
