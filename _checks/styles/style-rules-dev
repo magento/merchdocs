@@ -22,7 +22,7 @@ rule 'MD025' # multiple top level headers in the same document
 exclude_rule 'MD026'
 exclude_rule 'MD027'
 exclude_rule 'MD028'
-exclude_rule 'MD029'
+rule 'MD029' # ordered list item prefix
 exclude_rule 'MD030'
 exclude_rule 'MD031'
 exclude_rule 'MD032'

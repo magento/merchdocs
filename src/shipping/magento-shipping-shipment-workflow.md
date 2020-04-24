@@ -11,15 +11,15 @@ The value of the Status column in the Shipments grid reflects the state of the s
 |![]({% link images/images/icon-ms-shipment-dispatched.png %})|**Shipment is dispatched.**|An attempt to <a href="{% link sales/dispatches.md %}">dispatch</a> is in progress (Status: Completing) The dispatch is complete. (Status: Completed)|
 |![]({% link images/images/icon-x.png %})|**Shipment canceled.**|The shipment is canceled. (Status: Canceled)|
 
-## To show the Shipment Status column
+## Show the Shipment Status column
 
-1.  On the _Admin_ menu, choose **Sales**.
+1. On the _Admin_ menu, choose **Sales**.
 
-2.  Choose **Shipments**.
+1. Choose **Shipments**.
 
-3.  In the upper-right corner, click the **Columns** ![]({% link images/images/btn-columns.png %}) control.
+1. In the upper-right corner, click the **Columns** ![]({% link images/images/btn-columns.png %}) control.
 
-4.  Mark the **Shipment Status** checkbox.
+1. Select the **Shipment Status** checkbox.
 
 ![]({% link images/images/shipments-grid-show-shipment-status-column.png %}){: .zoom}
 _Show Shipment Status_
