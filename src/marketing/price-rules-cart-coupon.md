@@ -10,10 +10,7 @@ Coupons codes are used with [cart price rules]({% link marketing/price-rules-car
 
 Coupon codes can be sent by email, or included in newsletters, catalogs, and advertisements. The list of coupon codes can be exported and sent to a commercial printer. You can also create in-store coupons with a quick response code that shoppers can scan with their smart phones. The QR code can link to a page on your site with more information about the promotion.
 
-If [Engagement Cloud]({% link marketing/engagement-cloud.md %}) is enabled, you can use the dotDigital Coupon URL Builder to dynamically generate a unique URL for a coupon code that is associated with a specific contact email address. The URL can be pasteed into any email message or dotDigital campaign without risking that the coupon code might be shared or misused. You can also resend a previously generated coupon code to the same contact.
-
-{: .bs-callout-info}
-The dotDigital Coupon URL Builder requires you to disable [Dynamic Pages IP Restriction]({% link configuration/engagement-cloud/developer.md %}) in the Magento configuration. As a best practice, we recommend that you do not disable this security mechanism.
+If [dotdigital]({% link marketing/engagement-cloud.md %}) is enabled, you can use the _dotdigital Coupon URL Builder_ to dynamically generate personalized URLs with coupon codes that can be used in your dotdigital email campaigns. You can also resend a previously generated coupon code to the same contact. To learn more, see [Dynamic countent:  Coupon codes - Magento 2](1) in the dotdigital Help Centre.
 
 ## Method 1: Create a Specific Coupon
 
@@ -25,25 +22,22 @@ The dotDigital Coupon URL Builder requires you to disable [Dynamic Pages IP Rest
 
       The format of the code as numeric, alphanumeric or alphabetical is determined by the [configuration]({% link marketing/price-rules-cart-coupon-code-configure.md %}).
 
-1. To limit the number of times the coupon can be used, complete the following:
+1. To limit the number of times the coupon can be used, do the following:
 
-   -  **Uses per Coupon**
-
-   -  **Uses per Customer**
+   -  Enter the number of **Uses per Coupon**.
+   -  Enter the number of **Uses per Customer**.
 
       For unlimited use, leave these fields blank.
 
       ![Cart price rule - coupon information]({% link images/images/price-rule-cart-coupon-info.png %}){: .zoom}
       _Coupon Information_
 
-1. Make the coupon valid for a period of time.
+1. To make the coupon valid for a period of time, do the following:
 
     <!--{%- if "Default.CE Only" contains site.edition -%}-->
     Complete the **From** and **To** dates. To select the date, click the **Calendar** (![]({% link images/images/btn-calendar.png %})) icon next to each field. If you leave the date range empty, the rule does not expire.
     <!--{%- endif -%}-->
     <!--{%- if "Default.EE-B2B" contains site.edition -%}-->
-    Do one of the following:
-
    **Schedule New Update**
 
    - Click <span class="btn">Schedule New Update</span> in the upper-right corner of the page. Then, do the following:
@@ -89,7 +83,7 @@ The generation of discount coupons is an asynchronous operation, which executes 
 
    -  In the **Coupons Qty** field, enter the number of coupons that you want to generate.
 
-   -  nter the **Code Length**, not including the prefix, suffix, or separators.
+   -  Enter the **Code Length**, not including the prefix, suffix, or separators.
 
    -  Set the **Code Format** to one of the following:
 
@@ -98,9 +92,7 @@ The generation of discount coupons is an asynchronous operation, which executes 
       -  `Numeric`
 
    -  (Optional) Enter a **Code Prefix** to be added to the beginning of the code.
-
    -  (Optional) Enter a **Code Suffix** to be added to the end of the code.
-
    -  (Optional) In the **Dash Every X Characters** field, enter the number of characters between each dash. For example, if the code is twelve characters long, and there is a dash every four characters, it will look like ` xxxx-xxxx-xxxx`. Dashes make codes easier to read and enter.
 
 1. When complete, click <span class="btn">Generate</span>.
@@ -110,35 +102,17 @@ The generation of discount coupons is an asynchronous operation, which executes 
    ![Cart price rule - generated coupon codes]({% link images/images/price-rule-cart-coupons-generated.png %}){: .zoom}
    _Generated Codes_
 
-## Method 3: Use the dotDigital Coupon URL Builder
-
-### Step 1: Disable Dynamic Pages IP Restriction
-
-{: .bs-callout-info}
-The dotDigital Coupon URL Builder requires you to disable [Dynamic Pages IP Restriction]({% link configuration/engagement-cloud/developer.md %}) in the Magento configuration. As a best practice, we recommend that you do not disable this security mechanism.
-
-1. On the Admin sidebar, go to **Stores** > _Settings_ > **Configuration**. In the left panel, go to **dotDigital** > **Developer**.
-
-1. Copy the current list of IP addresses that are in the **Dynamic Pages IP Restriction** box, and paste them in an editor for safekeeping.
-
-   Keep this copy of the IP addresses, so you can easily restore them, if necessary.
-
-1. Clear the contents of the **Dynamic Pages IP Restriction** box. Then, click <span class="btn">Save Config</span>.
-
-1. On the Admin sidebar, go to **System** > _Tools_ > **Cache Management** and refresh any invalid cache.
-
-### Step 2: Build a Coupon URL
+## Method 3: Generate a dynamic dotdigital coupon URL
 
 1. Create a [cart price rule]({% link marketing/price-rules-cart.md %}) with the following settings:
 
    -  Set **Coupon** to `Specific Coupon`.
-
    -  Select the **Auto Generation** checkbox.
 
-1. Expand the **dotDigital Coupon URL Builder** section.
+1. Expand the **dotdigital Coupon URL Builder** section.
 
    ![]({% link images/images/price-rule-cart-coupon-url-builder.png %}){: .zoom}
-   _dotDigital Coupon URL Builder_
+   _dotdigital Coupon URL Builder_
 
 1. To use a specific code format, set **Code Format** to one of the following:
 
@@ -151,37 +125,59 @@ The dotDigital Coupon URL Builder requires you to disable [Dynamic Pages IP Rest
 1. In the **Expires After (days)** field do one of the following:
 
    -  Enter the number of days the coupon code is valid.
-
    -  Leave the field blank for a dynamic expiration date.
 
 1. Do one of the following:
 
    -  To always generate a new coupon URL, set **Allow Resend** to `No`.
-
    -  If you want to allow a previously-generated coupon URL to be resent to the same contact, set **Allow Resend** to `Yes`.
 
 1. To prevent a coupon URL from being used multiple times, set **Cancel Send if Used** to `Yes`.
 
 1. Click the **Coupon Codes URL** field to copy the URL to the clipboard.
 
-   The URL includes a `@email@` placeholder that must be replaced with the email address of the recipient. For example: `roni_cost@example.com`.
+   This URL can now be pasted into a dotdigital email campaign to send a personalized and dynamically generated coupon code to a client. The coupons are retrieved and inserted at point of send. To learn more, see [Dynamic countent:  Coupon codes - Magento 2](1) in the dotdigital Help Centre.
 
-1. In a new browser tab, paste the URL that you copied. Then, do the following:
+1. To view the dotdigital coupon codes that you have generated from Magento, do the following:
 
-   -  Replace the `@email@` placeholder with the email address of the recipient.
-
-   -  Press **Return** to display the coupon code in your browser.
-
-      This URL can now be used as a hyperlink in email communications or dotDigital campaigns to send the coupon code to the recipient.  For example, you might send an email to a customer that says "Here's your coupon code!" with a hyperlink that goes to the URL that you generated.
-
-1. In the Magento Admin, return to the cart price rule that you were editing.
-
-1. Expand the **Manage Coupon Codes** section, and find the coupon that you generated in the grid.
+   -  Expand the **Manage Coupon Codes** section, and find the coupon in the grid.
+   -  To filter the list, set the **Generated by dotdigital** filter at the top of the fourth column to `Yes`, and click <span class="btn">Search</span>.
 
    ![]({% link images/images/price-rule-cart-manage-coupon-codes-grid.png %}){: .zoom}
-   _Coupon Generate by dotDigital_
+   _Coupon Generate by dotdigital_
 
-1. If you can't find the coupon code in the grid, do one of the following:
+## Test your dotdigital coupon code URLs
 
-   -  Refresh the page.
-   -  Set the **Generated by dotdigital** filter at the top of the fourth column to `Yes`, and click <span class="btn">Search</span>.
+Do the following to test the dynamic coupon code URLs that you generate with the _dotdigital Coupon URL Builder_.
+
+### Method 1: Run a test campaign
+
+1. Generate the dynamic URL as described above, and insert it into a dotdigital test campaign.
+
+1. Run the test campaign and check your email for the code.
+
+1. From your Magento store, make a test purchase and apply the code in the shopping cart.
+
+### Method 2: Add your IP address to the IP restriction whitelist
+
+1. In the Magento configuration, go to **DOTDIGITAL** > **Developer**.
+
+1. Scroll down to the **Dynamic Pages IP Restriction** section.
+
+1. Add your IP address to the end of the list, separated from the previous entry by a comma.
+
+1. Click <span class="btn">Save Config</span>.
+
+1. Go to **System** > _Tools_ > **Cache Management**, and clear any invalid cache.
+
+1. Use the _dotdigital Coupon URL Builder_ to generate a URL.
+
+1. Click the generated URL to copy it to the clipboard, and paste it into the address bar of a new browser tab.
+
+1. At the end of the URL, replace the `@EMAIL@` placeholder with an email address that you use for testing, and press return to display the coupon code.
+
+1. Copy the coupon code that appears in the browser.
+
+1. Make a test purchase in your Magento store, and apply the coupon code in the shopping cart.
+
+ [1]: https://support.dotdigital.com/hc/en-gb/articles/360000466730-Dynamic-content-Coupon-codes-Magento-2
