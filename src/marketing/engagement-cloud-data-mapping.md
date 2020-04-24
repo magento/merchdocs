@@ -101,7 +101,7 @@ The configuration settings in the Data Mapping section are used to map fields ma
 
 1. Click <span class="btn">Save Config</span>.
 
-1. On the Admin sidebar, go to **System** > _Tools_ > **Cache Management**. Then, refresh any invalid cache.
+1. On the Admin sidebar, go to **System** > _Tools_ > **Cache Management** and refresh any invalid cache.
 
 1. Do one of the following:
 
