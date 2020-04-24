@@ -10,17 +10,19 @@ Give your sales a boost when you advertise financing. PayPal helps turn browsers
 
 You can easily add free, ready-made banner ads to pages of your site, and the PayPal Credit button to your shopping cart during checkout to remind your customers that financing is readily available.
 
-**Payment Options that can use PayPal Credit**
+## Payment options that can use PayPal Credit
 
-For US merchants, PayPal Credit is enabled by default for the [PayPal Express Checkout]({% link payment/paypal-express-checkout.md %}) payment option. To disable it for this payment option, see the **Features** section of [PayPal Express Checkout]({% link payment/paypal-express-checkout.md %}) configuration.
+For US merchants, PayPal Credit is enabled by default for the [PayPal Express Checkout]({% link payment/paypal-express-checkout.md %}) payment option. To disable it for this payment option, see the _Features_ section of PayPal Express Checkout configuration.
 
-For the following **Other PayPal Payment Solutions**, PayPal Credit is disabled by default but can be enabled in the payment option's configuration. See each option's configuration to enable PayPal Credit:
-   - [Payments Advanced]({% link payment/paypal-payments-advanced.md %})
-   - [Payments Pro]({% link payment/paypal-payments-pro.md %})
-   - [Payments Standard]({% link payment/paypal-payments-standard.md %})
-   - [Payflow Pro]({% link payment/paypal-payflow-pro.md %})
-   - [Payflow Link]({% link payment/paypal-payflow-link.md %})
+PayPal Credit is disabled by default for these _Other PayPal Payment Solutions_, but can be enabled in the payment option configuration:
 
-Before you configure PayPal Credit for your Magento store, make sure it is enabled in your PayPal Merchant Account.
+- [Payments Advanced]({% link payment/paypal-payments-advanced.md %})
+- [Payments Pro]({% link payment/paypal-payments-pro.md %})
+- [Payments Standard]({% link payment/paypal-payments-standard.md %})
+- [Payflow Pro]({% link payment/paypal-payflow-pro.md %})
+- [Payflow Link]({% link payment/paypal-payflow-link.md %})
+
+{:.bs-callout-info}
+**Important:** Before you configure PayPal Credit for your Magento store, make sure it is enabled in your PayPal Merchant Account.
 
 [1]: https://www.paypal.com/us/webapps/mpp/promotional-financing
