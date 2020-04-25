@@ -4,6 +4,18 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what’s new.
 
+## April 2020
+
+### New topics
+
+- [Renewed Products]({% link sales-channels/asc/renewed-products.md %})
+
+### Updated topics
+
+|Topic |Change|
+|--- |--- |
+|[Product Listing Condition]({% link sales-channels/asc/product-listing-condition.md %})|Added a note and link related to the Amazon Renewed Products Program.|
+
 ## March 2020
 
 ### Updated topics
