@@ -32,5 +32,5 @@ _Access Token Expiration_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |OAuth consumer credentials HTTP Post timeout|Global|Specifies the number of seconds it takes for the system to timeout when customers post their credentials.|
-|OAuth consumer credentials HTTP Post maxredirects|Global|Specifies the maximum number of redirects that can take place which are related to a posting of consumer credentials.|
+|OAuth consumer credentials HTTP Post maxredirects|Global|Specifies the maximum number of redirects which are related to a posting of consumer credentials.|
 |Expiration Period|Global|Determines the number of seconds before an unused key/secret expires after the OAuth token exchange begins.|
