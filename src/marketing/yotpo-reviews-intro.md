@@ -25,7 +25,7 @@ This release contains enhancements and resolved issues.
 
 - Order status updates (example: shipped, invoiced) are now included in the product review data shared between Magento and Yotpo.
 
-### Resolved Issues
+### Resolved issues
 
 - Corrected an issue causing errors when accessing Magento Analytics.
 
