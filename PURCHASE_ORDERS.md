@@ -72,6 +72,13 @@ Click the Add New Role button to create a new role or select Edit from the Role 
 
 Negotiable quotes allows buyers and sellers to negotiate a price for a purchase order before purchasing.
 To enable negotiable quotes, set XXXXXXXXX in the ACL.
+Negotiable quotes works the same way as with a regular order.
+
+1. User creates an order and submits it for a negotiable quote.
+1. When the quote is approved, the buyer will continue the checkout process.
+1. All orders in the store are automatically converted to purchase orders. Click the 'Create Purchase Order' button to compete the checkout process.
+
+The purchase order will then go through any defined approval process.
 
 ## Manage Purchase Orders
 
@@ -79,7 +86,11 @@ Company Users with Purchase Order permissions can create, edit and delete POs cr
 
 While logged into the store, click 'My Purchase Orders' on the Quick Link menu.
 
-By default, the table will show all POs created by the current user and all subordinate users. Click the 'Show My Purchase Orders' link to only show POs made by the current user.
+By default, there are three tabs with different purchase orders:
+
+*  My Purchase Orders: POs created by you.
+*  Company Purchase Orders: POs made by subordinate users within your Company (depends on ACL settings).
+*  Requires My Approval: POs that are waiting for your approval.
 
 Click 'View' for the PO you wish to see.
 
@@ -95,6 +106,7 @@ If you have an existing purchase order and you would like to add new items to it
 1. Click the 'Add Items to Shopping Cart' link.
 1. The Shopping Cart page will open with all the items listed.
 1. Make any additions or changes you may need.
+1. Use the 'Custom Reference Number' to add an internal Invoice/PO number to the order. (optional)
 1. Follow the normal Checkout workflow and press the 'Place Purchase Order' button.
 
 If you have items in your shopping cart when you click the link, you will be prompted to either merge the cart items with the existing PO or you can choose to replace the items in the PO with the items in your shopping cart.
