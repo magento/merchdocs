@@ -88,12 +88,17 @@ You can also click the Comments tab to see any comments about this PO and the Hi
 
 <!-- Below is for https://docs.magento.com/m2/ce/user_guide/customers/account-dashboard.html area for a My Purchase Order topic. -->
 
-### Clone the Purchase Order
+### Create a new purchase order from existing purchase prder
 
-1. Click the 'Add Items to a new PO' link.
+If you have an existing purchase order and you would like to add new items to it, a new purchase order is created and new products added to this new PO.
+
+1. Click the 'Add Items to Shopping Cart' link.
 1. The Shopping Cart page will open with all the items listed.
 1. Make any additions or changes you may need.
 1. Follow the normal Checkout workflow and press the 'Place Purchase Order' button.
+
+If you have items in your shopping cart when you click the link, you will be prompted to either merge the cart items with the existing PO or you can choose to replace the items in the PO with the items in your shopping cart.
+The original purchase order can be closed if it is no longer needed.
 
 ### Purchase Order approval
 
@@ -150,9 +155,8 @@ Approve the PO from the order total, including tax.
 
 For Order Total amount, choose from:
 
-*  is more than
-*  is equal to
-*  is less than
+*  is more than or equal to
+*  is less than or equal to
 
 Select the currency type and enter the amount.
 
@@ -175,9 +179,8 @@ That is 5 items but 2 distinct SKUs.
 
 Set the Number of SKUs value:
 
-*  is more than
-*  is equal to
-*  is less than
+*  is more than or equal to
+*  is less than or equal to
 
 and the quantity of SKUs to test.
 
@@ -192,9 +195,8 @@ Some companies will limit or control shipping costs. Use this rule to approve or
 
 Set the Shipping cost value:
 
-*  is more than
-*  is equal to
-*  is less than
+*  is more than or equal to
+*  is less than or equal to
 
 and the shipping amount to test.
 
