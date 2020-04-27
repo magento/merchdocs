@@ -4,6 +4,34 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what’s new.
 
+## March 2020
+
+### Product releases
+
+- [Amazon Sales Channel](https://devdocs.magento.com/extensions/amazon-sales/release-notes/#v400){:target="_blank"}, 4.0.0
+
+### New section
+
+- [Amazon Sales Channel]({% link sales-channels/asc/amazon-sales-channel.md %}) (4.0)
+
+### Updated topics
+
+|Topic |Change|
+|--- |--- |
+|[Layout Updates]({% link design/layout-updates.md %})|Updated all topics in this section to reflect the change in layout update implementation. Layout updates are now saved on the server and selected from a list.|
+|[Blocks]({% link cms/block-add.md %})<br />[Using a Layout Update]({% link design/layout-update-place-block.md %})<br />[Adding a New Page]({% link cms/page-add.md %})|Updated the process of applying a layout update to a page.|
+|[Design Settings]({% link catalog/categories-custom-design.md %}) - Category<br />[Design Settings]({% link catalog/settings-advanced-design.md %}) - Product|Updated the Custom Layout Update field and description.|<!--{% if "Default.EE Only" contains site.edition %}-->
+|[Product Recommendations]({% link marketing/product-recommendations.md %})| Additional content to describe how product recommendations use Adobe Sensei and new content to describe the Trending recommendation type. |
+|[Create New Recommendation]({% link marketing/create-new-rec.md %})|Additional content to describe how product recommendations use Adobe Sensei.|
+|[Best Practices Using Recommendations]({% link marketing/recommendation-best-practices.md %})| Additional content to describe the Trending recommendation type.|<!--{% endif %}-->
+|<!--{% if "Default.EE-B2B" contains site.edition %}-->[Worldpay]({% link payment/worldpay.md %})<br />[CyberSource - Deprecated]({% link payment/cybersource.md %})<br />[eWAY - Deprecated]({% link payment/eway.md %})<br /><!--{% endif %}-->[Authorize.Net - Deprecated]({% link payment/authorize-net.md %})<br />[Authorize.Net Direct Post- Deprecated]({% link payment/authorize-net-direct-post.md %})|Updated information for transitioning from deprecated payment integrations.|
+|[UPS]({% link shipping/ups.md %})|Correction for the available _Destination Type_ options.|
+|[Create a Credit Memo]({% link sales/credit-memo-create.md %})|Improved information about the credit memo refund process for online (credit) and offline (cash/money order) orders.|
+|[Create a Cart Price Rule]({% link marketing/price-rules-cart-create.md %})|Updates to reflect UI changes.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
+|[Dynamic Blocks in Price Rules]({% link cms/dynamic-blocks-price-rules.md %})|Updates to clarify dynamic block and promotional rule associations.|<!--{% endif %}-->
+|[Grouped Product]({% link catalog/product-create-grouped.md %})|Updates to reflect UI changes and improved instructions for choosing the attribute set.|
+|[Price Rule with Multiple SKUs]({% link marketing/price-rule-multiple-sku.md %})|Improve content to specify Catalog Price Rules, rather than Cart Price Rules.|
+
 ## February 2020
 
 ### New topics

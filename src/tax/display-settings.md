@@ -21,13 +21,13 @@ Showing prices that include and exclude tax can be confusing to the customer. To
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Price Display Settings** section. Then, do the following:
 
-    - **Display Product Prices in Catalog** — Set to one of the following:
+   - **Display Product Prices in Catalog** — Set to one of the following:
 
       - Excluding Tax
       - Including Tax
       - Including and Excluding Tax
 
-    - **Display Shipping Prices** — Set to one of the following:
+   - **Display Shipping Prices** — Set to one of the following:
 
       - Excluding Tax
       - Including Tax
@@ -71,25 +71,25 @@ Set the following to `Yes` or `No` according to your preference:
     ![]({% link images/images/config-sales-tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
     _Orders, Invoices, Credit Memos Display Settings_
 
-    - **Display Prices** — Set to one of the following:
+   - **Display Prices** — Set to one of the following:
 
       - Excluding Tax
       - Including Tax
       - Including and Excluding Tax
 
-    - **Display Subtotal** — Set to one of the following:
+   - **Display Subtotal** — Set to one of the following:
 
       - Excluding Tax
       - Including Tax
       - Including and Excluding Tax
 
-    - **Display Shipping Amount** — Set to one of the following:
+   - **Display Shipping Amount** — Set to one of the following:
 
       - Excluding Tax
       - Including Tax
       - Including and Excluding Tax
 
-    - Set the following to `Yes` or `No` according to your preference:
+   - Set the following to `Yes` or `No` according to your preference:
 
       - Include Tax in Order Total
       - Display Full Tax Summary

@@ -1,5 +1,6 @@
 ---
 title: Campaign Reporting
+tag: google-shopping
 ---
 
 As your ads run, Google tracks all clicked ads links through to converted sales. Aggregated totals provide quick insight to your sales to determine the effectiveness of your ads, attractive products and prices, and costs per ad. Google Shopping ads Channel provides two options for reviewing your Smart Shopping campaigns through the Magento Admin or [Magento Business Intelligence](https://magento.com/products/business-intelligence).

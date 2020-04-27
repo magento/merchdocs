@@ -193,17 +193,6 @@ pages:
       url: "/design/page-layout-examples.html"
     - label: Layout Updates
       url: "/design/layout-updates.html"
-      children:
-      - label: Standard Block Layout
-        url: "/design/block-layout-standard.html"
-      - label: Layout Update Examples
-        url: "/design/layout-update-examples.html"
-      - label: Layout Update Syntax
-        url: "/design/layout-update-syntax.html"
-      - label: Controlling Block Order
-        url: "/design/layout-update-block-order.html"
-      - label: XML Load Sequence
-        url: "/design/xml-load-sequence.html"
   - label: Themes
     url: "/design/themes.html"
     children:

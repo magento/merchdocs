@@ -34,21 +34,21 @@ then [configure the Adobe Stock Integration in your Magento Admin][configure].
 
    - For **Description**, enter a longer form description for your integration.
 
-     - For **Platform**, select the **Web** option.
+      - For **Platform**, select the **Web** option.
 
-     - For **Default redirect URI**, provide the redirect URI for the integration.
+      - For **Default redirect URI**, provide the redirect URI for the integration.
 
-      The default redirect URI is in the form `${HOST}/${ADMIN_URI}/adobe_ims/oauth/callback/`, such as `https://store.myshop.com/admin_hgkq1l/adobe_ims/oauth/callback/`.
+        The default redirect URI is in the form `${HOST}/${ADMIN_URI}/adobe_ims/oauth/callback/`, such as `https://store.myshop.com/admin_hgkq1l/adobe_ims/oauth/callback/`.
 
-      where:
+        where:
 
-     - `${HOST}` is your Magento fully qualified domain name (i.e., `https://store.myshop.com`).
-     - `${ADMIN_URI}` is your Magento Admin URI (such as `admin_hgkq1l`), which can be retrieved by running `magento info:adminuri`.
+         - `${HOST}` is your Magento fully qualified domain name (i.e., `https://store.myshop.com`).
+         - `${ADMIN_URI}` is your Magento Admin URI (such as `admin_hgkq1l`), which can be retrieved by running `magento info:adminuri`.
 
    - For **Redirect URI pattern**, provide the redirect URI pattern. This is the same as your redirect URI with two differences:
 
-     - Any periods (`.`) must be escaped with two backslashes (`\\`)
-     - Add `.*` to the end of the pattern
+      - Any periods (`.`) must be escaped with two backslashes (`\\`)
+      - Add `.*` to the end of the pattern
 
       Using the example from the previous Default redirect URI field, this would be `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`.
 

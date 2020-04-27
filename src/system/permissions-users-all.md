@@ -25,26 +25,26 @@ _Example Admin Users_
     ![User account information]({% link images/images/system-permissions-user-new.png %}){: .zoom}
     _New User Account Information_
 
-    - Enter the **User Name** for account.
+   - Enter the **User Name** for account.
 
         The User Name should be easy to remember. It is not case-sensitive. For example, if your user name is `John`, you can also log in as `john`.
 
-    - Complete the following information:
+   - Complete the following information:
 
-        - **First Name**
-        - **Last Name**
-        - **Email address**
+      - **First Name**
+      - **Last Name**
+      - **Email address**
 
-        This email address must be different from the one that is associated with your original Admin account.
+         This email address must be different from the one that is associated with your original Admin account.
 
-    - Assign a **Password** to the account.
+   - Assign a **Password** to the account.
 
         {:.bs-callout-info}
         An Admin password must be seven or more characters long, and include both letters and numbers. For additional password options, see [Configuring Admin Security]({% link stores/security-admin.md %}).
 
-    - In the **Password Confirmation** box, repeat the password to make sure it was entered correctly.
+   - In the **Password Confirmation** box, repeat the password to make sure it was entered correctly.
 
-    - If your store has multiple languages, set **Interface Locale** to the language to be used for the Admin interface.
+   - If your store has multiple languages, set **Interface Locale** to the language to be used for the Admin interface.
 
 1. Set **This Account is** to `Active`.
 

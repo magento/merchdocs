@@ -42,8 +42,8 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
 1. To choose the attribute set for the product, click the field at the top of the page and do one of the following:
 
-    - For **Search**, enter the name of the attribute set.
-    - In the list, choose the attribute set that you want to use.
+   - For **Search**, enter the name of the attribute set.
+   - In the list, choose the attribute set that you want to use.
 
     The form is updated to reflect the change.
 
@@ -75,8 +75,8 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
 1. Set **Tax Class** to one of the following:
 
-    - `None`
-    - `Taxable Goods`
+   - `None`
+   - `Taxable Goods`
 
 1. The **Quantity** is determined by the product variations, so you can leave it blank.
 
@@ -92,19 +92,19 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
 1. To assign Categories to the product, click the **Select…** box and do either of the following:
 
-    **Choose an existing category:**
+   **Choose an existing category:**
 
-    - Start typing in the box to find a match.
+   - Start typing in the box to find a match.
 
-    - Select the checkbox of the category that is to be assigned.
+   - Select the checkbox of the category that is to be assigned.
 
-    **Create a new category:**
+   **Create a new category:**
 
-    - Click <span class="btn">New Category</span>.
+   - Click <span class="btn">New Category</span>.
 
-    - Enter the **Category Name** and choose the **Parent Category** to determine its position in the menu structure.
+   - Enter the **Category Name** and choose the **Parent Category** to determine its position in the menu structure.
 
-    - Click <span class="btn">Create Category</span>.
+   - Click <span class="btn">Create Category</span>.
 
 1. To feature the product in the list of [new products]({% link cms/widget-new-products-list.md %}), select the **Set Product as New** checkbox.
 
@@ -146,11 +146,11 @@ _Progress Bar_
 
 1. If you need to add a new attribute, click <span class="btn">Create New Attribute</span> and do the following:
 
-    - Complete the attribute properties.
+   - Complete the attribute properties.
 
-    - Click <span class="btn">Save Attribute</span>.
+   - Click <span class="btn">Save Attribute</span>.
 
-    - Select the checkbox to select the attribute.
+   - Select the checkbox to select the attribute.
 
 1. In the upper-right corner, click <span class="btn">Next</span>.
 
@@ -235,13 +235,13 @@ Because we already uploaded an image for the parent product, we’ll use this op
 
     For Multi Source merchants using [Inventory Management]({% link catalog/inventory-management.md %}), assign sources and add quantities for all generated product variants:
 
-    - Select the **Apply single quantity to each SKUs** option.
+   - Select the **Apply single quantity to each SKUs** option.
 
-    - To add a source, click **Assign Sources**.
+   - To add a source, click **Assign Sources**.
 
-    - Browse or search for a source you want to add. Select the checkbox next to the source(s) you want to add for the product.
+   - Browse or search for a source you want to add. Select the checkbox next to the source(s) you want to add for the product.
 
-    - Enter an on-hand inventory amount per source.
+   - Enter an on-hand inventory amount per source.
 
     ![]({% link images/images/inventory/inventory-configure-product-quantity.png %}){: .zoom}
     _Same Quantity for All SKUs_
@@ -261,9 +261,9 @@ When configuration for images, price, and quantity are complete, click <span cla
 
 1. Wait a moment for the list of products to appear and do one of the following:
 
-    - If you are satisfied with the configurations, click **Next**.
+   - If you are satisfied with the configurations, click **Next**.
 
-    - To make corrections, click **Back**.
+   - To make corrections, click **Back**.
 
     ![]({% link images/images/product-create-configurable-summary.png %}){: .zoom}
     _Summary_
@@ -303,18 +303,18 @@ Scroll down and complete the information in the following sections as needed:
 
 1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` and do one of the following:
 
-    **Method 1: Save and preview**
+   **Method 1: Save and preview**
 
-    - In the upper-right corner, click <span class="btn">Save</span>.
+   - In the upper-right corner, click <span class="btn">Save</span>.
 
-    - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
+   - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
 
       The store opens in a new browser tab.
 
     ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
     _Customer View_
 
-    **Method 2: Save and close**
+   **Method 2: Save and close**
 
     On the _Save_ (![]({% link images/images/btn-dropdown.png %})) menu, choose **Save & Close**.
 

@@ -25,26 +25,26 @@ _Coupons Report_
    ![Coupon report - filters]({% link images/images/reports-coupons-filters.png %}){: .zoom}
    _Coupon Report Filters_
 
-    - Set **Date Used** to one of the following:
+   - Set **Date Used** to one of the following:
 
       - `Order Created`
       - `Order Updated`
 
         The Order Updated report is created in real-time and does not require a refresh.
 
-    - To define the period of time covered by the report, set **Period** to one of the following:
+   - To define the period of time covered by the report, set **Period** to one of the following:
 
       - `Day`
       - `Month`
       - `Year`
 
-    - To define the date range of the report, enter the **From** and **To** dates in M/D/YY format.
+   - To define the date range of the report, enter the **From** and **To** dates in M/D/YY format.
 
-    - To print a report for a specific [order status]({% link sales/order-status.md %}), set **Order Status** to `Specified` and choose the order status from the list.
+   - To print a report for a specific [order status]({% link sales/order-status.md %}), set **Order Status** to `Specified` and choose the order status from the list.
 
-    - To omit rows without data from the report, set **Empty Rows** to `No`.
+   - To omit rows without data from the report, set **Empty Rows** to `No`.
 
-    - To define coupon activity included in the report, do one of the following:
+   - To define coupon activity included in the report, do one of the following:
 
       - To include all coupon activity from all price rules, set **Cart Price Rule** to `Any`.
       - To include only activity related to a specific price rule, set **Cart Price Rule** to `Specified` and select the cart price rule in the list.

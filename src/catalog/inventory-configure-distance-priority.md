@@ -32,11 +32,11 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
 1. Set up a project:
 
-    - Select a project or enter a new project name.
+   - Select a project or enter a new project name.
 
-    - Select **Yes** to accept the terms.
+   - Select **Yes** to accept the terms.
 
-    - Click **Next**.
+   - Click **Next**.
 
 1. Enter a billing account or create one. You can skip and add a billing account later.
 
@@ -44,14 +44,14 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
 1. Click **Console** to open and configure your Google Cloud Platform options.
 
-    - Open your project.
+   - Open your project.
 
-    - Expand the menu and click **APIs & Services** > **Library**.
+   - Expand the menu and click **APIs & Services** > **Library**.
 
-        ![]({% link images/images/config-catalog-catalog-inventory-google-key2.png %})
-        _Google API Services_
+      ![]({% link images/images/config-catalog-catalog-inventory-google-key2.png %})
+      _Google API Services_
 
-    - Search for [Geocoding API][2] and [Distance Matrix API][3]. Select and enable each service.
+   - Search for [Geocoding API][2] and [Distance Matrix API][3]. Select and enable each service.
 
 1. Expand the menu, click **APIs & Services** > **Credentials**, and copy the Google API Key.
 
@@ -71,9 +71,9 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the _Google Distance Provider_ section and configure the settings:
 
-    - For **Google API Key**, enter the key copied from your Google Account.
+   - For **Google API Key**, enter the key copied from your Google Account.
 
-    - For **Computation mode**, select a configuration.
+   - For **Computation mode**, select a configuration.
 
       {:.bs-callout-info}
       When using this algorithm for shipping, if routes and data do not return for the selected Computation mode (driving, bicycling, or walking) for a shipment, the SSA defaults to using the Source Priority. We recommend also setting the [priority for sources per stock]({% link catalog/inventory-stock-priority.md %}).
@@ -82,7 +82,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
       | Walking | Requests walking directions using pedestrian paths and sidewalks (where available). |
       | Bicycling | Requests bicycling directions using bicycle paths and preferred streets (where available). The [Distance Matrix Service][4] is currently only available in the US and some Canadian cities. |
 
-    - For **Value**, select a value type:
+   - For **Value**, select a value type:
 
       | Distance | (Default) Returns the distance between points in metrics (kilometers and meters) or imperial (miles and feet). |
       | Time to Destination | Returns the time required to travel from the source locations to the shipping address in hours and minutes. |
