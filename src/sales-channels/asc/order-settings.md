@@ -15,10 +15,7 @@ After [store integration]({% link sales-channels/asc/store-integration.md %}) is
 
 When an order is created on Amazon, it is not immediately imported into Magento. Amazon assigns a `Pending` status to newly created orders. After Amazon verifies the order and payment method, the order's status is changed to `Unshipped`. This status change triggers the order import, and Magento creates a matching, corresponding order.
 
-Orders imported from Amazon can be managed in the [Magento Orders]({% link sales/orders.md %}) workflow.
-
-{:.bs-callout-info}
-When an order is received from Amazon, order import is enabled, and the ordered item SKU cannot be matched to an existing Magento catalog product, the order process: <br/>- Creates a Magento catalog product with the SKU<br/>- Sets the product status to `Disabled` and the inventory setting to `Do Not Manage Inventory`<br/>- Creates the Magento order
+Orders imported from Amazon can be managed in the [Magento Orders]({% link sales/orders.md %}) workflow. Also see [Manage Orders and Fulfillment]({% link sales-channels/asc/managing-orders.md %}).
 
 ## Configure order settings
 

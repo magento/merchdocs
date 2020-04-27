@@ -8,22 +8,58 @@ Order information received from Amazon Seller Central shows in the _Recent Order
 ![]({% link sales-channels/asc/assets/amazon-recent-orders-imported.png %}){: .zoom}
 _Recent Orders_
 
+_Recent Orders_ lists your order information as received from Amazon, including:
+
+- Purchase Date
+- Order Number
+- Status
+- Buyer's Name
+- Grand Total
+
+You can also narrow your order list using the _Filter by_ options:
+
+- Purchase Date (range)
+- Buyer Name
+- Total (range)
+- Status
+
+{:.bs-callout .bs-callout-info}
+The _Recent Orders_ table does not update with Magento order information, even when order import is enabled in Order Settings.
+
 ## With Order Import Enabled
 
 After [store integration]({% link sales-channels/asc/store-integration.md %}), [**Import Amazon Orders**]({% link sales-channels/asc/order-settings.md %}#configure-order-settings) is `Enabled` by default. This means that corresponding Magento orders are created for your Amazon orders and can be managed in the [Magento Orders]({% link sales/orders.md %}) workflow.
 
 {:.bs-callout .bs-callout-info}
-Regardless of your order import settings, Amazon orders that existed in your Amazon Seller Central account prior to your [store integration]({% link sales-channels/asc/store-integration.md %}) will not import.
+Regardless of your order import settings, Amazon orders that existed in your Amazon Seller Central account prior to your [store integration]({% link sales-channels/asc/store-integration.md %}) do not import.
 
 New orders created in Amazon will import into Magento, but not immediately. Amazon assigns a `Pending` status to new orders. After Amazon verifies the order and the payment method, the order status is changed to `Unshipped`. This status change by Amazon triggers the order import into Magento. When imported, the order information appears in the _Recent Orders_ section of the store dashboard, and Magento creates a corresponding order.
 
-Imported Amazon orders can be managed in the [Magento Orders]({% link sales/orders.md %}) and workflow, just like your other Magento stores. Click the Amazon order number shown in the _Order Number_ column to open the order in the [Magento order process]({% link sales/order-processing.md %}#order-view-descriptions).
+Imported Amazon orders are managed in the [Magento Orders]({% link sales/orders.md %}) workflow, just like your other Magento stores. Click the Amazon order number in the _Order Number_ column to open the order in the [Magento order process]({% link sales/order-processing.md %}#order-view-descriptions).
+
+### Order Creation Blockers
+
+There are a few scenarios that prevent the corresponding Magento order from creating. Magento orders are not created for orders that are received when any of the following issues occur.
+
+- The item does not exist in the Magento catalog.
+
+  Solution: [Create the new product]({% link sales-channels/asc/creating-assigning-catalog-products.md %}) in your Magento catalog and [manually match]({% link sales-channels/asc/creating-assigning-catalog-products.md %}) it to the product.
+
+- The item in the catalog is disabled.
+
+   Solution: Make sure the [product status]({% link catalog/inventory-product-stock-options.md %}) is enabled.
+
+- The ordered item is out of stock.
+
+   Solution: Update or configure the [product options]({% link catalog/inventory-product-stock-options.md %}) for quantity and source.
+
+When the issue is resolved, the Magento order is created on the next sync.
 
 ## With Order Import Disabled
 
 If you do not want to import and manage your your Amazon orders in Magento, you can change the [**Import Amazon Orders**]({% link sales-channels/asc/order-settings.md %}#configure-order-settings) setting to `Disabled`. This means that when new orders are received from Amazon, corresponding Magento orders are created.
 
-When disabled, order information received from Amazon appears in the _Recent Orders_ section of the store dashboard. This order information is view only, and you must manage these orders in Amazon Seller Central. Click the Amazon order number shown in the _Order Number_ column to open the order details in Amazon Seller Central.
+When disabled, order information received from Amazon appears in the _Recent Orders_ section of the store dashboard. This order information is view only, and you must manage these orders in Amazon Seller Central. Click the Amazon order number in the _Order Number_ column to open the order details in Amazon Seller Central.
 
 ## View your recent Amazon order information
 
@@ -33,19 +69,18 @@ When disabled, order information received from Amazon appears in the _Recent Ord
 
 1. To view order details or manage an order, click the Amazon order number in the _Order Number_ column.
 
-    - If order import is enabled in your [Order Settings]({% link sales-channels/asc/order-settings.md %}), clicking the order number link will open the order in the [Magento Orders]({% link sales/orders.md %}) workflow.
-    - If order import is disabled in your [Order Settings]({% link sales-channels/asc/order-settings.md %}), clicking the order number link will open the order details in Amazon Seller Central.
+   - If order import is enabled in your [Order Settings]({% link sales-channels/asc/order-settings.md %}), clicking the order number link will open the order in the [Magento Orders]({% link sales/orders.md %}) workflow.
+   - If order import is disabled in your [Order Settings]({% link sales-channels/asc/order-settings.md %}), clicking the order number link will open the order details in Amazon Seller Central.
 
 See [Common Order Processing Tasks]({% link sales-channels/asc/common-order-processing.md %})
-
-{% include amazon-workspace-controls.md %}
 
 ### Default Columns
 
 |Column|Description|
 |---|---|
+|Filter by|Narrow the list of orders based on:<br/>- Purchase Date (range)<br/>- Buyer Name<br/>- Total (range)<br/>- Status|
 |Purchase Date|The date of the purchase as received from Amazon Seller Central.|
-|Order Number|The order number generated by your Amazon Central Seller account. Click the link to view order details and fulfillment information. |
+|Order Number|The order number generated by Amazon. Click the link to view order details and fulfillment information.<br/>**Note:** If [order import]({% link sales-channels/asc/order-settings.md %}) is enabled, clicking this link opens the order in the Magento order workflow. If [order import]({% link sales-channels/asc/order-settings.md %}) is disabled, clicking this link opens the order in Amazon Seller Central. |
 |Status|The status of the order. Options: Pending / Unshipped / Shipped / Canceled / Completed / Partially Shipped |
-|Buyer's Name|The name of the person who placed the order as received from Amazon Seller Central.|
-|Grand Total|The total dollar value of the order as received from Amazon Seller Central.|
+|Buyer's Name|The name of the person who placed the order, as received from Amazon.|
+|Grand Total|The total dollar value of the order, as received from Amazon.|
