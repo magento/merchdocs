@@ -16,15 +16,10 @@ _Recent Orders_ lists your order information as received from Amazon, including:
 - Buyer's Name
 - Grand Total
 
-You can also narrow your order list using the _Filter by_ options:
-
-- Purchase Date (range)
-- Buyer Name
-- Total (range)
-- Status
-
 {:.bs-callout .bs-callout-info}
 The _Recent Orders_ table does not update with Magento order information, even when order import is enabled in Order Settings.
+
+You can also view all your Amazon orders by clicking **All Orders**. See [Amazon Orders]({% link sales-channels/asc/amazon-orders-all.md %}).
 
 ## With Order Import Enabled
 
@@ -72,7 +67,7 @@ When disabled, order information received from Amazon appears in the _Recent Ord
    - If order import is enabled in your [Order Settings]({% link sales-channels/asc/order-settings.md %}), clicking the order number link will open the order in the [Magento Orders]({% link sales/orders.md %}) workflow.
    - If order import is disabled in your [Order Settings]({% link sales-channels/asc/order-settings.md %}), clicking the order number link will open the order details in Amazon Seller Central.
 
-See [Common Order Processing Tasks]({% link sales-channels/asc/common-order-processing.md %})
+See also [Common Order Processing Tasks]({% link sales-channels/asc/common-order-processing.md %}).
 
 ### Default Columns
 
