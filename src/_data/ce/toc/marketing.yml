@@ -509,7 +509,7 @@ pages:
         url: "/marketing/yotpo-features.html"
       - label: Integration / Setup
         url: "/marketing/yotpo-connect.html"
-      - label: Magento Settings
+      - label: Magento Admin Settings
         url: "/marketing/yotpo-settings.html"
       - label: Yotpo Reviews
         url: "/marketing/yotpo-glance.html"
