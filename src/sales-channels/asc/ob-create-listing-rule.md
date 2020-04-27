@@ -39,7 +39,7 @@ Listing rules can be defined during onboarding, but can also be modified at any 
 
 After onboarding a store is complete, the information sync between Magento and Amazon is initiated. Your Amazon listings will import into Magento and attempt to match with products in your Magento Catalog.
 
-You can view your Amazon order information in the _Recent Orders_ section of the store dashboard. See [Manage Orders and Fulfillment]({% link sales-channels/asc/managing-orders.md %}).
+You can view your Amazon order information in the _Recent Orders_ section of the store dashboard. See [Store Dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}) or [Manage Orders]({% link sales-channels/asc/managing-orders.md %}).
 
 {:.bs-callout .bs-callout-warning}
 There are some important store settings (listings, pricing, rules, fulfillment, more) that have default values for a new store. You should review your [Store Settings]({% link sales-channels/asc/default-store-settings.md %}) to ensure your store is set up for your specific needs.
