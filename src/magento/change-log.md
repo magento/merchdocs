@@ -48,6 +48,18 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Configuring Storefront Address Validation]({% link tax/vertex-configure-address.md %})|Updated to include Vertex address validation for customer accounts.|
 |[Amazon Pay]({% link payment/amazon-pay.md %})|Updated content for release features and fixes.|
 
+## April 2020
+
+### New topics
+
+- [Renewed Products]({% link sales-channels/asc/renewed-products.md %})
+
+### Updated topics
+
+|Topic |Change|
+|--- |--- |
+|[Product Listing Condition]({% link sales-channels/asc/product-listing-condition.md %})|Added a note and link related to the Amazon Renewed Products Program.|
+
 ## March 2020
 
 ### Product releases
