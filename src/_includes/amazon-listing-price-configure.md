@@ -16,7 +16,7 @@
    This field determines which pricing attribute is used as the manufacturer's suggested retail price (MSRP) for a product. If your listing price is less than the defined MSRP, your Amazon listing will display a strike-through of the MSRP price and display the lower listing price, along with the calculated “You Save” amount and percentage. However, if the selected pricing field is not defined for a product, the MSRP feature will not be calculated.
 
    {:.bs-callout-info}
-   This will only apply to listings that have won the [Buy Box]({% link sales-channels/amazon/buy-box-competitor-pricing.md %}) position. The Buy Box is awarded by Amazon to the seller who has the product listed usually at the best price, along with other factors such as FBA/Prime shipping offered, availability, and the seller’s performance.
+   This will only apply to listings that have won the [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) position. The Buy Box is awarded by Amazon to the seller who has the product listed usually at the best price, along with other factors such as FBA/Prime shipping offered, availability, and the seller’s performance.
 
 1. For **Apply Value Added Tax (VAT)**, select an option:
 
@@ -37,7 +37,7 @@
 
    - **Set Default PTC**: Select this option if you have a universal product tax code you want to use for all your products. When set to this option, complete the **Default PTC** field.
 
-      - For **Default PTC**, enter the default PTC to be used for all eligible Amazon listings. If your default PTC is set in your Amazon Seller Central account, leave this field blank. Changes made to this field do not affect existing listings. The listing must be [ended]({% link sales-channels/amazon/end-listings-manually.md %}) and a new listing created for the change to take effect.
+      - For **Default PTC**, enter the default PTC to be used for all eligible Amazon listings. If your default PTC is set in your Amazon Seller Central account, leave this field blank. Changes made to this field do not affect existing listings. The listing must be [ended]({% link sales-channels/asc/end-listings-manually.md %}) and a new listing created for the change to take effect.
 
    {:.bs-callout-info}
    If you use Amazon's VAT Calculation Service, you must know the tax category for your products. A PTC is Amazon's tax category ID code for B2B purchases in the EU. See [Amazon's Product Tax Codes](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&language=en_US).

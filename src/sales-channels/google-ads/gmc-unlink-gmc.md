@@ -1,7 +1,7 @@
 ---
 title: Unclaiming a Claimed URL
+tag: google-shopping
 ---
-
 
 If you have a storefront URL that is already claimed to an existing Google Merchant Center (GMC) account, you can unclaim a claimed URL through Google.
 
@@ -26,6 +26,5 @@ Once unclaimed, a site may be [manually verified and claimed]({% link sales-chan
     *Unclaimed and Clear GMC Account*
 
 1. Review the listed URLs on your account to ensure the claims are removed.
-
 
 [1]: https://merchants.google.com/

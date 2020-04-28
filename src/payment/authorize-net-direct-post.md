@@ -1,11 +1,14 @@
 ---
-title: Authorize.Net Direct Post (Deprecated)
+title: Authorize.Net Direct Post - Deprecated
 ---
 
-Authorize.Net handles all steps in the transaction process — such as payment data collection, data submission, and response to the customer — while the customer remains in your store. Authorize.Net Direct Post (Deprecated) can be used with orders created from the Admin as well as from the store.
+{:.bs-callout-warning}
+**Deprecation Notice** <br/>
+Due to the Payment Service Directive [PSD2]({% link stores/compliance-payment-services-directive.md %}) and the continued evolution of many APIs, this payment integration is at risk of becoming outdated and no longer security compliant in the future. Additionally, Authorize.Net has deprecated the Authorize.Net Direct Post payment method. We are recommending that you disable it in your Magento configuration and transition to the Authorize.Net [Magento Marketplace extension](https://marketplace.magento.com/catalogsearch/result/?q=authorize.net){:target="_blank"}.<br/><br/>
+**This integration will be removed from the Magento 2.4.0 release and has been deprecated from current versions of 2.3.**<br/><br/>
+For details about making a secure transition from deprecated payment integrations, see our [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
-{:.bs-callout-info}
-**Deprecation Notice:** Authorize.Net has deprecated the Authorize.Net Direct Post (Deprecated) payment method. If you use this method, you must update the [MD5 Hash key with a new Signature key ][1]. The Authorize.Net payment method must be set up as the replacement payment method. Refer to [Authorize.Net]({% link payment/authorize-net.md %}) for more information.
+Authorize.Net handles all steps in the transaction process, such as payment data collection, data submission, and response to the customer, while the customer remains in your store.
 
 ## Customer Workflow
 

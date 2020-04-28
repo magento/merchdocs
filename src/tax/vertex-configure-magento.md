@@ -8,11 +8,11 @@ To complete the Magento configuration for Vertex tax calculations, you will need
 
 When enabled, the _Tax configuration_ page includes the following Vertex sections:
 
-- **Vertex Settings** — Vertex integration and account configuration
-- **Vertex Company Information** — Configure your company information
-- **Vertex Delivery Terms** — Configure the shipping terms for shipments. Set a global term, with an option to add overrides per country
-- **Vertex Shipping Product Codes** — Displays available shipping methods and costs
-- **Vertex Logging** — Located at the bottom of the page. Provides logging information and configuration
+|Vertex Settings|Vertex integration and account configuration
+|Vertex Company Information|Configure your company information
+|Vertex Delivery Terms|Configure the shipping terms for shipments. Set a global term, with an option to add overrides per country
+|Vertex Shipping Product Codes|Displays available shipping methods and costs
+|Vertex Logging|Located at the bottom of the page. Provides logging information and configuration
 
 ## Begin the Magento configuration
 
@@ -24,52 +24,56 @@ When enabled, the _Tax configuration_ page includes the following Vertex section
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Vertex Settings** on the page to enable Vertex and configure initial settings.
 
-    - Set **Use Vertex Tax Links** to `Enable`. This setting enables performance enhancements and allows you to enable and configure Vertex settings.
+   - Set **Use Vertex Tax Links** to `Enable`. This setting enables performance enhancements and allows you to enable and configure Vertex settings.
 
-        ![]({% link images/images/config-sales-tax-vertex-settings.png %}){: .zoom}
-        [_Vertex Settings Disabled_]({% link configuration/sales/tax.md %})
+      ![]({% link images/images/config-sales-tax-vertex-settings.png %}){: .zoom}
+      [_Vertex Settings Disabled_]({% link configuration/sales/tax.md %})
 
-    - Set **Vertex Tax Calculation** to `Enable` the extension and configure settings.
+   - Set **Vertex Tax Calculation** to `Enable` the extension and configure settings.
 
-        {:.bs-callout-info}
-        You must have this option set to use Vertex and save configurations.
+      {:.bs-callout-info}
+      You must have this option set to use Vertex and save configurations.
 
-    - Enter the **Vertex Trusted ID** from your Vertex Cloud account. To find your _Vertex Trusted ID_, log in to your Vertex Cloud account and go to **Settings** > **View All Connectors**.
+   - Enter the **Vertex Trusted ID** from your Vertex Cloud account. To find your _Vertex Trusted ID_, log in to your Vertex Cloud account and go to **Settings** > **View All Connectors**.
 
-    - Verify the default values for the **Vertex Calculation API URL** and **Vertex Address Validation API URL**.
+   - Verify the default values for the **Vertex Calculation API URL** and **Vertex Address Validation API URL**.
 
       These connect the integration with Vertex Cloud and must match the URL displayed in your _Vertex Connectors_ page for the Magento connector in the **ERP Connector URL** and **Address Lookup URL** fields. Clear the **Use system value** checkbox and change these values if needed.
 
-    - To determine when tax is calculated for an invoice according to the [workflow]({% link sales/order-workflow.md %}), set **When to send invoiced to Vertex** to one of the following:
+   - To determine when tax is calculated for an invoice according to the [workflow]({% link sales/order-workflow.md %}), set **When to send invoiced to Vertex** to one of the following:
 
-        - `When Invoice Created`
-        - `When Order Status is Changed` - The invoice generates when orders enter the selected status. If this value is selected, set the **Invoice when Order Status** option to specify the status.
+      `When Invoice Created`|The tax is calculated and sent to Vertex when the invoice generates.
+      `When Order Status is Changed`|The invoice generates when orders enter the selected status. If this value is selected, set the **Invoice when Order Status** option to specify the status.
 
-    - To set the **Use Vertex for orders shipping to**, select the countries and nations to apply Vertex taxes for destination addresses. If a shipping address is not available on the order, the billing address is used.
+   - To set the **Use Vertex for orders shipping to**, select the countries and nations to apply Vertex taxes for destination addresses.
 
-    - Set how you want to **Summarize Tax By**. Choose `Product and Shipping` or `Jurisdiction`.
+      If a shipping address is not available on the order, the billing address is used.
+
+   - Set how you want to **Summarize Tax By**. Choose `Product and Shipping` or `Jurisdiction`.
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Vertex Company Information** section. Then, do the following:
 
-    ![]({% link images/images/config-sales-tax-vertex-company-information.png %}){: .zoom}
-    [_Vertex Company Information_]({% link configuration/sales/tax.md %})
+   ![]({% link images/images/config-sales-tax-vertex-company-information.png %}){: .zoom}
+   [_Vertex Company Information_]({% link configuration/sales/tax.md %})
 
-    - Enter the **Company Code** from the heading of the Configure Company page of your [Vertex Cloud account]({% link tax/vertex-account.md %}).
+   - Enter the **Company Code** from the heading of the Configure Company page of your [Vertex Cloud account]({% link tax/vertex-account.md %}).
 
-    - Enter the **Location Code** from the _Registration Details_ section of your Vertex Cloud account. This is the specific jurisdiction where the company is registered to file tax returns. This value corresponds to the Location Code that is entered as a Registered Location.
+   - Enter the **Location Code** from the _Registration Details_ section of your Vertex Cloud account.
 
-    - Complete the remaining company address fields.
+      This is the specific jurisdiction where the company is registered to file tax returns. This value corresponds to the Location Code that is entered as a Registered Location.
+
+   - Complete the remaining company address fields.
 
 1. Click <span class="btn">Save Config</span>.
 
-    If the configuration settings are correct, the Vertex API Status field turns green and indicates the status is `Valid`. At this point, you can continue with the remaining Vertex configuration settings, or complete them later.
+   If the configuration settings are correct, the Vertex API Status field turns green and indicates the status is `Valid`. At this point, you can continue with the remaining Vertex configuration settings, or complete them later.
 
-    You need to save the configuration again if you modify any of the Vertex tax class or calculation settings.
+   You need to save the configuration again if you modify any of the Vertex tax class or calculation settings.
 
-    ![]({% link images/images/tax-vertex-cloud-magento-config-valid.png %}){: .zoom}
-    [_Vertex API Status - Valid_]({% link configuration/sales/tax.md %})
+   ![]({% link images/images/tax-vertex-cloud-magento-config-valid.png %}){: .zoom}
+   [_Vertex API Status - Valid_]({% link configuration/sales/tax.md %})
 
-1. When you are ready to continue, complete the following sections:
+1. When you are ready to continue, complete the following sections.
 
 ## Vertex delivery terms
 
@@ -77,12 +81,14 @@ Set the delivery terms (shipping terms) that determines the vendor or customer j
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Vertex Delivery Terms** section.
 
-1. To change the default **Global Delivery Term**, select an option from the drop-down menu. `SUP - Supplier Ships` is the default.
+1. To change the default **Global Delivery Term**, select an option (`SUP - Supplier Ships` is the default).
 
-1. (Optional) Create a **Delivery Term Override** for each country you want a specific delivery term that differs from the global. Click **Add**. Select a country and term.
+1. (Optional) Create a **Delivery Term Override** for each country you want a specific delivery term that differs from the global.
 
-    ![]({% link images/images/config-sales-tax-vertex-delivery-terms.png %}){: .zoom}
-    [_Vertex Delivery Terms_]({% link configuration/sales/tax.md %})
+   Click **Add** and select a country and term.
+
+   ![]({% link images/images/config-sales-tax-vertex-delivery-terms.png %}){: .zoom}
+   [_Vertex Delivery Terms_]({% link configuration/sales/tax.md %})
 
 ## Vertex Shipping product codes
 
@@ -104,24 +110,24 @@ If you need to identify taxability based on information in your Magento store be
 
 1. Expand the area for the category you want to use to map a Magento field. There are three available flexible field categories:
 
-    - **Code Fields** - Use this category to define a fields using an alphanumeric string value with a maximum length of 40 characters. Strings that exceed the size limit are truncated. You can create a maximum of 25 flexible code fields.
-
-    - **Numeric Fields** - Use this category to define fields using numeric values for data, such as durations and weights, including floating decimal points. You can create a maximum of 10 flexible numeric fields.
-
-    - **Date Fields** - Use this category to define fields using dates in the format YYYY/MM/DD. You can create a maximum of five flexible date fields.
+   |Code Fields|Use this category to define a fields using an alphanumeric string value with a maximum length of 40 characters. Strings that exceed the size limit are truncated. You can create a maximum of 25 flexible code fields.|
+   |Numeric Fields|Use this category to define fields using numeric values for data, such as durations and weights, including floating decimal points. You can create a maximum of 10 flexible numeric fields.|
+   |Date Fields|Use this category to define fields using dates in the format YYYY/MM/DD. You can create a maximum of five flexible date fields.|
 
 1. For the _Field ID_ you want to configure, click the **Data Source** option to display the list of Magento fields and select the field to use as a flexible field in Vertex Cloud.
 
-    You can enter a text string in the search field at the top of the list to filter the displayed items and help to find the field you want.
+   You can enter a text string in the search field at the top of the list to filter the displayed items and help to find the field you want.
 
-    ![]({% link images/images/tax-vertex-configure-flex-field.png %}){: .zoom}
-    _Code - Field ID 1_
+   ![]({% link images/images/tax-vertex-configure-flex-field.png %}){: .zoom}
+   _Code - Field ID 1_
 
 1. Click <span class="btn">Save Config</span>.
 
 ### Step 2: Use the Flex Field in a Vertex Tax assist rule
 
-[Add a new tax assist rule][5] or edit an existing rule for your Vertex Cloud account that uses the configured flex field for tax calculation.
+Add a new tax assist rule or edit an existing rule for your Vertex Cloud account that uses the configured flex field for tax calculation.
+
+For detailed information about adding tax assist rules in the Vertex Cloud, see [Add a tax assist rule][5] (requires a login to the Vertex Documentation Center).
 
 ![]({% link images/images/tax-vertex-cloud-tax-assist.png %}){: .zoom}
 _Vertex Tax Assist Rule_
@@ -137,21 +143,21 @@ By default, many of the following tax classes are initially set to `None`.
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Vertex Tax Classes** section.
 
-1. To change the default **Tax Class for Shipping**, clear the **Use System Value** checkbox. Then, choose the applicable tax class.
+1. To change the default **Tax Class for Shipping**, clear the **Use System Value** checkbox and choose the applicable tax class.
 
 1. Set **Tax Class for Gift Options** to one of the following:
 
-    - None
-    - Gift Options
+   - `None`
+   - `Gift Options`
 
-1. To change the **Default Tax Class for Product**, clear the **Use System Value** checkbox. Then, choose the applicable tax class.
+1. To change the **Default Tax Class for Product**, clear the **Use System Value** checkbox and choose the applicable tax class.
 
-1. To change the **Default Tax Class for Customer**, clear the **Use System Value** checkbox. Then, choose the applicable tax class.
+1. To change the **Default Tax Class for Customer**, clear the **Use System Value** checkbox and choose the applicable tax class.
 
-1. Accept the default value for **Default Customer Code**.that is used for unregistered guests and customers who shop while not logged in to their accounts.
+1. Accept the default value for **Default Customer Code**, which is used for unregistered guests and customers who shop while not logged in to their accounts.
 
-    ![]({% link images/images/config-sales-tax-vertex-tax-classes-default-settings.png %}){: .zoom}
-    [_Vertex Tax Classes_]({% link configuration/sales/tax.md %})
+   ![]({% link images/images/config-sales-tax-vertex-tax-classes-default-settings.png %}){: .zoom}
+   [_Vertex Tax Classes_]({% link configuration/sales/tax.md %})
 
 1. In the **Vertex Tax Classes** section, complete as many of the following settings as applicable:
 
@@ -159,23 +165,23 @@ By default, many of the following tax classes are initially set to `None`.
 
 1. Set **Refund Adjustments Class** to one of the following:
 
-    - None
-    - Refund Adjustments
+   - `None`
+   - `Refund Adjustments`
 
 1. Accept the default value for **Adjustment Fee Code**.
 
 1. Accept the default value for **Adjustment Refund Code**.
 
-    ![]({% link images/images/config-sales-tax-vertex-tax-classes-adjustment-fees.png %}){: .zoom}
-    [_Adjustment Fees_]({% link configuration/sales/tax.md %})
+   ![]({% link images/images/config-sales-tax-vertex-tax-classes-adjustment-fees.png %}){: .zoom}
+   [_Adjustment Fees_]({% link configuration/sales/tax.md %})
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 
 ### Gift wrap order
 
 1. Set **Gift Wrap for Order Class** to one of the following:
 
-    - None
-    - Order Gift Wrapping
+   - `None`
+   - `Order Gift Wrapping`
 
 1. Accept the default value for **Gift Wrap for Order Code**.
 
@@ -186,32 +192,32 @@ By default, many of the following tax classes are initially set to `None`.
 
 1. Set **Gift Wrap Class for Single Product** to one of the following:
 
-    - None
-    - Item Gift Wrapping
+   - `None`
+   - `Item Gift Wrapping`
 
 1. Accept the default value for **Gift Wrap Code Prefix for Single Product**.
 
-    ![]({% link images/images-ee/config-sales-tax-vertex-tax-classes-gift-wrap-single-product.png %}){: .zoom}
-    [_Gift Wrap - Single Product_]({% link configuration/sales/tax.md %})
+   ![]({% link images/images-ee/config-sales-tax-vertex-tax-classes-gift-wrap-single-product.png %}){: .zoom}
+   [_Gift Wrap - Single Product_]({% link configuration/sales/tax.md %})
 
 ### Printed gift card
 
 1. Set **Item Line Class for Printed Gift Card** to one of the following:
 
-    - None
-    - Printed Gift Card
+   - `None`
+   - `Printed Gift Card`
 
 1. Accept the default value for **Item Line Code for Printed Gift Card**.
 
-    ![]({% link images/images-ee/config-sales-tax-vertex-tax-classes-printed-gift-card.png %}){: .zoom}
-    [_Printed Gift Card_]({% link configuration/sales/tax.md %})
+   ![]({% link images/images-ee/config-sales-tax-vertex-tax-classes-printed-gift-card.png %}){: .zoom}
+   [_Printed Gift Card_]({% link configuration/sales/tax.md %})
 
 ### Reward points
 
 1. Set **Class for Reward Points Discount Line Item** to one of the following:
 
-    - None
-    - Reward Points
+   - `None`
+   - `Reward Points`
 
 1. Accept the default value for **Product Code for Reward Points Discount Line Item**.
 
@@ -227,7 +233,7 @@ By default, many of the following tax classes are initially set to `None`.
 
 1. When opening and reviewing the CSV log files, make sure to use a spreadsheet application that supports long cell contents.
 
-    Some applications, like Microsoft Excel, could cause issues with cut off data.
+   Some applications, like Microsoft Excel, could cause issues with cut off data.
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Vertex Logging** section at the bottom of the page.
 
@@ -250,24 +256,22 @@ By default, many of the following tax classes are initially set to `None`.
 
 ## Complete the Magento configuration
 
-1. Expand ( ![]({% link images/images/btn-expand.png %}) ) the **Calculation Settings** section. Then, do the following:
+1. Expand ( ![]({% link images/images/btn-expand.png %}) ) the **Calculation Settings** section.
 
-    - Clear the **Use system value** checkbox.
+1. For **Tax Calculation Method Based On**, clear the **Use system value** checkbox and set the value to `Vertex`.
 
-    - Set **Tax Calculation Method Based On** to `Vertex`.
-
-        ![]({% link images/images/config-sales-tax-calculation-settings.png %}){: .zoom}
-        _Calculation Settings_
+   ![]({% link images/images/config-sales-tax-calculation-settings.png %}){: .zoom}
+   _Calculation Settings_
 
 1. When complete, click <span class="btn">Save Config</span>.
 
 1. To [refresh the cache]({% link system/cache-management.md %}), do the following:
 
-    - On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management**.
+   - On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management**.
 
-    - Select the checkbox of each invalid cache.
+   - Select the checkbox of each invalid cache.
 
-    - Set **Actions** to `Refresh`. Then, click **Submit**.
+   - Set **Actions** to `Refresh`. Then, click **Submit**.
 
 ## Test the Vertex Configuration
 

@@ -62,34 +62,39 @@ _Klarna Merchant Portal_
    ![Klarna]({% link images/images/config-sales-payment-methods-recommended-solutions-klarna.png %}){: .zoom}
    [_Klarna_]({% link configuration/sales/klarna.md %})
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Klarna API** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **API Configuration** section. Then, do the following:
 
-   - Set **API Version** to one of the following:
-     **Klarna Payments (Europe)**: <br/>Supported countries: AT / DE / DK / FI / NL / NO / SE / UK
-     **Klarna Payments (North America)**
-   - In the **Merchant ID/EID** field, enter the **Merchant ID** from your Klarna credentials.
-   - In the **Password/Shared secret** field, enter the **password** from your Klarna API credentials.
-   - To use the Klarna Playground for test transactions, set **Test Mode** to `Yes`.
-   - To generate a record of interactions while testing the integration, set **Debug Mode** to `Yes`.
+   - Set **Endpoint** to one of the following:
+
+      - **Klarna Payments (North America)**
+      - **Klarna Payments (Europe)**
+      - **Klarna Payments (Oceana)**
+
+      Supported countries:  AT, DE, DK, FI, NL, NO, SE, US, AU, NZ
+
+   - Enter the **Merchant ID** from your Klarna account.
+   - Enter the **Password** from your Klarna account.
+   - To use the Klarna Playground for test transactions, set **Mode** to `Playground`.
+   - To generate a record of interactions while testing the integration, set **Logging** to `Enable`.
 
      {:.bs-callout-info}
-     Turn Debug Mode off before going live with Klarna in your production store.
+     Set **Logging** to `Disabled` before going live with Klarna in your production store.
 
-     ![Klarna API]({% link images/images/config-sales-payment-methods-klarna-api.png %}){: .zoom}
-     [_Klarna API_]({% link configuration/sales/klarna.md %})
+     ![API Configuration]({% link images/images/config-sales-payment-methods-klarna-api.png %}){: .zoom}
+     [_API Configuration_]({% link configuration/sales/klarna.md %})
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Klarna Payments** section. then, do the following:
 
-   - Set **Enable this Solution** to `Yes`.
-   - Set **Payment from applicable countries** to one of the following:
+   - Set **Enable** to `Yes`.
+   - Set **Allowed Countries** to one of the following:
 
       |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method.|
-      |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store.|
+      |**Specific Countries** |When selected, the Payment from Specific Countries list appears. Hold down the Ctrl key (PC) or the Command key (Mac) and select each country in the list where customers can make purchases from your store.|
 
    - If your Klarna account supports B2B payments, set **Enable B2B** to `Yes`.
-   - If you want Klarna to prepare a set of personalized credit options for each customer, set **Data sharing** to `Yes`.
+   - If you want Klarna to prepare a set of personalized credit options for each customer, set **Enable Data sharing** to `Yes`.
 
-   - Set **Data sharing on load** to one of the following:
+   - Set **Enable Data sharing on load** to one of the following:
 
      |**No** |Customer billing and shipping address information is shared with Klarna after the transaction is authorized. If a shipping address error is encountered during authorization, the customer is instructed to return to the previous step and correct the problem.|
      |**Yes** |Customer billing and shipping address information is shared with Klarna when the payment method is selected during the checkout process.|
@@ -105,7 +110,7 @@ _Klarna Merchant Portal_
 
 ## Step 3: Complete the Design Settings **(Optional)**
 
-You can complete the Klarna Payment Design Settings now, or at a later time. You might use a color picker to experiment with different colors for each element to match your store’s theme. The results might vary, depending on theme.
+You can complete the Design settings now, or at a later time. You might use a color picker to experiment with different colors for each element to match your store’s theme. The results might vary, depending on theme.
 
 Enter the hexadecimal value of the color that you want to use for the following elements.
 
@@ -116,6 +121,6 @@ Enter the hexadecimal value of the color that you want to use for the following 
 - Border radius
 
 ![Klarna Payments Design]({% link images/images/config-sales-payment-methods-klarna-payments-design.png %}){: .zoom}
- [_Klarna Payments Design_]({% link configuration/sales/klarna.md %})
+ [_Design_]({% link configuration/sales/klarna.md %})
 
 When complete, click <span class="btn">Save Config</span>. Then when prompted, click the [**Cache Management**]({% link system/cache-management.md %}) link at the top of the page to refresh all invalid caches.

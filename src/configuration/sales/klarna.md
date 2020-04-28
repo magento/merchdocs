@@ -4,18 +4,18 @@ title: Klarna
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > Klarna
 
-## Klarna API
+## API Configuration
 
 ![]({% link images/images/config-sales-payment-methods-klarna-api.png %}){: .zoom}
-[_Klarna API_]({% link payment/klarna-setup.md %})
+[_API Configuration_]({% link payment/klarna-setup.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|API Version|Store View|Indicates the version of Klarna that is currently installed on the website. Options: Klarna Payments (North America) / Klarna Payments (Europe) - supported countries are AT, DE, DK, FI, NL, NO, SE|
-|Merchant ID/EID|Store View|The unique Store ID from your Klarna account. Your Store ID is located in the upper-left corner of the Store Settings tab in the Klarna Merchant Portal.|
-|Password/Shared secret|Store View|The password or shared secret from your Klarna account.|
-|Test Mode|Store View|Determines if Klarna is currently operating in a test environment for the store view. Options: Enable / Disable|
-|Debug Mode|Store View|(For development only) Determines if a log is generated of all actions. Options: Enable / Disable <br/><br/>**_Important:_** Debug Mode exposes sensitive information, and is not to be used in a production environment.|
+|Endpoint|Website|Indicates the version of Klarna that is currently installed on the website. Options: Klarna Payments (North America) / Klarna Payments (Europe) / Klarna Payments (Oceania) Supported countries: AT, DE, DK, FI, NL, NO, SE, US, AU, NZ|
+|Merchant ID|Website|The Merchant ID from your Klarna account. Your Merchant ID is located in the upper-left corner of the _Store Settings_ tab in the Klarna Merchant Portal.|
+|Password|Website|The API password from your Klarna account.|
+|Mode|Website|Determines if Klarna is currently operating in a playground or production environment for the store. Options: Playground/ Production|
+|Logging|Website|(For development only) Determines if a log is generated of all actions. Options: Enable / Disable<br/><br/>**_Important:_** Logging exposes sensitive information and is not to be used in a production environment.|
 
 ## Klarna Payments
 
@@ -24,17 +24,17 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enable this Solution|Store View|Enables Klarna for the current store view. Options: Yes / No|
-|Payment from applicable countries|Store View|Determines the countries where Klarna is available for this store view. Options: All Allowed Countries / Specific Countries|
+|Enable|Store View|Enables Klarna for the current store view. Options: Yes / No|
+|Allowed Countries|Store View|Determines the countries where Klarna is available for this store view. Options: All Allowed Countries / Specific Countries|
 |Enable B2B|Store View|Allows B2B payments, if previously set up in your Klarna account. Options: Yes / No|
-|Data sharing|Store View|Determines if customer data is shared with Klarna before the customer places an order. Sharing data allows Klarna to personalize credit offerings for the customer. Options: Yes / No|
-|Data sharing on load|Store View|Allows you to determine when customer data is shared with Klarna. Options:<br />**No**: Customer billing and shipping address information is shared with Klarna after the transaction is authorized. If a shipping address error is encountered during authorization, the customer is instructed to return to the previous step and correct the problem.<br />**Yes**: Customer billing and shipping address information is shared with Klarna when the payment method is selected during the checkout process.|
+|Enable Data sharing|Store View|Determines if customer data is shared with Klarna before the customer places an order. Sharing data allows Klarna to personalize credit offerings for the customer. Options: Yes / No|
+|Enable Data sharing on load|Store View|Allows you to determine when customer data is shared with Klarna. Options:<br />**No** - Customer billing and shipping address information is shared with Klarna after the transaction is authorized. If a shipping address error is encountered during authorization, the customer is instructed to return to the previous step and correct the problem.<br />**Yes** - Customer billing and shipping address information is shared with Klarna when the payment method is selected during the checkout process.|
 |Sort Order|Store View|A number that determines the sequence in which Klarna appears with other payment methods during checkout. If left blank, Klarna appears next in the list of active payment methods.|
 
-## Klarna Payments Design
+## Design
 
 ![]({% link images/images/config-sales-payment-methods-klarna-payments-design.png %}){: .zoom}
-[_Klarna Payments Design_]({% link payment/klarna-setup.md %})
+[_Design_]({% link payment/klarna-setup.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

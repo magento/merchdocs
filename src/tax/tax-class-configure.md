@@ -7,16 +7,18 @@ The tax class that is used for shipping, and the default tax classes for [produc
 ![]({% link images/images/config-sales-tax-tax-classes.png %}){: .zoom}
 [_Tax Classes_]({% link tax/tax-class.md %})
 
-## To configure tax classes:
+## Configure tax classes
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the panel on the left under _Sales_, choose **Tax**.
+1. In the left panel, expand **Sales** and choose **Tax**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Tax Classes** section. Then, choose the tax class for each of the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Tax Classes** section.
 
-    - Set Tax Class for Shipping
-    - Default Tax Class for Product
-    - Default Tax Class for Customer
+1. Choose the tax class for each of the following:
+
+    - **Set Tax Class for Shipping**
+    - **Default Tax Class for Product**
+    - **Default Tax Class for Customer**
 
 1. When complete, click <span class="btn">Save Config</span>.

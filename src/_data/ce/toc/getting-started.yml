@@ -293,9 +293,9 @@ pages:
           url: "/configuration/sales/klarna.html"
         - label: Amazon Pay
           url: "/configuration/sales/amazon-pay.html"
-        - label: Authorize.Net Direct Post (Deprecated)
+        - label: Authorize.Net Direct Post - Deprecated
           url: "/configuration/sales/authorize-net-direct-post.html"
-        - label: Authorize.Net
+        - label: Authorize.Net - Deprecated
           url: "/configuration/sales/authorize-net.html"
     - label: 3D Secure
       url: "/configuration/sales/3d-secure.html"
@@ -346,6 +346,8 @@ pages:
     children:
     - label: Magento Web API
       url: "/configuration/services/magento-web-api.html"
+    - label: Magento Services
+      url: "/configuration/services/saas.html"
     - label: OAuth
       url: "/configuration/services/oauth.html"
     - label: Channels

@@ -26,9 +26,9 @@ Before you can configure email addresses for the store, each must be set up as a
     ![General configuration - store email addresses]({% link images/images/config-general-store-email-addresses-general-contact.png %}){: .zoom}
     [_General Contact_]({% link configuration/general/store-email-addresses.md %})
 
-    - In the **Sender Name** field, enter the name of the person that is associated with the General Contact identity to appear as the sender of any email messages.
+   - In the **Sender Name** field, enter the name of the person that is associated with the General Contact identity to appear as the sender of any email messages.
 
-    - In the **Sender Email** field, enter the associated email address.
+   - In the **Sender Email** field, enter the associated email address.
 
 1. Repeat this process for each store email address that you plan to use.
 
@@ -42,13 +42,13 @@ If you use custom email addresses, make sure to update the configuration of any 
 
     The page has a separate section for each of the following:
 
-    - Order and Order Comments
-    - Invoice and Invoice Comments
-    - Shipment and Shipment Comments
-    - Credit Memo and Credit Memo Comments
-    <!--{% if "Default.EE-B2B" contains site.edition %}-->
-    - RMA, RMA Authorization, RMA Admin Comments, and RMA Customer Comments
-    <!--{% endif %}-->
+   - Order and Order Comments
+   - Invoice and Invoice Comments
+   - Shipment and Shipment Comments
+   - Credit Memo and Credit Memo Comments
+   <!--{% if "Default.EE-B2B" contains site.edition %}-->
+   - RMA, RMA Authorization, RMA Admin Comments, and RMA Customer Comments
+   <!--{% endif %}-->
 
 1. Starting with **Order**, expand the section for each message and make sure that the correct sender is selected.
 

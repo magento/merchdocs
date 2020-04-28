@@ -51,18 +51,18 @@ _Choose Template_
 
    To determine the type of SKU that is assigned to each bundle item, do the following:
 
-    - A **Dynamic SKU** can be assigned automatically to each bundle item by adding a suffix to the default SKU. By default, this is set to `Yes`.
+   - A **Dynamic SKU** can be assigned automatically to each bundle item by adding a suffix to the default SKU. By default, this is set to `Yes`.
 
-    - If you prefer to assign a unique SKU for each bundle item, set **Dynamic SKU** to `No`.
+   - If you prefer to assign a unique SKU for each bundle item, set **Dynamic SKU** to `No`.
 
     ![]({% link images/images/product-bundle-dynamic-sku-price.png %}){: .zoom}
     _Dynamic SKU and Price_
 
 1. To determine the price of the bundle, do one of the following:
 
-    - To have the price reflect the options chosen by the customer, set **Dynamic Price** to `Yes` and leave **Price** blank.
+   - To have the price reflect the options chosen by the customer, set **Dynamic Price** to `Yes` and leave **Price** blank.
 
-    - To charge a fixed price for the bundle, set **Dynamic Price** to `No` and enter the **Price** that you want to charge for the bundle.
+   - To charge a fixed price for the bundle, set **Dynamic Price** to `No` and enter the **Price** that you want to charge for the bundle.
 
 1. Because the product is not yet ready to publish, set **Enable Product** to `No`.
 
@@ -79,22 +79,22 @@ _Choose Template_
 
 1. If the bundle has Fixed Pricing, set **Tax Class** to one of the following:
 
-    - `None`
-    - `Taxable Goods`
+   - `None`
+   - `Taxable Goods`
 
     If the bundle has Dynamic Pricing, the tax is determined for each bundle item.
 
 1. Take note of the following:
 
-    - The **Quantity** is not available because the value is determined for each bundle item.
+   - The **Quantity** is not available because the value is determined for each bundle item.
 
-    - By default, the **Stock Status** is set to `In Stock`.
+   - By default, the **Stock Status** is set to `In Stock`.
 
 1. To determine the weight of the bundle, do one of the following:
 
-    - To have the weight reflect the options chosen by the customer, set **Dynamic Weight** set `Yes` and leave **Weight** blank.
+   - To have the weight reflect the options chosen by the customer, set **Dynamic Weight** set `Yes` and leave **Weight** blank.
 
-    - To assign a fixed weight to the bundle, set **Dynamic Weight** to `No` and enter the **Weight** of the bundle.
+   - To assign a fixed weight to the bundle, set **Dynamic Weight** to `No` and enter the **Weight** of the bundle.
 
     ![]({% link images/images/product-bundle-dynamic-weight.png %}){: .zoom}
     _Dynamic Weight_
@@ -105,19 +105,19 @@ _Choose Template_
 
 1. To assign Categories to the product, click the **Select…** box and do either of the following:
 
-    **Choose an existing category:**
+   **Choose an existing category:**
 
-    - Start typing in the box to find a match.
+   - Start typing in the box to find a match.
 
-    - Select the checkbox of each category that is to be assigned.
+   - Select the checkbox of each category that is to be assigned.
 
-    **Create a new category:**
+   **Create a new category:**
 
-    - Click <span class="btn">New Category</span>.
+   - Click <span class="btn">New Category</span>.
 
-    - Enter the **Category Name** and choose the **Parent Category** to determine its position in the menu structure.
+   - Enter the **Category Name** and choose the **Parent Category** to determine its position in the menu structure.
 
-    - Click <span class="btn">Create Category</span>.
+   - Click <span class="btn">Create Category</span>.
 
 1. Choose the **Country of Manufacture**.
 
@@ -130,8 +130,8 @@ _Choose Template_
 
 1. Scroll down to the _Bundle Items_ section and set **Ship Bundle Items** to one of the following:
 
-    - `Separately`
-    - `Together`
+   - `Separately`
+   - `Together`
 
     ![]({% link images/images/product-bundle-items.png %}){: .zoom}
     _Bundle Items_
@@ -144,31 +144,31 @@ _Choose Template_
     ![]({% link images/images/product-bundle-new-option.png %}){: .zoom}
     _Add Bundle Options_
 
-    - Enter an **Option Title** to be used as the field label.
+   - Enter an **Option Title** to be used as the field label.
 
-    - Set **Input Type** to one of the following:
+   - Set **Input Type** to one of the following:
 
-        - `Drop-down`
-        - `Radio buttons`
-        - `Checkbox`
-        - `Multiple Select`
+      - `Drop-down`
+      - `Radio buttons`
+      - `Checkbox`
+      - `Multiple Select`
 
-    - To make the field a required entry, select the **Required** checkbox.
+   - To make the field a required entry, select the **Required** checkbox.
 
-    - Click <span class="btn">Add Products to Option</span> and select the checkbox of each product that you want to include in this option.
+   - Click <span class="btn">Add Products to Option</span> and select the checkbox of each product that you want to include in this option.
 
       If there are many products, use the [list filters]({% link stores/admin-grid-controls.md %}) and [pagination controls]({% link catalog/navigation-pagination.md %}) to find the products you need.
 
-    - Click <span class="btn">Add Selected Products</span>.
+   - Click <span class="btn">Add Selected Products</span>.
 
       ![]({% link images/images/product-bundle-add-products-to-option.png %}){: .zoom}
       _Add Selected Products_
 
-    - After the items appear in the _Options_ section, choose an item to be the **Default** selection.
+   - After the items appear in the _Options_ section, choose an item to be the **Default** selection.
 
-    - In the _Default Quantity_ column, enter the quantity of each item that is to be added to the bundle when a customer chooses the item.
+   - In the _Default Quantity_ column, enter the quantity of each item that is to be added to the bundle when a customer chooses the item.
 
-    - To allow customers to change the quantity of a bundle item, select **User Defined**.
+   - To allow customers to change the quantity of a bundle item, select **User Defined**.
 
       {:.bs-callout-info}
       The quantity can be a preset or user-defined value. However, do not assign the _User Defined_ property to checkbox or multiple-select input types.
@@ -219,18 +219,18 @@ Scroll down and complete the information in the following sections as needed:
 
 1. Do one of the following:
 
-    **Method 1: Save and preview**
+   **Method 1: Save and preview**
 
-    - In the upper-right corner, click <span class="btn">Save</span>.
+   - In the upper-right corner, click <span class="btn">Save</span>.
 
-    - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
+   - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
 
       The store opens in a new browser tab.
 
     ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
     _Customer View_
 
-    **Method 2: Save and close**
+   **Method 2: Save and close**
 
     On the _Save_ (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
 

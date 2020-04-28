@@ -7,7 +7,7 @@ sections:
 
   - title: Amazon Sales Channel
     content: Learn about tools available to connect your Magento website to Amazon to integrate your Magento store with Amazon marketplaces. Manage shared products catalogs, orders, and shipments directly through your Magento Admin.
-    url: /sales-channels/amazon/amazon-sales-channel.html
+    url: /sales-channels/asc/amazon-sales-channel.html
 
 ---
 

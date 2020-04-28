@@ -23,11 +23,11 @@ _Enable RMA for Product_
 
 1. Configure RMA settings:
 
-    - Set **Enable RMA on Storefront** to `Yes`.
+   - Set **Enable RMA on Storefront** to `Yes`.
 
-    - Set **Enable RMA on Product Level** to `Yes`.
+   - Set **Enable RMA on Product Level** to `Yes`.
 
-    - Set **Use Store Address** to one of the following values:
+   - Set **Use Store Address** to one of the following values:
 
       - `Yes` – Send returned products to the store address.
       - `No` – Enter an alternate address for product returns.

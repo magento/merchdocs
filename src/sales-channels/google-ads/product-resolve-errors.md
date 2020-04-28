@@ -1,5 +1,6 @@
 ---
 title: Resolving Product Errors
+tag: google-shopping
 ---
 
 

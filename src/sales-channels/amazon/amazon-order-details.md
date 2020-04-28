@@ -2,7 +2,6 @@
 title: Amazon Order Details
 ---
 
-
 When viewing the details of an Amazon order:
 
 - The Order and Shipping Details tab displays additional detailed order information.
@@ -24,7 +23,6 @@ If an order is in `Unshipped` status, the **Cancel Order** option will display i
 1. For **Reason For Cancellation**, select an option.
 
 1. Click **Cancel Order** in the header bar. The order is canceled, and the Status column for the order on the Order tab is updated to `Canceled`.
-
 
 ## Order and Shipping Details tab
 

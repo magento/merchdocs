@@ -17,30 +17,30 @@ In the following example, you will rework a prepared template for the Magento Lu
 
 1. Do one of the following;
 
-    - On the **Create** page, click the **New email campaign** tile.
-    - In the main menu under **Campaigns**, choose **New Campaign**.
+   - On the **Create** page, click the **New email campaign** tile.
+   - In the main menu under **Campaigns**, choose **New Campaign**.
 
     ![Engagement Cloud - new campaign]({% link images/images/engagement-cloud-create-new-email-campaign.png %}){: .zoom}
     _Create New Email Campaign_
 
 1. On the **Free Templates** tab of the Choose a Template page, scroll down to find the template you want to use. Then, do the following:
 
-    - Hover over the thumbnail image, to show the Select and Preview buttons. Then, do the following:
+   - Hover over the thumbnail image, to show the Select and Preview buttons. Then, do the following:
 
       - Click **Preview** ( ![Preview icon]({% link images/images/engagement-cloud-btn-preview.png %}) ) to see a mockup of the template.
 
       - Click <span class="btn">Select</span> to choose the template for your campaign.
 
-    - When prompted, enter the **Campaign name**, and accept the default **Campaign location**. Then, click <span class="btn">Continue</span>.
+   - When prompted, enter the **Campaign name**, and accept the default **Campaign location**. Then, click <span class="btn">Continue</span>.
 
         ![Engagement Cloud - campaign name and location]({% link images/images/engagement-cloud-create-new-email-campaign-name.png %}){: .zoom}
         _Campaign Name and Location_
 
-    - For an overview of the process, click **setting up your campaign** in the message at the top of the page.
+   - For an overview of the process, click **setting up your campaign** in the message at the top of the page.
 
-    - Under **Campaign Details**, complete the fields for the header information of the campaign email. To learn more, see the [field descriptions](#field-descriptions).
+   - Under **Campaign Details**, complete the fields for the header information of the campaign email. To learn more, see the [field descriptions](#field-descriptions).
 
-    - Scroll down to see a **Preview** of the message. Then, click <span class="btn">Save & continue</span>.
+   - Scroll down to see a **Preview** of the message. Then, click <span class="btn">Save & continue</span>.
 
 ![Engagement Cloud - email campaign preview]({% link images/images/engagement-cloud-create-new-email-campaign-preview.png %}){: .zoom}
 _Preview_
@@ -218,9 +218,9 @@ To simplify this example, only one product block is needed from the template. Yo
 
    You can experiment with these settings to adjust the size and format of the buttons. To make your buttons look like the template, do the following:
 
-    - In the sidebar under **Label position**, set **Horizontal** alignment to `Center`.
+   - In the sidebar under **Label position**, set **Horizontal** alignment to `Center`.
 
-    - Under **Spacing**, set **Horizontal** to `15px` and **Vertical** to `None`.
+   - Under **Spacing**, set **Horizontal** to `15px` and **Vertical** to `None`.
 
 1. To delete the placeholder social media links, click **Close** ( ![Close icon]({% link images/images/icon-close-green-engagement-cloud.png %})) in the upper-right corner.
 
@@ -263,9 +263,9 @@ The information at the bottom of the template is important, and in many countrie
 
 1. Select the type of output you want to send from the following:
 
-    - `HTML and plain text`
-    - `HTML only`
-    - `Plain text only`
+   - `HTML and plain text`
+   - `HTML only`
+   - `Plain text only`
 
     ![Engagement Cloud - test send options]({% link images/images/engagement-cloud-campaign-test-send-options.png %}){: .zoom}
     _Test Send Options_
@@ -274,16 +274,16 @@ The information at the bottom of the template is important, and in many countrie
 
 1. To send the test to more addresses, do the following:
 
-    - Click <span class="btn">New Test Address</span>.
+   - Click <span class="btn">New Test Address</span>.
 
-    - Enter the **Email address**, **First name** and **Last name** of the recipient.
+   - Enter the **Email address**, **First name** and **Last name** of the recipient.
 
-    - Click <span class="btn">Create</span>.
+   - Click <span class="btn">Create</span>.
 
         ![Engagement Cloud - Test send new address]({% link images/images/engagement-cloud-campaign-test-send-new-address.png %}){: .zoom}
         _Test Send New Address_
 
-    - Repeat these steps to add as many recipients as you want.
+   - Repeat these steps to add as many recipients as you want.
 
 1. When you are ready to send the test campaign, click <span class="btn">Test Send</span>. If prompted, click <span class="btn">Save and send</span>.
 
@@ -303,7 +303,7 @@ The Summary Report validates the campaign, lists any errors that are found, and 
     Look for the red text in the report. They are tips and recommendations for things you can do to improve your campaign.
 
     ![Engagement Cloud - campaign summary report]({% link images/images/engagement-cloud-campaign-report.png %}){: .zoom}
-    *_ampaign Summary Report_
+    _Campaign Summary Report_
 
 ## Step 5: Add a Personal Note
 
@@ -314,16 +314,16 @@ In this step, we’ll add a personal note with a link, and then do another test 
     ![Engagement Cloud - personal note]({% link images/images/engagement-cloud-campaigns-personal-note.png %}){: .zoom}
     _Text Block for Personal Note_
 
-    - Enter the word `Hi` to begin the greeting, followed by a blank space.
+   - Enter the word `Hi` to begin the greeting, followed by a blank space.
 
-    - In the toolbar at the top of the template, click <span class="btn">Data Fields</span>.
+   - In the toolbar at the top of the template, click <span class="btn">Data Fields</span>.
 
-    - In the list of data fields, choose <span class="btn">First name</span>.
+   - In the list of data fields, choose <span class="btn">First name</span>.
 
         ![Engagement Cloud - campaign data fields]({% link images/images/engagement-cloud-campaign-data-fields.png %}){: .zoom}
         _Data Fields_
 
-    - Write a note to accompany the campaign.
+   - Write a note to accompany the campaign.
 
 1. When complete, <span class="btn">Save</span> your work.
 

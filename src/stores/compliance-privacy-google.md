@@ -1,7 +1,7 @@
 ---
 title: Google Privacy Settings
 group: marketing
-redirect_from: 
+redirect_from:
   - /stores/compliance-gdpr-google.html
 ---
 
