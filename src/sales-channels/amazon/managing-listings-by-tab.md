@@ -2,13 +2,12 @@
 title: Managing Product Listings by Tab
 ---
 
-
 {% include amazon-managing-listings-intro.md %}
 
 [Manage Listings by Action]({% link sales-channels/amazon/managing-listings-by-action.md %})
 
 ![]({% link images/images/sales-channels/amazon/ob-store-review-tabs.png %}){: .zoom}
- _Product Listings tabs_
+_Product Listings tabs_
 
 |Tab|Description|Actions|
 |--- |--- |--- |
@@ -20,7 +19,6 @@ title: Managing Product Listings by Tab
 |[Overrides]({% link sales-channels/amazon/overrides.md %})|Displays your Amazon listings that meet the criteria for a defined override and to which the override has been applied. Overrides take priority over any other account setting.|[Edit Listing Overrides]({% link sales-channels/amazon/creating-editing-overrides.md %})<br />[Edit Overrides]({% link sales-channels/amazon/creating-editing-overrides.md %})<br />[View Details]({% link sales-channels/amazon/product-listing-details.md %})|
 |[Ineligible]({% link sales-channels/amazon/ineligible-listings.md %})|Displays your existing Amazon listings that are no longer eligible, based on your defined [listing settings]({% link sales-channels/amazon/listing-settings.md %}).|[End Listing(s) on Amazon]({% link sales-channels/amazon/end-listings-manually.md %})<br />[Edit Listing Overrides]({% link sales-channels/amazon/creating-editing-overrides.md %})<br />[View Details]({% link sales-channels/amazon/product-listing-details.md %})<br />[Create Override]({% link sales-channels/amazon/creating-editing-overrides.md %})<br />[Edit Assigned ASIN]({% link sales-channels/amazon/edit-assigned-asin.md %})<br />[Create Alias Seller SKU]({% link sales-channels/amazon/create-alias-seller-sku.md %})<br />Switch to Fulfilled by Amazon/Merchant<br />[End Listing]({% link sales-channels/amazon/end-listings-manually.md %})|
 |[Ended]({% link sales-channels/amazon/ended-listings.md %})|Displays your Amazon listings that have manually been ended (removed) from Amazon.|[Publish Product to Amazon]({% link sales-channels/amazon/ended-listings.md %})<br />[View Details]({% link sales-channels/amazon/product-listing-details.md %})<br />[Publish On Amazon]({% link sales-channels/amazon/ended-listings.md %})<br />[Create Alias Seller SKU]({% link sales-channels/amazon/create-alias-seller-sku.md %})|
-
 
 ## To access Product Listings:
 

@@ -12,11 +12,11 @@ After configuring and enabling settlement reports in the PayPal merchant account
 ![PayPal Settlement Reports]({% link images/images/reports-sales-paypal-settlement.png %}){: .zoom}
 _PayPal Settlement Reports_
 
-## To view settlement reports:
+## View settlement reports
 
-1. On the Admin sidebar, tap **Reports**. Then under **Sales**, choose select **PayPal Settlement**.
+1. On the _Admin_ sidebar, go to **Reports** > _Sales_ > **PayPal Settlement**.
 
-2. For the most recent updates, tap **Fetch Updates** in the upper-right corner.
+1. For the most recent updates, click **Fetch Updates** in the upper-right corner.
 
    The system connects to the PayPal SFTP server to fetch the reports. When the process is complete, a message appears with the number of reports fetched. The report includes the following information for each transaction:
 

@@ -19,16 +19,16 @@ Some Vertex field names differ from those used by Magento. See the Field Mapping
 
    You will need to enter this code later in the Magento configuration to establish the link between Magento and your Vertex account.
 
-    ![]({% link images/images/tax-vertex-cloud-configure.png %}){: .zoom}
-    _Configure Vertex_
+   ![]({% link images/images/tax-vertex-cloud-configure.png %}){: .zoom}
+   _Configure Vertex_
 
-    The configuration settings for each company are organized into three columns on the Configure Over page. Follow the instructions in this guide to complete the configuration for each of the following:
+   The configuration settings for each company are organized into three columns on the Configure Over page. Follow the instructions in this guide to complete the configuration for each of the following:
 
    - [Registrations]({% link tax/vertex-setup.md %})
    - [Products]({% link tax/vertex-setup-products.md %})
    - [Customer Exceptions]({% link tax/vertex-setup-customer-exceptions.md %})
 
-## Field Mapping
+## Field mapping
 
 |Vertex Cloud|Magento|
 |--- |--- |
