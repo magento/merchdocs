@@ -2,7 +2,7 @@
 title: Configuring Storefront Address Validation
 ---
 
-Your [Vertex Cloud account]({% link tax/vertex-account.md %}) also includes the Vertex Address Validation module. When this functionality is enabled for your Magento store, the storefront prompts the customer to correct the address information on both the shipping and billing steps of the one-page checkout.
+Your [Vertex Cloud account]({% link tax/vertex-account.md %}) also includes the Vertex Address Validation module. When this functionality is enabled for your Magento store, the storefront prompts the customer to correct the address information on both the shipping and billing steps of the one-page checkout and when the customer adds an address to their account.
 
 ![]({% link images/images/tax-vertex-cloud-address-verify-store.png %}){: .zoom}
 _Address validation message for correction_
@@ -32,7 +32,7 @@ To enable Vertex address validation for the storefront:
 
 1. If you want to display a message when the address is correctly verified, set **Confirmation Message when no action is needed**  to `Enable`.
 
-   The default is to disable this function so that a message is displayed only if the address does not match a validated address with a prompt to correct it.
+   By default, this function is disabled so that a message is displayed only if the address does not match a validated address with a prompt to correct it.
 
 1. When complete, click <span class="btn">Save Config</span>.
 

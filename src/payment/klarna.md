@@ -2,11 +2,14 @@
 title: Klarna
 ---
 
-Klarna lets your customers choose how they want to pay, and supports the purchase with buyer protection and excellent customer service.
+Klarna lets your customers choose how they want to pay and supports the purchase with buyer protection and excellent customer service. Your customers can buy now and pay later, while you receive payment in full at the time of purchase.
 
 ## Changes In the Latest Release
 
-In the Magento configuration, the Klarna Payments section has a new "Data sharing on load" field that can be set to share customer data after the transaction is authorized, or when the Klarna payment method is selected during checkout.
+### New Features
+
+-  Added support for Australia and New Zealand markets
+-  Improved configuration: Changed scope of API Configuration from `Store View` to `Website`; updated section name and field label changes.
 
 ## Klarna payment methods
 
