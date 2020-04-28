@@ -6,15 +6,15 @@ If you have a commercial account with a supported carrier, you can offer your cu
 
 Before you can offer your customers a selection of shipping carriers,you must complete the following steps:
 
-*  Configure the [shipping settings]({% link shipping/shipping-settings.md %}) to establish the point of origin for your store.
+* Configure the [shipping settings]({% link shipping/shipping-settings.md %}) to establish the point of origin for your store.
 
-*  Configure the settings for each carrier service that you want to offer.
+* Configure the settings for each carrier service that you want to offer.
 
 The configuration options vary for each carrier. However, all require the following stops:
 
-1.  Open a shipping account with the carrier.
+1. Open a shipping account with the carrier.
 
-2.  Enter your account number or user ID, and the gateway URL to their system into the configuration of your store. See [Magento Connect]({% link magento/magento-marketplace.md %}) for additional shipping services for your Magento installation.
+1. Enter your account number or user ID, and the gateway URL to their system into the configuration of your store. See [Magento Connect]({% link magento/magento-marketplace.md %}) for additional shipping services for your Magento installation.
 
 ## UPS
 

@@ -23,6 +23,9 @@ However, if your catalog contains products in different conditions (New, Used, R
 
 During [Pre-Setup Tasks]({% link sales-channels/asc/amazon-pre-setup-tasks.md %}), you are encouraged to create a Magento product attribute for a product's condition. If you offer products in various conditions and you have not created a condition attribute, see [Create a product attribute in Magento]({% link sales-channels/asc/ob-creating-magento-attributes.md %}). Once the condition attribute is created, you can assign a condition value to each of your products in your Magento catalog.
 
+{:.bs-callout .bs-callout-warning}
+If you sell renewed (refurbished) products, you must enroll in the Amazon Renewed Program. See [Renewed Products]({% link sales-channels/asc/renewed-products.md %}).
+
 ## Configure Product Listing Condition settings
 
 1. Click **Listing Settings** on the store dashboard.

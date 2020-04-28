@@ -12,11 +12,9 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 ## Step 2: Enable USPS for Your Store
 
-1. On the _Admin_ sidebar, click **Stores**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the _Settings_ section, choose **Configuration**.
-
-1. In the _Sales_ section on the left panel, choose **Shipping Methods**.
+1. In the left panel, expand **Sales** and choose **Shipping Methods**.
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **USPS** section.
 
@@ -43,7 +41,7 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
     * **Divide to Equal Weight**–(One Request) The shipment of multiple packages can be submitted as one request if the packages are divided by equal weight.
     * **Use Origin Weight**–(Multiple Requests) Multiple packages must be submitted as separate requests if using origin weight as the basis of calculating the shipping cost.
 
-2. Set **Container** to the type of packaging usually used to ship products ordered for your store. Options include:
+1. Set **Container** to the type of packaging usually used to ship products ordered for your store. Options include:
 
     * Variable
     * Flat-Rate Box
@@ -51,18 +49,18 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
     * Rectangular
     * Non-Rectangular
 
-3. Set the **Size** of the typical package shipped from your store. Options include:
+1. Set the **Size** of the typical package shipped from your store. Options include:
 
     * Regular
     * Large
     * Oversize
 
-4. Set **Machinable** to one of the following:
+1. Set **Machinable** to one of the following:
 
     * **Yes**–If your typical package can be processed by a machine.
     * **No**–If your typical package must be processed manually.
 
-5. Enter the **Maximum Package Weight** according to carrier requirements.
+1. Enter the **Maximum Package Weight** according to carrier requirements.
 
     ![]({% link images/images/config-sales-shipping-methods-usps-packaging.png %}){: .zoom}
     _[USPS Packaging Settings]({% link configuration/sales/shipping-methods.md %})_
