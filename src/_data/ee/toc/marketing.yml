@@ -252,7 +252,7 @@ pages:
       - label: Manage Orders and Fulfillment
         url: "/sales-channels/asc/managing-orders.html"
         children:
-        - label: View All Amazon Orders
+        - label: View Amazon Orders
           url: "/sales-channels/asc/amazon-orders-all.html"
         - label: View Amazon Order Details
           url: "/sales-channels/asc/amazon-order-details.html"
