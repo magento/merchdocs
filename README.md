@@ -17,7 +17,7 @@ To edit a MerchDocs page directly in the GitHub UI:
 1. Add a commit message in the Commit changes section at the bottom and create a new branch for the commit (name the branch as well).
 1. Click **Commit changes** to submit a PR with your revisions.
 
-# Building this site
+## Building this site
 
 You can build this site locally in the following ways:
 
@@ -26,7 +26,7 @@ You can build this site locally in the following ways:
 
 Build instructions use DevDocs base information for building MerchDocs.
 
-## Build using Jekyll
+### Build using Jekyll
 
 For local builds, you need to install Ruby 2.4 or later.
 
@@ -36,7 +36,7 @@ To check the Ruby version on your environment, run in your terminal:
 ruby -v
 ```
 
-### Install the latest Ruby (if the Ruby version is less than 2.4)
+#### Install the latest Ruby (if the Ruby version is less than 2.4)
 
 **MacOS users**
 
@@ -51,7 +51,7 @@ ruby -v
 
 See the [Ruby site](https://www.ruby-lang.org/en/documentation/installation) for instructions.
 
-### Install Bundler
+#### Install Bundler
 
 Install the [Bundler](https://bundler.io/) gem, which helps with Ruby dependencies:
 
@@ -59,7 +59,7 @@ Install the [Bundler](https://bundler.io/) gem, which helps with Ruby dependenci
 gem install bundler
 ```
 
-Once you have completed preparing your environment, you can build locally and review the site in your browser.
+After you have completed preparing your environment, you can build locally and review the site in your browser.
 
 ### Install MerchDocs
 
@@ -69,9 +69,9 @@ Clone or download the repository. The first time you are at the `merchdocs` dire
 bundle install
 ```
 
-Once you have completed preparing your environment, you can build locally and review the site in your browser.
+After you have completed preparing your environment, you can build locally and review the site in your browser.
 
-### To build locally:
+### Build locally
 
 #### Using rake
 
