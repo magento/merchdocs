@@ -107,7 +107,7 @@ _No Color_
 
 1. To use a different background image for mobile devices, repeat these steps to specify the **Background Mobile Image** that you want to use.
 
-#### Background Size and Position
+#### Background size and position
 
 1. Set the **Background Size** to one of the following:
 
@@ -138,7 +138,7 @@ _No Color_
     ![]({% link images/images-ee/page-builder-settings-parallax-background.png %}){: .zoom}
     _Parallax Background_
 
-### Background Video
+### Background video
 
 To apply a background video to the row, do the following:
 
