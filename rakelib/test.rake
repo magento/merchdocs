@@ -16,7 +16,7 @@ namespace :test do
 
   desc 'Check the existing _site for broken INTERNAL links'
   task :html do
-    puts 'Checking links with html-proofer...'.magenta
+    puts 'Checking HTML ...'.magenta
 
     LinkChecker.check_site
   end
@@ -29,8 +29,7 @@ namespace :test do
       report = LinkChecker.md_report_path
       $stderr.reopen(report, 'w+')
 
-      puts 'Checking links with html-proofer...'.magenta
-      LinkChecker.check_site
+      Rake::Task['test:html'].invoke
 
       # We're expecting link validation errors, but unless we rescue from
       # StandardError, rake will abort and won't run the convert task (https://stackoverflow.com/a/10048406).
@@ -52,6 +51,9 @@ namespace :test do
   desc 'Test Markdown style with mdl'
   task :md do
     puts 'Testing Markdown style with mdl ...'.magenta
+    print 'List the rules: $ '.magenta
+    sh 'bin/mdl -l --style=_checks/styles/style-rules-prod'
+    puts 'Linting ...'.magenta
     output =
       `bin/mdl \
       --style=_checks/styles/style-rules-prod \
