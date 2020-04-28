@@ -80,7 +80,7 @@ _Dynamic Pages IP Restriction_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Dynamic Pages IP Restriction|Website|To add a layer of security for external dynamic content, it is recommended that you maintain this list of IP addresses which are authorized to access dynamic content. <br/><br/>By default, Engagement Cloud uses three IP addresses to send requests and pull dynamic content. During testing, you can add your company's IP address to the list. **_Note:_** If you leave this field empty, a security check does not run.|
+|Dynamic Pages IP Restriction|Website|To add a layer of security for external dynamic content, it is recommended that you maintain this list of IP addresses which are authorized to access dynamic content. **_Note:_** If you leave this field empty, a security check does not run.<br/><br/>By default, Engagement Cloud uses three IP addresses that allow dotdigital to send requests and pull dynamic content. When testing an integration, you can add your IP address to the list. For an example, see [Method 2: Add your IP address to the IP restriction whitelist]({% link marketing/price-rules-cart-coupon.md %}).|
 
 ## Manage Cron Timings
 

@@ -1,12 +1,12 @@
 ---
 conditions: Default.EE-B2B
-title: Worldpay
+title: Worldpay - Deprecated
 ---
 
 {:.bs-callout-warning}
 **Deprecation Notice** <br/>
-Due to the Payment Service Directive [PSD2]({% link stores/compliance-payment-services-directive.md %}) and the continued evolution of many APIs, this payment integration is at risk of becoming outdated and no longer security compliant in the future. For this reason, it is now deprecated and we are recommending that you disable it in your Magento configuration  contact your Worldpay service provider and ask for their recommendation.<br/><br/>
-<b>This integration will be removed from the Magento 2.4.0 release and will be deprecated from versions of 2.3.</b><br/><br/>
+Due to the Payment Service Directive [PSD2]({% link stores/compliance-payment-services-directive.md %}) and the continued evolution of many APIs, this payment integration is at risk of becoming outdated and no longer security compliant in the future. For this reason, it is now deprecated and we are recommending that you disable it in your Magento configuration and contact your Worldpay service provider and ask for their recommendation.<br/><br/>
+**This integration will be removed from the Magento 2.4.0 release and has been deprecated from current versions of 2.3.**<br/><br/>
 For details about making a secure transition from deprecated payment integrations, see our [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
 London-based [Worldpay][1] has twenty-five offices in eleven countries around the world. The company is a global leader in card payments, multi-currency processing, and provides local in-store and mobile payment acceptance solutions for companies large and small.
@@ -17,7 +17,7 @@ Sign up for a Worldpay online [merchant account][2]
 
 ## Step 2: Enable Worldpay
 
-1. Set **Enabled** to “Yes.”
+1. Set **Enabled** to `Yes`.
 
 2. Enter a **Title** to identify Worldpay as a payment option during checkout.
 
