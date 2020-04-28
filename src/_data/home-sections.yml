@@ -14,10 +14,6 @@
     content: Make your site a destination with compelling content. Learn how to create pages with images, video, and dynamic content, and to modify existing pages, blocks, and widgets.
     url: /content.html
 
-  - title: Discover our new channel integrations
-    content: These powerful features empower you to increase revenue by capturing new storefront traffic and expanding sales to additional webstores.
-    url: /sales-channels/sales-channels-home.html
-
   - title: Market and promote
     content: Target promotions and create opportunities for customer engagement. Manage customer communications, and learn best practices and techniques to support your SEO initiative.
     url: /marketing.html
@@ -29,6 +25,10 @@
   - title: Manage your store
     content: Create new store views in different languages, and manage multisite installations with different currency rates and taxes. Learn to use system tools to manage store data.
     url: /stores/stores.html
+
+  - title: Support your customers
+    content: Magento includes multiple customer management tools, including customer accounts, customer groups, customer segments and company accounts to support B2B functions.
+    url: /customers.html
 
   - title: Manage the system
     content: Learn how to import and export data. manage security and permissions, and install extensions. Use the system tools to manage the cache and indexing, and schedule backups.

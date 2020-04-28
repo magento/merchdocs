@@ -25,21 +25,6 @@ pages:
       url: "/magento/magento-account-create.html"
     - label: Sharing Your Account
       url: "/magento/magento-account-share.html"
-  - label: B2B Overview
-    url: "/quick-tour/b2b-quick-start.html"
-    children:
-      - label: Build Loyalty
-        url: "/quick-tour/build-loyalty.html"
-      - label: Differentiate and Personalize
-        url: "/quick-tour/differentiate-personalize.html"
-      - label: Empower with Self-Service Tools
-        url: "/quick-tour/self-service-tools.html"
-      - label: Reduce Ordering Errors
-        url: "/quick-tour/reduce-ordering-errors.html"
-      - label: Increase Profitability
-        url: "/quick-tour/increase-profitability.html"
-      - label: Seize Market Opportunities
-        url: "/quick-tour/market-opportunities.html"
   - label: " Quick Tour"
     url: "/getting-started/quick-tour.html"
     children:
@@ -73,21 +58,26 @@ pages:
         url: "/quick-tour/loyalty-advocacy.html"
       - label: Success!
         url: "/quick-tour/success.html"
+    - label: B2B Basics
+      url: "/stores/b2b-basics.html"
+      children:
+      - label: B2B Best Practices
+        url: "/stores/b2b-best-practices.html"  
+      - label: Build Loyalty
+        url: "/quick-tour/build-loyalty.html"
+      - label: Differentiate and Personalize
+        url: "/quick-tour/differentiate-personalize.html"
+      - label: Empower with Self-Service Tools
+        url: "/quick-tour/self-service-tools.html"
+      - label: Reduce Ordering Errors
+        url: "/quick-tour/reduce-ordering-errors.html"
+      - label: Increase Profitability
+        url: "/quick-tour/increase-profitability.html"
+      - label: Seize Market Opportunities
+        url: "/quick-tour/market-opportunities.html"
 - label: Basic Configuration
   url: "/configuration/configuration-basic.html"
   children:
-  - label: B2B Basics
-    url: "/stores/b2b-basics.html"
-    children:
-    - label: B2B Best Practices
-      url: "/stores/b2b-best-practices.html"
-    - label: Configuring B2B Features
-      url: "/stores/b2b-features.html"
-      children:
-      - label: Configuring Quotes
-        url: "/stores/b2b-configure-quotes.html"
-    - label: Configuration Summary
-      url: "/stores/b2b-configuration-settings.html"
   - label: Store Admin
     url: "/stores/admin.html"
     children:
@@ -167,6 +157,16 @@ pages:
         url: "/stores/store-scope-reference.html"
     - label: Single Store Mode
       url: "/stores/store-mode-single.html"
+  - label: B2B Overview
+    url: "/quick-tour/b2b-quick-start.html"
+    children:
+    - label: Configuring B2B Features
+      url: "/stores/b2b-features.html"
+      children:
+      - label: Configuring Quotes
+        url: "/stores/b2b-configure-quotes.html"
+      - label: Configuration Summary
+        url: "/stores/b2b-configuration-settings.html"
   - label: Industry Compliance
     url: "/stores/compliance-industry.html"
     versionless: true
