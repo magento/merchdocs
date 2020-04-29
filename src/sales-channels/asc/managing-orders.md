@@ -36,6 +36,10 @@ There are a few scenarios that prevent the creation of the corresponding Magento
 |The item in the catalog is disabled. |Make sure the [product status]({% link catalog/inventory-product-stock-options.md %}) is enabled. |
 |The ordered item is out of stock. |Update or configure the [product options]({% link catalog/inventory-product-stock-options.md %}) for quantity and source. |
 
+When orders cannot be imported, a system message similar to the following will appear at the top of the screen:
+
+    `Your Amazon store(s) has orders that cannot be imported into Magento. See Recent Orders in the store dashboard(s): <store name>`
+
 When the issue is resolved, the Magento order is created on the next sync.
 
 ## With order import disabled
@@ -44,4 +48,4 @@ If you do not want to import and manage your your Amazon orders in Magento, you 
 
 When disabled, order information received from Amazon appears in the _Recent Orders_ section of the store dashboard and in the _All Orders_ view. This order information is view only, and you must manage these orders in Amazon Seller Central. Click the Amazon order number in the _Order Number_ column to open the order details in Amazon Seller Central. See [View Amazon Orders]({% link sales-channels/asc/amazon-orders-all.md %}).
 
-See also [Common Order Processing Tasks]({% link sales-channels/asc/common-order-processing.md %}).
+See also [View Amazon Orders]({% link sales-channels/asc/amazon-orders-all.md %}), [View Amazon Order Details]({% link sales-channels/asc/amazon-order-details.md %}), and [Common Order Processing Tasks]({% link sales-channels/asc/common-order-processing.md %}).

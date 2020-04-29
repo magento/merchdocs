@@ -12,11 +12,12 @@ Both options show you basic order information, as received from Amazon, includin
 - Status
 - Buyer's Name
 - Grand Total
+- Order Notes
 
 _All Orders_ view adds filtering options for order searches.
 
 {:.bs-callout .bs-callout-info}
-The _Amazon orders_ table is populated by information from Amazon. The table does not update with corresponding Magento order information, even when order import is enabled in [Order Settings]({% link sales-channels/asc/order-settings.md %}).
+With the exception of the _Order Notes_ column, the _Amazon orders_ table is populated with order information as received from Amazon. The _Order Notes_ column is updated by Magento as the order processes.
 
 ## View recent Amazon orders
 
@@ -54,7 +55,7 @@ _Amazon orders_
 
 1. To view order details, click the Amazon order number in the _Order Number_ column.
 
-   Depending on your order import setting, the order details will open in Amazon or in the Magento order workflow.
+   Depending on your order import setting, the order details will open in Amazon Seller Central or in the Magento order workflow.
 
 ### Default Columns
 
@@ -66,3 +67,4 @@ _Amazon orders_
 |Status|The status of the order, as received by Amazon. Options: Error / Pending / Shipped / Canceled / Completed / Unshipped / PartiallyShipped / PendingAvailability|
 |Buyer's Name|The name of the person who placed the order, as received from Amazon.|
 |Grand Total|The total currency value of the order, as received from Amazon.|
+|Order Notes|Most recent action recorded for the order as it processes in Magento. Information includes, but is not limited to, order import errors and order processing updates.<br/>**Note**: This field is updated by Magento as the order processes.|
