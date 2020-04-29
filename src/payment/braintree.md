@@ -11,20 +11,20 @@ Braintree offers a fully customizable checkout experience with fraud detection a
 ![Configure Braintree]({% link images/images/config-sales-payment-methods-braintree.png %}){: .zoom}
 _Configure Braintree_
 
-## Step 1: Get Your Braintree Credentials
+## Step 1: Get your Braintree credentials
 
 Go to [Braintree Payments][1] and sign up for an account.
 
-## Step 2: Complete the Basic Settings
+## Step 2: Complete the basic settings
 
-1. On the Admin sidebar, go to **Stores** > Settings > **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-2. In the panel on the left under **Sales**, choose **Payment Methods**.
+1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
    - If your Magento installation has multiple websites, stores or views, in the upper-left corner, choose the **Store View** where the configuration applies.
-   - In the **Merchant Location** section, verify that <b>Merchant Country </b>is set to the location of your business.
+   - In the _Merchant Location_ section, verify that **Merchant Country** is set to the location of your business.
 
-3. Under Recommended Solutions, in the **Braintree** section, click <span class="btn">Configure</span>. Then, do the following:
+1. Under Recommended Solutions, in the **Braintree** section, click <span class="btn">Configure</span> and do the following:
 
    ![Configure Braintree]({% link images/images/config-sales-payment-methods-braintree.png %}){: .zoom}
    _Configure Braintree_
@@ -36,8 +36,7 @@ Go to [Braintree Payments][1] and sign up for an account.
       - `Sandbox`
       - `Production`
 
-     When testing the configuration in a sandbox, use only [credit card numbers ][2]
-that are recommended by Braintree. When you are ready to go live with Braintree, set **Environment** to `Production`.
+     When testing the configuration in a sandbox, use only [credit card numbers ][2] that are recommended by Braintree. When you are ready to go live with Braintree, set **Environment** to `Production`.
 
    - Set **Payment Action** to one of the following:
 
@@ -63,11 +62,11 @@ that are recommended by Braintree. When you are ready to go live with Braintree,
      ![Basic Settings]({% link images/images/config-sales-payment-methods-braintree-basic-settings-part2.png %}){: .zoom}
      _Basic Settings_
 
-## Step 3: Complete the Advanced Settings
+## Step 3: Complete the advanced settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Advanced Braintree Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Advanced Braintree Settings** section.
 
-1. In the **Vault Title** field, enter a descriptive title for your reference that identifies the vault where your customer card information is stored.
+1. For **Vault Title**, enter a descriptive title for your reference that identifies the vault where your customer card information is stored.
 
 1. Enter the **Merchant ID** from your Braintree account.
 
@@ -81,14 +80,16 @@ that are recommended by Braintree. When you are ready to go live with Braintree,
 
    If using CVV verification, make sure to enable AVS and/or CVV in the Settings/Processing section of your Braintree account.
 
-1. In the **Credit Card Types** box, hold down the Ctrl key and select each credit card that is accepted by your store as payment through Braintree.
+1. For **Credit Card Types**, select each credit card that is accepted by your store as payment through Braintree.
 
-1. In the **Sort Order** field, enter a number to determine the sequence in which Braintree appears when listed with other payment methods during checkout.
+   To select multiple card types, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
+
+1. For **Sort Order**, enter a number to determine the sequence in which Braintree appears when listed with other payment methods during checkout.
 
    ![Advanced Settings]({% link images/images/config-sales-payment-methods-braintree-advanced.png %}){: .zoom}
    _Advanced Settings_
 
-## Step 4: Complete the Country Specific Settings
+## Step 4: Complete the country specific settings
 
 1. Set **Payment from Applicable Countries** to one of the following:
 
@@ -102,19 +103,19 @@ that are recommended by Braintree. When you are ready to go live with Braintree,
 
    - Click <span class="btn">Add</span>.
 
-   - Set the **Country**, and choose each **Allowed Credit Card Type**.
+   - Set the **Country** and choose each **Allowed Credit Card Type**.
 
    - Repeat to identify the credit cards that are accepted from each country.
 
-## Step 5: Complete the PayPal through Braintree Settings
+## Step 5: Complete the PayPal through Braintree settings
 
 1. Do the following to identify your PayPal through Braintree configuration:
 
    - Enter a **Title** to identify Braintree’s payment by PayPal option during checkout.
 
-   - In the **Vault Title** field, enter a descriptive title to identify the vault where your customer card information is to be stored.
+   - For **Vault Title**, enter a descriptive title to identify the vault where your customer card information is to be stored.
 
-   - In the **Sort Order** field, enter a number to determine the sequence in which Braintree’s PayPal payment option appears when listed with other payment options during checkout.
+   - For **Sort Order**, enter a number to determine the sequence in which Braintree’s PayPal payment option appears when listed with other payment options during checkout.
 
    - To display your [merchant name]({% link stores/store-information.md %}) differently than what is defined in your store configuration, enter the name as you want it to appear in the **Override Merchant Name** field.
 
@@ -146,13 +147,13 @@ that are recommended by Braintree. When you are ready to go live with Braintree,
    ![PayPal through Braintree Settings]({% link images/images/config-sales-payment-methods-braintree-paypal.png %}){: .zoom}
    _PayPal through Braintree Settings_
 
-## Step 6: Complete the 3D Verification Settings
+## Step 6: Complete the 3D verification settings
 
 1. If you want to add a verification step for customers using credit cards that are enrolled in a verification program such as “Verified by VISA,” set **3D Secure Verification** to `Yes`.
 
    During the process, the transaction amount that is submitted for verification is checked against the amount that is sent for authorization.
 
-1. In the **Threshold Amount** field, enter the minimum order amount that is required to trigger 3D verification.
+1. For **Threshold Amount**, enter the minimum order amount that is required to trigger 3D verification.
 
 1. Set **Verify for Applicable Countries** to one of the following:
 
@@ -162,7 +163,7 @@ that are recommended by Braintree. When you are ready to go live with Braintree,
    ![3D Verification Settings]({% link images/images/config-sales-payment-methods-braintree-3d-verification-settings.png %}){: .zoom}
    _3D Verification Settings_
 
-## **Step 7:** Dynamic Descriptors
+## **Step 7:** Dynamic descriptors
 
 The following descriptors are used to identify purchases on customer credit card statements. You can reduce the number of chargebacks by clearly identifying the company that is associated with each purchase. If Dynamic Descriptors are not enabled for your account, contact [Braintree support](mailto:support@getbraintree.com?subject=Support for Dynamic Descriptors).
 
@@ -172,7 +173,7 @@ The following descriptors are used to identify purchases on customer credit card
     | **Phone** | The Phone descriptor must be ten to fourteen characters in length, and can include only numbers, dashes, parentheses, and periods. For example:<br/> `9999999999`<br/> `(999) 999-9999`<br/> `999.999.9999`|
     | **URL** | The URL descriptor represents your domain name, and can be up to thirteen characters long. For example: <br/>`company.com` |
 
-1. When your Braintree configuration is complete, tap <span class="btn">Save Config</span>.
+1. When your Braintree configuration is complete, click <span class="btn">Save Config</span>.
 
 [1]: https://www.braintreepayments.com/
 [2]: https://developers.braintreepayments.com/reference/general/testing/php

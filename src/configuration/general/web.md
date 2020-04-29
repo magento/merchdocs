@@ -107,7 +107,6 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 |Validate HTTP_VIA|Global|Verifies incoming proxy data and checks that the proxy address of a request matches `$_SESSION` data. The session terminates if a different proxy address is detected. Options: Yes / No|
 |Validate HTTP_x_FORWARDED_FOR|Global|Verifies outgoing proxy data and checks that the forwarded-for address of a request matches  `$_SESSION` data. The session terminates if a different forwarded-for address is detected. Options: Yes / No|
 |Validate HTTP_USER_AGENT|Global|`USER_AGENT` refers to the browser or device that is used to access the website. It verifies that the name and version of the browser, and operating system, matches `$_SESSION` data. The session terminates if a different user agent is detected from one request to another in the same session. Options: Yes / No|
-|Use SID on Frontend|Website|The session ID (SID) is a unique code added to storefront URLs to ensure that each user is attached to the correct session data. The SID also makes it possible for customers to stay logged in when switching stores. If using analytics, you must configure the program to filter the SID from URLs in order to get an accurate page visit report. Options: Yes / No|
 
 ## Browser Capabilities Detection
 

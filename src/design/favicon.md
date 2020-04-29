@@ -10,19 +10,19 @@ Favicons are generally 16 x 16 pixels or 32 x 32 pixels in size. Magento accepts
 ![]({% link images/images/storefront-favicon.png %}){: .zoom}
 _Favicon in Address Bar_
 
-## Step 1: Create a Favicon
+## Step 1: Create a favicon
 
 1. Create a 16 x 16 or 32 x 32 graphic image of your logo, using the image editor of your choice.
 
 1. (Optional) Use one of the available online tools to convert the file to the .ico format. Then, save the file to your computer.
 
-## Step 2: Upload the Favicon to Your Store
+## Step 2: Upload the favicon to your store
 
 1. On the _Admin_ sidebar, go to **Content** > _Design_ > **Configuration**.
 
 1. In the grid, find the store view that you want to configure. Then, click **Edit** in the _Action_ column.
 
-1. Under **Other Settings**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **HTML Head** section. Then, do the following:
+1. Under **Other Settings**, expand ![]({% link images/images/btn-expand.png %}) the **HTML Head** section and do the following:
 
    ![]({% link images/images/design-configuration-html-head.png %}){: .zoom}
    _[HTML Head]({% link design/configuration.md %})_
@@ -36,15 +36,15 @@ _Favicon in Address Bar_
 
 1. When complete, click <span class="btn">Save Configuration</span>.
 
-## Step 3: Refresh the Cache
+## Step 3: Refresh the cache
 
 1. When prompted to refresh the cache, click the **Cache Management** link in the message at the top of the workspace.
 
-2. In the list, select the **Page Cache** checkbox that is marked `Invalidated`.
+1. In the list, select the **Page Cache** checkbox that is marked `Invalidated`.
 
-3. Set **Actions** to `Refresh`. Then, click <span class="btn">Submit</span>.
+1. Set **Actions** to `Refresh` and click <span class="btn">Submit</span>.
 
-4. To view the new favicon, return to your storefront and press **F5** to refresh the browser.
+1. To view the new favicon, return to your storefront and refresh the browser.
 
 |File format|Description|
 |--- |--- |
