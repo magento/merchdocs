@@ -23,7 +23,7 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 
    {:.bs-callout-info}
    **Important:** The value set for this minimum and maximum range must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set these values to `2` and `300` in Magento, update the corresponding values in your search engine.
-   
+
 1. To limit the amount of popular search results to cache for faster responses, set an amount for **Number of top search results to cache**.
 
    The default value is `100`. Entering a value of `0` caches all search terms and results when entered a second time.
@@ -71,7 +71,7 @@ _Elasticsearch Connection Settings_
 ## Step 3: Configure suggestions and recommendations
 
 {:.bs-callout-info}
-Search suggestions and recommendations can impact server performance. 
+Search suggestions and recommendations can impact server performance.
 
 1. To offer recommendations, set **Enable Search Recommendations** to `Yes` and do the following:
 
