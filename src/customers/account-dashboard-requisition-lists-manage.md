@@ -18,16 +18,16 @@ _My Requisition Lists_
 
 1. Do one of the following to select the products to be added.
 
-   -  Select the checkbox of each item
-   -  Click **Select All**.
+   - Select the checkbox of each item
+   - Click **Select All**.
 
 1. Enter the **Qty** to be added to the cart.
 
 1. To change any product options, do the following:
 
-   -  In the line item, click **Edit** (![]({% link images/images/btn-edit.png %}){: .Inline}).
-   -  Change any options that are necessary.
-   -  Click **Update Requisition List**.
+   - In the line item, click **Edit** (![]({% link images/images/btn-edit.png %})).
+   - Change any options that are necessary.
+   - Click **Update Requisition List**.
 
 1. Click <span class="btn">Add to Cart</span>.
 
@@ -40,8 +40,8 @@ _My Requisition Lists_
 
 1. Click **Copy Selected**. Then, do one of the following:
 
-   -  Choose an existing requisition list.
-   -  Click **Create New Requisition List**.
+   - Choose an existing requisition list.
+   - Click **Create New Requisition List**.
 
 ### Export list
 
@@ -57,8 +57,8 @@ Magento will generate and download a CSV list with `sku` and `qty` values.
 
 1. Click **Move Selected**. Then, do one of the following:
 
-   -  Choose an existing requisition list.
-   -  Click **Create New Requisition List**.
+   - Choose an existing requisition list.
+   - Click **Create New Requisition List**.
 
 ### Print the List
 

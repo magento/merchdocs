@@ -6,91 +6,93 @@ title: Shipping Experience Rules
 
 The following instructions describe how to create a **Qualify Rule**; however, the process is essentially the same for all shipping experience rules. You will describe the condition, choose an operator, and define the action to be taken. Follow these basic instructions to create any type of rule. Refer to the Field Descriptions table at the end of this topic for more information about different rule types and options.
 
-## To Create a Shipping Experience Rule
+## Create a shipping experience rule
 
-1.  In the _Admin_ sidebar, choose **Stores**.
+1. In the _Admin_ sidebar, go to **Stores** > _Shipping_ > **Experiences**.
 
-1.  In the _Shipping_ section, choose **Experiences**. The Magento Shipping Portal opens in a new tab.
+   The Magento Shipping Portal opens in a new tab.
 
-1.  Click **Create New Experience**. Then, do the following:
+1. Click **Create New Experience**.
 
     ![]({% link images/images/shipping-magento-shipping-experiences.png %}){: .zoom}
     _Shipping Experiences_
 
-1.  Enter a descriptive **Name** for the new rule.
+1. Enter a descriptive **Name** for the new rule.
 
-1.  For now, accept the default **Status** of `Draft`. When you are ready to _go live_ with the rule in your store, you can change Status to `Production`.
+1. For now, accept the default **Status** of `Draft`.
 
-    ![]({% link images/images/shipping-magento-shipping-experiences-new.png %}){: .zoom}
-    _Experience Name and Status_
+   When you are ready to _go live_ with the rule in your store, you can change Status to `Production`.
 
-1.  Choose the type of rule that you want to create.
+   ![]({% link images/images/shipping-magento-shipping-experiences-new.png %}){: .zoom}
+   _Experience Name and Status_
 
-    This example shows how to create a **Qualify Rule**. Notice the icon and note before each section is mapped to the corresponding step in the shipment workflow. You can also hover your mouse over the information (![]({% link images/images/magento-shipping-portai-i-icon.png %})) icon for more information.
+1. Choose the type of rule that you want to create.
 
-    -  In the rule section, click **Create Rule**.
+   This example shows how to create a **Qualify Rule**. Notice the icon and note before each section is mapped to the corresponding step in the shipment workflow. You can also hover your mouse over the information (![]({% link images/images/magento-shipping-portai-i-icon.png %})) icon for more information.
 
-       ![]({% link images/images/shipping-magento-shipping-experiences-qualify-rules.png %}){: .zoom}
-       _Create Rule_
+   - In the rule section, click **Create Rule**.
 
-    -  Enter a brief **Description** of the rule that states its purpose and the conditions that trigger the rule.
+      ![]({% link images/images/shipping-magento-shipping-experiences-qualify-rules.png %}){: .zoom}
+      _Create Rule_
 
-       ![]({% link images/images/shipping-magento-shipping-experiences-qualify-rule-description.png %}){: .zoom}
-       _Description_
+   - Enter a brief **Description** of the rule that states its purpose and the conditions that trigger the rule.
 
-    -  Set the Conditions for the rule:
-       - In the **Conditions** section, choose the **Condition** and **Operator** that must be met to trigger the rule. For a combination of conditions, set the first condition and operator and click **Add Condition**.
+      ![]({% link images/images/shipping-magento-shipping-experiences-qualify-rule-description.png %}){: .zoom}
+      _Description_
 
-          Think about conditions that are required to trigger the rule. For example, the condition might be “Country is China” or “Country is not China”. You can also combine multiple conditions, such as “Country is China or Hong Kong” or “Country is China and order items total weight is less than 50 pounds (lb)”.
+   - Set the Conditions for the rule:
 
-          ![]({% link images/images/shipping-magento-shipping-experiences-qualify-rule-conditions.png %}){: .zoom}
-          _Conditions_
+      - In the **Conditions** section, choose the **Condition** and **Operator** that must be met to trigger the rule. For a combination of conditions, set the first condition and operator and click **Add Condition**.
 
-       -  Choose the **Operator** that is needed to describe the condition. Then, do the following:
+         Think about conditions that are required to trigger the rule. For example, the condition might be “Country is China” or “Country is not China”. You can also combine multiple conditions, such as “Country is China or Hong Kong” or “Country is China and order items total weight is less than 50 pounds (lb)”.
 
-          ![]({% link images/images/shipping-magento-shipping-experiences-condition-operator.png %}){: .zoom}
-          _Choose an Operator_
+         ![]({% link images/images/shipping-magento-shipping-experiences-qualify-rule-conditions.png %}){: .zoom}
+         _Conditions_
 
-       -  Complete the condition by entering appropriate values in the remaining field(s).
+      - Choose the **Operator** that is needed to describe the condition. Then, do the following:
 
-          ![]({% link images/images/shipping-magento-shipping-experiences-condition-operator-country.png %}){: .zoom}
-          _Complete the Condition_
+         ![]({% link images/images/shipping-magento-shipping-experiences-condition-operator.png %}){: .zoom}
+         _Choose an Operator_
 
-       -  To add another condition, click **Add Condition**. Then, choose the logical operator that describes how the conditions are to be applied.
+      - Complete the condition by entering appropriate values in the remaining field(s).
 
-          -  **AND** – Triggers the rule when both the previous condition and the new condition are met.
+         ![]({% link images/images/shipping-magento-shipping-experiences-condition-operator-country.png %}){: .zoom}
+         _Complete the Condition_
 
-          -  **OR** – Triggers the rule when either the previous condition, or the new condition is met.
+      - To add another condition, click **Add Condition**. Then, choose the logical operator that describes how the conditions are to be applied.
 
-          ![]({% link images/images/shipping-magento-shipping-experiences-condition-multiple.png %}){: .zoom}
-          _Add Another Condition_
+         |**AND**|Triggers the rule when both the previous condition and the new condition are met.|
+         |**OR**|Triggers the rule when either the previous condition, or the new condition is met.|
 
-       -  Repeat the previous steps to complete the new condition.
+         ![]({% link images/images/shipping-magento-shipping-experiences-condition-multiple.png %}){: .zoom}
+         _Add Another Condition_
 
-          ![]({% link images/images/shipping-magento-shipping-experiences-condition-multiple-complete.png %}){: .zoom}
-          _Completed Condition_
+      - Repeat the previous steps to complete the new condition.
 
-    -  Set the Outcome for the rule:
+         ![]({% link images/images/shipping-magento-shipping-experiences-condition-multiple-complete.png %}){: .zoom}
+         _Completed Condition_
 
-       -  In the **Outcomes** section, choose the **Action** that applies when the conditions are met.
+   - Set the Outcome for the rule:
 
-       -  Enter the **Shipping Method Label** that appears during checkout.
+      - In the **Outcomes** section, choose the **Action** that applies when the conditions are met.
 
-       -  Choose the **Currency** to be used to display the shipping charge.
+      - Enter the **Shipping Method Label** that appears during checkout.
 
-       -  To add an additional action, click **Add Outcome**.
+      - Choose the **Currency** to be used to display the shipping charge.
 
-          ![]({% link images/images/shipping-magento-shipping-experiences-qualification-outcomes.png %}){: .zoom}
-          _Outcomes_
+      - To add an additional action, click **Add Outcome**.
 
-    -  Click **Save**.
+         ![]({% link images/images/shipping-magento-shipping-experiences-qualification-outcomes.png %}){: .zoom}
+         _Outcomes_
 
-       The description of the new rule appears in the list of Qualify Rules.
+   - Click **Save**.
 
-       ![]({% link images/images/shipping-magento-shipping-experiences-qualification-rules.png %}){: .zoom}
-       _Qualify Rules_
+      The description of the new rule appears in the list of Qualify Rules.
 
-1.  Click **Finish** to save the rule and exit.
+      ![]({% link images/images/shipping-magento-shipping-experiences-qualification-rules.png %}){: .zoom}
+      _Qualify Rules_
+
+1. Click **Finish** to save the rule and exit.
 
 ## Field Descriptions
 

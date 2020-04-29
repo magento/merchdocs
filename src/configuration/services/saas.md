@@ -23,9 +23,9 @@ When you create a [Magento account]({% link magento/magento-account.md %}), iden
 
 Each MageID can have one SaaS project and within that SaaS project you can have one or more SaaS environments depending on whether or not you have a Magento license:
 
--  **Magento Commerce** - One production environment; two testing environments
+- **Magento Commerce** - One production environment; two testing environments
 
--  **Magento Open Source** - One production environment; no testing environments
+- **Magento Open Source** - One production environment; no testing environments
 
 {:.bs-callout-info}
 SaaS projects and environments are separate but analogous concepts to Magento Cloud projects and environments.

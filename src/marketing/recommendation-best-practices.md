@@ -10,13 +10,13 @@ This section includes best practices using recommendations on your storefront.
 
 Magento recommends the following guidelines when using recommendations:
 
--  Diversify your recommendation types. Customers start ignoring recommendations if they suggest the same products over and over again.
+- Diversify your recommendation types. Customers start ignoring recommendations if they suggest the same products over and over again.
 
--  Do not deploy the same recommendations to your cart page and order confirmation page. Consider using `Most Added to Cart` for the cart page and `Bought This, Bought That` for the order confirmation page.
+- Do not deploy the same recommendations to your cart page and order confirmation page. Consider using `Most Added to Cart` for the cart page and `Bought This, Bought That` for the order confirmation page.
 
--  Keep your site tidy. Do not deploy more than three recommendation units on same page.
+- Keep your site tidy. Do not deploy more than three recommendation units on same page.
 
--  If your store sells clothing, the `More like this` recommendation can suggest gender-specific items that do not match the gender of the product being viewed. Consider only using this recommendation type for non-clothing categories.
+- If your store sells clothing, the `More like this` recommendation can suggest gender-specific items that do not match the gender of the product being viewed. Consider only using this recommendation type for non-clothing categories.
 
 ## Usage
 
@@ -34,9 +34,9 @@ Remember that experimentation is key. Try the above, track metrics, then adjust 
 
 Metrics are a powerful tool to help you track the success of a recommendation. The following best practices illustrate how you can use metrics to create actionable insights:
 
--  **Viewability %** - This metric measures how frequently a rendered recommendation unit is viewed. If viewability is low but click through rate is high, consider moving the recommendation higher up on the page to make it more viewable.
+- **Viewability %** - This metric measures how frequently a rendered recommendation unit is viewed. If viewability is low but click through rate is high, consider moving the recommendation higher up on the page to make it more viewable.
 
--  **Click-through-rate (CTR) %** - This metric measures how frequently items within the recommendation unit are clicked. If a recommendation unit has a low click-through rate compared to other recommendation units, consider deploying different recommendations or moving the recommendation higher up on the page.
+- **Click-through-rate (CTR) %** - This metric measures how frequently items within the recommendation unit are clicked. If a recommendation unit has a low click-through rate compared to other recommendation units, consider deploying different recommendations or moving the recommendation higher up on the page.
 
 ## Labels {#bplabels}
 
