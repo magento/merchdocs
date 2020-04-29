@@ -180,7 +180,8 @@ _[Price]({% link catalog/catalog-price-scope.md %})_
 
 Magento supports several versions of Elasticsearch.
 
-![]({% link images/images/config-catalog-catalog-search-elasticsearch.png %}){: .zoom} [Catalog Search]({% link catalog/search-configuration.md %}) (including 6.0+)
+![]({% link images/images/config-catalog-catalog-search-elasticsearch.png %}){: .zoom}
+[Catalog Search]({% link catalog/search-configuration.md %}) (including 6.0+)
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
