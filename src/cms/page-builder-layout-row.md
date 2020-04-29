@@ -107,7 +107,7 @@ _No Color_
 
 1. To use a different background image for mobile devices, repeat these steps to specify the **Background Mobile Image** that you want to use.
 
-### Background Size and Position
+#### Background size and position
 
 1. Set the **Background Size** to one of the following:
 
@@ -128,35 +128,36 @@ _No Color_
 
 1. Set **Background Attachment** to one of the following:
 
-   **Background Video**
+   | Scroll|The attached background image moves as the page scrolls.|
+   | Fixed (Desktop only)|The attached background image is set to a fixed position.|
 
-   To apply a background video to the row, do the following:
+1. To control the speed of a scrolling background image, expand the **Parallax Background** section and set **Enable Parallax Background** to `Yes`. Then, enter the **Parallax Speed** as a decimal value between `-1.0` and `2.0`.
 
-   - In the **Video URL** field, enter a valid video URL. Valid video URLs can be:
+1. To repeat the background image as a tiled background, set **Background Repeat** to `Yes`.
 
-      - links to YouTube videos: `https://youtu.be/CoDhMRUUjeI`
-      - links to Vimeo videos: `https://vimeo.com/190156113`
-      - links to valid video files (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`
+    ![]({% link images/images-ee/page-builder-settings-parallax-background.png %}){: .zoom}
+    _Parallax Background_
 
-      ![]({% link images/images-ee/page-builder-video-url.png %}){: .zoom}
-      _Background Video URL_
+### Background video
 
-   - Apply additional settings as follows:
+To apply a background video to the row, do the following:
 
-      - Select an **Overlay Color** to apply a transparent tint to the video.
-      - Change **Infinite Loop**, **Lazy Load**, and **Play Only When Visible** settings as needed. By default, all these settings are set to `Yes`.
-      - Add a **Fallback Image** to display on the screen before a video loads and in the event that the video does not load for some reason.
+1. In the **Video URL** field, enter a valid video URL. Valid video URLs can be:
 
-    For example, you might set Minimum Height to match the height of a background image to ensure that the full image is visible.
+   - links to YouTube videos: `https://youtu.be/CoDhMRUUjeI`
+   - links to Vimeo videos: `https://vimeo.com/190156113`
+   - links to valid video files (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`
 
-1. Choose one of the following **Vertical Alignment** settings to align any content containers that are added to the row:
+     ![]({% link images/images-ee/page-builder-video-url.png %}){: .zoom}
+     _Background Video URL_
 
-   - `Top`
-   - `Center`
-   - `Bottom`
+1. Apply additional settings as follows:
 
-    ![]({% link images/images-ee/page-builder-row-layout.png %}){: .zoom}
-    _Layout Settings_
+   - Select an **Overlay Color** to apply a transparent tint to the video.
+   - Change **Infinite Loop**, **Lazy Load**, and **Play Only When Visible** settings as needed. By default, all these settings are set to `Yes`.
+   - Add a **Fallback Image** to display on the screen before a video loads and in the event that the video does not load for some reason.
+
+     For example, you might set Minimum Height to match the height of a background image to ensure that the full image is visible.
 
 ### Advanced
 

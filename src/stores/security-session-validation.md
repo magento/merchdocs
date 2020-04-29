@@ -31,10 +31,6 @@ Enabling all of the validation variables can help prevent attacks, but might als
 
     - **Validate HTTP_USER_AGENT** — Set to `Yes` to verify that the browser or device that is used to access the store during a session matches what is stored in the `$_SESSION` variable.
 
-    - **Use SID on Frontend** — Set to `Yes` if you want a user to stay logged in while switching between stores.
-
-        If you are including SID (session ID) with analytics, you must configure your analytics software to filter the SID from URLs so the page visit counts are correct.
-
 1. When complete, click <span class="btn">Save Config</span>.
 
 [1]: http://devdocs.magento.com/guides/v2.3/config-guide/redis/redis-session.html
