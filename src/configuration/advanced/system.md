@@ -35,10 +35,10 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Failure History Lifetime|Store View|Determines the number of minutes that the record of failed cron jobs are kept in the database.|
 |Use Separate Process|Store View|Determines if cron jobs are executed in parallel as separate processes. Options: Yes / No|
 
-<!--{% if "Default.EE Only" contains site.edition %}-->
 ## MySQL Message Queue Cleanup
 
 ![]({% link images/images/config-advanced-system-mysql-message-queue-cleanup.png %}){: .zoom}
+_MySQL Message Queue Cleanup_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -47,7 +47,6 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Failed Messages Lifetime|Global|Determines the lifetime of failed messages in minutes. Enter zero to skip the cleanup. Default: 10080 (7 days)|
 |Retry Messages in Progress After|Global|Determines how long the system waits for a message in progress before retrying. Default: 1440 (24 hours)|
 
-<!--{% endif %}-->
 ## Mail Sending Settings
 
 ![]({% link images/images/config-advanced-system-mail-sending-settings.png %}){: .zoom}
