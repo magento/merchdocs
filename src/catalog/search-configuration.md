@@ -16,6 +16,9 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the _Catalog Search_ section.
 
+   ![]({% link images/images/config-catalog-catalog-search-elasticsearch-1.png %}){: .zoom}
+   _Elasticsearch Settings_
+
 1. To limit the length and word count of search query text, set a value for **Minimal Query Length** and **Maximum Query Length**.
 
    {:.bs-callout-info}
@@ -47,13 +50,15 @@ _Elasticsearch Connection Settings_
 
 1. Enter the **Elasticsearch Server Hostname**.
 
-   The default is `localhost`.
+   The default value is `localhost`.
 
 1. Enter the **Elasticsearch Server Port**.
 
+   The default value is `9200`.
+
 1. For **Elasticsearch Index Prefix**, enter a prefix to identify the Elasticsearch index.
 
-   Example: `Magento2`.
+   The default value is `magento2`.
 
 1. To use HTTP authentication to prompt for a username and password to access Elasticsearch Server, set **Enable Elasticsearch HTTP Auth** to `Yes`.
 
@@ -68,6 +73,12 @@ _Elasticsearch Connection Settings_
 {:.bs-callout-info}
 Search suggestions and recommendations can impact server performance. 
 
+1. To offer recommendations, set **Enable Search Recommendations** to `Yes` and do the following:
+
+   - For **Search Recommendation Count**, enter the number of recommendations to offer.
+
+   - To show the number of results found for each recommendation, set **Show Results Count for Each Recommendation** to `Yes`.
+
 1. Set **Enable Search Suggestions** to `Yes` and do the following:
 
    ![]({% link images/images/config-catalog-catalog-search-elasticsearch-3.png %}){: .zoom}
@@ -76,12 +87,6 @@ Search suggestions and recommendations can impact server performance.
    - For **Search Suggestions Count**, enter the number of search suggestions to offer.
 
    - To show the number of results found for each suggestion, set **Show Results for Each Suggestion** to `Yes`.
-
-1. To offer recommendations, set **Enable Search Recommendations** to `Yes` and do the following:
-
-   - For **Search Recommendation Count**, enter the number of recommendations to offer.
-
-   - To show the number of results found for each recommendation, set **Show Results Count for Each Recommendation** to `Yes`.
 
 ## Step 4: Configure Minimum Terms to Match
 
