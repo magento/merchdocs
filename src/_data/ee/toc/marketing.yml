@@ -126,6 +126,90 @@ pages:
         url: "/sales-channels/asc/sales-channel-settings.html"
       - label: Amazon Store Dashboard
         url: "/sales-channels/asc/amazon-store-dashboard.html"
+      - label: Manage Store Settings
+        url: "/sales-channels/asc/ob-store-review.html" 
+        children:
+        - label: Listing Settings
+          url: "/sales-channels/asc/listing-settings.html"
+          children:
+          - label: Product Listing Actions
+            url: "/sales-channels/asc/product-listing-actions.html"
+          - label: Third Party Listings
+            url: "/sales-channels/asc/third-party-listing-settings.html"
+          - label: Listing Price
+            url: "/sales-channels/asc/listing-price.html"
+          - label: "(B2B) Business Pricing"
+            url: "/sales-channels/asc/business-pricing.html"
+          - label: Stock/Quantity
+            url: "/sales-channels/asc/stock-quantity.html"
+          - label: Fulfilled By
+            url: "/sales-channels/asc/fulfilled-by.html"
+          - label: Catalog Search
+            url: "/sales-channels/asc/catalog-search.html"
+          - label: Product Listing Condition
+            url: "/sales-channels/asc/product-listing-condition.html"
+            children:
+            - label: Renewed Products
+              url: "/sales-channels/asc/renewed-products.html"
+        - label: Order Settings
+          url: "/sales-channels/asc/order-settings.html"
+        - label: Listing Rules
+          url: "/sales-channels/asc/listing-rules.html"
+          children:
+          - label: Listing Rule Preview
+            url: "/sales-channels/asc/listing-rule-preview.html"
+        - label: Pricing Rules
+          url: "/sales-channels/asc/pricing-products.html"
+          children:
+          - label: Add New Pricing Rule
+            url: "/sales-channels/asc/add-pricing-rule.html"
+          - label: Price Rule General Settings
+            url: "/sales-channels/asc/pricing-rule-general-settings.html"
+          - label: Price Rule Conditions
+            url: "/sales-channels/asc/pricing-rule-conditions.html"
+          - label: Price Rule Actions
+            url: "/sales-channels/asc/pricing-rule-actions.html"
+            children:
+            - label: Standard Price Rule
+              url: "/sales-channels/asc/standard-price-rules.html"
+            - label: Intelligent Repricing Rule
+              url: "/sales-channels/asc/intelligent-repricing-rules.html"
+              children:
+              - label: Competitor Conditional Variances
+                url: "/sales-channels/asc/competitor-conditional-variances.html"
+              - label: Price Adjustment
+                url: "/sales-channels/asc/price-adjustment.html"
+              - label: Floor Price
+                url: "/sales-channels/asc/floor-price.html"
+              - label: Optional Ceiling Price
+                url: "/sales-channels/asc/optional-ceiling-price.html"
+              - label: Price Rule Examples
+                url: "/sales-channels/asc/price-rule-examples.html"
+              - label: Price Scope
+                url: "/sales-channels/asc/price-scope.html"
+                children:
+                - label: Price Priority Logic
+                  url: "/sales-channels/asc/price-priority-logic.html"
+                - label: Buy Box Competitor Pricing
+                  url: "/sales-channels/asc/buy-box-competitor-pricing.html"
+                - label: Lowest Competitor Pricing
+                  url: "/sales-channels/asc/lowest-competitor-pricing.html"
+        - label: Store Reports
+          url: "/sales-channels/asc/amazon-logs-reports.html"
+          children:
+          - label: Competitive Price Analysis
+            url: "/sales-channels/asc/competitive-price-analysis.html"
+          - label: Listing Improvements
+            url: "/sales-channels/asc/listing-improvements.html"
+        - label: Logs
+          url: "/sales-channels/asc/listing-changes-log.html"
+          children:
+          - label: Listing Changes Log
+            url: "/sales-channels/asc/listing-changes-log.html"
+          - label: Communication Errors Log
+            url: "/sales-channels/asc/communication-errors-log.html"
+        - label: Store Integration Settings
+          url: "/sales-channels/asc/store-integration-settings.html"
       - label: Manage Listings
         url: "/sales-channels/asc/managing-product-listings.html"
         children:
@@ -603,6 +687,8 @@ pages:
           url: "/marketing/engagement-cloud-account-api-users.html"
         - label: Transactional Email Users
           url: "/marketing/engagement-cloud-account-transactional-email-users.html"
+      - label: Data Mapping
+        url: "/marketing/engagement-cloud-data-mapping.html"
     - label: Chat
       url: "/marketing/engagement-cloud-chat.html"
     - label: Create a Campaign

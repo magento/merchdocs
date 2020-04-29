@@ -148,6 +148,9 @@ pages:
             url: "/sales-channels/asc/catalog-search.html"
           - label: Product Listing Condition
             url: "/sales-channels/asc/product-listing-condition.html"
+            children:
+            - label: Renewed Products
+              url: "/sales-channels/asc/renewed-products.html"
         - label: Order Settings
           url: "/sales-channels/asc/order-settings.html"
         - label: Listing Rules
@@ -191,22 +194,22 @@ pages:
                   url: "/sales-channels/asc/buy-box-competitor-pricing.html"
                 - label: Lowest Competitor Pricing
                   url: "/sales-channels/asc/lowest-competitor-pricing.html"
-            - label: Store Reports
-              url: "/sales-channels/asc/amazon-logs-reports.html"
-              children:
-              - label: Competitive Price Analysis
-                url: "/sales-channels/asc/competitive-price-analysis.html"
-              - label: Listing Improvements
-                url: "/sales-channels/asc/listing-improvements.html"
-            - label: Logs
-              url: "/sales-channels/asc/listing-changes-log.html"
-              children:
-              - label: Listing Changes Log
-                url: "/sales-channels/asc/listing-changes-log.html"
-              - label: Communication Errors Log
-                url: "/sales-channels/asc/communication-errors-log.html"
-            - label: Store Integration Settings
-              url: "/sales-channels/asc/store-integration-settings.html"
+        - label: Store Reports
+          url: "/sales-channels/asc/amazon-logs-reports.html"
+          children:
+          - label: Competitive Price Analysis
+            url: "/sales-channels/asc/competitive-price-analysis.html"
+          - label: Listing Improvements
+            url: "/sales-channels/asc/listing-improvements.html"
+        - label: Logs
+          url: "/sales-channels/asc/listing-changes-log.html"
+          children:
+          - label: Listing Changes Log
+            url: "/sales-channels/asc/listing-changes-log.html"
+          - label: Communication Errors Log
+            url: "/sales-channels/asc/communication-errors-log.html"
+        - label: Store Integration Settings
+          url: "/sales-channels/asc/store-integration-settings.html"
       - label: Manage Listings
         url: "/sales-channels/asc/managing-product-listings.html"
         children:
@@ -673,6 +676,8 @@ pages:
           url: "/marketing/engagement-cloud-account-api-users.html"
         - label: Transactional Email Users
           url: "/marketing/engagement-cloud-account-transactional-email-users.html"
+      - label: Data Mapping
+        url: "/marketing/engagement-cloud-data-mapping.html"
     - label: Chat
       url: "/marketing/engagement-cloud-chat.html"
     - label: Create a Campaign
