@@ -104,8 +104,8 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Product Attribute Reference]({% link system/data-attributes-product.md %})|Added information for the `save_rewrites_history` field.|
 |[Import/Export Tax Rates]({% link system/data-transfer-tax-rates.md %}) |Updates for Avalara partner references and added Vertex and partner note for automating their tax system.|
 |[Allow Reorders]({% link sales/reorders-allow.md %}) |Added criteria for reorder functionality to be available for an order.|
-|[Elasticsearch]({% link catalog/search-elasticsearch.md %}) <br/>[Catalog]({% link configuration/catalog/catalog.md %}) (reference) |Corrections and updated to reflect current information about Elasticsearch version.|
-|[Store URLs]({% link stores/store-urls.md %}) <br/>[Web]({% link configuration/general/web.md %}) (reference)|Added field descriptions and instructions for Base URLs (Secure) configuration.|
+|Elasticsearch [Catalog]({% link configuration/catalog/catalog.md %}) (configuration reference) |Corrections and updated to reflect current information about Elasticsearch version.|
+|[Store URLs]({% link stores/store-urls.md %}) <br/>[Web]({% link configuration/general/web.md %}) (configuration reference)|Added field descriptions and instructions for Base URLs (Secure) configuration.|
 |[Tier Price]({% link catalog/product-price-tier.md %}) |Added clarification that tier prices are calculated on top of `Price` field and not using _Special price_.|
 |[Processing an Order]({% link sales/order-processing.md %}) <br/>[Updating an Order]({% link sales/order-update.md %}) |Added some clarification around pending, processing, and completed orders.|
 |[Create a Cart Price Rule]({% link marketing/price-rules-cart-create.md %}) |Added text for accepting your category selections and updated images for quantity and category selections. Updated information about Priority and Discard Subsequent Rules settings.|
@@ -158,8 +158,8 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Role Resources]({% link system/permissions-role-resources.md %}) <br/>[Updating a Company Profile]({% link customers/account-company-update.md %}) <br/>[Configuring Quotes]({% link stores/b2b-configure-quotes.md %}) <br/>[Customers]({% link configuration/customers.md %}) (reference)|Updated content for improved access control support for B2B features.|
 |[Managing Requisition Lists]({% link customers/account-dashboard-requisition-lists-manage.md %}) <br/>[Customers]({% link configuration/customers.md %})|Added information for exporting requisition lists.|<!--{% endif %}-->
 |[Developer]({% link configuration/advanced/developer.md %})|Added content for the Cache User Defined Attributes field.|
-|[Elasticsearch]({% link catalog/search-elasticsearch.md %}) <br/>[Catalog]({% link configuration/catalog/catalog.md %}) (reference)|Added content to describe usage of the new `Minimum terms to match` field.|
-|[Engagement Cloud]({% link marketing/engagement-cloud.md %})<br />[Setting Up Engagement Cloud]({% link marketing/engagement-cloud-setup.md %})<br />[Email Template]({% link configuration/engagement-cloud/email-templates.md %}) (reference)<br />[Developer]({% link configuration/engagement-cloud/developer.md %}) (reference)|Updated content for release features and fixes, including the new Chat feature.|
+|Elasticsearch [Catalog]({% link configuration/catalog/catalog.md %}) (configuration reference)|Added content to describe usage of the new `Minimum terms to match` field.|
+|[Engagement Cloud]({% link marketing/engagement-cloud.md %})<br />[Setting Up Engagement Cloud]({% link marketing/engagement-cloud-setup.md %})<br />[Email Template]({% link configuration/engagement-cloud/email-templates.md %}) (configuration reference)<br />[Developer]({% link configuration/engagement-cloud/developer.md %}) (configuration reference)|Updated content for release features and fixes, including the new Chat feature.|
 |[Vertex Cloud]({% link tax/vertex.md %})|Updated content for release features and fixes.|
 |[Klarna]({% link payment/klarna.md %}) <br/>[Setting Up Klarna]({% link payment/klarna-setup.md %}) <br/>[Klarna]({% link configuration/sales/klarna.md %}) (reference)|Updated content for the new configuration field to Klarna Payments.|
 |[Yotpo Product Reviews]({% link marketing/yotpo-reviews-intro.md %}) <br/>[Review Reports]({% link reports/review-reports.md %}) <br/>[Business Intelligence Tools]({% link reports/business-intelligence.md %}) |Updates for Yotpo Product Reviews, including connections to **Yotpo Reviews** and **Yotpo Analytics** links in the Admin > Reports section.|
@@ -454,7 +454,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Customer Configuration]({% link configuration/customers/customer-configuration.md %}) (reference)|In the Create New Account Options section, corrected the field description for Generate Human-Friendly Customer ID.|
 |[Google reCAPTCHA]({% link stores/security-google-recaptcha.md %})|Added entry for Payflow Pro for Google reCAPTCHA during checkout. This option is available in v2.3.2.<br>To add this option for v2.3.0 and 2.3.1, see Magento Support KB [PayPal Payflow Pro active carding activity](https://support.magento.com/hc/en-us/articles/360025515991).|
 |[CAPTCHA]({% link stores/security-captcha.md %})|Added entry for Payflow Pro for CAPTCHA during checkout. This option is available in v2.3.2.<br>To add this option for v2.3.0 and 2.3.1, see Magento Support KB [PayPal Payflow Pro active carding activity](https://support.magento.com/hc/en-us/articles/360025515991).|
-|[Elasticsearch]({% link catalog/search-elasticsearch.md %})|Updated for Elasticsearch 6.x support. Elasticsearch 5.x and 2.x are deprecated.|
+|Elasticsearch|Updated for Elasticsearch 6.x support. Elasticsearch 5.x and 2.x are deprecated.|
 |[Filterable Attributes]({% link catalog/navigation-layered-filterable-attributes.md %})|Note added to Use in Layered Navigation option to better detail how it affects price filtering in the storefront. Updated screenshots.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
 |[Action Logs]({% link system/action-log.md %})|Updated content for configuring and using Action Logs.|
 |[Action Log Report]({% link system/action-log-report.md %})|Updated content, added instructions for filtering and exporting.|<!--{% endif %}-->
@@ -540,10 +540,10 @@ Our documentation is continually updated with new topics, clarifications, and co
 {: .topics-table }
 |Topic |Change |
 |--- |--- |
-|[Catalog]({% link configuration/catalog/catalog.md %}) (reference)|Updated and added fields and screenshots for Catalog Search options.|
-|[MySQL]({% link catalog/search-mysql.md %})|Updated information and added features for configuring MySQL as a search engine.|
-|[Elasticsearch]({% link catalog/search-elasticsearch.md %})|Updated information and added features for configuring Elasticsearch and Elasticsearch 5.0+ as a search engine.|
-|[Content Management]({% link configuration/general/content-management.md %}) (reference)|Added option descriptions.|
+|[Catalog]({% link configuration/catalog/catalog.md %}) (configuration reference)|Updated and added fields and screenshots for Catalog Search options.|
+|MySQL|Updated information and added features for configuring MySQL as a search engine.|
+|Elasticsearch|Updated information and added features for configuring Elasticsearch and Elasticsearch 5.0+ as a search engine.|
+|[Content Management]({% link configuration/general/content-management.md %}) (configuration reference)|Added option descriptions.|
 |[Catalog]({% link configuration/catalog/catalog.md %})|Allow Dynamic Media URLs in Products and Categories has been removed, and combined with Allow Dynamic Media URLs configuration setting. Updated screenshot.|
 |[Dynamic Media URLs]({% link catalog/catalog-urls-dynamic-media.md %})|Updated instructions for using dynamic URLs for media.|
 |[Content Management]({% link configuration/general/content-management.md %}) (reference)|Added option for newly supported TinyMCE 4 editor for CMS content in WYSIWYG options.|
