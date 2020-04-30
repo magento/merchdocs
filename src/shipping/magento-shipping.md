@@ -2,6 +2,8 @@
 title: Magento Shipping
 ---
 
+{% include shipping-status-note.md %}
+
 Magento Shipping is a multi-carrier shipping and fulfillment solution that combines intelligent automation capabilities, access to global carrier networks, and seamless integration with the Magento Admin. Our technology partner, Temando, provides the engine that powers this technology to deliver the following benefits:
 
 - Provides accelerated revenue growth, and boost business efficiency.
@@ -11,8 +13,6 @@ Magento Shipping is a multi-carrier shipping and fulfillment solution that combi
 - Automatically checks for conflicts with extensions during setup to help avoid issues during development and testing.
 
 - Simplifies ongoing maintenance by automatically including new carriers and features without having to update.
-
-{% include shipping-status-note.md %}
 
 ## Changes in the Latest Release
 

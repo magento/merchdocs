@@ -2,6 +2,8 @@
 title: Shipping Experiences
 ---
 
+{% include shipping-status-note.md %}
+
 Use the Shipping Experiences option in the Magento Shipping Portal menu to create rules that automate the shipping process. Each shipping experience rule is associated with a specific step in the shipment workflow. Shipping experiences are managed in the Magento Shipping Portal, but can be accessed in the Magento Admin (**Stores** > _Shipping_ > **Experiences**).
 
 Most shipping experience rules are dependent on the configuration for your [Locations]({% link shipping/magento-shipping-locations.md %}), [Carriers]({% link shipping/magento-shipping-carriers.md %}), and [Packaging]({% link shipping/magento-shipping-packaging.md %}) shipping profiles, you should complete the basic setup for each before creating a shipping experience rule.

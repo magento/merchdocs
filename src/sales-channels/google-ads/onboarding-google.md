@@ -3,8 +3,6 @@ title: Onboarding Google Shopping ads Channel
 tag: google-shopping
 ---
 
-
-
 {:.bs-callout-info}
 Beginning with Magento version 2.3.3, Google Shopping ads Channel is included with Magento and does not require separate install. Onboarding and management processes remain the same. Merchants using previous Magento versions (2.2.4+, 2.3.0, 2.3.1, and 2.3.2) can install or update a previous version of the extension via the [Magento Marketplace](https://marketplace.magento.com/magento-google-shopping-ads.html).
 

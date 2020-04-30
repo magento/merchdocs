@@ -10,19 +10,19 @@ The checkbox to the right of many configuration settings can be used to either a
 ![]({% link images/images/store-view-control.png %}){: .zoom}
 _Default Config with "Use System Value" Checkboxes_
 
-## To set the configuration scope
+## Set the configuration scope
 
 Before making a configuration setting that applies only to a specific website, store, or store view, do the following:
 
-1. On the Admin sidebar, do one of the following:
+1. On the _Admin_ sidebar, do one of the following:
 
-   - For most configuration settings, tap **Stores**. Then under **Settings**, choose **Configuration**.
+   - For most configuration settings, go to **Stores** > _Settings_ > **Configuration**.
 
-   - For [design-related settings]({% link design/configuration.md %}), tap **Content**. Under **Design**, choose **Configuration**. Then in the grid, choose the applicable store view.
+   - For [design-related settings]({% link design/configuration.md %}), go to **Content** > _Design_ > **Configuration**. Then in the grid, choose the applicable store view.
 
-2. Navigate to the configuration setting to be changed. Then, do the following:
+1. Navigate to the configuration setting to be changed and do the following:
 
-   - In the upper-left corner, set **Store View** to the specific view where the configuration applies. When prompted to confirm scope switching, tap <span class="btn"> OK</span> .
+   - In the upper-left corner, set **Store View** to the specific view where the configuration applies. When prompted to confirm scope switching, click <span class="btn">OK</span>.
 
       A checkbox appears after each field, and additional fields might become available.
 
@@ -30,12 +30,12 @@ Before making a configuration setting that applies only to a specific website, s
 
    - Repeat this process for every field that needs to be updated on the page.
 
-3. When complete, tap <span class="btn"> Save Config </span>.
+1. When complete, click <span class="btn">Save Config</span>.
 
    ![]({% link images/images/store-view-french.png %}){: .zoom}
    _Setting the Locale of the French Store View_
 
-## Store Hierarchy
+## Store hierarchy
 
 |Level|Description|
 |--- |--- |
@@ -45,10 +45,10 @@ Before making a configuration setting that applies only to a specific website, s
 |Default Store View|The name of the default store view that is associated with the parent store.|
 |Stores Configuration|Jumps to the Stores grid, and is the same as choosing Stores > All Stores from the Admin sidebar.|
 
-## Default Value Options
+## Default value options
 
 |Checkbox|Description|
 |--- |--- |
-|Use system value|The “Use system value” checkbox appears when the configuration scope is set to “Default Config”.|
-|Use Default|The “Use Default” checkbox appears when the configuration scope is set to “Main Website”, and refers to the default store that is assigned to the website.|
-|Use Website|The “Use Website” checkbox appears when the configuration scope set to a specific store view. When marked, it uses the setting from the parent website  that is associated with the store view. In this case, the store level is skipped because it is understood to apply to the default store that is associated with the website.|
+|Use system value|This checkbox appears when the configuration scope is set to `Default Config`.|
+|Use Default|This checkbox appears when the configuration scope is set to Main `Website`, and refers to the default store that is assigned to the website.|
+|Use Website|This checkbox appears when the configuration scope set to a specific store view. When selected, it uses the setting from the parent website that is associated with the store view. In this case, the store level is skipped because it is understood to apply to the default store that is associated with the website.|

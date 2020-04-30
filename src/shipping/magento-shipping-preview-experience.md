@@ -2,6 +2,8 @@
 title: Preview Experience
 ---
 
+{% include shipping-status-note.md %}
+
 Preview Experience allows you to preview the shipping methods that display for a customer during checkout for a defined shopping basket. Experiences that do not display a shipping method are also identified. This helps you test your shipping experiences without having to navigate back and forth between your Magento site and the Magento Shipping Portal.
 
 Preview Experience:

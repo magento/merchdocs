@@ -2,9 +2,7 @@
 title: Listing Price
 ---
 
-
 Listing Price options are part of your store's listing settings. You can access the listing settings for an Active or Inactive store in the [store's dashboard]({% link sales-channels/amazon/amazon-store-dashboard.md %}).
-
 
 {% include amazon-listing-price-intro.md %}
 

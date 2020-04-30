@@ -2,6 +2,8 @@
 title: Creating a Batch
 ---
 
+{% include shipping-status-note.md %}
+
 Orders that are ready to ship with Magento Shipping can be booked together as multiple shipments and processed as a [batch]({% link sales/batches.md %}). Each shipment includes a detailed description of the package(s) to be included, with additional instructions for the carrier. The shipment is processed according to the shipping experience rule of your choice. Documentation, including shipping labels, is generated for each package, and is available for download.
 
 ## Before you begin
