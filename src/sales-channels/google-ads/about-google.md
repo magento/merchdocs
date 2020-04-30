@@ -1,15 +1,16 @@
 ---
 title: About GMC and Ads with Magento
+tag: google-shopping
 ---
 
 
-The Google Shopping ads integration leverages Google Merchant Center (GMC) and Google Ads accounts with your Magento product catalog. Learn more about these accounts, how they work, and the integrations with Magento. We simplify the entire process for syncing product data, creating ads, and managing everything through a single integration. 
+The Google Shopping ads integration leverages Google Merchant Center (GMC) and Google Ads accounts with your Magento product catalog. Learn more about these accounts, how they work, and the integrations with Magento. We simplify the entire process for syncing product data, creating ads, and managing everything through a single integration.
 
 {% include google-faq.md %}
 
 ## Google Merchant Center
 
-The [GMC][2] is a platform to import and manage product data with Google, capable of integrating with Google Ads. To advertise and sell through Google you must complete a series of steps. Magento resolves these complicated steps with an [onboarding process]({{ site.baseurl }}{% link sales-channels/google-ads/onboarding-google.md %}) and management tools within the Magento Admin.
+The [GMC][2] is a platform to import and manage product data with Google, capable of integrating with Google Ads. To advertise and sell through Google you must complete a series of steps. Magento resolves these complicated steps with an [onboarding process]({% link sales-channels/google-ads/onboarding-google.md %}) and management tools within the Magento Admin.
 
 * Onboard in a single process to import and map product data with Google attributes to best match product searches and advertisements to conditions, age groups, product types, and more
 * Review and manage Google approvals for products and accounts
@@ -29,14 +30,14 @@ You only need to access GMC for advanced configurations including shipping and 
 
 * *Claim* and *Verify*: Google must verify and claim your storefront URL to associate it to your GMC account. *Verifying* adds markers to your site for Google to locate and confirm that you are the authorized owner of both your website and your Merchant Center account. *Claiming* reserves the URL you verified for use with your Merchant Center account. URL status includes "Claimed and Verified" and "Unclaimed".
 * *Approval* and *Disapproval*: Google marks products as approved if they pass all [product][4] and [policy][5] requirements. Products have the *Pending Approval* status until reviewed. Disapproved products have an issue that must be resolved and submitted for another review. Approved products can be searched and displayed through Google.
-* *Attributes*: Google uses attributes as a form of mapping imported Magento product data. Magento [attributes]({{ site.baseurl }}{% link stores/attributes-product.md %}) can be mapped to these Google attributes to ensure Google properly uses your product data. For details on attributes, see Google's [Product data specification][6]. If you select to create a new attribute during the onboarding process, it is named Google Merchant Center Category.
+* *Attributes*: Google uses attributes as a form of mapping imported Magento product data. Magento [attributes]({% link stores/attributes-product.md %}) can be mapped to these Google attributes to ensure Google properly uses your product data. For details on attributes, see Google's [Product data specification][6]. If you select to create a new attribute during the onboarding process, it is named Google Merchant Center Category.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/google/example-gmc-dashboard.png %}){: .zoom}
+![]({% link images/images/sales-channels/google/example-gmc-dashboard.png %}){: .zoom}
 *GMC account tracking and information in Google Shopping ads*
 
 ## Google Ads
 
-[Google Ads][7] provides an online advertising program to sell your products through Google. The account and tools support multiple types of ads to target networks, keywords, and search results with the best matching products. Magento Google Shopping ads Channel supports onlya Smart Shopping Ads campaigns, integrating your GMC products with advanced Google systems to create and test different product asset and information combinations as relevant ads across Google networks. The system tracks popularity of ads based on responses and click-throughs, regulating your advertisements per an allocated daily budget.
+[Google Ads][7] provides an online advertising program to sell your products through Google. The account and tools support multiple types of ads to target networks, keywords, and search results with the best matching products. Magento Google Shopping ads Channel supports only a Smart Shopping Ads campaigns, integrating your GMC products with advanced Google systems to create and test different product asset and information combinations as relevant ads across Google networks. The system tracks popularity of ads based on responses and click-throughs, regulating your advertisements per an allocated daily budget.
 
 Simplify your ad campaign management, increase your sales, and expand your reach with Smart Shopping campaigns. Smart Shopping campaigns combine, your existing product feed and assets with Google’s machine learning to show a variety of ads across different ad networks. Networks includes the Google Search Network, the Google Display Network, YouTube, and Gmail. Smart Shopping campaigns feature both Product Shopping ads and display ads (including Remarketing Ads and Similar Audiences).
 
@@ -60,7 +61,7 @@ Magento supports creation and management of Smart Sales campaigns. Easily create
 
 You only need to access Google Ads to configure your payment method. Access and review all ads, settings, and reports through the Magento Admin.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/google/ads-examples.png %})
+![]({% link images/images/sales-channels/google/ads-examples.png %})
 
 **Terms and Concepts**
 
@@ -72,20 +73,20 @@ You only need to access Google Ads to configure your payment method. Access and 
 * *Status*: The status indicates if your campaign is running ads, is available, or ended. Google supports a number of ad status options. Magento supports a specific set: Active (ads able to run), Paused, Ended (no longer running).
 * *Launch Date*: The date the campaign was submitted and started in Magento. When ended, the date clears.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/google/example-ads-dashboard.png %}){: .zoom}
+![]({% link images/images/sales-channels/google/example-ads-dashboard.png %}){: .zoom}
 *Google Ads campaign tracking in Google Shopping ads Channel*
 
 ## Onboarding Process
 
-We provide an onboarding process, walking you through the steps to create and configure accounts much like a wizard. Each screen will prompt you for specific information with helpful tips. For complete details, see the [Onboarding Google Shopping ads]({{ site.baseurl }}{% link sales-channels/google-ads/onboarding-google.md %}). After you complete onboarding, continue managing your account and products during the approval process. The Google Shopping ads dashboard and details pages keep you informed with options to review and resolve issues as notified by Google.
+We provide an onboarding process, walking you through the steps to create and configure accounts much like a wizard. Each screen will prompt you for specific information with helpful tips. For complete details, see the [Onboarding Google Shopping ads]({% link sales-channels/google-ads/onboarding-google.md %}). After you complete onboarding, continue managing your account and products during the approval process. The Google Shopping ads dashboard and details pages keep you informed with options to review and resolve issues as notified by Google.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/google/google-onboard-process.png %})
+![]({% link images/images/sales-channels/google/google-onboard-process.png %})
 
 ## Google Approval Process
 
 When you complete the onboarding step for the GMC account, Google begins receiving and reviewing your products. These reviews verify your product data according to Google guidelines, and against your storefront posted products. The review requires passing Google [product][4] and [policy][5] requirements.
 
-For details, see [About Google and Magento Catalogs]({{ site.baseurl }}{% link sales-channels/google-ads/about-google-magento-catalogs.md %}).
+For details, see [About Google and Magento Catalogs]({% link sales-channels/google-ads/about-google-magento-catalogs.md %}).
 
 [1]: https://support.magento.com/hc/en-us/articles/360026412412
 [2]: https://support.google.com/merchants/answer/188493?hl=en

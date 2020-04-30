@@ -6,27 +6,55 @@ Vertex is a cloud-based solution that automates your sales and use tax complianc
 
 The integration includes tax configuration for your stores, overrides per country, and performance enhancing options.
 
-![]({{ site.baseurl }}{% link images/images/tile-vertex-calculations-returns.png %}) | **Automate Tax Calculations & Returns**<br>Vertex saves time, reduces risk, and helps you file your tax returns on time.
-![]({{ site.baseurl }}{% link images/images/tile-vertex-consumer-use-tax.png %}) | **Sales & Use Tax**<br>Vertex Cloud calculates sales tax in the shopping cart based on the tax profile of each product that is purchased, and the jurisdiction.
-![]({{ site.baseurl }}{% link images/images/tile-vertex-exemption-certificates.png %}) | **Manage Exception Certificates**<br>Vertex makes it easy to manage customers by jurisdiction who have non-standard tax requirements.
-![]({{ site.baseurl }}{% link images/images/tile-vertex-prepare-returns.png %}) | **Generate Returns**<br>Vertex Cloud automatically regenerates signature-ready PDF returns and sends a message when the returns are available.
+{: .icon-table }
+![]({% link images/images/tile-vertex-calculations-returns.png %}) | **Automate Tax Calculations & Returns**<br>Vertex saves time, reduces risk, and helps you file your tax returns on time.
+![]({% link images/images/tile-vertex-consumer-use-tax.png %}) | **Sales & Use Tax**<br>Vertex Cloud calculates sales tax in the shopping cart based on the tax profile of each product that is purchased, and the jurisdiction.
+![]({% link images/images/tile-vertex-exemption-certificates.png %}) | **Manage Exception Certificates**<br>Vertex makes it easy to manage customers by jurisdiction who have non-standard tax requirements.
+![]({% link images/images/tile-vertex-prepare-returns.png %}) | **Generate Returns**<br>Vertex Cloud automatically regenerates signature-ready PDF returns and sends a message when the returns are available.
 
-## Changes In the Latest Release
+## Changes in the latest releases
 
-### Release 2.3.1
+### Release 2.3.5
 
-New Features — **Updated configuration options**:
+- {:.new}New Feature — **Customer Account Address Validation**
 
-- {:.new}New Use Vertex Tax Links configuration option. Required to enable and configure Vertex. This option increases integration performance.
+   Addresses that are created or edited in the Customer Account are now validated when the [Address Validation module]({% link tax/vertex-configure-address.md %}) is configured.
 
-- {:.new}Integration URLs automatically update to use new service links. The Vertex Calculation API URL connects to `CalculateTax70`, and Vertex Address Validation API URL links to `LookupTaxAreas70`.
+- {:.fix}Enhancements
 
-- {:.new}Renamed Shipping Product Codes to Vertex Shipping Product Codes. These features display products for each shipping type enabled. Map your shipping types to Vertex in this section.
+- The _Flexible Field_ options are now sorted alphabetically by the current Admin user’s locale.
+- Vertex now uses the order billing address to calculate taxes on virtual products. Shipping-related flexible fields are no longer completed for virtual products.
+- The _Use Vertex for orders shipping to_, _Summarize Tax by_, and _Global Delivery Term_ configuration settings now provide an option to be restored to their default setting.
+- The WSDL URL now supports ports and basic authentication.
+- Models intended to assist Observers have been relocated into the Model namespace to clean up the Observer namespace.
 
-- {:.new}New Delivery Terms options for configuring global and overrides per country for shipping terms. These options provide support to EU VAT.
+### Release 2.3.4
 
-- {:.new}New Vertex Logging configuration options for rotating logs. Set the frequency, actions, and exact timing for the rotation. Logs export to a CSV file.
+- {:.new}New Feature — **Storefront Address Validation**
 
-- {:.new}[**Automatic API disabling**]({{ site.baseurl }}{% link tax/vertex-test-configuration.md %}) — If you update your product prices in the Magento catalog to include tax, this can significantly degrade Magento performance. Vertex automatically disables if [Display prices in Catalog]({{ site.baseurl }}{% link configuration/sales/tax.md %}) is set to Including Tax. You must set this value to Excluding Tax to re-enable Vertex.
+   The Vertex Address Validation module is now included. When you [configure this functionality]({% link tax/vertex-configure-address.md %}), the storefront prompts the customer to correct address information on both the shipping and billing steps of the one-page checkout.
 
-- {:.new}**New Cache Option** — When clearing caches using [Cache Management]({{ site.baseurl }}{% link system/cache-management.md %}), Vertex has a cache option included. This option improves performance during the checkout process.
+- {:.fix}Enhancements
+
+- The Vertex Trusted ID is now encrypted when saved to the database and masked in the Vertex Log tables.
+- Fixed Product Taxes created through Magento are now submitted to Vertex. If you are using Fixed Product Taxes, please consult your Vertex representative to determine how this may affect your tax calculation.
+- Vertex now respects the Magento configuration on whether to charge tax on the original price or the custom price.
+- Vertex logs now include the time (in milliseconds) it took for the Vertex API to return a result.
+- Vertex now includes additional acceptance tests to ensure stability.
+
+### Release 2.3.3
+
+- {:.new}New Feature — **Flexible fields for custom taxability drivers**
+
+   The updated Vertex extension includes support for custom tax drivers that you can use to include additional information needed to calculate tax in more complex tax situations. These drivers are passed in configurable Vertex Flexible Fields that support Code, numeric, and date values.
+
+   For more information, see [Vertex Flexible Fields]({% link tax/vertex-configure-magento.md %}#flex-fields).
+
+<!--
+  This is a style declaration so that the feature icons are not sized by table auto styling for column widths.
+-->
+<style>
+.icon-table td:first-of-type {
+  width: 150px;
+}
+</style>

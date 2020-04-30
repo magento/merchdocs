@@ -5,19 +5,20 @@ group: marketing
 
 The layered navigation configuration determines if a product count appears in parentheses after each attribute, and the size of the step calculation that is used in price navigation.
 
-## To configure layered navigation
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. On the Admin sidebar, tap **Stores**. Then under **Settings**, choose **Configuration**.
+1. In the left panel, expand the _Catalog_ section and choose **Catalog** underneath.
 
-1. In the panel on the left, expand the **Catalog** section. Then choose **Catalog**.
+1. Expand the _Layered Navigation_ section and do the following:
 
-1. Expand the **Layered Navigation** section, and do the following:
+    ![]({% link images/images/config-catalog-catalog-layered-navigation.png %}){: .zoom}
+    [_Layered Navigation_]({% link configuration/catalog/catalog.md %})
 
-    ![]({{ site.baseurl }}{% link images/images/config-catalog-catalog-layered-navigation.png %}){: .zoom}
-    *[Layered Navigation]({{ site.baseurl }}{% link configuration/catalog/catalog.md %})*
+    {:.bs-callout-info}
+    If necessary, first deselect the **Use system value** checkbox to change these settings.
 
-    * To display the number of products found for each attribute, set **Display Product Count** to “Yes.” If necessary, first clear the **Use system value** checkbox.
+    - To display the number of products found for each attribute, set **Display Product Count** to `Yes`.
 
-    * Set **Price Navigation Step Calculation** to “Automatic (equalize price ranges).” If necessary, first clear the **Use system value** checkbox.
+    - Set **Price Navigation Step Calculation** to `Automatic (equalize price ranges)`.
 
-1. When complete, tap <span class="btn"> Save Config </span>.
+1. When complete, click <span class="btn">Save Config</span>.

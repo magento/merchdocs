@@ -7,56 +7,56 @@ The behavior and display of product relationship rules is determined by the conf
 
 ## Configure rule-based product relations
 
-1. On the Admin sidebar, tap **Stores**. Then under Settings, choose **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the panel on the left under **Catalog**, tap **Catalog**.
+1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Rules-Based Product Relations** section. Then, do the following:
+1. Expand ![Expansion]({% link images/images/btn-expand.png %}) the **Rules-Based Product Relations** section and do the following:
 
-    ![]({{ site.baseurl }}{%- link images/images/config-catalog-catalog-rule-based-product-relations.png -%}){: .zoom} [ 
-    *Rule-Based Product Relations*]({{ site.baseurl }}{%- link configuration/catalog/catalog.md -%})
+    ![Catalog configuration - rule-based product relations]({% link images/images/config-catalog-catalog-rule-based-product-relations.png %}){: .zoom}
+    [_Rule-Based Product Relations_]({% link configuration/catalog/catalog.md -%})
 
-    * Enter the **Maximum Number of Products in the Related Products List**.
+   - Enter the **Maximum Number of Products in the Related Products List**.
 
-    * Set **Show Related Products** to one of the following:
+   - Set **Show Related Products** to one of the following:
 
-        * Both Selected and Rule Based
-        * Selected Only
-        * Rule-Based Only
+      - `Both Selected and Rule Based`
+      - `Selected Only`
+      - `Rule-Based Only`
 
-    * Set **Rotation Mode for Products in Related Product List** to one of the following:
+   - Set **Rotation Mode for Products in Related Product List** to one of the following:
 
-        * Do Not Rotate
-        * Shuffle
+      - `Do Not Rotate`
+      - `Shuffle`
 
 1. To complete the cross-sell product settings, do the following:
 
-    * Enter the **Maximum Number of Products in the Cross-Sell Product List**.
+   - Enter the **Maximum Number of Products in the Cross-Sell Product List**.
 
-    * Set **Show Cross-Sell Products** to one of the following:
+   - Set **Show Cross-Sell Products** to one of the following:
 
-        * Both Selected and Rule Based
-        * Selected Only
-        * Rule-Based Only
+      - `Both Selected and Rule Based`
+      - `Selected Only`
+      - `Rule-Based Only`
 
-    * Set **Rotation Mode for Products in Cross-Sell Product List** to one of the following:
+   - Set **Rotation Mode for Products in Cross-Sell Product List** to one of the following:
 
-        * Do Not Rotate
-        * Shuffle
+      - `Do Not Rotate`
+      - `Shuffle`
 
 1. To complete the up-sell product settings, do the following:
 
-    * Enter the **Maximum Number of Products in the Upsell Product List**.
+   - Enter the **Maximum Number of Products in the Upsell Product List**.
 
-    * Set **Show Upsell Products** to one of the following:
+   - Set **Show Upsell Products** to one of the following:
 
-        * Both Selected and Rule Based
-        * Selected Only
-        * Rule-Based Only
+      - `Both Selected and Rule Based`
+      - `Selected Only`
+      - `Rule-Based Only`
 
-    * Set **Rotation Mode for Products in Upsell Product List** to one of the following:
+   - Set **Rotation Mode for Products in Upsell Product List** to one of the following:
 
-        * Do Not Rotate
-        * Shuffle
+      - `Do Not Rotate`
+      - `Shuffle`
 
-1. When complete, tap <span class="btn">Save Config</span>.
+1. When complete, click <span class="btn">Save Config</span>.

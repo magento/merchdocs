@@ -3,9 +3,9 @@ conditions: Default.EE-B2B
 title: Add Dynamic Block
 ---
 
-Use the Add Dynamic Block content type to add an existing [dynamic block]({{ site.baseurl }}{% link cms/dynamic-blocks.md %}) to the stage.
+Use the Add Dynamic Block content type to add an existing [dynamic block]({% link cms/dynamic-blocks.md %}) to the stage.
 
-![]({{ site.baseurl }}{% link images/images-ee/page-builder-tutorial2-dynamic-block-storefront.png %}){: .zoom}
+![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-storefront.png %}){: .zoom}
 _Dynamic Block_
 
 ## To add an existing dynamic block to the stage
@@ -14,27 +14,27 @@ _Dynamic Block_
 
 1. In the Page Builder panel, expand **Add Content**. Then, drag a **Dynamic Block** placeholder to the stage.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-dynamic-block-drag.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-dynamic-block-drag.png %}){: .zoom}
     _Drag Dynamic Block to Stage_
 
-    - Hover over the empty Dynamic Block container. Then, choose **Settings** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox.
+    - Hover over the empty Dynamic Block container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-dynamic-block-settings.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-dynamic-block-settings.png %}){: .zoom}
         _Dynamic Block Toolbox_
 
     - On the Edit Dynamic Block page, click <span class="btn">Select Dynamic Block</span>.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-dynamic-block-select.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-dynamic-block-select.png %}){: .zoom}
         _Select Dynamic Block_
 
     - In the list, find the dynamic block that you want to insert, and click <span class="btn">Select</span>. Then, click <span class="btn">Add Selected</span>.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-add-content-dynamic-block-select-list.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-add-content-dynamic-block-select-list.png %}){: .zoom}
         _Select Dynamic Block List_
 
         A summary of the dynamic block information appears below.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-add-content-dynamic-block-summary.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-add-content-dynamic-block-summary.png %}){: .zoom}
         _Dynamic Block Summary_
 
     - Set **Template** to one of the following:
@@ -42,7 +42,7 @@ _Dynamic Block_
         | `Dynamic Block Block Template` | Choose this template to add a standalone block. |
         | `Dynamic Block Inline Template` | Choose this template to insert the block content into text. |
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-add-content-dynamic-block-template.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-add-content-dynamic-block-template.png %}){: .zoom}
         _Template_
 
     - Complete the remaining settings as needed, using the field descriptions at the end of this page for reference.
@@ -53,14 +53,14 @@ _Dynamic Block_
 
 ## To edit dynamic block settings
 
-1. Hover over the dynamic block container on the stage. Then, choose **Settings** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox and do the following:
+1. Hover over the dynamic block container on the stage. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox and do the following:
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-add-content-dynamic-block-toolbox.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-add-content-dynamic-block-toolbox.png %}){: .zoom}
     _Dynamic Block Toolbox_
 
     - To choose an existing dynamic block, click <span class="btn">Select Dynamic Block</span>.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/page-builder-add-content-dynamic-block-select.png %}){: .zoom}
+        ![]({% link images/images-ee/page-builder-add-content-dynamic-block-select.png %}){: .zoom}
         _Select Dynamic Block_
 
     - In the list of active blocks, <span class="btn">Select</span> the block that you want to add. Then, click <span class="btn">Add Selected</span>.
@@ -73,14 +73,14 @@ _Dynamic Block_
 
 ## To duplicate a dynamic block
 
-1. Hover over the dynamic block container. Then, choose **Duplicate** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-duplicate.png %}){: .Inline}) in the toolbox.
+1. Hover over the dynamic block container. Then, choose **Duplicate** (![]({% link images/images-ee/icon-pb-duplicate.png %}){: .Inline}) in the toolbox.
 
     The duplicate appears just below the original.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-add-content-dynamic-block-duplicate.png %}){: .zoom}
+    ![]({% link images/images-ee/page-builder-add-content-dynamic-block-duplicate.png %}){: .zoom}
     _Duplicate Dynamic Block_
 
-1. To move the new dynamic block to a different position, hover over its container. Then, choose **Move** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-move.png %}){: .Inline}) in the toolbox.
+1. To move the new dynamic block to a different position, hover over its container. Then, choose **Move** (![]({% link images/images-ee/icon-pb-move.png %}){: .Inline}) in the toolbox.
 
 1. Select and drag the dynamic block until the red guideline appears at the new position.
 
@@ -88,7 +88,7 @@ _Dynamic Block_
 
 ## To remove a dynamic block from the stage
 
-1. Hover over the dynamic block container. Then, choose **Remove** ( ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-remove.png %}){: .Inline}) in the dynamic block toolbox.
+1. Hover over the dynamic block container. Then, choose **Remove** ( ![]({% link images/images-ee/icon-pb-remove.png %}){: .Inline}) in the dynamic block toolbox.
 
 1. When prompted to confirm, click **OK**.
 
@@ -96,12 +96,12 @@ _Dynamic Block_
 
 | Tool      | Icon                                                                     | Description                                                                                            |
 | --------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| Move      | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-move.png %})      | Moves the block container and its content to another position on the stage.                            |
-| Settings  | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %})  | Opens the Edit Block page, where you can choose the block, and change the properties of the container. |
-| Hide      | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-hide.png %})      | Hides the current block container and its content.                                                     |
-| Show      | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-show.png %})      | Shows the  hidden block container and its content.                                                     |
-| Duplicate | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the block container and its content.                                         |
-| Remove    | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-remove.png %})    | Deletes the block container and its content from the stage.                                            |
+| Move      | ![]({% link images/images-ee/icon-pb-move.png %})      | Moves the block container and its content to another position on the stage.                            |
+| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %})  | Opens the Edit Block page, where you can choose the block, and change the properties of the container. |
+| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})      | Hides the current block container and its content.                                                     |
+| Show      | ![]({% link images/images-ee/icon-pb-show.png %})      | Shows the  hidden block container and its content.                                                     |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the block container and its content.                                         |
+| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})    | Deletes the block container and its content from the stage.                                            |
 
 ### Dynamic Block Settings
 

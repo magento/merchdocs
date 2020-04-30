@@ -1,5 +1,6 @@
 ---
 title: Editing Attribute Mappings
+tag: google-shopping
 ---
 
 
@@ -15,19 +16,19 @@ As your catalog matures and business expands, attribute sets and options may enh
 
 You have two options to solve issues when creating attributes. Either edit your GMC settings and [select another option](#editmappings), or create new attributes and map them.
 
-1. [Create a new product attribute]({{ site.baseurl }}{% link stores/attribute-product-create.md %}).
+1. [Create a new product attribute]({% link stores/attribute-product-create.md %}).
 
 1. Assign the attribute to the product and set the value.
 
    If you create an Adult-Only attribute to identify adult-oriented products, it must support "True" and "False" for the value. Google only accepts "True" or "False" for adult attributes.
 
-   For additional information on attributes, see [Attribute Mapping]({{ site.baseurl }}{% link sales-channels/google-ads/attribute-mapping.md %}).
+   For additional information on attributes, see [Attribute Mapping]({% link sales-channels/google-ads/attribute-mapping.md %}).
 
 1. [Update attribute mappings](#editmappings) in Google Shopping ads.
 
 ## Update Attribute Mappings with Google {#editmappings}
 
-This information walks through editing and updating your attribute mappings. For additional information, see [Attribute Mapping]({{ site.baseurl }}{% link sales-channels/google-ads/attribute-mapping.md %}).
+This information walks through editing and updating your attribute mappings. For additional information, see [Attribute Mapping]({% link sales-channels/google-ads/attribute-mapping.md %}).
 
 1. On the Admin sidebar, click **Marketing**. Then under Advertising Channels, click **Google Shopping ads**.
 
@@ -37,7 +38,7 @@ This information walks through editing and updating your attribute mappings. For
 
 1. Click <span class="btn">Save Changes</span>.
 
-   ![]({{ site.baseurl }}{% link images/images/sales-channels/google/edit-attributes.png %}){: .zoom}
+   ![]({% link images/images/sales-channels/google/edit-attributes.png %}){: .zoom}
    *Attribute Mapping Settings*
 
 ### General Attributes Field Descriptions

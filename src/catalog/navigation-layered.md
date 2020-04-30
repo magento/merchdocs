@@ -3,7 +3,7 @@ title: Layered Navigation
 group: marketing
 ---
 
-Layered navigation makes it easy to find products based on category, price range, or any other available attribute. Layered navigation usually appears in the left column of search results and category pages and sometimes on the home page. The standard navigation includes a “Shop By” list of categories and price range. You can configure the display of layered navigation, including product count and price range.
+Layered navigation makes it easy to find products based on category, price range, or any other available attribute. Layered navigation usually appears in the left column of search results and category pages and sometimes on the home page. The standard navigation includes a _Shop By_ list of categories and price range. You can configure the display of layered navigation, including product count and price range.
 
-![]({{ site.baseurl }}{% link images/images/navigation-layered-basic.png %}){: .zoom}
-*Layered Navigation by Category and Price*
+![]({% link images/images/navigation-layered-basic.png %}){: .zoom}
+_Layered Navigation by Category and Price_

@@ -4,7 +4,7 @@ title: Customer Segment Attributes
 group: customers
 ---
 
-Customer segments are defined in a manner similar to shopping cart and catalog price rules. For an attribute to be used in a customer segment condition, the [Use in Customer Segment]({{ site.baseurl }}{%- link stores/attributes-product.md -%}) property must be set to “Yes". Customer segment conditions can incorporate the following types of attributes:
+Customer segments are defined in a manner similar to shopping cart and catalog price rules. For an attribute to be used in a customer segment condition, the [Use in Customer Segment]({% link stores/attributes-customer.md %}) property must be set to `Yes`. Customer segment conditions can incorporate the following types of attributes:
 
 | Attribute | Description |
 |---|---|
@@ -13,4 +13,3 @@ Customer segments are defined in a manner similar to shopping cart and catalog p
 | Cart Fields | Cart properties can be based on either quantity (line items or total quantity) or the value (grand total, tax, gift card, etc.) of the cart contents. |
 | Products | You can reference products that are currently in the shopping cart or wish list, or that have previously been viewed or ordered. You can also set a date range for when this occurred. The products are defined using product attributes. |
 | Order Fields | Order characteristics for past orders can be defined based on the billing/shipping address in the order, the total or average amount or quantity of the orders, or the total number of orders. You can also set a date range for when this occurred, and the order status of the orders that match these conditions. Available only for customers who are logged in. Conditions that are set for shoppers who are not logged in stop working when they log in. |
-{:style="table-layout:auto"}

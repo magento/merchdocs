@@ -8,8 +8,8 @@ Customer segments allow you to dynamically display content and promotions to spe
 
 ## Magento eBooks
 
-* **Customer Segmentation**— Learn how to increase profits and overall customer satisfaction. Get the [eBook][1]{: target="_blank"} now!
-* **Segmentation Tactics**— Improve the targeting of your messages and promotions to create meaningful conversations with your customers. Get the [eBook][2]{: target="_blank"} now!
+- **Customer Segmentation** — Learn how to increase profits and overall customer satisfaction. Get the [eBook][1]{:target="_blank"} now!
+- **Segmentation Tactics** — Improve the targeting of your messages and promotions to create meaningful conversations with your customers. Get the [eBook][2]{:target="_blank"} now!
 
 [1]: https://magento.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation
 [2]: https://magento.com/resources/3-segmentation-tactics-ignite-conversion

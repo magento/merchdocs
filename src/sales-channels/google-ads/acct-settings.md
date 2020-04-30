@@ -1,9 +1,10 @@
 ---
 title: Account Settings
+tag: google-shopping
 ---
 
 
-**Step 2 of 2** for [Ads Account Creation]({{ site.baseurl }}{% link sales-channels/google-ads/ads-acct-create.md %}).
+**Step 2 of 2** for [Ads Account Creation]({% link sales-channels/google-ads/ads-acct-create.md %}).
 
 ## Setting Up your Google Ads Account Settings
 
@@ -11,7 +12,7 @@ title: Account Settings
 * Activate your Google Ads account through an email invitation.
 * Add a payment method in Google Ads.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 **Important:** Review the following information fully and make your configuration settings with care before saving and completing your Google Ads account. These fields cannot be modified after the account is created.
 
 ## To set your currency and timezone:
@@ -20,7 +21,7 @@ title: Account Settings
 
 1. **Currency** automatically populates for your store based on the country you selected. You can update or change this setting. For example, if you select United States, **Currency** is set to USD for US Dollar.
 
-    {:.bs-callout .bs-callout-warning}
+    {:.bs-callout-warning}
     Important: Once you select a country and currency and create your account, you cannot change the currency. You must also add a payment method and billing settings using the same currency.
 
 1. For **Timezone**, select the timezone for your store's region. The timezone you select affects all store data. For example, reports based on segments of time will generate different results depending on the timezone associated with the account.
@@ -29,12 +30,12 @@ title: Account Settings
 
 1. A confirmation message displays. If the settings are correct, click <span class="btn">Confirm Settings</span>. If you need to modify settings, click <span class="btn">Cancel </span>to return to Account Setup.
 
-1. The [Create a Smart Shopping Campaign]({{ site.baseurl }}{% link sales-channels/google-ads/create-campaign.md %}) page opens. Complete the steps to activate your account before creating a campaign.
+1. The [Create a Smart Shopping Campaign]({% link sales-channels/google-ads/create-campaign.md %}) page opens. Complete the steps to activate your account before creating a campaign.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 **Don't forget!** You must activate your Google Ads account, configure payment methods in your Google Ads account, and update settings in Magento for your account to go live. If you forget to add a payment method or update Magento settings, you will see a reminder message in the Magento Admin.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/google/ads-account-settings.png %}){: .zoom}   
+![]({% link images/images/sales-channels/google/ads-account-settings.png %}){: .zoom}
 
 ## To activate your Google Ads account:
 
@@ -56,7 +57,7 @@ You must add a valid payment method to your Google Ads account. For complete det
 
 1. Add a supported payment method.
 
-1. In the Magento Admin, continue with the [onboarding process]({{ site.baseurl }}{% link sales-channels/google-ads/create-campaign.md %}).
+1. In the Magento Admin, continue with the [onboarding process]({% link sales-channels/google-ads/create-campaign.md %}).
 
 ## To update account settings:
 
@@ -70,7 +71,7 @@ As a final step, you must update the payment setting for your Google integration
 
 Next steps:
 
-* Review and resolve any [account]({{ site.baseurl }}{% link sales-channels/google-ads/account-resolve-errors.md %}) and [product]({{ site.baseurl }}{% link sales-channels/google-ads/product-resolve-errors.md %}) disapprovals.
-* [Create campaigns]({{ site.baseurl }}{% link sales-channels/google-ads/create-campaign.md %}) to run ads on Google.
+* Review and resolve any [account]({% link sales-channels/google-ads/account-resolve-errors.md %}) and [product]({% link sales-channels/google-ads/product-resolve-errors.md %}) disapprovals.
+* [Create campaigns]({% link sales-channels/google-ads/create-campaign.md %}) to run ads on Google.
 
 [1]: https://support.google.com/google-ads/answer/2375433?hl=en

@@ -4,93 +4,95 @@ title: Google Content Experiments
 
 The following example shows how to set up an A/B test of products, categories, or content pages using Google Analytics Content Experiments. We recommend that you keep two browser tabs open while working through the instructions, because you will need to bounce back and forth between the Magento Admin and your Google Analytics account.
 
-{: .bs-callout .bs-callout-info}
-Google Content Experiments has been deprecated, and will eventually be replaced by [Google Optimize][1]{: target="_blank"}.
+{:.bs-callout-info}
+Google Content Experiments has been deprecated and will eventually be replaced by [Google Optimize][1].
 
 ## Step 1. Enable Content Experiments (Magento)
 
 1. Log in to the Admin of your Magento installation.
 
-1. Follow the instructions to enable [Google Analytics]({{ site.baseurl }}{%- link marketing/google-universal-analytics.md -%}) with Content Experiments in the Magento configuration.
+1. Follow the instructions to enable [Google Analytics]({% link marketing/google-universal-analytics.md %}) with Content Experiments in the Magento configuration.
 
     <!--{%- if "Default.CE Only" contains site.edition -%}-->
-    ![]({{ site.baseurl }}{%- link images/images/config-sales-google-api-google-analytics-content-experiments.png -%}){: .zoom}
+    ![Sales configuration - Google Analytics]({% link images/images/config-sales-google-api-google-analytics-content-experiments.png %}){: .zoom}
     <!--{%- endif -%}-->
     <!--{%- if "Default.EE-B2B" contains site.edition -%}-->
-    ![]({{ site.baseurl }}{%- link images/images-ee/config-sales-google-api-google-analytics-content-experiments.png -%}){: .zoom}
+    ![Sales configuration - Google Analytics]({% link images/images-ee/config-sales-google-api-google-analytics-content-experiments.png %}){: .zoom}
     <!--{%- endif -%}-->
-    [*Enable Content Experiments*]({{ site.baseurl }}{%- link marketing/google-universal-analytics.md -%})
+    [_Enable Content Experiments_]({% link marketing/google-universal-analytics.md -%})
 
 ## Step 2. Set Up the Variations (Magento)
 
 Create multiple variations of the same product, cateogory, or page.
 
-* Each variation must have a unique [URL key]({{ site.baseurl }}{%- link catalog/catalog-urls.md -%}).
-* Each variation must have the same [store view]({{ site.baseurl }}{%- link configuration/scope.md -%}) selected.
+- Each variation must have a unique [URL key]({% link catalog/catalog-urls.md %}).
+- Each variation must have the same [store view]({% link configuration/scope.md %}) selected.
 
-You can create up to ten variations of each entity that you want to test. For products, use [Save &amp; Duplicate]({{ site.baseurl }}{%- link catalog/product-workspace.md -%}) to save time.
+You can create up to ten variations of each entity that you want to test. For products, use [Save & Duplicate]({% link catalog/product-workspace.md %}) to save time.
 
 ## Step 3. Set Up the Experiment (Google)
 
-{: .bs-callout .bs-callout-info}
+{:.bs-callout-info}
 You must have the appropriate permissions to the Google account to create an experiment.
 
-1. Open another browser tab, and log into your [Google Analytics][2]{: target="_blank"} account. If necessary, navigate to the **Account** and **Property**.
+1. Open another browser tab, and log into your [Google Analytics][2] account. If necessary, navigate to the **Account** and **Property**.
 
 1. In the sidebar on the left, choose **Admin**. Then, do one of the following:
 
-    **Choose an Existing View**
+   **Choose an Existing View**
 
-    In the header of the **View** column, click the **down arrow**, and choose the view that is to provide the data for the experiment.
+   In the header of the **View** column, click the **down arrow**, and choose the view that is to provide the data for the experiment.
 
-    **Create a New Reporting View**
+   **Create a New Reporting View**
 
-    * In the header of the **View** column, tap <span class="btn">Create View</span>. Then, do the following:
+   - In the header of the **View** column, click <span class="btn">Create View</span>. Then, do the following:
 
-      * Identify the experiment location as either "Website" or "Mobile app".
+      - Identify the experiment location as either "Website" or "Mobile app".
 
-      * Enter a descriptive **Reporting View Name**.
-  
-      * Specify the **Reporting Time Zone**.
+      - Enter a descriptive **Reporting View Name**.
 
-    * When complete, tap <span class="btn">Create View</span>. Then, click the back arrow to return to the previous page.
+      - Specify the **Reporting Time Zone**.
 
-        ![]({{ site.baseurl }}{%- link images/images/google-analytics-content-experiments-new-reporting-view.png -%}){: .zoom}
-        *New Reporting View*
+   - When complete, click <span class="btn">Create View</span>. Then, click the back arrow to return to the previous page.
 
-1. In the panel on the left under **Reports**, choose **Behavior > Experiments**.
+        ![Google Analytics - content experiments reporting]({% link images/images/google-analytics-content-experiments-new-reporting-view.png %}){: .zoom}
+        _New Reporting View_
 
-1. Tap <span class="btn">Create experiment</span>. Then, do the following:
+1. In the left panel under **Reports**, choose **Behavior > Experiments**.
 
-    * Specify the percentage of traffic to redirect.
+1. Click <span class="btn">Create experiment</span>. Then, do the following:
 
-    * Specify the **Original Page URL** and the URLs of each **page variation** that you want to test.
+   - Specify the percentage of traffic to redirect.
 
-    * Complete the other options. If you need help see: .[Configure &amp; Modify Experiments][3].
+   - Specify the **Original Page URL** and the URLs of each **page variation** that you want to test.
 
-1. When the experiment is set up, tap <span class="btn">Manually Insert the Code</span>. Then, copy the code snippet.
+   - Complete the other options. If you need help see [Configure & Modify Experiments][3].
+
+1. When the experiment is set up, click <span class="btn">Manually Insert the Code</span>. Then, copy the code snippet.
 
 ## Step 4. Paste Code Snippet (Magento)
 
 1. Return to the Admin of your Magento installation. Then, open the original version of the product, category, or page in edit mode.
 
-1. Expand the **View Optimization** section for the product, category, or page. Then, paste the code snippet that you copied from Google Analytics into the **Experiment Code** text box.
+1. Expand the **View Optimization** section for the product, category, or page.
 
-    {: .bs-callout .bs-callout-info}
+1. Paste the code snippet that you copied from Google Analytics into the **Experiment Code** text box.
+
+    {:.bs-callout-info}
     Do not paste the code snippet into any of the variations.
 
-    ![]({{ site.baseurl }}{%- link images/images/product-view-optimization.png -%}){: .zoom}
-    *Product View Optimization*
+    ![Product view optimization]({% link images/images/product-view-optimization.png %}){: .zoom}
+    _Product View Optimization_
 
-1. When complete, tap <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span>.
 
 ## Step 5: Review and Start the Experiment (Google)
 
-1. Return to your [Google Analytics][2]{: target="_blank"} account.
+1. Return to your [Google Analytics][2] account.
 
 1. Review the experiment settings.
 
-1. If ready to begin, tap <span class="btn">Start Experiment</span>. Otherwise, tap <span class="btn">Save for Later</span>.
+1. If ready to begin, click <span class="btn">Start Experiment</span>. Otherwise, click <span class="btn">Save for Later</span>.
 
 [1]: https://support.google.com/optimize/answer/7084762?hl=en
 [2]: https://analytics.google.com/

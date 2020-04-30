@@ -12,11 +12,11 @@ You can determine how long a price is valid by setting the cart quote lifetime i
 
 1. In _Sales_ section in the left panel, choose **Checkout**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the _Shopping Cart_ section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the _Shopping Cart_ section.
 
 1. In the **Quote Lifetime (days**)** field, enter the number of days that a quoted price remains valid.
 
 1. Click **Save Config**.
 
-   ![]({{ site.baseurl }}{% link images/images/config-sales-checkout-shopping-cart.png %}){: .zoom}
-   [_Shopping Cart_]({{ site.baseurl }}{% link configuration/sales/checkout.md %})
+   ![]({% link images/images/config-sales-checkout-shopping-cart.png %}){: .zoom}
+   [_Shopping Cart_]({% link configuration/sales/checkout.md %})

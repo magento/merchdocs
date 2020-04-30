@@ -8,9 +8,9 @@ To better manage and review your product catalog and sales through one location,
 
 ## Product Attributes
 
-Magento manages catalog syncs with the use of product [attributes]({{ site.baseurl }}{% link catalog/product-attributes.md %}) to define product settings and data. Amazon also uses attributes, to be mapped through onboarding. During [pre-setup tasks]({{ site.baseurl }}{% link sales-channels/amazon/amazon-pre-setup-tasks.md %}) for Amazon Sales Channel, you will define additional Amazon attributes if needed to ensure correct product mappings when importing your Amazon listings into your Magento catalog. These attributes include UPC, EAN, ISBN, and ASIN (Amazon Standard Identification Number). Through onboarding, products sync between Amazon and Magento catalogs using your attributes, especially these. Proper mapping of your Magento and Amazon products ensures a continual synchronization of product information, orders, and inventory.
+Magento manages catalog syncs with the use of product [attributes]({% link catalog/product-attributes.md %}) to define product settings and data. Amazon also uses attributes, to be mapped through onboarding. During [pre-setup tasks]({% link sales-channels/amazon/amazon-pre-setup-tasks.md %}) for Amazon Sales Channel, you will define additional Amazon attributes if needed to ensure correct product mappings when importing your Amazon listings into your Magento catalog. These attributes include UPC, EAN, ISBN, and ASIN (Amazon Standard Identification Number). Through onboarding, products sync between Amazon and Magento catalogs using your attributes, especially these. Proper mapping of your Magento and Amazon products ensures a continual synchronization of product information, orders, and inventory.
 
-If you do not have these attributes created or configured for your catalog, we recommend adding a [Magento Product attribute]({{ site.baseurl }}{% link catalog/product-attributes.md %}) and values to your products prior to onboarding. Once an Amazon attribute is imported, it can be used for search, navigation, price rules, and much more. For more information on these attributes, see [Amazon: What are UPCs, EANs, ISBNs. and ASINs?][1]
+If you do not have these attributes created or configured for your catalog, we recommend adding a [Magento Product attribute]({% link catalog/product-attributes.md %}) and values to your products prior to onboarding. Once an Amazon attribute is imported, it can be used for search, navigation, price rules, and much more. For more information on these attributes, see [Amazon: What are UPCs, EANs, ISBNs. and ASINs?][1]
 
 After onboarding, you can manage and update your product attributes and Amazon mappings at any time.
 
@@ -20,12 +20,17 @@ An Amazon listing is a product page for every product you sell through the Amazo
 
 When you have created a listing Magento products, they are submitted to Amazon for approval. Most successful listings are approved within a few hours. If your listing is approved, it will display in the Amazon Marketplace for immediate orders by customers. The Amazon Sales Channel provides a set of tabs to review Amazon listings. Depending on the issue or required data, you may need to review your Amazon Seller Central account for specific details on these listings.
 
-- Active: Lists approved product listings available through the marketplace.
-- Ready to List: Lists products meeting listing rules requirements and ready to publish to Amazon.
-- Inactive: Lists products not available on the marketplace due to being blocked for a specific reason (such as branding issue), closed and requiring relisting, etc.
-- Ineligible: Due to the listing rules, lists product that cannot be actively listed on the marketplace (such as 0 quantity, sell dates, etc).
-- Incomplete: Lists products missing required information. Update the product data for another review.
-- Ended: Lists product listings eligible for listing but manually removed from Amazon. You can relist these products.
+- **Active**: Lists approved product listings available through the marketplace.
+
+- **Ready to List**: Lists products meeting listing rules requirements and ready to publish to Amazon.
+
+- **Inactive**: Lists products not available on the marketplace due to being blocked for a specific reason (such as branding issue), closed and requiring relisting, etc.
+
+- **Ineligible**: Due to the listing rules, lists product that cannot be actively listed on the marketplace (such as 0 quantity, sell dates, etc).
+
+- **Incomplete**: Lists products missing required information. Update the product data for another review.
+
+- **Ended**: Lists product listings eligible for listing but manually removed from Amazon. You can relist these products.
 
 ## Syncing Data
 

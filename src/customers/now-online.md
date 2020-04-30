@@ -4,14 +4,14 @@ title: Now Online
 
 The Now Online option on the Customers menu lists all customers and visitors who are currently online in your store. The interval of time that customers are shown as currently online is set in the configuration, and determines how long the customer’s activity is visible from the Admin. By default, the interval is fifteen minutes.
 
-![]({{ site.baseurl }}{% link images/images/customers-now-online.png %}){: .zoom}
-[_Online Customers_]({{ site.baseurl }}{% link configuration/customers/customer-configuration.md %})
+![]({% link images/images/customers-now-online.png %}){: .zoom}
+[_Online Customers_]({% link configuration/customers/customer-configuration.md %})
 
 ## To see all customers who are online now:
 
 1. On the _Admin_ sidebar, go to **Customers** > **Online Now**.
 
-1. To help an online customer complete a purchase, see [Shopping Assistance]({{ site.baseurl }}{% link sales/shopping-assistance.md %}).
+1. To help an online customer complete a purchase, see [Shopping Assistance]({% link sales/shopping-assistance.md %}).
 
 ## To configure the time interval:
 
@@ -19,13 +19,13 @@ The Now Online option on the Customers menu lists all customers and visitors who
 
 1. In the panel on the left, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Online Customers Options** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Online Customers Options** section. Then, do the following:
 
-      ![]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-online-customers-options.png %}){: .zoom}
-      [_Online Customers Options_]({{ site.baseurl }}{% link configuration/customers/customer-configuration.md %})
+      ![]({% link images/images/config-customers-customer-configuration-online-customers-options.png %}){: .zoom}
+      [_Online Customers Options_]({% link configuration/customers/customer-configuration.md %})
 
       - In the **Online Minutes Interval** field, enter the number of minutes for the customer session to be visible from the Admin. Leave the field empty to accept the default interval of fifteen minutes.
-  
+
       - In the **Customer Data Lifetime** field, enter the number of minutes before any unsaved data entered by the customer expires.
 
 1. When complete, click <span class="btn">Save Config</span>.

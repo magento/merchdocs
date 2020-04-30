@@ -3,7 +3,7 @@ conditions: Default.B2B Only
 title: Negotiating a Quote
 ---
 
-If [B2B Quotes]({{ site.baseurl }}{% link stores/b2b-features.md %}) are enabled in the configuration, an authorized buyer from a company initiates the price negotiation process by [requesting a quote]({{ site.baseurl }}{% link sales/quote-request.md %}) from the shopping cart. Requests for quotes received are listed in the [Quotes]({{ site.baseurl }}{% link sales/quotes.md %}) grid. All negotiation between the buyer and seller takes place by email, and is initiated and tracked from the detail view of the quote.
+If [B2B Quotes]({% link stores/b2b-features.md %}) are enabled in the configuration, an authorized buyer from a company initiates the price negotiation process by [requesting a quote]({% link sales/quote-request.md %}) from the shopping cart. Requests for quotes received are listed in the [Quotes]({% link sales/quotes.md %}) grid. All negotiation between the buyer and seller takes place by email, and is initiated and tracked from the detail view of the quote.
 
 During the negotiation process, the seller can do the following:
 
@@ -24,26 +24,26 @@ While the quote is open for review, its status in the buyer’s account is set t
 
 1. In the _Actions_ column, click **View**.
 
-    ![]({{ site.baseurl }}{% link images/images-b2b/quote-grid-new.png %}){: .zoom}
+    ![]({% link images/images-b2b/quote-grid-new.png %}){: .zoom}
     _New Quote_
 
 ## Step 2: Modify the Quote
 
-1. In the _Quote & Account Information_, click the **Calendar** (![]({{ site.baseurl }}{% link images/images/btn-calendar.png %}){: .Inline}).
+1. In the _Quote & Account Information_, click the **Calendar** (![]({% link images/images/btn-calendar.png %}){: .Inline}).
 
-    ![]({{ site.baseurl }}{% link images/images-b2b/quote-details-quote-account-information.png %}){: .zoom}
+    ![]({% link images/images-b2b/quote-details-quote-account-information.png %}){: .zoom}
     _Quote & Account Information_
 
 1. Choose an _Expiration Date_ for the quote.
 
     If the buyer changes the quantity of any items in the quote, a notice appears at the top of the quote, indicating that list of items has changed, and the negotiated price needs to be updated.
 
-    ![]({{ site.baseurl }}{% link images/images-b2b/quote-change-notice.png %}){: .zoom}
+    ![]({% link images/images-b2b/quote-change-notice.png %}){: .zoom}
     _Quote Change Notice_
 
 1. Scroll down to the _Quote Totals_ section and update the **Negotiated Price** as needed.
 
-    ![]({{ site.baseurl }}{% link images/images-b2b/quote-change-update-negotiated-price.png %}){: .zoom}
+    ![]({% link images/images-b2b/quote-change-update-negotiated-price.png %}){: .zoom}
     _Update Negotiated Price_
 
 ### Add new products to the quote:
@@ -52,7 +52,7 @@ While the quote is open for review, its status in the buyer’s account is set t
 
 1. Enter the **SKU** and **Qty** to be added.
 
-    ![]({{ site.baseurl }}{% link images/images-b2b/quote-details-add-to-quote-by-sku.png %}){: .zoom}
+    ![]({% link images/images-b2b/quote-details-add-to-quote-by-sku.png %}){: .zoom}
     _Add to Quote by SKU_
 
 ### Apply a line item discount
@@ -71,14 +71,14 @@ In the _Items Quoted_ section, make the following changes, if needed:
 
 - To apply the changes and update the quote to the shared catalog and price rules, click **Update Prices** and then click **Proceed** to confirm the update.
 
-    ![]({{ site.baseurl }}{% link images/images-b2b/quote-detail-items-quoted.png %}){: .zoom}
+    ![]({% link images/images-b2b/quote-detail-items-quoted.png %}){: .zoom}
     _Items Quoted_
 
 ### Update shipping information
 
 1. If the buyer includes a _Ship To_ address in the quote, click **Get shipping methods and rates**.
 
-    ![]({{ site.baseurl }}{% link images/images-b2b/quote-shipping-information.png %}){: .zoom}
+    ![]({% link images/images-b2b/quote-shipping-information.png %}){: .zoom}
     _Shipping Information_
 
 1. Choose a shipping method from the available options.
@@ -87,14 +87,14 @@ In the _Items Quoted_ section, make the following changes, if needed:
 
     The Quote Totals are updated to reflect the proposed shipping price.
 
-    ![]({{ site.baseurl }}{% link images/images-b2b/quote-shipping-information-shipping-method-price-png.png %}){: .zoom}
+    ![]({% link images/images-b2b/quote-shipping-information-shipping-method-price-png.png %}){: .zoom}
     _Shipping Method &amp; Price_
 
 ### Attach a supporting document
 
 1. Under the _Add your comment_ box, click **Attach file**.
 
-    By default, [attached files]({{ site.baseurl }}{% link configuration/sales/quotes.md %}) can be up to 2 MB in any of the following file formats: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG or JPEG, PNG.
+    By default, [attached files]({% link configuration/sales/quotes.md %}) can be up to 2 MB in any of the following file formats: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG or JPEG, PNG.
 
 1. Choose the file from your directory.
 
@@ -108,16 +108,16 @@ In the _Items Quoted_ section, make the following changes, if needed:
 
 1. To apply a discount to the quote as a whole:
 
-    - Under _Quote Totals_ in the _Negotiated Price_ section, choose one of the following discount types:
+   - Under _Quote Totals_ in the _Negotiated Price_ section, choose one of the following discount types:
 
-        - Percentage Discount
-        - Amount Discount
-        - Proposed Price
+      - Percentage Discount
+      - Amount Discount
+      - Proposed Price
 
-    - Enter the amount as a percentage or flat price
+   - Enter the amount as a percentage or flat price
 
-        ![]({{ site.baseurl }}{% link images/images-b2b/quote-detail-negotiation-comments.png %}){: .zoom}
-        _Negotiation Comments_
+      ![]({% link images/images-b2b/quote-detail-negotiation-comments.png %}){: .zoom}
+      _Negotiation Comments_
 
 1. Send or save the quote:
 
@@ -135,7 +135,7 @@ When you send a quote, the system notifies both the buyer and the sales rep who 
 
 Check your email and the status of the quote in the grid to monitor its position in the workflow. You can continue the negotiation process as long as needed.
 
-![]({{ site.baseurl }}{% link images/images-b2b/quote-negotiation-reply.png %}){: .zoom}
+![]({% link images/images-b2b/quote-negotiation-reply.png %}){: .zoom}
 _Negotiation Comments and Quote Totals_
 
 ## Button Bar
@@ -153,15 +153,15 @@ _Negotiation Comments and Quote Totals_
 
 ### Quote & Account Information
 
-|Name|The name assigned to a quote request by the [buyer]({{ site.baseurl }}{% link customers/account-company-roles-permissions.md %}).|
-|Status|Indicates the current state of the quote. The status of a quote can be changed only by action on the part of either the buyer or seller. See also the [Status settings]({{ site.baseurl }}{% link sales/quotes.md %}) from the Admin and the [buyer’s account]({{ site.baseurl }}{% link customers/account-dashboard-quotes.md %}).|
+|Name|The name assigned to a quote request by the [buyer]({% link customers/account-company-roles-permissions.md %}).|
+|Status|Indicates the current state of the quote. The status of a quote can be changed only by action on the part of either the buyer or seller. See also the [Status settings]({% link sales/quotes.md %}) from the Admin and the [buyer’s account]({% link customers/account-dashboard-quotes.md %}).|
 |Created|The date and time the buyer first submitted the request for a quote.|
 |Created By|The first and last name of the company buyer who submitted the request for a quote.|
-|Expiration Date|Indicates the last day the current quote is valid. The default expiration date is set in the configuration as thirty days after a buyer submits a request for a quote. <br/><br/>The seller can override the default expiration date by entering a different date (MMM DD YYYY ) or choosing the date from the calendar. The quote never expires if the field is left blank. <br/><br/>For open quotes, the seller receives an [email notification]({{ site.baseurl }}{% link marketing/email-template-list.md %}) 48 hours before the quote is scheduled to expire. Buyers are notified 24 hours before the expiration date. <br/><br/>The status of the quote changes to “Expired” and the buyer cannot make further changes to the quote. The proposed prices in the quote revert to the original values from the catalog. <br/><br/>If a quote is open for review by the seller when the quote is set to expire, the expiration date is reset to the period of time that is set in the configuration. <br/><br/>The Expiration Date is the only field in the _Quote & Account_ section that can be edited during the review process.|
-|Company|The legal name of the [company]({{ site.baseurl }}{% link customers/account-companies.md %}) that the buyer represents.|
-|Company Admin Email|The email address of the [company administrator]({{ site.baseurl }}{% link customers/account-company-admin.md %}).|
-|Sales Rep|The [sales representative]({{ site.baseurl }}{% link customers/account-company-sales-representative.md %}) who works for the seller, and is the primary contact assigned to the company account.|
-|Shared Catalog (or Customer Group)|The [shared catalog]({{ site.baseurl }}{% link catalog/catalog-shared.md %}) or customer group({{ site.baseurl }}{% link customers/customer-groups.md %}) to which the company is assigned. The quote might include custom prices from the shared catalog that is assigned to the company.|
+|Expiration Date|Indicates the last day the current quote is valid. The default expiration date is set in the configuration as thirty days after a buyer submits a request for a quote. <br/><br/>The seller can override the default expiration date by entering a different date (MMM DD YYYY ) or choosing the date from the calendar. The quote never expires if the field is left blank. <br/><br/>For open quotes, the seller receives an [email notification]({% link marketing/email-template-list.md %}) 48 hours before the quote is scheduled to expire. Buyers are notified 24 hours before the expiration date. <br/><br/>The status of the quote changes to “Expired” and the buyer cannot make further changes to the quote. The proposed prices in the quote revert to the original values from the catalog. <br/><br/>If a quote is open for review by the seller when the quote is set to expire, the expiration date is reset to the period of time that is set in the configuration. <br/><br/>The Expiration Date is the only field in the _Quote & Account_ section that can be edited during the review process.|
+|Company|The legal name of the [company]({% link customers/account-companies.md %}) that the buyer represents.|
+|Company Admin Email|The email address of the [company administrator]({% link customers/account-company-admin.md %}).|
+|Sales Rep|The [sales representative]({% link customers/account-company-sales-representative.md %}) who works for the seller, and is the primary contact assigned to the company account.|
+|Shared Catalog (or Customer Group)|The [shared catalog]({% link catalog/catalog-shared.md %}) or [customer group]({% link customers/customer-groups.md %}) to which the company is assigned. The quote might include custom prices from the shared catalog that is assigned to the company.|
 
 ### Add to Quote by SKU
 
@@ -192,17 +192,17 @@ _Negotiation Comments and Quote Totals_
 
 ### Negotiation
 
-|Comments|The Comments tab of the Negotiation section is used to enter a message to the buyer about the quote. Add your comment - The comments are used to communicate with the buyer during the negotiation process. Use the comments to explain any discounts offered in the quote, or the reason a quote request is declined. <br/>**Attach file** - The maximum file size and supported file types for [attached files]({{ site.baseurl }}{% link configuration/sales/quotes.md %}) are determined by the configuration. By default, an attached file can be up to 2 MB, and of any of the following file types: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG or JPEG, PNG.|
+|Comments|The Comments tab of the Negotiation section is used to enter a message to the buyer about the quote. Add your comment - The comments are used to communicate with the buyer during the negotiation process. Use the comments to explain any discounts offered in the quote, or the reason a quote request is declined. <br/>**Attach file** - The maximum file size and supported file types for [attached files]({% link configuration/sales/quotes.md %}) are determined by the configuration. By default, an attached file can be up to 2 MB, and of any of the following file types: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG or JPEG, PNG.|
 |History Log|The History Log tab displays a complete history of the quote with dates, quote status, and comments.|
 
 ### Quote Totals
 
 |Total Cost|The total cost to the seller of the items included in the quote.|
-|Catalog Total Price  (Incl./Excl. Tax)|The total price of the items in the quote without tax, according to the prices in the shared catalog or master catalog that is used as the basis of the quote. Expand the section to display the values that are used in the calculation, depending on the [Display Subtotal]({{ site.baseurl }}{% link configuration/sales/tax.md %}) setting in the configuration. Options: <br/>**Subtotal (Excl. Tax)** - The Catalog Total Price without estimated tax. <br/>**Subtotal (Incl. Tax)** - The Catalog Total Price without estimated tax. <br/>**Estimated Tax** - The amount of tax that is estimated to apply to the Catalog Total Price.|
+|Catalog Total Price  (Incl./Excl. Tax)|The total price of the items in the quote without tax, according to the prices in the shared catalog or master catalog that is used as the basis of the quote. Expand the section to display the values that are used in the calculation, depending on the [Display Subtotal]({% link configuration/sales/tax.md %}) setting in the configuration. Options: <br/>**Subtotal (Excl. Tax)** - The Catalog Total Price without estimated tax. <br/>**Subtotal (Incl. Tax)** - The Catalog Total Price without estimated tax. <br/>**Estimated Tax** - The amount of tax that is estimated to apply to the Catalog Total Price.|
 |Negotiated Price|The discount that is offered to the buyer can be based on any of the following: <br/>**Percentage Discount** - The discount as a percentage. <br/>**Amount Discount** - The discount as a fixed amount. <br/>**Proposed Price** - The price proposed by the seller.|
-|Quote Subtotal (Incl./Excl. Tax)|The total proposed price of each line item in the quote, either with or without tax, depending on the [tax calculation]({{ site.baseurl }}{% link configuration/sales/tax.md %}) settings in the configuration.|
+|Quote Subtotal (Incl./Excl. Tax)|The total proposed price of each line item in the quote, either with or without tax, depending on the [tax calculation]({% link configuration/sales/tax.md %}) settings in the configuration.|
 |Shipping & Handling|The  amount entered by the seller in the Proposed Shipping Price field in the Shipping Information section of the quote. If that field is empty, the amount is based on the selected shipping method.|
-|Estimated Tax|The amount of tax that is estimated to be due, as specified in the configuration [display settings]({{ site.baseurl }}{% link configuration/sales/tax.md %}).|
+|Estimated Tax|The amount of tax that is estimated to be due, as specified in the configuration [display settings]({% link configuration/sales/tax.md %}).|
 |Quote Grand Total (Incl. Tax)|The final total at the bottom of the quote that includes the negotiated price, estimated tax, and proposed shipping and handling.|
 
 <style>

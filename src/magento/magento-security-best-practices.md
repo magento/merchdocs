@@ -25,7 +25,7 @@ Protecting the environment is the most critical aspect of ensuring the security 
 
 - Make sure that the server operating system is secure. Work with your hosting provider to ensure that  there is no unnecessary software running on the server.
 - Use only secure communications protocol (SSH/SFTP/HTTPS) to manage files, and disable FTP.
-- Magento includes `.htaccess` files to protect system files when using the Apache web server. If you use a different web server such as NGINX, make sure that all system files and directories are protected. For an sample NGINX configuration, see [magento-nginx.conf](https://gist.github.com/gwillem/cd5ae6845fa33aa0d481){: target="_blank"} on GitHub.
+- Magento includes `.htaccess` files to protect system files when using the Apache web server. If you use a different web server such as NGINX, make sure that all system files and directories are protected. For an sample NGINX configuration, see [magento-nginx.conf](https://gist.github.com/gwillem/cd5ae6845fa33aa0d481){:target="_blank"} on GitHub.
 - Use strong and unique passwords, and change them periodically.
 - Keep the system up to date, and immediately install patches when new security issues are discovered.
 - Closely monitor any issues that are reported for software components used by your Magento installation, including the operating system, MySQL database, PHP, Redis (if used), Apache or NGINX, Memcached, Solr, and any other components in your specific configuration.
@@ -34,8 +34,8 @@ Protecting the environment is the most critical aspect of ensuring the security 
 ### Advanced Techniques
 
 - Automate the deployment process, if possible, and use private keys for data transfer.
-- Limit access to the Magento Admin by updating the  whitelist with the IP address of each computer that is authorized to use the  Admin and Magento Connect downloader. For examples of how to whitelist IP addresses, see [Secure Your Magento Admin](https://www.sonassi.com/knowledge-base/magento-kb/secure-your-magento-admin/){: target="_blank"}.
-- Do not install extensions directly on a production server. To disable the Magento Connect downloader on the production site, either remove or block access to the `/downloader` directory. You can also use the same [whitelisting](https://www.sonassi.com/knowledge-base/magento-kb/secure-your-magento-admin/){: target="_blank"} methods.
+- Limit access to the Magento Admin by updating the  whitelist with the IP address of each computer that is authorized to use the  Admin and Magento Connect downloader. For examples of how to whitelist IP addresses, see [Secure Your Magento Admin](https://www.sonassi.com/knowledge-base/magento-kb/secure-your-magento-admin/){:target="_blank"}.
+- Do not install extensions directly on a production server. To disable the Magento Connect downloader on the production site, either remove or block access to the `/downloader` directory. You can also use the same [whitelisting](https://www.sonassi.com/knowledge-base/magento-kb/secure-your-magento-admin/){:target="_blank"} methods.
 - Use two-factor authorization for Admin logins. There are several extensions available that provide additional security by requiring an additional passcode that is generated on your phone, or a token from a special device.
 - Review your server for “development leftovers.” Make sure there are no accessible log files, publicly visible .git directories, tunnels to execute SQL, database dumps, `phpinfo` files, or any other unprotected files that are not required, and that might be used in an attack.
 - Limit outgoing connections to only those that are required, such as for a payment integration.
@@ -61,13 +61,13 @@ Your effort to protect your Magento installation starts with the initial setup, 
 **Your Magento Installation**
 
 - Use the latest version of Magento to ensure that your installation includes the most recent security enhancements. If for any reason you cannot upgrade to the latest version, make sure to install all security patches as recommended by Magento. Although Magento issues security patches to fix major issues, new product releases include additional improvements to help secure the site.
-- Use a unique, [custom Admin URL]({{ site.baseurl }}{% link stores/store-urls-custom-admin.md %}) instead of the default “admin” or the often-used “backend”. Although it will not directly protect your site from a determined attacker, it can reduce exposure to scripts that try to break into every Magento site. (Never leave your valuables in plain sight.)
+- Use a unique, [custom Admin URL]({% link stores/store-urls-custom-admin.md %}) instead of the default “admin” or the often-used “backend”. Although it will not directly protect your site from a determined attacker, it can reduce exposure to scripts that try to break into every Magento site. (Never leave your valuables in plain sight.)
     {:.bs-callout-info}
     Check with your hosting provider before implementing a custom Admin URL. Some hosting providers require a standard URL to meet firewall protection rules.
 - Block access to any development, staging, or testing systems. Use IP [whitelisting](https://www.sonassi.com/knowledge-base/magento-kb/secure-your-magento-admin/) and `.htaccess` password protection. When compromised, such systems can produce a data leak or be used to attack the production system.
 - Use the correct file permissions. Core Magento and directory files should be set to ready only, including `app/etc/local.xml` files.
 - Use a strong  password for the Magento Admin. To learn more, see [Creating a strong password](https://support.google.com/accounts/answer/32040?hl=en).
-- Take advantage of Magento’s security-related configuration settings for [Admin Security]({{ site.baseurl }}{% link stores/security-admin.md %}), [Password Options]({{ site.baseurl }}{% link customers/password-options.md %}), [Two-Factor Authentication for Admin access]({{ site.baseurl }}{% link stores/security-two-factor-authentication.md %}), [CAPTCHA](http://merch.docs.magento.com/ce/user_guide/Magento_Community_Edition_User_Guide.html#configuration/advanced/admin.html), and [Google reCAPTCHA]({{ site.baseurl }}{% link stores/security-google-recaptcha.md %}).
+- Take advantage of Magento’s security-related configuration settings for [Admin Security]({% link stores/security-admin.md %}), [Password Options]({% link customers/password-options.md %}), [Two-Factor Authentication for Admin access]({% link stores/security-two-factor-authentication.md %}), [CAPTCHA](http://merch.docs.magento.com/ce/user_guide/Magento_Community_Edition_User_Guide.html#configuration/advanced/admin.html), and [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).
 - Take advantage of Magento’s free [Magento Security Scan Tool](https://account.magento.com/scanner?_ga=2.67627665.1606684099.1543252630-49206304.1531415640)! Monitor your sites for security risks, update malware patches, and detect unauthorized access with this tool.
 
 ## Do not be Taken for a Ride
@@ -90,7 +90,7 @@ If your system is not immediately patched after a major security breach, there i
 
 - Check periodically for unauthorized Admin users.
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-- Check the [Admin Actions Log]({{ site.baseurl }}{% link system/action-log.md %}) for suspicious activity.
+- Check the [Admin Actions Log]({% link system/action-log.md %}) for suspicious activity.
 <!--{% endif %}-->
 - Use automated log review tools such as [Apache Scalp](https://code.google.com/p/apache-scalp/).
 - Work with your hosting provider to review server logs for suspicious activity, and to implement an Intrusion Detection System (IDS) on your network.
@@ -107,13 +107,13 @@ In the event of a compromise, work with your internal IT security team if availa
 
 1. Try to determine the scope of the attack. Was credit card information accessed? What information was stolen? How much time has elapsed since the compromise? Was the information encrypted? Typically you can expect the following types of attack:
 
-    - **Defacing of Site**—Site access is compromised, but often the payments information is not. User accounts might be compromised.
+   - **Defacing of Site** — Site access is compromised, but often the payments information is not. User accounts might be compromised.
 
-    - **Botnetting**—Your site becomes part of a botnet that sends spam email. Although data is probably not compromised, your server is blacklisted by spam filters which prevents email that you send to customers from being delivered.
+   - **Botnetting** — Your site becomes part of a botnet that sends spam email. Although data is probably not compromised, your server is blacklisted by spam filters which prevents email that you send to customers from being delivered.
 
-    - **Direct Attack on Server**—Data is compromised, backdoors and malware are installed, and the site no longer works. Payment information—provided that it is not stored on the server— is probably safe.
+   - **Direct Attack on Server** — Data is compromised, backdoors and malware are installed, and the site no longer works. Payment information—provided that it is not stored on the server— is probably safe.
 
-    - **Silent Card Capture**—In this most disastrous attack, intruders install hidden malware or card capture software, or possibly modify the checkout process to collect and send out credit card data. Such attacks can go unnoticed for extended periods of time, and result in major compromise of customer accounts and financial information.
+   - **Silent Card Capture** — In this most disastrous attack, intruders install hidden malware or card capture software, or possibly modify the checkout process to collect and send out credit card data. Such attacks can go unnoticed for extended periods of time, and result in major compromise of customer accounts and financial information.
 
 1. Try to find the attack vector to determine how the site was compromised, and when. Review server log files and file changes. Note that sometimes there are multiple different attacks on the same system.
 
@@ -133,7 +133,7 @@ For additional technical best practices and developer-centric information, see t
 
 - The [Magento Security blog][2] investigates and provides insights to security issues, best practices, and solutions for all of your security questions.
 - Try out the free [Magento Security Scan Tool][3]! Monitor your sites for security risks, update malware patches, and detect unauthorized access with this tool from Magento Commerce.
-- Check all available [Developer Tools]({{ site.baseurl }}{% link system/developer-tools.md %}) through the Admin. These features can help test, verify, and prepare your site and Admin for workloads and traffic.
+- Check all available [Developer Tools]({% link system/developer-tools.md %}) through the Admin. These features can help test, verify, and prepare your site and Admin for workloads and traffic.
 - The Magento Community has limitless best practices, recommendations, and tutorials to help get you started with Magento, maintaining your catalogs, and much more. Check out the best [Community Resources][4].
 
 ### Acknowledgments

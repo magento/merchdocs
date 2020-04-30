@@ -4,7 +4,7 @@ title: Creating a Widget
 
 The process of creating a widget is nearly the same for each type. You can follow the first part of the instructions, and then complete the last part for the specific type of widget.
 
-![]({{ site.baseurl }}{% link images/images/widgets.png %}){: .zoom}
+![]({% link images/images/widgets.png %}){: .zoom}
 _Widgets_
 
 ## Step 1: Choose the Type
@@ -19,7 +19,7 @@ _Widgets_
 
 1. Click <span class="btn">Continue</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/widget-settings.png %}){: .zoom}
+    ![]({% link images/images/widget-settings.png %}){: .zoom}
     _Widget Settings_
 
 1. Under **Storefront Properties**, do the following:
@@ -30,7 +30,7 @@ _Widgets_
 
     - Enter a number in the **Sort Order** field to determine the order of the block if it appears in the same location as other content elements. The top position is zero.
 
-    ![]({{ site.baseurl }}{% link images/images/widget-storefront-properties.png %}){: .zoom}
+    ![]({% link images/images/widget-storefront-properties.png %}){: .zoom}
     _Storefront Properties_
 
 ## Step 2: Specify Where It Goes
@@ -41,7 +41,7 @@ _Widgets_
 
 1. In the **Block Reference** list, choose the area of the page layout where it is to be placed.
 
-    ![]({{ site.baseurl }}{% link images/images/widget-layout-update-home-page.png %}){: .zoom}
+    ![]({% link images/images/widget-layout-update-home-page.png %}){: .zoom}
     _Layout Updates_
 
 1. If the widget is a link, set <b>Template </b>to one of the following:
@@ -66,9 +66,9 @@ The options for each widget type vary slightly, but the process is essentially t
 
     - Enter the total **Number of Products to Display**.
 
-    - Set **Condition** to the category of products to be featured. The process is the same as setting a condition for a [price rule]({{ site.baseurl }}{% link marketing/price-rules-catalog.md %}).
+    - Set **Condition** to the category of products to be featured. The process is the same as setting a condition for a [price rule]({% link marketing/price-rules-catalog.md %}).
 
-    ![]({{ site.baseurl }}{% link images/images/widget-options-new-product-list.png %}){: .zoom}
+    ![]({% link images/images/widget-options-new-product-list.png %}){: .zoom}
     _Widget Options_
 
 1. When complete, click <span class="btn">Save</span>.

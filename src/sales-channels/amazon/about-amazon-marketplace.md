@@ -18,7 +18,7 @@ Product information provides data common to every instance of the same product l
 
 Listing information provides seller-specific information about products. These details often differ from other sellers' listing for the same product. For example, you may sell the same yoga pants as another seller, but your item number, condition, price, or shipping method time may be different. These details are unique to your listing for the product.
 
-If you want to contribute product information or correct erroneous information on a product detail page, refer to [Amazon: Product Detail][1]{: target="_blank"}.
+If you want to contribute product information or correct erroneous information on a product detail page, refer to [Amazon: Product Detail][1]{:target="_blank"}.
 
 ## Amazon Fulfillment
 
@@ -27,18 +27,18 @@ Amazon offers two options for order fulfillment and shipping to third-party sell
 - Fulfilled by the merchant (FBM): Third-party sellers store their own inventory. When a customer places an order, the seller handles the packaging and shipping to the customer. This option allows you to complete shipments through Magento or another third party.
 - Fulfilled by Amazon (FBA): Third-party sellers store inventory in Amazon's fulfillment centers around the world. When a customer places an order, Amazon handles the packaging and shipping to the customer. Order details and status are sent to Magento.
 
-Amazon Sales Channel supports both options, receiving and tracking these orders through the Magento Admin. As you complete fulfillment, status updates automatically. For complete details, see [Fulfillment Workflows]({{ site.baseurl }}{% link sales-channels/amazon/fulfillment-workflows.md %}).
+Amazon Sales Channel supports both options, receiving and tracking these orders through the Magento Admin. As you complete fulfillment, status updates automatically. For complete details, see [Fulfillment Workflows]({% link sales-channels/amazon/fulfillment-workflows.md %}).
 
 ## Before selling on Amazon
 
 Amazon follows a set of policies and workflows to ensure all sellers and products adhere to specified guidelines. To best ensure your products and account are approved and eligible for listing, we recommend reviewing the following information and policies:
 
-- [Help for Amazon sellers][2]{: target="_blank"}
-- [Product detail page rules][3]{: target="_blank"}
-- [Shipping policies][4]{: target="_blank"}
-- [Policies and agreements][5]{: target="_blank"}
-- [Selling policies][6]{: target="_blank"}
-- [Prohibited seller activities and actions][7]{: target="_blank"}
+- [Help for Amazon sellers][2]{:target="_blank"}
+- [Product detail page rules][3]{:target="_blank"}
+- [Shipping policies][4]{:target="_blank"}
+- [Policies and agreements][5]{:target="_blank"}
+- [Selling policies][6]{:target="_blank"}
+- [Prohibited seller activities and actions][7]{:target="_blank"}
 
 [1]: https://sellercentral.amazon.com/gp/help/external/200335450?language=en_US&amp;ref=efph_200335450_cont_G200182950
 [2]: https://sellercentral.amazon.com/gp/help/external/help-page.html?itemID=2&amp;language=en_US&amp;ref=efph_2_bred_200390640
@@ -47,3 +47,4 @@ Amazon follows a set of policies and workflows to ensure all sellers and product
 [5]: https://www.amazon.com/gp/help/customer/display.html?nodeId=1161272
 [6]: https://www.amazon.com/gp/help/customer/display.html?nodeId=200267770
 [7]: https://www.amazon.com/gp/help/customer/display.html?nodeId=200414320
+""'

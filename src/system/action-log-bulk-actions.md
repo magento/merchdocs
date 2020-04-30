@@ -3,30 +3,30 @@ conditions: Default.EE-B2B
 title: Bulk Actions
 ---
 
-The Bulk Actions Log records the details of asynchronous mass operations that run in the background, such as import/export{% if "Default.EE Only" contains site.edition %}.{% endif %}{% if "Default.B2B Only" contains site.edition %}, or assigning [custom prices]({{ site.baseurl }}{% link catalog/catalog-shared-custom-pricing-update.md %}) to multiple products in a [shared catalog]({{ site.baseurl }}{% link catalog/catalog-shared.md %}).{% endif %}
+The Bulk Actions Log records the details of asynchronous mass operations that run in the background, such as import/export{% if "Default.EE Only" contains site.edition %}.{% endif %}{% if "Default.B2B Only" contains site.edition %}, or assigning [custom prices]({% link catalog/catalog-shared-custom-pricing-update.md %}) to multiple products in a [shared catalog]({% link catalog/catalog-shared.md %}).{% endif %}
 
-![]({{ site.baseurl }}{% link images/images-ee/system-bulk-actions-log.png %}){: .zoom}
+![Bulk actions log]({% link images/images-ee/system-bulk-actions-log.png %}){: .zoom}
 _Bulk Actions Log_
 
-## To configure bulk actions:
+## Configure Bulk Actions
 
-1.  On the _Admin_ sidebar, click **Stores**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1.  Under _Settings_, choose **Configuration**.
+1. In the left panel, expand **Advanced** and choose **System**.
 
-1.  On the left-side panel under _Advanced_, choose **System**.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Bulk Actions** section and set the log save option:
 
-1.  Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Bulk Actions** section.
+    **Days Saved in Log** — Enter the number of days that bulk actions are saved in a log.
 
-    -  **Days Saved in Log**—Enter the number of days that bulk actions are saved in a log.
+    ![Advanced configuration - bulk actions]({% link images/images-ee/config-advanced-system-bulk-actions.png %}){: .zoom}
+    [_Bulk Actions_]({% link configuration/advanced/system.md %})
 
-    ![]({{ site.baseurl }}{% link images/images-ee/config-advanced-system-bulk-actions.png %}){: .zoom}
-    [_Bulk Actions_]({{ site.baseurl }}{% link configuration/advanced/system.md %})
+1. When complete, click <span class="btn">Save Config</span>.
 
-1.  When complete, click **Save Config**.
+## View Bulk Actions
 
-## To view bulk actions:
+1. On the _Admin_ sidebar, go to **System** > _Actions Logs_ > **Bulk Actions**.
 
-Find the desired action in the log.
+1. Find the desired action in the log.
 
-In the **Action** column, click **Details**.
+1. In the **Action** column, click **Details**.

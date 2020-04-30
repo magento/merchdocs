@@ -3,7 +3,7 @@ title: Creating an Alias Amazon Seller SKU
 ---
 
 
-An Alias Amazon Seller SKU is used to create a new Amazon listing from same product in your Magento catalog. If you are an experienced Amazon seller, you may be familiar with the [Amazon Global SKU][1]{: target="_blank"} and Marketplace-specific SKU for inventory and shipping. Following similar principles for Amazon Sales Channel, the Amazon Seller SKU controls product listing information at multi-regional level, and the Alias Amazon Seller SKU can be used to control product listing information at a region-specific level.
+An Alias Amazon Seller SKU is used to create a new Amazon listing from same product in your Magento catalog. If you are an experienced Amazon seller, you may be familiar with the [Amazon Global SKU][1]{:target="_blank"} and Marketplace-specific SKU for inventory and shipping. Following similar principles for Amazon Sales Channel, the Amazon Seller SKU controls product listing information at multi-regional level, and the Alias Amazon Seller SKU can be used to control product listing information at a region-specific level.
 
 This function can be used to perform two functions:
 
@@ -30,9 +30,9 @@ View the listing in one of the Product Listing screens (Inactive, Active, Inelig
 
 1. Toggle the Remove Existing Seller SKU option to Yes or No.
 
-    - **Yes**: Select this option to delete the listing and create a new listing using the new information provided.
+   - **Yes**: Select this option to delete the listing and create a new listing using the new information provided.
 
-    - **No**: Select this option to create a new listing and keep the old listing unchanged.
+   - **No**: Select this option to create a new listing and keep the old listing unchanged.
 
 1. Click <span class="btn">Save Listing Update</span>.
 
@@ -50,13 +50,13 @@ View the listing in one of the Product Listing screens (Inactive, Active, Inelig
 
 1. Toggle the Remove Existing Seller SKU option to Yes or No.
 
-    - **Yes**: Select this option to delete the listing and create a new listing using the new information provided.
+   - **Yes**: Select this option to delete the listing and create a new listing using the new information provided.
 
-    - **No**: Select this option to create a new listing and keep the old listing unchanged.
+   - **No**: Select this option to create a new listing and keep the old listing unchanged.
 
 1. Click <span class="btn">Save Listing Update</span>.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-alias-sku-create.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-alias-sku-create.png %}){: .zoom}
 _Create an Alias Amazon Seller SKU_
 
 |Field|Description|

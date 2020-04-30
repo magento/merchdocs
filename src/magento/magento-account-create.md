@@ -7,11 +7,11 @@ Anyone can open a free Magento account from our website. The email address that 
 
 ## To create a Magento account:
 
-1. Visit the Magento site at: **[http://www.magento.com][1]{: target="_blank"}**
+1. Visit the Magento site at: **[http://www.magento.com][1]{:target="_blank"}**
 
 1. In the upper-right corner, click the **My Account** icon. Then under New Customers, click <span class="btn"> Register </span>.
 
-   ![]({{ site.baseurl }}{% link images/images/magento-account-login.png %}){: .zoom}
+   ![]({% link images/images/magento-account-login.png %}){: .zoom}
    _Account log in_
 
 1. Under Personal Information, do the following:
@@ -20,12 +20,12 @@ Anyone can open a free Magento account from our website. The email address that 
 
    - Set **My Company Primarily** to the best description of what your company does. Then, set **My Role** to the best description of what you do for the company.
 
-   ![]({{ site.baseurl }}{% link images/images/magento-account-create.png %}){: .zoom}
+   ![]({% link images/images/magento-account-create.png %}){: .zoom}
    _Create an account_
 
 1. Under Login Information, do the following:
 
-   - Enter a **Screen Name** to identify you in the [Magento Community Forums][2]{: target="_blank"}.
+   - Enter a **Screen Name** to identify you in the [Magento Community Forums][2]{:target="_blank"}.
 
       Your screen name can be from four to fifteen characters long, can include numbers and the underscore, but must start with a letter.
 
@@ -65,12 +65,12 @@ Anyone can open a free Magento account from our website. The email address that 
 
 1. Enter your **New Password**. Then, enter it again to confirm.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    Your Magento password must be between 8-16 characters, and include at least one capital letter, one number, and one special character or lowercase letter.
 
 1. When complete, click <span class="btn"> Save </span>.
 
-   ![]({{ site.baseurl }}{% link images/images/magento-account-change-password.png %}){: .zoom}
+   ![]({% link images/images/magento-account-change-password.png %}){: .zoom}
    _Change password_
 
 [1]: http://go.magento.com/

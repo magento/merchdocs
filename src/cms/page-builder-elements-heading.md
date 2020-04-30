@@ -5,32 +5,32 @@ title: Heading
 
 Heading levels establish a hierarchy that organizes content, and helps search engines index each page. Use the Heading content type to add a text container with a heading level from H1 to H6 to the stage. Headings are formatted according to the style sheet that is associated with the current theme.
 
-The [Content Heading]({{ site.baseurl }}{% link cms/page-builder-workspace.md %}) field in the Content section can be used to add an H1 heading to the top of the page. However, the field is a legacy from previous versions of Magento and is provided to support older content. Because this field does not take advantage of Page Builder’s advanced features, we recommend that you leave the Content Heading field blank and use the Page Builder Heading content type to add headings of any level to the page. The following screen shows how the Content Heading and the Heading content type appear when formatted by the Luma theme.
+The [Content Heading]({% link cms/page-builder-workspace.md %}) field in the Content section can be used to add an H1 heading to the top of the page. However, the field is a legacy from previous versions of Magento and is provided to support older content. Because this field does not take advantage of Page Builder’s advanced features, we recommend that you leave the Content Heading field blank and use the Page Builder Heading content type to add headings of any level to the page. The following screen shows how the Content Heading and the Heading content type appear when formatted by the Luma theme.
 
-![]({{ site.baseurl }}{% link images/images-ee/page-builder-storefront-heading-levels.png %}){: .zoom}
+![]({% link images/images-ee/page-builder-storefront-heading-levels.png %}){: .zoom}
 _Content Heading and Heading Levels_
 
-You can drag a heading from the _Elements_ section of the Page Builder panel to a row, column, or tab set on the stage. The heading level and alignment can be controlled from the editor toolbar on the stage, or by using the Settings ( ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}) control.
+You can drag a heading from the _Elements_ section of the Page Builder panel to a row, column, or tab set on the stage. The heading level and alignment can be controlled from the editor toolbar on the stage, or by using the Settings ( ![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) control.
 
-![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-heading-toolbar.png %}){: .zoom}
+![]({% link images/images-ee/page-builder-elements-heading-toolbar.png %}){: .zoom}
 _Heading with Toolbar_
 
 As with all content containers, the toolbox appears when you hover over the container.
 
-![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-heading-toolbox.png %}){: .zoom}
+![]({% link images/images-ee/page-builder-elements-heading-toolbox.png %}){: .zoom}
 _Heading with Toolbox_
 
 ## To add a heading
 
 1. In the Page Builder panel, expand **Elements**. Then, drag a **Heading** placeholder to a row, column, or tab set on the stage.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-text-drag.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-text-drag.png %}){: .zoom}
 
 1. In the editor, enter the heading text over the `Edit Heading Text` placeholder.
 
    By default, the heading text is assigned a level two (H2) heading type.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-header-editor-placeholder.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-header-editor-placeholder.png %}){: .zoom}
    _Placeholder in Heading Editor_
 
 1. In the toolbar, do the following:
@@ -43,9 +43,9 @@ _Heading with Toolbox_
 
 ## To edit header settings
 
-1. Hover over the heading container. Then, choose **Settings** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox.
+1. Hover over the heading container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-heading-toolbox.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-heading-toolbox.png %}){: .zoom}
    _Header Toolbox_
 
 1. Update the settings as needed, using the [descriptions](#heading-settings) at the end of this page for reference.
@@ -56,43 +56,42 @@ _Heading with Toolbox_
 
 For a formatted heading with specific settings, it is more efficient to duplicate the heading, rather than start over with a new placeholder.
 
-1. Hover over the heading container. Then, choose **Duplicate** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-duplicate.png %}){: .Inline})  in the toolbox.
+1. Hover over the heading container. Then, choose **Duplicate** (![]({% link images/images-ee/icon-pb-duplicate.png %}){: .Inline})  in the toolbox.
 
    The duplicate appears just below the original.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-heading-duplicate.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-heading-duplicate.png %}){: .zoom}
    _Duplicate Heading_
 
-1. To move the new heading, hover over the container. Then, choose **Move** (![]({{ site.baseurl }}{% link images/images-ee/icon-pb-move.png %}){: .Inline}) in the toolbox.
+1. To move the new heading, hover over the container. Then, choose **Move** (![]({% link images/images-ee/icon-pb-move.png %}){: .Inline}) in the toolbox.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-heading-move.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-heading-move.png %}){: .zoom}
    _Move Heading_
 
 1. Select and drag the heading until the red guideline marks the new position.
 
    The top and bottom borders of each container appear as dashed lines while the heading is moved.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-heading-move-guideline.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-heading-move-guideline.png %}){: .zoom}
    _Move Duplicate Heading_
 
 1. If you need to change the heading level, click the heading text. Then, choose the new level in the toolbar.
 
-   ![]({{ site.baseurl }}{% link images/images-ee/page-builder-elements-heading-change-heading-level.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-elements-heading-change-heading-level.png %}){: .zoom}
    _Choose New Heading Level_
 
 ## Heading Toolbox
 
-| Tool      | [Icon]({{ site.baseurl }}{% link configuration/scope.md %})              | Description                                                                        |
+| Tool      | [Icon]({% link configuration/scope.md %})              | Description                                                                        |
 | --------- | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| Move      | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-move.png %})      | Moves the heading container to another valid place on the page.                    |
+| Move      | ![]({% link images/images-ee/icon-pb-move.png %})      | Moves the heading container to another valid place on the page.                    |
 | (label)   | HEADING                                                                  | Identifies the current container as a heading.                                     |
-| Settings  | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-settings.png %})  | Opens the Edit Heading page, where you can change the properties of the container. |
-| Hide      | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-hide.png %})      | Hides the heading container.                                                       |
-| Show      | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-show.png %})      | Shows the hidden heading container.                                                |
-| Duplicate | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the heading container.                                   |
-| Remove    | ![]({{ site.baseurl }}{% link images/images-ee/icon-pb-remove.png %})    | Deletes the heading container and its content from the stage.                      |
+| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %})  | Opens the Edit Heading page, where you can change the properties of the container. |
+| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})      | Hides the heading container.                                                       |
+| Show      | ![]({% link images/images-ee/icon-pb-show.png %})      | Shows the hidden heading container.                                                |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the heading container.                                   |
+| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})    | Deletes the heading container and its content from the stage.                      |
 
-{: #heading-settings}
 ## Heading Settings
 
 |Setting|Description|

@@ -1,27 +1,27 @@
 ---
 conditions: Default.EE-B2B
-title: Configuring “Smart Attributes” for Visual Merchandiser
+title: Configuring Smart Attributes for Visual Merchandiser
 ---
 
-The Visual Merchandiser configuration determines the attributes that can be used in the merchandising window, the minimum stock threshold, and identifies the attribute used for color, and the order of color values.
+The Visual Merchandiser configuration determines the attributes that can be used in the merchandising window and the minimum stock threshold. The configuration also identifies the attribute used for color and the order of color values.
 
-![]({{ site.baseurl }}{%- link images/images-ee/config-catalog-visual-merchandiser-general-options.png -%}){: .zoom}
-*General Options*
+![Catalog configuration - visual merchandiser]({% link images/images-ee/config-catalog-visual-merchandiser-general-options.png %}){: .zoom}
+_General Options_
 
-## To configure Visual Merchandiser
+## Configure Visual Merchandiser
 
-1. On the Admin sidebar, tap <span class="btn">Stores</span>. Then under Settings, choose **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the panel on the left, under **Catalog**, choose **Catalog**.
+1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Visual Merchandising Options** section. Then, do the following:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Visual Merchandising Options** section. Then, do the following:
 
-    * In the **Attributes for Category Rules** list, select each attribute that you want to make available for visual merchandising. To choose multiple items, hold down the Ctrl key, and click each item.
+    - In the **Attributes for Category Rules** list, select each attribute that you want to make available for visual merchandising. To select multiple attributes, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.
 
-    * Enter the **Minimum Stock Threshold** for a product to appear in the Visual Merchandiser window.
+    - Enter the **Minimum Stock Threshold** for a product to appear in the Visual Merchandiser window.
 
-    * Enter the **Color Attribute Code**. The default value is `color`. If your catalog uses a different attribute, enter the attribute name in lowercase.
+    - Enter the **Color Attribute Code**. The default value is `color`. If your catalog uses a different attribute, enter the attribute name in lowercase.
 
-    * In the **Color Order** box, enter each color value on a separate line and in sequence, to determine the priority of each color.
+    - For **Color Order**, enter each color value on a separate line and in sequence to determine the priority of each color.
 
-1. When complete, tap <span class="btn">Save Config</span>.
+1. When complete, click <span class="btn">Save Config</span>.

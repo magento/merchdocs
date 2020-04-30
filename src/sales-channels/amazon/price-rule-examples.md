@@ -4,15 +4,15 @@ title: Price Rule Examples
 
 ## Standard Price Rule Examples
 
-#### Discard Subsequent Rules
+### Discard Subsequent Rules
 
 The ability to discard subsequent rules is a great feature inside of pricing rules that prevents multiple pricing rules from stacking and providing unintended additional discounts. To discard subsequent rules, a pricing rule must use the priorities that are set in the Priority section.
 
 If Discard Subsequent Rules is set to Yes, the rules with lower priority (higher numbers) will not apply to the eligible products.
 
-For example, let’s say we have three pricing rules set up:
+For example, let's say we have three pricing rules set up:
 
-| Rule Name | [Priority]({{ site.baseurl }}{% link configuration/scope.md %}){: .Scope} | Discard Subsequent Rule |
+| Rule Name | [Priority]({% link configuration/scope.md %}){: .Scope} | Discard Subsequent Rule |
 |----------|
 | 1. 10% off sale products | 1 | No |
 | 2. $2 off sale products | 2 | Yes |
@@ -20,7 +20,7 @@ For example, let’s say we have three pricing rules set up:
 
 In this scenario, rules #1 and #2 would apply to the eligible products. Rule #3 would only apply to eligible products not contained within Rule #2. This is because it has a lower priority than #2 and Discard Subsequent Rules is set to Yes. So, the eligible products in the sale category would receive 10% off and $2 off their Amazon listing price.
 
-#### Applying two standard price rules
+### Applying two standard price rules
 
 | Field | Setting - Rule 1 | Setting - Rule 2 |
 |----------|
@@ -53,7 +53,7 @@ The final price after Rule 1 and Rule 2 are applied: $32.98
 
 ## Intelligent Repricing Rule Examples
 
-#### Buy Box price with Floor Price Source = Price
+### Buy Box price with Floor Price Source = Price
 
 | Field | Setting |
 |----------|
@@ -85,7 +85,7 @@ Because the Buy Box price is greater than the original price, the product is lis
 
 The final price after the rule is applied: $10
 
-#### Buy Box price with Floor Price Source = Price and a 20% price decrease
+### Buy Box price with Floor Price Source = Price and a 20% price decrease
 
 | Field | Setting |
 |----------|
@@ -135,7 +135,7 @@ Because the Buy Box price is greater than the Calculated Floor Price, the produc
 
 The final price after the rule is applied: $15
 
-#### Lowest Price with All Competitor's Prices and Use all competitor's product conditions
+### Lowest Price with All Competitor's Prices and Use all competitor's product conditions
 
 | Field | Setting |
 |----------|
@@ -176,7 +176,7 @@ Because the lowest competitor price for the Used condition is $13, the product i
 
 The final price after the rule is applied: $13
 
-####  Intelligent repricing rule combining ceiling price, currency conversion, and VAT 
+### Intelligent repricing rule combining ceiling price, currency conversion, and VAT
 
 | Field | Setting |
 |----------|
@@ -190,7 +190,7 @@ When the ceiling price in the European (VAT) market is hit, the VAT is calculate
 
 Final price after VAT: $12.50 x (1.1) = $13.75
 
-#### Combining multiple pricing rules, ceiling price, currency conversion, and VAT
+### Combining multiple pricing rules, ceiling price, currency conversion, and VAT
 
 **Intelligent pricing rule (from previous example):**
 
@@ -218,11 +218,11 @@ When the ceiling price is hit, the standard pricing rule will be applied on top 
 
 Final price after the standard pricing rule is applied: $13.75 + $5.00 = $18.75
 
-#### Price Adjustment
+### Price Adjustment
 
-In this example, we have chosen to define our most competitive price by looking at our Amazon competitor’s lowest price who also have 95% positive feedback and a minimum feedback count of 1,000 merchant reviews.
+In this example, we have chosen to define our most competitive price by looking at our Amazon competitor's lowest price who also have 95% positive feedback and a minimum feedback count of 1,000 merchant reviews.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-price-adjustment-example.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-price-adjustment-example.png %}){: .zoom}
 _Price Adjustment Example_
 
 After running this search based on these parameters, our competitive price comes back at $25.
@@ -235,7 +235,7 @@ From here, we have three different Price Action choices based on this lowest pri
 |Apply|Options: Apply as percentage / Apply as fixed amount|
 |Adjustment Amount|Numerical value to define the percentage or fixed amount for the discount to be applied. <br/>These selections mean that we are going to take the lowest price and set ours $0.01 less.|
 
-#### Floor Price
+### Floor Price
 
 | Field | Setting |
 |----------|

@@ -1,2 +1,2 @@
 
-- **End Listing**: Choose to remove the listing from the Amazon marketplace. See [Ended Listings]({{ site.baseurl }}{% link sales-channels/amazon/ended-listings.md %}).
+- **End Listing**: Choose to remove the listing from the Amazon marketplace. See [End an Amazon Listing]({% link sales-channels/asc/end-listings-manually.md %}).

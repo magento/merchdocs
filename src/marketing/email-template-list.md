@@ -5,2313 +5,269 @@ title: Email Template List
 
 The list of email templates is organized alphabetically by Magento module.
 
-<table>
-      <h3 class="TableHeading">Email Templates</h3>
-        <col WIDTH="200">
-        <col WIDTH="auto">
-      <thead>
-         <tr>
-            <th>Template</th>
-            <th>Configuration path</th>
-         </tr>
-      </thead>
-      <tbody markdown="1">
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_Checkout</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Payment Failed</td>
-            <td>
-               <table>
-                     <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/checkout.md %}">Checkout</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Payment Failed Emails</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Payment Failed Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <!--{% if "Default.B2B Only" contains site.edition %}-->
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_Company</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Assign Company Admin</td>
-            <td>
-               <table>            
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Assign Company to Customer</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Company Admin Changed to Member</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Company Admin Set Inactive</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Company Registration Request</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Company Status Active1</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Company Status Active2</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Company Status Blocked</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Company Status Pending Approval</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Company Status Rejected</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Customer Status Active</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Customer Status Inactive</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Sales Representative Assigned to Company</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_CompanyCredit</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Credit Limit Allocated</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Credit Limit Updated</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Credit Reimbursed</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Order Refunded to Company Credit</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Order Reverted to Company Credit</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <!--{% endif %}-->
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_Contact</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Contact Form</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>General &gt; <a href="{{ site.baseurl }}{% link configuration/general/contacts.md %}">Contacts</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Email Options</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_Customer</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Change Email</td>
-            <td>n/a</td>
-         </tr>
-         <tr>
-            <td>Change Email and Password</td>
-            <td>n/a</td>
-         </tr>
-         <tr>
-            <td>Forgot Password</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Password Options</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Forgot Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>New Account</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Create New Account Options</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Default Welcome Email</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>New Account (Magento/luma)</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Create New Account Options</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Default Welcome Email</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>New Account Confirmation Key</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Create New Account Options</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Confirmation Link Email</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>New Account Confirmed</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Create New Account Options</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Welcome Email</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>New Account Without Password</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Create New Account Options</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <p>Field:</p>
-                        </td>
-                        <td>Default Welcome Email Without Password</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Remind Password</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Password Options</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Remind Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Reset Password</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}">Customer Configuration</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Password Options</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Reset Password Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <!--{% if "Default.EE-B2B" contains site.edition %}-->
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_CustomerBalance</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Store Credit Update</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <!--{% endif %}-->
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_Directory</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Currency Update Warnings</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>General &gt; <a href="{{ site.baseurl }}{% link configuration/general/currency-setup.md %}">Currency Setup</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Scheduled Import Settings</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Error Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_Email</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Footer</td>
-            <td>n/a</td>
-         </tr>
-         <tr>
-            <td>Footer (Magento/luma)</td>
-            <td>n/a</td>
-         </tr>
-         <tr>
-            <td>Header</td>
-            <td>n/a</td>
-         </tr>
-         <!--{% if "Default.EE-B2B" contains site.edition %}-->
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_GiftCard</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Gift Card(s) Purchase</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_GiftCardAccount</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Gift Card Code/Balance</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_GiftRegistry</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>New Registry</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Registry Sharing</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Registry Update</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_Invitation</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Customer Invitation</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <!--{% endif %}-->
-         <!--{% if "Default.B2B Only" contains site.edition %}-->
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_NegotiableQuote</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Declined Quote</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Expiration Date Reset</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Expiration Warning</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Expiration Warning1</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>New Quote</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Updated Quote</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <!--{% endif %}-->
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_Newsletter</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Subscription Confirmation</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/newsletter.md %}">Newsletter</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Subscription Options</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Confirmation Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Subscription Success</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/newsletter.md %}">Newsletter</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Subscription Options</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Success Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Unsubscription Success</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/newsletter.md %}">Newsletter</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Subscription Options</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Unsubscription Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_ProductAlert</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Cron Error Warning</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Catalog &gt; <a href="{{ site.baseurl }}{% link configuration/catalog/catalog.md %}">Catalog</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Product Alerts Run Settings</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Error Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Price Alert</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Catalog &gt; <a href="{{ site.baseurl }}{% link configuration/catalog/catalog.md %}">Catalog</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Product Alerts</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Price Alert Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Stock Alert</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Catalog &gt; <a href="{{ site.baseurl }}{% link configuration/catalog/catalog.md %}">Catalog</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Product Alerts</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Stock Alert Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <!--{% if "Default.EE-B2B" contains site.edition %}-->
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_Reminder</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Promotion Notification/Reminder</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_Reward</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Balance Update</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Points Expiry Warning</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_Rma</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>New RMA</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>New RMA for Guest</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>RMA Admin Comments</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>RMA Admin Comments for Guest</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>RMA Authorization</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>RMA Authorization for Guest</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>RMA Customer Comments</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <!--{% endif %}-->
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_Sales</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Credit Memo Update</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Credit Memo Contents</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Credit Memo Comment Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Credit Memo Update (Magento/luma)</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Credit Memo Comments</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Credit Memo Comment Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Credit Memo Update for Guest</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Credit Memo Comments</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Credit Memo Comment Email Template for Guest</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Credit Memo Update for Guest (Magento/luma)</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Credit Memo Comments</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Credit Memo Comment Email Template for Guest</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Invoice Update</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Invoice Comments</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Invoice Comment Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Invoice Update (Magento/luma)</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Invoice Comments</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Invoice Comment Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Invoice Update for Guest</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Invoice Comments</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Invoice Comment Email Template for Guest</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>New Credit Memo</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Credit Memo</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Credit Memo Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>New Credit Memo (Magento/luma)</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Credit Memo</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Credit Memo Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>New Credit Memo for Guest</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Credit Memo</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Credit Memo Email Template for Guest</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>New Credit Memo for Guest (Magento/luma)</td>
-            <td>
-               <table>
-               <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Credit Memo</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Credit Memo Email Template for Guest</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>New Invoice </td>
-            <td>Stores -&gt; Configuration -&gt; Sales Emails -&gt; Invoice -&gt; Invoice Email Template  (Default Config)<table>
-                  <col WIDTH="100">
-                    <col WIDTH="auto"><tbody><tr><td>Page:</td><td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td></tr><tr><td>Section:</td><td>Invoice</td></tr><tr><td>Field:</td><td>Invoice Email Template</td></tr></tbody></table></td>
-         </tr>
-         <tr>
-            <td>New Invoice (Magento/luma)</td>
-            <td>Stores -&gt; Configuration -&gt; Sales Emails -&gt; Invoice -&gt; Invoice Email Template  (Default Config)<table>
-                  <col WIDTH="100">
-                <col WIDTH="auto"><tbody><tr><td>Page:</td><td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td></tr><tr><td>Section:</td><td>Invoice</td></tr><tr><td>Field:</td><td>Invoice Email Template</td></tr></tbody></table></td>
-         </tr>
-         <tr>
-            <td>New Invoice for Guest</td>
-            <td>Stores -&gt; Configuration -&gt; Sales Emails -&gt; Invoice -&gt; Invoice Email Template for Guest  (Default Config)<table>
-                      <col WIDTH="100">
-                <col WIDTH="auto"><tbody><tr><td>Page:</td><td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td></tr><tr><td>Section:</td><td>Invoice</td></tr><tr><td>Field:</td><td>Invoice Email Template for Guest</td></tr></tbody></table></td>
-         </tr>
-         <tr>
-            <td>New Invoice for Guest (Magento/luma)</td>
-            <td>Stores -&gt; Configuration -&gt; Sales Emails -&gt; Invoice -&gt; Invoice Email Template for Guest  (Default Config)<table><col WIDTH="100">
-                <col WIDTH="auto"><tbody><tr><td>Page:</td><td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td></tr><tr><td>Section:</td><td>Invoice</td></tr><tr><td>Field:</td><td>Invoice Email Template for Guest</td></tr></tbody></table></td>
-         </tr>
-         <tr>
-            <td>New Order</td>
-            <td>
-               <table>
-                     <col WIDTH="100">
-                <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Order</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>New Order Confirmation Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>New Order (Magento/luma)</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Order</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>New Order Confirmation Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>New Order for Guest</td>
-            <td>
-               <table>
-                     <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Order</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>New Order Confirmation Template for Guest</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>New Order for Guest (Magento/luma)</td>
-            <td>
-               <table>
-                     <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Order</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>New Order Confirmation Template for Guest</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>New Shipment</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Shipment</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Shipment Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>New Shipment (Magento/luma)</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Shipment</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Shipment Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>New Shipment for Guest</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Shipment</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Shipment Email Template for Guest</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>New Shipment for Guest (Magento/luma)</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Shipment</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Shipment Email Template for Guest</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Order Update</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Order Comments</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Order Comment Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Order Update (Magento/luma)</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Order Comments</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Order Comment Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Order Update for Guest</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Order Comments</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Order Comment Email Template for Guest</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Order Update for Guest (Magento/luma)</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Order Comments</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Order Comment Email Template for Guest</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Shipment Update</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Shipment Comments</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Shipment Comment Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Shipment Update (Magento/luma)</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Shipment Comments</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Shipment Comment Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Shipment Update for Guest</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Shipment Comments</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Shipment Comment Email Template for Guest</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Shipment Update for Guest (Magento/luma)</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Sales &gt; <a href="{{ site.baseurl }}{% link configuration/sales/sales-emails.md %}">Sales Emails</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Shipment Comments</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Shipment Comment Email Template for Guest</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <!--{% if "Default.EE-B2B" contains site.edition %}-->
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_ScheduledImportExport</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Export Failed</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>File History Clean  Failed</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>Import Failed</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td> </td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td> </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <!--{% endif %}-->
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_SendFriend</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Send Product Link to Friend</td>
-            <td>
-               <table><col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Catalog &gt; <a href="{{ site.baseurl }}{% link configuration/catalog/email-to-a-friend.md %}">Email to a Friend</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Email Templates</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Select Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_Sitemap</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Sitemap Generation  Settings</td>
-            <td>
-               <table> <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Catalog &gt; <a href="{{ site.baseurl }}{% link configuration/catalog/xml-sitemap.md %}">XML Sitemap</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Generation Settings</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Error Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_User</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Forgot Admin Password</td>
-            <td>
-               <table>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                  <tbody>
-                     <tr>
-                        <td>Page:</td>
-                        <td>Advanced &gt; <a href="{{ site.baseurl }}{% link configuration/advanced/admin.md %}">Admin</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Admin User Emails</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Forgot Password Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-         <tr>
-            <td>User Notification</td>
-            <td>Stores -&gt; Configuration -&gt; Admin -&gt; Admin User Emails -&gt; User Notification Template  (Default Config)<table>
-                    <col WIDTH="150">
-                    <col WIDTH="auto"><tbody><tr><td>Page:</td><td>Advanced &gt; <a href="{{ site.baseurl }}{% link configuration/advanced/admin.md %}">Admin</a></td></tr><tr><td>Section:</td><td>Admin User Emails</td></tr><tr><td>Field:</td><td>User Notification Template</td></tr></tbody></table></td>
-         </tr>
-         <tr>
-            <td colspan="2">
-               <h3 class="tableBodyBold">Magento_Wishlist</h3>
-            </td>
-         </tr>
-         <tr>
-            <td>Magento Wish List Sharing</td>
-            <td>
-               <table>
-                  <tbody>
-                    <col WIDTH="100">
-                    <col WIDTH="auto">
-                     <tr>
-                        <td>Page:</td>
-                        <td>Customers &gt; <a href="{{ site.baseurl }}{% link configuration/customers/wishlist.md %}">Wish List</a></td>
-                     </tr>
-                     <tr>
-                        <td>Section:</td>
-                        <td>Share Options</td>
-                     </tr>
-                     <tr>
-                        <td>Field:</td>
-                        <td>Email Template</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </td>
-         </tr>
-      </tbody>
-   </table>
+## Magento_Checkout
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Payment Failed | **Page:** Sales > [Checkout]({% link configuration/sales/checkout.md %})<br/>**Section:** Payment Failed Emails<br/>**Field:** Payment Failed Template|
+
+<!--{% if "Default.B2B Only" contains site.edition %}-->
+## Magento_Company
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Assign Company Admin | **Page:** <br/>**Section:** <br/>**Field:** |
+| Assign Company to Customer | **Page:** <br/>**Section:** <br/>**Field:** |
+| Company Admin Changed to Member | **Page:** <br/>**Section:** <br/>**Field:** |
+| Company Admin Set Inactive | **Page:** <br/>**Section:** <br/>**Field:** |
+| Company Registration Request | **Page:** <br/>**Section:** <br/>**Field:** |
+| Company Status Active1 | **Page:** <br/>**Section:** <br/>**Field:** |
+| Company Status Active2 | **Page:** <br/>**Section:** <br/>**Field:** |
+| Company Status Blocked | **Page:** <br/>**Section:** <br/>**Field:** |
+| Company Status Pending Approval | **Page:** <br/>**Section:** <br/>**Field:** |
+| Company Status Rejected | **Page:** <br/>**Section:** <br/>**Field:** |
+| Customer Status Active | **Page:** <br/>**Section:** <br/>**Field:** |
+| Customer Status Inactive | **Page:** <br/>**Section:** <br/>**Field:** |
+| Sales Representative Assigned to Company | **Page:** <br/>**Section:** <br/>**Field:** |
+
+## Magento_CompanyCredit
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Credit Limit Allocated | **Page:** <br/>**Section:** <br/>**Field:** |
+| Credit Limit Updated | **Page:** <br/>**Section:** <br/>**Field:** |
+| Credit Reimbursed | **Page:** <br/>**Section:** <br/>**Field:** |
+| Order Refunded to Company Credit | **Page:** <br/>**Section:** <br/>**Field:** |
+| Order Reverted to Company Credit | **Page:** <br/>**Section:** <br/>**Field:** |
+
+<!--{% endif %}-->
+## Magento_Contact
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Contact Form | **Page:** General > [Contacts]({% link configuration/general/contacts.md %})<br/>**Section:** Email Options<br/>**Field:** Email Template |
+
+## Magento_Customer
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Change Email | n/a |
+| Change Email and Password | n/a |
+| Forgot Password | **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Password Options<br/>**Field:** Forgot Email Template|
+| New Account | **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Create New Account Options<br/>**Field:** Default Welcome Email|
+| New Account (Magento/luma) | **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Create New Account Options<br/>**Field:** Default Welcome Email |
+| New Account Confirmation Key | **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Create New Account Options<br/>**Field:** Confirmation Link Email |
+| New Account Confirmed | **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Create New Account Options<br/>**Field:** Welcome Email |
+| New Account Without Password | **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Create New Account Options<br/>**Field:** Default Welcome Email Without Password |
+| Remind Password | **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Password Options<br/>**Field:** Remind Email Template |
+| Reset Password | **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Password Options <br/>**Field:** Reset Password Template |
+
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
+## Magento_CustomerBalance
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Store Credit Update | **Page:** <br/>**Section:** <br/>**Field:** |
+
+<!--{% endif %}-->
+## Magento_Directory
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Currency Update Warnings | **Page:** General > [Currency Setup]({% link configuration/general/currency-setup.md %})<br/>**Section:** Scheduled Import Settings<br/>**Field:** Error Email Template |
+
+## Magento_Email
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Footer | n/a |
+| Footer (Magento/luma) | n/a |
+| Header | n/a |
+
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
+## Magento_GiftCard
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Gift Card(s) Purchase | **Page:** <br/>**Section:** <br/>**Field:** |
+
+## Magento_GiftCardAccount
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Gift Card Code/Balance | **Page:** <br/>**Section:** <br/>**Field:** |
+
+## Magento_GiftRegistry
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| New Registry | **Page:** <br/>**Section:** <br/>**Field:** |
+| Registry Sharing | **Page:** <br/>**Section:** <br/>**Field:** |
+| Registry Update | **Page:** <br/>**Section:** <br/>**Field:** |
+
+## Magento_Invitation
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Customer Invitation | **Page:** <br/>**Section:** <br/>**Field:** |
+
+<!--{% endif %}-->
+<!--{% if "Default.B2B Only" contains site.edition %}-->
+## Magento_NegotiableQuote
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Declined Quote | **Page:** <br/>**Section:** <br/>**Field:** |
+| Expiration Date Reset | **Page:** <br/>**Section:** <br/>**Field:** |
+| Expiration Warning | **Page:** <br/>**Section:** <br/>**Field:** |
+| Expiration Warning1 | **Page:** <br/>**Section:** <br/>**Field:** |
+| New Quote | **Page:** <br/>**Section:** <br/>**Field:** |
+| Updated Quote | **Page:** <br/>**Section:** <br/>**Field:** |
+
+<!--{% endif %}-->
+## Magento_Newsletter
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Subscription Confirmation | **Page:** Customers > [Newsletter]({% link configuration/customers/newsletter.md %})<br/>**Section:** Subscription Options<br/>**Field:** Confirmation Email Template |
+| Subscription Success | **Page:** Customers > [Newsletter]({% link configuration/customers/newsletter.md %})<br/>**Section:** Subscription Options<br/>**Field:** Success Email Template |
+| Unsubscription Success | **Page:** Customers > [Newsletter]({% link configuration/customers/newsletter.md %})<br/>**Section:** Subscription Options<br/>**Field:** Unsubscription Email Template |
+
+## Magento_ProductAlert
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Cron Error Warning | **Page:** Catalog > [Catalog]({% link configuration/catalog/catalog.md %})<br/>**Section:** Product Alerts Run Settings<br/>**Field:** Error Email Template |
+| Price Alert | **Page:** Catalog > [Catalog]({% link configuration/catalog/catalog.md %})<br/>**Section:** Product Alerts<br/>**Field:** Price Alert Email Template |
+| Stock Alert | **Page:** Catalog > [Catalog]({% link configuration/catalog/catalog.md %})<br/>**Section:** Product Alerts<br/>**Field:** Stock Alert Email Template |
+
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
+## Magento_Reminder
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Promotion Notification/Reminder | **Page:** <br/>**Section:** <br/>**Field:** |
+
+## Magento_Reward
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Balance Update | **Page:** <br/>**Section:** <br/>**Field:** |
+| Points Expiry Warning | **Page:** <br/>**Section:** <br/>**Field:** |
+
+## Magento_Rma
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| New RMA | **Page:** <br/>**Section:** <br/>**Field:** |
+| New RMA for Guest | **Page:** <br/>**Section:** <br/>**Field:** |
+| RMA Admin Comments | **Page:** <br/>**Section:** <br/>**Field:** |
+| RMA Admin Comments for Guest | **Page:** <br/>**Section:** <br/>**Field:** |
+| RMA Authorization | **Page:** <br/>**Section:** <br/>**Field:** |
+| RMA Authorization for Guest | **Page:** <br/>**Section:** <br/>**Field:** |
+| RMA Customer Comments | **Page:** <br/>**Section:** <br/>**Field:** |
+
+<!--{% endif %}-->
+## Magento_Sales
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Credit Memo Update | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Credit Memo Contents<br/>**Field:** Credit Memo Comment Email Template |
+| Credit Memo Update (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Credit Memo Comments<br/>**Field:** Credit Memo Comment Email Template |
+| Credit Memo Update for Guest | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Credit Memo Comments<br/>**Field:** Credit Memo Comment Email Template for Guest |
+| Credit Memo Update for Guest (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Credit Memo Comments<br/>**Field:** Credit Memo Comment Email Template for Guest |
+| Invoice Update | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Invoice Comments<br/>**Field:** Invoice Comment Email Template |
+| Invoice Update (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Invoice Comments<br/>**Field:** Invoice Comment Email Template |
+| Invoice Update for Guest | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Invoice Comments<br/>**Field:** Invoice Comment Email Template for Guest |
+| New Credit Memo | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Credit Memo<br/>**Field:** Credit Memo Email Template |
+| New Credit Memo (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Credit Memo<br/>**Field:** Credit Memo Email Template |
+| New Credit Memo for Guest | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Credit Memo<br/>**Field:** Credit Memo Email Template for Guest |
+| New Credit Memo for Guest (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Credit Memo<br/>**Field:** Credit Memo Email Template for Guest |
+| New Invoice | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Invoice<br/>**Field:** Invoice Email Template |
+| New Invoice (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Invoice<br/>**Field:** Invoice Email Template |
+| New Invoice for Guest | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Invoice<br/>**Field:** Invoice Email Template for Guest |
+| New Invoice for Guest (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Invoice<br/>**Field:** Invoice Email Template for Guest |
+| New Order | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Order<br/>**Field:** New Order Confirmation Template |
+| New Order (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Order<br/>**Field:** New Order Confirmation Template |
+| New Order for Guest | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Order<br/>**Field:** New Order Confirmation Template for Guest |
+| New Order for Guest (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Order<br/>**Field:** New Order Confirmation Template for Guest |
+| New Shipment | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Shipment<br/>**Field:** Shipment Email Template |
+| New Shipment (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Shipment<br/>**Field:** Shipment Email Template |
+| New Shipment for Guest | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Shipment<br/>**Field:** Shipment Email Template for Guest |
+| New Shipment for Guest (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Shipment<br/>**Field:** Shipment Email Template for Guest |
+| Order Update | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Order Comments<br/>**Field:** Order Comment Email Template |
+| Order Update (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Order Comments<br/>**Field:** Order Comment Email Template |
+| Order Update for Guest | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Order Comments<br/>**Field:** Order Comment Email Template for Guest |
+| Order Update for Guest (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Order Comments<br/>**Field:** Order Comment Email Template for Guest |
+| Shipment Update | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Shipment Comments<br/>**Field:** Shipment Comment Email Template |
+| Shipment Update (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Shipment Comments<br/>**Field:** Shipment Comment Email Template |
+| Shipment Update for Guest | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Shipment Comments<br/>**Field:** Shipment Comment Email Template for Guest |
+| Shipment Update for Guest (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Shipment Comments<br/>**Field:** Shipment Comment Email Template for Guest |
+
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
+## Magento_ScheduledImportExport
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Export Failed | **Page:** <br/>**Section:** <br/>**Field:** |
+| File History Clean Failed | **Page:** <br/>**Section:** <br/>**Field:** |
+| Import Failed | **Page:** <br/>**Section:** <br/>**Field:** |
+
+<!--{% endif %}-->
+## Magento_SendFriend
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Send Product Link to Friend | **Page:** Catalog > [Email to a Friend]({% link configuration/catalog/email-to-a-friend.md %})<br/>**Section:** Email Templates<br/>**Field:** Select Email Template |
+
+## Magento_Sitemap
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Sitemap Generation  Settings | **Page:** Catalog > [XML Sitemap]({% link configuration/catalog/xml-sitemap.md %})<br/>**Section:** Generation Settings<br/>**Field:** Error Email Template |
+
+## Magento_User
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Forgot Admin Password | **Page:** Advanced > [Admin]({% link configuration/advanced/admin.md %})<br/>**Section:** Admin User Emails<br/>**Field:** Forgot Password Email Template |
+| User Notification | **Page:** Advanced > [Admin]({% link configuration/advanced/admin.md %})<br/>**Section:** Admin User Emails<br/>**Field:** User Notification Template |
+
+## Magento_Wishlist
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Magento Wish List Sharing | **Page:** Customers > [Wish List]({% link configuration/customers/wishlist.md %})<br/>**Section:** Share Options<br/>**Field:** Email Template |
+
+<!--
+  This is a style declaration so that the very long property names are not wrapped to many lines by table auto styling for column widths.
+-->
+<style>
+.template-table td:first-of-type {
+  width: 350px;
+}
+</style>

@@ -4,24 +4,26 @@ title: Compare Products
 
 Compare Products generates a detailed, side-by-side comparison of two or more products. Depending on the theme, the Add to Compare link might be represented by an icon or text. The Compare Products block usually appears in either the left or right sidebar of a catalog page.
 
-Unlike the [Recently Viewed / Compared Products ]({{ site.baseurl }}{%- link marketing/products-viewed-compared.md -%})block, the Admin does not include additional configuration settings for Compare Products.
+![Example storefront - comparison list]({% link images/images/storefront-comparison-list.png %}){: .zoom}
+_Comparison List_
 
-![]({{ site.baseurl }}{%- link images/images/storefront-comparison-list.png -%}){: .zoom}
-*Compare Products*
+Unlike the [Recently Viewed / Compared Products ]({% link marketing/products-viewed-compared.md %}) block, the Admin does not include additional configuration settings for Compare Products.
 
-## To compare products
+## Compare Products on the Storefront
 
-1. From your storefront, find the products that you want to compare, and click the **Compare** link for each.
+1. Find the products that you want to compare and click the **Add to Compare** link for each.
 
-1. Depending on the theme and page layout, there might be a Compare Products block in the sidebar. If so, you can mark the checkbox of the products to include in the report, and tap <span class="btn">Compare</span>. The Compare Products report opens in a new window.
+1. Navigate to an associated category page.
 
-1. To print the report, tap <span class="btn"> Print This Page</span>.
+    Depending on the theme and page layout, there might be a Compare Products block in the sidebar. If so, the items in the category that are marked for comparison are listed.
 
-1. After navigating to other pages, you can click the link in the header or sidebar to return to the report.
+    You can click **Delete** (![Delete icon]({% link images/images/btn-delete-x.png %})) for any product to remove it from the comparison report, or click **Clear All** to remove all items and start over with your compare selections.
 
-   * To remove a single product from the report, tap **Delete** (![]({{ site.baseurl }}{%- link images/images/btn-delete-x.png -%}).
+1. Click <span class="btn">Compare</span>.
 
-   * To remove all products from the report, click the **Clear All** link.
+1. To print the comparison information, click **Print This Page**.
 
-    ![]({{ site.baseurl }}{%- link images/images/storefront-compare-products.png -%}){: .zoom}
-    *Compare Products*
+1. To remove a single product from the comparison page, click **Delete** (![Delete icon]({% link images/images/btn-delete-x.png %})).
+
+    ![Example storefront - compare products]({% link images/images/storefront-compare-products.png %}){: .zoom}
+    _Compare Products_

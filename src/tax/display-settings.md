@@ -6,93 +6,96 @@ The price display settings determine if product and shipping prices include or e
 
 If the product price includes tax, the tax appears only if there is a tax rule that matches the tax origin or if a customer address matches the tax rule. Events that can trigger a match include when a customer creates an account, logs in, or generates a tax and shipping estimate from the shopping cart.
 
-{: .bs-callout-info}
+{:.bs-callout-info}
 **Important!**
-Showing prices that include and exclude tax can be confusing to the customer. To avoid triggering a warning message, see the [guidelines]({{ site.baseurl }}{% link tax/international-tax-guidelines.md %}) for your country and [recommended settings]({{ site.baseurl }}{% link tax/warning-messages.md %}) to avoid warning messages.
+Showing prices that include and exclude tax can be confusing to the customer. To avoid triggering a warning message, see the [guidelines]({% link tax/international-tax-guidelines.md %}) for your country and [recommended settings]({% link tax/warning-messages.md %}) to avoid warning messages.
 
-![]({{ site.baseurl }}{% link images/images/config-sales-tax-price-display-settings.png %}){: .zoom}
-[_Price Display Settings_]({{ site.baseurl }}{% link configuration/sales/tax.md %})
+![]({% link images/images/config-sales-tax-price-display-settings.png %}){: .zoom}
+[_Price Display Settings_]({% link configuration/sales/tax.md %})
 
-## Step 1: Configure Price Display Settings
+## Step 1: Configure price display settings
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the panel on the left under _Sales_, choose **Taxes**.
+1. In the left panel, expand **Sales** and choose **Tax**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Price Display Settings** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Price Display Settings** section.
 
-   - **Display Product Prices in Catalog** — Set to one of the following:
+1. For **Display Product Prices in Catalog**, choose one of the following:
 
-      - Excluding Tax
-      - Including Tax
-      - Including and Excluding Tax
+   - `Excluding Tax`
+   - `Including Tax`
+   - `Including and Excluding Tax`
 
-   - **Display Shipping Prices** — Set to one of the following:
+   {:.bs-callout-info}
+   If you set this option to `Including Tax`, the tax appears only if there is a tax rule that matches the tax origin or if there is a customer address that matches the tax rule. Events that can trigger a match include customer account creation, login, or the use of the Tax and Shipping estimation tool in the shopping cart.
 
-      - Excluding Tax
-      - Including Tax
-      - Including and Excluding Tax
+1. For **Display Shipping Prices**, choose one of the following:
 
-## Step 2: Configure Shopping Cart Display Settings
+   - `Excluding Tax`
+   - `Including Tax`
+   - `Including and Excluding Tax`
 
-Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Shopping Cart Display Settings** section. Then, do the following:
+## Step 2: Configure shopping cart display settings
 
-![]({{ site.baseurl }}{% link images/images/config-sales-tax-shopping-cart-display-settings.png %}){: .zoom}
-_Shopping Cart Display Settings_
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Shopping Cart Display Settings** section.
 
-- **Display Prices** — Set to one of the following:
+   ![]({% link images/images/config-sales-tax-shopping-cart-display-settings.png %}){: .zoom}
+   _Shopping Cart Display Settings_
 
-    - Excluding Tax
-    - Including Tax
-    - Including and Excluding Tax
+1. For **Display Prices**, choose one of the following:
 
-- **Display Subtotal** — Set to one of the following:
+   - `Excluding Tax`
+   - `Including Tax`
+   - `Including and Excluding Tax`
 
-    - Excluding Tax
-    - Including Tax
-    - Including and Excluding Tax
+1. For **Display Subtotal**, choose one of the following:
 
-- **Display Shipping Amount** — Set to one of the following:
+   - `Excluding Tax`
+   - `Including Tax`
+   - `Including and Excluding Tax`
 
-    - Excluding Tax
-    - Including Tax
-    - Including and Excluding Tax
+1. For **Display Shipping Amount**, choose one of the following:
 
-- Set the following to `Yes` or `No` according to your preference:
+   - `Excluding Tax`
+   - `Including Tax`
+   - `Including and Excluding Tax`
 
-    - Include Tax in Order Total
-    - Display Full Tax Summary
-    - Display Zero Tax Subtotal
+1. For each of these remaining options, toggle to `Yes` or `No` according to your preference:
 
-## Step 3: Configure Order, Invoice, & Credit Memo Display Settings
+   - **Include Tax in Order Total**
+   - **Display Full Tax Summary**
+   - **Display Zero Tax Subtotal**
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Orders, Invoices, Credit Memos Display Settings** section. Then, do the following:
+## Step 3: Configure order, invoice, and credit memo display settings
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
-    _Orders, Invoices, Credit Memos Display Settings_
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Orders, Invoices, Credit Memos Display Settings** section.
 
-    - **Display Prices** — Set to one of the following:
+   ![]({% link images/images/config-sales-tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
+   _Orders, Invoices, Credit Memos Display Settings_
 
-      - Excluding Tax
-      - Including Tax
-      - Including and Excluding Tax
+1. For **Display Prices**, choose one of the following:
 
-    - **Display Subtotal** — Set to one of the following:
+   - `Excluding Tax`
+   - `Including Tax`
+   - `Including and Excluding Tax`
 
-      - Excluding Tax
-      - Including Tax
-      - Including and Excluding Tax
+1. For **Display Subtotal**, choose one of the following:
 
-    - **Display Shipping Amount** — Set to one of the following:
+   - `Excluding Tax`
+   - `Including Tax`
+   - `Including and Excluding Tax`
 
-      - Excluding Tax
-      - Including Tax
-      - Including and Excluding Tax
+1. For **Display Shipping Amount**, choose one of the following:
 
-    - Set the following to `Yes` or `No` according to your preference:
+   - `Excluding Tax`
+   - `Including Tax`
+   - `Including and Excluding Tax`
 
-      - Include Tax in Order Total
-      - Display Full Tax Summary
-      - Display Zero Tax Subtotal
+1. For each of these remaining options, toggle to `Yes` or `No` according to your preference:
+
+   - **Include Tax in Order Total**
+   - **Display Full Tax Summary**
+   - **Display Zero Tax Subtotal**
 
 1. When complete, click <span class="btn">Save Config</span>.

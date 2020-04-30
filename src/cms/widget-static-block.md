@@ -2,9 +2,9 @@
 title: Using a Widget
 ---
 
-The CMS Static Block widget gives you the ability to place an existing [content block]({{ site.baseurl }}{% link cms/blocks.md %}) most anywhere in your store.
+The CMS Static Block [widget]({% link cms/widgets.md %}) gives you the ability to place an existing [content block]({% link cms/blocks.md %}) most anywhere in your store.
 
-![]({{ site.baseurl }}{% link images/images/widgets.png %}){: .zoom}
+![]({% link images/images/widgets.png %}){: .zoom}
 
 ## Step 1: Choose the Type
 
@@ -18,7 +18,7 @@ The CMS Static Block widget gives you the ability to place an existing [content 
 
     - Click <span class="btn">Continue</span>.
 
-    ![]({{ site.baseurl }}{% link images/images/widget-settings.png %}){: .zoom}
+    ![]({% link images/images/widget-settings.png %}){: .zoom}
     _Settings_
 
 1. In the Storefront Properties section, do the following:
@@ -29,7 +29,7 @@ The CMS Static Block widget gives you the ability to place an existing [content 
 
     - Enter a number in the **Sort Order** field to determine the order of the block if it assigned to appear in the same location on the page as other content elements. The top position is zero.
 
-    ![]({{ site.baseurl }}{% link images/images/widget-storefront-properties.png %}){: .zoom}
+    ![]({% link images/images/widget-storefront-properties.png %}){: .zoom}
     _Storefront Properties_
 
 ## Step 2: Complete the Layout Updates
@@ -44,7 +44,7 @@ The CMS Static Block widget gives you the ability to place an existing [content 
 
     - Accept the default setting for **Template**, which is set to `CMS Static Block Default Template`.
 
-    ![]({{ site.baseurl }}{% link images/images/widget-layout-update-home-page.png %}){: .zoom}
+    ![]({% link images/images/widget-layout-update-home-page.png %}){: .zoom}
     _Layout Updates_
 
 ## Step 3: Place the Block
@@ -59,4 +59,4 @@ The CMS Static Block widget gives you the ability to place an existing [content 
 
 1. When prompted, follow the instructions at the top of the workspace to update the index and page cache.
 
-1. Return to your storefront to verify that the block appears in the correct location. To move the block, you can reopen the frontend app try a different page or block reference.
+1. Return to your storefront to verify that the block appears in the correct location. To move the block, you can reopen the widget try a different page or block reference.

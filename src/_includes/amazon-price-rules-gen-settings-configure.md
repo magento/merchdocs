@@ -1,11 +1,13 @@
 
 ## To complete the Price Rule General Settings section:
 
-1. For **Rule Name** (required), enter the name for the rule.<br />
-This is for your internal identification purposes only. The more descriptive the rule name, the better.
+1. For **Rule Name** (required), enter the name for the rule.
 
-1. For **Description**, enter a detailed description of your rule.<br />
-This could include information on the products that qualify, the active dates, the formula for calculating your adjusted price, or any other information you'd find useful if you ever needed to modify the rule.
+   This is for your internal identification purposes only. The more descriptive the rule name, the better.
+
+1. For **Description**, enter a detailed description of your rule.
+
+   This could include information on the products that qualify, the active dates, the formula for calculating your adjusted price, or any other information you'd find useful if you ever needed to modify the rule.
 
 1. For **Status**, select an option:
 
@@ -23,5 +25,5 @@ This could include information on the products that qualify, the active dates, t
 
     - **No**: Choose when you want to allow multiple pricing rules to apply to the same product. This could result in stacking and providing multiple discounts applied to your listing price.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 To discard subsequent rules, a pricing rule must use priorities which are set in the **Priority** field.

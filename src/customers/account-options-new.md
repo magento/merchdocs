@@ -2,9 +2,9 @@
 title: New Account Options
 ---
 
-In the Create New Account Options section of the configuration, the basic account options are combined with more advanced options that relate to VAT ID Validation and custom integrations. The following instructions cover only the most frequently used options. To learn about automatic customer group assignments, see [VAT Validation]({{ site.baseurl }}{% link tax/vat-validation.md %}).
+In the Create New Account Options section of the configuration, the basic account options are combined with more advanced options that relate to VAT ID Validation and custom integrations. The following instructions cover only the most frequently used options. To learn about automatic customer group assignments, see [VAT Validation]({% link tax/vat-validation.md %}).
 
-![]({{ site.baseurl }}{% link images/images/config-customers-customer-configuration-create-new-account-options.png %}){: .zoom}
+![]({% link images/images/config-customers-customer-configuration-create-new-account-options.png %}){: .zoom}
 _Create New Account Options_
 
 ## To set up the basic customer account options:
@@ -13,7 +13,7 @@ _Create New Account Options_
 
 1. In the panel on the left under **Customers**, choose **Customer Configuration**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Create New Account Options** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Create New Account Options** section. Then, do the following:
 
     - Set **Default Group** to the customer group that is assigned to new customers when an account is created.
 

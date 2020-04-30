@@ -1,5 +1,6 @@
 ---
 title: About Google and Magento Attributes
+tag: google-shopping
 ---
 
 
@@ -15,19 +16,19 @@ The dashboard provides detailed lists of your GMC accounts, Google Ads, and opt
 
 If you have additional steps to complete, banners display with information and next steps. See each section to review and manage your GMC account, product updates, and campaign status.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/google/google-ads-dashboard.png %}){: .zoom}
+![]({% link images/images/sales-channels/google/google-ads-dashboard.png %}){: .zoom}
 *Google Shopping ads Channel Dashboard*
 
 ## Mapping Product Data
 
-When you complete the [onboarding process]({{ site.baseurl }}{% link sales-channels/google-ads/onboarding-google.md %}) to add Google Merchant Center and Ads accounts, you [map Google attributes]({{ site.baseurl }}{% link sales-channels/google-ads/attribute-mapping.md %}) with your Magento catalog attributes. The mappings help provide data from your Magento products into a synced Google product catalog.
+When you complete the [onboarding process]({% link sales-channels/google-ads/onboarding-google.md %}) to add Google Merchant Center and Ads accounts, you [map Google attributes]({% link sales-channels/google-ads/attribute-mapping.md %}) with your Magento catalog attributes. The mappings help provide data from your Magento products into a synced Google product catalog.
 
 If you do not have custom Magento attributes, you may add Magento attributes and values or select the best matching Google attributes. Any Google values selected and configured do not save back into your Magento catalog.
 
 |Google Attribute|Magento Attribute|Description|
 |--|--|--|
 |Title|Product Name (default)|The name of your product.|
-|Description|Description (default)|The full [Description]({{ site.baseurl }}{% link catalog/product-content.md %}) block for your product.|
+|Description|Description (default)|The full [Description]({% link catalog/product-content.md %}) block for your product.|
 |Category attribute|Custom attribute|Google supports one or many categories to best display your products and ads for submitted searches. If you do not use category attributes in Magento, select the best matching Google [category](https://support.google.com/merchants/answer/6324436?hl=en).|
 |Product condition|Custom attribute|Attribute(s) specifying conditions such as new, used, repaired, refurbished, mint, like new, etc. Google only recognizes New, Used, and Refurbished. If all of your products have one product condition, select a Google attribute best matching that condition (like New). Or map your Magento condition attribute values to Google attributes.|
 |GTIN<br/>Global Trade Item Number|Custom attribute|This is the Global Trade Item Number  typically assigned by manufacturers to a product. Depending on your product, you may receive a different type of GTIN including UPC, EAN, JAN, ISBN, or ITF-14. To find your GTIN, see Google's [Find a GTIN](https://support.google.com/merchants/answer/6219078?hl=en). For this option, select the type of GTIN or none if you do not have an assigned value. If you do not have a GTIN, you may have an MPN.|
@@ -62,11 +63,11 @@ For details, see Google's [About ads approval process][2] and [Promotion approva
 
 If a product returns with a disapproval, Magento provides an easy to access list of issues and associated products to revise and have reviewed again. You must resolve the issues for Google to review and approve your products. This process runs every time you update and save a product or add a new product matching the sync settings for the GMC.
 
-* For product data requirements, see Google's [Product data specification][4] and our [best practices]({{ site.baseurl }}{% link sales-channels/google-ads/google-best-practices.md %}).
+* For product data requirements, see Google's [Product data specification][4] and our [best practices]({% link sales-channels/google-ads/google-best-practices.md %}).
 * For more information on disapprovals, see Google's [About item and account disapprovals for product data violations][5] and [About item disapprovals for policy violations][6].
-* To review and resolve disapprovals, see [Managing Google Products]({{ site.baseurl }}{% link sales-channels/google-ads/product-managment.md %}) and [Managing Google Accounts]({{ site.baseurl }}{% link sales-channels/google-ads/google-account-managment.md %}).
+* To review and resolve disapprovals, see [Managing Google Products]({% link sales-channels/google-ads/product-managment.md %}) and [Managing Google Accounts]({% link sales-channels/google-ads/google-account-managment.md %}).
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/google/product-disapprove-dash.png %}){: .zoom}
+![]({% link images/images/sales-channels/google/product-disapprove-dash.png %}){: .zoom}
 *Magento Google Shopping - Product and Account Error Tracking*
 
 [1]: https://support.google.com/merchants/contact/additional_items

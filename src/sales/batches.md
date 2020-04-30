@@ -2,14 +2,14 @@
 title: Batches
 ---
 
-Batch processing allows you to process a large number of shipments in a fraction of the time it would take to process the shipments manually. Unlike the standard process to create a [shipment]({{ site.baseurl }}{% link sales/shipments.md %}), the batch process leverages the Temando API, which is [synchronized]({{ site.baseurl }}{% link shipping/magento-shipping-setup.md %}) to your Magento installation.
+Batch processing allows you to process a large number of shipments in a fraction of the time it would take to process the shipments manually. Unlike the standard process to create a [shipment]({% link sales/shipments.md %}), the batch process leverages the Temando API, which is [synchronized]({% link shipping/magento-shipping-setup.md %}) to your Magento installation.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 At this time, batch processing is available only for domestic shipments.
 
-The Batches grid lists the available [Magento Shipping]({{ site.baseurl }}{% link shipping/magento-shipping.md %}) batches, the number of shipments in each, and their status. You can view the detail of a single batch, print packing slips, and shipping labels. The grid at the bottom of the page lists the shipments in the batch.
+The Batches grid lists the available [Magento Shipping]({% link shipping/magento-shipping.md %}) batches, the number of shipments in each, and their status. You can view the detail of a single batch, print packing slips, and shipping labels. The grid at the bottom of the page lists the shipments in the batch.
 
-![]({{ site.baseurl }}{% link images/images/sales-batches.png %}){: .zoom}
+![]({% link images/images/sales-batches.png %}){: .zoom}
 _Batches_
 
 ## To view batch detail:
@@ -22,7 +22,7 @@ _Batches_
 
 1. In the _Actions_ column, click **View**.
 
-    ![]({{ site.baseurl }}{% link images/images/sales-batches-detail.png %}){: .zoom}
+    ![]({% link images/images/sales-batches-detail.png %}){: .zoom}
     _Batch Detail_
 
 1. To print packing slips for each shipment in the batch, click **Print All Packing Slips**.
@@ -35,7 +35,7 @@ _Batches_
 
     - Click the download file to view the individual PNG files. Then, open and print each label.
 
-      ![]({{ site.baseurl }}{% link images/images/sales-batches-detail-shipping-label.png %}){: .zoom}
+      ![]({% link images/images/sales-batches-detail-shipping-label.png %}){: .zoom}
       _Shipping Label_
 
 ## To view shipment detail:

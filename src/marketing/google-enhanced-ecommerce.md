@@ -7,12 +7,12 @@ Enhanced Ecommerce is a plugin for Google Universal Analytics that gives you ins
 
 The following instructions show how to configure Google Tag Manager with Universal Analytics to produce Enhanced Ecommerce data and reports.
 
-![]({{ site.baseurl }}{%- link images/images-ee/storefront-google-tags-fired-checkout.png -%}){: .zoom}
-*Tags Fired in Shopping Cart Shown in Debug Mode*
+![Example storefront in debug mode - Google tags fired in shopping cart]({% link images/images-ee/storefront-google-tags-fired-checkout.png %}){: .zoom}
+_Tags Fired in Shopping Cart Shown in Debug Mode_
 
 ## Step 1. Sign Up for Google Accounts
 
-1. Sign up for a [Google Tag Manager]({{ site.baseurl }}{%- link marketing/google-tag-manager.md -%}) account, and complete the Magento configuration.
+1. Sign up for a [Google Tag Manager]({% link marketing/google-tag-manager.md %}) account, and complete the Magento configuration.
 
 1. Sign up for a new [Google Universal Analytics][1] account.
 
@@ -26,15 +26,15 @@ The following instructions show how to configure Google Tag Manager with Univers
     |Related Products|ON|
     |Enable Enhanced Ecommerce Reporting|ON|
     |Checkout  Labeling|(not required)|
-    {:style="table-layout:auto"}
 
-1. When complete, tap <span class="btn">Submit</span>.
+1. When complete, click <span class="btn">Submit</span>.
 
-    ![]({{ site.baseurl }}{%- link images/images/google-universal-analytics-ecommerce-setup1.png -%}){: .zoom}
+    ![Google Universal Analytics - enable Enhanced Ecommerce]({% link images/images/google-universal-analytics-ecommerce-setup1.png %}){: .zoom}
+    _Enable Enhanced Ecommerce_
 
 ## Step 3. Create Tags and Triggers
 
-1. Sign in to your Google Tag Manager account, and create the following triggers:
+1. Sign in to your Google Tag Manager account and create the following triggers:
 
     |Name|Event Type|Filter|
     |--- |--- |--- |
@@ -46,7 +46,6 @@ The following instructions show how to configure Google Tag Manager with Univers
     |ProductClick|Custom Event||
     |PromotionClick|Custom Event||
     |RemoveFromCart|Custom Event||
-    {:style="table-layout:auto"}
 
 1. Create the following Universal Analytics tags with the same basic configuration.
 
@@ -61,7 +60,6 @@ The following instructions show how to configure Google Tag Manager with Univers
     |Product client tracking|Universal Analytics|ProductClick|
     |Promo click tracking|Universal Analytics|PromotionClick|
     |Remove from cart tracking|Universal Analytics|RemoveFromCart|
-    {:style="table-layout:auto"}
 
     **Basic Tag Configuration**
 
@@ -73,13 +71,10 @@ The following instructions show how to configure Google Tag Manager with Univers
     |Enable Enhanced Ecommerce Features|True|
     |Use data layer|True|
     |Use Debug version|True|
-    {:style="table-layout:auto"}
 
 1. Complete the individual tracking configurations.
 
-    * Enter the following **Add to Cart** tracking settings:
-
-        **Add to Cart Configuration**
+    - Enter the following **Add to Cart** tracking settings:
 
         |Setting|Value|
         |--- |--- |
@@ -87,11 +82,8 @@ The following instructions show how to configure Google Tag Manager with Univers
         |Category|Ecommerce|
         |Action|Add to Cart|
         |Trigger|AddToCart|
-        {:style="table-layout:auto"}
 
-    * Enter the following **Checkout option** tracking settings:
-
-        **Checkout Option Configuration**
+    - Enter the following **Checkout option** tracking settings:
 
         |Setting|Value|
         |--- |--- |
@@ -99,21 +91,15 @@ The following instructions show how to configure Google Tag Manager with Univers
         |Category|Ecommerce|
         |Action|Checkout Option|
         |Trigger|CheckoutOption|
-        {:style="table-layout:auto"}
 
-    * Enter the following **PageView** tracking settings:
-
-        **Page View Configuration**
+    - Enter the following **PageView** tracking settings:
 
         |Setting|Value|
         |--- |--- |
         |Track Type|PageView|
         |Trigger|gtm.dom|
-        {:style="table-layout:auto"}
 
-    * Complete the following **Product Click** tracking configuration:
-
-        **Product Click Configuration**
+    - Complete the following **Product Click** tracking configuration:
 
         |Setting|Value|
         |--- |--- |
@@ -121,11 +107,8 @@ The following instructions show how to configure Google Tag Manager with Univers
         |Category|Ecommerce|
         |Action|Product Click|
         |Trigger|ProductClick|
-        {:style="table-layout:auto"}
 
-    * Complete the following **Promotion Click** tracking configuration:
-
-        **Promotion Click Configuration**
+    - Complete the following **Promotion Click** tracking configuration:
 
         |Setting|Value|
         |--- |--- |
@@ -133,11 +116,8 @@ The following instructions show how to configure Google Tag Manager with Univers
         |Category|Ecommerce|
         |Action|Promotion Click|
         |Trigger|PromotionClick|
-        {:style="table-layout:auto"}
 
-    * Complete the following **Remove from Cart** tracking configuration:
-
-        **Remove from Cart Configuration**
+    - Complete the following **Remove from Cart** tracking configuration:
 
         |Setting|Value|
         |--- |--- |
@@ -145,10 +125,9 @@ The following instructions show how to configure Google Tag Manager with Univers
         |Category|Ecommerce|
         |Action|Remove from Cart|
         |Trigger|RemoveFromCart|
-        {:style="table-layout:auto"}
 
-1. When complete, tap <span class="btn">Preview</span> and verify that the tags work correctly.
+1. When complete, click <span class="btn">Preview</span> and verify that the tags work correctly.
 
-1. After verifying the settings, tap <span class="btn">Publish</span>.
+1. After verifying the settings, click <span class="btn">Publish</span>.
 
 [1]: https://support.google.com/analytics/answer/2817075?hl=en

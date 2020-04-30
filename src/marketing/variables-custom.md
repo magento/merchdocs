@@ -1,37 +1,97 @@
 ---
 title: Adding Custom Variables
-redirect_from: 
+redirect_from:
   - /system/variables-custom.html
 ---
 
-If you know a little basic HTML, you can create custom variables and use a [markup tag]({{ site.baseurl }}{%- link marketing/markup-tags.md -%}) to incorporate them into pages, blocks, banners, and email templates.
+To meet the specific needs of your business, you can create custom variables and insert them into [pages]({% link cms/pages.md -%}), [blocks]({% link cms/blocks.md -%}) and [email]({% link marketing/email-template-message.md %}) templates. The list of whitelisted variables that appears when you click the Insert Variable button includes both [predefined]({% link marketing/variables-predefined.md %}) and custom variables. As shown in the following image, the list of available variables for a specific email template is determined by the data that is associated with the template. See the [Variable Reference]({% link marketing/variables-reference.md -%}) for a list of frequently-used email templates and their associated variables.
 
-<!-- {%- raw -%} -->
+{:.bs-callout-info}
+Only whitelisted [predefined]({% link marketing/variables-predefined.md %}) or custom variables can be used in email and newsletter templates.
 
-    {{CustomVar code= "my_custom_variable"}}
+## Step 1: Create a custom variable
 
-<!-- {% endraw %} -->
+1. On the _Admin_ sidebar, go to **System** > _Other Settings_ > **Custom Variables**.
 
-![]({{ site.baseurl }}{%- link images/images/variables-custom.png -%}){: .zoom}
-*Custom Variables*
+1. Click <span class="btn">Add New Variable</span>.
 
-## To create a custom variable
+   ![Custom variables]({% link images/images/variables-custom.png %}){: .zoom}
+   _Custom Variables_
 
-1. On the Admin sidebar, tap **System**. Then under **Other Settings**, choose **Custom Variables**.
+1. Enter an identifier for **Variable Code**, using all lowercase characters without spaces.
 
-1. Tap <span class="btn">Add New Variable</span>.
+   If needed, you can use an underscore character or hyphen to represent a space. For example: `my_custom_variable`
 
-1. Enter an identifier in the **Variable Code** field. Use all lowercase characters, without spaces.
+1. Enter a **Variable Name**, which is used for internal reference. For example: `My Custom Variable`
 
-1. Enter a **Variable Name**, which is used for internal reference. Then, do one of the following:
+1. To enter the value that is associated with the variable, do one of the following:
 
-   * In the **Variable HTML Value** text field, enter any content you want to include, using basic HTML tags. This option allows you to format the value.
-   * In the **Variable Plain Value** field, enter the variable value as plain text.
+   - For **Variable HTML Value**, enter the variable value formatted with simple HTML tags. For example:
+      `<b>This formatted content appears in place of the variable.</b>`
+   - For **Variable Plain Value**, enter the variable value as plain text without formatting. For example:
+      `This unformatted content appears in place of the variable.`
 
-    {: .bs-callout .bs-callout-info}
-    You can drag the lower-right corner to make the boxes bigger.
+   {:.bs-callout-info}
+   If you need more room, drag the lower-right corner of the text box.
 
-    ![]({{ site.baseurl }}{%- link images/images/variable-custom-add.png -%}){: .zoom}
-    *New Custom Variable*
+   ![New custom variable]({% link images/images/variable-custom-add.png %}){: .zoom}
+   _New Custom Variable_
 
-1. When complete, tap <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span>.
+
+## Step 2: Insert the custom variable
+
+<!--{% if "Default.CE Only" contains site.edition %}-->
+The following example shows how to insert a variable into a page.
+
+1. Open the CMS page or block where the variable is to appear.
+
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Content** section. Then, click <span class="btn">Show / Hide Editor</span> to work in HTML.
+
+1. Position the insertion point in the editor where you want the variable to appear and click <span class="btn">Insert Variable</span>.
+
+1. Select the option for the custom variable that you want to insert and click <span class="btn">Insert Variable</span>.
+
+   ![New custom variable]({% link images/images/variable-custom-insert-select.png %}){: .zoom}
+   _Select Custom Variable_
+
+   A command to insert the variable is enclosed in curly braces and added to the code at the cursor location. For example:
+
+   `customVar code=my_custom_variable`
+
+   ![New custom variable]({% link images/images/variable-custom-insert-content.png %}){: .zoom}
+   _Custom Variable Code_
+
+1. When complete, click <span class="btn">Save</span>.
+<!--{% endif %}-->
+
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
+The following example shows how to use [Page Builder]({% link cms/page-builder.md %}) to insert a custom variable into a page.
+
+1. Open the page or block where the variable is to appear.
+
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Content** section.
+
+1. In the left panel, click **Elements** and do one of the following:
+
+   - Click in an existing text area where you want to insert the variable.
+
+   - Drag a new **Text** object to the stage.
+
+1. At the far right of the editor toolbar, click (![]({% link images/images/editor4-toolbar/btn-insert-variable.png %}){: .Inline}) to insert a variable.
+
+   ![Page Builder stage]({% link images/images-ee/variable-custom-pagebuilder-stage.png %}){: .zoom}
+   _PageBuilder Stage and Panel_
+
+1. In the list, select the custom variable that you want to insert and click <span class="btn">Insert Variable</span>.
+
+   ![New custom variable]({% link images/images-ee/variable-custom-insert-select.png %}){: .zoom}
+   _Select Custom Variable_
+
+   The variable identifier appears as a placeholder in the editor.
+
+   ![Page Builder stage]({% link images/images-ee/pagebuilder-variable-inserted.png %}){: .zoom}
+   _Variable Placeholder_
+
+1. When complete, click <span class="btn">Save</span>.
+<!--{% endif %}-->

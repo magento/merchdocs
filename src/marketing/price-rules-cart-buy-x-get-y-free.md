@@ -2,67 +2,76 @@
 title: Buy X Get Y Free
 ---
 
-This example shows how to set up a[ cart price rule]({{ site.baseurl }}{%- link marketing/price-rules-cart.md -%}) for a “Buy X, Get Y Free” promotion. The format of the discount is as follows:
+This example shows how to set up a[ cart price rule]({% link marketing/price-rules-cart.md %}) for a _Buy X, Get Y Free_ promotion. The format of the discount is as follows:
 
     Buy X quantity of product, get Y quantity for free.
 
 ## Step 1. Create a Cart Price Rule
 
-Complete [Step 1]({{ site.baseurl }}{%- link marketing/price-rules-cart.md -%}) of the cart price rule instructions to complete the rule information.
+Complete [Step 1]({% link marketing/price-rules-cart.md %}) of the cart price rule instructions to complete the rule information.
 
 ## Step 2. Define the Conditions
 
-Complete [Step 2]({{ site.baseurl }}{%- link marketing/price-rules-cart.md -%}) of the cart instructions to define the conditions for the price rule. 
+Complete [Step 2]({% link marketing/price-rules-cart.md %}) of the cart instructions to define the conditions for the price rule. This is the first of two conditions that can be added to the rule, and determines when the rule is triggered. It can be based upon a combination of the following:
 
-This is the first of two conditions that can be added to the rule, and determines when the rule is triggered. It can be based upon a combination of product attributes, products, {%- if "Default.CE Only" contains site.edition -%}and {%- endif -%}cart attributes{%- if "Default.CE Only" contains site.edition -%}.{%- endif -%}{%- if "Default.EE-B2B" contains site.edition -%}, and customer segments.{%- endif -%} If left blank, the rule is triggered for every cart.
+- Product attributes
+- Products
+- Cart attributes
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
+- Customer segments
+<!--{% endif %}-->
 
-![]({{ site.baseurl }}{%- link images/images/price-rule-cart-buy-x-get-y-condition-default.png -%}){: .zoom}
-*Condition*
+If left blank, the rule is triggered for every cart.
+
+![Cart price rule - condition]({% link images/images/price-rule-cart-buy-x-get-y-condition-default.png %}){: .zoom}
+_Condition_
 
 ## Step 3. Define the Actions
 
-1. Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Actions** section, and do the following:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Actions** section and do the following:
 
-    * Set **Apply** to “Buy X get Y free (discount amount is Y)”.
+   - Set **Apply** to `Buy X get Y free (discount amount is Y)`.
 
-    * Set **Discount Amount** to 1. This is the quantity the customer will receive for free.
+   - Set **Discount Amount** to `1`. This is the quantity the customer will receive for free.
 
-    * To limit the number of discounts that can be applied when the condition is met, enter the number in the **Maximum Qty Discount is Applied To** field. For example, enter “1” to discount only one item.
+   - To limit the number of discounts that can be applied when the condition is met, enter the number in the **Maximum Qty Discount is Applied To** field. For example, enter `1` to discount only one item.
 
-    * In the **Discount Qty Step (Buy X)** field, enter the quantity that the customer must purchase to qualify for the discount. In this example, the customer must purchase three.
+   - In the **Discount Qty Step (Buy X)** field, enter the quantity that the customer must purchase to qualify for the discount. In this example, the customer must purchase three.
 
-    * If you want to prevent other discounts from being applied to the purchase, set **Discard subsequent rules** to "Yes".
+   - If you want to prevent other discounts from being applied to the purchase, set **Discard subsequent rules** to `Yes`.
 
-        ![]({{ site.baseurl }}{%- link images/images/price-rule-cart-buy-3-get-1-actions.png -%}){: .zoom}
-        *Buy 3 Get 1 Free*
+      ![Cart price rule - buy 3 get 1 free]({% link images/images/price-rule-cart-buy-3-get-1-actions.png %}){: .zoom}
+      _Buy 3 Get 1 Free_
 
-1. To apply the rule only to specific items in the cart, complete the condition to describe the cart item(s) and/or product attribute(s) that are required for the promotion. The following example uses the SKU to apply the rule to all associated variations of a configurable product.
+1. To apply the rule only to specific items in the cart, complete the condition to describe the cart item(s) and/or product attribute(s) that are required for the promotion.
 
-    ![]({{ site.baseurl }}{%- link images/images/price-rule-cart-buy-3-get-1-actions-condition.png -%}){: .zoom}
-    *Condition for Cart Items*
+    The following example uses the SKU to apply the rule to all associated variations of a configurable product.
+
+    ![Cart price rule - condition for cart items]({% link images/images/price-rule-cart-buy-3-get-1-actions-condition.png %}){: .zoom}
+    _Condition for Cart Items_
 
 1. To include **Free Shipping**, choose one of the following options:
 
-   * For matching items only
-   * For shipment with matching items
+   - `For matching items only`
+   - `For shipment with matching items`
 
-1. Tap <span class="btn">Save and Continue Edit</span>. Then, complete the rest of the rule as needed.
+1. Click <span class="btn">Save and Continue Edit</span>. Then, complete the rest of the rule as needed.
 
 ## Step 4. Complete the Label
 
-Complete [Step 4]({{ site.baseurl }}{%- link marketing/price-rules-cart.md -%}) of the cart price rule instructions to enter the label that appears during checkout.
+Complete [Step 4]({% link marketing/price-rules-cart.md %}) of the cart price rule instructions to enter the label that appears during checkout.
 
 ## Step 5: Save and Test the Rule
 
-1. When complete, tap <span class="btn">Save Rule</span>.
+{%- include new-price-rule.md -%}
+
+1. When your rule is complete, click <span class="btn">Save Rule</span>.
 
 1. Test the rule to make sure that it works correctly.
 
-   {%- include new-price-rule.md -%}
-
 ## Examples
 
-Buy X Get Y Free is processed as a single action, with a “row total” dependency. All items must be from the same SKU to qualify for the promotion. For example:
+Buy X Get Y Free is processed as a single action, with a _row total_ dependency. All items must be from the same SKU to qualify for the promotion. For example:
 
     Buy X quantity of product from category A, get Y quantity of the same product for free.
 

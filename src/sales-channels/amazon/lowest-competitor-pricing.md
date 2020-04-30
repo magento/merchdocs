@@ -7,9 +7,9 @@ Lowest Competitor Pricing
 
 The Lowest Competitor Pricing table displays the lowest final landing price, but is broken down into shipping price and listing price. This can be used to understand the price positioning of your competitors on Amazon.
 
-[Intelligent repricing rules]({{ site.baseurl }}{% link sales-channels/amazon/intelligent-repricing-rules.md %}) can be configured to adjust your pricing based on the competitor prices.
+[Intelligent repricing rules]({% link sales-channels/amazon/intelligent-repricing-rules.md %}) can be configured to adjust your pricing based on the competitor prices.
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-listing-details-lowest-comp.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-listing-details-lowest-comp.png %}){: .zoom}
 _Lowest Competitor Pricing_
 
 ### Default Columns
@@ -17,7 +17,7 @@ _Lowest Competitor Pricing_
 |Column|Description|
 |---|---|
 |ASIN|A unique block of 10 letters and/or numbers that identify items.<br/><br/>For books, the ASIN is the same as the ISBN number, but for all other products a new ASIN is created when the item is uploaded to your catalog. You can find an item's ASIN on the product detail page along with additional details relating to the item (such as size, number of pages, or number of discs). |
-|[Condition]({{ site.baseurl }}{% link sales-channels/amazon/product-listing-condition.md %})|The condition of the product. |
+|[Condition]({% link sales-channels/amazon/product-listing-condition.md %})|The condition of the product. |
 |Fulfillment Channel|The method of fulfillment. |
 |Listing Price|The price used for your Amazon listings. |
 |Shipping Price|The cost to ship the product. |

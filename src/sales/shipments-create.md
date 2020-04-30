@@ -2,7 +2,7 @@
 title: Creating a Shipment
 ---
 
-The following instructions walk you through the process of creating a shipment for Magento Shipping. If you have Inventory Management enabled, you may want to review [Creating Shipments with Inventory Management]({{ site.baseurl }}{% link catalog/inventory-shipment-create.md %}).
+The following instructions walk you through the process of creating a shipment for Magento Shipping. If you have Inventory Management enabled, you may want to review [Creating Shipments with Inventory Management]({% link catalog/inventory-shipment-create.md %}).
 
 **To create a shipment:**
 
@@ -20,20 +20,20 @@ The following instructions walk you through the process of creating a shipment f
 
 ## Source Selection (Inventory Management)
 
-If you have Inventory Management enabled, select a [source]({{ site.baseurl }}{% link catalog/inventory-sources.md %}) (or location) and an amount of quantity to send per line item.
+If you have Inventory Management enabled, select a [source]({% link catalog/inventory-sources.md %}) (or location) and an amount of quantity to send per line item.
 
-For complete details, see [Creating Shipments with Inventory Management]({{ site.baseurl }}{% link catalog/inventory-shipment-create.md %}).
+For complete details, see [Creating Shipments with Inventory Management]({% link catalog/inventory-shipment-create.md %}).
 
 ## Items Ordered
 
 For each line item in the order, enter the **Qty Packed**.
 
-![]({{ site.baseurl }}{% link images/images/shipment-magento-shipping-items-ordered.png %}){: .zoom}
+![]({% link images/images/shipment-magento-shipping-items-ordered.png %}){: .zoom}
 _Items Ordered_
 
 ## Additional Information (Magento Shipping only)
 
-Enter a **Shipment Reference** number to identify the shipment on the customer [manifest]({{ site.baseurl }}{% link sales/dispatches.md %}) and shipping labels.
+Enter a **Shipment Reference** number to identify the shipment on the customer [manifest]({% link sales/dispatches.md %}) and shipping labels.
 
 The default value is the Magento Customer ID, but you can specify another value up to 15 characters.
 
@@ -43,13 +43,13 @@ The default value is the Magento Customer ID, but you can specify another value 
 
 1. In _Route Information_ section, choose the **Origin Location**.
 
-     For Magento Shipping, the default [location]({{ site.baseurl }}{% link shipping/magento-shipping-locations.md %}) is entered automatically, but can be overridden as necessary.
+     For Magento Shipping, the default [location]({% link shipping/magento-shipping-locations.md %}) is entered automatically, but can be overridden as necessary.
 
 1. If applicable, mark the **International** checkbox.
 
      For international shipments, the International Item Details and International Shipment Details sections appear in the form.
 
-     ![]({{ site.baseurl }}{% link images/images/shipment-magento-shipping-route-information.png %}){: .zoom}
+     ![]({% link images/images/shipment-magento-shipping-route-information.png %}){: .zoom}
      _Route Information_
 
 ## Packages
@@ -58,11 +58,11 @@ In the catalog database, make sure that the weight is entered correctly for all 
 
 ### To use Magento Shipping packaging:
 
-1. Complete the [packaging setup]({{ site.baseurl }}{% link shipping/magento-shipping-packaging.md %}), as needed.
+1. Complete the [packaging setup]({% link shipping/magento-shipping-packaging.md %}), as needed.
 
     Magento Shipping presents a list of predefined carrier packaging after the carrier connects. The list includes all package types offered by the carrier, and the pricing and associated services are updated automatically from the carrier.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     The package configuration grid lists only merchant-defined packaging. Carrier-specific packaging does not appear in the grid.
 
 1. Choose the package type.
@@ -89,7 +89,7 @@ In the catalog database, make sure that the weight is entered correctly for all 
 
     After you change the value, the **Quantity Packed** value updates to reflect the change.
 
-    ![]({{ site.baseurl }}{% link images/images/shipment-magento-shipping-packages-box.png %}){: .zoom}
+    ![]({% link images/images/shipment-magento-shipping-packages-box.png %}){: .zoom}
     _Packages_
 
 ### To add another package to the shipment:
@@ -100,16 +100,16 @@ In the catalog database, make sure that the weight is entered correctly for all 
 
 ## International Item Details (if applicable)
 
-Complete the fields in the **International Item Details** section. If you need help, click the Help (![]({{ site.baseurl }}{% link images/images/btn-help.png %}){: .Inline}) button, or refer to the Field Descriptions at the end of this topic.
+Complete the fields in the **International Item Details** section. If you need help, click the Help (![]({% link images/images/btn-help.png %}){: .Inline}) button, or refer to the Field Descriptions at the end of this topic.
 
-![]({{ site.baseurl }}{% link images/images/shipment-magento-shipping-international-item-details.png %}){: .zoom}
+![]({% link images/images/shipment-magento-shipping-international-item-details.png %}){: .zoom}
 _International Item Details_
 
 ## International Shipment Details (if applicable)
 
-Complete the fields in the **International Shipment Details** section. If you need help, click the Help (![]({{ site.baseurl }}{% link images/images/btn-help.png %}){: .Inline}) button, or refer to the Field Descriptions at the end of this topic.
+Complete the fields in the **International Shipment Details** section. If you need help, click the Help (![]({% link images/images/btn-help.png %}){: .Inline}) button, or refer to the Field Descriptions at the end of this topic.
 
-![]({{ site.baseurl }}{% link images/images/shipments-magento-shipping-international-shipment-details.png %}){: .zoom}
+![]({% link images/images/shipments-magento-shipping-international-shipment-details.png %}){: .zoom}
 _International Shipment Details_
 
 ## Add-Ons
@@ -122,28 +122,28 @@ The selection of value-added delivery options is determined by shipping method a
 
 1. (Magento Shipping UPS - US only):
 
-   - If available and applicable, mark the **Adult Signature Required** checkbox.
+    - If available and applicable, mark the **Adult Signature Required** checkbox.
 
-   - If you want to prevent the delivery from being redirected or rerouted by the recipient or driver, choose **Direct Delivery Only**.
+    - If you want to prevent the delivery from being redirected or rerouted by the recipient or driver, choose **Direct Delivery Only**.
 
-   - If needed for a time-critical delivery, mark the **Saturday Delivery** checkbox.
+    - If needed for a time-critical delivery, mark the **Saturday Delivery** checkbox.
 
 1. To identify the type of address, set **Destination Address Type** to one of the following:
 
-   - Business
-   - Residential
-   - Post Office Box
+    - Business
+    - Residential
+    - Post Office Box
 
-    ![]({{ site.baseurl }}{% link images/images/shipment-magento-shipping-add-ons.png %}){: .zoom}
+    ![]({% link images/images/shipment-magento-shipping-add-ons.png %}){: .zoom}
     _Add-Ons_
 
 ## Shipping Quotes
 
 1. Set customer shipping preferences:
 
-   - To use the customer’s preferred method of shipping, mark the **Customer Preference** checkbox.
+    - To use the customer’s preferred method of shipping, mark the **Customer Preference** checkbox.
 
-   - To override the customer’s preferred method, clear the **Customer Preference** checkbox. Then, choose another method.
+    - To override the customer’s preferred method, clear the **Customer Preference** checkbox. Then, choose another method.
 
 1. Click **Get Quotes**.
 
@@ -151,43 +151,43 @@ The selection of value-added delivery options is determined by shipping method a
 
     The Book Shipment button in the header is now active. and the Shipping and Tracking Information is completed for the carrier.
 
-    ![]({{ site.baseurl }}{% link images/images/shipping-magento-shipping-quotes-fedex.png %}){: .zoom}
+    ![]({% link images/images/shipping-magento-shipping-quotes-fedex.png %}){: .zoom}
     _Shipping Quotes_
 
 ## Shipping Comments
 
 1. Enter **Comments** for the shipment, if needed.
 
-    ![]({{ site.baseurl }}{% link images/images/shipment-magento-shipping-comments.png %}){: .zoom}
+    ![]({% link images/images/shipment-magento-shipping-comments.png %}){: .zoom}
     _Shipping Comments_
 
 1. When the shipment is ready, click **Book Shipment**. Then, do the following:
 
     - To view the tracking information, click the **Tracking Number**.
 
-        ![]({{ site.baseurl }}{% link images/images/shipment-magento-shipping-tracking-information-detail.png %}){: .zoom}
+        ![]({% link images/images/shipment-magento-shipping-tracking-information-detail.png %}){: .zoom}
         _Tracking Information_
 
     - To send the package tracking information to the customer, click **Send Tracking Information**.
 
     - Click **OK** to confirm.
 
-        ![]({{ site.baseurl }}{% link images/images/shipment-magento-shipping-tracking-information.png %}){: .zoom}
+        ![]({% link images/images/shipment-magento-shipping-tracking-information.png %}){: .zoom}
         _Shipping and Tracking Information_
 
     A message appears at the top of the page that the shipment has been sent, and the **Documentation** section appears in the shipment form, with a list of available printouts.
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     The remaining steps use the High Value Report, which is available for Magento Shipping orders over $999.00 (UPS - US only), as an example.
 
 1. In the _Action_ column, click the link to **Download** the package label for the shipment. Then, **Print** the label.
 
-    ![]({{ site.baseurl }}{% link images/images/shipment-magento-shipping-documentation.png %}){: .zoom}
+    ![]({% link images/images/shipment-magento-shipping-documentation.png %}){: .zoom}
     _Documentation_
 
 1. (Magento Shipping only) To print the **High Value Report**, click the **Download** link. Then, look for the text/html file in your browser’s download list.
 
-    ![]({{ site.baseurl }}{% link images/images/shipment-magento-shipping-documentation-high-value-report.png %}){: .zoom}
+    ![]({% link images/images/shipment-magento-shipping-documentation-high-value-report.png %}){: .zoom}
     _High Value Report_
 
 1. To print a packing slip for this shipment, click **Print** in the page header. Look for the PDF file in your browser’s download list.
@@ -208,7 +208,7 @@ The selection of value-added delivery options is determined by shipping method a
 |Carrier|The name of the selected carrier|
 |Title|A descriptive name assigned to the package by the carrier.|
 |Number|The linked tracking number that is assigned to the package.|
-|Action|![]({{ site.baseurl }}{% link images/images/btn-trashcan2.png %}) - Deletes the carrier selection.|
+|Action|![]({% link images/images/btn-trashcan2.png %}) - Deletes the carrier selection.|
 |Add|Add another carrier to the shipment.|
 
 ### Additional Information

@@ -4,7 +4,7 @@ title: Page Actions
 
 Pages can be edited, disabled, enabled, and deleted. To apply an action to an individual page, select the checkbox in the first column. To select or deselect all pages, use the mass actions control at the top of the column.
 
-![]({{ site.baseurl }}{% link images/images/pages-select.png %}){: .zoom}
+![]({% link images/images/pages-select.png %}){: .zoom}
 _Page Actions_
 
 The _Action_ column on the far right can be used to apply any of the following actions to the individual page:
@@ -15,5 +15,5 @@ The _Action_ column on the far right can be used to apply any of the following a
 
 - View
 
-![]({{ site.baseurl }}{% link images/images/page-grid-actions.png %}){: .zoom}
+![]({% link images/images/page-grid-actions.png %}){: .zoom}
 _Single Page Actions_

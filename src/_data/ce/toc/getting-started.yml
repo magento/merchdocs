@@ -142,24 +142,43 @@ pages:
       url: "/stores/store-mode-single.html"
   - label: Industry Compliance
     url: "/stores/compliance-industry.html"
+    versionless: true
     children:
-    - label: PCI Compliance Guidelines
-      url: "/stores/compliance-pci.html"
-    - label: Payment Services Directive
-      url: "/stores/compliance-payment-services-directive.html"
-    - label: GDPR Compliance
-      url: "/stores/compliance-gdpr.html"
-    - label: Privacy Policy
-      url: "/stores/privacy-policy.html"
-    - label: Cookie Law Compliance
-      url: "/stores/compliance-cookie-law.html"
-      children:
-      - label: Cookie Restriction Mode
-        url: "/stores/compliance-cookie-restriction-mode.html"
-      - label: Cookie Reference
-        url: "/stores/cookie-reference.html"
     - label: Accessibility
+      versionless: true
       url: "/catalog/navigation-accessibility.html"
+    - label: Payments
+      children:
+      - label: PCI Compliance Guidelines
+        url: "/stores/compliance-pci.html"
+      - label: Payment Services Directive
+        versionless: true
+        url: "/stores/compliance-payment-services-directive.html"
+    - label: Privacy
+      children:
+      - label: CCPA Compliance
+        versionless: true
+        url: "/stores/compliance-ccpa.html"
+        children:
+          - label: CCPA Compliance Guide
+            versionless: true
+            url: "/stores/compliance-ccpa-guide.html"
+      - label: GDPR Compliance
+        versionless: true
+        url: "/stores/compliance-gdpr.html" 
+      - label: Privacy Policy
+        versionless: true
+        url: "/stores/privacy-policy.html"
+      - label: Cookie Law Compliance
+        versionless: true
+        url: "/stores/compliance-cookie-law.html"
+        children:
+            - label: Cookie Restriction Mode
+              versionless: true
+              url: "/stores/compliance-cookie-restriction-mode.html"
+            - label: Cookie Reference
+              versionless: true
+              url: "/stores/cookie-reference.html"
 - label: Configuration Reference
   url: "/stores/configuration.html"
   children:
@@ -186,13 +205,6 @@ pages:
       url: "/configuration/general/new-relic-reporting.html"
     - label: Advanced Reporting
       url: "/configuration/general/advanced-reporting.html"
-  - label: Security
-    url: "/configuration/security.html"
-    children:
-    - label: 2FA
-      url: "/configuration/security/2fa.html"
-    - label: Google reCAPTCHA
-      url: "/configuration/security/google-recaptcha.html"
   - label: Catalog
     url: "/configuration/catalog.html"
     children:
@@ -206,6 +218,13 @@ pages:
       url: "/configuration/catalog/rss-feeds.html"
     - label: Email to a Friend
       url: "/configuration/catalog/email-to-a-friend.html"
+  - label: Security
+    url: "/configuration/security.html"
+    children:
+    - label: 2FA
+      url: "/configuration/security/2fa.html"
+    - label: Google reCAPTCHA
+      url: "/configuration/security/google-recaptcha.html"
   - label: Customers
     url: "/configuration/customers.html"
     children:
@@ -251,7 +270,7 @@ pages:
         - label: Braintree
           url: "/configuration/sales/braintree.html"
       - label: Other PayPal Methods
-        url: "/configuration/sales/payment-methods-other.html"
+        url: "/configuration/sales/paypal-methods-other.html"
         children:
         - label: PayPal All-In-One Payment Solutions
           children:
@@ -274,15 +293,36 @@ pages:
           url: "/configuration/sales/klarna.html"
         - label: Amazon Pay
           url: "/configuration/sales/amazon-pay.html"
-        - label: Authorize.Net Direct Post (Deprecated)
+        - label: Authorize.Net Direct Post - Deprecated
           url: "/configuration/sales/authorize-net-direct-post.html"
-        - label: Authorize.Net
+        - label: Authorize.Net - Deprecated
           url: "/configuration/sales/authorize-net.html"
+    - label: 3D Secure
+      url: "/configuration/sales/3d-secure.html"
+      children:
+      - label: CardinalCommerce
+        url: "/configuration/sales/cardinalcommerce.html"
+    - label: Fraud Protection
+      url: "/configuration/sales/fraud-protection.html"
+    - label: Address Validation
+      url: "/configuration/sales/address-validation.html"
+  - label: Sales Channels
+    url: "/configuration/sales-channels.html"
+    children:
+    - label: Global Settings
+      url: "/configuration/sales-channels/global-settings.html"
+  - label: Yotpo
+    url: "/configuration/yotpo.html"
+    children:
+    - label: Reviews and Visual Marketing
+      url: "/configuration/yotpo/reviews-visual-marketing.html"
   - label: Engagement Cloud
     url: "/configuration/engagement-cloud.html"
     children:
     - label: Accounts
       url: "/configuration/engagement-cloud/accounts.html"
+    - label: Chat Settings
+      url: "/configuration/engagement-cloud/chat-settings.html"
     - label: Data Mapping
       url: "/configuration/engagement-cloud/data-mapping.html"
     - label: Sync Settings
@@ -306,6 +346,8 @@ pages:
     children:
     - label: Magento Web API
       url: "/configuration/services/magento-web-api.html"
+    - label: Magento Services
+      url: "/configuration/services/saas.html"
     - label: OAuth
       url: "/configuration/services/oauth.html"
     - label: Channels
@@ -321,6 +363,15 @@ pages:
       url: "/configuration/advanced/developer.html"
 - label: Magento Extensions
   url: "/magento/magento-extensions.html"
+- label: Magento Marketplace
+  url: "/magento/magento-marketplace.html"
+  children:
+  - label: Set Up Your Marketplace Credentials
+    url: "/magento/magento-marketplace-credentials.html"
+  - label: Synchronize Your Store
+    url: "/magento/magento-marketplace-synchronize-store.html"
+  - label: Install an Extension
+    url: "/magento/magento-marketplace-install-extension.html"
 - label: Change Log
   url: "/magento/change-log.html"
 - label: Documentation Resources

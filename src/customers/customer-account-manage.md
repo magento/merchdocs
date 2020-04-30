@@ -2,16 +2,16 @@
 title: Managing Customer Accounts
 ---
 
-Use the Customers grid to find any customer account. You can use the standard [workplace controls]({{ site.baseurl }}{% link stores/admin-workspace.md %}) to filter the list, change the [column layout]({{ site.baseurl }}{% link stores/admin-grid-layout.md %}), save views, and export data. The [Actions control]({{ site.baseurl }}{% link stores/admin-actions-control.md %}) above the grid can be used to apply an operation to multiple customer records.
+Use the Customers grid to find any customer account. You can use the standard [workplace controls]({% link stores/admin-workspace.md %}) to filter the list, change the [column layout]({% link stores/admin-grid-layout.md %}), save views, and export data. The [Actions control]({% link stores/admin-actions-control.md %}) above the grid can be used to apply an operation to multiple customer records.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/customers-all-customers.png %}){: .zoom}
+![]({% link images/images/customers-all-customers.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/customers-all-customers.png %}){: .zoom}
+![]({% link images/images/customers-all-customers.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-b2b/customers-all-grid.png %}){: .zoom}
+![]({% link images/images-b2b/customers-all-grid.png %}){: .zoom}
 <!--{% endif %}-->
 _All Customers_
 
@@ -42,8 +42,8 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 
 1. Set the **Actions** control to one of the following:
 
-   - `Active`
-   - `Inactive`
+    - `Active`
+    - `Inactive`
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 
@@ -72,36 +72,36 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 
 **Method 1:** Quick Edit
 
-   1. In the first column, select the checkbox of the customer account to be edited.
+1. In the first column, select the checkbox of the customer account to be edited.
 
-   1. Set the **Actions** column to `Edit`.
+1. Set the **Actions** column to `Edit`.
 
-         The value of each value that can be updated appears in a text box. Only some values of the selected customer record can be edited from the grid.
+    The value of each value that can be updated appears in a text box. Only some values of the selected customer record can be edited from the grid.
 
-         ![]({{ site.baseurl }}{% link images/images/customers-grid-quick-edit.png %}){: .zoom}
-         _Quick Edit_
+    ![]({% link images/images/customers-grid-quick-edit.png %}){: .zoom}
+    _Quick Edit_
 
-   1. Update any of the following values, as needed:
+1. Update any of the following values, as needed:
 
-      - Email
-      - Group
-      - Phone
-      - ZIP
-      - Web Site
-      - Tax/VAT Number
-      - Gender
+    - Email
+    - Group
+    - Phone
+    - ZIP
+    - Web Site
+    - Tax/VAT Number
+    - Gender
 
-   1. Click **Save**.
+1. Click **Save**.
 
 **Method 2:** Full Edit
 
-   1. In the grid, find the customer record to be edited.
+1. In the grid, find the customer record to be edited.
 
-   2. In the _Actions_ column on the far right, click **Edit**.
+1. In the _Actions_ column on the far right, click **Edit**.
 
-   3. Make the necessary changes to the company information.
+1. Make the necessary changes to the company information.
 
-      To learn more, see [Updating Customer Accounts]({{ site.baseurl }}{% link customers/customer-account-update.md %}).
+    To learn more, see [Updating Customer Accounts]({% link customers/customer-account-update.md %}).
 
 ## Actions Control
 
@@ -133,10 +133,10 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 |Confirmed Email|Indicates if a confirmation email is required to be sent.|
 |Account Created In|Indicates the store view from which the customer account was created.|
 |Date of Birth|The date of birth of the customer.|
-|Tax / VAT Number|If applicable, the tax number or [value-added tax]({{ site.baseurl }}{% link tax/vat.md %}) number that is assigned to the customer. <br/><br/>**_Note:_** This field is not the same as the VAT Number.|
+|Tax / VAT Number|If applicable, the tax number or [value-added tax]({% link tax/vat.md %}) number that is assigned to the customer. <br/><br/>**_Note:_** This field is not the same as the VAT Number.|
 |Gender|The gender of the customer.|
 |Action|Edit - Opens the company account in edit mode.|
-|**Additional Columns**|_The following columns are available by changing the [column layout]({{ site.baseurl }}{% link stores/admin-grid-layout.md %})of the grid._|
+|**Additional Columns**|_The following columns are available by changing the [column layout]({% link stores/admin-grid-layout.md %})of the grid._|
 |Company|The company name of the customer.|
 |Street Address|The street address of the customer.|
 |City|The city where the customer is located.|
@@ -145,5 +145,5 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 |Billing Lastname|The last name in the billing address of the customer.|
 |Billing Address|The address where billing information is to be sent.|
 |Shipping Address|The address where orders are to be shipped.|
-|VAT Number|The value-added tax number that is associated with the customer address. For [digital goods]({{ site.baseurl }}{% link tax/eu-place-of-supply.md %}) sold in the EU, the VAT is based on the billing address of the customer. <br/><br/>**_Note:_** This field is not the same as the Tax/VAT Number.|
-|Account Lock|Indicates the status of the account. As a security measure, customer accounts can be [locked]({{ site.baseurl }}{% link customers/password-options.md %}) after too many login attempts. Values: Locked / Unlocked|
+|VAT Number|The value-added tax number that is associated with the customer address. For [digital goods]({% link tax/eu-place-of-supply.md %}) sold in the EU, the VAT is based on the billing address of the customer. <br/><br/>**_Note:_** This field is not the same as the Tax/VAT Number.|
+|Account Lock|Indicates the status of the account. As a security measure, customer accounts can be [locked]({% link customers/password-options.md %}) after too many login attempts. Values: Locked / Unlocked|

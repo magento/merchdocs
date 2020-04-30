@@ -4,14 +4,14 @@ title: Workspace Controls
 
 The page workspace includes tools to help you quickly find the pages you need, and commands to perform routine maintenance on individual or multiple pages. You can also quickly update page properties from the grid.
 
-![]({{ site.baseurl }}{% link images/images/pages.png %}){: .zoom}
+![]({% link images/images/pages.png %}){: .zoom}
 _Pages Grid_
 
 ## To quickly update page properties
 
 1. Click any row in the grid. To select multiple records, select the checkbox of each row that you want to update.
 
-   ![]({{ site.baseurl }}{% link images/images/page-grid-properties-update.png %}){: .zoom}
+   ![]({% link images/images/page-grid-properties-update.png %}){: .zoom}
    _Update Page Properties_
 
 1. Update any of the following properties:
@@ -29,8 +29,8 @@ _Pages Grid_
 |--- |--- |
 |Add New Page|Adds a new page.|
 |Search|Initiates a catalog search based on the current filters.|
-|Actions|Lists all actions that can be applied to selected items in the list. To apply an action to a page, or to multiple pages, seelct the checkbox in the first column of each record that is subject to the action. Options: Delete / Disable / Enable / Edit|
-|Select|The control in the header of the first column can be used to select multiple records as the target of action. Seelct the checkbox in the first column of each record that you want to select. Options: Select All / Deselect All|
+|Actions|Lists all actions that can be applied to selected items in the list. To apply an action to a page, or to multiple pages, select the checkbox in the first column of each record that is subject to the action. Options: Delete / Disable / Enable / Edit|
+|Select|The control in the header of the first column can be used to select multiple records as the target of action. Select the checkbox in the first column of each record that you want to select. Options: Select All / Deselect All|
 |Save Edits|Applies the current action to selected records.|
 |Edit|Opens the record in edit mode. You can accomplish the same thing by clicking anywhere on the row.|
 

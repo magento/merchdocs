@@ -1,52 +1,49 @@
 ---
 title: Template Path Hints
 ---
+
 Template Path Hints are a diagnostic tool that adds notation with the path to each template that is used on the page. Template path hints can be enabled for either the storefront or the Admin.
 
-{: .bs-callout-info}
-Template Path Hints can be edited in [Developer Mode]({{ site.baseurl }}{% link magento/installation-modes.md %}) only.
+{:.bs-callout-info}
+Template Path Hints can be edited in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
-See [Locate templates, layouts, and styles][1] in the developer documentation.
+See [Locate templates, layouts, and styles][1]{:target="_blank"} in the developer documentation.
 
-![]({{ site.baseurl }}{% link images/images/storefront-template-path-hints.png %}){: .zoom}
+![Example storefront - template path hints]({% link images/images/storefront-template-path-hints.png %}){: .zoom}
 _Template Path Hints in Storefront_
 
-## Step 1: Whitelist Your IP Address
+## Step 1: Whitelist your IP address
 
-Before using template path hints, add your IP address to the [whitelist]({{ site.baseurl }}{% link system/developer-client-restrictions.md %}), so not to interfere with customers who are shopping in the store. When you are finished, make sure to clear the Magento cache to remove all hints from the store.
+Before using template path hints, add your IP address to the [whitelist]({% link system/developer-client-restrictions.md %}) to avoid interference with customers who are shopping in the store. When you are finished, make sure to clear the Magento cache to remove all hints from the store.
 
-![]({{ site.baseurl }}{% link images/images/config-advanced-developer-developer-client-restrictions.png %}){: .zoom}
-[_Developer Client Restrictions_]({{ site.baseurl }}{% link configuration/advanced/developer.md %})
+![Advanced configuration - developer client restrictions]({% link images/images/config-advanced-developer-developer-client-restrictions.png %}){: .zoom}
+[_Developer Client Restrictions_]({% link configuration/advanced/developer.md %})
 
-## Step 2: Enable Template Path Hints
+## Step 2: Enable template path hints
 
-1.  On the _Admin_ sidebar, click **Stores**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1.  Under _Settings_, choose **Configuration**.
+1. In the left panel, expand **Advanced** and choose **Developer**.
 
-1.  In the panel on the left under _Advanced_, choose **Developer**.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Debug** section and do the following:
 
-1.  Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Debug** section. Then, do the following:
+    ![Advanced configuration - debug]({% link images/images/config-advanced-developer-debug.png %}){: .zoom}
+    [_Debug_]({% link configuration/advanced/developer.md %})
 
-     ![]({{ site.baseurl }}{% link images/images/config-advanced-developer-debug.png %}){: .zoom}
-     [_Debug_]({{ site.baseurl }}{% link configuration/advanced/developer.md %})
+    - To activate template path hints for the store, set **Enabled Template Path Hints for Storefront** to `Yes`.
 
-     -  To activate template path hints for the store, set **Enabled Template Path Hints for Storefront** to `Yes`.
+    - To enable template path hints for the store only when the URL includes the `templatehints` parameter, set **Enable Hints for Storefront with URL Parameter** to `Yes`. Then set value for the parameter if needed. The default value is `magento`, but you can use a custom value. For example, if you change the value to `lorem`, you would use `mymagento.com?templatehints=lorem` to display template hints.
 
-     -  To activate template path hints for the Admin, set **Enabled Template Path Hints for Admin** to `Yes`.
+    - To activate template path hints for the Admin, set **Enabled Template Path Hints for Admin** to `Yes`.
 
-     -  To include the names of blocks, set **Add Block Names to Hints** to `Yes`.
+    - To include the names of blocks, set **Add Block Names to Hints** to `Yes`.
 
-1.  When complete, click **Save Config**.
+1. When complete, click <span class="btn">Save Config</span>.
 
-1.  When you are finished, return to the Admin to disable the hints and clear the cache.
+## Step 3: Clear the cache
 
-## Step 3: Clear the Cache
+1. On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management**.
 
-1.  On the _Admin_ sidebar, click **System**.
-
-1.  Under _Tools_, choose **Cache Management**.
-
-1.  In the upper-right corner, click **Flush Magento Cache**.
+1. In the upper-right corner, click **Flush Magento Cache**.
 
 [1]: http://devdocs.magento.com/guides/v2.3/frontend-dev-guide/themes/debug-theme.html

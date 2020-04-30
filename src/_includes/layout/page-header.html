@@ -1,0 +1,29 @@
+<!-- page-header -->
+<section class="page-intro">
+
+  {% if page.tag == "google-shopping" %}
+    <div class="message-banner">
+      <b>Google Shopping ads Channel will be disabled on April 28, 2020. See <a href="https://docs.magento.com/m2/ce/user_guide/sales-channels/google-ads/google-eol.html">End of Life</a> for more information.</b>
+    </div>
+  {% endif %}
+  
+  {% if page.url contains "sales-channels/amazon/" %}
+  <div class="message-banner">
+    <b>You are viewing documentation for Amazon Sales Channel 2.x / 3.x.</b> <br/>Refer to <a href="{{ site.baseurl }}/sales-channels/asc/amazon-sales-channel.html">Amazon Sales Channel 4.0+</a> for updated documentation.</b>
+  </div>
+  {% endif %}
+  
+  <h1 class="page-heading">{{ page.title }}</h1>
+  </section>
+  
+  <style>
+    .version-message-banner {
+      text-align: center;
+      background-color: #FEE6D5;
+      border: solid 1px #f26322;
+      padding: 10px;
+      margin-top: 0;
+      margin-bottom: 10;
+      font-size: 13px;
+    }
+  </style>

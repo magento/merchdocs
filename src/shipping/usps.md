@@ -12,13 +12,11 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 ## Step 2: Enable USPS for Your Store
 
-1. On the _Admin_ sidebar, click **Stores**. 
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the _Settings_ section, choose **Configuration**.
+1. In the left panel, expand **Sales** and choose **Shipping Methods**.
 
-1. In the _Sales_ section on the left panel, choose **Shipping Methods**.
-
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **USPS** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **USPS** section.
 
 1. Set **Enabled for Checkout** to `Yes`.
 
@@ -33,8 +31,8 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
     * **Development**–Runs USPS in a test environment.
     * **Live**–Runs USPS in a live production environment.
 
-    After running USPS in a development environment, make sure to return later and set Mode to “Live”.![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-usps-account-settings.png %}){: .zoom}
-    _[USPS Account Settings]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})_
+    After running USPS in a development environment, make sure to return later and set Mode to “Live”.![]({% link images/images/config-sales-shipping-methods-usps-account-settings.png %}){: .zoom}
+    _[USPS Account Settings]({% link configuration/sales/shipping-methods.md %})_
 
 ## Step 3: Complete the Packaging Description
 
@@ -43,7 +41,7 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
     * **Divide to Equal Weight**–(One Request) The shipment of multiple packages can be submitted as one request if the packages are divided by equal weight.
     * **Use Origin Weight**–(Multiple Requests) Multiple packages must be submitted as separate requests if using origin weight as the basis of calculating the shipping cost.
 
-2. Set **Container** to the type of packaging usually used to ship products ordered for your store. Options include:
+1. Set **Container** to the type of packaging usually used to ship products ordered for your store. Options include:
 
     * Variable
     * Flat-Rate Box
@@ -51,21 +49,21 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
     * Rectangular
     * Non-Rectangular
 
-3. Set the **Size** of the typical package shipped from your store. Options include:
+1. Set the **Size** of the typical package shipped from your store. Options include:
 
     * Regular
     * Large
     * Oversize
 
-4. Set **Machinable** to one of the following:
+1. Set **Machinable** to one of the following:
 
     * **Yes**–If your typical package can be processed by a machine.
     * **No**–If your typical package must be processed manually.
 
-5. Enter the **Maximum Package Weight** according to carrier requirements.
+1. Enter the **Maximum Package Weight** according to carrier requirements.
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-usps-packaging.png %}){: .zoom}
-    _[USPS Packaging Settings]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})_
+    ![]({% link images/images/config-sales-shipping-methods-usps-packaging.png %}){: .zoom}
+    _[USPS Packaging Settings]({% link configuration/sales/shipping-methods.md %})_
 
 ## Step 4: Set Up Handling Fees
 
@@ -81,8 +79,8 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 1. Enter the amount of the **Handling Fee** to be charged. To enter a percentage, use the decimal format. For example, enter 0.25 for 25%.
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-usps-handling-fee.png %}){: .zoom}
-    _[USPS Handling Fee]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})_
+    ![]({% link images/images/config-sales-shipping-methods-usps-handling-fee.png %}){: .zoom}
+    _[USPS Handling Fee]({% link configuration/sales/shipping-methods.md %})_
 
 ## Step 5: Specify Allowed Methods and Applicable Countries
 
@@ -94,12 +92,12 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 1. The **Displayed Error Message** text box is preset with a default message. You can either leave this message or enter the message that you want to appear if USPS becomes unavailable.
 
-    ![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-usps-allowed-methods.png %}){: .zoom}
-    _[USPS Allowed Methods*]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})_
+    ![]({% link images/images/config-sales-shipping-methods-usps-allowed-methods.png %}){: .zoom}
+    _[USPS Allowed Methods*]({% link configuration/sales/shipping-methods.md %})_
 
 1. Set **Ship to Applicable Countries** to one of the following:
 
-    | All Allowed Countries | Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use this shipping method. |
+    | All Allowed Countries | Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this shipping method. |
     | Specific Countries | After choosing this option, the Ship to Specific Countries list appears. Select each country in the list where this shipping method can be used. |
     {:style="table-layout:auto"}
 
@@ -115,8 +113,8 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 1. Click **Save Config**.
 
-![]({{ site.baseurl }}{% link images/images/config-sales-shipping-methods-usps-countries.png %}){: .zoom}
-[*USPS Applicable Countries*]({{ site.baseurl }}{% link configuration/sales/shipping-methods.md %})
+![]({% link images/images/config-sales-shipping-methods-usps-countries.png %}){: .zoom}
+[*USPS Applicable Countries*]({% link configuration/sales/shipping-methods.md %})
 
 [1]: https://secure.shippingapis.com/registration/
 [2]: https://www.usps.com/business/web-tools-apis/technical-documentation.htm

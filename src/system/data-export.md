@@ -8,44 +8,44 @@ Special characters—such as the equal sign, greater and less than symbols, sing
 
 Data export is an asynchronous operation, which executes in the background so that you can continue working in the Admin without waiting for the operation to finish. The system displays a message when the task is complete.
 
-## To export data:
+## Export Data
 
-1.  On the _Admin_ sidebar, click **System**.
+1. On the _Admin_ sidebar, go to **System** > _Data Transfer_ > **Export**.
 
-1.  Under _Data Transfer_, choose **Export**.
+1. In the _Export Settings_ section, set **Entity Type** to one of the following:
 
-1.  In the _Export Settings_ section, set **Entity Type** to one of the following:
+    - `Products`
+    - `Customers Main File`
+    - `Customer Addresses`
 
-    * Products
-    * Customers Main File
-    * Customer Addresses
+1. Accept the default **Export File Format** of CSV.
 
-1.  Accept the default **Export File Format** of CSV.
+1. If you want to enclose any special characters that might be found in the data as an _escape sequence_, select the **Fields Enclosure** checkbox.
 
-1.  If you want to enclose any special characters that might be found in the data as an “escape sequence,” mark the **Fields Enclosure** checkbox.
-
-    ![]({{ site.baseurl }}{% link images/images/data-export-settings.png %}){: .zoom}
+    ![Data export settings]({% link images/images/data-export-settings.png %}){: .zoom}
     _Export Settings_
 
-1.  The Entity Attributes section lists all the available attributes in alphabetical order. You can use the standard [list controls]({{ site.baseurl }}{% link stores/admin-grid-controls.md %}) to search for specific attributes, and to sort the list. The Search and Reset Filter controls control the display of the list, but have no effect on the selection of attributes to be included in the export file.
+1. If needed, change the display of the entity attributes.
 
-    ![]({{ site.baseurl }}{% link images/images/data-export-filter-entity-attributes.png %}){: .zoom}
+   By default, the Entity Attributes section lists all the available attributes in alphabetical order. You can use the standard [list controls]({% link stores/admin-grid-controls.md %}) to search for specific attributes and to sort the list. The Search and Reset Filter controls control the display of the list, but have no effect on the selection of attributes to be included in the export file.
+
+    ![Data export filtered entity attributes]({% link images/images/data-export-filter-entity-attributes.png %}){: .zoom}
     _Filtered Entity Attributes_
 
-1.  To filter the exported data based on attribute value, do the following:
+1. To filter the exported data based on attribute value, do the following:
 
-    * To export only records with specific attribute values, enter the required value in the **Filter** column. The following example exports only a specific SKU.
+    - To export only records with specific attribute values, enter the required value in the **Filter** column. The following example exports only a specific SKU.
 
-        ![]({{ site.baseurl }}{% link images/images/data-export-entity-attributes-sku.png %}){: .zoom}
+        ![Data export - product based on SKU]({% link images/images/data-export-entity-attributes-sku.png %}){: .zoom}
         _Export Product Based on SKU_
 
-    * To omit an attribute from the export, mark the **Exclude** checkbox at the beginning of the row. For example, to export only the sku and image columns, select the checkbox of every other attribute. The column appears in the export file, but without any values.
+    - To omit an attribute from the export, select the **Exclude** checkbox at the beginning of the row. For example, to export only the sku and image columns, select the checkbox of every other attribute. The column appears in the export file, but without any values.
 
-        ![]({{ site.baseurl }}{% link images/images/data-export-filter-exclude.png %}){: .zoom}
+        ![Data export - exclude attributes]({% link images/images/data-export-filter-exclude.png %}){: .zoom}
         _Exclude Attributes_
 
-1.  Scroll down and click **Continue** in the lower-right corner of the page.
+1. Scroll down and click **Continue** in the lower-right corner of the page.
 
-1.  Upon completion of the task, look for the download prompt in the lower-right corner of your browser.
+1. Upon completion of the task, look for the file in the download location for your web browser.
 
     You can save or open the exported CSV file as a spreadsheet, then edit the data and import it back into your store.

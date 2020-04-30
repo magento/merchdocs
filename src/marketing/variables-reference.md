@@ -2,11 +2,11 @@
 title: Variable Reference
 ---
 
-Most email templates have a section of additional variables that are specific to the template. The following are examples of some frequently used templates.
+Most [email templates]({% link marketing/email-template-custom.md -%}) have a section of [predefined variables]({% link marketing/variables-predefined.md -%}) that are specific to the template. The following list includes examples of frequently-used email templates and their associated variables.
 
 <!-- {%- raw -%} -->
 
-### Email Template Variables
+## Email Template Variables
 
 |Variable|Markup Tag|
 |--- |--- |
@@ -18,7 +18,7 @@ Most email templates have a section of additional variables that are specific to
 |Email Logo Image Width|{{var logo_width}}|
 |Template CSS|{{var template_styles&#124;raw}}|
 
-### Store Contact Information Variables
+## Store Contact Information Variables
 
 |Variable|Markup Tag|
 |--- |--- |
@@ -43,7 +43,7 @@ Most email templates have a section of additional variables that are specific to
 |Street Address 2|{{config path="general/store_information/street_line2"}}|
 |Store Contact Address|{{config path="general/store_information/address"}}|
 
-### New Account Template Variables
+## New Account Template Variables
 
 |Variable|Markup Tag|
 |--- |--- |
@@ -51,7 +51,7 @@ Most email templates have a section of additional variables that are specific to
 |Customer Email|{{var customer.email}}|
 |Customer Name|{{var customer.name}}|
 
-### New Order Template Variables
+## New Order Template Variables
 
 |Variable|Markup Tag|
 |--- |--- |

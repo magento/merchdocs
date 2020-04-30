@@ -1,28 +1,28 @@
-exclude_rule 'MD001'
+rule 'MD001' # Header levels should only increment by one level at a time
 exclude_rule 'MD002'
-exclude_rule 'MD003'
-exclude_rule 'MD004'
-exclude_rule 'MD005'
-exclude_rule 'MD006'
-exclude_rule 'MD007'
-exclude_rule 'MD009'
-exclude_rule 'MD010'
+rule 'MD003', :style => :atx # Header style
+rule 'MD004' # Unordered list style, default "consistent"
+rule 'MD005' # inconsistent indentation for list items at the same level
+rule 'MD006' # consider starting bulleted lists at the beginning of the line
+rule 'MD007', :indent => 3 # unordered list indentation
+rule 'MD009' # no trailing spaces
+rule 'MD010' # hard tabs
 exclude_rule 'MD011'
-exclude_rule 'MD012'
+rule 'MD012' # multiple consecutive blank lines
 exclude_rule 'MD013'
 exclude_rule 'MD014'
-exclude_rule 'MD018'
-exclude_rule 'MD019'
+rule 'MD018' # no space after hash on atx style header
+rule 'MD019' # multiple spaces after hash on atx style header
 exclude_rule 'MD020'
 exclude_rule 'MD021'
 exclude_rule 'MD022'
-exclude_rule 'MD023'
+rule 'MD023' # headers must start at the beginning of the line
 exclude_rule 'MD024'
-exclude_rule 'MD025'
+rule 'MD025' # multiple top level headers in the same document
 exclude_rule 'MD026'
 exclude_rule 'MD027'
 exclude_rule 'MD028'
-exclude_rule 'MD029'
+rule 'MD029' # ordered list item prefix
 exclude_rule 'MD030'
 exclude_rule 'MD031'
 exclude_rule 'MD032'

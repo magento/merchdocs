@@ -3,22 +3,22 @@ conditions: Default.B2B Only
 title: Configuring Catalog Price Scope
 ---
 
-If you have a multisite installation, make sure to configure the price scope before you create your shared catalogs. The [price scope]({{ site.baseurl }}{% link catalog/catalog-price-scope.md %}) can be set to “Global,” or “Website”. However, it can be set only at the beginning of the setup process. The Website chooser appears during Step 2 of the shared catalog setup.
+If you have a multisite installation, make sure to configure the price scope before you create your shared catalogs. The [price scope]({% link catalog/catalog-price-scope.md %}) can be set to `Global` or `Website`. However, it can be set only at the beginning of the setup process. The Website chooser appears during Step 2 of the [shared catalog setup]({% link catalog/catalog-shared-pricing-structure.md %}).
 
-![]({{ site.baseurl }}{% link images/images-b2b/catalog-shared-scope-pricing-step2.png %}){: .zoom}
-*Website Chooser*
+![]({% link images/images-b2b/catalog-shared-scope-pricing-step2.png %}){: .zoom}
+_Website Chooser_
 
-## To configure the price scope:
+## Configure the price scope
 
-1. On the Admin sidebar, tap **Stores**. Then under **Settings**, choose **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the sidebar under **Catalog**, choose **Catalog**.
+1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Price** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Price** section.
 
-1. Set **Catalog Price Scope** to “Website”.
+1. Set **Catalog Price Scope** to `Website`.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/config-catalog-catalog-price-website.png %}){: .zoom}  
-    *Catalog Price Scope*
+    ![]({% link images/images-ee/config-catalog-catalog-price-website.png %}){: .zoom}
+    _Catalog Price Scope_
 
-1. Tap <span class="btn">Save Config</span>.
+1. Click <span class="btn">Save Config</span>.

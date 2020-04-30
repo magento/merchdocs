@@ -2,14 +2,14 @@
 title: Newsletter
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Customers]({{ site.baseurl }}{% link configuration/customers.md %}) >  Newsletter
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) >  Newsletter
 
 ## Subscription Options
 
-![]({{ site.baseurl }}{% link images/images/config-customers-newsletter-subscription-options.png %}){: .zoom}
-[_Subscription Options_]({{ site.baseurl }}{% link marketing/newsletter-configuration.md %})
+![]({% link images/images/config-customers-newsletter-subscription-options.png %}){: .zoom}
+[_Subscription Options_]({% link marketing/newsletter-configuration.md %})
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Allow Guest Subscription|Store View|Determines if unregistered guests can subscribe to a newsletter. Options: Yes / No|
 |Need to Confirm|Store View|Determines if subscription requests must be confirmed. This double-opt-in method is a validation measure that prevents people from being subscribed without their consent. Options: Yes / No|

@@ -12,16 +12,16 @@ sections:
 
   - title: Configuration Reference
     content: Access information about all of the Magento configuration settings, including links to related conceptual and how-to information. This reference is organized according to the hierarchy used by the Configuration UI.
-    url: /stores/configuration.html 
+    url: /stores/configuration.html
 
   - title: Magento Extensions
-    content: Review the information available for many of the extensions developed and released by Magento. Understand the functionality for each of these extensions and link to installation instructions and detailed configuration information. 
-    url: /magento/magento-extensions.html 
+    content: Review the information available for many of the extensions developed and released by Magento. Understand the functionality for each of these extensions and link to installation instructions and detailed configuration information.
+    url: /magento/magento-extensions.html
 ---
 
 This section of the guide provides information for the “why, where, and how” questions that most merchants have when first learning to use Magento, as well as resources and reference information. It also functions as a springboard to more advanced topics.
 
-If you have used this guide before, you can review the [Change Log]({{ site.baseurl }}{% link magento/change-log.md %}) for information about the latest additions and updates to the guide.
+If you have used this guide before, you can review the [Change Log]({% link magento/change-log.md %}) for information about the latest additions and updates to the guide.
 
 <div class="bs-callout bs-callout-info" markdown="1">
 Starting with our 2.3.2 release, we are no longer producing and publishing an updated 2.3 User Guide PDF to match our online content. This makes it possible for us to provide an improved online User Guide experience and publish content updates more frequently.

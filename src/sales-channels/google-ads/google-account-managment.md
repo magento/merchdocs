@@ -1,5 +1,6 @@
 ---
 title: Managing Google Accounts
+tag: google-shopping
 ---
 
 
@@ -11,13 +12,13 @@ Account approval is vital for your GMC account and running ad campaigns.
 
 You need to complete and configure the following for accounts to be approved. Once approved, products are reviewed and campaigns run.
 
-* Completed [onboarding]({{ site.baseurl }}{% link sales-channels/google-ads/onboarding-google.md %}) with a GMC account per URL
+* Completed [onboarding]({% link sales-channels/google-ads/onboarding-google.md %}) with a GMC account per URL
 * Verified and claimed the URL assigned to the GMC account
 * Received account approval from Google
 
 ## Google Account Basics
 
-Understanding the basics and [best practices]({{ site.baseurl }}{% link sales-channels/google-ads/google-best-practices.md %}) helps you get ahead with managing GMC accounts:
+Understanding the basics and [best practices]({% link sales-channels/google-ads/google-best-practices.md %}) helps you get ahead with managing GMC accounts:
 
 * Google has guidelines and policies to determine if an account is approved: Google's [Terms of Service][1] and policies on [Prohibited Content][2].
 * If you exceed your Google quota (default is 150,000) for total synced line items (all items in your product feed for all countries), you will receive an account error of too many products. For example, if you sell and promote a product across three countries, the total number counts against your total. Magento cannot extend or affect this quota. To increase your limit, [contact Google with this form][3].
@@ -29,7 +30,7 @@ Understanding the basics and [best practices]({{ site.baseurl }}{% link sales-ch
 
 ## Account and Product Dashboard
 
-When accessing Google Shopping ads, the dashboard provides a list of all linked GMC accounts and products. At a glance, learn more about your product status with Google. If you have disapprovals, click **View details** to review and resolve [Account]({{ site.baseurl }}{% link sales-channels/google-ads/account-resolve-errors.md %}) details.
+When accessing Google Shopping ads, the dashboard provides a list of all linked GMC accounts and products. At a glance, learn more about your product status with Google. If you have disapprovals, click **View details** to review and resolve [Account]({% link sales-channels/google-ads/account-resolve-errors.md %}) details.
 
 {% include gmc-acct-products.md %}
 

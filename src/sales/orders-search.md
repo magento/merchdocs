@@ -4,27 +4,27 @@ title: Order Search
 
 The Search box in the upper-left of the Orders grid can be used to find specific orders by keyword, or by filtering the order records in the grid.
 
-![]({{ site.baseurl }}{% link images/images/order-search.png %}){: .zoom}
+![]({% link images/images/order-search.png %}){: .zoom}
 _Search Results_
 
-## To search for a match:
+## Search for a match
 
 1. Enter a search term into the page search box.
 
-2. Click **Search** ![]({{ site.baseurl }}{% link images/images/btn-search.png %}){: .Inline} to display the results.
+1. Click **Search** ![]({% link images/images/btn-search.png %}) to display the results.
 
-## To filter the search:
+## Filter the search
 
-1. Click the **Filters** ![]({{ site.baseurl }}{% link images/images/btn-filter-search.png %}){: .Inline} tab to display the selection of search filters.
+1. Click the **Filters** ![]({% link images/images/btn-filter-search.png %}) tab to display the selection of search filters.
 
 1. Complete as many of the filters as needed to describe the order(s) that you want to find.
 
 1. Click **Apply Filters** to display the results.
 
-     ![]({{ site.baseurl }}{% link images/images/order-search-filter.png %}){: .zoom}
+     ![]({% link images/images/order-search-filter.png %}){: .zoom}
      _Order Filters_
 
-### Search Filters
+### Search filters
 
 |Filter|Description|
 |--- |--- |

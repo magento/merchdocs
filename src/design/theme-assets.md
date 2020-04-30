@@ -2,7 +2,7 @@
 title: Theme Assets
 ---
 
-The term static files refers to the collection of assets, such as CSS, fonts, images, and JavaScript, that is used by a theme. The location of static files is specified in the [Base URL]({{ site.baseurl }}{% link stores/store-urls.md %}) configuration.
+The term static files refers to the collection of assets, such as CSS, fonts, images, and JavaScript, that is used by a theme. The location of static files is specified in the [Base URL]({% link stores/store-urls.md %}) configuration.
 
 A digital signature can be added to the URL of each static file to make it possible for browsers to detect when a newer version is available. The newer version of the file is used if the signature differs from what is stored in the browser's cache.
 
@@ -10,7 +10,7 @@ For a standard installation, the assets associated with a theme are organized in
 
    `[magento_root]/app/design/frontend/Magento/[theme_name]/web`
 
-![]({{ site.baseurl }}{% link images/images/theme-assets-directory-structure.png %}){: .zoom}
+![]({% link images/images/theme-assets-directory-structure.png %}){: .zoom}
 _Theme Assets_
 
 ## To sign static files:
@@ -19,9 +19,9 @@ _Theme Assets_
 
 1. In the panel on the left under **Advanced**, choose **Developer**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Static Files Settings** section.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Static Files Settings** section.
 
-   ![]({{ site.baseurl }}{% link images/images/config-advanced-developer-static-files-settings.png %}){: .zoom}
+   ![]({% link images/images/config-advanced-developer-static-files-settings.png %}){: .zoom}
    *Static Files Settings*
 
 1. Set **Sign Static Files** to `Yes`.

@@ -1,8 +1,8 @@
 ---
-title: SEO & Search
+title: SEO and Search
 sections:
   - title: Catalog Navigation
-    content: Learn about navigation and how to optimize the methods shoppers use to move from page to page throughout your store. 
+    content: Learn about navigation and how to optimize the methods shoppers use to move from page to page throughout your store.
     url: /catalog/navigation.html
 
   - title: Catalog Search

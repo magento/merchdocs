@@ -3,13 +3,13 @@ title: Fulfilled By
 ---
 
 
-Fulfilled By settings are part of your store's listing settings. You can access the listing settings for an Active or Inactive store in the [store's dashboard]({{ site.baseurl }}{% link sales-channels/amazon/amazon-store-dashboard.md %}). In the **I Want To...** section, click **Listing Settings**. The Listing Settings screen displays with the Product Listing Actions section expanded by default. Click **Fulfilled By** to expand the section.
+Fulfilled By settings are part of your store's listing settings. You can access the listing settings for an Active or Inactive store in the [store's dashboard]({% link sales-channels/amazon/amazon-store-dashboard.md %}). In the **I Want To...** section, click **Listing Settings**. The Listing Settings screen displays with the Product Listing Actions section expanded by default. Click **Fulfilled By** to expand the section.
 
 {% include amazon-fulfilled-by.md %}
 
 {% include amazon-fulfilled-by-configure.md %}
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-fulfilled-by.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-fulfilled-by.png %}){: .zoom}
 _Fulfilled By_
 
 |Field|Description|

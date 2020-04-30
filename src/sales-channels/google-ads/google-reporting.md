@@ -1,5 +1,6 @@
 ---
 title: Campaign Reporting
+tag: google-shopping
 ---
 
 As your ads run, Google tracks all clicked ads links through to converted sales. Aggregated totals provide quick insight to your sales to determine the effectiveness of your ads, attractive products and prices, and costs per ad. Google Shopping ads Channel provides two options for reviewing your Smart Shopping campaigns through the Magento Admin or [Magento Business Intelligence](https://magento.com/products/business-intelligence).
@@ -12,20 +13,20 @@ When accessing Google Shopping ads Channel, the dashboard provides aggregated re
 * Campaign details and status for the entire run of the campaign
 * Action options to modify and manage your campaigns
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/google/ad-campaigns.png %}){: .zoom}
+![]({% link images/images/sales-channels/google/ad-campaigns.png %}){: .zoom}
 *Ad Campaigns Dashboard*
 
-## Magento Business Intelligence Reporting
+## MBI
 
-Expand your reporting options with Magento Business Intelligence (MBI). We provide links to create a new account, or request to activate Google Shopping ads Channel reports on an existing account. To get started with MBI, select one of the linked options. MBI Essentials provides a Google Shopping Performance Dashboard to review the aggregated results of your Smart Shopping campaigns. MBI Pro provides the features of Essentials and additional options to add data sets to further enhance reporting.
+Expand your reporting options with Magento Business Intelligence (MBI). We provide links to create a new account, or request to activate Google Shopping ads Channel reports on an existing account. To get started with MBI, select one of the linked options. MBI provides a Google Shopping Performance Dashboard to review the aggregated results of your Smart Shopping campaigns. Additionally, you can add data sets to further enhance reporting.
 
 * Account performance
 * Campaign performance
 * Product performance
 * Product Partition (group) performance
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/google/google-mbi-campaign.png %}){: .zoom}
+![]({% link images/images/sales-channels/google/google-mbi-campaign.png %}){: .zoom}
 *Campaign Performance Report*
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/google/google-mbi-clicks.png %}){: .zoom}
+![]({% link images/images/sales-channels/google/google-mbi-clicks.png %}){: .zoom}
 *Conversion Reports*

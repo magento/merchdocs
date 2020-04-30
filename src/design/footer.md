@@ -2,20 +2,20 @@
 title: Footer
 ---
 
-The Footer configuration section is where you can update the [copyright notice]({{ site.baseurl }}{% link design/copyright-notice.md %}) that appears at the bottom of the page, and enter miscellaneous scripts that must be positioned before the closing `<body>` tag.
+The Footer configuration section is where you can update the [copyright notice]({% link design/copyright-notice.md %}) that appears at the bottom of the page, and enter miscellaneous scripts that must be positioned before the closing `<body>` tag.
 
-![]({{ site.baseurl }}{% link images/images/config-design-footer.png %}){: .zoom}
+![]({% link images/images/config-design-footer.png %}){: .zoom}
 _Footer_
 
-## To configure the footer:
+## Configure the footer
 
 1. On the _Admin_ sidebar, go to **Content** > _Design_ > **Configuration**.
 
-1. Find the store view that you want to configure. Then in the **** column, click **Edit**.
+1. Find the store view that you want to configure. Then, click **Edit** in the _Action_ column.
 
-1. Under **Other Settings**, expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline} the **Footer** section.
+1. Under **Other Settings**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Footer** section.
 
-1. Make any changes necessary to the [Copyright]({{ site.baseurl }}{% link design/copyright-notice.md %}) and **Miscellaneous HTML** settings.
+1. Make any changes necessary to the [Copyright]({% link design/copyright-notice.md %}) and **Miscellaneous HTML** settings.
 
 1. When complete, click <span class="btn">Save Config</span>.
 

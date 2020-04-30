@@ -1,35 +1,32 @@
 title: Magento User Guide
 
-description: Merchant documentation and tutorials to help you manage a Magento store 
+description: Merchant documentation and tutorials to help you manage a Magento store
 logo: User Guide
-baseurl: ""
+baseurl: ''
+url: "https://docs.magento.com"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 theme: devdocs
 source: src
 plugins_dir: ./_plugins
-exclude: ['bin', 'node_modules', 'vendor', '.git', '.idea','Gemfile*','README.md','*.json','CODEOWNERS','package.json','vagrant.sh','s3_website.yml']
 
-version: "2.3"
-editions: 
-  - 
+version: 2.3
+editions:
+  -
     name: Open Source
     url: https://docs.magento.com/m2/ce/user_guide/getting-started.html
-  - 
+  -
     name: Commerce
     url: https://docs.magento.com/m2/ee/user_guide/getting-started.html
-  - 
+  -
     name: B2B
     url: https://docs.magento.com/m2/b2b/user_guide/getting-started.html
 
 algolia:
-  application_id: 'E642SEDTHL'
-  index_name: 'merchdocs_ce'
-  api_key: 'd2d0f33ab73e291ef8d88d8b565e754c'
-  max_record_size: 20000
-  files_to_exclude:
-    - search.md
+  application_id: E642SEDTHL
+  index_name: merchdocs_ce
+  api_key: d2d0f33ab73e291ef8d88d8b565e754c
 
 google:
   gtm: GTM-KRCLXBB
@@ -37,7 +34,7 @@ google:
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: '' # an empty string here means all files in the project
     values:
       layout: default
       lang: en
@@ -65,7 +62,7 @@ defaults:
     scope:
       path: design
     values:
-      group: content    
+      group: content
   -
     scope:
       path: getting-started
@@ -79,6 +76,11 @@ defaults:
   -
     scope:
       path: marketing
+    values:
+      group: marketing
+  -
+    scope:
+      path: product-recommendations
     values:
       group: marketing
   -
@@ -100,13 +102,13 @@ defaults:
     scope:
       path: system
     values:
-      group: operations    
+      group: operations
   -
     scope:
       path: tax
     values:
-      group: operations    
-  - 
+      group: operations
+  -
     scope:
       path: reports
     values:
@@ -120,7 +122,7 @@ defaults:
     scope:
       path: shipping
     values:
-      group: sales        
+      group: sales
   -
     scope:
       path: payment
@@ -141,4 +143,5 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
 
+livereload: true
 check_links: true

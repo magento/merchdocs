@@ -1,14 +1,20 @@
 ---
 conditions: Default.EE-B2B
-title: eWAY
+title: eWAY - Deprecated
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > [Payment Methods]({{ site.baseurl }}{% link configuration/sales/payment-methods.md %}) > eWAY
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > eWAY (Deprecated)
 
-![]({{ site.baseurl }}{% link images/images-ee/config-sales-payment-methods-eway.png %}){: .zoom}
-_eWAY_
+{:.bs-callout-warning}
+**Deprecation Notice** <br/>
+Due to the Payment Service Directive [PSD2]({% link stores/compliance-payment-services-directive.md %}) and the continued evolution of many APIs, this payment integration is at risk of becoming outdated and no longer security compliant in the future. For this reason, it is now deprecated, and we recommend that you disable it in your Magento configuration and transition to the corresponding [Magento Marketplace extension](https://marketplace.magento.com/catalogsearch/result/?q=eway){:target="_blank"}.<br/><br/>
+**This integration will be removed from the Magento 2.4.0 release and has been deprecated from current versions of 2.3.**<br/><br/>
+For details about making a secure transition from deprecated payment integrations, see our [DevBlog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog){:target="_blank"}.
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+![]({% link images/images-ee/config-sales-payment-methods-eway.png %}){: .zoom}
+[_eWAY_]({% link payment/eway.md %})
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled|Website|Enables eWAY for your stores. Options: Yes / No|
 |Connection Type|Website|Options: Direct Connection / Responsive Shared Page|

@@ -4,49 +4,49 @@ title: Preparing Your Invoice Logo
 
 Unlike the logo images used in HTML, the logo for PDF invoices and other sales documents can be a high-resolution, 300 dot per inch (DPI) image. However, the image must be rendered to fit a space that is 200 pixels wide by 50 pixels high. Be careful to preserve the aspect ratio when you resize the logo. Resize the logo to fit the height, and don’t worry about any unused space to the right.
 
-![]({{ site.baseurl }}{%- link images/images/logo-pdf.png -%})
-*200 x 50 pixels*
+![]({% link images/images/logo-pdf.png %})<br/>
+_200 x 50 pixels_
 
 One way to resize your logo to fit the required size is to create a new, blank image with the correct dimensions. Then, paste your logo image and resize it to fit the height. With most image editing programs, you can either scale it by a percentage to preserve the aspect ratio, or hold down the Shift key and manually resize the image.
 
-## To configure invoices and packing slips
+## Configure Invoices and Packing Slips
 
-On the Admin sidebar, tap **Stores**. Then under **Settings**, choose **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-In the panel on the left, under **Sales**, choose **Sales**.
+1. In the left panel, expand **Sales** and choose **Sales** underneath.
 
-Expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Invoice and Packing Slip Design** section. Then, do the following:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Invoice and Packing Slip Design** section and do the following:
 
-![]({{ site.baseurl }}{%- link images/images/config-sales-sales-invoice-packing-slip-design.png -%}){: .zoom}
- [*Invoice and Packing Slip Design*]({{ site.baseurl }}{%- link configuration/sales/sales.md -%})
+    ![Sales configuration - sales invoice and packing slip design]({% link images/images/config-sales-sales-invoice-packing-slip-design.png %}){: .zoom}
+    [_Invoice and Packing Slip Design_]({% link configuration/sales/sales.md -%})
 
-To upload the **Logo for PDF Print-outs**, tap <span class="btn">Choose File</span>. Find the logo that you have prepared, and tap <span class="btn">Open</span>.
+    - To upload the **Logo for PDF Print-outs**, click <span class="btn">Choose File</span>, find the logo that you have prepared, and click <span class="btn">Open</span>.
 
-To upload the **Logo for HTML Print View**,tap <span class="btn">Choose File</span>. Find the logo that you have prepared, and tap <span class="btn">Open</span>.
+    - To upload the **Logo for HTML Print View**, click <span class="btn">Choose File</span>, find the logo that you have prepared, and click <span class="btn">Open</span>.
 
-Enter your address as you want it to appear on invoices and packing slips.
+    - Enter your address as you want it to appear on invoices and packing slips.
 
-When complete, tap <span class="btn">Save Config</span>.
+1. When complete, click <span class="btn">Save Config</span>.
 
-For reference, a thumbnail of the uploaded image appears before each field. Don’t worry if the thumbnail appears distorted. The proportion of the logo will be correct on the invoice.
+    For reference, a thumbnail of the uploaded image appears before each field. Don’t worry if the thumbnail appears distorted. The proportion of the logo will be correct on the invoice.
 
-## To replace an image
+## Replace an Image
 
-Tap **Choose File** and choose a different logo file.
+1. Click <span class="btn">Choose File</span> and choose a different logo file.
 
-Mark the **Delete Image** checkbox for the image you want to replace.
+1. Select the **Delete Image** checkbox for the image you want to replace.
 
-Tap <span class="btn">Save Config</span>.
+1. Click <span class="btn">Save Config</span>.
 
-### Image Formats
+## Image Formats
 
 |Format|Requirements|
 |--- |--- |
-|PDF||
+|**_PDF_**||
 |File Format|JPG (JPEG), PNG, TIF (TIFF)|
 |Image Size|200 pixels wide x 50 pixels high|
 |Resolution|300 DPI recommended|
-|HTML||
+|**_HTML_**||
 |File Format|JPG (JPEG), PNG, GIF|
 |Image Size|Determined by theme.|
 |Resolution|72 or 96 DPI|

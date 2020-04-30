@@ -17,7 +17,7 @@ To edit a MerchDocs page directly in the GitHub UI:
 1. Add a commit message in the Commit changes section at the bottom and create a new branch for the commit (name the branch as well).
 1. Click **Commit changes** to submit a PR with your revisions.
 
-# Building this site
+## Building this site
 
 You can build this site locally in the following ways:
 
@@ -26,7 +26,7 @@ You can build this site locally in the following ways:
 
 Build instructions use DevDocs base information for building MerchDocs.
 
-## Build using Jekyll
+### Build using Jekyll
 
 For local builds, you need to install Ruby 2.4 or later.
 
@@ -36,7 +36,7 @@ To check the Ruby version on your environment, run in your terminal:
 ruby -v
 ```
 
-### Install the latest Ruby (if the Ruby version is less than 2.4)
+#### Install the latest Ruby (if the Ruby version is less than 2.4)
 
 **MacOS users**
 
@@ -51,7 +51,7 @@ ruby -v
 
 See the [Ruby site](https://www.ruby-lang.org/en/documentation/installation) for instructions.
 
-### Install Bundler
+#### Install Bundler
 
 Install the [Bundler](https://bundler.io/) gem, which helps with Ruby dependencies:
 
@@ -59,7 +59,7 @@ Install the [Bundler](https://bundler.io/) gem, which helps with Ruby dependenci
 gem install bundler
 ```
 
-Once you have completed preparing your environment, you can build locally and review the site in your browser.
+After you have completed preparing your environment, you can build locally and review the site in your browser.
 
 ### Install MerchDocs
 
@@ -69,9 +69,9 @@ Clone or download the repository. The first time you are at the `merchdocs` dire
 bundle install
 ```
 
-Once you have completed preparing your environment, you can build locally and review the site in your browser.
+After you have completed preparing your environment, you can build locally and review the site in your browser.
 
-### To build locally:
+### Build locally
 
 #### Using rake
 
@@ -82,6 +82,12 @@ Once you have completed preparing your environment, you can build locally and re
    ```bash
    rake preview
    ```
+
+   This command:
+
+   - Checks your environment according to the dependencies in `Gemfile.lock`.
+   - Removes the `_site/` directory, which contains previously generated preview files.
+   - Generates a new preview and opens the landing page in a web browser.
 
 1. Press `Ctrl+C` in the serve terminal to stop the server.
 
@@ -118,47 +124,31 @@ If rake fails on your environment, generate the preview [using jekyll](#using-je
 > ***TIP***
 > Leave the serve terminal open and running. Every time you save changes to a file, it automatically regenerates the site so you can test the output immediately. Changing the `_config.yml` file requires a fresh build. Using the `--incremental` option limits re-builds to posts and pages that have changed.
 
-### To minimize build time locally:
+### Minimizing build time
 
-1. Create a `_config.local.yml` file at the root of the project directory and exclude all versions except the one that you want to preview.
-The following example will generate Magento 2.2 documentation only.
+#### Building specific editions
 
-   ```yaml
-    exclude:
-     - /community/
-     - /swagger/
-     - /vagrant/
-     - /guides/m1x/
-     - /guides/v2.0/
-     - /guides/v2.1/
-    # - /guides/v2.2/
-     - /guides/v2.3/
+You can speed the local build time up by only building one of the three versions that the full `rake preview` command builds. Building individual versions also enables incremental builds when you save a changed document, thus updating your preview. Incremental builds are disabled when `rake preview` is used to build all versions. To build a specific version, use one of the following commands:
 
-    # Excluded in config.yml
-     - /scss/
-     - /bin/
-     - /node_modules/
-     - /vendor/
-     - /.*
-     - /Rakefile
-   ```
+- `rake preview:ce`: Preview the Open Source edition locally
+- `rake preview:b2b`: Preview the B2B edition locally
+- `rake preview:ee`: Preview the Commerce edition locally
 
-1. Run the preview command:
+#### Customizing local config
 
-   ```bash
-   rake preview
-   ```
+By creating your own `_config.local.yml` file, you can customize the [Jekyll config](https://jekyllrb.com/docs/configuration/options/) to suit your needs.
 
-   This command:
-   - Checks your environment according to the dependencies in `Gemfile.lock`.
-   - Removes the `_site/` directory, which contains previously generated preview files.
-   - Generates a new preview and opens the landing page in a web browsers.
+##### Disable link checking
 
-If you don't have the `_config.local.yml` file at the root of your `merchdocs/` directory, the rake will generate all versions of the documentation.
+By default, `check_links` is enabled. This option verifies every link in every project file, which can significantly increase build times when iterating many changes quickly. You can turn off link checking by adding the following line to your `_config.local.yml` file:
+
+```yaml
+check_links: false
+```
 
 ## Build in Windows
 
-Some of the technologies we use to develop Merchant Documentation is not compatible with Windows, such as [Jekyll](https://jekyllrb.com/docs/windows/). For this reason, we do not support Merchant Documentation management in Windows; however, we have documented the following procedures to build thi site in a Windows environment. Any further use of this setup or troubleshooting is up to you.
+Some of the technologies we use to develop Merchant Documentation is not compatible with Windows, such as [Jekyll](https://jekyllrb.com/docs/windows/). For this reason, we do not support Merchant Documentation management in Windows; however, we have documented the following procedures to build this site in a Windows environment. Any further use of this setup or troubleshooting is up to you.
 
 Download software:
 
@@ -179,14 +169,14 @@ Only Administrators can use Chocolatey features. You can use the Administrator a
 
 1. Verify Chocolatey was added to the environment variables:
 
-    - In the Windows UI, open search and type `path`.
-    - In the Windows CMD console, type `echo %path%`.
+   - In the Windows UI, open search and type `path`.
+   - In the Windows CMD console, type `echo %path%`.
 
     You should see `C:ProgramDatachocolateybin` in the path.
 
 1. Close and reopen the command prompt before using `choco` commands.
 
-After running the script at the command line, you can install any required extensions. Chocolately has many extensions available, similar to Homebrew for MacOS. As a best practice, only use extensions labeled as a "trusted package". You can install editors, such as Nano and Notepad++, using Chocolatey, as well.
+After running the script at the command line, you can install any required extensions. Chocolatey has many extensions available, similar to Homebrew for MacOS. As a best practice, only use extensions labeled as a "trusted package". You can install editors, such as Nano and Notepad++, using Chocolatey, as well.
 
 #### Install Ruby extension
 
@@ -202,10 +192,10 @@ If you have Ruby installed on the workstation, then you can skip this installati
 
 1. Verify the environment variables were added properly:
 
-    - In the Windows UI, open search and type `path`.
-    - In the Windows CMD console, type `echo %path%`.
+   - In the Windows UI, open search and type `path`.
+   - In the Windows CMD console, type `echo %path%`.
 
->  **NOTE** 
+>  **NOTE**
 >  If you encounter problems with Ruby, or the `gem` command is not recognized, you can install the `rubyinstaller-devkit.exe` development kit located in the `c:ProgramDatachocolateybin` folder.
 
 ### Install Git for Windows
@@ -239,10 +229,10 @@ You may have to close and reopen the Git Bash application after the Choco instal
 
 1. Open Git Bash. The **Git Bash** executable is on the shortcut menu.
 
-1. Change to the directory you created for Git repositories and clone the DevDocs repository.
+1. Change to the directory you created for Git repositories and clone the MerchDocs repository.
 
     ```bash
-    git clone git@github.com:magento-docs/merchdocs.git
+    git clone git@github.com:magento/merchdocs.git
     ```
 
 1. Change to the `merchdocs` directory.
@@ -277,5 +267,5 @@ You may have to close and reopen the Git Bash application after the Choco instal
       Server running... press ctrl-c to stop.
     ```
 
->  **NOTE** 
+>  **NOTE**
 >  The `.bash_profile` file CAN be created and managed using Git Bash, which is useful for aliases and other customizations, This file is in the `users/Administrator` folder.)

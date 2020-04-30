@@ -7,10 +7,10 @@ The term content marketing refers to the art of promoting your products or servi
 Your content should reflect the branding of your store, and be delivered with your distinctive visual presentation and voice to convey your message. Use pictures to tell a story. Educate, inspire, and entertain. Keep in mind that with quality content, sometimes less is more.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/admin-menu-content.png %}){: .zoom}
+![]({% link images/images/admin-menu-content.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/admin-menu-content-ee.png %}){: .zoom}
+![]({% link images/images-ee/admin-menu-content-ee.png %}){: .zoom}
 <!--{% endif %}-->
 _Content Menu_
 
@@ -18,39 +18,39 @@ _Content Menu_
 
 On the _Admin_ sidebar, choose **Content**.
 
-## [Pages]({{ site.baseurl }}{% link cms/pages.md %})
+## Pages
 
-Create pages with text, images, blocks, variables, and widgets, that can be incorporated into the navigation of your store, and linked to other pages.
+Create [pages]({% link cms/pages.md %}) with text, images, blocks, variables, and widgets, that can be incorporated into the navigation of your store, and linked to other pages.
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-Then, organize your pages into a [hierarchy]({{ site.baseurl }}{% link cms/page-hierarchy.md %}) with navigation.
+Then, organize your pages into a [hierarchy]({% link cms/page-hierarchy.md %}) with navigation.
 
 <!--{% endif %}-->
-## [Blocks]({{ site.baseurl }}{% link cms/blocks.md %})
+## Blocks
 
-Create blocks of content without writing any code. Blocks can contain text, images, and even video, and can be assigned to any part of the page layout.
+Create [blocks]({% link cms/blocks.md %}) of content without writing any code. Blocks can contain text, images, and even video, and can be assigned to any part of the page layout.
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-## [Banners]({{ site.baseurl }}{% link cms/banners.md %}) _(Deprecated)_
+## Banners _(Deprecated)_
 
-Create banners that are triggered by promotions and that appear only to customers in specific, targeted [segments]({{ site.baseurl }}{% link marketing/customer-segment-banner.md %}).
+Create [banners]({% link cms/banners.md %}) that are triggered by promotions and that appear only to customers in specific, targeted [segments]({% link marketing/customer-segment-banner.md %}).
 
-[Dynamic Blocks]({{ site.baseurl }}{% link cms/dynamic-blocks.md %})
+## Dynamic Blocks
 
-Create rich, interactive content that is driven by logic from [price rules]({{ site.baseurl }}{% link marketing/promotions.md %}) and [customer segments]({{ site.baseurl }}{% link marketing/customer-segments.md %}).
+Create rich, [interactive content]({% link cms/dynamic-blocks.md %}) that is driven by logic from [price rules]({% link marketing/promotions.md %}) and [customer segments]({% link marketing/customer-segments.md %}).
 
 <!--{% endif %}-->
-## [Widgets]({{ site.baseurl }}{% link cms/widgets.md %})
+## Widgets
 
-Display dynamic data and add blocks, links, and interactive elements most anywhere in your store.
+[Widgets]({% link cms/widgets.md %}) display dynamic data and add blocks, links, and interactive elements most anywhere in your store.
 
-## [Design]({{ site.baseurl }}{% link design/design-menu.md %})
+## Design
 
-Learn to manage the visual presentation of your store, apply themes, and schedule design changes.
+Learn to manage the visual presentation of your store, apply themes, and schedule [design]({% link design/design-menu.md %}) changes.
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-## [Staging]({{ site.baseurl }}{% link cms/content-staging.md %})
+## Staging
 
-Content Staging gives your business team the ability to easily create, preview, and schedule a wide range of content updates directly from the Admin of your store.
+[Content Staging]({% link cms/content-staging.md %}) gives your business team the ability to easily create, preview, and schedule a wide range of content updates directly from the Admin of your store.
 
 <!--{% endif %}-->

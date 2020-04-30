@@ -1,11 +1,14 @@
 ---
-title: Authorize.Net Direct Post (Deprecated)
+title: Authorize.Net Direct Post - Deprecated
 ---
 
-Authorize.Net handles all steps in the transaction process — such as payment data collection, data submission, and response to the customer — while the customer remains in your store. Authorize.Net Direct Post (Deprecated) can be used with orders created from the Admin as well as from the store.
+{:.bs-callout-warning}
+**Deprecation Notice** <br/>
+Due to the Payment Service Directive [PSD2]({% link stores/compliance-payment-services-directive.md %}) and the continued evolution of many APIs, this payment integration is at risk of becoming outdated and no longer security compliant in the future. Additionally, Authorize.Net has deprecated the Authorize.Net Direct Post payment method. We are recommending that you disable it in your Magento configuration and transition to the Authorize.Net [Magento Marketplace extension](https://marketplace.magento.com/catalogsearch/result/?q=authorize.net){:target="_blank"}.<br/><br/>
+**This integration will be removed from the Magento 2.4.0 release and has been deprecated from current versions of 2.3.**<br/><br/>
+For details about making a secure transition from deprecated payment integrations, see our [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
-{:.bs-callout .bs-callout-info}
-**Deprecation Notice:** Authorize.Net has deprecated the Authorize.Net Direct Post (Deprecated) payment method. If you use this method, you must update the [MD5 Hash key with a new Signature key ][1]. The Authorize.Net payment method must be set up as the replacement payment method. Refer to [Authorize.Net]({{ site.baseurl }}{% link payment/authorize-net.md %}) for more information.
+Authorize.Net handles all steps in the transaction process, such as payment data collection, data submission, and response to the customer, while the customer remains in your store.
 
 ## Customer Workflow
 
@@ -27,7 +30,7 @@ Authorize.Net handles all steps in the transaction process — such as payment d
 
 1. In the panel on the left under **Sales**, choose **Payment Methods**.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}){: .Inline}the **Authorize.Net Direct Post (Deprecated)** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Authorize.Net Direct Post (Deprecated)** section. Then, do the following:
 
    - Set **Enabled** to “Yes.”
 
@@ -38,7 +41,7 @@ Authorize.Net handles all steps in the transaction process — such as payment d
 
    - Enter a **Title** to identify the Authorize.Net Direct Post (Deprecated) payment method during checkout.
 
-   ![Enable Authorize.Net Direct Post (Deprecated)]({{ site.baseurl }}{% link images/images/payments-authorize-net-direct-post1.png %}){: .zoom}
+   ![Enable Authorize.Net Direct Post (Deprecated)]({% link images/images/payments-authorize-net-direct-post1.png %}){: .zoom}
    _Enable Authorize.Net Direct Post (Deprecated)_
 
 ### Step 2: Enter Your Authorize.Net Account Credentials
@@ -83,19 +86,19 @@ Authorize.Net handles all steps in the transaction process — such as payment d
 
    - To require customers to enter a card verification value (CVV), set **Credit Card Verification** to “Yes.”
 
-     ![Complete the Payment Information]({{ site.baseurl }}{% link images/images/payments-authorize-net-direct-post3.png %}){: .zoom}
+     ![Complete the Payment Information]({% link images/images/payments-authorize-net-direct-post3.png %}){: .zoom}
      _Complete the Payment Information_
 
    - Set **Payment from Applicable Countries** to one of the following:
 
-     | **All Allowed Countries** | Customers from all [countries]({{ site.baseurl }}{% link stores/country-options.md %}) specified in your store configuration can use this payment method.|
+     | **All Allowed Countries** | Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method.|
      | **Specific Countries** | After choosing this option, the Payment from Specific Countries list appears. Select each country in the list where customers can make purchases from your store.|
 
    - Enter the **Minimum Order Total** and **Maximum Order Total** for Direct Post transactions. To qualify, the order total must exactly match the minimum or maximum threshold, or fall somewhere in between.
 
    - Enter a **Sort Order** number to determine the position of Direct Post in the list of payment methods during checkout. (0 = first, 1 = second, 2 = third, and so on.)
 
-     ![Specify the Applicable Countries]({{ site.baseurl }}{% link images/images/payments-authorize-net-direct-post5.png %}){: .zoom}
+     ![Specify the Applicable Countries]({% link images/images/payments-authorize-net-direct-post5.png %}){: .zoom}
      _Specify the Applicable Countries_
 
 1. When complete, tap <span class="btn">Save Config</span>.

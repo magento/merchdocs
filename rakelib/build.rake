@@ -1,3 +1,6 @@
+# Copyright © Magento, Inc. All rights reserved.
+# See COPYING.txt for license details.
+
 namespace :build do
   desc 'Build all User Guide editions. Optionally, use "ce_options", "ee_options", and "b2b_options" to pass additional options correspondingly.'
   # task :all => [:ce, :ee, :b2b] do
@@ -14,7 +17,7 @@ namespace :build do
 
     print 'Building the Open Source edition: $ '.magenta
     sh "bundle exec jekyll build #{custom_options} --verbose --trace --config _config.yml,_config.ce.yml"
-    print 'Built!'.green
+    puts 'Built!'.green
   end
 
   desc 'Build the Commerce edition. Optionally, use "ee_options" to pass additional options. Example: rake build:ee ee_options="--baseurl=/build/${BUILD_NUMBER}/m2/ee"'
@@ -23,7 +26,7 @@ namespace :build do
 
     print 'Building the Commerce edition: $ '.magenta
     sh "bundle exec jekyll build #{custom_options} --verbose --trace --config _config.yml,_config.ee.yml"
-    print 'Built!'.green
+    puts 'Built!'.green
   end
 
   desc 'Build the B2B edition. Optionally, use "b2b_options" to pass additional options. Example: rake build:b2b b2b_options="--baseurl=/build/${BUILD_NUMBER}/m2/b2b"'
@@ -32,7 +35,7 @@ namespace :build do
 
     print 'Building B2B edition: $ '.magenta
     sh "bundle exec jekyll build #{custom_options} --verbose --trace --config _config.yml,_config.b2b.yml"
-    print 'Built!'.green
+    puts 'Built!'.green
   end
 
   desc 'Build site for production.'

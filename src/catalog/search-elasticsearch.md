@@ -3,81 +3,91 @@ title: Elasticsearch
 group: marketing
 ---
 
-Elasticsearch is a powerful and highly scalable distributed search engine that is used by such high-volume sites as eBay, Wikipedia, and GitHub. The implementation of Elasticsearch includes both search suggestions and recommendations. For installation instructions, see [Set up Elasticsearch service][1]{: target="_blank"} in the developer documentation.
+Elasticsearch is a powerful and highly scalable distributed search engine that is used by such high-volume sites as eBay, Wikipedia, and GitHub. The implementation of Elasticsearch includes both search suggestions and recommendations. For installation instructions, see [Set up Elasticsearch service][1]{:target="_blank"} in our developer documentation.
 
-## Step 1: Configure Search Options
+## Step 1: Configure search options
 
-1. On the Admin sidebar, tap **Stores**. Then under **Settings**, choose **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the panel on the left under **Catalog**, choose **Catalog**.
+1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({{ site.baseurl }}{% link images/images/btn-expand.png %}) the **Catalog Search** section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the _Catalog Search_ section.
 
-1. For the **Search Engine** field, clear the **Use system value** checkbox and choose the version that is installed on your server.
+1. For **Search Engine**, deselect the **Use system value** checkbox and choose the version that is installed on your server.
 
-   * Elasticsearch (Deprecated) &mdash; Elasticsearch 2.0+ has reached end of life, and is now deprecated. To learn more, see <a href="https://www.elastic.co/support/eol" target="_blank">Elastic Product End of Life Dates.
+   - Elasticsearch (Deprecated) - Elasticsearch 2.x has reached end of life, and is now deprecated. For more information, see [Elastic Product End of Life Dates](https://www.elastic.co/support/eol){:target="_blank"}.
 
-   * Elasticsearch 5.0+ (Default) &mdash; Elasticsearch 5.0+ is scheduled for end of life. To learn more, see <a href="https://www.elastic.co/support/eol" target="_blank">Elastic Product End of Life Dates.
+   - Elasticsearch 5.x (Default) - Elasticsearch 5.x is scheduled for end of life. For more information, see [Elastic Product End of Life Dates](https://www.elastic.co/support/eol){:target="_blank"}.
 
-   * Elasticsearch 6.0+ (Recommended) &mdash;For the best performance, we recommend that you use the latest version of Elasticsearch 6.0+.
+   - Elasticsearch 6.x (Recommended) - For the best performance, we recommend that you use the latest version of Elasticsearch 6.x.
 
-   {: .bs-callout .bs-callout-info}
-   To learn more about using Elasticsearch versions 2.x and 5.x, see [Change the Elasticsearch Client][2]{: target="_blank"}.
+   {:.bs-callout-info}
+   For more information about using Elasticsearch versions 2.x and 5.x, see [Change the Elasticsearch Client][2]{:target="_blank"} in our developer documentation.
 
-   ![]({{ site.baseurl }}{% link images/images/config-catalog-catalog-search-elasticsearch-1.png %}){: .zoom}
-   *[Elasticsearch Settings]({{ site.baseurl }}{% link configuration/catalog/catalog.md %})*
+   ![]({% link images/images/config-catalog-catalog-search-elasticsearch-1.png %}){: .zoom}
+   [_Elasticsearch Settings_]({% link configuration/catalog/catalog.md %})
 
-1. For **Enable EAV Indexer**, set if you want to enable or disable the Product EAV indexer. This feature improves indexation speed and restricts the indexer from use by 3rd party extensions. This option only displays for Elasticsearch or Elasticsearch 5.0+ Search Engines.
+1. If you want to enable or disable the Product EAV indexer, set the **Enable EAV Indexer**.
 
-1. To limit the length and word count of search query text, set the **Minimal Query Length** and **Maximum Query Length**.
+   This feature improves indexation speed and restricts the indexer from use by third-party extensions. This option only available for Elasticsearch or Elasticsearch 5.x Search Engines.
 
-   {: .bs-callout .bs-callout-info}
-   **Important:** The value set for this minimum and maximum range must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set these values to 2 and 300 in Magento, update the values in your search engine.
+1. To limit the length and word count of search query text, set a value for **Minimal Query Length** and **Maximum Query Length**.
+
+   {:.bs-callout-info}
+   **Important:** The value set for this minimum and maximum range must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set these values to `2` and `300` in Magento, update the corresponding values in your search engine.
 
 1. To limit the amount of popular search results to cache for faster responses, set an amount for **Number of top search results to cache**.
 
-   The default is 100. Entering a value of 0 caches all search terms and results when entered a second time.
+   The default value is `100`. Entering a value of `0` caches all search terms and results when entered a second time.
 
-1. To limit the maximum number of search results to display for search autocomplete, set an amount for **Autocomplete Limit**. Restricting this amount increases performance of searches and reduces the displayed list size. The default amount is 8.
+1. To limit the maximum number of search results to display for search autocomplete, set an amount for **Autocomplete Limit**.
 
-## Step 2: Configure the Elasticsearch Connection
+   Restricting this amount increases performance of searches and reduces the displayed list size. The default value is `8`.
 
-![]({{ site.baseurl }}{% link images/images/config-catalog-catalog-search-elasticsearch-2.png %}){: .zoom}
-*Elasticsearch Connection Settings*
+## Step 2: Configure the Elasticsearch connection
 
-1. Enter the **Elasticsearch Server Hostname**. The default is: `localhost`.
+![]({% link images/images/config-catalog-catalog-search-elasticsearch-2.png %}){: .zoom}
+_Elasticsearch Connection Settings_
+
+1. Enter the **Elasticsearch Server Hostname**.
+
+   The default is `localhost`.
 
 1. Enter the **Elasticsearch Server Port**.
 
-1. In the **Elasticsearch Index Prefix** field, enter a prefix.to identify the Elasticsearch index. For example: Magento2.
+1. For **Elasticsearch Index Prefix**, enter a prefix to identify the Elasticsearch index.
 
-1. Set **Enable Elasticsearch HTTP Auth** to “Yes” to use HTTP authentication to prompt for a username and password to access Elasticsearch Server.
+   Example: `Magento2`.
 
-1. In the **Elasticsearch Server Timeout** field, enter the number of seconds before the system times out. The default is: 15.
+1. To use HTTP authentication to prompt for a username and password to access Elasticsearch Server, set **Enable Elasticsearch HTTP Auth** to `Yes`.
 
-1. To verify the configuration, tap <span class="btn">Test Connection</span>.
+1. For **Elasticsearch Server Timeout**, enter the number of seconds before the system times out.
 
-## Step 3: Configure Suggestions and Recommendations
+   The default value is `15`.
 
-{: .bs-callout .bs-callout-info}
+1. To verify the configuration, click <span class="btn">Test Connection</span>.
+
+## Step 3: Configure suggestions and recommendations
+
+{:.bs-callout-info}
 Search suggestions and recommendations can impact server performance.
 
-1. Set **Enable Search Suggestions** to “Yes”. Then, do the following:
+1. Set **Enable Search Suggestions** to `Yes` and do the following:
 
-   ![]({{ site.baseurl }}{% link images/images/config-catalog-catalog-search-elasticsearch-3.png %}){: .zoom}
-   *Elasticsearch Suggestion and Recommendation Settings*
+   ![]({% link images/images/config-catalog-catalog-search-elasticsearch-3.png %}){: .zoom}
+   _Elasticsearch Suggestion and Recommendation Settings_
 
-   * In the **Search Suggestions Count** field, enter the number of search suggestions to offer.
+   - For **Search Suggestions Count**, enter the number of search suggestions to offer.
 
-   * To show the number of results found for each suggestion, set **Show Results for Each Suggestion** to “Yes”.
+   - To show the number of results found for each suggestion, set **Show Results for Each Suggestion** to `Yes`.
 
-1. To offer recommendations, set **Enable Search Recommendations** to “Yes”. Then, do the following:
+1. To offer recommendations, set **Enable Search Recommendations** to `Yes` and do the following:
 
-   * In the **Search Recommendation Count** field, enter the number of recommendations to offer.
+   - For **Search Recommendation Count**, enter the number of recommendations to offer.
 
-   * To show the number of results found for each recommendation, set **Show Results Count for Each Recommendation** to “Yes”.
+   - To show the number of results found for each recommendation, set **Show Results Count for Each Recommendation** to `Yes`.
 
-1. When complete, tap <span class="btn">Save Config</span>.
+1. When complete, click <span class="btn">Save Config</span>.
 
 [1]: http://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html
 [2]: https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html

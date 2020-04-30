@@ -1,11 +1,11 @@
 ---
 title: Customer Engagement Reporting
-redirect_from: 
+redirect_from:
   - /reports/dotmailer-dashboard.html
   - /reports/marketing-automation.html
 ---
 
-The Customer Engagement section of the Reports menu provides data import and report options for [dotdigital]({{ site.baseurl }}{%- link marketing/engagement-cloud.md -%}). 
+The Customer Engagement section of the Reports menu provides data import and report options for [dotdigital]({% link marketing/engagement-cloud.md -%}).
 
 These options include:
 
@@ -13,10 +13,10 @@ These options include:
 * Various reports to help you track Engagement Cloud syncs, activity, and performance
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/admin-menu-reports.png %}){: .zoom}
+![]({% link images/images/admin-menu-reports.png %}){: .zoom}
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/admin-menu-reports-ee.png %}){: .zoom}
+![]({% link images/images-ee/admin-menu-reports-ee.png %}){: .zoom}
 <!--{% endif %}-->
 *Customer Engagement Reports*
 
@@ -24,7 +24,7 @@ These options include:
 
 The dotdigital reporting **Dashboard** provides import settings, sync jobs, reset options, etc to update, sync, and manage collected data.
 
-![Engagement Cloud Reports Dashboard]({{ site.baseurl }}{% link images/images/dotmailer-reports-dashboard.png %}){: .zoom}
+![Engagement Cloud Reports Dashboard]({% link images/images/engagement-cloud-reports-dashboard.png %}){: .zoom}
 _Engagement Cloud Reports Dashboard_
 
 ## Available Reports
@@ -38,7 +38,7 @@ _Engagement Cloud Reports Dashboard_
 
 ## Required: Sync settings for reporting
 
-Prior to configuring reporting options, you should complete [Enagagement Cloud configuration]({{ site.baseurl }}{%- link configuration/engagement-cloud/accounts.md -%}) and [enable syncs]({{ site.baseurl }}{%- link configuration/engagement-cloud/sync-settings.md -%}). 
+Prior to configuring reporting options, you should complete [Enagagement Cloud configuration]({% link configuration/engagement-cloud/accounts.md -%}) and [enable syncs]({% link configuration/engagement-cloud/sync-settings.md -%}).
 
 For Syncs, most integrations set the following to "yes": Customer Enabled, Guest Enabled, Subscriber Enabled, and Order Enabled. This shares and syncs dotdigital data with the Magento integration. Data is synced in batches to Magento.
 
@@ -54,7 +54,7 @@ To directly link your Engagement Cloud and Magento accounts without requiring a 
 1. Click <span class="btn">Connect</span> to test the credentials. If sauccessful, the button displays as "Disconnect". It must be connected to authorize.
 1. Click <span class="btn">Save Config</span>.
 
-    ![OAUTH Credentials]({{ site.baseurl }}{% link images/images/dotdigital-dash-oauth.png %}){: .zoom}
+    ![OAUTH Credentials]({% link images/images/dotdigital-dash-oauth.png %}){: .zoom}
     _OAUTH Credentials_
 
 ## Configure reporting
@@ -69,37 +69,37 @@ To directly link your Engagement Cloud and Magento accounts without requiring a 
    1. Set the **Transactional Data Sync Size** (default 50). This sets the batch size limit you require for the amount of transactions loaded for every sync.
    1. To sync subscriber dales data, set **Enable Subscribers Sales Data Sync** to "Yes". This option is disabled by default due to the increased server load and sync times.
 
-      ![]({{ site.baseurl }}{% link images/images/dotdigital-dash-import.png %}){: .zoom}
+      ![]({% link images/images/dotdigital-dash-import.png %}){: .zoom}
       _Import Settings_
 
 1. To detect, create, and map data fields automatically (not manually) from Magento into Engagement Cloud, expand *Sync Settings* > *Admin Task* and click **Run Now** for **Automap Data Fields**.
 
 1. To delete all current Contact Ids and add new ones with new syncs, expand *Sync Settings* > *Admin Task* and click **Run Now** for **Delete All Contact Ids**. You may use this option when connecting and using different Engagement Cloud account.
 
-    ![Engagement Cloud Admin Tasks]({{ site.baseurl }}{% link images/images/dotdigital-dash-admin.png %}){: .zoom}
+    ![Engagement Cloud Admin Tasks]({% link images/images/dotdigital-dash-admin.png %}){: .zoom}
     _Engagement Cloud Admin Tasks_
 
 1. Click <span class="btn">Save Config</span>.
 
 ## Manage sync jobs
 
-You have options in the Dashboard to manually run or reset sync operations. 
+You have options in the Dashboard to manually run or reset sync operations.
 
 ### To manually sync:
 
 Between automated syncs (run by cron job), you may need to manually run sync jobs. The syncs run according to Engagement Cloud configurations.
 
 1. Click **Reports** in the Admin. Under _Customer Engagement_, select **Dashboard**.
-1. To run a contact sync, click <span class="btn">Run Contact Sync</span> at the top. 
+1. To run a contact sync, click <span class="btn">Run Contact Sync</span> at the top.
 1. To run a importer sync, click <span class="btn">Run Importer Sync</span> at the top.
 
-    ![Sync Options]({{ site.baseurl }}{% link images/images/dotdigital-dash-btn.png %}){: .zoom}
+    ![Sync Options]({% link images/images/dotdigital-dash-btn.png %}){: .zoom}
     _Sync Options_
 
 1. Expand *Sync Settings*, then expand *Manually Run Sync*.
-1. Click <span class="btn">Run Now</span> for the different sync options: Contact, Subscriber, Order, Wishlist, Review, Catalog, Importer, and Template. 
+1. Click <span class="btn">Run Now</span> for the different sync options: Contact, Subscriber, Order, Wishlist, Review, Catalog, Importer, and Template.
 
-    ![Manually Run Syncs]({{ site.baseurl }}{% link images/images/dotdigital-dash-admin.png %}){: .zoom}
+    ![Manually Run Syncs]({% link images/images/dotdigital-dash-admin.png %}){: .zoom}
     _Manually Run Syncs_
 
 ### To reset data syncs:
@@ -110,11 +110,11 @@ The reset options for data syncs force marks all entries for import. At the next
 1. Expand *Sync Settings*, then expand *Reset Sync*.
 1. To Reset Customers or Reset Subscribers, click <span class="btn">Run Now</span> for those operations.
 1. To reset all other operations:
-   
+
    1. Enter a **Date Range** with a start (**From**) and end (**To**) date.
    1. Click <span class="btn">Run Now</span> for a data sync: Order, FReview, Wishlist, and Catalog. All data is cleared and then reset.
 
-    ![Reset Syncs]({{ site.baseurl }}{% link images/images/dotdigital-dash-resetsync.png %}){: .zoom}
+    ![Reset Syncs]({% link images/images/dotdigital-dash-resetsync.png %}){: .zoom}
     _Reset Syncs_
 
 ## Configure Cron Settings
@@ -126,12 +126,12 @@ Cron jobs are the heart of data synchronization between dotdigital Engagement Cl
 1. To change a setting, select a value from the drop-down menu per data sync.
 1. Click <span class="btn">Save Config</span>.
 
-    ![Cron Timings]({{ site.baseurl }}{% link images/images/dotdigital-dash-cron.png %}){: .zoom}
+    ![Cron Timings]({% link images/images/dotdigital-dash-cron.png %}){: .zoom}
     _Cron Timings_
 
 ## Restrict IP Access
 
-To add a layer of security for external dynamic content, you can manage the  list of requesting IP addresses that these URLs will display for when requested from them. 
+To add a layer of security for external dynamic content, you can manage the  list of requesting IP addresses that these URLs will display for when requested from them.
 
 By default, the integration includes three IP addresses Engagement Cloud sends requests from when sending emails to pull in this content. During testing, you may want to include your company's IP address to the list.
 
@@ -142,7 +142,7 @@ If you leave this field empty, a security check does not run. We do not recommen
 1. Enter IP addresses in a comma (`,`) separated list.
 1. Click <span class="btn">Save Config</span>.
 
-    ![Dynamic Pages IP Restriction]({{ site.baseurl }}{% link images/images/dotdigital-dash-iprestrict.png %}){: .zoom}
+    ![Dynamic Pages IP Restriction]({% link images/images/dotdigital-dash-iprestrict.png %}){: .zoom}
     _Dynamic Pages IP Restriction_
 
 ## Configure Debugging
@@ -153,5 +153,5 @@ If you leave this field empty, a security check does not run. We do not recommen
 1. For longer API calls, set the amount in seconds for the **Debug Api Calls Time** (default 60s).
 1. Click <span class="btn">Save Config</span>.
 
-    ![Debug]({{ site.baseurl }}{% link images/images/dotdigital-dash-iprestrict.png %}){: .zoom}
+    ![Debug]({% link images/images/dotdigital-dash-iprestrict.png %}){: .zoom}
     _Debug_

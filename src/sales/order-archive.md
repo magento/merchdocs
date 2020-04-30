@@ -5,11 +5,11 @@ title: Archive
 
 Archiving orders on a regular basis improves performance and keeps your workspace free of unnecessary information, so you can focus on current business. Invoices, shipments, and credit memos can be archived automatically or manually, and can be viewed at any time.
 
-{:.bs-callout .bs-callout-info}
-The Archive option appears in the Sales menu only when archiving is [enabled]({{ site.baseurl }}{% link configuration/sales/sales.md %}).
+{:.bs-callout-info}
+The Archive option appears in the Sales menu only when archiving is [enabled]({% link configuration/sales/sales.md %}).
 
-![Orders, Invoices, Shipments, Credit Memos Archiving]({{ site.baseurl }}{% link images/images/order-move-to-archive.png %} "Orders, Invoices, Shipments, Credit Memos Archiving"){: .zoom}
-_[Move Order to Archive]({{ site.baseurl }}{% link configuration/sales/sales.md %})_
+![Orders, Invoices, Shipments, Credit Memos Archiving]({% link images/images/order-move-to-archive.png %} "Orders, Invoices, Shipments, Credit Memos Archiving"){: .zoom}
+_[Move Order to Archive]({% link configuration/sales/sales.md %})_
 
 ## To enable archiving:
 
@@ -29,8 +29,8 @@ _[Move Order to Archive]({{ site.baseurl }}{% link configuration/sales/sales.md 
 
     - In the **Order Statuses to be Archived** list, select each order status to use for identifying orders to archive. To select multiple items, hold down the Ctrl (Windows) or Command (Mac) key as you click each item.
 
-        ![]({{ site.baseurl }}{% link images/images-ee/config-sales-sales-orders-invoices-shipments-credit-memos-archving.png %}){: .zoom}  
-        [_Orders, Invoices, Shipments, Credit Memos Archiving_]({{ site.baseurl }}{% link configuration/sales/sales.md %})
+        ![]({% link images/images-ee/config-sales-sales-orders-invoices-shipments-credit-memos-archving.png %}){: .zoom}
+        [_Orders, Invoices, Shipments, Credit Memos Archiving_]({% link configuration/sales/sales.md %})
 
 1. Click **Save Config**.
 
@@ -42,14 +42,14 @@ _[Move Order to Archive]({{ site.baseurl }}{% link configuration/sales/sales.md 
 
 1. To select the order on the grid, mark the checkbox in the first column.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/order-select-in-grid.png %}){: .zoom}
+    ![]({% link images/images-ee/order-select-in-grid.png %}){: .zoom}
     _Mark the Order(s) to Archive_
 
 1. Set the **Actions** control to `Move to Archive`.
 
     Then, look for the message that order has been archived.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/order-select-in-grid.png %}){: .zoom}
+    ![]({% link images/images-ee/order-select-in-grid.png %}){: .zoom}
     _Mark Checkbox_
 
 ## To view an archived order:
@@ -62,12 +62,12 @@ _[Move Order to Archive]({{ site.baseurl }}{% link configuration/sales/sales.md 
 
     - In the _Archive_ section, choose **Orders**.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     Like the Orders page, the title of the archived orders page is “Orders.” The only noticeable difference is the option in the button bar to “Return to Order Management.” The URL of the page also indicates that you are in the order archive.
 
 1. In the _Action_ column, click **View**.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/order-archived-view.png %}){: .zoom}
+    ![]({% link images/images-ee/order-archived-view.png %}){: .zoom}
     _View Archived Order_
 
 ## To restore an archived order:
@@ -80,7 +80,7 @@ _[Move Order to Archive]({{ site.baseurl }}{% link configuration/sales/sales.md 
 
 1. Find the record to restore, and click the checkbox to select it.
 
-    ![]({{ site.baseurl }}{% link images/images-ee/order-archived-select-to-restore.png %}){: .zoom}
+    ![]({% link images/images-ee/order-archived-select-to-restore.png %}){: .zoom}
     _Select Order to be Restored_
 
 1. Set the **Actions** control value to `Remove to Archive`.

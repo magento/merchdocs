@@ -1,18 +1,27 @@
+# Copyright © Magento, Inc. All rights reserved.
+# See COPYING.txt for license details.
+
 # frozen_string_literal: true
 
 namespace :test do
   # Run html-proofer to check for broken links
-  desc 'Build devdocs and check for broken links'
+  desc 'Build devdocs, check for broken links, write report to a file'
   task links: %w[build links_no_build]
 
-  desc 'Check the existing _site for broken links on Jenkins'
+  desc 'Check the existing _site for broken EXTERNAL links'
+  task :external_links do
+    puts 'Testing external links'
+    system 'bundle exec htmlproofer _site/ --external_only'
+  end
+
+  desc 'Check the existing _site for broken INTERNAL links'
   task :html do
-    puts 'Checking links with html-proofer...'.magenta
+    puts 'Checking HTML ...'.magenta
 
     LinkChecker.check_site
   end
 
-  desc 'Check the existing _site for broken links'
+  desc 'Check the existing _site for broken links and report to a separate file'
   task :links_no_build do
     begin
       # Write console output (stderr only) to a file.
@@ -20,8 +29,7 @@ namespace :test do
       report = LinkChecker.md_report_path
       $stderr.reopen(report, 'w+')
 
-      puts 'Checking links with html-proofer...'.magenta
-      LinkChecker.check_site
+      Rake::Task['test:html'].invoke
 
       # We're expecting link validation errors, but unless we rescue from
       # StandardError, rake will abort and won't run the convert task (https://stackoverflow.com/a/10048406).
@@ -43,6 +51,9 @@ namespace :test do
   desc 'Test Markdown style with mdl'
   task :md do
     puts 'Testing Markdown style with mdl ...'.magenta
+    print 'List the rules: $ '.magenta
+    sh 'bin/mdl -l --style=_checks/styles/style-rules-prod'
+    puts 'Linting ...'.magenta
     output =
       `bin/mdl \
       --style=_checks/styles/style-rules-prod \
@@ -50,7 +61,7 @@ namespace :test do
       --git-recurse \
       -- .`
     puts output.yellow
-    abort "The Markdown linter has found #{output.lines.count} issues".red unless output.empty?
-    puts 'No issues found'.magenta
+    abort "Fix the reported issues".red unless output.empty?
+    puts 'No issues found'.green
   end
 end

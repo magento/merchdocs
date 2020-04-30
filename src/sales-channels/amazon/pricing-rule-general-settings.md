@@ -2,16 +2,14 @@
 title: Pricing Rule General Settings
 ---
 
-
-If you are managing a store that is in "In Setup" status, see [Onboarding: Price Rule General Settings]({{ site.baseurl }}{% link sales-channels/amazon/ob-pricing-rules-general-settings.md %}).
+If you are managing a store that is in "In Setup" status, see [Onboarding: Price Rule General Settings]({% link sales-channels/amazon/ob-pricing-rules-general-settings.md %}).
 
 Define the name, description, active dates, priority for a rule and sets the behavior of subsequent rules, based on its priority setting.
 
 {% include amazon-price-rules-gen-settings-configure.md %}
 
-![]({{ site.baseurl }}{% link images/images/sales-channels/amazon/amazon-pricing-rule-general.png %}){: .zoom}
+![]({% link images/images/sales-channels/amazon/amazon-pricing-rule-general.png %}){: .zoom}
 _Pricing Rule General Settings_
-
 
 |Field|Description|
 |---|---|

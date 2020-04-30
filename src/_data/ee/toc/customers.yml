@@ -39,6 +39,8 @@ pages:
   - label: Account Dashboard
     url: "/customers/account-dashboard.html"
     children:
+    - label: My Account
+      url: "/customers/account-dashboard-my-account.html"
     - label: My Orders
       url: "/customers/account-dashboard-my-orders.html"
     - label: My Downloadable Products
@@ -47,6 +49,10 @@ pages:
       url: "/customers/account-dashboard-order-by-sku.html"
     - label: My Wish List
       url: "/customers/account-dashboard-my-wish-list.html"
+    - label: Reward Points
+      url: "/customers/account-dashboard-reward-points.html"
+    - label: Gift Registry
+      url: "/customers/account-dashboard-gift-registry.html"
     - label: Address Book
       url: "/customers/account-dashboard-address-book.html"
     - label: Account Information
@@ -63,6 +69,8 @@ pages:
       url: "/customers/account-dashboard-my-product-reviews.html"
     - label: Newsletter Subscription
       url: "/customers/account-dashboard-newsletter-subscriptions.html"
+    - label: My Invitations
+      url: "/customers/account-dashboard-my-invitations.html"
 - label: Customer Groups
   url: "/customers/customer-groups.html"
 - label: Customer Segments

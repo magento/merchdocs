@@ -1,5 +1,6 @@
 ---
 title: Creating Campaigns
+tag: google-shopping
 ---
 
 
@@ -7,7 +8,7 @@ Google Shopping ads supports Smart Shopping ads. Smart Shopping campaigns help s
 
 An important aspect to creating and maintaining your ads is the daily budget. Setting a budget indicates the average maximum amount you want spend for displaying and promoting the Smart Ads per day. Google has intelligent tracking and algorithms to evaluate the popularity of your products, ad displays and click-throughs, and much more. If an ad is popular with significant click-throughs, Google may promote the ad more, possible spending more of your budget. The amounts balance, never exceeding your average, and rolling over amounts not spent from one day to the next.
 
-To learn more about Google Ads budgets, see Google's [Daily budget: Definition][1]{: target="_blank"} and [Set a budget for your campaign][2]{: target="_blank"}.
+To learn more about Google Ads budgets, see Google's [Daily budget: Definition][1]{:target="_blank"} and [Set a budget for your campaign][2]{:target="_blank"}.
 
 ## To create a Smart Shopping campaign:
 
@@ -28,7 +29,7 @@ To learn more about Google Ads budgets, see Google's [Daily budget: Definition][
    * To add all of the GMC products to this campaign, click **Select all products in my Google Merchant Center catalog**.
    * To add a specific set of GMC products matching attributes and categories to this campaign, click **Select Products Using Filters**. Select from the drop-down list or start typing to add filters for brand or categories.
 
-      ![]({{ site.baseurl }}{% link images/images/sales-channels/google/ads-campaign-products.png %}){: .zoom}
+      ![]({% link images/images/sales-channels/google/ads-campaign-products.png %}){: .zoom}
       *Create a Smart Shopping Campaign*
 
 1. When complete, click <span class="btn">Review Campaign</span>.
@@ -36,9 +37,9 @@ To learn more about Google Ads budgets, see Google's [Daily budget: Definition][
 1. The **Review Campaign** page lists all aspects of your ad campaign, including, review the details of your campaign.
 
    * To make edits, click <span class="btn">Edit Campaign</span>.
-   * If everything looks accurate, click <span class="btn">Submit Campaign</span>. This publishes the campaign on Google. It is active but not running ads until your [account]({{ site.baseurl }}{% link sales-channels/google-ads/google-account-managment.md %}) and [products]({{ site.baseurl }}{% link sales-channels/google-ads/product-managment.md %}) are approved. When published, the campaign displays in the list on the dashboard.
+   * If everything looks accurate, click <span class="btn">Submit Campaign</span>. This publishes the campaign on Google. It is active but not running ads until your [account]({% link sales-channels/google-ads/google-account-managment.md %}) and [products]({% link sales-channels/google-ads/product-managment.md %}) are approved. When published, the campaign displays in the list on the dashboard.
 
-      ![]({{ site.baseurl }}{% link images/images/sales-channels/google/campaign-review.png %}){: .zoom}
+      ![]({% link images/images/sales-channels/google/campaign-review.png %}){: .zoom}
       *Review and Submit the Campaign*
 
 ### Create Smart Shopping Campaign Field Descriptions

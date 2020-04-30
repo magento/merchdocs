@@ -7,5 +7,5 @@ A returned merchandise authorization (RMA) can be granted to customers who reque
 
 RMAs can be issued for simple, grouped, configurable, and bundle product types. However, RMAs are not available for virtual products, downloadable products, and gift cards.
 
-![]({{ site.baseurl }}{% link images/images/sales-returns.png %}){: .zoom}
+![]({% link images/images/sales-returns.png %}){: .zoom}
 _Returns_

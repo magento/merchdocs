@@ -5,161 +5,161 @@ title: Creating a Company Account
 
 Company accounts can be set up from the storefront by the customer, or from the Admin. All requests to create a company account must be approved by the store administrator before the account becomes active.
 
-The person who sets up a company account from the storefront is usually assigned a role as the [company administrator]({{ site.baseurl }}{% link customers/account-company-admin.md %}). After the request to create a company account is approved, the company administrator can set an account password and log in to the account.
+The person who sets up a company account from the storefront is usually assigned a role as the [company administrator]({% link customers/account-company-admin.md %}). After the request to create a company account is approved, the company administrator can set an account password and log in to the account.
 
 ## Method 1: Create Company from Storefront
 
-Before you begin, make sure that [B2B Features]({{ site.baseurl }}{% link stores/b2b-features.md %}) are enabled in the configuration for the storefront.
+Before you begin, make sure that [B2B Features]({% link stores/b2b-features.md %}) are enabled in the configuration for the storefront.
 
 1. From the storefront, click **Create an Account** in the upper-right corner of the header. Then, choose **Create New Company Account**.
 
-    ![]({{ site.baseurl }}{% link images/images-b2b/storefront-create-an-account-options.png %}){: .zoom}
+    ![]({% link images/images-b2b/storefront-create-an-account-options.png %}){: .zoom}
     _Create New Company Account_
 
 1. In the **Company Information** section, do the following:
 
-    - Complete the required fields:
+   - Complete the required fields:
 
-        - Company Name
-        - Company Email
+      - Company Name
+      - Company Email
 
-    - If the information is available, complete the remaining fields, as applicable.
+   - If the information is available, complete the remaining fields, as applicable.
 
-        - Company Legal Name
-        - VAT/TAX ID
-        - Re-seller ID
+      - Company Legal Name
+      - VAT/TAX ID
+      - Re-seller ID
 
-    ![]({{ site.baseurl }}{% link images/images-b2b/customer-account-company-information.png %}){: .zoom}
+    ![]({% link images/images-b2b/customer-account-company-information.png %}){: .zoom}
     _Company Information_
 
 1. Complete all fields in the **Legal Address** section.
 
-    ![]({{ site.baseurl }}{% link images/images-b2b/customer-account-company-legal-address.png %}){: .zoom}
+    ![]({% link images/images-b2b/customer-account-company-legal-address.png %}){: .zoom}
     _Legal Address_
 
 1. In the **Company Administrator** section, do the following:
 
-    - Enter the **Email address** for the company admin.
+   - Enter the **Email address** for the company admin.
 
       The email address for the company admin can be the same as the company email address, or a different email address. If a different email address is entered, a company user account is created, in addition to the company admin account.
 
-    - Enter the **First Name** and **Last Name** of the Company Admin.
+   - Enter the **First Name** and **Last Name** of the Company Admin.
 
-    - Optionally complete the following fields:
+   - Optionally complete the following fields:
 
       - Job Title
       - Gender
 
-    ![]({{ site.baseurl }}{% link images/images-b2b/customer-account-company-administrator.png %})
+    ![]({% link images/images-b2b/customer-account-company-administrator.png %})
     _Company Administrator_
 
 1. When complete, click <span class="btn">Submit</span>.
 
     When the request to create a company account is approved by the merchant, an email notification is sent to the company admin with instructions to set the account password.
 
-    When the password is set, the company admin can [sign in]({{ site.baseurl }}{% link customers/customer-sign-in.md %}) to the account.
+    When the password is set, the company admin can [sign in]({% link customers/customer-sign-in.md %}) to the account.
 
-    ![]({{ site.baseurl }}{% link images/images-b2b/welcome-email-company.png %}){: .zoom}
+    ![]({% link images/images-b2b/welcome-email-company.png %}){: .zoom}
 
 ## Method 2: Create Company from Admin
 
 The process of creating a company from the Admin is essentially the same as from the storefront, but with additional fields.
 
-![]({{ site.baseurl }}{% link images/images-b2b/customers-company-create-admin.png %}){: .zoom}
+![]({% link images/images-b2b/customers-company-create-admin.png %}){: .zoom}
 _New Company_
 
 1. On the _Admin_ sidebar, go to **Customers** > **Companies**.
 
 1. Click <span class="btn">Add New Company</span>. Then, do the following:
 
-    - Complete these required fields:
+   - Complete these required fields:
 
       - Company Name
       - Company Email
 
-    - By default, the **Status** of the account is “Active”. If you’re not ready for the account to go live, set Status to “Pending Approval”.
-    - If applicable, choose the Admin account of the **Sales Representative** who is to manage the account.
+   - By default, the **Status** of the account is “Active”. If you’re not ready for the account to go live, set Status to “Pending Approval”.
+   - If applicable, choose the Admin account of the **Sales Representative** who is to manage the account.
 
 1. In the **Account Information** section, do the following:
 
-    - Complete the following fields as applicable:
+   - Complete the following fields as applicable:
 
       - Company Legal Name
       - VAT/TAX ID
       - Reseller ID
 
-    - In the **Comment** field, enter any additional information about the customer that might be needed.
+   - In the **Comment** field, enter any additional information about the customer that might be needed.
 
       The Comments are visible only from the Admin.
 
-    ![]({{ site.baseurl }}{% link images/images-b2b/customers-company-create-account-information-admin.png %}){: .zoom}
+    ![]({% link images/images-b2b/customers-company-create-account-information-admin.png %}){: .zoom}
     _Account Information_
 
 1. In the **Legal Address** section, complete these required fields:
 
-    - Street Address
-    - City Country
-    - ZIP/Postal Code
-    - Phone Number
+   - Street Address
+   - City Country
+   - ZIP/Postal Code
+   - Phone Number
 
 1. In the **Company Admin** section, do the following:
 
-    - Complete these required fields:
+   - Complete these required fields:
 
       - Email
       - First Name
       - Last Name
 
-    - The following optional parts of the name might be applicable to some customer names more than others, and can be used at your discretion.
+   - The following optional parts of the name might be applicable to some customer names more than others, and can be used at your discretion.
 
       - Prefix
       - Middle Name/Initial
       - Suffix
 
-    - If the information is available, complete the remaining fields to describe the Company Admin:
+   - If the information is available, complete the remaining fields to describe the Company Admin:
 
       - Job Title
       - Gender
 
-    ![]({{ site.baseurl }}{% link images/images-b2b/customers-company-create-company-admin.png %}){: .zoom}
+    ![]({% link images/images-b2b/customers-company-create-company-admin.png %}){: .zoom}
     _Company Admin_
 
 1. The **Company Credit** section displays a summary of the customer’s credit activity. Complete as many of the fields in the lower part of the section as applicable.
 
-    - Credit Currency
-    - Credit Limit
-    - Allow to Exceed Credit Limit
-    - Reason for Change
+   - Credit Currency
+   - Credit Limit
+   - Allow to Exceed Credit Limit
+   - Reason for Change
 
-    ![]({{ site.baseurl }}{% link images/images-b2b/customers-company-create-company-credit-admin.png %}){: .zoom}
+    ![]({% link images/images-b2b/customers-company-create-company-credit-admin.png %}){: .zoom}
     _Company Credit_
 
 1. In the **Advanced Settings** section, do the following:
 
-    - The customer group assignment determines which shared catalog is available to the company and its employees. By default, the company is assigned to the customer group that is set as the default in the configuration.
+    The customer group assignment determines which shared catalog is available to the company and its employees. By default, the company is assigned to the customer group that is set as the default in the configuration.
 
-      You can change the **Customer Group** assignment for the Company and its employees to a group that has access to a different shared catalog, or to a standard customer group. You are prompted to confirm before the group is changed.
+   - You can change the **Customer Group** assignment for the Company and its employees to a group that has access to a different shared catalog, or to a standard customer group. You are prompted to confirm before the group is changed.
 
-    ![]({{ site.baseurl }}{% link images/images-b2b/customers-company-create-advanced-settings-customer-group-admin.png %}){: .zoom}
-    _Advanced Settings_
+      ![]({% link images/images-b2b/customers-company-create-advanced-settings-customer-group-admin.png %}){: .zoom}
+      _Advanced Settings_
 
-    - If you want to allow company employees to generate quotes from their account, set **Allow Quotes** to `Yes`.
+   - If you want to allow company employees to generate quotes from their account, set **Allow Quotes** to `Yes`.
 
-    - To change the default payment methods that are available to the company, clear the **Use config settings** checkbox. Then, do one of the following:
+   - To change the default payment methods that are available to the company, clear the **Use config settings** checkbox. Then, do one of the following:
 
       - Choose **All Enabled Payment Methods**.
 
       - Choose the **Specific Payments**.
-  
-      To select multiple payment methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
+
+        To select multiple payment methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
 1. When complete, click <span class="btn">Save</span>.
 
     When the request to create a company account is approved by the merchant, an email notification is sent to the email address of the company admin with instructions to set the account password.
 
-    ![]({{ site.baseurl }}{% link images/images-b2b/welcome-email-company.png %}){: .zoom}
+    ![]({% link images/images-b2b/welcome-email-company.png %}){: .zoom}
 
-    When the password is set, the company admin can [sign in]({{ site.baseurl }}{% link customers/customer-sign-in.md %}) to the account.
+    When the password is set, the company admin can [sign in]({% link customers/customer-sign-in.md %}) to the account.
 
 ## Button Bar
 
@@ -181,7 +181,7 @@ _New Company_
 |Sales Representative|(Admin Only) The Admin user who is the primary contact for the company account.|
 |**Account Information**||
 |Company Legal Name|The full legal name of the company.|
-|VAT / TAX ID|The [value-added tax]({{ site.baseurl }}{% link tax/vat.md %}) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options]({{ site.baseurl }}{% link configuration/customers/customer-configuration.md %}).|
+|VAT / TAX ID|The [value-added tax]({% link tax/vat.md %}) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options]({% link configuration/customers/customer-configuration.md %}).|
 |Reseller ID|The resale number that is assigned to the company for tax reporting purposes.|
 |Comment|(Admin Only) These notes about the company account are for reference and visible only from the Admin.|
 |**Legal Address**||
@@ -206,8 +206,8 @@ _New Company_
 |Allow to Exceed Credit Limit|(Admin Only) Indicates if the company has permission to exceed the credit limit. Options: Yes / No|
 |Reason for Change|(Admin Only) A note that explains why the company is allowed, or disallowed to exceed the credit limit. This field is active only if the permission to exceed the credit limit changes.|
 |**Advanced Settings**||
-|Customer Group|(Admin Only) Indicates the [customer group]({{ site.baseurl }}{% link customers/customer-groups.md %}) or [shared catalog]({{ site.baseurl }}{% link catalog/catalog-shared.md %}) that is assigned to the company.|
-|Allow Quotes|(Admin Only) Determines if company members can prepare and submit negotiable quotes on behalf of th company.|
+|Customer Group|(Admin Only) Indicates the [customer group]({% link customers/customer-groups.md %}) or [shared catalog]({% link catalog/catalog-shared.md %}) that is assigned to the company.|
+|Allow Quotes|(Admin Only) Determines if company members can prepare and submit negotiable quotes on behalf of the company.|
 |Applicable Payment Methods|(Admin Only) Indicates the payment methods that are available for company purchases. Options: B2B Payment Methods / All Enabled Payment Methods / Specific Payment Methods|
 |Payment Methods|(Admin Only) Becomes active if specific payment methods are indicated. To make multiple payment methods available for the company account, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.|
 

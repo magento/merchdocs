@@ -4,74 +4,78 @@ title: Footer Template
 
 The email template footer contains the closing and signature line of the email message. You can change the closing to fit your style, and add additional information, such as the company name and address below your name.
 
-![]({{ site.baseurl }}{%- link images/images/email-templates.png -%}){: .zoom}
-*Email Templates*
+![Email templates]({% link images/images/email-templates.png %}){: .zoom}
+_Email Templates_
 
 ## Step 1. Load the Default Template
 
-1. On the Admin sidebar, tap **Marketing**. Then under **Communications**, choose **Email Templates**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Communications_ > **Email Templates**.
 
-1. Tap <span class="btn">Add New Template</span>. Then, do the following:
+1. Click <span class="btn">Add New Template</span>.
 
-    * Under **Load default template**, in the **Template** list under **Magento_Email**, choose “Footer”.
+1. In the **Load default template** section, click the **Template** selector and choose `Magento_Email` > `Footer`.
 
-    * Tap <span class="btn">Load Template</span>.
+    ![Email template footer - load default template]({% link images/images/email-templates-footer-load-default.png %}){: .zoom}
+    _Default Footer Template_
 
-        ![]({{ site.baseurl }}{%- link images/images/email-templates-footer-load-default.png -%}){: .zoom}
-        *Default Footer Template*
+1. Click <span class="btn">Load Template</span>.
+
+    The HTML code and variables from the template appear in the form.
 
 ## Step 2. Customize and Preview the Template
 
 1. Enter the **Template Name** for your custom footer.
 
-1. Enter a **Template Subject** to help organize the templates. In the grid, the templates can be sorted and filtered by the Subject column.
+1. Enter a **Template Subject** to help organize the templates.
 
-    ![]({{ site.baseurl }}{%- link images/images/email-template-footer-information.png -%}){: .zoom}
-    *Footer Template Information*
+   In the grid, the templates can be sorted and filtered by the _Subject_ column.
+
+    ![Email template footer - information]({% link images/images/email-template-footer-information.png %}){: .zoom}
+    _Footer Template Information_
 
 1. In the **Template Content** box, modify the HTML as needed.
 
-    {: .bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     When working in the template code, be careful not to overwrite anything that is enclosed in double braces.
 
-1. To insert a [variable]({{ site.baseurl }}{%- link marketing/variables.md -%}), position the cursor in the code where you want the variable to appear, and tap <span class="btn">Insert Variable</span>. Then, choose the variable that you want to insert.
+1. To insert a [variable]({% link marketing/variables.md %}), position the cursor in the code where you want to place the variable and click <span class="btn">Insert Variable</span>.
 
-    When a variable is selected, a [markup tag]({{ site.baseurl }}{%- link marketing/markup-tags.md -%}) for the variable is inserted in the code.
+1. Choose the variable that you want to insert.
 
-    ![]({{ site.baseurl }}{%- link images/images/email-template-insert-variable-footer.png -%}){: .zoom}
-    *Insert Variable*
+    When a variable is selected, a [markup tag]({% link marketing/markup-tags.md %}) for the variable is inserted in the code.
 
-    Although the Store Contact variables are the ones most often included in the footer, you can enter the code for any system or [custom variable]({{ site.baseurl }}{%- link marketing/variables-custom.md -%}) directly into the template.
+    ![Email template footer - insert variable]({% link images/images/email-template-insert-variable-footer.png %}){: .zoom}
+    _Insert Variable_
+
+    Although the Store Contact variables are the ones most often included in the footer, you can enter the code for any system or [custom variable]({% link marketing/variables-custom.md %}) directly into the template.
 
 1. If you need to make any CSS declarations, enter the styles in the **Template Styles** box.
 
 ## Step 3. Update the Configuration
 
-1. On the Admin sidebar, tap **Content**. Then under **Design**, choose **Configuration**.
+1. On the _Admin_ sidebar, go to **Content** > _Design_ > **Configuration**.
 
-1. In the grid, find the store view that you want to configure. Then in the **Action** column, click **Edit**.
+1. In the grid, find the store view that you want to configure and click **Edit** in the _Action_ column.
 
-1. Scroll down and expand ![]({{ site.baseurl }}{%- link images/images/btn-expand.png -%}) the **Transactional Emails** section.
+1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Transactional Emails** section.
 
 1. Choose the **Footer Template** that is used as the default for email notifications.
 
-1. When complete, tap <span class="btn">Save Config</span>.
+1. When complete, click <span class="btn">Save Config</span>.
 
-![]({{ site.baseurl }}{%- link images/images/config-design-transactional-emails.png -%}){: .zoom} 
-[*Transactional Emails*]({{ site.baseurl }}{%- link design/configuration.md -%})
+![Transactional email design configuration - footer template]({% link images/images/config-design-transactional-emails.png %}){: .zoom}
+[_Transactional Emails_]({%- link design/configuration.md -%})
 
 ## Field Descriptions
 
-**Load default template**
+### Load default template
 
-|Template|Lists the selection of available templates, and identifies the template to be customized.|
-{:style="table-layout:auto"}
+|Template|Lists the selection of available templates and identifies the template to be customized.|
 
-**Template Information**
+### Template Information
 
 |Template Name|The name of your custom template.|
 |Insert Variable|Inserts a Store Contact Information variable into the template at the cursor location.|
-|Template Subject|The Template Subject appears in the Subject column, and can be used to sort and filter the templates in the list.|
+|Template Subject|The Template Subject appears in the Subject column and can be used to sort and filter the templates in the list.|
 |Template Content|The content of the template in HTML.|
 |Template Styles|Any CSS style declarations that are needed to format the template footer can be entered in the Template Styles box.|
-{:style="table-layout:auto"}

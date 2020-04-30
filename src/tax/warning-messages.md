@@ -6,17 +6,17 @@ Some combinations of tax-related options might be confusing to customers and tri
 
 If your tax calculation is based on a problematic configuration, the following warnings appear:
 
-![]({{ site.baseurl }}{% link images/images/icon-warning.png %}) **Warning**. Tax discount configuration might result in different discounts than a customer might expect for store(s); Europe Website (French), Europe Website (German). Please see source for more details.
+![]({% link images/images/icon-warning.png %}) **Warning**. Tax discount configuration might result in different discounts than a customer might expect for store(s); Europe Website (French), Europe Website (German). Please see source for more details.
 
-![]({{ site.baseurl }}{% link images/images/icon-warning.png %}) **Warning**. Tax configuration can result in rounding errors for store(s): Europe Websites (French), Europe Websites (German).
+![]({% link images/images/icon-warning.png %}) **Warning**. Tax configuration can result in rounding errors for store(s): Europe Websites (French), Europe Websites (German).
 
-## Calculation Settings
+## Calculation settings
 
 Use the following tables for reference when configuring tax calculation settings:
 
-### Tax Calculation Method Based On: Excluding Tax
+### Tax calculation method based on: excluding tax
 
-**Tax Excluded**
+#### Tax excluded
 
 Price Display | Unit Price | Row Total | Total
 ------------- | ---------- | --------- | -----
@@ -25,9 +25,9 @@ Excluding tax | OK | OK | OK
 Including tax | OK | OK | OK
 Including and Excluding tax | OK | OK | Warning
 
-### Catalog Prices: Including Tax
+### Catalog prices: including tax
 
-**Tax Included**
+#### Tax Included
 
 Price Display | Unit Price | Row Total | Total
 ------------- | ---------- | --------- | -----
@@ -35,10 +35,10 @@ Excluding tax | OK | OK | OK
 Including tax | OK | OK | OK
 Including and Excluding tax | OK | Warning | Warning
 
-![]({{ site.baseurl }}{% link images/images/config-sales-tax-calculation-settings.png %}){: .zoom}
+![]({% link images/images/config-sales-tax-calculation-settings.png %}){: .zoom}
 _Calculation Settings_
 
-## Discount Settings
+## Discount settings
 
 We strongly recommend that you use the following settings to avoid issues when configuring taxes in relation to discounts:
 

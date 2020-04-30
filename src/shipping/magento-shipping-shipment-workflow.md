@@ -2,51 +2,26 @@
 title: Shipment Workflow
 ---
 
-The value of the Status column in the Shipments grid reflects the state of the shipment as it moves through the workflow. If the Status column isn’t currently visible in the Shipments grid, you can change the [grid layout]({{ site.baseurl }}{% link stores/admin-grid-layout.md %}) to include the column. Then, use the [grid controls]({{ site.baseurl }}{% link stores/admin-grid-controls.md %}) to filter the shipments by status.
+{% include shipping-status-note.md %}
 
-<table>
-      <tbody>
-         <tr>
-            <td>
-               <img src="{{ site.baseurl }}{% link images/images/icon-ms-order-received.png %}" class="Icon" />
-            </td>
-            <td>
-               <b>You receive your customer’s order.</b>
-               <ul>A quote is generated for the shipment. (Status: Pending) The shipment is booked with a carrier. (Status: Fulfilled)<br/></ul>
-            </td>
-         </tr>
-         <tr>
-            <td>
-               <img src="{{ site.baseurl }}{% link images/images/icon-ms-shipment-dispatched.png %}" class="Icon" />
-            </td>
-            <td>
-               <b>Shipment is dispatched.</b>
-               <ul>An attempt to <a href="{{ site.baseurl }}{% link sales/dispatches.md %}">dispatch</a> is in progress (Status: Completing) The dispatch is complete. (Status: Completed)<br /></ul>
-            </td>
-         </tr>
-         <tr>
-            <td>
-               <img src="{{ site.baseurl }}{% link images/images/icon-x.png %}" class="Icon" />
-            </td>
-            <td>
-               <b>Shipment canceled.<br /></b>
-               <ul>The shipment is canceled. (Status: Canceled)</ul>
-            </td>
-         </tr>
-      </tbody>
-   </table>
+The value of the Status column in the Shipments grid reflects the state of the shipment as it moves through the workflow. If the Status column isn’t currently visible in the Shipments grid, you can change the [grid layout]({% link stores/admin-grid-layout.md %}) to include the column. Then, use the [grid controls]({% link stores/admin-grid-controls.md %}) to filter the shipments by status.
 
-## To show the Shipment Status column
+| | | |
+|![]({% link images/images/icon-ms-order-received.png %})|**You receive your customer’s order.**|A quote is generated for the shipment. (Status: Pending) The shipment is booked with a carrier. (Status: Fulfilled)|
+|![]({% link images/images/icon-ms-shipment-dispatched.png %})|**Shipment is dispatched.**|An attempt to <a href="{% link sales/dispatches.md %}">dispatch</a> is in progress (Status: Completing) The dispatch is complete. (Status: Completed)|
+|![]({% link images/images/icon-x.png %})|**Shipment canceled.**|The shipment is canceled. (Status: Canceled)|
 
-1.  On the _Admin_ menu, choose **Sales**.
+## Show the Shipment Status column
 
-2.  Choose **Shipments**.
+1. On the _Admin_ menu, choose **Sales**.
 
-3.  In the upper-right corner, click the **Columns** ![]({{ site.baseurl }}{% link images/images/btn-columns.png %}) control.
+1. Choose **Shipments**.
 
-4.  Mark the **Shipment Status** checkbox.
+1. In the upper-right corner, click the **Columns** ![]({% link images/images/btn-columns.png %}) control.
 
-![]({{ site.baseurl }}{% link images/images/shipments-grid-show-shipment-status-column.png %}){: .zoom}
+1. Select the **Shipment Status** checkbox.
+
+![]({% link images/images/shipments-grid-show-shipment-status-column.png %}){: .zoom}
 _Show Shipment Status_
 
 ### Shipment Status

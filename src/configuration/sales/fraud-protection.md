@@ -1,16 +1,19 @@
 ---
-conditions: Default.EE-B2B
 title: Fraud Protection
 ---
 
-Stores > Settings > [Configuration]({{ site.baseurl }}{% link stores/configuration.md %}) > [Sales]({{ site.baseurl }}{% link configuration/sales.md %}) > Fraud Protection
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Fraud Protection
 
 ## Signifyd
 
-![]({{ site.baseurl }}{% link images/images/config-sales-fraud-protection-signifyd-configuration.png %}){: .zoom}
+{:.bs-callout-warning}
+**Deprecation Notice** <br/>
+Due to the continued evolution of many APIs, the Signifyd Guaranteed Fraud Protection integration is at risk of becoming outdated and no longer security compliant in the future. For this reason, it is now deprecated, and we recommend that you disable it in your Magento configuration and transition to the [Signifyd Fraud & Chargeback Protection extension](https://marketplace.magento.com/signifyd-module-connect.html){:target="_blank"} that is available on Magento Marketplace.
+
+![]({% link images/images/config-sales-fraud-protection-signifyd-configuration.png %}){: .zoom}
 _Configuration_
 
-|Field|[Scope]({{ site.baseurl }}{% link configuration/scope.md %})|Description|
+|Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable this Solution|Website|Enables Signifyd Guaranteed Fraud Protection for your store. Options: Yes / No|
 |API Key|Website|The API key provided to you by Signifyd.|

@@ -3,9 +3,9 @@ conditions: Default.B2B Only
 title: Company Roles and Permissions
 ---
 
-Roles for company users set up with various levels of permission to access sales information and resources. By default, the company admin is a super user with full permissions. The [Access Denied]({{ site.baseurl }}{% link cms/pages-core.md %}) page appears if the user doesn’t have permission to access the page.
+Roles for company users set up with various levels of permission to access sales information and resources. By default, the company admin is a super user with full permissions. The [Access Denied]({% link cms/pages-core.md %}) page appears if the user doesn’t have permission to access the page.
 
-![]({{ site.baseurl }}{% link images/images-b2b/customer-company-roles-permissions.png %}){: .zoom}
+![]({% link images/images-b2b/customer-company-roles-permissions.png %}){: .zoom}
 _Roles and Permissions Page with Default Role_
 
 The system has one predefined Default User role, which you can use “as is" or modify to suit your needs. You can create as many roles as necessary to match your company structure.
@@ -24,24 +24,24 @@ The system has one predefined Default User role, which you can use “as is" or 
 
 ### Create a role
 
-1. Click <span class="btn">Add New Role</span>. 
+1. Click <span class="btn">Add New Role</span>.
 
-   ![]({{ site.baseurl }}{% link images/images-b2b/customer-company-roles-permissions-add.png %}){: .zoom}
+   ![]({% link images/images-b2b/customer-company-roles-permissions-add.png %}){: .zoom}
    _Add New Role_
 
 1. Enter a descriptive **Role Name**.
-  
-1. Under _Role Permissions_, do one of the following:
-  
-  - Select the checkbox of each resource or activity that users assigned the role have permission to access.
 
-  - Select the **All** checkbox. Then, clear the checkbox of each resource or activity that users assigned to the role do not have permission to access.
+1. Under _Role Permissions_, do one of the following:
+
+   - Select the checkbox of each resource or activity that users assigned the role have permission to access.
+
+   - Select the **All** checkbox. Then, clear the checkbox of each resource or activity that users assigned to the role do not have permission to access.
 
 1. Click <span class="btn">Save Role</span>.
 
 1. Repeat these steps to create as many roles as necessary.
 
-   ![]({{ site.baseurl }}{% link images/images-b2b/customer-account-company-roles-permissions.png %}){: .zoom}
+   ![]({% link images/images-b2b/customer-account-company-roles-permissions.png %}){: .zoom}
    _Roles and Permissions_
 
 ### Modify a role
@@ -81,27 +81,51 @@ The system has one predefined Default User role, which you can use “as is" or 
 ## Role Permissions
 
 - All
-  - Sales
-    - Checkout (place order)
+
+   - Sales
+
+      - Checkout (place order)
+
 - Use Pay On Account method
-  - View Orders
+
+   - View Orders
+
 - View orders of subordinate users
+
 - Quotes
-  - View
+
+   - View
+
 - Request, Edit, Delete
+
 - Checkout with quote
+
 - View quotes of subordinate users
+
 - Company Profile
-  - Account Information (View)
-    - Edit
-  - Legal Address
-    - Edit
-  - Contacts (View)
-  - Payment Information (View)
+
+   - Account Information (View)
+
+      - Edit
+
+   - Legal Address
+
+      - Edit
+
+   - Contacts (View)
+
+   - Payment Information (View)
+
 - Company User Management
-  - View roles and permissions
-    - Manage roles and permissions
-  - View users and teams
-  - Manage users and teams
+
+   - View roles and permissions
+
+      - Manage roles and permissions
+
+   - View users and teams
+
+   - Manage users and teams
+
 - Company Credit
-  - View
+
+   - View

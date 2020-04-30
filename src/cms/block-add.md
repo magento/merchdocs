@@ -1,16 +1,20 @@
 ---
 title: Adding New Blocks
 ---
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
 
-Custom blocks of content can be created, and then added to any page, group of pages, or even to another block. For example, you might place an image slider in a block, and then place the block on the home page. {% if "Default.EE-B2B" contains site.edition %}To learn how to add an existing block to a page, see [Add Content]({{ site.baseurl }}{% link cms/page-builder-add-content.md %}).{% endif %}
+{:.bs-callout-info}
+The following instructions apply only if your Magento installation does not have Page Builder enabled. To learn how to add blocks with Page Builder, see [Tutorial 2: Blocks]({% link cms/page-builder-tutorial2-blocks.md %}).
+<!--{% endif %}-->
 
-The Blocks workspace uses the same [basic controls]({{ site.baseurl }}{% link cms/pages-workspace.md %}) as the Pages workspace to help you find available blocks and perform routine maintenance.
+Custom blocks of content can be created, and then added to any page, group of pages, or even to another block. For example, you might place an image slider in a block, and then place the block on the home page. The Blocks workspace uses the same [basic controls]({% link cms/pages-workspace.md %}) as the Pages workspace to help you find available blocks and perform routine maintenance. When the block is complete, you can use the [Widget]({% link cms/widget-static-block.md -%}) tool to place it on specific page(s) in your store.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images/blocks-workspace.png %}){: .zoom}
+![]({% link images/images/blocks-workspace.png %}){: .zoom}
+_Blocks Workspace_
 <!--{% endif %}-->
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({{ site.baseurl }}{% link images/images-ee/blocks-workspace.png %}){: .zoom}
+![]({% link images/images-ee/blocks-workspace.png %}){: .zoom}
 _Blocks Workspace_
 <!--{% endif %}-->
 
@@ -20,7 +24,7 @@ _Blocks Workspace_
 
 1. In the upper-right corner, click <span class="btn">Add New Block</span>. Then, do the following:
 
-   ![]({{ site.baseurl }}{% link images/images/block-detail.png %}){: .zoom}
+   ![]({% link images/images/block-detail.png %}){: .zoom}
    _Block Detail Information_
 
    - By default the status of the new block is enabled. If you want to change the status, set **Enable Block** to `No`.
@@ -30,48 +34,22 @@ _Blocks Workspace_
    - Assign a unique **Identifier** for the block. Use all lowercase characters with underscores instead of spaces.
 
    - Select each **Store View** where the block is to be available.
-  
-<!--{% if "Default.CE Only" contains site.edition %}-->
-   - Use the [editor]({{ site.baseurl }}{% link cms/editor.md %}) to format text, create links and tables, images, video, and audio.
 
-   - If you prefer to work with the  HTML code, click <span class="btn">Show / Hide Editor</span>
+1.  Use the [editor]({% link cms/editor.md %}) to format text, create links and tables, images, video, and audio.
 
-        ![]({{ site.baseurl }}{% link images/images/block-editor.png %}){: .zoom}
-        _Editor_
+1.  If you prefer to work with HTML code, click <span class="btn">Show / Hide Editor</span>.
 
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-1. If you are using [Page Builder]({{ site.baseurl }}{% link cms/page-builder.md %}), drag the content types that you need to the stage.
+    ![]({% link images/images/block-editor-hidden.png %}){: .zoom}
+    _Editor (Hidden)_
 
-    Then, follow the instructions for each content type.
-
-    - [Layout]({{ site.baseurl }}{% link cms/page-builder-layout.md %}) (Row, Column, Tabs)
-
-    - [Elements]({{ site.baseurl }}{% link cms/page-builder-elements.md %}) (Text, Heading, Buttons, Divider, HTML Code)
-
-    - [Media]({{ site.baseurl }}{% link cms/page-builder-media.md %}) (Image, Video, Banner, Slider, Map)
-
-    - [Add Content]({{ site.baseurl }}{% link cms/page-builder-add-content.md %}) (Block, Dynamic Block, Products)
-
-    ![]({{ site.baseurl }}{% link images/images-ee/page-builder-stage.png %}){: .zoom}
-    _Page Builder Stage_
-
-1. If your Magento installation does not have Page Builder enabled, do the following:
-
-    - Use the [editor]({{ site.baseurl }}{% link cms/editor.md %}) to format text, create links and tables, images, video, and audio.
-
-    - If you prefer to work with the  HTML code, click <span class="btn">Show / Hide Editor</span>.
-
-    ![]({{ site.baseurl }}{% link images/images/block-editor.png %}){: .zoom}
-    _Editor_
-
-<!--{% endif %}-->
 1. When complete, click <span class="btn">Save & Close</span>.
+
+    ![]({% link images/images/cms-new-block-save-and-close.png %}){: .zoom}
+    _Save & Close_
 
     The new block appears at the bottom of the list in the Blocks grid.
 
-    ![]({{ site.baseurl }}{% link images/images/cms-block-save-and-close.png %}){: .zoom}
-    _Save & Close_
+1. Use the [Widget]({% link cms/widget-static-block.md -%}) tool to place the completed block on a specific page in your store.
 
 ## Save Menu
 

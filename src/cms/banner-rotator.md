@@ -3,28 +3,28 @@ conditions: Default.EE-B2B
 title: Rotating Banners
 ---
 
-{: .bs-callout .bs-callout-info }
-DEPRECATED: [Page Builder]({{ site.baseurl }}{% link cms/page-builder.md %})’s advanced content tools replace the previous banner functionality as described in this topic. We keep this content in the user guide as a convenience for those whose stores have customizations that prevent them from using Page Builder.
+{:.bs-callout-info}
+DEPRECATED: [Page Builder]({% link cms/page-builder.md %})’s advanced content tools replace the previous banner functionality as described in this topic. We keep this content in the user guide as a convenience for those whose stores have customizations that prevent them from using Page Builder.
 
 A banner rotator can be used to display a single banner, or multiple banners in a specific sequence or random order. The next banner in the sequence appears whenever the page is refreshed.
 
 The banner rotator is a widget that can be assigned to a specific page, product, or category, and placed most anywhere in your store. In addition, banner rotators can be associated with a specific cart or catalog price rule.
 
-## Step 1: Create the Individual Banners
+## Step 1: Create the individual banners
 
-Create the individual [banners]({{ site.baseurl }}{% link cms/banner-create.md %}) that you want to include in the rotator.
+Create the individual [banners]({% link cms/banner-create.md %}) that you want to include in the rotator.
 
-## Step 2: Add a Widget
+## Step 2: Add a widget
 
-Follow the basic steps to add a [widget]({{ site.baseurl }}{% link cms/widget-create.md %}).
+Follow the basic steps to add a [widget]({% link cms/widget-create.md %}).
 
 - Set **Type** to `Banner Rotator`.
 
 - Under **Layout Updates**, choose the page and location where the banner rotator is to appear.
 
-## Step 3: Configure the Banner Rotator
+## Step 3: Configure the banner rotator
 
-1. In the left panel, choose **Widget Options**. Then, do the following:
+1. In the left panel, choose **Widget Options** and do the following:
 
    - Set **Banners to Display** to `Specified Banners`.
 
@@ -37,7 +37,7 @@ Follow the basic steps to add a [widget]({{ site.baseurl }}{% link cms/widget-cr
       - `One at a time, Series`
       - `One at a time, Shuffle`
 
-2. To choose the banners to be included in the rotator, do the following:
+1. To choose the banners to be included in the rotator, do the following:
 
    - In the _Specify Banners_ section, use Search to find the banners you want to include. If necessary, click <span class="btn">Reset Filter</span> to list all the available banners.
 
@@ -45,9 +45,9 @@ Follow the basic steps to add a [widget]({{ site.baseurl }}{% link cms/widget-cr
 
    - To set the sequence of each banner in relation to the others, enter a number in the **Position** column. To place a banner in the first position, enter `1`.
 
-3. When complete, click <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span>.
 
-## Banner Layout Update Options
+## Banner layout update options
 
 |Option|Description|
 |--- |--- |
@@ -55,7 +55,7 @@ Follow the basic steps to add a [widget]({{ site.baseurl }}{% link cms/widget-cr
 |Categories|Displays the banner rotator for only the categories selected.|
 |Block Reference|Assigns the banner rotator to a specific location by reference. Options: Breadcrumbs / Left Column / Main Content Area / My Cart Extra Actions / Navigation Bar / Page Bottom / Page Footer Before / Page Footer Bottom / Page Header / Page Top / Right Column / Store Language|
 
-## Banner Widget Options
+## Banner widget options
 
 |Option|Description|
 |--- |--- |
