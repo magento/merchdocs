@@ -7,7 +7,7 @@ The sales representative is an [Admin user]({% link system/permissions.md %}) wh
 
 The name and email address of the assigned sales representative is visible to company members from the company account and quotes page.
 
-## To assign a sales representative:
+## Assign a sales representative
 
 1. On the _Admin_ sidebar, go to **Customers** > **Companies**.
 

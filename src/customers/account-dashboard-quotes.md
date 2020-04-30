@@ -12,7 +12,7 @@ _My Quotes_
 
 The buyer begins the process by [submitting a request]({% link sales/quote-request.md %}) for a quote from the shopping cart. Email is exchanged between the buyer and seller during the [negotiation process]({% link sales/quote-price-negotiation.md %}). For the buyer, the My Quotes page is the focal point for all communication between buyer and seller during the negotiation process. A buyer who accepts the negotiated price offered by the seller can proceed directly to checkout from the quote. Additional discounts cannot be added to the negotiated quote.
 
-## To view a quote:
+## View a quote
 
 1. Log in to your account.
 
@@ -20,7 +20,7 @@ The buyer begins the process by [submitting a request]({% link sales/quote-reque
 
 1. Find the quote in the list and click **View** in the _Action_ column.
 
-## To print a quote:
+## Print a quote
 
 1. In the open quote to the right of the _Items Quoted_ section, click **Print**.
 
@@ -28,19 +28,19 @@ The buyer begins the process by [submitting a request]({% link sales/quote-reque
 
 1. Click **Print**.
 
-## To cancel a quote request:
+## Cancel a quote request
 
 1. In the open quote just above the Items Quoted section, click **Close quote**.
 
-      The request is canceled, and the quote status changes to `Closed`.  The closed quote remains in your list of quotes, and continues to be listed in the Quotes grid from the Admin.
+   The request is canceled, and the quote status changes to `Closed`.  The closed quote remains in your list of quotes, and continues to be listed in the Quotes grid from the Admin.
 
 1. To remove the canceled quote from your list of quotes, click **Delete**.
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 
-      The closed quote is removed from your list of quotes. However, it continues to be listed in the Admin Quotes grid, with the `Closed` status.
+   The closed quote is removed from your list of quotes. However, it continues to be listed in the Admin Quotes grid, with the `Closed` status.
 
-## Column Descriptions
+## Column descriptions
 
 |Column|Description|
 |--- |--- |

@@ -8,11 +8,11 @@ The information in your company profile was entered when the company account was
 ![]({% link images/images-b2b/company-profile.png %}){: .zoom}
 _Company Profile_
 
-## To edit your company profile:
+## Edit your company profile
 
 1. From the storefront, sign in to your company account.
 
-1. In the panel on the left, choose **Company Profile**.
+1. In the left panel, choose **Company Profile**.
 
 1. At the top of the page after _Company Profile_, click **Edit**.
 
@@ -20,17 +20,22 @@ _Company Profile_
 
 1. When complete, click <span class="btn">Save</span>.
 
-## Field Descriptions
+## Field descriptions
+
+### Account Information
 
 |Field|Description|
 |--- |--- |
-|**Account Information**||
 |Company Name|The name of the company as used throughout the system to identify the company.|
 |Company Legal Name|The full legal name of the company.|
 |Company Email|The email address that is associated with the company account.|
 |VAT / TAX ID|The [value-added tax]({% link tax/vat.md %}) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options]({% link configuration/customers/customer-configuration.md %}).|
 |Reseller ID|The resale number that is assigned to the company for tax reporting purposes.|
-|**Legal Address**||
+
+### Legal Address
+
+|Field|Description|
+|--- |--- |
 |Street Address|The street address where the company is registered to conduct business.|
 |City|The city where the company is registered to conduct business.|
 |Country|The country where the company is registered to conduct business.|

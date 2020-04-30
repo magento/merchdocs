@@ -15,7 +15,7 @@ Your wish list is a convenient way to keep track of products that you like, but 
 <!--{% endif %}-->
 _My Wish List_
 
-## To update the product listing:
+## Update the product listing
 
 1. From your wish list, point to the product to display the options.
 
@@ -37,7 +37,7 @@ _My Wish List_
     - Update the options on the product detail page.
     - Click **Update Wish List**.
 
-## To add a product to the cart:
+## Add a product to the cart
 
 1. In your wish list, point to the product that you want to add.
 
@@ -45,7 +45,7 @@ _My Wish List_
 
 1. Click <span class="btn">Add to Cart</span>.
 
-## To share your wish list:
+## Share your wish list
 
 1. Click **Share Wishlist**.
 
@@ -72,7 +72,7 @@ _My Wish List_
     _Shared Wish List Email_
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 
-## To create a new wish list:
+## Create a new wish list
 
 1. In the upper-right corner, click **Create New Wish List**.
 

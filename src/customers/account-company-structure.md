@@ -11,7 +11,7 @@ _Company Structure with Divisions_
 In the customer’s account dashboard, the company structure is represented as a tree and initially consists of only the company admin.
 
 ![]({% link images/images-b2b/company-structure-tree-admin.png %}){: .zoom}
-*Company Structure with Company Admin*
+_Company Structure with Company Admin_
 
 When the account is created, the company administrator can use the company email address or be assigned a different email address.
 

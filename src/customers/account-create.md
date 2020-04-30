@@ -20,9 +20,9 @@ The following instructions represent the default customer account configuration.
 <!--{% endif %}-->
 _Create an Account_
 
-## Method 1: Create Account from Storefront
+## Method 1: Create account from the storefront
 
-1. From the storefront, click **Create an Account** in the upper-right corner of the header. {% if "Default.B2B Only" contains site.edition %}Then, choose **Create New Customer**.{% endif %}
+1. In the upper-right corner of the storefront header, click **Create an Account**. {% if "Default.B2B Only" contains site.edition %}Then, choose **Create New Customer**.{% endif %}
 
 1. Under **Personal Information**, enter your **First Name** and **Last Name**.
 
@@ -57,13 +57,13 @@ _Create an Account_
 
     You can now use your email address and password to [sign in]({% link customers/customer-sign-in.md %}) to your account to complete the address information.
 
-## Method 2: Create Account from Admin
+## Method 2: Create account from the Admin
 
 1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
 
 1. Click <span class="btn">Add New Customer</span>.
 
-### Step 1: Complete the Account Information
+### Step 1: Complete the account information
 
 ![]({% link images/images/customer-account-new-information.png %}){: .zoom}
 _Customer Information_
@@ -76,18 +76,18 @@ _Customer Information_
 
 1. Complete the required fields:
 
-    - First Name
-    - Last Name
-    - Email
+    - **First Name**
+    - **Last Name**
+    - **Email**
 
 1. Complete the optional fields as needed:
 
-    - Name Prefix
-    - Middle Name/Initial
-    - Name Suffix
-    - Date of Birth
-    - Tax/VAT Number
-    - Gender
+    - **Name Prefix**
+    - **Middle Name/Initial**
+    - **Name Suffix**
+    - **Date of Birth**
+    - **Tax/VAT Number**
+    - **Gender**
 
 1. Set **Send Welcome Email From** to the store view from which the Welcome email is to be sent.
 
@@ -107,9 +107,9 @@ _Customer Information_
     <!--{% endif %}-->
     _Customer View_
 
-### Step 2: Complete the Address Information
+### Step 2: Complete the address information
 
-1. In the panel on the left, choose **Addresses**. Then, click <span class="btn">Add New Addresses</span>.
+1. In the left panel, choose **Addresses** and click <span class="btn">Add New Addresses</span>.
 
 1. If the same address is used for both billing and shipping, toggle both options.
 
@@ -145,7 +145,7 @@ _Customer Information_
     ![]({% link images/images/customers-grid-new-account.png %}){: .zoom}
     _Customers grid_
 
-### Step 3: Reset the Password
+### Step 3: Reset the password
 
 Customer accounts created from the Admin do not initially have passwords assigned.
 
@@ -157,7 +157,7 @@ Customer accounts created from the Admin do not initially have passwords assigne
 
 1. Notification is sent to the account owner, with instructions for setting the password.
 
-## Button Bar
+## Button bar
 
 {:.bs-callout-info}
 Additional buttons become available when the profile is saved for the first time. To learn more, see [Updating a Customer Profile]({% link customers/customer-account-update.md %}).
@@ -175,11 +175,12 @@ Additional buttons become available when the profile is saved for the first time
 |<span class="btn">Save and Continue Edit</span>|Saves changes and keeps the customer profile open.|
 |<span class="btn">Save Customer</span>|Saves changes and closes the customer profile.|
 
-## Field Descriptions
+## Field descriptions
+
+### Account Information
 
 |Field|Description|
 |--- |--- |
-|**Account Information**||
 |Associate to Website|Identifies the website associated with the customer account.|
 |Group|Identifies the [customer group]({% link customers/customer-groups.md %}) where the customer is a member. If applicable, select the checkbox to disable automatic group change based on VAT.|
 |Name Prefix|If used, the prefix  that is associated with the customer’s name (such as Mr., Ms, or Dr.). The prefix values are determined by the [configuration]({% link configuration/customers/customer-configuration.md %}). Depending on the configuration, the input control might be a text field or a list of options.|
@@ -193,7 +194,11 @@ Additional buttons become available when the profile is saved for the first time
 |Gender|Identifies the customer's gender. The gender is included if specified in the [configuration]({% link configuration/customers/customer-configuration.md %}). Options: Male / Female / Not Specified|
 |Send Welcome Email From|If you have multiple store views, identifies the store view from which the Welcome message is sent. If store views are used for different languages, this determines the language of the Welcome email.|
 |Vertex Customer Code|(Requires Vertex Cloud) A unique code that is referenced for [customer exceptions]({% link tax/vertex-setup-customer-exceptions.md %}). The code can be an abbreviation of the customer name, number, or alphanumeric string.|
-|**Addresses**||
+
+### Addresses
+
+|Field|Description|
+|--- |--- |
 |New Addressees|Identifies the type of new address. Options: Default Billing Address / Default Shipping Address|
 |Add New Addresses|Displays another New Address section to identify the type of the address to be entered.|
 |Company|The company name, if applicable for this address.|

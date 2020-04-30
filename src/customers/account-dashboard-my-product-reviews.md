@@ -15,7 +15,7 @@ The My Product Reviews section of the customer account lists all the reviews sub
 <!--{% endif %}-->
 _My Product Reviews_
 
-## To access your product reviews:
+## Access your product reviews
 
 1. In the sidebar of your account, choose **My Product Reviews**.
 

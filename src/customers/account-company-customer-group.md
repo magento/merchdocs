@@ -5,7 +5,7 @@ title: Assigning a Customer Group to a Company
 
 Assigning a customer group to a company is essentially the same as assigning a shared catalog. If Shared Catalog is not enabled in the configuration, a Customer Group — rather than a Shared Catalog — is assigned to a company.
 
-## To assign a customer group:
+## Assign a customer group
 
 1. On the _Admin_ sidebar, go to **Customers** > **Companies**.
 
@@ -14,7 +14,7 @@ Assigning a customer group to a company is essentially the same as assigning a s
     ![]({% link images/images-b2b/companies-grid-edit.png %}){: .zoom}
     _Edit Company_
 
-1. On the company page, scroll down and expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Advanced Settings** section.
+1. On the company page, scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Advanced Settings** section.
 
     ![]({% link images/images-b2b/company-customer-group-shared-catalog.png %}){: .zoom}
     _Customer Groups / Shared Catalogs_
@@ -29,4 +29,6 @@ Assigning a customer group to a company is essentially the same as assigning a s
     {:.bs-callout-info}
     If the customer group assignment is changed from a shared catalog to a regular customer group, company members lose access to the shared catalog and the master catalog becomes available to them from the storefront.
 
-1. When prompted to confirm, click **Proceed**. Then, click **Save**.
+1. When prompted to confirm, click **Proceed**.
+
+1. Click <span class="btn">Save</span>.

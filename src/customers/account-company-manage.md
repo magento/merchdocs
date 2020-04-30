@@ -10,7 +10,7 @@ The [Actions control]({% link stores/admin-actions-control.md %}) above the grid
 ![]({% link images/images-b2b/customer-companies-grid.png %}){: .zoom}
 _Companies Grid_
 
-## To apply an action:
+## Apply an action
 
 The following actions can be applied to either single or multiple records.
 
@@ -18,13 +18,13 @@ The following actions can be applied to either single or multiple records.
 
 1. In the first column of the grid, select the checkbox of each record that you want to update. Then, follow the instructions for the action that you want to apply:
 
-### Activate Company Accounts
+### Activate company accounts
 
 1. Set the **Actions** control to `Set Active`.
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 
-### Block Company Accounts
+### Block company accounts
 
 Users who are associated with a blocked company account cannot access the account, or place orders from the store. A company with an account that is not in good standing might be blocked temporarily until the matter is resolved.
 
@@ -32,7 +32,7 @@ Users who are associated with a blocked company account cannot access the accoun
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 
-### Delete Company Accounts
+### Delete company accounts
 
 Deleted company accounts cannot be restored. The status of user accounts that are associated with the company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system.
 
@@ -40,7 +40,7 @@ Deleted company accounts cannot be restored. The status of user accounts that ar
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 
-### Convert the Credit Currency
+### Convert the credit currency
 
 The credit in the accounts of selected companies is converted to the current rate of the selected currency.
 
@@ -54,30 +54,30 @@ The credit in the accounts of selected companies is converted to the current rat
 
 1. Click <span class="btn">Proceed</span> to complete the conversion.
 
-### Edit a Company Account
+### Edit a company account
 
-**Method 1:** Quick Edit
+**Method 1:** Quick edit
 
 1. In the first column, select the checkbox of the company account to be edited.
 
 1. Set the **Actions** column to `Edit`.
 
-    The value of each value that can be updated appears in a text box.
+   Each value that can be updated appears in a text box.
 
-    ![]({% link images/images-b2b/companies-grid-quick-edit.png %}){: .zoom}
-    _Quick Edit_
+   ![]({% link images/images-b2b/companies-grid-quick-edit.png %}){: .zoom}
+   _Quick Edit_
 
 1. Update any of the following values as needed:
 
-    - Company Name
+    - **Company Name**
 
-    - Company Email
+    - **Company Email**
 
-    - Phone Number
+    - **Phone Number**
 
-1. Click **Save**.
+1. Click <span class="btn">Save</span>.
 
-**Method 2:** Full Edit
+**Method 2:** Full edit
 
 1. In the grid, find the company record to be edited.
 
@@ -89,7 +89,7 @@ The credit in the accounts of selected companies is converted to the current rat
 
 1. When complete, click <span class="btn">Save</span>.
 
-## Actions Control
+## Actions control
 
 |Option|Description|
 |--- |--- |
@@ -99,11 +99,11 @@ The credit in the accounts of selected companies is converted to the current rat
 |Edit|Allows some values of the selected company record to be edited from the grid. By default, the Company Name, Company Email, and Phone Number values are available for a quick edit.|
 |Convert Credit|Converts the credit on account for the selected companies according to the rates of the specified currency.|
 
-## Column Descriptions
+## Column descriptions
 
-### Default Column Layout
+### Default column layout
 
-|Field|Description|
+|Column|Description|
 |--- |--- |
 |Select|Select the checkbox to select company records that are to be subjects of an action or use the selection control in the column header to select/deselect all.|
 |ID|A unique numeric identifer that is assigned when the request to create a company is submitted.|
@@ -120,11 +120,11 @@ The credit in the accounts of selected companies is converted to the current rat
 |Email|The email address of the company administrator.|
 |Action|**Edit** - Opens the company account in edit mode.|
 
-### Additional Columns
+### Additional columns
 
 The following columns are available by changing the [column layout]({% link stores/admin-grid-layout.md %}) of the grid.
 
-|Field|Description|
+|Columns|Description|
 |--- |--- |
 |Company Legal Name|The full legal name of the company.|
 |Street Address|The street address where the company is registered to conduct business.|

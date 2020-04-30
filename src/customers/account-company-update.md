@@ -10,14 +10,14 @@ _Company Profile_
 
 ## Company role resources
 
-The ability to:
+The [Role Resources]({% link system/permissions-role-resources.md %}) settings control the ability to:
 
 - Add New Company
 - Delete Company
 - Reimburse Balance
 - View companies
 
-is controlled via settings in [Role Resources]({% link system/permissions-role-resources.md %}). These role resources must be set for the [User Role]({% link system/permissions-user-roles.md %}) that the admin user is under.
+These role resources must be set for the [User Role]({% link system/permissions-user-roles.md %}) that the admin user is under.
 
 ## Update a company profile
 
@@ -29,10 +29,10 @@ is controlled via settings in [Role Resources]({% link system/permissions-role-r
 
 1. When complete, click <span class="btn">Save</span>.
 
-## Button Bar
+## Button bar
 
 {: .buttons-table }
-| Field             | Description |
+| Button             | Description |
 |-------------------|--------|
 | <span class="btn">Back</span>              | Returns to the Companies page without saving changes. |
 | <span class="btn">Delete Company</span>    | Deletes the company account. The status of user accounts that are associated with the company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system. |
@@ -41,7 +41,7 @@ is controlled via settings in [Role Resources]({% link system/permissions-role-r
 | <span class="btn">Save</span>              | Saves changes to the company and keeps the profile open.|
 | <span class="btn">Save & Close </span>     | Saves changes to the company and closes the profile.|
 
-## Field Descriptions
+## Field descriptions
 
 |Field|Description|
 |--- |--- |

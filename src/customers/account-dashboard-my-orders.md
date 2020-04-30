@@ -15,9 +15,9 @@ Customers have access to all of their orders from their account. Orders can be v
 <!--{% endif %}-->
 _My Orders_
 
-## To view an order:
+## View an order
 
-Find the order in the list and click **View Order**. From the open order, do any of the following:
+Find the order in the list and click **View Order** in the _Action_ column.
 
 <!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/customer-account-order-items-ordered.png %}){: .zoom}
@@ -30,30 +30,34 @@ Find the order in the list and click **View Order**. From the open order, do an
 <!--{% endif %}-->
 _View Order_
 
+From the open order, do any of the following:
+
 ### Reorder
 
 1. To create a new order that is a duplicate of the current order, click **Reorder**.
 
 1. When the shopping cart appears with the items from the order, you can either continue shopping or proceed to checkout.
 
-### Print Order
+### Print order
 
 1. Click **Print Order**.
 
-1. Verify the output device, or choose another.
+1. Verify the output device or choose another.
 
 1. Click <span class="btn">Print</span>.
 
-    ![]({% link images/images/customer-account-print-order.png %}){: .zoom}
-    _Print Order_
+   ![]({% link images/images/customer-account-print-order.png %}){: .zoom}
+   _Print Order_
 
-### Print Invoices
+### Print invoices
 
-1. On the **Invoices** tab, click one of the following:
+1. Click the **Invoices** tab.
 
-    - Print All Invoices
+1. Click one of the following:
 
-    - Print Invoice
+   - **Print All Invoices**
+
+   - **Print Invoice**
 
 1. Verify the output device or choose another.
 
@@ -70,13 +74,15 @@ _View Order_
     <!--{% endif %}-->
     _Invoices_
 
-### Print Shipments
+### Print shipments
 
-1. On the **Order Shipments** tab, click one of the following:
+1. Click the **Order Shipments** tab.
 
-    - Print All Shipments
+1. Click one of the following:
 
-    - Print Shipment
+   - **Print All Shipments**
+
+   - **Print Shipment**
 
 1. Verify the output device or choose another.
 
@@ -93,9 +99,11 @@ _View Order_
     <!--{% endif %}-->
     _Print All Shipments_
 
-### Track a Shipment
+### Track a shipment
 
-1. On the **Order Shipments** tab, click **Track this Shipment**.
+1. Click the **Order Shipments** tab.
+
+1. Click **Track this Shipment**.
 
     <!--{% if "Default.CE Only" contains site.edition %}-->
     ![]({% link images/images/customer-account-order-shipments.png %}){: .zoom}
@@ -112,13 +120,15 @@ _View Order_
 
 1. When ready, <span class="btn">Close Window</span>.
 
-### Print Refunds
+### Print refunds
 
-1. On the **Refunds** tab, click one of the following:
+1. Click the **Refunds** tab.
 
-    - Print All Refunds
+1. Click one of the following:
 
-    - Print Refund
+   - **Print All Refunds**
+
+   - **Print Refund**
 
 1. Verify the output device or choose another.
 

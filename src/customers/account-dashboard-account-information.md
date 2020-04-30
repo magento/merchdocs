@@ -15,11 +15,11 @@ The basic account information includes your name and email address, and password
 <!--{% endif %}-->
 _Account Information_
 
-## To update your account information:
+## Update your account information
 
-In the sidebar of your account, choose **Account Information**. Then, do any of the following:
+In the sidebar of your account, choose **Account Information** and do any of the following:
 
-### Update Your Name
+### Update your name
 
 1. Update your **First Name** and **Last Name** as needed.
 
@@ -27,7 +27,7 @@ In the sidebar of your account, choose **Account Information**. Then, do any of 
 
 1. Click <span class="btn">Save</span>.
 
-### Change Your Email Address
+### Change your email address
 
 1. Select the **Change Email** checkbox.
 
@@ -48,7 +48,7 @@ In the sidebar of your account, choose **Account Information**. Then, do any of 
     <!--{% endif %}-->
     _Change Email Address_
 
-### Change Your Password
+### Change your password
 
 1. Select the **Change Password** checkbox.
 

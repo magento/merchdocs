@@ -5,7 +5,7 @@ title: Assigning User Roles
 
 After defining the roles that are needed, the store admin assigns a role to each company user.
 
-## To assign a role to a company user:
+## Assign a role to a company user
 
 1. Log in to your company account as store admin.
 
@@ -16,7 +16,9 @@ After defining the roles that are needed, the store admin assigns a role to each
 
 1. Find the user in the list and click **Edit**.
 
-1. Choose the appropriate **User Role** for the user. Then, click <span class="btn">Save</span>.
+1. Choose the appropriate **User Role** for the user.
+
+1. Click <span class="btn">Save</span>.
 
     ![]({% link images/images-b2b/customer-company-users-assign-role.png %}){: .zoom}
     _User Role_

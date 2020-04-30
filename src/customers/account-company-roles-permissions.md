@@ -16,11 +16,13 @@ The system has one predefined Default User role, which you can use “as is" or 
 
 - **Assistant Buyer** — An assistant buyer might have permission to place an order using Checkout with Quote, and to view orders, quotes, and information in the company profile.
 
-## To manage roles and permissions:
+## Manage roles and permissions
 
 1. Sign in to your store account as the company administrator.
 
-1. In the panel on the left, choose **Roles and Permissions**. Then, do any of the following:
+1. In the left panel, choose **Roles and Permissions**.
+
+1. Complete any of the following tasks.
 
 ### Create a role
 
@@ -35,7 +37,7 @@ The system has one predefined Default User role, which you can use “as is" or 
 
    - Select the checkbox of each resource or activity that users assigned the role have permission to access.
 
-   - Select the **All** checkbox. Then, clear the checkbox of each resource or activity that users assigned to the role do not have permission to access.
+   - Select the **All** checkbox and then deselect the checkbox of each resource or activity that users assigned to the role do not have permission to access.
 
 1. Click <span class="btn">Save Role</span>.
 
@@ -82,19 +84,19 @@ The system has one predefined Default User role, which you can use “as is" or 
 
 - All
 
-   - Sales
+  - Sales
 
-      - Checkout (place order)
+    - Checkout (place order)
 
 - Use Pay On Account method
 
-   - View Orders
+  - View Orders
 
 - View orders of subordinate users
 
 - Quotes
 
-   - View
+  - View
 
 - Request, Edit, Delete
 
@@ -104,28 +106,28 @@ The system has one predefined Default User role, which you can use “as is" or 
 
 - Company Profile
 
-   - Account Information (View)
+  - Account Information (View)
 
-      - Edit
+    - Edit
 
-   - Legal Address
+  - Legal Address
 
-      - Edit
+    - Edit
 
-   - Contacts (View)
+  - Contacts (View)
 
-   - Payment Information (View)
+  - Payment Information (View)
 
 - Company User Management
 
-   - View roles and permissions
+  - View roles and permissions
 
-      - Manage roles and permissions
+    - Manage roles and permissions
 
-   - View users and teams
+  - View users and teams
 
-   - Manage users and teams
+  - Manage users and teams
 
 - Company Credit
 
-   - View
+  - View

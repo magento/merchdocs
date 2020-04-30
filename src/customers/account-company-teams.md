@@ -10,13 +10,13 @@ If your Magento installation is [configured]({% link stores/b2b-features.md %}) 
 ![]({% link images/images-b2b/diagram-company-structure-teams.png %}){: .zoom}
 _Company Structure with Teams_
 
-## To set up company teams:
+## Set up company teams
 
 1. Sign in to your account as the company administrator.
 
 1. In the panel on the left, choose **Company Structure**.
 
-1. Under **Business Structure**, click **Add Team**. Then, do the following:
+1. Under **Business Structure**, click **Add Team** and do the following:
 
    ![]({% link images/images-b2b/company-structure-tree-admin.png %}){: .zoom}
    _Add Team_
@@ -42,14 +42,16 @@ _Company Structure with Teams_
       ![]({% link images/images-b2b/company-structure-northwest-division.png %}){: .zoom}
       _Company Structure with Divisions_
 
-   - Enter the **Team Title** and **Description**, and click <span class="btn">Save</span>.
+   - Enter the **Team Title** and **Description**.
+
+   - Click <span class="btn">Save</span>.
 
 1. Repeat these steps to create as many teams, or divisions and subdivisions, as you need.
 
    ![]({% link images/images-b2b/company-structure-divisions.png %}){: .zoom}
    _Company Structure with Divisions and Subdivisions_
 
-## To move a team:
+## Move a team
 
 As you work on the company structure, you can drag teams or divisions to other locations in the company structure.
 
@@ -57,7 +59,7 @@ As you work on the company structure, you can drag teams or divisions to other l
 
 1. Click and drag the team to a new position in the company structure.
 
-## To delete a team:
+## Delete a team
 
 {:.bs-callout-info}
 Before deleting a team, make sure that the correct team is selected. Deleted teams cannot be restored.
@@ -68,7 +70,7 @@ Before deleting a team, make sure that the correct team is selected. Deleted tea
 
 1. When prompted to confirm, click <span class="btn">Delete</span>.
 
-## To expand or collapse the team structure:
+## Expand or collapse the team structure
 
 As you work on the company structure, you can collapse or expand the tree:
 
@@ -76,7 +78,7 @@ As you work on the company structure, you can collapse or expand the tree:
 
 - Click ![]({% link images/images/btn-collapse.png %}){: .Inline} to collapse a team or ![]({% link images/images/btn-expand.png %}){: .Inline} to expand a team.
 
-## Company Structure Icons
+## Company structure icons
 
 | Icon                                                                          | Description                                                    |
 |-------------------------------------------------------------------------------|----------------------------------------------------------------|

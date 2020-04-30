@@ -15,7 +15,7 @@ Customers who keep their address books current can speed through the checkout pr
 <!--{% endif %}-->
 [_Address Book_]({% link configuration/customers/customer-configuration.md %})
 
-## To add a new address:
+## Add a new address
 
 1. In the sidebar of your customer account, choose **Address Book**.
 
