@@ -24,13 +24,19 @@ The store dashboard also includes store data and links to settings or more infor
 
 - [**Store Settings**]({% link sales-channels/asc/ob-store-review.md %}) - Access your store settings and reports.
 
-   - [**Listing settings**]({% link sales-channels/asc/listing-settings.md %}) - Control how your product catalog interacts with the Amazon marketplace.
-   - [**Order settings**]({% link sales-channels/asc/order-settings.md %}) - Control how Amazon orders are managed.
-   - [**Listing rules**]({% link sales-channels/asc/listing-rules.md %}) - Define which catalog products are eligible to be listed on Amazon.
-   - [**Pricing rules**]({% link sales-channels/asc/pricing-products.md %}) - Define how the Amazon list price will be altered for qualified listings.
-   - [**Store reports**]({% link sales-channels/asc/amazon-logs-reports.md %}) - [Competitive price analysis]({% link sales-channels/asc/competitive-price-analysis.md %}) and [listing improvements]({% link sales-channels/asc/listing-improvements.md %}).
-   - [**Logs**]({% link sales-channels/asc/amazon-logs-reports.md %}) - [Listing changes]({% link sales-channels/asc/listing-changes-log.md %}) and [communication errors]({% link sales-channels/asc/communication-errors-log.md %}).
-   - [**Store integration settings**]({% link sales-channels/asc/store-integration-settings.md %}) - Review email and Amazon Sales Channel store name settings in the Magento Admin.
+    - [**Listing settings**]({% link sales-channels/asc/listing-settings.md %}) - Control how your product catalog interacts with the Amazon marketplace.
+
+    - [**Order settings**]({% link sales-channels/asc/order-settings.md %}) - Control how Amazon orders are managed.
+
+    - [**Listing rules**]({% link sales-channels/asc/listing-rules.md %}) - Define which catalog products are eligible to be listed on Amazon.
+
+    - [**Pricing rules**]({% link sales-channels/asc/pricing-products.md %}) - Define how the Amazon list price will be altered for qualified listings.
+
+    - [**Store reports**]({% link sales-channels/asc/amazon-logs-reports.md %}) - [Competitive price analysis]({% link sales-channels/asc/competitive-price-analysis.md %}) and [listing improvements]({% link sales-channels/asc/listing-improvements.md %}).
+
+    - [**Logs**]({% link sales-channels/asc/amazon-logs-reports.md %}) - [Listing changes]({% link sales-channels/asc/listing-changes-log.md %}) and [communication errors]({% link sales-channels/asc/communication-errors-log.md %}).
+
+    - [**Store integration settings**]({% link sales-channels/asc/store-integration-settings.md %}) - Review email and Amazon Sales Channel store name settings in the Magento Admin.
 
 - **Store Listings** - Shows a graphical representation for the store sales for the last 7 or 30 days along with lifetime sales data.
 
@@ -41,15 +47,6 @@ The store dashboard also includes store data and links to settings or more infor
 
 - **Recent Orders** - Shows information for your most recent Amazon orders. The information listed is based on the information received from Amazon. This table does not update with Magento order information, even when [order import]({% link sales-channels/asc/order-settings.md %}) is enabled. To view all your Amazon orders, click **All Orders**.
 
-See [Amazon Orders]({% link sales-channels/asc/amazon-orders-all.md %}) for column descriptions,  and see [Manage Orders]({% link sales-channels/asc/managing-orders.md %}) for order management information.
-
-   - Purchase Date
-   - Order Number
-   - Status
-   - Buyer's Name
-   - Grand Total
-
-   {:.bs-callout .bs-callout-info}
-   You can click the Amazon order number in the _Order Number_ column to access the order details. If order import is enabled in your [Order Settings]({% link sales-channels/asc/order-settings.md %}), clicking the order number link will open the corresponding Magento order in the [Magento Orders]({% link sales/orders.md %}) workflow. If order import is disabled in your [Order Settings]({% link sales-channels/asc/order-settings.md %}), clicking the order number link will open the order details in Amazon Seller Central.
+   See [View Amazon Orders]({% link sales-channels/asc/amazon-orders-all.md %}) for column descriptions,  and see [Manage Orders]({% link sales-channels/asc/managing-orders.md %}) for order management information.
 
 - **Seller Central links** - Provides links to important Amazon Seller Central information.

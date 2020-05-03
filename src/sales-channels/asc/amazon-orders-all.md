@@ -19,12 +19,14 @@ _All Orders_ view adds filtering options for order searches.
 {:.bs-callout .bs-callout-info}
 With the exception of the _Order Notes_ column, the _Amazon orders_ table is populated with order information as received from Amazon. The _Order Notes_ column is updated by Magento as the order processes.
 
-## View recent Amazon orders
+## Recent orders
 
 You can view your most recent orders in the _Recent Orders_ section of the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 
 ![]({% link sales-channels/asc/assets/amazon-recent-orders-imported.png %}){: .zoom}
 _Recent Orders_
+
+### View recent Amazon orders
 
 1. Click **View Store** on a store card.
 
@@ -32,9 +34,9 @@ _Recent Orders_
 
 1. To view order details, click the Amazon order number in the _Order Number_ column.
 
-   Depending on your order import setting, the order details will open in Amazon or in the Magento order workflow.
+   Depending on your [order import setting]({% link sales-channels/asc/order-settings.md %}), the order details will open in Amazon or in the [Magento orders workflow]({% link sales/orders.md %}).
 
-## View all Amazon orders
+## View all orders
 
 You can view all of your Amazon orders on the _Amazon orders_ page (also referred to as the _All Orders_ view). The Amazon Orders table is similar to the _Recent Orders_ section of the store dashboard, but allows you to view all of your Amazon orders and to narrow your orders list with the following filter options:
 
@@ -47,6 +49,8 @@ You can view all of your Amazon orders on the _Amazon orders_ page (also referre
 ![]({% link sales-channels/asc/assets/amazon-orders-list-all.png %}){: .zoom}
 _Amazon orders_
 
+### View all Amazon orders
+
 1. Click **View Store** on a store card.
 
 1. Click **All Orders** in the _Recent Orders_ section.
@@ -55,7 +59,10 @@ _Amazon orders_
 
 1. To view order details, click the Amazon order number in the _Order Number_ column.
 
-   Depending on your order import setting, the order details will open in Amazon Seller Central or in the Magento order workflow.
+   Depending on your [order import setting]({% link sales-channels/asc/order-settings.md %}), the order details will open in Amazon or in the [Magento orders workflow]({% link sales/orders.md %}).
+
+{:.bs-callout .bs-callout-tip}
+A few notes about the orders view:<br/>- If you have multiple Amazon store integrations, you may need to refresh your page view when switching between store views. This updates both the orders list and the pagination views for the current store.<br/>- When sorting by column, the sort only applies to the current view orders list. This will be addressed in a future release.<br/>- Depending on the width of your view window, you may see overlapping text in the columns. Widen your window view to expand the columns for the text to wrap.
 
 ### Default Columns
 
