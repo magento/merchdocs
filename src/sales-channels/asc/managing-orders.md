@@ -1,9 +1,9 @@
 ---
-title: Manage Orders and Fulfillment
+title: Manage Orders
 ---
 
 
-You can view your Amazon order information, as received from Amazon, in the _Recent Orders_ section of the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}) or on the _Amazon orders_ page (also referred to the _All Orders_ view).
+You can view your Amazon order information, as received from Amazon, in the _Recent Orders_ section of the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}) or on the _Amazon orders_ page (also called the _All Orders_ view).
 
 How you manage your Amazon orders depends on whether or not you have order import enabled or disabled in your [Order Settings]({% link sales-channels/asc/order-settings.md %}#configure-order-settings).
 

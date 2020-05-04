@@ -30,4 +30,6 @@ The process outlined below is applicable when [order import]({% link sales-chann
 
     The cancellation notification will be sent to your Amazon Seller Central account, and the customer associated with the order will be notified. The status of the corresponding Magento order will change to `Complete`.
 
-1. Click **Cancel Order** in the header bar. The order is canceled, and the status is updated to `Canceled` in the order details.
+1. Click **Cancel Order** in the header bar. 
+
+    The order is canceled, and the status is updated to `Canceled` in the order details.

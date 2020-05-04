@@ -3,7 +3,7 @@ title: View Amazon Orders
 ---
 
 
-There are 2 ways to view your Amazon orders, _Recent Orders_ and _All Orders_.
+There are two ways to view your Amazon orders: _Recent Orders_ and _All Orders_.
 
 Both options show you basic order information, as received from Amazon, including:
 
@@ -59,10 +59,14 @@ _Amazon orders_
 
 1. To view order details, click the Amazon order number in the _Order Number_ column.
 
-   Depending on your [order import setting]({% link sales-channels/asc/order-settings.md %}), the order details will open in Amazon or in the [Magento orders workflow]({% link sales/orders.md %}).
+   Depending on your [order import setting]({% link sales-channels/asc/order-settings.md %}), the order details will open in Amazon or in the [Magento orders workflow]({% link sales/orders.md %}).-[-[]]
 
-{:.bs-callout .bs-callout-tip}
-A few notes about the orders view:<br/>- If you have multiple Amazon store integrations, you may need to refresh your page view when switching between store views. This updates both the orders list and the pagination views for the current store.<br/>- When sorting by column, the sort only applies to the current view orders list. This will be addressed in a future release.<br/>- Depending on the width of your view window, you may see overlapping text in the columns. Widen your window view to expand the columns for the text to wrap.
+<div class="bs-callout-tip" markdown="1">
+A few notes about the orders view:
+- If you have multiple Amazon store integrations, you may need to refresh your page view when switching between store views. This updates both the orders list and the pagination views for the current store.
+- When sorting by column, the sort only applies to the current view orders list. This will be addressed in a future release.
+- Depending on the width of your view window, you may see overlapping text in the columns. Widen your window view to expand the columns for the text to wrap.
+</div>
 
 ### Default Columns
 

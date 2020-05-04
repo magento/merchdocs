@@ -249,7 +249,7 @@ pages:
             url: "/sales-channels/asc/amazon-manually-update-incomplete-listing.html"
           - label: View Details
             url: "/sales-channels/asc/product-listing-details.html"
-      - label: Manage Orders and Fulfillment
+      - label: Manage Orders
         url: "/sales-channels/asc/managing-orders.html"
         children:
         - label: View Amazon Orders
