@@ -116,6 +116,6 @@ _Klarna Merchant Portal_
    ![Klarna Payments Design]({% link images/images/config-sales-payment-methods-klarna-payments-design.png %}){: .zoom}
    [_Design_]({% link configuration/sales/klarna.md %})
 
-1. When complete, click <span class="btn">Save Config</span>. 
+1. When complete, click <span class="btn">Save Config</span>.
 
 1. Click the [**Cache Management**]({% link system/cache-management.md %}) link in the message at the top of the page, and refresh all invalid caches.
