@@ -32,7 +32,7 @@ Available in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Allow Symlinks|Store View|Enabling [symbolic links](https://en.wikipedia.org/wiki/Symbolic_link) can expose your site to security risks, and is not recommended for a production store.|
+|Allow Symlinks|Store View|Enabling [symbolic links](https://en.wikipedia.org/wiki/Symbolic_link) can expose your site to security risks and is not recommended for a production store.|
 |Minify Html|Store View|Determines if the HTML for store templates is minimized. Options: Yes / No|
 
 ## Debug
@@ -53,7 +53,7 @@ Available in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enable for Storefront|Store View|Activates the Inline Translator for the storefront. The interface text can be edited for each store view.To use the Inline Translator without interfering with the live store, add your IP address to the Developer Client Restrictions whitelist.|
+|Enable for Storefront|Store View|Activates the Inline Translator for the storefront. The interface text can be edited for each store view. To use the Inline Translator without interfering with the live store, add your IP address to the Developer Client Restrictions whitelist.|
 |Enable for Admin|Global|Activates the Inline Translator for the Admin. Unlike the storefront, the Admin cannot be translated into multiple languages. However, the field labels and other text in the interface can be changed.|
 
 ## JavaScript Settings
