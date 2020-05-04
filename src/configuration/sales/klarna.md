@@ -12,8 +12,8 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Endpoint|Website|Indicates the version of Klarna that is currently installed on the website. Options: Klarna Payments (North America) / Klarna Payments (Europe) / Klarna Payments (Oceania) Supported countries: AT, DE, DK, FI, NL, NO, SE, US, AU, NZ|
-|Merchant ID|Website|The Merchant ID from your Klarna account. Your Merchant ID is located in the upper-left corner of the _Store Settings_ tab in the Klarna Merchant Portal.|
-|Password|Website|The API password from your Klarna account.|
+|Merchant ID|Website|The API Username (UID) from your Klarna credentials.|
+|Password|Website|The API password from your Klarna credentials.|
 |Mode|Website|Determines if Klarna is currently operating in a playground or production environment for the store. Options: Playground/ Production|
 |Logging|Website|(For development only) Determines if a log is generated of all actions. Options: Enable / Disable<br/><br/>**_Important:_** Logging exposes sensitive information and is not to be used in a production environment.|
 
