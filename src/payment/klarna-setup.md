@@ -46,11 +46,11 @@ _Klarna Merchant Portal_
 
 1. In a new browser tab, log in to the Admin of your Magento store.
 
-1. On the Admin sidebar, choose **Stores**. Then under `Settings`, choose **Configuration**.
+1. On the Admin sidebar, go to **Stores** > `Settings`> **Configuration**.
 
 1. In the upper-left corner, choose the **Store View** where the configuration applies. If your installation has only one view, accept the `Default Config` setting.
 
-1. In the panel on the left under `Sales`, choose **Payment Methods**. Then in the **Klarna** section, click <span class="btn">Configure</span>.
+1. In the left panel, go to **Sales** > **Payment Methods**. Then in the **Klarna** section, click <span class="btn">Configure</span>.
 
    ![Klarna]({% link images/images/config-sales-payment-methods-recommended-solutions-klarna.png %}){: .zoom}
    [_Klarna_]({% link configuration/sales/klarna.md %})
@@ -71,7 +71,7 @@ _Klarna Merchant Portal_
 1. In the **Merchant ID** field, enter the `API Username (UID)` from your Klarna API credentials.
 
    {:.bs-callout-info}
-   Although the field labels are the same, do not enter the `Merchant ID` from your Klarna account.
+   Do not enter the `Merchant ID` from your Klarna account.
 
 1. Enter the **Password** from your Klarna API credentials.
 
@@ -105,15 +105,17 @@ _Klarna Merchant Portal_
 
 ## Step 3: Complete the Design Settings **(Optional)**
 
-Enter the hexadecimal value of the color that you want to use for the following elements. You can use the color chooser to experiment with different colors for each design element to match your store’s theme. The results might vary, depending on theme.
+1. Enter the hexadecimal value of the color that you want to use for the following elements. You can use the color chooser to experiment with different colors for each design element to match your store’s theme. The results might vary, depending on theme.
 
-- Details color
-- Border color
-- Selected border color
-- Text color
-- Border radius
+   - Details color
+   - Border color
+   - Selected border color
+   - Text color
+   - Border radius
 
-![Klarna Payments Design]({% link images/images/config-sales-payment-methods-klarna-payments-design.png %}){: .zoom}
- [_Design_]({% link configuration/sales/klarna.md %})
+   ![Klarna Payments Design]({% link images/images/config-sales-payment-methods-klarna-payments-design.png %}){: .zoom}
+   [_Design_]({% link configuration/sales/klarna.md %})
 
-When complete, click <span class="btn">Save Config</span>. Then when prompted, click the [**Cache Management**]({% link system/cache-management.md %}) link at the top of the page to refresh all invalid caches.
+1. When complete, click <span class="btn">Save Config</span>. 
+
+1. Click the [**Cache Management**]({% link system/cache-management.md %}) link in the message at the top of the page, and refresh all invalid caches.
