@@ -28,7 +28,7 @@ _Klarna Merchant Portal_
 
 1. To generate your API Credentials for Klarna’s Playground environment, do one of the following:
 
-   - On the Home page of your account under **Preferences**, click  **Settings**.
+   - On the Home page of your account under **Preferences**, click **Settings**.
    - In the upper-left corner of the page, click the **Menu** icon. Then in the left sidebar under **Preferences**, click **Settings**.
 
 1. On the **API Credentials** tab, click <span class="btn">Generate new API credentials</span>. Then when prompted, click **Create credentials**.
