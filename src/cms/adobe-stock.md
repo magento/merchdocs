@@ -20,9 +20,9 @@ then [configure the Adobe Stock Integration in your Magento Admin][configure].
 
 ### Create an Adobe.io integration
 
-1. Navigate to the [adobe.io Console][io-console] and under **Quick Start**, open **Projects** tab and click **Create new project**.
+1. Navigate to the [adobe.io Console][io-console]. Under **Quick Start**, select the **Projects** tab and click **Create new project**.
 
-1. Click **Add API** button in the **Get started** block.
+1. Click **Add API** in the **Get started** block.
 
 1. Select **Creative SDK** from the integrations list and click **Continue**.
 
