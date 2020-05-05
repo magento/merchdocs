@@ -27,7 +27,7 @@ then [configure the Adobe Stock Integration in your Magento Admin][configure].
 1. Select **Creative SDK** from the integrations list and click **Continue**.
 
    At this time, _do not_ use the **Adobe Stock** service on this screen.
-   
+
 1. Select **Oauth 2.0 Web** platform.
 
 1. Specify the **Redirect URI**.
