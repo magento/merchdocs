@@ -103,7 +103,7 @@ _Klarna Merchant Portal_
 
 1. Enter a **Sort Order** number to determine the position of Klarna in the list of payment methods during checkout. (0 = first, 1 = second, 2 = third, and so on.)
 
-## Step 3: Complete the Design Settings **(Optional)**
+## Step 3: Complete the Design Settings (Optional)
 
 1. Enter the hexadecimal value of the color that you want to use for the following elements. You can use the color chooser to experiment with different colors for each design element to match your store’s theme. The results might vary, depending on theme.
 
@@ -118,4 +118,4 @@ _Klarna Merchant Portal_
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-1. Click the [**Cache Management**]({% link system/cache-management.md %}) link in the message at the top of the page, and refresh all invalid caches.
+1. Click [**Cache Management**]({% link system/cache-management.md %}) in the message at the top of the page, and refresh all invalid caches.
