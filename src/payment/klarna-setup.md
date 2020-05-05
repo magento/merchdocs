@@ -31,7 +31,7 @@ _Klarna Merchant Portal_
    - On the Home page of your account under **Preferences**, click **Settings**.
    - In the upper-left corner of the page, click the **Menu** icon. Then in the left sidebar under **Preferences**, click **Settings**.
 
-1. On the **API Credentials** tab, click <span class="btn">Generate new API credentials</span>. Then when prompted, click **Create credentials**.
+1. On the **API Credentials** tab, click <span class="btn">Generate new API credentials</span>. When prompted, click **Create credentials**.
 
 1. After your credentials are generated, click **Download as .txt**. Look in the area where your browser saves downloads and open the file. Keep the file open, and save it in a place where you can find it.
 
