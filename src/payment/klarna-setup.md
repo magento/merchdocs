@@ -14,7 +14,7 @@ _Klarna Merchant Portal_
 
 1. Do the following from the Admin of your Magento installation:
 
-   - On the Admin sidebar, go to **Stores** > Settings > **Configuration**.
+   - On the Admin sidebar, go to **Stores** > _Settings_ > **Configuration**.
    - In the left panel, go to **Sales** > **Payment Methods**.
    - In the **Klarna** section, click <span class="btn">Configure</span>. Then under **Klarna Payments**, click the link to the Klarna Merchant Onboarding page.
 
@@ -28,10 +28,10 @@ _Klarna Merchant Portal_
 
 1. To generate your API Credentials for Klarna’s Playground environment, do one of the following:
 
-   - On the Home page of your account under **Preferences**, click  **Settings**.
+   - On the Home page of your account under **Preferences**, click **Settings**.
    - In the upper-left corner of the page, click the **Menu** icon. Then in the left sidebar under **Preferences**, click **Settings**.
 
-1. On the **API Credentials** tab, click <span class="btn">Generate new API credentials</span>. Then when prompted, click **Create credentials**.
+1. On the **API Credentials** tab, click <span class="btn">Generate new API credentials</span>. When prompted, click **Create credentials**.
 
 1. After your credentials are generated, click **Download as .txt**. Look in the area where your browser saves downloads and open the file. Keep the file open, and save it in a place where you can find it.
 
@@ -46,7 +46,7 @@ _Klarna Merchant Portal_
 
 1. In a new browser tab, log in to the Admin of your Magento store.
 
-1. On the Admin sidebar, go to **Stores** > `Settings`> **Configuration**.
+1. On the Admin sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the upper-left corner, choose the **Store View** where the configuration applies. If your installation has only one view, accept the `Default Config` setting.
 
