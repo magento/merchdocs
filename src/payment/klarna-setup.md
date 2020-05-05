@@ -68,7 +68,7 @@ _Klarna Merchant Portal_
 
    Klarna supports the following countries:  AT, DE, DK, FI, NL, NO, SE, US, AU, NZ
 
-1. In the **Merchant ID** field, enter the `API Username (UID)` from your Klarna API credentials.
+1. In the **Merchant ID** field, enter the `Username (UID)` from your Klarna API credentials.
 
    {:.bs-callout-info}
    Do not enter the `Merchant ID` from your Klarna account.
