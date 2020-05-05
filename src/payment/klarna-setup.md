@@ -46,7 +46,7 @@ _Klarna Merchant Portal_
 
 1. In a new browser tab, log in to the Admin of your Magento store.
 
-1. On the Admin sidebar, go to **Stores** > `Settings`> **Configuration**.
+1. On the Admin sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the upper-left corner, choose the **Store View** where the configuration applies. If your installation has only one view, accept the `Default Config` setting.
 
