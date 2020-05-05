@@ -14,7 +14,7 @@ _Klarna Merchant Portal_
 
 1. Do the following from the Admin of your Magento installation:
 
-   - On the Admin sidebar, go to **Stores** > Settings > **Configuration**.
+   - On the Admin sidebar, go to **Stores** > _Settings_ > **Configuration**.
    - In the left panel, go to **Sales** > **Payment Methods**.
    - In the **Klarna** section, click <span class="btn">Configure</span>. Then under **Klarna Payments**, click the link to the Klarna Merchant Onboarding page.
 
