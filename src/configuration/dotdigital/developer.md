@@ -1,8 +1,10 @@
 ---
 title: Developer
+redirect_from:
+  - /configuration/engagement-cloud/developer.html
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Developer
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdigital]({% link configuration/dotdigital.md %}) > Developer
 
 ## Import Settings
 
@@ -18,8 +20,8 @@ _Import Settings_
 
 ## Sync Settings
 
-![Engagement Cloud Admin Tasks]({% link images/images/dotdigital-dash-admin.png %}){: .zoom}
-_Admin Tasks_
+![Admin Tasks]({% link images/images/dotdigital-dash-admin.png %}){: .zoom}
+_Admin Task_
 
 ![Manually Run Syncs]({% link images/images/config-engagement-cloud-sync-settings-manually-run-sync.png %}){: .zoom}
 _Manually Run Syncs_
@@ -30,8 +32,8 @@ _Reset Syncs_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |**Admin Task**|||
-|Automap Data Fields|Website|Automatically maps Magento customer, address, and sales data fields to the Engagement Cloud contact database.<br/><span class="btn">Run Now</span> Syncs data fields.|
-|Delete All Contact IDs|Website|Deletes all existing contact IDs. You can use this option if you want to connect to a different Engagement Cloud account.<br/><span class="btn">Run Now</span> Deletes all Contact IDs.|
+|Automap Data Fields|Website|Automatically maps Magento customer, address, and sales data fields to the dotdigital contact database.<br/><span class="btn">Run Now</span> Syncs data fields.|
+|Delete All Contact IDs|Website|Deletes all existing contact IDs. You can use this option if you want to connect to a different dotdigital account.<br/><span class="btn">Run Now</span> Deletes all Contact IDs.|
 |**Manually Run Sync**|||
 |Contact Sync|Website|Manually synchronizes contact data, instead of using an automated cron job.<br/><span class="btn">Run Now</span> Manually syncs contact data.|
 |Subscriber Sync|Website|Manually synchronizes subscriber data, instead of using an automated cron job.<br/><span class="btn">Run Now</span> Manually syncs subscriber data.|
@@ -67,10 +69,10 @@ _OAUTH Credentials_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Client ID|Website|The Engagement Cloud Client ID that is used for Single Sign-on/OAUTH access.|
-|Client Secret Key|Website|The Engagement Cloud Client Secret Pass that is used for Single Sign-on/OAUTH access.|
+|Client ID|Website|The dotdigital Client ID that is used for Single Sign-on/OAUTH access.|
+|Client Secret Key|Website|The dotdigital Client Secret Pass that is used for Single Sign-on/OAUTH access.|
 |Connection|Website|Connect/Disconnect option to test and run Single Sign-on. It must be connected to work.|
-|Custom OAUTH Domain|Website|The domain URL ending with a forward slash (/), if Engagement Cloud runs on a custom domain (rather than the Engagement Cloud domain).|
+|Custom OAUTH Domain|Website|The domain URL ending with a forward slash (/), if dotdigital runs on a custom domain (rather than the dotdigital domain).|
 |Custom Authorization URL|Website|The full website URL ending with a forward slash (/), if your Admin site runs on a different domain than your website.|
 
 ## Dynamic Pages IP Restriction
@@ -80,7 +82,7 @@ _Dynamic Pages IP Restriction_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Dynamic Pages IP Restriction|Website|To add a layer of security for external dynamic content, it is recommended that you maintain this list of IP addresses which are authorized to access dynamic content. **_Note:_** If you leave this field empty, a security check does not run.<br/><br/>By default, Engagement Cloud uses three IP addresses that allow dotdigital to send requests and pull dynamic content. When testing an integration, you can add your IP address to the list. For an example, see [Method 2: Add your IP address to the IP restriction whitelist]({% link marketing/price-rules-cart-coupon.md %}).|
+|Dynamic Pages IP Restriction|Website|To add a layer of security for external dynamic content, it is recommended that you maintain this list of IP addresses which are authorized to access dynamic content. **_Note:_** If you leave this field empty, a security check does not run.<br/><br/>By default, dotdigital uses three IP addresses that allow dotdigital to send requests and pull dynamic content. When testing an integration, you can add your IP address to the list. For an example, see [Method 2: Add your IP address to the IP restriction whitelist]({% link marketing/price-rules-cart-coupon.md %}).|
 
 ## Manage Cron Timings
 
