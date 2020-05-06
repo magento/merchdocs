@@ -4,18 +4,17 @@
 
 This pull request (PR) ...
 
+If Magento Commerce, please specify:
+
+- [ ] Commerce only?
+- [ ] Commerce with B2B?
+
 ## Affected documentation pages
 
-<!-- REQUIRED List HTML links for affected pages on Open Source https://docs.magento.com/m2/ce/user_guide/ or Commerce or B2B. Not needed for large numbers of files. -->
+<!-- REQUIRED List HTML links for affected pages on https://docs.magento.com -->
 
 - ...
 - ...
-
-## Affected Magento editions
-
-- [ ] Open Source
-- [ ] Commerce
-- [ ] B2B
 
 ## Links to Magento source code or PRs
 
@@ -26,7 +25,7 @@ This pull request (PR) ...
 
 ## Additional information
 
-<!-- (OPTIONAL) What other information can you provide? -->
+<!-- OPTIONAL - REMOVE THIS SECTION IF NOT USED. What other information can you provide? -->
 
 <!--
 If you are fixing a GitHub issue, note it using GitHub keyword format (https://help.github.com/en/articles/closing-issues-using-keywords#closing-an-issue-in-a-different-repository) to close the issue when this pull request is merged. Example: `Fixes #1234`
