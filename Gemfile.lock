@@ -1,7 +1,6 @@
 GIT
   remote: https://github.com/magento-devdocs/devdocs-theme.git
-  revision: 01a89e1163dadc29225ee8498b4f8cbc656a7547
-  branch: yb_spectrum
+  revision: 0adc044e0cb5a882ed9131ea69586a478baa42e8
   specs:
     devdocs (8)
       jekyll (>= 4.0)
@@ -14,7 +13,7 @@ GEM
     algolia_html_extractor (2.6.2)
       json (~> 2.0)
       nokogiri (~> 1.10.4)
-    algoliasearch (1.27.1)
+    algoliasearch (1.27.2)
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
     colorator (1.1.0)
@@ -30,7 +29,7 @@ GEM
     filesize (0.2.0)
     forwardable-extended (2.6.0)
     fspath (3.1.2)
-    html-proofer (3.15.1)
+    html-proofer (3.15.3)
       addressable (~> 2.3)
       mercenary (~> 0.3)
       nokogumbo (~> 2.0)
@@ -103,7 +102,7 @@ GEM
       mixlib-config (>= 2.2.1, < 4)
     mercenary (0.3.6)
     mini_portile2 (2.4.0)
-    mixlib-cli (2.1.5)
+    mixlib-cli (2.1.6)
     mixlib-config (3.0.6)
       tomlrb
     nokogiri (1.10.9)
@@ -127,7 +126,7 @@ GEM
       ffi (~> 1.9)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
-    tomlrb (1.2.9)
+    tomlrb (1.3.0)
     typhoeus (1.3.1)
       ethon (>= 0.9.0)
     unicode-display_width (1.7.0)
