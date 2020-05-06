@@ -61,5 +61,5 @@ Events | Custom Global Events<br>Custom Admin Events<br>Custom Frontend Events<b
 Cron | Cron Schedules by status code<br>Cron Schedules by job code<br>Errors in Cron Schedules Queue<br>Cron Schedules List<br>Custom Global Cron Jobs<br>Custom Configurable Cron Jobs<br>Core Global Cron Jobs<br>Core Configurable Cron Jobs<br>All Global Cron Jobs<br>All Configurable Cron Jobs
 Design | Adminhtml Themes List<br>Frontend Themes List
 Stores | Website Tree<br>Websites List<br>Stores List<br>Store Views List
-OMS Connector _(visible with OMS integration)_ | Connector Version<br>Connector monitoring<br>Message Processing Results
+OMS Connector<br>_(visible with OMS integration)_ | Connector Version<br>Connector monitoring<br>Message Processing Results
 {:style="table-layout:auto;"}
