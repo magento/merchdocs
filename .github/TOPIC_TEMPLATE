@@ -77,7 +77,7 @@ Output:
 
 ### Images {#images}
 
-Please add any images you may need to the [`src/images`](https://github.com/magento/merchdocs/tree/master/src/images) directory.
+Add any images you may need to the [`src/images`](https://github.com/magento/merchdocs/tree/master/src/images) directory.
 
 When the image is added, you can use it in your documentation:
 
