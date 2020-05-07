@@ -9,7 +9,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 ## Customer Information
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-customer-information.png %}){: .zoom}
-[_Customer Information_]({% link marketing/engagement-cloud-data-mapping.md %})
+[_Customer Information_]({% link marketing/dotdigital/data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -29,7 +29,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 ## Address
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-address.png %}){: .zoom}
-[_Address_]({% link marketing/engagement-cloud-data-mapping.md %})
+[_Address_]({% link marketing/dotdigital/data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -52,7 +52,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 ## Sales
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-sales.png %}){: .zoom}
-[_Sales_]({% link marketing/engagement-cloud-data-mapping.md %})
+[_Sales_]({% link marketing/dotdigital/data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -74,7 +74,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 ## System Values
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-system-values.png %}){: .zoom}
-[_System Values_]({% link marketing/engagement-cloud-data-mapping.md %})
+[_System Values_]({% link marketing/dotdigital/data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -104,7 +104,7 @@ Gives you the ability to create custom mappings to dotdigital, based on the foll
 <!--{% endif %}-->
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-custom-attributes.png %}){: .zoom}
-[_Custom Attributes_]({% link marketing/engagement-cloud-data-mapping.md %})
+[_Custom Attributes_]({% link marketing/dotdigital/data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -116,7 +116,7 @@ Gives you the ability to create custom mappings to dotdigital, based on the foll
 ## B2B Data
 
 ![]({% link images/images-b2b/config-engagement-data-fields-mapping-b2b-data.png %}){: .zoom}
-[_B2B Data_]({% link marketing/engagement-cloud-data-mapping.md %})
+[_B2B Data_]({% link marketing/dotdigital/data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -129,7 +129,7 @@ Gives you the ability to create custom mappings to dotdigital, based on the foll
 ## Enterprise Data
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-enterprise-data.png %}){: .zoom}
-[_Enterprise Data_]({% link marketing/engagement-cloud-data-mapping.md %})
+[_Enterprise Data_]({% link marketing/dotdigital/data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -144,7 +144,7 @@ Gives you the ability to create custom mappings to dotdigital, based on the foll
 ## Create Data Field
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-create-data-field.png %}){: .zoom}
-[_Create Data Field_]({% link marketing/engagement-cloud-data-mapping.md %})
+[_Create Data Field_]({% link marketing/dotdigital/data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
