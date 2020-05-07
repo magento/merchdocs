@@ -40,10 +40,7 @@ The store dashboard also includes store data and links to settings or more infor
 
 - **Store Listings** - Shows a graphical representation for the store sales for the last 7 or 30 days along with lifetime sales data.
 
-   This section also shows listing counts for your [active listings]({% link sales-channels/asc/active-listings.md %}), [inactive listings]({% link sales-channels/asc/inactive-listings.md %}), and in progress listings, along with links to their corresponding [_Product Listings_]({% link sales-channels/asc/managing-product-listings.md %}) page. You can also click [**Manage Listings**]({% link sales-channels/asc/managing-product-listings.md %}) to open the [_Product Listings_]({% link sales-channels/asc/managing-product-listings.md %}) page.
-
-   {:.bs-callout-info}
-   **In Progress Listings** are either your _Ready to List_ listings or your _Incomplete Listings_, depending on your [_Product Listing Actions_]({% link sales-channels/asc/product-listing-actions.md %}) settings.<br/>If **Automatic List Action** is set to:<br/>- `Do Not Automatically List Eligible Products`, the link opens your [_Ready to List_]({% link sales-channels/asc/ready-to-list.md %}) listings.<br/>- `Automatically List Eligible Products`, the link opens your [_Incomplete_]({% link sales-channels/asc/incomplete-listings.md %}) listings.
+   This section also shows listing counts for your [active listings]({% link sales-channels/asc/active-listings.md %}), [inactive listings]({% link sales-channels/asc/inactive-listings.md %}), and in progress listings, along with links to their corresponding _Product Listings_ page. You can also click **Manage Listings** to open the _Product Listings_ page. See [Manage Amazon Listings]({% link sales-channels/asc/managing-product-listings.md %}).
 
 - **Recent Orders** - Shows information for your most recent Amazon orders. The information listed is based on the information received from Amazon. This table does not update with Magento order information, even when [order import]({% link sales-channels/asc/order-settings.md %}) is enabled. To view all your Amazon orders, click **All Orders**.
 
