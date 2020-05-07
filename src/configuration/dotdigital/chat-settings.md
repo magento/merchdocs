@@ -9,10 +9,10 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 ## Chat Settings
 
 ![]({% link images/images/config-engagement-cloud-chat-settings.png %}){: .zoom}
-_[Chat Settings - Not Enabled]({% link marketing/engagement-cloud-setup.md %})_
+_[Chat Settings - Not Enabled]({% link marketing/dotdigital/setup.md %})_
 
 ![]({% link images/images/config-engagement-cloud-chat-settings-enabled.png %}){: .zoom}
-_[Chat Settings - Enabled]({% link marketing/engagement-cloud-setup.md %})_
+_[Chat Settings - Enabled]({% link marketing/dotdigital/setup.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
