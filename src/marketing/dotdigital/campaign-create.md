@@ -1,14 +1,14 @@
 ---
 title: Create a Campaign
 redirect_from:
-  - /marketing/email-marketing-campaign-create.html
+  - /marketing/engagement-cloud-campaign-create.html
 ---
 
-Engagement Cloud includes a large selection of professionally-designed email and newsletter templates for a variety of promotions and events. You can use any of the prepared templates, or design your own.
+dotdigital Engagement Cloud includes a large selection of professionally-designed email and newsletter templates for a variety of promotions and events. You can use any of the prepared templates, or design your own.
 
-As you become familiar with Engagement Cloud, take advantage of the wealth of information that is available to you at all times. Help resources include online chat, suggested articles that relate to your current activity, training videos, and the Developer hub.
+As you become familiar with dotdigital, take advantage of the wealth of information that is available to you at all times. Help resources include online chat, suggested articles that relate to your current activity, training videos, and the Developer hub.
 
-![Engagement Cloud - help resources]({% link images/images/engagement-cloud-dashboard-help.png %}){: .zoom}
+![dotdigital - help resources]({% link images/images/engagement-cloud-dashboard-help.png %}){: .zoom}
 _Help Resources_
 
 In the following example, you will rework a prepared template for the Magento Luma demo store, and become familiar with different types of content building blocks and editing techniques.
@@ -20,7 +20,7 @@ In the following example, you will rework a prepared template for the Magento Lu
    - On the **Create** page, click the **New email campaign** tile.
    - In the main menu under **Campaigns**, choose **New Campaign**.
 
-    ![Engagement Cloud - new campaign]({% link images/images/engagement-cloud-create-new-email-campaign.png %}){: .zoom}
+    ![dotdigital - new campaign]({% link images/images/engagement-cloud-create-new-email-campaign.png %}){: .zoom}
     _Create New Email Campaign_
 
 1. On the **Free Templates** tab of the Choose a Template page, scroll down to find the template you want to use. Then, do the following:
@@ -33,7 +33,7 @@ In the following example, you will rework a prepared template for the Magento Lu
 
    - When prompted, enter the **Campaign name**, and accept the default **Campaign location**. Then, click <span class="btn">Continue</span>.
 
-        ![Engagement Cloud - campaign name and location]({% link images/images/engagement-cloud-create-new-email-campaign-name.png %}){: .zoom}
+        ![dotdigital - campaign name and location]({% link images/images/engagement-cloud-create-new-email-campaign-name.png %}){: .zoom}
         _Campaign Name and Location_
 
    - For an overview of the process, click **setting up your campaign** in the message at the top of the page.
@@ -42,7 +42,7 @@ In the following example, you will rework a prepared template for the Magento Lu
 
    - Scroll down to see a **Preview** of the message. Then, click <span class="btn">Save & continue</span>.
 
-![Engagement Cloud - email campaign preview]({% link images/images/engagement-cloud-create-new-email-campaign-preview.png %}){: .zoom}
+![dotdigital - email campaign preview]({% link images/images/engagement-cloud-create-new-email-campaign-preview.png %}){: .zoom}
 _Preview_
 
 ## Step 2: Add Your Campaign Content
@@ -57,7 +57,7 @@ The following instructions walk you through each section of the template, and in
 
 The space above the header can be used to enter a brief message. You can either click the text box and enter the text that you want to appear above the header, or delete the placeholder text.
 
-![Engagement Cloud - email campaign preheader text]({% link images/images/engagement-cloud-campaign-preheader-text.png %}){: .zoom}
+![dotdigital - email campaign preheader text]({% link images/images/engagement-cloud-campaign-preheader-text.png %}){: .zoom}
 _Preheader Text_
 
 ### Upload Your Logo
@@ -68,12 +68,12 @@ _Preheader Text_
 
 1. Choose the image that you want to upload.
 
-    Similar to the Magento [Media Storage]({% link cms/media-storage.md %}), the Image Manager is used to organize images that are available in your Engagement Cloud account.
+    Similar to the Magento [Media Storage]({% link cms/media-storage.md %}), the Image Manager is used to organize images that are available in your dotdigital account.
 
     {:.bs-callout-info}
     It is recommended to limit the combined size of all images in a campaign to less than 100kb.
 
-    ![Engagement Cloud - image manager]({% link images/images/engagement-cloud-campaign-image-manager.png %}){: .zoom}
+    ![dotdigital - image manager]({% link images/images/engagement-cloud-campaign-image-manager.png %}){: .zoom}
     _Image Manager_
 
 1. To organize your images, click **New folder** in the upper-left corner. Then, enter a **name** for the untitled folder.
@@ -84,14 +84,14 @@ _Preheader Text_
 
 1. In the sidebar, click the parent folder that contains the logo that you uploaded. Then, drag the image to the new folder and click **Close** ( ![Close icon]({% link images/images/btn-engagement-cloud-close.png %})) in the upper-right corner to return to the content editor.
 
-    ![Engagement Cloud - image manager new folder]({% link images/images/engagement-cloud-campaign-image-manager-new-folder.png %}){: .zoom}
+    ![dotdigital - image manager new folder]({% link images/images/engagement-cloud-campaign-image-manager-new-folder.png %}){: .zoom}
     _New Folder_
 
     The logo that you uploaded appears in the sidebar, where it can be dragged into position.
 
 1. Drag your logo to the header to replace the placeholder image in the template.
 
-    ![Engagement Cloud - drag image to template header]({% link images/images/engagement-cloud-campaign-image-drag.png %}){: .zoom}
+    ![dotdigital - drag image to template header]({% link images/images/engagement-cloud-campaign-image-drag.png %}){: .zoom}
     _Drag Image to Template_
 
 ### Edit and Format Text
@@ -102,11 +102,11 @@ The next section of the template represents your store’s menu. However, it is 
 
    The Columns building block is located in the sidebar under Layout.
 
-    ![Engagement Cloud - template column layout]({% link images/images/engagement-cloud-campaign-template-menu-5-column-layout.png %}){: .zoom}
+    ![dotdigital - template column layout]({% link images/images/engagement-cloud-campaign-template-menu-5-column-layout.png %}){: .zoom}
 
 1. Click each cell and enter the menu options for your store. Then, use the toolbar to change the font, size, and style of the text, as needed.
 
-    ![Engagement Cloud - template font style]({% link images/images/engagement-cloud-campaign-template-menu-font-style.png %}){: .zoom}
+    ![dotdigital - template font style]({% link images/images/engagement-cloud-campaign-template-menu-font-style.png %}){: .zoom}
 
 ### Add Links
 
@@ -124,7 +124,7 @@ To link each menu option in the template to your store, do the following:
 
 1. Repeat these steps to link each menu option to your store.
 
-![Engagement Cloud - add link]({% link images/images/engagement-cloud-campaign-template-menu-link.png %}){: .zoom}
+![dotdigital - add link]({% link images/images/engagement-cloud-campaign-template-menu-link.png %}){: .zoom}
 _Add a Link_
 
 ## Change the Background Color
@@ -141,7 +141,7 @@ _Add a Link_
 
 1. Click **Save colour** to save the color in the _My colors_ section of the sidebar.
 
-![Engagement Cloud - background color]({% link images/images/engagement-cloud-campaign-template-styles-background-color.png %}){: .zoom}
+![dotdigital - background color]({% link images/images/engagement-cloud-campaign-template-styles-background-color.png %}){: .zoom}
 _Background Color_
 
 ### Replace the Banner
@@ -154,12 +154,12 @@ _Background Color_
 
 1. From the sidebar, drag the new banner to replace the placeholder image.
 
-![Engagement Cloud - banner]({% link images/images/engagement-cloud-campaign-banner.png %}){: .zoom}
+![dotdigital - banner]({% link images/images/engagement-cloud-campaign-banner.png %}){: .zoom}
 _Banner_
 
 ### Add Featured Products
 
-Engagement Cloud gives you the ability to dynamically incorporate data from your store into a template. However, for this simple example, product data is added as static images with links to your store. Although this template includes two rows of products, only one row is included to reduce the number of images. The _Shop Now_ block was also removed from the template, because it did not introduce any new editing techniques.
+dotdigital Engagement Cloud gives you the ability to dynamically incorporate data from your store into a template. However, for this simple example, product data is added as static images with links to your store. Although this template includes two rows of products, only one row is included to reduce the number of images. The _Shop Now_ block was also removed from the template, because it did not introduce any new editing techniques.
 
 1. Upload the image for each featured product.
 
@@ -173,7 +173,7 @@ Engagement Cloud gives you the ability to dynamically incorporate data from your
 
 1. Repeat these steps for each product button.
 
-![Engagement Cloud - button settings]({% link images/images/engagement-cloud-campaign-button.png %}){: .zoom}
+![dotdigital - button settings]({% link images/images/engagement-cloud-campaign-button.png %}){: .zoom}
 _Button Settings_
 
 ### Delete Blocks
@@ -184,7 +184,7 @@ To simplify this example, only one product block is needed from the template. Yo
 
 1. Hover over the outer container. Then in the upper-right corner, click **Delete** ( ![Delete icon]({% link images/images/icon-delete-red-engagement-cloud.png %})).
 
-    ![Engagement Cloud - delete block]({% link images/images/engagement-cloud-campaign-block-delete.png %}){: .zoom}
+    ![dotdigital - delete block]({% link images/images/engagement-cloud-campaign-block-delete.png %}){: .zoom}
     _Delete Block_
 
 1. Delete the second product block, so only the one that you updated remains.
@@ -193,14 +193,14 @@ To simplify this example, only one product block is needed from the template. Yo
 
 1. Scroll down to the _Sharing_ block with the social media placeholders.
 
-    ![Engagement Cloud - social media building block]({% link images/images/engagement-cloud-campaign-sharing-block.png %}){: .zoom}
+    ![dotdigital - social media building block]({% link images/images/engagement-cloud-campaign-sharing-block.png %}){: .zoom}
     _Social Media Building Block_
 
 1. In the building blocks sidebar under **Tools**, drag the **Social links** building block into position below the _Sharing_ block with the placeholders.
 
     An empty social links block appears below the placeholder.
 
-    ![Engagement Cloud - empty social block]({% link images/images/engagement-cloud-campaign-social-links-drag.png %}){: .zoom}
+    ![dotdigital - empty social block]({% link images/images/engagement-cloud-campaign-social-links-drag.png %}){: .zoom}
     _Drag Social Media Building Block_
 
 1. Click the empty building block to open the Social links settings.
@@ -211,7 +211,7 @@ To simplify this example, only one product block is needed from the template. Yo
 
 1. When complete, click <span class="btn">Apply</span>.
 
-    ![Engagement Cloud - social links]({% link images/images/engagement-cloud-campaign-social-links-settings.png %}){: .zoom}
+    ![dotdigital - social links]({% link images/images/engagement-cloud-campaign-social-links-settings.png %}){: .zoom}
     _Social Links_
 
 1. To adjust the format and spacing of the buttons, click anywhere in the social links building block.
@@ -224,7 +224,7 @@ To simplify this example, only one product block is needed from the template. Yo
 
 1. To delete the placeholder social media links, click **Close** ( ![Close icon]({% link images/images/icon-close-green-engagement-cloud.png %})) in the upper-right corner.
 
-![Engagement Cloud - format social media links]({% link images/images/engagement-cloud-campaign-social-links-formats.png %}){: .zoom}
+![dotdigital - format social media links]({% link images/images/engagement-cloud-campaign-social-links-formats.png %}){: .zoom}
 _Formatting the Social Media Links_
 
 ### Complete the Footer
@@ -233,21 +233,21 @@ The information at the bottom of the template is important, and in many countrie
 
 1. Do not change the **Unsubscribe** and **Forward this email** links, because they contain code that manages each operation. However, you can format the text any way you like.
 
-    ![Engagement Cloud - unsubscribe/forward this email]({% link images/images/engagement-cloud-campaign-footer.png %}){: .zoom}
+    ![dotdigital - unsubscribe/forward this email]({% link images/images/engagement-cloud-campaign-footer.png %}){: .zoom}
     _Unsubscribe / Forward This Email_
 
 1. Click the **Footer info** text block and enter your company information, including your registration number, if applicable.
 
    This lets the recipients know who has sent the email.
 
-    ![Engagement Cloud - footer info]({% link images/images/engagement-cloud-campaign-footer-info.png %}){: .zoom}
+    ![dotdigital - footer info]({% link images/images/engagement-cloud-campaign-footer-info.png %}){: .zoom}
     _Footer Info_
 
 1. Click the **Company registered address** text block, and complete the information.
 
    In this example, we added a link to the Contact Us page on our site.
 
-    ![Engagement Cloud - company registered address]({% link images/images/engagement-cloud-campaign-footer-commpany-registered-address.png %}){: .zoom}
+    ![dotdigital - company registered address]({% link images/images/engagement-cloud-campaign-footer-commpany-registered-address.png %}){: .zoom}
     _Company Registered Address_
 
 1. When complete, click <span class="btn">Save</span>.
@@ -258,7 +258,7 @@ The information at the bottom of the template is important, and in many countrie
 
 1. To test your campaign, click <span class="btn">Test send</span> in the template header.
 
-    ![Engagement Cloud - test send]({% link images/images/engagement-cloud-campaign-test-send.png %}){: .zoom}
+    ![dotdigital - test send]({% link images/images/engagement-cloud-campaign-test-send.png %}){: .zoom}
     _Test Send_
 
 1. Select the type of output you want to send from the following:
@@ -267,7 +267,7 @@ The information at the bottom of the template is important, and in many countrie
    - `HTML only`
    - `Plain text only`
 
-    ![Engagement Cloud - test send options]({% link images/images/engagement-cloud-campaign-test-send-options.png %}){: .zoom}
+    ![dotdigital - test send options]({% link images/images/engagement-cloud-campaign-test-send-options.png %}){: .zoom}
     _Test Send Options_
 
 1. To send the test to the address that is associated with your account, click <span class="btn">Select Test Address</span>.  
@@ -280,7 +280,7 @@ The information at the bottom of the template is important, and in many countrie
 
    - Click <span class="btn">Create</span>.
 
-        ![Engagement Cloud - Test send new address]({% link images/images/engagement-cloud-campaign-test-send-new-address.png %}){: .zoom}
+        ![dotdigital - Test send new address]({% link images/images/engagement-cloud-campaign-test-send-new-address.png %}){: .zoom}
         _Test Send New Address_
 
    - Repeat these steps to add as many recipients as you want.
@@ -295,14 +295,14 @@ The Summary Report validates the campaign, lists any errors that are found, and 
 
 1. On the **Campaigns** menu, choose **My Campaigns**.
 
-    ![Engagement Cloud - my campaigns]({% link images/images/engagement-cloud-campaigns-my-campaigns.png %}){: .zoom}
+    ![dotdigital - my campaigns]({% link images/images/engagement-cloud-campaigns-my-campaigns.png %}){: .zoom}
     _My Campaigns_
 
 1. In the record for your test campaign, click **Summary** ( ![Summary icon]({% link images/images/engagement-cloud-btn-summary.png %})) to view the summary report.
 
     Look for the red text in the report. They are tips and recommendations for things you can do to improve your campaign.
 
-    ![Engagement Cloud - campaign summary report]({% link images/images/engagement-cloud-campaign-report.png %}){: .zoom}
+    ![dotdigital - campaign summary report]({% link images/images/engagement-cloud-campaign-report.png %}){: .zoom}
     _Campaign Summary Report_
 
 ## Step 5: Add a Personal Note
@@ -311,7 +311,7 @@ In this step, we’ll add a personal note with a link, and then do another test 
 
 1. On the **Build** tab of the sidebar under **Building blocks**, drag a **Text** block to the top of the template.
 
-    ![Engagement Cloud - personal note]({% link images/images/engagement-cloud-campaigns-personal-note.png %}){: .zoom}
+    ![dotdigital - personal note]({% link images/images/engagement-cloud-campaigns-personal-note.png %}){: .zoom}
     _Text Block for Personal Note_
 
    - Enter the word `Hi` to begin the greeting, followed by a blank space.
@@ -320,26 +320,26 @@ In this step, we’ll add a personal note with a link, and then do another test 
 
    - In the list of data fields, choose <span class="btn">First name</span>.
 
-        ![Engagement Cloud - campaign data fields]({% link images/images/engagement-cloud-campaign-data-fields.png %}){: .zoom}
+        ![dotdigital - campaign data fields]({% link images/images/engagement-cloud-campaign-data-fields.png %}){: .zoom}
         _Data Fields_
 
    - Write a note to accompany the campaign.
 
 1. When complete, <span class="btn">Save</span> your work.
 
-![Engagement Cloud - personalized greeting]({% link images/images/engagement-cloud-campaign-personal-note.png %}){: .zoom}
+![dotdigital - personalized greeting]({% link images/images/engagement-cloud-campaign-personal-note.png %}){: .zoom}
 _Personalized Greeting_
 
 ## Step 6: Preview the Campaign
 
 1. In the button bar at the top of the workspace, click **Preview**.
 
-    ![Engagement Cloud - desktop preview]({% link images/images/engagement-cloud-campaign-preview-desktop.png %}){: .zoom}
+    ![dotdigital - desktop preview]({% link images/images/engagement-cloud-campaign-preview-desktop.png %}){: .zoom}
     _Desktop Preview_
 
 1. In the upper-right corner of the preview window, click **Phone** ( ![Phone icon]({% link images/images/engagement-cloud-btn-phone.png %})) and choose **Portrait** to see how the message looks on a mobile device.
 
-    ![Engagement Cloud - phone preview]({% link images/images/engagement-cloud-campaign-preview-phone.png %}){: .zoom}
+    ![dotdigital - phone preview]({% link images/images/engagement-cloud-campaign-preview-phone.png %}){: .zoom}
     _Phone Preview_
 
 1. In the lower-left corner of the preview window, click **Close**.

@@ -1,8 +1,10 @@
 ---
 title: API Users
+redirect_from:
+  - /marketing/engagement-cloud-account-api-users.html
 ---
 
-The API allows developers to establish integration with other systems, and automate tasks. The Engagement Cloud API version 2.0 web service supports both REST and SOAP.
+The API allows developers to establish integration with other systems, and automate tasks. The dotdigital API version 2.0 web service supports both REST and SOAP.
 
 As a best practice, it is recommended that you create one API user per supported system. For example, having only one API user for your Magento integration makes it easier to isolate and diagnose problems, and change privileges.
 
@@ -14,7 +16,7 @@ Only the account owner or another user with the “Can manage account” permiss
 
 1. On the Access page, choose the **API users** tab.
 
-    ![Engagement Cloud - API users]({% link images/images/engagement-cloud-access-api-users.png %}){: .zoom}
+    ![dotdigital - API users]({% link images/images/engagement-cloud-access-api-users.png %}){: .zoom}
     _API Users_
 
 1. Click <span class="btn">New user</span>. Then, do the following:
@@ -31,12 +33,12 @@ Only the account owner or another user with the “Can manage account” permiss
 
 1. When complete, click <span class="btn">Save</span>.
 
-    ![Engagement Cloud - manage users]({% link images/images/engagement-cloud-access-api-users-add.png %}){: .zoom}
+    ![dotdigital - manage users]({% link images/images/engagement-cloud-access-api-users-add.png %}){: .zoom}
     _Manage Users_
 
 The new API user is added to the Access list.
 
-![Engagement Cloud - API users list]({% link images/images/engagement-cloud-access-api-users-list.png %}){: .zoom}
+![dotdigital - API users list]({% link images/images/engagement-cloud-access-api-users-list.png %}){: .zoom}
 _API Users List_
 
 [1]: https://developer.dotdigital.com/docs/getting-started-with-the-api
