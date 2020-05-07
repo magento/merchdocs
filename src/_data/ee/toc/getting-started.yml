@@ -356,7 +356,7 @@ pages:
     - label: Configuration
       url: "/configuration/dotdigital/configuration.html"
     - label: Developer
-      url: "/configuration/dotdigitald/developer.html"
+      url: "/configuration/dotdigital/developer.html"
   - label: Services
     url: "/configuration/services.html"
     children:
