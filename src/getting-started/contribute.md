@@ -48,7 +48,7 @@ When you see a problem with one of our pages, please let us know. This could be 
 
 All of our content resides on GitHub, a well-known source control platform. Anyone can [create a free GitHub account][2] and make content changes and additions through the GitHub web UI. If you are a developer or know your way around git source control and local build environments, you can choose to [work with our source files that way][3].
 
-For content contributions to be accepted and published, whether large or small, you must sign the [Adobe Contributor License Agreement (CLA)][4]. This is then associated with your GitHub account and you do not need to do it again.
+For content contributions to be accepted and published, whether large or small, you must sign the [Adobe Contributor License Agreement (CLA)][4]. This is then associated with your GitHub account, and you do not need to do it again.
 
 ### Provide a quick edit
 
