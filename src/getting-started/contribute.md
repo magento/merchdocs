@@ -38,7 +38,7 @@ When you see a problem with one of our pages, please let us know. This could be 
    This loads a _create issue_ page for our GitHub repository. The URL of the page automatically populates in the summary field.
 
    {:.bs-callout-info}
-   You will need to log in to your GitHub account, or [create a new account][2], to log an issue.
+   To log an issue, you will need to [create a new account][2] or log in to your existing GitHub account.  
 
 1. Enter a summary (or leave the default), write a short description of the issue, and then click **Submit new issue**.
 
