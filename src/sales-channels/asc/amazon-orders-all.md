@@ -55,11 +55,26 @@ _Amazon orders_
 
 1. Click **All Orders** in the _Recent Orders_ section.
 
-1. To narrow the list or search for a specific order number, complete the **Filter by** parameters and click **Apply Filters**.
+1. To narrow the list or search for a specific order number, complete the **Filter by** parameters and click **Apply filters**.
 
 1. To view order details, click the Amazon order number in the _Order Number_ column.
 
-   Depending on your [order import setting]({% link sales-channels/asc/order-settings.md %}), the order details will open in Amazon or in the [Magento orders workflow]({% link sales/orders.md %}).-[-[]]
+   Depending on your [order import setting]({% link sales-channels/asc/order-settings.md %}), the order details will open in Amazon or in the [Magento orders workflow]({% link sales/orders.md %}).
+
+## Using filters
+
+You can apply filters to your order list in the _Filter by_ section. Make your selections and click **Apply filters**. Your applied filters appear above the orders grid.
+
+![]({% link sales-channels/asc/assets/amazon-orders-filter-view.png %}){: .zoom}
+_Filters_
+
+### Changing applied filters
+
+- You can add to or change your filters in the _Filter by_ section. Click **Apply filters** to update the order list and the filter options that appear above the orders grid.
+
+- You can remove filters, either one at a time by clicking the `x` for the filter or all at once by clicking **Clear all filters**. Removing a filter updates the order list and the filter options that appear above the orders grid.
+
+- If your order list is long, you can use the pagination controls below the grid to view more orders.
 
 <div class="bs-callout-tip" markdown="1">
 A few notes about the orders view:
