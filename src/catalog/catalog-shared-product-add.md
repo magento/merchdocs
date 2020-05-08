@@ -22,17 +22,17 @@ The following requirements must be met for a complex product (such as bundle, gr
 
 1. Scroll down, expand ![]({% link images/images/btn-expand.png %}) the _Product in Shared Catalogs_ section, and do the following:
 
-    - Select the checkbox of each shared catalog where the product should appear. To choose all catalogs, click **Select all**.
+   - Select the checkbox of each shared catalog where the product should appear. To choose all catalogs, click **Select all**.
 
-        ![]({% link images/images-b2b/product-product-in-shared-catalogs.png %}){: .zoom}
-        _Product in Shared Catalogs_
+      ![]({% link images/images-b2b/product-product-in-shared-catalogs.png %}){: .zoom}
+      _Product in Shared Catalogs_
 
-        The name of each selected catalog appears in the _Shared Catalogs_ field.
+      The name of each selected catalog appears in the _Shared Catalogs_ field.
 
-        ![]({% link images/images-b2b/products-product-in-shared-catalog-field.png %}){: .zoom}
-        _Shared Catalog Field_
+      ![]({% link images/images-b2b/products-product-in-shared-catalog-field.png %}){: .zoom}
+      _Shared Catalog Field_
 
-    - Click <span class="btn">Done</span> to save the settings.
+   - Click <span class="btn">Done</span> to save the settings.
 
 1. When complete, click <span class="btn">Save</span>.
 
@@ -44,9 +44,9 @@ The following requirements must be met for a complex product (such as bundle, gr
 
 1. In the category tree, do any of the following:
 
-    - To include all products, click **Select all** or select the checkbox of the parent category.
-    - To include specific categories of products, select the checkbox of each category that you want to include.
-    - To include or exclude an individual product, select or deselect the checkbox of product.
+   - To include all products, click **Select all** or select the checkbox of the parent category.
+   - To include specific categories of products, select the checkbox of each category that you want to include.
+   - To include or exclude an individual product, select or deselect the checkbox of product.
 
     The notation below each category in the tree shows the number of products from the category that are currently included in the shared catalog. The notation below the [root category]({% link catalog/category-root.md %}) shows the total number of products from all categories that are currently selected for the shared catalog.
 
@@ -54,6 +54,6 @@ The following requirements must be met for a complex product (such as bundle, gr
 
    When a category is selected, the following occurs:
 
-    - The toggle in the first column of the grid is set to `On` for each selected product.
-    - If a product is assigned to multiple categories and is omitted in one of them, it continues to be available through the other categories and through [catalog search]({% link catalog/search.md %}).
-    - The system automatically sets [Category Permissions]({% link catalog/category-permissions.md %}) to `Allow` for the selected products.
+   - The toggle in the first column of the grid is set to `On` for each selected product.
+   - If a product is assigned to multiple categories and is omitted in one of them, it continues to be available through the other categories and through [catalog search]({% link catalog/search.md %}).
+   - The system automatically sets [Category Permissions]({% link catalog/category-permissions.md %}) to `Allow` for the selected products.

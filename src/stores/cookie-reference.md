@@ -165,8 +165,8 @@ A security measure that appends a random string to all form submissions to prote
 - Is Secure? No
 - HTTP Only: No
 - Expiration Policy:
-  - PHP: Based on PHP setting session.cookie_lifetime
-  - JS: Session
+   - PHP: Based on PHP setting session.cookie_lifetime
+   - JS: Session
 - Module: Page Cache
 
 #### `mage-cache-sessid`
@@ -224,9 +224,9 @@ For the HTTP Only Yes (based on request) means that the cookie Secure if set du
 
 - Is Secure? Yes (based on request), No
 - HTTP Only:
-  - PHP: 1 year / 315360000s (10yr)
-  - JS: 1 day
-  - JS local storage: Per local storage rules (forever)
+   - PHP: 1 year / 315360000s (10yr)
+   - JS: 1 day
+   - JS local storage: Per local storage rules (forever)
 - Expiration Policy: Based on [Persistent Shopping Cart]({% link sales/cart-persistent-configuration.md %}) - Persistence Lifetime (seconds) configuration
 - Module: `Magento_PageCache`, `Magento_Customer`
 

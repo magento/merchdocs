@@ -14,7 +14,7 @@ _Customer Attributes_
 
 1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Customer**.
 
-1. In the upper-right corner, click **Add New Customer**.
+1. In the upper-right corner, click **Add New Attribute**.
 
     ![Customer attribute properties]({% link images/images-ee/attribute-customer-new.png %}){: .zoom}
     _Customer Attribute Properties_

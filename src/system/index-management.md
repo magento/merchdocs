@@ -43,8 +43,8 @@ Reindexing and caching have different purposes Magento. Indexes track database i
 
 1. Set **Actions** to one of the following:
 
-    - `Update on Save`
-    - `Update by Schedule`
+   - `Update on Save`
+   - `Update by Schedule`
 
     {:.bs-callout-info}
     **Important:** Customer Grid can only be reindexed using `Update on Save`. This index does **not** support `Update by Schedule`.

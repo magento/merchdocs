@@ -23,8 +23,8 @@ Payment on Account is an offline payment method that allows companies to make pu
 
    - By default **New Order Status** is set to "Pending” until receipt of payment is confirmed. To change the default status, clear the **Use system value** checkbox. Then, choose one of the following settings:
 
-     - Processing
-     - Suspected Fraud
+      - Processing
+      - Suspected Fraud
 
    - Set **Payment from Applicable Countries** to one of the following:
 

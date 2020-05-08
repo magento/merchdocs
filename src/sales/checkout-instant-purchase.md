@@ -56,13 +56,13 @@ The following example shows how to configure the Braintree vault.
     ![]({% link images/images/config-sales-payment-methods-braintree.png %}){: .zoom}
     [_Configure Braintree_]({% link payment/braintree.md %})
 
-    - In the **Basic Braintree Settings** section, enter the following information from your Braintree seller account: _Merchant ID_, _Public Key_, and _Private Key_
+   - In the **Basic Braintree Settings** section, enter the following information from your Braintree seller account: _Merchant ID_, _Public Key_, and _Private Key_
 
-    - Set **Enable this Solution** to `Yes`.
+   - Set **Enable this Solution** to `Yes`.
 
-    - If applicable set **Enable PayPal through Braintree** to `Yes`.
+   - If applicable set **Enable PayPal through Braintree** to `Yes`.
 
-    - Set **Vault Enabled** to `Yes`.
+   - Set **Vault Enabled** to `Yes`.
 
        ![]({% link images/images/config-sales-payment-methods-braintree-basic-settings.png %}){: .zoom}
        [_Basic Braintree Settings_]({% link payment/braintree.md %})
@@ -73,11 +73,11 @@ The following example shows how to configure the Braintree vault.
 
 1. Configure the instant purchase settings:
 
-    - Expand the **Instant Purchase** section.
+   - Expand the **Instant Purchase** section.
 
-    - Set **Enabled** to `Yes`.
+   - Set **Enabled** to `Yes`.
 
-    - Enter the **Button Text** that you want to appear on the button.
+   - Enter the **Button Text** that you want to appear on the button.
 
       The button text can be changed for each store view, or language. By default, the button text is `Instant Purchase`.
 
@@ -88,6 +88,6 @@ The following example shows how to configure the Braintree vault.
 
 1. Clear the cache:
 
-    - In the message at the top of the page, click **Cache Management**.
+   - In the message at the top of the page, click **Cache Management**.
 
-    - In the upper right corner, click **Flush Magento Cache**.
+   - In the upper right corner, click **Flush Magento Cache**.

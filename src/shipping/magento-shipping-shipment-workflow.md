@@ -2,6 +2,8 @@
 title: Shipment Workflow
 ---
 
+{% include shipping-status-note.md %}
+
 The value of the Status column in the Shipments grid reflects the state of the shipment as it moves through the workflow. If the Status column isn’t currently visible in the Shipments grid, you can change the [grid layout]({% link stores/admin-grid-layout.md %}) to include the column. Then, use the [grid controls]({% link stores/admin-grid-controls.md %}) to filter the shipments by status.
 
 | | | |
@@ -9,15 +11,15 @@ The value of the Status column in the Shipments grid reflects the state of the s
 |![]({% link images/images/icon-ms-shipment-dispatched.png %})|**Shipment is dispatched.**|An attempt to <a href="{% link sales/dispatches.md %}">dispatch</a> is in progress (Status: Completing) The dispatch is complete. (Status: Completed)|
 |![]({% link images/images/icon-x.png %})|**Shipment canceled.**|The shipment is canceled. (Status: Canceled)|
 
-## To show the Shipment Status column
+## Show the Shipment Status column
 
-1.  On the _Admin_ menu, choose **Sales**.
+1. On the _Admin_ menu, choose **Sales**.
 
-2.  Choose **Shipments**.
+1. Choose **Shipments**.
 
-3.  In the upper-right corner, click the **Columns** ![]({% link images/images/btn-columns.png %}) control.
+1. In the upper-right corner, click the **Columns** ![]({% link images/images/btn-columns.png %}) control.
 
-4.  Mark the **Shipment Status** checkbox.
+1. Select the **Shipment Status** checkbox.
 
 ![]({% link images/images/shipments-grid-show-shipment-status-column.png %}){: .zoom}
 _Show Shipment Status_

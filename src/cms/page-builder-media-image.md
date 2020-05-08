@@ -89,12 +89,12 @@ _Image In Column_
       ![]({% link images/images-ee/page-builder-media-image-settings-image-link-product-select.png %}){: .zoom}
       _Link to Product_
 
-     - Begin typing the product name or SKU.
-     - Choose the product from the search results list.
-     - Click the **down arrow**, and choose the product from the list.
+      - Begin typing the product name or SKU.
+      - Choose the product from the search results list.
+      - Click the **down arrow**, and choose the product from the list.
 
-      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-product-results.png %}){: .zoom}
-      _Choose Product_
+       ![]({% link images/images-ee/page-builder-media-image-settings-image-link-product-results.png %}){: .zoom}
+       _Choose Product_
 
    - **Category** - Set **Link** to `Category` and select the category.
 
@@ -105,12 +105,12 @@ _Image In Column_
 
    - **Page** - Set **Link** to `Page` and do one of the following:
 
-     - Begin typing the page name. Then, click the name of the page in the list.
+      - Begin typing the page name. Then, click the name of the page in the list.
 
-     - Click the **down arrow** and choose the page from the list.
+      - Click the **down arrow** and choose the page from the list.
 
-      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-page-results.png %}){: .zoom}
-      _Link to Page_
+       ![]({% link images/images-ee/page-builder-media-image-settings-image-link-page-results.png %}){: .zoom}
+       _Link to Page_
 
     If you want to prevent the visitor from navigating away from your store, select the **Open in new tab** checkbox.
 

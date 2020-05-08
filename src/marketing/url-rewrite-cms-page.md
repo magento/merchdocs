@@ -24,11 +24,11 @@ If you are not sure, open each page in your store, and copy the path from the ad
 
 1. Before you proceed, do the following to verify that the request path is available.
 
-    - In the search filter at the top of the **Request Path** column, enter the URL key of the page that is to be redirected and click <span class="btn">Search</span>.
+   - In the search filter at the top of the **Request Path** column, enter the URL key of the page that is to be redirected and click <span class="btn">Search</span>.
 
-    - If there are multiple redirect records for the page, find the one that matches the applicable store view and open it in edit mode.
+   - If there are multiple redirect records for the page, find the one that matches the applicable store view and open it in edit mode.
 
-    - In the upper-right corner, click <span class="btn">Delete</span>. When prompted, click <span class="btn">OK</span> to confirm.
+   - In the upper-right corner, click <span class="btn">Delete</span>. When prompted, click <span class="btn">OK</span> to confirm.
 
 1. When you return to the URL Rewrites page, click <span class="btn">Add URL Rewrite</span>.
 
@@ -41,27 +41,27 @@ If you are not sure, open each page in your store, and copy the path from the ad
 
 1. Under URL Rewrite Information, do the following:
 
-    - If you have multiple store views, select the **Store** where the rewrite applies.
+   - If you have multiple store views, select the **Store** where the rewrite applies.
 
-    - In the **Request Path** field, enter the URL key of the original page that the customer requests. This is the _redirect from_ page.
+   - In the **Request Path** field, enter the URL key of the original page that the customer requests. This is the _redirect from_ page.
 
         {:.bs-callout-info}
         The Request Path must be unique for the specified store. If there is already a redirect that uses the same Request Path, you will receive an error when you try to save the redirect. The previous redirect must be deleted before you can create a new one.
 
-    - Set **Redirect** to one of the following:
+   - Set **Redirect** to one of the following:
 
-        - `Temporary (302)`
-        - `Permanent (301)`
+      - `Temporary (302)`
+      - `Permanent (301)`
 
-    - For your reference, enter a brief description of the rewrite.
+   - For your reference, enter a brief description of the rewrite.
 
     ![URL rewrite information]({% link images/images/url-rewrite-cms-page-information.png %}){: .zoom}
     _Custom URL Rewrite_
 
 1. Before saving the redirect, review the following:
 
-    - The link in the upper-left corner displays the name of the target page.
-    - The Request Path contains the path for the original _redirect from_ page.
+   - The link in the upper-left corner displays the name of the target page.
+   - The Request Path contains the path for the original _redirect from_ page.
 
 1. When complete, click <span class="btn">Save</span>.
 
@@ -76,8 +76,8 @@ If you are not sure, open each page in your store, and copy the path from the ad
 
 1. Do one of the following:
 
-    - Navigate to the original "redirect from" page.
-    - In the address bar of the browser, enter the name of the original "redirect from" page immediately after the store URL. Then, press **Enter**.
+   - Navigate to the original "redirect from" page.
+   - In the address bar of the browser, enter the name of the original "redirect from" page immediately after the store URL. Then, press **Enter**.
 
     The new target page appears instead of the original page request.
 

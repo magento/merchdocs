@@ -24,13 +24,13 @@ Gift wrapping and printed gift card prices can be configured to include or exclu
     ![]({% link images/images/config-sales-tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
     _Orders, Invoices, Credit Memos Display Settings_
 
-    - Set **Display Gift Wrapping Prices** to one of the following:
+   - Set **Display Gift Wrapping Prices** to one of the following:
 
       - Excluding Tax
       - Including Tax
       - Including and Excluding Tax
 
-    - Set **Display Printed Gift Card Prices** to one of the following:
+   - Set **Display Printed Gift Card Prices** to one of the following:
 
       - Excluding Tax
       - Including Tax

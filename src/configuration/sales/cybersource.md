@@ -6,8 +6,10 @@ title: CyberSource (Deprecated)
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > CyberSource (Deprecated)
 
 {:.bs-callout-warning}
-**Payment Services Directive Requirements:** <br/>
-As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, install and configure the official CyberSource payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=cybersource#q=cybersource&idx=m2_cloud_prod_default_products&p=0&nR%5Bvisibility_search%5D%5B%3D%5D%5B0%5D=1){:target="_blank"}. 3D Secure 2.0 verification is available through [CardinalCommerce](https://www.cardinalcommerce.com/products/psd2).
+**Deprecation Notice** <br/>
+Due to the Payment Service Directive [PSD2]({% link stores/compliance-payment-services-directive.md %}) and the continued evolution of many APIs, this payment integration is at risk of becoming outdated and no longer security compliant in the future. For this reason, it is now deprecated, and we recommend that you disable it in your Magento configuration and transition to the corresponding [Magento Marketplace extension](https://marketplace.magento.com/catalogsearch/result/?q=cybersource#q=cybersource&idx=m2_cloud_prod_default_products&p=0&nR%5Bvisibility_search%5D%5B%3D%5D%5B0%5D=1){:target="_blank"}.<br/><br/>
+**This integration will be removed from the Magento 2.4.0 release and has been deprecated from current versions of 2.3.**<br/><br/>
+For details about making a secure transition from deprecated payment integrations, see our [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
 ![]({% link images/images-ee/config-sales-payment-methods-cybersource.png %}){: .zoom}
 [_CyberSource_]({% link payment/cybersource.md %})

@@ -47,9 +47,9 @@ _Slider in Storefront_
     ![]({% link images/images-ee/page-builder-media-slider-name-buy3-get1free.png %}){: .zoom}
     _Slide Name In Navigation_
 
-1. Enter the **Minimum Height** of the slide in pixels.
+1. Enter the **Minimum Height** for the slide. The minimum height can be a number with any valid CSS unit (such as 100px, 50%, 50em, 100vh) or a calculation (such as 100vh - 237px).
 
-    The minimum height of the slide in this example is the default 300 pixels.
+   For example, you can set the minimum height of a slide to stretch the full-height of the page, giving you compelling options for full-page background images and videos.
 
 ### Background color
 
@@ -87,7 +87,14 @@ _Background Color_
     ![]({% link images/images-ee/page-builder-settings-background-color.png %}){: .zoom}
     _Set Opacity_
 
-### Background image
+### Background Type
+
+The background type can be an image or a video. Page Builder defaults to `Image` and shows various image settings. If you select `Video`, Page Builder swaps the image settings with video settings. Both background types are described as follows.
+
+![]({% link images/images-ee/page-builder-background-type.png %}){: .zoom}
+_Background Type_
+
+### Background Image
 
 1. To add a standard **Background Image** for desktop devices, do one of the following:
 
@@ -125,7 +132,28 @@ _Background Color_
 
     If you want to repeat the background image, set **Background Repeat** to `Yes`.
 
-### Slider content
+### Background Video
+
+1. For the **Background Type**, select **Video**.
+
+1. In the **Video URL** field, enter a valid video URL. A valid video URL can be a link to a:
+
+   - YouTube video: `https://youtu.be/CoDhMRUUjeI`
+   - Vimeo video: `https://vimeo.com/190156113`
+   - Video file (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`
+
+   ![]({% link images/images-ee/page-builder-video-url.png %}){: .zoom}
+   _Background Video URL_
+
+1. Apply additional settings as follows:
+
+   - Select an **Overlay Color** to apply a transparent tint to the video.
+
+   - Change **Infinite Loop**, **Lazy Load**, and **Play Only When Visible** settings as needed. By default, all these settings are set to **Yes**.
+
+   - Add a **Fallback Image** to display on the screen before a video loads and in the event that the video does not load for some reason.
+
+### Slide Content
 
 1. In the **Content** section, enter the **Message Text** that you want to appear with the slide.
 
@@ -166,12 +194,12 @@ _Appearance with Text and Button (or Link)_
 
    - **Product** - Set **Link** to `Product` and do one of the following:
 
-     - Begin typing the **product name** or **SKU**.
-     - Choose the product from the search results list.
-     - Click the **down arrow**, and choose the product from the list.
+      - Begin typing the **product name** or **SKU**.
+      - Choose the product from the search results list.
+      - Click the **down arrow**, and choose the product from the list.
 
-      ![]({% link images/images-ee/page-builder-media-banner-settings-link-product.png %}){: .zoom}
-      _Link to Product_
+       ![]({% link images/images-ee/page-builder-media-banner-settings-link-product.png %}){: .zoom}
+       _Link to Product_
 
    - **Category** - Set **Link** to `Category` and select the category.
 
@@ -182,11 +210,11 @@ _Appearance with Text and Button (or Link)_
 
    - **Page** - Set **Link** to `Page` and do one of the following:
 
-     - Begin typing the page name. Then in the list, click the name of the page.
-     - Click the **down arrow**, and choose the page from the list.
+      - Begin typing the page name. Then in the list, click the name of the page.
+      - Click the **down arrow**, and choose the page from the list.
 
-      ![]({% link images/images-ee/page-builder-media-banner-settings-link-page.png %}){: .zoom}
-      _Link to Page_
+       ![]({% link images/images-ee/page-builder-media-banner-settings-link-page.png %}){: .zoom}
+       _Link to Page_
 
       If the link points to a URL that is outside of your store, and you want to prevent the visitor from navigating away from your store, select the **Open in new tab** checkbox.
 
@@ -212,14 +240,14 @@ _Appearance with Text and Button (or Link)_
 
    - Set **Show Overlay** to one of the following:
 
-     - `Always`
-     - `On Hover`
-     - `Never Show`
+      - `Always`
+      - `On Hover`
+      - `Never Show`
 
    - In the **Overlay Color** field, do one of the following:
 
-     - Click the **No Color** swatch, and choose a swatch.
-     - In the **No Color** field, either enter a valid color name or hexadecimal value.
+      - Click the **No Color** swatch, and choose a swatch.
+      - In the **No Color** field, either enter a valid color name or hexadecimal value.
 
    - Then, click <span class="btn">Apply</span>.
 
@@ -335,16 +363,18 @@ If you want a title above the slider, simply add a Text content type above the s
 
    - To choose the type of navigation controls for the slider, do the following:
 
-     - To include _Next_ and _Previous_ arrows on the left and right side of each slide, set **Show Arrows** to `Yes`.
+      - To include _Next_ and _Previous_ arrows on the left and right side of each slide, set **Show Arrows** to `Yes`.
 
-     - To include a set of navigation dots below the slider, set **Show Dots** to `Yes`.
+      - To include a set of navigation dots below the slider, set **Show Dots** to `Yes`.
 
         ![]({% link images/images-ee/page-builder-media-slider-settings-show-arrows-dots.png %}){: .zoom}
         _Show Arrows and Dots_
 
-   - Enter the **Minimum Height** of the slider in pixels.
+   - Enter the **Minimum Height** for the slide. The minimum height can be a number with any valid CSS unit (such as 100px, 50%, 50em, 100vh) or a calculation (such as 100vh - 237px).
 
-      ![]({% link images/images-ee/page-builder-media-slider-settings-minimum-height.png %}){: .zoom}
+      For example, you can set the minimum height of a slider to stretch the full-height of the page, giving you compelling options for full-page background images and videos.
+
+      ![]({% link images/images-ee/page-builder-media-slider-settings-minimum-height.png %}){: width="400px"}{: .zoom}
       _Minimum Height_
 
 1. Complete the remaining slider settings as needed, using the [descriptions](#slider-settings) at the bottom of this page for reference.
@@ -391,18 +421,38 @@ If you want a title above the slider, simply add a Text content type above the s
 |--- |--- |
 |Appearance|Determines the slider layout. Options: <br/>**Poster** - Centers content and button on the slide. The overlay, if used, extends the full width of the slide. <br/>**Collage Left** - Places content and button in a defined area on the left side of the slide. The overlay, if used, covers only the defined area. <br/>**Collage Center** - Places content and button in a defined area that is centered on the slide. The overlay, if used, covers only the defined area. <br/>**Collage Right** - Places content and button in a defined area on the right side of the slide. The overlay, if used, covers only the defined area.|
 |Slide Name|Specifies a name for the slide.|
-|Minimum Height|Specifies the minimum height of the slide in pixels.|
+|Minimum Height|Specifies the minimum height of the slide using any CSS unit (200px, 100vh, 45em, 50%) or calculation between units (100vh - 237px). For example, you can set the slide's minimum height to cover the full-height of the page, then use background images and videos for compelling design options.|
+
+{:.bs-callout-info}
+When the slide is set to the full-height of the page (100vh), the slider that contains the slide also stretches the full height of the page to accommodate the height of the slide.
 
 ### Background
 
 |Setting|Description|
 |--- |--- |
 |Background Color|Determines the background color and opacity of the slide.|
+|Background Type|Determines whether the background is an image or a video.|
+
+### Background Image
+
+|Setting|Description|
+|--- |--- |
 |Background Image|Determines the location of the background image and applies the image to the slide. Options: <br/>**Upload** - Uploads an image file from your local computer to the gallery and then applies it as the background image for the slide. <br/>**Select from Gallery** - Prompts you to choose an existing image from the gallery as the background image for the slide. <br/>![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"} - Allows you to either drag the image to the camera tile or browse to the image in your local file system.|
 |Background Mobile Image|Determines the location of the background image file to use for mobile devices, and applies the image to the slide. If left blank, the standard desktop background image is used. Options: <br/>**Upload** - Uploads an image file from your local computer to the gallery and then applies it as the background image for the slide. <br/>**Select from Gallery** - Prompts you to choose an existing image from the gallery as the background image for the slide. <br/>![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"} - Allows you to either drag the image to the camera tile or browse to the image in your local file system.|
 |Background Size|Determines how the background image is scaled in relation to the width of the slide. Options: <br/>**Cover** - The background image covers the full width of the slide. <br/>**Contain** - The background image is limited to the width of the content area of the slide. <br/>**Auto** - Applies the default background size that is specified in the stylesheet of the current theme.|
 |Background Position|Determines the anchor point of the image in relation to the slide. Options: Top Left / Top Center / Top Right / Center Left / Center / Center Right / Bottom Left / Bottom Center / Bottom Right|
 |Background Repeat|Determines if the background image is repeated to fill the available space in the slide. Options: <br/>**Yes** - The background image is repeated to fill the available space. <br/>**No** - Uses only a single instance of the background image.|
+
+### Background Video
+
+|Setting|Description|
+|--- |--- |
+|Video URL|Link to the video you want to play for the background. Valid video URLs can be:<br/>- links to YouTube videos: `https://youtu.be/CoDhMRUUjeI`<br/>- links to Vimeo videos: `https://vimeo.com/190156113`<br/>- links to valid video files (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`|
+|Overlay Color|Color with opacity for creating a tint over the video.|
+|Infinite Loop|Determines if the video repeats. Options:<br/> **Yes** - (Default) The video repeats in an infinite loop.<br/> **No** - The video plays once and stops.<br/>|
+|Lazy Load|Determines when the video loads. Options:<br/> **Yes** - (Default) The video loads from its source only when visible on the screen.<br/> **No** - The video loads with the page, even when not visible.<br/>|
+|Play Only When Visible|Determines when the video plays. Options:<br/> **Yes** - (Default) The video starts playing only when it is visible.<br/> **No** - The video starts playing immediately after it loads, regardless of whether it is visible.<br/>|
+|Fallback Image|Image that displays on the screen before a video loads as well as when the event does not load for some reason.|
 
 ### Content
 
@@ -439,7 +489,7 @@ If you want a title above the slider, simply add a Text content type above the s
 | Infinite Loop  | Determines if the slide show replays from the beginning after the last slide. Options: <br/>**Yes** - The slide show replays indefinitely while the page is open. <br/>**No** - The slide show plays only once.                                                                                                                            |
 | Show Arrows    | Determines if each slide includes _next_ and _previous_ navigation arrows on the left and right side of each slide. Options: <br/>**Yes** - Navigation arrows appear on the left and right side of each slide. <br/>**No** - The slides do not have navigation arrows.                                                                     |
 | Show Dots      | Determines if the slider includes navigation dots below the slides. Options: <br/>**Yes** - Navigation dots appear at the bottom of the slider. <br/>**No** - The slider does not include navigation dots.                                                                                                                                 |
-| Minimum Height | Specifies the minimum height of the slider in pixels.                                                                                                                                                                                                                                                                    |
+| Minimum Height | Specifies the minimum height of the slider using any CSS unit (200px, 100vh, 45em, 50%) or calculation between units (100vh - 237px). For example, you can set the slider's minimum height to cover the full-height of the page, then use background images and videos for compelling design options. |
 
 ### Advanced
 

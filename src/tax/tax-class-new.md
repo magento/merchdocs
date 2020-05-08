@@ -20,16 +20,16 @@ _New Tax Classes_{:.caption-edition-ee}
     ![]({% link images/images/tax-class-customer-add-new.png %}){: .zoom}
     _Add New Tax Class_
 
-1. Enter the **Name** of the new tax class in the text box. Then, click the checkmark to add the new class to the list of available customer tax classes.
+1. Enter the **Name** of the new tax class in the text box and click the checkmark to add the new class to the list of available customer tax classes.
 
     ![]({% link images/images/tax-class-customer-add-new-wholesale.png %}){: .zoom}
     _Wholesale Tax Class_
 
-## Add a new Product Tax Class
+## Add a new product tax class
 
 1. Under _Product Tax Class_, click **Add New Tax Class**.
 
-1. Enter the **Name** of the new tax class in the text box. Then, click the checkmark to add the new class to the list of available product tax classes.
+1. Enter the **Name** of the new tax class in the text box and click the checkmark to add the new class to the list of available product tax classes.
 
     ![]({% link images/images-ee/tax-class-product-add-new-digital.png %}){: .zoom}
     _Digital Product Tax Class_{:.caption-edition-ee}

@@ -21,7 +21,7 @@ Widget settings include the following:
 
 - **Show star rating on product pages** - When set to `Yes`, the individual product page displays the product's star rating. Shoppers can click the Star Rating to read full reviews displayed in the Reviews Widget. See [Star Rating](https://support.yotpo.com/en/article/star-rating).
 
-- **Enable Q&A** - When set to `Yes`, the product page displays the Q&A feature, which enables customers to ask questions regarding a specific product directed to the Yotpo account owner and to customers who had previously purchased the product. See [Q&A Feature](https://support.yotpo.com/en/article/questions-answers-feature).
+- **Show Q&A Bottom-line** - When set to `Yes`, the product page displays the Q&A feature, which enables customers to ask questions regarding a specific product directed to the Yotpo account owner and to customers who had previously purchased the product. See [Q&A Feature](https://support.yotpo.com/en/article/questions-answers-feature).
 
 - **Hide Magento Reviews** - When set to `Yes`, this disables the [Magento Product Reviews]({% link marketing/magento-product-reviews.md %}) feature for product and category pages.
 

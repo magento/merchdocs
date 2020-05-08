@@ -2,6 +2,8 @@
 title: Carriers
 ---
 
+{% include shipping-status-note.md %}
+
 Carrier profiles for Magento Shipping can be accessed from the Stores menu in the Magento Admin, but settings are updated and saved in the Magento Shipping Portal. New connections to carriers can be added and existing connections can be edited or deleted from the Shipping Partners grid.
 
 The Carriers grid identifies:

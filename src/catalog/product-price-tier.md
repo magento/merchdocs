@@ -37,22 +37,14 @@ The prices in the storefront take precedence from the highest to the lowest quan
 
 1. For **Qty**, enter the quantity that must be ordered to receive the discount.
 
-1. Use one of the following methods to enter the tier prices:
+      **Method 1: Enter Price as Fixed Amount** - Set **Price** to `Fixed` and enter the adjusted price for one unit at that tier.
 
-   **Method 1: Enter Price as Fixed Amount**
+        ![]({% link images/images/product-price-tier-fixed.png %}){: .zoom}
+        _Tier Price as a Fixed Amount_
 
-   - Set **Price** to `Fixed`.
+      **Method 2: Enter Price as Percentage** - Set **Price** to `Discount` and enter the discounted price as a percentage off the base price of the product.
 
-   - Then, enter the adjusted price for one unit at that tier.
-
-   ![]({% link images/images/product-price-tier-fixed.png %}){: .zoom}
-   _Tier Price as a Fixed Amount_
-
-   **Method 2: Enter Price as Percentage**
-
-   - Set **Price** to `Discount`.
-
-   - Then, enter the discounted price as a percentage off the base price of the product.
+        For example, for a 15 percent discount, enter the number `15`. (The price is saved with two decimal positions, such as `15.00`.)
 
       For example, for a 15 percent discount, enter the number `15`. (The price is saved with two decimal positions, such as `15.00`.)
 

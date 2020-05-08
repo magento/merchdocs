@@ -84,7 +84,7 @@ The system has one predefined Default User role, which you can use “as is" or 
 
    - Sales
 
-     - Checkout (place order)
+      - Checkout (place order)
 
 - Use Pay On Account method
 
@@ -106,11 +106,11 @@ The system has one predefined Default User role, which you can use “as is" or 
 
    - Account Information (View)
 
-     - Edit
+      - Edit
 
    - Legal Address
 
-     - Edit
+      - Edit
 
    - Contacts (View)
 
@@ -120,7 +120,7 @@ The system has one predefined Default User role, which you can use “as is" or 
 
    - View roles and permissions
 
-     - Manage roles and permissions
+      - Manage roles and permissions
 
    - View users and teams
 

@@ -2,12 +2,17 @@
 title: Adding a New Page
 ---
 
-The process of adding a new content page to your store is essentially the same for any type of page you might want to create. You can include text, images, blocks of content, variables, and widgets. Most content pages are designed to be read by search engines first, and by people second. Keep the needs of each of these two very different audiences in mind when choosing the page title, and URL, and when composing the meta data, and content.
+The process of adding a new content page to your store is essentially the same for any type of page you might want to create. You can include text, images, blocks of content, variables, and widgets. Most content pages are designed to be read by search engines first, and by people second. Keep the needs of each of these two very different audiences in mind when choosing the page title, and URL, and when composing the meta data, and content. When your page is complete, it can be added to your store navigation, linked to other pages, linked from the footer of your store, or used as a new [home page]({% link cms/page-home-new.md %}).
 
 The following instructions walk you through each step to create a basic page. Some advanced features are skipped over, but are covered in other topics.
 
+<!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/pages.png %}){: .zoom}
-_Pages_
+<!--{% endif %}-->
+<!--{% if "Default.EE-B2B" contains site.edition %}-->
+![]({% link images/images-ee/pages.png %}){: .zoom}
+<!--{% endif %}-->
+_Pages Grid_
 
 ## Step 1: Add a new page
 
@@ -25,23 +30,26 @@ Steps for Magento Open Source only
 
 1. On the new page, do the following:
 
-   - By default, a new page is published when the record is saved. If you do not want to publish the page immediately, set **Enable Page** to `No`.
+1. Enter the **Page Title**.
 
-   - Enter the **Page Title**. The Page Title is the name that appears in the [breadcrumb trail]({% link catalog/navigation-breadcrumb-trail.md %}) navigation.
+   The page title appears in the [breadcrumb]({% link catalog/navigation-breadcrumb-trail.md %}) navigation.
 
 1. To schedule design changes, expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Custom Design Update**. Then, do the following:
 
-   - Use the calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}) to choose the **From** and **To** dates when the design change is to be in effect.
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Content**.
 
-   - If applicable, set **New Theme** to a different theme that is to be used for the page.
+   <!--{% if "Default.CE Only" contains site.edition %}-->
+   ![]({% link images/images/page-content.png %}){: .zoom}
+   <!--{% endif %}-->
+   <!--{% if "Default.EE-B2B" contains site.edition %}-->
+   ![]({% link images/images-ee/page-builder-workspace.png %}){: .zoom}
+   <!--{% endif %}-->
+   _Content_
 
-   - To change the [Page Layout]({% link design/page-layout.md %}), set **New Layout** to one of the following:
+1. In the **Content Heading** box, enter the heading that you want to appear at the top of the page.
 
-     - `Empty`
-     - `1 column`
-     - `2 columns with left bar`
-     - `2 columns with right bar`
-     - `3 columns`
+   <!--{% if "Default.EE-B2B" contains site.edition %}-->
+   If enabled, the [Page Builder]({% link cms/page-builder.md %}) stage and panel appear below the Content Heading.
 
      ![]({% link images/images/page-custom-design-update.png %}){: .zoom}
      _Custom Design Update_{:.caption-edition-ce}
@@ -50,12 +58,6 @@ Steps for Magento Open Source only
 
     ![]({% link images/images/page-content.png %}){: .zoom}
     _Content_{:.caption-edition-ce}
-
-1. In the **Content Heading** box, enter the heading that you want to appear at the top of the page.
-
-1. By default, the editor opens in WYSIWYG mode with the toolbar at the top.
-
-    If you prefer to work directly with the HTML code, click <span class="btn">Show / Hide Editor</span>.
 
 1. Complete the content and format the text as needed.
 
@@ -79,22 +81,11 @@ Steps for Magento Commerce only
 
 1. Complete the content, and format the text as needed. To learn more, see [Page Builder]({% link cms/page-builder.md %}).
 
-1. click <span class="btn">Save</span>.
+   The default URL key was created when the page was saved that is based on the Content Heading.
 
 ## Step 3: Complete the SEO Information
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Search Engine Optimization**. Then, do the following:
-
-   - When the page was saved, a default URL key was created that is based on the Content Heading. You can accept the default or enter another **URL Key** that consists of all lowercase characters, with hyphens instead of spaces.
-
-   - Enter a **Meta Title** for the page. The Meta Title should be less than seventy characters in length and appears in the browser title bar and tab.
-
-   - Enter your choice of high-value **Meta Keywords** that search engines can use to index the page. Separate multiple words with a comma. Meta keywords are ignored by some search engines, but used by others.
-
-   - In the **Meta Description** field, enter a brief description of the page for search results listings. Ideally, the description should be from 150-160 characters in length, with a maximum limit of 255.
-
-    ![]({% link images/images/page-search-engine-optimization.png %}){: .zoom}
-    _Search Engine Optimization_
+1. In the **Meta Description** field, enter a brief description of the page for search results listings. Ideally, the description should be from 150-160 characters in length, with a maximum limit of 255.
 
 1. Click <span class="btn">Save</span>.
 
@@ -114,8 +105,8 @@ Steps for Magento Commerce only
 
 1. Expand ![]({% link images/images/btn-expand.png %}) **Hierarchy**.
 
-    ![]({% link images/images-ee/page-hierarchy.png %}){: .zoom}
-    _Hierarchy_
+   ![]({% link images/images-ee/page-hierarchy.png %}){: .zoom}
+   _Hierarchy_
 
 1. If this page is a child of another page, select the checkbox of the **Parent page**.
 
@@ -124,21 +115,23 @@ Steps for Magento Commerce only
 
 1. Expand ![]({% link images/images/btn-expand.png %}) **Design**.
 
-    ![]({% link images/images/page-design.png %}){: .zoom}
-    _Design_
+1. To change the layout of the page, expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Design**.
 
-1. To change the [page layout]({% link design/page-layout-examples.md %}), set **Layout** to one of the following:
+   ![]({% link images/images/page-design.png %}){: .zoom}
+   _Design_
+
+1. To change the column layout of the page, set **Layout** to one of the following:
 
    - `Empty`
    - `1 column`
    - `2 columns with left bar`
    - `2 columns with right bar`
-   - `3 columns`
+   - `3 columns`<!--{% if "Default.EE-B2B" contains site.edition %}-->
    - `Page -- Full Width` (Requires [Page Builder]({% link cms/page-builder.md %}))
    - `Category -- Full Width` (Requires Page Builder)
-   - `Product -- Full Width` (Requires Page Builder)
+   - `Product -- Full Width` (Requires Page Builder)<!--{% endif %}-->
 
-1. To include additional [layout instructions]({% link design/layout-updates.md %}), enter valid XML code in the **Layout Update XML** box.
+1. To apply a **Custom Layout Update**, choose the name of the file from the list. To learn more, see [Layout Updates]({% link design/layout-updates.md %}).<!--{% if "Default.CE Only" contains site.edition %}-->
 
 ## Step 7: Preview the Page
 
@@ -156,8 +149,8 @@ Steps for Magento Commerce only
 
 1. On the **Save** menu, choose **Save & Close**.
 
-    ![]({% link images/images/cms-pages-save-and-close.png %}){: .zoom}
-    _Save & Close_
+   ![]({% link images/images/cms-pages-save-and-close.png %}){: .zoom}
+   _Save & Close_
 
 Now that your page is complete, it can be added to your store navigation, linked to other pages, or added as a link in the footer of your store. You can also use it as your new [home page]({% link cms/page-home-new.md %}).
 
@@ -169,3 +162,5 @@ Now that your page is complete, it can be added to your store navigation, linked
 |Save & New|Save and close the current page, and begin a new page.|
 |Save & Duplicate|Save and close the current page, and open a new duplicate copy.|
 |Save & Close|Save and close the current page, and return to the Pages grid.|
+
+[1]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/xml-instructions.html

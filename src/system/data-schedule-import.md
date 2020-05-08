@@ -25,27 +25,27 @@ After each scheduled import job, a reindex operation is performed automatically.
 
 1. In the upper-right corner, click **Add Scheduled Import** and do the following:
 
-    - **Name** — Enter a name for the scheduled import.
+   - **Name** — Enter a name for the scheduled import.
 
-    - **Description** — Enter a brief description that explains the purpose of the import and how it is to be used.
+   - **Description** — Enter a brief description that explains the purpose of the import and how it is to be used.
 
-    - **Entity Type** — Set to one of the following: `Products` or `Customers`
+   - **Entity Type** — Set to one of the following: `Products` or `Customers`
 
-    - **Import Behavior** — Set to one of the following:
+   - **Import Behavior** — Set to one of the following:
 
-        - `Append Complex Data` — Adds new complex data to the existing complex data for existing entries in the database. This is the default value.
-        - `Replace Existing Complex Data` — Writes over existing complex for existing entities in the database.
-        - `Delete Entities` — Deletes existing entries in the database.
+      - `Append Complex Data` — Adds new complex data to the existing complex data for existing entries in the database. This is the default value.
+      - `Replace Existing Complex Data` — Writes over existing complex for existing entities in the database.
+      - `Delete Entities` — Deletes existing entries in the database.
 
-    - **Start Time** — Set to the hour, minute, and second that the import is scheduled to begin.
+   - **Start Time** — Set to the hour, minute, and second that the import is scheduled to begin.
 
-    - **Frequency** — Set to one of the following: `Daily`, `Weekly`, or `Monthly`
+   - **Frequency** — Set to one of the following: `Daily`, `Weekly`, or `Monthly`
 
-    - **Field Separator** — Enter the character that is used to separate fields in the import file. The default character is a comma.
+   - **Field Separator** — Enter the character that is used to separate fields in the import file. The default character is a comma.
 
-    - **Multiple Value Separator** — Enter the character that is used to separate multiple values within a field.
+   - **Multiple Value Separator** — Enter the character that is used to separate multiple values within a field.
 
-    - **Status** — To activate the scheduled import, set to `Enabled`.
+   - **Status** — To activate the scheduled import, set to `Enabled`.
 
     ![Data import - scheduled import settings]({% link images/images-ee/data-transfer-scheduled-import-settings.png %}){: .zoom}
     _Import Settings_
@@ -54,16 +54,16 @@ After each scheduled import job, a reindex operation is performed automatically.
 
 1. Set **Server Type** to one of the following:
 
-    - `Local Server` - Imports the data from the same server where Magento is installed.
-    - `Remote FTP` - Imports the data from a remote server.
+   - `Local Server` - Imports the data from the same server where Magento is installed.
+   - `Remote FTP` - Imports the data from a remote server.
 
     ![Data import - scheduled import file information]({% link images/images-ee/data-transfer-scheduled-import-file-informaition.png %}){: .zoom}
     _Import File Information_
 
 1. Enter the **File Directory** where the import file originates.
 
-    - `Local Server` - Enter a relative path in the Magento installation. For example, `var/import`.
-    - `Remote FTP server` - Enter the full URL and path to the import folder on the remote server.
+   - `Local Server` - Enter a relative path in the Magento installation. For example, `var/import`.
+   - `Remote FTP server` - Enter the full URL and path to the import folder on the remote server.
 
 1. Enter the **File Name** to be imported.
 
@@ -85,8 +85,8 @@ After each scheduled import job, a reindex operation is performed automatically.
 
 1. Set **Failed Email Copy Method** to one of the following:
 
-    - `Bcc` - Sends a blind courtesy copy of the failed import notification. The name and address of the recipient is included in the original email distribution, but hidden from view.
-    - `Separate Email` - Sends a copy of the failed import notification as a separate email.
+   - `Bcc` - Sends a blind courtesy copy of the failed import notification. The name and address of the recipient is included in the original email distribution, but hidden from view.
+   - `Separate Email` - Sends a copy of the failed import notification as a separate email.
 
     ![Data import - failed import email copy method]({% link images/images-ee/data-transfer-scheduled-import-email-fail.png %}){: .zoom}
     _Import Failed Emails_

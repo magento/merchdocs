@@ -2,8 +2,9 @@
 title: Layout Update Examples
 ---
 
-
 The following blocks types can be manipulated with custom layout instructions. Each action must be specified using the full syntax of the instruction. In the following examples, a simplified notation is used to refer to each action, which corresponds to the full syntax of the instruction.
+
+The completed layout update code is saved as an XML file  to the directory for the theme on the server. To learn more, see [Create new layout]in the developer documentation.  For additional examples, see [Common layout customization tasks][1].
 
 **Full Syntax**
 
@@ -11,12 +12,12 @@ The following blocks types can be manipulated with custom layout instructions. E
 ?
 <!-- Action can be specified inside either a <block>
 or <reference> instruction. -->
-	<action method="someActionName">
- 		<arg1>Value 1</arg1>
-		<arg2>Value 2</arg2>
-		<!--   -->
-		 <argN>Value N</argN>
-	</action>
+    <action method="someActionName">
+        <arg1>Value 1</arg1>
+        <arg2>Value 2</arg2>
+        <!--   -->
+         <argN>Value N</argN>
+    </action>
 <!--   -->
 ```
 
@@ -78,3 +79,5 @@ carefully before you submit.</p>]]></txt>
 ## page/html_welcome
 
 This block can be used to duplicate the “Welcome, `<USERNAME>`!” message that appears in the header block. When the user is not logged in, the welcome message specified in the configuration appears.
+
+[1]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/xml-manage.html

@@ -1,23 +1,20 @@
 <!-- page-header -->
 <section class="page-intro">
 
-{% if page.tag == "product-recommendations" %}
-  <div class="message-banner">
-    This documentation is for the Product Recommendations Early Access Program. If you would like to participate, <a href="mailto:magento-product-recs-feedback@adobe.com">E-mail us</a>!
+  {% if page.tag == "google-shopping" %}
+    <div class="bs-callout-warning">
+      Google Shopping ads Channel will be disabled on April 28, 2020. See <a href="https://docs.magento.com/m2/ce/user_guide/sales-channels/google-ads/google-eol.html">End of Life</a> for more information.
+    </div>
+  {% endif %}
+  
+  {% if page.url contains "sales-channels/amazon/" %}
+  <div class="bs-callout-warning">
+    You are viewing documentation for Amazon Sales Channel 2.x / 3.x.</b> <br/>Refer to <a href="{{ site.baseurl }}/sales-channels/asc/amazon-sales-channel.html">Amazon Sales Channel 4.0+</a> for updated documentation.
   </div>
-{% endif %}
-
-  {% if page.ee_only == true %}
-  <span class="ee-only">{{site.data.var.ee}} only</span>
-  {% endif %}
-
-  {% if page.b2b_only == true %}
-  <span class="ee-only">{{site.data.var.b2b}} only</span>
-  {% endif %} 
-  
-  {% if page.subtitle %}
-  <h1 class="page-subtitle">{{ page.subtitle }}</h1>
   {% endif %}
   
-  <h1 class="page-heading">{{ page.title }}</h1>
-  </section>
+  <h1 class="page-title">{{ page.title }}</h1>
+
+  {% include layout/github-links.html %}
+
+</section>  

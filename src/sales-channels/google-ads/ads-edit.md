@@ -1,5 +1,6 @@
 ---
 title: Managing Campaigns
+tag: google-shopping
 ---
 
 

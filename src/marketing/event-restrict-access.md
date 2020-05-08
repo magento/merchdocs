@@ -16,22 +16,22 @@ Access to a private sale, event, or site can be limited to registered customers 
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Website Restrictions** section and do the following:.
 
-    - Set **Access Restriction** to `Yes`.
+   - Set **Access Restriction** to `Yes`.
 
-    - Set **Restriction Mode** to one of the following:
+   - Set **Restriction Mode** to one of the following:
 
-        - `Private Sales: Login Only`
-        - `Private Sales: Login and Register`
+      - `Private Sales: Login Only`
+      - `Private Sales: Login and Register`
 
-    - Set **Startup Page** to one of the following:
+   - Set **Startup Page** to one of the following:
 
         |To login form (302 Found)|Users are redirected to the login form before gaining access to the site.|
         |To landing page (302 Found)|Users are redirected to the specified landing page until they log in. <br/>**Important!** Be sure to include a link to the login page from the landing page so customers can log in to access the site.|
 
-    - Choose the **Landing Page** that appears before customers log in to the private sale site.
+   - Choose the **Landing Page** that appears before customers log in to the private sale site.
 
-    - To let search engine bots and spiders know that the landing page is correct and there are no other pages on the site to index, set **HTTP Response** to `200 OK`.
+   - To let search engine bots and spiders know that the landing page is correct and there are no other pages on the site to index, set **HTTP Response** to `200 OK`.
 
-    - If you want the fields in the customer login and forgot password forms to be filled automatically from previous entries, set **Enable Autocomplete on login/forgot password forms** to `Yes`.
+   - If you want the fields in the customer login and forgot password forms to be filled automatically from previous entries, set **Enable Autocomplete on login/forgot password forms** to `Yes`.
 
 1. When complete, click <span class="btn">Save Config</span>.

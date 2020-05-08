@@ -22,33 +22,33 @@ _Minimum Order Message in Cart_
 
 1. Configure the minimum order amount settings:
 
-    - To require a minimum order amount, set **Enable** to `Yes`.
+   - To require a minimum order amount, set **Enable** to `Yes`.
 
-    - Enter the **Minimum Amount** that is required for the subtotal, after discounts are applied.
+   - Enter the **Minimum Amount** that is required for the subtotal, after discounts are applied.
 
-    - Set **Include Tax to Amount** to one of the following:
+   - Set **Include Tax to Amount** to one of the following:
 
         |`Yes` |Requires the subtotal to meet the minimum amount with tax included.|
         |`No` |Requires the subtotal to meet the minimum amount without tax.|
 
 1. Optionally, customize minimum order amount message settings:
 
-    - To customize the message that appears at the top of the cart when the subtotal does not meet the minimum amount, enter the text in the **Description Message** box.
+   - To customize the message that appears at the top of the cart when the subtotal does not meet the minimum amount, enter the text in the **Description Message** box.
 
-    - To customize the shopping cart error message, enter the text in the **Error to Show in Shopping Cart** box.
+   - To customize the shopping cart error message, enter the text in the **Error to Show in Shopping Cart** box.
 
-    Leave the message description fields blank to use the default messages.
+   Leave the message description fields blank to use the default messages.
 
 1. Configure minimum order amount setting for multi-address orders:
 
-    - To require that each address in a multi-address order meet the minimum order amount, set **Validate Each Address Separately in Multi-address Checkout** to `Yes`.
+   - To require that each address in a multi-address order meet the minimum order amount, set **Validate Each Address Separately in Multi-address Checkout** to `Yes`.
 
-    - Optionally, customize minimum order amount message settings:
+   - Optionally, customize minimum order amount message settings:
 
       - To customize the message that appears at the top of the cart for multi-address orders that do not meet the minimum, enter the text in the **Multi-address Description Message** box.
 
       - To customize the shopping cart error message for multi-address orders that do not meet the minimum, enter the text in the **Multi-address Error to Show in Shopping Cart** box.
 
-       Leave the message description fields blank to use the default messages.
+      Leave the message description fields blank to use the default messages.
 
 1. Click **Save Config**.

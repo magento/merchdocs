@@ -29,11 +29,11 @@ _Bank Transfer Payment_
 
    - Enter the **Instructions** your customers must follow to set up a bank transfer. Depending on the country where your bank is located and the requirements of the bank, you might need to include the following information:
 
-     - Bank account name
-     - Bank account number
-     - Bank routing code
-     - Bank name
-     - Bank address
+      - Bank account name
+      - Bank account number
+      - Bank routing code
+      - Bank name
+      - Bank address
 
    - Set **Minimum Order Total** and **Maximum Order Total** to the amounts required to qualify to use this payment method.
 

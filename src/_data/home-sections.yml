@@ -33,3 +33,7 @@
   - title: Manage the system
     content: Learn how to import and export data. manage security and permissions, and install extensions. Use the system tools to manage the cache and indexing, and schedule backups.
     url: /system/system.html
+
+  - title: Share your knowledge
+    content: Become a Magento documentation contributor by suggesting improvements, logging issues, and submitting revisions to our open source documentation repository.
+    url: /getting-started/contribute.html

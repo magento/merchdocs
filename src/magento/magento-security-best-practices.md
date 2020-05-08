@@ -105,13 +105,13 @@ In the event of a compromise, work with your internal IT security team if availa
 
 1. Try to determine the scope of the attack. Was credit card information accessed? What information was stolen? How much time has elapsed since the compromise? Was the information encrypted? Typically you can expect the following types of attack:
 
-    - **Defacing of Site**—Site access is compromised, but often the payments information is not. User accounts might be compromised.
+   - **Defacing of Site** — Site access is compromised, but often the payments information is not. User accounts might be compromised.
 
-    - **Botnetting**—Your site becomes part of a botnet that sends spam email. Although data is probably not compromised, your server is blacklisted by spam filters which prevents email that you send to customers from being delivered.
+   - **Botnetting** — Your site becomes part of a botnet that sends spam email. Although data is probably not compromised, your server is blacklisted by spam filters which prevents email that you send to customers from being delivered.
 
-    - **Direct Attack on Server**—Data is compromised, backdoors and malware are installed, and the site no longer works. Payment information—provided that it is not stored on the server— is probably safe.
+   - **Direct Attack on Server** — Data is compromised, backdoors and malware are installed, and the site no longer works. Payment information—provided that it is not stored on the server— is probably safe.
 
-    - **Silent Card Capture**—In this most disastrous attack, intruders install hidden malware or card capture software, or possibly modify the checkout process to collect and send out credit card data. Such attacks can go unnoticed for extended periods of time, and result in major compromise of customer accounts and financial information.
+   - **Silent Card Capture** — In this most disastrous attack, intruders install hidden malware or card capture software, or possibly modify the checkout process to collect and send out credit card data. Such attacks can go unnoticed for extended periods of time, and result in major compromise of customer accounts and financial information.
 
 1. Try to find the attack vector to determine how the site was compromised, and when. Review server log files and file changes. Note that sometimes there are multiple different attacks on the same system.
 

@@ -2,6 +2,8 @@
 title: Locations
 ---
 
+{% include shipping-status-note.md %}
+
 A location is required for most interactions with Magento Shipping, with variety of uses ranging from where a shipment is sent from, where a dispatch needs to occur, or where a Click & Collect order is collected.
 
 The Locations grid lists the available shipping locations and can include stores, warehouses, drop shippers, and company headquarters. Existing shipping locations can be edited or removed and new shipping locations added. The locations that you enter appear in a drop-down list for each [Shipping Partner]({% link shipping/magento-shipping-carriers.md %}) profile, to identify the locations where the carrier is available.

@@ -20,14 +20,14 @@ Your store can be configured to archive orders, invoices, shipments, and credit 
 
 1. Configure the archive:
 
-    - Set **Enable Archiving** to `Yes`.
+   - Set **Enable Archiving** to `Yes`.
 
         {:.bs-callout-info}
         If you later decide to turn archiving off, all archived orders will be restored to the previous state.
 
-    - Set **Archive Orders Purchased** to the number of days to keep an order in the grid before it is archived. By default, this waiting period is set to 30 days.
+   - Set **Archive Orders Purchased** to the number of days to keep an order in the grid before it is archived. By default, this waiting period is set to 30 days.
 
-    - In the **Order Statuses to be Archived** list, select each order status to use for identifying orders to archive. To select multiple items, hold down the Ctrl (Windows) or Command (Mac) key as you click each item.
+   - In the **Order Statuses to be Archived** list, select each order status to use for identifying orders to archive. To select multiple items, hold down the Ctrl (Windows) or Command (Mac) key as you click each item.
 
 1. Click **Save Config**.
 
@@ -37,10 +37,10 @@ Your store can be configured to archive orders, invoices, shipments, and credit 
 
 1. In the _Sales_ menu under _Archive_, choose any of the following:
 
-    - Orders
-    - Invoices
-    - Shipments
-    - Credit Memos
+   - Orders
+   - Invoices
+   - Shipments
+   - Credit Memos
 
 1. Click any archived document in the list to view details.
 
@@ -58,10 +58,10 @@ Select each document to be the target of the action. Then, choose one of the fol
 
 1. Select the type of the document to archive from the following:
 
-    - Orders
-    - Invoices
-    - Shipments
-    - Credit Memos
+   - Orders
+   - Invoices
+   - Shipments
+   - Credit Memos
 
 1. Mark the checkbox of each item that you want to archive.
 
@@ -75,9 +75,9 @@ Select each document to be the target of the action. Then, choose one of the fol
 
 1. Select documents using one of the following options:
 
-    - To select all visible documents, in the upper-left corner, click **Select Visible**.
+   - To select all visible documents, in the upper-left corner, click **Select Visible**.
 
-    - Manually select the checkbox of each document you want to restore.
+   - Manually select the checkbox of each document you want to restore.
 
 1. In the upper-right, set **Action** to `Move to Orders Management`.
 
@@ -89,7 +89,7 @@ Select each document to be the target of the action. Then, choose one of the fol
 
 1. In the upper-right menu, set **Export to:** to one of the following values:
 
-    - CSV
-    - Excel
+   - CSV
+   - Excel
 
 1. Click **Export**.

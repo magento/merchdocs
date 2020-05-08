@@ -1,5 +1,6 @@
 ---
 title: Accepting Google Ads Terms of Service
+tag: google-shopping
 ---
 
 
