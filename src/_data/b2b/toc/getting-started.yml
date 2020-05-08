@@ -8,6 +8,8 @@ pages:
     url: "/getting-started/resources.html"
   - label: Join the Conversation!
     url: "/getting-started/magento-ecosystem.html"
+  - label: Contribute to the Docs
+    url: "/getting-started/contribute.html"
   - label: About This Release
     url: "/magento/about-this-release.html"
     children:

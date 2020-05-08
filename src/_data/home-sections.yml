@@ -14,10 +14,6 @@
     content: Make your site a destination with compelling content. Learn how to create pages with images, video, and dynamic content, and to modify existing pages, blocks, and widgets.
     url: /content.html
 
-  - title: Discover our new channel integrations
-    content: These powerful features empower you to increase revenue by capturing new storefront traffic and expanding sales to additional webstores.
-    url: /sales-channels/sales-channels-home.html
-
   - title: Market and promote
     content: Target promotions and create opportunities for customer engagement. Manage customer communications, and learn best practices and techniques to support your SEO initiative.
     url: /marketing.html
@@ -33,3 +29,7 @@
   - title: Manage the system
     content: Learn how to import and export data. manage security and permissions, and install extensions. Use the system tools to manage the cache and indexing, and schedule backups.
     url: /system/system.html
+
+  - title: Share your knowledge
+    content: Become a Magento documentation contributor by suggesting improvements, logging issues, and submitting revisions to our open source documentation repository.
+    url: /getting-started/contribute.html
