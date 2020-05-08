@@ -5,7 +5,7 @@ title: Retain Customers
 Magento makes it easy for you to get repeat business and build brand loyalty. Magento gives you total control and flexibility over creating and revising goodies like rewards programs, custom coupons and automated emails to keep your customers coming back again and again.
 
 Email Marketing Automation
-:  Send professionally designed, dynamic [email campaigns]({% link marketing/engagement-cloud.md %}) with live data from your Magento store, powered by [dotdigital][1].
+:  Send professionally designed, dynamic [email campaigns]({% link marketing/dotdigital/engagement-cloud.md %}) with live data from your Magento store, powered by [dotdigital][1].
 
 <!--{% if "Default.EE-B2B" contains site.edition %}-->
 Merchandise Return

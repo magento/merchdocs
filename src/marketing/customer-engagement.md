@@ -13,3 +13,6 @@ Compare Products
 
 Product Reviews
 :  [Product reviews]({% link marketing/product-reviews.md %}) help build a sense of community, and are considered to be more credible than any advertising money can buy.
+
+dotdigital Engagement Cloud
+: Use [dotdigital Engagement Cloud]({% link marketing/dotdigital/engagement-cloud.md %}) to automate professional, personalized communications and generate reports using data from your Magento store.
