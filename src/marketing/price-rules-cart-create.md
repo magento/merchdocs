@@ -86,15 +86,8 @@ _Conditions_
 
    - When prompted to **Choose the condition to add**, choose `Products Subselection`.
 
-   <!--{% if "Default.CE Only" contains site.edition %}-->
-   ![Cart price rule condition - products subselection]({% link images/images/price-rule-cart-condition-products-subselection.png %}){: .zoom}
-    _Products Subselection_
-   <!--{% endif %}-->
-
-   <!--{% if "Default.EE-B2B" contains site.edition %}-->
    ![Cart price rule condition - products subselection]({% link images/images-ee/price-rule-cart-condition-products-subselection.png %}){: .zoom}
-    _Products Subselection_
-   <!--{% endif %}-->
+    _Products Subselection_{:.caption-edition-ee}
 
 1. When the next part of the condition appears, hover over the line so you can see where each link with variable values is located.
 
@@ -147,13 +140,8 @@ The shopping cart price rule actions describe how prices are updated when the co
 
 1. Scroll down to **Actions**, and expand ![Expansion selector]({% link images/images/btn-expand.png %})the section. Then, do the following:
 
-   <!--{% if "Default.CE Only" contains site.edition %}-->
-   ![Cart price rule - actions ]({% link images/images/price-rule-cart-actions.png %}){: .zoom}
-   <!--{% endif %}-->
-   <!--{% if "Default.EE-B2B" contains site.edition %}-->
    ![Cart price rule - actions ]({% link images/images-ee/price-rule-cart-actions.png %}){: .zoom}
-   <!--{% endif %}-->
-   _Cart Price Rule Actions_
+   _Cart Price Rule Actions_{:.caption-edition-ee}
 
 1. Set **Apply** to one of the following discount options:
 
@@ -190,9 +178,7 @@ The shopping cart price rule actions describe how prices are updated when the co
    |For matching items only |Free shipping is available only for items that match the conditions of the rule. |
    |For shipment with matching items |Free shipping is available for any shipment that includes matching item(s). |
 
-   <!--{% if "Default.EE-B2B" contains site.edition %}-->
-1. In the **Add Rewards Points** field, enter the number of points the customer earns whenever the cart price rule is applied. (If reward points are not enabled, leave this field blank.)
-   <!--{% endif %}-->
+1. In the **Add Rewards Points** field, enter the number of points the customer earns whenever the cart price rule is applied. (If reward points are not enabled, leave this field blank.){:.card-edition-ee}
 
 1. When complete, click <span class="btn">Save and Continue Edit</span>.
 

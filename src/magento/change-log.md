@@ -62,7 +62,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |--- |--- |
 |[Layout Updates]({% link design/layout-updates.md %})|Updated all topics in this section to reflect the change in layout update implementation. Layout updates are now saved on the server and selected from a list.|
 |[Blocks]({% link cms/block-add.md %})<br />[Using a Layout Update]({% link design/layout-update-place-block.md %})<br />[Adding a New Page]({% link cms/page-add.md %})|Updated the process of applying a layout update to a page.|
-|[Design Settings]({% link catalog/categories-custom-design.md %}) - Category<br />[Design Settings]({% link catalog/settings-advanced-design.md %}) - Product|Updated the Custom Layout Update field and description.|<!--{% if "Default.EE Only" contains site.edition %}-->
+|[Design Settings]({% link catalog/categories-custom-design.md %}) - Category<br />[Design Settings]({% link catalog/settings-advanced-design.md %}) - Product|Updated the Custom Layout Update field and description.|
 |[Product Recommendations]({% link marketing/product-recommendations.md %})| Additional content to describe how product recommendations use Adobe Sensei and new content to describe the Trending recommendation type. |
 |[Create New Recommendation]({% link marketing/create-new-rec.md %})|Additional content to describe how product recommendations use Adobe Sensei.|
 |[Best Practices Using Recommendations]({% link marketing/recommendation-best-practices.md %})| Additional content to describe the Trending recommendation type.|
@@ -132,7 +132,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 {: .topics-table }
 |Topic |Change|
 |--- |--- |
-|[Catalog Images and Video]({% link catalog/catalog-images-video.md %}) <br/>[Creating Categories]({% link catalog/category-create.md %}) <br/>[Inserting an Image]({% link cms/editor-insert-image.md %}) <br/>[Media Storage]({% link cms/media-storage.md %}) <br/>{% if "Default.B2B Only" contains site.edition %}[Image]({% link cms/page-builder-media-image.md %}) (Page Builder) <br/>{% endif %}[System]({% link configuration/advanced/system.md %}) (reference)|Updated content in media topics to reflect the new Adobe Stock integration.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
+|[Catalog Images and Video]({% link catalog/catalog-images-video.md %}) <br/>[Creating Categories]({% link catalog/category-create.md %}) <br/>[Inserting an Image]({% link cms/editor-insert-image.md %}) <br/>[Media Storage]({% link cms/media-storage.md %}) <br/>[Image]({% link cms/page-builder-media-image.md %}) (Page Builder) <br/>[System]({% link configuration/advanced/system.md %}) (reference)|Updated content in media topics to reflect the new Adobe Stock integration.|
 |[Add Products]({% link cms/page-builder-add-content-products.md %}) <br/>[Slider]({% link cms/page-builder-media-slider.md %})|Updated content for the Page Builder Carousel layout.|
 |[Role Resources]({% link system/permissions-role-resources.md %}) <br/>[Updating a Company Profile]({% link customers/account-company-update.md %}) <br/>[Configuring Quotes]({% link stores/b2b-configure-quotes.md %}) <br/>[Customers]({% link configuration/customers.md %}) (reference)|Updated content for improved access control support for B2B features.|
 |[Managing Requisition Lists]({% link customers/account-dashboard-requisition-lists-manage.md %}) <br/>[Customers]({% link configuration/customers.md %})|Added information for exporting requisition lists.|
@@ -162,8 +162,8 @@ Our documentation is continually updated with new topics, clarifications, and co
 |--- |--- |
 |[Google Privacy Settings for GDPR]({% link stores/compliance-privacy-google.md %})|Renamed "Google Privacy Settings". This topic now applies to privacy regulations in general, and is not limited to GDPR.|
 |[Braintree]({% link configuration/sales/braintree.md %}) (reference)|Updated to correct descriptions for some fields in the Basic Braintree Settings.|
-|[Importing Product Images]({% link system/data-import-product-images.md %})|Updated to correct information about importing multiple images to a single SKU.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
-|[Creating a Catalog Price Rule]({% link marketing/price-rules-catalog-create.md %}) <br/>[Scheduled Changes for Catalog Price Rules]({% link marketing/price-rule-catalog-scheduled-changes.md %})|Updated to clarify the process for creating a catalog price rule and using the change schedule to make it active.|<!--{% endif %}-->
+|[Importing Product Images]({% link system/data-import-product-images.md %})|Updated to correct information about importing multiple images to a single SKU.|
+|[Creating a Catalog Price Rule]({% link marketing/price-rules-catalog-create.md %}) <br/>[Scheduled Changes for Catalog Price Rules]({% link marketing/price-rule-catalog-scheduled-changes.md %})|Updated to clarify the process for creating a catalog price rule and using the change schedule to make it active.|
 |[Creating Shipping Labels]({% link shipping/shipping-label-create.md %})|Added information for configuration of the Shipping Origin address.|
 |[Currency Configuration]({% link stores/currency-configuration.md %})|Updated to clarify availability of the `Price` section.|
 
@@ -304,7 +304,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Services]({% link configuration/services.md %})|Updated the screen shot to include the new Channels section.|
 |[Customer Engagement]({% link reports/customer-engagement.md %})|Replaced the Marketing Automation page with a new Customer Engagement page for dotdigital Engagement Cloud reporting. Includes configuration, manual sync, reset, and more options for reporting on features and performance.|
 |[Checkout Options]({% link sales/checkout-options.md %})|Updated information for the Checkout options to include the new Address Search feature.|
-|[Checkout]({% link configuration/sales/checkout.md %}) (reference)|Updated information for the Checkout options to include the new Address Search feature.|<!--{% endif %}-->
+|[Checkout]({% link configuration/sales/checkout.md %}) (reference)|Updated information for the Checkout options to include the new Address Search feature.|
 |[UPS]({% link shipping/ups.md %})|Updated configuration information for the United Parcel Service XML as the default account type. If you choose to create a new UPS Standard account type (scheduled for deprecation), HTTPS is now the default for the URL.|
 |[Shipping Methods]({% link configuration/sales/shipping-methods.md %})|Updated UPS configuration information for the United Parcel Service XML as the default account type. If you choose to create a new UPS Standard account type (scheduled for deprecation), HTTPS is now the default for the URL.|
 |[Coupon Codes]({% link marketing/price-rules-cart-coupon.md %})|Added information about support for asynchronous operations in the Admin.|
@@ -488,8 +488,8 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Content Management]({% link configuration/general/content-management.md %}) (reference)|Added option for newly supported TinyMCE 4 editor for CMS content in WYSIWYG options.|
 |[Configuring the Editor]({% link cms/editor-configure.md %})|Added configuration information for TinyMCE 4.|
 |[Using the Editor]({% link cms/editor.md %})|Added TinyMCE 4 information for using the new editor.|
-|[Google API]({% link configuration/sales/google-api.md %}) (reference)|Added and updated descriptions for fields.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
-|[Google Tag Manager]({% link marketing/google-tag-manager.md %})|Updated Google instructions for configuring Google Tag Manager.|<!--{% endif %}-->
+|[Google API]({% link configuration/sales/google-api.md %}) (reference)|Added and updated descriptions for fields.|
+|[Google Tag Manager]({% link marketing/google-tag-manager.md %})|Updated Google instructions for configuring Google Tag Manager.|
 |[Checkout]({% link configuration/sales/checkout.md %}) (reference)|Added field and information for the Checkout option Show Cross-sell Items in the Shopping Cart.|
 |[Cross-sells]({% link catalog/settings-advanced-cross-sells.md %})|Added note about hiding and showing cross-sells in the shopping cart.|
 |[Themes]({% link design/themes.md %})|Added filtering for themes and screenshot.|

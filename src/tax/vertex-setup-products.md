@@ -228,11 +228,11 @@ In this step, columns of data are pasted from the CSV file that you exported to 
 
    This is where having the data sorted by category helps, because it groups products of a similar type together.
 
-   In this example, the data includes clothing, sports gear,{% if "Default.EE-B2B" contains site.edition %} gift cards,{% endif %} and downloadable videos. Because there is not a code available at this level for sports gear, you can leave those records blank, and complete them later in Vertex Cloud.
+   In this example, the data includes clothing, sports gear, gift cards, and downloadable videos. Because there is not a code available at this level for sports gear, you can leave those records blank, and complete them later in Vertex Cloud.
 
    |Clothing|`VTX04-00143`
-   |Digital Goods|`VTX04-00544`<!--{% if "Default.EE-B2B" contains site.edition %}-->
-   |Gift Certificate/Cards|`VTX04-02252`<!--{% endif %}-->
+   |Digital Goods|`VTX04-00544`
+   |Gift Certificate/Cards|`VTX04-02252`
    |Gear| --
 
    Products that are uploaded without a tax category can later be assigned manually to the appropriate tax category at a more granular level.

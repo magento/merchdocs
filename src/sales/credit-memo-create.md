@@ -6,7 +6,6 @@ Before a credit memo can be printed, it must first be generated for an invoiced 
 
 {: .edition-ee }
 Refunds can also be applied to store or company credit.
-Before a credit memo can be printed, it must first be generated for an invoiced order. You can issue both online and offline refunds from an open credit memo, depending on the payment method. <!--{% if "Default.EE-B2B" contains site.edition %}-->Refunds can also be applied to store <!--{% if "Default.B2B Only" contains site.edition %}--> or company <!--{% endif %}-->credit.<!--{% endif %}-->
 
 - Purchases made by credit card can be refunded either online or offline.
 - Purchases made by check or money order must be refunded offline.
@@ -19,7 +18,8 @@ Any credit memo with a [status]({% link sales/order-status.md %}) of “open” 
 ![]({% link images/images/config-payment-methods-braintree-payment-action-authorize-capture.png %}){: .zoom}
 _Payment Action Setting_
 
-{% if "Default.EE-B2B" contains site.edition %}If you create a credit memo for an order that includes gift options, the refund for the gift wrapping and/or printed card appears in the Refund Totals section of the credit memo. To exclude these costs from the amount to be refunded, enter the amount as an Adjustment Fee. If multiple credit memos are issued for the same order, the refund for gift options appears in only the first credit memo.{% endif %}
+{: .edition-ee }
+If you create a credit memo for an order that includes gift options, the refund for the gift wrapping and/or printed card appears in the Refund Totals section of the credit memo. To exclude these costs from the amount to be refunded, enter the amount as an Adjustment Fee. If multiple credit memos are issued for the same order, the refund for gift options appears in only the first credit memo.
 
 {:.bs-callout-info}
 If using [Vertex Cloud]({% link tax/vertex.md %}), see the [Vertex Settings]({% link configuration/sales/tax.md %}) configuration section for information about issuing refunds for sales orders that are invoiced when the status is either `Suspected Fraud` or `Canceled`.
@@ -37,13 +37,8 @@ _Create Credit Memo_
 
 1. Find the order in the grid, and click **View**.
 
-   <!--{% if "Default.CE Only" contains site.edition %}-->
-   ![]({% link images/images/orders-grid.png %}){: .zoom}
-   <!--{% endif %}-->
-   <!--{% if "Default.EE-B2B" contains site.edition %}-->
    ![]({% link images/images-ee/orders-grid.png %}){: .zoom}
-   <!--{% endif %}-->
-   _Orders Grid_
+   _Orders Grid_{:.caption-edition-ee}
 
     This button appears only after an order is invoiced.) 
 
@@ -102,23 +97,16 @@ _Create Credit Memo_
 
    - {: .edition-ee }To refund the amount to the customer's store credit, select the **Refund to Store Credit** checkbox.
 
-   - 
+   - {:.edition-b2b}To refund the amount to the customer's company credit, select the **Refund to Company Credit** checkbox.
 
-   - To send an email notification to the customer, mark the **Email Copy of Credit Memo** checkbox.
-      <!--{% endif %}-->
-      <!--{% if "Default.B2B Only" contains site.edition %}-->
-      - To refund the amount to the customer's company credit, select the **Refund to Company Credit** checkbox.
+   - To issue on offline refund, click <span class="btn">Refund Offline</span>.
 
-   - To include the comments you have entered in the email, mark the **Append Comments** checkbox.
-      <!--{% endif %}-->
-      - To issue on offline refund, click <span class="btn">Refund Offline</span>.
-      - To issue an online refund, click <span class="btn">Refund</span>.
-      <!--{% if "Default.B2B Only" contains site.edition %}-->
-      - If the purchase was paid with company credit, click <span class="btn">Refund to Company Credit</span>.
-      <!--{% endif %}-->
+   - To issue an online refund, click <span class="btn">Refund</span>.
 
-      ![]({% link images/images/credit-memo-order-total-refund.png %}){: .zoom}
-      _Items to Refund_
+   - {:.edition-b2b}If the purchase was paid with company credit, click <span class="btn">Refund to Company Credit</span>.
+
+   ![]({% link images/images/credit-memo-order-total-refund.png %}){: .zoom}
+   _Items to Refund_
 
 ### Method 2: Issue an offline refund for check or money order
 
@@ -170,16 +158,8 @@ _Create Credit Memo_
 
       The status of a credit memo notification appears in the completed credit memo next to the credit memo number.
 
-      <!--{% if "Default.CE Only" contains site.edition %}-->
-      ![]({% link images/images/credit-memo-order-total.png %}){: .zoom}
-      <!--{% endif %}-->
-      <!--{% if "Default.EE Only" contains site.edition %}-->
-      ![]({% link images/images-ee/credit-memo-order-total.png %}){: .zoom}
-      <!--{% endif %}-->
-      <!--{% if "Default.B2B Only" contains site.edition %}-->
       ![]({% link images/images-b2b/credit-memo-order-totals.png %}){: .zoom}
-      <!--{% endif %}-->
-      _Refund Totals_
+      _Refund Totals_{:.caption-edition-b2b}
 
 1. To complete the process and issue the refund, click <span class="btn">Refund Offline</span>.
 
@@ -253,13 +233,25 @@ This information is displayed for Magento Commerce only.
 
 |Refund to Store Credit|Checkbox that determines if the total is to be refunded to [store credit]({% link sales/store-credit-using.md %}).|
 
-|--- |--- |
-|<span class="btn">Refund</span>|If the original purchase was paid by credit card through a payment gateway, the refund amount is managed by the payment processor. To manage refunds, see the documentation provided by your payment provider.|
-|<span class="btn">Refund Offline</span>|If the original purchase was paid by check or money order, the refund is paid directly to the customer, by issuing a check, gift card, or cash if you have a brick and mortar storefront. The credit memo serves as a record of the offline transaction.|<!--{% if "Default.B2B Only" contains site.edition %}-->
-|<span class="btn">Refund to Company Credit</span>|If the purchase was charged to company credit, the refund is returned to the [company’s account]({% link customers/account-dashboard-company-credit.md %}).|<!--{% endif %}-->
-{: .buttons-table }
+{: .edition-b2b }
+This information is displayed for Magento Commerce with B2B.
 
 |Subtotal|The total of all line items to be refunded.|
+
+### Refund Buttons
+
+The payment method used for the order determines the refund buttons that are available for a credit memo.
+
+|--- |--- |
+|<span class="btn">Refund</span>|If the original purchase was paid by credit card through a payment gateway, the refund amount is managed by the payment processor. To manage refunds, see the documentation provided by your payment provider.|
+|<span class="btn">Refund Offline</span>|If the original purchase was paid by check or money order, the refund is paid directly to the customer, by issuing a check, gift card, or cash if you have a brick and mortar storefront. The credit memo serves as a record of the offline transaction.|
+{: .buttons-table }
+
+{: .edition-b2b }
+This button is used in Magento Commerce with B2B.
+
+|<span class="btn">Refund to Company Credit</span>|If the purchase was charged to company credit, the refund is returned to the [company’s account]({% link customers/account-dashboard-company-credit.md %}).|
+{: .buttons-table }
 
 <style>
 .buttons-table td:first-of-type {

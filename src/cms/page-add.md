@@ -6,13 +6,8 @@ The process of adding a new content page to your store is essentially the same f
 
 The following instructions walk you through each step to create a basic page. Some advanced features are skipped over, but are covered in other topics.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/pages.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![]({% link images/images-ee/pages.png %}){: .zoom}
-<!--{% endif %}-->
-_Pages Grid_
+_Pages Grid_{:.caption-edition-ee}
 
 ## Step 1: Add a new page
 
@@ -36,25 +31,20 @@ Steps for Magento Open Source only
 
 1. To schedule design changes, expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Custom Design Update**. Then, do the following:
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Content**.
+1. Expand ![]({% link images/images/btn-expand.png %}) **Content**.
 
-   <!--{% if "Default.CE Only" contains site.edition %}-->
-   ![]({% link images/images/page-content.png %}){: .zoom}
-   <!--{% endif %}-->
-   <!--{% if "Default.EE-B2B" contains site.edition %}-->
    ![]({% link images/images-ee/page-builder-workspace.png %}){: .zoom}
-   <!--{% endif %}-->
-   _Content_
+   _Content_{:.caption-edition-ee}
 
 1. In the **Content Heading** box, enter the heading that you want to appear at the top of the page.
 
-   <!--{% if "Default.EE-B2B" contains site.edition %}-->
+   {: .edition-ee }
    If enabled, the [Page Builder]({% link cms/page-builder.md %}) stage and panel appear below the Content Heading.
 
-     ![]({% link images/images/page-custom-design-update.png %}){: .zoom}
-     _Custom Design Update_{:.caption-edition-ce}
+   ![]({% link images/images/page-custom-design-update.png %}){: .zoom}
+   _Custom Design Update_{:.caption-edition-ce}
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Content**.
+1. Expand ![]({% link images/images/btn-expand.png %}) **Content**.
 
     ![]({% link images/images/page-content.png %}){: .zoom}
     _Content_{:.caption-edition-ce}
@@ -126,12 +116,12 @@ Steps for Magento Commerce only
    - `1 column`
    - `2 columns with left bar`
    - `2 columns with right bar`
-   - `3 columns`<!--{% if "Default.EE-B2B" contains site.edition %}-->
-   - `Page -- Full Width` (Requires [Page Builder]({% link cms/page-builder.md %}))
-   - `Category -- Full Width` (Requires Page Builder)
-   - `Product -- Full Width` (Requires Page Builder)<!--{% endif %}-->
+   - `3 columns`
+   - {: .edition-ee }`Page -- Full Width` (Requires [Page Builder]({% link cms/page-builder.md %}))
+   - {: .edition-ee }`Category -- Full Width` (Requires Page Builder)
+   - {: .edition-ee }`Product -- Full Width` (Requires Page Builder)
 
-1. To apply a **Custom Layout Update**, choose the name of the file from the list. To learn more, see [Layout Updates]({% link design/layout-updates.md %}).<!--{% if "Default.CE Only" contains site.edition %}-->
+1. To apply a **Custom Layout Update**, choose the name of the file from the list. To learn more, see [Layout Updates]({% link design/layout-updates.md %}).
 
 ## Step 7: Preview the Page
 

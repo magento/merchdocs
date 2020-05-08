@@ -17,16 +17,9 @@ _Address Book Mapping_
 |Add Guests To|Website|Specifies which address book is used for guest data.|
 
 ## Sync
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/config-engagement-cloud-sync-settings-sync.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
-![]({% link images/images/config-engagement-cloud-sync-settings-sync.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
+
 ![]({% link images/images-b2b/config-engagement-cloud-sync-settings-sync.png %}){: .zoom}
-<!--{% endif %}-->
-_Sync_
+_Sync_{:.caption-edition-b2b}
 
 Choose 'Yes' for each sync type that you want to enable. When first enabled, an hour delay ensures that all contact data is included in the import.
 
@@ -38,9 +31,13 @@ Choose 'Yes' for each sync type that you want to enable. When first enabled, an 
 |Order Enabled|Website|Specifies if Magento order data is synchronized with Engagement Cloud. Options: Yes / No|
 |Wishlist Enabled|Website|Specifies if Magento wish list data is synchronized with Engagement Cloud. Options: Yes / No|
 |Review Enabled|Website|Specifies if Magento product review data is synchronized with Engagement Cloud. Options: Yes / No|
-|Catalog Enabled|Website|Specifies if Magento catalog data is synchronized with Engagement Cloud. Options: Yes / No|<!--{% if "Default.B2B Only" contains site.edition %}-->
+|Catalog Enabled|Website|Specifies if Magento catalog data is synchronized with Engagement Cloud. Options: Yes / No|
+
+{: .edition-b2b }
+These are options are available in Magento Commerce with B2B.
+
 |Shared Catalog Enabled|Website|Specifies if Magento shared catalog data is synchronized with Engagement Cloud. Options: Yes / No|
-|B2B Quote Enabled|Website|Specifies if Magento B2B quote data is synchronized with Engagement Cloud. Options: Yes / No|<!--{% endif %}-->
+|B2B Quote Enabled|Website|Specifies if Magento B2B quote data is synchronized with Engagement Cloud. Options: Yes / No|
 
 ## Create Address Book
 
