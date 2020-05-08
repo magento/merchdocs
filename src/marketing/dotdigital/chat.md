@@ -31,7 +31,11 @@ _Live Chat from dotdigital Account_
 
 The following steps continue from the Chat Settings section in the Magento configuration, but open the Chat Settings page from your dotdigital account.
 
-1. To **Configure Chat Widget** from the Chat Settings section of the DOTDIGITAL configuration, click <span class="btn">Configure</span>.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+
+1. In the left panel, expand **DOTDIGITAL** and choose **Chat Settings**.
+
+1. For **Configure Chat Widget**, click <span class="btn">Configure</span>.
 
    Follow the instructions in the dotdigital knowledge base to [customize the chat widget][1].
 
