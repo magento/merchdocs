@@ -39,7 +39,7 @@ The following steps continue from the Chat Settings section in the Magento confi
 
    Follow the instructions in the dotdigital knowledge base to [customize the chat widget][1].
 
-1. To **Configure Chat Teams**, click <span class="btn">Configure</span>.
+1. For **Configure Chat Teams**, click <span class="btn">Configure</span>.
 
    Follow the instructions in the dotdigital knowledge base to [add multiple chat teams][2].
 
