@@ -8,6 +8,8 @@ pages:
     url: "/getting-started/resources.html"
   - label: Join the Conversation!
     url: "/getting-started/magento-ecosystem.html"
+  - label: Contribute to the Docs
+    url: "/getting-started/contribute.html"
   - label: About This Release
     url: "/magento/about-this-release.html"
     children:
@@ -336,15 +338,15 @@ pages:
           url: "/configuration/sales/klarna.html"
         - label: Amazon Pay
           url: "/configuration/sales/amazon-pay.html"
-        - label: Authorize.Net Direct Post (Deprecated)
+        - label: Authorize.Net Direct Post - Deprecated
           url: "/configuration/sales/authorize-net-direct-post.html"
-        - label: Authorize.Net
+        - label: Authorize.Net - Deprecated
           url: "/configuration/sales/authorize-net.html"
-        - label: CyberSource (Deprecated)
+        - label: CyberSource - Deprecated
           url: "/configuration/sales/cybersource.html"
-        - label: eWAY (Deprecated)
+        - label: eWAY - Deprecated
           url: "/configuration/sales/eway.html"
-        - label: Worldpay
+        - label: Worldpay - Deprecated
           url: "/configuration/sales/worldpay.html"
     - label: 3D Secure
       url: "/configuration/sales/3d-secure.html"
@@ -397,6 +399,8 @@ pages:
     children:
     - label: Magento Web API
       url: "/configuration/services/magento-web-api.html"
+    - label: Magento Services
+      url: "/configuration/services/saas.html"
     - label: OAuth
       url: "/configuration/services/oauth.html"
     - label: Channels
