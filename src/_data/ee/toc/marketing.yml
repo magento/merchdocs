@@ -249,9 +249,11 @@ pages:
             url: "/sales-channels/asc/amazon-manually-update-incomplete-listing.html"
           - label: View Details
             url: "/sales-channels/asc/product-listing-details.html"
-      - label: Manage Orders and Fulfillment
+      - label: Manage Orders
         url: "/sales-channels/asc/managing-orders.html"
         children:
+        - label: View Amazon Orders
+          url: "/sales-channels/asc/amazon-orders-all.html"
         - label: View Amazon Order Details
           url: "/sales-channels/asc/amazon-order-details.html"
         - label: Common Order Processing Tasks
@@ -511,7 +513,7 @@ pages:
         url: "/marketing/yotpo-features.html"
       - label: Integration / Setup
         url: "/marketing/yotpo-connect.html"
-      - label: Magento Settings
+      - label: Magento Admin Settings
         url: "/marketing/yotpo-settings.html"
       - label: Yotpo Reviews
         url: "/marketing/yotpo-glance.html"
