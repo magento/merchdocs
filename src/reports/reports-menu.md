@@ -56,4 +56,4 @@ Integrated [Business Intelligence]({% link reports/business-intelligence.md %}) 
 
 ### Customer Engagement
 
-The [Customer Engagement reporting]({% link reports/customer-engagement.md %}) provides data import and report options for [Engagement Cloud]({% link marketing/engagement-cloud.md %}).
+The [Customer Engagement reporting]({% link reports/customer-engagement.md %}) provides data import and report options for [Engagement Cloud]({% link marketing/dotdigital/engagement-cloud.md %}).

@@ -54,4 +54,4 @@ Leverage user-generated [product reviews]({% link marketing/product-reviews.md -
 
 ### Customer Engagement
 
-Create personalized, [automated engagement]({% link marketing/engagement-cloud.md %}) campaigns that exceed customer expectations. Connect your data to boost ROI and increase customer lifetime value.
+Use dotdigital Engagement Cloud to create personalized, [automated engagement]({% link marketing/dotdigital/engagement-cloud.md %}) campaigns that exceed customer expectations. Connect your data to boost ROI and increase customer lifetime value.
