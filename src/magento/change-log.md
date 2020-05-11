@@ -4,6 +4,15 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what's new.
 
+## May 2020
+
+### Updated topics
+
+{: .topics-table }
+|Topic |Change|
+|--- |--- |
+|[Catalog]({% link configuration/catalog/catalog.md %}) (reference)<br />[Product Listings]({% link catalog/navigation-product-listings.md %})|Added "Remember Catalog Pagination" field to the Catalog > Storefront configuration; updated screenshot and instructions for product listings.|
+
 ## April 2020
 
 ### Product releases
@@ -36,7 +45,6 @@ Our documentation is continually updated with new topics, clarifications, and co
 {: .topics-table }
 |Topic |Change|
 |--- |--- |
-|[Catalog]({% link configuration/catalog/catalog.md %}) (reference)<br />[Product Listings]({% link catalog/navigation-product-listings.md %})|Added "Remember Catalog Pagination" field to the Catalog > Storefront configuration; updated screenshot and instructions for product listings.|
 |[Setting Up Klarna]({% link payment/klarna-setup.md %})<br />[Klarna]({% link configuration/sales/klarna.md %}) (reference)|Corrected our instructions and configuration field description for merchants to enter their Klarna API Username (UID) in the Magento Klarna API Merchant ID field.|
 |[Configure Global Options]({% link catalog/inventory-options-global.md %})|Added information for the new _Synchronize with Catalog_ option provided by Inventory Management. |<!--{% if "Default.EE-B2B" contains site.edition %}-->
 |[Banner]({% link cms/page-builder-media-banner.md %})<br/>[Row]({% link cms/page-builder-layout-row.md %})<br/>[Slider]({% link cms/page-builder-media-slider.md %})|Updated content for new _Minimum Height_ option and support for full-height functionality. Additional content for new video background feature.|
