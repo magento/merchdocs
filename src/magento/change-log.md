@@ -11,7 +11,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 {: .topics-table }
 |Topic |Change|
 |--- |--- |
-|[Catalog]({% link configuration/catalog/catalog.md %}) (reference)<br />[Product Listings]({% link catalog/navigation-product-listings.md %})|Added "Remember Catalog Pagination" field to the Catalog > Storefront configuration; updated screenshot and instructions for product listings.|
+|[Catalog]({% link configuration/catalog/catalog.md %}) (reference)<br />[Product Listings]({% link catalog/navigation-product-listings.md %})|Added "Remember Category Pagination" field to the Catalog > Storefront configuration; updated screenshot and instructions for product listings.|
 
 ## April 2020
 
