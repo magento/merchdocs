@@ -37,7 +37,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 - [Templates]({% link cms/page-builder-templates.md %})
 <!--{% endif %}-->
 - [Magento Services]({% link configuration/services/saas.md %})
-- [Data Mapping]({% link marketing/engagement-cloud-data-mapping.md %})
+- [Data Mapping]({% link marketing/dotdigital/data-mapping.md %})
 - [Renewed Products]({% link sales-channels/asc/renewed-products.md %})
 
 ### Updated topics
@@ -55,7 +55,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Vertex Cloud]({% link tax/vertex.md %})|Updated content for release features and fixes.|
 |[Configuring Storefront Address Validation]({% link tax/vertex-configure-address.md %})|Updated to include Vertex address validation for customer accounts.|
 |[Amazon Pay]({% link payment/amazon-pay.md %})|Updated content for release features and fixes.|
-|[Engagement Cloud]({% link marketing/engagement-cloud.md %})<br />[Sync Settings]({% link configuration/engagement-cloud/sync-settings.md %}) (reference)<br />[Developer]({% link configuration/engagement-cloud/developer.md %}) (reference)|Updated dotdigital Changes In the Latest Release and added new B2B functionality to the configuration.|
+|[dotdigital Engagement Cloud]({% link marketing/dotdigital/engagement-cloud.md %})<br />[dotdigital Chat]({% link marketing/dotdigital/chat.md %})<br />[Sync Settings]({% link configuration/dotdigital/sync-settings.md %}) (reference)<br />[Developer]({% link configuration/dotdigital/developer.md %}) (reference)|Updated dotdigital Changes In the Latest Release and added new B2B functionality to the configuration.|
 |[Coupon Codes]({% link marketing/price-rules-cart-coupon.md %})|Added new dotdigital Coupon Code URL Builder|
 |[Klarna]({% link payment/klarna.md %})<br />[Setting Up Klarna]({% link payment/klarna-setup.md %})<br/>[Klarna]({% link configuration/sales/klarna.md %}) (reference)|Updated Changes In the Latest Release and configuration section titles and field labels.|
 |[Yotpo Product Reviews]({% link marketing/yotpo-reviews-intro.md %})<br/>[Yotpo Default Settings]({% link marketing/yotpo-settings.md %})<br/>[Reviews and Visual Marketing]({% link configuration/yotpo/reviews-visual-marketing.md %}) (reference)|Updated content for release enhancements and fixes for Yotpo product reviews.|
@@ -152,8 +152,8 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 - [Adobe Stock Integration]({% link cms/adobe-stock.md %})
 - [Using Adobe Stock Images]({% link cms/adobe-stock-manage.md %})
-- [Engagement Cloud Chat]({% link marketing/engagement-cloud-chat.md %})
-- [Chat Settings]({% link configuration/engagement-cloud/chat-settings.md %})
+- [Engagement Cloud Chat]({% link marketing/dotdigital/chat.md %})
+- [Chat Settings]({% link configuration/dotdigital/chat-settings.md %})
 - [Configuring Storefront Address Validation]({% link tax/vertex-configure-address.md %})
 - [Vertex Address Validation]({% link configuration/sales/address-validation.md %})
 - [Yotpo Reporting and Analytics]({% link marketing/yotpo-reporting.md %})
@@ -169,7 +169,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Managing Requisition Lists]({% link customers/account-dashboard-requisition-lists-manage.md %}) <br/>[Customers]({% link configuration/customers.md %})|Added information for exporting requisition lists.|<!--{% endif %}-->
 |[Developer]({% link configuration/advanced/developer.md %})|Added content for the Cache User Defined Attributes field.|
 |[Elasticsearch]({% link catalog/search-elasticsearch.md %}) <br/>[Catalog]({% link configuration/catalog/catalog.md %}) (reference)|Added content to describe usage of the new `Minimum terms to match` field.|
-|[Engagement Cloud]({% link marketing/engagement-cloud.md %})<br />[Setting Up Engagement Cloud]({% link marketing/engagement-cloud-setup.md %})<br />[Email Template]({% link configuration/engagement-cloud/email-templates.md %}) (reference)<br />[Developer]({% link configuration/engagement-cloud/developer.md %}) (reference)|Updated content for release features and fixes, including the new Chat feature.|
+|[Engagement Cloud]({% link marketing/dotdigital/engagement-cloud.md %})<br />[Setting Up Engagement Cloud]({% link marketing/dotdigital/setup.md %})<br />[Email Template]({% link configuration/dotdigital/email-templates.md %}) (reference)<br />[Developer]({% link configuration/dotdigital/developer.md %}) (reference)|Updated content for release features and fixes, including the new Chat feature.|
 |[Vertex Cloud]({% link tax/vertex.md %})|Updated content for release features and fixes.|
 |[Klarna]({% link payment/klarna.md %}) <br/>[Setting Up Klarna]({% link payment/klarna-setup.md %}) <br/>[Klarna]({% link configuration/sales/klarna.md %}) (reference)|Updated content for the new configuration field to Klarna Payments.|
 |[Yotpo Product Reviews]({% link marketing/yotpo-reviews-intro.md %}) <br/>[Review Reports]({% link reports/review-reports.md %}) <br/>[Business Intelligence Tools]({% link reports/business-intelligence.md %}) |Updates for Yotpo Product Reviews, including connections to **Yotpo Reviews** and **Yotpo Analytics** links in the Admin > Reports section.|
@@ -273,10 +273,10 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[URL Rewrites]({% link marketing/url-rewrite.md %}) <br/>[Product Rewrites]({% link marketing/url-rewrite-product.md %}) <br/>[Category Rewrites]({% link marketing/url-rewrite-category.md %}) |Added note about performance issue and link to detailed information about automatic redirects.|
 |[Vertex Cloud]({% link tax/vertex.md %})|Added release notes for Vertex Cloud integration for new flexible fields configuration.|
 |[Configuring Magento]({% link tax/vertex-configure-magento.md %}) <br/>[Tax]({% link configuration/sales/tax.md %}) (reference)|Added new _Vertex Flexible Fields_ section.|
-|[Engagement Cloud]({% link marketing/engagement-cloud.md %})|Updated Changes in the Latest Release.|
-|Engagement Cloud - [Data Mapping]({% link configuration/engagement-cloud/data-mapping.md %})|Completed configuration field descriptions, and added the following new fields: First Category Purchased / Last Category Purchased.|
-|Engagement Cloud - [Developer]({% link configuration/engagement-cloud/developer.md %})|Completed configuration field descriptions, and added the following new field to the Import Settings section: Enable Subscribers Sales Data Sync.|
-|Engagement Cloud -<br/>[Abandoned Cart]({% link configuration/engagement-cloud/abandoned-carts.md %})<br/>[Automation]({% link configuration/engagement-cloud/automation.md %})<br/>[Configuration]({% link configuration/engagement-cloud/configuration.md %})<br/>[Dynamic Content]({% link configuration/engagement-cloud/dynamic-content.md %})<br/>[Email Templates]({% link configuration/engagement-cloud/email-templates.md %})<br/>[Sync Settings]({% link configuration/engagement-cloud/sync-settings.md %})<br/>[Transactional Emails]({% link configuration/engagement-cloud/transactional-emails.md %})|Completed configuration field descriptions.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
+|[Engagement Cloud]({% link marketing/dotdigital/engagement-cloud.md %})|Updated Changes in the Latest Release.|
+|Engagement Cloud - [Data Mapping]({% link configuration/dotdigital/data-mapping.md %})|Completed configuration field descriptions, and added the following new fields: First Category Purchased / Last Category Purchased.|
+|Engagement Cloud - [Developer]({% link configuration/dotdigital/developer.md %})|Completed configuration field descriptions, and added the following new field to the Import Settings section: Enable Subscribers Sales Data Sync.|
+|Engagement Cloud -<br/>[Abandoned Cart]({% link configuration/dotdigital/abandoned-carts.md %})<br/>[Automation]({% link configuration/dotdigital/automation.md %})<br/>[Configuration]({% link configuration/dotdigital/configuration.md %})<br/>[Dynamic Content]({% link configuration/dotdigital/dynamic-content.md %})<br/>[Email Templates]({% link configuration/dotdigital/email-templates.md %})<br/>[Sync Settings]({% link configuration/dotdigital/sync-settings.md %})<br/>[Transactional Emails]({% link configuration/dotdigital/transactional-emails.md %})|Completed configuration field descriptions.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
 |[Add Products]({% link cms/page-builder-add-content-products.md %})|Updated information to include a new Page Builder feature used to configure the sort order for products in the list.|
 |[HTML Code]({% link cms/page-builder-elements-html-code.md %}) |Updated information for new buttons for inserting images, widgets, variables in Page Builder HTML content type.|<!--{% endif %}-->
 |[Assigning Sources per Product]({% link catalog/inventory-product-sources.md %}) |UI updates for assigning sources for products.|
@@ -390,16 +390,16 @@ Our documentation is continually updated with new topics, clarifications, and co
 - [Rotating Dynamic Blocks]({% link cms/dynamic-blocks-rotate.md %})
 - [Dynamic Blocks in Price Rules]({% link cms/dynamic-blocks-price-rules.md %})
 <!--{% endif %}-->
-- [Engagement Cloud]({% link marketing/engagement-cloud.md %})
-- [Setting Up Engagement Cloud]({% link marketing/engagement-cloud-setup.md %})
-- [Account Details]({% link marketing/engagement-cloud-account-details.md %})
-- [API User]({% link marketing/engagement-cloud-account-api-users.md %})
-- [Transactional Email Users]({% link marketing/engagement-cloud-account-transactional-email-users.md %})
-- [Create a Campaign]({% link marketing/engagement-cloud-campaign-create.md %})
-- [Import Your Contacts]({% link marketing/engagement-cloud-contacts.md %})
-- [Schedule a Campaign]({% link marketing/engagement-cloud-campaign-schedule.md %})
-- [Automate a Campaign]({% link marketing/engagement-cloud-campaign-automate.md %})
-- [Exclusion Rules]({% link marketing/engagement-cloud-exclusion-rules.md %})
+- [Engagement Cloud]({% link marketing/dotdigital/engagement-cloud.md %})
+- [Setting Up Engagement Cloud]({% link marketing/dotdigital/setup.md %})
+- [Account Details]({% link marketing/dotdigital/account-details.md %})
+- [API User]({% link marketing/dotdigital/account-api-users.md %})
+- [Transactional Email Users]({% link marketing/dotdigital/account-transactional-email-users.md %})
+- [Create a Campaign]({% link marketing/dotdigital/campaign-create.md %})
+- [Import Your Contacts]({% link marketing/dotdigital/contacts.md %})
+- [Schedule a Campaign]({% link marketing/dotdigital/campaign-schedule.md %})
+- [Automate a Campaign]({% link marketing/dotdigital/campaign-automate.md %})
+- [Exclusion Rules]({% link marketing/dotdigital/exclusion-rules.md %})
 - [Security]({% link configuration/security.md %}) (reference)
 - [2FA]({% link configuration/security/2fa.md %}) (reference)
 - [Google reCAPTCHA]({% link configuration/security/google-recaptcha.md %}) (reference)
@@ -411,7 +411,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |--- |--- |
 |[Google Settings for GDPR]({% link stores/compliance-privacy-google.md %})|Moved this topic from the Getting Started/Industry Compliance section to Marketing/Google Tools.|
 |[GDPR Compliance]({% link stores/compliance-gdpr.md %})|Added "Best Practice" checklist.|
-|[dotmailer]({% link marketing/engagement-cloud.md %})|Engagement Cloud by dotdigital now replaces dotmailer.|
+|[dotmailer]({% link marketing/dotdigital/engagement-cloud.md %})|Engagement Cloud by dotdigital now replaces dotmailer.|
 |[Setting up Amazon Pay]({% link payment/amazon-pay-setup.md %})|Added configuration option for multi-currency.|
 |[Amazon Pay]({% link payment/amazon-pay.md %})|Added release information for Amazon Pay including multi-currency and Klarna support.|
 |[Shipping Partners]({% link shipping/magento-shipping-carriers.md %})|Updated screenshots.|

@@ -1,5 +1,7 @@
 ---
 title: Data Mapping
+redirect_from:
+  - /marketing/engagement-cloud-adata-mapping.html
 ---
 
 Data mapping establishes the relationship between customer information and activity from all stores related to your Magento website and specific contact fields in the dotdigital database. Data fields can be mapped manually or automatically.
@@ -15,7 +17,7 @@ The configuration settings in the Data Mapping section are used to map fields ma
 1. In the **Sync Settings** section under _Admin Task_, click **Automap Data Fields** <span class="btn">Run Now</span>.
 
    ![]({% link images/images/config-engagement-cloud-developer-sync-settings.png %}){: .zoom}
-   [_Sync Settings - Admin Task_]({% link configuration/engagement-cloud/developer.md %})
+   [_Sync Settings - Admin Task_]({% link configuration/dotdigital/developer.md %})
 
 ## Map data fields manually
 
@@ -23,7 +25,7 @@ The configuration settings in the Data Mapping section are used to map fields ma
 
 1. In the left panel, expand **DOTDIGITAL** section and choose **Data Mapping**.
 
-1. For each field in the following sections, choose the corresponding data field from your dotdigital Engagement Cloud account.
+1. For each field in the following sections, choose the corresponding data field from your dotdigital dotdigital account.
 
    -  Customer Information
    -  Address
@@ -33,7 +35,7 @@ The configuration settings in the Data Mapping section are used to map fields ma
    -  Enterprise Data<!--{%- endif -%}-->
 
    ![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-customer-information.png %}){: .zoom}
-   [_Data Mapping_]({% link configuration/engagement-cloud/data-mapping.md %})
+   [_Data Mapping_]({% link configuration/dotdigital/data-mapping.md %})
 
 ## Sync Data Mappings
 
@@ -66,7 +68,7 @@ The configuration settings in the Data Mapping section are used to map fields ma
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 ![]({% link images/images-b2b/config-engagement-cloud-sync-settings-sync.png %}){: .zoom}
 <!--{% endif %}-->
-[_Sync_]({% link configuration/engagement-cloud/sync-settings.md %})
+[_Sync_]({% link configuration/dotdigital/sync-settings.md %})
 
 <!--{% if "Default.B2B Only" contains site.edition %}-->
 
@@ -97,7 +99,7 @@ The configuration settings in the Data Mapping section are used to map fields ma
 1. Set **Shared Catalog Enabled** to `Yes`.
 
    ![]({% link images/images-b2b/config-dotdigital-sync-settings-sync.png %}){: .zoom}
-   [_Sync Settings - Admin Task_]({% link configuration/engagement-cloud/developer.md %})
+   [_Sync Settings - Admin Task_]({% link configuration/dotdigital/developer.md %})
 
 1. Click <span class="btn">Save Config</span>.
 
@@ -110,7 +112,7 @@ The configuration settings in the Data Mapping section are used to map fields ma
    -  In the Magento configuration, go to **DOTDIGITAL** > **Developer** > **Sync Settings**. Under _Manually Run Sync_, click **Catalog Sync** <span class="btn">Run Now</span>.
 
    ![]({% link images/images/config-dotdigital-developer-sync-settings-manually-run-sync.png %}){: .zoom}
-   [_Manually Run Sync_]({% link configuration/engagement-cloud/developer.md %})
+   [_Manually Run Sync_]({% link configuration/dotdigital/developer.md %})
 
 1. In your dotdigital account, go to **Ecommerce** > **Catalogs**.
 
@@ -125,7 +127,7 @@ The configuration settings in the Data Mapping section are used to map fields ma
 1. Before continuing, verify that you have [Quote]({% link sales/quotes.md %}) data available to sync with dotdigital. If not, wait until there are quotes available.
 
    ![]({% link images/images-b2b/quote-grid-new.png %}){: .zoom}
-   [_Quotes_]({% link configuration/engagement-cloud/developer.md %})
+   [_Quotes_]({% link configuration/dotdigital/developer.md %})
 
 1. In the Magento configuration, go to **DOTDIGITAL** > **Sync Settings**.
 

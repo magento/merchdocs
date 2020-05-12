@@ -1,10 +1,10 @@
 ---
 title: Exclusion Rules
 redirect_from:
-  - /marketing/email-marketing-automation-exclusion-rules.html
+  - /marketing/engagement-cloud-exclusion-rules.html
 ---
 
-Create an exclusion rule in Magento to exclude abandoned cart and review emails from being sent under certain conditions. A rule describes the conditions that must be met to trigger the action. For example, a rule might exclude all abandoned carts with a subtotal that is equal to, or less than ten.
+Create an exclusion rule in Magento to prevent abandoned cart and review emails from being sent from dotdigital [campaigns]({% link marketing/dotdigital/campaign-create.md %}) under certain conditions. A rule describes the conditions that must be met to trigger the action. For example, a rule might exclude all abandoned carts with a subtotal that is equal to, or less than ten.
 
 ![Customer engagement - exclusion rules]({% link images/images/engagement-cloud-exclusion-rules.png %}){: .zoom}
 _Exclusion Rules_

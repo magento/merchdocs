@@ -1,8 +1,10 @@
 ---
 title: Abandoned Carts
+redirect_from:
+  - /configuration/engagement-cloud/abandoned-carts.html
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Abandoned Carts
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdigital]({% link configuration/dotdigital.md %}) > Abandoned Carts
 
 ## Abandoned Cart Program
 
@@ -11,7 +13,7 @@ _Abandoned Cart Program_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enrol abandoned cart to|Store View|Determines the [CartInsight](https://support.dotdigital.com/hc/en-gb/articles/360000456890-Getting-started) program that is triggered when a cart is abandoned. This option is disabled until an active abandoned cart program is available in your Engagement Cloud account.  Options: (Available programs)|
+|Enrol abandoned cart to|Store View|Determines the [CartInsight](https://support.dotdigital.com/hc/en-gb/articles/360000456890-Getting-started) program that is triggered when a cart is abandoned. This option is disabled until an active abandoned cart program is available in your dotdigital  account. Options: (Available programs)|
 |Enrol abandoned cart after|Store view|Determines the length of delay before an abandoned cart is enrolled in the program. Options: 15 minutes / 30 minutes / 1 hour / 6 hours / 12 Hours
 
 ## Customers Email series

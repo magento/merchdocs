@@ -1,5 +1,7 @@
 ---
 title: Account Details
+redirect_from:
+  - /marketing/engagement-cloud-account-details.html
 ---
 
 Use the Account option on the Settings menu to update your information and settings, and view your account dashboard.
@@ -10,7 +12,7 @@ Use the Account option on the Settings menu to update your information and setti
 
 1. In the menu, choose **Account**.
 
-    ![Engagement Cloud - account]({% link images/images/engagement-cloud-account.png %}){: .zoom}
+    ![dotdigital - account]({% link images/images/engagement-cloud-account.png %}){: .zoom}
     _Account_
 
 1. On the Account page, choose the **Billing details** tab.
@@ -29,7 +31,7 @@ Use the Account option on the Settings menu to update your information and setti
 
 |Company name|Your company name.|
 |Preferred contact number|Your preferred business contact telephone number, including area code.|
-|Purchase order number|The purchase order assigned by your company for making payments for your Engagement Cloud account.|
+|Purchase order number|The purchase order assigned by your company for making payments for your dotdigital account.|
 |Tax status|Options: I am a UK registered organisation / I am a EU registered organisation / I am an IE registered organisation / I am exempt from paying tax / I am an AUS registered organisation / I am an AUS registered organisation, exempt from paying tax|
 
 ### Billing Address

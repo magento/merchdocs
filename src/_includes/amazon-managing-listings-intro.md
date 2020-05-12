@@ -3,4 +3,4 @@ The _Product Listings_ page contains several tabs from which you can view the st
 
 The listing tasks available differ slightly on each tab, but the [workspace controls]({% link sales-channels/asc/workspace-controls.md %}) are the same and allow you to customize the data that shows for your listings.
 
-Under **Actions**, options can apply the action to multiple listings, while options under **Select** in the _Action_ column apply the action only to the individual listing.
+Options under **Actions** can apply the action to multiple listings, while options under **Select** in the _Action_ column apply the action only to the individual listing.
