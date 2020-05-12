@@ -38,9 +38,13 @@ _Products Displayed as a Grid_
 
 1. For **Products per page on List Default Value**, enter the default number of products that appear in the list, per page.
 
+1. Set **Product Listing Sorted by** to the default attribute that is initially used to sort the list.
+
 1. To give customers the option to list all products, set **Allow All Products on Page** to `Yes`.
 
-1. Set **Product Listing Sorted by** to the default attribute that is initially used to sort the list.
+1. If you want to retain all pagination settings as customers browse through catalog listings, clear the **Use system value** checkbox. Then, set **Remember Category Pagination** to `Yes`.
+
+   Enabling this setting ensures that the number of products displayed in a list or grid is retained as shoppers browse from one category to another. By default, this field is set to `No` because it uses more cache storage and can impact the way pages are indexed by search engines.
 
 1. If using a [flat catalog]({% link catalog/catalog-flat.md %}) (**not recommended**), do the following:
 
@@ -56,7 +60,7 @@ _Products Displayed as a Grid_
 
 |Control|Description|
 |--- |--- |
-|View As|Displays the products  in either a grid or list format.|
+|View As|Displays the products in either a grid or list format.|
 |Sort By|Changes the sort order of the list.|
 |Show Per Page|Determines how many products appear per page.|
 |Pagination Links|Navigation links to other pages.|
