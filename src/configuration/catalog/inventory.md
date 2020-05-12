@@ -16,6 +16,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Display Out of Stock Products|Global|If set to “Yes”, displays products that are out of stock. If product alerts are also enabled, customers can sign up to be notified when the product becomes available. Options: Yes / No|
 |Only X left Threshold|Website|Establishes the threshold for the “Only x left” message. For example, if set to 3, the message appears when there are three or fewer of an item in stock. The message does not appear if the value is set to 0.|
 |Display products availability in Stock on Storefront|Store View|If set to “Yes”, displays an “In Stock or “Out of Stock” message on the product page. Options: Yes / No|
+|Synchronize with Catalog|Global|If set to “Yes”, inventory data will be adjusted according to the catalog changes (such as product removed, product SKU changed, and product type changed) and keeps consistency between inventory and catalog. Options: Yes / No|
 
 ## Product Stock Options
 
