@@ -16,7 +16,7 @@ _Checkout as Guest_
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Checkout Options** section.
 
     ![]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
-    _[Checkout Options]({% link configuration/sales/checkout.md %})_{:.caption-edition-ee}
+    _[Checkout Options]({% link configuration/sales/checkout.md %})_{:.ee-only}
 
 1. If necessary, clear the **Use system value** checkbox.
 

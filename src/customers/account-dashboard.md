@@ -4,14 +4,13 @@ title: Account Dashboard
 
 Customers can manage and monitor their own information and activities from their account dashboard. Customers can reorder, track orders, manage shipping addresses and payment methods, product reviews, newsletter subscriptions, and more.
 
-{: .edition-b2b }
-For a B2B store, the full range of B2B options are available only for customers who are associated with a company. Otherwise, the dashboard options for individual accounts are the same as those available to Magento Commerce customers.
+- {:.b2b-only}The full range of B2B options are available only for customers who are associated with a company. Otherwise, the dashboard options for individual accounts are the same as those available to Magento Commerce customers.
 
 ![]({% link images/images-ee/customer-account-dashboard.png %}){: .zoom}
-_Account Dashboard_{:.caption-edition-ee}
+_Account Dashboard_{:.ee-only}
 
 ![]({% link images/images-b2b/company-admin-account-dashboard.png %}){: .zoom}
-_Company Account Dashboard_{:.caption-edition-b2b}
+_Company Account Dashboard_{:.b2b-only}
 
 | Section   | Description  |
 |-----------|---------- ---|
@@ -24,25 +23,17 @@ _Company Account Dashboard_{:.caption-edition-b2b}
 | [Billing Agreements]({% link customers/account-dashboard-billing-agreements.md %}) | Displays a list of any customer billing agreements. |
 | [My Product Reviews]({% link marketing/product-reviews.md %}) | Displays a list of all product reviews submitted by the customer, with a link to each.  |
 | [Newsletter Subscriptions]({% link marketing/newsletters.md %})  | Lists all available newsletters. Those to which the customer is currently subscribed have a checkmark. |
-
-{: .edition-ee }
-These are options in Magento Commerce only.
-
-| [Order by SKU]({% link customers/account-dashboard-order-by-sku.md %}) | Gives you the ability to add individual items to the cart by SKU or to import a list of products to be ordered from a CSV file. |
-| [Store Credit]({% link customers/account-dashboard-store-credit.md %}) | Displays the current amount of store credit from returns, refunds, and redeemed gift card that can be applied to purchases.  |
-| [Stored Payment Methods]({% link customers/account-dashboard-stored-payment-methods.md %}) | Lists any payment methods with secure vaults that are used by the customer to store credit card information.  |
-| [Gift Card]({% link catalog/product-gift-card.md %}) | Allows customers to check the current balance on available gift cards and to redeem gift cards for store credit. |
-| [Reward Points]({% link marketing/rewards-loyalty.md %}) | Lists all reward points the customer has earned that can be applied toward purchases.   |
-| [Gift Registry]({% link marketing/gift-registries.md %}) | Used to list and maintains gift registries, and  add new ones. |
-| [My Invitations]({% link marketing/invitations.md %}) | Lists all invitations the customer has created and sent for scheduled events. |
-
-{: .edition-b2b }
-These are options in Magento Commerce for B2B only.
-
-| [My Quotes]({% link customers/account-dashboard-quotes.md %})| (Companies Only) Lists all quotes submitted by the customer, with a link to detailed information. |
-| [My Requisition Lists]({% link customers/account-dashboard-requisition-lists.md %})  | (Companies Only) Maintains all requisition lists created by the customer.  |
-| [Company Profile]({% link customers/account-dashboard-company-profile.md %}) | (Companies Only) Manage your company information, including the company name and address, company admin contact information, and payment information.  |
-| [Company Credit]({% link customers/account-dashboard-company-credit.md %})  | (Companies Only) The Company Credit section shows the current outstanding balance, available credit, and the credit limit that is allocated to the account, followed by a list of outstanding invoices. The Company Credit section appears in the dashboard only when [Payment on Account]({% link payment/payment-on-account.md %}) is enabled in the configuration. |
-| [Company Structure]({% link customers/account-company-structure.md %}) | (Companies Only) Used by the company admin to define the business structure of the company.  |
-| [Company Users]({% link customers/account-company-users.md %}) | (Companies Only) Used by the company admin to create user accounts for company buyers.  |
-| [Roles and Permissions]({% link customers/account-company-roles-permissions.md %}) | (Companies Only) Used by the company admin to define roles   for company users with various levels of permission. |
+| <span class="ee-only">[Order by SKU]({% link customers/account-dashboard-order-by-sku.md %})</span> | Gives you the ability to add individual items to the cart by SKU or to import a list of products to be ordered from a CSV file. |
+| <span class="ee-only">[Store Credit]({% link customers/account-dashboard-store-credit.md %})</span> | Displays the current amount of store credit from returns, refunds, and redeemed gift card that can be applied to purchases.  |
+| <span class="ee-only">[Stored Payment Methods]({% link customers/account-dashboard-stored-payment-methods.md %})</span> | Lists any payment methods with secure vaults that are used by the customer to store credit card information.  |
+| <span class="ee-only">[Gift Card]({% link catalog/product-gift-card.md %})</span> | Allows customers to check the current balance on available gift cards and to redeem gift cards for store credit. |
+| <span class="ee-only">[Reward Points]({% link marketing/rewards-loyalty.md %})</span> | Lists all reward points the customer has earned that can be applied toward purchases.   |
+| <span class="ee-only">[Gift Registry]({% link marketing/gift-registries.md %})</span> | Used to list and maintains gift registries, and  add new ones. |
+| <span class="ee-only">[My Invitations]({% link marketing/invitations.md %})</span> | Lists all invitations the customer has created and sent for scheduled events. |
+| <span class="b2b-only">[My Quotes]({% link customers/account-dashboard-quotes.md %})| (Companies Only) Lists all quotes submitted by the customer, with a link to detailed information. |
+| <span class="b2b-only">[My Requisition Lists]({% link customers/account-dashboard-requisition-lists.md %})</span> | (Companies Only) Maintains all requisition lists created by the customer.  |
+| <span class="b2b-only">[Company Profile]({% link customers/account-dashboard-company-profile.md %})</span> | (Companies Only) Manage your company information, including the company name and address, company admin contact information, and payment information.  |
+| <span class="b2b-only">[Company Credit]({% link customers/account-dashboard-company-credit.md %})</span>  | (Companies Only) The Company Credit section shows the current outstanding balance, available credit, and the credit limit that is allocated to the account, followed by a list of outstanding invoices. The Company Credit section appears in the dashboard only when [Payment on Account]({% link payment/payment-on-account.md %}) is enabled in the configuration. |
+| <span class="b2b-only">[Company Structure]({% link customers/account-company-structure.md %})</span> | (Companies Only) Used by the company admin to define the business structure of the company.  |
+| <span class="b2b-only">[Company Users]({% link customers/account-company-users.md %})</span> | (Companies Only) Used by the company admin to create user accounts for company buyers.  |
+| <span class="b2b-only">[Roles and Permissions]({% link customers/account-company-roles-permissions.md %})</span> | (Companies Only) Used by the company admin to define roles   for company users with various levels of permission. |

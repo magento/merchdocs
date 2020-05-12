@@ -20,6 +20,6 @@ Registry visitors who want to make a purchase can add the item to their carts di
 
 1. **Customers create their own registries**. A customer creates a new gift registry from their store account for an upcoming occasion, and completes the required fields in each section of the gift registry. After adding items to the registry, it can be shared with friends and family.
 
-1. **Invitations are sent**. A link to the gift registry is included in each invitation. If [Gift Registry Search]({% link marketing/gift-registry-search.md -%}) is available in the store, customers can search for specific gift registries by name, email address, or gift registry ID.
+1. **Invitations are sent**. A link to the gift registry is included in each invitation. If [Gift Registry Search]({% link marketing/gift-registry-search.md %}) is available in the store, customers can search for specific gift registries by name, email address, or gift registry ID.
 
 1. **Invitation recipients place orders**. Those who receive an invitation can place an order for any item directly from the gift registry. As items are sold, Magento updates the gift registry item counts, and notifies the gift registry owner.

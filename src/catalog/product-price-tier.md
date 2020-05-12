@@ -7,7 +7,7 @@ Tier pricing lets you offer a quantity discount from a product listing or produc
 If you have many products to update, it is most efficient to import the tier price changes, rather than enter them individually. For more information, see [Importing Tier Prices]({% link system/data-import-price-tier.md %}).
 
 ![]({% link images/images-ee/storefront-tier-pricing-water-bottle.png %}){: .zoom}
-_Tier Price on Storefront Product Page_{:.caption-edition-ee}
+_Tier Price on Storefront Product Page_{:.ee-only}
 
 The product page calculates the quantity discount and displays a message such as:
 
@@ -29,22 +29,20 @@ The prices in the storefront take precedence from the highest to the lowest quan
 
 1. If your store has multiple websites, choose the **Website** for which the tier pricing applies.
 
-1. If necessary, limit the availability of the pricing tier:
-
-   - {:.edition-ce}Select the **Customer Group**.
-   - {:.edition-ee}Select the **Customer Group**.
-   - {:.edition-b2b}Select the **Customer Group** or **Shared Catalog**.
+1. If necessary, limit the availability of the pricing tier by selecting the **Customer Group** or **Shared Catalog** (<span class="b2b-only"></span>).
 
 1. For **Qty**, enter the quantity that must be ordered to receive the discount.
 
-      **Method 1: Enter Price as Fixed Amount** - Set **Price** to `Fixed` and enter the adjusted price for one unit at that tier.
+   - **Method 1: Enter Price as Fixed Amount**
 
-        ![]({% link images/images/product-price-tier-fixed.png %}){: .zoom}
-        _Tier Price as a Fixed Amount_
+      Set **Price** to `Fixed` and enter the adjusted price for one unit at that tier.
 
-      **Method 2: Enter Price as Percentage** - Set **Price** to `Discount` and enter the discounted price as a percentage off the base price of the product.
+      ![]({% link images/images/product-price-tier-fixed.png %}){: .zoom}
+      _Tier Price as a Fixed Amount_
 
-        For example, for a 15 percent discount, enter the number `15`. (The price is saved with two decimal positions, such as `15.00`.)
+   - **Method 2: Enter Price as Percentage**
+
+      Set **Price** to `Discount` and enter the discounted price as a percentage off the base price of the product.
 
       For example, for a 15 percent discount, enter the number `15`. (The price is saved with two decimal positions, such as `15.00`.)
 
@@ -52,7 +50,7 @@ The prices in the storefront take precedence from the highest to the lowest quan
       To get the discounted price, the defined percentage is calculated against the value defined in the _Price_ field, not the _Special Price_ field.
 
    ![]({% link images/images-b2b/product-price-tier-discount.png %}){: .zoom}
-   _Tier Price as a Percentage_{:.caption-edition-b2b}
+   _Tier Price as a Percentage_{:.b2b-only}
 
 ## Complete the price configuration
 

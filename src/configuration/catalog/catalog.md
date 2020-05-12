@@ -104,12 +104,12 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 ## Price
 
 ![]({% link images/images-ee/config-catalog-catalog-price.png %}){: .zoom}
-_[Price]({% link catalog/catalog-price-scope.md %})_{:.caption-edition-ee}
+_[Price]({% link catalog/catalog-price-scope.md %})_{:.ee-only}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|**Catalog Price Scope**|Global|Determines the scope of the base currency. Options: Global / Website.|
-|**Default Product Price**{:.caption-edition-ee}|Global|Defines the default product price, if applicable.|
+|Catalog Price Scope|Global|Determines the scope of the base currency. Options: Global / Website.|
+|<span class="ee-only">Default Product Price</span>|Global|Defines the default product price, if applicable.|
 
 ## Layered Navigation
 
@@ -129,7 +129,7 @@ _[Price]({% link catalog/catalog-price-scope.md %})_{:.caption-edition-ee}
 |Default Price Navigation Step|Store View|Determines the number of products that are included in each step.|
 |Maximum Number of Price Intervals|Store View|Establishes a limit for the number of price intervals that appear in layered navigation.|
 
-{: .heading-edition-ee }
+{:.ee-only}
 ## Category Permissions
 
 ![]({% link images/images-ee/config-catalog-catalog-category-permissions.png %}){: .zoom}
@@ -248,7 +248,7 @@ Magento supports the following versions of Elasticsearch: 6.x, 5.x, and 2.x (dep
 |Time Format|Store View|Sets the time format to either a  twelve or twenty-four hour clock. Options: 12h AM/PM / 24h|
 |Year Range|Store View|Defines the beginning and ending range of years that appear in the drop-down Year field. The value must be entered in YYYY format.|
 
-{: .heading-edition-ee }
+{:.ee-only}
 ## Catalog Events
 
 ![]({% link images/images-ee/config-catalog-catalog-events.png %}){: .zoom}
@@ -261,7 +261,7 @@ Magento supports the following versions of Elasticsearch: 6.x, 5.x, and 2.x (dep
 |Number of Events to be Displayed in the Event Slider Widget|Store View|Determines the number of events that appear in the Event Slider widget on the category pages. To override, use the `limit=”x”` variable.|
 |Events to Scroll per Click in Event Slider Widget|Store View|Determines the number of events that appear in the Event Slider widget on CMS pages, such as the home page. To override, use the `scroll=”x”` variable.|
 
-{: .heading-edition-ee }
+{:.ee-only}
 ## Rule-Based Product Relations
 
 ![]({% link images/images/config-catalog-catalog-rule-based-product-relations.png %}){: .zoom}

@@ -13,8 +13,8 @@ sections:
     content: Learn about setting up an A/B test of products, categories, or content pages using Google Analytics Content Experiments.
     url: /marketing/google-universal-analytics.html
 
-  - title: Google Tag Manager
-    content: <span class="card-edition-ee">Learn how you can use Google Tag Manager to manage the many tags related to marketing campaign events.</span>
+  - title: <span class="ee-only">Google Tag Manager</span>
+    content: Learn how you can use Google Tag Manager to manage the many tags related to marketing campaign events.
     url: /marketing/google-tag-manager.html
 
   - title: Google AdWords

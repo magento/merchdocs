@@ -5,14 +5,14 @@ title: My Orders
 Customers have access to all of their orders from their account. Orders can be viewed, tracked, and resubmitted as new orders. Depending on the status of the order, customers can print their orders, invoices, shipments, and refund records.
 
 ![]({% link images/images-ee/customer-account-my-orders.png %}){: .zoom}
-_My Orders_{:.caption-edition-ee}
+_My Orders_{:.ee-only}
 
 ## View an order
 
 Find the order in the list and click **View Order**. From the open order, do any of the following:
 
 ![]({% link images/images-ee/customer-account-order-items-ordered.png %}){: .zoom}
-_View Order_{:.caption-edition-ee}
+_View Order_{:.ee-only}
 
 ### Reorder
 
@@ -44,7 +44,7 @@ _View Order_{:.caption-edition-ee}
 1. Click <span class="btn">Print</span>.
 
     ![]({% link images/images-ee/customer-account-order-invoices.png %}){: .zoom}
-    _Invoices_{:.caption-edition-ee}
+    _Invoices_{:.ee-only}
 
 ### Print shipments
 
@@ -59,7 +59,7 @@ _View Order_{:.caption-edition-ee}
 1. Click <span class="btn">Print</span>.
 
     ![]({% link images/images-ee/customer-account-order-shipments.png %}){: .zoom}
-    _Print All Shipments_{:.caption-edition-ee}
+    _Print All Shipments_{:.ee-only}
 
 ### Track a shipment
 
@@ -82,4 +82,4 @@ _View Order_{:.caption-edition-ee}
 1. Click <span class="btn">Print</span>.
 
     ![]({% link images/images-ee/customer-account-order-refunds.png %}){: .zoom}
-    _Refunds_{:.caption-edition-ee}
+    _Refunds_{:.ee-only}

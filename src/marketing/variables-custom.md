@@ -41,10 +41,8 @@ Only whitelisted [predefined]({% link marketing/variables-predefined.md %}) or c
 
 ## Step 2: Insert the custom variable
 
-{: .edition-ce }
-Steps for Magento Open Source only
-
-The following example shows how to insert a variable into a page.
+{:.ce-only}
+### Example - insert a variable into a page
 
 1. Open the CMS page or block where the variable is to appear.
 
@@ -66,10 +64,8 @@ The following example shows how to insert a variable into a page.
 
 1. When complete, click <span class="btn">Save</span>.
 
-{: .edition-ee }
-Steps for Magento Commerce only
-
-The following example shows how to use [Page Builder]({% link cms/page-builder.md %}) to insert a custom variable into a page.
+{: .ee-only}
+### Example - use [Page Builder]({% link cms/page-builder.md %}) to insert a custom variable
 
 1. Open the page or block where the variable is to appear.
 

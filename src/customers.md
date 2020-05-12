@@ -10,12 +10,12 @@ sections:
    content: Create customer groups that can be referenced in promotions and tax classes.
    url: /customers/customer-groups.html
 
- - title: Customer Segments
-   content: <span class="card-edition-ee">Learn about using customer segments to dynamically display content and promotions to specific customers, based on properties such as customer address, order history, shopping cart contents, and so on.</span>
+ - title: <span class="ee-only">Customer Segments</span>
+   content: Learn about using customer segments to dynamically display content and promotions to specific customers, based on properties such as customer address, order history, shopping cart contents, and so on.
    url: /marketing/customer-segments.html
 
- - title: Companies
-   content: <span class="card-edition-b2b">Learn about the Company component, the key entity within B2B on which all other features are in some way dependent. It allows joining multiple buyers that belong to the same company into a single company account (or corporate account).</span>
+ - title: <span class="b2b-only">Companies</span>
+   content: Learn about the Company component, the key entity within B2B on which all other features are in some way dependent. It allows joining multiple buyers that belong to the same company into a single company account (or corporate account).
    url: /customers/account-companies.html
 ---
 

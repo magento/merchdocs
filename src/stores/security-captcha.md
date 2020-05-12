@@ -66,7 +66,7 @@ _Admin Sign In with CAPTCHA_
 Customers can be required to enter a CAPTCHA each time they log in to their accounts, or after several unsuccessful attempts to log in. In addition, numerous forms used throughout the storefront can be configured to require verification by CAPTCHA.
 
 ![]({% link images/images-ee/config-customers-customer-configuration-captcha.png %}){: .zoom}
-_[Customer CAPTCHA Configuration]({% link configuration/customers/customer-configuration.md %})_{:.caption-edition-ee}
+_[Customer CAPTCHA Configuration]({% link configuration/customers/customer-configuration.md %})_{:.ee-only}
 
 ### Configure CAPTCHA for the storefront
 
@@ -92,9 +92,9 @@ _[Customer CAPTCHA Configuration]({% link configuration/customers/customer-confi
       - Change password
       - Share Wishlist Form
       - Payflow Pro (see [security patch](https://support.magento.com/hc/en-us/articles/360025515991))
-      - {:.edition-ce}Send to Friend Form
-      - {:.edition-ee}Add Gift Card Code
-      - {:.edition-b2b}Create company
+      - {:.ce-only}Send to Friend Form
+      - {:.ee-only}Add Gift Card Code
+      - {:.b2b-only}Create company
 
    - Set **Displaying Mode** to one of the following:
 

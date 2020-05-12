@@ -21,6 +21,6 @@ See the following pages for more information about non-configuration setting typ
 - [Frontend Development Workflow]({% link system/frontend-development-workflow.md %})
 - [Optimizing Resource Files]({% link system/file-optimization.md %})
 - [Template Path Hint]({% link system/template-path-hints.md %})
-- {:.edition-ee}[Developer Client Restrictions]({% link system/developer-client-restrictions.md %})
+- {:.ee-only}[Developer Client Restrictions]({% link system/developer-client-restrictions.md %})
 
 The Magento mode can be changed only from the command line of the server by a user with appropriate permissions. See [Set the Magento Mode](http://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html){:target="_blank"} for more information.

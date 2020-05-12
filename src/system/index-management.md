@@ -18,9 +18,7 @@ _Index Management_
 
 - Index Management has a slightly different presentation for flat product catalogs.
 - To avoid problems when multiple Admin users update objects that trigger automatic reindexing, we recommend that you set all indexers to run on schedule as [cron jobs]({% link system/cron.md %}). Otherwise, every time an object is saved, any objects with interdependencies might cause a deadlock. Symptoms of a deadlock include high CPU usage and MySQL errors. As a best practice, we recommend that you use scheduled indexing.
-
-{: .edition-ee }
-By default, admin actions, such as reindexing, are logged by the system and can be viewed in the [Action Logs Report]({% link system/action-log-report.md %}). Action logging can be configured in the [Admin Actions Logging]({% link system/action-log.md %}) in your store's advanced admin settings.
+- {:.ee-only}By default, admin actions, such as reindexing, are logged by the system and can be viewed in the [Action Logs Report]({% link system/action-log-report.md %}). Action logging can be configured in the [Admin Actions Logging]({% link system/action-log.md %}) in your store's advanced admin settings.
 
 ## Best practices for reindexing
 
@@ -34,8 +32,8 @@ Reindexing and caching have different purposes Magento. Indexes track database i
 
 ## Change the index mode
 
-{: .edition-b2b }
-**Important:** For those using the B2B extension and have set Elasticsearch as the fulltext (`catalogsearch_fulltext`) indexer: The fulltext index must be rerun after any bulk permissions change or when the 'permissions' indexer is in 'Scheduled' mode.
+{:.bs-callout-info}
+**Important:** <span class="b2b-only"></span> For those using the B2B extension and have set Elasticsearch as the fulltext (`catalogsearch_fulltext`) indexer: The fulltext index must be rerun after any bulk permissions change or when the 'permissions' indexer is in 'Scheduled' mode.
 
 1. On the _Admin_ sidebar, go to **System** > _Tools_ > **Index Management**.
 

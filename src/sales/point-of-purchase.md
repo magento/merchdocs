@@ -5,8 +5,8 @@ sections:
    content: Instant Purchase allows customers to speed through the checkout process using information that is saved in their account.
    url: /sales/checkout-instant-purchase.html
 
- - title: Quick Order
-   content: <span class="card-edition-b2b">Configure Quick Order to reduce the order process to several clicks for logged in customers when they know the product name or SKU of the products they want to order.</span>
+ - title: <span class="b2b-only">Quick Order</span>
+   content: Configure Quick Order to reduce the order process to several clicks for logged in customers when they know the product name or SKU of the products they want to order.
    url: /sales/quick-order.html
 
  - title: Shopping Cart

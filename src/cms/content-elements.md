@@ -13,8 +13,8 @@ sections:
     content: Learn how to use the Widget tool, which makes it easy to place existing content, such as blocks and interactive elements, almost anywhere in your store.
     url: /cms/widgets.html
 
-  - title: Page Hierarchy
-    content: <span class="card-edition-ee">Learn how to use the page hierarchy to organize content pages and add pagination, navigation, and menus.</span>
+  - title: <span class="ee-only">Page Hierarchy</span>
+    content: Learn how to use the page hierarchy to organize content pages and add pagination, navigation, and menus.   
     url: /cms/page-hierarchy.html
 ---
 

@@ -58,9 +58,9 @@ The configuration settings in the Data Mapping section are used to map fields ma
 1. Wait an hour to ensure that all contact data is imported into your dotdigital account.
 
 ![]({% link images/images-b2b/config-engagement-cloud-sync-settings-sync.png %}){: .zoom}
-[_Sync_]({% link configuration/engagement-cloud/sync-settings.md %}){:.caption-edition-b2b}
+[_Sync_]({% link configuration/engagement-cloud/sync-settings.md %}){:.b2b-only}
 
-{: .heading-edition-b2b }
+{:.b2b-only}
 ### Sync B2B Company Details
 
 1. Automap the data fields needed, as described previously.
@@ -109,7 +109,7 @@ The configuration settings in the Data Mapping section are used to map fields ma
 
    To learn more, see [Sync shared catalogs][3] in the dotdigital Help Centre.
 
-{: .heading-edition-b2b }
+{:.b2b-only}
 ### Sync B2B Quotes
 
 1. In the Magento comfiguration, verify that [B2B Quotes]({% link stores/b2b-features.md %}) is enabled.

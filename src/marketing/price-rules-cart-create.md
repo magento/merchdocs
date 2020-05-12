@@ -15,7 +15,7 @@ Complete the following steps to add a new rule, describe the conditions, and def
    - If you do not want the rule to go into effect immediately, set **Active** to `No`.
 
     ![Cart price rule - rule information]({% link images/images-ee/price-rule-cart-new.png %}){: .zoom}
-    _Rule Information_{:.caption-edition-ee}
+    _Rule Information_{:.ee-only}
 
 1. To establish the [scope]({% link configuration/scope.md %}) of the rule, do the following:
 
@@ -41,9 +41,9 @@ Complete the following steps to add a new rule, describe the conditions, and def
         To learn more, see [Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}).
 
         ![Cart price rule  - coupon settings]({% link images/images-ee/price-rule-cart-coupon-settings-ee.png %}){: .zoom}
-        _Coupon Settings_{:.caption-edition-ee}
+        _Coupon Settings_{:.ee-only}
 
-    - {:.edition-ce}Use the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the **From** and **To** date range for the promotion.
+   - {:.ce-only}Use the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the **From** and **To** date range for the promotion.
 
 1. Enter a number to define the **Priority** of this price rule in relation to the Action settings of other price rules which are active at the same time.
 
@@ -54,12 +54,12 @@ Complete the following steps to add a new rule, describe the conditions, and def
 
 1. Click <span class="btn">Save and Continue Edit</span>.
 
-    - {:.edition-ce}After the rule is saved, the name of the cart price rule appears at the top of the page.
+   - {:.ce-only}After the rule is saved, the name of the cart price rule appears at the top of the page.
 
-    - {:.edition-ee}After the rule is saved, the name of the cart price rule and the Scheduled Changes box appear at the top of the page.
+   - {:.ee-only}After the rule is saved, the name of the cart price rule and the Scheduled Changes box appear at the top of the page.
 
-    ![Cart price rule - scheduled changes]({% link images/images-ee/price-rule-cart-scheduled-changes.png %}){: .zoom}
-    _[Scheduled Changes]({% link marketing/price-rule-cart-scheduled-changes.md %})_{:.caption-edition-ee}
+   ![Cart price rule - scheduled changes]({% link images/images-ee/price-rule-cart-scheduled-changes.png %}){: .zoom}
+   _[Scheduled Changes]({% link marketing/price-rule-cart-scheduled-changes.md %})_{:.ee-only}
 
 ## Step 2: Describe the Conditions
 
@@ -87,7 +87,7 @@ _Conditions_
    - When prompted to **Choose the condition to add**, choose `Products Subselection`.
 
    ![Cart price rule condition - products subselection]({% link images/images-ee/price-rule-cart-condition-products-subselection.png %}){: .zoom}
-    _Products Subselection_{:.caption-edition-ee}
+    _Products Subselection_{:.ee-only}
 
 1. When the next part of the condition appears, hover over the line so you can see where each link with variable values is located.
 
@@ -141,7 +141,7 @@ The shopping cart price rule actions describe how prices are updated when the co
 1. Scroll down to **Actions**, and expand ![Expansion selector]({% link images/images/btn-expand.png %})the section. Then, do the following:
 
    ![Cart price rule - actions ]({% link images/images-ee/price-rule-cart-actions.png %}){: .zoom}
-   _Cart Price Rule Actions_{:.caption-edition-ee}
+   _Cart Price Rule Actions_{:.ee-only}
 
 1. Set **Apply** to one of the following discount options:
 
@@ -178,7 +178,7 @@ The shopping cart price rule actions describe how prices are updated when the co
    |For matching items only |Free shipping is available only for items that match the conditions of the rule. |
    |For shipment with matching items |Free shipping is available for any shipment that includes matching item(s). |
 
-1. In the **Add Rewards Points** field, enter the number of points the customer earns whenever the cart price rule is applied. (If reward points are not enabled, leave this field blank.){:.card-edition-ee}
+1. {:.ee-only}In the **Add Rewards Points** field, enter the number of points the customer earns whenever the cart price rule is applied. (If reward points are not enabled, leave this field blank.)
 
 1. When complete, click <span class="btn">Save and Continue Edit</span>.
 
@@ -200,9 +200,7 @@ _Discount Label in Totals Section of Order_
 
    ![]({% link images/images/price-rule-cart-label-store-specific.png %}){: .zoom}
 
-{: .edition-ee }
-Step 5 applies to Magento Commerce only
-
+{: .ee-only}
 ## Step 5: Add Related Dynamic Blocks (optional)
 
 [Dynamic Blocks]({% link cms/dynamic-blocks.md %}) that are associated with the rule appear in the storefront whenever the conditions are met.
@@ -241,12 +239,8 @@ Step 5 applies to Magento Commerce only
 |Uses per Customer|Determines how many times the coupon code can be used by the same registered customer who belongs to any selected customer group. Does not apply to guest shoppers who are members of the NOT LOGGED IN customer group, or to customers who shop without logging in to their accounts. For no limit, leave blank.|
 |Priority|A number that indicates the priority of this rule in relation to others. The highest priority is number 1.|
 |Public in RSS Feed|Determines if the promotion is included in your store’s public RSS feed. Options:  Yes / No|
-
-{: .edition-ce }
-Fields in Magento Open Source only
-
-|From|The first date the coupon can be used.|
-|To|The last date the coupon can be used.|
+|<span class="ce-only">From</span>|The first date the coupon can be used.|
+|<span class="ce-only">To</span>|The last date the coupon can be used.|
 
 ### Conditions
 
@@ -263,11 +257,7 @@ Specifies the conditions that must be met before the cart price rule goes into a
 |Apply to Shipping Amount|Determines if the discount is applied separately to the subtotal and shipping amounts. Otherwise, it is applied only to the subtotal. Options: Yes / No
 |Discard Subsequent Rules|Determines if additional rules can be applied to this purchase. To prevent multiple discounts from being applied to the same purchase, select `Yes`.  Options: Yes / No|
 |Free Shipping| Determines if free shipping is included in the promotion, and if so, for which items. Options: <br/>**No** - Free shipping is not available when a coupon that is based on the rule is used. <br/>**For matching items only** - Free shipping is available only for specific items in the cart that match the rule. <br/>**For shipment with matching items** - Free shipping is available for the entire cart when a coupon that is based on the rule is used.|
-
-{: .edition-ee }
-Fields in Magento Commerce only
-
-|Add Reward Points|Specifies the number of [reward points]({% link marketing/rewards-loyalty.md %}) that are earned by the customer whenever the price rule is applied.|
+|<span class="ee-only">Add Reward Points</span>|Specifies the number of [reward points]({% link marketing/rewards-loyalty.md %}) that are earned by the customer whenever the price rule is applied.|
 
 ### Labels
 
@@ -276,7 +266,7 @@ Fields in Magento Commerce only
 |Default Rule Label for All Store Views|A default label that identifies the discount and can be used for all store views.|
 |Store View Specific Labels|If applicable, specifies a different label to identify the discount for each store view.|
 
-{: .heading-edition-ee }
+{:.ee-only}
 ### Related Dynamic Blocks
 
 Identifies any dynamic block(s) that are associated with the rule.

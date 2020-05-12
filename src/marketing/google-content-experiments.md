@@ -14,11 +14,11 @@ Google Content Experiments has been deprecated and will eventually be replaced b
 1. Follow the instructions to enable [Google Analytics]({% link marketing/google-universal-analytics.md %}) with Content Experiments in the Magento configuration.
 
     ![Sales configuration - Google Analytics]({% link images/images-ee/config-sales-google-api-google-analytics-content-experiments.png %}){: .zoom}
-    _[Enable Content Experiments]({% link marketing/google-universal-analytics.md %})_{:.caption-edition-ee}
+    _[Enable Content Experiments]({% link marketing/google-universal-analytics.md %})_{:.ee-only}
 
 ## Step 2. Set Up the Variations (Magento)
 
-Create multiple variations of the same product, cateogory, or page.
+Create multiple variations of the same product, category, or page.
 
 - Each variation must have a unique [URL key]({% link catalog/catalog-urls.md %}).
 - Each variation must have the same [store view]({% link configuration/scope.md %}) selected.

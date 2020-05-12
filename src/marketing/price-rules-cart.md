@@ -12,7 +12,7 @@ _Apply Coupon in Cart_
 1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Cart Price Rules**.
 
     ![Cart price rule]({% link images/images/price-rule-cart.png %}){: .zoom}
-    _Cart Price Rules_{:.caption-edition-ce}
+    _Cart Price Rules_{:.ce-only}
 
 1. If you have many rules, use the filter options at the top of each column to streamline the list and click <span class="btn">Search</span> to apply the filter(s).
 
@@ -20,9 +20,9 @@ _Apply Coupon in Cart_
 
 1. Update properties for a rule:
 
-    - {:.edition-ee}Click **Edit** to display the Rule Information page.
+    - {:.ee-only}Click **Edit** to display the Rule Information page.
 
-    - {:.edition-ce}Click the rule in the list to display the Rule Information page.
+    - {:.ce-only}Click the rule in the list to display the Rule Information page.
 
     There you can change the settings for the rule (similar to creating a new rule).
 
@@ -36,14 +36,6 @@ _Apply Coupon in Cart_
 |Priority|Free-text field that filters the list based on the priority defined for a rule.|
 |Status|Use this option to filter the list based on rule status, `Active` or `Inactive`.|
 |Web Site|Use this option to filter the list based on websites defined for a rule.|
-
-{: .edition-ee }
-Column in Magento Commerce only
-
-|Action|Click **Edit** to display the Rule Information page and update the rule's settings (similar to creating a new rule).|
-
-{: .edition-ce }
-Columns in Magento Open Source only
-
-|Start|Use the dynamic calendar fields (To: and From:) to filter the list based on the start date for the rule as defined when the rule was created.|
-|End|Use the dynamic calendar fields (To: and From:) to filter the list based on the end date for the rule as defined when the rule was created.|
+|<span class="ee-only">Action</span>|Click **Edit** to display the Rule Information page and update the rule's settings (similar to creating a new rule).|
+|<span class="ce-only">Start</span>|Use the dynamic calendar fields (To: and From:) to filter the list based on the start date for the rule as defined when the rule was created.|
+|<span class="ce-only">End</span>|Use the dynamic calendar fields (To: and From:) to filter the list based on the end date for the rule as defined when the rule was created.|

@@ -27,7 +27,7 @@ Deleted customer accounts cannot be restored. Information about customer activit
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 
-{: .heading-edition-b2b }
+{:.b2b-only}
 ### Set active/inactive
 
 Customers with inactive accounts cannot log in or make purchases from their accounts.
@@ -103,12 +103,8 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 |Unsubscribe from Newsletter|Unsubscribes selected customers from newsletter.|
 |Assign a Customer Group|Assigns selected customers to a customer group.|
 |Edit|Allows some values of a single selected customer record to be edited from the grid. By default, the following values are available for a quick edit: Email, Group, Phone, ZIP, Web Site, Tax VAT Number, and Gender.|
-
-{: .edition-b2b }
-These are options in Magento Commerce for B2B only.
-
-|Set Active|Removes a block on selected customer accounts, and changes the status to `Active`. The customers can log in and make purchases from their accounts.|
-|Set Inactive|Blocks the selected customer accounts, and changes the status to `Inactive`. The blocked customers will not be able to log in or make purchases from their accounts. The customer account of a company admin cannot be set to `Inactive`. Another user in the company must first be assigned as company admin.|
+|<span class="b2b-only">Set Active</span>|Removes a block on selected customer accounts, and changes the status to `Active`. The customers can log in and make purchases from their accounts.|
+|<span class="b2b-only">Set Inactive</span>|Blocks the selected customer accounts, and changes the status to `Inactive`. The blocked customers will not be able to log in or make purchases from their accounts. The customer account of a company admin cannot be set to `Inactive`. Another user in the company must first be assigned as company admin.|
 
 ## Columns
 
@@ -131,7 +127,7 @@ These are options in Magento Commerce for B2B only.
 |Tax / VAT Number|If applicable, the tax number or [value-added tax]({% link tax/vat.md %}) number that is assigned to the customer. <br/><br/>**_Note:_** This field is not the same as the VAT Number.|
 |Gender|The gender of the customer.|
 |Action|Edit - Opens the company account in edit mode.|
-|**Additional Columns**|_These columns are available by changing the [column layout]({% link stores/admin-grid-layout.md %})of the grid._|
+|**Additional Columns**|_These columns are available by changing the [column layout]({% link stores/admin-grid-layout.md %}) of the grid._|
 |Company|The company name of the customer.|
 |Street Address|The street address of the customer.|
 |City|The city where the customer is located.|

@@ -13,13 +13,13 @@ Follow these instructions to apply a discount to specific products whenever a se
    The Rule Information section includes expandable sections for Conditions and Actions.
 
    ![Catalog price rule - information]({% link images/images-ee/price-rule-catalog-new-ee.png %}){: .zoom}
-   _Rule Information_{:.caption-edition-ee}
+   _Rule Information_{:.ee-only}
 
 1. In the **Rule Information** section, do the following:
 
    - Complete the **Rule Name** and **Description** fields. These fields are for your internal reference only.
 
-   - {:.edition-ce}Set the **Status** of the price rule as needed. By default, the status is `Active`.
+   - {:.ce-only}Set the **Status** of the price rule as needed. By default, the status is `Active`.
 
       {:.bs-callout-info}
       After the rule is created, its status can be updated by changing the status to `Active` or `Inactive` as needed.
@@ -33,7 +33,7 @@ Follow these instructions to apply a discount to specific products whenever a se
         {:.bs-callout-info}
         The options in this list is dependent on the customer groups created and managed in _Customers_ > _Customer Groups_.
 
-   - {:.edition-ce}Enter the **From** and **To** dates to determine when the price rule is in effect.
+   - {:.ce-only}Enter the **From** and **To** dates to determine when the price rule is in effect.
 
         You can enter the dates or use the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the dates. If you leave the dates blank, the rule is enabled as soon as the price rule is saved.
 
@@ -121,7 +121,7 @@ Most of the available conditions are based on existing attribute values. To appl
    {:.bs-callout-info}
    Setting this to `Yes` is a safeguard to prevent the system from applying multiple discounts (rules) to the same product.
 
-{: .heading-edition-ee }
+{:.ee-only}
 ## Step 4: Add Related Dynamic Blocks
 
 [Dynamic blocks]({% link cms/dynamic-blocks.md %}) that are associated with a catalog price rule appear in the storefront whenever the conditions are met. This is an optional step.
@@ -136,9 +136,9 @@ Most of the available conditions are based on existing attribute values. To appl
 1. Select the checkbox in the first column to associate the dynamic block with the rule.
 
    ![Catalog price rule - related dynamic blocks]({% link images/images-ee/price-rule-catalog-related-dynamic-blocks.png %}){: .zoom}
-   _Related Dynamic Blocks_{:.caption-edition-ee}
+   _Related Dynamic Blocks_{:.ee-only}
 
-{: .heading-edition-ee }
+{:.ee-only}
 ## Step 5: Schedule the Rule
 
 {:.bs-callout-info}
@@ -149,7 +149,7 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
     The Scheduled Changes timeline appears at the top of the page.
 
     ![Catalog price rules - scheduled changes]({% link images/images-ee/price-rule-scheduled-changes-new.png %}){: .zoom}
-    _Scheduled Changes_{:.caption-edition-ee}
+    _Scheduled Changes_{:.ee-only}
 
 1. In the _Scheduled Changes_ box, click **View/Edit**.
 
@@ -160,7 +160,7 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
     You can either enter the dates or choose the dates from the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})).
 
     ![Catalog price rule - update schedule]({% link images/images-ee/price-rule-catalog-schedule-update.png %}){: .zoom}
-    _Update Schedule_{:.caption-edition-ee}
+    _Update Schedule_{:.ee-only}
 
 1. Scroll to the _Rule Information_ section and set the **Status** to `active`.
 
@@ -168,17 +168,17 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
 
 1. When complete, save the rule.
 
-   - {:.edition-ce}Click <span class="btn">Save and Apply</span>.
+   - {:.ce-only}Click <span class="btn">Save and Apply</span>.
 
       ![Catalog price rules - pricing structures]({% link images/images/price-rule-catalog-saved.png %}){: .zoom}
-      _Pricing Structure Rules_{:.caption-edition-ce}
+      _Pricing Structure Rules_{:.ce-only}
 
-   - {:.edition-ee}Click <span class="btn">Save</span>.
+   - {:.ee-only}Click <span class="btn">Save</span>.
 
       The Rule Information page displays an updated timeline in the Scheduled Changes for the rule.
 
       ![Catalog price rules - scheduled changes]({% link images/images-ee/price-rule-scheduled-changes-updated.png %}){: .zoom}
-      _Scheduled Changes_{:.caption-edition-ee}
+      _Scheduled Changes_{:.ee-only}
 
 1. Test the rule to make sure that it works correctly.
 
@@ -193,13 +193,9 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
 |Websites|(Required) Identifies the websites where the rule can be used.|
 |Customer Groups|(Required) Identifies the customer groups to which the rule applies.|
 |Priority|A number that indicates the priority of this rule in relation to others. The highest priority is number 1.|
-
-{: .edition-ce }
-These options are in Magento Open Source only.
-
-|Status|(Required) Determines if the rule is currently active in the store. Options: Yes / No|
-|From|Specifies the first day the price rule is in effect. If left blank, the price rule goes into effect as soon as it is saved.|
-|To|Specifies the last day the price rule is in effect. If left blank, the price rule continues indefinitely.|
+|<span class="ce-only">Status</span>|(Required) Determines if the rule is currently active in the store. Options: Yes / No|
+|<span class="ce-only">From</span>|Specifies the first day the price rule is in effect. If left blank, the price rule goes into effect as soon as it is saved.|
+|<span class="ce-only">To</span>|Specifies the last day the price rule is in effect. If left blank, the price rule continues indefinitely.|
 
 ### Conditions
 
@@ -211,7 +207,7 @@ Specifies the conditions that must be met before the catalog price rule goes int
 |Discount Amount|(Required) The amount of discount that is offered.|
 |Discard Subsequent Rules|Determines if additional rules can be applied to this purchase. To prevent multiple discounts from being applied to the same purchase, select `Yes`. Options: Yes / No|
 
-{: .heading-edition-ee }
+{:.ee-only}
 ### Related Dynamic Blocks
 
 Identifies any dynamic block(s) that are associated with the rule.

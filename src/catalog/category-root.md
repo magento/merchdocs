@@ -20,7 +20,7 @@ The following example shows how to create a new root category and assign it to a
 1. On the left, click <span class="btn">Add Root Category</span>.
 
     ![]({% link images/images-ee/category-root-ee.png %}){: .zoom}
-    _New Root Category_{:.caption-edition-ee}
+    _New Root Category_{:.ee-only}
 
 1. Assign a **Category Name**.
 

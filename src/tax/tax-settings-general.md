@@ -22,13 +22,13 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Tax Classes** section.
 
-    ![]({% link images/images-ee/config-sales-tax-tax-classes.png %}){: .zoom}
-    _[Tax Classes]({% link configuration/sales/tax.md %})_{:.caption-edition-ee}
+   ![]({% link images/images-ee/config-sales-tax-tax-classes.png %}){: .zoom}
+   _[Tax Classes]({% link configuration/sales/tax.md %})_{:.ee-only}
 
-    - **Tax Class for Shipping** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
-    - {:.edition-ee}**Tax Class for Gift Options** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
-    - **Default Tax Class for Product** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
-    - **Default Tax Class for Customer** — Set to the appropriate class. The default class is: `Retail Customer` and `Wholesale Customer`
+   - **Tax Class for Shipping** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
+   - {:.ee-only}**Tax Class for Gift Options** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
+   - **Default Tax Class for Product** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
+   - **Default Tax Class for Customer** — Set to the appropriate class. The default class is: `Retail Customer` and `Wholesale Customer`
 
 1. When complete, click <span class="btn">Save Config</span>.
 
@@ -47,9 +47,9 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
 
 1. Set **Tax Calculation Based On** to one of the following:
 
-        |`Shipping Address`|The address where the order is to be shipped|
-        |`Billing Address`|The billing address of the customer or company|
-        |`Shipping Origin`|The address that is specified as the [point of origin]({% link shipping/point-of-origin.md %}) for your store.|
+   |`Shipping Address`|The address where the order is to be shipped|
+   |`Billing Address`|The billing address of the customer or company|
+   |`Shipping Origin`|The address that is specified as the [point of origin]({% link shipping/point-of-origin.md %}) for your store.|
 
 1. Set **Catalog Prices** to `Excluding Tax` or `Including Tax`.
 

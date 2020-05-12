@@ -59,7 +59,7 @@ The checkbox in the first column of the list identifies each record that is a ta
 
 |List|Actions|
 |--- |--- |
-|Orders|Cancel<br/>Hold<br/>Unhold<br/>Print Invoices<br/>Print Packing Slips<br/>Print Credit Memos<br/>Print All<br/>Print Shipping Labels <br/>_Move to Archive_{:.caption-edition-ee}|
+|Orders|Cancel<br/>Hold<br/>Unhold<br/>Print Invoices<br/>Print Packing Slips<br/>Print Credit Memos<br/>Print All<br/>Print Shipping Labels <br/><span class="ee-only">Move to Archive</span>|
 |Invoices|PDF Invoices|
 |Shipments|PDF Shipments<br/>Print Shipping Labels|
 |Credit Memos|PDF Credit Memos|
@@ -75,11 +75,7 @@ The checkbox in the first column of the list identifies each record that is a ta
 |List|Actions|
 |--- |--- |
 |All Customers|Delete<br/>Subscribe to Newsletter<br/>Unsubscribe from Newsletter<br/>Assign a Customer Group<br/>Edit|
-
-{: .edition-b2b }
-This field is available in Magento Commerce for B2B only.
-
-|Companies|Set Active<br/>Block<br/>Delete<br/>Edit<br/>Convert Credit|]
+|<span class="b2b-only">Companies</span>|Set Active<br/>Block<br/>Delete<br/>Edit<br/>Convert Credit|]
 
 ### Marketing
 

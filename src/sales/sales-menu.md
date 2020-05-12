@@ -5,7 +5,7 @@ title: Sales Menu
 The Sales menu lists transactions according to where they are in the order workflow. You might think of each of option as a different stage in the lifetime of an order.
 
 ![]({% link images/images-b2b/admin-menu-sales-b2b.png %}){: .zoom}
-_Sales Menu_{:.caption-edition-b2b}
+_Sales Menu_{:.b2b-only}
 
 ## Display the Sales menu
 
@@ -13,7 +13,7 @@ On the _Admin_ sidebar, click **Sales**.
 
 ## Menu options
 
-{: .heading-edition-b2b }
+{:.b2b-only}
 ### Quotes
 
 Authorized buyers can negotiation the [price]({% link sales/quotes.md %}) with the seller by sending a [request]({% link sales/quote-price-negotiation.md %}) from the shopping cart.
@@ -38,7 +38,7 @@ For [Magento Shipping]({% link shipping/magento-shipping.md %}), lists shipments
 
 For [Magento Shipping]({% link shipping/magento-shipping.md %}), create [batches]({% link shipping/magento-shipping-batch-create.md %}) of shipments that can be booked together.
 
-{: .heading-edition-ee }
+{:.ee-only}
 ### Returns
 
 A [returned merchandise authorization]({% link sales/returns.md %}) (RMA) can be granted to customers who request to return an item for replacement or refund. RMAs can be issued for Simple, Grouped, Configurable, and Bundle product types. However, RMAs are not available for virtual and downloadable products, or gift cards.
@@ -51,7 +51,7 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is simila
 
 The [Transactions]({% link sales/transactions.md %}) page lists all payment activity that has taken place between your store and all payment systems, and provides access to more detailed information.
 
-{: .heading-edition-ee }
+{:.ee-only}
 ### Archive
 
 [Archiving orders]({% link sales/transactions.md %}) and other sales documents on a regular basis improves performance and keeps your workspace free of unnecessary information.

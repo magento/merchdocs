@@ -5,7 +5,7 @@ title: Customers Menu
 The Customers menu provides access to customer account management tools, and gives you the ability to see who is currently online in your store.
 
 ![]({% link images/images-b2b/admin-menu-customers-b2b.png %}){: .zoom}
-_Customers Menu_{:.caption-edition-b2b}
+_Customers Menu_{:.b2b-only}
 
 ## Display the Customers menu
 
@@ -25,12 +25,12 @@ Lists all customers and visitors who are currently [online]({% link customers/no
 
 The [customer group]({% link customers/customer-groups.md %}) determines which discounts are available to shoppers and the tax class for the purchase.
 
-{: .heading-edition-ee }
+{:.ee-only}
 ### Segments
 
 Dynamically display content and promotions to specific customers [based on properties]({% link marketing/customer-segments.md %}) such as customer address, order history, shopping cart contents, and more.
 
-{: .heading-edition-b2b }
+{:.b2b-only}
 ### Companies
 
 Lists all active [company accounts]({% link customers/account-companies.md %}) and pending requests, regardless of status setting, and provides the tools needed to create and [manage]({% link customers/account-company-manage.md %}) company accounts.

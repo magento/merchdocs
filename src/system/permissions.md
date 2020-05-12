@@ -8,8 +8,7 @@ In addition, you can further restrict Admin access to only a specific site, or s
 
 If an Admin user’s access is restricted to specific websites or stores, the websites and stores for which they are not authorized will either not be visible to them or will be grayed-out as inactive. Only the sales and other data for permitted websites and stores is displayed for the user.
 
-{: .edition-ee }
-By default, the system automatically logs (records) all actions performed by a user when making a change to a store. Admin actions can be reviewed in the [Action Logs Report]({% link system/action-log-report.md %}). Configure logging in [Admin Actions Logging]({% link system/action-log.md %}) in your store's advanced admin settings.
+- {: .ee-only}By default, the system automatically logs (records) all actions performed by a user when making a change to a store. Admin actions can be reviewed in the [Action Logs Report]({% link system/action-log-report.md %}). Configure logging in [Admin Actions Logging]({% link system/action-log.md %}) in your store's advanced admin settings.
 
 ![Magento Admin - all user accounts]({% link images/images/system-users-all.png %}){: .zoom}
 _All Users_

@@ -59,7 +59,7 @@ Log in to your **Magento Shipping** account in the Magento Shipping Portal. Acce
       {:.bs-callout-info}
       To run Magento Shipping in a testing environment, make sure to generate and copy the test token instead of the production token.
 
-1. _If your store offers [return merchandise authorization]({% link sales/returns.md %}), set **Enabled for RMA** to `Yes`._{:.card-edition-ee}
+1. {:.ee-only}If your store offers [return merchandise authorization]({% link sales/returns.md %}), set **Enabled for RMA** to `Yes`.
 
 1. (Optional) Configure customer shipping options:
 
@@ -93,7 +93,7 @@ Log in to your **Magento Shipping** account in the Magento Shipping Portal. Acce
 1. Click <span class="btn">Save Config</span>.
 
     ![]({% link images/images-ee/config-sales-shipping-methods-magento-shipping.png %}){: .zoom}
-    _[Magento Shipping]({% link configuration/sales/shipping-methods.md %})_{:.caption-edition-ee}
+    _[Magento Shipping]({% link configuration/sales/shipping-methods.md %})_{:.ee-only}
 
 ## Step 3: Complete the Remaining Settings
 

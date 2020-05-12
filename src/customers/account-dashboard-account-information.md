@@ -5,7 +5,7 @@ title: Account Information
 The basic account information includes your name and email address, and password, and can be maintained from your account dashboard.
 
 ![]({% link images/images-b2b/customer-account-dashboard-account-information.png %}){: .zoom}
-_Account Information_{:.caption-edition-b2b}
+_Account Information_{:.b2b-only}
 
 ## Update your account information
 
@@ -30,7 +30,7 @@ In the sidebar of your account, choose **Account Information**. Then, do any of 
 1. Click <span class="btn">Save</span>.
 
     ![]({% link images/images-ee/account-dashboard-account-information-change-email-address.png %}){: .zoom}
-    _Change Email Address_{:.caption-edition-ee}
+    _Change Email Address_{:.ee-only}
 
 ### Change your password
 
@@ -43,4 +43,4 @@ In the sidebar of your account, choose **Account Information**. Then, do any of 
 1. When you are ready, enter it again to confirm.
 
     ![]({% link images/images-ee/account-dashboard-account-information-change-password.png %}){: .zoom}
-    _Change Password_{:.caption-edition-ee}
+    _Change Password_{:.ee-only}

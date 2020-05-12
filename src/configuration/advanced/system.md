@@ -35,7 +35,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Failure History Lifetime|Store View|Determines the number of minutes that the record of failed cron jobs is kept in the database.|
 |Use Separate Process|Store View|Determines if cron jobs are executed in parallel as separate processes. Options: Yes / No|
 
-{: .heading-edition-ee }
+{:.ee-only}
 ## MySQL Message Queue Cleanup
 
 ![]({% link images/images/config-advanced-system-mysql-message-queue-cleanup.png %}){: .zoom}
@@ -99,7 +99,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Frequency|Global|Determines how often the scheduled backup takes place. Options: Daily, Weekly, Monthly|
 |Maintenance Mode|Global|Determines if the store is put in Maintenance Mode during the scheduled backup. Options: Yes / No|
 
-{: .heading-edition-ee }
+{:.ee-only}
 ## Admin Actions Log Archiving
 
 ![]({% link images/images/config-advanced-system-admin-actions-log-archiving.png %}){: .zoom}
@@ -154,7 +154,7 @@ Varnish Caching - Recommended for the production environment.
 |Synchronize||Synchronizes the transfer of all media to the specified database location.|
 |Environment Update Time|Global|Determines the frequency of the media file environment updates in seconds. Default value: 3600|
 
-{: .heading-edition-ee }
+{:.ee-only}
 ## Bulk Actions
 
 ![]({% link images/images-ee/config-advanced-system-bulk-actions.png %}){: .zoom}
@@ -164,7 +164,7 @@ Varnish Caching - Recommended for the production environment.
 |--- |--- |--- |
 |Days Saved in Log|Global|Determines the number of days that bulk actions are kept in the Bulk Actions Log archive. Default: 60|
 
-{: .heading-edition-ee }
+{:.ee-only}
 ## Scheduled Import/Export File History Cleaning
 
 ![]({% link images/images-ee/config-advanced-system-scheduled-import-export-file-history-cleaning.png %}){: .zoom}

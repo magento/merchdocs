@@ -105,6 +105,9 @@
   - label: Design & Theme
     url: /design/design-theme.html
 
+  - label: Content Staging
+    url: /cms/content-staging.html
+
 - label: Customers
   url: /customers.html
   children:

@@ -11,15 +11,16 @@ redirect_from:
 
 As a best practice, we recommend that you keep your Magento installation up to date, so you can benefit from the latest advancements. Release notes provide a detailed description of the changes in each product release, with links to additional technical information, installation instructions, and support resources. To learn more about current and past releases, see:
 
-- [Magento Commerce Release Notes][1]{:target="_blank"}
-- [Magento Open Source Release Notes][2]{:target="_blank"}
+- {:.ce-only}[Magento Open Source Release Notes][2]{:target="_blank"}
+- {:.ee-only}[Magento Commerce Release Notes][1]{:target="_blank"}
 
 <div class="bs-callout-info" markdown="1">
+**PDF guides**<br/>
 Starting with our 2.3.2 release, we are no longer producing and publishing an updated 2.3 User Guide PDF to match our online content. This makes it possible for us to provide an improved online User Guide experience and publish content updates more frequently. You can download these archived guides from our site:
 
-- [Magento Open Source 2.3.1 PDF guide][20]{:target="_blank"}
-- [Magento Commerce 2.3.1 PDF guide][18]{:target="_blank"}
-- [Magento Commerce for B2B 2.3.1 PDF guide][19]{:target="_blank"}
+- {:.ce-only}[Magento Open Source 2.3.1 PDF guide][20]{:target="_blank"}
+- {:.ee-only}[Magento Commerce 2.3.1 PDF guide][18]{:target="_blank"}
+- {:.b2b-only}[Magento Commerce for B2B 2.3.1 PDF guide][19]{:target="_blank"}
 </div>
 
 ## Earlier Releases
@@ -32,15 +33,15 @@ If you need documentation for an earlier Magento release, the following resource
 
 **Online User Guide:**
 
-- [Magento Open Source 2.2 User Guide][13]{:target="_blank"}
-- [Magento Commerce 2.2 User Guide][14]{:target="_blank"}
-- [Magento Commerce for B2B 2.2 User Guide][15]{:target="_blank"}
+- {:.ce-only}[Magento Open Source 2.2 User Guide][13]{:target="_blank"}
+- {:.ee-only}[Magento Commerce 2.2 User Guide][14]{:target="_blank"}
+- {:.b2b-only}[Magento Commerce for B2B 2.2 User Guide][15]{:target="_blank"}
 
 **PDF User Guide:**
 
-- [Magento Open Source 2.2 User Guide][6]{:target="_blank"}
-- [Magento Commerce 2.2 User Guide][7]{:target="_blank"}
-- [Magento Commerce for B2B 2.2 User Guide][8]{:target="_blank"}
+- {:.ce-only}[Magento Open Source 2.2 User Guide][6]{:target="_blank"}
+- {:.ee-only}[Magento Commerce 2.2 User Guide][7]{:target="_blank"}
+- {:.b2b-only}[Magento Commerce for B2B 2.2 User Guide][8]{:target="_blank"}
 
 ### 2.1
 

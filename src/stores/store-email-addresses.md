@@ -40,13 +40,13 @@ If you use custom email addresses, make sure to update the configuration of any 
 
 1. In the left panel, expand **Sales** and choose **Sales Emails**.
 
-    The page has a separate section for each of the following:
+   The page has a separate section for each of the following:
 
-    - Order and Order Comments
-    - Invoice and Invoice Comments
-    - Shipment and Shipment Comments
-    - Credit Memo and Credit Memo Comments
-    - {:.edition-ee}RMA, RMA Authorization, RMA Admin Comments, and RMA Customer Comments
+   - Order and Order Comments
+   - Invoice and Invoice Comments
+   - Shipment and Shipment Comments
+   - Credit Memo and Credit Memo Comments
+   - {:.ee-only}RMA, RMA Authorization, RMA Admin Comments, and RMA Customer Comments
 
 1. Starting with **Order**, expand the section for each message and make sure that the correct sender is selected.
 

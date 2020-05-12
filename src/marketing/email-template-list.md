@@ -2,7 +2,6 @@
 title: Email Template List
 ---
 
-
 The list of email templates is organized alphabetically by Magento module.
 
 ## Magento_Checkout
@@ -12,7 +11,7 @@ The list of email templates is organized alphabetically by Magento module.
 |--- |--- |
 | Payment Failed | **Page:** Sales > [Checkout]({% link configuration/sales/checkout.md %})<br/>**Section:** Payment Failed Emails<br/>**Field:** Payment Failed Template|
 
-{: .heading-edition-b2b }
+{:.b2b-only}
 ## Magento_Company
 
 {: .template-table }
@@ -32,7 +31,7 @@ The list of email templates is organized alphabetically by Magento module.
 | Customer Status Inactive | **Page:** <br/>**Section:** <br/>**Field:** |
 | Sales Representative Assigned to Company | **Page:** <br/>**Section:** <br/>**Field:** |
 
-{: .heading-edition-b2b }
+{:.b2b-only}
 ## Magento_CompanyCredit
 
 {: .template-table }
@@ -67,7 +66,7 @@ The list of email templates is organized alphabetically by Magento module.
 | Remind Password | **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Password Options<br/>**Field:** Remind Email Template |
 | Reset Password | **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Password Options <br/>**Field:** Reset Password Template |
 
-{: .heading-edition-ee }
+{:.ee-only}
 ## Magento_CustomerBalance
 
 {: .template-table }
@@ -91,7 +90,7 @@ The list of email templates is organized alphabetically by Magento module.
 | Footer (Magento/luma) | n/a |
 | Header | n/a |
 
-{: .heading-edition-ee }
+{:.ee-only}
 ## Magento_GiftCard
 
 {: .template-table }
@@ -122,7 +121,7 @@ The list of email templates is organized alphabetically by Magento module.
 |--- |--- |
 | Customer Invitation | **Page:** <br/>**Section:** <br/>**Field:** |
 
-{: .heading-edition-b2b }
+{:.b2b-only}
 ## Magento_NegotiableQuote
 
 {: .template-table }
@@ -153,7 +152,7 @@ The list of email templates is organized alphabetically by Magento module.
 | Price Alert | **Page:** Catalog > [Catalog]({% link configuration/catalog/catalog.md %})<br/>**Section:** Product Alerts<br/>**Field:** Price Alert Email Template |
 | Stock Alert | **Page:** Catalog > [Catalog]({% link configuration/catalog/catalog.md %})<br/>**Section:** Product Alerts<br/>**Field:** Stock Alert Email Template |
 
-{: .heading-edition-ee }
+{:.ee-only}
 ## Magento_Reminder
 
 {: .template-table }
@@ -161,7 +160,7 @@ The list of email templates is organized alphabetically by Magento module.
 |--- |--- |
 | Promotion Notification/Reminder | **Page:** <br/>**Section:** <br/>**Field:** |
 
-{: .heading-edition-ee }
+{:.ee-only}
 ## Magento_Reward
 
 {: .template-table }
@@ -170,7 +169,7 @@ The list of email templates is organized alphabetically by Magento module.
 | Balance Update | **Page:** <br/>**Section:** <br/>**Field:** |
 | Points Expiry Warning | **Page:** <br/>**Section:** <br/>**Field:** |
 
-{: .heading-edition-ee }
+{:.ee-only}
 ## Magento_Rma
 
 {: .template-table }
@@ -221,7 +220,7 @@ The list of email templates is organized alphabetically by Magento module.
 | Shipment Update for Guest | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Shipment Comments<br/>**Field:** Shipment Comment Email Template for Guest |
 | Shipment Update for Guest (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Shipment Comments<br/>**Field:** Shipment Comment Email Template for Guest |
 
-{: .heading-edition-ee }
+{:.ee-only}
 ## Magento_ScheduledImportExport
 
 {: .template-table }

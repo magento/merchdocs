@@ -107,6 +107,7 @@ pages:
         url: "/cms/widget-orders-returns.html"
 - label: Page Builder
   url: "/cms/page-builder.html"
+  edition: ee-only
   children:
   - label: Learning Page Builder
     url: "/cms/page-builder-learn.html"
@@ -209,19 +210,20 @@ pages:
         url: "/design/merge-javascript.html"
     - label: Scheduling Design Changes
       url: "/design/schedule.html"
-  - label: Content Staging
-    url: "/cms/content-staging.html"
+- label: Content Staging
+  url: "/cms/content-staging.html"
+  edition: ee-only
+  children:
+  - label: Content Staging Workflow
+    url: "/cms/content-staging-workflow.html"
+  - label: Scheduling an Update
+    url: "/cms/content-staging-scheduled-update.html"
+  - label: Staging Dashboard
+    url: "/cms/content-staging-dashboard.html"
     children:
-    - label: Content Staging Workflow
-      url: "/cms/content-staging-workflow.html"
-    - label: Scheduling an Update
-      url: "/cms/content-staging-scheduled-update.html"
-    - label: Staging Dashboard
-      url: "/cms/content-staging-dashboard.html"
-      children:
-      - label: Editing a Campaign
-        url: "/cms/content-staging-dashboard-view-edit.html"
-      - label: Adding an Item
-        url: "/cms/content-staging-add-item.html"
-      - label: Previewing a Campaign
-        url: "/cms/content-staging-preview.html"
+    - label: Editing a Campaign
+      url: "/cms/content-staging-dashboard-view-edit.html"
+    - label: Adding an Item
+      url: "/cms/content-staging-add-item.html"
+    - label: Previewing a Campaign
+      url: "/cms/content-staging-preview.html"

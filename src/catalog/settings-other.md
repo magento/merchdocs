@@ -9,7 +9,7 @@ The remaining product settings are located at the bottom of the page. Some setti
 Click the section to expand, if needed. The selector indicates if it is currently expanded ![]({% link images/images/btn-expand.png %}) or collapsed ![]({% link images/images/btn-collapse.png %}).
 
 ![]({% link images/images-ee/product-settings-other-ee.png %}){: .zoom}
-_Other Settings_{:.caption-edition-ee}
+_Other Settings_{:.ee-only}
 
 ## General settings
 
@@ -23,11 +23,8 @@ _Other Settings_{:.caption-edition-ee}
 |[Product in Websites]({% link catalog/settings-basic-websites.md %})|This section shows the current scope of the product within the store hierarchy.|
 |[Design]({% link catalog/settings-advanced-design.md %})|These settings allow you to apply a different theme to the product page, change the column layout, determine where product options appear, and enter custom XML code.|
 |[Gift Options]({% link catalog/product-gift-options.md %})|These options can be set at the product level to allow a gift message to be added to the product during checkout.|
-
-{: .edition-ce }
-Section in Magento Open Source only
-
-|[Scheduled Design Update]({% link catalog/product-scheduled-design-update.md %})|This section allows you to apply a different theme to the product page, change the column layout, determine where product options appear, and enter custom XML code|
+|<span class="ce-only">[Scheduled Design Update]({% link catalog/product-scheduled-design-update.md %})</span>|This section allows you to apply a different theme to the product page, change the column layout, determine where product options appear, and enter custom XML code|
+{: .format-table }
 
 ## Product-specific settings
 
@@ -39,3 +36,10 @@ Section in Magento Open Source only
 | [Downloadable Information]({% link catalog/product-downloadable-information.md %}) | This section is used to generate the links to downloadable products and samples. |
 | [Grouped Products]({% link catalog/product-grouped-products.md %}) | This section is used to add items to a Grouped product type and to edit the current selection of items. |
 | [Bundle Items]({% link catalog/product-bundle-items.md %}) | This section is used to add items to a Bundle product type and to edit the current selection of items. |
+{: .format-table }
+
+<style>
+.format-table td:first-of-type {
+  width: 200px;
+}
+</style>

@@ -174,7 +174,7 @@ By default, many of the following tax classes are initially set to `None`.
 
     ![]({% link images/images/config-sales-tax-vertex-tax-classes-adjustment-fees.png %}){: .zoom}
 
-{: .heading-edition-ee }
+{:.ee-only}
 ### Gift wrap order
 
 1. Set **Gift Wrap for Order Class** to one of the following:
@@ -187,7 +187,7 @@ By default, many of the following tax classes are initially set to `None`.
     ![]({% link images/images-ee/config-sales-tax-vertex-tax-classes-gift-wrap-order.png %}){: .zoom}
     [_Gift Wrap - Order_]({% link configuration/sales/tax.md %})
 
-{: .heading-edition-ee }
+{:.ee-only}
 ### Gift wrap single product
 
 1. Set **Gift Wrap Class for Single Product** to one of the following:
@@ -200,7 +200,7 @@ By default, many of the following tax classes are initially set to `None`.
    ![]({% link images/images-ee/config-sales-tax-vertex-tax-classes-gift-wrap-single-product.png %}){: .zoom}
    [_Gift Wrap - Single Product_]({% link configuration/sales/tax.md %})
 
-{: .heading-edition-ee }
+{:.ee-only}
 ### Printed gift card
 
 1. Set **Item Line Class for Printed Gift Card** to one of the following:
@@ -213,7 +213,7 @@ By default, many of the following tax classes are initially set to `None`.
    ![]({% link images/images-ee/config-sales-tax-vertex-tax-classes-printed-gift-card.png %}){: .zoom}
    [_Printed Gift Card_]({% link configuration/sales/tax.md %})
 
-{: .heading-edition-ee }
+{:.ee-only}
 ### Reward points
 
 1. Set **Class for Reward Points Discount Line Item** to one of the following:

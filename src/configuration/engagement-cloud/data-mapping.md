@@ -96,8 +96,8 @@ Gives you the ability to create custom mappings to Engagement Cloud, based on th
 - Tax/VAT Number
 - Failures Number
 - First Failure Date
-- {:.edition-ee}Reward Update Notification
-- {:.edition-ee}Reward Warning Notification
+- {:.ee-only}Reward Update Notification
+- {:.ee-only}Reward Warning Notification
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-custom-attributes.png %}){: .zoom}
 [_Custom Attributes_]({% link marketing/engagement-cloud-data-mapping.md %})
@@ -109,7 +109,7 @@ Gives you the ability to create custom mappings to Engagement Cloud, based on th
 |Action|Website|Deletes the current custom mapping.|
 |<span class="btn">Add New Attribute</span>||Adds a new custom mapping.|
 
-{: .edition-b2b }
+{:.b2b-only}
 ## B2B Data
 
 ![]({% link images/images-b2b/config-engagement-data-fields-mapping-b2b-data.png %}){: .zoom}
@@ -123,11 +123,11 @@ Gives you the ability to create custom mappings to Engagement Cloud, based on th
 |Store Credit Balance|Website|Lists the selection of store credit balance amounts that can be mapped from Magento.|
 |Shared Catalog Name|Website|Lists the selection of shared catalogs that can be mapped from Magento.|
 
-{: .heading-edition-ee }
+{:.ee-only}
 ## Enterprise Data
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-enterprise-data.png %}){: .zoom}
-_Enterprise Data_{:.caption-edition-ee}
+_Enterprise Data_{:.ee-only}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

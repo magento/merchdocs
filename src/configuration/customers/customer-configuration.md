@@ -78,11 +78,11 @@ _Account Information Options_
 
 ## Name and Address Options
 
-{: .edition-ce }
-Options in Magento Open Source only
+{:.ce-only}
+### Options
 
 ![]({% link images/images/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
-_[Name and Address Options]({% link customers/name-address-options.md %})_{:.caption-edition-ce}
+_[Name and Address Options]({% link customers/name-address-options.md %})_{:.ce-only}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -99,11 +99,11 @@ _[Name and Address Options]({% link customers/name-address-options.md %})_{:.cap
 |Show Company|Website|Determines if the customer's company is included in the name and address form. Options: No / Optional / Required|
 |Show Fax|Website|Determines if the customer's fax number is included in the name and address form. Options: No / Optional / Required|
 
-{: .edition-ee }
-Options in Magento Commerce only
+{:.ee-only}
+### Options
 
 ![]({% link images/images-ee/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
-_[Name and Address Options]({% link customers/name-address-options.md %})_{:.caption-edition-ee}
+_[Name and Address Options]({% link customers/name-address-options.md %})_{:.ee-only}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -113,11 +113,11 @@ _[Name and Address Options]({% link customers/name-address-options.md %})_{:.cap
 |Show Company|Website|Determines if the customer's company is included in the name and address form. Options: No / Optional / Required|
 |Show Fax|Website|Determines if the customer's fax number is included in the name and address form. Options: No / Optional / Required|
 
-{: .heading-edition-ee }
+{:.ee-only}
 ## Store Credit Options
 
 ![]({% link images/images-ee/config-customers-customer-configuration-store-credit-options.png %}){: .zoom}
-_[Store Credit Options]({% link sales/credit-configure.md %})_{:.caption-edition-ee}
+_[Store Credit Options]({% link sales/credit-configure.md %})_{:.ee-only}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -148,11 +148,11 @@ _[Store Credit Options]({% link sales/credit-configure.md %})_{:.caption-edition
 |HTML|Store View|This template defines the order of address fields located under the Customer Addresses area in the Admin panel (Customers > Manage Customers) and those located on the Add New Address page when a customer creates a new billing or shipping address on his or her account page.|
 |PDF|Store View|The template defines the display of billing and shipping addresses in the printed invoices, shipments, and credit memos.|
 
-{: .heading-edition-ee }
+{:.ee-only}
 ## Customer Segments
 
 ![]({% link images/images-ee/config-customers-customer-configuration-customer-segments.png %}){: .zoom}
-_[Customer Segments]({% link marketing/customer-segments.md %})_{:.caption-edition-ee}
+_[Customer Segments]({% link marketing/customer-segments.md %})_{:.ee-only}
 
 |Template|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -161,13 +161,13 @@ _[Customer Segments]({% link marketing/customer-segments.md %})_{:.caption-editi
 ## CAPTCHA
 
 ![]({% link images/images-ee/config-customers-customer-configuration-captcha.png %}){: .zoom}
-_[CAPTCHA]({% link stores/security-captcha.md %})_{:.caption-edition-ee}
+_[CAPTCHA]({% link stores/security-captcha.md %})_{:.ee-only}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable CAPTCHA on Storefront|Website|Enables CAPTCHA in the store(s) associated with the Magento website. Options: Yes / No|
 |Font|Website|Determines the font that is used to display the CAPTCHA. To add your own font, put the font file in the same directory as your Magento installation and add the declaration to the `config.xml` file at `app/code/Magento/Captcha/etc`.|
-|Forms|Website|Determines the form(s) where CAPTCHA is used. Options: <br />Applying Coupon Code <br />Create user <br />Login <br />Forgot password <br />Contact Us <br />Change password <br />Share Wishlist Form <br />Send to Friend Form <br />Payflow Pro (see [security patch](https://support.magento.com/hc/en-us/articles/360025515991)) <br />_Add Gift Card Code_{:.caption-edition-ee} <br />_Create company_{:.caption-edition-b2b}<br /><br />_**Note:**_ The Create User, Forgot Password, and Payflow Pro forms are always enabled when selected.|
+|Forms|Website|Determines the form(s) where CAPTCHA is used. Options: <br />Applying Coupon Code <br />Create user <br />Login <br />Forgot password <br />Contact Us <br />Change password <br />Share Wishlist Form <br />Send to Friend Form <br />Payflow Pro (see [security patch](https://support.magento.com/hc/en-us/articles/360025515991)) <br /><span class="ee-only">Add Gift Card Code</span> <br /><span class="ee-only">Create company</span><br /><br />_**Note:**_ The Create User, Forgot Password, and Payflow Pro forms are always enabled when selected.|
 |Displaying Mode|Website|Determines when the CAPTCHA appears. Options: <br/>**Always** - CAPTCHA is always required to log in. <br/>**After number of attempts to login** - This option applies only to the Admin Sign In form. When selected, the Number of Unsuccessful Attempts to Login field appears. Enter the number of login attempts that you want to allow. A value of 0 (zero) is similar to setting Displaying Mode to 'Always'.<br/>_**Note:**_ To track the number of unsuccessful login attempts, each attempt to log in under one email address and from one IP-address is counted. The maximum number of login attempts allowed from the same IP-address is 1,000. This limitation applies only when CAPTCHA is enabled.|
 |CAPTCHA Timeout (minutes)|Website|Determines the lifetime of the current CAPTCHA. When the CAPTCHA expires, the user must reload the page.|
 |Number of Symbols|Website|Determines the number of symbols that appear in the CAPTCHA, with a maximum of 8. You can also specify a range, for example, 5-8.|

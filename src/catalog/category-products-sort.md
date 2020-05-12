@@ -1,5 +1,5 @@
 ---
-ee_only: true
+conditions: Default.EE-B2B
 title: Sorting Category Products
 ---
 

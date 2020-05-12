@@ -25,14 +25,14 @@ _Facebook Plugins_
 
 1. Click <span class="btn">Get Code</span> to copy the generated code to the clipboard.
 
-    ![Facebook - Like button setup]({% link images/images/facebook-like-button-setup.png %}){: .zoom}
-    _Like Button Setup_
+   ![Facebook - Like button setup]({% link images/images/facebook-like-button-setup.png %}){: .zoom}
+   _Like Button Setup_
 
 ## Step 2. Create a Content Block
 
 1. Return to your store Admin.
 
-1. On the _Admin_ sidebar, go to **Content** > Elements > **Blocks**.
+1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Blocks**.
 
 1. In the upper-right corner, click **Add New Block**.
 
@@ -44,9 +44,9 @@ _Facebook Plugins_
 
 1. Add the code snippet to the block content:
 
-    - {:.edition-ee}If using Page Builder, add an [HTML Code]({% link cms/page-builder-elements-html-code.md %}) block to the stage and paste the snippet of code that you copied from the Facebook site. Otherwise, paste the snippet of code into the **Content** box.
+   - {:.ee-only}If using Page Builder, add an [HTML Code]({% link cms/page-builder-elements-html-code.md %}) block to the stage and paste the snippet of code that you copied from the Facebook site. Otherwise, paste the snippet of code into the **Content** box.
 
-    - {:.edition-ce}Paste the snippet of code that you copied from the Facebook site into the **Content** box.
+   - {:.ce-only}Paste the snippet of code that you copied from the Facebook site into the **Content** box.
 
 1. If the block is not ready to go live, set **Enable Block** to `No`.
 
@@ -56,13 +56,13 @@ _Facebook Plugins_
 
 1. Add the block.
 
-    - {:.edition-ee}If using Page Builder, follow the instructions to [add the block]({% link cms/page-builder-add-content-block.md %}) to the stage. Otherwise, on the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
+   - {:.ee-only}If using Page Builder, follow the instructions to [add the block]({% link cms/page-builder-add-content-block.md %}) to the stage. Otherwise, on the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
 
-    - {:.edition-ce}On the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
+   - {:.ce-only}On the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
 
 1. In the upper-right corner, click **Add Widget** and do the following:
 
-    - {:.edition-b2b}In the Settings section, set **Type** to `CMS Static Block` and click <span class="btn">Continue</span>.
+   - {:.b2b-only}In the _Settings_ section, set **Type** to `CMS Static Block` and click <span class="btn">Continue</span>.
 
    - Verify that **Design Theme** is set to the current theme.
 
@@ -78,9 +78,9 @@ _Facebook Plugins_
 
 1. In the Layout Updates section, click <span class="btn">Add Layout Update</span>. Then, set **Display On** to the category, product, or page where you want the block to appear.
 
-    For example, if you choose `All Pages` and position the block in either the header or footer, the block will appear in the same place on every page of the store.
+   For example, if you choose `All Pages` and position the block in either the header or footer, the block will appear in the same place on every page of the store.
 
-    To place the block on a specific page, do the following:
+   To place the block on a specific page, do the following:
 
    - Set **Display On** to `Specified Page`. Then, select the **Page** where you want the block to appear.
 
@@ -98,7 +98,7 @@ _Facebook Plugins_
 
 1. When prompted, follow the instructions at the top of the workspace to update the index and page cache.
 
-    The widget now appears in the Widgets grid.
+   The widget now appears in the Widgets grid.
 
 ## Step 4. Verify the Location in Your Store
 

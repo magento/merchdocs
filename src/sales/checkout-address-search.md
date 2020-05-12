@@ -18,11 +18,10 @@ If the customer does not have a default shipping address, the Shipping page disp
 ![]({% link images/images-ee/storefront-checkout-address-search-no-default.png %}){: .zoom}
 _No address selected_
 
-{: .edition-b2b }
-Enabling address search also affects the checkout for negotiated quotes where customer's number of saved addresses meets or exceeds the configured limit. When the quote is complete and the customer proceeds to the checkout, only the selected shipping address is displayed. The page also displays a message that the shipping address is locked and can only be changed in the quote.
+- {:.b2b-only}Enabling address search also affects the checkout for negotiated quotes where customer's number of saved addresses meets or exceeds the configured limit. When the quote is complete and the customer proceeds to the checkout, only the selected shipping address is displayed. The page also displays a message that the shipping address is locked and can only be changed in the quote.
 
 ![]({% link images/images-b2b/storefront-checkout-quote-address-limit.png %}){: .zoom}
-_Shipping address locked for quote_{:.caption-edition-b2b}
+_Shipping address locked for quote_{:.b2b-only}
 
 ## Enable address search
 

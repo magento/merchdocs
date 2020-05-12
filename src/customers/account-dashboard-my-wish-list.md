@@ -5,7 +5,7 @@ title: My Wish List
 A wish list is a convenient way for customers to keep track of products that they like, but are not ready to buy. Items from a wish list can be shared with others or added to the shopping cart. If the customer has multiple wish lists, the name of the current wish list appears at the top of the page.
 
 ![]({% link images/images-ee/account-dashboard-wishlist.png %}){: .zoom}
-_My Wish List_{:.caption-edition-ee}
+_My Wish List_{:.ee-only}
 
 ## Update the product listing
 
@@ -14,7 +14,7 @@ _My Wish List_{:.caption-edition-ee}
 1. To add a **Comment** about the product, enter the text in the box below the price.
 
     ![]({% link images/images-ee/account-dashboard-wishlist-edit-options.png %}){: .zoom}
-    _Edit Options_{:.caption-edition-ee}
+    _Edit Options_{:.ee-only}
 
 1. To change the selection of product options, click **Edit**. Then, do the following:
 
@@ -47,7 +47,7 @@ _My Wish List_{:.caption-edition-ee}
     ![]({% link images/images/account-dashboard-wishlist-sharing-email.png %}){: .zoom}
     _Shared Wish List Email_
 
-{: .heading-edition-ee }
+{:.ee-only}
 ## Create a new wish list
 
 1. In the upper-right corner, click **Create New Wish List**.
@@ -59,4 +59,4 @@ _My Wish List_{:.caption-edition-ee}
 1. When complete, click <span class="btn">Save</span>.
 
     ![]({% link images/images-ee/account-dashboard-wishlist-create-new.png %}){: .zoom}
-    _Create New Wish List_{:.caption-edition-ee}
+    _Create New Wish List_{:.ee-only}

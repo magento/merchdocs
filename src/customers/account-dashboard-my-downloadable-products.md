@@ -5,7 +5,7 @@ title: My Downloadable Products
 The My Downloadable Products page links to each order of downloadable products. The downloads become available from the customer's account as soon as the order is complete.
 
 ![]({% link images/images-ee/customer-account-my-downloadable-products.png %}){: .zoom}
-_My Downloadable Products_{:.caption-edition-ee}
+_My Downloadable Products_{:.ee-only}
 
 ## Download a product
 

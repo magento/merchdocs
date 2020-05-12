@@ -15,7 +15,7 @@ See [Run the Module Manager][1]{:target="_blank"} in the developer documentation
 {% include flush-cache.md %}
 
 ![Web setup - Module Manager]({% link images/images-ee/web-setup-module-manager-wishlist-dependent-modules.png %}){: .zoom}
-_Module Manager_{:.caption-edition-ee}
+_Module Manager_{:.ee-only}
 
 ## Disable a module
 

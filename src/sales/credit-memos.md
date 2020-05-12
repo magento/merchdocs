@@ -8,9 +8,9 @@ The methods that are available to issue a refund depends on the payment method t
 
 - An order that was placed using a credit account can be refunded to the respective account:
 
-   - {:.edition-ee}[Store Credit]({% link sales/store-credit-using.md %})
-   - {:.edition-b2b}[Payment on Account]({% link payment/payment-on-account.md %})
-   - {:.edition-b2b}[Company Credit]({% link customers/account-dashboard-company-credit.md %})
+   - {:.ee-only}[Store Credit]({% link sales/store-credit-using.md %})
+   - {:.b2b-only}[Payment on Account]({% link payment/payment-on-account.md %})
+   - {:.b2b-only}[Company Credit]({% link customers/account-dashboard-company-credit.md %})
 
 - An order that was paid by credit card through a payment gateway is refunded online by the payment processor.
 

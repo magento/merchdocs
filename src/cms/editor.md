@@ -8,7 +8,7 @@ The editor gives you the ability to enter and format while working in a “What 
 TinyMCE 4 is now the default WYSIWYG editor. TinyMCE 3 is now deprecated, but can be enabled in the [configuration]({% link cms/editor-configure.md %}) if required for previous customizations.
 
 ![Editor Toolbar]({% link images/images/editor-toolbar-tm4/toolbar.png %} "Editor Toolbar"){: .zoom}
-_Editor Toolbar ([TinyMCE 4]({% link cms/editor-configure.md %}))_{:.caption-edition-ee}
+_Editor Toolbar ([TinyMCE 4]({% link cms/editor-configure.md %}))_{:.ee-only}
 
 ## Editing Tools - TinyMCE 3 (Deprecated)
 

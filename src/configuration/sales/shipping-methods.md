@@ -68,7 +68,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 {% include shipping-status-note.md %}
 
 ![]({% link images/images-ee/config-sales-shipping-methods-magento-shipping.png %}){: .zoom}
-_[Magento Shipping]({% link shipping/magento-shipping-setup.md %})_{:.caption-edition-ee}
+_[Magento Shipping]({% link shipping/magento-shipping-setup.md %})_{:.ee-only}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -90,11 +90,7 @@ _[Magento Shipping]({% link shipping/magento-shipping-setup.md %})_{:.caption-ed
 |Sort Order|Website|A number that determines the order that Magento Shipping appears when listed with other shipping methods during checkout.|
 |Checkout View Settings|Website|**Configure** - Click to configure the following checkboxes that appear during checkout: Address Type / Authority to Leave / Signature Required|
 |Advanced Settings|Website|**Configure** - Click to configure synchronization with other systems.|
-
-{: .edition-ee }
-This option is in Magento Commerce only.
-
-|Enabled for RMA|Website|When enabled, supports [return merchandise authorization]({% link sales/returns.md %}). Options: Yes / No|
+|<span class="ee-only">Enabled for RMA</span>|Website|When enabled, supports [return merchandise authorization]({% link sales/returns.md %}). Options: Yes / No|
 
 ### Checkout View Settings
 

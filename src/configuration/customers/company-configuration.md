@@ -72,4 +72,3 @@ _General_
 |Reimbursed Email Template|Store View|The email template that is used by default when a [reimbursement]({% link sales/credit-company-reimburse.md %}) is made to company’s credit. This email is sent to the company administrator. Default template: Credit Reimbursed|
 |Refunded Email Template|Store View|The email template that is used by default when an amount from an order is refunded to company credit. This email is sent to the company administrator. Default template: Order Refunded to Company Credit|
 |Reverted Email Template|Store View|The email template that is used by default when an order is reverted to company credit. This email is sent to the company administrator. Default template: Order Reverted to Company Credit|
-

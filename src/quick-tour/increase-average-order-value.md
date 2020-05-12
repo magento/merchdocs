@@ -13,7 +13,7 @@ Coupons
 Product Suggestions
 :  Another way to increase AOV is to offer [suggestions]({% link catalog/related-products-up-sells-cross-sells.md %}) for related products and opportunities to up-sell and cross-sell at strategic points along the path to conversion.
 
-{: .heading-edition-ee }Email Reminders
+{:.ee-only}Email Reminders
 :  Send automated [reminder emails]({% link marketing/email-reminder-rules.md %}) to customers who have added items to their carts or wish lists, but haven’t made a purchase. A variety of triggers can launch automated emails, including total cart value, quantity, items in the cart, and more.
 
 User Permissions and Roles
@@ -22,7 +22,7 @@ User Permissions and Roles
 Full-Page Caching
 :  Enhance performance by [caching primary pages]({% link system/cache-full-page.md %}). Caching pages improves server response times, reduces load, and increases sustainable traffic. You can use tags to define which components to cache, so that only relevant pages are cached as updates take place. It also has the ability to identify and differentiate visitors from shoppers.
 
-{: .heading-edition-ee }Sales Order Archive
+{:.ee-only}Sales Order Archive
 :  [Archiving orders]({% link sales/order-archive.md %}) frees resources and improves performance when sales reps are assisting customers with orders.
 
 Index Management

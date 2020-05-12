@@ -5,7 +5,7 @@ title: Order Workspace
 The Order workspace lists all current orders. Each row in the grid represents a customer order, and each column represents an attribute, or data field . Use the standard [controls]({% link stores/admin-grid-controls.md %}) to sort and filter the list, find orders, and apply [actions]({% link stores/admin-actions-control.md %}) to selected orders. From the grid, you can view existing orders, and create new orders. The tabs above the pagination controls are used to filter the list, change the default view, change and rearrange columns, and export data.
 
 ![]({% link images/images-ee/orders.png %}){: .zoom}
-<span -edition-ee">_Orders_</span>
+_Orders_{:.ee-only}
 
 ## Workspace Controls
 
@@ -47,13 +47,5 @@ The Order workspace lists all current orders. Each row in the grid represents a 
 |Customer Name|The first and last name of the customer who placed the order.|
 |Payment Method|The method of payment to be used for the order.|
 |Total Refunded|Any amount from the order that is to be refunded to the customer.|
-
-{: .edition-ee }
-This column is available in Magento Commerce only.
-
-|Refunded to Store Credit|Any amount from the order that is to be refunded to the customer’s store credit.|
-
-{: .edition-b2b }
-This field is available in Magento Commerce for B2B only.
-
-|Company Name|The name of the company who placed the order.|
+|<span class="ee-only">Refunded to Store Credit</span>|Any amount from the order that is to be refunded to the customer’s store credit.|
+|<span class="b2b-only">Company Name</span>|The name of the company who placed the order.|

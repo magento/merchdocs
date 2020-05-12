@@ -214,10 +214,10 @@ In this step, columns of data are pasted from the CSV file that you exported to 
 
     In this example, the data includes clothing, sports gear, gift cards, and downloadable videos. Because there is not a code available at this level for sports gear, you can leave those records blank, and complete them later in Vertex Cloud.
 
-    - **Clothing**: `VTX04-00143`
-    - **Digital Goods**: `VTX04-00544`
-    - {:.edition-ee}**Gift Certificate/Cards**: `VTX04-02252`
-    - **Gear**: --
+    |Clothing |`VTX04-00143`
+    |Digital Goods |`VTX04-00544`
+    |<span class="ee-only">Gift Certificate/Cards</span>| `VTX04-02252`
+    |Gear | `--`
 
    - To use the default **Start Date** and **End Date** for the company, leave these fields blank.
    - Enter a different **Start Date** and/or **End Date** for any product, enter the dates in MM/DD/YYYY format.

@@ -18,7 +18,7 @@ A store customer creates a new account on the storefront.
 
 1. From the storefront, click **Create an Account** in the upper-right corner of the header.
 
-   - {:.edition-b2b}For a B2B store, choose **Create an Account** > **Create New Customer**.
+   - {:.b2b-only}For a B2B store, choose **Create an Account** > **Create New Customer**.
 
 1. Under **Personal Information**, enter your **First Name** and **Last Name**.
 
@@ -98,7 +98,7 @@ _Customer Information_
     After the customer account is saved, the full set of options appears in the panel on the left and in the menu at the top of the page. The Customer View tab displays a summary of the account.
 
     ![]({% link images/images-ee/customer-account-create-saved.png %}){: .zoom}
-    _Customer View_{:.caption-edition-ee}
+    _Customer View_{:.ee-only}
 
 ### Step 2: Complete the address information
 
@@ -110,7 +110,7 @@ _Customer Information_
    - Default Shipping Address
 
     ![]({% link images/images/customer-account-information-addresses.png %}){: .zoom}
-    _Add an Address_{:.caption-edition-ce}
+    _Add an Address_{:.ce-only}
 
 1. Scroll down and complete the required address fields in the second column.
 
@@ -168,9 +168,10 @@ Additional buttons become available when the profile is saved for the first time
 
 ## Fields
 
+### Account Information
+
 |Field|Description|
 |--- |--- |
-|**Account Information**||
 |Associate to Website|Identifies the website associated with the customer account.|
 |Group|Identifies the [customer group]({% link customers/customer-groups.md %}) where the customer is a member. If applicable, select the checkbox to disable automatic group change based on VAT.|
 |Name Prefix|If used, the prefix  that is associated with the customer’s name (such as Mr., Ms, or Dr.). The prefix values are determined by the [configuration]({% link configuration/customers/customer-configuration.md %}). Depending on the configuration, the input control might be a text field or a list of options.|
@@ -184,7 +185,11 @@ Additional buttons become available when the profile is saved for the first time
 |Gender|Identifies the customer's gender. The gender is included if specified in the [configuration]({% link configuration/customers/customer-configuration.md %}). Options: Male / Female / Not Specified|
 |Send Welcome Email From|If you have multiple store views, identifies the store view from which the Welcome message is sent. If store views are used for different languages, this determines the language of the Welcome email.|
 |Vertex Customer Code|(Requires Vertex Cloud) A unique code that is referenced for [customer exceptions]({% link tax/vertex-setup-customer-exceptions.md %}). The code can be an abbreviation of the customer name, number, or alphanumeric string.|
-|**Addresses**||
+
+### Addresses
+
+|Field|Description|
+|--- |--- |
 |New Addressees|Identifies the type of new address. Options: Default Billing Address / Default Shipping Address|
 |Add New Addresses|Displays another New Address section to identify the type of the address to be entered.|
 |Company|The company name, if applicable for this address.|

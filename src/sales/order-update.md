@@ -32,7 +32,7 @@ If you modify the substance of an order, the original order is canceled and a ne
 When payment is received and the invoice is generated, the status of the order changes to `Processing`. You cannot change the substance of a `Processing` order, but you can edit the billing and shipping address. A `Processing` order cannot be canceled, but a credit memo can be issued for the full or partial amount of the order, or a return merchandise authorization (RMA) issued for product returns. To learn more, see [Processing an Order]({% link sales/order-processing.md %}).
 
 ![]({% link images/images-ee/order-button-bar-processing.png %}){: .zoom}
-_Processing Order Options_{:.caption-edition-ee}
+_Processing Order Options_{:.ee-only}
 
 ### Button bar
 
@@ -44,11 +44,7 @@ _Processing Order Options_{:.caption-edition-ee}
 |<span class="btn">Credit Memo</span>|Initiates the process to create a [credit memo]({% link sales/credit-memo-create.md %}).|
 |<span class="btn">Hold</span> / <span class="btn">Unhold</span>|Changes the status of the sales order to _On Hold_. To release the hold on the sales order, choose `Unhold`.|
 |<span class="btn">Reorder</span>|Creates a new pending order based on the current order.|
-
-{: .edition-ee }
-This button is displayed for Magento Commerce only.
-
-|<span class="btn">Create Returns</span>|Initiates the process to [return]({% link sales/returns.md %}) one or more items from the order.|
+|<span class="ee-only"></span><span class="btn">Create Returns</span>|Initiates the process to [return]({% link sales/returns.md %}) one or more items from the order.|
 
 ## Edit a pending order
 

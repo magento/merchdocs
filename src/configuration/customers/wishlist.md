@@ -7,18 +7,14 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 ## General Options
 
 ![]({% link images/images-ee/config-customers-wishlist-general-options-ee.png %}){: .zoom}
-_[General Options]({% link marketing/wishlist-configuration.md %})_{:.caption-edition-ee}
+_[General Options]({% link marketing/wishlist-configuration.md %})_{:.ee-only}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled|Store View|Activates the wish list module for your store. Options: Yes / No|
 |Show in Sidebar|Store View|Specifies visibility of the wish list(s) in the sidebar. <br/>Options: Yes / No|
-
-{: .edition-ee }
-Magento Commerce supports multiple wish lists. These are options in Magento Commerce only.
-
-|Enable Multiple Wish Lists|Store View|When set to `Yes`, allows customers to create and maintain multiple wish lists. Options: Yes / No|
-|Number of Multiple Wish Lists|Store View|If multiple wish lists are enabled, determines the maximum number of wish lists customers can have associated with their account.|
+|<span class="ee-only">Enable Multiple Wish Lists</span>|Store View|When set to `Yes`, allows customers to create and maintain multiple wish lists. Options: Yes / No|
+|<span class="ee-only">Number of Multiple Wish Lists</span>|Store View|If multiple wish lists are enabled, determines the maximum number of wish lists customers can have associated with their account.|
 
 ## Share Options
 
@@ -35,7 +31,7 @@ Magento Commerce supports multiple wish lists. These are options in Magento Comm
 ## My Wish List Link
 
 ![]({% link images/images-ee/config-customers-wishlist-my-wishlist-link.png %}){: .zoom}
-_[My Wish List Link]({% link marketing/wishlist-configuration.md %})_{:.caption-edition-ee}
+_[My Wish List Link]({% link marketing/wishlist-configuration.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

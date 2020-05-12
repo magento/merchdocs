@@ -22,5 +22,5 @@ Bundle product
 Downloadable product
 :  A digitally [downloadable product]({% link catalog/product-create-downloadable.md %}) consists of one or more files that are downloaded. The files can reside on your server or be provided as URLs to any other server.
 
-{: .heading-edition-ee }Gift card
+{:.ee-only}Gift card
 :  There are three kinds of [gift cards]({% link catalog/product-gift-card.md %}): virtual gift cards that are sent by email, physical gift cards that are shipped to the recipient, and combined gift cards that are a combination of the two. Each has a unique code, which is redeemed during checkout. Gift cards can also be included in a grouped product.

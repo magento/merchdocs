@@ -19,16 +19,16 @@ To search Adobe Stock assets and add a stock image to a page:
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and do the following:
 
-    - {:.edition-ce}If you have WYSIWYG mode disabled, click **Insert Image**.
+    - {:.ce-only}If you have WYSIWYG mode disabled, click **Insert Image**.
 
-    - {:.edition-ce}If you have WYSIWYG mode enabled, click **Show/Hide Editor** and then click **Insert Image**.
+    - {:.ce-only}If you have WYSIWYG mode enabled, click **Show/Hide Editor** and then click **Insert Image**.
 
-    - {:.edition-ee}If you have [Page Builder enabled]({% link cms/page-builder-setup.md %}), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click <span class="btn">Select from Gallery</span>.
+    - {:.ee-only}If you have [Page Builder enabled]({% link cms/page-builder-setup.md %}), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click <span class="btn">Select from Gallery</span>.
 
       ![]({% link images/images-ee/page-builder-media-image-drag.png %}){: .zoom}
       _Drag Image to Stage_
 
-    - {:.edition-ee}If you have the [WYSIWYG editor enabled]({% link cms/editor-configure.md %}), click **Show/Hide Editor** and then click **Insert Image**.
+    - {:.ee-only}If you have the [WYSIWYG editor enabled]({% link cms/editor-configure.md %}), click **Show/Hide Editor** and then click **Insert Image**.
 
 1. Click <span class="btn">Search Adobe Stock</span>.
 

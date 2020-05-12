@@ -6,10 +6,9 @@ redirect_from:
 
 The Advanced Pricing settings define the conditions required for special pricing that is available for a specific customer group or shared catalog. Advanced Pricing can be applied to simple, virtual, downloadable, and bundle products. To apply discounted pricing to other product types, use a [catalog price rule]({% link marketing/price-rules-catalog.md %}). For more information, see [Price Scope]({% link catalog/catalog-price-scope.md %}).
 
-Advanced pricing data is synchronized with product pages. For example, if you update a tier price quantity, the system updates the value on the product page.
+- Advanced pricing data is synchronized with product pages. For example, if you update a tier price quantity, the system updates the value on the product page.
 
-{: .edition-b2b }
-In Magento Commerce for B2b, advanced pricing data is synchronized with product pages and shared catalogs. For example, if you update a tier price quantity, the system updates the value in the shared catalog and on the product page. Any custom pricing that is indicated in the shared catalog has priority over customer group pricing.
+- {:.b2b-only}Advanced pricing data is synchronized with product pages and shared catalogs. For example, if you update a tier price quantity, the system updates the value in the shared catalog and on the product page. Any custom pricing that is indicated in the shared catalog has priority over customer group pricing.
 
 ![]({% link images/images/product-pricing-advanced-link.png %}){: .zoom}
 _Advanced Pricing_
@@ -36,8 +35,8 @@ _Advanced Pricing_
 
 Enter the special price to offer a discounted price during a specified time period or scheduled campaign. When a special price is available, the retail price is crossed out and the special price appears below in large, bold text.
 
-{: .edition-ee }
-Special Price From dates in Magento Open Source only
+{:.ce-only}
+#### Special Price From dates
 
 |From|Sets the first date the Special Price is available. You can either enter the date or select it from the calendar.|
 |To|Sets the last date the Special Price is available. You can either enter the date or select it from the calendar.
@@ -49,7 +48,7 @@ This is the actual cost of the item.
 ### Customer Group Price
 
 ![]({% link images/images-ee/product-pricing-advanced.png %}){: .zoom}
-_Advanced Pricing_{:.caption-edition-ee}
+_Advanced Pricing_{:.ee-only}
 
 Sets up promotional and tier prices for specific customer groups.
 
@@ -60,13 +59,13 @@ Sets up promotional and tier prices for specific customer groups.
 |![]({% link images/images/btn-trashcan2.png %}) |Deletes the current rule.|
 |<span class="btn">Add</span>|Inserts an additional row for a new rule.|
 
-{: .heading-edition-b2b }
+{:.b2b-only}
 ### Catalog and Tier Price
 
 Sets up promotional and tier prices for specific shared catalogs and customer groups.
 
 ![]({% link images/images-b2b/product-pricing-advanced.png %}){: .zoom}
-_Advanced Pricing_{:.caption-edition-b2b}
+_Advanced Pricing_{:.b2b-only}
 
 |Website|Identifies the website where the group price rule applies. This option appears only if the installation has multiple websites.|
 |Group or Catalog|(Required) Identifies the customer group or shared catalog that qualifies to receive the discount price. When a value in a group or catalog field is changed, the corresponding custom price row that matched the previous setting is deleted from the shared catalog. <br/>**ALL GROUPS** - Applies the rule to all customer groups. The value is not applied to the shared catalog and changes in advanced pricing data are not synchronized with the shared catalog.<br/>**NOT LOGGED IN** - Applies the rule guests and customers who are not logged in to their accounts.<br/>**Shared Catalogs** - Applies the rule to a specific shared catalog.|

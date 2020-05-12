@@ -18,8 +18,6 @@ sections:
     url: /design/themes.html
 ---
 
-In this section, find out about page layouts, learn how to make simple HTML changes, and discover how a new theme can easily update your store. Magento Commerce users can also learn to use [Content Staging]({% link cms/content-staging.md %}) tools to easily create, preview, and schedule a wide range of content updates across a store.
-
 {% include grid.html sections=page.sections%}
 
 ## [Magento eBook][2]

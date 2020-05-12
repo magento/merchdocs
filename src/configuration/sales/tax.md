@@ -150,7 +150,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 ## Orders, Invoices, Credit Memos Display Settings
 
 ![]({% link images/images-ee/config-sales-tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
-_[Orders, Invoices, Credit Memos Display Settings]({% link tax/display-settings.md %})_{:.caption-edition-ee}
+_[Orders, Invoices, Credit Memos Display Settings]({% link tax/display-settings.md %})_{:.ee-only}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -160,12 +160,8 @@ _[Orders, Invoices, Credit Memos Display Settings]({% link tax/display-settings.
 |Include Tax in Order Total|Store View|Determines if the grand total on sales documents includes  tax. Options include: Yes / No|
 |Display Full Tax Summary|Store View|Determines if the full tax summary appears on sales documents. Options: Yes / No|
 |Display Zero Tax Subtotal|Store View|Determines of the subtotal section on sales documents appears when no tax is charged. Options: Yes / No|
-
-{: .edition-ee }
-Options in Magento Commerce only
-
-|Display Gift Wrapping Prices|Store View|Determines if gift wrapping prices are included in the subtotal. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
-|Display Printed Card Prices|Store View|Determines if printed card prices are included in the subtotal. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
+|<span class="ee-only">Display Gift Wrapping Prices</span>|Store View|Determines if gift wrapping prices are included in the subtotal. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
+|<span class="ee-only">Display Printed Card Prices</span>|Store View|Determines if printed card prices are included in the subtotal. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
 
 ## Fixed Product Taxes
 

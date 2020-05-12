@@ -5,7 +5,7 @@ title: Reports Menu
 Magento provides a wide selection of reports to keep you informed on your marketing efforts, sales products, and customer activity. The Reports menu provides easy access to current information about your sales, products, customers, and promotions.
 
 ![]({% link images/images-ee/admin-menu-reports-ee.png %}){: .zoom}
-_Reports Menu_{:.caption-edition-ee}
+_Reports Menu_{:.ee-only}
 
 ## Display the Reports menu
 
@@ -27,13 +27,13 @@ The selection of [sales reports]({% link reports/sales-reports.md %}) includes O
 
 ### Customers
 
-The selection of [customer reports]({% link reports/customer-reports.md %}) includes Order Total, Order Account, New, _Wish Lists_{:.caption-edition-ee}, and _Segments_{:.caption-edition-ee}.
+The selection of [customer reports]({% link reports/customer-reports.md %}) includes Order Total, Order Account, New, Wish Lists, and <span class="ee-only">Segments</span>.
 
 ### Products
 
 The selection of [product reports]({% link reports/product-reports.md %}) includes Views, Bestsellers, Low Stock, Ordered, and Downloads.
 
-{: .heading-edition-ee }
+{:.ee-only}
 ### Private Sales
 
 The selection of reports for [private sales and events]({% link reports/statistics.md %}) includes Invitation, Invited Customers, and Conversions.

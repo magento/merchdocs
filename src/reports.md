@@ -22,8 +22,8 @@ sections:
     content: This category includes Views, Bestsellers, Low Stock, Ordered, and Downloads.
     url: /reports/product-reports.html
 
-  - title: Private Sales Reports
-    content: <span class="card-edition-ee">This category provides information about events and private sales.</span>
+  - title: <span class="ee-only">Private Sales Reports</span>
+    content: This category provides information about events and private sales.
     url: /reports/private-sales-reports.html
 
   - title: Business Intelligence

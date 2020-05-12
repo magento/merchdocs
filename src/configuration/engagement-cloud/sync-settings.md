@@ -19,7 +19,7 @@ _Address Book Mapping_
 ## Sync
 
 ![]({% link images/images-b2b/config-engagement-cloud-sync-settings-sync.png %}){: .zoom}
-_Sync_{:.caption-edition-b2b}
+_Sync_{:.b2b-only}
 
 Choose 'Yes' for each sync type that you want to enable. When first enabled, an hour delay ensures that all contact data is included in the import.
 
@@ -32,12 +32,8 @@ Choose 'Yes' for each sync type that you want to enable. When first enabled, an 
 |Wishlist Enabled|Website|Specifies if Magento wish list data is synchronized with Engagement Cloud. Options: Yes / No|
 |Review Enabled|Website|Specifies if Magento product review data is synchronized with Engagement Cloud. Options: Yes / No|
 |Catalog Enabled|Website|Specifies if Magento catalog data is synchronized with Engagement Cloud. Options: Yes / No|
-
-{: .edition-b2b }
-These are options are available in Magento Commerce with B2B.
-
-|Shared Catalog Enabled|Website|Specifies if Magento shared catalog data is synchronized with Engagement Cloud. Options: Yes / No|
-|B2B Quote Enabled|Website|Specifies if Magento B2B quote data is synchronized with Engagement Cloud. Options: Yes / No|
+|<span class="b2b-only">Shared Catalog Enabled</span>|Website|Specifies if Magento shared catalog data is synchronized with Engagement Cloud. Options: Yes / No|
+|<span class="b2b-only">B2B Quote Enabled</span>|Website|Specifies if Magento B2B quote data is synchronized with Engagement Cloud. Options: Yes / No|
 
 ## Create Address Book
 

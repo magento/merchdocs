@@ -7,7 +7,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 ## Google Analytics
 
 ![]({% link images/images-ee/config-sales-google-api-google-analytics-ee.png %}){: .zoom}
-_[Google Analytics]({% link marketing/google-universal-analytics.md %})_{:.caption-edition-ee}
+_[Google Analytics]({% link marketing/google-universal-analytics.md %})_{:.ee-only}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -15,17 +15,13 @@ _[Google Analytics]({% link marketing/google-universal-analytics.md %})_{:.capti
 |Account Number|Store View|The account number, or tracking code, that was assigned when you created your Google Analytics account.|
 |Anonymize IP|Store View|Determines if identifying information is removed from IP addresses that appear in Google Analytics results.|
 |Enable Content Experiments|Store View|Activates [Google Content Experiments](https://support.google.com/analytics/answer/1745147?hl=en&ref_topic=1745207), which can be used to test up to ten different versions of the same page. Options: Yes / No|
+|<span class="ee-only">Account Type</span>|Store View|Determines the configuration options according to your Google Analytics account type. Options: Universal Analytics (default) / Google Tag Manager|
 
-{: .edition-ee }
-This option is in Magento Commerce only.
-
-|Account Type|Store View|Determines the configuration options according to your Google Analytics account type. Options: Universal Analytics (default) / Google Tag Manager|
-
-{: .heading-edition-ee }
+{:.ee-only}
 ### Google Analytics - Google Tag Manager
 
 ![]({% link images/images-ee/config-sales-google-api-google-analytics-google-tag-manager.png %}){: .zoom}
-_Google Analytics - Google Tag Manager_{:.caption-edition-ee}
+_Google Analytics - Google Tag Manager_{:.ee-only}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

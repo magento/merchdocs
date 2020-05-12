@@ -21,4 +21,4 @@ In this guide, you can drill down through any section of the reference and follo
 - [Advanced]({% link configuration/advanced.md %})
 
 ![Magento Admin - Configuration]({% link images/images-ee/config-ee.png %}){: .zoom}
-_Configuration_{:.caption-edition-ee}
+_Configuration_{:.ee-only}

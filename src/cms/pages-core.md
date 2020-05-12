@@ -16,7 +16,7 @@ Your store’s [Privacy Policy]({% link stores/privacy-policy.md %}) page should
 
 The [404 Page Not Found]({% link cms/pages-default.md %}) page is named for the response code that is returned when a page cannot be found. URL redirects reduce the number of times that this page appears. However, for those times when it is necessary, you might as well take advantage of the opportunity to offer some links to products that the customer might find interesting.
 
-{: .heading-edition-b2b }
+{:.b2b-only}
 ## Access Denied
 
 The [Access Denied]({% link customers/account-company-roles-permissions.md %}) page appears when the permissions that are assigned to a company user prevent access to the page.
