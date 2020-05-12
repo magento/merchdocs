@@ -33,6 +33,15 @@ pages:
     - label: Media Storage
       url: "/cms/media-storage.html"
       children:
+      - label: Enhanced Media Gallery
+        url: "/cms/enhanced-media-gallery.html"
+        children:
+          - label: Managing Images
+            url: "/cms/enhanced-media-gallery-image-management.html"
+          - label: Managing Folders
+            url: "/cms/enhanced-media-gallery-folder-management.html"
+          - label: License an Adobe Stock Image
+            url: "/cms/enhanced-media-gallery-license-image.html"
       - label: Adobe Stock Integration
         url: "/cms/adobe-stock.html"
         children:
