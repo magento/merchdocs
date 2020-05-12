@@ -16,6 +16,15 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Mask for Meta Keywords|Global|Determines the default value of the Meta Keywords field based on placeholder values from other fields and any additional text that is entered. Default placeholder: <br/>Product Name - {% raw %}`{{name}}`{% endraw %}|
 |Mask for Meta Description|Global|Determines the default value of the Meta Description field based on placeholder values from other fields and any additional text that is entered. Default placeholder: <br/>Product Name - {% raw %}`{{name}}`{% endraw %} <br/>Description - {% raw %}`{{description}}`{% endraw %}|
 
+## Product Reviews
+
+![]({% link images/images/config-catalog-catalog-product-reviews.png %}){: .zoom}
+[_Product Reviews_]({% link marketing/product-reviews.md %})
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Allow Guests to Write Reviews|Website|Determines if customers must open an account with your store to be able to write product reviews.|
+
 ## Storefront
 
 ![]({% link images/images/config-catalog-catalog-storefront.png %}){: .zoom}
@@ -30,18 +39,10 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Products per Page on List Default Value|Store View|Determines the number of products displayed per page by default, in List View.|
 |Product Listing Sort by|Store View|Determines the sort order of the search results list. The selection of options is determined by the Display Settings of the category and the available attributes that are set to be `Used for Sorting in Product Listing`. The default is set to `Use All Available Attributes` and typically includes Best Value, Name, Price|
 |Allow All Products per Page|Store View|If set to `Yes`, includes the `ALL` option in the “Show per Page” control.|
+|Remember Category Pagination|Global|If set to `Yes`, the current category pagination values are saved as customers browse from one category to another in [product listings]({% link catalog/navigation-product-listings.md %}). Saving the value uses more cache storage and can affect the way pages are indexed by search engines. Options: Yes / No (default)|
 |Use [Flat Catalog]({% link catalog/catalog-flat.md %}) Category|Global|Enables the flat category structure. (not recommended) Options: Yes / No|
 |Use Flat Catalog Product|Global|Enables the flat product structure. (not recommended) Options: Yes / No|
 |Swatches per Product|Store View|Determines the number of swatches available for each product. Default: `16`|
-
-## Product Reviews
-
-![]({% link images/images/config-catalog-catalog-product-reviews.png %}){: .zoom}
-[_Product Reviews_]({% link marketing/product-reviews.md %})
-
-|Field|[Scope]({% link configuration/scope.md %})|Description|
-|--- |--- |--- |
-|Allow Guests to Write Reviews|Website|Determines if customers must open an account with your store to be able to write product reviews.|
 
 ## Product Alerts
 
@@ -81,15 +82,6 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Thumbnail|Store View|Identifies the placeholder file chosen for the [thumbnail]({% link catalog/catalog-images-video.md %}).|
 |Choose File||Navigates to the file and uploads it as the placeholder image for the type.|
 
-## Product Video
-
-![]({% link images/images/config-catalog-catalog-product-video.png %}){: .zoom}
-[_Product Videos_]({% link catalog/product-video.md %})
-
-|Field|[Scope]({% link configuration/scope.md %})|Description|
-|--- |--- |--- |
-|YouTube API key|Store View|Specifies the API key that is required to connect to the YouTube server.|
-
 ## Recently Viewed/Compared Products
 
 ![]({% link images/images/config-catalog-catalog-recently-viewed-compared-products.png %}){: .zoom}
@@ -100,6 +92,15 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Show for Current|Website|Limits the products shown to the current website. Options: Website / Store / Store View|
 |Default Recently Viewed Products Count|Store View|Determines the maximum number of recently viewed products that appear in the list.|
 |Default Recently Compared Products Count|Store View|Determines the maximum number of recently compared products that appear in the list.|
+
+## Product Video
+
+![]({% link images/images/config-catalog-catalog-product-video.png %}){: .zoom}
+[_Product Videos_]({% link catalog/product-video.md %})
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|YouTube API key|Store View|Specifies the API key that is required to connect to the YouTube server.|
 
 ## Price
 

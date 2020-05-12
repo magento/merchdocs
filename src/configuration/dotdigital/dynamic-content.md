@@ -1,8 +1,10 @@
 ---
 title: Dynamic Content
+redirect_from:
+  - /configuration/engagement-cloud/dynamic-content.html
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Dynamic Content
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdigital]({% link configuration/dotdigital.md %}) > Dynamic Content
 
 ## External Dynamic Url
 
@@ -12,31 +14,31 @@ _External Dynamic Url_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |**Secure code for dynamic urls**|||
-|Passcode|Website|A secure password from Engagement Cloud that provides access to dynamic content such as shopping cart contents and coupon codes.|
+|Passcode|Website|A secure password from dotdigital that provides access to dynamic content such as shopping cart contents and coupon codes.|
 |**Abandoned Carts**|||
-|Cart Content URL|Website|A generated URL that provides Engagement Cloud with access to abandoned shopping cart content.|
+|Cart Content URL|Website|A generated URL that provides dotdigital with access to abandoned shopping cart content.|
 |**Reviews**|||
-|Review Contents URL|Website|A generated URL that provides Engagement Cloud with access to product review content.|
+|Review Contents URL|Website|A generated URL that provides dotdigital with access to product review content.|
 |**Coupon Codes**|||
-|Coupon Codes URL|Website|A generated URL that provides Engagement Cloud with access to coupon code content.|
+|Coupon Codes URL|Website|A generated URL that provides dotdigital with access to coupon code content.|
 |**Order Recommendation**|||
-|Related Products URL|Website|A generated URL that provides Engagement Cloud with access to related product recommendations.|
-|Upsell Products URL|Website|A generated URL that provides Engagement Cloud with access to up-sell product recommendations.|
-|Crosssell Products URL|Website|A generated URL that provides Engagement Cloud with access to cross-sell recommendations.|
+|Related Products URL|Website|A generated URL that provides dotdigital with access to related product recommendations.|
+|Upsell Products URL|Website|A generated URL that provides dotdigital with access to up-sell product recommendations.|
+|Crosssell Products URL|Website|A generated URL that provides dotdigital with access to cross-sell recommendations.|
 |**Cart Recommendation**|||
-|Related Products URL|Website|A generated URL that provides Engagement Cloud with access to related product recommendations.|
-|Upsell Products URL|Website|A generated URL that provides Engagement Cloud with access to up-sell product recommendations.|
-|Crosssell Products URL|Website|A generated URL that provides Engagement Cloud with access to cross-sell product recommendations.|
+|Related Products URL|Website|A generated URL that provides dotdigital with access to related product recommendations.|
+|Upsell Products URL|Website|A generated URL that provides dotdigital with access to up-sell product recommendations.|
+|Crosssell Products URL|Website|A generated URL that provides dotdigital with access to cross-sell product recommendations.|
 |**Product Recommendation**|||
-|Best Sellers URL|Website|A generated URL that provides Engagement Cloud with access to best seller content.|
-|Most Viewed URL|Website|A generated URL that provides Engagement Cloud with access to most viewed content.|
-|Product Push URL|Website|A generated URL that provides Engagement Cloud with access to product content that can be displayed on the contact's computer.|
-|Recently Viewed|Website|A generated URL that provides Engagement Cloud with access to recently viewed content.|
+|Best Sellers URL|Website|A generated URL that provides dotdigital with access to best seller content.|
+|Most Viewed URL|Website|A generated URL that provides dotdigital with access to most viewed content.|
+|Product Push URL|Website|A generated URL that provides dotdigital with access to product content that can be displayed on the contact's computer.|
+|Recently Viewed|Website|A generated URL that provides dotdigital with access to recently viewed content.|
 |**Wishlist**|||
-|Wishlist Content|Website|A generated URL that provides Engagement Cloud with access to wish list content.|
-|Wishlist Related URL|Website|A generated URL that provides Engagement Cloud with access to wish list related product content.|
-|Wishlist Upsell Products URL|Website|A generated URL that provides Engagement Cloud with access to wish list up-sell product content.|
-|Wishlist Crosssell Products URL|Website|A generated URL that provides Engagement Cloud with access to wish list cross-sell product content.|
+|Wishlist Content|Website|A generated URL that provides dotdigital with access to wish list content.|
+|Wishlist Related URL|Website|A generated URL that provides dotdigital with access to wish list related product content.|
+|Wishlist Upsell Products URL|Website|A generated URL that provides dotdigital with access to wish list up-sell product content.|
+|Wishlist Crosssell Products URL|Website|A generated URL that provides dotdigital with access to wish list cross-sell product content.|
 
 ## Dynamic Products
 

@@ -1,8 +1,10 @@
 ---
 title: Email Templates
+redirect_from:
+  - /configuration/engagement-cloud/email-templates.html
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Email Templates
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdigital]({% link configuration/dotdigital.md %}) > Email Templates
 
 ## Email Templates
 

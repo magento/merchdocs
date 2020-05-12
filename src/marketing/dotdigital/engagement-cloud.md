@@ -1,13 +1,12 @@
 ---
-title: Engagement Cloud
+title: dotdigital Engagement Cloud
 redirect_from:
-  - /marketing/email-marketing-automation.html
-  - /marketing/email-marketing-automation-studio.html
+  - /marketing/engagement-cloud.html
 ---
 
-Engagement Cloud, powered by [dotdigital][1], gives you the ability to produce professional, personalized communications and generated reports using data from your Magento store, including:
+[dotdigital][1] Engagement Cloud gives you the ability to produce professional, personalized communications and generated reports using data from your Magento store, including:
 
--  [Chat with customers]({% link marketing/engagement-cloud-chat.md %})
+-  [Chat with customers]({% link marketing/dotdigital/chat.md %})
 -  [Customize email campaigns][2]
 -  [Import contacts][3]
 -  [Add logic][4]
@@ -17,7 +16,7 @@ Engagement Cloud, powered by [dotdigital][1], gives you the ability to produce p
 
 ## Changes In the Latest Release
 
--  A new B2B integration syncs [data mappings]({% link marketing/engagement-cloud-data-mapping.md %}) for company, shared catalog, and quote data with your dotdigital account.
+-  A new B2B integration syncs [data mappings]({% link marketing/dotdigital/data-mapping.md %}) for company, shared catalog, and quote data with your dotdigital account.
 -  Enhanced web behavior tracking includes browsed products and abandoned search data.
 -  [dotdigital Coupon Code URL Builder]({% link marketing/price-rules-cart-coupon.md %}) generates a URL with a dynamic coupon code for a specific contact that can be used in dotdigital email campaigns.
 

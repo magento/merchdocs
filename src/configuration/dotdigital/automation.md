@@ -1,15 +1,17 @@
 ---
 title: Automation
+redirect_from:
+  - /configuration/engagement-cloud/automation.html
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Automation
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdigital]({% link configuration/dotdigital.md %}) > Automation
 
 ## Visitor Action Automation Enrolment
 
 ![]({% link images/images/config-engagement-cloud-automation-visitor-action-automation-enrolment.png %}){: .zoom}
 _Visitor Action Automation Enrolment_
 
-For each type of contact that you want to automate enrollment, select the appropriate [engagement cloud program](https://support.dotmailer.com/hc/en-gb/articles/212213878-Getting-started-with-the-program-builder){:target="_blank"}. To learn more, see [Automated and triggered campaigns - an overview](https://support.dotdigital.com/hc/en-gb/articles/212213998-Automated-and-triggered-campaigns-an-overview).
+For each type of contact that you want to automate enrollment, select the appropriate [dotdigital program](https://support.dotmailer.com/hc/en-gb/articles/212213878-Getting-started-with-the-program-builder){:target="_blank"}. To learn more, see [Automated and triggered campaigns - an overview](https://support.dotdigital.com/hc/en-gb/articles/212213998-Automated-and-triggered-campaigns-an-overview).
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -26,7 +28,7 @@ For each type of contact that you want to automate enrollment, select the approp
 ![]({% link images/images/config-engagement-cloud-automation-order-status-automation-enrolment.png %}){: .zoom}
 _Order Status Automation Enrolment_
 
-For each automated enrollment based on order status that you want to configure, add a new enrollment, select the order status, and assign an [engagement cloud program](https://support.dotmailer.com/hc/en-gb/articles/212213878-Getting-started-with-the-program-builder).
+For each automated enrollment based on order status that you want to configure, add a new enrollment, select the order status, and assign an [dotdigital program](https://support.dotmailer.com/hc/en-gb/articles/212213878-Getting-started-with-the-program-builder).
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -43,7 +45,7 @@ _Review Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enabled|Website|Determines if Engagement Cloud product [review requests](https://support.dotdigital.com/hc/en-gb/articles/360000459890-Automation-Review-request-Magento-2) are enabled. Options: Yes / No|
+|Enabled|Website|Determines if dotdigital product [review requests](https://support.dotdigital.com/hc/en-gb/articles/360000459890-Automation-Review-request-Magento-2) are enabled. Options: Yes / No|
 |Allow review reminder for non-subscribed contacts|Website|Determines if guests receive product review reminder emails. Options: Yes / No|
 |Order Status|Website|Determines the order status that is associated with the review reminder. Options: Pending / Processing / Suspected Fraud / Complete / Closed / Canceled / On Hold|
 |Delay Period (Days)|Website|Determines the number of days after the order status setting goes into effect that the reminder email is sent. Options: 1 - 7 / 16 / 30 / 60 / 90|
@@ -55,7 +57,7 @@ _Review Settings_
 ![]({% link images/images/config-engagement-cloud-automation-feefo-feedback-engine.png %}){: .zoom}
 _Feefo Feedback Engine_
 
-If you have a [Feefo account](https://www.feefo.com/en-gb/business/all-industries/retail) to manage feedback and product reviews, it can be integrated with your store through Engagement Cloud.
+If you have a [Feefo account](https://www.feefo.com/en-gb/business/all-industries/retail) to manage feedback and product reviews, it can be integrated with your store through dotdigital.
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

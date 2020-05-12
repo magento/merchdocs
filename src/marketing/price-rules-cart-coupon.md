@@ -10,7 +10,7 @@ Coupons codes are used with [cart price rules]({% link marketing/price-rules-car
 
 Coupon codes can be sent by email, or included in newsletters, catalogs, and advertisements. The list of coupon codes can be exported and sent to a commercial printer. You can also create in-store coupons with a quick response code that shoppers can scan with their smart phones. The QR code can link to a page on your site with more information about the promotion.
 
-If [dotdigital]({% link marketing/engagement-cloud.md %}) is enabled, you can use the _dotdigital Coupon URL Builder_ to dynamically generate personalized URLs with coupon codes that can be used in your dotdigital email campaigns. You can also resend a previously generated coupon code to the same contact. To learn more, see [Dynamic content: Coupon codes - Magento 2][1] in the dotdigital Help Centre.
+If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled, you can use the _dotdigital Coupon URL Builder_ to dynamically generate personalized URLs with coupon codes that can be used in your dotdigital email campaigns. You can also resend a previously generated coupon code to the same contact. To learn more, see [Dynamic content: Coupon codes - Magento 2][1] in the dotdigital Help Centre.
 
 ## Method 1: Create a Specific Coupon
 

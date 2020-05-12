@@ -5,7 +5,7 @@ title: Manage Product Listings by Action
 
 {% include amazon-managing-listings-intro.md %}
 
-[Manage Listings by Status / Tab]({% link sales-channels/asc/managing-listings-by-tab.md %})
+See also [Manage Listings by Status / Tab]({% link sales-channels/asc/managing-listings-by-tab.md %}).
 
 {: .template-table }
 |Action|Description|Tab(s)|

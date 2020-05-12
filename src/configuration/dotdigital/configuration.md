@@ -1,8 +1,10 @@
 ---
 title: Configuration
+redirect_from:
+  - /configuration/engagement-cloud/configuration.html
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Engagement Cloud]({% link configuration/engagement-cloud.md %}) > Configuration
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdigital]({% link configuration/dotdigital.md %}) > Configuration
 
 ## Data Fields
 
@@ -12,7 +14,7 @@ _Data Fields_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Data fields calculation with status|Website|Specifies the order status that is used to calculate contact data values such as total spend, average order value, or number of orders. Options: Pending / Processing / Suspected Fraud / Complete / Closed / Canceled / On Hold|
-|Brand Attribute|Website|If your product [attribute set]({% link stores/attribute-sets.md %})(s) use the manufacturer attribute, it can be used as an alternative attribute for brand-related values which are synced to Engagement Cloud.|
+|Brand Attribute|Website|If your product [attribute set]({% link stores/attribute-sets.md %})(s) use the manufacturer attribute, it can be used as an alternative attribute for brand-related values which are synced to dotdigital.|
 
 ## Tracking
 
@@ -21,8 +23,8 @@ _Tracking_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|ROI Tracking|Website|Calculates the return on investment from campaign link clicks. When enabled, Engagement Cloud tracks visitors who arrive at your site after clicking a campaign link. The ROI value is tracked and calculated for all purchases made during the visit. Options: Enable / Disable|
-|Page Tracking|Website|Tracks page visits related to campaign link clicks. When enabled, Engagement Cloud tracks visitors who arrive at your site after clicking a campaign link, and tracks subsequent pages they visit in your site.|
+|ROI Tracking|Website|Calculates the return on investment from campaign link clicks. When enabled, dotdigital tracks visitors who arrive at your site after clicking a campaign link. The ROI value is tracked and calculated for all purchases made during the visit. Options: Enable / Disable|
+|Page Tracking|Website|Tracks page visits related to campaign link clicks. When enabled, dotdigital tracks visitors who arrive at your site after clicking a campaign link, and tracks subsequent pages they visit in your site.|
 |Script version|Website|Adds an optional version number to the ROI tracking script to force a reload if the script is cached.|
 
 ## Consent
@@ -43,10 +45,10 @@ _Transactional Data_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Import Order With Status|Website|Specifies the status of orders which are imported into Engagement Cloud. To select multiple status settings, hold down the Ctrl key (PC) or Command key (Mac) and click each option.|
-|Order Custom Attributes|Website|Specifies the custom order attributes Which are imported into Engagement Cloud. To select multiple custom attributes, hold down the Ctrl key (PC) or Command key (Mac) and click each option.|
-|Product Attributes|Website|Specifies the product attributes which are imported into Engagement Cloud. To select multiple product attributes, hold down the Ctrl key (PC) or Command key (Mac) and click each option.|
-|Include Product Custom Options In Order Sync|Website|Determines if [customizable options]({% link catalog/settings-advanced-custom-options.md %}) are included when orders are synchronized to Engagement Cloud. Options: Yes / No|
+|Import Order With Status|Website|Specifies the status of orders which are imported into dotdigital. To select multiple status settings, hold down the Ctrl key (PC) or Command key (Mac) and click each option.|
+|Order Custom Attributes|Website|Specifies the custom order attributes Which are imported into dotdigital. To select multiple custom attributes, hold down the Ctrl key (PC) or Command key (Mac) and click each option.|
+|Product Attributes|Website|Specifies the product attributes which are imported into dotdigital. To select multiple product attributes, hold down the Ctrl key (PC) or Command key (Mac) and click each option.|
+|Include Product Custom Options In Order Sync|Website|Determines if [customizable options]({% link catalog/settings-advanced-custom-options.md %}) are included when orders are synchronized to dotdigital. Options: Yes / No|
 
 ## Abandoned Carts
 
@@ -167,8 +169,8 @@ _Catalog Sync Settings_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Catalog Values|Website|Determines the scope of the catalog synchronization. Options: Default Level / Store Level|
-|Catalog Visibility|Website|Specifies which products are exported to Engagement Cloud. If left blank, the default setting is "Catalog, Search". To select multiple visibility settings, hold down the Ctrl key (PC) or Command key (Mac) and click each option. Options: Not Visible Individually / Catalog / Search / Catalog, Search|
-|Catalog Type|Website|Specifies which product types are exported to Engagement Cloud. If left blank, the default setting is "Simple Product". To select multiple product types, hold down the Ctrl key (PC) or Command key (Mac) and click each option. Options:  Simple Product / Virtual Product / Bundle Product / Configurable Product / Downloadable Product / Grouped Product / <span class="ee-only">Gift Card</span>|
+|Catalog Visibility|Website|Specifies which products are exported to dotdigital. If left blank, the default setting is "Catalog, Search". To select multiple visibility settings, hold down the Ctrl key (PC) or Command key (Mac) and click each option. Options: Not Visible Individually / Catalog / Search / Catalog, Search|
+|Catalog Type|Website|Specifies which product types are exported to dotdigital. If left blank, the default setting is "Simple Product". To select multiple product types, hold down the Ctrl key (PC) or Command key (Mac) and click each option. Options:  Simple Product / Virtual Product / Bundle Product / Configurable Product / Downloadable Product<!--{% if "Default.EE-B2B" contains site.edition %}--> / Gift Card<!--{% endif %}--> / Grouped Product|
 
 ## Customer Preference
 
@@ -178,7 +180,7 @@ _Customer Preference_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Show Preferences to Customer|Website|Determines if customers can view and edit their own preferences. Options: Yes / No|
-|Show Addressbooks to Customer|Website|Determines if customers can view and edit their own subscriptions to Engagement Cloud [address books](https://support.dotdigital.com/hc/en-gb/articles/212211968-Creating-an-address-book){:target="_blank"}. Options: Yes / No|
-|Addressbooks to Show|Website|Specifies which Engagement Cloud address books are available to the customer, in addition to the general Magento subscription list. Options: (Available address books)|
+|Show Addressbooks to Customer|Website|Determines if customers can view and edit their own subscriptions to dotdigital [address books](https://support.dotdigital.com/hc/en-gb/articles/212211968-Creating-an-address-book){:target="_blank"}. Options: Yes / No|
+|Addressbooks to Show|Website|Specifies which dotdigital address books are available to the customer, in addition to the general Magento subscription list. Options: (Available address books)|
 |Show Data Fields to Customer?|Website|Determines if customers can see address book data fields. Options: Yes / No|
 |Data Fields to Show|Website|Specifies which address book data fields are visible to the customer. Options: FIRSTNAME / FULLNAME / GENDER / LASTNAME / ZIPCODE|
