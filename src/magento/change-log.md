@@ -6,12 +6,26 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 ## May 2020
 
+### Product releases
+
+- [Amazon Sales Channel](https://devdocs.magento.com/extensions/amazon-sales/release-notes/){:target="_blank"}, 4.1.0
+
+### New topics
+
+- [View Amazon Orders]({% link sales-channels/asc/amazon-orders-all.md %})
+
 ### Updated topics
 
 {: .topics-table }
 |Topic |Change|
 |--- |--- |
 |[Catalog]({% link configuration/catalog/catalog.md %}) (reference)<br />[Product Listings]({% link catalog/navigation-product-listings.md %})|Added "Remember Category Pagination" field to the Catalog > Storefront configuration; updated screenshot and instructions for product listings.|
+|[Amazon Order Details]({% link sales-channels/asc/amazon-order-details.md %})|Updated the order import process and added a note about "dummy order information" imported from Amazon.|
+|[Amazon Store Dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %})|Moved _Recent Orders_ information to the new [View Amazon Orders]({% link sales-channels/asc/amazon-orders-all.md %}) topic, corrected list formats, and updated the screen image.|
+|[Cancel Unshipped Order]({% link sales-channels/asc/cancel-unshipped-order.md %})|Corrected where orders open (depending on your import settings) and added a note that returns and exchanges are managed in Amazon.|
+|[Fulfilled By]({% link sales-channels/asc/fulfilled-by.md %})|Added information about "dummy order information" imported from Amazon.|
+|[Order Settings]({% link sales-channels/asc/order-settings.md %})|Corrected order number information.|
+|[Manage Orders]({% link sales-channels/asc/managing-orders.md %})|Moved all order view information to the new [View Amazon Orders]({% link sales-channels/asc/amazon-orders-all.md %}) topic, added scenarios that block order creation, and added the order import process table.|
 
 ## April 2020
 
