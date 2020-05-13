@@ -139,7 +139,7 @@ Gives you the ability to create custom mappings to dotdigital, based on the foll
 |Expiration Date|Website|Maps the expiration date of the customer's reward points from Magento to your corresponding contact data field in dotdigital.|
 |Last Used Date|Website|Maps the date the customer's reward points were last used from Magento to your corresponding contact data field in dotdigital.|
 |**Customer Information**|||
-|Customer Segments|Website|Maps the customer segment that applies to the customer from Magento to your corresponding contact data field in dotdigital.|<!--{% endif %}-->
+|Customer Segments|Website|Maps the customer segment that applies to the customer from Magento to your corresponding contact data field in dotdigital.|
 
 ## Create Data Field
 
