@@ -121,6 +121,7 @@ pages:
     children:
     - label: Customer Attributes
       url: "/stores/attributes-customer.html"
+      edition: ee-only
       children:
       - label: Address Attributes
         url: "/stores/attributes-customer-address.html"
@@ -168,6 +169,7 @@ pages:
         url: "/system/data-import-price-tier.html"
     - label: Scheduled Import/Export
       url: "/system/data-scheduled-import-export.html"
+      edition: ee-only
       children:
       - label: Scheduling an Import
         url: "/system/data-schedule-import.html"
@@ -187,6 +189,7 @@ pages:
     children:
     - label: Integration with ERP Systems
       url: "/system/erp-systems.html"
+      edition: b2b-only
   - label: Permissions
     url: "/system/permissions.html"
     children:
@@ -257,6 +260,7 @@ pages:
       children:
       - label: Action Logs
         url: "/system/action-log.html"
+        edition: ee-only
         children:
         - label: Report
           url: "/system/action-log-report.html"
@@ -291,6 +295,7 @@ pages:
         url: "/system/web-setup-system-configuration.html"
     - label: Support
       url: "/system/support.html"
+      edition: ee-only
       children:
       - label: Data Collector
         url: "/system/support-data-collector.html"
@@ -316,6 +321,7 @@ pages:
     url: "/reports/product-reports.html"
   - label: Private Sales Reports
     url: "/reports/private-sales-reports.html"
+    edition: ee-only
   - label: Business Intelligence
     url: "/reports/business-intelligence.html"
     children:

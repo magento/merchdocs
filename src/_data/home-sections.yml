@@ -26,10 +26,6 @@
     content: Create new store views in different languages, and manage multisite installations with different currency rates and taxes. Learn to use system tools to manage store data.
     url: /stores/stores.html
 
-  - title: Support your customers
-    content: Magento includes multiple customer management tools, including customer accounts, customer groups, customer segments and company accounts to support B2B functions.
-    url: /customers.html
-
   - title: Manage the system
     content: Learn how to import and export data. manage security and permissions, and install extensions. Use the system tools to manage the cache and indexing, and schedule backups.
     url: /system/system.html

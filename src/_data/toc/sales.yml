@@ -10,11 +10,13 @@ pages:
     url: "/sales/checkout-instant-purchase.html"
   - label: Quick Order
     url: "/sales/quick-order.html"
+    edition: b2b-only
   - label: Shopping Cart
     url: "/sales/cart.html"
     children:
     - label: Requesting a Quote
       url: "/sales/quote-request.html"
+      edition: b2b-only
     - label: Cart Configuration
       url: "/sales/cart-configuration.html"
       children:
@@ -34,13 +36,16 @@ pages:
         url: "/sales/cart-thumbnails.html"
       - label: Order by SKU
         url: "/sales/order-by-sku.html"
+        edition: ee-only
       - label: Gift Options
         url: "/sales/gift-options.html"
         children:
         - label: Gift Wrap
           url: "/sales/gift-wrap.html"
+          edition: ee-only
         - label: Gift Options Tax
           url: "/sales/gift-options-tax.html"
+          edition: ee-only
     - label: Persistent Cart
       url: "/sales/cart-persistent.html"
       children:
@@ -53,6 +58,7 @@ pages:
     children:
     - label: Managing a Shopping Cart
       url: "/sales/shopping-assisted-cart-manage.html"
+      edition: ee-only
     - label: Creating an Order
       url: "/customers/customer-account-create-order.html"
       children:
@@ -81,6 +87,7 @@ pages:
           url: "/sales/terms-and-conditions.html"
         - label: Address Search
           url: "/sales/checkout-address-search.html"
+          edition: ee-only
       - label: Checkout Totals Sort Order
         url: "/sales/checkout-totals-sort-order.html"
 - label: Order Management
@@ -88,6 +95,7 @@ pages:
   children:
   - label: Quotes
     url: "/sales/quotes.html"
+    edition: ee-only
     children:
     - label: Quote Workflow
       url: "/sales/quote-workflow.html"
@@ -162,6 +170,7 @@ pages:
       url: "/sales/credit-memo-print.html"
   - label: Store Credit
     url: "/sales/store-credit.html"
+    edition: ee-only
     children:
     - label: Store Credit Workflow
       url: "/sales/store-credit-workflow.html"
@@ -173,6 +182,7 @@ pages:
       url: "/sales/refunds-customer-account.html"
   - label: Company Credit
     url: "/sales/credit-company.html"
+    edition: b2b-only
     children:
     - label: Credit Activity
       url: "/sales/credit-company-activity.html"
@@ -180,6 +190,7 @@ pages:
       url: "/sales/credit-company-reimburse.html"
   - label: Returns
     url: "/sales/returns.html"
+    edition: ee-only
     children:
     - label: RMA Workflow
       url: "/sales/rma-workflow.html"
@@ -196,6 +207,7 @@ pages:
     url: "/sales/transactions.html"
   - label: Archive
     url: "/sales/order-archive.html"
+    edition: ee-only
     children:
     - label: Configuring the Archive
       url: "/sales/order-archive-configure.html"
@@ -271,10 +283,13 @@ pages:
       url: "/payment/authorize-net-direct-post.html"
     - label: CyberSource - Deprecated
       url: "/payment/cybersource.html"
+      edition: ee-only
     - label: eWAY - Deprecated
       url: "/payment/eway.html"
+      edition: ee-only
     - label: Worldpay - Deprecated
       url: "/payment/worldpay.html"
+      edition: ee-only
   - label: Basic Payment Methods
     url: "/payment/payment-methods.html"
     children:
@@ -284,6 +299,7 @@ pages:
       url: "/payment/cash-on-delivery.html"
     - label: Payment on Account
       url: "/payment/payment-on-account.html"
+      edition: b2b-only
     - label: Bank Transfer
       url: "/payment/bank-transfer.html"
     - label: Purchase Order

@@ -43,6 +43,7 @@ pages:
       url: "/customers/account-dashboard-my-account.html"
     - label: My Quotes
       url: "/customers/account-dashboard-quotes.html"
+      edition: b2b-only
       children:
       - label: Negotiating a Quote
         url: "/customers/account-dashboard-quotes-negotiate.html"
@@ -52,6 +53,7 @@ pages:
       url: "/customers/account-dashboard-my-downloadable-products.html"
     - label: My Requistion Lists
       url: "/customers/account-dashboard-requisition-lists.html"
+      edition: b2b-only
       children:
       - label: Managing Requisition Lists
         url: "/customers/account-dashboard-requisition-lists-manage.html"
@@ -69,26 +71,35 @@ pages:
       url: "/customers/account-dashboard-store-credit.html"
     - label: Gift Card
       url: "/customers/account-dashboard-gift-cards.html"
+      edition: ee-only
     - label: Company Profile
       url: "/customers/account-dashboard-company-profile.html"
+      edition: b2b-only
     - label: Company Credit
       url: "/customers/account-dashboard-company-credit.html"
+      edition: b2b-only
     - label: Company Structure
       url: "/customers/account-dashboard-company-structure.html"
+      edition: b2b-only
     - label: Company Users
       url: "/customers/account-dashboard-company-users.html"
+      edition: b2b-only
     - label: Reward Points
       url: "/customers/account-dashboard-reward-points.html"
+      edition: ee-only
     - label: Gift Registry
       url: "/customers/account-dashboard-gift-registry.html"
+      edition: ee-only
     - label: My Product Reviews
       url: "/customers/account-dashboard-my-product-reviews.html"
     - label: Newsletter Subscription
       url: "/customers/account-dashboard-newsletter-subscriptions.html"
     - label: My Invitations
       url: "/customers/account-dashboard-my-invitations.html"
+      edition: ee-only
 - label: Company Accounts
   url: "/customers/account-companies.html"
+  edition: b2b-only
   children:
   - label: Creating a Company Account
     url: "/customers/account-company-create.html"
@@ -126,8 +137,10 @@ pages:
   children:
   - label: Assigning a Customer Group to a Company
     url: "/customers/account-company-customer-group.html"
+    edition: b2b-only
 - label: Customer Segments
   url: "/marketing/customer-segments.html"
+  edition: ee-only
   children:
   - label: Customer Segment Attributes
     url: "/marketing/customer-segment-attributes.html"

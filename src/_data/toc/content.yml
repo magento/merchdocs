@@ -25,6 +25,7 @@ pages:
         url: "/cms/pages-grid-columns.html"
       - label: Scheduled Changes
         url: "/cms/page-scheduled-changes.html"
+        edition: ee-only
     - label: Adding a New Page
       url: "/cms/page-add.html"
       children:
@@ -55,6 +56,7 @@ pages:
         url: "/cms/editor-configure.html"
   - label: Hierarchy
     url: "/cms/page-hierarchy.html"
+    edition: ee-only
     children:
     - label: Configuring Page Hierarchy
       url: "/cms/page-hierarchy-configure.html"
@@ -79,6 +81,7 @@ pages:
         url: "/design/layout-update-place-block.html"
   - label: Dynamic Blocks
     url: "/cms/dynamic-blocks.html"
+    edition: ee-only
     children:
     - label: Rotating Dynamic Blocks
       url: "/cms/dynamic-blocks-rotate.html"
@@ -86,6 +89,7 @@ pages:
       url: "/cms/dynamic-blocks-price-rules.html"
   - label: Banners (Deprecated)
     url: "/cms/banners.html"
+    edition: ee-only
     children:
     - label: Creating a Banner (Deprecated)
       url: "/cms/banner-create.html"

@@ -62,6 +62,7 @@ pages:
         url: "/quick-tour/success.html"
     - label: B2B Basics
       url: "/stores/b2b-basics.html"
+      edition: b2b-only
       children:
       - label: B2B Best Practices
         url: "/stores/b2b-best-practices.html"  
@@ -161,6 +162,7 @@ pages:
       url: "/stores/store-mode-single.html"
   - label: B2B Overview
     url: "/quick-tour/b2b-quick-start.html"
+    edition: b2b-only
     children:
     - label: Configuring B2B Features
       url: "/stores/b2b-features.html"
@@ -220,6 +222,7 @@ pages:
       url: "/configuration/general/general.html"
     - label: B2B Features
       url: "/configuration/general/b2b-features.html"
+      edition: b2b-only
     - label: Web
       url: "/configuration/general/web.html"
     - label: Currency Setup
@@ -243,6 +246,7 @@ pages:
       url: "/configuration/catalog/catalog.html"
     - label: Visual Merchandiser
       url: "/configuration/catalog/visual-merchandiser.html"
+      edition: ee-only
     - label: Inventory
       url: "/configuration/catalog/inventory.html"
     - label: XML Sitemap
@@ -265,20 +269,25 @@ pages:
       url: "/configuration/customers/newsletter.html"
     - label: Company Configuration
       url: "/configuration/customers/company-configuration.html"
+      edition: b2b-only
     - label: Customer Configuration
       url: "/configuration/customers/customer-configuration.html"
     - label: Requisition Lists
       url: "/configuration/customers/requisition-lists.html"
+      edition: b2b-only
     - label: Wish List
       url: "/configuration/customers/wishlist.html"
     - label: Invitations
       url: "/configuration/customers/invitations.html"
+      edition: ee-only
     - label: Reward Points
       url: "/configuration/customers/reward-points.html"
+      edition: ee-only
     - label: Promotions
       url: "/configuration/customers/promotions.html"
     - label: Gift Registry
       url: "/configuration/customers/gift-registry.html"
+      edition: ee-only
     - label: Persistent Shopping Cart
       url: "/configuration/customers/persistent-shopping-cart.html"
   - label: Sales
@@ -290,6 +299,7 @@ pages:
       url: "/configuration/sales/sales-emails.html"
     - label: Quotes
       url: "/configuration/sales/quotes.html"
+      edition: b2b-only
     - label: PDF Print-outs
       url: "/configuration/sales/pdf-print-outs.html"
     - label: Tax
@@ -344,10 +354,13 @@ pages:
           url: "/configuration/sales/authorize-net.html"
         - label: CyberSource - Deprecated
           url: "/configuration/sales/cybersource.html"
+          edition: ee-only
         - label: eWAY - Deprecated
           url: "/configuration/sales/eway.html"
+          edition: ee-only
         - label: Worldpay - Deprecated
           url: "/configuration/sales/worldpay.html"
+          edition: ee-only
     - label: 3D Secure
       url: "/configuration/sales/3d-secure.html"
       children:
@@ -357,6 +370,7 @@ pages:
       url: "/configuration/sales/fraud-protection.html"
     - label: Gift Cards
       url: "/configuration/sales/gift-cards.html"
+      edition: ee-only
     - label: Address Validation
       url: "/configuration/sales/address-validation.html"
   - label: Sales Channels

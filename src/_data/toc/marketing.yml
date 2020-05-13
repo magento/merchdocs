@@ -488,6 +488,7 @@ pages:
       url: "/marketing/wishlist-share.html"
     - label: Wish List Search
       url: "/marketing/wishlist-search.html"
+      edition: ee-only
   - label: Product Relationships
     url: "/marketing/product-relationships.html"
   - label: Compare Products
@@ -531,6 +532,7 @@ pages:
       url: "/marketing/price-rules-catalog-create.html"
     - label: Scheduled Changes
       url: "/marketing/price-rule-catalog-scheduled-changes.html"
+      edition: ee-only
     - label: Multiple SKUs
       url: "/marketing/price-rule-multiple-sku.html"
   - label: Cart Price Rules
@@ -547,6 +549,7 @@ pages:
         url: "/marketing/price-rules-cart-coupon-report.html"
     - label: Scheduled Changes
       url: "/marketing/price-rule-cart-scheduled-changes.html"
+      edition: ee-only
     - label: Free Shipping Promotion
       url: "/marketing/price-rules-cart-free-shipping.html"
     - label: Buy X Get Y Free
@@ -555,8 +558,10 @@ pages:
       url: "/marketing/price-rule-discount-minimum-purchase.html"
     - label: Discount with First Purchase
       url: "/marketing/price-rule-discount-first-purchase.html"
+      edition: ee-only
   - label: Related Product Rules
     url: "/marketing/product-related-rules.html"
+    edition: ee-only
     children:
     - label: Creating a Related Product Rule
       url: "/marketing/product-related-rule-create.html"
@@ -569,6 +574,7 @@ pages:
   children:
   - label: Visual Merchandiser
     url: "/marketing/visual-merchandiser.html"
+    edition: ee-only
     children:
     - label: Creating Category Rules
       url: "/catalog/category-product-rules.html"
@@ -576,6 +582,7 @@ pages:
       url: "/marketing/visual-merchandiser-configuration.html"
   - label: Gift Registries
     url: "/marketing/gift-registries.html"
+    edition: ee-only
     children:
     - label: Gift Registry Information
       url: "/marketing/gift-registry-information.html"
@@ -587,6 +594,7 @@ pages:
       url: "/marketing/gift-registry-search.html"
   - label: Rewards and Loyalty
     url: "/marketing/rewards-loyalty.html"
+    edition: ee-only
     children:
     - label: Configuring Reward Points
       url: "/marketing/reward-point-configure.html"
@@ -596,6 +604,7 @@ pages:
       url: "/marketing/reward-points-price-rules.html"
   - label: Private Sales and Events
     url: "/marketing/events-private-sales.html"
+    edition: ee-only
     children:
     - label: Event Components
       url: "/marketing/event-components.html"
@@ -637,6 +646,7 @@ pages:
         url: "/marketing/sales-email-configure.html"
       - label: Configuring Company Email
         url: "/marketing/email-company-configuration.html"
+        edition: b2b-only
       - label: Payment Failed Email
         url: "/sales/checkout-payment-failed-emails.html"
       - label: Admin User Email
@@ -652,6 +662,7 @@ pages:
         url: "/marketing/email-template-message.html"
     - label: Email Reminders
       url: "/marketing/email-reminder-rules.html"
+      edition: ee-only
       children:
       - label: Creating Email Reminders
         url: "/marketing/email-reminder-rules-create.html"
@@ -829,6 +840,7 @@ pages:
     url: "/marketing/google-content-experiments.html"
   - label: Google Tag Manager
     url: "/marketing/google-tag-manager.html"
+    edition: ee-only
     children:
     - label: Creating a Tag to Track Conversions
       url: "/marketing/google-tag-manager-create-tag.html"
