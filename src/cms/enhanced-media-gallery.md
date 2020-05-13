@@ -24,15 +24,15 @@ The Enhanced Media Gallery requires Magento 2.4 or newer.
 
 ## Access the Enhanced Media Gallery
 
-The Enhanced Media Gallery is accessible through the [content menu]({% link cms/content-menu.md %}) or when you [add or edit a page]({% link cms/page-add.md %}), when you [create or edit a category]({% link catalog/category-create.md %}), or when you [insert images via the Content Editor]({% link cms/editor-insert-image.md %}).
+The Enhanced Media Gallery is accessible through the [content menu][content-menu] or when you [add or edit a page][add-page], when you [create or edit a category][create-category], or when you [insert images via the Content Editor][editor-insert-image].
 
 {:.procedure}
-To access the Enhanced Media Gallery through the [content menu]({% link cms/content-menu.md %}):
+To access the Enhanced Media Gallery through the [content menu][content-menu]:
 
 1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
 
 {:.procedure}
-To access the Enhanced Media Gallery when you are [adding or editing a page]({% link cms/page-add.md %}):
+To access the Enhanced Media Gallery when you are [adding or editing a page][add-page]:
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Pages**.
 
@@ -53,7 +53,12 @@ To access the Enhanced Media Gallery when you are [adding or editing a page]({% 
       ![]({% link images/images-ee/page-builder-media-image-drag.png %}){: .zoom}
       _Drag Image to Stage_
 
-    - If you have the [WYSIWYG editor enabled]({% link cms/editor-configure.md %}), click **Show/Hide Editor** and then click **Insert Image**.
+    - If you have the [WYSIWYG editor enabled][editor-config], click **Show/Hide Editor** and then click **Insert Image**.
     <!--{% endif %}-->
 
 [adobe-stock]: https://stock.adobe.com
+[content-menu]: {% link cms/content-menu.md %}
+[add-page]: {% link cms/page-add.md %}
+[create-category]: {% link catalog/category-create.md %}
+[editor-insert-image]: {% link cms/editor-insert-image.md %}
+[editor-config]: {% link cms/editor-configure.md %}
