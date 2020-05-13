@@ -27,7 +27,7 @@ The Enhanced Media Gallery requires Magento 2.4 or newer.
 The Enhanced Media Gallery is accessible through the [content menu]({% link cms/content-menu.md %}) or when you [add or edit a page]({% link cms/page-add.md %}), when you [create or edit a category]({% link catalog/category-create.md %}), or when you [insert images via the Content Editor]({% link cms/editor-insert-image.md %}).
 
 {:.procedure}
-To access the Enhanced Media Gallery on the [content menu]({% link cms/content-menu.md %}):
+To access the Enhanced Media Gallery through the [content menu]({% link cms/content-menu.md %}):
 
 1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
 
