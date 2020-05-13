@@ -18,8 +18,8 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Schedule Ahead for|Store View|Determines the number of minutes in advance that schedules are generated.|
 |Missed if Not Run Within|Store View|Determines the number of minutes before a cron job that hasn’t yet executed is marked as missed.|
 |History Cleanup Every|Store View|Determines the number of minutes that pass before the cron history is cleaned.|
-|Success History Lifetime|Store View|Determines the number of minutes that the record of successfully completed cron jobs are kept in the database.|
-|Failure History Lifetime|Store View|Determines the number of minutes that the record of failed cron jobs are kept in the database.|
+|Success History Lifetime|Store View|Determines the number of minutes that the record of successfully completed cron jobs is kept in the database.|
+|Failure History Lifetime|Store View|Determines the number of minutes that the record of failed cron jobs is kept in the database.|
 |Use Separate Process|Store View|Determines if cron jobs are executed in parallel as separate processes. Options: Yes / No|
 
 ![]({% link images/images/config-advanced-system-cron-group-default.png %}){: .zoom}
@@ -31,8 +31,8 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Schedule Ahead for|Store View|Determines the number of minutes in advance that schedules are generated.|
 |Missed if Not Run Within|Store View|Determines the number of minutes before a cron job that hasn’t yet executed is marked as missed.|
 |History Cleanup Every|Store View|Determines the number of minutes that pass before the cron history is cleaned.|
-|Success History Lifetime|Store View|Determines the number of minutes that the record of successfully completed cron jobs are kept in the database.|
-|Failure History Lifetime|Store View|Determines the number of minutes that the record of failed cron jobs are kept in the database.|
+|Success History Lifetime|Store View|Determines the number of minutes that the record of successfully completed cron jobs is kept in the database.|
+|Failure History Lifetime|Store View|Determines the number of minutes that the record of failed cron jobs is kept in the database.|
 |Use Separate Process|Store View|Determines if cron jobs are executed in parallel as separate processes. Options: Yes / No|
 
 ## MySQL Message Queue Cleanup
@@ -58,7 +58,7 @@ _MySQL Message Queue Cleanup_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Disable Email Communications|Store View|Determines if email communications are activated for the store. Options: Yes / No|
-|Host|Store View|(For Windows server only) Determines the name that is used to refer to the host . Default value: localhost|
+|Host|Store View|(For Windows server only) Determines the name that is used to refer to the host. Default value: localhost|
 |Port (25)|Store View|(For Windows server only) Identifies the port used for email communications. Default value: 25|
 |Set Return-Path|Global|Determines if a routing address is used for returned emails. Options: No ([Recommended Security Measure](https://magento.com/security/news/new-zend-framework-1-security-vulnerability){:target="_blank"}) / Yes / Specified|
 |Return-Path Email|Global|Specifies the routing email address for returned emails.|
@@ -79,7 +79,7 @@ _MySQL Message Queue Cleanup_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Use HTTPS to Get Feed|Global|Determines if Admin notifications are delivered over a secure channel.  Options: Yes / No|
+|Use HTTPS to Get Feed|Global|Determines if Admin notifications are delivered over a secure channel. Options: Yes / No|
 |Update Frequency|Global|Determines the frequency of Admin message updates. Options: 1 Hour, 2 Hours, 6 Hours, 12 Hours, 24 Hours|
 |Last Update|Store View|Indicates the date and time of the last message update.|
 
@@ -95,8 +95,8 @@ _MySQL Message Queue Cleanup_
 |Enable Scheduled Backup|Global|Determines if the Magento installation is automatically backed up on a regular schedule. Options: Yes / No|
 |Backup Type|Global|Determines the elements of the Magento installation that are included in the backup. Options: Database, Database and Media, System, System (excluding Media)|
 |Start Time|Global|Specifies the hour, minute, and second that the scheduled backup begins.|
-|Frequency|Global|Determines how often the schedule backup takes place. Options: Daily, Weekly, Monthly|
-|Maintenance Mode|Global|Determines if store is put in Maintenance Mode during the scheduled backup. Options: Yes / No|
+|Frequency|Global|Determines how often the scheduled backup takes place. Options: Daily, Weekly, Monthly|
+|Maintenance Mode|Global|Determines if the store is put in Maintenance Mode during the scheduled backup. Options: Yes / No|
 
 <!--{% if "Default.EE Only" contains site.edition %}-->
 ## Admin Actions Log Archiving
@@ -106,7 +106,7 @@ _MySQL Message Queue Cleanup_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Log Entry Lifetime, Days|Store View|Determines the number of days that admin actions are kept in the Admin Actions archive.  Default: 60|
+|Log Entry Lifetime, Days|Store View|Determines the number of days that admin actions are kept in the Admin Actions archive. Default: 60|
 |Log Archiving Frequency|Store View|Determines how often the Admin Actions logs are archived. Options: Daily, Weekly, Monthly|
 
 <!--{% endif %}-->
@@ -119,12 +119,12 @@ _MySQL Message Queue Cleanup_
 [_Varnish Configuration_]({% link system/cache-full-page.md %})
 
 Caching application
-Built-in Application - Not recommended for production environment.
-Varnish Caching - Recommended for production environment.
+Built-in Application - Not recommended for the production environment.
+Varnish Caching - Recommended for the production environment.
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Caching Application|Global|Determines the application that is used to manage the full-page cache. Options: <br/>**Built-in Application** - Not recommended for production environment. <br/>**Varnish Caching** - Recommended for production environment.|
+|Caching Application|Global|Determines the application that is used to manage the full-page cache. Options: <br/>**Built-in Application** - Not recommended for the production environment. <br/>**Varnish Caching** - Recommended for the production environment.|
 |TTL for public content|Global|Determines the lifetime of the public content cache in seconds. Default value: 120|
 |**Varnish Configuration**|||xs
 |Access list|Global|Specifies the IP addresses that can purge the Varnish configuration to generate a config file. Separate multiple entries with a comma. Default value: localhost|
@@ -162,7 +162,7 @@ Varnish Caching - Recommended for production environment.
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Days Saved in Log|Global|Determines the number of days that bulk actions are  kept in the Bulk Actions Log archive. Default: 60|
+|Days Saved in Log|Global|Determines the number of days that bulk actions are kept in the Bulk Actions Log archive. Default: 60|
 
 ## Scheduled Import/Export File History Cleaning
 
@@ -172,7 +172,7 @@ Varnish Caching - Recommended for production environment.
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Save File, Days|Global|Determines the number of days that import/export history files are saved.|
-|Enable Scheduled File  History Cleaning|Global|Enables the scheduled file cleanup of import/export files. Options: Yes / No|
+|Enable Scheduled File History Cleaning|Global|Enables the scheduled file cleanup of import/export files. Options: Yes / No|
 |Clean Now||Overrides the scheduled cleanup, and immediately cleans the import/export history files.|
 |Start Time|Global|Specifies the hour, minute, and second of the import/export history file cleanup.|
 |Frequency|Global|Determines how often the import/export history files are cleaned. Options: Daily, Weekly, Monthly|
@@ -194,7 +194,7 @@ _Image Upload Configuration_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Quality|Global|Determines the JPG quality for the resized image. Lower quality reduces the file size. We recommend 80-90% to help reduce file size with high quality.Default: 80|
-|Enable Frontend Resize|Global|Enable to allow Magento to resize  large, oversized images you may upload for the Product Details Page. Magento resizing the image files using JavaScript prior to uploading the file. When the image is resized, it keeps the exact proportions, meeting and not exceeding the largest size for Maximum Width or Maximum Height. Default: Yes|
+|Enable Frontend Resize|Global|Enable to allow Magento to resize large, oversized images you may upload for the Product Details Page. Magento resizing the image files using JavaScript prior to uploading the file. When the image is resized, it keeps the exact proportions, meeting and not exceeding the largest size for Maximum Width or Maximum Height. Default: Yes|
 |Maximum Width|Global|Determines the maximum pixel width for the image. When the image is resized, it does not exceed this width. Default: 1920|
 |Maximum Height|Global|Determines the maximum pixel height for the image. When the image is resized, it does not exceed this height. Default: 1200|
 
