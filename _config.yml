@@ -41,7 +41,7 @@ defaults:
       github_link: true
       feedback_link: true
       github_repo: https://github.com/magento/merchdocs/
-      github_files: https://github.com/magento/merchdocs/blob/master/src/
+      github_files: https://github.com/magento/merchdocs/blob/master/
 
   -
     scope:
