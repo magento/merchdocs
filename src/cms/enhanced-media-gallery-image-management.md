@@ -28,7 +28,7 @@ title: Image Management
 
 ## Use an image
 
-1. Images can be used on the following contexts, [add or edit a page]({% link cms/page-add.md %}), [create or edit a category]({% link catalog/category-create.md %}), or [insert images via the Content Editor]({% link cms/editor-insert-image.md %}).
+1. Images can be used on the following contexts, [add or edit a page][add-edit-page], [create or edit a category][create-edit-category], or [insert images via the Content Editor][editor-insert-media].
    
 1. Access the Enhanced Media Gallery from one of the steps above.
 
@@ -50,3 +50,7 @@ title: Image Management
 
     ![]({% link images/images/enhanced-media-gallery/delete-image-confirmation.png %}){: .zoom}
     _Delete Confirmation_
+    
+[add-edit-page]: {% link cms/page-add.md %}
+[create-edit-category]: {% link catalog/category-create.md %}
+[editor-insert-media]: {% link cms/editor-insert-image.md %}
