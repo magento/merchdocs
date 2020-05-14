@@ -21,7 +21,7 @@ title: Image Management
     ![]({% link images/images/enhanced-media-gallery/image-actions.png %}){: .zoom}
     _Image Actions_
     
-1. The image details will be displayed on a new modal.
+1. The image details will be displayed on a slide panel.
 
     ![]({% link images/images/enhanced-media-gallery/image-details.png %}){: .zoom}
     _Image Details_
