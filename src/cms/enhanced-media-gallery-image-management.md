@@ -10,7 +10,7 @@ title: Image Management
 
 1. Select the image file to be uploaded
 
-1. The selected image will automatically be uploaded to the selected folder (or root folder).
+1. The selected image will automatically be uploaded to the selected folder (or to the storage root if no folder is selected).
 
 ## View image details
 
