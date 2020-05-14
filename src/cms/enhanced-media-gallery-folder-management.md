@@ -8,7 +8,7 @@ title: Folder Management
 
 1. Click on <span class="btn">Create Folder</span>.
     
-    If you want to create a sub-folder, open that folder before clicking on <span class="btn">Create Folder</span>.
+    If you want to create a sub-folder, select the parent folder before clicking on <span class="btn">Create Folder</span>.
 
 1. Fill up the new folder name, then click on <span class="btn">Confirm</span>.
 
