@@ -162,6 +162,8 @@ pages:
     children:
     - label: RMA Workflow
       url: "/sales/rma-workflow.html"
+    - label: RMA Lifecycle
+      url: "/sales/rma-lifecylce.html"
     - label: Configuring Returns
       url: "/sales/rma-configure.html"
       children:
