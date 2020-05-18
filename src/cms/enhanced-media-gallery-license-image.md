@@ -4,6 +4,10 @@ title: License an Adobe Stock Image
 
 [Enhanced Media Gallery]({% link cms/enhanced-media-gallery.md %}) provides a direct integration with Adobe Stock, allowing the user to license their images directly from the gallery page.
 
+## Prerequisites
+
+This feature requires the [Adobe Stock Integration][adobe-stock-integration] module to work. In order to license [Adobe Stock][adobe-stock] images, a paid [Adobe Stock][adobe-stock] plan and an [Adobe account][adobe-signin] are also required.
+
 ## To license an Adobe Stock Image
 
 1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
@@ -30,7 +34,9 @@ title: License an Adobe Stock Image
     {:.bs-callout-info}
     You must have available [Adobe Stock credits][stock-credits] in your account to license the image.
 
-    
+[adobe-stock-integration]: {% link cms/adobe-stock.md %}
 [media-storage]: {% link cms/media-storage.md %}
 [using-adobe-stock]: {% link cms/adobe-stock-manage.md %}
 [stock-credits]: https://helpx.adobe.com/stock/help/credit-packs.html
+[adobe-stock]: https://stock.adobe.com
+[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html

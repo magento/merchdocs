@@ -34,17 +34,17 @@ title: Image Management
 
 1. Select the image, then click <span class="btn">Add Selected</span>.
 
-    ![]({% link images/images/enhanced-media-gallery/add-selected.png %}){: .zoom}
+    ![]({% link images/images/enhanced-media-gallery/selected-image.png %}){: .zoom}
     _Add Selected_
 
 ## Delete an image
 
 1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
 
-1. Click on the three dots below the image (![]({% link images/images/enhanced-media-gallery/three-dots-btn.png %})), then click on <span class="btn">Delete</span>
-    
-    ![]({% link images/images/enhanced-media-gallery/image-actions.png %}){: .zoom}
-    _Image Actions_
+1. Select the image, then click <span class="btn">Delete Selected</span>.
+
+    ![]({% link images/images/enhanced-media-gallery/selected-image.png %}){: .zoom}
+    _Delete Selected_
     
 1. A confirmation pop up will come up, click on <span class="btn">Delete Image</span> button.
 
