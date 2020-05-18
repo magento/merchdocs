@@ -21,7 +21,7 @@ title: Image Management
     ![]({% link images/images/enhanced-media-gallery/image-actions.png %}){: .zoom}
     _Image Actions_
     
-1. The image details will be displayed on a slide panel.
+1. The image details will be displayed on a slide panel, including information where the image is being used. It is also possible to delete the image from this section.
 
     ![]({% link images/images/enhanced-media-gallery/image-details.png %}){: .zoom}
     _Image Details_
