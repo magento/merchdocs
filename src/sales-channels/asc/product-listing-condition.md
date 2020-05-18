@@ -19,12 +19,12 @@ Amazon requires a product listing to have a defined condition. If all your produ
 - Collectible; Good
 - Collectible; Acceptable
 
+{:.bs-callout .bs-callout-warning}
+If you sell renewed (refurbished) products, you must enroll in the Amazon Renewed Program. See [Renewed Products]({% link sales-channels/asc/renewed-products.md %}).
+
 However, if your catalog contains products in different conditions (New, Used, Refurbished, etc.), you must choose **Assign Condition Using Product Attribute**. This setting allows you to map your Magento condition attribute and values to your Amazon listing's conditions.
 
 During [Pre-Setup Tasks]({% link sales-channels/asc/amazon-pre-setup-tasks.md %}), you are encouraged to create a Magento product attribute for a product's condition. If you offer products in various conditions and you have not created a condition attribute, see [Create a product attribute in Magento]({% link sales-channels/asc/ob-creating-magento-attributes.md %}). Once the condition attribute is created, you can assign a condition value to each of your products in your Magento catalog.
-
-{:.bs-callout .bs-callout-warning}
-If you sell renewed (refurbished) products, you must enroll in the Amazon Renewed Program. See [Renewed Products]({% link sales-channels/asc/renewed-products.md %}).
 
 ## Configure Product Listing Condition settings
 
