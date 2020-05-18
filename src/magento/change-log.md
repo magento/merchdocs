@@ -19,6 +19,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 {: .topics-table }
 |Topic |Change|
 |--- |--- |
+|[Catalog]({% link configuration/catalog/catalog.md %}) (reference)<br />[Product Listings]({% link catalog/navigation-product-listings.md %})|Added "Remember Category Pagination" field to the Catalog > Storefront configuration; updated screenshot and instructions for product listings.|
 |[Amazon Order Details]({% link sales-channels/asc/amazon-order-details.md %})|Updated the order import process and added a note about "dummy order information" imported from Amazon.|
 |[Amazon Store Dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %})|Moved _Recent Orders_ information to the new [View Amazon Orders]({% link sales-channels/asc/amazon-orders-all.md %}) topic, corrected list formats, and updated the screen image.|
 |[Cancel Unshipped Order]({% link sales-channels/asc/cancel-unshipped-order.md %})|Corrected where orders open (depending on your import settings) and added a note that returns and exchanges are managed in Amazon.|
