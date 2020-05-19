@@ -21,7 +21,7 @@ _[Google Analytics]({% link marketing/google-universal-analytics.md %})_{:.ee-on
 ### Google Analytics - Google Tag Manager
 
 ![]({% link images/images-ee/config-sales-google-api-google-analytics-google-tag-manager.png %}){: .zoom}
-_Google Analytics - Google Tag Manager_{:.ee-only}
+_Google Analytics - Google Tag Manager_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

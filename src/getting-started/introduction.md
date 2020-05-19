@@ -8,12 +8,12 @@ Welcome to the next generation of the world’s leading digital commerce platfor
 
 ## Product editions
 
-Magento offers multiple editions to fit the requirements of your eCommerce business. Each successive edition adds features, as well as higher levels of service. The information in this User Guide is designed to accommodate all Magento business users, with notations for features and functions that are specific to one or more editions.
+Adobe offers two Magento editions to fit the requirements of your eCommerce business. The information in this User Guide is designed to accommodate business users from either edition, with notations for features and functions that are specific to one edition or an extended feature set.
 
-- {:.ce-only}**Magento Open Source** is a self-hosted eCommerce platform with robust commerce features available free of charge. It offers you a stable and customizable solution for your growing small business or as a tool to prototype new ideas and business models for larger merchants.
+- {:.ce-only}**Magento Open Source** is a self-hosted eCommerce platform with essential commerce features available free of charge. It offers you a stable and customizable solution for your growing small business or as a tool to prototype new ideas and business models for larger merchants.
 
-- {:.ee-only}**Magento Commerce** an enterprise-grade eCommerce platform and and provides a richer set of out-of-the-box features, with an unlimited ability to customize and seamless third-party integrations. Robust and scalable, Magento Commerce offers you a stable, secure, and customizable solution for your growing business.
+- {:.ee-only}**Magento Commerce** an enterprise-grade eCommerce platform that provides a richer set of out-of-the-box features, with an unlimited ability to customize and seamless third-party integrations. Robust and scalable, Magento Commerce offers you a stable, secure, and customizable solution for your growing business. Magento Commerce includes one of our cloud infrastructure options as well as 24/7 customer support. It is designed to allow you to sell multiple brands, geographies, currencies as well as to both B2C and B2B buyers from a single platform.
 
-- {:.ee-only}**Magento Commerce Cloud** is the ideal choice for merchants and developers who need an all-in-one cloud solution that is optimized for Magento eCommerce websites. It is easy to deploy, provides enhanced security, and is packed with additional integrated capabilities to accelerate sales.
+### B2B features
 
-- {:.b2b-only}**Magento Commerce with B2B** extends all of the features of Magento Commerce and Magento Commerce Cloud to meet the needs of companies who sell directly to other companies, rather than to consumers. It combines the convenience of business to-consumer commerce with advanced account management, robust inventory control, negotiated pricing, bulk order management, and more.
+- {:.b2b-only}The B2B module extends all of the features of Magento Commerce to meet the needs of companies who sell directly to other companies, rather than to consumers. It combines the convenience of business to-consumer commerce with advanced account management, robust inventory control, negotiated pricing, bulk order management, and more.

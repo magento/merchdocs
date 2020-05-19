@@ -22,7 +22,7 @@ _[Checkout Options]({% link sales/checkout-options.md %})_{:.ee-only}
 ## Shopping Cart
 
 ![]({% link images/images-b2b/config-sales-checkout-shopping-cart.png %}){: .zoom}
-_[Shopping Cart]({% link sales/cart-configuration.md %})_{:.ee-only}
+_[Shopping Cart]({% link sales/cart-configuration.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

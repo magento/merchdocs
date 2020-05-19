@@ -2,10 +2,10 @@
 title: Content
 ---
 
-The Content section is used to enter and edit the main product description that appears on the product page. The short description can be used in most RSS feeds, and might also appear in catalog listings, depending on theme. The product description can be formatted using the [editor]({% link cms/editor.md %}) toolbar.
+The Content section is used to enter and edit the main product description that appears on the product page. The short description can be used in most RSS feeds, and might also appear in catalog listings, depending on theme.
 
 {:.ee-only}
-## Add the product description
+## Add the product description in Page Builder
 
 1. Open the product in edit mode.
 
@@ -21,9 +21,11 @@ The Content section is used to enter and edit the main product description that 
 1. Enter a **Short Description** of the product and format as needed.
 
 {:.ce-only}
-## Add the product description
+## Add the product description in the editor
 
 Enter only plain ASCII characters into the text box. If pasting text from a word processor, save it first as a plain .TXT file to remove any invisible control characters.
+
+For more information, see [Using the Editor]({% link cms/editor.md %}).
 
 1. Open the product in edit mode.
 
@@ -37,5 +39,3 @@ Enter only plain ASCII characters into the text box. If pasting text from a word
     You can drag the lower-right corner to change the height of the text box.
 
 1. Enter a **Short Description** of the product and format as needed.
-
-For more information, see [Using the Editor]({% link cms/editor.md %}).

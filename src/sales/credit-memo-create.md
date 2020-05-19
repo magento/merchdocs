@@ -2,8 +2,10 @@
 title: Create a Credit Memo
 ---
 
-Before a credit memo can be printed, it must first be generated for an invoiced order. You can issue both online and offline refunds from an open credit memo, depending on the payment method. Refunds (<span class="ee-only"></span>) can also be applied to store or company credit (<span class="b2b-only"></span>)
+Before a credit memo can be printed, it must first be generated for an invoiced order. You can issue both online and offline refunds from an open credit memo, depending on the payment method.
 
+- {:.ee-only}Refunds can be applied to store credit.
+- {:.b2b-only}Refunds can be applied to company credit.
 - Purchases made by credit card can be refunded either online or offline.
 - Purchases made by check or money order must be refunded offline.
 

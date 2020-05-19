@@ -9,6 +9,10 @@ sections:
     content: Learn how to use blocks in your pages to display text, images, and embedded video, as well as dynamic information from a widget or other source.
     url: /cms/blocks.html
 
+  - title: <span class="ee-only">Dynamic Blocks</span>
+    content: Learn how to create rich, interactive content that is driven by logic from price rules and customer segments.
+    url: /cms/dynamic-blocks.html
+
   - title: Widgets
     content: Learn how to use the Widget tool, which makes it easy to place existing content, such as blocks and interactive elements, almost anywhere in your store.
     url: /cms/widgets.html

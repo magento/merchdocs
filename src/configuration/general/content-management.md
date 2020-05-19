@@ -19,7 +19,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 ## CMS Page Hierarchy
 
 ![]({% link images/images-ee/config-general-content-management-cms-page-hierarchy.png %}){: .zoom}
-_[CMS Page Hierarchy]({% link cms/page-hierarchy.md %})_{:.ee-only}
+_[CMS Page Hierarchy]({% link cms/page-hierarchy.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -31,7 +31,7 @@ _[CMS Page Hierarchy]({% link cms/page-hierarchy.md %})_{:.ee-only}
 ## Advanced Content Tools
 
 ![]({% link images/images/config-general-content-management-advanced-content-tools.png %}){: .zoom}
-_[Advanced Content Tools]({% link cms/page-builder-workspace.md %})_{:.ee-only}
+_[Advanced Content Tools]({% link cms/page-builder-workspace.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

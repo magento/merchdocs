@@ -136,7 +136,7 @@ Most of the available conditions are based on existing attribute values. To appl
 1. Select the checkbox in the first column to associate the dynamic block with the rule.
 
    ![Catalog price rule - related dynamic blocks]({% link images/images-ee/price-rule-catalog-related-dynamic-blocks.png %}){: .zoom}
-   _Related Dynamic Blocks_{:.ee-only}
+   _Related Dynamic Blocks_
 
 {:.ee-only}
 ## Step 5: Schedule the Rule
@@ -149,7 +149,7 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
     The Scheduled Changes timeline appears at the top of the page.
 
     ![Catalog price rules - scheduled changes]({% link images/images-ee/price-rule-scheduled-changes-new.png %}){: .zoom}
-    _Scheduled Changes_{:.ee-only}
+    _Scheduled Changes_
 
 1. In the _Scheduled Changes_ box, click **View/Edit**.
 
@@ -160,7 +160,7 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
     You can either enter the dates or choose the dates from the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})).
 
     ![Catalog price rule - update schedule]({% link images/images-ee/price-rule-catalog-schedule-update.png %}){: .zoom}
-    _Update Schedule_{:.ee-only}
+    _Update Schedule_
 
 1. Scroll to the _Rule Information_ section and set the **Status** to `active`.
 

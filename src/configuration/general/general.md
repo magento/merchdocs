@@ -53,7 +53,7 @@ _Locale Options configuration settings_
 See [Website Restrictions]({% link marketing/event-restrict-access.md %}) for specific configuration fields and options.
 
 ![General > Website Restrictions]({% link images/images-ee/config-general-general-website-restrictions.png %}){: .zoom}
-*Website Restrictions configuration settings*{:.ee-only}
+*Website Restrictions configuration settings*
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

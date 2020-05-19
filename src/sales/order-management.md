@@ -1,8 +1,8 @@
 ---
 title: Order Management
 sections:
- - title: Quotes
-   content: <span class="card-edition-b2b">Use the Quotes feature to allow authorized buyers to initiate the price negotiation process by submitting a request from the shopping cart. The Quotes grid lists each quote received, and maintains a history of the communication between buyer and seller.</span>
+ - title: <span class="b2b-only">Quotes</span>
+   content: Use the Quotes feature to allow authorized buyers to initiate the price negotiation process by submitting a request from the shopping cart. The Quotes grid lists each quote received, and maintains a history of the communication between buyer and seller.
    url: /sales/quotes.html
  
  - title: Orders
@@ -21,8 +21,8 @@ sections:
    content: A credit memo is a document that shows the amount that is owed to the customer. The amount can be applied toward a purchase, or refunded to the customer.
    url: /sales/credit-memos.html
 
- - title: Returns
-   content: <span class="card-edition-ee">The Returns grid lists the current returned merchandise requests (RMAs) and is used to enter new return requests.</span>
+ - title: <span class="ee-only">Returns</span>
+   content: The Returns grid lists the current returned merchandise requests (RMAs) and is used to enter new return requests.
    url: /sales/returns.html  
 
  - title: Billing Agreements

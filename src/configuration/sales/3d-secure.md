@@ -14,6 +14,6 @@ The following Magento payment methods support various implementations of 3-D Sec
 
 - [Authorize.Net]({% link payment/authorize-net.md %})
 - [Braintree]({% link payment/braintree.md %})
-- [CyberSource (Deprecated)]({% link payment/cybersource.md %})
-- [eWAY (Deprecated)]({% link payment/eway.md %})
-- [Worldpay]({% link payment/worldpay.md %})
+- {:.ee-only}[CyberSource (Deprecated)]({% link payment/cybersource.md %})
+- {:.ee-only}[eWAY (Deprecated)]({% link payment/eway.md %})
+- {:.ee-only}[Worldpay (Deprecated)]({% link payment/worldpay.md %})

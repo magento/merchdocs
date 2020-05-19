@@ -95,7 +95,7 @@ pages:
   children:
   - label: Quotes
     url: "/sales/quotes.html"
-    edition: ee-only
+    edition: b2b-only
     children:
     - label: Quote Workflow
       url: "/sales/quote-workflow.html"

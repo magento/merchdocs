@@ -59,4 +59,4 @@ _My Wish List_{:.ee-only}
 1. When complete, click <span class="btn">Save</span>.
 
     ![]({% link images/images-ee/account-dashboard-wishlist-create-new.png %}){: .zoom}
-    _Create New Wish List_{:.ee-only}
+    _Create New Wish List_

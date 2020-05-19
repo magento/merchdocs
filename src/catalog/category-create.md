@@ -128,18 +128,19 @@ _Category Tree_{:.ee-only}
 {:.ee-only}
 ## Step 7: Set the category permissions
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Category Permissions** section and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Category Permissions** section.
 
-   - For a multi-site installation, choose the **Website** where the category permissions apply.
+1. For a multi-site installation, choose the **Website** where the category permissions apply.
 
-   - {:.ee-only}Choose the **Customer Group** where the category permissions apply.
+1. Choose the **Customer Group** where the category permissions apply.
 
-   - {:.b2b-only}Choose the **Customer Group** or **Shared Catalog** where the category permissions apply.
+   - {:.b2b-only}If needed, you can choose a **Shared Catalog** instead.
 
-   - Set the following permissions as needed:
-      - Browsing Category
-      - Display Product Prices
-      - Add to Cart
+1. Set the following permissions as needed:
+
+   - Browsing Category
+   - Display Product Prices
+   - Add to Cart
 
 1. To add another permission rule, click <span class="btn">New Permission</span> and repeat the process.
 
@@ -169,7 +170,7 @@ _Category Tree_{:.ee-only}
 
    - Expand the _Schedule Design Update_ section.
 
-   - Use the calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}) to choose the Schedule Update **From** and **To** dates.
+   - Use the calendar (![]({% link images/images/btn-calendar.png %})) to choose the Schedule Update **From** and **To** dates.
 
       ![]({% link images/images/category-scheduled-design-update.png %}){: .zoom}
       [_Scheduled Design Update_]({% link catalog/categories-custom-design.md %}){:.ce-only}

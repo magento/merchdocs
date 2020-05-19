@@ -34,7 +34,7 @@ When first installing or upgrading to Magento 2.3.x Open Source, Commerce, or Co
 
 - New bulk options through the Product grid page support [assigning sources]({% link catalog/inventory-bulk-assign-sources.md %}), [unassigning sources]({% link catalog/inventory-bulk-unassign-sources.md %}), and [transferring inventory to sources]({% link catalog/inventory-bulk-transfer-inventory.md %}).
 
-- Inventory Management supports B2B inventory. At this time, all B2B products must be assigned to the Default Source and Default Stock. Future updates will resolve this issue.
+- {:.b2b-only}Inventory Management supports B2B inventory. At this time, all B2B products must be assigned to the Default Source and Default Stock. Future updates will resolve this issue.
 
 ## Magento Order Management and Inventory Management
 

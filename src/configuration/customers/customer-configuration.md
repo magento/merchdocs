@@ -79,10 +79,10 @@ _Account Information Options_
 ## Name and Address Options
 
 {:.ce-only}
-### Options
+### Open Source Options
 
 ![]({% link images/images/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
-_[Name and Address Options]({% link customers/name-address-options.md %})_{:.ce-only}
+_[Name and Address Options - Open Source]({% link customers/name-address-options.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -100,10 +100,10 @@ _[Name and Address Options]({% link customers/name-address-options.md %})_{:.ce-
 |Show Fax|Website|Determines if the customer's fax number is included in the name and address form. Options: No / Optional / Required|
 
 {:.ee-only}
-### Options
+### Commerce Options
 
 ![]({% link images/images-ee/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
-_[Name and Address Options]({% link customers/name-address-options.md %})_{:.ee-only}
+_[Name and Address Options - Commerce]({% link customers/name-address-options.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -117,7 +117,7 @@ _[Name and Address Options]({% link customers/name-address-options.md %})_{:.ee-
 ## Store Credit Options
 
 ![]({% link images/images-ee/config-customers-customer-configuration-store-credit-options.png %}){: .zoom}
-_[Store Credit Options]({% link sales/credit-configure.md %})_{:.ee-only}
+_[Store Credit Options]({% link sales/credit-configure.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -152,7 +152,7 @@ _[Store Credit Options]({% link sales/credit-configure.md %})_{:.ee-only}
 ## Customer Segments
 
 ![]({% link images/images-ee/config-customers-customer-configuration-customer-segments.png %}){: .zoom}
-_[Customer Segments]({% link marketing/customer-segments.md %})_{:.ee-only}
+_[Customer Segments]({% link marketing/customer-segments.md %})_
 
 |Template|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

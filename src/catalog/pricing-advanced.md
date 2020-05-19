@@ -8,7 +8,7 @@ The Advanced Pricing settings define the conditions required for special pricing
 
 - Advanced pricing data is synchronized with product pages. For example, if you update a tier price quantity, the system updates the value on the product page.
 
-- {:.b2b-only}Advanced pricing data is synchronized with product pages and shared catalogs. For example, if you update a tier price quantity, the system updates the value in the shared catalog and on the product page. Any custom pricing that is indicated in the shared catalog has priority over customer group pricing.
+- {:.b2b-only}Advanced pricing data is synchronized with both product pages and shared catalogs. For example, if you update a tier price quantity, the system updates the value in the shared catalog and on the product page. Any custom pricing that is indicated in the shared catalog has priority over customer group pricing.
 
 ![]({% link images/images/product-pricing-advanced-link.png %}){: .zoom}
 _Advanced Pricing_

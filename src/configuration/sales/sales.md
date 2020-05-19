@@ -108,10 +108,10 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 ## Order by SKU Settings
 
 ![]({% link images/images-ee/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
-_[Order by SKU Settings]({% link customers/account-dashboard-order-by-sku.md %})_{:.ee-only}
+_[Order by SKU Settings]({% link customers/account-dashboard-order-by-sku.md %})_
 
 ![]({% link images/images-ee/config-sales-sales-order-by-sku-settings-customer-group.png %}){: .zoom}
-_Order by SKU Settings for Customer Group_{:.ee-only}
+_Order by SKU Settings for Customer Group_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -131,7 +131,7 @@ _Order by SKU Settings for Customer Group_{:.ee-only}
 ## Orders, Invoices, Shipments, Credit Memos Archiving
 
 ![]({% link images/images-ee/config-sales-sales-orders-invoices-shipments-credit-memos-archving.png %}){: .zoom}
-_[Orders, Invoices, Shipments, Credit Memos Archiving]({% link sales/order-archive.md %})_{:.ee-only}
+_[Orders, Invoices, Shipments, Credit Memos Archiving]({% link sales/order-archive.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -143,7 +143,7 @@ _[Orders, Invoices, Shipments, Credit Memos Archiving]({% link sales/order-archi
 ## RMA Settings
 
 ![]({% link images/images-ee/config-sales-sales-rma-settings.png %}){: .zoom}
-_[RMA Settings]({% link sales/rma-configure.md %})_{:.ee-only}
+_[RMA Settings]({% link sales/rma-configure.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

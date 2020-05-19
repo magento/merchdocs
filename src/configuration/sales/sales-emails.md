@@ -129,7 +129,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 ## Quote
 
 ![]({% link images/images-b2b/config-sales-sales-emails-quote.png %}){: .zoom}
-_[Quotes]({% link customers/account-dashboard-quotes.md %})_{:.b2b-only}
+_[Quotes]({% link customers/account-dashboard-quotes.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -148,7 +148,7 @@ _[Quotes]({% link customers/account-dashboard-quotes.md %})_{:.b2b-only}
 ## RMA
 
 ![]({% link images/images-ee/config-sales-sales-emails-rma.png %}){: .zoom}
-_[RMA]({% link sales/returns.md %})_{:.ee-only}
+_[RMA]({% link sales/returns.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -163,7 +163,7 @@ _[RMA]({% link sales/returns.md %})_{:.ee-only}
 ## RMA Authorization
 
 ![]({% link images/images-ee/config-sales-sales-emails-rma-authorization.png %}){: .zoom}
-_[RMA Authorization]({% link sales/rma-configure.md %})_{:.ee-only}
+_[RMA Authorization]({% link sales/rma-configure.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -178,7 +178,7 @@ _[RMA Authorization]({% link sales/rma-configure.md %})_{:.ee-only}
 ## RMA Admin Comments
 
 ![]({% link images/images-ee/config-sales-sales-emails-rma-admin-comments.png %}){: .zoom}
-_RMA Admin Comments_{:.ee-only}
+_RMA Admin Comments_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -193,7 +193,7 @@ _RMA Admin Comments_{:.ee-only}
 ## RMA Customer Comments
 
 ![]({% link images/images-ee/config-sales-sales-emails-rma-customer-comments.png %}){: .zoom}
-_[RMA Customer Comments]({% link sales/returns.md %})_{:.ee-only}
+_[RMA Customer Comments]({% link sales/returns.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

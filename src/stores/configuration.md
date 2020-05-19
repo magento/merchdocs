@@ -12,7 +12,7 @@ In this guide, you can drill down through any section of the reference and follo
 - [Security]({% link configuration/security.md %})
 - [Customers]({% link configuration/customers.md %})
 - [Sales]({% link configuration/sales.md %})
-- [Sales Channels]({% link configuration/sales-channels.md %}) (Only available when Amazon Sales Channel is configured.)
+- [Sales Channels]({% link configuration/sales-channels.md %}) (Available when Amazon Sales Channel is configured.)
 - [Yotpo]({% link configuration/yotpo.md %})
 - [dotdigital]({% link configuration/dotdigital.md %})
 - [Services]({% link configuration/services.md %})
