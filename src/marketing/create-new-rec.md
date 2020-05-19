@@ -22,6 +22,9 @@ After you create and activate the recommendation unit, Magento will begin [colle
 
 1. In the **Select page type** section, select the page on which you want the recommendation to appear.
 
+   {:.bs-callout-info}
+   You can create up to five active recommendation units for each page type. If a page type option is grayed-out in the Admin UI, the limit has been reached and an explanation is shown. However, the Page Builder page type allows you to create up to 25 recommendation units because you can use Page Builder to edit arbitrary content types.
+
    Options are:
    -  **Home Page**
    -  **Category**
@@ -47,7 +50,7 @@ After you create and activate the recommendation unit, Magento will begin [colle
 
    Options are:
    -  **At the bottom of main content**
-   -  **At the top of main content**.
+   -  **At the top of main content**
 
 1. (Optional) Select and move the rows in the **Choose position** table to order the recommendations within the container.
 
