@@ -36,8 +36,8 @@ pages:
       - label: Enhanced Media Gallery
         url: "/cms/enhanced-media-gallery.html"
         children:
-          - label: Image Management
-            url: "/cms/enhanced-media-gallery-image-management.html"
+          - label: Media Asset Management
+            url: "/cms/enhanced-media-gallery-asset-management.html"
           - label: Folder Management
             url: "/cms/enhanced-media-gallery-folder-management.html"
           - label: License an Adobe Stock Image
