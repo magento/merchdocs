@@ -1,20 +1,20 @@
 <!-- sidebar -->
 <aside class="sidebar">
-    <a href="#" data-proofer-ignore class="toc-toggler">Table of Contents</a>
-    <div class="sidebar-wrapper">
-      {% assign edition = site.edition | downcase %}
-      {% assign toc = site.data[edition].toc[page.group] %}
+  <button class="toc-toggler">Table of Contents</button>
+  <div class="sidebar-wrapper">
+    {% assign edition = site.edition | downcase %}
+    {% assign toc = site.data[edition].toc[page.group] %}
 
-      <h4 class="guide-title">{{ toc.label }}</h4>
-      <div class="collapsible-navigation">
-          <ul>
-          {% for entry in toc.pages %}
-            {% include layout/nav-item.html section=entry %}
-          {% endfor %}
-          </ul>
-      </div>
-
+    <h4 class="guide-title">{{ toc.label }}</h4>
+    <div class="collapsible-navigation">
+      <ul class="spectrum-SideNav spectrum-SideNav--multiLevel">
+        {%- for entry in toc.pages -%}
+          {% include layout/nav-item.html section=entry itemClass="spectrum-SideNav-item" menuClass="spectrum-SideNav" labelClass="spectrum-SideNav-itemLink" %}
+        {%- endfor -%}
+        </ul>
     </div>
 
-  </aside>
+  </div>
+
+</aside>
   <!-- /sidebar -->

@@ -5,7 +5,7 @@ redirect_from:
   - /reports/marketing-automation.html
 ---
 
-The Customer Engagement section of the Reports menu provides data import and report options for [dotdigital]({% link marketing/engagement-cloud.md -%}).
+The Customer Engagement section of the Reports menu provides data import and report options for [dotdigital]({% link marketing/dotdigital/engagement-cloud.md -%}).
 
 These options include:
 
@@ -38,7 +38,7 @@ _Engagement Cloud Reports Dashboard_
 
 ## Required: Sync settings for reporting
 
-Prior to configuring reporting options, you should complete [Enagagement Cloud configuration]({% link configuration/engagement-cloud/accounts.md -%}) and [enable syncs]({% link configuration/engagement-cloud/sync-settings.md -%}).
+Prior to configuring reporting options, you should complete [Enagagement Cloud configuration]({% link configuration/dotdigital/accounts.md -%}) and [enable syncs]({% link configuration/dotdigital/sync-settings.md -%}).
 
 For Syncs, most integrations set the following to "yes": Customer Enabled, Guest Enabled, Subscriber Enabled, and Order Enabled. This shares and syncs dotdigital data with the Magento integration. Data is synced in batches to Magento.
 

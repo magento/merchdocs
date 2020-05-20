@@ -8,6 +8,8 @@ pages:
     url: "/getting-started/resources.html"
   - label: Join the Conversation!
     url: "/getting-started/magento-ecosystem.html"
+  - label: Contribute to the Docs
+    url: "/getting-started/contribute.html"
   - label: About This Release
     url: "/magento/about-this-release.html"
     children:
@@ -332,31 +334,31 @@ pages:
     children:
     - label: Reviews and Visual Marketing
       url: "/configuration/yotpo/reviews-visual-marketing.html"
-  - label: Engagement Cloud
-    url: "/configuration/engagement-cloud.html"
+  - label: dotdigital
+    url: "/configuration/dotdigital.html"
     children:
     - label: Accounts
-      url: "/configuration/engagement-cloud/accounts.html"
+      url: "/configuration/dotdigital/accounts.html"
     - label: Chat Settings
-      url: "/configuration/engagement-cloud/chat-settings.html"
+      url: "/configuration/dotdigital/chat-settings.html"
     - label: Data Mapping
-      url: "/configuration/engagement-cloud/data-mapping.html"
+      url: "/configuration/dotdigital/data-mapping.html"
     - label: Sync Settings
-      url: "/configuration/engagement-cloud/sync-settings.html"
+      url: "/configuration/dotdigital/sync-settings.html"
     - label: Abandoned Carts
-      url: "/configuration/engagement-cloud/abandoned-carts.html"
+      url: "/configuration/dotdigital/abandoned-carts.html"
     - label: Automation
-      url: "/configuration/engagement-cloud/automation.html"
+      url: "/configuration/dotdigital/automation.html"
     - label: Dynamic Content
-      url: "/configuration/engagement-cloud/dynamic-content.html"
+      url: "/configuration/dotdigital/dynamic-content.html"
     - label: Transactional Emails
-      url: "/configuration/engagement-cloud/transactional-emails.html"
+      url: "/configuration/dotdigital/transactional-emails.html"
     - label: Email Templates
-      url: "/configuration/engagement-cloud/email-templates.html"
+      url: "/configuration/dotdigital/email-templates.html"
     - label: Configuration
-      url: "/configuration/engagement-cloud/configuration.html"
+      url: "/configuration/dotdigital/configuration.html"
     - label: Developer
-      url: "/configuration/engagement-cloud/developer.html"
+      url: "/configuration/dotdigital/developer.html"
   - label: Services
     url: "/configuration/services.html"
     children:
