@@ -14,14 +14,14 @@ Use the Product Recommendations content type to add an existing, active recommen
     ![]({% link images/images-ee/page-builder-add-prex-drag.png %}){: .zoom}
     _Select Product Recommendation_
 
-1. Hover over the empty product recommendation container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox and do the following:
+1. Hover over the empty product recommendation container, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}) in the toolbox, and do the following:
 
     -  Click <span class="btn">Select</span>.
 
         ![]({% link images/images-ee/page-builder-add-prex-select.png %}){: .zoom}
         _Select Product Recommendation_
 
-    -  In the list of active product recommendations, find the row with the recommendation unit that you want to add. In the last column, click <span class="btn">Select</span>.
+    -  In the list of active product recommendations, find the row with the recommendation unit that you want to add and click <span class="btn">Select</span> in the last column.
 
         ![]({% link images/images-ee/page-builder-add-prex-selected.png %}){: .zoom}
         _Selected Product Recommendation_
@@ -39,7 +39,7 @@ Use the Product Recommendations content type to add an existing, active recommen
 
 ## Edit recommendation unit settings
 
-1. Hover over the recommendation unit container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox and do the following:
+1. Hover over the recommendation unit container, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}) in the toolbox, and do the following:
 
     ![]({% link images/images-ee/page-builder-add-prex-toolbox.png %}){: .zoom}
     _Block Toolbox_
@@ -54,11 +54,11 @@ Use the Product Recommendations content type to add an existing, active recommen
 
 ## Duplicate a recommendation unit
 
-1. Hover over the recommendation unit container. Then, choose **Duplicate** (![]({% link images/images-ee/icon-pb-duplicate.png %}){: .Inline}) in the toolbox.
+1. Hover over the recommendation unit container and choose **Duplicate** (![]({% link images/images-ee/icon-pb-duplicate.png %}) in the toolbox.
 
     The duplicate appears just below the original.
 
-1. To move the duplicated recommendation unit to a new position, hover over the container. Then, choose **Move** (![]({% link images/images-ee/icon-pb-move.png %}){: .Inline}) in the toolbox.
+1. To move the duplicated recommendation unit to a new position, hover over the container and choose **Move** (![]({% link images/images-ee/icon-pb-move.png %}) in the toolbox.
 
 1. Select and drag the recommendation unit until the red guideline appears at the new position.
 
@@ -66,7 +66,7 @@ Use the Product Recommendations content type to add an existing, active recommen
 
 ## Remove a recommendation unit from the stage
 
-1. Hover over the recommendation unit container. Then, choose **Remove** (![]({% link images/images-ee/icon-pb-remove.png %}){: .Inline}) in the recommendation unit toolbox.
+1. Hover over the recommendation unit container and choose **Remove** (![]({% link images/images-ee/icon-pb-remove.png %}) in the recommendation unit toolbox.
 
 1. When prompted to confirm, click **OK**.
 
