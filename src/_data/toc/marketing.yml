@@ -559,6 +559,22 @@ pages:
     - label: Discount with First Purchase
       url: "/marketing/price-rule-discount-first-purchase.html"
       edition: ee-only
+  - label: Product Recommendations
+    url: "/marketing/product-recommendations.html"
+    edition: ee-only
+    children:
+    - label: Create New Recommendation
+      url: "/marketing/create-new-rec.html"
+    - label: Edit Existing Recommendation
+      url: "/marketing/edit-existing-rec.html"
+    - label: Add Recommendation to Page Builder
+      url: "/marketing/page-builder-add-product-recs.html"
+    - label: Recommendation Metrics
+      url: "/marketing/recommendation-metrics.html"
+    - label: Recommendation Best Practices
+      url: "/marketing/recommendation-best-practices.html"
+    - label: Limitations with Product Recommendations
+      url: "/marketing/product-recs-limitations.html"
   - label: Related Product Rules
     url: "/marketing/product-related-rules.html"
     edition: ee-only
