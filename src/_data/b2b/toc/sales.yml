@@ -183,6 +183,8 @@ pages:
     children:
     - label: RMA Workflow
       url: "/sales/rma-workflow.html"
+    - label: RMA Lifecycle
+      url: "/sales/rma-lifecycle.html"
     - label: Customer Experience
       url: "/sales/rma-customer-experience.html"
     - label: Configuring Returns
