@@ -3,14 +3,17 @@
   url: /getting-started.html
   children:
 
-  - label: Introduction
-    url: /getting-started/introduction.html
+  - label: About This Release
+    url: "/magento/about-this-release.html"
+
+  - label: Your Magento Account
+    url: "/magento/magento-account.html"
+
+  - label: " Quick Tour"
+    url: "/getting-started/quick-tour.html"
 
   - label: Basic Configuration
     url: /configuration/configuration-basic.html
-
-  - label: Configuration Reference
-    url: /stores/configuration.html
 
   - label: Magento Extensions
     url: /magento/magento-extensions.html
@@ -21,8 +24,12 @@
   - label: Change Log
     url: /magento/change-log.html
 
-  - label: Documentation Resources
-    url: https://magento.com/technical-resources
+  - label: Resources
+    url: "/getting-started/resources.html"
+
+  - label: Contribute to the Docs
+    url: "/getting-started/contribute.html"
+
 
 - label: Catalog
   url: /catalog.html
@@ -158,3 +165,40 @@
 
   - label: Reports
     url: /reports.html
+
+- label: Configuration Reference
+  url: /stores/configuration.html
+  children:
+
+  - label: Magento Modes
+    url: "/magento/installation-modes.html"
+
+  - label: General
+    url: "/configuration/general.html"
+
+  - label: Catalog
+    url: "/configuration/catalog.html"
+
+  - label: Security
+    url: "/configuration/security.html"
+
+  - label: Customers
+    url: "/configuration/customers.html"
+
+  - label: Sales
+    url: "/configuration/sales.html"
+
+  - label: Sales Channels
+    url: "/configuration/sales-channels.html"
+
+  - label: Yotpo
+    url: "/configuration/yotpo.html"
+
+  - label: dotdigital
+    url: "/configuration/dotdigital.html"
+
+  - label: Services
+    url: "/configuration/services.html"
+
+  - label: Advanced
+    url: "/configuration/advanced.html"

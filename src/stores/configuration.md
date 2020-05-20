@@ -1,6 +1,6 @@
 ---
 title: Configuration Reference
-group: getting-started
+group: config-ref
 ---
 
 This reference has field descriptions for every configuration setting in Magento. To learn how to apply configuration settings to specific store views, see [Configuration Scope]({% link configuration/scope.md %}).

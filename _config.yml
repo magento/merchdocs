@@ -3,7 +3,7 @@
 
 title: Magento 2.3 User Guide
 
-description: Merchant documentation and tutorials to help you manage a Magento store
+description: Merchant-focused documentation for both Magento Commerce and Magento Open Source
 logo: User Guide
 baseurl: /user-guide
 url: "https://docs.magento.com"
@@ -127,7 +127,7 @@ defaults:
     scope:
       path: configuration
     values:
-      group: getting-started
+      group: config-ref
   -
     scope:
       path: magento
