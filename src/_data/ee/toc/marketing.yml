@@ -562,6 +562,8 @@ pages:
       url: "/marketing/create-new-rec.html"
     - label: Edit Existing Recommendation
       url: "/marketing/edit-existing-rec.html"
+    - label: Add Recommendation to Page Builder
+      url: "/marketing/page-builder-add-product-recs.html"
     - label: Recommendation Metrics
       url: "/marketing/recommendation-metrics.html"
     - label: Recommendation Best Practices
