@@ -4,7 +4,7 @@ title: Add Product Recommendations
 ---
 
 {:.bs-callout-info}
-The following content only applies to Magento Commerce.
+The content on this page is for Magento Commerce only.
 
 Use the Product Recommendations content type to add an existing, active recommendation unit to the stage.
 
