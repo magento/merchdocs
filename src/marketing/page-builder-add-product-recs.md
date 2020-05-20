@@ -1,7 +1,10 @@
 ---
-conditions: Default.EE-B2B
+conditions: Default.EE Only
 title: Add Product Recommendations
 ---
+
+{:.bs-callout-info}
+The following content only applies to Magento Commerce.
 
 Use the Product Recommendations content type to add an existing, active recommendation unit to the stage.
 
@@ -44,7 +47,9 @@ Use the Product Recommendations content type to add an existing, active recommen
     ![]({% link images/images-ee/page-builder-add-prex-toolbox.png %}){: .zoom}
     _Block Toolbox_
 
-    -  To choose a different recommendation unit, click <span class="btn">Select Product Recommendation</span>. In the list of active recommendation units, <span class="btn">Select</span> the recommendation unit that you want to add. Then, click <span class="btn">Select</span>.
+    -  In the **Edit Product Recommendation** page, click <span class="btn">Select</span>.
+
+    -  In the **Select Product Recommendation** page, find the row with the recommendation unit that you want to add. In the last column, click <span class="btn">Select</span>.
 
     -  Update the remaining settings as needed, using the field descriptions at the end of this page for reference.
 
