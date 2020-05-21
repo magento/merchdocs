@@ -5,8 +5,6 @@ group: getting-started
 
 The dashboard is usually the first page that appears when you log in to the Admin, and provides a real-time overview  of sales and customer activity. The dashboard data includes lifetime sales, average order amount, recent orders, and search terms. The graph shows completed orders and amounts for the selected date range. The tabs at the bottom provide quick reports of your best-selling products, most viewed products, new customers, and customers who have purchased the most.
 
-The dashboard is the default [startup page]({% link configuration/advanced/admin.md %}) for the Admin, although you can change the configuration to go to a different page after you log in.
-
 If you have a lot of data to process, the chart can be turned off to improve performance. The dashboard in the following example is set to use real-time data, and shows completed orders by the hour for the last twenty-four hours. The chart is updated as the status of each order changes to `Complete`.
 
 ![]({% link images/images/dashboard-full.png %}){: .zoom}
@@ -40,6 +38,8 @@ _Advanced Reporting_
 
 ### Change the Startup Page
 
+The dashboard is the default [startup page]({% link configuration/advanced/admin.md %}) for the Admin, although you can configure a different page to appear after login.
+
 1. Continuing in the `Advanced` > `Admin` section, click to expand the **Startup Page** section.
 
 1. Clear the **Use system value** checkbox and choose the **Startup Page** that you want to appear when you log in to the Admin.
@@ -62,10 +62,9 @@ _Advanced Reporting_
    ![Admin Dashboard - date settings]({% link images/images/config-general-reports-dashboard.png %}){: .zoom}
    [_Beginning Date_]({% link configuration/advanced/admin.md %})
 
-### Choose the data source
+### Configure the chart
 
-{:.bs-callout-info}
-If you have a lot of data to process, you can turn off the display of the chart to improve performancde.  The message "No Data Found" appears in place of the chart, although the summary totals continue to be calculated.
+If you have a lot of data to process, you can turn off the display of the chart to improve performancde.  The message "No Data Found" appears in place of the chart, although the summary totals are calculated.
 
 1. In the left side panel, click to expand **Sales** and choose **Sales**.
 
