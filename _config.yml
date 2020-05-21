@@ -20,7 +20,7 @@ version: 2.3
 
 algolia:
   application_id: E642SEDTHL
-  index_name: merchdocs_b2b
+  index_name: merchdocs
   api_key: d2d0f33ab73e291ef8d88d8b565e754c
 
 google:
