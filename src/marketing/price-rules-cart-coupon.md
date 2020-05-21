@@ -4,9 +4,9 @@ title: Coupon Codes
 
 Coupons codes are used with [cart price rules]({% link marketing/price-rules-cart.md %}) to apply a discount when a set of conditions is met. For example, a coupon code can be created for a specific customer group, or for anyone who makes a purchase over a certain amount. To apply the coupon to a purchase, the customer can enter the coupon code in the cart, or possibly at the cash register of your _brick and mortar_ store. Here are a few ways that you can use coupons in your store:
 
--  Email coupons to customers
--  Produce printed coupons
--  Create in-store coupons for mobile users
+- Email coupons to customers
+- Produce printed coupons
+- Create in-store coupons for mobile users
 
 Coupon codes can be sent by email, or included in newsletters, catalogs, and advertisements. The list of coupon codes can be exported and sent to a commercial printer. You can also create in-store coupons with a quick response code that shoppers can scan with their smart phones. The QR code can link to a page on your site with more information about the promotion.
 
@@ -24,8 +24,8 @@ If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled,
 
 1. To limit the number of times the coupon can be used, do the following:
 
-   -  Enter the number of **Uses per Coupon**.
-   -  Enter the number of **Uses per Customer**.
+   - Enter the number of **Uses per Coupon**.
+   - Enter the number of **Uses per Customer**.
 
       For unlimited use, leave these fields blank.
 
@@ -34,32 +34,31 @@ If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled,
 
 1. To make the coupon valid for a period of time, do the following:
 
-    <!--{%- if "Default.CE Only" contains site.edition -%}-->
-    Complete the **From** and **To** dates. To select the date, click the **Calendar** (![]({% link images/images/btn-calendar.png %})) icon next to each field. If you leave the date range empty, the rule does not expire.
-    <!--{%- endif -%}-->
-    <!--{%- if "Default.EE-B2B" contains site.edition -%}-->
-   **Schedule New Update**
+   - {:.ce-only}Complete the **From** and **To** dates. To select the date, click the **Calendar** (![]({% link images/images/btn-calendar.png %})) icon next to each field. If you leave the date range empty, the rule does not expire.
 
-   - Click <span class="btn">Schedule New Update</span> in the upper-right corner of the page. Then, do the following:
+   - {:.ee-only}Do one of the following:
 
-      ![]({% link images/images/price-rule-cart-coupon-schedule-new-update.png %}){: .zoom}
-      _Schedule Update_
+      **Schedule New Update**
 
-   -  Enter the **Update Name** and **Description**.
+      - Click <span class="btn">Schedule New Update</span> in the upper-right corner of the page. Then, do the following:
 
-   -  Choose the **Start Date** and **End Date** from the Calendar ( ![Calendar icon]({% link images/images/btn-calendar.png %}) ). If you leave the date range empty, the rule will not expire.
+        ![]({% link images/images/price-rule-cart-coupon-schedule-new-update.png %}){: .zoom}
+        *Schedule Update*
 
-   -  When complete, click <span class="btn">Save</span>.
+      - Enter the **Update Name** and **Description**.
 
-      ![Cart price rule - scheduled change]({% link images/images/price-rule-cart-coupon-scheduled-change.png %}){: .zoom}
-      _Scheduled Change_
+      - Choose the **Start Date** and **End Date** from the Calendar ( ![Calendar icon]({% link images/images/btn-calendar.png %}) ). If you leave the date range empty, the rule will not expire.
 
-   **Assign to Existing Update**
+      - When complete, click <span class="btn">Save</span>.
 
-   -  Select **Assign to Another Update**.
+         ![Cart price rule - scheduled change]({% link images/images/price-rule-cart-coupon-scheduled-change.png %}){: .zoom}
+         _Scheduled Change_
 
-   -  Find the update in the list, and click <span class="btn">Select</span>.
-   <!--{%- endif -%}-->
+      **Assign to Existing Update**
+
+      - Select **Assign to Another Update**.
+
+      - Find the update in the list, and click <span class="btn">Select</span>.
 
 1. Complete the [cart price rule]({% link marketing/price-rules-cart.md %}) as needed.
 
@@ -81,19 +80,21 @@ The generation of discount coupons is an asynchronous operation, which executes 
    ![Cart price rule - manage coupon codes]({% link images/images/price-rule-cart-manage-coupon-codes.png %}){: .zoom}
    _Manage Coupon codes_
 
-   -  For **Coupons Qty**, enter the number of coupons that you want to generate.
+   - For **Coupons Qty**, enter the number of coupons that you want to generate.
 
-   -  Enter the **Code Length**, not including the prefix, suffix, or separators.
+   - Enter the **Code Length**, not including the prefix, suffix, or separators.
 
-   -  Set the **Code Format** to one of the following:
+   - Set the **Code Format** to one of the following:
 
-      -  `Alphanumeric`
-      -  `Alphabetical`
-      -  `Numeric`
+      - `Alphanumeric`
+      - `Alphabetical`
+      - `Numeric`
 
-   -  (Optional) Enter a **Code Prefix** to be added to the beginning of the code.
-   -  (Optional) Enter a **Code Suffix** to be added to the end of the code.
-   -  (Optional) For **Dash Every X Characters**, enter the number of characters between each dash. For example, if the code is twelve characters long, and there is a dash every four characters, it will look like ` xxxx-xxxx-xxxx`. Dashes make codes easier to read and enter.
+   - (Optional) Enter a **Code Prefix** to be added to the beginning of the code.
+
+   - (Optional) Enter a **Code Suffix** to be added to the end of the code.
+
+   - (Optional) In the **Dash Every X Characters** field, enter the number of characters between each dash. For example, if the code is twelve characters long, and there is a dash every four characters, it will look like ` xxxx-xxxx-xxxx`. Dashes make codes easier to read and enter.
 
 1. When complete, click <span class="btn">Generate</span>.
 
@@ -106,8 +107,8 @@ The generation of discount coupons is an asynchronous operation, which executes 
 
 1. Create a [cart price rule]({% link marketing/price-rules-cart.md %}) with the following settings:
 
-   -  Set **Coupon** to `Specific Coupon`.
-   -  Select the **Auto Generation** checkbox.
+   - Set **Coupon** to `Specific Coupon`.
+   - Select the **Auto Generation** checkbox.
 
 1. Expand the **dotdigital Coupon URL Builder** section.
 
@@ -116,21 +117,21 @@ The generation of discount coupons is an asynchronous operation, which executes 
 
 1. To use a specific code format, set **Code Format** to one of the following:
 
-   -  Alphanumeric
-   -  Alphabetical
-   -  Numeric
+   - Alphanumeric
+   - Alphabetical
+   - Numeric
 
 1. Enter the **Code Prefix** and **Code Suffix** if applicable.
 
 1. For **Expires After (days)**, do one of the following:
 
-   -  Enter the number of days the coupon code is valid.
-   -  Leave the field blank for a dynamic expiration date.
+   - Enter the number of days the coupon code is valid.
+   - Leave the field blank for a dynamic expiration date.
 
 1. Do one of the following:
 
-   -  To always generate a new coupon URL, set **Allow Resend** to `No`.
-   -  If you want to allow a previously-generated coupon URL to be resent to the same contact, set **Allow Resend** to `Yes`.
+   - To always generate a new coupon URL, set **Allow Resend** to `No`.
+   - If you want to allow a previously-generated coupon URL to be resent to the same contact, set **Allow Resend** to `Yes`.
 
 1. To prevent a coupon URL from being used multiple times, set **Cancel Send if Used** to `Yes`.
 
@@ -140,8 +141,8 @@ The generation of discount coupons is an asynchronous operation, which executes 
 
 1. To view the dotdigital coupon codes that you have generated from Magento, do the following:
 
-   -  Expand the **Manage Coupon Codes** section and find the coupon in the grid.
-   -  To filter the list, set the **Generated by dotdigital** filter at the top of the fourth column to `Yes` and click <span class="btn">Search</span>.
+   - Expand the **Manage Coupon Codes** section and find the coupon in the grid.
+   - To filter the list, set the **Generated by dotdigital** filter at the top of the fourth column to `Yes` and click <span class="btn">Search</span>.
 
    ![]({% link images/images/price-rule-cart-manage-coupon-codes-grid.png %}){: .zoom}
    _Coupon Generate by dotdigital_

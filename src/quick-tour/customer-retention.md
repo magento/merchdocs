@@ -7,19 +7,17 @@ Magento makes it easy for you to get repeat business and build brand loyalty. Ma
 Email Marketing Automation
 :  Send professionally designed, dynamic [email campaigns]({% link marketing/dotdigital/engagement-cloud.md %}) with live data from your Magento store, powered by [dotdigital][1].
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-Merchandise Return
+{:.ee-only}Merchandise Return
 :  Customers can submit requests for [Return Merchandise Authorization]({% link sales/returns.md %}) from your store. You can create shipment orders in a carrier system and print shipping labels with RMA numbers.
 
-Store Credit
+{:.ee-only}Store Credit
 :  Keep customers loyal and happy by issuing refunds as [store credit]({% link sales/store-credit-using.md %}) or virtual gift cards to ensure that the money they spend stays in your store.
 
-Reward Points
+{:.ee-only}Reward Points
 :  Drive customer engagement with [reward programs and points]({% link marketing/rewards-loyalty.md %}) based on a range of transactions and customer behaviors. Base redemption on a variety of factors, such as balance, customer history, and conversion rates.
 
-Target Shopping History
+{:.ee-only}Target Shopping History
 :  Encourage customers to make return purchases with targeted promotions based on their shopping history. With Magento Commerce, you can easily [build segments]({% link marketing/customer-segments.md %}) based on your customer base.
-<!--{% endif %}-->
 
 Custom Coupons
 :  [Create coupons codes]({% link marketing/price-rules-cart-coupon.md %}) for social media, email, or print campaigns. You can incorporate coupon codes into any design you like.

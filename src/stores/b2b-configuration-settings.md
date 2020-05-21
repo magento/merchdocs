@@ -1,5 +1,5 @@
 ---
-conditions: Default.B2B Only
+b2b_only: true
 title: B2B Configuration Summary
 group: getting-started
 ---

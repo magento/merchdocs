@@ -7,9 +7,7 @@ The scope of the [base currency]({% link stores/currency-configuration.md %}) th
 
 Different factors can affect the price of the same product in one location and not another. For example, there might be additional costs to bring the product to market, and other considerations that impact the price of products sold in a specific store. The following illustration shows a multisite installation with the base currency set to the website level. The stores and store views associated with each website reflect the product pricing that is set at the website level.
 
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-For B2B, see also [Configuring Catalog Price Scope]({% link catalog/catalog-shared-price-scope.md %}).
-<!--{% endif %}-->
+- {:.b2b-only}See also [Configuring Catalog Price Scope]({% link catalog/catalog-shared-price-scope.md %}).
 
 ![]({% link images/images/scope-product-price.png %}){: .zoom}
 _Price Scope_
@@ -22,18 +20,12 @@ _Price Scope_
 
 1. Scroll down to the **Price** section and set **Catalog Price Scope** to one of the following:
 
-    * `Global`
-    * `Website`
+   - `Global`
+   - `Website`
 
-    The scope setting that you choose appears below price fields in your catalog.
+   The scope setting that you choose appears below price fields in your catalog.
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/config-catalog-catalog-price.png %}){: .zoom}
-    _Catalog Price Scope_
-    <!--{% endif %}-->
-    <!--{% if "Default.EE-B2B" contains site.edition %}-->
-    ![]({% link images/images-ee/config-catalog-catalog-price-website.png %}){: .zoom}
-    _Catalog Price Scope_
-    <!--{% endif %}-->
+   ![]({% link images/images-ee/config-catalog-catalog-price-website.png %}){: .zoom}
+   *Catalog Price Scope*{:.ee-only}
 
 1. When complete, click <span class="btn">Save Config</span>.

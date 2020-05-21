@@ -14,7 +14,7 @@ Customer Accounts
 :  Opening an account provides [customers]({% link customers/customer-account.md %}) with a personalized shopping experience that they can share with their friends. Customers can save their shopping preferences, and manage their own store billing and shipping information.
 
 Advocacy Tools
-:  Customers who share [wish lists]({% link marketing/wishlists.md %}) {% if "Default.EE-B2B" contains site.edition %}and send [gift cards]({% link catalog/product-gift-card.md %}){% endif %} make a powerful endorsement of your brand. Wish lists become powerful advocacy tools when shared by email or RSS feed{% if "Default.EE-B2B" contains site.edition %}, and gift cards bring motivated new shoppers to your store{% endif %}.
+:  Customers who share [wish lists]({% link marketing/wishlists.md %}) and send [gift cards]({% link catalog/product-gift-card.md %}) make a powerful endorsement of your brand. Wish lists become powerful advocacy tools when shared by email or RSS feed, and gift cards bring motivated new shoppers to your store. (Gift cards are a Magento Commerce only feature)
 
 Reviews and Ratings
 :  [Product reviews]({% link marketing/product-reviews.md %}) give your customers a way to engage with your brand while fostering a sense of community. You can curate your reviews with tools to help you edit and approve comments for inappropriate content before they go live.

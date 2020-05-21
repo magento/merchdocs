@@ -13,7 +13,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 The following Magento payment methods support various implementations of 3-D Secure verification:
 
 - [Authorize.Net]({% link payment/authorize-net.md %})
-- [Braintree]({% link payment/braintree.md %})<!--{% if "Default.EE-B2B" contains site.edition %}-->
-- [CyberSource (Deprecated)]({% link payment/cybersource.md %})
-- [eWAY (Deprecated)]({% link payment/eway.md %})
-- [Worldpay]({% link payment/worldpay.md %})<!--{% endif %}-->
+- [Braintree]({% link payment/braintree.md %})
+- {:.ee-only}[CyberSource (Deprecated)]({% link payment/cybersource.md %})
+- {:.ee-only}[eWAY (Deprecated)]({% link payment/eway.md %})
+- {:.ee-only}[Worldpay (Deprecated)]({% link payment/worldpay.md %})

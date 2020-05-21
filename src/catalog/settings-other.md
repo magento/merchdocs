@@ -8,14 +8,8 @@ The remaining product settings are located at the bottom of the page. Some setti
 
 Click the section to expand, if needed. The selector indicates if it is currently expanded ![]({% link images/images/btn-expand.png %}) or collapsed ![]({% link images/images/btn-collapse.png %}).
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/product-settings-other.png %}){: .zoom}
-_Other Settings_
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![]({% link images/images-ee/product-settings-other-ee.png %}){: .zoom}
-_Other Settings_
-<!--{% endif %}-->
+_Other Settings_{:.ee-only}
 
 ## General settings
 
@@ -27,9 +21,10 @@ _Other Settings_
 |[Search Engine Optimization]({% link catalog/product-search-engine-optimization.md %})|This section specifies the [URL Key]({% link catalog/catalog-urls.md %}) and [meta data]({% link marketing/meta-data.md %}) fields that are used by search engines to index the product. Although some search engines ignore meta keywords, others continue to use them. The current best practice is to incorporate high-value keywords in both the meta title and meta description.|
 |[Related Products, Up-Sells, Cross-Sells]({% link catalog/related-products-up-sells-cross-sells.md %})|This section is used to set up simple promotional blocks that present a selection of additional products that might be of interest to the customer.|
 |[Product in Websites]({% link catalog/settings-basic-websites.md %})|This section shows the current scope of the product within the store hierarchy.|
-|[Design]({% link catalog/settings-advanced-design.md %})|These settings allow you to apply a different theme to the product page, change the column layout, determine where product options appear, and enter custom XML code.|<!--{% if "Default.CE Only" contains site.edition %}-->
-|[Scheduled Design Update]({% link catalog/product-scheduled-design-update.md %})|This section allows you to apply a different theme to the product page, change the column layout, determine where product options appear, and enter custom XML code|<!--{% endif %}-->
+|[Design]({% link catalog/settings-advanced-design.md %})|These settings allow you to apply a different theme to the product page, change the column layout, determine where product options appear, and enter custom XML code.|
 |[Gift Options]({% link catalog/product-gift-options.md %})|These options can be set at the product level to allow a gift message to be added to the product during checkout.|
+|<span class="ce-only">[Scheduled Design Update]({% link catalog/product-scheduled-design-update.md %})</span>|This section allows you to apply a different theme to the product page, change the column layout, determine where product options appear, and enter custom XML code|
+{: .format-table }
 
 ## Product-specific settings
 
@@ -41,3 +36,10 @@ _Other Settings_
 | [Downloadable Information]({% link catalog/product-downloadable-information.md %}) | This section is used to generate the links to downloadable products and samples. |
 | [Grouped Products]({% link catalog/product-grouped-products.md %}) | This section is used to add items to a Grouped product type and to edit the current selection of items. |
 | [Bundle Items]({% link catalog/product-bundle-items.md %}) | This section is used to add items to a Bundle product type and to edit the current selection of items. |
+{: .format-table }
+
+<style>
+.format-table td:first-of-type {
+  width: 200px;
+}
+</style>
