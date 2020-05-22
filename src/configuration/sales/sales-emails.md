@@ -125,11 +125,11 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Send Credit Memo Comment Email Copy To|Store View|Specifies the email address of anyone to receive a copy of a credit memo comment email. Separate multiple addresses with a comma.|
 |Send Credit Memo Comments Email Copy Method|Store View|Indicates the email method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
 
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-## Quotes
+{:.b2b-only}
+## Quote
 
- ![]({% link images/images-b2b/config-sales-sales-emails-quote.png %}){: .zoom}
- [_Quotes_]({% link customers/account-dashboard-quotes.md %})
+![]({% link images/images-b2b/config-sales-sales-emails-quote.png %}){: .zoom}
+_[Quotes]({% link customers/account-dashboard-quotes.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -162,7 +162,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 ## RMA
 
 ![]({% link images/images-ee/config-sales-sales-emails-rma.png %}){: .zoom}
-[_RMA_]({% link sales/returns.md %})
+_[RMA]({% link sales/returns.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -173,10 +173,11 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Send RMA Email Copy To|Store View|Provides the email address of anyone who should receive a copy of an RMA email. Separate multiple addresses with a comma.|
 |Send RMA  Email Copy Method|Store View|Indicates the email method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
 
+{:.ee-only}
 ## RMA Authorization
 
 ![]({% link images/images-ee/config-sales-sales-emails-rma-authorization.png %}){: .zoom}
-[_RMA Authorization_]({% link sales/rma-configure.md %})
+_[RMA Authorization]({% link sales/rma-configure.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -187,6 +188,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Send RMA Authorization Email Copy To|Store View|Provides the email address of anyone to receive a copy of an RMA authorization email. Separate multiple addresses with a comma.|
 |Send RMA Authorization Email Copy Method|Store View|Indicates the email method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
 
+{:.ee-only}
 ## RMA Admin Comments
 
 ![]({% link images/images-ee/config-sales-sales-emails-rma-admin-comments.png %}){: .zoom}
@@ -201,10 +203,11 @@ _RMA Admin Comments_
 |Send RMA Comment Email Copy To|Store View|Provides the email address of anyone to receive a copy of the notification. Separate multiple addresses with a comma.|
 |Send RMA Comments Email Copy Method|Store View|Indicates the email method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
 
+{:.ee-only}
 ## RMA Customer Comments
 
 ![]({% link images/images-ee/config-sales-sales-emails-rma-customer-comments.png %}){: .zoom}
-[_RMA Customer Comments_]({% link sales/returns.md %})
+_[RMA Customer Comments]({% link sales/returns.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -214,5 +217,3 @@ _RMA Admin Comments_
 |RMA Comment Email Template|Store View|Determines the [email template]({% link sales/rma-configure.md %}) that is used when a customer adds a comment to an RMA. Default template: RMA Admin Comments|
 |Send RMA Comment Email Copy To|Store View|Provides the email address of anyone to receive a copy of the notification. Separate multiple addresses with a comma.|
 |Send RMA Comments Email Copy Method|Store View|Indicates the email method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
-
-<!--{% endif %}-->

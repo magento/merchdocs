@@ -100,7 +100,6 @@ _Frontend Experience Settings_
 |Header Image Border Color|Store View|The six-character hexadecimal color code for the two-pixel border around the header.|
 |Page Background Color|Store View|The six-character hexadecimal color code for the background color of the checkout page that appears behind the header and payment form.|
 
-
 ### Basic Settings - PayPal Express Checkout
 
 ![]({% link images/images/config-sales-payment-methods-paypal-payflow-link-express-checkout-basic-settings.png %}){: .zoom}

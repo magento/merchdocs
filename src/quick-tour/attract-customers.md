@@ -17,4 +17,4 @@ Sitemap
 :  Link to a [sitemap]({% link marketing/sitemap-xml.md %}) from the footer of your store to give customers an overview of the catalog structure, with links to all categories and products in the store. Easy integration with Google Sitemap.
 
 Analytics
-:  In addition to monitoring your site from the Admin dashboard, you can integrate third-party analytics tools such as [Google Analytics]({% link marketing/google-universal-analytics.md %})<!--{% if "Default.EE-B2B" contains site.edition %}--> and [New Relic Reporting]({% link reports/new-relic-reporting.md %})<!--{% endif %}--> for detailed statistics on traffic and sales.
+:  In addition to monitoring your site from the Admin dashboard, you can integrate third-party analytics tools such as [Google Analytics]({% link marketing/google-universal-analytics.md %}) and [New Relic Reporting]({% link reports/new-relic-reporting.md %}) for detailed statistics on traffic and sales.

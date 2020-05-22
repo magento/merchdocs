@@ -5,9 +5,9 @@ sections:
     content: Learn about the responsive email templates that are triggered by a variety of events that take place during the operation of your Magento store.
     url: /marketing/email-templates.html
 
-  - title: Engagement Cloud
-    content: Learn about Engagement Cloud, powered by dotdigital, which gives you the ability to produce professional, personalized communications and reports using data from your Magento store.
-    url: /marketing/engagement-cloud.html
+  - title: Customer Engagement
+    content: Learn how to use dotdigital Engagement Cloud to produce professional, personalized communications and reports using data from your Magento store.
+    url: /marketing/dotdigital/engagement-cloud.html
 
   - title: Sales Documents
     content: Learn how to customize generated invoices, packing slips, and credit memos before your store goes live. You can customize your logo, store address, and address format, as well as include additional information for reference.

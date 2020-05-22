@@ -4,16 +4,16 @@ title: Updating an Order
 
 When helping a customer who has placed an order, you need to determine the status of the order. The available options for a `Pending` order are different than the options for a `Processing` order. For more information, see [Processing an Order]({% link sales/order-processing.md %}).
 
-## Pending Orders
+## Pending orders
 
 After a customer places an order, but before the payment is received, the order is in `Pending` status. You can edit the order, place it on hold, or cancel it entirely. The button bar of a pending order lists the available actions for an order.
 
 ![]({% link images/images/order-button-bar-pending.png %}){: .zoom}
-_`Pending` Order Options_
+_Pending Order Options_
 
 If you modify the substance of an order, the original order is canceled and a new order is generated. You can, however, change the billing or shipping address without generating a new order.
 
-### Button Bar
+### Button bar
 
 {: .buttons-table }
 |Button|Description|
@@ -25,21 +25,16 @@ If you modify the substance of an order, the original order is canceled and a ne
 |<span class="btn">Invoice</span>|Creates an [invoice]({% link sales/invoice-create.md %}) from the pending order by converting the order to an invoice, and changes the order status to `processing`.|
 |<span class="btn">Ship</span>|Creates a [shipment]({% link sales/shipments-create.md %}) record for the order.|
 |<span class="btn">Reorder</span>|Creates a new pending order that is a duplicate of the current pending order.|
-|<span class="btn">Edit</span>|Opens a pending order in edit mode. The Edit button is only available for pending orders{% if "Default.B2B Only" contains site.edition %}, or for orders based on negotiated [quotes]({% link sales/quotes.md %}){% endif %}.|
+|<span class="btn">Edit</span>|Opens a pending order in edit mode. The Edit button is only available for pending orders, or for orders based on negotiated [quotes]({% link sales/quotes.md %}).|
 
-## Processing Orders
+## Processing orders
 
-When payment is received and the invoice is generated, the status of the order changes to `Processing`. You cannot change the substance of a `Processing` order, but you can edit the billing and shipping address. A `Processing` order cannot be canceled, but a credit memo can be issued for the full or partial amount of the order{% if "Default.EE-B2B" contains site.edition %}, or a return merchandise authorization (RMA) issued for product returns{% endif %}. To learn more, see [Processing an Order]({% link sales/order-processing.md %}).
+When payment is received and the invoice is generated, the status of the order changes to `Processing`. You cannot change the substance of a `Processing` order, but you can edit the billing and shipping address. A `Processing` order cannot be canceled, but a credit memo can be issued for the full or partial amount of the order, or a return merchandise authorization (RMA) issued for product returns. To learn more, see [Processing an Order]({% link sales/order-processing.md %}).
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/order-button-bar-processing.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B Only" contains site.edition %}-->
 ![]({% link images/images-ee/order-button-bar-processing.png %}){: .zoom}
-<!--{% endif %}-->
-_`Processing` Order Options_
+_Processing Order Options_{:.ee-only}
 
-### Button Bar
+### Button bar
 
 {: .buttons-table }
 |Button|Description|
@@ -48,8 +43,8 @@ _`Processing` Order Options_
 |<span class="btn">Send Email</span>|Sends an email about the order to the customer.|
 |<span class="btn">Credit Memo</span>|Initiates the process to create a [credit memo]({% link sales/credit-memo-create.md %}).|
 |<span class="btn">Hold</span> / <span class="btn">Unhold</span>|Changes the status of the sales order to _On Hold_. To release the hold on the sales order, choose `Unhold`.|
-|<span class="btn">Reorder</span>|Creates a new pending order based on the current order.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
-|<span class="btn">Create Returns</span>|Initiates the process to [return]({% link sales/returns.md %}) one or more items from the order.|<!--{% endif %}-->
+|<span class="btn">Reorder</span>|Creates a new pending order based on the current order.|
+|<span class="ee-only"></span><span class="btn">Create Returns</span>|Initiates the process to [return]({% link sales/returns.md %}) one or more items from the order.|
 
 ## Edit a pending order
 

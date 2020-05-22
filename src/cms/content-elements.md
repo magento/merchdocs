@@ -9,12 +9,20 @@ sections:
     content: Learn how to use blocks in your pages to display text, images, and embedded video, as well as dynamic information from a widget or other source.
     url: /cms/blocks.html
 
+  - title: <span class="ee-only">Dynamic Blocks</span>
+    content: Learn how to create rich, interactive content that is driven by logic from price rules and customer segments.
+    url: /cms/dynamic-blocks.html
+
   - title: Widgets
     content: Learn how to use the Widget tool, which makes it easy to place existing content, such as blocks and interactive elements, almost anywhere in your store.
     url: /cms/widgets.html
+
+  - title: <span class="ee-only">Page Hierarchy</span>
+    content: Learn how to use the page hierarchy to organize content pages and add pagination, navigation, and menus.   
+    url: /cms/page-hierarchy.html
 ---
 
-In this section of the guide, you will learn how to create and manage content pages and blocks, and use widgets to add dynamic content.<!--{% if "Default.EE-B2B" contains site.edition %}--> Magento Commerce users can also learn how to use the [page hierarchy]({% link cms/page-hierarchy.md %}) to organize content pages and add pagination, navigation, and menus.<!--{% endif %}-->
+In this section of the guide, you will learn how to create and manage content pages and blocks, and use widgets to add dynamic content.
 
 {% include grid.html sections=page.sections%}
 
