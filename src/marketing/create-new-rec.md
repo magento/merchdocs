@@ -1,14 +1,14 @@
 ---
 title: Create New Recommendation
 tag: product-recommendations
-conditions: Default.EE Only
+ee_only: true
 ---
 
 When you create a recommendation, you are creating what is called a *recommendation unit*:
 
    ![Recommendation unit]({% link images/images-ee/p-rex-unit.png %}){: .zoom}
 
-The products inside the above recommendation unit are called *recommended items*.
+The products inside the recommendation unit are called *recommended items*.
 
 After you create and activate the recommendation unit, Magento will begin [collecting metrics]({% link marketing/recommendation-metrics.md %}) that measure data such as impressions, views, and clicks, and so on. The [Product Recommendations]({% link marketing/product-recommendations.md %}#dashboard) dashboard displays these metrics for each recommendation unit to help you make informed business decisions.
 
@@ -20,11 +20,10 @@ After you create and activate the recommendation unit, Magento will begin [colle
 
 1. In the **Name your Recommendation** section, enter an internally-facing name that uniquely identifies the recommendation on your dashboard, such as *Home page most popular*.
 
-1. In the **Storefront display label** section, enter an externally-facing name your shoppers will see, such as "Top sellers".
-
-   Magento provides the [following guidance for label names]({% link marketing/recommendation-best-practices.md %}#bplabels).
-
 1. In the **Select page type** section, select the page on which you want the recommendation to appear.
+
+   {:.bs-callout-info}
+   You can create up to five active recommendation units for each page type. If a page type option is grayed-out in the Admin UI, the limit has been reached and an explanation is shown. However, the Page Builder page type allows you to create up to 25 recommendation units because you can use Page Builder to edit arbitrary content types.
 
    Options are:
    -  **Home Page**
@@ -32,8 +31,16 @@ After you create and activate the recommendation unit, Magento will begin [colle
    -  **Product Detail**
    -  **Cart**
    -  **Confirmation**
+   -  **[Page Builder]({% link marketing/page-builder-add-product-recs.md %})**
 
 1. In the **Select Recommendation type** section, specify the type of recommendation you want to appear on the selected page type. Note that certain page types [restrict what type of recommendation]({% link marketing/product-recommendations.md %}#supportedrecs) you can select.
+
+1. In the **Storefront display label** section, enter an externally-facing name your shoppers will see, such as "Top sellers".
+
+   Magento provides the [following guidance for label names]({% link marketing/recommendation-best-practices.md %}#bplabels).
+
+   {:.bs-callout-info}
+   If you selected **Page Builder** as your page type, you will specify the **Text** or **Heading** element as your storefront display label in the [Page Builder editor]({% link cms/page-builder-elements.md %}).
 
 1. In the **Choose number of products** section, use the slider to specify how many products you want to appear in this recommendation unit.
 
@@ -43,7 +50,7 @@ After you create and activate the recommendation unit, Magento will begin [colle
 
    Options are:
    -  **At the bottom of main content**
-   -  **At the top of main content**.
+   -  **At the top of main content**
 
 1. (Optional) Select and move the rows in the **Choose position** table to order the recommendations within the container.
 

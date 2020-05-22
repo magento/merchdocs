@@ -8,12 +8,7 @@ If there are others on your team or service providers who need access, you can c
 
 For users or roles that are temporary, you can also set an expiration date for the user account.
 
-<!--{% if "Default.CE Only,Default.EE Screenshot" contains site.edition %}-->
 ![User types for your Magento Admin]({% link images/images/merchant-admin-users.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![User types for your Magento Admin]({% link images/images-b2b/merchant-admin-users.png %}){: .zoom}
-<!--{% endif %}-->
 _Example Admin Users_
 
 ## Create a new user

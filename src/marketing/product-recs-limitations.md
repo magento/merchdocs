@@ -1,7 +1,7 @@
 ---
 title: Limitations with Product Recommendations
 tag: product-recommendations
-conditions: Default.EE Only
+ee_only: true
 ---
 
 As we continue to evolve this technology and ensure you are successful in implementing product recommendations, it is critical that we are clear about any limitations to this technology. The following lists features that are not supported at this time:

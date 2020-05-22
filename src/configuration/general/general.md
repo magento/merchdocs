@@ -47,7 +47,7 @@ _Locale Options configuration settings_
 |Weekend Days|Store View|The days that fall on the weekend in the market served by the store view.|
 {:style="table-layout:auto"}
 
-<!--{% if "Default.EE Only" contains site.edition %}-->
+{:.ee-only}
 ## Website Restrictions
 
 See [Website Restrictions]({% link marketing/event-restrict-access.md %}) for specific configuration fields and options.
@@ -64,7 +64,6 @@ See [Website Restrictions]({% link marketing/event-restrict-access.md %}) for sp
 |HTTP Response|Website|Determines the HTTP response that is sent when the website is closed and a connection is attempted by a bot, crawler, or spider.<br /> <br />**503 Service unavailable** - The page is not available, but the spider should not update the index. <br />**200 OK** - The landing page is correct, and should be treated by the spider as the only page on the site.|
 |Enable Autocomplete on login/forgot password forms|Website|Determines if the fields on the Login and Forgot Password forms are filled automatically from previous entries. Options: Yes/ No|
 
-<!--{% endif %}-->
 ## Store Information
 
 See [Store Information]({% link stores/store-information.md %}) for specific configuration fields and options.

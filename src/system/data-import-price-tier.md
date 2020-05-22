@@ -7,19 +7,14 @@ Rather than entering [tier prices]({% link catalog/product-price-tier.md %}) man
 ![Example storefront - tiered pricing]({% link images/images/storefront-tier-pricing-water-bottle.png %}){: .zoom}
 _Tier Pricing_
 
-## Step 1: Export the Tier Price Data
+## Step 1: Export the tier price data
 
 The following example exports tier pricing data for a single product. Then, you can use the exported data as a template for bulk imports of tier price data. To learn more about exporting advanced pricing data, see [Advanced Pricing Data]({% link system/data-advanced-price.md %}).
 
-<!--{% if "Default.CE Only,Default.EE Only" contains site.edition %}-->
 ![Product tiered pricing]({% link images/images/price-tier-customer-group-discount.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![Product tiered pricing]({% link images/images-b2b/product-price-tier-shared-catalog.png %}){: .zoom}
-<!--{% endif %}-->
 _Tiered Pricing_
 
-### Tier Pricing
+### Tier pricing
 
 1. On _Admin_ sidebar, go to  **System** > _Data Transfer_ > **Export**.
 
@@ -38,15 +33,10 @@ _Tiered Pricing_
 
 1. Locate the export file at the downloads location for your web browser and open the file.
 
-    <!--{% if "Default.CE Only,Default.EE Only" contains site.edition %}-->
-    ![Example - exported tier price data]({% link images/images/price-tier-customer-group-discount-export.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
-    ![Example - exported tier price data]({% link images/images-b2b/price-tier-shared-catalog-export-data.png %}){: .zoom}
-    <!--{% endif %}-->
-    _Exported Tier Price Data_
+    ![Example - exported customer group discount tier price data]({% link images/images/price-tier-customer-group-discount-export.png %}){: .zoom}
+    _Exported Customer Group Tier Price Data_
 
-### Exported Tier Price Data
+### Exported tier price data
 
 The following columns are included in the exported data:
 
@@ -59,7 +49,7 @@ The following columns are included in the exported data:
 
 You use the exported data as a template for importing tier price data.
 
-## Step 2: Update the Data
+## Step 2: Update the data
 
 1. Update the tier price data for each product, as needed.
 
@@ -70,7 +60,7 @@ You use the exported data as a template for importing tier price data.
     {:.bs-callout-info}
     The size of an import file cannot be larger than two megabytes.
 
-## Step 3: Import the Updated Data
+## Step 3: Import the updated data
 
 1. On _Admin_ sidebar, go to **System** > _Data Transfer_ > **Import**.
 
