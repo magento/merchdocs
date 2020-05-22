@@ -4,14 +4,8 @@ title: Product Workspace
 
 The product workspace is basically the same for all product types, although the selection of fields changes depending on the attribute set that is used. The product attributes are at the top of the form, followed by expandable sections of product information. When a new product is saved for the first time, the Store View chooser appears at the upper-left of the form.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/product-workspace.png %}){: .zoom}
-_Product Workspace_
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![]({% link images/images-ee/product-workspace-ee.png %}){: .zoom}
-_Product Workspace_
-<!--{% endif %}-->
+_Product Workspace_{:.ee-only}
 
 ## Enable Product setting
 

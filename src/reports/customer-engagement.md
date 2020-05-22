@@ -12,13 +12,8 @@ These options include:
 * Dashboard to customize synchronization, account access, etc.
 * Various reports to help you track Engagement Cloud syncs, activity, and performance
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/admin-menu-reports.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![]({% link images/images-ee/admin-menu-reports-ee.png %}){: .zoom}
-<!--{% endif %}-->
-*Customer Engagement Reports*
+*Customer Engagement Reports*{:.ee-only}
 
 ## Dashboard Options and Configurations
 
@@ -85,7 +80,7 @@ To directly link your Engagement Cloud and Magento accounts without requiring a 
 
 You have options in the Dashboard to manually run or reset sync operations.
 
-### To manually sync:
+### Manually sync
 
 Between automated syncs (run by cron job), you may need to manually run sync jobs. The syncs run according to Engagement Cloud configurations.
 
@@ -102,7 +97,7 @@ Between automated syncs (run by cron job), you may need to manually run sync job
     ![Manually Run Syncs]({% link images/images/dotdigital-dash-admin.png %}){: .zoom}
     _Manually Run Syncs_
 
-### To reset data syncs:
+### Reset data syncs
 
 The reset options for data syncs force marks all entries for import. At the next sync, all data is imported, not just new or changed content.
 
