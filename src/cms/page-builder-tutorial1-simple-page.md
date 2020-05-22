@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: 'Tutorial 1: Simple Page'
 ---
 
@@ -43,12 +43,12 @@ _Full Bleed Row with Banner_
 
 1. In the upper-right corner, click <span class="btn">Add New Page</span>. Then, do the following:
 
-    - To prevent this page from being published in your store, set **Enable Page** to "No”.
+   - To prevent this page from being published in your store, set **Enable Page** to "No”.
 
-    - In the **Page Title**, field, enter "Simple Page”.
+   - In the **Page Title**, field, enter "Simple Page”.
 
-        ![]({% link images/images-ee/page-builder-tutorial1-currently-active.png %}){: .zoom}
-        _Simple Page Settings_
+      ![]({% link images/images-ee/page-builder-tutorial1-currently-active.png %}){: .zoom}
+      _Simple Page Settings_
 
 1. Expand the **Design** section.
 
@@ -72,8 +72,8 @@ _Full Bleed Row with Banner_
 
 1. Expand the **Content** section, and take note of the following workspace features:
 
-    - Page Builder [panel]({% link cms/page-builder-workspace.md %}) on the left
-    - [Stage]({% link cms/page-builder-workspace.md %}) with empty row where you can drag content types or columns
+   - Page Builder [panel]({% link cms/page-builder-workspace.md %}) on the left
+   - [Stage]({% link cms/page-builder-workspace.md %}) with empty row where you can drag content types or columns
 
     {:.bs-callout-info}
     The [Content Heading]({% link cms/page-builder-workspace.md %}) field is optional. It is by default, formatted as a heading level 1 (H1) according to the theme. For the purpose of this tutorial, the Content Heading field is left blank.
@@ -139,99 +139,99 @@ Page Builder has a new content type called _Banner_, which is featured in this s
     ![]({% link images/images-ee/page-builder-tutorial1-row-banner-settings-appearance-collage-right.png %}){: .zoom}
     _Collage Right_
 
-    **Background Image**
+   **Background Image**
 
-    - Scroll down to the **Background** section.
+   - Scroll down to the **Background** section.
 
-    - At the **Background Image** field, click <span class="btn">Upload</span>.
+   - At the **Background Image** field, click <span class="btn">Upload</span>.
 
-        ![]({% link images/images-ee/page-builder-tutorial1-row-background-image-upload.png %}){: .zoom}
-        _Upload Background Image_
+      ![]({% link images/images-ee/page-builder-tutorial1-row-background-image-upload.png %}){: .zoom}
+      _Upload Background Image_
 
-    - Navigate to the directory on your computer where you saved the simple page assets. Then, choose the `wide-banner-background.jpg` file.
+   - Navigate to the directory on your computer where you saved the simple page assets. Then, choose the `wide-banner-background.jpg` file.
 
-        ![]({% link images/images-ee/page-builder-tutorial-simple-page-assets.png %}){: .zoom}
-        _Simple Page Assets_
+      ![]({% link images/images-ee/page-builder-tutorial-simple-page-assets.png %}){: .zoom}
+      _Simple Page Assets_
 
-        The image is uploaded to the gallery and a thumbnail of the uploaded image appears. The file name, image dimensions, and file size are noted below.
+      The image is uploaded to the gallery and a thumbnail of the uploaded image appears. The file name, image dimensions, and file size are noted below.
 
-        ![]({% link images/images-ee/page-builder-tutorial1-row-settings-background-image-selected.png %}){: .zoom}
-        _Background Image for Desktop_
+      ![]({% link images/images-ee/page-builder-tutorial1-row-settings-background-image-selected.png %}){: .zoom}
+      _Background Image for Desktop_
 
-    - At the **Background Mobile Image** field, click <span class="btn">Upload</span>. Then, choose the `wide-banner-background-mobile.jpg` file.
+   - At the **Background Mobile Image** field, click <span class="btn">Upload</span>. Then, choose the `wide-banner-background-mobile.jpg` file.
 
-        The mobile background image is used for mobile devices, and also whenever a desktop browser window is resized to the width of a mobile device.
+      The mobile background image is used for mobile devices, and also whenever a desktop browser window is resized to the width of a mobile device.
 
-        ![]({% link images/images-ee/page-builder-tutorial1-row-settings-background-mobile-image-selected.png %}){: .zoom}
-        _Background Image for Mobile_
+      ![]({% link images/images-ee/page-builder-tutorial1-row-settings-background-mobile-image-selected.png %}){: .zoom}
+      _Background Image for Mobile_
 
-    - Scroll up to the top of the page. Then in the upper-right corner, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
+   - Scroll up to the top of the page. Then in the upper-right corner, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
 
-        The background appears on the stage, and extends the full width of the row.
+      The background appears on the stage, and extends the full width of the row.
 
-        ![]({% link images/images-ee/page-builder-tutorial1-banner-background.png %}){: .zoom}
-        _Banner with Background Image_
+      ![]({% link images/images-ee/page-builder-tutorial1-banner-background.png %}){: .zoom}
+      _Banner with Background Image_
 
-    **Banner Content**
+   **Banner Content**
 
-    Notice the placeholder text that appears on the right side of the row. The position of this text reflects the "Collage Right” Appearance setting.
+   Notice the placeholder text that appears on the right side of the row. The position of this text reflects the "Collage Right” Appearance setting.
 
-    - Click the placeholder text, and enter the following message:
+   - Click the placeholder text, and enter the following message:
 
-        Get fit and look fab in new seasonal styles. New LUMA yoga collection
+      `Get fit and look fab in new seasonal styles. New LUMA yoga collection`
 
         The editor toolbar appears above the text box. Text can be entered and formatted either directly from the stage, or by choosing Settings from the banner toolbox.
 
         ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-text.png %}){: .zoom}
         _Edit Content from Stage_
 
-    - Select the first line of text. Then on the editor toolbar under **Formats**, choose `Heading 2`.
+   - Select the first line of text. Then on the editor toolbar under **Formats**, choose `Heading 2`.
 
-        ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-text-format-line1.png %}){: .zoom}
-        _Apply Format_
+      ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-text-format-line1.png %}){: .zoom}
+      _Apply Format_
 
-    - Select the second line of text. Then on the editor toolbar under **Formats**, choose `Paragraph`.
+   - Select the second line of text. Then on the editor toolbar under **Formats**, choose `Paragraph`.
 
-        The format settings apply the styles from the style sheet that is associated with the current theme.
+      The format settings apply the styles from the style sheet that is associated with the current theme.
 
-        ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-text-format-line2.png %}){: .zoom}
-        _Stage with Formatted Text_
+      ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-text-format-line2.png %}){: .zoom}
+      _Stage with Formatted Text_
 
-    - Hover over the banner container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %})) in the toolbox.
+   - Hover over the banner container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %})) in the toolbox.
 
-    - Scroll down to the **Content section**.
+   - Scroll down to the **Content section**.
 
-        Text can be entered and edited either from the stage, or from the Content section of Banner Settings.
+      Text can be entered and edited either from the stage, or from the Content section of Banner Settings.
 
-        ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-content-message-text.png %}){: .zoom}
-        _Message Text_
+      ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-content-message-text.png %}){: .zoom}
+      _Message Text_
 
-    **Banner Link and Button**
+   **Banner Link and Button**
 
-    - Continuing in the Content section, find the **Link** field below the banner message.
+   - Continuing in the Content section, find the **Link** field below the banner message.
 
-        By default, the Link field is set to `URL`.
+      By default, the Link field is set to `URL`.
 
-    - To link the banner to the appropriate category of products, set **Link** to `Category`. Then, click **Select** to show the category tree and choose `What’s New`.
+   - To link the banner to the appropriate category of products, set **Link** to `Category`. Then, click **Select** to show the category tree and choose `What’s New`.
 
-        ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-link-category-tree.png %}){: .zoom}
-        _Link to Category_
+      ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-link-category-tree.png %}){: .zoom}
+      _Link to Category_
 
-    - Set **Show Button** to `Always`.
+   - Set **Show Button** to `Always`.
 
-    - In the **Button Text** field, enter `Shop Now` as the text that appears on the button.
+   - In the **Button Text** field, enter `Shop Now` as the text that appears on the button.
 
-    - Accept the `Primary` default **Button Type**.
+   - Accept the `Primary` default **Button Type**.
 
-        The button style from the current theme determines the button format.
+      The button style from the current theme determines the button format.
 
-    **Banner Overlay**
+   **Banner Overlay**
 
-    You can use an overlay to apply a background color to the active content area that is defined by the Appearance setting. The banner background image continues to be visible for the full width of the banner.
+   You can use an overlay to apply a background color to the active content area that is defined by the Appearance setting. The banner background image continues to be visible for the full width of the banner.
 
-    - Set **Show Overlay** to `Always`.
+   - Set **Show Overlay** to `Always`.
 
-    - At the **Overlay Color** field, do one of the following:
+   - At the **Overlay Color** field, do one of the following:
 
       - Click the **No Color** swatch, and choose the **White** swatch.
       - In the **No Color** field, enter `White` or the hexadecimal value `#ffffff`.
@@ -240,14 +240,14 @@ Page Builder has a new content type called _Banner_, which is featured in this s
         ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-overlay-color.png %}){: .zoom}
         _Overlay Color_
 
-    - In the **Overlay Transparency** field, enter 85%.
+   - In the **Overlay Transparency** field, enter 85%.
 
-    - n the upper-right corner, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
+   - In the upper-right corner, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
 
-        The button appears below the banner message on the stage.
+      The button appears below the banner message on the stage.
 
-        ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-background-color.png %}){: .zoom}
-        _Banner with Text Message and Button_
+      ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-background-color.png %}){: .zoom}
+      _Banner with Text Message and Button_
 
 1. In the upper-right corner of the stage, click the **Fullscreen** (![]({% link images/images-ee/icon-pb-fullscreen.png %})) icon.
 
@@ -284,11 +284,11 @@ _Contained Row with Two Equal Columns_
 
 1. Expand the **Content** section. Then, do the following:
 
-    - If necessary, scroll down so you can see the Page Builder panel and stage.
+   - If necessary, scroll down so you can see the Page Builder panel and stage.
 
-    - In the Page Builder panel under **Layout**, drag a **Row** placeholder to the stage, and place it above the banner.
+   - In the Page Builder panel under **Layout**, drag a **Row** placeholder to the stage, and place it above the banner.
 
-        The red guideline marks the boundary between the two rows.
+      The red guideline marks the boundary between the two rows.
 
     ![]({% link images/images-ee/page-builder-tutorial1-row-drag-to-stage.png %}){: .zoom}
     _Add New Row Above the Banner_
@@ -370,23 +370,23 @@ In this step, you will learn two ways to upload an image to the banner.
 
 1. To link the images, do the following:
 
-    - Determine which page from your catalog is to be linked to each image.
+   - Determine which page from your catalog is to be linked to each image.
 
-    - Hover over the image in the first column. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %})) in the toolbox.
+   - Hover over the image in the first column. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %})) in the toolbox.
 
     ![]({% link images/images-ee/page-builder-tutorial1-column1-image-settings.png %}){: .zoom}
     _Image Toolbox_
 
 1. Scroll down to the **Link** field. Then, do the following:
 
-    - Set **Link** to `Category`.
+   - Set **Link** to `Category`.
 
-    - In the category tree, drill down and choose the `Men’s Hoodies & Sweatshirt` category.
+   - In the category tree, drill down and choose the `Men’s Hoodies & Sweatshirt` category.
 
         []({% link images/images-ee/page-builder-tutorial1-column1-image-link-category.png %}){: .zoom}
         _Choose the Category_
 
-    - In the upper-right corner, <span class="btn">Save</span> the settings and return to the Page Builder workspace.
+   - In the upper-right corner, <span class="btn">Save</span> the settings and return to the Page Builder workspace.
 
 1. Repeat these steps to link the image in the second column to the _Gear_ category.
 
@@ -428,29 +428,29 @@ _Full Width Row with Columns of Different Widths_
     ![]({% link images/images-ee/page-builder-tutorial1-row-toolbox.png %}){: .zoom}
     _Row Toolbox_
 
-    - On the Edit Row page under **Appearance**, choose `Full Width`.
+   - On the Edit Row page under **Appearance**, choose `Full Width`.
 
-        The Full Width appearance setting limits the content area to the maximum page width that is defined by the theme. The background color and/or image are not limited, and extend the full width of the row.
+      The Full Width appearance setting limits the content area to the maximum page width that is defined by the theme. The background color and/or image are not limited, and extend the full width of the row.
 
-        ![]({% link images/images-ee/page-builder-tutorial1-row-settings-appearance-full-width.png %}){: .zoom}
-        _"Full Width” Appearance_
+      ![]({% link images/images-ee/page-builder-tutorial1-row-settings-appearance-full-width.png %}){: .zoom}
+      _"Full Width” Appearance_
 
-    - In the **Background** section, enter `#f1f1f1` as the **Background Color**.
+   - In the **Background** section, enter `#f1f1f1` as the **Background Color**.
 
-        ![]({% link images/images-ee/page-builder-tutorial1-row-settings-background-color.png %}){: .zoom}
-        _Background Color_
+      ![]({% link images/images-ee/page-builder-tutorial1-row-settings-background-color.png %}){: .zoom}
+      _Background Color_
 
-    - Scroll down to the **Advanced** section. Then, set all **Margins & Padding** values to zero ( `0` ).
+   - Scroll down to the **Advanced** section. Then, set all **Margins & Padding** values to zero ( `0` ).
 
-        ![]({% link images/images-ee/page-builder-tutorial1-row-settings-advanced-margins-padding-zero.png %}){: .zoom}
-        _Margins & Padding_
+      ![]({% link images/images-ee/page-builder-tutorial1-row-settings-advanced-margins-padding-zero.png %}){: .zoom}
+      _Margins & Padding_
 
 1. Scroll up to the top of the page. Then, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
 
-    The background color of the row is now a pale beige.
+   The background color of the row is now a pale beige.
 
-    ![]({% link images/images-ee/page-builder-tutorial1-row-background-beige.png %}){: .zoom}
-    _Row Background Color_
+   ![]({% link images/images-ee/page-builder-tutorial1-row-background-beige.png %}){: .zoom}
+   _Row Background Color_
 
 ### Step 2: Add Columns of Different Widths
 
@@ -466,14 +466,14 @@ _Full Width Row with Columns of Different Widths_
 
 1. Hover over first column container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %})) in the toolbox and do the following:
 
-    - Scroll down to the **Advanced** section.
+   - Scroll down to the **Advanced** section.
 
-    - Set all **Margins &amp; Padding** values to zero ( 0 ).
+   - Set all **Margins &amp; Padding** values to zero ( 0 ).
 
-        ![]({% link images/images-ee/page-builder-tutorial1-row-settings-advanced-margins-padding-zero.png %}){: .zoom}
-        _Margins & Padding_
+      ![]({% link images/images-ee/page-builder-tutorial1-row-settings-advanced-margins-padding-zero.png %}){: .zoom}
+      _Margins & Padding_
 
-    - Scroll up to the top of the page. Then, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
+   - Scroll up to the top of the page. Then, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
 
 ### Step 3: Add an Image to the First Column
 
@@ -482,20 +482,20 @@ _Full Width Row with Columns of Different Widths_
     ![]({% link images/images-ee/page-builder-tutorial1-column1-image-drag.png %}){: .zoom}
     _Drag Image to First Column_
 
-    - Click <span class="btn">Upload Image</span>.
+   - Click <span class="btn">Upload Image</span>.
 
-        ![]({% link images/images-ee/page-builder-tutorial1-column1-image-upload.png %}){: .zoom}
-        _Upload Image_
+      ![]({% link images/images-ee/page-builder-tutorial1-column1-image-upload.png %}){: .zoom}
+      _Upload Image_
 
-    - In the directory on your computer where you saved the simple page assets, choose `review-image.jpg`.
+   - In the directory on your computer where you saved the simple page assets, choose `review-image.jpg`.
 
-        ![]({% link images/images-ee/page-builder-tutorial-simple-page-assets.png %}){: .zoom}
-        _Simple Page Assets_
+      ![]({% link images/images-ee/page-builder-tutorial-simple-page-assets.png %}){: .zoom}
+      _Simple Page Assets_
 
-        The uploaded image appears in the first column, and blends seamlessly with the background color of the row.
+      The uploaded image appears in the first column, and blends seamlessly with the background color of the row.
 
-        ![]({% link images/images-ee/page-builder-tutorial1-column1-image-uploaded.png %}){: .zoom}
-        _Uploaded Image_
+      ![]({% link images/images-ee/page-builder-tutorial1-column1-image-uploaded.png %}){: .zoom}
+      _Uploaded Image_
 
 1. In the upper-right corner, click <span class="btn">Save</span>.
 
@@ -515,24 +515,24 @@ The second column of the row will contain content from a customer review, includ
     ![]({% link images/images-ee/page-builder-tutorial1-column2-editor-toolbar-insert-image.png %}){: .zoom}
     _Insert Image_
 
-    - In the Insert/edit image box, just after the **Source** field, click **Find** ( ![]({% link images/images/editor4-toolbar/btn-find-source.png %}) ).
+   - In the Insert/edit image box, just after the **Source** field, click **Find** ( ![]({% link images/images/editor4-toolbar/btn-find-source.png %}) ).
 
         ![]({% link images/images-ee/page-builder-tutorial1-column2-text-insert-edit-image.png %}){: .zoom}
         _Insert/Edit Image_
 
-    - On the Select Images page, click <span class="btn">Choose Files</span>.
+   - On the Select Images page, click <span class="btn">Choose Files</span>.
 
         ![]({% link images/images-ee/page-builder-tutorial1-column2-editor-select-images-upload.png %}){: .zoom}
         _Upload Images_
 
-    - In the folder where you saved the simple page assets, choose `rating.png`. Then in the gallery, double-click the image tile to insert its URL into the Source field.
+   - In the folder where you saved the simple page assets, choose `rating.png`. Then in the gallery, double-click the image tile to insert its URL into the Source field.
 
         ![]({% link images/images-ee/page-builder-tutorial1-column2-editor-gallery-select-image.png %}){: .zoom}
         _Choose Image from Gallery_
 
-    - In the **Image Description** field, enter `5-Star Rating`. Then, click <span class="btn">OK</span> to insert the image into the column.
+   - In the **Image Description** field, enter `5-Star Rating`. Then, click <span class="btn">OK</span> to insert the image into the column.
 
-    - In the editor toolbar, click **Align Center** (![]({% link images/images/editor4-toolbar/btn-align-center.png %})) to center the image in the column.
+   - In the editor toolbar, click **Align Center** (![]({% link images/images/editor4-toolbar/btn-align-center.png %})) to center the image in the column.
 
         ![]({% link images/images-ee/page-builder-tutorial1-column2-5stars-centered.png %}){: .zoom}
         _Centered Image_
@@ -548,31 +548,31 @@ The second column of the row will contain content from a customer review, includ
 
 1. To format the text, do the following:
 
-    - Click anywhere in the first line of text. Then on the editor toolbar under **Formats**, choose `Heading 2`.
+   - Click anywhere in the first line of text. Then on the editor toolbar under **Formats**, choose `Heading 2`.
 
-    - Select the remaining text. Then on the editor toolbar under **Formats**, choose `Paragraph`.
+   - Select the remaining text. Then on the editor toolbar under **Formats**, choose `Paragraph`.
 
-        The text is formatted according to the style sheet that is associated with the theme.
+      The text is formatted according to the style sheet that is associated with the theme.
 
 1. To center the content vertically in the column, you must first know the height of the image. To get the dimensions of the image, do the following:
 
-    - Hover over the image in the first column. Then in the toolbox, choose **Settings** ( ![]({% link images/images-ee/icon-pb-settings.png %}) ).
+   - Hover over the image in the first column. Then in the toolbox, choose **Settings** ( ![]({% link images/images-ee/icon-pb-settings.png %}) ).
 
-    - Below the thumbnail of the image, take note of the dimensions of the image. Then in the upper-right corner, click **Close**.
+   - Below the thumbnail of the image, take note of the dimensions of the image. Then in the upper-right corner, click **Close**.
 
         ![]({% link images/images-ee/page-builder-tutorial1-column1-image-dimensions.png %}){: .zoom}
         _Image Dimensions_
 
 1. To center the content vertically in the second column, do the following:
 
-    - Hover over the second column. Then in the toolbox, choose **Settings** ( ![]({% link images/images-ee/icon-pb-settings.png %}) ), and scroll down to the **Layout** section.
+   - Hover over the second column. Then in the toolbox, choose **Settings** ( ![]({% link images/images-ee/icon-pb-settings.png %}) ), and scroll down to the **Layout** section.
 
         {:.bs-callout-info}
         Make sure to select the Column container rather than the Text container.
 
-    - In the **Minimum Height** field, enter `450` as the height in pixels, of the image in the first column.
+   - In the **Minimum Height** field, enter `450` as the height in pixels, of the image in the first column.
 
-    - Set **Vertical Alignment** to `Center`.
+   - Set **Vertical Alignment** to `Center`.
 
     ![]({% link images/images-ee/page-builder-tutorial1-column2-layout-vertical-alignment.png %}){: .zoom}
     _Vertical Alignment_
@@ -591,24 +591,24 @@ The second column of the row will contain content from a customer review, includ
 
 1. Select the `Antonia Racer Tank` text and click **Insert Link** (![]({% link images/images/editor4-toolbar/btn-insert--edit-link.png %})) in the editor toolbar. Then, do the following:
 
-    - Enter the product **URL**.
+   - Enter the product **URL**.
 
-        You can enter either a relative or fully-qualified URL. The following relative link is entered for this example:
+      You can enter either a relative or fully-qualified URL. The following relative link is entered for this example:
 
-        `../antonia-racer-tank.html`
+      `../antonia-racer-tank.html`
 
-    - (Optional) Enter the product name in the **Title** field.
+   - (Optional) Enter the product name in the **Title** field.
 
-        The Title link attribute is used by some browsers as a tooltip.
+      The Title link attribute is used by some browsers as a tooltip.
 
-    - When complete, click <span class="btn">OK</span> to save the link and return to the Page Builder workspace.
+   - When complete, click <span class="btn">OK</span> to save the link and return to the Page Builder workspace.
 
-        ![]({% link images/images-ee/page-builder-tutorial1-text-link-insert.png %}){: .zoom}
-        _Insert Link_
+      ![]({% link images/images-ee/page-builder-tutorial1-text-link-insert.png %}){: .zoom}
+      _Insert Link_
 
-        The linked text is now highlighted in the banner.
+      The linked text is now highlighted in the banner.
 
-        ![]({% link images/images-ee/page-builder-tutorial1-text-link-highlight.png %}){: .zoom}
+      ![]({% link images/images-ee/page-builder-tutorial1-text-link-highlight.png %}){: .zoom}
 
 1. In the upper-right corner, click **Save**.
 
@@ -618,27 +618,27 @@ With all three rows complete, the final step is to rearrange the rows to match t
 
 1. Hover over the first row on the stage. Then in the toolbox, choose **Move** ( ![]({% link images/images-ee/icon-pb-move.png %})).
 
-    ![]({% link images/images-ee/page-builder-tutorial1-row-toolbox-move.png %}){: .zoom}
-    _Move_
+   ![]({% link images/images-ee/page-builder-tutorial1-row-toolbox-move.png %}){: .zoom}
+   _Move_
 
 1. Hold down the mouse button and verify that all content in the row is selected. Then, drag the row into position below the red guideline at the bottom of the page.
 
-    {:.bs-callout-info}
-    If you accidentally move only part of the content — such as the image — simply move the content back where it belongs, and try again.
+   {:.bs-callout-info}
+   If you accidentally move only part of the content — such as the image — simply move the content back where it belongs, and try again.
 
-    ![]({% link images/images-ee/page-builder-tutorial1-row-toolbox-move-to-position.png %}){: .zoom}
-    _Moving a Row_
+   ![]({% link images/images-ee/page-builder-tutorial1-row-toolbox-move-to-position.png %}){: .zoom}
+   _Moving a Row_
 
 1. Repeat this process to move the first row to the second position.
 
-    The order of the rows on your page now matches the Simple Page example.
+   The order of the rows on your page now matches the Simple Page example.
 
 1. If you are working in Fullscreen mode, click **Close** (![]({% link images/images-ee/icon-pb-close.png %})) in the upper-right corner to return to the Page Builder workspace.
 
 1. On the **Save** menu, choose **Save & Close**.
 
-    ![]({% link images/images-ee/page-builder-tutorial1-save-and-close.png %}){: .zoom}
-    Save & Close_
+   ![]({% link images/images-ee/page-builder-tutorial1-save-and-close.png %}){: .zoom}
+   Save & Close_
 
 **Congratulations!**
 You have completed Part 3 of the Simple Page tutorial. Keep the work that you created, so you can refer to it later.

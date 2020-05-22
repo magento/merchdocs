@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Customer Attributes
 redirect_from:
   - /stores/stores-attributes-customer.html
@@ -14,7 +14,7 @@ _Customer Attributes_
 
 1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Customer**.
 
-1. In the upper-right corner, click **Add New Customer**.
+1. In the upper-right corner, click **Add New Attribute**.
 
     ![Customer attribute properties]({% link images/images-ee/attribute-customer-new.png %}){: .zoom}
     _Customer Attribute Properties_
@@ -32,7 +32,7 @@ _Customer Attributes_
 
 1. Complete the **Data Entry Properties**.
 
-   - To determine the type of input control that is used for data entry, set **Input Type** to one of the following:
+    - To determine the type of input control that is used for data entry, set **Input Type** to one of the following:
 
       |Text Field|A single-line text field.|
       |Text Area|A multi-line text area.|
@@ -44,11 +44,11 @@ _Customer Attributes_
       |File (attachment)|A field that allows a file to be uploaded and associated with the customer attribute as an attachment.|
       |Image File|A field that allows an image to be uploaded to the gallery and associated with the customer attribute.|
 
-   - If the customer must enter a value in the field, set **Values Required** to `Yes`.
+    - If the customer must enter a value in the field, set **Values Required** to `Yes`.
 
-   - To assign an initial value to the field, enter a **Default Value**.
+    - To assign an initial value to the field, enter a **Default Value**.
 
-   - To check the data entered into the field for accuracy before the record is saved, set **Input Validation** to the type of data to be allowed in the field. The available values depend on the Input Type specified.
+    - To check the data entered into the field for accuracy before the record is saved, set **Input Validation** to the type of data to be allowed in the field. The available values depend on the Input Type specified.
 
       | None | The field has no input validation during data entry. |
       | Alphanumeric | Accepts any combination of numbers (0-9) and alphabetic characters (a-z, A-Z) during data entry. To include special characters, see [Escape HTML Entities](#escape-HTML). |
@@ -59,9 +59,9 @@ _Customer Attributes_
       | Email | Accepts only an email address during data entry. |
       | Length Only | Validates the input based on the length of the data entered into the field. |
 
-   - To limit the size of Text Field and Text Area input types, enter the **Minimum Text Length** and **Maximum Text Length**.
+    - To limit the size of Text Field and Text Area input types, enter the **Minimum Text Length** and **Maximum Text Length**.
 
-   - To apply a preprocessing filter to values entered in a text field, text area, or multiple line input type, set **Input/Output Filter** to one of the following:
+    - To apply a preprocessing filter to values entered in a text field, text area, or multiple line input type, set **Input/Output Filter** to one of the following:
 
       | None | Does not apply a filter to text entered into the field. |
       | Strip HTML Tags | Removes HTML tags from the text. This filter can help clean up data that is pasted into a field from another source that includes HTML tags. |
@@ -72,13 +72,13 @@ _Customer Attributes_
 
 1. Complete the **Customers Grid and Segment Properties**.
 
-   - To be able to include the column in the Customers grid, set **Add to Column Options** to `Yes`.
+    - To be able to include the column in the Customers grid, set **Add to Column Options** to `Yes`.
 
-   - To filter the Customers grid by this attribute, set **Use in Filter Options** to `Yes`.
+    - To filter the Customers grid by this attribute, set **Use in Filter Options** to `Yes`.
 
-   - To search the Customers grid by this attribute, set **Use in Search Options** to `Yes`.
+    - To search the Customers grid by this attribute, set **Use in Search Options** to `Yes`.
 
-   - To make this attribute available to [customer segments]({% link marketing/customer-segments.md %}), set **Use in Customer Segment** to `Yes`.
+    - To make this attribute available to [customer segments]({% link marketing/customer-segments.md %}), set **Use in Customer Segment** to `Yes`.
 
     ![Customer attributes - grid and segment properties]({% link images/images-ee/attribute-customer-grid-segment.png %}){: .zoom}
     _Customer Grid and Segment Properties_

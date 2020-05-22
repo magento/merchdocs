@@ -4,7 +4,7 @@ title: Google AdWords
 
 [Google AdWords][1] is a service that you can use to place ads in Google Search results and on the pages of companies in the Google Display Network. The AdWords dashboard includes tools to manage your campaigns, track response, and measure results.
 
-Conversion tracking shows how many ad clicks lead to a sale or other valuable action. The _Success_ page that appears to your customer after an order has been submitted is used to track conversions because it appears only after a sale. After completing the Google AdWords configuration for your store, there is no need to copy the conversion tracking script to the Success page, because Magento already has the necessary information. To learn more, see [Google AdWorlds Help][2].
+Conversion tracking shows how many ad clicks lead to a sale or other valuable action. The _Success_ page that appears to your customer after an order has been submitted is used to track conversions because it appears only after a sale. After completing the Google AdWords configuration for your store, there is no need to copy the conversion tracking script to the Success page, because Magento already has the necessary information. To learn more, see [Google AdWords Help][2].
 
 ![Google Ads]({% link images/images/google-adwords-magento-ad.png %}){: .zoom}
 _Magento Ad in Google Search Results_
@@ -17,20 +17,20 @@ _Magento Ad in Google Search Results_
 
 1. To set up conversion tracking for your campaign, do the following:
 
-    - On the **Tools** tab of your AdWords dashboard, choose **Conversions** and click <span class="btn">Conversion</span>.
+   - On the **Tools** tab of your AdWords dashboard, choose **Conversions** and click <span class="btn">Conversion</span>.
 
-    - When prompted for the conversion source, choose **Website**
+   - When prompted for the conversion source, choose **Website**
 
-    - Enter a name for the conversion action that you want to track. Then, click <span class="btn">Done</span>.
+   - Enter a name for the conversion action that you want to track. Then, click <span class="btn">Done</span>.
 
-    - Click **Value** and, if applicable, assign a value to the conversion. For example:
+   - Click **Value** and, if applicable, assign a value to the conversion. For example:
 
-        - If you make $5 on each sale, choose `Each time it happens` and assign a value of `$5`.
-        - If the value of each sale varies, leave the value blank.
+      - If you make $5 on each sale, choose `Each time it happens` and assign a value of `$5`.
+      - If the value of each sale varies, leave the value blank.
 
-        Then, click <span class="btn">Done</span>.
+      Then, click <span class="btn">Done</span>.
 
-    - Click <span class="btn">Conversion windows</span> and complete the settings to determine how long the conversions are to be tracked, the reporting category, and the attribution model.
+   - Click <span class="btn">Conversion windows</span> and complete the settings to determine how long the conversions are to be tracked, the reporting category, and the attribution model.
 
 1. When complete, click <span class="btn">Save and Continue</span>.
 
@@ -55,9 +55,9 @@ _Magento Ad in Google Search Results_
 
 1. If configuring Google AdWords tor a specific store view, do the following:
 
-    - In the upper-left corner, choose the **Store View** that is to be configured.
+   - In the upper-left corner, choose the **Store View** that is to be configured.
 
-    - When prompted to confirm scope switching, click <span class="btn">OK</span>.
+   - When prompted to confirm scope switching, click <span class="btn">OK</span>.
 
 1. In the left panel, expand **Sales** and choose **Google API**.
 
@@ -65,26 +65,26 @@ _Magento Ad in Google Search Results_
 
     If necessary, clear the **Use Website** checkbox for each setting to be changed.
 
-    - Set **Enable** to `Yes`.
+   - Set **Enable** to `Yes`.
 
-    - Enter the **Conversion ID** from your Google AdWords script.
+   - Enter the **Conversion ID** from your Google AdWords script.
 
     ![Sales configuration - Google Ads API]({% link images/images/config-sales-google-api-google-adwords.png %}){: .zoom}
     [_Google AdWords_]({% link configuration/sales/google-api.md %})
 
 1. To format the Google Sites Stat notification, do the following:
 
-    - Set **Conversion Language** to the language that is identified in your Google AdWords script.
+   - Set **Conversion Language** to the language that is identified in your Google AdWords script.
 
-    - Enter the **Conversion Format** to be used for the Google Sites Stat notification on the conversion page.
+   - Enter the **Conversion Format** to be used for the Google Sites Stat notification on the conversion page.
 
-      - 1 - Displays a one-line notification with a link to more information about Google tracking.
-      - 2 - Displays a two-line notification with a link to more information about Google tracking.
-      - 3 - Displays no customer notification.
+        |1 |Displays a one-line notification with a link to more information about Google tracking.|
+        |2 |Displays a two-line notification with a link to more information about Google tracking.|
+        |3 |Displays no customer notification.|
 
-    - Enter the [hexadecimal code][4]{:target="_blank"} for the **Conversion Color** that you want to use for the Google Site Stats notification label.
+   - Enter the [hexadecimal code][4]{:target="_blank"} for the **Conversion Color** that you want to use for the Google Site Stats notification label.
 
-    - Enter the encrypted text for the **Conversion Label** that appears on the Google Sites Stat notification.
+   - Enter the encrypted text for the **Conversion Label** that appears on the Google Sites Stat notification.
 
         For example: `MlEYCOKBnGoQz6CZoAM`
 

@@ -1,5 +1,6 @@
 ---
 title: Linking Google Account
+tag: google-shopping
 ---
 
 **Step 1 of 3** for [Google Shopping ads Channel onboarding]({% link sales-channels/google-ads/onboarding-google.md %}).

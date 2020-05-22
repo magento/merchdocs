@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Buttons
 ---
 
@@ -56,8 +56,8 @@ _Banner with Button_
 
    - Set **Button Type** to `Product`. Then, do one of the following:
 
-     - Enter a partial or full product name.
-     - Enter the product SKU.
+      - Enter a partial or full product name.
+      - Enter the product SKU.
 
    - Choose the product name in the list.
 
@@ -68,8 +68,8 @@ _Banner with Button_
 
    - Set **Button Type** to “Category.” Then, do one of the following:
 
-     - Enter a partial or full category name.
-     - Click the blank **Select** field and find the category in the tree.
+      - Enter a partial or full category name.
+      - Click the blank **Select** field and find the category in the tree.
 
    - Choose the category name in the tree.
 
@@ -80,8 +80,8 @@ _Banner with Button_
 
    - Set **Button Type** to `Page`. Then, do one of the following:
 
-     - Enter a partial or full name of a CMS page.
-     - Click the blank **Select** field and find the page in the list.
+      - Enter a partial or full name of a CMS page.
+      - Click the blank **Select** field and find the page in the list.
 
    - Choose the name of the page in the search results list.
 

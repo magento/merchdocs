@@ -13,12 +13,11 @@ Some of these cookies may provide configuration options, including enable/disabl
 
 ### Requested Functionality Cookies (Exempt)
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{:.ee-only}
 #### `add_to_cart`
 
 Used by Google Tag Manager. Captures the product SKU, name, price and quantity removed from the cart, and makes the information available for future integration by third-party scripts.
 
-<!--{% endif %}-->
 #### `guest-view`
 
 Stores the Order ID that guest shoppers use to retrieve their order status. Guest orders view. Used in "Orders and Returns" widgets.
@@ -37,12 +36,11 @@ Preserves the destination page the customer was loading before being directed to
 - Expiration Policy: Session
 - Module: `Magento_Customer`
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{:.ee-only}
 #### `mage-banners-cache-storage`
 
 Stores banner content locally to improve performance.
 
-<!--{% endif %}-->
 #### `mage-messages`
 
 Tracks error messages and other notifications that are shown to the user, such as the cookie consent message, and various error messages. The message is deleted from the cookie after it is shown to the shopper.
@@ -117,12 +115,11 @@ Stores product IDs of recently previously viewed products for easy navigation.
 - Expiration Policy: Per local storage rules
 - Module: `Magento_Catalog`
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{:.ee-only}
 #### `remove_from_cart`
 
 Used by [Google Tag Manager]({% link marketing/google-tag-manager.md %}). Captures the product SKU, name, price and quantity added to the cart, and makes the information available for future integration by third-party scripts.
 
-<!--{% endif %}-->
 #### `stf`
 
 Records the time messages are sent by the SendFriend ([Email a Friend]({% link marketing/email-a-friend.md %})) module.
@@ -168,8 +165,8 @@ A security measure that appends a random string to all form submissions to prote
 - Is Secure? No
 - HTTP Only: No
 - Expiration Policy:
-  - PHP: Based on PHP setting session.cookie_lifetime
-  - JS: Session
+   - PHP: Based on PHP setting session.cookie_lifetime
+   - JS: Session
 - Module: Page Cache
 
 #### `mage-cache-sessid`
@@ -227,9 +224,9 @@ For the HTTP Only Yes (based on request) means that the cookie Secure if set du
 
 - Is Secure? Yes (based on request), No
 - HTTP Only:
-  - PHP: 1 year / 315360000s (10yr)
-  - JS: 1 day
-  - JS local storage: Per local storage rules (forever)
+   - PHP: 1 year / 315360000s (10yr)
+   - JS: 1 day
+   - JS local storage: Per local storage rules (forever)
 - Expiration Policy: Based on [Persistent Shopping Cart]({% link sales/cart-persistent-configuration.md %}) - Persistence Lifetime (seconds) configuration
 - Module: `Magento_PageCache`, `Magento_Customer`
 
@@ -251,8 +248,8 @@ Tracks the specific store view / locale selected by the shopper.
 - Expiration Policy: 1 year
 - Module: `Magento_Store`
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-#### `mage-banners-cache-storage` (local storage)
+{:.ee-only}
+#### `mage-banners-cache-storage` - local storage
 
 Local storage for Banner functionality.
 
@@ -261,13 +258,12 @@ Local storage for Banner functionality.
 - Expiration Policy: Per local storage rules
 - Module: `Magento_Banner`
 
-<!--{% endif %}-->
 ## Google Analytics Cookies
 
-The following cookies are used when <!--{% if "Default.CE Only" contains site.edition %}-->[Google Analytics]({% link marketing/google-universal-analytics.md %})<!--{% endif %}--><!--{% if "Default.EE-B2B" contains site.edition %}-->[Google Universal Analytics]({% link marketing/google-universal-analytics.md %})<!--{% endif %}--> is fully enabled for your Magento installation. To disable these cookies for privacy regulation compliance, see [Google Privacy Settings]({% link stores/compliance-privacy-google.md %}). To learn more, see [Google Analytics Cookie Usage on Websites][1].
+The following cookies are used when [Google Analytics]({% link marketing/google-universal-analytics.md %}) or [Google Universal Analytics]({% link marketing/google-universal-analytics.md %}) is fully enabled for your Magento installation. To disable these cookies for privacy regulation compliance, see [Google Privacy Settings]({% link stores/compliance-privacy-google.md %}). To learn more, see [Google Analytics Cookie Usage on Websites][1].
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-### Google Universal Analytics Cookies (Non-Exempt)
+{:.ee-only}
+### Google Universal Analytics Cookies  - Non-Exempt
 
 JavaScript Libraries: `gtag.js` and `analytics.js`
 
@@ -278,9 +274,8 @@ JavaScript Libraries: `gtag.js` and `analytics.js`
 - `AMP_TOKEN`: Contains a token that can be used to retrieve a Client ID from AMP Client ID service. Other possible values include opt-out, inflight request or an error retrieving a Client ID from  AMP Client ID service.
 - `_gac_<property-id>`: Contains campaign-related information for the user. Google AdWords conversion tags read this cookie if Google Analytics is linked to your [AdWords][2] account.
 
-<!--{% endif %}-->
-<!--{% if "Default.CE Only" contains site.edition %}-->
-### Google Analytics Cookies (Non-Exempt)
+{:.ce-only}
+### Google Analytics Cookies - Non-Exempt
 
 JavaScript Library: `ga.js`
 
@@ -290,6 +285,5 @@ JavaScript Library: `ga.js`
 - `_utmz`: Saves the traffic source or campaign that explains how the shopper reached your site. The cookie is created when the JavaScript library executes, and is updated every time data is sent to Google Analytics.
 - `__utmv`: Stores visitor-level custom variable data. This cookie is created when a developer uses the `_setCustomVar` method with a visitor-level custom variable. This cookie is updated every time data is sent to Google Analytics.
 
-<!--{% endif %}-->
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212

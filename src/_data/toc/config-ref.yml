@@ -1,0 +1,218 @@
+---
+label: Configuration Reference
+pages:
+- label: Magento Modes
+  url: "/magento/installation-modes.html"
+- label: General
+  url: "/configuration/general.html"
+  children:
+  - label: General
+    url: "/configuration/general/general.html"
+  - label: B2B Features
+    url: "/configuration/general/b2b-features.html"
+    edition: b2b-only
+  - label: Web
+    url: "/configuration/general/web.html"
+  - label: Currency Setup
+    url: "/configuration/general/currency-setup.html"
+  - label: Store Email Addresses
+    url: "/configuration/general/store-email-addresses.html"
+  - label: Contacts
+    url: "/configuration/general/contacts.html"
+  - label: Reports
+    url: "/configuration/general/reports.html"
+  - label: Content Management
+    url: "/configuration/general/content-management.html"
+  - label: New Relic Reporting
+    url: "/configuration/general/new-relic-reporting.html"
+  - label: Advanced Reporting
+    url: "/configuration/general/advanced-reporting.html"
+- label: Catalog
+  url: "/configuration/catalog.html"
+  children:
+  - label: Catalog
+    url: "/configuration/catalog/catalog.html"
+  - label: Visual Merchandiser
+    url: "/configuration/catalog/visual-merchandiser.html"
+    edition: ee-only
+  - label: Inventory
+    url: "/configuration/catalog/inventory.html"
+  - label: XML Sitemap
+    url: "/configuration/catalog/xml-sitemap.html"
+  - label: RSS Feeds
+    url: "/configuration/catalog/rss-feeds.html"
+  - label: Email to a Friend
+    url: "/configuration/catalog/email-to-a-friend.html"
+- label: Security
+  url: "/configuration/security.html"
+  children:
+  - label: 2FA
+    url: "/configuration/security/2fa.html"
+  - label: Google reCAPTCHA
+    url: "/configuration/security/google-recaptcha.html"
+- label: Customers
+  url: "/configuration/customers.html"
+  children:
+  - label: Newsletter
+    url: "/configuration/customers/newsletter.html"
+  - label: Company Configuration
+    url: "/configuration/customers/company-configuration.html"
+    edition: b2b-only
+  - label: Customer Configuration
+    url: "/configuration/customers/customer-configuration.html"
+  - label: Requisition Lists
+    url: "/configuration/customers/requisition-lists.html"
+    edition: b2b-only
+  - label: Wish List
+    url: "/configuration/customers/wishlist.html"
+  - label: Invitations
+    url: "/configuration/customers/invitations.html"
+    edition: ee-only
+  - label: Reward Points
+    url: "/configuration/customers/reward-points.html"
+    edition: ee-only
+  - label: Promotions
+    url: "/configuration/customers/promotions.html"
+  - label: Gift Registry
+    url: "/configuration/customers/gift-registry.html"
+    edition: ee-only
+  - label: Persistent Shopping Cart
+    url: "/configuration/customers/persistent-shopping-cart.html"
+- label: Sales
+  url: "/configuration/sales.html"
+  children:
+  - label: Sales
+    url: "/configuration/sales/sales.html"
+  - label: Sales Emails
+    url: "/configuration/sales/sales-emails.html"
+  - label: Quotes
+    url: "/configuration/sales/quotes.html"
+    edition: b2b-only
+  - label: PDF Print-outs
+    url: "/configuration/sales/pdf-print-outs.html"
+  - label: Tax
+    url: "/configuration/sales/tax.html"
+  - label: Checkout
+    url: "/configuration/sales/checkout.html"
+  - label: Shipping Settings
+    url: "/configuration/sales/shipping-settings.html"
+  - label: Multishipping Settings
+    url: "/configuration/sales/multishipping-settings.html"
+  - label: Shipping Methods
+    url: "/configuration/sales/shipping-methods.html"
+  - label: Google API
+    url: "/configuration/sales/google-api.html"
+  - label: Payment Methods
+    url: "/configuration/sales/payment-methods.html"
+    children:
+    - label: Recommended Solutions
+      url: "/configuration/sales/recommended-solutions.html"
+      children:
+      - label: PayPal Express Checkout
+        url: "/configuration/sales/paypal-express-checkout.html"
+      - label: Braintree
+        url: "/configuration/sales/braintree.html"
+    - label: Other PayPal Methods
+      url: "/configuration/sales/paypal-methods-other.html"
+      children:
+      - label: PayPal All-In-One Payment Solutions
+        children:
+        - label: PayPal Payments Advanced
+          url: "/configuration/sales/paypal-payments-advanced.html"
+        - label: PayPal Payments Pro
+          url: "/configuration/sales/paypal-payments-pro.html"
+        - label: PayPal Payments Standard
+          url: "/configuration/sales/paypal-payments-standard.html"
+      - label: PayPal Payment Gateways
+        children:
+        - label: PayPal Payflow Pro
+          url: "/configuration/sales/paypal-payflow-pro.html"
+        - label: PayPal Payflow Link
+          url: "/configuration/sales/paypal-payflow-link.html"
+    - label: Other Payment Methods
+      url: "/configuration/sales/payment-methods-other.html"
+      children:
+      - label: Klarna
+        url: "/configuration/sales/klarna.html"
+      - label: Amazon Pay
+        url: "/configuration/sales/amazon-pay.html"
+      - label: Authorize.Net Direct Post - Deprecated
+        url: "/configuration/sales/authorize-net-direct-post.html"
+      - label: Authorize.Net - Deprecated
+        url: "/configuration/sales/authorize-net.html"
+      - label: CyberSource - Deprecated
+        url: "/configuration/sales/cybersource.html"
+        edition: ee-only
+      - label: eWAY - Deprecated
+        url: "/configuration/sales/eway.html"
+        edition: ee-only
+      - label: Worldpay - Deprecated
+        url: "/configuration/sales/worldpay.html"
+        edition: ee-only
+  - label: 3D Secure
+    url: "/configuration/sales/3d-secure.html"
+    children:
+    - label: CardinalCommerce
+      url: "/configuration/sales/cardinalcommerce.html"
+  - label: Fraud Protection
+    url: "/configuration/sales/fraud-protection.html"
+  - label: Gift Cards
+    url: "/configuration/sales/gift-cards.html"
+    edition: ee-only
+  - label: Address Validation
+    url: "/configuration/sales/address-validation.html"
+- label: Sales Channels
+  url: "/configuration/sales-channels.html"
+  children:
+  - label: Global Settings
+    url: "/configuration/sales-channels/global-settings.html"
+- label: Yotpo
+  url: "/configuration/yotpo.html"
+  children:
+  - label: Reviews and Visual Marketing
+    url: "/configuration/yotpo/reviews-visual-marketing.html"
+- label: dotdigital
+  url: "/configuration/dotdigital.html"
+  children:
+  - label: Accounts
+    url: "/configuration/dotdigital/accounts.html"
+  - label: Chat Settings
+    url: "/configuration/dotdigital/chat-settings.html"
+  - label: Data Mapping
+    url: "/configuration/dotdigital/data-mapping.html"
+  - label: Sync Settings
+    url: "/configuration/dotdigital/sync-settings.html"
+  - label: Abandoned Carts
+    url: "/configuration/dotdigital/abandoned-carts.html"
+  - label: Automation
+    url: "/configuration/dotdigital/automation.html"
+  - label: Dynamic Content
+    url: "/configuration/dotdigital/dynamic-content.html"
+  - label: Transactional Emails
+    url: "/configuration/dotdigital/transactional-emails.html"
+  - label: Email Templates
+    url: "/configuration/dotdigital/email-templates.html"
+  - label: Configuration
+    url: "/configuration/dotdigital/configuration.html"
+  - label: Developer
+    url: "/configuration/dotdigital/developer.html"
+- label: Services
+  url: "/configuration/services.html"
+  children:
+  - label: Magento Web API
+    url: "/configuration/services/magento-web-api.html"
+  - label: Magento Services
+    url: "/configuration/services/saas.html"
+  - label: OAuth
+    url: "/configuration/services/oauth.html"
+  - label: Channels
+    url: "/configuration/services/channels.html"
+- label: Advanced
+  url: "/configuration/advanced.html"
+  children:
+  - label: Admin
+    url: "/configuration/advanced/admin.html"
+  - label: System
+    url: "/configuration/advanced/system.html"
+  - label: Developer
+    url: "/configuration/advanced/developer.html"

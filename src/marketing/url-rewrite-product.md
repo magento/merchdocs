@@ -57,27 +57,27 @@ If you are not sure, open each product page in your store, and copy the path fro
 
     The Add URL Rewrite for a Product page displays a link to the target in the upper-left corner, and the Target Path field displays the system version of the path, which cannot be changed. Initially, the Redirect Path field also displays the target path.
 
-    - If you have multiple store views, set **Store** to the view where the rewrite applies. Otherwise, a rewrite will be created for each view.
+   - If you have multiple store views, set **Store** to the view where the rewrite applies. Otherwise, a rewrite will be created for each view.
 
-    - In the **Request Path** field, replace the default by entering the URL key and suffix (if applicable) of the original product request. This is the _redirect from_ product that you identified in the planning step.
+   - In the **Request Path** field, replace the default by entering the URL key and suffix (if applicable) of the original product request. This is the _redirect from_ product that you identified in the planning step.
 
-    {:.bs-callout-info}
-    The Request Path must be unique for the specified store. If there is already a redirect that uses the same Request Path, you will receive an error when you try to save the redirect. The previous redirect must be deleted before you can create a new one.
+      {:.bs-callout-info}
+      The Request Path must be unique for the specified store. If there is already a redirect that uses the same Request Path, you will receive an error when you try to save the redirect. The previous redirect must be deleted before you can create a new one.
 
-    - Set **Redirect Type** to one of the following:
+   - Set **Redirect Type** to one of the following:
 
-        - `Temporary (302)`
-        - `Permanent (301)`
+      - `Temporary (302)`
+      - `Permanent (301)`
 
-    - For your own reference, enter a brief **Description** of the rewrite.
+   - For your own reference, enter a brief **Description** of the rewrite.
 
     ![Product URL rewrite - information]({% link images/images/url-rewrite-product-permanent-301.png %}){: .zoom}
     _URL Rewrite Information_
 
 1. Before saving the redirect, review the following:
 
-    - The link in the upper-left corner displays the name of the target product.
-    - The Request Path contains the path for the original _redirect from_ product.
+   - The link in the upper-left corner displays the name of the target product.
+   - The Request Path contains the path for the original _redirect from_ product.
 
 1. When complete, click <span class="btn">Save</span>.
 
@@ -92,8 +92,8 @@ If you are not sure, open each product page in your store, and copy the path fro
 
 1. Do one of the following:
 
-    - Navigate to the original _redirect from_ product request page.
-    - In the address bar of the browser, enter the path to the original _redirect from_ product immediately after the store URL. Then, press **Enter**.
+   - Navigate to the original _redirect from_ product request page.
+   - In the address bar of the browser, enter the path to the original _redirect from_ product immediately after the store URL. Then, press **Enter**.
 
     The new target product appears instead of the original product request.
 

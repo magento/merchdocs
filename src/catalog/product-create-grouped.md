@@ -17,7 +17,7 @@ _Grouped Product_
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the top-right corner, choose **Grouped Product**.
+1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right corner, choose **Grouped Product**.
 
     ![]({% link images/images/21product-add-grouped.png %}){: .zoom}
     _Add Grouped Product_
@@ -26,12 +26,12 @@ _Grouped Product_
 
 To choose the [attribute set]({% link stores/attribute-sets.md %}) that is used as a template for the product, do one of the following:
 
-- For **Search**, enter the name of the attribute set.
-- In the list, choose the attribute set that you want to use.
+- To search, enter the name of the **Attribute Set**.
+- In the list, choose the **Attribute Set** that you want to use.
 
 The form is updated to reflect the change.
 
-![]({% link images/images/product-create-choose-attribute-set.png %}){: .zoom}
+![]({% link images/images/product-grouped-create-choose-attribute-set.png %}){: .zoom}
 _Choose Template_
 
 ## Step 3: Complete the required settings
@@ -46,11 +46,11 @@ _Choose Template_
 
 1. Click <span class="btn">Save</span> and continue.
 
-    When the product is saved, the [Store View]({% link catalog/product-scope.md %}) chooser appears in the top-left corner.
+    When the product is saved, the product name appears at the top of the page, and the [Store View]({% link catalog/product-scope.md %}) chooser appears in the upper-left corner.
 
 1. Choose the **Store View** where the product is to be available.
 
-    ![]({% link images/images/product-create-store-view-choose.png %}){: .zoom}
+    ![]({% link images/images/product-grouped-create-store-view-choose.png %}){: .zoom}
     _Choose Store View_
 
 ## Step 4: Complete the basic settings
@@ -59,19 +59,19 @@ _Choose Template_
 
 1. To assign **Categories** to the product, click the **Select…** box and do either of the following:
 
-    **Choose an existing category:**
+   **Choose an existing category:**
 
-    - Start typing in the box to find a match.
+   - Start typing in the box to find a match.
 
-    - Select the checkbox of the category that is to be assigned.
+   - Select the checkbox of the category that is to be assigned.
 
-    **Create a new category:**
+   **Create a new category:**
 
-    - Click <span class="btn">New Category</span>.
+   - Click <span class="btn">New Category</span>.
 
-    - Enter the **Category Name** and choose the **Parent Category** to determine its position in the menu structure.
+   - Enter the **Category Name** and choose the **Parent Category** to determine its position in the menu structure.
 
-    - Click <span class="btn">Create Category</span>.
+   - Click <span class="btn">Create Category</span>.
 
 1. Accept the **Visibility** settings of `Catalog, Search`.
 
@@ -128,27 +128,27 @@ Complete the information in the following sections as needed:
 
 ## Step 6: Publish the product
 
-1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` ( ![]({% link images/images/btn-switch-yes.png %}) ).
+1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes`.
 
 1. Do one of the following:
 
-    **Method 1: Save and Preview**
+   **Method 1: Save and Preview**
 
-    - In the upper-right corner, click <span class="btn">Save</span>.
+   - In the upper-right corner, click <span class="btn">Save</span>.
 
-    - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
+   - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
 
       The store opens in a new browser tab.
 
       ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
       _Customer View_
 
-    **Method 2: Save and Close**
+   **Method 2: Save and Close**
 
-    On the _Save_ (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
+   On the _Save_ (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
 
-    ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
-    _Save & Close_
+   ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
+   _Save & Close_
 
 ## Step 7: Configure the cart thumbnails (optional)
 
@@ -162,12 +162,12 @@ If you have a different image for each product in the group, you can set the con
 
 1. Set **Grouped Product Image** to `Product Thumbnail Itself`.
 
-    If necessary, clear the **Use system value** checkbox to set this option.
+   If necessary, deselect the **Use system value** checkbox to set this option.
 
 1. Click <span class="btn">Save Config</span>.
 
-    ![]({% link images/images/config-sales-checkout-shopping-cart-grouped-product.png %}){: .zoom}
-    [_Shopping Cart_]({% link configuration/sales/checkout.md %})
+   ![]({% link images/images/config-sales-checkout-shopping-cart-grouped-product.png %}){: .zoom}
+   [_Shopping Cart_]({% link configuration/sales/checkout.md %})
 
 ## Things to remember
 

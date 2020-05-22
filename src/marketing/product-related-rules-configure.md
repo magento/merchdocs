@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Configuring Related Products Rules
 ---
 
@@ -16,51 +16,51 @@ The behavior and display of product relationship rules is determined by the conf
     ![Catalog configuration - rule-based product relations]({% link images/images/config-catalog-catalog-rule-based-product-relations.png %}){: .zoom}
     [_Rule-Based Product Relations_]({% link configuration/catalog/catalog.md -%})
 
-    - Enter the **Maximum Number of Products in the Related Products List**.
+   - Enter the **Maximum Number of Products in the Related Products List**.
 
-    - Set **Show Related Products** to one of the following:
+   - Set **Show Related Products** to one of the following:
 
-        - `Both Selected and Rule Based`
-        - `Selected Only`
-        - `Rule-Based Only`
+      - `Both Selected and Rule Based`
+      - `Selected Only`
+      - `Rule-Based Only`
 
-    - Set **Rotation Mode for Products in Related Product List** to one of the following:
+   - Set **Rotation Mode for Products in Related Product List** to one of the following:
 
-        - `By Priority, Then by ID`
-        - `By Priority, Then Random`
-        - `Weighted Random`
+      - `By Priority, Then by ID`
+      - `By Priority, Then Random`
+      - `Weighted Random`
 
 1. To complete the cross-sell product settings, do the following:
 
-    - Enter the **Maximum Number of Products in the Cross-Sell Product List**.
+   - Enter the **Maximum Number of Products in the Cross-Sell Product List**.
 
-    - Set **Show Cross-Sell Products** to one of the following:
+   - Set **Show Cross-Sell Products** to one of the following:
 
-        - `Both Selected and Rule Based`
-        - `Selected Only`
-        - `Rule-Based Only`
+      - `Both Selected and Rule Based`
+      - `Selected Only`
+      - `Rule-Based Only`
 
-    - Set **Rotation Mode for Products in Cross-Sell Product List** to one of the following:
+   - Set **Rotation Mode for Products in Cross-Sell Product List** to one of the following:
 
-        - `By Priority, Then by ID`
-        - `By Priority, Then Random`
-        - `Weighted Random`
+      - `By Priority, Then by ID`
+      - `By Priority, Then Random`
+      - `Weighted Random`
 
 1. To complete the up-sell product settings, do the following:
 
-    - Enter the **Maximum Number of Products in the Upsell Product List**.
+   - Enter the **Maximum Number of Products in the Upsell Product List**.
 
-    - Set **Show Upsell Products** to one of the following:
+   - Set **Show Upsell Products** to one of the following:
 
-        - `Both Selected and Rule Based`
-        - `Selected Only`
-        - `Rule-Based Only`
+      - `Both Selected and Rule Based`
+      - `Selected Only`
+      - `Rule-Based Only`
 
-    - Set **Rotation Mode for Products in Upsell Product List** to one of the following:
+   - Set **Rotation Mode for Products in Upsell Product List** to one of the following:
 
-        - `By Priority, Then by ID`
-        - `By Priority, Then Random`
-        - `Weighted Random`
+      - `By Priority, Then by ID`
+      - `By Priority, Then Random`
+      - `Weighted Random`
 
 1. When complete, click <span class="btn">Save Config</span>.
 

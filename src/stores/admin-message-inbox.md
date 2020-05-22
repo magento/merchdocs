@@ -75,13 +75,13 @@ For a message of critical importance, do one of the following:
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Notifications** section and do the following:
 
-    - If your store Admin runs over a [secure URL]({% link stores/store-urls.md %}), set **Use HTTPS to Get Feed** to  `Yes`.
+   - If your store Admin runs over a [secure URL]({% link stores/store-urls.md %}), set **Use HTTPS to Get Feed** to  `Yes`.
 
-    - Set **Update Frequency** to determine how often your inbox is updated.
+   - Set **Update Frequency** to determine how often your inbox is updated.
 
-        The interval can be from one to twenty-four hours.
+      The interval can be from one to twenty-four hours.
 
-    ![]({% link images/images/config-advanced-system-notifications.png %}){: .zoom}
-    [_Notifications_]({% link configuration/advanced/system.md %})
+   ![]({% link images/images/config-advanced-system-notifications.png %}){: .zoom}
+   [_Notifications_]({% link configuration/advanced/system.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

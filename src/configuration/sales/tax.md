@@ -17,7 +17,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Vertex Calculation API Url|Website|The URL that connects Magento to Vertex Cloud services. This value should match the URL displayed in your Vertex Connectors page for the Magento connector in the ERP Connector URL field. Default value: `https://mgcsconnect.vertexsmb.com/vertex-ws/services/CalculateTax70`|
 |Vertex Address Validation API Url|Website|The URL that is used to validate the connection between Magento and Vertex Cloud services. This value should match the URL displayed in your Vertex Connectors page for the Magento connector in the Address Lookup URL field. Default value: `https://mgcsconnect.vertexsmb.com/vertex-ws/services/LookupTaxAreas70`|
 |Vertex Trusted Id|Website|The identifier that is associated with your Vertex Cloud account. To find your Vertex Trusted ID, go to Settings > View All Connectors from the dashboard of Vertex Cloud.|
-|When to send invoice to Vertex|Website|Determines when the information about each invoice is sent to Vertex Cloud. Options: <br/>**When Invoice Created** - Magento sends the information when a sales order is [invoiced]({% link sales/invoice-create.md %}), according to the [workflow]({% link sales/order-status-workflow.md %}). <br/>**When Order Status Is Changed** - Magento sends the information when the [status]({% link sales/order-status.md %}) of a sales order changes. When selected, the Invoice When Order Status options appear. <br/>**Invoice When Order Status** - Determines the sales [order status]({% link sales/order-status.md %}) when Vertex Cloud generates the invoice, according to the [workflow]({% link sales/order-workflow.md %}). Status options: Pending / Processing / Suspected Fraud / Complete / Closed / Canceled / On Hold <br/><br/>**_Note:_**  If you choose the "Suspected Fraud" status, it causes tax to appear as a negative amount in Vertex Cloud when an offline refund is issued for a credit memo. If you choose the "Canceled" status, it does not allow invoice refunds to be issued from Magento. For either of these status options, you must check your Vertex Cloud account to verify that the invoice has been sent.|
+|When to send invoice to Vertex|Website|Determines when the information about each invoice is sent to Vertex Cloud. Options: <br/>**When Invoice Created** - Magento sends the information when a sales order is [invoiced]({% link sales/invoice-create.md %}), according to the [workflow]({% link sales/order-status-workflow.md %}). <br/>**When Order Status Is Changed** - Magento sends the information when the [status]({% link sales/order-status.md %}) of a sales order changes. When selected, the Invoice When Order Status options appear. <br/>**Invoice When Order Status** - Determines the sales [order status]({% link sales/order-status.md %}) when Vertex Cloud generates the invoice, according to the [workflow]({% link sales/order-workflow.md %}). Status options: Pending / Processing / Suspected Fraud / Complete / Closed / Canceled / On Hold <br/><br/>**_Note:_**  If you choose the `Suspected Fraud` status, it causes tax to appear as a negative amount in Vertex Cloud when an offline refund is issued for a credit memo. If you choose the "Canceled" status, it does not allow invoice refunds to be issued from Magento. For either of these status options, you must check your Vertex Cloud account to verify that the invoice has been sent.|
 |Vertex Calculation Function|Website|This function is referenced in the Vertex Calculation API URL. Default value: `CalculateTax70`|
 |Vertex Validation Function|Website|This function is referenced in the Vertex Address Validation API URL. Default value: `LookupTaxAreas70`|
 |Use Vertex for orders shipping to|Website|Determine the countries and nations for assessing tax on order destination addresses. The billing address will be used when a shipping address is absent. Default values: Canada, United States|
@@ -149,25 +149,19 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Orders, Invoices, Credit Memos Display Settings
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/config-sales-tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
-[_Orders, Invoices, Credit Memos Display Settings_]({% link tax/display-settings.md %})
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![]({% link images/images-ee/config-sales-tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
-[_Orders, Invoices, Credit Memos Display Settings_]({% link tax/display-settings.md %})
-<!--{% endif %}-->
+_[Orders, Invoices, Credit Memos Display Settings]({% link tax/display-settings.md %})_{:.ee-only}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Display Prices|Store View|Determines if the prices on sales documents include or exclude tax, or if each document shows two versions of the price; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
 |Display Subtotal|Store View|Determines if the subtotal on sales documents includes or excludes tax, or if each document shows two versions of the subtotal; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
-|Display Shipping Amount|Store View|Determines if the shipping amount on sales documents includes or excludes tax, or if each document shows two versions of the subtotal; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|<!--{% if "Default.EE-B2B" contains site.edition %}-->
-|Display Gift Wrapping Prices|Store View|Determines if gift wrapping prices are included in the subtotal. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
-|Display Printed Card Prices|Store View|Determines if printed card prices are included in the subtotal. Options: Excluding Tax / Including Tax / Including and Excluding Tax|<!--{% endif %}-->
+|Display Shipping Amount|Store View|Determines if the shipping amount on sales documents includes or excludes tax, or if each document shows two versions of the subtotal; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
 |Include Tax in Order Total|Store View|Determines if the grand total on sales documents includes  tax. Options include: Yes / No|
 |Display Full Tax Summary|Store View|Determines if the full tax summary appears on sales documents. Options: Yes / No|
 |Display Zero Tax Subtotal|Store View|Determines of the subtotal section on sales documents appears when no tax is charged. Options: Yes / No|
+|<span class="ee-only">Display Gift Wrapping Prices</span>|Store View|Determines if gift wrapping prices are included in the subtotal. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
+|<span class="ee-only">Display Printed Card Prices</span>|Store View|Determines if printed card prices are included in the subtotal. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
 
 ## Fixed Product Taxes
 

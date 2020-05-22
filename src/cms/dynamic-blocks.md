@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Dynamic Blocks
 ---
 
@@ -63,7 +63,7 @@ _Page Builder Workspace_
 
 1. Use the [Add Dynamic Block]({% link cms/page-builder-add-dynamic-block.md %}) content type to add the dynamic block to the stage.
 
-##  Field Descriptions
+## Field Descriptions
 
 |Field|Description|
 |--- |--- |

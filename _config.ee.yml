@@ -1,7 +1,0 @@
-edition: EE
-edition_name: Commerce
-destination: _site/m2/ee/user_guide
-baseurl: /m2/ee/user_guide
-title: Magento Commerce 2.3 User Guide
-algolia:
-  index_name: merchdocs_ee

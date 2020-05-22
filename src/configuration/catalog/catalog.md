@@ -16,6 +16,15 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Mask for Meta Keywords|Global|Determines the default value of the Meta Keywords field based on placeholder values from other fields and any additional text that is entered. Default placeholder: <br/>Product Name - {% raw %}`{{name}}`{% endraw %}|
 |Mask for Meta Description|Global|Determines the default value of the Meta Description field based on placeholder values from other fields and any additional text that is entered. Default placeholder: <br/>Product Name - {% raw %}`{{name}}`{% endraw %} <br/>Description - {% raw %}`{{description}}`{% endraw %}|
 
+## Product Reviews
+
+![]({% link images/images/config-catalog-catalog-product-reviews.png %}){: .zoom}
+[_Product Reviews_]({% link marketing/product-reviews.md %})
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Allow Guests to Write Reviews|Website|Determines if customers must open an account with your store to be able to write product reviews.|
+
 ## Storefront
 
 ![]({% link images/images/config-catalog-catalog-storefront.png %}){: .zoom}
@@ -30,18 +39,10 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Products per Page on List Default Value|Store View|Determines the number of products displayed per page by default, in List View.|
 |Product Listing Sort by|Store View|Determines the sort order of the search results list. The selection of options is determined by the Display Settings of the category and the available attributes that are set to be `Used for Sorting in Product Listing`. The default is set to `Use All Available Attributes` and typically includes Best Value, Name, Price|
 |Allow All Products per Page|Store View|If set to `Yes`, includes the `ALL` option in the “Show per Page” control.|
+|Remember Category Pagination|Global|If set to `Yes`, the current category pagination values are saved as customers browse from one category to another in [product listings]({% link catalog/navigation-product-listings.md %}). Saving the value uses more cache storage and can affect the way pages are indexed by search engines. Options: Yes / No (default)|
 |Use [Flat Catalog]({% link catalog/catalog-flat.md %}) Category|Global|Enables the flat category structure. (not recommended) Options: Yes / No|
 |Use Flat Catalog Product|Global|Enables the flat product structure. (not recommended) Options: Yes / No|
 |Swatches per Product|Store View|Determines the number of swatches available for each product. Default: `16`|
-
-## Product Reviews
-
-![]({% link images/images/config-catalog-catalog-product-reviews.png %}){: .zoom}
-[_Product Reviews_]({% link marketing/product-reviews.md %})
-
-|Field|[Scope]({% link configuration/scope.md %})|Description|
-|--- |--- |--- |
-|Allow Guests to Write Reviews|Website|Determines if customers must open an account with your store to be able to write product reviews.|
 
 ## Product Alerts
 
@@ -81,15 +82,6 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Thumbnail|Store View|Identifies the placeholder file chosen for the [thumbnail]({% link catalog/catalog-images-video.md %}).|
 |Choose File||Navigates to the file and uploads it as the placeholder image for the type.|
 
-## Product Video
-
-![]({% link images/images/config-catalog-catalog-product-video.png %}){: .zoom}
-[_Product Videos_]({% link catalog/product-video.md %})
-
-|Field|[Scope]({% link configuration/scope.md %})|Description|
-|--- |--- |--- |
-|YouTube API key|Store View|Specifies the API key that is required to connect to the YouTube server.|
-
 ## Recently Viewed/Compared Products
 
 ![]({% link images/images/config-catalog-catalog-recently-viewed-compared-products.png %}){: .zoom}
@@ -101,21 +93,24 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Default Recently Viewed Products Count|Store View|Determines the maximum number of recently viewed products that appear in the list.|
 |Default Recently Compared Products Count|Store View|Determines the maximum number of recently compared products that appear in the list.|
 
-## Price
+## Product Video
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/config-catalog-catalog-price.png %}){: .zoom}
-_[Price]({% link catalog/catalog-price-scope.md %})_
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({% link images/images-ee/config-catalog-catalog-price.png %}){: .zoom}
-_[Price]({% link catalog/catalog-price-scope.md %})_
-<!--{% endif %}-->
+![]({% link images/images/config-catalog-catalog-product-video.png %}){: .zoom}
+[_Product Videos_]({% link catalog/product-video.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Catalog Price Scope|Global|Determines the scope of the base currency. Options: Global / Website.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
-|Default Product Price|Global|Defines the default product price, if applicable.|<!--{% endif %}-->
+|YouTube API key|Store View|Specifies the API key that is required to connect to the YouTube server.|
+
+## Price
+
+![]({% link images/images-ee/config-catalog-catalog-price.png %}){: .zoom}
+_[Price]({% link catalog/catalog-price-scope.md %})_{:.ee-only}
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Catalog Price Scope|Global|Determines the scope of the base currency. Options: Global / Website.|
+|<span class="ee-only">Default Product Price</span>|Global|Defines the default product price, if applicable.|
 
 ## Layered Navigation
 
@@ -135,7 +130,7 @@ _[Price]({% link catalog/catalog-price-scope.md %})_
 |Default Price Navigation Step|Store View|Determines the number of products that are included in each step.|
 |Maximum Number of Price Intervals|Store View|Establishes a limit for the number of price intervals that appear in layered navigation.|
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{:.ee-only}
 ## Category Permissions
 
 ![]({% link images/images-ee/config-catalog-catalog-category-permissions.png %}){: .zoom}
@@ -149,7 +144,6 @@ _[Price]({% link catalog/catalog-price-scope.md %})_
 |Allow Adding to Cart|Website|Determines who can purchase products from the category. Options: <br/>Yes, for Everyone - Allows everyone to place products from the category into their shopping carts. <br/>Yes, for Specified Customer Groups - Allows only members of selected customer groups to place products from the category into their shopping carts. <br/>No - Does not allow anyone to place products from the category into their shopping carts.|
 |Disallow Catalog Search by|Website|Identifies the customer groups that are not allowed to search for products in the category.|
 
-<!--{% endif %}-->
 ## Search Engine Optimization
 
 ![]({% link images/images/config-catalog-catalog-search-engine-optimization.png %}){: .zoom}
@@ -178,33 +172,10 @@ _[Price]({% link catalog/catalog-price-scope.md %})_
 
 ## Catalog Search
 
-Magento offers a choice of search engines, and supports both MySQL and several versions of Elasticsearch.
-
-### MySQL
-
-![]({% link images/images/config-catalog-catalog-search-mysql.png %}){: .zoom}
-[_Catalog Search - MySQL_]({% link catalog/search-configuration.md %})
-
-|Field|[Scope]({% link configuration/scope.md %})|Description|
-|--- |--- |--- |
-|Minimal Query Length|Store View|The minimum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your MySQL search engine configurations. For example, if you set this value to `2` in Magento, update the value in your search engine.|
-|Maximum Query Length|Store View|The maximum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your MySQL search engine configurations. For example, if you set this value to `300` in Magento, update the value in your search engine.|
-|Number of top search results to cache|Store View|The number of popular search terms and results to cache for faster responses. Entering a value of `0` caches all search terms and results when entered a second time. Default value: 100|
-|Search Engine|Global|Identifies the search engine used to process requests for catalog data. By default, Magento Enterprise uses the MySQL search engine. Selected value: MySQLEAV product indexer is always enabled for MySQL. This feature improves indexation speed and restricts the indexer from use by 3rd party extensions.|
-|Autocomplete Limit|Store View|The maximum number of search results to display in the search field for search autocomplete. Restricting this amount increases performance of searches and reduces the displayed list size. Default value: 8|
-|Enable Search Suggestions|Store View|Store View|Determines if search suggestions appear for common misspellings. When enabled, search suggestions are offered for any request that returns no results and appear under the `Did you mean` section on the **Search results** page. Search suggestions can impact the performance of search. When set to `Yes`, additional options display for Enable Search Recommendations and associated fields. Options: Yes / No |
-|Search Suggestions Count|Store View|The maximum number of search suggestions offered. Default value: 2|
-|Show Results Count for Each Suggestion|Store View|Determines if the number of search results is shown for each suggestion. Depending on theme, the number usually appears in brackets after the suggestion. Options: Yes / No|
-|Enable Search Recommendations|Store View|Determines if search recommendations are offered when a search returns no results and appear under the `Related search terms` section on the **Search results** page. When set to `Yes`, additional options display for Search Recommendations Count and Shows Results Count for Each Recommendation. Options: Yes / No|
-|Search Recommendations Count|Store View|Specifies the number of  search terms offered as recommendations. By default, no more than five are shown.|
-|Show Results Count for Each Recommendation|Store View|When set to `Yes`, the number of products found for the proposed search recommendation is shown in the brackets. Options: Yes / No|
-
-### Elasticsearch
-
-Magento supports the following versions of Elasticsearch: 6.x, 5.x, and 2.x (deprecated).
+Magento supports several versions of Elasticsearch.
 
 ![]({% link images/images/config-catalog-catalog-search-elasticsearch.png %}){: .zoom}
-[_Catalog Search - Elastic Search_]({% link catalog/search-elasticsearch.md %}) (including 6.0+)
+[Catalog Search]({% link catalog/search-configuration.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -212,20 +183,20 @@ Magento supports the following versions of Elasticsearch: 6.x, 5.x, and 2.x (dep
 |Maximum Query Length|Store View|The maximum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set this value to 300 in Magento, update the value in your search engine.|
 |Number of top search results to cache|Store View|The number of popular search terms and results to cache for faster responses. Entering a value of `0` caches all search terms and results when entered a second time. Default value: 100|
 |Enable EAV Indexer|Global|Determines if you want to enable or disable the Product EAV indexer. This feature improves indexation speed and restricts the indexer from use by 3rd party extensions. This option only displays for Elasticsearch or Elasticsearch 5.0+ Search Engines. Default Option: Yes for enabled|
-|Search Engine|Global|Identifies the search engine used to process requests for catalog data. Options: <br/> **Elasticsearch** - (Deprecated) Elasticsearch 2.0+ has reached end of life. To learn more, see [Elastic Product End of Life Dates](https://www.elastic.co/support/eol). <br/>**Elasticsearch 5.0+** - (Default) Elasticsearch 5.0+ is scheduled for end of life. To learn more, see [Elastic Product End of Life Dates](https://www.elastic.co/support/eol). <br/>**Elasticsearch 6.0+** - (Recommended) For the best performance, we recommend that you use the latest version of Elasticsearch 6.0+ <br/>_**Note:**_ To learn more about using Elasticsearch versions 2.x and 5.x, see [Change the Elasticsearch Client](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html).|
 |Autocomplete Limit|Store View|The maximum number of search queries to display below the search field for search autocomplete. Restricting this amount increases performance of searches and reduces the displayed list size. Default value: 8|
+|Search Engine|Global|Identifies the search engine used to process requests for catalog data. Options: <br/> **Elasticsearch** - (Deprecated) Elasticsearch 5.0+ has reached end of life. To learn more, see [Elastic Product End of Life Dates](https://www.elastic.co/support/eol). <br/>**Elasticsearch 6.x+** - Most versions of Elasticsearch 6.x are scheduled for end of life. To learn more, see [Elastic Product End of Life Dates](https://www.elastic.co/support/eol). <br/>**Elasticsearch 7.0+** - (Recommended) For the best performance, we recommend that you use the latest version of Elasticsearch 7.0+ <br/>_**Note:**_ To learn more about using downlevel Elasticsearch versions, see [Change the Elasticsearch Client](https://devdocs.magento.com/guides/v2.4/config-guide/elasticsearch/es-downgrade.html).|
 |Elasticsearch Server Hostname|Global|Specifies the name of the Elasticsearch server. Default value: `localhost`|
-|Elasticsearch Server Port|Global|Specifies the number of the server port used by Elasticsearch.|
-|Elasticsearch Index Prefix|Global|Assigns a prefix to identify the Elasticsearch index. Example: `Magento2`|
+|Elasticsearch Server Port|Global|Specifies the number of the server port used by Elasticsearch. Default value: `9200`|
+|Elasticsearch Index Prefix|Global|Assigns a prefix to identify the Elasticsearch index. Default value: `magento2`|
 |Enable Elasticsearch HTTP Auth|Global|If enabled, uses HTTP authentication to prompt for a username and password before accessing Elasticsearch Server. Options: Yes / No|
 |Elasticsearch Server Timeout|Global|Determines the number of seconds before the server times out. Default value: `15`|
 |Test Connection||Validates the Elasticsearch connection.|
+|Enable Search Recommendations|Store View|Determines if search recommendations are offered when a search returns no results and appear under the `Related search terms` section on the **Search results** page. Options: Yes / No <br/>When set to Yes, additional options display for Search Recommendations Count and Shows Results Count for Each Recommendation.|
+|Search Recommendations Count|Store View|Specifies the number of  search terms offered as recommendations. By default, no more than five are shown.|
+|Show Results Count for Each Recommendation|Store View|When set to `Yes`, the number of products found for the proposed search recommendation is shown in the brackets. Options: Yes / No|
 |Enable Search Suggestions|Store View|Determines if search suggestions appear for common misspellings. When enabled, search suggestions are offered for any request that returns no results and appear under the `Did you mean` section on the **Search results** page. Search suggestions can impact the performance of search. When set to `Yes`, additional options display for Enable Search Recommendations and associated fields. Options: Yes / No|
 |Search Suggestions Count|Store View|Determines the number of search suggestions that are offered. For example: 2|
 |Show Results Count for Each Suggestion|Store View|Determines if the number of search results is shown for each suggestion. Depending on theme, the number usually appears in brackets after the suggestion. Options: Yes / No|
-|Enable Search Recommendations|Store View|Determines if search recommendations are offered when a search returns no results and appear under the `Related search terms` section on the **Search results** page. Options: Yes / No <br/>When set to Yes, additional options display for Search Recommendations Count and Shows Results Count for Each Recommendation.|
-|Search Recommendations  Count|Store View|Specifies the number of  search terms offered as recommendations. By default, no more than five are shown.|
-|Show Results Count for Each Recommendation|Store View|When set to `Yes`, the number of products found for the proposed search recommendation is shown in the brackets. Options: Yes / No|
 |Minimum Terms to Match|Store View|Specifies a value (negative or positive integer, negative or positive percent, a combination of the two, or multiple combinations) that corresponds to the number of terms from your query that the search results should match in order to be returned. This ensures optimal results relevancy for shoppers. Percent values will correlate to a number, and if needed, rounded down and used as the minimum number of terms to match in your query. To learn more, see [minimum_should_match parameter](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html).|
 
 ## Downloadable Product Options
@@ -256,7 +227,7 @@ Magento supports the following versions of Elasticsearch: 6.x, 5.x, and 2.x (dep
 |Time Format|Store View|Sets the time format to either a  twelve or twenty-four hour clock. Options: 12h AM/PM / 24h|
 |Year Range|Store View|Defines the beginning and ending range of years that appear in the drop-down Year field. The value must be entered in YYYY format.|
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{:.ee-only}
 ## Catalog Events
 
 ![]({% link images/images-ee/config-catalog-catalog-events.png %}){: .zoom}
@@ -269,6 +240,7 @@ Magento supports the following versions of Elasticsearch: 6.x, 5.x, and 2.x (dep
 |Number of Events to be Displayed in the Event Slider Widget|Store View|Determines the number of events that appear in the Event Slider widget on the category pages. To override, use the `limit=”x”` variable.|
 |Events to Scroll per Click in Event Slider Widget|Store View|Determines the number of events that appear in the Event Slider widget on CMS pages, such as the home page. To override, use the `scroll=”x”` variable.|
 
+{:.ee-only}
 ## Rule-Based Product Relations
 
 ![]({% link images/images/config-catalog-catalog-rule-based-product-relations.png %}){: .zoom}
@@ -285,5 +257,3 @@ Magento supports the following versions of Elasticsearch: 6.x, 5.x, and 2.x (dep
 |Maximum Number of Products in Upsell Product List|Global|Determines the maximum number of products that can appear in the Upsell Products list.|
 |Show Upsell Products|Global|Determines which list of up-sell products appears in the store. It can be either the list that is selected manually in the Product Information, the list that is generated in response to a product relationship rule, or a combination of the two. Options: Both Selected and Rule-Based / Selected Only / Rule-Based Only|
 |Rotation Mode for Products in Upsell Product List|Global|Determines the order in which products in the Upsell Product list appear. Options: Do not rotate / Shuffle|
-
-<!--{% endif %}-->

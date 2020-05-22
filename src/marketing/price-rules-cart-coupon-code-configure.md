@@ -15,18 +15,18 @@ _Auto Generated Specific Coupon Codes_
 
 1. In the **Auto Generated Specific Coupon Codes** section, do the following:
 
-    - Enter the **Code Length**, including prefix, sufix, and separators.
+   - Enter the **Code Length**, including prefix, sufix, and separators.
 
-    - Set the **Code Format** to one of the following:
+   - Set the **Code Format** to one of the following:
 
       - `Alphanumeric`
       - `Alphabetical`
       - `Numeric`
 
-    - To add a **Code Prefix**, enter the value that you want to appear at the beginning of all coupon codes.
+   - To add a **Code Prefix**, enter the value that you want to appear at the beginning of all coupon codes.
 
-    - To add a **Code Suffix**, enter the value that you want to appear at the end of all coupon codes.
+   - To add a **Code Suffix**, enter the value that you want to appear at the end of all coupon codes.
 
-    - To insert a **Dash Every X Characters**, enter the number of characters between each dash. Coupon codes with different dash patterns are considered to be different codes, even if the numbers are the same.
+   - To insert a **Dash Every X Characters**, enter the number of characters between each dash. Coupon codes with different dash patterns are considered to be different codes, even if the numbers are the same.
 
-1. When complete, click  <span class="btn">Save Config</span>.
+1. When complete, click <span class="btn">Save Config</span>.

@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Gift Card Accounts
 ---
 
@@ -33,7 +33,7 @@ _Gift Card Accounts_
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Gift Card Accounts**.
 
-1. At the top-right corner, click <span class="btn">Add Gift Card Account</span>.
+1. At the upper-right corner, click <span class="btn">Add Gift Card Account</span>.
 
     ![]({% link images/images-ee/gift-card-account-add-new.png %}){: .zoom}
     _New Account_

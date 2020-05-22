@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Configuring Store Credit
 ---
 
@@ -16,15 +16,15 @@ Store Credit Options
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Store Credit Options** section. Then, do the following:
 
-     - Set **Enable Store Credit Functionality** to `Yes`.
+   - Set **Enable Store Credit Functionality** to `Yes`.
 
-     - Set the following to your preference:
+   - Set the following to your preference:
 
-       - Show Store Credit History to Customers
-       - Refund Store Credit Automatically
+      - Show Store Credit History to Customers
+      - Refund Store Credit Automatically
 
-     - Set **Store Credit Update Email Sender** to the store identity that appears as the sender of email notifications sent to customers.
+   - Set **Store Credit Update Email Sender** to the store identity that appears as the sender of email notifications sent to customers.
 
-     - Set **Store Credit Update Email Template** to the template that is used for email notifications sent to customers.
+   - Set **Store Credit Update Email Template** to the template that is used for email notifications sent to customers.
 
 1. Click **Save Config**.

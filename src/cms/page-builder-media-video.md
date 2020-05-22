@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Video
 ---
 
@@ -10,7 +10,7 @@ _Video on Home Page_
 
 ## To add a video
 
-1. Before you begin, navigate to the [YouTube][1] or [Vimeo][2]video that you want to embed, and copy the URL from the address bar.
+1. Before you begin, navigate to the [YouTube][1] or [Vimeo][2] video that you want to embed, and copy the link. As an alternative, you can also copy a direct link to a valid video file. See [Video URL](#video-settings) for valid links.
 
 1. In the Magento Admin, return to the Page Builder workspace where you want to add the video.
 
@@ -26,7 +26,7 @@ _Video on Home Page_
 
    - Paste the URL of the video that you copied into the  **Video URL** field.
 
-      The URL of the Page Builder video that is featured in this example is:`https://www.youtube.com/watch?v=Y0KNS7C5dZA`.
+      The URL of the Page Builder video that is featured in this example is: `https://www.youtube.com/watch?v=Y0KNS7C5dZA`.
 
    - To limit the **Maximum Width** of the video, enter the maximum width in pixels.
 
@@ -47,7 +47,7 @@ _Video on Home Page_
 
    - To change the width of the video, enter the new **Maximum Width** in pixels.
 
-   - Update the remaining settings as needed, using the [descriptions](#video-settings) at the end of this page for reference.
+   - To auto-start the video after the page loads, set **Autoplay** to `Yes`. If Autoplay is `Yes`, the video is muted on playback according to policy. In addition, mobile devices will not autoplay your videos, even when Autoplay is set to `Yes`. See [Autoplay](#video-settings).
 
 1. In the upper-right corner, click **Save** to close the Edit Video page and return to the Page Builder workspace.
 
@@ -85,8 +85,9 @@ _Video on Home Page_
 
 |Setting|Description|
 |--- |--- |
-|Video URL|The URL of a video that is hosted on either [YouTube][1] or [Vimeo][2]. The URL can be copied from the address bar of the browser, and pasted into the Video URL field.|
+|Video URL|The URL to the video from [YouTube][1], [Vimeo][2], or a valid video file (we recommend `.mp4`). Valid video URLs can be:<br/>- links to YouTube videos: `https://youtu.be/CoDhMRUUjeI`<br/>- links to Vimeo videos: `https://vimeo.com/190156113`<br/>- links to valid video files: `https://myvideos.com/spiral.mp4`.|
 |Maximum Width|Specifies the maximum width in pixels, that is allowed for the video in the storefront. If blank, the video extends the full width of the container, less allowance for margins and padding.|
+|Autoplay|Determines when the video starts playing. Options: <br/>**No** - (Default) The video plays on user demand only. <br/>**Yes** - The video plays automatically after it loads, but the video playback is muted according to policy. In addition, mobile devices will not autoplay your videos, even when Autoplay is set to `Yes`. <br/>Read more about these policies here:<br/>- [Autoplay policy from Vimeo](https://vimeo.zendesk.com/hc/en-us/articles/115004485728-Autoplaying-and-looping-embedded-videos)<br/>- [Autoplay policy from Google (Chrome/YouTube)](https://developers.google.com/web/updates/2017/09/autoplay-policy-changes)<br/>- [Autoplay policy for local videos](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)|
 
 ### Advanced
 

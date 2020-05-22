@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Divider
 ---
 
@@ -35,8 +35,8 @@ _Divider with Padding in Container with Dashed Border_
 
    - To change the divider **Line Color**, do one of the following:
 
-     - Enter a valid [HTML color name][1]. For example, `Teal`.
-     - Enter the hexadecimal color value. For example, `#008080`.
+      - Enter a valid [HTML color name][1]. For example, `Teal`.
+      - Enter the hexadecimal color value. For example, `#008080`.
 
    - When complete, click <span class="btn">Apply</span>.
 
@@ -91,15 +91,15 @@ For a formatted divider with specific settings, it is more efficient to make a d
 
 ## Divider Toolbox
 
-| Tool      | [Icon]({% link configuration/scope.md %})              | Description                                                                                        |
-| --------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
-| Move      | ![]({% link images/images-ee/icon-pb-move.png %})      | Moves the divider container to another valid place on the page.                                    |
-| (label)   | DIVIDER                                                                  | Identifies the current container as a divider element.                                             |
-| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %})  | Opens the Edit Divider page, where you can change the properties of the divider and its container. |
-| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})      | Hides the divider container.                                                                       |
-| Show      | ![]({% link images/images-ee/icon-pb-show.png %})      | Shows the hidden divider container.                                                                |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the divider container.                                                   |
-| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})    | Deletes the divider container and its content from the stage.                                      |
+| Tool | [Icon]({% link configuration/scope.md %}) | Description |
+| ---- | ------------------------------------------| ------------|
+| Move | ![]({% link images/images-ee/icon-pb-move.png %}) | Moves the divider container to another valid place on the page. |
+| (label) | DIVIDER | Identifies the current container as a divider element. |
+| Settings | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the Edit Divider page, where you can change the properties of the divider and its container. |
+| Hide | ![]({% link images/images-ee/icon-pb-hide.png %}) | Hides the divider container. |
+| Show | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the hidden divider container. |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the divider container. |
+| Remove | ![]({% link images/images-ee/icon-pb-remove.png %}) | Deletes the divider container and its content from the stage. |
 
 ## Divider Settings
 
@@ -116,6 +116,5 @@ For a formatted divider with specific settings, it is more efficient to make a d
 |Border Radius|Specifies the size of the radius that is used to round each corner of the container border.|
 |CSS Classes|Specifies the names of CSS classes from the current style sheet  which apply to the divider. Separate multiple class names with a space.|
 |Margins and Padding|Determines the size, in pixels, of the outer margins and inner padding of the row. Enter each corresponding value in the row container diagram. <br/>**Margins** - The amount of blank space, in pixels, that is to be applied to the outside edge of all sides of the divider container. Options: Top / Right / Bottom / Left <br/>**Padding** - The amount of blank space, in pixels, that is to be applied to the inside edge of all sides of the divider container. Options: Top / Right / Bottom / Left|
-
 
 [1]: https://en.wikipedia.org/wiki/Web_colors

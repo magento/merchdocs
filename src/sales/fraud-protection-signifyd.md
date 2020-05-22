@@ -1,6 +1,10 @@
 ---
-title: Signifyd Guaranteed Fraud Protection
+title: Signifyd Guaranteed Fraud Protection - Deprecated
 ---
+
+{:.bs-callout-warning}
+**Deprecation Notice** <br/>
+Due to the continued evolution of many APIs, this fraud protection integration is at risk of becoming outdated and no longer security compliant in the future. For this reason, it is now deprecated and we are recommending that you disable it in your Magento configuration and transition to the [Signifyd Fraud & Chargeback Protection extension](https://marketplace.magento.com/signifyd-module-connect.html){:target="_blank"} that is available on Magento Marketplace.
 
 Signifyd Guaranteed Fraud Protection automates your order review process so you can accept more orders and maximize revenue without chargeback losses. Signifyd automatically reviews orders for fraud, and indicates which orders to ship, and which to reject. The results of the Signifyd Guarantee Decision appear as a column in the [Orders]({% link sales/orders.md %}) grid.
 
@@ -14,20 +18,20 @@ Signifyd’s Guaranteed Fraud Protection protects every approved order with a fi
 
 1. Complete the Signifyd configuration for your Magento installation.
 
-## Step 2: Configure your Magento store:
+## Step 2: Configure your Magento store
 
-1. On the Admin sidebar, click **Stores**. Then under **Settings**, choose **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the panel on the left under **Sales**, choose **Fraud Protection**.
+1. In the left panel, expand **Sales** and choose **Fraud Protection**.
 
-1. Under **Signifyd**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Configuration** section. Then, do the following:
+1. Under **Signifyd**, expand ![]({% link images/images/btn-expand.png %}) the **Configuration** section. Then, do the following:
 
    ![Signifyd Configuration]({% link images/images/config-sales-fraud-protection-signifyd-configuration.png %}){: .zoom}
    _Signifyd Configuration_
 
    - Set **Enable this Solution** to `Yes`.
 
-   - From the **Settings** page of your Signifyd console, enter the **API Key** .
+   - From the **Settings** page of your Signifyd console, enter the **API Key**.
 
    - Do not change the default **API URL**, unless instructed to do so.
 

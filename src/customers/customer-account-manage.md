@@ -4,18 +4,10 @@ title: Managing Customer Accounts
 
 Use the Customers grid to find any customer account. You can use the standard [workplace controls]({% link stores/admin-workspace.md %}) to filter the list, change the [column layout]({% link stores/admin-grid-layout.md %}), save views, and export data. The [Actions control]({% link stores/admin-actions-control.md %}) above the grid can be used to apply an operation to multiple customer records.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
 ![]({% link images/images/customers-all-customers.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
-![]({% link images/images/customers-all-customers.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({% link images/images-b2b/customers-all-grid.png %}){: .zoom}
-<!--{% endif %}-->
 _All Customers_
 
-## Customer Account Actions
+## Customer account actions
 
 1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
 
@@ -27,7 +19,7 @@ _All Customers_
 
 1. When complete, click <span class="btn">Save</span>.
 
-### Delete Customer Accounts
+### Delete customer accounts
 
 Deleted customer accounts cannot be restored. Information about customer activity and transactions is retained in the system.
 
@@ -35,32 +27,31 @@ Deleted customer accounts cannot be restored. Information about customer activit
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-### Set Active/Inactive
+{:.b2b-only}
+### Set active/inactive
 
 Customers with inactive accounts cannot log in or make purchases from their accounts.
 
 1. Set the **Actions** control to one of the following:
 
-   - `Active`
-   - `Inactive`
+    - `Active`
+    - `Inactive`
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 
-<!--{% endif %}-->
-### Subscribe to Newsletter
+### Subscribe to newsletter
 
 1. Set the **Actions** control to `Subscribe to newsletter`.
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 
-### Unsubscribe from Newsletter
+### Unsubscribe from newsletter
 
 1. Set the **Actions** control to `Unsubscribe to newsletter`.
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 
-### Assign a Customer Group
+### Assign a customer group
 
 1. Set the **Actions** control to `Assign a customer group`.
 
@@ -68,56 +59,56 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 
-### Edit a Customer Account
+### Edit a customer account
 
 **Method 1:** Quick Edit
 
-   1. In the first column, select the checkbox of the customer account to be edited.
+1. In the first column, select the checkbox of the customer account to be edited.
 
-   1. Set the **Actions** column to `Edit`.
+1. Set the **Actions** column to `Edit`.
 
-         The value of each value that can be updated appears in a text box. Only some values of the selected customer record can be edited from the grid.
+    The value of each value that can be updated appears in a text box. Only some values of the selected customer record can be edited from the grid.
 
-         ![]({% link images/images/customers-grid-quick-edit.png %}){: .zoom}
-         _Quick Edit_
+    ![]({% link images/images/customers-grid-quick-edit.png %}){: .zoom}
+    _Quick Edit_
 
-   1. Update any of the following values, as needed:
+1. Update any of the following values, as needed:
 
-      - Email
-      - Group
-      - Phone
-      - ZIP
-      - Web Site
-      - Tax/VAT Number
-      - Gender
+    - Email
+    - Group
+    - Phone
+    - ZIP
+    - Web Site
+    - Tax/VAT Number
+    - Gender
 
-   1. Click **Save**.
+1. Click **Save**.
 
 **Method 2:** Full Edit
 
-   1. In the grid, find the customer record to be edited.
+1. In the grid, find the customer record to be edited.
 
-   2. In the _Actions_ column on the far right, click **Edit**.
+1. In the _Actions_ column on the far right, click **Edit**.
 
-   3. Make the necessary changes to the company information.
+1. Make the necessary changes to the company information.
 
-      To learn more, see [Updating Customer Accounts]({% link customers/customer-account-update.md %}).
+    To learn more, see [Updating Customer Accounts]({% link customers/customer-account-update.md %}).
 
-## Actions Control
+## Actions/controls
 
 |Option|Description|
 |--- |--- |
-|Delete|Deletes selected customer accounts. {% if "Default.B2B Only" contains site.edition %}If the customer account belongs to a company admin, another company user must be assigned as admin before the customer account can be deleted.{% endif %}|<!--{% if "Default.B2B Only" contains site.edition %}-->
-|Set Active|Removes a block on selected customer accounts, and changes the status to `Active`. The customers can log in and make purchases from their accounts.|
-|Set Inactive|Blocks the selected customer accounts, and changes the status to `Inactive`. The blocked customers will not be able to log in or make purchases from their accounts. The customer account of a company admin cannot be set to `Inactive`. Another user in the company must first be assigned as company admin.|<!--{% endif %}-->
+|Delete|Deletes selected customer accounts. If the customer account belongs to a company admin for a B2B store, another company user must be assigned as admin before the customer account can be deleted.|
 |Subscribe to Newsletter|Subscribes selected customers to newsletter.|
 |Unsubscribe from Newsletter|Unsubscribes selected customers from newsletter.|
 |Assign a Customer Group|Assigns selected customers to a customer group.|
 |Edit|Allows some values of a single selected customer record to be edited from the grid. By default, the following values are available for a quick edit: Email, Group, Phone, ZIP, Web Site, Tax VAT Number, and Gender.|
+|<span class="b2b-only">Set Active</span>|Removes a block on selected customer accounts, and changes the status to `Active`. The customers can log in and make purchases from their accounts.|
+|<span class="b2b-only">Set Inactive</span>|Blocks the selected customer accounts, and changes the status to `Inactive`. The blocked customers will not be able to log in or make purchases from their accounts. The customer account of a company admin cannot be set to `Inactive`. Another user in the company must first be assigned as company admin.|
 
-## Column Descriptions
+## Columns
 
-|Field|Description|
+|Column|Description|
 |--- |--- |
 |Select|Manages the checkbox selections for the customer records that are to be subjects of an action. You can also use the selection control in the column header to select/deselect all.|
 |ID|A unique numeric identifier that is assigned when the customer account is created.|
@@ -136,7 +127,7 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 |Tax / VAT Number|If applicable, the tax number or [value-added tax]({% link tax/vat.md %}) number that is assigned to the customer. <br/><br/>**_Note:_** This field is not the same as the VAT Number.|
 |Gender|The gender of the customer.|
 |Action|Edit - Opens the company account in edit mode.|
-|**Additional Columns**|_The following columns are available by changing the [column layout]({% link stores/admin-grid-layout.md %})of the grid._|
+|**Additional Columns**|_These columns are available by changing the [column layout]({% link stores/admin-grid-layout.md %}) of the grid._|
 |Company|The company name of the customer.|
 |Street Address|The street address of the customer.|
 |City|The city where the customer is located.|

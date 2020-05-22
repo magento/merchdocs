@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Scheduling an Export
 ---
 
@@ -23,21 +23,21 @@ After each export, the export file is placed in the user-defined location, and a
 
 1. In the upper-right corner, click <span class="btn">Add Scheduled Export</span> and do the following:
 
-    - Enter a **Name** for the scheduled export.
+   - Enter a **Name** for the scheduled export.
 
-    - Enter a brief **Description** that explains the purpose of the export, and how it is to be used.
+   - Enter a brief **Description** that explains the purpose of the export, and how it is to be used.
 
-    - Set **Entity Type** to one of the following: `Products` or `Customers`
+   - Set **Entity Type** to one of the following: `Products` or `Customers`
 
         The _Entity Attributes_ section at the bottom of the page is updated to reflect the selected Entity Type.
 
-    - Set **Start Time** to the hour, minute, and second that the export is scheduled to begin.
+   - Set **Start Time** to the hour, minute, and second that the export is scheduled to begin.
 
-    - Set **Frequency** to one of the following:
+   - Set **Frequency** to one of the following:
 
-        - `Daily`
-        - `Weekly`
-        - `Monthly`
+      - `Daily`
+      - `Weekly`
+      - `Monthly`
 
 1. To activate the scheduled export, set **Status** to `Enabled`.
 
@@ -50,16 +50,16 @@ After each export, the export file is placed in the user-defined location, and a
 
 1. Set **Server Type** to one of the following:
 
-    - `Local Server` - To save the export file on the same server where Magento is installed.
-    - `Remote FTP` — To save the export file on a remote server.
+   - `Local Server` - To save the export file on the same server where Magento is installed.
+   - `Remote FTP` — To save the export file on a remote server.
 
     ![Scheduled export file information]({% link images/images-ee/data-transfer-scheduled-export-file-information.png %}){: .zoom}
     _Export File Information_
 
 1. Enter the **File Directory** where the export file is to be saved as follow:.
 
-    - For Local Server, enter a relative path within the Magento installation. For example, `var/export`.
-    - For Remote FTP server, enter the full URL and path to the target folder on the destination server.
+   - For Local Server, enter a relative path within the Magento installation. For example, `var/export`.
+   - For Remote FTP server, enter the full URL and path to the target folder on the destination server.
 
 ## Step 3: Configure the Export Failed Emails
 
@@ -75,8 +75,8 @@ After each export, the export file is placed in the user-defined location, and a
 
 1. Set **Failed Email Copy Method** to one of the following:
 
-    - `Bcc` - Sends a blind courtesy copy. The name and address of the recipient is included in the original email distribution, but is hidden from view.
-    - `Separate Email` — Sends the copy as a separate email.
+   - `Bcc` - Sends a blind courtesy copy. The name and address of the recipient is included in the original email distribution, but is hidden from view.
+   - `Separate Email` — Sends the copy as a separate email.
 
     ![Scheduled export failed email]({% link images/images-ee/data-transfer-scheduled-export-email-fail.png %}){: .zoom}
     _Export Failed Emails_
@@ -85,8 +85,8 @@ After each export, the export file is placed in the user-defined location, and a
 
 1. In the _Entity Attributes_ section, choose the attributes that you want to include in the export data.
 
-    - To filter export data by attributes value, enter the attribute value in the Filter column.
-    - To exclude products or customers with certain attribute values, enter the values of the attributes that you want to exclude, and select the checkbox in the Skip column.
+   - To filter export data by attributes value, enter the attribute value in the Filter column.
+   - To exclude products or customers with certain attribute values, enter the values of the attributes that you want to exclude, and select the checkbox in the Skip column.
 
 1. When complete, click **Save**.
 

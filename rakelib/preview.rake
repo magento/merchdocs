@@ -4,55 +4,31 @@
 # frozen_string_literal: true
 
 namespace :preview do
-  desc 'Preview all editions locally without regeneration'
-  task all: %w[install clean build:all] do
-    print 'Generating preview of all editions with no regeneration: $'.magenta
+  desc 'Preview the User Guides with default config'
+  task all: %w[install clean] do
+    print 'Enabled the default configuration: $ '.magenta
     sh 'bin/jekyll',
           'serve',
-            '--skip-initial-build',
+            '--incremental',
             '--open-url',
-            '--no-watch',
             '--trace',
             '--plugins=_plugins,_checks'
   end
 
-  desc 'Preview the Open Source edition locally'
-  task ce: %w[install clean] do
-    puts 'Generating preview of the Open Source edition...'.magenta
-    preview 'ce'
+  desc 'Preview the User Guides with _config.local.yml'
+  task local: %w[install clean] do
+    puts 'Generating User Guides locally ... '.magenta
+    if File.exist?('_config.local.yml')
+      print 'enabled the additional configuration parameters from _config.local.yml: $ '.magenta
+      sh 'bin/jekyll',
+            'serve',
+              '--incremental',
+              '--open-url',
+              '--trace',
+              '--config=_config.yml,_config.local.yml',
+              '--plugins=_plugins,_checks'
+    else
+      Rake::Task['preview:all'].invoke
+    end
   end
-
-  desc 'Preview the Commerce edition locally'
-  task ee: %w[install clean] do
-    puts 'Generating preview of the Commerce edition...'.magenta
-    preview 'ee'
-  end
-
-  desc 'Preview the B2B edition locally'
-  task b2b: %w[install clean] do
-    puts 'Generating preview of the B2B edition...'.magenta
-    preview 'b2b'
-  end
-end
-
-
-def preview(edition)
-  puts 'The site will auto-launch in your browser when complete.'.yellow
-
-  if File.exist?('_config.local.yml')
-    puts 'enabled the additional configuration from "_config.local.yml"'.magenta
-    serve "--config=_config.yml,_config.#{edition}.yml,_config.local.yml"
-  else
-    serve "--config=_config.yml,_config.#{edition}.yml"
-  end
-end
-
-def serve(options)
-   sh 'bin/jekyll',
-        'serve',
-          '--incremental',
-          '--open-url',
-          '--trace',
-          '--plugins=_plugins,_checks',
-          options
 end

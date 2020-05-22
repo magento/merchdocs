@@ -49,9 +49,9 @@ Partial invoices and partial refunds are not supported by PayPal Payflow Pro.
 
    - Under **Security Options**, complete the following settings:
 
-     |**AVS** |`No` |
-     |**CSC** |`No` |
-     |**Enable Secure Token** |`Yes` |
+      |**AVS** |`No` |
+      |**CSC** |`No` |
+      |**Enable Secure Token** |`Yes` |
 
    - Click <span class="btn">Save Changes</span>.
 
@@ -59,7 +59,7 @@ Partial invoices and partial refunds are not supported by PayPal Payflow Pro.
 
    - Choose **Layout C**.
 
-     Layout C shows only credit and debit card fields, and can either be framed on your site or used as a stand-alone popup. The size is fixed at 490 x 565 pixels, with extra space for error messages. On some systems, this setting corrects an issue with transparent redirect.
+      Layout C shows only credit and debit card fields, and can either be framed on your site or used as a stand-alone popup. The size is fixed at 490 x 565 pixels, with extra space for error messages. On some systems, this setting corrects an issue with transparent redirect.
 
    - Click <span class="btn">Save and Publish</span>.
 
@@ -69,8 +69,8 @@ Partial invoices and partial refunds are not supported by PayPal Payflow Pro.
 
    - Click <span class="btn">Confirm</span>.
 
-     {:.bs-callout-info}
-     If you have multiple Magento websites, you must create a separate PayPal Payments Advanced account for each.
+      {:.bs-callout-info}
+      If you have multiple Magento websites, you must create a separate PayPal Payments Advanced account for each.
 
 1. PayPal recommends that you set up an additional user on your account. To set up an additional user, do the following:
 
@@ -80,10 +80,10 @@ Partial invoices and partial refunds are not supported by PayPal Payflow Pro.
 
    - Complete the required fields in the following sections of the Add User form:
 
-     - Admin Confirmation
-     - User Information
-     - User Login Information
-     - Assign Privilege to User
+      - Admin Confirmation
+      - User Information
+      - User Login Information
+      - Assign Privilege to User
 
    - Click <span class="btn">Update</span>.
 
@@ -93,7 +93,7 @@ Partial invoices and partial refunds are not supported by PayPal Payflow Pro.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
- 1. In the left panel, expand  **Sales** and choose **Payment Methods**.
+   - In the left panel, expand  **Sales** and choose **Payment Methods**.
 
    - If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view for which this configuration applies.
 
@@ -139,7 +139,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
    - Enter the port number of the **Proxy Port**.
 
-   A proxy is used when the server firewall prevents direct access to the PayPal server. In such a case, a third-party server is used to relay traffic.
+      A proxy is used when the server firewall prevents direct access to the PayPal server. In such a case, a third-party server is used to relay traffic.
 
 1. Set **Enable This Solution** to `Yes`.
 
@@ -179,8 +179,8 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
    - `728 x 90`
    - `800 x 66`
 
-   ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
-   _Advertise PayPal Credit - Home Page_
+    ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
+    _Advertise PayPal Credit - Home Page_
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the remaining sections and repeat the previous steps:
 
@@ -243,10 +243,10 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
      ![CVV and AVS Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-pro-advanced-settings-cvv-avs.png %}){: .zoom}
      _CVV and AVS Settings - PayPal Payflow Pro_
 
-1. Complete the following sections, as needed for your store:
+Complete the following sections, as needed for your store:
 
-   - Settlement Report Settings
-   - Frontend Experience Settings
+- Settlement Report Settings
+- Frontend Experience Settings
 
 #### Settlement Report Settings
 
@@ -256,18 +256,18 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
    - If you have signed up for PayPal’s Secure FTP Server, enter the following SFTP login credentials:
 
-     - Login
-     - Password
+      - Login
+      - Password
 
    - To run test reports before “going live” with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
 
    - Enter the **Custom Endpoint Hostname or IP Address**.
 
-     By default, the value is: `reports.paypal.com`
+      By default, the value is: `reports.paypal.com`
 
    - Enter the **Custom Path** where reports are saved.
 
-     By default, the value is: `/ppreports/outgoing`
+      By default, the value is: `/ppreports/outgoing`
 
 1. To generate reports according to a schedule, complete the **Scheduled Fetching** settings:
 
@@ -275,20 +275,20 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
    - Set **Schedule** to one of the following:
 
-     - `Daily`
-     - `Every 3 Days`
-     - `Every 7 Days`
-     - `Every 10 Days`
-     - `Every 14 Days`
-     - `Every 30 Days`
-     - `Every 40 Days`
+      - `Daily`
+      - `Every 3 Days`
+      - `Every 7 Days`
+      - `Every 10 Days`
+      - `Every 14 Days`
+      - `Every 30 Days`
+      - `Every 40 Days`
 
-     PayPal retains each report for 45 days.
+      PayPal retains each report for 45 days.
 
    - Set **Time of Day** to the hour, minute, and second when you want the reports to be generated.
 
-     ![PayPal Settlement Report Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
-     _Settlement Report Settings_
+      ![PayPal Settlement Report Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
+      _Settlement Report Settings_
 
 #### Frontend Experience Settings
 
@@ -308,23 +308,23 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
    - Enter the name of the **Page Style** that you want to apply to your PayPal merchant pages. Options include:
 
-     |**paypal** |Uses the PayPal page style.|
-     |**primary** |Uses the page style that you identified as the “primary” style in your account profile.|
-     |**your_custom_value** |Uses a custom payment page style, which is specified in your account profile.|
+      |**paypal** |Uses the PayPal page style.|
+      |**primary** |Uses the page style that you identified as the “primary” style in your account profile.|
+      |**your_custom_value** |Uses a custom payment page style, which is specified in your account profile.|
 
    - In the **Header Image URL** field, enter the URL of the image that you want to appear in the upper-left corner of the payment page. The maximum file size is 750 pixels wide by 90 pixels high.
 
-     {:.bs-callout-info}
-     PayPal recommends that the image be located on a secure (https) server. Otherwise, the customer’s browser may warn that “the page contains both secure and nonsecure items.”
+      {:.bs-callout-info}
+      PayPal recommends that the image be located on a secure (https) server. Otherwise, the customer’s browser may warn that “the page contains both secure and nonsecure items.”
 
    - Enter the six-character hexadecimal code, without the “#” symbol, for each of the following:
 
-     |**Header Background Color** |Background color for the checkout page header.|
-     |**Header Border Color** |2-pixel border around the header. |
-     |**Page Background Color** |Background color for the checkout page and around the header and payment form.|
+      |**Header Background Color** |Background color for the checkout page header.|
+      |**Header Border Color** |2-pixel border around the header. |
+      |**Page Background Color** |Background color for the checkout page and around the header and payment form.|
 
-     ![PayPal Payflow Pro Frontend Experience Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-pro-advanced-frontend-experience-settings.png %}){: .zoom}
-     _Frontend Experience Settings_
+      ![PayPal Payflow Pro Frontend Experience Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-pro-advanced-frontend-experience-settings.png %}){: .zoom}
+      _Frontend Experience Settings_
 
 ### Step 7: Complete the Basic Settings - PayPal Express Checkout
 
@@ -369,7 +369,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
    ![Express Checkout Advanced Setting]({% link images/images/config-sales-payment-methods-paypal-payments-pro-express-checkout-advanced-settings.png %}){: .zoom}
    _Advanced Settings - PayPal Express Checkout_
 
-When complete, click <span class="btn">Save Config</span>.
+1. When complete, click <span class="btn">Save Config</span>.
 
 ### Step 9: Add Google reCAPTCHA
 

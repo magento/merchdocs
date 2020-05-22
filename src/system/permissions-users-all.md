@@ -6,12 +6,7 @@ When your store is first installed, a default Admin account is created with logi
 
 If there are others on your team, or service providers who need access, you can create a separate user account for each, and assign restricted access based on their business need to know. To limit the websites or stores that users can access when they log in to the Admin, you must first create a role with limited scope and only the necessary resources selected. Then, you can assign the role to a specific user account. Admin users who are assigned to a restricted role can see and change data only for websites or stores that are associated with the role. They cannot make changes to any global settings or data.
 
-<!--{% if "Default.CE Only,Default.EE Screenshot" contains site.edition %}-->
 ![User types for your Magento Admin]({% link images/images/merchant-admin-users.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![User types for your Magento Admin]({% link images/images-b2b/merchant-admin-users.png %}){: .zoom}
-<!--{% endif %}-->
 _Example Admin Users_
 
 ## Step 1: Create a new user
@@ -25,26 +20,26 @@ _Example Admin Users_
     ![User account information]({% link images/images/system-permissions-user-new.png %}){: .zoom}
     _New User Account Information_
 
-    - Enter the **User Name** for account.
+   - Enter the **User Name** for account.
 
         The User Name should be easy to remember. It is not case-sensitive. For example, if your user name is `John`, you can also log in as `john`.
 
-    - Complete the following information:
+   - Complete the following information:
 
-        - **First Name**
-        - **Last Name**
-        - **Email address**
+      - **First Name**
+      - **Last Name**
+      - **Email address**
 
-        This email address must be different from the one that is associated with your original Admin account.
+         This email address must be different from the one that is associated with your original Admin account.
 
-    - Assign a **Password** to the account.
+   - Assign a **Password** to the account.
 
         {:.bs-callout-info}
         An Admin password must be seven or more characters long, and include both letters and numbers. For additional password options, see [Configuring Admin Security]({% link stores/security-admin.md %}).
 
-    - In the **Password Confirmation** box, repeat the password to make sure it was entered correctly.
+   - In the **Password Confirmation** box, repeat the password to make sure it was entered correctly.
 
-    - If your store has multiple languages, set **Interface Locale** to the language to be used for the Admin interface.
+   - If your store has multiple languages, set **Interface Locale** to the language to be used for the Admin interface.
 
 1. Set **This Account is** to `Active`.
 

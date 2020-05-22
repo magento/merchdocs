@@ -2,6 +2,8 @@
 title: Packaging
 ---
 
+{% include shipping-status-note.md %}
+
 The Packaging grid lists the available packaging options that are available through your store. Existing packaging profiles can be edited or removed, and new packaging profiles added. The packaging options appear in a dropdown for each [Carrier]({% link shipping/magento-shipping-carriers.md %}) profile, and identify each type of packaging that is supported by the carrier.
 
 ![]({% link images/images/shipping-magento-shipping-configure-packaging.png %}){: .zoom}

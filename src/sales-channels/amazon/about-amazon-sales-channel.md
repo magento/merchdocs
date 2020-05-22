@@ -110,7 +110,7 @@ With Amazon Sales Channel, you can review report information about:
 
 - Product Best Buy Box Competitor Pricing data
 
-- Product Lowest Competitor’s Pricing data
+- Product Lowest Competitor's Pricing data
 
 ## Support for Global Sales
 

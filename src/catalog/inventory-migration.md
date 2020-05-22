@@ -12,19 +12,19 @@ When first installing or upgrading to Magento 2.3.x Open Source, Commerce, or Co
 
 - A [Default Source]({% link catalog/inventory-sources.md %}) and [Default Stock]({% link catalog/inventory-stock.md %}) add to the system. Do not disable or remove these defaults. Magento assigns existing and newly imported products to these defaults.
 
-  - Stocks provide an aggregated, virtual Salable Quantity with reservations to track shopping carts and orders, ensuring concurrent checkout.
+   - Stocks provide an aggregated, virtual Salable Quantity with reservations to track shopping carts and orders, ensuring concurrent checkout.
 
-  - All existing products in your catalog assign to the Default Source. Until you add new sources, the product interface does not change. If you only ship products from one location, you will not see additional differences for sources. You can create custom [sources]({% link catalog/inventory-sources-add.md %}) and [assign quantities]({% link catalog/inventory-manage-inventory-quantities.md %}) per shipment location.
+   - All existing products in your catalog assign to the Default Source. Until you add new sources, the product interface does not change. If you only ship products from one location, you will not see additional differences for sources. You can create custom [sources]({% link catalog/inventory-sources-add.md %}) and [assign quantities]({% link catalog/inventory-manage-inventory-quantities.md %}) per shipment location.
 
-  - Your website assigns to the Default Stock. You can create custom [stocks]({% link catalog/inventory-stock-add.md %}) to connect sales channels (websites) and sources (locations).
+   - Your website assigns to the Default Stock. You can create custom [stocks]({% link catalog/inventory-stock-add.md %}) to connect sales channels (websites) and sources (locations).
 
 - Additional [configuration options]({% link catalog/inventory-configure-inventory-management.md %}) add to your products and global store. Some existing configurations options receive updated options and behaviors:
 
-  - Notify for Quantity Below sends notifications and deducts from the Salable Quantity.
+   - Notify for Quantity Below sends notifications and deducts from the Salable Quantity.
 
-  - Out-of-Stock Threshold supports positive amounts, zero, and negative amounts. With Backorders enabled, positive amounts are ignored, considered zero (or infinite).
+   - Out-of-Stock Threshold supports positive amounts, zero, and negative amounts. With Backorders enabled, positive amounts are ignored, considered zero (or infinite).
 
-  - Backorders supports zero (infinite) and negative amounts. When enabled, the Notify for Quantity Below does not deduct from the Salable Quantity.
+   - Backorders supports zero (infinite) and negative amounts. When enabled, the Notify for Quantity Below does not deduct from the Salable Quantity.
 
 - New Reservations track potential sales, converting to quantity deductions when the order ships. You never directly access or create reservations. Magento creates and manages reservations behind-the-scenes through orders, shipments, and credit memos.
 
@@ -33,10 +33,8 @@ When first installing or upgrading to Magento 2.3.x Open Source, Commerce, or Co
 - New [import/export features]({% link catalog/inventory-import-export.md %}) allow you to mass add sources, update inventory quantities, and set stock status (in/out of stock) for all SKUs in your catalog. These features allow you to modify for one, selected, or all sources.
 
 - New bulk options through the Product grid page support [assigning sources]({% link catalog/inventory-bulk-assign-sources.md %}), [unassigning sources]({% link catalog/inventory-bulk-unassign-sources.md %}), and [transferring inventory to sources]({% link catalog/inventory-bulk-transfer-inventory.md %}).
-<!--{% if "Default.B2B Only" contains site.edition %}-->
 
-- Inventory Management supports B2B inventory. At this time, all B2B products must be assigned to the Default Source and Default Stock. Future updates will resolve this issue.
-<!--{% endif %}-->
+- {:.b2b-only}Inventory Management supports B2B inventory. At this time, all B2B products must be assigned to the Default Source and Default Stock. Future updates will resolve this issue.
 
 ## Magento Order Management and Inventory Management
 

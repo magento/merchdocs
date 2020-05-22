@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Setting Up a Gift Registry
 ---
 
@@ -32,13 +32,17 @@ _Gift Registry Types_
 
 1. Under **General Information**, complete the following:
 
-    - Enter a unique **Code** to identify the gift registry internally. The code must begin with a lowercase letter. The rest of the code can be any combination of lowercase letters (a-z), numbers (0-9), and underscore (_).
+   - Enter a unique **Code** to identify the gift registry internally.
 
-    - In the **Label** field, enter a name for the gift registry, as you want it to appear in the store. This label will be an option in the list of gift registry types that are available to the customer.
+      The code must begin with a lowercase letter. The rest of the code can be any combination of lowercase letters (a-z), numbers (0-9), and underscore (_).
 
-    - In the **Sort Order** field, enter a number to determine the order that this gift registry appears when listed with other types.
+   - In the **Label** field, enter a name for the gift registry, as you want it to appear in the store.
 
-    - To activate the gift registry, set **Is Listed** to `Yes`.
+      This label will be an option in the list of gift registry types that are available to the customer.
+
+   - In the **Sort Order** field, enter a number to determine the order that this gift registry appears when listed with other types.
+
+   - To activate the gift registry, set **Is Listed** to `Yes`.
 
         ![Gift registry - general information]({% link images/images-ee/gift-registry-new-general-information.png %}){: .zoom}
         _General Information_
@@ -52,11 +56,13 @@ _Gift Registry Types_
 
 1. For each attribute, do the following:
 
-    - Assign a unique **Code** to identify the attribute internally. The code can be up to fifteen characters in length, and must begin with a lowercase letter. The rest of the code can include lowercase letters(a-z), numbers (0-9) and the underscore (_) character to separate words.
+   - Assign a unique **Code** to identify the attribute internally. The code can be up to fifteen characters in length, and must begin with a lowercase letter. The rest of the code can include lowercase letters(a-z), numbers (0-9) and the underscore (_) character to separate words.
 
-    - Choose the **Input Type** to be used for data entry. You can use one of the custom or static types.
+   - Choose the **Input Type** to be used for data entry. You can use one of the custom or static types.
 
-    - Some input types have additional properties. For example, the Event Location has additional properties to make the event searchable, and included in your store’s public list of gift registries. If the input type has multiple options, click <span class="btn">Add New Option</span>. Then complete the following information for each option:
+   - If the input type has multiple options, click <span class="btn">Add New Option</span> and complete the information for each option.
+
+      Some input types have additional properties. For example, the Event Location has additional properties to make the event searchable, and included in your store’s public list of gift registries.
 
       - Set **Attribute Group** to the section in the gift registry where you want the attribute to appear.
 

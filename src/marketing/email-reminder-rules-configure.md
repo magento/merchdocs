@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Configuring Email Reminders
 ---
 
@@ -16,22 +16,22 @@ Email reminder rules can be sent at regular intervals by the minute, hour, or da
     ![Customers configuration - automated email reminder rules]({% link images/images-ee/config-customers-promotions-automated-email-reminder-rules.png %}){: .zoom}
     [_Automated Email Reminder Rules_]({% link configuration/customers/promotions.md %})
 
-    - Set **Enable Reminder Emails** to `Yes`.
+   - Set **Enable Reminder Emails** to `Yes`.
 
-    - To set how often Magento checks for new customers who qualify automated email reminders, set **Frequency** to one of the following:
+   - To set how often Magento checks for new customers who qualify automated email reminders, set **Frequency** to one of the following:
 
-        - Minute Intervals
-        - Hourly
-        - Daily
+      - Minute Intervals
+      - Hourly
+      - Daily
 
-    - Set the appropriate **Interval**, based on the Frequency setting.
+   - Set the appropriate **Interval**, based on the Frequency setting.
 
-    - Set **Start Time** to the hour, minute, and second the email is sent, based on a 24-hour clock.
+   - Set **Start Time** to the hour, minute, and second the email is sent, based on a 24-hour clock.
 
-    - To limit the number of emails that can be sent in a batch, enter the number in the **Maximum Emails per One Run** field.
+   - To limit the number of emails that can be sent in a batch, enter the number in the **Maximum Emails per One Run** field.
 
-    - To avoid repeated attempts to send failed email, enter the maximum number of attempts in the **Email Send Failure Threshold** field.
+   - To avoid repeated attempts to send failed email, enter the maximum number of attempts in the **Email Send Failure Threshold** field.
 
-    - Set **Reminder Email Sender** to the [store contact]({% link stores/store-email-addresses.md %}) that appears as the sender of the reminder email.
+   - Set **Reminder Email Sender** to the [store contact]({% link stores/store-email-addresses.md %}) that appears as the sender of the reminder email.
 
 1. When complete, click <span class="btn">Save Config</span>.

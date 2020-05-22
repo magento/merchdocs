@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Page Builder Setup
 ---
 
@@ -8,7 +8,7 @@ When enabled in the configuration, Page Builder becomes the default content crea
 ![]({% link images/images/config-general-content-management-advanced-content-tools.png %}){: .zoom}
 [_Advanced Content Tools_]({% link configuration/general/content-management.md %})
 
-## To configure Page Builder
+## Configure Page Builder
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -28,12 +28,12 @@ When enabled in the configuration, Page Builder becomes the default content crea
 
    - In the **Maximum Column Grid Size** field, enter the largest number of columns that you want to be available in the grid.
 
-        ![]({% link images/images-ee/config-general-content-management-advanced-content-tools-grid-size.png %}){: .zoom}
-        _Column Grid Size_
+      ![]({% link images/images-ee/config-general-content-management-advanced-content-tools-grid-size.png %}){: .zoom}
+      _Column Grid Size_
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-## To configure default layouts
+## Configure default layouts
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -44,15 +44,15 @@ When enabled in the configuration, Page Builder becomes the default content crea
     ![]({% link images/images-ee/config-general-web-default-layouts.png %}){: .zoom}
     [_Default Layouts_]({% link configuration/general/web.md %})
 
-    - Choose the **Default Product Layout** that you want to use for product pages.
+   - Choose the **Default Product Layout** that you want to use for product pages.
 
-    - Choose the **Default Category Layout** that you want to use for category pages.
+   - Choose the **Default Category Layout** that you want to use for category pages.
 
-    - Choose the **Default Page Layout** that you want to use for CMS pages.
+   - Choose the **Default Page Layout** that you want to use for CMS pages.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-## To disable Page Builder
+## Disable Page Builder
 
 {:.bs-callout-info}
 Disabling Page Builder replaces the Advanced Content Tools with the WYSIWYG [editor]({% link cms/editor.md %}), and might cause display errors in the storefront. Content that you created previously with Page Builder might no longer be editable from the Admin.

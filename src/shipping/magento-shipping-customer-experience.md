@@ -2,6 +2,8 @@
 title: Customer Experience
 ---
 
+{% include shipping-status-note.md %}
+
 From the storefront, Magento Shipping options appear during the first step of the checkout process. Magento Shipping can be [configured]({% link shipping/magento-shipping-setup.md %}) to show all options, or only the ones that apply to the order.
 
 ## Shipping Methods
@@ -34,11 +36,10 @@ After choosing the location, the customer is prompted to choose the collection p
 
 During Order Review, the collection point location appears in the Ship To section, rather than the customer’s shipping address.
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{:.ee-only}
 ## Returns
 
 When creating a return shipment, you can generate a list of shipping quotes and choose the carrier that you want to use. The return label can be included in the original shipment.
 
 ![]({% link images/images-ee/return-shipment-shipping-quotes.png %}){: .zoom}
 _Shipping Quotes for RMA Request_
-<!--{% endif %}-->

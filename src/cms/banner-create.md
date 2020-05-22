@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Creating a Banner
 ---
 
@@ -17,11 +17,11 @@ _Free Shipping Banner in Header_
 
 1. In the upper-right corner, click **Add Banner**. Then, do the following:
 
-    - Enter a **Banner Name** for internal reference.
+   - Enter a **Banner Name** for internal reference.
 
-    - Set **Status** to `Active`.
+   - Set **Status** to `Active`.
 
-    - In the **Applies To** list, select one of the following:
+   - In the **Applies To** list, select one of the following:
 
       - Any Banner Type
 
@@ -32,7 +32,7 @@ _Free Shipping Banner in Header_
          ![]({% link images/images-ee/banner-properties.png %}){: .zoom}
          _Banner Properties_
 
-    - If the banner is to be used for a specific [customer segment]({% link marketing/customer-segments.md %}), set **Customer Segments** to `Specified`. Then, choose each customer segment that is associated with the banner.
+   - If the banner is to be used for a specific [customer segment]({% link marketing/customer-segments.md %}), set **Customer Segments** to `Specified`. Then, choose each customer segment that is associated with the banner.
 
 ## Step 2: Complete the Banner Content
 
@@ -45,41 +45,41 @@ _Free Shipping Banner in Header_
 
 1. In the text box, enter the HTML code that is needed to format the banner. Then, do any of the following:
 
-    **Insert Widget**
+   **Insert Widget**
 
-    - Click <span class="btn">Insert Widget</span>.
+   - Click <span class="btn">Insert Widget</span>.
 
-    - Choose the **Widget Type**.
+   - Choose the **Widget Type**.
 
-    - Complete the **Widget Options**.
+   - Complete the **Widget Options**.
 
-    - Click <span class="btn">Insert Widget</span>.
+   - Click <span class="btn">Insert Widget</span>.
 
-    **Insert Image**
+   **Insert Image**
 
-    - Click <span class="btn">Insert Image</span>.
+   - Click <span class="btn">Insert Image</span>.
 
-    - In the text box, position the cursor where you want to insert the image tag.
+   - In the text box, position the cursor where you want to insert the image tag.
 
-    - Do either of the following:
+   - Do either of the following:
 
-        - Click **Browse** to find the image on your local computer.
+      - Click **Browse** to find the image on your local computer.
 
-        - Locate the image in the media folders on the left.
+      - Locate the image in the media folders on the left.
 
-    - Click <span class="btn">Insert File</span>.
+   - Click <span class="btn">Insert File</span>.
 
-    **Insert Variable**
+   **Insert Variable**
 
-    - To insert a variable, click <span class="btn">Insert Variable</span>. Then, choose the variable that you want to insert.
+   - To insert a variable, click <span class="btn">Insert Variable</span>. Then, choose the variable that you want to insert.
 
-    - Complete the  HTML as needed. Depending on the content, the text box might contain a combination of HTML and markup tags.
+   - Complete the  HTML as needed. Depending on the content, the text box might contain a combination of HTML and markup tags.
 
 1. To create content for a specific store view, do the following:
 
-    - In the _Store View Specific Content_ box after the name of the store view, clear the **Use Default** checkbox.
+   - In the _Store View Specific Content_ box after the name of the store view, clear the **Use Default** checkbox.
 
-    - Follow the instructions in the previous step to enter the banner content for the store view.
+   - Follow the instructions in the previous step to enter the banner content for the store view.
 
 ## Step 3: Choose a Related Promotion **(optional)**
 

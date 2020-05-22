@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Managing a Shopping Cart
 ---
 
@@ -51,15 +51,15 @@ Use any of the following methods to add products to the cart.
 
 1. Click **Search**.
 
-    **To add a Simple Product**
+   **To add a Simple Product**
 
-      - Click the product that you want to order.
+   - Click the product that you want to order.
 
         This action selects the record and sets **Quantity** to the default value of `1`.
 
-      - If necessary, update the quantity ordered.
+   - If necessary, update the quantity ordered.
 
-      - On the left above the grid, click **Add selections to my cart**.
+   - On the left above the grid, click **Add selections to my cart**.
 
         ![]({% link images/images-ee/customer-account-manage-cart-order-products.png %}){: .zoom}
         _Add Product to Cart_
@@ -69,32 +69,32 @@ Use any of the following methods to add products to the cart.
         ![]({% link images/images-ee/customer-account-manage-cart-update-cart.png %}){: .zoom}
         _Cart Updated_
 
-    **To add a configurable product**
+   **To add a configurable product**
 
-      - In the grid, click **Configure**.
+   - In the grid, click **Configure**.
 
         ![]({% link images/images-ee/customer-account-manage-cart-order-configurable-product.png %}){: .zoom}
         _Configure_
 
         In the _Associated Products_ section, choose each product option to describe the item to be ordered. Then, enter the **Quantity**.
 
-      - Click **OK**.
+   - Click **OK**.
 
         ![]({% link images/images-ee/customer-account-manage-cart-order-configurable-product-associated.png %}){: .zoom}
         _Choose Options_
 
         The product is selected with a checkmark, and the quantity ordered appears in the grid.
 
-      - To add the product to the cart, click **Add selections to my cart**.
+   - To add the product to the cart, click **Add selections to my cart**.
 
         ![]({% link images/images-ee/customer-account-manage-cart-order-configurable-product-cart.png %}){: .zoom}
         _Configurable Product in Cart_
 
-      - Update product options as needed:
+   - Update product options as needed:
 
-         - Click **Configure**.
+      - Click **Configure**.
 
-         - Update the options and then click **OK**.
+      - Update the options and then click **OK**.
 
 ### Method 2: Add Item by SKU
 
@@ -102,33 +102,33 @@ Use any of the following methods to add products to the cart.
 
 1. Add products individually by **SKU** or add products by uploading a CSV file.
 
-    **To add items individually by SKU**
+   **To add items individually by SKU**
 
-      - Enter the **SKU** and **Qty** of the item to be ordered.
+   - Enter the **SKU** and **Qty** of the item to be ordered.
 
-      - To order another product, click **Add another**.
-
-        ![]({% link images/images-ee/customer-account-manage-cart-order-product-by-sku.png %}){: .zoom}
-        _Add Products by SKU_
-
-      - Click **Add selections to my cart**.
-
-      - If the item is a configurable product, choose the product options when prompted. Then, click **Add to Shopping Cart**.
+   - To order another product, click **Add another**.
 
         ![]({% link images/images-ee/customer-account-manage-cart-order-product-by-sku.png %}){: .zoom}
         _Add Products by SKU_
 
-    **To add products by uploading a CSV file**
+   - Click **Add selections to my cart**.
 
-      - Prepare a [csv file]({% link system/data-csv.md %}) with the items to be added to the cart.
+   - If the item is a configurable product, choose the product options when prompted. Then, click **Add to Shopping Cart**.
+
+        ![]({% link images/images-ee/customer-account-manage-cart-order-product-by-sku.png %}){: .zoom}
+        _Add Products by SKU_
+
+   **To add products by uploading a CSV file**
+
+   - Prepare a [csv file]({% link system/data-csv.md %}) with the items to be added to the cart.
 
         The file must contain only two columns, with `sku` and `qty` in the header.
 
-      - Upload the prepared file:
+   - Upload the prepared file:
 
-         - Click **Choose File**.
+      - Click **Choose File**.
 
-         - Select the file to be uploaded from your directory.
+      - Select the file to be uploaded from your directory.
 
 ### Method 3: Transfer an Item
 
@@ -136,11 +136,11 @@ Items can be transferred to the cart from the customer’s wish list, recently v
 
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} one of the following sections.
 
-    - Wish List
-    - Products in the Comparison List
-    - Recently Compared Products
-    - Recently Viewed Products
-    - Last Ordered Items
+   - Wish List
+   - Products in the Comparison List
+   - Recently Compared Products
+   - Recently Viewed Products
+   - Last Ordered Items
 
 1. In the grid, select each product to be ordered. and enter the **Quantity**.
 
@@ -150,15 +150,15 @@ Items can be transferred to the cart from the customer’s wish list, recently v
 
 1. Apply a coupon code if available:
 
-    - In the **Apply Coupon Code** field, enter a valid coupon code.
+   - In the **Apply Coupon Code** field, enter a valid coupon code.
 
-    - Click the **Apply** (![]({% link images/images/btn-apply.png %}){: .Inline}) arrow.
+   - Click the **Apply** (![]({% link images/images/btn-apply.png %}){: .Inline}) arrow.
 
 1. Adjust the quantity ordered as needed:
 
-    - In the **Qty** column of the product to be adjusted, enter the correct amount.
+   - In the **Qty** column of the product to be adjusted, enter the correct amount.
 
-    - Click **Update Items and Quantities**.
+   - Click **Update Items and Quantities**.
 
 1. Click **Create Order**.
 

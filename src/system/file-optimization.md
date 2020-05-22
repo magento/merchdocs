@@ -29,23 +29,21 @@ Template Files  | Minify
 
 1. To optimize CSS files, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **CSS Settings** section and do the following:
 
-    - Set **Merge CSS Files** to `Yes`.
-    - Set **Minify CSS Files** to `Yes`.
+   - Set **Merge CSS Files** to `Yes`.
+   - Set **Minify CSS Files** to `Yes`.
 
     ![Advanced configuration - CSS settings]({% link images/images/config-advanced-developer-css-settings.png %}){: .zoom}
     [_CSS Settings_]({% link configuration/advanced/developer.md %})
 
 1. To optimize JavaScript files, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **JavaScript Settings** section and do the following:
 
-    - Set **Merge JavaScript Files** to `Yes`.
-    - Set **Minify JavaScript Files** to `Yes`.
+   - Set **Merge JavaScript Files** to `Yes`.
+   - Set **Minify JavaScript Files** to `Yes`.
 
     ![Advanced configuration - Javascript settings]({% link images/images/config-advanced-developer-javascript-settings.png %}){: .zoom}
     [_JavaScript Settings_]({% link configuration/advanced/developer.md %})
 
-1. To minify PHTML template files, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Template Settings** section and do the following:
-
-    - Set **Minify Html** to `Yes`.
+1. To minify PHTML template files, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Template Settings** section and set **Minify Html** to `Yes`.
 
     ![Advanced configuration - template settings]({% link images/images/config-advanced-developer-template-settings.png %}){: .zoom}
     [_Template Settings_]({% link configuration/advanced/developer.md %})

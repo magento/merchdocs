@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Creating a Related Product Rule
 ---
 
@@ -19,23 +19,23 @@ For an attribute to be used in a targeted rule, the [Use for Promo Rule Conditio
 
 1. Complete the **Rule Information** as follows:
 
-    - Enter a **Rule Name** to identify the rule when working in the Admin.
+   - Enter a **Rule Name** to identify the rule when working in the Admin.
 
-    - In the **Priority** field, enter a number that determines the order that the results appear on the page when results from other rules target the same location. Number 1 is top priority.
+   - In the **Priority** field, enter a number that determines the order that the results appear on the page when results from other rules target the same location. Number 1 is top priority.
 
-    - To enable the rule, set **Status** to `Active`.
+   - To enable the rule, set **Status** to `Active`.
 
-    - Set **Apply To** to one of the following:
+   - Set **Apply To** to one of the following:
 
       - `Related Products`
       - `Up-sells`
       - `Cross-sells`
 
-    - If the rule is to be active for a specific range of time, enter the **From** and **To** dates.
+   - If the rule is to be active for a specific range of time, enter the **From** and **To** dates.
 
-    - In the **Result Limit** field, enter the number of records to appear in the results list. The maximum number is 20.
+   - In the **Result Limit** field, enter the number of records to appear in the results list. The maximum number is 20.
 
-    - If the rule applies to a specific [customer segment]({% link marketing/customer-segments.md %}), set **Customer Segments** to `Specified` and choose the customer segment from the list.
+   - If the rule applies to a specific [customer segment]({% link marketing/customer-segments.md %}), set **Customer Segments** to `Specified` and choose the customer segment from the list.
 
 1. In the left panel, choose **Products to Match**. Then, build the condition(s) as you would for a [catalog price rule]({% link marketing/price-rules-catalog.md %}).
 

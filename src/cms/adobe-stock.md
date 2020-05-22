@@ -20,44 +20,28 @@ then [configure the Adobe Stock Integration in your Magento Admin][configure].
 
 ### Create an Adobe.io integration
 
-1. Navigate to the [adobe.io Console][io-console] and under **Quick Start**, click **Create integration**.
+1. Navigate to the [adobe.io Console][io-console]. Under **Quick Start**, select the **Projects** tab and click **Create new project**.
 
-1. Ensure **Access an API** is selected and click **Continue**.
+1. Click **Add API** in the **Get started** block.
 
-1. Under the **Creative Cloud** column, ensure **Creative SDK** is selected and click **Continue**.
+1. Select **Creative SDK** from the integrations list and click **Continue**.
 
    At this time, _do not_ use the **Adobe Stock** service on this screen.
 
-1. On the final **Integration Details** screen, do the following:
+1. Select **Oauth 2.0 Web** platform.
 
-    - For **Name**, enter a descriptive name for your integration.
+1. Specify the **Redirect URI**.
 
-    - For **Description**, enter a longer form description for your integration.
+   - The default redirect URI is in the form `${HOST}/${ADMIN_URI}/adobe_ims/oauth/callback/.*`, such as `https://store.myshop.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`.
 
-    - For **Platform**, select the **Web** option.
+        where:
 
-    - For **Default redirect URI**, provide the redirect URI for the integration.
+         - `${HOST}` is your Magento fully qualified domain name (i.e., `https://store.myshop.com`).
+         - `${ADMIN_URI}` is your Magento Admin URI (such as `admin_hgkq1l`), which can be retrieved by running `magento info:adminuri`.
 
-      The default redirect URI is in the form `${HOST}/${ADMIN_URI}/adobe_ims/oauth/callback/`, such as:
+1. Click **Save configured API**.
 
-             https://store.myshop.com/admin_hgkq1l/adobe_ims/oauth/callback/
-
-      where:
-
-        - `${HOST}` is your Magento fully qualified domain name (i.e., `https://store.myshop.com`).
-        - `${ADMIN_URI}` is your Magento Admin URI, which can be retrieved by running `magento info:adminuri` (i.e., `admin_hgkq1l`).
-
-    - For **Redirect URI pattern**, provide the redirect URI pattern. This is the same as your redirect URI with two differences:
-        - Any periods (`.`) must be escaped with two backslashes (`\\`)
-        - Add `.*` to the end of the pattern
-
-          Using the example from the previous Default redirect URI field, this would be:
-
-                https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*
-
-1. Click **Create Integration**.
-
-1. On the page that follows, copy your **API Key (Client ID)** and **Client secret**.
+1. On the page that follows, copy your **Client ID (API Key)** and **Client secret**.
 
    This information is used in the [next section][configure].
 
@@ -72,14 +56,17 @@ Use the **API Key** and **Client secret** generated in the [previous section][cr
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Adobe Stock Integration** and do the following:
 
    - Set **Enabled Adobe Stock** to `Yes`.
+
    - Enter your **API Key (Client ID)**.
-   - Enter your **Client secret**.
-   - Click <span class="btn">**Test Connection**</span> to validate your keys.
+
+   - Enter your **Client Secret**.
+
+   - Click <span class="btn">Test Connection</span> to validate your keys.
 
     ![Advanced configuration - Adobe Stock integration]({% link images/images/system-adobe-stock-integration.png %}){: .zoom}
     _Adobe Stock Integration_
 
-    Give the validation a few seconds. If your credentials are valid, you should see a green "Connection Successful!" message.
+   Give the validation a few seconds. If your credentials are valid, you should see a green "Connection Successful!" message.
 
 1. When complete, click <span class="btn">Save Config</span>.
 

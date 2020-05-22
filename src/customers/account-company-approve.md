@@ -1,5 +1,5 @@
 ---
-conditions: Default.B2B Only
+b2b_only: true
 title: Approving a Company Account
 ---
 
@@ -23,9 +23,9 @@ _Pending Approval_
 
 1. In the **Action** column, click **Edit**. Then, do the following:
 
-    - Set **Company Status** to `Active`.
+   - Set **Company Status** to `Active`.
 
-    - When prompted to confirm, click <span class="btn">Change status</span>.
+   - When prompted to confirm, click <span class="btn">Change status</span>.
 
     The company admin receives notification that the company is now active.
 

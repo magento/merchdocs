@@ -1,5 +1,5 @@
 ---
-conditions: Default.B2B Only
+b2b_only: true
 title: Negotiating a Quote
 ---
 
@@ -58,13 +58,13 @@ Make any of the following changes to the quote:
 
 1. To choose a different address from your [address book]({% link customers/account-dashboard-address-book.md %}), do the following:
 
-   - Go to the **Shipping Information** section and click **Select Existing Address**.
-   - Choose an address from your [Address Book]({% link customers/account-dashboard-address-book.md %}).
-   - When prompted to confirm, click <span class="btn">Save</span>.
+    - Go to the **Shipping Information** section and click **Select Existing Address**.
+    - Choose an address from your [Address Book]({% link customers/account-dashboard-address-book.md %}).
+    - When prompted to confirm, click <span class="btn">Save</span>.
 
 1. To add a new address, click **Add New Address**.
 
-   - Add the new address to your [Address Book]({% link customers/account-dashboard-address-book.md %}).
+    - Add the new address to your [Address Book]({% link customers/account-dashboard-address-book.md %}).
 
     If the shipping address is changed during a price negotiation, the quote must be sent back to the seller for review.
 

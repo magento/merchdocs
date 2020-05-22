@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE Only
+ee_only: true
 title: Order by SKU
 ---
 
@@ -10,15 +10,15 @@ _Order by SKU_
 
 Use either or both of the following methods to add products by SKU:
 
-## Method 1: Add Individual SKUs
+## Method 1: Add individual SKUs
 
 1. Enter the **SKU** and **Qty** of the product.
 
-2. For each additional product that you want to order, click **Add** (![]({% link images/images-ee/btn-add-sku.png %}){: .Inline}). Then enter the **SKU** and **Qty**.
+1. For each additional product that you want to order, click the Add (![]({% link images/images-ee/btn-add-sku.png %}){: width="25px"}) icon. Then enter the **SKU** and **Qty**.
 
-3. When ready, click <span class="btn">Add to Cart</span>.
+1. When ready, click <span class="btn">Add to Cart</span>.
 
-## Method 2: Import a List of SKUs
+## Method 2: Import a list of SKUs
 
 1. To prepare the list, do the following:
 
@@ -34,7 +34,7 @@ Use either or both of the following methods to add products by SKU:
       {:.bs-callout-info}
       Microsoft Excel supports [several CSV formats][1], including CSV (Comma delimited), CSV (Macintosh), and CSV (MS-DOS).
 
-1. On the Order by SKU page, click **Choose File**. Then, locate and select your prepared CSV file.
+1. On the Order by SKU page, click **Choose File** and select your prepared CSV file.
 
 1. When complete, click <span class="btn">Add to Cart</span>.
 

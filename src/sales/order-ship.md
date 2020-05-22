@@ -16,9 +16,9 @@ An order that has been paid, but is awaiting shipment has the `Processing` statu
 
 1. To have the carrier generate a shipping label, select the **Create Shipping Label** checkbox and set the options:
 
-    - To add a tracking number, scroll down to the Shipping Information section, and click <span class="btn">Add Tracking Number</span>.
+   - To add a tracking number, scroll down to the Shipping Information section, and click <span class="btn">Add Tracking Number</span>.
 
-    - Do one of the following:
+   - Do one of the following:
 
       - Select the **Carrier** and enter the tracking **Number**.
 
@@ -28,13 +28,13 @@ An order that has been paid, but is awaiting shipment has the `Processing` statu
 
 1. To notify customers by email of the shipment, do the following:
 
-    - Enter any comments you would like to include in the **Shipment Comments** box.
+   - Enter any comments you would like to include in the **Shipment Comments** box.
 
-    - To include the comments in the notification email that is sent to the customer, select the **Append Comments** checkbox.
+   - To include the comments in the notification email that is sent to the customer, select the **Append Comments** checkbox.
 
-    - To send a copy of the shipment email to yourself, select the **Email Copy of Shipment** checkbox.
+   - To send a copy of the shipment email to yourself, select the **Email Copy of Shipment** checkbox.
 
-        The status of an invoice email appears next to the invoice number of the completed invoice as either sent or not sent.
+      The status of an invoice email appears next to the invoice number of the completed invoice as either sent or not sent.
 
 1. When complete, click <span class="btn">Submit Shipment</span>.
 

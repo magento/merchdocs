@@ -2,6 +2,8 @@
 title: Click & Collect
 ---
 
+{% include shipping-status-note.md %}
+
 Click & Collect allows customers to order online, and pick up their orders at the store or another designated location. For a description of how Click & Collect is specified during checkout, see [Customer Experience]({% link shipping/magento-shipping-customer-experience.md %}).
 
 Every Click & Collect order generates a pickup record. Like a shipment, the pickup record is associated with the specific order. The main difference between the two is that a pickup does not have packaging or quote/booking requirements. Because Click & Collect is available only from the storefront, it cannot be used for orders that are created from the Admin.
@@ -27,19 +29,19 @@ In the Magento Shipping [configuration]({% link shipping/magento-shipping-setup.
 
     The Pickups grid can be filtered by a variety of fields, with the main used being _Origin Location_ and _Status_.
 
-    * Any filter settings made by the Admin user are retained for that user’s future sessions.
+    - Any filter settings made by the Admin user are retained for that user’s future sessions.
 
-    * If you have multiple locations, it is recommended that you filter the grid by Origin Location to ensure that only orders which are to be picked up at your location listed.
+    - If you have multiple locations, it is recommended that you filter the grid by Origin Location to ensure that only orders which are to be picked up at your location listed.
 
-    * You can filter the list based on a _Status_ field value of `Pickup Requested` to ensure that the list includes only new pickup records that are not yet in process.
+    - You can filter the list based on a _Status_ field value of `Pickup Requested` to ensure that the list includes only new pickup records that are not yet in process.
 
 1. Print packing slips for all filtered pickups.
 
-    * On the _Pickups_ page, choose **Select All**
+    - On the _Pickups_ page, choose **Select All**
 
-    * Set the Action control to `Print Packing Slips`.
+    - Set the Action control to `Print Packing Slips`.
 
-    * The packing slips are downloaded as a single PDF file, which can be printed immediate, or saved and printed later. Each packing slip contains the customer details, the products ordered, and a barcode that references the pickup.
+    - The packing slips are downloaded as a single PDF file, which can be printed immediate, or saved and printed later. Each packing slip contains the customer details, the products ordered, and a barcode that references the pickup.
 
 1. Indicate that an order is ready for pickup
 
@@ -51,20 +53,20 @@ In the Magento Shipping [configuration]({% link shipping/magento-shipping-setup.
 
     By default, a pickup record indicates that all items in the order are packed. Click  **Ready for Pickup** to trigger the following events:
 
-      * The status of the pickup changes to `Ready for Pickup`.
+    - The status of the pickup changes to `Ready for Pickup`.
 
-      * An email is sent to notify the customer that the order is ready to collect.
+    - An email is sent to notify the customer that the order is ready to collect.
 
-      * The Pickup page closes, and you return to the Pickups grid.
+    - The Pickup page closes, and you return to the Pickups grid.
 
     **Scenario 2: Partial Order Ready for Pickup**
 
     If only some of the items are available, adjust the **Qty Packed** values to reflect the items that are ready for pickup. Click **Ready for Pickup** to initiate the partial pickup process. The following events take place:
 
-      * The status of the partial pickup changes to `Ready for Pickup`.
-      * An email is sent to notify the customer that the specified items are ready to collect.
-      * A new pickup record with a status of “Pickup Requested” is created for the remaining items.
-      * The Pickup page closes, and you return to the Pickups grid.
+    - The status of the partial pickup changes to `Ready for Pickup`.
+    - An email is sent to notify the customer that the specified items are ready to collect.
+    - A new pickup record with a status of “Pickup Requested” is created for the remaining items.
+    - The Pickup page closes, and you return to the Pickups grid.
 
     The remaining pickup items can be fulfilled as either a separate pickup or shipment when the items become available.
 
@@ -80,18 +82,17 @@ Scan the barcode from the packing slip to view the corresponding pickup record.
 
 The **Go to Pickup** field in the upper-right corner of the Pickup page is designed to automatically accept a barcode that is scanned from a packing slip.
 
-
 ### Method 2: View Action
 
-1.  Find the record in the Pickup grid.
+1. Find the record in the Pickup grid.
 
-2.  In the _Action_ column, click **View**.
+1. In the _Action_ column, click **View**.
 
 ## To cancel a pickup
 
-1.  Open the pickup record.
+1. Open the pickup record.
 
-1.  Click **Cancel Pickup**.
+1. Click **Cancel Pickup**.
 
-    * If the status of the pickup was `Ready for Pickup`, the items are returned to inventory.
-    * The customer is notified by email that the pickup has been canceled.
+    - If the status of the pickup was `Ready for Pickup`, the items are returned to inventory.
+    - The customer is notified by email that the pickup has been canceled.
