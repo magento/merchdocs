@@ -1,6 +1,6 @@
 ---
-conditions: Default.EE-B2B
-title: Worldpay - Deprecated
+ee_only: true
+title: Worldpay
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > Worldpay

@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: eWAY - Deprecated
 ---
 
@@ -11,7 +11,7 @@ For details about making a secure transition from deprecated payment integration
 
 eWAY is based in Australia, and provides secure payment processing services to merchants throughout Australia, New Zealand, the United Kingdom, Singapore, Malaysia, and Hong Kong. Their latest Rapid 3.1 API enables real-time fraud protection.
 
-## Step 1: Get Your eWAY Credentials
+## Step 1: Get your eWAY credentials
 
 Sign up for an eWAY [merchant account][1]{:target="_blank"}, and get your credentials.
 
@@ -19,10 +19,9 @@ Sign up for an eWAY [merchant account][1]{:target="_blank"}, and get your creden
 
 1. Log in to the Admin of your store. On the Admin sidebar, go to **Stores** > Settings > **Configuration**.
 
-2. In the panel on the left under **Sales**, choose **Payment Methods**.
+1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-3. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the
- **eWAY** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **eWAY** section and do the following:
 
    ![Enable eWay]({% link images/images-ee/config-sales-payment-methods-eway1-enabled.png %}){: .zoom}
    _Enable eWAY_
@@ -36,9 +35,11 @@ Sign up for an eWAY [merchant account][1]{:target="_blank"}, and get your creden
 
    - Enter a **Title** to identify eWAY as a payment option during checkout.
 
-## Step 3: Enter Your eWAY Credentials
+## Step 3: Enter your eWAY credentials
 
-1. To run test transactions in a test environment, set **Sandbox Mode** to `Yes`. To learn more, see: [Sandbox/Testing][2] on the eWAY website.
+1. To run test transactions in a test environment, set **Sandbox Mode** to `Yes`.
+
+   To learn more, see [Sandbox/Testing][2] on the eWAY website.
 
    When you are ready to go live with eWAY, set **Sandbox Mode** to `No`.
 
@@ -56,9 +57,9 @@ Sign up for an eWAY [merchant account][1]{:target="_blank"}, and get your creden
 
    ![eWAY Credentials]({% link images/images-ee/config-sales-payment-methods-eway2.png %}){: .zoom}
 
-## Step 4: Configure Payments
+## Step 4: Configure payments
 
-1. Set **Payment Action** to one of the following
+1. Set **Payment Action** to one of the following:
 
    | **Authorize Only** | Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer’s bank account until the sale is “captured” by the merchant.|
    | **Authorize and Capture** | The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
@@ -83,7 +84,7 @@ Sign up for an eWAY [merchant account][1]{:target="_blank"}, and get your creden
 
 1. In the **Sort Order** field, enter a number to determine the order in which eWAY appears when listed with other payment methods during checkout.
 
-1. When complete, tap <span class="btn">Save Config</span>.
+1. When complete, click <span class="btn">Save Config</span>.
 
 [1]: https://www.eway.com.au/plans-pricing
 [2]: https://myeway.force.com/success/s/topic/0TOw0000000TbKoGAK/Sandbox/Testing

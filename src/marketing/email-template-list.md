@@ -2,7 +2,6 @@
 title: Email Template List
 ---
 
-
 The list of email templates is organized alphabetically by Magento module.
 
 ## Magento_Checkout
@@ -12,7 +11,7 @@ The list of email templates is organized alphabetically by Magento module.
 |--- |--- |
 | Payment Failed | **Page:** Sales > [Checkout]({% link configuration/sales/checkout.md %})<br/>**Section:** Payment Failed Emails<br/>**Field:** Payment Failed Template|
 
-<!--{% if "Default.B2B Only" contains site.edition %}-->
+{:.b2b-only}
 ## Magento_Company
 
 {: .template-table }
@@ -32,6 +31,7 @@ The list of email templates is organized alphabetically by Magento module.
 | Customer Status Inactive | **Page:** <br/>**Section:** <br/>**Field:** |
 | Sales Representative Assigned to Company | **Page:** <br/>**Section:** <br/>**Field:** |
 
+{:.b2b-only}
 ## Magento_CompanyCredit
 
 {: .template-table }
@@ -43,7 +43,6 @@ The list of email templates is organized alphabetically by Magento module.
 | Order Refunded to Company Credit | **Page:** <br/>**Section:** <br/>**Field:** |
 | Order Reverted to Company Credit | **Page:** <br/>**Section:** <br/>**Field:** |
 
-<!--{% endif %}-->
 ## Magento_Contact
 
 {: .template-table }
@@ -67,7 +66,7 @@ The list of email templates is organized alphabetically by Magento module.
 | Remind Password | **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Password Options<br/>**Field:** Remind Email Template |
 | Reset Password | **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Password Options <br/>**Field:** Reset Password Template |
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{:.ee-only}
 ## Magento_CustomerBalance
 
 {: .template-table }
@@ -75,7 +74,6 @@ The list of email templates is organized alphabetically by Magento module.
 |--- |--- |
 | Store Credit Update | **Page:** <br/>**Section:** <br/>**Field:** |
 
-<!--{% endif %}-->
 ## Magento_Directory
 
 {: .template-table }
@@ -92,7 +90,7 @@ The list of email templates is organized alphabetically by Magento module.
 | Footer (Magento/luma) | n/a |
 | Header | n/a |
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{:.ee-only}
 ## Magento_GiftCard
 
 {: .template-table }
@@ -123,8 +121,7 @@ The list of email templates is organized alphabetically by Magento module.
 |--- |--- |
 | Customer Invitation | **Page:** <br/>**Section:** <br/>**Field:** |
 
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
+{:.b2b-only}
 ## Magento_NegotiableQuote
 
 {: .template-table }
@@ -137,7 +134,6 @@ The list of email templates is organized alphabetically by Magento module.
 | New Quote | **Page:** <br/>**Section:** <br/>**Field:** |
 | Updated Quote | **Page:** <br/>**Section:** <br/>**Field:** |
 
-<!--{% endif %}-->
 ## Magento_Newsletter
 
 {: .template-table }
@@ -156,7 +152,7 @@ The list of email templates is organized alphabetically by Magento module.
 | Price Alert | **Page:** Catalog > [Catalog]({% link configuration/catalog/catalog.md %})<br/>**Section:** Product Alerts<br/>**Field:** Price Alert Email Template |
 | Stock Alert | **Page:** Catalog > [Catalog]({% link configuration/catalog/catalog.md %})<br/>**Section:** Product Alerts<br/>**Field:** Stock Alert Email Template |
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{:.ee-only}
 ## Magento_Reminder
 
 {: .template-table }
@@ -164,6 +160,7 @@ The list of email templates is organized alphabetically by Magento module.
 |--- |--- |
 | Promotion Notification/Reminder | **Page:** <br/>**Section:** <br/>**Field:** |
 
+{:.ee-only}
 ## Magento_Reward
 
 {: .template-table }
@@ -172,6 +169,7 @@ The list of email templates is organized alphabetically by Magento module.
 | Balance Update | **Page:** <br/>**Section:** <br/>**Field:** |
 | Points Expiry Warning | **Page:** <br/>**Section:** <br/>**Field:** |
 
+{:.ee-only}
 ## Magento_Rma
 
 {: .template-table }
@@ -185,7 +183,6 @@ The list of email templates is organized alphabetically by Magento module.
 | RMA Authorization for Guest | **Page:** <br/>**Section:** <br/>**Field:** |
 | RMA Customer Comments | **Page:** <br/>**Section:** <br/>**Field:** |
 
-<!--{% endif %}-->
 ## Magento_Sales
 
 {: .template-table }
@@ -223,7 +220,7 @@ The list of email templates is organized alphabetically by Magento module.
 | Shipment Update for Guest | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Shipment Comments<br/>**Field:** Shipment Comment Email Template for Guest |
 | Shipment Update for Guest (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Shipment Comments<br/>**Field:** Shipment Comment Email Template for Guest |
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{:.ee-only}
 ## Magento_ScheduledImportExport
 
 {: .template-table }
@@ -233,7 +230,6 @@ The list of email templates is organized alphabetically by Magento module.
 | File History Clean Failed | **Page:** <br/>**Section:** <br/>**Field:** |
 | Import Failed | **Page:** <br/>**Section:** <br/>**Field:** |
 
-<!--{% endif %}-->
 ## Magento_SendFriend
 
 {: .template-table }

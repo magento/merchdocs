@@ -2,17 +2,14 @@
 title: Using the Editor
 ---
 
-
 The editor gives you the ability to enter and format while working in a “What You See Is What You Get” view of the content. If you prefer to work directly with the underlying HTML code, you can easily change modes. The editor can be used to create content for [pages]({% link cms/pages.md %}), [blocks]({% link cms/blocks.md %}), and [product descriptions]({% link catalog/product-content.md %}). When working on product detail, the editor is accessed by clicking <span class="btn">Show / Hide Editor</span>.
 
 {:.bs-callout-info}
 TinyMCE 4 is now the default WYSIWYG editor. TinyMCE 3 is now deprecated, but can be enabled in the [configuration]({% link cms/editor-configure.md %}) if required for previous customizations.
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![Editor Toolbar]({% link images/images/editor-toolbar-tm4/toolbar.png %} "Editor Toolbar"){: .zoom}
-_Editor Toolbar_ ([TinyMCE 4]({% link cms/editor-configure.md %}))
+_Editor Toolbar ([TinyMCE 4]({% link cms/editor-configure.md %}))_{:.ee-only}
 
-<!--{% endif %}-->
 ## Editing Tools - TinyMCE 3 (Deprecated)
 
 ![]({% link images/images/editor-toolbar-editing-tools.png %}){: .zoom}

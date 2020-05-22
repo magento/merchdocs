@@ -16,6 +16,15 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Mask for Meta Keywords|Global|Determines the default value of the Meta Keywords field based on placeholder values from other fields and any additional text that is entered. Default placeholder: <br/>Product Name - {% raw %}`{{name}}`{% endraw %}|
 |Mask for Meta Description|Global|Determines the default value of the Meta Description field based on placeholder values from other fields and any additional text that is entered. Default placeholder: <br/>Product Name - {% raw %}`{{name}}`{% endraw %} <br/>Description - {% raw %}`{{description}}`{% endraw %}|
 
+## Product Reviews
+
+![]({% link images/images/config-catalog-catalog-product-reviews.png %}){: .zoom}
+[_Product Reviews_]({% link marketing/product-reviews.md %})
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Allow Guests to Write Reviews|Website|Determines if customers must open an account with your store to be able to write product reviews.|
+
 ## Storefront
 
 ![]({% link images/images/config-catalog-catalog-storefront.png %}){: .zoom}
@@ -30,18 +39,10 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Products per Page on List Default Value|Store View|Determines the number of products displayed per page by default, in List View.|
 |Product Listing Sort by|Store View|Determines the sort order of the search results list. The selection of options is determined by the Display Settings of the category and the available attributes that are set to be `Used for Sorting in Product Listing`. The default is set to `Use All Available Attributes` and typically includes Best Value, Name, Price|
 |Allow All Products per Page|Store View|If set to `Yes`, includes the `ALL` option in the “Show per Page” control.|
+|Remember Category Pagination|Global|If set to `Yes`, the current category pagination values are saved as customers browse from one category to another in [product listings]({% link catalog/navigation-product-listings.md %}). Saving the value uses more cache storage and can affect the way pages are indexed by search engines. Options: Yes / No (default)|
 |Use [Flat Catalog]({% link catalog/catalog-flat.md %}) Category|Global|Enables the flat category structure. (not recommended) Options: Yes / No|
 |Use Flat Catalog Product|Global|Enables the flat product structure. (not recommended) Options: Yes / No|
 |Swatches per Product|Store View|Determines the number of swatches available for each product. Default: `16`|
-
-## Product Reviews
-
-![]({% link images/images/config-catalog-catalog-product-reviews.png %}){: .zoom}
-[_Product Reviews_]({% link marketing/product-reviews.md %})
-
-|Field|[Scope]({% link configuration/scope.md %})|Description|
-|--- |--- |--- |
-|Allow Guests to Write Reviews|Website|Determines if customers must open an account with your store to be able to write product reviews.|
 
 ## Product Alerts
 
@@ -81,15 +82,6 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Thumbnail|Store View|Identifies the placeholder file chosen for the [thumbnail]({% link catalog/catalog-images-video.md %}).|
 |Choose File||Navigates to the file and uploads it as the placeholder image for the type.|
 
-## Product Video
-
-![]({% link images/images/config-catalog-catalog-product-video.png %}){: .zoom}
-[_Product Videos_]({% link catalog/product-video.md %})
-
-|Field|[Scope]({% link configuration/scope.md %})|Description|
-|--- |--- |--- |
-|YouTube API key|Store View|Specifies the API key that is required to connect to the YouTube server.|
-
 ## Recently Viewed/Compared Products
 
 ![]({% link images/images/config-catalog-catalog-recently-viewed-compared-products.png %}){: .zoom}
@@ -101,21 +93,24 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Default Recently Viewed Products Count|Store View|Determines the maximum number of recently viewed products that appear in the list.|
 |Default Recently Compared Products Count|Store View|Determines the maximum number of recently compared products that appear in the list.|
 
-## Price
+## Product Video
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/config-catalog-catalog-price.png %}){: .zoom}
-_[Price]({% link catalog/catalog-price-scope.md %})_
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-![]({% link images/images-ee/config-catalog-catalog-price.png %}){: .zoom}
-_[Price]({% link catalog/catalog-price-scope.md %})_
-<!--{% endif %}-->
+![]({% link images/images/config-catalog-catalog-product-video.png %}){: .zoom}
+[_Product Videos_]({% link catalog/product-video.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Catalog Price Scope|Global|Determines the scope of the base currency. Options: Global / Website.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
-|Default Product Price|Global|Defines the default product price, if applicable.|<!--{% endif %}-->
+|YouTube API key|Store View|Specifies the API key that is required to connect to the YouTube server.|
+
+## Price
+
+![]({% link images/images-ee/config-catalog-catalog-price.png %}){: .zoom}
+_[Price]({% link catalog/catalog-price-scope.md %})_{:.ee-only}
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Catalog Price Scope|Global|Determines the scope of the base currency. Options: Global / Website.|
+|<span class="ee-only">Default Product Price</span>|Global|Defines the default product price, if applicable.|
 
 ## Layered Navigation
 
@@ -135,7 +130,7 @@ _[Price]({% link catalog/catalog-price-scope.md %})_
 |Default Price Navigation Step|Store View|Determines the number of products that are included in each step.|
 |Maximum Number of Price Intervals|Store View|Establishes a limit for the number of price intervals that appear in layered navigation.|
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{:.ee-only}
 ## Category Permissions
 
 ![]({% link images/images-ee/config-catalog-catalog-category-permissions.png %}){: .zoom}
@@ -149,7 +144,6 @@ _[Price]({% link catalog/catalog-price-scope.md %})_
 |Allow Adding to Cart|Website|Determines who can purchase products from the category. Options: <br/>Yes, for Everyone - Allows everyone to place products from the category into their shopping carts. <br/>Yes, for Specified Customer Groups - Allows only members of selected customer groups to place products from the category into their shopping carts. <br/>No - Does not allow anyone to place products from the category into their shopping carts.|
 |Disallow Catalog Search by|Website|Identifies the customer groups that are not allowed to search for products in the category.|
 
-<!--{% endif %}-->
 ## Search Engine Optimization
 
 ![]({% link images/images/config-catalog-catalog-search-engine-optimization.png %}){: .zoom}
@@ -255,7 +249,7 @@ Magento supports the following versions of Elasticsearch: 6.x, 5.x, and 2.x (dep
 |Time Format|Store View|Sets the time format to either a  twelve or twenty-four hour clock. Options: 12h AM/PM / 24h|
 |Year Range|Store View|Defines the beginning and ending range of years that appear in the drop-down Year field. The value must be entered in YYYY format.|
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{:.ee-only}
 ## Catalog Events
 
 ![]({% link images/images-ee/config-catalog-catalog-events.png %}){: .zoom}
@@ -268,6 +262,7 @@ Magento supports the following versions of Elasticsearch: 6.x, 5.x, and 2.x (dep
 |Number of Events to be Displayed in the Event Slider Widget|Store View|Determines the number of events that appear in the Event Slider widget on the category pages. To override, use the `limit=”x”` variable.|
 |Events to Scroll per Click in Event Slider Widget|Store View|Determines the number of events that appear in the Event Slider widget on CMS pages, such as the home page. To override, use the `scroll=”x”` variable.|
 
+{:.ee-only}
 ## Rule-Based Product Relations
 
 ![]({% link images/images/config-catalog-catalog-rule-based-product-relations.png %}){: .zoom}
@@ -284,5 +279,3 @@ Magento supports the following versions of Elasticsearch: 6.x, 5.x, and 2.x (dep
 |Maximum Number of Products in Upsell Product List|Global|Determines the maximum number of products that can appear in the Upsell Products list.|
 |Show Upsell Products|Global|Determines which list of up-sell products appears in the store. It can be either the list that is selected manually in the Product Information, the list that is generated in response to a product relationship rule, or a combination of the two. Options: Both Selected and Rule-Based / Selected Only / Rule-Based Only|
 |Rotation Mode for Products in Upsell Product List|Global|Determines the order in which products in the Upsell Product list appear. Options: Do not rotate / Shuffle|
-
-<!--{% endif %}-->

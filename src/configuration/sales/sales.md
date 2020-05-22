@@ -104,34 +104,19 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Default “What’s This” Text Message|Store View|The pop-up text message that appears when the customer clicks the “What’s this?” link from the product view page.|
 |Manufacturer's Suggested Retail Price|Global|The retail price as suggested by the manufacturer (MSRP).|
 
-<!--{% if "Default.EE Only" contains site.edition %}-->
+{:.ee-only}
 ## Order by SKU Settings
 
- ![]({% link images/images-ee/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
- [_Order by SKU Settings_]({% link customers/account-dashboard-order-by-sku.md %})
+![]({% link images/images-ee/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
+_[Order by SKU Settings]({% link customers/account-dashboard-order-by-sku.md %})_
 
- ![]({% link images/images-ee/config-sales-sales-order-by-sku-settings-customer-group.png %}){: .zoom}
- [_Order by SKU Settings for Customer Group_]({% link customers/account-dashboard-order-by-sku.md %})
+![]({% link images/images-ee/config-sales-sales-order-by-sku-settings-customer-group.png %}){: .zoom}
+_Order by SKU Settings for Customer Group_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enable Order by SKU on My Account in Storefront|Website|Determines if Order by SKU is available in the customer account dashboard. Options: <br/>**Yes, for Everyone** - The Order by SKU tab appears in the account dashboard of all customers. <br/>**Yes, for Specified Customer Groups** - The Order by SKU tab appears in the account dashboard for members of specified groups. <br/>**No** - The Order by SKU tab is not available in the customer account.|
+|Enable Order by SKU on My Account in Storefront|Website|Determines if Order by SKU is available in the customer account dashboard. Options: <br/>**Yes, for Everyone** - The Order by SKU tab appears in the account dashboard of all customers. <br/>**Yes, for Specified Customer Groups** - The Order by SKU tab appears in the account dashboard for members of specified groups or a shared catalog. <br/>**No** - The Order by SKU tab is not available in the customer account.|
 
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-## Order by SKU Settings
-
- ![]({% link images/images-ee/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
- [_Order by SKU Settings_]({% link sales/quick-order.md %})
-
- ![]({% link images/images-ee/config-sales-sales-order-by-sku-settings-customer-group.png %}){: .zoom}
- [_Order by SKU Settings for Customer Group_]({% link sales/quick-order.md %})
-
-|Field|[Scope]({% link configuration/scope.md %})|Description|
-|--- |--- |--- |
-|Enable Order by SKU on My Account in Storefront|Website|Determines if Order by SKU is available when placing a Quick Order. Options: <br/>**Yes, for Everyone** - The Quick Order option appears in the upper-right corner of the store header for all customers. <br/>**Yes, for Specified Customer Groups** - The Quick Order option appears in the upper-right corner of the store header only for members of specified groups. <br/>**No** - The Quick Order option is not available.|
-
-<!--{% endif %}-->
 ## Instant Purchase
 
 ![]({% link images/images-ee/config-sales-sales-instant-purchase.png %}){: .zoom}
@@ -142,11 +127,11 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Enabled|Store View|Enables Instant Purchase for the store view, provided that the payment method, such as Braintree, has vault enabled. Options: Yes / No|
 |Button Text|Store View|Specifies the text that appears on the Instant Purchase button. The default button text is “Instant Purchase”.|
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{:.ee-only}
 ## Orders, Invoices, Shipments, Credit Memos Archiving
 
 ![]({% link images/images-ee/config-sales-sales-orders-invoices-shipments-credit-memos-archving.png %}){: .zoom}
-[_Orders, Invoices, Shipments, Credit Memos Archiving_]({% link sales/order-archive.md %})
+_[Orders, Invoices, Shipments, Credit Memos Archiving]({% link sales/order-archive.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -154,15 +139,14 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Archive Orders Purchased|Global|Determines the number of days that pass before a completed order is archived. Default value: 30|
 |Order  Statuses to be Archived|Global|Determines the [status]({% link sales/order-status.md %}) of orders to be archived. By default, orders with a status of either Complete or Closed are archived. Options: Pending / Processing / Suspected Fraud / Complete / Closed / Canceled / On Hold|
 
+{:.ee-only}
 ## RMA Settings
 
 ![]({% link images/images-ee/config-sales-sales-rma-settings.png %}){: .zoom}
-[_RMA Settings_]({% link sales/rma-configure.md %})
+_[RMA Settings]({% link sales/rma-configure.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable RMA on Storefront|Website|Determines if customers can create and view RMA requests from the storefront. RMA can be applied to both new and existing orders. By default, RMA is not enabled for the storefront. Options Yes / No|
 |Enable RMA on Product Level|Website|Determines the default value for the Enable RMA field in product information.|
 |Use Store Address|Website|Determines the contact name and address that is used for shipments of returned merchandise. Options: <br/>**Yes** - Uses the [Point of Origin]({% link shipping/point-of-origin.md %}) address from Shipping Settings. <br/>**No** - Opens the address form so you can enter an alternate address.|
-
-<!--{% endif %}-->

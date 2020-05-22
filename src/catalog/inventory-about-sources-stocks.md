@@ -21,7 +21,7 @@ _Example Sources for a Mountain Bike_
 
 [Stocks]({% link catalog/inventory-stock.md %}) represent a virtual, aggregated inventory of products available for sale to your sales channels (currently these are websites). Each stock maps your sales channels with sources for available inventories and salable quantities. Depending on your site configuration, the stock may be assigned to one or more sales channels and sources.
 
-Sales Channels represent entities selling your inventory, including websites, stores views, {% if "Default.B2B Only" contains site.edition %}B2B customer groups, {% endif %} and so on. Sales Channels can only be associated to one Stock. Each sales channel can only have a single stock assigned to it, and a single stock can be assigned to multiple websites. Through the stock, you can modify the prioritization of sources used when shipping orders and by the [Source Selection Algorithm]({% link catalog/inventory-about-ssa.md %}).
+Sales Channels represent entities selling your inventory, including websites, stores views, B2B customer groups, and so on. Sales Channels can only be associated to one Stock. Each sales channel can only have a single stock assigned to it, and a single stock can be assigned to multiple websites. Through the stock, you can modify the prioritization of sources used when shipping orders and by the [Source Selection Algorithm]({% link catalog/inventory-about-ssa.md %}).
 
 You start with a Default Stock assigned with the Default Source and your website, best used by Single Source merchants. Only the Default Source can be assigned to this stock. Multi Source merchants create custom stocks for custom sources and websites as needed.
 

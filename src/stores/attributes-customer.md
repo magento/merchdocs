@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Customer Attributes
 redirect_from:
   - /stores/stores-attributes-customer.html
