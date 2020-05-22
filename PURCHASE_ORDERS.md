@@ -2,7 +2,7 @@
 title: Purchase Orders
 ---
 
-Purchase Orders (PO) have been added to Magento 2.4. This a core feature in the B2B workflow.
+Purchase Orders (PO) have been added to Magento 2.4. This a core feature of the B2B workflow.
 
 <!-- https://docs.magento.com/m2/b2b/user_guide/configuration/general/b2b-features.html -->
 
@@ -28,54 +28,36 @@ Purchase Orders must also be enabled at the Company level:
 
 With both these settings set to 'Yes', all orders placed for that Company will start as Purchase Orders.
 
-## Enable Purchase Orders on storefront
+## Purchase order role permissons on the storefront
 
-Now that POs are enabled within the Store, assign Company customers permissions to use Purchase Orders.
-Initially, only the Company Admins can assign permissions to Customers.
+Now that POs are enabled within the Store, assign Purchase Order permissions to Company Roles.
+These role permissions allow users in those roles to see and approve orders.
 
-1. Log into the Company website with the Company Admin user credentials.
+1. Log into the Company website with the Company admin user credentials.
+1. Select 'My Account' from the top right dropdown menu.
 1. From the left nav bar, go to 'Roles and Permissions'.
-1. 'Edit' an existing Role or 'Add New Role'.
+1. 'Edit' or 'Duplicate' an existing Role or 'Add New Role'.
 1. In the Role Permissions tree, select any of:
-   *  Order Approvals - Determines whether Role members can create and manage Purchase Orders.
-      *  View Purchase Orders - Allows the viewing of Purchase Orders created by the user and all subordinate users.
+   *  Order Approvals - Determines whether Role members can view and manage Purchase Orders.
+      *  View my Purchase Orders - Allows the viewing of Purchase Orders created by the user.
+         *  View for subordinates - Allows role users to see POs created by lower level roles.
+         *  View for all company - Allows role users to see all POs created within the Company.
       *  Auto-approve POs created within this role - Skips rule checking and auto-approves POs made by anyone in this role.
-
-## Purchase order roles and permissions
-
-Company admins can control permissions around purchase orders through Role Permissions.
-
-Company admins will have a 'Roles and Permission' on the left side nav bar.
-Click the Add New Role button to create a new role or select Edit from the Role table to changes existing permissions.
-
-| Permission | Description |
-| All | Enabled all role permissions |
-| Sales | Enabled purchasing on the site. |
-| Allow Checkout | Enables users to checkout. |
-| Use Pay on Account Method | Allow users to use company payment account. |
-| View orders | Allows users to see their own order. |
-| View orders of subordinate users | Allows users to view orders made by users with stricter permissions. |
-| Quotes | Allows merchants to quote prices for an order or product. |
-| View | Allows users to view their quotes.|
-| Request, Edit, Delete | Permissions for creating and manipulating quotes. |
-| Checkout with quote | Allows users to complete a quoted order. |
-| View quotes of subordinate users | Users can see quoted orders made by stricter permissions. |
-| Order Approval | |
-| View My Purchase Orders | Allows you to see purchase orders you created. |
-| View for subordinates | Allows users to purchase orders made by users with stricter permissions. |
-| View for all company | View all purchase orders. |
-| Auto-approve POs created within this role | Users in this role do not need any approvals to create a PO. |
-| View Approval Rules | Allows users to see approval rules. |
-| Create, Edit and Delete | Allows users to manipulate approval rules. |
+      *  View Approval rules - Allows role users to see Approval rules.
+         *  Edit Approval Rules - Allows role users to create and edit rules.
 
 ## Negotiable quotes
 
 Negotiable quotes allows buyers and sellers to negotiate a price for a purchase order before purchasing.
-To enable negotiable quotes, set XXXXXXXXX in the ACL.
-Negotiable quotes works the same way as with a regular order.
 
-1. User creates an order and submits it for a negotiable quote.
-1. When the quote is approved, the buyer will continue the checkout process.
+To enable negotiable quotes, go to **Stores** > **Configuration** > **B2B Features**.
+Set Enable B2B Quote to "Yes".
+Negotiable Quotes works the same way as with a regular order.
+
+1. User creates an order.
+1. Press the "Request a Quote" button, under the "Proceed to Checkout" button.
+1. Add a comment and give the Quote a name.
+1. When the quote is approved, the buyer can continue the checkout process.
 1. All orders in the store are automatically converted to purchase orders. Click the 'Create Purchase Order' button to compete the checkout process.
 
 The purchase order will then go through any defined approval process.
@@ -103,18 +85,19 @@ You can also click the Comments tab to see any comments about this PO and the Hi
 
 If you have an existing purchase order and you would like to add new items to it, a new purchase order is created and new products added to this new PO.
 
+1. From the My Purchase Order page, click the 'View' link for a Purchase Order.
 1. Click the 'Add Items to Shopping Cart' link.
 1. The Shopping Cart page will open with all the items listed.
 1. Make any additions or changes you may need.
 1. Use the 'Custom Reference Number' to add an internal Invoice/PO number to the order. (optional)
 1. Follow the normal Checkout workflow and press the 'Place Purchase Order' button.
 
-If you have items in your shopping cart when you click the link, you will be prompted to either merge the cart items with the existing PO or you can choose to replace the items in the PO with the items in your shopping cart.
+If you have items in your shopping cart when you click the 'Add Items to Shopping Cart' link, you will be prompted to either merge the cart items with the new items or you can choose to replace the items in your shopping cart with the items in the PO.
 The original purchase order can be closed if it is no longer needed.
 
 ### Purchase Order approval
 
-From the View Purchase Order page, users, with proper Role permissions, can:
+From the View Purchase Order page, users with proper Role permissions, can:
 
 *  Approve Purchase Orders
 *  Reject Purchase Orders
@@ -135,10 +118,10 @@ For instance:
 
 Magneto lets you set up these rules to enforce company policies.
 
-To create rules, users with permissions have an 'Approval Rules' link in the left nav bar.
-Permissions to create rules are set in the Access Control List.
+To create rules, users with role permissions have an 'Approval Rules' link in the left nav bar.
+Permissions to create rules are set in the Roles and Permissions page in the left nav bar.
 
-If no rules have been created, the list is empty and a Create Rule button is displayed.
+If no rules have been created, the list is empty and the 'Create Rule' button is displayed.
 Click the button to create a new rule.
 
 On the Approval Rules form, rules can be Enabled or Disabled.
@@ -167,16 +150,16 @@ Approve the PO from the order total, including tax.
 
 For Order Total amount, choose from:
 
+*  is more than
+*  is less than
 *  is more than or equal to
 *  is less than or equal to
 
 Select the currency type and enter the amount.
 
-Some companies set a monthly spending limit per user.
-Select whether this rule limits:
-
-*  per order: Users are limited per each order.
-*  per month: Users have a monthly spending cap.
+Select the role(s) that need to approve this type of PO.
+All defined roles will be listed, a "Purchaser's Manager" option.
+Click the "Save" button to create the rule.
 
 ### Number of SKUs
 
@@ -191,15 +174,12 @@ That is 5 items but 2 distinct SKUs.
 
 Set the Number of SKUs value:
 
+*  is more than
+*  is less than
 *  is more than or equal to
 *  is less than or equal to
 
 and the quantity of SKUs to test.
-
-Select whether this rule limits:
-
-*  per order: Users are limited per each order.
-*  per month: Users have a monthly spending cap.
 
 ### Shipping cost
 
@@ -207,15 +187,12 @@ Some companies will limit or control shipping costs. Use this rule to approve or
 
 Set the Shipping cost value:
 
+*  is more than
+*  is less than
 *  is more than or equal to
 *  is less than or equal to
 
 and the shipping amount to test.
-
-Select whether this rule limits:
-
-*  per order: Shipping cost limited per each order.
-*  per month: Shipping costs are limited monthly.
 
 ## Purchase Order email templates
 
@@ -241,11 +218,10 @@ They can be found at **Stores** > **Configuration** > **Sales** > **Sales Emails
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled|Store View|When enabled, sends emails during the purchase order process. Options: Yes / No |
-| Created Purchase Order (to Buyer) | Store View | Sends an email confirmation to the purchase order creator. |
+| Created and requires Approval Purchase Order (to Buyer) | Store View | Sends an email confirmation to the purchase order creator. |
+| Created and Automatically approved Purchase Order (to Buyer) | Store View | Sends an email confirmation to the purchase order creator. |
 | Approved Purchase Order (to Buyer) | Store View | Sends an email to the creator on purchase order Approval. |
 | Rejected Purchase Order (to Buyer) | Store View | Sends an email to the creator when the purchase order has been Rejected. |
-| Modified and Approved Purchase Order (to Buyer) | Store View | Sends an email when the purchase order has been changed and Approved. |
-| Expired Purchase Order | Store View | Sends an email when a purchase order has expired. |
-| Error Purchase Order | Store View | Sends an email when an order was approved but failed to convert to an order. |
-| Purchase Order required Approval | Store View | Sends an email to notify the creator that the purchase order requires approval. |
-| Purchase Order about to expire | Store View | Sends and email when an order is close to expiring.|
+| Comment added to Purchase Order | Store View | Sends an email to the creator when a comment has been added to the PO. |
+| Error creating Order from Purchase Order (to Buyer) | Store View | Notifies creator that an error occurred when converting a PO to an order.|
+| Purchase Order required Approval (to Approver) | Store View | Sends an email to notify the approver that the purchase order requires their approval. |
