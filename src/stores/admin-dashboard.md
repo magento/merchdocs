@@ -60,11 +60,11 @@ The dashboard is the default [startup page]({% link configuration/advanced/admin
    -  Set **Current Month Starts** to the **Day**.
 
    ![Admin Dashboard - date settings]({% link images/images/config-general-reports-dashboard.png %}){: .zoom}
-   [_Beginning Date_]({% link configuration/advanced/admin.md %})
+   [_Starting Dates_]({% link configuration/advanced/admin.md %})
 
 ### Configure the data source
 
-The dashboard chart can be generated in real-time or by using historical, aggregated data. If performance is an issue, you can speed things up by using historial, aggregated data.
+The dashboard chart can be generated in real-time or by using historical, aggregated data. If performance is an issue, you can speed things up by using aggregated data.
 
 1. In the left side panel, click to expand **Sales** and choose **Sales**.
 
@@ -74,7 +74,7 @@ The dashboard chart can be generated in real-time or by using historical, aggreg
    -  For real-time data, choose `No`.
 
    ![Admin dashboard - data source setting]({% link images/images/config-sales-dashboard.png %}){: .zoom}
-   [_Data Source_]({% link configuration/advanced/admin.md %})
+   [_Dashboard Data Source_]({% link configuration/advanced/admin.md %})
 
 ## Chart Sections
 
@@ -85,7 +85,7 @@ The dashboard chart can be generated in real-time or by using historical, aggreg
 |Time Range|Determines the data that is represented in the chart and summary totals below. Options: Last 7 Days / Current Month / YTD / 2YTD|
 |Summary Totals|The revenue, tax, shipping, and quantity totals below the chart are based on the chart data and current time range setting.|
 
-## Dashboard Report Sections
+## Snapshot Data
 
 |Section|Description|
 |--- |--- |
