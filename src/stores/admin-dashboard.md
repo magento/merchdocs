@@ -49,7 +49,6 @@ The dashboard is the default [startup page]({% link configuration/advanced/admin
    ![Admin dashboard - startup page setting]({% link images/images/config-advanced-admin-startup-page.png %}){: .zoom}
    [_Startup Page_]({% link configuration/advanced/admin.md %})
 
-### Set the beginning dates
 ### Choose the starting dates
 
 1. In the left side panel under **General**, choose **Reports**.
