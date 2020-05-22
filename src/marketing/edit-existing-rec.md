@@ -1,7 +1,7 @@
 ---
 title: Edit Existing Recommendations
 tag: product-recommendations
-conditions: Default.EE Only
+ee_only: true
 ---
 
 You can modify certain settings for an existing recommendation.

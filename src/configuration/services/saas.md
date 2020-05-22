@@ -2,7 +2,7 @@
 title: Magento Services
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Services]({% link configuration/services.md %}) >  Magento Services
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Services]({% link configuration/services.md %}) > Magento Services
 
 Magento allows you to link your Magento store to a SaaS service through the Admin UI and an API key.
 
@@ -54,7 +54,7 @@ _SaaS Environment_
 
 To create a SaaS Environment, request the Magento API key from the Magento license holder for your store.
 
-1. On the _Admin_ sidebar, go to  **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Services** and choose **Magento Services**.
 
@@ -62,7 +62,7 @@ To create a SaaS Environment, request the Magento API key from the Magento licen
 
 1. Click **Save Config**.
 
-   When you save, if there are any SaaS projects associated with your API key, those projects will appear in the the **SaaS Project** field located in the **SaaS Environment** section.
+   When you save, if there are any SaaS projects associated with your API key, those projects will appear in the **SaaS Project** field located in the **SaaS Environment** section.
 
 1. If there are not any SaaS projects created, click the **Request New Project** to display the **Project Name** field and enter a name for your SaaS project.
 

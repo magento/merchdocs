@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Creating a Tag to Track Conversions
 ---
 

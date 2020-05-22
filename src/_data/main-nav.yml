@@ -1,0 +1,204 @@
+
+- label: Getting Started
+  url: /getting-started.html
+  children:
+
+  - label: About This Release
+    url: "/magento/about-this-release.html"
+
+  - label: Your Magento Account
+    url: "/magento/magento-account.html"
+
+  - label: " Quick Tour"
+    url: "/getting-started/quick-tour.html"
+
+  - label: Basic Configuration
+    url: /configuration/configuration-basic.html
+
+  - label: Magento Extensions
+    url: /magento/magento-extensions.html
+
+  - label: Magento Marketplace
+    url: /magento/magento-marketplace.html
+
+  - label: Change Log
+    url: /magento/change-log.html
+
+  - label: Resources
+    url: "/getting-started/resources.html"
+
+  - label: Contribute to the Docs
+    url: "/getting-started/contribute.html"
+
+
+- label: Catalog
+  url: /catalog.html
+  children:
+
+  - label: Catalog Menu
+    url: /catalog/catalog-menu.html
+
+  - label: Products Grid
+    url: /catalog/products.html
+
+  - label: Creating Products
+    url: /catalog/product-create.html
+
+  - label: Product Settings
+    url: /catalog/settings.html
+
+  - label: Managing Price
+    url: /catalog/pricing.html
+
+  - label: Managing Inventory
+    url: /catalog/inventory-management.html
+
+  - label: Images and Videos
+    url: /catalog/catalog-images-video.html
+
+  - label: Categories
+    url: /catalog/categories.html
+
+  - label: Product Attributes
+    url: /catalog/product-attributes.html
+
+  - label: Using a Flat Catalog
+    url: /catalog/catalog-flat.html
+
+  - label: Shared Catalogs
+    url: /catalog/catalog-shared.html
+
+- label: Marketing
+  url: /marketing.html
+  children:
+
+  - label: Marketing Menu
+    url: /marketing/marketing-menu.html
+
+  - label: Channels
+    url: /sales-channels/sales-channels-home.html
+
+  - label: Shopping Tools
+    url: /marketing/shopping-tools.html
+
+  - label: Promotions
+    url: /marketing/promotions.html
+
+  - label: Merchandising
+    url: /marketing/merchandising.html
+
+  - label: Communications
+    url: /marketing/communications.html
+
+  - label: SEO &  Search
+    url: /marketing/seo-search.html
+
+  - label: Google Tools
+    url: /marketing/google-tools.html
+
+- label: Content
+  url: /content.html
+  children:
+
+  - label: Content Menu
+    url: /cms/content-menu.html
+
+  - label: Content Elements
+    url: /cms/content-elements.html
+
+  - label: Page Builder
+    url: /cms/page-builder.html
+
+  - label: Design & Theme
+    url: /design/design-theme.html
+
+  - label: Content Staging
+    url: /cms/content-staging.html
+
+- label: Customers
+  url: /customers.html
+  children:
+
+  - label: Customers Menu
+    url: /customers/customers-menu.html
+
+  - label: Customer Accounts
+    url: /customers/customer-account.html
+
+  - label: Company Accounts
+    url: /customers/account-companies.html
+
+  - label: Customer Groups
+    url: /customers/customer-groups.html
+
+  - label: Customer Segments
+    url: /marketing/customer-segments.html
+
+- label: Sales
+  url: /sales.html
+  children:
+
+  - label: Sales Menu
+    url: /sales/sales-menu.html
+
+  - label: Point of Purchase
+    url: /sales/point-of-purchase.html
+
+  - label: Order Management
+    url: /sales/order-management.html
+
+  - label: Payments
+    url: /payment/payments.html
+
+  - label: Shipping
+    url: /shipping/shipping.html
+
+- label: Operations
+  url: /operations.html
+  children:
+
+  - label: Stores
+    url: /stores/stores.html
+
+  - label: System
+    url: /system/system.html
+
+  - label: Reports
+    url: /reports.html
+
+- label: Configuration Reference
+  url: /stores/configuration.html
+  children:
+
+  - label: Magento Modes
+    url: "/magento/installation-modes.html"
+
+  - label: General
+    url: "/configuration/general.html"
+
+  - label: Catalog
+    url: "/configuration/catalog.html"
+
+  - label: Security
+    url: "/configuration/security.html"
+
+  - label: Customers
+    url: "/configuration/customers.html"
+
+  - label: Sales
+    url: "/configuration/sales.html"
+
+  - label: Sales Channels
+    url: "/configuration/sales-channels.html"
+
+  - label: Yotpo
+    url: "/configuration/yotpo.html"
+
+  - label: dotdigital
+    url: "/configuration/dotdigital.html"
+
+  - label: Services
+    url: "/configuration/services.html"
+
+  - label: Advanced
+    url: "/configuration/advanced.html"

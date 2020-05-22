@@ -4,22 +4,14 @@ title: Account Information
 
 The basic account information includes your name and email address, and password, and can be maintained from your account dashboard.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/account-dashboard-account-information.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
-![]({% link images/images-ee/account-dashboard-account-information.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
 ![]({% link images/images-b2b/customer-account-dashboard-account-information.png %}){: .zoom}
-<!--{% endif %}-->
-_Account Information_
+_Account Information_{:.b2b-only}
 
-## To update your account information:
+## Update your account information
 
 In the sidebar of your account, choose **Account Information**. Then, do any of the following:
 
-### Update Your Name
+### Update your name
 
 1. Update your **First Name** and **Last Name** as needed.
 
@@ -27,7 +19,7 @@ In the sidebar of your account, choose **Account Information**. Then, do any of 
 
 1. Click <span class="btn">Save</span>.
 
-### Change Your Email Address
+### Change your email address
 
 1. Select the **Change Email** checkbox.
 
@@ -37,18 +29,10 @@ In the sidebar of your account, choose **Account Information**. Then, do any of 
 
 1. Click <span class="btn">Save</span>.
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/account-dashboard-account-information-change-email-address.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE Only" contains site.edition %}-->
     ![]({% link images/images-ee/account-dashboard-account-information-change-email-address.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
-    ![]({% link images/images-b2b/customer-account-dashboard-account-information-change-email-address.png %}){: .zoom}
-    <!--{% endif %}-->
-    _Change Email Address_
+    _Change Email Address_{:.ee-only}
 
-### Change Your Password
+### Change your password
 
 1. Select the **Change Password** checkbox.
 
@@ -58,13 +42,5 @@ In the sidebar of your account, choose **Account Information**. Then, do any of 
 
 1. When you are ready, enter it again to confirm.
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/account-dashboard-account-information-change-password.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE Only" contains site.edition %}-->
     ![]({% link images/images-ee/account-dashboard-account-information-change-password.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.B2B Only" contains site.edition %}-->
-    ![]({% link images/images-b2b/customer-account-dashboard-account-information-change-password.png %}){: .zoom}
-    <!--{% endif %}-->
-    _Change Password_
+    _Change Password_{:.ee-only}

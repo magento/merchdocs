@@ -1,7 +1,7 @@
 ---
 title: Best Practices Using Recommendations
 tag: product-recommendations
-conditions: Default.EE Only
+ee_only: true
 ---
 
 This section includes best practices using recommendations on your storefront.

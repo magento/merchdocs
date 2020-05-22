@@ -1,28 +1,20 @@
 ---
 title: Adding New Blocks
 ---
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 
 {:.bs-callout-info}
-The following instructions apply only if your Magento installation does not have Page Builder enabled. To learn how to add blocks with Page Builder, see [Tutorial 2: Blocks]({% link cms/page-builder-tutorial2-blocks.md %}).
-<!--{% endif %}-->
+The following instructions apply only if your Magento installation **does not** have Page Builder  enabled. To learn how to add blocks with Page Builder, see [Tutorial 2: Blocks]({% link cms/page-builder-tutorial2-blocks.md %}) (<span class="ee-only"></span>).
 
-Custom blocks of content can be created, and then added to any page, group of pages, or even to another block. For example, you might place an image slider in a block, and then place the block on the home page. The Blocks workspace uses the same [basic controls]({% link cms/pages-workspace.md %}) as the Pages workspace to help you find available blocks and perform routine maintenance. When the block is complete, you can use the [Widget]({% link cms/widget-static-block.md -%}) tool to place it on specific page(s) in your store.
+Custom blocks of content can be created, and then added to any page, group of pages, or even to another block. For example, you might place an image slider in a block, and then place the block on the home page. The Blocks workspace uses the same [basic controls]({% link cms/pages-workspace.md %}) as the Pages workspace to help you find available blocks and perform routine maintenance. When the block is complete, you can use the [Widget]({% link cms/widget-static-block.md %}) tool to place it on specific page(s) in your store.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/blocks-workspace.png %}){: .zoom}
-_Blocks Workspace_
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![]({% link images/images-ee/blocks-workspace.png %}){: .zoom}
-_Blocks Workspace_
-<!--{% endif %}-->
+_Blocks Workspace_{:.ee-only}
 
-## To create a block:
+## Create a block
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Blocks**.
 
-1. In the upper-right corner, click <span class="btn">Add New Block</span>. Then, do the following:
+1. In the upper-right corner, click <span class="btn">Add New Block</span> and do the following:
 
    ![]({% link images/images/block-detail.png %}){: .zoom}
    _Block Detail Information_
@@ -49,9 +41,9 @@ _Blocks Workspace_
 
     The new block appears at the bottom of the list in the Blocks grid.
 
-1. Use the [Widget]({% link cms/widget-static-block.md -%}) tool to place the completed block on a specific page in your store.
+1. Use the [Widget]({% link cms/widget-static-block.md %}) tool to place the completed block on a specific page in your store.
 
-## Save Menu
+## Save menu
 
 | Command | Description |
 |----------

@@ -10,7 +10,7 @@ Coupons codes are used with [cart price rules]({% link marketing/price-rules-car
 
 Coupon codes can be sent by email, or included in newsletters, catalogs, and advertisements. The list of coupon codes can be exported and sent to a commercial printer. You can also create in-store coupons with a quick response code that shoppers can scan with their smart phones. The QR code can link to a page on your site with more information about the promotion.
 
-If [dotdigital]({% link marketing/engagement-cloud.md %}) is enabled, you can use the _dotdigital Coupon URL Builder_ to dynamically generate personalized URLs with coupon codes that can be used in your dotdigital email campaigns. You can also resend a previously generated coupon code to the same contact. To learn more, see [Dynamic content: Coupon codes - Magento 2][1] in the dotdigital Help Centre.
+If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled, you can use the _dotdigital Coupon URL Builder_ to dynamically generate personalized URLs with coupon codes that can be used in your dotdigital email campaigns. You can also resend a previously generated coupon code to the same contact. To learn more, see [Dynamic content: Coupon codes - Magento 2][1] in the dotdigital Help Centre.
 
 ## Method 1: Create a specific coupon
 
@@ -34,32 +34,31 @@ If [dotdigital]({% link marketing/engagement-cloud.md %}) is enabled, you can us
 
 1. To make the coupon valid for a period of time, do the following:
 
-    <!--{%- if "Default.CE Only" contains site.edition -%}-->
-    Complete the **From** and **To** dates. To select the date, click the **Calendar** (![]({% link images/images/btn-calendar.png %})) icon next to each field. If you leave the date range empty, the rule does not expire.
-    <!--{%- endif -%}-->
-    <!--{%- if "Default.EE-B2B" contains site.edition -%}-->
-   **Schedule new update**
+   - {:.ce-only}Complete the **From** and **To** dates. To select the date, click the **Calendar** (![]({% link images/images/btn-calendar.png %})) icon next to each field. If you leave the date range empty, the rule does not expire.
 
-   - Click <span class="btn">Schedule New Update</span> in the upper-right corner of the page. Then, do the following:
+   - {:.ee-only}Do one of the following:
 
-      ![]({% link images/images/price-rule-cart-coupon-schedule-new-update.png %}){: .zoom}
-      _Schedule Update_
+      **Schedule New Update**
 
-   - Enter the **Update Name** and **Description**.
+      - Click <span class="btn">Schedule New Update</span> in the upper-right corner of the page. Then, do the following:
 
-   - Choose the **Start Date** and **End Date** from the Calendar ( ![Calendar icon]({% link images/images/btn-calendar.png %}) ). If you leave the date range empty, the rule will not expire.
+        ![]({% link images/images/price-rule-cart-coupon-schedule-new-update.png %}){: .zoom}
+        *Schedule Update*
 
-   - When complete, click <span class="btn">Save</span>.
+      - Enter the **Update Name** and **Description**.
 
-      ![Cart price rule - scheduled change]({% link images/images/price-rule-cart-coupon-scheduled-change.png %}){: .zoom}
-      _Scheduled Change_
+      - Choose the **Start Date** and **End Date** from the Calendar ( ![Calendar icon]({% link images/images/btn-calendar.png %}) ). If you leave the date range empty, the rule will not expire.
 
-   **Assign to existing update**
+      - When complete, click <span class="btn">Save</span>.
 
-   - Select **Assign to Another Update**.
+        ![Cart price rule - scheduled change]({% link images/images/price-rule-cart-coupon-scheduled-change.png %}){: .zoom}
+        _Scheduled Change_
 
-   - Find the update in the list, and click <span class="btn">Select</span>.
-   <!--{%- endif -%}-->
+      **Assign to Existing Update**
+
+      - Select **Assign to Another Update**.
+
+      - Find the update in the list, and click <span class="btn">Select</span>.
 
 1. Complete the [cart price rule]({% link marketing/price-rules-cart.md %}) as needed.
 
@@ -92,8 +91,10 @@ The generation of discount coupons is an asynchronous operation, which executes 
       - `Numeric`
 
    - (Optional) Enter a **Code Prefix** to be added to the beginning of the code.
+
    - (Optional) Enter a **Code Suffix** to be added to the end of the code.
-   - (Optional) For **Dash Every X Characters**, enter the number of characters between each dash. For example, if the code is twelve characters long, and there is a dash every four characters, it will look like ` xxxx-xxxx-xxxx`. Dashes make codes easier to read and enter.
+
+   - (Optional) In the **Dash Every X Characters** field, enter the number of characters between each dash. For example, if the code is twelve characters long, and there is a dash every four characters, it will look like ` xxxx-xxxx-xxxx`. Dashes make codes easier to read and enter.
 
 1. When complete, click <span class="btn">Generate</span>.
 
