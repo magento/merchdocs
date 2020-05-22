@@ -8,10 +8,10 @@ Your Magento account contains information that can be useful to trusted employee
 {:.bs-callout-info}
 All actions taken by users with shared access to your account are your sole responsibility. Magento Inc. is not responsible for any actions taken by users to whom you grant shared account access.
 
-![]({% link images/images/magento-account-shared.png %}){: .zoom}
+![]({% link images/images/magento-account-shareded-access.png %}){: .zoom}
 _Shared Access_
 
-## To set up a shared account:
+## Set up a shared account:
 
 1. Before you begin, get the following information from the Magento account of the **new user**:
 
@@ -43,7 +43,7 @@ _Shared Access_
     ![]({% link images/images/magento-account-shared-manage-permissions.png %}){: .zoom}
     _Manage Permissions_
 
-## To access a shared account:
+## Access a shared account:
 
 1. When you receive the invitation to a shared account, log in to your own Magento account.
 
@@ -55,5 +55,10 @@ _Shared Access_
 
     ![]({% link images/images/magento-account-shared-switch.png %}){: .zoom}
     _Switch Accounts_
+
+1. In the left panel of your account, click **Support** to establish the shared connection with Magento Support.
+
+    ![]({% link images/images/magento-account-support.png %}){: .zoom}
+    _Support_
 
 1. When you are ready to return to your own account, set **Switch Accounts** to “My Account”.
