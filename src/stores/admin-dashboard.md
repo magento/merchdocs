@@ -3,9 +3,9 @@ title: Dashboard
 group: getting-started
 ---
 
-The dashboard is usually the first page that appears when you log in to the Admin, and provides a real-time overview  of sales and customer activity. The dashboard data includes lifetime sales, average order amount, recent orders, and search terms. The graph shows completed orders and amounts for the selected date range. The tabs at the bottom provide quick reports of your best-selling products, most viewed products, new customers, and customers who have purchased the most.
+The dashboard is usually the first page that appears when you log in to the Admin, and provides a real-time overview of sales and customer activity. The dashboard data provides a snapshot of lifetime sales, average order amount, recent orders, and search terms. The graph shows completed orders and amounts for the selected date range. The tabs at the bottom provide quick reports of your best-selling products, most viewed products, new customers, and customers who have purchased the most.
 
-If you have a lot of data to process, the chart can be turned off to improve performance. The dashboard in the following example is set to use real-time data, and shows completed orders by the hour for the last twenty-four hours. The chart is updated as the status of each order changes to `Complete`.
+If you have a lot of data to process, the chart can be turned off to improve performance. The dashboard in the following example is configured to use real-time data, and shows completed orders by the hour for the last twenty-four hours. The chart is updated for each completed order.
 
 ![]({% link images/images/dashboard-full.png %}){: .zoom}
 _Dashboard_
@@ -21,9 +21,11 @@ _Advanced Reporting_
 
 1. When the configuration is complete, click <span class="btn">Save Config</span>.
 
-1. After saving the changes, click **Cache Management** and refresh any invalid cache.
+1. After saving the changes, click **Cache Management** and refresh every invalid cache.
 
 ### Enable charts
+
+If you have a large amount of data to process, you can turn off the display of the chart to improve performance.  When not enabled, the message "No Data Found" appears in place of the chart, although the summary totals below are still generated.
 
 1. In the left side panel under **Advanced**, choose **Admin**.
 
@@ -44,12 +46,11 @@ The dashboard is the default [startup page]({% link configuration/advanced/admin
 
 1. Clear the **Use system value** checkbox and choose the **Startup Page** that you want to appear when you log in to the Admin.
 
-   The list includes every page available from the Admin.
-
    ![Admin dashboard - startup page setting]({% link images/images/config-advanced-admin-startup-page.png %}){: .zoom}
    [_Startup Page_]({% link configuration/advanced/admin.md %})
 
 ### Set the beginning dates
+### Choose the starting dates
 
 1. In the left side panel under **General**, choose **Reports**.
 
@@ -62,18 +63,16 @@ The dashboard is the default [startup page]({% link configuration/advanced/admin
    ![Admin Dashboard - date settings]({% link images/images/config-general-reports-dashboard.png %}){: .zoom}
    [_Beginning Date_]({% link configuration/advanced/admin.md %})
 
-### Configure the chart
+### Configure the data source
 
-If you have a lot of data to process, you can turn off the display of the chart to improve performancde.  The message "No Data Found" appears in place of the chart, although the summary totals are calculated.
+The dashboard chart can be generated in real-time or by using historical, aggregated data. If performance is an issue, you can speed things up by using historial, aggregated data.
 
 1. In the left side panel, click to expand **Sales** and choose **Sales**.
 
-1. Click to expand the **Dashboard** section.
+1. In the **Dashboard** section, clear the **Use system value** checkbox and set **Use Aggregated Data** to one of the following:
 
-1. Clear the **Use system value** checkbox and set **Use Aggregated Data** to one of the following:
-
-   -  To hide the chart, choose `Yes`.
-   -  To generate the chart, choose `No`.
+   -  For historical, aggregated data, choose `Yes`.
+   -  For real-time data, choose `No`.
 
    ![Admin dashboard - data source setting]({% link images/images/config-sales-dashboard.png %}){: .zoom}
    [_Data Source_]({% link configuration/advanced/admin.md %})
