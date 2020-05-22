@@ -18,7 +18,11 @@ sections:
     content: Personalize email notifications and sales documents to support your brand. Create newsletters, and manage subscriptions.
     url: /marketing/communications.html
 
-  - title: SEO &amp; Search
+  - title: <span class="ee-only">Merchandising</span>
+    content: Magento Commerce users can also learn to use Merchandising tools to apply merchandising techniques to design category-based navigation and dynamic presentation of products.
+    url: /marketing/merchandising.html
+
+  - title: SEO and Search
     content: Learn about the search tools that are available to your customers. Fine-tune the configuration of your store to increase sales, and learn best practices and techniques to support your SEO initiative.
     url: /marketing/seo-search.html
 
@@ -27,10 +31,6 @@ sections:
     url: /marketing/google-tools.html
 ---
 
-In this section of the guide, you’ll learn how to leverage the available  shopping tools to create opportunities for customer engagement, and how to set up targeted promotions with price rules. You can also leverage multiple sales channels by sending your product feeds to shopping sites and marketplaces. Then, use Google tools to analyze traffic, optimize your content, and plan your next campaign. All of these tools are available from the [Marketing menu]({% link marketing/marketing-menu.md %}).
-
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-Magento Commerce users can also learn to use [Merchandising tools]({% link marketing/promotions.md %}) to apply merchandising techniques to design category-based navigation and dynamic presentation of products.
-<!--{% endif %}-->
+In this section of the guide, you’ll learn how to leverage the available  shopping tools to create opportunities for customer engagement, and how to set up targeted promotions with price rules. All of these tools are available from the [Marketing menu]({% link marketing/marketing-menu.md %}).
 
 {% include grid.html sections=page.sections%}

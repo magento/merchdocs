@@ -17,9 +17,7 @@ Complete [Step 2]({% link marketing/price-rules-cart.md %}) of the cart instruct
 - Product attributes
 - Products
 - Cart attributes
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-- Customer segments
-<!--{% endif %}-->
+- {:.ee-only}Customer segments
 
 If left blank, the rule is triggered for every cart.
 

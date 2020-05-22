@@ -1,7 +1,7 @@
 ---
 title: Create New Recommendation
 tag: product-recommendations
-conditions: Default.EE Only
+ee_only: true
 ---
 
 When you create a recommendation, you are creating what is called a *recommendation unit*:

@@ -4,11 +4,11 @@ title: Promotions
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) > Promotions
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{:.ee-only}
 ## Automated Email Reminder Rules
 
 ![]({% link images/images-ee/config-customers-promotions-automated-email-reminder-rules.png %}){: .zoom}
-[_Automated Email Reminder Rules_]({% link marketing/email-reminder-rules-configure.md %})
+_[Automated Email Reminder Rules]({% link marketing/email-reminder-rules-configure.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -20,7 +20,6 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 |Email Send Failure Threshold|Global|The number of times the reminder attempts to send out notifications to specific email address and fails. When the value is set to 0, there is no threshold, and notifications will keep being sent despite any failures.|
 |Reminder Email Sender|Store View|The store identity that appears as the sender of the email.|
 
-<!--{% endif %}-->
 ## Auto Generated Specific Coupon Codes
 
 ![]({% link images/images/config-customers-promotions-auto-generated-specific-coupon-codes.png %}){: .zoom}

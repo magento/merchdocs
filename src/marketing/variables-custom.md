@@ -41,8 +41,8 @@ Only whitelisted [predefined]({% link marketing/variables-predefined.md %}) or c
 
 ## Step 2: Insert the custom variable
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-The following example shows how to insert a variable into a page.
+{:.ce-only}
+### Example - insert a variable into a page
 
 1. Open the CMS page or block where the variable is to appear.
 
@@ -63,10 +63,9 @@ The following example shows how to insert a variable into a page.
    _Custom Variable Code_
 
 1. When complete, click <span class="btn">Save</span>.
-<!--{% endif %}-->
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-The following example shows how to use [Page Builder]({% link cms/page-builder.md %}) to insert a custom variable into a page.
+{: .ee-only}
+### Example - use [Page Builder]({% link cms/page-builder.md %}) to insert a custom variable
 
 1. Open the page or block where the variable is to appear.
 
@@ -94,4 +93,3 @@ The following example shows how to use [Page Builder]({% link cms/page-builder.m
    _Variable Placeholder_
 
 1. When complete, click <span class="btn">Save</span>.
-<!--{% endif %}-->

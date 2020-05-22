@@ -4,18 +4,10 @@ title: My Downloadable Products
 
 The My Downloadable Products page links to each order of downloadable products. The downloads become available from the customer's account as soon as the order is complete.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/customer-account-my-downloadable-products.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
 ![]({% link images/images-ee/customer-account-my-downloadable-products.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({% link images/images-b2b/customer-account-my-downloadable-products.png %}){: .zoom}
-<!--{% endif %}-->
-_My Downloadable Products_
+_My Downloadable Products_{:.ee-only}
 
-## To download a product:
+## Download a product
 
 1. In your account, choose **My Downloadable Products**.
 

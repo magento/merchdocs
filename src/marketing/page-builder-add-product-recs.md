@@ -1,10 +1,7 @@
 ---
-conditions: Default.EE Only
+ee_only: true
 title: Add Product Recommendations
 ---
-
-{:.bs-callout-info}
-The content on this page is for Magento Commerce only.
 
 Use the Product Recommendations content type to add an existing, active [recommendation unit]({% link marketing/create-new-rec.md %}) to a page, block, or dynamic block.
 

@@ -170,7 +170,7 @@ _Catalog Sync Settings_
 |--- |--- |--- |
 |Catalog Values|Website|Determines the scope of the catalog synchronization. Options: Default Level / Store Level|
 |Catalog Visibility|Website|Specifies which products are exported to dotdigital. If left blank, the default setting is "Catalog, Search". To select multiple visibility settings, hold down the Ctrl key (PC) or Command key (Mac) and click each option. Options: Not Visible Individually / Catalog / Search / Catalog, Search|
-|Catalog Type|Website|Specifies which product types are exported to dotdigital. If left blank, the default setting is "Simple Product". To select multiple product types, hold down the Ctrl key (PC) or Command key (Mac) and click each option. Options:  Simple Product / Virtual Product / Bundle Product / Configurable Product / Downloadable Product<!--{% if "Default.EE-B2B" contains site.edition %}--> / Gift Card<!--{% endif %}--> / Grouped Product|
+|Catalog Type|Website|Specifies which product types are exported to dotdigital. If left blank, the default setting is "Simple Product". To select multiple product types, hold down the Ctrl key (PC) or Command key (Mac) and click each option. Options:  Simple Product / Virtual Product / Bundle Product / Configurable Product / Downloadable Product / <span class="ee-only">Gift Card</span> / Grouped Product|
 
 ## Customer Preference
 
