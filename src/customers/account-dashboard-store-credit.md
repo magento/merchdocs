@@ -1,19 +1,14 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Store Credit
 ---
 
 The Store Credit section of your account dashboard lists amounts from returns and refunds that can be applied to future purchases. You can also redeem the value from a gift card.
 
-<!--{% if "Default.EE Only" contains site.edition %}-->
 ![]({% link images/images-ee/account-dashboard-store-credit.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![]({% link images/images-b2b/customer-account-dashboard-store-credit.png %}){: .zoom}
-<!--{% endif %}-->
 _Store Credit_
 
-## To apply store credit during checkout:
+## Apply store credit during checkout
 
 1. Determine the amount of available store credit.
 

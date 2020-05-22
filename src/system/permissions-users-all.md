@@ -6,12 +6,7 @@ When your store is first installed, a default Admin account is created with logi
 
 If there are others on your team, or service providers who need access, you can create a separate user account for each, and assign restricted access based on their business need to know. To limit the websites or stores that users can access when they log in to the Admin, you must first create a role with limited scope and only the necessary resources selected. Then, you can assign the role to a specific user account. Admin users who are assigned to a restricted role can see and change data only for websites or stores that are associated with the role. They cannot make changes to any global settings or data.
 
-<!--{% if "Default.CE Only,Default.EE Screenshot" contains site.edition %}-->
 ![User types for your Magento Admin]({% link images/images/merchant-admin-users.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
-![User types for your Magento Admin]({% link images/images-b2b/merchant-admin-users.png %}){: .zoom}
-<!--{% endif %}-->
 _Example Admin Users_
 
 ## Step 1: Create a new user

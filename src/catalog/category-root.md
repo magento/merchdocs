@@ -19,14 +19,8 @@ The following example shows how to create a new root category and assign it to a
 
 1. On the left, click <span class="btn">Add Root Category</span>.
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/category-root.png %}){: .zoom}
-    _New Root Category_
-    <!--{% endif %}-->
-    <!--{% if "Default.EE-B2B" contains site.edition %}-->
     ![]({% link images/images-ee/category-root-ee.png %}){: .zoom}
-    _New Root Category_
-    <!--{% endif %}-->
+    _New Root Category_{:.ee-only}
 
 1. Assign a **Category Name**.
 
@@ -34,7 +28,7 @@ The following example shows how to create a new root category and assign it to a
 
 1. If you want to add products to the catalog from the current catalog, do the following:
 
-   - Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the _Products in Category_ section.
+   - Expand ![]({% link images/images/btn-expand.png %}) the _Products in Category_ section.
 
    - Use the [search filters]({% link stores/admin-grid-controls.md %}) to find the products you want and select the checkbox for each product that you want to copy into the new catalog.
 

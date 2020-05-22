@@ -8,7 +8,7 @@ Instant Purchase
 :  Simplify ordering and boost conversion rates by allowing your customers to [speed through checkout]({% link sales/checkout-instant-purchase.md %}) by using stored payment and shipping information.
 
 Shopping Assistance
-:  [Assisted shopping]({% link sales/shopping-assistance.md %}) makes it easy for customer service reps to create orders for customers.{% if "Default.EE-B2B" contains site.edition %} Customer service reps have access to shopping cart contents, and can move items from a wish list to a shopping cart, apply coupon codes, and more.{% endif %}
+:  [Assisted shopping]({% link sales/shopping-assistance.md %}) makes it easy for customer service reps to create orders for customers. In Magento Commerce, customer service reps have access to shopping cart contents, and can move items from a wish list to a shopping cart, apply coupon codes, and more.
 
 Security
 :  Whether an order is fulfilled online or over the phone, Magento provides [sophisticated security]({% link stores/security.md %}), including [CAPTCHA]({% link stores/security-captcha.md %}) and SSL encryption, with best-in-breed encryption and hashing algorithms to protect the security of the system.

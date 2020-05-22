@@ -35,6 +35,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Failure History Lifetime|Store View|Determines the number of minutes that the record of failed cron jobs is kept in the database.|
 |Use Separate Process|Store View|Determines if cron jobs are executed in parallel as separate processes. Options: Yes / No|
 
+{:.ee-only}
 ## MySQL Message Queue Cleanup
 
 ![]({% link images/images/config-advanced-system-mysql-message-queue-cleanup.png %}){: .zoom}
@@ -98,7 +99,7 @@ _MySQL Message Queue Cleanup_
 |Frequency|Global|Determines how often the scheduled backup takes place. Options: Daily, Weekly, Monthly|
 |Maintenance Mode|Global|Determines if the store is put in Maintenance Mode during the scheduled backup. Options: Yes / No|
 
-<!--{% if "Default.EE Only" contains site.edition %}-->
+{:.ee-only}
 ## Admin Actions Log Archiving
 
 ![]({% link images/images/config-advanced-system-admin-actions-log-archiving.png %}){: .zoom}
@@ -109,7 +110,6 @@ _MySQL Message Queue Cleanup_
 |Log Entry Lifetime, Days|Store View|Determines the number of days that admin actions are kept in the Admin Actions archive. Default: 60|
 |Log Archiving Frequency|Store View|Determines how often the Admin Actions logs are archived. Options: Daily, Weekly, Monthly|
 
-<!--{% endif %}-->
 ## Full Page Cache
 
 ![]({% link images/images/config-advanced-system-full-page-cache.png %}){: .zoom}
@@ -154,7 +154,7 @@ Varnish Caching - Recommended for the production environment.
 |Synchronize||Synchronizes the transfer of all media to the specified database location.|
 |Environment Update Time|Global|Determines the frequency of the media file environment updates in seconds. Default value: 3600|
 
-<!--{% if "Default.EE Only" contains site.edition %}-->
+{:.ee-only}
 ## Bulk Actions
 
 ![]({% link images/images-ee/config-advanced-system-bulk-actions.png %}){: .zoom}
@@ -164,6 +164,7 @@ Varnish Caching - Recommended for the production environment.
 |--- |--- |--- |
 |Days Saved in Log|Global|Determines the number of days that bulk actions are kept in the Bulk Actions Log archive. Default: 60|
 
+{:.ee-only}
 ## Scheduled Import/Export File History Cleaning
 
 ![]({% link images/images-ee/config-advanced-system-scheduled-import-export-file-history-cleaning.png %}){: .zoom}
@@ -180,16 +181,10 @@ Varnish Caching - Recommended for the production environment.
 |Error Email Sender|Global|Identifies the store contact that appears as the sender of the notification. Default sender: General Contact|
 |Error Email Template|Global|Identifies the email template that is used for the import/export file cleaning error notification. Default template: File History Clean Failed|
 
-<!--{% endif %}-->
 ## Image Upload Configuration
 
 ![]({% link images/images/system-image-upload-configuration.png %}){: .zoom}
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 [_Image Upload Configuration_]({% link system/action-log-bulk-actions.md %})
-<!--{% endif %}-->
-<!--{% if "Default.CE Only" contains site.edition %}-->
-_Image Upload Configuration_
-<!--{% endif %}-->
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

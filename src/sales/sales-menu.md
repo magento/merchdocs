@@ -4,28 +4,20 @@ title: Sales Menu
 
 The Sales menu lists transactions according to where they are in the order workflow. You might think of each of option as a different stage in the lifetime of an order.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/admin-menu-sales.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
-![]({% link images/images-ee/admin-menu-sales-ee.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
 ![]({% link images/images-b2b/admin-menu-sales-b2b.png %}){: .zoom}
-<!--{% endif %}-->
-_Sales Menu_
+_Sales Menu_{:.b2b-only}
 
-## To display the Sales menu:
+## Display the Sales menu
 
 On the _Admin_ sidebar, click **Sales**.
 
-## Menu Options
+## Menu options
 
-<!--{% if "Default.B2B Only" contains site.edition %}-->
+{:.b2b-only}
 ### Quotes
 
 Authorized buyers can negotiation the [price]({% link sales/quotes.md %}) with the seller by sending a [request]({% link sales/quote-price-negotiation.md %}) from the shopping cart.
-<!--{% endif %}-->
+
 ### Orders
 
 When an [order]({% link sales/orders.md %}) is placed, a sales order is created as a temporary record of the transaction. Payment has not been processed, and the order can still be canceled.
@@ -46,11 +38,11 @@ For [Magento Shipping]({% link shipping/magento-shipping.md %}), lists shipments
 
 For [Magento Shipping]({% link shipping/magento-shipping.md %}), create [batches]({% link shipping/magento-shipping-batch-create.md %}) of shipments that can be booked together.
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{:.ee-only}
 ### Returns
 
 A [returned merchandise authorization]({% link sales/returns.md %}) (RMA) can be granted to customers who request to return an item for replacement or refund. RMAs can be issued for Simple, Grouped, Configurable, and Bundle product types. However, RMAs are not available for virtual and downloadable products, or gift cards.
-<!--{% endif %}-->
+
 ### Billing Agreements
 
 A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is similar to a purchase order, except that it isn’t limited to a single purchase. During checkout, the customer chooses Billing Agreement as the payment method. A billing agreement streamlines the checkout process because the customer doesn’t have to enter payment information for each purchase.
@@ -59,8 +51,7 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is simila
 
 The [Transactions]({% link sales/transactions.md %}) page lists all payment activity that has taken place between your store and all payment systems, and provides access to more detailed information.
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{:.ee-only}
 ### Archive
 
 [Archiving orders]({% link sales/transactions.md %}) and other sales documents on a regular basis improves performance and keeps your workspace free of unnecessary information.
-<!--{% endif %}-->

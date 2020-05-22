@@ -88,7 +88,7 @@ That's it! Magento Docs team members will review and merge your pull request so 
 
 ### Author a new page
 
-We recognize that our partners and customers have a great deal of knowledge from their real-world experiences with Magento. When you share your knowledge, all of the Magento community members benefit. A new page based on how you solved an ecommerce requirement in Magento is a great addition to our User Guide.
+We recognize that our partners and customers have a great deal of knowledge from their real-world experiences with Magento. When you share your knowledge, all of the Magento community members benefit. A new page based on how you solved an eCommerce requirement in Magento is a great addition to our User Guide.
 
 Our [GitHub wiki][5] provides detailed information about authoring content, our markdown syntax, and page navigation.
 

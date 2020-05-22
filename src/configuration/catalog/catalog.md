@@ -104,19 +104,13 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Price
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/config-catalog-catalog-price.png %}){: .zoom}
-_[Price]({% link catalog/catalog-price-scope.md %})_
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 ![]({% link images/images-ee/config-catalog-catalog-price.png %}){: .zoom}
-_[Price]({% link catalog/catalog-price-scope.md %})_
-<!--{% endif %}-->
+_[Price]({% link catalog/catalog-price-scope.md %})_{:.ee-only}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Catalog Price Scope|Global|Determines the scope of the base currency. Options: Global / Website.|<!--{% if "Default.EE-B2B" contains site.edition %}-->
-|Default Product Price|Global|Defines the default product price, if applicable.|<!--{% endif %}-->
+|Catalog Price Scope|Global|Determines the scope of the base currency. Options: Global / Website.|
+|<span class="ee-only">Default Product Price</span>|Global|Defines the default product price, if applicable.|
 
 ## Layered Navigation
 
@@ -136,7 +130,7 @@ _[Price]({% link catalog/catalog-price-scope.md %})_
 |Default Price Navigation Step|Store View|Determines the number of products that are included in each step.|
 |Maximum Number of Price Intervals|Store View|Establishes a limit for the number of price intervals that appear in layered navigation.|
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{:.ee-only}
 ## Category Permissions
 
 ![]({% link images/images-ee/config-catalog-catalog-category-permissions.png %}){: .zoom}
@@ -150,7 +144,6 @@ _[Price]({% link catalog/catalog-price-scope.md %})_
 |Allow Adding to Cart|Website|Determines who can purchase products from the category. Options: <br/>Yes, for Everyone - Allows everyone to place products from the category into their shopping carts. <br/>Yes, for Specified Customer Groups - Allows only members of selected customer groups to place products from the category into their shopping carts. <br/>No - Does not allow anyone to place products from the category into their shopping carts.|
 |Disallow Catalog Search by|Website|Identifies the customer groups that are not allowed to search for products in the category.|
 
-<!--{% endif %}-->
 ## Search Engine Optimization
 
 ![]({% link images/images/config-catalog-catalog-search-engine-optimization.png %}){: .zoom}
@@ -234,7 +227,7 @@ Magento supports several versions of Elasticsearch.
 |Time Format|Store View|Sets the time format to either a  twelve or twenty-four hour clock. Options: 12h AM/PM / 24h|
 |Year Range|Store View|Defines the beginning and ending range of years that appear in the drop-down Year field. The value must be entered in YYYY format.|
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{:.ee-only}
 ## Catalog Events
 
 ![]({% link images/images-ee/config-catalog-catalog-events.png %}){: .zoom}
@@ -247,6 +240,7 @@ Magento supports several versions of Elasticsearch.
 |Number of Events to be Displayed in the Event Slider Widget|Store View|Determines the number of events that appear in the Event Slider widget on the category pages. To override, use the `limit=”x”` variable.|
 |Events to Scroll per Click in Event Slider Widget|Store View|Determines the number of events that appear in the Event Slider widget on CMS pages, such as the home page. To override, use the `scroll=”x”` variable.|
 
+{:.ee-only}
 ## Rule-Based Product Relations
 
 ![]({% link images/images/config-catalog-catalog-rule-based-product-relations.png %}){: .zoom}
@@ -263,5 +257,3 @@ Magento supports several versions of Elasticsearch.
 |Maximum Number of Products in Upsell Product List|Global|Determines the maximum number of products that can appear in the Upsell Products list.|
 |Show Upsell Products|Global|Determines which list of up-sell products appears in the store. It can be either the list that is selected manually in the Product Information, the list that is generated in response to a product relationship rule, or a combination of the two. Options: Both Selected and Rule-Based / Selected Only / Rule-Based Only|
 |Rotation Mode for Products in Upsell Product List|Global|Determines the order in which products in the Upsell Product list appear. Options: Do not rotate / Shuffle|
-
-<!--{% endif %}-->

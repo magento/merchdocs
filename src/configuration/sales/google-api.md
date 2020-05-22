@@ -4,28 +4,20 @@ title: Google API
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Google API
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
 ## Google Analytics
 
-![]({% link images/images/config-sales-google-api-google-analytics.png %}){: .zoom}
-_Google Analytics_
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-## Google Analytics - Universal Analytics
-
 ![]({% link images/images-ee/config-sales-google-api-google-analytics-ee.png %}){: .zoom}
-[_Google Analytics - Universal Analytics_]({% link marketing/google-universal-analytics.md %})
-<!--{% endif %}-->
+_[Google Analytics]({% link marketing/google-universal-analytics.md %})_{:.ee-only}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enable|Store View|Enables Google Analytics for your store. Options: Yes / No|<!--{% if "Default.EE-B2B" contains site.edition %}-->
-|Account Type|Store View|Determines the configuration options according to your Google Analytics account type. Options: Universal Analytics (default) / Google Tag Manager|<!--{% endif %}-->
+|Enable|Store View|Enables Google Analytics for your store. Options: Yes / No|
 |Account Number|Store View|The account number, or tracking code, that was assigned when you created your Google Analytics account.|
 |Anonymize IP|Store View|Determines if identifying information is removed from IP addresses that appear in Google Analytics results.|
 |Enable Content Experiments|Store View|Activates [Google Content Experiments](https://support.google.com/analytics/answer/1745147?hl=en&ref_topic=1745207), which can be used to test up to ten different versions of the same page. Options: Yes / No|
+|<span class="ee-only">Account Type</span>|Store View|Determines the configuration options according to your Google Analytics account type. Options: Universal Analytics (default) / Google Tag Manager|
 
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
+{:.ee-only}
 ### Google Analytics - Google Tag Manager
 
 ![]({% link images/images-ee/config-sales-google-api-google-analytics-google-tag-manager.png %}){: .zoom}
@@ -44,7 +36,7 @@ _Google Analytics - Google Tag Manager_
 |List property for the up-sell block|Store View|Identifies the Tag Manager property associated with the up-sell block. Default value: Up-sell|
 |List property for the related products block|Store View|Identifies the Tag Manager property associated with the related products block. Default value: Related Products|
 |List property for the search results page|Store View|Identifies the Tag Manager property associated with the search results page. Default value: Search Results|
-|‘Internal Promotions’ for promotions field “Label”|Store View|Identifies the Tag Manager property associated with the labels for internal promotions. Default value: Label|<!--{% endif %}-->
+|‘Internal Promotions’ for promotions field “Label”|Store View|Identifies the Tag Manager property associated with the labels for internal promotions. Default value: Label|
 
 ## Google Adwords
 
