@@ -1,5 +1,5 @@
 ---
-conditions: Default.B2B Only
+b2b_only: true
 title: My Quotes
 redirect_from:
   - /customers/account-company-quotes.html

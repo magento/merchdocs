@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: 'Tutorial 3: Catalog Content'
 ---
 

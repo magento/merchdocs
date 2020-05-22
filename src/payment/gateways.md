@@ -12,8 +12,6 @@ Magento supports numerous payment solutions that offer merchant services in all 
 - [Amazon Pay]({% link configuration/sales/amazon-pay.md %})
 - [Authorize.Net Direct Post]({% link payment/authorize-net-direct-post.md %}) - Deprecated
 - [Authorize.Net]({% link payment/authorize-net.md %}) - Deprecated
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
 - [CyberSource]({% link payment/cybersource.md %}) - Deprecated
 - [eWAY]({% link payment/eway.md %}) - Deprecated
 - [Worldpay]({% link payment/worldpay.md %}) - Deprecated
-<!--{% endif %}-->

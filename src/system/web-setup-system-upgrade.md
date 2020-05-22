@@ -10,9 +10,7 @@ We strongly recommend reviewing the latest [release notes][1]{:target="_blank"} 
 
 - Only the primary account holder is authorized to download code from the repository.
 - The authorization keys that are used to download code must be generated from the primary account.
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-- The merchant or developer must submit a ticket to Support and request authorization for the download.
-<!--{% endif %}-->
+- {:.ee-only}The merchant or developer must submit a ticket to Support and request authorization for the download.
 
 ## Caching and reindexing
 

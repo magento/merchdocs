@@ -17,12 +17,8 @@ _Customer Group Discount_
 
 1. In the _Customer Group Price_ section, click <span class="btn">Add</span>.
 
-    <!--{% if "Default.CE Only" contains site.edition %}-->
-    ![]({% link images/images/product-price-group.png %}){: .zoom}
-    <!--{% endif %}-->
-    <!--{% if "Default.EE-B2B" contains site.edition %}-->
-    ![]({% link images/images-ee/product-price-group.png %}){: .zoom}
-    <!--{% endif %}-->
+   ![]({% link images/images-ee/product-price-group.png %}){: .zoom}
+   _Advanced Pricing_{:.ee-only}
 
 1. Configure the group price:
 

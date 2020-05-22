@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Scheduling an Update
 ---
 
@@ -28,6 +28,9 @@ The following example shows how to schedule a temporary price change for a produ
 
     ![]({% link images/images-ee/content-staging-campaign-schedule-update.png %}){: .zoom}
     _Scheduling a Product Update_
+
+    {:.bs-callout-info}
+    Date/time must be defined using the timezone of the appropriate website. For example, if you have multiple websites in different timezones, but you want to start campaign based on a US timezone, you need to schedule an update for each website separately and define the date/time in local time.
 
 1. Scroll down to the **Price** field and click **Advanced Pricing**.
 

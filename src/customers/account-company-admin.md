@@ -1,6 +1,6 @@
 ---
-conditions: Default.B2B Only
-title: Company Administrator
+b2b_only: true
+title: Company Admin
 ---
 
 The company administrator is initially assigned when the company account is first created, and can later be modified only by the store administrator from the Admin.

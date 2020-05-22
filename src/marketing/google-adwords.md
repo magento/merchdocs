@@ -4,7 +4,7 @@ title: Google AdWords
 
 [Google AdWords][1] is a service that you can use to place ads in Google Search results and on the pages of companies in the Google Display Network. The AdWords dashboard includes tools to manage your campaigns, track response, and measure results.
 
-Conversion tracking shows how many ad clicks lead to a sale or other valuable action. The _Success_ page that appears to your customer after an order has been submitted is used to track conversions because it appears only after a sale. After completing the Google AdWords configuration for your store, there is no need to copy the conversion tracking script to the Success page, because Magento already has the necessary information. To learn more, see [Google AdWorlds Help][2].
+Conversion tracking shows how many ad clicks lead to a sale or other valuable action. The _Success_ page that appears to your customer after an order has been submitted is used to track conversions because it appears only after a sale. After completing the Google AdWords configuration for your store, there is no need to copy the conversion tracking script to the Success page, because Magento already has the necessary information. To learn more, see [Google AdWords Help][2].
 
 ![Google Ads]({% link images/images/google-adwords-magento-ad.png %}){: .zoom}
 _Magento Ad in Google Search Results_

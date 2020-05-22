@@ -53,7 +53,7 @@ The following payment methods are built into Magento and do not use a third-part
 |Maximum Order Total|Website|The largest order amount that can be paid by bank transfer. <br/><br/>**_Note:_** An order qualifies if the total is between, or matches, the minimum or maximum order total.|
 |Sort Order|Website|A number that determines the order that payment by bank transfer appears when listed with other payment methods during checkout. Enter `0` to place it at the top of the list.|
 
-<!--{% if "Default.B2B Only" contains site.edition %}-->
+{:.b2b-only}
 ### Payment on Account
 
 ![]({% link images/images-b2b/config-sales-payment-methods-payment-on-account.png %}){: .zoom}
@@ -70,7 +70,6 @@ The following payment methods are built into Magento and do not use a third-part
 |Maximum Order Total|Website|The largest order amount that can be charged to a company account. <br/><br/>**_Note:_** An order qualifies if the total is between, or matches, the minimum or maximum order total.|
 |Sort Order|Website|A number that determines the order that Payment on Account appears when listed with other payment methods during checkout. Enter `0` to place it at the top of the list.|
 
-<!--{% endif %}-->
 ### Cash On Delivery Payment
 
 ![]({% link images/images/config-sales-payment-methods-cash-on-delivery-payment.png %}){: .zoom}

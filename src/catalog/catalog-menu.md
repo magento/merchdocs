@@ -1,23 +1,11 @@
 ---
 title: Catalog Menu
-redirect_from:
-  - /catalog.html
 ---
 
-The Catalog Menu provides easy access to product creation, category, and inventory management tools{% if "Default.B2B Only" contains site.edition %}, as well as shared catalogs for custom pricing{% endif %}.
+The Catalog Menu provides easy access to product creation, category, and inventory management tools, as well as shared catalogs for custom pricing in B2B stores.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->
-![]({% link images/images/admin-menu-catalog.png %}){: .zoom}
-_Catalog Menu_
-<!--{% endif %}-->
-<!--{% if "Default.EE Only" contains site.edition %}-->
-![]({% link images/images-ee/admin-menu-catalog-ee.png %}){: .zoom}
-_Catalog Menu_
-<!--{% endif %}-->
-<!--{% if "Default.B2B Only" contains site.edition %}-->
 ![]({% link images/images-b2b/admin-menu-catalog.png %}){: .zoom}
-_Catalog Menu_
-<!--{% endif %}-->
+_Catalog Menu_{:.b2b-only}
 
 On the _Admin_ sidebar, click **Catalog**.
 
@@ -39,11 +27,10 @@ Create the [category]({% link catalog/categories.md %}) structure that is the fo
 
 See [Categories]({% link catalog/categories.md %}).
 
-<!--{% if "Default.B2B Only" contains site.edition %}-->
+{:.b2b-only}
 ## Shared Catalogs
 
 [Shared catalogs]({% link catalog/catalog-shared.md %}) give you the ability to make custom pricing available to different companies.
 
 ![]({% link images/images-b2b/catalog-shared-choose-products-step1.png %}){: .zoom}
-[_Shared catalog products_]({% link catalog/categories.md %})
-<!--{% endif %}-->
+[_Shared catalog products_]({% link catalog/catalog-shared.md %})
