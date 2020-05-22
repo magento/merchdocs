@@ -1,5 +1,5 @@
 ---
-conditions: Default.B2B Only
+b2b_only: true
 title: Adding Products to a Shared Catalog
 ---
 

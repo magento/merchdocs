@@ -98,10 +98,8 @@ Gives you the ability to create custom mappings to dotdigital, based on the foll
 - Tax/VAT Number
 - Failures Number
 - First Failure Date
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-- Reward Update Notification
-- Reward Warning Notification
-<!--{% endif %}-->
+- {:.ee-only}Reward Update Notification
+- {:.ee-only}Reward Warning Notification
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-custom-attributes.png %}){: .zoom}
 [_Custom Attributes_]({% link marketing/dotdigital/data-mapping.md %})
@@ -111,8 +109,9 @@ Gives you the ability to create custom mappings to dotdigital, based on the foll
 |Attribute|Website|Lists the selection of additional data fields that can be mapped from Magento.|
 |Data Field|Website|Lists the current selection of contact data fields from dotdigital that can be mapped to a Magento attribute.|
 |Action|Website|Deletes the current custom mapping.|
-|<span class="btn">Add New Attribute</span>||Adds a new custom mapping.|<!--{% if "Default.B2B Only" contains site.edition %}-->
+|<span class="btn">Add New Attribute</span>||Adds a new custom mapping.|
 
+{:.b2b-only}
 ## B2B Data
 
 ![]({% link images/images-b2b/config-engagement-data-fields-mapping-b2b-data.png %}){: .zoom}
@@ -124,8 +123,9 @@ Gives you the ability to create custom mappings to dotdigital, based on the foll
 |Company|Website|Lists the selection of companies that can be mapped from Magento.|
 |Company Status|Website|Lists the selection of company status settings that can be mapped from Magento.|
 |Store Credit Balance|Website|Lists the selection of store credit balance amounts that can be mapped from Magento.|
-|Shared Catalog Name|Website|Lists the selection of shared catalogs that can be mapped from Magento.|<!--{% endif %}--><!--{% if "Default.EE-B2B" contains site.edition %}-->
+|Shared Catalog Name|Website|Lists the selection of shared catalogs that can be mapped from Magento.|
 
+{:.ee-only}
 ## Enterprise Data
 
 ![]({% link images/images/config-engagement-cloud-data-mapping-enterprise-data.png %}){: .zoom}
@@ -139,7 +139,7 @@ Gives you the ability to create custom mappings to dotdigital, based on the foll
 |Expiration Date|Website|Maps the expiration date of the customer's reward points from Magento to your corresponding contact data field in dotdigital.|
 |Last Used Date|Website|Maps the date the customer's reward points were last used from Magento to your corresponding contact data field in dotdigital.|
 |**Customer Information**|||
-|Customer Segments|Website|Maps the customer segment that applies to the customer from Magento to your corresponding contact data field in dotdigital.|<!--{% endif %}-->
+|Customer Segments|Website|Maps the customer segment that applies to the customer from Magento to your corresponding contact data field in dotdigital.|
 
 ## Create Data Field
 

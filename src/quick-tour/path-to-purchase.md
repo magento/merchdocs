@@ -4,10 +4,8 @@ title: Path to Purchase
 
 The path customers take that leads to a sale is sometimes called the _path to purchase_. In this quick tour, we take a look at pages of strategic value that customers usually visit while shopping in your store. We also consider different store features that can be leveraged at each stage of the customer journey.
 
-<!--{% if "Default.CE Only" contains site.edition %}-->![storefront home page]({% link images/images/storefront-homepage.png %}){: .zoom}
-<!--{% endif %}-->
-<!--{% if "Default.EE-B2B" contains site.edition %}-->![storefront home page]({% link images/images-ee/storefront-homepage-ee.png %}){: .zoom}
-<!--{% endif %}-->
+![storefront home page]({% link images/images-ee/storefront-homepage-ee.png %}){: .zoom}
+_Sample Luma storefront_{:.ee-only}
 
 Home Page
 :  Your [home page]({% link quick-tour/home-page.md %}) is like the front window display of your store. As the primary landing page, its design entices visitors to come inside for a closer look.

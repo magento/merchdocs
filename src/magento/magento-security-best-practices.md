@@ -9,7 +9,7 @@ A compromised site can have long-term consequences for both customers and mercha
 
 This guide outlines a multifaceted approach to improve the security of your Magento installation. Although there is no single way to eliminate all security risks, there are many things that you can do to make your site a less attractive target. It is crucial for hosting providers, system integrators, and merchants to work together to establish and maintain a secure environment, implement methods for early detection, and determine a plan of action in the event of a breach.
 
-## Start Right
+## Start right
 
 Work with reliable hosting providers and solution integrators. When evaluating their qualifications, ask about their approach to security. Verify that they have a secure software development life cycle in accord with industry standards such as The Open Web Application Security Project ([OWASP][1]), and that they test their code for security issues.
 
@@ -17,11 +17,11 @@ If you are starting a new site, consider launching the entire site over HTTPs. T
 
 For an existing installation, plan to upgrade the entire site to run over to a securely encrypted, HTTPs channel. Although you will need to create redirects from HTTP to HTTPs, the effort will future-proof your site. We recommend that you plan to make this change sooner, rather than later.
 
-## Protect the Environment
+## Protect the environment
 
 Protecting the environment is the most critical aspect of ensuring the security of your store. Keep all software on the server up to date, and apply security patches as recommended. This applies not only to Magento, but to any other software that is installed on the server, including database software and other websites that use the same server. Any system is only as secure as the weakest link.
 
-### Server Environment
+### Server environment
 
 - Make sure that the server operating system is secure. Work with your hosting provider to ensure that  there is no unnecessary software running on the server.
 - Use only secure communications protocol (SSH/SFTP/HTTPS) to manage files, and disable FTP.
@@ -31,7 +31,7 @@ Protecting the environment is the most critical aspect of ensuring the security 
 - Closely monitor any issues that are reported for software components used by your Magento installation, including the operating system, MySQL database, PHP, Redis (if used), Apache or NGINX, Memcached, Solr, and any other components in your specific configuration.
 - Limit access to `cron.php` file to only required users. For example, restrict access by IP address. If possible, block access completely and execute the command using the system cron scheduler.
 
-### Advanced Techniques
+### Advanced techniques
 
 - Automate the deployment process, if possible, and use private keys for data transfer.
 - Limit access to the Magento Admin by updating the  whitelist with the IP address of each computer that is authorized to use the  Admin and Magento Connect downloader. For examples of how to whitelist IP addresses, see [Secure Your Magento Admin](https://www.sonassi.com/knowledge-base/magento-kb/secure-your-magento-admin/){:target="_blank"}.
@@ -41,13 +41,13 @@ Protecting the environment is the most critical aspect of ensuring the security 
 - Limit outgoing connections to only those that are required, such as for a payment integration.
 - Use a Web Application Firewall to analyze traffic and discover suspicious patterns, such as credit card information being sent to an attacker.
 
-### Server Applications
+### Server applications
 
 - Make sure that all applications running on the server are secure.
 - Avoid running other software on the same server as Magento, especially if it is accessible from the Internet. Vulnerabilities in blog applications such as Wordpress can expose private information from Magento. Install such software on a separate server or virtual machine.
 - Keep all software  up to date, and apply patches as recommended.
 
-### Admin Desktop Environment
+### Admin desktop environment
 
 - Make sure that the computer that is used to access the Magento Admin is secure.
 - Keep your antivirus software up to date, and use a malware scanner. Do not install any unknown programs, or click suspicious links.
@@ -70,34 +70,32 @@ Your effort to protect your Magento installation starts with the initial setup, 
 - Take advantage of Magento’s security-related configuration settings for [Admin Security]({% link stores/security-admin.md %}), [Password Options]({% link customers/password-options.md %}), [Two-Factor Authentication for Admin access]({% link stores/security-two-factor-authentication.md %}), [CAPTCHA](http://merch.docs.magento.com/ce/user_guide/Magento_Community_Edition_User_Guide.html#configuration/advanced/admin.html), and [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).
 - Take advantage of Magento’s free [Magento Security Scan Tool](https://account.magento.com/scanner?_ga=2.67627665.1606684099.1543252630-49206304.1531415640)! Monitor your sites for security risks, update malware patches, and detect unauthorized access with this tool.
 
-## Do not be Taken for a Ride
+## Do not be taken for a ride
 
 - Install extensions only from trusted sources. Never use paid extensions that are published on Torrent or other sites. If possible, review extensions for security issues before installing them.
 - Do not click suspicious links, or open suspicious emails.
 - Do not disclose the password to your server or to the Magento Admin, unless you are required to do so.
 
-## Be Prepared
+## Be prepared
 
 - Develop a disaster recovery/business continuity plan. Even a basic plan helps you get back on track in the event of a problem.
 - Ensure that your server and database are automatically backed up to external location. A typical setup requires daily incremental backups, with a full backup on a weekly basis. Make sure to test the backup regularly to verify that it can be restored.
 - For a large site, simple text file dumps of the database take an unacceptable amount of time to restore. Work with your hosting provider to deploy a professional database backup solution.
 
-## Monitor for Signs of Attack
+## Monitor for signs of attack
 
 If your system is not immediately patched after a major security breach, there is a high probability that your site is already compromised. Complete a security review periodically to check for signs of attack, and also when contacted by customers with security-related concerns.
 
-### Security Review
+### Security review
 
 - Check periodically for unauthorized Admin users.
-<!--{% if "Default.EE-B2B" contains site.edition %}-->
-- Check the [Admin Actions Log]({% link system/action-log.md %}) for suspicious activity.
-<!--{% endif %}-->
+- {:.ee-only}Check the [Admin Actions Log]({% link system/action-log.md %}) for suspicious activity.
 - Use automated log review tools such as [Apache Scalp](https://code.google.com/p/apache-scalp/).
 - Work with your hosting provider to review server logs for suspicious activity, and to implement an Intrusion Detection System (IDS) on your network.
 - Use a file and data integrity checking tool such as [TripWire](http://www.tripwire.com/) to receive notification of any potential malware installation.
 - Monitor all system logins (FTP, SSH) for unexpected activity, uploads, or commands.
 
-## Follow Your Disaster Recovery Plan
+## Follow your disaster recovery plan
 
 In the event of a compromise, work with your internal IT security team if available, or hosting provider, and system integrator to determine the scope of the attack. Taking into consideration the type of compromise and the size of the store. Then, adjust the following recommendations to your business needs.
 
@@ -127,7 +125,7 @@ In the event of a compromise, work with your internal IT security team if availa
 
 1. Inform your customers about the attack and the type of information affected. If payment information was compromised, they should look for unauthorized transactions. If personal information, including email addresses was compromised, they might be targeted with phishing attacks or spam.
 
-## Additional Resources
+## Additional resources
 
 For additional technical best practices and developer-centric information, see the following:
 

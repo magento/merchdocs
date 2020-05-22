@@ -1,7 +1,7 @@
 ---
 title: Recommendation Metrics
 tag: product-recommendations
-conditions: Default.EE Only
+ee_only: true
 ---
 
 To analyze how well your recommendations are performing, Magento collects the following metrics:

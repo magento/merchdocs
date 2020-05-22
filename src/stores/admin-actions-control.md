@@ -12,7 +12,7 @@ The selection of available actions varies by list, and additional options might 
 ![Catalog records - Change Status action]({% link images/images/actions-change-status.png %}){: .zoom}
 _Applying an Action to Selected Records_
 
-## Step 1: Select Records
+## Step 1: Select records
 
 The checkbox in the first column of the list identifies each record that is a target for the action. The [filter controls]({% link stores/admin-grid-controls.md %}) can be used to narrow the list to the records you want to target for the action.
 
@@ -23,7 +23,7 @@ The checkbox in the first column of the list identifies each record that is a ta
 
 1. If needed, set the filters at the top of each column to show only the records that you want to include.
 
-## Step 2: Apply an Action to Selected Records
+## Step 2: Apply an action to selected records
 
 1. Set the **Actions** control to the operation that you want to apply.
 
@@ -53,21 +53,32 @@ The checkbox in the first column of the list identifies each record that is a ta
 |Select All on This Page|Marks the checkbox of records on the current page.|
 |Deselect All on This Page|Clears the checkbox of  records on the current page.|
 
-## Actions by Grid
+## Actions by grid
 
-|Menu|List|Actions|
-|--- |--- |--- |
-|**Sales**|||
-||Orders|Cancel<br/>Hold<br/>Unhold<br/>Print Invoices<br/>Print Packing Slips<br/>Print Credit Memos<br/>Print All<br/>Print Shipping Labels<!--{%- if "Default.EE-B2B" contains site.edition -%}--><br/>Move to Archive<!--{%- endif -%}-->|
-||Invoices|PDF Invoices|
-||Shipments|PDF Shipments<br/>Print Shipping Labels|
-||Credit Memos|PDF Credit Memos|
-|**Products**|||
-||Catalog|Delete<br/>Change Status<br/>Update Attributes|
-|**Customers**|||
-||All Customers|Delete<br/>Subscribe to Newsletter<br/>Unsubscribe from Newsletter<br/>Assign a Customer Group<br/>Edit|<!--{%- if "Default.B2B Only" contains site.edition -%}-->
-||Companies|Set Active<br/>Block<br/>Delete<br/>Edit<br/>Convert Credit|<!--{%- endif -%}-->
-|**Marketing**|||
+### Sales
+
+|List|Actions|
+|--- |--- |
+|Orders|Cancel<br/>Hold<br/>Unhold<br/>Print Invoices<br/>Print Packing Slips<br/>Print Credit Memos<br/>Print All<br/>Print Shipping Labels <br/><span class="ee-only">Move to Archive</span>|
+|Invoices|PDF Invoices|
+|Shipments|PDF Shipments<br/>Print Shipping Labels|
+|Credit Memos|PDF Credit Memos|
+
+### Products
+
+|List|Actions|
+|--- |--- |
+|Catalog|Delete<br/>Change Status<br/>Update Attributes|
+
+### Customers
+
+|List|Actions|
+|--- |--- |
+|All Customers|Delete<br/>Subscribe to Newsletter<br/>Unsubscribe from Newsletter<br/>Assign a Customer Group<br/>Edit|
+|<span class="b2b-only">Companies</span>|Set Active<br/>Block<br/>Delete<br/>Edit<br/>Convert Credit|]
+
+### Marketing
+
 |*Communications*|||
 ||Newsletter Subscribers|Unsubscribe<br/>Delete|
 |*SEO & Search*|||

@@ -1,5 +1,5 @@
 ---
-conditions: Default.EE-B2B
+ee_only: true
 title: Add Content
 ---
 
@@ -12,3 +12,4 @@ Use the Content section of the Page Builder panel to add existing content to the
 | [Block]({% link cms/page-builder-add-content-block.md %})        | Adds an existing block to the stage.         |
 | [Dynamic Block]({% link cms/page-builder-add-dynamic-block.md %}) | Adds an existing dynamic block to the stage. |
 | [Products]({% link cms/page-builder-add-content-products.md %})   | Adds a list of products to the stage.        |
+| [Product Recommendations]({% link marketing/page-builder-add-product-recs.md %}) | Adds a recommendation unit to the stage.|
