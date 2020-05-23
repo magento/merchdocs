@@ -38,7 +38,7 @@ If you have a large amount of data to process, you can turn off the display of t
    ![Advanced configuration - Dashboard settings]({% link images/images/config-advanced-admin-dashboard.png %}){: .zoom}
    [_Enable Charts_]({% link configuration/advanced/admin.md %})
 
-### Change the Startup Page
+### Change the startup page
 
 The dashboard is the default [startup page]({% link configuration/advanced/admin.md %}) for the Admin, although you can configure a different page to appear after login.
 
@@ -76,7 +76,7 @@ The dashboard chart can be generated in real-time or by using historical, aggreg
    ![Admin dashboard - data source setting]({% link images/images/config-sales-dashboard.png %}){: .zoom}
    [_Dashboard Data Source_]({% link configuration/advanced/admin.md %})
 
-## Chart Sections
+## Chart sections
 
 |Section|Description|
 |--- |--- |
@@ -85,7 +85,7 @@ The dashboard chart can be generated in real-time or by using historical, aggreg
 |Time Range|Determines the data that is represented in the chart and summary totals below. Options: Last 7 Days / Current Month / YTD / 2YTD|
 |Summary Totals|The revenue, tax, shipping, and quantity totals below the chart are based on the chart data and current time range setting.|
 
-## Snapshot Data
+## Snapshot data
 
 |Section|Description|
 |--- |--- |
@@ -95,7 +95,7 @@ The dashboard chart can be generated in real-time or by using historical, aggreg
 |Last Search Terms|The last five search terms.|
 |Top Search Terms|The five most commonly-used search terms.|
 
-## Report Tabs
+## Report tabs
 
 |Section|Description|
 |--- |--- |
@@ -104,7 +104,7 @@ The dashboard chart can be generated in real-time or by using historical, aggreg
 |New Customers|The most recent five customers who registered for an account during the specified time period.|
 |Customers|The last five customers with an order that completed processing during the specified time period.|
 
-## Dashboard Buttons
+## Dashboard buttons
 
 |Button|Description|
 |--- |--- |
