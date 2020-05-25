@@ -1,5 +1,5 @@
 ---
-title: Media Asset Management
+title: Asset Management
 ---
 
 ## Uploading an asset
