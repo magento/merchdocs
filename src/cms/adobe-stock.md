@@ -39,10 +39,10 @@ then [configure the Adobe Stock Integration in your Magento Admin][configure].
          - `${HOST}` is your Magento fully qualified domain name (i.e., `https://store.myshop.com`).
          - `${ADMIN_URI}` is your Magento Admin URI (such as `admin_hgkq1l`), which can be retrieved by running `magento info:adminuri`.
 
-1. Specify the **Redirect URI pattern**. This is the same as your redirect URI with two differences:
+1. Specify the **Redirect URI pattern**, which is the same as your redirect URI with two differences:
 
-   - Any periods (`.`) must be escaped with two backslashes (`\\`)
-   - Add `.*` to the end of the pattern
+   - Any periods (`.`) must be escaped with two backslashes (`\\`).
+   - Add `.*` to the end of the pattern.
 
         Using the example from the previous Default redirect URI field, this would be `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`.
 
