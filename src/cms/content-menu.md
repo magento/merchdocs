@@ -37,6 +37,13 @@ Create rich, [interactive content]({% link cms/dynamic-blocks.md %}) that is dri
 
 [Widgets]({% link cms/widgets.md %}) display dynamic data and add blocks, links, and interactive elements most anywhere in your store.
 
+## Media
+
+[Enhanced Media Gallery]({% link cms/enhanced-media-gallery.md %}) helps Merchants to organize and manage their media files in the admin panel.
+
+{:.bs-callout-info}
+You must enable [Enhanced Media Gallery]({% link cms/enhanced-media-gallery.md %}) for the menu to show.
+
 ## Design
 
 Learn to manage the visual presentation of your store, apply themes, and schedule [design]({% link design/design-menu.md %}) changes.
