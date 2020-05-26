@@ -34,8 +34,8 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 
 1. Set the **Actions** control to one of the following:
 
-    - `Active`
-    - `Inactive`
+   - `Active`
+   - `Inactive`
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 
@@ -67,20 +67,20 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 
 1. Set the **Actions** column to `Edit`.
 
-    The value of each value that can be updated appears in a text box. Only some values of the selected customer record can be edited from the grid.
+   The value of each value that can be updated appears in a text box. Only some values of the selected customer record can be edited from the grid.
 
-    ![]({% link images/images/customers-grid-quick-edit.png %}){: .zoom}
-    _Quick Edit_
+   ![]({% link images/images/customers-grid-quick-edit.png %}){: .zoom}
+   _Quick Edit_
 
 1. Update any of the following values, as needed:
 
-    - Email
-    - Group
-    - Phone
-    - ZIP
-    - Web Site
-    - Tax/VAT Number
-    - Gender
+   - Email
+   - Group
+   - Phone
+   - ZIP
+   - Web Site
+   - Tax/VAT Number
+   - Gender
 
 1. Click **Save**.
 
@@ -92,7 +92,7 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 
 1. Make the necessary changes to the company information.
 
-    To learn more, see [Updating Customer Accounts]({% link customers/customer-account-update.md %}).
+   To learn more, see [Updating Customer Accounts]({% link customers/customer-account-update.md %}).
 
 ## Actions/controls
 
@@ -110,7 +110,7 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 
 |Column|Description|
 |--- |--- |
-|Select|Manages the checkbox selections for the customer records that are to be subjects of an action. You can also use the selection control in the column header to select/deselect all.|
+|Select|Manages the checkbox selections for the customer records for applying an action. You can also use the selection control in the column header to select/deselect all.|
 |ID|A unique numeric identifier that is assigned when the customer account is created.|
 |Name|The first and last name of the customer.|
 |Email|The email address of the customer.|
@@ -127,7 +127,11 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 |Tax / VAT Number|If applicable, the tax number or [value-added tax]({% link tax/vat.md %}) number that is assigned to the customer. <br/><br/>**_Note:_** This field is not the same as the VAT Number.|
 |Gender|The gender of the customer.|
 |Action|Edit - Opens the company account in edit mode.|
-|**Additional Columns**|_These columns are available by changing the [column layout]({% link stores/admin-grid-layout.md %}) of the grid._|
+
+### Additional Columns
+
+These columns are available by changing the [column layout]({% link stores/admin-grid-layout.md %}) of the grid.
+
 |Company|The company name of the customer.|
 |Street Address|The street address of the customer.|
 |City|The city where the customer is located.|

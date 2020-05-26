@@ -2,7 +2,7 @@
 title: Updating a Customer Profile
 ---
 
-The panel on the left of the Customer Information page includes information about customer activity, such as when the customer last signed in or out of their account, addresses, order statistics, recent orders, shopping cart contents, product reviews, newsletter subscriptions, and so on.
+The left panel of the Customer Information page includes information about customer activity, such as when the customer last signed in or out of their account, addresses, order statistics, recent orders, shopping cart contents, product reviews, newsletter subscriptions, and so on.
 
 ![]({% link images/images-ee/customer-profile.png %}){: .zoom}
 _Customer Profile_{:.ee-only}
@@ -13,7 +13,9 @@ _Customer Profile_{:.ee-only}
 
 1. Find the customer in the grid and click **Edit** in the _Action_ column.
 
-1. In the panel on the left, choose the type of information you need to edit. Then, make any necessary changes to the field values using the field descriptions for reference.
+1. In the left panel, choose the type of information you need to edit.
+
+1. Make any necessary changes to the field values using the field descriptions for reference.
 
 1. When complete, click <span class="btn">Save Customer</span>.
 

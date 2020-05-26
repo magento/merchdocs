@@ -11,13 +11,13 @@ The company administrator is initially assigned when the company account is firs
 
 1. Find the company in the list and click **Edit**.
 
-    ![]({% link images/images-b2b/companies-grid-abc-xyz.png %}){: .zoom}
-    _Companies_
+   ![]({% link images/images-b2b/companies-grid-abc-xyz.png %}){: .zoom}
+   _Companies_
 
-1. Expand ![]({% link images/images/btn-expand.png %}) **Company Admin** and do the following:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Company Admin** and do the following:
 
-    ![]({% link images/images-b2b/company-account-company-admin.png %}){: .zoom}
-    _Company Admin_
+   ![]({% link images/images-b2b/company-account-company-admin.png %}){: .zoom}
+   _Company Admin_
 
    - Enter the **Job Title** of the new company admin.
 
@@ -37,6 +37,6 @@ The company administrator is initially assigned when the company account is firs
 
 1. When complete, click <span class="btn">Save</span>.
 
-    The individual account of the former company admin remains in the system as an active individual user account in the company hierarchy, assigned to the default user role.
+   The individual account of the former company admin remains in the system as an active individual user account in the company hierarchy, assigned to the default user role.
 
-    The system sends email notification of the change to the new and former company administrators.
+   The system sends email notification of the change to the new and former company administrators.

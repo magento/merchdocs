@@ -19,7 +19,7 @@ _Pending Approval_
 
 1. On the _Admin_ sidebar, go to **Customers** > **Companies**.
 
-    All pending requests appear at the top of the list. To make them more noticeable, you can adjust the [grid layout]({% link stores/admin-grid-layout.md %}) to include the Status column.
+   All pending requests appear at the top of the list. To make them more noticeable, you can adjust the [grid layout]({% link stores/admin-grid-layout.md %}) to include the Status column.
 
 1. In the **Action** column, click **Edit**.
 
@@ -34,17 +34,17 @@ _Pending Approval_
 
 1. If applicable, set **Sales Representative** to a specific Admin account.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) **Account Information** and use the **Comment** field to enter notes about the account.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Account Information** and use the **Comment** field to enter notes about the account.
 
    The comments are not visible from the storefront.
 
 1. When complete, click <span class="btn">Save</span>.
 
-    A confirmation email is sent to the company and company admin with instructions to set the account password.
+   A confirmation email is sent to the company and company admin with instructions to set the account password.
 
 ## Company status
 
-| Field            | Description                                                                                                        |
+| Status           | Description                                                                                                        |
 |------------------|--------------------------------------------------------------------------------------------------------------------|
 | Active           | The company is approved and can be managed from the storefront by the customer.                                    |
 | Pending Approval | A request to create a company account has been submitted from the storefront, but is not yet reviewed              |

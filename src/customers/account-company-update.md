@@ -32,8 +32,8 @@ These role resources must be set for the [User Role]({% link system/permissions-
 ## Button bar
 
 {: .buttons-table }
-| Button             | Description |
-|-------------------|--------|
+| Button            | Description |
+|-------------------|-------------|
 | <span class="btn">Back</span>              | Returns to the Companies page without saving changes. |
 | <span class="btn">Delete Company</span>    | Deletes the company account. The status of user accounts that are associated with the company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system. |
 | <span class="btn">Reset</span>             | Restores the original values to any fields with unsaved changes. |

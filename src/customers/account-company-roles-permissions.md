@@ -74,7 +74,7 @@ The system has one predefined Default User role, which you can use “as is" or 
 
 ## Actions
 
-| Field     | Description                                                                                              |
+| Action    | Description                                                                                              |
 |-----------|----------------------------------------------------------------------------------------------------------|
 | Duplicate | Creates a copy of the selected role. The name of the duplicate role has `- Duplicated` added to the end. |
 | Edit      | Change the name and/or set of permissions.                                                               |

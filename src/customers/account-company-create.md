@@ -98,45 +98,46 @@ _New Company_
 
 1. In the _Legal Address_ section, complete these required fields:
 
-   - Street Address
-   - City Country
-   - ZIP/Postal Code
-   - Phone Number
+   - **Street Address**
+   - **City Country**
+   - **ZIP/Postal Code**
+   - **Phone Number**
 
-1. In the **Company Admin** section, do the following:
+1. In the _Company Admin_ section, do the following:
 
    - Complete these required fields:
 
-      - Email
-      - First Name
-      - Last Name
+      - **Email**
+      - **First Name**
+      - **Last Name**
 
-   - The following optional parts of the name might be applicable to some customer names more than others, and can be used at your discretion.
+   - Complete the following optional parts of the name, which might be applicable to some customer names more than others and can be used at your discretion:
 
-      - Prefix
-      - Middle Name/Initial
-      - Suffix
+      - **Prefix**
+      - **Middle Name/Initial**
+      - **Suffix**
 
    - If the information is available, complete the remaining fields to describe the Company Admin:
 
-      - Job Title
-      - Gender
+      - **Job Title**
+      - **Gender**
 
     ![]({% link images/images-b2b/customers-company-create-company-admin.png %}){: .zoom}
     _Company Admin_
 
-1. The **Company Credit** section displays a summary of the customer’s credit activity. Complete as many of the fields in the lower part of the section as applicable.
+1. In the _Company Credit_ section, which displays a summary of the customer’s credit activity, complete as many of the fields in the lower part of the section as applicable:
 
-   - Credit Currency
-   - Credit Limit
-   - Allow to Exceed Credit Limit
-   - Reason for Change
+   - **Credit Currency**
+   - **Credit Limit**
+   - **Allow to Exceed Credit Limit**
+   - **Reason for Change**
 
-    ![]({% link images/images-b2b/customers-company-create-company-credit-admin.png %}){: .zoom}
-    _Company Credit_
+   ![]({% link images/images-b2b/customers-company-create-company-credit-admin.png %}){: .zoom}
+   _Company Credit_
 
-1. In the **Advanced Settings** section, do the following:
+1. In the _Advanced Settings_ section, do the following:
 
+   {:.bs-callout-info}
    The customer group assignment determines which shared catalog is available to the company and its employees. By default, the company is assigned to the customer group that is set as the default in the configuration.
 
    - You can change the **Customer Group** assignment for the Company and its employees to a group that has access to a different shared catalog, or to a standard customer group. You are prompted to confirm before the group is changed.
@@ -156,11 +157,11 @@ _New Company_
 
 1. When complete, click <span class="btn">Save</span>.
 
-    When the request to create a company account is approved by the merchant, an email notification is sent to the email address of the company admin with instructions to set the account password.
+   When the request to create a company account is approved by the merchant, an email notification is sent to the email address of the company admin with instructions to set the account password.
 
-    ![]({% link images/images-b2b/welcome-email-company.png %}){: .zoom}
+   ![]({% link images/images-b2b/welcome-email-company.png %}){: .zoom}
 
-    When the password is set, the company admin can [sign in]({% link customers/customer-sign-in.md %}) to the account.
+   When the password is set, the company admin can [sign in]({% link customers/customer-sign-in.md %}) to the account.
 
 ## Button bar
 

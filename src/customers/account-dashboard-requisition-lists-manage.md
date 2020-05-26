@@ -25,8 +25,8 @@ _My Requisition Lists_
 
 1. To change any product options, do the following:
 
-   - In the line item, click **Edit** (![]({% link images/images/btn-edit.png %}){: .Inline}).
-   - Change any options that are necessary.
+   - In the line item, click **Edit** (![]({% link images/images/btn-edit.png %})).
+   - Change any options that are necessary. 
    - Click **Update Requisition List**.
 
 1. Click <span class="btn">Add to Cart</span>.

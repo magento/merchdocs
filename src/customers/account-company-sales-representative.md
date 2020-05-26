@@ -17,4 +17,4 @@ The name and email address of the assigned sales representative is visible to co
 
 1. When complete, click <span class="btn">Save</span>.
 
-    The assigned sales representative receives email notification of the assignment.
+   The assigned sales representative receives email notification of the assignment.

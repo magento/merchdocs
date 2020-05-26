@@ -14,7 +14,7 @@ _Company Structure with Teams_
 
 1. Sign in to your account as the company administrator.
 
-1. In the panel on the left, choose **Company Structure**.
+1. In the left panel, choose **Company Structure**.
 
 1. Under **Business Structure**, click **Add Team** and do the following:
 
@@ -76,12 +76,12 @@ As you work on the company structure, you can collapse or expand the tree:
 
 - Click **Collapse All** or **Expand All**.
 
-- Click ![]({% link images/images/btn-collapse.png %}){: .Inline} to collapse a team or ![]({% link images/images/btn-expand.png %}){: .Inline} to expand a team.
+- Click ![]({% link images/images/btn-collapse.png %}) to collapse a team or ![]({% link images/images/btn-expand.png %}) to expand a team.
 
 ## Company structure icons
 
-| Icon                                                                          | Description                                                    |
-|-------------------------------------------------------------------------------|----------------------------------------------------------------|
+| Icon                                                        | Description                                                    |
+|-------------------------------------------------------------|----------------------------------------------------------------|
 | ![]({% link images/images-b2b/icon-company-admin.png %})    | Represents the company administrator in the company structure. |
 | ![]({% link images/images-b2b/icon-company-team.png %})     | Represents a team in the company structure.                    |
 | ![]({% link images/images-b2b/icon-company-move.png %})     | Moves a team to another position in the company structure.     |

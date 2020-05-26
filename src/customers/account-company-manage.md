@@ -16,7 +16,7 @@ The following actions can be applied to either single or multiple records.
 
 1. On the _Admin_ sidebar, go to **Customers** > **Companies**.
 
-1. In the first column of the grid, select the checkbox of each record that you want to update. Then, follow the instructions for the action that you want to apply:
+1. In the first column of the grid, select the checkbox of each record that you want to update and follow the instructions for the action that you want to apply:
 
 ### Activate company accounts
 
@@ -50,7 +50,7 @@ The credit in the accounts of selected companies is converted to the current rat
 
 1. Choose the **Credit Currency** to be used for the selected company accounts.
 
-    The amounts are recalculated according to the current conversion rates, if available. If not available, you can manually enter custom conversion rates.The system will display as many conversion calculations are needed for the credit currency that is used by the selected companies.
+   The amounts are recalculated according to the current conversion rates, if available. If not available, you can manually enter custom conversion rates.The system will display as many conversion calculations are needed for the credit currency that is used by the selected companies.
 
 1. Click <span class="btn">Proceed</span> to complete the conversion.
 
@@ -69,11 +69,11 @@ The credit in the accounts of selected companies is converted to the current rat
 
 1. Update any of the following values as needed:
 
-    - **Company Name**
+   - **Company Name**
 
-    - **Company Email**
+   - **Company Email**
 
-    - **Phone Number**
+   - **Phone Number**
 
 1. Click <span class="btn">Save</span>.
 
@@ -85,7 +85,7 @@ The credit in the accounts of selected companies is converted to the current rat
 
 1. Make the necessary changes to the company information.
 
-    For field descriptions, see [Updating Company Accounts]({% link customers/account-company-update.md %}).
+   For field descriptions, see [Updating Company Accounts]({% link customers/account-company-update.md %}).
 
 1. When complete, click <span class="btn">Save</span>.
 

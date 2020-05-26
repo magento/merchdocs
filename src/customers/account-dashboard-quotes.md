@@ -16,7 +16,7 @@ The buyer begins the process by [submitting a request]({% link sales/quote-reque
 
 1. Log in to your account.
 
-1. In the panel on the left, choose **My Quotes**.
+1. In the left panel, choose **My Quotes**.
 
 1. Find the quote in the list and click **View** in the _Action_ column.
 

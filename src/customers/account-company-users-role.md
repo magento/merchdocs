@@ -9,10 +9,10 @@ After defining the roles that are needed, the store admin assigns a role to each
 
 1. Log in to your company account as store admin.
 
-1. In the panel on the left, choose **Company Users**.
+1. In the left panel, choose **Company Users**.
 
-    ![]({% link images/images-b2b/customer-account-company-users-list.png %}){: .zoom}
-    _Company Users_
+   ![]({% link images/images-b2b/customer-account-company-users-list.png %}){: .zoom}
+   _Company Users_
 
 1. Find the user in the list and click **Edit**.
 
@@ -20,5 +20,5 @@ After defining the roles that are needed, the store admin assigns a role to each
 
 1. Click <span class="btn">Save</span>.
 
-    ![]({% link images/images-b2b/customer-company-users-assign-role.png %}){: .zoom}
-    _User Role_
+   ![]({% link images/images-b2b/customer-company-users-assign-role.png %}){: .zoom}
+   _User Role_

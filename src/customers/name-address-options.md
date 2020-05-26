@@ -17,7 +17,7 @@ The steps for configuring the name and address options are different for Magento
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Name and Address Options** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Name and Address Options** section.
 
    Notice that the scope of the name and address options applies at the `website` level.
 
@@ -71,7 +71,7 @@ _[Customer Account Sign Up Form]({% link configuration/customers/customer-config
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Name and Address Options** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Name and Address Options** section.
 
    Notice that the scope of the name and address options applies at the `website` level.
 
