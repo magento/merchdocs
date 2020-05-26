@@ -2,6 +2,8 @@
 title: System Upgrade
 ---
 
+{% include web-setup-deprecate.md %}
+
 The System Upgrade tool can be used to upgrade your Magento installation from the Admin. The upgrade is a three-step process that should take place during off-peak hours. Before upgrade takes place, your store is put into maintenance mode, checked for readiness, and backed up.
 
 We strongly recommend reviewing the latest [release notes][1]{:target="_blank"} and [system requirements][2]{:target="_blank"} in the developer documentation.
