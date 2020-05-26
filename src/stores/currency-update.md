@@ -23,18 +23,18 @@ _Updating Currency Rates_
 
 1. Set **Import Service** to the currency rate provider.
 
-   WebserviceX is the default provider.
+   Fixer.io is the default provider.
 
 1. Click **Import**.
 
-    The updated rates appear in the Currency Rates list. If the rates have changed since the last update, the old rate appears below for reference.
+   The updated rates appear in the Currency Rates list. If the rates have changed since the last update, the old rate appears below for reference.
 
 1. When complete, click <span class="btn">Save Currency Rates</span>.
 
 1. When prompted to update the cache, click the **Cache Management** link. Then, refresh the invalid cache.
 
-    ![System message - refresh the invalid cache]({% link images/images/stores-currency-rate-update-cache-refresh.png %}){: .zoom}
-    _Refresh Invalid Caches_
+   ![System message - refresh the invalid cache]({% link images/images/stores-currency-rate-update-cache-refresh.png %}){: .zoom}
+   _Refresh Invalid Caches_
 
 ## Import currency rates on schedule
 

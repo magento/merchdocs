@@ -13,7 +13,7 @@ _Scope of Base Currency_
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the upper-right corner, set **Store View** to the store view where the configuration applies.
+1. In the upper-left corner, set the **Scope** to the store view where the configuration applies.
 
 1. In the left panel under _General_, choose **Currency Setup**.
 
@@ -25,10 +25,10 @@ _Scope of Base Currency_
 
    - **Allowed Currencies** — Select all currencies that you accept as payment in the store view. Make sure to also select your primary currency.
 
-        For multiple currencies, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
+      For multiple currencies, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
-    ![General configuration - currency options]({% link images/images/config-general-currency-setup-currency-options.png %}){: .zoom}
-    [_Currency Options_]({% link configuration/general/currency-setup.md %})
+   ![General configuration - currency options]({% link images/images/config-general-currency-setup-currency-options.png %}){: .zoom}
+   [_Currency Options_]({% link configuration/general/currency-setup.md %})
 
 1. When prompted to refresh the cache, click the **Close** ( ![Close box]({% link images/images/btn-close.png %})) box in the upper-right corner of the system message.
 
@@ -36,34 +36,59 @@ _Scope of Base Currency_
 
 1. Define the scope of the base currency:
 
-   - In the left panel under _Catalog_, choose **Catalog**. Then, scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Price** section. (This section only appears if the scope is set as **Store View:** _Default config_.)
+   - In the left panel, expand **Catalog** and choose **Catalog** underneath.
+
+   - Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Price** section. (This section only appears if the scope is set as **Store View:** _Default config_.)
 
    - Set **Catalog Price Scope** to either `Global` or `Website`.
 
-    ![Catalog configuration - price options]({% link images/images/config-catalog-catalog-price.png %}){: .zoom}
-    _Price_
+   ![Catalog configuration - price options]({% link images/images/config-catalog-catalog-price.png %}){: .zoom}
+   _Price_
 
 ## Step 2: Configure the Import Connection
 
-1. Scroll back up to the top of the page. In the left panel under _General_, choose **Currency Setup**.
+1. Scroll to the top of the page.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **WebserviceX** section.
+1. In the left panel, expand **General** and choose **Currency Setup**.
 
-1. In the **Connection Timeout in Seconds** field, enter the number of seconds of inactivity to allow before the connection times out.
+1. Configure your currency service connection:
 
-    ![General configuration - WebserviceX currency options]({% link images/images/config-general-currency-setup-webservicex.png %}){: .zoom}
-    _WebserviceX_
+   There are two service options: _fixer.io_ and _Currency Converter API_
+
+   - To connect to the [Fixer.io service](https://fixer.io/):
+
+     - Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Fixer.io** section.
+
+     - Enter your fixer.io **API key**.
+
+     - For **Connection Timeout in Seconds**, enter the number of seconds of inactivity to allow before the connection times out.
+
+      ![General configuration - currency setup - Fixer.io options]({% link images/images/config-general-currency-setup-fixerio.png %}){: .zoom}
+      _Fixer.io_
+
+   - To connect to the [Currency Convertor API service](https://free.currencyconverterapi.com/):
+
+     - Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Currency Convertor API** section.
+
+     - Enter your Currency Convertor **API key**.
+
+     - For **Connection Timeout in Seconds**, enter the number of seconds of inactivity to allow before the connection times out.
+
+      ![General configuration - currency setup - Currency Converter API options]({% link images/images/config-general-currency-setup-converter.png %}){: .zoom}
+      _Currency Converter API_
 
 ## Step 3: Configure the Scheduled Import Settings
 
-1. Continuing with Currency Setup, expand ![]({% link images/images/btn-expand.png %}) the **Scheduled Import Settings** section.
+1. Continuing with Currency Setup, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Scheduled Import Settings** section.
 
-    ![General configuration - currency scheduled import settings]({% link images/images-ee/config-general-currency-setup-scheduled-import-settings.png %}){: .zoom}
-    _Scheduled Import Settings_
+   ![General configuration - currency scheduled import settings]({% link images/images/config-general-currency-setup-scheduled-import-settings.png %}){: .zoom}
+   _Scheduled Import Settings_
 
-1. To automatically update currency rates, set **Enabled** to `Yes`. Then, do the following:
+1. To automatically update currency rates, set **Enabled** to `Yes`.
 
-   - **Service** — Set to the rate provider. The default value is `Webservicex`.
+1. Set the update options:
+
+   - **Service** — Set to the rate provider. The default value is `Fixer.io`.
 
    - **Start Time** — Set to the hour, minute, and second that the rates will be updated according to the schedule.
 
@@ -75,7 +100,7 @@ _Scope of Base Currency_
 
    - **Error Email Recipient** — Enter the email address of the person who is to receive email notification if an error occurs during the import process.
 
-        To enter multiple email addresses, separate each with a comma.
+      To enter multiple email addresses, separate each with a comma.
 
    - **Error Email Sender** — Set to the [store contact]({% link stores/store-email-addresses.md %}) that appears as the sender of the error notification.
 
@@ -83,10 +108,10 @@ _Scope of Base Currency_
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-1. When prompted to update the cache, click the **Cache Management** link. Then, refresh the invalid cache.
+1. When prompted to update the cache, click the **Cache Management** link and refresh the invalid cache.
 
-    ![System message - refresh the invalid cache]({% link images/images/msg-cache-management.png %}){: .zoom}
-    _Refresh Cache_
+   ![System message - refresh the invalid cache]({% link images/images/msg-cache-management.png %}){: .zoom}
+   _Refresh Cache_
 
 ## Step 4: Update the Currency Rates
 
