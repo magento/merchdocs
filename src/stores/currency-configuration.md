@@ -13,7 +13,7 @@ _Scope of Base Currency_
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the upper-left corner, set the **Scope** to the store view where the configuration applies.
+1. In the upper-left corner, set **Scope** to the store view where the configuration applies.
 
 1. In the left panel under _General_, choose **Currency Setup**.
 
@@ -30,7 +30,7 @@ _Scope of Base Currency_
    ![General configuration - currency options]({% link images/images/config-general-currency-setup-currency-options.png %}){: .zoom}
    [_Currency Options_]({% link configuration/general/currency-setup.md %})
 
-1. When prompted to refresh the cache, click the **Close** ( ![Close box]({% link images/images/btn-close.png %})) box in the upper-right corner of the system message.
+1. When prompted to refresh the cache, click **Close** ( ![Close box]({% link images/images/btn-close.png %})) in the upper-right corner of the system message.
 
    You can [refresh the cache]({% link system/cache-management.md %}) later.
 
@@ -55,7 +55,7 @@ _Scope of Base Currency_
 
    There are two service options: _fixer.io_ and _Currency Converter API_
 
-   - To connect to the [Fixer.io service](https://fixer.io/):
+   - To connect to the [fixer.io service](https://fixer.io/):
 
       - Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Fixer.io** section.
 

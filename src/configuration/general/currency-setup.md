@@ -5,7 +5,7 @@ title: Currency Setup
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [General]({% link configuration/general/general.md %}) > Currency Setup
 
 {:.bs-callout-info}
-See [Currency Configuration]({% link stores/currency-configuration.md %}) for specific configuration details.
+See [Currency Configuration]({% link stores/currency-configuration.md %}) for configuration details.
 
 ## Currency Options
 
@@ -25,7 +25,7 @@ _Fixer.io configuration settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|API key|Global|The key used to access the conversion service through your account. For more information, see [Fixer.io](https://fixer.io/).|
+|API key|Global|The key used to access the conversion service through your fixer.io account. For more information, see [fixer.io](https://fixer.io/).|
 |Connection Timeout in Seconds|Global|Determines the number of seconds of inactivity before a Fixer.io session times out. Default value is 100.|
 
 ## Currency Converter API
@@ -36,7 +36,7 @@ _Currency Converter API configuration settings_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |API key|Global|The key used to access the conversion service. For more information, see [Currency Convertor API](https://free.currencyconverterapi.com/).|
-|Connection Timeout in Seconds|Global|Determines the number of seconds of inactivity before a Currency Converter session times out. Default value is 100.|
+|Connection Timeout in Seconds|Global|Determines the number of seconds of inactivity before a Currency Converter session times out. Default value is `100`.|
 
 ## Scheduled Import Settings
 

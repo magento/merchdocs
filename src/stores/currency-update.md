@@ -23,7 +23,7 @@ _Updating Currency Rates_
 
 1. Set **Import Service** to the currency rate provider.
 
-   Fixer.io is the default provider.
+   The default provider is fixer.io.
 
 1. Click **Import**.
 
