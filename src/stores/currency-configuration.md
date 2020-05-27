@@ -57,22 +57,22 @@ _Scope of Base Currency_
 
    - To connect to the [Fixer.io service](https://fixer.io/):
 
-     - Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Fixer.io** section.
+      - Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Fixer.io** section.
 
-     - Enter your fixer.io **API key**.
+      - Enter your fixer.io **API key**.
 
-     - For **Connection Timeout in Seconds**, enter the number of seconds of inactivity to allow before the connection times out.
+      - For **Connection Timeout in Seconds**, enter the number of seconds of inactivity to allow before the connection times out.
 
       ![General configuration - currency setup - Fixer.io options]({% link images/images/config-general-currency-setup-fixerio.png %}){: .zoom}
       _Fixer.io_
 
    - To connect to the [Currency Convertor API service](https://free.currencyconverterapi.com/):
 
-     - Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Currency Convertor API** section.
+      - Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Currency Convertor API** section.
 
-     - Enter your Currency Convertor **API key**.
+      - Enter your Currency Convertor **API key**.
 
-     - For **Connection Timeout in Seconds**, enter the number of seconds of inactivity to allow before the connection times out.
+      - For **Connection Timeout in Seconds**, enter the number of seconds of inactivity to allow before the connection times out.
 
       ![General configuration - currency setup - Currency Converter API options]({% link images/images/config-general-currency-setup-converter.png %}){: .zoom}
       _Currency Converter API_
