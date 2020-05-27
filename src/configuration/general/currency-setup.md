@@ -46,7 +46,7 @@ _Scheduled Import configuration settings_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled|Store View|Determines if scheduled import is enabled for currency rates. Options: Yes / No|
-|Service|Store View|Specifies the service that provides the data for the scheduled import. Default value is Webservicex.|
+|Service|Store View|Specifies the service that provides the data for the scheduled import. Default value is `fixer.io`.|
 |Start Time|Store View|Indicates the start time by hour, minute, and second, based on a 24-hour clock.|
 |Frequency|Store View|Determines how often the scheduled import takes place. Options: Daily / Weekly / Monthly.|
 |Error Email Recipient|Store View|Identifies the email address of each person who is notified by email in the event of an error. For multiple recipients, separate each entry with a comma.|
