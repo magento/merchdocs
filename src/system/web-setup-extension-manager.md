@@ -7,6 +7,8 @@ redirect_from:
 {: .bs-callout-info}
 If your Magento installation is hosted on [Adobe Commerce Cloud][1] or requires installation from the command line of the server, see [Install, manage, and upgrade extensions][2].
 
+{% include web-setup-deprecate.md %}
+
 Installing an extension from the Admin is a three-step process that should take place during off-peak hours. Before the extension is installed, your store is put into maintenance mode, checked for readiness, and backed up. After the extension is installed, it must be configured for your store according to the developer’s instructions.
 
 As a best practice, an extension should be installed and tested in a development environment before it is pushed to production. For technical information, see [Run the Extension Manager][3] in the developer documentation.
