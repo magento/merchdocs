@@ -4,6 +4,8 @@ redirect_from:
   - /configuration/advanced/advanced.html
 ---
 
+{% include web-setup-deprecate.md %}
+
 Module Manager lists the components and modules that are currently installed in your Magento system. Before a module is disabled, the system completes a readiness check and creates a backup.
 
 - The colored dot in the first column indicates if the module is currently _on_ or _off_.
