@@ -40,7 +40,7 @@ If you have a large amount of data to process, you can turn off the display of t
 
 ### Change the startup page
 
-The dashboard is the default [startup page]({% link configuration/advanced/admin.md %}) for the Admin, although you can configure a different page to appear after login.
+The dashboard is the default [startup page]({% link configuration/advanced/admin.md %}) for the Admin, although you can configure a different startup page.
 
 1. Continuing in the `Advanced` > `Admin` section, click to expand the **Startup Page** section.
 
