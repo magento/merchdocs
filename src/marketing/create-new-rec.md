@@ -17,7 +17,7 @@ After you create and activate the recommendation unit, Magento will begin [colle
 1. Specify the [Store View]({% link configuration/scope-change.md %}) where you want the recommendations to display.
 
    {:.bs-callout-info}
-   You only can create recommendation units for the Page Builder page type in the default store view.
+   You can create recommendation units for the Page Builder page type only in the default store view.
 
 1. Click the **Create Recommendation** button.
 
