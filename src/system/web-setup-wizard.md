@@ -20,6 +20,8 @@ sections:
 
 The Setup Wizard can be used to easily install and uninstall components, modules, and extensions, manage modules, upgrade your installation, and make changes to the Web setup of your installation.
 
+{% include web-setup-deprecate.md %}
+
 {% include flush-cache.md %}
 
 ## Setup Tools
