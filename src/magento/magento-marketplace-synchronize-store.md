@@ -6,6 +6,8 @@ group: getting-started
 {: .bs-callout-info}
 If your Magento installation is hosted on Adobe Commerce Cloud, see [Install, manage, and upgrade extensions][1].
 
+{% include web-setup-deprecate.md %}
+
 The Web Setup System Configuration tool uses the public and private keys from your Marketplace [profile]({% link magento/magento-marketplace-credentials.md %}) to synchronize your store with Magento Marketplace. After your store is synchronized, the services remain in sync so you can easily add extensions, as well as keep track of all extensions you have purchased and installed.
 
 If you choose not to synchronize your store, you will be required to enter both your public and private keys each time you install an extension or update.
