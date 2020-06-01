@@ -13,24 +13,24 @@ Magento allows you to use the storefront behavioral data from your production en
 Through the Admin UI in your non-production environment, you can fetch recommendations generated from actual shopper data from your production environment or another environment. Changing where those recommendations are fetched is done by specifying a different SaaS environment.
 
 {:.bs-callout-info}
-When recommendations from another SaaS environment are displayed on the storefront, you can only preview them, they are not clickable.
+When recommendations from another SaaS environment are displayed on the storefront, a storefront user can only preview them (they are not clickable).
 
-## Fetch Recommendations from Different SaaS Environment
+## Fetch Recommendations from different SaaS environment
 
 Before you begin, make sure that:
 
 -  Storefront data collection is configured and enabled on production.
--  Your non-production environment catalog is largely the same as you have on production. Having similar catalogs ensures that the products returned in the recommendation units closely mimic those on production.
+-  Your non-production environment catalog is largely the same as the one that you have in production. Using similar catalogs ensures that the products returned in the recommendation units closely mimic those on production.
 
 1. Launch your non-production environment.
 
-1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Product Recommendations** to display the **Product Recommendations** dashboard.
+1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Product Recommendations**.
 
 1. Select **Settings**.
 
-1. In the **Recommendations source** section, enable the **Fetch recommendations from a different SaaS environment** switch.
+1. In the _Recommendations source_ section, enable the **Fetch recommendations from a different SaaS environment** option.
 
-   The **Available SaaS Environments** drop-down list appears.
+   The **Available SaaS Environments** list appears.
 
 1. Select the SaaS environment associated with your production environment or another environment that has shopper data you want to use.
 
