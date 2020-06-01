@@ -8,7 +8,17 @@ Any actions taken while logged in "as Customer" will be applied to the actual cu
 
 ## To enable Login as Customer:
 
-To enable, go to **Stores** > **Configuration** > **Customers** > **Login as Customer**.
+First, Login as Customer should be enabled in the Access Control List.
+
+1. Go to **System** > Permissions > **User Roles**.
+1. Select a Role to edit.
+1. Select Role Resources > Role Resouces. Change to 'Custom'.
+1. Under 'Customer', there are options for:
+   *  Login as Customer
+      *  Allow Login as Customer - This allows the admin user to use the Login as Customer feature.
+      *  View Login as Customer Log - Allows the admin user to see the Login as Customer Log.
+
+Then, go to **Stores** > **Configuration** > **Customers** > **Login as Customer**.
 
 | Option | Values | Description |
 |-- | -- | -- |
