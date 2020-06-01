@@ -20,7 +20,7 @@ Before you can install an extension purchased from Magento Marketplace, sign in 
 
 Your access key is a set of public and private keys that is used to synchronize your Magento installation with your Magento account and verify your credentials. After your account is synchronized, you must enter your private key each time you install an extension or module from Magento Marketplace or upgrade your Magento installation.
 
-You can create multiple access keys for different purposes, and enable or disable them as needed. However, you must use the same access key that was used to install the Magento software. For example, you cannot use a Magento Open Source access key to update or upgrade Magento Commerce, or vice versa. You also cannot use an access key that belongs to another user, or one that is from a [shared account]({% link magento/magento-account-share.md %}).
+You can create multiple access keys for different purposes and enable or disable them as needed. However, you must use the same access key that was used to install the Magento software. For example, you cannot use a Magento Open Source access key to update or upgrade Magento Commerce, or vice versa. You also cannot use an access key that belongs to another user or one that is from a [shared account]({% link magento/magento-account-share.md %}).
 
 ### Create an access key
 
@@ -37,7 +37,7 @@ You can create multiple access keys for different purposes, and enable or disabl
 
     - Check to see if you already have a set of access keys for your Marketplace purchases. You can create multiple sets of access keys for different purposes.
 
-    - Click **Create a New Access Key**. Enter a name for the new key pair and click **OK**. Valid characters include upper- and lowercase characters, and hyphens instead of spaces.
+    - Click **Create a New Access Key**. Enter a name for the new key pair and click **OK**. Valid characters include upper- and lowercase characters and hyphens instead of spaces.
 
 1. When complete, click **OK**.
 
