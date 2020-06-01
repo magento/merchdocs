@@ -36,6 +36,15 @@ pages:
     - label: Media Storage
       url: "/cms/media-storage.html"
       children:
+      - label: Adobe Stock Integration
+        url: "/cms/adobe-stock.html"
+        children:
+        - label: Using Adobe Stock Images
+          url: "/cms/adobe-stock-manage.html"
+        - label: Save an Image Preview
+          url: "/cms/adobe-stock-save-preview.html"
+        - label: License an Image
+          url: "/cms/adobe-stock-license-image.html"
       - label: Enhanced Media Gallery
         url: "/cms/enhanced-media-gallery.html"
         children:
@@ -43,13 +52,6 @@ pages:
             url: "/cms/enhanced-media-gallery-asset-management.html"
           - label: Folder Management
             url: "/cms/enhanced-media-gallery-folder-management.html"
-          - label: License an Adobe Stock Image
-            url: "/cms/enhanced-media-gallery-license-image.html"
-      - label: Adobe Stock Integration
-        url: "/cms/adobe-stock.html"
-        children:
-        - label: Using Adobe Stock Images
-          url: "/cms/adobe-stock-manage.html"
     - label: Using the Editor
       url: "/cms/editor.html"
       children:
