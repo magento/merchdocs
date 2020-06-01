@@ -6,7 +6,7 @@ Magento gives you the ability to backup different parts of the system—such as 
 
 - **Restrict access to backup tools.** Access to the Backups and roll back management tool can be restricted by configuring [user roles]({% link system/permissions-user-roles.md %}) for backup and roll back resources. To restrict access, leave the corresponding checkbox unselected. If you need to grant access to roll back resources, you must grant access to backup resources as well.
 
-- **Backup before installing extensions and updates.** Always perform a backup before you install an extension or update. [Component Manager]({% link system/web-setup-extension-manager.md %}) includes a backup option that you can use before installing an extension or upgrading to a new release.
+- **Backup before installing extensions and updates.** Always perform a backup before you install an extension or update.
 
 {% include backup-deprecated.md %}
 
