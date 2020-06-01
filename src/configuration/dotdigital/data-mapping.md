@@ -79,6 +79,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Website Name|Website|Maps the name of the website associated with the customer's activity from Magento to your corresponding contact data field in dotdigital.|
+|Store View Name|Website|Maps the name of the store view associated with the customer's activity from Magento to your corresponding contact data field in dotdigital.|
 |Store Name|Website|Maps the name of the store associated with the customer's activity from Magento to your corresponding contact data field in dotdigital.|
 |Last Order ID|Website|Maps the Order ID of the customer's most recent order from Magento to your corresponding contact data field in dotdigital.|
 |Last Quote ID|Website|Maps the Quote ID of the customer's most recent quote from Magento to your corresponding contact data field in dotdigital.|
