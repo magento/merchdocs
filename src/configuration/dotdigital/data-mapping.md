@@ -123,8 +123,8 @@ Gives you the ability to create custom mappings to dotdigital, based on the foll
 |Customer Type|Website|Maps the customer type to a contact data field in dotdigital.|
 |Company|Website|Maps the customer's company to a contact data field in dotdigital.|
 |Company Status|Website|Maps the customer's company status to a contact data field in dotdigital.|
-|Sales Representative|Website|Maps the company sales representative to a contact data field in dotdigital.|
-|Sales Representative Email|Website|Maps the company sales representative email address to a contact data field in dotdigital.|
+|Sales Representative|Website|Maps the customer's company sales representative to a contact data field in dotdigital.|
+|Sales Representative Email|Website|Maps the customer's company sales representative email address to a contact data field in dotdigital.|
 |Store Credit Balance|Website|Maps the customer's store credit balance to a contact data field in dotdigital.|
 |Shared Catalog Name|Website|Maps the customer's shared catalog name to a contact data field in dotdigital.|
 
