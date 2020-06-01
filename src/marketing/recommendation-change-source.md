@@ -8,18 +8,15 @@ When you [configure a SaaS environment]({% link configuration/services/saas.md %
 
 On non-production environments like testing or staging, there is often not much storefront behavioral data (unless automated) to serve Recommendations. Actual shopper behavior at scale is captured only on the production environment.
 
-Magento allows you to use the storefront behavioral data from your production environment on other, non-production environments. Using this data inside non-production environments allows you to preview which recommendations your shoppers will see and experiment with different recommendation types and placement locations.
+Magento allows you to use product recommendations computed in your product environment on other, non-production environments. Using this data inside non-production environments allows you to preview which recommendations your shoppers will see and experiment with different recommendation types and placement locations.
 
 Through the Admin UI in your non-production environment, you can fetch recommendations generated from actual shopper data from your production environment or another environment. Changing where those recommendations are fetched is done by specifying a different SaaS environment.
-
-{:.bs-callout-info}
-When recommendations from another SaaS environment are displayed on the storefront, a storefront user can only preview them (they are not clickable).
 
 ## Fetch Recommendations from different SaaS environment
 
 Before you begin, make sure that:
 
--  Storefront data collection is configured and enabled on production.
+-  Storefront data collection is [configured and enabled](https://devdocs.magento.com/recommendations/verify.html) on production.
 -  Your non-production environment catalog is largely the same as the one that you have in production. Using similar catalogs ensures that the products returned in the recommendation units closely mimic those on production.
 
 1. Launch your non-production environment.
@@ -37,3 +34,6 @@ Before you begin, make sure that:
 1. Click **Save changes**.
 
    Magento will now fetch recommendations from that environment.
+
+   {:.bs-callout-info}
+   When recommendations from another SaaS environment are displayed on the storefront, a storefront user can only preview them (they are not clickable).
