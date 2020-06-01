@@ -124,6 +124,8 @@ Gives you the ability to create custom mappings to dotdigital, based on the foll
 |Company Status|Website|Lists the selection of company status settings that can be mapped from Magento.|
 |Store Credit Balance|Website|Lists the selection of store credit balance amounts that can be mapped from Magento.|
 |Shared Catalog Name|Website|Lists the selection of shared catalogs that can be mapped from Magento.|
+|Sales Representative|Website|Maps the company sales representative to a corresponding contact data field in dotdigital.|
+|Sales Representative Email|Website|Maps the company sales representative email address to a corresponding contact data field in dotdigital.|
 
 {:.ee-only}
 ## Enterprise Data
