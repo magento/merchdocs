@@ -34,7 +34,7 @@ _Example Admin Users_
       - **Last Name**
       - **Email address**
 
-        Each user account requires a unique email address.
+        Each user account must have a unique email address.
 
    - Enter a **Password** for the account.
 
@@ -49,12 +49,12 @@ _Example Admin Users_
 
 1. Click the calendar icon to set the **Expiration Date** for the user account.
 
-    Defining an expiration date is helpful when a user or role is temporary. After the expiration date, the user account status changes to `Inactive` and can be updated, if needed.
+   Defining an expiration date is helpful when a user or role is temporary. After the expiration date, the user account status changes to `Inactive` and can be updated, if needed.
 
 1. Under _Current User Identity Verification_, enter your user account password.
 
-    {:.bs-callout .bs-callout-warning}
-    With the _Account Information_ section complete, you can save the user. The new user will show in the _Users_ grid, but the user name cannot log in until a role is assigned.
+   {:.bs-callout .bs-callout-warning}
+   With the _Account Information_ section complete, you can save the user. The new user will show in the _Users_ grid, but the user name cannot log in until a role is assigned.
 
 ## Assign a user role
 
@@ -62,13 +62,26 @@ _Example Admin Users_
 
    The grid lists all the existing user roles. For a new store, _Administrators_ is the only role available.
 
+   ![Magento Admin - add new user role]({% link images/images/permissions-user-roles.png %}){: .zoom}
+   _Add New User Role_
+
 1. In the _Assigned_ column, select a user role.
 
-    You can [view existing or define additional user roles]({% link system/permissions-user-roles.md %}). After a role is defined, you must edit the user account to assign the new role.
+   You can [view existing or define additional user roles]({% link system/permissions-user-roles.md %}). After a role is defined, you must edit the user account to assign the new role.
 
-1. Click <span class="btn">Save User</span>.
+## Verify or reset 2FA provider(S)
 
-    ![Magento Admin - add new user role]({% link images/images/permissions-user-roles.png %}){: .zoom}
-    _Add New User Role_
+1. In the left panel, click **2FA**.
 
-The _Users_ grid opens and lists all users.
+   ![Magento Admin - add new user role]({% link images/images/permissions-user-2fa.png %}){: .zoom}
+   _2FA_
+
+1. Verify the 2FA solution(s) that are required for the user to sign in. Then, advise the user to install the required solution(s) before signing in to the Admin.
+
+1. If the user needs to reinstall the 2FA solution, you can reset the current3 2FA configuration so they must repeat the setup process before they can sign in again. For example, the user might have a new smart phone and needs to reinstall Google Authenticator. To clear the user's current 2FA setup, click <span class="btn">Reset (Provider)</span> for each solution that you want to clear. When prompted, click **OK** to confirm.
+
+   The user receives an email with a link to [configure 2FA]({% link stores/security-two-factor-authentication.md %}). The link can be used only once. If the user tries to sign in multiple times, a new link is sent after each attempt.
+
+1. Click <span class="btn">Save User</span>. When prompted, enter **Your Password** to confirm your identity, and again click <span class="btn">Save User</span>.
+
+   The _Users_ grid opens and lists all users.
