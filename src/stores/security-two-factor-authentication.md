@@ -2,22 +2,24 @@
 title: Two-Factor Authentication
 ---
 
-The Magento Admin provides all access to your store, orders, and customer data. To further increase security to your Magento instance, Magento Two-Factor Authentication (2FA) adds support for two-step authentication for multiple providers. When enabled, users attempting to access the Admin must complete a second step to verify their account. All features and requirements are restricted to Admin user accounts, not extended to customer accounts.
+To prevent unauthorized access to the Magento Admin, users are required to enter their login credentials and pass verification by two-factor authentication (2FA).
 
-## Step 1: Enable 2FA and Supported Providers
+Magento Two-Factor Authentication adds support for two-step authentication solutions from multiple providers. When enabled, users attempting to access the Admin must complete a second step to verify their account. All features and requirements are restricted to Admin user accounts, and are not available for customer accounts.
+
+## Step 1: Enable 2FA and supported providers
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand _Security_ and choose **2FA**.
 
-    ![Security configuration - 2FA]({% link images/images/config-2fa-general-full.png %}){: .zoom}
-    _Enable 2FA for the Admin_
+   ![Security configuration - 2FA]({% link images/images/config-2fa-general-full.png %}){: .zoom}
+   _Enable 2FA for the Admin_
 
 1. Expand (![Expansion selector]({% link images/images/btn-expand.png %})) the **General** section, if necessary, and set **Enable Two Factor Auth** to `Yes`.
 
 1. (Optional) For **Force Providers**, select the authenticators you require for all users.
 
-    To allow users to select their own authenticator, do not select an option.
+   To allow users to select their own authenticator, do not select an option.
 
 1. Enable and configure each authentication provider that you support.
 
@@ -25,7 +27,7 @@ The Magento Admin provides all access to your store, orders, and customer data. 
 
    Each enabled authenticator becomes a supported option for user accounts.
 
-### Google Authenticator
+### Google
 
 1. **Enable this provider** — Set to `Yes`.
 
@@ -34,8 +36,8 @@ The Magento Admin provides all access to your store, orders, and customer data. 
    - `Yes` — The user does not have to enter their authenticator code for every login per device.
    - `No` — Forces authentication for every login.
 
-    ![Security configuration - Google Authenticator]({% link images/images/config-2fa-google-authenticator.png %}){: .zoom}
-    _Google Authenticator_
+   ![Security configuration - Google Authenticator]({% link images/images/config-2fa-google-authenticator.png %}){: .zoom}
+   _Google Authenticator_
 
 ### U2F Devices (Yubikey and others)
 
@@ -46,8 +48,8 @@ The Magento Admin provides all access to your store, orders, and customer data. 
    - `Yes` — The user does not have to enter their authenticator code for every login per device.
    - `No` — Forces authentication for every login.
 
-    ![Security configuration - U2F devices]({% link images/images/config-2fa-utf-devices.png %}){: .zoom}
-    _U2F Devices_
+   ![Security configuration - U2F devices]({% link images/images/config-2fa-utf-devices.png %}){: .zoom}
+   _U2F Devices_
 
 ### Duo Security
 
@@ -65,8 +67,8 @@ The Magento Admin provides all access to your store, orders, and customer data. 
 
 1. Enter the **API hostname**.
 
-    ![Security configuration - Duo]({% link images/images/config-2fa-duo-security.png %}){: .zoom}
-    _Duo Security_
+   ![Security configuration - Duo]({% link images/images/config-2fa-duo-security.png %}){: .zoom}
+   _Duo Security_
 
 ### Authy
 
@@ -81,8 +83,8 @@ The Magento Admin provides all access to your store, orders, and customer data. 
 
 1. (Optional) To change the **OneTouch Message**, clear the **Use system value** checkbox. Then, enter the message that you want to use.
 
-    ![Security configuration - Authy]({% link images/images/config-2fa-authy.png %}){: .zoom}
-    _Authy_
+   ![Security configuration - Authy]({% link images/images/config-2fa-authy.png %}){: .zoom}
+   _Authy_
 
 ## Step 2: Configure Required Authenticator Provider
 
@@ -112,8 +114,8 @@ We recommend only enabling one authenticator per account. If you require multipl
 
 1. When complete, click <span class="btn">Save User</span>.
 
-    ![User account - 2FA]({% link images/images/system-permissions-all-users-2fa-existing-user.png %}){: .zoom}
-    _Enable 2FA for User_
+   ![User account - 2FA]({% link images/images/system-permissions-all-users-2fa-existing-user.png %}){: .zoom}
+   _Enable 2FA for User_
 
 ### Force global authenticator for all accounts
 
@@ -129,5 +131,5 @@ This option requires all Admin users to configure and use all forced authenticat
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-    ![Security configuration - 2FA force providers]({% link images/images/config-2fa-general.png %}){: .zoom}
-    _Force providers for all user accounts_
+   ![Security configuration - 2FA force providers]({% link images/images/config-2fa-general.png %}){: .zoom}
+   _Force providers for all user accounts_
