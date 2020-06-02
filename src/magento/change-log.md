@@ -26,7 +26,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Add Content]({% link marketing/create-new-rec.md %})|Updated for new Product Recommendations content type.|
 |[Create New Recommendation]({% link cms/page-builder-add-content.md %})| Updated for new content type in Page Builder.|
 |[Inventory]({% link configuration/catalog/inventory.md %}) (reference)|Updated Stock Options section for new _Synchronize with Catalog_ field.|
-|[Catalog]({% link configuration/catalog/catalog.md %}) (reference)<br/>[Product Listings]({% link catalog/navigation-product-listings.md %})|Added "Remember Category Pagination" field to the Catalog > Storefront configuration; updated screenshot and instructions for product listings.|
+|[Catalog]({% link configuration/catalog/catalog.md %}) (reference)<br/>[Product Listings]({% link catalog/navigation-product-listings.md %})|Added _Remember Category Pagination_ field to the Catalog > Storefront configuration; updated screenshot and instructions for product listings.|
 |[Amazon Order Details]({% link sales-channels/asc/amazon-order-details.md %})|Updated the order import process and added a note about "dummy order information" imported from Amazon.|
 |[Amazon Store Dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %})|Moved _Recent Orders_ information to the new [View Amazon Orders]({% link sales-channels/asc/amazon-orders-all.md %}) topic, corrected list formats, and updated the screen image.|
 |[Cancel Unshipped Order]({% link sales-channels/asc/cancel-unshipped-order.md %})|Corrected where orders open (depending on your import settings) and added a note that returns and exchanges are managed in Amazon.|
@@ -43,7 +43,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 - [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.5OpenSource.html){: target="_blank"}, 2.3.5
 - [Page Builder](https://devdocs.magento.com/page-builder/docs/release-notes.html){: target="_blank"}, 1.3.0
 - [Inventory Management](https://devdocs.magento.com/guides/v2.3/inventory/release-notes.html){:target="_blank"}, 1.1.4
-- [Product  Recommendations](https://marketplace.magento.com/magento-product-recommendations.html){:target="_blank"}, 2.0
+- [Product Recommendations](https://marketplace.magento.com/magento-product-recommendations.html){:target="_blank"}, 2.0
 
 ### New topics
 
