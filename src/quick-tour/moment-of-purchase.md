@@ -22,8 +22,5 @@ Multiple Payment Options
 PayPal Merchant Solutions
 :  It is easy to integrate a [PayPal Payments]({% link payment/paypal.md %}) account to provide your customers faster, more secure checkout options.
 
-Magento Shipping
-:  [Magento Shipping]({% link shipping/magento-shipping.md %}) provides seamless access to global carrier networks, and you can use customer experience rules to streamline operations and automate processes. It supports a variety of shipping methods so you can give your customers a choice at checkout. Customers can see a real-time estimate of shipping charges right from the shopping cart.
-
 Shipping Labels
 :  Merchants have complete control over package characteristics such as weight and size. [Shipping labels]({% link shipping/shipping-labels.md %}), rate, and bar code information originates directly from the carrier. You can easily generate labels for a single order or for multiple orders.

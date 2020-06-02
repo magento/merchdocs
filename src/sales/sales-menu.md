@@ -30,13 +30,9 @@ An [invoice]({% link sales/invoices.md %}) is a record of the receipt of payment
 
 A [shipment]({% link sales/shipments.md %}) is a record of the products in an order that have been shipped. As with invoices, multiple shipments can be associated with a single order, until all of the products in the order are shipped.
 
-### Dispatches
+### Credit Memos
 
-For [Magento Shipping]({% link shipping/magento-shipping.md %}), lists shipments that are ready for [pickup]({% link sales/dispatches.md %}) per carrier.
-
-### Batches
-
-For [Magento Shipping]({% link shipping/magento-shipping.md %}), create [batches]({% link shipping/magento-shipping-batch-create.md %}) of shipments that can be booked together.
+A [credit memo]({% link sales/credit-memos.md %}) is a document that shows the amount that is due the customer for a full or partial refund. The amount can be applied toward a purchase, or refunded to the customer.
 
 {:.ee-only}
 ### Returns
@@ -50,8 +46,3 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is simila
 ### Transactions
 
 The [Transactions]({% link sales/transactions.md %}) page lists all payment activity that has taken place between your store and all payment systems, and provides access to more detailed information.
-
-{:.ee-only}
-### Archive
-
-[Archiving orders]({% link sales/transactions.md %}) and other sales documents on a regular basis improves performance and keeps your workspace free of unnecessary information.
