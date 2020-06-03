@@ -31,8 +31,6 @@ Simply click this icon to provide a rating for the current page and, optionally,
 
 When you see a problem with one of our pages, such as a broken link, content error, or other item you can identify for fixing, let us know.
 
-To log an issue:
-
 1. At the right of the page title, click **Log an issue**.
 
    ![Log an issue]({% link getting-started/assets/log-issue.png %}){: width="600px"}
@@ -56,9 +54,7 @@ For content contributions to be accepted and published, whether large or small, 
 
 Making quick edits is a good way to fix small errors and omissions in the User Guide. If a page displays an edit link (as shown below), you can make a quick fix yourself. When you edit the document, you send us a pull request (PR) to submit the fix/suggestion to us. Then we can review, approve, and publish the submitted change.
 
-To make a quick edit:
-
-1. Open the User Guide topic you want to edit or update.
+1. Open the User Guide page you want to edit or update.
 
 1. To the right of the topic title, click **Edit on GitHub**.
 
