@@ -32,7 +32,7 @@ A [shipment]({% link sales/shipments.md %}) is a record of the products in an or
 
 ### Credit Memos
 
-A [credit memo]({% link sales/credit-memos.md %}) is a document that shows the amount that is due the customer for a full or partial refund. The amount can be applied toward a purchase, or refunded to the customer.
+A [credit memo]({% link sales/credit-memos.md %}) is a document that shows the amount that is due the customer for a full or partial refund. The amount can be applied toward a purchase or refunded to the customer.
 
 {:.ee-only}
 ### Returns

@@ -10,7 +10,7 @@ The following instructions walk you through the process of creating a basic ship
 
 1. If the order is paid, invoiced, and ready to ship, click **Ship**.
 
-   The sections at the top of the shipment contain name and address and payment information from the sales order.
+   The sections at the top of the shipment contain name, address, and payment information from the sales order.
 
 1. Complete each section of the shipment form using the instructions in the following sections.
 

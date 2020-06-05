@@ -26,7 +26,7 @@ redirect_from:
 
 sections:
  - title: Shipping Settings
-   content: The Shipping Settings establish the point of origin for all shipments made from your store or warehouse, and your preference for managing orders shipped to multiple addresses.
+   content: The Shipping Settings establish the point of origin for all shipments made from your store or warehouse and your preference for managing orders shipped to multiple addresses.
    url: /shipping/shipping-settings.html
 
  - title: Basic Shipping Methods

@@ -19,11 +19,11 @@ Manage the hierarchy of [websites, stores, and store views]({% link stores/store
 
 ### Taxes
 
-Manage all types of [tax functions]({% link tax/taxes.md %}) across your Magento store. Set up the tax rules for your store, define customer and product tax classes, and manage tax zones and rates. You can also import tax rate data into your store.
+Manage all types of [tax functions]({% link tax/taxes.md %}) across your Magento store, set up the tax rules for your store, define customer and product tax classes, and manage tax zones and rates. You can also import tax rate data into your store.
 
 ### Currency
 
-Manage the rates for the [currencies]({% link stores/currency.md %}) that are accepted as payment in your store, and customize the currency symbols that appear in product prices and sales documents.
+Manage the rates for the [currencies]({% link stores/currency.md %}) that are accepted as payment in your store and customize the currency symbols that appear in product prices and sales documents.
 
 ### Attributes
 
