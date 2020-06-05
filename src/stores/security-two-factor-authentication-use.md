@@ -2,26 +2,13 @@
 title: Using Two-Factor-Authentication
 ---
 
-## U2F Key
-
-With the U2F device configured, the user attaches the device to their system when logging into the Admin. For more information, check your U2F vendor documentation, such as [YubiKey][1] by Yubico.
-
-1. Enter Magento Admin account credentials and sign in to your account.
-
-    ![U2F key access]({% link images/images/storefront-2fa-u2f.png %}){: .zoom}
-    _U2F Key Access_
-
-1. Press the button on the key.
-
-   Authentication immediately triggers and opens the Admin.
-
-1. Insert the **U2F key** into a USB port on your computer.
+The following instructions show how to configure two-factor authentication during your initial sign in and authenticate your identity. For complete instructios, see [Admin Sign In]({% link stores/admin-signin.md %}).
 
 ## Google Authenticator
 
-### Step 1: Configure Google Authenticator
+### Step 1: Configure Google Authenticatorn
 
-1. Enter Magento Admin account credentials and log in.
+1. Enter your account credentials and sign in to the Magento _Admin_.
 
     A new authenticator screen appears with a QR code.
 
@@ -31,16 +18,16 @@ With the U2F device configured, the user attaches the device to their system whe
 
    - Line up the red box with the QR code to scan with the camera on the mobile device.
 
-   - When it recognizes the QR code and adds an entry, enter that 6-digit code in the Admin **Authenticator code** field.
+   - When it recognizes the QR code and adds an entry, enter that 6-digit code in the _Admin_ **Authenticator code** field.
 
 1. When complete, click <span class="btn">Confirm</span>.
 
     ![Google Authenticator QR code]({% link images/images/storefront-2fa-google-qrcode.png %}){: .zoom}
     _Google Authenticator QR code_
 
-### Step 2: Sign In with Google Authenticator
+### Step 2: Sign in with Google Authenticator
 
-1. Enter your Magento Admin account credentials and sign in.
+1. Enter your account credentials and sign in to the Magento _Admin_.
 
     ![Google Authenticator - signin]({% link images/images/storefront-2fa-google-code.png %}){: .zoom}
     _Google Authenticator_
@@ -53,67 +40,13 @@ With the U2F device configured, the user attaches the device to their system whe
 
 1. When complete, click <span class="btn">Confirm</span>.
 
-## Authy
-
-The Authy authenticator includes multiple types of apps available from this page, including: Mobile App, Desktop App, and Chrome App. For details about setup, see [Authy documentation][2].
-
-### Step 1: Configure Authy
-
-1. Enter Your Magento Admin account credentials and sign in.
-
-    ![Authy registration]({% link images/images/storefront-2fa-authy-auth.png %}){: .zoom}
-    _Authy registration_
-
-1. When prompted to register yourself with Authy, do the following:
-
-   - Select your **Country**.
-
-   - Enter your **Phone number**.
-
-   - Select one of the following **Verification methods**:
-
-      - `SMS`
-      - `Call Me`
-
-   - Click **Continue**.
-
-    A message is sent to your phone through SMS text or a call.
-
-1. Enter the **Verification code** that you receive and click **Verify**.
-
-1. When complete, click <span class="btn">Confirm</span>.
-
-    ![Authy verification code]({% link images/images/storefront-2fa-authy-verify.png %}){: .zoom}
-    _Authy verification code_
-
-### Step 2: Sign In with Authy
-
-1. Enter Magento Admin account credentials and sign in.
-
-    ![Authy - signin]({% link images/images/storefront-2fa-authy-access.png %}){: .zoom}
-    _Authy access_
-
-1. Choose one of the following methods to authenticate:
-
-   - `Use one touch` — Sends an alert to your Authy app. In the app, accept the access.
-   - `Use authy token` — Prompts to enter a code from your Authy app.
-
-1. If you have trouble signing in, choose the method you want to use to receive the code. Then, enter the code that you receive to access the Admin.
-
-   The app includes these additional emergency methods.
-
-   - `Send me a code via SMS` — A text SMS message is sent to the configured mobile device.
-   - `Send me a code via phone call` — The user receives a phone call with a code.
-
-   Your account is verified and opens.
-
-## Duo
+## Duo Security
 
 The Duo Mobile app is available through [Google Play][3] or [iOS App Store][4]. To use, it must be activated and linked to an account. For details, your security staff should obtain a Duo account and complete setup.
 
-### Step 1: Configure Duo
+### Step 1: Configure Duo Security
 
-1. Enter Magento Admin account credentials and sign in to your account.
+1. Enter your account credentials and sign in to the Magento _Admin_.
 
 1. When the Duo Setup page appears. Click **Start setup** and do the following:
 
@@ -144,18 +77,18 @@ The Duo Mobile app is available through [Google Play][3] or [iOS App Store][4]. 
 
 1. To configure your settings for the device, choose the action that you want to take place when you sign in.
 
-   - `Ask me to choose an authenticator method` — Allows the user to select when logging in and authenticating in the Magento Admin.
+   - `Ask me to choose an authenticator method` — Allows the user to select when logging in and authenticating in the Magento _Admin_.
    - `Automatically send this device a Duo Push` — Sends a message to your device to accept or deny for access.
    - `Automatically call this device` — Calls and provides a passcode for entering
 
     ![Duo verification actions]({% link images/images/storefront-2fa-duo-user7.png %}){: .zoom}
     _Duo verification code_
 
-### Step 2: Sign In with Duo
+### Step 2: Sign in with Duo Security
 
 The following example displays the options when selecting Ask me to choose an authenticator method:
 
-1. When prompted, enter Enter Magento Admin credentials to log in.
+1. When prompted, enter Enter Magento _Admin_ credentials to log in.
 
     ![Duo - signin]({% link images/images/storefront-2fa-duo-auth.png %}){: .zoom}
     _Duo access_
@@ -166,7 +99,76 @@ The following example displays the options when selecting Ask me to choose an au
    - `Call Me` — Click this option, receive a call with a code, and enter the passcode.
    - `Enter a Passcode` — Click this option to receive and enter a passcode.
 
-1. Complete the push or code to fully sign in to the Admin.
+1. Complete the push or code to fully sign in to the _Admin_.
+
+## Authy
+
+The Authy authenticator includes multiple types of apps available from this page, including: Mobile App, Desktop App, and Chrome App. For details about setup, see [Authy documentation][2].
+
+### Step 1: Configure Authy
+
+1. Enter your account credentials and sign in to the Magento _Admin_.
+
+    ![Authy registration]({% link images/images/storefront-2fa-authy-auth.png %}){: .zoom}
+    _Authy registration_
+
+1. When prompted to register yourself with Authy, do the following:
+
+   - Select your **Country**.
+
+   - Enter your **Phone number**.
+
+   - Select one of the following **Verification methods**:
+
+      - `SMS`
+      - `Call Me`
+
+   - Click **Continue**.
+
+    A message is sent to your phone through SMS text or a call.
+
+1. Enter the **Verification code** that you receive and click **Verify**.
+
+1. When complete, click <span class="btn">Confirm</span>.
+
+    ![Authy verification code]({% link images/images/storefront-2fa-authy-verify.png %}){: .zoom}
+    _Authy verification code_
+
+### Step 2: Sign in with Authy
+
+1. Enter your account credentials and sign in to the Magento _Admin_.
+
+    ![Authy - signin]({% link images/images/storefront-2fa-authy-access.png %}){: .zoom}
+    _Authy access_
+
+1. Choose one of the following methods to authenticate:
+
+   - `Use one touch` — Sends an alert to your Authy app. In the app, accept the access.
+   - `Use authy token` — Prompts to enter a code from your Authy app.
+
+1. If you have trouble signing in, choose the method you want to use to receive the code. Then, enter the code that you receive to access the _Admin_.
+
+   The app includes these additional emergency methods.
+
+   - `Send me a code via SMS` — A text SMS message is sent to the configured mobile device.
+   - `Send me a code via phone call` — The user receives a phone call with a code.
+
+   Your account is verified and opens.
+
+## U2F (Yubikey and others)
+
+With the U2F device configured, the user attaches the device to their system when logging into the _Admin_. For more information, check your U2F vendor documentation, such as [YubiKey][1] by Yubico.
+
+1. Enter Magento _Admin_ account credentials and sign in to your account.
+
+    ![U2F key access]({% link images/images/storefront-2fa-u2f.png %}){: .zoom}
+    _U2F Key Access_
+
+1. Press the button on the key.
+
+   Authentication immediately triggers and opens the _Admin_.
+
+1. Insert the **U2F key** into a USB port on your computer.
 
 [1]: https://support.yubico.com/support/solutions/articles/15000006417-getting-started-with-your-yubikey
 [2]: https://authy.com/features/setup/
