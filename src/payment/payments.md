@@ -6,7 +6,7 @@ sections:
    url: /payment/payment-methods.html
 
  - title: Online Payments
-   content: Magento supports numerous online payment solutions and gateways such as PayPal, Braintree, Authorize.Net, and more.
+   content: Magento supports numerous online payment solutions and gateways such as PayPal, Braintree, Klarna, and more.
    url: /payment/recommended-solutions.html
 
  - title: PCI Compliance

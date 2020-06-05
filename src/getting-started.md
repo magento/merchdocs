@@ -47,6 +47,6 @@ Adobe offers two Magento editions to fit the requirements of your eCommerce busi
 
 This section of the guide provides information for the “why, where, and how” questions that most merchants have when first learning to use Magento, as well as resources and reference information. It also functions as a springboard to more advanced topics.
 
-If you have used this guide before, you can review the [Change Log]({% link magento/change-log.md %}) for information about the latest additions and updates to the guide.
+If you have used this guide before, you can review [What's new in the guide]({% link magento/whats-new.md %}) for information about the latest additions and updates to the guide.
 
 {% include grid.html sections=page.sections%}
