@@ -12,7 +12,7 @@ The next time users sign in to the _Admin_, they must configure one of the suppo
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the left panel, click _Security_ and choose **2FA**.
+1. In the left panel, click **Security** and choose **2FA**.
 
 1. In the _General_ section, select each **Provider to use**.
 
