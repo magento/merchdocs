@@ -3,38 +3,72 @@ title: Admin Sign In
 group: getting-started
 ---
 
-You will first learn how to sign in and out of the Admin and how to reset your password. All of the instructions in the rest of this guide are written for a user with full administrative privileges and begin with the assumption that you are logged in to the Admin. See [Permissions]({% link system/permissions.md %}) for more info about Admin users and roles.
+The Magento _Admin_ is protected by multiple layers of security measures to prevent unauthorized access to your store, order, and customer data. The first time you sign in to the _Admin_, you are required to enter your username and password and to set up [two-factor authentication]({% link stores/security-two-factor-authentication.md %}) (2FA).
 
-The [Advanced Admin]({% link configuration/advanced/admin.md %}) configuration determines how many times an admin user can try to log in before the account is locked. By default, six attempts are allowed. See [Locked Users]({% link system/permissions-locked-users.md %}) for information about unlocking a user account.
+Depending on the configuration of your store, you might also be required to resolve a [CAPTCHA]({% link stores/security-google-recaptcha.md %}) challenge such as entering a series of keyboard characters, solving a puzzle, or clicking a series of images with a common theme. These tests are designed to identify you has human, rather than an automated bot.
 
-Depending on Admin configurations, you may also need to resolve a [CAPTCHA]({% link stores/security-captcha.md %}) or [reCAPTCHA]({% link stores/security-google-recaptcha.md %}) or enter a configured [Two-Factor Authentication]({% link stores/security-two-factor-authentication.md %}) code.
+For additional security, you can determine which parts of the _Admin_ each user has [permission]({% link system/permissions.md %}) to access, and also limit the number of [login attempts]({% link configuration/advanced/admin.md %}). By default, after six attempts the account is locked, and the user must wait a few minutes before trying again. [Locked accounts]({% link system/permissions-locked-users.md %}) can also be reset from the _Admin_.
 
-When entering your credentials, the username and password may automatically populate if your browser is set to use the autocomplete function. If enabled, you can save your credentials for the Magento Admin login page.
+{: .bs-callout-info}
+The first time you sign in to the _Admin_, you are given the opportunity to _Allow admin usage data collection_. See [Store _Admin_]({% link stores/admin.md %}) for more information.
 
 ![]({% link images/images/admin-login.png %}){: .zoom}
-_Admin Sign In_
+__Admin_ Sign In_
 
-## Sign In to the Admin
+## Step 1: Set up two-factor authentication
 
-1. Enter the URL that was specified during the installation followed by the base URL of your store’s Admin in your browser.
+Before you can sign in to the _Admin_ of your store, you must have a two-factor authentication solution set up and ready to use. To learn more about the authentication process used by each solution, see [Using Two-Factor Authentication]({% link stores/security-two-factor-authentication-use.md %}). By default, Magento supports [Google Authenticator][1].
 
-    The default Admin URLs look something like `https://www.yourdomain.com/admin`.
+Ask your Magento system administrator which 2FA solutions are supported for the store. Then, complete the setup of your preferred 2FA solution according to the provider's instructions.
+
+## Step 2: Sign in to the Admin
+
+1. Enter the _Admin_ URL that was specified during the Magento installation.
+
+   The default _Admin_ URL looks something like `https://www.yourdomain.com/your-custom-admin-domain`.
+
+   {: .bs-callout-info}
+   Although we use `admin` as the base URL in most examples, we recommend that you choose a unique and hard-to-guess [custom URL]({% link stores/store-urls-custom-admin.md %}) for the _Admin_ of your store.
 
    You can bookmark the page or save a shortcut on your desktop for easy access.
 
-1. Enter your Admin **Username** and **Password**.
+1. Enter your _Admin_ **Username** and **Password**.
 
-   These values may populate depending on your browser's autocomplete setting.
-
-1. (Optional) Resolve a [CAPTCHA]({% link stores/security-captcha.md %}) or [reCAPTCHA]({% link stores/security-google-recaptcha.md %}) or enter a configured [Two-Factor Authentication]({% link stores/security-two-factor-authentication.md %}) code.
+1. (Optional) If a CAPTCHA is enabled for your store, follow the onscreen instructions to resolve the challenge. To learn more, see [CAPTCHA]({% link stores/security-captcha.md %}) and [reCAPTCHA]({% link stores/security-google-recaptcha.md %}).
 
 1. Click **Sign in**.
 
-The first time anyone signs in to the Admin, it displays the **Allow admin usage data collection** dialog. See [Store Admin]({% link stores/admin.md %}) for more information.
+   If this is the first time you have signed in to the _Admin_ from this account, you will receive an email with a link to configuration instructions.
+
+## Step 3: Complete the 2FA configuration
+
+The following example shows how to pair your _Admin_ account with Google Authenticator.
+
+1. When the QR code appears, use one of the following methods to capture the code and pair Google Authenticator with your _Admin_ account.
+
+   ![]({% link images/images/admin-login-google-auth-setup.png %}){: .zoom}
+   _Set Up Google Authenticator_
+
+   -  Capture QR Code using a smart phone
+
+      On your smart phone, launch Google Authenticator. Tap the **plus** sign (+) in the upper-right corner of the app. Then at the bottom of the screen, tap **Scan Barcode** and take a picture of the QR code.
+
+   -  Capture QR Code from browser
+
+      If Google Authenticator is installed as an extension in your browser, click the **Authenticator** icon in the toolbar and capture the page.
+
+   -  Manually enter QR code
+
+      Copy the string of text below the QR code. Launch Google Authenticator with either your smart phone or browser, and click the plus sign (+). Then, choose **Manual Entry**.  Under **Account**, enter the email address that is associated with your _Admin_ account and paste the QR code string into the **Key** field.
+
+1. To sign in to the _Admin_ with two-factor authentication, enter the six-digit code generated by Google Authenticator into the **Authenicator code** field, and click <span class="btn">Confirm</span>.
+
+   ![]({% link images/images/admin-login-2fa-google.png %}){: .zoom}
+   _Enter Authenticator Code_
 
 ## Reset your password
 
-1. Enter the **Email Address** that is associated with the Admin account.
+1. Enter the **Email Address** that is associated with the _Admin_ account.
 
    ![]({% link images/images/admin-sign-in-forgot-password.png %}){: .zoom}
    _Forgot Password_
@@ -44,9 +78,9 @@ The first time anyone signs in to the Admin, it displays the **Allow admin usage
    If an account is associated with the email address, an email will be sent to reset your password.
 
    {:.bs-callout-info}
-   An Admin password must be seven or more characters long and include both letters and numbers. See [Configuring Admin Security]({% link stores/security-admin.md %}) for information about password options.
+   An _Admin_ password must be seven or more characters long and include both letters and numbers. See [Configuring _Admin_ Security]({% link stores/security-admin.md %}) for information about password options.
 
-## Sign Out of the Admin
+## Sign out of the Admin
 
 1. In the upper-right corner, click the **Account** (![Account]({% link images/images/btn-account.png %}){: .Inline}) icon.
 
@@ -55,4 +89,6 @@ The first time anyone signs in to the Admin, it displays the **Allow admin usage
 ![]({% link images/images/admin-sign-out.png %}){: .zoom}
 _Sign Out_
 
-The Sign In page displays a message that you are logged out. We recommend you sign out of the Admin any time you leave your computer unattended.
+The Sign In page displays a message that you are logged out. We recommend you sign out of the _Admin_ any time you leave your computer unattended.
+
+[1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US
