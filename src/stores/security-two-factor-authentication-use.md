@@ -2,7 +2,7 @@
 title: Using Two-Factor-Authentication
 ---
 
-The following instructions show how to configure two-factor authentication during your initial sign in and authenticate your identity. For complete instructios, see [Admin Sign In]({% link stores/admin-signin.md %}).
+The following instructions show how to configure two-factor authentication during your initial sign in and how to authenticate your identity. For complete instructions, see [Admin Sign In]({% link stores/admin-signin.md %}).
 
 ## Google Authenticator
 
