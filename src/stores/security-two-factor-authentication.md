@@ -27,7 +27,7 @@ The next time users sign in to the _Admin_, they must configure one of the suppo
 
 ### Google
 
-To change how long the one-time-password (OTP) is available during sign in, clear the **Use system value** checkbox. Then, enter the number of seconds that you want the **OTP Window** to be valid.
+To change how long the one-time password (OTP) is available during sign in, clear the **Use system value** checkbox. Then, enter the number of seconds that you want the **OTP Window** to be valid.
 
 ![Security configuration - Google]({% link images/images/config-security-2fa-google.png %}){: .zoom}
 _Google_
