@@ -3,7 +3,7 @@ title: Admin Sign In
 group: getting-started
 ---
 
-The Magento _Admin_ is protected by multiple layers of security measures to prevent unauthorized access to your store, order, and customer data. The first time you sign in to the _Admin_, you are required to enter your username and password, and also set up [two-factor authentication]({% link stores/security-two-factor-authentication.md %}) (2FA).
+The Magento _Admin_ is protected by multiple layers of security measures to prevent unauthorized access to your store, order, and customer data. The first time you sign in to the _Admin_, you are required to enter your username and password and to set up [two-factor authentication]({% link stores/security-two-factor-authentication.md %}) (2FA).
 
 Depending on the configuration of your store, you might also be required to resolve a [CAPTCHA]({% link stores/security-google-recaptcha.md %}) challenge such as entering a series of keyboard characters, solving a puzzle, or clicking a series of images with a common theme. These tests are designed to identify you has human, rather than an automated bot.
 
