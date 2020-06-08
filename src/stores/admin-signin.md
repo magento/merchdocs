@@ -28,7 +28,7 @@ Ask your Magento system administrator which 2FA solutions are supported for the 
    The default _Admin_ URL looks something like `https://www.yourdomain.com/your-custom-admin-domain`.
 
    {: .bs-callout-info}
-   Although we use "admin" as the base URL in most examples, we recommend that you choose a unique and hard to guess [custom URL]({% link stores/store-urls-custom-admin.md %}) for the _Admin_ of your store.
+   Although we use `admin` as the base URL in most examples, we recommend that you choose a unique and hard-to-guess [custom URL]({% link stores/store-urls-custom-admin.md %}) for the _Admin_ of your store.
 
    You can bookmark the page or save a shortcut on your desktop for easy access.
 
