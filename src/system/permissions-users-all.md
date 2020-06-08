@@ -78,7 +78,7 @@ _Example Admin Users_
 
 1. Verify the 2FA solution(s) that are required for the user to sign in. Then, advise the user to install the required solution(s) before signing in to the Admin.
 
-1. If the user needs to reinstall the 2FA solution, you can reset the current3 2FA configuration so they must repeat the setup process before they can sign in again. For example, the user might have a new smart phone and needs to reinstall Google Authenticator. To clear the user's current 2FA setup, click <span class="btn">Reset (Provider)</span> for each solution that you want to clear. When prompted, click **OK** to confirm.
+1. If the user needs to reinstall the 2FA solution, you can reset the current 2FA configuration. This requires the user to repeat the setup process before they can sign in again. For example, the user might have a new smart phone and needs to reinstall Google Authenticator. To clear the user's current 2FA setup, click <span class="btn">Reset (Provider)</span> for each solution that you want to clear. When prompted, click **OK** to confirm.
 
    The user receives an email with a link to [configure 2FA]({% link stores/security-two-factor-authentication.md %}). The link can be used only once. If the user tries to sign in multiple times, a new link is sent after each attempt.
 
