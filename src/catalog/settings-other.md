@@ -32,7 +32,6 @@ _Other Settings_{:.ee-only}
 |----------
 | [Configurations]({% link catalog/product-configurations.md %}) | This section lists any existing variations of the product and can be used to generate variations for use with the Configurable product type. |
 | [Customizable Options]({% link catalog/settings-advanced-custom-options.md %}) | These options are based on variations of a single SKU and can be a good solution if your inventory needs are simple. |
-|[Shipping]({% link catalog/product-shipping.md %})|Product and packaging settings used for [Magento Shipping]({% link shipping/magento-shipping.md %}) fulfillment. Includes Country of Origin, HS Code, and Packaging Type settings. |
 | [Downloadable Information]({% link catalog/product-downloadable-information.md %}) | This section is used to generate the links to downloadable products and samples. |
 | [Grouped Products]({% link catalog/product-grouped-products.md %}) | This section is used to add items to a Grouped product type and to edit the current selection of items. |
 | [Bundle Items]({% link catalog/product-bundle-items.md %}) | This section is used to add items to a Bundle product type and to edit the current selection of items. |
