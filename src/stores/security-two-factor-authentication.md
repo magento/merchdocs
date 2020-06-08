@@ -12,9 +12,9 @@ The next time users sign in to the _Admin_, they must configure one of the suppo
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the left panel, click _Security_ and choose **2FA**.
+1. In the left panel, click **Security** and choose **2FA**.
 
-1. In the **General** section, select each **Provider to use**.
+1. In the _General_ section, select each **Provider to use**.
 
    To select multiple providers, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.
 
@@ -27,7 +27,7 @@ The next time users sign in to the _Admin_, they must configure one of the suppo
 
 ### Google
 
-To change how long the one-time-password (OTP) is available during sign in, clear the **Use system value** checkbox. Then, enter the number of seconds that you want the **OTP Window** to be valid.
+To change how long the one-time password (OTP) is available during sign in, clear the **Use system value** checkbox. Then, enter the number of seconds that you want the **OTP Window** to be valid.
 
 ![Security configuration - Google]({% link images/images/config-security-2fa-google.png %}){: .zoom}
 _Google_
