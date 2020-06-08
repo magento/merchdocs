@@ -152,13 +152,6 @@ pages:
       url: "/sales/shipments-create.html"
     - label: Canceling a Shipment
       url: "/sales/shipment-cancel.html"
-  - label: Dispatches
-    url: "/sales/dispatches.html"
-  - label: Batches
-    url: "/sales/batches.html"
-    children:
-    - label: Creating a Batch
-      url: "/shipping/magento-shipping-batch-create.html"
   - label: Credit Memos
     url: "/sales/credit-memos.html"
     children:
@@ -320,45 +313,6 @@ pages:
       url: "/shipping/shipping-table-rate.html"
     - label: Dimensional Weight
       url: "/shipping/weight-dimensional.html"
-  - label: Magento Shipping
-    url: "/shipping/magento-shipping.html"
-    children:
-    - label: Quick Look
-      url: "/shipping/magento-shipping-quick-look.html"
-    - label: Supported Countries
-      url: "/shipping/magento-shipping-countries.html"
-    - label: Customer Experience
-      url: "/shipping/magento-shipping-customer-experience.html"
-    - label: Setting Up Magento Shipping
-      url: "/shipping/magento-shipping-setup.html"
-      children:
-      - label: Carriers
-        url: "/shipping/magento-shipping-carriers.html"
-      - label: Locations
-        url: "/shipping/magento-shipping-locations.html"
-      - label: Packaging
-        url: "/shipping/magento-shipping-packaging.html"
-      - label: Experiences
-        url: "/shipping/magento-shipping-experience.html"
-      - label: Attribute Mapping
-        url: "/shipping/magento-shipping-attributes.html"
-    - label: Shipping Experiences
-      url: "/shipping/magento-shipping-experience.html"
-      children:
-      - label: Shipping Experience Rules
-        url: "/shipping/magento-shipping-experience-rules.html"
-      - label: Click & Collect
-        url: "/shipping/magento-shipping-click-collect.html"
-      - label: Collection Points
-        url: "/shipping/magento-shipping-collection-points.html"
-      - label: Preview Experience
-        url: "/shipping/magento-shipping-preview-experience.html"
-    - label: Pre-Packaged Assignments
-      url: "/shipping/magento-shipping-pre-packaged.html"
-    - label: International Shipping
-      url: "/shipping/magento-shipping-international.html"
-    - label: Find Solutions
-      url: "/shipping/magento-shipping-troubleshooting.html"
   - label: Carriers
     url: "/shipping/carriers.html"
     children:
