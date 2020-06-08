@@ -2,20 +2,20 @@
 title: Managing Two-Factor Authentication
 ---
 
-If a user has issues accessing the Magento _Admin_ with their authenticator, they can attempt to sync or troubleshoot their authenticator. You can also reset the authenticator associated with the account. When reset, the user must reconnect and add the authenticator again when they next access the _Admin_.
+Users who are unable to sign in to the _Admin_ with two-factor authentication (2FA) can try to sync or troubleshoot the problem. You can also reset the authenticator associated with the account. When reset, the user must sign in again and reconfigure the authenticator.
 
-If you have issues accessing the Magento _Admin_ with the authenticators, consider the following:
+If you have trouble signing in with 2FA, consider the following:
 
-- Some mobile apps include options to sync. This option reconnects the app and server, updating in case time settings changed on the device or server.
+- Some mobile apps include options to sync. This option reconnects the app and server, and synchronizes the time settings on the device and server.
 - Revoking a device or resetting an authenticator can help users connect.
 - Clearing web cache and cookies for the Magento instance can also help. Authenticators, like Google, use generated cookies to save access and duration. Clear your cookies for your specific browser and Magento instance domain.
-- If you have blocked cookies for your browser, this will block some authenticators, like Google, from completing verification and access. Add a rule to allow cookies for your Magento instance.
+- Blocking cookies prevents some authenticators, such as Google Authenticator, from completing the verification process. Add a rule to your browser that allows cookies for your Magento instance.
 
 To reset authenticators from the command line and more advanced troubleshooting information, see [Two-Factor Authentication][1] in the Magento developer documentation.
 
 ## Reset authenticators per user account
 
-To reset 2FA providers for other users, you must be an _Administrator_, or have custom permission under _Stores_ > _Settings_ > _Configuration_ > _Two Factor Auth_. To learn more, see [User Roles]({% link system/permissions-user-roles.md %}).
+To reset 2FA providers for other users, you must be an `administrator` or have custom permission under _Stores_ > _Settings_ > _Configuration_ > _Two Factor Auth_. To learn more, see [User Roles]({% link system/permissions-user-roles.md %}).
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **All Users**.
 
