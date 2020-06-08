@@ -16,7 +16,7 @@ The following instructions show how to configure two-factor authentication durin
 
 1. Click the plus sign ( **+** ) to add a new entry. Then, do the following:
 
-   - Line up the red box with the QR code to scan with the camera on the mobile device.
+   - Line up the red box with the QR code to scan with the camera on your smart phone.
 
    - When it recognizes the QR code and adds an entry, enter that 6-digit code in the _Admin_ **Authenticator code** field.
 
@@ -42,7 +42,7 @@ The following instructions show how to configure two-factor authentication durin
 
 ## Duo Security
 
-The Duo Mobile app is available through [Google Play][3] or [iOS App Store][4]. To use, it must be activated and linked to an account. For details, your security staff should obtain a Duo account and complete setup.
+Duo offers a free trial, and charges according to the number of users that are associated with the account. Follow their instructions to set up your account and download the app. Duo Mobile is available through [Google Play][3] or [iOS App Store][4]. 
 
 ### Step 1: Configure Duo Security
 
@@ -58,7 +58,7 @@ The Duo Mobile app is available through [Google Play][3] or [iOS App Store][4]. 
         ![Duo authentication - select device ]({% link images/images/storefront-2fa-duo-user2.png %}){: .zoom}
         _Device Type_
 
-   - When prompted, enter your **phone number**, and click **Continue**.
+   - When prompted, enter your **phone number**, and click <span class="btn">Continue</span>.
 
         This example requests your phone number, because we are using a mobile device.
 
@@ -86,9 +86,9 @@ The Duo Mobile app is available through [Google Play][3] or [iOS App Store][4]. 
 
 ### Step 2: Sign in with Duo Security
 
-The following example displays the options when selecting Ask me to choose an authenticator method:
+The following example shows the options for `Ask me to choose an authenticator method`:
 
-1. When prompted, enter Enter Magento _Admin_ credentials to log in.
+1. When prompted, enter your Magento _Admin_ credentials to sign in.
 
     ![Duo - signin]({% link images/images/storefront-2fa-duo-auth.png %}){: .zoom}
     _Duo access_
@@ -103,7 +103,7 @@ The following example displays the options when selecting Ask me to choose an au
 
 ## Authy
 
-The Authy authenticator includes multiple types of apps available from this page, including: Mobile App, Desktop App, and Chrome App. For details about setup, see [Authy documentation][2].
+Authy offers their app and service at no charge to users. Follow their instructions to download and set up the app for your device or browser. To learn more, see the [Authy documentation][2].
 
 ### Step 1: Configure Authy
 
@@ -123,7 +123,7 @@ The Authy authenticator includes multiple types of apps available from this page
       - `SMS`
       - `Call Me`
 
-   - Click **Continue**.
+   - Click <span class="btn">Continue</span>.
 
     A message is sent to your phone through SMS text or a call.
 
@@ -157,7 +157,7 @@ The Authy authenticator includes multiple types of apps available from this page
 
 ## U2F (Yubikey and others)
 
-With the U2F device configured, the user attaches the device to their system when logging into the _Admin_. For more information, check your U2F vendor documentation, such as [YubiKey][1] by Yubico.
+Follow the instructions from the solution provider to configure your U2F device.  For more information, see the vendor documentation, such as [YubiKey][1] by Yubico.
 
 1. Enter Magento _Admin_ account credentials and sign in to your account.
 
