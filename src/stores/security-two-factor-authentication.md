@@ -14,7 +14,7 @@ The next time users sign in to the _Admin_, they must configure one of the suppo
 
 1. In the left panel, click _Security_ and choose **2FA**.
 
-1. In the **General** section, select each **Provider to use**.
+1. In the _General_ section, select each **Provider to use**.
 
    To select multiple providers, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.
 
