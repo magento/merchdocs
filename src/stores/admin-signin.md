@@ -7,7 +7,7 @@ The Magento _Admin_ is protected by multiple layers of security measures to prev
 
 Depending on the configuration of your store, you might also be required to resolve a [CAPTCHA]({% link stores/security-google-recaptcha.md %}) challenge such as entering a series of keyboard characters, solving a puzzle, or clicking a series of images with a common theme. These tests are designed to identify you has human, rather than an automated bot.
 
-For additional security, you can determine which parts of the _Admin_ each user has [permission]({% link system/permissions.md %}) to access, and limit the number of [login attempts]({% link configuration/advanced/admin.md %}). By default, after six attempts the account is locked and the user must wait a few minutes before trying again. [Locked accounts]({% link system/permissions-locked-users.md %}) can also be reset from the _Admin_.
+For additional security, you can determine which parts of the _Admin_ each user has [permission]({% link system/permissions.md %}) to access, and also limit the number of [login attempts]({% link configuration/advanced/admin.md %}). By default, after six attempts the account is locked, and the user must wait a few minutes before trying again. [Locked accounts]({% link system/permissions-locked-users.md %}) can also be reset from the _Admin_.
 
 {: .bs-callout-info}
 The first time you sign in to the _Admin_, you are given the opportunity to _Allow admin usage data collection_. See [Store _Admin_]({% link stores/admin.md %}) for more information.
