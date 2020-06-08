@@ -2,7 +2,7 @@
 title: Using Two-Factor-Authentication
 ---
 
-The following instructions show how to configure two-factor authentication during your initial sign in and authenticate your identity. For complete instructios, see [Admin Sign In]({% link stores/admin-signin.md %}).
+The following instructions show how to configure two-factor authentication during your initial sign in and how to authenticate your identity. For complete instructions, see [Admin Sign In]({% link stores/admin-signin.md %}).
 
 ## Google Authenticator
 
@@ -70,7 +70,7 @@ Duo offers a free trial, and charges according to the number of users that are a
         ![Duo authentication - verify app installation]({% link images/images/storefront-2fa-duo-user5.png %}){: .zoom}
         _Verify App Installation_
 
-1. Open Duo Mobile, and scan the **QR code** to sync the authenticator with Magento. A checkmark appears when the activation is complete.
+1. Open Duo Mobile and scan the **QR code** to sync the authenticator with Magento. A checkmark appears when the activation is complete.
 
     ![Duo authentication - verification code]({% link images/images/storefront-2fa-duo-user6.png %}){: .zoom}
     _Duo Verification Code_
