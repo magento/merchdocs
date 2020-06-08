@@ -70,7 +70,7 @@ The Duo Mobile app is available through [Google Play][3] or [iOS App Store][4]. 
         ![Duo authentication - verify app installation]({% link images/images/storefront-2fa-duo-user5.png %}){: .zoom}
         _Verify App Installation_
 
-1. Open Duo Mobile, and scan the **QR code** to sync the authenticator with Magento. A checkmark appears when the activation is complete.
+1. Open Duo Mobile and scan the **QR code** to sync the authenticator with Magento. A checkmark appears when the activation is complete.
 
     ![Duo authentication - verification code]({% link images/images/storefront-2fa-duo-user6.png %}){: .zoom}
     _Duo Verification Code_
