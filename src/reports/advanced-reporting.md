@@ -2,7 +2,7 @@
 title: Advanced Reporting
 ---
 
-Advanced Reporting gives you access to a suite of dynamic reports that are based on your product, order, and customer data, with a personalized dashboard that is tailored to your business needs. Advanced Reporting is a free, cloud-based service that is powered by [Magento Business Intelligence][1].
+Advanced Reporting gives you access to a suite of dynamic reports that are based on your product, order, and customer data, with a personalized dashboard that is tailored to your business needs.
 
 For technical information, see [Advanced Reporting][2]{:target="_blank"} in our developer documentation.
 
@@ -11,17 +11,17 @@ _Advanced Reporting Dashboard_
 
 ## Requirements
 
-* The website must run on a public web server.
+*  The website must run on a public web server.
 
-* The domain must have a valid security (SSL) certificate.
+*  The domain must have a valid security (SSL) certificate.
 
-* Magento must have been installed or upgraded successfully without error.
+*  Magento must have been installed or upgraded successfully without error.
 
-* In the Magento configuration for [store URLs]({% link stores/store-urls.md %}), the **Base URL (Secure)** setting for the store view must point to the secure URL. For example https://yourdomain.com.
+*  In the Magento configuration for [store URLs]({% link stores/store-urls.md %}), the **Base URL (Secure)** setting for the store view must point to the secure URL. For example https://yourdomain.com.
 
-* In the Magento configuration for [store URLs]({% link stores/store-urls.md %}), **Use Secure URLs on Storefront** and **Use Secure URLs in Admin** must be set to `Yes`.
+*  In the Magento configuration for [store URLs]({% link stores/store-urls.md %}), **Use Secure URLs on Storefront** and **Use Secure URLs in Admin** must be set to `Yes`.
 
-* Make sure that [Magento crontab][3]{:target="_blank"} is created and cron jobs are running on the installed server.
+*  Make sure that [Magento crontab][3]{:target="_blank"} is created and cron jobs are running on the installed server.
 
 {:.bs-callout-info}
 Advanced Reporting can be used only with Magento installations that have continually used a single [base currency]({% link stores/currency-configuration.md %}).
@@ -34,11 +34,11 @@ In the Magento configuration, [Advanced Reporting]({% link configuration/general
 
 1. In the left panel where **General** is expanded, choose **Advanced Reporting** and do the following:
 
-   * Verify that **Advanced Reporting Service** is set to `Enable`. (This is the default setting.)
+   *  Verify that **Advanced Reporting Service** is set to `Enable`. (This is the default setting.)
 
-   * Set the **Time of day to send data** to the hour, minute, and second, according to a 24-hour clock, that you want the service to receive updated data from your store. By default, data is sent at 2:00 AM.
+   *  Set the **Time of day to send data** to the hour, minute, and second, according to a 24-hour clock, that you want the service to receive updated data from your store. By default, data is sent at 2:00 AM.
 
-   * Under **Industry Data**, choose the **Industry** that best describes your business.
+   *  Under **Industry Data**, choose the **Industry** that best describes your business.
 
    ![]({% link images/images/config-general-advanced-reporting.png %}){: .zoom}
    _Advanced Reporting_
@@ -53,15 +53,15 @@ In the Magento configuration, [Advanced Reporting]({% link configuration/general
 
 1. Do one of the following:
 
-   * On the _Admin_ sidebar, choose **Dashboard**. Then, click <span class="btn">Advanced Reporting</span>.
-   * On the _Admin_ sidebar, go to **Reports** > _Business Intelligence_ > **Advanced Reporting**.
+   *  On the _Admin_ sidebar, choose **Dashboard**. Then, click <span class="btn">Advanced Reporting</span>.
+   *  On the _Admin_ sidebar, go to **Reports** > _Business Intelligence_ > **Advanced Reporting**.
 
    The Advanced Reporting dashboard provides a quick summary of your orders, customers, and products. Make sure to scroll down to see the full dashboard.
 
 1. To get a better view of the data, set the **Filters** in the upper-right corner to the time period and store view that you want to include in the report. Then, do the following:
 
-   * Hover over any data point for more information.
-   * Click each tab to see all dashboard reports.
+   *  Hover over any data point for more information.
+   *  Click each tab to see all dashboard reports.
 
    ![]({% link images/images/reporting-advanced-data-point.png %}){: .zoom}
    *Data Point*
@@ -87,12 +87,12 @@ If you get a 404 “Page Not Found” message, verify that your store meets the 
    ![]({% link images/images/advanced-reporting-integration-reauthorize.png %}){: .zoom}
    *Reauthorize*
 
-   * When prompted, click <span class="btn">Reauthorize</span> to approve access to the API resources.
+   *  When prompted, click <span class="btn">Reauthorize</span> to approve access to the API resources.
 
       ![]({% link images/images/advanced-reporting-integration-api.png %}){: .zoom}
       *Reauthorize Access to API Resources*
 
-   * Verify that the list of Integration Tokens for Extensions is complete. Then, click <span class="btn">Done</span>.
+   *  Verify that the list of Integration Tokens for Extensions is complete. Then, click <span class="btn">Done</span>.
 
       ![]({% link images/images/advanced-reporting-integration-tokens-for-extensions.png %}){: .zoom}
       *Integration Tokens*
@@ -142,6 +142,5 @@ Advanced Reporting can be used only with Magento installations that have used on
 |Best Selling Products by Quantity|Lists the best-selling products and quantity sold through the store view during the defined time period.|
 |Best Selling Products by Revenue|Lists the best-selling products and revenue generated by the sale of the product through the store view during the defined time period.|
 
-[1]: https://docs.magento.com/mbi/
 [2]: http://devdocs.magento.com/guides/v2.3/advanced-reporting/overview.html
 [3]: http://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cron.html
