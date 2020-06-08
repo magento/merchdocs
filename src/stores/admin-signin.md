@@ -49,7 +49,7 @@ The following example shows how to pair your _Admin_ account with Google Authent
    ![]({% link images/images/admin-login-google-auth-setup.png %}){: .zoom}
    _Set Up Google Authenticator_
 
-   -  Capture QR Code from smart phone
+   -  Capture QR Code using a smart phone
 
       On your smart phone, launch Google Authenticator. Tap the **plus** sign (+) in the upper-right corner of the app. Then at the bottom of the screen, tap **Scan Barcode** and take a picture of the QR code.
 
