@@ -76,7 +76,7 @@ _Example Admin Users_
    ![Magento Admin - add new user role]({% link images/images/permissions-user-2fa.png %}){: .zoom}
    _2FA_
 
-1. Verify the 2FA solution(s) that are required for the user to sign in. Then, advise the user to install the required solution(s) before signing in to the Admin.
+1. Verify the 2FA solution(s) that are available to _Admin_ users. Then, advise each user to install the solution(s) they want to use before they sign in. Authentication by only one 2FA solution is required to sign in to the _Admin_.
 
 1. If the user needs to reinstall the 2FA solution, you can reset the current3 2FA configuration so they must repeat the setup process before they can sign in again. For example, the user might have a new smart phone and needs to reinstall Google Authenticator. To clear the user's current 2FA setup, click <span class="btn">Reset (Provider)</span> for each solution that you want to clear. When prompted, click **OK** to confirm.
 
