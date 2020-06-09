@@ -2,7 +2,7 @@
 title: Advanced Reporting
 ---
 
-Advanced Reporting gives you access to a suite of dynamic reports that are based on your product, order, and customer data, with a personalized dashboard that is tailored to your business needs.
+Advanced Reporting, which is free for Magento Commerce and Open Source customers, gives you access to a suite of dynamic reports that are based on your product, order, and customer data, with a personalized dashboard that is tailored to your business needs. While Advanced Reporting uses Magento Business Intelligence (MBI) for analytics, you do not need to have an MBI account to use Advanced Reporting.
 
 For technical information, see [Advanced Reporting][2]{:target="_blank"} in our developer documentation.
 
@@ -53,7 +53,7 @@ In the Magento configuration, [Advanced Reporting]({% link configuration/general
 
 1. Do one of the following:
 
-   *  On the _Admin_ sidebar, choose **Dashboard**. Then, click <span class="btn">Advanced Reporting</span>.
+   *  On the _Admin_ sidebar, choose **Dashboard**. Then, click <span class="btn">Go to Advanced Reporting</span>.
    *  On the _Admin_ sidebar, go to **Reports** > _Business Intelligence_ > **Advanced Reporting**.
 
    The Advanced Reporting dashboard provides a quick summary of your orders, customers, and products. Make sure to scroll down to see the full dashboard.
