@@ -148,15 +148,13 @@ _[Quotes]({% link customers/account-dashboard-quotes.md %})_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled|Store View|When enabled, sends emails during the purchase order process. Options: Yes / No |
-| Created Purchase Order (to Buyer) | Store View | Sends an email confirmation to the purchase order creator. |
+| Created and requires Approval Purchase Order (to Buyer) | Store View | Sends an email confirmation to the purchase order creator. |
+| Created and Automatically approved Purchase Order (to Buyer) | Store View | Sends an email confirmation to the purchase order creator. |
 | Approved Purchase Order (to Buyer) | Store View | Sends an email to the creator on purchase order Approval. |
 | Rejected Purchase Order (to Buyer) | Store View | Sends an email to the creator when the purchase order has been Rejected. |
-| Modified and Approved Purchase Order (to Buyer) | Store View | Sends an email when the purchase order has been changed and Approved. |
-| Expired Purchase Order | Store View | Sends an email when a purchase order has expired. |
-| Error Purchase Order | Store View | Sends an email when an order was approved but failed to convert to an order. |
-| Purchase Order required Approval | Store View | Sends an email to notify the creator that the purchase order requires approval. |
-| Purchase Order about to expire | Store View | Sends and email when an order is close to expiring.|
-
+| Comment added to Purchase Order | Store View | Sends an email to the creator when a comment has been added to the PO. |
+| Error creating Order from Purchase Order (to Buyer) | Store View | Notifies creator that an error occurred when converting a PO to an order.|
+| Purchase Order required Approval (to Approver) | Store View | Sends an email to notify the approver that the purchase order requires their approval. |
 <!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
 ## RMA

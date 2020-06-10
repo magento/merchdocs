@@ -30,6 +30,7 @@ _Company Account Dashboard_{:.b2b-only}
 | <span class="ee-only">[Reward Points]({% link marketing/rewards-loyalty.md %})</span> | Lists all reward points the customer has earned that can be applied toward purchases.   |
 | <span class="ee-only">[Gift Registry]({% link marketing/gift-registries.md %})</span> | Used to list and maintains gift registries, and  add new ones. |
 | <span class="ee-only">[My Invitations]({% link marketing/invitations.md %})</span> | Lists all invitations the customer has created and sent for scheduled events. |
+| <span class="b2b-only">[My Purchase Orders]({% link customers/account-dashboard-my-purchase-orders.md %})| (Companies Only) Lists all purchase orders submitted or controlled by the customer, with a link to detailed information. |
 | <span class="b2b-only">[My Quotes]({% link customers/account-dashboard-quotes.md %})| (Companies Only) Lists all quotes submitted by the customer, with a link to detailed information. |
 | <span class="b2b-only">[My Requisition Lists]({% link customers/account-dashboard-requisition-lists.md %})</span> | (Companies Only) Maintains all requisition lists created by the customer.  |
 | <span class="b2b-only">[Company Profile]({% link customers/account-dashboard-company-profile.md %})</span> | (Companies Only) Manage your company information, including the company name and address, company admin contact information, and payment information.  |
@@ -37,3 +38,4 @@ _Company Account Dashboard_{:.b2b-only}
 | <span class="b2b-only">[Company Structure]({% link customers/account-company-structure.md %})</span> | (Companies Only) Used by the company admin to define the business structure of the company.  |
 | <span class="b2b-only">[Company Users]({% link customers/account-company-users.md %})</span> | (Companies Only) Used by the company admin to create user accounts for company buyers.  |
 | <span class="b2b-only">[Roles and Permissions]({% link customers/account-company-roles-permissions.md %})</span> | (Companies Only) Used by the company admin to define roles   for company users with various levels of permission. |
+| <span class="b2b-only">[Approval Rules]({% link customers/account-dashboard-approval-rules.md %})</span> | (Companies Only) Used to define approval rules for purchase orders. |
