@@ -21,8 +21,8 @@ _Search Results_
 
 1. Click **Apply Filters** to display the results.
 
-     ![]({% link images/images/order-search-filter.png %}){: .zoom}
-     _Order Filters_
+   ![]({% link images/images/order-search-filter.png %}){: .zoom}
+   _Order Filters_
 
 ### Search filters
 
@@ -30,7 +30,7 @@ _Search Results_
 |--- |--- |
 |Purchase Date|Filters the search based on the date purchased. To find orders within a range of dates, enter both the **from** and **to** dates.|
 |ID|Filters the search based on order ID.|
-|Grand Total (Base)|Filters the search based on the Grand Total of each order.|
+|Grand Total (Base)|Filters the search based on the Grand Total of each order, which includes any credits applied to the order.|
 |Grand Total (Purchased)|Filters the search based on Grand Total of items purchased in each order.|
 |Bill-to Name|Filters the search by the name of the person who is responsible to pay for the order.|
 |Ship-to Name|Filters the search by the name of the person to whom each order is shipped .|
