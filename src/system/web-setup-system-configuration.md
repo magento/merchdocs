@@ -5,6 +5,8 @@ title: System Config
 {: .bs-callout-info}
 If your Magento installation is hosted on Adobe Commerce Cloud, see [Install, manage, and upgrade extensions][1].
 
+{% include web-setup-deprecate.md %}
+
 Your Marketplace access key can be used to synchronize your Magento installation with your Magento account. After the services are synchronized, you can add extensions, modules, and components using the Web Setup Wizard from the Admin of your store. The services remain in sync so you can easily install extensions, as well as keep track of all extensions that you purchase and install.
 
 If you choose not to synchronize your store, you will be required to enter both your public and private keys each time you install an extension or update.
