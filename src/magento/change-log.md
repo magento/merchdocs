@@ -120,7 +120,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 {: .topics-table }
 |Topic |Change|
 |--- |--- |
-|[System Config]({% link system/web-setup-system-configuration.md %})<br />[Extension Manager]({% link system/web-setup-extension-manager.md %})|Added note for Adobe Commerce Cloud users with links to new [Magento Marketplace]({% link magento/magento-marketplace.md %}) section in Getting Started.|
+|[System Config]({% link system/web-setup-system-configuration.md %})|Added note for Adobe Commerce Cloud users with links to new [Magento Marketplace]({% link magento/magento-marketplace.md %}) section in Getting Started.|
 |[CAPTCHA]({% link stores/security-captcha.md %}) <br/>[Customer Configuration]({% link configuration/customers/customer-configuration.md %}) |Updated for clarification about which storefront forms can be used with CAPTCHA.|
 |[Managing Amazon Pricing]({% link sales-channels/amazon/pricing-products.md %}) <br/>[Intelligent Repricing Rule: Select Rule Type]({% link sales-channels/amazon/intelligent-repricing-rules.md %}) <br/>[Intelligent Repricing Rule: Floor Price]({% link sales-channels/amazon/floor-price.md %}) <br/>[Intelligent Repricing Rule: Optional Ceiling Price]({% link sales-channels/amazon/optional-ceiling-price.md %})  |Updates text for Amazon intelligent repricing rules and added alert text pertaining to vacation/test mode.|
 |[Product Attribute Reference]({% link system/data-attributes-product.md %})|Added information for the `save_rewrites_history` field.|
@@ -489,7 +489,6 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Cache Management]({% link system/cache-management.md %})|Added best practices, screenshots, and additional information links.|
 |[Setup Wizard]({% link system/web-setup-wizard.md %})|Added note for flushing caches and reindexing.|
 |[Module Manager]({% link system/web-setup-module-manager.md %})|Added note for flushing caches and reindexing.|
-|[Extension Manager]({% link system/web-setup-extension-manager.md %})|Added note for flushing caches and reindexing.|
 |[System Upgrade]({% link system/web-setup-system-upgrade.md %})|Added note for flushing caches and reindexing.|
 |[Backups]({% link system/backups.md %})|Added deprecation notice and enable feature information.|
 |[System]({% link configuration/advanced/system.md %}) (reference)|Added deprecation notice and enable feature information for Backups.|
