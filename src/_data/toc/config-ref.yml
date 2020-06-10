@@ -141,8 +141,6 @@ pages:
     children:
     - label: CardinalCommerce
       url: "/configuration/sales/cardinalcommerce.html"
-  - label: Fraud Protection
-    url: "/configuration/sales/fraud-protection.html"
   - label: Gift Cards
     url: "/configuration/sales/gift-cards.html"
     edition: ee-only

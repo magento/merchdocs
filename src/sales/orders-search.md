@@ -21,21 +21,26 @@ _Search Results_
 
 1. Click **Apply Filters** to display the results.
 
-     ![]({% link images/images/order-search-filter.png %}){: .zoom}
-     _Order Filters_
+   ![]({% link images/images/order-search-filter.png %}){: .zoom}
+   _Order Filters_
 
 ### Search filters
 
 |Filter|Description|
 |--- |--- |
+|Purchase Date|Filters the search based on the date purchased. To find orders within a range of dates, enter both the **from** and **to** dates.|
 |ID|Filters the search based on order ID.|
+|Grand Total (Base)|Filters the search based on the Grand Total of each order, which includes any credits applied to the order.|
+|Grand Total (Purchased)|Filters the search based on Grand Total of items purchased in each order.|
 |Bill-to Name|Filters the search by the name of the person who is responsible to pay for the order.|
 |Ship-to Name|Filters the search by the name of the person to whom each order is shipped .|
 |Purchase Point|Filters the search by website, store, or store view where the order was placed.|
 |Status|Filters the search based on order status. Options: Canceled / Closed / Complete / Suspected Fraud / On Hold / Payment Review PayPal / Canceled / Reversal Pending / Pending Payment Processing|
-|Purchase Date|Filters the search based on the date purchased. To find orders within a range of dates, enter both the From and To dates.|
-|Grand Total (Base)|Filters the search based on the Grand Total of each order.|
-|Grand Total (Purchased)|Filters the search based on Grand Total of items purchased in each order.|
-|Apply Filters|Applies all filters to the search.|
+
+### Search tools
+
+|Tool|Description|
+|--- |--- |
+|Apply Filters|Applies all filters to the search results.|
 |Cancel|Cancels the current search.|
 |Clear All|Clears all search filters.|
