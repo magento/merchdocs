@@ -61,4 +61,3 @@ Follow the standard instructions to install the language pack extension from [Co
 1. Now you should be able to change store views locales as described above.
 
 1. Run `bin/magento app:config:dump` to lock locales again, config should put `default/general/locale` back and also include store views specific locales configuration under `default/stores/{store view code}/general/locale`
-    
