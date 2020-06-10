@@ -51,3 +51,14 @@ Follow the standard instructions to install the language pack extension from [Co
     After you change the language of the locale, the remaining content that you have created, including [product]({% link catalog/product-translate.md %}) names and descriptions, categories, [CMS]({% link cms/page-translate.md %}) pages, and blocks must be translated separately for each store view.
 
 [1]: https://marketplace.magento.com/extensions/content-customizations/translations-localization.html
+
+## In case dropdowns and checkboxes are disabled and you can not change locale for store view
+
+1. Check your `app/etc/config.php` for `default/general/locale` block. You can also see if its in config with `bin/magento config:show general/locale`
+
+1. Remove that block and run `bin/magento app:config:import`
+
+1. Now you should be able to change store views locales as described above.
+
+1. Run `bin/magento app:config:dump` to lock locales again, config should put `default/general/locale` back and also include store views specific locales configuration under `default/stores/{store view code}/general/locale`
+    
