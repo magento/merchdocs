@@ -141,8 +141,7 @@ All rules have common options:
 
 Companies can require approvals from one or more users in other roles.
 
-To require an approval, choose an approval role from the dropdown.
-If this rule requires further approvers, click the 'Add additional approver' link, and choose the next approver role.
+To require an approval, choose the required approver(s) from the multi-select list.
 
 ### Order Total
 
@@ -207,7 +206,7 @@ Purchase order creators will get emails on:
 *  Error - For instance, if a product was available at PO creation time but unavailable at approval time, an error will occur.
 
 Emails are also sent to the required approver(s).
-If a purchase order requires multiple approvals, emails are sent to the next approver in the correct approver order.
+If a purchase order requires multiple approvals, emails are sent to all approvers.
 
 The email templates can be modified as needed.
 They can be found at **Stores** > **Configuration** > **Sales** > **Sales Emails** > **Purchase Order Approval**.
