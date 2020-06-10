@@ -16,7 +16,7 @@ sections:
    url: /system/web-setup-system-configuration.html
 ---
 
-The Setup Wizard can be used to easily install, uninstall, and manage modules, as well as upgrade your installation and make changes to the Web setup. For detailed information about installing an extension, see [General CLI installation][1] in the Magento Extensions Guide.
+The Setup Wizard can be used to easily install, uninstall, and manage modules, as well as upgrade your installation and make changes to the web setup. For detailed information about installing an extension, see [General CLI installation][1] in the Magento Extensions Guide.
 
 {% include web-setup-deprecate.md %}
 
