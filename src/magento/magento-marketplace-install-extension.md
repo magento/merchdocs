@@ -1,26 +1,14 @@
 ---
 title: Install an Extension
 group: getting-started
+redirect_from:
+  - /system/web-setup-extension-manager.html
 ---
 
-Installing an extension from the Admin is a three-step process that should take place during off-peak hours. Before the extension is installed, your store is put into maintenance mode, checked for readiness, and backed up. After the extension is installed, it must be configured for your store according to the developer’s instructions.
+As a best practice, an extension should be installed and tested in a development environment before it is pushed to production. For detailed information about installing an extension, see [General CLI installation][3] in the Magento Extensions Guide. This might require the assistance of a system integrator, developer, or IT resource to complete the process.
 
-## Simple installations
-
-For step-by-step installation instructions from the Admin, see [Extension Manager]({% link system/web-setup-extension-manager.md %}).
-
-## Advanced installations
-
-Advanced installations might require the assistance of a system integrator, developer, or IT department to complete the process.
-
-- Some extensions have an installation process that must be completed from the command line of your server.
-
-- Magento installations hosted on [Adobe Commerce Cloud][1] require an extension to be installed in a Magento development environment where the integration can be tested and deployed to a staging environment before being pushed to production.
-
-To learn more, see [Install, manage, and upgrade extensions][2].
-
-![Marketplace - Account Summary]({% link images/images/web-setup-extension-manager-summary.png %}){: .zoom}
- _Summary of Your Marketplace Account_
+Magento installations hosted on [Commerce Cloud][1] require an extension to be installed in a Magento development environment where the integration can be tested and deployed to a staging environment before being pushed to production. To learn more, see [Install, manage, and upgrade extensions][2] in the Magento Commerce Cloud Guide.
 
 [1]: https://www.adobe.com/commerce/magento/enterprise.html
 [2]: https://devdocs.magento.com/cloud/howtos/install-components.html
+[3]: https://devdocs.magento.com/extensions/install/
