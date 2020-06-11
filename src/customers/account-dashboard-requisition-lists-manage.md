@@ -8,11 +8,11 @@ The primary reason to maintain a requisition list is to make it easy to reorder 
 ![]({% link images/images-b2b/customer-account-my-requisition-lists.png %}){: .zoom}
 _My Requisition Lists_
 
-## To view a requisition list:
+## View a requisition list
 
 1. From your account dashboard, choose **My Requisition Lists**.
 
-1. Find the requisition list that you want to open, and click **View**. Then, do any of the following:
+1. Find the requisition list that you want to open, and click **View** and do any of the following:
 
 ### Add products to cart
 
@@ -38,7 +38,7 @@ _My Requisition Lists_
 
 1. Select the checkbox of each item to be moved.
 
-1. Click **Copy Selected**. Then, do one of the following:
+1. Click **Copy Selected** and do one of the following:
 
    - Choose an existing requisition list.
    - Click **Create New Requisition List**.
@@ -55,7 +55,7 @@ Magento will generate and download a CSV list with `sku` and `qty` values.
 
 1. Select the checkbox of each item to be moved.
 
-1. Click **Move Selected**. Then, do one of the following:
+1. Click **Move Selected** and do one of the following:
 
    - Choose an existing requisition list.
    - Click **Create New Requisition List**.

@@ -39,7 +39,7 @@ Products can be added to a requisition list from product pages in the storefront
 
 1. From the storefront, go to the detail page of the product that is to be added to the requisition list.
 
-1. Click **Add to Requisition List**. Then, do one of the following:
+1. Click **Add to Requisition List** and do one of the following:
 
    - Choose an existing requisition list.
    - Create a new requisition list.
@@ -51,7 +51,7 @@ Products can be added to a requisition list from product pages in the storefront
 
 1. In the sidebar of your account dashboard, choose **My Orders**.
 
-1. At the top of the order, click **Add to Requisition List**. Then, do one of the following:
+1. At the top of the order, click **Add to Requisition List** and do one of the following:
 
    - Choose an existing requisition list.
    - Create a new requisition list.
@@ -61,7 +61,7 @@ Products can be added to a requisition list from product pages in the storefront
 
 ## View the updated requisition list
 
-Log in to your customer account. Then, use either of the following methods to view any of your requisition lists.
+Log in to your customer account and use either of the following methods to view any of your requisition lists.
 
 ### Method 1: From your account
 

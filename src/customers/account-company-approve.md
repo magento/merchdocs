@@ -27,7 +27,7 @@ _Pending Approval_
 
 1. When prompted to confirm, click <span class="btn">Change status</span>.
 
-   The company admin receives notification that the company is now active.
+   The company administrator receives notification that the company is now active.
 
    ![]({% link images/images-b2b/customers-company-status.png %}){: .zoom}
    _Company Status_
@@ -40,7 +40,7 @@ _Pending Approval_
 
 1. When complete, click <span class="btn">Save</span>.
 
-   A confirmation email is sent to the company and company admin with instructions to set the account password.
+   A confirmation email is sent to the company and company administrator with instructions to set the account password.
 
 ## Company status
 

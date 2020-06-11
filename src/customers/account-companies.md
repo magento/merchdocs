@@ -7,9 +7,9 @@ The Companies grid lists all active company accounts and pending requests, regar
 
 Company accounts can be set up from the storefront or from the Admin. By default, the ability to create company accounts from the storefront is enabled. If allowed in the configuration, a visitor to the store can request to open a company account. After the company account is approved, the company administrator can set up the company structure and users with various levels of permission.
 
-## List company accounts
+## View company accounts
 
-In the _Admin_ sidebar, got to **Customers** > **Companies**.
+In the _Admin_ sidebar, go to **Customers** > **Companies**.
 
-    ![]({% link images/images-b2b/companies-grid.png %}){: .zoom}
-    _Companies_
+   ![]({% link images/images-b2b/companies-grid.png %}){: .zoom}
+   _Companies_

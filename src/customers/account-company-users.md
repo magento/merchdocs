@@ -30,8 +30,10 @@ Company users are assigned by the company administrator, and are visible from th
    - If the roles and permissions are defined, choose the appropriate **User Role**. Otherwise, you can return later to assign the role.
 
       ![]({% link images/images-b2b/customer-company-structure-users-add.png %}){: .zoom}
+      _Add new user_
 
    - Complete the remaining fields as needed for the user:
+
       - **First Name** and **Last Name**
       - **Email**
       - **Phone Number**
@@ -51,7 +53,7 @@ _List of Company Users_
 
 ## Remove a company user
 
-Company users can be removed only by the company admin. Once deleted, the action cannot be reversed. The user is removed from the company structure.
+Company users can be removed only by the company administrator and the action cannot be reversed. The user is removed from the company structure.
 
 1. Select the company user in the company structure.
 
@@ -62,7 +64,7 @@ Company users can be removed only by the company admin. Once deleted, the action
 
 1. When prompted to confirm, click <span class="btn">Delete</span>.
 
-From the Admin, the company user continues to be listed in the [Customers]({% link customers/customers-all.md %}) grid, but with an `Inactive` status.
+In the Admin, the company user continues to be listed in the [Customers]({% link customers/customers-all.md %}) grid, but with an `Inactive` status.
 
 ## Field descriptions
 

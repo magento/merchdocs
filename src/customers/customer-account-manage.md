@@ -98,13 +98,13 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 
 |Option|Description|
 |--- |--- |
-|Delete|Deletes selected customer accounts. If the customer account belongs to a company admin for a B2B store, another company user must be assigned as admin before the customer account can be deleted.|
+|Delete|Deletes selected customer accounts. If the customer account belongs to a company administrator for a B2B store, another company user must be assigned as admin before the customer account can be deleted.|
 |Subscribe to Newsletter|Subscribes selected customers to newsletter.|
 |Unsubscribe from Newsletter|Unsubscribes selected customers from newsletter.|
 |Assign a Customer Group|Assigns selected customers to a customer group.|
 |Edit|Allows some values of a single selected customer record to be edited from the grid. By default, the following values are available for a quick edit: Email, Group, Phone, ZIP, Web Site, Tax VAT Number, and Gender.|
 |<span class="b2b-only">Set Active</span>|Removes a block on selected customer accounts, and changes the status to `Active`. The customers can log in and make purchases from their accounts.|
-|<span class="b2b-only">Set Inactive</span>|Blocks the selected customer accounts, and changes the status to `Inactive`. The blocked customers will not be able to log in or make purchases from their accounts. The customer account of a company admin cannot be set to `Inactive`. Another user in the company must first be assigned as company admin.|
+|<span class="b2b-only">Set Inactive</span>|Blocks the selected customer accounts, and changes the status to `Inactive`. The blocked customers will not be able to log in or make purchases from their accounts. The customer account of a company administrator cannot be set to `Inactive`. Another user in the company must first be assigned as company administrator.|
 
 ## Columns
 

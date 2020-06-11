@@ -4,7 +4,7 @@ title: Password Options
 
 The customer password options determine the level of security that is used for password reset requests, the email templates that are used for customer notification, and the lifetime of the password recovery link. You can allow customers to change their own passwords or require that only store administrators can do so
 
-## To configure customer password options:
+## Configure customer password options
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 

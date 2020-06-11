@@ -93,7 +93,7 @@ The credit in the accounts of selected companies is converted to the current rat
 
 |Option|Description|
 |--- |--- |
-|Set Active|Sets the status of all selected company records to `Active`. Company admins receive instructions to set their passwords so they can access their accounts and manage their companies from the storefront.|
+|Set Active|Sets the status of all selected company records to `Active`. Company administrators receive instructions to set their passwords so they can access their accounts and manage their companies from the storefront.|
 |Block|Restricts company accounts that are not in good standing, while preserving the account. The status of users who are associated with a blocked company is changed to `Inactive`. They cannot sign in to their accounts, or place orders on behalf of the company.|
 |Delete|Deletes selected company accounts. The status of user accounts that are associated with a deleted company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system.|
 |Edit|Allows some values of the selected company record to be edited from the grid. By default, the Company Name, Company Email, and Phone Number values are available for a quick edit.|

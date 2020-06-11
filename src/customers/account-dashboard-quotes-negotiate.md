@@ -100,7 +100,7 @@ Make any of the following changes to the quote:
 
 1. To complete the purchase, click <span class="btn">Proceed to Checkout</span>.
 
-1. Then, follow the normal [checkout process]({% link sales/checkout-process.md %}).
+1. Follow the normal [checkout process]({% link sales/checkout-process.md %}).
 
     This order is within the company’s available credit limit and is being [charged to their account]({% link payment/payment-on-account.md %}). The Order Summary section shows the quote subtotal, shipping and the total amount that is to be charged to their account. Because tax is not applicable to this order, it is not included in the Order Summary.
 
@@ -137,7 +137,7 @@ Make any of the following changes to the quote:
 
 ### Shipping Information
 
-|Shipping Address|The shipping address that was added to the quote from the [address book]({% link customers/account-dashboard-address-book.md %}) in your account. <br/>**Telephone** - The telephone number is linked to autodial on supporting devices. <br/><span class="btn">Select Existing Address</span> - Allows you to choose another address from the address book in your account. If you change the address when the negotiation is in process, the quote must be sent back to the seller for review. <br/><span class="btn">Add New Address</span> - Allows you to add a new address to the address book in your account. Then new address can then be used as the shipping address for the quote.|
+|Shipping Address|The shipping address that was added to the quote from the [address book]({% link customers/account-dashboard-address-book.md %}) in your account. <br/>**Telephone** - The telephone number is linked to autodial on supporting devices. <br/><span class="btn">Select Existing Address</span> - Allows you to choose another address from the address book in your account. If you change the address when the negotiation is in process, the quote must be sent back to the seller for review. <br/><span class="btn">Add New Address</span> - Allows you to add a new address to the address book in your account. The new address can then be used as the shipping address for the quote.|
 |Shipping Method|Displays the shipping method currently chosen by the seller.|
 |**Quote Comments**||
 |Add your comment|The comments are used to communicate with the seller during the negotiation process. Enter a comment to explain any discounts requested, or the reason a quote request is closed.|

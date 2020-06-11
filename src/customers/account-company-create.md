@@ -9,6 +9,7 @@ The person who sets up a company account from the storefront is usually assigned
 
 ## Method 1: Create company from the storefront
 
+{:.bs-callout-info}
 Before you begin, make sure that [B2B Features]({% link stores/b2b-features.md %}) are enabled in the configuration for the storefront.
 
 1. In the upper-right corner of the storefront header, click **Create an Account** and choose **Create New Company Account**.
@@ -39,11 +40,11 @@ Before you begin, make sure that [B2B Features]({% link stores/b2b-features.md %
 
 1. In the _Company Administrator_ section, do the following:
 
-   - Enter the **Email address** for the company admin.
+   - Enter the **Email address** for the company administrator.
 
-      The email address for the company admin can be the same as the company email address, or a different email address. If a different email address is entered, a company user account is created, in addition to the company admin account.
+      The email address for the company administrator can be the same as the company email address, or a different email address. If a different email address is entered, a company user account is created, in addition to the company administrator account.
 
-   - Enter the **First Name** and **Last Name** of the Company Admin.
+   - Enter the **First Name** and **Last Name** of the company administrator.
 
    - Optionally complete the following fields:
 
@@ -55,9 +56,9 @@ Before you begin, make sure that [B2B Features]({% link stores/b2b-features.md %
 
 1. When complete, click <span class="btn">Submit</span>.
 
-   When the request to create a company account is approved by the merchant, an email notification is sent to the company admin with instructions to set the account password.
+   When the request to create a company account is approved by the merchant, an email notification is sent to the company administrator with instructions to set the account password.
 
-   When the password is set, the company admin can [sign in]({% link customers/customer-sign-in.md %}) to the account.
+   When the password is set, the company administrator can [sign in]({% link customers/customer-sign-in.md %}) to the account.
 
    ![]({% link images/images-b2b/welcome-email-company.png %}){: .zoom}
 
@@ -147,7 +148,7 @@ _New Company_
 
    - If you want to allow company employees to generate quotes from their account, set **Allow Quotes** to `Yes`.
 
-   - To change the default payment methods that are available to the company, clear the **Use config settings** checkbox. Then, do one of the following:
+   - To change the default payment methods that are available to the company, clear the **Use config settings** checkbox and do one of the following:
 
       - Choose **All Enabled Payment Methods**.
 
@@ -157,11 +158,11 @@ _New Company_
 
 1. When complete, click <span class="btn">Save</span>.
 
-   When the request to create a company account is approved by the merchant, an email notification is sent to the email address of the company admin with instructions to set the account password.
+   When the request to create a company account is approved by the merchant, an email notification is sent to the email address of the company administrator with instructions to set the account password.
 
    ![]({% link images/images-b2b/welcome-email-company.png %}){: .zoom}
 
-   When the password is set, the company admin can [sign in]({% link customers/customer-sign-in.md %}) to the account.
+   When the password is set, the company administrator can [sign in]({% link customers/customer-sign-in.md %}) to the account.
 
 ## Button bar
 
