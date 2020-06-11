@@ -11,7 +11,7 @@ sections:
     url: /reports/review-reports.html
 
   - title: Sales Reports
-    content: This category includes includes Orders, Tax, Invoiced, Shipping, Refunds, Coupons, and settlement reports for PayPal and Braintree.
+    content: This category includes Orders, Tax, Invoiced, Shipping, Refunds, Coupons, and settlement reports for PayPal and Braintree.
     url: /reports/sales-reports.html
 
   - title: Customer Reports
