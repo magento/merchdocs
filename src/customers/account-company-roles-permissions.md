@@ -84,19 +84,19 @@ The system has one predefined Default User role, which you can use “as is" or 
 
 - All
 
-  - Sales
+   - Sales
 
-    - Checkout (place order)
+      - Checkout (place order)
 
 - Use Pay On Account method
 
-  - View Orders
+   - View Orders
 
 - View orders of subordinate users
 
 - Quotes
 
-  - View
+   - View
 
 - Request, Edit, Delete
 
@@ -106,28 +106,28 @@ The system has one predefined Default User role, which you can use “as is" or 
 
 - Company Profile
 
-  - Account Information (View)
+   - Account Information (View)
 
-    - Edit
+      - Edit
 
-  - Legal Address
+   - Legal Address
 
-    - Edit
+      - Edit
 
-  - Contacts (View)
+   - Contacts (View)
 
-  - Payment Information (View)
+   - Payment Information (View)
 
 - Company User Management
 
-  - View roles and permissions
+   - View roles and permissions
 
-    - Manage roles and permissions
+      - Manage roles and permissions
 
-  - View users and teams
+   - View users and teams
 
-  - Manage users and teams
+   - Manage users and teams
 
 - Company Credit
 
-  - View
+   - View

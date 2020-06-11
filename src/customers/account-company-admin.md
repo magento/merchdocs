@@ -22,7 +22,7 @@ The company administrator is initially assigned when the company account is firs
    - Enter the **Job Title** of the new company admin.
 
    - Click **Proceed** to continue.
-  
+
       This clears the form and the required First Name and Last Name fields are highlighted.
 
    - Enter the **Email** address of the new company admin.

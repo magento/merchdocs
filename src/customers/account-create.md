@@ -74,18 +74,18 @@ _Customer Information_
 
 1. Complete the required fields:
 
-    - **First Name**
-    - **Last Name**
-    - **Email**
+   - **First Name**
+   - **Last Name**
+   - **Email**
 
 1. Complete the optional fields as needed:
 
-    - **Name Prefix**
-    - **Middle Name/Initial**
-    - **Name Suffix**
-    - **Date of Birth**
-    - **Tax/VAT Number**
-    - **Gender**
+   - **Name Prefix**
+   - **Middle Name/Initial**
+   - **Name Suffix**
+   - **Date of Birth**
+   - **Tax/VAT Number**
+   - **Gender**
 
 1. Set **Send Welcome Email From** to the store view from which the Welcome email is to be sent.
 

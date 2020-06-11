@@ -14,15 +14,15 @@ _Requisition Lists_
 
    - **Method 1:** From Customer Account
 
-     - In the sidebar of your account, choose **My Requisition Lists**.
+      - In the sidebar of your account, choose **My Requisition Lists**.
 
-     - On the Requisition Lists page, click **Create New Requisition List**.
+      - On the Requisition Lists page, click **Create New Requisition List**.
 
    - **Method 2:** From Product Page
 
-     - From any product detail page, click **Add to Requisition List**.
+      - From any product detail page, click **Add to Requisition List**.
 
-     - Click **Create New Requisition List**.
+      - Click **Create New Requisition List**.
 
 1. Enter the **Requisition List Name** and **Description**.
 
