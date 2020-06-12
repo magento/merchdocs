@@ -118,7 +118,7 @@ _New Company_
       - **Middle Name/Initial**
       - **Suffix**
 
-   - If the information is available, complete the remaining fields to describe the Company Admin:
+   - If the information is available, complete the remaining fields to describe the company administrator:
 
       - **Job Title**
       - **Gender**

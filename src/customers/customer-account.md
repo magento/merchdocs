@@ -17,7 +17,7 @@ _My Account_{:.ee-only}
 {:.b2b-only}
 ## Account types
 
-With B2B features enabled, there are two basic types of accounts that can be created: Individual and [company]({% link customers/account-companies.md %}) accounts.
+With B2B features enabled, there are two basic types of accounts that can be created:
 
 - Individual — An [individual]({% link customers/account-create.md %}) customer account is similar to a standard Magento customer account.
 - Company — A [company]({% link customers/account-companies.md %}) account can be set up as a structure with teams od multiple users.

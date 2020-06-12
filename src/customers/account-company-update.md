@@ -3,7 +3,7 @@ b2b_only: true
 title: Updating a Company Profile
 ---
 
-The company profile can be maintained from the storefront by the company admin, and also from the Admin by the store administrator.
+The company profile can be maintained from the storefront by the company administrator, and also from the Admin by the store administrator.
 
 ![]({% link images/images-b2b/company-update.png %}){: .zoom}
 _Company Profile_
@@ -12,12 +12,12 @@ _Company Profile_
 
 The [Role Resources]({% link system/permissions-role-resources.md %}) settings control the ability to:
 
-- Add New Company
-- Delete Company
-- Reimburse Balance
+- Add a new company
+- Delete a company
+- Apply a balance reimbursement
 - View companies
 
-These role resources must be set for the [User Role]({% link system/permissions-user-roles.md %}) that the admin user is under.
+These role resources must be set for the [User Role]({% link system/permissions-user-roles.md %}) that the user account is under.
 
 ## Update a company profile
 

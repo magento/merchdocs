@@ -8,7 +8,7 @@ Customer have easy access to their accounts from every page in your store. Depen
 
 - If [CAPTCHA]({% link stores/security-captcha.md %}) is enabled in the configuration, the person must correctly complete a test that verifies them to be human, before gaining access to their accounts.
 
-- {:.b2b-only}Before company administrators can sign in to their accounts, they must first set the password by clicking the link in the Welcome email. The system verifies that the company exists and checks the status of the company account. The sign-in process can proceed only if the company account is _active_.
+- {:.b2b-only}Before company administrators can sign in to their accounts, they must first set the password by clicking the link in the Welcome email. The system verifies that the company exists and checks the status of the company account. The sign-in process can proceed only if the company account is `Active`.
 
 When customers forget their passwords, a reset link is sent to the email address that is associated with the account. The number of times a customer can try to enter a password, the number of minutes between attempts, the number of total attempts before the account is locked, and the length of the lockout is set in the [Password Options]({% link customers/password-options.md %}) configuration.
 

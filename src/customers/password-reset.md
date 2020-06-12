@@ -16,7 +16,7 @@ Customers usually reset their passwords from the storefront by clicking the “F
    ![]({% link images/images/customer-account-sign-in-forgot-password.png %}){: .zoom}
    _Forgot Your Password_
 
-   If the email address you entered matches the one that is associated with the account, you will receive a "Password Reset Confirmation" email with a link to reset your password.
+   If the email address you entered matches the one that is associated with the account, you will receive a Password Reset Confirmation email with a link to reset your password.
 
 1. When the email arrives, click the _reset password_ link and enter your **New Password** when prompted.
 
