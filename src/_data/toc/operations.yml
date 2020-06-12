@@ -340,7 +340,7 @@ pages:
   url: "/mcom.html"
   children:
   - label: MCOM Menu
-    url: "/reports/reports-menu.html"
+    url: "/mcom/mcom-menu.html"
   - label: Manage Stock Aggregates
     url: "/mcom/manage-stock-aggregates.html"
   - label: Message Log
