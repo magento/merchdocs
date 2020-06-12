@@ -124,7 +124,7 @@ The credit in the accounts of selected companies is converted to the current rat
 
 The following columns are available by changing the [column layout]({% link stores/admin-grid-layout.md %}) of the grid.
 
-|Columns|Description|
+|Column|Description|
 |--- |--- |
 |Company Legal Name|The full legal name of the company.|
 |Street Address|The street address where the company is registered to conduct business.|

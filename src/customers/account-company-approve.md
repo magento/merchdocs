@@ -19,9 +19,9 @@ _Pending Approval_
 
 1. On the _Admin_ sidebar, go to **Customers** > **Companies**.
 
-   All pending requests appear at the top of the list. To make them more noticeable, you can adjust the [grid layout]({% link stores/admin-grid-layout.md %}) to include the Status column.
+   All pending requests appear at the top of the list. To make them more noticeable, you can adjust the [grid layout]({% link stores/admin-grid-layout.md %}) to include the _Status_ column.
 
-1. In the **Action** column, click **Edit**.
+1. In the _Action_ column, click **Edit**.
 
 1. Set **Company Status** to `Active`.
 
@@ -34,7 +34,7 @@ _Pending Approval_
 
 1. If applicable, set **Sales Representative** to a specific Admin account.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Account Information** and use the **Comment** field to enter notes about the account.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Account Information** section and use the **Comment** field to enter notes about the account.
 
    The comments are not visible from the storefront.
 

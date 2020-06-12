@@ -49,7 +49,7 @@ The customer password options determine the level of security that is used for p
       - Numeric
       - Special Characters
 
-   - For **Maximum Login Failures to Lockout Account**, enter the number of failed login attempts until the Customer account is locked. For unlimited attempts, enter zero (0).
+   - For **Maximum Login Failures to Lockout Account**, enter the number of failed login attempts until the Customer account is locked. For unlimited attempts, enter zero (`0`).
 
    - For **Minimum Password Length**, enter the minimum number of characters that can be used in a password. The number must be greater than zero.
 

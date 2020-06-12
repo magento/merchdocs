@@ -53,7 +53,7 @@ _List of Company Users_
 
 ## Remove a company user
 
-Company users can be removed only by the company administrator and the action cannot be reversed. The user is removed from the company structure.
+Company users can be removed only by the company administrator, and the removal cannot be reversed. The user is removed from the company structure.
 
 1. Select the company user in the company structure.
 

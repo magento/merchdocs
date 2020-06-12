@@ -3,7 +3,7 @@ b2b_only: true
 title: Company Roles and Permissions
 ---
 
-Roles for company users set up with various levels of permission to access sales information and resources. By default, the company administrator is a super user with full permissions. The [Access Denied]({% link cms/pages-core.md %}) page appears if the user doesn’t have permission to access the page.
+Roles for company users set up with various levels of permission to access sales information and resources. By default, the company administrator is a super user with full permissions. The [Access Denied]({% link cms/pages-core.md %}) page appears if the user does not have permission to access the page.
 
 ![]({% link images/images-b2b/customer-company-roles-permissions.png %}){: .zoom}
 _Roles and Permissions Page with Default Role_

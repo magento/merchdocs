@@ -33,7 +33,7 @@ Before you begin, make sure that [B2B Features]({% link stores/b2b-features.md %
    ![]({% link images/images-b2b/customer-account-company-information.png %}){: .zoom}
    _Company Information_
 
-1. Complete the settings in the **Legal Address** section.
+1. Complete the settings in the _Legal Address_ section.
 
    ![]({% link images/images-b2b/customer-account-company-legal-address.png %}){: .zoom}
    _Legal Address_
@@ -78,7 +78,7 @@ _New Company_
       - **Company Name**
       - **Company Email**
 
-   - If you’re not ready for the account to go live, set **Status** to `Pending Approval`. (This is set to `Active` by default.)
+   - If you are not ready for the account to go live, set **Status** to `Pending Approval`. (This is set to `Active` by default.)
 
    - If applicable, choose the Admin account of the **Sales Representative** who is to manage the account.
 

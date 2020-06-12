@@ -92,7 +92,7 @@ Make any of the following changes to the quote:
 
 1. To send your reply to the seller, click <span class="btn">Send for Review</span>.
 
-   The status of the quote changes to `Submitted`. You can view the quote, but not make any changes until you receive a reply from the seller.
+   The status of the quote changes to `Submitted`. You can view the quote, but you are unable to make any changes until you receive a reply from the seller.
 
    You can repeat the negotiation process as many times as necessary to reach an agreement.
 
@@ -102,7 +102,7 @@ Make any of the following changes to the quote:
 
 1. Follow the normal [checkout process]({% link sales/checkout-process.md %}).
 
-    This order is within the company’s available credit limit and is being [charged to their account]({% link payment/payment-on-account.md %}). The Order Summary section shows the quote subtotal, shipping and the total amount that is to be charged to their account. Because tax is not applicable to this order, it is not included in the Order Summary.
+    This order is within the company’s available credit limit and is being [charged to their account]({% link payment/payment-on-account.md %}). The _Order Summary_ section shows the quote subtotal, shipping and the total amount that is to be charged to their account. Because tax is not applicable to this order, it is not included in the Order Summary.
 
     ![]({% link images/images-b2b/quote-checkout-order-summary.png %}){: .zoom}
     _Order Summary with Negotiated Price_

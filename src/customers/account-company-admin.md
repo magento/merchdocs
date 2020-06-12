@@ -14,7 +14,7 @@ The company administrator is initially assigned when the company account is firs
    ![]({% link images/images-b2b/companies-grid-abc-xyz.png %}){: .zoom}
    _Companies_
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Company Admin** and do the following:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Company Admin** section and do the following:
 
    ![]({% link images/images-b2b/company-account-company-admin.png %}){: .zoom}
    _Company Admin_
@@ -23,7 +23,7 @@ The company administrator is initially assigned when the company account is firs
 
    - Click **Proceed** to continue.
 
-      This clears the form and the required First Name and Last Name fields are highlighted.
+      This clears the form and the required _First Name_ and _Last Name_ fields are highlighted.
 
    - Enter the **Email** address of the new company administrator.
 
