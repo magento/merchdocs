@@ -15,3 +15,4 @@ title: Adding a Lightbox or Slider
    _Slider Extensions_
 
 [1]: https://marketplace.magento.com/catalogsearch/result?cat=8&amp;q=slider&amp;answers=
+[2]: https://devdocs.magento.com/extensions/install/

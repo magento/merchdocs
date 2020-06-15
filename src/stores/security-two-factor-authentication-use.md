@@ -42,7 +42,7 @@ The following instructions show how to configure two-factor authentication durin
 
 ## Duo Security
 
-Duo offers a free trial, and charges according to the number of users that are associated with the account. Follow their instructions to set up your account and download the app. Duo Mobile is available through [Google Play][3] or [iOS App Store][4]. 
+Duo offers a free trial, and charges according to the number of users that are associated with the account. Follow their instructions to set up your account and download the app. Duo Mobile is available through [Google Play][3] or [iOS App Store][4].
 
 ### Step 1: Configure Duo Security
 
