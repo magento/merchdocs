@@ -39,7 +39,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 ## MySQL Message Queue Cleanup
 
 ![]({% link images/images/config-advanced-system-mysql-message-queue-cleanup.png %}){: .zoom}
-[_MySQL Message Queue Cleanup_]({% link catalog/search-mysql.md %})
+_MySQL Message Queue Cleanup_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

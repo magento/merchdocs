@@ -68,6 +68,11 @@ When setting up a category rule, the products are matched and assigned to the ru
 |Value|Specifies the value  the attribute must have to meet the condition.|
 |Logic|The Logic column is used to define multiple conditions, and appears only when an additional condition is added. Options: OR / AND|
 
+{:.bs-callout-info}
+The quantity of a configurable product with child options is calculated by combining all the salable child product quantities. For example, if you have a configurable product _Nona Fitness Tank_ with purple, red, and yellow color options and different quantities of each, the parent product (Nona Fitness Tank) quantity is the combined salable quantity of the purple, red, and yellow color child products.
+
+### Controls
+
 {:.ee-only}
 ## Page controls
 
