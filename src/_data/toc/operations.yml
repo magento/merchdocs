@@ -338,6 +338,7 @@ pages:
         url: "/reports/new-relic-queries.html"
 - label: MCOM
   url: "/mcom.html"
+  edition: ee-only
   children:
   - label: MCOM Menu
     url: "/mcom/mcom-menu.html"
