@@ -4,6 +4,15 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what's new.
 
+## June 2020
+
+### Updated topics
+
+{: .topics-table }
+|Topic |Change|
+|--- |--- |
+|Google Shopping ads Channel|With the deactivation of Google Shopping ads Channel, related documentation has been removed. Additional configuration and landing pages have also been updated:<br/>- [Marketing]({% link marketing.md %})<br/>- [Sales Channels Home]({% link sales-channels/sales-channels-home.md %})<br/>- [Services]({% link configuration/services.md %})<br/>- [Role Resources]({% link system/permissions-role-resources.md %})|
+
 ## May 2020
 
 ### Product releases

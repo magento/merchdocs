@@ -26,7 +26,7 @@ Private Sales and other catalog events are a great way to [leverage]({% link mar
 
 ### Channels
 
-Increase revenue by expanding sales to additional webstores with [Amazon Marketplace integration]({% link sales-channels/asc/amazon-sales-channel.md %}).
+Increase revenue by expanding sales to additional webstores with [Amazon Marketplace integration]({% link sales-channels/asc/amazon-sales-channel.md %}). The Channels sub-menu only appears when Amazon Sales Channel is configured.
 
 ### Communications
 
