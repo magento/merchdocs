@@ -1,4 +1,5 @@
 ---
+ee_only: true
 title: MCOM Menu
 ---
 
@@ -6,48 +7,27 @@ If you use the Magento Order Management System (OMS) with Magento Commerce (MC) 
 
 You can manage stock aggregates and integrations and access both the message log and changelog with the MCOM menu option.
 
-![]({% link images/images-ee/admin-menu-reports-ee.png %}){: .zoom}
-_Reports Menu_{:.ee-only}
+![]({% link images/images-ee/admin-menu-mcom-ee.png %}){: .zoom}
+_MCOM Menu_
 
 ## Display the Reports menu
 
-On the _Admin_ sidebar, choose **Reports**.
+On the _Admin_ sidebar, choose **MCOM**.
 
 ## Menu Options
 
-### Marketing
+### Manage Stock Aggregates
 
-A selection of [marketing reports]({% link reports/marketing-reports.md %}), including Products in Cart, Search Terms, Abandoned Carts, and Newsletter Problem Reports.
+Add, edit, and manage stock aggregates for your OMS.
 
-### Reviews
+### Message Log
 
-The selection of product [review reports]({% link reports/review-reports.md %}) includes By Customer and By Product.
+View message processing logs, message history, and full error traces for the Connector.
 
-### Sales
+### Integration
 
-The selection of [sales reports]({% link reports/sales-reports.md %}) includes Orders, Tax, Invoiced, Shipping, Refunds, Coupons, and settlement reports for PayPal and Braintree.
+Add (register) and disable OMS integrations, and view integration details such as integration status and subscriptions.
 
-### Customers
+### Changelog
 
-The selection of [customer reports]({% link reports/customer-reports.md %}) includes Order Total, Order Account, New, Wish Lists, and <span class="ee-only">Segments</span>.
-
-### Products
-
-The selection of [product reports]({% link reports/product-reports.md %}) includes Views, Bestsellers, Low Stock, Ordered, and Downloads.
-
-{:.ee-only}
-### Private Sales
-
-The selection of reports for [private sales and events]({% link reports/statistics.md %}) includes Invitation, Invited Customers, and Conversions.
-
-### Statistics
-
-[Statistics]({% link reports/statistics.md %}) is a tool that reduces the performance impact of generating reports by calculating and storing statistical data. Rather than recalculate the statistics every time a report is generated, the stored statistics are used until you refresh the statistics.
-
-### Business Intelligence
-
-Integrated [Business Intelligence]({% link reports/business-intelligence.md %}) tools provide the insight you need to make strategic business decisions.
-
-### Customer Engagement
-
-The [Customer Engagement reporting]({% link reports/customer-engagement.md %}) provides data import and report options for [Engagement Cloud]({% link marketing/dotdigital/engagement-cloud.md %}).
+Click to quickly navigate to the Connector changelog for up-to-date feature and product change information.

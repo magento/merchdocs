@@ -1,21 +1,22 @@
 ---
+ee_only: true
 title: MCOM
 group: operations
 sections:
   - title: Manage Stock Aggregates
-    content: This category includes reporting for Products in Cart, Search Terms, Abandoned Carts, and Newsletter Problem Reports.
+    content: This category includes
     url: /mcom/manage-stock aggregates.html
 
   - title: Message Log
-    content: This category includes reports for reviews By Customer and By Product.
+    content: This category includes 
     url: /mcom/message-log.html
 
   - title: Integration
-    content: This category includes includes Orders, Tax, Invoiced, Shipping, Refunds, Coupons, and settlement reports for PayPal and Braintree.
+    content: This category includes includes 
     url: /mcom/integration.html
 
   - title: Changelog
-    content: This category includes Order Total, Order Account, New, Wish Lists, and Segments.
+    content: This category includes 
     url: /mcom/changelog.html
 ---
 
