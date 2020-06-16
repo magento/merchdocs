@@ -8,6 +8,8 @@ Manage Stock Aggregates provides information about existing stock aggregates, an
 ![]({% link images/images-ee/mcom-manage-stock-aggregates.png %}){: .zoom}
 _Manage Stock Aggregates_
 
+You [create sources](https://omsdocs.magento.com/en/features-processes/stock-sourcing/inventory/#configure-sources) and [aggregates](https://omsdocs.magento.com/en/features-processes/stock-sourcing/inventory/#configure-stock-aggregates) in the Order Management System (OMS) Admin. Then you assign which website(s) are associated with each aggregate via Manage Stock Aggregates in the Magento Commerce (MC) Admin.
+
 ## Add a new stock aggregate
 
 1. On the _Admin_ sidebar, go to **MCOM** > **Manage Stock Aggregates**.
@@ -15,7 +17,7 @@ _Manage Stock Aggregates_
 1. Enter a **Stock code** (name) for this stock aggregate.
 
    {:.bs-callout-info}
-   The stock code you enter should match the [stock aggregate code](https://omsdocs.magento.com/en/features-processes/stock-sourcing/inventory/#configure-stock-aggregates) in the Order Management System (OMS).
+   The stock code you enter should match the [stock aggregate code](https://omsdocs.magento.com/en/features-processes/stock-sourcing/inventory/#configure-stock-aggregates) in the OMS.
 
 1. Choose a **Website** from the populated list.
 1. When complete, click **Save Stock Aggregate**.
