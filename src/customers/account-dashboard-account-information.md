@@ -9,7 +9,7 @@ _Account Information_{:.b2b-only}
 
 ## Update your account information
 
-In the sidebar of your account, choose **Account Information**. Then, do any of the following:
+In the sidebar of your account, choose **Account Information** and do any of the following:
 
 ### Update your name
 

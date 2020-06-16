@@ -34,8 +34,8 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 
 1. Set the **Actions** control to one of the following:
 
-    - `Active`
-    - `Inactive`
+   - `Active`
+   - `Inactive`
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 
@@ -67,20 +67,20 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 
 1. Set the **Actions** column to `Edit`.
 
-    The value of each value that can be updated appears in a text box. Only some values of the selected customer record can be edited from the grid.
+   The value of each value that can be updated appears in a text box. Only some values of the selected customer record can be edited from the grid.
 
-    ![]({% link images/images/customers-grid-quick-edit.png %}){: .zoom}
-    _Quick Edit_
+   ![]({% link images/images/customers-grid-quick-edit.png %}){: .zoom}
+   _Quick Edit_
 
 1. Update any of the following values, as needed:
 
-    - Email
-    - Group
-    - Phone
-    - ZIP
-    - Web Site
-    - Tax/VAT Number
-    - Gender
+   - Email
+   - Group
+   - Phone
+   - ZIP
+   - Web Site
+   - Tax/VAT Number
+   - Gender
 
 1. Click **Save**.
 
@@ -92,25 +92,25 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 
 1. Make the necessary changes to the company information.
 
-    To learn more, see [Updating Customer Accounts]({% link customers/customer-account-update.md %}).
+   To learn more, see [Updating Customer Accounts]({% link customers/customer-account-update.md %}).
 
 ## Actions/controls
 
 |Option|Description|
 |--- |--- |
-|Delete|Deletes selected customer accounts. If the customer account belongs to a company admin for a B2B store, another company user must be assigned as admin before the customer account can be deleted.|
+|Delete|Deletes selected customer accounts. If the customer account belongs to a company administrator for a B2B store, another company user must be assigned as admin before the customer account can be deleted.|
 |Subscribe to Newsletter|Subscribes selected customers to newsletter.|
 |Unsubscribe from Newsletter|Unsubscribes selected customers from newsletter.|
 |Assign a Customer Group|Assigns selected customers to a customer group.|
 |Edit|Allows some values of a single selected customer record to be edited from the grid. By default, the following values are available for a quick edit: Email, Group, Phone, ZIP, Web Site, Tax VAT Number, and Gender.|
 |<span class="b2b-only">Set Active</span>|Removes a block on selected customer accounts, and changes the status to `Active`. The customers can log in and make purchases from their accounts.|
-|<span class="b2b-only">Set Inactive</span>|Blocks the selected customer accounts, and changes the status to `Inactive`. The blocked customers will not be able to log in or make purchases from their accounts. The customer account of a company admin cannot be set to `Inactive`. Another user in the company must first be assigned as company admin.|
+|<span class="b2b-only">Set Inactive</span>|Blocks the selected customer accounts, and changes the status to `Inactive`. The blocked customers will not be able to log in or make purchases from their accounts. The customer account of a company administrator cannot be set to `Inactive`. Another user in the company must first be assigned as company administrator.|
 
 ## Columns
 
 |Column|Description|
 |--- |--- |
-|Select|Manages the checkbox selections for the customer records that are to be subjects of an action. You can also use the selection control in the column header to select/deselect all.|
+|Select|Manages the checkbox selections for the customer records for applying an action. You can also use the selection control in the column header to select/deselect all.|
 |ID|A unique numeric identifier that is assigned when the customer account is created.|
 |Name|The first and last name of the customer.|
 |Email|The email address of the customer.|
@@ -127,7 +127,11 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 |Tax / VAT Number|If applicable, the tax number or [value-added tax]({% link tax/vat.md %}) number that is assigned to the customer. <br/><br/>**_Note:_** This field is not the same as the VAT Number.|
 |Gender|The gender of the customer.|
 |Action|Edit - Opens the company account in edit mode.|
-|**Additional Columns**|_These columns are available by changing the [column layout]({% link stores/admin-grid-layout.md %}) of the grid._|
+
+### Additional Columns
+
+These columns are available by changing the [column layout]({% link stores/admin-grid-layout.md %}) of the grid.
+
 |Company|The company name of the customer.|
 |Street Address|The street address of the customer.|
 |City|The city where the customer is located.|
