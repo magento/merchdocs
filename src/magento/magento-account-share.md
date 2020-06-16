@@ -15,7 +15,7 @@ _Shared Access_
 
 1. Before you begin, get the following information from the Magento account of the **new user**:
 
-   - The `Account ID` is located in the upper-left corner of the Magento tab, just above the **Log Out** link.
+   - The `Account ID` that is located in the upper-left corner of the Magento tab, just above the **Log Out** link.
    - The `Email` address that is associated with the account.
 
 1. Log in to your [Magento account]({% link magento/magento-account.md %}).
@@ -36,7 +36,6 @@ _Shared Access_
 1. Under _Shared Information_, do the following:
 
    - Enter a **Share Name** to identify the shared account. The Share Name is for internal reference, and is visible only to you and the person with whom you share your account.
-
    - If you want to share your personal contact information with the new user, enter the following:
 
       - Your Email
