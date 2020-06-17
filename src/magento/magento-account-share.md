@@ -55,11 +55,6 @@ _Shared Access_
    ![]({% link images/images/magento-account-shared-manage-permissions.png %}){: .zoom}
    _Manage Permissions_
 
-1. In the left panel of your account, click **Support** to establish the shared connection with Magento Support.
-
-    ![]({% link images/images/magento-account-shared-support.png %}){: .zoom}
-    _Support_
-
 ## Access a shared account
 
 The following instructions are written from the perspective of a shared user who receives an invitation to a shared account.
@@ -69,7 +64,7 @@ The following instructions are written from the perspective of a shared user who
    The left panel of your account has a new _Shared with me_ tab. The _Switch Accounts_ control in the upper-right corner has options for `My Account` and the name of the shared account.
 
    ![]({% link images/images/magento-account-shared-with-me.png %}){: .zoom}
-   _Switch Accounts_
+   _Shared with me_
 
 1. To gain access to the shared account, set **Switch Accounts** to the name of the shared account.
 
@@ -78,10 +73,19 @@ The following instructions are written from the perspective of a shared user who
 
    The shared account displays a welcome message and contact information. The left panel includes only the items that you have permission to use.
 
-   ![]({% link images/images/magento-account-shared-switch.png %}){: .zoom}
-    _Switch Accounts_
+1. To connect the shared account to the Magento Help Center, do the following:
 
-1. To return to your own account, set **Switch Accounts** to `My Account`.
+   In the left panel of the shared account, click **Support**.
+
+   ![]({% link images/images/magento-account-shared-support.png %}){: .zoom}
+   _Support_
+
+   You can use the the Magento Help Center from the shared account to search for articles and troubleshooting information, find patches for known issues, and create support tickets.
+
+   ![]({% link images/images/magento-account-shared-help-center.png %}){: .zoom}
+   _Magento Help Center_
+
+1. To return to your own account, click the **Back** button in your browser. Then, set **Switch Accounts** to `My Account`.
 
 ## Revoke shared access
 
