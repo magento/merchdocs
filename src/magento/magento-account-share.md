@@ -89,4 +89,6 @@ The following instructions are written from the perspective of a shared user who
 
 1. In the left panel, click **Shared Access**.
 
-1. Find the account to be revoked under 'Managing Users & Permissions' and click **Delete**.  When prompted to confirm, click <span class="btn">Delete User</span>.
+1. Find the account to be revoked under _Managing Users & Permissions_ and click **Delete**.
+
+1. When prompted to confirm, click <span class="btn">Delete User</span>.
