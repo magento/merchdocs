@@ -1,5 +1,5 @@
 ---
-title: Shipping
+title: Delivery
 redirect_from:
   - /shipping/magento-shipping-attributes.html
   - /shipping/magento-shipping-batch-create.html
@@ -23,17 +23,18 @@ redirect_from:
   - /sales/dispatches.html
   - /sales/batches.html
   - /catalog/product-shipping.html
+  - /shipping/shipping.html
 
 sections:
  - title: Shipping Settings
    content: The Shipping Settings establish the point of origin for all shipments made from your store or warehouse and your preference for managing orders shipped to multiple addresses.
    url: /shipping/shipping-settings.html
 
- - title: Basic Shipping Methods
-   content: Magento supports a wide range of built-in shipping methods, including Flat Rate, Free Shipping, Table Rates, and real-time online rates.
+ - title: Basic Delivery Methods
+   content: Magento supports a wide range of built-in delivery methods, including Flat Rate, Free Shipping, Table Rates, and real-time online rates.
    url: /shipping/methods-basic.html
 
- - title: Carriers
+ - title: Shipping Carriers
    content: If you have a commercial account with a supported carrier, you can offer your customers the convenience of real-time shipping rates, package tracking, and labels.
    url: /shipping/carriers.html
 
@@ -42,7 +43,7 @@ sections:
    url: /shipping/shipping-labels.html
 ---
 
-Studies show that stores offering customers a choice of several shipping methods have higher conversion rates than those that use a single method for all shipments. In this section, you will learn how to set up a variety of shipping methods and carriers, and print shipping labels.
+Studies show that stores offering customers a choice of several delivery methods have higher conversion rates than those that use a single method. In this section, you will learn how to set up a variety of delivery methods and shipping carriers, and to print shipping labels.
 
 {% include grid.html sections=page.sections %}
 

@@ -150,8 +150,8 @@
   - label: Payments
     url: /payment/payments.html
 
-  - label: Shipping
-    url: /shipping/shipping.html
+  - label: Delivery
+    url: /shipping/delivery.html
 
 - label: Operations
   url: /operations.html

@@ -6,7 +6,7 @@ To create shipping labels, you must first set up your shipping carrier account t
 
 After you configure the shipping label information and submit an order, Magento connects to the shipping carrier system, submits an order, and receives a shipping label and a tracking number. If a shipping label for this shipment already exists in the system, it is replaced with a new one. However, existing tracking numbers are not replaced. Any new tracking number is added to the existing one.
 
-## Step 1: Contact Your Shipping Carriers
+## Step 1: Contact your shipping carriers
 
 Before you begin, make sure that your shipping accounts are set up to process labels. Some carriers might charge an additional fee to add shipping labels to your account.
 
@@ -19,7 +19,7 @@ Follow the instructions provided by each carrier to add shipping label support t
 | UPS | Contact [UPS][2] to confirm your account type supports shipping labels. To generate shipping labels, you must use the UPS XML option. |
 | DHL | Contact the [DHL Resource Center][3] to learn more about their services or send an inquiry through their [Contact Center][3]. |
 
-## Step 2 Update the Configuration for Each Carrier
+## Step 2 Update the configuration for each carrier
 
 1. Make sure that your [Store Information]({% link stores/store-information.md %}) is complete.
 
@@ -31,165 +31,154 @@ Follow the instructions provided by each carrier to add shipping label support t
 
 1. Follow the instructions below for each carrier account that is activated for label printing.
 
-### UPS Configuration
+### UPS configuration
 
 United Parcel Service ships both domestically and internationally. However, shipping labels can be generated only for shipments that originate within the United States.
 
-1. In the _Sales_ section in the left panel, choose **Shipping Methods**.
+1. In the _Sales_ section in the left panel, choose **Delivery Methods**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **UPS** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **UPS** section.
 
 1. Verify that your UPS **Shipper Number** is correct
 
-    Your Shipper Number appears only when United Parcel Service XML is enabled.
+   Your Shipper Number appears only when United Parcel Service XML is enabled.
 
-1. Click **Save Config**.
+1. Click <span class="btn">Save Config</span>.
 
-### USPS Configuration
+### USPS configuration
 
 The United States Postal Service ships both domestically and internationally.
 
-1. Continuing in the **Shipping Methods** configuration, expand ![]({% link images/images/btn-expand.png %}) the **USPS** section. Then, do the following:
+1. Continuing in the **Delivery Methods** configuration, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **USPS** section.
 
-1. Verify that the **secure Gateway URL** is entered. The correct URL should be entered automatically.
+1. Verify that the **Secure Gateway URL** is correct.
 
 1. Enter the **Password** provided to you by USPS.
 
-1. Set **Size** to `Large`. Then, enter values for the following dimensions:
+1. Set **Size** to `Large` and enter values for the following dimensions:
 
-    - Length
-    - Width
-    - Height
-    - Girth
+   - Length
+   - Width
+   - Height
+   - Girth
 
-1. Click **Save Config**.
+1. Click <span class="btn">Save Config</span>.
 
-### FedEx Configuration
+### FedEx configuration
 
 FedEx ships domestically and internationally. Stores located outside the United States can create FedEx labels for international shipments only.
 
-1. Continuing in the **Shipping Methods** configuration, expand ![]({% link images/images/btn-expand.png %}) the **FedEx** section.
+1. Continuing in the **Delivery Methods** configuration, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **FedEx** section.
 
 1. Verify that the following FedEx credentials are correct:
 
-    - Meter Number
-    - Key
-    - Password
+   - Meter Number
+   - Key
+   - Password
 
-1. Click **Save Config**.
+1. Click <span class="btn">Save Config</span>.
 
-### DHL Configuration
+### DHL configuration
 
 DHL provides international shipping services.
 
-1. Continuing in the **Shipping Methods** configuration, expand ![]({% link images/images/btn-expand.png %}) the **DHL** section.
+1. Continuing in the **Delivery Methods** configuration, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **DHL** section.
 
-1. Verify that the **Gateway URL** is entered.
-
-    The correct URL should be entered automatically.
+1. Verify that the **Gateway URL** is correct.
 
 1. Verify that the following credentials are complete:
 
-    - Access ID
-    - Password
-    - Account Number
+   - Access ID
+   - Password
+   - Account Number
 
-1. Click **Save Config**.
+1. Click <span class="btn">Save Config</span>.
 
-## Step 3 Create Shipping Labels
+## Step 3 Create shipping labels
 
-### Method 1: Create Label for New Shipment
+### Method 1: Create label for new shipment
 
-1. On the _Admin_ sidebar, click **Sales**.
-
-1. In the _Operations_ section, choose **Orders**.
+1. On the _Admin_ sidebar, go to **Sales** > **Orders**.
 
 1. Find the order in the grid, and open the record.
 
-    The status of the order must be either `Pending` or `Processing`.
+   The status of the order must be either `Pending` or `Processing`.
 
 1. In the upper-right corner, click **Ship**.
 
 1. Confirm the shipping information according to carrier requirements.
 
-1. In the lower-right corner, mark the **Create Shipping Label** checkbox.
+1. In the lower-right corner, select the **Create Shipping Label** checkbox.
 
-1. Click **Submit Shipment**.
+1. Click <span class="btn">Submit Shipment</span>.
 
 1. Add or update products in package:
 
-    - To add products from the order to the package, click **Add Products**. The Quantity column shows the maximum number of products that are available for the package.
+   - To add products from the order to the package, click **Add Products**. The Quantity column shows the maximum number of products that are available for the package.
 
-    - Mark the checkbox of each product to be added to the package, and enter the **Quantity** of each. Then, click **Add Selected Product(s) to Package**.
+   - Select the checkbox of each product to be added to the package, and enter the **Quantity** of each. Then, click **Add Selected Product(s) to Package**.
 
-    - To add a new package, click **Add Package**.
+   - To add a new package, click **Add Package**.
 
-    - To delete a package, click **Delete Package**.
+   - To delete a package, click **Delete Package**.
 
-    {:.bs-callout-info}
-    If you use a package type other than the default, or require a signature, the cost of shipping might differ from what you have charged the customer. Any difference in the cost of shipping is not reflected in your store.
+   - To cancel an order, click **Cancel**. A shipping label will not be created, and the _Create Shipping Label_ checkbox is cleared.
+
+   {:.bs-callout-info}
+   If you use a package type other than the default, or require a signature, the cost of shipping might differ from what you have charged the customer. Any difference in the cost of shipping is not reflected in your store.
 
 1. Click **OK**.
 
-#### To cancel an order:
+   Magento connects to the shipping carrier system, submits the order, and receives a shipping label and tracking number for each package.
 
-1. Click **Cancel**.
+### Method 2: Create label for existing shipment
 
-   A shipping label will not be created, and the Create Shipping Label checkbox is cleared. Magento connects to the shipping carrier system, submits the order, and receives a shipping label and tracking number for each package.
+1. On the _Admin_ sidebar, go to **Sales** > _Operations_  > **Orders**.
 
-### Method 2: Create Label for Existing Shipment
+1. Find the order in the grid, and open the Shipping form.
 
-1. On the _Admin_ sidebar, click **Sales**.
+1. In the Shipping and Tracking Information section, click **Create Shipping Label**.
 
-1. In the _Operations_ section, choose **Orders**.
+1. Distribute the ordered product(s) to the appropriate package(s) and click **OK**.
 
-1. Find the order in the grid, and open the Shipping form. Then, do the following:
+1. To review the package information, click **Show Packages**.
 
-    - In the Shipping and Tracking Information section, click **Create Shipping Label**.
-
-    - Distribute the ordered product(s) to the appropriate package(s), and click **OK**.
-
-    - To review the package information, click **Show Packages**.
-
-## Step 4: Print the Labels
+## Step 4: Print the labels
 
 Shipping labels are generated in PDF format, and can be printed from the Admin. Each label includes the order number and package number.
 
 {:.bs-callout-info}
 Because an individual shipment order for each package is created, multiple shipping labels might be received for a single shipment.
 
-### Method 1: Print Label from Shipment Form
+### Method 1: Print label from shipment form
 
-1. On the _Admin sidebar_, click **Sales**. Then, do one of the following:
+1. On the _Admin sidebar_, go to one of the following pages and then locate the shipment record:
 
-    - Choose **Orders**. Find the order in the grid, and open the record. In the panel on the left, choose **Shipments**. Then, open the shipment record.
+   - **Sales** > **Orders** - Find the order in the grid and open the record. In the left panel, choose **Shipments**. Then, open the shipment record.
 
-    - Choose **Shipments**. Find the order in the grid, and open the record.
+   - **Sales** > **Shipments** - Find the shipment in the grid and open the record.
 
-1. To download the PDF file, go to the Shipping and Tracking section of the form, and click **Print Shipping Label**.
+1. To download the PDF file, go to the _Shipping and Tracking_ section of the form and click **Print Shipping Label**.
 
-    Depending on your browser settings, the shipping labels can be viewed and printed directly from the PDF file.
+   Depending on your browser settings, the shipping labels can be viewed and printed directly from the PDF file.
 
-    The Print Shipping Label button appears only after the carrier generates labels for the shipment. If the button is missing, click **Create Shipping Label**. The button appears after Magento receives the label from the carrier.
+   The Print Shipping Label button appears only after the carrier generates labels for the shipment. If the button is missing, click **Create Shipping Label**. The button appears after Magento receives the label from the carrier.
 
-### Method 2: Print Labels for Multiple Orders
+### Method 2: Print labels for multiple orders
 
-1. On the Admin sidebar, click **Sales**.
+1. On the _Admin sidebar_, go to one of the following pages and and then select the orders or shipments for printing:
 
-1. Choose one of the following:
+   - **Sales** > **Orders** - In the grid, select the checkbox of each order with shipping labels to be printed.
 
-    - Orders
-    - Shipments
-
-1. In the grid, mark the checkbox of each order with shipping labels to be printed.
+   - **Sales** > **Shipments** - In the grid, select the checkbox of each shipment with labels to be printed.
 
 1. Set the **Actions** control to `Print Shipping Labels`.
 
-1. Click **Submit**.
+1. Click <span class="btn">Submit</span>.
 
 A complete set of shipping labels is printed for each shipment that is related to the selected orders.
 
-## Required Carrier Configuration Settings
+## Required carrier configuration settings
 
 |Field|Description|
 |--- |--- |
