@@ -43,7 +43,7 @@ _Shared Access_
       - Your Email
       - Your Phone
 
-1. Under _Grant Account Permissions_, mark the checkbox of each Magento product and service that you want to share.
+1. Under _Grant Account Permissions_, select the checkbox of each Magento product and service that you want to share.
 
    ![]({% link images/images/magento-account-shared-permissions-all.png %}){: .zoom}
    _Grant Account Permissions_
