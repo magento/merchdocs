@@ -1,42 +1,42 @@
 ---
 b2b_only: true
-title: Company Admin
+title: Company Administrator
 ---
 
 The company administrator is initially assigned when the company account is first created, and can later be modified only by the store administrator from the Admin.
 
-## To change the company admin:
+## Change the company administrator
 
 1. On the _Admin_ sidebar, go to **Customers** > **Companies**.
 
 1. Find the company in the list and click **Edit**.
 
-    ![]({% link images/images-b2b/companies-grid-abc-xyz.png %}){: .zoom}
-    _Companies_
+   ![]({% link images/images-b2b/companies-grid-abc-xyz.png %}){: .zoom}
+   _Companies_
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Company Admin**. Then, do the following:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Company Admin** section and do the following:
 
-    ![]({% link images/images-b2b/company-account-company-admin.png %}){: .zoom}
-    _Company Admin_
+   ![]({% link images/images-b2b/company-account-company-admin.png %}){: .zoom}
+   _Company Admin_
 
-   - Enter the **Job Title** of the new company admin.
+   - Enter the **Job Title** of the new company administrator.
 
-   - Enter the **Email** address of the new company admin.
+   - Click **Proceed** to continue.
 
-      If the system doesn’t find the email address in the database, you are prompted to confirm that you want to replace the company admin.
+      This clears the form and the required _First Name_ and _Last Name_ fields are highlighted.
 
-      - Click **Proceed** to continue.
+   - Enter the **Email** address of the new company administrator.
 
-         This clears the form and the required First Name and Last Name fields are highlighted.
+      If the system doesn’t find the email address in the database, you are prompted to confirm that you want to replace the company administrator.
 
-      - If a user account doesn’t exist for the new company admin, the system creates a new account of the `Company Admin` type.
+      - If a user account doesn’t exist for the new company administrator, the system creates a new account of the `Company Admin` type.
 
-      - If the user account already exists in the system, it is moved to the Company Admin position in the company hierarchy.
+      - If the user account already exists in the system, it is moved to the company administrator position in the company hierarchy.
 
-   - Complete the **First Name** and **Last Name**, and any other fields as applicable for the new company admin.
+   - Enter the **First Name** and **Last Name**, as well as any other information as applicable for the new company administrator.
 
-1. When complete, click **Save**.
+1. When complete, click <span class="btn">Save</span>.
 
-    The individual account of the former company admin remains in the system as an active individual user account in the company hierarchy, assigned to the default user role.
+   The individual account of the former company administrator remains in the system as an active individual user account in the company hierarchy, assigned to the default user role.
 
-    The system sends email notification of the change to the new and former company administrators.
+   The system sends email notification of the change to the new and former company administrators.

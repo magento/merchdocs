@@ -15,36 +15,36 @@ You can also use the [Actions control]({% link customers/account-company-manage.
 ![]({% link images/images-b2b/customers-companies-grid-pending-approval.png %}){: .zoom}
 _Pending Approval_
 
-## To approve a pending company account:
+## Approve a pending company account
 
 1. On the _Admin_ sidebar, go to **Customers** > **Companies**.
 
-    All pending requests appear at the top of the list. To make them more noticeable, you can adjust the [grid layout]({% link stores/admin-grid-layout.md %}) to include the Status column.
+   All pending requests appear at the top of the list. To make them more noticeable, you can adjust the [grid layout]({% link stores/admin-grid-layout.md %}) to include the _Status_ column.
 
-1. In the **Action** column, click **Edit**. Then, do the following:
+1. In the _Action_ column, click **Edit**.
 
-   - Set **Company Status** to `Active`.
+1. Set **Company Status** to `Active`.
 
-   - When prompted to confirm, click <span class="btn">Change status</span>.
+1. When prompted to confirm, click <span class="btn">Change status</span>.
 
-    The company admin receives notification that the company is now active.
+   The company administrator receives notification that the company is now active.
 
-    ![]({% link images/images-b2b/customers-company-status.png %}){: .zoom}
-    _Company Status_
+   ![]({% link images/images-b2b/customers-company-status.png %}){: .zoom}
+   _Company Status_
 
 1. If applicable, set **Sales Representative** to a specific Admin account.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Account Information** and use the **Comment** field to enter notes about the account.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Account Information** section and use the **Comment** field to enter notes about the account.
 
    The comments are not visible from the storefront.
 
 1. When complete, click <span class="btn">Save</span>.
 
-    A confirmation email is sent to the company and company admin with instructions to set the account password.
+   A confirmation email is sent to the company and company administrator with instructions to set the account password.
 
-## Company Status
+## Company status
 
-| Field            | Description                                                                                                        |
+| Status           | Description                                                                                                        |
 |------------------|--------------------------------------------------------------------------------------------------------------------|
 | Active           | The company is approved and can be managed from the storefront by the customer.                                    |
 | Pending Approval | A request to create a company account has been submitted from the storefront, but is not yet reviewed              |

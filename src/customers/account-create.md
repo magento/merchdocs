@@ -74,18 +74,18 @@ _Customer Information_
 
 1. Complete the required fields:
 
-   - First Name
-   - Last Name
-   - Email
+   - **First Name**
+   - **Last Name**
+   - **Email**
 
 1. Complete the optional fields as needed:
 
-   - Name Prefix
-   - Middle Name/Initial
-   - Name Suffix
-   - Date of Birth
-   - Tax/VAT Number
-   - Gender
+   - **Name Prefix**
+   - **Middle Name/Initial**
+   - **Name Suffix**
+   - **Date of Birth**
+   - **Tax/VAT Number**
+   - **Gender**
 
 1. Set **Send Welcome Email From** to the store view from which the Welcome email is to be sent.
 
@@ -95,14 +95,14 @@ _Customer Information_
 
 1. Click <span class="btn">Save and Continue Edit</span>.
 
-    After the customer account is saved, the full set of options appears in the panel on the left and in the menu at the top of the page. The Customer View tab displays a summary of the account.
+   After the customer account is saved, the full set of options appears in the left panel and in the menu at the top of the page. The _Customer View_ tab displays a summary of the account.
 
-    ![]({% link images/images-ee/customer-account-create-saved.png %}){: .zoom}
-    _Customer View_{:.ee-only}
+   ![]({% link images/images-ee/customer-account-create-saved.png %}){: .zoom}
+   _Customer View_{:.ee-only}
 
 ### Step 2: Complete the address information
 
-1. In the panel on the left, choose **Addresses** and click <span class="btn">Add New Addresses</span>.
+1. In the left panel, choose **Addresses** and click <span class="btn">Add New Addresses</span>.
 
 1. If the same address is used for both billing and shipping, toggle both options.
 

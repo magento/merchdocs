@@ -17,12 +17,12 @@ _Customer Groups_
 
 1. Enter criteria for searching groups, including a range of IDs, group, or tax class.
 
-    ![]({% link images/images/customer-groups-filters.png %}){: .zoom}
-    _Filtering Options_
+   ![]({% link images/images/customer-groups-filters.png %}){: .zoom}
+   _Filtering Options_
 
 1. When complete, click <span class="btn">Apply Filters</span>.
 
-    The page displays the subset of filtered customer groups and members.
+   The page displays the subset of filtered customer groups and members.
 
 ## Create a customer group
 
@@ -30,9 +30,9 @@ _Customer Groups_
 
 1. Click <span class="btn">Add New Customer Group</span>.
 
-   - Enter a unique **Group Name** less than 32 characters to identify the group.
+1. Enter a unique **Group Name** less than 32 characters to identify the group.
 
-   - Select the **Tax Class** that applies to the group.
+1. Select the **Tax Class** that applies to the group.
 
    ![]({% link images/images/stores-customer-group-information.png %}){: .zoom}
    _Group Information_
@@ -55,14 +55,14 @@ _Customer Groups_
 
 1. Find the customer in the list and select the checkbox in the first column.
 
-   - Set the **Actions** control to `Assign a Customer Group`.
+1. Set the **Actions** control to `Assign a Customer Group`.
 
-   - Set the **Group** control to the new group.
+1. Set the **Group** control to the new group.
 
-   - When prompted to confirm, click <span class="btn">OK</span>.
+1. When prompted to confirm, click <span class="btn">OK</span>.
 
-      ![]({% link images/images/stores-customer-group-assign.png %}){: .zoom}
-      _Assign a Customer Group_
+   ![]({% link images/images/stores-customer-group-assign.png %}){: .zoom}
+   _Assign a Customer Group_
 
 ## Associate a group of customers with specific discounts
 
@@ -72,8 +72,8 @@ _Customer Groups_
 
 1. Select the customer groups the rule will apply to.
 
-    ![]({% link images/images/stores-customer-group-discounts.png %}){: .zoom}
-      _Customer Group to Specific Discounts_
+   ![]({% link images/images/stores-customer-group-discounts.png %}){: .zoom}
+   _Customer Group to Specific Discounts_
 
 1. Click <span class="btn">Save</span>.
 

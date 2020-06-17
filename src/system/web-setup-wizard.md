@@ -1,10 +1,8 @@
 ---
 title: Setup Wizard
+redirect_from:
+  - /system/component-manager.html
 sections:
- - title: Extension Manager
-   content: Extension Manager lists each component that is currently installed, and can be used to synchronize any extensions you have purchased from Magento Marketplace with your system.
-   url: /system/web-setup-extension-manager.html
-
  - title: Module Manager
    content: Module Manager lists the components and modules that are currently installed in your Magento system.
    url: /system/web-setup-module-manager.html
@@ -18,10 +16,12 @@ sections:
    url: /system/web-setup-system-configuration.html
 ---
 
-The Setup Wizard can be used to easily install and uninstall components, modules, and extensions, manage modules, upgrade your installation, and make changes to the Web setup of your installation.
+The Setup Wizard can be used to easily install, uninstall, and manage modules, as well as upgrade your installation and make changes to the web setup. For detailed information about installing an extension, see [General CLI installation][1] in the Magento Extensions Guide.
+
+{% include web-setup-deprecate.md %}
 
 {% include flush-cache.md %}
 
-## Setup Tools
-
 {% include grid.html sections=page.sections %}
+
+[1]: https://devdocs.magento.com/extensions/install/

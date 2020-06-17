@@ -17,7 +17,7 @@ The steps for configuring the name and address options are different for Magento
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Name and Address Options** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Name and Address Options** section.
 
    Notice that the scope of the name and address options applies at the `website` level.
 
@@ -58,7 +58,7 @@ The steps for configuring the name and address options are different for Magento
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-1. In the message at the top of the page, click **Cache Management**. Then, [refresh]({% link system/cache-management.md %}) each invalid cache.
+1. In the message at the top of the page, click **Cache Management** and [refresh]({% link system/cache-management.md %}) each invalid cache.
 
 ## Configure name and address options for Magento Open Source
 
@@ -71,14 +71,14 @@ _[Customer Account Sign Up Form]({% link configuration/customers/customer-config
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Name and Address Options** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Name and Address Options** section.
 
    Notice that the scope of the name and address options applies at the `website` level.
 
    ![]({% link images/images/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
    _[Name and Address Options]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
 
-1. Scroll back up to the top of the page. Then in the upper-left corner, set the scope of the configuration to one of the following:
+1. Scroll back up to the top of the page and use the selector in the upper-left corner to set the scope of the configuration to one of the following:
 
    - Default Config
    - Main Website (or specific site for multi-site installations)
@@ -149,4 +149,4 @@ _[Customer Account Sign Up Form]({% link configuration/customers/customer-config
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-1. In the message at the top of the page, click **Cache Management**. Then, [refresh]({% link system/cache-management.md %}) each invalid cache.
+1. In the message at the top of the page, click **Cache Management** and [refresh]({% link system/cache-management.md %}) each invalid cache.
