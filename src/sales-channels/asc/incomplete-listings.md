@@ -21,11 +21,11 @@ The available actions on the _Incomplete_ tab include:
 
 Under _Actions_:
 
-{% include amazon-re-attempt-auto-match-action.md %}
+- **Re-attempt to auto match to Amazon listings**: Choose to initiate the automatic process for matching your Amazon listings data to your Magento catalog. If products are not automatically matching, revisit your [_Catalog Search_]({% link sales-channels/asc/catalog-search.md %}) options in your listing lettings. If listings do not automatically match after updating your _Catalog Search_ options, you can match products manually in the [Update Required Info]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %}#update-required-info-multiple-matches-found) action.
 
 Under **Select** in the _Action_ column:
 
-{% include amazon-update-required-info-action.md %}
+- **Update Required Info**: Choose when listings do not automatically match to your catalog. You can manually [match catalog products to listings]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %}#update-required-info-multiple-matches-found), manually [assign an ASIN]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %}#update-required-info-unable-to-assign-to-amazon-listing) to a catalog match, or [assign a missing condition]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %}#update-required-info-missing-condition) for listing.
 
 {% include amazon-view-details-action.md %}
 

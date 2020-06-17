@@ -33,7 +33,7 @@ and publish [RSS]({% link marketing/rss-feed.md %}) feeds.
 
 ### Advertising Channels
 
-Increase revenue by capturing new storefront traffic with [Google Shopping ads]({% link sales-channels/google-ads/google-ad-channel.md %}) and expanding sales to additional webstores with [Amazon Marketplace integration]({% link sales-channels/amazon/amazon-sales-channel.md %}).
+Increase revenue by capturing new storefront traffic with [Google Shopping ads]({% link sales-channels/google-ads/google-ad-channel.md %}) and expanding sales to additional webstores with [Amazon Marketplace integration]({% link sales-channels/asc/amazon-sales-channel.md %}).
 
 ### SEO & Search
 
