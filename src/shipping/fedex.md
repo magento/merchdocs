@@ -63,8 +63,8 @@ Make sure to copy or write down the authentication key. You will need it to set 
 
 1. Set **Weight Unit** to the unit of measurement that is used in your locale.
 
-   - Pounds
-   - Kilograms
+   - `Pounds`
+   - `Kilograms`
 
 1. Enter the **Maximum Package Weight** allowed for FedEx shipments.
 
@@ -75,7 +75,7 @@ Make sure to copy or write down the authentication key. You will need it to set 
 
 1. Configure the handling fee options according to your requirements.
 
-   The handling fee is optional, and is not visible during checkout. If you want to include a handling fee, do the following:
+   The handling fee is optional and is not visible during checkout. If you want to include a handling fee, do the following:
 
    - Set **Calculate Handling Fee**:
 
@@ -113,7 +113,7 @@ Make sure to copy or write down the authentication key. You will need it to set 
 
 1. If you want to provide a [Free Shipping]({% link shipping/shipping-free.md %}) option through FedEx, set the free shipping options.
 
-   - Set **Free Method** to the method you want to use for free shipping. If you don’t want to offer free shipping through FedEx, choose `None`.
+   - Set **Free Method** to the method you want to use for free shipping. If you do not want to offer free shipping through FedEx, choose `None`.
 
    - To require a minimum order amount that qualifies an order for free shipping with FedEx, set **Enable Free Shipping Threshold** to `Enable`. Then, enter the minimum value in **Free Shipping Amount Threshold**.
 

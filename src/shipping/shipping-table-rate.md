@@ -16,7 +16,7 @@ The data that is used to calculate tables rates is prepared in a spreadsheet and
 Only one set of table rate data can be active at a time.
 
 ![]({% link images/images/storefront-cart-table-rate.png %}){: .zoom}
-*Table Rate in Shopping Cart*
+_Table Rate in Shopping Cart_
 
 ## Step 1: Complete the default settings
 
@@ -52,7 +52,7 @@ The first step is to complete the default settings for table rates. You can comp
 
 1. Configure the handling fee options according to your requirements.
 
-   The handling fee is optional, and appears as an additional charge that is added to the shipping cost. If you want to include a handling fee, do the following:
+   The handling fee is optional and appears as an additional charge that is added to the shipping cost. If you want to include a handling fee, do the following:
 
    * Set **Calculate Handling Fee**:
 
@@ -61,7 +61,7 @@ The first step is to complete the default settings for table rates. You can comp
 
    * Enter the **Handling Fee** rate according to the method used to calculate the fee.
 
-      For example, if the charge is based on a fixed fee, enter the amount as a decimal, such as: `4.90`. However, if the handling fee is based on a percentage of the order, enter the amount as a percentage. For example, if you are charging six percent of the order, enter the value as: `.06`.
+      For example, if the charge is based on a fixed fee, enter the amount as a decimal, such as `4.90`. However, if the handling fee is based on a percentage of the order, enter the amount as a percentage. For example, if you are charging six percent of the order, enter the value as `.06`.
 
 1. If needed, change the **Displayed Error Message**.
 

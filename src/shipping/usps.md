@@ -31,7 +31,7 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 1. Enter the **User ID** and **Password** for your USPS account.
 
-1. Set **Mode**:
+1. Set **Mode** to one of the following:
 
    |Development|Runs USPS in a test environment. After running USPS in a development environment, make sure to return later and set Mode to `Live`.|
    |Live|Runs USPS in a live production environment.|
@@ -41,7 +41,7 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 ## Step 3: Complete the packaging description
 
-1. To determine how the order is managed if sent as multiple packages, set **Packages Request Type**:
+1. To determine how the order is managed if sent as multiple packages, set **Packages Request Type** to one of the following:
 
    |Divide to Equal Weight|(One Request) The shipment of multiple packages can be submitted as one request if the packages are divided by equal weight.|
    |Use Origin Weight|(Multiple Requests) Multiple packages must be submitted as separate requests if using origin weight as the basis of calculating the shipping cost.|
@@ -50,7 +50,7 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 1. Set the **Size** of the typical package shipped from your store.
 
-1. Set **Machinable**:
+1. Set **Machinable** to one of the following:
 
    |Yes|If your typical package can be processed by a machine.|
    |No|If your typical package must be processed manually.|
@@ -69,7 +69,7 @@ The handling fee is optional, and appears as an additional charge that is added 
    * `Fixed`
    * `Percent`
 
-1. To determine how the handling fee is applied, set **Handling Applied**:
+1. To determine how the handling fee is applied, set **Handling Applied** to one of the following:
 
    * `Per Order`
    * `Per Package`

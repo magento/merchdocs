@@ -39,7 +39,7 @@ United Parcel Service ships both domestically and internationally. However, ship
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **UPS** section.
 
-1. Verify that your UPS **Shipper Number** is correct
+1. Verify that your UPS **Shipper Number** is correct.
 
    Your Shipper Number appears only when United Parcel Service XML is enabled.
 
@@ -125,7 +125,7 @@ DHL provides international shipping services.
    - To cancel an order, click **Cancel**. A shipping label will not be created, and the _Create Shipping Label_ checkbox is cleared.
 
    {:.bs-callout-info}
-   If you use a package type other than the default, or require a signature, the cost of shipping might differ from what you have charged the customer. Any difference in the cost of shipping is not reflected in your store.
+   If you use a package type other than the default or require a signature, the cost of shipping might differ from what you have charged the customer. Any difference in the cost of shipping is not reflected in your store.
 
 1. Click **OK**.
 
@@ -135,7 +135,7 @@ DHL provides international shipping services.
 
 1. On the _Admin_ sidebar, go to **Sales** > _Operations_  > **Orders**.
 
-1. Find the order in the grid, and open the Shipping form.
+1. Find the order in the grid and open the Shipping form.
 
 1. In the Shipping and Tracking Information section, click **Create Shipping Label**.
 
@@ -145,7 +145,7 @@ DHL provides international shipping services.
 
 ## Step 4: Print the labels
 
-Shipping labels are generated in PDF format, and can be printed from the Admin. Each label includes the order number and package number.
+Shipping labels are generated in PDF format and can be printed from the Admin. Each label includes the order number and package number.
 
 {:.bs-callout-info}
 Because an individual shipment order for each package is created, multiple shipping labels might be received for a single shipment.

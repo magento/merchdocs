@@ -131,7 +131,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Ship to Applicable Countries|Website|Specifies which country customers are allowed to use this shipping method. Options: <br/>**All Allowed Countries** - Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this shipping method. <br/>**Specific Countries** - After choosing this option, the Ship to Specific Countries list appears. Select each country in the list where this shipping method can be used.|
 |Show Method if Not Applicable|Website|Determines if UPS always appears as a shipping option during checkout. Options: <br/>**Yes** - UPS always appears as a shipping option during checkout, even if not applicable to the order. <br/>**No** - UPS appears as a shipping option during checkout only if applicable to the order. (For example, if the order weight exceeds the maximum weight amount.)|
 |Debug|Website|Specifies if data transmissions between your store and UPS are logged in the system for debugging. Unless there is an issue that needs to be tracked and logged, this should be set to “No”.|
-|Sort Order|Website|A number that determines the order that UPS appears when listed with other delivery methods during checkout. Enter 0 for the top of the list.|
+|Sort Order|Website|A number that determines the order that UPS appears when listed with other delivery methods during checkout. Enter `0` for the top of the list.|
 
 ### USPS
 
@@ -191,7 +191,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Ship to Applicable Countries|Website|Specifies the countries where orders can be shipped. Options: <br/>**All Allowed Countries** - Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this shipping method. <br/>**Specific Countries** - After choosing this option, the Ship to Specific Countries list appears. Select each country in the list where this shipping method can be used.|
 |Show Method if Not Applicable|Website|Controls the display of USPS shipping during checkout. Options: <br/>**Yes** - USPS always appears as a shipping option during checkout, even if not applicable to the order. <br/>**No** - USPS does appears as a shipping option during checkout only if applicable to the order. (i.e., Order weight exceeds the maximum weight amount).|
 |Debug|Website|Determines if a log of data transmissions between your store and USPS is maintained by the system for debugging. Unless there is an issue that needs to be tracked and logged, this should be set to “No”.|
-|Sort Order|Website|A number that determines the order that USPS appears when listed with other  during checkout. Enter 0 for the top of the list.|
+|Sort Order|Website|A number that determines the order that USPS appears when listed with other delivery methods during checkout. Enter `0` for the top of the list.|
 
 ### FedEx
 
@@ -255,7 +255,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Ship to Specific Countries|Website|Indicates the specific countries where your customers can ship by FedEx.|
 |Debug|Website|Determines if a log of data transmissions between your store and FedEx is maintained by the system for debugging.Unless there is an issue that needs to be tracked and logged, this should be set to “No”.|
 |Show Method if Not Applicable|Website|Determines when FedEx appears as a shipping method during checkout. Options: <br/>**Yes** - The FedEx shipping option is displayed in the delivery methods list, regardless of whether the order qualifies to use it. <br/>**No** - The FedEx shipping option is not displayed in the delivery methods list if it is not applicable to the order (for example, if the order weight exceeds the maximum weight amount).|
-|Sort Order|Website|A number that determines the order that FedEx appears when listed with other delivery methods during checkout. Enter 0 for the top of the list.|
+|Sort Order|Website|A number that determines the order that FedEx appears when listed with other delivery methods during checkout. Enter `0` for the top of the list.|
 
 ### DHL
 
@@ -308,4 +308,4 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Ship to Specific Countries|Website|Specifies the countries where DHL shipments can be sent. This selected countries list is used if Specific Countries is selected in the Ship to Applicable Countries option.|
 |Show Method if Not Applicable|Website|Determines when DHL appears as a shipping method during checkout. Options: <br/>**Yes** - DHL always appears as a shipping option during checkout, even if not applicable to the order. <br/>**No** - DHL appears as a shipping option during checkout only if applicable to the order. (i.e., Order weight exceeds the maximum weight amount.)|
 |Debug|Website|Creates a log file with error information.|
-|Sort Order|Website|A number that determines the order in which DHL appears when listed with other delivery methods during checkout. Enter 0 to place it at the top of the list.|
+|Sort Order|Website|A number that determines the order in which DHL appears when listed with other delivery methods during checkout. Enter `0` to place it at the top of the list.|

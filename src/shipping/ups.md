@@ -35,10 +35,10 @@ To offer this shipping method to your customers, you must first open an account 
 
    - If you have special rates with UPS, set **Enable Negotiated Rates** to `Yes` and enter the six-digit **Shipper Number** assigned to you by UPS.
 
-1. For a standard UPS account, set **UPS Type** to “United Parcel Service”. Then do the following:
+1. For a standard UPS account, set **UPS Type** to `United Parcel Service` and do the following:
 
    {:.bs-callout-info}
-   The standard United Parcel Service type is scheduled for deprecation. For new configurations, you should use the default  "United Parcel Service XML" type. The XML type is also required to generate [shipping labels]({% link shipping/shipping-labels.md %}).
+   The standard United Parcel Service type is scheduled for deprecation. For new configurations, you should use the default  `United Parcel Service XML` type. The XML type is also required to generate [shipping labels]({% link shipping/shipping-labels.md %}).
 
    - Set **Live Account** to one of the following:
 
@@ -55,7 +55,7 @@ To offer this shipping method to your customers, you must first open an account 
    By default, this field is set to` United Parcel Service`.
 
    ![]({% link images/images/config-sales-shipping-methods-ups1.png %}){: .zoom}
-   [*Enable UPS*]({% link configuration/sales/delivery-methods.md %})
+   [_Enable UPS_]({% link configuration/sales/delivery-methods.md %})
 
 ## Step 3: Complete the container description
 
@@ -91,18 +91,18 @@ To offer this shipping method to your customers, you must first open an account 
 1. Enter the **Minimum Package Weight** allowed by the carrier.
 
    ![]({% link images/images/config-sales-shipping-methods-ups2.png %}){: .zoom}
-   [*Container Description*]({% link configuration/sales/delivery-methods.md %})
+   [_Container Description_]({% link configuration/sales/delivery-methods.md %})
 
 ## Step 4: Set up handling fees
 
-The handling fee is optional, and appears as an additional charge that is added to the UPS shipping cost. If you want to include a handling fee, do the following:
+The handling fee is optional and appears as an additional charge that is added to the UPS shipping cost. If you want to include a handling fee, do the following:
 
 1. Set **Calculate Handling Fee** to one of the following methods:
 
    - `Fixed`
    - `Percent`
 
-1. To determine how the handling fee is applied, set **Handling Applied**:
+1. To determine how the handling fee is applied, set **Handling Applied** to one of the following:
 
    - `Per Order`
    - `Per Package`
@@ -112,7 +112,7 @@ The handling fee is optional, and appears as an additional charge that is added 
    To enter a percentage, use the decimal format. For example, enter `0.25` for 25%.
 
    ![]({% link images/images/config-sales-shipping-methods-ups3.png %}){: .zoom}
-   [*Handling Fee*]({% link configuration/sales/delivery-methods.md %})
+   [_Handling Fee_]({% link configuration/sales/delivery-methods.md %})
 
 ## Step 5: Specify allowed methods and applicable countries
 
@@ -165,6 +165,6 @@ The handling fee is optional, and appears as an additional charge that is added 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Origin** on the page and configure the shipping origin address.
 
    ![]({% link images/images/shipping-origin-magento.png %}){: .zoom}
-   [Sales configuration - shipping origin address options]({% link configuration/sales/shipping-settings.md %})
+   [_Sales configuration - shipping origin address options_]({% link configuration/sales/shipping-settings.md %})
 
 1. Click <span class="btn">Save Config</span>.

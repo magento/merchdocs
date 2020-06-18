@@ -56,7 +56,7 @@ The country of manufacture is required for all products that are shipped interna
 1. Expand ![]({% link images/images/btn-expand.png %}) the **USPS** section, and verify that the following fields are complete:
 
    - **Secure Gateway URL** – Magento automatically enters the gateway URL.
-   - **Password** – The password is provided by USPS, and gives you access to their system through Web Services.
+   - **Password** – The password is provided by USPS and gives you access to their system through Web Services.
    - **Length, Width, Height, Girth** – The default dimensions of the package. To make these fields appear, set **Size** to `Large`.
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **FedEx** section and verify that the following fields are complete:
@@ -79,7 +79,7 @@ The country of manufacture is required for all products that are shipped interna
 
 1. If you have multiple stores and the contact information differs from the default, set **Store View** for each and verify that the information is complete.
 
-   If the information is missing, you will see an error when you try to print the labels.
+   If the information is missing, an error will appear when you try to print the labels.
 
    ![]({% link images/images/config-general-general-store-information.png %}){: .zoom}
    _[Store Information]({% link configuration/general/general.md %})_

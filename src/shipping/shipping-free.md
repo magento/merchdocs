@@ -33,7 +33,7 @@ Check your shipping carrier configuration for any additional settings that may b
    * `No` – Does not include tax when calculating the Minimum Order amount (Subtotal - Discount).
 
    ![]({% link images/images/config-sales-shipping-methods-free-shipping.png %}){: .zoom}
-   [*Free Shipping*]({% link configuration/sales/delivery-methods.md %})
+   [_Free Shipping_]({% link configuration/sales/delivery-methods.md %})
 
 1. For **Displayed Error Message**, enter the message to appear if free shipping becomes unavailable.
 

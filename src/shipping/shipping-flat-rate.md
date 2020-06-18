@@ -5,7 +5,7 @@ title: Flat Rate
 Flat rate is a fixed, predefined charge that can be applied per item, or per shipment. Flat rate is a simple shipping solution, especially when used with the flat-rate packaging that is available from some carriers. When enabled, Flat Rate appears as an option during checkout. Because no specific carrier is specified, you can use a carrier of your choice.
 
 ![]({% link images/images/config-sales-shipping-methods-flat-rate.png %}){: .zoom}
- [*Flat Rate*]({% link configuration/sales/delivery-methods.md %})
+ [_Flat Rate_]({% link configuration/sales/delivery-methods.md %})
 
 ## Set up flat rate shipping
 
@@ -35,7 +35,7 @@ Flat rate is a fixed, predefined charge that can be applied per item, or per shi
 
 1. Configure the handling fee options according to your requirements.
 
-   The handling fee is optional, and appears as an additional charge that is added to the shipping cost. If you want to include a handling fee, do the following:
+   The handling fee is optional and appears as an additional charge that is added to the shipping cost. If you want to include a handling fee, do the following:
 
    - For **Calculate Handling Fee**, select the method you want to use to calculate handling fees:
 
@@ -44,7 +44,7 @@ Flat rate is a fixed, predefined charge that can be applied per item, or per shi
 
    - For **Handling Fee**, enter the amount to be charged, based on the method you have chosen to calculate the amount.
   
-      For example, if the charge is based on a fixed fee, enter the amount as a decimal, such as: `4.90`. However, if the handling fee is based on a percentage of the order, enter the amount as a percentage. For example, if you are charging six percent of the order, enter the value as: `.06`.
+      For example, if the charge is based on a fixed fee, enter the amount as a decimal, such as `4.90`. However, if the handling fee is based on a percentage of the order, enter the amount as a percentage. For example, if you are charging six percent of the order, enter the value as `.06`.
 
 1. If needed, change the **Displayed Error Message**.
 
