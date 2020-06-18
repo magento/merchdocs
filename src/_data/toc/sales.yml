@@ -290,19 +290,19 @@ pages:
       url: "/payment/zero-subtotal-checkout.html"
   - label: Fraud Protection
     url: "/sales/fraud-protection.html"
-- label: Shipping
-  url: "/shipping/shipping.html"
+- label: Delivery
+  url: "/shipping/delivery.html"
   children:
   - label: Shipping Settings
     url: "/shipping/shipping-settings.html"
     children:
     - label: Point of Origin
       url: "/shipping/point-of-origin.html"
-    - label: Multiple Addresses
-      url: "/shipping/shipping-multiaddress.html"
     - label: Shipping Policy
       url: "/shipping/shipping-policy-parameters.html"
-  - label: Basic Shipping Methods
+    - label: Multiple Addresses
+      url: "/shipping/shipping-multiaddress.html"
+  - label: Basic Delivery Methods
     url: "/shipping/methods-basic.html"
     children:
     - label: Free Shipping
@@ -313,7 +313,7 @@ pages:
       url: "/shipping/shipping-table-rate.html"
     - label: Dimensional Weight
       url: "/shipping/weight-dimensional.html"
-  - label: Carriers
+  - label: Shipping Carriers
     url: "/shipping/carriers.html"
     children:
     - label: UPS

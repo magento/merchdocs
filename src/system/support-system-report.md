@@ -20,12 +20,12 @@ _Manage System Reports_
 
 1. In the **Groups** list, select each set of information that you want to include in the report. By default, all groups are selected.
 
-    ![System report - select groups]({% link images/images/system-report-create.png %}){: .zoom}
-    _Select Groups_
+   ![System report - select groups]({% link images/images/system-report-create.png %}){: .zoom}
+   _Select Groups_
 
 1. In the upper-right corner, click <span class="btn">Create</span>.
 
-    It might take a few minutes for the report to generate, depending on the number of report types selected. When the report is ready, it appears at the top of the grid with the date and time generated.
+   It might take a few minutes for the report to generate, depending on the number of report types selected. When the report is ready, it appears at the top of the grid with the date and time generated.
 
 ## Manage system reports
 
@@ -44,8 +44,8 @@ In the **Action** column of the grid, select one of the following:
 
 1. In the left panel, expand ![Expansion selector]({% link images/images/btn-expand.png %}) each section of the report to view the detail.
 
-    ![General system report information]({% link images/images/system-report-information.png %}){: .zoom}
-    _General System Report Information_
+   ![General system report information]({% link images/images/system-report-information.png %}){: .zoom}
+   _General System Report Information_
 
 ## Available system reports
 
@@ -62,4 +62,3 @@ Cron | Cron Schedules by status code<br>Cron Schedules by job code<br>Errors in 
 Design | Adminhtml Themes List<br>Frontend Themes List
 Stores | Website Tree<br>Websites List<br>Stores List<br>Store Views List
 OMS Connector<br>_(visible with OMS integration)_ | Connector Version<br>Connector monitoring<br>Message Processing Results
-{:style="table-layout:auto;"}
