@@ -8,9 +8,9 @@ If you use the Magento Order Management System (OMS) with Magento Commerce (MC) 
 You can manage stock aggregates and integrations, and access both the message log and changelog, with this MCOM menu option.
 
 ![]({% link images/images-ee/admin-menu-mcom-ee.png %}){: .zoom}
-_MCOM Menu_
+_MCOM menu_
 
-## Display the Reports menu
+## Display the MCOM menu
 
 On the _Admin_ sidebar, choose **MCOM**.
 
@@ -26,7 +26,7 @@ View message processing logs, message history, and full error traces for the Con
 
 ### Integration
 
-Add (register) and disable OMS [integrations]({% link mcom/integration.md %}), and view integration details such as integration status and subscriptions.
+Add (register) or disable the Order Management System (OMS) [integration]({% link mcom/integration.md %}), and view details of the integration (such as integration status and subscriptions).
 
 ### Changelog
 

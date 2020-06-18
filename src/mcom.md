@@ -12,7 +12,7 @@ sections:
     url: /mcom/message-log.html
 
   - title: Integration
-    content: This category includes information about adding and disabling OMS integrations, and viewing integration details.
+    content: This category includes information about adding or disabling the Order Management System (OMS) integration and viewing details of the integration.
     url: /mcom/integration.html
 
   - title: Changelog
