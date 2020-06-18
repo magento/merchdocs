@@ -136,26 +136,11 @@ pages:
         url: "/configuration/sales/klarna.html"
       - label: Amazon Pay
         url: "/configuration/sales/amazon-pay.html"
-      - label: Authorize.Net Direct Post - Deprecated
-        url: "/configuration/sales/authorize-net-direct-post.html"
-      - label: Authorize.Net - Deprecated
-        url: "/configuration/sales/authorize-net.html"
-      - label: CyberSource - Deprecated
-        url: "/configuration/sales/cybersource.html"
-        edition: ee-only
-      - label: eWAY - Deprecated
-        url: "/configuration/sales/eway.html"
-        edition: ee-only
-      - label: Worldpay - Deprecated
-        url: "/configuration/sales/worldpay.html"
-        edition: ee-only
   - label: 3D Secure
     url: "/configuration/sales/3d-secure.html"
     children:
     - label: CardinalCommerce
       url: "/configuration/sales/cardinalcommerce.html"
-  - label: Fraud Protection
-    url: "/configuration/sales/fraud-protection.html"
   - label: Gift Cards
     url: "/configuration/sales/gift-cards.html"
     edition: ee-only

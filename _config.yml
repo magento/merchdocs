@@ -1,9 +1,9 @@
 # This file sets default project configuration for the User Guides website generator
 # See default Jekyll configuration at https://jekyllrb.com/docs/configuration/default/
 
-title: Magento 2.3 User Guide
+title: Magento 2.4 User Guide
 
-description: Merchant-focused documentation for both Magento Commerce and Magento Open Source
+description: Merchant-focused documentation for Magento Commerce and Magento Open Source
 logo: User Guide
 baseurl: /user-guide
 url: "https://docs.magento.com"
@@ -16,7 +16,7 @@ theme: devdocs
 source: src
 plugins_dir: ./_plugins
 
-version: 2.3
+version: 2.4
 
 algolia:
   application_id: E642SEDTHL

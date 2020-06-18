@@ -11,7 +11,7 @@ The Adobe Stock service provides businesses with access to millions of high-qual
 
 ## Prerequisites
 
-This integration requires an [adobe.io Console][io-console] account and Magento 2.3.4 or newer. In order to license [Adobe Stock][adobe-stock] images, a paid [Adobe Stock][adobe-stock] plan and an [Adobe account][adobe-signin] are also required.
+This integration requires an [adobe.io Console][io-console] account and Magento 2.3.4 or newer. In order to license Adobe Stock images, a paid Adobe Stock plan and an [Adobe account][adobe-signin] are also required.
 
 ## Integrate Magento and Adobe Stock
 
@@ -20,7 +20,9 @@ then [configure the Adobe Stock Integration in your Magento Admin][configure].
 
 ### Create an Adobe.io integration
 
-1. Navigate to the [adobe.io Console][io-console]. Under **Quick Start**, select the **Projects** tab and click **Create new project**.
+1. Navigate to the [adobe.io Console][io-console].
+
+1. Under **Quick Start**, select the **Projects** tab and click **Create new project**.
 
 1. Click **Add API** in the **Get started** block.
 
@@ -32,12 +34,19 @@ then [configure the Adobe Stock Integration in your Magento Admin][configure].
 
 1. Specify the **Redirect URI**.
 
-   - The default redirect URI is in the form `${HOST}/${ADMIN_URI}/adobe_ims/oauth/callback/.*`, such as `https://store.myshop.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`.
+   - The default redirect URI is in the form `${HOST}/${ADMIN_URI}/adobe_ims/oauth/callback/`, such as `https://store.myshop.com/admin_hgkq1l/adobe_ims/oauth/callback/`.
 
         where:
 
          - `${HOST}` is your Magento fully qualified domain name (i.e., `https://store.myshop.com`).
          - `${ADMIN_URI}` is your Magento Admin URI (such as `admin_hgkq1l`), which can be retrieved by running `magento info:adminuri`.
+
+1. Specify the **Redirect URI pattern**, which is the same as your redirect URI with two differences:
+
+   - Any periods (`.`) must be escaped with two backslashes (`\\`).
+   - Add `.*` to the end of the pattern.
+
+      Using the example from the previous Default redirect URI field, this would be `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`.
 
 1. Click **Save configured API**.
 
@@ -45,7 +54,7 @@ then [configure the Adobe Stock Integration in your Magento Admin][configure].
 
    This information is used in the [next section][configure].
 
-### Configure the Adobe Stock Integration
+### Configure the Adobe Stock integration
 
 Use the **API Key** and **Client secret** generated in the [previous section][create-integration] to set the system configuration in your Magento Admin.
 

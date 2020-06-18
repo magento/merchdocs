@@ -3,7 +3,7 @@ b2b_only: true
 title: Company Users
 ---
 
-The individuals who are associated with a company are represented in the Customers grid by the customer type, “Company User,” and are typically buyers with varying levels of permission to access store services and resources.
+The individuals who are associated with a company are represented in the Customers grid by the customer type, _Company User_, and are typically buyers with varying levels of permission to access store services and resources.
 
 ![]({% link images/images-b2b/diagram-company-structure-teams.png %}){: .zoom}
 _Company Structure with Teams of Users_
@@ -14,27 +14,29 @@ Company users are assigned by the company administrator, and are visible from th
 
 - Define roles and permissions, and assign users to roles
 
-## To add company users:
+## Add company users
 
 1. From the storefront, sign in to your account as the company administrator.
 
-1. In the panel on the left, choose **Company Users**.
+1. In the left panel, choose **Company Users**.
 
    ![]({% link images/images-b2b/customer-account-company-users.png %}){: .zoom}
    _Company Users_
 
-1. Click <span class="btn">Add New User</span>. Then, do the following:
+1. Click <span class="btn">Add New User</span> and do the following:
 
    - Enter the **Job Title** of the new user.
 
    - If the roles and permissions are defined, choose the appropriate **User Role**. Otherwise, you can return later to assign the role.
 
       ![]({% link images/images-b2b/customer-company-structure-users-add.png %}){: .zoom}
+      _Add new user_
 
    - Complete the remaining fields as needed for the user:
-      - First Name and Last Name
-      - Email
-      - Phone Number
+
+      - **First Name** and **Last Name**
+      - **Email**
+      - **Phone Number**
 
    - By default, the **Status** of the account is `Active`.
 
@@ -49,9 +51,9 @@ To save time during their first order, the company administrator can remind each
 ![]({% link images/images-b2b/customer-account-company-users-list.png %}){: .zoom}
 _List of Company Users_
 
-## To remove a company user:
+## Remove a company user
 
-Company users can be removed only by the company admin. Once deleted, the action cannot be reversed. The user is removed from the company structure.
+Company users can be removed only by the company administrator, and the removal cannot be reversed. The user is removed from the company structure.
 
 1. Select the company user in the company structure.
 
@@ -62,9 +64,9 @@ Company users can be removed only by the company admin. Once deleted, the action
 
 1. When prompted to confirm, click <span class="btn">Delete</span>.
 
-From the Admin, the company user continues to be listed in the [Customers]({% link customers/customers-all.md %}) grid, but with an `Inactive` status.
+In the Admin, the company user continues to be listed in the [Customers]({% link customers/customers-all.md %}) grid, but with an `Inactive` status.
 
-## Field Descriptions
+## Field descriptions
 
 | Field        | Description |
 |--------------|---------------|

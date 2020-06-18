@@ -4,6 +4,8 @@ title: Using Adobe Stock Images
 
 [Adobe Stock][adobe-stock] images can be used in place of uploading your own image content. One common use case is, when creating a new page, it is desirable to upload and place image content.
 
+The [Enhanced Media Gallery]({% link cms/enhanced-media-gallery.md %}) provides a direct integration with Adobe Stock, making it easy to license your images directly from the gallery page.
+
 ## Access the Adobe Stock search grid
 
 The Adobe Stock search panel is accessible when you [add or edit a page]({% link cms/page-add.md %}), when you [create or edit a category]({% link catalog/category-create.md %}), or when you [insert images via the Content Editor]({% link cms/editor-insert-image.md %}).
@@ -146,53 +148,6 @@ store.
 
 You can save two types of images: an [image preview][save-preview] or a [licensed image][save-licensed].
 
-#### Save an Image Preview
-
-An image preview is a watermarked version of an Adobe Stock asset. Image previews are free and are a good way to experiment with different images before you
-decide to purchase a license for specific images and use them on your production stores.
-
-1. [Access the Adobe Stock Search grid][access-search].
-
-1. Click an image in the search grid in order to [view the image details][view-details].
-
-1. Click <span class="btn">Save Preview</span>.
-
-    This displays a prompt for you to specify a file name that is used to save the image to the [Media Storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
-
-    ![Save Adobe Stock preview image]({% link images/images/adobe-stock/save-preview.png %}){: .zoom}
-    _Save the preview image_
-
-1. Click <span class="btn">Confirm</span>.
-
-    The page redirects to the [Media Storage][media-storage] and your saved preview is displayed.
-
-#### Save a Licensed Image
-
-Adobe Stock assets that you want to use for your production Magento stores should be licensed to ensure you have legal access to the image as well as to
-eliminate the Adobe Stock watermark that is present on all [image previews][save-preview]. To license images or to save already-licensed images, you must be logged in to your Adobe account.
-
-1. [Log in to your Adobe account][log-in-to-adobe-account].
-
-1. Click an image in the search grid in order to [view the image details][view-details].
-
-1. Depending on the current licensing status of the image, do one of the following:
-
-    - If the image is already licensed, click <span class="btn">Save</span>.
-
-    - If the image is _not_ licensed, click <span class="btn">License and Save</span>.
-
-       {:.bs-callout-info}
-       You must have available [Adobe Stock credits][stock-credits] in your account to license the image.
-
-    This displays a prompt for you to specify a file name that is used to save the image to the [Media Storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
-
-    ![Save Adobe Stock licensed image]({% link images/images/adobe-stock/save-licensed.png %}){: .zoom}
-    _Save the licensed image_
-
-1. Click <span class="btn">Confirm</span>.
-
-    The page redirects to the [Media Storage][media-storage] and your saved preview is displayed.
-
 [adobe-stock]: https://stock.adobe.com
 [media-storage]: {% link cms/media-storage.md %}
 [access-search]: #access-the-adobe-stock-search-grid
@@ -202,6 +157,6 @@ eliminate the Adobe Stock watermark that is present on all [image previews][save
 [adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
 [licensed-state]: #view-the-licensed-state-of-search-results
 [save-to-media-storage]: #save-images-to-the-media-storage
-[save-preview]: #save-an-image-preview
-[save-licensed]: #save-a-licensed-image
+[save-preview]: {% link cms/adobe-stock-save-preview.md %}
+[save-licensed]: {% link cms/adobe-stock-license-image.md %}
 [stock-credits]: https://helpx.adobe.com/stock/help/credit-packs.html

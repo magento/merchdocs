@@ -8,7 +8,7 @@ For registered customers who need assistance, you can create an entire order dir
 ![]({% link images/images/customer-create-new-order.png %}){: .zoom}
 _Create New Order_
 
-## Step 1: Create a new order:
+## Step 1: Create a new order
 
 1. On the _Admin_ sidebar, click **Customers**.
 
@@ -18,30 +18,30 @@ _Create New Order_
 
 1. In the workspace header, click **Create Order**.
 
-    ![]({% link images/images/order-create-buttons.png %}){: .zoom}
-    _Workspace header_
+   ![]({% link images/images/order-create-buttons.png %}){: .zoom}
+   _Workspace header_
 
 ## Step 2: Add products
 
 If your store has multiple views, choose the store view where the order is to be placed.
 
-### To add products from the Customer’s Activities section:
+### Add products from the Customer’s Activities section
 
-1. Select the checkbox of each product in the panel on the left.
+1. Select the checkbox of each product in the left panel.
 
 1. Scroll down and click **Update Changes**.
 
-    The item appears in the order form.
+   The item appears in the order form.
 
-    ![]({% link images/images/customer-account-create-order-add-from-wishlist.png %}){: .zoom}
-    _Add to Cart_
+   ![]({% link images/images/customer-account-create-order-add-from-wishlist.png %}){: .zoom}
+   _Add to Cart_
 
-### To add products from the catalog:
+### Add products from the catalog
 
 1. Click <span class="btn">Add Products</span>.
 
-    ![]({% link images/images/customer-account-add-product-from-wishlist.png %}){: .zoom}
-    _Add Products_
+   ![]({% link images/images/customer-account-add-product-from-wishlist.png %}){: .zoom}
+   _Add Products_
 
 1. In the grid, select the checkbox of each product to be added to the cart and enter the **Qty** to be purchased.
 
@@ -50,29 +50,29 @@ If your store has multiple views, choose the store view where the order is to be
 
 1. Configure available product options:
 
-    - Click **Configure**.
+   - Click **Configure**.
 
-    - Complete the options as needed.
+   - Complete the options as needed.
 
-    - Click <span class="btn">OK</span>.
+   - Click <span class="btn">OK</span>.
 
-    - Click <span class="btn">Add Selected Product(s) to Order</span> to update the cart.
+   - Click <span class="btn">Add Selected Product(s) to Order</span> to update the cart.
 
 1. Override the price of an item if necessary:
 
-    - Select the **Custom Price** checkbox and enter the new price in the box below.
+   - Select the **Custom Price** checkbox and enter the new price in the box below.
 
-    - To update the cart totals, click <span class="btn">Update Items and Quantities</span>.
+   - To update the cart totals, click <span class="btn">Update Items and Quantities</span>.
 
-    ![]({% link images/images/customer-account-create-order-custom-price.png %}){: .zoom}
-    _Custom Price_
+   ![]({% link images/images/customer-account-create-order-custom-price.png %}){: .zoom}
+   _Custom Price_
 
 1. Complete the following sections as needed for the order:
 
-    - Apply Coupon Codes
-    - Payment Method
-    - Shipping Method
-    - Order Comments
+   - Apply Coupon Codes
+   - Payment Method
+   - Shipping Method
+   - Order Comments
 
 ## Step 3: Submit the order
 

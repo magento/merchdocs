@@ -7,5 +7,5 @@ Magento [cron]({% link system/cron.md %}) jobs can be used to schedule the follo
 - [Pending Payment Order Lifetime]({% link sales/order-pending-payment-lifetime.md %})
 - [Scheduled Grid Updates]({% link sales/order-grid-updates-schedule.md %})
 
-![]({% link images/images/orders-grid.png %}){: .zoom}
-_Orders Grid with Pending Orders_
+![]({% link images/images-ee/orders.png %}){: .zoom}
+_Orders Grid_

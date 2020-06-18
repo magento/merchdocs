@@ -16,11 +16,13 @@ The system has one predefined Default User role, which you can use “as is" or 
 
 -  **Assistant Buyer** — An assistant buyer might have permission to place an order using Checkout with Quote, and to view orders, quotes, and information in the company profile.
 
-## To manage roles and permissions:
+## Manage roles and permissions
 
 1. Sign in to your store account as the company administrator.
 
-1. In the panel on the left, choose **Roles and Permissions**. Then, do any of the following:
+1. In the left panel, choose **Roles and Permissions**.
+
+1. Complete any of the following tasks.
 
 ### Create a role
 
@@ -72,7 +74,7 @@ The system has one predefined Default User role, which you can use “as is" or 
 
 ## Actions
 
-| Field     | Description                                                                                              |
+| Action    | Description                                                                                              |
 |-----------|----------------------------------------------------------------------------------------------------------|
 | Duplicate | Creates a copy of the selected role. The name of the duplicate role has `- Duplicated` added to the end. |
 | Edit      | Change the name and/or set of permissions.                                                               |

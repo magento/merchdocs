@@ -33,7 +33,6 @@ _Orders_{:.ee-only}
 |Grand Total (Purchased)|The grand total of products purchased in the order.|
 |Status|The current order status.|
 |Action|View - Opens the order in edit mode.|
-|Signifyd Guarantee Decision|If enabled, [Signifyd]({% link sales/fraud-protection-signifyd.md %}) automatically reviews your orders for fraud, and indicates which orders to ship, and which to reject.|
 
 ### Additional Columns Available
 

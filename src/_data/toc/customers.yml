@@ -113,7 +113,7 @@ pages:
   - label: Creating a Company Account
     url: "/customers/account-company-create.html"
     children:
-    - label: Company Admin
+    - label: Company Administrator
       url: "/customers/account-company-admin.html"
     - label: Sales Representative
       url: "/customers/account-company-sales-representative.html"
