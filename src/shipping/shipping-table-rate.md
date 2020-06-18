@@ -165,7 +165,7 @@ This example uses the Weight v. Destination condition to create different shippi
 1. Complete the table rate configuration with the following settings:
 
    | Setting | Value |
-   |----------
+   |----------|-------|
    | Condition | Price v. Destination |
    | Method Name | Free Shipping |
    | Ship to Applicable Countries | Specific Countries |
