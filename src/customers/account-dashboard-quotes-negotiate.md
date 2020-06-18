@@ -11,13 +11,8 @@ When a quote is opened, the prices are verified to reflect the current shared ca
 
 1. Do one of the following:
 
-<<<<<<< HEAD
    -  If you are already logged in to your account,  link in the email.
    -  Log in to your account.
-=======
-    - If you are already logged in to your account, click the link in the email.
-    - Log in to your account.
->>>>>>> core-2.4.0-community
 
 1. In the account sidebar, choose **My Quotes**.
 
@@ -101,11 +96,7 @@ Make any of the following changes to the quote:
 
    You can repeat the negotiation process as many times as necessary to reach an agreement.
 
-<<<<<<< HEAD
 ## Step 4 (Regular order): Place the Order
-=======
-## Step 4: Place the order
->>>>>>> core-2.4.0-community
 
 1. To complete the purchase, click <span class="btn">Proceed to Checkout</span>.
 
@@ -116,7 +107,6 @@ Make any of the following changes to the quote:
     ![]({% link images/images-b2b/quote-checkout-order-summary.png %}){: .zoom}
     _Order Summary with Negotiated Price_
 
-<<<<<<< HEAD
 ## Step 4 (Purchase order): Place the Order
 
 When Purchase Orders are enabled for the company, orders are automatically made into Purchase Orders. This requires the purchase order to go through any defined approval process.
@@ -126,9 +116,6 @@ When Purchase Orders are enabled for the company, orders are automatically made 
 1. Then, follow the [purchase order process](https://docs.magento.com/m2/b2b/user_guide/payment/purchase-order.html).
 
 ## Field Descriptions
-=======
-## Field descriptions
->>>>>>> core-2.4.0-community
 
 |Field|Description|
 |--- |--- |
