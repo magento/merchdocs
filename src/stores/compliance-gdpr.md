@@ -33,7 +33,7 @@ Businesses that comply with GDPR might have additional obligations under the CCP
 
 - Examine the current [privacy policies]({% link stores/privacy-policy.md %}) for all of your Magento stores to ensure that they align with any applicable legal requirements (including, but not limited to GDPR and CCPA).
 
-- Update your your [Google settings]({% link stores/compliance-privacy-google.md %}) to ensure that they align with your legal obligations regarding the use of personal data.
+- Update your [Google settings]({% link stores/compliance-privacy-google.md %}) to ensure that they align with your legal obligations regarding the use of personal data.
 
 - Maintain transparency, and keep thorough documentation.
 
