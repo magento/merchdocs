@@ -5,7 +5,7 @@ group: operations
 sections:
   - title: Manage Stock Aggregates
     content: This category includes information about adding, editing, and managing stock aggregates for your OMS.
-    url: /mcom/manage-stock aggregates.html
+    url: /mcom/manage-stock-aggregates.html
 
   - title: Message Log
     content: This category includes information about viewing message processing logs, message history, and full error traces for the Connector.
