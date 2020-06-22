@@ -9,10 +9,12 @@ _My Orders_{:.ee-only}
 
 ## View an order
 
-Find the order in the list and click **View Order**. From the open order, do any of the following:
+Find the order in the list and click **View Order** in the _Action_ column.
 
 ![]({% link images/images-ee/customer-account-order-items-ordered.png %}){: .zoom}
 _View Order_{:.ee-only}
+
+From the open order, do any of the following:
 
 ### Reorder
 
@@ -24,20 +26,22 @@ _View Order_{:.ee-only}
 
 1. Click **Print Order**.
 
-1. Verify the output device, or choose another.
+1. Verify the output device or choose another.
 
 1. Click <span class="btn">Print</span>.
 
-    ![]({% link images/images/customer-account-print-order.png %}){: .zoom}
-    _Print Order_
+   ![]({% link images/images/customer-account-print-order.png %}){: .zoom}
+   _Print Order_
 
 ### Print invoices
 
-1. On the **Invoices** tab, click one of the following:
+1. Click the **Invoices** tab.
 
-    - Print All Invoices
+1. Click one of the following:
 
-    - Print Invoice
+   - **Print All Invoices**
+
+   - **Print Invoice**
 
 1. Verify the output device or choose another.
 
@@ -48,11 +52,13 @@ _View Order_{:.ee-only}
 
 ### Print shipments
 
-1. On the **Order Shipments** tab, click one of the following:
+1. Click the **Order Shipments** tab.
 
-    - Print All Shipments
+1. Click one of the following:
 
-    - Print Shipment
+   - **Print All Shipments**
+
+   - **Print Shipment**
 
 1. Verify the output device or choose another.
 
@@ -63,19 +69,20 @@ _View Order_{:.ee-only}
 
 ### Track a shipment
 
-1. On the **Order Shipments** tab, click **Track this Shipment**.
-
-1. Any tracking information that is available appears in a popup window.
+1. Click the **Order Shipments** tab.
+   Any tracking information that is available appears in a popup window.
 
 1. When ready, <span class="btn">Close Window</span>.
 
 ### Print refunds
 
-1. On the **Refunds** tab, click one of the following:
+1. Click the **Refunds** tab.
 
-    - Print All Refunds
+1. Click one of the following:
 
-    - Print Refund
+   - **Print All Refunds**
+
+   - **Print Refund**
 
 1. Verify the output device or choose another.
 

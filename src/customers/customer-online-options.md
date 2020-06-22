@@ -11,18 +11,18 @@ If [Persistent Cart]({% link sales/cart-persistent.md %}) is enabled, the cart c
 
 On the server, the length of the session is controlled by `php.ini`, and several variables. At this time, Magento does not have an Admin configuration setting that controls the length of the server session.
 
-## To configure the cookie lifetime:
+## Configure the cookie lifetime
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. If you have multiple stores, set the **Store View** chooser in the upper-right corner to the store where the configuration applies.
 
-1. In the panel on the left under **General**, choose **Web**.
+1. In the left panel under **General**, choose **Web**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Default Cookie Settings** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Default Cookie Settings** section.
 
-      ![]({% link images/images/config-general-web-default-cookie-settings.png %}){: .zoom}
-      [_Default Cookie Settings_]({% link configuration/general/web.md %})
+   ![]({% link images/images/config-general-web-default-cookie-settings.png %}){: .zoom}
+   [_Default Cookie Settings_]({% link configuration/general/web.md %})
 
 1. To change the default, clear the **Use system value** checkbox and enter the new value in seconds.
 

@@ -83,7 +83,7 @@ The [sales representative]({% link customers/account-company-sales-representativ
         |Bcc|Sends a _blind courtesy copy_ by including the recipient in the header of the same email that is sent to the customer. The BCC recipient is not visible to the customer.|
         |Separate Email|Sends the copy as a separate email.|
 
-   - If you have prepared email templates to be used instead of the defaults, choose the template for each of the following notifications that are sent to the Company Admin.
+   - If you have prepared email templates to be used instead of the defaults, choose the template for each of the following notifications that are sent to the company administrator.
 
       - **Allocated Email Template**
       - **Updated Email Template**

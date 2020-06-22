@@ -285,8 +285,6 @@ pages:
     - label: Web Setup Wizard
       url: "/system/web-setup-wizard.html"
       children:
-      - label: Extension Manager
-        url: "/system/web-setup-extension-manager.html"
       - label: Module Manager
         url: "/system/web-setup-module-manager.html"
       - label: System Upgrade
