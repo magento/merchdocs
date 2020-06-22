@@ -164,7 +164,10 @@
     url: /system/system.html
 
   - label: Reports
-    url: /reports.html
+    url: /reports.html.
+
+  - label: MCOM
+    url: /mcom.html
 
 - label: Configuration Reference
   url: /stores/configuration.html
