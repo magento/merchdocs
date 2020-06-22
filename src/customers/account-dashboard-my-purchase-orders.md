@@ -2,6 +2,7 @@
 title: My Purchase Orders
 ---
 
+When Purchase Orders are enabled for a store, all orders are automatically created as Purchase Orders (PO).
 Company Users with Purchase Order permissions can create, edit and delete POs created by themselves and subordinate users.
 
 While logged into the store, click 'My Purchase Orders' on the Quick Link menu.
@@ -10,12 +11,12 @@ By default, there are three tabs with different purchase orders:
 
 *  My Purchase Orders: POs created by you.
 *  Company Purchase Orders: POs made by subordinate users within your Company (depends on ACL settings).
-*  Requires My Approval: POs that are waiting for your approval. The counter shows how many orders are waiting for approval.
+*  Requires My Approval: POs that are waiting for your approval. The counter shows how many orders are awaiting approval.
 
 Click 'View' for the PO you wish to see.
 
 From the View Purchase Order page, you can manage the PO, depending on your Role permissions.
-You can also click the Comments tab to see any comments about this PO and the History Log tab for a complete order history.
+Click the Comments tab to see any comments about this PO and the History Log tab for a complete order history.
 
 ## Create a new purchase order from existing purchase prder
 
