@@ -1,12 +1,12 @@
 ---
-title: Enhanced Media Gallery
+title: The New Media Gallery
 ---
 
-Merchants can use the Enhanced Media Gallery to organize and manage their media files on the server. The Enhanced Media Gallery contains the same functionalities as the Media Storage with an improved user interface and a closer integration with [Adobe Stock][adobe-stock].
+With Magento 2.4, merchants can use the new _enhanced_ Media Gallery to organize and manage their media files on the server. This new Media Gallery contains the same functionalities as the existing Media Storage, but includes an improved user interface and a closer integration with [Adobe Stock][adobe-stock].
 
-![Enhanced Media Gallery Grid]({% link images/images/enhanced-media-gallery/gallery-grid.png %}){: .zoom}
+![Media Gallery Grid]({% link images/images/enhanced-media-gallery/gallery-grid.png %}){: .zoom}
 
-## Enable the Enhanced Media Gallery
+## Enable the new Media Gallery
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -18,17 +18,17 @@ Merchants can use the Enhanced Media Gallery to organize and manage their media 
 
 1. Click the <span class="btn">Save Config</span> button.
 
-## Access the Enhanced Media Gallery
+## Access the new Media Gallery
 
-The Enhanced Media Gallery is accessible through the [Content menu][content-menu] or when you [add or edit a page][add-page], when you [create or edit a category][create-category], or when you [insert images via the Content Editor][editor-insert-image].
+The new Media Gallery is accessible through the [Content menu][content-menu] or when you [add or edit a page][add-page], when you [create or edit a category][create-category], or when you [insert images via the Content Editor][editor-insert-image].
 
 {:.procedure}
-To access the Enhanced Media Gallery through the Content menu:
+To access the new Media Gallery through the Content menu:
 
 - On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
 
 {:.procedure}
-To access the Enhanced Media Gallery when you are adding or editing a page:
+To access the new Media Gallery when you are adding or editing a page:
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Pages**.
 

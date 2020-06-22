@@ -5,13 +5,13 @@ title: License an Adobe Stock Image
 Adobe Stock assets that you want to use for your production Magento stores should be licensed to ensure you have legal access to the image as well as to
 eliminate the Adobe Stock watermark that is present on all [image previews][save-preview]. To license images or to save already-licensed images, you must be logged in to your Adobe account.
 
-The [Enhanced Media Gallery]({% link cms/enhanced-media-gallery.md %}) provides a direct integration with Adobe Stock, making it easy to license your images directly from the gallery page.
+The new [Media Gallery]({% link cms/media-gallery.md %}) provides a direct integration with Adobe Stock, making it easy to license your images directly from the gallery page.
 
 ## Prerequisites
 
 This feature requires the [Adobe Stock Integration][adobe-stock-integration] module and configuration. In order to license [Adobe Stock][adobe-stock] images, a paid Adobe Stock plan and an [Adobe account][adobe-signin] are also required.
 
-## License an image from the Enhanced Media Gallery
+## License an image from the new Media Gallery
 
 1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
 

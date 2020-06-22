@@ -212,7 +212,7 @@ _Enhanced Media Gallery_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enabled|Global|Enables or disables the Enhanced Media Gallery.|
+|Enabled|Global|Enables or disables the new Media Gallery.|
 
 [1]: https://en.wikipedia.org/wiki/Sendmail
 [2]: https://magento.com/security/news/new-zend-framework-1-security-vulnerability

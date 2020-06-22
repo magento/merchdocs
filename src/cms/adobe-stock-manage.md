@@ -4,7 +4,7 @@ title: Using Adobe Stock Images
 
 [Adobe Stock][adobe-stock] images can be used in place of uploading your own image content. One common use case is, when creating a new page, it is desirable to upload and place image content.
 
-The [Enhanced Media Gallery]({% link cms/enhanced-media-gallery.md %}) provides a direct integration with Adobe Stock, making it easy to license your images directly from the gallery page.
+The new [Media Gallery]({% link cms/media-gallery.md %}) provides a direct integration with Adobe Stock, making it easy to license your images directly from the gallery page.
 
 ## Access the Adobe Stock search grid
 
