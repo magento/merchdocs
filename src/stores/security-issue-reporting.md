@@ -29,7 +29,7 @@ The `security.txt` file contains contact information and security-related links 
 
    - The URL of an **Acknowledgements** page where security researchers are recognized for their efforts on behalf of your store.
 
-   - Your **Preferred Languages** for security-related communications. Enter the standard two-character [language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for each supported language, separated by a comma. For example, to specify English, Spanish, and French, enter `en, es, fr` All specified languages have the same priority, regardless of their order of appearance.
+   - Your **Preferred Languages** for security-related communications. Enter the standard two-character [language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for each supported language, separated by a comma. For example, to specify English, Spanish, and French, enter `en, es, fr`. All specified languages have the same priority, regardless of their order of appearance.
 
    - The URL of a **Hiring** page that lists security-related employment opportunities with your store.
 
