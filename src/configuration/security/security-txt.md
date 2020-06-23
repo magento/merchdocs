@@ -11,7 +11,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Secu
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enable|Website|When enabled, a `security.txt` file is saved that contains information that is needed by security researchers to report potential vulnerabilities to you. Options:<br /> Yes - Creates the `security.txt` file based on information entered in the `Contact information` and `Other information` sections.<br />No - (default) Does not create the `security.txt` file.|
+|Enable|Website|When enabled, a `security.txt` file is saved that contains information that is needed by security researchers to report potential vulnerabilities to you. Options:<br />**Yes** - Creates the `security.txt` file based on information entered in the _Contact information_ and _Other information_ sections.<br />**No** - (default) Does not create the `security.txt` file.|
 
 ## Contact information
 
