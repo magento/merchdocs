@@ -48,6 +48,8 @@ pages:
   children:
   - label: 2FA
     url: "/configuration/security/2fa.html"
+  - label: Security.txt
+    url: "/configuration/security/security-txt.html"
   - label: Google reCAPTCHA
     url: "/configuration/security/google-recaptcha.html"
 - label: Customers

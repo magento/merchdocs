@@ -238,6 +238,8 @@ pages:
       url: "/stores/security-session-validation.html"
     - label: Browser Capabilities Detection
       url: "/stores/security-browser-capabilities-detection.html"
+    - label: Security Issue Reporting
+      url: "/stores/security-issue-reporting.html"
   - label: Tools
     url: "/system/tools.html"
     children:
