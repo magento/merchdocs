@@ -37,7 +37,7 @@ The `security.txt` file contains contact information and security-related links 
 
    - The URL of a digital **Signature** file that is saved on your server. For example:`https://mystore.com/.well-known/security.txt.sig`
 
-   The digital signature must be set up from the CLI (command line interface) of the server. To learn more, see: [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) on GitHub.
+   The digital signature must be set up from the CLI (command line interface) of the server. To learn more, see [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) on GitHub.
 
    ![]({% link images/images/config-security-txt-other-info.png %}){: .zoom}
    [_Other Information_]({% link configuration/security/security-txt.md %})
