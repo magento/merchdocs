@@ -4,10 +4,10 @@ redirect_from:
   - /system/variables-custom.html
 ---
 
-To meet the specific needs of your business, you can create custom variables and insert them into [pages]({% link cms/pages.md -%}), [blocks]({% link cms/blocks.md -%}) and [email]({% link marketing/email-template-message.md %}) templates. The list of whitelisted variables that appears when you click the Insert Variable button includes both [predefined]({% link marketing/variables-predefined.md %}) and custom variables. As shown in the following image, the list of available variables for a specific email template is determined by the data that is associated with the template. See the [Variable Reference]({% link marketing/variables-reference.md -%}) for a list of frequently-used email templates and their associated variables.
+To meet the specific needs of your business, you can create custom variables and insert them into [pages]({% link cms/pages.md -%}), [blocks]({% link cms/blocks.md -%}) and [email]({% link marketing/email-template-message.md %}) templates. The list of allowed variables that appears when you click the Insert Variable button includes both [predefined]({% link marketing/variables-predefined.md %}) and custom variables. As shown in the following image, the list of available variables for a specific email template is determined by the data that is associated with the template. See the [Variable Reference]({% link marketing/variables-reference.md -%}) for a list of frequently-used email templates and their associated variables.
 
 {:.bs-callout-info}
-Only whitelisted [predefined]({% link marketing/variables-predefined.md %}) or custom variables can be used in email and newsletter templates.
+Only allowed [predefined]({% link marketing/variables-predefined.md %}) or custom variables can be used in email and newsletter templates.
 
 ## Step 1: Create a custom variable
 

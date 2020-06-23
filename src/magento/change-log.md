@@ -114,7 +114,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Klarna]({% link payment/klarna.md %})<br />[Setting Up Klarna]({% link payment/klarna-setup.md %})<br/>[Klarna]({% link configuration/sales/klarna.md %}) (reference)|Updated Changes In the Latest Release and configuration section titles and field labels.|
 |[Yotpo Product Reviews]({% link marketing/yotpo-reviews-intro.md %})<br/>[Yotpo Default Settings]({% link marketing/yotpo-settings.md %})<br/>[Reviews and Visual Marketing]({% link configuration/yotpo/reviews-visual-marketing.md %}) (reference)|Updated content for release enhancements and fixes for Yotpo product reviews.|
 |[Product Listing Condition]({% link sales-channels/asc/product-listing-condition.md %})|Added a note and link related to the Amazon Renewed Products Program.|
-|[Adding Predefined Variables]({% link marketing/variables-predefined.md %})<br/>[Adding Custom Variables]({% link marketing/variables-custom.md %})<br/>[Message Templates]({% link marketing/email-template-message.md %})|Updated the content to reflect the new constraints for adding variables to pages, blocks, and email templates. From the _Admin_, whitelisted variables must always be selected from a list, rather than added directly to the HTML.|
+|[Adding Predefined Variables]({% link marketing/variables-predefined.md %})<br/>[Adding Custom Variables]({% link marketing/variables-custom.md %})<br/>[Message Templates]({% link marketing/email-template-message.md %})|Updated the content to reflect the new constraints for adding variables to pages, blocks, and email templates. From the _Admin_, allowed variables must always be selected from a list, rather than added directly to the HTML.|
 
 ## March 2020
 

@@ -12,9 +12,9 @@ See [Locate templates, layouts, and styles][1]{:target="_blank"} in the develope
 ![Example storefront - template path hints]({% link images/images/storefront-template-path-hints.png %}){: .zoom}
 _Template Path Hints in Storefront_
 
-## Step 1: Whitelist your IP address
+## Step 1: Add your IP address to the allow list
 
-Before using template path hints, add your IP address to the [whitelist]({% link system/developer-client-restrictions.md %}) to avoid interference with customers who are shopping in the store. When you are finished, make sure to clear the Magento cache to remove all hints from the store.
+Before using template path hints, add your IP address to the [allow list]({% link system/developer-client-restrictions.md %}) to avoid interference with customers who are shopping in the store. When you are finished, make sure to clear the Magento cache to remove all hints from the store.
 
 ![Advanced configuration - developer client restrictions]({% link images/images/config-advanced-developer-developer-client-restrictions.png %}){: .zoom}
 [_Developer Client Restrictions_]({% link configuration/advanced/developer.md %})
