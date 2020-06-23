@@ -2,7 +2,7 @@
 title: Security Issue Reporting
 ---
 
-The `security.txt` file contains contact information and security-related links that can be used by security researchers to report security concerns about your site. If your security information changes over time, ensure that the information in the `security.txt` file is up to date. 
+The `security.txt` file contains contact information and security-related links that can be used by security researchers to report security concerns about your site. If your security information changes over time, ensure that the information in the `security.txt` file is up to date.
 
 ## Configure security.txt
 
