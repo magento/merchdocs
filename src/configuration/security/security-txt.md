@@ -23,6 +23,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Secu
 |Email|Website|The email address where security reports can be sent.|
 |Phone|Website|A phone number that can be used to report security concerns.|
 |Contact Page|Website|The URL of a page on your site that lists security contacts, or your _Contact Us_ page. Examples: `https://mystore.com/security-contact.html`or `https://mystore.com/contact/`|
+
 ## Other information
 
 ![]({% link images/images/config-security-txt-other-info.png %}){: .zoom}
