@@ -6,7 +6,7 @@ title: Add Product Recommendations
 Use the Product Recommendations content type to add an existing, active [recommendation unit]({% link marketing/create-new-rec.md %}) to a page, block, or dynamic block.
 
 {:.bs-callout-info}
-The Product Recommendations content type in Page Builder is supported in Magento 2.3.1 and later.
+The Product Recommendations content type in Page Builder is supported in Magento 2.3.1 and later and available in the [Product Recommendations module 3.0.x or later](https://marketplace.magento.com/magento-product-recommendations.html).
 
 ## Add an existing recommendation unit
 
