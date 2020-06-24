@@ -16,7 +16,7 @@ Check your shipping carrier configuration for any additional settings that may b
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Free Shipping** section.
 
    {:.bs-callout-info}
-   If necessary, first deselect the **Use system value** checkbox to change the following settings as described.  
+   If necessary, first deselect the **Use system value** checkbox to change the following settings as described.
 
 1. Set **Enabled** to `Yes`.
 
@@ -39,9 +39,9 @@ Check your shipping carrier configuration for any additional settings that may b
 
 1. Set **Ship to Applicable Countries**:
 
-    * `All Allowed Countries` – Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use free shipping.
+   * `All Allowed Countries` – Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use free shipping.
 
-    * `Specific Countries` – After choosing this option, the Ship to Specific Countries list appears. Select each country in the list where free shipping can be used.
+   * `Specific Countries` – After choosing this option, the Ship to Specific Countries list appears. Select each country in the list where free shipping can be used.
 
 1. Set **Show Method if Not Applicable**:
 

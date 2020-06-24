@@ -65,7 +65,7 @@ The first step is to complete the default settings for table rates. You can comp
 
 1. If needed, change the **Displayed Error Message**.
 
-   This text box is preset with a default message, but you can enter a different message that you want to appear if this delivery method becomes unavailable. 
+   This text box is preset with a default message, but you can enter a different message that you want to appear if this delivery method becomes unavailable.
 
 1. Set **Ship to Applicable Countries**:
 

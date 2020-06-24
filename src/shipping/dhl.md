@@ -52,7 +52,7 @@ _[DHL Account Settings]({% link configuration/sales/delivery-methods.md %})_
       - `Per Package`
 
    - For **Handling Fee**, enter the amount to be charged, based on the method you have chosen to calculate the amount.
-  
+
       For example, if the charge is based on a fixed fee, enter the amount as a decimal, such as `4.90`. However, if the handling fee is based on a percentage of the order, enter the amount as a percentage. For example, if you are charging six percent of the order, enter the value as `.06`.
 
    - To allow the total order weight to be broken up to ensure an accurate calculation of shipping charges, set **Divide Order Weight** to `Yes`.
