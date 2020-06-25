@@ -11,7 +11,7 @@ When a quote is opened, the prices are verified to reflect the current shared ca
 
 1. Do one of the following:
 
-   -  If you are already logged in to your account,  link in the email.
+   -  If you are already logged in to your account, click the link in the email.
    -  Log in to your account.
 
 1. In the account sidebar, choose **My Quotes**.
