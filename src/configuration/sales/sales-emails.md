@@ -155,7 +155,6 @@ _[Quotes]({% link customers/account-dashboard-quotes.md %})_
 | Comment added to Purchase Order | Store View | Sends an email to the creator when a comment has been added to the PO. |
 | Error creating Order from Purchase Order (to Buyer) | Store View | Notifies creator that an error occurred when converting a PO to an order.|
 | Purchase Order required Approval (to Approver) | Store View | Sends an email to notify the approver that the purchase order requires their approval. |
-<!--{% endif %}-->
 <!--{% if "Default.EE Only" contains site.edition %}-->
 ## RMA
 
