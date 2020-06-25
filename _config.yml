@@ -110,6 +110,11 @@ defaults:
       group: operations
   -
     scope:
+      path: mcom
+    values:
+      group: operations
+  -
+    scope:
       path: sales
     values:
       group: sales

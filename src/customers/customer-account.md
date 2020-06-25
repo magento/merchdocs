@@ -4,7 +4,8 @@ title: Customer Accounts
 
 The header of every page in your store extends an invitation for shoppers to _Log in or register_ for an account with your store. Customers who open an account enjoy a range of benefits, including:
 
-- {:.b2b-only}**Create Individual or Company Account** — Depending on the configuration, a visitor to your store can choose to create either an individual or company account.
+- **Create customer account** — Visitors can create a new customer account so that they can use the storefront as a registered customer.
+- {:.b2b-only}**Create Individual or Company Account** Depending on the configuration, a visitor to your store can choose to create either an individual or company account.
 - **Faster checkout** — Registered customers move through checkout faster because much of the information is already in their accounts.
 - **Self service** — Registered customers can update their information, check the status of orders, and even reorder from their accounts.
 
@@ -16,7 +17,7 @@ _My Account_{:.ee-only}
 {:.b2b-only}
 ## Account types
 
-For B2B installations of Magento Commerce, there are two basic types of accounts that can be created: Individual and [company]({% link customers/account-companies.md %}) accounts.
+With B2B features enabled, there are two basic types of accounts that can be created:
 
 - Individual — An [individual]({% link customers/account-create.md %}) customer account is similar to a standard Magento customer account.
 - Company — A [company]({% link customers/account-companies.md %}) account can be set up as a structure with teams od multiple users.
@@ -24,4 +25,4 @@ For B2B installations of Magento Commerce, there are two basic types of accounts
 |Field|Description|
 |--- |--- |
 |Individual User|An individual customer account is similar to a standard Magento customer account.|
-|Company|A [company]({% link customers/account-companies.md %}) account can be set up as a structure of divisions, subdivisions with multiple users. Companies can be enabled or disabled for each store. Some B2B features, such as Shared Catalog and Quotes are available only for Company accounts. <br/>**Company Admin** - The Company Admin is responsible to build the company structure that is needed for the customer account, and define the roles and permissions for  Admin users. The Company Admin is set up when creating a company account, but is represented as an individual account in the system. <br/>**Company User** - Company users are authorized to make purchases on behalf of the company, and team, division, or subdivision to which they are associated. Company user accounts are set up by the Company Admin, and are represented as individual accounts in the system.|
+|Company|A [company]({% link customers/account-companies.md %}) account can be set up as a structure of divisions, subdivisions with multiple users. Companies can be enabled or disabled for each store. Some B2B features, such as Shared Catalog and Quotes are available only for Company accounts. <br/>**Company Admin** - The company administrator is responsible to build the company structure that is needed for the customer account, and define the roles and permissions for  Admin users. The company administrator is set up when creating a company account, but is represented as an individual account in the system. <br/>**Company User** - Company users are authorized to make purchases on behalf of the company, and team, division, or subdivision to which they are associated. Company user accounts are set up by the company administrator, and are represented as individual accounts in the system.|
