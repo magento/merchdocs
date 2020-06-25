@@ -10,7 +10,7 @@ For instance:
 *  Any PO over X value must be approved by Y and Z.
 *  Anyone making a PO at the Director level or above are automatically approved.
 
-Magneto lets you set up these rules to enforce company policies.
+Magento lets you set up these rules to enforce company policies.
 
 To create rules, users with role permissions have an 'Approval Rules' link in the left nav bar.
 Permissions to create rules are set in the Roles and Permissions page in the left nav bar.
