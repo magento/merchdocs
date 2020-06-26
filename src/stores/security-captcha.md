@@ -2,7 +2,7 @@
 title: CAPTCHA
 ---
 
-A CAPTCHA is a visual device that ensures that a human being, rather than a computer, is interacting with the site. CAPTCHA is an acronym for _Completely Automated Public Turing test to tell Computers and Humans Apart_. It can be used for both Admin and customer account logins.
+A CAPTCHA is a visual device that ensures that a human being, rather than a computer, is interacting with the site. CAPTCHA is an acronym for _Completely Automated Public Turing test to tell Computers and Humans Apart_. It can be used for both Admin and customer account logins. Magento supports the standard CAPTCHA that is described in this topic, and also [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).
 
 You can reload the CAPTCHA as many times as is necessary by clicking the Reload icon in the upper-right corner of the image. The CAPTCHA is fully configurable and can be set appear every time, or only after a number of failed login attempts.
 
