@@ -205,8 +205,6 @@ pages:
     url: "/configuration/services/saas.html"
   - label: OAuth
     url: "/configuration/services/oauth.html"
-  - label: Channels
-    url: "/configuration/services/channels.html"
 - label: Advanced
   url: "/configuration/advanced.html"
   children:
