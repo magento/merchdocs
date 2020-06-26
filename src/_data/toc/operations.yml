@@ -327,3 +327,17 @@ pages:
     children:
       - label: New Relic Queries
         url: "/reports/new-relic-queries.html"
+- label: MCOM
+  url: "/mcom.html"
+  edition: ee-only
+  children:
+  - label: MCOM Menu
+    url: "/mcom/mcom-menu.html"
+  - label: Manage Stock Aggregates
+    url: "/mcom/manage-stock-aggregates.html"
+  - label: Message Log
+    url: "/mcom/message-log.html"
+  - label: Integration
+    url: "/mcom/integration.html"
+  - label: Changelog
+    url: "/mcom/changelog.html"

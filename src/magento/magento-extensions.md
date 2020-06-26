@@ -31,13 +31,6 @@ The Magento Admin provides all access to your store, orders, and customer data. 
 {:.bs-callout-info}
 **Magento Community Contribution** - Magento thanks [Riccardo Tempesta](https://twitter.com/rictempesta) of [MageSpecialist](https://partners.magento.com/portal/details/partner/id/129/) for contributing these features as part of the Magento Community Engineering program.
 
-## Google Shopping ads Channel
-
-[Google Shopping ads Channel]({% link sales-channels/google-ads/google-ad-channel.md %}) syncs your Magento product catalog and other information with your Google Merchant Center (GMC) and Ads accounts to promote and sell products.
-
-- [Install and upgrade guide](https://devdocs.magento.com/extensions/google-shopping-ads/)
-- [Release notes](https://devdocs.magento.com/extensions/google-shopping-ads/release-notes/)
-
 ## Amazon Sales Channel
 
 [Amazon Sales Channel]({% link sales-channels/amazon/amazon-sales-channel.md %}) enables you to integrate your Amazon Seller Central listing database with your Magento product catalog and to seamlessly manage your Amazon listings and sales in Magento.
