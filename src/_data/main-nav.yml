@@ -21,11 +21,11 @@
   - label: Magento Marketplace
     url: /magento/magento-marketplace.html
 
-  - label: Change Log
-    url: /magento/change-log.html
-
   - label: Resources
     url: "/getting-started/resources.html"
+
+  - label: What's New
+    url: /magento/whats-new.html
 
   - label: Contribute to the Docs
     url: "/getting-started/contribute.html"
