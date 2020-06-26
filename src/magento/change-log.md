@@ -4,6 +4,15 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what's new.
 
+## June 2020
+
+### Updated topics
+
+{: .topics-table }
+|Topic |Change|
+|--- |--- |
+|Google Shopping ads Channel|With the deactivation of Google Shopping ads Channel, related documentation has been removed. Additional configuration and landing pages have also been updated:<br/>- [Marketing]({% link marketing.md %})<br/>- [Sales Channels Home]({% link sales-channels/sales-channels-home.md %})<br/>- [Services]({% link configuration/services.md %})<br/>- [Role Resources]({% link system/permissions-role-resources.md %})|
+
 ## May 2020
 
 ### Product releases
@@ -177,7 +186,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}) <br/>[Google reCAPTCHA]({% link configuration/security/google-recaptcha.md %}) (reference)|Updated documentation related to Google reCAPTCHA to reflect all changes over some previous releases.|
 |[Configurable Product]({% link catalog/product-create-configurable.md %})|Updated to correct information about the valid input types for `Catalog Input Type for Store Owner`.|
 |[Processing an Order]({% link sales/order-processing.md %}) <br/>[Updating an Order]({% link sales/order-update.md %})|Updated to clarify the available options in the button bar for pending and processing orders, including why the Cancel button isn't always available.|
-|[Business Intelligence Tools]({% link reports/business-intelligence.md %}) <br/>[Campaign Reporting]({% link sales-channels/google-ads/google-reporting.md %}) |Updated information about Magento store integration with Magento Business Intelligence (MBI).|
+|[Business Intelligence Tools]({% link reports/business-intelligence.md %}) <br/>Campaign Reporting |Updated information about Magento store integration with Magento Business Intelligence (MBI).|
 |[Template Path Hints]({% link system/template-path-hints.md %}) | Added information about the `Enable Hints for Storefront with URL Parameter`.|
 
 ## December 2019
@@ -221,7 +230,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 - [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-3-commerce.html){:target="_blank"}, 2.3.3
 - [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-3-open-source.html){:target="_blank"}, 2.3.3
 - [Page Builder](https://devdocs.magento.com/page-builder/docs/release-notes.html){:target="_blank"}, 1.1
-- [Google Shopping ads Channel](https://devdocs.magento.com/extensions/google-shopping-ads/release-notes/){:target="_blank"}, 3.0.1
+- Google Shopping ads Channel, 3.0.1
 - [Inventory Management](https://devdocs.magento.com/guides/v2.3/inventory/release-notes.html){:target="_blank"}, 1.1.3
 - [Amazon Sales Channel](https://devdocs.magento.com/extensions/amazon-sales/release-notes/){:target="_blank"}, 3.0.0
 
@@ -249,9 +258,9 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Configuration Reference]({% link stores/configuration.md %})|Updated the screen shot to include the Yotpo section. Also added the Yotpo configuration topics in the left-side navigation.|
 |[Product Reviews]({% link marketing/product-reviews.md %})|Created new Marketing > Shopping Tools > Product Reviews sub-menu that includes the Magento Product Reviews and new Yotpo Reviews topics.|
 |[Magento Shipping]({% link shipping/magento-shipping.md %})|Updated Magento Shipping section for the latest Temando installation.|
-|[Google Shopping ads Channel]({% link sales-channels/google-ads/onboarding-google.md %})|Added a note clarifying the inclusion of Google Shopping ads Channel with Magento 2.3.3.|
-|[Onboarding Google Shopping ads Channel]({% link sales-channels/google-ads/google-ad-channel.md %})|Added a note clarifying the inclusion of Google Shopping ads Channel with Magento 2.3.3.|
-|[Add/Updated Google API Key]({% link sales-channels/google-ads/verify-api-key.md %})|Updated API Key steps.|
+|Google Shopping ads Channel|Added a note clarifying the inclusion of Google Shopping ads Channel with Magento 2.3.3.|
+|Onboarding Google Shopping ads Channel|Added a note clarifying the inclusion of Google Shopping ads Channel with Magento 2.3.3.|
+|Add/Updated Google API Key]|Updated API Key steps.|
 |[Authorize.Net]({% link payment/authorize-net.md %})|Added Step #4 with setup instructions for 3D Secure with CardinalCommerce.|
 |[Klarna]({% link payment/klarna.md %})|Updated _Changes In the Latest Release_ and _Klarna Solutions_. Added new _Klarna Payment Methods_ section.|
 |[Setting Up Klarna]({% link payment/klarna-setup.md %})|Updated Klarna account images; updated instructions for new **Enable B2B** field.|
@@ -301,7 +310,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 {: .topics-table }
 |Topic |Change |
 |--- |--- |
-|[Editing Account Settings]({% link sales-channels/google-ads/account-settings.md %}) (Google Shopping ads Channel) |Added the **Resend products to Google** action in the **Select** drop-down. This action allows users to manually [reindex]({% link system/index-management.md %}) their Magento product database and send changes to Google.|
+|Editing Account Settings (Google Shopping ads Channel) |Added the **Resend products to Google** action in the **Select** drop-down. This action allows users to manually [reindex]({% link system/index-management.md %}) their Magento product database and send changes to Google.|
 |[Setting up Amazon Pay]({% link payment/amazon-pay-setup.md %})|Updated screen shots and added link to video tutorial.|
 |[Amazon Pay Resources]({% link payment/amazon-pay-resources.md %})|Updated Amazon links and added link to video tutorial.|
 |[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
@@ -322,8 +331,8 @@ Our documentation is continually updated with new topics, clarifications, and co
 ### New topics
 
 - [Address Search]({% link sales/checkout-address-search.md %})
-- [Manually Verify and Claim a URL]({% link sales-channels/google-ads/manually-verify-claim-site.md %}) (Google Shopping ads Channel)
-- [Channels]({% link configuration/services/channels.md %}) (Google Shopping ads Channel)
+- Manually Verify and Claim a URL (Google Shopping ads Channel)
+- Channels (Google Shopping ads Channel)
 
 ### Updated topics
 
@@ -331,8 +340,8 @@ Our documentation is continually updated with new topics, clarifications, and co
 |Topic |Change |
 |--- |--- |
 |[Store Integration]({% link sales-channels/amazon/store-integration.md %}) <br>(Amazon Sales Channel)|Updated notes to add that primary log-in credentials for Amazon are needed for Amazon Shopping Channel integration.|
-|[Unclaiming a Claimed URL]({% link sales-channels/google-ads/gmc-unlink-gmc.md %}) <br>(Google Shopping ads Channel)|Clarified language for "claiming" vs "linking" and moved topic to Managing Google Accounts section.|
-|[Verifying the Google API Key ]({% link sales-channels/google-ads/verify-api-key.md %}) <br>(Google Shopping ads Channel)|Updated the steps and screen shots to include the new logging configuration option.|
+|Unclaiming a Claimed URL <br>(Google Shopping ads Channel)|Clarified language for "claiming" vs "linking" and moved topic to Managing Google Accounts section.|
+|Verifying the Google API Key<br>(Google Shopping ads Channel)|Updated the steps and screen shots to include the new logging configuration option.|
 |[Services]({% link configuration/services.md %})|Updated the screen shot to include the new Channels section.|
 |[Customer Engagement]({% link reports/customer-engagement.md %})|Replaced the Marketing Automation page with a new Customer Engagement page for dotdigital Engagement Cloud reporting. Includes configuration, manual sync, reset, and more options for reporting on features and performance.|
 |[Checkout Options]({% link sales/checkout-options.md %})|Updated information for the Checkout options to include the new Address Search feature.|
@@ -362,7 +371,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 ### New sections
 
-- [Google Shopping ads Channel]({% link sales-channels/google-ads/google-ad-channel.md %})
+- Google Shopping ads Channel
 - [Amazon Sales Channel]({% link sales-channels/amazon/amazon-sales-channel.md %})
 
 ### New topics
