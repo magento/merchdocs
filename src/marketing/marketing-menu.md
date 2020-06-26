@@ -24,16 +24,16 @@ Create [catalog]({% link marketing/price-rules-catalog.md %}) and [cart]({% link
 
 Private Sales and other catalog events are a great way to [leverage]({% link marketing/promotions.md %}) your existing customer base to generate buzz and new leads with exclusive access for members only, or by invitation.
 
+### Channels
+
+Increase revenue by expanding sales to additional webstores with [Amazon Marketplace integration]({% link sales-channels/asc/amazon-sales-channel.md %}). The Channels sub-menu only appears when Amazon Sales Channel is configured.
+
 ### Communications
 
 Customize all [notifications]({% link marketing/communications.md %}) sent from your store. Create [newsletters]({% link marketing/newsletters.md %})
 and publish [RSS]({% link marketing/rss-feed.md %}) feeds.
 
 - {:.ee-only}Set up rules that send [email reminders]({% link marketing/email-reminder-rules.md %}) to customers whenever the conditions are met.
-
-### Advertising Channels
-
-Increase revenue by capturing new storefront traffic with [Google Shopping ads]({% link sales-channels/google-ads/google-ad-channel.md %}) and expanding sales to additional webstores with [Amazon Marketplace integration]({% link sales-channels/asc/amazon-sales-channel.md %}).
 
 ### SEO & Search
 

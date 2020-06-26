@@ -166,6 +166,9 @@
   - label: Reports
     url: /reports.html
 
+  - label: MCOM
+    url: /mcom.html
+
 - label: Configuration Reference
   url: /stores/configuration.html
   children:
