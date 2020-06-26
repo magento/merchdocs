@@ -34,7 +34,7 @@ Before Google reCAPTCHA can be configured, you must ensure that yourÂ `PHP.ini`Â
 |Google API Secret Key|Global|The secret key that is associated with your Google reCAPTCHA account.|
 |Invisible Badge Position|Global|The position of the invisible reCAPTCHA badge on each page. Options: Inline / Bottom Right / Bottom Left|
 |Theme|Global|Determines the style of the Google reCAPTCHA box. Options: Light Theme (default) / Dark Theme|
-|Language Code|Global||A [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language that is used for Google reCAPTCHA text and messaging.|
+|Language Code|Global|A [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language that is used for Google reCAPTCHA text and messaging.|
 |reCAPTCHA Validation Failure Message|Global| The message that appears to the user if validation fails. Default: You cannot proceed with such operation, your reCAPTCHA reputation is too low.|
 
 ## reCAPTCHA v3 Invisible
