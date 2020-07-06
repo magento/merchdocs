@@ -2,26 +2,25 @@
 title: Google reCAPTCHA
 ---
 
-Google reCAPTCHA ensures that a human being, rather than a computer, is interacting with the site. It provides enhanced security over the standard Magento [CAPTCHA]({% link stores/security-captcha.md %}), performs checks without potential user error when entering a series of letters and numbers, and encourages cart conversion without additional hurdles to complete a purchase. Google reCAPTCHA can be configured explicitly for the Admin and storefront.
+Google reCAPTCHA ensures that a human being, rather than a computer, is interacting with your website. Unlike the standard Magento [CAPTCHA]({% link stores/security-captcha.md %}), Google reCAPTCHA provides enhanced security and additional information about website traffic, without requiring the user to complete a challenge. 
+
+Google reCAPTCHA is configured separately for the Magento Admin and storefront.
+
+For the Admin, Google reCAPTCHA can be used on the [Sign In]({% link stores/admin-signin.md %}) page. If the standard [Magento CAPTCHA]({% link stores/security-captcha.md %}) is also enabled, Google reCAPTCHA will not override it. Both can be enabled at the same time without any problem.
+
+For the storefront, Google reCAPTCHA can be used to sign in to a [customer account]({% link customers/customer-sign-in.md %}), send a message from the [Contact Us]({% link stores/contact-us.md %}) page, and to submit a [Product Review]({% link marketing/product-reviews.md %}).
 
 ![Google reCAPTCHA - customer login]({% link images/images/customer-account-login-recaptcha.png %}){: .zoom}
 _Customer Login with reCAPTCHA v2_
 
-[Google reCAPTCHA][1] verifies users with increased security and reduced clicks for each of completion, which can be implemented in several ways:
+[Google reCAPTCHA][1] can be implemented in several ways:
 
-- reCAPTCHA v2 verifies users and customers using an on-click feature and one of the following verification methods:
+- Google reCAPTCHA v2 verifies users with one of the following verification methods:
 
    - _"I am not a robot"_ requires users and customers to click the "I'm not a robot" checkbox and possibly select specific images to complete a challenge.
    - Invisible reCAPTCHA badge (**recommended**) performs background verification without user interaction. Users and customers are automatically verified, but might be required to select specific images to complete a challenge.
 
-- reCAPTCHA v3 Verify requests with a score based on a Google algorithm.
-
-You can use Google reCAPTCHA on the [Admin Sign In]({% link stores/admin-signin.md %}) page, and on various customer pages in the storefront. The reCAPCTHA v2 type includes styling options for your choice of a light or dark theme, and either a compact or normal size.
-
-If you have the standard [Magento CAPTCHA]({% link stores/security-captcha.md %}) enabled, reCAPTCHA will not override it. You can have both enabled on your Magento instance without issues.
-
-![Google reCAPTCHA - styles]({% link images/images/recaptcha-styles.png %}){: .zoom}
-_Google reCAPTCHA v2 Styles_
+- Google reCAPTCHA v3 uses an algorithm to rate user interactions and determines the liklihood that the user is human based on a score.
 
 {:.bs-callout-warning}
 Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini` file includes the following setting: `allow_url_fopen = 1`. This may require developer assistance. See [Required PHP Settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html){:target="_blank"}.
