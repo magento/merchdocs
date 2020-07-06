@@ -52,6 +52,10 @@ pages:
     url: "/configuration/security/google-recaptcha-admin.html"
   - label: Google reCAPTCHA Storefront
     url: "/configuration/security/google-recaptcha-storefront.html"
+  - label: Security.txt
+    url: "/configuration/security/security-txt.html"
+  - label: Google reCAPTCHA
+    url: "/configuration/security/google-recaptcha.html"
 - label: Customers
   url: "/configuration/customers.html"
   children:
@@ -100,8 +104,8 @@ pages:
     url: "/configuration/sales/shipping-settings.html"
   - label: Multishipping Settings
     url: "/configuration/sales/multishipping-settings.html"
-  - label: Shipping Methods
-    url: "/configuration/sales/shipping-methods.html"
+  - label: Delivery Methods
+    url: "/configuration/sales/delivery-methods.html"
   - label: Google API
     url: "/configuration/sales/google-api.html"
   - label: Payment Methods
@@ -192,8 +196,6 @@ pages:
     url: "/configuration/services/saas.html"
   - label: OAuth
     url: "/configuration/services/oauth.html"
-  - label: Channels
-    url: "/configuration/services/channels.html"
 - label: Advanced
   url: "/configuration/advanced.html"
   children:
