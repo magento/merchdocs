@@ -33,7 +33,7 @@ _Product Attributes Page_
 |Unique Value|Requires the attribute value  to be different from all other values entered in the same attribute, within the context of the scope setting. Unique value should be enabled for any attribute that is used as an ID number. For example, because SKU is used to identify products throughout the hierarchy, it has  a unique value with a global scope. Options: Yes / No|
 |Input Validation for Store Owner|Determines the validation check of the data entered in the field. Options: None / Decimal Number / Integer Number / Email / URL / Letters (a-z, A-Z) / Numbers (0-9)|
 |Add to Column Options|Determines if the column appears in the product grid. Options: Yes / No|
-|Use in Filter Options|Determines if the attribute is used as a filter control at the top of columns in the grid. Options: Yes / No. <br/><br/>**_Note_**: Filter control is only shown when Add to Column option is enabled.|
+|Use in Filter Options|Determines if the attribute is used as a filter control at the top of columns in the grid. Options: Yes / No. <br/><br/>**_Note_**: The filter control is only displayed when _Add to Column Options_ is enabled.|
 
 ## Storefront Properties
 
