@@ -4,6 +4,15 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what's new.
 
+## June 2020
+
+### Updated topics
+
+{: .topics-table }
+|Topic |Change|
+|--- |--- |
+|Google Shopping ads Channel|With the deactivation of Google Shopping ads Channel, related documentation has been removed. Additional configuration and landing pages have also been updated:<br/>- [Marketing]({% link marketing.md %})<br/>- [Sales Channels Home]({% link sales-channels/sales-channels-home.md %})<br/>- [Services]({% link configuration/services.md %})<br/>- [Role Resources]({% link system/permissions-role-resources.md %})|
+
 ## May 2020
 
 ### Product releases
@@ -13,19 +22,27 @@ Our documentation is continually updated with new topics, clarifications, and co
 ### New topics
 
 - [View Amazon Orders]({% link sales-channels/asc/amazon-orders-all.md %})
+- [Add Product Recommendations]({% link marketing/page-builder-add-product-recs.md %})
+- [RMA Lifecycle]({% link sales/rma-lifecycle.md %})
+- [Contribute to the Docs]({% link getting-started/contribute.md %})
 
 ### Updated topics
 
 {: .topics-table }
 |Topic |Change|
 |--- |--- |
-|[Catalog]({% link configuration/catalog/catalog.md %}) (reference)<br />[Product Listings]({% link catalog/navigation-product-listings.md %})|Added "Remember Category Pagination" field to the Catalog > Storefront configuration; updated screenshot and instructions for product listings.|
+|[Adobe Stock Integration]({% link cms/adobe-stock.md %})|Updated configuration instructions based on the recent console.adobe.io change.|
+|[Add Content]({% link marketing/create-new-rec.md %})|Updated for new Product Recommendations content type.|
+|[Create New Recommendation]({% link cms/page-builder-add-content.md %})| Updated for new content type in Page Builder.|
+|[Inventory]({% link configuration/catalog/inventory.md %}) (reference)|Updated Stock Options section for new _Synchronize with Catalog_ field.|
+|[Catalog]({% link configuration/catalog/catalog.md %}) (reference)<br/>[Product Listings]({% link catalog/navigation-product-listings.md %})|Added _Remember Category Pagination_ field to the Catalog > Storefront configuration; updated screenshot and instructions for product listings.|
 |[Amazon Order Details]({% link sales-channels/asc/amazon-order-details.md %})|Updated the order import process and added a note about "dummy order information" imported from Amazon.|
 |[Amazon Store Dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %})|Moved _Recent Orders_ information to the new [View Amazon Orders]({% link sales-channels/asc/amazon-orders-all.md %}) topic, corrected list formats, and updated the screen image.|
 |[Cancel Unshipped Order]({% link sales-channels/asc/cancel-unshipped-order.md %})|Corrected where orders open (depending on your import settings) and added a note that returns and exchanges are managed in Amazon.|
 |[Fulfilled By]({% link sales-channels/asc/fulfilled-by.md %})|Added information about "dummy order information" imported from Amazon.|
 |[Order Settings]({% link sales-channels/asc/order-settings.md %})|Corrected order number information.|
 |[Manage Orders]({% link sales-channels/asc/managing-orders.md %})|Moved all order view information to the new [View Amazon Orders]({% link sales-channels/asc/amazon-orders-all.md %}) topic, added scenarios that block order creation, and added the order import process table.|
+|[System Reports]({% link system/support-system-report.md %})|Added an OMS Connector line item to the Available system reports section of the System Reports.|
 
 ## April 2020
 
@@ -35,6 +52,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 - [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.5OpenSource.html){: target="_blank"}, 2.3.5
 - [Page Builder](https://devdocs.magento.com/page-builder/docs/release-notes.html){: target="_blank"}, 1.3.0
 - [Inventory Management](https://devdocs.magento.com/guides/v2.3/inventory/release-notes.html){:target="_blank"}, 1.1.4
+- [Product Recommendations](https://marketplace.magento.com/magento-product-recommendations.html){:target="_blank"}, 2.0
 
 ### New topics
 
@@ -111,7 +129,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 {: .topics-table }
 |Topic |Change|
 |--- |--- |
-|[System Config]({% link system/web-setup-system-configuration.md %})<br />[Extension Manager]({% link system/web-setup-extension-manager.md %})|Added note for Adobe Commerce Cloud users with links to new [Magento Marketplace]({% link magento/magento-marketplace.md %}) section in Getting Started.|
+|[System Config]({% link system/web-setup-system-configuration.md %})|Added note for Adobe Commerce Cloud users with links to new [Magento Marketplace]({% link magento/magento-marketplace.md %}) section in Getting Started.|
 |[CAPTCHA]({% link stores/security-captcha.md %}) <br/>[Customer Configuration]({% link configuration/customers/customer-configuration.md %}) |Updated for clarification about which storefront forms can be used with CAPTCHA.|
 |[Managing Amazon Pricing]({% link sales-channels/amazon/pricing-products.md %}) <br/>[Intelligent Repricing Rule: Select Rule Type]({% link sales-channels/amazon/intelligent-repricing-rules.md %}) <br/>[Intelligent Repricing Rule: Floor Price]({% link sales-channels/amazon/floor-price.md %}) <br/>[Intelligent Repricing Rule: Optional Ceiling Price]({% link sales-channels/amazon/optional-ceiling-price.md %})  |Updates text for Amazon intelligent repricing rules and added alert text pertaining to vacation/test mode.|
 |[Product Attribute Reference]({% link system/data-attributes-product.md %})|Added information for the `save_rewrites_history` field.|
@@ -168,7 +186,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}) <br/>[Google reCAPTCHA]({% link configuration/security/google-recaptcha.md %}) (reference)|Updated documentation related to Google reCAPTCHA to reflect all changes over some previous releases.|
 |[Configurable Product]({% link catalog/product-create-configurable.md %})|Updated to correct information about the valid input types for `Catalog Input Type for Store Owner`.|
 |[Processing an Order]({% link sales/order-processing.md %}) <br/>[Updating an Order]({% link sales/order-update.md %})|Updated to clarify the available options in the button bar for pending and processing orders, including why the Cancel button isn't always available.|
-|[Business Intelligence Tools]({% link reports/business-intelligence.md %}) <br/>[Campaign Reporting]({% link sales-channels/google-ads/google-reporting.md %}) |Updated information about Magento store integration with Magento Business Intelligence (MBI).|
+|[Business Intelligence Tools]({% link reports/business-intelligence.md %}) <br/>Campaign Reporting |Updated information about Magento store integration with Magento Business Intelligence (MBI).|
 |[Template Path Hints]({% link system/template-path-hints.md %}) | Added information about the `Enable Hints for Storefront with URL Parameter`.|
 
 ## December 2019
@@ -212,7 +230,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 - [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-3-commerce.html){:target="_blank"}, 2.3.3
 - [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-3-open-source.html){:target="_blank"}, 2.3.3
 - [Page Builder](https://devdocs.magento.com/page-builder/docs/release-notes.html){:target="_blank"}, 1.1
-- [Google Shopping ads Channel](https://devdocs.magento.com/extensions/google-shopping-ads/release-notes/){:target="_blank"}, 3.0.1
+- Google Shopping ads Channel, 3.0.1
 - [Inventory Management](https://devdocs.magento.com/guides/v2.3/inventory/release-notes.html){:target="_blank"}, 1.1.3
 - [Amazon Sales Channel](https://devdocs.magento.com/extensions/amazon-sales/release-notes/){:target="_blank"}, 3.0.0
 
@@ -240,9 +258,9 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Configuration Reference]({% link stores/configuration.md %})|Updated the screen shot to include the Yotpo section. Also added the Yotpo configuration topics in the left-side navigation.|
 |[Product Reviews]({% link marketing/product-reviews.md %})|Created new Marketing > Shopping Tools > Product Reviews sub-menu that includes the Magento Product Reviews and new Yotpo Reviews topics.|
 |[Magento Shipping]({% link shipping/magento-shipping.md %})|Updated Magento Shipping section for the latest Temando installation.|
-|[Google Shopping ads Channel]({% link sales-channels/google-ads/onboarding-google.md %})|Added a note clarifying the inclusion of Google Shopping ads Channel with Magento 2.3.3.|
-|[Onboarding Google Shopping ads Channel]({% link sales-channels/google-ads/google-ad-channel.md %})|Added a note clarifying the inclusion of Google Shopping ads Channel with Magento 2.3.3.|
-|[Add/Updated Google API Key]({% link sales-channels/google-ads/verify-api-key.md %})|Updated API Key steps.|
+|Google Shopping ads Channel|Added a note clarifying the inclusion of Google Shopping ads Channel with Magento 2.3.3.|
+|Onboarding Google Shopping ads Channel|Added a note clarifying the inclusion of Google Shopping ads Channel with Magento 2.3.3.|
+|Add/Updated Google API Key]|Updated API Key steps.|
 |[Authorize.Net]({% link payment/authorize-net.md %})|Added Step #4 with setup instructions for 3D Secure with CardinalCommerce.|
 |[Klarna]({% link payment/klarna.md %})|Updated _Changes In the Latest Release_ and _Klarna Solutions_. Added new _Klarna Payment Methods_ section.|
 |[Setting Up Klarna]({% link payment/klarna-setup.md %})|Updated Klarna account images; updated instructions for new **Enable B2B** field.|
@@ -292,7 +310,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 {: .topics-table }
 |Topic |Change |
 |--- |--- |
-|[Editing Account Settings]({% link sales-channels/google-ads/account-settings.md %}) (Google Shopping ads Channel) |Added the **Resend products to Google** action in the **Select** drop-down. This action allows users to manually [reindex]({% link system/index-management.md %}) their Magento product database and send changes to Google.|
+|Editing Account Settings (Google Shopping ads Channel) |Added the **Resend products to Google** action in the **Select** drop-down. This action allows users to manually [reindex]({% link system/index-management.md %}) their Magento product database and send changes to Google.|
 |[Setting up Amazon Pay]({% link payment/amazon-pay-setup.md %})|Updated screen shots and added link to video tutorial.|
 |[Amazon Pay Resources]({% link payment/amazon-pay-resources.md %})|Updated Amazon links and added link to video tutorial.|
 |[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
@@ -313,8 +331,8 @@ Our documentation is continually updated with new topics, clarifications, and co
 ### New topics
 
 - [Address Search]({% link sales/checkout-address-search.md %})
-- [Manually Verify and Claim a URL]({% link sales-channels/google-ads/manually-verify-claim-site.md %}) (Google Shopping ads Channel)
-- [Channels]({% link configuration/services/channels.md %}) (Google Shopping ads Channel)
+- Manually Verify and Claim a URL (Google Shopping ads Channel)
+- Channels (Google Shopping ads Channel)
 
 ### Updated topics
 
@@ -322,8 +340,8 @@ Our documentation is continually updated with new topics, clarifications, and co
 |Topic |Change |
 |--- |--- |
 |[Store Integration]({% link sales-channels/amazon/store-integration.md %}) <br>(Amazon Sales Channel)|Updated notes to add that primary log-in credentials for Amazon are needed for Amazon Shopping Channel integration.|
-|[Unclaiming a Claimed URL]({% link sales-channels/google-ads/gmc-unlink-gmc.md %}) <br>(Google Shopping ads Channel)|Clarified language for "claiming" vs "linking" and moved topic to Managing Google Accounts section.|
-|[Verifying the Google API Key ]({% link sales-channels/google-ads/verify-api-key.md %}) <br>(Google Shopping ads Channel)|Updated the steps and screen shots to include the new logging configuration option.|
+|Unclaiming a Claimed URL <br>(Google Shopping ads Channel)|Clarified language for "claiming" vs "linking" and moved topic to Managing Google Accounts section.|
+|Verifying the Google API Key<br>(Google Shopping ads Channel)|Updated the steps and screen shots to include the new logging configuration option.|
 |[Services]({% link configuration/services.md %})|Updated the screen shot to include the new Channels section.|
 |[Customer Engagement]({% link reports/customer-engagement.md %})|Replaced the Marketing Automation page with a new Customer Engagement page for dotdigital Engagement Cloud reporting. Includes configuration, manual sync, reset, and more options for reporting on features and performance.|
 |[Checkout Options]({% link sales/checkout-options.md %})|Updated information for the Checkout options to include the new Address Search feature.|
@@ -353,7 +371,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 ### New sections
 
-- [Google Shopping ads Channel]({% link sales-channels/google-ads/google-ad-channel.md %})
+- Google Shopping ads Channel
 - [Amazon Sales Channel]({% link sales-channels/amazon/amazon-sales-channel.md %})
 
 ### New topics
@@ -480,7 +498,6 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Cache Management]({% link system/cache-management.md %})|Added best practices, screenshots, and additional information links.|
 |[Setup Wizard]({% link system/web-setup-wizard.md %})|Added note for flushing caches and reindexing.|
 |[Module Manager]({% link system/web-setup-module-manager.md %})|Added note for flushing caches and reindexing.|
-|[Extension Manager]({% link system/web-setup-extension-manager.md %})|Added note for flushing caches and reindexing.|
 |[System Upgrade]({% link system/web-setup-system-upgrade.md %})|Added note for flushing caches and reindexing.|
 |[Backups]({% link system/backups.md %})|Added deprecation notice and enable feature information.|
 |[System]({% link configuration/advanced/system.md %}) (reference)|Added deprecation notice and enable feature information for Backups.|

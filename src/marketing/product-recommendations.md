@@ -9,7 +9,7 @@ Product recommendations are a powerful marketing tool you can use to increase co
 You can create, manage, and deploy recommendations across your store views directly from the Magento Admin panel.
 
 {:.bs-callout-info}
-For information about how to install the product recommendations module so you can begin collecting shopper behavior and catalog data, refer to the [developer documentation](https://devdocs.magento.com/recommendations/install.html).
+For information about installing product recommendations modules, refer to the [developer documentation](https://devdocs.magento.com/recommendations/install-configure.html).
 
 ## Dashboard {#dashboard}
 

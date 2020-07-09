@@ -6,72 +6,6 @@ pages:
 - label: Channels
   url: "/sales-channels/sales-channels-home.html"
   children:
-    - label: Google Shopping ads Channel
-      url: "/sales-channels/google-ads/google-ad-channel.html"
-      children:
-      - label: End of Life
-        url: "/sales-channels/google-ads/google-eol.html"
-      - label: Getting Started with Google
-        url: "/sales-channels/google-ads/getting-started-google.html"
-        children:
-        - label: About GMC and Ads with Magento
-          url: "/sales-channels/google-ads/about-google.html"
-        - label: About Google and Magento Attributes
-          url: "/sales-channels/google-ads/about-google-magento-catalogs.html"
-        - label: Best Practices for Google Shopping ads
-          url: "/sales-channels/google-ads/google-best-practices.html"
-      - label: Onboarding Google Shopping ads Channel
-        url: "/sales-channels/google-ads/onboarding-google.html"
-        children:
-        - label: Verifying the Google API Key
-          url: "/sales-channels/google-ads/verify-api-key.html"
-        - label: Linking Google Account
-          url: "/sales-channels/google-ads/link-accounts.html"
-        - label: Creating a Google Merchant Center Account
-          url: "/sales-channels/google-ads/gmc-acct-create.html"
-          children:
-          - label: Accepting GMC Terms of Service
-            url: "/sales-channels/google-ads/gmc-service-terms.html"
-          - label: URL Verification
-            url: "/sales-channels/google-ads/url-verify.html"
-          - label: Shipping and Tax
-            url: "/sales-channels/google-ads/shipping-tax.html"
-          - label: Attribute Mapping
-            url: "/sales-channels/google-ads/attribute-mapping.html"
-        - label: Creating a Google Ads Account
-          url: "/sales-channels/google-ads/ads-acct-create.html"
-          children:
-          - label: Accepting Google Ads Terms of Service
-            url: "/sales-channels/google-ads/ads-service-terms.html"
-          - label: Account Settings
-            url: "/sales-channels/google-ads/acct-settings.html"
-      - label: Managing Google Accounts
-        url: "/sales-channels/google-ads/google-account-managment.html"
-        children:
-        - label: Resolving Account Errors
-          url: "/sales-channels/google-ads/account-resolve-errors.html"
-        - label: Editing Account Settings
-          url: "/sales-channels/google-ads/account-settings.html"
-        - label: Unclaim a Claimed URL
-          url: "/sales-channels/google-ads/gmc-unlink-gmc.html"
-        - label: Manually Claim and Verify a URL
-          url: "/sales-channels/google-ads/manually-verify-claim-site.html"
-      - label: Managing Products
-        url: "/sales-channels/google-ads/product-managment.html"
-        children:
-        - label: Resolving Product Errors
-          url: "/sales-channels/google-ads/product-resolve-errors.html"
-        - label: Editing Attribute Mappings
-          url: "/sales-channels/google-ads/products-edit-mappings.html"
-      - label: Managing Ads Campaigns
-        url: "/sales-channels/google-ads/ads-management.html"
-        children:
-        - label: Creating Campaigns
-          url: "/sales-channels/google-ads/create-campaign.html"
-        - label: Managing Campaigns
-          url: "/sales-channels/google-ads/ads-edit.html"
-        - label: Campaign Reporting
-          url: "/sales-channels/google-ads/google-reporting.html"
     - label: Amazon Sales Channel 4.0+
       url: "/sales-channels/asc/amazon-sales-channel.html"
       children:
@@ -575,6 +509,8 @@ pages:
       url: "/marketing/recommendation-best-practices.html"
     - label: Limitations with Product Recommendations
       url: "/marketing/product-recs-limitations.html"
+    - label: Fetch Product Recommendations from a Different Source
+      url: "/marketing/recommendation-change-source.html"
   - label: Related Product Rules
     url: "/marketing/product-related-rules.html"
     edition: ee-only

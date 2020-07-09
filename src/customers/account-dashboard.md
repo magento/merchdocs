@@ -12,6 +12,7 @@ _Account Dashboard_{:.ee-only}
 ![]({% link images/images-b2b/company-admin-account-dashboard.png %}){: .zoom}
 _Company Account Dashboard_{:.b2b-only}
 
+{: .sections-table }
 | Section   | Description  |
 |-----------|---------- ---|
 | [My Account]({% link customers/account-dashboard-my-account.md %})| Displays summary information for your account, including contact information, default addresses from your address book, and recent orders. |
@@ -32,8 +33,17 @@ _Company Account Dashboard_{:.b2b-only}
 | <span class="ee-only">[My Invitations]({% link marketing/invitations.md %})</span> | Lists all invitations the customer has created and sent for scheduled events. |
 | <span class="b2b-only">[My Quotes]({% link customers/account-dashboard-quotes.md %})| (Companies Only) Lists all quotes submitted by the customer, with a link to detailed information. |
 | <span class="b2b-only">[My Requisition Lists]({% link customers/account-dashboard-requisition-lists.md %})</span> | (Companies Only) Maintains all requisition lists created by the customer.  |
-| <span class="b2b-only">[Company Profile]({% link customers/account-dashboard-company-profile.md %})</span> | (Companies Only) Manage your company information, including the company name and address, company admin contact information, and payment information.  |
+| <span class="b2b-only">[Company Profile]({% link customers/account-dashboard-company-profile.md %})</span> | (Companies Only) Manage your company information, including the company name and address, company administrator contact information, and payment information.  |
 | <span class="b2b-only">[Company Credit]({% link customers/account-dashboard-company-credit.md %})</span>  | (Companies Only) The Company Credit section shows the current outstanding balance, available credit, and the credit limit that is allocated to the account, followed by a list of outstanding invoices. The Company Credit section appears in the dashboard only when [Payment on Account]({% link payment/payment-on-account.md %}) is enabled in the configuration. |
-| <span class="b2b-only">[Company Structure]({% link customers/account-company-structure.md %})</span> | (Companies Only) Used by the company admin to define the business structure of the company.  |
-| <span class="b2b-only">[Company Users]({% link customers/account-company-users.md %})</span> | (Companies Only) Used by the company admin to create user accounts for company buyers.  |
-| <span class="b2b-only">[Roles and Permissions]({% link customers/account-company-roles-permissions.md %})</span> | (Companies Only) Used by the company admin to define roles   for company users with various levels of permission. |
+| <span class="b2b-only">[Company Structure]({% link customers/account-company-structure.md %})</span> | (Companies Only) Used by the company administrator to define the business structure of the company.  |
+| <span class="b2b-only">[Company Users]({% link customers/account-company-users.md %})</span> | (Companies Only) Used by the company administrator to create user accounts for company buyers.  |
+| <span class="b2b-only">[Roles and Permissions]({% link customers/account-company-roles-permissions.md %})</span> | (Companies Only) Used by the company administrator to define roles for company users with various levels of permission. |
+
+<!--
+  This is a style declaration so that section names in column 1 are not wrapped by table auto styling for column widths.
+-->
+<style>
+.sections-table td:first-of-type {
+  width: 200px;
+}
+</style>
