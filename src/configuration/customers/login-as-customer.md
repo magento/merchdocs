@@ -2,9 +2,9 @@
 title: Login as Customer
 ---
 
-There are times when customers need help with their order. To see what they see, store administrators can "Login as Customer", which allows them to see what the customer sees and take actions on their behalf.
+There are times when customers need help with their order. To see what they see, store administrators can "Login as Customer," which allows them to see what the customer sees and take actions on their behalf.
 
-Any actions taken while logged in "as Customer" will be applied to the actual customer's order.
+Any actions taken while logged in "as Customer" will be applied to the actual customer's account.
 
 ## To enable Login as Customer:
 
@@ -24,7 +24,6 @@ Then, go to **Stores** > **Configuration** > **Customers** > **Login as Customer
 |-- | -- | -- |
 | Enable Login as Customer | Yes/No | Enable/Disable the Login as Customer feature |
 | Disable Page Cache for Admin User | Yes/no | If Yes, the Page Cache will be disabled for the admin user. |
-| Keep Guest Shopping Cart Items | Yess/No | If Yes, items in the Guest shopping cart will be merged with the user's shopping cart. |
 | Store View to Log in | Automatic/Manual | Automatic will use the default store setting for that company user. Use "Manual Choose" if want the admin user to select the store view when logging in as Customer. |
 
 Disabling the page cache will ensure that the user logging in as Customer will get fresh, uncached data.
