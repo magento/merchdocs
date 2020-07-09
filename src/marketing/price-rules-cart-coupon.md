@@ -12,7 +12,7 @@ Coupon codes can be sent by email, or included in newsletters, catalogs, and adv
 
 If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled, you can use the _dotdigital Coupon URL Builder_ to dynamically generate personalized URLs with coupon codes that can be used in your dotdigital email campaigns. You can also resend a previously generated coupon code to the same contact. To learn more, see [Dynamic content: Coupon codes - Magento 2][1] in the dotdigital Help Centre.
 
-## Method 1: Create a Specific Coupon
+## Method 1: Create a specific coupon
 
 1. Follow the instructions to create a [cart price rule]({% link marketing/price-rules-cart.md %}).
 
@@ -51,8 +51,8 @@ If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled,
 
       - When complete, click <span class="btn">Save</span>.
 
-         ![Cart price rule - scheduled change]({% link images/images/price-rule-cart-coupon-scheduled-change.png %}){: .zoom}
-         _Scheduled Change_
+        ![Cart price rule - scheduled change]({% link images/images/price-rule-cart-coupon-scheduled-change.png %}){: .zoom}
+        _Scheduled Change_
 
       **Assign to Existing Update**
 
@@ -62,7 +62,7 @@ If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled,
 
 1. Complete the [cart price rule]({% link marketing/price-rules-cart.md %}) as needed.
 
-## Method 2: Generate a Batch of Coupons
+## Method 2: Generate a batch of coupons
 
 The generation of discount coupons is an asynchronous operation, which executes in the background so that you can continue working in the Admin without waiting for the operation to finish. The system displays a message when the task is complete.
 

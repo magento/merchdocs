@@ -19,24 +19,24 @@ Pre-Package settings are defined for a product in the [Shipping]({% link catalog
 ![]({% link images/images/product-shipping.png %}){: .zoom}
 _Shipping_
 
-### Define Pre-Package Assignment
+### Define pre-package assignment
 
 {:.bs-callout-info}
 The Packaging Type setting is only available for _Simple Product_ and _Bundle Product_ types.
 
-1.  On the _Admin_ sidebar, choose **Catalog** and then **Products**.
+1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1.  Locate the item in the product list and click **Edit** in the _Action_ column.
+1. Locate the item in the product list and click **Edit** in the _Action_ column.
 
-1.  Scroll down and expand the _Shipping_ section.
+1. Scroll down and expand the _Shipping_ section.
 
 1. Choose an option for **Packaging Type**:
 
-    **Pre-packaged** - Choose this option when the item is shipped in its original packaging. When set to this option, additional fields appear to define the product's packaging dimensions: Item Length, Item Width, and Item Height.
+   **Pre-packaged** - Choose this option when the item is shipped in its original packaging. When set to this option, additional fields appear to define the product's packaging dimensions: Item Length, Item Width, and Item Height.
 
-    **Assigned** - Choose this option to set an assigned packaging type (i.e., Small Fedex Box) for the product. When set to this option, an additional field appears to select a pre-defined Packaging Name. The list of available packaging options include both carrier-specific packaging as well as [merchant-defined packaging]({% link shipping/magento-shipping-packaging.md %}).
+   **Assigned** - Choose this option to set an assigned packaging type (i.e., Small Fedex Box) for the product. When set to this option, an additional field appears to select a pre-defined Packaging Name. The list of available packaging options include both carrier-specific packaging as well as [merchant-defined packaging]({% link shipping/magento-shipping-packaging.md %}).
 
-1.  When complete, click **Save**.
+1. When complete, click **Save**.
 
 ![]({% link images/images/product-shipping-pre-packaged.png %}){: .zoom}
 [_Shipping tab, Pre-packaged_]({% link catalog/product-shipping.md %})
@@ -64,7 +64,7 @@ When a package that contains a `Pre-Packaged` product is deleted, click **Pre-Pa
 ![]({% link images/images/mag-shipping-packaging-example3.png %}){: .zoom}
 _Shipping Example_
 
-### Additional Notes
+### Additional notes
 
 - When shipping an order with multiple items that have a packaging assigned, each item will be separated into it’s defined, respective package.
 
