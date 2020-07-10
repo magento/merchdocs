@@ -11,14 +11,20 @@ Any actions taken while logged in as the customer are applied to the actual cust
 Login as Customer is enabled in the user role permissions.
 
 1. On the _Admin_ sidebar, go to **System** > _Permissions_ > **User Roles**.
-1. Select a Role to edit.
-1. Select Role Resources > Role Resouces. Change to 'Custom'.
-1. Under 'Customer', there are options for:
-   *  Login as Customer
-      *  Allow Login as Customer - This allows the admin user to use the Login as Customer feature.
-      *  View Login as Customer Log - Allows the admin user to see the Login as Customer Log.
+1. Click a role in the list to edit it.
+1. In the Role Information left panel, click **Role Resources**.
 
-Then, go to **Stores** > **Configuration** > **Customers** > **Login as Customer**.
+1. Change **Role Resources** on the page to `Custom`.
+
+   With this option selected, the resource hierarchy is displayed in the page. 
+1. Scroll to the  **Customers**  parent item and the **Login as Customer** item underneath. Then select the resources that you want to enable for the role:
+   *  Login as Customer
+      *  **Allow Login as Customer** - This allows the Admin user to use the _Login as Customer_ feature.
+      *  **View Login as Customer Log** - Allows the Admin user to see the _Login as Customer_ Log.
+1. Click <span class="btn">Save Role</span>.
+1. On the _Admin_ sidebar go to  **Stores** > _Settings_ > **Configuration**.
+
+1. In the left panel, expand **Customers** and choose  **Login as Customer**.
 
 | Option | Values | Description |
 |-- | -- | -- |
@@ -36,23 +42,23 @@ Once enabled, the Login as Customer button will appear in the:
 *  [Shipment View page](https://docs.magento.com/m2/ce/user_guide/sales/shipments-create.html)
 *  [Credit Memo View page](https://docs.magento.com/m2/ce/user_guide/sales/credit-memo-create.html)
 
-## Login as Customer Log
+## Login as Customer log
 
-Magento provides a log for the Login as Customer feature. It lists all sessions where a store administrator used the Login as Customer feature. It can be found at XXXXXXXX.
+Magento provides a log for the _Login as Customer_ feature. It lists all sessions where an Admin user accesses the feature. It can be found at XXXXXXXX.
 
 <!-- Enterprise Edition -->
 
-Magento provides a log for Login as Customer actions. In Magento Commerce, actions taken under Login as Customer will be listed in the main Magento log.
+Magento provides a log for _Login as Customer_ actions. In Magento Commerce, actions taken under Login as Customer are listed in the main Magento log.
 
 <!-- /Enterprise Edition -->
 
 ## Permissions
 
-The Login as Customer feature is enabled for Roles in the Access Control List.
+The Login as Customer feature is enabled for user roles in the Role Resources configuration.
 
-Role Resources are set in **System** > Permissions > **User Roles**.
+To set the Role Resources , go to **System** > _Permissions_ > **User Roles**.
 
-Access Control can be set when you create a new user or edit an existing one.
+You can control user access when you create a new user or edit an existing one.
 
 There are two Access Control options:
 
@@ -63,9 +69,12 @@ Set these for each Role you wish to have this feature.
 
 ## Using Login as Customer
 
-Login as Customer allows you to see the site just as the customer does, and allows you to troubleshoot and take other actions for the customer. The feature is expressed a 'Login as Customer' button in the locations listed above, and the Login as Customer Log will be available in the Admin.
+Login as Customer allows you to see the site just as the customer does, and allows you to troubleshoot and take other actions for the customer. If you have an assigned user role with the required permissions:
+
+* You can click <span class="btn">Login as Customer</span> on the pages listed in the previous section.
+* The Login as Customer Log is available in the Admin.
 
 {.bs-callout-warning}
-Any actions taken while logged in "as Customer" (add/remove products, etc.) will be applied to the actual customer's order.
+Any actions taken while logged in "as Customer" (add/remove products, etc.) are applied to the actual customer's order.
 
-On the storefront, as banner will appear when logged in as Customer, to provide an indication of the special state.
+On the storefront, a banner is displayed when you are "logged in as customer" to provide a reminder of the special state.
