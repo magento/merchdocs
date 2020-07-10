@@ -10,7 +10,7 @@ Any actions taken while logged in as the customer are applied to the actual cust
 
 Login as Customer is enabled in the user role permissions.
 
-1. Go to **System** > Permissions > **User Roles**.
+1. On the _Admin_ sidebar, go to **System** > _Permissions_ > **User Roles**.
 1. Select a Role to edit.
 1. Select Role Resources > Role Resouces. Change to 'Custom'.
 1. Under 'Customer', there are options for:
