@@ -8,7 +8,7 @@ Any actions taken while logged in as the customer are applied to the actual cust
 
 ## Enable Login as Customer
 
-Login as Customer is enabled in the Access Control List.
+Login as Customer is enabled in the user role permissions.
 
 1. Go to **System** > Permissions > **User Roles**.
 1. Select a Role to edit.
