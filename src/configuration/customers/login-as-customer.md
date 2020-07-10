@@ -6,7 +6,7 @@ There are times when customers need help with their order. To see what they see,
 
 Any actions taken while logged in as the customer are applied to the actual customer's account.
 
-## To enable Login as Customer:
+## Enable Login as Customer
 
 Login as Customer is enabled in the Access Control List.
 
