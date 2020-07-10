@@ -62,7 +62,7 @@ In order to use two-factor authentication, you must have a two-factor authentica
    ![]({% link images/images/magento-account-2fa-store-recovery-codes.png %}){: .zoom}
    _Store recovery codes_
 
-1. Enter a **Recovery Email** to help ensure that you can recover access to your account in the event that you cannot generate a **Verification Code** from your two-factor authentication application and you do not have access to an unused pre-generated **Recovery Code**.  
+   1. Enter a **Recovery Email** to help ensure that you can recover access to your account in the event that you cannot generate a **Verification Code** from your two-factor authentication application and you do not have access to an unused pre-generated **Recovery Code**.  
 
    - Once every 24 hours, you will be able to generate and send a temporary Recovery Code to your designated Recovery Email address which you can use to regain access to your account.
 
@@ -232,7 +232,7 @@ In order to use two-factor authentication, you must have a two-factor authentica
    ![]({% link images/images/magento-account-2fa-manage-verify-password.png %}){: .zoom}
    _Verify password_
 
-1. Enter a **Recovery Email** to help ensure that you can recover access to your account in the event that you cannot generate a **Verification Code** from your two-factor authentication application and you do not have access to an unused pre-generated **Recovery Code**.  
+   1. Enter a **Recovery Email** to help ensure that you can recover access to your account in the event that you cannot generate a **Verification Code** from your two-factor authentication application and you do not have access to an unused pre-generated **Recovery Code**.  
 
    - Once every 24 hours, you will be able to generate and send a temporary Recovery Code to your designated Recovery Email address which you can use to regain access to your account.
 
