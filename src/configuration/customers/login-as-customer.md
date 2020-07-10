@@ -4,7 +4,7 @@ title: Login as Customer
 
 There are times when customers need help with their order. To see what they see, store administrators can use _Login as Customer_, which allows them to see what the customer sees and take actions on their behalf.
 
-Any actions taken while logged in "as Customer" will be applied to the actual customer's account.
+Any actions taken while logged in as the customer are applied to the actual customer's account.
 
 ## To enable Login as Customer:
 
