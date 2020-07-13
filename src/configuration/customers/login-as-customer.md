@@ -25,6 +25,11 @@ Login as Customer is enabled in the user role permissions.
 
 1. In the left panel, expand **Customers** and choose  **Login as Customer**.
 
+## General Options
+
+![]({% link images/images-ee/config-customers-login-as-customer.png %}){: .zoom}
+_General Options_
+
 | Option | Values | Description |
 |-- | -- | -- |
 | Enable Login as Customer | Yes/No | Enable/Disable the Login as Customer feature |

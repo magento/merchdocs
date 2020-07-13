@@ -53,6 +53,8 @@ pages:
 - label: Customers
   url: "/configuration/customers.html"
   children:
+  - label: Login as Custgomer
+    url: "/configuration/customers/login-as-customer.html"
   - label: Newsletter
     url: "/configuration/customers/newsletter.html"
   - label: Company Configuration
