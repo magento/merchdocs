@@ -33,4 +33,4 @@ When companies are enabled, additional fields are available.
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|[**Enable Purchase Orders**]({% link catalog/catalog-shared.md %})|Website|When enabled, allows Companies to create Purchase Orders. Options: Yes / No|
+|[Enable Purchase Orders]({% link catalog/catalog-shared.md %})|Website|When enabled, allows companies to create purchase orders. Options: Yes / No|

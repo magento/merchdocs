@@ -96,7 +96,7 @@ Make any of the following changes to the quote:
 
    You can repeat the negotiation process as many times as necessary to reach an agreement.
 
-## Step 4 (Regular order): Place the Order
+## Step 4 (Regular order): Place the order
 
 1. To complete the purchase, click <span class="btn">Proceed to Checkout</span>.
 
@@ -107,15 +107,15 @@ Make any of the following changes to the quote:
     ![]({% link images/images-b2b/quote-checkout-order-summary.png %}){: .zoom}
     _Order Summary with Negotiated Price_
 
-## Step 4 (Purchase order): Place the Order
+## Step 4 (Purchase order): Place the order
 
-When Purchase Orders are enabled for the company, orders are automatically made into Purchase Orders. This requires the purchase order to go through any defined approval process.
+When Purchase Orders are enabled for the company, orders are automatically created as Purchase Orders. This requires that the purchase order goes through any defined approval process.
 
 1. To complete the purchase, click <span class="btn">Proceed to Checkout</span>.
 
-1. Then, follow the [purchase order process](https://docs.magento.com/m2/b2b/user_guide/payment/purchase-order.html).
+1. Follow the [purchase order process](https://docs.magento.com/m2/b2b/user_guide/payment/purchase-order.html).
 
-## Field Descriptions
+## Field descriptions
 
 |Field|Description|
 |--- |--- |

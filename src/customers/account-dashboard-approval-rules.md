@@ -2,34 +2,34 @@
 title: Approval Rules
 ---
 
-Most companies have order approval rules for purchase orders. Companies can control who gets to create purchase orders and how much they can spend.
-For instance:
+Most companies have order approval rules for purchase orders. Companies can control who can create purchase orders and how much they can spend.
+For example:
 
 *  Any PO less than X value is automatically approved.
-*  POs that is over X value but less than Q must be approved by Y.
+*  POs over X value but less than Q must be approved by Y.
 *  Any PO over X value must be approved by Y and Z.
-*  Anyone making a PO at the Director level or above are automatically approved.
+*  A PO created by anyone at the Director level or above is automatically approved.
 
 Magento lets you set up these rules to enforce company policies.
 
-To create rules, users with role permissions have an 'Approval Rules' link in the left nav bar.
-Permissions to create rules are set in the Roles and Permissions page in the left nav bar.
+To create rules, users with the required role permissions can click the **Approval Rules** link in the left panel.
+Permissions to create rules can be set by selecting **Roles and Permissions** in the left panel.
 
-If no rules have been created, the list is empty and the 'Create Rule' button is displayed.
+If no rules have been created, the list is empty. Click <span class="btn">Create Rule<span> to create a new rule. 
 Click the button to create a new rule.
 
-On the Approval Rules form, rules can be Enabled or Disabled.
+On the Approval Rules form, any of the created rules can be enabled or disabled.
 
 Note: When assigning a role as an approver, ensure that there is at least one user in that role.
 
 ## Rule types and common options
 
-Choose the rule type from the dropdown menu.
+Choose the **Rule Type**.
 All rules have common options:
 
-*  For 'Rule name', provide a short but descriptive name for the Rule: "Orders less than $100". Names must be unique.
-*  Description: A longer explanation of the rule.
-*  Applies to: Choose the company Role(s) that this rule will apply to.
+*  For **Rule name**, enter a short but descriptive name for the Rule, such as `Orders less than $100`. Names must be unique.
+*  For **Description**, enter a longer explanation of the rule.
+*  For **Applies to**, choose the company role(s) that this rule will apply to.
 
 ### Requires approval from
 
@@ -41,7 +41,7 @@ To require an approval, choose the required approver(s) from the multi-select li
 
 Approve the PO from the order total, including tax.
 
-For Order Total amount, choose from:
+Choose an **Order Total amount** option:
 
 *  is more than
 *  is less than
@@ -52,33 +52,33 @@ Select the currency type and enter the amount.
 
 Select the role(s) that need to approve this type of PO.
 All defined roles will be listed, a "Purchaser's Manager" option.
-Click the "Save" button to create the rule.
+Click  <span class="btn">Save</span>.
 
 ### Number of SKUs
 
 This rule is based on the number of SKUs or unique products in the order.
 This is the number of distinct item types, not the number of items being ordered.
-For instance:
+For example:
 
 *  2 large white shirts
 *  3 medium white shirts
 
-That is 5 items but 2 distinct SKUs.
+That is 5 items, but 2 distinct SKUs.
 
-Set the Number of SKUs value:
+Set the **Number of SKUs** value:
 
 *  is more than
 *  is less than
 *  is more than or equal to
 *  is less than or equal to
 
-and the quantity of SKUs to test.
+Set the quantity of SKUs to test.
 
 ### Shipping cost
 
-Some companies will limit or control shipping costs. Use this rule to approve or disapprove by shipping cost.
+Some companies need to limit or control shipping costs. The following example rule settings can be used to approve or disapprove a PO based on shipping cost.
 
-Set the Shipping cost value:
+Set the **Shipping cost value**:
 
 *  is more than
 *  is less than
