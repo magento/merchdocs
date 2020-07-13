@@ -7,9 +7,7 @@ Two-factor Authentication (TFA) is an added layer of security to better protect 
 
 ## Before you begin
 
-In order to use two-factor authentication, you must have a two-factor authentication application you must download and install a two-factor authentication app on your personal device (such as your smartphone, tablet, computer).
-
-There are many to choose from, but some popular free options include:
+In order to use two-factor authentication, you must have a two-factor authentication application installed on your personal device (such as your smartphone, tablet, computer). There are many to choose from, but some popular free options include:
 
 - Google Authenticator (iOS, Android, Blackberry)
 
