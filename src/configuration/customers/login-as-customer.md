@@ -18,9 +18,8 @@ Login as Customer is enabled in the user role permissions.
 
    With this option selected, the resource hierarchy is displayed in the page. 
 1. Scroll to the  **Customers**  parent item and the **Login as Customer** item underneath. Then select the resources that you want to enable for the role:
-   *  Login as Customer
-      *  **Allow Login as Customer** - This allows the Admin user to use the _Login as Customer_ feature.
-      *  **View Login as Customer Log** - Allows the Admin user to see the _Login as Customer_ Log.
+   * **Allow Login as Customer** - This allows the Admin user to use the _Login as Customer_ feature.
+   * **View Login as Customer Log** - Allows the Admin user to see the _Login as Customer_ Log.
 1. Click <span class="btn">Save Role</span>.
 1. On the _Admin_ sidebar go to  **Stores** > _Settings_ > **Configuration**.
 
@@ -42,34 +41,18 @@ Once enabled, the Login as Customer button will appear in the:
 *  [Shipment View page](https://docs.magento.com/m2/ce/user_guide/sales/shipments-create.html)
 *  [Credit Memo View page](https://docs.magento.com/m2/ce/user_guide/sales/credit-memo-create.html)
 
+{:.ee-only}
 ## Login as Customer log
 
 Magento provides a log for the _Login as Customer_ feature. It lists all sessions where an Admin user accesses the feature. It can be found at XXXXXXXX.
 
-<!-- Enterprise Edition -->
-
 Magento provides a log for _Login as Customer_ actions. In Magento Commerce, actions taken under Login as Customer are listed in the main Magento log.
-
-<!-- /Enterprise Edition -->
-
-## Permissions
-
-The Login as Customer feature is enabled for user roles in the Role Resources configuration.
-
-To set the Role Resources , go to **System** > _Permissions_ > **User Roles**.
-
-You can control user access when you create a new user or edit an existing one.
-
-There are two Access Control options:
-
-*  Login as Customer Button
-*  Login as Customer Log
-
-Set these for each Role you wish to have this feature.
 
 ## Using Login as Customer
 
 Login as Customer allows you to see the site just as the customer does, and allows you to troubleshoot and take other actions for the customer. If you have an assigned user role with the required permissions:
+
+To use Login as Customer, ensure the website is configured as described above.
 
 * You can click <span class="btn">Login as Customer</span> on the pages listed in the previous section.
 * The Login as Customer Log is available in the Admin.
@@ -77,4 +60,4 @@ Login as Customer allows you to see the site just as the customer does, and allo
 {.bs-callout-warning}
 Any actions taken while logged in "as Customer" (add/remove products, etc.) are applied to the actual customer's order.
 
-On the storefront, a banner is displayed when you are "logged in as customer" to provide a reminder of the special state.
+On the storefront, a banner is displayed when you are "logged in as customer_name" to provide a reminder of the special state.
