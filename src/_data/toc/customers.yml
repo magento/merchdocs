@@ -29,8 +29,6 @@ pages:
   - label: Managing Customer Accounts
     url: "/customers/customer-account-manage.html"
     children:
-    - label: Login as Customer
-      url: "/configuration/customers/login-as-customer.html"
     - label: Updating a Customer Profile
       url: "/customers/customer-account-update.html"
   - label: Customer Sign In
