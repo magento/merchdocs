@@ -16,8 +16,8 @@ Product Catalog
 Payment Methods
 :  Magento supports a wide variety of [payment methods]({% link payment/payments.md %}), services, and gateways that you can offer for your customers’ convenience.
 
-Shipping Methods
-:  Magento [shipping methods]({% link shipping/shipping.md %}) are easy to set up and give you the ability to connect with carriers who can ship your products all over the world.
+Delivery
+:  Magento [shipping]({% link shipping/delivery.md %}) and delivery options are easy to set up and give you the ability to connect with carriers who can ship your products all over the world.
 
 Taxes
 :  Manage your [taxes]({% link tax/taxes.md %}) with our native tools, or add third-party extensions from [Magento Marketplace][3]{:target="_blank"}.

@@ -55,9 +55,9 @@ The dashboard is the default [startup page]({% link configuration/advanced/admin
 
 1. In the `Dashboard` section, clear the **Use system value** check boxes for the date settings. Then, do the following:
 
-   -  Set **Year-To-Date Starts** to the **Month** and **Day**.
+   - Set **Year-To-Date Starts** to the **Month** and **Day**.
 
-   -  Set **Current Month Starts** to the **Day**.
+   - Set **Current Month Starts** to the **Day**.
 
    ![Admin Dashboard - date settings]({% link images/images/config-general-reports-dashboard.png %}){: .zoom}
    [_Starting Dates_]({% link configuration/advanced/admin.md %})
@@ -70,8 +70,8 @@ The dashboard chart can be generated in real-time or by using historical, aggreg
 
 1. In the **Dashboard** section, clear the **Use system value** checkbox and set **Use Aggregated Data** to one of the following:
 
-   -  For historical, aggregated data, choose `Yes`.
-   -  For real-time data, choose `No`.
+   - For historical, aggregated data, choose `Yes`.
+   - For real-time data, choose `No`.
 
    ![Admin dashboard - data source setting]({% link images/images/config-sales-dashboard.png %}){: .zoom}
    [_Dashboard Data Source_]({% link configuration/advanced/admin.md %})

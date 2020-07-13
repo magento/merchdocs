@@ -69,7 +69,7 @@ _Page Builder Apply Template grid_
 
 1. Use <span class="btn">Filters</span> to open the filters options, where you can filter templates by:
 
-   -  a range of template IDs (**ID**)
-   -  a range of creation dates (**Created**)
-   -  the template name (**Template Name**)
-   -  the content area (**Created For**)
+   - A range of template IDs (**ID**)
+   - A range of creation dates (**Created**)
+   - The template name (**Template Name**)
+   - The content area (**Created For**)

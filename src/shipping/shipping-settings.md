@@ -6,3 +6,7 @@ The shipping configuration establishes the point of origin for all shipments, yo
 
 ![]({% link images/images/config-sales-shipping-settings.png %}){: .zoom}
 _Shipping Settings_
+
+- [Point of Origin]({% link shipping/point-of-origin.md %})
+- [Shipping Policy]({% link shipping/shipping-policy-parameters.md %})
+- [Multiple Addresses]({% link shipping/shipping-multiaddress.md %})

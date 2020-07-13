@@ -48,6 +48,8 @@ pages:
   children:
   - label: 2FA
     url: "/configuration/security/2fa.html"
+  - label: Security.txt
+    url: "/configuration/security/security-txt.html"
   - label: Google reCAPTCHA
     url: "/configuration/security/google-recaptcha.html"
 - label: Customers
@@ -98,8 +100,8 @@ pages:
     url: "/configuration/sales/shipping-settings.html"
   - label: Multishipping Settings
     url: "/configuration/sales/multishipping-settings.html"
-  - label: Shipping Methods
-    url: "/configuration/sales/shipping-methods.html"
+  - label: Delivery Methods
+    url: "/configuration/sales/delivery-methods.html"
   - label: Google API
     url: "/configuration/sales/google-api.html"
   - label: Payment Methods
@@ -190,8 +192,6 @@ pages:
     url: "/configuration/services/saas.html"
   - label: OAuth
     url: "/configuration/services/oauth.html"
-  - label: Channels
-    url: "/configuration/services/channels.html"
 - label: Advanced
   url: "/configuration/advanced.html"
   children:

@@ -18,6 +18,8 @@ pages:
     url: "/magento/magento-account-create.html"
   - label: Sharing Your Account
     url: "/magento/magento-account-share.html"
+  - label: Securing Your Account
+    url: "/magento/magento-account-secure.html"
 - label: " Quick Tour"
   url: "/getting-started/quick-tour.html"
   children:
