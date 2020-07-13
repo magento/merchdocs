@@ -27,7 +27,7 @@ Login as Customer is enabled in the user role permissions.
 
 ## General Options
 
-![]({% link images/images-ee/config-customers-login-as-customer.png %}){: .zoom}
+![]({% link images/images-b2b/config-customers-login-as-customer.png %}){: .zoom}
 _General Options_
 
 | Option | Values | Description |
