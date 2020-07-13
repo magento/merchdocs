@@ -15,12 +15,11 @@ Google reCAPTCHA is configured separately for the Magento Admin and storefront.
 
 [Google reCAPTCHA][1] can be implemented in several ways:
 
-- Google reCAPTCHA v2 verifies users with one of the following verification methods:
+  - _reCAPTCHA v3 Invisible_ — Uses an algorithm to rate user interactions and determines the liklihood that the user is human based on a score.
 
-   - _"I am not a robot"_ requires users and customers to click the "I'm not a robot" checkbox and possibly select specific images to complete a challenge.
-   - The _Invisible reCAPTCHA_ badge (**recommended**) performs background verification without user interaction. Users and customers are automatically verified, but might be required to select specific images to complete a challenge.
+   - _reCAPTCHA v2 Invisible_ — (**recommended**) Performs background verification without user interaction. Users and customers are automatically verified, but might be required to select specific images to complete a challenge.
 
-- Google reCAPTCHA v3 uses an algorithm to rate user interactions and determines the liklihood that the user is human based on a score.
+   - _reCAPTCHA v2 ("I am not a robot")_ — Validates requests with the _"I'm not a robot"_ checkbox.
 
 {:.bs-callout-warning}
 Before Google reCAPTCHA can be configured, ensure that your `PHP.ini` file includes the following setting: `allow_url_fopen = 1`. This may require developer assistance. See [Required PHP Settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html){:target="_blank"}.
@@ -37,11 +36,9 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
 1. Choose the **reCAPTCHA type** that you want to use.
 
-   - _reCAPTCHA v3_ — Verifies requests with a score.
-
-   - _reCAPTCHA v2_ — Verifies with a button click or image selections.
-      _"I am not a robot" Checkbox_ - Validates requests with the _"I'm not a robot"_ checkbox.
-      _Invisible reCAPTCHA badge_ - Validates requests in the background.
+   - _reCAPTCHA v3 Invisible_
+   - _reCAPTCHA v2 Invisible_
+   - _reCAPTCHA v2 ("I am not a robot")_
 
 1. Enter your store's **Domain**. For example: mystore.com
 
@@ -130,11 +127,11 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
 1. Expand the **Admin Panel** section.
 
-1. Clear the **Use system value** checkbox for each field that you want to configure.
+1. Clear the **Use system value** checkbox for each field that you want to configure.  Then, configure the following fields as needed.
 
-1. Set **Enable for Login** to the reCAPTCHA type that you want to use for the Admin Sign In page.
+   - Set **Enable for Login** to the reCAPTCHA type that you want to use for the Admin Sign In page.
 
-1. Set **Enable for Forgot Password** to the reCAPTCHA type that you want to use for password reset requests.
+   - Set **Enable for Forgot Password** to the reCAPTCHA type that you want to use for password reset requests.
 
 ![]({% link images/images/config-security-google-recaptcha-admin.png %}){: .zoom}
 [_Admin Panel_]({% link configuration/security/google-recaptcha-admin.md %})
