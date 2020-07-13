@@ -8,7 +8,7 @@ Customers can use either of the following to request an RMA from the storefront:
 - [Orders and Returns Widget]({% link cms/widget-orders-returns.md %}) in sidebar
 - Orders and Returns link in footer
 
-As a best practice, make sure ro include a description of your RMA requirements and process in the store’s policy.
+As a best practice, make sure to include a description of your RMA requirements and process in the store’s policy.
 
 ## To request an RMA
 

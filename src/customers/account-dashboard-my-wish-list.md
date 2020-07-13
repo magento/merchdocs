@@ -16,7 +16,7 @@ _My Wish List_{:.ee-only}
     ![]({% link images/images-ee/account-dashboard-wishlist-edit-options.png %}){: .zoom}
     _Edit Options_{:.ee-only}
 
-1. To change the selection of product options, click **Edit**. Then, do the following:
+1. To change the selection of product options, click **Edit** and do the following:
 
     - Update the options on the product detail page.
     - Click **Update Wish List**.

@@ -8,26 +8,26 @@ The primary reason to maintain a requisition list is to make it easy to reorder 
 ![]({% link images/images-b2b/customer-account-my-requisition-lists.png %}){: .zoom}
 _My Requisition Lists_
 
-## To view a requisition list:
+## View a requisition list
 
 1. From your account dashboard, choose **My Requisition Lists**.
 
-1. Find the requisition list that you want to open, and click **View**. Then, do any of the following:
+1. Find the requisition list that you want to open, and click **View** and do any of the following:
 
-### Add Products to Cart
+### Add products to cart
 
 1. Do one of the following to select the products to be added.
 
-   -  Select the checkbox of each item
-   -  Click **Select All**.
+   - Select the checkbox of each item
+   - Click **Select All**.
 
 1. Enter the **Qty** to be added to the cart.
 
 1. To change any product options, do the following:
 
-   -  In the line item, click **Edit** (![]({% link images/images/btn-edit.png %}){: .Inline}).
-   -  Change any options that are necessary.
-   -  Click **Update Requisition List**.
+   - In the line item, click **Edit** (![]({% link images/images/btn-edit.png %})).
+   - Change any options that are necessary.
+   - Click **Update Requisition List**.
 
 1. Click <span class="btn">Add to Cart</span>.
 
@@ -38,10 +38,10 @@ _My Requisition Lists_
 
 1. Select the checkbox of each item to be moved.
 
-1. Click **Copy Selected**. Then, do one of the following:
+1. Click **Copy Selected** and do one of the following:
 
-   -  Choose an existing requisition list.
-   -  Click **Create New Requisition List**.
+   - Choose an existing requisition list.
+   - Click **Create New Requisition List**.
 
 ### Export list
 
@@ -55,10 +55,10 @@ Magento will generate and download a CSV list with `sku` and `qty` values.
 
 1. Select the checkbox of each item to be moved.
 
-1. Click **Move Selected**. Then, do one of the following:
+1. Click **Move Selected** and do one of the following:
 
-   -  Choose an existing requisition list.
-   -  Click **Create New Requisition List**.
+   - Choose an existing requisition list.
+   - Click **Create New Requisition List**.
 
 ### Print the List
 

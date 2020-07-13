@@ -4,12 +4,12 @@ title: Klarna
 
 Klarna lets your customers choose how they want to pay and supports the purchase with buyer protection and excellent customer service. Your customers can buy now and pay later, while you receive payment in full at the time of purchase.
 
-## Changes In the Latest Release
+## Changes in the latest release
 
-### New Features
+### New features
 
--  Added support for Australia and New Zealand markets
--  Improved configuration: Changed scope of API Configuration from `Store View` to `Website`; updated section name and field label changes.
+- Added support for Australia and New Zealand markets
+- Improved configuration: Changed scope of API Configuration from `Store View` to `Website`; updated section name and field label changes.
 
 ## Klarna payment methods
 

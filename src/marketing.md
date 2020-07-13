@@ -3,7 +3,7 @@ title: Marketing
 group: marketing
 sections:
   - title: Channels
-    content: Learn about the tools available to integrate your Magento store with sales and marketing channels like the Amazon Marketplace and Google ads.
+    content: Learn about the integrating your Magento store and catalog with your Amazon Seller Central account.
     url: /sales-channels/sales-channels-home.html
 
   - title: Shopping Tools

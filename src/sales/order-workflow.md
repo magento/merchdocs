@@ -18,9 +18,3 @@ Step 4: Invoice Order
 
 Step 5: Book a Single Shipment
 : When the shipment detail is complete, the shipment is booked, and the packing slip and shipping label are printed. The customer receives notification, and the package is shipped. If tracking numbers are used, the shipment can be tracked from the customer’s account.
-
-  **Book a Batch of Shipments**
-  (Magento Shipping only) Enter and process the shipment information for multiple orders as a [batch]({% link shipping/magento-shipping-batch-create.md %}).
-
-Step 6: Create a Dispatch
-: (Magento Shipping only) Create a [dispatch]({% link sales/dispatches.md %}) that lists the packages that are ready for pickup and print the manifest.

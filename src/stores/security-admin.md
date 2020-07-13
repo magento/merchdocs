@@ -4,7 +4,7 @@ title: Configuring Admin Security
 
 Magento recommends that you take a multifaceted approach to protect the security of your store. You can begin by using a [custom Admin URL]({% link stores/store-urls-custom-admin.md %}) that is not easy to guess, rather than the obvious “Admin” or “Backend.” By default, passwords that are used to [log in]({% link stores/admin-signin.md %}) to the Magento Admin must be seven or more characters long and include both letters and numbers. As a [best practice][1]{:target="_blank"}, use only strong Admin passwords that include a combination of letters, numbers, and symbols.
 
-For increased security, consider implementing two-factor authentication that generates a token on a separate device. To learn more, see the selection of security-related extensions on [Magento Marketplace][2]{:target="_blank"}.
+For increased security, consider implementing [two-factor authentication]({% link stores/security-two-factor-authentication.md %}) to verify users' identity with a one-time password that is generated on a separate device.
 
 The Admin security configuration gives you the ability to add a secret key to URLs, require passwords to be case sensitive, and to limit the length of Admin sessions, the lifetime of passwords, and the number of login attempts that can be made before the Admin user account is [locked]({% link system/permissions-locked-users.md %}). For increased security, you can configure the length of keyboard inactivity before the current session expires, and require the user name and password to be case-sensitive. For additional security, the Admin login can be configured to require a [CAPTCHA]({% link stores/security-captcha.md %}).
 

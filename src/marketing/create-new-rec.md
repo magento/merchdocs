@@ -16,6 +16,9 @@ After you create and activate the recommendation unit, Magento will begin [colle
 
 1. Specify the [Store View]({% link configuration/scope-change.md %}) where you want the recommendations to display.
 
+   {:.bs-callout-info}
+   You can create recommendation units for the Page Builder page type only in the default store view.
+
 1. Click the **Create Recommendation** button.
 
 1. In the **Name your Recommendation** section, enter an internally-facing name that uniquely identifies the recommendation on your dashboard, such as *Home page most popular*.
@@ -26,12 +29,12 @@ After you create and activate the recommendation unit, Magento will begin [colle
    You can create up to five active recommendation units for each page type. If a page type option is grayed-out in the Admin UI, the limit has been reached and an explanation is shown. However, the Page Builder page type allows you to create up to 25 recommendation units because you can use Page Builder to edit arbitrary content types.
 
    Options are:
-   -  **Home Page**
-   -  **Category**
-   -  **Product Detail**
-   -  **Cart**
-   -  **Confirmation**
-   -  **[Page Builder]({% link marketing/page-builder-add-product-recs.md %})**
+   - **Home Page**
+   - **Category**
+   - **Product Detail**
+   - **Cart**
+   - **Confirmation**
+   - **[Page Builder]({% link marketing/page-builder-add-product-recs.md %})**
 
 1. In the **Select Recommendation type** section, specify the type of recommendation you want to appear on the selected page type. Note that certain page types [restrict what type of recommendation]({% link marketing/product-recommendations.md %}#supportedrecs) you can select.
 
@@ -49,8 +52,8 @@ After you create and activate the recommendation unit, Magento will begin [colle
 1. In the **Select placement** section, specify the [container where you want the recommendation unit]({% link marketing/product-recommendations.md %}#productrecplacement) to appear on the page.
 
    Options are:
-   -  **At the bottom of main content**
-   -  **At the top of main content**
+   - **At the bottom of main content**
+   - **At the top of main content**.
 
 1. (Optional) Select and move the rows in the **Choose position** table to order the recommendations within the container.
 
@@ -60,6 +63,6 @@ After you create and activate the recommendation unit, Magento will begin [colle
 
 1. When you finish configuring your recommendation you can click:
 
-    -  **Save as draft** to edit the recommendation unit at a later date. Note that you cannot modify the page type or recommendation type for a recommendation unit in a draft state.
+    - **Save as draft** to edit the recommendation unit at a later date. Note that you cannot modify the page type or recommendation type for a recommendation unit in a draft state.
 
-    -  **Activate** to enable the recommendation unit on your storefront.
+    - **Activate** to enable the recommendation unit on your storefront.

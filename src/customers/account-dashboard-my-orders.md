@@ -4,7 +4,7 @@ title: My Orders
 
 Customers have access to all of their orders from their account. Orders can be viewed, filtered, tracked, and resubmitted as new orders. Depending on the status of the order, customers can print their orders, invoices, shipments, and refund records.
 
-![]({% link images/images-b2b/customer-account-my-orders.png %}){: .zoom}
+![]({% link images/images-b2b/customer-account-dashboard-my-orders.png %}){: .zoom}
 _My Orders_{:.b2b-only}
 
 {:.b2b-only}
@@ -24,10 +24,12 @@ Your initial _My Orders_ results also contain matching orders from subordinate u
 
 ## View an order
 
-Find the order in the list and click **View Order**. From the open order, do any of the following:
+Find the order in the list and click **View Order** in the _Action_ column.
 
 ![]({% link images/images-ee/customer-account-order-items-ordered.png %}){: .zoom}
 _View Order_{:.ee-only}
+
+From the open order, do any of the following:
 
 ### Reorder
 
@@ -43,45 +45,39 @@ _View Order_{:.ee-only}
 
 ### Print invoices
 
-1. On the **Invoices** tab, click one of the following:
+1. Click the **Invoices** tab.
 
-   -  **Print All Invoices**
+   - **Print All Invoices**
 
-   -  **Print Invoice**
-
-   ![]({% link images/images-ee/customer-account-order-invoices.png %}){: .zoom}
-   _Invoices_{:.ee-only}
+   - **Print Invoice**
 
 1. Use the Print dialog to complete the printing.
 
 ### Print shipments
 
-1. On the **Order Shipments** tab, click one of the following:
+1. Click the **Order Shipments** tab.
 
-   -  **Print All Shipments**
+   - **Print All Shipments**
 
-   -  **Print Shipment**
-
-   ![]({% link images/images-ee/customer-account-order-shipments.png %}){: .zoom}
-   _Print All Shipments_{:.ee-only}
+   - **Print Shipment**
 
 1. Use the Print dialog to complete the printing.
 
 ### Track a shipment
 
-1. On the **Order Shipments** tab, click **Track this Shipment**.
+1. Click the **Order Shipments** tab.
 
-1. Any tracking information that is available appears in a popup window.
+   This displays a window with any available tracking information.
 
 1. When ready, <span class="btn">Close Window</span>.
 
 ### Print refunds
 
-1. On the **Refunds** tab, click one of the following:
+1. Click the **Refunds** tab.
 
-   -  **Print All Refunds**
+   - **Print All Refunds**
 
-   -  **Print Refund**
+   - **Print Refund**
 
    ![]({% link images/images-ee/customer-account-order-refunds.png %}){: .zoom}
    _Refunds_{:.ee-only}
