@@ -16,11 +16,11 @@ To create rules, users with the required role permissions can click the **Approv
 Permissions to create rules can be set by selecting **Roles and Permissions** in the left panel.
 
 If no rules have been created, the list is empty. Click <span class="btn">Create Rule<span> to create a new rule. 
-Click the button to create a new rule.
 
 On the Approval Rules form, any of the created rules can be enabled or disabled.
 
-Note: When assigning a role as an approver, ensure that there is at least one user in that role.
+{:.bs-callout-info}
+When assigning a role as an approver, ensure that there is at least one user in that role.
 
 ## Rule types and common options
 
@@ -35,7 +35,7 @@ All rules have common options:
 
 Companies can require approvals from one or more users in other roles.
 
-To require an approval, choose the required approver(s) from the multi-select list.
+To require an approval, choose the required approver(s) from the Approver list.
 
 ### Order Total
 
@@ -51,7 +51,6 @@ Choose an **Order Total amount** option:
 Select the currency type and enter the amount.
 
 Select the role(s) that need to approve this type of PO.
-All defined roles will be listed, a "Purchaser's Manager" option.
 Click  <span class="btn">Save</span>.
 
 ### Number of SKUs
@@ -85,4 +84,4 @@ Set the **Shipping cost value**:
 *  is more than or equal to
 *  is less than or equal to
 
-and the shipping amount to test.
+Set the desired shipping amount.

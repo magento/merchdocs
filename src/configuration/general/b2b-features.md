@@ -34,3 +34,6 @@ When companies are enabled, additional fields are available.
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |[Enable Purchase Orders]({% link catalog/catalog-shared.md %})|Website|When enabled, allows companies to create purchase orders. Options: Yes / No|
+
+![]({% link images/images-b2b/config-general-b2b-features-order_approval_config.png %}){: .zoom}
+_B2B Features - Order Approval Configuration_
