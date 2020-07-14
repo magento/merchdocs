@@ -120,7 +120,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
       - For **[Language Code](https://developers.google.com/recaptcha/docs/language)**, enter a two-character code that specifies the language that is used for Google reCAPTCHA text and messaging.
 
-      - In the **reCAPTCHA Validation Failure Message** field, enter the message to appear if validation fails. Default: You cannot proceed with such operation, your reCAPTCHA reputation is too low.
+      - For **reCAPTCHA Validation Failure Message**, enter the message to appear if validation fails. Default: You cannot proceed with such operation, your reCAPTCHA reputation is too low.
 
    ![]({% link images/images/config-security-google-recaptcha-admin-v3-invisible.png %}){: .zoom}
    [_reCAPTCHA v3 Invisible_]({% link configuration/security/google-recaptcha-admin.md %})
