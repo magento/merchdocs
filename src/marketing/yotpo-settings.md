@@ -8,6 +8,8 @@ Access these basic Yotpo settings in the Magento Admin at **Stores** > _Settings
 
 Additional Yotpo features and options are dependent on the Yotpo plan you choose. Magento supports the Free, Growth, and Premium plans. See Yotpo [Plan Information](https://www.yotpo.com/pricing/) for plans and features.
 
+See also [Yotpo documentation](https://support.yotpo.com/en/article/setting-up-yotpo-on-magento-v22-and-above) for information on mapping order statuses sent to Yotpo, sync settings, manually adding Yotpo's Reviews Widget to product pages, and manually placing Star Ratings on category pages.
+
 ## Default Widget Settings
 
 ![Yotpo configuration - widget settings]({% link images/images/yotpo-config-widget.png %}){: .zoom}
