@@ -4,6 +4,8 @@ title: Reviews and Visual Marketing
 
 Basic Yotpo settings are accessed in the _Admin_ > **Stores** > _Configuration_ > _Yotpo_ > **Reviews and Visual Marketing**. Yotpo settings default as follows.
 
+See also [Yotpo documentation](https://support.yotpo.com/en/article/setting-up-yotpo-on-magento-v22-and-above) for information on mapping order statuses sent to Yotpo, sync settings, manually adding Yotpo's Reviews Widget to product pages, and manually placing Star Ratings on category pages.
+
 ## Setup
 
 To view Yotpo Setup fields, you must select the store view in the _Default Config_ drop-down.
@@ -14,8 +16,8 @@ _Yotpo Default Setup Settings_
 |Field|Default|Description|
 |---|---|
 |Enable Yotpo|No|Options: Yes / No|
-|App Key|Your Magento account username|App Key value from your Yotpo account settings.|
-|API Secret|Your Magento account password|API Secret value from your Yotpo account settings.|
+|App Key|Your Magento account username|Enter the App Key value from your Yotpo account settings.|
+|API Secret|Your Magento account password|Enter the API Secret value from your Yotpo account settings.|
 
 To find your App Key and API Sectret values in your Yotpo account settings, see [Finding your Yotpo App Key and API Secret](https://support.yotpo.com/en/article/finding-your-yotpo-app-key-and-api-secret).
 
