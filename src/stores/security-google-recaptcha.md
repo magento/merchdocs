@@ -40,7 +40,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
    - _reCAPTCHA v2 Invisible_
    - _reCAPTCHA v2 ("I am not a robot")_
 
-1. Enter your store's **Domain**. For example: mystore.com
+1. For **Domain**, enter your store's domain. For example: mystore.com
 
    If you have multiple stores with different domains, enter each domain on a separate line.
 
