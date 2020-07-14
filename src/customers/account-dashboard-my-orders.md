@@ -4,7 +4,7 @@ title: My Orders
 
 Customers have access to all of their orders from their account. Orders can be viewed, filtered, tracked, and resubmitted as new orders. Depending on the status of the order, customers can print their orders, invoices, shipments, and refund records.
 
-![]({% link images/images-b2b/customer-account-my-orders.png %}){: .zoom}
+![]({% link images/images-b2b/customer-account-dashboard-my-orders.png %}){: .zoom}
 _My Orders_{:.b2b-only}
 
 {:.b2b-only}
@@ -45,9 +45,9 @@ _View Order_{:.ee-only}
 
 1. On the **Invoices** tab, click one of the following:
 
-   -  **Print All Invoices**
+   - **Print All Invoices**
 
-   -  **Print Invoice**
+   - **Print Invoice**
 
    ![]({% link images/images-ee/customer-account-order-invoices.png %}){: .zoom}
    _Invoices_{:.ee-only}
@@ -58,9 +58,9 @@ _View Order_{:.ee-only}
 
 1. On the **Order Shipments** tab, click one of the following:
 
-   -  **Print All Shipments**
+   - **Print All Shipments**
 
-   -  **Print Shipment**
+   - **Print Shipment**
 
    ![]({% link images/images-ee/customer-account-order-shipments.png %}){: .zoom}
    _Print All Shipments_{:.ee-only}
@@ -79,9 +79,9 @@ _View Order_{:.ee-only}
 
 1. On the **Refunds** tab, click one of the following:
 
-   -  **Print All Refunds**
+   - **Print All Refunds**
 
-   -  **Print Refund**
+   - **Print Refund**
 
    ![]({% link images/images-ee/customer-account-order-refunds.png %}){: .zoom}
    _Refunds_{:.ee-only}
