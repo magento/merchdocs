@@ -40,3 +40,12 @@ _Company Account Dashboard_{:.b2b-only}
 | <span class="b2b-only">[Company Users]({% link customers/account-company-users.md %})</span> | (Companies Only) Used by the company administrator to create user accounts for company buyers.  |
 | <span class="b2b-only">[Roles and Permissions]({% link customers/account-company-roles-permissions.md %})</span> | (Companies Only) Used by the company administrator to define roles for company users with various levels of permission. |
 | <span class="b2b-only">[Approval Rules]({% link customers/account-dashboard-approval-rules.md %})</span> | (Companies Only) Used to define approval rules for purchase orders. |
+
+<!--
+  This is a style declaration so that section names in column 1 are not wrapped by table auto styling for column widths.
+-->
+<style>
+.sections-table td:first-of-type {
+  width: 200px;
+}
+</style>

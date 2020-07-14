@@ -11,8 +11,8 @@ When a quote is opened, the prices are verified to reflect the current shared ca
 
 1. Do one of the following:
 
-   -  If you are already logged in to your account, click the link in the email.
-   -  Log in to your account.
+   - If you are already logged in to your account, click the link in the email.
+   - Log in to your account.
 
 1. In the account sidebar, choose **My Quotes**.
 
@@ -28,11 +28,11 @@ When a quote is opened, the prices are verified to reflect the current shared ca
 
 1. When you receive an updated quote from the seller, look for any of the following changes on the **Items Quoted** tab:
 
-    - Products added or removed
-    - Change in quantity
-    - Discounted Quote Subtotal
-    - Shipping method
-    - Attached file
+   - Products added or removed
+   - Change in quantity
+   - Discounted Quote Subtotal
+   - Shipping method
+   - Attached file
 
 1. On the **Comments** tab, read the reply from the seller.
 
@@ -58,15 +58,15 @@ Make any of the following changes to the quote:
 
 1. To choose a different address from your [address book]({% link customers/account-dashboard-address-book.md %}), do the following:
 
-    - Go to the **Shipping Information** section and click **Select Existing Address**.
-    - Choose an address from your [Address Book]({% link customers/account-dashboard-address-book.md %}).
-    - When prompted to confirm, click <span class="btn">Save</span>.
+   - Go to the **Shipping Information** section and click **Select Existing Address**.
+   - Choose an address from your [Address Book]({% link customers/account-dashboard-address-book.md %}).
+   - When prompted to confirm, click <span class="btn">Save</span>.
 
 1. To add a new address, click **Add New Address**.
 
-    - Add the new address to your [Address Book]({% link customers/account-dashboard-address-book.md %}).
+   - Add the new address to your [Address Book]({% link customers/account-dashboard-address-book.md %}).
 
-    If the shipping address is changed during a price negotiation, the quote must be sent back to the seller for review.
+   If the shipping address is changed during a price negotiation, the quote must be sent back to the seller for review.
 
 ### Attach a file
 
@@ -109,11 +109,11 @@ Make any of the following changes to the quote:
 
 ## Step 4 (Purchase order): Place the order
 
-When Purchase Orders are enabled for the company, orders are automatically created as Purchase Orders. This requires that the purchase order goes through any defined approval process.
+When purchase orders are enabled for the company, orders are automatically created as purchase orders. This requires that the purchase order goes through any defined approval process.
 
 1. To complete the purchase, click <span class="btn">Proceed to Checkout</span>.
 
-1. Follow the [purchase order process](https://docs.magento.com/m2/b2b/user_guide/payment/purchase-order.html).
+1. Follow the [purchase order process]({% link payment/purchase-order.md %}).
 
 ## Field descriptions
 
