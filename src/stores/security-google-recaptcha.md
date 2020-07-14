@@ -95,7 +95,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
      - For **Google API Secret Key**, enter the secret key that is associated with your Google reCAPTCHA account.
 
-      - Choose the **Invisible Badge Position** to be used on each page. Options: Inline / Bottom Right / Bottom Left
+      - For **Invisible Badge Position**, choose the badge position to be used on each page. Options: Inline / Bottom Right / Bottom Left
 
       - Choose the **Theme** that is used to style the Google reCAPTCHA box. Options: Light Theme (default) / Dark Theme
 
