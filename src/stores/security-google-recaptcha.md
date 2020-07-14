@@ -34,7 +34,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
    You need one set of keys for each reCAPTCHA type that is used in your Magento installation. For example: `Magento v2 Invisible`
 
-1. Choose the **reCAPTCHA type** that you want to use.
+1. For **reCAPTCHA type**, choose the method that you want to use.
 
    - _reCAPTCHA v3 Invisible_
    - _reCAPTCHA v2 Invisible_
