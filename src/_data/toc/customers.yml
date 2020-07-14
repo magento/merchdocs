@@ -31,6 +31,8 @@ pages:
     children:
     - label: Updating a Customer Profile
       url: "/customers/customer-account-update.html"
+    - label: Using Login As Customer
+      url: "/customers/login-as-customer.html"    
   - label: Customer Sign In
     url: "/customers/customer-sign-in.html"
     children:
