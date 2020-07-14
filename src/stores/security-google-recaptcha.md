@@ -99,7 +99,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
       - For **Theme**, choose the theme to be used to style the Google reCAPTCHA box. Options: Light Theme (default) / Dark Theme
 
-      - Enter a two-character **[Language Code](https://developers.google.com/recaptcha/docs/language)** that specifies the language that is used for Google reCAPTCHA text and messaging.
+      - For **[Language Code](https://developers.google.com/recaptcha/docs/language)**, enter a two-character code that specifies the language that is used for Google reCAPTCHA text and messaging.
 
       - In the **reCAPTCHA Validation Failure Message** field, enter the message to appear if validation fails. Default: You cannot proceed with such operation, your reCAPTCHA reputation is too low.
 
