@@ -80,7 +80,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
    - For **Size**, choose the size of the Google reCAPTCHA box that you want to appear. Options: Normal (default) / Compact
 
-   - Choose the theme that you want to use to style the Google reCAPTCHA box. Options: Light Theme (default) / Dark Theme
+   - For **Theme**, choose the theme that you want to use to style the Google reCAPTCHA box. Options: Light Theme (default) / Dark Theme
 
    - Enter the two-character **[Language Code](https://developers.google.com/recaptcha/docs/language)** to specify the language used for Google reCAPTCHA text and messaging.
 
