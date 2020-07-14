@@ -15,7 +15,7 @@ Google reCAPTCHA is configured separately for the Magento Admin and storefront.
 
 [Google reCAPTCHA][1] can be implemented in several ways:
 
-  - _reCAPTCHA v3 Invisible_ — Uses an algorithm to rate user interactions and determines the liklihood that the user is human based on a score.
+  - _reCAPTCHA v3 Invisible_ — Uses an algorithm to rate user interactions and determines the likelihood that the user is human based on a score.
 
    - _reCAPTCHA v2 Invisible_ — Performs background verification without user interaction. Users and customers are automatically verified, but might be required to select specific images to complete a challenge.
 
