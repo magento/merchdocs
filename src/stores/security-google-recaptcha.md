@@ -78,7 +78,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
    - For **Google API Secret Key**, enter the secret key that is associated with your Google reCAPTCHA account.
 
-   - Choose the **Size** of the Google reCAPTCHA box that you want to appear. Options: Normal (default) / Compact
+   - For **Size**, choose the size of the Google reCAPTCHA box that you want to appear. Options: Normal (default) / Compact
 
    - Choose the theme that you want to use to style the Google reCAPTCHA box. Options: Light Theme (default) / Dark Theme
 
