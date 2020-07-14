@@ -116,7 +116,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
       - For **Invisible Badge Position**, choose the position to be used on each page. Options: Inline / Bottom Right / Bottom Left
 
-      - Choose the **Theme** that is used to style the Google reCAPTCHA box. Options: Light Theme (default) / Dark Theme
+      - For **Theme**, choose the theme to be used to style the Google reCAPTCHA box. Options: Light Theme (default) / Dark Theme
 
       - Enter a two-character **[Language Code](https://developers.google.com/recaptcha/docs/language)** that specifies the language that is used for Google reCAPTCHA text and messaging.
 
