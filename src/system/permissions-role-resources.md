@@ -14,6 +14,7 @@ Access to the following resources can be assigned to a custom role. See the link
 ||[Inventory]({% link catalog/products.md %})|Products<br/>Categories|
 ||<span class="b2b-only">[Shared Catalog]({% link catalog/catalog-shared.md %})</span>| Manage Shared Catalog|
 |[Customers]({% link customers.md %}) | [All Customers]({% link customers/customers-all.md %})<br/>[Now Online]({% link customers/now-online.md %})<br/>Customer Groups<br/>Segments<br/>||
+||[Login as Customer]({% link customers/login-as-customer.md %})|Allow Login as Customer Button<br/><span class="ee-only">View Login as Customer Log</span>|
 ||<span class="b2b-only">[Companies]({% link customers/account-companies.md %})</span>| [ Manage Companies]({% link customers/account-company-manage.md %}) <br/>Add New Company <br/>Delete Company <br/>Reimburse Balance |
 |[Carts]({% link sales/cart.md %})|[Manage carts]({% link sales/cart.md %})||
 |[My Account]({% link customers/customer-account.md %})|||
