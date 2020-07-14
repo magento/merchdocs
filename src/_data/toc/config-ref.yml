@@ -48,6 +48,10 @@ pages:
   children:
   - label: 2FA
     url: "/configuration/security/2fa.html"
+  - label: Google reCAPTCHA Admin Panel
+    url: "/configuration/security/google-recaptcha-admin.html"
+  - label: Google reCAPTCHA Storefront
+    url: "/configuration/security/google-recaptcha-storefront.html"
   - label: Security.txt
     url: "/configuration/security/security-txt.html"
   - label: Google reCAPTCHA
