@@ -161,6 +161,7 @@ _[Quotes]({% link customers/account-dashboard-quotes.md %})_
 |Send Quote Email Copy To|Store View|Specifies the email address of each person who is to receive a copy of the quote email. Separate multiple addresses with a comma.|
 |Send Quote Email Copy Method|Store View|Indicates the email method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
 
+{:.ee-only}
 ## RMA
 
 ![]({% link images/images-ee/config-sales-sales-emails-rma.png %}){: .zoom}

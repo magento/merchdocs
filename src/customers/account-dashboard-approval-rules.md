@@ -5,83 +5,96 @@ title: Approval Rules
 Most companies have order approval rules for purchase orders. Companies can control who can create purchase orders and how much they can spend.
 For example:
 
-*  Any PO less than X value is automatically approved.
-*  POs over X value but less than Q must be approved by Y.
-*  Any PO over X value must be approved by Y and Z.
-*  A PO created by anyone at the Director level or above is automatically approved.
+* Any PO less than X value is automatically approved.
+* POs over X value but less than Q must be approved by Y.
+* Any PO over X value must be approved by Y and Z.
+* A PO created by anyone at the Director level or above is automatically approved.
 
-Magento lets you set up these rules to enforce company policies.
+With the required [permissions for their role]({% link customers/account-company-roles-permissions.md %}), B2B customers can set up approval rules to enforce company policies. This also requires a defined [company structure]({% link customers/account-company-structure.md %}) in order to specify approval by the purchaser's manager.
 
-To create rules, users with the required role permissions can click the **Approval Rules** link in the left panel.
-Permissions to create rules can be set by selecting **Roles and Permissions** in the left panel.
+To access the approval rules for your company, click **Approval Rules** in the left panel for your customer account.
 
-If no rules have been created, the list is empty. Click <span class="btn">Create Rule<span> to create a new rule. 
+![]({% link images/images-b2b/storefront-approval-rules.png %}){: .zoom}
+_Company Approval Rules_
 
-On the Approval Rules form, any of the created rules can be enabled or disabled.
+If no rules have been created, the list displays "We could not find any records." For the listed rules, you can click **Edit** to enable or disable a rule.
 
-{:.bs-callout-info}
-When assigning a role as an approver, ensure that there is at least one user in that role.
+## Create an approval rule
 
-## Rule types and common options
+1. Click <span class="btn">Add New Rule<span> to create a new rule.
 
-Choose the **Rule Type**.
-All rules have common options:
+1. If needed, change the rule from **Enabled** to **Disabled**.
 
-*  For **Rule name**, enter a short but descriptive name for the Rule, such as `Orders less than $100`. Names must be unique.
-*  For **Description**, enter a longer explanation of the rule.
-*  For **Applies to**, choose the company role(s) that this rule will apply to.
+   The rule is set to be enabled as the default, but you can create the rule using a disabled setting and then enable it later when you are ready to enforce it.
 
-### Requires approval from
+1. For **Rule name**, enter a short but descriptive name for the Rule, such as `Orders less than $100`.
 
-Companies can require approvals from one or more users in other roles.
+   Rule names must be unique.
 
-To require an approval, choose the required approver(s) from the Approver list.
+1. For **Description**, enter a longer explanation of the rule.
+
+1. For **Applies to**, choose the company role(s) that this rule will apply to.
+
+1. Choose the **Rule Type** and define the rule.
+
+   See the following sections for a detailed explanation and example for each rule type.
+
+1. For **Requires approval from** choose the required approver(s) according to the type of approval you want for the rule.
+
+   {:.bs-callout-info}
+   When assigning a role as an approver, ensure that there is at least one user in that role.
+
+1. Click <span class="btn">Save</span>.
 
 ### Order Total
 
-Approve the PO from the order total, including tax.
+Use this rule type to require a PO approval based on the order total, including tax.
 
-Choose an **Order Total amount** option:
+1. Choose an **Order Total amount** option:
 
-*  is more than
-*  is less than
-*  is more than or equal to
-*  is less than or equal to
+   * is more than
+   * is less than
+   * is more than or equal to
+   * is less than or equal to
 
-Select the currency type and enter the amount.
+1. Select the currency type and enter the amount.
 
-Select the role(s) that need to approve this type of PO.
-Click  <span class="btn">Save</span>.
-
-### Number of SKUs
-
-This rule is based on the number of SKUs or unique products in the order.
-This is the number of distinct item types, not the number of items being ordered.
-For example:
-
-*  2 large white shirts
-*  3 medium white shirts
-
-That is 5 items, but 2 distinct SKUs.
-
-Set the **Number of SKUs** value:
-
-*  is more than
-*  is less than
-*  is more than or equal to
-*  is less than or equal to
-
-Set the quantity of SKUs to test.
+![]({% link images/images-b2b/storefront-approval-rule-order-total.png %}){: .zoom}
+_Order Total Approval Rule_
 
 ### Shipping cost
 
-Some companies need to limit or control shipping costs. The following example rule settings can be used to approve or disapprove a PO based on shipping cost.
+Use this rule type to require a PO approval based on shipping cost, which many companies need to limit or control.
 
-Set the **Shipping cost value**:
+1. Set the **Shipping cost value**:
 
-*  is more than
-*  is less than
-*  is more than or equal to
-*  is less than or equal to
+   * is more than
+   * is less than
+   * is more than or equal to
+   * is less than or equal to
 
-Set the desired shipping amount.
+1. Set the desired shipping amount.
+
+![]({% link images/images-b2b/storefront-approval-rule-shipping-cost.png %}){: .zoom}
+_Shipping Cost Approval Rule_
+
+### Number of SKUs
+
+Use this rule type to require a PO approval based on on the number of SKUs or unique products in the order. This is the number of distinct item types, not the number of items being ordered. For example, a PO could include:
+
+* 2 large white shirts
+* 3 medium white shirts
+
+This is five items, but two distinct SKUs.
+
+1. Set the **Number of SKUs** value:
+
+   * is more than
+   * is less than
+   * is more than or equal to
+   * is less than or equal to
+
+1. Set the quantity of SKUs.
+
+![]({% link images/images-b2b/storefront-approval-rule-number-skus.png %}){: .zoom}
+_Number of SKUs Approval Rule_
