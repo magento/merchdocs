@@ -2,7 +2,7 @@
 title: Google reCAPTCHA
 ---
 
-Google reCAPTCHA ensures that a human being, rather than a computer, is interacting with your website. Unlike the standard Magento [CAPTCHA]({% link stores/security-captcha.md %}), Google reCAPTCHA provides enhanced security with a selection of different display options and methods. Additional website traffic information is available in the dashboard of your Google reCAPTCHA account.
+Google reCAPTCHA ensures that a human being, rather than a computer (or "bot"), is interacting with your website. Unlike the standard Magento [CAPTCHA]({% link stores/security-captcha.md %}), Google reCAPTCHA provides enhanced security with a selection of different display options and methods. Additional website traffic information is available in the dashboard of your Google reCAPTCHA account.
 
 Google reCAPTCHA is configured separately for the Magento Admin and storefront.
 
