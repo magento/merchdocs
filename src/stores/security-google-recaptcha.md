@@ -91,7 +91,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
 1. To use _reCAPTCHA v2 Invisible_, expand the **reCAPTCHA v2 Invisible** section and do the following:
 
-     - In the **Google API Website Key** field, enter the website key that was created for this reCAPTCHA type when you registered your Google reCAPTCHA account.
+     - For **Google API Website Key**, enter the website key that was created for this reCAPTCHA type when you registered your Google reCAPTCHA account.
 
      - Enter the **Google API Secret Key** that is associated with your Google reCAPTCHA account.
 
