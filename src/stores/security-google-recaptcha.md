@@ -15,11 +15,11 @@ Google reCAPTCHA is configured separately for the Magento Admin and storefront.
 
 [Google reCAPTCHA][1] can be implemented in several ways:
 
-  - _reCAPTCHA v3 Invisible_ — Uses an algorithm to rate user interactions and determines the likelihood that the user is human based on a score.
+- _reCAPTCHA v3 Invisible_ — Uses an algorithm to rate user interactions and determines the likelihood that the user is human based on a score.
 
-   - _reCAPTCHA v2 Invisible_ — Performs background verification without user interaction. Users and customers are automatically verified, but might be required to select specific images to complete a challenge.
+- _reCAPTCHA v2 Invisible_ — Performs background verification without user interaction. Users and customers are automatically verified, but might be required to select specific images to complete a challenge.
 
-   - _reCAPTCHA v2 ("I am not a robot")_ — Validates requests with the _"I'm not a robot"_ checkbox.
+- _reCAPTCHA v2 ("I am not a robot")_ — Validates requests with the _"I'm not a robot"_ checkbox.
 
 {:.bs-callout-warning}
 Before Google reCAPTCHA can be configured, ensure that your `PHP.ini` file includes the following setting: `allow_url_fopen = 1`. This may require developer assistance. See [Required PHP Settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html){:target="_blank"}.
@@ -91,36 +91,36 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
 1. To use _reCAPTCHA v2 Invisible_, expand the **reCAPTCHA v2 Invisible** section and do the following:
 
-     - For **Google API Website Key**, enter the website key that was created for this reCAPTCHA type when you registered your Google reCAPTCHA account.
+   - For **Google API Website Key**, enter the website key that was created for this reCAPTCHA type when you registered your Google reCAPTCHA account.
 
-     - For **Google API Secret Key**, enter the secret key that is associated with your Google reCAPTCHA account.
+   - For **Google API Secret Key**, enter the secret key that is associated with your Google reCAPTCHA account.
 
-      - For **Invisible Badge Position**, choose the badge position to be used on each page. Options: Inline / Bottom Right / Bottom Left
+   - For **Invisible Badge Position**, choose the badge position to be used on each page. Options: Inline / Bottom Right / Bottom Left
 
-      - For **Theme**, choose the theme to be used to style the Google reCAPTCHA box. Options: Light Theme (default) / Dark Theme
+   - For **Theme**, choose the theme to be used to style the Google reCAPTCHA box. Options: Light Theme (default) / Dark Theme
 
-      - For **[Language Code](https://developers.google.com/recaptcha/docs/language)**, enter a two-character code that specifies the language that is used for Google reCAPTCHA text and messaging.
+   - For **[Language Code](https://developers.google.com/recaptcha/docs/language)**, enter a two-character code that specifies the language that is used for Google reCAPTCHA text and messaging.
 
-      - For **reCAPTCHA Validation Failure Message**, enter the message to appear if validation fails. Default: You cannot proceed with such operation, your reCAPTCHA reputation is too low.
+   - For **reCAPTCHA Validation Failure Message**, enter the message to appear if validation fails. Default: You cannot proceed with such operation, your reCAPTCHA reputation is too low.
 
    ![]({% link images/images/config-security-google-recaptcha-admin-v2-invisible.png %}){: .zoom}
    [_reCAPTCHA v2 Invisible_]({% link configuration/security/google-recaptcha-admin.md %})
 
 1. To use _reCAPTCHA v3 Invisible_, expand the **reCAPTCHA v3 Invisible** section and do the following:
 
-      - For **Google API Website Key**, enter the website key that was created for this reCAPTCHA type when you registered your Google reCAPTCHA account.
+   - For **Google API Website Key**, enter the website key that was created for this reCAPTCHA type when you registered your Google reCAPTCHA account.
 
-      - For **Google API Secret Key**, enter the secret key that is associated with your Google reCAPTCHA account.
+   - For **Google API Secret Key**, enter the secret key that is associated with your Google reCAPTCHA account.
 
-      - Enter the **Minimum Score Threshold** to identify when a user intraction is flagged as a potential risk; where 1.0 is a typical user interaction, and 0.0 is likely a bot. Default: 0.5
+   - Enter the **Minimum Score Threshold** to identify when a user intraction is flagged as a potential risk; where 1.0 is a typical user interaction, and 0.0 is likely a bot. Default: 0.5
 
-      - For **Invisible Badge Position**, choose the position to be used on each page. Options: Inline / Bottom Right / Bottom Left
+   - For **Invisible Badge Position**, choose the position to be used on each page. Options: Inline / Bottom Right / Bottom Left
 
-      - For **Theme**, choose the theme to be used to style the Google reCAPTCHA box. Options: Light Theme (default) / Dark Theme
+   - For **Theme**, choose the theme to be used to style the Google reCAPTCHA box. Options: Light Theme (default) / Dark Theme
 
-      - For **[Language Code](https://developers.google.com/recaptcha/docs/language)**, enter a two-character code that specifies the language that is used for Google reCAPTCHA text and messaging.
+   - For **[Language Code](https://developers.google.com/recaptcha/docs/language)**, enter a two-character code that specifies the language that is used for Google reCAPTCHA text and messaging.
 
-      - For **reCAPTCHA Validation Failure Message**, enter the message to appear if validation fails. Default: You cannot proceed with such operation, your reCAPTCHA reputation is too low.
+   - For **reCAPTCHA Validation Failure Message**, enter the message to appear if validation fails. Default: You cannot proceed with such operation, your reCAPTCHA reputation is too low.
 
    ![]({% link images/images/config-security-google-recaptcha-admin-v3-invisible.png %}){: .zoom}
    [_reCAPTCHA v3 Invisible_]({% link configuration/security/google-recaptcha-admin.md %})
