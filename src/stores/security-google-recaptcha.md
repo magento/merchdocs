@@ -112,7 +112,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
       - Enter the **Google API Secret Key** that is associated with your Google reCAPTCHA account.
 
-      - Enter the **Minimum Score Threshold** to identify when a user intraction is flagged as a potential risk; where 1.0 is a typical user interaction, and 0.0 is ikely a bot. Default: 0.5
+      - Enter the **Minimum Score Threshold** to identify when a user intraction is flagged as a potential risk; where 1.0 is a typical user interaction, and 0.0 is likely a bot. Default: 0.5
 
       - Choose the **Invisible Badge Position** to be used on each page. Options: Inline / Bottom Right / Bottom Left
 
