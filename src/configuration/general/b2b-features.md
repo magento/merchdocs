@@ -28,3 +28,12 @@ When companies are enabled, additional fields are available.
 |_Default B2B Payment Methods_|||
 |Applicable Payment Methods|Website|Determines the selection of payment methods that are available to B2B buyers. Options: All Payment Methods / Specific Payment Methods|
 |Payment Methods|Website|Specifies each payment method that is available to B2B buyers.|
+
+### Order Approval Configuration
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|[Enable Purchase Orders]({% link catalog/catalog-shared.md %})|Website|When enabled, allows companies to create purchase orders. Options: Yes / No|
+
+![]({% link images/images-b2b/config-general-b2b-features-order_approval_config.png %}){: .zoom}
+_B2B Features - Order Approval Configuration_
