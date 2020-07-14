@@ -46,7 +46,7 @@ Before Google reCAPTCHA can be configured, you must ensure that yourÂ `PHP.ini`Â
 |--|--|--|
 |Google API Website Key|Global|The website key that is created when you register your Google reCAPTCHA account.|
 |Google API Secret Key|Global| The secret key that is associated with your Google reCAPTCHA account.|
-|Minimum Score Threshold|Global| The minimum score that identifies a user intraction as a potential risk, where 1.0 is a typical user interaction, and 0.0 is ikely a bot. Default: 0.5|
+|Minimum Score Threshold|Global| The minimum score that identifies a user interaction as a potential risk, where 1.0 is a typical user interaction, and 0.0 is likely a bot. Default: 0.5|
 |Invisible Badge Position|Global|The position of the invisible reCAPTCHA badge on each page. Options: Inline / Bottom Right / Bottom Left|
 |Theme|Global|Determines the style of the Google reCAPTCHA box. Options: Light Theme (default) / Dark Theme|
 |Language Code|Global|A [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language that is used for Google reCAPTCHA text and messaging.|
