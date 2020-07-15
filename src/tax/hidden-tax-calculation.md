@@ -1,26 +1,26 @@
-**How tax is calculated with Hidden Tax (Discount Tax Compensation)**
+# How tax is calculated with Hidden Tax (Discount Tax Compensation)
 
  Discount tax compensation (hidden tax) is described in the following document:<br />
 [https://wiki.corp.magento.com/pages/viewpage.action?spaceKey=MAGE2&amp;title=SRS\_Tax+Calculation#SRS\_TaxCalculation-WhatisaHiddenTax](https://wiki.corp.magento.com/pages/viewpage.action?spaceKey=MAGE2&amp;title=SRS_Tax+Calculation#SRS_TaxCalculation-WhatisaHiddenTax)?
 
 &quot;Hidden Tax&quot; is the amount of VAT that a discount amount has. It will be non-zero when all these conditions are true:
-
-a) Catalog prices include tax<br />
-b) The VAT rate is not zero<br />
-c) There is a discount present<br />
+- Catalog prices include tax<br />
+- The VAT rate is not zero<br />
+- There is a discount present<br />
 
 **Example:**
 1) Full price of item, with tax included: $100
 2) VAT at: 20%
 3) Discount of 10% applied on item price excluding taxes:
 
-**Invalid Expected Result Example:**
-\* Item price after tax without discount=100 USD
- \* Item price before tax without discount=100/1.2=83.33 USD
- \* Discount=83.33\*0.1=8.33 USD
- \* Tax=(83.33-8.33)\*0.2=15 USD (invalid)
- \* Order Total Excluding Tax=83.33-8.33=75 USD (invalid)
- \* Order Total Including Tax=75+15=90 USD (invalid)
+**Invalid Expected Result Example:**<br />
+\* Item price after tax without discount=100 USD<br />
+\* Item price before tax without discount=100/1.2=83.33 USD<br />
+\* Discount=83.33\*0.1=8.33 USD<br />
+\* Tax=(83.33-8.33)\*0.2=15 USD (invalid)<br />
+\* Order Total Excluding Tax=83.33-8.33=75 USD (invalid)<br />
+\* Order Total Including Tax=75+15=90 USD (invalid)<br />
+
 
  **Valid Actual Result in Cart:**![](RackMultipart20200715-4-2dj4rp_html_e0225af499be602e.png)
 
