@@ -19,20 +19,16 @@ With Magento v2.3.3+, integrating your Magento store is a quick, simple process 
 
 ## Changes in the latest release
 
-This release contains enhancements and resolved issues.
+The most recent Magento release contains enhancements and resolved issues.
 
 ### Enhancements
 
-- Order status updates (example: shipped, invoiced) are now included in the product review data shared between Magento and Yotpo.
+- <!---Bundle-2422--->Yotpo star ratings can now be displayed on pages created by Magento [Page Builder](https://devdocs.magento.com/page-builder/docs/).
+
+- <!---Bundle-2551--->To enable customers to view and resolve Yotpo-related issues, a new dedicated Yotpo log file (yotpo_yotpo.log) has been added.
 
 ### Resolved issues
 
-- Corrected an issue causing errors when accessing Magento Analytics.
+- <!---Bundle-2549--->To correct errors syncing product brand data, added support for a brand attribute with the Catalog Input Type defined as drop-down menu.
 
-- Corrected an issue causing errors in the review star display on product pages.
-
-- Changed the data transfer process for products with no reviews to optimize system performance.
-
-- Shortened the system wait time for network "timeout" issues.
-
-- Corrected an issue preventing the _Ask a Question_ feature from appearing on product pages.
+- <!---Bundle-2548--->Order data sync has been changed to no longer send data for canceled items to Yotpo.

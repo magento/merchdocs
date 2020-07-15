@@ -126,6 +126,23 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Send Credit Memo Comments Email Copy Method|Store View|Indicates the email method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
 
 {:.b2b-only}
+## Purchase Order Approval
+
+![]({% link images/images-b2b/config-sales-sales-emails-purchase-order-approval.png %}){: .zoom}
+_Purchase Order Approval_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled|Store View|When enabled, sends emails during the purchase order process. Options: Yes / No |
+| Created and requires Approval Purchase Order (to Buyer) | Store View | Sends an email confirmation to the purchase order creator. |
+| Created and Automatically approved Purchase Order (to Buyer) | Store View | Sends an email confirmation to the purchase order creator. |
+| Approved Purchase Order (to Buyer) | Store View | Sends an email to the creator on purchase order Approval. |
+| Rejected Purchase Order (to Buyer) | Store View | Sends an email to the creator when the purchase order has been Rejected. |
+| Comment added to Purchase Order | Store View | Sends an email to the creator when a comment has been added to the PO. |
+| Error creating Order from Purchase Order (to Buyer) | Store View | Notifies creator that an error occurred when converting a PO to an order.|
+| Purchase Order required Approval (to Approver) | Store View | Sends an email to notify the approver that the purchase order requires their approval. |
+
+{:.b2b-only}
 ## Quote
 
 ![]({% link images/images-b2b/config-sales-sales-emails-quote.png %}){: .zoom}
