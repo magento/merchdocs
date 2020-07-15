@@ -1,5 +1,3 @@
-# How tax is calculated with Hidden Tax (Discount Tax Compensation)
-
 ---
 title: Hidden Tax Calulation
 ---
