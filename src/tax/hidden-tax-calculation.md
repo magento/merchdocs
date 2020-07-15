@@ -28,7 +28,7 @@
 *can also be calculated as: $100 \* (1 - 1/1.2)*<br>
 3) Discount of 10% on $83.33 is: **$8.33** (when we don&#39;t discount tax)
 4) Discounted price of item with tax is: $100 - $8.33 = $91.67<br>
-*note: this is the customer&#39;s perception of how discounts are applied*<br>
+***note:** this is the customer&#39;s perception of how discounts are applied*<br>
 5) Discounted price of item, without taxes is: $91.67 / 1.2 = $76.39
 6) VAT amount on the discounted price is: $91.67 - $76.39 = **$15.28 (valid)**<br>
 *can also be calculated as: $91.67 \* (1 - 1/1.2)*<br>
