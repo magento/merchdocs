@@ -6,7 +6,7 @@ redirect_from:
   - /catalog/search-elasticsearch.html
 ---
 
-Elasticsearch is a powerful and highly scalable distributed search engine that is used by many industry leaders with high-volume sites. The implementation of Elasticsearch includes both search suggestions and recommendations. As of Magento 2.4.0, it is the default search engine for all installations. For installation instructions, see [Set up Elasticsearch service][1]{:target="_blank"} in our developer documentation.
+Elasticsearch is a powerful and highly scalable distributed search engine that is used by many industry leaders with high-volume sites. The implementation of Elasticsearch includes both search suggestions and recommendations. As of Magento 2.4.0, Elasticsearch 7.6.x is required for all installations. For installation instructions, see [Set up Elasticsearch service][1]{:target="_blank"} in our developer documentation.
 
 ## Step 1: Configure general search options
 
@@ -17,12 +17,12 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 1. Expand ![]({% link images/images/btn-expand.png %}) the _Catalog Search_ section.
 
    ![]({% link images/images/config-catalog-catalog-search-elasticsearch-1.png %}){: .zoom}
-   _Elasticsearch Settings_
+   [_Elasticsearch Settings_]({% link configuration/catalog/catalog.md %})
 
 1. To limit the length and word count of search query text, set a value for **Minimal Query Length** and **Maximum Query Length**.
 
    {:.bs-callout-info}
-   **Important:** The value set for this minimum and maximum range must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set these values to `2` and `300` in Magento, update the corresponding values in your search engine.
+   **Important:** The value set for this minimum and maximum range must be compatible with the corresponding range set in your Elasticsearch search engine configuration. For example, if you set these values to `2` and `300` in Magento, update the corresponding values in your search engine.
 
 1. To limit the amount of popular search results to cache for faster responses, set an amount for **Number of top search results to cache**.
 
@@ -30,7 +30,7 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 
 1. If you want to enable or disable the Product EAV indexer, set the **Enable EAV Indexer**.
 
-   This feature improves indexation speed and restricts the indexer from use by third-party extensions. This option only available for Elasticsearch or Elasticsearch 5.x Search Engines.
+   This feature improves indexation speed and restricts the indexer from use by third-party extensions. 
 
 1. To limit the maximum number of search results to display for search autocomplete, set an amount for **Autocomplete Limit**.
 
@@ -38,23 +38,23 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 
 ## Step 2: Configure the Elasticsearch connection
 
- For the best performance and enhanced security, we recommend that you use the latest version of Elasticsearch that Magento supports. See [Elastic Product End of Life Dates](https://www.elastic.co/support/eol){:target="_blank"}.
-
 {:.bs-callout-info}
 The **Search Engine**, **Elasticsearch Server Hostname**, **Elasticsearch Server Port**, **Elasticsearch Index Prefix**, **Enable Elasticsearch HTTP Auth**, and **Elasticsearch Server Timeout** fields were configured when Magento was installed or upgraded. These values should only be changed when upgrading or modifying Elasticsearch.
 
 ![]({% link images/images/config-catalog-catalog-search-elasticsearch-2.png %}){: .zoom}
-_Elasticsearch Connection Settings_
+[_Elasticsearch Connection Settings_]({% link configuration/catalog/catalog.md %})
 
-1. For **Search Engine**, deselect the **Use system value** checkbox and choose the version that is installed on your server.
+1. For **Search Engine**, accept the default value `Elasticsearch 7`.
 
-1. Enter the **Elasticsearch Server Hostname**.
+   Elasticsearch 7.6.x is required for all Magento installations.
 
-   The default value is `localhost`.
+1. For **Elasticsearch Server Hostname**, accept the default value that was configured when Magento was installed.
 
-1. Enter the **Elasticsearch Server Port**.
+   In this example, the default value is `elasticsearch.internal`.
 
-   The default value is `9200`.
+1. For **Elasticsearch Server Port**, accept the default value that was configured when Magento was installed.
+
+   In this example, the default value is `9200`.
 
 1. For **Elasticsearch Index Prefix**, enter a prefix to identify the Elasticsearch index.
 
@@ -82,7 +82,7 @@ Search suggestions and recommendations can impact server performance.
 1. Set **Enable Search Suggestions** to `Yes` and do the following:
 
    ![]({% link images/images/config-catalog-catalog-search-elasticsearch-3.png %}){: .zoom}
-   _Elasticsearch Suggestion and Recommendation Settings_
+   [_Elasticsearch Suggestion and Recommendation Settings_]({% link configuration/catalog/catalog.md %})
 
    - For **Search Suggestions Count**, enter the number of search suggestions to offer.
 
