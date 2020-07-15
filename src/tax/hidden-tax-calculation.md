@@ -24,6 +24,8 @@
 
 ### Valid Actual Result in Cart:
 ![Image](/src/images/images/hidden-tax.png "Image")
+---
+
 
  ### Valid Calculations:
 1) Full price of item, without taxes is: $100 / 1.2 = **$83.33**
