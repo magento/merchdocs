@@ -23,6 +23,8 @@
 - Order Total Including Tax=75+15=**90 USD (invalid)**
 
 ### Valid Actual Result in Cart:
+---
+
 ![Image](/src/images/images/hidden-tax.png "Image")
 ---
 
