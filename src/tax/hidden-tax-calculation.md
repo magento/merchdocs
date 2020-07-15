@@ -24,16 +24,16 @@
  ### Valid Calculations:
 1) Full price of item, without taxes is: $100 / 1.2 = **$83.33**
 2) VAT amount on the full item price is: $100 - $83.33 = $16.67<br>
-*can also be calculated as: $100 \* (1 - 1/1.2)<br>
+*can also be calculated as: $100 \* (1 - 1/1.2)*<br>
 3) Discount of 10% on $83.33 is: **$8.33** (when we don&#39;t discount tax)
 4) Discounted price of item with tax is: $100 - $8.33 = $91.67<br>
- *note: this is the customer&#39;s perception of how discounts are applied<br>
+*note: this is the customer&#39;s perception of how discounts are applied*<br>
 5) Discounted price of item, without taxes is: $91.67 / 1.2 = $76.39
 6) VAT amount on the discounted price is: $91.67 - $76.39 = **$15.28 (valid)**<br>
-*can also be calculated as: $91.67 \* (1 - 1/1.2)<br>
+*can also be calculated as: $91.67 \* (1 - 1/1.2)*<br>
 7) &quot;Hidden tax&quot; or &quot;Discount Tax Compensation&quot; is the difference between the VAT amount of the full price versus discounted price: $16.67 - $15.28 = **$1.39**<br>
- *another way to look at this: &quot;hidden tax&quot; is the VAT amount carried within the $8.33 discount: $8.33 \* (1 - 1/1.2)<br>
+ *another way to look at this: &quot;hidden tax&quot; is the VAT amount carried within the $8.33 discount: $8.33 \* (1 - 1/1.2)*<br>
 8) How the customer usually understands the discounted price (Order Total):<br>
-*full price of item including taxes **less** the discount amount: $100 - $8.33 = $91.67<br>
+*full price of item including taxes **less** the discount amount: $100 - $8.33 = $91.67*<br>
 9) **How Magento calculates the discounted price** (see above for formula):<br>
-*$83.33 - $8.33 + 15.28 + 1.39 = **$91.67**
+*$83.33 - $8.33 + 15.28 + 1.39 = **$91.67***
