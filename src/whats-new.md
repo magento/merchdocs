@@ -5,9 +5,9 @@ title: What's new in the guide
 
 {% assign whatsnew = site.data.whats-new %}
 
-<a class="btn" href="{{ whatsnew.thread }}"><img src="{{ site.baseurl }}/assets/i/icons/rss.svg" /> RSS feed</a>
+<a class="btn" href="{{ site.baseurl }}{{ whatsnew.thread }}"><img src="{{ site.baseurl }}/assets/i/icons/rss.svg" /> RSS feed</a>
 <!-- The link enables RSS readers to recognize the whatsnew-feed thread on the page -->
-<link rel="alternate" type="application/atom+xml" title="What's new in the guide" href= "{{ whatsnew.thread }}" />
+<link rel="alternate" type="application/atom+xml" title="What's new in the guide" href= "{{ site.baseurl }}{{ whatsnew.thread }}" />
 
 {{ whatsnew.description }}
 
