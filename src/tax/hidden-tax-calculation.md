@@ -24,7 +24,7 @@
 
 ### Valid Actual Result in Cart:
 ![Image](/src/images/images/hidden-tax.png "Image")
-***
+---
 
 
  ### Valid Calculations:
