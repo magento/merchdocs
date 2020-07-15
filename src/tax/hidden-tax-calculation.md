@@ -25,7 +25,6 @@
 1) Full price of item, without taxes is: $100 / 1.2 = **$83.33**
 2) VAT amount on the full item price is: $100 - $83.33 = $16.67<br>
 *can also be calculated as: $100 \* (1 - 1/1.2)<br>
-<br>
 3) Discount of 10% on $83.33 is: **$8.33** (when we don&#39;t discount tax)
 4) Discounted price of item with tax is: $100 - $8.33 = $91.67<br>
  *note: this is the customer&#39;s perception of how discounts are applied<br>
