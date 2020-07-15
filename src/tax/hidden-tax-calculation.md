@@ -22,6 +22,9 @@
 - Order Total Excluding Tax=83.33-8.33=**75 USD (invalid)**
 - Order Total Including Tax=75+15=**90 USD (invalid)**
 
+### Valid Actual Result in Cart:
+![Image](/src/images/images/hidden-tax.png "Image")
+
  ### Valid Calculations:
 1) Full price of item, without taxes is: $100 / 1.2 = **$83.33**
 2) VAT amount on the full item price is: $100 - $83.33 = $16.67<br>
