@@ -96,6 +96,8 @@ pages:
           url: "/tax/vat-validation-configure.html"
     - label: Tax Quick Reference
       url: "/tax/quick-reference.html"
+    - label: Hidden Tax Calculation
+      url: "/tax/hidden-tax-calculation.html"
     - label: International Tax Guidelines
       url: "/tax/international-tax-guidelines.html"
       children:
