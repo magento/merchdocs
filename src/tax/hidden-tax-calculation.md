@@ -3,6 +3,7 @@
  Discount tax compensation (hidden tax) is described in the following document:<br />
 [Link to the Document](https://wiki.corp.magento.com/pages/viewpage.action?spaceKey=MAGE2&amp;title=SRS_Tax+Calculation#SRS_TaxCalculation-WhatisaHiddenTax)
 
+### Hidden Tax Conditions:
 &quot;Hidden Tax&quot; is the amount of VAT that a discount amount has. It will be non-zero when all these conditions are true:
 - Catalog prices include tax
 - The VAT rate is not zero
