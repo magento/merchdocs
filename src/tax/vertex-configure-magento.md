@@ -11,7 +11,7 @@ When enabled, the _Tax configuration_ page includes the following Vertex section
 |Vertex Settings|Vertex integration and account configuration
 |Vertex Company Information|Configure your company information
 |Vertex Delivery Terms|Configure the shipping terms for shipments. Set a global term, with an option to add overrides per country
-|Vertex Shipping Product Codes|Displays available shipping methods and costs
+|Vertex Shipping Product Codes|Displays available delivery methods and costs
 |Vertex Logging|Located at the bottom of the page. Provides logging information and configuration
 
 ## Begin the Magento configuration

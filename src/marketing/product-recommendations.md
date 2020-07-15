@@ -9,7 +9,7 @@ Product recommendations are a powerful marketing tool you can use to increase co
 You can create, manage, and deploy recommendations across your store views directly from the Magento Admin panel.
 
 {:.bs-callout-info}
-For information about how to install the product recommendations module so you can begin collecting shopper behavior and catalog data, refer to the [developer documentation](https://devdocs.magento.com/recommendations/install.html).
+For information about installing product recommendations modules, refer to the [developer documentation](https://devdocs.magento.com/recommendations/install-configure.html).
 
 ## Dashboard {#dashboard}
 
@@ -21,15 +21,15 @@ This dashboard displays a table of previously configured recommendations (if any
 
 Magento provides the following types of recommendations:
 
--  **Most viewed** - Recommends items most viewed by shoppers within the last seven days
--  **Most purchased** - Recommends items most purchased by shoppers within the last seven days
--  **Most added to cart** - Recommends items most frequently added to carts by shoppers within the last seven days
--  **Recommended for you** - Recommends items based on each shopper's current and previous on site behavior
--  **Viewed this, viewed that** - Recommends items most often viewed by shoppers who viewed the specified item
--  **Viewed this, bought that** - Recommends items most often purchased by shoppers who viewed the specified item
--  **Bought this, bought that** - Recommends items most often purchased by shoppers who purchased the specified item
--  **More like this** - Recommends items based on similar content and attributes
--  **Trending** - Recommends items based on recent momentum of product’s popularity
+- **Most viewed** - Recommends items most viewed by shoppers within the last seven days
+- **Most purchased** - Recommends items most purchased by shoppers within the last seven days
+- **Most added to cart** - Recommends items most frequently added to carts by shoppers within the last seven days
+- **Recommended for you** - Recommends items based on each shopper's current and previous on site behavior
+- **Viewed this, viewed that** - Recommends items most often viewed by shoppers who viewed the specified item
+- **Viewed this, bought that** - Recommends items most often purchased by shoppers who viewed the specified item
+- **Bought this, bought that** - Recommends items most often purchased by shoppers who purchased the specified item
+- **More like this** - Recommends items based on similar content and attributes
+- **Trending** - Recommends items based on recent momentum of product’s popularity
 
 ### Backup recommendations {#backup-recommendations}
 
@@ -39,15 +39,15 @@ For example, if you deploy the **Recommended for you** recommendation type to yo
 
 The following recommendation types will fallback to **Most viewed** if there is not sufficient input data collected:
 
--  **Recommended for you**
+- **Recommended for you**
 
--  **Viewed this, viewed that**
+- **Viewed this, viewed that**
 
--  **Viewed this, bought that**
+- **Viewed this, bought that**
 
--  **Bought this, bought that**
+- **Bought this, bought that**
 
--  **Trending**
+- **Trending**
 
 ### Filter recommendations {#filter-recommendations}
 
@@ -72,8 +72,8 @@ You can place the recommendations in one of the following page locations.
 {:.bs-callout-info}
 Some storefront pages restrict where you can place the recommendations. Refer to the table below for more information.
 
--  **At the top of main content** - Recommendations appear above the main content area just below the top navigation bar.
--  **At the bottom of main content (default)** - Recommendations appear below the main content area and before any other content blocks on the page, like **Related Products**.
+- **At the top of main content** - Recommendations appear above the main content area just below the top navigation bar.
+- **At the bottom of main content (default)** - Recommendations appear below the main content area and before any other content blocks on the page, like **Related Products**.
 
 ## Supported recommendations for each storefront page {#supportedrecs}
 
@@ -93,6 +93,8 @@ You can specify categories that you never want to be included in your recommenda
 
 1. Click **Settings** (gear icon) to display the **Global Category Exclusions** page.
 
-1. Enter a category you want to exclude in the **Available categories** field. You can select up to 50 categories.
+1. For **Available categories**, enter a category you want to exclude.
 
-1. Click the **Save changes** button when you are finished selecting the categories you want to exclude.
+   You can select up to 50 categories.
+
+1. Click <span class="btn">Save changes</span> when you are finished selecting the categories you want to exclude.

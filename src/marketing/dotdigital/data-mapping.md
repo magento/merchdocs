@@ -23,39 +23,39 @@ The configuration settings in the Data Mapping section are used to map fields ma
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the left panel, expand **DOTDIGITAL** section and choose **Data Mapping**.
+1. In the left panel, expand the **DOTDIGITAL** section and choose **Data Mapping**.
 
 1. For each field in the following sections, choose the corresponding data field from your dotdigital dotdigital account.
 
-   -  Customer Information
-   -  Address
-   -  Sales
-   -  System Values
-   -  {:.b2b-only}B2B Data
-   -  {:.ee-only}Enterprise Data
+   - Customer Information
+   - Address
+   - Sales
+   - System Values
+   - {:.b2b-only}B2B Data
+   - {:.ee-only}Enterprise Data
 
    ![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-customer-information.png %}){: .zoom}
    [_Data Mapping_]({% link configuration/dotdigital/data-mapping.md %})
 
-## Sync Data Mappings
+## Sync data mappings
 
 1. In the Magento configuration, go to **DOTDIGITAL** > **Sync Settings**.
 
-1. In the _Sync_ section, set each database componen that you want to enable to `Yes`.
+1. In the _Sync_ section, set each database component that you want to enable to `Yes`.
 
-   -  Customer Enabled
-   -  Guest Enabled
-   -  Subscriber Enabled
-   -  Order Enabled
-   -  Wishlist Enabled
-   -  Review Enabled
-   -  Catalog Enabled
-   -  {:.b2b-only}[Shared Catalog]({% link catalog/catalog-shared.md %}) Enabled
-   -  {:.b2b-only}[B2B Quote]({% link sales/quotes.md %}) Enabled
+   - Customer Enabled
+   - Guest Enabled
+   - Subscriber Enabled
+   - Order Enabled
+   - Wishlist Enabled
+   - Review Enabled
+   - Catalog Enabled
+   - {:.b2b-only}[Shared Catalog]({% link catalog/catalog-shared.md %}) Enabled
+   - {:.b2b-only}[B2B Quote]({% link sales/quotes.md %}) Enabled
 
 1. Click <span class="btn">Save Config</span>.
 
-1. Go to **System** > _Tools_ < **Cache Management**, and clear any invalid cache.
+1. Go to **System** > _Tools_ > **Cache Management** and clear any invalid cache.
 
 1. Wait an hour to ensure that all contact data is imported into your dotdigital account.
 
@@ -73,15 +73,15 @@ The configuration settings in the Data Mapping section are used to map fields ma
 
    To learn more, see [Sync company data][2] in the dotdigital Help Centre.
 
-### Sync B2B Shared Catalog
+### Sync B2B shared catalog
 
 1. In the Magento configuration, verify that [Shared Catalog]({% link stores/b2b-features.md %}) is enabled.
 
 1. If necessary, set up your [shared catalog]({% link catalog/catalog-shared-create.md %}) and [pricing]({% link catalog/catalog-shared-pricing-structure.md %}).
 
-1. On the Admin sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the left panel, go to **DOTDIGITAL** > **Sync Settings**.
+1. In the left panel, expand **DOTDIGITAL** and choose **Sync Settings**.
 
 1. Scroll down to the bottom of the _Sync_ section and verify that **Catalog Enabled** is set to `Yes`.
 
@@ -94,13 +94,13 @@ The configuration settings in the Data Mapping section are used to map fields ma
 
 1. Click <span class="btn">Save Config</span>.
 
-1. On the Admin sidebar, go to **System** > _Tools_ > **Cache Management** and refresh any invalid cache.
+1. On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management** and refresh any invalid cache.
 
 1. Do one of the following:
 
-   -  Wait for the next [cron]({% link system/cron.md %}) run.
+   - Wait for the next [cron]({% link system/cron.md %}) run.
 
-   -  In the Magento configuration, go to **DOTDIGITAL** > **Developer** > **Sync Settings**. Under _Manually Run Sync_, click **Catalog Sync** <span class="btn">Run Now</span>.
+   - In the Magento configuration, go to **DOTDIGITAL** > **Developer** > **Sync Settings**. Under _Manually Run Sync_, click **Catalog Sync** <span class="btn">Run Now</span>.
 
    ![]({% link images/images/config-dotdigital-developer-sync-settings-manually-run-sync.png %}){: .zoom}
    [_Manually Run Sync_]({% link configuration/dotdigital/developer.md %})
@@ -114,7 +114,7 @@ The configuration settings in the Data Mapping section are used to map fields ma
 {:.b2b-only}
 ### Sync B2B Quotes
 
-1. In the Magento comfiguration, verify that [B2B Quotes]({% link stores/b2b-features.md %}) is enabled.
+1. In the Magento configuration, verify that [B2B Quotes]({% link stores/b2b-features.md %}) is enabled.
 
 1. Before continuing, verify that you have [Quote]({% link sales/quotes.md %}) data available to sync with dotdigital. If not, wait until there are quotes available.
 
@@ -123,9 +123,9 @@ The configuration settings in the Data Mapping section are used to map fields ma
 
 1. In the Magento configuration, go to **DOTDIGITAL** > **Sync Settings**.
 
-1. Set **B2B Quote Enabled** to `Yes` and press <span class="btn">Save Config</span>.
+1. Set **B2B Quote Enabled** to `Yes` and click <span class="btn">Save Config</span>.
 
-1. On the Admin sidebar, go to **System** > _Tools_ > **Cache Management**, and refresh any invalid cache.
+1. On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management** and refresh any invalid cache.
 
 1. Wait for the next [cron]({% link system/cron.md %}) run.
 

@@ -24,12 +24,10 @@ Your initial _My Orders_ results also contain matching orders from subordinate u
 
 ## View an order
 
-Find the order in the list and click **View Order** in the _Action_ column.
+Find the order in the list and click **View Order**. From the open order, do any of the following:
 
 ![]({% link images/images-ee/customer-account-order-items-ordered.png %}){: .zoom}
 _View Order_{:.ee-only}
-
-From the open order, do any of the following:
 
 ### Reorder
 
@@ -45,35 +43,41 @@ From the open order, do any of the following:
 
 ### Print invoices
 
-1. Click the **Invoices** tab.
+1. On the **Invoices** tab, click one of the following:
 
    - **Print All Invoices**
 
    - **Print Invoice**
 
+   ![]({% link images/images-ee/customer-account-order-invoices.png %}){: .zoom}
+   _Invoices_{:.ee-only}
+
 1. Use the Print dialog to complete the printing.
 
 ### Print shipments
 
-1. Click the **Order Shipments** tab.
+1. On the **Order Shipments** tab, click one of the following:
 
    - **Print All Shipments**
 
    - **Print Shipment**
 
+   ![]({% link images/images-ee/customer-account-order-shipments.png %}){: .zoom}
+   _Print All Shipments_{:.ee-only}
+
 1. Use the Print dialog to complete the printing.
 
 ### Track a shipment
 
-1. Click the **Order Shipments** tab.
+1. On the **Order Shipments** tab, click **Track this Shipment**.
 
-   This displays a window with any available tracking information.
+1. Any tracking information that is available appears in a popup window.
 
 1. When ready, <span class="btn">Close Window</span>.
 
 ### Print refunds
 
-1. Click the **Refunds** tab.
+1. On the **Refunds** tab, click one of the following:
 
    - **Print All Refunds**
 

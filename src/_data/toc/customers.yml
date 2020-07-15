@@ -31,6 +31,8 @@ pages:
     children:
     - label: Updating a Customer Profile
       url: "/customers/customer-account-update.html"
+    - label: Using Login As Customer
+      url: "/customers/login-as-customer.html"    
   - label: Customer Sign In
     url: "/customers/customer-sign-in.html"
     children:
@@ -47,6 +49,9 @@ pages:
       children:
       - label: Negotiating a Quote
         url: "/customers/account-dashboard-quotes-negotiate.html"
+    - label: My Purchase Orders
+      url: "/customers/account-dashboard-my-purchase-orders.html"
+      edition: b2b-only
     - label: My Orders
       url: "/customers/account-dashboard-my-orders.html"
     - label: My Downloadable Products
@@ -83,6 +88,12 @@ pages:
       edition: b2b-only
     - label: Company Users
       url: "/customers/account-dashboard-company-users.html"
+      edition: b2b-only
+    - label: Roles and Permissions
+      url: "/customers/account-company-roles-permissions.html"
+      edition: b2b-only
+    - label: Approval Rules
+      url: "/customers/account-dashboard-approval-rules.html"
       edition: b2b-only
     - label: Reward Points
       url: "/customers/account-dashboard-reward-points.html"

@@ -16,7 +16,7 @@ During the negotiation process, the seller can do the following:
 
 While the quote is open for review, its status in the buyer’s account is set to `Pending`. The buyer can change and resubmit the quote even if it was declined or is expired.
 
-## Step 1: View the Request
+## Step 1: View the request
 
 1. On the _Admin_ sidebar click **Sales**, and then choose **Quotes**.
 
@@ -27,7 +27,7 @@ While the quote is open for review, its status in the buyer’s account is set t
     ![]({% link images/images-b2b/quote-grid-new.png %}){: .zoom}
     _New Quote_
 
-## Step 2: Modify the Quote
+## Step 2: Modify the quote
 
 1. In the _Quote & Account Information_, click the **Calendar** (![]({% link images/images/btn-calendar.png %}){: .Inline}).
 
@@ -46,7 +46,7 @@ While the quote is open for review, its status in the buyer’s account is set t
     ![]({% link images/images-b2b/quote-change-update-negotiated-price.png %}){: .zoom}
     _Update Negotiated Price_
 
-### Add new products to the quote:
+### Add new products to the quote
 
 1. Click **Add Products by SKU**.
 
@@ -98,7 +98,7 @@ In the _Items Quoted_ section, make the following changes, if needed:
 
 1. Choose the file from your directory.
 
-## Step 3: Send Your Reply
+## Step 3: Send your reply
 
 1. In the _Negotiation_ section on the _Comments_ tab, enter your reply in the **Add your comment** section.
 
@@ -138,7 +138,7 @@ Check your email and the status of the quote in the grid to monitor its position
 ![]({% link images/images-b2b/quote-negotiation-reply.png %}){: .zoom}
 _Negotiation Comments and Quote Totals_
 
-## Button Bar
+## Button bar
 
 {: .buttons-table }
 |Button|Description|
@@ -149,9 +149,9 @@ _Negotiation Comments and Quote Totals_
 |<span class="btn">Decline</span>|Declines the request to negotiate prices, either on the initial inquiry, or during ongoing negotiations. When a quote is declined, the seller should add a comment to explain the decision. When a quote is declined, all negotiated prices are reset to the original values. The Decline button is disabled while the seller is waiting for a reply from the buyer.|
 |<span class="btn">Send</span>|Sends the updated quote as a reply to the buyer’s inquiry. The Send button is disabled if the seller is waiting for a reply from the buyer.|
 
-## Field Descriptions
+## Field descriptions
 
-### Quote & Account Information
+### Quote and account information
 
 |Name|The name assigned to a quote request by the [buyer]({% link customers/account-company-roles-permissions.md %}).|
 |Status|Indicates the current state of the quote. The status of a quote can be changed only by action on the part of either the buyer or seller. See also the [Status settings]({% link sales/quotes.md %}) from the Admin and the [buyer’s account]({% link customers/account-dashboard-quotes.md %}).|
@@ -192,7 +192,7 @@ _Negotiation Comments and Quote Totals_
 
 ### Negotiation
 
-|Comments|The Comments tab of the Negotiation section is used to enter a message to the buyer about the quote. Add your comment - The comments are used to communicate with the buyer during the negotiation process. Use the comments to explain any discounts offered in the quote, or the reason a quote request is declined. <br/>**Attach file** - The maximum file size and supported file types for [attached files]({% link configuration/sales/quotes.md %}) are determined by the configuration. By default, an attached file can be up to 2 MB, and of any of the following file types: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG or JPEG, PNG.|
+|Comments|The Comments tab of the Negotiation section is used to enter a message to the buyer about the quote. <br/>**Add your comment** - The comments are used to communicate with the buyer during the negotiation process. Use the comments to explain any discounts offered in the quote, or the reason a quote request is declined. <br/>**Attach file** - The maximum file size and supported file types for [attached files]({% link configuration/sales/quotes.md %}) are determined by the configuration. By default, an attached file can be up to 2 MB, and of any of the following file types: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG or JPEG, PNG.|
 |History Log|The History Log tab displays a complete history of the quote with dates, quote status, and comments.|
 
 ### Quote Totals

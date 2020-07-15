@@ -1,10 +1,10 @@
 ---
-title: Carriers
+title: Shipping Carriers
 ---
 
 If you have a commercial account with a supported carrier, you can offer your customers the convenience of choosing that carrier during checkout. The rates are automatically downloaded, so you do not need to look up the information.
 
-Before you can offer your customers a selection of shipping carriers,you must complete the following steps:
+Before you can offer your customers a selection of shipping carriers, you must complete the following steps:
 
 * Configure the [shipping settings]({% link shipping/shipping-settings.md %}) to establish the point of origin for your store.
 

@@ -7,15 +7,15 @@ The _New Third Party_ tab shows your existing Amazon listings that have not been
 
 Under _Actions_:
 
-{% include amazon-create-new-catalog-product-s-action.md %}
+- **Create New Catalog Product(s)**: Choose to use the information in the Amazon listing to automatically create a new product in your Magento catalog. This process will match the Amazon listing to the new catalog product automatically. See [Create and Assign Catalog Products]({% link sales-channels/asc/creating-assigning-catalog-products.md %}).
 
-{% include amazon-attempt-auto-match-action.md %}
+- **Attempt Automatic Match**: Choose to attempt automatic matching for the selected listings to your catalog based on your current [Catalog Search]({% link sales-channels/asc/catalog-search.md %}) options in your listing settings. If you modify your _Catalog Search_ options, this action will allow you to attempt the matching process again.
 
 Under **Select**:
 
-{% include amazon-assign-catalog-product-action.md %}
+- **Assign Catalog Product**: Choose to match the listing with a product in your Magento catalog manually. See [Create and Assign Catalog Products]({% link sales-channels/asc/creating-assigning-catalog-products.md %}).
 
-{% include amazon-create-new-catalog-product-action.md %}
+- **Create New Catalog Product**: Choose to use the information in the Amazon listing to automatically create a new product in your Magento catalog. This process will match the Amazon listing to the new catalog product automatically. See [Create and Assign Catalog Products]({% link sales-channels/asc/creating-assigning-catalog-products.md %}).
 
 {% include amazon-view-details-action.md %}
 

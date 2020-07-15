@@ -11,7 +11,7 @@ With just a few steps, you can put Yotpo to work for you.
 
 See Yotpo [Plan Information](https://www.yotpo.com/pricing/). You can create free account and upgrade your account at any time.
 
-1. Go to [Yotpo](https://yap.yotpo.com/get-started/#/signup/register?utm_campaign=login_page) to create your account.
+1. Go to [Yotpo](https://yap.yotpo.com/get-started/#/signup/register?utm_campaign=login_page&from_login=true) to create your account.
 
 1. Complete the account information.
 
@@ -19,7 +19,7 @@ See Yotpo [Plan Information](https://www.yotpo.com/pricing/). You can create fre
 
     - For **Full Name**, enter the name you want to use for your Yotpo account.
     - For **Email Address**, enter the email address you want to use for your Yotpo account.
-    - For **Password**, enter the password you want to use for your Yotpo account.
+    - For **Password**, enter the password you want to use for your Yotpo account. See [Yotpo documentation](https://support.yotpo.com/en/article/creating-your-yotpo-account) for password requirements.
     - Click **Create Account**.
 
 1. On the _We’re Almost Done_ screen, complete the additional account information:
@@ -32,7 +32,7 @@ See Yotpo [Plan Information](https://www.yotpo.com/pricing/). You can create fre
     - For **Phone Number**, enter the phone number you want to associate with your Yotpo account.
     - Click **Finish**.
 
-Your account is created. Follow the [Yotpo Wizard](https://support.yotpo.com/en/article/setting-up-yotpo-on-magento-v22-and-above) to enable Yotpo with your Magento Store.
+Your account is created. You can now enable Yotpo and connect your Magento store in the Magento Admin.
 
 ## Enable Yotpo and Connect your Magento Store
 
@@ -62,3 +62,5 @@ If you have an existing Yotpo account, you can enable Yotpo inside the Magento A
 After you connect your Magento store to your Yotpo account, Magento sets the default values for your [Widget]({% link marketing/yotpo-settings.md %}) and [Sync]({% link marketing/yotpo-settings.md %}) settings.
 
 Additional customization options, tasks, and features are dependent on your Yotpo plan and are available in your [Yotpo account](https://yap.yotpo.com/#/home).
+
+See also [Yotpo documentation](https://support.yotpo.com/en/article/setting-up-yotpo-on-magento-v22-and-above) for information on mapping order statuses sent to Yotpo, sync settings, manually adding Yotpo's Reviews Widget to product pages, and manually placing Star Ratings on category pages.
