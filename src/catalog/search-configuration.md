@@ -46,7 +46,7 @@ The **Search Engine**, **Elasticsearch Server Hostname**, **Elasticsearch Server
 
 1. For **Search Engine**, accept the default value `Elasticsearch 7`.
 
-   Elasticsearch 7.6.x is required for all Magento installations. See [Elastic Product End of Life Dates](https://www.elastic.co/support/eol){:target="_blank"}.
+   Elasticsearch 7.6.x is required for all Magento installations.
 
 1. For **Elasticsearch Server Hostname**, accept the default value that was configured when Magento was installed.
 
