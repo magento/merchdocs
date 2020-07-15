@@ -35,7 +35,8 @@ discountedItemPrice = fullPriceWithOutTax - discountAmountOnFullPriceWithoutTax 
 
 ### Valid Actual Result in Cart
 
-![Image](/src/images/images/hidden-tax.png "Image")
+![Image](/src/images/images/hidden-tax.png "Image"){: .zoom}
+_Hidden Tax Tax Calculation in Cart_
 
 ### Valid Calculations
 
