@@ -67,7 +67,7 @@ The following table describes how the **Most popular**, **Trending**, and **Reco
 
 ### Filter based on stock status
 
-Product Recommendations use the **Display Out-of-Stock Products** value configured in the Magento Admin Panel to determine if a particular product should be displayed in a recommendation unit. If the **Display Out-of-Stock Products** option is set to **Yes**, products that are out-of-stock are eligible to be displayed in the recommendation unit. If **Display Out-of-Stock Products** option is set to **No**, out-of-stock products will not be displayed in recommendation units. You can configure the **Display Out-of-Stock Products** value in the [stock options]({% link configuration/catalog/inventory.md %}) section of the Configuration.
+Product Recommendations use the **Display Out-of-Stock Products** value configured in the Magento Admin to determine if a particular product should be displayed in a recommendation unit. If the **Display Out-of-Stock Products** option is set to `Yes`, products that are out-of-stock are eligible to be displayed in the recommendation unit. If **Display Out-of-Stock Products** option is set to `No`, out-of-stock products will not be displayed in recommendation units. You can configure the **Display Out-of-Stock Products** value in the [stock options]({% link configuration/catalog/inventory.md %}) section of the Catalog configuration.
 
 ## Product recommendations placement {#productrecplacement}
 
