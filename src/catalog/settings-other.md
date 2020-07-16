@@ -8,7 +8,7 @@ The remaining product settings are located at the bottom of the page. Some setti
 
 Click the section to expand, if needed. The selector indicates if it is currently expanded ![]({% link images/images/btn-expand.png %}) or collapsed ![]({% link images/images/btn-collapse.png %}).
 
-![]({% link images/images-ee/product-settings-other-ee.png %}){: .zoom}
+![]({% link images/images-ee/product-settings-include-sources.png %}){: .zoom}
 _Other Settings_{:.ee-only}
 
 ## General settings
@@ -30,6 +30,7 @@ _Other Settings_{:.ee-only}
 
 | Section | Description |
 |----------
+| [Sources]({% link catalog/sources.md %}) | This section lists the sources that contain stock for the product. Allows you to modify the quantity in each source and availability for a specific delivery method. |
 | [Configurations]({% link catalog/product-configurations.md %}) | This section lists any existing variations of the product and can be used to generate variations for use with the Configurable product type. |
 | [Customizable Options]({% link catalog/settings-advanced-custom-options.md %}) | These options are based on variations of a single SKU and can be a good solution if your inventory needs are simple. |
 |[Shipping]({% link catalog/product-shipping.md %})|Product and packaging settings used for [Magento Shipping]({% link shipping/magento-shipping.md %}) fulfillment. Includes Country of Origin, HS Code, and Packaging Type settings. |
