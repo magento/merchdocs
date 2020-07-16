@@ -7,7 +7,7 @@ redirect_from:
 The media browser on the product page displays multiple images, video, or swatches related to the product. Each thumbnail can show a different view or variation of the product. Click a thumbnail to browse through the media assets. Although the position of the media browser varies by theme, the default position is just below the main image on the product page. For accessibility controls, see [Keyboard Navigation]({% link catalog/navigation-accessibility.md %}).
 
 ![]({% link images/images/storefront-thumbnail-gallery.png %}){: .zoom}
-_Media Browser
+_Media Browser_
 
 ## Image zoom
 

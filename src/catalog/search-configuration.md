@@ -30,7 +30,7 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 
 1. If you want to enable or disable the Product EAV indexer, set the **Enable EAV Indexer**.
 
-   This feature improves indexation speed and restricts the indexer from use by third-party extensions. 
+   This feature improves indexation speed and restricts the indexer from use by third-party extensions.
 
 1. To limit the maximum number of search results to display for search autocomplete, set an amount for **Autocomplete Limit**.
 
