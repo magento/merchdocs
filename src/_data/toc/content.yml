@@ -45,13 +45,13 @@ pages:
           url: "/cms/adobe-stock-save-preview.html"
         - label: License an Image
           url: "/cms/adobe-stock-license-image.html"
-      - label: Enhanced Media Gallery
-        url: "/cms/enhanced-media-gallery.html"
+      - label: New Media Gallery
+        url: "/cms/media-gallery.html"
         children:
           - label: Asset Management
-            url: "/cms/enhanced-media-gallery-asset-management.html"
+            url: "/cms/media-gallery-asset-management.html"
           - label: Folder Management
-            url: "/cms/enhanced-media-gallery-folder-management.html"
+            url: "/cms/media-gallery-folder-management.html"
     - label: Using the Editor
       url: "/cms/editor.html"
       children:

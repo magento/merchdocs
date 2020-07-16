@@ -1,8 +1,8 @@
 ---
-title: Enhanced Media Gallery Asset Management
+title: Media Gallery Asset Management
 ---
 
-The [Enhanced Media Gallery]({% link cms/enhanced-media-gallery.md %}) provides tools for managing uploaded media files, as well as those that you acquire through an [Adobe Stock integration][adobe-stock-integration]. If you have saved an Adobe Stock [image preview][save-preview], you can also [license][stock-license] the image in the Enhanced Media Gallery.
+The new [Media Gallery]({% link cms/media-gallery.md %}) provides tools for managing uploaded media files, as well as those that you acquire through an [Adobe Stock integration][adobe-stock-integration]. If you have saved an Adobe Stock [image preview][save-preview], you can also [license][stock-license] the image in the new Media Gallery.
 
 ## Upload an asset
 
@@ -32,7 +32,7 @@ The [Enhanced Media Gallery]({% link cms/enhanced-media-gallery.md %}) provides 
 
 Assets can be used extensively throughout the Admin, such as [add or edit a page][add-edit-page], [create or edit a category][create-edit-category], or [insert images from the Content Editor][editor-insert-media].
 
-1. Access the Enhanced Media Gallery from an area that allows you to use media assets.
+1. Access the new Media Gallery from an area that allows you to use media assets.
 
 1. Select the asset, then click <span class="btn">Add Selected</span>.
 

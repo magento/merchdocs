@@ -1,8 +1,8 @@
 ---
-title: Enhanced Media Gallery Folder Management
+title: Media Gallery Folder Management
 ---
 
-Use folders to organize images in the [Enhanced Media Gallery]({% link cms/enhanced-media-gallery.md %}). As the number of media assets increases, this will make it easier to locate and manage existing assets in your media gallery.
+Use folders to organize images in the new [Media Gallery]({% link cms/media-gallery.md %}). As the number of media assets increases, this will make it easier to locate and manage existing assets in your media gallery.
 
 ## Create a folder
 

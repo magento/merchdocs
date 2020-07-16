@@ -30,7 +30,7 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 
 1. If you want to enable or disable the Product EAV indexer, set the **Enable EAV Indexer**.
 
-   This feature improves indexation speed and restricts the indexer from use by third-party extensions. 
+   This feature improves indexation speed and restricts the indexer from use by third-party extensions.
 
 1. To limit the maximum number of search results to display for search autocomplete, set an amount for **Autocomplete Limit**.
 
@@ -90,7 +90,7 @@ Search suggestions and recommendations can impact server performance.
 
 ## Step 4: Configure Minimum Terms to Match
 
-To control the minimum number of terms from your query that the search results should match in order to be returned, specify a value in the **Minimum Terms to Match** field. This ensures optimal results relevancy for shoppers. Refer to the [Elasticsearch section of Catalog]]({% link catalog.md %}#elasticsearch) for a list of accepted values for this field.
+To control the minimum number of terms from your query that the search results should match in order to be returned, specify a value for **Minimum Terms to Match**. This ensures optimal results relevancy for shoppers. For a list of accepted values, see  [minimum_should_match parameter](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) in the Elasticsearch documentation.
 
 When complete, click <span class="btn">Save Config</span>.
 

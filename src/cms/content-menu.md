@@ -39,10 +39,10 @@ Create rich, [interactive content]({% link cms/dynamic-blocks.md %}) that is dri
 
 ## Media
 
-[Enhanced Media Gallery]({% link cms/enhanced-media-gallery.md %}) helps Merchants to organize and manage their media files in the admin panel.
+[Media Gallery]({% link cms/media-gallery.md %}) helps Merchants to organize and manage their media files in the admin panel.
 
 {:.bs-callout-info}
-You must enable [Enhanced Media Gallery]({% link cms/enhanced-media-gallery.md %}) for the menu to show.
+You must enable the new [Media Gallery]({% link cms/media-gallery.md %}) for this menu section to be visible.
 
 ## Design
 
