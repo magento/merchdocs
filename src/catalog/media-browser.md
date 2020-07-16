@@ -11,7 +11,7 @@ _Media Browser_
 
 ## Image zoom
 
-Customers can view a magnified portion of the image on mouseover, if the [base image]({% link catalog/product-image-upload.md %}) is large enough to create the zoom effect. When zoom is activated, customers can click the main image and move the cursor around to magnify different parts of the image. The magnified selection appears to the right of the image.
+If the [base image]({% link catalog/product-image-upload.md %}) is large enough to create the zoom effect, customers can view a magnified portion of the image on mouseover. When zoom is activated, customers can click the main image and move the cursor around to magnify different parts of the image. The magnified selection appears to the right of the image.
 
 ![]({% link images/images/storefront-image-zoom.png %}){: .zoom}
 _Image Zoom_
