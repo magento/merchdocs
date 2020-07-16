@@ -38,7 +38,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
     - If this inventory source is a Pickup Location, set to `Yes`.
 
-      The Default Source cannot be used as a pickup location for a In-Store Pickup delivery method.
+      The Default Source cannot be used as a pickup location for a In-store pickup delivery method.
 
 2. Expand ![]({% link images/images/btn-expand.png %}) the **Contact Info** section and do the following:
 
@@ -115,5 +115,8 @@ If editing the Default Source, you can edit all configurations except name and c
 |City|The city where the inventory source is located.|
 |Street|The street address of the inventory source.|
 |Postcode|(Required) The ZIP or postal code of the inventory source.|
+|**Pickup Location**| |
+|Frontend Name|The name of the Pickup Location for the source.|
+|Frontend Description|The description of the Pickup Location for the source. It can contain attached images.|
 
 [1]: https://www.google.com/maps
