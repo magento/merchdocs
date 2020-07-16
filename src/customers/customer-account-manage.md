@@ -42,7 +42,7 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 ### Subscribe to newsletter
 
 {:.bs-callout-info}
-In multi-store and multi-site setups with a global [customer account scope]({% link customers/account-scope.md %}), a customer account can be subscribed to newsletters multiple sites/stores. If you apply the Subscribe action to a customer account, it activates the newsletter subscription for the default site/store view only.
+In multi-store and multi-site setups with a global [customer account scope]({% link customers/account-scope.md %}), a customer account can be subscribed to newsletters multiple sites/stores. If you apply the _Subscribe_ action to a customer account, it activates the newsletter subscription for the default site/store view only.
 
 - Set the **Actions** control to `Subscribe to newsletter`.
 
@@ -51,7 +51,7 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 ### Unsubscribe from newsletter
 
 {:.bs-callout-warning}
-In multi-store and multi-site setups with a global [customer account scope]({% link customers/account-scope.md %}), a customer account can be subscribed to newsletters for multiple sites/stores. If you apply the Unsubscribe action to a customer account, all active subscriptions will be unsubscribed.
+In multi-store and multi-site setups with a global [customer account scope]({% link customers/account-scope.md %}), a customer account can be subscribed to newsletters for multiple sites/stores. If you apply the _Unsubscribe_ action to a customer account, all active subscriptions will be unsubscribed.
 
 1. Set the **Actions** control to `Unsubscribe to newsletter`.
 
@@ -107,7 +107,7 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 {: .fields-table }
 |Option|Description|
 |--- |--- |
-|Delete|Deletes selected customer accounts. If the customer account belongs to a company administrator for a B2B store, another company user must be assigned as admin before the customer account can be deleted.|
+|Delete|Deletes selected customer accounts. If the customer account belongs to a company administrator for a B2B store, another company user must be assigned as administrator before the customer account can be deleted.|
 |Subscribe to Newsletter|Subscribes selected customers to newsletter.|
 |Unsubscribe from Newsletter|Unsubscribes selected customers from newsletter.|
 |Assign a Customer Group|Assigns selected customers to a customer group.|

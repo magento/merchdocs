@@ -4,9 +4,9 @@ title: Managing Subscribers
 
 As a best practice you should manage your subscription list on a regular basis, and make sure to process any requests to unsubscribe. In some jurisdictions, it is required by law that requests to unsubscribe are processed within a specific period of time.
 
-You can easily manage your subscribers using a simple list of active subscriptions. When a customer submits an unsubscribe request, you can simply apply an unsubscribe action to one or more selected subscriptions.
+You can easily manage your subscribers using a simple list of active subscriptions. When a customer submits an unsubscribe request, you can simply apply an _Unsubscribe_ action to one or more selected subscriptions.
 
-In single site setups with multiple store views, a customer account subscription can be associated with a specific store view.
+In single-site setups with multiple store views, a customer account subscription can be associated with a specific store view.
 
 In multi-store and multi-site setups with a global [customer account scope]({% link customers/account-scope.md %}), a customer account can be subscribed to newsletters for multiple sites/stores. In this case, you may want to edit the customer account to manage a group of subscriptions or cancel a subscription for a specific site/store to honor a request.
 
@@ -20,7 +20,7 @@ If you want to use a third-party service to send newsletters, you can export you
 
 1. Click **Newsletter** in the left panel.
 
-1. Modify the subscription(s) for the customer according to your site/store setup:
+1. Modify the subscription(s) for the customer according to your site/store setup.
 
    For a single site/single store setup, you can simply select or clear the **Subscribed to Newsletter** checkbox.
 
@@ -47,7 +47,7 @@ If you want to use a third-party service to send newsletters, you can export you
 
 1. Find the subscription in the grid and select the checkbox in the first column.
 
-1. Set the Action control to **Unsubscribe** and click <span class="btn">Submit</span>.
+1. Set the _Action_ control to **Unsubscribe** and click <span class="btn">Submit</span>.
 
    ![Unsubscribe newsletter]({% link images/images/newsletter-unsubscribe.png %}){: .zoom}
    _Unsubscribe_
