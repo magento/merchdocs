@@ -29,7 +29,7 @@ If you need documentation for an earlier Magento release, the following resource
 
 ### 2.2
 
-Magento 2.2.11 was the final 2.2.x release. After April 2020, Magento 2.2.x stopped receiving security patches, quality fixes, or documentation updates. To maintain your site's performance, security, and PCI compliance, you should upgrade to the latest version of Magento. User documentation remains available in PDF form:
+Magento 2.2.11 was the final 2.2.x release. After April 2020, Magento 2.2.x stopped receiving security patches, quality fixes, and documentation updates. To maintain your site's performance, security, and PCI compliance, you should upgrade to the latest version of Magento. User documentation is no longer updated but remains available in PDF form:
 
 - {:.ce-only}[Magento Open Source 2.2 User Guide][6]{:target="_blank"}
 - {:.ee-only}[Magento Commerce 2.2 User Guide][7]{:target="_blank"}
@@ -37,14 +37,14 @@ Magento 2.2.11 was the final 2.2.x release. After April 2020, Magento 2.2.x stop
 
 ### 2.1
 
-Magento 2.1.18 was the final 2.1.x release. After June 2019, Magento 2.1.x stopped receiving security patches, quality fixes, or documentation updates. To maintain your site's performance, security, and PCI compliance, you should upgrade to the latest version of Magento. User documentation remains available in PDF form:
+Magento 2.1.18 was the final 2.1.x release. After June 2019, Magento 2.1.x stopped receiving security patches, quality fixes, and documentation updates. To maintain your site's performance, security, and PCI compliance, you should upgrade to the latest version of Magento. User documentation is no longer updated but remains available in PDF form:
 
 - {:.ce-only}[Magento Community 2.1 User Guide][5]{:target="_blank"}
 - {:.ee-only}[Magento Enterprise 2.1 User Guide][4]{:target="_blank"}
 
 ### 2.0
 
-Magento 2.0.18 was the final 2.0.x release. After March 2018, Magento 2.0.x stopped receiving security patches, quality fixes, and documentation updates. To maintain your site's performance, security, and PCI compliance, you should upgrade to the latest version of Magento. User documentation remains available in PDF form:
+Magento 2.0.18 was the final 2.0.x release. After March 2018, Magento 2.0.x stopped receiving security patches, quality fixes, and documentation updates. To maintain your site's performance, security, and PCI compliance, you should upgrade to the latest version of Magento. User documentation is no longer updated but remains available in PDF form:
 
 - {:.ce-only}[Magento Community 2.0 User Guide][9]{:target="_blank"}
 - {:.ee-only}[Magento Enterprise 2.0 User Guide][10]{:target="_blank"}
