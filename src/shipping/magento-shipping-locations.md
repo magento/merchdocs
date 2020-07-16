@@ -13,62 +13,62 @@ The Locations grid is hosted in the Magento Shipping Portal, but can be accessed
 ![]({% link images/images/shipping-magento-shipping-configure-locations.png %}){: .zoom}
 _Locations Grid_
 
-## To Add a New Location
+## Add a new location
 
-1.  On the _Admin_ sidebar, choose **Stores**.
+1. On the _Admin_ sidebar, go to **Stores** > _Shipping_ > **Locations**.
 
-1.  In the _Shipping_ section, click **Locations**. The Magento Shipping Portal opens in a new tab.
+   The Magento Shipping Portal opens in a new tab.
 
-1.  Click **Create New Location**.
+1. Click **Create New Location**.
 
-1.  Enter the **Location Name**, as you want it to appear throughout Magento Shipping.
+1. Enter the **Location Name**, as you want it to appear throughout Magento Shipping.
 
-1.  Set the location **Type** to one of the following:
+1. Set the location **Type** to one of the following:
 
-    - Store
-    - Warehouse
-    - Drop Shipper
-    - Headquarters
+   - Store
+   - Warehouse
+   - Drop Shipper
+   - Headquarters
 
-1.  To enable [Click & Collect]({% link shipping/magento-shipping-click-collect.md %}), set **Enable Click & Collect** to `Yes`.
+1. To enable [Click & Collect]({% link shipping/magento-shipping-click-collect.md %}), set **Enable Click & Collect** to `Yes`.
 
-1.  To make this the default pickup location for all shipments, set **Set as Default Location** to `No`.
+1. To make this the default pickup location for all shipments, set **Set as Default Location** to `No`.
 
-    When creating a new [shipment]({% link sales/shipments-create.md %}), the default location is entered automatically, but can be changed as needed.
+   When creating a new [shipment]({% link sales/shipments-create.md %}), the default location is entered automatically, but can be changed as needed.
 
-    ![]({% link images/images/shipping-magento-shipping-configure-locations-add-name.png %}){: .zoom}
-    _Basic Settings_
+   ![]({% link images/images/shipping-magento-shipping-configure-locations-add-name.png %}){: .zoom}
+   _Basic Settings_
 
-1.  Complete the fields in the **Address** section.
+1. Complete the fields in the **Address** section.
 
-    If you need help, refer to the Field Descriptions at the end of this topic.
+   If you need help, refer to the Field Descriptions at the end of this topic.
 
-1.  For **Dependent Locality**, enter an additional descriptive name to describe the location, such as the name of the neighborhood, small town, or suburb.
+1. For **Dependent Locality**, enter an additional descriptive name to describe the location, such as the name of the neighborhood, small town, or suburb.
 
-    See the [Latitude/Longitude FInder][1]{:target="_blank"} to get the GPS coordinates of the location. Then, enter the **Latitude** and **Longitude** coordinates.
+   See the [Latitude/Longitude FInder][1]{:target="_blank"} to get the GPS coordinates of the location. Then, enter the **Latitude** and **Longitude** coordinates.
 
-    ![]({% link images/images/shipping-magento-shipping-configure-locations-address.png %}){: .zoom}
-    _Address_
+   ![]({% link images/images/shipping-magento-shipping-configure-locations-address.png %}){: .zoom}
+   _Address_
 
-1.  Complete the fields in the **Contact** section.
+1. Complete the fields in the **Contact** section.
 
-    If you need help, refer to the Field Descriptions at the end of this topic.
+   If you need help, refer to the Field Descriptions at the end of this topic.
 
-    ![]({% link images/images/shipping-magento-shipping-configure-locations-add-contact.png %}){: .zoom}
-    _Contact_
+   ![]({% link images/images/shipping-magento-shipping-configure-locations-add-contact.png %}){: .zoom}
+   _Contact_
 
-1.  In the _Date and Time_ section, choose the appropriate option for the shipping location in the **Timezone** drop-down.
+1. In the _Date and Time_ section, choose the appropriate option for the shipping location for **Timezone**.
 
-1.  Complete the fields in the **Opening Hours** section.
+1. Complete the fields in the **Opening Hours** section.
 
-    Choose the day of week, open from, and open to values in the appropriate drop-down fields for the hours the location is open (in local time). Click **Add** to add additional days and times.
+   Choose the day of week, open from, and open to values in the appropriate drop-down fields for the hours the location is open (in local time). Click **Add** to add additional days and times.
 
-    If the location has any non-standard (holiday, seasonal, etc.) open or closed dates or times, click **Add** in the **Special Closures** or **Special Openings** sections to add the information.
+   If the location has any non-standard (holiday, seasonal, etc.) open or closed dates or times, click **Add** in the **Special Closures** or **Special Openings** sections to add the information.
 
-    ![]({% link images/images/shipping-magento-shipping-configure-locations-opening-hours.png %}){: .zoom}
-     _Opening Hours_
+   ![]({% link images/images/shipping-magento-shipping-configure-locations-opening-hours.png %}){: .zoom}
+   _Opening Hours_
 
-1.  When complete, click **Save**.
+1. When complete, click **Save**.
 
 ### Field Descriptions
 

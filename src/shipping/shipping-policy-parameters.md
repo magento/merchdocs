@@ -11,17 +11,15 @@ To display your shipping policy during checkout, complete the Shipping Policy Pa
 
 ## To configure your shipping policy
 
-1.  On the _Admin_ sidebar, click **Stores**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1.  In the _Settings_ section, choose **Configuration**.
+1. In the left panel, expand **Sales** and choose **Shipping Settings**.
 
-1.  In the _Sales_ section on the left panel, choose **Shipping Settings**.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Shipping Policy Parameters** section.
 
-1.  Expand ![]({% link images/images/btn-expand.png %}) the **Shipping Policy Parameters** section, and do the following:
+1. Set **Apply Custom Shipping Policy** to `Yes`.
 
-1.  Set **Apply Custom Shipping Policy** to `Yes`.
-
-1.  Either paste or enter your **Shipping Policy** into the text box.
+1. Either paste or enter your **Shipping Policy** into the text box.
 
     {:.bs-callout-info}
     If you use a word processor to compose the text, make sure to save the document as a .txt file to remove any control characters from the text. Then, copy and paste the text into the Shipping Policy text box.
@@ -29,4 +27,4 @@ To display your shipping policy during checkout, complete the Shipping Policy Pa
     ![]({% link images/images/config-sales-shipping-settings-shipping-policy-parameters.png %}){: .zoom}
     [*Shipping Policy Parameters*]({% link configuration/sales/shipping-settings.md %})
 
-1.  Click **Save Config**.
+1. Click <span class="btn">Save Config</span>.

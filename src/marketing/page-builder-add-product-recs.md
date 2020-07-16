@@ -6,7 +6,7 @@ title: Add Product Recommendations
 Use the Product Recommendations content type to add an existing, active [recommendation unit]({% link marketing/create-new-rec.md %}) to a page, block, or dynamic block.
 
 {:.bs-callout-info}
-The Product Recommendations content type in Page Builder is supported in Magento 2.3.1 and later and available in the [Product Recommendations metapackage versions 3.0.x or later](https://marketplace.magento.com/magento-product-recommendations.html).
+The Product Recommendations content type in Page Builder is supported in Magento 2.3.1 and later and available in the [Product Recommendations metapackage versions 3.0.x or later](https://marketplace.magento.com/magento-product-recommendations.html). To add Page Builder support, [see the developer documentation](https://devdocs.magento.com/recommendations/install-configure.html#pbsupport).
 
 ## Add an existing recommendation unit
 
@@ -19,12 +19,12 @@ The Product Recommendations content type in Page Builder is supported in Magento
 
 1. Hover over the empty product recommendation container, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}) in the toolbox, and do the following:
 
-    -  Click <span class="btn">Select</span>.
+    - Click <span class="btn">Select</span>.
 
         ![]({% link images/images-ee/page-builder-add-prex-select.png %}){: .zoom}
         _Select Product Recommendation_
 
-    -  In the list of active product recommendations, find the row with the recommendation unit that you want to add and click <span class="btn">Select</span> in the last column.
+    - In the list of active product recommendations, find the row with the recommendation unit that you want to add and click <span class="btn">Select</span> in the last column.
 
         ![]({% link images/images-ee/page-builder-add-prex-selected.png %}){: .zoom}
         _Selected Product Recommendation_
@@ -34,9 +34,9 @@ The Product Recommendations content type in Page Builder is supported in Magento
         ![]({% link images/images-ee/page-builder-add-prex-name.png %}){: .zoom}
         _Product Recommendation Name_
 
-    -  Complete the remaining settings as needed, using the field descriptions at the end of this page for reference.
+    - Complete the remaining settings as needed, using the field descriptions at the end of this page for reference.
 
-    -  When complete, click <span class="btn">Save</span> to return to the Page Builder workspace.
+    - When complete, click <span class="btn">Save</span> to return to the Page Builder workspace.
 
 1. In the upper-right corner, click **Save**.
 
@@ -47,13 +47,13 @@ The Product Recommendations content type in Page Builder is supported in Magento
     ![]({% link images/images-ee/page-builder-add-prex-toolbox.png %}){: .zoom}
     _Block Toolbox_
 
-    -  In the **Edit Product Recommendation** page, click <span class="btn">Select</span>.
+    - In the **Edit Product Recommendation** page, click <span class="btn">Select</span>.
 
-    -  In the **Select Product Recommendation** page, find the row with the recommendation unit that you want to add. In the last column, click <span class="btn">Select</span>.
+    - In the **Select Product Recommendation** page, find the row with the recommendation unit that you want to add. In the last column, click <span class="btn">Select</span>.
 
-    -  Update the remaining settings as needed, using the field descriptions at the end of this page for reference.
+    - Update the remaining settings as needed, using the field descriptions at the end of this page for reference.
 
-    -  When complete, click <span class="btn">Save</span> to return to the Page Builder workspace.
+    - When complete, click <span class="btn">Save</span> to return to the Page Builder workspace.
 
 1. In the upper-right corner, click <span class="btn">Save</span>.
 

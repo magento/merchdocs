@@ -9,44 +9,42 @@ The Packaging grid lists the available packaging options that are available thro
 ![]({% link images/images/shipping-magento-shipping-configure-packaging.png %}){: .zoom}
 _Packaging_
 
-## To Add a Packaging Option
+## Add a packaging option
 
-1.  On the _Admin_ sidebar, choose **Stores**.
+1. On the _Admin_ sidebar, go to **Stores** > _Shipping_ > **Packaging**.
 
-1.  In the _Shipping_ section, choose **Packaging**.
+1. Click **Create New Packaging**.
 
-1.  Click **Create New Packaging**.
+1. Enter the **Name** of the package.
 
-1.  Enter the **Name** of the package.
+1. Choose the package **Type**.
 
-1.  Choose the package **Type**.
+1. For **Tare Weight**, enter the weight of the empty package.
 
-1.  In the **Tare Weight** field, enter the weight of the empty package.
+1. Set **Tare Unit** to the unit of measurement that is used for the Tare Weight value.
 
-1.  Set **Tare Unit** to the unit of measurement that is used for the Tare Weight value.
+1. Enter the **Maximum Weight** that can be placed in the package.
 
-1.  Enter the **Maximum Weight** that can be placed in the package.
+1. Set **Maximum Weight Unit** to the unit of measurement that is used for the Maximum Weight value.
 
-1.  Set **Maximum Weight Unit** to the unit of measurement that is used for the Maximum Weight value.
+   ![]({% link images/images/shipping-magento-shipping-configure-package-add-part1.png %}){: .zoom}
+   _Basic Settings_
 
-      ![]({% link images/images/shipping-magento-shipping-configure-package-add-part1.png %}){: .zoom}
-      _Basic Settings_
+1. Complete the options in the **Outer Dimensions** section.
 
-1.  Complete the fields in the **Outer Dimensions** section.
+   If you need help, click the Help (![]({% link images/images/btn-help.png %})) button or refer to the Field Descriptions at the end of this topic.
 
-    If you need help, click the Help (![]({% link images/images/btn-help.png %})) button or refer to the Field Descriptions at the end of this topic.
+   ![]({% link images/images/shipping-magento-shipping-configure-package-add-outer-dimensions.png %}){: .zoom}
+   _Outer Dimensions_
 
-    ![]({% link images/images/shipping-magento-shipping-configure-package-add-outer-dimensions.png %}){: .zoom}
-    _Outer Dimensions_
+1. Complete the options in the **Inner Dimensions** section.
 
-1.  Complete the fields in the **Inner Dimensions** section.
+   If you need help, click the Help (![]({% link images/images/btn-help.png %})) button or refer to the Field Descriptions at the end of this topic.
 
-    If you need help, click the Help (![]({% link images/images/btn-help.png %})) button or refer to the Field Descriptions at the end of this topic.
+   ![]({% link images/images/shipping-magento-shipping-configure-package-add-inner-dimensions.png %}){: .zoom}
+   _Inner Dimensions_
 
-    ![]({% link images/images/shipping-magento-shipping-configure-package-add-inner-dimensions.png %}){: .zoom}
-    _Inner Dimensions_
-
-1.  Click **Save**.
+1. Click **Save**.
 
 ### Field Descriptions
 

@@ -18,39 +18,41 @@ The Carriers grid identifies:
 ![]({% link images/images/shipping-magento-partners.png %}){: .zoom}
 _Carriers Grid_
 
-## To Connect a New Carrier
+## Connect a new carrier
 
 Each carrier has their own specific connection workflow. Some carriers can be fully connected by a merchant allowing for immediate fulfillment, while others require assistance from the Magento Shipping team.
 
-1.  On the _Admin_ sidebar, choose **Stores**.
+1. On the _Admin_ sidebar, go to **Stores** > _Shipping_ > **Carriers**.
 
-1.  In the _Shipping_ section, click **Carriers**. The Magento Shipping Portal opens in a new tab.
+   The Magento Shipping Portal opens in a new tab.
 
-1.  Click **Connect Carrier**.
+1. Click **Connect Carrier**.
 
-    ![]({% link images/images/shipping-magento-partners-available.png %}){: .zoom}
-    _Connect a Carrier_
+   ![]({% link images/images/shipping-magento-partners-available.png %}){: .zoom}
+   _Connect a Carrier_
 
-1.  Specify a **Country Origin** in the drop-down. Only carriers that have routes from the origin country are displayed.
+1. Specify a **Country Origin**.
 
-1.  In the _Available Carriers_ section, scroll down to find the shipping carrier that you want to add and click **Connect**.
+   Only carriers that have routes from the origin country are displayed.
 
-1.  Follow the carrier specific connection workflow.
+1. In the _Available Carriers_ section, scroll down to find the shipping carrier that you want to add and click **Connect**.
 
-1.  Click **Save**.
+1. Follow the carrier specific connection workflow.
 
-## To Edit an Existing Carrier
+1. Click **Save**.
 
-1.  On the _Admin_ sidebar, choose **Stores**.
+## Edit an existing carrier
 
-1.  In the _Shipping_ section, click **Carriers**. The Magento Shipping Portal opens in a new tab.
+1. On the _Admin_ sidebar, go to **Stores** > _Shipping_ >**Carriers**.
 
-1.  Find the carrier you wish to edit and click the edit (![]({% link images/images/magento-shipping-portal-edit-icon.png %})) icon.
+   The Magento Shipping Portal opens in a new tab.
 
-1.  Make the necessary changes to the carrier profile.
+1. Find the carrier you want to edit and click the edit (![]({% link images/images/magento-shipping-portal-edit-icon.png %})) icon.
 
-1.  Click **Save**.
+1. Make the necessary changes to the carrier profile.
 
-## View Details
+1. Click **Save**.
+
+## View details
 
 For a listing and description of services, click **View Details** for the carrier.
