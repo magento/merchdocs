@@ -14,9 +14,9 @@ It is possible to assign it to a source with a specific delivery method, such as
 |Field|Description|
 |--- |--- |
 |Name|The unique name for a source.|
-|Source Status|Determines if the source is enabled for that item.|
-|Source Item Status|Determines the current availability of the product. Options:<br />**In Stock** - Makes the product available for purchase.<br />**Out of Stock** - Unless Backorders are activated, prevents the product from being available for purchase and removes the listing from the catalog.|
+|Source Status|Determines if the item is enabled or disabled in the catalog.|
+|Source Item Status|Determines the current availability of the item. Options:<br />**In Stock** - Makes the item available for purchase.<br />**Out of Stock** - Unless Backorders are activated, prevents the item from being available for purchase and removes the listing from the catalog.|
 |Qty|On-hand stock amounts for each source, or location, for the source.|
-|Notify Qty|An amount for the Notify for Quantity Below for this specific source if Notify Quantity Use Default is not selected.|
-|Notify Quantity Use Default|Indicates to use the default setting for Notify for Quantity Below in the product Advanced Inventory or global setting in Store configuration.|
-|Actions|Determines the online address of the product. The URL key is added to the base URL of the store and appears in the address bar of a browser. Magento initially creates a default, _search engine friendly_ URL, that is based on the product name. The URL Key should be all lowercase characters, with hyphens instead of spaces. Do not include a suffix such as `.html` in the URL Key, because  it is managed in the configuration.|
+|Notify Qty|An amount for the Notify for Quantity for this specific source if `Notify Quantity Use Default` is not selected.|
+|Notify Qty Use Default|Indicates to use the default setting for Notify for Quantity in the item **Advanced Inventory** or global setting in Store configuration. For more information about category display options, see [Advanced Inventory]({% link catalog/inventory-product-stock-options.md %}).|
+|Actions|Allows the source to be **Unassign**. The source is not available for the item. You can use the **Assign Sources** action to make a source available for the item.|
