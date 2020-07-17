@@ -40,7 +40,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
       The Default Source cannot be used as a pickup location for a In-store pickup delivery method.
 
-2. Expand ![]({% link images/images/btn-expand.png %}) the **Contact Info** section and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Contact Info** section and do the following:
 
     - For **Contact Name**, enter the full name of the primary contact at the location.
 
@@ -53,7 +53,7 @@ If editing the Default Source, you can edit all configurations except name and c
       ![]({% link images/images/stores-inventory-source-contact-info.png %}){: .zoom}
       _Contact Info_
 
-3. Expand ![]({% link images/images/btn-expand.png %}) the **Address Data** section and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Address Data** section and do the following:
 
     - Choose the **Country**.
 
@@ -68,7 +68,7 @@ If editing the Default Source, you can edit all configurations except name and c
       ![]({% link images/images/stores-inventory-source-address-data.png %}){: .zoom}
       _Address Data_
 
-4. Expand ![]({% link images/images/btn-expand.png %}) the **Pickup Location** section and do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Pickup Location** section and do the following:
 
     - Choose the **Frontend Name** of the **Pickup Location**.
 
@@ -77,7 +77,7 @@ If editing the Default Source, you can edit all configurations except name and c
       ![]({% link images/images/pickup_location.png %}){: .zoom}
       _Pickup Location_
 
-5. To save your work, do one of the following:
+1. To save your work, do one of the following:
 
     - To save your work and continue editing, click <span class="btn">Save & Continue</span>.
 
@@ -119,4 +119,3 @@ If editing the Default Source, you can edit all configurations except name and c
 |Frontend Name|The name of the Pickup Location for the source.|
 |Frontend Description|The description of the Pickup Location for the source. It can contain attached images.|
 
-[1]: https://www.google.com/maps
