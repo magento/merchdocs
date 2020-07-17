@@ -2,9 +2,9 @@
 title: Managing Sources
 ---
 
-Sources represent locations storing and shipping your product stock. Any location with available stock and capable of order fulfillment can be added as a source such as warehouses, brick-and-mortar stores, distribution centers, and drop shippers.
+Sources represent locations storing and shipping your product stock. Any location with available stock and capable of order fulfillment can be added as a source such as warehouses, brick-and-mortar stores, distribution centers, pickup locations and drop shippers.
 
-Sources are the physical locations where product inventory is managed and shipped for order fulfillment, or where services are available. These locations can include warehouses, brick-and-mortar stores, distribution centers, and drop shippers. You allocate inventory quantities to these sources, and Magento automatically aggregates the total salable products for your stocks. For large companies, add multiple sources for all of your locations: in different geographic locations by country and continent, locations in a city, based on the type of inventory, even based on services.
+Sources are the physical locations where product inventory is managed and shipped for order fulfillment, or where services are available. These locations can include warehouses, brick-and-mortar stores, distribution centers, pickup locations and drop shippers. You allocate inventory quantities to these sources, and Magento automatically aggregates the total salable products for your stocks. For large companies, add multiple sources for all of your locations: in different geographic locations by country and continent, locations in a city, based on the type of inventory, even based on services.
 
 You start with a Default Source you can update but not disable. This source is used by Single Source Merchants and for product migration. You always need a default source.
 
