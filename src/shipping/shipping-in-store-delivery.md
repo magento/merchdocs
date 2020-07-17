@@ -28,15 +28,23 @@ The first step is to complete the default settings for table rates. You can comp
     {:.bs-callout-info}
     The default title is `In-Store Pickup Delivery`.
 
-2. Enter the **Price** that you want to charge for In-Store Delivery shipping.
+1. Enter the **Price** that you want to charge for In-Store Delivery shipping.
 
-3. Enter the **Search Radius** in kilometers for store pickup location search on storefront checkout.
+1. Enter the **Search Radius** in kilometers for store pickup location search on storefront checkout.
 
-4. In the **Displayed Error Message** box, type the message that appears if In-Store Delivery becomes unavailable. ()
+1. In the **Displayed Error Message** box, type the message that appears if In-Store Delivery becomes unavailable. ()
 
     {:.bs-callout-info}
     The default message is `In-Store Delivery is not available. To use this delivery method, please contact us.`
 
-5. Click **Save Config**.
+1. Click **Save Config**.
 
 For more information about how to configure email notifications for In-Store Delivery, see [Sales Emails]({% link configuration/sales/sales-emails.md %}).
+
+The email templates are documented here
+https://docs.magento.com/user-guide/marketing/email-template-list.html
+You'll need to add a section with the heading Magento_InventoryInStorePickupSales
+The table will have two rows
+Order is Ready for Pickup
+Order is Ready for Pickup For Guest
+
