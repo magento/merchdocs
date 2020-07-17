@@ -36,13 +36,13 @@ When first installing or upgrading to Magento 2.3.x Open Source, Commerce, or Co
 
 - {:.b2b-only}Inventory Management supports B2B inventory. At this time, all B2B products must be assigned to the Default Source and Default Stock. Future updates will resolve this issue.
 
-## Magento Order Management and Inventory Management
+## Magento Commerce Order Management and Inventory Management
 
-If you use [Magento Order Management][1] in your Magento implementation to manage, sell, and fulfill inventory from any sales channel, you need to fully disable the [Inventory Management extensions]({% link magento/magento-extensions.md %}). These modules provide all Inventory Management features to Magento, including Single and Multi Source management, stocks, reservations, and more.
+If you use [Magento Commerce Order Management (MCOM)][1] in your Magento implementation to manage, sell, and fulfill inventory from any sales channel, you need to fully disable the [Inventory Management extensions]({% link magento/magento-extensions.md %}). These modules provide all Inventory Management features to Magento, including Single and Multi Source management, stocks, reservations, and more.
 
-We may support integrations between Magento Inventory Management (also known as MSI) and Magento Order Management in a later release.
+We may support integrations between Magento Inventory Management (also known as MSI) and MCOM in a later release.
 
-Magento Order Management provides extensive features and services for advanced omnichannel order management, global inventory and multisourcing, store to warehouse fulfillment, and centralized customer service. For a complete list of features, see the [OMS Feature list][2].
+MCOM provides extensive features and services for advanced omnichannel order management, global inventory and multisourcing, store to warehouse fulfillment, and centralized customer service. For a complete list of features, see the [MCOM Feature list][2].
 
 Magento Inventory Management extends existing Magento features with additional options to track in-flight orders, on-hand inventory, available inventory for a stock, and APIs for extension development.
 
