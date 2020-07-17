@@ -12,4 +12,6 @@ Magento supports a wide range of shipping methods and carriers. In this section 
 
 * [Table Rates]({% link shipping/shipping-table-rate.md %})
 
+* [In-Store Delivery]({% link shipping/shipping-in-store-delivery.md %})
+
 * [Dimensional Weight]({% link shipping/weight-dimensional.md %})
