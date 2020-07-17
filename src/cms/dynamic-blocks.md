@@ -11,7 +11,7 @@ redirect_from:
 Create rich, interactive content that is driven by logic from [price rules]({% link marketing/promotions.md %}) and [customer segments]({% link marketing/customer-segments.md %}). Existing [dynamic blocks]({% link cms/page-builder-add-dynamic-block.md %}) can be added directly to the Page Builder [stage]({% link cms/page-builder-workspace.md %}). To learn more, see [Tutorial 2: Blocks]({% link cms/page-builder-tutorial2-blocks.md %}).
 
 {:.bs-callout-info}
-The Banner option in the [Content menu]({% link cms/content-menu.md %}) was deprecated in 2.3.1 and removed in 2.4.0. Its functionality is replaced by Dynamic Block.
+The _Banner_ option in the [Content menu]({% link cms/content-menu.md %}) was deprecated in 2.3.1 and removed in 2.4.0. Its functionality is replaced by Dynamic Blocks.
 
 ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-storefront.png %}){: .zoom}
 _Dynamic Block with Price Rule and Customer Segment_

@@ -2,7 +2,7 @@
 title: Using Markup Tags in Links
 ---
 
-You can use markup tags with HTML anchor tags, and link directly to any page in your store. The link can be incorporated into content pages, blocks, or email and newsletter templates. You can also use this technique to link an image to a specific page.
+You can use markup tags with HTML anchor tags and link directly to any page in your store. The link can be incorporated into content pages, blocks, or email and newsletter templates. You can also use this technique to link an image to a specific page.
 
 ## Step 1. Identify the Destination URL
 
