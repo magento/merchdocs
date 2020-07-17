@@ -15,7 +15,7 @@ When first installing or upgrading to Magento 2.3.x Open Source, Commerce, or Co
    - Stocks provide an aggregated, virtual Salable Quantity with reservations to track shopping carts and orders, ensuring concurrent checkout.
 
    - All existing products in your catalog assign to the Default Source. Until you add new sources, the product interface does not change. If you only ship products from one location, you will not see additional differences for sources. You can create custom [sources]({% link catalog/inventory-sources-add.md %}) and [assign quantities]({% link catalog/inventory-manage-inventory-quantities.md %}) per shipment location.
-   
+
    - You can configure a source as a **Pickup Location** and [assign quantities]({% link catalog/inventory-manage-inventory-quantities.md %}) for that source.
 
    - Your website assigns to the Default Stock. You can create custom [stocks]({% link catalog/inventory-stock-add.md %}) to connect sales channels (websites) and sources (locations).
