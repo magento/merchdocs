@@ -24,11 +24,6 @@ Create [pages]({% link cms/pages.md %}) with text, images, blocks, variables, an
 Create [blocks]({% link cms/blocks.md %}) of content without writing any code. Blocks can contain text, images, and even video, and can be assigned to any part of the page layout.
 
 {:.ee-only}
-## Banners _(Deprecated)_
-
-Create [banners]({% link cms/banners.md %}) that are triggered by promotions and that appear only to customers in specific, targeted [segments]({% link marketing/customer-segment-banner.md %}).
-
-{:.ee-only}
 ## Dynamic Blocks
 
 Create rich, [interactive content]({% link cms/dynamic-blocks.md %}) that is driven by logic from [price rules]({% link marketing/promotions.md %}) and [customer segments]({% link marketing/customer-segments.md %}).
