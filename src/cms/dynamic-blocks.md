@@ -1,14 +1,22 @@
 ---
 ee_only: true
 title: Dynamic Blocks
+redirect_from:
+  - /cms/banners.html
+  - /cms/banner-create.html
+  - /cms/banner-rotator.html
+  - /cms/banners-price-rules.html
 ---
 
 Create rich, interactive content that is driven by logic from [price rules]({% link marketing/promotions.md %}) and [customer segments]({% link marketing/customer-segments.md %}). Existing [dynamic blocks]({% link cms/page-builder-add-dynamic-block.md %}) can be added directly to the Page Builder [stage]({% link cms/page-builder-workspace.md %}). To learn more, see [Tutorial 2: Blocks]({% link cms/page-builder-tutorial2-blocks.md %}).
 
+{:.bs-callout-info}
+The Banner option in the [Content menu]({% link cms/content-menu.md %}) was deprecated in 2.3.1 and removed in 2.4.0. Its functionality is replaced by Dynamic Block.
+
 ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-storefront.png %}){: .zoom}
 _Dynamic Block with Price Rule and Customer Segment_
 
-## Step 1: Create a Dynamic Block
+## Step 1: Create a dynamic block
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Dynamic Blocks**.
 
@@ -17,8 +25,8 @@ _Dynamic Block with Price Rule and Customer Segment_
 
 1. In the upper-right corner, click <span class="btn">Add Dynamic Block</span>. Then, do the following:
 
-      ![]({% link images/images-ee/page-builder-tutorial2-block-dynamic-new.png %}){: .zoom}
-      _New Dynamic Block_
+   ![]({% link images/images-ee/page-builder-tutorial2-block-dynamic-new.png %}){: .zoom}
+   _New Dynamic Block_
 
    - If applicable, set **Store View** to a specific store view where the dynamic block is to appear.
 
@@ -36,14 +44,14 @@ _Dynamic Block with Price Rule and Customer Segment_
       ![]({% link images/images-ee/page-builder-dynamic-block-customer-segment.png %}){: .zoom}
       _Choose a Customer Segment_
 
-## Step 2: Complete the Content
+## Step 2: Complete the content
 
 Use the Page Builder [workspace]({% link cms/page-builder-workspace.md %}) to complete the content.
 
 ![]({% link images/images-ee/page-builder-dynamic-block-workspace.png %}){: .zoom}
 _Page Builder Workspace_
 
-## Step 3: Choose a Related Promotion
+## Step 3: Choose a related promotion
 
 1. Scroll down and expand ![]({% link images/images/btn-expand.png %}){: .Inline} **Related Promotions**.
 
@@ -57,13 +65,13 @@ _Page Builder Workspace_
 
 1. When the dynamic block is complete, click <span class="btn">Save</span>.
 
-## Step 4: Add the Dynamic Block to a Page
+## Step 4: Add the dynamic block to a page
 
 1. Open the page where you want the dynamic block to appear.
 
 1. Use the [Add Dynamic Block]({% link cms/page-builder-add-dynamic-block.md %}) content type to add the dynamic block to the stage.
 
-## Field Descriptions
+## Field descriptions
 
 |Field|Description|
 |--- |--- |
