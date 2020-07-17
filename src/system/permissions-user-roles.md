@@ -31,14 +31,14 @@ To give someone restricted access to the Admin, the first step is to create a ro
     - `All`
     - `Custom`
 
-    If set to `Custom` for a multisite installation, select the checkbox of the website and store where the role is to be used.
+    {:.ee-only} If set to `Custom` for a multisite installation, select the checkbox of the website and store where the role is to be used.
 
     ![User role resources - custom scope]({% link images/images/permissions-role-scope-custom.png %}){: .zoom}
     _Custom Role Scope_
 
 1. Under _Roles Resources_, set **Resource Access** to `Custom`.
 
-1. In the tree, select the checkbox of each Admin **Resource** that the role can access.
+1. {:.ee-only} In the tree, select the checkbox of each Admin **Resource** that the role can access.
 
     To create an Admin role with access to tax settings, choose both the Sales/Tax and System/Tax resources. If setting up a website for a region that differs from your default [shipping point of origin]({% link shipping/point-of-origin.md %}), you must allow access to the System/Shipping resources for the role. The shipping settings determine the store tax rate that is used for catalog prices.
 
