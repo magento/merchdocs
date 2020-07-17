@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: MCOM
+title: Magento Commerce Order Management (MCOM)
 group: operations
 sections:
   - title: Manage Stock Aggregates
