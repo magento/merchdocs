@@ -114,6 +114,14 @@ The list of email templates is organized alphabetically by Magento module.
 | Registry Sharing | **Page:** <br/>**Section:** <br/>**Field:** |
 | Registry Update | **Page:** <br/>**Section:** <br/>**Field:** |
 
+## Magento_InventoryInStorePickupSales
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+| Order is Ready for Pickup | **Page:** <br/>**Section:** <br/>**Field:** |
+| Order is Ready for Pickup For Guest | **Page:** <br/>**Section:** <br/>**Field:** |
+
 ## Magento_Invitation
 
 {: .template-table }

@@ -41,10 +41,4 @@ The first step is to complete the default settings for table rates. You can comp
 
 For more information about how to configure email notifications for In-Store Delivery, see [Sales Emails]({% link configuration/sales/sales-emails.md %}).
 
-The email templates are documented here
-https://docs.magento.com/user-guide/marketing/email-template-list.html
-You'll need to add a section with the heading Magento_InventoryInStorePickupSales
-The table will have two rows
-Order is Ready for Pickup
-Order is Ready for Pickup For Guest
 
