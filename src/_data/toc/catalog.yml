@@ -59,7 +59,7 @@ pages:
     children:
     - label: Sources
       url: "/catalog/sources.html"
-      - label: Content
+    - label: Content
       url: "/catalog/product-content.html"
     - label: Configurations
       url: "/catalog/product-configurations.html"
