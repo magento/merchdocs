@@ -39,7 +39,4 @@ The first step is to complete the default settings for table rates. You can comp
 
 5. Click **Save Config**.
 
-For more information about how to configure email notifications for In-Store Delivery, see [Sales Emails]({% link sales/sales-emails.md %}). 
-
-
-
+For more information about how to configure email notifications for In-Store Delivery, see [Sales Emails]({% link configuration/sales/sales-emails.md %}).
