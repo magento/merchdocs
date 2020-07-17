@@ -57,7 +57,9 @@ pages:
   - label: Other Settings
     url: "/catalog/settings-other.html"
     children:
-    - label: Content
+    - label: Sources
+      url: "/catalog/sources.html"
+      - label: Content
       url: "/catalog/product-content.html"
     - label: Configurations
       url: "/catalog/product-configurations.html"

@@ -2,7 +2,9 @@
 title: Sources
 ---
 
-This section lists the sources that contain stock for an specific product. Allows you to modify the quantity in each source and availability for a specific delivery method.
+The Sources section lists the sources that contain stock for a specific product. It is used to modify the stock quantity for each product in a source.
 
 ![]({% link images/images/sources_view.png %}){: .zoom}
 _Sources View_
+
+It is possible to assign it to a source with a specific delivery method, such as In-store pickup.
