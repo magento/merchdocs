@@ -25,7 +25,7 @@ This shipping method allows for a pickup location to be selected. If the custome
 ![]({% link images/images/select-in-store-delivery-populated.png %}){: .zoom}
 _Checkout: Default Pickup Location_
 
-For more information about how to enable this shipping method, see [In-store Delivery]({% link shipping/shipping-in-store-delivery.md %}).
+For more information about how to enable this shipping method, see [In-store Delivery]({% link shipping/shipping-in-store-delivery.md %}) feature.
 
 ## Ship to a different address
 
