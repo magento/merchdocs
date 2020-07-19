@@ -55,7 +55,7 @@ For more information about how to enable this shipping method, see [In-store Del
 
 ## Choose the shipping method
 
-1. In the list of [shipping]({% link shipping/shipping.md %}) methods, choose the option that you want to use.
+1. In the list of [shipping methods]({% link shipping/shipping.md %}), choose the option that you want to use.
 
     ![]({% link images/images/storefront-checkout-step1-shipping-methods.png %}){: .zoom}
     _[Shipping Methods]({% link configuration/sales/shipping-methods.md %})_
