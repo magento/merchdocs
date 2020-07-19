@@ -1,5 +1,5 @@
 ---
-title: In-Store Delivery
+title: In-store Delivery
 ---
 
 The In-store delivery method allows to select a source to be used as a pickup location during the checkout of your order.
@@ -7,9 +7,9 @@ The In-store delivery method allows to select a source to be used as a pickup lo
 ![]({% link images/images/luma-in-store-example.png %}){: .zoom}
 [_Example of a In-store delivery method during checkout_]({% link sales/checkout-step1-shipping.md %})
 
-## To set up In-Store Delivery
+## To set up In-store Delivery
 
-The first step is to complete the default settings for table rates. You can complete this step without changing the scope of the configuration.
+The first step is to complete the default settings for In-store Delivery. You can complete this step without changing the scope of the configuration.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -39,6 +39,6 @@ The first step is to complete the default settings for table rates. You can comp
 
 1. Click **Save Config**.
 
-For more information about how to configure email notifications for In-Store Delivery, see [Sales Emails]({% link configuration/sales/sales-emails.md %}).
+For more information about how to configure a source as a pickup location, see [Adding a New Source]({% link catalog/inventory-sources-add.md %}).
 
 
