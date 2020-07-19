@@ -2,7 +2,9 @@
 title: 'Checkout Step 1: Shipping'
 ---
 
-The first step of the checkout process is for the customer to complete the shipping address information, and to choose the shipping method. If the customer has an account, the shipping address is entered automatically, but can be changed if needed.
+The first step of the checkout process is for the customer to complete the shipping address information, and to choose the shipping method. For more information, see [shipping methods]({% link configuration/sales/shipping-methods.md %}).
+
+If the customer has an account, the shipping address is entered automatically, but can be changed if needed.
 
 - {:.ee-only}The format of the street address for the recipient and sender is determined by the properties of the [customer address attribute]({% link stores/attributes-customer-address.md %}). The input validation setting determines the valid characters that can be used in a shipping address.
 
