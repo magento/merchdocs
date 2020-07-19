@@ -28,6 +28,8 @@ The left panel for an open order provides access to different types of informati
 ![]({% link images/images-ee/order-view.png %}){: .zoom}
 _View Order_{:.ee-only}
 
+Example of an order with an in-store delivery method.
+
 ![]({% link images/images-ee/order-view-in-store-delivery.png %}){: .zoom}
 _View Order In-store Delivery_{:.ee-only}
 
