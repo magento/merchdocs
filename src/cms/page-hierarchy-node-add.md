@@ -87,7 +87,7 @@ _Navigation Menu on About Us Page_
 
 ## Step 5: Choose the Menu Layout
 
-1. If you want the mode to appear in the menu, do the following:
+1. If you want the node to appear in the menu, do the following:
 
    - Under **Page Navigation Menu Options**, set **Show in Navigation Menu** to `Yes`.
 
