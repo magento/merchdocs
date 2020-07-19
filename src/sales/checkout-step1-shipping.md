@@ -13,7 +13,12 @@ The progress bar at the top of the page follows each step of the checkout proces
 ![]({% link images/images/storefront-checkout-step1-shipping.png %}){: .zoom}
 _Checkout Step 1: Shipping_
 
-## Ship to a different address
+## Select In-store Delivery
+
+A new tab appears during checkout if the in-store delivery method is enabled.
+
+![]({% link images/images/select-in-store-delivery.png %}){: .zoom}
+_Checkout: Shipping method_
 
 ## Ship to a different address
 
