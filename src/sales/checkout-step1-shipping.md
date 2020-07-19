@@ -15,6 +15,8 @@ _Checkout Step 1: Shipping_
 
 ## Ship to a different address
 
+## Ship to a different address
+
 1. If there are additional entries in the address book, find the address where the order is to be shipped.
 
 1. To select the address, click **Ship Here**.
