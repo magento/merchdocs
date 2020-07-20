@@ -41,6 +41,17 @@ pages:
         children:
         - label: Using Adobe Stock Images
           url: "/cms/adobe-stock-manage.html"
+        - label: Save an Image Preview
+          url: "/cms/adobe-stock-save-preview.html"
+        - label: License an Image
+          url: "/cms/adobe-stock-license-image.html"
+      - label: New Media Gallery
+        url: "/cms/media-gallery.html"
+        children:
+          - label: Asset Management
+            url: "/cms/media-gallery-asset-management.html"
+          - label: Folder Management
+            url: "/cms/media-gallery-folder-management.html"
     - label: Using the Editor
       url: "/cms/editor.html"
       children:
@@ -87,16 +98,6 @@ pages:
       url: "/cms/dynamic-blocks-rotate.html"
     - label: Dynamic Blocks in Price Rules
       url: "/cms/dynamic-blocks-price-rules.html"
-  - label: Banners (Deprecated)
-    url: "/cms/banners.html"
-    edition: ee-only
-    children:
-    - label: Creating a Banner (Deprecated)
-      url: "/cms/banner-create.html"
-    - label: Rotating Banners  (Deprecated)
-      url: "/cms/banner-rotator.html"
-    - label: Using Banners in Price Rules (Deprecated)
-      url: "/cms/banners-price-rules.html"
   - label: Widgets
     url: "/cms/widgets.html"
     children:

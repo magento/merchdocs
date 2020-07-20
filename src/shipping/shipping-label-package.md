@@ -4,36 +4,36 @@ title: Label Packages
 
 The Create Packages window appears when you choose to create a shipping label. You can start configuring the first package immediately.
 
-## To configure a package
+## Configure a package
 
-1. Complete the fields as described below.
-
-    {:.bs-callout-info}
-    If you select the non-default value in the Type field or choose to require a signature confirmation, the price of a shipment may differ from the one you charged to the customer.
+{:.bs-callout-info}
+If you select the non-default value for the Type or choose to require a signature confirmation, the price of a shipment may differ from the one you charged to the customer.
 
 1. To view a list of shipped products and add them to the package, click **Add Products**.
 
-    - Specify the products and quantities.
+   - Specify the products and quantities.
 
-       The Qty column shows the maximum quantity that is available to add. For the first package,the number is the total quantity of the product to be shipped.
+      The Qty column shows the maximum quantity that is available to add. For the first package,the number is the total quantity of the product to be shipped.
 
-    - To add the products to the package, click **Add Selected Product(s) to Package**.
+   - To add the products to the package, click **Add Selected Product(s) to Package**.
 
-1. To add a new package, click **Add Package**. You can add several packages, and edit them at the same time.
+1. To add a new package, click **Add Package**.
+
+   You can add several packages, and edit them at the same time.
 
 1. To delete a package, click **Delete Package**.
 
 After products are added to the package, the quantity cannot be edited directly.
 
-## To increase the quantity
+## Increase the quantity
 
 1. Click **Add Selection**.
 
 1. Enter the additional quantity.
 
-    The number is added to the previous quantity of the product in the package.
+   The number is added to the previous quantity of the product in the package.
 
-## To decrease the quantity
+## Decrease the quantity
 
 1. Delete the product from the package.
 
@@ -41,15 +41,17 @@ After products are added to the package, the quantity cannot be edited directly.
 
 1. Enter the new, smaller value.
 
-## To generate shipping labels:
+## Generate shipping labels
 
 After you distribute all products, the total number of the packages you are going to use equals the number of the last package in the list. The _OK_ button is disabled until all shipped items are distributed to packages, and all necessary information is complete.
 
 1. Click **OK** to generate the labels.
 
-1. If you need to stop the process, click **Cancel**. The packages are not saved, and the shipping label process is canceled.
+1. If you need to stop the process, click **Cancel**.
 
-## Field Descriptions
+   The packages are not saved, and the shipping label process is canceled.
+
+## Field descriptions
 
 |Field|Description|
 |--- |--- |

@@ -5,25 +5,25 @@ title: Flat Rate
 Flat rate is a fixed, predefined charge that can be applied per item, or per shipment. Flat rate is a simple shipping solution, especially when used with the flat-rate packaging that is available from some carriers. When enabled, Flat Rate appears as an option during checkout. Because no specific carrier is specified, you can use a carrier of your choice.
 
 ![]({% link images/images/config-sales-shipping-methods-flat-rate.png %}){: .zoom}
- [*Flat Rate*]({% link configuration/sales/shipping-methods.md %})
+ [_Flat Rate_]({% link configuration/sales/delivery-methods.md %})
 
-## To set up flat rate shipping
+## Set up flat rate shipping
 
-1. On the _Admin_ sidebar, click **Stores**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the _Settings_ section, choose **Configuration**.
+1. In the left panel, expand **Sales** and choose **Delivery Methods**.
 
-1. In the _Sales_ section in the left panel, choose **Shipping Methods**.
-
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Flat Rate** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Flat Rate** section.
 
 1. Set **Enabled** to `Yes`.
 
-1. Flat Rate appears as an option in the Estimate Shipping and Tax section of the shopping cart, and also in the Shipping section during checkout.
+   Flat Rate appears as an option in the Estimate Shipping and Tax section of the shopping cart, and also in the Shipping section during checkout.
 
 1. Enter a descriptive **Title** for the Flat Rate method.
 
-1. Enter a **Method Name** to appear next to the calculated rate in the shopping cart. The default method name is “Fixed”. If you charge a handling fee, you can change the Method Name to “Plus Handling,” or something else that is suitable.
+1. Enter a **Method Name** to appear next to the calculated rate in the shopping cart.
+
+   The default method name is `Fixed`. If you charge a handling fee, you could change this to `Plus Handling`, or something else that is suitable.
 
 1. To describe how flat rate shipping can be used, set **Type** to one of the following:
 
@@ -33,22 +33,30 @@ Flat rate is a fixed, predefined charge that can be applied per item, or per shi
 
 1. Enter the **Price** that you want to charge for flat rate shipping.
 
-1. (Optional) Configure handling fee:
+1. Configure the handling fee options according to your requirements.
 
-   - If charging an additional handling fee, set **Calculate Handling Fee** to one of the following:
+   The handling fee is optional and appears as an additional charge that is added to the shipping cost. If you want to include a handling fee, do the following:
+
+   - For **Calculate Handling Fee**, select the method you want to use to calculate handling fees:
 
       - `Fixed`
       - `Percent`
 
-   - Enter the **Handling Fee** rate according to the method used to calculate the fee. For example, if the fee is calculating based on a percentage, enter 0.06 for 6 percent. If using a fixed amount calculation, enter the fee as a decimal.
+   - For **Handling Fee**, enter the amount to be charged, based on the method you have chosen to calculate the amount.
 
-1. In the **Displayed Error Message** box, type the message that appears if Flat Rate Shipping becomes unavailable.
+      For example, if the charge is based on a fixed fee, enter the amount as a decimal, such as `4.90`. However, if the handling fee is based on a percentage of the order, enter the amount as a percentage. For example, if you are charging six percent of the order, enter the value as `.06`.
 
-1. Set **Ship to Applicable Countries** to one of the following:
+1. If needed, change the **Displayed Error Message**.
 
-    |`All Allowed Countries`|Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use flat rate shipping.|
-    |`Specific Countries`|After choosing this option, the Ship to Specific Countries list appears. Select each country in the list where flat rate shipping can be used.|
+   This text box is preset with a default message, but you can enter a different message that you want to appear if Flat Rate Shipping becomes unavailable.
 
-1. Enter a **Sort Order** number to determine the position of the Flat Rate in the list of shipping methods during checkout. (0 = first, 1 = second, 2 = third, and so on.)
+1. Set **Ship to Applicable Countries**:
 
-1. Click **Save Config**.
+   | All Allowed Countries | Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this delivery method. |
+   | Specific Countries | When you choose this option, the _Ship to Specific Countries_ list appears. Select each country in the list where this delivery method can be used. |
+
+1. For **Sort Order**, enter a number to determine the sequence in which Flat Rate Shipping appears when listed with other delivery methods during checkout.
+
+   `0` = first, `1` = second, `2` = third, and so on.
+
+1. Click <span class="btn">Save Config</span>.

@@ -33,7 +33,7 @@ The Magento Admin provides all access to your store, orders, and customer data. 
 
 ## Amazon Sales Channel
 
-[Amazon Sales Channel]({% link sales-channels/amazon/amazon-sales-channel.md %}) enables you to integrate your Amazon Seller Central listing database with your Magento product catalog and to seamlessly manage your Amazon listings and sales in Magento.
+[Amazon Sales Channel]({% link sales-channels/asc/amazon-sales-channel.md %}) enables you to integrate your Amazon Seller Central listing database with your Magento product catalog and to seamlessly manage your Amazon listings and sales in Magento.
 
 - [Install and upgrade guide](https://devdocs.magento.com/extensions/amazon-sales/)
 - [Release notes](https://devdocs.magento.com/extensions/amazon-sales/release-notes/)

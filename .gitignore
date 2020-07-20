@@ -21,3 +21,4 @@ _algolia_api_key
 /tmp/
 .history
 _config.local.yml
+.whatsup.yml

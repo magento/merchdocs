@@ -38,7 +38,7 @@ _View Order In-store Delivery_{:.ee-only}
 {: .format-table }
 |Tab|Description|
 |--- |--- |
-|Information|Display detailed information about the order and account, including the billing and shipping addresses, payment and shipping methods, items orders, totals, and notes.|
+|Information|Display detailed information about the order and account, including the billing and shipping addresses, payment and delivery methods, items orders, totals, and notes.|
 |Invoices|Lists each invoice that is associated with the order.|
 |Credit Memos|Lists each credit memo that is associated with the order.|
 |Shipments|Lists each shipment record that is associated with the order.|

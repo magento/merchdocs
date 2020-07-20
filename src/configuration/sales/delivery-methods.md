@@ -4,7 +4,7 @@ redirect_from:
   - /configuration/sales/shipping-methods.html
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Delivery Methods
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Delivery Methods
 
 ## Basic Delivery Methods
 
@@ -125,7 +125,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales
 |Handling Fee|Website|Sets the handling that is included with the shipping rate price. Handling fee can be set as a fixed amount or a percentage. <br/><br/>**_Note:_** If typing a percentage amount, use the decimal format 0.25 for 25%.|
 
 ![]({% link images/images/config-sales-shipping-methods-ups-allowed-methods.png %}){: .zoom}
-[_UPS Allowed Methods_]({% link shipping/ups.md %})
+[_UPS Allowed Methods_]({% link shipping/ups.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -137,7 +137,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales
 |Displayed Error Message|Store View|The error message that is displayed when this shipping method is unavailable for any reason.|
 
 ![]({% link images/images/config-sales-shipping-methods-ups-ship-to.png %}){: .zoom}
-[_UPS Applicable Countries and Other Settings_]({% link shipping/ups.md %})
+[_UPS Applicable Countries and Other Settings_]({% link shipping/ups.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

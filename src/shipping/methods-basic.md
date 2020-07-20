@@ -1,10 +1,10 @@
 ---
-title: Basic Shipping Methods
+title: Basic Delivery Methods
 redirect_from:
   - /shipping/shipping-methods.html
 ---
 
-Magento supports a wide range of shipping methods and carriers. In this section you will learn how to set up shipping methods that do not require an account with a third-party provider:
+Magento supports a wide range of delivery methods, as well as shipping carriers. There are some basic delivery methods that do not require an account with a third-party provider:
 
 * [Free Shipping]({% link shipping/shipping-free.md %})
 
@@ -15,3 +15,6 @@ Magento supports a wide range of shipping methods and carriers. In this section 
 * [In-Store Delivery]({% link shipping/shipping-in-store-delivery.md %})
 
 * [Dimensional Weight]({% link shipping/weight-dimensional.md %})
+
+If you are using [Inventory Management]({% link catalog/inventory.md %}), you can also set up Sources to provide in-store delivery options for your customers.
+
