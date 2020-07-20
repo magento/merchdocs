@@ -79,6 +79,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Website Name|Website|Maps the name of the website associated with the customer's activity from Magento to your corresponding contact data field in dotdigital.|
+|Store View Name|Website|Maps the name of the store view associated with the customer's activity from Magento to your corresponding contact data field in dotdigital.|
 |Store Name|Website|Maps the name of the store associated with the customer's activity from Magento to your corresponding contact data field in dotdigital.|
 |Last Order ID|Website|Maps the Order ID of the customer's most recent order from Magento to your corresponding contact data field in dotdigital.|
 |Last Quote ID|Website|Maps the Quote ID of the customer's most recent quote from Magento to your corresponding contact data field in dotdigital.|
@@ -119,11 +120,13 @@ Gives you the ability to create custom mappings to dotdigital, based on the foll
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Customer Type|Website|Lists the selection of customer types that can be mapped from Magento.|
-|Company|Website|Lists the selection of companies that can be mapped from Magento.|
-|Company Status|Website|Lists the selection of company status settings that can be mapped from Magento.|
-|Store Credit Balance|Website|Lists the selection of store credit balance amounts that can be mapped from Magento.|
-|Shared Catalog Name|Website|Lists the selection of shared catalogs that can be mapped from Magento.|
+|Customer Type|Website|Maps the customer type to a contact data field in dotdigital.|
+|Company|Website|Maps the customer's company to a contact data field in dotdigital.|
+|Company Status|Website|Maps the customer's company status to a contact data field in dotdigital.|
+|Sales Representative|Website|Maps the customer's company sales representative to a contact data field in dotdigital.|
+|Sales Representative Email|Website|Maps the customer's company sales representative email address to a contact data field in dotdigital.|
+|Store Credit Balance|Website|Maps the customer's store credit balance to a contact data field in dotdigital.|
+|Shared Catalog Name|Website|Maps the customer's shared catalog name to a contact data field in dotdigital.|
 
 {:.ee-only}
 ## Enterprise Data

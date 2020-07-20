@@ -31,7 +31,7 @@ Magento provides the following types of recommendations:
 - **More like this** - Recommends items based on similar content and attributes
 - **Trending** - Recommends items based on recent momentum of product’s popularity
 
-### Backup recommendations {#backup-recommendations}
+## Backup recommendations {#backup-recommendations}
 
 If there is not sufficient input data to provide all requested recommendation items in a unit, Magento provides backup recommendations to fill those items.
 
@@ -49,7 +49,7 @@ The following recommendation types will fallback to **Most viewed** if there is 
 
 - **Trending**
 
-### Filter recommendations {#filter-recommendations}
+## Filter recommendations {#filter-recommendations}
 
 Magento defines default filters for the **Most popular**, **Trending**, and **Recommended for you** recommendation types. By filtering recommendations, Magento provides more relevant results. For example, if you deploy the **Most popular** recommendation type to a product detail page, you would not want products from the entire catalog to be displayed, but rather a smaller subset of products relevant to the product being viewed.
 
@@ -64,6 +64,10 @@ The following table describes how the **Most popular**, **Trending**, and **Reco
 |Product Detail|Products under that product's category(-ies)|
 |Cart|Categories of the products in the shopper's cart|
 |Order Confirmation|Categories for products the shopper just purchased|
+
+### Filter based on stock status
+
+Product Recommendations use the **Display Out-of-Stock Products** value configured in the Magento Admin to determine if a particular product should be displayed in a recommendation unit. If the **Display Out-of-Stock Products** option is set to `Yes`, products that are out-of-stock are eligible to be displayed in the recommendation unit. If **Display Out-of-Stock Products** option is set to `No`, out-of-stock products will not be displayed in recommendation units. You can configure the **Display Out-of-Stock Products** value in the [stock options]({% link configuration/catalog/inventory.md %}) section of the Catalog configuration.
 
 ## Product recommendations placement {#productrecplacement}
 

@@ -50,7 +50,7 @@ _Shared Access_
 
 1. When complete, click <span class="btn">Create Shared Access</span>.
 
-   The new user information appears in the Manage Permissions section of the Shared Access page, and an email invitation with instructions to access the shared account is sent to the new user.
+   The new user information appears in the _Manage Permissions_ section of the Shared Access page, and an email invitation with instructions to access the shared account is sent to the new user.
 
    ![]({% link images/images/magento-account-shared-manage-permissions.png %}){: .zoom}
    _Manage Permissions_

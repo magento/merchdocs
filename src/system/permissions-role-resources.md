@@ -14,6 +14,7 @@ Access to the following resources can be assigned to a custom role. See the link
 ||[Inventory]({% link catalog/products.md %})|Products<br/>Categories|
 ||<span class="b2b-only">[Shared Catalog]({% link catalog/catalog-shared.md %})</span>| Manage Shared Catalog|
 |[Customers]({% link customers.md %}) | [All Customers]({% link customers/customers-all.md %})<br/>[Now Online]({% link customers/now-online.md %})<br/>Customer Groups<br/>Segments<br/>||
+||[Login as Customer]({% link customers/login-as-customer.md %})|Allow Login as Customer Button<br/><span class="ee-only">View Login as Customer Log</span>|
 ||<span class="b2b-only">[Companies]({% link customers/account-companies.md %})</span>| [ Manage Companies]({% link customers/account-company-manage.md %}) <br/>Add New Company <br/>Delete Company <br/>Reimburse Balance |
 |[Carts]({% link sales/cart.md %})|[Manage carts]({% link sales/cart.md %})||
 |[My Account]({% link customers/customer-account.md %})|||
@@ -33,7 +34,7 @@ Access to the following resources can be assigned to a custom role. See the link
 ||Other Settings|[Customer Groups]({% link customers/customer-groups.md %})|
 |[System]({% link system/system.md %}) | [Data Transfer]({% link system/data-transfer.md %}) | [Import]({% link system/data-import.md %})<br/>[Export]({% link system/data-export.md %})<br/>[Import/Export Tax Rates]({% link system/data-transfer-tax-rates.md %})<br/>[Import History]({% link system/data-import-history.md %})||
 ||[Magento Connect]({% link magento/magento-marketplace.md %}) | Connect Manager<br/>Package Extensions||
-||[Tools]({% link system/tools.md %}) | [Cache Management]({% link system/cache-management.md %})<br/>[Web Setup Wizard]({% link system/web-setup-wizard.md %})<br/>[Backups]({% link system/backups.md %})<br/>[Index Management]({% link system/index-management.md %})<br/>[Change Indexer Mode]({% link system/index-management.md %}) ||
+||[Tools]({% link system/tools.md %}) | [Cache Management]({% link system/cache-management.md %})<br/>[Backups]({% link system/backups.md %})<br/>[Index Management]({% link system/index-management.md %})<br/>[Change Indexer Mode]({% link system/index-management.md %}) ||
 ||[Permissions]({% link system/permissions.md %}) | [All Users]({% link system/permissions-users-all.md %})<br/>[Locked Users]({% link system/permissions-locked-users.md %})<br/>[User Roles]({% link system/permissions-user-roles.md %})|
 |<span class="ee-only">[Action Log]({% link system/action-log.md %})</span>| [Report]({% link system/action-log.md %})<br/>[Archive]({% link system/action-log-archive.md %})|
 ||Other Settings|[Notifications]({% link stores/admin-message-inbox.md %})<br/>[Custom Variables]({% link marketing/variables-custom.md %})<br/>[Manage Encryption Key]({% link system/encryption-key.md %})||

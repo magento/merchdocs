@@ -102,5 +102,5 @@ The customer segment can now be used for targeting promotions, content, and mail
 |Segment Name| A name that identifies the segment for internal reference.|
 |Description| A brief description that explains the purpose of the segment for internal reference.|
 |Assigned to Website| The single website where the segment can be used.|
-|Status| Activates and deactivates the segment. Any associated price rules and banners are deactivated when the segment is disabled. Options include: Active / Inactive.|
+|Status| Activates and deactivates the segment. Any associated price rules are deactivated when the segment is disabled. Options include: Active / Inactive.|
 |Apply to| Defines the customer types to which the segment is applied. The selection influences the set of conditions available for creating the segment. The setting cannot be changed after the segment is saved. Options: <br/>**Visitors and Registered Customers** - Includes all shoppers, regardless of whether they are logged in to an account. <br/>**Registered Customers** - Includes only shoppers who are logged in to an account. <br/>**Visitors** - Includes only shoppers who are not logged in to an account. |

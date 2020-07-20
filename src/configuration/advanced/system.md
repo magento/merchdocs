@@ -39,7 +39,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 ## MySQL Message Queue Cleanup
 
 ![]({% link images/images/config-advanced-system-mysql-message-queue-cleanup.png %}){: .zoom}
-[_MySQL Message Queue Cleanup_]({% link catalog/search-mysql.md %})
+_MySQL Message Queue Cleanup_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -204,6 +204,15 @@ _Adobe Stock Integration_
 |API Key (Client ID)|Global|An API key is required to connect your Magento store to the Adobe Stock service. For more information about generating this key and configuring this integration, see [Adobe Stock Integration]({% link cms/adobe-stock.md %}).|
 |Client Secret|Global|The Client Secret for your Adobe Stock integration is required. For more information about retrieving this secret and configuring this integration, see [Adobe Stock Integration]({% link cms/adobe-stock.md %}).|
 |Test Connection||Runs a test to verify that the API key is valid for use with the Adobe Stock service.|
+
+## Enhanced Media Gallery
+
+![Advanced configuration - Enhanced Media Gallery]({% link images/images/enhanced-media-gallery/system-enhanced-media-gallery.png %}){: .zoom}
+_Enhanced Media Gallery_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled|Global|Enables or disables the new Media Gallery.|
 
 [1]: https://en.wikipedia.org/wiki/Sendmail
 [2]: https://magento.com/security/news/new-zend-framework-1-security-vulnerability
