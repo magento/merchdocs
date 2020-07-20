@@ -77,9 +77,9 @@ If editing the Default Source, you can edit all configurations except name and c
       ![]({% link images/images/pickup_location.png %}){: .zoom}
       _Pickup Location_
 
-For more information about how to configure email notifications when using a source as a pickup location, see [Sales Emails]({% link configuration/sales/sales-emails.md %}).
+    For more information about how to configure email notifications when using a source as a pickup location, see [Sales Emails]({% link configuration/sales/sales-emails.md %}).
 
-2. To save your work, do one of the following:
+1. To save your work, do one of the following:
 
     - To save your work and continue editing, click <span class="btn">Save & Continue</span>.
 
