@@ -7,7 +7,7 @@ The Sources section lists the sources that contain stock for a specific product.
 ![]({% link images/images/sources_view.png %}){: .zoom}
 _Sources View_
 
-It is possible to assign it to a source with a specific delivery method, such as a In-store pickup delivery method.
+It is possible to assign it to a source with a specific delivery method, such as an In-store delivery method.
 
 ## Field reference
 
