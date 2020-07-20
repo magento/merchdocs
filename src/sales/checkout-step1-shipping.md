@@ -2,7 +2,7 @@
 title: 'Checkout Step 1: Shipping'
 ---
 
-The first step of the checkout process is for the customer to complete the shipping address information, and to choose the shipping method. For more information, see [shipping methods]({% link configuration/sales/shipping-methods.md %}).
+The first step of the checkout process is for the customer to complete the shipping address information, and to choose the delivery method. For more information, see [delivery methods]({% link configuration/sales/delivery-methods.md %}).
 
 If the customer has an account, the shipping address is entered automatically, but can be changed if needed.
 
