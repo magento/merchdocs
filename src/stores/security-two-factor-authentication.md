@@ -2,7 +2,15 @@
 title: Two-Factor Authentication
 ---
 
-To prevent unauthorized access to the Magento _Admin_, users are required to enter their login credentials and pass verification by two-factor authentication (2FA). Two-factor authentication is required for the _Admin_, but is not available for customer accounts.
+The Magento _Admin_ provides all access to your store, orders, and customer data. To prevent unauthorized access to your data, all users who attempt to sign in to the _Admin_ of your Magento installation must complete a second step to verify their identity. This implementation of two-factor authentication applies to the _Admin_ only, and is not available for customer accounts.
+
+{: .bs-callout-info}
+The two-factor authentication that protects your [Magento account]({% link magento/magento-account.md %})  has a separate setup. To learn more, see [Securing Your Account]({% link magento/magento-account-secure.md %}).
+
+Two-factor authentication is widely used, and you might have several access codes for different websites. For example, the Google Authenticator app on your phone might generate codes for the _Admin_ of your store, your Magento account, your Google account, and so on.
+
+![Security configuration - 2FA]({% link images/images/google-authenticator-iphone.png %}){: .zoom}
+_2FA Codes on Phone_
 
 Magento two-factor authentication supports solutions from multiple providers. Some solutions require that you install an app that generates a one-time password (OTP) that is entered at login to verify your identity. Universal 2nd Factor (UTF) devices resemble a key fob and generate a unique key that is similarly used to verify your identity. Other devices verify your identify when they are inserted into a USB port. As the store administrator, you can support one or more of the available 2FA providers. The solutions that you support are available for all websites and stores that are associated with the Magento installation.
 
