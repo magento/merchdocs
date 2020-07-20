@@ -57,4 +57,5 @@ The Manage Sources page lists all available inventory locations and fulfillment 
 |Code|A unique, alphanumeric code that is used by the system to identify the inventory source.|
 |Name|A unique name that identifies the  inventory source for Admin users.|
 |Is Enabled|Indicates if the inventory source is active and available to use.|
-|Action|**Edit** - Opens the inventory source record in edit mode.|
+|Pickup Location|Indicates if the source is active as a pickup location for [in-store delivery]({% link shipping/shipping-in-store-delivery.md %}).|
+|Action|Clicking **Edit** opens the inventory source record in edit mode.|
