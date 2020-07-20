@@ -74,7 +74,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
     - Enter a **Frontend Description** of the **Pickup Location**.
 
-      ![]({% link images/images/pickup_location.png %}){: .zoom}
+      ![]({% link images/images/stores-inventory-pickup-location.png %}){: .zoom}
       _Pickup Location_
 
     For more information about how to configure email notifications when using a source as a pickup location, see [Sales Emails]({% link configuration/sales/sales-emails.md %}).

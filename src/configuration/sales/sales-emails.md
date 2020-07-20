@@ -127,7 +127,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Order Ready For Pickup in Store
 
-![]({% link images/images/Order Ready For Pickup in Store.png %}){: .zoom}
+![]({% link images/images/config-sales-emails-order-ready-pickup.png %}){: .zoom}
 [_Order Ready For Pickup in Store_]({% link shipping/shipping-in-store-delivery.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
