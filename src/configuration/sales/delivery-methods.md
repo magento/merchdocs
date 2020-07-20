@@ -1,5 +1,7 @@
 ---
-title: Shipping Methods
+title: Delivery Methods
+redirect_from:
+  - /configuration/sales/shipping-methods.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Shipping Methods
