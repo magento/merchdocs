@@ -9,7 +9,7 @@ With the in-store delivery method, the customer can select a source to be used a
 
 ## Set up In-store Delivery
 
-The first step is to complete the default settings for In-store Delivery. You can complete this step without changing the scope of the configuration.
+First, check that In-store Delivery is enabled. 
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -22,14 +22,14 @@ The first step is to complete the default settings for In-store Delivery. You ca
    {:.bs-callout-info}
    If needed, clear the **Use system value** checkbox to change the default for any field.
 
-1. Enter the **Method Name** that you want to appear as a label next to the calculated rate in the shopping cart.
+1. Enter the **Method Name** that describes the method of calculation that is used to produce a shipping estimate. The method name appears next to the calculated estimated rate in the shopping cart.
 
 1. Enter the **Title** that you want to appear for In-Store Delivery section during checkout.
 
     {:.bs-callout-info}
     The default title is `In-Store Pickup Delivery`.
 
-1. Enter the **Price** that you want to charge for In-Store Delivery shipping.
+1. Enter the **Price** to charge customers for the in-store pickup service.
 
 1. Enter the **Search Radius** in kilometers for store pickup location search on storefront checkout.
 
