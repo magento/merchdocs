@@ -25,7 +25,8 @@ The **Create Override** action is available when viewing listings on the Inactiv
     - **Seller Notes**: Click the **Change Seller Notes** option. Enter your notes text in the **Seller Notes Override** field.
 
 1. Click <span class="btn">Save Listing Override</span>.
-<br />The Product Listing Overrides screen closes. The status of the listing changes to "Relist in Progress." The change will be published to Amazon with your next data sync (as configured in your cron settings). The listing is also added to the Overrides tab.
+
+   The Product Listing Overrides screen closes. The status of the listing changes to "Relist in Progress." The change will be published to Amazon with your next data sync (as configured in your cron settings). The listing is also added to the Overrides tab.
 
 The following example screen shows an override that defines a new price of $55, a new handling time of 1 day, a new condition of "Used; Like New," and new Seller Note text.
 
@@ -45,7 +46,8 @@ The **Edit Overrides** action is available when viewing listings on the Override
 1. Verify the Listing Details to ensure you are viewing the correct listing.
 
 1. To edit your override settings, define the sections for the type you want to change (Price, Handling Time, Condition, Seller Notes).
-<br />To keep an override type the same, ensure the **No Change To** option selected for the type. This is the default setting. This leaves the previously defined override value unchanged.
+
+   To keep an override type the same, ensure the **No Change To** option selected for the type. This is the default setting. This leaves the previously defined override value unchanged.
 
     - **Price**: Click the **Change Listing Price** option. Enter your defined price value for **Price Override**.
     - **Handling Time**: Click the **Change Handling Time** option. Enter the defined time value (in days) for **Handling Time Override**.
@@ -55,7 +57,8 @@ The **Edit Overrides** action is available when viewing listings on the Override
 1. To remove an override type, click the **Remove** option for each of the types you want to remove. If not removed, the previously defined value remains in the override.
 
 1. Click <span class="btn">Save Listing Override</span>.
-<br />The Product Listing Overrides screen closes. The status of the listing changes to "Relist in Progress." The change will be published to Amazon with your next data sync (as configured in your cron settings). If not already listed, the listings are also added to the Overrides tab.
+
+   The Product Listing Overrides screen closes. The status of the listing changes to "Relist in Progress." The change will be published to Amazon with your next data sync (as configured in your cron settings). If not already listed, the listings are also added to the Overrides tab.
 
 Piggybacking on the Create an Override example. The following example screen shows an edit to the previously created override that defines a new price of $50, removes the Handling Time override, and keeps the previous Condition and Seller Notes overrides.
 
@@ -78,7 +81,8 @@ Because you are modifying overrides for multiple listings, the Listing Details s
     ![]({% link images/images/sales-channels/amazon/amazon-actions-edit-listing-overrides.png %})
 
 1. To edit your override settings, define the sections for the type you want to change (Price, Handling Time, Condition, Seller Notes).
-<br />To keep an override the same, ensure the **No Change To** option selected for the type. "No Change To" is the default setting. This leaves the previously defined override value unchanged.
+
+   To keep an override the same, ensure the **No Change To** option selected for the type. "No Change To" is the default setting. This leaves the previously defined override value unchanged.
 
     - **Price**: Click the **Change Listing Price** option. Enter your defined price value for **Price Override**.
     - **Handling Time**: Click the **Change Handling Time** option. Enter the defined time value (in days) for **Handling Time Override**.
@@ -88,7 +92,8 @@ Because you are modifying overrides for multiple listings, the Listing Details s
 1. To remove an override type, click the **Remove** option for each of the types you want to remove. If not removed, the previously defined value remains in the override.
 
 1. Click <span class="btn">Save Listing Override</span>.
-<br />The Product Listing Overrides screen closes. The status of the listings changes to "Relist in Progress." The change will be published to Amazon with your next data sync (as configured in your cron settings). If not already listed, the listings are also added to the Overrides tab.
+
+   The Product Listing Overrides screen closes. The status of the listings changes to "Relist in Progress." The change will be published to Amazon with your next data sync (as configured in your cron settings). If not already listed, the listings are also added to the Overrides tab.
 
 ### Override Types
 

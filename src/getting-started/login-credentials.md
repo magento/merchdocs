@@ -36,24 +36,28 @@ While you’re learning your way around the store, make sure to set up a test [c
 
 As a best practice, keep a record of the details of your installation, your login credentials, and the email address that is associated with each account. Make sure to log the following information and keep it in a safe, convenient place.
 
-**Store and Admin**
+### Store and Admin
+
 - Store URL
 - Admin URL
 - Admin User Name
 - Admin Password
 - Admin Email Address
 
-**Magento Account**
+### Magento Account
+
 - User Name
 - Password
 - Email Address
 
-**Test Customer Account**
+### Test Customer Account
+
 - User Name
 - Password
 - Email Address
 
-**Installation Information**
+### Installation Information
+
 - Installation Date
 - Magento Version
 - Encryption Key
