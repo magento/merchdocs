@@ -122,7 +122,7 @@ _Klarna Merchant Portal_
 
 ## Step 4: Configure On-Site Messaging (Optional)
 
-1. Activate On-Site Messaging from you Klarna Merchant Portal by following this [guide](https://developers.klarna.com/documentation/on-site-messaging/integration/platform-activation/).
+1. Activate On-Site Messaging from your Klarna Merchant Portal by following this [guide](https://developers.klarna.com/documentation/on-site-messaging/integration/platform-activation/).
 2. Retrieve your **Data Client ID**
 3. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Klarna On-Site Messaging** section.
 4. Set **Enable** to `Yes`.
