@@ -47,4 +47,4 @@ To run test transactions from the Amazon Pay Sandbox, you must copy the keys fro
    {:.bs-callout-info}
    Your keys are confidential and should not be shared.
 
-1. Use these keys to complete your setup inside of the Magento Admin Portal.
+1. Use these keys to complete your setup inside of the Magento Admin.
