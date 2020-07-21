@@ -30,7 +30,7 @@ _Other Settings_{:.ee-only}
 
 | Section | Description |
 |----------
-| [Sources]({% link catalog/sources.md %}) | This section lists the sources that contain stock for the product. Allows you to modify the quantity in each source and availability for a specific delivery method. |
+| [Sources]({% link catalog/sources.md %}) | This section lists the sources assigned to the product. It allows you to modify the quantity and availability at each source. |
 | [Configurations]({% link catalog/product-configurations.md %}) | This section lists any existing variations of the product and can be used to generate variations for use with the Configurable product type. |
 | [Customizable Options]({% link catalog/settings-advanced-custom-options.md %}) | These options are based on variations of a single SKU and can be a good solution if your inventory needs are simple. |
 | [Downloadable Information]({% link catalog/product-downloadable-information.md %}) | This section is used to generate the links to downloadable products and samples. |
