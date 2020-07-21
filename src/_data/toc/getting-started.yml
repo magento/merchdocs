@@ -214,7 +214,7 @@ pages:
     url: "/getting-started/magento-ecosystem.html"
   - label: Technical Resources
     url: https://magento.com/technical-resources
-- label: What's new in the guide
-  url: "/magento/whats-new.html"
+- label: What’s New in the User Guide
+  url: "/whats-new.html"
 - label: Contribute to the Docs
   url: "/getting-started/contribute.html"

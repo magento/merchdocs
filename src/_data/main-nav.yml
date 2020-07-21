@@ -24,8 +24,8 @@
   - label: Resources
     url: "/getting-started/resources.html"
 
-  - label: What's New
-    url: /magento/whats-new.html
+  - label: What’s New in the User Guide
+    url: /whats-new.html
 
   - label: Contribute to the Docs
     url: "/getting-started/contribute.html"

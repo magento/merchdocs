@@ -1,13 +1,13 @@
 ---
-layout: full-width
-title: What's new in the guide
+title: What’s New in the User Guide
+group: getting-started
 ---
 
 {% assign whatsnew = site.data.whats-new %}
 
 <a class="btn" href="{{ site.baseurl }}{{ whatsnew.thread }}"><img src="{{ site.baseurl }}/assets/i/icons/rss.svg" /> RSS feed</a>
 <!-- The link enables RSS readers to recognize the whatsnew-feed thread on the page -->
-<link rel="alternate" type="application/atom+xml" title="What's new in the guide" href= "{{ site.baseurl }}{{ whatsnew.thread }}" />
+<link rel="alternate" type="application/atom+xml" title="What’s New in the User Guide" href= "{{ site.baseurl }}{{ whatsnew.thread }}" />
 
 {{ whatsnew.description }}
 
