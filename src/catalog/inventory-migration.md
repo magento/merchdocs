@@ -44,8 +44,6 @@ If you have installed [Magento Commerce Order Management (MCOM)][1] in your Mage
 
 [Inventory Management extensions]({% link magento/magento-extensions.md %}) are disabled by default.
 
-We may support integrations between Magento Inventory Management (also known as MSI) and MCOM in a later release.
-
 MCOM provides extensive features and services for advanced omnichannel order management, global inventory and multisourcing, store to warehouse fulfillment, and centralized customer service. For a complete list of features, see the [MCOM Feature list][2].
 
 Magento Inventory Management extends existing Magento features with additional options to track in-flight orders, on-hand inventory, available inventory for a stock, and APIs for extension development.
