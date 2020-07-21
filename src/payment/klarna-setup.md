@@ -64,7 +64,7 @@ _Klarna Merchant Portal_
 
    - **Klarna Payments (North America)**
    - **Klarna Payments (Europe)**
-   - **Klarna Payments (Oceana)**
+   - **Klarna Payments (Oceania)**
 
    Klarna supports the following countries:  AT, DE, DK, FI, NL, NO, SE, US, AU, NZ
 
@@ -115,6 +115,21 @@ _Klarna Merchant Portal_
 
    ![Klarna Payments Design]({% link images/images/config-sales-payment-methods-klarna-payments-design.png %}){: .zoom}
    [_Design_]({% link configuration/sales/klarna.md %})
+
+1. When complete, click <span class="btn">Save Config</span>.
+
+1. Click [**Cache Management**]({% link system/cache-management.md %}) in the message at the top of the page, and refresh all invalid caches.
+
+## Step 4: Configure On-Site Messaging (Optional)
+
+1. Activate On-Site Messaging from your Klarna Merchant Portal by following this [guide](https://developers.klarna.com/documentation/on-site-messaging/integration/platform-activation/).
+2. Retrieve your **Data Client ID**.
+3. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Klarna On-Site Messaging** section.
+4. Set **Enable** to `Yes`.
+5. Enter the **data-client-id** obtained in step 1.
+6. Choose a **Design theme** between **default** or **dark**.
+7. To enable OSM in the product page, set **Enable on Product** to `Yes` and select a **Product placement**.
+8. To enable OSM in the cart page, set **Enable on Cart** to `Yes` and select a **Cart placement**.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
