@@ -55,6 +55,8 @@ _Klarna Merchant Portal_
    ![Klarna]({% link images/images/config-sales-payment-methods-recommended-solutions-klarna.png %}){: .zoom}
    [_Klarna_]({% link configuration/sales/klarna.md %})
 
+## Step 3: Complete the API Configuration
+
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **API Configuration** section.
 
    ![API Configuration]({% link images/images/config-sales-payment-methods-klarna-api.png %}){: .zoom}
@@ -82,6 +84,8 @@ _Klarna Merchant Portal_
    {:.bs-callout-info}
    Set **Logging** to `Disabled` before going live with Klarna in your production store.
 
+## Step 4: Configure Klarna Payments
+
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Klarna Payments** section.
 
    ![Klarna Payments]({% link images/images/config-sales-payment-methods-klarna-payments.png %}){: .zoom}
@@ -103,7 +107,7 @@ _Klarna Merchant Portal_
 
 1. Enter a **Sort Order** number to determine the position of Klarna in the list of payment methods during checkout. (0 = first, 1 = second, 2 = third, and so on.)
 
-## Step 3: Complete the Design Settings (Optional)
+## Step 5: Complete the Design Settings (Optional)
 
 1. Enter the hexadecimal value of the color that you want to use for the following elements. You can use the color chooser to experiment with different colors for each design element to match your store’s theme. The results might vary, depending on theme.
 
@@ -120,16 +124,26 @@ _Klarna Merchant Portal_
 
 1. Click [**Cache Management**]({% link system/cache-management.md %}) in the message at the top of the page, and refresh all invalid caches.
 
-## Step 4: Configure On-Site Messaging (Optional)
+## Step 6: Configure On-Site Messaging (Optional)
 
-1. Activate On-Site Messaging from your Klarna Merchant Portal by following this [guide](https://developers.klarna.com/documentation/on-site-messaging/integration/platform-activation/).
-2. Retrieve your **Data Client ID**.
-3. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Klarna On-Site Messaging** section.
-4. Set **Enable** to `Yes`.
-5. Enter the **data-client-id** obtained in step 1.
-6. Choose a **Design theme** between **default** or **dark**.
-7. To enable OSM in the product page, set **Enable on Product** to `Yes` and select a **Product placement**.
-8. To enable OSM in the cart page, set **Enable on Cart** to `Yes` and select a **Cart placement**.
+1. In your Klarna Merchant Portal, follow the steps in this [guide](https://developers.klarna.com/documentation/on-site-messaging/integration/platform-activation/) to activate On-Site Messaging.
+
+1. Retrieve your **Data Client ID**.
+
+1. Return to the Magento Klarna configuration, and expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Klarna On-Site Messaging** section.
+
+1. Set **Enable** to `Yes`.
+
+1. Enter the **data-client-id** obtained in step 1.
+
+1. Choose a **Design theme** between **default** or **dark**.
+
+1. To enable OSM in the product page, set **Enable on Product** to `Yes` and select a **Product placement**.
+
+1. To enable OSM in the cart page, set **Enable on Cart** to `Yes` and select a **Cart placement**.
+
+   ![Klarna On-Site Messaging]({% link images/images/config-sales-payment-methods-klarna-on-site-messaging.png %}){: .zoom}
+   [_On-Site Messaging_]({% link configuration/sales/klarna.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.
 
