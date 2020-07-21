@@ -25,8 +25,6 @@ If editing the Default Source, you can edit all configurations except name and c
 
     - If this inventory source is ready to use, set **Is Enabled** to `Yes`.
 
-      The Default Source must be enabled. A default source is required for single source merchants and product migration.
-
     - Enter a brief **Description** for this location for quick reference or additional details.
 
     - For **Latitude** and **Longitude**, enter the Global Positioning System (GPS) coordinates of the facility location.
@@ -40,7 +38,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
       The Default Source cannot be used as a pickup location for in-store pickup orders.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Contact Info** section and do the following:
+2. Expand ![]({% link images/images/btn-expand.png %}) the **Contact Info** section and do the following:
 
     - For **Contact Name**, enter the full name of the primary contact at the location.
 
@@ -53,7 +51,7 @@ If editing the Default Source, you can edit all configurations except name and c
       ![]({% link images/images/stores-inventory-source-contact-info.png %}){: .zoom}
       _Contact Info_
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Address Data** section and do the following:
+3. Expand ![]({% link images/images/btn-expand.png %}) the **Address Data** section and do the following:
 
     - Choose the **Country**.
 
@@ -68,18 +66,18 @@ If editing the Default Source, you can edit all configurations except name and c
       ![]({% link images/images/stores-inventory-source-address-data.png %}){: .zoom}
       _Address Data_
 
-1. If you set the source as a pickup location in the earlier step, expand ![]({% link images/images/btn-expand.png %}) the **Pickup Location** section and provide descriptive information about the location:
+4. If you set the source as a pickup location in the earlier step, expand ![]({% link images/images/btn-expand.png %}) the **Pickup Location** section and provide descriptive information about the location:
 
     - Enter the **Frontend Name** of the pickup location.
 
-    - Enter a **Frontend Description** of the pickup location.
+    - Enter a **Frontend Description** of the pickup location. Use this text box to display store hours, the location relative to other landmarks, or other useful information that will help the customer select the correct pickup location.
 
       ![]({% link images/images/stores-inventory-pickup-location.png %}){: .zoom}
       _Pickup Location_
 
     For more information about how to configure email notifications when using a source as a pickup location, see [Sales Emails]({% link configuration/sales/sales-emails.md %}).
 
-1. To save your work, do one of the following:
+5. To save your work, do one of the following:
 
     - To save your work and continue editing, click <span class="btn">Save & Continue</span>.
 
