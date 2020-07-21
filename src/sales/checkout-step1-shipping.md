@@ -15,12 +15,12 @@ _Checkout Step 1: Shipping_
 
 ## Select In-store Delivery
 
-A new tab appears during checkout if the in-store delivery is enabled.
+A new tab appears during checkout if the in-store delivery is enabled and all ordered products are available at the pickup location.
 
 ![]({% link images/images/select-in-store-delivery.png %}){: .zoom}
 _Checkout: Shipping Method_
 
-This shipping method allows for a pickup location to be selected. If the customer has an account, the default pickup location address is entered automatically, but can be changed if needed. When the customers clicks **Select other**, a list of the available pickup locations appears.
+This shipping method allows the customer to select a pickup location. If the customer has an account, the default pickup location address is selected automatically, but can be changed if needed. When the customer clicks **Select other**, a list of the available pickup locations appears.
 
 ![]({% link images/images/select-in-store-delivery-populated.png %}){: .zoom}
 _Checkout: Default Pickup Location_
