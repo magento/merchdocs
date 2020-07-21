@@ -43,3 +43,18 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Selected border color|Store View|The hexadecimal code for the color of borders around the active section on the Klarna page during checkout. For example: #0072CC|
 |Text color|Store View|The hexadecimal code for the color of the main text on the Klarna page during checkout. For example: #0072CC|
 |Border Radius|Store View|The number of pixels that define the size of the curve at each corner of a box with borders. For example: 46px|
+
+## Klarna On-Site Messaging
+
+![]({% link images/images/config-sales-payment-methods-klarna-payments-on-site-messaging.png %}){: .zoom}
+[_On-Site Messaging_]({% link payment/klarna-setup.md %})
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enable|Website|Allows On-Site Messaging (OSM) if enabled in your Klarna account. Options: Yes / No|
+|Data client ID|Website|The `data-client-id` obtained from the Klarna merchant portal.|
+|Design Theme|Website|Determines the style of Klarna promotional messaging in the storefront. Options: default / dark|
+|Enable on product|Website|Enables OSM on the product page. Options Yes / No|
+|Product placement|Website|Determines where Klarna promotional messaging appears on the product page. <br >Options:<br />Credit Promotion - Standard<br />Credit Promotion - Small<br />Credit Promotion - Badge<br />Sidebar Promotion - Autosize<br />Top Strip Promotion - Standard<br />Homepage Promotion - Tall<br />Homepage Promotion - Box<br />Homepage Promotion - Wide<br />Other|
+|Enable on cart|Website|Enables OSM on the cart page. Options: Yes / No|
+|Cart placement|Website|Determines where Klarna promotional messaging appears on the cart page. <br />Options: <br />Credit Promotion - Standard<br />Credit Promotion - Small<br />Credit Promotion - Badge<br />Sidebar Promotion - Autosize<br />Top Strip Promotion - Standard<br />Homepage Promotion - Tall<br />Homepage Promotion - Box<br />Homepage Promotion - Wide<br />Other||
