@@ -36,9 +36,9 @@ If editing the Default Source, you can edit all configurations except name and c
       ![]({% link images/images/stores-inventory-source-general.png %}){: .zoom}
       _General_
 
-    - If this inventory source is a Pickup Location, set to `Yes`.
+    - If this inventory source is a pickup location, set **Use as Pickup Location** to `Yes`.
 
-      The Default Source cannot be used as a pickup location for a In-store pickup delivery method.
+      The Default Source cannot be used as a pickup location for in-store pickup orders.
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Contact Info** section and do the following:
 
@@ -68,11 +68,11 @@ If editing the Default Source, you can edit all configurations except name and c
       ![]({% link images/images/stores-inventory-source-address-data.png %}){: .zoom}
       _Address Data_
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Pickup Location** section and do the following:
+1. If you set the source as a pickup location in the earlier step, expand ![]({% link images/images/btn-expand.png %}) the **Pickup Location** section and provide descriptive information about the location:
 
-    - Choose the **Frontend Name** of the **Pickup Location**.
+    - Enter the **Frontend Name** of the pickup location.
 
-    - Enter a **Frontend Description** of the **Pickup Location**.
+    - Enter a **Frontend Description** of the pickup location.
 
       ![]({% link images/images/stores-inventory-pickup-location.png %}){: .zoom}
       _Pickup Location_
@@ -118,6 +118,6 @@ If editing the Default Source, you can edit all configurations except name and c
 |Street|The street address of the inventory source.|
 |Postcode|(Required) The ZIP or postal code of the inventory source.|
 |**Pickup Location**| |
-|Frontend Name|The name of the Pickup Location for the source.|
-|Frontend Description|The description of the Pickup Location for the source. It can contain attached images.|
+|Frontend Name|The name of the pickup location for the source.|
+|Frontend Description|The description of the pickup location for the source. It can contain attached images.|
 
