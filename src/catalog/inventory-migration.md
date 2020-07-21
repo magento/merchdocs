@@ -2,11 +2,11 @@
 title: Migrating and Upgrading to Inventory Management
 ---
 
-If upgrading to Magento v2.3.X, this information provides details on new features and changes to your existing catalog and Inventory configurations.
+If you used single source inventory in a previous release, this information provides details on new features and changes to your existing catalog and Inventory configurations.
 
 Magento Inventory Management includes features, enhancements, and developer support that enhances and updates all product stock management and add new features. All features are available out-of-the-box including the Source Selection Algorithm and Concurrent Checkout to match order quantities to sources and order fulfillment. Depending on your websites, stores, and merchant type, you can create additional stock and sources, assigning inventory amounts, and more. For complete information, see [Inventory Management]({% link catalog/inventory-management.md %}) and [Learn about Inventory Management]({% link catalog/inventory-learn-more.md %}).
 
-When first installing or upgrading to Magento 2.3.x Open Source, Commerce, or Commerce Cloud, the following initial changes occur:
+When you install Magento 2.3.x Open Source, Commerce, or Commerce Cloud, the following initial changes occur:
 
 - [Inventory Management]({% link catalog/inventory.md %}) enables at the global store or product level. The Manage Stock option enables or disables tracking of inventory quantities, calculations of aggregated salable quantities, and reservation management for tracking purchases through to invoice and shipment. You can disable this option to use an ERP and other third party services for managing stock, orders, and shipments. For additional information, see Inventory Management Modules below.
 
@@ -16,7 +16,7 @@ When first installing or upgrading to Magento 2.3.x Open Source, Commerce, or Co
 
    - All existing products in your catalog assign to the Default Source. Until you add new sources, the product interface does not change. If you only ship products from one location, you will not see additional differences for sources. You can create custom [sources]({% link catalog/inventory-sources-add.md %}) and [assign quantities]({% link catalog/inventory-manage-inventory-quantities.md %}) per shipment location.
 
-   - You can configure a source as a **Pickup Location** and [assign quantities]({% link catalog/inventory-manage-inventory-quantities.md %}) for that source.
+   - You can configure a source as a Pickup Location and [assign quantities]({% link catalog/inventory-manage-inventory-quantities.md %}) for that source.
 
    - Your website assigns to the Default Stock. You can create custom [stocks]({% link catalog/inventory-stock-add.md %}) to connect sales channels (websites) and sources (locations).
 
