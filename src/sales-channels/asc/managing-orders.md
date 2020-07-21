@@ -44,7 +44,7 @@ When the issue is resolved, the Magento order is created on the next sync.
 
 ## With order import disabled
 
-If you do not want to import and manage your your Amazon orders in Magento, you can change the [**Import Amazon Orders**]({% link sales-channels/asc/order-settings.md %}#configure-order-settings) setting to `Disabled`. This means that when new orders are received from Amazon, corresponding Magento orders are not created.
+If you do not want to import and manage your Amazon orders in Magento, you can change the [**Import Amazon Orders**]({% link sales-channels/asc/order-settings.md %}#configure-order-settings) setting to `Disabled`. This means that when new orders are received from Amazon, corresponding Magento orders are not created.
 
 When disabled, order information received from Amazon appears in the _Recent Orders_ section of the store dashboard and in the _All Orders_ view. This order information is view only, and you must manage these orders in Amazon Seller Central. Click the Amazon order number in the _Order Number_ column to open the order details in Amazon Seller Central. See [View Amazon Orders]({% link sales-channels/asc/amazon-orders-all.md %}).
 
