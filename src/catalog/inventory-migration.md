@@ -40,7 +40,9 @@ When you install Magento 2.3.x Open Source, Commerce, or Commerce Cloud, the fol
 
 ## Magento Commerce Order Management and Inventory Management
 
-If you use [Magento Commerce Order Management (MCOM)][1] in your Magento implementation to manage, sell, and fulfill inventory from any sales channel, you need to fully disable the [Inventory Management extensions]({% link magento/magento-extensions.md %}). These modules provide all Inventory Management features to Magento, including Single and Multi Source management, stocks, reservations, and more.
+If you have installed [Magento Commerce Order Management (MCOM)][1] in your Magento implementation to manage, sell, and fulfill inventory from any sales channel, be aware that MCOM is not compatible with the [Inventory Management extensions]({% link magento/magento-extensions.md %}). These modules provide all Inventory Management features to Magento, including single and multi Source management, stocks, reservations, and more.
+
+[Inventory Management extensions]({% link magento/magento-extensions.md %}) are disabled by default.
 
 We may support integrations between Magento Inventory Management (also known as MSI) and MCOM in a later release.
 
