@@ -311,6 +311,8 @@ pages:
       url: "/shipping/shipping-flat-rate.html"
     - label: Table Rates
       url: "/shipping/shipping-table-rate.html"
+    - label: In-Store Delivery
+      url: "/shipping/shipping-in-store-delivery.html"
     - label: Dimensional Weight
       url: "/shipping/weight-dimensional.html"
   - label: Shipping Carriers

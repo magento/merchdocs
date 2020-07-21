@@ -2,7 +2,7 @@
 title: Design
 ---
 
-The Design settings allows a different theme to ber applied to the product page, change the column layout, determine where product options appear, and enter custom XML code.
+The Design settings allows a different theme to be applied to the product page, change the column layout, determine where product options appear, and enter custom XML code.
 
 ![]({% link images/images-ee/product-design-ee.png %}){: .zoom}
 _Design_{:.ee-only}

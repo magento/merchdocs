@@ -66,6 +66,20 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Show Method if Not Applicable|Website|Determines if Table Rates appears as an  option during checkout if the method does not apply to the purchase. Options: Yes / No|
 |Sort Order|Website|A number that determines the order that Table Rates appears when listed with other delivery methods during checkout.|
 
+### In-Store Delivery
+
+![]({% link images/images/in-store-delivery.png %}){: .zoom}
+[_In-Store Delivery_]({% link shipping/shipping-in-store-delivery.md %})
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled|Website|When enabled, In-Store Delivery can appear as an option in the Estimate Shipping and Tax section of the shopping cart, and in the Shipping section during checkout. Options: Yes / No|
+|Method Name|Store View|A name that identifies the in-store pickup feature as a shipping method. This value is displayed as the label of a tab at the top of the Shipping checkout page and in the table of available shipping methods at the bottom of the same page. The default value is `In-store Delivery`.|
+|Title|Store View|The name that is used for this shipping method during checkout.|
+|Price|Website|The price you charge the customer for a in-store pickup.|
+|Search Radius|Website| The radius, in km, to use when searching for pickup locations.|
+|Displayed Error Message|Store View|A message that displays when a customer selects in-store pickup, but the delivery method is not available.|
+
 ## Carriers
 
 ### UPS

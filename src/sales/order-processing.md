@@ -28,6 +28,11 @@ The left panel for an open order provides access to different types of informati
 ![]({% link images/images-ee/order-view.png %}){: .zoom}
 _View Order_{:.ee-only}
 
+Example of an order with an in-store delivery method.
+
+![]({% link images/images-ee/order-view-in-store-delivery.png %}){: .zoom}
+_View Order In-store Delivery_{:.ee-only}
+
 ### Order view descriptions
 
 {: .format-table }
@@ -50,6 +55,7 @@ _View Order_{:.ee-only}
 |<span class="btn">Hold</span> / <span class="btn">Unhold</span>|Changes the status of the sales order to `On Hold`. To release the hold on the sales order, choose “Unhold”.|
 |<span class="btn">Invoice</span>|Creates an invoice from the sales order by converting the order to an invoice.|
 |<span class="btn">Ship</span>|Creates a shipment record for the order.|
+|<span class="btn">Notify Order is Ready for Pickup</span>|Appears only when an order is placed as an in-store delivery. Notifies the customer that order is ready for pickup.|
 |<span class="btn">Reorder</span>|Creates a new sales order based on the current order.|
 |<span class="btn">Edit</span>|Opens a pending order in edit mode. The Edit button isn’t visible for orders with a status of “Processing”, or orders that are based on negotiated quotes.|
 

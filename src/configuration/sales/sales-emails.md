@@ -125,6 +125,20 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Send Credit Memo Comment Email Copy To|Store View|Specifies the email address of anyone to receive a copy of a credit memo comment email. Separate multiple addresses with a comma.|
 |Send Credit Memo Comments Email Copy Method|Store View|Indicates the email method used to send the copy. Options include: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email  that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
 
+## Order Ready For Pickup in Store
+
+![]({% link images/images/config-sales-emails-order-ready-pickup.png %}){: .zoom}
+[_Order Ready For Pickup in Store_]({% link shipping/shipping-in-store-delivery.md %})
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled|Store View|When enabled, sends a transactional email when an order is ready for in-store pickup. Options: Yes / No|
+|Order Ready For Pickup Email Sender|Store View|Identifies the store contact that appears as the message sender. Default sender: `General Contact`|
+|Order Ready For Pickup Email Template|Store View|Identifies the template that is used for the transactional email for each order that is ready for pickup in store for a registered customer. Default template: `Order is Ready for Pickup`|
+|Order Ready For Pickup Email Template for Guest|Store View|Identifies the template that is used for the transactional email for each order that is ready for pickup in store for a guest. Default template: `Order is Ready for Pickup for Guest`|
+|Send Order Ready For Pickup Email Copy To|Store View|Specifies the email address of anyone to receive a copy of an _Order Ready For Pickup_ email. Separate multiple addresses with a comma.|
+|Send Order Ready For Pickup Email Copy Method|Store View|Indicates the email method used to send the copy. Options: <br/>**Bcc** - Sends a blind courtesy copy by including the recipient in the header of the same email that is sent to the customer. The BCC recipient is not visible to the customer. <br/>**Separate Email** - Sends the copy as a separate email.|
+
 {:.b2b-only}
 ## Purchase Order Approval
 
