@@ -9,7 +9,7 @@ With the in-store delivery method, the customer can select a source to be used a
 
 ## Set up In-store Delivery
 
-First, check that In-store Delivery is enabled. 
+First, check that In-store Delivery is enabled.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
