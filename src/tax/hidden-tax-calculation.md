@@ -1,5 +1,5 @@
 ---
-title: Hidden Tax Calulation
+title: Hidden Tax Calculation
 ---
 
 ## Hidden tax conditions
