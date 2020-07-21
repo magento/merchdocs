@@ -129,7 +129,7 @@ _Klarna Merchant Portal_
 5. Enter the **data-client-id** obtained in step 1.
 6. Choose a **Design theme** between **default** or **dark**
 7. To enable OSM in the product page, set **Enable on Product** to **Yes** and select a **Product placement**
-8. To enable OSM in the cart page set **Enable on Cart** to **Yes** and select a **Cart placement**
+8. To enable OSM in the cart page, set **Enable on Cart** to `Yes` and select a **Cart placement**.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
