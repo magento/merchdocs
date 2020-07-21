@@ -73,12 +73,12 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enabled|Website|When enabled, In-Store Delivery appears as an option in the Estimate Shipping and Tax section of the shopping cart, and in the Shipping section during checkout. Options: Yes / No|
-|Method Name|Store View|A name that describes the method of calculation that is used to produce a shipping estimate. The method name appears next to the calculated estimated rate in the shopping cart. The default value is `In-store Delivery`.|
+|Enabled|Website|When enabled, In-Store Delivery can appear as an option in the Estimate Shipping and Tax section of the shopping cart, and in the Shipping section during checkout. Options: Yes / No|
+|Method Name|Store View|A name that identifies the in-store pickup feature as a shipping method. This value is displayed as the label of a tab at the top of the Shipping checkout page and in the table of available shipping methods at the bottom of the same page. The default value is `In-store Delivery`.|
 |Title|Store View|The name that is used for this shipping method during checkout.|
 |Price|Website|The price you charge the customer for a in-store pickup.|
-|Search Radius|Website|Radius for a pickup location search on the storefront checkout. Appears in `Km`.|
-|Displayed Error Message|Store View|A message that appears if a customer chooses in-store delivery, but for some reason the method is not available.|
+|Search Radius|Website| The radius, in km, to use when searching for pickup locations.|
+|Displayed Error Message|Store View|A message that displays when a customer selects in-store pickup, but the delivery method is not available.|
 
 ## Carriers
 
