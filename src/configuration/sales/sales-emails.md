@@ -132,7 +132,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enabled|Store View|When enabled, sends a transactional email for each order that is ready for pickup in store. Options: Yes / No|
+|Enabled|Store View|When enabled, sends a transactional email when an order is ready for in-store pickup. Options: Yes / No|
 |Order Ready For Pickup Email Sender|Store View|Identifies the store contact that appears as the message sender. Default sender: `General Contact`|
 |Order Ready For Pickup Email Template|Store View|Identifies the template that is used for the transactional email for each order that is ready for pickup in store for a registered customer. Default template: `Order is Ready for Pickup`|
 |Order Ready For Pickup Email Template for Guest|Store View|Identifies the template that is used for the transactional email for each order that is ready for pickup in store for a guest. Default template: `Order is Ready for Pickup for Guest`|
