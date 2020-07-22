@@ -10,7 +10,7 @@ The gift wrap image should be a swatch that shows the repeating pattern, and can
 ![]({% link images/images-ee/storefront-cart-gift-options-gift-wrap.png %}){: .zoom}
 _Gift Options in Cart_
 
-## To add a new gift wrap design:
+## Add a new gift wrap design
 
 1. On the Admin sidebar, click **Stores**.
 
@@ -36,7 +36,7 @@ _Gift Options in Cart_
 
 1. Click **Save**.
 
-## To edit a gift wrap design:
+## Edit a gift wrap design
 
 1. On the Admin sidebar, click **Stores**.
 
@@ -53,15 +53,15 @@ _Gift Options in Cart_
 
 1. Click **Save**.
 
-## To delete gift wrap designs
+## Delete gift wrap designs
 
-**Method 1: Delete Single Gift Wrap Design**
+### Method 1: Delete Single Gift Wrap Design
 
 1. Open the gift wrapping design in edit mode.
 
 1. At the top of the workspace, click **Delete**. Then when prompted, click **OK** to confirm.
 
-**Method 2: Delete Multiple Gift Wrap Designs**
+### Method 2: Delete Multiple Gift Wrap Designs
 
 1. In the Gift Wrapping grid, mark the checkbox of each gift wrap design that you want to delete.
 

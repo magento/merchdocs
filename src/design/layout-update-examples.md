@@ -6,7 +6,7 @@ The following blocks types can be manipulated with custom layout instructions. E
 
 The completed layout update code is saved as an XML file  to the directory for the theme on the server. To learn more, see [Create new layout]in the developer documentation.  For additional examples, see [Common layout customization tasks][1].
 
-**Full Syntax**
+Full syntax:
 
 ```
 ?
@@ -21,7 +21,7 @@ or <reference> instruction. -->
 <!--   -->
 ```
 
-**Simplified Syntax**
+Simplified syntax:
 
 ```
 ?

@@ -25,14 +25,14 @@ If validation fails, read the description of each error, and correct the problem
 
 ## Data Validation Messages
 
-**Data Validation**
+### Data Validation
 
 - Product with specified SKU not found in rows: 1
 - URL key for specified store already exists
 - '7z' file extension is not supported
 - TXT file extension is not supported
 
-**Errors**
+### Errors
 
 - Wrong field type. Type in the imported file %decimal%, expected type is %text%.
 - Value is not allowed. Attribute value does not exist in the system.

@@ -58,7 +58,7 @@ Protecting the environment is the most critical aspect of ensuring the security 
 
 Your effort to protect your Magento installation starts with the initial setup, and continues with the security-related configuration settings, password management, and ongoing maintenance.
 
-**Your Magento Installation**
+### Your Magento installation
 
 - Use the latest version of Magento to ensure that your installation includes the most recent security enhancements. If for any reason you cannot upgrade to the latest version, make sure to install all security patches as recommended by Magento. Although Magento issues security patches to fix major issues, new product releases include additional improvements to help secure the site.
 - Use a unique, [custom Admin URL]({% link stores/store-urls-custom-admin.md %}) instead of the default “admin” or the often-used “backend”. Although it will not directly protect your site from a determined attacker, it can reduce exposure to scripts that try to break into every Magento site. (Never leave your valuables in plain sight.)

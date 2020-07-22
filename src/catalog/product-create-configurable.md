@@ -92,19 +92,19 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
 1. To assign Categories to the product, click the **Select…** box and do either of the following:
 
-   **Choose an existing category:**
+   - **Choose an existing category:**
 
-   - Start typing in the box to find a match.
+      - Start typing in the box to find a match.
 
-   - Select the checkbox of the category that is to be assigned.
+      - Select the checkbox of the category that is to be assigned.
 
-   **Create a new category:**
+   - **Create a new category:**
 
-   - Click <span class="btn">New Category</span>.
+      - Click <span class="btn">New Category</span>.
 
-   - Enter the **Category Name** and choose the **Parent Category** to determine its position in the menu structure.
+      - Enter the **Category Name** and choose the **Parent Category** to determine its position in the menu structure.
 
-   - Click <span class="btn">Create Category</span>.
+      - Click <span class="btn">Create Category</span>.
 
 1. To feature the product in the list of [new products]({% link cms/widget-new-products-list.md %}), select the **Set Product as New** checkbox.
 
@@ -172,44 +172,44 @@ This step determines the images, pricing, and quantity of each configuration. Th
 
 Choose the configuration options that apply.
 
-#### Configure the images
+Use one of the following methods to configure the **images**:
 
-**_Method 1: Apply a single set of images to all SKUs_**
+- **_Method 1: Apply a single set of images to all SKUs_**
 
-1. Select **Apply single set of images to all SKUs**.
+   1. Select **Apply single set of images to all SKUs**.
 
-1. Browse to each image that you want to include in the product gallery, or drag them to the box.
+   1. Browse to each image that you want to include in the product gallery, or drag them to the box.
 
-    ![]({% link images/images/product-configurations-images-apply-single-set.png %}){: .zoom}
-    _Use Same Images for All SKUs_
+   ![]({% link images/images/product-configurations-images-apply-single-set.png %}){: .zoom}
+   _Use Same Images for All SKUs_
 
-**_Method 2: Apply unique images for each SKU_**
+- **_Method 2: Apply unique images for each SKU_**
 
-Because we already uploaded an image for the parent product, we’ll use this option to upload an image of each color. This is the image that will appear in the shopping cart when someone buys the shirt in a specific color.
+   Because we already uploaded an image for the parent product, we’ll use this option to upload an image of each color. This is the image that will appear in the shopping cart when someone buys the shirt in a specific color.
 
-1. Select **Apply unique images by attribute to each SKU**.
+   1. Select **Apply unique images by attribute to each SKU**.
 
-1. Select the **attribute** that the images illustrate, such as `color`.
+   1. Select the **attribute** that the images illustrate, such as `color`.
 
-1. For each attribute value, either browse to the images that you want to use for that configuration or drag them to the box.
+   1. For each attribute value, either browse to the images that you want to use for that configuration or drag them to the box.
 
-    If you drag the an image to a value box, it also appears in the sections for the other values. If you want to delete an image, click the **trashcan** (![]({% link images/images/btn-trashcan2.png %}){: .Inline}) icon.
+      If you drag the an image to a value box, it also appears in the sections for the other values. If you want to delete an image, click the **trashcan** (![]({% link images/images/btn-trashcan2.png %}){: .Inline}) icon.
 
-    ![]({% link images/images/product-configurable-create-configurations-add-images-unique.png %}){: .zoom}
-    _Unique Images per SKU_
+      ![]({% link images/images/product-configurable-create-configurations-add-images-unique.png %}){: .zoom}
+      _Unique Images per SKU_
 
-#### Configure the prices
+Use one of the following methods to configure the **prices**:
 
-**_Method 1: Apply the same price to all SKUs_**
+- **_Method 1: Apply the same price to all SKUs_**
 
 1. If the price is the same for all variations, select **Apply single price to all SKUs**.
 
 1. Enter the **Price**.
 
-    ![]({% link images/images/product-configurable-create-configurations-price-all-skus.png %}){: .zoom}
-    _Same Price per SKU_
+   ![]({% link images/images/product-configurable-create-configurations-price-all-skus.png %}){: .zoom}
+   _Same Price per SKU_
 
-**_Method 2: Apply a different price for each SKU_**
+- **_Method 2: Apply a different price for each SKU_**
 
 1. If the price differs for each or for some variations of the product, select **Apply unique prices by attribute to each SKU**.
 
@@ -217,23 +217,23 @@ Because we already uploaded an image for the parent product, we’ll use this op
 
 1. Enter the **price** for each attribute value. In this example, the XL size costs more.
 
-    ![]({% link images/images/product-configurable-create-configurations-price-unique.png %}){: .zoom}
-    _Unique Price per SKU_
+   ![]({% link images/images/product-configurable-create-configurations-price-unique.png %}){: .zoom}
+   _Unique Price per SKU_
 
-#### Configure the quantity
+Use one of the following methods to configure the **quantity**:
 
-**_Method 1: Apply the same quantity to all SKUs_**
+- **_Method 1: Apply the same quantity to all SKUs_**
 
 1. If the quantity is the same for all SKUs, select **Apply single quantity to each SKU**.
 
 1. Enter the **Quantity**.
 
-    ![]({% link images/images/product-configurations-quantity-same-all-skus.png %}){: .zoom}
+   ![]({% link images/images/product-configurations-quantity-same-all-skus.png %}){: .zoom}
     _Same Quantity for All SKUs_
 
 1. If needed, apply the Same Quantity to All SKUs (Inventory Management).
 
-    For Multi Source merchants using [Inventory Management]({% link catalog/inventory-management.md %}), assign sources and add quantities for all generated product variants:
+   For Multi Source merchants using [Inventory Management]({% link catalog/inventory-management.md %}), assign sources and add quantities for all generated product variants:
 
    - Select the **Apply single quantity to each SKUs** option.
 
@@ -243,30 +243,30 @@ Because we already uploaded an image for the parent product, we’ll use this op
 
    - Enter an on-hand inventory amount per source.
 
-    ![]({% link images/images/inventory/inventory-configure-product-quantity.png %}){: .zoom}
-    _Same Quantity for All SKUs_
+   ![]({% link images/images/inventory/inventory-configure-product-quantity.png %}){: .zoom}
+   _Same Quantity for All SKUs_
 
-**_Method 2: Apply Different Quantity by Attribute_**
+- **_Method 2: Apply Different Quantity by Attribute_**
 
 1. If the quantity is the different for each SKU, select **Apply unique quantity by attribute to each SKU**.
 
 1. Enter the **Quantity** for each.
 
-    ![]({% link images/images/product-configurations-quantity-different.png %}){: .zoom}
-    _Different Quantities per Attribute_
+   ![]({% link images/images/product-configurations-quantity-different.png %}){: .zoom}
+   _Different Quantities per Attribute_
 
 When configuration for images, price, and quantity are complete, click <span class="btn">Next</span> in the upper-right corner.
 
 ### Step 4: Generate the product configurations
 
-1. Wait a moment for the list of products to appear and do one of the following:
+Wait a moment for the list of products to appear and do one of the following:
 
-   - If you are satisfied with the configurations, click **Next**.
+- If you are satisfied with the configurations, click **Next**.
 
-   - To make corrections, click **Back**.
+- To make corrections, click **Back**.
 
-    ![]({% link images/images/product-create-configurable-summary.png %}){: .zoom}
-    _Summary_
+   ![]({% link images/images/product-create-configurable-summary.png %}){: .zoom}
+   _Summary_
 
 The current product variations appear at the bottom of the _Configuration_ section.
 
@@ -303,23 +303,23 @@ Scroll down and complete the information in the following sections as needed:
 
 1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` and do one of the following:
 
-   **Method 1: Save and preview**
+   - **Method 1: Save and preview**
 
-   - In the upper-right corner, click <span class="btn">Save</span>.
+      - In the upper-right corner, click <span class="btn">Save</span>.
 
-   - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
+      - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
 
       The store opens in a new browser tab.
 
-    ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
-    _Customer View_
+      ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
+      _Customer View_
 
-   **Method 2: Save and close**
+   - **Method 2: Save and close**
 
-    On the _Save_ (![]({% link images/images/btn-dropdown.png %})) menu, choose **Save & Close**.
+      On the _Save_ (![]({% link images/images/btn-dropdown.png %})) menu, choose **Save & Close**.
 
-    ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
-    _Save & Close_
+      ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
+      _Save & Close_
 
 ### Step 8: Configure the cart thumbnails
 

@@ -11,7 +11,7 @@ _Tier Price on Storefront Product Page_{:.ee-only}
 
 The product page calculates the quantity discount and displays a message such as:
 
-_Buy 6 for $5.95 each and save 15%_
+`Buy 6 for $5.95 each and save 15%`
 
 The prices in the storefront take precedence from the highest to the lowest quantity. Therefore, if you have a tier for the quantity 5 and one for the quantity 10, and a customer adds 5, 6, 7, 8, or 9 items to the shopping cart, the customer receives the discounted price that you specified for the quantity 5 tier. As soon as the customer adds the 10th item, the discounted price specified for the quantity 10 tier supersedes the tier for a quantity of 5, and discounted price for 10 applies.
 
