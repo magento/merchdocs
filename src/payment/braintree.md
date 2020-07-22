@@ -3,8 +3,9 @@ title: Braintree
 ---
 
 {:.bs-callout-warning}
-**Payment Services Directive Requirements:** <br/>
-As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. Starting with Magento ver. 2.2.3, Braintree provides native support for 3D Secure 2.0.<br/>To meet PSD2 requirements for earlier versions of Magento, install and configure the official Braintree payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). Older Braintree implementations that run on JavaScript SDK v2 do not support 3D Secure 2.0.
+**Magento 2.4 Migration:**<br />
+Prior to Magento 2.4 it was recommended merchants install and configure the official Braintree payment integration extension from the [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). As of Magento 2.4 the extension on the Magento Marketplace is now included in the core Magento release. <br/><br/>
+When migrating to Magento 2.4 merchants will need to uninstall the extension distributed on the Marketplace (`paypal/module-braintree` or `gene/module-braintree`) and update any code customisations to use the `PayPal_Braintree` namespace instead of `Magento_Braintree`. Configuration settings from the core Magento Braintree Payments extension and the extension distributed on the Magento Marketplace will be persisted and payments placed with those versions of the extension can still be captured, voided or refunded as normal.<br /><br />
 
 Braintree offers a fully customizable checkout experience with fraud detection and PayPal integration. Braintree reduces the PCI compliance burden for merchants because the transaction takes place on the Braintree system.
 
