@@ -15,7 +15,7 @@ title: New Relic Reporting
 
 1. While you are in your account, locate the following credentials that you will need to complete the configuration:
 
-    | Account ID | From your New Relic account dashboard, the Account ID is the number in the URL after:` /accounts` |
+    | Account ID | From your New Relic account dashboard, the Account ID is the number in the URL after: `/accounts` |
     | Application ID | From your New Relic account dashboard, click **New Relic APM**. In the menu, choose **Applications**. Then, choose your application. The Application ID is the number in the URL after: `/applications/` |
     | New Relic API Key | From your New Relic account dashboard, click **Account Settings**. In the menu on the left under Integrations, choose **Data Sharing**. You can create, regenerate, or delete your API key from this page. |
     | Insights API Key | From your New Relic account dashboard, click **Insights**. In the menu on the left under Administration, choose **API Keys**. Your Insights API Key(s) appear on this page. If necessary, click the plus sign (**+**) next to Insert Keys to generate a key. |

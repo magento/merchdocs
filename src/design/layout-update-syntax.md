@@ -57,7 +57,7 @@ Removes an existing block from the layout.
 
 ## <extend>
 
-This instruction performs final modifications to blocks which are already part of the layout. Every attribute in the `<block>` instruction—except for the block name—is subject for change. In addition, the special attribute *parent* can be used to change the parent of the block. Simply put the name of the new parent block into the `<extend> `instruction, and the parent of the block that is referenced will be changed in the layout.
+This instruction performs final modifications to blocks which are already part of the layout. Every attribute in the `<block>` instruction—except for the block name—is subject for change. In addition, the special attribute *parent* can be used to change the parent of the block. Simply put the name of the new parent block into the `<extend>` instruction, and the parent of the block that is referenced will be changed in the layout.
 
 |Name|Value|Description|
 |--- |--- |
