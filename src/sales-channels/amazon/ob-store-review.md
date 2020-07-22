@@ -16,11 +16,13 @@ Store Review is the final step of the onboarding process. At this stage of onboa
 1. Review your listings on their appropriate tabs.
 
 1. Update listing status by modifying your configurations and listing rules. You have a couple methods for updating listings:
+
     - Use the actions available on each tab for your listings to review and edit your listings.
     - Edit your store's listing settings through previous Onboarding steps.
 
 1. When you are satisfied with your listings, click <span class="btn">Complete Setup</span>.
-<br/>You can edit these settings at any time after completing onboarding setup. Access the store integration through the [Amazon Sales Channel Home]({% link sales-channels/amazon/amazon-sales-channel-home.md %}).
+
+   You can edit these settings at any time after completing onboarding setup. Access the store integration through the [Amazon Sales Channel Home]({% link sales-channels/amazon/amazon-sales-channel-home.md %}).
 
 {:.bs-callout-info}
 Your Amazon Sales Channel store setup completes, your listing information is published to your Amazon Seller Central account, and the status of the new store changes "Active" on the Amazon Sales Channel Home screen.

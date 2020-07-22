@@ -41,7 +41,8 @@ When ending a single listing or multiple listings, a confirmation message displa
 1. In the Action column for the listing, click **Select** and click **End Listing**.
 
 1. Click **OK** on the confirmation message that displays.
-<br />A confirmation message will display that the selected listing is being processed to publish to Amazon.
+
+   A confirmation message will display that the selected listing is being processed to publish to Amazon.
 
 ![]({% link images/images/sales-channels/amazon/amazon-ended-listings.png %}){: .zoom}
 _Ended Listings_
