@@ -41,7 +41,7 @@ Go to [Braintree Payments][1] and sign up for an account.
    - Set **Payment Action** to one of the following:
 
      | **Authorize Only** | Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer’s bank account until the sale is “captured” by the merchant.|
-     | **Authorize and Capture** | The amount of the purchase is authorized and immediately withdrawn from the customer’s account. |
+     | **Intent Sale** | The amount of the purchase is authorized and immediately withdrawn from the customer’s account. Previously "Authorize and Capture" before 2.4.0. |
 
    - Enter the **Merchant ID** from your Braintree account.
 
