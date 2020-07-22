@@ -31,7 +31,7 @@ To give someone restricted access to the Admin, the first step is to create a ro
     - `All`
     - `Custom`
 
-    {:.ee-only} If set to `Custom` for a multisite installation, select the checkbox of the website and store where the role is to be used.
+<span class="ee-only"></span>If set to `Custom` for a multisite installation, select the checkbox of the website and store where the role is to be used.
 
     ![User role resources - custom scope]({% link images/images/permissions-role-scope-custom.png %}){: .zoom}
     _Custom Role Scope_
