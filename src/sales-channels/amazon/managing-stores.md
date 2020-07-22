@@ -8,12 +8,16 @@ When accessing your Amazon Sales Channel, the Amazon Stores tab displays by defa
 The Amazon Stores tab provides a list of your Amazon stores along with some basic statistics and management options. Displayed statistics include each store's status, date created, last updated, available management actions, and defined region. Management options (available in the **Select** drop-down in the Actions column) include:
 
 - **Manage Store**: The action for this option is dependent on the status of the store selected.
-<br />If the store is in Active or Inactive status, this displays the [store's dashboard]({% link sales-channels/amazon/amazon-store-dashboard.md %}) giving you access to the store's data, revenue and order information, and listing and order settings.<br />
-<br />If the store is in Setup status, this displays the [Store Review]({% link sales-channels/amazon/ob-store-review.md %}) step for the store's setup process, where you can review and modify your stores settings, listing and order settings, and pricing rules before completing setup.
+
+   If the store is in Active or Inactive status, this displays the [store's dashboard]({% link sales-channels/amazon/amazon-store-dashboard.md %}) giving you access to the store's data, revenue and order information, and listing and order settings.
+
+   If the store is in Setup status, this displays the [Store Review]({% link sales-channels/amazon/ob-store-review.md %}) step for the store's setup process, where you can review and modify your stores settings, listing and order settings, and pricing rules before completing setup.
 
 - **Change to Active/Inactive**: Choose when you want to change the status of the store selected. This feature allows you to control order and listing activity at the Amazon regional level, because each Amazon store has a defined region during setup.
-<br />Changing an Inactive store to Active status will activate listings and order activity for the store, using the stores current setup (listing settings, price rules, overrides, etc.)<br />
-<br />Changing an Active store to Inactive status will suspend listings and order activity for the store. An Inactive store will retain all settings and listings, but will temporarily stop the synchronization of pricing, quantity, and order management until the store is changed to Active status. This feature allows you to control your store activity at the Regional level without the need to recreate or reintegrate your Amazon store or the loss of historical order and sales data.
+
+   Changing an Inactive store to Active status will activate listings and order activity for the store, using the stores current setup (listing settings, price rules, overrides, etc.)
+
+   Changing an Active store to Inactive status will suspend listings and order activity for the store. An Inactive store will retain all settings and listings, but will temporarily stop the synchronization of pricing, quantity, and order management until the store is changed to Active status. This feature allows you to control your store activity at the Regional level without the need to recreate or reintegrate your Amazon store or the loss of historical order and sales data.
 
 - **Delete Store**: Choose when you wish to delete an existing Amazon store and its integration settings with your Amazon Seller Central account. Deleting the account will remove the store from Amazon Sales Channel, along with all account settings, listings, logs and other information related to this store. The account cannot be retrieved after deletion.
 

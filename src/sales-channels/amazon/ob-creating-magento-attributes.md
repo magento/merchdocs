@@ -22,7 +22,8 @@ These instructions detail how to create Magento attributes for Amazon ASIN and A
 1. For **Catalog Input Type for Store Owner**, choose **Text Field**.
 
 1. From the **Values Required** drop-down, choose **No**.
-<br/>Although an Amazon ASIN is required to list a product on Amazon, some of your catalog products may not be listed on Amazon.
+
+   Although an Amazon ASIN is required to list a product on Amazon, some of your catalog products may not be listed on Amazon.
 
 1. Expand the **Advanced Attribute Properties** section.
 
@@ -54,12 +55,14 @@ _Amazon ASIN Attribute_
 1. For **Default Label**, enter **Amazon Condition** (the name for your attribute).
 
 1. For **Catalog Input Type for Store Owner**, choose **Dropdown**.
-<br/>The Manage Options (Values of your Attribute) section will display.
+
+   The Manage Options (Values of your Attribute) section will display.
 
 1. For **Values Required**, choose **No**.
 
 1. For **Manage Options (Values for your Attribute)**, add each of your condition options.
-<br/>Standard Amazon conditions include:
+
+   Standard Amazon conditions include:
 
     - New: Refurbished: Used
     - Like New: Used

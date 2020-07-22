@@ -29,10 +29,12 @@ When managing Amazon orders in Amazon Sales Channel, you will use the [Magento O
 1. In Amazon Sales Channel Home, click the **Orders** tab.
 
 1. If you want to view additional details for an individual order, click **View Amazon Order Details** in the Action column.
-<br />This displays the [Amazon Order Details]({% link sales-channels/amazon/amazon-order-details.md %}) screen to view the details for the selected order.
+
+   This displays the [Amazon Order Details]({% link sales-channels/amazon/amazon-order-details.md %}) screen to view the details for the selected order.
 
 1. If you want to manage an individual order, click the number in the Magento Order Number column.
-<br />This displays the Magento [order processing]({% link sales/order-processing.md %}) screen in a new tab.
+
+   This displays the Magento [order processing]({% link sales/order-processing.md %}) screen in a new tab.
 
 See [Common Order Processing Tasks]({% link sales-channels/amazon/common-order-processing.md %})
 
