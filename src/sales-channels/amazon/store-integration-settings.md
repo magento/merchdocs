@@ -13,8 +13,9 @@ After integrating your store, review and configure the integration settings stor
 
 1. For **Email Address**, update your preferred contact email address.
 
-1. For **New Store Name**, update the descriptive name for your new Amazon Sales Channel store. This name displays on the [Amazon Stores]({% link sales-channels/amazon/managing-stores.md %}) tab.<br/>
-<br/>This name is used as a Magento reference only and will identify the store in the list on the Amazon Sales Channel Home page. You will want to make it something your team can easily identify. For example, your Amazon store that sells in the United States region might be named "Amazon Store USA".
+1. For **New Store Name**, update the descriptive name for your new Amazon Sales Channel store. This name displays on the [Amazon Stores]({% link sales-channels/amazon/managing-stores.md %}) tab.
+
+   This name is used as a Magento reference only and will identify the store in the list on the Amazon Sales Channel Home page. You will want to make it something your team can easily identify. For example, your Amazon store that sells in the United States region might be named "Amazon Store USA".
 
 1. The Amazon Marketplace setting cannot be updated.
 

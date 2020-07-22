@@ -21,6 +21,7 @@ Starting with our 2.3.2 release, we are no longer producing and publishing an up
 - {:.ce-only}[Magento Open Source 2.3.1 PDF guide][20]{:target="_blank"}
 - {:.ee-only}[Magento Commerce 2.3.1 PDF guide][18]{:target="_blank"}
 - {:.b2b-only}[Magento Commerce for B2B 2.3.1 PDF guide][19]{:target="_blank"}
+
 </div>
 
 ## Earlier Releases

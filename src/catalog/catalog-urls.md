@@ -34,10 +34,12 @@ Your catalog can be configured to either include or exclude the suffix as part o
 Because the suffix is controlled by the system configuration, you should never type it directly into the URL key of a category or product. (Doing so will result in a double suffix at the end of the URL.) Whether you decide to use the suffix or not, be consistent and use the same setting for all your product and category pages. Here are examples of URLs with—and without—a suffix.
 
 #### URL with HTML suffix
+
 - `http://mystore.com/helena-hooded-fleece.html`
 - `http://mystore.com/helena-hooded-fleece.htm`
 
 #### URL without HTML suffix
+
 - `http://mystore.com/helena-hooded-fleece`
 
 ### Category path
@@ -45,9 +47,11 @@ Because the suffix is controlled by the system configuration, you should never t
 You can configure the URL to either include or exclude the category path. By default, the category path is included in all category and product pages. The following examples show the same product URL with, and without, the category path.
 
 #### URL with category path
+
 - `http://mystore.com/women/tops-women/hoodies-and-sweatshirts-women/helena-hooded-fleece.html`
 
 #### URL without category path
+
 - `http://mystore.com/helena-hooded-fleece.html`
 
 To prevent search engines from indexing multiple URLs that lead to the same content, you can exclude the category path from the URL. Another method is to use a canonical meta tag to let search engines know which URLs to index and which to ignore. By default, Magento does not include the category path in product URLs.
