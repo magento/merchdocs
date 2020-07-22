@@ -8,7 +8,7 @@ Sometimes more than one content element is assigned to the same structural block
 | `before="-"` | Places the block at the top of the sidebar, before other blocks. |
 | `after="-"` | Places the block at the bottom of the sidebar, after other blocks. |
 
-**Code to Position Content Blocks**
+Code to position content blocks:
 
 ```
 <block type="cms/block" before="-" name="left.permanent.callout">

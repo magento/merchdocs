@@ -10,11 +10,11 @@ Third-party sellers of any size can create an Amazon Seller Central account and 
 
 Amazon listings contain two categories of information: Product Information and Listing Information.
 
-**Product Information**
+### Product Information
 
 Product information provides data common to every instance of the same product listed on Amazon. For example, several sellers may list a particular brand of yoga pants on Amazon. The general details about the product, such as the name and model number, are the same each time the product is listed. When more than one seller contributes data to a product, Amazon determines which seller's product information will be displayed on the product detail page.
 
-**Listing Information**
+### Listing Information
 
 Listing information provides seller-specific information about products. These details often differ from other sellers' listing for the same product. For example, you may sell the same yoga pants as another seller, but your item number, condition, price, or shipping method time may be different. These details are unique to your listing for the product.
 

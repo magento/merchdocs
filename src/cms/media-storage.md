@@ -48,7 +48,7 @@ _Media Storage_
 
 Open the page or block to be edited. Then, use one of the following methods to insert an image from media storage:
 
-**Method 1: From WYSIWYG Mode**
+### Method 1: WYSIWYG mode
 
 1. On the toolbar of the WYSIWYG [editor]({% link cms/editor.md %}), click **Insert Image** (![]({% link images/images/editor-toolbar/btn-insert-edit-image.png %})).
 
@@ -64,7 +64,7 @@ Open the page or block to be edited. Then, use one of the following methods to i
     ![]({% link images/images/media-storage-insert-file.png %}){: .zoom}
     _Insert File_
 
-**Method 2: From HTML Mode**
+### Method 2: HTML mode
 
 1. Position the cursor in the code where the `<img>` tag is to be inserted.
 

@@ -135,7 +135,7 @@ _Page Builder and Text Editor Attributes in Storefront_
 
 Look for the following concepts and features in this tutorial:
 
-**Before you begin**
+### Before you begin
 
 To avoid making changes to your live store, create a new product with the following properties:
 
@@ -154,7 +154,7 @@ To avoid making changes to your live store, create a new product with the follow
 
 1. On the **Save** menu, choose **Save & Close**.
 
-### Step 1: Create Custom Attributes
+### Step 1: Create custom attributes
 
 In this step, you create two new custom attributes to show how the Page Builder and Text Editor input types can be used.
 
@@ -196,7 +196,7 @@ In this step, you create two new custom attributes to show how the Page Builder 
     | Catalog Input Type for Store Owner: | Text Editor |
     | Attribute Code: | my-text-editor-attribute |
 
-### Step 2: Update the Product Attribute Set
+### Step 2: Update the product attribute set
 
 1. On the Admin sidebar, go to **Stores** > _Attributes_ > **Attribute Set**.
 
@@ -220,7 +220,7 @@ In this step, you create two new custom attributes to show how the Page Builder 
 
 1. When prompted, click the **Cache Management** link at the top of the page. Then, refresh any invalid cache.
 
-### Step 3: Update the Product
+### Step 3: Update the product
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
@@ -253,7 +253,7 @@ In this step, you create two new custom attributes to show how the Page Builder 
 
 1. If prompted, click the **Cache Management** link in the message at the top of the page. Then, refresh any invalid cache.
 
-### Step 4: Check It Out
+### Step 4: Check it out
 
 1. Navigate to your sample product page in the storefront.
 

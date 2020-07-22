@@ -60,11 +60,11 @@ To set up shipping methods that you will offer to fulfill your Amazon orders, re
 
 When your Amazon account is set up and active, there are several Magento recommendations that will help streamline the Amazon Sales Channel onboarding process.
 
-**Review and note any products you don't want to list on Amazon.**
+### Review and note any products you don't want to list on Amazon
 
 You may not want some products to be listed on Amazon. Amazon Sales Channel has a listing rule engine that is used to determine which products are eligible for publishing to Amazon. [Listing rules]({% link sales-channels/asc/listing-rules.md %}) allow you to select subsets of products to be published (or not published) to your Amazon Seller Central account, such as by category selection or by defining one or more product attributes. Like Magento [catalog]({% link marketing/price-rules-catalog.md %}) or [shopping cart]({% link marketing/price-rules-cart.md %}) price rules, product attributes used for Amazon listing eligibility muse have **Use for Promo Rule Conditions** set to `Yes`. See the **Use for Promo Rule Conditions** in [Product Attributes]({% link stores/attributes-product.md %}).
 
-**Set your Amazon Seller Central Region to Inactive**
+### Set your Amazon Seller Central region to inactive
 
 To help facilitate error-free data transition during integration, we highly recommend setting your Amazon region to `Inactive` status in Settings > Account Info > Vacation Settings. Refer to [Amazon: Listing Status for Vacations][11]{:target="_blank"}. Once your setup is complete, change the status back to `Active` in Amazon.
 

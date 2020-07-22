@@ -13,7 +13,7 @@ To avoid mistakes, write down the URL key of the _redirect to_ page and _redirec
 
 If you are not sure, open each page in your store, and copy the path from the address bar of your browser.
 
-**CMS Page Path**
+### CMS page path
 
 |Redirect to:|new-page|
 |Redirect from:|old-page|
