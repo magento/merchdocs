@@ -4,7 +4,34 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what's new.
 
+## July 2020
+
+### New topics
+
+- [Securing Your Account]({% link magento/magento-account-secure.md %})
+- [Hidden Tax Calculation]({% link tax/hidden-tax-calculation.md %})
+
+### Updated topics
+
+{: .topics-table }
+|Topic |Change|
+|--- |--- |
+|[Product Attributes]({% link stores/attributes-product.md %})|Added note that _Use in Filter Options_ is shown only when _Add to Column Options_ is enabled.|
+|[Product Recommendations]({% link marketing/product-recommendations.md %})|Added a link to the Page Builder support install page in DevDocs. Added information about the behavior of recommendations with the _Display Out-of-Stock Products_ option in the Catalog configuration.|
+|[Cron (Scheduled Tasks)]({% link system/cron.md %})|Corrected the _Generate Schedules Every_ description for the CRON job.|
+|[Two-Factor Authentication]({% link stores/security-two-factor-authentication.md %})|Added a screen that shows Google Authenticator on an iPhone with multiple security codes for different sites. Added a note with link for separate setup of 2FA for a Magento account.|
+|[Braintree]({% link payment/braintree.md %})<br/>[Braintree]({% link configuration/sales/braintree.md %}) (reference)|Added deprecation notice for the core Braintree integration for 2.3.x. This will be replaced with a bundled extension in 2.4.0.|
+|[Using Amazon Seller Central]({% link payment/amazon-pay-seller-central.md %})|Updated to reflect changes in Amazon Pay's _Seller Central_ website, which affect how merchants obtain and copy the necessary credentials for their Magento and Amazon Pay integration.|
+
 ## June 2020
+
+### New section
+
+- [MCOM]({% link mcom.md %})
+
+### New topic
+
+- [Fetch Product Recommendations from a Different Source]({% link marketing/recommendation-change-source.md %})
 
 ### Updated topics
 
@@ -12,6 +39,12 @@ Our documentation is continually updated with new topics, clarifications, and co
 |Topic |Change|
 |--- |--- |
 |Google Shopping ads Channel|With the deactivation of Google Shopping ads Channel, related documentation has been removed. Additional configuration and landing pages have also been updated:<br/>- [Marketing]({% link marketing.md %})<br/>- [Sales Channels Home]({% link sales-channels/sales-channels-home.md %})<br/>- [Services]({% link configuration/services.md %})<br/>- [Role Resources]({% link system/permissions-role-resources.md %})|
+|Extension Manager|Due to a known issue, the Extension Manager does not work properly in 2.3.x. Removed the Extension Manager topic from the Web Setup Wizard section.|
+|[Web Setup Wizard]({% link system/web-setup-wizard.md %})|Updated with notice that the Web Setup Wizard will be deprecated in the 2.3.6 release.|
+|[Install an Extension]({% link magento/magento-marketplace-install-extension.md %})|Updated to remove instructions for the Extension Manager and refer to the [General CLI installation](https://devdocs.magento.com/extensions/install/) information in DevDocs.|
+|[Advanced Reporting]({% link reports/advanced-reporting.md %})|Updated to clarify that Advanced Reporting does not require an MBI account.|
+|[Sharing your Account]({% link magento/magento-account-share.md %})|Updated steps and screens for accuracy, clarity, and consistency.|
+|[Add Product Recommendations]({% link marketing/page-builder-add-product-recs.md %})|Updated to clarify which version of the Product Recommendations module supports Page Builder.|
 
 ## May 2020
 
