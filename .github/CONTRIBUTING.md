@@ -60,11 +60,11 @@ Use the same branch as the base when you submit the PR. If you indicate in your 
 
 1. Complete the pull request template.
 
-    **We will close your pull request if you do not complete the template.**
+   **We will close your pull request if you do not complete the template.**
 
 1. After creating a pull request, a Magento Documentation staff member or Maintainer will review it and may ask you to make revisions.
 
-    **We will close your pull request if you do not respond to feedback in two weeks.**
+   **We will close your pull request if you do not respond to feedback in two weeks.**
 
 **Important!** You must submit a signed CLA before your PR can be merged.
 

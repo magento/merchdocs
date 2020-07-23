@@ -14,10 +14,12 @@ about: Create a request to add missing information to MerchDocs
 <!-- Use the following section to indicate which Magento release(s) are affected by the new topic-->
 
 - [ ] 2.4.x
-  - Specify a patch release number, if applicable:
+
+   Specify a patch release number, if applicable:
 
 - [ ] 2.3.x
-  - Specify a patch release number, if applicable:
+
+   Specify a patch release number, if applicable:
 
 ## Content checklist
 

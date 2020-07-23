@@ -30,10 +30,12 @@ about: Create an issue about a bug on the documentation website
 <!-- Use the following section to indicate which Magento release(s) are affected -->
 
 - [ ] 2.4.x
-  - Specify a patch release number, if applicable:
+
+   Specify a patch release number, if applicable:
 
 - [ ] 2.3.x
-  - Specify a patch release number, if applicable:
+
+   Specify a patch release number, if applicable:
 
 ## Additional information
 
