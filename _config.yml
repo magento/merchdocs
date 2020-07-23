@@ -5,9 +5,9 @@ title: Magento 2.3 User Guide
 
 description: Merchant-focused documentation for both Magento Commerce and Magento Open Source
 logo: User Guide
-baseurl: /user-guide
+baseurl: /user-guide/v2.3
 url: "https://docs.magento.com"
-destination: _site/user-guide
+destination: _site/user-guide/v2.3
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
@@ -17,10 +17,18 @@ source: src
 plugins_dir: ./_plugins
 
 version: 2.3
+versions:
+  -
+    name: "2.4"
+    url: "/user-guide"
+  - 
+    name: "2.3"
+    url: "/user-guide/v2.3"
 
 algolia:
   application_id: E642SEDTHL
-  index_name: merchdocs
+  index_name: merchdocs-23
+  
   api_key: d2d0f33ab73e291ef8d88d8b565e754c
 
 google:
