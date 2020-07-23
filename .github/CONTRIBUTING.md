@@ -5,7 +5,7 @@ You can contribute by creating an issue or pull request (PR) on our [MerchDocs](
 
 We welcome all types of contributions; from minor typo fixes to new topics.
 
-Magento Documentation staff members and Community Maintainers review issues and pull requests on a regular basis. We do our best to address all issues as soon as possible, but working through the backlog takes time. We appreciate your patience.
+Magento Documentation staff members review issues and pull requests on a regular basis. We do our best to address all issues as soon as possible, but working through the backlog takes time. We appreciate your patience.
 
 ## Contributor License Agreement
 
@@ -15,8 +15,6 @@ All third-party contributions to this project must be accompanied by a signed co
 
 Magento Documentation works with Magento Community Engineering teams and projects.
 As you contribute PRs, you gain [Contribution Points](https://devdocs.magento.com/guides/v2.3/contributor-guide/contributing.html#points).
-
-If you write and contribute a full topic, we will add your name (or your company's name) at the top of the MerchDocs page and link it to your blog or website!
 
 ## Get started
 
@@ -42,6 +40,17 @@ You have different options for [writing content](https://github.com/magento/merc
 After writing content, [submit your work](https://github.com/magento/merchdocs/wiki/Branches-to-PRs#submit-a-pull-request) as a Pull Request (PR).
 
 **Tip!** If you are not sure where to start contributing, search for issues with the `help wanted` and `good first issue` labels. These are researched and ready to work!
+
+## User Guide versions
+
+Our repository currently publishes two versions of the Magento User Guide: 2.3.x and 2.4.x (current).
+
+If you want to contribute new or updated content, make sure that you create your working branch from the correct production branch:
+
+- 2.4.x - `master`
+- 2.3.x - `2.3-production`
+
+Use the same branch as the base when you submit the PR. If you indicate in your PR description that the content applies across versions, one of our staff members will address any back port or forward port that is needed.
 
 ## Create a pull request
 
@@ -73,7 +82,7 @@ You must complete the issue template. We will close your issue if you fail to co
 
 ## Contact the Magento Docs Team
 
-Have a question? Need help? Magento Documentation, Maintainers, and other Contributors are available through:
+Have a question? Need help? Magento Documentation and other Contributors are available through:
 
 - [Slack](https://magentocommeng.slack.com/messages/CJP33CEKY) ([Join us](http://tinyurl.com/engcom-slack))
 - [Twitter @MagentoDevDocs](https://twitter.com/MagentoDevDocs)

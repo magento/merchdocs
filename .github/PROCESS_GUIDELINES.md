@@ -1,6 +1,6 @@
 # MerchDocs processing guidelines
 
-In general, our documentation crew (Magento staff members) use similar [guidelines](https://devdocs.magento.com/guides/v2.3/contributor-guide/maintainers.html) for [`magento/devdocs`](https://github.com/magento/devdocs) maintainers.
+In general, our documentation crew (Adobe staff members) use similar [guidelines](https://devdocs.magento.com/guides/v2.3/contributor-guide/maintainers.html) for [`magento/devdocs`](https://github.com/magento/devdocs) maintainers.
 
 ## General expectations
 
@@ -38,9 +38,9 @@ See https://github.com/magento/merchdocs/labels for all labels and their descrip
 
 Currently, we test internal links and markdown linting. In the future, we plan to expand tests to include external links and spell checking.
 
-We use private CI/CD stack and do not provide outside access to it.
+We use a private CI/CD stack and do not provide outside access to it.
 
-Every pull request to the `master` branch must pass tests before it can be merged. When a pull request is ready for tests, a member of the admins team must add the test trigger phrase to the pull request as a comment. The trigger phrase is "_running tests_". By approving a pull request, you are signalling an admin that the pull request is ready for tests.
+Every pull request to the `master` or `2.3-production` branch must pass tests before it can be merged. When a pull request is ready for tests, a member of the admins team must add the test trigger phrase to the pull request as a comment. The trigger phrase is "_running tests_". The approval of a pull request signals an admin that the pull request is ready for tests. If the test fails, the admin will apply any additional commits to fix the issue(s).
 
 ## Projects
 
@@ -54,8 +54,8 @@ We prefer Markdown over HTML (in most cases). You can use [kramdown](https://kra
 
 ## Small changes workflow
 
-Before merging a pull request to the `master` branch, it must pass automated testing. Testing takes about 15 minutes to complete for each pull request, so we created a workflow to save time for small changes. Testing for each PR requires some time, no matter the size of the change set. For items with small changes, it is more efficient to group them together to lessen the load on the testing system.
+Before merging a pull request to the `master` or `2.3-production` branch, it must pass automated testing. Testing takes about 15 minutes to complete for each pull request, so we created a workflow to save time for small changes. Testing for each PR requires some time, no matter the size of the change set. For items with small changes, it is more efficient to group them together to lessen the load on the testing system.
 
 This workflow is for typos, formatting issues, and minor text additions or deletions. It is not for substantial new content, changes to tables, new files, or files that have been moved.
 
-Periodically, we will create a pull request from `small_changes` to `master` and then run tests on that pull request to save time.
+Periodically, we will create a pull request from `small_changes` to `master` or `2.3-production` and then run tests on that pull request to save time.

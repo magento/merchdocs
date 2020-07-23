@@ -4,10 +4,27 @@
 
 This pull request (PR) ...
 
-If Magento Commerce, please specify:
+## Magento release version
 
-- [ ] Commerce only?
-- [ ] Commerce with B2B?
+<!-- Use this section to indicate which Magento release(s) are affected by the content changes. -->
+
+- [ ] 2.4.x
+  - Specify a patch release number, if applicable:
+
+- [ ] 2.3.x
+  - Specify a patch release number, if applicable:
+
+## Product editions
+
+Is this update specific to a product edition and/or an installed feature extension?
+
+- [ ] Magento Open Source only
+- [ ] Magento Commerce only
+
+- [ ] B2B extension
+- [ ] Other feature set, please specify:
+
+
 
 ## Affected documentation pages
 
