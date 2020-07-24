@@ -2,19 +2,19 @@
 title: Braintree
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > Braintree
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > Braintree
 
 {:.bs-callout-warning}
 **Payment Services Directive Requirements:** <br/>
-As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. Starting with Magento ver. 2.2.3, Braintree provides native support for 3D Secure 2.0.<br/>To meet PSD2 requirements for earlier versions of Magento, install and configure the official Braintree payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). Older Braintree implementations that run on JavaScript SDK v2 do not support 3D Secure 2.0.
+As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. Starting with Magento ver. 2.2.3, Braintree provides native support for 3D Secure 2.0.<br/>To meet PSD2 requirements for earlier versions of Magento, install and configure the official Braintree payment integration extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). Older Braintree implementations that run on JavaScript SDK v2 do not support 3D Secure 2.0.
 
 ## 2.4 Migration
-Prior to Magento 2.4 it was recommended merchants install and configure the official Braintree payment integration extension from the [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). As of Magento 2.4 the extension on the Magento Marketplace is now included in the core Magento release. <br/><br/>
+Prior to Magento 2.4 it was recommended merchants install and configure the official Braintree payment integration extension from the [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). As of Magento 2.4 the extension on the Magento Marketplace is now included in the core Magento release. <br/><br/>
 When migrating to Magento 2.4 merchants will need to uninstall the extension distributed on the Marketplace (`paypal/module-braintree` or `gene/module-braintree`) and update any code customisations to use the `PayPal_Braintree` namespace instead of `Magento_Braintree`. Configuration settings from the core Magento Braintree Payments extension and the extension distributed on the Magento Marketplace will be persisted and payments placed with those versions of the extension can still be captured, voided or refunded as normal.
 
 ## Basic Braintree Settings
 
-![]({% link images/images/config-sales-payment-methods-braintree-basic-settings.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-braintree-basic-configuration.png %}){: .zoom}
 _Basic Braintree Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -27,70 +27,184 @@ _Basic Braintree Settings_
 |Private Key|Website|This is your user-specific private identifier that restricts access to encrypted data. Each user associated with your Braintree gateway will have their own private key.|
 |Enable this Solution|Website|Determines if Braintree is available to your customers as a payment method. Options: Yes / No|
 |Enable PayPal through Braintree|Website|Determines if PayPal is included as a payment method through Braintree. Options: Yes / No|
-|Vault Enabled|Website|When enabled, provides secure storage for customer payment information, so customers don't have to reenter their credit card information for each purchase. Options: Yes / No.|
+|Enable PayPal Credit through Braintree|Website|Determines if PayPal Credit is included as a payment method through Braintree. Options: Yes / No|
+|Enable Vault for Card Payments|Website|When enabled, provides secure storage for customer payment information, so customers don't have to reenter their credit card information for each purchase. Options: Yes / No.|
+|Enable Vault CVV Re-verification|Website|When enabled, Validation will be done for the CVV rules setup under Braintree Account. Options: Yes / No.|
+
 
 ## Advanced Braintree Settings
 
-![]({% link images/images/config-sales-payment-methods-braintree-advanced.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-braintree-advance-configuration.png %}){: .zoom}
 _Braintree Advanced Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Vault Title|Website|A descriptive title for your reference that identifies the vault where your customer card information is stored.|
 |Merchant Account ID|Website|The Merchant ID that is to be associated with Braintree transactions from this website. If left blank, the default merchant account from your Braintree account is used.|
-|Advanced Fraud Protection|Website|Determines if Braintree’s Advanced Fraud Protection is applied to transactions. Options: Yes / No <br/><br/>**Your Kount ID** - When Advanced Fraud Protection is enabled, the system requires your Kount ID to integrate with the fraud protection platform. If necessary, [contact Braintree](mailto:accounts@braintreepayments.com?subject=Kount Account for Advanced Fraud Protection) to set up your [Kount](https://www.kount.com/) account. <br/><br/>**_Note:_** Advanced Fraud Protection must also be enabled in your Braintree account.|
+|Advanced Fraud Protection|Website|Determines if Braintree’s Advanced Fraud Protection is applied to transactions. Options: Yes / No |
 |Debug|Website|Determines if communications between the Braintree system and your store are recorded in a log file. Options: Yes / No|
 |CVV Verification|Website|Determines if customers are required to provide the three-digit security code from the back of a credit card. Options: Yes / No|
 |Credit Card Types|Website|Specifies each credit card that you accept as payment through  Braintree. Press and hold `Ctrl` (or `Command` on Mac) to select a combination of cards.|
 |Sort Order|Website|Determines the order that Braintree is listed with other payment methods during checkout.|
 
+
+
+### Kount
+![]({% link images/images/config-sales-payment-methods-braintree-kount-configuration.png %}){: .zoom}
+_Kount Configuration_
+
+
+|Kount Configuration| | When Advanced Fraud Protection option will be enabled, Kount configuration option will appear|
+|Bypass Fraud Protection Threshold|Website|Advanced fraud protection checks will be bypassed if this threshold is met or exceeded. Leaving this field blank will disable this option.|
+|ENS URL|Website|Under Kount AWC control panel, ENS URL needs to be added for you|
+|Merchant ID|Website|Kount ID needs to be mentioned here to integrate with the fraud protection platform. If necessary, [contact Braintree](mailto:accounts@braintreepayments.com?subject=Kount Account for Advanced Fraud Protection) to set up your [Kount](https://www.kount.com/) account. | 
+|Skip Fraud Checks on Admin Orders|Website|If enabled, orders placed through admin will prevent from being sent to Kount for evaluation. Options: Yes / No|
+|ENS Allowed IPs|Website|The IPs that will have access to the ENS endpoint needs to be mentioned here|
+
 ## Country Specific Settings
 
-![]({% link images/images/config-sales-payment-methods-braintree-country-specific-settings.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-braintree-country-specific-configuration.png %}){: .zoom}
 _Country Specific Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Payment from Applicable Countries|Website|Determines if you accept payments processed by Braintree from all countries, or only specific countries. Options: All Allowed Countries / Specific Countries|
 |Payment from Specific Countries|Website|If applicable, identifies the specific countries from which you accept payments processed by Braintree.|
-|Country Specific Credit Card Types|Website|Identifies the credit cards that are accepted per country for payments processed by Braintree. A record is saved for each country. Options: <br/>**Country** - Choose the country. <br/>**Allowed Card Types** - Select each credit card that is accepted from the country as payment through Braintree. <br/>**Add** - Add a new line to enter allowed credit cards for a different country. <br/>**Action** - Deletes the record of allowed credit cards  for the country.|
+|Country Specific Credit Card Types|Website|Identifies the credit cards that are accepted per country for payments processed by Braintree. A record is saved for each country. Options: <br/>**Country** - Choose the country. <br/>**Allowed Card Types** - Select each credit card that is accepted from the country as payment through Braintree. <br/>**Add** - Add a new line to allow credit cards for a different country. <br/>**Action** - Deletes the record of allowed credit cards  for the country.|
+
+## ACH through Braintree
+
+![]({% link images/images/config-sales-payment-methods-braintree-ach-payment-method-configuration.png %}){: .zoom}
+_ACH through Braintree_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled ACH Direct Debit|Website|Determines if PayPal is included as a payment method through Braintree. Options: Yes / No|
+
+## Apple Pay through Braintree
+
+![]({% link images/images/config-sales-payment-methods-braintree-applepay-payment-method-configuration.png %}){: .zoom}
+_Apple Pay through Braintree_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled ApplePay through Braintree|Website|Determines if ApplePay is included as a payment method through Braintree. Options: Yes / No <br/><br/> The Domain will need to be [verified in Braintree Account first] https://developers.braintreepayments.com/guides/apple-pay/configuration/javascript/v3.|
+|Payment Action|Website|Determines the action taken by Braintree when a payment is processed. Options: <br/>**Authorize** - Funds on the customer’s card are authorized, but not transferred from the customer’s account. An order is created in your store Admin. You can later capture the sale and create an invoice. <br/>**Intent Sale** (Previously "Authorize and Capture" before 2.4.0) - Funds on the customer’s card are authorized and captured by Braintree, and an order and invoice are created in your store Admin.|
+|Merchant Name|Store View|Label that will be displayed to customers in Apple Pay popup|
+
+## Local Payment Methods
+
+![]({% link images/images/config-sales-payment-methods-braintree-local-payment-method-configuration.png %}){: .zoom}
+_Local Payment Methods_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled Local Payment Methods|Website|Determines if Local Payment Method is included as a payment method through Braintree. Options: Yes / No|
+|Title|Website|Label that will appear on the checkout Payment Method section. Default value: Local|
+|Allowed Payment Method|Website|Select the local Payment method which needs to be enabled.|
+
+## GooglePay through Braintree
+
+![]({% link images/images/config-sales-payment-methods-braintree-googlepay-payment-method-configuration.png %}){: .zoom}
+_GooglePay through Braintree_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled GooglePay through Braintree|Website|Determines if Google Pay payment is included as a payment method through Braintree. Options: Yes / No|
+|Payment Action|Website|Determines the action taken by Braintree when a payment is processed. Options: <br/>**Authorize** - Funds on the customer’s card are authorized, but not transferred from the customer’s account. An order is created in your store Admin. You can later capture the sale and create an invoice. <br/>**Intent Sale** (Previously "Authorize and Capture" before 2.4.0) - Funds on the customer’s card are authorized and captured by Braintree, and an order and invoice are created in your store Admin.|
+|Button Color|Website|Determines the color of Google Pay button. Option: White / Black|
+|Merchant ID|Store View|ID provided by Google needs to be mentioned here|
+|Accepted Cards|Website|Select the type of cards which customer can use to place order using Google Pay|
+
+
+## Venmo through Braintree
+
+![]({% link images/images/config-sales-payment-methods-braintree-venmo-payment-method-configuration.png %}){: .zoom}
+_Venmo through Braintree_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled Venmo through Braintree|Website|Determines if Venmo is included as a payment method through Braintree. Options: Yes / No|
+|Payment Action|Website|Determines the action taken by Braintree when a payment is processed. Options: <br/>**Authorize** - Funds on the customer’s card are authorized, but not transferred from the customer’s account. An order is created in your store Admin. You can later capture the sale and create an invoice. <br/>**Intent Sale** (Previously "Authorize and Capture" before 2.4.0) - Funds on the customer’s card are authorized and captured by Braintree, and an order and invoice are created in your store Admin.|
+
+
 
 ## PayPal through Braintree
 
-![]({% link images/images/config-sales-payment-methods-braintree-paypal.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-braintree-Paypal-payment-method-configuration.png %}){: .zoom}
 _PayPal through Braintree_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Title|Store View|The label that identifies PayPal through Braintree to customers during checkout. Default value: PayPal (Braintree)|
-|Vault Enabled|Website||
+|Vault Enabled|Website|When enabled, provides secure storage for customer payment information, so customers don't have to re enter their paypal information for each purchase. Options: Yes / No.|
 |Sort Order|Website|A number that determines the order in which PayPal through Braintree is listed with other payment methods during checkout.|
 |Override Merchant Name|Store View|An alternate name that can be used to identify the merchant for each store view.|
 |Payment Action|Website|Determines the action taken by PayPal through Braintree when a payment is processed. Options: <br/>**Authorize** - Funds on the customer’s card are authorized, but not transferred from the customer’s account. An order is created in your store Admin. You can later capture the sale and create an invoice. <br/>**Authorize and Capture** - Funds on the customer’s card are authorized and captured by PayPal through Braintree, and an order and invoice are created in your store Admin.|
 |Payment from Applicable Countries|Website|Determines if you accept payments processed by PayPal through Braintree from all countries, or only specific countries. Options: All Allowed Countries, Specific Countries|
 |Payment from Specific Countries|Website|If applicable, identifies the specific countries from which you accept payments processed by Braintree.|
 |Require Customer’s Billing Address|Website|Determines if the customer’s billing address is required to submit an order. Options: Yes / No|
-|Display on Shopping Cart|Website|Determines if the PayPal button appears in the [mini cart]({% link sales/cart-sidebar.md %}) and on the [shopping cart]({% link sales/cart.md %}) page. Options: Yes / No|
-|Allow to Edit Shipping Address Entered During Checkout on PayPal Side|Website|Determines if customers can edit the shipping address while completing a PayPal transaction. Options: Yes / No|
 |Debug|Website|Determines if communications between the PayPal through Braintree system and your store are recorded in a log file. Options: Yes / No|
-|Skip Order Review|Website|Gives you the option to bypass the Order Review step of the checkout process before the order is submitted. Options: Yes / No|
-|Display on Shopping Cart|Website|When enabled, displays the PayPal button on both the mini shopping cart and shopping cart page. Options: Yes / No|
+|Display on Shopping Cart|Website|Determines if the PayPal button appears in the [mini cart]({% link sales/cart-sidebar.md %}) and on the [shopping cart]({% link sales/cart.md %}) page. Options: Yes / No|
+
+### Mini-Cart and Cart Page
+
+![]({% link images/images/config-sales-payment-methods-braintree-Paypal-minicart-and-cart-configuration.png %}){: .zoom}
+_Mini cart and cart page_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Disable Funding Option|Website||
+|Customise Button|Website|If enabled, an option to customize the shape and color of the Paypal button will be available. Option: Yes / No|
+|Shape|Website|Determine the shape of the Paypal button. Option: Pill / Rectangle|
+|Size|Website|Determine the size of the Paypal button. Option: Medium / Large / Responsive|
+|Color|Website|Determine the color of the Paypal button. Option: Blue / Black / Gold / Silver|
+
+
+### Checkout Page
+
+![]({% link images/images/config-sales-payment-methods-braintree-Paypal-checkout-configuration.png %}){: .zoom}
+_Checkout Page_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Disable Funding Option|Website||
+|Customise Button|Website|If enabled, an option to customize the shape and color of the Paypal button will be available. Option: Yes / No|
+|Shape|Website|Determine the shape of the Paypal button. Option: Pill / Rectangle|
+|Size|Website|Determine the size of the Paypal button. Option: Medium / Large / Responsive|
+|Color|Website|Determine the color of the Paypal button. Option: Blue / Black / Gold / Silver|
+
+
+### Product Page
+
+![]({% link images/images/config-sales-payment-methods-braintree-Paypal-product-page-configuration.png %}){: .zoom}
+_Product Page_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enable PayPal Buy Now button on the product page|Website|If enabled, the Paypal button will be available on the Product detail page. Option: Yes / No|
+|Disable Funding Option|Website||
+|Customise Button|Website|If enabled, an option to customize the shape and color of the Paypal button will be available. Option: Yes / No|
+|Shape|Website|Determine the shape of the Paypal button. Option: Pill / Rectangle|
+|Size|Website|Determine the size of the Paypal button. Option: Medium / Large / Responsive|
+|Color|Website|Determine the color of the Paypal button. Option: Blue / Black / Gold / Silver|
+
 
 ## 3d Secure Verification Settings
 
-![]({% link images/images/config-sales-payment-methods-braintree-3d-verification-settings.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-braintree-3d-secure-verification-configuration.png %}){: .zoom}
 _3D Secure Verification Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|3D Secure Verification|Website|Determines if a transaction must pass an additional verification process when the customer is enrolled in a programs such as “Verified by VISA”. Options: Yes / No|
+|3D Secure Verification|Website|Determines if a transaction must pass an additional verification process when the customer is enrolled in a program such as “Verified by VISA”. Options: Yes / No|
 |Threshold Amount|Website|Determines the maximum order amount  that is authorized to be processed for a single order. Braintree declines authorization if the order amount exceeds the Threshold Amount.|
 |Verify for Applicable Countries|Website|Determines the countries where payment must be verified. Options: All Allowed Countries / Specific Countries|
 |Verify for Specific Countries|Website|If applicable, identifies the specific countries from which payment by Braintree must be verified.|
 
 ## Dynamic Descriptors
 
-![]({% link images/images/config-sales-payment-braintree-dynamic-descriptors.png %}){: .zoom}
+![]({% link images/images/config-sales-payment-methods-braintree-dynamic-description-configuration.png %}){: .zoom}
 _Dynamic Descriptors_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
