@@ -21,27 +21,26 @@ _Map with Location_
     ![]({% link images/images/config-general-content-management-advanced-content-tools.png %}){: .zoom}
     [_Advanced Content Tools_]({% link configuration/general/content-management.md %})
 
-   **Have a Google Maps Key**
+   - If you _**have a Google Maps Key**_:
 
-   - Paste your **Google Maps API Key**.
+      - Paste your **Google Maps API Key**.
 
-   - Click **Test Key**.
-
-   - Do one of the following:
+      - Click **Test Key**.
 
       - After your key is verified, click <span class="btn">Save Config</span>.
 
-      - If there is a problem with your key, return to the Google Maps Platform site to resolve the problem. Then, try again.
+         If there is a problem with your key, return to the Google Maps Platform site to resolve the problem. Then, try again.
 
-   **Need a Google Maps Key**
+   - If you _**need a Google Maps key**_:
 
-    To set up a Google Maps key, you must be a site administrator authorized to enable billing for your account. If you’re not ready to set up a Google Maps Platform account at this time, you can skip this step and use the placeholder map for now.
+      {:.bs-callout-info}
+      To set up a Google Maps key, you must be a site administrator authorized to enable billing for your account. If you are not ready to set up a Google Maps Platform account at this time, you can skip this step and use the placeholder map for now.
 
-   - Click **Get API Key**.
+      - Click **Get API Key**.
 
-   - Follow the [instructions][4] to configure your Google Maps Platform account and billing.
+      - Follow the [instructions][4] to configure your Google Maps Platform account and billing.
 
-   - **Copy** your API Key. Then, complete the previous instructions to enter and test your key.
+      - **Copy** your API Key. Then, complete the previous instructions to enter and test your key.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
@@ -119,7 +118,7 @@ _Map with Location_
 
 Use the Google Maps Platform Styling Wizard to apply a one of six predefined themes or create a custom theme. You also can generate a JSON file with the map style properties or a link to the styled map.
 
-**To change the map style**
+### Change the map style
 
 1. In the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -130,43 +129,43 @@ Use the Google Maps Platform Styling Wizard to apply a one of six predefined the
     ![]({% link images/images-ee/page-builder-media-maps-google-platform-maps-styling-wizard.png %}){: .zoom}
     [_Google Platform Maps Styling Wizard_][6]
 
-1. Click <span class="btn">Create a Style</span>. Then, do the following:
+1. Click <span class="btn">Create a Style</span> and do the following:
 
-   - In the panel on the left, use the sliders to **Adjust the density** of roads, landmarks, and labels on the map.
+   - In the left panel, use the sliders to **Adjust the density** of roads, landmarks, and labels on the map.
 
    - Under **Select theme**, choose one of the predefined themes.
 
-        ![]({% link images/images-ee/page-builder-media-maps-google-platform-maps-styling-wizard-select-theme.png %}){: .zoom}
-        _Select a Predefined Theme_
+      ![]({% link images/images-ee/page-builder-media-maps-google-platform-maps-styling-wizard-select-theme.png %}){: .zoom}
+      _Select a Predefined Theme_
 
    - At the bottom of the panel, click **More Options**. Choose the **Feature type** and **Element type** that you want to style. Then in the **Stylers** column, configure the properties as needed.
 
    - When complete, click <span class="btn">Finish</span>.
 
-       You can export the completed style as JSON code or as a URL. Follow the instructions for your application.
+1. If needed, you can export the completed style as JSON code or as a URL. Follow the instructions for your application.
 
-       ![]({% link images/images-ee/page-builder-media-maps-google-platform-maps-styling-wizard-export-style.png %}){: .zoom}
-       _Export Style_
+   ![]({% link images/images-ee/page-builder-media-maps-google-platform-maps-styling-wizard-export-style.png %}){: .zoom}
+   _Export Style_
 
-   **JSON**
+   - **JSON**:
 
-   - Below the box with the generated JSON code, click **Copy JSON**.
+      - Below the box with the generated JSON code, click **Copy JSON**.
 
-   - Return to the **Content Management** section of the Magento Configuration. In the _Advanced Content Tools_ section, paste the code into the **Google Maps Style** field.
+      - Return to the **Content Management** section of the Magento Configuration. In the _Advanced Content Tools_ section, paste the code into the **Google Maps Style** field.
 
-   - In the upper-right corner, click <span class="btn">Save Config</span>.
+      - In the upper-right corner, click <span class="btn">Save Config</span>.
 
-   **URL**
+   - **URL**:
 
-   - Below the box with the generated URL, click **Copy URL**.
+      - Below the box with the generated URL, click **Copy URL**.
 
-   - Paste the generated URL into a text editor.
+      - Paste the generated URL into a text editor.
 
-   - Replace the `YOUR_API_KEY` placeholder with your **Google Maps API key**.
+      - Replace the `YOUR_API_KEY` placeholder with your **Google Maps API key**.
 
-    You can use this URL to link to your styled Google Map.
+      You can use this URL to link to your styled Google Map.
 
-## To change the grid size
+## Change the grid size
 
 The grid size determines the size of the map related to a [column]({% link cms/page-builder-layout-column.md %}) on the Page Builder stage. By default, the map is 12 columns wide, with a maximum of 16 columns. To change the grid size, do the following:
 

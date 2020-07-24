@@ -328,11 +328,11 @@ _Contained Row with Two Equal Columns_
     ![]({% link images/images-ee/page-builder-tutorial1-columns-grid-size.png %}){: .zoom}
     _Grid Size_
 
-### Step 3: Add Images
+### Step 3: Add images
 
 In this step, you will learn two ways to upload an image to the banner.
 
-**Method 1: Use the Upload Image Button**
+**Method 1:** Use the Upload Image button
 
 1. On the Page Builder panel, expand the **Media** section. Then, drag an **Image** placeholder to the first column.
 
@@ -349,7 +349,7 @@ In this step, you will learn two ways to upload an image to the banner.
     ![]({% link images/images-ee/page-builder-tutorial1-column1-image.png %}){: .zoom}
     _Image in First Column_
 
-**Method 2: Drag the Image File**
+**Method 2:** Drag the Image File
 
 1. In the Page Builder panel under **Media**, drag an **Image** placeholder to the second column.
 
@@ -366,7 +366,7 @@ In this step, you will learn two ways to upload an image to the banner.
     ![]({% link images/images-ee/page-builder-tutorial1-column-image-drag.png %}){: .zoom}
     _Drag Image in Second Column_
 
-**Link the Images**
+**To finish:** Link the images
 
 1. To link the images, do the following:
 
@@ -397,18 +397,16 @@ In this step, you will learn two ways to upload an image to the banner.
 
 1. When prompted, click the [Cache Management]({% link system/cache-management.md %}) link in the message at the top of the page. Then refresh any invalid cache.
 
-**Congratulations!**
+**Congratulations!** You have completed Part 2 of the Simple Page tutorial. Keep the work that you created, so you can refer to it later.
 
-You have completed Part 2 of the Simple Page tutorial. Keep the work that you created, so you can refer to it later.
-
-## Part 3: Full-Width Row with Unequal Columns
+## Part 3: Full-width row with unequal columns
 
 The final row on this page features content from a product review. You will add a full-width row, and divide it into two columns of different widths. A background image is added to the first column, with a matching background color that is applied to the row for a unified effect.
 
 ![]({% link images/images-ee/page-builder-tutorial1-full-width-row-two-unequal-columns.png %}){: .zoom}
 _Full Width Row with Columns of Different Widths_
 
-### Step 1: Add a New Row
+### Step 1: Add a new row
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Pages**.
 
@@ -452,7 +450,7 @@ _Full Width Row with Columns of Different Widths_
    ![]({% link images/images-ee/page-builder-tutorial1-row-background-beige.png %}){: .zoom}
    _Row Background Color_
 
-### Step 2: Add Columns of Different Widths
+### Step 2: Add columns of different widths
 
 1. In the Page Builder panel under **Layout**, drag a **Column** placeholder to the stage.
 
@@ -475,7 +473,7 @@ _Full Width Row with Columns of Different Widths_
 
    - Scroll up to the top of the page. Then, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
 
-### Step 3: Add an Image to the First Column
+### Step 3: Add an image to the first column
 
 1. In the Page Builder panel under **Media**, drag an **Image** content type to the first column. Then, do the following:
 
@@ -499,7 +497,7 @@ _Full Width Row with Columns of Different Widths_
 
 1. In the upper-right corner, click <span class="btn">Save</span>.
 
-### Step 4: Add Review Content to the Second Column
+### Step 4: Add review content to the second column
 
 The second column of the row will contain content from a customer review, including the five-star rating image and formatted text message.
 
@@ -587,7 +585,7 @@ The second column of the row will contain content from a customer review, includ
     ![]({% link images/images-ee/page-builder-tutorial1-row-reviw-content.png %}){: .zoom}
     _Row with Review Content on Stage_
 
-### Step 5: Insert a Catalog Product Link
+### Step 5: Insert a catalog product link
 
 1. Select the `Antonia Racer Tank` text and click **Insert Link** (![]({% link images/images/editor4-toolbar/btn-insert--edit-link.png %})) in the editor toolbar. Then, do the following:
 
@@ -612,7 +610,7 @@ The second column of the row will contain content from a customer review, includ
 
 1. In the upper-right corner, click **Save**.
 
-### Step 6: Rearrange the Rows
+### Step 6: Rearrange the rows
 
 With all three rows complete, the final step is to rearrange the rows to match the original Simple Page example. To match the original example, the first row must be moved to the bottom, and the last row must be moved to the top.
 
@@ -640,7 +638,6 @@ With all three rows complete, the final step is to rearrange the rows to match t
    ![]({% link images/images-ee/page-builder-tutorial1-save-and-close.png %}){: .zoom}
    Save & Close_
 
-**Congratulations!**
-You have completed Part 3 of the Simple Page tutorial. Keep the work that you created, so you can refer to it later.
+**Congratulations!** You have completed Part 3 of the Simple Page tutorial. Keep the work that you created, so you can refer to it later.
 
 [1]: https://docs.magento.com/m2/downloads/simple-page-assets.zip

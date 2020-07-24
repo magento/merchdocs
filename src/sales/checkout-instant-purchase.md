@@ -37,15 +37,15 @@ The following payment methods can be used to provide secure access to saved cred
 
     A confirmation message and order number appears at the top of the product page.
 
-## To configure Instant Purchase:
+## Configure Instant Purchase
 
-**Step 1: Open the configuration menu**
+### Step 1: Open the configuration menu
 
 1. On the _Admin_ sidebar, click **Stores**.
 
 1. Under _Settings_, choose **Configuration**.
 
-**Step 2: Configure Payment Method Vault**
+### Step 2: Configure Payment Method Vault
 
 The following example shows how to configure the Braintree vault.
 
@@ -67,7 +67,7 @@ The following example shows how to configure the Braintree vault.
        ![]({% link images/images/config-sales-payment-methods-braintree-basic-settings.png %}){: .zoom}
        [_Basic Braintree Settings_]({% link payment/braintree.md %})
 
-**Step 3: Enable Instant Purchase**
+### Step 3: Enable Instant Purchase
 
 1. In the _Sales_ section on the left panel, choose **Sales**.
 

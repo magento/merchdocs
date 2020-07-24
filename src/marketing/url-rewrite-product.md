@@ -17,12 +17,12 @@ To avoid mistakes, write down the _redirect to_ path and _redirect from_ path an
 
 If you are not sure, open each product page in your store, and copy the path from the address bar of your browser. When creating a product redirect, you can either include or exclude the [category path]({% link catalog/catalog-urls.md %}). For this example, we create a product redirect without a category path.
 
-**Product with Category Path**
+### Product with category path
 
 |Redirect to:|gear/bags/impulse-duffle.html|
 |Redirect from:|gear/bags/overnight-duffle.html|
 
-**Product without Category Path**
+### Product without category path
 
 |Redirect to:|impulse-duffle.html|
 |Redirect from:|overnight-duffle.html|

@@ -8,14 +8,14 @@ If [Yotpo Reviews]({% link marketing/yotpo-reviews-intro.md %}) is enabled, the 
 
 ## Magento Reviews
 
-**By Customer**
+### By Customer
 
 ![]({% link images/images/reports-marketing-customer-reviews.png %}){: .zoom}
 _Review Report By Customers_
 
 The Customer Reviews Report lists all customer who have submitted product reviews. The report includes the number of reviews submitted by each customer, and a link to the list of reviews.
 
-**By Products**
+### By Product
 
 ![]({% link images/images/reports-marketing-product-reviews.png %}){: .zoom}
 _Review Report by Product_

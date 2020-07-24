@@ -37,7 +37,7 @@ See [Example: Define a Condition]({% link sales-channels/asc/ob-define-condition
 |Websites|The available options depend on the [websites]({% link stores/websites-stores-views.md %}) you have set up in your Magento configuration. Select the website to represent which website to have eligible products listed on Amazon. Only one website can be selected, as each website requires a unique Amazon store created in Amazon Sales Channel. |
 |Conditions|Used to define the Magento attributes for product eligibility within your Amazon region. See [Example: Define a Condition]({% link sales-channels/asc/ob-define-condition-example.md %}). |
 
-**Conditions Workspace**
+## Conditions Workspace
 
 Any areas in the conditions that are bold can be clicked to see the various options.
 
