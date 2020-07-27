@@ -4,7 +4,7 @@ title: Braintree
 
 {:.bs-callout-warning}
 **Magento 2.4 Migration:**<br />
-Prior to Magento 2.4 it was recommended merchants install and configure the official Braintree payment integration extension from the [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). As of Magento 2.4 the extension on the Magento Marketplace is now included in the core Magento release. <br/><br/>
+Prior to Magento 2.4.0, it was recommended that merchants install and configure the official Braintree payment integration extension from the [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree) to replace the core integration. As of Magento 2.4.0, the extension is now included in the Magento release.<br/><br/>
 When migrating to Magento 2.4 merchants will need to uninstall the extension distributed on the Marketplace (`paypal/module-braintree` or `gene/module-braintree`) and update any code customisations to use the `PayPal_Braintree` namespace instead of `Magento_Braintree`. Configuration settings from the core Magento Braintree Payments extension and the extension distributed on the Magento Marketplace will be persisted and payments placed with those versions of the extension can still be captured, voided or refunded as normal.<br /><br />
 
 Braintree offers a fully customizable checkout experience with fraud detection and PayPal integration. Braintree reduces the PCI compliance burden for merchants because the transaction takes place on the Braintree system.
@@ -42,7 +42,7 @@ Go to [Braintree Payments][1] and sign up for an account.
    - Set **Payment Action** to one of the following:
 
      | **Authorize Only** | Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer’s bank account until the sale is “captured” by the merchant.|
-     | **Intent Sale** | The amount of the purchase is authorized and immediately withdrawn from the customer’s account. Previously "Authorize and Capture" before 2.4.0. |
+     | **Intent Sale** | The amount of the purchase is authorized and immediately withdrawn from the customer’s account. **_Note:_** This was  _Authorize and Capture_ in 2.3.x and earlier releases. |
 
    - Enter the **Merchant ID** from your Braintree account.
 
