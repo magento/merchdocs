@@ -39,11 +39,11 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
     ![]({% link images/images/enhanced-media-gallery/selected-asset.png %}){: .zoom}
     _Add Selected_
 
-## Delete an asset
+## Delete assets
 
 1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
 
-1. Select the asset, then click <span class="btn">Delete Selected</span>.
+1. Click <span class="btn">Delete Images...</span> and use checkboxes to select assets that need to be deleted.
 
     ![]({% link images/images/enhanced-media-gallery/selected-asset.png %}){: .zoom}
     _Delete Selected_
