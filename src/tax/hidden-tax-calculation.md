@@ -12,9 +12,7 @@ _Hidden Tax_ is the amount of VAT that a discount amount has. It will be non-zer
 
 Thus, when there is a discount that has tax embedded in it, Magento computes a _hidden tax_ that is added back in order to compute the discounted price.
 
-```
-discountedItemPrice = fullPriceWithOutTax - discountAmountOnFullPriceWithoutTax + vatAmountOnDiscountedPrice + hiddenTax
-```
+`discountedItemPrice = fullPriceWithOutTax - discountAmountOnFullPriceWithoutTax + vatAmountOnDiscountedPrice + hiddenTax`
 
 ## Example
 
