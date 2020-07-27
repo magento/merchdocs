@@ -27,7 +27,6 @@ _Basic Braintree Settings_
 |Enable Vault for Card Payments|Website|When enabled, provides secure storage for customer payment information, so customers don't have to reenter their credit card information for each purchase. Options: Yes / No.|
 |Enable Vault CVV Re-verification|Website|When enabled, validation is done for the CVV rules setup in your Braintree Account. Options: Yes / No.|
 
-
 ## Advanced Braintree Settings
 
 ![]({% link images/images/config-sales-payment-methods-braintree-advance-configuration.png %}){: .zoom}
@@ -52,7 +51,7 @@ _Kount Configuration_
 |Kount Configuration| | When the _Advanced Fraud Protection_ option is enabled, Kount configuration option appears.|
 |Bypass Fraud Protection Threshold|Website|Advanced fraud protection checks will be bypassed if this threshold is met or exceeded. Leaving this field blank disables this option.|
 |ENS URL|Website|This is your unique URL that you will need to add into your website in the [Kount AWC control panel](https://articles.braintreepayments.com/guides/fraud-tools/advanced/overview). This URL must be publicly accessible for the ENS to function correctly. You'll need to add this ENS URL to the 'OPT-IN' website.|
-|Merchant ID|Website|Kount ID must be entered here to integrate with the fraud protection platform. If necessary, [contact Braintree](mailto:accounts@braintreepayments.com?subject=Kount Account for Advanced Fraud Protection) to set up your [Kount](https://www.kount.com/) account. | 
+|Merchant ID|Website|Kount ID must be entered here to integrate with the fraud protection platform. If necessary, [contact Braintree](mailto:accounts@braintreepayments.com?subject=Kount Account for Advanced Fraud Protection) to set up your [Kount](https://www.kount.com/) account. |
 |Skip Fraud Checks on Admin Orders|Website|If enabled, orders placed through the Admin are prevented from being sent to Kount for evaluation. Options: Yes / No|
 |ENS Allowed IPs|Website|The IPs that will have access to the ENS endpoint must be entered here.|
 
@@ -111,7 +110,6 @@ _GooglePay through Braintree_
 |Merchant ID|Store View|ID provided by Google must be entered here.|
 |Accepted Cards|Website|Select the type of cards that a customer can use to place order using Google Pay.|
 
-
 ## Venmo through Braintree
 
 ![]({% link images/images/config-sales-payment-methods-braintree-venmo-payment-method-configuration.png %}){: .zoom}
@@ -121,8 +119,6 @@ _Venmo through Braintree_
 |--- |--- |--- |
 |Enabled Venmo through Braintree|Website|Determines if Venmo is included as a payment method through Braintree. Options: Yes / No|
 |Payment Action|Website|Determines the action taken by Braintree when a payment is processed. Options: <br/>**Authorize** - Funds on the customer’s card are authorized, but not transferred from the customer’s account. An order is created in your store Admin. You can later capture the sale and create an invoice. <br/>**Intent Sale** - Funds on the customer’s card are authorized and captured by Braintree, and an order and invoice are created in your store Admin. **_Note:_** This was  _Authorize and Capture_ in 2.3.x and earlier releases.|
-
-
 
 ## PayPal through Braintree
 
@@ -155,7 +151,6 @@ _Mini cart and cart page_
 |Size|Website|Determines the size of the Paypal button. Options: Medium / Large / Responsive|
 |Color|Website|Determines the color of the Paypal button. Options: Blue / Black / Gold / Silver|
 
-
 ### Checkout Page
 
 ![]({% link images/images/config-sales-payment-methods-braintree-Paypal-checkout-configuration.png %}){: .zoom}
@@ -168,7 +163,6 @@ _Checkout Page_
 |Shape|Website|Determines the shape of the Paypal button. Options: Pill / Rectangle|
 |Size|Website|Determines the size of the Paypal button. Options: Medium / Large / Responsive|
 |Color|Website|Determines the color of the Paypal button. Options: Blue / Black / Gold / Silver|
-
 
 ### Product Page
 
@@ -183,7 +177,6 @@ _Product Page_
 |Shape|Website|Determines the shape of the Paypal button. Options: Pill / Rectangle|
 |Size|Website|Determines the size of the Paypal button. Options: Medium / Large / Responsive|
 |Color|Website|Determines the color of the Paypal button. Options: Blue / Black / Gold / Silver|
-
 
 ## 3d Secure Verification Settings
 
