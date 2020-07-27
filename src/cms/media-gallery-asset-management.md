@@ -50,7 +50,7 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
 1. In the confirmation dialog, click <span class="btn">Delete Image</span>.
 
-    ![]({% link images/images/enhanced-media-gallery/delete-asset-confirmation.png %}){: .zoom}
+    ![]({% link images/images/enhanced-media-gallery/bulk-delete-asset-confirmation.png %}){: .zoom}
     _Delete Confirmation_
 
 [adobe-stock-integration]: {% link cms/adobe-stock.md %}
