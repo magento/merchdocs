@@ -30,15 +30,7 @@ If you need documentation for an earlier Magento release, the following resource
 
 ### 2.2
 
-**Release Information:** [Magento 2.2.x Release Information][16]{:target="_blank"}
-
-**Online User Guide:**
-
-- {:.ce-only}[Magento Open Source 2.2 User Guide][13]{:target="_blank"}
-- {:.ee-only}[Magento Commerce 2.2 User Guide][14]{:target="_blank"}
-- {:.b2b-only}[Magento Commerce for B2B 2.2 User Guide][15]{:target="_blank"}
-
-**PDF User Guide:**
+Magento 2.2.11 was the final 2.2.x release. After April 2020, Magento 2.2.x stopped receiving security patches, quality fixes, and documentation updates. To maintain your site's performance, security, and PCI compliance, you should upgrade to the latest version of Magento. User documentation is no longer updated but remains available in PDF form:
 
 - {:.ce-only}[Magento Open Source 2.2 User Guide][6]{:target="_blank"}
 - {:.ee-only}[Magento Commerce 2.2 User Guide][7]{:target="_blank"}
@@ -46,15 +38,17 @@ If you need documentation for an earlier Magento release, the following resource
 
 ### 2.1
 
-Magento 2.1.18 was the final 2.1.x release. After June 2019, Magento 2.1.x stopped receiving security patches, quality fixes, or documentation updates. To maintain your site's performance, security, and PCI compliance, you should upgrade to the latest version of Magento.
+Magento 2.1.18 was the final 2.1.x release. After June 2019, Magento 2.1.x stopped receiving security patches, quality fixes, and documentation updates. To maintain your site's performance, security, and PCI compliance, you should upgrade to the latest version of Magento. User documentation is no longer updated but remains available in PDF form:
 
-The [Magento Community 2.1 User Guide][5]{:target="_blank"} and [Magento Enterprise 2.1 User Guide][4]{:target="_blank"} and remain available in PDF form.
+- {:.ce-only}[Magento Community 2.1 User Guide][5]{:target="_blank"}
+- {:.ee-only}[Magento Enterprise 2.1 User Guide][4]{:target="_blank"}
 
 ### 2.0
 
-Magento 2.0.18 was the final 2.0.x release. After March 2018, Magento 2.0.x stopped receiving security patches, quality fixes, and documentation updates. To maintain your site's performance, security, and PCI compliance, you should upgrade to the latest version of Magento.
+Magento 2.0.18 was the final 2.0.x release. After March 2018, Magento 2.0.x stopped receiving security patches, quality fixes, and documentation updates. To maintain your site's performance, security, and PCI compliance, you should upgrade to the latest version of Magento. User documentation is no longer updated but remains available in PDF form:
 
-The [Magento Community 2.0 User Guide][9]{:target="_blank"} and [Magento Enterprise 2.0 User Guide][10]{:target="_blank"} remain available in PDF form.
+- {:.ce-only}[Magento Community 2.0 User Guide][9]{:target="_blank"}
+- {:.ee-only}[Magento Enterprise 2.0 User Guide][10]{:target="_blank"}
 
 [1]: https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html
 [2]: https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.0OpenSource.html
@@ -66,10 +60,6 @@ The [Magento Community 2.0 User Guide][9]{:target="_blank"} and [Magento Enterpr
 [8]: https://docs.magento.com/m2/pdf/b2b/Magento-for-B2B-Commerce-2.2-User-Guide.pdf
 [9]: https://docs.magento.com/m2/pdf/ce/Magento_Community_Edition_2.0_User_Guide.pdf
 [10]: https://docs.magento.com/m2/pdf/ee/Magento_Enterprise_Edition_2.0_User_Guide.pdf
-[13]: http://docs.magento.com/m2/2.2/ce/user_guide/getting-started.html
-[14]: http://docs.magento.com/m2/2.2/ee/user_guide/getting-started.html
-[15]: http://docs.magento.com/m2/2.2/b2b/user_guide/getting-started.html
-[16]: https://devdocs.magento.com/guides/v2.2/release-notes/bk-release-notes.html
 [18]: https://docs.magento.com/m2/pdf/ee/Magento-Commerce-2.3-User-Guide.pdf
 [19]: https://docs.magento.com/m2/pdf/b2b/Magento-for-B2B-Commerce-2.3-User-Guide.pdf
 [20]: https://docs.magento.com/m2/pdf/ce/Magento-Open-Source-2.3-User-Guide.pdf
