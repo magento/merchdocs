@@ -54,7 +54,7 @@ We prefer Markdown over HTML (in most cases). You can use [kramdown](https://kra
 
 ## Small changes workflow
 
-Before merging a pull request to the `master` or `2.3-production` branch, it must pass automated testing. Testing takes about 15 minutes to complete for each pull request, so we created a workflow to save time for small changes. Testing for each PR requires some time, no matter the size of the change set. For items with small changes, it is more efficient to group them together to lessen the load on the testing system.
+Before merging a pull request to the `master` or `2.3-production` branch, it must pass automated testing. Testing takes about 10 minutes to complete for each pull request, so we created a workflow to save time for small changes. Testing for each PR requires some time, no matter the size of the change set. For items with small changes, it is more efficient to group them together to lessen the load on the testing system.
 
 This workflow is for typos, formatting issues, and minor text additions or deletions. It is not for substantial new content, changes to tables, new files, or files that have been moved.
 

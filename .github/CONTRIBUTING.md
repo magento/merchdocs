@@ -50,7 +50,7 @@ If you want to contribute new or updated content, make sure that you create your
 - 2.4.x - `master`
 - 2.3.x - `2.3-production`
 
-Use the same branch as the base when you submit the PR. If you indicate in your PR description that the content applies across versions, one of our staff members will address any back port or forward port that is needed.
+Use the same branch as the base when you submit the PR. If you indicate in your PR description that the content applies to both versions, one of our staff members will address any update that is needed for the other release after the merge of the submitted PR.
 
 ## Create a pull request
 
