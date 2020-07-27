@@ -43,8 +43,6 @@ _Braintree Advanced Settings_
 |Credit Card Types|Website|Specifies each credit card that you accept as payment through  Braintree. Press and hold `Ctrl` (or `Command` on Mac) to select a combination of cards.|
 |Sort Order|Website|Determines the order that Braintree is listed with other payment methods during checkout.|
 
-
-
 ### Kount
 ![]({% link images/images/config-sales-payment-methods-braintree-kount-configuration.png %}){: .zoom}
 _Kount Configuration_
@@ -53,7 +51,7 @@ _Kount Configuration_
 |--- |--- |--- |
 |Kount Configuration| | When the _Advanced Fraud Protection_ option is enabled, Kount configuration option appears.|
 |Bypass Fraud Protection Threshold|Website|Advanced fraud protection checks will be bypassed if this threshold is met or exceeded. Leaving this field blank disables this option.|
-|ENS URL|Website|Under Kount AWC control panel, ENS URL needs to be added for you|
+|ENS URL|Website|This is your unique URL that you will need to add into your website in the [Kount AWC control panel](https://articles.braintreepayments.com/guides/fraud-tools/advanced/overview). This URL must be publicly accessible for the ENS to function correctly. You'll need to add this ENS URL to the 'OPT-IN' website.|
 |Merchant ID|Website|Kount ID must be entered here to integrate with the fraud protection platform. If necessary, [contact Braintree](mailto:accounts@braintreepayments.com?subject=Kount Account for Advanced Fraud Protection) to set up your [Kount](https://www.kount.com/) account. | 
 |Skip Fraud Checks on Admin Orders|Website|If enabled, orders placed through the Admin are prevented from being sent to Kount for evaluation. Options: Yes / No|
 |ENS Allowed IPs|Website|The IPs that will have access to the ENS endpoint must be entered here.|
@@ -151,7 +149,7 @@ _Mini cart and cart page_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Disable Funding Option|Website||
+|Disable Funding Option|Website|Disable certain funding options available on the PayPal Smart Button from displaying in this section.|
 |Customise Button|Website|If enabled, an option to customize the shape and color of the Paypal button will be available. Options: Yes / No|
 |Shape|Website|Determines the shape of the Paypal button. Options: Pill / Rectangle|
 |Size|Website|Determines the size of the Paypal button. Options: Medium / Large / Responsive|
@@ -165,11 +163,11 @@ _Checkout Page_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Disable Funding Option|Website||
-|Customise Button|Website|If enabled, an option to customize the shape and color of the Paypal button will be available. Option: Yes / No|
-|Shape|Website|Determine the shape of the Paypal button. Option: Pill / Rectangle|
-|Size|Website|Determine the size of the Paypal button. Option: Medium / Large / Responsive|
-|Color|Website|Determine the color of the Paypal button. Option: Blue / Black / Gold / Silver|
+|Disable Funding Option|Website|Disable certain funding options available on the PayPal Smart Button from displaying in this section.|
+|Customise Button|Website|If enabled, an option to customize the shape and color of the Paypal button will be available. Options: Yes / No|
+|Shape|Website|Determines the shape of the Paypal button. Options: Pill / Rectangle|
+|Size|Website|Determines the size of the Paypal button. Options: Medium / Large / Responsive|
+|Color|Website|Determines the color of the Paypal button. Options: Blue / Black / Gold / Silver|
 
 
 ### Product Page
@@ -179,12 +177,12 @@ _Product Page_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enable PayPal Buy Now button on the product page|Website|If enabled, the Paypal button will be available on the Product detail page. Option: Yes / No|
-|Disable Funding Option|Website||
-|Customise Button|Website|If enabled, an option to customize the shape and color of the Paypal button will be available. Option: Yes / No|
-|Shape|Website|Determine the shape of the Paypal button. Option: Pill / Rectangle|
-|Size|Website|Determine the size of the Paypal button. Option: Medium / Large / Responsive|
-|Color|Website|Determine the color of the Paypal button. Option: Blue / Black / Gold / Silver|
+|Enable PayPal Buy Now button on the product page|Website|If enabled, the Paypal button will be available on the Product detail page. Options: Yes / No|
+|Disable Funding Option|Website|Disable certain funding options available on the PayPal Smart Button from displaying in this section.|
+|Customise Button|Website|If enabled, an option to customize the shape and color of the Paypal button will be available. Options: Yes / No|
+|Shape|Website|Determines the shape of the Paypal button. Options: Pill / Rectangle|
+|Size|Website|Determines the size of the Paypal button. Options: Medium / Large / Responsive|
+|Color|Website|Determines the color of the Paypal button. Options: Blue / Black / Gold / Silver|
 
 
 ## 3d Secure Verification Settings
