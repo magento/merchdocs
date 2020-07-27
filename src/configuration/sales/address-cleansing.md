@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 [_Vertex Address Cleansing settings - enabled_]({% link tax/vertex-configure-address.md %})
 
 {:.bs-callout-info}
-Using the storefront address cleansing requires that you first [configure the Vertex Tax Calculations]({% link tax/vertex-configure-magento.md %}) to connect to your Vertex Cloud account.
+Using storefront address cleansing requires that you first [configure the Vertex Tax Calculations]({% link tax/vertex-configure-magento.md %}) to connect to your Vertex Cloud account.
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
