@@ -25,11 +25,11 @@ exclude_rule 'MD028'
 rule 'MD029' # ordered list item prefix
 rule 'MD030', :ul_single => 1, :ol_single => 1, :ul_multi => 1, :ol_multi => 1
 exclude_rule 'MD031'
-exclude_rule 'MD032'
+rule 'MD032'
 exclude_rule 'MD033'
 exclude_rule 'MD034'
 exclude_rule 'MD035'
-exclude_rule 'MD036'
+rule 'MD036'
 exclude_rule 'MD037'
 exclude_rule 'MD038'
 exclude_rule 'MD039'

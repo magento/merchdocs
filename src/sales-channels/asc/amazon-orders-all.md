@@ -78,10 +78,12 @@ _Filters_
 
 <div class="bs-callout-tip" markdown="1">
 A few notes about the orders view:
+
 - If you have multiple Amazon store integrations, you may need to refresh your page view when switching between store views. This updates both the orders list and the pagination views for the current store.
 - When sorting by column, the sort only applies to the current list view. We suggest filtering your list and then sorting the page you are viewing.
 - Depending on the width of your view window, you may see overlapping text in the columns. Widen your window view to expand the columns for the text to wrap.
 - When filtering by _Total_, filter by whole numbers. Entering a decimal amount may cause errors in the results.
+
 </div>
 
 ### Default Columns

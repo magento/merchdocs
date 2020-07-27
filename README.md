@@ -38,18 +38,18 @@ ruby -v
 
 #### Install the latest Ruby (if the Ruby version is less than 2.4)
 
-**MacOS users**
+- MacOS users
 
-1. Install Homebrew. See the [Homebrew site](https://brew.sh) for instructions.
-1. Use Homebrew to install the latest stable version of Ruby:
+   1. Install Homebrew. See the [Homebrew site](https://brew.sh) for instructions.
+   1. Use Homebrew to install the latest stable version of Ruby:
 
-   ```bash
-   brew install ruby
-   ```
+      ```bash
+      brew install ruby
+      ```
 
-**Unix, Windows and other OS users**
+- Unix, Windows and other OS users
 
-See the [Ruby site](https://www.ruby-lang.org/en/documentation/installation) for instructions.
+   See the [Ruby site](https://www.ruby-lang.org/en/documentation/installation) for instructions.
 
 #### Install Bundler
 

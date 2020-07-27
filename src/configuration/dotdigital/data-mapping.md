@@ -88,6 +88,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 ## Custom Attributes
 
 Gives you the ability to create custom mappings to dotdigital, based on the following Magento attributes:
+
 - Is Confirmed
 - Create In
 - Disable Automatic Group Change Based on VAT ID

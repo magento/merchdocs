@@ -15,7 +15,7 @@ To avoid mistakes, write down the URL of the _redirect to_ page and the URL key 
 
 If you are not sure, open each page, and copy the URL from the address bar of your browser.
 
-**Custom Path**
+### Custom path
 
 Redirect to:
 

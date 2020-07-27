@@ -17,7 +17,7 @@ To avoid mistakes, write down the _redirect to_ path and _redirect from_ path an
 
 If you are not sure, open each category page in your store, and copy the path from the address bar of your browser.
 
-**Category Path**
+### Category path
 
 |Redirect to:|gear/backpacks-and-bags.html|
 |Redirect from:|gear/bags.html|

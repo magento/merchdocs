@@ -1,5 +1,5 @@
 
-**Assign Sources and Quantities (Inventory Management)**
+### Assign Sources and Quantities (Inventory Management)
 
 For Multi Source merchants using Inventory Management, scroll down to the Sources section and assign sources and quantities:
 

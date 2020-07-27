@@ -8,7 +8,7 @@ When a persistent cookie is applied, a `Not %Jane Smith%?` link appears in the p
 
 There is a separate independent persistent cookie for each browser. If the customer uses multiple browsers while visiting your store during a single, persistent session, any changes made in one browser will be reflected in any other browser when the page is refreshed. While the persistent shopping cart is enabled, your store creates and maintains a separate persistent cookie for each browser that is used by a customer to log in or create an account.
 
-**Example: An open session on a shared computer**
+## Example: An open session on a shared computer
 
 Jane is finishing up her holiday shopping with a persistent session, and adds a present for John to her cart, as well as something for her mother. Then she goes to the kitchen for some milk and cookies.
 

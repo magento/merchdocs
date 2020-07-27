@@ -17,7 +17,7 @@ _Up-Sell_
 
     ![]({% link images/images/product-related-up-sell-cross-sell.png %}){: .zoom}
     _Add Up-Sell Products_
-S
+
 1. Use the [filter controls]({% link stores/admin-grid-controls.md %}) to find the products that you want.
 
 1. In the list, select the checkbox of any product you want to feature as an up-sell product.
