@@ -9,6 +9,18 @@ about: Create a request to add missing information to MerchDocs
 
 <!-- (REQUIRED) What topic is missing from documentation? -->
 
+## Magento release version
+
+<!-- Use the following section to indicate which Magento release(s) are affected by the new topic-->
+
+- [ ] 2.4.x
+
+   Specify a patch release number, if applicable:
+
+- [ ] 2.3.x
+
+   Specify a patch release number, if applicable:
+
 ## Content checklist
 
 <!-- (REQUIRED) List specific information or details to include in this topic -->
