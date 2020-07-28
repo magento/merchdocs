@@ -9,6 +9,18 @@ about: Create a request for new functionality in documentation
 
 <!-- (REQUIRED) Describe the feature you want added to MerchDocs -->
 
+## Magento release version
+
+<!-- Use the following section to indicate which Magento release(s) are affected by the new feature-->
+
+- [ ] 2.4.x
+
+   Specify a patch release number, if applicable:
+
+- [ ] 2.3.x
+
+   Specify a patch release number, if applicable:
+
 ## Expected result
 
 <!-- (REQUIRED) What is the expected result/behavior of this feature? -->
