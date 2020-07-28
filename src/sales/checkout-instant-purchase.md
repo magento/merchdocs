@@ -13,7 +13,7 @@ _Instant Purchase_
 
 - Customer accounts have a [default billing and shipping address]({% link customers/account-dashboard-address-book.md %}).
 
-- At least one [shipping method]({% link shipping/shipping.md %}) is available for the country that is specified in the default shipping address.
+- At least one [shipping method]({% link shipping/delivery.md %}) is available for the country that is specified in the default shipping address.
 
 - Customer accounts have a [stored payment]({% link customers/account-dashboard-stored-payment-methods.md %}) method with vault enabled.
 

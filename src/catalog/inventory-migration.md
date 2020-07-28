@@ -2,11 +2,11 @@
 title: Migrating and Upgrading to Inventory Management
 ---
 
-If upgrading to Magento v2.3.X, this information provides details on new features and changes to your existing catalog and Inventory configurations.
+If you used single source inventory in a previous release, this information provides details on new features and changes to your existing catalog and Inventory configurations.
 
 Magento Inventory Management includes features, enhancements, and developer support that enhances and updates all product stock management and add new features. All features are available out-of-the-box including the Source Selection Algorithm and Concurrent Checkout to match order quantities to sources and order fulfillment. Depending on your websites, stores, and merchant type, you can create additional stock and sources, assigning inventory amounts, and more. For complete information, see [Inventory Management]({% link catalog/inventory-management.md %}) and [Learn about Inventory Management]({% link catalog/inventory-learn-more.md %}).
 
-When first installing or upgrading to Magento 2.3.x Open Source, Commerce, or Commerce Cloud, the following initial changes occur:
+When you install Magento 2.3.x Open Source, Commerce, or Commerce Cloud, the following initial changes occur:
 
 - [Inventory Management]({% link catalog/inventory.md %}) enables at the global store or product level. The Manage Stock option enables or disables tracking of inventory quantities, calculations of aggregated salable quantities, and reservation management for tracking purchases through to invoice and shipment. You can disable this option to use an ERP and other third party services for managing stock, orders, and shipments. For additional information, see Inventory Management Modules below.
 
@@ -15,6 +15,8 @@ When first installing or upgrading to Magento 2.3.x Open Source, Commerce, or Co
    - Stocks provide an aggregated, virtual Salable Quantity with reservations to track shopping carts and orders, ensuring concurrent checkout.
 
    - All existing products in your catalog assign to the Default Source. Until you add new sources, the product interface does not change. If you only ship products from one location, you will not see additional differences for sources. You can create custom [sources]({% link catalog/inventory-sources-add.md %}) and [assign quantities]({% link catalog/inventory-manage-inventory-quantities.md %}) per shipment location.
+
+   - You can configure a source as a Pickup Location and [assign quantities]({% link catalog/inventory-manage-inventory-quantities.md %}) for that source.
 
    - Your website assigns to the Default Stock. You can create custom [stocks]({% link catalog/inventory-stock-add.md %}) to connect sales channels (websites) and sources (locations).
 
@@ -36,13 +38,13 @@ When first installing or upgrading to Magento 2.3.x Open Source, Commerce, or Co
 
 - {:.b2b-only}Inventory Management supports B2B inventory. At this time, all B2B products must be assigned to the Default Source and Default Stock. Future updates will resolve this issue.
 
-## Magento Order Management and Inventory Management
+## Magento Commerce Order Management and Inventory Management
 
-If you use [Magento Order Management][1] in your Magento implementation to manage, sell, and fulfill inventory from any sales channel, you need to fully disable the [Inventory Management extensions]({% link magento/magento-extensions.md %}). These modules provide all Inventory Management features to Magento, including Single and Multi Source management, stocks, reservations, and more.
+If you have installed [Magento Commerce Order Management (MCOM)][1] in your Magento implementation to manage, sell, and fulfill inventory from any sales channel, be aware that MCOM is not compatible with the [Inventory Management extensions]({% link magento/magento-extensions.md %}). These modules provide all Inventory Management features to Magento, including single and multi Source management, stocks, reservations, and more.
 
-We may support integrations between Magento Inventory Management (also known as MSI) and Magento Order Management in a later release.
+[Inventory Management extensions]({% link magento/magento-extensions.md %}) are disabled by default.
 
-Magento Order Management provides extensive features and services for advanced omnichannel order management, global inventory and multisourcing, store to warehouse fulfillment, and centralized customer service. For a complete list of features, see the [OMS Feature list][2].
+MCOM provides extensive features and services for advanced omnichannel order management, global inventory and multisourcing, store to warehouse fulfillment, and centralized customer service. For a complete list of features, see the [MCOM Feature list][2].
 
 Magento Inventory Management extends existing Magento features with additional options to track in-flight orders, on-hand inventory, available inventory for a stock, and APIs for extension development.
 

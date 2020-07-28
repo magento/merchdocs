@@ -1,0 +1,43 @@
+---
+title: In-store Delivery
+---
+
+With the in-store delivery method, the customer can select a source to be used as a pickup location during the checkout.
+
+![]({% link images/images/luma-in-store-example.png %}){: .zoom}
+[_In-store Delivery Method at Checkout_]({% link sales/checkout-step1-shipping.md %})
+
+## Set up In-store Delivery
+
+First, check that In-store Delivery is enabled.
+
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+
+1. In the left panel, expand **Sales** and choose **Delivery Methods**.
+
+1. Expand ![]({% link images/images/btn-expand.png %}) the **In-Store Delivery** section.
+
+1. Set **Enabled** to `Yes`.
+
+   {:.bs-callout-info}
+   If needed, clear the **Use system value** checkbox to change the default for any field.
+
+1. Enter the **Method Name** that describes the method of calculation that is used to produce a shipping estimate. The method name appears next to the calculated estimated rate in the shopping cart.
+
+1. Enter the **Title** that you want to appear for In-Store Delivery section during checkout.
+
+    {:.bs-callout-info}
+    The default title is `In-Store Pickup Delivery`.
+
+1. Enter the **Price** to charge customers for the in-store pickup service.
+
+1. Enter the **Search Radius** in kilometers for store pickup location search on storefront checkout.
+
+1. For **Displayed Error Message**, enter the message that appears if In-Store Delivery becomes unavailable.
+
+    {:.bs-callout-info}
+    The default message is `In-Store Delivery is not available. To use this delivery method, please contact us.`
+
+1. Click <span class="btn">Save Config</span>.
+
+For more information about how to configure a source as a pickup location, see [Adding a New Source]({% link catalog/inventory-sources-add.md %}).

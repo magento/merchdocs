@@ -2,9 +2,9 @@
 title: Managing Sources
 ---
 
-Sources represent locations storing and shipping your product stock. Any location with available stock and capable of order fulfillment can be added as a source such as warehouses, brick-and-mortar stores, distribution centers, and drop shippers.
+Sources are the physical locations where product inventory is managed and shipped for order fulfillment, or where services are available. These locations can include warehouses, brick-and-mortar stores, distribution centers, pickup locations, and drop shippers. You allocate inventory quantities to these sources, and Magento automatically aggregates the total salable products for your stocks. For large companies, add multiple sources for all of your locations: in different geographic locations by country and continent, locations in a city, based on the type of inventory, even based on services.
 
-Sources are the physical locations where product inventory is managed and shipped for order fulfillment, or where services are available. These locations can include warehouses, brick-and-mortar stores, distribution centers, and drop shippers. You allocate inventory quantities to these sources, and Magento automatically aggregates the total salable products for your stocks. For large companies, add multiple sources for all of your locations: in different geographic locations by country and continent, locations in a city, based on the type of inventory, even based on services.
+It is recommended to provide specific physical geographical locations when creating a source. That allows the _Distance Priority Algorithm_ to compare the location of the shipping destination address with the available source locations to determine the closest source to fulfill shipments. You can use Google Maps or offline calculations, which use geocodes. For more information on this _Distance Priority Algorithm_, see [Configure Distance Priority Algorithm]({% link catalog/inventory-configure-distance-priority.md %}).
 
 You start with a Default Source you can update but not disable. This source is used by Single Source Merchants and for product migration. You always need a default source.
 
@@ -55,4 +55,5 @@ The Manage Sources page lists all available inventory locations and fulfillment 
 |Code|A unique, alphanumeric code that is used by the system to identify the inventory source.|
 |Name|A unique name that identifies the  inventory source for Admin users.|
 |Is Enabled|Indicates if the inventory source is active and available to use.|
-|Action|**Edit** - Opens the inventory source record in edit mode.|
+|Pickup Location|Indicates if the source is active as a pickup location for [in-store delivery]({% link shipping/shipping-in-store-delivery.md %}).|
+|Action|Clicking **Edit** opens the inventory source record in edit mode.|

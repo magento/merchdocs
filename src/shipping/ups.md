@@ -13,138 +13,148 @@ UPS uses [dimensional weight]({% link shipping/weight-dimensional.md %}) to dete
 
 To offer this shipping method to your customers, you must first open an account with UPS.
 
-## Step 2: Enable UPS for Your Store
+## Step 2: Enable UPS for your store
 
 1. On the _Admin sidebar_, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the panel on the left, under **Sales**, choose **Shipping Methods**.
+1. In the panel on the left, under **Sales**, choose **Delivery Methods**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **UPS** section. Then, do the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **UPS** section.
 
-   - Set **Enabled for Checkout** to `Yes`.
+1. Set **Enabled for Checkout** to `Yes`.
 
-   - For a UPS XML account (default), set **UPS Type** to “United Parcel Service XML”. Then do the following:
+1. For a UPS XML account (default), set **UPS Type** to `United Parcel Service XML`. Then do the following:
 
-      - Enter the following UPS credentials: User ID, Access License Number, Password
+   - Enter the following UPS credentials: **User ID**, **Access License Number**, and **Password**
 
-      - Set **Mode** to “Live” to send data to the UPS shipping system over a secure connection. (Development mode does not send data over a secure connection.)
+   - Set **Mode** to `Live` to send data to the UPS shipping system over a secure connection. (Development mode does not send data over a secure connection.)
 
-      - Verify the **Gateway XML URL** that is required to send requests by XML file.
+   - Verify the **Gateway XML URL** that is required to send requests by XML file.
 
-      - Set **Order of Shipment** to the region where the shipment originates.
+   - Set **Order of Shipment** to the region where the shipment originates.
 
-      - If you have special rates with UPS, set **Enable Negotiated Rates** to “Yes”. Then, enter the six-digit **Shipper Number** assigned to you by UPS.
+   - If you have special rates with UPS, set **Enable Negotiated Rates** to `Yes` and enter the six-digit **Shipper Number** assigned to you by UPS.
 
-   - For a standard UPS account, set **UPS Type** to “United Parcel Service”. Then do the following:
+1. For a standard UPS account, set **UPS Type** to `United Parcel Service` and do the following:
 
-        {:.bs-callout-info}
-        The standard United Parcel Service type is scheduled for deprecation. For new configurations, you should use the default  "United Parcel Service XML" type. The XML type is also required to generate [shipping labels]({% link shipping/shipping-labels.md %}).
+   {:.bs-callout-info}
+   The standard United Parcel Service type is scheduled for deprecation. For new configurations, you should use the default  `United Parcel Service XML` type. The XML type is also required to generate [shipping labels]({% link shipping/shipping-labels.md %}).
 
-      - Set **Live Account** to one of the following:
+   - Set **Live Account** to one of the following:
 
-          | Yes | Runs UPS in production mode, and offers UPS as a shipping method to your customers. |
-          | No | Runs UPS in a test mode. |
+      | Yes | Runs UPS in production mode, and offers UPS as a shipping method to your customers. |
+      | No | Runs UPS in a test mode. |
 
-      - In the **Gateway URL** field, enter the URL that is used to calculate UPS shipping rates.
+   - In the **Gateway URL** field, enter the URL that is used to calculate UPS shipping rates.
 
-          {:.bs-callout-info}
-          UPS is discontinuing support of HTTP, which is used in the current default (system value). You must clear the **Use system value** checkbox and modify the URL to use HTTPS. Example: https://www.ups.com/using/services/rave/qcostcgi.cgi
+      {:.bs-callout-info}
+      UPS is discontinuing support of HTTP, which is used in the current default (system value). You must clear the **Use system value** checkbox and modify the URL to use HTTPS. Example: https://www.ups.com/using/services/rave/qcostcgi.cgi
 
-1. In the **Title** field, enter the name of this shipping option as you want it to appear during checkout. By default, this field is set to “United Parcel Service”.
+1. For **Title**, enter the name of this shipping option as you want it to appear during checkout.
 
-    ![]({% link images/images/config-sales-shipping-methods-ups1.png %}){: .zoom}
-    [*Enable UPS*]({% link configuration/sales/shipping-methods.md %})
+   By default, this field is set to `United Parcel Service`.
 
-## Step 3: Complete the Container Description
+   ![]({% link images/images/config-sales-shipping-methods-ups1.png %}){: .zoom}
+   [_Enable UPS_]({% link configuration/sales/delivery-methods.md %})
+
+## Step 3: Complete the container description
 
 1. Set **Packages Request Type** to one of the following:
 
-   - Use origin weight (few requests)
-   - Divide to equal weight (one request)
+   - `Use origin weight (few requests)`
+   - `Divide to equal weight (one request)`
 
-1. In the **Container** field, specify the typical packaging type that is used for shipment.
+1. For **Container**, specify the typical packaging type that is used for shipment:
 
-   - LBS
-   - KGS
+   - `LBS`
+   - `KGS`
 
-1. Set **Weight Unit** to the system you use to measure product weight. The weight system supported by UPS varies by country. If in doubt, ask UPS which weight system you should use. Options include:
+1. Set **Weight Unit** to the system you use to measure product weight.
+
+   The weight system supported by UPS varies by country. If in doubt, ask UPS which weight system you should use. Options include:
 
 1. Set **Destination Type** to one of the following:
 
-    | Residential | Most of your shipments are business to consumer (B2C). |
-    | Commercial | Most of your shipments are business to business (B2B). |
+   | Residential | Most of your shipments are business to consumer (B2C). |
+   | Commercial | Most of your shipments are business to business (B2B). |
 
 1. Enter the **Maximum Package Weight** allowed by the carrier.
 
 1. Set **Pickup Method** to one of the following:
 
-   - Regular Daily Pickup
-   - On Call Air
-   - One Time Pickup
-   - Letter Center
-   - Customer Counter
+   - `Regular Daily Pickup`
+   - `On Call Air`
+   - `One Time Pickup`
+   - `Letter Center`
+   - `Customer Counter`
 
 1. Enter the **Minimum Package Weight** allowed by the carrier.
 
-    ![]({% link images/images/config-sales-shipping-methods-ups2.png %}){: .zoom}
-    [*Container Description*]({% link configuration/sales/shipping-methods.md %})
+   ![]({% link images/images/config-sales-shipping-methods-ups2.png %}){: .zoom}
+   [_Container Description_]({% link configuration/sales/delivery-methods.md %})
 
-## Step 4: Set Up Handling Fees
+## Step 4: Set up handling fees
+
+The handling fee is optional and appears as an additional charge that is added to the UPS shipping cost. If you want to include a handling fee, do the following:
 
 1. Set **Calculate Handling Fee** to one of the following methods:
 
    - `Fixed`
    - `Percent`
 
-1. Set **Handling Applied** to one of the following:
+1. To determine how the handling fee is applied, set **Handling Applied** to one of the following:
 
    - `Per Order`
    - `Per Package`
 
-1. Enter the amount of the **Handling Fee** to be charged. To enter a percentage, use the decimal format. For example, enter 0.25 for 25%.
+1. Enter the amount of the **Handling Fee** to be charged.
 
-    ![]({% link images/images/config-sales-shipping-methods-ups3.png %}){: .zoom}
-    [*Handling Fee*]({% link configuration/sales/shipping-methods.md %})
+   To enter a percentage, use the decimal format. For example, enter `0.25` for 25%.
 
-## Step 5: Specify Allowed Methods and Applicable Countries
+   ![]({% link images/images/config-sales-shipping-methods-ups3.png %}){: .zoom}
+   [_Handling Fee_]({% link configuration/sales/delivery-methods.md %})
 
-1. In the **Allowed Methods** list, select each UPS method offered to your customers. The methods appear under UPS during checkout. (Hold the Ctrl key down to select multiple options).
+## Step 5: Specify allowed methods and applicable countries
 
-1. Set **Free Method** to the UPS service you want to use for offers of free shipping. Then, do one of the following:
+1. For **Allowed Methods**, choose each UPS shipping method to be available to your customers.
 
-   - Set **Free Shipping with Minimum Order Amount** to `Enable`. Then, enter the **Minimum Order Amount for Free Shipping**.
+   The methods appear under UPS during checkout. To select multiple methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
-   - Set **Free Shipping with Minimum Order Amount** to `Disable`.
+1. If you want to provide a [Free Shipping]({% link shipping/shipping-free.md %}) option through UPS, set the free shipping options:
 
-1. In the **Displayed Error Message box**, type the message customers see if UPS shipping becomes unavailable.
+   - Set **Free Method** to the method you want to use for free shipping. If you don’t want to offer free shipping through UPS, choose `None`.
 
-    ![]({% link images/images/config-sales-shipping-methods-ups4.png %}){: .zoom}
-    _[Allowed Methods]({% link configuration/sales/shipping-methods.md %})_
+   - To require a minimum order amount that qualifies an order for free shipping with UPS, set **Enable Free Shipping Threshold** to `Enable`. Then, enter the minimum value in **Free Shipping Amount Threshold**.
 
-1. Set **Ship to Applicable Countries** to one of the following:
+1. If needed, change the **Displayed Error Message**.
 
-    | All Allowed Countries | Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this shipping method. |
-    | Specific Countries | After choosing this option, the Ship to Specific Countries list appears. Select each country in the list where this shipping method can be used. |
-    {:style="table-layout:auto"}
+   This text box is preset with a default message, but you can enter a different message that you want to appear if UPS becomes unavailable.
+
+   ![]({% link images/images/config-sales-shipping-methods-ups4.png %}){: .zoom}
+   _[Allowed Methods]({% link configuration/sales/delivery-methods.md %})_
+
+1. Set **Ship to Applicable Countries**:
+
+   | All Allowed Countries | Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this delivery method. |
+   | Specific Countries | When you choose this option, the _Ship to Specific Countries_ list appears. Select each country in the list where this delivery method can be used. |
 
 1. Set **Show Method if Not Applicable** to one of the following:
 
-    |Yes|To list all UPS shipping methods to customers, regardless of their availability.|
-    |No|To list only the methods which are available to customers. |
+   |Yes|Lists all available UPS shipping methods during checkout, including those that don’t apply to the shipment.|
+   |No |Lists only the UPS shipping methods that are applicable to the shipment.|
 
-    ![]({% link images/images/config-sales-shipping-methods-ups5.png %}){: .zoom}
-    _[Applicable Countries]({% link configuration/sales/shipping-methods.md %})_
+   ![]({% link images/images/config-sales-shipping-methods-ups5.png %}){: .zoom}
+   _[Applicable Countries]({% link configuration/sales/delivery-methods.md %})_
 
 1. To create a log file with the details of UPS shipments made from your store, set **Debug** to `Yes`.
 
-1. In the **Sort Order** field, type a numeric value to determine the order in which UPS appears when listed with other shipping methods during checkout. The number with the highest priority is zero, which puts it at the top of the list.
+1. For **Sort Order**, enter a number to determine the sequence in which UPS appears when listed with other delivery methods during checkout.
 
-    ![]({% link images/images/config-sales-shipping-methods-ups6.png %}){: .zoom}
-    [*Debug and Sort Order*]({% link configuration/sales/shipping-methods.md %})
+   `0` = first, `1` = second, `2` = third, and so on.
 
 1. Click <span class="btn">Save Config</span>.
 
-## Step 6: Setup Shipping Origin Address
+## Step 6: Set up shipping origin address
 
 1. Make sure that your [Store Information]({% link stores/store-information.md %}) is complete.
 
@@ -154,7 +164,7 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Origin** on the page and configure the shipping origin address.
 
-    ![]({% link images/images/shipping-origin-magento.png %}){: .zoom}
-    [Sales configuration - shipping origin address options]({% link configuration/sales/shipping-settings.md %})
+   ![]({% link images/images/shipping-origin-magento.png %}){: .zoom}
+   [_Sales configuration - shipping origin address options_]({% link configuration/sales/shipping-settings.md %})
 
 1. Click <span class="btn">Save Config</span>.

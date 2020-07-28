@@ -1,0 +1,126 @@
+title: What’s New in the User Guide
+description: 
+  This page contains recent changes that we think you'd like to know about.
+  We exclude from this list proofreading, spelling checks, and all minor updates.
+link: /getting-started/whats-new.html
+thread: /whatsnew-feed.xml
+updated: Tue Jul 21 11:09:27 2020
+entries:
+- description: Added new topics and updated information for the [In-store Delivery
+    method](https://docs.magento.com/user-guide/shipping/shipping-in-store-delivery.html)
+    provided by Inventory Management.
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: https://github.com/magento/merchdocs/pull/604
+- description: Removed content for Banners functionality, which was removed from Magento
+    Commerce 2.4.0.
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: https://github.com/magento/merchdocs/pull/599
+- description: Updates to [newsletter subscription management](https://docs.magento.com/user-guide/marketing/newsletter-subscribers.html)
+    across single-site/store, multi-store, and multi-site setups.
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: https://github.com/magento/merchdocs/pull/589
+- description: Added the [Login as Customer](https://docs.magento.com/user-guide/configuration/customers/login-as-customer.html)
+    topic and the [Using Login as Customer](https://docs.magento.com/user-guide/customers/login-as-customer.html)
+    topic.
+  versions: 2.4.0
+  type: New topic
+  date: July 28, 2020
+  link: https://github.com/magento/merchdocs/pull/563
+- description: Updates the [Google reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html)
+    configuration and instructions with separate settings for the [Admin](https://docs.magento.com/user-guide/configuration/security/google-recaptcha-admin.html)
+    and [Storefront](https://docs.magento.com/user-guide/configuration/security/google-recaptcha-storefront.html).
+  versions: 2.4.0
+  type: New topic
+  date: July 28, 2020
+  link: https://github.com/magento/merchdocs/pull/580
+- description: Added the [Approval Rules](https://docs.magento.com/user-guide/customers/account-dashboard-approval-rules.html)
+    topic and the [My Purchase Orders](https://docs.magento.com/user-guide/customers/account-dashboard-my-purchase-orders.html)
+    topic.
+  versions: 2.4.0
+  type: Major update, New topic
+  date: July 28, 2020
+  link: https://github.com/magento/merchdocs/pull/558
+- description: Removed the Amazon Sales Channel 2.x/3.x section due to incompatibility
+    with Magento 2.4.x.
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: https://github.com/magento/merchdocs/pull/555
+- description: Added support for [security.txt](https://docs.magento.com/user-guide/stores/security-issue-reporting.html)
+    to help security researchers report potential security issues to site administrators.
+  versions: 2.4.0
+  type: New topic
+  date: July 28, 2020
+  link: https://github.com/magento/merchdocs/pull/564
+- description: Updated information for the new _Include Tax to Amount_ configuration
+    option for [free shipping minimum](https://docs.magento.com/user-guide/shipping/shipping-free.html).
+    Changes in many topics from "Shipping Methods" to "[Delivery Methods](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html)"
+    to accommodate new _In Store Pickup_ feature in Inventory Management.
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: https://github.com/magento/merchdocs/pull/556
+- description: Removed content for Signifyd Fraud Protection. This integration is
+    removed from 2.4.0. You can use the [Signifyd Fraud & Chargeback Protection extension](https://marketplace.magento.com/signifyd-module-connect.html)
+    that is available on Magento Marketplace.
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: https://github.com/magento/merchdocs/pull/535
+- description: Removed content for [Magento Shipping](https://magento.com/shipping). This integration is removed from 2.4.0.
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: https://github.com/magento/merchdocs/pull/531
+- description: Added that [Two Factor Authentication](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html)
+    (2FA) is now required to log in to the Admin and cannot be disabled. 2FA is implemented
+    for WebAPI, and the "Trust this device" functionality removed.
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: https://github.com/magento/merchdocs/pull/532
+- description: Removed content for [payment method integrations deprecated in 2.3.x](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445), such as
+    Authorize.Net Direct Post, Authorize.Net, CyberSource, eWAY, and Worldpay. These
+    integrations are removed from 2.4.0.
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: https://github.com/magento/merchdocs/pull/528
+- description: Updates the dotdigital [Data Mapping](https://docs.magento.com/user-guide/configuration/dotdigital/data-mapping.html)
+    and [Transactional Emails](https://docs.magento.com/user-guide/configuration/dotdigital/transactional-emails.html)
+    configuration.
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: https://github.com/magento/merchdocs/pull/527
+- description: Removed content for the Web Setup Wizard, including the Extension Manager,
+    Module Manager, System Upgrade, and System Configuration topics. This UI functionality
+    was removed in 2.4.0. All installation and updates, including modules and extensions,
+    must be done by command line.
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: https://github.com/magento/merchdocs/pull/524
+- description: Updates [Dashboard](https://docs.magento.com/user_guide/stores/admin-dashboard.html)
+    to support improved dynamic charts.
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: https://github.com/magento/merchdocs/pull/519
+- description: Added information about the new [Media Gallery](https://docs.magento.com/user-guide/cms/new-media-gallery.html),
+    which helps merchants organize and manage their media files in the Magento Admin.
+  versions: 2.4.0
+  type: New topic
+  date: July 28, 2020
+  link: https://github.com/magento/merchdocs/pull/507
+- description: Inventory Management now supports [bundle products](https://docs.magento.com/user_guide/catalog/inventory-about-product-types.html).
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: https://github.com/magento/merchdocs/pull/451

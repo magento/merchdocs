@@ -205,9 +205,6 @@ _Discount Label in Totals Section of Order_
 
 [Dynamic Blocks]({% link cms/dynamic-blocks.md %}) that are associated with the rule appear in the storefront whenever the conditions are met.
 
-{:.bs-callout-info}
-[Page Builder]({% link cms/page-builder.md %})’s advanced content tools replace the previous banner functionality. If your store has customizations that prevent you from using Page Builder, see [Using Banners in Price Rules]({% link cms/banners-price-rules.md %}).
-
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Related Dynamic Blocks** section.
 
 1. Use the [search filters]({% link stores/admin-workspace.md %}) to locate the block(s) that you want to associate with the rule.

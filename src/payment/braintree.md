@@ -3,9 +3,10 @@ title: Braintree
 ---
 
 {:.bs-callout-warning}
-**Deprecation Notice** <br/>
-Due to the Payment Service Directive [PSD2]({% link stores/compliance-payment-services-directive.md %}) and the continued evolution of many APIs, this payment integration is at risk of becoming outdated and no longer security compliant. For this reason, it is now deprecated and we are recommending that you disable it in your Magento 2.3.x configuration and transition to the official Braintree payment extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). <br/><br/>
-**This integration has been deprecated from current versions of 2.3.x.**<br/><br/>
+**Magento 2.4 Migration:**<br />
+Prior to Magento 2.4.0, it was recommended that merchants install and configure the official Braintree payment integration extension from the [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree) to replace the core integration. As of Magento 2.4.0, the extension is now included in the Magento release.<br/><br/>
+When migrating to Magento 2.4 merchants will need to uninstall the extension distributed on the Marketplace (`paypal/module-braintree` or `gene/module-braintree`) and update any code customizations to use the `PayPal_Braintree` namespace instead of `Magento_Braintree`. Configuration settings from the core Magento Braintree Payments bundled extension and the extension distributed on the Magento Marketplace will be persisted and payments placed with those versions of the extension can still be captured, voided, or refunded as normal.<br /><br />
+If you are upgrading to Magento 2.4.0 and were not using the recommended Magento Marketplace extension in your previous 2.3.x version, the multi address feature will not work with the 2.4.0 version of Braintree. When a shopper selects the _deliver to multiple addresses_ option, the Braintree payment method will not appear. Be aware that the Magento Marketplace Extension previously recommended for 2.3.x has this multiple address issue.
 
 Braintree offers a fully customizable checkout experience with fraud detection and PayPal integration. Braintree reduces the PCI compliance burden for merchants because the transaction takes place on the Braintree system.
 
@@ -42,7 +43,7 @@ Go to [Braintree Payments][1] and sign up for an account.
    - Set **Payment Action** to one of the following:
 
      | **Authorize Only** | Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer’s bank account until the sale is “captured” by the merchant.|
-     | **Authorize and Capture** | The amount of the purchase is authorized and immediately withdrawn from the customer’s account. |
+     | **Intent Sale** | The amount of the purchase is authorized and immediately withdrawn from the customer’s account. **_Note:_** This was  _Authorize and Capture_ in 2.3.x and earlier releases. |
 
    - Enter the **Merchant ID** from your Braintree account.
 

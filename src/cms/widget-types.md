@@ -4,7 +4,6 @@ title: Widget Types
 
 |Type|Description|
 |--- |--- |
-|Banner Rotator|(Deprecated - Available only if Page Builder is not enabled) Can be used to display a single banner, or an assortment of banners in a series, random order, or shuffled. The banner can be triggered by price rules, and placed on a specific page and location, or configured to appear on all pages.|
 |CMS Hierarchy Node Link|Displays a link to a specific node in the page hierarchy that can be incorporated into other content.|
 |CMS Page Link|Displays a link to a specific CMS page. Allows you to specify custom text and title. When the link is complete, it can be used in content pages and blocks.|
 |CMS Static Block|Displays a block of content at a specific location on a page.|
