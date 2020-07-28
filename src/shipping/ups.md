@@ -52,7 +52,7 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. For **Title**, enter the name of this shipping option as you want it to appear during checkout.
 
-   By default, this field is set to` United Parcel Service`.
+   By default, this field is set to `United Parcel Service`.
 
    ![]({% link images/images/config-sales-shipping-methods-ups1.png %}){: .zoom}
    [_Enable UPS_]({% link configuration/sales/delivery-methods.md %})
