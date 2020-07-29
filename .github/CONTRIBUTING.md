@@ -14,7 +14,7 @@ All third-party contributions to this project must be accompanied by a signed co
 ## Rewards for contributions
 
 Magento Documentation works with Magento Community Engineering teams and projects.
-As you contribute PRs, you gain [Contribution Points](https://devdocs.magento.com/guides/v2.3/contributor-guide/contributing.html#points).
+As you contribute PRs, you gain [Contribution Points](https://devdocs.magento.com/guides/v2.4/contributor-guide/contributing.html#points).
 
 ## Get started
 
@@ -26,7 +26,7 @@ As you contribute PRs, you gain [Contribution Points](https://devdocs.magento.co
 
 1. Review the [MerchDocs guidelines](#contribute-documentation).
 
-We also recommend adding [Two-Factor Authentication (2FA)](https://devdocs.magento.com/guides/v2.3/contributor-guide/contributing.html#two-factor) to protect your GitHub account. Partners are required to add 2FA.
+We also recommend adding [Two-Factor Authentication (2FA)](https://devdocs.magento.com/guides/v2.4/contributor-guide/contributing.html#two-factor) to protect your GitHub account. Partners are required to add 2FA.
 
 ## Contribute documentation
 

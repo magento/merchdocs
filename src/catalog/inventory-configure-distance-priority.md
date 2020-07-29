@@ -122,4 +122,4 @@ Complete these commands anytime you need to add more geocodes.
 [3]: https://developers.google.com/maps/documentation/distance-matrix/start
 [4]: https://developers.google.com/maps/documentation/javascript/distancematrix#travel_modes
 [5]: https://www.geonames.org/
-[6]: https://devdocs.magento.com/guides/v2.3/inventory/inventory-cli-reference.html#import-geocodes
+[6]: https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli-reference.html#import-geocodes

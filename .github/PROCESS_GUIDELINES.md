@@ -1,6 +1,6 @@
 # MerchDocs processing guidelines
 
-In general, our documentation crew (Adobe staff members) use similar [guidelines](https://devdocs.magento.com/guides/v2.3/contributor-guide/maintainers.html) for [`magento/devdocs`](https://github.com/magento/devdocs) maintainers.
+In general, our documentation crew (Adobe staff members) use similar [guidelines](https://devdocs.magento.com/guides/v2.4/contributor-guide/maintainers.html) for [`magento/devdocs`](https://github.com/magento/devdocs) maintainers.
 
 ## General expectations
 
@@ -20,7 +20,7 @@ In general, our documentation crew (Adobe staff members) use similar [guidelines
 
 ## Labels
 
-Labels are important because they help us identify pull requests and ensure that contributors receive points and recognition. See [awards and points](https://devdocs.magento.com/guides/v2.3/contributor-guide/contributing.html#devdocs-awards-and-points). These points are awarded for all Magento Documentation repositories.
+Labels are important because they help us identify pull requests and ensure that contributors receive points and recognition. See [awards and points](https://devdocs.magento.com/guides/v2.4/contributor-guide/contributing.html#devdocs-awards-and-points). These points are awarded for all Magento Documentation repositories.
 
 Here is a brief summary of the most important labels:
 
