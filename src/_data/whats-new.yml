@@ -107,20 +107,56 @@ entries:
   type: Major update
   date: July 28, 2020
   link: https://github.com/magento/merchdocs/pull/524
-- description: Updates [Dashboard](https://docs.magento.com/user_guide/stores/admin-dashboard.html)
+- description: Updates [Dashboard](https://docs.magento.com/user-guide/stores/admin-dashboard.html)
     to support improved dynamic charts.
   versions: 2.4.0
   type: Major update
   date: July 28, 2020
   link: https://github.com/magento/merchdocs/pull/519
-- description: Added information about the new [Media Gallery](https://docs.magento.com/user-guide/cms/new-media-gallery.html),
+- description: Added information about the new [Media Gallery](https://docs.magento.com/user-guide/cms/media-gallery.html),
     which helps merchants organize and manage their media files in the Magento Admin.
   versions: 2.4.0
   type: New topic
   date: July 28, 2020
   link: https://github.com/magento/merchdocs/pull/507
-- description: Inventory Management now supports [bundle products](https://docs.magento.com/user_guide/catalog/inventory-about-product-types.html).
+- description: Inventory Management now supports [bundle products](https://docs.magento.com/user-guide/catalog/inventory-about-product-types.html).
   versions: 2.4.0
   type: Major update
   date: July 28, 2020
   link: https://github.com/magento/merchdocs/pull/451
+
+- description: All instances of Magento 2.4.0 must use Elasticsearch 7.6 as the catalog search engine. In previous releases, MySQL was the default catalog search engine, but it is no longer supported in this capacity. [Configuring Catalog Search](https://docs.magento.com/user-guide/catalog/search-configuration.html) describes the configuration fields for Elasticsearch 7.6.
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: 
+- description: Page Builder [Rows](https://docs.magento.com/m2/ee/user_guide/cms/page-builder-layout-row.html), [Banners](https://docs.magento.com/m2/ee/user_guide/cms/page-builder-media-banner.html), and [Sliders](https://docs.magento.com/m2/ee/user_guide/cms/page-builder-media-slider.html) now have the option to use videos for their backgrounds.
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: 
+- description: Page Builder [Rows](https://docs.magento.com/m2/ee/user_guide/cms/page-builder-layout-row.html), [Banners](https://docs.magento.com/m2/ee/user_guide/cms/page-builder-media-banner.html), and [Sliders](https://docs.magento.com/m2/ee/user_guide/cms/page-builder-media-slider.html) now have the option to set their heights to the full-height of the page using a number with any CSS unit (px, %, vh, em) or a calculation between units (100vh - 237px).
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: 
+- description: Page Builder now has [templates](https://docs.magento.com/m2/ee/user_guide/cms/page-builder-templates.html) that can be created from existing content and applied to new content areas.
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: 
+- description: Added the 'Filter Orders' section to [My Orders](https://docs.magento.com/user-guide/customers/account-dashboard-my-orders.html).
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: 
+- description: Updates to [Related Product Rule Priority](https://docs.magento.com/user-guide/marketing/product-related-rule-priority.html) and [Configuring Related Products Rules](https://docs.magento.com/user-guide/marketing/product-related-rules-configure.html) to reflect changes to rotation modes that provide more control over the order of products displayed as related cross- and up-sales product.
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: 
+- description: Added information about the [Minimum Terms to Match](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#catalog-search) Elasticsearch parameter.
+  versions: 2.4.0
+  type: Major update
+  date: July 28, 2020
+  link: 
