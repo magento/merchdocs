@@ -53,6 +53,29 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
     ![]({% link images/images/enhanced-media-gallery/delete-asset-confirmation.png %}){: .zoom}
     _Delete Confirmation_
 
+## Assets filtering
+
+1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
+
+1. Click <span class="btn">Filters</span>.
+
+    ![]({% link images/images/enhanced-media-gallery/filters.png %}){: .zoom}
+    _Filters_
+
+1. It is possible to filter assets by the entities (Products, Categories, Pages, Blocks, Store Views) where the asset is being used as well as by Content Status. For example, we can easily find assets that are used in the specific category that is enabled.
+    
+    ![]({% link images/images/enhanced-media-gallery/filtered-by-category.png %}){: .zoom}
+    _Filter by Category_
+
+## Finding image duplicates
+
+1. Click <span class="btn">Filters</span> and select <span class="btn">Show duplicates</span> checkbox.
+
+1. Click <span class="btn">Apply Filters</span> to see the results.
+
+    ![]({% link images/images/enhanced-media-gallery/filter-duplicates.png %}){: .zoom}
+    _Show Duplicates_
+
 [adobe-stock-integration]: {% link cms/adobe-stock.md %}
 [save-preview]: {% link cms/adobe-stock-save-preview.md %}
 [stock-license]: {% link cms/adobe-stock-license-image.md %}
