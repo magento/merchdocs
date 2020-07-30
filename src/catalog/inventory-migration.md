@@ -6,7 +6,7 @@ If you used single source inventory in a previous release, this information prov
 
 Magento Inventory Management includes features, enhancements, and developer support that enhances and updates all product stock management and add new features. All features are available out-of-the-box including the Source Selection Algorithm and Concurrent Checkout to match order quantities to sources and order fulfillment. Depending on your websites, stores, and merchant type, you can create additional stock and sources, assigning inventory amounts, and more. For complete information, see [Inventory Management]({% link catalog/inventory-management.md %}) and [Learn about Inventory Management]({% link catalog/inventory-learn-more.md %}).
 
-When you install Magento 2.3.x Open Source, Commerce, or Commerce Cloud, the following initial changes occur:
+When you install Magento 2.4.x Open Source, Commerce, or Commerce Cloud, the following initial changes occur:
 
 - [Inventory Management]({% link catalog/inventory.md %}) enables at the global store or product level. The Manage Stock option enables or disables tracking of inventory quantities, calculations of aggregated salable quantities, and reservation management for tracking purchases through to invoice and shipment. You can disable this option to use an ERP and other third party services for managing stock, orders, and shipments. For additional information, see Inventory Management Modules below.
 
@@ -52,14 +52,14 @@ Magento Inventory Management extends existing Magento features with additional o
 
 You may need to disable Inventory Management modules to:
 
-- Speed up upgrade of merchants currently on Magento 2.0/2.1/2.2 and migrating to 2.3.x.
+- Speed up upgrade of merchants currently on Magento 2.0/2.1/2.2/2.3 and migrating to 2.4.x.
 
 - Use custom or third party inventory and order management modules.
 
-- Use Magento Order Management for inventory management. The current connector does not support Inventory Management interfaces. For OMS merchants upgrading to Magento 2.3.0, they need to disable these modules.
+- Use Magento Order Management for inventory management. The current connector does not support Inventory Management interfaces. For OMS merchants upgrading to Magento 2.4.0, they need to disable these modules.
 
 For complete details, see the DevDocs [Manage Inventory Management modules][3].
 
 [1]: https://omsdocs.magento.com/
 [2]: https://omsdocs.magento.com/en/getting-started/feature-list/
-[3]: https://devdocs.magento.com/guides/v2.3/extensions/inventory-management
+[3]: https://devdocs.magento.com/extensions/inventory-management/

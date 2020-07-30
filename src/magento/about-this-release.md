@@ -9,10 +9,18 @@ redirect_from:
   - /magento/release-notes.html
 ---
 
-As a best practice, we recommend that you keep your Magento installation up to date, so you can benefit from the latest advancements. Release notes provide a detailed description of the changes in each product release, with links to additional technical information, installation instructions, and support resources. To learn more about current and past releases, see:
+As a best practice, we recommend that you keep your Magento installation up to date, so you can benefit from the latest advancements. Release notes provide a detailed description of the changes in each product release, with links to additional technical information, installation instructions, and support resources. To learn more about the current releases, see:
 
-- {:.ce-only}[Magento Open Source Release Notes][2]{:target="_blank"}
-- {:.ee-only}[Magento Commerce Release Notes][1]{:target="_blank"}
+- {:.ce-only}[Magento Open Source 2.4.0 Release Notes][2]{:target="_blank"}
+- {:.ee-only}[Magento Commerce 2.4.0 Release Notes][1]{:target="_blank"}
+
+## Earlier Releases
+
+If you need documentation for an earlier Magento release, the following resources are available.
+
+### 2.3
+
+We continue to publish the [Magento 2.3 User Guide][21]. You can use the version switcher at the top of the window to change the current page to the 2.3 version (unless the page is targeted for a new feature in 2.4).
 
 <div class="bs-callout-info" markdown="1">
 **PDF guides**<br/>
@@ -23,10 +31,6 @@ Starting with our 2.3.2 release, we are no longer producing and publishing an up
 - {:.b2b-only}[Magento Commerce for B2B 2.3.1 PDF guide][19]{:target="_blank"}
 
 </div>
-
-## Earlier Releases
-
-If you need documentation for an earlier Magento release, the following resources are available.
 
 ### 2.2
 
@@ -50,8 +54,8 @@ Magento 2.0.18 was the final 2.0.x release. After March 2018, Magento 2.0.x stop
 - {:.ce-only}[Magento Community 2.0 User Guide][9]{:target="_blank"}
 - {:.ee-only}[Magento Enterprise 2.0 User Guide][10]{:target="_blank"}
 
-[1]: https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html
-[2]: https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.0OpenSource.html
+[1]: https://devdocs.magento.com/guides/v2.4/release-notes/release-notes-2-4-0-commerce.html
+[2]: https://devdocs.magento.com/guides/v2.4/release-notes/release-notes-2-4-0-open-source.html
 [3]: https://magento.com/products/community-edition
 [4]: https://docs.magento.com/m2/pdf/ee/Magento-Enterprise-Edition-2.1-User-Guide.pdf
 [5]: https://docs.magento.com/m2/pdf/ce/Magento-Community-Edition-2.1-User-Guide.pdf
@@ -63,3 +67,4 @@ Magento 2.0.18 was the final 2.0.x release. After March 2018, Magento 2.0.x stop
 [18]: https://docs.magento.com/m2/pdf/ee/Magento-Commerce-2.3-User-Guide.pdf
 [19]: https://docs.magento.com/m2/pdf/b2b/Magento-for-B2B-Commerce-2.3-User-Guide.pdf
 [20]: https://docs.magento.com/m2/pdf/ce/Magento-Open-Source-2.3-User-Guide.pdf
+[21]: https://https://docs.magento.com/user-guide/v2.3/

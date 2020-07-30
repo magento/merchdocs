@@ -21,6 +21,6 @@ Follow the steps outlined in the [Marketplace Quick Tour][3], to:
 
 To apply the theme to your store, see: [Using the Default Theme]({% link design/theme-default.md %}).
 
-[1]: http://devdocs.magento.com/guides/v2.3/frontend-dev-guide/bk-frontend-dev-guide.html
-[2]: https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html
-[3]: http://docs.magento.com/marketplace/user_guide/quick-tour/welcome.html
+[1]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/bk-frontend-dev-guide.html
+[2]: https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html
+[3]: https://docs.magento.com/user-guide/magento/magento-marketplace.html#installation-process
