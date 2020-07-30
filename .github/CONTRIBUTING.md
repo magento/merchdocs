@@ -26,7 +26,7 @@ As you contribute PRs, you gain [Contribution Points](https://devdocs.magento.co
 
 1. Review the [MerchDocs guidelines](#contribute-documentation).
 
-We also recommend adding [Two-Factor Authentication (2FA)](https://devdocs.magento.com/guides/v2.4/contributor-guide/contributing.html#two-factor) to protect your GitHub account. Partners are required to add 2FA.
+We also recommend adding [Two-Factor Authentication (2FA)](https://devdocs.magento.com/contributor-guide/contributing.html#two-factor) to protect your GitHub account. Partners are required to add 2FA.
 
 ## Contribute documentation
 
