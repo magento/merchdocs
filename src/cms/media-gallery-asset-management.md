@@ -62,7 +62,16 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
     ![]({% link images/images/enhanced-media-gallery/filters.png %}){: .zoom}
     _Filters_
 
-1. It is possible to filter assets by the entities (Products, Categories, Pages, Blocks, Store Views) where the asset is being used as well as by Content Status. For example, we can easily find assets that are used in the specific category that is enabled.
+1. Set the filtering options.
+
+   You can filter the assets according to usage by the entities:
+
+   - **Used in Categories**
+   - **Used in Products**
+   - **Used in Pages**
+   - **Used in Blocks**
+
+   You can also filter the assets by **Store View**, **License Status**, and **Content Status**. Set a date rage for **Uploaded Date** and/or **Modification Date** to filter assets according to file dates.
     
     ![]({% link images/images/enhanced-media-gallery/filtered-by-category.png %}){: .zoom}
     _Filter by Category_
