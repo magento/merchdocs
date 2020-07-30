@@ -78,7 +78,7 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
    The filtering in the following example finds assets that are used in a specific category (`cars`) and are enabled.  
 
     ![]({% link images/images/enhanced-media-gallery/filtered-by-category.png %}){: .zoom}
-    _Filter by Category_
+    _Filter for Enabled Assets by Category_
 
 ## Finding image duplicates
 
