@@ -10,9 +10,9 @@ Magento [Inventory Management]({% link catalog/inventory-management.md %}) provi
 
 For technical, developer, and extension development information, see Magento DevDocs:
 
-- [Inventory Architecture](https://devdocs.magento.com/guides/v2.3/inventory/index.html)
-- [Order Processing with Inventory Management](https://devdocs.magento.com/guides/v2.3/rest/tutorials/inventory/index.html) tutorial
-- REST API content, starting with [Managing sources](https://devdocs.magento.com/guides/v2.3/rest/modules/inventory/manage-sources.html)
+- [Inventory Architecture](https://devdocs.magento.com/guides/v2.4/inventory/index.html)
+- [Order Processing with Inventory Management](https://devdocs.magento.com/guides/v2.4/rest/tutorials/inventory/index.html) tutorial
+- REST API content, starting with [Managing sources](https://devdocs.magento.com/guides/v2.4/rest/modules/inventory/manage-sources.html)
 
 {:.bs-callout-info}
 **Magento Community Contribution** - Magento thanks all [Contributors and Maintainers](https://github.com/magento-engcom/msi/graphs/contributors) in the [Magento Inventory](https://github.com/magento/inventory) (was MSI) special project for contributing these features as part of the Magento Community Engineering program.
