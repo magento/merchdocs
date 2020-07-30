@@ -72,10 +72,10 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
    - **Used in Blocks**
 
    You can also filter the assets by **Store View**, **License Status**, and **Content Status**. Set a date rage for **Uploaded Date** and/or **Modification Date** to filter assets according to file dates.
-    
+
 1. Click <span class="btn">Apply Filters</span> to see the results.
 
-   The filtering in the following example finds assets that are used in a specific category (`cars`) and are enabled.  
+   The filtering in the following example finds assets that are used in a specific category (`cars`) and are enabled.
 
     ![]({% link images/images/enhanced-media-gallery/filtered-by-category.png %}){: .zoom}
     _Filter for Enabled Assets by Category_

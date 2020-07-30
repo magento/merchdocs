@@ -71,7 +71,7 @@ Access the Cache Management page by doing one of the following:
 
 ## Flush Using the Command Line
 
-Magento provides additional flush cache options using the command line. These options may require developer support to complete. For complete details and command options, see [Magento cache overview][2]{:target="_blank"} and [Manage the cache][3]{:target="_blank"} in the developer documentation.
+Magento provides additional flush cache options using the command line. These options may require developer support to complete. For complete details and command options, see [Magento cache overview][1]{:target="_blank"} and [Manage the cache][2]{:target="_blank"} in the developer documentation.
 
 ## Controls
 
@@ -133,9 +133,8 @@ Web Services Configuration | REST and SOAP configurations, generated WSDL file. 
    - Flush Js/Css
    - Flush Static Files
 
-[1]: http://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html
-[2]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html
-[3]: https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cache.html
+[1]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/cache_for_frontdevs.html
+[2]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cache.html
 
 <!--
   This is a style declaration so that button text is not wrapped by table auto styling for column widths.

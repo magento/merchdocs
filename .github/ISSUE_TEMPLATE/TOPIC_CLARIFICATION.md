@@ -13,6 +13,18 @@ about: Create a request to clarify or correct a documentation topic
 
 <!-- (REQUIRED) What needs to be clarified or corrected in this topic? -->
 
+## Magento release version
+
+<!-- Use the following section to indicate which Magento release(s) are affected by the content changes-->
+
+- [ ] 2.4.x
+
+   Specify a patch release number, if applicable:
+
+- [ ] 2.3.x
+
+   Specify a patch release number, if applicable:
+
 ## Possible solutions
 
 <!-- (OPTIONAL) What would a solution for this issue look like? -->

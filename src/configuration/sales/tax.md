@@ -4,63 +4,37 @@ title: Tax
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Tax
 
-## Vertex Settings
+## Vertex
 
 ![]({% link images/images/config-sales-tax-vertex-settings.png %}){: .zoom}
-[_Vertex Settings (Disabled)_]({% link tax/vertex-configure-magento.md %})
+[_Vertex (Disabled)_]({% link tax/vertex-configure-magento.md %})
+
+### Connection Settings
+
+![]({% link images/images/tax-vertex-magento-config-valid.png %}){: .zoom}
+_Vertex - Connection Settings (Enabled and Validated)_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Use Vertex Tax Links|Website|Enables the connector to Vertex Cloud and allows you to enter configuration settings. The connector provides enhanced performance for Vertex integrations with Magento. When enabled, additional Vertex settings and sections display. Options: Enable / Disable|
+|Vertex Tax Links|Website|Enables the connector to Vertex Cloud and allows you to enter configuration settings. The connector provides enhanced performance for Vertex integrations with Magento. When enabled, additional Vertex settings and sections are displayed. Options: Enable / Disable|
+|API Status|Website|Displays information about validation of the API Credentials for Vertex Cloud. This information is updated when you save changes to the configuration settings.|
+|Calculation API URL|Website|The URL that connects Magento to Vertex Cloud services. This value should match the URL displayed in your Vertex Connectors page for the Magento connector in the _ERP Connector URL_ field. Default value: `https://mgcsconnect.vertexsmb.com/vertex-ws/services/CalculateTax70`|
+|Address Validation API URL|Website|The URL that is used to validate the connection between Magento and Vertex Cloud services. This value should match the URL displayed in your Vertex Connectors page for the Magento connector in the Address Lookup URL field. Default value: `https://mgcsconnect.vertexsmb.com/vertex-ws/services/LookupTaxAreas70`|
+|Trusted ID|Website|The identifier that is associated with your Vertex Cloud account. To find your Vertex Trusted ID, go to Settings > View All Connectors from the dashboard of Vertex Cloud.|
+
+### Integration Settings
+
+![]({% link images/images/config-sales-tax-vertex-integration.png %}){: .zoom}
+_Vertex - Integration Settings_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
 |Vertex Tax Calculation|Website|Enables Vertex Cloud for the website that is indicated by the current scope setting. Options: Enable / Disable|
-|Vertex API Status|Website|Indicates if the API Credentials for Vertex Cloud have been validated.|
-|Vertex Calculation API Url|Website|The URL that connects Magento to Vertex Cloud services. This value should match the URL displayed in your Vertex Connectors page for the Magento connector in the ERP Connector URL field. Default value: `https://mgcsconnect.vertexsmb.com/vertex-ws/services/CalculateTax70`|
-|Vertex Address Validation API Url|Website|The URL that is used to validate the connection between Magento and Vertex Cloud services. This value should match the URL displayed in your Vertex Connectors page for the Magento connector in the Address Lookup URL field. Default value: `https://mgcsconnect.vertexsmb.com/vertex-ws/services/LookupTaxAreas70`|
-|Vertex Trusted Id|Website|The identifier that is associated with your Vertex Cloud account. To find your Vertex Trusted ID, go to Settings > View All Connectors from the dashboard of Vertex Cloud.|
-|When to send invoice to Vertex|Website|Determines when the information about each invoice is sent to Vertex Cloud. Options: <br/>**When Invoice Created** - Magento sends the information when a sales order is [invoiced]({% link sales/invoice-create.md %}), according to the [workflow]({% link sales/order-status-workflow.md %}). <br/>**When Order Status Is Changed** - Magento sends the information when the [status]({% link sales/order-status.md %}) of a sales order changes. When selected, the Invoice When Order Status options appear. <br/>**Invoice When Order Status** - Determines the sales [order status]({% link sales/order-status.md %}) when Vertex Cloud generates the invoice, according to the [workflow]({% link sales/order-workflow.md %}). Status options: Pending / Processing / Suspected Fraud / Complete / Closed / Canceled / On Hold <br/><br/>**_Note:_**  If you choose the `Suspected Fraud` status, it causes tax to appear as a negative amount in Vertex Cloud when an offline refund is issued for a credit memo. If you choose the "Canceled" status, it does not allow invoice refunds to be issued from Magento. For either of these status options, you must check your Vertex Cloud account to verify that the invoice has been sent.|
-|Vertex Calculation Function|Website|This function is referenced in the Vertex Calculation API URL. Default value: `CalculateTax70`|
-|Vertex Validation Function|Website|This function is referenced in the Vertex Address Validation API URL. Default value: `LookupTaxAreas70`|
-|Use Vertex for orders shipping to|Website|Determine the countries and nations for assessing tax on order destination addresses. The billing address will be used when a shipping address is absent. Default values: Canada, United States|
-|Summarize Tax By|Website|Determines how tax is summarized for orders. Product and Shipping breaks down taxes by actions, such as Sales and Use and Shipping. Jurisdiction breaks down costs by country shipping through. Options: Product and Shipping (default) / Jurisdiction|
+|Commit to Tax Journal When|Website|Determines when the information about each invoice is sent to Vertex Cloud. Options: <br/>**Invoice Created** - Magento sends the information when a sales order is [invoiced]({% link sales/invoice-create.md %}), according to the [workflow]({% link sales/order-status-workflow.md %}). <br/>**Order Status Is Changed** - Magento sends the information when the [status]({% link sales/order-status.md %}) of a sales order changes. When selected, the _Invoice When Order Status_ options appear. <br/>**Invoice When Order Status** - Determines the sales [order status]({% link sales/order-status.md %}) when Vertex Cloud generates the invoice, according to the [workflow]({% link sales/order-workflow.md %}). Status options: Pending / Processing / Suspected Fraud / Complete / Closed / Canceled / On Hold <br/><br/>**_Note:_**  If you choose the `Suspected Fraud` status, it causes tax to appear as a negative amount in Vertex Cloud when an offline refund is issued for a credit memo. If you choose the _Canceled_ status, it does not allow invoice refunds to be issued from Magento. For either of these status options, you must check your Vertex Cloud account to verify that the invoice has been sent.|
+|Allowed Countries|Website|Determines the countries and nations for assessing tax on order destination addresses. The billing address will be used when a shipping address is absent. Default values: Canada, United States|
+|Summarize Tax By|Website|Determines how tax is summarized for orders. Product and Shipping breaks down taxes by actions, such as Sales and Use and Shipping. Jurisdiction breaks down costs by country shipping through. Options: Product and Shipping (default) / Jurisdiction
 
-## Vertex Company Information
-
-![]({% link images/images/config-sales-tax-vertex-company-information.png %}){: .zoom}
-[_Vertex Company Information_]({% link tax/vertex-configure-magento.md %})
-
-|Field|[Scope]({% link configuration/scope.md %})|Description|
-|--- |--- |--- |
-|Company Code|Store View|Vertex TaxCentral is used to set up applicable tax rules. This parameter is used to connect to data from the host system based on the company's legal and tax requirements.|
-|Location Code|Store View|Identities the store location code that is used to file taxes. An attribute that appears in a line item represents the store location code that is used for returns filing.|
-|Company Street Address|Store View|The first line of the company street address.|
-|Company Street Address 2|Store View|The second line of the company street address.|
-|Company City|Store View|The proper name of the city that is used to determine applicable tax jurisdiction(s).|
-|Company Country|Store View|The country that determines applicable tax jurisdictions.|
-|Company State|Store View|The region, state, or province where the company is licensed to conduct business.|
-|Company Postal Code|Store View|The ZIP or postal code that indicates the company’s tax jurisdiction.|
-
-## Vertex Delivery Terms
-
-![]({% link images/images/config-sales-tax-vertex-delivery-terms.png %}){: .zoom}
-[_Vertex Delivery Terms_]({% link tax/vertex-configure-magento.md %})
-
-|Field|[Scope]({% link configuration/scope.md %})|Description|
-|--- |--- |--- |
-|Global Delivery Term|Store View|Identifies the global Delivery Terms for Vertex taxes on purchases and shipments. The terms provide about seventeen options. Options: <br/>**CFR** - Cost and Freight <br/>**CIF** - Cost Insurance and Freight <br/>**CIP** - Carriage Insurance Paid To <br/>**CPT** - Carriage Paid To <br/>**CUS** - Customer <br/>**DAF** - Delivered at Frontier <br/>**DAP** - Delivered at Place <br/>**DAT** - Delivered at Terminal <br/>**DDP** - Delivery Duty Unpaid <br/>**DEQ** - Delivered Ex Quay Duty Unpaid <br/>**DES** - Delivered Ex-Ship <br/>**EXW** - Ex Works <br/>**FAS** - Free Along Ship <br/>**FCA** - Free Carrier <br/>**FOB** - Free Onboard Vessel <br/>**SUP** - Supplier Ships (default)|
-|Delivery Term Override|Store View|Identifies rules for overriding the Delivery Terms for a specific country. The actions option is delete. To edit, modify the terms and save the configuration.|
-
-## Vertex Shipping Product Codes
-
-![]({% link images/images/config-sales-tax-shipping-product-codes.png %}){: .zoom}
-[_Shipping Product Codes_]({% link tax/vertex-configure-magento.md %})
-
-|Column|Description|
-|--- |--- |
-|Shipping Method|Identifies the shipping method that is mapped to the product.|
-|Product Code|The product SKU.|
-|Flat Rate|Identifies the shipping rate that is mapped to the product.|
-
-## Vertex Flexible Fields
+### Flexible Fields
 
 ![]({% link images/images/config-sales-tax-vertex-flexible-fields.png %}){: .zoom}
 [_Flexible Fields_]({% link tax/vertex-configure-magento.md %}#flex-fields)
@@ -71,10 +45,31 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Numeric Fields|Maps a Magento data source using numeric values for data, such as durations and weights, including floating decimal points. You can create a maximum of 10 flexible numeric fields for use in Vertex Tax Assist Rules. |
 |Date Fields|Maps a Magento data source using dates in the format YYYY/MM/DD. You can create a maximum of five flexible date fields for use in Vertex Tax Assist Rules. |
 
-## Vertex Logging
+### Delivery Terms
+
+![]({% link images/images/config-sales-tax-vertex-delivery-terms.png %}){: .zoom}
+_Vertex - Delivery Terms_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Global Delivery Term|Store View|Identifies the global Delivery Terms for Vertex taxes on purchases and shipments. The terms provide about seventeen options. Options: <br/>**CFR** - Cost and Freight <br/>**CIF** - Cost Insurance and Freight <br/>**CIP** - Carriage Insurance Paid To <br/>**CPT** - Carriage Paid To <br/>**CUS** - Customer <br/>**DAF** - Delivered at Frontier <br/>**DAP** - Delivered at Place <br/>**DAT** - Delivered at Terminal <br/>**DDP** - Delivery Duty Unpaid <br/>**DEQ** - Delivered Ex Quay Duty Unpaid <br/>**DES** - Delivered Ex-Ship <br/>**EXW** - Ex Works <br/>**FAS** - Free Along Ship <br/>**FCA** - Free Carrier <br/>**FOB** - Free Onboard Vessel <br/>**SUP** - Supplier Ships (default)|
+|Delivery Term Override|Store View|Specifies rules for overriding the Delivery Terms for a specific country. The actions option is delete. To edit, modify the terms and save the configuration.|
+
+### Seller Details
+
+![]({% link images/images/config-sales-tax-vertex-seller-details.png %}){: .zoom}
+_Vertex - Seller Details_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Company Code|Store View|Vertex TaxCentral is used to set up applicable tax rules. This parameter is used to connect to data from the host system based on the company's legal and tax requirements.|
+|Location Code|Store View|Identities the store location code that is used to file taxes. An attribute that appears in a line item represents the store location code that is used for returns filing.|
+|Use Shipping Origin as Source|Store View|Determines if the shipping origin address is used in the tax calculation (default -`Yes`), or a different address specified here. If you select `No`, you must enter street address, city, country, state/region, and postal code.|
+
+### Logging
 
 ![]({% link images/images/config-sales-tax-vertex-logging.png %}){: .zoom}
-[_Vertex Logging_]({% link configuration/sales/tax.md %})
+_Vertex - Logging_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -84,6 +79,18 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Log Entry Lifetime (days)|Global|Indicates the amount of days before performing the log rotation action.|
 |Rotation Frequency|Global|Determines the timing and frequency for the rotation. Options: Daily / Weekly / Monthly|
 |Rotation Time|Global|Indicates the time during the day to complete the action. Sets according to hour : minutes : seconds.|
+
+### Developer & Support Information
+
+![]({% link images/images/config-sales-tax-vertex-dev-support.png %}){: .zoom}
+_Vertex - Developer & Support Information_
+
+|Column|Description|
+|--- |--- |
+|Connector Version|Version number for the installed Vertex connector extension.|
+|Shipping Method|Identifies the shipping method that is mapped to the product.|
+|Product Code|The product SKU.|
+|Flat Rate|Identifies the shipping rate that is mapped to the product.|
 
 ## Tax Classes
 

@@ -171,4 +171,4 @@ _Pages Grid_{:.ee-only}
 |Save & Duplicate|Save and close the current page, and open a new duplicate copy.|
 |Save & Close|Save and close the current page, and return to the Pages grid.|
 
-[1]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/xml-instructions.html
+[1]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/layouts/xml-instructions.html
