@@ -57,7 +57,7 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
 1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
 
-1. Click <span class="btn">Filters</span>.
+1. Click the **Filters** tab.
 
     ![]({% link images/images/enhanced-media-gallery/filters.png %}){: .zoom}
     _Filters_
