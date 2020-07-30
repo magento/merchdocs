@@ -53,6 +53,42 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
     ![]({% link images/images/enhanced-media-gallery/bulk-delete-asset-confirmation.png %}){: .zoom}
     _Delete Confirmation_
 
+## Filtering assets
+
+1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
+
+1. Click the **Filters** tab.
+
+    ![]({% link images/images/enhanced-media-gallery/filters.png %}){: .zoom}
+    _Filters_
+
+1. Set the filtering options.
+
+   You can filter the assets according to usage by the entities:
+
+   - **Used in Categories**
+   - **Used in Products**
+   - **Used in Pages**
+   - **Used in Blocks**
+
+   You can also filter the assets by **Store View**, **License Status**, and **Content Status**. Set a date rage for **Uploaded Date** and/or **Modification Date** to filter assets according to file dates.
+    
+1. Click <span class="btn">Apply Filters</span> to see the results.
+
+   The filtering in the following example finds assets that are used in a specific category (`cars`) and are enabled.  
+
+    ![]({% link images/images/enhanced-media-gallery/filtered-by-category.png %}){: .zoom}
+    _Filter for Enabled Assets by Category_
+
+## Finding image duplicates
+
+1. Click the **Filters** tab and select the **Show duplicates** checkbox.
+
+1. Click <span class="btn">Apply Filters</span> to see the results.
+
+    ![]({% link images/images/enhanced-media-gallery/filter-duplicates.png %}){: .zoom}
+    _Show Duplicates_
+
 [adobe-stock-integration]: {% link cms/adobe-stock.md %}
 [save-preview]: {% link cms/adobe-stock-save-preview.md %}
 [stock-license]: {% link cms/adobe-stock-license-image.md %}
