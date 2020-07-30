@@ -53,7 +53,7 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
     ![]({% link images/images/enhanced-media-gallery/delete-asset-confirmation.png %}){: .zoom}
     _Delete Confirmation_
 
-## Assets filtering
+## Filtering assets
 
 1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
 
