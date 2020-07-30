@@ -3,7 +3,8 @@ name: Markdown linting test
 on:
   pull_request:
     branches:
-      - master
+      - 2.3-production
+      - 2.3.*-develop
 
 jobs:
   test:
