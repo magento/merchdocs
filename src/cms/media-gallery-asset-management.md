@@ -78,7 +78,7 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
 ## Finding image duplicates
 
-1. Click <span class="btn">Filters</span> and select <span class="btn">Show duplicates</span> checkbox.
+1. Click the **Filters** tab and select the **Show duplicates** checkbox.
 
 1. Click <span class="btn">Apply Filters</span> to see the results.
 
