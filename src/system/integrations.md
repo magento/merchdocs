@@ -37,8 +37,8 @@ _Integrations_
 
    - For custom access, select the checkbox of each resource that is needed.
 
-        ![Integrations - available API]({% link images/images/integrations-available-api.png %}){: .zoom}
-        _Resources Needed for Custom Access_
+      ![Integrations - available API]({% link images/images/integrations-available-api.png %}){: .zoom}
+      _Resources Needed for Custom Access_
 
 1. When complete, click **Save**.
 
@@ -61,5 +61,5 @@ By default, the system does not permit anonymous guest access to CMS, catalog, a
 
 See [Restricting access to anonymous web APIs][2]{:target="_blank"} in the Magento developer documentation.
 
-[1]: http://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-oauth.html
-[2]: http://devdocs.magento.com/guides/v2.3/rest/anonymous-api-security.html
+[1]: http://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-oauth.html
+[2]: http://devdocs.magento.com/guides/v2.4/rest/anonymous-api-security.html

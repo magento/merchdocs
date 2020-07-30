@@ -15,7 +15,7 @@ title: New Relic Reporting
 
 1. While you are in your account, locate the following credentials that you will need to complete the configuration:
 
-    | Account ID | From your New Relic account dashboard, the Account ID is the number in the URL after:` /accounts` |
+    | Account ID | From your New Relic account dashboard, the Account ID is the number in the URL after: `/accounts` |
     | Application ID | From your New Relic account dashboard, click **New Relic APM**. In the menu, choose **Applications**. Then, choose your application. The Application ID is the number in the URL after: `/applications/` |
     | New Relic API Key | From your New Relic account dashboard, click **Account Settings**. In the menu on the left under Integrations, choose **Data Sharing**. You can create, regenerate, or delete your API key from this page. |
     | Insights API Key | From your New Relic account dashboard, click **Insights**. In the menu on the left under Administration, choose **API Keys**. Your Insights API Key(s) appear on this page. If necessary, click the plus sign (**+**) next to Insert Keys to generate a key. |
@@ -80,5 +80,5 @@ To use New Relic APM Pro to gather and transmit data, the PHP agent must be ins
 [1]: http://newrelic.com/
 [2]: http://newrelic.com/magento
 [3]: https://docs.newrelic.com/docs/agents/php-agent/getting-started/new-relic-php
-[4]: https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html
-[5]: http://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cron.html
+[4]: https://devdocs.magento.com/cloud/project/new-relic.html
+[5]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html

@@ -152,8 +152,8 @@ pages:
   - label: Gift Cards
     url: "/configuration/sales/gift-cards.html"
     edition: ee-only
-  - label: Address Validation
-    url: "/configuration/sales/address-validation.html"
+  - label: Address Cleansing
+    url: "/configuration/sales/address-cleansing.html"
 - label: Sales Channels
   url: "/configuration/sales-channels.html"
   children:

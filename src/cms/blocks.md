@@ -9,4 +9,4 @@ You can create custom blocks of content without writing any code, and assign the
 ![]({% link images/images/storefront-blocks-home-page.png %}){: .zoom}
 _Blocks on Home Page_
 
-[1]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/layout-overview.html
+[1]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/layouts/layout-overview.html
