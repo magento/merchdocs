@@ -4,7 +4,7 @@ title: GraphQL
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Services]({% link configuration/services.md %}) > GraphQL
 
-[GraphQL](https://devdocs.magento.com/guides/v2.4/graphql/index.html) is query language that efficiently transfers customer and product data between the storefront and the Magento server. In environments where GraphQL is implemented, if your storefront requires resources stored on an external server (such as images, stylesheets, or fonts), you must enable Cross-Origin Resource Sharing (CORS). [CORS](https://devdocs.magento.com/guides/v2.4/graphql/send-request.html) is a security protocol that tells a browser that it can load or access resources on an external server.
+[GraphQL](https://devdocs.magento.com/guides/v2.4/graphql/index.html) is a query language that efficiently transfers customer and product data between the storefront and the Magento server. In environments where GraphQL is implemented, if your storefront requires resources stored on an external server (such as images, stylesheets, or fonts), you must enable Cross-Origin Resource Sharing (CORS). [CORS](https://devdocs.magento.com/guides/v2.4/graphql/send-request.html) is a security protocol that tells a browser that it can load or access resources on an external server.
 
 ## CORS
 
