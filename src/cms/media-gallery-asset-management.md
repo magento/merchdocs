@@ -23,10 +23,22 @@ The new [Media Gallery]({% link cms/media-gallery.md %}) provides tools for mana
     ![]({% link images/images/enhanced-media-gallery/asset-actions.png %}){: .zoom}
     _Asset Actions_
 
-   The asset details will be displayed on a slide panel, including information where the asset is being used. It is also possible to delete the asset from this section.
+   The asset details will be displayed on a slide panel. They include the information where the asset is being used:
+   
+   - **Categories**
+   - **Products**
+   - **Pages**
+   - **Blocks**
 
     ![]({% link images/images/enhanced-media-gallery/asset-details.png %}){: .zoom}
     _Asset Details_
+
+    Click **Used In** links to see the details. The grid in the following example shows all categories where specific asset is used.
+
+    ![]({% link images/images/enhanced-media-gallery/asset-category-grid.png %}){: .zoom}
+    _Category Grid_
+    
+    It is also possible to delete the asset from the **View Details** section.
 
 ## Use an asset
 
