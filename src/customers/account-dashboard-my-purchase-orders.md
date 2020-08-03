@@ -21,7 +21,7 @@ From the _View Purchase Order_ page, you can manage the PO, depending on your [r
 * Click the **Comments** tab to see any comments about this PO and the **History Log** tab for a complete order history.
 
 {:.bs-callout-info}
-Purchase Orders create a 'snapshot' of item prices, discounts, and shipping prices at the time the order was created. If the price of an item changes after the PO is created, the original price is used.
+Purchase Orders create a _snapshot_ of item prices, discounts, and shipping prices at the time the order was created. If the price of an item changes after the PO is created, the original price is used.
 
 ## Create a new purchase order from existing purchase order
 
