@@ -82,4 +82,4 @@ _Security Scan_
 
 1. If you have multiple websites with different domains, repeat this process to set up a security scan for each.
 
-[1]: https://devdocs.magento.com/guides/v2.3/cloud/live/live.html#security-scan
+[1]: https://devdocs.magento.com/cloud/live/live.html#security-scan

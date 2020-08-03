@@ -16,7 +16,7 @@ Payments On Account
 :  Allow companies to make [purchases charged to their account]({% link payment/payment-on-account.md %}), up to the credit limit that is specified in their profile.
 
 Negotiated Quotes
-:  Company buyers can [request a quote]({% link sales/quote-request.md %}) from the shopping cart, and then negotiate with the seller to reach a acceptable price per line item.
+:  Company buyers can [request a quote]({% link sales/quote-request.md %}) from the shopping cart, and then negotiate with the seller to reach an acceptable price per line item.
 
 Quote Tracking
 :  A detailed history of all [activity related to quotes]({% link customers/account-dashboard-quotes.md %}), including all interactions between buyer and seller during the negotiation process, is available from the company’s account and from the store’s back office Admin.
