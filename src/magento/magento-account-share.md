@@ -80,7 +80,7 @@ The following instructions are written from the perspective of a shared user who
    ![]({% link images/images/magento-account-shared-support.png %}){: .zoom}
    _Support_
 
-   You can use the the Magento Help Center from the shared account to search for articles and troubleshooting information, find patches for known issues, and create support tickets.
+   You can use the [Magento Help Center](https://support.magento.com/hc/en-us) from the shared account to search for articles and troubleshooting information, find patches for known issues, and create support tickets.
 
    ![]({% link images/images/magento-account-shared-help-center.png %}){: .zoom}
    _Magento Help Center_

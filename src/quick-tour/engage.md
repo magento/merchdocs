@@ -11,7 +11,7 @@ Design and Theme
 :  Control the [visual elements]({% link design/design-menu.md %}) of your store with a collection of templates and skin files. You can apply these visual elements to all pages in your store, giving your store a cohesive look and feel.
 
 Multiple Stores, Sites, and Views
-:  Control the look and feel of [multiple sites]({% link stores/websites-stores-views.md %}), introduce new market and languages, and track analytics from a single Admin.
+:  Control the look and feel of [multiple sites]({% link stores/websites-stores-views.md %}), introduce new markets and languages, and track analytics from a single Admin.
 
 Multiple Devices
 :  Magento’s powerful features make it easy to [create storefronts]({% link design/themes.md %}) optimized for iPhone, Android, and Mobile Opera browsers to help you engage consumers with mobile commerce now, and into the future.
