@@ -23,8 +23,8 @@ The new [Media Gallery]({% link cms/media-gallery.md %}) provides tools for mana
     ![]({% link images/images/enhanced-media-gallery/asset-actions.png %}){: .zoom}
     _Asset Actions_
 
-   The asset details will be displayed on a slide panel. They include the information where the asset is being used:
-   
+    The asset details will be displayed on a slide panel. They include the information where the asset is being used:
+
    - **Categories**
    - **Products**
    - **Pages**
@@ -37,7 +37,7 @@ The new [Media Gallery]({% link cms/media-gallery.md %}) provides tools for mana
 
     ![]({% link images/images/enhanced-media-gallery/asset-category-grid.png %}){: .zoom}
     _Category Grid_
-    
+
     It is also possible to delete the asset from the **View Details** section.
 
 ## Use an asset
