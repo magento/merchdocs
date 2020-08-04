@@ -21,7 +21,6 @@ The customer password options determine the level of security that is used for p
    | By IP | Check for previous attempts to reset password from specific IP. |
    | By Email | Check for previous attempts to reset password for specific email. |
    | None | Protection disabled (no limits for resetting password). |
- 
    **Max Number of Password Reset Requests** and **Min Time Between Password Reset Requests** are calculated based on this configuration.
 
 1. To limit the number of password reset requests sent per hour, do the following:
