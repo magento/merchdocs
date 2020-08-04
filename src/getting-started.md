@@ -41,7 +41,7 @@ Adobe offers two Magento editions to fit the requirements of your eCommerce busi
 
 ### B2B features
 
-- {:.b2b-only}The B2B module extends all of the features of Magento Commerce to meet the needs of companies who sell directly to other companies, rather than to consumers. It combines the convenience of business to-consumer commerce with advanced account management, robust inventory control, negotiated pricing, bulk order management, and more.
+- {:.b2b-only}The B2B module extends all of the features of Magento Commerce to meet the needs of companies who sell directly to other companies, rather than to consumers. It combines the convenience of business-to-consumer commerce with advanced account management, robust inventory control, negotiated pricing, bulk order management, and more.
 
 ## Learn the Basics
 

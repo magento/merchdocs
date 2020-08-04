@@ -26,7 +26,7 @@ The address for your store Admin is set up during the installation. The default 
 
 ## Magento Account
 
-Your Magento account provides access to information about your products and services, account settings, billing history, and support resources. to access your account, visit the Magento site and click the My Account link in the header.
+Your Magento account provides access to information about your products and services, account settings, billing history, and support resources. To access your account, visit the Magento site and click the My Account link in the header.
 
 ## Customer Account
 
