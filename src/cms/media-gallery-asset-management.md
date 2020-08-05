@@ -49,7 +49,7 @@ The new [Media Gallery]({% link cms/media-gallery.md %}) provides tools for mana
     ![]({% link images/images/enhanced-media-gallery/edit-asset.png %}){: .zoom}
     _Edit Asset_
 
-1. If needed, change and of the following metadata values:
+1. If needed, change one of the following metadata values:
 
    - **Title**
    - **Description**
