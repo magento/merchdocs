@@ -55,7 +55,7 @@ The new [Media Gallery]({% link cms/media-gallery.md %}) provides tools for mana
    - **Description**
    - **Tags/Keywords**
 
-   Please note, that this data will be saved to the data base as well as to the file metadata itself. Currently, **XMP** and **IPTC* formats are supported.
+   This data will be saved to the data base as well as to the file metadata itself. Currently, XMP and IPTC formats are supported.
 
    You can download the image with the updated metadata.
 
