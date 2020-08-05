@@ -23,10 +23,41 @@ The new [Media Gallery]({% link cms/media-gallery.md %}) provides tools for mana
     ![]({% link images/images/enhanced-media-gallery/asset-actions.png %}){: .zoom}
     _Asset Actions_
 
-   The asset details will be displayed on a slide panel, including information where the asset is being used. It is also possible to delete the asset from this section.
+    The asset details will be displayed on a slide panel. They include the information where the asset is being used:
+
+   - **Categories**
+   - **Products**
+   - **Pages**
+   - **Blocks**
 
     ![]({% link images/images/enhanced-media-gallery/asset-details.png %}){: .zoom}
     _Asset Details_
+
+    Click the **Used In** links to see the details. The grid in the following example shows all categories where a specific asset is used.
+
+    ![]({% link images/images/enhanced-media-gallery/asset-category-grid.png %}){: .zoom}
+    _Category Grid_
+
+    It is also possible to delete the asset from the _View Details_ section.
+
+## Edit an asset
+
+1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
+
+1. Click the three dots below the asset (![]({% link images/images/enhanced-media-gallery/three-dots-btn.png %})), then click <span class="btn">Edit</span>.
+
+    ![]({% link images/images/enhanced-media-gallery/edit-asset.png %}){: .zoom}
+    _Edit Asset_
+
+1. If needed, change one of the following metadata values:
+
+   - **Title**
+   - **Description**
+   - **Tags/Keywords**
+
+   This data will be saved to the data base as well as to the file metadata itself. Currently, XMP and IPTC formats are supported.
+
+   You can download the image with the updated metadata.
 
 ## Use an asset
 
@@ -52,6 +83,20 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
     ![]({% link images/images/enhanced-media-gallery/bulk-delete-asset-confirmation.png %}){: .zoom}
     _Delete Confirmation_
+
+## Search for assets
+
+1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
+
+1. Use the **Search by keywords** input to perform image search by keywords/tags.
+
+    The search in the following example finds assets that contain a specific tag (`mountain`).
+
+    ![]({% link images/images/enhanced-media-gallery/asset-search.png %}){: .zoom}
+    _Asset Search_
+
+{:.bs-callout-info}
+See the [Edit an asset][edit-asset] section to learn how you can update image tags.
 
 ## Filtering assets
 
@@ -95,3 +140,4 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 [add-edit-page]: {% link cms/page-add.md %}
 [create-edit-category]: {% link catalog/category-create.md %}
 [editor-insert-media]: {% link cms/editor-insert-image.md %}
+[edit-asset]: #edit-an-asset
