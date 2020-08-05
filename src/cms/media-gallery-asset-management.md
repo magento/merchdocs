@@ -40,6 +40,25 @@ The new [Media Gallery]({% link cms/media-gallery.md %}) provides tools for mana
 
     It is also possible to delete the asset from the **View Details** section.
 
+## Edit an asset
+
+1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
+
+1. Click the three dots below the asset (![]({% link images/images/enhanced-media-gallery/three-dots-btn.png %})), then click <span class="btn">Edit</span>.
+
+    ![]({% link images/images/enhanced-media-gallery/edit-asset.png %}){: .zoom}
+    _Edit Asset_
+
+1. You can change following fields though **Edit Image** form.
+
+   - **Title**
+   - **Description**
+   - **Tags/Keywords**
+
+   Please note, that this data will be saved to the data base as well as to the file metadata itself. Currently, **XMP** and **IPTC* formats are supported.
+
+   You can download the image with the updated metadata.
+
 ## Use an asset
 
 Assets can be used extensively throughout the Admin, such as [add or edit a page][add-edit-page], [create or edit a category][create-edit-category], or [insert images from the Content Editor][editor-insert-media].
@@ -64,6 +83,19 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
     ![]({% link images/images/enhanced-media-gallery/bulk-delete-asset-confirmation.png %}){: .zoom}
     _Delete Confirmation_
+
+## Search for assets
+
+1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
+
+2. Use **Search by keywords** input to perform image search by keywords/tags.
+
+    The search in the following example finds assets that contain a specific tag (`mountain`).
+    
+    ![]({% link images/images/enhanced-media-gallery/asset-search.png %}){: .zoom}
+    _Asset Search_
+
+3. See [Edit an asset][edit-asset] section to learn how you can update image tags.
 
 ## Filtering assets
 
@@ -107,3 +139,4 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 [add-edit-page]: {% link cms/page-add.md %}
 [create-edit-category]: {% link catalog/category-create.md %}
 [editor-insert-media]: {% link cms/editor-insert-image.md %}
+[edit-asset]: #edit-an-asset
