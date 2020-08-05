@@ -88,7 +88,7 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
 1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
 
-1. Use **Search by keywords** input to perform image search by keywords/tags.
+1. Use the **Search by keywords** input to perform image search by keywords/tags.
 
     The search in the following example finds assets that contain a specific tag (`mountain`).
 
