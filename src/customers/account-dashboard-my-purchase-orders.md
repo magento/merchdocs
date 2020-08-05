@@ -20,6 +20,12 @@ From the _View Purchase Order_ page, you can manage the PO, depending on your [r
 * Click **View** for the PO you want to see.
 * Click the **Comments** tab to see any comments about this PO and the **History Log** tab for a complete order history.
 
+{:.bs-callout-info}
+Purchase Orders create a _snapshot_ of item prices, discounts, and shipping prices at the time the order was created. If the price of an item changes after the PO is created, the original price is used.
+
+{:.bs-callout-warning}
+If an item in a purchase order is out-of-stock, or has insufficient quantity available, when the purchase order is converted into an actual order, an error will occur. If backorders are enabled, the order will be processed normally.
+
 ## Create a new purchase order from existing purchase order
 
 If you have an existing purchase order and would like to add new items, a duplicate purchase order is created and new products are added to this new PO.
