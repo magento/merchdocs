@@ -38,7 +38,7 @@ The new [Media Gallery]({% link cms/media-gallery.md %}) provides tools for mana
     ![]({% link images/images/enhanced-media-gallery/asset-category-grid.png %}){: .zoom}
     _Category Grid_
 
-    It is also possible to delete the asset from the **View Details** section.
+    It is also possible to delete the asset from the _View Details_ section.
 
 ## Edit an asset
 
