@@ -33,7 +33,7 @@ The new [Media Gallery]({% link cms/media-gallery.md %}) provides tools for mana
     ![]({% link images/images/enhanced-media-gallery/asset-details.png %}){: .zoom}
     _Asset Details_
 
-    Click **Used In** links to see the details. The grid in the following example shows all categories where specific asset is used.
+    Click the **Used In** links to see the details. The grid in the following example shows all categories where a specific asset is used.
 
     ![]({% link images/images/enhanced-media-gallery/asset-category-grid.png %}){: .zoom}
     _Category Grid_
