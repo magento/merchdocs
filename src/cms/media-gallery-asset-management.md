@@ -95,7 +95,8 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
     ![]({% link images/images/enhanced-media-gallery/asset-search.png %}){: .zoom}
     _Asset Search_
 
-1. See [Edit an asset][edit-asset] section to learn how you can update image tags.
+{:.bs-callout-info}
+See the [Edit an asset][edit-asset] section to learn how you can update image tags.
 
 ## Filtering assets
 
