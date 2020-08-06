@@ -9,7 +9,9 @@ With the in-store delivery method, the customer can select a source to be used a
 
 {:.bs-callout-warning}
 **Before setup:**</br>
+
 - Make sure you have a non-default stock and source. For more information about how to configure a source as a pickup location, see [Adding a New Source]({% link catalog/inventory-sources-add.md %}).
+
 - Make sure you have configured a Distance Priority Algorithm, see [Configuring Distance Priority Algorithm Edit on GitHub Log an Issue]({% link catalog/inventory-configure-distance-priority.md %}).
 
 ## Set up In-store Delivery
