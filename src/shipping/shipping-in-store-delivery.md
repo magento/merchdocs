@@ -7,7 +7,7 @@ With the in-store delivery method, the customer can select a source to be used a
 ![]({% link images/images/luma-in-store-example.png %}){: .zoom}
 [_In-store Delivery Method at Checkout_]({% link sales/checkout-step1-shipping.md %})
 
-{:.bs-callout-warning}
+<div class="bs-callout-warning" markdown="1">
 **Before setup:**</br>
 
 - Make sure you have a non-default stock and source. For more information about how to configure a source as a pickup location, see [Adding a New Source]({% link catalog/inventory-sources-add.md %}).
