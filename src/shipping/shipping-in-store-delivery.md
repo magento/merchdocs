@@ -14,6 +14,7 @@ With the in-store delivery method, the customer can select a source to be used a
 
 - Make sure you have configured a Distance Priority Algorithm, see [Configuring Distance Priority Algorithm Edit on GitHub Log an Issue]({% link catalog/inventory-configure-distance-priority.md %}).
 
+</div>
 ## Set up In-store Delivery
 
 First, check that In-store Delivery is enabled.
