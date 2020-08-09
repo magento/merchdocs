@@ -2,9 +2,9 @@
 title: Credit Memos
 ---
 
-A credit memo is a document that shows the amount that is due the customer for a full or partial refund. The amount can be applied toward a purchase, or refunded to the customer. You can print a credit memo for a single order, or for multiple orders as a batch. Before a credit memo can be printed, it must first be generated for the order. The credit memo grid lists the credit memos that have been issued. to customers.
+A credit memo is a document that shows the amount that is due the customer for a full or partial refund. The amount can be applied toward a purchase, or refunded to the customer. You can print a credit memo for a single order, or for multiple orders as a batch. Before a credit memo can be printed, it must first be generated for the order. The credit memo grid lists the credit memos that have been issued to customers.
 
-The methods that are available to issue a refund depends on the payment method that was used for the order:
+The methods that are available to issue a refund depend on the payment method that was used for the order:
 
 - An order that was placed using a credit account can be refunded to the respective account:
 
