@@ -12,7 +12,7 @@ With the in-store delivery method, the customer can select a source to be used a
 
 - Make sure you have a non-default stock and source. For more information about how to configure a source as a pickup location, see [Adding a New Source]({% link catalog/inventory-sources-add.md %}).
 
-- Make sure you have configured a Distance Priority Algorithm, see [Configuring Distance Priority Algorithm Edit on GitHub Log an Issue]({% link catalog/inventory-configure-distance-priority.md %}).
+- Make sure you have configured a Distance Priority Algorithm. For more information, see [Configuring Distance Priority Algorithm]({% link catalog/inventory-configure-distance-priority.md %}).
 
 </div>
 ## Set up In-store Delivery
