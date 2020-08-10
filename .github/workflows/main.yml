@@ -4,7 +4,6 @@ on:
   pull_request:
     branches:
       - master
-      - 2.*-production
       - 2.*-develop
 
 jobs:
@@ -18,6 +17,6 @@ jobs:
       with:
         ruby-version: 2.6
     - name: Install mdl gem
-      run: gem install mdl
+      run: gem install mdl --version '0.9.0'
     - name: Run mdl
       run: mdl --style=_checks/styles/style-rules-prod --ignore-front-matter --git-recurse -- .
