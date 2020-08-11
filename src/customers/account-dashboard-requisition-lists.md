@@ -61,7 +61,7 @@ Products can be added to a requisition list from product pages in the storefront
 
 ### Method 3: From the cart
 
-1. Under the item, choose the **Add to Requisition List** menu.
+1. Under the item, click the **Add to Requisition List** menu and do one of the following:
 
    - Choose an existing requisition list.
    - Create a new requisition list.
