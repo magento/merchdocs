@@ -34,8 +34,8 @@ Protecting the environment is the most critical aspect of ensuring the security 
 ### Advanced techniques
 
 - Automate the deployment process, if possible, and use private keys for data transfer.
-- Limit access to the Magento Admin by updating the  whitelist with the IP address of each computer that is authorized to use the  Admin and Magento Connect downloader. For examples of how to whitelist IP addresses, see [Secure Your Magento Admin](https://www.sonassi.com/knowledge-base/magento-kb/secure-your-magento-admin/){:target="_blank"}.
-- Do not install extensions directly on a production server. To disable the Magento Connect downloader on the production site, either remove or block access to the `/downloader` directory. You can also use the same [whitelisting](https://www.sonassi.com/knowledge-base/magento-kb/secure-your-magento-admin/){:target="_blank"} methods.
+- Limit access to the Magento Admin by updating the allow list with the IP address of each computer that is authorized to use the  Admin and Magento Connect downloader. For examples of how to add IP addresses to the allow list, see [Secure Your Magento Admin](https://www.sonassi.com/knowledge-base/magento-kb/secure-your-magento-admin/){:target="_blank"}.
+- Do not install extensions directly on a production server. To disable the Magento Connect downloader on the production site, either remove or block access to the `/downloader` directory. You can also use the same methods to [allow access](https://www.sonassi.com/knowledge-base/magento-kb/secure-your-magento-admin/){:target="_blank"}.
 - Use two-factor authorization for Admin logins. There are several extensions available that provide additional security by requiring an additional passcode that is generated on your phone, or a token from a special device.
 - Review your server for “development leftovers.” Make sure there are no accessible log files, publicly visible .git directories, tunnels to execute SQL, database dumps, `phpinfo` files, or any other unprotected files that are not required, and that might be used in an attack.
 - Limit outgoing connections to only those that are required, such as for a payment integration.
@@ -64,7 +64,7 @@ Your effort to protect your Magento installation starts with the initial setup, 
 - Use a unique, [custom Admin URL]({% link stores/store-urls-custom-admin.md %}) instead of the default “admin” or the often-used “backend”. Although it will not directly protect your site from a determined attacker, it can reduce exposure to scripts that try to break into every Magento site. (Never leave your valuables in plain sight.)
     {:.bs-callout-info}
     Check with your hosting provider before implementing a custom Admin URL. Some hosting providers require a standard URL to meet firewall protection rules.
-- Block access to any development, staging, or testing systems. Use IP [whitelisting](https://www.sonassi.com/knowledge-base/magento-kb/secure-your-magento-admin/) and `.htaccess` password protection. When compromised, such systems can produce a data leak or be used to attack the production system.
+- Block access to any development, staging, or testing systems. Use IP [allow lists](https://www.sonassi.com/knowledge-base/magento-kb/secure-your-magento-admin/) and `.htaccess` password protection. When compromised, such systems can produce a data leak or be used to attack the production system.
 - Use the correct file permissions. Core Magento and directory files should be set to ready only, including `app/etc/local.xml` files.
 - Use a strong  password for the Magento Admin. To learn more, see [Creating a strong password](https://support.google.com/accounts/answer/32040?hl=en).
 - Take advantage of Magento’s security-related configuration settings for [Admin Security]({% link stores/security-admin.md %}), [Password Options]({% link customers/password-options.md %}), [Two-Factor Authentication for Admin access]({% link stores/security-two-factor-authentication.md %}), [CAPTCHA](http://merch.docs.magento.com/ce/user_guide/Magento_Community_Edition_User_Guide.html#configuration/advanced/admin.html), and [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).
@@ -107,7 +107,7 @@ In the event of a compromise, work with your internal IT security team if availa
 
    - **Defacing of Site** — Site access is compromised, but often the payments information is not. User accounts might be compromised.
 
-   - **Botnetting** — Your site becomes part of a botnet that sends spam email. Although data is probably not compromised, your server is blacklisted by spam filters which prevents email that you send to customers from being delivered.
+   - **Botnetting** — Your site becomes part of a botnet that sends spam email. Although data is probably not compromised, your server is blocked by spam filters, which prevents email that you send to customers from being delivered.
 
    - **Direct Attack on Server** — Data is compromised, backdoors and malware are installed, and the site no longer works. Payment information—provided that it is not stored on the server— is probably safe.
 

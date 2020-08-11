@@ -2,14 +2,14 @@
 title: Developer Client Restrictions
 ---
 
-Before using a tool such as [Template Path Hints]({% link system/template-path-hints.md %}), make sure to add your IP address to the Developer Client Restrictions whitelist to avoid disrupting the shopping experience of customers in the store. If you don’t know your IP address, you can search for it online.
+Before using a tool such as [Template Path Hints]({% link system/template-path-hints.md %}), make sure to add your IP address to the Developer Client Restrictions  allow list to avoid disrupting the shopping experience of customers in the store. If you don’t know your IP address, you can search for it online.
 
 {:.bs-callout-info}
 Developer Client Restrictions can be set in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
-For technical information, see [Custom whitelist VCL][1]{:target="_blank"} in the developer documentation.
+For technical information, see [Custom VCL for allowing requests][1]{:target="_blank"} in the developer documentation.
 
-## Add your IP address to the whitelist
+## Add your IP address to the allow list
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 

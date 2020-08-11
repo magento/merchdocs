@@ -23,7 +23,7 @@ Available in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Allow IPs (comma separated)|Store View|Creates a whitelist of IP addresses that  can use developer tools on a live site, without interfering with customers in the store. Any changes to the site when using a developer tool such  as Inline Translation, are visible only from the IP addresses on the whitelist.|
+|Allow IPs (comma separated)|Store View|Creates an allow list of IP addresses that  can use developer tools on a live site, without interfering with customers in the store. Any changes to the site when using a developer tool such  as Inline Translation, are visible only from the IP addresses on the allow list.|
 
 ## Template Settings
 
@@ -53,7 +53,7 @@ Available in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enable for Storefront|Store View|Activates the Inline Translator for the storefront. The interface text can be edited for each store view. To use the Inline Translator without interfering with the live store, add your IP address to the Developer Client Restrictions whitelist.|
+|Enable for Storefront|Store View|Activates the Inline Translator for the storefront. The interface text can be edited for each store view. To use the Inline Translator without interfering with the live store, add your IP address to the Developer Client Restrictions allow list.|
 |Enable for Admin|Global|Activates the Inline Translator for the Admin. Unlike the storefront, the Admin cannot be translated into multiple languages. However, the field labels and other text in the interface can be changed.|
 
 ## JavaScript Settings
