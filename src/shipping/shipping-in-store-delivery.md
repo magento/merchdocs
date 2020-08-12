@@ -7,6 +7,14 @@ With the in-store delivery method, the customer can select a source to be used a
 ![]({% link images/images/luma-in-store-example.png %}){: .zoom}
 [_In-store Delivery Method at Checkout_]({% link sales/checkout-step1-shipping.md %})
 
+<div class="bs-callout-warning" markdown="1">
+**Before setup:**
+
+- Make sure you have a non-default stock and source. For more information about how to configure a source as a pickup location, see [Adding a New Source]({% link catalog/inventory-sources-add.md %}).
+
+- Make sure you have configured a Distance Priority Algorithm. For more information, see [Configuring Distance Priority Algorithm]({% link catalog/inventory-configure-distance-priority.md %}).
+
+</div>
 ## Set up In-store Delivery
 
 First, check that In-store Delivery is enabled.
@@ -39,5 +47,3 @@ First, check that In-store Delivery is enabled.
     The default message is `In-Store Delivery is not available. To use this delivery method, please contact us.`
 
 1. Click <span class="btn">Save Config</span>.
-
-For more information about how to configure a source as a pickup location, see [Adding a New Source]({% link catalog/inventory-sources-add.md %}).
