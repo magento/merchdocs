@@ -30,7 +30,7 @@ We also recommend adding [Two-Factor Authentication (2FA)](https://devdocs.magen
 
 ## Contribute documentation
 
-New to GitHub and open source contribution? We have easy ways to write and contribute without knowing how to code. Check the wiki starting with [Getting Started](https://github.com/magento/merchdocs/wiki/Getting-Started).
+New to GitHub and open source contribution? We have easy ways to write and contribute without knowing how to code. Check the wiki starting with [Getting Started](https://github.com/magento/merchdocs/wiki).
 
 You have different options for [writing content](https://github.com/magento/merchdocs/wiki/Writing-Content):
 
