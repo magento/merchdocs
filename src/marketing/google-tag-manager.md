@@ -60,9 +60,9 @@ For additional information, see Google's [Container export and import][5]. These
 
 1. Download the linked file [GTM_M2_Config_json.txt][6] and do the following:
 
-    - Open the file in an editor, and save as `GMT_M2_Config.json`.
+    - Open the file in an editor, and save as `GTM_M2_Config.json`.
 
-    - Zip the file to produce an archive called `GMT_M2_Config.zip`.
+    - Zip the file to produce an archive called `GTM_M2_Config.zip`.
 
         The zipped file will be uploaded directly to Google Tag Manager, and does not need to be copied to your server.
 
