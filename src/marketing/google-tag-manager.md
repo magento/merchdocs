@@ -58,7 +58,7 @@ The following instructions show how to configure a new container with the basic 
 {:.bs-callout-info}
 For additional information, see Google's [Container export and import][5]. These instructions walk-through importing a sample JSON to a new container.
 
-1. Download the linked file [GMT_M2_Config_json.txt][6]. Then, do the following:
+1. Download the linked file [GTM_M2_Config_json.txt][6] and do the following:
 
     - Open the file in an editor, and save as `GMT_M2_Config.json`.
 
