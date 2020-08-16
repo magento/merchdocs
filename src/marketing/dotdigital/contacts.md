@@ -27,7 +27,7 @@ Your dotdigital account is [synced]({% link configuration/dotdigital/sync-settin
 
 1. In the Notifications list, click **import report**.
 
-    The Contacts import report includes a summary of all subscribers as well as duplicates, failures, soft and hard bounces, invalid email addresses, and those who have unsubscribed, or have been blocked, globally suppressed, or otherwise blacklisted. You can use this report to help keep your data clean.
+    The Contacts import report includes a summary of all subscribers as well as duplicates, failures, soft and hard bounces, invalid email addresses, and those who have unsubscribed, or have been blocked or globally suppressed. You can use this report to help keep your data clean.
 
     ![dotdigital - contacts import report]({% link images/images/engagement-cloud-contacts-import-report.png %}){: .zoom}
     _Import Report_
