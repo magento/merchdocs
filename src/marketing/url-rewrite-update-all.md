@@ -4,7 +4,7 @@ title: Multiple URL Rewrites
 
 To create a single URL rewrite, refer to [Creating URL Rewrites]({% link marketing/url-rewrite-create.md %}).
 
-To quickly update URL rewrites for multiple or all products simultaneously, follow the steps below.
+You can quickly update URL rewrites for multiple or all products simultaneously using the following steps.
 
 ## Update multiple URL rewrites
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
