@@ -8,17 +8,21 @@ To add product video, you must first obtain an API Key from your Google account 
 
 1. Log in to your Google account and visit the [Google Developers Console][1].
 
-1. Search _YouTube Data API v3_ in the Search field above
+1. In the Search field at the top, enter `YouTube Data API v3` and click the search icon.
 
-1. Make sure the API has been enabled
+1. When the API page is displayed, make sure it is enabled.
 
 1. In the left panel, choose **Credentials**.
 
-1. Either copy the Key in the _API keys_ table or click on _Create Credentials_ on top and select **API key**.
+1. Depending on whether you have credentials or not, do one of the following:
+
+   - If you already have the needed credentials, copy the key in the _API keys_ table.
+
+   - If you do not already have credentials for this API, click <span class="btn">Create Credentials</span>  at the top and follow the prompts to create the needed credentials. Under _Get your credentials_, copy the API key and click <span class="btn">Done</span>.
 
 1. Copy the API key to the clipboard.
 
-1. Click on the _edit_ icon on the right and make sure the API key is limited to the correct referers.
+1. Click the Edit icon on the right and set the restrictions to make sure the API key is limited to the correct referrers.
 
 1. Wait a few moments while the key is generated and then copy the key to the clipboard.
 
@@ -52,7 +56,9 @@ To add product video, you must first obtain an API Key from your Google account 
 
 1. Enter the **URL** of the YouTube or Vimeo video.
 
-1. Click outside the field and wait for feedback on the API key or video. If everything checks out, Youtube provides base information of the video
+1. Click outside the field and wait for feedback on the API key or video.
+
+   If everything checks out, Youtube provides base information of the video
 
 1. Enter the **Title** and **Description** of the video.
 
