@@ -68,11 +68,11 @@ To add product video, you must first obtain an API Key from your Google account 
 
 1. To determine how the video is used in the store, select the checkbox of each **Role** that applies:
 
-    - `Base Image`
-    - `Small Image`
-    - `Swatch Image`
-    - `Thumbnail`
-    - `Hide from Product Page`
+   - `Base Image`
+   - `Small Image`
+   - `Swatch Image`
+   - `Thumbnail`
+   - `Hide from Product Page`
 
 1. When complete, click <span class="btn">Save</span>.
 
