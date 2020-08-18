@@ -87,16 +87,6 @@ pages:
       url: "/cms/dynamic-blocks-rotate.html"
     - label: Dynamic Blocks in Price Rules
       url: "/cms/dynamic-blocks-price-rules.html"
-  - label: Banners (Deprecated)
-    url: "/cms/banners.html"
-    edition: ee-only
-    children:
-    - label: Creating a Banner (Deprecated)
-      url: "/cms/banner-create.html"
-    - label: Rotating Banners  (Deprecated)
-      url: "/cms/banner-rotator.html"
-    - label: Using Banners in Price Rules (Deprecated)
-      url: "/cms/banners-price-rules.html"
   - label: Widgets
     url: "/cms/widgets.html"
     children:

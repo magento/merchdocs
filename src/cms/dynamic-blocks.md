@@ -1,9 +1,17 @@
 ---
 ee_only: true
 title: Dynamic Blocks
+redirect_from:
+  - /cms/banners.html
+  - /cms/banner-create.html
 ---
 
 Create rich, interactive content that is driven by logic from [price rules]({% link marketing/promotions.md %}) and [customer segments]({% link marketing/customer-segments.md %}). Existing [dynamic blocks]({% link cms/page-builder-add-dynamic-block.md %}) can be added directly to the Page Builder [stage]({% link cms/page-builder-workspace.md %}). To learn more, see [Tutorial 2: Blocks]({% link cms/page-builder-tutorial2-blocks.md %}).
+
+{:.bs-callout-info}
+The _Banners_ option in the [Content menu]({% link cms/content-menu.md %}) was deprecated in 2.3.1 and is now removed. Its functionality is replaced by Dynamic Blocks.
+
+When designing dynamic blocks for your store, take into consideration both the [page layout]({% link design/page-layout.md %}) and the theme you are using. Dynamic blocks are often designed to appear on a specific page, and in a specific part of the page layout. Although the header and footer are a fixed width, the width of the content area and sidebars can vary according to theme and page layout. When designing a dynamic block with graphic images, it is important to understand the page layout, so you can put the available space to best use.
 
 ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-storefront.png %}){: .zoom}
 _Dynamic Block with Price Rule and Customer Segment_

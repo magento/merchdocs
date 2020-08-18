@@ -4,7 +4,7 @@ title: Customer Segments in Price Rules
 group: customers
 ---
 
-A customer segment can be targeted by associating it with a [cart price rule]({% link marketing/price-rules-cart.md %}) and [banner]({% link marketing/customer-segment-banner.md %}).
+A customer segment can be targeted by associating it with a [cart price rule]({% link marketing/price-rules-cart.md %}) and [dynamic block]({% link marketing/customer-segment-dynamic-block.md %}).
 
 ![Cart price rule - targeted customer segment]({% link images/images-ee/price-rule-cart-condition-segments.png %}){: .zoom}
 _Targeted Customer Segment_
