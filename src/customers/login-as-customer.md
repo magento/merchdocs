@@ -1,5 +1,5 @@
 ---
-title: Using Login as Customer
+title: Providing Shopper Assistance
 ---
 
 There are times when customers need help with their order. To see what they see, store administrators can use _Login as Customer_, which allows them to see what the customer sees and take actions on their behalf.
@@ -82,7 +82,7 @@ Login as Customer allows you to see the site just as the customer does, and allo
 * You can click <span class="btn">Login as Customer</span> on the pages listed in the previous section.
 * The Login as Customer actions are available in the Actions Report.
 
-{.bs-callout-warning}
-Any actions taken while logged in "as Customer" (add/remove products, etc.) are applied to the actual customer's order.
+{:.bs-callout-warning}
+Any actions taken while logged in _as Customer_ (such as add/remove products) are applied to the actual customer's order.
 
 On the storefront, a banner is displayed when you are "logged in as customer_name" to provide a reminder of the special state.
