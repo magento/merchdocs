@@ -572,6 +572,8 @@ pages:
           url: "/marketing/url-rewrite-cms-page.html"
         - label: Custom Rewrites
           url: "/marketing/url-rewrite-custom.html"
+        - label: Update Multiple Rewrites
+          url: "/marketing/url-rewrite-update-all.html"
 - label: Google Tools
   url: "/marketing/google-tools.html"
   children:
