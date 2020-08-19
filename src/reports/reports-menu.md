@@ -4,7 +4,7 @@ title: Reports Menu
 
 Magento provides a wide selection of reports to keep you informed on your marketing efforts, sales products, and customer activity. The Reports menu provides easy access to current information about your sales, products, customers, and promotions.
 
-![]({% link images/images-ee/admin-menu-reports-ee.png %}){: .zoom}
+![]({% link images/images-ee/admin-menu-reports.png %}){: .zoom}
 _Reports Menu_{:.ee-only}
 
 ## Display the Reports menu
@@ -24,6 +24,11 @@ The selection of product [review reports]({% link reports/review-reports.md %}) 
 ### Sales
 
 The selection of [sales reports]({% link reports/sales-reports.md %}) includes Orders, Tax, Invoiced, Shipping, Refunds, Coupons, and settlement reports for PayPal and Braintree.
+
+{:.ee-only}
+### System Insights
+
+The [Site-Wide Analysis Tool]{% link reports/site-wide-analysis-tool.md %}} (SWAT) provides system insights for Commerce Cloud installations of Magento with 24/7 real-time performance monitoring, reports, and recommendations.
 
 ### Customers
 
