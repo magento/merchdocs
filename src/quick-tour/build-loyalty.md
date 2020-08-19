@@ -3,6 +3,9 @@ b2b_only: true
 title: Build Loyalty
 ---
 
+Purchase Orders
+:  Use [Purchase Orders][4] and [Approval Rules][5] to allow purchasing according to your company's purchasing policies.
+
 Friction-Free Purchasing
 :  Magento’s self-service model makes it easy to build loyalty for fast, [friction-free purchasing]({% link customers/account-dashboard.md %}).
 
@@ -21,3 +24,5 @@ Punch Out Solutions
 [1]: https://marketplace.magento.com/
 [2]: https://www.punchoutcatalogs.com/
 [3]: https://www.punchout2go.com/
+[4]: ../customers/account-dashboard-my-purchase-orders.html
+[5]: ../customers/account-dashboard-approval-rules.html
