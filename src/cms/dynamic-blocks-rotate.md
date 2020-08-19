@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Rotating Dynamic Blocks
+redirect_from:
+  - /cms/banner-rotator.html
 ---
 
 Multiple [dynamic blocks]({% link cms/dynamic-blocks.md %}) can be added to a rotator to present a slide show of interactive content. The [Widget]({% link cms/widgets.md %}) tool is used to place the rotator at a specific place on a either a single page, or on multiple pages throughout your store.

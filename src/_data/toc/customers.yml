@@ -148,7 +148,7 @@ pages:
     url: "/marketing/customer-segment-create.html"
   - label: Customer Segments in Price Rules
     url: "/marketing/customer-segment-price-rule.html"
-  - label: Customer Segments with Banners
-    url: "/marketing/customer-segment-banner.html"
+  - label: Customer Segments for Dynamic Blocks
+    url: "/marketing/customer-segment-dynamic-block.html"
   - label: Customer Segment Report
     url: "/reports/customer-segment-reports.html"
