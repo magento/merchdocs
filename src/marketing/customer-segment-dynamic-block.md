@@ -17,7 +17,7 @@ _Dynamic Block with price rule and customer segment_
 
 1. Open a new or existing dynamic block:
 
-   - To use a new banner, click <span class="btn">Add Dynamic Block</span> in the upper-right corner.
+   - To use a new dynamic block, click <span class="btn">Add Dynamic Block</span> in the upper-right corner.
    - To use an existing dynamic block, click the row in the grid to open the dynamic block in edit mode.
 
 1. For **Customer Segments**, click the down arrow and and select each customer segment that you want to target with the dynamic block. Then, click <span class="btn">Done</span> to save the setting.
