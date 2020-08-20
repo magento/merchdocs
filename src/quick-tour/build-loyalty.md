@@ -4,7 +4,7 @@ title: Build Loyalty
 ---
 
 Purchase Orders
-:  Use [Purchase Orders][4] and [Approval Rules][5] to allow purchasing according to your company's purchasing policies.
+:  Use [purchase orders][4] and [approval rules][5] to allow purchasing according to your company's purchasing policies.
 
 Friction-Free Purchasing
 :  Magento’s self-service model makes it easy to build loyalty for fast, [friction-free purchasing]({% link customers/account-dashboard.md %}).
