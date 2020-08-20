@@ -24,5 +24,5 @@ Punch Out Solutions
 [1]: https://marketplace.magento.com/
 [2]: https://www.punchoutcatalogs.com/
 [3]: https://www.punchout2go.com/
-[4]: ../customers/account-dashboard-my-purchase-orders.html
-[5]: ../customers/account-dashboard-approval-rules.html
+[4]: {% link customers/account-dashboard-my-purchase-orders.md %}
+[5]: {% link customers/account-dashboard-approval-rules.md %}
