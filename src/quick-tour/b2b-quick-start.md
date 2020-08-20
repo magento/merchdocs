@@ -35,7 +35,7 @@ sections:
     url: /payment/payment-on-account.html
 
   - title: Purchase Orders
-    content: Magento supports Purchase Orders, which can be controlled by Approval Rules.
+    content: Magento supports purchase orders, which can be controlled by approval rules.
     url: /customers/account-dashboard-my-purchase-orders.html
 ---
 
