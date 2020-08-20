@@ -10,4 +10,4 @@ _SWAT Dashboard_
 
 ## Access SWAT
 
-On the Admin sidebar, go to ***Reports*** > System Insights > ***Site-Wide-Analysis Tool***.
+On the Admin sidebar, go to **Reports** > System Insights > **Site-Wide-Analysis Tool**.
