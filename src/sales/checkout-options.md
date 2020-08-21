@@ -10,10 +10,9 @@ _[Checkout Options]({% link configuration/sales/checkout.md %})_{:.ee-only}
 ## Change the checkout options
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
-
 1. On the left panel, expand **Sales** and choose **Checkout**.
-
 1. Set any of the following options you require.
+1. Click **Save Config**.
 
 ### Checkout Options
 
@@ -51,5 +50,3 @@ _[Checkout Options]({% link configuration/sales/checkout.md %})_{:.ee-only}
 - Payment Failed Template
 - Send Payment Failed Email Copy To
 - Send Payment Failed Email Copy Method
-
-1. Click **Save Config**.
