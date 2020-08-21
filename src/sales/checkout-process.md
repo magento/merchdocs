@@ -20,6 +20,7 @@ During the second step of the checkout process, the customer chooses the [paymen
 ![]({% link images/images/storefront-checkout-step2-payment-review.png %}){: .zoom}
 _Review & Payment_
 
+{:.b2b-only}
 ## Review and Payments - Purchase Order
 
 When your company has enabled purchase orders, all orders will be processed as purchase orders.
