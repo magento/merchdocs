@@ -4,7 +4,7 @@ title: Checkout
 
 When the checkout process begins, the transaction shifts to a secure, encrypted channel. A padlock symbol appears in the address bar of the browser, and the URL changes from `http` to `https`.
 
-From this point on, the goal is to gather the information necessary to complete the transaction. The Checkout page leads the customer through each step of the process. Customers who are logged into their accounts can complete checkout quickly, because much of the information is already in their accounts. Customers with a company account, with purchase orders, enabled, will have a slightly different workflow.
+From this point on, the goal is to gather the information necessary to complete the transaction. The Checkout page leads the customer through each step of the process. Customers who are logged into their accounts can complete checkout quickly, because much of the information is already in their accounts. Customers associated with a company account that uses purchase orders will have a slightly different workflow.
 
 ## Shipping
 
