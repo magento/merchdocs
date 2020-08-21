@@ -30,7 +30,7 @@ Available payment methods are determined by the company account.
 
    When using the **Payment on Account** method, the Custom Reference Number field can be used to reference an invoice number.
 
-1. Press the **Place Purchase Order** button.
+1. The customer clicks **Place Purchase Order**.
 
 The purchase order will be placed.
 
