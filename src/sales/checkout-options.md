@@ -11,7 +11,7 @@ _[Checkout Options]({% link configuration/sales/checkout.md %})_{:.ee-only}
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. On the left panel, expand **Sales**.
+1. On the left panel, expand **Sales** and choose **Checkout**.
 
 1. Set any of the following options you require.
 
