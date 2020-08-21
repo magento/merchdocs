@@ -23,7 +23,7 @@ _Review & Payment_
 {:.b2b-only}
 ## Review and Payments - Purchase Order
 
-When your company has enabled purchase orders, all orders will be processed as purchase orders.
+When a customer is associated with a company that has enabled purchase orders, all orders are processed as purchase orders.
 Available payments are determined by your company.
 
 1. Select a payment method. When using the **Payment on Account** method, the Custom Reference Number field can be used to reference an invoice number.
