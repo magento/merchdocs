@@ -32,7 +32,7 @@ Available payment methods are determined by the company account.
 
 1. The customer clicks **Place Purchase Order**.
 
-The purchase order will be placed.
+   The purchase order is placed.
 
 If the company has set up [Approval Rules]({% link customers/account-dashboard-approval-rules.md %}), the purchase order will go through the approval process. Otherwise, it will be processed immediately.
 
