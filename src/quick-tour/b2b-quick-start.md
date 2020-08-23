@@ -34,9 +34,9 @@ sections:
     content: Give companies the convenience of charging purchases to their account, up to the credit limit that you determine for the company.
     url: /payment/payment-on-account.html
 
-  - title: Integration
-    content: Magento includes a flexible application programming interface (API) that integrates with a variety of ERP solutions from Magento partners.
-    url: /system/integrations.html
+  - title: Purchase Orders
+    content: Magento supports purchase orders, which can be controlled by approval rules.
+    url: /customers/account-dashboard-my-purchase-orders.html
 ---
 
 Follow these links to learn about the Magento components that you will use to manage your stores for both business-to-business and business-to-consumer.

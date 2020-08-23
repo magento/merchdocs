@@ -70,51 +70,9 @@ The Luma sample data includes a _Contact Us Info_ block that can be customized f
 
 ### Method 2: Without sample data
 
-1. Create a CMS page for the Contact Us form:
+{:.bs-callout-warning}
+Starting with Magento 2.4.0, the contact form can no longer call inside a CMS block or CMS page. All customization of the contact form should be done using layout xml or custom theme templates.
 
-    - Follow the standard instructions to create a [new page]({% link cms/page-add.md %}), with the following settings:
+By default, shoppers access the contact form using the Contact link in the footer of the storefront page. For more information about customizing the contact page, refer to our [Frontend Developer Guide][theme-guide]{:target="_blank"}.
 
-      **Page Title:** Contact Us
-      **Content Heading:** Contact Us
-
-    - Under **Search Engine Optimization**, enter the following settings:
-
-      **URL Key:** contact
-      **Meta Tile:** Contact Us
-
-    - Under **Design**, set **Layout** to `1 column`.
-
-1. Under **Content**, do the following:
-
-    - Add any information that you want to include. The content that you enter will appear to the left of the form.
-
-    - If you want to align your content with the top of the form, enclose it in a `<div>` tag that floats left as shown in the following example:
-
-      **Example**
-
-      {% raw %}
-      ```html
-      <div style="float: left; padding-right: 15px;">
-      <p>We'd love to hear from you!</p>
-      <img src="{{media url="wysiwyg/home/home-erin.jpg"}}" alt="" />
-      </div>
-      ```
-      {% endraw %}
-
-1. Click <span class="btn">Show / Hide Editor</span> to remove the toolbar. Then, paste the following code on a line below the content that you entered in the last step.
-
-    **“Contact Us”**
-
-    {% raw %}
-    ```javascript
-    {{block class="Magento\Contact\Block\ContactForm"
-    name="contactForm" template="Magento_Contact::form.phtml"}}
-    ```
-    {% endraw %}
-
-1. When complete, click <span class="btn">Save Page</span>.
-
-    Your custom form now appears instead of the default form whenever a customer clicks the Contact Us link in the footer. Make sure to test your content on a mobile device to ensure that it renders correctly.
-
-    ![Example storefront - custom Contact Us page]({% link images/images/page-contact-us-custom.png %}){: .zoom}
-    _Contact Us Custom Page_
+[theme-guide]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/bk-frontend-dev-guide.html
