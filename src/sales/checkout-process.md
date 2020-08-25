@@ -21,7 +21,6 @@ During the second step of the checkout process, the customer chooses the [paymen
 _Review & Payment_
 
 {:.b2b-only}
-{:.b2b-only}
 ## Review and Payments - Purchase Order
 
 When a customer is associated with a company that has enabled purchase orders, all orders are processed as purchase orders.
