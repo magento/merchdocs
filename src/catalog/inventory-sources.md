@@ -21,7 +21,6 @@ All stores begin with a Default Source that must remain enabled:
 
 - All new products imported into Magento require a source and stock, automatically assigned for immediate access to inventory management.
 - Single Source merchants use the Default Source as their single point of inventory location and shipments.
-- Bundle products currently do not support multi-sourcing and must be assigned to Default Source and Default Stock.
 
 ## Edit sources
 
