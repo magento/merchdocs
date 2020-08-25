@@ -25,7 +25,7 @@ _[Checkout Options]({% link configuration/sales/checkout.md %})_{:.ee-only}
 
 ### Shoppping Cart
 
-- [Quote Lifetime]({% link cart-quote-lifetime.md %})
+- [Quote Lifetime]({% link sales/cart-quote-lifetime.md %})
 - After Adding a Product Redirect to Shopping Cart
 - Number of Items to Display Pager
 - Show [Cross-sell]({% link catalog/settings-advanced-cross-sells.md %}) Items in the Shopping Cart
