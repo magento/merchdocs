@@ -57,7 +57,7 @@ _Tags Fired in Shopping Cart Shown in Debug Mode_
     |Checkout option tracking|Universal Analytics|CheckoutOption|
     |Checkout tracking|Universal Analytics|Checkout|
     |Pageview tracking|Universal Analytics|gtm.dom|
-    |Product client tracking|Universal Analytics|ProductClick|
+    |Product click tracking|Universal Analytics|ProductClick|
     |Promo click tracking|Universal Analytics|PromotionClick|
     |Remove from cart tracking|Universal Analytics|RemoveFromCart|
 
