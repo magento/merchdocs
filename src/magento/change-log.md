@@ -4,6 +4,21 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what's new.
 
+## August 2020
+
+### New topic
+
+- [Multiple URL Rewrites]({% link marketing/url-rewrite-update-all.md %})
+
+### Updated topics
+
+{: .topics-table }
+|Topic |Change|
+|--- |--- |
+|[Password Options]({% link customers/password-options.md %})|Corrected information for _Password Reset Protection Type_.|
+|[Adding Product Video]({% link catalog/product-video.md %})|Updated to correct and clarify steps for collecting the key from the Google cloud console.|
+|Banners|Removed section for Banners, which was deprecated in 2.3.1 and is now removed. This functionality is now provided by [Dynamic Blocks]({% link cms/dynamic-blocks.md %}).|
+
 ## July 2020
 
 ### New topics
