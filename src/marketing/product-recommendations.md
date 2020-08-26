@@ -19,17 +19,7 @@ This dashboard displays a table of previously configured recommendations (if any
 
 ## Available recommendation types {#availablerectypes}
 
-Magento provides the following types of recommendations:
-
-- **Most viewed** - Recommends items most viewed by shoppers within the last seven days
-- **Most purchased** - Recommends items most purchased by shoppers within the last seven days
-- **Most added to cart** - Recommends items most frequently added to carts by shoppers within the last seven days
-- **Recommended for you** - Recommends items based on each shopper's current and previous on site behavior
-- **Viewed this, viewed that** - Recommends items most often viewed by shoppers who viewed the specified item
-- **Viewed this, bought that** - Recommends items most often purchased by shoppers who viewed the specified item
-- **Bought this, bought that** - Recommends items most often purchased by shoppers who purchased the specified item
-- **More like this** - Recommends items based on similar content and attributes
-- **Trending** - Recommends items based on recent momentum of product’s popularity
+[Learn]({% link marketing/prex-types.md %}) about the available recommendation types in Magento.
 
 ## Backup recommendations {#backup-recommendations}
 
@@ -87,7 +77,7 @@ The following table lists the storefront pages, where you can place the recommen
 |---|---|---|
 |**Home page**|At the top of main content<br>At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you<br>Trending|
 |**Category**|At the top of main content<br>At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you<br>Trending|
-|**Product Detail**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
+|**Product Detail**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending<br>Visual similarity|
 |**Cart**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
 |**Confirmation**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
 
