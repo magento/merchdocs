@@ -3,7 +3,7 @@ ee_only: true
 title: Most purchased
 ---
 
-The _Most purchased_ recommendation type recommends items most purchased by shoppers within the last seven days.
+The _Most purchased_ recommendation type recommends items most purchased by counting the number of sessions where a place-order action occurred within the last seven days.
 
 ## How it works
 
