@@ -8,15 +8,21 @@ To add product video, you must first obtain an API Key from your Google account 
 
 1. Log in to your Google account and visit the [Google Developers Console][1].
 
-1. Under _Use Google APIs_, click **Enable and manage APIs**.
+1. For **Search** at the top, enter `YouTube Data API v3` and click the search icon.
+
+1. When the API page is displayed, make sure it is enabled.
 
 1. In the left panel, choose **Credentials**.
 
-1. Expand the _Add Credentials_ menu, and choose **API key**.
+1. Depending on whether you have credentials or not, do one of the following:
 
-1. When prompted to create a new key, choose **Server key**.
+   - If you already have the needed credentials, copy the key in the _API keys_ table.
 
-1. Enter a name for the key and click <span class="btn">Create</span>.
+   - If you do not already have credentials for this API, click <span class="btn">Create Credentials</span>  at the top and follow the prompts to create the needed credentials. Under _Get your credentials_, copy the API key and click <span class="btn">Done</span>.
+
+1. Copy the API key to the clipboard.
+
+1. Click the Edit icon on the right and set the restrictions to make sure the API key is limited to the correct referrers.
 
 1. Wait a few moments while the key is generated and then copy the key to the clipboard.
 
@@ -50,6 +56,10 @@ To add product video, you must first obtain an API Key from your Google account 
 
 1. Enter the **URL** of the YouTube or Vimeo video.
 
+1. Click outside the field and wait for feedback on the API key or video.
+
+   If everything checks out, Youtube provides base information of the video
+
 1. Enter the **Title** and **Description** of the video.
 
 1. To upload a **Preview Image**, browse to the image and select the file.
@@ -58,11 +68,11 @@ To add product video, you must first obtain an API Key from your Google account 
 
 1. To determine how the video is used in the store, select the checkbox of each **Role** that applies:
 
-    - `Base Image`
-    - `Small Image`
-    - `Swatch Image`
-    - `Thumbnail`
-    - `Hide from Product Page`
+   - `Base Image`
+   - `Small Image`
+   - `Swatch Image`
+   - `Thumbnail`
+   - `Hide from Product Page`
 
 1. When complete, click <span class="btn">Save</span>.
 

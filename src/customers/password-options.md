@@ -15,12 +15,13 @@ The customer password options determine the level of security that is used for p
    ![]({% link images/images/config-customers-customer-configuration-password-options.png %}){: .zoom}
    [_Password Options_]({% link configuration/customers/customer-configuration.md %})
 
-1. Set the **Password Reset Protection Type** to the method you want to use for managing password reset requests:
+1. Set **Password Reset Protection Type** to the method you want to use for checking password reset requests:
 
-   | By IP and Email | The password can be reset online after a response is received from a reset notification sent to the email address associated with the Customer account. |
-   | By IP | The password can be reset online without additional confirmation. |
-   | By Email | The password can be reset only by responding to an email notification that is sent to the email address associated with the Customer account. |
-   | None | The password can be reset only by the store administrator. |
+   | By IP and Email | Check for previous attempts to reset password for specific email or from specific IP. |
+   | By IP | Check for previous attempts to reset password from specific IP. |
+   | By Email | Check for previous attempts to reset password for specific email. |
+   | None | Protection disabled (no limits for resetting password). |
+   **Max Number of Password Reset Requests** and **Min Time Between Password Reset Requests** are calculated based on this configuration.
 
 1. To limit the number of password reset requests sent per hour, do the following:
 
