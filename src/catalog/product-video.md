@@ -8,7 +8,7 @@ To add product video, you must first obtain an API Key from your Google account 
 
 1. Log in to your Google account and visit the [Google Developers Console][1].
 
-1. In the Search field at the top, enter `YouTube Data API v3` and click the search icon.
+1. For **Search** at the top, enter `YouTube Data API v3` and click the search icon.
 
 1. When the API page is displayed, make sure it is enabled.
 
