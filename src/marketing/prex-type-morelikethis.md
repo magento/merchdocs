@@ -21,3 +21,5 @@ By evaluating the attributes for the products being viewed or in a cart or on th
 -  "Similar to this"
 
 ## Example
+
+Image coming soon...

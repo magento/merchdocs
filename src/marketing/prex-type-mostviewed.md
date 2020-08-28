@@ -27,3 +27,5 @@ Belonging to a category of recommendation types referred to as most popular, _Mo
 -  "Top sellers"
 
 ## Example
+
+Image coming soon...

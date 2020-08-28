@@ -22,3 +22,5 @@ Similar to _Bought this, bought that_, the _Viewed this, bought that_ recommenda
 -  What do others buy after viewing this item?"
 
 ## Example
+
+Image coming soon...

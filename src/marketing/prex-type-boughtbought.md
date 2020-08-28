@@ -22,3 +22,5 @@ The _Bought this, bought that_ recommendation type recommends items that tend to
 -  "Frequently bought together"
 
 ## Example
+
+Image coming soon...

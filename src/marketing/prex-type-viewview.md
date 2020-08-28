@@ -24,3 +24,5 @@ A simple, but effective recommendation type, _Viewed this, viewed that_ displays
 -  "People with similar interests also viewed"
 
 ## Example
+
+Image coming soon...

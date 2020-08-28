@@ -7,7 +7,7 @@ The _Visual similarity_ recommendation type recommends similar looking products 
 
 ## How it works
 
-The Visual similarity recommendation type offers recommendations for other products in your catalog that have a visual similarity to the product image currently being viewed. You do not need to do anything to the images in your catalog for this recommendation type to work. Adobe Sensei uses AI to process and analyze the default product images in your catalog and builds attributes used to determine visual similarities. Because this recommendation type is not applicable to most catalogs, it is not enabled by default. You must explicitly enable this recommendation type.
+The _Visual similarity_ recommendation type offers recommendations for other products in your catalog that have a visual similarity to the product image currently being viewed. You do not need to do anything to the images in your catalog for this recommendation type to work. Adobe Sensei uses AI to process and analyze the default product images in your catalog and builds attributes used to determine visual similarities. Because this recommendation type is not applicable to most catalogs, it is not enabled by default. You must explicitly enable this recommendation type.
 
 ### Enable Visual similarity recommendation type
 
@@ -38,4 +38,4 @@ After you enable visual recommendations, Adobe Sensei initiates the image proces
 
 ## Example
 
-Show image of cart page with bags/watches.
+Image coming soon...

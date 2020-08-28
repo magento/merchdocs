@@ -21,3 +21,5 @@ By analyzing a shopper's browsing and purchase history, _Recommended for you_ di
 -  "Inspired by your shopping trends"
 
 ## Example
+
+Image coming soon...
