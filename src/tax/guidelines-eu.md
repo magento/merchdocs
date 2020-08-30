@@ -38,7 +38,7 @@ Create the following tax rules:
 |Tax rules |Settings|
 |--- |--- |
 |Retail-France-StandardVAT |Customer Class: Retail Customer <br/>Tax Class: VAT-Standard <br/>Tax Rate: France-StandardVAT <br/>Priority: 0 <br/>Sort Order: 0|
-|Retail-France-ReducedVAT|Customer Class: Retail Customer< <br/>Tax Class: VAT Reduced <br/>Tax Rate: France-ReducedVAT <br/>Priority: 0 <br/>Sort Order: 0|
+|Retail-France-ReducedVAT|Customer Class: Retail Customer <br/>Tax Class: VAT Reduced <br/>Tax Rate: France-ReducedVAT <br/>Priority: 0 <br/>Sort Order: 0|
 |Retail-Germany-StandardVAT|Customer Class: Retail Customer <br/>Tax Class: VAT-Standard <br/>Tax Rate: Germany-StandardVAT <br/>Priority: 0 <br/>Sort Order: 0|
 |Retail-Germany-ReducedVAT|Customer Class: Retail Customer <br/>Tax Class: VAT-Reduced <br/>Tax Rate: Germany-ReducedVAT <br/>Priority: 0 <br/>Sort Order: 0|
 
