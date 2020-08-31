@@ -7,12 +7,21 @@ The _Visual similarity_ recommendation type recommends similar looking products 
 
 ## How it works
 
-The _Visual similarity_ recommendation type offers recommendations for other products in your catalog that have a visual similarity to the product image currently being viewed. You do not need to do anything to the images in your catalog for this recommendation type to work. Adobe Sensei uses AI to process and analyze the default product images in your catalog and builds attributes used to determine visual similarities. Because this recommendation type is not applicable to most catalogs, it is not enabled by default. You must explicitly enable this recommendation type.
+The _Visual similarity_ recommendation type offers recommendations for other products in your catalog that have a visual similarity to the imagery currently being viewed. Visual similarity includes aspects such as:
+
+-  Color
+-  Shape
+-  Size
+-  Texture
+-  Material
+-  Style
+
+You do not need to do anything to the images in your catalog for this recommendation type to work. Adobe Sensei uses AI to process and analyze the imagery in your catalog and builds attributes used to determine visual similarities. Because this recommendation type is not applicable to most catalogs, it is not enabled by default. You must explicitly enable this recommendation type.
 
 ### Enable Visual similarity recommendation type
 
 {:.bs-callout-info}
-The Visual similarity recommendation type is available when you [install an optional module](https://devdocs.magento.com/recommendations/install-configure.html).
+The _Visual similarity_ recommendation type is available when you [install an optional module](https://devdocs.magento.com/recommendations/install-configure.html#vissimsupport).
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Product Recommendations** to display the **Product Recommendations** dashboard.
 
@@ -34,7 +43,7 @@ After you enable visual recommendations, Adobe Sensei initiates the image proces
 
 -  "You may also like"
 -  "We found other products you might like"
--  "Inspired by your style"
+-  "Inspired by this style"
 
 ## Example
 

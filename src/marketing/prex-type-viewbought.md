@@ -3,7 +3,7 @@ ee_only: true
 title: Viewed this, bought that
 ---
 
-The _Viewed this, bought that_ recommendation type recommends items most often purchased by shoppers who viewed the specified item.
+The _Viewed this, bought that_ recommendation type recommends products other shoppers purchased disproportionally more after viewing the current product.
 
 ## How it works
 

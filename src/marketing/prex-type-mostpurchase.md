@@ -3,11 +3,11 @@ ee_only: true
 title: Most purchased
 ---
 
-The _Most purchased_ recommendation type recommends items most purchased by counting the number of sessions where a place-order action occurred within the last seven days.
+Commonly referred to as "Top sellers", the _Most purchased_ recommendation type recommends items most purchased within the last seven days.
 
 ## How it works
 
-Belonging to a category of recommendation types referred to as most popular, _Most purchased_ recommends products that were "Top sellers" within the last seven days. You can use this recommendation type on all page types. When used on the home page, _Most purchased_ displays the products most purchased within all categories of your catalog. When used on a product detail page, _Most purchased_ displays the products purchased within the same category as the product being viewed. When used on the cart page, _Most purchased_ displays the products most purchased within each category of the products in the cart.
+Belonging to a category of recommendation types that are popularity-based, _Most purchased_ recommends products by counting the number of sessions where a place-order action occurred within the last seven days. You can use this recommendation type on all page types. This recommendation type uses [catalog filtering]({% link marketing/product-recommendations.md %}#filter-recommendations) to determine which products to display.
 
 ### Where used
 

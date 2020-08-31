@@ -3,11 +3,11 @@ ee_only: true
 title: Most added to cart
 ---
 
-The _Most added to cart_ recommendation type recommends items most added to a cart by counting the number of sessions where an add-to-cart action occurred within the last seven days.
+The _Most added to cart_ recommendation type recommends items most added to a cart within the last seven days.
 
 ## How it works
 
-Belonging to a category of recommendation types referred to as most popular, _Most added to cart_ recommends products that were more frequently added to a cart by counting the number of sessions where an add-to-cart action occurred within the last seven days. You can use this recommendation type on all page types. When used on the home page, _Most added to cart_ displays the products that were most added to carts within all categories of your catalog. When used on a product detail page, _Most added to cart_ displays the products that were most added to carts within the same category as the product being viewed. When used on the cart page, _Most added to cart_ displays the products that were most added to carts within each category of the products in the cart.
+Belonging to a category of recommendation types that are popularity-based, _Most added to cart_ recommends products that were more frequently added to a cart by counting the number of sessions where an add-to-cart action occurred within the last seven days. You can use this recommendation type on all page types. This recommendation type uses [catalog filtering]({% link marketing/product-recommendations.md %}#filter-recommendations) to determine which products to display.
 
 ### Where used
 
