@@ -38,4 +38,10 @@ After you enable visual recommendations, Adobe Sensei initiates the image proces
 
 ## Example
 
-Image coming soon...
+The following image shows the product detail page for the _Joust Duffle Bag_:
+
+   ![Joust Duffle Bag]({% link images/images-ee/visual-sim-pdp.png %}){: .zoom}
+
+The following shows the _Visual similarity_ recommendation unit for _Joust Duffle Bag_:
+
+   ![Visual similarity unit]({% link images/images-ee/visual-sim-unit.png %}){: .zoom}
