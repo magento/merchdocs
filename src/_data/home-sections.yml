@@ -2,6 +2,10 @@
     content: Discover resources available to members of the Magento ecosystem. Follow the customer journey to explore your store, and learn about key features.
     url: /getting-started.html
 
+  - title: What's new in the guide?
+    content: If you are returning to our user guide, check out our list of new topics and information updates.
+    url: /whats-new.html
+
   - title: Set up your store
     content: Manage the configuration, store information, and branding of your store. Learn digital commerce best practices.
     url: /configuration/configuration-basic.html
@@ -10,7 +14,7 @@
     content: Create products, upload images, establish pricing, and set up inventory. Organize products by category, and create a main menu for your store.
     url: /catalog.html
 
-  - title: Design and publish your pages
+  - title: Design and publish
     content: Make your site a destination with compelling content. Learn how to create pages with images, video, and dynamic content, and to modify existing pages, blocks, and widgets.
     url: /content.html
 
@@ -25,10 +29,6 @@
   - title: Manage your store
     content: Create new store views in different languages, and manage multisite installations with different currency rates and taxes. Learn to use system tools to manage store data.
     url: /stores/stores.html
-
-  - title: Manage the system
-    content: Learn how to import and export data. manage security and permissions, and install extensions. Use the system tools to manage the cache and indexing, and schedule backups.
-    url: /system/system.html
 
   - title: Share your knowledge
     content: Become a Magento documentation contributor by suggesting improvements, logging issues, and submitting revisions to our open source documentation repository.

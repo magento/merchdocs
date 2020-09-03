@@ -1,11 +1,46 @@
 title: What’s New in the User Guide
 description: 
   This page contains recent changes that we think you'd like to know about.
-  We exclude from this list proofreading, spelling checks, and all minor updates.
+  We exclude from this list proofreading, spelling checks, and insignificant updates.
 link: /getting-started/whats-new.html
 thread: /whatsnew-feed.xml
-updated: Tue Jul 21 11:09:27 2020
+updated: Wed Aug 26 12:49:06 2020
 entries:
+- description: Added missing options in the [Checkout Options](https://docs.magento.com/user-guide/sales/checkout-options.html)
+    topic and information about purchase order checkout in [Checkout](https://docs.magento.com/user-guide/sales/checkout-process.html).
+  versions: 2.4.x
+  type: Major update
+  date: August 25, 2020
+  link: https://github.com/magento/merchdocs/pull/682
+- description: Updated [Contact Us](https://docs.magento.com/user-guide/stores/contact-us.html)
+    to remove old information about creating a new page using HTML.
+  versions: 2.4.0
+  type: Major update
+  date: August 18, 2020
+  link: https://github.com/magento/merchdocs/pull/676
+- description: Added a new topic for updating [Multiple URL Rewrites](https://docs.magento.com/user-guide/marketing/url-rewrite-update-all.html).
+  versions: 2.4.x
+  type: New topic
+  date: August 18, 2020
+  link: https://github.com/magento/merchdocs/pull/673
+- description: Updated [Adding Product Video](https://docs.magento.com/user-guide/catalog/product-video.html)
+    to correct and clarify steps for collecting the key from the Google cloud console.
+  versions: 2.4.x
+  type: Major update
+  date: August 17, 2020
+  link: https://github.com/magento/merchdocs/pull/667
+- description: Important notation added to [In-store Delivery](https://docs.magento.com/user-guide/shipping/shipping-in-store-delivery.html)
+    about requirements before proceeding with setup.
+  versions: 2.4.0
+  type: Minor update
+  date: August 7, 2020
+  link: https://github.com/magento/merchdocs/pull/657
+- description: Information for _Password Reset Protection Type_ corrected in [Password
+    Options](https://docs.magento.com/user-guide/customers/password-options.html).
+  versions: 2.4.x
+  type: Minor update
+  date: August 5, 2020
+  link: https://github.com/magento/merchdocs/pull/650
 - description: Added new topics and updated information for the [In-store Delivery
     method](https://docs.magento.com/user-guide/shipping/shipping-in-store-delivery.html)
     provided by Inventory Management.
@@ -43,7 +78,7 @@ entries:
     topic and the [My Purchase Orders](https://docs.magento.com/user-guide/customers/account-dashboard-my-purchase-orders.html)
     topic.
   versions: 2.4.0
-  type: Major update, New topic
+  type: New topics
   date: July 28, 2020
   link: https://github.com/magento/merchdocs/pull/558
 - description: Removed the Amazon Sales Channel 2.x/3.x section due to incompatibility
