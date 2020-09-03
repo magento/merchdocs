@@ -36,7 +36,7 @@ _List of Product and Price Alert Subscriptions_
     - To offer alerts when out-of-stock products become available again, set **Allow Alert When Product Comes Back in Stock** to `Yes`.
 
       {:.bs-callout-info}
-      The _Sign up to get notified when this product is back in stock_ message appears only when **Stores > Catalog > Inventory > Stock Options - Display Out of Stock Products** is set to `Yes`.
+      The _Sign up to get notified when this product is back in stock_ message appears only when **Display Out of Stock Products** is set to `Yes` (located in the Configuration at Catalog > Inventory > Stock Options).
 
     - Set **Stock Alert Email Template** to the template that you want to use for product stock alerts.
 
