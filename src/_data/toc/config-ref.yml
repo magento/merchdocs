@@ -194,8 +194,6 @@ pages:
   children:
   - label: Magento Web API
     url: "/configuration/services/magento-web-api.html"
-  - label: GraphQL
-    url: "/configuration/services/graphql.html"
   - label: Magento Services
     url: "/configuration/services/saas.html"
   - label: OAuth
