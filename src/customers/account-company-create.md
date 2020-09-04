@@ -54,6 +54,7 @@ Before you begin, make sure that [B2B Features]({% link stores/b2b-features.md %
    ![]({% link images/images-b2b/customer-account-company-administrator.png %})
    _Company Administrator_
 
+1. If enabled, complete the reCAPTCHA field.
 1. When complete, click <span class="btn">Submit</span>.
 
    When the request to create a company account is approved by the merchant, an email notification is sent to the company administrator with instructions to set the account password.
