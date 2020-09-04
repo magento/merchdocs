@@ -108,7 +108,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
    |Apply as percentage of original|Discounts item by subtracting a percentage of the regular price. For example: Enter 10 in Discount Amount for a final price that is marked down 10% from the regular price.|
    |Apply as fixed amount|Discounts item by subtracting a fixed amount from the regular price. For example: Enter 10 in Discount Amount for a final price that is $10 less than the regular price.|
-   |Adjust final price to this percentage|Adjusts the final price by a percentage of the regular price. For example: Enter 50 in Discount Amount for a final price that is marked down 50% from the regular price.|
+   |Adjust final price to this percentage|Adjusts the final price by a percentage of the regular price. For example: Enter 25 in Discount Amount for a final price that is marked down 75% from the regular price.|
    |Adjust final price to discount value|Sets the final price to a fixed, discounted amount. For example: Enter 20 in Discount Amount for a final price of $20.00.|
 
     {:.bs-callout-info}
