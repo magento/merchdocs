@@ -15,7 +15,7 @@ Security is an organizational challenge. Merchants should assign responsibility 
 
 Work with reliable hosting providers and solution integrators. When evaluating their qualifications, ask about their approach to security. Verify that they have a secure software development life cycle in accord with industry standards such as The Open Web Application Security Project ([OWASP][1]), and that they test their code for security issues.
 
-Third party plugins or extensions are a popular attack vector. Select extensions from reputable vendors only, such as [ExtDN members](https://extdn.org/). Ensure that the vendor communicates transparently and pro-actively about security issues. They should alert you when a critical flaw is discovered, not the other way around.
+Third party plugins or extensions are a popular attack vector. Select extensions from reputable vendors only, such as those available on Magento Marketplace. Ensure that the vendor communicates transparently and pro-actively about security issues.
 
 If you are starting a new site, consider launching the entire site over HTTPs. Taking the lead on this issue, Google now uses HTTPs as a ranking factor.
 
