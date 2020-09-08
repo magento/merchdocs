@@ -30,7 +30,7 @@ Protecting the environment is the most critical aspect of ensuring the security 
 - Make sure that the server operating system is secure. Work with your hosting provider to ensure that no unnecessary software is running on the server.
 - Use only secure communications protocol (SSH/SFTP/HTTPS) to manage files, and disable FTP.
 - Magento includes `.htaccess` files to protect system files when using the Apache web server. If you use a different web server such as NGINX, make sure that all system files and directories are protected. For a sample NGINX configuration, see [magento-nginx.conf](https://gist.github.com/gwillem/cd5ae6845fa33aa0d481){:target="\_blank"} on GitHub.
-- Use [strong](https://support.google.com/accounts/answer/32040?hl=en), unique passwords with a minimum of eight characters, and change them periodically.  
+- Use [strong](https://support.google.com/accounts/answer/32040?hl=en), unique passwords with a minimum of eight characters, and change them periodically.
 - Keep the system up to date, and immediately install patches when new security issues are discovered.
 - Closely monitor any issues that are reported for software components used by your Magento installation, including the operating system, MySQL database, PHP, Redis (if used), Apache or NGINX, Memcached, Solr, and any other components in your specific configuration.
 - Limit access to `cron.php` file to only required users. For example, restrict access by IP address. If possible, block access completely and execute the command using the system cron scheduler.
