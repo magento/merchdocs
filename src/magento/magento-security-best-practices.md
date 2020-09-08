@@ -92,7 +92,7 @@ If your system is not immediately patched after a major security breach, there i
 
 ### Security review
 
-- Run a server-side [Magento malware and vulnerability monitor][12] to quickly alert you of security issues with your files, database, admin accounts and third party components.
+- Run a server-side [Magento malware and vulnerability monitor][12] to quickly alert you of security issues with your files, database, admin accounts, and third party components.
 - Check periodically for unauthorized Admin users.
 - {:.ee-only}Check the [Admin Actions Log]({% link system/action-log.md %}) for suspicious activity.
 - Use automated log review tools such as [Apache Scalp][13].
