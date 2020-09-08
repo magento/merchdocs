@@ -49,7 +49,7 @@ Protecting the environment is the most critical aspect of ensuring the security 
 
 - Make sure that all applications running on the server are secure. Keep all software up to date, and apply patches as recommended.
 - Avoid running other software on the same server as Magento, especially if it is accessible from the Internet. Vulnerabilities in blog applications such as Wordpress can expose private information from Magento. Install such software on a separate server or virtual machine.
-- Do not install web-based database managers (such as PHPmyAdmin or Adminer) on your production server, as they can be used as backdoor by attackers.
+- Do not install third-party web-based database managers on your production server, as they might provide backdoor access to intruders.
 
 ### Admin desktop environment
 
