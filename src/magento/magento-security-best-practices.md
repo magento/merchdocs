@@ -9,7 +9,7 @@ A compromised site can have long-term consequences for both customers and mercha
 
 This guide outlines a multifaceted approach to improve the security of your Magento installation. Although there is no single way to eliminate all security risks, there are many things that you can do to make your site a less attractive target. It is crucial for hosting providers, system integrators, and merchants to work together to establish and maintain a secure environment, implement methods for early detection, and determine a plan of action in the event of a breach.
 
-Security is an organizational challenge. Merchants should assign responsibility for implementing and maintaining these best practices, ideally to a person within the organization. Threats evolve on a daily basis, and securing your store is a continuous effort.
+Security is an organizational challenge. Merchants should assign responsibility to implement and maintain these best practices, ideally to a person within the organization. Threats evolve on a daily basis, and securing your store is a continuous effort.
 
 ## Start right
 
