@@ -70,7 +70,7 @@ Your effort to protect your Magento installation starts with the initial setup, 
   Check with your hosting provider before implementing a custom Admin URL. Some hosting providers require a standard URL to meet firewall protection rules.
 - Block access to any development, staging, or testing systems. Use IP [allow lists](https://www.sonassi.com/knowledge-base/magento-kb/secure-your-magento-admin/) and `.htaccess` password protection. When compromised, such systems can produce a data leak or be used to attack the production system.
 - Use the correct file permissions. Core Magento and directory files should be set to ready only, including `app/etc/local.xml` files.
-- Use a strong password for the Magento Admin. To learn more, see [Creating a strong password](https://support.google.com/accounts/answer/32040?hl=en).
+- Use a [strong](https://support.google.com/accounts/answer/32040?hl=en) password for the Magento Admin.
 - Take advantage of Magento’s security-related configuration settings for [Admin Security]({% link stores/security-admin.md %}), [Password Options]({% link customers/password-options.md %}), [Two-Factor Authentication for Admin access]({% link stores/security-two-factor-authentication.md %}), [CAPTCHA](http://merch.docs.magento.com/ce/user_guide/Magento_Community_Edition_User_Guide.html#configuration/advanced/admin.html), and [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).
 - Take advantage of Magento’s free [Magento Security Scan Tool](https://account.magento.com/scanner?_ga=2.67627665.1606684099.1543252630-49206304.1531415640)! Monitor your sites for security risks, update malware patches, and detect unauthorized access with this tool.
 
