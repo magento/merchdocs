@@ -39,7 +39,7 @@ Protecting the environment is the most critical aspect of ensuring the security 
 
 - Automate the deployment process, if possible, and use private keys for data transfer.
 - Limit access to the Magento Admin by updating the allow list with the IP address of each computer that is authorized to use the Admin and install extensions. For examples of how to add IP addresses to the allow list, see [Secure Your Magento Admin](https://www.sonassi.com/knowledge-base/magento-kb/secure-your-magento-admin/){:target="\_blank"}.
-- Do not install extensions directly on a production server. 
+- Do not install extensions directly on a production server.
 - Use [two-factor authorization]({% link stores/security-two-factor-authentication.md %}) (2FA) for Admin logins. For Magento releases prior to 2.3.x, there are extensions available that generate a one-time passcode from your browser, phone, or token.
 - Review your server for “development leftovers.” Make sure there are no accessible log files, publicly visible .git directories, tunnels to execute SQL, database dumps, backup archives, `phpinfo` files, or any other unprotected files that are not required and might be used in an attack.
 - Limit outgoing connections to only those that are required, such as for a payment integration.
