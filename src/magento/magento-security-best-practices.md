@@ -27,7 +27,7 @@ Protecting the environment is the most critical aspect of ensuring the security 
 
 ### Server environment
 
-- Make sure that the server operating system is secure. Work with your hosting provider to ensure that there is no unnecessary software running on the server.
+- Make sure that the server operating system is secure. Work with your hosting provider to ensure that no unnecessary software is running on the server.
 - Use only secure communications protocol (SSH/SFTP/HTTPS) to manage files, and disable FTP.
 - Magento includes `.htaccess` files to protect system files when using the Apache web server. If you use a different web server such as NGINX, make sure that all system files and directories are protected. For a sample NGINX configuration, see [magento-nginx.conf](https://gist.github.com/gwillem/cd5ae6845fa33aa0d481){:target="\_blank"} on GitHub.
 - Use strong and unique passwords, and change them periodically. Strong means: computer generated and a minimum of 8 characters.
