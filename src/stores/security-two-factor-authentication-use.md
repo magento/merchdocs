@@ -6,7 +6,7 @@ The following instructions show how to configure two-factor authentication durin
 
 ## Google Authenticator
 
-### Step 1: Configure Google Authenticatorn
+### Step 1: Configure Google Authenticator
 
 1. Enter your account credentials and sign in to the Magento _Admin_.
 
