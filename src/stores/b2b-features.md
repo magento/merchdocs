@@ -7,7 +7,7 @@ group: getting-started
 Each website in your Magento installation can be configured to make available some, or all, of the following B2B features from the storefront.
 
 - [Company]({% link customers/account-companies.md %})
-- [Shared Catalog] ({% link catalog/catalog-shared.md %})
+- [Shared Catalog]({% link catalog/catalog-shared.md %})
 - [B2B Quote]({% link sales/quotes.md %})
 - [Quick Order]({% link sales/quick-order.md %})
 - [Requisition List]({% link customers/account-dashboard-requisition-lists.md %})
