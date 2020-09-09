@@ -21,4 +21,4 @@ With Magento v2.3.3+, integrating your Magento store is a quick, simple process 
 
 The most recent Magento release contains the following enhancement:
 
-- To enable customers to adjust when orders are synced to Yotpo, the following Yotpo extension functions have now been made programmatically accessible: getOrderCollection, setOrderCollectionLimit, and addOrderCollection.
+The following Yotpo extension functions are now programmatically accessible: `getOrderCollection`, `setOrderCollectionLimit`, and `addOrderCollection`. This enhancement enables customers to adjust when Magento orders are synced to Yotpo.
