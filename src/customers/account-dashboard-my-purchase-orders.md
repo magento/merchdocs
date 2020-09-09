@@ -28,7 +28,7 @@ If an item in a purchase order is out-of-stock, or has insufficient quantity ava
 
 ## Bulk approval/rejection
 
-As of Magneto 2.4.1, approvers may approve or reject mutliple purchase orders at once. 
+As of Magneto 2.4.1, approvers may approve or reject mutliple purchase orders at once.
 
 1. On the _My Purchase Order_ page, go to the Requires My Approval tab.
 1. Using the checkboxes, select the purchase orders you wish to approve or reject.
