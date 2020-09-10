@@ -2,7 +2,7 @@
 title: My Purchase Orders
 ---
 
-When Purchase Orders are enabled for a company, all orders are automatically created as Purchase Orders (PO). Company users with proper permissions can create, edit, and delete POs that they create, as well as POs created by subordinate users.
+When Purchase Orders are enabled for a company, all orders are automatically created as Purchase Orders (PO). Company users with the required permissions can create, edit, and delete POs that they create, as well as POs created by subordinate users.
 
 While logged into the store, click **My Purchase Orders** in left panel.
 
