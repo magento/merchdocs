@@ -67,5 +67,5 @@ By default, all B2B features are initially disabled. However, they are always av
      For Specific Shipping Methods, select the **Shipping Methods** that you want to make available to your customers by holding down the Ctrl key (PC) or the Command key (Mac) as you click each option.
 
      ![B2B configuration - Default Shipping Methods]({% link images/images-b2b/config-general-b2b-shipping-methods.png %}){: .zoom}
- 
+
 1. When complete, click <span class="btn">Save Config</span>.
