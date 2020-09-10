@@ -32,7 +32,7 @@ Starting with Magneto 2.4.1, approvers can approve or reject multiple purchase o
 
 1. On the _My Purchase Order_ page, go to the Requires My Approval tab.
 1. Select the checkbox for each purchase order you want to approve or reject.
-1. Click the <span class="btn">Approve Selected</span> or the <span class="btn">Reject Selected</span> button.
+1. Click <span class="btn">Approve Selected</span> or <span class="btn">Reject Selected</span>.
 
 You can only select purchase orders on which you can take an action. Others are grayed out.
 Company Administrators can make bulk approvals or rejections for any active Purchase Orders in their Company.
