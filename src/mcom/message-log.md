@@ -8,6 +8,16 @@ Message Log enables you to view message processing logs, message history, and fu
 ![Message Log]({% link images/images-ee/mcom-message-log.png %}){: .zoom}
 _Message Log_
 
+## Enable message performance logs
+
+1. Log into the Magento Commerce Admin.
+1. On the _Admin_ sidebar, go to **Stores** > **Configuration** in the Settings section.
+1. Click **MCOM Connector**, then click **Configuration**.
+1. Scroll down to the Performance Monitor section and enable desired New Relic or Logger Output options.
+1. Click **Save Config**.
+
+See the [Message performance section](https://omsdocs.magento.com/integration/connector/view-logs/#message-performance) of the Views logs topic in the Order Management System (OMS) documentation for more information about what metrics are available out-of-the-box, an example log file, and more.
+
 ## View message processing logs
 
 1. On the _Admin_ sidebar, go to **MCOM** > **Message Log**.
