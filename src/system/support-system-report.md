@@ -34,10 +34,10 @@ You can find useful information about installed modules, including the [Connecto
 To view report info for each installed module:
 
 1. On the _Admin_ sidebar go to **System** > **Support** > **System Report**.
-1. Click **New Report**.
-1. Select **Modules** from the Groups list and click **Create**.
+1. Click <span class="btn">New Report</span>.
+1. Select **Modules** from the Groups list and click <span class="btn">Create</span>.
 1. After the report generates, click **Select** and then **View** to see all module versions.
-1. Click **Download** to download the report.
+1. Click <span class="btn">Download</span> to download the report.
 
     ![System report of installed modules]({% link images/images-ee/system-report-new.png %}){: .zoom}
    _System report of installed modules_
