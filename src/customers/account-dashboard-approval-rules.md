@@ -22,7 +22,7 @@ Depending on the company role and permissions, users may have the option to edit
 ## Create an approval rule
 
 ![]({% link images/images-b2b/storefront-create-approval-rule.png %}){: .zoom}
-_Create a new Approval Rules_
+_Creating a new approval rule_
 
 1. Click <span class="btn">Add New Rule<span> to create a new rule.
 
