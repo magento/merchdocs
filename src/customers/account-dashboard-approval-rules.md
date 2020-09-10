@@ -17,7 +17,7 @@ To access the approval rules for your company, click **Approval Rules** in the l
 ![]({% link images/images-b2b/storefront-approval-rules.png %}){: .zoom}
 _Company Approval Rules_
 
-Depending on the company role and permissions, users may have the option to Edit, Delete, or View approval rules.
+Depending on the company role and permissions, users may have the option to edit, delete, or view approval rules.
 
 ## Create an approval rule
 
