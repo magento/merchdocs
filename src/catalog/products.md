@@ -18,6 +18,7 @@ _Products Grid_{:.ee-only}
 |Control|Description|
 |--- |--- |
 |Add Product|Initiates the process to create a new simple product. To choose a specific product type, click the down arrow. Options: [Simple Product]({% link catalog/product-create-simple.md %}) / [Configurable Product]({% link catalog/product-create-configurable.md %}) / [Grouped Product]({% link catalog/product-create-grouped.md %}) / [Virtual Product]({% link catalog/product-create-virtual.md %}) / [Bundle Product]({% link catalog/product-create-bundle.md %}) / [Downloadable Product]({% link catalog/product-create-downloadable.md %}) / <span class="ee-only">[Gift Card]({% link catalog/product-gift-card.md %})</span>|
+|Export Full Catalog|Manually request a full catalog export from Magento Commerce. Outgoing messages will be batched in chunks of 5000.|
 |Actions|Lists all actions that can be applied to selected products in the list. To apply an action to a product or group of products, select the checkbox in the first column of each product. Options: Delete / Change Status / Update Attributes|
 |Filters|Initiates a catalog search based on the current filters.|
 |Default View|Indicates the current grid column layout. If there are saved grid column views, you can choose another.|
