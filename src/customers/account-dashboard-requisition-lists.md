@@ -33,7 +33,7 @@ _Requisition Lists_
 
 ## Add products to a requisition list
 
-Products can be added to a requisition list from product pages in the storefront, from the shopping cart, and from existing orders.
+Products can be added to a requisition list from product pages in the storefront, and from existing orders.
 
 ### Method 1: From the Product Detail page
 
