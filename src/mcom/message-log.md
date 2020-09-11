@@ -11,10 +11,10 @@ _Message Log_
 ## Enable message performance logs
 
 1. Log into the Magento Commerce Admin.
-1. On the _Admin_ sidebar, go to **Stores** > **Configuration** in the Settings section.
-1. Click **MCOM Connector**, then click **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. In the left panel, expand **MCOM Connector** and choose **Configuration**.
 1. Scroll down to the Performance Monitor section and enable desired New Relic or Logger Output options.
-1. Click **Save Config**.
+1. Click <span class="btn">Save Config</span>.
 
 See the [Message performance section](https://omsdocs.magento.com/integration/connector/view-logs/#message-performance) of the Views logs topic in the Order Management System (OMS) documentation for more information about what metrics are available out-of-the-box, an example log file, and more.
 

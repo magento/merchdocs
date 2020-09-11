@@ -8,7 +8,7 @@ You can manually request a full catalog export from Magento Commerce. This featu
 
 Outside of manually exporting the full catalog, products are added to this queue after a new product is created, an existing product is updated, or after a bulk update to product attributes.
 
-Once requested, these outgoing messages will be exported to a .csv file in chunks of 5,000.
+When requested, these outgoing messages will be exported to a .csv file in chunks of 5,000.
 
 ## Export the full catalog
 
@@ -16,7 +16,7 @@ Once requested, these outgoing messages will be exported to a .csv file in chunk
 1. Click <span class="btn">Export Full Catalog</span>.
 
    ![Export Full Catalog]({% link images/images-ee/products-export-full.png %}){: .zoom}
-_Export Full Catalog_{:.ee-only}
+   _Export Full Catalog_{:.ee-only}
 
 1. Click <span class="btn">OK</span> in the confirmation dialog.
 
