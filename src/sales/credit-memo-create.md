@@ -74,7 +74,7 @@ _Create Credit Memo_
 
       This field initially shows the total shipping amount from the order that is available for refund. It is equal to the full shipping amount from the order, less any shipping amount that has already been refunded. Like the quantity, the amount can be reduced, but not increased.
 
-   - For **Adjustment Refund**, enter a value to be added to the total amount refunded as an additional refund that does not apply to any particular part of the order (shipping, items, or tax).
+   - For **Adjustment Refund**, enter a value to be added to the total amount refunded as an additional refund that does not apply to any particular part of the order (shipping, items, or tax). It also can be used for partial refund with virtual money, such as a gift card, when an administrator wants to refund a non-virtual payment method first.
 
       The amount entered cannot raise the total refund higher than the paid amount.
 
@@ -135,7 +135,7 @@ _Create Credit Memo_
 
       This field initially displays the total shipping amount from the order that is available for refund. It is equal to the full shipping amount from the order, less any shipping amount that has already been refunded. Like the quantity, the amount can be reduced, but not increased.
 
-   - For **Adjustment Refund**, enter a value to be added to the total amount refunded as an additional refund that does not apply to any particular part of the order (shipping, items, or tax).
+   - For **Adjustment Refund**, enter a value to be added to the total amount refunded as an additional refund that does not apply to any particular part of the order (shipping, items, or tax). It also can be used for partial refund with virtual money, such as a gift card, when an administrator wants to refund a non-virtual payment method first.
 
       The amount entered cannot raise the total refund higher than the paid amount.
 

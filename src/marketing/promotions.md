@@ -12,6 +12,9 @@ A rule is a collection of conditions (one or more) that apply changes in prices 
 
 Conditions are statements that refine the list of products and situations for applying the rule. The attributes and options for conditions differ between the types of available rules. When met, the action is completed such as discounts, buy one get one free (BOGO), and other options. Rules can be as simple or as complicated as needed to match your business needs, seasonal discounts and promotions, and year long opportunities. For example, you may want to add a few more options for the holidays while providing free shipping year-round when carts have a high subtotal.
 
+{:.bs-callout .bs-callout-info}
+If you want to define a condition based on a specific product attribute, **Use for Promo Rule Conditions** must be set to `Yes` for the attribute in your [Storefront Properties]({% link stores/attribute-product-create.md %}).
+
 For [catalog price rules]({% link marketing/price-rules-catalog.md %}), you build conditions based on [attribute sets]({% link stores/attribute-sets.md %}) in your catalog, comparison functions, and selected attributes. You create the conditions like sentences by selecting a few statements. For example, you may create two price rules to apply discounts for children's clothing and men's/women's clothing based on the category.
 
 ![Diagram - example catalog price rules]({% link images/images/diagram-catalog-price-rules.png %}){: .zoom}

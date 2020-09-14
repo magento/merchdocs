@@ -12,20 +12,11 @@ Our User Guide is open source and hosted in a [public-facing repository on GitHu
 
 As a Magento user---regardless of whether you are an employee, partner, customer, or even a prospective customer---you have the opportunity of contributing to this documentation in several simple ways:
 
-- Provide feedback about helpfulness of the page
 - Log a GitHub issue for a specific page
 - Submit a quick edit where you see basic errors
 - Author entire pages, including graphics
 
 The information in this topic outlines everything you need to know about how to interact with and contribute to this User Guide.
-
-## Provide feedback
-
-All User Guide pages display a feedback icon.
-
-![Click the feedback icon]({% link getting-started/assets/feedback-icon.png %})
-
-Simply click this icon to provide a rating for the current page and, optionally, give us some actionable feedback about how we can make it better.
 
 ## Log an issue
 
