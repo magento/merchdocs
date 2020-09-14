@@ -51,3 +51,4 @@ jobs:
           DEFAULT_BRANCH: master
           VALIDATE_HTML: false
           VALIDATE_MD: false
+          VALIDATE_XML: false
