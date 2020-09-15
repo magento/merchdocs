@@ -1,399 +1,21 @@
 ---
 ee_only: true
-title: Slider
+title: Media - Slider
 ---
 
-Use the Slider content type to add a slideshow of images to the stage. You can upload new images or choose existing images from the gallery or product catalog. A slider can be set to play automatically or be controlled manually with navigation buttons. In the following example, you will learn how to create a responsive slider that features and links to specific products. To associate the slider with a specific promotion, see [Dynamic Block]({% link cms/page-builder-add-dynamic-block.md %}).
+Use the _Slider_ content type in the [Page Builder workspace]({% link cms/page-builder-workspace.md %}) to add a slideshow of images to the stage. You can upload new images or choose existing images from the gallery or product catalog. A slider can be set to play automatically or be controlled manually with navigation buttons. To associate the slider with a specific promotion, see [Dynamic Block]({% link cms/page-builder-add-dynamic-block.md %}).
 
 ![]({% link images/images-ee/page-builder-media-slider-buy3-get1free-storefront.png %}){: .zoom}
-_Slider in Storefront_
+_Media slider on the storefront_
 
-## Step 1: Add a slider
+## Toolboxes
 
-1. Open the page, block, or dynamic block where you want to place the slider. Then, expand the **Content** section.
-
-1. In the Page Builder sidebar under _Media_, drag a **Slider** placeholder to a row, column, or tab on the stage.
-
-    In this example, the background color of the row is yellow (`#ffd16`).
-
-    ![]({% link images/images-ee/page-builder-media-slider-drag-row.png %}){: .zoom}
-    _Drag Slider to Stage_
-
-1. Sliders have two toolboxes. Hover anywhere over the slide to show the main toolbox at the top of the container. Then, click the navigation dot at the bottom of the slide to show the toolbox for individual slides.
-
-    ![]({% link images/images-ee/page-builder-media-slider-toolbox-slide-row.png %}){: .zoom}
-    _Individual Slide Toolbox_
-
-## Step 2: Set up the first slide
-
- On the individual slide toolbox, choose **Settings** ( ![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}). Then, complete the settings, as needed, in the following sections:
-
-### Appearance
-
-1. Set **Appearance** to one of the following:
-
-   - `Poster`
-   - `Collage Left`
-   - `Collage Center`
-   - `Collage Right`
-
-    ![]({% link images/images-ee/page-builder-slide-appearance-collage-right.png %}){: .zoom}
-    _Appearance_
-
-1. Enter the **Slide Name**.
-
-    When you are working in Edit mode, the slide name appears as a tooltip above the navigation dot. The slide name is not visible from the storefront.
-
-    ![]({% link images/images-ee/page-builder-media-slider-name-buy3-get1free.png %}){: .zoom}
-    _Slide Name In Navigation_
-
-1. Enter the **Minimum Height** for the slide. The minimum height can be a number with any valid CSS unit (such as 100px, 50%, 50em, 100vh) or a calculation (such as 100vh - 237px).
-
-   For example, you can set the minimum height of a slide to stretch the full-height of the page, giving you compelling options for full-page background images and videos.
-
-### Background color
-
-Use one of the following methods to set the background color of the slide:
-
-**Method 1:** Enter the Value
-
-In the _No Color_ box, enter one of the following:
-
-- A predefined color name, such as `White`
-- The hexadecimal color value for the color, such as `#ffffff`
-- The rgba value for the color, with opacity percent, such as `rgba(255, 255, 255, 0.75)`
-
-In this example, the background color of the slide is the same yellow (`#ffd16`) as the background color of the row.
-
-![]({% link images/images-ee/page-builder-media-slide-settings-background-color.png %}){: .zoom}
-_Background Color_
-
-**Method 2:** Choose the Value
-
-1. Click the swatch to the left of the _No Color_ box. Then, do one of the following:
-
-   - In the color picker palette, choose the color swatch.
-   - In the color picker, drag the cursor to the color that you want.
-
-    ![]({% link images/images-ee/page-builder-settings-background-color-picker-swatch.png %}){: .zoom}
-    _Choose Swatch_
-
-1. You can use the opacity slider, just below the color picker, to create backgrounds with varying degrees of transparency.
-
-    If you want a partially transparent background, drag the slider to the opacity setting that you want to apply to the background color. Then, click <span class="btn">Apply</span>.
-
-    The box below the slider shows the current red, green, blue, and alpha values (rgba). The last number indicates the current opacity percentage as a decimal.
-
-    ![]({% link images/images-ee/page-builder-settings-background-color.png %}){: .zoom}
-    _Set Opacity_
-
-### Background Type
-
-The background type can be an image or a video. Page Builder defaults to `Image` and shows various image settings. If you select `Video`, Page Builder swaps the image settings with video settings. Both background types are described as follows.
-
-![]({% link images/images-ee/page-builder-background-type.png %}){: .zoom}
-_Background Type_
-
-### Background Image
-
-1. To add a standard **Background Image** for desktop devices, do one of the following:
-
-   - Click <span class="btn">Upload</span>. Then, navigate to the image in your local file system, and choose the file that you want to use. The image is uploaded to the gallery, and a thumbnail of the uploaded image appears.
-
-   - Click <span class="btn">Select from Gallery</span>. Find the image in the gallery. Then, click the thumbnail of the image and click <span class="btn">Add Selected</span>.
-
-        ![]({% link images/images-ee/page-builder-media-slide-settings-background-image.png %}){: .zoom}
-        _Background Image_
-
-1. To add a **Background Mobile Image**, do one of the following:
-
-   - Click <span class="btn">Upload</span>. Then, navigate to the image in your local file system, and choose the file that you want to use. The image is uploaded to the gallery, and a thumbnail of the uploaded image appears.
-
-   - Click <span class="btn">Select from Gallery</span>. Find the image in the gallery. Then, click the thumbnail of the image and click <span class="btn">Add Selected</span>.
-
-    For mobile devices, the Background Mobile Image is used instead of the standard background image.
-
-1. To determine the size of the background image in relation to the width of the slide, set **Background Size** to one of the following:
-
-   - `Cover`
-   - `Contain`
-   - `Auto`
-
-    In this example, the Background Size “Contain” prevents the background image from extending the full width of the slide, which in this case is the full width of the row. Rather, the background image is limited to the width of the active content area of the slide, according to the slide’s Appearance setting.
-
-    ![]({% link images/images-ee/page-builder-database-tutorial-background-size.png %}){: .zoom}
-    _Background Size_
-
-1. To anchor the image in relation to the slide, set **Background Position** to one of the following positions at the top, center, or bottom of the slide:
-
-   - `Left`
-   - `Center`
-   - `Right`
-
-    If you want to repeat the background image, set **Background Repeat** to `Yes`.
-
-### Background Video
-
-1. For the **Background Type**, select **Video**.
-
-1. In the **Video URL** field, enter a valid video URL. A valid video URL can be a link to a:
-
-   - YouTube video: `https://youtu.be/CoDhMRUUjeI`
-   - Vimeo video: `https://vimeo.com/190156113`
-   - Video file (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`
-
-   ![]({% link images/images-ee/page-builder-video-url.png %}){: .zoom}
-   _Background Video URL_
-
-1. Apply additional settings as follows:
-
-   - Select an **Overlay Color** to apply a transparent tint to the video.
-
-   - Change **Infinite Loop**, **Lazy Load**, and **Play Only When Visible** settings as needed. By default, all these settings are set to **Yes**.
-
-   - Add a **Fallback Image** to display on the screen before a video loads and in the event that the video does not load for some reason.
-
-### Slide Content
-
-1. In the **Content** section, enter the **Message Text** that you want to appear with the slide.
-
-1. Format the text as needed using the editor toolbar.
-
-    The first slide in this example has a background image, but no message text. The `Buy 3 Get 1 Free` text above the slider is in a Text container that will be added later.
-
-    Text can be entered and edited either from the stage or from Slider Settings.
-
-### Slide links and buttons
-
-Each slide can have either single, or multiple links and buttons. Use one of the following methods to add links and/or buttons to a slide.
-
-#### Method 1: Single link or button
-
-The slide Appearance setting places a single link or button below the text. Simply follow the instructions below to complete the properties of the link or button that you want to add.
-
-![]({% link images/images-ee/page-builder-slide-appearance-collage-right.png %}){: .zoom}
-_Appearance with Text and Button (or Link)_
-
-#### Method 2: Multiple links or buttons
-
-1. Create a separate [block]({% link cms/block-add.md %}) with the links or buttons that you want to include.
-
-    {:.bs-callout-info}
-    To avoid conflict, keep all the links or buttons in the separate block and do not add a link or button directly to the slide.
-
-1. [Add a block]({% link cms/page-builder-add-content-block.md %}) placeholder to the slide stage. Then, choose the block that you prepared, and place it where you want it to appear on the slide.
-
-1. To link the slide to a page, set **Link** to one of the following destination types. Then, follow the instructions for the type of link you want to create.
-
-    The first slide in this example is linked to the Women > Tees category.
-
-   - **URL** - Set **Link** to `URL`. Then, enter the destination URL.
-
-      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-url-newtab.png %}){: .zoom}
-      _Link to URL_
-
-   - **Product** - Set **Link** to `Product` and do one of the following:
-
-      - Begin typing the **product name** or **SKU**.
-      - Choose the product from the search results list.
-      - Click the **down arrow**, and choose the product from the list.
-
-       ![]({% link images/images-ee/page-builder-media-banner-settings-link-product.png %}){: .zoom}
-       _Link to Product_
-
-   - **Category** - Set **Link** to `Category` and select the category.
-
-      You can begin typing the category name or drill down to the category in the tree.
-
-      ![]({% link images/images-ee/page-builder-settings-link-category-womens-tees.png %}){: .zoom}
-      _Link to Category_
-
-   - **Page** - Set **Link** to `Page` and do one of the following:
-
-      - Begin typing the page name. Then in the list, click the name of the page.
-      - Click the **down arrow**, and choose the page from the list.
-
-       ![]({% link images/images-ee/page-builder-media-banner-settings-link-page.png %}){: .zoom}
-       _Link to Page_
-
-      If the link points to a URL that is outside of your store, and you want to prevent the visitor from navigating away from your store, select the **Open in new tab** checkbox.
-
-1. Set **Show Button** to one of the following:
-
-   - `Always`
-   - `On Hover`
-   - `Never Show`
-
-1. In the **Button Text** field, enter the text to appear on the button.
-
-1. Set **Button Type** to one of the following:
-
-   - `Primary`
-   - `Secondary`
-   - `Link`
-
-    The button style from the current theme determines the button format. Typically, a primary button has a more prominent background color than a secondary button. You can find examples of primary and secondary buttons in the Magento Admin.
-
-1. Set the **Slide Overlay**.
-
-    You can use an overlay to apply a background color to the active content area that is defined by the Appearance setting. The slide background image continues to be visible for the full width of the banner.
-
-   - Set **Show Overlay** to one of the following:
-
-      - `Always`
-      - `On Hover`
-      - `Never Show`
-
-   - In the **Overlay Color** field, do one of the following:
-
-      - Click the **No Color** swatch, and choose a swatch.
-      - In the **No Color** field, either enter a valid color name or hexadecimal value.
-
-   - Then, click <span class="btn">Apply</span>.
-
-        {:.bs-callout-info}
-        Do not use the opacity slider in the color picker to set the overlay transparency.
-
-        ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-overlay-color.png %}){: .zoom}
-        _Overlay Color_
-
-   - In the **Overlay Transparency** field, specify the percentage of transparency that you want to apply for the overlay.
-
-    ![]({% link images/images-ee/page-builder-media-slider-overlay-settings.png %}){: .zoom}
-    _Overlay Settings_
-
-1. Complete the remaining settings as needed, using the [descriptions](#slide-settings) at the end of this page for reference.
-
-1. When complete, click <span class="btn">Save</span> to close the Edit Slide page and return to the Page Builder workspace.
-
-## Step 3: Add more slides
-
-Use one of the following methods to add slides.
-
-**Method 1:** Duplicate an Existing Slide
-
-You can save time by duplicating a slide that has already been configured with the needed settings.
-
-1. Complete the settings for the first slide.
-
-1. Click the navigation dot below the slide. Then, click **Duplicate** ( ![]({% link images/images-ee/icon-pb-duplicate.png %}){: .Inline}) in the slide toolbox.
-
-1. Click the navigation dot for the new slide, and update the content and link as needed.
-
-    ![]({% link images/images-ee/page-builder-media-slider-duplicate-slide.png %}){: .zoom}
-    _Duplicate Slide 1_
-
-**Method 2:** Add a New Blank Slide
-
-1. Hover over the current slide. Then, click **Add** ( ![]({% link images/images-ee/icon-pb-add.png %}){: .Inline}) in the main slider toolbox.
-
-    ![]({% link images/images-ee/page-builder-media-slider-toolbox-add.png %}){: .zoom}
-    _Add Blank Slide_
-
-    A new blank slide with its own navigation dot and toolbox are added to the slider.
-
-    ![]({% link images/images-ee/page-builder-media-slider-slide2-toolbox.png %}){: .zoom}
-    _Slide 2 Toolbox_
-
-1. Update the content and links as needed.
-
-1. Repeat these steps to add as many slides as you want.
-
-1. To view each image in the slider, click the next dot below the current image.
-
-    ![]({% link images/images-ee/page-builder-media-slider-slide2.png %}){: .zoom}
-    _Completed Slider_
-
-    The slide in this example has a background image, a transparent mobile image, and an inline image that was added from the text editor. This technique works well on mobile devices by turning off the background image, and displaying only the smaller inline image. The product slide in this example has the following additional settings:
-
-    |--- |--- |
-    |Appearance|Collage Right|
-    |Background Color|#ffffff (White)|
-    |Background Image|The image on this slide was saved from the product page, and uploaded to the gallery.|
-    |Mobile Background Image|The mobile background image is a transparent image that is 10 pixels square. Using a blank image for mobile effectively replaces the standard background image with an invisible image.|
-    |Background Size|Auto|
-    |Message Text|Minerva LumaTech™ V-Tee (Align center)with inserted image scaled at 40% (Align center)|
-    |Link|Product|
-    |Show Button|Always|
-    |Button Text|Buy Now|
-    |Show Overlay|Never Show|
-    |Alignment|Center (to align the button)|
-    |Border|Solid|
-    |Border Color|#000000 (Black)|
-    |Border Width|1 px|
-
-    If the slide is duplicated, you must update each duplicate slide with the correct information for each tee shirt.
-
-## Step 4: Add a title
-
-If you want a title above the slider, simply add a Text content type above the slider. Then, format the text as needed.
-
-1. In the Page Builder panel under _Elements_, drag a **Text** placeholder to the top edge of the slider. A red guideline marks the insertion point above the banner.
-
-    ![]({% link images/images-ee/page-builder-media-slider-elements-text-drag.png %}){: .zoom}
-    _Drag Text Placeholder Above Slider_
-
-1. Use the editor to format the text as needed.
-
-    ![]({% link images/images-ee/page-builder-media-slider-elements-text-editor.png %}){: .zoom}
-    _Edit the Text_
-
-## Step 5: Configure the slider
-
-1. Hover over the slider container to show the main toolbox. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}), and do the following:
-
-    ![]({% link images/images-ee/page-builder-media-slider-tee-shirts-main-toolbox.png %}){: .zoom}
-    _Slider Toolbox_
-
-   - If you want the slider to begin as soon as the page loads, set **Autoplay** to `Yes`. Then, set **Autoplay Speed** to the number of milliseconds in the delay between slides.
-
-      By default, the Autoplay Speed is set to 4000 ms, which is four seconds.
-
-      ![]({% link images/images-ee/page-builder-media-slider-settings-autoplay.png %}){: .zoom}
-      _Autoplay_
-
-   - To smooth the transition from one slide to the next, set **Fade** to `Yes`.
-
-      With Fade, the slides seem to stay in place, but the content changes smoothy from one to the next. Without fade, you see the horizontal movement from one slide to the next.
-
-      ![]({% link images/images-ee/page-builder-media-slider-settings-fade-infinite-loop.png %}){: .zoom}
-      _Fade and Infinite Loop_
-
-   - To make the slideshow repeat indefinitely while the page is open, set **Infinite Loop** to “Yes.”
-
-   - To choose the type of navigation controls for the slider, do the following:
-
-      - To include _Next_ and _Previous_ arrows on the left and right side of each slide, set **Show Arrows** to `Yes`.
-
-      - To include a set of navigation dots below the slider, set **Show Dots** to `Yes`.
-
-        ![]({% link images/images-ee/page-builder-media-slider-settings-show-arrows-dots.png %}){: .zoom}
-        _Show Arrows and Dots_
-
-   - Enter the **Minimum Height** for the slide. The minimum height can be a number with any valid CSS unit (such as 100px, 50%, 50em, 100vh) or a calculation (such as 100vh - 237px).
-
-      For example, you can set the minimum height of a slider to stretch the full-height of the page, giving you compelling options for full-page background images and videos.
-
-      ![]({% link images/images-ee/page-builder-media-slider-settings-minimum-height.png %}){: width="400px"}{: .zoom}
-      _Minimum Height_
-
-1. Complete the remaining slider settings as needed, using the [descriptions](#slider-settings) at the bottom of this page for reference.
-
-1. On the <span class="btn">Save</span> menu, choose **Save & Close** to return to the Page Builder workspace.
-
-1. To test the slider in your store, scroll to the top of the page, and set **Enable Page** to `Yes`. Then, choose **Save & Close** to return to the Pages grid.
-
-1. To preview the slider, find the page in the grid. Then in the **Action** column, select **View**.
-
-   When you preview the slider, resize the window so you can see how it appears on a mobile device.
-
-    ![]({% link images/images-ee/page-builder-media-slider-desktop-view.png %}){: .zoom}
-    _Desktop View_
-
-    ![]({% link images/images-ee/page-builder-media-slider-mobile-view.png %}){: .zoom}
-    _Mobile View_
+When you are working with the Slider content type, you add and edit individual slides and the slider container that holds one or more slides. Each of these has its own toolbox that you use to design slides on the Page Builder stage.
 
 ## Individual slide toolbox
+
+![]({% link images/images-ee/page-builder-media-slider-toolbox-slide-row.png %}){: .zoom}
+_Individual slide toolbox_
 
 |Tool|Icon|Description|
 |--- |--- |--- |
@@ -408,97 +30,522 @@ If you want a title above the slider, simply add a Text content type above the s
 |Tool|Icon|Description|
 |--- |--- |--- |
 |Move|![Move icon]({{site.baseurl}}/images/images-ee/icon-pb-move.png){: width="25px"}|Moves the slider to another position on the stage.|
-|(label)|Slide #|Identifies the number of the current slide.|
+|(label)|Slider|Identifies the slider container.|
 |Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the Edit Slider page, where you can change the properties of the video and container.|
 |Hide|![Hide icon]({{site.baseurl}}/images/images-ee/icon-pb-hide.png){: width="25px"}|Hides the current slider.|
 |Show|![Show icon]({{site.baseurl}}/images/images-ee/icon-pb-show.png){: width="25px"}|Shows the  hidden slider.|
 |Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a duplicate copy of the slider.|
 |Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the the slider from the stage.|
 
-## Individual slide settings {#slide-settings}
+## Add an individual slide
 
-|Setting|Description|
+1. Open the page, block, or dynamic block where you want to place the slider and expand the **Content** section.
+
+1. n the Page Builder panel, expand **Media** and drag a **Slider** placeholder to a row, column, or tab on the stage.
+
+   In the following example, the background color of the row is yellow (`#ffd16`).
+
+   ![]({% link images/images-ee/page-builder-media-slider-drag-row.png %}){: .zoom}
+   _Dragging the slider to the stage_
+
+   The slider container is displayed on the stage with a single, empty slide.
+
+1. Click in the slider container to display the [text editor]({% link cms/editor.md %}) and enter content for the first slide.
+
+   You can also include more complex banner content using the [Content](#content) settings.
+
+1. Click the navigation dot at the bottom of the slider to display the toolbox for the individual slide and choose the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+
+   Sliders have two toolboxes. Be sure that you are using the slide toolbox at the bottom.
+
+1. Complete the settings, as needed, according to following sections:
+
+   - [Appearance](#appearance)
+   - [Background](#background)
+   - [Content](#content)
+   - [Advanced](#advanced)
+
+1. When complete, click <span class="btn">Save</span> in the upper-right corner to close the _Edit Slide_ page.
+
+1. In the upper-right corner, click <span class="btn">Save</span>.
+
+## Add more slides
+
+The following sections describe a series of steps to start with an individual slide and create a responsive slider that features and links to specific products. If you do not already have an individual slide, follow the previous instructions to add an individual slide to the stage.
+
+Use one or a combination of the following methods to add slides.
+
+### Method 1: Duplicate an existing slide
+
+You can save time by duplicating a slide that has already been configured with the needed settings.
+
+1. Click the navigation dot below the slide to display the toolbox and choose the Duplicate ( ![]({% link images/images-ee/icon-pb-duplicate.png %})) icon.
+
+   ![]({% link images/images-ee/page-builder-media-slider-duplicate-slide.png %}){: .zoom}
+   _Duplicating a slide_
+
+1. Click the navigation dot for the new slide and to display the toolbox and choose the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+
+1. Modify the settings, as needed, according to following sections:
+
+   - [Appearance](#appearance)
+   - [Background](#background)
+   - [Content](#content)
+   - [Advanced](#advanced)
+
+1. When complete, click <span class="btn">Save</span> in the upper-right corner to close the _Edit Slide_ page.
+
+1. In the upper-right corner, click <span class="btn">Save</span>.
+
+### Method 2: Add a New Blank Slide
+
+1. Hover over the slider container at the top to display the toolbox and choose the Add (![]({% link images/images-ee/icon-pb-add.png %})) icon.
+
+   ![]({% link images/images-ee/page-builder-media-slider-toolbox-add.png %}){: .zoom}
+   _Adding a blank slide_
+
+   A new blank slide with its own navigation dot and toolbox is added to the slider and displayed on the stage.
+
+   ![]({% link images/images-ee/page-builder-media-slider-slide2-toolbox.png %}){: .zoom}
+   _New slide with toolbox_
+
+1. Click the navigation dot for the new slide and to display the toolbox and choose the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+
+1. Modify the settings, as needed, according to following sections:
+
+   - [Appearance](#appearance)
+   - [Background](#background)
+   - [Content](#content)
+   - [Advanced](#advanced)
+
+1. When complete, click <span class="btn">Save</span> in the upper-right corner to close the _Edit Slide_ page.
+
+1. In the upper-right corner, click <span class="btn">Save</span>.
+
+### View each slide
+
+To display each slide on the stage, click the next dot below the currently displayed slide.
+
+![]({% link images/images-ee/page-builder-media-slider-slide2.png %}){: .zoom}
+_Completed slider_
+
+The slide in the preceding example has a background image, a transparent mobile image, and an inline image that was added from the text editor. This technique works well on mobile devices by turning off the background image, and displaying only the smaller inline image. The product slide in this example has the following additional settings:
+
 |--- |--- |
-|Appearance|Determines the slider layout. Options: <br/>**Poster** - Centers content and button on the slide. The overlay, if used, extends the full width of the slide. <br/>**Collage Left** - Places content and button in a defined area on the left side of the slide. The overlay, if used, covers only the defined area. <br/>**Collage Center** - Places content and button in a defined area that is centered on the slide. The overlay, if used, covers only the defined area. <br/>**Collage Right** - Places content and button in a defined area on the right side of the slide. The overlay, if used, covers only the defined area.|
-|Slide Name|Specifies a name for the slide.|
-|Minimum Height|Specifies the minimum height of the slide using any CSS unit (200px, 100vh, 45em, 50%) or calculation between units (100vh - 237px). For example, you can set the slide's minimum height to cover the full-height of the page, then use background images and videos for compelling design options.|
+|Appearance|Collage Right|
+|Background Color|#ffffff (White)|
+|Background Image|The image on this slide was saved from the product page, and uploaded to the gallery.|
+|Mobile Background Image|The mobile background image is a transparent image that is 10 pixels square. Using a blank image for mobile effectively replaces the standard background image with an invisible image.|
+|Background Size|Auto|
+|Message Text|Minerva LumaTech™ V-Tee (Align center) with inserted image scaled at 40% (Align center)|
+|Link|Product|
+|Show Button|Always|
+|Button Text|Buy Now|
+|Show Overlay|Never Show|
+|Alignment|Center (to align the button)|
+|Border|Solid|
+|Border Color|#000000 (Black)|
+|Border Width|1 px|
+
+## Change individual slide settings
+
+1. Change the slider display on the stage to view the slide you want to change.
+
+1. On the individual slide toolbox, choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %}) icon and complete the settings, as needed, according to following sections.
+
+1. In the upper-right corner, click <span class="btn">Save</span> to close the _Edit Slide_ page and return to the Page Builder workspace.
+
+1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
+
+   ![]({% link images/images-ee/page-builder-tutorial1-save-and-close.png %}){: .zoom}
+   _Choosing the Save & Close option_
+
+1. When prompted, click the [Cache Management]({% link system/cache-management.md %}) link in the message at the top of the page and  refresh any invalid cache.
+
+### Appearance
+
+1. Choose one of the following slide placement types:
+
+   |Poster|Centers the slide content in the slider container. The overlay, if used, extends the full width of the slider.
+   |Collage Left|Places slide content in a defined area on the left side of the slider container. The overlay, if used, covers only the defined area.
+   |Collage Center|Places slide content in a defined area that is centered on the slider container. The overlay, if used, covers only the defined area.
+   |Collage Right|Places slide content in a defined area on the right side of the slider container. The overlay, if used, covers only the defined area.
+
+   ![]({% link images/images-ee/page-builder-slide-appearance-collage-right.png %}){: .zoom}
+   _Slide positioning_
+
+1. Enter the **Slide Name**.
+
+   When you are working in edit mode, the slide name appears as a tooltip above the navigation dot. The slide name is not visible from the storefront.
+
+   ![]({% link images/images-ee/page-builder-media-slider-name-buy3-get1free.png %}){: .zoom}
+   _Slide name in the navigation_
+
+1. Enter the **Minimum Height** for the slide.
+
+   The minimum height can be a number with any valid CSS unit (such as 100px, 50%, 50em, 100vh) or a calculation (such as 100vh - 237px).
+
+   For example, you can set the slide's minimum height to cover the full-height of the page, then use background images and videos for compelling design options.
+
+   {:.bs-callout-info}
+   When the slide is set to the full-height of the page (100vh), the slider that contains the slide also stretches the full height of the page to accommodate the height of the slide.
+
+## Background
+
+There are many options for defining the background display of a slide. You can apply a simple color or background image, as well as manage more sophisticated effects.
+
+### Background Color
+
+Specify the background color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. This determines the background color of the row. You can also adjust the opacity of the color.
+
+![]({% link images/images-ee/page-builder-settings-background-color-no-color.png %}){: .zoom}
+_No color (default)_
+
+You can set the value in one of three ways:
+
+- A predefined color name, such as `White`
+- The hexadecimal color value for the color, such as `#ffffff`
+- The rgba value for the color, with opacity percent, such as `rgba(255, 255, 255, 0.75)`
+
+If you want to choose a color, click the swatch to the left of the _No Color_ box.
+
+![]({% link images/images-ee/page-builder-settings-background-color-picker-swatch.png %}){: .zoom}
+_Choosing a color swatch_
+
+If you click the color box to open the color picker again, the box below the slider shows the current red, green, blue, and alpha values (rgba). The last number indicates the current opacity percentage as a decimal. You can use the slider to adjust the opacity, or enter the desired decimal value.
+
+![]({% link images/images-ee/page-builder-settings-background-color.png %}){: .zoom}
+_Setting background color opacity_
 
 {:.bs-callout-info}
-When the slide is set to the full-height of the page (100vh), the slider that contains the slide also stretches the full height of the page to accommodate the height of the slide.
+Page Builder also supports a transparency layer, or _alpha channel_, in background images that can be used to create backgrounds with varying degrees of opacity.
 
-### Background
+### Background Type
 
-|Setting|Description|
-|--- |--- |
-|Background Color|Determines the background color and opacity of the slide.|
-|Background Type|Determines whether the background is an image or a video.|
+A background type can be an image or a video. Page Builder defaults to `Image` and shows various image settings. If you select `Video`, Page Builder swaps the image settings with video settings. Both background type settings are described in the following sections.
 
-### Background Image
+![]({% link images/images-ee/page-builder-background-type.png %}){: .zoom}
+_Background type_
 
-|Setting|Description|
-|--- |--- |
-|Background Image|Determines the location of the background image and applies the image to the slide. Options: <br/>**Upload** - Uploads an image file from your local computer to the gallery and then applies it as the background image for the slide. <br/>**Select from Gallery** - Prompts you to choose an existing image from the gallery as the background image for the slide. <br/>![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"} - Allows you to either drag the image to the camera tile or browse to the image in your local file system.|
-|Background Mobile Image|Determines the location of the background image file to use for mobile devices, and applies the image to the slide. If left blank, the standard desktop background image is used. Options: <br/>**Upload** - Uploads an image file from your local computer to the gallery and then applies it as the background image for the slide. <br/>**Select from Gallery** - Prompts you to choose an existing image from the gallery as the background image for the slide. <br/>![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"} - Allows you to either drag the image to the camera tile or browse to the image in your local file system.|
-|Background Size|Determines how the background image is scaled in relation to the width of the slide. Options: <br/>**Cover** - The background image covers the full width of the slide. <br/>**Contain** - The background image is limited to the width of the content area of the slide. <br/>**Auto** - Applies the default background size that is specified in the stylesheet of the current theme.|
-|Background Position|Determines the anchor point of the image in relation to the slide. Options: Top Left / Top Center / Top Right / Center Left / Center / Center Right / Bottom Left / Bottom Center / Bottom Right|
-|Background Repeat|Determines if the background image is repeated to fill the available space in the slide. Options: <br/>**Yes** - The background image is repeated to fill the available space. <br/>**No** - Uses only a single instance of the background image.|
+### Image type settings
 
-### Background Video
+If you set the _Background Type_ to `Image`, use the following settings to define the background image display.
 
-|Setting|Description|
-|--- |--- |
-|Video URL|Link to the video you want to play for the background. Valid video URLs can be:<br/>- links to YouTube videos: `https://youtu.be/CoDhMRUUjeI`<br/>- links to Vimeo videos: `https://vimeo.com/190156113`<br/>- links to valid video files (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`|
-|Overlay Color|Color with opacity for creating a tint over the video.|
-|Infinite Loop|Determines if the video repeats. Options:<br/> **Yes** - (Default) The video repeats in an infinite loop.<br/> **No** - The video plays once and stops.<br/>|
-|Lazy Load|Determines when the video loads. Options:<br/> **Yes** - (Default) The video loads from its source only when visible on the screen.<br/> **No** - The video loads with the page, even when not visible.<br/>|
-|Play Only When Visible|Determines when the video plays. Options:<br/> **Yes** - (Default) The video starts playing only when it is visible.<br/> **No** - The video starts playing immediately after it loads, regardless of whether it is visible.<br/>|
-|Fallback Image|Image that displays on the screen before a video loads as well as when the event does not load for some reason.|
+![]({% link images/images-ee/page-builder-tutorial1-banner-background.png %}){: .zoom}
+_Banner with background image_
 
-### Content
+- **Background Image** - If needed, use the provided tools to choose a background image to apply to the banner:
 
-|Setting|Description|
-|--- |--- |
-|Message Text|A text box with editor that is used to enter and edit the text message that appears on the slide.|
-|Link|Determines the destination page that appears when the slide button is clicked. Options: <br/>**URL** - Links to either a relative or fully-qualified URL. <br/>**Product** - Identifies the destination page based on the product name or SKU. The product name can be searched for based on either a partial or full name. The product is then chosen from the search results list. <br/>**Category** - Identifies the destination page as a specific category or subcategory in the category tree. <br/>**Page** - Identifies the destination page as a specific content page.|
-|Show Button|Specifies if and when a button appears on the slide. Options: <br/>**Always** - A button always appears on the slide. **On Hover** - A button appears on the slide only on hover. <br/>**Never Show** - A button never appears on the slide.|
-|Button Text|Determines the text that appears on the button. The button text can be updated directly from the stage, or from the Edit Slide page.|
-|Button Type|Determines the button format. Options: <br/>**Primary** - Applies the primary button style from the current stylesheet. <br/>**Secondary** - Applies the secondary button style from the current stylesheet, if applicable. <br/>**Link** - Creates a hyperlink rather than a button.|
-|Show Overlay|Applies a background color to the content area that is defined by the Appearance setting. The background image or color continues to be visible for the full width of the slide. The overlay does not apply to images that are added inline from the editor. Options: <br/>**Always** - The overlay is always visible. <br/>**On Hover** - The overlay appears only on hover. <br/>**Never Show** - The overlay is not visible.|
-|Overlay Color|Determines the color of the overlay. To specify the overlay color, choose a swatch, click the color picker, or enter a valid color name or hexadecimal value.|
-|Overlay Transparency|Specifies the transparency of the overlay as a percentage. For example, an overlay transparency of 85% is the equivalent of 15% opacity.|
+   |Upload|Uploads an image file from your local computer to the gallery and then applies it as the background image for the banner.
+   |Select from Gallery|Prompts you to choose an existing image from the gallery as the background image for the banner.
+   |![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"}|Allows you to either drag the image to the camera tile or browse to the image in your local file system.
 
-### Advanced
+- **Background Mobile Image** - If needed, use the same tools to choose a different background image to be used for display on mobile devices.
 
-|Setting|Description|
-|--- |--- |
-|Alignment|Determines the horizontal alignment of the slide. Options: <br/>**Default** - Applies the default setting that is specified in the stylesheet of the current theme. <br/>**Left** - Aligns the slide along the left border of the slider, with allowance for any padding that is specified. <br/>**Center** - Aligns the slide in the center of the slider with allowance for any padding that is specified. <br/>**Right** - Aligns the slide along the right border of the slider with allowance for any padding that is specified.|
-|Border|Determines the border style that is applied to all four sides of the slide. Options: <br/>**Default** - Applies the default border style from the stylesheet that is associated with the current theme. <br/>**None** - Provides no visible indication of slide borders. <br/>**Dotted** - The slide border appears as a dotted line.  <br/>**Dashed** - The slide border appears as a dashed line. <br/>**Solid** - The slide border appears as a solid line. <br/>**Double** - The slide border appears as a double line. <br/>**Groove** - The slide border appears as a grooved line. <br/>**Ridge** - The slide border appears as a ridged line. <br/>**Inset** - The slide border appears as an inset line. <br/>**Outset** - The container border appears as an outset line.|
-|Border Color|Determines the color of the slide border. Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.|
-|Border Width|Determines the width in pixels of the slide border.|
-|Border Radius|Specifies the size of the radius that is used to round each corner of the slide border.|
-|CSS Classes|Specifies the names of CSS classes from the current stylesheet that apply to the slide. Separate multiple class names with a space.|
-|Margins and Padding|Determines the size, in pixels, of the outer margins and inner padding of the slide. Enter the corresponding values in the diagram. <br/>**Margins** - The amount of blank space, in pixels, that is to be applied to the outside edge of all sides of the slide. Options: Top / Right / Bottom / Left <br/>**Padding** - The amount of blank space, in pixels, that is to be applied to the inside edge of all sides of the slide. Options: Top / Right / Bottom / Left|
+- **Background Size** - Set this option to determine how the background image is scaled in relation to the width of the banner:
 
-## Slider settings
+   | Cover | The background image covers the full width of the banner. |
+   | Contain | The background image is limited to the width of the content area. |
+   | Auto | Applies the size from the current style sheet. |
 
-| Setting        | Description                                                                                                                                                                                                                                                                                                              |
-|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Autoplay       | Determines if the slideshow begins automatically when the page loads. Options: <br/>**Yes** - The slider and its automated properties become active as soon as the page loads. <br/>**No** - After the first slide, which appears by default, the slide navigation (dots or arrows) must be clicked to display the next slide in sequence. |
-| Autoplay Speed | Specifies the delay in milliseconds between each slide when Autoplay is used. Default value: 4000 ms (4 seconds)                                                                                                                                                                                                         |
-| Fade           | Determines if a fade effect is used to smooth the transition from one slide to the next. Options:<br/>**Yes** - The current slide has a fade-out effect before the next slide fades in to view.<br/>**No** - There is no special effect during the transition from one slide to the next.                                                |
-| Infinite Loop  | Determines if the slide show replays from the beginning after the last slide. Options: <br/>**Yes** - The slide show replays indefinitely while the page is open. <br/>**No** - The slide show plays only once.                                                                                                                            |
-| Show Arrows    | Determines if each slide includes _next_ and _previous_ navigation arrows on the left and right side of each slide. Options: <br/>**Yes** - Navigation arrows appear on the left and right side of each slide. <br/>**No** - The slides do not have navigation arrows.                                                                     |
-| Show Dots      | Determines if the slider includes navigation dots below the slides. Options: <br/>**Yes** - Navigation dots appear at the bottom of the slider. <br/>**No** - The slider does not include navigation dots.                                                                                                                                 |
-| Minimum Height | Specifies the minimum height of the slider using any CSS unit (200px, 100vh, 45em, 50%) or calculation between units (100vh - 237px). For example, you can set the slider's minimum height to cover the full-height of the page, then use background images and videos for compelling design options. |
+   ![]({% link images/images-ee/page-builder-layout-row-settings-background-size-cover.png %}){: .zoom}
+   _Background size_
 
-### Advanced
+- **Background Position** - Set this option to determine how the background image is anchored in relation to the banner:
 
-|Setting|Description|
-|--- |--- |
-|Alignment|Determines the horizontal alignment of the slider. Options: <br/>**Default** - Applies the default setting that is specified in the stylesheet of the current theme. <br/>**Left** - Aligns the slider along the left border of the parent container, with allowance for any padding that is specified. <br/>**Center** - Aligns the slider in the center of the parent container, with allowance for any padding that is specified. <br/>**Right** - Aligns the slider along the right border of the parent container, with allowance for any padding that is specified.|
-|Border|Determines the border style that is applied to all four sides of the slider container. Options: <br/>**Default** - Applies the default border style from the stylesheet that is associated with the current theme. <br/>**None** - Provides no visible indication of slider borders. <br/>**Dotted** - The slider border appears as a dotted line.  <br/>**Dashed** - The slider border appears as a dashed line. <br/>**Solid** - The slider border appears as a solid line. <br/>**Double** - The slider border appears as a double line. <br/>**Groove** - The slider border appears as a grooved line. <br/>**Ridge** - The slider border appears as a ridged line. <br/>**Inset** - The slider border appears as an inset line. <br/>**Outset** - The slider border appears as an outset line.|
-|Border Color|Determines the color of the slider border. Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.|
-|Border Width|Determines the width in pixels of the slider border.|
-|Border Radius|Specifies the size of the radius that is used to round each corner of the slider border.|
-|CSS Classes|Specifies the names of CSS classes from the current stylesheet that apply to the slider. Separate multiple class names with a space.|
-|Margins and Padding|Determines the size, in pixels, of the outer margins and inner padding of the slider container. Enter the corresponding values in the diagram. <br/>**Margins** - The amount of blank space, in pixels, that is to be applied to the outside edge of all sides of the container. Options: Top / Right / Bottom / Left <br/>**Padding** - The amount of blank space, in pixels, that is to be applied to the inside edge of all sides of the container. Options: Top / Right / Bottom / Left|
+   | Top | Left / Center / Right |
+   | Center | Left / Center / Right |
+   | Bottom | Left / Center / Right |
+
+   The anchor point is like a push pin that attaches the image to the banner at the specified background position.
+
+- **Background Attachment** - Set the attachment type to determine how the background image moves in relation to the scrolling page:
+
+   | Scroll|The attached background image is synchronized to move down as the page scrolls.|
+   | Fixed|(Not available for mobile) The background image does not move as the container scrolls over the image and is fixed at the specified background position.|
+
+### Video type settings
+
+If you set the _Background Type_ to `Video`, use the following settings to define the background image display.
+
+- **Video URL** - Enter a valid video URL. Valid video URLs can be links to:
+
+  - YouTube videos: `https://youtu.be/CoDhMRUUjeI`
+  - Vimeo videos: `https://vimeo.com/190156113`
+  - Valid video files (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`
+
+   ![]({% link images/images-ee/page-builder-video-url.png %}){: .zoom}
+   _Background video URL_
+
+- **Overlay Color** - Select a color to apply a transparent tint to the video.
+
+- **Infinite Loop** - Set this to `No` to make the video play once and stop. When this is set to `Yes` (default), the video repeats in an infinite loop.
+
+- **Lazy Load** - Set this to `No` to make the video load with the page, even when not visible. When this is set to `Yes` (default), the video loads from the source only when visible on the screen.
+
+- **Play Only When Visible** - Set this to `No` to make the video start playing immediately after it loads, regardless of whether it is visible. When this is set to `Yes` (default), the video starts playing only when it is visible.
+
+- **Fallback Image** - If needed, specify an image to display on the screen before a video loads and in the event that the video does not load for some reason.
+
+## Content
+
+You can modify the slide content directly on the stage or when you are changing the settings. The settings provide more complex content features, such as slide links and buttons, as well as overlays. The position of the content reflects the [Appearance](#appearance) placement setting.
+
+### Simple content on the stage
+
+1. Click the placeholder or existing text and enter the new text that you want to appear on the slide.
+
+   The editor toolbar appears above the text box.
+
+1. Use the editor toolbar to enter and format text, as well as insert elements, such as links, images, and widgets.
+
+   ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-text-format-line2.png %}){: .zoom}
+   _Stage with formatted text_
+
+### Complex content in the settings
+
+1. Click the navigation dot at the bottom of the slider to display the toolbox for the individual slide and choose the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+
+1. In the _Content_ section, enter the **Message Text** that you want to appear with the slide.
+
+1. Scroll down to the _Content_ section and use the **Message Text** editor to enter and format banner text.
+
+   You can also insert elements, such as text links, images, and widgets.
+
+1. Format the text as needed using the editor toolbar.
+
+   The first slide in this example has a background image, but no message text. The `Buy 3 Get 1 Free` text above the slider is in a Text container that will be added later.
+
+1. If needed, specify a **Link** for the slide.
+
+   The link is the destination page that appears when the customer clicks the slide area. You can use one of three link types:
+
+   - **URL** - Links to either a relative or fully-qualified URL.
+
+      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-url-newtab.png %}){: .zoom}
+      _Link to a URL_
+
+   - **Product** - Identifies the destination page based on the product name or SKU. Search for the product by name based on either a partial or full name. Choose the product from the search results list.
+
+      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-product-results.png %}){: .zoom}
+       _Choosing a product to link_
+
+   - **Category** - Identifies the destination page as a specific category or subcategory in the category tree. Search for the category based on either a partial or full name. Choose the category from the expanded section of the displayed tree.
+
+      ![]({% link images/images-ee/page-builder-settings-link-category-womens-tees.png %}){: .zoom}
+      _Choosing a category to link_
+
+   - **Page** - Identifies the destination page as a specific content page. Search for the page based on either a partial or full name. Choose the page from the search results list.
+
+      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-page-results.png %}){: .zoom}
+      _Choosing a page to link_
+
+   If you want to prevent the visitor from navigating away from your store, select the **Open in new tab** checkbox. When the checkbox is cleared, the linked destination opens in the same browser tab, which could effectively navigate the visitor away from your store.
+
+1. If needed, add a button to prompt customers to follow the link.
+
+   The slide _Appearance_ position places a single link or button below the text. Complete the properties of the link or button that you want to add.
+
+   ![]({% link images/images-ee/page-builder-slide-appearance-collage-right.png %}){: .zoom}
+   _Slide appearance - collage right_
+
+   {:.bs-callout-info}
+   You can also use multiple buttons or links by adding a [block]({% link cms/page-builder-add-content-block.md %}) to the banner. To avoid conflict, keep all the links or buttons in the separate block, and do not add a link or button directly to the banner.
+
+   - Set **Show Button** to one of the following:
+
+      |Always|A button always appears on the slide.
+      |On Hover|A button appears on the slide only on hover.
+      |Never Show|A button never appears on the slide.
+
+   - Enter the **Button Text** to appear on the button.
+
+   - Set **Button Type** to one of the following:
+
+      |Primary|Applies the primary button style from the current style sheet.
+      |Secondary|Applies the secondary button style from the current style sheet, if applicable.
+      |Link|Creates a hyperlink rather than a button.
+
+      The button style from the current theme determines the button format. Typically, a primary button has a more prominent background color than a secondary button.
+
+1. Set **Show Overlay** to one of the following:
+
+   |Always|The overlay is always visible.
+   |On Hover|The overlay appears only on hover.
+   |Never Show|The overlay is not visible.
+
+   You can use an overlay to apply a background color to the active content area that is defined by the Appearance setting. The slide background image continues to be visible for the full width of the slide.
+
+   ![]({% link images/images-ee/page-builder-media-slider-overlay-settings.png %}){: .zoom}
+   _Slide overlay settings_
+
+   If you choose to show an overlay, set the **Overlay Color**:
+
+   - Click the **No Color** swatch, and choose a swatch.
+   - In the **No Color** field, either enter a valid color name, or hexadecimal value.
+
+   ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-overlay-color.png %}){: .zoom}
+   _Slide overlay color_
+
+## Advanced
+
+1. Choose the the **Alignment** to control the horizontal positioning of content added to the slide.
+
+   |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
+   |Left|Aligns the content along the left border of the slide, with allowance for any padding that is specified.
+   |Center|Aligns the content in the center of the slide, with allowance for any padding that is specified.
+   |Right|Aligns the content along the right border of the slide, with allowance for any padding that is specified.
+
+1. Set the **Border** style applied to all four sides of the slide:
+
+   |Default|Applies the default border style that is specified by the associated style sheet.
+   |None|Does not provide any visible indication of the slide borders.
+   |Dotted|The container border appears as a dotted line.
+   |Dashed|The container border appears as a dashed line.
+   |Solid|The container border appears as a solid line.
+   |Double|The container border appears as a double line.
+   |Groove|The container border appears as a grooved line.
+   |Ridge|The container border appears as a ridged line.
+   |Inset|The container border appears as a inset line.
+   |Outset|The container border appears as a outset line.
+
+1. If you set a border style other than `None`, complete the border display options:
+
+   - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+
+      ![]({% link images/images-ee/page-builder-settings-border-color.png %}){: .zoom}
+      _Border Color_
+
+   - **Border Width** - Enter the number of pixels for the border line width.
+
+   - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+
+1. (Optional) Specify the names of **CSS classes** from the current style sheet to apply to the slide.
+
+   Separate multiple class names with a space.
+
+1. Enter values, in pixels, for the **Margins and Padding** to specify the outer margins and inner padding of the slide.
+
+   Enter each corresponding value in the slide diagram.
+
+   |Margins|The amount of blank space that is applied to the outside edge of all sides of the slide.
+   |Padding|The amount of blank space that is applied to the inside edge of all sides of the slide.
+
+## Add a slider title
+
+If you want a title above the slider, simply add a [Text content type] above the slider. Then, format the text as needed.
+
+1. In the Page Builder panel, expand **Elements** and drag a **Text** placeholder to a row, column, or tab set on the stage.
+
+   As you do this, a red guideline marks the insertion point above the slider.
+
+   ![]({% link images/images-ee/page-builder-media-slider-elements-text-drag.png %}){: .zoom}
+   _Dragging a text placeholder above a slider_
+
+1. Use the editor to format the text as needed.
+
+   ![]({% link images/images-ee/page-builder-media-slider-elements-text-editor.png %}){: .zoom}
+   _Editing the slider title text_
+
+## Change slider settings
+
+1. Hover over the slider container to show the main toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+
+   ![]({% link images/images-ee/page-builder-media-slider-tee-shirts-main-toolbox.png %}){: .zoom}
+   _Slider toolbox_
+
+1. Enter the **Minimum Height** for the slide.
+
+   The minimum height can be a number with any valid CSS unit (such as 100px, 50%, 50em, 100vh) or a calculation (such as 100vh - 237px).
+
+   For example, you can set the minimum height of a slider to stretch the full-height of the page, giving you compelling options for full-page background images and videos.
+
+   ![]({% link images/images-ee/page-builder-media-slider-settings-minimum-height.png %}){: width="400px"}{: .zoom}
+   _Slider minimum height_
+
+1. If you want the slider to begin as soon as the page loads, set **Autoplay** to `Yes` and set **Autoplay Speed** to the number of milliseconds in the delay between slides.
+
+   By default, the speed is set to 4000 ms, which is four seconds. If you set autoplay to `No`, the first slide appears by default and the customer must click the slide navigation (dots or arrows) to display the next slide in sequence.
+
+   ![]({% link images/images-ee/page-builder-media-slider-settings-autoplay.png %}){: .zoom}
+   _Slider autoplay settings_
+
+1. To smooth the transition from one slide to the next, set **Fade** to `Yes`.
+
+   With fade, the slides seem to stay in place, but the content changes smoothy from one to the next. Without fade, you see the horizontal movement from one slide to the next.
+
+   ![]({% link images/images-ee/page-builder-media-slider-settings-fade-infinite-loop.png %}){: .zoom}
+   _Slider fade and infinite loop settings_
+
+1. To make the slideshow repeat indefinitely while the page is open, set **Infinite Loop** to `Yes`.
+
+1. To choose the type of navigation controls for the slider, do the following:
+
+   - To include _Next_ and _Previous_ arrows on the left and right side of each slide, set **Show Arrows** to `Yes`.
+
+   - To include a set of navigation dots below the slider, set **Show Dots** to `Yes`.
+
+   ![]({% link images/images-ee/page-builder-media-slider-settings-show-arrows-dots.png %}){: .zoom}
+   _Slider show arrows and dots_
+
+1. Complete the [Advanced](#slider-advanced) slider settings as needed.
+
+1. In the upper-right corner, click the **Save** arrow and choose **Save & Close** to return to the Page Builder workspace.
+
+{: #slider-advanced}
+### Advanced - slider
+
+1. Choose the the **Alignment** to control the positioning of the slides within the parent slider container:
+
+   |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
+   |Left|Aligns the slides along the left border of the slider container, with allowance for any padding that is specified.
+   |Center|Aligns the slides in the center of the slider container, with allowance for any padding that is specified.
+   |Right|Aligns the slides along the right border of the slider container, with allowance for any padding that is specified.
+
+1. Set the **Border** style applied to all four sides of the slider container:
+
+   |Default|Applies the default border style that is specified by the associated style sheet.
+   |None|Does not provide any visible indication of the container borders.
+   |Dotted|The container border appears as a dotted line.
+   |Dashed|The container border appears as a dashed line.
+   |Solid|The container border appears as a solid line.
+   |Double|The container border appears as a double line.
+   |Groove|The container border appears as a grooved line.
+   |Ridge|The container border appears as a ridged line.
+   |Inset|The container border appears as a inset line.
+   |Outset|The container border appears as a outset line.
+
+1. If you set a border style other than `None`, complete the border display options:
+
+   - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+
+   - **Border Width** - Enter the number of pixels for the border line width.
+
+   - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+
+1. (Optional) Specify the names of **CSS classes** from the current style sheet to apply to the slider container.
+
+   Separate multiple class names with a space.
+
+1. Enter values, in pixels, for the **Margins and Padding** to determine the outer margins and inner padding of the slider container.
+
+   Enter the corresponding values in the diagram.
+
+   |Margins|The amount of blank space that is applied to the outside edge of all sides of the container.
+   |Padding|The amount of blank space that is applied to the inside edge of all sides of the container.
+
+## Test the slider
+
+1. Open the page where you have included the slider, set **Enable Page** to `Yes`.
+
+1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
+
+1. Find the page in the _Pages_ grid and select **View** in the _Action_ column.
+
+   ![]({% link images/images-ee/page-builder-media-slider-desktop-view.png %}){: .zoom}
+   _Slider preview - standard view_
+
+   When you preview the slider, resize the window so you can see how it appears on a mobile device.
+
+   ![]({% link images/images-ee/page-builder-media-slider-mobile-view.png %}){: .zoom}
+   _Slider preview - mobile view_

@@ -3,37 +3,40 @@ ee_only: true
 title: Workspace
 ---
 
-When Page Builder is enabled, the Content section and content creation process are modified to take advantage of Page Builder’s advanced tools. The new content section includes a Content Heading field, the stage with an initial row and toolbox, and Page Builder panel with drag and drop content types.
+When [Page Builder is enabled]({% link cms/page-builder-setup.md %}), the _Content_ section and content creation process are modified to take advantage of the advanced Page Builder tools. The new content section includes a _Content Heading_ field, the stage with an initial row and toolbox, and Page Builder panel with drag-and-drop content types.
 
 ![]({% link images/images-ee/page-builder-workspace.png %}){: .zoom}
-_Content Section with Page Builder Workspace_
+_Content section with Page Builder workspace_
 
 ## Content Heading
 
 Because search engines look for level one (H1) headings, adding a level one heading is an easy way to ensure that the page is indexed correctly.
 
-The Content Heading field that appears at the top of the page is a legacy field that supports content that was created with earlier versions of Magento. It is not, however, part of Page Builder. The Content Heading is formatted as an H1 heading according to the style sheet that is associated with the current theme, and positioned just above the active content area that is defined by the Page Builder stage.
+{:.bs-callout-info}
+The _Content Heading_ field that appears at the top of the page is a legacy field that supports content that was created with earlier versions of Magento. It is not, however, part of Page Builder. The Content Heading is formatted as an H1 heading according to the style sheet that is associated with the current theme, and positioned just above the active content area that is defined by the Page Builder stage.
 
-For the best control over the positioning and format of headings of all levels, we recommend that you leave the Content Heading field blank, and use the Page Builder [Heading]({% link cms/page-builder-elements-heading.md %}) content type.
+For the best control over the positioning and format of headings of all levels, we recommend that you leave the _Content Heading_ field empty, and use the Page Builder [Heading]({% link cms/page-builder-elements-heading.md %}) content type.
 
 ![]({% link images/images-ee/page-builder-storefront-heading-levels.png %}){: .zoom}
-_Content Heading and Other Headings_
+_Content Heading and other headings_
 
 ## Stage
 
-The stage is the primary work area where you can create and format content, and even make quick edits to live content. The stage initially contains a single row. Additional rows can be dragged to the stage from the panel on the left.
+The stage is the primary work area where you can create and format content, and even make quick edits to live content. The stage initially contains a single row. Additional rows can be dragged to the stage from the left panel.
 
 ![]({% link images/images-ee/page-builder-workspace-simple-page.png %}){: .zoom}
-_Stage with Simple Page_
+_Stage with simple page_
 
-### To work in fullscreen mode
+### Work in fullscreen mode
 
-1. For a better view of the page, click the **Fullscreen** (![]({% link images/images-ee/icon-pb-fullscreen.png %}){: .Inline}) icon in the upper-right corner of the stage. Only the stage and panel are visible when working in fullscreen mode.
+1. For a better view of the page, click the Fullscreen (![]({% link images/images-ee/icon-pb-fullscreen.png %})) icon in the upper-right corner of the stage.
 
-1. To return to the Content section, click **Close** ( ![]({% link images/images-ee/icon-pb-close.png %}){: .Inline}).
+   Only the stage and panel are visible when working in fullscreen mode.
+
+1. To return to the _Content_ section, click the Close ( ![]({% link images/images-ee/icon-pb-close.png %}){: width="20px"} ) icon.
 
    ![]({% link images/images-ee/page-builder-tutorial1-simple-page-complete.png %}){: .zoom}
-   _Stage with Simple Page in Fullscreen Mode_
+   _Stage with simple page in fullscreen mode_
 
 ## Panel
 
@@ -48,22 +51,22 @@ The Page Builder panel is located to the left of the stage, and contains content
 
 Each content container on the stage has a toolbox of options. The options vary by content type, but typically include Move, Settings, Hide/Show, Duplicate, and Remove.
 
-### To show the toolbox
+### Show the toolbox
 
-Hover over the container. Then in the toolbox, choose an option.
+Hover over the container and choose an option from the toolbox.
 
 ![]({% link images/images-ee/page-builder-tutorial1-row-toolbox.png %}){: .zoom}
-_Row Toolbox Options_
+_Row toolbox options_
 
-### Toolbox Options
+### Toolbox options
 
-| Option    | [Icon]({% link configuration/scope.md %})              | Description                                                           |
-| --------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------- |
-| Move      | ![]({% link images/images-ee/icon-pb-move.png %})      | Moves the current content container to another position on the stage. |
-| Add       | ![]({% link images/images-ee/icon-pb-add.png %})       | Adds children elements such as a button, slide, or tab.               |
-| (label)   | Row                                                                      | Identifies the container content type.                                |
-| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %})  | Opens the content container properties in edit mode.                  |
-| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})      | Hides the current content container.                                  |
-| Show      | ![]({% link images/images-ee/icon-pb-show.png %})      | Shows the current content container.                                  |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the current content container.              |
-| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})    | Deletes the current content container from the stage.                 |
+| Option    | Icon                                     | Description  |
+| --------- | ---------------------------------------- | ------------ |
+| Move      | ![]({% link images/images-ee/icon-pb-move.png %}) | Moves the current content container to another position on the stage. |
+| Add       | ![]({% link images/images-ee/icon-pb-add.png %}) | Adds children elements such as a button, slide, or tab. |
+| (label)   | Row          | Identifies the container content type.|
+| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the content container properties in edit mode. |
+| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %}) | Hides the current content container.|
+| Show      | ![]({% link images/images-ee/icon-pb-show.png %})| Shows the current content container.|
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the current content container. |
+| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %}) | Deletes the current content container from the stage. |
