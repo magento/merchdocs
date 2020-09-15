@@ -127,7 +127,7 @@ Complete the _Settings_ according to the following sections:
 
 1. Enter the **Number of Products to Display** in the carousel or grid.
 
-   Values can be from `1` to `999`. The default is `5` for a grid and `20` for a carousel. 
+   Values can be from `1` to `999`. The default is `5` for a grid and `20` for a carousel.
 
    {:.bs-callout-info}
    Some products in the Category, SKU, or Condition settings may not appear in your products grid or carousel. For example, disabled products, products marked as not visible, out-of-stock products, and products assigned to another website will not be displayed.

@@ -132,9 +132,11 @@ You can any content type to a tab just as you can to a row. Use the following st
 
    You can enter a value in three ways:
 
-  - A predefined color name, such as `White`
-  - The hexadecimal color value for the color, such as `#ffffff`
-  - The rgba value for the color, with opacity percent, such as `rgba(255, 255, 255, 0.75)`
+   - A predefined color name, such as `White`
+
+   - The hexadecimal color value for the color, such as `#ffffff`
+
+   - The rgba value for the color, with opacity percent, such as `rgba(255, 255, 255, 0.75)`
 
    If you want to choose a color, click the swatch to the left of the _No Color_ box.
 
@@ -196,14 +198,14 @@ You can any content type to a tab just as you can to a row. Use the following st
 
 - If you set a border style other than `None`, complete the border display options:
 
-  - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+   - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
 
       ![]({% link images/images-ee/page-builder-settings-border-color.png %}){: .zoom}
       _Border Color_
 
-  - **Border Width** - Enter the number of pixels for the border line width.
+   - **Border Width** - Enter the number of pixels for the border line width.
 
-  - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+   - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
 
       The row in the following example has a border radius of 15.
 
@@ -260,11 +262,11 @@ You can any content type to a tab just as you can to a row. Use the following st
 
    - If you set a border style other than `None`, complete the border display options:
 
-     - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+      - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
 
-     - **Border Width** - Enter the number of pixels for the border line width.
+      - **Border Width** - Enter the number of pixels for the border line width.
 
-     - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+      - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
 
    - (Optional) Specify the names of **CSS classes** from the current style sheet to apply to the tabs container.
 

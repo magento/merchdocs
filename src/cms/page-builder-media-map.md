@@ -84,7 +84,9 @@ Depending on whether you already have a Google Maps key, use one of the followin
 
 1. In the upper-right corner of the _Edit Map_ page, click <span class="btn">Add Location</span>.
 
-<br/>**Position** - A map with a pin that marks the location. <br/>**Location Name** - The name that you want to appear on the map. <br/>**Coordinates** - GPS coordinates for the location latitude and longitude. 
+   |Position|A map with a pin that marks the location.
+   |Location Name|The name that you want to appear on the map.
+   |Coordinates|GPS coordinates for the location latitude and longitude.
 
 1. Enter the **Location Name** that you want to be associated with the pin on the map.
 
@@ -215,14 +217,14 @@ Use the Google Maps Platform Styling Wizard to apply a one of six predefined the
 
    - If you set a border style other than `None`, complete the border display options:
 
-     - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+      - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
 
       ![]({% link images/images-ee/page-builder-settings-border-color.png %}){: .zoom}
       _Border Color_
 
-     - **Border Width** - Enter the number of pixels for the border line width.
+      - **Border Width** - Enter the number of pixels for the border line width.
 
-     - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+      - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
 
    - (Optional) Specify the names of **CSS classes** from the current style sheet to apply to the map container.
 

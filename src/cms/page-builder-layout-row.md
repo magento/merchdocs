@@ -151,9 +151,9 @@ If you set the _Background Type_ to `Video`, use the following settings to defin
 
 - **Video URL** - Enter a valid video URL. Valid video URLs can be links to:
 
-  - YouTube videos: `https://youtu.be/CoDhMRUUjeI`
-  - Vimeo videos: `https://vimeo.com/190156113`
-  - Valid video files (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`
+   - YouTube videos: `https://youtu.be/CoDhMRUUjeI`
+   - Vimeo videos: `https://vimeo.com/190156113`
+   - Valid video files (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`
 
    ![]({% link images/images-ee/page-builder-video-url.png %}){: .zoom}
    _Background video URL_
@@ -202,14 +202,14 @@ _Parallax Background settings_
 
 - If you set a border style other than `None`, complete the border display options:
 
-  - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+   - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
 
       ![]({% link images/images-ee/page-builder-settings-border-color.png %}){: .zoom}
       _Border Color_
 
-  - **Border Width** - Enter the number of pixels for the border line width.
+   - **Border Width** - Enter the number of pixels for the border line width.
 
-  - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+   - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
 
       The row in the following example has a border radius of 15.
 

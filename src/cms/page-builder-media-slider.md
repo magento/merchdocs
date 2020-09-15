@@ -270,9 +270,9 @@ If you set the _Background Type_ to `Video`, use the following settings to defin
 
 - **Video URL** - Enter a valid video URL. Valid video URLs can be links to:
 
-  - YouTube videos: `https://youtu.be/CoDhMRUUjeI`
-  - Vimeo videos: `https://vimeo.com/190156113`
-  - Valid video files (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`
+   - YouTube videos: `https://youtu.be/CoDhMRUUjeI`
+   - Vimeo videos: `https://vimeo.com/190156113`
+   - Valid video files (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`
 
    ![]({% link images/images-ee/page-builder-video-url.png %}){: .zoom}
    _Background video URL_

@@ -112,14 +112,14 @@ _Video toolbox_
 
 - If you set a border style other than `None`, complete the border display options:
 
-  - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or entering a valid color name or equivalent hexadecimal value.
+   - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or entering a valid color name or equivalent hexadecimal value.
 
       ![]({% link images/images-ee/page-builder-settings-border-color.png %}){: .zoom}
       _Border Color_
 
-  - **Border Width** - Enter the number of pixels for the border line width.
+   - **Border Width** - Enter the number of pixels for the border line width.
 
-  - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+   - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
 
 - (Optional) Specify the names of **CSS classes** from the current style sheet to apply to the video container.
 
