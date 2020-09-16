@@ -72,7 +72,7 @@ Complete the _Settings_ according to the following sections:
    ![Product appearance]({% link images/images-ee/page-builder-products-appearances.png %}){: .zoom}
    _Setting the product appearance_
 
-   If you choose the product carousel, you must also configure the [Carousel Settings}.
+   If you choose the product carousel, you must also configure the [Carousel Settings](#carousel-settings).
 
 1. For **Select Products By**, choose the method for product selection:
 
@@ -97,7 +97,7 @@ Complete the _Settings_ according to the following sections:
 
    - **Condition** - Choose this option to display products according to one or more conditions that you define.
 
-      When selected, this option provides a **Condition** ? for adding conditions to your products selection. For example, you could select only products with a Gender set to Unisex.  For more information #
+      When selected, there are tools available to add conditions to your products selection. For example, you could select only products with a Gender set to Unisex. 
 
       ![Product selection by condition]({% link images/images-ee/page-builder-products-settings_condition.png %}){: .zoom}
       _Selecting products by condition_
@@ -139,7 +139,7 @@ Complete the _Settings_ according to the following sections:
    |Default|The carousel displays five products per slide by default and responsively reduces that number as needed.
    |Continuous|The carousel displays five products per slide by default (with an additional half of a product on the right and left), but centers and scrolls one product at a time in an infinite loop. Products to the right and left of the centered product are dimmed so that the center product is highlighted.
 
-   If you switch between these two modes, the other carousel settings two are retained, with the exception of the **Infinite Loop** setting, which is always set to `Yes` in Continuous mode and the field is disabled.
+   If you switch between these two modes, the other carousel settings are retained, with the exception of the **Infinite Loop** setting, which is always set to `Yes` in Continuous mode and the field is disabled.
 
    ![Carousel Settings]({% link images/images-ee/page-builder-products-carousel-settings.png %}){: .zoom}
    _Carousel Settings_
