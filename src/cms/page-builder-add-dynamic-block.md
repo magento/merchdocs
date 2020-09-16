@@ -50,8 +50,8 @@ _Dynamic block on the storefront_
 
 1. Set **Template** to one of the following:
 
-   | `Dynamic Block Block Template` | Choose this template to add a standalone block. |
-   | `Dynamic Block Inline Template` | Choose this template to insert the block content into text. |
+   | Dynamic Block Block Template | Choose this template to add a standalone block. |
+   | Dynamic Block Inline Template | Choose this template to insert the block content into text. |
 
    ![]({% link images/images-ee/page-builder-add-content-dynamic-block-template.png %}){: .zoom}
    _Dynamic block template_
