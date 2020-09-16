@@ -97,7 +97,7 @@ Complete the _Settings_ according to the following sections:
 
    - **Condition** - Choose this option to display products according to one or more conditions that you define.
 
-      When selected, there are tools available to add conditions to your products selection. For example, you could select only products with a Gender set to Unisex. 
+      When selected, there are tools available to add conditions to your products selection. For example, you could select only products with a Gender set to Unisex.
 
       ![Product selection by condition]({% link images/images-ee/page-builder-products-settings_condition.png %}){: .zoom}
       _Selecting products by condition_
