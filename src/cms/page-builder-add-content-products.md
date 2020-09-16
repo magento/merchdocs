@@ -23,7 +23,7 @@ The product carousel provides a powerful and engaging way to show off your produ
    ![]({% link images/images-ee/page-builder-products-settings_carousel-default.png %}){: .zoom}
    _Product list in default carousel mode_
 
-The following instructions shows how to add a Products list to a block. You can then use a [widget]({% link cms/widgets.md %}) to place the block at a specific location on any page in your store.
+The following instructions show how to add a Products list to a block. You can then use a [widget]({% link cms/widgets.md %}) to place the block at a specific location on any page in your store.
 
 ## Products toolbox
 
@@ -33,7 +33,7 @@ The following instructions shows how to add a Products list to a block. You can 
 | Settings  | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the _Edit Products_ page, where you can choose the products list and change the properties of the container. |
 | Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})| Hides the current products container and its content.  |
 | Show      | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the  hidden products container and its content.  |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the products container and its content.  |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the products container and its content.  |
 | Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})| Deletes the products container and its content from the stage. |
 
 ## Add a products list
@@ -117,8 +117,8 @@ Complete the _Settings_ according to the following sections:
    |Name: Z - A|Sorts products in reverse alphabetical order.
    |SKU: ascending|Sorts products by SKU in alphanumeric order.
    |SKU: descending|Sorts products by SKU in reverse alphanumeric order.
-   |Stock: low stock first|Sorts products from the lowest to the highest stock volume.
-   |Stock: high stock first|Sorts products from the highest to the lowest stock volume.
+   |Stock: low stock first|Sorts products from the lowest to the highest available stock.
+   |Stock: high stock first|Sorts products from the highest to the lowest available stock.
    |Price: high to low|Sorts products from highest to lowest price.
    |Price: low to high|Sorts products from lowest to highest price.
 
@@ -146,7 +146,7 @@ Complete the _Settings_ according to the following sections:
 
 1. If needed, set the **Autoplay** option to `Yes`.
 
-   When autoplay is enabled, the carousel begins scrolling automatically when the page loads. If you leave the default setting (`No`),  the customer must click the slide navigation (dots or arrows) to display each slide in sequence.
+   When autoplay is enabled, the carousel begins scrolling automatically when the page loads. If you leave the default setting (`No`), the customer must click the slide navigation (dots or arrows) to display each slide in sequence.
 
    If you enable this feature, enter **Autoplay Speed** to specify the delay in milliseconds between each slide. The default value is `4000` ms (4 seconds).
 
@@ -163,7 +163,7 @@ Complete the _Settings_ according to the following sections:
 
 1. If needed, set the **Show Dots** option to `No`.
 
-   When the default setting (`Yes`), navigation dots appear at the bottom of the carousel slider. If you disable this setting, the carousel slider does not display navigation dots.
+   When set to the default setting (`Yes`), navigation dots appear at the bottom of the carousel slider. If you disable this setting, the carousel slider does not display navigation dots.
 
 ### Advanced
 
@@ -217,4 +217,4 @@ Complete the _Settings_ according to the following sections:
 
 1. In the upper-right corner of the page, click <span class="btn">Save</span> to save the changes to the block.
 
-You can now use a [widget]({% link cms/widgets.md %}) to place this block wherever you want it to appear in the store. Or, use [Add Content - Block]({% link cms/page-builder-add-content-block.md %}) to add the block to an existing page, tab, or block.
+You can now use a [widget]({% link cms/widgets.md %}) to place this block wherever you want it to appear in the store. Or, you can use [Add Content - Block]({% link cms/page-builder-add-content-block.md %}) to add the block to an existing page, tab, or block.

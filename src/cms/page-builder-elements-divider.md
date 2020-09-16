@@ -22,7 +22,7 @@ _Divider with padding in container with dashed border_
 | Settings | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the Edit Divider page, where you can change the properties of the divider and its container. |
 | Hide | ![]({% link images/images-ee/icon-pb-hide.png %}) | Hides the divider container. |
 | Show | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the hidden divider container. |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the divider container. |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the divider container. |
 | Remove | ![]({% link images/images-ee/icon-pb-remove.png %}) | Deletes the divider container and its content from the stage. |
 
 ## Add a divider
@@ -129,7 +129,7 @@ For a formatted divider with specific settings, it is more efficient to make a d
    ![]({% link images/images-ee/page-builder-elements-divider-duplicate.png %}){: .zoom}
    _Duplicated divider_
 
-1. Hover over the new divider container to display the toolbox and choose the Move (![]({% link images/images-ee/icon-pb-move.png %})) icon.
+1. Hover over the new divider container to display the toolbox and choose the _Move_ (![]({% link images/images-ee/icon-pb-move.png %})) icon.
 
    ![]({% link images/images-ee/page-builder-elements-divider-move.png %}){: .zoom}
    _Moving a divider_

@@ -20,7 +20,7 @@ _Button toolbox_
 | Tool      | Icon     | Description    |
 | --------- | -------- | -------------- |
 | Settings  | ![]({% link images/images-ee/icon-pb-settings.png %})  | Opens the Edit Button page, where you can change the properties of the button. |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the button. |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the button. |
 | Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})    | Deletes the button from the stage. |
 
 ### Buttons container toolbox
@@ -36,7 +36,7 @@ _Buttons container toolbox_
 | Settings  | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the Edit Buttons page, where you can change the properties of the container. |
 | Hide      | ![]({% link images/images-ee/icon-pb-hide.png %}) | Hides the button container. |
 | Show      | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the hidden button container. |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the button container. |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the button container. |
 | Remove    | ![]({% link images/images-ee/icon-pb-remove.png %}) | Deletes the button container and its content from the stage. |
 
 ## Add an individual button
@@ -130,7 +130,7 @@ The following sections describe a series of steps to start with an individual bu
 
 ### Step 2: Create the third button
 
-1. Click the second button again on the stage and choose the Duplicate (![]({% link images/images-ee/icon-pb-duplicate.png %})) icon.
+1. Click the second button again on the stage and choose the _Duplicate_ (![]({% link images/images-ee/icon-pb-duplicate.png %})) icon.
 
    ![]({% link images/images-ee/page-builder-elements-button-set-contact-us-toolbox-duplicate.png %}){: .zoom}
    _Duplicating a button_

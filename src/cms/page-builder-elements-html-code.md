@@ -16,7 +16,7 @@ _HTML Code toolbox_
 | Settings  | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the Edit HTML Code page, where you can change the properties of the container. |
 | Hide      | ![]({% link images/images-ee/icon-pb-hide.png %}) | Hides the HTML Code container. |
 | Show      | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the hidden HTML Code container. |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the HTML Code container. |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the HTML Code container. |
 | Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})  | Deletes the HTML Code container and its content from the stage. |
 
 ## Add HTML code
@@ -107,7 +107,7 @@ The following example demonstrates how to embed [Google Font][1] code and declar
 
 1. Update the _Advanced_ settings as needed.
 
-   - Choose the the **Alignment** to control the positioning of the code within the parent container:
+   - Choose an **Alignment** to control the positioning of the code within the parent container:
 
       |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
       |Left|Aligns the list along the left border of the parent container, with allowance for any padding that is specified.

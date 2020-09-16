@@ -27,7 +27,7 @@ _Text container toolbox_
 | Settings  | ![]({% link images/images-ee/icon-pb-settings.png %})  | Opens the text container properties in edit mode.|
 | Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})      | Hides the text container. |
 | Show      | ![]({% link images/images-ee/icon-pb-show.png %})      | Shows the hidden text container. |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the text container. |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the text container. |
 | Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})    | Deletes the text container and its content from the stage. |
 
 ## Add text
@@ -88,7 +88,7 @@ To create a link for a telephone number or email, see [Adding Custom Variables](
 
 1. For **Source**, click the search icon to use the media storage for locating and selecting an image.
 
-1. For **Image description**, enter descriptive text for the image
+1. For **Image description**, enter descriptive text for the image.
 
    This populates the `alt` link attribute for the image and is used by some browsers for accessibility.
 
@@ -100,7 +100,7 @@ To create a link for a telephone number or email, see [Adding Custom Variables](
 
 ## Change text settings
 
-1. Hover over the text container to display the toolbox and choose **Settings** ( ![]({% link images/images-ee/icon-pb-settings.png %})) in the toolbox.
+1. Hover over the text container to display the toolbox and choose the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
    {:.bs-callout-info}
    Because the text container is tightly nested inside another container, make sure that you have the correct toolbox.
@@ -109,7 +109,7 @@ To create a link for a telephone number or email, see [Adding Custom Variables](
 
 1. Update the _Advanced_ settings as needed.
 
-   - Choose the the **Alignment** to control the positioning of the text within the parent container:
+   - Choose an **Alignment** to control the positioning of the text within the parent container:
 
       |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
       |Left|Aligns the list along the left border of the parent container, with allowance for any padding that is specified.

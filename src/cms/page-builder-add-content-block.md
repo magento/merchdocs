@@ -16,7 +16,7 @@ _Block with map on the sample About Us Page_
 | Settings  | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the Edit Block page, where you can choose the block, and change the properties of the container. |
 | Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})  | Hides the current block container and its content. |
 | Show      | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the  hidden block container and its content. |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the block container and its content. |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the block container and its content. |
 | Remove    | ![]({% link images/images-ee/icon-pb-remove.png %}) | Deletes the block container and its content from the stage. |
 
 ## Add an existing block
@@ -26,7 +26,7 @@ _Block with map on the sample About Us Page_
 1. In the Page Builder panel, expand **Add Content** and drag a **Block** placeholder to the stage.
 
    ![]({% link images/images-ee/page-builder-add-content-block-drag.png %}){: .zoom}
-   _Dragging a block onto the stag_
+   _Dragging a block onto the stage_
 
 1. Hover over the empty block container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
@@ -53,14 +53,14 @@ _Block with map on the sample About Us Page_
 
 ### Advanced Settings
 
-1. Choose the the **Alignment** to control the positioning of the block within the parent container:
+1. Choose an **Alignment** to control the positioning of the block within the parent container:
 
    |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
    |Left|Aligns the list along the left border of the parent container, with allowance for any padding that is specified.
    |Center|Aligns the list in the center of the parent container, with allowance for any padding that is specified.
    |Right|Aligns the block along the right border of the parent container, with allowance for any padding that is specified.
 
-1. Set the **Border** style applied to all four sides of the block container:
+1. Set a **Border** style to be applied to all four sides of the block container:
 
    |Default|Applies the default border style that is specified by the associated style sheet.
    |None|Does not provide any visible indication of the container borders.
@@ -112,7 +112,7 @@ _Block with map on the sample About Us Page_
 
 ## Duplicate a block
 
-1. Hover over the block container. Then, choose **Duplicate** (![]({% link images/images-ee/icon-pb-duplicate.png %}){: .Inline}) in the toolbox.
+1. Hover over the block container to display the toolbox and choose the _Duplicate_ (![]({% link images/images-ee/icon-pb-duplicate.png %}){: .Inline}) icon.
 
     The duplicate appears just below the original.
 
@@ -124,6 +124,6 @@ _Block with map on the sample About Us Page_
 
 ## Remove a block from the stage
 
-1. Hover over the block container. Then, choose **Remove** (![]({% link images/images-ee/icon-pb-remove.png %}){: .Inline}) in the block toolbox.
+1. Hover over the block container to display the toolbox and choose the _Remove_ (![]({% link images/images-ee/icon-pb-remove.png %}){: .Inline}) icon.
 
 1. When prompted to confirm, click **OK**.

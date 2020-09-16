@@ -16,7 +16,7 @@ _Dynamic block on the storefront_
 | Settings  | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the _Edit Block_ page, where you can choose the block and change the properties of the container. |
 | Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})| Hides the current block container and its content.  |
 | Show      | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the  hidden block container and its content.  |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the block container and its content.  |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the block container and its content.  |
 | Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})| Deletes the block container and its content from the stage. |
 
 ## Add an existing dynamic block to the stage
@@ -64,7 +64,7 @@ _Dynamic block on the storefront_
 
 ### Advanced Settings
 
-1. Choose the the **Alignment** to control the positioning of the dynamic block within the parent container:
+1. Choose an **Alignment** to control the positioning of the dynamic block within the parent container:
 
    |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
    |Left|Aligns the list along the left border of the parent container, with allowance for any padding that is specified.
@@ -127,7 +127,7 @@ _Dynamic block on the storefront_
 
 ## Duplicate a dynamic block
 
-1. Hover over the dynamic block container to display the toolbox and choose the Duplicate (![]({% link images/images-ee/icon-pb-duplicate.png %})) icon.
+1. Hover over the dynamic block container to display the toolbox and choose the _Duplicate_ (![]({% link images/images-ee/icon-pb-duplicate.png %})) icon.
 
    The duplicate appears just below the original.
 
@@ -142,6 +142,6 @@ _Dynamic block on the storefront_
 
 ## Remove a dynamic block from the stage
 
-1. Hover over the dynamic block container to display the toolbox and choose the Remove ( ![]({% link images/images-ee/icon-pb-remove.png %})) icon.
+1. Hover over the dynamic block container to display the toolbox and choose the _Remove_ ( ![]({% link images/images-ee/icon-pb-remove.png %})) icon.
 
 1. When prompted to confirm, click **OK**.
