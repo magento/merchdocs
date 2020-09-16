@@ -19,7 +19,7 @@ _Row toolbox_
 | Settings | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the Edit Row page, where you can change the properties of the container. |
 | Hide | ![]({% link images/images-ee/icon-pb-hide.png %}) | Hides the current row. |
 | Show | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the hidden row. |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the row. |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the row. |
 | Remove | ![]({% link images/images-ee/icon-pb-remove.png %}) | Deletes the row container and its content from the stage. |
 
 ## Add a row
@@ -30,7 +30,7 @@ _Row toolbox_
 
    Use the following sections for detailed information about completing the available settings.
 
-1. To preview how the content looks from the storefront, click the Full Screen icon (![]({% link images/images-ee/icon-pb-fullscreen.png %})) at the upper-right corner of the stage.
+1. To preview how the content looks from the storefront, click the _Full Screen_ (![]({% link images/images-ee/icon-pb-fullscreen.png %})) icon at the upper-right corner of the stage.
 
    You can continue to work in full screen mode or click the Close (![]({% link images/images-ee/icon-pb-close.png %}){: width="20px"}) icon in the upper-right corner to return to the standard Page Builder workspace.
 
@@ -180,7 +180,7 @@ _Parallax Background settings_
 
 ## Advanced
 
-- Choose the the **Alignment** to control the horizontal positioning of content containers that are added to the row.
+- Choose an **Alignment** to control the horizontal positioning of content containers that are added to the row.
 
    |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
    |Left|Aligns the content containers along the left border of the row container, with allowance for any padding that is specified.

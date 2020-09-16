@@ -25,7 +25,7 @@ _Image toolbox_
 |Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the _Edit Image_ page, where you can change the properties of the image and container.|
 |Hide|![Hide icon]({{site.baseurl}}/images/images-ee/icon-pb-hide.png){: width="25px"}|Hides the current image.|
 |Show|![Show icon]({{site.baseurl}}/images/images-ee/icon-pb-show.png){: width="25px"}|Shows the hidden image.|
-|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a duplicate copy of the image.|
+|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a copy of the image.|
 |Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the image from the stage.|
 |Upload New Image||Uploads an image from your local file system to the gallery.|
 |Select from Gallery||Chooses an existing image from the gallery.|
@@ -178,7 +178,7 @@ _Image toolbox_
 
 ## Move an image
 
-1. Hover over the image container to display the toolbox and choose the Move (![]({% link images/images-ee/icon-pb-move.png %})) icon.
+1. Hover over the image container to display the toolbox and choose the _Move_ (![]({% link images/images-ee/icon-pb-move.png %})) icon.
 
    ![]({% link images/images-ee/page-builder-media-image-column1-move-giftcard.png %}){: .zoom}
    _Moving an image_
@@ -190,7 +190,7 @@ _Image toolbox_
 
 ## Remove an image
 
-1. Hover over the image container to display the toolbox and choose the Remove (![]({% link images/images-ee/icon-pb-remove.png %})) icon.
+1. Hover over the image container to display the toolbox and choose the _Remove_ (![]({% link images/images-ee/icon-pb-remove.png %})) icon.
 
 1. When prompted to confirm, click **OK**.
 
@@ -208,7 +208,7 @@ Text for these settings is visible to search engines and improves the way the pa
 
 ## Advanced
 
-- Choose the the **Alignment** to control the horizontal positioning of the images added to the container.
+- Choose an **Alignment** to control the horizontal positioning of the images added to the container.
 
    |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
    |Left|Aligns the image content along the left border of the image container, with allowance for any padding that is specified.

@@ -53,7 +53,7 @@ Each content container on the stage has a toolbox of options. The options vary b
 
 ### Show the toolbox
 
-Hover over the container and choose an option from the toolbox.
+Hover over the container to display the toolbox and choose an option.
 
 ![]({% link images/images-ee/page-builder-tutorial1-row-toolbox.png %}){: .zoom}
 _Row toolbox options_
@@ -68,5 +68,5 @@ _Row toolbox options_
 | Settings  | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the content container properties in edit mode. |
 | Hide      | ![]({% link images/images-ee/icon-pb-hide.png %}) | Hides the current content container.|
 | Show      | ![]({% link images/images-ee/icon-pb-show.png %})| Shows the current content container.|
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the current content container. |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the current content container. |
 | Remove    | ![]({% link images/images-ee/icon-pb-remove.png %}) | Deletes the current content container from the stage. |

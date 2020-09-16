@@ -22,7 +22,7 @@ _Individual slide toolbox_
 |Move|![Move icon]({{site.baseurl}}/images/images-ee/icon-pb-move.png){: width="25px"}|Moves the slide to another position on the slider.|
 |(label)|Slide #|Identifies the number of the current slide.|
 |Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the Edit Slide page, where you can change the properties of the current slide.|
-|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a duplicate copy of the current slide.|
+|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a copy of the current slide.|
 |Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the current slide from the slider.|
 
 ## Slider toolbox
@@ -34,14 +34,14 @@ _Individual slide toolbox_
 |Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the Edit Slider page, where you can change the properties of the video and container.|
 |Hide|![Hide icon]({{site.baseurl}}/images/images-ee/icon-pb-hide.png){: width="25px"}|Hides the current slider.|
 |Show|![Show icon]({{site.baseurl}}/images/images-ee/icon-pb-show.png){: width="25px"}|Shows the  hidden slider.|
-|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a duplicate copy of the slider.|
+|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a copy of the slider.|
 |Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the the slider from the stage.|
 
 ## Add an individual slide
 
 1. Open the page, block, or dynamic block where you want to place the slider and expand the **Content** section.
 
-1. n the Page Builder panel, expand **Media** and drag a **Slider** placeholder to a row, column, or tab on the stage.
+1. In the Page Builder panel, expand **Media** and drag a **Slider** placeholder to a row, column, or tab on the stage.
 
    In the following example, the background color of the row is yellow (`#ffd16`).
 
@@ -99,7 +99,7 @@ You can save time by duplicating a slide that has already been configured with t
 
 ### Method 2: Add a New Blank Slide
 
-1. Hover over the slider container at the top to display the toolbox and choose the Add (![]({% link images/images-ee/icon-pb-add.png %})) icon.
+1. Hover over the slider container at the top to display the toolbox and choose the _Add_ (![]({% link images/images-ee/icon-pb-add.png %})) icon.
 
    ![]({% link images/images-ee/page-builder-media-slider-toolbox-add.png %}){: .zoom}
    _Adding a blank slide_

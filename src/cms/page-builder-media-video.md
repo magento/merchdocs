@@ -20,7 +20,7 @@ _Video toolbox_
 |Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the _Edit Video_ page, where you can change the properties of the video and container.|
 |Hide|![Hide icon]({{site.baseurl}}/images/images-ee/icon-pb-hide.png){: width="25px"}|Hides the current video.|
 |Show|![Show icon]({{site.baseurl}}/images/images-ee/icon-pb-show.png){: width="25px"}|Shows the  hidden video.|
-|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a duplicate copy of the video.|
+|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a copy of the video.|
 |Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the video from the stage.|
 
 ## Add a video
@@ -90,7 +90,7 @@ _Video toolbox_
 
 ### Advanced
 
-1. Choose the the **Alignment** to control the horizontal positioning of the video within the container.
+1. Choose an **Alignment** to control the horizontal positioning of the video within the container.
 
    |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
    |Left|Aligns the content along the left border of the video container, with allowance for any padding that is specified.

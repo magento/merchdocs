@@ -10,7 +10,7 @@ _Set of tabs_
 
 ## Toolboxes
 
-When you are working with the Tabs content type, you add and edit individual tabs and the tabs containers that holds one or more tabs. Each of these has its own toolbox that you use to design tabs on the Page Builder stage.
+When you are working with the _Tabs_ content type, you add and edit individual tabs and the tabs containers that holds one or more tabs. Each of these has its own toolbox that you use to design tabs on the Page Builder stage.
 
 ### Individual tab toolbox
 
@@ -21,7 +21,7 @@ _Tab toolbox_
 |--- |--- |--- |
 |Move|![Move icon]({{site.baseurl}}/images/images-ee/icon-pb-move.png){: width="25px"}|This control next to the tab label is used to move the individual tab to another position in the tab set.|
 |Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the Edit Tabs page, where you can change the properties of the individual tab.|
-|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a duplicate copy of the  tab.|
+|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a copy of the tab.|
 |Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the tab from the tab set.|
 
 ### Tabs container toolbox
@@ -37,7 +37,7 @@ _Tab container toolbox_
 |Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the Edit Tab page, where you can change the properties of the container.|
 |Hide|![Hide icon]({{site.baseurl}}/images/images-ee/icon-pb-hide.png){: width="25px"}|Hides the tab container.|
 |Show|![Show icon]({{site.baseurl}}/images/images-ee/icon-pb-show.png){: width="25px"}|Shows the hidden tab container.|
-|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a duplicate copy of the current tab.|
+|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a copy of the current tab.|
 |Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the current tab set from the stage.|
 
 ## Add an individual tab
@@ -71,11 +71,11 @@ _Tab container toolbox_
 
 The following steps start with an individual tab and create a set of three tabs within a tabs container. If you do not already have an individual tab, follow the previous instructions to add an single tab to a row on the stage.
 
-1. Hover over the tabs container to display the toolbox and choose the Add (![]({% link images/images-ee/icon-pb-add.png %})) icon.
+1. Hover over the tabs container to display the toolbox and choose the _Add_ (![]({% link images/images-ee/icon-pb-add.png %})) icon.
 
 1. Click in the **Tab 2** label to display the cursor and enter you own label for the tab.
 
-1. Click the second tab again on the stage and choose the Duplicate (![]({% link images/images-ee/icon-pb-duplicate.png %})) icon.
+1. Click the second tab again on the stage and choose the _Duplicate_ (![]({% link images/images-ee/icon-pb-duplicate.png %})) icon.
 
 1. Click in the YourName **Copy** label to display the cursor and enter you own label for the third tab.
 
@@ -176,7 +176,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
 ### Advanced
 
-- Choose the the **Alignment** to control the horizontal alignment of content containers that are added to the tab.
+- Choose an **Alignment** to control the horizontal alignment of content containers that are added to the tab.
 
    |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
    |Left|Aligns the content containers along the left border of the tab, with allowance for any padding that is specified.
@@ -240,7 +240,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
 1. Set the Advanced options for the tab set:
 
-   - Choose the the **Alignment** to control the positioning of the tab set within the parent container:
+   - Choose an **Alignment** to control the positioning of the tab set within the parent container:
 
       |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
       |Left|Aligns the tab set along the left border of the parent container, with allowance for any padding that is specified.

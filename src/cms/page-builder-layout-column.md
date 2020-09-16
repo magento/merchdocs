@@ -17,7 +17,7 @@ Each column has a toolbox of options that appears when you hover over the contai
 |Move|![]({% link images/images-ee/icon-pb-move.png %})|Moves the column and its content to another position in relation to other columns in the row.|
 |(label)|Column|Identifies the current container as a column. Hover over the column container to show the toolbox.|
 |Settings|![]({% link images/images-ee/icon-pb-settings.png %})|Opens the Edit Column page, where you can change the properties of the container.|
-|Duplicate|![]({% link images/images-ee/icon-pb-duplicate.png %})|Makes a duplicate copy of the current column.|
+|Duplicate|![]({% link images/images-ee/icon-pb-duplicate.png %})|Makes a copy of the current column.|
 |Remove|![]({% link images/images-ee/icon-pb-remove.png %})|Deletes the current column and its content.|
 
 ## Column grid
@@ -69,7 +69,7 @@ _Grid divisions on row with two columns_
 
 ## Remove a column
 
-1. Hover over the column that you want to remove and choose the Remove ( ![]({% link images/images-ee/icon-pb-remove.png %})) icon in the toolbox.
+1. Hover over the column that you want to remove to display the toolbox and choose the _Remove_ ( ![]({% link images/images-ee/icon-pb-remove.png %})) icon.
 
    ![]({% link images/images-ee/page-builder-column-toolbox-remove.png %}){: .zoom}
    _Column toolbox_
@@ -87,7 +87,7 @@ _Grid divisions on row with two columns_
 
    - Hover over the column to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
-   - Scroll down to the _Advanced_ section and set all four **Padding** values to zero (0).
+   - Scroll down to the _Advanced_ section and set all four **Padding** values to `0`.
 
       ![]({% link images/images-ee/page-builder-tutorial1-row-settings-advanced-margins-padding-zero.png %}){: .zoom}
       _Using zero padding_
@@ -145,7 +145,7 @@ _Grid divisions on row with two columns_
 
 1. Update the _Advanced_ settings as needed.
 
-   - Choose the the **Alignment** to control the horizontal positioning of content containers that are added to the column.
+   - Choose an **Alignment** to control the horizontal positioning of content containers that are added to the column.
 
       |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
       |Left|Aligns the content containers along the left border of the column container, with allowance for any padding that is specified.

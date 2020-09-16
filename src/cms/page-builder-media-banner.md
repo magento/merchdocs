@@ -25,7 +25,7 @@ _Banner toolbox_
 |Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the Edit Banner page, where you can change the properties of the banner and container.|
 |Hide|![Hide icon]({{site.baseurl}}/images/images-ee/icon-pb-hide.png){: width="25px"}|Hides the current banner.|
 |Show|![Show icon]({{site.baseurl}}/images/images-ee/icon-pb-show.png){: width="25px"}|Shows the  hidden banner.|
-|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a duplicate copy of the banner.|
+|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a copy of the banner.|
 |Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the banner from the stage.|
 |Upload New Image||Uploads an image from your local file system to the gallery for the banner background.|
 |Select from Gallery||Uses an existing image from the gallery for the banner background.|
@@ -269,7 +269,7 @@ You can modify the banner content directly on the stage or when you are changing
 
 ## Advanced
 
-1. Choose the the **Alignment** to control the horizontal positioning of content containers that are added to the banner.
+1. Choose an **Alignment** to control the horizontal positioning of content containers that are added to the banner.
 
    |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
    |Left|Aligns the content containers along the left border of the banner container, with allowance for any padding that is specified.

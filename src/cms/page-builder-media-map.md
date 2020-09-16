@@ -21,7 +21,7 @@ The map toolbox appears when you hover over the map container.
 |Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the Edit Map page, where you can change the properties of the map and container.|
 |Hide|![Hide icon]({{site.baseurl}}/images/images-ee/icon-pb-hide.png){: width="25px"}|Hides the current map.|
 |Show|![Show icon]({{site.baseurl}}/images/images-ee/icon-pb-show.png){: width="25px"}|Shows the  hidden map.|
-|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a duplicate copy of the map.|
+|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a copy of the map.|
 |Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the map from the stage.|
 
 ## Configure Google Maps for your Admin
@@ -73,7 +73,7 @@ Depending on whether you already have a Google Maps key, use one of the followin
    ![]({% link images/images-ee/page-builder-tutorial2-google-map.png %}){: .zoom}
    _Google Maps_
 
-   If Google Maps Platform isn’t yet configured for your store, a placeholder map appears instead.
+   If Google Maps Platform is not yet configured for your store, a placeholder map appears instead.
 
    ![]({% link images/images-ee/page-builder-tutorial2-media-map-not-configured.png %}){: .zoom}
    _Google Maps Placeholder_
@@ -195,7 +195,7 @@ Use the Google Maps Platform Styling Wizard to apply a one of six predefined the
 
 1. Modify the _Advanced_ settings as needed:
 
-   - Choose the the **Alignment** to control the horizontal positioning of the map content that added to the container.
+   - Choose an **Alignment** to control the horizontal positioning of the map content that added to the container.
 
       |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
       |Left|Aligns the content along the left border of the map container, with allowance for any padding that is specified.
