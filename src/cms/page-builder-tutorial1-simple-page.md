@@ -102,7 +102,7 @@ _Page Builder - full bleed row with banner_
    ![]({% link images/images-ee/page-builder-tutorial1-row-settings-appearance-full-bleed.png %}){: .zoom}
    _Row settings - full bleed_
 
-1. Scroll down to the _Advanced_ section and set all **Margins and Padding** settings to zero ( `0` ).
+1. Scroll down to the _Advanced_ section and set all **Margins and Padding** settings to `0`.
 
    This setting ensures that the banner extends the full width of the row.
 
@@ -185,7 +185,7 @@ Page Builder has a new content type called _Banner_, which is featured in this s
 
       `New LUMA yoga collection`
 
-   The editor toolbar appears above the text box. Text can be entered and formatted either directly from the stage, or by choosing Settings from the banner toolbox.
+   The editor toolbar appears above the text box. Text can be entered and formatted either directly from the stage, or by choosing _Settings_ in the banner toolbox.
 
    ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-text.png %}){: .zoom}
    _Editing banner content from the stage_
@@ -253,7 +253,7 @@ Page Builder has a new content type called _Banner_, which is featured in this s
       ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-background-color.png %}){: .zoom}
       _Banner in the content stage with text message and button_
 
-1. In the upper-right corner of the stage, click the Fullscreen (![]({% link images/images-ee/icon-pb-fullscreen.png %})) icon.
+1. In the upper-right corner of the stage, click the _Fullscreen_ (![]({% link images/images-ee/icon-pb-fullscreen.png %})) icon.
 
    Fullscreen mode includes the Page Builder panel and the stage, and shows how the page looks from the storefront.
 
@@ -293,7 +293,7 @@ _Example page using contained row with two equal columns_
    ![]({% link images/images-ee/page-builder-tutorial1-row-drag-to-stage.png %}){: .zoom}
    _Adding a new row above the banner_
 
-1. Hover over the new row to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %}){: width="20px"} ) icon.
+1. Hover over the new row to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %}){: width="20px"}) icon.
 
    ![]({% link images/images-ee/page-builder-tutorial1-row-settings.png %}){: .zoom}
    _Row toolbox_
@@ -323,7 +323,7 @@ _Example page using contained row with two equal columns_
 
    The grid ensures that content is aligned consistently, and will render correctly on both desktop and mobile devices. For information about configuring the grid size, see the [Configure Page Builder]({% link cms/page-builder-setup.md %}#configure-page-builder) section in the Page Builder Setup topic.
 
-   The numbers in parentheses (6 /12) in the top border of each column container indicate the number of grid divisions in each column, and the total number of divisions in the row.
+   The numbers in parentheses (6/12) in the top border of each column container indicate the number of grid divisions in each column, and the total number of divisions in the row.
 
    ![]({% link images/images-ee/page-builder-tutorial1-columns-grid-size.png %}){: .zoom}
    _Displaying grid size details for the column_
@@ -424,7 +424,7 @@ _Example full width row with columns of different widths_
    ![]({% link images/images-ee/page-builder-tutorial1-row-settings-background-color.png %}){: .zoom}
    _Setting the background color_
 
-1. Scroll down to the _Advanced_ section and set all **Margins & Padding** values to zero ( `0` ).
+1. Scroll down to the _Advanced_ section and set all **Margins & Padding** values to `0`.
 
    ![]({% link images/images-ee/page-builder-tutorial1-row-settings-advanced-margins-padding-zero.png %}){: .zoom}
    _Setting the margins and padding_
@@ -452,7 +452,7 @@ _Example full width row with columns of different widths_
 
 1. Hover over first column container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %}) icon.
 
-1. Scroll down to the _Advanced_ section and set all **Margins & Padding** values to zero ( 0 ).
+1. Scroll down to the _Advanced_ section and set all **Margins & Padding** values to `0`.
 
    ![]({% link images/images-ee/page-builder-tutorial1-row-settings-advanced-margins-padding-zero.png %}){: .zoom}
    _Setting the margins and padding_
@@ -603,7 +603,7 @@ With all three rows complete, the final step is to rearrange the rows to match t
 
 1. If necessary, ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and scroll down to the Page Builder workspace.
 
-1. Hover over the first row on the stage to display the toolbox and choose the Move ( ![]({% link images/images-ee/icon-pb-move.png %})) icon.
+1. Hover over the first row on the stage to display the toolbox and choose the _Move_ ( ![]({% link images/images-ee/icon-pb-move.png %})) icon.
 
    ![]({% link images/images-ee/page-builder-tutorial1-row-toolbox-move.png %}){: .zoom}
    _Move_

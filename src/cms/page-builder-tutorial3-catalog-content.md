@@ -10,7 +10,7 @@ _Product list_
 
 This tutorial assumes that you have completed [Tutorial 1: Simple Page]({% link cms/page-builder-tutorial1-simple-page.md %}) and [Tutorial 2: Blocks]({% link cms/page-builder-tutorial2-blocks.md %}), including the prerequisites and downloaded sample files.
 
-Follow parts 1, 2, and 3, of this tutorial in order.
+Follow parts 1, 2, and 3 of this tutorial in order.
 
 ## PART 1: Add a product list
 
@@ -22,7 +22,7 @@ Page Builder makes it easy to add a product list to the stage. In this example, 
 
 1. Find the **Simple Page** that you created in the first tutorial and open it in edit mode.
 
-1. Scroll down and the **Content** section.
+1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
 
    ![]({% link images/images-ee/page-builder-product-workspace.png %}){: .zoom}
    _Content stage_
@@ -45,7 +45,7 @@ Page Builder makes it easy to add a product list to the stage. In this example, 
 
 1. Add a new condition:
 
-   - Click the Add (![]({% link images/images/btn-add-grn.png %})) icon.
+   - Click the _Add_ (![]({% link images/images/btn-add-grn.png %})) icon.
 
    - Under _Product Attribute_, choose **Category**.
 

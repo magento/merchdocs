@@ -275,7 +275,7 @@ In the first tutorial, you learned how to use the [Button]({% link cms/page-buil
    ![]({% link images/images-ee/page-builder-dynamic-blocks-related-promotions.png %}){: .zoom}
    _Related promotions_
 
-1. On the _Add Related Cart Price Rules_ page, select the checkbox for the "Buy 3 tee shirts and get the 4th fee" price rule and click <span class="btn">Add Selected</span>.
+1. On the _Add Related Cart Price Rules_ page, select the checkbox for the _Buy 3 tee shirts and get the 4th free_ price rule and click <span class="btn">Add Selected</span>.
 
    ![]({% link images/images-ee/page-builder-dynamic-block-add-related-cart-price-rules.png %}){: .zoom}
    _Adding a related cart price rule_
@@ -342,7 +342,7 @@ _Sample dynamic block in the storefront_
 
 1. In the _Admin_ sidebar, go to **Content** > _Elements_ > **Dynamic Blocks**.
 
-1. Find your Tee Shirt Promo dynamic block in the grid and open it in edit mode.
+1. Find your _Tee Shirt Promo_ dynamic block in the grid and open it in edit mode.
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
 
