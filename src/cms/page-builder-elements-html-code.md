@@ -1,25 +1,43 @@
 ---
 ee_only: true
-title: HTML Code
+title: Elements - HTML Code
 ---
 
 Use the HTML Code content type to add snippets of HTML, CSS, and JavaScript code to the stage. For example, you might want to add custom HTML, declare a CSS class that can be applied to an element on the page, or add a snippet of code for a logo, button, or banner that you received from a third-party provider.
 
-In the following example, you will learn how to embed [Google Font][1] code and declare custom heading classes that override the current stylesheet.
+## HTML Code toolbox
 
-## Step 1: Choose a Google Font
+![]({% link images/images-ee/page-builder-elements-html-code-toolbox.png %}){: .zoom}
+_HTML Code toolbox_
+
+| Tool      | Icon       | Description       |
+| --------- | ---------- | ----------------- |
+| Move      | ![]({% link images/images-ee/icon-pb-move.png %}) | Moves the HTML Code container to another valid place on the page. |
+| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the Edit HTML Code page, where you can change the properties of the container. |
+| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %}) | Hides the HTML Code container. |
+| Show      | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the hidden HTML Code container. |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the HTML Code container. |
+| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})  | Deletes the HTML Code container and its content from the stage. |
+
+## Add HTML code
+
+The following example demonstrates how to embed [Google Font][1] code and declare custom heading classes that override the current stylesheet.
+
+### Step 1: Choose a Google font
 
 1. Visit the [Google Fonts][1] site and choose the font family that you want to use.
 
    ![]({% link images/images-ee/page-builder-elements-html-code-google-fonts.png %}){: .zoom}
-   _Google Fonts Site_
+   _Google Fonts site_
 
 1. Copy the generated code that is to be embedded in the `<head>` section of the page and paste it temporarily into a text editor.
 
    - Embed Font code
    - CSS Rule
 
-1. Add the font-family rule to each heading class. Then, enclose the heading classes in a `<style>` tag. This is the code that will be pasted into Page Builder.
+1. Add the font-family rule to each heading class, enclosing the heading classes in a `<style>` tag.
+
+   This is the code that will be pasted into Page Builder.
 
    ```html
    <style>
@@ -29,75 +47,108 @@ In the following example, you will learn how to embed [Google Font][1] code and 
    </style>
    ```
 
-## Step 2: Add the Code to the Page
+### Step 2: Add the code to the page
 
-1. In the Admin sidebar of your store, go to **Content** > _Elements_ > **Pages**.
+1. In the _Admin_ sidebar of your store, go to **Content** > _Elements_ > **Pages**.
 
-1. Find the page where the font is to be available, and open in edit mode. Then, scroll down to the **Content** section.
+1. Find the page where the font is to be available and open it in edit mode.
 
-1. In the Page Builder panel under **Elements**, drag an **HTML Code** placeholder to a row, column, or tab set on the stage.
+1. Scroll down  and expand the **Content** section.
+
+1. In the Page Builder panel, expand **Elements** and drag an **HTML Code** placeholder to a row, column, or tab set on the stage.
 
    Use the red guideline to position the divider either before or after another content container in the row, column, or tab set.
 
    ![]({% link images/images-ee/page-builder-elements-html-code-drag.png %}){: .zoom}
-   _Drag HTML Code Element to Stage_
+   _Dragging a HTML Code placeholder to the stage_
 
-1. Hover over the container. Then in the toolbox, choose **Settings** ( ![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}), and do the following:
+1. Hover over the HTML container to display the toolbox and choose the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %})), icon.
 
-   ![]({% link images/images-ee/page-builder-elements-html-code-toolbox.png %}){: .zoom}
-   _HTML Code Toolbox_
+1. In the text box, paste the embed Google Fonts code and style declarations that you prepared.
 
-   - In the text box, paste the embed Google Fonts code and style declarations that you prepared. To make it easier to read, you can enter a few spaces to indent the code.
+   To make it easier to read, you can enter a few spaces to indent the code.
 
-      ![]({% link images/images-ee/page-builder-elements-html-code-example.png %}){: .zoom}
-      _HTML Code and Styles_
+   ![]({% link images/images-ee/page-builder-elements-html-code-example.png %}){: .zoom}
+   _HTML code and styles_
 
-   - Update the remaining settings as needed, using the [descriptions](#html-settings) at the end of this page for reference.
+1. Update the remaining settings as needed (see [Change HTML code settings][#html-settings] for details).
 
 1. In the upper-right corner, <span class="btn">Save</span> the settings and return to the Page Builder workspace.
 
    The new font renders when the page is viewed through a browser.
 
-1. To preview the page, do the following:
+### Step 3: Preview the page
 
-   - In the **Currently Active** section, set **Enable Page** to `Yes`.
+1. In the _Currently Active_ section, set **Enable Page** to `Yes`.
 
-      ![]({% link images/images-ee/page-builder-elements-html-code-enable-page.png %}){: .zoom}
-      _Enable Page_
+   ![]({% link images/images-ee/page-builder-elements-html-code-enable-page.png %}){: .zoom}
+   _Enabling the page_
 
-   - In the upper-right corner on the **Save** menu, choose **Save & Close**.
+1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
 
-1. Find the page in the grid. Then, select **View** in the _Actions_ column.
+1. Find the page in the grid and select **View** in the _Actions_ column.
 
    ![]({% link images/images-ee/page-builder-elements-html-code-preview.png %}){: .zoom}
-   _Preview Headings with New Font Family_
+   _Preview the page headings with the new font family_
 
-## HTML Code Toolbox
+## Change HTML code settings {#html-settings}
 
-| Tool      | [Icon]({% link configuration/scope.md %})               | Description                                                                        |
-| --------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| Move      | ![]({% link images/images-ee/icon-pb-move.png %})       | Moves the HTML Code container to another valid place on the page.                     |
-| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %})   | Opens the Edit HTML Code page, where you can change the properties of the container. |
-| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})       | Hides the HTML Code container.                                                        |
-| Show      | ![]({% link images/images-ee/icon-pb-show.png %})       | Shows the hidden HTML Code container.                                                 |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %})  | Makes a duplicate copy of the HTML Code container.                                    |
-| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})     | Deletes the HTML Code container and its content from the stage.                       |
+1. Hover over the HTML container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
-## HTML Code Settings {#html-settings}
+1. In the text box, edit the code as needed.
 
-|Setting|Description|
-|--- |--- |
-|(Text Box)|A text box that is used to enter HTML, CSS, and JavaScript code. Code snippets which belong in the `<head>` section of the page can be entered here.|
-|Insert Widget...|Button used to insert a Magento widget at the cursor's position in the HTML text box.|
-|Insert Image...|Button used to insert an uploaded image or an image from the Gallery at the cursor's position in the HTML text box.|
-|Insert Variable...|Button used to insert a Magento variables at the cursor's position in the HTML text box.|
-|**Advanced**||
-|Alignment|Determines the horizontal alignment of the html code in relation to its parent container. Options: <br/>**Default** - Applies the default setting that is specified in the style sheet of the current theme. <br/>**Left** - Aligns the html code along the left border of its parent container, with allowance for any padding that is specified. <br/>**Center** - Aligns the html code in the center of its parent container, with allowance for any padding that is specified. <br/>**Right** - Aligns the html code along the right border of its parent container, with allowance for any padding that is specified.|
-|Border|Determines the border style that is applied to all sides of the html code container. Options: <br/>**Default** - Applies the default border style from the style sheet that is associated with the current theme. <br/>**None** - Provides no visible indication of container borders. <br/>**Dotted** - The container border appears as a dotted line.  <br/>**Dashed** - The container border appears as a dashed line. <br/>**Solid** - The container border appears as a solid line. <br/>**Double** - The container border appears as a double line. <br/>**Groove** - The container border appears as a grooved line. <br/>**Ridge** - The container border appears as a ridged line. <br/>**Inset** - The container border appears as an inset line. <br/>**Outset** - The container border appears as an outset line.|
-|Border Color|Determines the color of the container border. Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.|
-|Border Width|Determines the width in pixels of the container border.|
-|Border Radius|Specifies the size of the radius that is used to round each corner of the container border.|
-|CSS Classes|Specifies the names of CSS classes from the current style sheet that apply to the html code. Separate multiple class names with a space.|
-|Margins and Padding|Determines the size, in pixels, of the outer margins and inner padding of the row. Enter each corresponding value in the row container diagram. <br/>**Margins** - The amount of blank space, in pixels, that is to be applied to the outside edge of all sides of the html code container. Options: Top / Right / Bottom / Left <br/>**Padding** - The amount of blank space, in pixels, that is to be applied to the inside edge of all sides of the html code container. Options: Top / Right / Bottom / Left|
+   This supports HTML, CSS, and JavaScript code. Code snippets that belong in the `<head>` section of the page can be entered here.
+
+   The editor also provides buttons to insert special elements in the code:
+
+   |Insert Widget...|Click to insert a Magento widget at the cursor's position in the HTML text box.|
+   |Insert Image...|Click to insert an uploaded image or an image from the Gallery at the cursor's position in the HTML text box.|
+   |Insert Variable...|Click to insert a Magento variables at the cursor's position in the HTML text box.|
+
+1. Update the _Advanced_ settings as needed.
+
+   - Choose an **Alignment** to control the positioning of the code within the parent container:
+
+      |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
+      |Left|Aligns the list along the left border of the parent container, with allowance for any padding that is specified.
+      |Center|Aligns the list in the center of the parent container, with allowance for any padding that is specified.
+      |Right|Aligns the block along the right border of the parent container, with allowance for any padding that is specified.
+
+      In the following example, the options are set to use a center alignment for the rendered code block.
+
+      ![]({% link images/images-ee/page-builder-elements-divider-settings-advanced-alignment-center.png %}){: .zoom}
+      _Divider with a center alignment_
+
+   - Set the **Border** style applied to all four sides of the code container:
+
+      |Default|Applies the default border style that is specified by the associated style sheet.
+      |None|Does not provide any visible indication of the container borders.
+      |Dotted|The container border appears as a dotted line.
+      |Dashed|The container border appears as a dashed line.
+      |Solid|The container border appears as a solid line.
+      |Double|The container border appears as a double line.
+      |Groove|The container border appears as a grooved line.
+      |Ridge|The container border appears as a ridged line.
+      |Inset|The container border appears as a inset line.
+      |Outset|The container border appears as a outset line.
+
+   - If you set a border style other than `None`, complete the border display options:
+
+      - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+
+      - **Border Width** - Enter the number of pixels for the border line width.
+
+      - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+
+   - (Optional) Specify the names of **CSS classes** from the current style sheet to apply to the container.
+
+      Separate multiple class names with a space.
+
+   - Enter values, in pixels, for the **Margins and Padding** to determine the outer margins and inner padding of the code container.
+
+      Enter the corresponding values in the diagram.
+
+      |Margins|The amount of blank space that is applied to the outside edge of all sides of the container. Options: Top / Right / Bottom / Left
+      |Padding|The amount of blank space that is applied to the inside edge of all sides of the container. Options: Top / Right / Bottom / Left
 
 [1]: https://fonts.google.com/
