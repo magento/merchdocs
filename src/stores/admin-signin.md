@@ -13,7 +13,7 @@ For additional security, you can determine which parts of the _Admin_ each user 
 The first time you sign in to the _Admin_, you are given the opportunity to _Allow admin usage data collection_. See [Store Admin]({% link stores/admin.md %}) for more information.
 
 ![]({% link images/images/admin-login.png %}){: .zoom}
-__Admin_ Sign In_
+_Admin Sign In_
 
 ## Step 1: Set up two-factor authentication
 
