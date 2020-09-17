@@ -50,12 +50,13 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 ## Minimum Order Amount
 
 ![]({% link images/images/config-sales-sales-minimum-order-amount.png %}){: .zoom}
-[_Minimum Order Amount_]({% link sales/minimum-order-amount.md %})
+[_Minimum Order Amount_]({% link sales/cart-minimum-order-amount.md %})
 
 ||Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable|Website|Determines if a minimum order amount is set for the site. Options: Yes / No|
 |Minimum Amount|Website|Specifies the minimum subtotal, order after discounts are applied.|
+|Include Discount Amount|Determines if the minimum order amount includes applied discounts.  Options: Yes / No|
 |Include Tax to Amount|Website|Determines if the minimum order amount includes tax. Options: Yes / No|
 |Description Message|Store View|Determines the message that appears at the top of the shopping cart when the cart total is less than the minimum order amount. If left blank, the following default message appears:Minimum order amount is $[minimum_amount]|
 |Error to Show in Shopping Cart|Store View|Determines the message that appears from the mini shopping cart or checkout link when the order amount is less than the minimum order amount required. If left blank, a default message appears.|
