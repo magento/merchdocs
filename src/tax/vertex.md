@@ -14,17 +14,13 @@ The integration includes tax configuration and address cleansing   for your stor
 
 ## Changes in the latest release
 
+- {:.fix}Features
+
+   - Admin Order Cleansing: The Vertex Address Validation module displays a button that validates and updates addresses for orders created from the Admin.
+
 - {:.fix}Enhancements
 
-   - Configuration in the Magento Admin has been redesigned to be more user friendly
-   - Vertex can now be configured to use the Shipping Origin address as the Seller in Vertex Tax calls
-   - _Address Validation_ in the configuration has been renamed to _Address Cleansing_
-   - Various updates have been made to address functional issues:
-
-      - Improvements for calculations on an order with both physical and virtual products before a billing address was set
-      - Improvements for updating the billing address with Vertex's recommendation
-      - Improvements for bundle and virtual products tax calculations
-      - Improvements to address validation/cleansing display on the storefront to better support Internet Explorer 11
+   - VAT Fallback: The Value Added Tax number and country from the customer's account is used as the default if a VAT number is not specified during checkout.
 
 <!--
   This is a style declaration so that the feature icons are not sized by table auto styling for column widths.
