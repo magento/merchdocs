@@ -159,7 +159,7 @@ Do the following to test the dynamic coupon code URLs that you generate with the
 
 1. From your Magento store, make a test purchase and apply the code in the shopping cart.
 
-### Method 2: Add your IP address to the IP restriction whitelist
+### Method 2: Add your IP address to the IP restriction allow list
 
 1. In the Magento configuration, go to **DOTDIGITAL** > **Developer**.
 

@@ -16,7 +16,7 @@ _Manage Catalog Events_
 
 1. In the category tree, choose the category that you want to associate with the event.
 
-    Because each category can have only one event at a time, any categories that already have an event are disabled .
+    Because each category can have only one event at a time, any categories that already have an event are disabled.
 
     ![New event - category tree]({% link images/images-ee/catalog-events-category-tree.png %}){: .zoom}
     _Select Category_

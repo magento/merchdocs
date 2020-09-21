@@ -183,7 +183,7 @@ When you have your account information, complete the following sections.
 
 1. To limit the availability of the _Login with Amazon_ and _Amazon Pay_ buttons, specify the **Allowed IPs**.
 
-    Enter the IP address of each, separated by a comma. The specified IP addresses are added to a white list. When this field is blank, the buttons are available for all IP addresses.
+    Enter the IP address of each, separated by a comma. The specified IP addresses are added to an allow list. When this field is blank, the buttons are available for all IP addresses.
 
     ![Sales configuration - Amazon Pay developer options]({% link images/images/config-sales-payment-methods-amazon-pay-developer-options.png %}){: .zoom}
     _Amazon Pay Developer Options_
