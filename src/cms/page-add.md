@@ -7,7 +7,7 @@ The process of adding a new content page to your store is essentially the same f
 The following instructions walk you through each step to create a basic page. Some advanced features are skipped over, but are covered in other topics.
 
 ![]({% link images/images-ee/pages.png %}){: .zoom}
-_Pages Grid_{:.ee-only}
+_Pages Grid_
 
 ## Step 1: Add a new page
 
@@ -16,7 +16,7 @@ _Pages Grid_{:.ee-only}
 1. Click <span class="btn">Add New Page</span>.
 
    ![]({% link images/images-ee/pages-new-page.png %}){: .zoom}
-   _New Page_{:.ee-only}
+   _New Page_
 
 1. If you do not want to publish the page immediately, set **Enable Page** to `No`.
 
@@ -29,12 +29,12 @@ _Pages Grid_{:.ee-only}
 {:.ce-only}
 ### Use the Custom Design Update
 
-1. To schedule design changes, expand ![]({% link images/images/btn-expand.png %}) **Custom Design Update**.
+1. To schedule design changes, expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Custom Design Update**.
 
    ![]({% link images/images/page-custom-design-update.png %}){: .zoom}
    _Custom Design Update_{:.ce-only}
 
-1. Expand ![]({% link images/images/btn-expand.png %}) **Content**.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Content**.
 
    ![]({% link images/images/page-content.png %}){: .zoom}
    _Content_{:.ce-only}
@@ -43,14 +43,14 @@ _Pages Grid_{:.ee-only}
 
 1. Complete the content and format the text as needed.
 
-   You can add [images]({% link cms/media-storage.md %}), [variables]({% link marketing/variables.md %}), and [widgets]({% link cms/widgets.md %}) as needed. To learn more, see [Using the Editor]({% link cms/editor.md %}).
+   You can add [images]({% link cms/media-storage.md %}), [variables]({% link marketing/variables.md %}), and [widgets]({% link cms/widgets.md %}) as needed. For more information, see [Using the Editor]({% link cms/editor.md %}).
 
 1. Click <span class="btn">Save</span>.
 
 {:.ee-only}
 ### Use the Page Builder content tools
 
-1. Expand ![]({% link images/images/btn-expand.png %}) **Content**.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Content**.
 
    ![]({% link images/images-ee/page-content.png %}){: .zoom}
    _Content with Page Builder_{:.ee-only}
@@ -61,11 +61,11 @@ _Pages Grid_{:.ee-only}
 
 1. Complete the content, and format the text as needed.
 
-   To learn more, see [Workspace]({% link cms/page-builder-workspace.md %}). If PageBuilder is not enabled, the editor opens in WYSIWYG mode with the toolbar at the top.
+   For more information, see [Workspace]({% link cms/page-builder-workspace.md %}). If PageBuilder is not enabled, the editor opens in WYSIWYG mode with the toolbar at the top.
 
 ## Step 3: Complete the SEO information
 
-1. Expand ![]({% link images/images/btn-expand.png %}) **Search Engine Optimization**.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Search Engine Optimization**.
 
    ![]({% link images/images/page-search-engine-optimization.png %}){: .zoom}
    _Search Engine Optimization_
@@ -82,7 +82,7 @@ _Pages Grid_{:.ee-only}
 
    Separate multiple words with a comma. Meta keywords are ignored by some search engines, but used by others.
 
-1. For the **Meta Description** , enter a brief description of the page for search results listings.
+1. For **Meta Description**, enter a brief description of the page for search results listings.
 
    Ideally, the description should be from 150-160 characters in length, with a maximum limit of 255.
 
@@ -90,7 +90,7 @@ _Pages Grid_{:.ee-only}
 
 ## Step 4: Specify the scope of the page
 
-1. Expand ![]({% link images/images/btn-expand.png %}) **Page in Websites**.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Page in Websites**.
 
    ![]({% link images/images/page-in-websites.png %}){: .zoom}
    _Pages in Websites_
@@ -102,7 +102,7 @@ _Pages Grid_{:.ee-only}
 {:.ee-only}
 ## Step 5: Identify the parent page (if applicable)
 
-1. Expand ![]({% link images/images/btn-expand.png %}) **Hierarchy**.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Hierarchy**.
 
    ![]({% link images/images-ee/page-hierarchy.png %}){: .zoom}
    _Hierarchy_
@@ -112,7 +112,7 @@ _Pages Grid_{:.ee-only}
 {:.ee-only}
 ## Step 6: Enter design changes (optional)
 
-1. To change the layout of the page, expand ![]({% link images/images/btn-expand.png %}) **Design**.
+1. To change the layout of the page, expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Design**.
 
    ![]({% link images/images/page-design.png %}){: .zoom}
    _Design_
@@ -128,11 +128,11 @@ _Pages Grid_{:.ee-only}
    - {: .ee-only}`Category -- Full Width` (Requires Page Builder)
    - {: .ee-only}`Product -- Full Width` (Requires Page Builder)
 
-1. To apply a **Custom Layout Update**, choose the name of the file from the list. To learn more, see [Layout Updates]({% link design/layout-updates.md %}).
+1. To apply a **Custom Layout Update**, choose the name of the file from the list. For more information, see [Layout Updates]({% link design/layout-updates.md %}).
 
-   To learn more, see [Layout Updates]({% link design/layout-updates.md %}).
+   For more information, see [Layout Updates]({% link design/layout-updates.md %}).
 
-1. {:.ce-only}To schedule a design change, expand ![]({% link images/images/btn-expand.png %}) **Custom Design Update** and do the following:
+1. {:.ce-only}To schedule a design change, expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Custom Design Update** and do the following:
 
    ![]({% link images/images/page-custom-design-update.png %}){: .zoom}
    _Custom Design Update_
@@ -145,7 +145,7 @@ _Pages Grid_{:.ee-only}
 
 ## Step 7: Preview the page
 
-1. On the **Save** menu, choose **Save & Close** to return to the Pages grid.
+1. Click the **Save** arrow and choose **Save & Close** to return to the Pages grid.
 
 1. Find the page in the grid and select **View** in the _Action_ column.
 
@@ -157,7 +157,7 @@ _Pages Grid_{:.ee-only}
 
 1. Set **Enable Page** to `Yes`.
 
-1. On the **Save** menu, choose **Save & Close**.
+1. Click the **Save** arrow and choose **Save & Close**.
 
    ![]({% link images/images/cms-pages-save-and-close.png %}){: .zoom}
    _Save & Close_
