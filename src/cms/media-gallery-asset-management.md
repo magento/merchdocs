@@ -23,10 +23,41 @@ The new [Media Gallery]({% link cms/media-gallery.md %}) provides tools for mana
     ![]({% link images/images/enhanced-media-gallery/asset-actions.png %}){: .zoom}
     _Asset Actions_
 
-   The asset details will be displayed on a slide panel, including information where the asset is being used. It is also possible to delete the asset from this section.
+    The asset details will be displayed on a slide panel. They include the information where the asset is being used:
+
+   - **Categories**
+   - **Products**
+   - **Pages**
+   - **Blocks**
 
     ![]({% link images/images/enhanced-media-gallery/asset-details.png %}){: .zoom}
     _Asset Details_
+
+    Click the **Used In** links to see the details. The grid in the following example shows all categories where a specific asset is used.
+
+    ![]({% link images/images/enhanced-media-gallery/asset-category-grid.png %}){: .zoom}
+    _Category Grid_
+
+    It is also possible to delete the asset from the _View Details_ section.
+
+## Edit an asset
+
+1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
+
+1. Click the three dots below the asset (![]({% link images/images/enhanced-media-gallery/three-dots-btn.png %})), then click <span class="btn">Edit</span>.
+
+    ![]({% link images/images/enhanced-media-gallery/edit-asset.png %}){: .zoom}
+    _Edit Asset_
+
+1. If needed, change one of the following metadata values:
+
+   - **Title**
+   - **Description**
+   - **Tags/Keywords**
+
+   This data will be saved to the data base as well as to the file metadata itself. Currently, XMP and IPTC formats are supported.
+
+   You can download the image with the updated metadata.
 
 ## Use an asset
 
@@ -39,19 +70,69 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
     ![]({% link images/images/enhanced-media-gallery/selected-asset.png %}){: .zoom}
     _Add Selected_
 
-## Delete an asset
+## Delete assets
 
 1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
 
-1. Select the asset, then click <span class="btn">Delete Selected</span>.
+1. Click <span class="btn">Delete Images...</span> and select the checkbox for each asset that you want to delete.
 
     ![]({% link images/images/enhanced-media-gallery/selected-asset.png %}){: .zoom}
     _Delete Selected_
 
 1. In the confirmation dialog, click <span class="btn">Delete Image</span>.
 
-    ![]({% link images/images/enhanced-media-gallery/delete-asset-confirmation.png %}){: .zoom}
+    ![]({% link images/images/enhanced-media-gallery/bulk-delete-asset-confirmation.png %}){: .zoom}
     _Delete Confirmation_
+
+## Search for assets
+
+1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
+
+1. Use the **Search by keywords** input to perform image search by keywords/tags.
+
+    The search in the following example finds assets that contain a specific tag (`mountain`).
+
+    ![]({% link images/images/enhanced-media-gallery/asset-search.png %}){: .zoom}
+    _Asset Search_
+
+{:.bs-callout-info}
+See the [Edit an asset][edit-asset] section to learn how you can update image tags.
+
+## Filtering assets
+
+1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
+
+1. Click the **Filters** tab.
+
+    ![]({% link images/images/enhanced-media-gallery/filters.png %}){: .zoom}
+    _Filters_
+
+1. Set the filtering options.
+
+   You can filter the assets according to usage by the entities:
+
+   - **Used in Categories**
+   - **Used in Products**
+   - **Used in Pages**
+   - **Used in Blocks**
+
+   You can also filter the assets by **Store View**, **License Status**, and **Content Status**. Set a date rage for **Uploaded Date** and/or **Modification Date** to filter assets according to file dates.
+
+1. Click <span class="btn">Apply Filters</span> to see the results.
+
+   The filtering in the following example finds assets that are used in a specific category (`cars`) and are enabled.
+
+    ![]({% link images/images/enhanced-media-gallery/filtered-by-category.png %}){: .zoom}
+    _Filter for Enabled Assets by Category_
+
+## Finding image duplicates
+
+1. Click the **Filters** tab and select the **Show duplicates** checkbox.
+
+1. Click <span class="btn">Apply Filters</span> to see the results.
+
+    ![]({% link images/images/enhanced-media-gallery/filter-duplicates.png %}){: .zoom}
+    _Show Duplicates_
 
 [adobe-stock-integration]: {% link cms/adobe-stock.md %}
 [save-preview]: {% link cms/adobe-stock-save-preview.md %}
@@ -59,3 +140,4 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 [add-edit-page]: {% link cms/page-add.md %}
 [create-edit-category]: {% link catalog/category-create.md %}
 [editor-insert-media]: {% link cms/editor-insert-image.md %}
+[edit-asset]: #edit-an-asset
