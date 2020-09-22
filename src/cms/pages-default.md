@@ -2,7 +2,7 @@
 title: Default Pages
 ---
 
-The Default Pages configuration determines the landing page that is associated with the [base URL]({% link stores/store-urls.md %}) and the corresponding home page. It also determines which page appears when a _Page Not Found_ error occurs, and if a [breadcrumb trail]({% link catalog/navigation-breadcrumb-trail.md %}) appears at the top of each page.
+The _Default Pages_ configuration determines the landing page that is associated with the [base URL]({% link stores/store-urls.md %}) and the corresponding home page. It also determines which page appears when a _Page Not Found_ error occurs, and if a [breadcrumb trail]({% link catalog/navigation-breadcrumb-trail.md %}) appears at the top of each page.
 
 ## Configure the default pages
 
