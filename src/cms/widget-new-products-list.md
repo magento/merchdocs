@@ -101,7 +101,7 @@ The code that determines the content of the New Products list and its placement 
 
 1. For **Cache Lifetime (Seconds)**, choose how often you want to refresh the list of new products.
 
-   By default, the cache is set to 86400 seconds, or 24 hours.
+   By default, the cache is set to 86,400 seconds (24 hours).
 
    ![]({% link images/images/widget-options-new-product-list.png %}){: .zoom}
    _Widget Options_

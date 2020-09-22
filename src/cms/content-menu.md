@@ -17,7 +17,7 @@ On the _Admin_ sidebar, choose **Content**.
 
 ## Elements
 
-- Create [pages]({% link cms/pages.md %}) with text, images, blocks, variables, and widgets, that can be incorporated into the navigation of your store, and linked to other pages.
+- Create [pages]({% link cms/pages.md %}) with text, images, blocks, variables, and widgets, that can be incorporated into the navigation of your store and can be linked to other pages.
 - {:.ee-only}Organize your pages into a [hierarchy]({% link cms/page-hierarchy.md %}) with navigation.
 - Create [blocks]({% link cms/blocks.md %}) of content without writing any code. Blocks can contain text, images, and even video, and can be assigned to any part of the page layout.
 - {:.ee-only}Create [dynamic blocks]({% link cms/dynamic-blocks.md %}) to incorporate rich, interactive content that is driven by logic from [price rules]({% link marketing/promotions.md %}) and [customer segments]({% link marketing/customer-segments.md %}).

@@ -147,7 +147,7 @@ You can save two types of images: an [image preview][save-preview] or a [license
 
 #### Save an image preview
 
-An image preview is a watermarked version of an Adobe Stock asset. Image previews are free and are a good way to experiment with different images before you decide to purchase a license for specific images and use them on your production stores.
+An image preview is a watermarked version of an Adobe Stock asset. Image previews are free and are a good way to experiment with different images before you decide to purchase a license for specific images for use on your production stores.
 
 1. [Access the Adobe Stock Search grid][access-search].
 

@@ -25,7 +25,7 @@ By default, links inherit their style from the style sheet of the theme.
    ![Editor toolbar - Insert Widget]({% link images/images/editor-toolbar/editor-menu-widget-button.png %} "Insert Widget"){: .zoom}
    _Insert widget icon_
 
-   If you do not have Page Builder and prefer to work with the code, click <span class="btn">Show / Hide Editor</span>. Position the insertion point in the text where you want the widget to appear. Then, click <span class="btn">Insert Widget</span>.
+   If you do not have Page Builder enabled and prefer to work with the code, click <span class="btn">Show / Hide Editor</span>. Position the insertion point in the text where you want the widget to appear. Then, click <span class="btn">Insert Widget</span>.
 
 1. Choose the **Widget Type**.
 
@@ -51,6 +51,6 @@ By default, links inherit their style from the style sheet of the theme.
 
 1. Click <span class="btn">Insert Widget</span> to place the link on the page.
 
-   If you are working with HTML code, a [markup tag ]({% link marketing/markup-tags-links.md %}) for the link appears at the top of the page, enclosed in double curly braces. If needed, use Cut and Paste to position the markup tag in the code where you want the link to appear.
+   If you are working with HTML code, a [markup tag ]({% link marketing/markup-tags-links.md %}) for the link appears at the top of the page, enclosed in double curly braces. If needed, use _Cut and Paste_ to position the markup tag in the code where you want the link to appear.
 
 1. When your content edits are complete, click <span class="btn">Save</span>.

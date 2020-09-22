@@ -35,7 +35,9 @@ _Catalog event configuration_
 
 1. In the _Storefront Properties_ section, do the following:
 
-   - For **Widget Title**, enter a descriptive title for the widget. (This title is visible only from the _Admin_.)
+   - For **Widget Title**, enter a descriptive title for the widget. 
+   
+      This title is visible only from the _Admin_.
 
    - For **Assign to Store Views**, select the store views where the widget will be visible.
 

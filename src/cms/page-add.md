@@ -61,7 +61,7 @@ _Pages Grid_
 
 1. Complete the content, and format the text as needed.
 
-   For more information, see [Workspace]({% link cms/page-builder-workspace.md %}). If PageBuilder is not enabled, the editor opens in WYSIWYG mode with the toolbar at the top.
+   For more information, see [Workspace]({% link cms/page-builder-workspace.md %}). If _Page Builder_ is not enabled, the editor opens in WYSIWYG mode with the toolbar at the top.
 
 ## Step 3: Complete the SEO information
 
@@ -128,7 +128,7 @@ _Pages Grid_
    - {: .ee-only}`Category -- Full Width` (Requires Page Builder)
    - {: .ee-only}`Product -- Full Width` (Requires Page Builder)
 
-1. To apply a **Custom Layout Update**, choose the name of the file from the list. For more information, see [Layout Updates]({% link design/layout-updates.md %}).
+1. To apply a **Custom Layout Update**, choose the name of the file from the list.
 
    For more information, see [Layout Updates]({% link design/layout-updates.md %}).
 
