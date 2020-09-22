@@ -17,7 +17,7 @@ After you complete the design, development, and testing of your store, check the
 - [Sales Communications]({% link marketing/sales-communications.md %}) - Make sure that your invoices and packing slips include the correct business information and reflect your brand.
 - [Google Tools]({% link marketing/google-tools.md %}) - Magento is integrated with Google API to allow your business to use Google Analytics and Google AdWords.
 
-## Sales &amp; Marketing Settings
+## Sales Settings
 
 - [Cart Options]({% link sales/cart-configuration.md %})  - Take a look at the cart configuration settings, to see if there’s anything that you want to change. This is where you can set the minimum order amount and lifetime of the prices in the cart.
 - [Checkout Options]({% link sales/checkout-options.md %}) - Take a look at the checkout options, to see if there’s anything that you want to change. This is where you can set up terms and conditions, and configure guest checkout.
