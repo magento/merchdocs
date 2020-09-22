@@ -79,8 +79,6 @@ Follow the instructions to [create the dynamic blocks]({% link cms/dynamic-block
    Cart Price Rule Related|Includes only dynamic blocks that are associated with a cart price rule.|
    Catalog Price Rule Related|Includes only dynamic blocks that are associated a with catalog price rule.|
 
-|Restrict by Dynamic Block Types|Limits the banner to a specific part of the page layout. Options: <br/>
-
 1. To **Restrict the Dynamic Block Types** that can be used with the widget, select `Content Area`.
 
    This limits the banner to a specific part of the page layout.

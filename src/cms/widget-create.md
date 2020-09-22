@@ -63,9 +63,7 @@ The options for each widget type vary slightly, but the process is essentially t
 
 1. Click <span class="btn">Select Block</span>.
 
-1. Enter a **Title** to appear above the list.
-
-   For example, `Featured Products`.
+1. Enter a **Title** to appear above the list, such as `Featured Products`.
 
 1. For pagination controls, set **Display Page Control** to `Yes`  and do the following:
 
