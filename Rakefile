@@ -45,17 +45,15 @@ task check: %w[check:image_optim check:mdl]
 
 desc 'Generate index for Algolia'
 task :index do
-
   puts 'Generating index for Algolia ...'.magenta
   sh 'bin/jekyll algolia --config=_config.yml,_config.index.yml'
 end
-
 
 desc 'Generate data for a news digest. Default timeframe is a week since today. For other period, use "since" argument: since="jul 4"'
 task :whatsnew do
   date = ENV['since']
   print 'Generating data for the weekly digest: $ '.magenta
-  if date.nil? or date.empty?
+  if date.nil? || date.empty?
     sh 'bin/whatsup_github'
   elsif date.is_a? String
     sh 'bin/whatsup_github', 'since', ENV['since'].to_s
