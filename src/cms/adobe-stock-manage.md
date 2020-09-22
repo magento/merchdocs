@@ -19,16 +19,16 @@ To search Adobe Stock assets and add a stock image to a page:
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and do the following:
 
-    - {:.ce-only}If you have WYSIWYG mode disabled, click **Insert Image**.
+   - {:.ce-only}If you have WYSIWYG mode disabled, click **Insert Image**.
 
-    - {:.ce-only}If you have WYSIWYG mode enabled, click **Show/Hide Editor** and then click **Insert Image**.
+   - {:.ce-only}If you have WYSIWYG mode enabled, click **Show/Hide Editor** and then click **Insert Image**.
 
-    - {:.ee-only}If you have [Page Builder enabled]({% link cms/page-builder-setup.md %}), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click <span class="btn">Select from Gallery</span>.
+   - {:.ee-only}If you have [Page Builder enabled]({% link cms/page-builder-setup.md %}), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click <span class="btn">Select from Gallery</span>.
 
       ![]({% link images/images-ee/page-builder-media-image-drag.png %}){: .zoom}
-      _Drag Image to Stage_
+      _Dragging an image to the Page Builder stage_
 
-    - {:.ee-only}If you have the [WYSIWYG editor enabled]({% link cms/editor-configure.md %}), click **Show/Hide Editor** and then click **Insert Image**.
+   - {:.ee-only}If you have the [WYSIWYG editor enabled]({% link cms/editor-configure.md %}), click **Show/Hide Editor** and then click **Insert Image**.
 
 1. Click <span class="btn">Search Adobe Stock</span>.
 
@@ -54,50 +54,50 @@ To search Adobe Stock assets and add a stock image from the WYSIWYG Editor:
 
 1. Click <span class="btn">Search Adobe Stock</span>.
 
-    ![Adobe Stock search results]({% link images/images/adobe-stock/search-grid.png %}){: .zoom}
-    _Adobe Stock search results_
+   ![Adobe Stock search results]({% link images/images/adobe-stock/search-grid.png %}){: .zoom}
+   _Adobe Stock search results_
 
-## Filter and Search for Adobe Stock Assets
+## Filter and search for Adobe Stock assets
 
 The [Adobe Stock Search Grid][access-search] provides querying and filtering functionality to help you find the perfect image for your Magento stores.
 
 By default, the search results shown are from an Adobe Stock curated gallery of a few hundred results. As soon as you apply your own keyword search, you will be
 searching the millions of assets available via Adobe Stock.
 
-### Search for Adobe Stock Assets by Keywords
+### Search for Adobe Stock assets by keywords
 
 1. [Access the Adobe Stock Search grid][access-search].
 
 1. Enter your keyword search into the **Search by keyword** input field in the top-left and click the magnifying glass or press **Enter**.
 
-    ![Adobe Stock Search Results for the "mango" keyword]({% link images/images/adobe-stock/mango.png %}){: .zoom}
-    _Adobe Stock search results - "mango" keyword_
+   ![Adobe Stock Search Results for the "mango" keyword]({% link images/images/adobe-stock/mango.png %}){: .zoom}
+   _Adobe Stock search results - "mango" keyword_
 
-### Filter Adobe Stock Assets
+### Filter Adobe Stock assets
 
 1. [Run a keyword search for Adobe Stock assets][search-by-keywords].
 
 1. Click <span class="btn">Filters</span>.
 
-    There are several filters available to refine your search results:
+   There are several filters available to refine your search results:
 
-    |Filter|Description|
-    |---|---|
-    |Subcategory|Filter for images that are **Photos** or **Illustrations**|
-    |Orientation|Filter for images by size, shape, and aspect|
-    |Color|Use a color pallette to filter for images by color|
-    |Price|Filter for images based on their cost|
-    |Safe search|Enable or disable Safe search|
-    |Isolated Assets|Show only Isolated Assets, which have subjects appear alone on a solid background|
+   |Filter|Description|
+   |---|---|
+   |Subcategory|Filter for images that are **Photos** or **Illustrations**|
+   |Orientation|Filter for images by size, shape, and aspect|
+   |Color|Use a color palette to filter for images by color|
+   |Price|Filter for images based on their cost|
+   |Safe search|Enable or disable Safe search|
+   |Isolated Assets|Show only Isolated Assets, which have subjects appear alone on a solid background|
 
-    ![Adobe Stock search filters]({% link images/images/adobe-stock/filters.png %}){: .zoom}
-    _Adobe Stock Search Filters_
+   ![Adobe Stock search filters]({% link images/images/adobe-stock/filters.png %}){: .zoom}
+   _Adobe Stock search filters_
 
 1. Click **Apply Filters**.
 
-    The search result grid is updated with your refined search.
+   The search result grid is updated with your refined search.
 
-## View Image Details
+## View image details
 
 Each image has details available for viewing. Additional image-specific actions, such as [saving image previews][save-preview] or [saving (and optionally licensing) images][save-licensed], are available via this detailed view.
 
@@ -105,51 +105,49 @@ Each image has details available for viewing. Additional image-specific actions,
 
 1. Click an image in the search results.
 
-    Further image details are displayed, such as:
-    - A larger version of the image
-    - Image metadata, such as **Dimensions**, **File type**, **Category**, **File#**, and **Keywords**
-    - Related images, such as images from the same **series** or **model**
-    - Action buttons, such as [**Save Preview**][save-preview] and [**Save (and optionally license) Image**][save-licensed]
+   Further image details are displayed, such as:
 
-    ![Adobe Stock image details]({% link images/images/adobe-stock/image-details.png %}){: .zoom}
-    _Adobe Stock image details_
+   - A larger version of the image
+   - Image metadata, such as _Dimensions_, _File type_, _Category_, _File_, and _Keywords_
+   - Related images, such as images from the same _series_ or _model_
+   - Action buttons, such as [Save Preview][save-preview] and [Save (and optionally license) Image][save-licensed]
 
-## Log In to Your Adobe Account
+   ![Adobe Stock image details]({% link images/images/adobe-stock/image-details.png %}){: .zoom}
+   _Adobe Stock image details_
 
-To gain complete access to an image and eliminate the Adobe Stock watermark, you must [sign in with an Adobe account][adobe-signin] and purchase credits to
-license rights to use an image.
+## Log in to your Adobe account
+
+To gain complete access to an image and eliminate the Adobe Stock watermark, you must [sign in with an Adobe account][adobe-signin] and purchase credits to license rights to use an image.
 
 1. [Access the Adobe Stock Search grid][access-search].
 
 1. Click **Sign In** at the top-right.
 
-    A new browser window guides you through the [Adobe sign-in process][adobe-signin].
+   A new browser window guides you through the [Adobe sign-in process][adobe-signin].
 
-    After completing the sign-in process, the [licensed state][licensed-state] of images is displayed in search results as an additional label.
+   After completing the sign-in process, the [licensed state][licensed-state] of images is displayed in search results as an additional label.
 
-    ![Adobe sign in]({% link images/images/adobe-stock/ims-login.png %}){: .zoom}
-    _Adobe account sign in_
+   ![Adobe sign in]({% link images/images/adobe-stock/ims-login.png %}){: .zoom}
+   _Adobe account sign in_
 
-### View the Licensed State of Search Results
+### View the licensed state of search results
 
 [Log in to your Adobe account][log-in-to-adobe-account].
 
 All licensed images associated to your Adobe account will have an additional label displayed on them, making it clear which images you have licensed.
 
 ![Adobe Stock search results with licensed images]({% link images/images/adobe-stock/licensed-images.png %}){: .zoom}
-_Search Results with Licensed Images_
+_Adobe Stock search results with licensed images_
 
-### Save Images to the Media Storage
+### Save images to the Media Storage
 
-Images searched for via the Adobe Stock Integration can be saved to the Magento [Media Storage][media-storage] for easy re-use across your Magento
-store.
+Images searched using the Adobe Stock integration can be saved to the Magento [Media Storage][media-storage] for easy re-use across your Magento store.
 
 You can save two types of images: an [image preview][save-preview] or a [licensed image][save-licensed].
 
-#### Save an Image Preview
+#### Save an image preview
 
-An image preview is a watermarked version of an Adobe Stock asset. Image previews are free and are a good way to experiment with different images before you
-decide to purchase a license for specific images and use them on your production stores.
+An image preview is a watermarked version of an Adobe Stock asset. Image previews are free and are a good way to experiment with different images before you decide to purchase a license for specific images for use on your production stores.
 
 1. [Access the Adobe Stock Search grid][access-search].
 
@@ -157,19 +155,18 @@ decide to purchase a license for specific images and use them on your production
 
 1. Click <span class="btn">Save Preview</span>.
 
-    This displays a prompt for you to specify a file name that is used to save the image to the [Media Storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
+   This displays a prompt for you to specify a file name that is used to save the image to the [Media Storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
 
-    ![Save Adobe Stock preview image]({% link images/images/adobe-stock/save-preview.png %}){: .zoom}
-    _Save the preview image_
+   ![Save Adobe Stock preview image]({% link images/images/adobe-stock/save-preview.png %}){: .zoom}
+   _Saving the preview image_
 
 1. Click <span class="btn">Confirm</span>.
 
-    The page redirects to the [Media Storage][media-storage] and your saved preview is displayed.
+   The page redirects to the [Media Storage][media-storage] and your saved preview is displayed.
 
-#### Save a Licensed Image
+#### Save a licensed image
 
-Adobe Stock assets that you want to use for your production Magento stores should be licensed to ensure you have legal access to the image as well as to
-eliminate the Adobe Stock watermark that is present on all [image previews][save-preview]. To license images or to save already-licensed images, you must be logged in to your Adobe account.
+Adobe Stock assets that you want to use for your production Magento stores should be licensed to ensure you have legal access to the image as well as to eliminate the Adobe Stock watermark that is present on all [image previews][save-preview]. To license images or to save already-licensed images, you must be logged in to your Adobe account.
 
 1. [Log in to your Adobe account][log-in-to-adobe-account].
 
@@ -177,21 +174,21 @@ eliminate the Adobe Stock watermark that is present on all [image previews][save
 
 1. Depending on the current licensing status of the image, do one of the following:
 
-    - If the image is already licensed, click <span class="btn">Save</span>.
+   - If the image is already licensed, click <span class="btn">Save</span>.
 
-    - If the image is _not_ licensed, click <span class="btn">License and Save</span>.
+   - If the image is _not_ licensed, click <span class="btn">License and Save</span>.
 
-       {:.bs-callout-info}
-       You must have available [Adobe Stock credits][stock-credits] in your account to license the image.
+      {:.bs-callout-info}
+      You must have available [Adobe Stock credits][stock-credits] in your account to license the image.
 
-    This displays a prompt for you to specify a file name that is used to save the image to the [Media Storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
+   This displays a prompt for you to specify a file name that is used to save the image to the [Media Storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
 
-    ![Save Adobe Stock licensed image]({% link images/images/adobe-stock/save-licensed.png %}){: .zoom}
-    _Save the licensed image_
+   ![Save Adobe Stock licensed image]({% link images/images/adobe-stock/save-licensed.png %}){: .zoom}
+   _Saving the licensed image_
 
 1. Click <span class="btn">Confirm</span>.
 
-    The page redirects to the [Media Storage][media-storage] and your saved preview is displayed.
+   The page redirects to the [Media Storage][media-storage] and your saved preview is displayed.
 
 [adobe-stock]: https://stock.adobe.com
 [media-storage]: {% link cms/media-storage.md %}
