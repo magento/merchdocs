@@ -41,7 +41,7 @@ By default, all B2B features are initially disabled. However, they are always av
       ![B2B configuration - enable company settings]({% link images/images-b2b/config-general-b2b-features-company-enabled.png %}){: .zoom}
       [_B2B Configuration_]({% link configuration/general/b2b-features.md %})
 
-1. To establish a default payment method for B2B orders, set **Applicable Payment Methods** to one of the following:
+1. To establish the default payment method(s) for B2B orders, set **Applicable Payment Methods** to one of the following:
 
    - All Payment Methods
 
@@ -49,7 +49,7 @@ By default, all B2B features are initially disabled. However, they are always av
 
       For Specific Methods, select the **Payment Methods** that you want to make available to your customers by holding down the Ctrl key (PC) or the Command key (Mac) as you click each option.
 
-      The list of payment methods shows which are currently enabled or disabled. In addition to the standard payment methods, the list also includes the following:
+      The list of payment methods shows which are currently [enabled or disabled]({% link configuration/sales/payment-methods.md %}). In addition to the standard payment methods, the list also includes the following:
 
       - No Payment Information is Required
       - [Payment on Account]({% link payment/payment-on-account.md %})
@@ -57,15 +57,25 @@ By default, all B2B features are initially disabled. However, they are always av
       - Stored Cards
 
     ![B2B configuration - default payment method settings]({% link images/images-b2b/config-general-b2b-features-default-payment-methods.png %}){: .zoom}
-    [_Default B2B Payment Methods_]({% link configuration/sales/payment-methods.md %})
+    _Default B2B Payment Methods_
 
-1. Configure shipping methods for B2B orders.
+1. To establish the default shipping method(s) for B2B orders, set **Applicable Shipping Methods** to one of the following:
 
    - All Shipping Methods
    - Specific Shipping Methods
 
      For Specific Shipping Methods, select the **Shipping Methods** that you want to make available to your customers by holding down the Ctrl key (PC) or the Command key (Mac) as you click each option.
 
-     ![B2B configuration - Default Shipping Methods]({% link images/images-b2b/config-general-b2b-shipping-methods.png %}){: .zoom}
+     The list of shipping methods shows which are currently [enabled or disabled]({% link configuration/sales/delivery-methods.md %}).
+
+     ![B2B configuration - default shipping methods]({% link images/images-b2b/config-general-b2b-shipping-methods.png %}){: .zoom}
+     _Default B2B Shipping Methods_
+
+1. To enable purchase orders for company accounts, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Order Approval Configuration** section and set **Enable Purchase Orders** to `Yes`.
+
+   ![]({% link images/images-b2b/config-general-b2b-features-order_approval_config.png %}){: .zoom}
+   _Order Approval Configuration_
+
+   You must also enable purchases orders for each [company account]({% link customers/account-company-create.md %}) where you want to activate them.
 
 1. When complete, click <span class="btn">Save Config</span>.
