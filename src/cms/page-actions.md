@@ -10,10 +10,8 @@ _Page Actions_
 The _Action_ column on the far right can be used to apply any of the following actions to the individual page:
 
 - Edit
-
 - Delete
-
 - View
 
 ![]({% link images/images/page-grid-actions.png %}){: .zoom}
-_Single Page Actions_
+_Single page actions_
