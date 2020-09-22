@@ -13,7 +13,7 @@ _Customer reorder link in the Admin_
 
 - If order is in `Hold` status, the reorder option is disabled.
 
-- If one of the items in the order is unavailable, out of stock, or disabled, the reorder option is disabled.
+- If any of the items in the order is unavailable, out of stock, or disabled, the reorder option is disabled.
 
 ## Configure customer reorders
 

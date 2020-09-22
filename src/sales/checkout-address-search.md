@@ -13,7 +13,7 @@ When this feature is enabled and the customer's number of saved addresses meets 
 ![Luma storefront checkout with saved shipping addresses displayed]({% link images/images-ee/storefront-checkout-address-search.png %}){: .zoom}
 _Selecting a shipping address during checkout_
 
-If the customer does not have a default shipping address, the _Shipping_ page displays "No address selected" and the customer must click **Change Address** to select a saved address or click <span class="btn">New Address</span> to add and select an address before proceeding with the checkout. If the customer does not have a default billing address, the _Review & Payments_ page displays the address selected for shipping along with the _Change Address_ option.
+If the customer does not have a default shipping address, the _Shipping_ page displays _No address selected_, and the customer must click **Change Address** to select a saved address or click <span class="btn">New Address</span> to add and select an address before proceeding with the checkout. If the customer does not have a default billing address, the _Review & Payments_ page displays the address selected for shipping along with the _Change Address_ option.
 
 ![Luma storefront checkout with No address selected message]({% link images/images-ee/storefront-checkout-address-search-no-default.png %}){: .zoom}
 _No address selected_
@@ -43,6 +43,6 @@ _Shipping address locked for a quote_
 
    If necessary, clear the **Use system value** checkbox to make this change.
 
-   When the customer's number of saved addresses meets or exceeds this limit, the page displays either the default address (if the customer has one) or "No address selected" with the _Change Address_ option. The default limit is `10`.
+   When the customer's number of saved addresses meets or exceeds this limit, the page displays either the default address (if the customer has one) or _No address selected_ with the _Change Address_ option. The default limit is `10`.
 
 1. Click <span class="btn">Save Config</span>.
