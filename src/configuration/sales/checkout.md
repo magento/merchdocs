@@ -32,7 +32,8 @@ _[Shopping Cart]({% link sales/cart-configuration.md %})_
 |Show Cross-sell Items in the Shopping Cart|Store View|Indicates if [cross-sell items]({% link catalog/settings-advanced-cross-sells.md %}) will display in the shopping cart, providing additional sale options to customers. Options: Yes (Default) / No|
 |Grouped Product Image|Store View|Determines the [thumbnail]({% link sales/cart-thumbnails.md %}) image that appears for a [grouped product]({% link catalog/product-create-grouped.md %}) in the shopping cart. Options: Product Thumbnail Itself / Parent Product Thumbnail|
 |Configurable Product Image|Store View|Determines the [thumbnail]({% link sales/cart-thumbnails.md %}) image that appears for a configurable product in the shopping cart. Options: Product Thumbnail Itself / Parent Product Thumbnail|
-|<span class="b2b-only">Preview Quote Lifetime (minutes)</span>|Store View|Determines the maximum age of the quote in minutes when previewed from the shopping cart.|
+|Preview Quote Lifetime (minutes)|Store View|Determines the maximum age of the quote in minutes when previewed from the shopping cart.|
+|Enable Clear Shopping Cart|Website|Determines if the shopping cart displays the option for users to clear the contents of the cart in a single action. Options: Yes / No|
 
 ## My Cart Link
 
