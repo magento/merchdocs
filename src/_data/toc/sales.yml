@@ -14,9 +14,6 @@ pages:
   - label: Shopping Cart
     url: "/sales/cart.html"
     children:
-    - label: Requesting a Quote
-      url: "/sales/quote-request.html"
-      edition: b2b-only
     - label: Cart Configuration
       url: "/sales/cart-configuration.html"
       children:
@@ -29,13 +26,9 @@ pages:
       - label: Quote Lifetime
         url: "/sales/cart-quote-lifetime.html"
       - label: Minimum Order Amount
-        url: "/sales/minimum-order-amount.html"
-      - label: Allow Reorders
-        url: "/sales/reorders-allow.html"
+        url: "/sales/cart-minimum-order-amount.html"
       - label: Cart Thumbnails
         url: "/sales/cart-thumbnails.html"
-      - label: Order by SKU
-        url: "/sales/order-by-sku.html"
         edition: ee-only
       - label: Gift Options
         url: "/sales/gift-options.html"
@@ -53,6 +46,11 @@ pages:
         url: "/sales/cart-persistent-workflow.html"
       - label: Configuring a Persistent Cart
         url: "/sales/cart-persistent-configuration.html"
+    - label: Requesting a Quote
+      url: "/sales/quote-request.html"
+      edition: b2b-only
+    - label: Order by SKU
+      url: "/sales/order-by-sku.html"
   - label: Shopping Assistance
     url: "/sales/shopping-assistance.html"
     children:
@@ -67,29 +65,22 @@ pages:
   - label: Checkout
     url: "/sales/checkout-process.html"
     children:
-    - label: 'Step 1: Shipping'
-      url: "/sales/checkout-step1-shipping.html"
-    - label: 'Step 2: Review & Payments'
-      url: "/sales/checkout-step2-payment-review.html"
-    - label: Order Confirmation
-      url: "/sales/checkout-order-confirmation.html"
-    - label: Checkout Configuration
-      url: "/sales/checkout-configuration.html"
+    - label: Checkout Options
+      url: "/sales/checkout-options.html"
       children:
-      - label: Checkout Options
-        url: "/sales/checkout-options.html"
-        children:
-        - label: Onepage Checkout
-          url: "/sales/checkout-onepage.html"
-        - label: Guest Checkout
-          url: "/sales/checkout-guest.html"
-        - label: Terms and Conditions
-          url: "/sales/terms-and-conditions.html"
-        - label: Address Search
-          url: "/sales/checkout-address-search.html"
-          edition: ee-only
-      - label: Checkout Totals Sort Order
-        url: "/sales/checkout-totals-sort-order.html"
+      - label: Onepage Checkout
+        url: "/sales/checkout-onepage.html"
+      - label: Guest Checkout
+        url: "/sales/checkout-guest.html"
+      - label: Terms and Conditions
+        url: "/sales/terms-and-conditions.html"
+      - label: Address Search
+        url: "/sales/checkout-address-search.html"
+        edition: ee-only
+      - label: Payment Failed Emails
+        url: "/sales/checkout-payment-failed-emails.html"
+    - label: Checkout Totals Sort Order
+      url: "/sales/checkout-totals-sort-order.html"
 - label: Order Management
   url: "/sales/order-management.html"
   children:
@@ -129,6 +120,8 @@ pages:
         url: "/sales/order-status-custom.html"
       - label: Order Status Notification
         url: "/sales/order-status-notification.html"
+    - label: Allow Reorders
+      url: "/sales/reorders-allow.html"
     - label: Scheduled Operations
       url: "/sales/order-scheduled-operations.html"
       children:
@@ -156,9 +149,6 @@ pages:
     url: "/sales/dispatches.html"
   - label: Batches
     url: "/sales/batches.html"
-    children:
-    - label: Creating a Batch
-      url: "/shipping/magento-shipping-batch-create.html"
   - label: Credit Memos
     url: "/sales/credit-memos.html"
     children:
@@ -373,6 +363,8 @@ pages:
       url: "/shipping/magento-shipping-pre-packaged.html"
     - label: International Shipping
       url: "/shipping/magento-shipping-international.html"
+    - label: Creating a Batch
+      url: "/shipping/magento-shipping-batch-create.html"
     - label: Find Solutions
       url: "/shipping/magento-shipping-troubleshooting.html"
   - label: Carriers
