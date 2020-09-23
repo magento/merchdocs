@@ -205,14 +205,14 @@ _Adobe Stock Integration_
 |Client Secret|Global|The Client Secret for your Adobe Stock integration is required. For more information about retrieving this secret and configuring this integration, see [Adobe Stock Integration]({% link cms/adobe-stock.md %}).|
 |Test Connection||Runs a test to verify that the API key is valid for use with the Adobe Stock service.|
 
-## Enhanced Media Gallery
+## Media Gallery
 
-![Advanced configuration - Enhanced Media Gallery]({% link images/images/enhanced-media-gallery/system-enhanced-media-gallery.png %}){: .zoom}
-_Enhanced Media Gallery_
+![Advanced configuration - Media Gallery]({% link images/images/enhanced-media-gallery/system-enhanced-media-gallery.png %}){: .zoom}
+_Media Gallery_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enabled|Global|Enables or disables the new Media Gallery.|
+|Enable Old Media Gallery|Global|Enables or disables the old Media Gallery.|
 
 [1]: https://en.wikipedia.org/wiki/Sendmail
 [2]: https://magento.com/security/news/new-zend-framework-1-security-vulnerability
