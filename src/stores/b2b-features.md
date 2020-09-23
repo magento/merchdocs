@@ -47,7 +47,7 @@ By default, all B2B features are initially disabled. However, they are always av
 
    - Specific Payment Methods
 
-      For Specific Methods, select the **Payment Methods** that you want to make available to your customers by holding down the Ctrl key (PC) or the Command key (Mac) as you click each option.
+      For the specific option, select the **Payment Methods** that you want to make available to your customers by holding down the Ctrl key (PC) or the Command key (Mac) as you click each option.
 
       The list of payment methods shows which are currently [enabled or disabled]({% link configuration/sales/payment-methods.md %}). In addition to the standard payment methods, the list also includes the following:
 
@@ -64,7 +64,7 @@ By default, all B2B features are initially disabled. However, they are always av
    - All Shipping Methods
    - Specific Shipping Methods
 
-     For Specific Shipping Methods, select the **Shipping Methods** that you want to make available to your customers by holding down the Ctrl key (PC) or the Command key (Mac) as you click each option.
+     For the specific option, select the **Shipping Methods** that you want to make available to your customers by holding down the Ctrl key (PC) or the Command key (Mac) as you click each option.
 
      The list of shipping methods shows which are currently [enabled or disabled]({% link configuration/sales/delivery-methods.md %}).
 
