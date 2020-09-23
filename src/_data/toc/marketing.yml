@@ -574,6 +574,76 @@ pages:
           url: "/marketing/url-rewrite-custom.html"
         - label: Update Multiple Rewrites
           url: "/marketing/url-rewrite-update-all.html"
+- label: Live Search
+  url: "/live-search/live-search.html"
+  edition: ee-only
+  children:
+  - label: Overview
+    url: "/live-search/ls-overview.html"
+    children:
+    - label: Data Types
+      url: "/live-search/ls-data-types.html"
+  - label: Getting Started
+    url: "/live-search/ls-getting-started.html"
+    children:
+    - label: Requirements
+      url: "/live-search/ls-requirements.html"
+    - label: Install Live Search
+      url: "/live-search/ls-install.html"
+    - label: Connect Live Search
+      url: "/live-search/ls-connect.html"
+    - label: SaaS Environment
+      url: "/live-search/ls-saas.html"
+  - label: Customize Live Search
+    url: "/live-search/ls-customize.html"
+    children:
+    - label: Facets
+      url: "/live-search/ls-facets.html"
+      children:
+      - label: Admin Facet Setup
+        url: "/live-search/ls-facet-setup.html"
+      - label: Facet Behavior
+        url: "/live-search/ls-facet-behavior.html"
+      - label: Facet Example
+        url: "/live-search/ls-facet-example.html"
+      - label: Managing Facets
+        url: "/live-search/ls-facet-manage.html"
+        children:
+        - label: Create a Facet
+          url: "/live-search/ls-facet-create.html"
+        - label: Edit a Facet
+          url: "/live-search/ls-facet-edit.html"
+        - label: Delete a Facet
+          url: "/live-search/ls-facet-delete.html"
+    - label: Synonyms
+      url: "/live-search/ls-synonyms.html"
+      children:
+      - label: Types of Synonyms
+        url: "/live-search/ls-synonyms-types.html"
+      - label: Admin Setup
+        url: "/live-search/ls-synonyms-setup.html"
+        children:
+        - label: One-Way Example
+          url: "/live-search/ls-synonyms-one-way.html"
+        - label: Two-Way Example
+          url: "/live-search/ls-synonyms-two-way.html"
+      - label: Managing Synonyms
+        url: "/live-search/ls-synonyms-manage.html"
+        children:
+        - label: Create a Synonym
+          url: "/live-search/ls-synonyms-create.html"
+        - label: Edit a Synonym
+          url: "/live-search/ls-synonyms-edit.html"
+        - label: Delete a Synonym
+          url: "/live-search/ls-synonyms-delete.html"
+    - label: Rules
+      url: "/live-search/ls-rules.html"
+  - label: Reporting
+    url: "/live-search/ls-reporting.html"
+  - label: API Reference
+    url: "/live-search/ls-api-ref.html"
+  - label: SDK Reference
+    url: "/live-search/ls-sdk-ref.html"
 - label: Google Tools
   url: "/marketing/google-tools.html"
   children:
