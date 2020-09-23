@@ -145,17 +145,25 @@ _New Company_
    - You can change the **Customer Group** assignment for the Company and its employees to a group that has access to a different shared catalog, or to a standard customer group. You are prompted to confirm before the group is changed.
 
       ![]({% link images/images-b2b/customers-company-create-advanced-settings-customer-group-admin.png %}){: .zoom}
-      _Advanced Settings_
+      _Changing the customer group_
 
    - If you want to allow company employees to generate quotes from their account, set **Allow Quotes** to `Yes`.
 
-   - To change the default payment methods that are available to the company, clear the **Use config settings** checkbox and do one of the following:
+   - If you want to allow company employees to use purchase orders from their account, set **Enable Purchase Orders** to `Yes`.
 
-      - Choose **All Enabled Payment Methods**.
+   - To change the **Applicable Payment Methods** that are available to the company, clear the **Use config settings** checkbox and do one of the following:
 
-      - Choose the **Specific Payments**.
+      {: .options-table }
+      |B2B Payment Methods|(Default) This enables all [payment methods set as default]({% link configuration/general/b2b-features.md %}#default-b2b-payment-methods) for B2B orders.|
+      |All Enabled Payment Methods|This makes all [enabled payment methods]({% link configuration/sales/payment-methods.md %}) available for customer accounts associated with the company account.|
+      |Selected Payment Methods|Allows you to select the payment methods that are available for customer accounts associated with the company account. To select multiple payment methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.|
 
-        To select multiple payment methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
+   - To change the **Applicable Shipping Methods** that are available to the company, clear the **Use config settings** checkbox and do one of the following:
+
+      {: .options-table }
+      |B2B Shipping Methods|(Default) This enables all [shipping methods set as default]({% link configuration/general/b2b-features.md %}#default-b2b-shipping-methods) for B2B orders.|
+      |All Enabled Shipping Methods|This makes all [enabled shipping methods]({% link configuration/sales/delivery-methods.md %}) available for customer accounts associated with the company account.|
+      |Selected Shipping Methods|Allows you to select the shipping methods that are available for customer accounts associated with the company account. To select multiple shipping methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.|
 
 1. When complete, click <span class="btn">Save</span>.
 
@@ -177,6 +185,7 @@ _New Company_
 
 ## Field descriptions
 
+{: .options-table }
 |Field|Description|
 |--- |--- |
 |Company Name|The company name is entered when the company account is first created, and can be a shortened version of the full legal name.|
@@ -186,6 +195,7 @@ _New Company_
 
 ### Account Information
 
+{: .options-table }
 |Company Legal Name|The full legal name of the company.|
 |VAT / TAX ID|The [value-added tax]({% link tax/vat.md %}) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options]({% link configuration/customers/customer-configuration.md %}).|
 |Reseller ID|The resale number that is assigned to the company for tax reporting purposes.|
@@ -193,6 +203,7 @@ _New Company_
 
 ### Legal Address
 
+{: .options-table }
 |Street Address|The street address where the company is registered to conduct business.|
 |City|The city where the company is registered to conduct business.|
 |Country|The country where the company is registered to conduct business.|
@@ -202,6 +213,7 @@ _New Company_
 
 ### Company Admin
 
+{: .options-table }
 |Job Title|The title of the company administrator who manages the company account.|
 |Email|The email address of the company administrator can be the same as the company email address. If a different email address is entered, a separate individual account is created for the company administrator, in addition to the company account.|
 |Prefix|If applicable, the prefix that is associated with the name of the company administrator (such as Mr., Ms., Mrs., or Dr.). Depending on the configuration, the input field might be a text field or list.|
@@ -213,6 +225,7 @@ _New Company_
 
 ### Company Credit
 
+{: .options-table }
 |Credit Currency|(Admin Only) The currency that is accepted by the store for purchases on company credit.|
 |Credit Limit|(Admin Only) The credit limit that is extended to the company account.|
 |Allow to Exceed Credit Limit|(Admin Only) Indicates if the company has permission to exceed the credit limit. Options: Yes / No|
@@ -220,16 +233,26 @@ _New Company_
 
 ### Advanced Settings
 
+{: .options-table }
 |Customer Group|(Admin Only) Indicates the [customer group]({% link customers/customer-groups.md %}) or [shared catalog]({% link catalog/catalog-shared.md %}) that is assigned to the company.|
 |Allow Quotes|(Admin Only) Determines if company members can prepare and submit negotiable quotes on behalf of the company.|
-|Applicable Payment Methods|(Admin Only) Indicates the payment methods that are available for company purchases. Options: B2B Payment Methods / All Enabled Payment Methods / Specific Payment Methods|
-|Payment Methods|(Admin Only) Becomes active if specific payment methods are indicated. To make multiple payment methods available for the company account, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.|
+|Enable Purchase Orders|(Admin Only) Determines if company members can submit orders as [purchase orders]({% link customers/account-dashboard-my-purchase-orders.md %}) on behalf of the company.|
+|Applicable Payment Methods|(Admin Only) Indicates the payment methods that are available for company purchases. Options: B2B Payment Methods / All Enabled Payment Methods / Selected Payment Methods|
+|Payment Methods|(Admin Only) Becomes active if specific payment methods are activated. To make multiple payment methods available for the company account, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.|
+|Applicable Shipping Methods|(Admin Only) Indicates the payment methods that are available for company purchases. Options: B2B Shipping Methods / All Enabled Shipping Methods / Selected Shipping Methods|
+|Shipping Methods|(Admin Only) Becomes active if specific shipping methods are activated. To make multiple payment methods available for the company account, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.|
 
 <!--
   This is a style declaration so that buttons are not wrapped by table auto styling for column widths.
 -->
 <style>
 .buttons-table td:first-of-type {
+  width: 150px;
+}
+</style>
+
+<style>
+.options-table td:first-of-type {
   width: 200px;
 }
 </style>
