@@ -2,7 +2,7 @@
 title: CAPTCHA
 ---
 
-A CAPTCHA is a visual device that ensures that a human being, rather than a computer (or "bot"), is interacting with the site. CAPTCHA is an acronym for _Completely Automated Public Turing test to tell Computers and Humans Apart_. It can be used for both Admin and customer account logins. Magento supports the standard CAPTCHA that is described in this topic and [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).
+A CAPTCHA is a visual device that ensures that a human being, rather than a computer (or "bot"), is interacting with the site. CAPTCHA is an acronym for _Completely Automated Public Turing test to tell Computers and Humans Apart_. It can be used for both Admin access and a variety of storefront actions initiated by registered customers. Magento supports the standard CAPTCHA that is described in this topic and [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).
 
 You can reload the CAPTCHA as many times as is necessary by clicking the Reload icon in the upper-right corner of the image. The CAPTCHA is fully configurable and can be set appear every time, or only after a number of failed login attempts.
 
@@ -61,12 +61,12 @@ _Admin Sign In with CAPTCHA_
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-## Customer CAPTCHA
+## Storefront CAPTCHA
 
 Customers can be required to enter a CAPTCHA each time they log in to their accounts, or after several unsuccessful attempts to log in. In addition, numerous forms used throughout the storefront can be configured to require verification by CAPTCHA.
 
-![]({% link images/images-ee/config-customers-customer-configuration-captcha.png %}){: .zoom}
-_[Customer CAPTCHA Configuration]({% link configuration/customers/customer-configuration.md %})_{:.ee-only}
+![]({% link images/images-ee/storefront-checkout-payment-captcha.png %}){: .zoom}
+_CAPTCHA during checkout_
 
 ### Configure CAPTCHA for the storefront
 
@@ -75,6 +75,9 @@ _[Customer CAPTCHA Configuration]({% link configuration/customers/customer-confi
 1. In the left panel, expand _Customers_ and choose **Customer Configuration**.
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **CAPTCHA** section.
+
+![]({% link images/images-ee/config-customer-configuration-captcha.png %}){: .zoom}
+_[Customer CAPTCHA configuration]({% link configuration/customers/customer-configuration.md %})_
 
 1. Set **Enable CAPTCHA on Storefront** to `Yes`. Then complete the remaining options as follows:
 
@@ -85,6 +88,7 @@ _[Customer CAPTCHA Configuration]({% link configuration/customers/customer-confi
    - Select any of the following **Forms** where the CAPTCHA is to be used. To choose multiple forms, hold down the Ctrl key (PC) or Command key (Mac).
 
       - Applying coupon code
+      - Checkout/Placing Order
       - Create user
       - Login
       - Forgot password

@@ -160,15 +160,16 @@ _[Customer Segments]({% link marketing/customer-segments.md %})_
 
 ## CAPTCHA
 
-![]({% link images/images-ee/config-customers-customer-configuration-captcha.png %}){: .zoom}
-_[CAPTCHA]({% link stores/security-captcha.md %})_{:.ee-only}
+![]({% link images/images-ee/config-customer-configuration-captcha.png %}){: .zoom}
+_[CAPTCHA]({% link stores/security-captcha.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable CAPTCHA on Storefront|Website|Enables CAPTCHA in the store(s) associated with the Magento website. Options: Yes / No|
 |Font|Website|Determines the font that is used to display the CAPTCHA. To add your own font, put the font file in the same directory as your Magento installation and add the declaration to the `config.xml` file at `app/code/Magento/Captcha/etc`.|
-|Forms|Website|Determines the form(s) where CAPTCHA is used. Options: <br />Applying Coupon Code <br />Create user <br />Login <br />Forgot password <br />Contact Us <br />Change password <br />Share Wishlist Form <br />Send to Friend Form <br />Payflow Pro (see [security patch](https://support.magento.com/hc/en-us/articles/360025515991)) <br /><span class="ee-only">Add Gift Card Code</span> <br /><span class="ee-only">Create company</span><br /><br />_**Note:**_ The Create User, Forgot Password, and Payflow Pro forms are always enabled when selected.|
+|Forms|Website|Determines the form(s) where CAPTCHA is used. Options: <br />Applying Coupon Code <br />Checkout/Placing Order<br />Create user <br />Login <br />Forgot password <br />Contact Us <br />Change password <br />Share Wishlist Form <br />Send to Friend Form <br />Payflow Pro (see [security patch](https://support.magento.com/hc/en-us/articles/360025515991)) <br /><span class="ee-only">Add Gift Card Code</span> <br /><span class="ee-only">Create company</span><br /><br />_**Note:**_ The Create User, Forgot Password, and Payflow Pro forms are always enabled when selected.|
 |Displaying Mode|Website|Determines when the CAPTCHA appears. Options: <br/>**Always** - CAPTCHA is always required to log in. <br/>**After number of attempts to login** - This option applies only to the Admin Sign In form. When selected, the Number of Unsuccessful Attempts to Login field appears. Enter the number of login attempts that you want to allow. A value of 0 (zero) is similar to setting Displaying Mode to 'Always'.<br/>_**Note:**_ To track the number of unsuccessful login attempts, each attempt to log in under one email address and from one IP-address is counted. The maximum number of login attempts allowed from the same IP-address is 1,000. This limitation applies only when CAPTCHA is enabled.|
+|Number of Unsuccessful Attempts to Login|Website|Specifies the number of times a customer can try to log in before the account is locked.|
 |CAPTCHA Timeout (minutes)|Website|Determines the lifetime of the current CAPTCHA. When the CAPTCHA expires, the user must reload the page.|
 |Number of Symbols|Website|Determines the number of symbols that appear in the CAPTCHA, with a maximum of 8. You can also specify a range, for example, 5-8.|
 |Symbols Used in CAPTCHA|Website|Determines the letters (a-z and A-Z) and numbers (0-9) that appear in the CAPTCHA. Symbols that are hard to distinguish from other symbols, such as `i`, `l`, or `1`, are not included in the default set of CAPTCHA symbols.|
