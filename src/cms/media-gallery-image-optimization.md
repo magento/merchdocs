@@ -14,7 +14,7 @@ Media Gallery Image Optimization is a feature of the new [Media Gallery]({% link
 
    - Set **Enable Image Optimization** to `Yes`.
    - Set **Maximum Width** and **Maximum Height** to the desired values.
-   
+
 ## Behaviour
 
 When Media Gallery Image Optimization functionality is enabled, an optimized copy of an image is inserted to the content from the [Media Gallery]({% link cms/media-gallery.md %}) instead of original one.
