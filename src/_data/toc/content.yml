@@ -207,8 +207,6 @@ pages:
   url: "/cms/content-staging.html"
   edition: ee-only
   children:
-  - label: Content Staging Workflow
-    url: "/cms/content-staging-workflow.html"
   - label: Scheduling an Update
     url: "/cms/content-staging-scheduled-update.html"
   - label: Staging Dashboard
