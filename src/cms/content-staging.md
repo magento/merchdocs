@@ -27,11 +27,11 @@ When a new scheduled update is created for any of the following objects, a corre
 
 1. **Create the baseline content**
 
-   The baseline is the content of an asset without a campaign, and includes everything below the _Scheduled Changes_ section at the top of the page. The baseline content is always used, unless there is an active campaign with changes scheduled for that place on the timeline.
+   The baseline is the content of an asset without a campaign and includes everything below the _Scheduled Changes_ section at the top of the page. The baseline content is always used, unless there is an active campaign with changes scheduled for that place on the timeline.
 
 1. **Create the first campaign**
 
-   Create your first campaign with the start and end dates as needed. To make the campaign open-ended, leave the End Date blank. When the first campaign ends, the original baseline content is restored.
+   Create your first campaign with the start and end dates as needed. To make the campaign open-ended, leave the end date blank. When the first campaign ends, the original baseline content is restored.
 
 1. **Add a second campaign**
 

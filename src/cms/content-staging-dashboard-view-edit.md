@@ -3,7 +3,7 @@ ee_only: true
 title: Editing a Campaign
 ---
 
-Existing campaign objects can be edited from the Dashboard, with the exception of price rule campaigns that do not have end dates.
+Existing campaign objects can be edited from the [staging dashboard]({% link cms/content-staging-dashboard.md %}), with the exception of price rule campaigns that do not have end dates.
 
 {:.bs-callout-info}
 If a campaign that includes a price rule is initially created without an end date, the campaign cannot be edited later to include an end date. In such a case, it is necessary to create a duplicate campaign and enter the end date that is needed.

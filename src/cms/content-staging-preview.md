@@ -8,7 +8,7 @@ Any day or period of time during a campaign can be previewed and shared with oth
 ![]({% link images/images-ee/content-staging-preview.png %}){: .zoom}
 _Preview page controls_
 
-1. Use one of these methods to open a Preview window:
+1. Use one of these methods to open a preview window:
 
    - _From the Content Staging Dashboard_
 
@@ -20,17 +20,17 @@ _Preview page controls_
       - Open any page with a _Scheduled Changes_ box at the top.
       - Click **Preview**.
 
-   The Preview opens a new browser tab and shows how the product will appear during the scheduled campaign.
+   The preview opens in a new browser tab and shows how the product will appear during the scheduled campaign.
 
    ![]({% link images/images-ee/content-staging-product-scheduled-update-preview.png %}){: .zoom}
-   _Content staging - preview scheduled changes_
+   _Preview scheduled changes_
 
-1. In the upper-left corner of the Preview window, click **Calendar**.
+1. In the upper-left corner of the preview window, click **Calendar**.
 
    The calendar detail shows other campaigns that are scheduled for the same day. Each record in the list is a separate campaign.
 
    ![]({% link images/images-ee/content-staging-product-preview-calendar.png %}){: .zoom}
-   _Content staging - campaigns scheduled for a specific date_
+   _Campaigns scheduled for a specific date_
 
 1. Preview a specific day or time:
 
@@ -42,9 +42,9 @@ _Preview page controls_
 
 1. Change the scope of the preview for a different store view:
 
-   - In the header of the Preview page, click **Scope**.
+   - In the header of the preview page, click **Scope**.
 
-   - Choose the Website, Store, or Store View that you want to preview.
+   - Choose the website, store, or store view that you want to preview.
 
 1. Share a link to the preview:
 

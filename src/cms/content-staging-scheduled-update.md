@@ -21,13 +21,13 @@ The following example shows how to schedule a temporary price change for a produ
 
    - Use the Calendar (![]({% link images/images/btn-calendar.png %})) tool to choose the **Start Date** and **End Date** for the campaign.
 
-      To create an open-ended campaign, leave the end date blank. For this example, the campaign is scheduled to begin at the stroke of midnight for the new year, January 1, 2021 at 12:00 AM PST.
+      To create an open-ended campaign, do not specify an end date (leave blank). For this example, the campaign is scheduled to begin at the stroke of midnight for the new year, January 1, 2021 at 12:00 AM PST.
 
       {:.bs-callout-info}
       An end date cannot later be added to a price rule campaign that was originally created without an end date. In such a case it is necessary to create a duplicate campaign that includes the end date that is needed
 
       ![]({% link images/images-ee/content-staging-campaign-schedule-update.png %}){: .zoom}
-      _Scheduling a Product Update_
+      _Scheduling a product update_
 
       {:.bs-callout-info}
       Date/time must be defined using the timezone of the appropriate website. For example, if you have multiple websites in different timezones, but you want to start campaign based on a US timezone, you need to schedule an update for each website separately and define the date/time in local time.
@@ -41,7 +41,7 @@ The following example shows how to schedule a temporary price change for a produ
    The scheduled change appears at the top of the product page, with the start and end dates of the campaign.
 
    ![]({% link images/images-ee/content-staging-scheduled-changes.png %}){: .zoom}
-   _Scheduled Change_
+   _Scheduled change_
 
 ## Edit the scheduled change
 
@@ -55,9 +55,9 @@ The following example shows how to schedule a temporary price change for a produ
 
 In the _Scheduled Changes_ box at the top of the page, click **Preview**.
 
-The Preview opens a new browser tab, and shows how the product will appear during the scheduled campaign.
+The preview opens a new browser tab, and shows how the product will appear during the scheduled campaign.
 
 ![]({% link images/images-ee/content-staging-product-scheduled-update-preview-rope.png %}){: .zoom}
-_Promotions - preview scheduled changes_
+_Preview scheduled changes_
 
-For more information about using the Preview content tools to change the date and scope of the preview, see [Previewing a Campaign]({% link cms/content-staging-preview.md %}). You can also share a link to the store preview with your colleagues.
+For more information about using the preview content tools to change the date and scope of the preview, see [Previewing a Campaign]({% link cms/content-staging-preview.md %}). You can also share a link to the store preview with your colleagues.
