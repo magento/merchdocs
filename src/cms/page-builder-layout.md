@@ -1,16 +1,16 @@
 ---
 ee_only: true
-title: Layout
+title: Page Builder - Layout
 ---
 
-The Layout section of the Page Builder panel is used to add rows, columns, or tabs to the stage. When a content type is dragged from the panel to the stage, a container appears with a toolbox of options that are specific to the content type.
+The _Layout_ section of the Page Builder panel is used to add rows, columns, or tabs to the stage. When you drag a content type from the panel to the stage, a container appears with a toolbox of options that are specific to the content type.
 
-By default, the Page Builder stage has an initial row. Additional content types can be dragged from the panel to the stage, and placed either inside the row, or positioned above or below the row, according to type.
+By default, the Page Builder stage has an initial row. As you drag additional content types from the panel to the stage, you can place them inside the row, or position them above or below the row, according to type.
 
 ![]({% link images/images-ee/page-builder-stage-toolbox.png %}){: .zoom}
-_Panel with Layout Content Types and Stage_
+_Page Builder panel with layout content types and stage_
 
-### Layout Content Types
+## Layout content types
 
 | Content type  | Description |
 | -------- |-------- |
