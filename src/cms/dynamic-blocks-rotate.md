@@ -6,7 +6,7 @@ title: Rotating Dynamic Blocks
 Multiple [dynamic blocks]({% link cms/dynamic-blocks.md %}) can be added to a rotator to present a slide show of interactive content. The [Widget]({% link cms/widgets.md %}) tool is used to place the rotator at a specific place on a either a single page, or on multiple pages throughout your store.
 
 ![]({% link images/images-ee/widget-dynamic-block-rotator.png %}){: .zoom}
-_Dynamic Block Rotator_
+_Dynamic block rotator_
 
 ## Step 1: Create individual dynamic blocks
 
@@ -14,37 +14,43 @@ Follow the instructions to [create the dynamic blocks]({% link cms/dynamic-block
 
 ## Step 2: Add a dynamic block rotator widget
 
-1. On the Admin sidebar, go to **Content** > _Elements_ > **Widgets**.
+1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
 
-1. In the upper-right corner, click <span class="btn">Add Widget</span> and do the following:
+1. In the upper-right corner, click <span class="btn">Add Widget</span>.
 
-   - Under **Settings**, set **Type** to `Dynamic Blocks Rotator`.
+1. Under _Settings_, set **Type** to `Dynamic Blocks Rotator`.
 
-   - Choose the current **Design Theme** of the store.
+1. Choose the current **Design Theme** of the store.
 
-   - click <span class="btn">Continue</span>.
+   This identifies the current package or [theme]({% link design/design-theme.md %}) that determines the page layout of the store.
+
+1. Click <span class="btn">Continue</span>.
 
    ![]({% link images/images-ee/widget-dynamic-block-rotator-settings.png %}){: .zoom}
-   _Settings_
+   _Dynamic block rotator settings_
 
-## Step 3: Complete the Options
+## Step 3: Complete the options
 
-1. Under **Storefront Properties**, do the following:
+1. Under _Storefront Properties_, set the options:
 
    - Enter a **Title** for the rotator.
 
-   - In the **Assign to Store Views** list, select the view where the rotator will be available.
+   - In the **Assign to Store Views** list, select the [store view(s)]({% link stores/websites-stores-views.md %}) where the rotator is available.
 
    - (Optional) Enter a **Sort Order** number to determine the position of the rotator in the target container. This is relative to other widgets that might be assigned to the same container.
 
    ![]({% link images/images-ee/widget-dynamic-block-rotator-storefront-properties.png %}){: .zoom}
-   _Storefront Properties_
+   _Rotator storefront properties_
 
-1. Under **Layout Options**, click <span class="btn">Add Layout Update</span> and do the following:
+1. Under _Layout Options_, click <span class="btn">Add Layout Update</span> and do the following:
 
    - Set **Display on** to the page, or type of page, where the rotator is to appear.
 
-      The options vary, depending on the display option you choose. In this example, the rotator is to be placed on a `Specified Page`.
+      Categories |Displays the rotator on either [anchor]({% link catalog/navigation-layered.md %}) or non-anchor category pages. Options: Anchor Categories / Non-Anchor Categories|
+      Products |Displays the rotator on either a specific type of product page, or on all product pages. Options: All Product Types / [Simple Product]({% link catalog/product-create-simple.md %}) /  [Virtual Product]({% link catalog/product-create-virtual.md %}) / [Bundle Product]({% link catalog/product-create-bundle.md %}) / [Downloadable Product]({% link catalog/product-create-downloadable.md %}) / [Gift Card]({% link catalog/product-gift-card.md %}) / [Configurable Product]({% link catalog/product-create-configurable.md %}) / [Grouped Product]({% link catalog/product-create-grouped.md %})|
+      Generic Pages |Displays the rotator on all pages, a specific page, or only on pages with a certain layout. Options: All Pages / Specified Page / Page Layouts|
+
+      In this example, the rotator is to be placed on a `Specified Page`.
 
    - Select the specific **Page** where the rotator is to appear.
 
@@ -52,52 +58,45 @@ Follow the instructions to [create the dynamic blocks]({% link cms/dynamic-block
 
       If other widgets are assigned to the same container, they appear in sequence according to the sort order.
 
-   - Accept “Dynamic Block Template” as the default **Template**.
+   - Accept `Dynamic Block Template` as the default **Template**.
+
+      This determines the template that is used to format the rotator, based on whether the rotator is to stand alone, or be placed inside existing text.
 
       ![]({% link images/images-ee/widget-dynamic-block-rotator-layout-updates.png %}){: .zoom}
-      _Layout Updates_
+      _Rotator layout updates_
 
    - Click <span class="btn">Save and Continue Edit</span>.
 
-1. In the left panel, choose **Widget Options** and do the following:
+1. In the left panel, choose **Widget Options**.
 
-   - For the **Dynamic Blocks to Display**, accept `Specified Dynamic Blocks`.
+1. For the **Dynamic Blocks to Display**, accept `Specified Dynamic Blocks`.
 
-   - To **Restrict the Dynamic Block Types** that can be used with the widget, select `Content Area`.
+   This setting determines the type of dynamic blocks are included in the rotator.
 
-   - Set **Rotation Mode** to one of the following:
+   Specified Dynamic Blocks|Includes only specific dynamic blocks.|
+   Cart Price Rule Related|Includes only dynamic blocks that are associated with a cart price rule.|
+   Catalog Price Rule Related|Includes only dynamic blocks that are associated a with catalog price rule.|
 
-      - `Display all instead of rotating`
-      - `One at a time, Random`
-      - `One at a time, Series`
-      - `One at a time, Shuffle`
+1. To **Restrict the Dynamic Block Types** that can be used with the widget, select `Content Area`.
+
+   This limits the banner to a specific part of the page layout.
+
+   Content Area|Places the dynamic block in the main content area of the page.|
+   Footer|Places the dynamic block in the page footer.|
+   Header|Places the dynamic block in the page header.|
+   Left Column|Places the dynamic block in the left column of the page layout, if available.|
+   Right Column|Places the dynamic block in the right column of the page layout, if available.|
+
+1. Set **Rotation Mode** to one of the following:
+
+   Display all instead of rotating|Displays a stack of dynamic blocks, where all are visible.|
+   One at a time, Random|Displays the specified dynamic blocks in a random order. When the page is refreshed, a different (and random) dynamic block appears.|
+   One at the time, Series|Displays the specified dynamic blocks in the sequence they were added. When the page is refreshed, the next dynamic block in the sequence appears.|
+   One at the time, Shuffle|Displays one dynamic block at a time in a shuffled order. This option is similar to the `One at a time, Random` option, except that the same dynamic block is not repeated.|
 
    ![]({% link images/images-ee/widget-dynamic-block-rotator-widget-options.png %}){: .zoom}
-   _Widget Options_
+   _Rotator widget options_
 
-   - In the **Specify Dynamic Blocks** grid, select the checkbox of each dynamic block that you want to include in the rotator.
+1. In the **Specify Dynamic Blocks** grid, select the checkbox of each dynamic block that you want to include in the rotator.
 
 1. When complete, click <span class="btn">Save</span>.
-
-## Field Descriptions
-
-|Field|Description|
-|--- |--- |
-|**Settings**||
-|Type|Determines the [type of widget]({% link cms/widget-types.md %}) to be created.|
-|Design Package/Theme|Identifies the current package or [theme]({% link design/design-theme.md %}) that determines the page layout of the store.|
-|**Storefront Properties**||
-|Widget Title|A descriptive title for internal use, that identifies the rotator.|
-|Assign to Store Views|Determines the [store view(s)]({% link stores/websites-stores-views.md %}) where the rotator is available.|
-|Sort Order|Determines the position of the rotator in relation to other widgets which  might be assigned to the same container on the page.|
-|Layout Updates||
-|Add Layout Update|Adds a [layout update]({% link design/layout-updates.md %}) that determines where the rotator is to appear on the store.|
-|Display on|Determines the type of page, or a specific page, where the rotator is to appear. <br/>**Categories** - Displays the rotator on either [anchor]({% link catalog/navigation-layered.md %}) or non-anchor category pages. Options: Anchor Categories / Non-Anchor Categories <br/>**Products** - Displays the rotator on either a specific type of product page, or on all product pages. Options: All Product Types / [Simple Product]({% link catalog/product-create-simple.md %}) /  [Virtual Product]({% link catalog/product-create-virtual.md %}) / [Bundle Product]({% link catalog/product-create-bundle.md %}) / [Downloadable Product]({% link catalog/product-create-downloadable.md %}) / [Gift Card]({% link catalog/product-gift-card.md %}) / [Configurable Product]({% link catalog/product-create-configurable.md %}) / [Grouped Product]({% link catalog/product-create-grouped.md %}) <br/>**Generic Pages** - Displays the rotator on all pages, a specific page, or only on pages with a certain layout. Options: All Pages / Specified Page / Page Layouts|
-|Page|Identifies the specific page where the rotator is to appear.|
-|Container|Identifies the position on the page where the rotator is placed.|
-|Template|Determines the template that is used to format the rotator, based on whether the rotator is to stand alone, or be placed inside existing text. Options: Dynamic Block Template, Dynamic Block Inline Template|
-|**Widget Options**||
-|Dynamic Blocks to Display|Determines the type of dynamic blocks are included in the rotator. Options: <br/>**Specified Dynamic Blocks** - Includes only specific dynamic blocks. <br/>**Cart Price Rule Related** - Includes only dynamic blocks that are associated with a cart price rule. <br/>**Catalog Price Rule Related** - Includes only dynamic blocks that are associated a with catalog price rule.>|
-|Restrict by Dynamic Block Types|Limits the banner to a specific part of the page layout. Options: <br/>**Content Area** - Places the dynamic block in the main content area of the page. <br/>**Footer** - Places the dynamic block in the page footer. **Header** - Places the dynamic block in the page header. <br/>**Left Column** - Places the dynamic block in the left column of the page layout, if available. <br/>**Right Column** - Places the dynamic block in the right column of the page layout, if available.|
-|Rotation Mode|Determines the presentation and order  of the dynamic blocks  as they appear in the rotator. Options: <br/>**Display all instead of rotating** - Displays a stack of dynamic blocks, where all are visible. <br/>**One at a time, Random** - Displays the specified dynamic blocks in a random order. When the page is refreshed, a different (and random) dynamic block appears. <br/>**One at the time, Series** - Displays the specified dynamic blocks in the sequence they were added. When the page is refreshed, the next dynamic block in the sequence appears. <br/>**One at the time, Shuffle** - Displays one dynamic block at a time in a shuffled order. This option is similar to the `One at a time, Random` option, except that the same dynamic block is not repeated.|
-|Specify Dynamic Blocks|Displays a grid of the available dynamic blocks, and includes all selected dynamic blocks in the rotator.|
