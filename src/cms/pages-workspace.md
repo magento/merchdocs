@@ -5,25 +5,27 @@ title: Workspace Controls
 The page workspace includes tools to help you quickly find the pages you need, and commands to perform routine maintenance on individual or multiple pages. You can also quickly update page properties from the grid.
 
 ![]({% link images/images/pages.png %}){: .zoom}
-_Pages Grid_
+_Pages grid_
 
-## To quickly update page properties
+## Quickly update page properties
 
-1. Click any row in the grid. To select multiple records, select the checkbox of each row that you want to update.
+1. Click any row in the grid.
 
-   ![]({% link images/images/page-grid-properties-update.png %}){: .zoom}
-   _Update Page Properties_
+   ![Page properties are editable in the Pages grid]({% link images/images/page-grid-properties-update.png %}){: .zoom}
+   _Updating page properties_
+
+   To select multiple records, select the checkbox of each row that you want to update.
 
 1. Update any of the following properties:
 
-    - Title
-    - URL Key
-    - Status
-    - Layout
+   - **Title**
+   - **URL Key**
+   - **Status**
+   - **Layout**
 
 1. When complete, click <span class="btn">Save</span>.
 
-## Workspace Controls
+## Workspace controls
 
 |Control|Description|
 |--- |--- |
@@ -36,9 +38,9 @@ _Pages Grid_
 
 ## Columns
 
-|column|Description|
+|Column|Description|
 |--- |--- |
-|Select|The checkbox in the first column is used to select multiple records: Options: Select All / Deselect All|
+|Select|The checkbox in the first column is used to select multiple records. Options: Select All / Deselect All|
 |ID|The ID is an incrementing number that is assigned to each page.|
 |Title|The page title appears at the top of each page.|
 |URL Key|The URL key is similar to a file name, and identifies the page in the URL.|
@@ -46,5 +48,5 @@ _Pages Grid_
 |Store View|Can be used to associate the page with a specific store view.|
 |Status|Indicates if the page is currently online or offline. Options: Enabled / Disabled|
 |Created|The date the page was created.|
-|Modified|The data the page was last modified.|
+|Modified|The date the page was last modified.|
 |Action|The actions that can be applied to an individual record include:<br/>**Edit** - Opens the page in edit mode.<br/>**Delete** - Deletes the page.<br/>**View** - Displays the page in preview mode.  |
