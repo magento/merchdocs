@@ -2,7 +2,7 @@
 title: Core Content
 ---
 
-The Magento demo store has examples of core content pages to help you get started. All of the pages can be modified to meet your needs. Take a look at the following pages in your store, to make sure that the content conveys your message, voice, and brand.
+The Magento demo store has examples of core content pages to help you get started. All of the pages can be modified to meet your needs. Take a look at the following pages in your store to make sure that the content conveys your message, voice, and brand.
 
 ## Home
 
@@ -10,7 +10,7 @@ The demo [Home]({% link quick-tour/home-page.md %}) page includes a banner, an i
 
 ## Privacy Policy
 
-Your store’s [Privacy Policy]({% link stores/privacy-policy.md %}) page should be updated with your own information. As a best practice, your privacy policy should explain to your customers the type of information that your company collects and how it is used.
+The store [Privacy Policy]({% link stores/privacy-policy.md %}) page should be updated with your own information. As a best practice, your privacy policy should explain to your customers the type of information that your company collects and how it is used.
 
 ## 404 Not Found
 
@@ -31,11 +31,11 @@ The [503 Service Unavailable]({% link configuration/general/general.md %}) page 
 
 ## About Us
 
-The About Us page is linked from the footer of your store. You can include images, video, links to press releases and announcements. The sample page has an image on the right, and one of a decorative sort to indicate the end of the page.
+The About Us page is linked from the footer of your store. You can include images, video, links to press releases and announcements. The sample page has an image on the right, and decorative one to indicate the end of the page.
 
 ## Customer Service
 
-The Customer Service page is another node in the page hierarchy. The two headers on the page have content that only becomes visible when the header is clicked.
+The Customer Service page is another node in the page hierarchy. The two headers on the page have content that only becomes visible when the customer clicks the header.
 
 ![]({% link images/images/storefront-customer-service.png %}){: .zoom}
-_Customer Service_
+_Customer Service page on the storefront_

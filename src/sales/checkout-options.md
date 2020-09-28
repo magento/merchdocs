@@ -23,15 +23,16 @@ _[Checkout Options]({% link configuration/sales/checkout.md %})_{:.ee-only}
 - Maximum Number of Items to Display in Order Summary
 - {:.ee-only}Enable Address Search (If you set this option to `Yes`, you can set the Number of Customer Addresses Limit option also.)
 
-### Shoppping Cart
+### Shopping Cart
 
 - [Quote Lifetime]({% link sales/cart-quote-lifetime.md %})
 - After Adding a Product Redirect to Shopping Cart
 - Number of Items to Display Pager
 - Show [Cross-sell]({% link catalog/settings-advanced-cross-sells.md %}) Items in the Shopping Cart
 - [Grouped Product]({% link catalog/product-create-grouped.md %}) Image
-- Configurable Product Image
+- [Configurable Product]({% link catalog/product-create-configurable.md %}) Image
 - Preview [Quote Lifetime]({% link sales/cart-quote-lifetime.md %}) (minutes)
+- Enable Clear Shopping Cart
 
 ### My Cart Link
 
