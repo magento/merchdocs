@@ -21,7 +21,7 @@ _SWAT Dashboard_
 
 1. On the Admin sidebar, go to **Reports** > System Insights > **Site-Wide-Analysis Tool**.
 
-1. Read the _Terms of Use_ for the _Site Wide Analysis Tool_.  To continue, click <span class="btn" Accept</span>.
+1. Read the _Terms of Use_ for the _Site Wide Analysis Tool_.  To continue, click <span class="btn">Accept</span>.
 
    Each user is required to accept the Terms of Use for the session. This step is repeated for each logged-in session.
 
