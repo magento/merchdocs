@@ -4,39 +4,43 @@ title: Page Grid Layout
 
 The selection of columns and their order in the grid can be changed according to your preference. To keep the new column arrangement, you can save it as a view.
 
-![]({% link images/images/page-view-column-move.png %}){: .zoom}
-_Moving a Column_
+![A column in the Pages grid moved to a new location]({% link images/images/page-view-column-move.png %}){: .zoom}
+_Moving a column_
 
-## To change the selection of columns
+## Change the selection of columns
 
-In the upper-right corner, click the **Columns** (![]({% link images/images/btn-columns.png %}){: .Inline}) control. Then, do the following:
+In the upper-right corner, click the _Columns_ (![Column icon]({% link images/images/btn-columns.png %})) control and do the following:
 
 - Select the checkbox of any column you want to add to the grid.
 
 - Clear the checkbox of any column you want to remove from the grid.
 
-## To move a column
+## Move a column
 
 1. Click the header of the column and hold.
 
 1. Drag the column to the new position and release.
 
-## To save a view
+## Save a view
 
-1. Click the **View** (![]({% link images/images/btn-default-view.png %}){: .Inline}) control. Then, click **Save Current View**.
+1. Click the _View_ (![Eye icon]({% link images/images/btn-default-view.png %})) control and then click **Save View As**.
 
-    ![]({% link images/images/page-grid-default-view-save.png %}){: .zoom}
-    _Save Current View_
+   ![The view controls displayed above the Pages grid]({% link images/images/page-grid-default-view-save.png %}){: .zoom}
+   _Saving the current view_
 
-1. Enter a **name** for the view. Then, click the **arrow** (![]({% link images/images/btn-save-all-changes.png %}){: .Inline}) to save all changes. The name of the view now appears as the current view.
+1. Enter a name for the view.
 
-## To change the view
+1. Click the _Arrow_ (![Arrow icon]({% link images/images/btn-save-all-changes.png %})) to save the view.
 
-Click the **View** (![]({% link images/images/btn-default-view.png %}){: .Inline}) control. Then, do one of the following:
+   The name of the view now appears as the current view.
+
+## Change the view
+
+Click the _View_ (![Eye icon]({% link images/images/btn-default-view.png %})) control and do one of the following:
 
 - Choose the view that you want to use.
 
-- To change the name of a view, click the **Edit** (![]({% link images/images/btn-edit.png %}){: .Inline}) icon. Then, update the name.
+- Change the name of a view by clicking the Edit (![Pencil icon]({% link images/images/btn-edit.png %})) icon and updating the name.
 
-![]({% link images/images/pages-default-grid-control.png %}){: .zoom}
-_Choose a View_
+![The saved view appears in the view controls with an edit icon]({% link images/images/pages-default-grid-control.png %}){: .zoom}
+_Choosing a view_
