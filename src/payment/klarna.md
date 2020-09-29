@@ -12,7 +12,7 @@ Klarna lets your customers choose how they want to pay and supports the purchase
 
 - {:.fix}Enhancements
 
-   - Onsite Messaging checking with empty Design theme field
+   - Onsite Messaging checking when Design theme field is empty
 
    - Addresses merchant API credential errors
 
