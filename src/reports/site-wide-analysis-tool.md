@@ -46,7 +46,7 @@ _SWAT Dashboard_
 
 |Tab|Description|
 |--- |--- |
-|Dashboard|Shows the health of your system with current notifications and recommendations by priority|
+|Dashboard|Shows the health of your system with current notifications and recommendations by priority.|
 |Information|Provides customer contact information and summary of current tickets, with detail information about each installed Magento product.|
 |Recommendations|Lists recommendations based on best practice to address issues detected on your system.|
 |Exceptions|Lists errors thrown by your server that are caused by abnormal conditions without a known solution.|
