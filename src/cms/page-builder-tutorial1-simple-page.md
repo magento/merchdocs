@@ -18,7 +18,7 @@ Verify the required Content Management configuration settings:
 
 - Page Builder is enabled in the [Advanced Content Tools]({% link cms/page-builder-setup.md %}) configuration.
 
-### Download the image assets that are needed to complete the example page
+### Download the tutorial image assets
 
 1. Download the [`simple-page-assets`][1] file and save the file to your local system.
 
@@ -40,7 +40,7 @@ Follow parts 1, 2, and 3 of this tutorial in order.
 In this part of the Simple Page tutorial, you will create a new page that has a full-bleed row and banner. The row has different background images for desktop and mobile devices.
 
 ![]({% link images/images-ee/page-builder-tutorial1-full-bleed-with-banner.png %}){: .zoom}
-_Page Builder - full bleed row with banner_
+_Page Builder full bleed row with banner_
 
 ### Step 1: Create a new page
 
@@ -53,7 +53,7 @@ _Page Builder - full bleed row with banner_
    - For **Page Title**, enter `Simple Page`.
 
    ![]({% link images/images-ee/page-builder-tutorial1-currently-active.png %}){: .zoom}
-   _New page - basic page settings_
+   _Basic page settings_
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Design** section.
 
@@ -67,7 +67,7 @@ _Page Builder - full bleed row with banner_
    The Full Width layout can be used only with a compatible [theme]({% link design/themes.md %}).
 
    ![]({% link images/images-ee/page-builder-tutorial1-design-section.png %}){: .zoom}
-   _New page - design settings_
+   _Page design settings_
 
 1. In the upper-right corner, click <span class="btn">Save</span>.
 
@@ -75,23 +75,26 @@ _Page Builder - full bleed row with banner_
 
 ### Step 2: Format the row
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and take note of the following workspace features:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
 
-   - Page Builder [panel]({% link cms/page-builder-workspace.md %}) on the left
-   - [Stage]({% link cms/page-builder-workspace.md %}) with empty row where you can drag content types or columns
+   This displays the Page Builder preview with an empty row.
 
    {:.bs-callout-info}
    The [Content Heading]({% link cms/page-builder-workspace.md %}) field is optional. It is by default, formatted as a heading level 1 (H1) according to the theme. For the purpose of this tutorial, the _Content Heading_ is left blank.
 
-   ![]({% link images/images-ee/page-builder-layout-page-add-content.png %}){: .zoom}
-   _Page content - stage with empty row_
+   ![]({% link images/images-ee/page-builder-content-preview-empty.png %}){: .zoom}
+   _Page content preview with empty row_
+
+1. Click <span class="btn">Edit with Page Builder</span> or inside the content preview area.
+
+   In the expanded Page Builder workspace, the [panel]({% link cms/page-builder-workspace.md %}) on the left provides the content tools you can use to build your content in the [stage]({% link cms/page-builder-workspace.md %}).
 
 1. Hover over the empty row to display the toolbox.
 
    Each content container has a toolbox with a similar set of options.
 
    ![]({% link images/images-ee/page-builder-layout-page-add-content-row-tools.png %}){: .zoom}
-   _Page content - row toolbox_
+   _Page Builder row toolbox_
 
 1. In the Row toolbox, choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %}){: width="20px"} ) icon.
 
@@ -111,14 +114,10 @@ _Page Builder - full bleed row with banner_
 
 1. Scroll up to the top of the page and click <span class="btn">Save</span> in the upper-right corner to save the settings and return to the Page Builder workspace.
 
-1. In the upper-right corner, click <span class="btn">Save</span> to continue.
-
 ### Step 3: Add a banner
 
 {:.bs-callout-info}
 Page Builder has a new content type called _Banner_, which is featured in this step. What was previously the _Banner_ option in the Content menu is now a _Dynamic Block_.
-
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
 
 1. In the Page Builder panel, expand **Media** and drag a **Banner** placeholder to the stage.
 
@@ -213,11 +212,9 @@ Page Builder has a new content type called _Banner_, which is featured in this s
 
 1. Continuing in the _Content_ section, set the banner link and button:
 
-   - Find the _Link_ option below the banner message.
+   - Set **Link** to `Category`, and then click **Select** to show the category tree.
 
-      By default, this is set to `URL`.
-
-   - To link the banner to the appropriate category of products, set **Link** to `Category`. Then, click **Select** to show the category tree and choose `What’s New`.
+   - Choose `What’s New` as the linked category.
 
       ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-link-category-tree.png %}){: .zoom}
       _Banner content - link to category_
@@ -226,7 +223,7 @@ Page Builder has a new content type called _Banner_, which is featured in this s
 
    - For **Button Text**, enter `Shop Now` as the text that appears on the button.
 
-   - Accept the `Primary` default **Button Type**.
+   - For **Button Type**, accept the `Primary` default.
 
       The button style from the current theme determines the button format.
 
@@ -246,21 +243,16 @@ Page Builder has a new content type called _Banner_, which is featured in this s
       ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-overlay-color.png %}){: .zoom}
       _Banner settings - button overlay color_
 
-   - In the upper-right corner, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
+   - Scroll back to the top of the page and click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
 
       The button appears below the banner message on the stage.
 
       ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-background-color.png %}){: .zoom}
       _Banner in the content stage with text message and button_
 
-1. In the upper-right corner of the stage, click the _Fullscreen_ (![]({% link images/images-ee/icon-pb-fullscreen.png %})) icon.
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
 
-   Fullscreen mode includes the Page Builder panel and the stage, and shows how the page looks from the storefront.
-
-   ![]({% link images/images-ee/page-builder-tutorial1-banner-fullscreen.png %}){: .zoom}
-   _Page Builder content stage fullscreen mode_
-
-   To return to the Content section of the page, click **Close** (![]({% link images/images-ee/icon-pb-close.png %}){: width="20px"}) in the upper-right corner of the stage.
+   This returns you to the _Content_ section for the page with the preview displayed.
 
    You can toggle between the two workspace modes any time you want.
 
@@ -269,7 +261,7 @@ Page Builder has a new content type called _Banner_, which is featured in this s
    ![]({% link images/images-ee/page-builder-tutorial1-save-and-close.png %}){: .zoom}
    _Choosing the Save & Close option_
 
-1. When prompted, click the [Cache Management]({% link system/cache-management.md %}) link in the message at the top of the page and refresh any invalid cache.
+1. If prompted, click the [Cache Management]({% link system/cache-management.md %}) link in the message at the top of the page and refresh any invalid cache.
 
 **Congratulations!** You have completed Part 1 of the Simple Page tutorial. Keep the work that you created, so you can refer to it later.
 
@@ -285,6 +277,8 @@ _Example page using contained row with two equal columns_
 1. In the Pages grid, find the _Simple Page_ that you created in the first part of this tutorial and select **Edit** in the _Action_ column.
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
+
+1. Click <span class="btn">Edit with Page Builder</span> or inside the content preview area.
 
 1. In the Page Builder panel under _Layout_, drag a **Row** placeholder to the stage and place it above the banner.
 
@@ -319,7 +313,7 @@ _Example page using contained row with two equal columns_
    ![]({% link images/images-ee/page-builder-tutorial1-columns-equal-width.png %}){: .zoom}
    _Row with two columns of equal width_
 
-1. In the upper-left corner of the first column, click the circular Grid control (![]({% link images/images-ee/icon-pb-grid-control.png %})) to show the grid guidelines.
+1. In the upper-left corner of the first column, click the circular _Grid_ control (![]({% link images/images-ee/icon-pb-grid-control.png %})) to show the grid guidelines.
 
    The grid ensures that content is aligned consistently, and will render correctly on both desktop and mobile devices. For information about configuring the grid size, see the [Configure Page Builder]({% link cms/page-builder-setup.md %}#configure-page-builder) section in the Page Builder Setup topic.
 
@@ -371,12 +365,13 @@ In this step, you will learn how to upload an image to the banner.
 
    - In the category tree, drill down and choose the `Men’s Hoodies & Sweatshirt` category.
 
-      []({% link images/images-ee/page-builder-tutorial1-column1-image-link-category.png %}){: .zoom}
-      _Choose the category for the image link_
-
    - In the upper-right corner, <span class="btn">Save</span> the settings and return to the Page Builder workspace.
 
 1. Repeat the previous step to link the image in the second column to the _Gear_ category.
+
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+
+   This returns you to the _Content_ section for the page with the preview displayed.
 
 1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
 
@@ -399,6 +394,8 @@ _Example full width row with columns of different widths_
 1. In the Pages grid, find the _Simple Page_ that you created in the first part of this tutorial and select **Edit** in the _Action_ column.
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
+
+1. Click <span class="btn">Edit with Page Builder</span> or inside the content preview area.
 
 1. In the Page Builder panel under _Layout_, drag a **Row** placeholder to the stage and place it above the row that was created in the second part of this tutorial.
 
@@ -450,7 +447,7 @@ _Example full width row with columns of different widths_
    ![]({% link images/images-ee/page-builder-tutorial1-column-first-4.png %}){: .zoom}
    _Resizing the first column_
 
-1. Hover over first column container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %}) icon.
+1. Hover over first column container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
 1. Scroll down to the _Advanced_ section and set all **Margins & Padding** values to `0`.
 
@@ -478,20 +475,18 @@ _Example full width row with columns of different widths_
    ![]({% link images/images-ee/page-builder-tutorial1-column1-image-uploaded.png %}){: .zoom}
    _Uploaded image added to the column_
 
-1. In the upper-right corner, click <span class="btn">Save</span>.
-
 ### Step 4: Add review content to the second column
 
 The second column of the row will contain content from a customer review, including the five-star rating image and formatted text message.
 
-1. If necessary, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and scroll down to the Page Builder workspace.
-
-1. In the Page Builder panel, expand the **Elements** section. Then, drag the **Text** content type to the second column.
+1. In the Page Builder panel, expand the **Elements** section and drag the **Text** content type to the second column.
 
    ![]({% link images/images-ee/page-builder-tutorial1-column2-text-drag.png %}){: .zoom}
    _Dragging the text content type to the stage_
 
-1. In the editor toolbar, click the Insert Image (![]({% link images/images/editor4-toolbar/btn-insert-edit-image.png %})) icon and do the following:
+1. Click in the text element to display the editor toolbar.
+
+1. In the toolbar, click the _Insert Image_ (![]({% link images/images/editor4-toolbar/btn-insert-edit-image.png %})) icon and do the following:
 
    ![]({% link images/images-ee/page-builder-tutorial1-column2-editor-toolbar-insert-image.png %}){: .zoom}
    _Inserting an image in the text_
@@ -515,11 +510,15 @@ The second column of the row will contain content from a customer review, includ
    - In the editor toolbar, click **Align Center** (![]({% link images/images/editor4-toolbar/btn-align-center.png %})) to center the image in the column.
 
       ![]({% link images/images-ee/page-builder-tutorial1-column2-5stars-centered.png %}){: .zoom}
-      _Centered Image_
+      _Centered rating image_
 
-1. Position the insertion point just after the five-star image, press Enter/Return key to start a new line, and enter the following text.
+1. Position the insertion point just after the five-star image, press the Enter/Return key to start a new line, and enter the following text:
 
-   Awesome Tank! </ br> I’m a long distance runner and it keeps me pretty comfortable, although these companies always act like their shirts are magical and really it’s just pretty basic stuff. Still it’s a great shirt and I would recommend it.</ br> Antonia Racer Tank – Reviewed by Allyson |
+   `Awesome Tank!`
+
+   `I’m a long distance runner and it keeps me pretty comfortable, although these companies always act like their shirts are magical and really it’s just pretty basic stuff. Still it’s a great shirt and I would recommend it.`
+
+   `Antonia Racer Tank – Reviewed by Allyson`
 
    The text is centered as you type.
 
@@ -585,15 +584,19 @@ The second column of the row will contain content from a customer review, includ
 
       The Title link attribute is used by some browsers as a tooltip.
 
-   - When complete, click <span class="btn">OK</span> to save the link and return to the Page Builder workspace.
-
       ![]({% link images/images-ee/page-builder-tutorial1-text-link-insert.png %}){: .zoom}
       _Inserting a link in the text_
+
+   - When complete, click <span class="btn">OK</span> to save the link.
 
       The linked text is now highlighted in the banner.
 
       ![]({% link images/images-ee/page-builder-tutorial1-text-link-highlight.png %}){: .zoom}
       _Banner with linked text_
+
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+
+   This returns you to the _Content_ section for the page with the preview displayed.
 
 1. In the upper-right corner, click <span class="btn">Save</span>.
 
@@ -601,7 +604,9 @@ The second column of the row will contain content from a customer review, includ
 
 With all three rows complete, the final step is to rearrange the rows to match the original _Simple Page_ example. To match the original example, the first row must be moved to the bottom, and the last row must be moved to the top.
 
-1. If necessary, ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and scroll down to the Page Builder workspace.
+1. If necessary, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
+
+1. Click <span class="btn">Edit with Page Builder</span> or inside the content preview area.
 
 1. Hover over the first row on the stage to display the toolbox and choose the _Move_ ( ![]({% link images/images-ee/icon-pb-move.png %})) icon.
 
@@ -620,12 +625,16 @@ With all three rows complete, the final step is to rearrange the rows to match t
 
    The order of the rows on your page now matches the Simple Page example.
 
-1. If you are working in Fullscreen mode, click the Close (![]({% link images/images-ee/icon-pb-close.png %}){: height="20px"}) icon in the upper-right corner to return to the Page Builder workspace.
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+
+   This returns you to the _Content_ section for the page with the preview displayed.
 
 1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
 
    ![]({% link images/images-ee/page-builder-tutorial1-save-and-close.png %}){: .zoom}
    _Choosing the Save & Close option_
+
+1. If prompted, click the [Cache Management]({% link system/cache-management.md %}) link in the message at the top of the page and refresh any invalid cache.
 
 **Congratulations!** You have completed Part 3 of the Simple Page tutorial. Keep the work that you created, so you can refer to it later.
 
