@@ -11,11 +11,10 @@ Page Builder has a new content type called _Banner_, which is featured in the fi
 ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-storefront.png %}){: .zoom}
 _Dynamic block in the storefront_
 
-This tutorial assumes that you have completed [Tutorial 1: Simple Page]({% link cms/page-builder-tutorial1-simple-page.md %}), including the prerequisites and downloaded sample files.
+This tutorial assumes that you have completed [Tutorial 1: Simple Page]({% link cms/page-builder-tutorial1-simple-page.md %}), including the prerequisites and downloaded sample files. Follow parts 1, 2, 3, and 4 of this tutorial in order.
 
-In Part 1 of this tutorial, you will create a simple block, and add it to the page that you created in the first tutorial. In Part 2, you will create a dynamic block with a price rule promotion that appears only to members of a specific customer segment. In Part 3, you will add the dynamic block that you created to the page. In Part 4, you will edit a dynamic block that is live in your store.
-
-Follow parts 1, 2, 3, and 4 of this tutorial in order.
+{:.bs-callout-info}
+This tutorial is updated to reflect recent changes to the Page Builder workspace in Magento 2.4.1. If you are using an earlier Magento Commerce release, use the Page Builder tutorials included in the [Magento 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
 
 ## Part 1: Create a simple block
 

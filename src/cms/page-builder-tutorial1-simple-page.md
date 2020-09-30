@@ -8,6 +8,9 @@ In this three-part tutorial, you will become familiar with the Page Builder work
 ![]({% link images/images-ee/page-builder-tutorial1-simple-layout.png %}){: .zoom}
 _Simple Page example_
 
+{:.bs-callout-info}
+This tutorial is updated to reflect recent changes to the Page Builder workspace in Magento 2.4.1. If you are using an earlier Magento Commerce release, use the Page Builder tutorials included in the [Magento 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
+
 ## Before you begin
 
 Before starting this tutorial, we recommend that you increase the [Admin Session Lifetime]({% link stores/security-admin.md %}) to prevent the session from timing out while you work.

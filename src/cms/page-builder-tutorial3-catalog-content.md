@@ -8,9 +8,10 @@ In this tutorial, you will learn how easy it is to add a product list to a page,
 ![]({% link images/images-ee/page-builder-add-content-products-list.png %}){: .zoom}
 _Product list_
 
-This tutorial assumes that you have completed [Tutorial 1: Simple Page]({% link cms/page-builder-tutorial1-simple-page.md %}) and [Tutorial 2: Blocks]({% link cms/page-builder-tutorial2-blocks.md %}), including the prerequisites and downloaded sample files.
+This tutorial assumes that you have completed [Tutorial 1: Simple Page]({% link cms/page-builder-tutorial1-simple-page.md %}) and [Tutorial 2: Blocks]({% link cms/page-builder-tutorial2-blocks.md %}), including the prerequisites and downloaded sample files. Follow parts 1, 2, and 3 of this tutorial in order.
 
-Follow parts 1, 2, and 3 of this tutorial in order.
+{:.bs-callout-info}
+This tutorial is updated to reflect recent changes to the Page Builder workspace in Magento 2.4.1. If you are using an earlier Magento Commerce release, use the Page Builder tutorials included in the [Magento 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
 
 ## Part 1: Add a product list
 
