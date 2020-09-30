@@ -34,7 +34,7 @@ _Recent Orders_
 
 1. To view order details, click the Amazon order number in the _Order Number_ column.
 
-   Depending on your [order import setting]({% link sales-channels/asc/order-settings.md %}), the order details will open in Amazon or in the [Magento orders workflow]({% link sales/orders.md %}).
+    The _Amazon Order Details_ page for the order opens.
 
 ## View all orders
 
@@ -59,7 +59,7 @@ _Amazon orders_
 
 1. To view order details, click the Amazon order number in the _Order Number_ column.
 
-   Depending on your [order import setting]({% link sales-channels/asc/order-settings.md %}), the order details will open in Amazon or in the [Magento orders workflow]({% link sales/orders.md %}).
+    The _Amazon Order Details_ page for the order opens.
 
 ## Using filters
 
