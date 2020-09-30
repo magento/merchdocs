@@ -27,4 +27,4 @@ Integrating your Magento store is a quick, simple process that gives you access 
 See the [Yotpo website](https://www.yotpo.com/platform/visual-marketing/) for more information about additional features, settings, and [Magento integration](https://www.yotpo.com/integrations/magento/).
 
 {:.bs-callout-info}
-Yotpo is available for Magento versions prior to 2.3.3, but must be installed from [Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=yotpo). 
+Yotpo is available for Magento versions prior to 2.3.3, but must be installed from [Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=yotpo).
