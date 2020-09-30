@@ -2,7 +2,7 @@
 title: Media Gallery Image Optimization
 ---
 
-Media Gallery Image Optimization is a feature of the new [Media Gallery]({% link cms/media-gallery.md %}) improving performance and decreasing media file sizes on the storefront. The optimization is enabled by default and can be configured in the Stores Configuration.
+The new [Media Gallery]({% link cms/media-gallery.md %}) provides an _Image Optimization_ feature, which improves performance and decreases media file sizes on the storefront. This optimization is enabled by default and can be modified in the store configuration settings.
 
 ## Configure image optimization
 
@@ -13,12 +13,12 @@ Media Gallery Image Optimization is a feature of the new [Media Gallery]({% link
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Media Gallery Image Optimization** and do the following:
 
    - Set **Enable Image Optimization** to `Yes`.
-   - Set **Maximum Width** and **Maximum Height** to the desired values.
+   - Enter the **Maximum Width** and **Maximum Height** values (in pixels) according to your needs..
 
 ## Behaviour
 
-When Media Gallery Image Optimization functionality is enabled, an optimized copy of an image is inserted to the content from the [Media Gallery]({% link cms/media-gallery.md %}) instead of original one.
+When Media Gallery Image Optimization functionality is enabled, an optimized copy of an image is automatically inserted in the content from the [Media Gallery]({% link cms/media-gallery.md %}) instead of the original file.
 
-Every time the **Maximum Width** and **Maximum Height** values are changed in the configuration - all the existing inserted optimized images are updated.
+Any time the _Maximum Width_ and _Maximum Heigh_ values are changed in the configuration, it updates all the existing optimized images that were previously inserted.
 
 The Media Gallery Image Optimization requires `media.gallery.renditions.update` queue consumers to be running for regenerating optimized image when configuration is changed. See [Manage message queues](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) documentation for more details.

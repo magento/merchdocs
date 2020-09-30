@@ -221,9 +221,9 @@ _Media Gallery Image Optimization_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enable Image Optimization|Global|Resize images to decrease the file size of images inserted to the content. Original images are preserved in Media Gallery.|
-|Maximum Width|Global|The size of image inserted from Media Gallery to the content will be reduced to match this value.|
-|Maximum Height|Global|The size of image inserted from Media Gallery to the content will be reduced to match this value.|
+|Enable Image Optimization|Global|Determines if images are resized to decrease the file size of the images inserted to the content. Original images are preserved in the Media Gallery.|
+|Maximum Width|Global|The maximum width (in pixels) for images inserted from Media Gallery into the content.|
+|Maximum Height|Global|The maximum height (in pixels) for images inserted from Media Gallery into the content.|
 
 [1]: https://en.wikipedia.org/wiki/Sendmail
 [2]: https://magento.com/security/news/new-zend-framework-1-security-vulnerability
