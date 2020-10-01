@@ -4,6 +4,21 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what's new.
 
+## September 2020
+
+### New topic
+
+- [Export Full Catalog]({% link catalog/export-full-catalog.md %})
+
+### Updated topics
+
+{: .topics-table }
+|Topic |Change|
+|--- |--- |
+|[Products Grid]({% link catalog/products.md %})|Added information for _Export Full Catalog_ control.|
+|[Message Log]({% link mcom/message-log.md %})|Added _Enable message performance logs_ section for the OMS Connector.|
+|[System Reports]({% link system/support-system-report.md %})|Added _View module info_ section.|
+
 ## August 2020
 
 ### New topic
