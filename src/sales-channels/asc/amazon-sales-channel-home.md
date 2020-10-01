@@ -16,6 +16,6 @@ Views available in the left-side menu include:
 
 ## Access Amazon Sales Channel
 
-1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon Sales Channel**.
 
 The Amazon Sales Channel home page opens, defaulted to the [_Amazon Stores_]({% link sales-channels/asc/managing-stores.md %}) view.

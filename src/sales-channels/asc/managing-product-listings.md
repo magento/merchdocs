@@ -16,7 +16,7 @@ See [Manage Listings by Status / Tab]({% link sales-channels/asc/managing-listin
 
 ## Access product listings
 
-1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon Sales Channel**.
 
 1. Click **View Store** on a store card.
 

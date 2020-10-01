@@ -12,7 +12,7 @@ From the _Attributes_ view, you and review your attribute settings in the table 
 
 ## View your attributes list
 
-1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon Sales Channel**.
 
 1. Click **Attributes** in the left-side menu, locate an Amazon attribute, and review your attribute list.
 
