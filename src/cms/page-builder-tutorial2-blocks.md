@@ -6,18 +6,17 @@ title: 'Tutorial 2: Blocks'
 The following tutorial illustrates the difference between [simple blocks]({% link cms/blocks.md %}) and [dynamic blocks]({% link cms/page-builder-add-dynamic-block.md %}), and how to use Page Builder to create each type of block.
 
 {:.bs-callout-info}
-Page Builder has a new content type called _Banner_ which is featured in the first tutorial and is unrelated to the previous banner functionality. What was previously the Banner option in the Content menu is now _Dynamic Block_.
+Page Builder has a new content type called _Banner_, which is featured in the first tutorial and is unrelated to the previous banner functionality. What was previously the Banner option in the [Content menu]({% link cms/content-menu.md %}) is now _Dynamic Block_.
 
 ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-storefront.png %}){: .zoom}
 _Dynamic block in the storefront_
 
-This tutorial assumes that you have completed [Tutorial 1: Simple Page]({% link cms/page-builder-tutorial1-simple-page.md %}), including the prerequisites and downloaded sample files.
+This tutorial assumes that you have completed [Tutorial 1: Simple Page]({% link cms/page-builder-tutorial1-simple-page.md %}), including the prerequisites and downloaded sample files. Follow parts 1, 2, 3, and 4 of this tutorial in order.
 
-In Part 1 of this tutorial, you will create a simple block, and add it to the page that you created in the first tutorial. In Part 2, you will create a dynamic block with a price rule promotion that appears only to members of a specific customer segment. In Part 3, you will add the dynamic block that you created to the page. In Part 4, you will edit a dynamic block that is live in your store.
+{:.bs-callout-info}
+This tutorial is updated to reflect recent changes to the Page Builder workspace in Magento 2.4.1. If you are using an earlier Magento Commerce release, use the Page Builder tutorials included in the [Magento 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
 
-Follow parts 1, 2, 3, and 4 of this tutorial in order.
-
-## PART 1: Create a simple block
+## Part 1: Create a simple block
 
 In this tutorial, you will create a simple block with content from Google Maps. Simple blocks are sometimes called _CMS blocks_ or _static blocks_, because the content does not change. A simple block is ideal for content that you might want to reuse.
 
@@ -40,7 +39,7 @@ In this tutorial, you will create a simple block with content from Google Maps. 
 
 ### Step 2: Add a Google Map
 
-1. Scroll down to the Page Builder workspace.
+1. Scroll down to the Page Builder content preview, which is currently empty, and click <span class="btn">Edit with Page Builder</span>.
 
 1. In the Page Builder panel, expand **Media** and drag a **Map** placeholder to the stage.
 
@@ -57,6 +56,10 @@ In this tutorial, you will create a simple block with content from Google Maps. 
    ![]({% link images/images-ee/page-builder-tutorial2-media-map-not-configured.png %}){: .zoom}
    _Google Maps placeholder_
 
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+
+   This returns you to the _Content_ section for the block with the preview displayed.
+
 1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
 
 ### Step 3: Configure Google Maps
@@ -67,7 +70,7 @@ If Google Maps is already configured for your store, you can skip this step and 
 
 1. Click the project drop-down and select or create the project for which you want to add an API key.
 
-1. Follow the [instructions][4] in the Google Maps documentation to configure your API credentials.
+1. Follow the [instructions][1] in the Google Maps documentation to configure your API credentials.
 
 1. Copy your API Key to the clipboard.
 
@@ -92,9 +95,9 @@ If Google Maps is already configured for your store, you can skip this step and 
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Pages**.
 
-1. In the grid, find the Simple Page that you created in the first tutorial and select **Edit** in the _Action_ column.
+1. In the grid, find the _Simple Page_ that you created in the first tutorial and select **Edit** in the _Action_ column.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and scroll down to the Page Builder workspace.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and click <span class="btn">Edit with Page Builder</span> or inside the content preview area.
 
 1. In the Page Builder panel under _Layout_, drag a **Row** placeholder to the top of the stage.
 
@@ -115,12 +118,16 @@ If Google Maps is already configured for your store, you can skip this step and 
 
 1. In the search box, enter `map` and press the Enter/Return key to find the block that you created.
 
-   ![]({% link images/images-ee/page-builder-add-content-block-settings-block-select.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-add-content-block-settings-block-find.png %}){: .zoom}
    _Find Block in List_
 
-1. In the grid, click <span class="btn">Select</span> to choose the Google Maps block and then in the upper-right corner, click <span class="btn">Add Selected</span>.
+1. In the grid, click <span class="btn">Select</span> to choose the Google Maps block.
 
 1. In the upper-right corner, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
+
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+
+   This returns you to the _Content_ section for the page with the preview displayed.
 
 1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
 
@@ -129,7 +136,7 @@ If Google Maps is already configured for your store, you can skip this step and 
 
 **Congratulations!** You have completed the Part 1 of the Block tutorial. Make sure to keep your work for reference.
 
-## PART 2: Create a dynamic block
+## Part 2: Create a dynamic block
 
 A dynamic block includes logic that determines where, when, and to whom it appears. In this tutorial, you will create a dynamic block for a promotion that is triggered when price rule conditions are met, and that appears only to a specific customer segment. The end result of this example is similar to the banner that was created in the first tutorial, but with logic that controls when it appears in the storefront.
 
@@ -170,31 +177,29 @@ _Sample Luma tee promotion_
 
 ### Step 2: Complete the settings
 
-Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section. Then, complete the following tasks.
+Scroll down to the _Content_ section, which displays an empty Page Builder content preview, and click <span class="btn">Edit with Page Builder</span>. Then, complete the following tasks:
 
-**Task 1:** Add an Image
+**Task 1:** Add a background image
 
-1. In the Page Builder panel, expand **Media** and drag an **Image** placeholder to the row.
+1. Hover over the row container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
-1. In the image placeholder, click <span class="btn">Select from Gallery</span> and choose the `wide-banner-background.png` image.
+1. Under _Appearance_, choose **Full Bleed**.
 
-   []({% link images/images-ee/page-builder-tutorial2-row-image.png %}){: .zoom}
-   _Row with the image_
+1. For **Minimum Height**, enter `400px`.
 
-1. Hover over the row container to display the toolbox and chhose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
-
-1. For **Minimum Height**, enter `400`.
+1. Scroll to the _Background_ section and set the **Background Image** by clicking <span class="btn">Select from Gallery</span> and choosing the `wide-banner-background.png` image uploaded in the first tutorial.
 
 1. In the upper-right corner, click <span class="btn">Save</span> to return to the Page Builder workspace.
 
-1. In the upper-right corner of the Tee Shirt Promo page, click <span class="btn">Save</span> again.
+   ![]({% link images/images-ee/page-builder-tutorial2-row-image.png %}){: .zoom}
+   _Row with the image_
 
 **Task 2:** Add columns
 
 In the Page Builder panel under _Layout_, drag a **Column** placeholder onto the row.
 
 ![]({% link images/images-ee/page-builder-tutorial2-column-drag.png %}){: .zoom}
-_Row with two equal columns_
+_Dragging the column type into the row_
 
 The row is now divided into two columns of equal width.
 
@@ -207,9 +212,11 @@ The row is now divided into two columns of equal width.
 
 1. Enter the following three lines of text into the editor:
 
-      Even more ways to mix and match.
-      Buy 3 Luma tees and get a 4th free.
-      Shop Tees >
+   `Even more ways to mix and match.`
+
+   `Buy 3 Luma tees and get a 4th free.`
+
+   `Shop Tees >`
 
    ![]({% link images/images-ee/page-builder-tutorial2-column-text-editor.png %}){: .zoom}
    _Entering text for the column_
@@ -234,7 +241,7 @@ The row is now divided into two columns of equal width.
 
 In the first tutorial, you learned how to use the [Button]({% link cms/page-builder-elements-buttons.md %}) content type to create a link. This example shows how to insert a link from the editor toolbar.
 
-1. In the storefront, navigate to the page that is to be the target destination for the link.
+1. In another browser tab, open the storefront and navigate to the page that is to be the target destination for the link.
 
    You can use the fully qualified URL or a relative URL that omits the reference to your store domain.
 
@@ -244,7 +251,7 @@ In the first tutorial, you learned how to use the [Button]({% link cms/page-buil
    Relative URL
    : `../women/tops-women/tees-women.html`
 
-1. In the text editor, select the `Shop Tees >` text in the third line and choose **Bold** (![]({% link images/images/editor4-toolbar/btn-bold.png %})) in the editor toolbar.
+1. Return to the Page Builder workspace tab and text editor, select the `Shop Tees >` text in the third line, and choose **Bold** (![]({% link images/images/editor4-toolbar/btn-bold.png %})) in the editor toolbar.
 
 1. With the `Shop Tees >` text in the third line still selected, choose **Insert/edit link** (![]({% link images/images-ee/icon-pb-add-link.png %})) in the editor toolbar.
 
@@ -266,11 +273,17 @@ In the first tutorial, you learned how to use the [Button]({% link cms/page-buil
    ![]({% link images/images-ee/page-builder-tutorial2-column-text-editor-link-insert-detail.png %}){: .zoom}
    _Link details_
 
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+
+   This returns you to the _Content_ section for the dynamic block with the preview displayed.
+
 1. In the upper-right corner, click <span class="btn">Save</span>.
 
 ### Step 3: Add a price rule
 
-1. On the _New Dynamic Block_ page, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Related Promotions** section and click <span class="btn">Add Cart Price Rules</span>.
+1. Open the the _Tee Shirt Promo_ dynamic block in edit mode again.
+
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Related Promotions** section and click <span class="btn">Add Cart Price Rules</span>.
 
    ![]({% link images/images-ee/page-builder-dynamic-blocks-related-promotions.png %}){: .zoom}
    _Related promotions_
@@ -285,17 +298,21 @@ In the first tutorial, you learned how to use the [Button]({% link cms/page-buil
    ![]({% link images/images-ee/page-builder-dynamic-block-related-cart-price-rule-list.png %}){: .zoom}
    _Selected cart price rule_
 
-1. In the upper-right corner, click <span class="btn">Save</span> to return to the Dynamic Blocks page.
+1. In the upper-right corner, click <span class="btn">Save</span>.
 
 ### Step 4: Add the dynamic block to a page
 
 1. In the _Admin_ sidebar, go to **Content** > _Element_ > **Pages**
 
-1. Find the Simple Page that you created in the [first tutorial]({% link cms/page-builder-tutorial1-simple-page.md %}) and open it in edit mode.
+1. Find the _Simple Page_ that you created in the [first tutorial]({% link cms/page-builder-tutorial1-simple-page.md %}) and open it in edit mode.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and click <span class="btn">Edit with Page Builder</span>.
 
-1. In the Page Builder panel under _Layout_, drag a **Row** placeholder to the top of the stage.
+1. Hover over the top row with the same image as the dynamic block to display the toolbox and the _Remove_ (![]({% link images/images-ee/icon-pb-remove.png %}){: width="20px"}) icon.
+
+   Click  <span class="btn">OK</span> to confirm removal of the row from the page.
+
+1. In the Page Builder panel under _Layout_, drag a new **Row** placeholder to the top of the stage.
 
 1. In the Page Builder panel, expand **Add Content** and drag a **Dynamic Block** placeholder to the new row.
 
@@ -312,10 +329,7 @@ In the first tutorial, you learned how to use the [Button]({% link cms/page-buil
    ![]({% link images/images-ee/page-builder-dynamic-block-select.png %}){: .zoom}
    _Select Dynamic Block_
 
-1. Find the _Tee Shirt Promo_ dynamic block that you created, click <span class="btn">Select</span>, and then click <span class="btn">Add Selected</span>.
-
-   ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-select.png %}){: .zoom}
-   _Selected dynamic block_
+1. Find the _Tee Shirt Promo_ dynamic block that you created and click <span class="btn">Select</span>.
 
    A summary of the dynamic block information appears below.
 
@@ -327,11 +341,17 @@ In the first tutorial, you learned how to use the [Button]({% link cms/page-buil
 1. When complete, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
 
    ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-on-page.png %}){: .zoom}
-   _Dynamic Block on the page_
+   _Dynamic Block in the page preview_
+
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+
+   This returns you to the _Content_ section for the page with the preview displayed.
+
+1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
 
 **Congratulations!** You have completed the Part 2 of the Block tutorial. Make sure to keep your work for reference.
 
-## PART 3: Update the dynamic block
+## Part 3: Update the dynamic block
 
 In this final part of the tutorial, you will edit a dynamic block while the page is live in your store. Then, log in to the store as a member of the customer segment to make the block appear.
 
@@ -344,7 +364,7 @@ _Sample dynamic block in the storefront_
 
 1. Find your _Tee Shirt Promo_ dynamic block in the grid and open it in edit mode.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and click <span class="btn">Edit with Page Builder</span>.
 
 1. Change the column width:
 
@@ -369,10 +389,11 @@ _Sample dynamic block in the storefront_
    ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-edit-text-color.png %}){: .zoom}
    _Text color_
 
-1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-save-and-close.png %}){: .zoom}
-   _Choosing the Save & Close option_
+   This returns you to the _Content_ section for the dynamic block with the preview displayed.
+
+1. In the upper-right corner, click <span class="btn">Save</span>.
 
 ### Step 2: View the Dynamic Block
 
