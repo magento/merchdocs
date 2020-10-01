@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: Live Search Reporting
+title: Create a Rule
 group: marketing
 ---
 
