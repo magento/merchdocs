@@ -450,7 +450,7 @@ _Example full width row with columns of different widths_
    ![]({% link images/images-ee/page-builder-tutorial1-column-first-4.png %}){: .zoom}
    _Resizing the first column_
 
-1. Hover over first column container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the first column container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
 1. Scroll down to the _Advanced_ section and set all **Margins & Padding** values to `0`.
 
@@ -519,7 +519,7 @@ The second column of the row will contain content from a customer review, includ
 
    `Awesome Tank!`
 
-   `I’m a long distance runner and it keeps me pretty comfortable, although these companies always act like their shirts are magical and really it’s just pretty basic stuff. Still it’s a great shirt and I would recommend it.`
+   `I’m a long distance runner and it keeps me pretty comfortable, although these companies always act like their shirts are magical and really it’s just pretty basic stuff. Still it’s a great shirt, and I would recommend it.`
 
    `Antonia Racer Tank – Reviewed by Allyson`
 
