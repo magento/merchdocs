@@ -27,6 +27,23 @@ _Manage System Reports_
 
     It might take a few minutes for the report to generate, depending on the number of report types selected. When the report is ready, it appears at the top of the grid with the date and time generated.
 
+### View module info
+
+You can find useful information about installed modules, including the [Connector](https://omsdocs.magento.com/integration/connector/), in the Admin.
+
+To view report info for each installed module:
+
+1. On the _Admin_ sidebar go to **System** > _Support_ > **System Report**.
+1. Click <span class="btn">New Report</span>.
+1. Select **Modules** from the Groups list and click <span class="btn">Create</span>.
+1. After the report generates, click **Select** and then **View** to see all module versions.
+1. Click <span class="btn">Download</span> to download the report.
+
+    ![System report of installed modules]({% link images/images-ee/system-report-new.png %}){: .zoom}
+   _System report of installed modules_
+
+See what changes were released in each version of the Connector in the [changelog](https://magento-mcom.github.io/mcom-connector-sr/CHANGELOG.html) in [**MCOM**](https://docs.magento.com/user-guide/mcom.html) > **Change log**.
+
 ## Manage system reports
 
 In the **Action** column of the grid, select one of the following:
