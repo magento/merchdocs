@@ -89,6 +89,11 @@ defaults:
       group: marketing
   -
     scope:
+      path: live-search
+    values:
+      group: marketing
+  -
+    scope:
       path: operations
     values:
       group: operations
