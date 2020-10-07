@@ -4,7 +4,7 @@ title: Setting Up Amazon Pay
 
 Amazon Pay and Login with Amazon work together to create a great buyer experience.
 
-For more information, see the [Amazon Pay and Login with Amazon][1] documentation for Magento 2 or watch the Amazon Pay University video on [Integrating Amazon Pay with Magento 2](https://www.youtube.com/watch?v=qsXVzh-yZsE&t=7s).
+For more information, see the [Amazon Pay and Login with Amazon][1] documentation for Magento 2.
 
 ## Connect to Amazon Pay
 
