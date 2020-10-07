@@ -6,7 +6,7 @@ After you create and integrate your Amazon Sales Channel store, you should revie
 
 ## Store Settings
 
-1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon Sales Channel**.
 
 1. Select the store you want to view and click <span class="btn">View Store</span>.
 
