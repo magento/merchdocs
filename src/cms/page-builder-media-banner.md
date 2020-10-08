@@ -6,7 +6,7 @@ title: Media - Banner
 Use the _Banner_ content type to add an illustrated, interactive component that engages users with a call to action and button in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage).
 
 {:.bs-callout-info}
-Page Builder includes this new Banner content type. What was previously the _Banner_ option in the Content menu is now [Dynamic Block]({% link cms/dynamic-blocks.md %}).
+What was previously the _Banner_ option in the Content menu is now [Dynamic Block]({% link cms/dynamic-blocks.md %}).
 
 ![]({% link images/images-ee/page-builder-banner-homepage.png %}){: .zoom}
 _Banner on a storefront home page_

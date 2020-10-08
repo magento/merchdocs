@@ -48,7 +48,7 @@ The following instructions show how to add a Products list to a block. You can t
 
 1. Choose the **Store View** where the block is to be available.
 
-1. Scroll down and click <span class="btn">Edit with Page Builder</span> or inside the content preview area to open the Page Builder workspace,
+1. Scroll down and click <span class="btn">Edit with Page Builder</span> or inside the content preview area to open the Page Builder workspace.
 
 1. In the Page Builder panel, expand **Add Content** and drag a **Products** placeholder to the stage.
 
