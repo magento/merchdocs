@@ -6,7 +6,7 @@ title: Add Product Recommendations
 Use the _Product Recommendations_ content type to add an existing, active [recommendation unit]({% link marketing/create-new-rec.md %}) to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage) for a CMS page, block, or dynamic block.
 
 {:.bs-callout-info}
-The Product Recommendations content type in Page Builder is supported in Magento Commerce 2.3.1 and later and available in the [Product Recommendations metapackage versions 3.0.x or later](https://marketplace.magento.com/magento-product-recommendations.html). To add Page Builder support, [see the developer documentation](https://devdocs.magento.com/recommendations/install-configure.html#pbsupport).
+The _Product Recommendations_ content type in Page Builder is supported in Magento Commerce 2.3.1 and later and available in the [Product Recommendations metapackage versions 3.0.x or later](https://marketplace.magento.com/magento-product-recommendations.html). To add Page Builder support, [see the developer documentation](https://devdocs.magento.com/recommendations/install-configure.html#pbsupport).
 
 {% include page-builder-save-timeout.md %}
 
@@ -15,15 +15,15 @@ The Product Recommendations content type in Page Builder is supported in Magento
 | Tool  | Icon | Description |
 | --- | --| --- |
 | Move | ![]({% link images/images-ee/icon-pb-move.png %}) | Moves the product recommendation container and its content to another position on the stage.|
-| Settings | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the Edit Product Recommendation page, where you can choose the recommendation unit, and change the properties of the container. |
+| Settings | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the Edit Product Recommendation page, where you can choose the recommendation unit and change the properties of the container. |
 | Hide | ![]({% link images/images-ee/icon-pb-hide.png %}) | Hides the current product recommendation container and its content. |
-| Show | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the  hidden product recommendation container and its content. |
+| Show | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the hidden product recommendation container and its content. |
 | Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the product recommendation container and its content. |
 | Remove | ![]({% link images/images-ee/icon-pb-remove.png %}) | Deletes the product recommendation container and its content from the stage. |
 
 ## Add an existing recommendation unit
 
-1. Open the page, block or dynamic block in edit mode.
+1. Open the page, block, or dynamic block in edit mode.
 
 1. Expand the _Content_ section and click <span class="btn">Edit with Page Builder</span> or inside the content preview area to open the Page Builder workspace.
 
