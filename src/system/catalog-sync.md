@@ -45,7 +45,7 @@ If you need to initiate a resync of your catalog before the hourly scheduled syn
 
 1. In the **Force sync** section, click the **Force sync** button.
 
-   Magento syncs your catalog...more details about what actually happens
+   Magento syncs your catalog...more details about what actually happens. Note the button will be disabled for 15 minutes so you can't clog resources...more explanation needed.
 
 ## Synced catalog products
 
@@ -55,11 +55,14 @@ The **Synced catalog products** table displays the following information.
 Field|Description
 ID | Unique identifier of the product
 Name | Storefront name of the product
+Type | Identifies the product type, such as simple, configurable, downloadable, and so on
 Last Exported | Date the product was last successfully exported from your catalog
 Last Modified | Date the product was last modified in your catalog
-Type | Identifies the product type, such as simple, configurable, downloadable, and so on
+Attribute Set | 
 SKU |
 Price |
+Quantity | 
+Salable Quantity | 
 Visibility | Indicates if it's browsable via the catalog or accessible via search
 
 ## Resolve catalog sync issues {#resolvesync}
