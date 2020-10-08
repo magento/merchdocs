@@ -3,17 +3,24 @@ conditions: Default.EE-B2B
 title: Page Builder Templates
 ---
 
-Page Builder templates are containers that save both content and layouts of existing pages, blocks, dynamic blocks, product attributes, and category descriptions. Using templates saves you time and effort when creating new content (or replacing older content). For example, you can save your existing Page Builder content as a template and then apply that template (with all of its content and layouts) to another area to quickly create new Page Builder content.
+Templates are containers that save [Page Builder]({% link cms/page-builder.md %}) content and layouts of existing pages, blocks, dynamic blocks, product attributes, and category descriptions. Using templates saves you time and effort when creating new content (or replacing older content). For example, you can save your existing Page Builder content as a template, and then apply that template (with all of its content and layouts) to another area to quickly create new Page Builder content.
 
-## Save content as a template
+## Access templates
 
-1. Navigate to the Page Builder content you want to save as a template.
+On the _Admin_ sidebar, go to **Content** > _Elements_ > **Templates**.
+
+![Templates grid]({% link images/images-ee/templates-list.png %}){: .zoom}
+_Templates grid with thumbnail preview_
+
+## Save Page Builder content as a template
+
+1. Navigate to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage) to access the content you want to save as a template.
 
    This can be a page, block, dynamic block, product attribute, or category description.
 
-1. In the Page Builder content area, click <span class="btn">Save as Template</span> at the top-right.
+1. Above the stage, click <span class="btn">Save as Template</span> at the top-right.
 
-   ![Page Builder Save as Template button]({% link images/images-ee/pagebuilder-templates-saveastemplate-button.png %}){: .zoom}
+   ![Page Builder stage with Save as Template button]({% link images/images-ee/pagebuilder-templates-saveastemplate-button.png %}){: .zoom}
    _Page Builder - Save as Template button_
 
    This displays the _Save Content as Template_ dialog.
@@ -59,17 +66,11 @@ You can apply a template to a Page Builder content area (page, block, dynamic bl
 
    To see the entire template, you can click the template thumbnail image. This expands the image so you can view the entire template as needed.
 
-   ![Templates page]({% link images/images-ee/pagebuilder-templates-delete.png %}){: .zoom}
-   _Deleting a template_
-
 1. When prompted, confirm the removal of the template.
 
 ## Filter templates
 
-The _Apply Template_ grid and the _Templates_ page grid provide two ways to filter the templates grid.
-
-![Page Builder Apply Template grid]({% link images/images-ee/pagebuilder-templates-apply-slideout-withfilters.png %}){: .zoom}
-_Page Builder - Apply Template grid_
+The _Apply Template_ grid and the _Templates_ page grid provide two ways to filter the templates grid:
 
 - Use the search box at the top-left to filter the grid by the template name, based on the entered text.
 
@@ -79,3 +80,6 @@ _Page Builder - Apply Template grid_
    - A range of creation dates (**Created**)
    - The template name (**Template Name**)
    - The designated content area (**Created For**)
+
+![Page Builder Apply Template grid]({% link images/images-ee/pagebuilder-templates-apply-slideout-withfilters.png %}){: .zoom}
+_Apply Template grid with filter options_

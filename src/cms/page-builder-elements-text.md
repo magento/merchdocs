@@ -3,10 +3,12 @@ ee_only: true
 title: Elements - Text
 ---
 
-Use the Text content type to add a container and text editor with a “What You See Is What You Get” view of the content to the stage. In addition, you can add links, images, [variables]({% link marketing/variables.md %}), and widgets to the text from the editor toolbar.
+Use the _Text_ content type to add a text container with a WYSIWYG (“What You See Is What You Get”) editor in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). In addition, you can add links, images, [variables]({% link marketing/variables.md %}), and widgets to the text from the editor toolbar.
 
 ![]({% link images/images-ee/page-builder-storefont-banner-with-button.png %}){: .zoom}
 _Formatted text on a banner_
+
+{% include page-builder-save-timeout.md %}
 
 ## Text editor tools
 
@@ -43,8 +45,6 @@ _Text container toolbox_
 
    ![]({% link images/images-ee/page-builder-elements-text-editor.png %}){: .zoom}
    _Text editor with content_
-
-1. When complete, click <span class="btn">Save</span>.
 
 ## Create a link
 
@@ -148,6 +148,4 @@ To create a link for a telephone number or email, see [Adding Custom Variables](
       |Margins|The amount of blank space that is applied to the outside edge of all sides of the container. Options: Top / Right / Bottom / Left
       |Padding|The amount of blank space that is applied to the inside edge of all sides of the container. Options: Top / Right / Bottom / Left
 
-1. When complete, click <span class="btn">Save</span> and return to the Page Builder workspace.
-
-1. Click <span class="btn">Save</span> to save the page.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
