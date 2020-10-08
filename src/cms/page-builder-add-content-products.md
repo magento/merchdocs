@@ -3,7 +3,7 @@ ee_only: true
 title: Add Content - Products
 ---
 
-Use the _Products_ content type to add a list of products to the stage, using either a grid or carousel layout. You also can use the [Add Content - Block]({% link cms/page-builder-add-content-block.md %}) tool to place the block on the Page Builder stage and then place a product list within the block. Or, you can add the product list directly in a row on a page.
+Use the _Products_ content type to add a list of products to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage), using either a grid or carousel layout. You also can use the [Add Content - Block]({% link cms/page-builder-add-content-block.md %}) tool to place the block on the Page Builder stage and then place a product list within the block. Or, you can add the product list directly in a row on a page.
 
 ## Guidelines for using the product carousel
 
@@ -25,6 +25,8 @@ The product carousel provides a powerful and engaging way to show off your produ
 
 The following instructions show how to add a Products list to a block. You can then use a [widget]({% link cms/widgets.md %}) to place the block at a specific location on any page in your store.
 
+{% include page-builder-save-timeout.md %}
+
 ## Products toolbox
 
 | Tool      | Icon          | Description       |
@@ -36,7 +38,7 @@ The following instructions show how to add a Products list to a block. You can t
 | Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the products container and its content.  |
 | Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})| Deletes the products container and its content from the stage. |
 
-## Add a products list
+## Create a products list block
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Blocks**.
 
@@ -46,7 +48,7 @@ The following instructions show how to add a Products list to a block. You can t
 
 1. Choose the **Store View** where the block is to be available.
 
-1. Scroll down to the Page Builder workspace.
+1. Scroll down and click <span class="btn">Edit with Page Builder</span> or inside the content preview area to open the Page Builder workspace,
 
 1. In the Page Builder panel, expand **Add Content** and drag a **Products** placeholder to the stage.
 
@@ -172,7 +174,7 @@ Complete the _Settings_ according to the following sections:
    |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
    |Left|Aligns the list along the left border of the parent container, with allowance for any padding that is specified.
    |Center|Aligns the list in the center of the parent container, with allowance for any padding that is specified.
-   |Right|Aligns the block along the right border of the parent container, with allowance for any padding that is specified.
+   |Right|Aligns the list along the right border of the parent container, with allowance for any padding that is specified.
 
 1. Set the **Border** style applied to all four sides of the Products container:
 
@@ -208,13 +210,11 @@ Complete the _Settings_ according to the following sections:
 
 ## Save and preview on the stage
 
-1. In the upper-right corner, click <span class="btn">Save</span> to return to the Page Builder workspace.
+In the upper-right corner, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
-   If you configured a product carousel, it should look similar to the following example:
+If you configured a product carousel, it should look similar to the following example:
 
-   ![Product carousel on the stage]({% link images/images-ee/page-builder-products-admin-carousel.png %}){: .zoom}
-   _Products carousel on the stage_
-
-1. In the upper-right corner of the page, click <span class="btn">Save</span> to save the changes to the block.
+![Product carousel on the stage]({% link images/images-ee/page-builder-products-admin-carousel.png %}){: .zoom}
+_Products carousel on the stage_
 
 You can now use a [widget]({% link cms/widgets.md %}) to place this block wherever you want it to appear in the store. Or, you can use [Add Content - Block]({% link cms/page-builder-add-content-block.md %}) to add the block to an existing page, tab, or block.

@@ -189,7 +189,7 @@ Scroll down to the _Content_ section, which displays an empty Page Builder conte
 
 1. Scroll to the _Background_ section and set the **Background Image** by clicking <span class="btn">Select from Gallery</span> and choosing the `wide-banner-background.png` image uploaded in the first tutorial.
 
-1. In the upper-right corner, click <span class="btn">Save</span> to return to the Page Builder workspace.
+1. In the upper-right corner, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
    ![]({% link images/images-ee/page-builder-tutorial2-row-image.png %}){: .zoom}
    _Row with the image_
