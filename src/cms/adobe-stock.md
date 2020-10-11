@@ -33,7 +33,7 @@ Configuring the Adobe Stock integration for Magento is a two-step process: [crea
 
 1. In the _Get started_ block, click **Add API**.
 
-1. Select **Creative SDK** from the integrations list and click **Continue**.
+1. Select **Adobe Stock** from the integrations list and click **Continue**.
 
    {:.bs-callout-warning}
    At this time, _do not_ use the Adobe Stock service on this screen.
