@@ -7,46 +7,52 @@ Merchants can integrate [Adobe Stock][adobe-stock] with Magento giving them acce
 ![Adobe Stock Search Results]({% link images/images/adobe-stock/search-grid.png %}){: .zoom}
 
 The Adobe Stock service provides businesses with access to millions of high-quality, curated, royalty-free photos, vectors, illustrations, videos, templates, and 3D assets for all their creative projects. Magento users are able to quickly find, preview, and license Adobe Stock assets. Users can also save them to the
-[Media Storage][media-storage], all without leaving the Magento workspace.
+[Media Storage][media-storage], all without leaving the Magento Admin workspace.
 
 ## Prerequisites
 
-This integration requires an [adobe.io Console][io-console] account and Magento 2.3.4 or newer. In order to license Adobe Stock images, a paid Adobe Stock plan and an [Adobe account][adobe-signin] are also required.
+This integration requires:
+
+- An [adobe.io Console][io-console] account
+- Magento 2.3.4 or newer
+
+Licensing Adobe Stock images requires:
+
+- An [Adobe account][adobe-signin]
+- A paid [Adobe Stock][adobe-stock] plan associated with the account
 
 ## Integrate Magento and Adobe Stock
 
-Configuring the Adobe Stock Integration for Magento is a two-step process: [create an adobe.io integration][create-integration] to generate an API Key, and
-then [configure the Adobe Stock Integration in your Magento Admin][configure].
+Configuring the Adobe Stock integration for Magento is a two-step process: [create an adobe.io integration][create-integration] to generate an API Key, and then [configure the Adobe Stock integration in your Magento Admin][configure].
 
 ### Create an Adobe.io integration
 
 1. Navigate to the [adobe.io Console][io-console].
 
-1. Under **Quick Start**, select the **Projects** tab and click **Create new project**.
+1. Under _Quick Start_, select the **Projects** tab and click **Create new project**.
 
-1. Click **Add API** in the **Get started** block.
+1. In the _Get started_ block, click **Add API**.
 
-1. Select **Creative SDK** from the integrations list and click **Continue**.
+1. Select **Adobe Stock** from the integrations list and click **Continue**.
 
-   At this time, _do not_ use the **Adobe Stock** service on this screen.
+   {:.bs-callout-warning}
+   At this time, _do not_ use the Adobe Stock service on this screen.
 
 1. Select **Oauth 2.0 Web** platform.
 
 1. Specify the **Redirect URI**.
 
-   - The default redirect URI is in the form `${HOST}/${ADMIN_URI}/adobe_ims/oauth/callback/`, such as `https://store.myshop.com/admin_hgkq1l/adobe_ims/oauth/callback/`.
+   The default redirect URI is in the form `${HOST}/${ADMIN_URI}/adobe_ims/oauth/callback/`, such as `https://store.myshop.com/admin_hgkq1l/adobe_ims/oauth/callback/`, where:
 
-        where:
-
-         - `${HOST}` is your Magento fully qualified domain name (i.e., `https://store.myshop.com`).
-         - `${ADMIN_URI}` is your Magento Admin URI (such as `admin_hgkq1l`), which can be retrieved by running `magento info:adminuri`.
+   - `${HOST}` is your Magento fully qualified domain name (i.e., `https://store.myshop.com`).
+   - `${ADMIN_URI}` is your Magento Admin URI (such as `admin_hgkq1l`), which can be retrieved by running `magento info:adminuri`.
 
 1. Specify the **Redirect URI pattern**, which is the same as your redirect URI with two differences:
 
    - Any periods (`.`) must be escaped with two backslashes (`\\`).
    - Add `.*` to the end of the pattern.
 
-      Using the example from the previous Default redirect URI field, this would be `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`.
+   Using the example from the previous default redirect URI, this would be `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`.
 
 1. Click **Save configured API**.
 
@@ -72,10 +78,10 @@ Use the **API Key** and **Client secret** generated in the [previous section][cr
 
    - Click <span class="btn">Test Connection</span> to validate your keys.
 
-    ![Advanced configuration - Adobe Stock integration]({% link images/images/system-adobe-stock-integration.png %}){: .zoom}
-    _Adobe Stock Integration_
+   ![Advanced configuration - Adobe Stock integration]({% link images/images/system-adobe-stock-integration.png %}){: .zoom}
+   _Adobe Stock Integration_
 
-   Give the validation a few seconds. If your credentials are valid, you should see a green "Connection Successful!" message.
+   Give the validation a few seconds. If your credentials are valid, you should see a green _Connection Successful!_ message.
 
 1. When complete, click <span class="btn">Save Config</span>.
 

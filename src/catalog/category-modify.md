@@ -6,7 +6,7 @@ After a category is established, it can be edited, moved to another position in 
 
 ## Move a category
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
+1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
 
 1. To move a category, drag-and-drop the category to a new position in the tree.
 

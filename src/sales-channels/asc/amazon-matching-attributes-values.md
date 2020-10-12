@@ -9,7 +9,7 @@ The Amazon Value differs depending on the attribute type and the Amazon attribut
 
 ## View your attribute values
 
-1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon Sales Channel**.
 
 1. Click **Attributes** in the left-side menu, locate an Amazon attribute, and click either **Create** or **Edit** in the _Action_ column.
 

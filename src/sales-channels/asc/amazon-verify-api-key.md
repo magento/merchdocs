@@ -13,7 +13,7 @@ The API key is validated each time you access your Amazon Sales Channel.
 
 1. Log into the Magento Admin.
 
-1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon Sales Channel**.
 
     If this is your first time accessing Amazon Sales Channel or if you need to update your API key, a modal will appear to prompt you through the process.
 
@@ -50,7 +50,7 @@ The API key is validated each time you access your Amazon Sales Channel.
     ![]({% link sales-channels/asc/assets/config-magento-services-api-screen.png %}){: .zoom}
     _Add your API Key in the Magento Service modal in your Store Configuration_
 
-1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon Sales Channel**.
 
    Reaccessing Amazon Sales Channel triggers Magento verify and validate your API key and allows you to continue.
 

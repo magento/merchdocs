@@ -11,10 +11,6 @@ _Amazon Order Details_
 
 1. In the _Recent Orders_ section, click an order number.
 
-    If order import is enabled in your [Order Settings]({% link sales-channels/asc/order-settings.md %}), the order opens in the [Magento Order View]({% link sales/order-processing.md %}#view-an-order). If order import is disabled, you must manage the order in Amazon Seller Central.
-
-1. Scroll down to the _Payment & Shipping Method_ section and click **View or Cancel Amazon Order**.
-
     The _Amazon Order Details_ page opens.
 
 {:.bs-callout .bs-callout-info}
@@ -23,6 +19,9 @@ If you have order import enabled in your [Order Settings]({% link sales-channels
 ### Order and Shipping Details tab
 
 The _Order and Shipping Details_ tab shows detailed order information, as received from Amazon.
+
+{:.bs-callout .bs-callout-warning}
+Amazon accepts non-standard address information that cannot be imported into Amazon Sales Channel, thus preventing the state/country codes from updating correctly for some orders. To correct address errors, the following fields are editable in the order details:<br/>- Shipping address 1<br/>- Shipping address 2<br/>- Shipping address 3<br/>- Shipping city<br/>- Shipping region<br/>- Shipping postal code<br/>- Shipping country<br/><br/>**Note:** Do not forget to click **Save Order** after making edits.
 
 ![]({% link sales-channels/asc/assets/amazon-order-details.png %}){: .zoom}
 _Order and Shipping Details_
