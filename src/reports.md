@@ -14,6 +14,10 @@ sections:
     content: This category includes Orders, Tax, Invoiced, Shipping, Refunds, Coupons, and settlement reports for PayPal and Braintree.
     url: /reports/sales-reports.html
 
+  - title: System Insights
+    content: The Site-Wide Analysis Tool (SWAT) provides system insights for Commerce Cloud installations of Magento with 24/7 real-time performance monitoring, reports, and recommendations.
+    url: /reports/site-wide-analysis-tool.html
+
   - title: Customer Reports
     content: This category includes Order Total, Order Account, New, Wish Lists, and Segments.
     url: /reports/customer-reports.html

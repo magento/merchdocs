@@ -3,10 +3,12 @@ ee_only: true
 title: Media - Slider
 ---
 
-Use the _Slider_ content type in the [Page Builder workspace]({% link cms/page-builder-workspace.md %}) to add a slideshow of images to the stage. You can upload new images or choose existing images from the gallery or product catalog. A slider can be set to play automatically or be controlled manually with navigation buttons. To associate the slider with a specific promotion, see [Dynamic Block]({% link cms/page-builder-add-dynamic-block.md %}).
+Use the _Slider_ content type to add a slideshow of images to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). You can upload new images or choose existing images from the gallery or product catalog. A slider can be set to play automatically or be controlled manually with navigation buttons. To associate the slider with a specific promotion, see [Dynamic Block]({% link cms/page-builder-add-dynamic-block.md %}).
 
 ![]({% link images/images-ee/page-builder-media-slider-buy3-get1free-storefront.png %}){: .zoom}
 _Media slider on the storefront_
+
+{% include page-builder-save-timeout.md %}
 
 ## Toolboxes
 
@@ -43,7 +45,7 @@ _Individual slide toolbox_
 
 1. In the Page Builder panel, expand **Media** and drag a **Slider** placeholder to a row, column, or tab on the stage.
 
-   In the following example, the background color of the row is yellow (`#ffd16`).
+   In the following example, the background color of the row is yellow (`#fffd16`).
 
    ![]({% link images/images-ee/page-builder-media-slider-drag-row.png %}){: .zoom}
    _Dragging the slider to the stage_
@@ -65,9 +67,7 @@ _Individual slide toolbox_
    - [Content](#content)
    - [Advanced](#advanced)
 
-1. When complete, click <span class="btn">Save</span> in the upper-right corner to close the _Edit Slide_ page.
-
-1. In the upper-right corner, click <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 ## Add more slides
 
@@ -93,9 +93,7 @@ You can save time by duplicating a slide that has already been configured with t
    - [Content](#content)
    - [Advanced](#advanced)
 
-1. When complete, click <span class="btn">Save</span> in the upper-right corner to close the _Edit Slide_ page.
-
-1. In the upper-right corner, click <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 ### Method 2: Add a New Blank Slide
 
@@ -119,8 +117,6 @@ You can save time by duplicating a slide that has already been configured with t
    - [Advanced](#advanced)
 
 1. When complete, click <span class="btn">Save</span> in the upper-right corner to close the _Edit Slide_ page.
-
-1. In the upper-right corner, click <span class="btn">Save</span>.
 
 ### View each slide
 
@@ -153,14 +149,7 @@ The slide in the preceding example has a background image, a transparent mobile 
 
 1. On the individual slide toolbox, choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %}) icon and complete the settings, as needed, according to following sections.
 
-1. In the upper-right corner, click <span class="btn">Save</span> to close the _Edit Slide_ page and return to the Page Builder workspace.
-
-1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
-
-   ![]({% link images/images-ee/page-builder-tutorial1-save-and-close.png %}){: .zoom}
-   _Choosing the Save & Close option_
-
-1. When prompted, click the [Cache Management]({% link system/cache-management.md %}) link in the message at the top of the page and  refresh any invalid cache.
+1. In the upper-right corner, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 ### Appearance
 
@@ -490,7 +479,7 @@ If you want a title above the slider, simply add a [Text content type] above the
 
 1. Complete the [Advanced](#slider-advanced) slider settings as needed.
 
-1. In the upper-right corner, click the **Save** arrow and choose **Save & Close** to return to the Page Builder workspace.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 {: #slider-advanced}
 ### Advanced - slider

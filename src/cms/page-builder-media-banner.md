@@ -3,13 +3,15 @@ ee_only: true
 title: Media - Banner
 ---
 
-Use the _Banner_ content type in the [Page Builder workspace]({% link cms/page-builder-workspace.md %}) to create an illustrated, interactive component that engages users with a call to action and button.
+Use the _Banner_ content type to add an illustrated, interactive component that engages users with a call to action and button in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage).
+
+{:.bs-callout-info}
+What was previously the _Banner_ option in the Content menu is now [Dynamic Block]({% link cms/dynamic-blocks.md %}).
 
 ![]({% link images/images-ee/page-builder-banner-homepage.png %}){: .zoom}
 _Banner on a storefront home page_
 
-{:.bs-callout-info}
-Page Builder includes this new Banner content type. What was previously the _Banner_ option in the Content menu is now [Dynamic Block]({% link cms/dynamic-blocks.md %}).
+{% include page-builder-save-timeout.md %}
 
 ## Banner toolbox
 
@@ -56,7 +58,7 @@ _Banner toolbox_
 
 1. When complete, click <span class="btn">Save</span> in the upper-right corner to close the _Edit Banner_ page.
 
-1. In the upper-right corner, click <span class="btn">Save</span>.
+1. In the upper-right corner, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 ## Appearance
 
@@ -255,17 +257,10 @@ You can modify the banner content directly on the stage or when you are changing
    ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-overlay-color.png %}){: .zoom}
    _Overlay Color_
 
-1. In the upper-right corner, click <span class="btn">Save</span> to close the _Edit Banner_ page and return to the Page Builder workspace.
+1. In the upper-right corner, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
    ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-background-color.png %}){: .zoom}
    _Banner with text message and button_
-
-1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
-
-   ![]({% link images/images-ee/page-builder-tutorial1-save-and-close.png %}){: .zoom}
-   _Save Menu_
-
-1. When prompted, click the [Cache Management]({% link system/cache-management.md %}) link in the message at the top of the page. Then refresh any invalid cache.
 
 ## Advanced
 

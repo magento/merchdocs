@@ -3,12 +3,14 @@ ee_only: true
 title: Media - Map
 ---
 
-Use the _Map_ content type in the [Page Builder workspace]({% link cms/page-builder-workspace.md %}) to add a map from [Google Maps Platform][1] to the stage. For example, you might add a map to a block, and then add the block to the [About Us]({% link cms/pages-core.md %}) and [Contact Us]({% link stores/contact-us.md %}) pages.
+Use the _Map_ content type to add a map from [Google Maps Platform][1] to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). For example, you might add a map to a block, and then add the block to the [About Us]({% link cms/pages-core.md %}) and [Contact Us]({% link stores/contact-us.md %}) pages.
 
 To get the most from Google Maps Platform, you can customize the map, highlight your store location(s), and use Google [Places][2] to add rich information about your store to all Google maps.
 
 ![]({% link images/images-ee/page-builder-media-maps-storefront.png %}){: .zoom}
 _Example storefront - map with location_
+
+{% include page-builder-save-timeout.md %}
 
 ## Map toolbox
 
@@ -141,8 +143,6 @@ Depending on whether you already have a Google Maps key, use one of the followin
    ![]({% link images/images-ee/page-builder-media-maps-settings-add-location-grid.png %}){: .zoom}
    _Page Builder - maps location grid_
 
-1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
-
 ## Style the map {#styling}
 
 Use the Google Maps Platform Styling Wizard to apply a one of six predefined themes or create a custom theme. You also can generate a JSON file with the map style properties or a link to the styled map.
@@ -240,9 +240,7 @@ Use the Google Maps Platform Styling Wizard to apply a one of six predefined the
       {:.bs-callout-info}
       Padding is not available for the Map content type.
 
-1. When complete, click <span class="btn">Save</span> in the upper-right corner to close the _Edit Map_ page.
-
-1. In the upper-right corner, click <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 ### Change the grid size
 

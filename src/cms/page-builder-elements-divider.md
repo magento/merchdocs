@@ -3,7 +3,7 @@ ee_only: true
 title: Elements - Divider
 ---
 
-Use the Divider content type to add a rule as a visual break between sections of content on the stage. You can specify the line color, thickness, and width of the divider. You can also control the alignment, set the margins and padding, and format of the container border. By default, the divider is a hairline rule that extends the full width of the container, with allowance for padding.
+Use the _Divider_ content type to add a rule as a visual break between sections of content in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). You can specify the line color, thickness, and width of the divider. You can also control the alignment, set the margins and padding, and format of the container border. By default, the divider is a hairline rule that extends the full width of the container, with allowance for padding.
 
 ![]({% link images/images-ee/page-builder-elements-divider-default.png %}){: .zoom}
 _Default divider in a container without a border_
@@ -12,6 +12,8 @@ Although most divider containers are invisible, the following example displays t
 
 ![]({% link images/images-ee/page-builder-elements-divider-default-border-dashed.png %}){: .zoom}
 _Divider with padding in container with dashed border_
+
+{% include page-builder-save-timeout.md %}
 
 ## Divider toolbox
 
@@ -111,12 +113,10 @@ _Divider with padding in container with dashed border_
       |Margins|The amount of blank space that is applied to the outside edge of all sides of the container. Options: Top / Right / Bottom / Left
       |Padding|The amount of blank space that is applied to the inside edge of all sides of the container. Options: Top / Right / Bottom / Left
 
-1. When complete, click <span class="btn">Save</span> and return to the Page Builder workspace.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
    ![]({% link images/images-ee/page-builder-elements-divider-settings-2px-centered.png %}){: .zoom}
    _Divider centered in a row_
-
-1. In the upper-right corner, click <span class="btn">Save</span> for the page.
 
 ## Duplicate a divider
 
@@ -140,7 +140,5 @@ For a formatted divider with specific settings, it is more efficient to make a d
 
    ![]({% link images/images-ee/page-builder-elements-divider-move-guideline.png %}){: .zoom}
    _Moving the duplicated divider into position_
-
-1. In the upper-right corner of the page, click <span class="btn">Save</span>.
 
 [1]: https://en.wikipedia.org/wiki/Web_colors
