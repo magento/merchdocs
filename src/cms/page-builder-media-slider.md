@@ -329,6 +329,12 @@ You can modify the slide content directly on the stage or when you are changing 
       ![]({% link images/images-ee/page-builder-media-image-settings-image-link-page-results.png %}){: .zoom}
       _Choosing a page to link_
 
+    <div class="bs-callout-info" markdown="1">
+   Starting with Magento 2.4.1, Page Builder no longer supports linking the slide and links within the nested text due to issues with display on the storefront. If you are using a link in the _Message Text_, you cannot configure the _Link_ option. If you prefer to use a single link for the whole slide, you can remove all links from the text.
+
+   ![Link configuration is blocked]({% link images/images-ee/page-builder-nested-link-blocked.png %}){: .zoom}
+   </div>
+
    If you want to prevent the visitor from navigating away from your store, select the **Open in new tab** checkbox. When the checkbox is cleared, the linked destination opens in the same browser tab, which could effectively navigate the visitor away from your store.
 
 1. If needed, add a button to prompt customers to follow the link.
