@@ -6,6 +6,15 @@ link: /getting-started/whats-new.html
 thread: /whatsnew-feed.xml
 updated: Wed Aug 26 12:49:06 2020
 entries:
+- description: Moved Commerce Admin and Connector-related content to the user guide
+    from the OMS Docs site, including the new [Export Full Catalog topic](https://docs.magento.com/user-guide/catalog/export-full-catalog.html),
+    the [Enable message performance logs section](https://docs.magento.com/user-guide/mcom/message-log.html#enable-message-performance-logs)
+    of the Message log topic, and the [View module info section](https://docs.magento.com/user-guide/system/support-system-report.html#view-module-info)
+    of the System Reports topic.
+  versions: 2.4.x
+  type: New topic
+  date: September 14, 2020
+  link: https://github.com/magento/merchdocs/pull/739
 - description: Added missing options in the [Checkout Options](https://docs.magento.com/user-guide/sales/checkout-options.html)
     topic and information about purchase order checkout in [Checkout](https://docs.magento.com/user-guide/sales/checkout-process.html).
   versions: 2.4.x
