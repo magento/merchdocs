@@ -52,11 +52,11 @@ end
 desc 'Generate data for a news digest. Default timeframe is a week since today. For other period, use "since" argument: since="jul 4"'
 task :whatsnew do
   since = ENV['since']
-  print 'Generating data for the weekly digest: $ '.magenta	  current_file = 'src/_data/whats-new.yml'
-  if date.nil? || date.empty?	  generated_file = 'tmp/whats-new.yml'
-    sh 'bin/whatsup_github'	  current_data = YAML.load_file current_file
-  elsif date.is_a? String	  last_update = current_data['updated']
-    sh 'bin/whatsup_github', 'since', ENV['since'].to_s	
+  current_file = 'src/_data/whats-new.yml'
+  generated_file = 'tmp/whats-new.yml'
+  current_data = YAML.load_file current_file
+  last_update = current_data['updated']
+
   print 'Generating data for the What\'s New digest: $ '.magenta
 
   # Generate tmp/whats-new.yml
@@ -64,9 +64,9 @@ task :whatsnew do
     sh 'bin/whatsup_github', 'since', last_update
   elsif since.is_a? String
     sh 'bin/whatsup_github', 'since', since
-  else	  else
-    puts 'The "since" argument must be a string. Example: "jul 4"'	    abort 'The "since" argument must be a string. Example: "jul 4"'
-  end	  end
+  else
+    abort 'The "since" argument must be a string. Example: "jul 4"'
+  end
 
   # Merge generated tmp/whats-new.yml with existing src/_data/whats-new.yml
   generated_data = YAML.load_file generated_file
