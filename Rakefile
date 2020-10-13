@@ -49,7 +49,7 @@ task :index do
   sh 'bin/jekyll algolia --config=_config.yml,_config.index.yml'
 end
 
-desc 'Generate data for a news digest. Default timeframe is a week since today. For other period, use "since" argument: since="jul 4"'
+desc "Generate data for a news digest. Default timeframe is since last update (determined automatically). For a custom date, use the 'since' variable: rake whatsnew since='jul 4'"
 task :whatsnew do
   since = ENV['since']
   current_file = 'src/_data/whats-new.yml'
