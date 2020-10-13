@@ -4,11 +4,12 @@ title: Magento Services
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Services]({% link configuration/services.md %}) > Magento Services
 
-Magento allows you to link your Magento store to a SaaS service through the Admin UI and an API key.
+Some Magento features are deployed as SaaS services, in which case you'll need to connect your Magento to these services in order to use these features. The connection to services is performed via API keys in Magento configuration. 
+
 
 ## Generate an API key {#apikeys}
 
-When you create a [Magento account]({% link magento/magento-account.md %}), identified by a MageID, you can generate a Magento API key to connect to the SaaS services within Magento. To use Magento Commerce SaaS services, such as Product Recommendations, the license-holder must generate the API key. However, if you are a Magento partner, the contract signer generates the API key. Then, the API key can be passed to the systems integrator or development team that manages the SaaS projects and environments on behalf of the license-holder.
+When you create a Magento account, identified by a MageID, you can generate a Magento API key to connect Magento to SaaS services. To use Magento Commerce SaaS services, such as Product Recommendations, the license-holder must generate the API key in order to pass entitlement validation. This API key can then be passed to the systems integrator or development team that manages the SaaS projects and environments on behalf of the license-holder. If you are a Magento solution partner, the contract signer should generate the API key. 
 
 1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/){:target="_blank"}.
 
@@ -19,13 +20,22 @@ When you create a [Magento account]({% link magento/magento-account.md %}), iden
    ![]({% link images/images/get-api-key.png %}){: .zoom}
    _Get API Key_
 
-1. With the API key, you can now [create a SaaS Environment](#createsaasenv).
+## SaaS Environments {#saasenv}
 
-Each MageID can have one SaaS project and within that SaaS project you can have one or more SaaS environments depending on whether or not you have a Magento license:
+A SaaS environment is used to collect and store data that enables Magento services to work. Some of this data may be exported from Magento and some may be collected from shopper behavior on storefront. It is then stored in a secure cloud and not on the Magento server. 
+In the case of Product Recommendations, the SaaS Environment contains catalog and behavioral data. You can point a Magento instance at a concrete SaaS environment by specifying it in the Magento configuration. 
+
+Creating a SaaS project in Magento will generate one or more SaaS environments depending on whether or not you have a Magento license:
 
 - **Magento Commerce** - One production environment; two testing environments
 
 - **Magento Open Source** - One production environment; no testing environments
+
+The production SaaS environments should be reserved for use with only production sites to avoid data collisions.  
+
+SaaS environments are designed to support multiple different websites, identified by their website codes. Data from the same website gets compiled together and separated from data from other websites. This allows you to reuse one SaaS environment by multiple Magento installations, as long as all websites have unique codes specified. Otherwise, you risk overwriting your data for the same website. 
+
+1. With the API key, you can now [create a SaaS Environment](#createsaasenv).
 
 {:.bs-callout-info}
 SaaS projects and environments are separate but analogous concepts to Magento Cloud projects and environments.
