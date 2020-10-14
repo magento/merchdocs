@@ -6,8 +6,8 @@ link: /getting-started/whats-new.html
 thread: /whatsnew-feed.xml
 updated: Tue Oct 13 12:32:01 2020
 entries:
-- description: Updates the Page Builder [Banner](https://docs.magento.com/user-guide/cms/page-builder-media-banner.html#complex-content-in-the-settings)
-    and [Slider](https://docs.magento.com/user-guide/cms/page-builder-media-slider.html#complex-content-in-the-settings) topics for the change to no longer
+- description: Updated the Page Builder [Banner](https://docs.magento.com/user-guide/cms/page-builder-media-banner.html#complex-content-in-the-settings)
+    and [Slider](https://docs.magento.com/user-guide/cms/page-builder-media-slider.html#complex-content-in-the-settings) topics to no longer
     allow links to be added to both the Message Text area and the Link attribute for Banners and Slides.
   versions: 2.4.1
   type: Minor update
@@ -52,16 +52,16 @@ entries:
   type: Minor update
   date: October 15, 2020
   link: https://github.com/magento/merchdocs/pull/748
-- description: "[Customer Configuration - CAPTCHA](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html)
+- description: [Customer Configuration - CAPTCHA](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html)
     has a new option under Forms that displays CAPTCHA in the storefront during checkout
-    for registered customers."
+    for registered customers.
   versions: 2.4.1
   type: Minor update
   date: October 15, 2020
   link: https://github.com/magento/merchdocs/pull/745
-- description: "[Yotpo Reviews](https://docs.magento.com/user-guide/marketing/yotpo-reviews-intro.html#changes-in-the-latest-release)
-    module enhancement to programmatically  adjust when Magento orders are synced
-    to Yotpo."
+- description: [Yotpo Reviews](https://docs.magento.com/user-guide/marketing/yotpo-reviews-intro.html#changes-in-the-latest-release)
+    module enhancement to programmatically adjust when Magento orders are synced
+    to Yotpo.
   versions: 2.4.1
   type: Minor update
   date: October 15, 2020
@@ -78,9 +78,9 @@ entries:
   type: Major update
   date: October 15, 2020
   link: https://github.com/magento/merchdocs/pull/655
-- description: "[Media Gallery Asset Management](https://docs.magento.com/user-guide/cms/media-gallery-asset-management.html)
+- description: [Media Gallery Asset Management](https://docs.magento.com/user-guide/cms/media-gallery-asset-management.html)
     was updated to include expanded asset details, as well as new asset search and
-    image metadata editing."
+    image metadata editing.
   versions: 2.4.1
   type: Major update
   date: October 15, 2020
