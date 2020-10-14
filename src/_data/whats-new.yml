@@ -7,8 +7,8 @@ thread: /whatsnew-feed.xml
 updated: Tue Oct 13 12:32:01 2020
 entries:
 - description: Updated the Page Builder [Banner](https://docs.magento.com/user-guide/cms/page-builder-media-banner.html#complex-content-in-the-settings)
-    and [Slider](https://docs.magento.com/user-guide/cms/page-builder-media-slider.html#complex-content-in-the-settings) topics to no longer
-    allow links to be added to both the Message Text area and the Link attribute for Banners and Slides.
+    and [Slider](https://docs.magento.com/user-guide/cms/page-builder-media-slider.html#complex-content-in-the-settings) topics for the change to no longer
+    allow links from both the _Message Text_ and the _Link_ option for Banners and Slides.
   versions: 2.4.1
   type: Minor update
   date: October 15, 2020
