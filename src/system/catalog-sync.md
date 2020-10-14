@@ -2,20 +2,20 @@
 title: Catalog Sync
 ---
 
-Magento exports catalog data into tables using indexers. This process is automatically [triggered by several events]({% link system/index-management-events.md %}), such as changes to a product's price or inventory levels. Magento then syncs that catalog data to a central storage hub for use by various SaaS services, such as [Product Recommendations]({% link marketing/product-recommendations.md %}). The **Catalog Sync** dashboard allows you to peek into the Magento to SaaS syncing process and view the current status.
+Magento compiles catalog data into tables using indexers. This process is automatically [triggered by several events]({% link system/index-management-events.md %}), such as changes to a product's price or inventory levels. Magento then syncs that catalog data to an endpoint where it can then be used by various SaaS services, such as [Product Recommendations]({% link marketing/product-recommendations.md %}). The **Catalog Sync** dashboard allows you to observe and manage the Magento to SaaS syncing process.
 
 With the **Catalog Sync** dashboard you can:
 
 -  View the sync status (**In Progress**, **Success**, **Failed**)
 -  View the total number of products synced, if successful
--  Search and filter for products to view their update status
+-  Search synced products to view their current state
 -  Search across all store views by name, SKU, and so on
--  View product details in JSON to help diagnose a sync discrepancy
--  Force a resync instead of waiting for the automatic sync each hour
+-  View syned product details in JSON to help diagnose a sync discrepancy
+-  Reinitiate the sync process
 
 ## Accessing the Catalog Sync dashboard
 
-To access the **Catalog Sync** dashboard, select **System** > _Data Transfer_ > **Catalog Sync dashboard**.
+To access the **Catalog Sync** dashboard, select **System** > _Data Transfer_ > **Catalog Sync**.
 
 ### Last sync
 
@@ -30,7 +30,7 @@ If you are not seeing products on your storefront, or if the products do not ref
 
 ### Products synced
 
-Displays the date and time of the last successful sync and the total number of products synced.
+Displays the total number of products synced from your Magento catalog. 
 
 ## Resync {#resync}
 
@@ -45,7 +45,7 @@ If you need to initiate a resync of your catalog before the hourly scheduled syn
 
 1. In the **Force sync** section, click the **Force sync** button.
 
-   Magento syncs your catalog...more details about what actually happens
+   Magento syncs your catalog during the next scheduled sync window...more details about what actually happens
 
 ## Synced catalog products
 
