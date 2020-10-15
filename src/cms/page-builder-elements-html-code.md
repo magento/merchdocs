@@ -3,7 +3,7 @@ ee_only: true
 title: Elements - HTML Code
 ---
 
-Use the HTML Code content type to add snippets of HTML, CSS, and JavaScript code to the stage. For example, you might want to add custom HTML, declare a CSS class that can be applied to an element on the page, or add a snippet of code for a logo, button, or banner that you received from a third-party provider.
+Use the _HTML Code_ content type to add snippets of HTML, CSS, and JavaScript code in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). For example, you might want to add custom HTML, declare a CSS class that can be applied to an element on the page, or add a snippet of code for a logo, button, or banner that you received from a third-party provider.
 
 ## HTML Code toolbox
 
@@ -53,7 +53,7 @@ The following example demonstrates how to embed [Google Font][1] code and declar
 
 1. Find the page where the font is to be available and open it in edit mode.
 
-1. Scroll down  and expand the **Content** section.
+1. Scroll down and expand the **Content** section.
 
 1. In the Page Builder panel, expand **Elements** and drag an **HTML Code** placeholder to a row, column, or tab set on the stage.
 
@@ -73,7 +73,7 @@ The following example demonstrates how to embed [Google Font][1] code and declar
 
 1. Update the remaining settings as needed (see [Change HTML code settings][#html-settings] for details).
 
-1. In the upper-right corner, <span class="btn">Save</span> the settings and return to the Page Builder workspace.
+1. In the upper-right corner, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
    The new font renders when the page is viewed through a browser.
 
