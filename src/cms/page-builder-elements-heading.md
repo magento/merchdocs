@@ -3,7 +3,7 @@ ee_only: true
 title: Elements - Heading
 ---
 
-Heading levels establish a hierarchy that organizes content, and helps search engines index each page. Use the _Heading_ content type in the [Page Builder workspace]({% link cms/page-builder-workspace.md %}) to add a text container with a heading level from H1 to H6 to the stage. Headings are formatted according to the style sheet that is associated with the current theme.
+Heading levels establish a hierarchy that organizes content, and helps search engines index each page. Use the _Heading_ content type in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage) to add a text container with a heading level from H1 to H6 to the stage. Headings are formatted according to the style sheet that is associated with the current theme.
 
 The [Content Heading]({% link cms/page-builder-workspace.md %}) field in the _Content_ section can be used to add an H1 heading to the top of the page. However, the field is a legacy from previous versions of Magento and is provided to support older content. Because this field does not take advantage of Page Builder’s advanced features, we recommend that you leave the Content Heading field blank and use the Page Builder Heading content type to add headings of any level to the page.
 
@@ -13,6 +13,8 @@ The following example shows how the Content Heading and the Heading content type
 _Content Heading and heading Levels on the storefront_
 
 You can drag a heading from the _Elements_ section of the Page Builder panel to a row, column, or tab set on the stage. The heading level and alignment can be controlled from the editor toolbar on the stage, or by using the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %})) control.
+
+{% include page-builder-save-timeout.md %}
 
 ## Heading editor
 
@@ -53,8 +55,6 @@ _Heading container toolbox_
 1. In the toolbar, choose the appropriate heading type between H1 and H6.
 
 1. Change the alignment, if needed.
-
-1. When complete, click <span class="btn">Save</span> in the upper-right corner.
 
 ## Edit header settings
 
@@ -108,9 +108,7 @@ _Heading container toolbox_
       |Margins|The amount of blank space that is applied to the outside edge of all sides of the container. Options: Top / Right / Bottom / Left
       |Padding|The amount of blank space that is applied to the inside edge of all sides of the container. Options: Top / Right / Bottom / Left
 
-1. When complete, click <span class="btn">Save</span> and return to the Page Builder workspace.
-
-1. Click <span class="btn">Save</span> to save the page.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 ## Duplicate a heading
 

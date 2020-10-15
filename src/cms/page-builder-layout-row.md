@@ -3,7 +3,9 @@ ee_only: true
 title: Layout - Row
 ---
 
-Use the _Row_ content type to add a new row in the [Page Builder workspace]({% link cms/page-builder-workspace.md %}). The row is the basic building block of all Page Builder content. Whenever you create new content, the stage is initially populated with a single, blank row.
+Use the _Row_ content type to add a new row in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). The row is the basic building block of all Page Builder content. Whenever you create new content, the stage is initially populated with a single, blank row.
+
+{% include page-builder-save-timeout.md %}
 
 ## Row toolbox
 
@@ -30,12 +32,6 @@ _Row toolbox_
 
    Use the following sections for detailed information about completing the available settings.
 
-1. To preview how the content looks from the storefront, click the _Full Screen_ (![]({% link images/images-ee/icon-pb-fullscreen.png %})) icon at the upper-right corner of the stage.
-
-   You can continue to work in full screen mode or click the Close (![]({% link images/images-ee/icon-pb-close.png %}){: width="20px"}) icon in the upper-right corner to return to the standard Page Builder workspace.
-
-1. When the settings are complete, scroll up to the top of the page and click <span class="btn">Save & Close</span> to return to the Pages grid.
-
    ![]({% link images/images-ee/page-builder-layout-row-add.png %}){: .zoom}
    _Adding a row_
 
@@ -48,9 +44,7 @@ _Row toolbox_
 
 1. Use the following sections for detailed information about updating the available settings.
 
-1. When complete, click <span class="btn">Save</span> in the upper-right corner to close the _Edit Row_ page.
-
-1. In the upper-right corner, click <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 ## Appearance
 

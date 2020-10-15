@@ -3,10 +3,12 @@ ee_only: true
 title: Layout - Column
 ---
 
-Use the _Column_ content type to divide a row into multiple columns. When a column is added to an empty row, the row is initially divided into two columns of equal width. You can add or remove columns, as needed. A column can be resized by dragging the border between two columns. The width of the next column is adjusted to fill the available space in the row. If a row has only a single column, it extends the full width of the row.
+Use the _Column_ content type to divide a row into multiple columns in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). When you add a column to an empty row, the row is initially divided into two columns of equal width. You can add or remove columns, as needed. A column can be resized by dragging the border between two columns. The width of the next column is adjusted to fill the available space in the row. If a row has only a single column, it extends the full width of the row.
 
 ![]({% link images/images-ee/page-builder-layout-column-add-drag-placeholder.png %}){: .zoom}
 _Adding a column_
+
+{% include page-builder-save-timeout.md %}
 
 ## Column toolbox
 
@@ -94,7 +96,7 @@ _Grid divisions on row with two columns_
 
    - In the upper-right corner, click <span class="btn">Save</span> to close the _Edit Column_ page.
 
-1. In the upper-right corner of your page, click <span class="btn">Save</span>.
+1. Click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon in the upper-right corner of the workspace, and then click <span class="btn">Save</span> in the upper-right corner.
 
 ## Change column settings
 
@@ -184,6 +186,4 @@ _Grid divisions on row with two columns_
       |Margins|The amount of blank space that is applied to the outside edge of all sides of the container. Options: Top / Right / Bottom / Left
       |Padding|The amount of blank space that is applied to the inside edge of all sides of the container. Options: Top / Right / Bottom / Left
 
-1. When complete, click <span class="btn">Save</span> in the upper-right corner to close the _Edit Column_ page.
-
-1. In the upper-right corner, click <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.

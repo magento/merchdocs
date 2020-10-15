@@ -6,9 +6,15 @@ Klarna lets your customers choose how they want to pay and supports the purchase
 
 ## Changes in the latest release
 
-### New features
+- {:.fix}Features
 
-- Added support for On-Site Messaging
+   - GraphQl module for Klarna Payments supports PWA integrations
+
+- {:.fix}Enhancements
+
+   - Onsite Messaging checking when Design theme field is empty
+
+   - Addresses merchant API credential errors
 
 ## Klarna payment methods
 
