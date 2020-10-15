@@ -3,10 +3,12 @@ ee_only: true
 title: Elements - Buttons
 ---
 
-Use the Buttons content type to add either an individual button or a set of buttons to the stage. Buttons can be arranged horizontally or vertically, and added directly to rows, columns, tabs, and banners on the stage.
+Use the _Buttons_ content type to add either an individual button or a set of buttons in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). You can arrange buttons horizontally or vertically, and add them directly to rows, columns, tabs, and banners on the stage.
 
 ![]({% link images/images-ee/page-builder-storefont-banner-with-button.png %}){: .zoom}
 _Banner with a button on the storefront_
+
+{% include page-builder-save-timeout.md %}
 
 ## Toolboxes
 
@@ -93,9 +95,7 @@ _Buttons container toolbox_
 
 1. Complete the [advanced settings][advanced-settings] as needed.
 
-1. When complete, click <span class="btn">Save</span> in the upper-right corner to close the _Edit Button_ page.
-
-1. In the upper-right corner, click <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span> in the upper-right corner to apply the settings and return to the Page Builder workspace.
 
 ## Add a set of buttons
 
@@ -126,7 +126,7 @@ The following sections describe a series of steps to start with an individual bu
 
 1. Complete the [advanced settings][advanced-settings] as needed.
 
-1. When complete, click <span class="btn">Save</span> to close the _Edit Button_ page.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 ### Step 2: Create the third button
 
@@ -144,7 +144,7 @@ The following sections describe a series of steps to start with an individual bu
 
 1. Update the **Button Link** as needed.
 
-1. In the upper-right corner, click <span class="btn">Save</span> to close the _Edit Button_ page and return to the Page Builder workspace.
+1. In the upper-right corner, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 ### Step 3: Update the button container
 
@@ -162,14 +162,12 @@ The following sections describe a series of steps to start with an individual bu
 
 1. Update the remaining settings as needed, using the descriptions from [Change settings for a button container][button-container].
 
-1. When complete, click <span class="btn">Save</span> to close the _Edit Buttons_ page and return to the Page Builder workspace.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
    The complete stacked button set appears on the stage, with one primary button and two secondary buttons.
 
    ![]({% link images/images-ee/page-builder-elements-buttons-stacked.png %}){: .zoom}
    _Stacked buttons on the stage_
-
-1. In the upper-right corner, click <span class="btn">Save</span>.
 
 ## Move a button
 
@@ -225,7 +223,7 @@ The following sections describe a series of steps to start with an individual bu
 
 1. Complete the [Advanced settings][advanced-settings] as needed.
 
-1. When complete, click <span class="btn">Save</span> to close the _Edit Buttons_ page and return to the Page Builder workspace.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 ## Change advanced settings
 

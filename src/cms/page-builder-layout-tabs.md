@@ -3,10 +3,12 @@ ee_only: true
 title: Layout - Tabs
 ---
 
-Use the _Tabs_ content type to add a set of tabs in the [Page Builder workspace]({% link cms/page-builder-workspace.md %}). When the Tabs placeholder is dragged from the panel to the stage, a single default tab initially appears. You can add more tabs as needed to create a full set. The width of the tab set is determined by the width of its parent container and padding settings.
+Use the _Tabs_ content type to add a set of tabs in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). When you drag the Tabs placeholder from the panel to the stage, a single default tab initially appears. You can add more tabs as needed to create a full set. The width of the tab set is determined by the width of its parent container and padding settings.
 
 ![]({% link images/images-ee/page-builder-layout-tab-example.png %}){: .zoom}
 _Set of tabs_
+
+{% include page-builder-save-timeout.md %}
 
 ## Toolboxes
 
@@ -65,7 +67,7 @@ _Tab container toolbox_
    - [Background][background]
    - [Advanced][advanced]
 
-1. In the upper-right corner, click <span class="btn">Save</span>.
+1. In the upper-right corner, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 ## Add a set of tabs
 
@@ -119,9 +121,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
 1. Change the other settings as needed using the the following sections for details.
 
-1. When complete, click <span class="btn">Save</span> in the upper-right corner to close the _Edit Tab_ page.
-
-1. In the upper-right corner, click <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 ### Background
 
@@ -233,7 +233,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
 1. Enter the **Minimum Height**, in pixels, if you want to override the automatic height for the tab set.
 
-1. Choose the **Vertical Alignment** to position the navigation tabs along the top of the tab set. Options: Left / Center /Right
+1. Choose the **Tab Navigation Alignment** to position the navigation tabs along the top of the tab set (Left, Center, or Right).
 
    ![]({% link images/images-ee/page-builder-layout-tabs-navigation-alignment-right.png %}){: .zoom}
    _Right-aligned navigation tabs_
@@ -279,9 +279,7 @@ You can any content type to a tab just as you can to a row. Use the following st
       |Margins|The amount of blank space that is applied to the outside edge of all sides of the container. Options: Top / Right / Bottom / Left
       |Padding|The amount of blank space that is applied to the inside edge of all sides of the container. Options: Top / Right / Bottom / Left
 
-1. When complete, click <span class="btn">Save</span> in the upper-right corner to close the _Edit Tabs_ page.
-
-1. In the upper-right corner, click <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 [background]: #background
 [advanced]: #advanced

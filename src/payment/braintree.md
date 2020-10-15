@@ -2,16 +2,21 @@
 title: Braintree
 ---
 
-{:.bs-callout-warning}
-**Magento 2.4 Migration:**<br />
-Prior to Magento 2.4.0, it was recommended that merchants install and configure the official Braintree payment integration extension from the [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree) to replace the core integration. As of Magento 2.4.0, the extension is now included in the Magento release.<br/><br/>
-When migrating to Magento 2.4 merchants will need to uninstall the extension distributed on the Marketplace (`paypal/module-braintree` or `gene/module-braintree`) and update any code customizations to use the `PayPal_Braintree` namespace instead of `Magento_Braintree`. Configuration settings from the core Magento Braintree Payments bundled extension and the extension distributed on the Magento Marketplace will be persisted and payments placed with those versions of the extension can still be captured, voided, or refunded as normal.<br /><br />
-If you are upgrading to Magento 2.4.0 and were not using the recommended Magento Marketplace extension in your previous 2.3.x version, the multi address feature will not work with the 2.4.0 version of Braintree. When a shopper selects the _deliver to multiple addresses_ option, the Braintree payment method will not appear. Be aware that the Magento Marketplace Extension previously recommended for 2.3.x has this multiple address issue.
-
 Braintree offers a fully customizable checkout experience with fraud detection and PayPal integration. Braintree reduces the PCI compliance burden for merchants because the transaction takes place on the Braintree system.
 
-![Configure Braintree]({% link images/images/config-sales-payment-methods-braintree.png %}){: .zoom}
-_Configure Braintree_
+If you are upgrading to 2.4.x from an earlier version of Magento with the Braintree extension from Magento Marketplace installed, see the [Magento 2.4 Migration Notes](#migration) at the end of this topic.
+
+## Changes in the latest release
+
+- {:.fix}Features
+
+   - Support for multi-address shipping
+
+- {:.fix}Enhancements
+
+   - Updated JavaScript SDKs to 3.63.0
+
+   - Updated PHP SDKs to 5.2.0
 
 ## Step 1: Get your Braintree credentials
 
@@ -24,6 +29,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
    - If your Magento installation has multiple websites, stores or views, in the upper-left corner, choose the **Store View** where the configuration applies.
+
    - In the _Merchant Location_ section, verify that **Merchant Country** is set to the location of your business.
 
 1. Under Recommended Solutions, in the **Braintree** section, click <span class="btn">Configure</span> and do the following:
@@ -43,7 +49,7 @@ Go to [Braintree Payments][1] and sign up for an account.
    - Set **Payment Action** to one of the following:
 
      | **Authorize Only** | Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer’s bank account until the sale is “captured” by the merchant.|
-     | **Intent Sale** | The amount of the purchase is authorized and immediately withdrawn from the customer’s account. **_Note:_** This was  _Authorize and Capture_ in 2.3.x and earlier releases. |
+     | **Intent Sale** | The amount of the purchase is authorized and immediately withdrawn from the customer’s account. **_Note:_** This was  _Authorize and Capture_ in 2.3.x and earlier releases.|
 
    - Enter the **Merchant ID** from your Braintree account.
 
@@ -96,7 +102,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 1. Set **Payment from Applicable Countries** to one of the following:
 
    |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
-   |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
+   |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store.|
 
    ![Country-Specific Settings]({% link images/images/config-sales-payment-methods-braintree-country-specific-settings.png %}){: .zoom}
    _Country-Specific Settings_
@@ -171,11 +177,16 @@ The following descriptors are used to identify purchases on customer credit card
 
 1. Enter the Dynamic Descriptor for the **Name**, **Phone**, and **URL** according to these guidelines:
 
-    | **Name** | There are two parts to the Name descriptor, which are separated by an asterisk (*). For example:<br/>`company*myproduct`<br/><br/>The first part of the descriptor identifies the company or DBA, and the second part identifies the product. The length of the Company  and Product parts of the descriptor can be allocated in the following ways, for a combined length of up to twenty-two characters.<br/><br/>**Characters in Name Descriptor**<br/><br/>Option 1: Company must be 3 characters, Product may be up to 18 characters<br/><br/>Option 2: Company must be 7 characters, Product may be up to 14 characters<br/><br/>Option 3: Company must be 12 characters, Product may be up to 9 characters |
+    | **Name** | There are two parts to the Name descriptor, which are separated by an asterisk (*). For example:<br/>`company*myproduct`<br/><br/>The first part of the descriptor identifies the company or DBA, and the second part identifies the product. The length of the Company  and Product parts of the descriptor can be allocated in the following ways, for a combined length of up to twenty-two characters.<br/><br/>**Characters in Name Descriptor**<br/><br/>Option 1: Company must be 3 characters, Product may be up to 18 characters<br/><br/>Option 2: Company must be 7 characters, Product may be up to 14 characters<br/><br/>Option 3: Company must be 12 characters, Product may be up to 9 characters|
     | **Phone** | The Phone descriptor must be ten to fourteen characters in length, and can include only numbers, dashes, parentheses, and periods. For example:<br/> `9999999999`<br/> `(999) 999-9999`<br/> `999.999.9999`|
-    | **URL** | The URL descriptor represents your domain name, and can be up to thirteen characters long. For example: <br/>`company.com` |
+    | **URL** | The URL descriptor represents your domain name, and can be up to thirteen characters long. For example: <br/>`company.com`|
 
 1. When your Braintree configuration is complete, click <span class="btn">Save Config</span>.
+
+{:.bs-callout-warning}
+**<a name="migration">Magento 2.4 Migration Notes:</a>**<br />
+Before the release of Magento 2.4.0, we recommended that merchants replace the core Magento Braintree integration with the official Braintree extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). Beginning with Magento 2.4.0, the Braintree extension is included in the release.<br/><br/>
+If you are migrating to Magento 2.4.x from a pre-2.4.0 version that has the Marketplace Braintree extension installed, you must uninstall the Marketplace Braintree extension (`paypal/module-braintree` or `gene/module-braintree`) and update any code customizations to use the `PayPal_Braintree` namespace instead of `Magento_Braintree`. Configuration settings from the core Magento Braintree Payments bundled extension and the extension distributed on Magento Marketplace will persist and payments placed with those previous versions of the extension can still be captured, voided, or refunded as normal.<br />
 
 [1]: https://www.braintreepayments.com/
 [2]: https://developers.braintreepayments.com/reference/general/testing/php

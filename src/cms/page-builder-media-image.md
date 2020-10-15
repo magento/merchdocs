@@ -3,13 +3,12 @@ ee_only: true
 title: Media - Image
 ---
 
-Use the _Image_ content type in the [Page Builder workspace]({% link cms/page-builder-workspace.md %}) to add a JPG, GIF, or PNG image to the stage. In addition to the default desktop image, you can specify a secondary image for mobile devices. You can also add a caption that appears below the image and link the image to any URL, product, category, or page.
+Use the _Image_ content type to add a JPG, GIF, or PNG image to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). In addition to the default desktop image, you can specify a secondary image for mobile devices. You can also add a caption that appears below the image and link the image to any URL, product, category, or page.
 
 {:.bs-callout-tip}
 You can use the [Adobe Stock Integration]({% link cms/adobe-stock.md %}) to find and save an appropriate asset from among the millions provided by [Adobe Stock](https://stock.adobe.com). See [Using Adobe Stock Images]({% link cms/adobe-stock-manage.md %}) for details about how to search, refine, and save Adobe Stock assets into your gallery.
 
-![]({% link images/images-ee/page-builder-media-image-column1-giftcard.png %}){: .zoom}
-_Image in a column_
+{% include page-builder-save-timeout.md %}
 
 ## Image toolbox
 
@@ -84,7 +83,7 @@ _Image toolbox_
    {:.bs-callout-info}
    The [Banner]({% link cms/page-builder-media-banner.md %}) and [Slider]({% link cms/page-builder-media-slider.md %}) content types also include _Upload Image_ and _Select from Gallery_ options for adding images.
 
-   ![]({% link images/images-ee/page-builder-media-image-giftcard-column.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-media-image-column1-giftcard.png %}){: .zoom}
    _Image in a column_
 
 ## Change image settings
@@ -172,9 +171,7 @@ _Image toolbox_
    - [Search Engine Optimization](#search-engine-optimization)
    - [Advanced](#advanced)
 
-1. When complete, click <span class="btn">Save</span> in the upper-right corner to close the _Edit Image_ page.
-
-1. In the upper-right corner, click <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 ## Move an image
 
