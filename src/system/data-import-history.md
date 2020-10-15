@@ -3,7 +3,7 @@ title: Import History
 ---
 
 Maintains a record of data that has been imported into your store, including the start date and time, user, execution time, and a link to the imported file.
-Note that "Execution Time" is the duration of the import process.
+The _Execution Time_ is the duration of the import process.
 
 ## View the Import History
 
