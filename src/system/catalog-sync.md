@@ -2,20 +2,20 @@
 title: Catalog Sync
 ---
 
-Magento exports catalog data into tables using indexers. This process is automatically [triggered by several events]({% link system/index-management-events.md %}), such as changes to a product's price or inventory levels. Magento then syncs that catalog data to a central storage hub for use by various SaaS services, such as [Product Recommendations]({% link marketing/product-recommendations.md %}). The **Catalog Sync** dashboard allows you to peek into the Magento to SaaS syncing process and view the current status.
+Magento compiles catalog data into tables using indexers. This process is automatically [triggered by several events]({% link system/index-management-events.md %}), such as changes to a product's price or inventory levels. To allow some Magento services to use that catalog data, a catalog sync process runs hourly. The catalog sync process exports product data from the Magento server to SaaS services on an ongoing basis. For example, the [Product Recommendations]({% link marketing/product-recommendations.md %}) feature needs up-to-date catalog information so that it can accurately return recommendations with correct names, pricing, and availability. The **Catalog Sync** dashboard allows you to observe and manage the Magento to SaaS syncing process.
 
 With the **Catalog Sync** dashboard you can:
 
 -  View the sync status (**In Progress**, **Success**, **Failed**)
 -  View the total number of products synced, if successful
--  Search and filter for products to view their update status
--  Search across all store views by name, SKU, and so on
--  View product details in JSON to help diagnose a sync discrepancy
--  Force a resync instead of waiting for the automatic sync each hour
+-  Search synced products to view their current state
+-  Search store catalog by name, SKU, and so on
+-  View syned product details in JSON to help diagnose a sync discrepancy
+-  Reinitiate the sync process
 
 ## Accessing the Catalog Sync dashboard
 
-To access the **Catalog Sync** dashboard, select **System** > _Data Transfer_ > **Catalog Sync dashboard**.
+To access the **Catalog Sync** dashboard, select **System** > _Data Transfer_ > **Catalog Sync**.
 
 ### Last sync
 
@@ -23,14 +23,14 @@ Reports a sync status of:
 
 -  **Success** - Displays the date and time the sync was successful and the number of products updated
 -  **Failure** - Displays the date and time the sync was attempted
--  **In Progress** - Displays the date and time the sync started
+-  **In Progress** - Displays the date and time of the last successful sync
 
 {:.bs-callout-info}
-If you are not seeing products on your storefront, or if the products do not reflect recent changes you made, learn how to resolve [catalog sync issues](#resolvesync).
+The catalog sync process automatically runs every hour. However, if you are not seeing products on your storefront, or if the products do not reflect recent changes you made, learn how to resolve [catalog sync issues](#resolvesync).
 
 ### Products synced
 
-Displays the date and time of the last successful sync and the total number of products synced.
+Displays the total number of products synced from your Magento catalog. After the initial sync, you should expect only changed products to be synced.
 
 ## Resync {#resync}
 
@@ -43,9 +43,9 @@ If you need to initiate a resync of your catalog before the hourly scheduled syn
 
    The **Catalog Sync Settings** page appears.
 
-1. In the **Force sync** section, click the **Force sync** button.
+1. In the **Resync** section, click the **Resync** button.
 
-   Magento syncs your catalog...more details about what actually happens. Note the button will be disabled for 15 minutes so you can't clog resources...more explanation needed.
+   Magento syncs your catalog during the next scheduled sync window. Depending on the size of your catalog, this operation can take a long time.
 
 ## Synced catalog products
 
@@ -58,12 +58,12 @@ Name | Storefront name of the product
 Type | Identifies the product type, such as simple, configurable, downloadable, and so on
 Last Exported | Date the product was last successfully exported from your catalog
 Last Modified | Date the product was last modified in your catalog
-Attribute Set | 
-SKU |
-Price |
-Quantity | 
-Salable Quantity | 
-Visibility | Indicates if it's browsable via the catalog or accessible via search
+Attribute Set | Specifies the [attribute set]({% link stores/attribute-sets.md %}) for this product
+SKU | Displays the stock keeping unit for the product
+Price | Price of the product
+Quantity | Identifies the on-hand, available stock amount
+Salable Quantity | Reflects the salable quantity for a stock
+Visibility | A product's visibility setting as defined in the Magento catalog
 
 ## Resolve catalog sync issues {#resolvesync}
 
