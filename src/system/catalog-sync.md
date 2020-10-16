@@ -43,7 +43,7 @@ If you need to initiate a resync of your catalog before the hourly scheduled syn
 
    The **Catalog Sync Settings** page appears.
 
-1. In the **Resync** section, click the **Resync** button.
+1. In the **Resync Data** section, click the **Resync** button.
 
    Magento syncs your catalog during the next scheduled sync window. Depending on the size of your catalog, this operation can take a long time.
 
