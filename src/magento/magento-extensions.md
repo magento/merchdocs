@@ -6,30 +6,31 @@ This section provides installation instructions and information for extensions d
 
 ## Inventory Management
 
-Magento [Inventory Management]({% link catalog/inventory-management.md %}) provides enhanced stock and shipment management  across one or multiple locations and sales channels with concurrent checkout protection and shipment matching algorithms.  Track your inventory quantities, provide accurate salable stock amounts to customers, and ship according to recommendations or manual selections to control your entire inventory. Configure management settings globally, per source, and per product.
+Magento [Inventory Management]({% link catalog/inventory-management.md %}) provides enhanced stock and shipment management  across one or multiple locations and sales channels with concurrent checkout protection and shipment matching algorithms. Track your inventory quantities, provide accurate salable stock amounts to customers, and ship according to recommendations or manual selections to control your entire inventory. Configure management settings globally, per source, and per product.
 
-For technical, developer, and extension development information, see Magento DevDocs:
+For technical, developer, and extension development information, see our developer documentation:
 
 - [Inventory Architecture](https://devdocs.magento.com/guides/v2.3/inventory/index.html)
 - [Order Processing with Inventory Management](https://devdocs.magento.com/guides/v2.3/rest/tutorials/inventory/index.html) tutorial
 - REST API content, starting with [Managing sources](https://devdocs.magento.com/guides/v2.3/rest/modules/inventory/manage-sources.html)
 
-{:.bs-callout-info}
-**Magento Community Contribution** - Magento thanks all [Contributors and Maintainers](https://github.com/magento-engcom/msi/graphs/contributors) in the [Magento Inventory](https://github.com/magento/inventory) (was MSI) special project for contributing these features as part of the Magento Community Engineering program.
-
-## [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %})
-
-Google reCAPTCHA ensures that a human being, rather than a computer, is interacting with your site. Enable and configure reCAPTCHA using invisible or interactive checks to enhance secure access to the Magento Admin and storefront.
+Inventory Management installs with all features enabled by default. No additional steps are required for enabling these inventory features.
 
 {:.bs-callout-info}
-**Magento Community Contribution** - Magento thanks [Riccardo Tempesta](https://twitter.com/rictempesta) of [MageSpecialist](https://partners.magento.com/portal/details/partner/id/129/) for contributing these features as part of the Magento Community Engineering program.
+These features and extensions were developed as part of the [Magento Inventory](https://github.com/magento/inventory) (formerly MSI) project through the Magento Community Engineering program.
+
+## Google reCAPTCHA
+
+Google reCAPTCHA provides a greater level of security for both the storefront and Admin UI than is available with standard CAPTCHA, and gives you the ability to:
+
+- Verify when customers create accounts, retrieve passwords, log in to their accounts, or contact your company.
+- Enhance security when Admin users log in.
+
+It reduces potential user error when entering a Captcha code and encourages cart conversion without adding hurdles during checkout. [Enable and configure reCAPTCHA]({% link stores/security-google-recaptcha.md %}) using invisible or interactive checks to enhance secure access to the Magento Admin and storefront.
 
 ## Two-Factor Authentication
 
-The Magento Admin provides all access to your store, orders, and customer data. To further increase security to your Magento instance, Magento Two-Factor Authentication (2FA) adds support for [two-step authentication]({% link stores/security-two-factor-authentication.md %}) for multiple providers.
-
-{:.bs-callout-info}
-**Magento Community Contribution** - Magento thanks [Riccardo Tempesta](https://twitter.com/rictempesta) of [MageSpecialist](https://partners.magento.com/portal/details/partner/id/129/) for contributing these features as part of the Magento Community Engineering program.
+The Magento Admin provides all access to your store, orders, and customer data. Magento Two-Factor Authentication (2FA or TFA) improves security by requiring [two-step authentication]({% link stores/security-two-factor-authentication.md %}) to access the Magento Admin from all devices. The extension supports multiple authenticators including Google Authenticator, Authy, Duo, and U2F keys. This applies to Magento Admin users only. It is not available for storefront customer accounts.
 
 ## Amazon Sales Channel
 
