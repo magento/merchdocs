@@ -4,8 +4,96 @@ description:
   We exclude from this list proofreading, spelling checks, and insignificant updates.
 link: /getting-started/whats-new.html
 thread: /whatsnew-feed.xml
-updated: Wed Aug 26 12:49:06 2020
+updated: Tue Oct 13 12:32:01 2020
 entries:
+- description: Updated the Page Builder [Banner](https://docs.magento.com/user-guide/cms/page-builder-media-banner.html#complex-content-in-the-settings)
+    and [Slider](https://docs.magento.com/user-guide/cms/page-builder-media-slider.html#complex-content-in-the-settings) topics for the change to no longer
+    allow links from both the _Message Text_ and the _Link_ option for Banners and Slides.
+  versions: 2.4.1
+  type: Minor update
+  date: October 15, 2020
+  link: https://github.com/magento/merchdocs/pull/799
+- description: Updates across Page Builder topics to reflect [workspace](https://docs.magento.com/user-guide/cms/page-builder-workspace.html)
+    changes for editing in full-screen mode only.
+  versions: 2.4.1
+  type: Major update
+  date: October 15, 2020
+  link: https://github.com/magento/merchdocs/pull/787
+- description: Updated information in the [Page Builder tutorials](https://docs.magento.com/user-guide/cms/page-builder-learn.html)
+    for changes in the Page Builder workspace UI.
+  versions: 2.4.1
+  type: Major update
+  date: October 15, 2020
+  link: https://github.com/magento/merchdocs/pull/779
+- description: Updated information for [product content](https://docs.magento.com/user-guide/catalog/product-content.html)
+    and [category content](https://docs.magento.com/user-guide/catalog/categories-content-settings.html)
+    for Page Builder preview support. Updated the [Advanced Content Tools](https://docs.magento.com/user-guide/configuration/general/content-management.html#advanced-content-tools)
+    configuration to include the new _Enable Page Builder Content Preview_ setting.
+  versions: 2.4.1
+  type: Major update
+  date: October 15, 2020
+  link: https://github.com/magento/merchdocs/pull/770
+- description: Added information about the new _Enable Clear Shopping Cart_ setting
+    in the [Shopping Cart configuration](https://docs.magento.com/user-guide/configuration/sales/checkout.html#shopping-cart).
+  versions: 2.4.1
+  type: Minor update
+  date: October 15, 2020
+  link: https://github.com/magento/merchdocs/pull/759
+- description: Added a new section in the [B2B Features configuration reference](https://docs.magento.com/user-guide/configuration/general/b2b-features.html)
+    for the Default B2B Shipping Methods.<br/>Updates to [Creating a Company Account](https://docs.magento.com/user-guide/customers/account-company-create.html)
+    for shipping methods configured for the account from the Admin.
+  versions: 2.4.1
+  type: Major update
+  date: October 15, 2020
+  link: https://github.com/magento/merchdocs/pull/758
+- description: Enhanced [Security Scan](https://docs.magento.com/user-guide/magento/security-scan.html) runs over 17,000 tests to monitor your sites
+    for potential risks, with real-time and historical reports and notifications.
+  versions: 2.4.1
+  type: Minor update
+  date: October 15, 2020
+  link: https://github.com/magento/merchdocs/pull/748
+- description: The [Customer Configuration - CAPTCHA](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html)
+    has a new option under Forms that displays CAPTCHA in the storefront during checkout for registered customers.
+  versions: 2.4.1
+  type: Minor update
+  date: October 15, 2020
+  link: https://github.com/magento/merchdocs/pull/745
+- description: The [Yotpo Reviews](https://docs.magento.com/user-guide/marketing/yotpo-reviews-intro.html#changes-in-the-latest-release)
+    module includes an enhancement to programmatically adjust when Magento orders are synced to Yotpo.
+  versions: 2.4.1
+  type: Minor update
+  date: October 15, 2020
+  link: https://github.com/magento/merchdocs/pull/719
+- description: The [Site-Wide Analysis Tool](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html)
+    (SWAT) provides 24/7 real-time performance monitoring, reports and recommendations
+    to ensure the security and operability of Magento Commerce Cloud installations.
+  versions: 2.4.1
+  type: New topic
+  date: October 15, 2020
+  link: https://github.com/magento/merchdocs/pull/681
+- description: Added the "Add from Cart" method to [My Requisition Lists](https://docs.magento.com/user-guide/customers/account-dashboard-requisition-lists.html).
+  versions: 2.4.1
+  type: Major update
+  date: October 15, 2020
+  link: https://github.com/magento/merchdocs/pull/655
+- description: Updated the [Media Gallery Asset Management](https://docs.magento.com/user-guide/cms/media-gallery-asset-management.html) topic
+    to include expanded asset details, as well as new asset search and image metadata editing.
+  versions: 2.4.1
+  type: Major update
+  date: October 15, 2020
+  link: https://github.com/magento/merchdocs/pull/649
+- description: New information added to [Media Gallery Asset Management](https://docs.magento.com/user-guide/cms/media-gallery-asset-management.html)
+    for filtering assets and finding duplicates.
+  versions: 2.4.1
+  type: Major update
+  date: October 15, 2020
+  link: https://github.com/magento/merchdocs/pull/634
+- description: Updated to include [Delete Assets](https://docs.magento.com/user-guide/cms/media-gallery-asset-management.html#delete-assets)
+    in the Media Gallery to select multiple assets to be deleted.
+  versions: 2.4.1
+  type: Minor update
+  date: October 15, 2020
+  link: https://github.com/magento/merchdocs/pull/626
 - description: Moved Commerce Admin and Connector-related content to the user guide
     from the OMS Docs site, including the new [Export Full Catalog topic](https://docs.magento.com/user-guide/catalog/export-full-catalog.html),
     the [Enable message performance logs section](https://docs.magento.com/user-guide/mcom/message-log.html#enable-message-performance-logs)

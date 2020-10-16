@@ -3,10 +3,12 @@ ee_only: true
 title: Add Content - Dynamic Block
 ---
 
-Use the Dynamic Block content type to add an existing [dynamic block]({% link cms/dynamic-blocks.md %}) to the Page Builder stage.
+Use the Dynamic Block content type to add an existing [dynamic block]({% link cms/dynamic-blocks.md %}) to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage).
 
 ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-storefront.png %}){: .zoom}
 _Dynamic block on the storefront_
+
+{% include page-builder-save-timeout.md %}
 
 ## Dynamic Block toolbox
 
@@ -25,7 +27,7 @@ _Dynamic block on the storefront_
 
 1. In the Page Builder panel, expand **Add Content** and drag a **Dynamic Block** placeholder to the stage.
 
-   []({% link images/images-ee/page-builder-dynamic-block-drag.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-dynamic-block-drag.png %}){: .zoom}
    _Dragging a dynamic block placeholder to the stage_
 
 1. Hover over the empty dynamic block container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
@@ -58,9 +60,7 @@ _Dynamic block on the storefront_
 
 1. Complete the Advanced settings as needed.
 
-1. When complete, click <span class="btn">Save</span> to return to the Page Builder workspace.
-
-1. In the upper-right corner, click <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 ### Advanced Settings
 
@@ -121,9 +121,7 @@ _Dynamic block on the storefront_
 
 1. Update the remaining settings as needed.
 
-1. When complete, click <span class="btn">Save</span> to return to the Page Builder workspace.
-
-1. In the upper-right corner, click <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 ## Duplicate a dynamic block
 
