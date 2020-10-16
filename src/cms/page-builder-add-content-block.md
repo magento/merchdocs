@@ -3,16 +3,18 @@ ee_only: true
 title: Add Content - Block
 ---
 
-Use the Block content type to add an existing, active block to the stage. In the following example, the first column contains the HTML Code for the page. The second column contains a block with a Google map.
+Use the _Block_ content type to add an existing, active [block]({% link cms/blocks.md %}) to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). In the following example, the first column contains the block with a side menu for the page. The second column contains an image.
 
-![]({% link images/images-ee/page-builder-add-content-block-map-about-us.png %}){: .zoom}
-_Block with map on the sample About Us Page_
+![]({% link images/images-ee/page-builder-add-content-block-example.png %}){: .zoom}
+_Block with a side menu_
+
+{% include page-builder-save-timeout.md %}
 
 ## Block toolbox
 
 | Tool      | Icon     | Description   |
 | --------- | -------- | ------------- |
-| Move      | ![]({% link images/images-ee/icon-pb-move.png %}) | Moves the block container and its content to another position on the stage.                            |
+| Move      | ![]({% link images/images-ee/icon-pb-move.png %}) | Moves the block container and its content to another position on the stage. |
 | Settings  | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the Edit Block page, where you can choose the block, and change the properties of the container. |
 | Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})  | Hides the current block container and its content. |
 | Show      | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the  hidden block container and its content. |
@@ -47,9 +49,7 @@ _Block with map on the sample About Us Page_
 
 1. Complete the remaining settings as needed, using the field descriptions at the end of this page for reference.
 
-1. When complete, click <span class="btn">Save</span> to return to the Page Builder workspace.
-
-1. On the **Save** menu in the upper-right corner, click **Save**.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 ### Advanced Settings
 
@@ -106,9 +106,7 @@ _Block with map on the sample About Us Page_
 
 1. Update the remaining settings as needed, using the field descriptions at the end of this page for reference.
 
-1. When complete, click <span class="btn">Save</span> to return to the Page Builder workspace.
-
-1. In the upper-right corner, click <span class="btn">Save</span>.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 ## Duplicate a block
 

@@ -2,7 +2,7 @@
 title: My Purchase Orders
 ---
 
-When Purchase Orders are enabled for a company, all orders are automatically created as Purchase Orders (PO). Company users with purchase order permissions can create, edit, and delete POs that they create, as well as POs created by subordinate users.
+When Purchase Orders are enabled for a company, all orders are automatically created as Purchase Orders (PO). Company users with the required permissions can create, edit, and delete POs that they create, as well as POs created by subordinate users.
 
 While logged into the store, click **My Purchase Orders** in left panel.
 
@@ -25,6 +25,17 @@ Purchase Orders create a _snapshot_ of item prices, discounts, and shipping pric
 
 {:.bs-callout-warning}
 If an item in a purchase order is out-of-stock, or has insufficient quantity available, when the purchase order is converted into an actual order, an error will occur. If backorders are enabled, the order will be processed normally.
+
+## Bulk approval/rejection
+
+Starting with Magneto 2.4.1, approvers can approve or reject multiple purchase orders at one time.
+
+1. On the _My Purchase Order_ page, click the **Requires My Approval** tab.
+1. Select the checkbox for each purchase order you want to approve or reject.
+1. Click <span class="btn">Approve Selected</span> or <span class="btn">Reject Selected</span>.
+
+You can select only the purchase orders with a current status that allows you can take an action.
+Company Administrators can make bulk approvals or rejections for any active purchase orders in their company.
 
 ## Create a new purchase order from existing purchase order
 

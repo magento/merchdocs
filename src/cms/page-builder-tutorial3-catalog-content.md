@@ -8,24 +8,22 @@ In this tutorial, you will learn how easy it is to add a product list to a page,
 ![]({% link images/images-ee/page-builder-add-content-products-list.png %}){: .zoom}
 _Product list_
 
-This tutorial assumes that you have completed [Tutorial 1: Simple Page]({% link cms/page-builder-tutorial1-simple-page.md %}) and [Tutorial 2: Blocks]({% link cms/page-builder-tutorial2-blocks.md %}), including the prerequisites and downloaded sample files.
+This tutorial assumes that you have completed [Tutorial 1: Simple Page]({% link cms/page-builder-tutorial1-simple-page.md %}) and [Tutorial 2: Blocks]({% link cms/page-builder-tutorial2-blocks.md %}), including the prerequisites and downloaded sample files. Follow parts 1, 2, and 3 of this tutorial in order.
 
-Follow parts 1, 2, and 3 of this tutorial in order.
+{:.bs-callout-info}
+This tutorial is updated to reflect recent changes to the Page Builder workspace in Magento 2.4.1. If you are using an earlier Magento Commerce release, use the Page Builder tutorials included in the [Magento 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
 
-## PART 1: Add a product list
+## Part 1: Add a product list
 
 Page Builder makes it easy to add a product list to the stage. In this example, the product list is added directly to a page.
 
-### Step 1: Add a Product List
+### Step 1: Add a product list to the stage
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Pages**.
 
-1. Find the **Simple Page** that you created in the first tutorial and open it in edit mode.
+1. Find the _Simple Page_ that you created in the first tutorial and modified in the second, and select **Edit** in the _Action_ column.
 
-1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
-
-   ![]({% link images/images-ee/page-builder-product-workspace.png %}){: .zoom}
-   _Content stage_
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and click <span class="btn">Edit with Page Builder</span> or inside the content preview area.
 
 1. In the Page Builder panel under _Layout_, drag a **Row** to the top of the stage.
 
@@ -78,8 +76,12 @@ Page Builder makes it easy to add a product list to the stage. In this example, 
 
 1. When complete, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
 
-   ![]({% link images/images-ee/page-builder-add-content-products-list.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-add-content-products-list-stage.png %}){: .zoom}
    _Products list in the stage_
+
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+
+   This returns you to the _Content_ section for the page with the preview displayed.
 
 1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
 
@@ -91,12 +93,12 @@ In this part of the tutorial, you will learn how easy it is to customize a produ
 
 1. Find a simple product that you can use for this example and open it in edit mode.
 
-1. Scroll down and ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
 
 1. Next to _Description_, click <span class="btn">Edit with Page Builder</span>.
 
-   ![]({% link images/images-ee/catalog-product-content.png %}){: .zoom}
-   _Product content_
+   ![]({% link images/images-ee/page-builder-catalog-product-content.png %}){: .zoom}
+   _Product description content_
 
    If the product description was entered previously without Page Builder, the current description appears as HTML in an [HTML Code]({% link cms/page-builder-elements-html-code.md %}) container. With the Luma theme, the product description appears on the Detail tab.
 
@@ -135,7 +137,9 @@ In this part of the tutorial, you will learn how easy it is to customize a produ
    ![]({% link images/images-ee/page-builder-tutorial3-product-video.png %}){: .zoom}
    _Video in the content stage_
 
-1. In the upper-right corner of the workspace, click the Fullscreen (![]({% link images/images-ee/icon-pb-fullscreen.png %})) icon to return to the product page.
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+
+   This returns you to the _Content_ section for the page with the preview displayed.
 
 1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
 
@@ -216,7 +220,7 @@ In this step, you create two new custom attributes to show how the Page Builder 
    | Catalog Input Type for Store Owner: | Text Editor |
    | Attribute Code: | `my_text_editor_attribute` |
 
-### Step 2: Update the product attribute set
+### Step 3: Update the product attribute set
 
 1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Attribute Set**.
 
@@ -238,7 +242,7 @@ In this step, you create two new custom attributes to show how the Page Builder 
 
 1. When prompted, click the **Cache Management** link at the top of the page and refresh any invalid cache.
 
-### Step 3: Update the product
+### Step 4: Update the product
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
@@ -246,38 +250,44 @@ In this step, you create two new custom attributes to show how the Page Builder 
 
 1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
 
-   The full-featured Page Builder workspace is available for both the Product Description and My Page Builder Attribute field. Both the Short Description and My Text Editor Attribute fields use the standard WYSIWYG [editor]({% link cms/editor.md %}).
+   At the top of the section, there are two standard attributes for product content:
+
+   - _Short Description_, which uses the standard WYSIWYG [editor]({% link cms/editor.md %}).
+   - _Description_, which displays the Page Builder preview.
 
    ![]({% link images/images-ee/page-builder-product-content-edit-with-page-builder.png %}){: .zoom}
+   _Product content_
+
+   As you scroll to the lower half of the section, there are the two attributes you created and assigned:
+
+   - _My Page Builder Attribute_, which displays the Page Builder preview.
+   - _My Text Editor Attribute_, which uses the standard WYSIWYG editor.
+
+   ![]({% link images/images-ee/page-builder-product-content-my-attributes.png %}){: .zoom}
    _Product content editing_
 
-1. For **Description**, click <span class="btn">Edit with Page Builder</span> and add the description text:
+1. In the **My Text Editor Attribute** editor, enter `Text Editor Attribute placeholder text`.
+
+   - In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
+
+1. For **My Page Builder Attribute**, click <span class="btn">Edit with Page Builder</span> and add the description text:
 
    - In the Page Builder panel, expand **Elements** and drag a **Text object** to the stage.
 
    - Enter `Page Builder attribute placeholder text`.
 
-   - In the upper-right corner, click the Close (![]({% link images/images-ee/icon-pb-close.png %}){: height="20px"}) icon to return to the Content section.
+   - In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
 
-   - In the **Text Editor Attribute** editor, enter `Text Editor Attribute placeholder text`.
+      ![]({% link images/images-ee/page-builder-product-content-attributes.png %}){: .zoom}
+   _Custom attributes with placeholder text_
 
-   - In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
-
-   ![]({% link images/images-ee/page-builder-product-content-edit-with-page-builder.png %}){: .zoom}
-   _Editing the product description with Page Builder_
-
-1. For **My Page Builder Attribute**, click <span class="btn">Edit with Page Builder</span> and add any text that you like using the same method as the previous step.
-
-   ![]({% link images/images-ee/page-builder-product-content-attributes.png %}){: .zoom}
-   _Editing the custom attribute with Page Builder_
-
-   Make sure to save your content changes and return to the product page.
+1. Scroll up to **Description**, click <span class="btn">Edit with Page Builder</span>, and add any text that you like using the same method as the previous step.
 
 1. In the upper-right corner of the product page, click the **Save** arrow and choose **Save & Close**.
 
 1. If prompted, click the **Cache Management** link in the message at the top of the page and refresh any invalid cache.
 
-### Step 4: Check it out
+### Step 5: Check it out
 
 1. Navigate to your sample product page in the storefront.
 
