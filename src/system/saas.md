@@ -28,7 +28,7 @@ Magento SaaS services are made up of SaaS projects and environments. SaaS projec
 In the case of Product Recommendations, the SaaS environment contains catalog and behavioral data. You can point a Magento instance to a SaaS environment by [selecting that SaaS environment]({% link configuration/services/saas.md %}) in the Magento configuration.
 
 {:.bs-callout-info}
-The production SaaS environments should be reserved for use with only production sites to avoid data collisions.  
+The production SaaS environments should be reserved for use with only production sites to avoid data collisions.
 
 SaaS environments are designed to support multiple different websites, identified by their website codes. Data from the same website gets compiled together and separated from data from other websites. This allows you to reuse one SaaS environment by multiple Magento installations, as long as all websites have unique codes specified. Otherwise, you risk overwriting your data for the same website.
 
