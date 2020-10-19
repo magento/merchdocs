@@ -30,7 +30,7 @@ It reduces potential user error when entering a Captcha code and encourages cart
 
 ## Two-Factor Authentication
 
-The Magento Admin provides all access to your store, orders, and customer data. Magento Two-Factor Authentication (2FA or TFA) improves security by requiring [two-step authentication]({% link stores/security-two-factor-authentication.md %}) to access the Magento Admin from all devices. The extension supports multiple authenticators including Google Authenticator, Authy, Duo, and U2F keys. This applies to Magento Admin users only. It is not available for storefront customer accounts.
+The Magento Admin provides all access to your store, orders, and customer data. [Two-factor authentication]({% link stores/security-two-factor-authentication.md %}) (2FA or TFA) improves security by requiring additional authentication, beyond the standard login name and password, to access the Magento Admin from all devices. The extension supports multiple authenticators including Google Authenticator, Authy, Duo, and U2F keys. This applies to Magento Admin users only. It is not available for storefront customer accounts.
 
 ## Amazon Sales Channel
 
