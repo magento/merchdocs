@@ -4,7 +4,7 @@ redirect_from:
   - /getting-started/for-your-records.html
 ---
 
-Before you go any further, make sure that you have the information that you need to access the Admin of your store, and your Magento account.
+Before you proceed with setup and configuration, make sure that you have the information that you need to access the Admin of your store, and your Magento account.
 
 ## Storefront URL
 
@@ -15,7 +15,7 @@ The address for your storefront is usually the domain that is assigned to your I
 - `http://www.mydomain.com/mystore`
 - `http://xxx.xxx.xxx.xxx`
 
-If you don’t yet have a domain, your store URL will include a series of four numbers, each separated by a period in “dotted quad” notation.
+If you do not yet have a domain, your store URL will include a series of four numbers, each separated by a period in _dotted quad_ notation.
 
 ## Admin URL
 
@@ -24,43 +24,43 @@ The address for your store Admin is set up during the installation. The default 
 - `http://mydomain.com/admin`
 - `http://www.mydomain.com/admin`
 
-## Magento Account
+## Magento account
 
-Your Magento account provides access to information about your products and services, account settings, billing history, and support resources. To access your account, visit the Magento site and click the My Account link in the header.
+Your [Magento account]({% link magento/magento-account.md %}) provides access to information about your products and services, account settings, billing history, and support resources. To access your account, go to the main Magento site click the _My Account_ ![]({% link images/images/btn-account.png %}) icon in the upper-right corner.
 
-## Customer Account
+## Customer account
 
-While you’re learning your way around the store, make sure to set up a test [customer account]({% link customers/customer-account.md %}), so you can experience the store and checkout process from the customer’s perspective.
+While you are learning your way around the store, make sure to set up a test [customer account]({% link customers/customer-account.md %}), so you can experience the store and checkout process from the customer’s perspective.
 
-## For Your Records
+## For your records
 
-As a best practice, keep a record of the details of your installation, your login credentials, and the email address that is associated with each account. Make sure to log the following information and keep it in a safe, convenient place.
+As a best practice, keep a record of the details of your installation, your login credentials, and the email address that is associated with each account. Make sure to log the following information and keep it in a secured, convenient place.
 
-### Store and Admin
+### Magento Admin and store information
 
 - Store URL
 - Admin URL
-- Admin User Name
-- Admin Password
-- Admin Email Address
+- Admin user name
+- Admin password
+- Admin email address
 
-### Magento Account
+### Magento account information
 
-- User Name
+- User name
 - Password
-- Email Address
+- Email address
 
-### Test Customer Account
+### Test customer account information
 
-- User Name
+- User name
 - Password
-- Email Address
+- Email address
 
-### Installation Information
+### Installation information
 
-- Installation Date
-- Magento Version
-- Encryption Key
-- Database Name
-- Database User Name
-- Database Password
+- Installation date
+- Magento version
+- Encryption key
+- Database name
+- Database user name
+- Database password
