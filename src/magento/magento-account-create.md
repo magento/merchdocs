@@ -10,7 +10,7 @@ After you create your account, it is strongly recommended that you use Two-facto
 
 ## Create a Magento account
 
-1. Visit the Magento site at: [http://www.magento.com][1]{:target="_blank"}
+1. Visit the Magento site at [http://www.magento.com][1]{:target="_blank"}.
 
 1. In the upper-right corner, click the _My Account_ ![]({% link images/images/btn-account.png %}) icon.
 
@@ -36,7 +36,7 @@ After you create your account, it is strongly recommended that you use Two-facto
 
       Your screen name can be from four to fifteen characters long, can include numbers and the underscore, but must start with a letter.
 
-   - Enter a **Password** for your account and again for **Confirm Password**.
+   - For **Password** and **Confirm Password**, enter the desired password for your account.
 
       Your Magento password must be between 8-16 characters, and include at least one capital letter, one number, and one special character or lowercase letter.
 
@@ -46,7 +46,7 @@ After you create your account, it is strongly recommended that you use Two-facto
 
 ## Log in to your Magento account
 
-1. Go to the Magento site: [http://www.magento.com][1]
+1. Go to the Magento site at [http://www.magento.com][1].
 
 1. In the upper-right corner, click the _My Account_ ![]({% link images/images/btn-account.png %}) icon.
 
@@ -66,7 +66,7 @@ After you create your account, it is strongly recommended that you use Two-facto
 
 ## Reset your password
 
-1. Log in to your Magento account.
+1. Go to [http://www.magento.com][1] and log into your account.
 
 1. In the panel on the left, choose **Account Settings**.
 

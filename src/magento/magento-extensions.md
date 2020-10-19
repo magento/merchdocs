@@ -6,7 +6,7 @@ This section provides installation instructions and information for extensions d
 
 ## Inventory Management
 
-Magento [Inventory Management]({% link catalog/inventory-management.md %}) provides enhanced stock and shipment management  across one or multiple locations and sales channels with concurrent checkout protection and shipment matching algorithms. Track your inventory quantities, provide accurate salable stock amounts to customers, and ship according to recommendations or manual selections to control your entire inventory. Configure management settings globally, per source, and per product.
+Magento [Inventory Management]({% link catalog/inventory-management.md %}) provides enhanced stock and shipment management across one or multiple locations and sales channels with concurrent checkout protection and shipment matching algorithms. Track your inventory quantities, provide accurate salable stock amounts to customers, and ship according to recommendations or manual selections to control your entire inventory. Configure management settings globally, per source, and per product.
 
 For technical, developer, and extension development information, see our developer documentation:
 
@@ -14,14 +14,14 @@ For technical, developer, and extension development information, see our develop
 - [Order Processing with Inventory Management](https://devdocs.magento.com/guides/v2.3/rest/tutorials/inventory/index.html) tutorial
 - REST API content, starting with [Managing sources](https://devdocs.magento.com/guides/v2.3/rest/modules/inventory/manage-sources.html)
 
-Inventory Management installs with all features enabled by default. No additional steps are required for enabling these inventory features.
+Inventory Management installs with all features enabled by default. No additional steps are required to enable these inventory features.
 
 {:.bs-callout-info}
 These features and extensions were developed as part of the [Magento Inventory](https://github.com/magento/inventory) (formerly MSI) project through the Magento Community Engineering program.
 
 ## Google reCAPTCHA
 
-Google reCAPTCHA provides a greater level of security for both the storefront and Admin UI than is available with standard CAPTCHA, and gives you the ability to:
+Google reCAPTCHA provides a greater level of security for both the storefront and Admin UI than is available with standard CAPTCHA and gives you the ability to:
 
 - Verify when customers create accounts, retrieve passwords, log in to their accounts, or contact your company.
 - Enhance security when Admin users log in.
