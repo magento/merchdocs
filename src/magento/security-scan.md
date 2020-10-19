@@ -10,12 +10,12 @@ Magento Security Scan allows you to monitor each of your Magento sites for known
 - Receive reports with the results of over thirty security tests and the recommended corrective actions for each failed test.
 - Maintain a history of security reports in your Magento account.
 
-The Security Scan tool is available for free from the dashboard of your Magento account. For technical information, see [Go live and launch][1] in the developer documentation.
+The Security Scan tool is available for free from the dashboard of your Magento account. For technical information, see [Go live and launch][1] in our developer documentation.
 
 ![]({% link images/images/magento-security-scan.png %}){: .zoom}
 _Security Scan_
 
-## To run a security scan:
+## Run a security scan
 
 1. Go to the Magento home page, and sign in to your **Magento account**. Then, do the following:
 
