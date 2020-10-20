@@ -20,7 +20,7 @@ pages:
     url: "/magento/magento-account-share.html"
   - label: Securing Your Account
     url: "/magento/magento-account-secure.html"
-- label: " Quick Tour"
+- label: Quick Tour
   url: "/getting-started/quick-tour.html"
   children:
   - label: Path to Purchase
@@ -219,7 +219,7 @@ pages:
 - label: Resources
   url: "/getting-started/resources.html"
   children:  
-  - label: Join the Conversation!
+  - label: Join the Conversation
     url: "/getting-started/magento-ecosystem.html"
   - label: Technical and Doc Resources
     url: https://magento.com/technical-resources
