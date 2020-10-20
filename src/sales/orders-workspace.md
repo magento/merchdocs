@@ -11,7 +11,7 @@ _Orders_{:.ee-only}
 
 |Control|Description|
 |--- |--- |
-|Create New Order|Creates a new order.|
+|Create New Order|Creates a new order. See [Creating an Order]({% link customers/customer-account-create-order.md %}) for more information.|
 |Go to Archive|Displays the list of archived orders.|
 |Search|Initiates a search for orders based on the current filters.|
 |Filters|Defines a set of search parameters used to filter the records that appear in the [grid]({% link stores/admin-grid-controls.md %}).|
