@@ -5,7 +5,7 @@ title: Resources
 Magento provides a wealth of business and technical resources, self-help tools, and services to help you succeed.
 
 [Product documentation][1]{:target="_blank"}|Whether you are a merchant, designer, [developer][2], or all of the above, this is where you can gain a deeper insight into how you can leverage the power of Magento to grow your business.|
-[Magento Resources Library][3]{:target="_blank"}|Gain access to expert insight and online business resources to help develop and improve your store. Ebooks, Magento whitepapers, and webinars.|
+[Magento Resources Library][3]{:target="_blank"}|Access Ebooks, Magento whitepapers, and webinars to gain expert insight and online business resources to help develop and improve your store.|
 [Security Center][4]{:target="_blank"}|Join the Magento Security Alert Registry to get the latest information on potential vulnerabilities and [Security Best Practices][5].
 [Forums][6]{:target="_blank"}|The Magento forums provide access to a network of dedicated Magento enthusiasts who share tips, tricks, and support.
 [Blog][7]{:target="_blank"}|Check out the Magento blog for the latest information about new features, trends, best practices, upcoming events, and more.|
