@@ -28,7 +28,7 @@ _Items to Refund with Return to Stock Selected_
 
 ### Cancel unshipped orders
 
-If an order has not been shipped and is canceled (in full or partial), Inventory Management automatically returns the product stock to the salable quantity. Until invoice and shipping, purchased products are reserved against the salable quantity, not deducted from the actual quantity. Invoicing and shipping convert the reservation to an inventory deduction.
+If an order has not been shipped and is canceled (in full or partial), Inventory Management automatically returns the product stock to the salable quantity. Until invoice and shipping, purchased products are reserved against the salable quantity, not deducted from the actual quantity. At the point of invoicing and shipping the order, the system converts the reservation to an inventory deduction.
 
 Behind the scenes, Inventory Management automatically enters a compensation reservation removing the hold on the product quantity. The quantity returns to the aggregated virtual salable quantity.
 
