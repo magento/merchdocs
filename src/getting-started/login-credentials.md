@@ -4,7 +4,7 @@ redirect_from:
   - /getting-started/for-your-records.html
 ---
 
-Before you proceed with setup and configuration, make sure that you have the information that you need to access the Admin of your store, and your Magento account.
+Before you proceed with setup and configuration, make sure that you have the information that you need to access the Admin of your store and your Magento account.
 
 ## Storefront URL
 
@@ -26,7 +26,7 @@ The address for your store Admin is set up during the installation. The default 
 
 ## Magento account
 
-Your [Magento account]({% link magento/magento-account.md %}) provides access to information about your products and services, account settings, billing history, and support resources. To access your account, go to the main Magento site click the _My Account_ ![]({% link images/images/btn-account.png %}) icon in the upper-right corner.
+Your [Magento account]({% link magento/magento-account.md %}) provides access to information about your products and services, account settings, billing history, and support resources. To access your account, go to the main Magento site and click the _My Account_ ![]({% link images/images/btn-account.png %}) icon in the upper-right corner.
 
 ## Customer account
 

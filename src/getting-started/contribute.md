@@ -10,7 +10,7 @@ Our User Guide is open source and hosted in a [public-facing repository on GitHu
 
 ## Working with collaborative documentation
 
-As a Magento user---regardless of whether you are an Adobe employee, partner, customer, or even a prospective customer---you have the opportunity of contributing to this documentation in several simple ways:
+As a Magento user---regardless of whether you are an Adobe employee, partner, customer, or even a prospective customer---you have the opportunity to contribute to this documentation in several simple ways:
 
 - Log a GitHub issue for a specific page
 - Submit a quick edit where you see basic errors
@@ -43,7 +43,7 @@ For content contributions to be accepted and published, whether large or small, 
 
 ### Provide a quick edit
 
-Making quick edits is a good way to fix small errors and omissions in the User Guide. If a page displays an edit link, you can make a quick fix yourself. When you edit the document, you send us a pull request (PR) to submit the fix/suggestion to us. Then we can review, approve, and publish the submitted change.
+Making edits is a good way to fix small errors and omissions in the _User Guide_. If a page displays an edit link, you can make a quick fix yourself. When you edit the document, you send us a pull request (PR) to submit the fix/suggestion to us. Then we can review, approve, and publish the submitted change.
 
 1. Open the User Guide page you want to edit or update.
 

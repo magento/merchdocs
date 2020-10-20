@@ -8,7 +8,7 @@ Magento Forums
 :  The [forums][1]{:target="_blank"} are the place to find solutions, become acquainted with international communities, and join a special interest chat. Share your knowledge and earn kudos from others.
 
 Facebook
-: Find out what’s happening and join the discussion on our [Facebook page][2].
+: Find out what is happening and join the discussion on our [Facebook page][2].
 
 Twitter
 :  Follow us on [Twitter][3].

@@ -12,7 +12,7 @@ Magento provides a wealth of business and technical resources, self-help tools, 
 [Events and webinars][8]{:target="_blank"}|Keep tabs on our calendar of upcoming events and webinars. There is always something happening in the Magento ecosystem.|
 [Magento Marketplace][9]{:target="_blank"}|Visit the Magento next-generation marketplace of digital commerce solutions. Magento Marketplace offers merchants a curated selection of solutions, while providing qualified developers the tools, platform, and prime location for a thriving business.|
 [Training and certification][10]{:target="_blank"}|Learn how to unleash the power and flexibility of Magento. We provide training for every role in your business, including marketers, designers, developers, and more. Experienced Magento professionals can validate their real-world skills by earning Magento certification.|
-[Partners][12]{:target="_blank"}|Magento partners are committed to your success, and provide custom integrations, best-in-class customer experiences, strategic marketing initiatives, and expert performance and scalability optimization for both on-premise and cloud-based solutions.|
+[Partners][12]{:target="_blank"}|Magento partners are committed to your success and provide custom integrations, best-in-class customer experiences, strategic marketing initiatives, and expert performance and scalability optimization for both on-premise and cloud-based solutions.|
 [Expert consulting services][13]{:target="_blank"}|Our Expert Consulting Group (ECG) helps Magento merchants and Solution Partners maximize their success. Our experts offer comprehensive analysis and best practice recommendations, from architecture planning through post-deployment.|
 {: .name-table }
 
