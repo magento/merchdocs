@@ -14,8 +14,6 @@ If you choose not to synchronize your store, you will be required to enter both 
 
 ## Step 1: Retrieve your Marketplace credentials
 
-If continuing from the previous topic, your browser is already open to the Access Key page of your Marketplace profile.
-
 1. If necessary, log in to your Magento account, and go to the Marketplace Access Key page.
 
     If you need help, see [Set Up Your Marketplace Credentials]({% link magento/magento-marketplace-credentials.md %}).
@@ -48,6 +46,6 @@ If continuing from the previous topic, your browser is already open to the Acces
 If you ever want to change your Marketplace credentials in the future, you can create a new access key, reset your Marketplace system configuration, and resynchronize your store with the new key values.
 
 {: .bs-callout-info}
-The Web Setup Wizard does not automatically return to the Admin of your store. When you are ready to close the tool, enter the URL of your store Admin in the address line of the browser tab and sign in to the Admin.
+The Web Setup Wizard does not automatically return to the Admin of your store. When you are ready to close the tool, enter the URL of your store Admin in the browser tab and sign in to the Admin.
 
 [1]: https://devdocs.magento.com/cloud/howtos/install-components.html
