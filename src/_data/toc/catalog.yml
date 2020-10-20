@@ -249,9 +249,9 @@ pages:
   - label: Scheduled Changes
     url: "/catalog/category-scheduled-changes.html"
     edition: ee-only
-  - label: Content Settings
+  - label: Content
     url: "/catalog/categories-content-settings.html"
-  - label: Display Settings
+  - label: Display
     url: "/catalog/categories-display-settings.html"
   - label: Search Engine Optimization
     url: "/catalog/categories-search-engine-optimization.html"

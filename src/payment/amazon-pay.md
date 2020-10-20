@@ -17,20 +17,11 @@ For international merchants with a region in EU or UK, Amazon Pay provides a [m
 
 ## Changes in the latest releases
 
-### Release 2.3.5
-
 - {:.fix}Enhancements
 
 - **Amazon Pay button placement** - Clearer placement of the Pay button on product, cart, and checkout pages
 - **Decline messaging** - Decline messaging improved and provides better language translations across all Amazon Pay supported regions
 - **Password reset link messaging** - Improved messaging in the password reset link section
 
-### Release 2.3.3
-
-- {:.fix}Enhancement
-
-- **PSD2 compliance** - Amazon Pay is now compliant with the PSD2 directive for UK and Germany. See [Payment services (PSD 2) - Directive (EU)][3] for an introduction to PSD2.
-
 [1]: https://pay.amazon.com/eu/help/5BDCWHCUC27485L
 [2]: https://pay.amazon.com/us/help/201212420?
-[3]: https://ec.europa.eu/info/law/payment-services-psd-2-directive-eu-2015-2366_en

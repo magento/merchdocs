@@ -16,9 +16,29 @@ redirect_from:
 
 ## Changes in the latest release
 
-- A new B2B integration syncs [data mappings]({% link marketing/dotdigital/data-mapping.md %}) for company, shared catalog, and quote data with your dotdigital account.
-- Enhanced web behavior tracking includes browsed products and abandoned search data.
-- [dotdigital Coupon Code URL Builder]({% link marketing/price-rules-cart-coupon.md %}) generates a URL with a dynamic coupon code for a specific contact that can be used in dotdigital email campaigns.
+- {:.fix}Features
+
+   - PageBuilder support: Engagement Cloud pages and forms can be embedded in any storefront page.
+
+   - Diagnostic alerts: New diagnostic system alerts available through in-app system messages and email notifications.
+
+- {:.fix}Enhancements
+
+   - Newsletter subscription email captured server-side after submit to support PageBuilder forms integration.
+
+   - Abandoned cart program listing includes those with a status of 'Draft' or 'Deactivated'.
+
+   - Content security policy allowlist includes specific dotdigital domains.
+
+   - Abandoned cart block is visible in EasyEditor before customer data is received.
+
+   - Email dashboard includes all active dotdigital modules and version numbers.
+
+   - 25% performance improvement for batch catalog sync processes of configurable products.
+
+   - Automation sync timing offset to every 16 minutes to avoid conflict with contact sync.
+
+   - Order Insight data shows distinct bundle products with subitems.
 
 [1]: https://dotdigital.com/
 [2]: https://support.dotdigital.com/hc/en-gb/articles/115001930050-Email-campaigns-an-overview
