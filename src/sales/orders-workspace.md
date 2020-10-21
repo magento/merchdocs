@@ -32,7 +32,8 @@ _Orders_{:.ee-only}
 |Grand Total (Base)|The grand total of the order.|
 |Grand Total (Purchased)|The grand total of products purchased in the order.|
 |Status|The current order status.|
-|Action|View - Opens the order in edit mode.|
+|Action|View opens the order in edit mode.|
+|Allocated sources| The sources allocated to that specific order.|
 
 ### Additional Columns Available
 
