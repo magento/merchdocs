@@ -6,7 +6,7 @@ Some Magento features are deployed as SaaS services. To use these services, you 
 
 ## Magento API key {#apikey}
 
-When you create a Magento account, identified by a MageID, you can generate a Magento API key. To use Magento Commerce SaaS services, such as Product Recommendations, the license-holder must generate the API key in order to pass entitlement validation. This API key can then be passed to the systems integrator or development team that manages the SaaS projects and environments on behalf of the license-holder. If you are a Magento solution partner, the contract signer should generate the API key.
+When you create a Magento account, identified by a MageID, you can generate a Magento API key. To use Magento Commerce SaaS services, such as Product Recommendations, the license-holder must generate the API key in order to pass entitlement validation. This API key can then be passed to the systems integrator or development team that manages the SaaS projects and environments on behalf of the license-holder. If you are a solution integrator, the signer of the Magento partner contract should generate the API key.
 
 ### Generate an API key {#genapikey}
 
@@ -23,7 +23,7 @@ When you create a Magento account, identified by a MageID, you can generate a M
 
 ## SaaS projects and environments {#saasenv}
 
-Magento SaaS services are made up of SaaS projects and environments. SaaS projects and environments are separate but analogous concepts to Magento Cloud projects and environments. A SaaS project is a grouping of SaaS environments. A SaaS environment defines a data space that is unique to your Magento instance. The SaaS environment is used to collect and store data that enables Magento services to work. Some of this data may be exported from Magento and some may be collected from shopper behavior on the storefront. That data is then stored in a secure cloud location and not on the Magento server.
+Magento SaaS services are made up of SaaS projects and environments. SaaS projects and environments are separate but analogous concepts to Magento Cloud projects and environments. A SaaS project is a grouping of SaaS environments. A SaaS environment defines a data space that is used to collect and store data that enables Magento services to work. Some of this data may be exported from Magento and some may be collected from shopper behavior on the storefront. That data is then persisted to secure cloud storage and not to the Magento servers.
 
 In the case of Product Recommendations, the SaaS environment contains catalog and behavioral data. You can point a Magento instance to a SaaS environment by [selecting that SaaS environment]({% link configuration/services/saas.md %}) in the Magento configuration.
 
