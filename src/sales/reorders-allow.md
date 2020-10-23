@@ -26,6 +26,6 @@ _Customer Reorder Link in Admin_
 
 1. For the reorder option to appear for an order, **Allow Reorder** must be enabled in the **Admin** > _Stores_ > **Configuration** > **Sales**.
 
-1. If order is in Hold status, the reorder option is disabled.
+1. If order is in Hold or in Payment Review status, the reorder option is disabled.
 
 1. If one of the items in the order is unavailable, out of stock, or disabled in Magento, the reorder option is disabled.
