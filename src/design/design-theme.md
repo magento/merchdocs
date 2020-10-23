@@ -20,9 +20,9 @@ sections:
 
 {% include grid.html sections=page.sections%}
 
-## [Magento eBook][2]
+## Magento eBook
 
-Create personalized shopping experiences and customer interactions that drive repeat sales and brand loyalty. Engage today’s technology empowered customers with these useful tips. Get the [eBook][2] now!
+Get our [eBook][2] to help you create personalized shopping experiences and customer interactions that drive repeat sales and brand loyalty. Engage today’s technology empowered customers with these useful tips.
 
 [1]: https://magento.com/resources/customer-engagement-ebook
 [2]: https://magento.com/resources/rules-and-tools-successful-customer-engagement
