@@ -192,6 +192,8 @@ pages:
     - label: Integration with ERP Systems
       url: "/system/erp-systems.html"
       edition: b2b-only
+    - label: Magento Services
+      url: "/system/saas.html"
   - label: Permissions
     url: "/system/permissions.html"
     children:
