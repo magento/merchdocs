@@ -43,6 +43,11 @@ _Page Builder - dynamic block with price rule and customer segment_
 
    ![]({% link images/images-ee/page-builder-dynamic-block-customer-segment.png %}){: .zoom}
    _Choosing a customer segment_
+   
+   {:.bs-callout-info}
+   - If no **Segment** is created then **Dynamic Block** will be visible to everyone.
+   - If **Customer** does not belong to any of **Segments** and **Dynamic Block** is created for All Segments then contents of **Dynamic Block** will still be displayed.
+   - If all **Customer Segments** that were assigned to **Dynamic Block** are deleted then its contents will be visible to everyone.
 
 ## Step 2: Complete the content
 
