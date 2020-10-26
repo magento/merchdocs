@@ -4,7 +4,7 @@
 title: Magento 2.3 User Guide
 
 description: Merchant-focused documentation for both Magento Commerce and Magento Open Source
-logo: User Guide
+logo: Magento User Guide
 baseurl: /user-guide/v2.3
 url: "https://docs.magento.com"
 destination: _site/user-guide/v2.3
