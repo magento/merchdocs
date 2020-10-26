@@ -11,7 +11,7 @@ _Configuration_
 
 ### General
 
-Includes [basic configuration]({% link configuration/general.md %}) settings for the store, URLs, theme, currency, email addresses, store contacts, editor, and dashboard reports.
+[General configuration]({% link configuration/general.md %}) determines settings for the store, URLs, theme, currency, email addresses, store contacts, editor, and dashboard reports.
 
 ### Catalog
 
@@ -27,8 +27,12 @@ Includes [basic configuration]({% link configuration/general.md %}) settings for
 
 ### Services
 
-[Configures]({% link configuration/services.md %}) Magento API settings, including SOAP and OAuth.
+[Services configuration]({% link configuration/services.md %}) determines Magento API settings, including SOAP and OAuth.
+
+### MCOM Connector
+
+MCOM Connector configuration determines message log behavior, order processing method, custom attributes and order statuses available for export, cron schedule, memory limit settings, and performance monitor output.
 
 ### Advanced
 
-Determines default Admin settings, various system configuration settings, [advanced]({% link configuration/advanced.md %}) module controls, and developer tools (if the store is running in [developer mode]({% link magento/installation-modes.md %})).
+[Advanced configuration]({% link configuration/advanced.md %}) determines default Admin settings, various system configuration settings, advanced module controls, and developer tools (if the store is running in [developer mode]({% link magento/installation-modes.md %})).
