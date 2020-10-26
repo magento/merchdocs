@@ -3,7 +3,7 @@ title: Uploading Your Logo
 group: getting-started
 ---
 
-The size and location of the logo in the header is determined by the store theme. Your logo can be saved as either a GIF, PNG, or JPG (JPEG) file type, and uploaded from the Admin of your store.
+The size and location of the logo in the header is determined by the store theme. Your logo can be saved as either a GIF, PNG, or JPG (JPEG) file type and uploaded from the Admin of your store.
 
 ![]({% link images/images/storefront-header-logo.png %}){: .zoom}
 _Logo in Header_
@@ -13,7 +13,7 @@ The logo image resides in the following location on the server. Any image file w
 | Full path | `app/design/frontend/[vendor]/[theme]/web/images/logo.gif` |
 | Relative path | `images/logo.gif` |
 
-If you do not know the size of the logo, or any other image that is used in your theme, open the page in a browser, right-click the image, and inspect the element.
+If you do not know the size of the logo or other images used in your theme, open the page in a browser, right-click the image, and inspect the element.
 
 {:.bs-callout-info}
 In addition to the logo in the header, your logo also appears on [email templates]({% link marketing/email-logo.md %}) and on [PDF invoices]({% link marketing/sales-document-pdf-logo.md %}) and other sales documents. The logos used for email templates and invoices have different size requirements, and must be uploaded separately. To learn more, see [Communications]({% link marketing/communications.md %}).

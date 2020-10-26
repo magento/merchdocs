@@ -22,7 +22,7 @@ sections:
 
 ## Magento eBook
 
-Get our [eBook][2] to help you create personalized shopping experiences and customer interactions that drive repeat sales and brand loyalty. Engage today’s technology empowered customers with these useful tips.
+Get our [eBook][2] to help you create personalized shopping experiences and customer interactions that drive repeat sales and brand loyalty. Engage today’s technology to empower customers with these useful tips.
 
 [1]: https://magento.com/resources/customer-engagement-ebook
 [2]: https://magento.com/resources/rules-and-tools-successful-customer-engagement
