@@ -207,6 +207,8 @@ pages:
   url: "/magento/magento-extensions.html"
 - label: Magento Marketplace
   url: "/magento/magento-marketplace.html"
+- label: Magento Identity Manager
+  url: "/magento/magento-identity-manager.html"
 - label: Resources
   url: "/getting-started/resources.html"
   children:  
