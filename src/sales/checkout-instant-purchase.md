@@ -2,92 +2,92 @@
 title: Instant Purchase
 ---
 
-Instant Purchase allows customers to speed through the checkout process using information that is saved in their account. When enabled, the Instant Purchase button appears below the Add to Cart button on the product page for customers who meet the requirements.
+Instant Purchase allows customers to speed through the checkout process using information that is saved in their account. When enabled, the _Instant Purchase_ button appears below the _Add to Cart_ button on the product page for customers who meet the requirements.
 
-![]({% link images/images/storefront-checkout-instant-purchase.png %}){: .zoom}
-_Instant Purchase_
+![Luma storefront product page with the Instant Purchase option displayed]({% link images/images/storefront-checkout-instant-purchase.png %}){: .zoom}
+_Instant purchase option in the product page_
 
-## Customer Requirements
+## Customer requirements
 
-- Customers are [signed in]({% link customers/customer-sign-in.md %}) to their accounts.
+- Customer is [signed in]({% link customers/customer-sign-in.md %}) to their account.
 
-- Customer accounts have a [default billing and shipping address]({% link customers/account-dashboard-address-book.md %}).
+- Customer account has a [default billing and shipping address]({% link customers/account-dashboard-address-book.md %}).
 
 - At least one [shipping method]({% link shipping/delivery.md %}) is available for the country that is specified in the default shipping address.
 
-- Customer accounts have a [stored payment]({% link customers/account-dashboard-stored-payment-methods.md %}) method with vault enabled.
+- Customer account has a [stored payment]({% link customers/account-dashboard-stored-payment-methods.md %}) method with vault enabled.
 
-The following payment methods can be used to provide secure access to saved credit card information:
+   The following payment methods can be used to provide secure access to saved credit card information:
 
-- [Braintree Credit Cards]({% link payment/braintree.md %})
-- [Braintree with PayPal Enabled]({% link payment/braintree.md %})
-- [PayPal Payflow Pro]({% link payment/paypal-payflow-pro.md %})
-- Instant Purchase cannot be used with Braintree Credit Cards if 3D Secure is enabled.
+   - [Braintree Credit Cards]({% link payment/braintree.md %})
+   - [Braintree with PayPal Enabled]({% link payment/braintree.md %})
+   - [PayPal Payflow Pro]({% link payment/paypal-payflow-pro.md %})
+   - Instant Purchase cannot be used with Braintree Credit Cards if 3D Secure is enabled.
 
-## To make an Instant Purchase:
+## Make an instant purchase
 
 1. In the storefront, go to the product page of the item to be purchased.
 
-1. Select the required options, then click **Instant Purchase**.
+1. Select the required options and click **Instant Purchase**.
 
-    ![]({% link images/images/storefront-checkout-instant-purchase-confirmation.png %}){: .zoom}
-    _Instant Purchase Confirmation_
+   ![The shopper sees a confirmation dialog to confirm the instant purchase]({% link images/images/storefront-checkout-instant-purchase-confirmation.png %}){: .zoom}
+   _Instant purchase confirmation dialog_
 
-1. Review the **Instant Purchase Confirmation** information. Then, click **OK** to complete the transaction.
+1. Review the **Instant Purchase Confirmation** information and click <span class="btn">OK</span> to complete the transaction.
 
-    A confirmation message and order number appears at the top of the product page.
+   A confirmation message and order number appears at the top of the product page.
 
-## Configure Instant Purchase
+## Configure instant purchase
 
-### Step 1: Open the configuration menu
+### Step 1: Open the configuration page
 
-1. On the _Admin_ sidebar, click **Stores**.
+1. On the _Admin_ sidebar, go to **Stores** >  _Settings_ > **Configuration**.
 
-1. Under _Settings_, choose **Configuration**.
-
-### Step 2: Configure Payment Method Vault
+### Step 2: Configure the payment method vault
 
 The following example shows how to configure the Braintree vault.
 
-1. In the _Sales_ section on the left panel, choose **Payment Methods**.
+1. In left panel, expand the **Sales** section and choose **Payment Methods**.
 
-1. In the _Braintree_ section under _Recommended Solutions_, click **Configure**.
+1. Under _Recommended Solutions_, click **Configure** in the _Braintree_ section.
 
-    ![]({% link images/images/config-sales-payment-methods-braintree.png %}){: .zoom}
-    [_Configure Braintree_]({% link payment/braintree.md %})
+   ![]({% link images/images/config-sales-payment-methods-braintree.png %}){: .zoom}
+   [_Configure the Braintree payment service_]({% link payment/braintree.md %})
 
-   - In the **Basic Braintree Settings** section, enter the following information from your Braintree seller account: _Merchant ID_, _Public Key_, and _Private Key_
+1. In the _Basic Braintree Settings_ section, enter the following information from your Braintree seller account:
 
-   - Set **Enable this Solution** to `Yes`.
+   - **Merchant ID**
+   - **Public Key**
+   - **Private Key**
 
-   - If applicable set **Enable PayPal through Braintree** to `Yes`.
+1. Set **Enable this Solution** to `Yes`.
 
-   - Set **Vault Enabled** to `Yes`.
+1. If applicable set **Enable PayPal through Braintree** to `Yes`.
 
-       ![]({% link images/images/config-sales-payment-methods-braintree-basic-settings.png %}){: .zoom}
-       [_Basic Braintree Settings_]({% link payment/braintree.md %})
+1. Set **Vault Enabled** to `Yes`.
 
-### Step 3: Enable Instant Purchase
+   ![]({% link images/images/config-sales-payment-methods-braintree-basic-settings.png %}){: .zoom}
+   [_Basic Braintree Settings_]({% link payment/braintree.md %})
 
-1. In the _Sales_ section on the left panel, choose **Sales**.
+### Step 3: Enable instant purchase
 
-1. Configure the instant purchase settings:
+1. In the left panel under the _Sales_ section, choose **Sales**.
 
-   - Expand the **Instant Purchase** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Instant Purchase** section.
 
-   - Set **Enabled** to `Yes`.
+1. If this change is for a specific store view, [choose the store view]({% link configuration/scope-change.md %}) where the configuration applies.
 
-   - Enter the **Button Text** that you want to appear on the button.
+   When prompted, click **OK** to continue.
 
-      The button text can be changed for each store view, or language. By default, the button text is `Instant Purchase`.
+1. Set **Enabled** to `Yes`.
 
-      ![]({% link images/images/config-sales-sales-instant-purchase.png %}){: .zoom}
-      [_Instant Purchase_]({% link configuration/sales/sales.md %})
+1. Enter the **Button Text** that you want to appear on the button.
 
-1. Click **Save Config**.
+   The button text can be changed for each store view, or language. By default, the button text is `Instant Purchase`.
 
-1. Clear the cache:
+   ![The configuration page with the instant purchase options displayed]({% link images/images/config-sales-sales-instant-purchase.png %}){: .zoom}
+   [_Instant Purchase configuration options_]({% link configuration/sales/sales.md %})
 
-   - In the message at the top of the page, click **Cache Management**.
+1. Click <span class="btn">Save Config</span>.
 
-   - In the upper right corner, click **Flush Magento Cache**.
+1. When prompted to update the cache, click **Cache Management** in the system message and follow the instructions to flush the cache.

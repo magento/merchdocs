@@ -4,7 +4,7 @@ title: Reduce Ordering Errors
 ---
 
 Streamlined Order Process
-:  [Quick Order]({% link sales/quick-order.md %}) reduces the process to several clicks. Magento offers multiple ways to configure the [shopping cart]({% link sales/cart-configuration.md %}) and [checkout process]({% link sales/checkout-configuration.md %}), to eliminate manual data entry and reduce costly ordering errors.
+:  [Quick Order]({% link sales/quick-order.md %}) reduces the process to several clicks. Magento offers multiple ways to configure the [shopping cart]({% link sales/cart-configuration.md %}) and [checkout process]({% link sales/checkout-process.md %}), to eliminate manual data entry and reduce costly ordering errors.
 
 Assisted Sales
 :  Assign a [dedicated sales rep]({% link sales/shopping-assistance.md %}) to each company account. The assigned sales rep can access the customer’s shopping cart in real time and offer personal assistance over the phone.
