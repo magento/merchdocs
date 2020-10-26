@@ -24,9 +24,9 @@ _Standard two-column with left bar page layout_
 
    This determines the layout that is used by default for product pages.
 
-   |No layout updates |By default, layout updates are not available for product pages.|
-   |Empty |By default, uses a blank layout for product pages.|
-   |1 column |By default, uses a single column layout for product pages.|
+   |No layout updates |Layout updates are not available for product pages.|
+   |Empty |Uses a blank layout for product pages.|
+   |1 column |Uses a single column layout for product pages.|
    |2 columns with left bar |Uses a two-column layout with the sidebar on the left for product pages.|
    |2 columns with right bar|Uses a two-column layout with the sidebar on the right for product pages.|
    |3 columns|Uses a three-column layout with sidebars on the left and right for product pages.|

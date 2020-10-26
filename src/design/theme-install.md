@@ -21,4 +21,4 @@ To apply the theme to your store, see [Using the Default Theme]({% link design/t
 
 [1]: http://devdocs.magento.com/guides/v2.3/frontend-dev-guide/bk-frontend-dev-guide.html
 [2]: https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html
-[3]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/themes/theme-install.html
+[3]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/themes/theme-overview.html
