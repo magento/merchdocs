@@ -11,7 +11,7 @@ _Customer reorder link in the Admin_
 
 - The _Allow Reorder_ configuration option must be enabled.
 
-- If order is in `Hold` status, the reorder option is disabled.
+- If order is in `Hold` or `Payment Review` status, the reorder option is disabled.
 
 - If any of the items in the order is unavailable, out of stock, or disabled, the reorder option is disabled.
 
