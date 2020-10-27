@@ -11,7 +11,7 @@ _Orders_{:.ee-only}
 
 |Control|Description|
 |--- |--- |
-|Create New Order|Creates a new order.|
+|Create New Order|Creates a new order. See [Creating an Order]({% link customers/customer-account-create-order.md %}) for more information.|
 |Go to Archive|Displays the list of archived orders.|
 |Search|Initiates a search for orders based on the current filters.|
 |Filters|Defines a set of search parameters used to filter the records that appear in the [grid]({% link stores/admin-grid-controls.md %}).|
@@ -32,7 +32,8 @@ _Orders_{:.ee-only}
 |Grand Total (Base)|The grand total of the order.|
 |Grand Total (Purchased)|The grand total of products purchased in the order.|
 |Status|The current order status.|
-|Action|View - Opens the order in edit mode.|
+|Action|View opens the order in edit mode.|
+|Allocated sources| The sources allocated to that specific order.|
 
 ### Additional Columns Available
 
