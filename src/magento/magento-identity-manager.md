@@ -3,7 +3,13 @@ title: Magento Identity Manager
 group: getting-started
 ---
 
-[Magento Identity Manager (MIM)](https://identity.magento.com) offers Magento customers the ability to integrate their Magento accounts with their Adobe ID. This provides a simplified, seamless user experience in accessing accounts across many different Magento products. When your Magento accounts are linked to Magento Identity Manager and you have an active Adobe ID session, you are able to bypass the traditional username/password login process with a click of a button.
+The [Magento Identity Manager (MIM)](https://identity.magento.com) provides users with the ability to link their Magento product accounts with an Adobe ID for seamless single sign-on across all Adobe and Magento products and simpler user account management. When your Magento accounts are linked to an Adobe ID in the Magento Identity Manager and you are logged into that Adobe ID, you will bypass the standard Magento product login process and do not need to log in again.
+
+MIM is designed to work with all Magento products, but account linking is only enabled for Magento products that have been integrated with MIM. The Magento products that are currently and officially integrated with MIM are:
+
+- Magento.com
+
+<!-- add other products to this bullet list as they are integrated -->
 
 {:.bs-callout-info}
 These instructions contain screen images using account.magento.com as the example Magento product. All products that are integrated with MIM will adhere to the same processes described in the following sections.
@@ -12,7 +18,7 @@ These instructions contain screen images using account.magento.com as the exampl
 
 ### Step 1: Register for an Adobe ID
 
-In order to use MIM, you must have an active Adobe account for mapping your Magento product accounts.
+In order to use MIM, you must have an active Adobe account for mapping your Magento product accounts. If you already have an Adobe ID you would like to use for linking accounts, you can skip this step.
 
 1. Go to the Adobe account login: [https://account.adobe.com][1]
 
@@ -78,13 +84,16 @@ From the Magento product login page:
    ![]({% link images/images/id-manager-mim-zero.png %}){: .zoom}
    _Add from MIM_
 
-   If you are currently logged into the product you are trying to link, a message appears to explain that you will be unable to proceed. In this case, navigate to the product to logout or ensure you are no longer logged in. Click <span class="btn">Continue</span> when you are ready to proceed.
+   A message appears to explain that you may be unable to proceed if you are currently logged into the product you are trying to link. If necessary, navigate to the product to logout or ensure you are no longer logged in.
 
    ![]({% link images/images/id-manager-mim-add-message.png %}){: .zoom}
    _Warning message_
 
-   {:.bs-callout-warning}
+   <div class="bs-callout bs-callout-warning" markdown="1">
+   If you are currently logged into the product you are trying to link and you click <span class="btn">Continue</span>, MIM will directly link the account where you are currently logged in. In order to be prompted to link any account of your choice, navigate to the product and logout of your account before you click <span class="btn">Continue</span>.
+
    If you click <span class="btn">Continue</span> and the page simply refreshes, this likely means you are still actively logged into the product. Navigate to the product and logout of your account in order to proceed.
+   </div>
 
 1. Enter the username and password combination of the Magento account you want to link, and then click <span class="btn">Continue</span>.
 
@@ -230,6 +239,9 @@ You are not forced to use MIM, and you can still log in to your account using th
 
    ![]({% link images/images/id-manager-mccom-login.png %}){: .zoom}
    _Account log in_
+
+{:.bs-callout-info}
+Logging in with the user account fields does not enable the single sign-on capability. Single sign-on is only active when you are logged into an Adobe ID and elect to use <span class="btn">Sign in with Adobe ID</span>.
 
 [1]: https://account.adobe.com
 [2]: https://identity.magento.com
