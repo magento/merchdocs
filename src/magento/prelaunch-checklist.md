@@ -24,7 +24,7 @@ After you complete the design, development, and testing of your store, check the
 - [Taxes]({% link tax/taxes.md %}) - Make sure that taxes are properly configured according to your business tax rules and local requirements.
 - [Shipping Methods]({% link shipping/shipping.md %}) - Enable all carriers and shipping methods to be used by the company.
 - [PayPal]({% link payment/paypal.md %}) - If you plan to offer your customers the convenience of paying with PayPal, open a PayPal Merchant Account, and set up a payment method. Run some test transactions in Sandbox Mode before the store goes live.
-- [Payment Methods]({% link payment/payment-methods.md %}) - Enable the payment methods that you plan to use, and make sure that they are properly configured. Check the order status settings, accepted currency, allowed countries, and so on.
+- [Payment Methods]({% link payment/payments.md %}) - Enable the payment methods that you plan to use, and make sure that they are properly configured. Check the order status settings, accepted currency, allowed countries, and so on.
 
 ## System settings
 

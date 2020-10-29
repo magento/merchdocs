@@ -377,7 +377,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Amazon Pay]({% link payment/amazon-pay.md %})|Updated Amazon links and added link to video tutorial.|
 |[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
 |[Braintree]({% link payment/braintree.md %})|Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
-|[Other Payment Methods]({% link payment/gateways.md %})|Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
+|[Online Payment Methods]({% link payment/online-payment-methods.md %})|Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
 |[Authorize.Net]({% link payment/authorize-net.md %})|Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
 |[CyberSource]({% link payment/cybersource.md %}) |Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
 |[eWay]({% link payment/eway.md %}) |Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|

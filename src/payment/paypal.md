@@ -1,5 +1,5 @@
 ---
-title: Other PayPal Solutions
+title: PayPal Payment Solutions
 redirect_from:
   - /payment/paypal-all-in-one.html
 ---
@@ -10,16 +10,16 @@ Beginning September 14, 2019, European banks may decline payments which do not m
 
 PayPal is a global leader in online payments and a fast and secure way for your customers to pay online. With PayPal and Magento, you can accept payments from all major debit and credit cards. PayPal offers additional convenience without extra effort, because even your customers who don’t have a PayPal account can pay for their purchases with PayPal. In this guide, PayPal payments solutions are categorized as follows:
 
-- [Recommended Solutions (Paypal Express Checkout) ]({% link payment/paypal-express-checkout.md %})
-- PayPal All-In-One Payment Solutions
-- PayPal Payment Gateways
+- **Recommended Solution** - [Paypal Express Checkout]({% link payment/paypal-express-checkout.md %})
+- [PayPal All-in-one payment solutions](#paypal-all-in-one-payment-solutions)
+- [PayPal Payment Gateways](#paypal-payment-gateways)
 
-The selection of available PayPal solutions varies by merchant location. PayPal Express Checkout and PayPal Payments Standard can be used in all parts of the world. To learn more, see: [PayPal Solutions by Country]({% link payment/paypal-countries.md %}).
+The selection of available PayPal solutions varies by merchant location. PayPal Express Checkout and PayPal Payments Standard can be used in all parts of the world. To learn more, see [PayPal Solutions by Country]({% link payment/paypal-countries.md %}).
 
 {:.bs-callout-info}
 You cannot have more than one PayPal method enabled at a time, with the exception of PayPal Express Checkout. PayPal Express Checkout can be used in combination with other PayPal payment methods, except for PayPal Payments Standard. If you change payment solutions, the previously method is disabled.
 
-## PayPal All-In-One Payment Solutions
+## PayPal All-in-one payment solutions
 
 In the United States, PayPal offers the following PCI-compliant solutions to meet the needs of your growing business.
 
@@ -27,10 +27,10 @@ In the United States, PayPal offers the following PCI-compliant solutions to mee
 - [PayPal Payments Pro]({% link payment/paypal-payments-pro.md %})
 - [PayPal Payments Standard]({% link payment/paypal-payments-standard.md %})
 
-![PayPal All-In-Payment Solutions]({% link images/images/config-sales-payment-methods-paypal-all-in-one-payment-solutions.png %}){: .zoom}
-_PayPal All-In-Payment Solutions_
+![PayPal all-in-one payment Solutions]({% link images/images/config-sales-payment-methods-paypal-all-in-one-payment-solutions.png %}){: .zoom}
+_Configuration - PayPal all-in-one payment solutions_
 
-## PayPal Payment Gateways
+## PayPal payment gateways
 
 PayPal offers a choice of two payment gateway solutions for your business. You can let PayPal host your checkout on its secure payment site, or you can take control of the entire payment experience with a completely customizable solution.
 
@@ -38,4 +38,4 @@ PayPal offers a choice of two payment gateway solutions for your business. You c
 - [PayPal Payflow Link]({% link payment/paypal-payflow-link.md %})
 
 ![PayPal Payment Gateways]({% link images/images/config-sales-payment-methods-paypal-payment-gateways.png %}){: .zoom}
-_PayPal Payment Gateways_
+_Configuration - PayPal payment gateways_

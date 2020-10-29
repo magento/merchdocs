@@ -206,23 +206,18 @@ pages:
 - label: Payments
   url: "/payment/payments.html"
   children:
-  - label: Recommended Solutions
-    url: "/payment/recommended-solutions.html"
+  - label: PayPal Payment Solutions
+    url: "/payment/paypal.html"
     children:
-    - label: PayPal Express Checkout
-      url: "/payment/paypal-express-checkout.html"
-      children:
-      - label: PayPal In-Context Checkout
-        url: "/payment/paypal-in-context-checkout.html"
-      - label: PayPal Billing Agreements
-        url: "/payment/paypal-billing-agreements.html"
-      - label: PayPal Settlement Reports
-        url: "/payment/paypal-settlement-reports.html"
-    - label: Braintree
-      url: "/payment/braintree.html"
-    - label: Other PayPal Solutions
-      url: "/payment/paypal.html"
-      children:
+      - label: PayPal Express Checkout
+        url: "/payment/paypal-express-checkout.html"
+        children:       
+          - label: PayPal In-Context Checkout
+            url: "/payment/paypal-in-context-checkout.html"
+          - label: PayPal Billing Agreements
+            url: "/payment/paypal-billing-agreements.html"
+          - label: PayPal Settlement Reports
+            url: "/payment/paypal-settlement-reports.html"
       - label: PayPal Payments Advanced
         url: "/payment/paypal-payments-advanced.html"
       - label: PayPal Payments Pro
@@ -233,19 +228,19 @@ pages:
         url: "/payment/paypal-payflow-pro.html"
       - label: PayPal Payflow Link
         url: "/payment/paypal-payflow-link.html"
-    - label: PayPal Reference
-      url: "/payment/paypal-payment-solutions.html"
-      children:
-      - label: PayPal Business Account
-        url: "/payment/paypal-business-account.html"
-      - label: PayPal Credit
-        url: "/payment/paypal-credit.html"
-      - label: PayPal Fraud Management Filter
-        url: "/payment/paypal-fraud-management-filter.html"
-      - label: PayPal by Country
-        url: "/payment/paypal-countries.html"
-  - label: Other Payment Methods
-    url: "/payment/gateways.html"
+      - label: PayPal Reference
+        url: "/payment/paypal-payment-solutions.html"
+        children:
+        - label: PayPal Business Account
+          url: "/payment/paypal-business-account.html"
+        - label: PayPal Credit
+          url: "/payment/paypal-credit.html"
+        - label: PayPal Fraud Management Filter
+          url: "/payment/paypal-fraud-management-filter.html"
+        - label: PayPal by Country
+          url: "/payment/paypal-countries.html"
+  - label: Online Payment Methods
+    url: "/payment/online-payment-methods.html"
     children:
     - label: Klarna
       url: "/payment/klarna.html"
@@ -265,6 +260,8 @@ pages:
         url: "/payment/amazon-pay-setup.html"
       - label: Managing Transactions
         url: "/payment/amazon-pay-manage.html"
+    - label: Braintree - Deprecated
+      url: "/payment/braintree.html"
     - label: Authorize.Net - Deprecated
       url: "/payment/authorize-net.html"
     - label: Authorize.Net Direct Post - Deprecated
@@ -279,7 +276,7 @@ pages:
       url: "/payment/worldpay.html"
       edition: ee-only
   - label: Offline Payment Methods
-    url: "/payment/payment-methods.html"
+    url: "/payment/offline-payment-methods.html"
     children:
     - label: Check / Money Order
       url: "/payment/check-money-order.html"
