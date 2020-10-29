@@ -2,40 +2,46 @@
 title: Check / Money Order
 ---
 
+Magento allows you to accept payments by check or money order. The Check / Money Order payment method is enabled for your story by default. You can accept checks and money orders from only specific countries, and fine tune the configuration with minimum and maximum order total limits.
 
-Magento allows you to accept payments by check or money order. The Check / Money Order payment method is enabled for your story by default. You can accept checks and money orders from only specific countries, and fine-tune the configuration with minimum and maximum order total limits.
+## Configure payment by check or money order
 
-![Check / Money Order]({% link images/images/config-sales-payment-methods-check-money-order.png %}){: .zoom}
-[_Check / Money Order_]({% link configuration/sales/payment-methods.md %})
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-## To configure payment by check or money order:
+1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. On the Admin sidebar, tap **Stores**. Then under **Settings**, choose **Configuration**.
+1. Under _Other Payment Methods_, expand ![]({% link images/images/btn-expand.png %}) the **Check / Money Order** section.
 
-1. In the panel on the left under **Sales**, choose **Payment Methods**.
+   ![Check / Money Order]({% link images/images/config-sales-payment-methods-check-money-order.png %}){: .zoom}
+   [_Check / Money Order configuration_]({% link configuration/sales/payment-methods.md %}#check--money-order)
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Check / Money Order** section. Then, do the following:
+   {:.bs-callout-info}
+   If necessary, first deselect the **Use system value** checkbox to change these settings.
 
-   - To accept payment by check or money order, set **Enabled** to “Yes.”
+1. To accept payment by check or money order, set **Enabled** to `Yes`.
 
-   - Enter a **Title** to identify the Check / Money Order payment method during checkout.
+1. Enter a **Title** to identify the Check / Money Order payment method during checkout.
 
-   - Set **New Order Status** to "Pending” until receipt of payment is confirmed.
+1. If orders typically wait for approval, accept the default **New Order Status** as `Pending”` until it is approved.
 
-   - Set **Payment from Applicable Countries** to one of the following:
+   If you prefer, you can use the `Processing` or `Suspected Fraud` status for new orders with this payment method.
 
-     |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
-     |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
+1. Set **Payment from Applicable Countries** to one of the following:
 
-   - In the **Make Check Payable To** field, enter the name of the party to whom the check must be payable.
+   |All Allowed Countries |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
+   |Specific Countries |After you choose this option, the _Payment from Specific Countries_ list appears. To select multiple countries, hold down the Ctrl key (PC) or the Command key (Mac) and click each option. |
 
-   - In the **Send Check To** field, enter the street address or PO Box where the checks are mailed.
+1. For **Make Check Payable To**, enter the name of the party to whom the check must be payable.
 
-   - Set **Minimum Order Total** and **Maximum Order Total** to the order amounts required to qualify for this payment method.
+1. For **Send Check To**, enter the street address or PO Box where the checks are mailed.
 
-     {:.bs-callout-info}
-     An order qualifies if the total falls between, or exactly matches, the minimum or maximum total values.
+1. Set **Minimum Order Total** and **Maximum Order Total** to the order amounts required to qualify for this payment method.
 
-   - Enter a **Sort Order** number to determine the position of Check / Money Order in the list of payment methods that is shown during checkout. (0 = first, 1 = second, 2 = third, and so on.)
+   {:.bs-callout-info}
+   An order qualifies if the total falls between, or exactly matches, the minimum or maximum total values.
 
-1. When complete, tap <span class="btn"> Save Config </span>.
+1. Enter a **Sort Order** number to determine the position of this item in the list of payment methods that is displayed during checkout.
+
+   This is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
+
+1. When complete, click <span class="btn">Save Config</span>.

@@ -278,7 +278,7 @@ pages:
     - label: Worldpay - Deprecated
       url: "/payment/worldpay.html"
       edition: ee-only
-  - label: Basic Payment Methods
+  - label: Offline Payment Methods
     url: "/payment/payment-methods.html"
     children:
     - label: Check / Money Order

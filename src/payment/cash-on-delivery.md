@@ -2,7 +2,6 @@
 title: Cash On Delivery
 ---
 
-
 Magento allows you to accept COD payments for purchases. You can accept COD payment from only specific countries, and fine-tune the configuration with minimum and maximum order total limits.
 
 The shipping carrier receives payment from the customer at the time of delivery, which is then transferred to you. You can make an adjustment for any fee charged by the carrier service in your shipping and handling charges.
@@ -10,32 +9,42 @@ The shipping carrier receives payment from the customer at the time of delivery,
 ![Cash on Delivery Payment]({% link images/images/config-sales-payment-methods-cash-on-delivery-payment.png %}){: .zoom}
 _Cash On Delivery Payment_
 
-## To set up cash on delivery payments:
+## Set up cash on delivery payments
 
-1. On the Admin sidebar, tap **Stores**. Then under **Settings**, choose **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the panel on the left, under **Sales**, select **Payment Methods**.
+1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Cash On Delivery Payment** section. Then, do the following:
+1. Under _Other Payment Methods_, expand ![]({% link images/images/btn-expand.png %}) the **Cash On Delivery Payment** section.
 
-   - To activate Cash On Delivery Payment, set **Enabled** to “Yes.”
+   ![Cash on Delivery Payment]({% link images/images/config-sales-payment-methods-cash-on-delivery-payment.png %}){: .zoom}
+   [_Cash On Delivery configuration_]({% link configuration/sales/payment-methods.md %}#cash-on-delivery-payment)
 
-   - Enter a **Title** to identify the COD payment method during checkout.
+   {:.bs-callout-info}
+   If necessary, first deselect the **Use system value** checkbox to change these settings.
 
-   - Set **New Order Status** to “Pending” until receipt of payment is confirmed.
+1. To activate Cash On Delivery Payment, set **Enabled** to `Yes`.
 
-   - Set **Payment from Applicable Countries** to one of the following:
+1. Enter a **Title** to identify the COD payment method during checkout.
 
-     |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
-     |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
+1. Set **New Order Status** to `Pending` until receipt of payment is confirmed.
 
-   - Enter the **Instructions** for accepting delivery of a COD order.
+   If you prefer, you can use the `Processing` or `Suspected Fraud` status for new orders with this payment method.
 
-   - Set **Minimum Order Total** and **Maximum Order Total** to the order amounts that are required to qualify for COD payment.
+1. Set **Payment from Applicable Countries** to one of the following:
 
-     {:.bs-callout-info}
-     An order qualifies if the total is between, or matches, the minimum or maximum order total.
+   |All Allowed Countries |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
+   |Specific Countries |After you choose this option, the _Payment from Specific Countries_ list appears. To select multiple countries, hold down the Ctrl key (PC) or the Command key (Mac) and click each option. |
 
-   - Enter a **Sort Order** number to determine the sequence in which Cash On Delivery is listed with other payment methods during checkout. (0 = first, 1 = second, 2 = third, and so on.)
+1. Enter the **Instructions** for accepting delivery of a COD order.
 
-1. When complete, tap <span class="btn"> Save Config </span>.
+1. Set **Minimum Order Total** and **Maximum Order Total** to the order amounts that are required to qualify for COD payment.
+
+   {:.bs-callout-info}
+   An order qualifies if the total is between, or matches, the minimum or maximum order total.
+
+1. Enter a **Sort Order** number to determine the position of this item in the list of payment methods that is displayed during checkout.
+
+   This is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
+
+1. When complete, click <span class="btn">Save Config</span>.
