@@ -54,11 +54,11 @@ Your credentials are transferred automatically from your Amazon Pay account to t
 
    - Enter the following credentials that you copied from Amazon Seller Central:
 
-     - **Merchant Id**
-     - **Access Key Id**
-     - **Secret Access Key**
-     - **Client ID**
-     - **Client Secret**
+      - **Merchant Id**
+      - **Access Key Id**
+      - **Secret Access Key**
+      - **Client ID**
+      - **Client Secret**
 
    - For **Credentials JSON**, enter the JSON string of all Amazon Pay seller credentials.
 
