@@ -91,7 +91,7 @@ The dashboard chart can be generated in real-time or by using historical, aggreg
 |--- |--- |
 |Lifetime Sales|The aggregated total sales during the lifetime of the store.|
 |Average Order|The average order amount during the lifetime of the store.|
-|Last Orders| A summary of the last five completed orders.|
+|Last Orders| A summary of the last five placed orders.|
 |Last Search Terms|The last five search terms.|
 |Top Search Terms|The five most commonly-used search terms.|
 
