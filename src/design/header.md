@@ -2,24 +2,27 @@
 title: Header
 ---
 
-The Header section identifies the path to your store logo, and specifies the logo alt text and welcome message.
+The Header configuration identifies the path to your store logo and specifies the logo alt text and welcome message.
 
-![]({% link images/images/config-design-header.png %}){: .zoom}
-_Header_
+![]({% link images/images/design-configuration-header.png %}){: .zoom}
+_Header configuration settings_
 
-## To configure the header:
+## Configure the header
 
 1. On the _Admin_ sidebar, go to **Content** > _Design_ > **Configuration**.
 
-1. Find the store view that you want to configure. Then, click **Edit** in the _Action_ column.
+1. Find the store view that you want to configure and click **Edit** in the _Action_ column.
 
-1. Under **Other Settings**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Header** section.
+1. Under _Other Settings_, expand ![]({% link images/images/btn-expand.png %}) the **Header** section.
 
-1. Make any changes necessary to the [logo]({% link design/logo-upload.md %}) and [welcome message]({% link design/welcome-message.md %}) settings.
+1. Make any changes needed for the store view:
 
-1. When complete, click <span class="btn">Save Config</span>.
+   - [Logo]({% link design/logo-upload.md %}) settings
+   - [Welcome message]({% link design/welcome-message.md %}) settings
 
-## Field Descriptions
+1. When complete, click <span class="btn">Save Configuration</span>.
+
+## Field descriptions
 
 |Field|Scope|Description|
 |--- |--- |--- |

@@ -3,7 +3,7 @@ title: Storefront Branding
 group: getting-started
 ---
 
-One of the first things you’ll want to do is to change the logo in the header, and upload a favicon for the browser. You’ll also want to update the copyright notice in the footer,. These are a few simple design tasks that you can take care of right away. While your store is in development, you can turn on the store demo notice, and then remove it when you’re ready to launch.
+One of the first things you will want to do is to [change the logo]({% link design/logo-upload.md %}) in the header and [upload a favicon]({% link design/favicon.md %}) for the browser. You will also want to [add your welcome message]({% link design/welcome-message.md %}) and [update the copyright notice]({% link design/copyright-notice.md %}) in the footer. These are a few simple design tasks that you can take care of right away. While your store is in development, you can [turn on the store demo notice]({% link design/demo-notice.md %}), and then remove it when you are ready to launch.
 
 ![]({% link images/images/storefront-home-page-branding.png %}){: .zoom}
-_Storefront Branding_
+_Storefront branding elements_
