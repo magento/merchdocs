@@ -9,6 +9,9 @@ _New products list on the storefront home page_
 
 ## Step 1: Set the date range for each product
 
+{:.bs-callout-info}
+For Magento Commerce customers, see [Scheduling an Update]({% link cms/content-staging-scheduled-update.md %}) and then continue to the Step 2 on this page.
+
 To make a product appear in the list by date range, the _New From_ dates must be entered in the product. The product then appears in the New Products list during the date range specified.
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.

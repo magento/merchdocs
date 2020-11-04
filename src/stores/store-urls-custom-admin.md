@@ -15,15 +15,15 @@ In a typical Magento installation, the Admin URL and path is immediately below 
 Although it is possible to change the Admin URL and path to another location, any mistake removes access to the Admin, and must be corrected from the server.
 
 {:.bs-callout-info}
-As a precaution, do not try to change the Admin URL by yourself unless you know how to edit configuration files on the server.
+As a precaution, do not try to change the Admin URL yourself unless you know how to edit configuration files on the server.
 
 ## Method 1: Change from the Magento Admin
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the left panel, expand _Advanced_ and choose **Admin**.
+1. In the left panel, expand **Advanced** and choose **Admin**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Admin Base URL** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Admin Base URL** section.
 
 1. Set the configuration options for the custom URL:
 
@@ -51,27 +51,62 @@ As a precaution, do not try to change the Admin URL by yourself unless you know 
 
 1. After the changes are saved, **Sign Out** of the Admin. Then, log back in using the new Admin URL and path.
 
-## Method 2: Change from the Server Command Line
+## Method 2: Change the Admin Path from the server command line
 
-1. Open the `app/etc/env.php` file in a text editor, and change the name of the `[admin]` path. Make sure to use only lowercase characters. Then, save the file.
+1. Open the `app/etc/env.php` file in a text editor, and change the value of the `frontName` parameter of the `backend` section. Then, save the file.
 
-    On the server, the _admin path_ is located in the `app/etc/env.php` file. Look for the `<adminhtml>` argument in the `<admin>` section:
+   Make sure to use only lowercase characters.
+
+   {:.bs-callout-info}
+   This method allows you to change the Admin Path, but not the Admin URL.
 
    - **Default Admin Path**
-
-        ```php?start_inline=1
-        # <frontName><![CDATA[admin]]></frontName>
-        ```
-        {: .no-copy}
+      ```php?start_inline=1
+      'backend' => [
+       'frontName' => 'admin'
+      ],
+      ```
+      {: .no-copy}
 
    - **New Admin Path**
-
-        ```php?start_inline=1
-        # <frontName><![CDATA[backend]]></frontName>
-        ```
-        {: .no-copy}
+      ```php?start_inline=1
+      'backend' => [
+          'frontName' => 'backend'
+      ],
+      ```
+      {: .no-copy}
 
 1. Use one of the following methods to clear the Magento cache:
 
    - On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management**. Then, click **Flush Magento Cache**.
-   - On the server, navigate to the `var/cache` folder and delete the contents of the `cache` folder.
+   - On the server, execute the following:
+      ```terminal
+      php bin/magento cache:flush
+      ```
+
+   {:.bs-callout-info}
+   Note that the changes made using Method 1 will have priority over the changes made in the `app/etc/env.php` file.
+
+## Restore the default Admin URL and Admin Path
+
+If you have set an invalid Admin URL or Admin Path and lost access to the backend, you can fix this from the command line.
+
+1. Execute this command to revert to the default Admin URL
+
+   ```terminal
+   php bin/magento config:set admin/url/use_custom 0
+   ```
+
+1. Execute this command to revert to the default Admin Path (set in the `app/etc/env.php` as described in the Method 2)
+
+   ```terminal
+   php bin/magento config:set admin/url/use_custom_path 0
+   ```
+
+1. Use one of the following methods to clear the Magento cache:
+
+   - On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management**. Then, click **Flush Magento Cache**.
+   - On the server, execute the following:
+      ```terminal
+      php bin/magento cache:flush
+      ```
