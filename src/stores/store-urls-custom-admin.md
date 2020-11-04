@@ -85,11 +85,11 @@ As a precaution, do not try to change the Admin URL yourself unless you know how
       ```
 
    {:.bs-callout-info}
-   Note that the changes made using the Method 1 will have the priority over the changes made in the `app/etc/env.php` file.
+   Note that the changes made using Method 1 will have priority over the changes made in the `app/etc/env.php` file.
 
 ## Restore the default Admin URL and Admin Path
 
-In case you have set an invalid Admin URL or an Admin Path and lost access to the backend, there is a way to fix this from the command line.
+If you have set an invalid Admin URL or Admin Path and lost access to the backend, you can fix this from the command line.
 
 1. Execute this command to revert to the default Admin URL
 
