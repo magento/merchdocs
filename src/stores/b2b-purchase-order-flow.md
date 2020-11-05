@@ -85,7 +85,7 @@ Dpending on their role, and the order, company users may be subjected to a numbe
 
 ![]({% link images/images-b2b/purchase-order-company-user.png %}){: .zoom}
    _Customer user purchase order flow_
-   
+
 Offline payment details are entered before submitting the purchase order. This allows the purchase order to be converted to an order after getting approved.
 
 Because storing online payment details during the approval process is a security risk, these details are added after approval and then purchase order is converted to a real order.
