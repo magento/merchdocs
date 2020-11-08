@@ -2,36 +2,32 @@
 title: Cart Thumbnails
 ---
 
-The thumbnail images in the cart give customers a quick overview of the items they are about to purchase. However, for products with multiple options, the image might not match the variation of the product that is in the cart. If the customer purchases an item in a specific color, ideally, the thumbnail in the cart should match.
+The thumbnail images displayed in the cart give customers a quick overview of the items they are about to purchase. However, for products with multiple options, the image might not match the variation of the product that is in the cart. If the customer purchases an item in a specific color, ideally, the thumbnail in the cart should match.
 
-The thumbnail image for both grouped and configurable products can be set to display the image from either the “parent” product or from the product variation. The setting applies to all grouped or configurable products in the current store view.
+The thumbnail image for both grouped and configurable products can be set to display the image from either the “parent” product or from the product variation.
 
-![]({% link images/images/storefront-cart.png %}){: .zoom}
-_Thumbnail Images in Cart_
+![The shopping cart displays thumbnail images for each of the added products]({% link images/images/storefront-cart.png %}){: .zoom}
+_Thumbnail images displayed in the cart_
 
-## To configure cart thumbnails:
+## Configure cart thumbnails
 
-1. On the Admin sidebar, click **Stores**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the _Settings_ section, choose **Configuration**.
+1. In the left panel, expand **Sales** and choose **Checkout**.
 
-1. In the _Sales_ section on the left panel, choose **Checkout**.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Shopping Cart** section.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Shopping Cart** section.
+   ![The shopping cart configuration settings expanded on the page]({% link images/images/config-sales-checkout-shopping-cart.png %}){: .zoom}
+   [_Shopping cart configuration settings_]({% link configuration/sales/checkout.md %})
 
-    ![]({% link images/images/config-sales-checkout-shopping-cart.png %}){: .zoom}
-    _[Shopping Cart]({% link configuration/sales/checkout.md %})_
+1. Set **Grouped Product Image** to determine the thumbnail that is used in the cart for [grouped products]({% link catalog/product-create-grouped.md %}):
 
-1. Configure the cart thumbnail settings:
+   Product Thumbnail Itself|Uses the thumbnail assigned to the product variation that is added to the cart.|
+   Parent Product Thumbnail|Uses the thumbnail assigned to the parent product.|
 
-   - Set **Grouped Product Image** to one of the following:
+1. Set **Configurable Product Image** to determine the thumbnail that is used in the cart for [configurable products]({% link catalog/product-create-configurable.md %}#step-3-configure-the-images-price-and-quantity):
 
-      - Product Thumbnail Itself
-      - Parent Product Thumbnail
+   Product Thumbnail Itself|Uses the thumbnail assigned to the product variation that is added to the cart.|
+   Parent Product Thumbnail|Uses the thumbnail assigned to the parent product.|
 
-   - Set **Configurable Product Image** to one of the following:
-
-      - Product Thumbnail Itself
-      - Parent Product Thumbnail
-
-1. Click **Save Config**.
+1. Click <span class="btn">Save Config</span>.

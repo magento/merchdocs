@@ -19,7 +19,7 @@ group: getting-started
 |Products|Individual products are assigned to the hierarchy at the website level. The Products grid lists all products in the catalog, and the websites where they are available. The [Product in Websites]({% link catalog/settings-basic-websites.md %}) setting identifies each website where the product is available.|
 |Product Prices|[Product prices]({% link catalog/catalog-price-scope.md %}) can be configured to be applied at either a global or website level.|
 |Payment Methods|[Payment methods]({% link payment/payments.md %}) are configured at the website level, although the title and instructions can be configured for each store view.|
-|Checkout|The [checkout process]({% link sales/checkout-process.md %}) takes place at the website level, although some display options can be configured for each store view. All stores associated with a website have the same [checkout configuration]({% link sales/checkout-configuration.md %}).|
+|Checkout|The [checkout process]({% link sales/checkout-process.md %}) takes place at the website level, although some display options can be configured for each store view. All stores associated with a website have the same [checkout configuration]({% link sales/checkout-options.md %}).|
 |**Store**||
 |Root Category|Each store can have a separate set of products and main menu that is based on a “root” category and subcategories. Each catalog has a [root category]({% link catalog/category-root.md %}) that is assigned at the store level.|
 |**Store View**||
