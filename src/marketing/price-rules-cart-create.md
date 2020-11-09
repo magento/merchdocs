@@ -134,6 +134,9 @@ _Conditions_
    - Total Items Quantity
    - Total Weight
 
+ {:.bs-callout-warning}
+ For Purchase Orders only: When a Cart Price Rule is set based on Payment Method, and the payment method is changed after the purchase order is approved, the discount remains applied to the total.
+
 ## Step 3: Define the Actions
 
 The shopping cart price rule actions describe how prices are updated when the conditions are met.
