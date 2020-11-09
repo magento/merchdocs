@@ -1,5 +1,5 @@
 ---
-title: Sharing Your Account
+title: Sharing Your Magento Account
 group: getting-started
 ---
 
@@ -11,7 +11,7 @@ The Magento Support team does not have access to the account and cannot set up s
 All actions taken by users with shared access are the sole responsibility of the primary account holder. Adobe is not responsible for any actions taken by users who have shared access to your account.
 
 ![]({% link images/images/magento-account-shared-access.png %}){: .zoom}
-_Shared Access_
+_Shared access settings_
 
 ## Set up a shared account
 
@@ -22,10 +22,12 @@ _Shared Access_
 
 1. Log in to your [Magento account]({% link magento/magento-account.md %}).
 
-1. In the left panel, click **Shared Access**. Then, click <span class="btn">Add New User</span>.
+1. In the left panel, click **Shared Access**.
+
+1. Click <span class="btn">Add New User</span>.
 
    ![]({% link images/images/magento-account-shared-access-add-new-user.png %}){: .zoom}
-   _Add New User_
+   _Add a new user_
 
 1. Under _New User Information_, do the following:
 
@@ -33,27 +35,24 @@ _Shared Access_
    - Enter the **Email** address that is associated with the new user's Magento account.
 
    ![]({% link images/images/magento-account-shared-access-new-user-info.png %}){: .zoom}
-   _New User Information_
+   _New user information_
 
 1. Under _Shared Information_, do the following:
 
    - Enter a **Share Name** to identify the shared account. The Share Name is for internal reference, and is visible only to you and the person with whom you share your account.
-   - If you want to share your personal contact information with the new user, enter the following:
-
-      - Your Email
-      - Your Phone
+   - If you want to share your personal contact information with the new user, enter **Your Email** and **Your Phone**.
 
 1. Under _Grant Account Permissions_, select the checkbox of each Magento product and service that you want to share.
 
    ![]({% link images/images/magento-account-shared-permissions-all.png %}){: .zoom}
-   _Grant Account Permissions_
+   _Grant the account permissions_
 
 1. When complete, click <span class="btn">Create Shared Access</span>.
 
    The new user information appears in the _Manage Permissions_ section of the Shared Access page, and an email invitation with instructions to access the shared account is sent to the new user.
 
    ![]({% link images/images/magento-account-shared-manage-permissions.png %}){: .zoom}
-   _Manage Permissions_
+   _Manage permissions for shared access_
 
 ## Access a shared account
 
@@ -69,13 +68,11 @@ The following instructions are written from the perspective of a shared user who
 1. To gain access to the shared account, set **Switch Accounts** to the name of the shared account.
 
    ![]({% link images/images/magento-account-shared-switch.png %}){: .zoom}
-   _Switch to Shared Account_
+   _Switch to the shared account_
 
    The shared account displays a welcome message and contact information. The left panel includes only the items that you have permission to use.
 
-1. To connect the shared account to the Magento Help Center, do the following:
-
-   In the left panel of the shared account, click **Support**.
+1. To connect the shared account to the Magento Help Center, click **Support** in the left panel of the shared account.
 
    ![]({% link images/images/magento-account-shared-support.png %}){: .zoom}
    _Support_
@@ -85,7 +82,7 @@ The following instructions are written from the perspective of a shared user who
    ![]({% link images/images/magento-account-shared-help-center.png %}){: .zoom}
    _Magento Help Center_
 
-1. To return to your own account, click the **Back** button in your browser. Then, set **Switch Accounts** to `My Account`.
+1. To return to your own account, click the **Back** button in your browser and set **Switch Accounts** to `My Account`.
 
 ## Revoke shared access
 

@@ -10,31 +10,32 @@ Address search is not enabled by default. You must configure this feature to inc
 
 When this feature is enabled and the customer's number of saved addresses meets or exceeds the configured limit, only one address is displayed (the default address, if the customer has one) for the _Shipping_ and _Review & Payments_ steps. The customer can change the selected address by clicking **Change Address** and then searching for the correct address by city, state, street, or zip. This feature also supports address selection for gift registry checkout.
 
-![]({% link images/images-ee/storefront-checkout-address-search.png %}){: .zoom}
-_Select Shipping Address_
+![Luma storefront checkout with saved shipping addresses displayed]({% link images/images-ee/storefront-checkout-address-search.png %}){: .zoom}
+_Selecting a shipping address during checkout_
 
-If the customer does not have a default shipping address, the Shipping page displays "No address selected" and the customer must click **Change Address** to select a saved address or click <span class="btn">New Address</span> to add and select an address before proceeding with the checkout. If the customer does not have a default billing address, the Review & Payments page displays the address selected for shipping along with the Change Address option.
+If the customer does not have a default shipping address, the _Shipping_ page displays _No address selected_, and the customer must click **Change Address** to select a saved address or click <span class="btn">New Address</span> to add and select an address before proceeding with the checkout. If the customer does not have a default billing address, the _Review & Payments_ page displays the address selected for shipping along with the _Change Address_ option.
 
-![]({% link images/images-ee/storefront-checkout-address-search-no-default.png %}){: .zoom}
+![Luma storefront checkout with No address selected message]({% link images/images-ee/storefront-checkout-address-search-no-default.png %}){: .zoom}
 _No address selected_
 
-- {:.b2b-only}Enabling address search also affects the checkout for negotiated quotes where customer's number of saved addresses meets or exceeds the configured limit. When the quote is complete and the customer proceeds to the checkout, only the selected shipping address is displayed. The page also displays a message that the shipping address is locked and can only be changed in the quote.
+{:.b2b-only}
+## Locked address search for quotes
+
+Enabling address search also affects the checkout for negotiated quotes where customer's number of saved addresses meets or exceeds the configured limit. When the quote is complete and the customer proceeds to the checkout, only the selected shipping address is displayed. The page also displays a message that the shipping address is locked and can only be changed in the quote.
 
 ![]({% link images/images-b2b/storefront-checkout-quote-address-limit.png %}){: .zoom}
-_Shipping address locked for quote_{:.b2b-only}
+_Shipping address locked for a quote_
 
 ## Enable address search
 
-1. On the _Admin_ sidebar, click **Stores**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the _Settings_ section, choose **Configuration**.
+1. In the left panel, expand **Sales** and choose **Checkout**.
 
-1. In the _Sales_ section in the left panel, choose **Checkout**.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Checkout Options** section.
 
-1. Expand ![]({% link images/images/btn-expand.png %})the **Checkout Options** section.
-
-    ![]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
-    [_Checkout Options_]({% link configuration/sales/checkout.md %})
+   ![The Configuration page displays the Checkout Options]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
+   [_Sales configuration - checkout options_]({% link configuration/sales/checkout.md %})
 
 1. Set **Enable Address Search** to `Yes`.
 
@@ -42,6 +43,6 @@ _Shipping address locked for quote_{:.b2b-only}
 
    If necessary, clear the **Use system value** checkbox to make this change.
 
-   When the customer's number of saved addresses meets or exceeds this limit, the page displays either the default address (if the customer has one) or "No address selected" with the **Change Address** option. The default limit is 10.
+   When the customer's number of saved addresses meets or exceeds this limit, the page displays either the default address (if the customer has one) or _No address selected_ with the _Change Address_ option. The default limit is `10`.
 
-1. Click **Save Config**.
+1. Click <span class="btn">Save Config</span>.

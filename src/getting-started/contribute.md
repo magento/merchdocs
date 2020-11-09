@@ -10,11 +10,11 @@ Our User Guide is open source and hosted in a [public-facing repository on GitHu
 
 ## Working with collaborative documentation
 
-As a Magento user---regardless of whether you are an employee, partner, customer, or even a prospective customer---you have the opportunity of contributing to this documentation in several simple ways:
+As a Magento user---regardless of whether you are an Adobe employee, partner, customer, or even a prospective customer---you have the opportunity to contribute to this documentation in several simple ways:
 
 - Log a GitHub issue for a specific page
 - Submit a quick edit where you see basic errors
-- Author entire pages, including graphics
+- Author entire sections or pages, including graphics
 
 The information in this topic outlines everything you need to know about how to interact with and contribute to this User Guide.
 
@@ -43,7 +43,7 @@ For content contributions to be accepted and published, whether large or small, 
 
 ### Provide a quick edit
 
-Making quick edits is a good way to fix small errors and omissions in the User Guide. If a page displays an edit link (as shown below), you can make a quick fix yourself. When you edit the document, you send us a pull request (PR) to submit the fix/suggestion to us. Then we can review, approve, and publish the submitted change.
+Making edits is a good way to fix small errors and omissions in the _User Guide_. If a page displays an edit link, you can make a quick fix yourself. When you edit the document, you send us a pull request (PR) to submit the fix/suggestion to us. Then we can review, approve, and publish the submitted change.
 
 1. Open the User Guide page you want to edit or update.
 
@@ -77,9 +77,9 @@ Making quick edits is a good way to fix small errors and omissions in the User G
 
 That's it! Magento Docs team members will review and merge your PR so that your changes can be included in our automated publishing process.
 
-### Author a new page
+### Author a new section or page
 
-We recognize that our partners and customers have a great deal of knowledge from their real-world experiences with Magento. When you share your knowledge, all of the Magento community members benefit. A new page based on how you solved an eCommerce requirement in Magento, for instance, is a great addition to our User Guide.
+We recognize that our partners and customers have a great deal of knowledge from their real-world experiences with Magento. When you share your knowledge, the whole Magento community benefits. A new page based on how you solved an ecommerce requirement in Magento, for example, is a great addition to our User Guide.
 
 Our [GitHub wiki][5] provides detailed information about authoring content, our markdown syntax, and page navigation.
 

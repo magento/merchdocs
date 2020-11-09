@@ -4,8 +4,8 @@ title: Guest Checkout
 
 Your store can be configured to require shoppers to open an account before making a purchase. The default setting allows guests to make purchases, with an option to register for an account after they complete the checkout process.
 
-![]({% link images/images/storefront-checkout-as-guest.png %}){: .zoom}
-_Checkout as Guest_
+![The sample Luma store displays Check Out as Guest]({% link images/images/storefront-checkout-as-guest.png %}){: .zoom}
+_Checkout method - Check out as guest_
 
 ## Disable guest checkout
 
@@ -13,15 +13,17 @@ _Checkout as Guest_
 
 1. On the left panel, expand **Sales** and choose **Checkout**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Checkout Options** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Checkout Options** section.
 
-    ![]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
-    _[Checkout Options]({% link configuration/sales/checkout.md %})_{:.ee-only}
+   ![The checkout options expanded on the configuration page]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
+   _[Checkout options configuration settings]({% link configuration/sales/checkout.md %})_
 
-1. If necessary, clear the **Use system value** checkbox.
+1. If the setting is for a specific store view, [choose the store view]({% link configuration/scope-change.md %}) where the configuration applies.
 
-1. If the setting is for a specific store view, choose the store view where the configuration applies. When prompted, click **OK** to continue.
+   When prompted, click **OK** to continue.
 
 1. Set **Allow Guest Checkout** to `No`.
 
-1. Click **Save Config**.
+   If necessary, clear the **Use system value** checkbox to enable changes to this setting.
+
+1. Click <span class="btn">Save Config</span>.

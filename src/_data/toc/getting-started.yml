@@ -214,7 +214,7 @@ pages:
 - label: Resources
   url: "/getting-started/resources.html"
   children:  
-  - label: Join the Conversation!
+  - label: Join the Conversation
     url: "/getting-started/magento-ecosystem.html"
   - label: Technical Resources
     url: https://magento.com/technical-resources
