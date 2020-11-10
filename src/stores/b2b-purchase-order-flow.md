@@ -72,20 +72,11 @@ The purchase order workflow can also be different depending on who is doing the 
 
 All these factors can have an influence on the exact checkout process.
 
-## Company admin flow
+## Purchase order flow
 
-Since company administrators can bypass established approval rules, their checkout process is straightforward.
+Dpending on their role, and the order, company users may be subjected to a number of approval rules. And depending on whether using online or offline payment methods, the flow is slightly different. Company admins can create orders automatically, bypassing the approval rules.
 
-![]({% link images/images-b2b/purchase-order-admin-user.png %}){: .zoom}
-   _Customer administrator purchase order flow_
-
-## Company user flow
-
-Dpending on their role, and the order, company users may be subjected to a number of approval rules. And depending on whether using online or offline payment methods, the flow is slightly different.
-
-![]({% link images/images-b2b/purchase-order-company-user.png %}){: .zoom}
-   _Customer user purchase order flow_
-
-Offline payment details are entered before submitting the purchase order. This allows the purchase order to be converted to an order after getting approved.
+![]({% link images/images-b2b/purchase-order-flow.png %}){: .zoom}
+   _Purchase order flow_
 
 Because storing online payment details during the approval process is a security risk, these details are added after approval and then purchase order is converted to a real order.
