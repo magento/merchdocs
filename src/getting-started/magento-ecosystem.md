@@ -1,35 +1,34 @@
 ---
-title: Join the Conversation!
+title: Join the Conversation
 ---
 
 Keep up with the latest news from the ecosystem, and connect with other merchants and developers on social media networks.
 
-[Magento Forums][1]
-:  This is the place to find solutions, become acquainted with international communities, and join a special interest chat! Share your knowledge and earn kudos from others!
+Magento Forums
+:  The [forums][1]{:target="_blank"} are the place to find solutions, become acquainted with international communities, and join a special interest chat. Share your knowledge and earn kudos from others.
 
-[Facebook][2]{:target="_blank"}
-: Find out what’s happening and join the discussion on our Facebook page!
+Facebook
+: Find out what is happening and join the discussion on our [Facebook page][2].
 
-[Twitter][3]{:target="_blank"}
-:  Follow us on Twitter!
+Twitter
+:  Follow us on [Twitter][3].
 
-[LinkedIn][4]{:target="_blank"}
-:  Join a Magento group on LinkedIn.
+LinkedIn
+:  Join a Magento group on [LinkedIn][4].
 
-[Google+][5]{:target="_blank"}
-:  Add us to your circle on Google+.
+Google+
+:  Add us to your circle on [Google+][5].
 
-[YouTube][7]{:target="_blank"}
-:  Learn while you watch videos on our YouTube channel!
+YouTube
+:  Learn while you watch videos on our [YouTube channel][7].
 
-[Meetup][8]{:target="_blank"}
-:  Find a Magento Meetup near you!
+Meetup
+:  Find a [Magento Meetup][8] near you.
 
 [1]: https://community.magento.com/
 [2]: https://www.facebook.com/magento
 [3]: https://twitter.com/magento
 [4]: https://www.linkedin.com/company/magento?trk=top_nav_home
 [5]: https://plus.google.com/+magento/posts
-[6]: http://www.youtube.com/user/magentocommerce/featured
 [7]: https://www.youtube.com/user/magentocommerce/featured "Magento on YouTube"
-[8]: http://www.meetup.com/find?allMeetups=false&amp;keywords=Magento&amp;radius=Infinity&amp;userFreeform=San+Jose%2C+CA&amp;mcId=z95101&amp;mcName=San+Jose%2C+CA&amp;sort=default
+[8]: https://www.meetup.com/find/?keywords=Magento
