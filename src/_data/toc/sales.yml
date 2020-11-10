@@ -237,12 +237,10 @@ pages:
     - label: Klarna
       url: "/payment/klarna.html"
       children:
-      - label: Customer Experience
+      - label: Klarna Storefront Experience
         url: "/payment/klarna-customer-experience.html"
       - label: Setting Up Klarna
         url: "/payment/klarna-setup.html"
-      - label: Managing Your Account
-        url: "/payment/klarna-manage.html"
     - label: Amazon Pay
       url: "/payment/amazon-pay.html"
       children:
