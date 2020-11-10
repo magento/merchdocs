@@ -120,7 +120,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
    ![PayPal Payments Advanced]({% link images/images/config-sales-payment-methods-paypal-payments-pro.png %}){: .zoom}
    _Payments Pro - Configure_
 
-### Step 2: Complete the Required PayPal Settings
+### Step 2: Complete the required PayPal settings
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Payments Pro and Express Checkout** section.
 
@@ -160,7 +160,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. If you want to securely store customer payment/credit card details, so customers do not have to reenter payment information each time, set **Vault Enabled** to `Yes`.
 
-### Step 3: Complete the Advertise PayPal Credit (optional)
+### Step 3: Set up Advertise PayPal Credit (optional)
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Advertise PayPal Credit** section.
 

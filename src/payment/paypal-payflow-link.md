@@ -126,7 +126,7 @@ _Required PayPal Settings - PayPal Payflow Link_
 
 1. If you want to offer [PayPal Credit]({% link payment/paypal-credit.md %}) to your customers, set **Enable PayPal Credit** to `Yes`.
 
-### Step 4: Complete the Advertise PayPal Credit (optional)
+### Step 4: Set up Advertise PayPal Credit (optional)
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Advertise PayPal Credit** section.
 

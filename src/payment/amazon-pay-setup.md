@@ -23,7 +23,7 @@ You must have the following resources available to complete the Amazon Pay setup
 
 1. If needed, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Other Payment Methods** section.
 
-1. For _Amazon Pay_, click <span class="btn">Configure</span> .
+1. For _Amazon Pay_, click <span class="btn">Configure</span>.
 
    ![Sales configuration - Amazon Pay]({% link images/images/config-sales-payment-methods-amazon-pay.png %}){: .zoom}
    [_Amazon Pay_]({% link configuration/sales/amazon-pay.md %})

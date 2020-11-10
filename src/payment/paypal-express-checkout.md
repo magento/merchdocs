@@ -38,12 +38,12 @@ PayPal Express Checkout does not support orders with multiple-addresses.
 
 PayPal’s _In-Context Checkout_ makes it easier than ever to pay online. Customers never lose sight of your store during this simplified one- or two-click seamless checkout. In-context checkout works equally well on Macs and PCs, and offers a consistent experience on desktop computers, tablets, and mobile devices. To learn more, see [In-Context Checkout in Express Checkout][5].
 
-![PayPal In-Context Checkout Demo]({% link images/images/storefront-paypal-in-context.png %}){: .zoom}
+![PayPal in-context checkout demo]({% link images/images/storefront-paypal-in-context.png %}){: .zoom}
 [_PayPal in-context checkout demo_][6]
 
 When you configure your store for PayPal Express Checkout, you can enable this option.
 
-## Configure your PayPal Account
+## Configure your PayPal account
 
 Before you set up PayPal Express Checkout in Magento, you must configure your merchant account on the PayPal website.
 
@@ -155,7 +155,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 This completes the required PayPal settings. You can continue with the Basic and Advanced Settings or click <span class="btn">Save Config</span> and return later to adjust the configuration
 
-### Step 4: Complete the Advertise PayPal Credit (optional)
+### Step 4: Set up Advertise PayPal Credit (optional)
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Advertise PayPal Credit** section.
 
@@ -187,7 +187,7 @@ This completes the required PayPal settings. You can continue with the Basic and
    ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
    _Advertise PayPal Credit - Home Page Settings_
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the remaining sections and repeat the previous steps:
+1. Expand ![]({% link images/images/btn-expand.png %}) the remaining sections and repeat the previous steps:
 
    - Catalog Category Page
    - Catalog Product Page
@@ -401,7 +401,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
 #### Customize Smart Buttons
 
-The _Smart Payment Buttons_ feature allows you to customize the PayPal button, which can be displayed on the Checkout, Product Detail, Cart, and Mini Cart pages. PayPal's internal research suggests that the default options are highly recognizable and might lead to increase purchase rates, but their defaults might not match your store's styling. You can choose:
+The _Smart Payment Buttons_ feature allows you to customize the PayPal button, which can be displayed on the Checkout, Product Detail, Cart, and Mini Cart pages. PayPal's internal research suggests that the default options are highly recognizable and might lead to increase purchase rates, but their defaults might not match your store styling. You can choose:
 
 - The size, color, and shape of the PayPal button
 - The text that appears on the PayPal button
@@ -466,7 +466,7 @@ Features settings allow you to disable certain features related to this PayPal s
 
 1. Set the **Disable Funding Options** to determine which other PayPal funding options are displayed on the Checkout page.
 
-   Selected options will never be displayed on the Checkout page. Unselected options will be displayed only if PayPal supports the store's currency and the buyer's location. Options include:
+   Selected options will never be displayed on the Checkout page. Unselected options will be displayed only if PayPal supports the store currency and the buyer location. Options include:
 
    - PayPal Credit
    - PayPal Guest Checkout Credit Card Icons
