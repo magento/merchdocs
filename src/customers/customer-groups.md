@@ -91,5 +91,3 @@ You can also use Advance pricing to apply product discounts to customer groups. 
 1. In the button bar, click **Delete Customer Group**.
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
-
-1. When complete, click <span class="btn">Save Customer Group</span>.
