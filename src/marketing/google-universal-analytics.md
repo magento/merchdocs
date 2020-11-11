@@ -32,4 +32,7 @@ Visit the Google website, and sign up for a [Google Universal Analytics][1] acco
 
 1. When complete, click <span class="btn">Save Config</span>.
 
+{:.bs-callout-warning}
+If you enable the [Cookie Restriction Mode]({% link stores/compliance-cookie-restriction-mode.md %}), Google Analytics will not collect data about visitors unless they have accepted cookies.
+
 [1]: https://support.google.com/analytics/answer/2817075?hl=en

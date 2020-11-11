@@ -6,7 +6,7 @@ A site map improves the way your store is indexed by search engines, and is spec
 
 When enabled, Magento creates a file called `sitemap.xml` that is saved to your installation in the location that you specify. The configuration gives you the ability to set the frequency of the updates, and the priority for each type of content. Your site map should be updated as frequently as the content on your site changes, which might be daily, weekly, or monthly.
 
-While your site is in development, you might include instructions in the `robots.txt` file for webcrawlers to avoid indexing the site. Then before the launch, you can change the instructions to allow the site to be indexed.
+While your site is in development, you might include instructions in the `robots.txt` file for web crawlers to avoid indexing the site. Then before the launch, you can change the instructions to allow the site to be indexed.
 
 For technical information, see [Add sitemap and robots.txt][1]{:target="_blank"} in the developer documentation.
 
