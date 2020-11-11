@@ -11,7 +11,7 @@ B2B merchants often require capabilities such as:
 - Flexible bulk and per-unit pricing
 - [Negotiable Quotes](https://docs.magento.com/user-guide/sales/quotes.html)
 - [Requisition Lists](https://docs.magento.com/user-guide/configuration/customers/requisition-lists.html)
-- [Purchase Orders](https://docs.magento.com/user-guide/payment/purchase-order.html)
+- [Purchase Orders](https://docs.magento.com/user-guide/configuration/general/b2b-features.html)
 
 To learn about Magento Commerce for B2B from a technical perspective, see the [B2B Developer Guide][1]{:target="_blank"}.
 
