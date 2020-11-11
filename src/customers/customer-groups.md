@@ -22,7 +22,7 @@ _Customer Groups_
 
 1. When complete, click <span class="btn">Apply Filters</span>.
 
-   The page displays the subset of filtered customer groups and members.
+   The page displays the subset of filtered customer groups.
 
 ## Create a customer group
 
