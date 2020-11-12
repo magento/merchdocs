@@ -10,12 +10,12 @@ See payments across multiple providers, as well as the linked Magento order and 
 
 You can download payout reports in a .csv file format for use in existing accounting or order management software.
 
+## Availability
+
 On the _Admin_ sidebar, go to **Sales** > **Magento Payments** > **Payout reports** to see Payout reports.
 
 ![Magento Admin - Payout reports({% link images/images-ee/system-reports.png %}){: .zoom}
 _Manage Payout reports_
-
-## Availability
 
 From the Payout reports view, you can view and download existing reports and create new reports based on custom time frames or pre-set periods, such as _Last 30 days_ or _Year to date_.
 
@@ -69,7 +69,7 @@ Year to date | Available from the Payout dates selector, this report shows infor
 Custom range | Available from the Payout dates selector, this report can be filtered to show a custom date range.
 {:style="table-layout:auto;"}
 
-## Report information
+## Column descriptions
 
 Payout reports include the following information.
 
@@ -108,12 +108,12 @@ Cur (recoup amt) | Currency unit for the recoup amount
 
 ## Transaction types
 
-The following are the types of transactions that may be noted in Payout reports.
+These transaction types may be noted in Payout reports.
 
 Report | Description
 ------------ | --------------------
 PAYMENT | Money moved between a buyer and a seller for an order
-AUTH | Available from the Payout dates selector, this report shows information for the current day.
+AUTH | Authorization and authorization void transactions
 BONUS | TBD
 CHARGEBACK | Chargeback fee and chargeback fee reversal transactions
 CORRECTION | TBD
