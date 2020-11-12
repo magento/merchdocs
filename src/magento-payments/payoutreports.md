@@ -4,7 +4,8 @@ title: Payout Reports
 ---
 
 Payout reports show comprehensive payout information at-a-glance, allowing you full transparency into the processed volume, payment balance, and detailed reporting on the transaction level for financial reconciliation.
-You can efficiently cross-reference orders and payments and reconcile accounts---all from one place.
+
+You don't have to open multiple dashboards or views to cross-reference orders and payments or reconcile accounts. Magento Payments enables you to take all these actions from one place so that you can view and manage your reports efficiently.
 
 See payments across multiple providers, as well as the linked Magento order and transaction IDs, transaction amounts, payment method per transaction, and more, all within Payout reports in the Admin.
 
@@ -30,33 +31,31 @@ In the **Action** column of the grid, select one of the following:
 
 ## View Payout reports
 
-By default, the Payout reports view shows the last seven days of daily reports. You can also [create custom reports](#create-a-new-payout-report) based on a specified timeframe.
-
-To view a report:
+By default, the Payout reports view shows the last seven days of daily reports. You can also [customize reports](#customize-a-new-payout-report) based on a specified timeframe.
 
 1. On the _Admin_ sidebar, go to **Sales** > **Magento Payments** > **Payout reports**.
 1. Click a payout report from the reports list.
 1. View [information for each transaction](#column-descriptions) in the daily report, including transaction date, reference ID, invoice number, and payment method details.
 
-## Create a new Payout report
+## Customize a new Payout report
 
 1. On the _Admin_ sidebar, go to **Sales** > **Magento Payments** > **Payout reports**.
 1. Click the Payout dates calendar filter.
-1. Select the desired timeframe for your report---_Today_, _Last 7 days_, _Last 30 days_, _Last 90 days_, _Year to date_, or _Custom range_. See the [Available Payout reports section](#available-payout-reports) for more info.
+1. Select the desired timeframe for your report---_Today_, _Last 7 days_, _Last 30 days_, _Last 90 days_, _Year to date_, or _Custom range_. See the [Default Payout report views section](#default-payout-report-views) for more information.
    - If you selected _Custom range_, choose the applicable date range for your payout report.
 1. View your new report in the Payout reports list.
 
 ## Download Payout reports
 
 1. On the _Admin_ sidebar, go to **Sales** > **Magento Payments** > **Payout reports**.
-1. To download multiple reports, check to select them from the list and click the _Download_ (![]({% link images/images/btn-download.png %})) icon.
+1. To download multiple reports, select each checkbox in the list and click the _Download_ (![]({% link images/images/btn-download.png %})) icon.
 1. To download a single report, click the _Download_ (![]({% link images/images/btn-download.png %})) icon in the Actions column for a specific report.
 
 Your report(s) are downloaded in a .csv format.
 
-## Available Payout reports
+## Default Payout report views
 
-These Payout reports are currently available in Magento Payments.
+These Payout report views are currently available in Magento Payments.
 
 Report | Description
 ------------ | --------------------
@@ -67,7 +66,6 @@ Last 30 days | Available from the Payout dates selector, this report shows infor
 Last 90 days | Available from the Payout dates selector, this report shows information for the last 90 days.
 Year to date | Available from the Payout dates selector, this report shows information for the the entire year to date.
 Custom range | Available from the Payout dates selector, this report can be filtered to show a custom date range.
-{:style="table-layout:auto;"}
 
 ## Column descriptions
 
@@ -104,7 +102,6 @@ Hold amt | Amount put on hold or released from hold; A dash (-) prefix indicates
 Cur (hold amt) | Currency unit for the hold amount
 Recoup amt | Amount recouped from the recoup account; Funds moving out of the recoup account show a dash (-) prefix.
 Cur (recoup amt) | Currency unit for the recoup amount
-{:style="table-layout:auto;"}
 
 ## Transaction types
 
@@ -130,4 +127,3 @@ RECOUP | Recoups from bank or loss accounts
 REFUND | TBD
 REVERSAL | TBD
 WITHDRAWAL | TBD
-{:style="table-layout:auto;"}
