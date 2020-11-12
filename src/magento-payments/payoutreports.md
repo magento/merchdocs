@@ -36,7 +36,7 @@ To view a report:
 
 1. On the _Admin_ sidebar, go to **Sales** > **Magento Payments** > **Payout reports**.
 1. Click a payout report from the reports list.
-1. View [information for each transaction](#report-information) in the daily report, including transaction date, reference ID, invoice number, and payment method details.
+1. View [information for each transaction](#column-descriptions) in the daily report, including transaction date, reference ID, invoice number, and payment method details.
 
 ## Create a new Payout report
 
