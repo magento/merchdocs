@@ -135,7 +135,7 @@ _Conditions_
    - Total Weight
 
  {:.bs-callout-warning}
- For purchase orders only: When a Cart Price Rule is set based on specific Payment Method(s), the discount is applied to the total when a purchase order is created. If, after the purchase order is created, the payment method is changed to something not covered by the Cart Price rule, the discount remains applied to the total.
+ For purchase orders only: When a Cart Price Rule is set based on a specific Payment Method(s), the discount is applied to the total when a purchase order is created. If, after the purchase order is created, the payment method is changed to something not covered by the Cart Price rule, the discount remains applied to the total.
 
 ## Step 3: Define the Actions
 
