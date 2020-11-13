@@ -11,3 +11,5 @@ On the _Admin_ sidebar, go to **System** > _Data Transfer_ > **Import History**
 
 ![Data import history]({% link images/images/data-import-history.png %}){: .zoom}
 _Import History_
+
+By default, import history files location is `<Magento root directory>/var/import_history` folder. If remote storage like Amazon S3 is enabled, import history files location is `<Remote storage root directory>/import_export/import_history` folder.
