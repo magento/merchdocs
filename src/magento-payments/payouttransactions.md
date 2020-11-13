@@ -1,68 +1,63 @@
 ---
 ee_only: false
-title: Payout Reports
+title: Payout Transactions
 ---
 
-Payout reports show comprehensive payout information at-a-glance, allowing you full transparency into the processed volume, payment balance, and detailed reporting on the transaction level for financial reconciliation.
+Payout transactions shows comprehensive payout information at-a-glance, allowing you full transparency into the processed volume, payment balance, and detailed reporting on the transaction level for financial reconciliation.
 
-You don't have to open multiple dashboards or views to cross-reference orders and payments or reconcile accounts. Magento Payments enables you to take all these actions from one place so that you can view and manage your reports efficiently.
+You don't have to open multiple dashboards or views to cross-reference orders and payments or reconcile accounts. Magento Payments enables you to take all these actions from one place so that you can view and manage your payouts efficiently.
 
-See payments across multiple providers, as well as the linked Magento order and transaction IDs, transaction amounts, payment method per transaction, and more, all within Payout reports in the Admin.
+See payments across multiple providers, as well as the linked Magento order and transaction IDs, transaction amounts, payment method per transaction, and more, all within Payout transactions in the Admin.
 
-You can download payout reports in a .csv file format for use in existing accounting or order management software.
+You can download payout transactions in a .csv file format for use in existing accounting or order management software.
 
 ## Availability
 
-On the _Admin_ sidebar, go to **Sales** > **Magento Payments** > **Payout reports** to see Payout reports.
+On the _Admin_ sidebar, go to **Sales** > **Magento Payments** > **Payout transactions** to see Payout transactions.
 
-![Magento Admin - Payout reports({% link images/images-ee/system-reports.png %}){: .zoom}
-_Manage Payout reports_
+![Magento Admin - Payout transactions]({% link images/images-ee/system-reports.png %}){: .zoom}
+_Payout transactions in the Admin_
 
-From the Payout reports view, you can view and download existing reports and create new reports based on custom time frames or pre-set periods, such as _Last 30 days_ or _Year to date_.
+From the Payout transactions view, you can customize the timeframe of the transactions you want to view by selecting specific dates or viewing transactions for pre-set periods, such as _Last 30 days_ or _Year to date_.
 
-Payout reports are generated and available by 9:00am in the leading time zone of the reporting window.
+## View transactions
 
-## Manage Payout reports
+By default, 30 days of Payout transactions are shown in the grid.
 
-In the **Action** column of the grid, select one of the following:
+Scroll to the left and right to view [information for each transaction](#column-descriptions) in the daily report, including transaction date, reference ID, invoice number, and payment method details.
 
-- `View` - Use this function to view the details of the report.
-- `Download` - Use this function to save the report as an .cvs file.
+The number of Payout transactions that are visible, for the default 30 day timeframe or a [customized timeframe](#customize-transactions-timeframe), are shown above the transactions grid as a records count.
 
-## View Payout reports
+## Customize transactions timeframe
 
-By default, the Payout reports view shows the last seven days of daily reports. You can also [customize reports](#customize-a-new-payout-report) based on a specified timeframe.
+If you want to see all Payout transactions for a time period other than the default last 30 days, you can customize the Payout transaction timeframe for specified dates.
 
-1. On the _Admin_ sidebar, go to **Sales** > **Magento Payments** > **Payout reports**.
-1. Click a payout report from the reports list.
-1. View [information for each transaction](#column-descriptions) in the daily report, including transaction date, reference ID, invoice number, and payment method details.
+1. On the _Admin_ sidebar, go to **Sales** > **Magento Payments** > **Payout transactions**.
+1. Click the Payout transaction dates calendar selector filter.
+1. Select the desired timeframe for your report---_Yesterday_, _Last 7 days_, _Last 30 days_, _Last 90 days_, _Year to date_, or _Custom range_. See the [Default transactions timeframes section](#default-transactions-timeframes) for more information.
+   - If you selected _Custom range_, choose the applicable date range.
+1. View the Payout transactions for your specified dates in the grid.
 
-## Customize a new Payout report
+## Download transactions
 
-1. On the _Admin_ sidebar, go to **Sales** > **Magento Payments** > **Payout reports**.
-1. Click the Payout dates calendar filter.
-1. Select the desired timeframe for your report---_Today_, _Last 7 days_, _Last 30 days_, _Last 90 days_, _Year to date_, or _Custom range_. See the [Default Payout report views section](#default-payout-report-views) for more information.
-   - If you selected _Custom range_, choose the applicable date range for your payout report.
-1. View your new report in the Payout reports list.
+You can download a .csv file with all of the transactions visible in the Payout transactions view grid, whether you are viewing the default 30 days of transactions or a customized timeframe.
 
-## Download Payout reports
+1. On the _Admin_ sidebar, go to **Sales** > **Magento Payments** > **Payout transactions**.
+1. If you want to see transactions for a timeframe other than the last 30 days, [specify your preferred date range](#customize-transactions-timeframe).
+1. Click the _Download_ (![]({% link images/images/btn-download.png %})) icon.
 
-1. On the _Admin_ sidebar, go to **Sales** > **Magento Payments** > **Payout reports**.
-1. To download multiple reports, select each checkbox in the list and click the _Download_ (![]({% link images/images/btn-download.png %})) icon.
-1. To download a single report, click the _Download_ (![]({% link images/images/btn-download.png %})) icon in the Actions column for a specific report.
+Your transactions are downloaded in a .csv format.
 
-Your report(s) are downloaded in a .csv format.
+## Default transactions timeframes
 
-## Default Payout report views
-
-These Payout report views are currently available in Magento Payments.
+These Payout transactions timeframes are currently available in Magento Payments.
 
 Report | Description
 ------------ | --------------------
-Daily | Available by default in the payments list grid for the last seven days, this report shows information for a single day.
+Yesterday | Available from the Payout dates selector, this report shows information for the prior date.
 Today | Available from the Payout dates selector, this report shows information for the current day.
 Last 7 days | Available from the Payout dates selector, this report shows information for the last seven days.
-Last 30 days | Available from the Payout dates selector, this report shows information for the last 30 days.
+Last 30 days | Available from the Payout dates selector and by default in the Payout transactions view, this report shows information for the last 30 days.
 Last 90 days | Available from the Payout dates selector, this report shows information for the last 90 days.
 Year to date | Available from the Payout dates selector, this report shows information for the the entire year to date.
 Custom range | Available from the Payout dates selector, this report can be filtered to show a custom date range.
