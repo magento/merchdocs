@@ -8,6 +8,7 @@ Purchase orders allow companies to track and control spending. When purchase ord
 
 The purchase order workflow can vary in a few ways:
 
+- If no approval rules are set, purchase orders can be placed and the order completed directly.
 - If approval rules are established, regular users will go through the approval process.
 - Company admins can bypass the approval rules.
 - Offline payment details are entered when creating the purchase order.
@@ -17,7 +18,7 @@ This topic will cover basic concepts and workflows for purchase orders.
 
 ## Basic purchase order workflow
 
-Companies use purchase orders to control which employees can purchase on behalf of the company and often set up approval rules to enforce company guidelines. Depending on the approval rules, multiple people might have to approve the order.
+Companies use purchase orders to control what employees can purchase on behalf of the company and often set up approval rules to enforce company guidelines. Depending on the approval rules, multiple people might have to approve the order.
 
 1. User creates a purchase order for $25,000 worth of goods.
 1. Their manager has to approve.
@@ -74,7 +75,7 @@ All these factors can have an influence on the exact checkout process.
 
 ## Purchase order flow
 
-Dpending on their role, and the order, company users may be subjected to a number of approval rules. And depending on whether using online or offline payment methods, the flow is slightly different. Company admins can create orders automatically, bypassing the approval rules.
+Depending on their role, and the order, company users may be subjected to a number of approval rules. And depending on whether using online or offline payment methods, the flow is slightly different. Company admins can create orders automatically, bypassing the approval rules.
 
 ![]({% link images/images-b2b/purchase-order-flow.png %}){: .zoom}
    _Purchase order flow_
