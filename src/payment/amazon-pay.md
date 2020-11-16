@@ -4,7 +4,7 @@ redirect_from:
   - /payment/amazon-pay-resources.html
 ---
 
-Amazon Pay and _Login with Amazon_ offer your customers a secure and convenient way to pay that is easy to set up, and that helps to increase conversions and sales. Customers who log in to your store with their Amazon credentials can speed through checkout using the payment and shipping information that is already stored in their Amazon accounts.
+Amazon Pay and Login with Amazon offer your customers a secure and convenient way to pay that is easy to set up, and that helps to increase conversions and sales. Customers who log in to your store with their Amazon credentials can speed through checkout using the payment and shipping information that is already stored in their Amazon accounts.
 
 For international merchants with a region in EU or UK, Amazon Pay provides a [multi-currency feature][1]. If you list prices in more than one currency, this feature allows a customer to select their currency and pay the exact amount quoted on the site, without concern for conversion or rates.
 
@@ -12,7 +12,7 @@ For international merchants with a region in EU or UK, Amazon Pay provides a [m
 
 ## Feature highlights
 
-- [Shop Safely][2] - Customer purchases are protected by Amazon’s A-to-z Guarantee. Customer password and payment information is never shared.
+- [Shop Safely][2] - Customer purchases are protected by Amazon’s A-to-Z Guarantee. Customer password and payment information is never shared.
 
 - [Speed Through Checkout]({% link payment/amazon-pay-customer-experience.md %}) - During checkout, shipping and payment information is read directly from the customer’s Amazon Payments account.
 
