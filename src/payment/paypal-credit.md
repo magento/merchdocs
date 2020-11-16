@@ -2,7 +2,7 @@
 title: PayPal Credit
 ---
 
-PayPal Credit offers your customers quick access to financing, so they can buy now and pay over time, at no additional cost to you. You are not charged when customers choose PayPal Credit, and pay only your normal PayPal transaction fee. To learn more, see [PayPal Credit][1] on the PayPal website.
+PayPal Credit offers your customers quick access to financing, so they can buy now and pay over time, at no additional cost to you. You are not charged when customers choose PayPal Credit, and you pay only your normal PayPal transaction fee. To learn more, see [PayPal Credit][1] on the PayPal website.
 
 Give your sales a boost when you advertise financing. PayPal helps turn browsers into buyers with financing with PayPal Credit. Your customers can pay over time, while you get paid up front --- at no additional cost to you. Use PayPal free banner ads that let you advertise PayPal Credit financing as a payment option when your customers check out with PayPal. The PayPal Advertising Program has been shown to generate additional purchases and increase average purchase sizes by 15% or more.
 

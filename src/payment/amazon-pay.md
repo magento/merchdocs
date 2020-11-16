@@ -12,7 +12,7 @@ For international merchants with a region in EU or UK, Amazon Pay provides a [m
 
 ## Feature highlights
 
-- [Shop Safely][2] - Customer purchases are protected by Amazon’s A-to-z Guarantee. Customer password and payment information is never shared.
+- [Shop Safely][2] - Customer purchases are protected by Amazon’s A-to-Z Guarantee. Customer password and payment information is never shared.
 
 - [Speed Through Checkout]({% link payment/amazon-pay-customer-experience.md %}) - During checkout, shipping and payment information is read directly from the customer’s Amazon Payments account.
 

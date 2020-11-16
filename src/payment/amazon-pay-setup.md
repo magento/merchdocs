@@ -98,7 +98,7 @@ When you are through testing and ready to go live with Amazon Pay, return to the
 1. Set **Authorization Mode** to determine the method that is used to transmit authorization data.
 
    | Immediate | (Default) Makes the disposition of an authorization available within a couple of seconds. |
-   | Automatic | (Recommended) Uses synchronous authorization if possible, and switches to asynchronous processing as needed for some declines. The change in processing modes is transparent to the user. The status of sales order is _Pending_ while the disposition of authorization is outstanding. |
+   | Automatic | (Recommended) Uses synchronous authorization, if possible, and switches to asynchronous processing as needed for some declines. The change in processing modes is transparent to the user. The status of sales order is _Pending_ while the disposition of authorization is outstanding. |
 
 1. Set **Update Mechanism** to one of the following:
 
@@ -189,7 +189,7 @@ When you are through testing and ready to go live with Amazon Pay, return to the
 
 1. Make sure that **Logging** is set to `Yes`.
 
-   After the setup is complete and logs are generated, you can return to this location and select a link in **Developer Logs** to download to view Client and IPN logs. If logs are not available or have not been generated, a message displays `No logs are currently available.`
+   After the setup is complete and logs are generated, you can return to this location and select a link in **Developer Logs** to download to view Client and IPN logs. If logs are not available or have not been generated, the `No logs are currently available.` message appears.
 
 1. To limit the availability of the _Login with Amazon_ and _Amazon Pay_ buttons, specify the **Allowed IPs**.
 

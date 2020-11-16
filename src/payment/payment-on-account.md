@@ -23,7 +23,7 @@ Payment on Account is an offline payment method that allows companies to make pu
 
 1. Enter a **Title** to identify the this payment method during checkout, or you can accept the `Payment on Account` default title.
 
-1. If orders typically wait for approval, accept the default **New Order Status** as `Pending”` until it is approved.
+1. If orders typically wait for approval, accept the default **New Order Status** as `Pending` until it is approved.
 
    If you prefer, you can use the `Processing` or `Suspected Fraud` status for new orders with this payment method.
 
