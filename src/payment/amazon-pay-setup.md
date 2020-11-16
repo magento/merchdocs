@@ -205,7 +205,7 @@ When you are through testing and ready to go live with Amazon Pay, return to the
 1. When prompted to update the cache, click **Cache Management** in the system message and follow the instructions to refresh the cache.
 
 [1]: https://amzn.github.io/amazon-payments-magento-2-plugin/index.html
-[2]: https://pay.amazon.com/uk/developer/documentation/lpwa/201953980#ENTER_LANGUAGE_PARAMETER
+[2]: https://developer.amazon.com/docs/eu/amazon-pay-onetime/intro.html
 [3]: https://pay.amazon.com/us/merchant/tools
 [4]: https://pay.amazon.com/signup
 [5]: https://amzn.github.io/amazon-payments-magento-2-plugin/configuration.html#credentials
