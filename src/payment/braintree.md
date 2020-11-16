@@ -5,7 +5,7 @@ title: Braintree
 {:.bs-callout-warning}
 **Deprecation Notice** <br/>
 Due to the Payment Service Directive [PSD2]({% link stores/compliance-payment-services-directive.md %}) and the continued evolution of many APIs, this payment integration is at risk of becoming outdated and no longer security compliant. For this reason, it is now deprecated and we are recommending that you disable it in your Magento 2.3.x configuration and transition to the official Braintree payment extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). <br/><br/>
-**This integration has been deprecated from current versions of 2.3.x.**<br/><br/>
+**This integration has been deprecated from current versions of 2.4.x.**<br/><br/>
 
 Braintree offers a fully customizable checkout experience with fraud detection and PayPal integration. Braintree reduces the PCI compliance burden for merchants because the transaction takes place on the Braintree system.
 
