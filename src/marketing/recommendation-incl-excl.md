@@ -4,9 +4,10 @@ tag: product-recommendations
 ee_only: true
 ---
 
-When you create a product recommendation unit, you can apply rules that filter what appears or does not appear to your shoppers. These rules can be static or dynamic. A static rule uses existing product attributes to determine which products appear in the unit. For example, you can specify that you only want products that are greater than $25 and are not on sale to appear in the unit. A dynamic rule uses a set of dynamic attributes to determine which products appear in the unit. For example, most apparel has an attribute of `gender` with a value of `men` or `women`. If the shopper is browsing men's jackets, a dynamic filter only recommends products where `gender = men`.
+When you create a product recommendation unit, you can apply inclusion and exclusion rules that filter what products appear or do not appear to your shoppers. These rules can be [static or dynamic](#staticdyn). A static rule uses existing product attributes to determine which products appear in the unit. For example, you can specify that you only want products that are greater than $25 and are not on sale to appear in the unit. A dynamic rule uses a set of dynamic attributes to determine which products appear in the unit. For example, most apparel has an attribute of `gender` with a value of `men` or `women`. If the shopper is browsing men's jackets, a dynamic filter only recommends products where `gender = men`.
 
-Installation... will need to upgrade your existing extension (steps for how to..link to install content)
+{:.bs-callout-info}
+To ensure you have the latest version of the `magento/product-recommendations` module, see the [release notes](https://devdocs.magento.com/recommendations/release-notes.html).
 
 ## Inclusion and exclusion rules
 
@@ -25,13 +26,13 @@ _Category inclusions_
 
 |---|---|
 |Option|Description|
-|**Category of current product viewed**|blah|
-|**All categories other than current product viewed**|blah|
+|**Category of current product viewed**|Magento uses direct category assignments and their subcategories. For example, if the category of the product is `Gear`, enabling this rule includes products that have categories under `Gear`, such as `Gear/Bags` or `Gear/Fitness Equipment`.|
+|**All categories other than current product viewed**|Includes products that are not under the current product's category or subcategories|
 |**Specific categories selected**|Search for and select which categories you want to include. Magento displays the previously selected categories (if any)|
 
 #### Price
 
-The **Price** inclusion rule lets you include products within a specified price range. With the **Price** filter, you can specify products over a certain threshold, only include products over a certain dollar value, and so on.
+The **Price** inclusion rule lets you include products within a specified price range. With the **Price** rule, you can specify products over a certain threshold, only include products over a certain dollar value, and so on.
 
 ![Price inclusions]({% link images/images-ee/prex-incl-price.png %}){: .zoom}
 _Price inclusions_
@@ -39,12 +40,12 @@ _Price inclusions_
 |---|---|
 |Option|Description|
 |**Set price range**|Specify the **Min Price** and **Max Price** of the products to include|
-|**Greater than or equal to current product**|blah|
-|**Less than or equal to current product**|blah|
+|**Greater than or equal to current product**|Includes products of greater than or equal value|
+|**Less than or equal to current product**|Includes products of less than or equal value|
 |**Within a value range of current product**|Specify in store currency: **Less than current product price** or **More than current product price**|
-**Within a percent range of current product**|Specify in percent: **Less than current product price** or **More than current product price**|
+|**Within a percent range of current product**|Specify in percent: **Less than current product price** or **More than current product price**|
 
-Need more discussion about discounts, final price, taxes, etc
+What about discounts, final price, taxes, etc?
 
 #### Product
 
@@ -66,8 +67,8 @@ _Type inclusions_
 
 |---|---|
 |Option|Description|
-|**Product type matches currently viewed**|blah|
-|**Product type does not match currently viewed**|blah|
+|**Product type matches currently viewed**|Includes products that are the same type as the current product type. If a shopper is viewing a **Simple** product, only other **Simple** products are displayed.|
+|**Product type does not match currently viewed**|Includes products that are not the same type as the current product type. If a shopper is viewing a **Virtual** product, other product types are displayed.|
 |**Product type matches specifically selected**|Options are:<br>**Simple**<br>**Configurable**<br>**Bundled**<br>**Grouped**<br>**Virtual**<br>**Downloadable**<br>**Gift card**|
 
 #### Visibility
@@ -79,8 +80,8 @@ _Visibility inclusions_
 
 |---|---|
 |Option|Description|
-|**Visibility matches currently viewed**|blah|
-|**Visibility does not match currently viewed**|blah|
+|**Visibility matches currently viewed**|Includes products that are within the same visibility setting, such as **Catalog** or **Search**|
+|**Visibility does not match currently viewed**|Includes products that are not within the same visibility setting. So if the current product is set to be visible in the catalog, products set to be visible in search only are displayed.|
 |**Visibility matches specifically selected**|Options are:<br>**Catalog**<br>**Search**<br>**Catalog, search**|
 
 ### Exclusion rules
@@ -96,8 +97,8 @@ _Category exclusions_
 
 |---|---|
 |Option|Description|
-|**Category of current product viewed**|blah|
-|**All categories other than current product viewed**|blah|
+|**Category of current product viewed**|Magento uses direct category assignments and their subcategories. For example, if the category of the product is `Gear`, enabling this rule excludes products that have categories under `Gear`, such as `Gear/Bags` or `Gear/Fitness Equipment`.|
+|**All categories other than current product viewed**|Excludes products that are not under the current product's category or subcategories|
 |**Specific categories selected**|Search for and select which categories you want to exclude. Magento displays the previously selected categories (if any)|
 
 #### Price
@@ -110,12 +111,12 @@ _Price exclusions_
 |---|---|
 |Option|Description|
 |**Set price range**|Specify the **Min Price** and **Max Price** of the products to exclude|
-|**Greater than or equal to current product**|blah|
-|**Less than or equal to current product**|blah|
+|**Greater than or equal to current product**|Excludes products of greater than or equal value|
+|**Less than or equal to current product**|Excludes products of less than or equal value|
 |**Within a value range of current product**|Specify in store currency: **Less than current product price** or **More than current product price**|
-**Within a percent range of current product**|Specify in percent: **Less than current product price** or **More than current product price**|
+|**Within a percent range of current product**|Specify in percent: **Less than current product price** or **More than current product price**|
 
-Need more discussion about discounts, final price, taxes, etc
+What about discounts, final price, taxes, etc?
 
 #### Product
 
@@ -148,8 +149,8 @@ _Type exclusions_
 
 |---|---|
 |Option|Description|
-|**Product type matches currently viewed**|blah|
-|**Product type does not match currently viewed**|blah|
+|**Product type matches currently viewed**|Excludes products that are the same type as the current product type. If a shopper is viewing a **Simple** product, other **Simple** products are not displayed.|
+|**Product type does not match currently viewed**|Excludes products that are not the same type as the current product type. If a shopper is viewing a **Virtual** product, other product types are not displayed.|
 |**Product type matches specifically selected**|Options are:<br>**Simple**<br>**Configurable**<br>**Bundled**<br>**Grouped**<br>**Virtual**<br>**Downloadable**<br>**Gift card**|
 
 #### Visibility
@@ -161,16 +162,23 @@ _Visibility exclusions_
 
 |---|---|
 |Option|Description|
-|**Visibility matches currently viewed**|blah|
-|**Visibility does not match currently viewed**|blah|
+|**Visibility matches currently viewed**|Excludes products that are within the same visibility setting, such as **Catalog** or **Search**|
+|**Visibility does not match currently viewed**|Excludes products that are not within the same visibility setting. If the current product is visible in the catalog, products visible in search only are displayed.|
 |**Visibility matches specifically selected**|Options are:<br>**Catalog**<br>**Search**<br>**Catalog, search**|
 
 ## Using Operators
 
-If using both inclusion and exclusion rules, Magento applies And/Or logic operators as per the following:
+If using both inclusion and exclusion rules, Magento applies AND/OR logic operators as per the following:
 
-- Ors with multi-select within inclusions or within exclusions
-- Ands for includes
-- Ors for excludes
+- ORs with multi-select within inclusions or within exclusions
+- ANDs for inclusions
+- ORs for exclusions
 
-## Best practices using inclusions/exclusions
+## Static versus dynamic rules {#staticdyn}
+
+Static rules are based off of manually specified values. Dynamic rules are based off of the currently viewed product, page, or cart. The following describes which rule type is supported on each page type.
+
+|---||---||---||---||---||---||---|
+|**Rule Type**|**Home**|**Category**|**Product Details**|**Cart**|**Order Confirmation**|**Page Builder**|
+|**Static**|Category<br>Price<br>Products<br>Stock<br>Type<br>Visibility|Category<br>Price<br>Products<br>Stock<br>Type<br>Visibility|Category (specified)<br>Price (min/max)<br>Products (specified)<br>Stock<br>Type (specified)<br>Visibility (specified)|Category<br>Price<br>Products<br>Stock<br>Type<br>Visibility|Category<br>Price<br>Products<br>Stock<br>Type<br>Visibility|Category<br>Price<br>Products<br>Stock<br>Type<br>Visibility|
+|**Dynamic**|None|Category (same as category viewed)|Category (same, different)<br>Price (+/- % or $)<br>Products<br>Stock<br>Type (same, different)<br>Visibility (same, different)|Category (same as categories of products in Cart)|Category (same as categories of products in most recent purchase)|None|
