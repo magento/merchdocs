@@ -3,7 +3,7 @@ ee_only: false
 title: Payouts
 ---
 
-Payouts shows comprehensive payout information at-a-glance, allowing you full transparency into the processed volume, payment balance, and detailed reporting on the transaction level for financial reconciliation.
+Payouts shows comprehensive payout information at-a-glance, allowing you full transparency into the payment amount, processed volume, and detailed reporting on the transaction level for financial reconciliation.
 
 You don't have to open multiple dashboards or views to cross-reference orders and payments or reconcile accounts. Magento Payments enables you to take all these actions from one place---Payouts---so that you can view and manage your payouts efficiently.
 
@@ -43,7 +43,7 @@ If you want to see all payout transactions for a time period other than the defa
 You can download a .csv file with all of the transactions visible in the Payouts view grid, whether you are viewing the default 30 days of transactions or a customized timeframe.
 
 1. On the _Admin_ sidebar, go to **Sales** > **Magento Payments** > **Payouts**.
-1. If you want to see transactions for a timeframe other than the last 30 days, [specify your preferred date range](#customize-transactions-timeframe).
+1. If you want to see transactions for a timeframe other than the last 30 days, [customize the date range timeframe for your transactions](#customize-transactions-timeframe).
 1. Click the _Download_ (![]({% link images/images/btn-download.png %})) icon.
 
 Your payout transactions are downloaded in a .csv format.
