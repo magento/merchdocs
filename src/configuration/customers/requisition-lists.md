@@ -8,12 +8,12 @@ This feature is available for both logged-in users and guests.
 
 Customer can have multiple lists that focus on products from different vendors, buyers, teams, campaigns, or anything else that streamlines your workflow.
 
-1. RequisitionList functionality is similar to wish lists, but it has the following differences: 
+1. RequisitionList functionality is similar to wish lists, but it has the following differences:
 
     - A requisition list is not cleared after sending items to the shopping cart. It can be used to place multiple orders.
     - The UI for requisition lists has been modified to a compact view in order to display large number of items.
+    
 2. The merchant can configure maximum number of requisition lists per customer.
-
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) > Requisition Lists
 
