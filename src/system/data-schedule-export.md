@@ -55,7 +55,6 @@ After each export, the export file is placed in the user-defined location, and a
 
     ![Scheduled export file information]({% link images/images-ee/data-transfer-scheduled-export-file-information.png %}){: .zoom}
     _Export File Information_
-    
     {:.bs-callout-info}
     If remote storage like Amazon S3 is enabled, `Local Server` **Server Type** is automatically switched to `Remote Storage`.
 

@@ -94,7 +94,7 @@ _Import_
    For example: `product_images`.
 
    {:.bs-callout-info}
-   Starting with the Magento `2.3.2` release, the path specified in the **Images File Directory** concatenates for import to the images base directory - `<Magento root folder>/var/import/images`. Using this case as an example, `product_images` files should be placed into `<Magento root directory>/var/import/images/product_images` folder. Import images base directory can be configured in `\Magento\ImportExport\etc\config.xml`. If remote storage like Amazon S3 is used in Magento, import files should be placed into `<Remote storage root directory>/var/import/images/product_images`.
+   Starting with the Magento `2.3.2` release, the path specified in the **Images File Directory** concatenates for import to the images base directory - `<Magento root folder>/var/import/images`. Using this case as an example, `product_images` files should be placed in the `<Magento root directory>/var/import/images/product_images` folder. The import images base directory can be configured in `\Magento\ImportExport\etc\config.xml`. If remote storage like Amazon S3 is used in Magento, import files should be placed in the `<Remote storage root directory>/var/import/images/product_images` folder.
 
    To learn more about importing product images, see [Importing Product Images]({% link system/data-import-product-images.md %}).
 

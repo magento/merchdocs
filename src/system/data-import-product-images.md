@@ -15,7 +15,7 @@ Before you try to import a large amount of images, review the steps in the impor
 
 ## Method 1: Import Images from the Local Server
 
-1. On the Magento server, upload the image files to the `var/import/images` folder or its subfolder, for example, `var/import/images/product_images` folder. This is the default root folder for importing product images:
+1. On the Magento server, upload the image files to the `var/import/images` folder or its subfolder, for example, `var/import/images/product_images`. This is the default root folder for importing product images:
 
     ```
     <Magento root folder>/var/import/images
@@ -39,12 +39,11 @@ Before you try to import a large amount of images, review the steps in the impor
 1. After selecting the file to import, enter the relative path following **Images File Directory** `var/import/images`:
 
     ```
-    e.g. product_images
+    var/import/images/product_images
     ```
 
     ![Data import images file directory]({% link images/images/data-import-file-to-import.png %}){: .zoom}
     _Images File Directory_
-    
     {:.bs-callout-tip}
     Leave **Images File Directory** empty if you are running the import on Magento `2.3.2`/`2.3.2-p2`/`2.3.3`/`2.3.4` versions or higher and files were uploaded into import images base directory - `<Magento root folder>/var/import/images`.
 
@@ -62,9 +61,9 @@ Before you try to import a large amount of images, review the steps in the impor
 
 1. Follow the instructions to [import]({% link system/data-import.md %}) the data.
 
-## Method 3: Import Images with Remote Storage
+## Method 3: Import images with remote storage
 
-1. On the Remote storage like Amazon S3, upload the image files to the `var/import/images` folder or its subfolder, for example, `var/import/images/product_images` folder. This is the default root folder for importing product images:
+1. On the Remote storage like Amazon S3, upload the image files to the `var/import/images` folder or its subfolder, for example, `var/import/images/product_images`. This is the default root folder for importing product images:
 
     ```
     <Remote storage root folder>/var/import/images
@@ -88,12 +87,11 @@ Before you try to import a large amount of images, review the steps in the impor
 1. After selecting the file to import, enter the relative path following **Images File Directory** `var/import/images`:
 
     ```
-    e.g. product_images
+    var/import/images/product_images
     ```
 
     ![Data import images file directory]({% link images/images/data-import-file-to-import.png %}){: .zoom}
     _Images File Directory_
-    
     {:.bs-callout-tip}
     Leave **Images File Directory** empty if you are running the import on Magento `2.3.2`/`2.3.2-p2`/`2.3.3`/`2.3.4` versions or higher and files were uploaded into import images base directory - `<Magento root folder>/var/import/images`.
 
