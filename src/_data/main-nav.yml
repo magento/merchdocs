@@ -159,6 +159,9 @@
   - label: Payments
     url: /payment/payments.html
 
+  - label: Payment Services
+    url: /payment-services/index.html
+
   - label: Delivery
     url: /shipping/delivery.html
 

@@ -239,6 +239,39 @@ pages:
       url: "/payment/zero-subtotal-checkout.html"
   - label: Fraud Protection
     url: "/sales/fraud-protection.html"
+- label: Payment Services
+  url: "/payment-services/index.html"
+  children:
+  - label: Payment options
+    url: "/payment-services/payments-options.html"
+  - label: Onboard Payment Services
+    url: "/payment-services/onboard-payments.html"
+    children:
+    - label: Install Payment Services
+      url: "/payment-services/install-payments.html"
+  - label: Configure Payment Services
+    url: "/payment-services/configure-payments.html"
+  - label: Financial reporting
+    url: "/payment-services/financial-reporting.html"
+    children:
+    - label: Payouts report
+      url: "/payment-services/payouts.html"
+    - label: Order payment status report
+      url: "/payment-services/order-payment-status.html"
+  - label: Manage payments
+    url: "/payment-services/manage-payments.html"
+    children:
+    - label: Refunds
+      url: "/payment-services/refunds.html"
+    - label: Voids
+      url: "/payment-services/voids.html"
+  - label: Security
+    url: "/payment-services/security.html"
+    children:
+    - label: PCI compliance
+      url: "/payment-services/pci.html"
+  - label: Test and validate
+    url: "/payment-services/test-validate.html"
 - label: Delivery
   url: "/shipping/delivery.html"
   children:
