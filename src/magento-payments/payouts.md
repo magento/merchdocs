@@ -7,7 +7,7 @@ Payouts shows comprehensive payout information at-a-glance, allowing you full tr
 
 You don't have to open multiple dashboards or views to cross-reference orders and payments or reconcile accounts. Magento Payments enables you to take all these actions from one place---Payouts---so that you can view and manage your payouts efficiently.
 
-See payments across multiple providers, as well as the linked Magento order and transaction IDs, transaction amounts, payment method per transaction, and more, all within Payouts in the Admin.
+See linked Magento order and transaction IDs, transaction amounts, payment method per transaction, and more, all within Payouts in the Admin.
 
 You can download payout transactions in a .csv file format for use in existing accounting or order management software.
 
