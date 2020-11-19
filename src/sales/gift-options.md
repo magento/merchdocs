@@ -4,14 +4,14 @@ redirect_from:
   - /sales/checkout-gift-options.html
 ---
 
-The selection of available gift options appears in the cart before the checkout process begins. The Gift Options configuration determines if customers can add a gift message or greeting card, and the gift wrapping options that are available. Each item in the order can have a separate message and gift wrapping. When applied to the entire order, customers can also add a gift receipt and greeting card.
+The selection of available gift options appears in the cart before the checkout process begins. The gift options configuration determines if customers can add a gift message or greeting card, and if gift wrapping options are available. Each item in the order can have a separate message and gift wrapping. When applied to the entire order, customers can also add a gift receipt and greeting card.
 
 - {:.ee-only}Greeting cards, gift wrapping, and gift receipts are available in Magento Commerce only.
 
-The Gift Options configuration applies to the entire website, but can be overridden at the product level.
-
 ![]({% link images/images/storefront-cart-gift-options-for-products-or-order.png %}){: .zoom}
-_Example storefront - Gift Options in Shopping Cart_
+_Example storefront - Gift options in shopping cart_
+
+The Gift Options configuration applies to the entire website, but can be overridden at the product level.
 
 ## Enable gift options
 
@@ -22,7 +22,7 @@ _Example storefront - Gift Options in Shopping Cart_
 1. Expand ![]({% link images/images/btn-expand.png %}) **Gift Options** on the page.
 
     ![]({% link images/images-ee/config-sales-sales-gift-options.png %}){: .zoom}
-    _[Sales configuration - Gift Options settings]({% link configuration/sales/sales.md %}#gift-options)_{:.ee-only}
+    _[Sales configuration - Gift Options settings]({% link configuration/sales/sales.md %}#gift-options)_
 
 1. Set the gift message options according to your preference:
 
@@ -33,6 +33,8 @@ _Example storefront - Gift Options in Shopping Cart_
 
    - **Allow Gift Wrapping on Order Level**
    - **Allow Gift Wrapping for Order Items**
+
+   You can also define different [gift wrapping designs]({% link sales/gift-wrap.md %}) so that customers can choose the wrapping.
 
 1. {:.ee-only}To provide customers with an option to include a gift receipt, set **Allow Gift Receipt** to `Yes`.
 
