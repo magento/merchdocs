@@ -137,7 +137,7 @@ Some combinations of settings related to a price display that both includes and 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Fixed Product Taxes** section.
 
    - Set **Enable FPT** to `Yes` or `No`, according to your requirements.
-   
+
    - To determine how fixed product taxes are used in store prices, choose the fixed product tax setting for each of the following price display locations:
 
       - Set **Display Prices In Product Lists** to **Including FPT Only**, **Including FPT and FPT description**, **Excluding FPT. Including FPT description and final price**, or **Excluding FPT**
