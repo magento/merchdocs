@@ -51,7 +51,6 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Cron (Scheduled Tasks)]({% link system/cron.md %})|Corrected the _Generate Schedules Every_ description for the CRON job.|
 |[Two-Factor Authentication]({% link stores/security-two-factor-authentication.md %})|Added a screen that shows Google Authenticator on an iPhone with multiple security codes for different sites. Added a note with link for separate setup of 2FA for a Magento account.|
 |[Braintree]({% link payment/braintree.md %})<br/>[Braintree]({% link configuration/sales/braintree.md %}) (reference)|Added deprecation notice for the core Braintree integration for 2.3.x. This will be replaced with a bundled extension in 2.4.0.|
-|[Using Amazon Seller Central]({% link payment/amazon-pay-seller-central.md %})|Updated to reflect changes in Amazon Pay's _Seller Central_ website, which affect how merchants obtain and copy the necessary credentials for their Magento and Amazon Pay integration.|
 
 ## June 2020
 
@@ -375,10 +374,10 @@ Our documentation is continually updated with new topics, clarifications, and co
 |--- |--- |
 |Editing Account Settings (Google Shopping ads Channel) |Added the **Resend products to Google** action in the **Select** drop-down. This action allows users to manually [reindex]({% link system/index-management.md %}) their Magento product database and send changes to Google.|
 |[Setting up Amazon Pay]({% link payment/amazon-pay-setup.md %})|Updated screen shots and added link to video tutorial.|
-|[Amazon Pay Resources]({% link payment/amazon-pay-resources.md %})|Updated Amazon links and added link to video tutorial.|
+|[Amazon Pay]({% link payment/amazon-pay.md %})|Updated Amazon links and added link to video tutorial.|
 |[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
 |[Braintree]({% link payment/braintree.md %})|Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
-|[Other Payment Methods]({% link payment/gateways.md %})|Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
+|[Online Payment Methods]({% link payment/online-payment-methods.md %})|Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
 |[Authorize.Net]({% link payment/authorize-net.md %})|Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
 |[CyberSource]({% link payment/cybersource.md %}) |Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
 |[eWay]({% link payment/eway.md %}) |Updates to payment integration methods for EU and UK merchants to comply with Payment Services Directive (PSD2).|
