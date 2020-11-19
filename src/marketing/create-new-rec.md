@@ -59,7 +59,7 @@ After you create and activate the recommendation unit, Magento will begin [colle
 
    The **Choose position** section displays all recommendations (if any) created for the page type you selected.
 
-1. (Optional) In the **Filter products** section, you can [apply rules]({% link marketing/recommendation-incl-excl.md %}) that filter what products appear or do not appear to your shoppers.
+1. (Optional) In the **Filter products** section, you can [apply rules]({% link marketing/recommendation-incl-excl.md %}) that control which products are displayed in recommendations.
 
 1. When you finish configuring your recommendation you can click:
 
