@@ -159,22 +159,22 @@ The selection of value-added delivery options is determined by shipping method a
 
 1. When the shipment is ready, click **Book Shipment**. Then, do the following:
 
-    - To view the tracking information, click the **Tracking Number**.
+   - To view the tracking information, click the **Tracking Number**.
 
         ![]({% link images/images/shipment-magento-shipping-tracking-information-detail.png %}){: .zoom}
         _Tracking Information_
 
-    - To send the package tracking information to the customer, click **Send Tracking Information**.
+   - To send the package tracking information to the customer, click **Send Tracking Information**.
 
-    - Click **OK** to confirm.
+   - Click **OK** to confirm.
 
       ![]({% link images/images/shipment-magento-shipping-tracking-information.png %}){: .zoom}
       _Shipping and Tracking Information_
 
-    A message appears at the top of the page that the shipment has been sent, and the **Documentation** section appears in the shipment form, with a list of available printouts.
+   A message appears at the top of the page that the shipment has been sent, and the **Documentation** section appears in the shipment form, with a list of available printouts.
 
-    {:.bs-callout-info}
-    The remaining steps use the High Value Report, which is available for Magento Shipping orders over $999.00 (UPS - US only), as an example.
+   {:.bs-callout-info}
+   The remaining steps use the High Value Report, which is available for Magento Shipping orders over $999.00 (UPS - US only), as an example.
 
 1. In the _Action_ column, click the link to **Download** the package label for the shipment. Then, **Print** the label.
 
