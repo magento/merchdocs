@@ -33,7 +33,7 @@ If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled,
       _Coupon Information_
 
    {:.bs-callout-info}
-   In case of simultaneous use of the same coupon by multiples customers at the same time, it is possible that the usage
+   In case of simultaneous use of the same coupon by multiple customers at the same time, it is possible that the usage
    limit that is set could be exceeded due to delayed coupon processing.
 
 1. To make the coupon valid for a period of time, do the following:
@@ -80,7 +80,7 @@ The generation of discount coupons is an asynchronous operation, which executes 
    _Generate Auto-numbered Coupons_
 
    {:.bs-callout-info}
-   In case of simultaneous use of the same coupon by multiples customers at the same time, it is possible that the usage
+   In case of simultaneous use of the same coupon by multiple customers at the same time, it is possible that the usage
    limit that is set could be exceeded due to delayed coupon processing.
 
 1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Manage Coupon Codes** section. Then, do the following:
