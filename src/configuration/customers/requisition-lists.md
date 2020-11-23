@@ -3,7 +3,7 @@ b2b_only: true
 title: Requisition Lists
 ---
 
-The Magento_RequisitionList module allows a customer to create multiple lists of frequently-purchased items and use those lists for order placement.
+The feature allows a customer to create multiple lists of frequently-purchased items and use those lists for order placement.
 This feature is available for both logged-in users and guests.
 
 Customer can have multiple lists that focus on products from different vendors, buyers, teams, campaigns, or anything else that streamlines your workflow.
