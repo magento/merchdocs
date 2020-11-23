@@ -41,7 +41,7 @@ Complete the following steps to add a new rule, describe the conditions, and def
         To learn more, see [Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}).
 
         ![Cart price rule  - coupon settings]({% link images/images-ee/price-rule-cart-coupon-settings-ee.png %}){: .zoom}
-        _Coupon Settings_{:.ee-only}
+        _Manage Coupon Codes{:.ee-only}
 
    - {:.ce-only}Use the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the **From** and **To** date range for the promotion.
 
@@ -235,7 +235,7 @@ _Discount Label in Totals Section of Order_
 |Active|(Required) Determines if the rule is currently active in the store. Options: Yes / No
 |Websites|(Required) Identifies the websites where the rule can be used.
 |Customer Groups|(Required) Identifies the customer groups to which the rule applies.
-|Coupon|(Required) Indicates if a coupon is associated with the rule. Options: <br/>**No Coupon** - No coupon is associated with the rule. <br/>**Specific Coupon** - A specific coupon is associated with the rule. <br/>**Coupon Code** - When prompted, enter the Coupon Code that the customer must enter to take advantage of the promotion. <br/>**Use Auto Generation** - Select the checkbox to automatically generate multiple coupon codes that can be used with the promotion. <br/>**Auto** - Displays the Coupons Information section to define the format of the  coupon codes to be generated.|
+|Coupon|(Required) Indicates if a coupon is associated with the rule. Options: <br/>**No Coupon** - No coupon is associated with the rule. <br/>**Specific Coupon** - A specific coupon is associated with the rule. <br/>**Coupon Code** - When prompted, enter the Coupon Code that the customer must enter to take advantage of the promotion. <br/>**Use Auto Generation** - Select the checkbox to automatically generate multiple coupon codes that can be used with the promotion. <br/>**Auto** - Displays the Manage Coupon Codes section to define the format of the  coupon codes to be generated.|
 |Uses per Customer|Determines how many times the coupon code can be used by the same registered customer who belongs to any selected customer group. Does not apply to guest shoppers who are members of the NOT LOGGED IN customer group, or to customers who shop without logging in to their accounts. For no limit, leave blank.|
 |Priority|A number that indicates the priority of this rule in relation to others. The highest priority is number 1.|
 |Public in RSS Feed|Determines if the promotion is included in your store’s public RSS feed. Options:  Yes / No|
