@@ -146,7 +146,7 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
    ![Catalog price rules - scheduled changes]({% link images/images-ee/price-rule-scheduled-changes-new.png %}){: .zoom}
     _Scheduled Changes_
 
-1. In the _Scheduled Changes_ box click **Schedule New Update** or **View/Edit**.
+1. In the _Scheduled Changes_ box,click **View/Edit** to the right of the listed change (or you can click <span class="btn">Schedule New Update</span> at the top of the box).
 
     You can either edit the existing update or assign the catalog price rule to another campaign. The **Edit Existing Update** option is selected by default.
 
