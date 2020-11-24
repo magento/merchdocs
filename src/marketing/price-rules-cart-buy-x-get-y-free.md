@@ -82,7 +82,7 @@ To limit the free items from any category A, B, C and receive Y from SKUs D123, 
 
     If ALL of these conditions are TRUE:
     SKU is one of D123, E123, F123
-    
+
 ### Maximum Qty Discount
 
 Use the following formula to determine the correct value for the Maximum Qty Discount:
