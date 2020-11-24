@@ -85,7 +85,7 @@ To limit the free items from any category A, B, C and receive Y from SKUs D123, 
 
 Use the following formula to determine the correct value for the Maximum Qty Discount:
 
-#### Formula = (X+Y) * (M/Y) {#maximumQtyDiscountFormula}
+### Formula = (X+Y) * (M/Y) {#maximumQtyDiscountFormula}
     Where
     X = number of items purchased
     Y = number of free items
