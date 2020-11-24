@@ -14,6 +14,7 @@ To enable requisition lists for your store, see [Configuring B2B Features]({% li
 
 ![]({% link images/images-b2b/customer-account-my-requisition-lists.png %}){: .zoom}
 _Requisition Lists on the storefront_
+
 ## Create a requisition list
 
 1. Do one of the following:
