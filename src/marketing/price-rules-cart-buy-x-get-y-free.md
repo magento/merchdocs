@@ -32,7 +32,7 @@ _Condition_
 
    - Set **Discount Amount** to `1`. This is the quantity the customer will receive for free.
 
-   - To limit the number of discounts that can be applied when the condition is met, enter the number in the **Maximum Qty Discount is Applied To** field. For example, enter `1` to discount only one item.
+   - To limit the number of discounts that can be applied when the condition is met, enter the number in the **Maximum Qty Discount is Applied To** field which is calculated using this [formula](#maximumQtyDiscountFormula). For example, enter `1` to discount only one item.
 
    - In the **Discount Qty Step (Buy X)** field, enter the quantity that the customer must purchase to qualify for the discount. In this example, the customer must purchase three.
 
@@ -85,7 +85,7 @@ To limit the free items from any category A, B, C and receive Y from SKUs D123, 
 
 Use the following formula to determine the correct value for the Maximum Qty Discount:
 
-    Formula = (X+Y) * (M/Y)
+#### Formula = (X+Y) * (M/Y) {#maximumQtyDiscountFormula}
     Where
     X = number of items purchased
     Y = number of free items
