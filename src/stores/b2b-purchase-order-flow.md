@@ -22,7 +22,7 @@ Companies use purchase orders to control what employees can purchase on behalf o
 
 1. User creates a purchase order for $25,000 worth of goods.
 1. Their manager has to approve.
-1. Because the order is more than $10,000, the V.P. also needs to sign off.
+1. Because the order is more than $10,000, the V.P. must also approve.
 1. Depending on the payment method, after the approvals, the purchase order is converted to an order automatically, or the user returns to enter payment details.
 
 ## Offline vs online payment methods
