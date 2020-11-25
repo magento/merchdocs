@@ -69,7 +69,7 @@ The purchase order workflow can also be different depending on who is doing the 
 
 - A regular employee may be subject to all approval rules
 - A manager could have more buying power and will have different approval rules
-- Company admins can bypass all approval rules and have their purchase orders completed automatically.
+- Company administrators can bypass all approval rules and have their purchase orders completed automatically.
 
 All these factors can have an influence on the exact checkout process.
 
