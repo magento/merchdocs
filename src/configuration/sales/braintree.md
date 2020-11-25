@@ -15,6 +15,7 @@ If you are upgrading to Magento 2.4.0 and were not using the recommended Magento
 ![]({% link images/images/config-sales-payment-methods-braintree-basic-configuration.png %}){: .zoom}
 _Basic Braintree Settings_
 
+{: .fields-table}
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Title|Store View|Default value: Credit Card (Braintree)|
@@ -34,6 +35,7 @@ _Basic Braintree Settings_
 ![]({% link images/images/config-sales-payment-methods-braintree-advance-configuration.png %}){: .zoom}
 _Braintree Advanced Settings_
 
+{: .fields-table}
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Vault Title|Website|A descriptive title for your reference that identifies the vault where your customer card information is stored.|
@@ -48,6 +50,7 @@ _Braintree Advanced Settings_
 ![]({% link images/images/config-sales-payment-methods-braintree-kount-configuration.png %}){: .zoom}
 _Kount Configuration_
 
+{: .fields-table}
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Kount Configuration| | When the _Advanced Fraud Protection_ option is enabled, Kount configuration option appears.|
@@ -62,6 +65,7 @@ _Kount Configuration_
 ![]({% link images/images/config-sales-payment-methods-braintree-country-specific-configuration.png %}){: .zoom}
 _Country Specific Settings_
 
+{: .fields-table}
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Payment from Applicable Countries|Website|Determines if you accept payments processed by Braintree from all countries, or only specific countries. Options: All Allowed Countries / Specific Countries|
@@ -73,6 +77,7 @@ _Country Specific Settings_
 ![]({% link images/images/config-sales-payment-methods-braintree-ach-payment-method-configuration.png %}){: .zoom}
 _ACH through Braintree_
 
+{: .fields-table}
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled ACH Direct Debit|Website|Determines if PayPal is included as a payment method through Braintree. Options: Yes / No|
@@ -82,6 +87,7 @@ _ACH through Braintree_
 ![]({% link images/images/config-sales-payment-methods-braintree-applepay-payment-method-configuration.png %}){: .zoom}
 _Apple Pay through Braintree_
 
+{: .fields-table}
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled ApplePay through Braintree|Website|Determines if ApplePay is included as a payment method through Braintree. Options: Yes / No <br/><br/> The Domain will need to be [verified in Braintree Account first](https://developers.braintreepayments.com/guides/apple-pay/configuration/javascript/v3).|
@@ -93,6 +99,7 @@ _Apple Pay through Braintree_
 ![]({% link images/images/config-sales-payment-methods-braintree-local-payment-method-configuration.png %}){: .zoom}
 _Local Payment Methods_
 
+{: .fields-table}
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled Local Payment Methods|Website|Determines if Local Payment Method is included as a payment method through Braintree. Options: Yes / No|
@@ -104,6 +111,7 @@ _Local Payment Methods_
 ![]({% link images/images/config-sales-payment-methods-braintree-googlepay-payment-method-configuration.png %}){: .zoom}
 _GooglePay through Braintree_
 
+{: .fields-table}
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled GooglePay through Braintree|Website|Determines if Google Pay payment is included as a payment method through Braintree. Options: Yes / No|
@@ -117,6 +125,7 @@ _GooglePay through Braintree_
 ![]({% link images/images/config-sales-payment-methods-braintree-venmo-payment-method-configuration.png %}){: .zoom}
 _Venmo through Braintree_
 
+{: .fields-table}
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled Venmo through Braintree|Website|Determines if Venmo is included as a payment method through Braintree. Options: Yes / No|
@@ -127,6 +136,7 @@ _Venmo through Braintree_
 ![]({% link images/images/config-sales-payment-methods-braintree-Paypal-payment-method-configuration.png %}){: .zoom}
 _PayPal through Braintree_
 
+{: .fields-table}
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Title|Store View|The label that identifies PayPal through Braintree to customers during checkout. Default value: PayPal (Braintree)|
@@ -145,6 +155,7 @@ _PayPal through Braintree_
 ![]({% link images/images/config-sales-payment-methods-braintree-Paypal-minicart-and-cart-configuration.png %}){: .zoom}
 _Mini cart and cart page_
 
+{: .fields-table}
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Disable Funding Option|Website|Disable certain funding options available on the PayPal Smart Button from displaying in this section.|
@@ -158,6 +169,7 @@ _Mini cart and cart page_
 ![]({% link images/images/config-sales-payment-methods-braintree-Paypal-checkout-configuration.png %}){: .zoom}
 _Checkout Page_
 
+{: .fields-table}
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Disable Funding Option|Website|Disable certain funding options available on the PayPal Smart Button from displaying in this section.|
@@ -171,6 +183,7 @@ _Checkout Page_
 ![]({% link images/images/config-sales-payment-methods-braintree-Paypal-product-page-configuration.png %}){: .zoom}
 _Product Page_
 
+{: .fields-table}
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable PayPal Buy Now button on the product page|Website|If enabled, the Paypal button will be available on the Product detail page. Options: Yes / No|
@@ -185,6 +198,7 @@ _Product Page_
 ![]({% link images/images/config-sales-payment-methods-braintree-3d-secure-verification-configuration.png %}){: .zoom}
 _3D Secure Verification Settings_
 
+{: .fields-table}
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |3D Secure Verification|Website|Determines if a transaction must pass an additional verification process when the customer is enrolled in a program such as “Verified by VISA”. Options: Yes / No|
@@ -197,8 +211,15 @@ _3D Secure Verification Settings_
 ![]({% link images/images/config-sales-payment-methods-braintree-dynamic-description-configuration.png %}){: .zoom}
 _Dynamic Descriptors_
 
+{: .fields-table}
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |
 |Name|Store View|There are two parts to the Name descriptor, which are separated by an asterisk (*). The first part of the descriptor identifies the company or DBA and the second part identifies the product. For example: `company*myproduct`  <br/><br/>The length of the Company and Product parts of the descriptor can be allocated in the following ways, for a combined length of up to 22 characters: <br/>**Option 1** - Company must be three characters / Product can be up to 18 characters <br/>**Option 2** - Company must be seven characters / Product can be up to 14 characters <br/>**Option 3** - Company must be 12 characters / Product can be up to nine characters|
 |Phone|Store View|The Phone descriptor must be ten to fourteen characters in length, and can include only numbers, dashes, parentheses, and periods. For example: `9999999999` `(999) 999-9999` `999.999.9999`|
 |URL|Store View|The URL descriptor represents your domain name, and can be up to thirteen characters long. For example: `company.com`|
+
+<style>
+   .fields-table td:first-of-type {
+      width: 270px;
+   }
+</style>
