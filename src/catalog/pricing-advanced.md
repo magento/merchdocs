@@ -74,9 +74,9 @@ _Advanced Pricing_{:.b2b-only}
 |![]({% link images/images/btn-trashcan2.png %}) |Deletes the current rule.|
 |<span class="btn">Add</span>|Inserts an additional row for a new rule.|
 
-### Minimum Advertised Price
+### Manufacturer's Suggested Retail Price
 
-The minimum advertised price (MAP) for the product.
+The manufacturer's suggested retail price (MSRP) for the product.
 
 ### Display Actual Price
 
