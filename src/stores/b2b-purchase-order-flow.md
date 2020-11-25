@@ -43,7 +43,7 @@ Examples of online payments are:
 - Paypal
 - Braintree
 
-For security reasons, online stores generally do not want to store credit card details while waiting for the approval process to complete. Therefore, if an online payment option is selected, the purchase order creator returns to the store after approval, enters the payment details and completes the order.
+For security reasons, online stores generally do not want to store credit card details while waiting for the approval process to complete. Therefore, if an online payment option is selected, the purchase order creator returns to the store after approval, enters the payment details, and completes the order.
 
 As offline payment methods, such as a money order, are handled outside the website, they are safer. Purchase orders with offline payments can be processed automatically, after any approval process.
 
