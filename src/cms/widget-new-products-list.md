@@ -8,29 +8,26 @@ The list of new products is an example of dynamic content, and consists of live 
 _New products list on the storefront home page_
 
 {:.ce-only}
-## Step 1: Set the date range for each product
+## Step 1: Set Each Product as New
 
 {:.bs-callout-info}
 For Magento Commerce customers, see [Scheduling an Update]({% link cms/content-staging-scheduled-update.md %}) and then continue to the Step 2 on this page.
+"Set Product as New" date range setting can be configured only in scheduled updates.
 
-To make a product appear in the list by date range, the _New From_ dates must be entered in the product. The product then appears in the New Products list during the date range specified.
+To set a product as new, just toggle the **Set Product as New** option to add the product to the New products list.
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
 1. Find each product that you want to feature and open in edit mode.
 
-1. For **Set Product as New From**, click the calendar (![Calendar icon]({% link images/images/btn-calendar.png %})) icon and choose the first date that you want the product to be featured.
-
-1. For **To**, click the calendar (![Calendar icon]({% link images/images/btn-calendar.png %})) icon and choose the last date that you want the product to be featured.
+1. For **Set Product as New**, just toggle the button to set the product as a new product and vice versa.
 
    ![]({% link images/images/product-set-as-new.png %}){: .zoom}
-   _Setting the date range_
+   _Setting the product as new_
 
 1. When complete, click <span class="btn">Save</span>.
 
 1. When you are prompted to reindex and refresh the page cache, click the links at the top of the page and follow the instructions.
-
-   The list of products now appears on the Home Page for the specified date range.
 
 ## Step 2: Create the widget
 
