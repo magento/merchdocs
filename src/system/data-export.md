@@ -46,6 +46,6 @@ Data export is an asynchronous operation, which executes in the background so th
 
 1. Scroll down and click **Continue** in the lower-right corner of the page.
 
-1. Upon completion of the task, look for the file in the download location for your web browser.
+1. Upon completion of the task, the file is processed through a message queue (make sure your cron job is running). Once the file is exported it is saved in the var/export/ folder.
 
     You can save or open the exported CSV file as a spreadsheet, then edit the data and import it back into your store.
