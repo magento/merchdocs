@@ -17,4 +17,4 @@ _Gift Registry Information_{:.ee-only}
 |Shipping Address|The Shipping Address section shows where gifts are to be sent, and includes the information a carrier needs to deliver the package.|
 
 {:.bs-callout-info}
-When a gift registry is inactivated, the registry can't be searched or linked to. Also, if the registry is reactivated, links remain broken.
+When a gift registry is inactivated, searching and linking does not function for the registry. If the registry is later reactivated, links remain broken.
