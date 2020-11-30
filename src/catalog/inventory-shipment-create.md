@@ -34,7 +34,7 @@ As you enter shipments, your on-hand inventory quantities deduct entered amounts
 
    - For  **Select a Source to Ship from**, select a source from the menu to send a shipment.
 
-   - For each line item, keep the recommended amount or enter a specific amount in the **Qty to Deduct** which deducts the entered amount from the inventory of the selected source.
+   - For each line item, keep the recommended amount or enter a specific amount in the **Qty to Deduct**. This is the amount that is deducted from the inventory of the selected source.
 
    - Click <span class="btn">Proceed to Shipment</span>.
 
