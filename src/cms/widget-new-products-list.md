@@ -12,15 +12,15 @@ _New products list on the storefront home page_
 
 {:.bs-callout-info}
 For Magento Commerce customers, see [Scheduling an Update]({% link cms/content-staging-scheduled-update.md %}) and then continue to the Step 2 on this page.
-"Set Product as New" date range setting can be configured only in scheduled updates.
+_Set Product as New_ date range setting can be configured only in scheduled updates.
 
-To set a product as new, just toggle the **Set Product as New** option to add the product to the New products list.
+Setting a product as new adds the product to the _New products_ list. You can change the setting back at any point when you no longer want to include it in the list.
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
 1. Find each product that you want to feature and open in edit mode.
 
-1. For **Set Product as New**, just toggle the button to set the product as a new product and vice versa.
+1. For **Set Product as New**, toggle the option to set the product as a new product or not.
 
    ![]({% link images/images/product-set-as-new.png %}){: .zoom}
    _Setting the product as new_
