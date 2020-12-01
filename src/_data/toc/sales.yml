@@ -303,7 +303,7 @@ pages:
   - label: Managing payments
     url: "/magento-payments/managing-payments.html"
     children:
-    - label: Refund payments
+    - label: Refunds
       url: "/magento-payments/refunds.html"
     - label: Voids
       url: "/magento-payments/voids.html"
