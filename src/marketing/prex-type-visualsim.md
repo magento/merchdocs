@@ -16,7 +16,15 @@ The _Visual similarity_ recommendation type offers recommendations for other pro
 -  Material
 -  Style
 
-Adobe Sensei uses AI to process and analyze the imagery in your catalog and builds attributes used to determine visual similarities. If you are testing this recommendation type in a non-production environment, make sure your image URLs are publicly accessible. Because this recommendation type is not applicable to most catalogs, it is not enabled by default. You must explicitly enable this recommendation type.
+Adobe Sensei uses AI to process and analyze the imagery in your catalog and build attributes used to determine visual similarities.
+
+{:.bs-callout-info}
+If you are testing this recommendation type in a non-production environment, make sure your image URLs are publicly accessible.
+
+{:.bs-callout-info}
+Currently, product images need to be 10 MB or less in size.
+
+Because this recommendation type is not applicable to most catalogs, it is not enabled by default. You must explicitly enable this recommendation type.
 
 ### Enable Visual similarity recommendation type
 

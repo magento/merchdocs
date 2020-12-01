@@ -20,7 +20,3 @@ The _Bought this, bought that_ recommendation type is most often on the cart or 
 -  "Get everything you need"
 -  "Don’t forget these"
 -  "Frequently bought together"
-
-## Example
-
-Image coming soon...

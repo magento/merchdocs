@@ -19,7 +19,3 @@ By evaluating the attributes for the products being viewed, _More like this_ rec
 
 -  "More items like this"
 -  "Similar to this"
-
-## Example
-
-Image coming soon...

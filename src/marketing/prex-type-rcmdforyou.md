@@ -19,7 +19,3 @@ By analyzing a shopper's browsing and purchase history, _Recommended for you_ di
 -  "Just for you"
 -  "Recommended for you"
 -  "Inspired by your shopping trends"
-
-## Example
-
-Image coming soon...

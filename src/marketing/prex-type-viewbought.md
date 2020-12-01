@@ -20,7 +20,3 @@ Similar to _Bought this, bought that_, the _Viewed this, bought that_ recommenda
 -  "Customers who viewed this ultimately bought"
 -  "Customers ultimately purchased"
 -  What do others buy after viewing this item?"
-
-## Example
-
-Image coming soon...

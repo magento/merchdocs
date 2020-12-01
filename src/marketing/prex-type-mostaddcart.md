@@ -25,7 +25,3 @@ Belonging to a category of recommendation types that are popularity-based, _Most
 -  "Recently popular"
 -  "Popular items inspired by this item" (PDP)
 -  "Top sellers"
-
-## Example
-
-Image coming soon...
