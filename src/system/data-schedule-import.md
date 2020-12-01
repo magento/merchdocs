@@ -59,8 +59,9 @@ After each scheduled import job, a reindex operation is performed automatically.
 
     ![Data import - scheduled import file information]({% link images/images-ee/data-transfer-scheduled-import-file-information.png %}){: .zoom}
     _Import File Information_
+    
     {:.bs-callout-info}
-    If remote storage like Amazon S3 is enabled, `Local Server` **Server Type** is automatically switched to `Remote Storage`.
+    When remote storage is enabled, `Local Server` **Server Type** automatically switches to `Remote Storage`.
 
 1. Enter the **File Directory** where the import file originates.
 

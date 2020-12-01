@@ -55,12 +55,13 @@ After each export, the export file is placed in the user-defined location, and a
 
     ![Scheduled export file information]({% link images/images-ee/data-transfer-scheduled-export-file-information.png %}){: .zoom}
     _Export File Information_
+
     {:.bs-callout-info}
-    If remote storage like Amazon S3 is enabled, `Local Server` **Server Type** is automatically switched to `Remote Storage`.
+    When remote storage is enabled, the `Local Server` **Server Type** automatically switches to `Remote Storage`.
 
 1. Enter the **File Directory** where the export file is to be saved as follows:
 
-   - For Local Server, enter a relative path within the Magento installation. For example, `var/export`. If remote storage such as Amazon S3 is configured, use `import_export/export`.
+   - For Local Server, enter a relative path within the Magento installation. For example, `var/export`. If the Remote storage module is configured, use `import_export/export`.
    - For Remote FTP server, enter the full URL and path to the target folder on the destination server.
 
 ## Step 3: Configure the Export Failed Emails
@@ -113,7 +114,7 @@ File Format | Select the format of the export file. Currently only the `.CSV` op
 Field | Description
 ----- | -----------
 Server Type | Determines the location of the export file. Options:<br>**Local Server** — Places the export file on the same server where Magento is deployed. If remote storage is enabled, `Local Server` is switched to `Remote Storage`.<br>**Remote FTP** — Places the export file on a remote server. Additional options for credentials and file transfer settings appear.
-File Directory| Specify the directory where the export file is placed. In case Server Type is set to Local Server, specify the relative to Magento installation path. For example, `var/export` or `import_export/export` for remote storage.
+File Directory| Specify the directory where the export file is placed. In case Server Type is set to Local Server, specify the relative to Magento installation path. For example, `var/export`, or `import_export/export` for remote storage.
 
 ### Export Failed Emails
 
