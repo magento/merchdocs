@@ -153,6 +153,9 @@
   - label: Payments
     url: /payment/payments.html
 
+  - label: Magento Payments
+    url: /magento-payments/payments.html
+
   - label: Delivery
     url: /shipping/delivery.html
 
