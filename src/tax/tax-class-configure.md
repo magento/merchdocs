@@ -18,6 +18,7 @@ The tax class that is used for shipping, and the default tax classes for [produc
 1. Choose the tax class for each of the following:
 
     - **Set Tax Class for Shipping**
+    - **Tax Class for Gift Options**
     - **Default Tax Class for Product**
     - **Default Tax Class for Customer**
 
