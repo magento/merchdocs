@@ -12,7 +12,7 @@ _My Orders_{:.ee-only}
 Find the order in the list and click **View Order** in the _Action_ column.
 
 ![]({% link images/images-ee/customer-account-order-items-ordered.png %}){: .zoom}
-_View Order_{:.ee-only}
+_View Order_
 
 From the open order, do any of the following:
 
@@ -43,12 +43,10 @@ From the open order, do any of the following:
 
    - **Print Invoice**
 
-1. Verify the output device or choose another.
+   ![]({% link images/images-ee/customer-account-order-invoices.png %}){: .zoom}
+   _Invoices_
 
-1. Click <span class="btn">Print</span>.
-
-    ![]({% link images/images-ee/customer-account-order-invoices.png %}){: .zoom}
-    _Invoices_{:.ee-only}
+1. Use the Print dialog to complete the printing.
 
 ### Print shipments
 
@@ -60,12 +58,10 @@ From the open order, do any of the following:
 
    - **Print Shipment**
 
-1. Verify the output device or choose another.
+   ![]({% link images/images-ee/customer-account-order-shipments.png %}){: .zoom}
+   _Print All Shipments_
 
-1. Click <span class="btn">Print</span>.
-
-    ![]({% link images/images-ee/customer-account-order-shipments.png %}){: .zoom}
-    _Print All Shipments_{:.ee-only}
+1. Use the Print dialog to complete the printing.
 
 ### Track a shipment
 
@@ -84,9 +80,7 @@ From the open order, do any of the following:
 
    - **Print Refund**
 
-1. Verify the output device or choose another.
+   ![]({% link images/images-ee/customer-account-order-refunds.png %}){: .zoom}
+   _Refunds_
 
-1. Click <span class="btn">Print</span>.
-
-    ![]({% link images/images-ee/customer-account-order-refunds.png %}){: .zoom}
-    _Refunds_{:.ee-only}
+1. Use the Print dialog to complete the printing.
