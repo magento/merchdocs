@@ -27,7 +27,7 @@ Your initial _My Orders_ results also contain matching orders from subordinate u
 Find the order in the list and click **View Order**. From the open order, do any of the following:
 
 ![]({% link images/images-ee/customer-account-order-items-ordered.png %}){: .zoom}
-_View Order_{:.ee-only}
+_View Order_
 
 ### Reorder
 
@@ -50,7 +50,7 @@ _View Order_{:.ee-only}
    - **Print Invoice**
 
    ![]({% link images/images-ee/customer-account-order-invoices.png %}){: .zoom}
-   _Invoices_{:.ee-only}
+   _Invoices_
 
 1. Use the Print dialog to complete the printing.
 
@@ -63,7 +63,7 @@ _View Order_{:.ee-only}
    - **Print Shipment**
 
    ![]({% link images/images-ee/customer-account-order-shipments.png %}){: .zoom}
-   _Print All Shipments_{:.ee-only}
+   _Print All Shipments_
 
 1. Use the Print dialog to complete the printing.
 
@@ -84,6 +84,6 @@ _View Order_{:.ee-only}
    - **Print Refund**
 
    ![]({% link images/images-ee/customer-account-order-refunds.png %}){: .zoom}
-   _Refunds_{:.ee-only}
+   _Refunds_
 
 1. Use the Print dialog to complete the printing.
