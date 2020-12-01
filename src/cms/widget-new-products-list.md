@@ -8,7 +8,7 @@ The list of new products is an example of dynamic content, and consists of live 
 _New products list on the storefront home page_
 
 {:.ce-only}
-## Step 1: Set Each Product as New
+## Step 1: Set each product as new
 
 {:.bs-callout-info}
 For Magento Commerce customers, see [Scheduling an Update]({% link cms/content-staging-scheduled-update.md %}) and then continue to the Step 2 on this page.
