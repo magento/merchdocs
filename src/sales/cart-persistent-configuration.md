@@ -47,4 +47,25 @@ If the session cookie expires while the customer is logged in, the persistent co
    Yes|If the session cookie expires, the persistent cookie is preserved. If a guest shopper later logs in or creates a new account, the shopping cart is restored.
    No|The shopping cart is not preserved for guests after the session cookie expires.
 
+1. {:.ee-only}Set **Persist Wish List** to determine if the state of customer wish lists is retained when the session ends:
+
+   Yes|The wish list contents are saved when the session ends.|
+   No|The wish list is not saved when the session ends.|
+
+1. {:.ee-only}Set **Persist Recently Ordered Items** to determine if the state of recently ordered items is retained when the session ends:
+
+   Yes|The state of Recently Ordered Items is saved when the session ends.|
+   No|The state of Recently Ordered Items is not saved when the session ends.|
+
+1. Set **Persist Currently Compared Products** to one of the following: `Yes` or `No`
+
+1. Set **Persist Comparison History** to one of the following: `Yes` or `No`
+
+1. Set **Persist Recently Viewed Products** to one of the following: `Yes` or `No`
+
+1. {:.ee-only}Set **Persist Customer Group Membership and Segmentation** to determine if the state of customers’ group membership and segmentation criteria are retained when the session ends:
+
+   Yes|The state of the customer’s group membership and segmentation data is saved when the session ends.|
+   No|The state of the customer’s group membership and segmentation data are not saved when the session ends.|
+
 1. Click <span class="btn">Save Config</span>.

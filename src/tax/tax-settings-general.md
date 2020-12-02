@@ -134,4 +134,21 @@ Some combinations of settings related to a price display that both includes and 
    ![Orders, Invoices, Credit Memos Display Settings]({% link images/images/config-sales-tax-orders-invoices-credit-memos-display-settings.png %} "Orders, Invoices, Credit Memos Display Settings"){: .zoom}
    [_Orders, Invoices, Credit Memos Display Settings_]({% link configuration/sales/tax.md %})
 
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Fixed Product Taxes** section.
+
+   - Set **Enable FPT** to `Yes` or `No`, according to your requirements.
+
+   - To determine how fixed product taxes are used in store prices, choose the fixed product tax setting for each of the following price display locations:
+
+      - Set **Display Prices In Product Lists** to **Including FPT Only**, **Including FPT and FPT description**, **Excluding FPT. Including FPT description and final price**, or **Excluding FPT**
+      - Set **Display Prices On Product View Page** to **Including FPT Only**, **Including FPT and FPT description**, **Excluding FPT. Including FPT description and final price**, or **Excluding FPT**
+      - Set **Display Prices In Sales Modules** to **Including FPT Only**, **Including FPT and FPT description**, **Excluding FPT. Including FPT description and final price**, or **Excluding FPT**
+      - Set **Display Prices In Emails** to **Including FPT Only**, **Including FPT and FPT description**, **Excluding FPT. Including FPT description and final price**, or **Excluding FPT**
+
+   - Set **Apply Tax To FPT** `Yes` or `No`, according to your requirements.
+   - Set **Include FPT In Subtotal** `Yes` or `No`, according to your requirements.
+
+    ![Fixed Product Taxes]({% link images/images/config-sales-tax-orders-fixed-product-taxes.png %} "Fixed Product Taxes"){: .zoom}
+    [_Fixed Product Taxes_]({% link configuration/sales/tax.md %})
+
 1. When complete, click <span class="btn">Save Config</span>.
