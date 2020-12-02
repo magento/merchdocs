@@ -13,7 +13,7 @@ _Transactional SMS Settings_
 |--- |--- |--- |
 |Enabled|Store View|Specifies if the dotdigital Transactional SMS functionality is enabled for your Magento store. Options: Yes / No|
 |Enable Phone Number Validation|Store View|Specifies if phone number validation is turned on at checkout and on the account dashboard. This ensures any phone number that’s entered by customers is in a valid format and has a correct country code. Options: Yes / No|
-|||Manage account<br /><span class="btn">Edit SMS settings</span> Opens the SMS settings tab from the Account page of your dotdigital account.|
+|Manage account||<span class="btn">Edit SMS settings</span> Opens the SMS settings tab from the Account page of your dotdigital account.|
 
 ## SMS Templates
 
