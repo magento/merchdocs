@@ -6,7 +6,7 @@ ee_only: true
 
 When you [create a product recommendation unit]({% link marketing/create-new-rec.md %}), you can define filters that control which products can be displayed in recommendations. These filters are based on a set of inclusion or exclusion conditions. Only products matching all inclusion conditions are eligible to appear in recommendations. Products matching any of the exclusion conditions are not recommended.
 
-Inclusion and exclusion conditions can be static or dynamic. A static condition uses existing product attributes to determine which products are eligible to appear in the unit. For example, you can specify that you only want products that are greater than $25 and in-stock to appear in the unit. A dynamic condition keys off shopper's current context, such as currently viewed category or product. For example, when creating a product recommendation to be deployed on product detail pages, you can create a condition to recommend only products that are within a relative price range of the currently viewed product . Static conditions are available on all page types. Dynamic conditions are available on a subset of page types. See the [static versus dynamic conditions](#staticdyn) table to learn more.
+Inclusion and exclusion conditions can be static or dynamic. A static condition uses existing product attributes to determine which products are eligible to appear in the unit. For example, you can specify that you only want products that are greater than $25 and in-stock to appear in the unit. A dynamic condition keys off shopper's current context, such as currently viewed category or product. For example, when creating a product recommendation to be deployed on product detail pages, you can create a condition to recommend only products that are within a relative price range of the currently viewed product . Static conditions are available on all page types. Dynamic conditions are available on a subset of page types. See [static versus dynamic conditions](#staticdyn) to learn more.
 
 {:.bs-callout-info}
 Inclusion and exclusion filters replace the legacy category exclusions in versions 4.0.0 and later of the `magento/product-recommendations` module. See the [release notes](https://devdocs.magento.com/recommendations/release-notes.html) to learn more.
@@ -15,7 +15,7 @@ Inclusion and exclusion filters replace the legacy category exclusions in versio
 
 Magento provides the following inclusion and exclusion conditions you can use to control which products can be displayed in recommendations.
 
-- **Category** - Filters based on a product's category. Magento uses direct category assignments and their subcategories. For example, enabling an exclusion filter for category `Gear` will exclude products assigned to  `Gear` and all of its subcategories such as `Gear/Bags` or `Gear/Fitness Equipment`.
+- **Category** - Filters based on a product's category. Magento uses direct category assignments and their subcategories. For example, enabling an exclusion filter for category `Gear` will exclude products assigned to `Gear` and all of its subcategories such as `Gear/Bags` or `Gear/Fitness Equipment`.
 - **Price** - Filters based on a product's price. Magento uses a product's final price when performing the comparison. The final price includes any discounts or special pricing available to anonymous shoppers. Customer group pricing is currently [not supported]({% link marketing/product-recs-limitations.md %}).
 - **Product** - Specifies which specific products are eligible or not eligible to be displayed in recommendations. You cannot select products that are disabled or not visible individually because those products can never appear in recommendations.
 - **Stock Status** - (Available as an exclusion only.) Excludes products that are out of stock or low in stock. Low stock status is determined based on the **Only X left Threshold** value in [Inventory configuration]({% link configuration/catalog/inventory.md %}). 
@@ -34,8 +34,3 @@ When you define both inclusion and exclusion filters, the inclusions get evaluat
 ## Static versus dynamic conditions {#staticdyn}
 
 Static conditions are based on manually specified values. Dynamic conditions are based on the currently viewed product, page, or cart. Dynamic conditions are available on every page type except Home Page and Page Builder.
-
-|---|---|---|---|---|---|---|
-|**Rule Type**|**Home**|**Category**|**Product Details**|**Cart**|**Order Confirmation**|**Page Builder**|
-|**Static**|Category<br>Price<br>Products<br>Stock<br>Type<br>Visibility|Category<br>Price<br>Products<br>Stock<br>Type<br>Visibility|Category (specified)<br>Price (min/max)<br>Products (specified)<br>Stock<br>Type (specified)<br>Visibility (specified)|Category<br>Price<br>Products<br>Stock<br>Type<br>Visibility|Category<br>Price<br>Products<br>Stock<br>Type<br>Visibility|Category<br>Price<br>Products<br>Stock<br>Type<br>Visibility|
-|**Dynamic**|None|Category (same as category viewed)|Category (same, different)<br>Price (+/- % or $)<br>Products<br>Stock<br>Type (same, different)<br>Visibility (same, different)|Category (same as categories of products in Cart)|Category (same as categories of products in most recent purchase)|None|
