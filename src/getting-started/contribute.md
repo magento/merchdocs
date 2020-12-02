@@ -6,7 +6,7 @@ Our User Guide is open source and hosted in a [public-facing repository on GitHu
 
 - An open and transparent process to cultivate the most helpful content about using Magento
 - Continuous updates and publishing for content improvements and changes
-- Ongoing collaboration between between customers, partners, our product teams, and our documentation team
+- Ongoing collaboration between customers, partners, our product teams, and our documentation team
 
 ## Working with collaborative documentation
 
