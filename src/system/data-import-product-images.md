@@ -44,6 +44,7 @@ Before you try to import a large amount of images, review the steps in the impor
 
     ![Data import images file directory]({% link images/images/data-import-file-to-import.png %}){: .zoom}
     _Images File Directory_
+
     {:.bs-callout-tip}
     Leave the **Images File Directory** blank to use the `<Magento-root-folder>/var/import/images` directory. Beginning with Magento version 2.3.2, this is the default import images base directory.
 
