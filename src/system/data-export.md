@@ -46,6 +46,6 @@ Data export is an asynchronous operation, which executes in the background so th
 
 1. Scroll down and click **Continue** in the lower-right corner of the page.
 
-1. Upon completion of the task, the file is processed through a message queue (make sure your cron job is running). Once the file is exported it is saved in the var/export/ folder.
+   Upon completion of the task, the file is processed through a message queue (make sure your cron job is running). The exported file is saved in the `var/export/ folder`. For more information about the message queue, see ]Manage message queues](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) in our developer documentation.
 
     You can save or open the exported CSV file as a spreadsheet, then edit the data and import it back into your store.
