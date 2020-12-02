@@ -23,7 +23,7 @@ _Image Types_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Catalog Sync|Website|Specifies the image type property to be selected by dotdigital for the abandoned cart data.|
+|Catalog Sync|Website|Specifies the image type property to be selected by dotdigital for the catalog sync.|
 |Abandoned Cart|Website|Specifies the image type property to be selected by dotdigital for the abandoned cart data.|
 |Abandoned Browse|Website|Specifies the image type property to be selected by dotdigital for the abandoned browse data.|
 |Dynamic Content|Website|Specifies the image type property to be selected by dotdigital for the dynamic content blocks.|
