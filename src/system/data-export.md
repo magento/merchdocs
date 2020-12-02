@@ -51,4 +51,4 @@ Data export is an asynchronous operation, which executes in the background so th
     You can save or open the exported CSV file as a spreadsheet, then edit the data and import it back into your store.
 
     {:.bs-callout-info}
-    By default, all exported files are located in the `<Magento root directory>/var/export` folder. If the Remote storage module is enabled, all exported files are located in the `<Remote storage root directory>/import_export/export` folder.
+    By default, all exported files are located in the `<Magento-root-directory>/var/export` folder. If the Remote storage module is enabled, all exported files are located in the `<remote-storage-root-directory>/import_export/export` folder.

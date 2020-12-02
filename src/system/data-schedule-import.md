@@ -61,11 +61,11 @@ After each scheduled import job, a reindex operation is performed automatically.
     _Import File Information_
 
     {:.bs-callout-info}
-    When remote storage is enabled, `Local Server` **Server Type** automatically switches to `Remote Storage`.
+    When the Remote storage module is enabled, `Local Server` **Server Type** automatically switches to `Remote Storage`.
 
 1. Enter the **File Directory** where the import file originates.
 
-   - `Local Server` - Enter a relative path in the Magento installation. For example, `var/import`. If remote storage is configured, use `import_export/import`.
+   - `Local Server` - Enter a relative path in the Magento installation. For example, `var/import`. If the Remote storage module is configured, use `import_export/import`.
    - `Remote FTP server` - Enter the full URL and path to the import folder on the remote server.
 
 1. Enter the **File Name** to be imported.
@@ -115,7 +115,7 @@ Multiple Value Separator| Determines the character that is used to separate mult
 
 ### Import File Information
 
-Server Type | You can import from a file located on the same server where Magento is deployed (select Local Server) or from the remote FTP server (select Remote FTP). If you select Remote FTP, additional options for credentials and file transfer settings appear. If remote storage is enabled, Local Server type is automatically switched to Remote Storage.
+Server Type | You can import from a file located on the same server where Magento is deployed (select Local Server) or from the remote FTP server (select Remote FTP). If you select Remote FTP, additional options for credentials and file transfer settings appear. If the Remote storage module is enabled, Local Server type is automatically switched to Remote Storage.
 File Directory | Specify the directory where the import file is located. If Server Type is set to Local Server, specify the path relative to the Magento installation directory. For example: `var/import` or `import_export/import` for remote storage.
 File Name | Specify the name of the import file.
 Images File Directory | Enter the path to the directory where product images are stored. For a local server, enter a relative path. For example: `var/import` or `import_export/import` for remote storage.
