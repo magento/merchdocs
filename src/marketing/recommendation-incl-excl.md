@@ -4,33 +4,32 @@ tag: product-recommendations
 ee_only: true
 ---
 
-When you [create a product recommendation unit]({% link marketing/create-new-rec.md %}), you can apply rules that control which products are displayed in recommendations. These rules are based on a set of inclusion or exclusion conditions. Only products matching all inclusion conditions are eligible to be recommended. Products matching any of the exclusion conditions are not recommended.
+When you [create a product recommendation unit]({% link marketing/create-new-rec.md %}), you can define filters that control which products can be displayed in recommendations. These filters are based on a set of inclusion or exclusion conditions. Only products matching all inclusion conditions are eligible to appear in recommendations. Products matching any of the exclusion conditions are not recommended.
 
-Inclusion and exclusion conditions can be static or dynamic. A static condition uses existing product attributes to determine which products are eligible to appear in the unit. For example, you can specify that you only want products that are greater than $25 and are not on sale to appear in the unit. A dynamic condition uses a set of dynamic attributes to determine which products are eligible to appear in the unit. For example, most apparel has an attribute of `gender` with a value of `men` or `women`. If the shopper is browsing men's jackets, a dynamic condition only recommends products where `gender = men`. Static conditions are available on all page types. Dynamic conditions are available on a subset of page types. See the [static versus dynamic conditions](#staticdyn) table to learn more.
+Inclusion and exclusion conditions can be static or dynamic. A static condition uses existing product attributes to determine which products are eligible to appear in the unit. For example, you can specify that you only want products that are greater than $25 and in-stock to appear in the unit. A dynamic condition keys off shopper's current context, such as currently viewed category or product. For example, when creating a product recommendation to be deployed on product detail pages, you can create a condition to recommend only products that are within a relative price range of the currently viewed product . Static conditions are available on all page types. Dynamic conditions are available on a subset of page types. See the [static versus dynamic conditions](#staticdyn) table to learn more.
 
 {:.bs-callout-info}
-Enabling inclusion and exclusion conditions requires that you have version 3.11.0 or later of the `magento/product-recommendations` module. See the [release notes](https://devdocs.magento.com/recommendations/release-notes.html) to learn more.
+Inclusion and exclusion filters replace the legacy category exclusions in versions 4.0.0 and later of the `magento/product-recommendations` module. See the [release notes](https://devdocs.magento.com/recommendations/release-notes.html) to learn more.
 
 ## Types of conditions
 
-Magento provides the following inclusion and exclusion conditions you can use to control which products are displayed in recommendations.
+Magento provides the following inclusion and exclusion conditions you can use to control which products can be displayed in recommendations.
 
-- **Category** - Filters based on a product's category. Magento uses direct category assignments and their subcategories. For example, if the category of the product is `Gear`, enabling this rule includes or excludes products that have categories under `Gear`, such as `Gear/Bags` or `Gear/Fitness Equipment`.
-- **Price** - Filters based on a product's price. Magento uses a product's final price when performing the comparison. The final price includes any discounts or special pricing applied.
-- **Product** - Specifies which products are eligible or not eligible to be displayed.
-- **In stock status/Low stock** - (Available as an exclusion only.) Filters based on the **Display Out-of-Stock Products** value configured in the Magento Admin to determine if a particular product should be displayed in a recommendation unit. If the **Display Out-of-Stock Products** option is set to `Yes`, products that are out-of-stock are eligible to be displayed in the recommendation unit. If **Display Out-of-Stock Products** option is set to `No`, out-of-stock products will not be displayed in recommendation units. You can configure the **Display Out-of-Stock Products** value in the [stock options]({% link configuration/catalog/inventory.md %}) section of the Catalog configuration.
-- **Type** - Filters products based on type, such as: **Simple**, **Configurable**, **Virtual**, **Downloadable**, or **Gift card**. **Bundled** and **Grouped** products are not yet supported.
+- **Category** - Filters based on a product's category. Magento uses direct category assignments and their subcategories. For example, enabling an exclusion filter for category `Gear` will exclude products assigned to  `Gear` and all of its subcategories such as `Gear/Bags` or `Gear/Fitness Equipment`.
+- **Price** - Filters based on a product's price. Magento uses a product's final price when performing the comparison. The final price includes any discounts or special pricing available to anonymous shoppers. Customer group pricing is currently [not supported]({% link marketing/product-recs-limitations.md %}).
+- **Product** - Specifies which specific products are eligible or not eligible to be displayed in recommendations. You cannot select products that are disabled or not visible individually because those products can never appear in recommendations.
+- **Stock Status** - (Available as an exclusion only.) Excludes products that are out of stock or low in stock. Low stock status is determined based on the **Only X left Threshold** value in [Inventory configuration]({% link configuration/catalog/inventory.md %}). 
+- **Type** - Filters based on product type, such as: **Simple**, **Configurable**, **Virtual**, **Downloadable**, or **Gift card**. **Bundled** and **Grouped** products are [not yet supported]({% link marketing/product-recs-limitations.md %}).
 - **Visibility** - Filters products based on visibility, such as: **Catalog**, **Search**, or both.
 
-## Setting multiple conditions
+## Combining multiple filters
 
 If using both inclusion and exclusion conditions, Magento applies AND/OR logic operators as per the following:
 
 - ANDs for inclusions
 - ORs for exclusions
-- ORs with multi-select within inclusions or within exclusions
 
-For example, let's say you want to Provide basic examples of the more common multiple filter combinations.
+When you define both inclusion and exclusion filters, the inclusions get evaluated first to determine all possible products that are eligible to be recommended, then products matching any exclusion filters are removed from that list.
 what if user creates identical exclusion to an inclusion? ui/magento allows it...need to explain what happens.
 
 ## Static versus dynamic conditions {#staticdyn}
