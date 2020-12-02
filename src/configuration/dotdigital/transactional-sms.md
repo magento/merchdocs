@@ -17,6 +17,9 @@ _Transactional SMS Settings_
 
 ## SMS Templates
 
+![]({% link images/images/config-engagement-cloud-sms-templates.png %}){: .zoom}
+_SMS Templates_
+
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |**New Order Confirmation**|||
