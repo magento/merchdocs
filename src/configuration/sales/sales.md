@@ -91,6 +91,11 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |--- |--- |--- |
 |Allow Gift Messages on Order Level|Website|Specify whether a gift message can be added for the entire order.|
 |Allow Gift Messages on Order Items|Website|Specify whether a gift message can be added for an individual order item.|
+|<span class="ee-only">Allow Gift Wrapping on Order Level</span>|Website|Specify whether gift wrapping can be added for the entire order.|
+|<span class="ee-only">Allow Gift Wrapping for Order Items</span>|Website|Specify whether gift wrapping can be added for the individual order item.|
+|<span class="ee-only">Allow Gift Receipt</span>|Website|Specify whether a gift receipt can be added for the order.|
+|<span class="ee-only">Allow Printed Card</span>|Website|Specify whether a printed card can be added for the order.|
+|<span class="ee-only">Default Price for Printed Card</span>|Website|Specify the default price for the printed card.|
 
 ## Minimum Advertised Price
 
