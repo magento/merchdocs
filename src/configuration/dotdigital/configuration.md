@@ -37,7 +37,7 @@ _Tracking_
 |--- |--- |--- |
 |ROI Tracking|Website|Calculates the return on investment from campaign link clicks. When enabled, dotdigital tracks visitors who arrive at your site after clicking a campaign link. The ROI value is tracked and calculated for all purchases made during the visit. Options: Enable / Disable|
 |Page Tracking|Website|Tracks page visits related to campaign link clicks. When enabled, dotdigital tracks visitors who arrive at your site after clicking a campaign link, and tracks subsequent pages they visit in your site.|
-|Script version|Website|Adds an optional version number to the ROI tracking script to force a reload if the script is cached.|
+|Web Behaviour Tracking Profile Id|Website|Enables web behaviour tracking to record browsing insights by session, last browsed products, and searched terms.|
 
 ## Consent
 
