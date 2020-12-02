@@ -108,7 +108,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
    |Apply as percentage of original|Discounts item by subtracting a percentage of the regular price. For example: Enter 10 in Discount Amount for a final price that is marked down 10% from the regular price.|
    |Apply as fixed amount|Discounts item by subtracting a fixed amount from the regular price. For example: Enter 10 in Discount Amount for a final price that is $10 less than the regular price.|
-   |Adjust final price to this percentage|Adjusts the final price by a percentage of the regular price. For example: Enter 50 in Discount Amount for a final price that is marked down 50% from the regular price.|
+   |Adjust final price to this percentage|Adjusts the final price by a percentage of the regular price. For example: Enter 25 in Discount Amount for a final price that is marked down 75% from the regular price.|
    |Adjust final price to discount value|Sets the final price to a fixed, discounted amount. For example: Enter 20 in Discount Amount for a final price of $20.00.|
 
     {:.bs-callout-info}
@@ -143,12 +143,10 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
 
 1. Click **Save and Continue Edit**.
 
-    The Scheduled Changes timeline appears at the top of the page.
-
-    ![Catalog price rules - scheduled changes]({% link images/images-ee/price-rule-scheduled-changes-new.png %}){: .zoom}
+   ![Catalog price rules - scheduled changes]({% link images/images-ee/price-rule-scheduled-changes-new.png %}){: .zoom}
     _Scheduled Changes_
 
-1. In the _Scheduled Changes_ box, click **View/Edit**.
+1. In the _Scheduled Changes_ box, click **View/Edit** to the right of the listed change (or you can click <span class="btn">Schedule New Update</span> at the top of the box).
 
     You can either edit the existing update or assign the catalog price rule to another campaign. The **Edit Existing Update** option is selected by default.
 

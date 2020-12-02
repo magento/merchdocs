@@ -1,63 +1,116 @@
 ---
 ee_only: true
-title: Add Block
+title: Add Content - Block
 ---
 
-Use the Block content type to add an existing, active block to the stage. In the following example, the first column contains the HTML Code for the page. The second column contains a block with a Google map.
+Use the _Block_ content type to add an existing, active [block]({% link cms/blocks.md %}) to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). In the following example, the first column contains the block with a side menu for the page. The second column contains an image.
 
-![]({% link images/images-ee/page-builder-add-content-block-map-about-us.png %}){: .zoom}
-_Block with Map on “About Us” Page_
+![]({% link images/images-ee/page-builder-add-content-block-example.png %}){: .zoom}
+_Block with a side menu_
 
-## To add an existing block
+{% include page-builder-save-timeout.md %}
+
+## Block toolbox
+
+| Tool      | Icon     | Description   |
+| --------- | -------- | ------------- |
+| Move      | ![]({% link images/images-ee/icon-pb-move.png %}) | Moves the block container and its content to another position on the stage. |
+| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the Edit Block page, where you can choose the block, and change the properties of the container. |
+| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})  | Hides the current block container and its content. |
+| Show      | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the  hidden block container and its content. |
+| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the block container and its content. |
+| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %}) | Deletes the block container and its content from the stage. |
+
+## Add an existing block
 
 1. Navigate to the Page Builder workspace on the target page, block, dynamic block, product, or category.
 
-1. In the Page Builder panel under **Add Content**, drag a **Block** placeholder to the stage.
+1. In the Page Builder panel, expand **Add Content** and drag a **Block** placeholder to the stage.
 
-    ![]({% link images/images-ee/page-builder-add-content-block-drag.png %}){: .zoom}
-    _Select Block_
+   ![]({% link images/images-ee/page-builder-add-content-block-drag.png %}){: .zoom}
+   _Dragging a block onto the stage_
 
-1. Hover over the empty block container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox and do the following:
+1. Hover over the empty block container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
-    - Click <span class="btn">Select Block</span>.
+1. Click <span class="btn">Select Block</span>.
 
-        ![]({% link images/images-ee/page-builder-add-content-block-select.png %}){: .zoom}
-        _Select Block_
+   ![]({% link images/images-ee/page-builder-add-content-block-select.png %}){: .zoom}
+   _Selecting a block_
 
-    - In the list of active blocks, find the row with the block that you want to add. In the first column, click <span class="btn">Select</span>. Then, click <span class="btn">Add Selected</span>.
+1. In the row of the block that you want to add, click <span class="btn">Select</span> in the last column.
 
-        ![]({% link images/images-ee/page-builder-add-content-block-selected.png %}){: .zoom}
-        _Selected Block_
+   ![]({% link images/images-ee/page-builder-add-content-block-selected.png %}){: .zoom}
+   _Selected block_
 
-        The name of the selected block appears in the form.
+   The name of the selected block appears on the page.
 
-        ![]({% link images/images-ee/page-builder-add-content-block-name.png %}){: .zoom}
-        _Block Name_
+   ![]({% link images/images-ee/page-builder-add-content-block-name.png %}){: .zoom}
+   _Block name_
 
-    - Complete the remaining settings as needed, using the field descriptions at the end of this page for reference.
+1. Complete the remaining settings as needed, using the field descriptions at the end of this page for reference.
 
-    - When complete, click <span class="btn">Save</span> to return to the Page Builder workspace.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
-1. On the **Save** menu in the upper-right corner, click **Save**.
+### Advanced Settings
 
-## To edit block settings
+1. Choose an **Alignment** to control the positioning of the block within the parent container:
 
-1. Hover over the block container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox and do the following:
+   |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
+   |Left|Aligns the list along the left border of the parent container, with allowance for any padding that is specified.
+   |Center|Aligns the list in the center of the parent container, with allowance for any padding that is specified.
+   |Right|Aligns the block along the right border of the parent container, with allowance for any padding that is specified.
 
-    ![]({% link images/images-ee/page-builder-add-content-block-toolbox.png %}){: .zoom}
-    _Block Toolbox_
+1. Set a **Border** style to be applied to all four sides of the block container:
 
-    - To choose a different block, click <span class="btn">Select Block</span>. In the list of active blocks, <span class="btn">Select</span> the block that you want to add. Then, click <span class="btn">Add Selected</span>.
+   |Default|Applies the default border style that is specified by the associated style sheet.
+   |None|Does not provide any visible indication of the container borders.
+   |Dotted|The container border appears as a dotted line.
+   |Dashed|The container border appears as a dashed line.
+   |Solid|The container border appears as a solid line.
+   |Double|The container border appears as a double line.
+   |Groove|The container border appears as a grooved line.
+   |Ridge|The container border appears as a ridged line.
+   |Inset|The container border appears as a inset line.
+   |Outset|The container border appears as a outset line.
 
-    - Update the remaining settings as needed, using the field descriptions at the end of this page for reference.
+1. If you set a border style other than `None`, complete the border display options:
 
-    - When complete, click <span class="btn">Save</span> to return to the Page Builder workspace.
+   - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
 
-1. In the upper-right corner, click <span class="btn">Save</span>.
+   - **Border Width** - Enter the number of pixels for the border line width.
 
-## To duplicate a block
+   - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
 
-1. Hover over the block container. Then, choose **Duplicate** (![]({% link images/images-ee/icon-pb-duplicate.png %}){: .Inline}) in the toolbox.
+1. (Optional) Specify the names of **CSS classes** from the current style sheet to apply to the container.
+
+   Separate multiple class names with a space.
+
+1. Enter values, in pixels, for the **Margins and Padding** to determine the outer margins and inner padding of the block container.
+
+   Enter the corresponding values in the diagram.
+
+   |Margins|The amount of blank space that is applied to the outside edge of all sides of the container. Options: Top / Right / Bottom / Left
+   |Padding|The amount of blank space that is applied to the inside edge of all sides of the container. Options: Top / Right / Bottom / Left
+
+## Edit block settings
+
+1. Hover over the block container and choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %})) in the toolbox.
+
+   ![]({% link images/images-ee/page-builder-add-content-block-toolbox.png %}){: .zoom}
+   _Block Toolbox_
+
+1. To choose a different block, click <span class="btn">Select Block</span>.
+
+   - In the list of active blocks, click <span class="btn">Select</span> the block that you want to add.
+   - Click <span class="btn">Add Selected</span>.
+
+1. Update the remaining settings as needed, using the field descriptions at the end of this page for reference.
+
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
+
+## Duplicate a block
+
+1. Hover over the block container to display the toolbox and choose the _Duplicate_ (![]({% link images/images-ee/icon-pb-duplicate.png %}){: .Inline}) icon.
 
     The duplicate appears just below the original.
 
@@ -67,34 +120,8 @@ _Block with Map on “About Us” Page_
 
     The top and bottom borders of each container appear as dashed lines while the block is moved.
 
-## To remove a block from the stage
+## Remove a block from the stage
 
-1. Hover over the block container. Then, choose **Remove** (![]({% link images/images-ee/icon-pb-remove.png %}){: .Inline}) in the block toolbox.
+1. Hover over the block container to display the toolbox and choose the _Remove_ (![]({% link images/images-ee/icon-pb-remove.png %}){: .Inline}) icon.
 
 1. When prompted to confirm, click **OK**.
-
-## Add Block Toolbox
-
-| Tool      | Icon                                                                     | Description                                                                                            |
-| --------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| Move      | ![]({% link images/images-ee/icon-pb-move.png %})      | Moves the block container and its content to another position on the stage.                            |
-| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %})  | Opens the Edit Block page, where you can choose the block, and change the properties of the container. |
-| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})      | Hides the current block container and its content.                                                     |
-| Show      | ![]({% link images/images-ee/icon-pb-show.png %})      | Shows the  hidden block container and its content.                                                     |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the block container and its content.                                         |
-| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})    | Deletes the block container and its content from the stage.  |
-
-## Block Settings
-
-| Setting             | Description  |
-| ------------------- | ------- |
-| Block               | The name of the selected block. |
-| Select Block        | Displays a list where you can select an existing active block.    |
-| **Advanced**        |                                                        |
-| Alignment | Determines the horizontal alignment of the block. Options: <br/>**Default** - Applies the alignment default setting that is specified in the style sheet of the current theme. <br/>**Left** - Aligns the block along the left border of the parent container, with allowance for any padding that is specified. <br/>**Center** - Aligns the block in the center of the parent container, with allowance for any padding that is specified. <br/>**Right** - Aligns the block along the right border of the parent container, with allowance for any padding that is specified.  |
-| Border | Determines the border style that is applied to all four sides of the block container. Options: <br/>**Default** - Applies the default border style that is specified by the associated style sheet. <br/>**None** - Does not provide any visible indication of the container borders. <br/>**Dotted** - The container border appears as a dotted line. <br/>**Dashed** - The container border appears as a dashed line.<br/>Solid: The container border appears as a solid line. <br/>**Double** - The container border appears as a double line. <br/>**Groove** - The container border appears as a grooved line. <br/>**Ridge** - The container border appears as a ridged line. <br/>**Inset** - The container border appears as a inset line. <br/>**Outset** - The container border appears as a outset line.|
-| Border Color  | Determines the color of the container border. Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.  |
-| Border Width  | Determines the width in pixels of the container border. |
-| Border Radius   | Specifies the size of the radius that is used to round each corner of the border. |
-| CSS Classes | Specifies the names of CSS classes from the current style sheet  which apply to the container. Separate multiple class names with a space.   |
-| Margins and Padding | Determines the size, in pixels, of the outer margins and inner padding of the block container. Enter the corresponding values in the diagram. <br/>**Margins** - The amount of blank space, in pixels,that is applied to the outside edge of all sides of the container. Options: Top / Right / Bottom / Left <br/>**Padding** - The amount of blank space, in pixels, that is applied to the inside edge of all sides of the container. Options: Top / Right / Bottom / Left|

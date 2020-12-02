@@ -7,7 +7,7 @@ The category structure of your catalog is like an upside-down tree, with the roo
 For a website with multiple [stores]({% link stores/stores-all-create-store.md %}), you can create a different root category for each store that defines the set of categories that is used for the [top navigation]({% link catalog/navigation-top.md %}).
 
 ![]({% link images/images-ee/catalog-categories.png %}){: .zoom}
-_Category Tree_{:.ee-only}
+_Category tree_
 
 ## Step 1: Create a category
 
@@ -19,7 +19,7 @@ _Category Tree_{:.ee-only}
 
    The parent is one level above the new category.
 
-    If you’re starting from the beginning without any data, there might be only two categories in the list: _Default Category_, which is the root, and an _Example Category_.
+   If you’re starting from the beginning without any data, there might be only two categories in the list: _Default Category_, which is the root, and an _Example category_
 
 1. Click <span class="btn">Add Subcategory</span>.
 
@@ -31,30 +31,30 @@ _Category Tree_{:.ee-only}
 
 1. Enter the **Category Name**.
 
-    ![]({% link images/images-ee/catalog-categories-currently-active.png %}){: .zoom}
-    _Basic Information_{:.ee-only}
+   ![]({% link images/images-ee/catalog-categories-currently-active.png %}){: .zoom}
+   _Basic category information_
 
 1. Click <span class="btn">Save</span> and continue.
 
 ## Step 3: Complete the category content
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Content_ section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Content** section.
 
-    ![]({% link images/images-ee/category-content.png %}){: .zoom}
-    _Category Content_{:.ee-only}
+   ![]({% link images/images-ee/category-content.png %}){: .zoom}
+   _Category content_
 
-1. To display a **Category Image** at the top of the page, you can either upload your own image or use an image that already exists in your [Media Storage]({% link cms/media-storage.md %}).
+1. To display a **Category Image** at the top of the page, you can either upload your own image or use an image that already exists in the [Media Storage]({% link cms/media-storage.md %}).
 
    - To upload your own image, click <span class="btn">Upload</span> and choose the image that you want to represent the category.
 
-   - To use images from your [Media Storage]({% link cms/media-storage.md%}), click <span class="btn">Select from Gallery</span> and select the image you want to represent the category.
+   - To use images from the Media Storage, click <span class="btn">Select from Gallery</span> and select the image you want to represent the category.
 
-    {:.bs-callout-info}
-    Inside the Media Gallery, you may also leverage the [Adobe Stock Integration]({% link cms/adobe-stock.md %}) to find an appropriate image by clicking <span class="btn">Search Adobe Stock</span>.
+   {:.bs-callout-info}
+   Inside the Media Gallery, you can also leverage the [Adobe Stock Integration]({% link cms/adobe-stock.md %}) to find an appropriate image by clicking <span class="btn">Search Adobe Stock</span>.
 
-1. For **Description**, enter the text that you want to appear on the category landing page.
+1. For **Description**, enter the text or other content that you want to appear on the category landing page.
 
-   You can format the text as needed. For more information, refer to [Using the Editor]({% link cms/editor.md %}).
+   For more information, see [Category Content]({% link cms/adobe-stock.md %}).
 
 1. To include a content block on the category landing page, choose the **CMS Block** that you want to appear.
 
@@ -62,7 +62,7 @@ _Category Tree_{:.ee-only}
 
 ## Step 4: Complete the display settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Display Settings_ section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Display Setting** section.
 
 1. Set **Display Mode** to one of the following:
 
@@ -92,12 +92,12 @@ _Category Tree_{:.ee-only}
 
 1. Click <span class="btn">Save</span> and continue.
 
-    ![]({% link images/images/category-display-settings.png %}){: .zoom}
-    [_Display Settings_]({% link catalog/categories-display-settings.md %})
+   ![]({% link images/images/category-display-settings.png %}){: .zoom}
+   [_Display settings_]({% link catalog/categories-display-settings.md %})
 
 ## Step 5: Complete the search engine optimization settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the _Search Engine Optimization Settings_ section.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Search Engine Optimization Settings** section.
 
 1. Complete the following [meta data]({% link marketing/meta-data.md %}) for the category:
 
@@ -105,23 +105,23 @@ _Category Tree_{:.ee-only}
    - Meta Keywords
    - Meta Description
 
-    ![]({% link images/images/catalog-categories-search-engine-optimization.png %}){: .zoom}
-    [_Search Engine Optimization_]({% link catalog/categories-search-engine-optimization.md %})
+   ![]({% link images/images/catalog-categories-search-engine-optimization.png %}){: .zoom}
+   [_Search engine optimization_]({% link catalog/categories-search-engine-optimization.md %})
 
 1. Click <span class="btn">Save</span> and continue.
 
 ## Step 6: Choose the products in category
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Products in Category_ section and use one of the following methods to add products to the category.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Products in Category** section.
 
 1. Use the [filters]({% link stores/admin-grid-controls.md %}) as needed to find the products.
 
-    To display all records that are not yet included in the category, set the record chooser in the first column to `No` and click **Search**.
+   To display all records that are not yet included in the category, set the record chooser in the first column to `No` and click **Search**.
 
 1. In the first column, select the checkbox for each product to include in the category.
 
-    ![]({% link images/images-ee/catalog-categories-products-in-category.png %}){: .zoom}
-    _[Products In Category]({% link catalog/categories-category-products.md %})_{:.ee-only}
+   ![]({% link images/images-ee/catalog-categories-products-in-category.png %}){: .zoom}
+   _[Products in category]({% link catalog/categories-category-products.md %})_
 
 1. Click <span class="btn">Save</span> and continue.
 
@@ -144,8 +144,8 @@ _Category Tree_{:.ee-only}
 
 1. To add another permission rule, click <span class="btn">New Permission</span> and repeat the process.
 
-    ![]({% link images/images-b2b/catalog-category-create-permissions.png %}){: .zoom}
-    _[Category Permissions]({% link catalog/category-permissions.md %})_{:.b2b-only}
+   ![]({% link images/images-b2b/catalog-category-create-permissions.png %}){: .zoom}
+   _[Category permissions]({% link catalog/category-permissions.md %})_
 
 ## Step 8: Complete the design settings
 
@@ -163,8 +163,8 @@ _Category Tree_{:.ee-only}
 
    - To use the same design for product pages, set **Apply Design to Products** to `Yes`.
 
-      ![]({% link images/images-b2b/catalog-category-design.png %}){: .zoom}
-      _[Design]({% link catalog/categories-custom-design.md %})_{:.b2b-only}
+   ![]({% link images/images-b2b/catalog-category-design.png %}){: .zoom}
+   _[Design settings]({% link catalog/categories-custom-design.md %})_
 
 1. {:.ce-only}To schedule the design update for a specific time period, do the following:
 
@@ -172,7 +172,7 @@ _Category Tree_{:.ee-only}
 
    - Use the calendar (![]({% link images/images/btn-calendar.png %})) to choose the Schedule Update **From** and **To** dates.
 
-      ![]({% link images/images/category-scheduled-design-update.png %}){: .zoom}
-      [_Scheduled Design Update_]({% link catalog/categories-custom-design.md %}){:.ce-only}
+   ![]({% link images/images/category-scheduled-design-update.png %}){: .zoom}
+   [_Scheduled design update_]({% link catalog/categories-custom-design.md %})
 
 1. When complete, click <span class="btn">Save</span>.

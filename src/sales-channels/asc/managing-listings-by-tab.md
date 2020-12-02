@@ -32,7 +32,7 @@ width: 190px;
 
 ## Access product listings
 
-1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon Sales Channel**.
 
 1. Click **View Store** on the store card.
 

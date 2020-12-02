@@ -186,12 +186,16 @@ pages:
         url: "/system/data-advanced-price.html"
     - label: Customer Attribute Reference
       url: "/system/data-attributes-customer.html"
+    - label: Catalog Sync
+      url: "/system/catalog-sync.html"
   - label: Integrations
     url: "/system/integrations.html"
     children:
     - label: Integration with ERP Systems
       url: "/system/erp-systems.html"
       edition: b2b-only
+    - label: Magento Services
+      url: "/system/saas.html"
   - label: Permissions
     url: "/system/permissions.html"
     children:
@@ -308,6 +312,8 @@ pages:
     children:
     - label: Refresh Statistics
       url: "/reports/statistics.html"
+  - label: Site-Wide Analysis Tool
+    url: "/reports/site-wide-analysis-tool.html"  
   - label: Customer Reports
     url: "/reports/customer-reports.html"
   - label: Product Reports

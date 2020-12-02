@@ -49,6 +49,9 @@ pages:
       children:
       - label: Configuring Gift Card Accounts
         url: "/catalog/product-gift-card-account-configuration.html"
+  - label: Export Full Catalog
+    url: "/catalog/export-full-catalog.html"
+    edition: ee-only
 - label: Product Settings
   url: "/catalog/settings.html"
   children:
@@ -246,9 +249,9 @@ pages:
   - label: Scheduled Changes
     url: "/catalog/category-scheduled-changes.html"
     edition: ee-only
-  - label: Content Settings
+  - label: Content
     url: "/catalog/categories-content-settings.html"
-  - label: Display Settings
+  - label: Display
     url: "/catalog/categories-display-settings.html"
   - label: Search Engine Optimization
     url: "/catalog/categories-search-engine-optimization.html"

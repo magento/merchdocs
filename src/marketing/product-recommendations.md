@@ -43,8 +43,6 @@ The following recommendation types will fallback to **Most viewed** if there is 
 
 Magento defines default filters for the **Most popular**, **Trending**, and **Recommended for you** recommendation types. By filtering recommendations, Magento provides more relevant results. For example, if you deploy the **Most popular** recommendation type to a product detail page, you would not want products from the entire catalog to be displayed, but rather a smaller subset of products relevant to the product being viewed.
 
-Magento filters recommendations based on direct category assignments and their subcategories. For example, if the category of the product is `Gear`, the recommendation unit displays products that have categories under `Gear`, such as `Gear/Bags` or `Gear/Fitness Equipment`.
-
 The following table describes how the **Most popular**, **Trending**, and **Recommended for you** recommendation types are filtered based on the page.
 
 |Page|Filtered By|
@@ -54,10 +52,6 @@ The following table describes how the **Most popular**, **Trending**, and **Reco
 |Product Detail|Products under that product's category(-ies)|
 |Cart|Categories of the products in the shopper's cart|
 |Order Confirmation|Categories for products the shopper just purchased|
-
-### Filter based on stock status
-
-Product Recommendations use the **Display Out-of-Stock Products** value configured in the Magento Admin to determine if a particular product should be displayed in a recommendation unit. If the **Display Out-of-Stock Products** option is set to `Yes`, products that are out-of-stock are eligible to be displayed in the recommendation unit. If **Display Out-of-Stock Products** option is set to `No`, out-of-stock products will not be displayed in recommendation units. You can configure the **Display Out-of-Stock Products** value in the [stock options]({% link configuration/catalog/inventory.md %}) section of the Catalog configuration.
 
 ## Product recommendations placement {#productrecplacement}
 
@@ -80,15 +74,3 @@ The following table lists the storefront pages, where you can place the recommen
 |**Product Detail**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending<br>Visual similarity|
 |**Cart**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
 |**Confirmation**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
-
-## Global category exclusions {#globalexclusions}
-
-You can specify categories that you never want to be included in your recommendations.
-
-1. Click **Settings** (gear icon) to display the **Global Category Exclusions** page.
-
-1. For **Available categories**, enter a category you want to exclude.
-
-   You can select up to 50 categories.
-
-1. Click <span class="btn">Save changes</span> when you are finished selecting the categories you want to exclude.

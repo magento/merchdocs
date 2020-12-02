@@ -1,344 +1,313 @@
 ---
 ee_only: true
-title: Banner
+title: Media - Banner
 ---
 
-Use the Banner content type to create an illustrated, interactive component that engages users with a call to action and button.
+Use the _Banner_ content type to add an illustrated, interactive component that engages users with a call to action and button in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage).
 
 {:.bs-callout-info}
-Page Builder includes a new “Banner” content type. What was previously the _Banner_ option in the Content menu is now _Dynamic Block_.
+What was previously the _Banner_ option in the Content menu is now [Dynamic Block]({% link cms/dynamic-blocks.md %}).
 
 ![]({% link images/images-ee/page-builder-banner-homepage.png %}){: .zoom}
-_Banner on Home Page_
+_Banner on a storefront home page_
+
+{% include page-builder-save-timeout.md %}
+
+## Banner toolbox
+
+The banner toolbox appears when you hover over the banner container.
+
+![]({% link images/images-ee/page-builder-tutorial1-banner-toolbox.png %}){: .zoom}
+_Banner toolbox_
+
+|Tool|Icon|Description|
+|--- |--- |--- |
+|Move|![Move icon]({{site.baseurl}}/images/images-ee/icon-pb-move.png){: width="25px"}|Moves the banner to another position on the stage.|
+|(label)|Banner|Identifies the current content container as a banner. Hover over the container to see the toolbox.|
+|Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the Edit Banner page, where you can change the properties of the banner and container.|
+|Hide|![Hide icon]({{site.baseurl}}/images/images-ee/icon-pb-hide.png){: width="25px"}|Hides the current banner.|
+|Show|![Show icon]({{site.baseurl}}/images/images-ee/icon-pb-show.png){: width="25px"}|Shows the  hidden banner.|
+|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a copy of the banner.|
+|Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the banner from the stage.|
+|Upload New Image||Uploads an image from your local file system to the gallery for the banner background.|
+|Select from Gallery||Uses an existing image from the gallery for the banner background.|
 
 ## Add a banner
 
-1. Open the page where you want to place the banner and expand the **Content** section.
-
-1. In the Page Builder panel on the left, expand **Media** and drag a **Banner** placeholder to the stage.
+1. In the Page Builder panel, expand **Media** and drag a **Banner** placeholder to the stage.
 
    ![]({% link images/images-ee/page-builder-tutorial1-banner-drag-to-stage.png %}){: .zoom}
-   _Drag “Banner” Content Type to Stage_
+   _Dragging a banner content type to the stage_
 
-1. Hover over the banner container to show the toolbox. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline} ).
+   The _Upload Image_ and _Select from Gallery_ buttons are included so you can make quick changes to the banner content directly from the stage. You can also change the content on the _Edit Banner_ page.
 
-   In addition to the toolbox, the _Upload Image and Select from Gallery_ buttons are included so you can make quick changes to the banner directly from the stage.
+1. Click in the banner placeholder to display the [text editor]({% link cms/editor.md %}) and enter content for the banner.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-banner-toolbox.png %}){: .zoom}
-   _Banner Toolbox_
+   You can also include more complex banner content using the [Content](#content) settings.
 
-1. Complete the settings as described in the following sections.
+## Change banner settings
 
-### Appearance
+1. Hover over the banner container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+
+1. Use the following sections for detailed information about updating the available settings:
+
+   - [Appearance](#appearance)
+   - [Content](#content)
+   - [Background](#background)
+   - [Advanced](#advanced)
+
+1. When complete, click <span class="btn">Save</span> in the upper-right corner to close the _Edit Banner_ page.
+
+1. In the upper-right corner, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
+
+## Appearance
 
 Banners are extremely easy to set up and maintain, because they are based on one of four predefined templates.
 
-Under **Appearance**, choose one of the following settings:
+- Choose one of the following banner placement types:
 
-- `Poster`
-- `Collage Left`
-- `Collage Center`
-- `Collage Right`
+   |Poster|Centers content and button on the banner. The overlay, if used, extends the full width of the banner.
+   |Collage Left|Places content and button in a defined area on the left side of the banner. The overlay, if used, covers only the defined area.
+   |Collage Center|Places content and button in a defined area that is centered on the banner. The overlay, if used, covers only the defined area.
+   |Collage Right|Places content and button in a defined area on the right side of the banner. The overlay, if used, covers only the defined area.
 
-![]({% link images/images-ee/page-builder-tutorial1-row-banner-settings-appearance-collage-right.png %}){: .zoom}
-_Appearance_
+   ![]({% link images/images-ee/page-builder-tutorial1-row-banner-settings-appearance-collage-right.png %}){: .zoom}
+   _Appearance - collage right_
 
-Enter the **Minimum Height** for the row. The minimum height can be a number with any valid CSS unit (such as 100px, 50%, 50em, 100vh) or a calculation (such as 100vh - 237px).
+- (Optional) Enter the **Minimum Height** for the row.
 
-For example, you can set the minimum height of a banner to stretch the full-height of the page, giving you compelling options for full-page background images and videos.
+   The minimum height can be a number with any valid CSS unit (such as `100px`, `50%`, `50em`, `100vh`) or a calculation (such as `100vh - 237px`).
+
+   For example, you can set the minimum height of a banner to stretch the full-height of the page, giving you compelling options for full-page background images and videos.
+
+## Background
+
+There are many options for defining the background display of a banner. You can apply a simple color or background image, as well as manage more sophisticated effects.
 
 ### Background Color
 
-Use one of the following methods to set the background color:
+Specify the background color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. This determines the background color of the row. You can also adjust the opacity of the color.
 
-#### Method 1: Enter the Value
+![]({% link images/images-ee/page-builder-settings-background-color-no-color.png %}){: .zoom}
+_No color (default)_
 
-In the _No Color_ box, enter one of the following:
+You can set the value in one of three ways:
 
 - A predefined color name, such as `White`
 - The hexadecimal color value for the color, such as `#ffffff`
 - The rgba value for the color, with opacity percent, such as `rgba(255, 255, 255, 0.75)`
 
-![]({% link images/images-ee/page-builder-settings-background-color-no-color.png %}){: .zoom}
-_No Color_
+If you want to choose a color, click the swatch to the left of the _No Color_ box.
 
-#### Method 2: Choose the value
+![]({% link images/images-ee/page-builder-settings-background-color-picker-swatch.png %}){: .zoom}
+_Choosing a color swatch_
 
-1. Click the swatch to the left of the _No Color_ box. Then do one of the following:
+If you click the color box to open the color picker again, the box below the slider shows the current red, green, blue, and alpha values (rgba). The last number indicates the current opacity percentage as a decimal. You can use the slider to adjust the opacity, or enter the desired decimal value.
 
-   - In the color picker palette, choose the color swatch.
-   - In the color picker, drag the cursor to the color that you want.
+![]({% link images/images-ee/page-builder-settings-background-color.png %}){: .zoom}
+_Setting opacity_
 
-   ![]({% link images/images-ee/page-builder-settings-background-color-picker-swatch.png %}){: .zoom}
-   _Choose Swatch_
-
-1. Page Builder supports a transparency layer, or _alpha channel_, that you can use to create backgrounds with varying degrees of opacity. Do the following to set the opacity of the background color:
-
-   - Locate the **Opacity** slider just below the color picker.
-
-   - Drag the slider to the `75%` setting. Then, click <span class="btn">Apply</span>.
-
-      The box below the slider shows the current red, green, blue, and alpha values (rgba). The last number indicates the current opacity percentage as a decimal.
-
-      ![]({% link images/images-ee/page-builder-settings-background-color.png %}){: .zoom}
-      _Set Opacity_
+{:.bs-callout-info}
+Page Builder also supports a transparency layer, or _alpha channel_, in background images that can be used to create backgrounds with varying degrees of opacity.
 
 ### Background Type
 
-A background for a row can be an image or a video. Page Builder defaults to `Image` and shows various image settings. If you select `Video`, Page Builder swaps the image settings with video settings. Both background types are described as follows.
+A background type can be an image or a video. Page Builder defaults to `Image` and shows various image settings. If you select `Video`, Page Builder swaps the image settings with video settings. Both background type settings are described in the following sections.
 
 ![]({% link images/images-ee/page-builder-background-type.png %}){: .zoom}
-_Background Type_
+_Background type_
 
-### Background Image
+### Image type settings
 
-1. Set **Background Type** to **Image**.
+If you set the _Background Type_ to `Image`, use the following settings to define the background image display.
 
-1. Click <span class="btn">Upload</span>.
+![]({% link images/images-ee/page-builder-tutorial1-banner-background.png %}){: .zoom}
+_Banner with background image_
 
-1. Navigate to the image in your local file system. Then, choose the file that you want to use.
+- **Background Image** - If needed, use the provided tools to choose a background image to apply to the banner:
 
-   The image is uploaded to the gallery and a thumbnail of the uploaded image appears. The file name, image dimensions, and file size are noted below.
+   |Upload|Uploads an image file from your local computer to the gallery and then applies it as the background image for the banner.
+   |Select from Gallery|Prompts you to choose an existing image from the gallery as the background image for the banner.
+   |![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"}|Allows you to either drag the image to the camera tile or browse to the image in your local file system.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-settings-background-image-selected.png %}){: .zoom}
-    _Background Image for Desktop_
+- **Background Mobile Image** - If needed, use the same tools to choose a different background image to be used for display on mobile devices.
 
-1. At the **Background Mobile Image** field, click <span class="btn">Upload</span>. Then, choose the image that you want to use for mobile devices.
+- **Background Size** - Set this option to determine how the background image is scaled in relation to the width of the banner:
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-settings-background-mobile-image-selected.png %}){: .zoom}
-   _Background Image for Mobile_
+   | Cover | The background image covers the full width of the banner. |
+   | Contain | The background image is limited to the width of the content area. |
+   | Auto | Applies the size from the current style sheet. |
 
-1. Scroll up to the top of the page. Then in the upper-right corner, click <span class="btn">Save</span> to close the Edit Banner page and return to the Page Builder workspace.
+   ![]({% link images/images-ee/page-builder-layout-row-settings-background-size-cover.png %}){: .zoom}
+   _Background size_
 
-   The background appears on the stage, and extends the full width of the row.
+- **Background Position** - Set this option to determine how the background image is anchored in relation to the banner:
 
-   ![]({% link images/images-ee/page-builder-tutorial1-banner-background.png %}){: .zoom}
-   _Banner with Background Image_
+   | Top | Left / Center / Right |
+   | Center | Left / Center / Right |
+   | Bottom | Left / Center / Right |
 
-### Background Video
+   The anchor point is like a push pin that attaches the image to the banner at the specified background position.
 
-1. Set **Background Type** to **Video**.
+- **Background Attachment** - Set the attachment type to determine how the background image moves in relation to the scrolling page:
 
-1. In the **Video URL** field, enter a valid video URL. A valid video URL can be a link to a:
+   | Scroll|The attached background image is synchronized to move down as the page scrolls.|
+   | Fixed|(Not available for mobile) The background image does not move as the container scrolls over the image and is fixed at the specified background position.|
 
-   - YouTube video: `https://youtu.be/CoDhMRUUjeI`
-   - Vimeo video: `https://vimeo.com/190156113`
-   - Video file (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`
+### Video type settings
+
+If you set the _Background Type_ to `Video`, use the following settings to define the background image display.
+
+- **Video URL** - Enter a valid video URL. Valid video URLs can be links to:
+
+   - YouTube videos: `https://youtu.be/CoDhMRUUjeI`
+   - Vimeo videos: `https://vimeo.com/190156113`
+   - Valid video files (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`
 
    ![]({% link images/images-ee/page-builder-video-url.png %}){: .zoom}
-   _Background Video URL_
+   _Background video URL_
 
-1. Apply additional settings as follows:
+- **Overlay Color** - Select a color to apply a transparent tint to the video.
 
-   - Select an **Overlay Color** to apply a transparent tint to the video.
+- **Infinite Loop** - Set this to `No` to make the video play once and stop. When this is set to `Yes` (default), the video repeats in an infinite loop.
 
-   - Change **Infinite Loop**, **Lazy Load**, and **Play Only When Visible** settings as needed. By default, all these settings are set to `Yes`.
+- **Lazy Load** - Set this to `No` to make the video load with the page, even when not visible. When this is set to `Yes` (default), the video loads from the source only when visible on the screen.
 
-   - Add a **Fallback Image** to display on the screen before a video loads and in the event that the video does not load for some reason.
+- **Play Only When Visible** - Set this to `No` to make the video start playing immediately after it loads, regardless of whether it is visible. When this is set to `Yes` (default), the video starts playing only when it is visible.
 
-### Banner Content
+- **Fallback Image** - If needed, specify an image to display on the screen before a video loads and in the event that the video does not load for some reason.
 
-Notice the placeholder text that appears on the right side of the row. The position of this text reflects the Appearance setting that you specified.
+## Content
 
-1. Click the placeholder text, and enter the text that you want to appear on the banner. The editor toolbar appears above the text box.
+You can modify the banner content directly on the stage or when you are changing the settings. The settings provide more complex content features, such as banner links and buttons, as well as overlays. The position of the content reflects the [Appearance](#appearance) placement setting.
+
+### Simple content on the stage
+
+1. Click the placeholder text and enter the text that you want to appear on the banner.
+
+   The editor toolbar appears above the text box.
 
    ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-text.png %}){: .zoom}
-   _Edit Content from Stage_
+   _Edit content on the stage_
 
-1. Use the editor toolbar to format the text as needed.
+1. Use the editor toolbar to enter and format text, as well as insert elements, such as links, images, and widgets.
 
    ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-text-format-line2.png %}){: .zoom}
-   _Stage with Formatted Text_
+   _Stage with formatted text_
 
-1. Hover over the banner container. Then, choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %}){: .Inline}) in the toolbox.
+### Complex content in the settings
 
-1. Scroll down to the **Content** section.
+1. Hover over the banner container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
-   You can enter and edit text from the stage or from Banner Settings.
+1. Scroll down to the _Content_ section and use the **Message Text** editor to enter and format banner text.
+
+   You can also insert elements, such as text links, images, and widgets.
 
    ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-content-message-text.png %}){: .zoom}
-   _Message Text_
+   _Message Text editor_
 
-### Banner links and buttons
+1. If needed, specify a **Link** for the banner.
 
-A banner can have either single, or multiple links and buttons. Use one of the following methods to add links and/or buttons to the banner.
+   The link is the destination page that appears when the customer clicks the banner button or area. You can use one of three link types:
 
-#### Method 1: Single link or button
+   - **URL** - Links to either a relative or fully-qualified URL.
+   - **Product** - Identifies the destination page based on the product name or SKU. Search for the product by name based on either a partial or full name. Choose the product from the search results list.
+   - **Category** - Identifies the destination page as a specific category or subcategory in the category tree. Search for the category based on either a partial or full name. Choose the category from the expanded section of the displayed tree.
+   - **Page** - Identifies the destination page as a specific content page. Search for the page based on either a partial or full name. Choose the page from the search results list.
 
-The banner Appearance setting places a single link or button below the text. Simply follow the instructions below to complete the properties of the link or button that you want to add.
+   <div class="bs-callout-info" markdown="1">
+   Starting with Magento 2.4.1, Page Builder no longer supports linking the banner and links within the nested text due to issues with display on the storefront. If you are using a link in the _Message Text_, you cannot configure the _Link_ option. If you prefer to use a single link for the whole banner, you can remove all links from the text.
 
-![]({% link images/images-ee/page-builder-tutorial1-row-banner-settings-appearance-collage-right.png %}){: .zoom}
-_Appearance with Text and Button (or Link)_
+   ![Link configuration is blocked]({% link images/images-ee/page-builder-nested-link-blocked.png %}){: width="400px"}
+   </div>
 
-#### Method 2: Multiple links or buttons
+1. If needed, add a button to prompt customers to follow the link.
 
-1. Create a separate [block]({% link cms/block-add.md %}) with the links or buttons that you want to include.
+   The banner Appearance setting places a single link or button below the text. Complete the properties of the link or button that you want to add.
+
+   ![]({% link images/images-ee/page-builder-tutorial1-row-banner-settings-appearance-collage-right.png %}){: .zoom}
+   _Appearance with text and button (or link)_
 
    {:.bs-callout-info}
-   To avoid conflict, keep all the links or buttons in the separate block, and do not add a link or button directly to the banner.
+   You can also use multiple buttons or links by adding a [block]({% link cms/page-builder-add-content-block.md %}) to the banner. To avoid conflict, keep all the links or buttons in the separate block, and do not add a link or button directly to the banner.
 
-1. [Add a block]({% link cms/page-builder-add-content-block.md %}) placeholder to the banner stage. Then, choose the block that you prepared, and place it where you want it to appear on the banner.
+   - Set **Show Button** to one of the following:
 
-1. Scroll down to the **Link** field below the Message Text box.
+      |Always|A button always appears on the banner.
+      |On Hover|A button appears on the banner only on hover.
+      |Never Show|A button never appears on the banner.
 
-1. To link the banner, choose one of the following destination types.
+   - Enter the **Button Text** to appear on the button.
 
-   - **URL** - Set **Link** to `URL` and enter the destination URL.
+   - Set **Button Type** to one of the following:
 
-      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-url-newtab.png %}){: .zoom}
-      _Link to URL_
+      |Primary|Applies the primary button style from the current style sheet.
+      |Secondary|Applies the secondary button style from the current style sheet, if applicable.
+      |Link|Creates a hyperlink rather than a button.
 
-   - **Product** - Set **Link** to `Product` and do one of the following:
-
-      - Begin typing the product name or SKU.
-      - Choose the product from the search results list.
-      - Click the **down arrow** and choose the product from the list.
-
-   ![]({% link images/images-ee/page-builder-media-banner-settings-link-product.png %}){: .zoom}
-   _Link to Product_
-
-   - **Category** - Set **Link** to `Category` and select the category.
-
-      You can begin typing the category name or drill down to the category in the tree.
-
-      ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-link-category-tree.png %}){: .zoom}
-      _Link to Category_
-
-   - **Page** - Set **Link** to `Page` and do one of the following:
-
-      - Begin typing the page name. Then, click the name of the page in the list.
-      - Click the **down arrow**, and choose the page from the list.
-
-      ![]({% link images/images-ee/page-builder-media-banner-settings-link-page.png %}){: .zoom}
-      _Link to Page_
-
-1. If the link points to a URL that is outside of your store and you want to prevent the visitor from navigating away from your store, select the **Open in new banner** checkbox.
-
-1. Set **Show Button** to one of the following:
-
-   - `Always`
-   - `On Hover`
-   - `Never Show`
-
-1. In the **Button Text** field, enter the text to appear on the button.
-
-1. Set **Button Type** to one of the following:
-
-   - `Primary`
-   - `Secondary`
-   - `Link`
-
-   The button style from the current theme determines the button format. Typically, a primary button has a more prominent background color than a secondary button.
-
-### Banner overlay
-
-You can use an overlay to apply a background color to the active content area that is defined by the Appearance setting. The banner background image continues to be visible for the full width of the banner.
+      The button style from the current theme determines the button format. Typically, a primary button has a more prominent background color than a secondary button.
 
 1. Set **Show Overlay** to one of the following:
 
-   - `Always`
-   - `On Hover`
-   - `Never Show`
+   |Always|The overlay is always visible.
+   |On Hover|The overlay appears only on hover.
+   |Never Show|The overlay is not visible.
 
-1. In the **Overlay Color** field, do one of the following:
+   You can use an overlay to apply a background color to the active content area that is defined by the Appearance setting. The banner background image continues to be visible for the full width of the banner.
+
+   If you choose to show an overlay, set the **Overlay Color**:
 
    - Click the **No Color** swatch, and choose a swatch.
    - In the **No Color** field, either enter a valid color name, or hexadecimal value.
 
-   Then, click <span class="btn">Apply</span>.
-
    ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-overlay-color.png %}){: .zoom}
    _Overlay Color_
 
-1. In the **Overlay Transparency** field, set the percentage of transparency that you want to apply for the overlay.
-
-   For example, a transparency setting of 85% is the same as 25% opacity.
-
-1. In the upper-right corner, click <span class="btn">Save</span> to close the Edit Banner page, and return to the Page Builder workspace.
-
-   The button appears below the banner message on the stage.
+1. In the upper-right corner, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
    ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-background-color.png %}){: .zoom}
-   _Banner with Text Message and Button_
+   _Banner with text message and button_
 
-1. On the **Save** menu in the upper-right corner of the workspace, click the down arrow and choose **Save & Close**.
+## Advanced
 
-   ![]({% link images/images-ee/page-builder-tutorial1-save-and-close.png %}){: .zoom}
-   _Save Menu_
+1. Choose an **Alignment** to control the horizontal positioning of content containers that are added to the banner.
 
-1. When prompted, click the [Cache Management]({% link system/cache-management.md %}) link in the message at the top of the page. Then refresh any invalid cache.
+   |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
+   |Left|Aligns the content containers along the left border of the banner container, with allowance for any padding that is specified.
+   |Center|Aligns the content container in the center of the banner container, with allowance for any padding that is specified.
+   |Right|Aligns the content container along the right border of the banner container, with allowance for any padding that is specified.
 
-## Banner toolbox
+1. Set the **Border** style applied to all four sides of the banner container:
 
-|Tool|Icon|Description|
-|--- |--- |--- |
-|Move|![Move icon]({{site.baseurl}}/images/images-ee/icon-pb-move.png){: width="25px"}|Moves the banner to another position on the stage.|
-|(label)|BANNER|Identifies the current content container as a banner. Hover over the container to see the toolbox.|
-|Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the Edit Banner page, where you can change the properties of the banner and container.|
-|Hide|![Hide icon]({{site.baseurl}}/images/images-ee/icon-pb-hide.png){: width="25px"}|Hides the current banner.|
-|Show|![Show icon]({{site.baseurl}}/images/images-ee/icon-pb-show.png){: width="25px"}|Shows the  hidden banner.|
-|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a duplicate copy of the banner.|
-|Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the banner from the stage.|
-|Upload New Image||Uploads an image from your local file system to the gallery for the banner background.|
-|Select from Gallery||Uses an existing image from the gallery for the banner background.|
+   |Default|Applies the default border style that is specified by the associated style sheet.
+   |None|Does not provide any visible indication of the container borders.
+   |Dotted|The container border appears as a dotted line.
+   |Dashed|The container border appears as a dashed line.
+   |Solid|The container border appears as a solid line.
+   |Double|The container border appears as a double line.
+   |Groove|The container border appears as a grooved line.
+   |Ridge|The container border appears as a ridged line.
+   |Inset|The container border appears as a inset line.
+   |Outset|The container border appears as a outset line.
 
-## Banner settings
+1. If you set a border style other than `None`, complete the border display options:
 
-|Setting|Description|
-|--- |--- |
-|Appearance|Determines the banner layout. Options: <br/>**Poster** - Centers content and button on the banner. The overlay, if used, extends the full width of the banner. <br/>**Collage Left** - Places content and button in a defined area on the left side of the banner. The overlay, if used, covers only the defined area. <br/>**Collage Center** - Places content and button in a defined area that is centered on the banner. The overlay, if used, covers only the defined area. <br/>**Collage Right** - Places content and button in a defined area on the right side of the banner. The overlay, if used, covers only the defined area.|
-|Minimum Height | Specifies the minimum height of the banner using any CSS unit (200px, 100vh, 45em, 50%) or calculation between units (100vh - 237px). For example, you can set the banner's minimum height to cover the full-height of the page, then use background images and videos for compelling design options. |
+   - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
 
-### Background
+      ![]({% link images/images-ee/page-builder-settings-border-color.png %}){: .zoom}
+      _Border Color_
 
-|Setting|Description|
-|--- |--- |
-|Background Color|Determines the background color and opacity of the banner.|
-|Background Type|Determines whether the background is an image or a video.|
+   - **Border Width** - Enter the number of pixels for the border line width.
 
-### Background Image
+   - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
 
-|Setting|Description|
-|--- |--- |
-|Background Image|Determines the location of the background image and applies the image to the banner. Options: <br/>**Upload** - Uploads an image file from your local computer to the gallery and then applies it as the background image for the banner. <br/>**Select from Gallery** - Prompts you to choose an existing image from the gallery as the background image for the banner. <br/>![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"} - Allows you to either drag the image to the camera tile or browse to the image in your local file system.|
-|Background Mobile Image|Determines the location of the background image that is to be used for mobile devices and applies the image to the banner. If left blank, the standard desktop background image is used. Options: <br/>**Upload** - Uploads an image file from your local computer to the gallery and then applies it as the background image for the banner. <br/>**Select from Gallery** - Prompts you to choose an existing image from the gallery as the background image for the banner. <br/>![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"} - Allows you to either drag the image to the camera tile or browse to the image in your local file system.|
-|Background Size|Determines how the background image is scaled in relation to the width of the banner. Options: <br/>**Cover** - The background image covers the full width of the banner. <br/>**Contain** - The background image is limited to the width of the content area. <br/>**Auto** - Applies the default background size that is specified in the stylesheet of the current theme.|
-|Background Position|Determines the anchor point of the image in relation to the banner. Options: Top Left / Top Center / Top Right / Center Left / Center / Center Right / Bottom Left / Bottom Center / Bottom Right|
-|Background Attachment|Determines how the background image moves in relation to the scrolling page. Options: <br/>**Scroll** - The background image is synchronized to move down as the page scrolls. Use Parallax Background to control the scrolling speed.<br/>**Fixed** - (Not available for mobile) The background image does not move as the container scrolls over the image and is fixed at the specified background position.|
-|Background Repeat|Determines if the background image is repeated. Options: <br/>**Yes** - The background image is repeated to fill the available space. <br/>**No** - Uses only a single instance of the background image.|
+1. (Optional) Specify the names of **CSS classes** from the current style sheet to apply to the banner container.
 
-### Background Video
+   Separate multiple class names with a space.
 
-|Setting|Description|
-|--- |--- |
-|Video URL|Link to the video you want to play for the background. Valid video URLs can be:<br/>- links to YouTube videos: `https://youtu.be/CoDhMRUUjeI`<br/>- links to Vimeo videos: `https://vimeo.com/190156113`<br/>- links to valid video files (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`|
-|Overlay Color|Color with opacity for creating a tint over the video.|
-|Infinite Loop|Determines if the video repeats. Options:<br/> **Yes** - (Default) The video repeats in an infinite loop.<br/> **No** - The video plays once and stops.<br/>|
-|Lazy Load|Determines when the video loads. Options:<br/> **Yes** - (Default) The video loads from its source only when visible on the screen.<br/> **No** - The video loads with the page, even when not visible.<br/>|
-|Play Only When Visible|Determines when the video plays. Options:<br/> **Yes** - (Default) The video starts playing only when it is visible.<br/> **No** - The video starts playing immediately after it loads, regardless of whether it is visible.<br/>|
-|Fallback Image|Image that displays on the screen before a video loads as well as when the event does not load for some reason.|
+1. Enter values, in pixels, for the **Margins and Padding** to specify the outer margins and inner padding of the banner.
 
-### Content
+   Enter each corresponding value in the banner container diagram.
 
-|Setting|Description|
-|--- |--- |
-|Message Text|A text box and editor that you can use to enter and edit the banner message.|
-|Link|Determines the destination page that appears when the button or link is clicked. Options: <br/>**URL** - Links to either a relative or fully-qualified URL. <br/>**Product** - Identifies the destination page based on the product name or SKU. The product name can be searched for based on either a partial or full name. The product is then chosen from the search results list. <br/>**Category** - Identifies the destination page as a specific category or subcategory in the category tree. <br/>**Page** - Identifies the destination page as a specific content page.|
-|Show Button|Specifies if and when a button appears on the banner. Options: <br/>**Always** - A button always appears on the banner. **On Hover** - A button appears on the banner only on hover. <br/>**Never Show** - A button never appears on the banner.|
-|Button Text|Specifies the text that appears on the button.|
-|Button Type|Determines the button format. Options: <br/>**Primary** - Applies the primary button style from the current style sheet. <br/>**Secondary** - Applies the secondary button style from the current style sheet, if applicable. <br/>**Link** - Creates a hyperlink rather than a button.|
-|Show Overlay|Applies a background color to the text content area that is defined by the Appearance setting. The banner background image or color continues to be visible for the full width of the banner. Options: <br/>**Always** - The overlay is always visible. <br/>**On Hover** - The overlay appears only on hover. <br/>**Never Show** - The overlay is not visible.|
-|Overlay Color|Determines the color of the overlay. To specify the overlay color, choose a swatch, click the color picker, or enter a valid color name or hexadecimal value.|
-|Overlay Transparency|Specifies the transparency of the overlay as a percentage. For example, an overlay transparency of 85% is the equivalent of 15% opacity.|
-
-### Advanced
-
-|Setting|Description|
-|--- |--- |
-|Alignment|Determines the horizontal alignment of content containers that are added to the banner. Options: <br/>**Default** - Applies the default setting that is specified in the style sheet of the current theme. <br/>**Left** - Aligns content containers along the left border of the banner, with allowance for any padding that is specified. <br/>**Center** - Aligns content containers in the center of the banner with allowance for any padding that is specified. <br/>**Right** - Aligns content containers along the right border of the banner with allowance for any padding that is specified.|
-|Border|Determines the border style that is applied to all sides of the banner container. Options: <br/>**Default** - Applies the default border style from the stylesheet that is associated with the current theme. <br/>**None** - Provides no visible indication of banner borders. <br/>**Dotted** - The banner border appears as a dotted line.  <br/>**Dashed** - The container border appears as a dashed line. <br/>**Solid** - The banner border appears as a solid line. <br/>**Double** - The container border appears as a double line. <br/>**Groove** - The banner border appears as a grooved line. <br/>**Ridge** - The container border appears as a ridged line. <br/>**Inset** - The banner border appears as an inset line. <br/>**Outset** - The container border appears as an outset line.|
-|Border Color|Determines the color of the container border. Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.|
-|Border Width|Determines the width in pixels of the container border.|
-|Border Radius|Specifies the size of the radius that is used to round each corner of the container border.|
-|CSS Classes|Specifies the names of CSS classes from the current stylesheet that apply to the banner. Separate multiple class names with a space.|
-|Margins and Padding|Determines the size, in pixels, of the outer margins and inner padding of the banner. Enter each corresponding value in the banner container diagram. <br/>**Margins** - The amount of blank space, in pixels, that is to be applied to the outside edge of all sides of the banner. Options: Top / Right / Bottom / Left <br/>**Padding** - The amount of blank space, in pixels, that is to be applied to the inside edge of all sides of the banner. Options: Top / Right / Bottom / Left|
+   |Margins|The amount of blank space that is applied to the outside edge of all sides of the container.
+   |Padding|The amount of blank space that is applied to the inside edge of all sides of the container.

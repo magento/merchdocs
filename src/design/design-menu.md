@@ -2,21 +2,18 @@
 title: Design Menu
 ---
 
-Magento provides a variety of easy-to-use design options that you can use to make simple changes to your store. In addition, you will find many professionally designed themes available on Magento Connect. Like the window dressing of your store, you can change the theme for the season or for a promotion.
+Magento provides a variety of easy-to-use design options that you can use to make simple changes to your store. You will also find many professionally designed themes available on Magento Connect. Like the window dressing of your store, you can change the theme for the season or for a promotion.
 
-More advanced users appreciate the flexibility of working with an object-oriented environment that assembles pages from separate components. After you understand the basics, you’ll appreciate working in such a flexible and fluid environment. To learn more, see the [Frontend Developer Guide][1].
+More advanced users appreciate the flexibility of working with an object-oriented environment that assembles pages from separate components. After you understand the basics, you will appreciate working in such a flexible and fluid environment. To learn more, see the [Frontend Developer Guide][1].
 
-![]({% link images/images-ee/admin-menu-content-ee.png %}){: .zoom}
-_Design Menu_{:.ee-only}
+![]({% link images/images/admin-menu-content-design.png %}){: .zoom}
+_Design sub-menu_
 
-{:.procedure}
-To display the Design menu:
+## Display the Design sub-menu
 
-- On the _Admin_ sidebar, select **Content**.
+On the _Admin_ sidebar, select **Content** > **Design**.
 
-  The Design options are part of the Content menu.
-
-## Menu Options
+## Menu options
 
 ### Configuration
 

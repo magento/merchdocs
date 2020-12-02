@@ -15,7 +15,7 @@ Magento uses the following VAT fields and configuration settings to address diff
 ### Stores > Configuration > General > General > Store Information
 
 VAT Number|The value-added tax number that is assigned to the merchant.
-Validate VAT Number|[VAT validation]({% link tax/vat-validation.md %}) confirms that the VAT Number matches the corresponding record in the [European Commission](http://ec.europa.eu/taxation_customs/vies/") database.
+Validate VAT Number|[VAT validation]({% link tax/vat-validation.md %}) confirms that the VAT Number matches the corresponding record in the [European Commission](http://ec.europa.eu/taxation_customs/vies/) database.
 
 ## Customer Information
 

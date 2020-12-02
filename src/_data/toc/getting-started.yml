@@ -207,10 +207,12 @@ pages:
   url: "/magento/magento-extensions.html"
 - label: Magento Marketplace
   url: "/magento/magento-marketplace.html"
+- label: Magento Identity Manager
+  url: "/magento/magento-identity-manager.html"
 - label: Resources
   url: "/getting-started/resources.html"
   children:  
-  - label: Join the Conversation!
+  - label: Join the Conversation
     url: "/getting-started/magento-ecosystem.html"
   - label: Technical Resources
     url: https://magento.com/technical-resources

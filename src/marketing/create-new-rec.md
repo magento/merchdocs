@@ -59,7 +59,7 @@ After you create and activate the recommendation unit, Magento will begin [colle
 
    The **Choose position** section displays all recommendations (if any) created for the page type you selected.
 
-1. (Optional) In the **Exclude categories** section, specify the product categories that should not be included as part of this recommendation. You can select up to 25 categories. You also can specify categories you want to exclude [from all recommendations]({% link marketing/product-recommendations.md %}#globalexclusions).
+1. (Optional) In the _Filter products_ section, you can [apply rules]({% link marketing/recommendation-incl-excl.md %}) that control which products are displayed in recommendations.
 
 1. When you finish configuring your recommendation you can click:
 

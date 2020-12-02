@@ -2,30 +2,33 @@
 title: Allow Reorders
 ---
 
-When enabled, reorders can be made directly from the customer account or from the original order in the Admin. Reorders are enabled by default.
+When enabled, reorders can be made directly from the customer account or from the original order in the _Admin_. Reorders are enabled by default.
 
 ![]({% link images/images/customer-reorder.png %}){: .zoom}
-_Customer Reorder Link in Admin_
+_Customer reorder link in the Admin_
 
-## To configure customer reorders:
+## Criteria for reorder to be allowed for an order
 
-1. On the Admin sidebar, click **Stores**.
+- The _Allow Reorder_ configuration option must be enabled.
 
-1. In the _Settings_ section, choose **Configuration**.
+- If order is in Hold or in Payment Review status, the reorder option is disabled.
 
-1. In the _Sales_ section in the left panel, choose **Sales**.
+- If any of the items in the order is unavailable, out of stock, or disabled, the reorder option is disabled.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the _Reorder_ section.
+## Configure customer reorders
 
-    ![]({% link images/images/config-sales-sales-reorder.png %}){: .zoom}
-    [_Reorder_]({% link configuration/sales/sales.md %})
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. Set **Allow Reorder** to your preference.
+1. In the left panel, expand **Sales** and choose **Sales** underneath.
 
-## Criteria for Reorder to be allowed for an order:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Reorder** section.
 
-1. For the reorder option to appear for an order, **Allow Reorder** must be enabled in the **Admin** > _Stores_ > **Configuration** > **Sales**.
+   ![]({% link images/images/config-sales-sales-reorder.png %}){: .zoom}
+   [_Reorder options_]({% link configuration/sales/sales.md %})
 
-1. If order is in Hold status, the reorder option is disabled.
+1. Set **Allow Reorder** to one of the following:
 
-1. If one of the items in the order is unavailable, out of stock, or disabled in Magento, the reorder option is disabled.
+   Yes|Allows reorders from the customer account or orders list in the Admin.
+   No|Disables reorders.
+
+1. Click <span class="btn">Save Config</span>.
