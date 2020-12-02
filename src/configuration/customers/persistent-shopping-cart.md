@@ -2,15 +2,15 @@
 title: Persistent Shopping Cart
 ---
 
-A [Persistent Shopping Cart]({% link sales/cart-persistent.md %}) allows save of unpurchased items that are left in the cart and save them to period configured in _Persistence Lifetime._
-The cookies should be allowed in the customer browser to use persistent shopping cart.
-
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) > Persistent Shopping Cart
+
+{:.bs-callout-info}
+A [Persistent Shopping Cart]({% link sales/cart-persistent.md %}) allows retention of unpurchased items that are left in the cart and saves them for a period configured in _Persistence Lifetime_. Cookies should be allowed in the customer browser to use persistent shopping cart.
 
 ## General Options
 
 ![]({% link images/images-ee/config-customers-persistent-shopping-cart-general-options-ee.png %}){: .zoom}
-_[General Options]({% link sales/cart-persistent-configuration.md %})_{:.ee-only}
+_[General Options]({% link sales/cart-persistent-configuration.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
