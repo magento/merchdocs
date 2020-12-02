@@ -6,12 +6,12 @@ Magento compiles catalog data into tables using indexers. This process is automa
 
 With the **Catalog Sync** dashboard you can:
 
--  View the sync status (**In Progress**, **Success**, **Failed**)
--  View the total number of products synced, if successful
--  Search synced products to view their current state
--  Search store catalog by name, SKU, and so on
--  View syned product details in JSON to help diagnose a sync discrepancy
--  Reinitiate the sync process
+- View the sync status (**In Progress**, **Success**, **Failed**)
+- View the total number of products synced, if successful
+- Search synced products to view their current state
+- Search store catalog by name, SKU, and so on
+- View syned product details in JSON to help diagnose a sync discrepancy
+- Reinitiate the sync process
 
 ## Accessing the Catalog Sync dashboard
 
@@ -21,9 +21,9 @@ To access the **Catalog Sync** dashboard, select **System** > _Data Transfer_ > 
 
 Reports a sync status of:
 
--  **Success** - Displays the date and time the sync was successful and the number of products updated
--  **Failure** - Displays the date and time the sync was attempted
--  **In Progress** - Displays the date and time of the last successful sync
+- **Success** - Displays the date and time the sync was successful and the number of products updated
+- **Failure** - Displays the date and time the sync was attempted
+- **In Progress** - Displays the date and time of the last successful sync
 
 {:.bs-callout-info}
 The catalog sync process automatically runs every hour. However, if you are not seeing products on your storefront, or if the products do not reflect recent changes you made, learn how to resolve [catalog sync issues](#resolvesync).
