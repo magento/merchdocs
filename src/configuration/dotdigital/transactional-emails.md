@@ -13,7 +13,7 @@ _Transactional Email Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enabled|Website|Determines if dotdigital transactional email messages are enabled for your Magento website. (DDG refers to dotdigital.com, the dotdigital host.) Options: Yes / No|
+|Enabled|Website|Determines if dotdigital transactional email messages are enabled for your Magento website. Options: Yes / No|
 |Send Mode|Website|Specifies the protocol that is used to send transactional email messages from dotdigital. Option: SMTP|
 |Host|Website|Specifies the host that sends email to customers.|
 |Username|Website|The username associated with an admin account with full permissions.|
