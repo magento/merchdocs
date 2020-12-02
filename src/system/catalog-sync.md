@@ -15,7 +15,7 @@ With the **Catalog Sync** dashboard you can:
 
 ## Accessing the Catalog Sync dashboard
 
-To access the **Catalog Sync** dashboard, select **System** > _Data Transfer_ > **Catalog Sync**.
+To access the Catalog Sync dashboard, select **System** > _Data Transfer_ > **Catalog Sync**.
 
 ### Last sync
 
@@ -26,7 +26,7 @@ Reports a sync status of:
 - **In Progress** - Displays the date and time of the last successful sync
 
 {:.bs-callout-info}
-The catalog sync process automatically runs every hour. However, if you are not seeing products on your storefront, or if the products do not reflect recent changes you made, learn how to resolve [catalog sync issues](#resolvesync).
+The catalog sync process automatically runs every hour. However, if you are not seeing products on your storefront, or if the products do not reflect recent changes you made, you can resolve [catalog sync issues](#resolvesync).
 
 ### Products synced
 
@@ -39,11 +39,11 @@ If you need to initiate a resync of your catalog before the hourly scheduled syn
    {:.bs-callout-info}
    Forcing a resync triggers a resync of your entire product catalog, which can increase load on hardware resources.
 
-1. From the **Catalog Sync** dashboard, select **Settings**.
+1. From the _Catalog Sync_ dashboard, select **Settings**.
 
-   The **Catalog Sync Settings** page appears.
+   The _Catalog Sync Settings_ page appears.
 
-1. In the **Resync Data** section, click the **Resync** button.
+1. In the _Resync Data_ section, click <span class="btn">Resync</span>.
 
    Magento syncs your catalog during the next scheduled sync window. Depending on the size of your catalog, this operation can take a long time.
 
