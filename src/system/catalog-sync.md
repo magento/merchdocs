@@ -36,8 +36,8 @@ Displays the total number of products synced from your Magento catalog. After th
 
 If you need to initiate a resync of your catalog before the hourly scheduled sync occurs, you can force a resync.
 
-   {:.bs-callout-info}
-   Forcing a resync triggers a resync of your entire product catalog, which can increase load on hardware resources.
+{:.bs-callout-info}
+Forcing a resync triggers a resync of your entire product catalog, which can increase load on hardware resources.
 
 1. From the _Catalog Sync_ dashboard, select **Settings**.
 
