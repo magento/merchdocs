@@ -33,6 +33,8 @@ _Tax Rules_
 
 ### Method 1: Enter tax rates manually
 
+1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Zones and Rates**.
+
 1. Click <span class="btn">Add New Tax Rate</span>.
 
 1. Complete the form as needed (see [Tax Zones and Rates]({% link tax/tax-zones-rates.md %})).
@@ -43,6 +45,10 @@ _Tax Rules_
    _New Tax Rate_
 
 ### Method 2: Import tax rates
+
+1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Rules**.
+
+1. In the upper-right corner, click <span class="btn">Add New Tax Rule</span> or open existing one from the list.
 
 1. Scroll down to the section at the bottom of the page.
 
