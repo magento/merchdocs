@@ -19,3 +19,8 @@ In the following example, the downloadable sample image (`white.jpg`) is located
 
 ![Example data - downloadable product with downloadable samples]({% link images/images/data-import-downloadable-samples.png %}){: .zoom}
 _Downloadable Samples_
+
+For more information about enabling and managing the Remote storage module, see [Configure remote storage][1] in the _Configuration guide_.
+
+<!-- link definitions -->
+[1]: https://devdocs.magento.com/guides/v2.4/config-guide/remote-storage/config-remote-storage.html

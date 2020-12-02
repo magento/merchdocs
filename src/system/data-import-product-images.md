@@ -98,5 +98,8 @@ Before you try to import a large amount of images, review the steps in the impor
 
     If importing multiple images for a single `sku`, insert the images in a column named `additional_images` (add the column if not already added), separated by commas: `image02.jpg,image03.jpg`
 
+For more information about enabling and managing the Remote storage module, see [Configure remote storage][3] in the _Configuration guide_.
+
 [1]: http://notepad-plus-plus.org/
 [2]: https://www.openoffice.org/
+[3]: https://devdocs.magento.com/guides/v2.4/config-guide/remote-storage/config-remote-storage.html
