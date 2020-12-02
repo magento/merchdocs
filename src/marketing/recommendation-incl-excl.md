@@ -1,5 +1,5 @@
 ---
-title: Control Displayed Recommendations
+title: Inclusion and Exclusion Filters
 tag: product-recommendations
 ee_only: true
 ---
@@ -30,11 +30,10 @@ If using both inclusion and exclusion conditions, Magento applies AND/OR logic o
 - ORs for exclusions
 
 When you define both inclusion and exclusion filters, the inclusions get evaluated first to determine all possible products that are eligible to be recommended, then products matching any exclusion filters are removed from that list.
-what if user creates identical exclusion to an inclusion? ui/magento allows it...need to explain what happens.
 
 ## Static versus dynamic conditions {#staticdyn}
 
-Static conditions are based on manually specified values. Dynamic conditions are based on the currently viewed product, page, or cart. The following describes which condition type is supported on each page type.
+Static conditions are based on manually specified values. Dynamic conditions are based on the currently viewed product, page, or cart. Dynamic conditions are available on every page type except Home Page and Page Builder.
 
 |---|---|---|---|---|---|---|
 |**Rule Type**|**Home**|**Category**|**Product Details**|**Cart**|**Order Confirmation**|**Page Builder**|
