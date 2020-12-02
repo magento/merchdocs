@@ -32,6 +32,27 @@ pages:
         url: "/stores/store-urls-custom-admin.html"
   - label: Configuration
     url: "/stores/configuration-overview.html"
+
+  - label: Inventory
+      url: "/stores/inventory.html" !!!
+      children:
+        - label: Managing Sources !!!!
+          url: "/stores/inventory-manage-sources.html"
+            children:
+              - label: Adding a New Source
+                url: "/stores/inventory-add-new-source.html"
+        - label: Disabling Sources
+          url: "/stores/inventory-disabling-sources.html"
+        - label: Managing Stocks !!!!
+          url: "/stores/inventory-manage-stocks.html"
+            children:
+              - label: Adding a New Stock
+                url: "/stores/inventory-add-new-stock.html"
+              - label: Prioritizing Sources for a Stock
+                url: "/stores/inventory-prioritizing-sources-for-a-stock.html"
+        - label: Deleting Stocks
+            url: "/stores/inventory-deleting-stocks.html"
+
   - label: Taxes
     url: "/tax/taxes.html"
     children:

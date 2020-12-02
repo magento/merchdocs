@@ -9,6 +9,10 @@ sections:
    content: Our online Configuration Reference has field descriptions for every setting.
    url: /stores/configuration.html
 
+ - title: Inventory
+   content: Learn how to create and manage stocks to link your sales channels or websites to sources.
+   url: /stores/inventory.html
+
  - title: Taxes
    content: Learn how to set up tax classes for products and customer groups, and manage tax zones and rates according to the requirements of your locale.
    url: /tax/taxes.html
