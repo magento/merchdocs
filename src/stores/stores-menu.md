@@ -19,7 +19,7 @@ Manage the hierarchy of [websites, stores, and store views]({% link stores/store
 
 ### Inventory
 
-Manage and craete stocks to link your sales channels or websites to sources. Stocks provide an aggregated salable quantity of products. Single Source merchants use the Default Stock while Multi Source merchants use additional custom stocks.
+[Manage and create stocks]({% link catalog/inventory-stock.md %}) to link your sales channels or websites to [sources]({% link catalog/inventory-sources.md %}). Stocks provide an aggregated salable quantity of products. Single Source merchants use the Default Stock while Multi Source merchants use additional custom stocks.
 
 ### Taxes
 
