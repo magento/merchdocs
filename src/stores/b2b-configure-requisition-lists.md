@@ -22,6 +22,6 @@ By default, customers can maintain up to 999 requisition lists for their account
    ![]({% link images/images-b2b/config-customers-requisition-lists-general.png %}){: .zoom}
    [_General setting_]({% link configuration/customers/requisition-lists.md %})
 
-1. For Number of Requisition Lists, enter the maximum number of requisition lists per customer account.
+1. For **Number of Requisition Lists**, enter the maximum number of requisition lists per customer account.
 
 1. When complete, click <span class="btn">Save Config</span>.
