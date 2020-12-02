@@ -53,7 +53,7 @@ After you create and activate the recommendation unit, Magento will begin [colle
 
    Options are:
    - **At the bottom of main content**
-   - **At the top of main content**.
+   - **At the top of main content**
 
 1. (Optional) Select and move the rows in the **Choose position** table to order the recommendations within the container.
 
