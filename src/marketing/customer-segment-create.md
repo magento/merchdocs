@@ -41,7 +41,7 @@ _Customer Segments_
       - Registered Customers
       - Visitors
 
-     Additional options become available in the left pane.
+     Additional options become available in the left pane by clicking <span class="btn">Save and Continue Edit</span> .
 
    ![Segment information]({% link images/images-ee/customer-segment-saved.png %}){: .zoom}
    _Segment Information_
