@@ -283,6 +283,39 @@ pages:
       url: "/payment/zero-subtotal-checkout.html"
   - label: Fraud Protection
     url: "/sales/fraud-protection.html"
+- label: Magento Payments
+  url: "/magento-payments/payments.html"
+  children:
+  - label: Payments options
+    url: "/magento-payments/payments-options.html"
+  - label: Onboarding Magento Payments
+    url: "/magento-payments/onboarding-payments.html"
+  - label: Installing Magento Payments
+    url: "/magento-payments/installing-payments.html"
+    children:
+    - label: Configure Magento Payments
+      url: "/magento-payments/configure-payments.html"
+  - label: Financial reporting
+    url: "/magento-payments/financial-reporting.html"
+    children:
+    - label: Payouts
+      url: "/magento-payments/payouts.html"
+  - label: Managing payments
+    url: "/magento-payments/managing-payments.html"
+    children:
+    - label: Refunds
+      url: "/magento-payments/refunds.html"
+    - label: Voids
+      url: "/magento-payments/voids.html"
+  - label: Security
+    url: "/magento-payments/security.html"
+    children:
+    - label: Fraud protection
+      url: "/magento-payments/fraud-protection.html"
+    - label: PCI compliance
+      url: "/magento-payments/pci.html"
+  - label: Testing and validating payments
+    url: "/magento-payments/testing-validating.html"
 - label: Delivery
   url: "/shipping/delivery.html"
   children:
