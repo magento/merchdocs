@@ -19,7 +19,7 @@ This dashboard displays a table of previously configured recommendations (if any
 
 ## Available recommendation types {#availablerectypes}
 
-[Learn]({% link marketing/prex-types.md %}) about the available recommendation types in Magento.
+See [Recommendation Types]({% link marketing/prex-types.md %}) to learn about the available recommendation types in Magento.
 
 ## Backup recommendations {#backup-recommendations}
 

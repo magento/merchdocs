@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: Recommendation types
+title: Recommendation Types
 ---
 
 Magento provides the following types of recommendations:
