@@ -3,7 +3,7 @@ ee_only: true
 title: Trending
 ---
 
-The _Trending_ recommendation type recommends items based on recent momentum of a product’s popularity across your site. Trending products are those often referred to as "Trending now", "Hot items", and so on.
+The _Trending_ recommendation type recommends items based on recent momentum of a product’s popularity across your site. Trending products are those often referred to as _Trending now_, _Hot items_, and so on.
 
 ## How it works
 
@@ -21,11 +21,11 @@ The _Trending_ recommendation type can be used on all page types. When used on t
 
 ### Suggested storefront labels
 
--  "Trending"
--  "Trending now"
--  "Recently trending"
--  "Hot items"
--  "Trending related products" (PDP)
+-  Trending
+-  Trending now
+-  Recently trending
+-  Hot items
+-  Trending related products (PDP)
 
 ## Example
 

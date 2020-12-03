@@ -49,9 +49,9 @@ After you enable visual recommendations, Adobe Sensei initiates the image proces
 
 ### Suggested storefront labels
 
--  "You may also like"
--  "We found other products you might like"
--  "Inspired by this style"
+-  You may also like
+-  We found other products you might like
+-  Inspired by this style
 
 ## Example
 

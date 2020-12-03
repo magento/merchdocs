@@ -16,6 +16,6 @@ By analyzing a shopper's browsing and purchase history, _Recommended for you_ di
 
 ### Suggested storefront labels
 
--  "Just for you"
--  "Recommended for you"
--  "Inspired by your shopping trends"
+-  Just for you
+-  Recommended for you
+-  Inspired by your shopping trends

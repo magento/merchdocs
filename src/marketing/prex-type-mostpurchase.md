@@ -3,7 +3,7 @@ ee_only: true
 title: Most purchased
 ---
 
-Commonly referred to as "Top sellers", the _Most purchased_ recommendation type recommends items most purchased within the last seven days.
+Commonly referred to as Top sellers, the _Most purchased_ recommendation type recommends items most purchased within the last seven days.
 
 ## How it works
 
@@ -19,9 +19,9 @@ Belonging to a category of recommendation types that are popularity-based, _Most
 
 ### Suggested storefront labels
 
--  "Most popular"
--  "Trending"
--  "Popular right now"
--  "Recently popular"
--  "Popular items inspired by this item" (PDP)
--  "Top sellers"
+-  Most popular
+-  Trending
+-  Popular right now
+-  Recently popular
+-  Popular items inspired by this item (PDP)
+-  Top sellers

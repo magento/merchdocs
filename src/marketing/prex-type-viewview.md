@@ -17,8 +17,8 @@ A simple, but effective recommendation type, _Viewed this, viewed that_ displays
 
 ### Suggested storefront labels
 
--  "Customers who viewed this item also viewed" (PDP)
--  "Customers also viewed"
--  "Related items"
--  "Inspired by your browsing"
--  "People with similar interests also viewed"
+-  Customers who viewed this item also viewed (PDP)
+-  Customers also viewed
+-  Related items
+-  Inspired by your browsing
+-  People with similar interests also viewed
