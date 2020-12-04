@@ -24,6 +24,16 @@ Magento provides the following inclusion and exclusion filters you can use to co
 - **Type** - Filters based on product type, such as: _Simple_, _Configurable_, _Virtual_, _Downloadable_, or _Gift card_.  _Bundled_ and _Grouped_ products are [not yet supported]({% link marketing/product-recs-limitations.md %}).
 - **Visibility** - Filters products based on visibility, such as: _Catalog_, _Search_, or both.
 
+When creating filters for categories, Magento recommends the following best practices:
+
+|Page|Filter By|
+|---|---|
+|Home|No filter|
+|Category|Products under that category|
+|Product Detail|Products under that product's category(-ies)|
+|Cart|Categories of the products in the shopper's cart|
+|Order Confirmation|Categories for products the shopper just purchased|
+
 ### Enable and disable filters
 
 You can configure multiple filters and choose to enable only those you want by selecting the toggle on each filter page. This allows you to create drafts of filters for future use. The enabled filter count is displayed on the tabs.

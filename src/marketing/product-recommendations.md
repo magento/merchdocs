@@ -39,20 +39,6 @@ The following recommendation types will fallback to **Most viewed** if there is 
 
 - **Trending**
 
-## Filter recommendations {#filter-recommendations}
-
-Magento defines default filters for the **Most popular**, **Trending**, and **Recommended for you** recommendation types. By filtering recommendations, Magento provides more relevant results. For example, if you deploy the **Most popular** recommendation type to a product detail page, you would not want products from the entire catalog to be displayed, but rather a smaller subset of products relevant to the product being viewed.
-
-The following table describes how the **Most popular**, **Trending**, and **Recommended for you** recommendation types are filtered based on the page.
-
-|Page|Filtered By|
-|---|---|
-|Home|No filter|
-|Category|Products under that category|
-|Product Detail|Products under that product's category(-ies)|
-|Cart|Categories of the products in the shopper's cart|
-|Order Confirmation|Categories for products the shopper just purchased|
-
 ## Product recommendations placement {#productrecplacement}
 
 You can place the recommendations in one of the following page locations.

@@ -22,7 +22,7 @@ To access the Catalog Sync dashboard, select **System** > _Data Transfer_ > **Ca
 Reports a sync status of:
 
 - **Success** - Displays the date and time the sync was successful and the number of products updated
-- **Failure** - Displays the date and time the sync was attempted
+- **Failed** - Displays the date and time the sync was attempted
 - **In Progress** - Displays the date and time of the last successful sync
 
 {:.bs-callout-info}
@@ -58,11 +58,8 @@ Name | Storefront name of the product
 Type | Identifies the product type, such as simple, configurable, downloadable, and so on
 Last Exported | Date the product was last successfully exported from your catalog
 Last Modified | Date the product was last modified in your catalog
-Attribute Set | Specifies the [attribute set]({% link stores/attribute-sets.md %}) for this product
 SKU | Displays the stock keeping unit for the product
 Price | Price of the product
-Quantity | Identifies the on-hand, available stock amount
-Salable Quantity | Reflects the salable quantity for a stock
 Visibility | A product's visibility setting as defined in the Magento catalog
 
 ## Resolve catalog sync issues {#resolvesync}

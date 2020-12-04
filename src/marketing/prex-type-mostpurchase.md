@@ -7,7 +7,7 @@ Commonly referred to as Top sellers, the _Most purchased_ recommendation type re
 
 ## How it works
 
-Belonging to a category of recommendation types that are popularity-based, _Most purchased_ recommends products by counting the number of sessions where a place-order action occurred within the last seven days. You can use this recommendation type on all page types. This recommendation type uses [catalog filtering]({% link marketing/product-recommendations.md %}#filter-recommendations) to determine which products to display.
+Belonging to a category of recommendation types that are popularity-based, _Most purchased_ recommends products by counting the number of sessions where a place-order action occurred within the last seven days. You can use this recommendation type on all page types.
 
 ### Where used
 
