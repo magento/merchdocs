@@ -22,7 +22,7 @@ By default, 30 days of transactions are shown in the grid.
 
 Scroll to the left and right to view [information for order payment status](#column-descriptions) in the daily report, including order date, authorized date, invoiced, shipped, pay status, and more.
 
-The number of payout transactions that are visible, for the default 30 day timeframe or a [customized timeframe](#customize-transactions-timeframe), are shown above the payouts grid as a records count.
+The number of payout transactions that are visible, for the default 30 day timeframe or a [customized timeframe](#customize-statuses-timeframe), are shown above the payouts grid as a records count.
 
 ### Customize statuses timeframe
 
@@ -68,57 +68,20 @@ Order payment status reports include the following information.
 
 Column | Description
 ------------ | --------------------
-Provider | Payment provider (PayPal)
-Provider trans | PayPal transaction ID
-Trans date | Date and time transaction was initiated
-Type | Transaction type (PAYMENT, AUTH, BONUS, CHARGEBACK, CORRECTION, CURRENCY_CONVERSATION, DEPOSIT, DISBURSEMENT, DISPUTE, FEES, HOLD, HOLD_RELEASE, INCENTIVES, OTHERS, RECOUP, REFUND, REVERSAL, WITHDRAWAL) <br> <br>See [Transaction types](#transaction-types) for more information.
-Status | Current status of the transaction (SUCCESS, DENIED, PENDING)
-Code | Transaction code that indicates either Credit or Debit
-Reference ID | Original PayPal transaction ID for which this event is related
-Invoice | Invoice ID (one per order) of the transaction
-Magento order | Magento order ID <br> <br>Click the ID to see related [order info](https://docs.magento.com/user-guide/sales/orders.html).
-Magento trans | Magento transaction ID <br> <br>Click the ID to see related [transaction info](https://docs.magento.com/user-guide/sales/transactions.html).
-Pay method | Credit card type (BANK, PAYPAL, CREDIT_CARD) and associated card provider (Visa, MasterCard, etc.)
-Trans amt | Amount of the transaction
-Cur (trans amt) | Currency unit for transaction amount
-Pending | Amount yet to be disbursed
-Cur (pending) | Currency unit for the pending amount
-Seller amt | Amount of funds transferred to or from a customer <br> <br>Funds moving out of the seller account show a dash (-) prefix.
-Cur (seller amt) | Currency unit for the seller amount
-Partner fee | Partner fees associated with the transaction <br> <br>Funds moving out of the partner fee account show a dash (-) prefix.
-Cur (partner fee) | Currency unit for the partner fee
-Prov feed | PayPal fees associated with the transaction <br> <br>Funds moving out of the PayPal fee account show a dash (-) prefix.
-Cur (prov fee) | Currency unit for the PayPal fee
-Fee% | Percentage of the transaction amount charged as a fee
-Fixed fee | Fixed PayPal fee amount
-Chbk fee | Chargeback fee associated with the transaction <br> <br>A dash (-) prefix indicates the chargeback fee was reversed.
-Cur (Chbk fee) | Currency unit for the chargeback fee
-Hold amt | Amount put on hold or released from hold <br> <br>A dash (-) prefix indicates on hold funds are being released.
-Cur (hold amt) | Currency unit for the hold amount
-Recoup amt | Amount recouped from the recoup account <br> <br>Funds moving out of the recoup account show a dash (-) prefix.
-Cur (recoup amt) | Currency unit for the recoup amount
-
-### Transaction types
-
-These transaction types may be noted in the payout transactions.
-
-Report | Description
------------- | --------------------
-PAYMENT | Money moved between a buyer and a seller for an order
-AUTH | Authorization and authorization void transactions
-BONUS | TBD
-CHARGEBACK | Chargeback fee and chargeback fee reversal transactions
-CORRECTION | TBD
-CURRENCY_CONVERSION | TBD
-DEPOSIT | TBD
-DISBURSEMENT | TBD
-DISPUTE | TBD
-FEES | Partner fees, payment fees, and fee reversal transactions
-HOLD | TBD
-HOLD_RELEASE | TBD
-INCENTIVES | TBD
-OTHERS | TBD
-RECOUP | Recoups from bank or loss accounts
-REFUND | TBD
-REVERSAL | TBD
-WITHDRAWAL | TBD
+Order ID | Magento order ID<br> <br>Click the ID to see related [order info](https://docs.magento.com/user-guide/sales/orders.html).
+Order Date | Order date timestamp
+Authorized Date | Date timestamp of payment authorization
+Order Status | Current Magento [order status](https://docs.magento.com/user-guide/sales/order-status.html)
+Invoiced | Invoice status of order---*No*, *Partial*, or *Yes*
+Shipped | Shipping status of order---*No*, *Partial*, or *Yes*
+Order Amt | Grand total amount of the order
+Cur (for order amt) | Currency type of order
+Pay Status | Status of payment for a specific order [transaction](https://docs.magento.com/user-guide/sales/transactions.html)
+Paid Amt | Amount paid on an order
+Cur (for paid amt) | Currency type of the amount paid on an order
+Refund Status | Status of a refund on an order (information from returns, RMAs, credit memos, etc.)---   *Null*, *Requires refund*, *Refund requested*, *Refunded*, *Refund failed*, or *Voided*
+Refund | Total of refunded amount for an order
+Cur (for refund amt) | Currency type of the amount refunded for an order
+Return Status | Status of a return or RMA for an order---*Null*, *Pending*, *Authorized*, *Denied*, *Return received*, *Processed and closed*, *Closed*
+Dispute Status | Status of any dispute on an order (information from disputes and chargebacks)---*Null*, *New*, *Representment*, *Accepted*, *Pre-arbitration received*, *Arbitration*, or *Arbitration received*
+Pay Method | Payment method used in the Magento transaction for an order
