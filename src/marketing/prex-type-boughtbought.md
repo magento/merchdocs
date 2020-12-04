@@ -11,12 +11,12 @@ The _Bought this, bought that_ recommendation type is most often on the cart or 
 
 ### Where used
 
--  Product detail
--  Cart
--  Confirmation
+- Product detail
+- Cart
+- Confirmation
 
 ### Suggested storefront labels
 
--  Get everything you need
--  Don’t forget these
--  Frequently bought together
+- Get everything you need
+- Don’t forget these
+- Frequently bought together

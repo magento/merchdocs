@@ -11,12 +11,12 @@ Similar to _Bought this, bought that_, the _Viewed this, bought that_ recommenda
 
 ### Where used
 
--  Product detail
--  Cart
--  Confirmation
+- Product detail
+- Cart
+- Confirmation
 
 ### Suggested storefront labels
 
--  Customers who viewed this ultimately bought
--  Customers ultimately purchased
--  What do others buy after viewing this item?
+- Customers who viewed this ultimately bought
+- Customers ultimately purchased
+- What do others buy after viewing this item?

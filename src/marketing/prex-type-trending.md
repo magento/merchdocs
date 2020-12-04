@@ -13,19 +13,19 @@ The _Trending_ recommendation type can be used on all page types. When used on t
 
 ### Where used
 
--  Home page
--  Category
--  Product detail
--  Cart
--  Confirmation
+- Home page
+- Category
+- Product detail
+- Cart
+- Confirmation
 
 ### Suggested storefront labels
 
--  Trending
--  Trending now
--  Recently trending
--  Hot items
--  Trending related products (PDP)
+- Trending
+- Trending now
+- Recently trending
+- Hot items
+- Trending related products (PDP)
 
 ## Example
 
