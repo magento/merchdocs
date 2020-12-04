@@ -105,9 +105,9 @@ Some combinations of settings related to a price display that both includes and 
    - Set **Display Subtotal** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
 
    - Set **Display Shipping Amount** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
-   
+
    - Set **Display Gift Wrapping Prices** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
-      
+
    - Set **Display Printed Card Prices** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
 
    - Set the following to either `Yes` or `No`, according to your needs:
@@ -128,9 +128,9 @@ Some combinations of settings related to a price display that both includes and 
    - Set **Display Subtotal** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
 
    - Set **Display Shipping Amount** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
-   
+
    - Set **Display Gift Wrapping Prices** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
-   
+
    - Set **Display Printed Card Prices** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
 
    - Set the following to `Yes` or `No`, according to your requirements:
