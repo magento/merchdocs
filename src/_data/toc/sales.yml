@@ -300,6 +300,8 @@ pages:
     children:
     - label: Payouts
       url: "/magento-payments/payouts.html"
+    - label: Order payment status
+      url: "/magento-payments/order-payment-status.html"
   - label: Managing payments
     url: "/magento-payments/managing-payments.html"
     children:
