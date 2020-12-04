@@ -20,7 +20,7 @@ From the Order payment status view, you can customize the timeframe of the statu
 
 By default, 30 days of transactions are shown in the grid.
 
-Scroll to the left and right to view [information for order payment status](#column-descriptions) in the daily report, including order date, authorized date, invoiced, shipped, pay status, and more.
+Scroll to the left and right to view [information for order payment statuses](#column-descriptions) in the daily report, including order date, authorized date, invoiced, shipped, pay status, and more.
 
 The number of payout transactions that are visible, for the default 30 day timeframe or a [customized timeframe](#customize-statuses-timeframe), are shown above the payouts grid as a records count.
 
@@ -82,6 +82,6 @@ Cur (for paid amt) | Currency type of the amount paid on an order
 Refund Status | Status of a refund on an order (information from returns, RMAs, credit memos, etc.)---   *Null*, *Requires refund*, *Refund requested*, *Refunded*, *Refund failed*, or *Voided*
 Refund | Total of refunded amount for an order
 Cur (for refund amt) | Currency type of the amount refunded for an order
-Return Status | Status of a return or RMA for an order---*Null*, *Pending*, *Authorized*, *Denied*, *Return received*, *Processed and closed*, *Closed*
+Return Status | Status of a return or RMA for an order---*Null*, *Pending*, *Authorized*, *Denied*, *Return received*, *Processed and closed*, or *Closed*
 Dispute Status | Status of any dispute on an order (information from disputes and chargebacks)---*Null*, *New*, *Representment*, *Accepted*, *Pre-arbitration received*, *Arbitration*, or *Arbitration received*
 Pay Method | Payment method used in the Magento transaction for an order
