@@ -11,11 +11,11 @@ By evaluating the attributes for the products being viewed, _More like this_ rec
 
 ### Where used
 
--  Product detail
--  Cart
--  Confirmation
+- Product detail
+- Cart
+- Confirmation
 
 ### Suggested storefront labels
 
--  More items like this
--  Similar to this
+- More items like this
+- Similar to this
