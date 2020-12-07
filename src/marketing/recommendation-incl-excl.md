@@ -20,7 +20,8 @@ Magento provides the following inclusion and exclusion filters you can use to co
 - **Category** - Filters based on a product's category. Magento uses direct category assignments and their subcategories. For example, enabling an exclusion condition for category `Gear` will exclude products assigned to `Gear` and all of its subcategories such as `Gear/Bags` or `Gear/Fitness Equipment`.
 - **Price** - Filters based on a product's price. Magento uses a product's final price when performing the comparison. The final price includes any discounts or special pricing available to anonymous shoppers. Customer group pricing is currently [not supported]({% link marketing/product-recs-limitations.md %}).
 - **Product** - Specifies which specific products are eligible or not eligible to be displayed in recommendations. You cannot select products that are disabled or not visible individually because those products can never appear in recommendations.
-- **Stock Status** - (Available as an exclusion only.) Excludes products that are out of stock or low in stock. Low stock status is determined based on the _Only X left Threshold_ value in [Inventory configuration]({% link configuration/catalog/inventory.md %}).
+- **Out of stock** - (Available as an exclusion only.) Excludes products that are out of stock.
+- **Low in stock** - (Available as an exclusion only.) Excludes products that are low in stock. Low stock status is based on the _Only X left Threshold_ value in [Inventory configuration]({% link configuration/catalog/inventory.md %}).
 - **Type** - Filters based on product type, such as: _Simple_, _Configurable_, _Virtual_, _Downloadable_, or _Gift card_.  _Bundled_ and _Grouped_ products are [not yet supported]({% link marketing/product-recs-limitations.md %}).
 - **Visibility** - Filters products based on visibility, such as: _Catalog_, _Search_, or both.
 
