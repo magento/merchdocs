@@ -7,7 +7,7 @@ The _Most viewed_ recommendation type recommends items most viewed within the la
 
 ## How it works
 
-Belonging to a category of recommendation types that are popularity-based, _Most viewed_ recommends products that were the most viewed by counting the number of sessions where a view action occurred within the last seven days. You can use this recommendation type on all page types. This recommendation type uses [catalog filtering]({% link marketing/product-recommendations.md %}#filter-recommendations) to determine which products to display.
+Belonging to a category of recommendation types that are popularity-based, _Most viewed_ recommends products that were the most viewed by counting the number of sessions where a view action occurred within the last seven days. You can use this recommendation type on all page types.
 
 ### Where used
 
