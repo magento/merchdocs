@@ -53,7 +53,7 @@ Report | Description
 Yesterday | Available from the Order payment status dates selector, this shows information for the prior date.
 Today | Available from the Order payment status dates selector, this shows information for the current day.
 Last 7 days | Available from the Order payment status dates selector, this shows information for the last seven days.
-Last 30 days | Available from the Order payment status dates selector and by default in the Order paymen statuses view, this shows information for the last 30 days.
+Last 30 days | Available from the Order payment status dates selector and by default in the Order payment statuses view, this shows information for the last 30 days.
 Last 90 days | Available from the Order payment status dates selector, this shows information for the last 90 days.
 Year to date | Available from the Order payment status dates selector, this shows information for the the entire year to date.
 Custom range | Available from the Order payment status dates selector, this can be filtered to show a custom date range.
@@ -68,10 +68,10 @@ Order payment status reports include the following information.
 
 Column | Description
 ------------ | --------------------
-Order ID | Magento order ID<br> <br>Click the ID to see related [order info](https://docs.magento.com/user-guide/sales/orders.html).
+Order ID | Magento order ID<br> <br>Click the ID to see related [order info]({% link sales/orders.md %})
 Order Date | Order date timestamp
 Authorized Date | Date timestamp of payment authorization
-Order Status | Current Magento [order status](https://docs.magento.com/user-guide/sales/order-status.html)
+Order Status | Current Magento [order status]({% link sales/order-status.md %})
 Invoiced | Invoice status of order---*No*, *Partial*, or *Yes*
 Shipped | Shipping status of order---*No*, *Partial*, or *Yes*
 Order Amt | Grand total amount of the order
