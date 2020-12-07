@@ -26,11 +26,11 @@ Magento provides the following inclusion and exclusion filters you can use to co
 
 When creating filters for categories, Magento recommends the following best practices:
 
-|Page|Filter By|
+|Page|Filter by|
 |---|---|
 |Home|No filter|
 |Category|Products under that category|
-|Product Detail|Products under that product's category(-ies)|
+|Product Detail|Products under that product's categories|
 |Cart|Categories of the products in the shopper's cart|
 |Order Confirmation|Categories for products the shopper just purchased|
 
