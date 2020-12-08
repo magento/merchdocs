@@ -12,13 +12,11 @@ Available Yotpo features and customization options are dependent on the Yotpo pl
 
 - {:.fix}Enhancements
 
-   The following functions are now available publicly so customers can override settings and filters, and make adjustments when Magento orders are synced to Yotpo:
-
-   - `getOrderCollection`
-
-   - `setOrderCollectionLimit`
-
-   - `addOrderCollection`
+   We've added Google fonts to the Content Security Policies (CSP) whitelist.
+  
+- {:.fix}Bug fixes
+   - Some users who upgraded from an older version of Magento to one of the latest versions found that the yotpo_rich_snippets table was not created. This issue is      now fixed and the yotpo_rich_snippets table should display correctly.
+   - We've improved the mechanism for syncing orders to Yotpo. If an order fails to sync for any reason, this order will be skipped and the process will continue to      sync the next order.
 
 ## Integrating Your Magento Store with your Yotpo Account
 
