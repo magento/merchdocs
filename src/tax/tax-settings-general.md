@@ -148,9 +148,9 @@ Some combinations of settings related to a price display that both include and e
 
    - Set **Display Shipping Amount** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
 
-   - Set **Display Gift Wrapping Prices** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
+   - {:.ee-only}Set **Display Gift Wrapping Prices** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
 
-   - Set **Display Printed Card Prices** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
+   - {:.ee-only}Set **Display Printed Card Prices** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
 
 1. Set the following display options to either to `Yes` or `No`, according to your requirements:
 
