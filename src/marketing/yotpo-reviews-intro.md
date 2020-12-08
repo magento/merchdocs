@@ -10,11 +10,11 @@ Available Yotpo features and customization options are dependent on the Yotpo pl
 
 ## Changes in the latest release
 
-- {:.fix}Enhancements
+- Enhancements
 
    We've added Google fonts to the Content Security Policies (CSP) whitelist.
   
-- {:.fix}Bug fixes
+- Bug fixes
    - Some users who upgraded from an older version of Magento to one of the latest versions found that the yotpo_rich_snippets table was not created. This issue is      now fixed and the yotpo_rich_snippets table should display correctly.
    - We've improved the mechanism for syncing orders to Yotpo. If an order fails to sync for any reason, this order will be skipped and the process will continue to      sync the next order.
 
