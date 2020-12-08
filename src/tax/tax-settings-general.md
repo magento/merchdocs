@@ -98,6 +98,9 @@ Some combinations of settings related to a price display that both includes and 
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Shopping Cart Display Settings** section.
 
+   ![]({% link images/images/config-sales-tax-shopping-cart-display-settings.png %}){: .zoom}
+   [_Shopping Cart Display Settings_]({% link configuration/sales/tax.md %})
+
 1. For each of the following settings, choose how you want taxes and prices to appear in the cart, according to the requirements of your store and locale:
 
    - Set **Display Prices** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
@@ -110,16 +113,16 @@ Some combinations of settings related to a price display that both includes and 
 
    - Set **Display Printed Card Prices** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
 
-   - Set the following to either `Yes` or `No`, according to your needs:
+1. Set the following display options to either `Yes` or `No`, according to your needs:
 
    - **Include Tax in Order Total**
    - **Display Full Tax Summary**
    - **Display Zero Tax Subtotal**
 
-   ![]({% link images/images/config-sales-tax-shopping-cart-display-settings.png %}){: .zoom}
-   [_Shopping Cart Display Settings_]({% link configuration/sales/tax.md %})
-
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Orders, Invoices, Credit Memos Display Settings** section.
+
+   ![Orders, Invoices, Credit Memos Display Settings]({% link images/images/config-sales-tax-orders-invoices-credit-memos-display-settings.png %} "Orders, Invoices, Credit Memos Display Settings"){: .zoom}
+   [_Orders, Invoices, Credit Memos Display Settings_]({% link configuration/sales/tax.md %})
 
 1. Specify how prices and taxes appear in orders, invoices, and credit memos:
 
@@ -133,13 +136,10 @@ Some combinations of settings related to a price display that both includes and 
 
    - Set **Display Printed Card Prices** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
 
-   - Set the following to `Yes` or `No`, according to your requirements:
+1. Set the following display options to either to `Yes` or `No`, according to your requirements:
 
-      - **Include Tax in Order Total**
-      - **Display Full Tax Summary**
-      - **Display Zero Tax Subtotal**
-
-   ![Orders, Invoices, Credit Memos Display Settings]({% link images/images/config-sales-tax-orders-invoices-credit-memos-display-settings.png %} "Orders, Invoices, Credit Memos Display Settings"){: .zoom}
-   [_Orders, Invoices, Credit Memos Display Settings_]({% link configuration/sales/tax.md %})
+   - **Include Tax in Order Total**
+   - **Display Full Tax Summary**
+   - **Display Zero Tax Subtotal**
 
 1. When complete, click <span class="btn">Save Config</span>.
