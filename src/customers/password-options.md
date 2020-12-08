@@ -42,6 +42,7 @@ The customer password options determine the level of security that is used for p
 1. Complete the following password reset security options:
 
    - For **Recovery Link Expiration Period (hours)**, enter the number of hours before the password recovery link expires.
+   - If you want the fields in the customer login and forgot password forms to be filled automatically from previous entries, set **Enable Autocomplete on login/forgot password forms** to `Yes`.
 
    - For **Number of Required Character Classes**, enter the number of different character types that must be included in a password based on the following character classes:
 
