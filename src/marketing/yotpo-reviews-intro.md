@@ -8,23 +8,15 @@ Yotpo installs automatically and integrates seamlessly with your Magento store, 
 
 Available Yotpo features and customization options are dependent on the Yotpo plan you choose. Magento supports the Free, Growth, and Premium plans. See Yotpo [Plan Information](https://www.yotpo.com/pricing/) for plans and features.
 
-## Changes in the latest release
+## Release notes
 
-- {:.fix}Enhancements
+The Yotpo integration is a third-party extension that we have thoroughly tested and included with each supported version of Magento Open Source and Magento Commerce. Installing or upgrading Magento also installs updates to this extension. For information about the updates to the extension, see the [Release Notes](https://devdocs.magento.com/extensions/vendor/yotpo/release-notes.html) in our developer documentation.
 
-   The following functions are now available publicly so customers can override settings and filters, and make adjustments when Magento orders are synced to Yotpo:
+{:.bs-callout-info}
+For Magento versions prior to 2.3.3, the Yotpo extension must be installed from [Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=yotpo).
 
-   - `getOrderCollection`
-
-   - `setOrderCollectionLimit`
-
-   - `addOrderCollection`
-
-## Integrating Your Magento Store with your Yotpo Account
+## Integrating your Magento store with your Yotpo account
 
 Integrating your Magento store is a quick, simple process that gives you access to the content and data customizations available in your Yotpo account. See [Integrate your Magento Store with your Yotpo Account]({% link marketing/yotpo-connect.md %}).
 
 See the [Yotpo website](https://www.yotpo.com/platform/visual-marketing/) for more information about additional features, settings, and [Magento integration](https://www.yotpo.com/integrations/magento/).
-
-{:.bs-callout-info}
-Yotpo is available for Magento versions prior to 2.3.3, but must be installed from [Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=yotpo).
