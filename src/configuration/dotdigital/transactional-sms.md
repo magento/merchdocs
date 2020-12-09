@@ -33,7 +33,7 @@ _SMS Templates_
 |Message|Store View|Defines the message template that is used to send the new shipment SMS. Supported variables are: {{ first_name }}, {{ last_name }}, {{ email }}, {{ store_name }}, {{ order_id }}, {{ order_status }}, {{ tracking_number }}, {{ tracking_carrier }}.|
 |**New Shipment Update**|||
 |Enabled|Store View|Specifies if the new shipment update SMS is sent to your customers when a shipment is being updated. Options: Yes / No|
-|Message|Store View|Defines what message template is used to send the new shipment update SMS. Supported variables are: {{ first_name }}, {{ last_name }}, {{ email }}, {{ store_name }}, {{ order_id }}, {{ order_status }}, {{ tracking_number }}, {{ tracking_carrier }}.|
+|Message|Store View|Defines the message template that is used to send the new shipment update SMS. Supported variables are: {{ first_name }}, {{ last_name }}, {{ email }}, {{ store_name }}, {{ order_id }}, {{ order_status }}, {{ tracking_number }}, {{ tracking_carrier }}.|
 |**New Credit Memo**|||
 |Enabled|Store View|Specifies if the new credit memo SMS is sent to your customers when a new refund is created. Options: Yes / No|
 |Message|Store View|Defines what message template is used to send the new credit memo SMS. Supported variables are: {{ first_name }}, {{ last_name }}, {{ email }}, {{ store_name }}, {{ order_id }}, {{ order_status }}, {{ refund_amount }}.|
