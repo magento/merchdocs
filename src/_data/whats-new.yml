@@ -4,8 +4,23 @@ description:
   We exclude from this list proofreading, spelling checks, and insignificant updates.
 link: /getting-started/whats-new.html
 thread: /whatsnew-feed.xml
-updated: Tue Oct 13 12:32:01 2020
+updated: Wed Dec 9 12:32:01 2020
 entries:
+- description: Added the ability to [monitor and manage](https://docs.magento.com/user-guide/system/catalog-sync.html) the catalog sync process from the Admin Panel.
+  versions: 2.4.1
+  type: Major update
+  date: December 7, 2020
+  link: https://github.com/magento/merchdocs/pull/914
+- description: Added [inclusion and exclusion filters](https://docs.magento.com/user-guide/marketing/recommendation-incl-excl.html) to control what products can and cannot be displayed in recommendations.
+  versions: 2.4.1
+  type: Major update
+  date: December 7, 2020
+  link: https://github.com/magento/merchdocs/pull/914
+- description: Added the [Visual similarity recommendation type](https://docs.magento.com/user-guide/marketing/prex-type-visualsim.html).
+  versions: 2.4.1
+  type: Major update
+  date: December 7, 2020
+  link: https://github.com/magento/merchdocs/pull/914
 - description: Updated the Page Builder [Banner](https://docs.magento.com/user-guide/cms/page-builder-media-banner.html#complex-content-in-the-settings)
     and [Slider](https://docs.magento.com/user-guide/cms/page-builder-media-slider.html#complex-content-in-the-settings) topics for the change to no longer
     allow links from both the _Message Text_ and the _Link_ option for Banners and Slides.
