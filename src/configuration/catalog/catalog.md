@@ -23,6 +23,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
+|Enabled|Store View|Enables Product Reviews. Options: Yes / No|
 |Allow Guests to Write Reviews|Website|Determines if customers must open an account with your store to be able to write product reviews.|
 
 ## Storefront
@@ -79,6 +80,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |--- |--- |--- |
 |Base Image|Store View|Identifies the placeholder file chosen for the [base image]({% link catalog/catalog-images-video.md %}).|
 |Small Image|Store View|Identifies the placeholder file chosen for the [small image]({% link catalog/catalog-images-video.md %}).|
+|Swatch|Store View|Identifies the placeholder file chosen for the [swatch]({% link catalog/catalog-images-video.md %}).|
 |Thumbnail|Store View|Identifies the placeholder file chosen for the [thumbnail]({% link catalog/catalog-images-video.md %}).|
 |Choose File||Navigates to the file and uploads it as the placeholder image for the type.|
 
@@ -101,6 +103,9 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |YouTube API key|Store View|Specifies the API key that is required to connect to the YouTube server.|
+|Autostart base video|Store View|To auto-start the video after the page loads, set Autostart to `Yes`.|
+|Show related video|Store View|To display related videos, set Autostart to `Yes`.|
+|Auto restart video|Store View|To enable auto re-play video, set Autostart to `Yes`.|
 
 ## Price
 
