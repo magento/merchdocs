@@ -37,7 +37,7 @@ _Email Templates_
 |Wish List Sharing|Store View|The campaign that sends a confirmation email when the customer shares a wish list. Options: (All available campaigns)|
 |Forgot Admin Password|Store View|The campaign that sends a password reminder email to Admin users who have forgotten their passwords. Options: (All available campaigns)|
 |**Newsletter**|||
-|Success Email Template|Website|The campaign that sends a confirmation email at the completion of a subscription request.Options: (All available campaigns)|
+|Success Email Template|Website|The campaign that sends a confirmation email at the completion of a subscription request. Options: (All available campaigns)|
 |Subscription Confirmation|Website|The campaign that sends a confirmation email when a customer subscribes. Options: (All available campaigns)|
 |Unsubscribe Success|Website|The campaign that sends a confirmation email to customers who have been unsubscribed by request. Options: (All available campaigns)|
 |**Sales**|||
