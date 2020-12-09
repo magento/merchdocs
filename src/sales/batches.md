@@ -27,7 +27,7 @@ _Batches list_
 
 ## View batch details
 
-1. On the _Admin_ sidebar, go to  **Sales** > _Operations_ > **Batches**.
+1. On the _Admin_ sidebar, go to  **Sales** > **Batches**.
 
 1. Find the batch in the list.
 

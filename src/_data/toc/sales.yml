@@ -98,15 +98,12 @@ pages:
   - label: Orders
     url: "/sales/orders.html"
     children:
-    - label: Order Workspace
-      url: "/sales/orders-workspace.html"
-      children:
-      - label: Order Actions
-        url: "/sales/order-actions.html"
-      - label: Order Search
-        url: "/sales/orders-search.html"
-      - label: Grid Layout
-        url: "/sales/order-grid-layout.html"
+    - label: Order Actions
+      url: "/sales/order-actions.html"
+    - label: Order Search
+      url: "/sales/orders-search.html"
+    - label: Grid Layout
+      url: "/sales/order-grid-layout.html"
     - label: Order Workflow
       url: "/sales/order-workflow.html"
     - label: Processing an Order
@@ -114,8 +111,6 @@ pages:
     - label: Order Status
       url: "/sales/order-status.html"
       children:
-      - label: Order Status Workflow
-        url: "/sales/order-status-workflow.html"
       - label: Custom Order Status
         url: "/sales/order-status-custom.html"
       - label: Order Status Notification

@@ -7,6 +7,9 @@ The Sales menu lists transactions according to where they are in the order workf
 ![]({% link images/images-b2b/admin-menu-sales-b2b.png %}){: .zoom}
 _Sales Menu_{:.b2b-only}
 
+{:.bs-callout-info}
+The _Archive_ section appears in the Sales menu only when archiving is [enabled]({% link configuration/sales/sales.md %}). The other menu items are then grouped in an _Operations_ section.
+
 ## Display the Sales menu
 
 On the _Admin_ sidebar, click **Sales**.
@@ -54,4 +57,9 @@ The [Transactions]({% link sales/transactions.md %}) page lists all payment acti
 {:.ee-only}
 ### Archive
 
-[Archiving orders]({% link sales/transactions.md %}) and other sales documents on a regular basis improves performance and keeps your workspace free of unnecessary information.
+[Archiving orders]({% link sales/order-archive.md %}) and other sales documents on a regular basis improves performance and keeps your workspace free of unnecessary information. Choose any of the menu items to access archived items:
+
+- Orders
+- Invoices
+- Shipments
+- Credit Memos
