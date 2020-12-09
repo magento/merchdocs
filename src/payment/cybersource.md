@@ -42,7 +42,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. Set **Enabled** to `Yes`.
 
-1. Accept the **Default Payment** action of `Authorized Only`, which approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer’s bank account until the sale is “captured” by the merchant.
+1. Accept the **Default Payment** action of `Authorized Only`, which approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer’s bank account until the sale is _captured_ by the merchant.
 
 1. Enter a **Title** to identify CyberSource during checkout.
 

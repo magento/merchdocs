@@ -106,7 +106,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 ## Set up 3-D Secure with CardinalCommerce (optional)
 
-CardinalCommerce provides a 3-D Secure Version 2.0 solution that increases approvals, and reduces fraud and false declines. In addition, CardinalCommerce Consumer Authentication (CCA) fulfills the Payment Services Directive SCA requirements for merchants doing business in the European economic area. Go to [CardinalCommerce][2] and sign up for a CardinalCommerce Consumer Authentication merchant account. You will need the following credentials from your CardinalCommerce account to complete the Magento configuration:
+CardinalCommerce provides a 3-D Secure Version 2.0 solution that increases approvals and reduces fraud and false declines. In addition, CardinalCommerce Consumer Authentication (CCA) fulfills the Payment Services Directive SCA requirements for merchants doing business in the European economic area. Go to [CardinalCommerce][2] and sign up for a CardinalCommerce Consumer Authentication merchant account. You will need the following credentials from your CardinalCommerce account to complete the Magento configuration:
 
 - Org Unit ID
 - API Key
