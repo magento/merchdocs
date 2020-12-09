@@ -49,10 +49,10 @@ The following example shows how to configure the Braintree vault.
 
 1. In left panel, expand the **Sales** section and choose **Payment Methods**.
 
-1. Under _Recommended Solutions_, click **Configure** in the _Braintree_ section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Deprecated Payment Methods** section and the **Braintree (Deprecated)** section.
 
-   ![]({% link images/images/config-sales-payment-methods-braintree.png %}){: .zoom}
-   [_Configure the Braintree payment service_]({% link payment/braintree.md %})
+   ![Basic Settings]({% link images/images/config-sales-payment-methods-braintree-basic-settings.png %}){: .zoom}
+   _Basic Braintree Settings_
 
 1. In the _Basic Braintree Settings_ section, enter the following information from your Braintree seller account:
 
@@ -65,9 +65,6 @@ The following example shows how to configure the Braintree vault.
 1. If applicable set **Enable PayPal through Braintree** to `Yes`.
 
 1. Set **Vault Enabled** to `Yes`.
-
-   ![]({% link images/images/config-sales-payment-methods-braintree-basic-settings.png %}){: .zoom}
-   [_Basic Braintree Settings_]({% link payment/braintree.md %})
 
 ### Step 3: Enable instant purchase
 

@@ -13,44 +13,61 @@ For details about making a secure transition from deprecated payment integration
 
 CyberSource supports shipments to [multiple addresses]({% link shipping/shipping-multiaddress.md %}) as part of the checkout flow. The order is duplicated for each address that the customer wants to ship to.
 
-## Step 1: Get Your CyberSource Credentials
+## CyberSource account credentials
 
-Sign up for a CyberSource [merchant account][2], and get your credentials.
+Sign up for a CyberSource [merchant account][2]. You will need the account credentials to connect your account in the Magento Admin.
 
-## Step 2: Enable CyberSource
+## Set up CyberSource in Magento
+
+{:.bs-callout-tip}
+Click <span class="btn">Save Config</span> at any time to save your progress.
+
+### Step 1: Enable the CyberSource payment method
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the panel on the left under **Sales**, choose **Payment Methods**. Under **Other Payment Methods**, expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **CyberSource (Deprecated)** section. Then, do the following:
+1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-   - Set **Enabled** to `Yes`.
+1. If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view where you want to apply this configuration.
 
-   - Accept the **Default Payment** action of `Authorized Only`, which approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer’s bank account until the sale is “captured” by the merchant.
+1. In the **Merchant Location** section, select the **Merchant Country** where your business is located.
 
-   - Enter a **Title** to identify CyberSource during checkout.
+   ![Merchant Country]({% link images/images/config-sales-payment-methods-merchant-location.png %}){: .zoom}
+   _Merchant Country_
+
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Deprecated Payment Methods** section and the **CyberSource (Deprecated)** section.
 
    ![Enable CyberSource]({% link images/images-ee/config-sales-payment-methods-cybersource1.png %}){: .zoom}
    _Enable CyberSource_
 
-## Step 3: Enter Your CyberSource Credentials
+1. Set **Enabled** to `Yes`.
+
+1. Accept the **Default Payment** action of `Authorized Only`, which approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer’s bank account until the sale is _captured_ by the merchant.
+
+1. Enter a **Title** to identify CyberSource during checkout.
+
+### Step 2: Enter your CyberSource credentials
 
 Enter the following credentials from your CyberSource account:
 
-- Merchant ID
-- Profile ID
-- Transaction Key
-- Access Key
-- Secret Key
+- **Merchant ID**
+- **Profile ID**
+- **Transaction Key**
+- **Access Key**
+- **Secret Key**
 
-![Your CyberSource Credentials]({% link images/images-ee/config-sales-payment-methods-cybersource2.png %}){: .zoom}
-_Your CyberSource Credentials_
+![CyberSource Credentials]({% link images/images-ee/config-sales-payment-methods-cybersource2.png %}){: .zoom}
+_CyberSource Credentials_
 
-## Step 4: Complete the Payment Information
+### Step 3: Complete the payment information
+
+![CyberSource payment configuration]({% link images/images-ee/config-sales-payment-methods-cybersource3.png %}){: .zoom}
+_CyberSource payment information_
 
 1. Set **New Order Status** to one of the following [order status]({% link sales/order-status.md %}) settings:
 
-   - Processing
-   - Suspected Fraud
+   - `Processing`
+   - `Suspected Fraud`
 
 1. To run CyberSource in a test environment before going live, set **Test Mode** to `Yes`.
 
@@ -58,26 +75,27 @@ _Your CyberSource Credentials_
 
 1. If you want the system to save a log file of interactions between your store and CyberSource, set **Debug** to `Yes`.
 
-1. Set **Credit Card Types** to each card that you accept as payment. To choose multiple credit cards, hold down the Ctrl key (PC) or Cmd key (Mac) and click each option.
+1. Set **Credit Card Types** to each card that you accept as payment.
 
-   ![Credit Card Types]({% link images/images-ee/config-sales-payment-methods-cybersource3.png %}){: .zoom}
-   _Credit Card Types_
+   To choose multiple credit cards, hold down the Ctrl key (PC) or Cmd key (Mac) and click each option.
 
-## Step 5: Complete the Remaining Information
+### Step 4: Complete the remaining information
+
+![CyberSource configuration]({% link images/images-ee/config-sales-payment-methods-cybersource4.png %}){: .zoom}
+_CyberSource configuration_
 
 1. Set **Payment from Applicable Countries** to one of the following:
 
-     |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
-     |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
+   |`All Allowed Countries` |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
+   |`Specific Countries` |After you choose this option, the _Payment from Specific Countries_ list is available. To select multiple countries, hold down the Ctrl key (PC) or the Command key (Mac) and click each option. |
 
 1. To set limits on the total amount that is allowed for any order, enter the **Minimum Order Total** and **Maximum Order Total**.
 
-1. In the **Sort Order** field, enter a number to determine the sequence in which CyberSource appears when listed with other payment methods during checkout.
+1. If you offer multiple payment methods, enter a number for **Sort Order** to determine the sequence in which CyberSource appears when listed with the other payment methods.
 
-1. When complete, tap <span class="btn">Save Config</span>.
+   This is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
 
-   ![Remaining Information]({% link images/images-ee/config-sales-payment-methods-cybersource4.png %}){: .zoom}
-   _Remaining Information_
+1. When complete, click <span class="btn">Save Config</span>.
 
 [1]: http://www.cybersource.com/
 [2]: http://www.cybersource.com/solutions/merchant/
