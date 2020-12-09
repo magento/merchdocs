@@ -27,7 +27,7 @@ _SMS Templates_
 |Message|Store View|Defines what message template is used to send the new order confirmation SMS. Supported variables are: {{ first_name }}, {{ last_name }}, {{ email }}, {{ store_name }}, {{ order_id }}, {{ order_status }}. Options: Yes / No|
 |**Order Update**|||
 |Enabled|Store View|Specifies if the order update SMS is sent to your customers when an order is updated (on hold or cancelled). Options: Yes / No|
-|Message|Store View|Defines what message template is used to send the order update SMS. Supported variables are: {{ first_name }}, {{ last_name }}, {{ email }}, {{ store_name }}, {{ order_id }}, {{ order_status }}.|
+|Message|Store View|Defines the message template that is used to send the order update SMS. Supported variables are: {{ first_name }}, {{ last_name }}, {{ email }}, {{ store_name }}, {{ order_id }}, {{ order_status }}.|
 |**New Shipment**|||
 |Enabled|Store View|Specifies if the new shipment SMS is sent to your customers when a new shipment is created. Options: Yes / No|
 |Message|Store View|Defines what message template is used to send the new shipment SMS. Supported variables are: {{ first_name }}, {{ last_name }}, {{ email }}, {{ store_name }}, {{ order_id }}, {{ order_status }}, {{ tracking_number }}, {{ tracking_carrier }}.|
