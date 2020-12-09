@@ -59,7 +59,7 @@ _Email Templates_
 |**Contact**|||
 |New Contact Form|Website|The campaign that sends confirmation email when a new contact record is submitted. Options: (All available campaigns)|
 |**Email**|||
-|Send Product to Friend|Website|The campaign that sends notification when a customer shares a product to a friend. Options: (All available campaigns)|
+|Send Product to Friend|Website|The campaign that sends notification when a customer shares a product with a friend. Options: (All available campaigns)|
 |**Product Alerts**|||
 |Stock Alert|Website|The campaign that sends notification to a customer of a stock alert. Options: (All available campaigns)|
 |Product Price Alert|Website|The campaign that sends notification to a customer of a product price alert. Options: (All available campaigns)|
