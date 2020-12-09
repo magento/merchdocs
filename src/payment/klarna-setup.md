@@ -48,7 +48,7 @@ _Klarna Merchant Portal_
 
 1. On the Admin sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the upper-left corner, choose the **Store View** where the configuration applies. If your installation has only one view, accept the `Default Config` setting.
+1. In the upper-left corner, choose the **Website Scope** where the configuration applies. If your installation has only one view, accept the `Default Config` setting.
 
 1. In the left panel, go to **Sales** > **Payment Methods**. Then in the **Klarna** section, click <span class="btn">Configure</span>.
 
