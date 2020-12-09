@@ -16,6 +16,6 @@ _[Chat Settings - Enabled]({% link marketing/dotdigital/setup.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enabled|Website|Determines if Chat is enabled on your Magento website. When enabled, the Chat widget appears on the pages of your website and the configuration buttons become available. Options: Yes / No|
+|Enabled|Website|Determines if Chat is enabled for your Magento website. When enabled, the Chat widget appears on the pages of your website and the configuration buttons become available. Options: Yes / No|
 |Configure Chat Widget||<span class="btn">Configure</span> Opens the Widget tab from the Account page of your dotdigital account.|
 |Configure Chat Teams||<span class="btn">Configure</span> Opens the Teams tab from the Account page of your dotdigital account.|
