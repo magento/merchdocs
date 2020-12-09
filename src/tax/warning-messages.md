@@ -43,7 +43,7 @@ Including tax | OK | OK | OK
 Including and Excluding tax | OK | Warning | Warning
 
 ![]({% link images/images/config-sales-tax-calculation-settings.png %}){: .zoom}
-_Calculation Settings_
+[_Calculation Settings_]({% link configuration/sales/tax.md %})
 
 ## Discount settings
 
