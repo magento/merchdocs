@@ -82,6 +82,9 @@ The following instructions are written from the perspective of a shared user who
    ![]({% link images/images/magento-account-shared-help-center.png %}){: .zoom}
    _Magento Help Center_
 
+   {:.bs-callout-info}
+   After receiving shared access, the user needs to log in to [Magento.com](https://account.magento.com/customer/account/login), navigate to _Shared Access_, and click the **Support** tab. This needs to be done the first time only, in order to ensure that the [Magento Help Center](https://support.magento.com/hc/en-us) is configured properly through the `SSO` call from Magento.com to the Magento Help Center.
+
 1. To return to your own account, click the **Back** button in your browser and set **Switch Accounts** to `My Account`.
 
 ## Revoke shared access

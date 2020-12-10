@@ -70,18 +70,26 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
     **Important**:
     If [cross-border trade]({% link tax/tax-cross-border-price.md %}) is enabled, the profit margin changes by tax rate. Profit is determined by the formula (`Revenue - CustomerVAT - CostOfGoodsSold`). To enable cross-border trade, prices must be set to include tax.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Default Tax Destination Calculation** section and specify the country to be the default for tax calculations.
+### Default Tax Destination Calculation*
+
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Default Tax Destination Calculation** section.
 
    ![]({% link images/images/config-sales-tax-default-tax-destination-calculation.png %}){: .zoom}
    [_Default Tax Destination Calculation_]({% link configuration/sales/tax.md %})
 
+1. Specify the **Default Country** for tax calculations.
+
+1. If applicable, specify the **Default State** for tax calculations.
+
+1. If applicable, specify the **Default Post Code** for tax calculations.
+
 1. When complete, click <span class="btn">Save Config</span>.
 
-## Price Display Settings
+### Price Display Settings
 
 {:.bs-callout-info}
 **Important!**
-Some combinations of settings related to a price display that both includes and excludes tax can be confusing to the customer. To avoid triggering a warning message, see the [recommended settings]({% link tax/warning-messages.md %}).
+Some combinations of settings related to a price display that both include and exclude tax can be confusing to the customer. To avoid triggering a warning message, see the [recommended settings]({% link tax/warning-messages.md %}).
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Price Display Settings** section.
 
@@ -96,7 +104,14 @@ Some combinations of settings related to a price display that both includes and 
 
 1. Set **Display Shipping Prices** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
 
+1. When complete, click <span class="btn">Save Config</span>.
+
+### Shopping Cart Display Settings
+
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Shopping Cart Display Settings** section.
+
+   ![]({% link images/images/config-sales-tax-shopping-cart-display-settings.png %}){: .zoom}
+   [_Shopping Cart Display Settings_]({% link configuration/sales/tax.md %})
 
 1. For each of the following settings, choose how you want taxes and prices to appear in the cart, according to the requirements of your store and locale:
 
@@ -106,16 +121,24 @@ Some combinations of settings related to a price display that both includes and 
 
    - Set **Display Shipping Amount** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
 
-1. Set the following to either `Yes` or `No`, according to your needs:
+   - {:.ee-only}Set **Display Gift Wrapping Prices** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
+
+   - {:.ee-only}Set **Display Printed Card Prices** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
+
+1. Set the following display options to either `Yes` or `No`, according to your needs:
 
    - **Include Tax in Order Total**
    - **Display Full Tax Summary**
    - **Display Zero Tax Subtotal**
 
-   ![]({% link images/images/config-sales-tax-shopping-cart-display-settings.png %}){: .zoom}
-   [_Shopping Cart Display Settings_]({% link configuration/sales/tax.md %})
+1. When complete, click <span class="btn">Save Config</span>.
+
+### Orders, Invoices, Credit Memos Display Settings
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Orders, Invoices, Credit Memos Display Settings** section.
+
+   ![Orders, Invoices, Credit Memos Display Settings]({% link images/images/config-sales-tax-orders-invoices-credit-memos-display-settings.png %} "Orders, Invoices, Credit Memos Display Settings"){: .zoom}
+   [_Orders, Invoices, Credit Memos Display Settings_]({% link configuration/sales/tax.md %})
 
 1. Specify how prices and taxes appear in orders, invoices, and credit memos:
 
@@ -125,13 +148,61 @@ Some combinations of settings related to a price display that both includes and 
 
    - Set **Display Shipping Amount** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
 
-   - Set the following to `Yes` or `No`, according to your requirements:
+   - {:.ee-only}Set **Display Gift Wrapping Prices** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
 
-      - **Include Tax in Order Total**
-      - **Display Full Tax Summary**
-      - **Display Zero Tax Subtotal**
+   - {:.ee-only}Set **Display Printed Card Prices** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.
 
-   ![Orders, Invoices, Credit Memos Display Settings]({% link images/images/config-sales-tax-orders-invoices-credit-memos-display-settings.png %} "Orders, Invoices, Credit Memos Display Settings"){: .zoom}
-   [_Orders, Invoices, Credit Memos Display Settings_]({% link configuration/sales/tax.md %})
+1. Set the following display options to either to `Yes` or `No`, according to your requirements:
+
+   - **Include Tax in Order Total**
+   - **Display Full Tax Summary**
+   - **Display Zero Tax Subtotal**
+
+1. When complete, click <span class="btn">Save Config</span>.
+
+### Fixed Product Taxes
+
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Fixed Product Taxes** section.
+
+1. Set **Enable FPT** to either to `Yes` or `No`, according to your requirements.
+
+1. If FTP is enabled, specify FTP display options:
+
+   - **Display Prices in Product Lists**
+   - **Display Price On Product view Page**
+   - **Display Prices in Sales Modules**
+   - **Display Prices in Emails**
+
+   Including FPT Only| Displayed prices include fixed product taxes. The FPT amount is not displayed separately.|
+   Including FPT and FPT description| Displayed prices include fixed product taxes. The FPT amount is displayed separately.|
+   Excluding FPT. Including FPT description and final price| Displayed prices do not include fixed product taxes. The FPT amount is displayed separately.|
+   Excluding FPT| Displayed prices do not include fixed product taxes. The FPT amount is not displayed separately.|
+
+1. Set **Apply Discounts to FPT** to `Yes` or `No`, according to your requirements.
+
+1. Set **FPT Tax Configuration** to determine how FPT is calculated.
+
+   Not Taxed| Select this option if your taxing jurisdiction does not tax FPT. (For example, California.)|
+   Taxed| Select this option if your taxing jurisdiction does tax FPT. (For example, Canada.)|
+   Loaded and Displayed with Tax| Click this option if FPT is added to the order total before applying tax. (For example, EU countries.)|
+
+1. Set **Include FPT in Subtotal** to `Yes` or `No`, according to your requirements.
+
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Fixed Product Taxes** section.
+
+   - Set **Enable FPT** to `Yes` or `No`, according to your requirements.
+
+   - To determine how fixed product taxes are used in store prices, choose the fixed product tax setting for each of the following price display locations:
+
+      - Set **Display Prices In Product Lists** to **Including FPT Only**, **Including FPT and FPT description**, **Excluding FPT. Including FPT description and final price**, or **Excluding FPT**
+      - Set **Display Prices On Product View Page** to **Including FPT Only**, **Including FPT and FPT description**, **Excluding FPT. Including FPT description and final price**, or **Excluding FPT**
+      - Set **Display Prices In Sales Modules** to **Including FPT Only**, **Including FPT and FPT description**, **Excluding FPT. Including FPT description and final price**, or **Excluding FPT**
+      - Set **Display Prices In Emails** to **Including FPT Only**, **Including FPT and FPT description**, **Excluding FPT. Including FPT description and final price**, or **Excluding FPT**
+
+   - Set **Apply Tax To FPT** `Yes` or `No`, according to your requirements.
+   - Set **Include FPT In Subtotal** `Yes` or `No`, according to your requirements.
+
+    ![Fixed Product Taxes]({% link images/images/config-sales-tax-orders-fixed-product-taxes.png %} "Fixed Product Taxes"){: .zoom}
+    [_Fixed Product Taxes_]({% link configuration/sales/tax.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.
