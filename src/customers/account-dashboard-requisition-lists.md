@@ -3,10 +3,17 @@ b2b_only: true
 title: My Requisition Lists
 ---
 
-Using a requisition list saves time when purchasing frequently-ordered products because items are added to the shopping cart directly from the list. You can maintain multiple lists that focus on products from different vendors, buyers, teams, campaigns, or anything else that streamlines your workflow. Up to 999 requisition lists can be maintained for each customer account, depending on the [configuration]({% link configuration/customers/requisition-lists.md %}). To enable requisition lists, see [Configuring B2B Features]({% link stores/b2b-features.md %}).
+Using a requisition list saves time when purchasing frequently-ordered products because items are added to the shopping cart directly from the list. Customers can maintain multiple lists that focus on products from different vendors, buyers, teams, campaigns, or anything else that streamlines their workflow. It is available for both logged-in users and guests.
+
+Requisition list functionality is similar to wish lists, with the following differences:
+
+- A requisition list is not cleared after sending items to the shopping cart. It can be used multiple times.
+- The user interface for requisition lists uses a compact view in order to display a large number of items.
+
+To enable requisition lists for your store, see [Configuring B2B Features]({% link stores/b2b-features.md %}). It can allow up to 999 requisition lists to be maintained for each customer account, depending on the [configuration]({% link configuration/customers/requisition-lists.md %}).
 
 ![]({% link images/images-b2b/customer-account-my-requisition-lists.png %}){: .zoom}
-_Requisition Lists_
+_Requisition Lists on the storefront_
 
 ## Create a requisition list
 

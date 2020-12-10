@@ -186,6 +186,8 @@ pages:
         url: "/system/data-advanced-price.html"
     - label: Customer Attribute Reference
       url: "/system/data-attributes-customer.html"
+    - label: Catalog Sync
+      url: "/system/catalog-sync.html"
   - label: Integrations
     url: "/system/integrations.html"
     children:
