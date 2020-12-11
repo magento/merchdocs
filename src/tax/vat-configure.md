@@ -11,7 +11,7 @@ In certain business-to-business transactions, VAT is not assessed. Magento can v
 
 ## Step 1: Set up customer tax classes
 
-1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Zones and Rates**.
+1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Rules**.
 
 1. Ensure that there is a customer tax class that is appropriate to use with the VAT.
 
