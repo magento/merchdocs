@@ -32,7 +32,7 @@ For the product and category forms, this content preview is enabled by default, 
 
 ## Stage
 
-When you open the Page Builder workspace from the preview, the stage is the primary work area where you can create and format content, and even make quick edits to live content. The stage initially contains a single row, and you can drag additional rows and other content types to the stage from the left panel.
+When you open the Page Builder workspace from the preview, the stage is the primary work area where you can create and format content, and even make quick edits to live content. The stage is initially empty, providing the design surface where you can drag rows, columns, and tabs from the left panel.
 
 {:.bs-callout-info}
 Starting with Magento 2.4.1, content editing is now full-screen only for all areas controlled by Page Builder. This includes CMS pages, product and category pages, blocks, and dynamic blocks. Full-screen editing puts the focus on your content and provides a view that better matches the user experience on the storefront.
