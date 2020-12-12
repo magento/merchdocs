@@ -42,6 +42,38 @@ _Stage with page content_
 
 {% include page-builder-save-timeout.md %}
 
+## Viewports
+
+When the stage is in full-screen, design mode (as described previously), Page Builder displays viewport preview buttons above the stage.
+
+![Viewport buttons]({% link images/images-ee/page-builder-workspace-viewport-buttons.png %})
+_Viewport buttons_
+
+The viewports provide two features:
+
+- Showing your content at different screen widths during page design.
+- Specifying breakpoints for applying different settings to content types on the page.
+
+### Content previews
+By default, Page Builder provides two viewports:
+
+- **Desktop** — previews your content at a width of 1024px and wider.
+- **Mobile** — previews your content at a width of 768px.
+
+The following screenshots show Page Builder's default responsive settings on product carousels displayed on a Desktop with a minimum width of 1024px vs. a Mobile viewport of 768px:
+
+![Desktop viewport preview]({% link images/images-ee/page-builder-workspace-viewport-desktop.png %}){: .zoom}
+_Desktop viewport preview, minimum width: 1024px_
+
+![Mobile viewport preview]({% link images/images-ee/page-builder-workspace-viewport-mobile.png %}){: .zoom}
+_Mobile viewport preview, width: 768px_
+
+### Breakpoint settings
+The viewport buttons also give you the option to apply content type settings to the viewport you have selected. By default, Page Builder provides breakpoint settings for the Minimum Height fields of Rows, Columns, Tabs, Tab Items, Banners, Sliders, and Slides. Content type fields that allow specific breakpoint settings show an icon to the right of the field, as shown here for the Row:
+
+![Icon indicator for breakpoint setting]({% link images/images-ee/page-builder-workspace-viewport-field-breakpoint.png %}){: .zoom}
+_Icon indicator for breakpoint setting, width: 768px_
+
 ## Panel
 
 The Page Builder panel is located to the left of the stage, and contains content types that can be dragged to the stage. A container that is specific to the content type then appears with a toolbox of options. Content types are organized in the panel as follows:
