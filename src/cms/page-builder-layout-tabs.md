@@ -44,7 +44,7 @@ _Tab container toolbox_
 
 ## Add an individual tab
 
-1. In the Page Builder panel under _Layout_, drag the **Tabs** placeholder to a row or column on the stage.
+1. In the Page Builder panel under _Layout_, drag the **Tabs** placeholder directly to the stage or to a row or column on the stage.
 
    ![]({% link images/images-ee/page-builder-layout-tabs-drag-row.png %}){: .zoom}
    _Dragging tabs to a row_
@@ -71,15 +71,15 @@ _Tab container toolbox_
 
 ## Add a set of tabs
 
-The following steps start with an individual tab and create a set of three tabs within a tabs container. If you do not already have an individual tab, follow the previous instructions to add an single tab to a row on the stage.
+The following steps start with an individual tab and create a set of three tabs within a tabs container. If you do not already have an individual tab, follow the previous instructions to add a single tab to the stage.
 
 1. Hover over the tabs container to display the toolbox and choose the _Add_ (![]({% link images/images-ee/icon-pb-add.png %})) icon.
 
-1. Click in the **Tab 2** label to display the cursor and enter you own label for the tab.
+2. Click in the **Tab 2** label to display the cursor and enter you own label for the tab.
 
-1. Click the second tab again on the stage and choose the _Duplicate_ (![]({% link images/images-ee/icon-pb-duplicate.png %})) icon.
+3. Click the second tab again on the stage and choose the _Duplicate_ (![]({% link images/images-ee/icon-pb-duplicate.png %})) icon.
 
-1. Click in the YourName **Copy** label to display the cursor and enter you own label for the third tab.
+4. Click in the YourName **Copy** label to display the cursor and enter you own label for the third tab.
 
 ![]({% link images/images-ee/page-builder-layout-tabs3-toolbox-main.png %}){: .zoom}
 _Matching set of tabs with toolbox_
