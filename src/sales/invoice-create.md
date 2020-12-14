@@ -22,7 +22,7 @@ Do not select the _Not Capture_ option unless you are certain that you are going
 
 ## Invoice an order
 
-You must generate an invoice for an order before you can [print it]. To view or print the PDF, first download and install a PDF reader such as [Adobe Acrobat Reader][1].
+You must generate an invoice for an order before you can print it. To view or print the PDF, you must have a PDF reader. You can download [Adobe Reader][1] at no charge.
 
 ### Step 1: Start the invoice for the order
 
