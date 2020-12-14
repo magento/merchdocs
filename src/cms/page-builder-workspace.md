@@ -44,7 +44,7 @@ _Stage with page content_
 
 ## Viewports
 
-A _viewport_ is the visible area of a web page that a user sees. When it is in full-screen design mode, Page Builder displays viewport buttons above the stage to show you the content as the site user will see it on the storefront.
+A _viewport_ is the visible area of a web page that a user sees. In full-screen design mode, the viewport buttons are displayed above the Page Builder stage to show you the content as the site user will see it on the storefront.
 
 ![Viewport buttons]({% link images/images-ee/page-builder-workspace-viewport-buttons.png %}){: .zoom}
 _Viewport buttons_
@@ -73,7 +73,7 @@ _Mobile viewport preview, width: 768px_
 
 ### Breakpoint settings
 
-The viewport buttons also provide the option to apply different breakpoint styles to content types based on the selected viewport. By default, Page Builder provides breakpoint settings for the _Minimum Height_ options of Rows, Columns, Tabs, Tab Items, Banners, Sliders, and Slides. When you select the Mobile viewport, then open the editor for one of those content types, you can enter field values specific to the Mobile viewport breakpoints. Content type options that allow specific breakpoint settings display an icon to the right of the field, similar to this example for a Row:
+The viewport buttons also provide the option to apply different breakpoint styles to content types based on the selected viewport. By default, Page Builder provides breakpoint settings for the _Minimum Height_ settings of Rows, Columns, Tabs, Tab Items, Banners, Sliders, and Slides. When you select the Mobile viewport, then open the editor for one of those content types, you can enter field values specific to the Mobile viewport breakpoints. Content type fields that allow specific breakpoint settings display an icon to the right of the field, similar to the following example for a Row:
 
 ![Icon indicator for breakpoint setting]({% link images/images-ee/page-builder-workspace-viewport-field-breakpoint.png %}){: .zoom}
 _Icon indicator for breakpoint setting, width: 768px_
