@@ -17,7 +17,7 @@ Before you try to import a large amount of images, review the steps in the impor
 
 1. On the Magento server, upload the image files to the `var/import/images` folder or a subfolder, such as `var/import/images/product_images`. This is the default root folder for importing product images.
 
-    ```
+    ```terminal
     <Magento root folder>/var/import/images
     ```
 
@@ -38,7 +38,7 @@ Before you try to import a large amount of images, review the steps in the impor
 
 1. After selecting the file to import, enter the relative path following **Images File Directory**.
 
-    ```
+    ```terminal
     var/import/images/product_images
     ```
 
@@ -56,7 +56,7 @@ Before you try to import a large amount of images, review the steps in the impor
 
 1. In the CSV data, enter the full URL for each image file in the correct column by image type (`base_image`, `small_image`, `thumbnail_image`, or `additional_images`).
 
-    ```
+    ```terminal
     http://example.com/images/image.jpg
     ```
 
@@ -66,7 +66,7 @@ Before you try to import a large amount of images, review the steps in the impor
 
 1. In the Remote storage module, upload the image files to the `var/import/images` folder or a subfolder, such as `var/import/images/product_images`. This is the default root folder for importing product images.
 
-    ```
+    ```terminal
     <remote-storage-root-folder>/var/import/images
     ```
 
@@ -87,7 +87,7 @@ Before you try to import a large amount of images, review the steps in the impor
 
 1. After selecting the file to import, enter the relative path following **Images File Directory**.
 
-    ```
+    ```terminal
     var/import/images/product_images
     ```
 
