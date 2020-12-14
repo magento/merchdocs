@@ -129,7 +129,7 @@ Complete the _Settings_ according to the following sections:
    ![Product sorting options]({% link images/images-ee/page-builder-products-sortby.png %}){: .zoom}
    _Choosing the product sorting option_
 
-4. Enter the **Number of Products to Display** in the carousel or grid.
+1. Enter the **Number of Products to Display** in the carousel or grid.
 
    Values can be from `1` to `999`. The default is `5` for a grid and `20` for a carousel.
 
