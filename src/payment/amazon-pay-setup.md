@@ -189,7 +189,7 @@ When you are through testing and ready to go live with Amazon Pay, return to the
 
 1. Make sure that **Logging** is set to `Yes`.
 
-   After the setup is complete and logs are generated, you can return to this location and select a link in **Developer Logs** to download to view Client and IPN logs. If logs are not available or have not been generated, the `No logs are currently available.` message appears.
+   After the setup is complete and logs are generated, you can return to this location and select a link in **Developer Logs** to download and view Client and IPN logs. If logs are not available or have not been generated, the `No logs are currently available.` message appears.
 
 1. To limit the availability of the _Login with Amazon_ and _Amazon Pay_ buttons, specify the **Allowed IPs**.
 
