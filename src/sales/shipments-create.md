@@ -41,7 +41,7 @@ The default value is the Magento Customer ID, but you can specify another value 
 
    For Magento Shipping, the default [location]({% link shipping/magento-shipping-locations.md %}) is entered automatically, but can be overridden as necessary.
 
-1. If applicable, mark the **International** checkbox.
+1. If applicable, select the **International** checkbox.
 
    For international shipments, the International Item Details and International Shipment Details sections appear in the form.
 
@@ -122,7 +122,7 @@ The selection of value-added delivery options is determined by shipping method a
 
    - If you want to prevent the delivery from being redirected or rerouted by the recipient or driver, choose **Direct Delivery Only**.
 
-   - If needed for a time-critical delivery, mark the **Saturday Delivery** checkbox.
+   - If needed for a time-critical delivery, select the **Saturday Delivery** checkbox.
 
 1. To identify the type of address, set **Destination Address Type** to one of the following:
 
@@ -137,7 +137,7 @@ The selection of value-added delivery options is determined by shipping method a
 
 1. Set customer shipping preferences:
 
-   - To use the customer’s preferred method of shipping, mark the **Customer Preference** checkbox.
+   - To use the customer’s preferred method of shipping, select the **Customer Preference** checkbox.
 
    - To override the customer’s preferred method, clear the **Customer Preference** checkbox. Then, choose another method.
 

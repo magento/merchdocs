@@ -70,7 +70,7 @@ _Shopping Cart in in the customer account_
    ![]({% link images/images-ee/customer-account-manage-cart-order-configurable-product.png %}){: .zoom}
    _Configure_
 
-1. In the _Associated Products_ dialog, choose each product option to describe the item to be ordered, enter the **Quantity**, nd click <span class="btn">OK<span/>.
+1. In the _Associated Products_ dialog, choose each product option to describe the item to be ordered, enter the **Quantity**, and click <span class="btn">OK<span/>.
 
    ![]({% link images/images-ee/customer-account-manage-cart-order-configurable-product-associated.png %}){: .zoom}
    _Choose product options_
