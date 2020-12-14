@@ -78,7 +78,7 @@ Complete the _Settings_ according to the following sections:
 
    If you choose the product carousel, you must also configure the [Carousel Settings](#carousel-settings).
 
-2. For **Select Products By**, choose the method for product selection:
+1. For **Select Products By**, choose the method for product selection:
 
    You can select your products by category, SKU, or condition. These options are mutually exclusive. For example, you cannot select the Category option, use the Category selector, then switch over to the Condition option to add some conditions. Your products will only be selected based on what you set for _one_ of these three options.
 
@@ -112,7 +112,7 @@ Complete the _Settings_ according to the following sections:
    For the Category option, sorting by position displays the products in the same order that they appear in your catalog. For the SKU option, sorting by position displays the products in the order that you enter them in the **Product SKUs** textbox.
    </div>
 
-3. For **Sort By**, choose the sort order for the products in the list:
+1. For **Sort By**, choose the sort order for the products in the list:
 
    |Position (for Category and SKU options only)|When you select the Category option, the Position displays products in the same order as their position in the catalog. When you select the SKU option, the Position displays products in the same order as the SKUs within the Product SKUs textbox.
    |Newest products first|Sorts products by the date they were added to the catalog, displaying the products with the most recent entry dates first.

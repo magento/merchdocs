@@ -85,7 +85,7 @@ _Grid divisions on row with two columns_
    ![]({% link images/images-ee/page-builder-column-single-grid.png %}){: .zoom}
    _Single column with grid_
 
-2. If you want the column group to extend the remaining column to the full width of the row or stage:
+1. If you want the column group to extend the remaining column to the full width of the row or stage:
 
    - Hover over the column to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
@@ -96,7 +96,7 @@ _Grid divisions on row with two columns_
 
    - In the upper-right corner, click <span class="btn">Save</span> to close the _Edit Column_ page.
 
-3. Click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon in the upper-right corner of the workspace, and then click <span class="btn">Save</span> in the upper-right corner.
+1. Click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon in the upper-right corner of the workspace, and then click <span class="btn">Save</span> in the upper-right corner.
 
 ## Change column settings
 
@@ -118,7 +118,7 @@ _Grid divisions on row with two columns_
 
    - If you set the minimum height, set the **Vertical Alignment**  to control the position of content containers that are added to the column (Top, Center, or Bottom).
 
-2. Change the background for the column content.
+1. Change the background for the column content.
 
    - **Background Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. This determines the background color of the column.
 
@@ -145,7 +145,7 @@ _Grid divisions on row with two columns_
 
    - **Background Repeat** - If you want to repeat the background image to fill the space, change this setting `Yes`.
 
-3. Update the _Advanced_ settings as needed.
+1. Update the _Advanced_ settings as needed.
 
    - Choose an **Alignment** to control the horizontal positioning of content containers that are added to the column.
 
@@ -186,4 +186,4 @@ _Grid divisions on row with two columns_
       |Margins|The amount of blank space that is applied to the outside edge of all sides of the container. Options: Top / Right / Bottom / Left
       |Padding|The amount of blank space that is applied to the inside edge of all sides of the container. Options: Top / Right / Bottom / Left
 
-4. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
+1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
