@@ -46,13 +46,13 @@ _Stage with page content_
 
 A viewport is the visible area of a web page that a user sees. On Page Builder's stage, when it is in Page Builder's full-screen design mode, Page Builder displays viewport buttons above the stage to show you the content as the site user will see it on the storefront.
 
-![Viewport buttons]({% link images/images-ee/page-builder-workspace-viewport-buttons.png %})
+![Viewport buttons]({% link images/images-ee/page-builder-workspace-viewport-buttons.png %}){: .zoom}
 _Viewport buttons_
 
 Page Builder also defines breakpoints to its viewports. Breakpoints define minimum and maximum widths within which certain styles are applied. Page Builder's two viewports define the following breakpoints for its content:
 
 - **Desktop breakpoint**—`min-width: 1024px`. This breakpoint applies styles defined for viewport widths that measure 1024px and wider.
-- **Mobile breakpoints**—`max-width: 768px, min-width: 640px`. This breakpoint applies styles defined for viewport widths between 768px and 640px.
+- **Mobile breakpoints**—`max-width: 768px, min-width: 640px`. These breakpoints apply styles defined for viewport widths between 768px and 640px.
 
 Page Builder viewports provide two features:
 
