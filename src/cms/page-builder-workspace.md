@@ -44,7 +44,7 @@ _Stage with page content_
 
 ## Viewports
 
-A viewport is the visible area of a web page that a user sees. On Page Builder's stage, when it is in Page Builder's full-screen design mode, Page Builder displays viewport buttons above the stage to show you the content as the site user will see it on the storefront.
+A viewport is the visible area of a web page that a user sees. On the stage, when it is in full-screen design mode, Page Builder displays viewport buttons above the stage to show you the content as the site user will see it on the storefront.
 
 ![Viewport buttons]({% link images/images-ee/page-builder-workspace-viewport-buttons.png %}){: .zoom}
 _Viewport buttons_
@@ -54,18 +54,15 @@ Page Builder also defines breakpoints to its viewports. Breakpoints define minim
 - **Desktop breakpoint**—`min-width: 1024px`. This breakpoint applies styles defined for viewport widths that measure 1024px and wider.
 - **Mobile breakpoints**—`max-width: 768px, min-width: 640px`. These breakpoints apply styles defined for viewport widths between 768px and 640px.
 
-Page Builder viewports provide two features:
-
-- They show your content at different screen widths during page design.
-- They give you the option to apply different content settings for the viewport breakpoints.
+Page Builder viewports provide two features: **content previews** and **breakpoint settings**.
 
 ### Content previews
-By default, Page Builder provides two viewports:
+By default, Page Builder provides two viewport previews:
 
 - **Desktop** — Previews your content without a predefined width. Desktop-defined styles (using breakpoint minimum width of 1024px) are still applied to the page. But the Desktop viewport width is defined by settings for container content types, like Rows. Selecting the Desktop viewport shows how your content will be styled on the storefront when the browser's page width is 1024px and wider.
 - **Mobile** — Previews your content at a predefined width of 768px. Unlike the Desktop viewport, the Mobile viewport does show your page content at a width of 768px, along with the styles defined for the breakpoint widths of 768px (max) and 640px (min).
 
-The following screenshots show Page Builder's default responsive settings for product carousels displayed on these viewports:
+The following screenshots show Page Builder's default responsive settings for product carousels displayed for these viewports:
 
 ![Desktop viewport preview]({% link images/images-ee/page-builder-workspace-viewport-desktop.png %}){: .zoom}
 _Desktop viewport preview, minimum width: 1024px_
@@ -74,7 +71,7 @@ _Desktop viewport preview, minimum width: 1024px_
 _Mobile viewport preview, width: 768px_
 
 ### Breakpoint settings
-The viewport buttons also provide the option to apply different styles to content types based on the selected viewport breakpoints. By default, Page Builder provides breakpoint settings for the Minimum Height fields of Rows, Columns, Tabs, Tab Items, Banners, Sliders, and Slides. When you select the Mobile viewport and then open the editor for one of those content types, you can enter field values specific to the Mobile viewport. Content type fields that allow specific breakpoint settings show an icon to the right of the field, as shown here for the Row:
+The viewport buttons also provide the option to apply different breakpoint styles to content types based on the selected viewport. By default, Page Builder provides breakpoint settings for the Minimum Height fields of Rows, Columns, Tabs, Tab Items, Banners, Sliders, and Slides. When you select the Mobile viewport and then open the editor for one of those content types, you can enter field values specific to the Mobile viewport. Content type fields that allow specific breakpoint settings show an icon to the right of the field, as shown here for the Row:
 
 ![Icon indicator for breakpoint setting]({% link images/images-ee/page-builder-workspace-viewport-field-breakpoint.png %}){: .zoom}
 _Icon indicator for breakpoint setting, width: 768px_
