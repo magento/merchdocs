@@ -5,7 +5,7 @@ title: RMA Lifecycle
 
 During its lifecycle, a returned merchandise authorization (RMA) can have many assigned statuses (such as Pending, Authorized, etc.). The RMA status indicates the progress of an RMA request raised by the user or the merchant.
 
-### RMA status
+## RMA status
 
 |Status|Description|
 |--- |--- |
