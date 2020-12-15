@@ -71,7 +71,7 @@ Complete the _Settings_ according to the following sections:
 1. Choose one of the appearance types to determine how the products list is displayed on the page:
 
    | Product Grid     | Displays the products within a grid that shows five products per row (by default), with as many rows as needed to display the number entered in the **Number of Products to Display** setting.  |
-   | Product Carousel | Displays the products within a carousel (also known as a slider). The carousel shows up to five products per slide. <br/><br/>**Responsiveness Alert**: When you select this appearance, it is best to add the Products content type directly to a row, tab, or one-column layout where it is responsive, showing fewer products per side on smaller screens. If you add it to content types that are narrower than the width of the page (such as a narrow column), the carousel will more products per slide than the container allows, regardless of the screen size. |
+   | Product Carousel | Displays the products within a carousel (also known as a slider). The carousel shows up to five products per slide. <br/><br/>**Responsiveness Alert**: When you select this appearance, it is best to add the Products content type directly to a row, tab, or one-column layout where it is responsive, showing fewer products per side on smaller screens. If you add it to content types that are narrower than the width of the page (such as a narrow column), the carousel will display more products per slide than the container allows, regardless of the screen size. |
 
    ![Product appearance]({% link images/images-ee/page-builder-products-appearances.png %}){: .zoom}
    _Setting the product appearance_
