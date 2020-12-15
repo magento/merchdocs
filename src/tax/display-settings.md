@@ -67,7 +67,7 @@ Showing prices that include and exclude tax can be confusing to the customer. To
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. For **Display Printed Card Prices**, choose one of the following:
+1. {:.ee-only}For **Display Printed Card Prices**, choose one of the following:
 
    - `Excluding Tax`
    - `Including Tax`
@@ -104,13 +104,13 @@ Showing prices that include and exclude tax can be confusing to the customer. To
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. For **Display Gift Wrapping Prices**, choose one of the following:
+1. {:.ee-only}For **Display Gift Wrapping Prices**, choose one of the following:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. For **Display Printed Card Prices**, choose one of the following:
+1. {:.ee-only}For **Display Printed Card Prices**, choose one of the following:
 
    - `Excluding Tax`
    - `Including Tax`
