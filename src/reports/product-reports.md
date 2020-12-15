@@ -6,7 +6,7 @@ The product reports give you insight regarding products viewed and ordered, best
 
 ## Product Views
 
-On the Admin sidebar, go to **Reports** > Products > **Views**.
+On the _Admin_ sidebar, go to **Reports** > _Products_ > **Views**.
 
 ![]({% link images/images/reports-product-views.png %}){: .zoom}
 *Product Views Report*
@@ -15,7 +15,7 @@ The Product Views Report shows the products that have been viewed during a time 
 
 ## Bestsellers
 
-On the Admin sidebar, go to **Reports** > Products > **Bestsellers**.
+On the _Admin_ sidebar, go to **Reports** > _Products_ > **Bestsellers**.
 
 ![]({% link images/images/reports-products-bestsellers.png %}){: .zoom}
 *Bestsellers Report*
@@ -24,7 +24,7 @@ The Bestsellers Report shows the five top-selling five during an interval of tim
 
 ## Low Stock
 
-On the Admin sidebar, go to **Reports** > Products > **Low Stock**.
+On the _Admin_ sidebar, go to **Reports** > _Products_ > **Low Stock**.
 
 ![]({% link images/images/reports-product-low-stock.png %}){: .zoom}
 *Low Stock Report*
@@ -33,7 +33,7 @@ The Low Stock Report lists all products with stock levels within a specified ran
 
 ## Ordered Products
 
-On the Admin sidebar, go to **Reports** > Products > **Ordered**.
+On the _Admin_ sidebar, go to **Reports** > _Products_ > **Ordered**.
 
 ![]({% link images/images/reports-products-ordered.png %}){: .zoom}
 *Ordered Products Report*
@@ -42,7 +42,7 @@ The Ordered Products Report lists all products ordered for a specified time inte
 
 ## Downloads
 
-On the Admin sidebar, go to **Reports** > Products > **Downloaded**.
+On the _Admin_ sidebar, go to **Reports** > _Products_ > **Downloaded**.
 
 ![]({% link images/images/reports-products-downloads.png %}){: .zoom}
 *Downloads Report*
