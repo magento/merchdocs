@@ -10,7 +10,7 @@ The following examples show how tax classes and rates are used for VAT ID Vali
 
 |Tax Rule #1||
 |--- |--- |
-|Customer Tax Class|Customer tax classes must include: <br/>A class for domestic customers. <br/>A class for customers with invalid VAT ID A class for customers, for whom VAT ID validation failed|
+|Customer Tax Class|Customer tax classes must include: <br />A class for domestic customers. <br />A class for customers with incorrectly formatted VAT IDs.<br />A class for customers whose VAT ID validation failed.|
 |Product Tax Class|Product tax classes must include a class for products of all types, except bundle and virtual.|
 |Tax Rate|The tax rate must include the VAT rate of the merchant’s country.|
 
