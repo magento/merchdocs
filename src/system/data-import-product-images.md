@@ -101,6 +101,9 @@ Before you try to import a large amount of images, review the steps in the impor
 
 For more information about enabling and managing the Remote storage module, see [Configure remote storage][3] in the _Configuration guide_.
 
+{:.bs-callout-info}
+Importing product images does not initiate image resize. Product images are resized on the frontend by `pub/get.php`. Make sure that your `pub/get.php` is working properly otherwise images may not be resized.
+
 [1]: http://notepad-plus-plus.org/
 [2]: https://www.openoffice.org/
 [3]: https://devdocs.magento.com/guides/v2.4/config-guide/remote-storage/config-remote-storage.html
