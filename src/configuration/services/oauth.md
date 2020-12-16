@@ -35,7 +35,7 @@ _Access Token Expiration_
 |OAuth consumer credentials HTTP Post maxredirects|Global|Specifies the maximum number of redirects that are related to a posting of consumer credentials.|
 |Expiration Period|Global|Determines the number of seconds before an unused key/secret expires after the OAuth token exchange begins.|
 
-##Authentication Locks
+## Authentication Locks
 
 ![]({% link images/images/config-services-oauth-authentication-locks.png %}){: .zoom}
 _Authentication Locks_
