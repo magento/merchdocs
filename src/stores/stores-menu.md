@@ -17,6 +17,10 @@ On the _Admin_ sidebar, click **Stores**.
 
 Manage the hierarchy of [websites, stores, and store views]({% link stores/stores-all-stores.md %}) in your Magento installation, and all [configuration settings]({% link stores/configuration-overview.md %}). In addition, you can set up the [Terms and Conditions]({% link sales/terms-and-conditions.md %}) of a sale, and manage [order status settings]({% link sales/order-status-custom.md %}).
 
+### Inventory
+
+[Manage and create stocks]({% link catalog/inventory-stock.md %}) to link your sales channels or websites to [sources]({% link catalog/inventory-sources.md %}). Stocks provide an aggregated salable quantity of products. Single Source merchants use the Default Stock while Multi Source merchants use additional custom stocks.
+
 ### Taxes
 
 Manage all types of [tax functions]({% link tax/taxes.md %}) across your Magento store, set up the tax rules for your store, define customer and product tax classes, and manage tax zones and rates. You can also import tax rate data into your store.
