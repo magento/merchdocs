@@ -27,12 +27,6 @@ entries:
   type: Major update
   date: December 7, 2020
   link: https://github.com/magento/merchdocs/pull/914
-- description: Added the ability to [monitor and manage](https://docs.magento.com/user-guide/system/catalog-sync.html)
-    the catalog sync process from the Admin.
-  versions: 2.4.1
-  type: Major update
-  date: December 7, 2020
-  link: https://github.com/magento/merchdocs/pull/914
 - description: Updated [Export](https://docs.magento.com/user-guide/system/data-export.html)
     to reflect change in exported file processed through a message queue.
   versions: 2.4.x
