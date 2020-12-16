@@ -34,3 +34,13 @@ _Access Token Expiration_
 |OAuth consumer credentials HTTP Post timeout|Global|Specifies the number of seconds it takes for the system to timeout when customers post their credentials.|
 |OAuth consumer credentials HTTP Post maxredirects|Global|Specifies the maximum number of redirects that are related to a posting of consumer credentials.|
 |Expiration Period|Global|Determines the number of seconds before an unused key/secret expires after the OAuth token exchange begins.|
+
+##Authentication Locks
+
+![]({% link images/images/config-services-oauth-authentication-locks.png %}){: .zoom}
+_Authentication Locks_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Maximum Login Failures to Lock Out Account|Global|Determines the number failed login attempts until the account is locked. For unlimited attempts, enter zero (0).|
+|Lockout Time (seconds)|Global|Determines the number of seconds an account is locked after too many failed attempts to log in.|
