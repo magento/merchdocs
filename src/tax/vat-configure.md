@@ -15,7 +15,10 @@ In certain business-to-business transactions, VAT is not assessed. Magento can v
 
 1. Ensure that there is a customer tax class that is appropriate to use with the VAT.
 
-   For this example, ensure that there is a customer tax class named Retail Customer. If Retail Customer does not exist, click <span class="btn">Add New</span> and add it.
+   For this example, ensure that there is a customer tax class named Retail Customer. If Retail Customer does not exist, click <span class="btn">Add New Tax Rate</span> and add it.
+
+    ![]({% link images/images/configuring-vat-tax-zones-and-rates.png %}){: .zoom}
+    _Set up customer tax classes_
 
 ## Step 2: Set up product tax classes
 
@@ -34,6 +37,11 @@ In certain business-to-business transactions, VAT is not assessed. Magento can v
    - `VAT Zero`
 
 1. Click <span class="btn">Save Class</span> for each new class that you add.
+
+1. Click <span class="btn">Save Rule</span>.
+
+    ![]({% link images/images/configuring-vat-add-new-tax-class.png %}){: .zoom}
+    _Set up product tax classes_
 
 ## Step 3: Set up tax zones and rates
 
@@ -56,6 +64,9 @@ In certain business-to-business transactions, VAT is not assessed. Magento can v
    |Rate Percent:|5.00|
 
 1. Click <span class="btn">Save Rate</span> for each rate.
+
+    ![]({% link images/images/configuring-vat-set-up-tax-zones-and-rates.png %}){: .zoom}
+    _Set up tax zones and rates_
 
 ## Step 4: Set up tax rules
 
@@ -81,6 +92,9 @@ A tax rule is a combination of a customer tax class, a product tax class, and a 
 
 1. Click <span class="btn">Save Rule</span> for each rate.
 
+    ![]({% link images/images/configuring-vat-set-up-tax-rules.png %}){: .zoom}
+    _Set up tax rules_
+
 ## Step 5: Apply tax classes to products
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Manage Products**.
@@ -90,3 +104,6 @@ A tax rule is a combination of a customer tax class, a product tax class, and a 
 1. On the _General_ page, find the **Tax Class** option and select the **VAT Class** that applies to the product.
 
 1. When complete, click <span class="btn">Save</span>.
+
+    ![]({% link images/images/configuring-vat-apply-tax-classes-to-products.png %}){: .zoom}
+    _Apply tax classes to products_
