@@ -4,9 +4,9 @@
 # frozen_string_literal: true
 
 # This file contains tasks with no namespace.
-# All namespaced tasks are defined in the '../rakelib' directory.
+# All namespaced tasks are defined in the 'rakelib' directory.
 # Each namespace is defined in a separate file.
-# For example, 'preview:all' is defined in the '../rakelib/preview.rake' file.
+# For example, 'preview:all' is defined in the 'rakelib/preview.rake' file.
 # To see the list of tasks to use, run 'rake -T'.
 
 require 'html-proofer'
@@ -43,7 +43,8 @@ task build: %w[build:dev]
 desc 'Check modified files. To check all files at the particular path, provide the path (e.g. path=src/images/images)'
 task check: %w[check:image_optim check:mdl]
 
-desc "Generate data for a news digest. Default timeframe is since last update (determined automatically). For a custom date, use the 'since' variable: rake whatsnew since='jul 4'"
+desc "Generate data for a news digest. Default timeframe is since last update (determined automatically).
+For a custom date, use the 'since' variable: rake whatsnew since='jul 4'"
 task :whatsnew do
   since = ENV['since']
   current_file = 'src/_data/whats-new.yml'
