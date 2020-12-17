@@ -26,7 +26,7 @@ Total | The order total
 
 #### Tax excluded
 
-[Price Display]({{page.baseurl}}/user-guide/tax/display-settings.html) | Unit Price | Row Total | Total
+[Price Display]({% link tax/display-settings.md %}) | Unit Price | Row Total | Total
 ------------- | ---------- | --------- | -----
 Excluding tax | OK | OK | OK
 Including tax | OK | OK | OK
@@ -36,7 +36,7 @@ Including and Excluding tax | OK | OK | Warning
 
 #### Tax Included
 
-[Price Display]({{page.baseurl}}/user-guide/tax/display-settings.html) | Unit Price | Row Total | Total
+[Price Display]({% link tax/display-settings.md %}) | Unit Price | Row Total | Total
 ------------- | ---------- | --------- | -----
 Excluding tax | OK | OK | OK
 Including tax | OK | OK | OK
