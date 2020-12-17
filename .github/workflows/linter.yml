@@ -19,10 +19,6 @@ on:
     branches:
       - master
       - 2.*-develop
-    paths-ignore:
-      - '**.md'
-      - '**.html'
-      - '**.xml'
 
 ###############
 # Set the Job #
@@ -53,6 +49,6 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: master
+          MARKDOWN_CONFIG_FILE: .markdownlint.json
           VALIDATE_HTML: false
-          VALIDATE_MARKDOWN: false
           VALIDATE_XML: false
