@@ -32,6 +32,10 @@ If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled,
       ![Cart price rule - coupon information]({% link images/images/price-rule-cart-coupon-info.png %}){: .zoom}
       _Coupon Information_
 
+   {:.bs-callout-info}
+   In case of simultaneous use of the same coupon by multiple customers at the same time, it is possible that the usage
+   limit that is set could be exceeded due to delayed coupon processing.
+
 1. To make the coupon valid for a period of time, do the following:
 
    - {:.ce-only}Complete the **From** and **To** dates. To select the date, click the **Calendar** (![]({% link images/images/btn-calendar.png %})) icon next to each field. If you leave the date range empty, the rule does not expire.
@@ -74,6 +78,10 @@ The generation of discount coupons is an asynchronous operation, which executes 
 
    ![Cart price rule - generate auto-numbered coupons]({% link images/images/price-rule-cart-coupon-auto.png %}){: .zoom}
    _Generate Auto-numbered Coupons_
+
+   {:.bs-callout-info}
+   In case of simultaneous use of the same coupon by multiple customers at the same time, it is possible that the usage
+   limit that is set could be exceeded due to delayed coupon processing.
 
 1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Manage Coupon Codes** section. Then, do the following:
 
