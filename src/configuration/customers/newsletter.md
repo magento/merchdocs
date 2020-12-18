@@ -5,7 +5,7 @@ title: Newsletter
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) >  Newsletter
 
 {:.bs-callout-info}
-The newsletter is a part of marketing instruments that allow sending to customers news, discounts, and other marketing emails. Registered customers can manage their subscription from [account.]({% link customers/account-dashboard-newsletter-subscriptions.md %})
+The newsletter is a part of marketing instruments that allow sending to customers news, discounts, and other marketing emails. Registered customers can manage their subscription from their [account]({% link customers/account-dashboard-newsletter-subscriptions.md %}).
 
 ## General Options
 
