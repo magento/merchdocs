@@ -4,10 +4,13 @@ title: Wish List
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) > Wish List
 
+{:.bs-callout-info}
+A Wish list allows registered customers to create their own collections of products they want to buy in the future. Wish lists can be shared between customers.
+
 ## General Options
 
 ![]({% link images/images-ee/config-customers-wishlist-general-options-ee.png %}){: .zoom}
-_[General Options]({% link marketing/wishlist-configuration.md %})_{:.ee-only}
+_[General Options]({% link marketing/wishlist-configuration.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
