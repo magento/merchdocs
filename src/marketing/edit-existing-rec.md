@@ -21,7 +21,7 @@ You can modify certain settings for an existing recommendation.
    - Position
    - Number of products to display
    - Display name
-   - Excluded categories
+   - Filters
 
     {:.bs-callout-info}
     You cannot modify the page type or recommendation type for an existing recommendation.

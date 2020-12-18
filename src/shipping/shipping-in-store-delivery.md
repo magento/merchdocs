@@ -25,6 +25,9 @@ First, check that In-store Delivery is enabled.
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **In-Store Delivery** section.
 
+   ![]({% link images/images/config-sales-shipping-methods-in-store.png %}){: .zoom}
+   _[In-store Delivery]({% link configuration/sales/delivery-methods.md %})_
+
 1. Set **Enabled** to `Yes`.
 
    {:.bs-callout-info}
