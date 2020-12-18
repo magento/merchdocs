@@ -23,7 +23,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enabled|Store View|Enables Product Reviews. Options: Yes / No|
+|Enabled|Store View|Enables product reviews. Options: Yes / No|
 |Allow Guests to Write Reviews|Website|Determines if customers must open an account with your store to be able to write product reviews.|
 
 ## Storefront
