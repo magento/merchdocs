@@ -41,7 +41,7 @@ When customers purchase more than 25 products, new orders enter as backorders. A
 
 ### Notify for Quantity Below
 
-The _Notify for Quantity Below_ configuration option is configurable at the global, source, and product levels. It sends an email notification when a product's quantity reaches a low quantity. For this example, the notification sends when the product has a quantity of 10 or less. When backorders are enabled, the Notify for Quantity Below is not deducted from the Salable Quantity.
+The _Notify for Quantity Below_ configuration option is configurable at the global, source, and product levels. It sends an email notification when a product's quantity reaches a low quantity. For this example, the notification sends when the product has a quantity of 10 or less. When backorders are enabled, the _Notify for Quantity Below_ is not deducted from the Salable Quantity.  (Salable Quantity = Quantity - (Out-of-Stock Threshold)).
 
 ### Stock status
 
