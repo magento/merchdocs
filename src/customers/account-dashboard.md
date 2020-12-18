@@ -26,7 +26,7 @@ _Company Account Dashboard_{:.b2b-only}
 | [Newsletter Subscriptions]({% link marketing/newsletters.md %})  | Lists all available newsletters. Those to which the customer is currently subscribed have a checkmark. |
 | <span class="ee-only">[Order by SKU]({% link customers/account-dashboard-order-by-sku.md %})</span> | Gives you the ability to add individual items to the cart by SKU or to import a list of products to be ordered from a CSV file. |
 | <span class="ee-only">[Store Credit]({% link customers/account-dashboard-store-credit.md %})</span> | Displays the current amount of store credit from returns, refunds, and redeemed gift card that can be applied to purchases.  |
-| <span class="ee-only">[Stored Payment Methods]({% link customers/account-dashboard-stored-payment-methods.md %})</span> | Lists any payment methods with secure vaults that are used by the customer to store credit card information.  |
+|[Stored Payment Methods]({% link customers/account-dashboard-stored-payment-methods.md %}) | Lists any payment methods with secure vaults that are used by the customer to store credit card information.  |
 | <span class="ee-only">[Gift Card]({% link catalog/product-gift-card.md %})</span> | Allows customers to check the current balance on available gift cards and to redeem gift cards for store credit. |
 | <span class="ee-only">[Reward Points]({% link marketing/rewards-loyalty.md %})</span> | Lists all reward points the customer has earned that can be applied toward purchases.   |
 | <span class="ee-only">[Gift Registry]({% link marketing/gift-registries.md %})</span> | Used to list and maintains gift registries, and  add new ones. |
