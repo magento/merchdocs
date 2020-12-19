@@ -1,29 +1,83 @@
+---
 title: What’s New in the User Guide
-description: 
-  This page contains recent changes that we think you'd like to know about.
+description: This page contains recent changes that we think you'd like to know about.
   We exclude from this list proofreading, spelling checks, and insignificant updates.
-link: /getting-started/whats-new.html
-thread: /whatsnew-feed.xml
-updated: Wed Dec 9 12:32:01 2020
+link: "/getting-started/whats-new.html"
+thread: "/whatsnew-feed.xml"
+updated: Thu Dec 17 13:51:56 2020
 entries:
-- description: Added the ability to [monitor and manage](https://docs.magento.com/user-guide/system/catalog-sync.html) the catalog sync process from the Admin Panel.
+- description: Updated [General Tax Settings](https://docs.magento.com/user-guide/tax/tax-settings-general.html)
+    to include each section of tax settings in the configuration.
+  versions: 2.4.x
+  type: Major update
+  date: December 8, 2020
+  link: https://github.com/magento/merchdocs/pull/904
+- description: Added the ability to [monitor and manage](https://docs.magento.com/user-guide/system/catalog-sync.html)
+    the catalog sync process from the Admin.
   versions: 2.4.1
   type: Major update
   date: December 7, 2020
   link: https://github.com/magento/merchdocs/pull/914
-- description: Added [inclusion and exclusion filters](https://docs.magento.com/user-guide/marketing/recommendation-incl-excl.html) to control what products can and cannot be displayed in recommendations.
-  versions: 2.4.1
+- description: Updated [Export](https://docs.magento.com/user-guide/system/data-export.html)
+    to reflect change in exported file processed through a message queue.
+  versions: 2.4.x
+  type: Minor update
+  date: December 2, 2020
+  link: https://github.com/magento/merchdocs/pull/886
+- description: Added missing info in [Stores Menu](https://docs.magento.com/user-guide/stores/stores-menu.html)
+    topic.
+  versions: 2.4.x
   type: Major update
-  date: December 7, 2020
-  link: https://github.com/magento/merchdocs/pull/914
-- description: Added the [Visual similarity recommendation type](https://docs.magento.com/user-guide/marketing/prex-type-visualsim.html).
-  versions: 2.4.1
+  date: December 2, 2020
+  link: https://github.com/magento/merchdocs/pull/893
+- description: Added the [Configuring Requisition Lists](https://docs.magento.com/user-guide/stores/b2b-configure-requisition-lists.html)
+    topic for B2B configuration, as well as additional linking for supported storefront
+    functionality.
+  versions: 2.4.x
+  type: New topic
+  date: December 2, 2020
+  link: https://github.com/magento/merchdocs/pull/874
+- description: Updated the [Gift Options configuration reference](https://docs.magento.com/user-guide/configuration/sales/sales.html#gift-options)
+    to include additional fields available in Magento Commerce.
+  versions: 2.4.x
   type: Major update
-  date: December 7, 2020
-  link: https://github.com/magento/merchdocs/pull/914
+  date: November 30, 2020
+  link: https://github.com/magento/merchdocs/pull/875
+- description: Added authentication locks configuration info in [OAuth](https://docs.magento.com/user-guide/configuration/services/oauth.html)
+    configuration reference.
+  versions: 2.4.x
+  type: Major update
+  date: November 24, 2020
+  link: https://github.com/magento/merchdocs/pull/872
+- description: Added missing information in the [Configuring a Persistent Cart](https://docs.magento.com/user-guide/sales/cart-persistent-configuration.html)
+    topic and [Persistent Shopping Cart](https://docs.magento.com/user-guide/configuration/customers/persistent-shopping-cart.html)
+    configuration reference.
+  versions: 2.4.x
+  type: Major update
+  date: November 23, 2020
+  link: https://github.com/magento/merchdocs/pull/868
+- description: Added a new topic for the [Magento Identity Manager](https://docs.magento.com/user-guide/magento/magento-identity-manager.html),
+    which is now available for linking Magento user accounts with an Adobe ID to support
+    single sign-on.
+  versions: 2.4.x
+  type: New topic
+  date: October 27, 2020
+  link: https://github.com/magento/merchdocs/pull/828
+- description: Added a warning message to [Google Analytics](https://docs.magento.com/user-guide/stores/compliance-cookie-restriction-mode.html)
+    about how it works when _Cookie Restriction Mode_ is enabled.
+  versions: 2.4.x
+  type: Minor update
+  date: October 26, 2020
+  link: https://github.com/magento/merchdocs/pull/825
+- description: Expanded documentation about connecting to [SaaS services in Magento](https://docs.magento.com/user-guide/system/saas.html).
+  versions: 2.4.x
+  type: New topic
+  date: October 22, 2020
+  link: https://github.com/magento/merchdocs/pull/814
 - description: Updated the Page Builder [Banner](https://docs.magento.com/user-guide/cms/page-builder-media-banner.html#complex-content-in-the-settings)
-    and [Slider](https://docs.magento.com/user-guide/cms/page-builder-media-slider.html#complex-content-in-the-settings) topics for the change to no longer
-    allow links from both the _Message Text_ and the _Link_ option for Banners and Slides.
+    and [Slider](https://docs.magento.com/user-guide/cms/page-builder-media-slider.html#complex-content-in-the-settings)
+    topics for the change to no longer allow links from both the _Message Text_ and
+    the _Link_ option for Banners and Slides.
   versions: 2.4.1
   type: Minor update
   date: October 15, 2020
@@ -61,20 +115,23 @@ entries:
   type: Major update
   date: October 15, 2020
   link: https://github.com/magento/merchdocs/pull/758
-- description: Enhanced [Security Scan](https://docs.magento.com/user-guide/magento/security-scan.html) runs over 17,000 tests to monitor your sites
-    for potential risks, with real-time and historical reports and notifications.
+- description: Enhanced [Security Scan](https://docs.magento.com/user-guide/magento/security-scan.html)
+    runs over 17,000 tests to monitor your sites for potential risks, with real-time
+    and historical reports and notifications.
   versions: 2.4.1
   type: Minor update
   date: October 15, 2020
   link: https://github.com/magento/merchdocs/pull/748
 - description: The [Customer Configuration - CAPTCHA](https://docs.magento.com/user-guide/configuration/customers/customer-configuration.html)
-    has a new option under Forms that displays CAPTCHA in the storefront during checkout for registered customers.
+    has a new option under Forms that displays CAPTCHA in the storefront during checkout
+    for registered customers.
   versions: 2.4.1
   type: Minor update
   date: October 15, 2020
   link: https://github.com/magento/merchdocs/pull/745
 - description: The [Yotpo Reviews](https://docs.magento.com/user-guide/marketing/yotpo-reviews-intro.html#changes-in-the-latest-release)
-    module includes an enhancement to programmatically adjust when Magento orders are synced to Yotpo.
+    module includes an enhancement to programmatically adjust when Magento orders
+    are synced to Yotpo.
   versions: 2.4.1
   type: Minor update
   date: October 15, 2020
@@ -91,8 +148,9 @@ entries:
   type: Major update
   date: October 15, 2020
   link: https://github.com/magento/merchdocs/pull/655
-- description: Updated the [Media Gallery Asset Management](https://docs.magento.com/user-guide/cms/media-gallery-asset-management.html) topic
-    to include expanded asset details, as well as new asset search and image metadata editing.
+- description: Updated the [Media Gallery Asset Management](https://docs.magento.com/user-guide/cms/media-gallery-asset-management.html)
+    topic to include expanded asset details, as well as new asset search and image
+    metadata editing.
   versions: 2.4.1
   type: Major update
   date: October 15, 2020
@@ -220,7 +278,8 @@ entries:
   type: Major update
   date: July 28, 2020
   link: https://github.com/magento/merchdocs/pull/535
-- description: Removed content for [Magento Shipping](https://magento.com/shipping). This integration is removed from 2.4.0.
+- description: Removed content for [Magento Shipping](https://magento.com/shipping).
+    This integration is removed from 2.4.0.
   versions: 2.4.0
   type: Major update
   date: July 28, 2020
@@ -232,9 +291,9 @@ entries:
   type: Major update
   date: July 28, 2020
   link: https://github.com/magento/merchdocs/pull/532
-- description: Removed content for [payment method integrations deprecated in 2.3.x](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445), such as
-    Authorize.Net Direct Post, Authorize.Net, CyberSource, eWAY, and Worldpay. These
-    integrations are removed from 2.4.0.
+- description: Removed content for [payment method integrations deprecated in 2.3.x](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445),
+    such as Authorize.Net Direct Post, Authorize.Net, CyberSource, eWAY, and Worldpay.
+    These integrations are removed from 2.4.0.
   versions: 2.4.0
   type: Major update
   date: July 28, 2020
@@ -271,23 +330,11 @@ entries:
   type: Major update
   date: July 28, 2020
   link: https://github.com/magento/merchdocs/pull/451
-- description: All instances of Magento 2.4.0 must use Elasticsearch 7.6 as the catalog search engine. In previous releases, MySQL was the default catalog search engine, but it is no longer supported in this capacity. [Configuring Catalog Search](https://docs.magento.com/user-guide/catalog/search-configuration.html) describes the configuration fields for Elasticsearch 7.6.
+- description: All instances of Magento 2.4.0 must use Elasticsearch 7.6 as the catalog
+    search engine. In previous releases, MySQL was the default catalog search engine,
+    but it is no longer supported in this capacity. [Configuring Catalog Search](https://docs.magento.com/user-guide/catalog/search-configuration.html)
+    describes the configuration fields for Elasticsearch 7.6.
   versions: 2.4.0
   type: Major update
   date: July 28, 2020
-  link: 
-- description: Added the 'Filter Orders' section to [My Orders](https://docs.magento.com/user-guide/customers/account-dashboard-my-orders.html).
-  versions: 2.4.0
-  type: Major update
-  date: July 28, 2020
-  link: 
-- description: Updates to [Related Product Rule Priority](https://docs.magento.com/user-guide/marketing/product-related-rule-priority.html) and [Configuring Related Products Rules](https://docs.magento.com/user-guide/marketing/product-related-rules-configure.html) to reflect changes to rotation modes that provide more control over the order of products displayed as related cross- and up-sales product.
-  versions: 2.4.0
-  type: Major update
-  date: July 28, 2020
-  link: 
-- description: Added information about the [Minimum Terms to Match](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#catalog-search) Elasticsearch parameter.
-  versions: 2.4.0
-  type: Major update
-  date: July 28, 2020
-  link: 
+  link:
