@@ -45,7 +45,10 @@ If you want to use a third-party service to send newsletters, you can export you
 
    For a multi-site setup where some customers have subscriptions for more than one site, each subscription is displayed as a line item in the grid.
 
-1. Find the subscription in the grid and select the checkbox in the first column.
+1. Find the subscriber in the grid and select the checkbox in the first column.
+
+   {:.bs-callout-info}
+   For a bulk unsubscribe, select the checkbox of each subscriber that you want to cancel.
 
 1. Set the _Action_ control to **Unsubscribe** and click <span class="btn">Submit</span>.
 
