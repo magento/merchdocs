@@ -2,7 +2,7 @@
 title: Processing an Order
 ---
 
-When a customer places an order, a sales order is created as a temporary record of the transaction. The sales order initially has a status of `Pending` and can be edited or canceled until payment starts processing. The Orders grid lists all orders, regardless of where they are in the [workflow]({% link sales/order-workflow.md %}). To learn how to help customers with an existing order, see [Updating an Order]({% link sales/order-update.md %}).
+When a customer places an order, the order is created as a temporary record of the transaction and initially has a status of `Pending`.  It can be edited or canceled until payment starts processing. The _Orders_ grid lists all orders, regardless of where they are in the [workflow]({% link sales/order-workflow.md %}). To learn how to help customers with an existing order, see [Updating an Order]({% link sales/order-update.md %}).
 
 ![]({% link images/images-ee/orders.png %}){: .zoom}
 _Orders_{:.ee-only}
@@ -72,7 +72,7 @@ Review the following sections in the sales order, using the field descriptions f
 
 ## Cancel an order
 
-Only sales orders with a status of `Pending` can be [canceled]({% link sales/order-update.md %}). A [credit memo]({% link sales/credit-memos.md %}) must be issued if a customer wants to cancel an order after payment has started processing.
+Only sales orders with a status of `Pending` can be [canceled]({% link sales/order-update.md %}). A [credit memo]({% link sales/credit-memos.md %}) must be issued if a customer wants to cancel an order after payment starts processing.
 
 ## Order and Account Information
 
