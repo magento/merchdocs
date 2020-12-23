@@ -124,6 +124,8 @@ Do the following to remove the test data and restore the original product name a
 
     - Set **Use Flat Catalog Product** to `No`.
 
+    ![]({% link images/images/config-catalog-catalog-storefront-use-flat-restore-configuration.png %}){: .zoom}
+
 1. When complete, click <span class="btn">Save Config</span>.
 
 1. When prompted, refresh the cache.
