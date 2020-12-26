@@ -56,7 +56,7 @@ The following example shows how to create a new root category and assign it to a
 
 1. To verify that the store has a new catalog, do the following:
 
-   - On the _Admin_ sidebar, go to **Catalog** > **Products**.
+   - On the _Admin_ sidebar, go to **Catalog** > **Inventory** > **Products**.
 
       Any products that were copied to the new catalog appear in the grid.
 
