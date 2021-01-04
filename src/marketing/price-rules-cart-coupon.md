@@ -38,7 +38,7 @@ If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled,
 
    - {:.ee-only}Do one of the following:
 
-      **Schedule New Update**
+      **Schedule New Update:**
 
       - Click <span class="btn">Schedule New Update</span> in the upper-right corner of the page. Then, do the following:
 
@@ -54,7 +54,7 @@ If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled,
         ![Cart price rule - scheduled change]({% link images/images/price-rule-cart-coupon-scheduled-change.png %}){: .zoom}
         _Scheduled Change_
 
-      **Assign to Existing Update**
+      **Assign to Existing Update:**
 
       - Select **Assign to Another Update**.
 
@@ -94,7 +94,7 @@ The generation of discount coupons is an asynchronous operation, which executes 
 
    - (Optional) Enter a **Code Suffix** to be added to the end of the code.
 
-   - (Optional) In the **Dash Every X Characters** field, enter the number of characters between each dash. For example, if the code is twelve characters long, and there is a dash every four characters, it will look like ` xxxx-xxxx-xxxx`. Dashes make codes easier to read and enter.
+   - (Optional) In the **Dash Every X Characters** field, enter the number of characters between each dash. For example, if the code is twelve characters long, and there is a dash every four characters, it will look like `xxxx-xxxx-xxxx`. Dashes make codes easier to read and enter.
 
 1. When complete, click <span class="btn">Generate</span>.
 

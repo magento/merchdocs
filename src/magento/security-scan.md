@@ -55,20 +55,20 @@ _Security Scan_
 
 1. After a successful confirmation, configure the **Set Automatic Security Scan** options for one of the following types:
 
-   **Scan Weekly (recommended)**
+   **Scan Weekly (recommended):**
 
    - Choose the **Week Day**, **Time**, and **Time Zone** that the scan is to take place each week.
    - By default, the scan is scheduled to begin each week at midnight Saturday, UTC, and continue to early Sunday.
 
-        ![]({% link images/images/magento-security-scan-weekly.png %})
+      ![]({% link images/images/magento-security-scan-weekly.png %})
         _Scan Weekly_
 
-   **Scan Daily**
+   **Scan Daily:**
 
    - Choose the **Time**, and **Time Zone** that the scan is to take place each day.
    - By default, the scan is scheduled to begin each day at midnight, UTC.
 
-        ![]({% link images/images/magento-security-scan-daily.png %})
+      ![]({% link images/images/magento-security-scan-daily.png %})
         _Scan Daily_
 
 1. Enter the **Email Address** where you want to receive notifications of completed scans and security updates.
