@@ -54,7 +54,7 @@ _Reset Syncs_
 
 ## Debug
 
-![Debug]({% link images/images/dotdigital-dash-iprestrict.png %}){: .zoom}
+![Debug]({% link images/images/dotdigital-dash-debug.png %}){: .zoom}
 _Debug_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
