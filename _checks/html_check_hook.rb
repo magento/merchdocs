@@ -11,7 +11,7 @@
 #
 require 'html-proofer'
 require 'yaml'
-require_relative '../lib/double_slash_check.rb'
+require_relative '../lib/double_slash_check'
 
 Jekyll::Hooks.register :site, :post_write do |site|
   # Do nothing unless 'site.check_links' is set
@@ -33,7 +33,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
     if url_ignore
       url_ignore.push(jekyll_excludes_as_regex).flatten!.uniq!
     else
-      checks_config['html-proofer'].merge!(url_ignore: jekyll_excludes_as_regex)
+      checks_config['html-proofer'][:url_ignore] = jekyll_excludes_as_regex
     end
 
     # Read configuration options for html-proofer

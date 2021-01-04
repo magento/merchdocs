@@ -1,11 +1,14 @@
 # Copyright © Magento, Inc. All rights reserved.
 # See COPYING.txt for license details.
 
+# frozen_string_literal: true
+
 # Custom check for html-proofer to find double forward slashes in URLs.
 module LinkChecker
   class DoubleSlashCheck < ::HTMLProofer::Check
     def slash?
       return false if @link.href.nil?
+
       @link.href.match %r{\w//}
     end
 
@@ -14,9 +17,7 @@ module LinkChecker
         @link = create_element(node)
         line = node.line
 
-        if slash?
-          return add_issue("Remove double forward slashes from URLs", line: line)
-        end
+        return add_issue('Remove double forward slashes from URLs', line: line) if slash?
       end
     end
   end
