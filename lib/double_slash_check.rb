@@ -1,6 +1,8 @@
 # Copyright © Magento, Inc. All rights reserved.
 # See COPYING.txt for license details.
 
+# frozen_string_literal: true
+
 # Custom check for html-proofer to find double forward slashes in URLs.
 module LinkChecker
   class DoubleSlashCheck < ::HTMLProofer::Check
