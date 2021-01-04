@@ -41,7 +41,7 @@ When customers purchase more than 25 products, new orders enter as backorders. A
 
 ### Notify for Quantity Below
 
-The _Notify for Quantity Below_ configuration option is configurable at the global, source, and product levels. It sends an email notification when a product's quantity reaches a low quantity. For this example, the notification sends when the product has a quantity of 10 or less. When backorders are enabled, the _Notify for Quantity Below_ is not deducted from the Salable Quantity.  (Salable Quantity = Quantity - (Out-of-Stock Threshold)).
+The _Notify for Quantity Below_ configuration option is configurable at the global, source, and product levels. When it is enabled, the system sends an email notification when the product quantity reaches a level at or below the configured value. For this example, a notification is triggered when the product has a quantity of 10 or less. When backorders are enabled, _Notify for Quantity Below_ is determined by the Salable Quantity (`Salable Quantity = Quantity - (Out-of-Stock Threshold)`).
 
 ### Stock status
 
@@ -57,7 +57,7 @@ These steps enable backorders for all products at the site level.
 
 1. In the left panel, expand **Catalog** and choose **Inventory**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Product Stock Options**.
+1. Expand ![]({% link images/images/btn-expand.png %}) **Product Stock Options**.
 
 1. For **Backorders**, deselect the **Use system value** checkbox and select an option:
 
@@ -105,7 +105,7 @@ Product level configurations override global configurations. You may want to con
     | Zero | With Backorders enabled, entering `0` allows for infinite backorders. |
     | Negative amount | With Backorders enabled, we recommend entering a negative amount. The amount is added to the Salable Quantity. For example, enter `-50` to allow orders up to this amount. |
 
-1. Click <span class="btn">Done</span>, and then <span class="btn">Save</span>.
-
     ![]({% link images/images/inventory/inventory-backorders-product-settings.png %}){: .zoom}
     _Advanced Inventory configured for Backorders_
+
+1. Click <span class="btn">Done</span>, and then <span class="btn">Save</span>.
