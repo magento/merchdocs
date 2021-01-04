@@ -117,22 +117,22 @@ _Conditions_
 
    You can repeat the process as many times as needed to describe the conditions that must be met for the price rule. Here are some examples:
 
-   **Example 1: Regional Price Rule**
+   - **Example 1. Regional Price Rule**
 
-   To create a regional price rule, use one of the following cart attributes:
+     To create a regional price rule, use one of the following cart attributes:
 
-   - Shipping Postcode
-   - Shipping Region
-   - Shipping State/Province
-   - Shipping Country
+     - Shipping Postcode
+     - Shipping Region
+     - Shipping State/Province
+     - Shipping Country
 
-   **Example 2: Shopping Cart Totals**
+   - **Example 2. Shopping Cart Totals:**
 
-   To base the condition on shopping cart totals, use one of the following cart attributes:
+     To base the condition on shopping cart totals, use one of the following cart attributes:
 
-   - Subtotal
-   - Total Items Quantity
-   - Total Weight
+     - Subtotal
+     - Total Items Quantity
+     - Total Weight
 
 ## Step 3: Define the Actions
 

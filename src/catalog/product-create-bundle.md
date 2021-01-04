@@ -216,7 +216,7 @@ Scroll down and complete the information in the following sections as needed:
 
 1. Do one of the following:
 
-   **Method 1: Save and preview**
+   **Method 1. Save and preview:**
 
    - In the upper-right corner, click <span class="btn">Save</span>.
 
@@ -227,12 +227,12 @@ Scroll down and complete the information in the following sections as needed:
     ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
     _Customer View_
 
-   **Method 2: Save and close**
+   **Method 2. Save and close:**
 
-    On the _Save_ (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
+   On the _Save_ (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
 
-    ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
-    _Save & Close_
+   ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
+   _Save & Close_
 
 ## Input controls
 

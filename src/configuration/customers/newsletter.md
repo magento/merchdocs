@@ -19,4 +19,3 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 |Success Email Template|Store View|Determines the email template used for the notification sent to those who successfully subscribe to a newsletter.  Default template: Newsletter subscription success|
 |Unsubscription Email Sender|Store View|Identifies the store contact that appears as the sender of email sent to those who request to end their newsletter subscription.|
 |Unsubscription Email Template|Store View|Determines the email template used for the notification sent to those who request to end their newsletter subscription.  Default template: Newsletter unsubscription success|
-
