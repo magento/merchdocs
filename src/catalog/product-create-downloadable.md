@@ -218,4 +218,4 @@ If you are ready to publish the product in the catalog, set **Enable Product** t
 
 - The delivery of a downloadable product can be made when the order is in either a `Pending` or `Invoiced` status.
 
-- Since downloadable products are not shipped, If the cart only contains the downloadable product, then the `Shipping` step of the checkout is skipped.
+- Because downloadable products are not shipped, the _Shipping_ step of the checkout is skipped when the cart  contains only the downloadable product.
