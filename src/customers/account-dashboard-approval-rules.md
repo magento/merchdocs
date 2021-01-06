@@ -19,6 +19,9 @@ _Company Approval Rules_
 
 Depending on the company role and permissions, users may have the option to edit, delete, or view approval rules.
 
+{:.bs-callout-warning}
+Using gift cards, store credit, or reward points with online payment methods for purchase orders is not supported. Enabling these features with online payments may cause some unexpected behavior. It is recommended to disable gift cards, store credit, and reward points when online payments are enabled for purchase orders.
+
 ## Create an approval rule
 
 ![]({% link images/images-b2b/storefront-create-approval-rule.png %}){: .zoom}
