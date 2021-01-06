@@ -26,8 +26,8 @@ All default offline payment methods are supported for purchase order approvals.
 
 For online payments, the following methods are supported:
 
-- Paypal Express
-- Braintree payments
+* Paypal Express
+* Braintree payments
 
 {:.bs-callout-warning}
 Purchase orders should use an "In-Context Checkout Experience". Out-of-Context checkouts, such as Paypal mini-carts are not supported as they bypass the normal checkout flow.
