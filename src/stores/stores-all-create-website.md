@@ -2,7 +2,7 @@
 title: Adding Websites
 ---
 
-Multiple websites can be set up from a single Magento installation with the same domain or different domains. By default, stores that are under the same website have the same IP address and domain, use the same security certificate, and share a single checkout process. If you want each store to have a dedicated checkout process under its own domain, each store must have a distinct IP address and separate security certificate. 
+Multiple websites can be set up from a single Magento installation with the same domain or different domains. By default, stores that are under the same website have the same IP address and domain, use the same security certificate, and share a single checkout process. If you want each store to have a dedicated checkout process under its own domain, each store must have a distinct IP address and separate security certificate.
 
 Multi-site installations of Magento must be configured from the Admin and also from the command line of the server. The Magento developer [documentation](https://devdocs.magento.com/guides/v2.3/config-guide/multi-site/ms_over.html) provides detailed instructions for configuring the server environment.
 
@@ -46,4 +46,3 @@ For help configuring your web server, see the following tutorials:
 - [Set up multiple websites with Apache](https://devdocs.magento.com/guides/v2.3/config-guide/multi-site/ms_apache.html)
 
 For Magento Commerce Cloud, see [Set up multiple websites or stores](https://devdocs.magento.com/cloud/project/project-multi-sites.html).
-
