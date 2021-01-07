@@ -6,6 +6,8 @@ A single installation of Magento can have multiple stores that share the same Ad
 
 The important thing to understand is that the stores use the same Magento code and share the same Admin. Each store can have a separate catalog, or the stores can share the same catalog. Each store can have a separate [root category]({% link catalog/category-root.md %}), which makes it possible to have a different main menu for each store. Stores can also have different branding, presentation, and content. Take some time to plan your store hierarchy with future growth in mind before you begin, because it is used throughout the configuration.
 
+A multi-store Magento installation must be configured from the Magento Admin and also from the command line of the server.  The Magento developer [documentation](https://devdocs.magento.com/guides/v2.3/config-guide/multi-site/ms_over.html) provides detailed instructions for configuring the server environment.
+
 ![Scope - multiple stores]({% link images/images/scope-multistore.png %}){:width="550px"}
 
 Here are some examples of how URLs can be configured for multiple stores:
@@ -15,7 +17,7 @@ Here are some examples of how URLs can be configured for multiple stores:
 | `yourdomain.com/store1`<br>`yourdomain.com/store2` | Each store has a different path, but shares the same domain. |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | Each store has a different subdomain of the primary domain. |
 
-## Step 1: Choose the Store Domain
+## Step 1: Choose the store domain
 
 The first step is to choose how you want to position the store. Will the stores share the same domain, each have a subdomain, or have distinctly different domains? For each store, do one of the following:
 
@@ -23,7 +25,7 @@ The first step is to choose how you want to position the store. Will the stores 
 - Set up a subdomain of your primary domain.
 - Set up a different primary domain.
 
-## Step 2: Create the New Store
+## Step 2: Create the new store
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **All Stores**.
 
@@ -45,7 +47,7 @@ The first step is to choose how you want to position the store. Will the stores 
     ![New store]({% link images/images/stores-all-create-store-saved.png %}){: .zoom}
     _New Store_
 
-## Step 3: Create a Default Store View
+## Step 3: Create a default store view
 
 1. Click **Create Store View** and set the store view options:
 
@@ -66,7 +68,7 @@ The first step is to choose how you want to position the store. Will the stores 
     ![New store - default view]({% link images/images/stores-all-new-store-default-view.png %}){: .zoom}
     _New Store with Default View_
 
-## Step 4: Configure the Store URL
+## Step 4: Configure the store URL
 
 1. On the _Admin_ sidebar, click **Stores** > _Settings_ > **Configuration**.
 
@@ -89,3 +91,14 @@ The first step is to choose how you want to position the store. Will the stores 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Secure Base URLs** section and repeat the previous step as needed to configure the store’s [secure URL]({% link stores/store-urls.md %}).
 
 1. Click <span class="btn">Save Config</span>.
+
+## Step 5: Configure the server
+
+To configure your server to support multiple stores, see [Multiple websites or stores](https://devdocs.magento.com/guides/v2.3/config-guide/multi-site/ms_over.html) in the developer documentation.
+
+To configure your web server, see the following tutorials:
+
+- [Set up multiple websites with NGNX](https://devdocs.magento.com/guides/v2.3/config-guide/multi-site/ms_nginx.html)
+- [Set up multiple websites with Apache](https://devdocs.magento.com/guides/v2.3/config-guide/multi-site/ms_apache.html)
+
+For Magento Commerce Cloud, see [Set up multiple websites or stores](https://devdocs.magento.com/cloud/project/project-multi-sites.html).
