@@ -6,47 +6,50 @@ title: RMA Customer Experience
 Customers can use either of the following to request an RMA from the storefront:
 
 - [Orders and Returns Widget]({% link cms/widget-orders-returns.md %}) in sidebar
-- Orders and Returns link in footer
+- _Orders and Returns_ link in footer
 
-As a best practice, make sure to include a description of your RMA requirements and process in the store’s policy.
+As a best practice, make sure to include a description of your RMA requirements and process in the Customer Service policy.
 
-## To request an RMA
+{:.bs-callout-info}
+If you want to collect additional information related to returns, you can add your own custom [returns attributes]({% link stores/attributes-returns.md %}).
 
-1. In the footer, click **Orders and Returns**.
+## Request an RMA
 
-1. Enter the order information:
+The Customer completes the following steps on the storefront to submit an RMA:
 
-   - Order ID
-   - Billing Last Name
-   - Email
+1. In the footer, clicks **Orders and Returns**.
 
-1. Click **Continue**.
+1. To identify the order, enters the order information:
 
-    ![]({% link images/images/storefront-orders-and-returns.png %}){: .zoom}
-    _Orders and Returns_
+   - **Order ID**
+   - **Billing Last Name**
+   - **Email**
 
-1. Below the date, click **Return**.
+1. Clicks **Continue**.
 
-    ![]({% link images/images/storefront-orders-and-returns-order-information.png %}){: .zoom}
-    _Order Detail_
+   ![]({% link images/images/storefront-orders-and-returns.png %}){: .zoom}
+   _Orders and Returns_
 
-1. Choose the **Item** to return.
+1. Below the order date, clicks **Return**.
 
-1. Enter the **Quantity to Return**.
+   ![]({% link images/images/storefront-orders-and-returns-order-information.png %}){: .zoom}
+   _Order detail_
 
-1. Set **Resolution** to one of the following:
+1. Chooses the **Item** to return and enters the **Quantity to Return**.
+
+1. Sets **Resolution** to one of the following:
 
    - Exchange
    - [Refund]({% link sales/refunds-customer-account.md %})
    - [Store Credit]({% link sales/store-credit.md %})
 
-1. Set **Item Condition** to one of the following:
+1. Sets **Item Condition** to one of the following:
 
    - Unopened
    - Opened
    - Damaged
 
-1. Set **Reason to Return** to one of the following:
+1. Sets **Reason to Return** to one of the following:
 
    - Wrong Color
    - Wrong Size
@@ -55,3 +58,5 @@ As a best practice, make sure to include a description of your RMA requirements 
 
     ![]({% link images/images/storefront-orders-and-returns-create-new-return.png %}){: .zoom}
     _Create New Return_
+
+1. Clicks <span class="btn">Submit</span>.
