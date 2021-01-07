@@ -25,7 +25,7 @@ The next time users sign in to the _Admin_, they are required to set up one of t
 1. In the _General_ section, select each **Provider to use**.
 
    To select multiple providers, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.
-   
+
 1. Complete the settings, as shown below, for each provider that you choose to support.
 
    ![Security configuration - 2FA]({% link images/images/config-2fa-general.png %}){: .zoom}
