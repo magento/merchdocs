@@ -2,11 +2,13 @@
 title: Adding Websites
 ---
 
-Multiple websites can be set up that use the same Magento installation. The websites can be set up to use the same domain, or different domains. If you want each store to have a dedicated checkout process under its own domain, each store must have a distinct IP address and separate security certificate.
+Multiple websites can be set up from a single Magento installation with the same domain or different domains. By default, stores that are under the same website have the same IP address and domain, use the same security certificate, and share a single checkout process. If you want each store to have a dedicated checkout process under its own domain, each store must have a distinct IP address and separate security certificate.
+
+Multi-site installations of Magento must be configured from the Admin and also from the command line of the server. The Magento developer [documentation](https://devdocs.magento.com/guides/v2.3/config-guide/multi-site/ms_over.html) provides detailed instructions for configuring the server environment.
 
 ![Scope - websites]({% link images/images/scope-multisite.png %}){:width="550px"}
 
-## Step 1: Create a New Website
+## Step 1: Create a new website
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **All Stores**.
 
@@ -30,6 +32,17 @@ Multiple websites can be set up that use the same Magento installation. The webs
 
 1. Set up each [store]({% link stores/stores-all-create-store.md %}) and [store view]({% link stores/stores-all-create-view.md %}) that is needed for the new website.
 
-## Step 2: Configure the Store URL
+## Step 2: Configure the store URL
 
 Follow the instructions to configure the [store URLs]({% link stores/store-urls.md %}).
+
+## Step 3: Configure the server
+
+To configure your server to support multiple websites, see [Multiple websites or stores](https://devdocs.magento.com/guides/v2.3/config-guide/multi-site/ms_over.html) in the developer documentation.
+
+For help configuring your web server, see the following tutorials:
+
+- [Set up multiple websites with NGNX](https://devdocs.magento.com/guides/v2.3/config-guide/multi-site/ms_nginx.html)
+- [Set up multiple websites with Apache](https://devdocs.magento.com/guides/v2.3/config-guide/multi-site/ms_apache.html)
+
+For Magento Commerce Cloud, see [Set up multiple websites or stores](https://devdocs.magento.com/cloud/project/project-multi-sites.html).
