@@ -6,7 +6,7 @@ A single installation of Magento can have multiple stores that share the same Ad
 
 The important thing to understand is that the stores use the same Magento code and share the same Admin. Each store can have a separate catalog, or the stores can share the same catalog. Each store can have a separate [root category]({% link catalog/category-root.md %}), which makes it possible to have a different main menu for each store. Stores can also have different branding, presentation, and content. Take some time to plan your store hierarchy with future growth in mind before you begin, because it is used throughout the configuration.
 
-Multi-store installations of Magento must be configured from the Admin and also from the command line of the server.  The Magento developer [documentation](https://devdocs.magento.com/guides/v2.3/config-guide/multi-site/ms_over.html) provides detailed instructions for configuring the server environment.
+Multi-store installations of Magento must be configured from the Admin and also from the command line of the server. The Magento developer [documentation](https://devdocs.magento.com/guides/v2.3/config-guide/multi-site/ms_over.html) provides detailed instructions for configuring the server environment.
 
 ![Scope - multiple stores]({% link images/images/scope-multistore.png %}){:width="550px"}
 
