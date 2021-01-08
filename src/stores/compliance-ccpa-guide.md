@@ -29,7 +29,7 @@ A coordinated effort is required to develop and implement a plan to address comp
 
 ### Step 1: Assemble a cross-functional team to address regulation compliance.
 
-Assemble a team that represents the following functional roles in your business, and schedule a training session to bring them up to speed on the pending legislation.  Then, assign required tasks to stakeholders by role.
+Assemble a team that represents the following functional roles in your business, and schedule a training session to bring them up to speed on the legislation. Then, assign required tasks to stakeholders by role.
 
 - Business Strategy & Operations
 - Legal
@@ -68,7 +68,7 @@ Take inventory of your digital properties, including all integrations and those 
 
 1. Identify each point in the [customer journey]({% link getting-started/quick-tour.md -%}) where personal information is collected, and the type of information that is collected at each step.
 
-    Visitors to your site must be notified in advance, or at the point of data collection. For example, a Magento store without custom integrations collects personal information when a customer account is created, and during checkout. If your store has custom integrations, there might be additional data items and attributes to identify.
+    Visitors to your site must be notified in advance, or at the point of data collection. For example, a Magento store without custom integrations collects personal information when a customer account is created and during checkout. If your store has custom integrations, there might be additional data items and attributes to identify.
 
 1. See the following topics for applicable data flow diagrams and database entity mappings for each version of Magento:
 
@@ -134,7 +134,7 @@ Merchants are responsible to do the following:
 
 1. Send the content to the team, and if possible, your legal counsel for review.
 
-1. Determine where the notices will appear, how they will function (for each visit, appear only when user is authenticated, or on click-through) and their position and format in relation to other content.
+1. Determine where the notices will appear, how they will function (for each visit, at authentication, or on click-through), and their position and format in relation to other content.
 
 1. Pass the approved content to your development team.
 
