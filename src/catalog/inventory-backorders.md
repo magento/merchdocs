@@ -8,8 +8,6 @@ Depending on your store and sales, you may want to enable or disable backorders 
 
 - **Global** - All products in your catalog at the site level
 
-- **Source** - All products with the assigned source
-
 - **Product** - Specific products overriding settings for site, source, and stock
 
 ## Understand backorder settings
