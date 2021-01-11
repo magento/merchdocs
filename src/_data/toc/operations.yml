@@ -234,10 +234,10 @@ pages:
     - label: Two-Factor Authentication
       url: "/stores/security-two-factor-authentication.html"
       children:
-      - label: Managing Two-Factor Authentication
-        url: "/stores/security-two-factor-authentication-manage.html"
-      - label: Using Two-Factor-Authentication
+      - label: Using 2FA
         url: "/stores/security-two-factor-authentication-use.html"
+      - label: Managing 2FA
+        url: "/stores/security-two-factor-authentication-manage.html"
     - label: Encryption Key
       url: "/system/encryption-key.html"
     - label: Session Validation
