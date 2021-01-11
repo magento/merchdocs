@@ -18,7 +18,20 @@ To access the approval rules for your company, click **Approval Rules** in the l
 _Company Approval Rules_
 
 Depending on the company role and permissions, users may have the option to edit, delete, or view approval rules.
+## Purchase order payment methods
 
+Purchase order approval supports both online and offline payment methods.
+All default offline payment methods are supported for purchase order approvals.
+
+For online payments, the following methods are supported:
+
+* Paypal Express
+* Braintree payments
+
+{:.bs-callout-warning}
+Purchase orders should use an "In-Context Checkout Experience". Out-of-Context checkouts are not supported as they bypass the normal checkout flow.
+Generally, "In-Context" means you stay on the Magento site to complete the process. "Out-of-Context" is when you are taken to another site to complete the purchase.
+Also, using gift cards, store credit, or reward points with online payment methods for purchase orders is not supported. Enabling these features with online payments may cause some unexpected behavior. It is recommended to disable gift cards, store credit, and reward points when online payments are enabled for purchase orders.
 ## Create an approval rule
 
 ![]({% link images/images-b2b/storefront-create-approval-rule.png %}){: .zoom}
