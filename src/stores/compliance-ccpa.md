@@ -23,7 +23,7 @@ In this regard, it covers certain data elements that may not be considered perso
 
 The CCPA also requires businesses to provide "reasonable security", and includes expanded data protection provisions for consumers, including the right to pursue legal action in the event of a data breach.
 
-Please consult with your legal counsel to determine whether and how you should comply with any CCPA requirements that may be applicable to you and your business, including the new notice, opt-out, and record-keeping requirements that businesses must implement in accordance with the law.
+Consult with your legal counsel to determine whether and how you should comply with any CCPA requirements that may be applicable to you and your business, including the new notice, opt-out, and record-keeping requirements that businesses must implement in accordance with the law.
 
 ## Business Requirements
 
@@ -38,6 +38,6 @@ The CCPA applies to the following businesses &mdash; regardless of where the bus
 
 (2) Any entity that controls or is controlled by a business, as defined in paragraph (1), and that shares common branding with the business. “Control” or “controlled” means ownership of, or the power to vote, more than 50 percent of the outstanding shares of any class of voting security of a business; control in any manner over the election of a majority of the directors, or of individuals exercising similar functions; or the power to exercise a controlling influence over the management of a company. “Common branding” means a shared name, servicemark, or trademark.
 
-**If your business is subject to CCPA requirements, please consult our [CCPA Compliance Guide]({% link stores/compliance-ccpa-guide.md -%}).**
+**If your business is subject to CCPA requirements, see our [CCPA Compliance Guide]({% link stores/compliance-ccpa-guide.md -%}).**
 
 [1]: https://oag.ca.gov/privacy/ccpa
