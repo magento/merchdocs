@@ -134,7 +134,7 @@ Merchants are responsible to do the following:
 
 1. Send the content to the team, and if possible, your legal counsel for review.
 
-1. Determine where the notices will appear, how they will function (for each visit, at authentication, or on click-through), and their position and format in relation to other content.
+1. Determine where the notices will appear, how they will function (for each visit, at authentication or on click-through), and their position and format in relation to other content.
 
 1. Pass the approved content to your development team.
 
