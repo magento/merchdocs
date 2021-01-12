@@ -13,12 +13,10 @@ You can download payout transactions in a .csv file format for use in existing a
 
 ## Availability
 
-On the _Admin_ sidebar, go to **Sales** > **Magento Payments** > **Payouts** to see payout transactions.
+On the _Admin_ sidebar, go to **Sales** > **Magento Payments** > **Payouts**.
 
 ![Magento Admin - Payouts]({% link images/images-ee/system-reports.png %}){: .zoom}
 _Payout transactions in the Admin_
-
-From the Payouts view, you can customize the timeframe of the payouts you want to view by selecting specific dates or viewing transactions for pre-set periods, such as _Last 30 days_ or _Year to date_.
 
 ## View transactions
 
@@ -26,29 +24,25 @@ By default, 30 days of transactions are shown in the grid.
 
 Scroll to the left and right to view [information for each payout transaction](#column-descriptions) in the daily report, including transaction date, reference ID, invoice number, and payment method details.
 
-The number of payout transactions that are visible, for the default 30 day timeframe or a [customized timeframe](#customize-transactions-timeframe), are shown above the payouts grid as a records count.
-
 ### Customize transactions timeframe
 
-If you want to see all payout transactions for a time period other than the default last 30 days, you can customize the payout transaction timeframe for specified dates.
+From the Payouts view, you can customize the timeframe for the payout transactions you want to view by entering a specific timeframe or selecting a date range from the date picker:
 
 1. On the _Admin_ sidebar, go to **Sales** > **Magento Payments** > **Payouts**.
-1. Click the Payout transaction dates calendar selector filter.
-1. Select the desired timeframe for your report---_Yesterday_, _Last 7 days_, _Last 30 days_, _Last 90 days_, _Year to date_, or _Custom range_. See the [Default transactions timeframes section](#default-transactions-timeframes) for more information.
-   - If you selected _Custom range_, choose the applicable date range.
-1. View the payout transactions for your specified dates in the grid.
+1. Enter in a date range, such as `2021-01-02 - 2012-01-12`, in a YEAR-MONTH-DAY format, or select a specific date range from the date picker.
+1. View the payout transactions in the Payouts view grid for the date range you specified.
 
 ## Download transactions
 
-You can download a .csv file with all of the transactions visible in the Payouts view grid, whether you are viewing the default 30 days of transactions or a customized timeframe.
+You can download a .csv file with all of the transactions visible in the Payouts view grid.
 
 1. On the _Admin_ sidebar, go to **Sales** > **Magento Payments** > **Payouts**.
-1. If you want to see transactions for a timeframe other than the last 30 days, [customize the date range timeframe for your transactions](#customize-transactions-timeframe).
+1. [Customize the date range timeframe for your transactions](#customize-transactions-timeframe).
 1. Click the _Download_ (![]({% link images/images/btn-download.png %})) icon.
 
 Your payout transactions are downloaded in a .csv format.
 
-## Default transactions timeframes
+<!-- ## Default transactions timeframes
 
 These payout transactions timeframes are currently available in Magento Payments.
 
@@ -60,7 +54,7 @@ Last 7 days | Available from the Payout transaction dates selector, this shows i
 Last 30 days | Available from the Payout transaction dates selector and by default in the Payout transactions view, this shows information for the last 30 days.
 Last 90 days | Available from the Payout transaction dates selector, this shows information for the last 90 days.
 Year to date | Available from the Payout transaction dates selector, this shows information for the the entire year to date.
-Custom range | Available from the Payout transaction dates selector, this can be filtered to show a custom date range.
+Custom range | Available from the Payout transaction dates selector, this can be filtered to show a custom date range. -->
 
 ## Transactions information
 
