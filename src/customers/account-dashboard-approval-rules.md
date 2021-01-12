@@ -18,6 +18,7 @@ To access the approval rules for your company, click **Approval Rules** in the l
 _Company Approval Rules_
 
 Depending on the company role and permissions, users may have the option to edit, delete, or view approval rules.
+
 ## Purchase order payment methods
 
 Purchase order approval supports both online and offline payment methods.
