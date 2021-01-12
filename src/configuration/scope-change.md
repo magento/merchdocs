@@ -7,6 +7,7 @@ The Store View chooser in the upper-left corner of many Admin pages filters the 
 
 ## Use system value
 
+The _Use System Value_ checkbox to the right of many configuration settings is used to either apply or override the default field value, within the current configuration scope. The default field value cannot be changed when the checkbox is selected. To change the value, clear the checkbox and enter the new value. You are prompted to confirm whenever you change the system value. 
 
 The checkbox label changes according to the current scope, and always refers to the parent level which is one step up in the scope hierarchy. Because the parent level is a container for all the items below that level, the scope setting from the parent level is inherited unless it is overridden.
 
