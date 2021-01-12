@@ -3,7 +3,7 @@ title: Configuration Reference
 group: config-ref
 ---
 
-This reference has field descriptions for every configuration setting in Magento. To learn how to apply configuration settings to specific store views, see [Configuration Scope]({% link configuration/scope.md %}).
+This reference has field descriptions for every configuration setting in Magento. To learn how to apply configuration settings to specific store views, see [Configuration Scope]({% link configuration/scope.md %}).  To override the default values of configuration settings, see [Changing Scope]({% link configuration/scope-change.md %}).
 
 In this guide, you can drill down through any section of the reference and follow the links to corresponding topics.
 
