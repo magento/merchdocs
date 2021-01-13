@@ -15,7 +15,7 @@ If you suspect that your site is compromised, follow this action plan without de
 
 1. **Protect**
 
-    Keep your Magento installation up to date with the most current release. If you are using an older version, apply all security patches as they become available. Review and follow [Magento Security Best Practices](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf). Subscribe to [Magento Security Alerts](https://magento.com/security/sign-up).
+    Keep your Magento installation up to date with the most current release. If you are using an older version, apply all security patches as they become available. Review and follow [Magento Security Best Practices](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf){:target="_blank"}. Subscribe to [Magento Security Alerts](https://magento.com/security/sign-up).
 
 1. **Report**
 
