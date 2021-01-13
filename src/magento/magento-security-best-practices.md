@@ -138,7 +138,7 @@ In the event of a compromise, work with your internal IT security team if availa
 For additional technical best practices and developer-centric information, see the following:
 
 - The [Magento Security blog][2] investigates and provides insights to security issues, best practices, and solutions for all of your security questions.
-- Try out the free [Magento Security Scan Tool][3]! Monitor your sites for security risks, update malware patches, and detect unauthorized access with this tool from Magento Commerce.
+- Try out the free Magento [Security Scan]][3] tool from Adobe. Monitor your sites for security risks, update malware patches, and detect unauthorized access with this tool from Magento Commerce.
 - Check all available [Developer Tools]({% link system/developer-tools.md %}) through the Admin. These features can help test, verify, and prepare your site and Admin for workloads and traffic.
 - The Magento Community has limitless best practices, recommendations, and tutorials to help get you started with Magento, maintaining your catalogs, and much more. Check out the best [Community Resources][4].
 
@@ -154,7 +154,7 @@ Parts of this article were inspired by real-world solutions that were shared by 
 
 [1]: https://www.owasp.org/index.php/About_OWASP
 [2]: https://magento.com/security
-[3]: https://account.magento.com/scanner?_ga=2.67627665.1606684099.1543252630-49206304.1531415640
+[3]: https://docs.magento.com/user-guide/magento/security-scan.html
 [4]: https://devdocs.magento.com/community/resources/resources.html
 [5]: http://community.magento.com/t5/Programming-Questions/Hacked-after-SUPEE-5344-5345-applied/td-p/3596
 [6]: http://community.magento.com/t5/user/viewprofilepage/user-id/2704
