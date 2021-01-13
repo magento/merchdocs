@@ -29,7 +29,7 @@ Scroll to the left and right to view [information for each payout transaction](#
 From the Payouts view, you can customize the timeframe for the payout transactions you want to view by entering a specific timeframe or selecting a date range from the date picker:
 
 1. On the _Admin_ sidebar, go to **Sales** > **Magento Payments** > **Payouts**.
-1. Enter in a date range, such as `2021-01-02 - 2012-01-12`, in a YEAR-MONTH-DAY format, or select a specific date range from the date picker.
+1. Enter in a date range, such as `2021-01-02 - 2012-01-12`, in a YYYY-MM-DD format, or select a specific date range from the date picker.
 1. View the payout transactions in the Payouts view grid for the date range you specified.
 
 ## Download transactions
