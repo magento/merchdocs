@@ -12,13 +12,17 @@ With Magento 2.4, merchants can use the new _enhanced_ Media Gallery to organize
 
 1. In the left panel, expand **Advanced** and choose **System**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Media Gallery**.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Enhanced Media Gallery**.
 
-1. Set **Enable Old Media Gallery** to `No`.
+1. Set **Enabled** to `Yes`.
 
 1. Click the <span class="btn">Save Config</span> button.
 
 The new Media Gallery requires `media.gallery.synchronization` and `media.content.synchronization` queue consumers to be started for initial synchronization. See [Manage message queues](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) documentation for more details.
+
+Now, the  [Content menu][content-menu] appears with the New `Media Gallery` option.
+
+![Media Gallery Menu]({% link images/images/enhanced-media-gallery/media_gallery.png %}){: .zoom}
 
 ## Access the new Media Gallery
 
