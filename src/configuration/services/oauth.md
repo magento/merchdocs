@@ -43,4 +43,4 @@ _Access Token Expiration_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Maximum Login Failures to Lock Out Account|Global|Specifies the Maximum Number of authentication failures to lock out account.|
-|Lockout Time (seconds)|Global|Specifies the Period of time in seconds after which account will be unlocked.|
+|Lockout Time (seconds)|Global|Specifies the period of time in seconds that must transpire for the account to be unlocked after an automatic lockout from login failures.|
