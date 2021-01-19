@@ -49,7 +49,7 @@ In the Magento Shipping [configuration]({% link shipping/magento-shipping-setup.
 
 1. After the customer picks up the package at the designated location, change the status in the upper-right corner of the pickup record to `Picked Up`.
 
-    **Scenario 1: All Items Ready for Pickup**
+    **Scenario 1:** All Items Ready for Pickup
 
     By default, a pickup record indicates that all items in the order are packed. Click  **Ready for Pickup** to trigger the following events:
 
@@ -59,7 +59,7 @@ In the Magento Shipping [configuration]({% link shipping/magento-shipping-setup.
 
     - The Pickup page closes, and you return to the Pickups grid.
 
-    **Scenario 2: Partial Order Ready for Pickup**
+    **Scenario 2:** Partial Order Ready for Pickup
 
     If only some of the items are available, adjust the **Qty Packed** values to reflect the items that are ready for pickup. Click **Ready for Pickup** to initiate the partial pickup process. The following events take place:
 
