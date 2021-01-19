@@ -37,6 +37,10 @@ Manage the [visual presentation]({% link design/design-theme.md %}) of your stor
 
 - Use the [schedule]({% link design/schedule.md %}) to plan theme changes in advance for a season or promotion.
 
+{:.bs-callout-info}
+When the new **Media Gallery** is enabled by setting the **Enable Enhanced Media Gallery** option to `Yes` under the **Stores** > _Settings_ > **Configuration** > **Advanced** > **System** menu, a new tab called `Media` appears with a single option to access the `Media Gallery`.
+![Media Gallery Menu]({% link images/images/enhanced-media-gallery/media_gallery.png %}){: .zoom}
+
 {:.ee-only}
 ## Content Staging
 
