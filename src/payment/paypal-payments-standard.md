@@ -22,7 +22,7 @@ With PayPal Payments Standard, you can swipe credit cards on mobile devices. The
 
 ## Checkout Workflow
 
-For customers, PayPal Payments Standard is a one-step process if the credit card information the their personal PayPal accounts is up to date.
+For customers, PayPal Payments Standard is a one-step process if the credit card information on their personal PayPal accounts is up to date.
 
 |**1** |**Customer Places Order** | The customer taps the “Pay Now” button to complete the purchase.|
 |**2** |**PayPal Processes the Transaction** | The customer is redirected to the PayPal site to complete the transaction.|

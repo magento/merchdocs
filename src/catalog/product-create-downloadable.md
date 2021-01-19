@@ -217,3 +217,5 @@ If you are ready to publish the product in the catalog, set **Enable Product** t
 - Customers who purchase a downloadable product can be required to log in before going through checkout.
 
 - The delivery of a downloadable product can be made when the order is in either a `Pending` or `Invoiced` status.
+
+- Because downloadable products are not shipped, the _Shipping_ step of the checkout is skipped when the cart  contains only the downloadable product.

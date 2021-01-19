@@ -111,7 +111,7 @@ If you want the node to appear in the menu, do the following:
 1. To specify how much detail is included in the menu, set **Menu Detalization** to one of the following:
 
    | Only Children | Includes only subpages in the menu. |
-   | Neighbours and Children | Includes subpages and other pages that re at the same level in the hierarchy. |
+   | Neighbours and Children | Includes subpages and other pages that are at the same level in the hierarchy. |
 
 1. To determine the depth of the menu, enter the **Maximal Depth** for the maximum number of levels to include.
 

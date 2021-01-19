@@ -2,11 +2,18 @@
 title: Using Two-Factor-Authentication
 ---
 
-The following instructions show how to configure two-factor authentication during your initial sign in and how to authenticate your identity. For complete instructions, see [Admin Sign In]({% link stores/admin-signin.md %}).
+These instructions show how to set up two-factor authentication during your initial sign in and how to authenticate your identity using the following apps and devices:
+
+- [Google Authenticator](#google-authenticator)
+- [Duo Security](#duo-security)
+- [Authy](#authy)
+- [U2F](#u2f) (Yubikey and other devices)
+
+For complete instructions, see [Admin Sign In]({% link stores/admin-signin.md %}).
 
 ## Google Authenticator
 
-### Step 1: Configure Google Authenticator
+### Step 1: Set up Google Authenticator
 
 1. Enter your account credentials and sign in to the Magento _Admin_.
 
@@ -44,7 +51,7 @@ The following instructions show how to configure two-factor authentication durin
 
 Duo offers a free trial, and charges according to the number of users that are associated with the account. Follow their instructions to set up your account and download the app. Duo Mobile is available through [Google Play][3] or [iOS App Store][4].
 
-### Step 1: Configure Duo Security
+### Step 1: Set up Duo Security
 
 1. Enter your account credentials and sign in to the Magento _Admin_.
 
@@ -105,7 +112,7 @@ The following example shows the options for `Ask me to choose an authenticator m
 
 Authy offers their app and service at no charge to users. Follow their instructions to download and set up the app for your device or browser. To learn more, see the [Authy documentation][2].
 
-### Step 1: Configure Authy
+### Step 1: Set up Authy
 
 1. Enter your account credentials and sign in to the Magento _Admin_.
 
@@ -155,9 +162,10 @@ Authy offers their app and service at no charge to users. Follow their instructi
 
    Your account is verified and opens.
 
-## U2F (Yubikey and others)
+{: #u2f}
+## U2F (Yubikey and other devices)
 
-Follow the instructions from the solution provider to configure your U2F device.  For more information, see the vendor documentation, such as [YubiKey][1] by Yubico.
+Follow the instructions from the solution provider to configure your U2F device. For more information, see the vendor documentation, such as [YubiKey][1] by Yubico.
 
 1. Enter Magento _Admin_ account credentials and sign in to your account.
 
