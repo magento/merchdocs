@@ -4,8 +4,21 @@ description: This page contains recent changes that we think you'd like to know 
   We exclude from this list proofreading, spelling checks, and insignificant updates.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Thu Dec 17 13:51:56 2020
+updated: Mon Jan 4 22:27:39 2021
 entries:
+- description: Added _Authentication Locks_ section to the [Oauth](https://docs.magento.com/user-guide/configuration/services/oauth.html)
+    configuration reference.
+  versions: 2.4.x
+  type: Major update
+  date: December 21, 2020
+  link: https://github.com/magento/merchdocs/pull/949
+- description: Update to the [Product Stock Options](https://docs.magento.com/user-guide/configuration/catalog/inventory.html#product-stock-options)
+    section of the Catalog > Inventory configuration reference to include more detailed
+    information about the _Use deferred Stock update_ option.
+  versions: 2.4.x
+  type: Minor update
+  date: December 18, 2020
+  link: https://github.com/magento/merchdocs/pull/935
 - description: Updated [General Tax Settings](https://docs.magento.com/user-guide/tax/tax-settings-general.html)
     to include each section of tax settings in the configuration.
   versions: 2.4.x
@@ -337,4 +350,4 @@ entries:
   versions: 2.4.0
   type: Major update
   date: July 28, 2020
-  link:
+  link: 
