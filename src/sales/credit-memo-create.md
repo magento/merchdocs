@@ -1,5 +1,5 @@
 ---
-title: Create a Credit Memo
+title: Issuing a Credit Memo
 ---
 
 Before a credit memo can be printed, it must first be generated for an [invoiced order]({% link sales/invoice-create.md %}). You can issue both online and offline refunds (partial or full) from an open credit memo, depending on the payment method.
