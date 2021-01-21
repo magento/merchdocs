@@ -220,11 +220,8 @@ pages:
     children:
     - label: Security Scan
       url: "/magento/security-scan.html"
-    - label: Security Best Practices
-      url: "https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf"
-      children:
-      - label: Security Action Plan
-        url: "/magento/security-action-plan.html"
+    - label: Security Action Plan
+      url: "/magento/security-action-plan.html"
     - label: Configuring Admin Security
       url: "/stores/security-admin.html"
     - label: CAPTCHA
