@@ -19,7 +19,7 @@ As of September 14, 2019, European banks might decline payments that do not meet
 
 ## Checkout workflow
 
-For customers, PayPal Payments Standard is a one-step process if the credit card information the their personal PayPal accounts is up to date.
+For customers, PayPal Payments Standard is a one-step process if the credit card information on their personal PayPal accounts is up to date.
 
 |**1** |_Customer Places Order_ | The customer clicks/taps the _Pay Now_ button to complete the purchase.|
 |**2** |_PayPal Processes the Transaction_ | The customer is redirected to the PayPal site to complete the transaction.|

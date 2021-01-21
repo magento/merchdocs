@@ -53,13 +53,15 @@ If the items are ready to ship, generate a packing slip for the shipment at the 
 
 1. To include a tracking number, click **Add Tracking Number** and enter the tracking information (**Carrier**, **Title**, and **Number**).
 
-1. (Optional) To generate a partial invoice:
+1. (Optional) Generate a partial invoice.
+
+   This allows you to create multiple invoices for one or more items in an order.
 
    - In the _Items to Invoice_ section, update the **Qty to Invoice** column to include only specific items on the invoice.
    - Click **Update Qty’s**.
 
    ![]({% link images/images/invoice-items-to-invoice.png %}){: .zoom}
-   _Items to Invoice_
+   _Items to invoice_
 
 1. If an online payment method was used for the order, set **Amount** to the appropriate option.
 
