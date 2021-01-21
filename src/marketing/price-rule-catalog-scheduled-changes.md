@@ -35,6 +35,9 @@ _Scheduled Changes_
     ![Catalog price rules - new scheduled changes]({% link images/images-ee/price-rule-catalog-schedule-update.png %}){: .zoom}
     _Add Scheduled Changes_
 
+    {:.bs-callout-info}
+    The **Start Date** and **End Date** are chosen in the admin Time Zone. If you have a different Time Zone on your website you should take in to account a time offset between them.
+
 1. Scroll down to the **Rule Information** section and make the changes for the rule.
 
    You can schedule changes for any rule parameter, including the websites (scope)/customer groups for the rule, conditions of the rule, and actions applied by the rule. For more information, see [Creating a Catalog Price Rule]({% link marketing/price-rules-catalog-create.md %}).
