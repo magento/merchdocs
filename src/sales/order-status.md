@@ -19,8 +19,8 @@ _Order Status_
 |Payment Review|payment_review|This status appears when PayPal payment review is turned on.|
 |Pending|pending|This status means no invoice and shipments have been submitted.|
 |On Hold|holded|This status can only be assigned manually. You can put any order on hold.|
-|Open|STATE_OPEN|
-|Complete|complete|This status means that the order is created, paid and shipped to customer.|
+|Open|This status,`STATE_OPEN`, means that an order or credit memo is still open and may need further action.|
+|Complete|complete|This status means that the order is created, paid,  and shipped to customer.|
 |Closed|closed|This status indicates that an order was assigned a credit memo and the customer has received a refund.|
 |Canceled|canceled|This status is assigned manually in the Admin or, for some payment gateways, when the customer does not pay within the specified time.|
 |PayPal Canceled Reversal|paypay_canceled_reversal|This status means that PayPal canceled the reversal.|
