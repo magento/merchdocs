@@ -1,0 +1,19 @@
+# Parameters for a GitHub search query
+base_branch: master
+ 
+repos:
+  - magento/merchdocs
+ 
+# Labels also will be used as a 'type' value in the output file
+labels:
+  required:
+    - New topic
+    - Major update
+  optional:
+    - Minor update
+ 
+# Format of output file
+output_format:
+  - yaml
+ 
+magic_word: whatsnew
