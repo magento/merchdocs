@@ -36,7 +36,7 @@ _Scheduled Changes_
     _Add Scheduled Changes_
 
     {:.bs-callout-info}
-    The **Start Date** and **End Date** are chosen in the admin Time Zone. If you have a different Time Zone on your website you should take in to account a time offset between them.
+    Please note, that date and time is set in the default Admin panel time zone, but not in a particular website time zone. If you have a different Time Zone on your website you should take in to account a time offset between them.
 
 1. Scroll down to the **Rule Information** section and make the changes for the rule.
 
