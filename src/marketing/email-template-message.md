@@ -54,7 +54,7 @@ The process of customizing the body of each message is the same as for customizi
 
 1. To make CSS declarations, enter the styles in **Template Styles**.
 
-   ![Email templates - add custom styles]({% link images/images/email-template-add-custom-styles.png %}){: .zoom}
+   ![Email templates - add custom styles]({% link images/images/email-template-add-custom-styles-min.png %}){: .zoom}
    _Add Custom Styles_
 
    {:.bs-callout-info}
