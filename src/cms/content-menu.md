@@ -11,6 +11,9 @@ Your content should reflect the branding of your store, and be delivered with yo
 ![The Content menu displayed in the Magento Admin]({% link images/images-ee/admin-menu-content-ee.png %}){: .zoom}
 _Content menu_
 
+{:.bs-callout-info}
+When the enhanced [Media Gallery]({% link cms/media-gallery.md %}) is enabled, the _Media_ section appears with a single option to access the Media Gallery. You can set the **Enable Enhanced Media Gallery** option to `Yes` by going to **Stores** > _Settings_ > **Configuration** > and choosing to **Advanced** > **System**.
+
 ## Display the Content menu
 
 On the _Admin_ sidebar, choose **Content**.
@@ -36,10 +39,6 @@ Manage the [visual presentation]({% link design/design-theme.md %}) of your stor
 - Use [themes]({% link design/themes.md %}), which are collections of layout files, template files, translation files, and skins, to determine the visual presentation of your store.
 
 - Use the [schedule]({% link design/schedule.md %}) to plan theme changes in advance for a season or promotion.
-
-{:.bs-callout-info}
-When the enhanced Media Gallery is enabled, a new tab called _Media_ appears with a single option to access the `Media Gallery`. You can set the **Enable Enhanced Media Gallery** option to `Yes` by going to **Stores** > _Settings_ > **Configuration** > and choosing to **Advanced** > **System**.
-![Media Gallery Menu]({% link images/images/enhanced-media-gallery/media_gallery.png %}){: .zoom}
 
 {:.ee-only}
 ## Content Staging

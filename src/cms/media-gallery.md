@@ -20,9 +20,7 @@ With Magento 2.4, merchants can use the new _enhanced_ Media Gallery to organize
 
 The new Media Gallery requires `media.gallery.synchronization` and `media.content.synchronization` queue consumers to be started for initial synchronization. See [Manage message queues](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) documentation for more details.
 
-The [Content menu][content-menu] now contains the new _Media Gallery_ option.
-
-![Media Gallery Menu]({% link images/images/enhanced-media-gallery/media_gallery.png %}){: .zoom}
+The [Content menu][content-menu] now displays the new _Media Gallery_ option.
 
 ## Access the new Media Gallery
 
