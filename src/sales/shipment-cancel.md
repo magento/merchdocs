@@ -6,7 +6,7 @@ Before a shipment is dispatched to a carrier, it can be canceled by opening the 
 
 ## To cancel a shipment:
 
-1. On the _Admin_ menu, choose **Sales**.
+1. On the _Admin_ menu, choose **Sales** > **Orders**.
 
 1. Find the order in the grid.
 
