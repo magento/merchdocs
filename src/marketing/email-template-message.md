@@ -52,7 +52,13 @@ The process of customizing the body of each message is the same as for customizi
 
    `customVar code=my_custom_variable`
 
-1. To make CSS declarations, enter the styles in **Template Styles**.
+1. To make CSS declarations, enter the styles in **Template Styles**.
+
+   ![Email templates - add custom styles]({% link images/images/email-template-add-custom-styles-min.png %}){: .zoom}
+   _Add Custom Styles_
+
+   {:.bs-callout-info}
+   Custom styles are applied to the email only if `{{template config_path="design/email/header_template"}}` is present in the **Template Styles**. To use custom CSS without a default header template, you must provide them here within the `<style>` HTML tag.
 
 ## Step 3. Update the configuration
 
