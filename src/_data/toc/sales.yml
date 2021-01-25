@@ -59,9 +59,8 @@ pages:
       edition: ee-only
     - label: Creating an Order
       url: "/customers/customer-account-create-order.html"
-      children:
-      - label: Updating an Order
-        url: "/sales/order-update.html"
+    - label: Updating an Order
+      url: "/sales/order-update.html"
   - label: Checkout
     url: "/sales/checkout-process.html"
     children:
@@ -92,9 +91,8 @@ pages:
       url: "/sales/quote-workflow.html"
     - label: Negotiating a Quote
       url: "/sales/quote-price-negotiation.html"
-      children:
-      - label: Example Quote
-        url: "/sales/quote-example.html"
+    - label: Example Quote
+      url: "/sales/quote-example.html"
   - label: Orders
     url: "/sales/orders.html"
     children:
@@ -134,8 +132,8 @@ pages:
     children:
     - label: Creating an Invoice
       url: "/sales/invoice-create.html"
-    - label: Printing Multiple Invoices
-      url: "/sales/invoice-print-multiple.html"
+    - label: Printing Invoices
+      url: "/sales/invoice-print.html"
   - label: Shipments
     url: "/sales/shipments.html"
     children:
@@ -148,8 +146,6 @@ pages:
   - label: Credit Memos
     url: "/sales/credit-memos.html"
     children:
-    - label: Product Return Workflow
-      url: "/sales/return-product-workflow.html"
     - label: Issuing a Credit Memo
       url: "/sales/credit-memo-create.html"
     - label: Printing Credit Memos
@@ -158,13 +154,11 @@ pages:
     url: "/sales/store-credit.html"
     edition: ee-only
     children:
-    - label: Store Credit Workflow
-      url: "/sales/store-credit-workflow.html"
-    - label: Applying Store Credit
-      url: "/sales/store-credit-using.html"
     - label: Configuring Store Credit
       url: "/sales/credit-configure.html"
-    - label: Refunds in Customer Account
+    - label: Applying Store Credit
+      url: "/sales/store-credit-using.html"
+    - label: Customer Account Dashboard
       url: "/sales/refunds-customer-account.html"
   - label: Company Credit
     url: "/sales/credit-company.html"
@@ -178,17 +172,14 @@ pages:
     url: "/sales/returns.html"
     edition: ee-only
     children:
-    - label: RMA Workflow
-      url: "/sales/rma-workflow.html"
     - label: RMA Lifecycle
       url: "/sales/rma-lifecycle.html"
     - label: Customer Experience
       url: "/sales/rma-customer-experience.html"
     - label: Configuring Returns
       url: "/sales/rma-configure.html"
-      children:
-      - label: Returns Attribute
-        url: "/stores/attributes-returns.html"
+    - label: Returns Attribute
+      url: "/stores/attributes-returns.html"
   - label: Billing Agreements
     url: "/sales/billing-agreements.html"
   - label: Transactions
@@ -202,23 +193,11 @@ pages:
 - label: Payments
   url: "/payment/payments.html"
   children:
-  - label: Recommended Solutions
-    url: "/payment/recommended-solutions.html"
+  - label: PayPal Payment Solutions
+    url: "/payment/paypal.html"
     children:
-    - label: PayPal Express Checkout
-      url: "/payment/paypal-express-checkout.html"
-      children:
-      - label: PayPal In-Context Checkout
-        url: "/payment/paypal-in-context-checkout.html"
-      - label: PayPal Billing Agreements
-        url: "/payment/paypal-billing-agreements.html"
-      - label: PayPal Settlement Reports
-        url: "/payment/paypal-settlement-reports.html"
-    - label: Braintree
-      url: "/payment/braintree.html"
-    - label: Other PayPal Solutions
-      url: "/payment/paypal.html"
-      children:
+      - label: PayPal Express Checkout
+        url: "/payment/paypal-express-checkout.html"
       - label: PayPal Payments Advanced
         url: "/payment/paypal-payments-advanced.html"
       - label: PayPal Payments Pro
@@ -229,29 +208,26 @@ pages:
         url: "/payment/paypal-payflow-pro.html"
       - label: PayPal Payflow Link
         url: "/payment/paypal-payflow-link.html"
-    - label: PayPal Reference
-      url: "/payment/paypal-payment-solutions.html"
-      children:
-      - label: PayPal Business Account
-        url: "/payment/paypal-business-account.html"
+      - label: PayPal Billing Agreements
+        url: "/payment/paypal-billing-agreements.html"
+      - label: PayPal Settlement Reports
+        url: "/payment/paypal-settlement-reports.html"
       - label: PayPal Credit
         url: "/payment/paypal-credit.html"
       - label: PayPal Fraud Management Filter
         url: "/payment/paypal-fraud-management-filter.html"
       - label: PayPal by Country
         url: "/payment/paypal-countries.html"
-  - label: Other Payment Methods
-    url: "/payment/gateways.html"
+  - label: Online Payment Methods
+    url: "/payment/online-payment-methods.html"
     children:
     - label: Klarna
       url: "/payment/klarna.html"
       children:
-      - label: Customer Experience
+      - label: Klarna Storefront Experience
         url: "/payment/klarna-customer-experience.html"
       - label: Setting Up Klarna
         url: "/payment/klarna-setup.html"
-      - label: Managing Your Account
-        url: "/payment/klarna-manage.html"
     - label: Amazon Pay
       url: "/payment/amazon-pay.html"
       children:
@@ -259,14 +235,10 @@ pages:
         url: "/payment/amazon-pay-customer-experience.html"
       - label: Setting Up Amazon Pay
         url: "/payment/amazon-pay-setup.html"
-      - label: Amazon Seller Central
-        url: "/payment/amazon-pay-seller-central.html"
       - label: Managing Transactions
         url: "/payment/amazon-pay-manage.html"
-      - label: Amazon Pay Resources
-        url: "/payment/amazon-pay-resources.html"
-  - label: Basic Payment Methods
-    url: "/payment/payment-methods.html"
+  - label: Offline Payment Methods
+    url: "/payment/offline-payment-methods.html"
     children:
     - label: Check / Money Order
       url: "/payment/check-money-order.html"

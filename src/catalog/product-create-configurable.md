@@ -106,8 +106,6 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
       - Click <span class="btn">Create Category</span>.
 
-1. To feature the product in the list of [new products]({% link cms/widget-new-products-list.md %}), select the **Set Product as New** checkbox.
-
 1. Choose the **Country of Manufacture**.
 
     ![]({% link images/images/product-details-configurable.png %}){: .zoom}
