@@ -46,16 +46,16 @@ To create an invoice for an order:
 
    - Include a tracking number:
 
-      - Click **Add Tracking Number**.
-      - Enter the tracking information: Carrier, Title, Number
+    - Click **Add Tracking Number**.
+    - Enter the tracking information: Carrier, Title, Number
 
    - Optionally, generate a partial invoice to create separate (or multiple) invoices for item(s) within an order:
 
-      - In the _Items to Invoice_ section, update the **Qty to Invoice** column to include only specific items on the invoice.
-      - Then, click **Update Qty’s**.
+    - In the _Items to Invoice_ section, update the **Qty to Invoice** column to include only specific items on the invoice.
+    - Then, click **Update Qty’s**.
 
-        ![]({% link images/images/invoice-items-to-invoice.png %}){: .zoom}
-        _Items to Invoice_
+      ![]({% link images/images/invoice-items-to-invoice.png %}){: .zoom}
+      _Items to Invoice_
 
         This allows you to create multiple invoices for one or more items in an order.
 

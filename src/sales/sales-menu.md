@@ -5,7 +5,7 @@ title: Sales Menu
 The Sales menu lists transactions according to where they are in the order workflow. You might think of each of option as a different stage in the lifetime of an order.
 
 ![]({% link images/images-b2b/admin-menu-sales-b2b.png %}){: .zoom}
-_Sales Menu_{:.b2b-only}
+_Sales Menu_
 
 ## Display the Sales menu
 
@@ -46,3 +46,8 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is simila
 ### Transactions
 
 The [Transactions]({% link sales/transactions.md %}) page lists all payment activity that has taken place between your store and all payment systems, and provides access to more detailed information.
+
+{:.ee-only}
+### Archive
+
+(Archive option must be enabled) [Archiving orders]({% link sales/transactions.md %}) and other sales documents on a regular basis improves performance and keeps your workspace free of unnecessary information.
