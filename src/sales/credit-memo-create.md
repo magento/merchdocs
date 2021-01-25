@@ -9,7 +9,7 @@ Before a credit memo can be printed, it must first be generated for an [invoiced
 - Purchases made by credit card can be refunded either online or offline.
 - Purchases made by check or money order must be refunded offline.
 
-Any credit memo with an [open status]({% link sales/order-status.md %}), `STATE_OPEN`, has an outstanding refund due.
+Any credit memo with an [open status]({% link sales/order-status.md %}) has an outstanding refund due.
 
 With credit memos you can:
 

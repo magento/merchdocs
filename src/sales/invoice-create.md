@@ -97,7 +97,7 @@ To print the invoice:
 
 ## Payment actions
 
-You can configure [payment actions](#payment-actions) for your specific [payment method]({% link configuration/sales/payment-methods.md %}). Each payment method has a different set of payment actions.
+You can configure payment actions for your specific [payment method]({% link configuration/sales/payment-methods.md %}). Each payment method has a different set of payment actions.
 
 |Payment Action |Description
 |--- |---
