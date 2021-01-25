@@ -174,7 +174,7 @@ _Create Credit Memo_
       The status of a credit memo notification appears in the completed credit memo next to the credit memo number.
 
       ![]({% link images/images-b2b/credit-memo-order-totals.png %}){: .zoom}
-      _Refund Totals_{:.b2b-only}
+      _Refund Totals_
 
 1. To complete the process and issue the refund, click <span class="btn">Refund Offline</span>.
 
@@ -249,7 +249,7 @@ The payment method used for the order determines the refund buttons that are ava
 |--- |--- |
 |<span class="btn">Refund</span>|If the original purchase was paid by credit card through a payment gateway, the refund amount is managed by the payment processor. To manage refunds, see the documentation provided by your payment provider.|
 |<span class="btn">Refund Offline</span>|If the original purchase was paid by check or money order, the refund is paid directly to the customer, by issuing a check, gift card, or cash if you have a brick and mortar storefront. The credit memo serves as a record of the offline transaction.|
-|<span class="b2b-only"></span><span class="btn">Refund to Company Credit</span>|If the purchase was charged to company credit, the refund is returned to the [company’s account]({% link customers/account-dashboard-company-credit.md %}).|
+|<span class="b2b-only"></span><span class="btn">Refund to Company Credit</span>|If the purchase was charged to company credit, the refund is returned to the [Company Account]({% link customers/account-dashboard-company-credit.md %}).|
 {: .buttons-table }
 
 <style>

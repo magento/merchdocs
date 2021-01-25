@@ -4,7 +4,7 @@ title: Creating an Invoice
 
 Creating an invoice for an order converts the temporary sales order into a permanent record of the order that cannot be canceled. A new invoice page looks similar to a completed order, with some additional fields. Every activity that is related to an order is noted in the Comments section of the invoice.
 
-Normally, orders are invoiced and shipped after payment is received. However, if the method of payment is a purchase order, the order can be invoiced and shipped before payment is received. You can generate an invoice with a packing slip, and also print shipping labels from your carrier account. A single order can be divided into partial shipments which are invoiced separately, if necessary.
+Normally, orders are invoiced and shipped after payment is received. However, if the method of payment is a purchase order, the order can be invoiced and shipped before payment is received. You can generate an invoice with a packing slip, and also print shipping labels from your carrier account. A single order can be divided into partial shipments, which are invoiced separately when necessary.
 
 When the state of new orders is set to _Processing_ the option to _Automatically Invoice All Items_ becomes available in the configuration. Some credit card payment methods complete the invoicing step as part of the process when [Payment Action](#payment-actions) is set to _Authorize and Capture_. In such a case, the Invoice button does not appear, and the order is ready to ship.
 
@@ -14,8 +14,6 @@ You must generate an invoice for an order before you can print it. To view or pr
 _Invoices_
 
 ## Invoice an order
-
-To create an invoice for an order:
 
 1. On the _Admin_ sidebar, click **Sales**.
 
@@ -67,7 +65,9 @@ To create an invoice for an order:
 
    - Enter any **Invoice Comments**. To include the comments in the notification email, mark the **Append Comments** checkbox.
 
-1. When complete, click **Submit Invoice** at the bottom of the page. The status of the order changes from `Pending` to `Processing`.
+1. When complete, click **Submit Invoice** at the bottom of the page.
+
+   The status of the order changes from `Pending` to `Processing`.
 
     ![]({% link images/images/invoice-submit-invoice-capture-online.png %}){: .zoom}
     _Submit Invoice (Online Payment Method)_
