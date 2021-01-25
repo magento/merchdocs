@@ -186,6 +186,8 @@ pages:
         url: "/system/data-advanced-price.html"
     - label: Customer Attribute Reference
       url: "/system/data-attributes-customer.html"
+    - label: Catalog Sync
+      url: "/system/catalog-sync.html"
   - label: Integrations
     url: "/system/integrations.html"
     children:
@@ -218,11 +220,8 @@ pages:
     children:
     - label: Security Scan
       url: "/magento/security-scan.html"
-    - label: Security Best Practices
-      url: "/magento/magento-security-best-practices.html"
-      children:
-      - label: Security Action Plan
-        url: "/magento/security-action-plan.html"
+    - label: Security Action Plan
+      url: "/magento/security-action-plan.html"
     - label: Configuring Admin Security
       url: "/stores/security-admin.html"
     - label: CAPTCHA
@@ -232,10 +231,10 @@ pages:
     - label: Two-Factor Authentication
       url: "/stores/security-two-factor-authentication.html"
       children:
-      - label: Managing Two-Factor Authentication
-        url: "/stores/security-two-factor-authentication-manage.html"
-      - label: Using Two-Factor-Authentication
+      - label: Using 2FA
         url: "/stores/security-two-factor-authentication-use.html"
+      - label: Managing 2FA
+        url: "/stores/security-two-factor-authentication-manage.html"
     - label: Encryption Key
       url: "/system/encryption-key.html"
     - label: Session Validation
@@ -311,7 +310,8 @@ pages:
     - label: Refresh Statistics
       url: "/reports/statistics.html"
   - label: Site-Wide Analysis Tool
-    url: "/reports/site-wide-analysis-tool.html"  
+    url: "/reports/site-wide-analysis-tool.html"
+    edition: ee-only 
   - label: Customer Reports
     url: "/reports/customer-reports.html"
   - label: Product Reports

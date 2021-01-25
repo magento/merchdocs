@@ -69,7 +69,7 @@ _Divider with padding in container with dashed border_
 
 1. Update the _Advanced_ settings as needed.
 
-   - Choose the the **Alignment** to control the positioning of the divider within the parent container:
+   - Choose the **Alignment** to control the positioning of the divider within the parent container:
 
       |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
       |Left|Aligns the list along the left border of the parent container, with allowance for any padding that is specified.

@@ -4,10 +4,13 @@ title: Wish List
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) > Wish List
 
+{:.bs-callout-info}
+A Wish list allows registered customers to create their own collections of products they want to buy in the future. Wish lists can be shared between customers.
+
 ## General Options
 
 ![]({% link images/images-ee/config-customers-wishlist-general-options-ee.png %}){: .zoom}
-_[General Options]({% link marketing/wishlist-configuration.md %})_{:.ee-only}
+_[General Options]({% link marketing/wishlist-configuration.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -26,7 +29,7 @@ _[General Options]({% link marketing/wishlist-configuration.md %})_{:.ee-only}
 |Email Sender|Store View|Determines the store contact that appears as the sender of the message sent when a wish list is shared. Default contact: General Contact|
 |Email Template|Store View|Determines the email template that is used for the message sent when a wish list is shared. Default template: Share Wishlist|
 |Max Emails Allowed to be Sent|Store View|Determines the maximum number of emails that can be sent in a batch. Setting a maximum limit can help reduce the load on the server. The maximum number allowed is 10,000. Default value: 10|
-|Email Text Length Limit|Store View|Determines the maximum number of characters that can be included in the message. Default value: 255|
+|Email Text Length Limit|Store View|Determines the maximum number of characters that can be included in the message. The maximum number allowed is 10,000. Default value: 255|
 
 ## My Wish List Link
 
