@@ -39,7 +39,8 @@ If you are using [Vertex Cloud]({% link tax/vertex.md %}), see the [Vertex Setti
 
 Determine the type of refund that you want to issue---for a [credit purchase](#issue-a-refund-for-a-credit-purchase) or for [check or money order](#issue-an-offline-refund-for-check-or-money-order)---and generate the credit memo and issue a refund.
 
-- {:.ee-only}If you create a credit memo for an order that includes gift options, the refund for the gift wrapping and/or printed card appears in the _Refund Totals_ section of the credit memo. To exclude these costs from the amount to be refunded, enter the amount as an _Adjustment Fee_. If multiple credit memos are issued for the same order, the refund for gift options appears in only the first credit memo.
+![]({% link images/images/order-credit-memo.png %}){: .zoom}
+_Create Credit Memo_
 
 ### Issue a refund for a credit purchase
 
@@ -48,9 +49,9 @@ Determine the type of refund that you want to issue---for a [credit purchase](#i
 1. Find the order in the grid, and click **View**.
 
    ![]({% link images/images-ee/orders-grid.png %}){: .zoom}
-   _Orders grid_
+   _Orders Grid_{:.ee-only}
 
-1. If the _Credit Memo_ button is visible in the button bar, do one of the following:
+1. If the Credit Memo button is visible in the button bar, do one of the following:
 
    - To issue an `offline` refund, go to step #6.
    - To issue an `online` refund, continue with step #4.
@@ -59,16 +60,13 @@ Determine the type of refund that you want to issue---for a [credit purchase](#i
 
 1. Click **Invoices** in the left panel.
 
-   ![]({% link images/images/order-invoices-grid.png %}){: .zoom}
-   _Invoices grid_
-
 1. Find the invoice in the grid and click **View**.
 
    ![]({% link images/images/order-invoices-grid.png %}){: .zoom}
    _Invoices Grid_
 
 1. Scroll down to the **Invoice Totals** section of the invoice, and verify that the invoice is set to `Capture Online`. Then, click <span class="btn">Submit Invoice</span>.
-   
+
    ![]({% link images/images/order-invoice-capture-online.png %}){: .zoom}
    _Capture Online_
 
@@ -87,7 +85,7 @@ Determine the type of refund that you want to issue---for a [credit purchase](#i
       ![]({% link images/images/invoice-credit-memo-items-to-refund.png %}){: .zoom}
       _Items to Refund_
 
-1. Update the _Refunds Totals_ section as follows:
+1. Update the **Refunds Totals** section as follows:
 
    - For **Refund Shipping**, enter any amount that is to be refunded from the shipping fee.
 
@@ -101,7 +99,7 @@ Determine the type of refund that you want to issue---for a [credit purchase](#i
 
       This amount is not subtracted from a specific section of the order such as shipping, items, or tax.
 
-1. To add a comment, enter the text for **Credit Memo Comments**.
+1. To add a comment, enter the text in the **Credit Memo Comments** box.
 
    - To send an email notification to the customer, select the **Email Copy of Credit Memo** checkbox.
 
@@ -136,7 +134,7 @@ Determine the type of refund that you want to issue---for a [credit purchase](#i
 1. In the button bar at the top of the invoice, click **Credit Memo**.
 
    ![]({% link images/images-b2b/order-account-info-credit-memo.png %}){: .zoom}
-   _Create Credit Memo_
+   _Create Credit Memo_{:.b2b-only}
 
 1. Verify the information in the **Items to Refund** section and do the following, if applicable:
 
@@ -176,18 +174,16 @@ Determine the type of refund that you want to issue---for a [credit purchase](#i
       The status of a credit memo notification appears in the completed credit memo next to the credit memo number.
 
       ![]({% link images/images-b2b/credit-memo-order-totals.png %}){: .zoom}
-      _Refund Totals_
+      _Refund Totals_{:.b2b-only}
 
 1. To complete the process and issue the refund, click <span class="btn">Refund Offline</span>.
 
-## Credit memo reference
-
-Credit memos include the following sections.
+## Field Descriptions
 
 ### Order & Account Information
 
 |--- |--- |
-|Order #|The order number is displayed, followed by a note that indicates if the confirmation email was sent.|
+|Order Number|The order number appears in the Order & Account Information, followed by a note that indicates if the confirmation email was sent.|
 |Order Date|The date and time the order was placed.|
 |Order Status|Indicates the order status as `Complete`.|
 |Purchased From|Indicates the website, store, and store view where the order was placed.|
@@ -204,56 +200,56 @@ Credit memos include the following sections.
 ### Address Information
 
 |--- |--- |
-|Billing Address|The name of the customer or buyer who placed the order, followed by the billing address, telephone number and [VAT]({% link tax/vat.md %}) (if applicable). The telephone number is linked to autodial on a mobile device.|
+|Billing Address|The name of the customer or buyer who placed the order, followed by the billing address, telephone number and [VAT]({% link tax/vat.md %}), if applicable. The telephone number is linked to autodial on a mobile device.|
 |Shipping Address|The name of the person to whose attention the order should be shipped, followed by the shipping address and telephone number. The telephone number is linked to autodial on a mobile device.|
 
 ### Payment & Shipping Method
 
 |--- |--- |
-|Payment Information|The method of payment to be used for the order, and purchase order number (if applicable), followed by the currency that was used to place the order. If the order is charged to company credit using [Payment on Account]({% link payment/payment-on-account.md %}), the amount charged to the account is indicated.|
+|Payment Information|The method of payment to be used for the order, and purchase order number, if applicable, followed by the currency that was used to place the order. If the order is charged to company credit using [Payment on Account]({% link payment/payment-on-account.md %}), the amount charged to the account is indicated.|
 |Shipping & Handling Information|The shipping method to be used, and any handling fee that is applicable.|
 
-### Items Refunded
+### Items to Refund
 
 |--- |--- |
 |Product|The product name, SKU, and options (if applicable).|
 |Price|The purchase price of the item. For Magento Commerce for B2B, this value reflects any discount applied to the item from the shared catalog, if applicable.|
-|Qty|The quantity refunded.|
-|Return to Stock|(If Inventory Management is used) Checkbox that indicates if the returned item is to be returned to stock.|
+|Qty|The quantity ordered.|
+|Return to Stock|Checkbox that indicates if the returned item is to be returned to stock.|
+|Qty to Refund|Indicates the number of units returned of the product.|
 |Subtotal|The subtotal is the purchase price multiplied by the quantity of product units returned.|
 |Tax Amount|The amount of tax that applies to the returned item as a decimal value.|
+|Tax Percent|The percentage of tax applied to the returned item as a percentage.|
 |Discount Amount|Any discount that applies to the returned item.|
 |Row Total|The line item total, including applicable taxes that are due for the returned product level, less discounts.|
+|order total||
 
-### Credit Memo History
+### Credit Memo Comments
 
 |--- |--- |
 |Comment Text|A text box that is used to enter a comment to the customer about the credit memo.|
 
-### Credit Memo Totals
+### Refund Totals
 
 |--- |--- |
-|Subtotal|Total amount without shipping, tax, or adjustments.|
-|Shipping & Handling|The shipping amount to be refunded.|
+|Refund Shipping|The shipping amount to be refunded.|
 |Adjustment Refund|An amount that is added to the total amount refunded as an additional refund that does not apply to any particular part of the order, such as shipping, items, or tax. The amount entered cannot raise the total refund higher than the amount paid.|
 |Adjustment Fee|An amount that is subtracted from the total amount refunded, such as a restocking fee, or an amount that is related to gift wrapping or gift options.|
 |Grand Total|The total amount to be refunded|
-|Tax|Amount of tax to be refunded.|
-|<span class="ee-only">Store Credit</span>|Amount applied to store credit.|
 |Append Comments|Checkbox that determines if comments are included in the credit memo.|
 |Email Copy of Credit Memo|Checkbox that determines if a copy of the credit memo is emailed.|
 |<span class="ee-only">Refund to Store Credit</span>|Checkbox that determines if the total is to be refunded to [store credit]({% link sales/store-credit-using.md %}).|
 |<span class="b2b-only">Subtotal</span>|The total of all line items to be refunded.|
 {: .buttons-table }
 
-### Refund buttons
+### Refund Buttons
 
-The payment method used for the order determines the refund buttons that are available at the top of a credit memo page.
+The payment method used for the order determines the refund buttons that are available for a credit memo.
 
 |--- |--- |
 |<span class="btn">Refund</span>|If the original purchase was paid by credit card through a payment gateway, the refund amount is managed by the payment processor. To manage refunds, see the documentation provided by your payment provider.|
 |<span class="btn">Refund Offline</span>|If the original purchase was paid by check or money order, the refund is paid directly to the customer, by issuing a check, gift card, or cash if you have a brick and mortar storefront. The credit memo serves as a record of the offline transaction.|
-|<span class="b2b-only"></span><span class="btn">Refund to Company Credit</span>|If the purchase was charged to company credit, the refund is returned to the [company account]({% link customers/account-dashboard-company-credit.md %}).|
+|<span class="b2b-only"></span><span class="btn">Refund to Company Credit</span>|If the purchase was charged to company credit, the refund is returned to the [company’s account]({% link customers/account-dashboard-company-credit.md %}).|
 {: .buttons-table }
 
 <style>
