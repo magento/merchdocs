@@ -102,7 +102,7 @@ _Create Credit Memo_
 
    - To send an email notification to the customer, select the **Email Copy of Credit Memo** checkbox.
 
-1. Click <span class="btn">Update Totals</span>
+1. Click <span class="btn">Update Totals</span>.
 1. Do the following, as applicable:
 
    - {:.ee-only}To refund the amount to the customer's store credit, select the **Refund to Store Credit** checkbox.
