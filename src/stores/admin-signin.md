@@ -68,6 +68,8 @@ The following example shows how to pair your _Admin_ account with Google Authent
 
 ## Reset your password
 
+Magento does not allow the reuse of the last four passwords assigned to the account.
+
 1. Enter the **Email Address** that is associated with the _Admin_ account.
 
    ![]({% link images/images/admin-sign-in-forgot-password.png %}){: .zoom}
