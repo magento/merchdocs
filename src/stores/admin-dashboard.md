@@ -73,6 +73,16 @@ If you have a lot of data to process, the performance of the Dashboard can be im
    ![Admin dashboard - startup page setting]({% link images/images/config-advanced-admin-startup-page.png %}){: .zoom}
    [_Startup Page_]({% link configuration/advanced/admin.md %})
 
+## Snapshot data
+
+|Section|Description|
+|--- |--- |
+|Lifetime Sales|The aggregated total sales during the lifetime of the store.|
+|Average Order|The average order amount during the lifetime of the store.|
+|Last Orders| A summary of the last five placed orders.|
+|Last Search Terms|The last five search terms.|
+|Top Search Terms|The five most commonly-used search terms.|
+
 ## Dashboard Reports
 
 |Report|Description|
