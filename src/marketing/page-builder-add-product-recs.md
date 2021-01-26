@@ -88,7 +88,7 @@ The _Product Recommendations_ content type in Page Builder is supported in Magen
 
 ## Advanced settings
 
-1. Choose the the **Alignment** to control the positioning of the Product Recommendations unit within the parent container:
+1. Choose the **Alignment** to control the positioning of the Product Recommendations unit within the parent container:
 
    |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
    |Left|Aligns the unit along the left border of the parent container, with allowance for any padding that is specified.

@@ -6,33 +6,38 @@ A purchase order (PO) allows commercial customers to pay for authorized purchase
 
 Before accepting payment by purchase order, always establish the credit worthiness of the commercial customer.
 
-![Purchase Order]({% link images/images/config-sales-payment-methods-purchase-order.png %}){: .zoom}
-_Purchase Order_
+## Configure payment by purchase order
 
-## To configure payment by purchase order:
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. On the Admin sidebar, tap **Stores**. Then under **Settings**, choose **Configuration**.
+1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. In the panel on the left, under **Sales**, choose **Payment Methods**.
+1. Under _Other Payment Methods_, expand ![]({% link images/images/btn-expand.png %}) the **Purchase Order** section.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Purchase Order** section. Then, do the following:
+   ![Purchase Order]({% link images/images/config-sales-payment-methods-purchase-order.png %}){: .zoom}
+   [_Purchase Order configuration_]({% link configuration/sales/payment-methods.md %}#purchase-order)
 
-   - To activate this payment method, set **Enabled** to “Yes.”
+   {:.bs-callout-info}
+   If necessary, first deselect the **Use system value** checkbox to change these settings.
 
-   - Enter a **Title** to identify this payment method during checkout.
+1. To activate this payment method, set **Enabled** to `Yes`.
 
-   - Set **New Order Status** to “Pending” until payment is authorized.
+1. Enter a **Title** to identify this payment method during checkout.
 
-   - Set **Payment from Applicable Countries** to one of the following:
+1. Set **New Order Status** to `Pending` until payment is authorized.
 
-     |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
-     |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
+1. Set **Payment from Applicable Countries** to one of the following:
 
-   - Set **Minimum Order Total** and **Maximum Order Total** to the amounts required to qualify for this payment method.
+   |All Allowed Countries |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
+   |Specific Countries |After you choose this option, the _Payment from Specific Countries_ list appears. To select multiple countries, hold down the Ctrl key (PC) or the Command key (Mac) and click each option. |
 
-     {:.bs-callout-info}
-     An order qualifies if the total falls between, or exactly matches, the minimum or maximum total values.
+1. Set **Minimum Order Total** and **Maximum Order Total** to the amounts required to qualify for this payment method.
 
-   - Enter a **Sort Order** number to determine the position of Purchase Order in the list of payment methods during checkout. (0 = first, 1 = second, 2 = third, and so on.)
+   {:.bs-callout-info}
+   An order qualifies if the total falls between, or exactly matches, the minimum or maximum total values.
 
-1. When complete, tap <span class="btn"> Save Config </span>.
+1. Enter a **Sort Order** number to determine the position of this item in the list of payment methods that is displayed during checkout.
+
+   This is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
+
+1. When complete, click <span class="btn">Save Config</span>.
