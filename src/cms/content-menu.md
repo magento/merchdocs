@@ -12,7 +12,7 @@ Your content should reflect the branding of your store, and be delivered with yo
 _Content menu_
 
 {:.bs-callout-info}
-When the enhanced [Media Gallery]({% link cms/media-gallery.md %}) is enabled, the _Media_ section appears with a single option to access the Media Gallery. You can set the **Enable Enhanced Media Gallery** option to `Yes` by going to **Stores** > _Settings_ > **Configuration** > and choosing to **Advanced** > **System**.
+When the new [Media Gallery]({% link cms/media-gallery.md %}) is enabled, the _Media_ section appears with a single option to access the Media Gallery. You can set the **Enable Old Media Gallery** option to `No` by going to **Stores** > _Settings_ > **Configuration** and choosing **Advanced** > **System** in the left panel.
 
 ## Display the Content menu
 
