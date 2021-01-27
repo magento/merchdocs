@@ -4,7 +4,7 @@ redirect_from:
   - /configuration/engagement-cloud.html
 ---
 
-The dotdigital configuration settings can be found in **System** > **Configuration** > **dotdigital**.
+The dotdigital configuration settings can be found in **Stores** > **Settings** > **Configuration** > **dotdigital**.
 
 See the following pages for more information on each section:
 
