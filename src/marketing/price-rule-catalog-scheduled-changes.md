@@ -29,11 +29,11 @@ _Scheduled Changes_
 
     - Use the Calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}) to choose the **Start Date** and **End Date** for the scheduled change to be in effect. To create an open-ended change, leave the end date blank.
 
-    {:.bs-callout-info}
-    You cannot add an end date to a price rule that was originally created without one. In such a case, it is necessary to create a duplicate rule that includes the end date that is needed.
-
     ![Catalog price rules - new scheduled changes]({% link images/images-ee/price-rule-catalog-schedule-update.png %}){: .zoom}
     _Add Scheduled Changes_
+
+    {:.bs-callout-info}
+    The start and end date/time is determined by the default Admin panel date/time and time zone, not by the time zone of a particular website. Take into account the time zone of the website to properly determine start and end times. Create separate rules for websites in different time zones that need to start and/or stop at specific local times.
 
 1. Scroll down to the **Rule Information** section and make the changes for the rule.
 
