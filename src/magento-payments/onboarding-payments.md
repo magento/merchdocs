@@ -17,23 +17,32 @@ If you have not yet configured your Magento Services in the Admin, you cannot pr
 
 ## Prerequisites
 
-In order to use Magento Payments, you must have the following extensions available for your instance:
+In order to use Magento Payments, you must have the following available for your instance:
 
 * Services Connector module
 * Services ID module
-* API keys
+* API key value pair
 
-These extensions will be automatically installed during the installation of the Magento Payments extension. Once installed, you will see a new section in the Admin---in **Stores** > **Configuration** > **Services**---called Magento Services.
+The Services Connector and Services ID modules will be automatically installed during the installation of the Magento Payments extension. Once installed, you will see a new section in the Admin---in **Stores** > **Configuration** > **Services**---called Magento Services.
 
-### Find credentials
+See [API credentials](#obtain-api-credentials) to learn how to create or access your API key value pair.
 
-Consuming a Magento SaaS service from a Commerce instance starts with creating API keys in [My Account](https://account.magento.com/customer/account/login). A given API key pair is valid for all Magento SaaS services in a given environment, so if you already have [Magento Services]({% link system/saas.md %}) configured your API key pair is already present in the Admin.
+### Obtain API credentials
 
-Two different API key pairs can be created for a Magento account---one for Sandbox and one for Production (live payments)---though only one can be actively used at a time.
+To consume a Magento SaaS service you must use your Magento instance's API keys, which are created and managed in your [My Account dashboard](https://account.magento.com/customer/account/login). Two different API key pairs can be created for a Magento account---one for Sandbox and one for Production (live payments)---though only one can be actively used at a time.
+
+{:.bs-callout-info}
+Need help accessing your My Account dashboard? Check out our [Create a Magento account topic]({% link magento/magento-account-create.md %}).
+
+A given API key pair is valid for all Magento SaaS services in an environment, so if you already have [Magento Services]({% link system/saas.md %}) configured for your Magento instance your API key pair is already present in the Admin. If your private API key is lost, a new API key pair must be generated and applied to the Magento Services configuration in the Admin.
 
 See the [Magento Services topic]({% link system/saas.md%}) to learn how to generate an API key for either Sandbox or Production environments.
 
 ## Configure Magento Services
+
+The first step in onboarding Magento Payments is to configure your Magento Services in the Admin.
+
+See the [Create SaaS Environment section]({% link system/saas.md%}#createsaasenv) of our Magento Services topic to learn how to configure your Magento Services.
 
 ## Enable Sandbox testing
 
