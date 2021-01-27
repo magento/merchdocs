@@ -33,7 +33,7 @@ _Scheduled Changes_
     _Add Scheduled Changes_
 
     {:.bs-callout-info}
-    The start and end date/time is determined by the default Admin panel date/time and time zone, not by the time zone of a particular website. Take into account the time zone of the website to properly determine start and end times.
+    The start and end date/time is determined by the default Admin panel date/time and time zone, not by the time zone of a particular website. Take into account the time zone of the website to properly determine start and end times. Create separate rules for websites in different time zones that need to start and/or stop at specific local times.
 
 1. Scroll down to the **Rule Information** section and make the changes for the rule.
 
