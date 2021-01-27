@@ -29,7 +29,7 @@ See [API credentials](#obtain-api-credentials) to learn how to create or access 
 
 ### Obtain API credentials
 
-To consume a Magento SaaS service you must use your Magento instance's API keys, which are created and managed in your [My Account dashboard](https://account.magento.com/customer/account/login). Two different API key pairs can be created for a Magento account---one for Sandbox and one for Production (live payments)---though only one can be actively used at a time.
+To consume a Magento SaaS service you must use your Magento instance's API keys, which are created and managed in your [My Account dashboard](https://account.magento.com/customer/account/login). Two different API key pairs can be created for a Magento account---one for Sandbox and one for Production (live payments)---though only one pair can be actively used at a time.
 
 {:.bs-callout-info}
 Need help accessing your My Account dashboard? Check out our [Create a Magento account topic]({% link magento/magento-account-create.md %}).
@@ -42,7 +42,12 @@ See the [Magento Services topic]({% link system/saas.md%}) to learn how to gener
 
 The first step in onboarding Magento Payments is to configure your Magento Services in the Admin.
 
-See the [Create SaaS Environment section]({% link system/saas.md%}#createsaasenv) of our Magento Services topic to learn how to configure your Magento Services.
+1. Navigate to Magento Payments in the Admin---**Sales** > **Magento Payments**.
+1. Click <span class="btn">Configure Magento Services</span>.
+
+   This option will be visible if you have not yet configured Magento Services for your Magento account.
+
+1. Follow the steps in the [Create Saas Environment]({% link system/saas.md%}#createsaasenv) section of the Magento Services topic to create a SaaS environment (configure Magento Services).
 
 ## Enable Sandbox testing
 
