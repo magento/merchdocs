@@ -26,7 +26,7 @@ Magento Commerce includes support for [Scheduled Updates]({% link cms/content-st
 
 1. Use the **Calendar** ( ![]({% link images/images/btn-calendar.png %}) ) to choose the **Start Date** and **End Date** for the special price promotion.
 
-   You can use the **Hour** and **Minute** sliders to choose the start and end time, as well. Click <span class="btn">Close</span> when the the start and end are set.
+   You can use the **Hour** and **Minute** sliders to choose the start and end time, as well. Click <span class="btn">Close</span> when the start and end are set.
 
     ![]({% link images/images-ee/product-price-special-scheduled-update.png %}){: .zoom}
     _Save as New Update_

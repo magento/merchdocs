@@ -18,7 +18,7 @@ The following requirements must be met for a complex product (such as bundle, gr
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. For the the product in the [grid]({% link stores/admin-grid-controls.md %}) that you want to add, go to the _Action_ column and click **Edit**.
+1. For the product in the [grid]({% link stores/admin-grid-controls.md %}) that you want to add, go to the _Action_ column and click **Edit**.
 
 1. Scroll down, expand ![]({% link images/images/btn-expand.png %}) the _Product in Shared Catalogs_ section, and do the following:
 
@@ -40,7 +40,7 @@ The following requirements must be met for a complex product (such as bundle, gr
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Shared Catalogs**.
 
-1. For the the shared catalog in the [grid]({% link stores/admin-grid-controls.md %}), go to the _Action_ column and select **Set Pricing and Structure**.
+1. For the shared catalog in the [grid]({% link stores/admin-grid-controls.md %}), go to the _Action_ column and select **Set Pricing and Structure**.
 
 1. In the category tree, do any of the following:
 

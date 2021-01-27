@@ -2,44 +2,50 @@
 title: Bank Transfer
 ---
 
+Magento allows you to accept payment that is transferred from a customer bank account and deposited into your merchant bank account.
 
-Magento allows you to accept payment that is transferred from a customer’s bank account and deposited into your merchant bank account.
+## Configure bank transfer payments
 
-![Bank Transfer Payment]({% link images/images/config-sales-payment-methods-bank-transfer-payment.png %}){: .zoom}
-_Bank Transfer Payment_
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-## To configure bank transfer payments:
+1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. On the Admin sidebar, tap **Stores**. Then under **Settings**, choose **Configuration**.
+1. Under _Other Payment Methods_, expand ![]({% link images/images/btn-expand.png %}) the **Bank Transfer Payment** section.
 
-1. In the panel on the left, under **Sales**, choose **Payment Methods**.
+   ![Bank Transfer Payment]({% link images/images/config-sales-payment-methods-bank-transfer-payment.png %}){: .zoom}
+   [_Bank Transfer Payment configuration_]({% link configuration/sales/payment-methods.md %}#bank-transfer-payment)
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Bank Transfer Payment** section. Then, do the following:
+   {:.bs-callout-info}
+   If necessary, first deselect the **Use system value** checkbox to change these settings.
 
-   - To activate bank transfers, set **Enabled** to “Yes.”
+1. To activate bank transfers, set **Enabled** to `Yes`.
 
-   - Enter a **Title** to identify the Bank Transfer Payment method during checkout.
+1. Enter a **Title** to identify the Bank Transfer Payment method during checkout.
 
-   - Set **New Order Status** to “Pending” until payment is authorized.
+1. Set **New Order Status** to `Pending` until payment is authorized.
 
-   - Set **Payment from Applicable Countries** to one of the following:
+1. Set **Payment from Applicable Countries** to one of the following:
 
-     |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
-     |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
+   |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
+   |**Specific Countries** |After you choose this option, the _Payment from Specific Countries_ list appears. To select multiple countries, hold down the Ctrl key (PC) or the Command key (Mac) and click each option. |
 
-   - Enter the **Instructions** your customers must follow to set up a bank transfer. Depending on the country where your bank is located and the requirements of the bank, you might need to include the following information:
+1. Enter the **Instructions** your customers must follow to set up a bank transfer.
 
-      - Bank account name
-      - Bank account number
-      - Bank routing code
-      - Bank name
-      - Bank address
+   Depending on the country where your bank is located and the requirements of the bank, you might need to include the following information:
 
-   - Set **Minimum Order Total** and **Maximum Order Total** to the amounts required to qualify to use this payment method.
+   - Bank account name
+   - Bank account number
+   - Bank routing code
+   - Bank name
+   - Bank address
 
-     {:.bs-callout-info}
-     An order qualifies if the total falls between, or exactly matches, the minimum or maximum total values.
+1. Set **Minimum Order Total** and **Maximum Order Total** to the amounts required to qualify to use this payment method.
 
-1. Enter a **Sort Order** number to determine the position of Bank Transfer in the list of payment methods during checkout. (0 = first, 1 = second, 2 = third, and so on.)
+   {:.bs-callout-info}
+   An order qualifies if the total falls between, or exactly matches, the minimum or maximum total values.
 
-1. When complete, tap <span class="btn"> Save Config </span>.
+1. Enter a **Sort Order** number to determine the position of this item in the list of payment methods that is displayed during checkout.
+
+   This is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
+
+1. When complete, click <span class="btn">Save Config</span>.

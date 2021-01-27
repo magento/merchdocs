@@ -3,36 +3,36 @@ ee_only: true
 title: Configuring Returns
 ---
 
-By default, RMA requests can be submitted by customers from the storefront. Requests to return individual items are managed by the Enable RMA attribute, which is managed in the Advanced Settings section of each product record, under [Autosettings]({% link catalog/product-autosettings.md %}). By default, the configuration settings are applied to the product. If Enable RMA is set to “No,” the product does not appear in the list of items that are available for return. An RMA can be generated only if there is an item in the order that is available for return. Changes to the value of the Enable RMA attribute apply to both new and existing orders.
+When enabled, RMA requests can be submitted by customers from the storefront. An RMA can be generated only if there is an item in the order that is available for return. Requests to return individual items are managed by the _Enable RMA_ attribute in each product record. By default, the configuration settings are applied to the product (_Use Config Settings_ is selected). If _Enable RMA_ is set to `No`, the product does not appear in the list of items that are available for return. If you change the _Enable RMA_ setting, it applies to both new and existing orders.
 
 ![]({% link images/images/product-advanced-autosettings-enablerma.png %}){: .zoom}
-_Enable RMA for Product_
+_Enable RMA for a product_
 
-## To enable RMAs:
+## Enable RMAs for your store
 
-1. On the _Admin_ sidebar, click **Stores**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ >  **Configuration**.
 
-1. In the _Settings_ section, choose **Configuration**.
+1. In the left panel, expand **Sales** and choose **Sales** underneath.
 
-1. In the _Sales_ section in the left panel, choose **Sales**.
+1. Expand ![]({% link images/images/btn-expand.png %}) the **RMA Settings** section.
 
-1. Expand the _RMA Settings_ section.
+   ![]({% link images/images/config-sales-sales-rma-settings.png %}){: .zoom}
+   [_RMA Settings_]({% link configuration/sales/sales.md %})
 
-    ![]({% link images/images/config-sales-sales-rma-settings.png %}){: .zoom}
-    [_RMA Settings_]({% link configuration/sales/sales.md %})
+1. Set **Enable RMA on Storefront** to `Yes`.
 
-1. Configure RMA settings:
+   This determines if customers can create and view RMA requests from the storefront. RMAs can be applied to both new and existing orders.
 
-   - Set **Enable RMA on Storefront** to `Yes`.
+1. Set **Enable RMA on Product Level** to `Yes`.
 
-   - Set **Enable RMA on Product Level** to `Yes`.
+   This determines the default value for the _Enable RMA_ attribute for individual products.
 
-   - Set **Use Store Address** to one of the following values:
+1. Set **Use Store Address** to one of the following values:
 
-      - `Yes` – Send returned products to the store address.
-      - `No` – Enter an alternate address for product returns.
+   - `Yes` – Send returned products to the store address.
+   - `No` – Enter an alternate address for product returns.
 
-      ![]({% link images/images/config-sales-sales-rma-settings-address-info.png %}){: .zoom}
-      [_RMA Settings with Alternate Address_]({% link configuration/sales/sales.md %})
+   ![]({% link images/images/config-sales-sales-rma-settings-address-info.png %}){: .zoom}
+   [_RMA Settings with alternate address_]({% link configuration/sales/sales.md %})
 
-1. Click **Save Config**.
+1. Click <span class="btn">Save Config</span>.

@@ -5,7 +5,7 @@ title: My Wish List
 A wish list is a convenient way for customers to keep track of products that they like, but are not ready to buy. Items from a wish list can be shared with others or added to the shopping cart. If the customer has multiple wish lists, the name of the current wish list appears at the top of the page.
 
 ![]({% link images/images-ee/account-dashboard-wishlist.png %}){: .zoom}
-_My Wish List_{:.ee-only}
+_My Wish List_
 
 ## Update the product listing
 
@@ -59,4 +59,4 @@ _My Wish List_{:.ee-only}
 1. When complete, click <span class="btn">Save</span>.
 
     ![]({% link images/images-ee/account-dashboard-wishlist-create-new.png %}){: .zoom}
-    _Create New Wish List_
+    _Create New Wish List_{:.ee-only}
