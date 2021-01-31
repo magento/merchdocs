@@ -4,9 +4,9 @@ title: Creating an Invoice
 
 Creating an invoice for an order converts the temporary sales order into a permanent record of the order that cannot be canceled. A new invoice page looks similar to a completed order, with some additional fields. Every activity that is related to an order is noted in the Comments section of the invoice.
 
-Normally, orders are invoiced and shipped after payment is received. However, if the method of payment is a purchase order, the order can be invoiced and shipped before payment is received. You can generate an invoice with a packing slip, and also print shipping labels from your carrier account. A single order can be divided into partial shipments which are invoiced separately, if necessary.
+Normally, orders are invoiced and shipped after payment is received. However, if the method of payment is a purchase order, the order can be invoiced and shipped before payment is received. You can generate an invoice with a packing slip, and also print shipping labels from your carrier account. A single order can be divided into partial shipments, which are invoiced separately when necessary.
 
-When the state of new orders is set to _Processing_ the option to _Automatically Invoice All Items_ becomes available in the configuration. Some credit card payment methods complete the invoicing step as part of the process when Payment Action is set to _Authorize and Capture_. In such a case, the Invoice button does not appear, and the order is ready to ship.
+When the state of new orders is set to _Processing_ the option to _Automatically Invoice All Items_ becomes available in the configuration. Some credit card payment methods complete the invoicing step as part of the process when [Payment Action](#payment-actions) is set to _Authorize and Capture_. In such a case, the Invoice button does not appear, and the order is ready to ship.
 
 You must generate an invoice for an order before you can print it. To view or print the PDF, first download and install a PDF reader such as [Adobe Acrobat Reader][1].
 
@@ -19,14 +19,14 @@ _Invoices_
 
 1. In the _Operations_ section, choose **Orders**.
 
-1. Find the sales order with the status of `Processing` in the grid. Then, do the following:
+1. Find the sales order with the status of `Pending` in the grid.
 
 1. In the _Action_ column, click **View**.
 
 1. In the header of the sales order, choose the **Invoice** option.
 
     {:.bs-callout-info}
-    The Invoice option does not appear if the payment method is set to _Authorize and Capture_.
+    The Invoice option does not appear if the [payment action](#payment-actions) for your specific [payment method]({% link configuration/sales/payment-methods.md %}) is set to _Authorize and Capture_.
 
     The new invoice page looks similar to a completed order page, with additional fields that can be edited.
 
@@ -52,8 +52,8 @@ _Invoices_
       - In the _Items to Invoice_ section, update the **Qty to Invoice** column to include only specific items on the invoice.
       - Then, click **Update Qty’s**.
 
-        ![]({% link images/images/invoice-items-to-invoice.png %}){: .zoom}
-        _Items to Invoice_
+      ![]({% link images/images/invoice-items-to-invoice.png %}){: .zoom}
+      _Items to Invoice_
 
         This allows you to create multiple invoices for one or more items in an order.
 
@@ -65,7 +65,9 @@ _Invoices_
 
    - Enter any **Invoice Comments**. To include the comments in the notification email, mark the **Append Comments** checkbox.
 
-1. When complete, click **Submit Invoice** at the bottom of the page. The status of the order changes from `Pending` to `Complete`.
+1. When complete, click **Submit Invoice** at the bottom of the page.
+
+   The status of the order changes from `Pending` to `Processing`.
 
     ![]({% link images/images/invoice-submit-invoice-capture-online.png %}){: .zoom}
     _Submit Invoice (Online Payment Method)_
@@ -76,7 +78,13 @@ _Invoices_
     ![]({% link images/images/invoice-full.png %}){: .zoom}
     _Completed Invoice_
 
-## Print the invoice:
+## Print the invoice
+
+To print the invoice:
+
+1. Click **Invoices** in the left panel.
+
+1. Find the invoice in the grid and click **View**.
 
 1. At the top of the workspace, click **Print** to generate a PDF of the invoice.
 
@@ -86,6 +94,10 @@ _Invoices_
 
     ![]({% link images/images/invoice-print-pdf.png %}){: .zoom}
     _Default PDF Invoice_
+
+## Payment actions
+
+You can configure payment actions for your specific [payment method]({% link configuration/sales/payment-methods.md %}). Each payment method has a different set of payment actions.
 
 |Payment Action |Description
 |--- |---
