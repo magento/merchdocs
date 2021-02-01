@@ -13,6 +13,9 @@ You have two options for calculating the distance and time to find the closest s
 
 - **Offline Calculation** - Calculates the distance using downloaded and imported geocode data using zip/post codes and GPS coordinates to determine the closest source to the shipping destination address. To configure this option, you may require developer assistance to initially download and import geocodes using command line instructions.
 
+{:.bs-callout-info}
+For multistore website with several countries configure [Default Tax Destination]({% link tax/tax-destination-default.md %}) for each country.
+
 ## Configure Google Maps
 
 You do not need a Google account to get started. The process includes Google account and project creation, if needed. This option requires a billing account and payment method added to your Google account to complete configurations and use the algorithm.
