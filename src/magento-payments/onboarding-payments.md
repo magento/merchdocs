@@ -4,11 +4,13 @@ title: Onboarding Payments
 
 Magento Payments is your turnkey self-service solution---including sandbox testing, fraud prevention, and a super simple setup---for implementing a robust payments services for your Magento store.
 
-To get started using Magento Payments you must complete a few onboarding steps to connect your instance with our payments functionality---it's as easy as 1-2-3.
+To get started using Magento Payments you must complete a few onboarding steps to connect your instance with our payments functionality.
 
 1. [Connect your Magento instance](#configure-magento-services) to Magento Software as a Service (SaaS) services. This only needs to be completed once per Magento instance.
 1. [Enable sandbox testing](#enable-sandbox-testing) (or, alternatively, [enable live payments](#enable-live-payments) if you've tested functionality in another environment) to set up a test PayPal payment processing account.
 1. [Choose Magento Payments as your payment method](#set-magento-payments-as-payment-method) of choice.
+1. [Enable live payments](#enable-live-payments) for your Magento store(s).
+1. [Activate live payments](#activate-live-payments) to begin using Magento Payments in your Magento store.
 
 {:.bs-callout-info}
 If you have not yet configured your Magento Services in the Admin, you cannot proceed to setting up sandbox or live payments.
@@ -53,8 +55,6 @@ The first step in onboarding Magento Payments is to configure your Magento Servi
 
 ## Enable sandbox testing
 
-## Enable live payments
-
 ## Set Magento Payments as payment method
 
 After you [configure your Magento Services](#configure-magento-services) and enable either [sandbox testing](#enable-sandbox-testing) or [live payments](#enable-live-payments) (or both!) you must set Magento Payments as your payment method.
@@ -75,6 +75,10 @@ After you [configure your Magento Services](#configure-magento-services) and ena
 
 1. Click <span class="btn">Save Config</span>.
 1. Click <span class="btn">Go to Magento Payments</span> to be directed back to Magento Payments home.
+
+## Enable live payments
+
+## Activate live payments
 
 ## Get help
 
