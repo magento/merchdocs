@@ -20,7 +20,5 @@ _PayPal Settlement Reports_
 
    The system connects to the PayPal SFTP server to fetch the reports. When the process is complete, a message appears with the number of reports fetched. The report includes the following information for each transaction:
 
-   | Field | Description|
-   | --- | --- |
    | PayPal Reference ID Type | One of the following reference codes:<br/>- Order IDT<br/>- Transaction ID<br/>- Subscription ID |
-   | Preapproved Payment ID | **Custom** The text entered by the merchant on the transaction in PayPal.<br/>**Transaction Debit or Credit** The direction of money movement of gross amount.<br/>**Fee Debit or Credit** The direction of money movement for fee. |
+   | Preapproved Payment ID | **Custom** - The text entered by the merchant on the transaction in PayPal.<br/>**Transaction Debit or Credit** - The direction of money movement of gross amount.<br/>**Fee Debit or Credit** - The direction of money movement for fee. |

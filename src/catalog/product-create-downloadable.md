@@ -132,7 +132,7 @@ _Downloadable Information_
 
    - For both **File** and **Sample** files, choose one of the following methods of distribution for the downloads:
 
-      |Upload File|Choose this method to upload the the distribution file to the server. Browse to the file and select it for upload.|
+      |Upload File|Choose this method to upload the distribution file to the server. Browse to the file and select it for upload.|
       |URL|Choose this method to access the distribution file from a URL. Enter the full URL to the download file.|
 
    - Set **Shareable** to one of the following:
@@ -166,7 +166,7 @@ _Downloadable Information_
 
    - Choose one of the following distribution methods:
 
-      |Upload File|Choose this method to upload the the distribution file to the server. Browse to the file and select it for upload.|
+      |Upload File|Choose this method to upload the distribution file to the server. Browse to the file and select it for upload.|
       |URL|Choose this method to access the distribution file from a URL. Enter the full URL to the download file.|
 
    - To add another sample, click <span class="btn">Add Link</span> and repeat these steps.
