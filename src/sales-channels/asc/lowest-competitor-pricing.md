@@ -14,7 +14,7 @@ _Lowest Competitor Pricing_
 
 1. Click **Manage Listings** on the store dashboard.
 
-   The the [_Product Listing_]({% link sales-channels/asc/managing-product-listings.md %}) page opens.
+   The [_Product Listing_]({% link sales-channels/asc/managing-product-listings.md %}) page opens.
 
 1. On any of the listing status tabs, click a product listing name for a listing.
 

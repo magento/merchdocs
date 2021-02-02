@@ -1,8 +1,8 @@
 ---
-title: PayPal by Country
+title: PayPal Solutions by Country
 ---
 
-|Country|PayPal Payment Solution|
+|Country|PayPal payment solution|
 |--- |--- |
 |Australia|PayPal Website Payments Standard<br/>[PayPal Payflow Pro]({% link payment/paypal-payflow-pro.md %})<br/>PayPal Website Payments Pro Hosted Solution<br/>[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|
 |Canada|PayPal Website Payments Standard<br/>PayPal Website Payments Pro<br/>[PayPal Payflow Pro]({% link payment/paypal-payflow-pro.md %})<br/>[PayPal Payflow Link]({% link payment/paypal-payflow-link.md %}) (includes Express Checkout)<br/>[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|
@@ -16,7 +16,7 @@ title: PayPal by Country
 |United Kingdom|PayPal Payments Pro Hosted Solution (includes Express Checkout)<br/>[PayPal Payments Standard]({% link payment/paypal-payments-standard.md %})<br/>[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|
 |United States|[PayPal Payments Advanced]({% link payment/paypal-payments-advanced.md %}) (Includes Express Checkout)<br/>[PayPal Payments Pro]({% link payment/paypal-payments-pro.md %}) (Includes Express Checkout)<br/>[PayPal Payments Standard+]({% link payment/paypal-payments-standard.md %})<br/>[PayPal Payflow Pro]({% link payment/paypal-payflow-pro.md %}) (Includes Express Checkout)<br/>[PayPal Payflow Link]({% link payment/paypal-payflow-link.md %}) (Includes Express Checkout)<br/>[PayPal Express Checkout]({% link payment/paypal-express-checkout.md %})|
 
-## Other Countries
+## Other countries
 
 PayPal Express Checkout and PayPal Website Payments Standard are available in the following countries:
 

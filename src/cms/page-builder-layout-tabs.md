@@ -119,7 +119,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
    - **Vertical Alignment** - Choose the vertical position of content containers that are added to the tab.
 
-1. Change the other settings as needed using the the following sections for details.
+1. Change the other settings as needed using the following sections for details.
 
 1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
