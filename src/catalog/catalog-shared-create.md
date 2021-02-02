@@ -55,7 +55,7 @@ If a public shared catalog is duplicated, the type of the duplicate catalog chan
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Shared Catalogs**.
 
-1. For the the shared catalog in the [grid]({% link stores/admin-grid-controls.md %}) that you want to duplicate, go to the **Action** column and select **General Settings**.
+1. For the shared catalog in the [grid]({% link stores/admin-grid-controls.md %}) that you want to duplicate, go to the **Action** column and select **General Settings**.
 
 1. In the options across the top of the page, click **Duplicate** and update the following fields as needed:
 

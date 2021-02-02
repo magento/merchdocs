@@ -2,7 +2,9 @@
 title: Invoices
 ---
 
-An invoice is a record of the record of payment for an order. Multiple invoices can be created for a single order, and each can include as many or as few of the purchased products that you specify. You can upload a high-resolution logo for a print-ready PDF invoice, and include the [Order ID]({% link marketing/sales-documents-ref-id.md %}) in the header. To customize the invoice template with your logo, see: [PDF Logo Requirements]({% link marketing/sales-document-pdf-logo.md %}).
+An invoice is a record of the record of payment for an order. Multiple invoices can be [created]({% link sales/invoice-create.md %}) for a single order, and each can include as many or as few of the purchased products that you specify. You can also create [print-ready PDF invoices]({% link sales/invoice-print.md %}) as sales documents for your customers.
 
-![]({% link images/images/invoices-multiple-pdf.png %}){: .zoom}
-_PDF Invoice_
+On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Invoices** to open the _Invoices_ grid and access your created invoices.
+
+![]({% link images/images/sales-invoices.png %}){: .zoom}
+_Invoices grid_
