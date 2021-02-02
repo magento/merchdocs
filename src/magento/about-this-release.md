@@ -54,8 +54,8 @@ Magento 2.0.18 was the final 2.0.x release. After March 2018, Magento 2.0.x stop
 - {:.ce-only}[Magento Community 2.0 User Guide][9]{:target="_blank"}
 - {:.ee-only}[Magento Enterprise 2.0 User Guide][10]{:target="_blank"}
 
-[1]: https://devdocs.magento.com/guides/v2.4/release-notes/release-notes-2-4-1-commerce.html
-[2]: https://devdocs.magento.com/guides/v2.4/release-notes/release-notes-2-4-1-open-source.html
+[1]: https://devdocs.magento.com/guides/v2.4/release-notes/commerce-2-4-1.html
+[2]: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-1.html
 [3]: https://magento.com/products/community-edition
 [4]: https://docs.magento.com/m2/pdf/ee/Magento-Enterprise-Edition-2.1-User-Guide.pdf
 [5]: https://docs.magento.com/m2/pdf/ce/Magento-Community-Edition-2.1-User-Guide.pdf
