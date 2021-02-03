@@ -2,7 +2,7 @@
 title: Catalog
 ---
 
-The Catalog configuration settings can be found in **Stores** > **Configuration** > **Catalog**.
+The Catalog configuration settings can be found in **Stores** > **Settings** > **Configuration** > **Catalog**.
 
 ![Catalog configuration settings]({% link images/images-ee/config-catalog.png %}){: .zoom}
 _Catalog configuration settings_{:.ee-only}
