@@ -2,13 +2,11 @@
 title: Transactions
 ---
 
-The Transactions grid lists all payment activity that has taken place between your store and a payment system, and provides access to more detailed information.
+The _Transactions_ grid lists all payment activity that has taken place between your store and a payment system, and provides access to more detailed information.
 
-## To view transactions:
+## View transactions
 
-1. On the _Admin_ sidebar, click **Sales**.
-
-1. In the _Operations_ section, choose **Transactions**.
+On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Transactions**.
 
 ![]({% link images/images/sales-transactions.png %}){: .zoom}
-_Transactions_
+_Transactions grid_

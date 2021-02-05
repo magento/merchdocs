@@ -2,7 +2,7 @@
 title: Sales
 ---
 
-The Sales configuration settings can be found in **System** > **Configuration** > **Sales**.
+The Sales configuration settings can be found in **Stores** > _Settings_ > **Configuration** > **Sales**.
 
 ![Sales configuration settings]({% link images/images/config-sales.png %}){: .zoom}
 _Sales configuration settings_
