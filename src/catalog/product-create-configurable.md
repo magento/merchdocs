@@ -348,4 +348,4 @@ If you have a different image for each variation you can set the configuration t
 
 - Swatch attributes can be configured to not display corresponding simple product images when the swatch is selected by setting the "Update Product Preview Image" option value to "No" at the attribute edit page in the admin.
 
-- It is controlled by the theme how Image Gallery will behave when a user switches between product configurations. Default behavior for Blank theme is to override the parent configurable product images with selected product variation, while for Luma theme, the default behavior is to prepend selected product variation images to the parent configurable product images.   
+- It is controlled by the theme how Image Gallery will behave when a user switches between product configurations. Default behavior for Blank theme is to override the parent configurable product images with selected product variation, while for Luma theme, the default behavior is to prepend selected product variation images to the parent configurable product images.
