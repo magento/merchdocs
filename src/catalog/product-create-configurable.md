@@ -345,3 +345,7 @@ If you have a different image for each variation you can set the configuration t
 - The attribute set that is used as a template for a configurable product must include the attribute(s) that contain the values that are needed for each product variation.
 
 - The thumbnail image in the shopping cart can be set to display the image from the configurable product record or from the product variation.
+
+- Swatch attributes can be configured to not display corresponding simple product images when the swatch is selected by setting the "Update Product Preview Image" option value to "No" at the attribute edit page in the admin.
+
+- It is controlled by the theme how Image Gallery will behave when a user switches between product configurations. Default behavior for Blank theme is to override the parent configurable product images with selected product variation, while for Luma theme, the default behavior is to prepend selected product variation images to the parent configurable product images.   
