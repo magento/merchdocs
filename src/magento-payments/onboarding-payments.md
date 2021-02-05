@@ -17,6 +17,15 @@ If you do not configure your Magento Services in the Admin (step 1 above) you ca
 
 ## Onboarding flow
 
+![Onboarding flow]({% link magento-payments/assets/onboardingflow-docs.png %}){: .zoom}
+_Onboarding flow (click to zoom)_
+
+This onboarding flow diagram shows the general process for onboarding Magento Payments.
+
+Once you complete onboarding for sandbox or live payments, cashflow management reports are accessible from Magento Payments in the Admin.
+
+If both sandbox and live payments are onboarded and enabled, you can easily switch between those modes from the Magento Payments home.
+
 ## Prerequisites
 
 In order to use Magento Payments, you must have the following available for your instance:
