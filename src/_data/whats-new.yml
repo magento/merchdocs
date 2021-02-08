@@ -34,7 +34,7 @@ entries:
 - description: Added multiple updates across the Page Builder section to reflect changes
     to the [Page Builder stage](https://docs.magento.com/user-guide/cms/page-builder-workspace.html#stage),
     which is now initially blank and supports adding the following content types directly
-    to the stage: Rows, Columns, Tabs, HTML Code, Blocks, Dynamic Blocks.
+    to the stage for Rows, Columns, Tabs, HTML Code, Blocks, and Dynamic Blocks.
   versions: 2.4.2
   type: Major update
   date: February 9, 2021
