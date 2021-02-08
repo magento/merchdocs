@@ -21,7 +21,30 @@ This dashboard displays a table of previously configured recommendations (if any
 
 See [Recommendation Types]({% link marketing/prex-types.md %}) to learn about the available recommendation types in Magento.
 
-## Backup recommendations {#backup-recommendations}
+## The "Cold Start" problem
+
+The "Cold Start" problem refers to how much time a model needs to train before it can be considered high quality. In product recommendations, it translates to waiting for Adobe Sensei to train its machine learning models before deploying Recommendation units on your site.
+
+How long that takes depends on the following variables:
+
+- Higher traffic volume contributes to faster learning
+- Some recommendation types train faster than others
+- Some recommendation types do not require any training
+
+{:.bs-callout-info}
+If there is not enough training data collected, Magento uses [backup recommendations](#backup-recommendations) to populate your recommendation units.
+
+| Recommendation Type | Time needed to train | Notes |
+|---|---|---|
+|More like this, Visual similarity | No training needed | These use catalog data only|
+|Popularity-based (Most viewed, Most purchased, Most added to cart) | Requires little training | Depends on volume of events - views are most common, then add to cart, then purchase|
+|Trending | Requires three days of data to establish a popularity baseline| Trending is not about the absolute number of times something gets interacted with (via view, add to cart, purchase) but about the recent momentum of a product's popularity compared with its own popularity baseline. A product's popularity baseline is computed using a foreground set (recent popularity over 24 hours) and a background set (popularity baseline over 72 hours). If something has become much more popular recently, within 24 hours compared to its baseline popularity, then it will become a trending product. Every product has this score, and the highest one at any time comprise the set of top trending products. |
+|Viewed this, viewed that | Requires more training |Product views are decently high in volume|
+|Viewed this, bought that; Bought this, bought that| Requires the most training |Purchase events are the most rare events on commerce site, especially compared to product views|
+
+{:.bs-callout-info}
+Because Magento recomputes behavioral data every four hours, you can technically deploy your recommendation units at that time knowing that the recommendations will become more accurate the longer they are used on your site.
+### Backup recommendations {#backup-recommendations}
 
 If there is not sufficient input data to provide all requested recommendation items in a unit, Magento provides backup recommendations to fill those items.
 
