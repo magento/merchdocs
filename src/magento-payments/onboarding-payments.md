@@ -2,15 +2,15 @@
 title: Onboarding Payments
 ---
 
-Magento Payments is your turnkey self-service solution---including sandbox testing, fraud prevention, and a super simple setup---for implementing a robust payments services for your Magento store.
+Magento Payments is your turnkey self-service solution---including sandbox testing, fraud prevention, and a super simple setup---for providing robust and secure payment processing for your Magento store.
 
 To get started using Magento Payments you must complete a few onboarding steps to connect your instance with our payments functionality.
 
 1. [Connect your Magento instance](#configure-magento-services) to Magento Software as a Service (SaaS) services. This only needs to be completed once per Magento instance.
-1. [Enable sandbox testing](#enable-sandbox-testing) (or, alternatively, proceed to [enabling live payments](#enable-live-payments) if you've tested functionality in another environment) to set up a test PayPal payment processing account.
-1. [Choose Magento Payments as your payment method](#set-magento-payments-as-payment-method) of choice.
-1. [Enable live payments](#enable-live-payments) for your Magento store(s).
-1. [Activate live payments](#activate-live-payments) to begin using Magento Payments in your Magento store.
+1. [Onboard and set up the sandbox service](#enable-sandbox-testing) (or, alternatively, proceed to [enabling live payments](#enable-live-payments) if you've tested functionality in another environment) to set up a test PayPal payment processing account.
+1. [Enable Magento Payments as your payment method](#set-magento-payments-as-payment-method), in sandbox mode, to start processing test payments in your store.
+1. [Complete Merchant onboarding](#enable-live-payments) to enable live payments for your Magento store(s).
+1. [Activate Magento Payments in live mode](#activate-live-payments) to begin processing live payments in your Magento store.
 
 {:.bs-callout-info}
 If you do not configure your Magento Services in the Admin (step 1 above) you cannot set up sandbox or live payments.
@@ -88,7 +88,7 @@ To complete sandbox onboarding:
    1. In the _Sandbox Accounts_ section, click the three dots in the _Manage accounts_ column for the sandbox account you just created.
    1. Click **View/edit account**.
 
-      ![PayPal - View/edit sandbox account]({% link magento-payments/assets/onboarding-vieweditsandbox.png %}){: .zoom}
+      ![PayPal - View/edit sandbox account]({% link magento-payments/assets/onboarding-viewedit-sandbox.png %}){: .zoom}
       _View/edit sandbox account_
 
    1. Copy the Email ID and System Generated Password for future use.
