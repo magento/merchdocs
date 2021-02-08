@@ -31,10 +31,10 @@ entries:
   type: Minor update
   date: February 9, 2021
   link: https://github.com/magento/merchdocs/pull/976
-- description: 'Multiple updates across the Page Builder section to reflect changes
+- description: Added multiple updates across the Page Builder section to reflect changes
     to the [Page Builder stage](https://docs.magento.com/user-guide/cms/page-builder-workspace.html#stage),
     which is now initially blank and supports adding the following content types directly
-    to the stage: Rows, Columns, Tabs, HTML Code, Blocks, Dynamic Blocks.'
+    to the stage: Rows, Columns, Tabs, HTML Code, Blocks, Dynamic Blocks.
   versions: 2.4.2
   type: Major update
   date: February 9, 2021
@@ -53,7 +53,7 @@ entries:
   type: New topic
   date: February 9, 2021
   link: https://github.com/magento/merchdocs/pull/900
-- description: Updates to for the latest release of the dotdigital bundled extension:<br/>-
+- description: Updates for the latest release of the dotdigital bundled extension:<br/>-
     A new page for [Transactional SMS](https://docs.magento.com/user-guide/configuration/dotdigital/transactional-sms.html)
     (dependent on the new `Dotdigitalgroup_Sms` module being installed)<br/>- New
     sections for [Image Types](https://docs.magento.com/user-guide/configuration/dotdigital/configuration.html#image-types)
