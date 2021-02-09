@@ -2,7 +2,7 @@
 title: General
 ---
 
-The General configuration settings can be found in **Stores** > **Settings** > **Configuration** > **General**.
+The General configuration settings can be found in **Stores** > _Settings_ > **Configuration** > **General**.
 
 ![General configuration settings]({% link images/images/config-general.png %}){: .zoom}
 _General configuration settings_
