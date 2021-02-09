@@ -41,6 +41,9 @@ When a new scheduled update is created for any of the following objects, a corre
 
    If all campaigns have end dates, the baseline content is restored whenever all active campaigns end.
 
+{:.bs-callout-info}
+While a staging update is active for an entity, editing the entity is editing the current active staging update. It does not affect the baseline content, which is restored when the staging update ends.  
+
 ## Content Staging dashboard
 
 The Content Staging [dashboard]({% link cms/content-staging-dashboard.md %}) provides visibility into all planned site changes and updates. Any day, range of dates, or time period of a campaign can be previewed, and shared with others.

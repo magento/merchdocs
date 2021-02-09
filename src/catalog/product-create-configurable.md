@@ -106,8 +106,6 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
       - Click <span class="btn">Create Category</span>.
 
-1. To feature the product in the list of [new products]({% link cms/widget-new-products-list.md %}), select the **Set Product as New** checkbox.
-
 1. Choose the **Country of Manufacture**.
 
     ![]({% link images/images/product-details-configurable.png %}){: .zoom}
@@ -347,3 +345,7 @@ If you have a different image for each variation you can set the configuration t
 - The attribute set that is used as a template for a configurable product must include the attribute(s) that contain the values that are needed for each product variation.
 
 - The thumbnail image in the shopping cart can be set to display the image from the configurable product record or from the product variation.
+
+- Swatch attributes can be configured to not display corresponding simple product images when the swatch is selected by setting the "Update Product Preview Image" option value to "No" at the attribute edit page in the admin.
+
+- The theme controls how the Image Gallery behaves when a user switches between product configurations. The default behavior for the Blank theme is to override the parent configurable product images with the selected product variation. For the Luma theme, the default behavior is to prepend the selected product variation images to the parent configurable product images.

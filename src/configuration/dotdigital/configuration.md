@@ -4,7 +4,7 @@ redirect_from:
   - /configuration/engagement-cloud/configuration.html
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdigital]({% link configuration/dotdigital.md %}) > Configuration
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdigital]({% link configuration/dotdigital.md %}) > Configuration
 
 ## Data Fields
 
@@ -16,6 +16,18 @@ _Data Fields_
 |Data fields calculation with status|Website|Specifies the order status that is used to calculate contact data values such as total spend, average order value, or number of orders. Options: Pending / Processing / Suspected Fraud / Complete / Closed / Canceled / On Hold|
 |Brand Attribute|Website|If your product [attribute set]({% link stores/attribute-sets.md %})(s) use the manufacturer attribute, it can be used as an alternative attribute for brand-related values which are synced to dotdigital.|
 
+## Image Types
+
+![]({% link images/images/config-engagement-cloud-configuration-image-types.png %}){: .zoom}
+_Image Types_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Catalog Sync|Website|Specifies the image type property to be selected by dotdigital for the catalog sync.|
+|Abandoned Cart|Website|Specifies the image type property to be selected by dotdigital for the abandoned cart data.|
+|Abandoned Browse|Website|Specifies the image type property to be selected by dotdigital for the abandoned browse data.|
+|Dynamic Content|Website|Specifies the image type property to be selected by dotdigital for the dynamic content blocks.|
+
 ## Tracking
 
 ![]({% link images/images/config-engagement-cloud-configuration-tracking.png %}){: .zoom}
@@ -25,7 +37,7 @@ _Tracking_
 |--- |--- |--- |
 |ROI Tracking|Website|Calculates the return on investment from campaign link clicks. When enabled, dotdigital tracks visitors who arrive at your site after clicking a campaign link. The ROI value is tracked and calculated for all purchases made during the visit. Options: Enable / Disable|
 |Page Tracking|Website|Tracks page visits related to campaign link clicks. When enabled, dotdigital tracks visitors who arrive at your site after clicking a campaign link, and tracks subsequent pages they visit in your site.|
-|Script version|Website|Adds an optional version number to the ROI tracking script to force a reload if the script is cached.|
+|Web Behaviour Tracking Profile Id|Website|Enables web behaviour tracking to record browsing insights by session, last browsed products, and searched terms.|
 
 ## Consent
 
