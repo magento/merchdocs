@@ -75,7 +75,7 @@ Use either of the following methods to create swatches for your products.
 
 1. Verify that **Catalog Input Type for Store Owner** is set to `Visual Swatch`.
 
-1. If it is preferred to not display corresponding simple product images when the swatch is selected on the product display page, set the "Update Product Preview Image" option value to "No".
+1. If you prefer to not display corresponding simple product images when the swatch is selected on the product display page, set the "Update Product Preview Image" option value to "No".
 
 1. Under _Manage Swatch_ (values of your attribute), click <span class="btn">Add Swatch</span> and do the following:
 
