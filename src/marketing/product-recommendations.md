@@ -32,7 +32,7 @@ How long that takes depends on the following variables:
 - Some recommendation types do not require any training
 
 {:.bs-callout-info}
-If there is not enough training data collected, Magento uses [backup recommendations](#backup-recommendations) to populate your recommendation units.
+Until there is not enough training data collected, Magento uses [backup recommendations](#backup-recommendations) to populate your recommendation units.
 
 | Recommendation Type | Time needed to train | Notes |
 |---|---|---|
