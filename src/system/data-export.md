@@ -49,3 +49,6 @@ Data export is an asynchronous operation, which executes in the background so th
    Upon completion of the task, the file is processed through a message queue (make sure your cron job is running). The exported file is saved in the `var/export/ folder`. For more information about the message queue, see ]Manage message queues](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) in our developer documentation.
 
     You can save or open the exported CSV file as a spreadsheet, then edit the data and import it back into your store.
+
+    {:.bs-callout-info}
+    By default, all exported files are located in the `<Magento-root-directory>/var/export` folder. If the Remote storage module is enabled, all exported files are located in the `<remote-storage-root-directory>/import_export/export` folder.
