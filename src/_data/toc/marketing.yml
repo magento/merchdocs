@@ -492,6 +492,56 @@ pages:
       url: "/marketing/variables-reference.html"
   - label: Social
     url: "/marketing/social.html"
+- label: Live Search
+  url: "/live-search/overview.html"
+  edition: ee-only
+  children:
+  - label: Storefront Tour
+    url: "/live-search/storefront-tour.html"
+  - label: Onboarding
+    url: "/live-search/onboarding.html"
+  - label: Workspace
+    url: "/live-search/workspace.html"
+  - label: Performance
+    url: "/live-search/performance.html"
+    children:
+    - label: Generate Report
+      url: "/live-search/performance-report.html"
+  - label: Facets
+      url: "/live-search/facets.html"
+      children:
+      - label: Dynamic Search
+        url: "/live-search/dynamic-search.html"
+      - label: Facet Types
+        url: "/live-search/facets-type.html"
+      - label: Facets Workspace
+        url: "/live-search/facets-workspace.html"
+      - label: Add Facets
+        url: "/live-search/facets-add.html"
+      - label: Manage Facets
+        url: "/live-search/facets-manage.html"
+  - label: Synonyms
+      url: "/live-search/synonyms.html"
+      children:
+      - label: Types of Synonyms
+        url: "/live-search/synonyms-type.html"
+      - label: Synonyms Workspace
+        url: "/live-search/workspace.html"
+      - label: Add Synonyms
+        url: "/live-search/synonyms-add.html"
+      - label: Manage Synonyms
+        url: "/live-search/synonyms-manage.html"
+  - label: Rules
+      url: "/live-search/rules.html"
+      children:
+      - label: Rules Workspace
+        url: "/live-search/rules-workspace.html"
+      - label: Query Types
+        url: "/live-search/query-types.html"
+      - label: Add Rule
+        url: "/live-search/rule-add.html"
+      - label: Manage Rules
+        url: "/live-search/rules-manage.html"
 - label: SEO and Search
   url: "/marketing/seo-search.html"
   children:
@@ -574,84 +624,6 @@ pages:
           url: "/marketing/url-rewrite-custom.html"
         - label: Update Multiple Rewrites
           url: "/marketing/url-rewrite-update-all.html"
-- label: Live Search
-  url: "/live-search/overview.html"
-  edition: ee-only
-  children:
-  - label: Getting Started
-    url: "/live-search/getting-started.html"
-    children:
-    - label: Data Types
-      url: "/live-search/data-types.html"
-    - label: Requirements
-      url: "/live-search/requirements.html"
-    - label: Install Live Search
-      url: "/live-search/install.html"
-    - label: Connect Live Search
-      url: "/live-search/connect.html"
-    - label: SaaS Environment
-      url: "/live-search/saas.html"
-  - label: Customize Live Search
-    url: "/live-search/customize.html"
-    children:
-    - label: Facets
-      url: "/live-search/facets.html"
-      children:
-      - label: Admin Facet Setup
-        url: "/live-search/facet-setup.html"
-      - label: Facet Behavior
-        url: "/live-search/facet-behavior.html"
-      - label: Facet Example
-        url: "/live-search/facet-example.html"
-      - label: Managing Facets
-        url: "/live-search/facet-manage.html"
-        children:
-        - label: Create a Facet
-          url: "/live-search/facet-create.html"
-        - label: Edit a Facet
-          url: "/live-search/facet-edit.html"
-        - label: Delete a Facet
-          url: "/live-search/facet-delete.html"
-    - label: Synonyms
-      url: "/live-search/synonyms.html"
-      children:
-      - label: Types of Synonyms
-        url: "/live-search/synonyms-types.html"
-      - label: Admin Setup
-        url: "/live-search/synonyms-setup.html"
-        children:
-        - label: One-Way Example
-          url: "/live-search/synonyms-one-way.html"
-        - label: Two-Way Example
-          url: "/live-search/synonyms-two-way.html"
-      - label: Managing Synonyms
-        url: "/live-search/synonyms-manage.html"
-        children:
-        - label: Create a Synonym
-          url: "/live-search/synonyms-create.html"
-        - label: Edit a Synonym
-          url: "/live-search/synonyms-edit.html"
-        - label: Delete a Synonym
-          url: "/live-search/synonyms-delete.html"
-    - label: Rules
-      url: "/live-search/rules.html"
-      children:
-      - label: Create a Rule
-        url: "/live-search/rules-create.html"
-      - label: Edit a Rule
-        url: "/live-search/rules-edit.html"
-      - label: Duplicate a Rule
-        url: "/live-search/rules-duplicate.html"
-      - label: View Rule Details
-        url: "/live-search/rules-details.html"
-      - label: Delete a Rule
-        url: "/live-search/rules-delete.html"
-  - label: Performance
-    url: "/live-search/performance.html"
-  - label: API Reference
-    url: "/live-search/api-ref.html"
-  - label: SDK Reference
-    url: "/live-search/sdk-ref.html"
 - label: Google Tools
   url: "/marketing/google-tools.html"
   children:
