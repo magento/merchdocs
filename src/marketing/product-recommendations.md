@@ -21,7 +21,7 @@ This dashboard displays a table of previously configured recommendations (if any
 
 See [Recommendation Types]({% link marketing/prex-types.md %}) to learn about the available recommendation types in Magento.
 
-## Training the machine learning models
+## Time to train the machine learning models
 
 Some recommendation types do not use any behavioral data and therefore do not use machine learning models to compute results. You can use those recommendations immediately.
 
