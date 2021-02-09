@@ -98,7 +98,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
 ## Configure offline calculation
 
-Offline calculations use country codes to determine the distance between the shipping destination and source addresses. This option may require developer assistance to configure. You will issue an Inventory Management CLI command to download and import data from [geonames.org][5].
+Offline calculations use country codes to determine the distance between the shipping destination and source addresses. This option may require developer assistance to configure. You will need to issue an Inventory Management CLI command to download and import data from [geonames.org][5].
 
 {:.bs-callout-info}
 Imported geocodes from [geonames.org][5] have limitations for some countries like Canada, Ireland, etc. Please refer to [GeoNames Postal Code files][7] for more information.
