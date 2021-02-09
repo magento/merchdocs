@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: Install Live Search
+title: Onboarding
 group: marketing
 ---
 

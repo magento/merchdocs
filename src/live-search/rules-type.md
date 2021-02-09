@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: Rules
+title: Rule Types
 group: marketing
 ---
 

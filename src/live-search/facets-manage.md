@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: Managing Facets
+title: Manage Facets
 group: marketing
 ---
 

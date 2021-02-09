@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: Facets
+title: Facet Types
 group: marketing
 ---
 

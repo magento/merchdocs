@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: Create a Facet
+title: Add Facets
 group: marketing
 ---
 

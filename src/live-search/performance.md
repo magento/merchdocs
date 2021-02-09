@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: Live Search Performance
+title: Performance
 group: marketing
 ---
 

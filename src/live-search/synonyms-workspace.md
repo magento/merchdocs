@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: Synonyms
+title: Synonyms Workspace
 group: marketing
 ---
 
