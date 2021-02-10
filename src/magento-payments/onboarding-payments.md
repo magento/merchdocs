@@ -2,15 +2,15 @@
 title: Onboarding Payments
 ---
 
-Magento Payments is your turnkey self-service solution---including sandbox testing, fraud prevention, and a super simple setup---for providing robust and secure payment processing for your Magento store.
+Magento Payments is your turnkey self-service solution---including sandbox testing and a super simple setup---for providing robust and secure payment processing for your Magento websites.
 
 To get started using Magento Payments you must complete a few onboarding steps to connect your instance with our payments functionality.
 
 1. [Connect your Magento instance](#configure-magento-services) to Magento Software as a Service (SaaS) services. This only needs to be completed once per Magento instance.
 1. [Onboard and set up the sandbox service](#enable-sandbox-testing) (or, alternatively, proceed to [enabling live payments](#enable-live-payments) if you've tested functionality in another environment) to set up a test PayPal payment processing account.
-1. [Enable Magento Payments as your payment method](#set-magento-payments-as-payment-method), in sandbox mode, to start processing test payments in your store.
-1. [Complete Merchant onboarding](#enable-live-payments) to enable live payments for your Magento store(s).
-1. [Activate Magento Payments in live mode](#activate-live-payments) to begin processing live payments in your Magento store.
+1. [Enable Magento Payments as your payment method](#set-magento-payments-as-payment-method), in sandbox mode, to start processing test payments.
+1. [Complete Merchant onboarding](#enable-live-payments) to enable live payments for your Magento website(s).
+1. [Activate Magento Payments in live mode](#activate-live-payments) to begin processing live payments.
 
 {:.bs-callout-info}
 If you do not configure your Magento Services in the Admin (step 1 above) you cannot set up sandbox or live payments.
@@ -32,11 +32,11 @@ In order to use Magento Payments, you must have the following available for your
 
 * Services Connector module
 * Services ID module
-* API key value pair
+* API keys
 
 The Services Connector and Services ID modules will be automatically installed during the installation of the Magento Payments extension. Once installed, you will see a new section in the Admin---in **Stores** > **Configuration** > **Services**---called Magento Services.
 
-See [API credentials](#obtain-api-credentials) to learn how to create or access your API key value pair.
+See [API credentials](#obtain-api-credentials) to learn how to create or access your API keys.
 
 ### Obtain API credentials
 
@@ -99,12 +99,12 @@ To complete sandbox onboarding:
 
 ## Set Magento Payments as payment method
 
-After you [configure your Magento Services](#configure-magento-services) and enable either [sandbox testing](#enable-sandbox-testing) or [live payments](#enable-live-payments) (or both!) you must set Magento Payments as your payment method.
+After you [configure your Magento Services](#configure-magento-services), enable either [sandbox testing](#enable-sandbox-testing) or [live payments](#enable-live-payments) (or both!), and [enable live payments](#enable-live-payments) you must set Magento Payments as your payment method.
 
 1. On the _Admin_ sidebar go to **Sales** > **Magento Payments**.
 1. Click <span class="btn">Enable Magento Payments</span>.
 
-   This option will be visible if you have not yet configured Magento Payments as the payment method for one or more of your Magento stores.
+   This option will be visible if you have not yet configured Magento Payments as the payment method for one or more of your Magento websites.
 
    You will be directed to the configuration area in the Admin---**Stores** > _Settings_ > **Configuration** > **Sales** > **Payment Methods** > **Magento Payments**---to enable Magento Payments as your [payment method]({% link configuration/sales/payment-methods.md %}).
 
