@@ -23,16 +23,13 @@ See [Recommendation Types]({% link marketing/prex-types.md %}) to learn about th
 
 ## Time to train the machine learning models
 
-How long the models take to train depends on the following variables:
+Some recommendation types use behavioral data from your shoppers to train machine learning models that build personalized recommendations. How long the models take to train depends on the following variables:
 
 - Higher traffic volume contributes to faster learning
 - Some recommendation types train faster than others
-- Some recommendation types do not require any training
 - Magento recomputes behavioral data every four hours. While you can technically deploy your recommendation units at that time, know that the recommendations will become more accurate the longer they are used on your site.
 
-As mentioned, some recommendation types do not use any behavioral data and therefore do not use machine learning models to compute results. You can use those recommendations immediately.
-
-Other recommendation types, however, require behavioral data from your shoppers to train machine learning models that build personalized recommendations. So when you can start using those types of recommendations on your storefront? It depends. This is referred to as the "Cold Start" problem.
+Some recommendation types do not use any behavioral data and therefore do not use machine learning models to compute results. You can use those recommendations immediately. As mentioned previously, other recommendation types require behavioral data from your shoppers to train machine learning models that build personalized recommendations. So when you can start using those types of recommendations on your storefront? It depends. This is referred to as the "Cold Start" problem.
 
 The "Cold Start" problem is a measure of how much time a model needs to train before it can be considered high quality. In product recommendations, it translates to waiting for Adobe Sensei to train its machine learning models before deploying Recommendation units on your site. The more data these models have, the more accurate and useful the recommendations will be. Collecting this data takes time and will vary based on traffic volume. It is therefore in your best interest to deploy data collection to your production site immediately after you [install](https://devdocs.magento.com/recommendations/install-configure.html) the `magento/production-recommendations` module.
 
