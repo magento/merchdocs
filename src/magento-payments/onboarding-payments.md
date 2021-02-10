@@ -99,7 +99,7 @@ To complete sandbox onboarding:
 
 ## Set Magento Payments as payment method
 
-After you [configure your Magento Services](#configure-magento-services), enable either [sandbox testing](#enable-sandbox-testing) or [live payments](#enable-live-payments) (or both!), and [enable live payments](#enable-live-payments) you must set Magento Payments as your payment method.
+After you [configure your Magento Services](#configure-magento-services), enable either [sandbox testing](#enable-sandbox-testing) or [live payments](#enable-live-payments), and [enable live payments](#enable-live-payments) you must set Magento Payments as your payment method.
 
 1. On the _Admin_ sidebar go to **Sales** > **Magento Payments**.
 1. Click <span class="btn">Enable Magento Payments</span>.
