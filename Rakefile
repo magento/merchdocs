@@ -59,7 +59,7 @@ task :whatsnew do
     if since.nil? || since.empty?
       `bin/whatsup_github since '#{last_update}'`
     elsif since.is_a? String
-      `bin/whatsup_github since #{since}`
+      `bin/whatsup_github since '#{since}'`
     else
       abort 'The "since" argument must be a string. Example: "jul 4"'
     end
