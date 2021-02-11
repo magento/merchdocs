@@ -21,30 +21,36 @@ This dashboard displays a table of previously configured recommendations (if any
 
 See [Recommendation Types]({% link marketing/prex-types.md %}) to learn about the available recommendation types in Magento.
 
-## Time to train the machine learning models
+## Time and training for machine learning models
 
-Some recommendation types use behavioral data from your shoppers to train machine learning models that build personalized recommendations. How long the models take to train depends on the following variables:
+Some recommendation types use behavioral data from your shoppers to train machine learning models that build personalized recommendations. Other recommendation types use catalog data only and do not use any behavioral data. If merchants want to start quickly, they can use the following, catalog-only recommendation types:
+
+- More like this
+- Visual similarity
+
+So when can you start using recommendation types that use behavioral data? It depends. This is referred to as the "Cold Start" problem.
+
+The "Cold Start" problem is a measure of how much time a model needs to train before it can be considered high quality. In product recommendations, it translates to waiting for Adobe Sensei to train its machine learning models before deploying recommendation units on your site. The more data these models have, the more accurate and useful the recommendations will be. Collecting this data takes time and will vary based on traffic volume. It is therefore in your best interest to deploy data collection to your production site immediately after you [install](https://devdocs.magento.com/recommendations/install-configure.html) the `magento/production-recommendations` module.
+
+The following table provides some general guidance for the amount of time it takes to collect enough data for each recommendation type:
+
+| Recommendation type | Time needed to train | Notes |
+|---|---|---|
+|Popularity-based (Most viewed, Most purchased, Most added to cart) | Varies | Depends on volume of events - views are most common, then add to cart, then purchase|
+|Viewed this, viewed that | Requires more training |Product views are decently high in volume|
+|Viewed this, bought that; Bought this, bought that| Requires the most training |Purchase events are the most rare events on commerce site, especially compared to product views|
+|Trending | Requires three days of data to establish a popularity baseline| Trending is a measure of recent momentum in a product's popularity compared with its own popularity baseline. A product's trending score is computed using a foreground set (recent popularity over 24 hours) and a background set (popularity baseline over 72 hours). If an item has become much more popular within the last 24 hours as compared with its baseline popularity, then it will receive a high trending score. Every product has this score, and the highest ones at any time comprise the set of top trending products. |
+
+Other variables that can impact the time needed to train:
 
 - Higher traffic volume contributes to faster learning
 - Some recommendation types train faster than others
 - Magento recomputes behavioral data every four hours. While you can technically deploy your recommendation units at that time, know that the recommendations will become more accurate the longer they are used on your site.
 
-Some recommendation types do not use any behavioral data and therefore do not use machine learning models to compute results. You can use those recommendations immediately. As mentioned previously, other recommendation types require behavioral data from your shoppers to train machine learning models that build personalized recommendations. So when you can start using those types of recommendations on your storefront? It depends. This is referred to as the "Cold Start" problem.
-
-The "Cold Start" problem is a measure of how much time a model needs to train before it can be considered high quality. In product recommendations, it translates to waiting for Adobe Sensei to train its machine learning models before deploying Recommendation units on your site. The more data these models have, the more accurate and useful the recommendations will be. Collecting this data takes time and will vary based on traffic volume. It is therefore in your best interest to deploy data collection to your production site immediately after you [install](https://devdocs.magento.com/recommendations/install-configure.html) the `magento/production-recommendations` module.
-
 While data is collected and machine learning models are trained, you can implement the [remaining tasks necessary](https://devdocs.magento.com/recommendations/implementation.html) to deploy recommendations to your storefront. By the time you have finished testing and configuring recommendations, the machine learning models will have collected and computed enough data to build relevant recommendations thus allowing you to deploy the recommendations to your storefront.
 
 {:.bs-callout-info}
 Until there is enough training data collected, Magento uses [backup recommendations](#backup-recommendations) to populate your recommendation units.
-
-| Recommendation Type | Time needed to train | Notes |
-|---|---|---|
-|More like this, Visual similarity | No training needed | These use catalog data only|
-|Popularity-based (Most viewed, Most purchased, Most added to cart) | Varies | Depends on volume of events - views are most common, then add to cart, then purchase|
-|Viewed this, viewed that | Requires more training |Product views are decently high in volume|
-|Viewed this, bought that; Bought this, bought that| Requires the most training |Purchase events are the most rare events on commerce site, especially compared to product views|
-|Trending | Requires three days of data to establish a popularity baseline| Trending is a measure of recent momentum in a product's popularity compared with its own popularity baseline. A product's trending score is computed using a foreground set (recent popularity over 24 hours) and a background set (popularity baseline over 72 hours). If an item has become much more popular within the last 24 hours as compared with its baseline popularity, then it will receive a high trending score. Every product has this score, and the highest ones at any time comprise the set of top trending products. |
 
 ### Backup recommendations {#backup-recommendations}
 
