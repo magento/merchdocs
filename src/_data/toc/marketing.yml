@@ -297,8 +297,33 @@ pages:
       url: "/marketing/create-new-rec.html"
     - label: Edit Existing Recommendation
       url: "/marketing/edit-existing-rec.html"
+    - label: Inclusion and Exclusion Filters
+      url: "/marketing/recommendation-incl-excl.html"
     - label: Add Recommendation to Page Builder
       url: "/marketing/page-builder-add-product-recs.html"
+    - label: Recommendation Types
+      url: "/marketing/prex-types.html"
+      children:
+        - label: Most viewed
+          url: "/marketing/prex-type-mostviewed.html"
+        - label: Most purchased
+          url: "/marketing/prex-type-mostpurchase.html"
+        - label: Recommended for you
+          url: "/marketing/prex-type-rcmdforyou.html"
+        - label: Most added to cart
+          url: "/marketing/prex-type-mostaddcart.html"
+        - label: Viewed this, viewed that
+          url: "/marketing/prex-type-viewview.html"
+        - label: Viewed this, bought that
+          url: "/marketing/prex-type-viewbought.html"
+        - label: Bought this, bought that
+          url: "/marketing/prex-type-boughtbought.html"
+        - label: More like this
+          url: "/marketing/prex-type-morelikethis.html"
+        - label: Trending
+          url: "/marketing/prex-type-trending.html"
+        - label: Visual similarity
+          url: "/marketing/prex-type-visualsim.html"
     - label: Recommendation Metrics
       url: "/marketing/recommendation-metrics.html"
     - label: Recommendation Best Practices
@@ -395,8 +420,6 @@ pages:
       - label: Configuring Company Email
         url: "/marketing/email-company-configuration.html"
         edition: b2b-only
-      - label: Payment Failed Email
-        url: "/sales/checkout-payment-failed-emails.html"
       - label: Admin User Email
         url: "/stores/admin-email-templates-configure.html"
     - label: Customizing Email Templates
@@ -414,7 +437,7 @@ pages:
       children:
       - label: Creating Email Reminders
         url: "/marketing/email-reminder-rules-create.html"
-      - label: Configuing Email Reminders
+      - label: Configuring Email Reminders
         url: "/marketing/email-reminder-rules-configure.html"
       - label: Email Reminder Templates
         url: "/marketing/email-reminder-templates.html"

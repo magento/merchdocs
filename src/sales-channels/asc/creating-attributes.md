@@ -10,7 +10,7 @@ As you create and update attributes, you may want to verify the attribute values
 
 These steps create a new Magento attribute and map it to an Amazon attribute. Depending on configurations, the values may start syncing between catalogs.
 
-1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon Sales Channel**.
 
 1. Click **Attributes** in the left-side menu, locate an Amazon attribute, and click **Create Attribute** in the _Action_ column.
 
@@ -72,7 +72,7 @@ _Create Attribute Settings_
 
 ## Edit an attribute
 
-1. On the _Admin_ sidebar,  go to **Marketing** > _Channels_ > **Amazon**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon Sales Channel**.
 
 1. Click **Attributes** in the left-side menu, locate an Amazon attribute, and click **Edit** in the _Action_ column.
 

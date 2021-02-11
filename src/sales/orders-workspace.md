@@ -1,8 +1,8 @@
 ---
-title: Order Workspace
+title: Orders Workspace
 ---
 
-The Order workspace lists all current orders. Each row in the grid represents a customer order, and each column represents an attribute, or data field . Use the standard [controls]({% link stores/admin-grid-controls.md %}) to sort and filter the list, find orders, and apply [actions]({% link stores/admin-actions-control.md %}) to selected orders. From the grid, you can view existing orders, and create new orders. The tabs above the pagination controls are used to filter the list, change the default view, change and rearrange columns, and export data.
+The Orders workspace lists all current orders, and gives you the ability to edit existing orders and [create new]({% link customers/customer-account-create-order.md %}) orders. Each row in the grid represents a customer order, and each column represents an attribute, or data field. Use the standard [controls]({% link stores/admin-grid-controls.md %}) to sort and filter the list, find orders, and apply [actions]({% link stores/admin-actions-control.md %}) to selected orders. Use the tabs above the pagination controls to filter the list, change the default view, change and rearrange columns, and export data.
 
 ![]({% link images/images-ee/orders.png %}){: .zoom}
 _Orders_{:.ee-only}
@@ -11,7 +11,7 @@ _Orders_{:.ee-only}
 
 |Control|Description|
 |--- |--- |
-|Create New Order|Creates a new order.|
+|Create New Order|Creates a new order. See [Creating an Order]({% link customers/customer-account-create-order.md %}) for more information.|
 |Go to Archive|Displays the list of archived orders.|
 |Search|Initiates a search for orders based on the current filters.|
 |Filters|Defines a set of search parameters used to filter the records that appear in the [grid]({% link stores/admin-grid-controls.md %}).|
@@ -32,7 +32,8 @@ _Orders_{:.ee-only}
 |Grand Total (Base)|The grand total of the order.|
 |Grand Total (Purchased)|The grand total of products purchased in the order.|
 |Status|The current order status.|
-|Action|View - Opens the order in edit mode.|
+|Action|View opens the order in edit mode.|
+|Allocated sources| The sources allocated to that specific order.|
 
 ### Additional Columns Available
 

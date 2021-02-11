@@ -2,14 +2,14 @@
 title: Amazon Pay Customer Experience
 ---
 
-Customers can speed through checkout by using the payment methods and shipping addresses that are available in their Amazon accounts. Your store can be configured to show the Amazon Pay button on [product pages]({% link quick-tour/product-page.md %}), and in the [cart sidebar]({% link sales/cart-sidebar.md %}), [shopping cart]({% link sales/cart.md %}), and during [checkout]({% link sales/checkout-step1-shipping.md %}).
+Customers can speed through checkout by using the payment methods and shipping addresses that are available in their Amazon accounts. Your store can be configured to show the _Amazon Pay_ button on [product pages]({% link quick-tour/product-page.md %}), in the [cart sidebar]({% link sales/cart-sidebar.md %}), in the [shopping cart]({% link sales/cart.md %}), and during [checkout]({% link sales/checkout-process.md %}).
 
 International customers may also have an option to select their preferred currency if you list prices in more than one currency. This multi-currency support allows customers to complete purchases without worrying about currency conversions or rates.
 
 ![Amazon Pay on Product Page]({% link images/images/storefront-product-amazon-pay.png %}){: .zoom}
-_Amazon Pay on Product Page_
+_Amazon Pay on a product page_
 
-## Place an order with Amazon Pay
+The following information describes the customer experience using Amazon Pay when placing an order from the Magento storefront.
 
 1. To begin the checkout process, click <span class="btn">Amazon Pay</span> and enter your Amazon credentials.
 
@@ -33,14 +33,14 @@ _Amazon Pay on Product Page_
 
 1. Complete the **Review & Payments** checkout step.
 
-   The standard Magento payment methods are replaced with the payment methods that are available in your Amazon account. The pagination indicator shows how many payment methods are available. However, only four can be viewed at a time.
+   The standard Magento payment methods are replaced with the payment methods that are available in the Amazon account. The pagination indicator shows how many payment methods are available. However, only four can be viewed at a time.
 
    ![Review and Payments]({% link images/images/payments-amazon-pay-checkout-step2-review-payments.png %}){: .zoom}
    _Review & Payments_
 
    - Click the arrow (![]({% link images/images/btn-next2.png %})) to view all available options.
 
-   - Choose the **Payment Method** that you want to use for the purchase.
+   - Choose the **Payment Method** to use for the purchase.
 
    ![Amazon Pay Payment Method]({% link images/images/payments-amazon-pay-checkout-widget-step2-review-payments.png %}){: .zoom}
    _Amazon Pay Payment Method_

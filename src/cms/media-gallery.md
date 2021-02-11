@@ -4,7 +4,8 @@ title: The New Media Gallery
 
 With Magento 2.4, merchants can use the new _enhanced_ Media Gallery to organize and manage their media files on the server. This new Media Gallery contains the same functionalities as the existing Media Storage, but includes an improved user interface and a closer integration with [Adobe Stock][adobe-stock].
 
-![Media Gallery Grid]({% link images/images/enhanced-media-gallery/gallery-grid.png %}){: .zoom}
+![Images displayed in the Media Gallery grid]({% link images/images/enhanced-media-gallery/gallery-grid.png %}){: .zoom}
+_Media Gallery grid_
 
 ## Enable the new Media Gallery
 
@@ -12,15 +13,25 @@ With Magento 2.4, merchants can use the new _enhanced_ Media Gallery to organize
 
 1. In the left panel, expand **Advanced** and choose **System**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Enhanced Media Gallery**.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Media Gallery**.
 
-1. Set **Enabled** to `Yes`.
+   ![Advanced configuration - Media Gallery]({% link images/images/enhanced-media-gallery/system-enhanced-media-gallery.png %}){: .zoom}
+   _Media Gallery_
 
-1. Click the <span class="btn">Save Config</span> button.
+1. Set **Enable Old Media Gallery** to `No`.
+
+1. Click <span class="btn">Save Config</span>.
+
+1. When prompted, click the **Cache Management** link in the system message and refresh the invalid cache.
+
+   The [Content menu][content-menu] now displays the new _Media Gallery_ option.
+
+{:.bs-callout-info}
+Full functionality for new Media Gallery requires `media.gallery.synchronization` and `media.content.synchronization` queue consumers to be started for initial synchronization. See [Manage message queues](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) in our developer documentation for more details.
 
 ## Access the new Media Gallery
 
-The new Media Gallery is accessible through the [Content menu][content-menu] or when you [add or edit a page][add-page], when you [create or edit a category][create-category], or when you [insert images via the Content Editor][editor-insert-image].
+The new Media Gallery is accessible from the Content menu or when you [add or edit a page][add-page]. You can also access it when you [create or edit a category][create-category], or when you [insert images using the Content Editor][editor-insert-image].
 
 {:.procedure}
 To access the new Media Gallery through the Content menu:
@@ -45,7 +56,7 @@ To access the new Media Gallery when you are adding or editing a page:
    - {:.ee-only}If you have [Page Builder enabled]({% link cms/page-builder-setup.md %}), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click <span class="btn">Select from Gallery</span>.
 
       ![]({% link images/images-ee/page-builder-media-image-drag.png %}){: .zoom}
-      _Drag Image to Stage_
+      _Drag image to stage_
 
    - {:.ee-only}If you have the [WYSIWYG editor enabled][editor-config], click **Show/Hide Editor** and then click **Insert Image**.
 

@@ -3,19 +3,21 @@ title: Security Scan
 group: operations
 ---
 
-Magento Security Scan allows you to monitor each of your Magento sites for known security risks, and to receive patch updates and security notifications.
+Enhanced Magento Security Scan allows you to monitor each of your Magento sites for known security risks and malware, and to receive patch updates and security notifications.
 
 - Gain insight into the real-time security status of your store.
+- Receive suggestions based on best practices to help resolve issues.
 - Schedule security scan to run weekly, daily, or on demand.
-- Receive reports with the results of over thirty security tests and the recommended corrective actions for each failed test.
-- Maintain a history of security reports in your Magento account.
+- Run over 17,000 security tests to help identify potential malware.
+- Access historical security reports that track and monitor the progress of your sites.
+- Access the scan report that shows successful and failed checks, with any recommended actions.
 
-The Security Scan tool is available for free from the dashboard of your Magento account. For technical information, see [Go live and launch][1] in the developer documentation.
+The Security Scan tool is available for free from the dashboard of your Magento account. For technical information, see [Go live and launch][1] in our developer documentation.
 
 ![]({% link images/images/magento-security-scan.png %}){: .zoom}
 _Security Scan_
 
-## To run a security scan:
+## Run a security scan
 
 1. Go to the Magento home page, and sign in to your **Magento account**. Then, do the following:
 

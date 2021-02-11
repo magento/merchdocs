@@ -12,7 +12,7 @@ After your first store integration, you will be prompted annually to renew your 
 
 ## Add an Amazon store
 
-1. In the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Channels_ > **Amazon Sales Channel**.
 
     When adding your first Amazon Sales Channel store, the _Pre-Setup Tasks_ modal appears. After your first store is added, pre-setup tasks can be accessed on the [Amazon Sales Channel home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) page under _Learning and Preparation_ in the left-side menu.
 

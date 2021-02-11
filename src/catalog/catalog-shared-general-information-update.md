@@ -12,7 +12,7 @@ _General Settings_
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Shared Catalogs**.
 
-1. For the the shared catalog in the [grid]({% link stores/admin-grid-controls.md %}) that you want to update, go to the **Action** column and select **General Settings**.
+1. For the shared catalog in the [grid]({% link stores/admin-grid-controls.md %}) that you want to update, go to the **Action** column and select **General Settings**.
 
    ![]({% link images/images-b2b/catalog-shared-update-details.png %}){: .zoom}
    _Catalog Details_

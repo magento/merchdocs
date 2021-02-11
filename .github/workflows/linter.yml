@@ -15,10 +15,7 @@ name: Lint Code Base
 # Start the job on all push #
 #############################
 on:
-  pull_request:
-    branches:
-      - master
-      - 2.*-develop
+  pull_request
 
 ###############
 # Set the Job #
@@ -49,6 +46,7 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: master
+          MARKDOWN_CONFIG_FILE: .markdownlint.json
           VALIDATE_HTML: false
-          VALIDATE_MD: false
+          VALIDATE_JSCPD: false
           VALIDATE_XML: false

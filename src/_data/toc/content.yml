@@ -52,6 +52,8 @@ pages:
             url: "/cms/media-gallery-asset-management.html"
           - label: Folder Management
             url: "/cms/media-gallery-folder-management.html"
+          - label: Media Gallery Image Optimization
+            url: "/cms/media-gallery-image-optimization.html"
     - label: Using the Editor
       url: "/cms/editor.html"
       children:
@@ -110,6 +112,8 @@ pages:
         url: "/cms/widget-new-products-list.html"
       - label: Orders and Returns
         url: "/cms/widget-orders-returns.html"
+  - label: Templates
+    url: "/cms/page-builder-templates.html"
 - label: Page Builder
   url: "/cms/page-builder.html"
   edition: ee-only
@@ -127,8 +131,6 @@ pages:
     url: "/cms/page-builder-setup.html"
   - label: Workspace
     url: "/cms/page-builder-workspace.html"
-  - label: Templates
-    url: "/cms/page-builder-templates.html"
   - label: Layout
     url: "/cms/page-builder-layout.html"
     children:
@@ -178,11 +180,8 @@ pages:
 - label: Design & Theme
   url: "/design/design-theme.html"
   children:
-  - label: Design Menu
-    url: "/design/design-menu.html"
-    children:
-    - label: Design Configuration
-      url: "/design/configuration.html"
+  - label: Design Configuration
+    url: "/design/configuration.html"
   - label: Page Setup
     url: "/design/page-setup.html"
     children:
@@ -221,8 +220,6 @@ pages:
   url: "/cms/content-staging.html"
   edition: ee-only
   children:
-  - label: Content Staging Workflow
-    url: "/cms/content-staging-workflow.html"
   - label: Scheduling an Update
     url: "/cms/content-staging-scheduled-update.html"
   - label: Staging Dashboard

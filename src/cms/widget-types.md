@@ -2,6 +2,9 @@
 title: Widget Types
 ---
 
+When you [create a new widget]({% link cms/widget-create.md %}), you must set the type. This type determines how the widget functions.
+
+{: .type-table }
 |Type|Description|
 |--- |--- |
 |CMS Hierarchy Node Link|Displays a link to a specific node in the page hierarchy that can be incorporated into other content.|
@@ -18,4 +21,13 @@ title: Widget Types
 |Orders and Returns|Gives guests the ability to check the status of their orders and submit requests to return merchandise. The widget appears only for guests and customers who are not logged in to their accounts.|
 |Recently Compared Products|Displays the  block of recently compared products. You can specify the number of products included, and format them as a list or product grid.|
 |Recently Viewed Products|Displays the block of recently viewed products. You can specify the number of products included and format them as a list or product grid.|
-|Wish List Search|Gives  customer the ability to search for publicly available wish lists by the name or email address of the wish list owner. Store customers can find wish lists that belong to other customers, view them and order products from them, or add the products to their own wish lists.|
+|Wish List Search|Gives a customer the ability to search for publicly available wish lists by the name or email address of the wish list owner. Store customers can find wish lists that belong to other customers, view them and order products from them, or add the products to their own wish lists.|
+
+<!--
+  This is a style declaration so that buttons are not wrapped by table auto styling for column widths.
+-->
+<style>
+.type-table td:first-of-type {
+  width: 200px;
+}
+</style>

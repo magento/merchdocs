@@ -3,7 +3,10 @@ ee_only: true
 title: Learning Page Builder
 ---
 
-Whether you are new to Magento or an experienced user, we encourage you to complete the following Page Builder tutorials. You will learn how to use new Page Builder features and discover new ways to accomplish familiar tasks.
+The Page Builder advanced content tools were introduced in the Magento 2.3.1 release. Whether you are new to Magento or an experienced user, we encourage you to complete the following Page Builder tutorials. You will learn how to use new Page Builder features and discover new ways to accomplish familiar tasks.
+
+{:.bs-callout-info}
+These tutorials are updated to reflect recent changes to the Page Builder workspace in Magento 2.4.1. If you are using an earlier Magento Commerce release, use the Page Builder tutorials included in the [Magento 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
 
 - Tutorial 1: [Simple Page]({% link cms/page-builder-tutorial1-simple-page.md %})
 - Tutorial 2: [Blocks]({% link cms/page-builder-tutorial2-blocks.md %})

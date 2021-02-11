@@ -1,80 +1,90 @@
 ---
 title: Setting Up Amazon Pay
+redirect_from:
+  - /payment/amazon-pay-seller-central.html
 ---
 
-Amazon Pay and Login with Amazon work together to create a great buyer experience.
+Amazon Pay and Login with Amazon work together to create a great buyer experience. For more information, see the [Amazon Pay and Login with Amazon extension for Magento 2][1] documentation provided by Amazon.
 
-For more information, see the [Amazon Pay and Login with Amazon][1] documentation for Magento 2 or watch the Amazon Pay University video on [Integrating Amazon Pay with Magento 2](https://www.youtube.com/watch?v=qsXVzh-yZsE&t=7s).
+## Prerequisites
+
+You must have the following resources available to complete the Amazon Pay setup in the Magento Admin:
+
+- A verified Amazon Pay merchant account ([https://pay.amazon.com/signup][4])
+- [Amazon Pay seller credentials][5]
 
 ## Connect to Amazon Pay
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the upper-right corner, set the **Scope** to establish where the Amazon Pay configuration applies.
+1. In the upper-left corner, set the **Scope** to establish where the Amazon Pay configuration applies.
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. Expand **Other Payment Methods**.
+1. If needed, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Other Payment Methods** section.
 
-1. For _Amazon Pay_, click <span class="btn">Configure</span> .
+1. For _Amazon Pay_, click <span class="btn">Configure</span>.
 
    ![Sales configuration - Amazon Pay]({% link images/images/config-sales-payment-methods-amazon-pay.png %}){: .zoom}
    [_Amazon Pay_]({% link configuration/sales/amazon-pay.md %})
 
-1. Click <span class="btn">Get started with account registration</span>.
+1. If you do not have your registered Amazon Pay account information, click <span class="btn">Get started with account registration</span> to register a new account through Amazon Seller Central.
 
    {:.bs-callout-info}
    Do not use your personal Amazon account for Amazon Pay.
 
-   - If you do not yet have an Amazon seller account, choose **Create a new signin** and click <span class="btn">Select</span>. Then, follow the onscreen instructions to create a new account.
-
-      ![]({% link images/images/config-sales-payment-methods-amazon-pay-account-setup.png %}){: .zoom}
-      _Create Amazon Pay Account_
-
-   - If you already have an Amazon merchant account, choose **Use existing Amazon signin** and click <span class="btn">Select</span>.
-
-When you have your account information, complete the following sections.
+1. When you have your account information, complete the following sections.
 
 ## Credentials
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Credentials** section.  
+Your credentials are transferred automatically from your Amazon Pay account to the Magento Admin. Your credentials can also be found in Amazon Seller Central in both Production and Sandbox modes.
 
-   Your credentials are transferred automatically from your Amazon Pay account to the Magento Admin. Your credentials can also be found in Amazon Seller Central in both Production and Sandbox modes.
+### Configure credentials for Sandbox mode
 
-   To use test credentials from the Amazon Pay Sandbox, do the following:
+1. Get your Test Credentials for the Amazon Pay Sandbox.
 
-   - Get your [Test Credentials]({% link payment/amazon-pay-seller-central.md %}) for the Amazon Pay Sandbox.
-
-   - In the Magento Amazon Pay configuration under Credentials, select the **Test Credentials** checkbox.
-
-   - Enter the following credentials that you copied from the [Amazon Pay Sandbox]({% link payment/amazon-pay-seller-central.md %}) on Amazon Seller Central:
-
-      - Merchant Id
-      - Access Key Id
-      - Secret Access Key
-      - Client ID
-      - Client Secret
-
-   - Set **Sandbox** to `Yes`.
-
-     When you are through testing and ready to go live with Amazon Pay, return to the configuration and clear the **Test Credentials** checkbox. Then, set Sandbox to `No` and click <span class="btn">Save Config</span>.
-
-1. Verify the **Payment Region** for the store.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Credentials** section.
 
    ![Sales configuration - Amazon Pay credentials]({% link images/images/config-sales-payment-methods-amazon-pay-credentials.png %}){: .zoom}
-   _Credentials_
+   _Amazon Pay credentials_
 
-1. When complete, click <span class="btn">Save Config</span>.
+1. Select the **Test Credentials** checkbox.
+
+1. Use one of these methods for supplying the account credentials:
+
+   - Enter the following credentials that you copied from Amazon Seller Central:
+
+      - **Merchant Id**
+      - **Access Key Id**
+      - **Secret Access Key**
+      - **Client ID**
+      - **Client Secret**
+
+   - For **Credentials JSON**, enter the JSON string of all Amazon Pay seller credentials.
+
+      This JSON will be used to set values for Merchant Id, Access Key Id, Secret Access Key, Client Id, and Client Secret on save and clear any of the values that were entered manually.
+
+1. Set **Sandbox** to `Yes`.
+
+1. Set the **Payment Region** for the store.
+
+1. When complete, click <span class="btn">Save Config</span> to validate the supplied credentials.
 
    Look for the message, _Your Amazon configuration is valid_ at the top of the Configuration page.
 
-   - If your credentials are valid, continue with the configuration.
+   If your credentials are valid, continue with the configuration. Otherwise, correct your credentials and try again.
 
-   - Otherwise, correct your credentials and try again.
+### Change credentials for Production mode
+
+When you are through testing and ready to go live with Amazon Pay, return to the configuration and modify the settings:
+
+1. Clear the **Test Credentials** checkbox.
+1. Set Sandbox to `No`.
+1. Click <span class="btn">Save Config</span>.
 
 ## Options
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Options** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Options** section.
 
 1. Set **Enable Amazon Pay** to `Yes`.
 
@@ -82,37 +92,37 @@ When you have your account information, complete the following sections.
 
 1. Set **Payment Action** to one of the following:
 
-   | `Charge on Shipment` | (Default) Amazon receives a capture request and charges the customer when an invoice is created in Magento. |
-   | `Charge on Order` | Amazon creates the invoice and charges the customer when the order is placed. |
+   | Charge on Shipment | (Default) Amazon receives a capture request and charges the customer when an invoice is created in Magento. |
+   | Charge on Order | Amazon creates the invoice and charges the customer when the order is placed. |
 
-1. Set **Authorization Mode** to one of the following to determine the method that is used to transmit authorization data.
+1. Set **Authorization Mode** to determine the method that is used to transmit authorization data.
 
-   | `Immediate` | (Default) Makes the disposition of an authorization available within a couple of seconds. |
-   | `Automatic` | (Recommended) Uses synchronous authorization if possible, and switches to asynchronous processing as needed, for some declines. The change in processing modes is transparent to the user. The status of sales order is _Pending_ while the disposition of authorization is outstanding. |
+   | Immediate | (Default) Makes the disposition of an authorization available within a couple of seconds. |
+   | Automatic | (Recommended) Uses synchronous authorization, if possible, and switches to asynchronous processing as needed for some declines. The change in processing modes is transparent to the user. The status of sales order is _Pending_ while the disposition of authorization is outstanding. |
 
 1. Set **Update Mechanism** to one of the following:
 
-   | `Data Polling via Cron job` | (Default) Uses the standard Magento notification process that is scheduled by [Cron]({% link system/cron.md %}) job. |
-   | `Instant Payment Notifications` | (IPN) Sends notifications to the Instant Payment Notification URL. |
+   | Data Polling via Cron job | (Default) Uses the standard Magento notification process that is scheduled by [Cron]({% link system/cron.md %}) job. |
+   | Instant Payment Notifications | (IPN) Sends notifications to the Instant Payment Notification URL. |
 
    ![Sales configuration - Amazon Pay options]({% link images/images/config-sales-payment-methods-amazon-pay-options.png %}){: .zoom}
-   [_Options_]({% link configuration/sales/amazon-pay.md %})
+   [_Amazon Pay options_]({% link configuration/sales/amazon-pay.md %})
 
 ## Advanced
 
 ### Frontend
 
-1. Expand the **Frontend** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Frontend** section.
 
 1. (Optional) If your store is available in multiple languages, you can display the text on the Amazon Pay button in a different language for each [store view]({% link stores/websites-stores-views.md %}).
 
    To override the default display language for the current store view, enter one of the following language parameters for **Button Display Language**:
 
-   - en-GB - English (Great Britain)
-   - de-DE - German (Germany)
-   - fr-FR - French (France)
-   - it-IT - Italian (Italy)
-   - sp-SP - Spanish (Spain)
+   - `en-GB` - English (Great Britain)
+   - `de-DE` - German (Germany)
+   - `fr-FR` - French (France)
+   - `it-IT` - Italian (Italy)
+   - `sp-SP` - Spanish (Spain)
 
    To learn more, see [Language][2] in the _Amazon Pay Integration Guide_.
 
@@ -133,17 +143,17 @@ When you have your account information, complete the following sections.
 
 1. Choose `Yes` for each feature that you want to enable for the current store view:
 
-   - Login with Amazon available in authentication popup
-   - Amazon Pay button on Product Page
-   - Amazon Pay button in minicart
-   - Display Amazon Pay Method
+   - **Show Login with Amazon in authentication popup**
+   - **Show Amazon Pay button on product Page**
+   - **Show Amazon Pay button in minicart**
+   - **Show Amazon Pay in payment methods**
 
    ![]({% link images/images/config-sales-payment-methods-amazon-pay-advanced-frontend.png %}){: .zoom}
    [_Frontend_]({% link configuration/sales/amazon-pay.md %})
 
 ### Sales Options
 
-1. Expand the **Sales Options** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Sales Options** section.
 
 1. Enter the **Store Name**.
 
@@ -171,33 +181,31 @@ When you have your account information, complete the following sections.
    - United States Dollar (USD)
 
    ![Sales configuration - Amazon Pay multi-currency]({% link images/images/amazon-pay-multi-currency.png %}){: .zoom}
-   [_Sales Options_]({% link configuration/sales/amazon-pay.md %})
+   [_Amazon Pay configuration - Sales Options with multi-currency_]({% link configuration/sales/amazon-pay.md %})
 
 ### Developer Options
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Developer Options**.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Developer Options** section.
 
 1. Make sure that **Logging** is set to `Yes`.
 
-    After the setup is complete and logs are generated, you can return to this location and select a link in **Developer Logs** to download to view Client and IPN logs. If logs are not available or have not been generated, a message displays `No logs are currently available.`
+   After the setup is complete and logs are generated, you can return to this location and select a link in **Developer Logs** to download to view Client and IPN logs. If logs are not available or have not been generated, the `No logs are currently available.` message appears.
 
 1. To limit the availability of the _Login with Amazon_ and _Amazon Pay_ buttons, specify the **Allowed IPs**.
 
-    Enter the IP address of each, separated by a comma. The specified IP addresses are added to an allow list. When this field is blank, the buttons are available for all IP addresses.
+   Enter the IP address of each, separated by a comma. The specified IP addresses are added to an allow list. When this field is blank, the buttons are available for all IP addresses.
 
-    ![Sales configuration - Amazon Pay developer options]({% link images/images/config-sales-payment-methods-amazon-pay-developer-options.png %}){: .zoom}
-    _Amazon Pay Developer Options_
+   ![Sales configuration - Amazon Pay developer options]({% link images/images/config-sales-payment-methods-amazon-pay-developer-options.png %}){: .zoom}
+   _Amazon Pay configuration - Developer Options_
 
 ## Complete the configuration
 
-1. When the settings are complete, click <span class="btn">Save Config</span>.
+1. When all settings are complete, click <span class="btn">Save Config</span>.
 
-1. In the message at the top of the page to refresh cache types, click **Cache Management**.
-
-1. Select the checkbox of each invalid cache.
-
-1. With the control set to _Refresh_, click <span class="btn">Submit</span>.
+1. When prompted to update the cache, click **Cache Management** in the system message and follow the instructions to refresh the cache.
 
 [1]: https://amzn.github.io/amazon-payments-magento-2-plugin/index.html
-[2]: https://pay.amazon.com/uk/developer/documentation/lpwa/201953980#ENTER_LANGUAGE_PARAMETER
+[2]: https://developer.amazon.com/docs/eu/amazon-pay-onetime/intro.html
 [3]: https://pay.amazon.com/us/merchant/tools
+[4]: https://pay.amazon.com/signup
+[5]: https://amzn.github.io/amazon-payments-magento-2-plugin/configuration.html#credentials

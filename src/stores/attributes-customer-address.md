@@ -3,7 +3,7 @@ ee_only: true
 title: Customer Address Attributes
 ---
 
-The Customer Address Attribute determines the properties of street addresses that are entered into the [address book]({% link customers/account-dashboard-address-book.md %}) from the customer’s account, or during [checkout]({% link sales/checkout-step1-shipping.md %}).
+The Customer Address Attribute determines the properties of street addresses that are entered into the [address book]({% link customers/account-dashboard-address-book.md %}) from the customer’s account or during [checkout]({% link sales/checkout-process.md %}).
 
 Custom address attributes can be set up if you need to provide additional information such as an optional email address, Skype account, alternate phone number, building, or county. The custom attribute can then be incorporated into the [address template]({% link stores/attributes-customer-address-templates.md %}) that is used to produce sales documents. The process to create a custom address attribute is almost the same as creating a [customer attribute]({% link stores/attributes-customer.md %}).
 
