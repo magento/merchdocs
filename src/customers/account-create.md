@@ -84,6 +84,10 @@ _Customer Information_
    - **Middle Name/Initial**
    - **Name Suffix**
    - **Date of Birth**
+
+      {:.bs-callout-warning}
+      In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers’ full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers’ full birth dates and instead suggest using customer year of birth as an alternative.
+
    - **Tax/VAT Number**
    - **Gender**
 
@@ -180,7 +184,7 @@ Additional buttons become available when the profile is saved for the first time
 |Last Name|The customer’s last name.|
 |Name Suffix|If used, the suffix that is associated with the customer's name (such as  Jr., Sr., or III). The suffix values are determined by the [configuration]({% link configuration/customers/customer-configuration.md %}). Depending on the configuration, the input control might be a text field or a drop-down list of options.|
 |Email|The customer’s email address.|
-|Date of Birth|The customer’s date of birth. The date of birth is included if specified in the [configuration]({% link configuration/customers/customer-configuration.md %}).|
+|Date of Birth|The customer’s date of birth. The date of birth is included if specified in the [configuration]({% link configuration/customers/customer-configuration.md %}). <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers’ full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers’ full birth dates and instead suggest using customer year of birth as an alternative.|
 |Tax / VAT Number|The customer's Tax or Value Added Tax number, if applicable.|
 |Gender|Identifies the customer's gender. The gender is included if specified in the [configuration]({% link configuration/customers/customer-configuration.md %}). Options: Male / Female / Not Specified|
 |Send Welcome Email From|If you have multiple store views, identifies the store view from which the Welcome message is sent. If store views are used for different languages, this determines the language of the Welcome email.|
