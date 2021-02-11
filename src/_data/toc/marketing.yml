@@ -508,40 +508,40 @@ pages:
     - label: Generate Report
       url: "/live-search/performance-report.html"
   - label: Facets
-      url: "/live-search/facets.html"
-      children:
-      - label: Dynamic Search
-        url: "/live-search/dynamic-search.html"
-      - label: Facet Types
-        url: "/live-search/facets-type.html"
-      - label: Facets Workspace
-        url: "/live-search/facets-workspace.html"
-      - label: Add Facets
-        url: "/live-search/facets-add.html"
-      - label: Manage Facets
-        url: "/live-search/facets-manage.html"
+    url: "/live-search/facets.html"
+    children:
+    - label: Dynamic Search
+      url: "/live-search/dynamic-search.html"
+    - label: Facet Types
+      url: "/live-search/facets-type.html"
+    - label: Facets Workspace
+      url: "/live-search/facets-workspace.html"
+    - label: Add Facets
+      url: "/live-search/facets-add.html"
+    - label: Manage Facets
+      url: "/live-search/facets-manage.html"
   - label: Synonyms
-      url: "/live-search/synonyms.html"
-      children:
-      - label: Types of Synonyms
-        url: "/live-search/synonyms-type.html"
-      - label: Synonyms Workspace
-        url: "/live-search/workspace.html"
-      - label: Add Synonyms
-        url: "/live-search/synonyms-add.html"
-      - label: Manage Synonyms
-        url: "/live-search/synonyms-manage.html"
+    url: "/live-search/synonyms.html"
+    children:
+    - label: Types of Synonyms
+      url: "/live-search/synonyms-type.html"
+    - label: Synonyms Workspace
+      url: "/live-search/workspace.html"
+    - label: Add Synonyms
+      url: "/live-search/synonyms-add.html"
+    - label: Manage Synonyms
+      url: "/live-search/synonyms-manage.html"
   - label: Rules
-      url: "/live-search/rules.html"
-      children:
-      - label: Rules Workspace
-        url: "/live-search/rules-workspace.html"
-      - label: Query Types
-        url: "/live-search/query-types.html"
-      - label: Add Rule
-        url: "/live-search/rule-add.html"
-      - label: Manage Rules
-        url: "/live-search/rules-manage.html"
+    url: "/live-search/rules.html"
+    children:
+    - label: Rules Workspace
+      url: "/live-search/rules-workspace.html"
+    - label: Query Types
+      url: "/live-search/query-types.html"
+    - label: Add Rule
+      url: "/live-search/rule-add.html"
+    - label: Manage Rules
+      url: "/live-search/rules-manage.html"
 - label: SEO and Search
   url: "/marketing/seo-search.html"
   children:
