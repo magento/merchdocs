@@ -11,7 +11,7 @@ sections:
     url: /live-search/onboarding.html
 
   - title: Workspace
-    content: Configure and manage Live Search, and monitor performance. 
+    content: Configure and manage Live Search, and monitor performance.
     url: /live-search/workspace.html
 
   - title: Performance
