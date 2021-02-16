@@ -533,8 +533,6 @@ pages:
   - label: Facets
     url: "/live-search/facets.html"
     children:
-    - label: Dynamic Search
-      url: "/live-search/dynamic-search.html"
     - label: Facet Types
       url: "/live-search/facets-type.html"
     - label: Facets Workspace
@@ -548,8 +546,6 @@ pages:
     children:
     - label: Types of Synonyms
       url: "/live-search/synonyms-type.html"
-    - label: Synonyms Workspace
-      url: "/live-search/workspace.html"
     - label: Add Synonyms
       url: "/live-search/synonyms-add.html"
     - label: Manage Synonyms
@@ -560,9 +556,9 @@ pages:
     - label: Rules Workspace
       url: "/live-search/rules-workspace.html"
     - label: Query Types
-      url: "/live-search/query-types.html"
+      url: "/live-search/rules-query-types.html"
     - label: Add Rule
-      url: "/live-search/rule-add.html"
+      url: "/live-search/rules-add.html"
     - label: Manage Rules
       url: "/live-search/rules-manage.html"
 - label: SEO and Search
