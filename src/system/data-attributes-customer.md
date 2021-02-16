@@ -17,7 +17,7 @@ Each attribute, or field, is represented in the CSV file as a column, and custom
 |`created_at`|The date the customer account was created.|
 |`created_in`|The store view where the account was created.|
 |`disable_auto_group_change`|Determines if customer groups can be dynamically assigned during VAT ID validation.|
-|`dob`|The customer’s date of birth.|
+|`dob`|The customer’s date of birth. <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers’ full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers’ full birth dates and instead suggest using customer year of birth as an alternative.|
 |`firstname`|The first name of the customer.|
 |`gender`|The customer gender.|
 |`group_id`|The ID of the customer group where the customer is assigned.|
