@@ -1,52 +1,36 @@
 ---
 ee_only: true
 title: Live Search
-group: marketing
+sections:
+  - title: Quick Tour
+    content: With a focus on speed, relevance, and ease of use, Live Search is a game changer for shoppers and merchants alike. Follow along for a quick tour of Live Search from the storefront.
+    url: /live-search/quick-tour.html
+
+  - title: Onboarding
+    content: The Live Search module is installed from the command line of the server and connects as a service to your Magento installation. For installation instructions, see the Live Search developer documentation.
+    url: /live-search/onboarding.html
+
+  - title: Workspace
+    content: Configure and manage Live Search, and monitor performance. 
+    url: /live-search/workspace.html
+
+  - title: Performance
+    content: Provides insight into product-specific search performance that you can leverage to optimize search.
+   url: /live-search/performance.html
+
+  - title: Facets
+    content: This high-performance filtering method uses multiple dimensions of static and dynamic attribute values as search criteria.
+    url: /live-search/facets.html
+
+  - title: Synonyms
+    content: Expand the reach of search to include words that shoppers might use that differ from those in your catalog.
+    url: /live-search/synonyms.html
+
+  - title: Rules
+    content: Shape the shopping experience with if-then statements that add logic and events to search. Use rules to boost or bury products for a specific period of time.
+    url: /live-search/rules.html
 ---
 
-Live Search from Magento delivers a lightning fast, super-relevant, and intuitive search experience. Live Search is available for Magento Commerce out-of-the-box at no additional charge.
+Live Search from Magento delivers a lightning fast, super-relevant, and intuitive search experience, and is available for Magento Commerce at no additional charge.
 
-## Storefront experience
-
-With a focus on speed, relevance, and ease of use, Live Search is a game changer for shoppers and merchants alike. Follow along for a quick tour of Live Search from the storefront.
-
-### Quick search
-
-Enhanced quick search combines elements of search and browse, and returns categories, suggestions, and a thumbnail image of the top search results.
-
-### Search as you type
-
-Live Search returns dynamic and responsive results as soon as the shopper starts typing. 
-
-### Synonyms
-
-Synonyms expand the reach and sharpen the focus of queries by including words shoppers might use that differ from those in your catalog. Merchants can fine tune the synonym dictionary to keep shoppers on the path to purchase.
- 
-![Example storefront - quick search]({% link live-search/assets/storefront-quick-search.png %}){: .zoom}
-_Enhanced quick search_
-
-### Dynamic pagination
-
-When shoppers click View all items, there is no need to navigate through pages of search results because additional items appear naturally as they scroll down the page.
-
-### Faceted search
-
-The Filters list in the left sidebar lists the available values derived from the current set of returned products. Filtered search uses multiple dimensions of static and dynamic attribute values, or facets, as search criteria. The selection of filters changes according to the products returned.
-
-Price buckets group products by price range and make it easy to shop by price. Unlike price navigation, each price range of each bucket overlaps the previous bucket by one dollar to smooth the transition between price buckets.
- 
-![Example storefront - filters]({% link live-search/assets/storefront-filters.png %}){: .zoom}
-_Filters_
-
-### Enhanced category browse
-
-When a shopper browses by category from the main menu, a paginated results list is returned with layered navigation in the left sidebar. However, just below the paginated list is an additional list of filterable search results that operates independently of the first list. Shoppers can browse by category and conduct a different filtered search from the same page.
-
-Individual child SKUs are supported for configurable products, which makes it possible to browse directly to a specific product variation by SKU rather than to the parent product.
-
-![Example storefront - category browse and filterable search]({% link live-search/assets/storefront-browse-search.png %}){: .zoom}
-_ Category browse and filterable search results_
-
-### Merchandising rules
-
-Live Search empowers merchants to shape the shopping experience with if-then statements that add logic and events to search. For example, you can use rules to boost or bury products for a specific period of time.
+{% include grid.html sections=page.sections%}
