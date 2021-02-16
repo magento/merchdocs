@@ -519,8 +519,8 @@ pages:
   url: "/live-search/overview.html"
   edition: ee-only
   children:
-  - label: Storefront Tour
-    url: "/live-search/storefront-tour.html"
+  - label: Quick Tour
+    url: "/live-search/quick-tour.html"
   - label: Onboarding
     url: "/live-search/onboarding.html"
   - label: Workspace
