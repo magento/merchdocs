@@ -6,7 +6,7 @@ link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
 updated: Mon Feb 15 15:26:27 2021
 entries:
-- description: Update the [About this Release](https://docs.magento.com/user-guide/magento/about-this-release.html)
+- description: Updated the [About this Release](https://docs.magento.com/user-guide/magento/about-this-release.html)
     page with links to the 2.4.2 Release Notes.
   versions: 2.4.2
   type: Minor update
