@@ -34,6 +34,8 @@ _Customer Groups_
 
 1. Select the **Tax Class** that applies to the group.
 
+1. Select **Excluded Website(s)** that you want to [exclude from the group](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/indexer-optimization.html#customer-group-limitations-by-websites). No websites are excluded by default. Use Ctrl+Click to check several values or uncheck value.
+
    ![]({% link images/images/stores-customer-group-information.png %}){: .zoom}
    _Group Information_
 
