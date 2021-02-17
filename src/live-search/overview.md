@@ -16,15 +16,15 @@ sections:
     url: /live-search/workspace.html
 
   - title: Performance
-    content: Provides insight into product-specific search performance that you can leverage to optimize search.
-   url: /live-search/performance.html
+    content: Gain insight into product-specific search performance that you can leverage to optimize search.
+    url: /live-search/performance.html
 
   - title: Facets
     content: This high-performance filtering method uses multiple dimensions of static and dynamic attribute values as search criteria.
     url: /live-search/facets.html
 
   - title: Synonyms
-    content: Expand the reach of search to include words that shoppers might use that differ from those in your catalog.
+    content: Expand the reach of search with words shoppers might use that differ from those in your catalog.
     url: /live-search/synonyms.html
 
   - title: Rules

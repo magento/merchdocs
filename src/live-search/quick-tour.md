@@ -41,7 +41,7 @@ When a shopper browses by category from the main menu, a paginated results list 
 Individual child SKUs are supported for configurable products, which makes it possible to browse directly to a specific product variation by SKU rather than to the parent product.
 
 ![Example storefront - category browse and filterable search]({% link live-search/assets/storefront-browse-search.png %}){: .zoom}
-_ Category browse and filterable search results_
+_Category browse and filterable search results_
 
 ### Merchandising rules
 
