@@ -32,13 +32,17 @@ If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled,
       ![Cart price rule - coupon information]({% link images/images/price-rule-cart-coupon-info.png %}){: .zoom}
       _Coupon Information_
 
+   {:.bs-callout-info}
+   In case of simultaneous use of the same coupon by multiple customers at the same time, it is possible that the usage
+   limit that is set could be exceeded due to delayed coupon processing.
+
 1. To make the coupon valid for a period of time, do the following:
 
    - {:.ce-only}Complete the **From** and **To** dates. To select the date, click the **Calendar** (![]({% link images/images/btn-calendar.png %})) icon next to each field. If you leave the date range empty, the rule does not expire.
 
    - {:.ee-only}Do one of the following:
 
-      **Schedule New Update**
+      **Schedule New Update:**
 
       - Click <span class="btn">Schedule New Update</span> in the upper-right corner of the page. Then, do the following:
 
@@ -54,7 +58,7 @@ If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled,
         ![Cart price rule - scheduled change]({% link images/images/price-rule-cart-coupon-scheduled-change.png %}){: .zoom}
         _Scheduled Change_
 
-      **Assign to Existing Update**
+      **Assign to Existing Update:**
 
       - Select **Assign to Another Update**.
 
@@ -75,6 +79,10 @@ The generation of discount coupons is an asynchronous operation, which executes 
    ![Cart price rule - generate auto-numbered coupons]({% link images/images/price-rule-cart-coupon-auto.png %}){: .zoom}
    _Generate Auto-numbered Coupons_
 
+   {:.bs-callout-info}
+   In case of simultaneous use of the same coupon by multiple customers at the same time, it is possible that the usage
+   limit that is set could be exceeded due to delayed coupon processing.
+
 1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Manage Coupon Codes** section. Then, do the following:
 
    ![Cart price rule - manage coupon codes]({% link images/images/price-rule-cart-manage-coupon-codes.png %}){: .zoom}
@@ -94,7 +102,7 @@ The generation of discount coupons is an asynchronous operation, which executes 
 
    - (Optional) Enter a **Code Suffix** to be added to the end of the code.
 
-   - (Optional) In the **Dash Every X Characters** field, enter the number of characters between each dash. For example, if the code is twelve characters long, and there is a dash every four characters, it will look like ` xxxx-xxxx-xxxx`. Dashes make codes easier to read and enter.
+   - (Optional) In the **Dash Every X Characters** field, enter the number of characters between each dash. For example, if the code is twelve characters long, and there is a dash every four characters, it will look like `xxxx-xxxx-xxxx`. Dashes make codes easier to read and enter.
 
 1. When complete, click <span class="btn">Generate</span>.
 

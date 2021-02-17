@@ -6,6 +6,8 @@ redirect_from:
 
 The Orders workspace lists all current orders. Each row in the grid represents an order, and each column represents an attribute or data field. By default, orders display in descending order from latest to earliest purchase date. Use the standard [controls]({% link stores/admin-grid-controls.md %}) to sort and filter the list, find orders, and apply [actions]({% link stores/admin-actions-control.md %}) to selected orders. You can view existing orders, and create new orders. Use the tabs above the pagination controls to filter the list, change the default view, change and rearrange columns, and export data.
 
+Orders are usually created when customers complete the checkout process from the storefront. However, if a customer needs [assistance]({% link sales/shopping-assistance.md %}), you can also access their [shopping cart]({% link sales/shopping-assisted-cart-manage.md %}) or [create an order]({% link customers/customer-account-create-order.md %}) either from the _Orders_ grid or directly from their customer account.
+
 ![]({% link images/images-b2b/orders.png %}){: .zoom}
 _Orders grid_
 

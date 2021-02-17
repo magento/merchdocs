@@ -16,8 +16,9 @@ module LinkChecker
   def self.options
     config = YAML.load_file('_config.checks.yml')
     return config['html-proofer'] unless ENV['BUILD_NUMBER']
+
     staging_prefix = '/' + ENV['BUILD_NUMBER']
-    url_swap = { url_swap: { %r{\A#{staging_prefix}} => '' } }
+    url_swap = { url_swap: { /\A#{staging_prefix}/ => '' } }
     config['html-proofer'].merge(url_swap)
   end
 

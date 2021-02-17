@@ -2,19 +2,17 @@
 title: Creating a Shipment
 ---
 
-The following instructions walk you through the process of creating a shipment for Magento Shipping. If you have Inventory Management enabled, you may want to review [Creating Shipments with Inventory Management]({% link catalog/inventory-shipment-create.md %}).
+The following instructions walk you through the process of creating a shipment for [Magento Shipping]({% link shipping/magento-shipping.md %}). If you have Inventory Management enabled, you may want to review [Creating Shipments with Inventory Management]({% link catalog/inventory-shipment-create.md %}).
 
-**To create a shipment:**
+## Create a shipment
 
-1. On the _Admin_ sidebar, choose **Sales**.
+1. On the _Admin_ sidebar, go to **Sales** > **Orders**.
 
-1. Choose **Orders**.
-
-1. Find the order in the grid, and open it.
+1. Find the order in the grid and open it.
 
 1. If the order is paid, invoiced, and ready to ship, click **Ship**.
 
-    The sections at the top of the shipment contain name and address and payment information from the sales order.
+   The sections at the top of the shipment contain name and address and payment information from the sales order.
 
 1. Complete each section of the shipment form using the instructions in the following sections.
 
@@ -37,62 +35,60 @@ Enter a **Shipment Reference** number to identify the shipment on the customer [
 
 The default value is the Magento Customer ID, but you can specify another value up to 15 characters.
 
-## Route Information
-
-**To configure the route options:**
+### Configure the route options
 
 1. In _Route Information_ section, choose the **Origin Location**.
 
-     For Magento Shipping, the default [location]({% link shipping/magento-shipping-locations.md %}) is entered automatically, but can be overridden as necessary.
+   For Magento Shipping, the default [location]({% link shipping/magento-shipping-locations.md %}) is entered automatically, but can be overridden as necessary.
 
-1. If applicable, mark the **International** checkbox.
+1. If applicable, select the **International** checkbox.
 
-     For international shipments, the International Item Details and International Shipment Details sections appear in the form.
+   For international shipments, the International Item Details and International Shipment Details sections appear in the form.
 
-     ![]({% link images/images/shipment-magento-shipping-route-information.png %}){: .zoom}
-     _Route Information_
+   ![]({% link images/images/shipment-magento-shipping-route-information.png %}){: .zoom}
+   _Route Information_
 
 ## Packages
 
 In the catalog database, make sure that the weight is entered correctly for all products to be shipped.
 
-### To use Magento Shipping packaging:
+### Use Magento Shipping packaging
 
 1. Complete the [packaging setup]({% link shipping/magento-shipping-packaging.md %}), as needed.
 
-    Magento Shipping presents a list of predefined carrier packaging after the carrier connects. The list includes all package types offered by the carrier, and the pricing and associated services are updated automatically from the carrier.
+   Magento Shipping presents a list of predefined carrier packaging after the carrier connects. The list includes all package types offered by the carrier, and the pricing and associated services are updated automatically from the carrier.
 
-    {:.bs-callout-info}
-    The package configuration grid lists only merchant-defined packaging. Carrier-specific packaging does not appear in the grid.
+   {:.bs-callout-info}
+   The package configuration grid lists only merchant-defined packaging. Carrier-specific packaging does not appear in the grid.
 
 1. Choose the package type.
 
-    After you choose a package type, the length, width, height, and dimension unit are automatically entered. The following determinations are made to calculate the package weight:
+   After you choose a package type, the length, width, height, and dimension unit are automatically entered. The following determinations are made to calculate the package weight:
 
-    - The weight of the package, as specified in the catalog for each shippable product.
-    - The tare weight of the selected package type.
-    - The sum of all product weights in the package, as well as the tare weight of the package.
+   - The weight of the package, as specified in the catalog for each shippable product.
+   - The tare weight of the selected package type.
+   - The sum of all product weights in the package, as well as the tare weight of the package.
 
-     An error occurs if the weight of all items in the package exceeds the maximum weight allowed for the package. The total weight is recalculated whenever the package type or quantity ordered changes. A warning appears below the Total Weight field, as a reminder to verify the values and make any changes necessary.
+   An error occurs if the weight of all items in the package exceeds the maximum weight allowed for the package. The total weight is recalculated whenever the package type or quantity ordered changes. A warning appears below the Total Weight field, as a reminder to verify the values and make any changes necessary.
 
-### To enter merchant-defined packaging:
+### Enter merchant-defined packaging
 
 1. In the _Packages_ section, choose the **Package Type**.
 
-    - If you choose a prepared package type profile, the measurements are entered automatically.
+   - If you choose a prepared package type profile, the measurements are entered automatically.
 
-    - If you choose a Custom package, you must enter the **Length**, **Width**, and **Height** of the package. Then in the **Dim. Units** field, enter the number of dimensional units used by the package in the delivery vehicle or container.
+   - If you choose a Custom package, you must enter the **Length**, **Width**, and **Height** of the package. Then in the **Dim. Units** field, enter the number of dimensional units used by the package in the delivery vehicle or container.
 
-    When you enter the **Weight** of the package, you can also set the **Weight Units** field to a different unit of measurement that is used for weight.
+   When you enter the **Weight** of the package, you can also set the **Weight Units** field to a different unit of measurement that is used for weight.
 
 1. To change the number of ordered items that are packed in the shipment, update the value in the **Contents** field.
 
-    After you change the value, the **Quantity Packed** value updates to reflect the change.
+   After you change the value, the **Quantity Packed** value updates to reflect the change.
 
-    ![]({% link images/images/shipment-magento-shipping-packages-box.png %}){: .zoom}
-    _Packages_
+   ![]({% link images/images/shipment-magento-shipping-packages-box.png %}){: .zoom}
+   _Packages_
 
-### To add another package to the shipment:
+### Add another package to the shipment
 
 1. Click **Add Another Package**.
 
@@ -100,14 +96,14 @@ In the catalog database, make sure that the weight is entered correctly for all 
 
 ## International Item Details (if applicable)
 
-Complete the fields in the **International Item Details** section. If you need help, click the Help (![]({% link images/images/btn-help.png %}){: .Inline}) button, or refer to the Field Descriptions at the end of this topic.
+Complete the fields in the **International Item Details** section. If you need help, click the Help (![]({% link images/images/btn-help.png %})) button, or refer to the Field Descriptions at the end of this topic.
 
 ![]({% link images/images/shipment-magento-shipping-international-item-details.png %}){: .zoom}
 _International Item Details_
 
 ## International Shipment Details (if applicable)
 
-Complete the fields in the **International Shipment Details** section. If you need help, click the Help (![]({% link images/images/btn-help.png %}){: .Inline}) button, or refer to the Field Descriptions at the end of this topic.
+Complete the fields in the **International Shipment Details** section. If you need help, click the Help (![]({% link images/images/btn-help.png %})) button, or refer to the Field Descriptions at the end of this topic.
 
 ![]({% link images/images/shipments-magento-shipping-international-shipment-details.png %}){: .zoom}
 _International Shipment Details_
@@ -122,28 +118,28 @@ The selection of value-added delivery options is determined by shipping method a
 
 1. (Magento Shipping UPS - US only):
 
-    - If available and applicable, mark the **Adult Signature Required** checkbox.
+   - If available and applicable, select the **Adult Signature Required** checkbox.
 
-    - If you want to prevent the delivery from being redirected or rerouted by the recipient or driver, choose **Direct Delivery Only**.
+   - If you want to prevent the delivery from being redirected or rerouted by the recipient or driver, choose **Direct Delivery Only**.
 
-    - If needed for a time-critical delivery, mark the **Saturday Delivery** checkbox.
+   - If needed for a time-critical delivery, select the **Saturday Delivery** checkbox.
 
 1. To identify the type of address, set **Destination Address Type** to one of the following:
 
-    - Business
-    - Residential
-    - Post Office Box
+   - `Business`
+   - `Residential`
+   - `Post Office Box`
 
-    ![]({% link images/images/shipment-magento-shipping-add-ons.png %}){: .zoom}
-    _Add-Ons_
+   ![]({% link images/images/shipment-magento-shipping-add-ons.png %}){: .zoom}
+   _Add-Ons_
 
 ## Shipping Quotes
 
 1. Set customer shipping preferences:
 
-    - To use the customer’s preferred method of shipping, mark the **Customer Preference** checkbox.
+   - To use the customer’s preferred method of shipping, select the **Customer Preference** checkbox.
 
-    - To override the customer’s preferred method, clear the **Customer Preference** checkbox. Then, choose another method.
+   - To override the customer’s preferred method, clear the **Customer Preference** checkbox. Then, choose another method.
 
 1. Click **Get Quotes**.
 
@@ -163,22 +159,22 @@ The selection of value-added delivery options is determined by shipping method a
 
 1. When the shipment is ready, click **Book Shipment**. Then, do the following:
 
-    - To view the tracking information, click the **Tracking Number**.
+   - To view the tracking information, click the **Tracking Number**.
 
         ![]({% link images/images/shipment-magento-shipping-tracking-information-detail.png %}){: .zoom}
         _Tracking Information_
 
-    - To send the package tracking information to the customer, click **Send Tracking Information**.
+   - To send the package tracking information to the customer, click **Send Tracking Information**.
 
-    - Click **OK** to confirm.
+   - Click **OK** to confirm.
 
-        ![]({% link images/images/shipment-magento-shipping-tracking-information.png %}){: .zoom}
-        _Shipping and Tracking Information_
+      ![]({% link images/images/shipment-magento-shipping-tracking-information.png %}){: .zoom}
+      _Shipping and Tracking Information_
 
-    A message appears at the top of the page that the shipment has been sent, and the **Documentation** section appears in the shipment form, with a list of available printouts.
+   A message appears at the top of the page that the shipment has been sent, and the **Documentation** section appears in the shipment form, with a list of available printouts.
 
-    {:.bs-callout-info}
-    The remaining steps use the High Value Report, which is available for Magento Shipping orders over $999.00 (UPS - US only), as an example.
+   {:.bs-callout-info}
+   The remaining steps use the High Value Report, which is available for Magento Shipping orders over $999.00 (UPS - US only), as an example.
 
 1. In the _Action_ column, click the link to **Download** the package label for the shipment. Then, **Print** the label.
 
@@ -197,11 +193,11 @@ The selection of value-added delivery options is determined by shipping method a
 {: .buttons-table }
 |Button|Description|
 |--- |--- |
-|<span class="btn">Back</span>|Closes the New Shipment form, and returns to the order|
-|<span class="btn">Book Shipment</span>|Adds the shipment to the Dispatch grid.|
+|<span class="btn">Back</span>|Closes the _New Shipment_ form and returns to the order|
+|<span class="btn">Book Shipment</span>|Adds the shipment to the _Dispatch_ grid.|
 |<span class="btn">Reset</span>|Restores all fields to original values.|
 
-## Field Descriptions
+## Field descriptions
 
 ### Shipping Information
 

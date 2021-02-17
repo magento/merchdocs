@@ -59,9 +59,8 @@ pages:
       edition: ee-only
     - label: Creating an Order
       url: "/customers/customer-account-create-order.html"
-      children:
-      - label: Updating an Order
-        url: "/sales/order-update.html"
+    - label: Updating an Order
+      url: "/sales/order-update.html"
   - label: Checkout
     url: "/sales/checkout-process.html"
     children:
@@ -92,9 +91,8 @@ pages:
       url: "/sales/quote-workflow.html"
     - label: Negotiating a Quote
       url: "/sales/quote-price-negotiation.html"
-      children:
-      - label: Example Quote
-        url: "/sales/quote-example.html"
+    - label: Example Quote
+      url: "/sales/quote-example.html"
   - label: Orders
     url: "/sales/orders.html"
     children:
@@ -129,8 +127,8 @@ pages:
     children:
     - label: Creating an Invoice
       url: "/sales/invoice-create.html"
-    - label: Printing Multiple Invoices
-      url: "/sales/invoice-print-multiple.html"
+    - label: Printing Invoices
+      url: "/sales/invoice-print.html"
   - label: Shipments
     url: "/sales/shipments.html"
     children:
@@ -147,8 +145,6 @@ pages:
   - label: Credit Memos
     url: "/sales/credit-memos.html"
     children:
-    - label: Product Return Workflow
-      url: "/sales/return-product-workflow.html"
     - label: Issuing a Credit Memo
       url: "/sales/credit-memo-create.html"
     - label: Printing Credit Memos
@@ -157,13 +153,11 @@ pages:
     url: "/sales/store-credit.html"
     edition: ee-only
     children:
-    - label: Store Credit Workflow
-      url: "/sales/store-credit-workflow.html"
-    - label: Applying Store Credit
-      url: "/sales/store-credit-using.html"
     - label: Configuring Store Credit
       url: "/sales/credit-configure.html"
-    - label: Refunds in Customer Account
+    - label: Applying Store Credit
+      url: "/sales/store-credit-using.html"
+    - label: Customer Account Dashboard
       url: "/sales/refunds-customer-account.html"
   - label: Company Credit
     url: "/sales/credit-company.html"
@@ -177,17 +171,14 @@ pages:
     url: "/sales/returns.html"
     edition: ee-only
     children:
-    - label: RMA Workflow
-      url: "/sales/rma-workflow.html"
     - label: RMA Lifecycle
       url: "/sales/rma-lifecycle.html"
     - label: Customer Experience
       url: "/sales/rma-customer-experience.html"
     - label: Configuring Returns
       url: "/sales/rma-configure.html"
-      children:
-      - label: Returns Attribute
-        url: "/stores/attributes-returns.html"
+    - label: Returns Attribute
+      url: "/stores/attributes-returns.html"
   - label: Billing Agreements
     url: "/sales/billing-agreements.html"
   - label: Transactions

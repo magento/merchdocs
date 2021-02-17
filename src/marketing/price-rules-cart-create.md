@@ -15,7 +15,7 @@ Complete the following steps to add a new rule, describe the conditions, and def
    - If you do not want the rule to go into effect immediately, set **Active** to `No`.
 
     ![Cart price rule - rule information]({% link images/images-ee/price-rule-cart-new.png %}){: .zoom}
-    _Rule Information_{:.ee-only}
+    _Rule Information_
 
 1. To establish the [scope]({% link configuration/scope.md %}) of the rule, do the following:
 
@@ -41,7 +41,7 @@ Complete the following steps to add a new rule, describe the conditions, and def
         To learn more, see [Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}).
 
         ![Cart price rule  - coupon settings]({% link images/images-ee/price-rule-cart-coupon-settings-ee.png %}){: .zoom}
-        _Coupon Settings_{:.ee-only}
+        _Coupon Settings_
 
    - {:.ce-only}Use the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the **From** and **To** date range for the promotion.
 
@@ -59,7 +59,7 @@ Complete the following steps to add a new rule, describe the conditions, and def
    - {:.ee-only}After the rule is saved, the name of the cart price rule and the Scheduled Changes box appear at the top of the page.
 
    ![Cart price rule - scheduled changes]({% link images/images-ee/price-rule-cart-scheduled-changes.png %}){: .zoom}
-   _[Scheduled Changes]({% link marketing/price-rule-cart-scheduled-changes.md %})_{:.ee-only}
+   _[Scheduled Changes]({% link marketing/price-rule-cart-scheduled-changes.md %})_
 
 ## Step 2: Describe the Conditions
 
@@ -87,7 +87,7 @@ _Conditions_
    - When prompted to **Choose the condition to add**, choose `Products Subselection`.
 
    ![Cart price rule condition - products subselection]({% link images/images-ee/price-rule-cart-condition-products-subselection.png %}){: .zoom}
-    _Products Subselection_{:.ee-only}
+   _Products Subselection_
 
 1. When the next part of the condition appears, hover over the line so you can see where each link with variable values is located.
 
@@ -117,22 +117,22 @@ _Conditions_
 
    You can repeat the process as many times as needed to describe the conditions that must be met for the price rule. Here are some examples:
 
-   **Example 1: Regional Price Rule**
+   - **Example 1:** Regional Price Rule
 
-   To create a regional price rule, use one of the following cart attributes:
+      To create a regional price rule, use one of the following cart attributes:
 
-   - Shipping Postcode
-   - Shipping Region
-   - Shipping State/Province
-   - Shipping Country
+      - Shipping Postcode
+      - Shipping Region
+      - Shipping State/Province
+      - Shipping Country
 
-   **Example 2: Shopping Cart Totals**
+   - **Example 2:** Shopping Cart Totals
 
-   To base the condition on shopping cart totals, use one of the following cart attributes:
+      To base the condition on shopping cart totals, use one of the following cart attributes:
 
-   - Subtotal
-   - Total Items Quantity
-   - Total Weight
+      - Subtotal
+      - Total Items Quantity
+      - Total Weight
 
 ## Step 3: Define the Actions
 
@@ -141,7 +141,7 @@ The shopping cart price rule actions describe how prices are updated when the co
 1. Scroll down to **Actions**, and expand ![Expansion selector]({% link images/images/btn-expand.png %})the section. Then, do the following:
 
    ![Cart price rule - actions ]({% link images/images-ee/price-rule-cart-actions.png %}){: .zoom}
-   _Cart Price Rule Actions_{:.ee-only}
+   _Cart Price Rule Actions_
 
 1. Set **Apply** to one of the following discount options:
 
@@ -178,7 +178,7 @@ The shopping cart price rule actions describe how prices are updated when the co
    |For matching items only |Free shipping is available only for items that match the conditions of the rule. |
    |For shipment with matching items |Free shipping is available for any shipment that includes matching item(s). |
 
-1. {:.ee-only}In the **Add Rewards Points** field, enter the number of points the customer earns whenever the cart price rule is applied. (If reward points are not enabled, leave this field blank.)
+1. {:.ee-only}For **Add Rewards Points**, enter the number of points the customer earns whenever the cart price rule is applied. (If reward points are not enabled, leave this field blank.)
 
 1. When complete, click <span class="btn">Save and Continue Edit</span>.
 
@@ -196,7 +196,9 @@ _Discount Label in Totals Section of Order_
    ![Cart price rule - default label]({% link images/images/price-rule-cart-label-default.png %}){: .zoom}
    _Default Label_
 
-1. If your store has multiple views, or multiple websites with multiple views, enter the appropriate label text for each. For example, if each store view is in a different language, enter the translation of the label for each view.
+1. If your store has multiple views, or multiple websites with multiple views, enter the appropriate label text for each.
+
+   For example, if each store view is in a different language, enter the translation of the label for each view.
 
    ![]({% link images/images/price-rule-cart-label-store-specific.png %}){: .zoom}
 

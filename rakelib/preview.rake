@@ -8,11 +8,11 @@ namespace :preview do
   task all: %w[install clean] do
     print 'Enabled the default configuration: $ '.magenta
     sh 'bin/jekyll',
-          'serve',
-            '--incremental',
-            '--open-url',
-            '--trace',
-            '--plugins=_plugins,_checks'
+       'serve',
+       '--incremental',
+       '--open-url',
+       '--trace',
+       '--plugins=_plugins,_checks'
   end
 
   desc 'Preview the User Guides with _config.local.yml'
@@ -21,12 +21,12 @@ namespace :preview do
     if File.exist?('_config.local.yml')
       print 'enabled the additional configuration parameters from _config.local.yml: $ '.magenta
       sh 'bin/jekyll',
-            'serve',
-              '--incremental',
-              '--open-url',
-              '--trace',
-              '--config=_config.yml,_config.local.yml',
-              '--plugins=_plugins,_checks'
+         'serve',
+         '--incremental',
+         '--open-url',
+         '--trace',
+         '--config=_config.yml,_config.local.yml',
+         '--plugins=_plugins,_checks'
     else
       Rake::Task['preview:all'].invoke
     end

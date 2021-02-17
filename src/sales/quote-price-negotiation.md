@@ -16,44 +16,44 @@ During the negotiation process, the seller can do the following:
 
 While the quote is open for review, its status in the buyer’s account is set to `Pending`. The buyer can change and resubmit the quote even if it was declined or is expired.
 
-## Step 1: View the Request
+## Step 1: View the request
 
-1. On the _Admin_ sidebar click **Sales**, and then choose **Quotes**.
+1. On the _Admin_ sidebar go to **Sales** > **Quotes**.
 
-    The new request appears in the Quotes grid.
+   The new request appears in the Quotes grid.
 
 1. In the _Actions_ column, click **View**.
 
-    ![]({% link images/images-b2b/quote-grid-new.png %}){: .zoom}
-    _New Quote_
+   ![]({% link images/images-b2b/quote-grid-new.png %}){: .zoom}
+   _New Quote_
 
-## Step 2: Modify the Quote
+## Step 2: Modify the quote
 
-1. In the _Quote & Account Information_, click the **Calendar** (![]({% link images/images/btn-calendar.png %}){: .Inline}).
+1. Under _Quote & Account Information_, click the **Calendar** (![]({% link images/images/btn-calendar.png %})).
 
-    ![]({% link images/images-b2b/quote-details-quote-account-information.png %}){: .zoom}
-    _Quote & Account Information_
+   ![]({% link images/images-b2b/quote-details-quote-account-information.png %}){: .zoom}
+   _Quote & Account Information_
 
 1. Choose an _Expiration Date_ for the quote.
 
-    If the buyer changes the quantity of any items in the quote, a notice appears at the top of the quote, indicating that list of items has changed, and the negotiated price needs to be updated.
+   If the buyer changes the quantity of any items in the quote, a notice appears at the top of the quote, indicating that list of items has changed, and the negotiated price needs to be updated.
 
-    ![]({% link images/images-b2b/quote-change-notice.png %}){: .zoom}
-    _Quote Change Notice_
+   ![]({% link images/images-b2b/quote-change-notice.png %}){: .zoom}
+   _Quote Change Notice_
 
 1. Scroll down to the _Quote Totals_ section and update the **Negotiated Price** as needed.
 
     ![]({% link images/images-b2b/quote-change-update-negotiated-price.png %}){: .zoom}
     _Update Negotiated Price_
 
-### Add new products to the quote:
+### Add new products to the quote
 
 1. Click **Add Products by SKU**.
 
 1. Enter the **SKU** and **Qty** to be added.
 
-    ![]({% link images/images-b2b/quote-details-add-to-quote-by-sku.png %}){: .zoom}
-    _Add to Quote by SKU_
+   ![]({% link images/images-b2b/quote-details-add-to-quote-by-sku.png %}){: .zoom}
+   _Add to Quote by SKU_
 
 ### Apply a line item discount
 
@@ -71,38 +71,38 @@ In the _Items Quoted_ section, make the following changes, if needed:
 
 - To apply the changes and update the quote to the shared catalog and price rules, click **Update Prices** and then click **Proceed** to confirm the update.
 
-    ![]({% link images/images-b2b/quote-detail-items-quoted.png %}){: .zoom}
-    _Items Quoted_
+   ![]({% link images/images-b2b/quote-detail-items-quoted.png %}){: .zoom}
+   _Items Quoted_
 
 ### Update shipping information
 
 1. If the buyer includes a _Ship To_ address in the quote, click **Get shipping methods and rates**.
 
-    ![]({% link images/images-b2b/quote-shipping-information.png %}){: .zoom}
-    _Shipping Information_
+   ![]({% link images/images-b2b/quote-shipping-information.png %}){: .zoom}
+   _Shipping Information_
 
 1. Choose a shipping method from the available options.
 
 1. Enter a **Proposed Shipping Price**.
 
-    The Quote Totals are updated to reflect the proposed shipping price.
+   The _Quote Totals_ are updated to reflect the proposed shipping price.
 
-    ![]({% link images/images-b2b/quote-shipping-information-shipping-method-price-png.png %}){: .zoom}
-    _Shipping Method &amp; Price_
+   ![]({% link images/images-b2b/quote-shipping-information-shipping-method-price-png.png %}){: .zoom}
+   _Shipping Method &amp; Price_
 
 ### Attach a supporting document
 
 1. Under the _Add your comment_ box, click **Attach file**.
 
-    By default, [attached files]({% link configuration/sales/quotes.md %}) can be up to 2 MB in any of the following file formats: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG or JPEG, PNG.
+   By default, [attached files]({% link configuration/sales/quotes.md %}) can be up to 2 MB in any of the following file formats: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG or JPEG, PNG.
 
 1. Choose the file from your directory.
 
-## Step 3: Send Your Reply
+## Step 3: Send your reply
 
 1. In the _Negotiation_ section on the _Comments_ tab, enter your reply in the **Add your comment** section.
 
-1. To include a supporting document, click **Attach file**. Then, select the file from your directory.
+1. To include a supporting document, click **Attach file** and select the file from your directory.
 
     The maximum file size allowed for attachments is 2 MB.
 
@@ -110,11 +110,11 @@ In the _Items Quoted_ section, make the following changes, if needed:
 
    - Under _Quote Totals_ in the _Negotiated Price_ section, choose one of the following discount types:
 
-      - Percentage Discount
-      - Amount Discount
-      - Proposed Price
+      - `Percentage Discount`
+      - `Amount Discount`
+      - `Proposed Price`
 
-   - Enter the amount as a percentage or flat price
+   - Enter the amount as a percentage or flat price.
 
       ![]({% link images/images-b2b/quote-detail-negotiation-comments.png %}){: .zoom}
       _Negotiation Comments_
@@ -138,18 +138,20 @@ Check your email and the status of the quote in the grid to monitor its position
 ![]({% link images/images-b2b/quote-negotiation-reply.png %}){: .zoom}
 _Negotiation Comments and Quote Totals_
 
-## Button Bar
+## Button bar
 
 {: .buttons-table }
 |Button|Description|
 |--- |--- |
-|<span class="btn">Back</span>|Returns to the Quotes page without saving changes.|
-|<span class="btn">Print</span>|Sends the quote to a printer, or saves it as a PDF file.|
+|<span class="btn">Back</span>|Returns to the _Quotes_ page without saving changes.|
+|<span class="btn">Print</span>|Sends the quote to a printer or saves it as a PDF file.|
 |<span class="btn">Save as Draft</span>|Save any changes made to the quote, but do not send it back to the buyer.|
-|<span class="btn">Decline</span>|Declines the request to negotiate prices, either on the initial inquiry, or during ongoing negotiations. When a quote is declined, the seller should add a comment to explain the decision. When a quote is declined, all negotiated prices are reset to the original values. The Decline button is disabled while the seller is waiting for a reply from the buyer.|
-|<span class="btn">Send</span>|Sends the updated quote as a reply to the buyer’s inquiry. The Send button is disabled if the seller is waiting for a reply from the buyer.|
+|<span class="btn">Decline</span>|Declines the request to negotiate prices, either on the initial inquiry, or during ongoing negotiations. When a quote is declined, the seller should add a comment to explain the decision. When a quote is declined, all negotiated prices are reset to the original values. This button is disabled while the seller is waiting for a reply from the buyer.|
+|<span class="btn">Send</span>|Sends the updated quote as a reply to the buyer’s inquiry. This button is disabled if the seller is waiting for a reply from the buyer.|
 
-## Field Descriptions
+## Field descriptions
+
+Quote information and functions in the Admin are organized into the following sections.
 
 ### Quote & Account Information
 

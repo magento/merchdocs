@@ -35,11 +35,11 @@ A [shipment]({% link sales/shipments.md %}) is a record of the products in an or
 
 ### Dispatches
 
-For [Magento Shipping]({% link shipping/magento-shipping.md %}), lists shipments that are ready for [pickup]({% link sales/dispatches.md %}) per carrier.
+If [Magento Shipping]({% link shipping/magento-shipping.md %}) is activated, lists shipments that are ready for [pickup]({% link sales/dispatches.md %}) per carrier.
 
 ### Batches
 
-For [Magento Shipping]({% link shipping/magento-shipping.md %}), create [batches]({% link shipping/magento-shipping-batch-create.md %}) of shipments that can be booked together.
+If [Magento Shipping]({% link shipping/magento-shipping.md %}) is activated, you can create [batches]({% link shipping/magento-shipping-batch-create.md %}) of shipments that can be booked together.
 
 {:.ee-only}
 ### Returns
@@ -57,7 +57,7 @@ The [Transactions]({% link sales/transactions.md %}) page lists all payment acti
 {:.ee-only}
 ### Archive
 
-[Archiving orders]({% link sales/order-archive.md %}) and other sales documents on a regular basis improves performance and keeps your workspace free of unnecessary information. Choose any of the menu items to access archived items:
+(Archive option must be enabled) [Archiving orders]({% link sales/order-archive.md %}) and other sales documents on a regular basis improves performance and keeps your workspace free of unnecessary information. Choose any of the menu items to access archived items:
 
 - Orders
 - Invoices
