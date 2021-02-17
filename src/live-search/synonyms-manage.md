@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: ManageSyn onyms
+title: Manage Synonyms
 group: marketing
 ---
 

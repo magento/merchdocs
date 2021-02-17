@@ -1,6 +1,7 @@
 ---
 ee_only: true
 title: Live Search
+group: marketing
 sections:
   - title: Quick Tour
     content: With a focus on speed, relevance, and ease of use, Live Search is a game changer for shoppers and merchants alike. Follow along for a quick tour of Live Search from the storefront.
