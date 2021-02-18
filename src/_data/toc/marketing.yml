@@ -527,9 +527,6 @@ pages:
     url: "/live-search/workspace.html"
   - label: Performance
     url: "/live-search/performance.html"
-    children:
-    - label: Generate Report
-      url: "/live-search/performance-report.html"
   - label: Facets
     url: "/live-search/facets.html"
     children:
