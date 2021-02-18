@@ -22,7 +22,7 @@ sections:
    url: /sales/checkout-process.html
 ---
 
-Magento reduces ordering errors by automatically verifying the SKU and availability of all items before an order is submitted. In this section of the guide, you’ll learn how to configure the cart and checkout options, and offer assistance to your customers.
+Magento reduces ordering errors by automatically verifying the SKU and availability of all items before an order is submitted. This section of the guide provides details about how to configure the cart and checkout options, and to offer assistance to your customers.
 
 {% include grid.html sections=page.sections %}
 
