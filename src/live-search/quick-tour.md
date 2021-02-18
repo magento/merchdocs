@@ -45,4 +45,4 @@ _Category browse and filterable search results_
 
 ### Merchandising rules
 
-Live Search empowers merchants to shape the shopping experience with if-then statements that add logic and events to search. For example, you can use rules to boost or bury products for a specific period of time.
+Shape the shopping experience with if-then statements that add logic and events to search. Boost or bury products for a promotion, season, or other period of time.

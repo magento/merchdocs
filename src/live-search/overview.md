@@ -4,11 +4,11 @@ title: Live Search
 group: marketing
 sections:
   - title: Quick Tour
-    content: With a focus on speed, relevance, and ease of use, Live Search is a game changer for shoppers and merchants alike. Follow along for a quick tour of Live Search from the storefront.
+    content: Follow along for a quick storefront tour of Live Search.
     url: /live-search/quick-tour.html
 
   - title: Onboarding
-    content: The Live Search module is installed from the command line of the server and connects as a service to your Magento installation. For installation instructions, see the Live Search developer documentation.
+    content: See the Live Search developer documentation to install and connect the module as a service for your Magento installation.
     url: /live-search/onboarding.html
 
   - title: Workspace
@@ -16,11 +16,11 @@ sections:
     url: /live-search/workspace.html
 
   - title: Performance
-    content: Gain insight into product-specific search performance that you can leverage to optimize search.
+    content: Gain insight and leverage product-specific search performance to optimize search.
     url: /live-search/performance.html
 
   - title: Facets
-    content: This high-performance filtering method uses multiple dimensions of static and dynamic attribute values as search criteria.
+    content: Use multiple dimensions of static and dynamic attribute values as a high-performance search filters.
     url: /live-search/facets.html
 
   - title: Synonyms
@@ -32,6 +32,6 @@ sections:
     url: /live-search/rules.html
 ---
 
-Live Search from Magento delivers a lightning fast, super-relevant, and intuitive search experience, and is available for Magento Commerce at no additional charge.
+Live Search from Magento delivers a lightning fast, super-relevant, and intuitive search experience, and is available for Magento Commerce at no additional charge. With a focus on speed, relevance, and ease of use, Live Search is a game changer for shoppers and merchants alike.
 
 {% include grid.html sections=page.sections%}
