@@ -11,7 +11,9 @@ _Live Search Workspace_
 ## Set the scope
 If your Magento installation includes multiple stores or store views, set **Scope** to the store view where the settings apply.
 
-|Tab|Description|
+## Menu Options
+
+|Option|Description|
 |--- |--- |
 |[Performance]({% link live-search/performance.md %}) |The Performance dashboard provides insight into product-specific search performance that can be leveraged to optimize search. |
 |[Faceting]({% link live-search/facets.md %}) |High-performance filtering that uses multiple dimensions of static and dynamic attribute values to refine search criteria.|

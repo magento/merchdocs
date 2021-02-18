@@ -15,39 +15,25 @@ _Performance_
 
 1. To enter a date range for the report, choose a preset **timeframe** or choose the beginning and ending dates from the calendar.
 
-![Performance report timeframe]({% link live-search/assets/performance-timeframe.png %}){: .zoom}
-_Report timeframe_
+   ![Performance report timeframe]({% link live-search/assets/performance-timeframe.png %}){: .zoom}
+   _Report timeframe_
 
 ## Export report data
 
 1.	On the `Performance` tab, click **Export**.
 
 1. Choose one of the following file formats:
-
-  - CSV (Comma-separated-values)
-  - XLS (Excel worksheet)
+    - CSV (Comma-separated-values)
+    - XLS (Excel worksheet)
 
 1.  Click **Export**.
 
-## Field Descriptions
+## Reporting fields
 
-|Report View |Description|
+|Field |Description|
 |--- |--- |
-|View |Determines the data that is used to generate the Performance report. Options: Search |
-
-|Export Report |Description|
-|--- |--- |
-|Date range |Defines the date range for the Performance report. |
-|Export CSV |Exports report data to a comma-separated value (CSV) file.|
-|Export XLS |Exports report data to an Excel worksheet (XLS) file.|
-
-|Snapshot Data |Description|
-|--- |--- |
-|Unique searches |The number of unique searches initiated from the current store view during the specified date range.|
-|Conversion rate |The percentage of unique searches that led to a customer making a purchase.|
-|Zero results rate|The percentage of unique searches that returned no results.|
-|Click-through rate|The percentage of unique searches in which the shopper clicked through to a product detail page.|
-|Avg. click-through rate|The average click-through rate based on unique searches from the current store view during the specified date range.|
+|Report View |Determines the data that is used to generate the Performance report. Options: Search |
+|Export Report |Options: <br />Date range - Defines the date range for the Performance report.<br />Export CSV - Exports report data to a comma-separated value (CSV) file.<br />Export XLS - Exports report data to an Excel worksheet (XLS) file.|
 
 |Report tabs |Description|
 |--- |--- |
@@ -56,3 +42,12 @@ _Report timeframe_
 |Zero results |Displays detail about searches that returned no results. |
 |Trending searches |Displays detail about trending searches. |
 |Popular results |Displays detail about popular search results. |
+
+## Snapshot data
+|Field |Description|
+|--- |--- |
+|Unique searches |The number of unique searches initiated from the current store view during the specified date range.|
+|Conversion rate |The percentage of unique searches that led to a customer making a purchase.|
+|Zero results rate|The percentage of unique searches that returned no results.|
+|Click-through rate|The percentage of unique searches in which the shopper clicked through to a product detail page.|
+|Avg. click-through rate|The average click-through rate based on unique searches from the current store view during the specified date range.|
