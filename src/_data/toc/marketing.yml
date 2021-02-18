@@ -527,7 +527,7 @@ pages:
     url: "/live-search/workspace.html"
   - label: Performance
     url: "/live-search/performance.html"
-  - label: Facets
+  - label: Faceting
     url: "/live-search/facets.html"
     children:
     - label: Facet Types
