@@ -9,7 +9,7 @@ _Billing agreements_
 
 ## View a billing agreement
 
-1. On the _Admin_ sidebar, go to  **Sales** > _Operations_ > **Billing Agreements**.
+1. On the _Admin_ sidebar, go to  **Sales** > **Billing Agreements**.
 
 1. Find the billing agreement in the list.
 

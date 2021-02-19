@@ -207,21 +207,12 @@ pages:
   url: "/magento/magento-extensions.html"
 - label: Magento Marketplace
   url: "/magento/magento-marketplace.html"
-  children:
-  - label: Set Up Your Marketplace Credentials
-    url: "/magento/magento-marketplace-credentials.html"
-  - label: Synchronize Your Store
-    url: "/magento/magento-marketplace-synchronize-store.html"
-  - label: Install an Extension
-    url: "/magento/magento-marketplace-install-extension.html"
-- label: Change Log
-  url: "/magento/change-log.html"
 - label: Resources
   url: "/getting-started/resources.html"
   children:  
   - label: Join the Conversation
     url: "/getting-started/magento-ecosystem.html"
-  - label: Technical and Doc Resources
+  - label: Technical Resources
     url: https://magento.com/technical-resources
 - label: Contribute to the Docs
   url: "/getting-started/contribute.html"

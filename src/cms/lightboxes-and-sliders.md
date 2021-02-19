@@ -9,7 +9,7 @@ title: Adding a Lightbox or Slider
 
    There is also a wide assortment of jQuery-based image lightboxes available on [Magento Marketplace][1], and some are free.
 
-- {:.ce-only}To add a lightbox or slider to your store, download an extension from Magento Marketplace and follow the instructions to [install the extension][2]. For additional help, see the documentation provided by the extension developer.
+- {:.ce-only}To add a lightbox or slider to your store, download an extension from Magento Marketplace. For additional help, see the documentation provided by the extension developer.
 
    ![]({% link images/images/marketplace-sliders.png %}){: .zoom}
    _Slider Extensions_
