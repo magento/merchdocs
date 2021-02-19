@@ -2,8 +2,6 @@
 title: Onboarding Payments
 ---
 
-Magento Payments is your turnkey self-service solution---including sandbox testing and a super simple setup---for providing robust and secure payment processing for your Magento websites.
-
 To get started using Magento Payments you must complete a few onboarding steps to connect your instance with our payments functionality.
 
 1. [Connect your Magento instance](#configure-magento-services) to Magento Software as a Service (SaaS) services. This only needs to be completed once per Magento instance.
