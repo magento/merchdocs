@@ -20,6 +20,7 @@ Before you try to import a large amount of images, review the steps in the impor
     ```terminal
     <Magento root folder>/var/import/images
     ```
+    {:.no-copy}
 
     {:.bs-callout-info}
     Starting with the Magento `2.3.2` release, the path specified in the **Images File Directory** concatenates for import to the images base directory - `<Magento-root-folder>/var/import/images`. For earlier Magento releases, you can use a different folder on the Magento server, as long as the path to the folder is specified during the import process.
@@ -39,7 +40,7 @@ Before you try to import a large amount of images, review the steps in the impor
 1. After selecting the file to import, enter the relative path following **Images File Directory**.
 
     ```terminal
-    var/import/images/product_images
+    var/import/images
     ```
 
     ![Data import images file directory]({% link images/images/data-import-file-to-import.png %}){: .zoom}
@@ -59,6 +60,7 @@ Before you try to import a large amount of images, review the steps in the impor
     ```terminal
     http://example.com/images/image.jpg
     ```
+    {:.no-copy}
 
 1. Follow the instructions to [import]({% link system/data-import.md %}) the data.
 

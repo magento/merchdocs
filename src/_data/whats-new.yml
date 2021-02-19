@@ -4,9 +4,9 @@ description: This page contains recent changes that we think you'd like to know 
   We exclude from this list proofreading, spelling checks, and insignificant updates.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Mon Feb 9 09:34:14 2021
+updated: Mon Feb 15 15:26:27 2021
 entries:
-- description: Update the [About this Release](https://docs.magento.com/user-guide/magento/about-this-release.html)
+- description: Updated the [About this Release](https://docs.magento.com/user-guide/magento/about-this-release.html)
     page with links to the 2.4.2 Release Notes.
   versions: 2.4.2
   type: Minor update
@@ -48,7 +48,7 @@ entries:
   date: February 9, 2021
   link: https://github.com/magento/merchdocs/pull/938
 - description: Added a method for [importing images with remote storage](https://docs.magento.com/user-guide/system/data-import-product-images.html#method-3-import-images-with-remote-storage).
-   Added a new data transfer example for [downloadable products](https://docs.magento.com/user-guide/system/data-transfer-downloadable-products.html).
+    Added a new data transfer example for [downloadable products](https://docs.magento.com/user-guide/system/data-transfer-downloadable-products.html).
   versions: 2.4.2
   type: New topic
   date: February 9, 2021
@@ -64,19 +64,20 @@ entries:
   type: Major update
   date: February 9, 2021
   link: https://github.com/magento/merchdocs/pull/896
-- description: Added the [Purchase order workflow](https://docs.magento.com/user-guide/stores/b2b-purchase-order-flow.html) topic.
+- description: Added the [Purchase order workflow](https://docs.magento.com/user-guide/stores/b2b-purchase-order-flow.html)
+    topic.
   versions: 2.4.2
   type: New topic
   date: February 9, 2021
   link: https://github.com/magento/merchdocs/pull/840
-- description: Update to the [Magento_User](https://docs.magento.com/user-guide/marketing/email-template-list.html#magento_user) section in Email
-   Template List for the _New Admin User_ email template.
+- description: Update to the [Magento_User](https://docs.magento.com/user-guide/marketing/email-template-list.html#magento_user)
+    section in Email Template List for the _New Admin User_ email template.
   versions: 2.4.2
   type: Minor update
   date: February 9, 2021
   link: https://github.com/magento/merchdocs/pull/797
-- description: Added the [Media Gallery Image Optimization](https://docs.magento.com/user-guide/cms/media-gallery-image-optimization.html) to describe new
-   functionality for image optimization.
+- description: Added the [Media Gallery Image Optimization](https://docs.magento.com/user-guide/cms/media-gallery-image-optimization.html)
+    to describe new functionality for image optimization.
   versions: 2.4.2
   type: New topic
   date: February 9, 2021
