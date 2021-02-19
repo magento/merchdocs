@@ -17,9 +17,10 @@ Before you try to import a large amount of images, review the steps in the impor
 
 1. On the Magento server, upload the image files to the `var/import/images` folder. This is the default folder for importing product images.
 
-    ```
+    ```terminal
     <Magento root folder>/var/import/images
     ```
+    {:.no-copy}
 
     {:.bs-callout-info}
     Starting with the Magento `2.3.2` release, the path specified in the **Images File Directory** concatenates for import to the images base directory - `<Magento root folder>/var/import/images`. For earlier Magento releases, you can use a different folder on the Magento server, as long as the path to the folder is specified during the import process.
@@ -38,7 +39,7 @@ Before you try to import a large amount of images, review the steps in the impor
 
 1. After selecting the file to import, enter the relative path following **Images File Directory**:
 
-    ```
+    ```terminal
     var/import/images
     ```
 
@@ -56,9 +57,10 @@ Before you try to import a large amount of images, review the steps in the impor
 
 1. In the CSV data, enter the full URL for each image file in the correct column by image type (`base_image`, `small_image`, `thumbnail_image`, or `additional_images`).
 
-    ```
+    ```terminal
     http://example.com/images/image.jpg
     ```
+    {:.no-copy}
 
 1. Follow the instructions to [import]({% link system/data-import.md %}) the data.
 

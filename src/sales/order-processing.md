@@ -5,11 +5,11 @@ title: Processing an Order
 When a customer places an order, the order is created as a temporary record of the transaction and initially has a status of `Pending`.  It can be edited or canceled until payment starts processing. The _Orders_ grid lists all orders, regardless of where they are in the [workflow]({% link sales/order-workflow.md %}). To learn how to help customers with an existing order, see [Updating an Order]({% link sales/order-update.md %}).
 
 ![]({% link images/images-ee/orders.png %}){: .zoom}
-_Orders_{:.ee-only}
+_Orders_
 
 ## View an order
 
-1. On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Orders**.
+1. On the _Admin_ sidebar, go to **Sales** > **Orders**.
 
 1. Find the order in the grid.
 
@@ -26,7 +26,7 @@ _Orders_{:.ee-only}
 The left panel for an open order provides access to different types of information that is related to the order.
 
 ![]({% link images/images-ee/order-view.png %}){: .zoom}
-_View Order_{:.ee-only}
+_View an order_
 
 ### Order view descriptions
 
@@ -47,22 +47,23 @@ _View Order_{:.ee-only}
 |<span class="btn">Back</span>|Returns to the Orders page without saving changes.|
 |<span class="btn">Cancel</span>|Cancels the sales order.|
 |<span class="btn">Send Email</span>|Sends an email about the order to the customer.|
-|<span class="btn">Hold</span> / <span class="btn">Unhold</span>|Changes the status of the sales order to `On Hold`. To release the hold on the sales order, choose “Unhold”.|
+|<span class="btn">Hold</span> / <span class="btn">Unhold</span>|Changes the status of the sales order to `On Hold` or releases the existing hold.
 |<span class="btn">Invoice</span>|Creates an invoice from the sales order by converting the order to an invoice.|
 |<span class="btn">Ship</span>|Creates a shipment record for the order.|
 |<span class="btn">Reorder</span>|Creates a new sales order based on the current order.|
-|<span class="btn">Edit</span>|Opens a pending order in edit mode. The Edit button isn’t visible for orders with a status of “Processing”, or orders that are based on negotiated quotes.|
+|<span class="btn">Edit</span>|Opens a pending order in edit mode. The Edit button isn’t visible for orders with a status of `Processing`, or orders that are based on negotiated quotes.|
+
 ## Process an order
 
 To open a `Pending` order, click <span class="btn">Edit</span> in the upper-right corner.
 
 {:.bs-callout-info}
-Orders can be edited only while in `Pending` status. The Edit button is not visible for orders in a different status or for orders that are based on a [negotiated quote]({% link sales/quotes.md %}).
+Orders can be edited only while in `Pending` status. The _Edit_ function is not visible for orders in a different status or for orders that are based on a [negotiated quote]({% link sales/quotes.md %}).
 
 ![]({% link images/images/sales-order-pending-edit.png %}){: .zoom}
-_Edit Sales Order_
+_Edit sales order_
 
-Review the following sections in the sales order, using the field descriptions for reference.
+Review the following sections in the sales order.
 
 ## Cancel an order
 
@@ -71,7 +72,7 @@ Only sales orders with a status of `Pending` can be [canceled]({% link sales/ord
 ## Order and Account Information
 
 ![]({% link images/images-b2b/order-and-account-information.png %}){: .zoom}
-_Order and Account Information_{:.b2b-only}
+_Order and Account Information_
 
 ### Order information
 
@@ -103,7 +104,7 @@ _Address Information_
 |Billing Address|The name of the customer or buyer who placed the order, followed by the billing address, telephone number and [VAT]({% link tax/vat.md %}), if applicable. The telephone number is linked to autodial on a mobile device.|
 |Shipping Address|The name of the person to whose attention the order should be shipped, followed by the shipping address and telephone number. The telephone number is linked to autodial on a mobile device.|
 
-## Payment & Shipping Method
+### Payment & Shipping Method
 
 ![]({% link images/images/order-payment-and-shipping-method-braintree.png %}){: .zoom}
 _Payment & Shipping Method_
@@ -117,9 +118,9 @@ _Payment & Shipping Method_
 ## Review items ordered
 
 ![]({% link images/images/order-items-ordered-tristan.png %}){: .zoom}
-_Items Ordered_
+_Items ordered_
 
-In the **Order Total** section, do the following:
+In the _Order Total_ section, do the following:
 
 1. Enter a **Comment** to include with the order.
 
@@ -128,7 +129,7 @@ In the **Order Total** section, do the following:
 1. If you want the comment to be visible in the customer account, select the **Visible on Storefront** checkbox.
 
     ![]({% link images/images-b2b/order-total.png %}){: .zoom}
-    _Order Total_{:.b2b-only}
+    _Order Total_
 
 1. If you are ready to invoice the order, click **Invoice**. Then follow the instructions to [Create an Invoice]({% link sales/invoice-create.md %}).
 

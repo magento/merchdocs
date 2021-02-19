@@ -9,9 +9,7 @@ When helping a customer who has placed an order, you need to determine the statu
 After a customer places an order, but before the payment is received, the order is in `Pending` status. You can edit the order, place it on hold, or cancel it entirely. The button bar of a pending order lists the available actions for an order.
 
 ![]({% link images/images/order-button-bar-pending.png %}){: .zoom}
-_Pending Order Options_
-
-If you modify the substance of an order, the original order is canceled and a new order is generated. You can, however, change the billing or shipping address without generating a new order.
+_Pending order options_
 
 ### Button bar
 
@@ -29,10 +27,10 @@ If you modify the substance of an order, the original order is canceled and a ne
 
 ## Processing orders
 
-When payment is received and the invoice is generated, the status of the order changes to `Processing`. You cannot change the substance of a `Processing` order, but you can edit the billing and shipping address. A `Processing` order cannot be canceled, but a credit memo can be issued for the full or partial amount of the order, or a return merchandise authorization (RMA) issued for product returns. To learn more, see [Processing an Order]({% link sales/order-processing.md %}).
+When payment is received and the invoice is generated, the status of the order changes to `Processing`. You cannot change the substance of the order, but you can edit the billing and shipping address. A `Processing` order cannot be canceled, but a credit memo can be issued for the full or partial amount of the order, or a return merchandise authorization (RMA) issued for product returns. To learn more, see [Processing an Order]({% link sales/order-processing.md %}).
 
 ![]({% link images/images-ee/order-button-bar-processing.png %}){: .zoom}
-_Processing Order Options_{:.ee-only}
+_Processing order options_
 
 ### Button bar
 
@@ -48,26 +46,39 @@ _Processing Order Options_{:.ee-only}
 
 ## Edit a pending order
 
-1. On the _Admin_ sidebar, click **Sales**.
+If you modify the substance of an order, the original order is canceled and a new order is generated. You can, however, change the billing or shipping address without generating a new order.
 
-1. In the _Operations_ section, choose **Orders**.
+## Edit shipping or billing address for an order
 
-1. In the **Action** column for the order to be edited, click **View**.
+1. On the _Admin_ sidebar, go to **Sales** > **Orders**.
 
-1. Click **Edit**.
+1. In the _Action_ column for the order to be edited, click **View**.
 
-1. At the prompt, click **OK** to continue editing.
+1. Under the _Address Information_, click **Edit** for either the _Billing Address_ or _Shipping Address_.
+
+   ![]({% link images/images/sales-order-edit.png %}){: .zoom}
+   _Edit a order address information_
+
+1. Change the _Order Address Information_ according to the needed changes.
+
+1. To save changes made to the billing or shipping address, click <span class="btn">Save Order Address</span>.
+
+## Edit substance of an order
+
+1. On the _Admin_ sidebar, go to **Sales** > **Orders**.
+
+1. In the _Action_ column for the order to be edited, click **View**.
+
+1. Click <span class="btn">Edit</span>.
+
+   ![]({% link images/images/sales-order-edit.png %}){: .zoom}
+   _Edit a pending order_
+
+1. At the warning prompt, click <span class="btn">OK</span> to continue editing.
 
 1. Update the order as needed.
 
-    ![]({% link images/images/sales-order-edit.png %}){: .zoom}
-    _Edit Order_
-
-1. Apply your changes:
-
-   - To save changes made to the billing or shipping address, click **Save**.
-
-   - To save changes made to line items, and reprocess the order, click **Submit Order**.
+1. To save changes made to line items and resubmit the order, click <span class="btn">Submit Order</span>.
 
 ## Place an order on hold
 
@@ -79,8 +90,8 @@ If the customer’s preferred method of payment is not available or if the item 
 
 1. Click **Hold** to place the order on hold.
 
-    ![]({% link images/images/sales-order-hold.png %}){: .zoom}
-    _Hold Order_
+   ![]({% link images/images/sales-order-hold.png %}){: .zoom}
+   _Hold Order_
 
 To remove the hold on an order, edit the order again and click **Unhold**.
 

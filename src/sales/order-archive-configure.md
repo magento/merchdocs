@@ -1,60 +1,62 @@
 ---
 ee_only: true
-title: Configuring the Archive
+title: Configuring and Accessing the Archive
 ---
 
-Your store can be configured to archive orders, invoices, shipments, and credit memos after a set number of days. You can move orders and their associated documents to the archive, or restore them to their previous state. Archived orders are not deleted and remain available from the Admin. Archived data can be exported to a CSV file and opened in a spreadsheet. When enabled, the “Archive” command appears at the top of the workspace.
+Your store can be configured to archive orders, invoices, shipments, and credit memos after a set number of days. You can move orders and their associated documents to the archive, or restore them to their previous state. Archived orders are not deleted and remain available from the Admin. Archived data can be exported to a CSV file and opened in a spreadsheet. When enabled, the _Go to Archive_ function appears at the top of the Orders workspace.
 
-## To configure the order archive:
+## Configure the sales archive
 
-1. On the Admin menu, click **Stores**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configure**.
 
-1. In the _Settings_ section, choose **Configuration**.
+1. In the left panel, expand **Sales** and choose **Sales** underneath.
 
-1. In the _Sales_ section of the Configuration panel on the left, choose **Sales**.
+1. Expand ![]({% link images/images/btn-expand.png %}) the _Orders, Invoices, Shipments, Credit Memos Archiving_ section.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the _Orders, Invoices, Shipments, Credit Memos Archiving_ section.
+   ![Orders, Invoices, Shipments, Credit Memos Archiving]({% link images/images/config-sales-sales-orders-invoices-shipments-credit-memos-archiving.png %} "Orders, Invoices, Shipments, Credit Memos Archiving"){: .zoom}
+   _[Orders, Invoices, Shipments, Credit Memos Archiving]({% link configuration/sales/sales.md %})_
 
-    ![Orders, Invoices, Shipments, Credit Memos Archiving]({% link images/images/config-sales-sales-orders-invoices-shipments-credit-memos-archiving.png %} "Orders, Invoices, Shipments, Credit Memos Archiving"){: .zoom}
-    _[Orders, Invoices, Shipments, Credit Memos Archiving]({% link configuration/sales/sales.md %})_
+1. Set **Enable Archiving** to `Yes`.
 
-1. Configure the archive:
+   {:.bs-callout-info}
+   If you later decide to turn archiving off, all archived orders will be restored to the previous state.
 
-   - Set **Enable Archiving** to `Yes`.
+1. Set **Archive Orders Purchased** to the number of days to keep an order in the grid before it is archived.
 
-        {:.bs-callout-info}
-        If you later decide to turn archiving off, all archived orders will be restored to the previous state.
+   By default, this waiting period is set to 30 days.
 
-   - Set **Archive Orders Purchased** to the number of days to keep an order in the grid before it is archived. By default, this waiting period is set to 30 days.
+1. In the **Order Statuses to be Archived** list, select each order status to use for identifying orders to archive.
 
-   - In the **Order Statuses to be Archived** list, select each order status to use for identifying orders to archive. To select multiple items, hold down the Ctrl (Windows) or Command (Mac) key as you click each item.
+   To select multiple items, hold down the Ctrl (Windows) or Command (Mac) key as you click each item.
 
-1. Click **Save Config**.
+1. Click <span class="btn">Save Config</span>.
 
 1. When prompted, refresh any invalid cache.
 
-## View Archived Documents
+## View archived documents
 
-1. In the _Sales_ menu under _Archive_, choose any of the following:
+1. On the _Admin_ sidebar, go to **Sales** and choose any of the following under _Archive_:
 
-   - Orders
-   - Invoices
-   - Shipments
-   - Credit Memos
+   - **Orders**
+   - **Invoices**
+   - **Shipments**
+   - **Credit Memos**
 
 1. Click any archived document in the list to view details.
 
-## Apply an Action to an Archived Document
+## Apply an action to an archived order or document
 
-Select each document to be the target of the action. Then, choose one of the following actions:
+1. Select each item to be the target of the action.
 
-- Cancel
-- Hold
-- Unhold
-- Print
-- Move to Orders Management
+1. Choose one of the following actions:
 
-## Manually Archive Documents
+   - Cancel
+   - Hold
+   - Unhold
+   - Print
+   - Move to Orders Management
+
+## Manually archive documents
 
 1. Select the type of the document to archive from the following:
 
@@ -63,33 +65,33 @@ Select each document to be the target of the action. Then, choose one of the fol
    - Shipments
    - Credit Memos
 
-1. Mark the checkbox of each item that you want to archive.
+1. Select the checkbox of each item that you want to archive.
 
-1. In the upper-right corner, set **Actions** to `Move to Archive`.
+1. At the upper-right corner, set **Actions** to `Move to Archive`.
 
 1. Click **Submit** to archive the selected documents.
 
-## Restore Archived Documents
+## Restore archived documents
 
 1. Choose the type of document you want to restore.
 
 1. Select documents using one of the following options:
 
-   - To select all visible documents, in the upper-left corner, click **Select Visible**.
+   - To select all visible documents, click **Select Visible** in the upper-left corner.
 
-   - Manually select the checkbox of each document you want to restore.
+   - Select the checkbox of each document you want to restore.
 
-1. In the upper-right, set **Action** to `Move to Orders Management`.
+1. At the upper-right, set **Action** to `Move to Orders Management`.
 
 1. Click **Submit** to restore the documents.
 
-## Export Archived Documents
+## Export archived documents
 
 1. Choose the type of document you want to export.
 
 1. In the upper-right menu, set **Export to:** to one of the following values:
 
-   - CSV
-   - Excel
+   - `CSV`
+   - `Excel`
 
 1. Click **Export**.
