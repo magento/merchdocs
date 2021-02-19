@@ -8,4 +8,4 @@ Magento [cron]({% link system/cron.md %}) jobs can be used to schedule the follo
 - [Scheduled Grid Updates]({% link sales/order-grid-updates-schedule.md %})
 
 ![]({% link images/images/orders-grid.png %}){: .zoom}
-_Orders Grid with Pending Orders_
+_Orders grid with pending orders_

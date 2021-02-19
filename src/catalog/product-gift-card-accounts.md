@@ -12,7 +12,7 @@ _Gift Card Accounts_
 
 1. If you need to find the number of the gift card account for a current order, do the following:
 
-    - On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Orders**.
+    - On the _Admin_ sidebar, go to **Sales** > **Orders**.
 
     - Find the order in the list and click **View** in the _Action_ column.
 

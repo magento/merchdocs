@@ -3,58 +3,60 @@ ee_only: true
 title: Order by SKU
 ---
 
-Order by SKU is a [widget]({% link cms/widgets.md %}) that can be displayed in the store as a convenience for all shoppers, or made available to only those in specific customer groups. Shoppers can either enter the SKU and quantity information directly into the Order by SKU block, or upload a csv file from their customer account. Regardless of the configuration, Order by SKU is always available to store administrators.
+Order by SKU is a [widget]({% link cms/widgets.md %}) that can be displayed in the store as a convenience for all shoppers, or made available to only those in specific customer groups. Regardless of the configuration, _Order by SKU_ is always available to store administrators for creating and updating orders in the Admin.
 
 ![]({% link images/images/storefront-order-by-sku.png %}){: .zoom}
-_Order by SKU in the Storefront_
+_Order by SKU in the storefront_
 
-## To order by SKU from the storefront:
+## Order by SKU from the storefront
 
-1. In the _Order by SKU_ block, enter the **SKU** and **Qty** of the item to be ordered.
+Shoppers can either enter the SKU and quantity information directly into the Order by SKU block, or upload a csv file from their customer account.
 
-1. To add another item, click **Add Row** and repeat the process.
+### Order by SKU block
 
-1. Click **Add to Cart**.
+1. In the _Order by SKU_ block, the customer enters the **SKU** and **Qty** of the item to be ordered.
 
-## To order by SKU from a customer account:
+1. To add another item, clicks **Add Row** and repeats the process.
 
-1. From the storefront, log in to your customer account.
+1. Clicks **Add to Cart**.
 
-1. In the panel on the left, choose **Order by SKU**.
+## Customer account
 
-1. Add individual items:
+1. From the storefront, the customer logs in to their customer account.
 
-    - Add items by SKU:
+1. In the left panel, chooses **Order by SKU**.
 
-       - Enter the **SKU** and **Qty** of the item to be ordered.
+1. Adds individual items:
 
-       - To add additional items as needed, click **Add Row** ![]({% link images/images/btn-add-row.png %}){: .Inline} and repeat for as many items as necessary.
+   - Adds items by SKU:
 
-    - Upload a CSV file of multiple items to be ordered, do the following:
+      - Enters the **SKU** and **Qty** of the item to be ordered.
 
-       - Prepare a CSV file that includes columns for SKU and Qty.
+      - Adds additional items as needed by clicking **Add Row** ![]({% link images/images/btn-add-row.png %}) and repeating for as many items as necessary.
 
-       - To upload the CSV file, click **Choose File** and select the file to upload.
+   - Uploads a CSV file of multiple items to be ordered:
 
-       - Click **Add to Cart**.
+      - Prepares a CSV file that includes columns for SKU and Qty.
 
-## To configure Order by SKU:
+      - Uploads the CSV file by clicking **Choose File** and selecting the file to upload.
 
-1. On the _Admin_ sidebar, click **Stores**.
+      - Clicks **Add to Cart**.
 
-1. In the _Settings_ section, choose **Configure**.
+## Configure Order by SKU
 
-1. In the _Sales_ section in the left panel, choose **Sales**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configure**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the _Order by SKU Settings_ section.
+1. In the left panel, expand **Sales** and choose **Sales** underneath.
+
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Order by SKU Settings** section.
+
+   ![]({% link images/images/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
+   _Order by SKU Settings_
 
 1. Set **Enable Order by SKU on my Account in Storefront** to one of the following:
 
-    - **Yes, for Everyone** – The Order by SKU block is available in the store for every shopper.
-    - **Yes, for Specified Customer Groups** – Order by SKU is available only to members of a specific customer group, such as `Wholesale`.
-    - **No** – The Order by SKU block does not appear in the storefront, and the Order by SKU page is not available in the  customer account.
+   - `Yes, for Everyone` – The _Order by SKU_ block is available in the store for every shopper.
+   - `Yes, for Specified Customer Groups` – _Order by SKU_ is available only to members of a specific customer group, such as `Wholesale`.
+   - `No` – The _Order by SKU_ block does not appear in the storefront and the _Order by SKU_ page is not available in the  customer account.
 
-      ![]({% link images/images/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
-      _Order by SKU Settings_
-
-1. Click **Save Config**.
+1. Click <span class="btn">Save Config</span>.
