@@ -74,6 +74,7 @@ pages:
       url: "/customers/account-dashboard-billing-agreements.html"
     - label: Store Credit
       url: "/customers/account-dashboard-store-credit.html"
+      edition: ee-only
     - label: Gift Card
       url: "/customers/account-dashboard-gift-cards.html"
       edition: ee-only
