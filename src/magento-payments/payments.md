@@ -14,6 +14,7 @@ Magento Payments is...
 * Designed to maximize your profit
 * Safe and secure
 * Fully-featured to meet all your needs
+* Self-contained within the Magento Admin
 
 IMAGE
 
@@ -29,6 +30,7 @@ Magento Payments is your one-stop-shop for online checkout. We make setup and co
 * **Risk and fraud protection**---Leave the fraud prevention, chargebacks, and dispute management to us so that you can focus on your core business.
 * [**Cash flow management**]({% link magento-payments/financial-reporting.md %})---Synchronize payment details with orders to get full transparency to the processed volume, payment balance, and detailed transaction-level reporting for financial reconciliation.
 * **Analytics dashboard**---See the end-to-end customer journey across all payment options so you can glean the metrics you need to implement conversion improvements and optimize the customer experience.
+* **Transparent pricing**---Pricing is clear and upfront; what you see is what you get.
 
 <!-- ## Architectural overview
 
@@ -36,7 +38,7 @@ See detailed information about the architecture of Magento Payments in the [Arch
 
 ## Get started
 
-Onboarding and setting up Magento Payments is a quick process:
+Onboarding and setting up Magento Payments is a quick process. Setup and configuration is completed in just a few steps:
 
 1. Connect your Magento instance to Magento Software as a Service (SaaS) services.
 1. Onboard and set up the sandbox service.
