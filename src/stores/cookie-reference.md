@@ -285,5 +285,57 @@ JavaScript Library: `ga.js`
 - `_utmz`: Saves the traffic source or campaign that explains how the shopper reached your site. The cookie is created when the JavaScript library executes, and is updated every time data is sent to Google Analytics.
 - `__utmv`: Stores visitor-level custom variable data. This cookie is created when a developer uses the `_setCustomVar` method with a visitor-level custom variable. This cookie is updated every time data is sent to Google Analytics.
 
+{:.ee-only}
+## Product Recommendations Cookies
+
+The following cookies are used by Product Recommendations for Magento Commerce customers. These cookies are installed with the DataServices module.
+### `Login`
+
+​Stores credentials for the logged-in customer.
+
+- Is Secure? No
+- HTTP Only: No
+- Expiration Policy: Per local storage rules
+- Module: `DataServices`
+- `authentication_flag` -> true
+- `dataservices_customer_id` -> logged in customer id. Used to send `guest` or `logged-in` flag to Snowplow collector
+- `dataservices_cart_id` -> logged in customer's existing cart id
+
+### `Logout`
+
+- Is Secure? No
+- HTTP Only: No
+- Expiration Policy: Per local storage rules
+- Module: `DataServices`
+- `authentication_flag` -> false
+- `dataservices_customer_id` -> deleted
+- `dataservices_cart_id` -> deleted
+
+### `AddToCart`
+
+- Is Secure? No
+- HTTP Only: No
+- Expiration Policy: Per local storage rules
+- Module: `DataServices`
+- `dataservices_cart_id` -> customer's cart id
+- `dataservices_product_context` -> product context of product added to cart
+
+### `RemoveToCart`
+
+- Is Secure? No
+- HTTP Only: No
+- Expiration Policy: Per local storage rules
+- Module: `DataServices`
+- `dataservices_product_context` -> product context of product removed from cart
+
+### `CheckoutSuccess​`
+
+- Is Secure? No
+- HTTP Only: No
+- Expiration Policy: Per local storage rules
+- Module: `DataServices`
+- `dataservices_cart_id` -> deleted
+​
+
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212
