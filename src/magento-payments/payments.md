@@ -8,6 +8,13 @@ Whether you are a small business, mid-market contender, or large enterprise, our
 
 All the tools needed to implement and operate Magento Payments are fully integrated into the Magento Admin---manage everything in one spot with ease.
 
+Magento Payments is...
+
+* Easy to set up and maintain
+* Designed to maximize your profit
+* Safe and secure
+* Fully-featured to meet all your needs
+
 IMAGE
 
 ## Features
@@ -17,10 +24,10 @@ Some of the features mentioned here may not yet be available for the Early Adopt
 
 Magento Payments is your one-stop-shop for online checkout. We make setup and configuration painless and we provide powerful tools to give you the insight and control you need to create the best experience for your buyers.
 
-* **Easy onboarding**---Our process guides you through commercial signup, technical configuration, entitlements, sandbox environment configuration, and live payment enablement.
-* **Payment checkout**---Use pertinent local and region-specific payment methods to best serve your customers.
+* [**Easy onboarding**]({% link magento-payments/onboarding-payments.md %})---Our process guides you through commercial signup, technical configuration, entitlements, sandbox environment configuration, and live payment enablement.
+* [**Payment checkout**]({% link magento-payments/configure-payments.md %})---Use pertinent local and region-specific payment methods to best serve your customers.
 * **Risk and fraud protection**---Leave the fraud prevention, chargebacks, and dispute management to us so that you can focus on your core business.
-* **Cash flow management**---Synchronize payment details with orders to get full transparency to the processed volume, payment balance, and detailed transaction-level reporting for financial reconciliation.
+* [**Cash flow management**]({% link magento-payments/financial-reporting.md %})---Synchronize payment details with orders to get full transparency to the processed volume, payment balance, and detailed transaction-level reporting for financial reconciliation.
 * **Analytics dashboard**---See the end-to-end customer journey across all payment options so you can glean the metrics you need to implement conversion improvements and optimize the customer experience.
 
 <!-- ## Architectural overview
@@ -65,3 +72,11 @@ Settle Conversion (% of Authorisations for shipped products turned into merchant
 Decreasing operational costs.
 Active users of MP Export tools.
 Active users of MP dashboards. -->
+
+## Support
+
+Magento Payments is designed to be the simplest payments system you've ever used. Got questions about features, implementation, configuration, fee structure, extensibility, or reporting? We've got you covered.
+
+* [DevDocs](https://devdocs.magento.com/)---See our Payments-related developer documentation.
+* [User guide]({% link magento-payments/payments.md %})---See our Payments-related merchant documentation.
+* [Help center](https://support.magento.com/hc/en-us)---See our Payments-related knowledgebase and [submit Support tickets](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) for extra help.
