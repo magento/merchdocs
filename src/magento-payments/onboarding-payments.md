@@ -7,7 +7,7 @@ To get started using Magento Payments you must complete a few onboarding steps t
 1. [Connect your Magento instance](#configure-magento-services) to Magento Software as a Service (SaaS) services. This only needs to be completed once per Magento instance.
 1. [Onboard and set up the sandbox service](#enable-sandbox-testing) (or, alternatively, proceed to [enabling live payments](#enable-live-payments) if you've tested functionality in another environment) to set up a test PayPal payment processing account.
 1. [Enable Magento Payments as your payment method](#set-magento-payments-as-payment-method), in sandbox mode, to start processing test payments.
-1. [Complete Merchant onboarding](#enable-live-payments) to enable live payments for your Magento website(s).
+1. [Complete merchant onboarding](#enable-live-payments) to enable live payments for your Magento website(s).
 1. [Activate Magento Payments in live mode](#activate-live-payments) to begin processing live payments.
 
 {:.bs-callout-info}
