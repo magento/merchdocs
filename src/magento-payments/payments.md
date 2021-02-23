@@ -4,7 +4,7 @@ title: Magento Payments
 
 Magento Payments is your turnkey self-service solution, including sandbox testing and a super simple setup, for providing robust and secure payment processing for your Magento websites.
 
-Whether you are a small business, mid-market contender, or large enterprise, our white-labeled pre-installed payments and risk solution will help you reduce operational overhead while increasing revenue, driving greater merchant adoption rates, and vastly improving the user's checkout experience.
+Whether you are a small business, mid-market contender, or large enterprise, our pre-installed payments and risk solution will help you reduce operational overhead while increasing revenue, driving greater merchant adoption rates, and vastly improving the user's checkout experience.
 
 All the tools needed to implement and operate Magento Payments are fully integrated into the Magento Admin---manage everything in one spot with ease.
 
@@ -42,7 +42,7 @@ Onboarding and setting up Magento Payments is a quick process. Setup and configu
 
 1. Connect your Magento instance to Magento Software as a Service (SaaS) services.
 1. Onboard and set up the sandbox service.
-1. Enable Magento Payments as your payment method, in sandbox mode, to start processing test payments.
+1. Enable Magento Payments as your payment method and start processing test payments.
 1. Complete merchant onboarding to enable live payments for your Magento website(s).
 1. Activate Magento Payments in live mode to begin processing live payments.
 
