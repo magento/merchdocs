@@ -126,4 +126,4 @@ After you [configure your Magento Services](#configure-magento-services), enable
 
 ## Get help
 
-The onboarding process is designed to guide you through the required steps for setting up and enabling all Magento Payments functionality. However, you may have questions along the way! See the [Support section of our Payments overview topic]({% link magento-payments/payments.md %}#support) to get the help you need, fast.
+The onboarding process is designed to guide you through the required steps for setting up and enabling all Magento Payments functionality. However, you may have questions along the way. See the [Support section of our Payments overview topic]({% link magento-payments/payments.md %}#support) to get the help you need, fast.

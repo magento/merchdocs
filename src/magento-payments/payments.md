@@ -8,7 +8,7 @@ Whether you are a small business, mid-market contender, or large enterprise, our
 
 All the tools needed to implement and operate Magento Payments are fully integrated into the Magento Admin---manage everything in one spot with ease.
 
-Magento Payments is...
+Magento Payments is:
 
 * Easy to set up and maintain
 * Designed to maximize your profit
@@ -23,7 +23,7 @@ IMAGE
 {:.bs-callout-info}
 Some of the features mentioned here may not yet be available for the Early Adopter Program (EAP).
 
-Magento Payments is your one-stop-shop for online checkout (from settlement and refunds to getting paid!) We make setup and configuration painless and we provide powerful tools to give you the insight and control you need to create the best experience for your buyers.
+Magento Payments is your one-stop-shop for online checkout (from settlement and refunds to getting paid). We make setup and configuration painless and we provide powerful tools to give you the insight and control you need to create the best experience for your buyers.
 
 * [**Easy onboarding**]({% link magento-payments/onboarding-payments.md %})---Our process guides you through commercial signup, technical configuration, entitlements, sandbox environment configuration, and live payment enablement.
 * [**Payment checkout**]({% link magento-payments/configure-payments.md %})---Use pertinent local and region-specific payment methods to best serve your customers.
