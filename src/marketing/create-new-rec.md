@@ -10,7 +10,7 @@ When you create a recommendation, you are creating what is called a *recommendat
 
 The products inside the recommendation unit are called *recommended items*.
 
-After you create and activate the recommendation unit, Magento will begin [collecting metrics]({% link marketing/recommendation-metrics.md %}) that measure data such as impressions, views, and clicks, and so on. The [Product Recommendations]({% link marketing/product-recommendations.md %}#dashboard) dashboard displays these metrics for each recommendation unit to help you make informed business decisions.
+After you create and activate the recommendation unit, Magento will begin [collecting metrics]({% link marketing/recommendation-metrics.md %}) that measure data such as impressions, views, clicks, and so on. The [Product Recommendations]({% link marketing/product-recommendations.md %}#dashboard) dashboard displays these metrics for each recommendation unit to help you make informed business decisions.
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Product Recommendations** to display the **Product Recommendations** dashboard.
 
@@ -66,3 +66,20 @@ After you create and activate the recommendation unit, Magento will begin [colle
     - **Save as draft** to edit the recommendation unit at a later date. Note that you cannot modify the page type or recommendation type for a recommendation unit in a draft state.
 
     - **Activate** to enable the recommendation unit on your storefront.
+
+## Preview Recommendations {#preview}
+
+Use the **Recommended products preview** panel to preview what products will be displayed in a recommendation unit when deployed to your storefront.
+
+![Recommendation preview]({% link images/images-ee/prex-preview.png %}){: .zoom}
+
+|Field|Description|
+|---|---|
+|**Name**|Name of the product|
+|**SKU**|Stock Keeping Unit of the product|
+|**Price**|Cost excluding taxes and discounts of the product|
+|**Result Type**|**Primary** indicates that there is enough training data collected to display a high quality recommendation. **Backup** indicates there is not enough training data collected so a backup recommendation is used used to fill the slot. See [Time and training for machine learning models]({% link marketing/product-recommendations.md %}#trainmlmodels) to learn more about machine learning models and backup recommendations|
+
+As you create your recommendation unit, experiment with the page type, recommendation type, and filters to get immediate real-time feedback about the products that will be included. As you begin to understand what products will be displayed, you can configure the recommendation unit to best meet your business needs.
+
+While the data used to source the preview panel is the same data used for the recommendation unit on your storefront, the products displayed in the recommendation unit on your storefront might not exactly match what you see in the preview panel. This discrepancy occurs if you have multiple recommendation units on a single page. For example, if a product is returned in the third position for the second recommendation unit, but it is already displayed in the first recommendation unit on the page, Magento does not display that product in the second recommendation unit.
