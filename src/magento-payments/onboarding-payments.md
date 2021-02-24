@@ -2,18 +2,17 @@
 title: Onboarding Payments
 ---
 
-Magento Payments is your turnkey self-service solution---including sandbox testing and a super simple setup---for providing robust and secure payment processing for your Magento websites.
-
 To get started using Magento Payments you must complete a few onboarding steps to connect your instance with our payments functionality.
 
+1. [Get the Magento Payments extension](#get-extension-from-marketplace) from Marketplace.
 1. [Connect your Magento instance](#configure-magento-services) to Magento Software as a Service (SaaS) services. This only needs to be completed once per Magento instance.
 1. [Onboard and set up the sandbox service](#enable-sandbox-testing) (or, alternatively, proceed to [enabling live payments](#enable-live-payments) if you've tested functionality in another environment) to set up a test PayPal payment processing account.
 1. [Enable Magento Payments as your payment method](#set-magento-payments-as-payment-method), in sandbox mode, to start processing test payments.
-1. [Complete Merchant onboarding](#enable-live-payments) to enable live payments for your Magento website(s).
+1. [Complete merchant onboarding](#enable-live-payments) to enable live payments for your Magento website(s).
 1. [Activate Magento Payments in live mode](#activate-live-payments) to begin processing live payments.
 
 {:.bs-callout-info}
-If you do not configure your Magento Services in the Admin (step 1 above) you cannot set up sandbox or live payments.
+If you do not configure your Magento Services in the Admin (step 2 above) you cannot set up sandbox or live payments.
 
 ## Onboarding flow
 
@@ -49,6 +48,9 @@ A given API key pair is valid for all Magento SaaS services in an environment, s
 
 See the [Magento Services topic]({% link system/saas.md%}) to learn how to generate an API key for either sandbox or production environments.
 
+## Get extension from Marketplace
+
+INFO TBD
 ## Configure Magento Services
 
 The first step in onboarding Magento Payments is to configure your Magento Services in the Admin.
@@ -124,6 +126,4 @@ After you [configure your Magento Services](#configure-magento-services), enable
 
 ## Get help
 
-Contact info
-
-### Log Support ticket
+The onboarding process is designed to guide you through the required steps for setting up and enabling all Magento Payments functionality. However, you may have questions along the way. See the [Support section of our Payments overview topic]({% link magento-payments/payments.md %}#support) to get the help you need, fast.
