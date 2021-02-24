@@ -49,33 +49,6 @@ Onboarding and setting up Magento Payments is a quick process. Setup and configu
 
 See the [Onboarding topic]({% link magento-payments/onboarding-payments.md %}) to get the full instructions and start the onboarding process.
 
-<!-- 
-Meeting partner, merchant, and consumer needs:
-  Designed to maximize consumer reach
-• Help sales growth
-• Help maximize checkout conversion rates
-• Seller protection*/fraud prevention
-• Technical innovation
-• Easy integration
-
-* Compliance concerns - PCI
-* Troubleshooting payments issues
-* Payments are typically complex
-* No standardization makes reocnciliation difficult
-* Onboarding
-* payments
-* dispute management
-* risk management
-* data and reporting
-* pricing and monetization
-
-Increased revenue.
-Checkout Conversion (% of Authorised orders after starting payment checkout).
-Settle Conversion (% of Authorisations for shipped products turned into merchant payout).
-Decreasing operational costs.
-Active users of MP Export tools.
-Active users of MP dashboards. -->
-
 ## Support
 
 Magento Payments is designed to be the simplest payments system you've ever used. Got questions about features, implementation, configuration, fee structure, extensibility, or reporting? We've got you covered.
