@@ -4,7 +4,7 @@ title: Magento Payments
 
 Magento Payments is your turnkey self-service solution, including sandbox testing and a super simple setup, for providing robust and secure payment processing for your Magento websites.
 
-Whether you are a small business, mid-market contender, or large enterprise, our pre-installed payments and risk solution will help you reduce operational overhead while increasing revenue, driving greater merchant adoption rates, and vastly improving the user's checkout experience.
+Whether you are a small business, mid-market contender, or large enterprise, our pre-installed payments and risk solution will help you reduce operational overhead while increasing revenue and giving you useful tools to improve the entire shopper experience.
 
 All the tools needed to implement and operate Magento Payments are fully integrated into the Magento Admin---manage everything in one spot with ease.
 
@@ -23,7 +23,7 @@ IMAGE
 {:.bs-callout-info}
 Some of the features mentioned here may not yet be available for the Early Adopter Program (EAP).
 
-Magento Payments is your one-stop-shop for online checkout. We make setup and configuration painless and we provide powerful tools to give you the insight and control you need to create the best experience for your buyers.
+Magento Payments is your one-stop-shop for online checkout (from settlement and refunds to getting paid!) We make setup and configuration painless and we provide powerful tools to give you the insight and control you need to create the best experience for your buyers.
 
 * [**Easy onboarding**]({% link magento-payments/onboarding-payments.md %})---Our process guides you through commercial signup, technical configuration, entitlements, sandbox environment configuration, and live payment enablement.
 * [**Payment checkout**]({% link magento-payments/configure-payments.md %})---Use pertinent local and region-specific payment methods to best serve your customers.
@@ -40,6 +40,7 @@ See detailed information about the architecture of Magento Payments in the [Arch
 
 Onboarding and setting up Magento Payments is a quick process. Setup and configuration is completed in just a few steps:
 
+1. Get the Magento Payments extension from the Marketplace.
 1. Connect your Magento instance to Magento Software as a Service (SaaS) services.
 1. Onboard and set up the sandbox service.
 1. Enable Magento Payments as your payment method and start processing test payments.
@@ -48,7 +49,7 @@ Onboarding and setting up Magento Payments is a quick process. Setup and configu
 
 See the [Onboarding topic]({% link magento-payments/onboarding-payments.md %}) to get the full instructions and start the onboarding process.
 
-<!-- >
+<!-- 
 Meeting partner, merchant, and consumer needs:
   Designed to maximize consumer reach
 • Help sales growth
