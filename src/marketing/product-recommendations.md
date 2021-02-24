@@ -21,7 +21,7 @@ This dashboard displays a table of previously configured recommendations (if any
 
 See [Recommendation Types]({% link marketing/prex-types.md %}) to learn about the available recommendation types in Magento.
 
-## Time and training for machine learning models
+## Time and training for machine learning models {#trainmlmodels}
 
 Some recommendation types use behavioral data from your shoppers to train machine learning models that build personalized recommendations. Other recommendation types use catalog data only and do not use any behavioral data. If merchants want to start quickly, they can use the following, catalog-only recommendation types:
 
