@@ -21,7 +21,6 @@ When a new scheduled update is created for any of the following objects, a corre
 - [Cart Price Rules]({% link marketing/price-rule-cart-scheduled-changes.md %})
 - [CMS Pages]({% link cms/page-scheduled-changes.md %})
 - [CMS Blocks]({% link cms/blocks.md %})
-- [Widgets]({% link cms/widgets.md %})
 
 ## Content staging workflow
 
