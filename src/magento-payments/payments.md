@@ -29,7 +29,7 @@ Magento Payments is your one-stop-shop for online checkout (from settlement and 
 * [**Payment checkout**]({% link magento-payments/configure-payments.md %})---Use pertinent local and region-specific payment methods to best serve your customers.
 * **Risk and fraud protection**---Leave the fraud prevention, chargebacks, and dispute management to us so that you can focus on your core business.
 * [**Cash flow management**]({% link magento-payments/financial-reporting.md %})---Synchronize payment details with orders to get full transparency to the processed volume, payment balance, and detailed transaction-level reporting for financial reconciliation.
-* **Analytics dashboard**---See the end-to-end customer journey across all payment options so you can glean the metrics you need to implement conversion improvements and optimize the customer experience.
+<!-- * **Analytics dashboard**---See the end-to-end customer journey across all payment options so you can glean the metrics you need to implement conversion improvements and optimize the customer experience. -->
 * **Transparent pricing**---Pricing is clear and upfront; what you see is what you get.
 
 <!-- ## Architectural overview
