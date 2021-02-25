@@ -23,14 +23,14 @@ See [Recommendation Types]({% link marketing/prex-types.md %}) to learn about th
 
 ## Time and training for machine learning models {#trainmlmodels}
 
-Some recommendation types use behavioral data from your shoppers to train machine learning models that build personalized recommendations. Other recommendation types use catalog data only and do not use any behavioral data. If merchants want to start quickly, they can use the following, catalog-only recommendation types:
+Some recommendation types use behavioral data from your shoppers to train machine learning models that build personalized recommendations. Other recommendation types use catalog data only and do not use any behavioral data. If you want to start quickly, you can use the following, catalog-only recommendation types:
 
 - More like this
 - Visual similarity
 
-So when can you start using recommendation types that use behavioral data? It depends. This is referred to as the "Cold Start" problem.
+So when can you start using recommendation types that use behavioral data? It depends. This is referred to as the _Cold Start_ problem.
 
-The "Cold Start" problem is a measure of how much time a model needs to train before it can be considered high quality. In product recommendations, it translates to waiting for Adobe Sensei to train its machine learning models before deploying recommendation units on your site. The more data these models have, the more accurate and useful the recommendations will be. Collecting this data takes time and will vary based on traffic volume. Because this data can be collected only on production, it is therefore in your best interest to deploy data collection there as early as possible. You can do this by [installing and configuring](https://devdocs.magento.com/recommendations/install-configure.html) the `magento/production-recommendations` module.
+The _Cold Start_ problem is a measure of how much time a model needs to train before it can be considered high quality. In product recommendations, it translates to waiting for Adobe Sensei to train its machine learning models before deploying recommendation units on your site. The more data these models have, the more accurate and useful the recommendations will be. Collecting this data takes time and will vary based on traffic volume. Because this data can be collected only on a production site, it is in your best interest to deploy data collection there as early as possible. You can do this by [installing and configuring](https://devdocs.magento.com/recommendations/install-configure.html) the `magento/production-recommendations` module.
 
 The following table provides some general guidance for the amount of time it takes to collect enough data for each recommendation type:
 
