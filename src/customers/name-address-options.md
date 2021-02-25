@@ -2,10 +2,10 @@
 title: Name and Address Options
 ---
 
-The Name and Address Options determine which fields are included in the name and address forms when customers create an [account]({% link customers/account-create.md %}) with your store.
+The _Name and Address Options_ determine which fields are included in the name and address forms when customers create an [account]({% link customers/account-create.md %}) with your store.
 
 ![]({% link images/images-ee/storefront-customer-account-address-book.png %}){: .zoom}
-_[Customer Account Sign Up Form]({% link configuration/customers/customer-configuration.md %})_{:.ee-only}
+_[Customer Account sign up form]({% link configuration/customers/customer-configuration.md %})_{:.ee-only}
 
 The steps for configuring the name and address options are different for Magento Commerce and Magento Open Source.
 
@@ -13,7 +13,7 @@ The steps for configuring the name and address options are different for Magento
 
 ### Step 1: Set the scope of the configuration
 
-1. On the _Admin_ sidebar, go to **Stores** > _Setting_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
@@ -33,12 +33,12 @@ The steps for configuring the name and address options are different for Magento
 
 ### Step 2: Configure the name and address options
 
-1. Return to the Name and Address Options section of the Customer Configuration page.
+1. Return to the _Name and Address Options_ section of the Customer Configuration page.
 
-   If not using the `Default config` scope setting, you must clear the `Use Default` checkbox for each field before changing the value.
+   If you are not using the `Default config` scope setting, you must clear the `Use Default` checkbox for each field before changing the value.
 
    ![]({% link images/images-ee/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
-   _[Name and Address Options]({% link configuration/customers/customer-configuration.md %})_{:.ee-only}
+   _[Name and Address Options]({% link configuration/customers/customer-configuration.md %}#commerce-options)_{:.ee-only}
 
 1. For **Prefix Dropdown Options**, enter each prefix that you want to appear in the list, separated by a semicolon.
 
@@ -63,11 +63,11 @@ The steps for configuring the name and address options are different for Magento
 ## Configure name and address options for Magento Open Source
 
 ![]({% link images/images/storefront-customer-account-signup.png %}){: .zoom}
-_[Customer Account Sign Up Form]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
+_[Customer Account sign up form]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
 
 ### Step 1: Set the scope of the configuration
 
-1. On the _Admin_ sidebar, go to **Stores** > _Setting_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
@@ -76,30 +76,33 @@ _[Customer Account Sign Up Form]({% link configuration/customers/customer-config
    Notice that the scope of the name and address options applies at the `website` level.
 
    ![]({% link images/images/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
-   _[Name and Address Options]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
+   _[Name and Address Options]({% link configuration/customers/customer-configuration.md %}#open-source-options)_{:.ce-only}
 
 1. Scroll back up to the top of the page and use the selector in the upper-left corner to set the scope of the configuration to one of the following:
 
    - Default Config
    - Main Website (or specific site for multi-site installations)
 
-   The Name and Address Options section doesn't appear when the scope is set to `Default Store View`.
+   {:.bs-callout-info}
+   The _Name and Address Options_ section doesn't appear when the scope is set to `Default Store View`.
 
    ![]({% link images/images/config-customer-configuration-scope.png %}){: .zoom}
    _[Configuration Scope]({% link configuration/scope.md %})_{:.ce-only}
 
 ### Step 2: Configure the name and address options
 
-1. Return to the Name and Address Options section of the Customer Configuration page.
+1. Return to the _Name and Address Options_ section of the Customer Configuration page.
 
-   If not using the `Default config` scope setting, you must clear the `Use Default` checkbox for each field before changing the value.
+   If you are not using the `Default config` scope setting, you must clear the `Use Default` checkbox for each field before changing the value.
 
-1. For **Number of Lines in a Street Address**, enter a number from 1 to 4. By default, the street address is 3 lines.
+1. For **Number of Lines in a Street Address**, enter a number from 1 to 4.
+
+   By default, the street address is 3 lines.
 
 1. To include a prefix (such as Mr. or Mrs.) as part of the name, set **Show Prefix** to `Yes`.
 
    ![]({% link images/images/storefront-customer-account-prefix.png %}){: .zoom}
-   _[Prefix in Customer Sign Up Form]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
+   _[Prefix in customer sign up form]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
 
    For **Prefix Dropdown Options**, enter each prefix that you want to appear in the list, separated by a semicolon.
 
@@ -121,10 +124,13 @@ _[Customer Account Sign Up Form]({% link configuration/customers/customer-config
    - Optional
    - Required
 
-   The Calendar button after the field can be used to choose the birth date from a pop-up calendar.
+      {:.bs-callout-warning}
+      In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers’ full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers’ full birth dates and instead suggest using customer year of birth as an alternative.
+
+   Customers can use the Calendar icon after the field to choose the birth date from a pop-up calendar.
 
    ![]({% link images/images/storefront-customer-account-date-of-birth.png %}){: .zoom}
-   _[Date of Birth in Customer Sign Up Form]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
+   _[Date of Birth in customer sign up form]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
 
 1. To allow customers to enter their tax or [VAT]({% link tax/vat.md %}) number, set **Show Tax/VAT Number** to one of the following:
 
@@ -137,7 +143,7 @@ _[Customer Account Sign Up Form]({% link configuration/customers/customer-config
    - Required
 
    ![]({% link images/images/storefront-customer-account-gender.png %}){: .zoom}
-   _[Gender Options in Customer Sign Up Form]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
+   _[Gender Options in customer sign up form]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
 
 1. To include the following fields in customer forms, set the value of each to `Optional` or `Required`, as needed.
 
