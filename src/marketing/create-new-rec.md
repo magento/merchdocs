@@ -75,10 +75,10 @@ Use the **Recommended products preview** panel to preview what products will be 
 
 |Field|Description|
 |---|---|
-|**Name**|Name of the product|
-|**SKU**|Stock Keeping Unit of the product|
-|**Price**|Cost excluding taxes and discounts of the product|
-|**Result Type**|**Primary** indicates that there is enough training data collected to display a high quality recommendation. **Backup** indicates there is not enough training data collected so a backup recommendation is used used to fill the slot. See [Time and training for machine learning models]({% link marketing/product-recommendations.md %}#trainmlmodels) to learn more about machine learning models and backup recommendations|
+|Name|Name of the product|
+|SKU|Stock Keeping Unit of the product|
+|Price|Cost excluding taxes and discounts of the product|
+|Result Type|**Primary** indicates that there is enough training data collected to display a high quality recommendation. **Backup** indicates there is not enough training data collected so a backup recommendation is used used to fill the slot. See [Time and training for machine learning models]({% link marketing/product-recommendations.md %}#trainmlmodels) to learn more about machine learning models and backup recommendations|
 
 As you create your recommendation unit, experiment with the page type, recommendation type, and filters to get immediate real-time feedback about the products that will be included. As you begin to understand what products will be displayed, you can configure the recommendation unit to best meet your business needs.
 
