@@ -14,7 +14,7 @@ In the standard category tree, the root category is the topmost container and is
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Shared Catalogs**
 
-1. For the the shared catalog in the [grid]({% link stores/admin-grid-controls.md %}), go to the _Action_ column and click **Set Pricing and Structure**.
+1. For the shared catalog in the [grid]({% link stores/admin-grid-controls.md %}), go to the _Action_ column and click **Set Pricing and Structure**.
 
 1. The first time the shared catalog is configured, click <span class="btn">Configure</span> to continue with the following steps.
 

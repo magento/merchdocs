@@ -1,27 +1,31 @@
 ---
 ee_only: true
-title: Refunds in Customer Account
+title: Store Credit and Refunds in the Account Dashboard
 ---
 
-Customers can track the status of their refunds and verify the balance of their store credit from the dashboard of their accounts.
+If a refund has been issued for an order, customers can view the refund information associated with the order in their account dashboard. If you have enabled the _Show Store Credit History to Customers_ option for [store credit configuration]({% link sales/credit-configure.md %}), customers can also access their [store credit]({% link sales/store-credit.md %}) history.
 
-![]({% link images/images-ee/customer-account-order-refunds.png %}){: .zoom}
-_Refund Detail_
+## View a refund on the storefront
 
-## View a refund from your customer account
+1. From the storefront, the customer logs in to their account.
 
-1. From the storefront, log into your customer account.
+1. Locates their order using one of the following methods:
 
-1. Locate your order using one of the following methods:
+   - Finding the order in the list of **Recent Orders** and clicking **View**.
+   - In the left panel, choosing **My Orders**. Then, finding the order in the list and clicking **View**.
 
-    - Find the order in the list of **Recent Orders** and click **View**.
-    - In the panel on the left, choose **My Orders**. Then, find the order in the list and click **View**.
+1. Clicks the **Refunds** tab to view the details of the refund.
 
-1. Click the **Refunds** tab to view the details of the refund.
+   ![]({% link images/images-ee/customer-account-order-refunds.png %}){: .zoom}
+   _Refund detail on the storefront_
 
-1. If the refund was applied to store credit, choose **Store Credit** in the panel on the left.
+## View store credit balance and history on the storefront
 
-    The amount refunded to your store credit appears in the list with the date and time of the action.
+1. From the storefront, the customer logs in to their account.
+
+1. If the refund was applied to store credit, chooses **Store Credit** in the left panel.
+
+   The amount refunded to their store credit appears in the list with the date and time of the action.
 
    ![]({% link images/images-ee/customer-account-store-credit.png %}){: .zoom}
-   _Amount Refunded to Store Credit_
+   _Amount refunded to store credit_

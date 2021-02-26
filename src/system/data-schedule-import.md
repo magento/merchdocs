@@ -57,19 +57,20 @@ After each scheduled import job, a reindex operation is performed automatically.
    - `Local Server` - Imports the data from the same server where Magento is installed.
    - `Remote FTP` - Imports the data from a remote server.
 
-    ![Data import - scheduled import file information]({% link images/images-ee/data-transfer-scheduled-import-file-informaition.png %}){: .zoom}
+    ![Data import - scheduled import file information]({% link images/images-ee/data-transfer-scheduled-import-file-information.png %}){: .zoom}
     _Import File Information_
+
+    {:.bs-callout-info}
+    When the Remote storage module is enabled, `Local Server` **Server Type** automatically switches to `Remote Storage`.
 
 1. Enter the **File Directory** where the import file originates.
 
-   - `Local Server` - Enter a relative path in the Magento installation. For example, `var/import`.
+   - `Local Server` - Enter a relative path in the Magento installation. For example, `var/import`. If the Remote storage module is configured, use `import_export/import`.
    - `Remote FTP server` - Enter the full URL and path to the import folder on the remote server.
 
 1. Enter the **File Name** to be imported.
 
-1. For **Images File Directory**, enter the path to the directory where product images are stored.
-
-1. On a local server, enter a relative path such as: `var/import`.
+1. For **Images File Directory**, enter the path to the directory where product images are stored. On a local server, enter a relative path such as: `var/import`. On a remote storage, enter a relative path such as: `import_export/import` or `import_export/import/some/dir`.
 
 ## Step 3: Configure the Import Failed Emails
 
@@ -114,10 +115,10 @@ Multiple Value Separator| Determines the character that is used to separate mult
 
 ### Import File Information
 
-Server Type | You can import from a file located on the same server where Magento is deployed (select Local Server) or from the remote FTP server (select Remote FTP). If you select Remote FTP, additional options for credentials and file transfer settings appear.
-File Directory | Specify the directory where the import file is located. If Server Type is set to Local Server, specify the path relative to the Magento installation directory. For example: `var/import`
+Server Type | You can import from a file located on the same server where Magento is deployed (select Local Server) or from the remote FTP server (select Remote FTP). If you select Remote FTP, additional options for credentials and file transfer settings appear. If the Remote storage module is enabled, Local Server type is automatically switched to Remote Storage.
+File Directory | Specify the directory where the import file is located. If Server Type is set to Local Server, specify the path relative to the Magento installation directory. For example: `var/import` or `import_export/import` for remote storage.
 File Name | Specify the name of the import file.
-Images File Directory | Enter the path to the directory where product images are stored. For a local server, enter a relative path. For example: `var/import`
+Images File Directory | Enter the path to the directory where product images are stored. For a local server, enter a relative path. For example: `var/import` or `import_export/import` for remote storage.
 
 ### Import Failed Emails
 

@@ -2,16 +2,16 @@
 title: Managing Amazon Pay Transactions
 ---
 
-All purchases made in your store and processed by Amazon Pay can be viewed from the Amazon Pay website. If you receive a request for a refund, follow the normal Magento process to issue a [credit memo]({% link sales/credit-memos.md %}) and make a refund. The Credit Memo button appears after a sales order is invoiced.
+All purchases made in your store and processed by Amazon Pay can be viewed from the Amazon Pay website. If you receive a request for a refund, follow the normal Magento process to issue a [credit memo]({% link sales/credit-memos.md %}) and make a refund. The _Credit Memo_ option is available after a sales order is invoiced.
 
-![Invoice with Credit Memo Button]({% link images/images/sales-credit-memo-order-account-info.png %}){: .zoom}
-_Invoice with Credit Memo Button_
+![Invoice with Credit Memo option displayed]({% link images/images/sales-credit-memo-order-account-info.png %}){: .zoom}
+_Invoice with Credit Memo option_
 
 ## Issue a refund
 
 1. On the _Admin_ sidebar, go to **Sales** > **Orders**.
 
-1. For the completed order to be refunded, locate the _Action_ column and click **View**.
+1. For the completed order to be refunded, click **View** in the _Action_ column.
 
 1. In the button bar, click <span class="btn">Credit Memo</span>.
 
@@ -28,7 +28,7 @@ _Invoice with Credit Memo Button_
 1. In the header at the _Sign In_ prompt, choose **Merchants**.
 
    ![Merchant Sign In]({% link images/images/payments-amazon-pay-site-header.png %}){: .zoom}
-   _Merchant Sign In_
+   _Merchant sign in_
 
 1. When prompted, do the following:
 

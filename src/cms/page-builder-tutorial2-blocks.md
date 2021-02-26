@@ -281,7 +281,7 @@ In the first tutorial, you learned how to use the [Button]({% link cms/page-buil
 
 ### Step 3: Add a price rule
 
-1. Open the the _Tee Shirt Promo_ dynamic block in edit mode again.
+1. Open the _Tee Shirt Promo_ dynamic block in edit mode again.
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Related Promotions** section and click <span class="btn">Add Cart Price Rules</span>.
 
