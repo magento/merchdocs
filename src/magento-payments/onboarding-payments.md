@@ -16,7 +16,7 @@ If you do not configure your Magento Services in the Admin (step 2 above) you ca
 
 ## Onboarding flow
 
-![Onboarding flow]({% link magento-payments/assets/onboardingflow-docs.png %}){: .zoom}
+![Onboarding flow]({% link magento-payments/assets/onboardingflow-docs-v2.png %}){: .zoom}
 _Onboarding flow (click to zoom)_
 
 This onboarding flow diagram shows the general process for onboarding Magento Payments.
