@@ -44,7 +44,7 @@ _Tab container toolbox_
 
 ## Add an individual tab
 
-1. In the Page Builder panel under _Layout_, drag the **Tabs** placeholder to a row or column on the stage.
+1. In the Page Builder panel under _Layout_, drag the **Tabs** placeholder directly to the stage or to a row or column on the stage.
 
    ![]({% link images/images-ee/page-builder-layout-tabs-drag-row.png %}){: .zoom}
    _Dragging tabs to a row_
@@ -71,7 +71,7 @@ _Tab container toolbox_
 
 ## Add a set of tabs
 
-The following steps start with an individual tab and create a set of three tabs within a tabs container. If you do not already have an individual tab, follow the previous instructions to add an single tab to a row on the stage.
+The following steps start with an individual tab and create a set of three tabs within a tabs container. If you do not already have an individual tab, follow the previous instructions to add a single tab to the stage.
 
 1. Hover over the tabs container to display the toolbox and choose the _Add_ (![]({% link images/images-ee/icon-pb-add.png %})) icon.
 
@@ -119,7 +119,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
    - **Vertical Alignment** - Choose the vertical position of content containers that are added to the tab.
 
-1. Change the other settings as needed using the the following sections for details.
+1. Change the other settings as needed using the following sections for details.
 
 1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
