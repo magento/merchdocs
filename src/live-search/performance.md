@@ -28,9 +28,9 @@ _Performance_
 
 1.  Click **Export**.
 
-## Reporting fields
+## Field descriptions
 
-|Field |Description|
+|Reporting fields |Description|
 |--- |--- |
 |Report View |Determines the data that is used to generate the Performance report. Options: Search |
 |Export Report |Options: <br />Date range - Defines the date range for the Performance report.<br />Export CSV - Exports report data to a comma-separated value (CSV) file.<br />Export XLS - Exports report data to an Excel worksheet (XLS) file.|
@@ -43,11 +43,10 @@ _Performance_
 |Trending searches |Displays detail about trending searches. |
 |Popular results |Displays detail about popular search results. |
 
-## Snapshot data
-|Field |Description|
+|Snapshot data |Description|
 |--- |--- |
-|Unique searches |The number of unique searches initiated from the current store view during the specified date range.|
-|Conversion rate |The percentage of unique searches that led to a customer making a purchase.|
-|Zero results rate|The percentage of unique searches that returned no results.|
-|Click-through rate|The percentage of unique searches in which the shopper clicked through to a product detail page.|
-|Avg. click-through rate|The average click-through rate based on unique searches from the current store view during the specified date range.|
+|Unique searches |The number of unique searches initiated from the current store view during the specified date range. |
+|Conversion rate |The percentage of unique searches that led to a customer making a purchase. |
+|Zero results rate|The percentage of unique searches that returned no results. |
+|Click-through rate|The percentage of unique searches in which the shopper clicked through to a product detail page. |
+|Avg. click-through rate|The average click-through rate based on unique searches from the current store view during the specified date range. |
