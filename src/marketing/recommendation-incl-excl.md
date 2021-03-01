@@ -10,7 +10,11 @@ Conditions can be static or dynamic. A static condition uses existing product at
 
 {:.bs-callout-info}
 Inclusion and exclusion filters replace the legacy category exclusions in versions 3.2.2 and later of the `magento/product-recommendations` module. See the [release notes](https://devdocs.magento.com/recommendations/release-notes.html) to learn more.
+### Default filters {#default}
 
+Before you learn about inclusion and exclusion filters, there are non-configurable default filters automatically applied to recommendation units.
+
+If you have multiple recommendation units deployed to a product detail page, Magento filters out duplicated products. For example, if a product is returned in the third position for the second recommendation unit, but it is already displayed in the first recommendation unit on the page, Magento does not display that product in the second recommendation unit. On the cart page, Magento filters out products that you have previously purchased and products currently in your cart.
 ## Types of filters
 
 Magento provides the following inclusion and exclusion filters you can use to control which products can be displayed in recommendations.
