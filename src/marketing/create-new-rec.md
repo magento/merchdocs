@@ -78,8 +78,10 @@ Use the **Recommended products preview** panel to preview what products will be 
 |Name|Name of the product|
 |SKU|Stock Keeping Unit of the product|
 |Price|Cost excluding taxes and discounts of the product|
-|Result Type|**Primary** indicates that there is enough training data collected to display a high quality recommendation. **Backup** indicates there is not enough training data collected so a backup recommendation is used used to fill the slot. See [Time and training for machine learning models]({% link marketing/product-recommendations.md %}) to learn more about machine learning models and backup recommendations|
+|Result Type|**Primary** indicates that there is enough training data collected to display a high quality recommendation. **Backup** indicates there is not enough training data collected so a backup recommendation is used used to fill the slot. See [Time and training for machine learning models]({% link marketing/product-recommendations.md %}#trainmlmodels) to learn more about machine learning models and backup recommendations|
+
+The preview panel supports [fetching recommendations from a different environment]({% link marketing/recommendation-change-source.md %}).
 
 As you create your recommendation unit, experiment with the page type, recommendation type, and filters to get immediate real-time feedback about the products that will be included. As you begin to understand what products will be displayed, you can configure the recommendation unit to best meet your business needs.
 
-While the data used to source the preview panel is the same data used for the recommendation unit on your storefront, the products displayed in the recommendation unit on your storefront might not exactly match what you see in the preview panel. This discrepancy occurs if you have multiple recommendation units on a single page. For example, if a product is returned in the third position for the second recommendation unit, but it is already displayed in the first recommendation unit on the page, Magento does not display that product in the second recommendation unit.
+What appears in the preview panel and on the storefront can occasionally vary. This is because Magento [filters recommendations]({% link marketing/recommendation-incl-excl.md %}#default) to avoid displaying duplicate products when multiple recommendation units are deployed on a single page.
