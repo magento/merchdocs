@@ -4,7 +4,7 @@ title: Manage Facets
 group: marketing
 ---
 
-Use the following commands to update the properties of existing facets or change their presentation in the storefront.
+Follow these instructions to update the properties of existing facets or change their presentation in the storefront:
 
 - [Edit](#edit-facet)
 - [Pin/unpin](#pin-facet)
@@ -23,7 +23,7 @@ Use the following commands to update the properties of existing facets or change
     ![Filter facets]({% link live-search/assets/facets-filter-by-cropped.png %}){: .zoom}
     _Filter by_
 
-1. To edit the facet properties, click More options (...).
+1. To edit the facet properties, click **More** (...).
 
 1.	Click **Edit**
 
