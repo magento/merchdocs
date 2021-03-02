@@ -63,6 +63,14 @@ _Add two-way synonym_
    ![One-way synonym]({% link live-search/assets/synonym-one-way.png %}){: .zoom}
    _One-way synonym_
 
+## Step 3: Publish changes
+
+1. When the synonyms are complete, click <span class="btn">Publish changes</span>.
+
+1. Wait about fifteen minutes for the synonyms to become avaiable in the store.
+
+  ![Publish changes]({% link live-search/assets/synonym-publish.png %}){: .zoom}
+  _Publish changes_
 ## Field Descriptions
 
 |Field |Description |

@@ -10,7 +10,9 @@ Follow these instructions to update the properties of existing facets or change 
 - [Pin/unpin](#pin-facet)
 - [Move](#move-pinned-facet)
 - [Delete](#delete-facet)
+- [Publish Changes](#publish-changes)
 
+{: #edit-facet}
 ## Edit facet
 
 1.	Find the facet that you want to edit.
@@ -49,7 +51,8 @@ Follow these instructions to update the properties of existing facets or change 
 
     Your changes won’t appear in the storefront until after they are published.
 
-## Pin facet
+{: #pin-facet}
+## Pin/unpin facet
 
 The Pin changes color when clicked and moves the facet to either the _Pinned Facets_ or the _Unpinned Facets_ section.
 
@@ -64,6 +67,7 @@ The Pin changes color when clicked and moves the facet to either the _Pinned Fac
     ![Pinned and unpinned facets]({% link live-search/assets/facets-pinned-unpinned.png %}){: .zoom}
     _Pinned and unpinned facets_
 
+{: #move-pinned-facet}
 ## Move pinned facet
 
 The order of pinned facets can be changed by moving the row to a different position. Pinned facets have a Move icon (![Move selector]({% link live-search/assets/btn-move.png %})) at the beginning of the row. Unlike pinned facets, dynamic facets cannot be moved.
@@ -74,6 +78,7 @@ The order of pinned facets can be changed by moving the row to a different posit
 
     After the changes are published, the facets appear in the storefront _Filters_ list in the new order.
 
+{: #delete-facet}
 ## Delete facet
 
 1.	Find the facet in the list and click More Options (...).
@@ -85,6 +90,7 @@ The order of pinned facets can be changed by moving the row to a different posit
 
     The facet is removed from the storefront after the changes are published.
 
+{: #publish-changes}
 ## Publish changes
 
 1.	To update the storefront with your changes, click <span class="btn">Publish changes</span>.
