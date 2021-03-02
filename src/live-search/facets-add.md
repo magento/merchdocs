@@ -13,7 +13,7 @@ _Add facet_
 
 1.	In the Admin, go to **Marketing** > SEO & Search > **Live Search**.
 
-1. For multiple stores, set **Scope** to the store view where the facet settings apply.
+1. For multiple stores, set **Scope** to the [store view]({% link configuration/scope.md %}) where the facet settings apply.
 
 1.	On the _Faceting_ tab, click <span class="btn">Add facets</span>.
 
