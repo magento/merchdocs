@@ -288,54 +288,14 @@ JavaScript Library: `ga.js`
 {:.ee-only}
 ## Product Recommendations Cookies
 
-The following cookies are used by Product Recommendations for Magento Commerce customers. These cookies are installed with the DataServices module.
-### `Login`
+The following cookies are used by Product Recommendations for Magento Commerce customers. These cookies are installed with the [DataServices module](https://devdocs.magento.com/recommendations/install-configure.html).
 
-​Stores credentials for the logged-in customer.
-
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Per local storage rules
-- Module: `DataServices`
-- `authentication_flag` -> true
-- `dataservices_customer_id` -> logged in customer id. Used to send `guest` or `logged-in` flag to Snowplow collector
-- `dataservices_cart_id` -> logged in customer's existing cart id
-
-### `Logout`
-
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Per local storage rules
-- Module: `DataServices`
-- `authentication_flag` -> false
-- `dataservices_customer_id` -> deleted
-- `dataservices_cart_id` -> deleted
-
-### `AddToCart`
-
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Per local storage rules
-- Module: `DataServices`
-- `dataservices_cart_id` -> customer's cart id
-- `dataservices_product_context` -> product context of product added to cart
-
-### `RemoveToCart`
-
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Per local storage rules
-- Module: `DataServices`
-- `dataservices_product_context` -> product context of product removed from cart
-
-### `CheckoutSuccess​`
-
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: Per local storage rules
-- Module: `DataServices`
-- `dataservices_cart_id` -> deleted
-​
+- `mg_dnt`: Allows you to [restrict Magento data collection](https://devdocs.magento.com/recommendations/setting-cookie.html) if you have custom code to manage cookie consent on your site.
+- `user_allowed_save_cookie`: Used for Magento's [cookie restriction mode]({% link stores/compliance-cookie-restriction-mode.md %}).
+- `authentication_flag`: Tracks a shopper's sign in and sign out status.
+- `dataservices_customer_id`: Tracks a shopper's sign in and sign out actions.
+- `dataservices_cart_id`: Used with a shopper's cart actions.
+- `dataservices_product_context`: Track's a shopper's product interactions.
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212
