@@ -2,10 +2,15 @@
 title: Voids
 ---
 
-Voids deal with the payment on the order invoice. To void the authorization, so that funds are not captured, payments have to be refunded after capture and cannot be voided.
+With Magento Payments, you can utilize existing Magento functionality for voiding transactions. Voids allow you to stop payment on a specific order, if the funds are not yet captured. After you void an order, you can cancel orders in `Pending` status and issue any needed refunds.
 
-If the online payment method is ued in the order, then you can void the current transaction and will not be able to further process the online transaction for the order. For example, if an order amount is authorized by the third party payment gateway, and if the Admin applies the void process you cannot capture further payments. When voiding an order, the order will continue processing as offline only (offline invoice, offline credit memo).
+When a customer purchases an item from your store, if you have configured your store to authorize only (not capture) at the point of sale *LINK TO FUTURE REF DOCS at docs.magento.com/user-guide/configuration/sales/magento-payments*, the order has a `Processing` status in the Magento Admin.
 
-When a customer makes a payment with a credit or debt card, payment is processed and the third-party payment gateway processor verifies that the customer's account is valid and that funds are available. The gateway then sends a success message to the customer verifying that the payment method is valid. The funds are held and deducted from the customer's credit/debit account, but are not yet transferred to the end merchant accounts (which means the transaction is not yet settled). You can only void an unsettled transaction, but once a transaction is settled it can only be refunded.
+When that order is still processing, you can void the transaction. If a payment has already been settled, such as when it's in a `Complete` or `Closed` status, or if the payment was captured *link to authorize and capture payment method* (which means it was invoiced), it can only be [refunded using a credit memo]({% link sales/credit-memos.md %}).
 
-When payments are created (or authorised in the case of Credit Cards) a number of things happen. The amount being authorised is checked against the available credit of the payment instrument. If it is large enough, a reservation is created which reduces the available credit by the amount being authorised. This reservation has a natural (but varying) time after which is naturally expires. This is typically anywhere from 3 to 30 days. If shoppers are active and create multiple authorisations across various sellers, they are potentially blocking up their available credit limits and are therefore not able to use their card. Even though they will expire naturally within 3 to 30 days, in the event of order cancellation it is a good practice for sellers to proactively cancel this reservation, thereby liberating the reservation and increasing their available credit.
+{:.bs-callout-info}
+Canceling an order also produces a void, but voiding an order does not trigger a cancellation.
+
+Check out our [Order Workflow]({% link sales/order-workflow.md %}) topic to learn more about the basic steps an order goes through.
+
+See [Processing an Order]({% link sales/order-processing.md %}) to learn about the void functionality and how to void an order transaction.
