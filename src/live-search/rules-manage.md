@@ -18,13 +18,13 @@ The details panel shows the rule name, status, conditions and events, start and 
 
 1.	Click **View details**.
 
-   You can do any of the following from the View details panel:
+     You can do any of the following from the View details panel:
 
-  - Edit Rule
-  - Delete Rule
-  - Enable/Disable Rule
+      - Edit Rule
+      - Delete Rule
+      - Enable/Disable Rule
 
-1. To close the View details panel, click **Close** (X) in the upper-right corner.
+1. To close the _View details_ panel, click **Close** (X) in the upper-right corner.
 
 ## Edit rule
 
@@ -34,7 +34,7 @@ The details panel shows the rule name, status, conditions and events, start and 
 
 1. Update the conditions, operators, and events as needed.
 
-1. Update the name, start and end date, and description as needed.
+1. Update the name, start and end date, and description fields as needed.
 
 1. Test the rule.
 
