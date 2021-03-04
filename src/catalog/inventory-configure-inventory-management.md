@@ -2,7 +2,7 @@
 title: Configuring Inventory Management
 ---
 
-Magento supports inventory configuration settings at the product and global level, and provides additional settings that affect source availability, storefront products, and order shipment. The configuration settings apply to the catalog (**Store** > **Configuration** > **Catalog** > **Inventory**) as a whole or for specific products (**Catalog** > **Products** > **Advanced Inventory**).
+Magento supports inventory configuration settings at the product and global level, and provides additional settings that affect source availability, storefront products, and order shipment. The configuration settings apply to the catalog (**Stores** > Settings > **Configuration** > **Catalog** > **Inventory**) as a whole or for specific products (**Catalog** > **Products** > **Advanced Inventory**).
 
 Your catalog can be configured to display inventory data in your storefront, manage active shopping carts, and more. Display the availability of each item as _In Stock_ or _Out of Stock_ and the available inventory when stock is low.
 
