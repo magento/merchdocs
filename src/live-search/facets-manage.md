@@ -10,7 +10,7 @@ Follow these instructions to update the properties of existing facets or change 
 - [Pin/unpin](#pin-facet)
 - [Move](#move-pinned-facet)
 - [Delete](#delete-facet)
-- [Publish Changes](#publish-changes)
+- [Publish](#publish-changes)
 
 {: #edit-facet}
 ## Edit facet
