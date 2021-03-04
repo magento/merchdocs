@@ -9,17 +9,25 @@ _SWAT Dashboard_
 
 ## Step 1: Verify permissions
 
-1. Verify that the Admin user has permission to access SWAT.
+Verify that the Admin user account has permission to access SWAT through their [assigned user role]({% link system/permissions-user-roles.md %}).
 
-   Access to SWAT is assigned by default to any Admin role with access to `All` resources.
+{:.bs-callout-warning}
+The Site-Wide Analysis Tool role resource (permission) is **not** auto-assigned. It MUST be activated for the user role and the role individually assigned to each user account in the Admin.
 
-1. For Admin users with custom roles, assign permission to access the _System Insights_ [Site-Wide Analysis Tool]({% link system/permissions-user-roles.md %}) role resource.
+For the custom role needing SWAT access, do the following:
 
-1. If necessary, notify any users who are assigned the custom role to sign out of the Admin, and sign in again.
+1. Select the **Reports** > **System Insights** > **Site-Wide Analysis Tool** role resource.
+
+   ![Select the Site-Wide Analysis Tool permission]({% link images/images-ee/reports-swat-role-access.png %}){: width="330px"}<br/>
+   _Site-Wide Analysis Tool permission selected for the role_
+
+1. Click <span class="btn">Save Role</span>.
+
+1. Notify any users who are assigned that role to sign out of the Admin, and sign in again.
 
 ## Step 2: Access SWAT
 
-1. On the Admin sidebar, go to **Reports** > System Insights > **Site-Wide-Analysis Tool**.
+1. On the _Admin_ sidebar, go to **Reports** > _System Insights_ > **Site-Wide-Analysis Tool**.
 
 1. Read the _Terms of Use_ for the Site Wide Analysis Tool and click <span class="btn">Accept</span> to continue.
 
