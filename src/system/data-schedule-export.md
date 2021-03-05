@@ -56,10 +56,13 @@ After each export, the export file is placed in the user-defined location, and a
     ![Scheduled export file information]({% link images/images-ee/data-transfer-scheduled-export-file-information.png %}){: .zoom}
     _Export File Information_
 
-1. Enter the **File Directory** where the export file is to be saved as follow:.
+    {:.bs-callout-info}
+    When the Remote storage module is enabled, the `Local Server` **Server Type** automatically switches to `Remote Storage`.
 
-   - For Local Server, enter a relative path within the Magento installation. For example, `var/export`.
-   - For Remote FTP server, enter the full URL and path to the target folder on the destination server.
+1. Enter the **File Directory** where the export file is to be saved as follows:
+
+   - For **Local Server**, enter a relative path within the Magento installation, such as `var/export`. If the Remote storage module is configured, use `import_export/export`.
+   - For **Remote FTP server**, enter the full URL and path to the target folder on the destination server.
 
 ## Step 3: Configure the Export Failed Emails
 
@@ -110,8 +113,8 @@ File Format | Select the format of the export file. Currently only the `.CSV` op
 
 Field | Description
 ----- | -----------
-Server Type | Determines the location of the export file. Options:<br>**Local Server** — Places the export file on the same server where Magento is deployed.<br>**Remote FTP** — Places the export file on a remote server. Additional options for credentials and file transfer settings appear.
-File Directory| Specify the directory where the export file is placed. In case Server Type is set to Local Server, specify the relative to Magento installation path. For example, `var/export`.
+Server Type | Determines the location of the export file. Options:<br>**Local Server** — Places the export file on the same server where Magento is deployed. If the Remote storage module is enabled, `Local Server` is switched to `Remote Storage`.<br>**Remote FTP** — Places the export file on a remote server. Additional options for credentials and file transfer settings appear.
+File Directory| Specify the directory where the export file is placed. In case Server Type is set to Local Server, specify the relative to Magento installation path. For example, `var/export`, or `import_export/export` for remote storage.
 
 ### Export Failed Emails
 

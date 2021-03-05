@@ -6,6 +6,9 @@ Customers have high expectations when it comes to color, and it is crucial that 
 
 For [configurable products]({% link catalog/product-create-configurable.md %}), color can be indicated by a visual swatch, text swatch, or input control. Swatches can be used on the product page, in product listings, and in [layered navigation]({% link catalog/navigation-layered.md %}). On the product page, swatches are synchronized to display the corresponding product image when the swatch is selected. When the customer selects the swatch, the corresponding value appears in the input field and the swatch is outlined as the current selection.
 
+{:.bs-callout-info}
+Swatch attributes can be configured to not display corresponding simple product images when the swatch is selected by setting the "Update Product Preview Image" option value to "No" on the Attribute Edit page in the Admin.
+
 ![]({% link images/images/storefront-color-swatches.png %}){: .zoom}
 _Swatches on Product Page_
 
