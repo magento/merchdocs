@@ -49,8 +49,7 @@ For the custom role needing Site-Wide Analysis Tool access, do the following:
 
 1. Click <span class="btn">Generate Report</span>.
 
-   ![Report Settings]({% link images/images-ee/reports-swat
-   -report-settings.png %}){: .zoom}
+   ![Report Settings]({% link images/images-ee/reports-swat-report-settings.png %}){: .zoom}
    _Report Settings_
 
 |Tab|Description|
