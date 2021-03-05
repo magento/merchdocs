@@ -3,6 +3,9 @@ title: Price Navigation
 group: marketing
 ---
 
+{:.bs-callout-info}
+[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Magento Commerce. This topic describes standard Magento price navigation functionality. If your installation of Magento Commerce has Live Search installed, see the Live Search [Quick Tour]({% link live-search/quick-tour.md %}) and [Faceting]({% link live-search/facets.md %}).
+
 Price navigation can be used to distribute products by price range in layered navigation. You can also split each range in intervals. There are a few ways to calculate price navigation:
 
 - Automatic (Equalize Price Ranges)

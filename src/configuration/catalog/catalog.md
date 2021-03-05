@@ -119,6 +119,9 @@ _[Price]({% link catalog/catalog-price-scope.md %})_{:.ee-only}
 
 ## Layered Navigation
 
+{:.bs-callout-info}
+[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Magento Commerce. This topic describes standard Magento layered navigation functionality. If your installation of Magento Commerce has Live Search installed, see also the Live Search [Quick Tour]({% link live-search/quick-tour.md %}).
+
 ![]({% link images/images/config-catalog-catalog-layered-navigation-automatic-equalize-price-ranges.png %}){: .zoom}
 [_Layered Navigation - Automatic (equalize price ranges)_]({% link catalog/navigation-layered-configuration.md %})
 
@@ -176,6 +179,9 @@ _[Price]({% link catalog/catalog-price-scope.md %})_{:.ee-only}
 |Maximal Depth|Global|Determines the number of subcategory levels in the top navigation. The default value of zero places no limit on the number of levels.|
 
 ## Catalog Search
+
+{:.bs-callout-info}
+[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Magento Commerce. This topic describes standard Magento search. If your installation of Magento Commerce has Live Search installed, see the Live Search [Quick Tour]({% link live-search/quick-tour.md %}).
 
 Magento supports several versions of Elasticsearch.
 

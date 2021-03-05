@@ -3,6 +3,9 @@ title: Advanced Search
 group: marketing
 ---
 
+{:.bs-callout-info}
+[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Magento Commerce. This topic describes standard Magento search functionality. If your installation of Magento Commerce has Live Search installed, see the Live Search [Quick Tour]({% link live-search/quick-tour.md %}).
+
 Advanced Search lets shoppers search the catalog based on values entered into a form. Because the form contains multiple fields, a single search can include several parameters. The result is a list of all products in the catalog that match the criteria. A link to Advanced Search is in the footer of your store.
 
 ![]({% link images/images/storefront-search-advanced.png %}){: .zoom}
