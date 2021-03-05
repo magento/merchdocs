@@ -3,16 +3,12 @@ ee_only: true
 title: Live Search
 group: marketing
 sections:
-  - title: Quick Tour
+  - title: Getting Started
     content: Follow along for a quick storefront tour of Live Search.
-    url: /live-search/quick-tour.html
-
-  - title: Onboarding
-    content: See the Live Search developer documentation to install and connect the module as a service for your Magento installation.
-    url: /live-search/onboarding.html
+    url: /live-search/getting-started.html
 
   - title: Workspace
-    content: Configure and manage Live Search, and monitor performance.
+    content: Learn your way around the Live Search workspace.
     url: /live-search/workspace.html
 
   - title: Performance
