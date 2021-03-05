@@ -58,7 +58,7 @@ The process of customizing the body of each message is the same as for customizi
    _Add Custom Styles_
 
    {:.bs-callout-info}
-   Custom styles are applied to the email only if `{{template config_path="design/email/header_template"}}` is present in the **Template Styles**. To use custom CSS without a default header template, you must provide them here within the `<style>` HTML tag.
+   Custom styles are applied to the email only if {% raw %}`{{template config_path="design/email/header_template"}}`{% endraw %} is present in the **Template Styles**. To use custom CSS without a default header template, you must provide them here within the `<style>` HTML tag.
 
 ## Step 3. Update the configuration
 
