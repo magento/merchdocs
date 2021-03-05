@@ -4,12 +4,13 @@ title: Manage Rules
 group: marketing
 ---
 
-Text
+Follow these instructions to update the properties of existing rules:
 
-View details
-Edit rule
-Delete rule
+- [View details](#view-details)
+- [Edit rule](#edit-rule)
+- [Delete rule](#delete-rule)
 
+{: #view-details}
 ## View details
 
 The details panel shows the rule name, status, conditions and events, start and end date, description, and date last edited. Rules can be enabled, edited, and deleted from the details panel.
@@ -26,6 +27,7 @@ The details panel shows the rule name, status, conditions and events, start and 
 
 1. To close the _View details_ panel, click **Close** (X) in the upper-right corner.
 
+{: #edit-rule}
 ## Edit rule
 
 1.	On the _Rules_ tab, find the rule in the grid that you want to edit and click **More** (…).
@@ -40,6 +42,7 @@ The details panel shows the rule name, status, conditions and events, start and 
 
 1. Publish the changes.
 
+{: #delete-rule}
 ## Delete rule
 
 1.	On the _Rules_ tab, find the rule in the grid that you want to edit and click **More** (…).
