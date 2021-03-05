@@ -1,4 +1,4 @@
- ---
+---
 ee_only: true
 title: Add Rules
 group: marketing
@@ -34,7 +34,6 @@ To build a rule, the first step is to define the condition(s) that trigger the r
     {:.bs-callout-info}
     A query string can include alphanumeric characters and capitalization is ignored.
 
-    ![Rules workspace]({% link live-search/assets/rules-condition.png %}){: .zoom}
     _Rule conditions_
 
  1. Choose the logical operator that returns the results you want when the two conditions are compared. The condition is either "this `AND` this" or "this `OR` this".
@@ -54,7 +53,6 @@ To build a rule, the first step is to define the condition(s) that trigger the r
    {:.bs-callout-info}
    All logical operators in the rule must be the same. You cannot combine AND and OR in the same rule.
 
-   ![Rules workspace]({% link live-search/assets/rules-condition.png %}){: .zoom}
    _Additional rule condition - OR_
 
    ## Step 3: Define an event
@@ -83,14 +81,12 @@ To build a rule, the first step is to define the condition(s) that trigger the r
 
 1. If the rule has multiple queries, test each one that may be affected by the rule.
 
-![Rules workspace]({% link live-search/assets/rules-condition.png %}){: .zoom}
 _Test the rule_
 
 ## Save and publish
 
 When complete, click <span class="btn">Save and publish</span>.
 
-![Rules workspace]({% link live-search/assets/rules-condition.png %}){: .zoom}
 _Save and publish_
 
 ## Field descriptions
