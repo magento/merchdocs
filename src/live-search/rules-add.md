@@ -27,9 +27,9 @@ To build a rule, the first step is to define the condition(s) that trigger the r
 
     |--- |--- |
     |Search query is |A character or string of text that exactly matches the shopper’s query. Complex queries with multiple conditions cannot be composed when this condition is used. |
-    |Search query contains |A character or string of text that is included in the shopper’s query. The shopper’s query must match only a single character to meet this condition. | 
+    |Search query contains |A character or string of text that is included in the shopper’s query. The shopper’s query must match only a single character to meet this condition. |
     |Search query starts with |The shopper’s query begins with this character or string of text. |
-    |Search query ends with |The shopper’s query ends with this character or string of text. | 
+    |Search query ends with |The shopper’s query ends with this character or string of text. |
 
     {:.bs-callout-info}
     A query string can include alphanumeric characters and capitalization is ignored.
@@ -100,9 +100,9 @@ _Save and publish_
 |Condition |Description |
 |--- |--- |
 |Search query is |A character or string of text that exactly matches the shopper’s query. Complex queries with multiple conditions cannot be composed when this condition is used. |
-|Search query contains |A character or string of text that is included in the shopper’s query. The shopper’s query must match only a single character to meet this condition. | 
+|Search query contains |A character or string of text that is included in the shopper’s query. The shopper’s query must match only a single character to meet this condition. |
 |Search query starts with |The shopper’s query begins with this character or string of text. |
-|Search query ends with |The shopper’s query ends with this character or string of text. | 
+|Search query ends with |The shopper’s query ends with this character or string of text. |
 
 ### Logical operators
 
@@ -128,6 +128,7 @@ _Save and publish_
 |Hide a product | Excludes a SKU, or range of SKUs, from the search results. |
 
 ### Details
+
 |Field |Description |
 |--- |--- |
 |Name|The name of the rule.|

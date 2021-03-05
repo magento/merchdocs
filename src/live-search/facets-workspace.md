@@ -18,20 +18,20 @@ If your Magento installation includes multiple stores or store views, set **Scop
 1. Click the **Filter by** control.
 1. Choose one of the following options:
 
-  -  All filters
-  -  Pinned
-  -  Dynamic
+  - All filters
+  - Pinned
+  - Dynamic
 
 ![Faceting workspace]({% link live-search/assets/facets-filter-by.png %}){: .zoom}
 _Filter by_
 
 ## Add a facet
 
-1. Click **Add facets**.  
+1. Click **Add facets**.
 
 1. See [Add Facets]({% link live-search/facets-add.md %}) for instructions.
 
-## Column Descriptions 
+## Column Descriptions
 
 |Column |Description |
 |--- |--- |
@@ -40,7 +40,7 @@ _Filter by_
 |Sort type |The sorting order of facet values. Options: Alphabetical, Count |
 |Max value |The number of facet values that are available in the storefront as filters, with a maximum of 10. |
 
-## Controls 
+## Controls
 
 |Add facets | Opens the [Add Facets]({% link live-search/facets-add.md %}) page.|
 |Filter by |Determines the type of facets that appear in the list. Options: All, Pinned, Dynamic |

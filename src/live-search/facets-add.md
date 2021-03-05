@@ -59,7 +59,7 @@ _Add facet_
 |--- |--- |
 |Label |The facet label that is visible in the storefront. You can edit the label to be consistent with your brand. |
 |Select type | Refers to the selection method that is used to choose a facet value from the storefront. Options:<br />Single-select - Returns products that match a single facet value. Multi-select - Allows multiple facet values to be selected.<br />(or) - Returns all products where either facet applies.<br />(and) - Returns a narrow set of products where all selected facets apply. |
-|Sort Type |The method that is used to sort facet values. Options:<br />Alphabetical - Sorts facet values alphabetically.<br />Count - Sorts facet values based on the number of matches found.
+|Sort Type |The method that is used to sort facet values. Options:<br />Alphabetical - Sorts facet values alphabetically.<br />Count - Sorts facet values based on the number of matches found.|
 |Max Value |The maximum number of values that can be displayed in the storefront for each facet. Facets that represent a range of values are evenly distributed. Default: 8|
 |Pin |Pins or unpins a facet to the top of the _Filters list.|
 |...|Displays a menu of actions that can be applied to the selected facet. Options: Edit, Delete |

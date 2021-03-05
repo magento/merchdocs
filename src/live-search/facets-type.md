@@ -7,11 +7,13 @@ group: marketing
 There are two distinct types of facets: Static and dynamic. In addition, there are several characteristics that affect their presentation and behavior.
 
 ## Static facets
+
 Category and price are the only static facets because every product in the catalog has a category and price.
 
   - Price buckets - Price values are dynamically adjusted into buckets, distributed according to the number of products returned, and rounded to the nearest $5.00. For example, if four products are returned, each price bucket represents 25% of the returned products. Unlike price navigation steps, each price bucket overlaps the next price bucket by $1.00.
 
 ## Dynamic facets
+
 Dynamic facets appear only when relevant, and the selection changes according to the products returned. In the Filters list, dynamic facets appear in alphabetic order after pinned facets. To streamline search results, facets are “dynamic” by default.
 
   - Pinned facets - The most commonly used facets can be “pinned” to the top of the Filters list. We recommend that you pin any facet that applies to most products in the catalog. In the storefront, pinned facets appear at the top of the Filters list after Categories and Price.

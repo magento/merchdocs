@@ -12,7 +12,7 @@ Enhanced quick search combines elements of search and browse, and returns catego
 
 ### Search as you type
 
-Live Search returns dynamic and responsive results as soon as the shopper starts typing. 
+Live Search returns dynamic and responsive results as soon as the shopper starts typing.
 
 ### Synonyms
 

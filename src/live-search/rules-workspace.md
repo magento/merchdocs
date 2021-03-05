@@ -20,7 +20,7 @@ If your Magento installation includes multiple stores or store views, set **Scop
    In the options menu, the columns with a blue checkmark are visible. The rule name is the only column that cannot be hidden.
 
    ![Rules workspace]({% link live-search/assets/rules-workspace-show-hide-columns.png %}){: .zoom}
-   _Show/hide columns_ 
+   _Show/hide columns_
 
 1. In the menu, do either of the following:
 
@@ -31,7 +31,7 @@ If your Magento installation includes multiple stores or store views, set **Scop
   ![Rules workspace]({% link live-search/assets/rules-workspace-all-columns.png %}){: .zoom}
   _Rules workspace with all columns visible_
 
-## Column Descriptions 
+## Column Descriptions
 
 |Column |Description |
 |--- |--- |
@@ -42,7 +42,7 @@ If your Magento installation includes multiple stores or store views, set **Scop
 |Status |The color-coded status indicates the current state of the rule. Use the Status control above the grid to filter rules by status. Values: All status <br />Active (blue)<br />Scheduled (Orange)<br />Inactive (gray)|
 |(...)|Displays more actions that can be applied to the selected rule. Options: Edit, View details, Delete |
 
-## Controls 
+## Controls
 
 |Control |Description |
 |--- |--- |
