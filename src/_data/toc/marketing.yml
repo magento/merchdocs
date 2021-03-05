@@ -553,7 +553,9 @@ pages:
     - label: Rules Workspace
       url: "/live-search/rules-workspace.html"
     - label: Add Rule
-      url: "/live-search/rules-add.html"
+      url: "/live-search/rules-add.html"      
+    - label: Types of Rules
+      url: "/live-search/rules-type.html"
     - label: Manage Rules
       url: "/live-search/rules-manage.html"
 - label: SEO and Search
