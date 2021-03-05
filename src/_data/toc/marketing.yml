@@ -519,12 +519,15 @@ pages:
   url: "/live-search/overview.html"
   edition: ee-only
   children:
-  - label: Quick Tour
-    url: "/live-search/quick-tour.html"
-  - label: Onboarding
-    url: "/live-search/onboarding.html"
-  - label: Workspace
-    url: "/live-search/workspace.html"
+  - label: Getting Started
+    url: "/live-search/getting-started.md"
+    children:
+    - label: Quick Tour
+      url: "/live-search/quick-tour.html"
+    - label: Onboarding
+      url: "/live-search/onboarding.html"
+    - label: Workspace
+      url: "/live-search/workspace.html"
   - label: Performance
     url: "/live-search/performance.html"
   - label: Faceting
@@ -532,7 +535,7 @@ pages:
     children:
     - label: Facet Types
       url: "/live-search/facets-type.html"
-    - label: Facets Workspace
+    - label: Faceting Workspace
       url: "/live-search/facets-workspace.html"
     - label: Add Facets
       url: "/live-search/facets-add.html"
@@ -552,10 +555,10 @@ pages:
     children:
     - label: Rules Workspace
       url: "/live-search/rules-workspace.html"
-    - label: Add Rule
-      url: "/live-search/rules-add.html"
     - label: Types of Rules
       url: "/live-search/rules-type.html"
+    - label: Add Rule
+      url: "/live-search/rules-add.html"
     - label: Manage Rules
       url: "/live-search/rules-manage.html"
 - label: SEO and Search
