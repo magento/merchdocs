@@ -2,7 +2,9 @@
 title: Creating a Shipment
 ---
 
-The following instructions walk you through the process of creating a basic shipment. If you have Inventory Management enabled, you should review [Creating Shipments with Inventory Management]({% link catalog/inventory-shipment-create.md %}). If you are using a shipping extension, you should review the vendor documentation.
+The following instructions walk you through the process of creating a shipment for Magento Shipping. If you have Inventory Management enabled, you may want to review [Creating Shipments with Inventory Management]({% link catalog/inventory-shipment-create.md %}).
+
+## Create a shipment
 
 1. On the _Admin_ sidebar, go to **Sales** > **Orders**.
 
@@ -49,7 +51,7 @@ For each line item in the order, modify the **Qty to Ship** as needed.
 |<span class="btn">Submit Shipment</span>|Adds he shipment for the order.|
 |<span class="btn">Reset</span>|Restores all fields to original values.|
 
-## Field Descriptions
+## Field descriptions
 
 ### Shipping Information
 

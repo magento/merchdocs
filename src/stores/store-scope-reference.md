@@ -20,6 +20,7 @@ group: getting-started
 |Product Prices|[Product prices]({% link catalog/catalog-price-scope.md %}) can be configured to be applied at either a global or website level.|
 |Payment Methods|[Payment methods]({% link payment/payments.md %}) are configured at the website level, although the title and instructions can be configured for each store view.|
 |Checkout|The [checkout process]({% link sales/checkout-process.md %}) takes place at the website level, although some display options can be configured for each store view. All stores associated with a website have the same [checkout configuration]({% link sales/checkout-options.md %}).|
+|Allowed countries|Allowed countries can be configured on the website level. The [allowed countries]({% link stores/country-options.md %}) settings are used in the checkout to limit where a customer can come from.|
 |**Store**||
 |Root Category|Each store can have a separate set of products and main menu that is based on a “root” category and subcategories. Each catalog has a [root category]({% link catalog/category-root.md %}) that is assigned at the store level.|
 |**Store View**||

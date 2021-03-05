@@ -13,9 +13,13 @@ You have two options for calculating the distance and time to find the closest s
 
 - **Offline Calculation** - Calculates the distance using downloaded and imported geocode data using zip/post codes and GPS coordinates to determine the closest source to the shipping destination address. To configure this option, you may require developer assistance to initially download and import geocodes using command line instructions.
 
+{:.bs-callout-info}
+For multi-store website with several countries, configure [Default Tax Destination]({% link tax/tax-destination-default.md %}) for each country.
+
 ## Configure Google Maps
 
 You do not need a Google account to get started. The process includes Google account and project creation, if needed. This option requires a billing account and payment method added to your Google account to complete configurations and use the algorithm.
+However, Google MAP distance-based algorithm is recommended as more advanced and precise in comparison to Offline Calculation.
 
 ### Step 1: Create the Google API key
 
@@ -94,7 +98,10 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
 ## Configure offline calculation
 
-Offline calculations use country codes to determine the distance between the shipping destination and source addresses. This option may require developer assistance to configure. You will issue a an Inventory Management CLI command to download and import data from [geonames.org][5].
+Offline calculations use country codes to determine the distance between the shipping destination and source addresses. This option may require developer assistance to configure. You will need to issue an Inventory Management CLI command to download and import data from [geonames.org][5].
+
+{:.bs-callout-info}
+Imported geocodes from [geonames.org][5] have limitations for some countries like Canada, Ireland, etc. Please refer to [GeoNames Postal Code files][7] for more information.
 
 ### Step 1: Download and import geocodes
 
@@ -123,3 +130,4 @@ Complete these commands anytime you need to add more geocodes.
 [4]: https://developers.google.com/maps/documentation/javascript/distancematrix#travel_modes
 [5]: https://www.geonames.org/
 [6]: https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli-reference.html#import-geocodes
+[7]: https://download.geonames.org/export/zip/readme.txt

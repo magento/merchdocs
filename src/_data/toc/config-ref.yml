@@ -181,8 +181,8 @@ pages:
     url: "/configuration/dotdigital/dynamic-content.html"
   - label: Transactional Emails
     url: "/configuration/dotdigital/transactional-emails.html"
-  - label: Email Templates
-    url: "/configuration/dotdigital/email-templates.html"
+  - label: Transactional SMS
+    url: "/configuration/dotdigital/transactional-sms.html"
   - label: Configuration
     url: "/configuration/dotdigital/configuration.html"
   - label: Developer
