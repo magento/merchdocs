@@ -1,7 +1,11 @@
- ---
+---
 ee_only: true
-title: Rule Types
+title: Rules Type
 group: marketing
 ---
 
 Text
+
+- Conditions
+- Logical Operators
+- Events
