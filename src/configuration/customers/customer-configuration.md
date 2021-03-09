@@ -61,6 +61,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 |Reset Password Template|Store View|Determines the email template that is used when customers reset their passwords.|
 |Password Template Email Sender|Store View|Determines the store contact that appears as the sender of password-related emails.|
 |Recovery Link Expiration Period (hours)|Global|Specifies the number of hours before a password recovery link expires.|
+|Enable Autocomplete on login/forgot password forms|Website|Determines if autocomplete is enabled on login/forgot password forms. Options: Yes / No|
 |Number of Required Character Classes|Global|Determines the number of different character classes (lowercase, uppercase, numeric, and special characters) that must be included in a password.|
 |Maximum Login Failures to Lockout Account|Global|Determines the number failed login attempts until the Admin account is locked. For unlimited attempts, enter zero (0).|
 |Minimum Password Length|Global|Determines the minimum number of characters allowed in a password. The number must be greater than zero (0).|
