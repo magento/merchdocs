@@ -11,7 +11,7 @@ When a customer purchases an item from your store, if you have configured your s
 
 When that order is still processing, you can void the transaction. After you void it, you can cancel the order, which is in a `Pending` status, and issue any needed refunds via [credit memo]({% link sales/credit-memos.md %}).
 
-You can also [cancel an order]({% link sales/order-update.md %}#cancel-a-pending-order) that has been settled (such as when it has a `Complete` or `Closed` status) or for which payment was captured, and any un-captured authorizations will also be voided as part of that cancellation process.
+You can also [cancel an order]({% link sales/order-update.md %}#cancel-a-pending-order) that has been settled (such as when it has a `Complete` or `Closed` status) or for which payment was captured. Any un-captured authorizations are also voided as part of that cancellation process.
 
 {:.bs-callout-info}
 Canceling an order also produces a void, but voiding an order does not trigger a cancellation.
