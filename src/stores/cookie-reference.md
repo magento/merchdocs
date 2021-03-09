@@ -286,7 +286,7 @@ JavaScript Library: `ga.js`
 - `__utmv`: Stores visitor-level custom variable data. This cookie is created when a developer uses the `_setCustomVar` method with a visitor-level custom variable. This cookie is updated every time data is sent to Google Analytics.
 
 {:.ee-only}
-## Product Recommendations Cookies
+## Product Recommendations cookies
 
 The following cookies are used by Product Recommendations for Magento Commerce customers. These cookies are installed with the [DataServices module](https://devdocs.magento.com/recommendations/install-configure.html).
 
