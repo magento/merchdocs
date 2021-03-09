@@ -78,7 +78,7 @@ Use the **Recommended products preview** panel to preview what products will be 
 |Name|Name of the product|
 |SKU|Stock Keeping Unit of the product|
 |Price|Cost excluding taxes and discounts of the product|
-|Result Type|**Primary** indicates that there is enough training data collected to display a high quality recommendation. **Backup** indicates there is not enough training data collected so a backup recommendation is used used to fill the slot. See [Time and training for machine learning models]({% link marketing/product-recommendations.md %}#trainmlmodels) to learn more about machine learning models and backup recommendations|
+|Result Type|**Primary** indicates that there is enough training data collected to display a high quality recommendation. **Backup** indicates there is not enough training data collected so a backup recommendation is used to fill the slot. See [Time and training for machine learning models]({% link marketing/product-recommendations.md %}#trainmlmodels) to learn more about machine learning models and backup recommendations|
 
 The preview panel supports [fetching recommendations from a different environment]({% link marketing/recommendation-change-source.md %}).
 
