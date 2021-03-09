@@ -17,7 +17,7 @@ sections:
 This quick tour takes a look at each page that customers usually visit while shopping in your store. The path that customers typically follow to a sale is sometimes called the _path to purchase_. It also takes a look at the major landmarks along the journey, and considers how Magento can be used to attract and engage customers, increase the average order, and build loyalty and advocacy.
 
 {:.bs-callout-tip}
-[**Merchant Site Assessment**](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:98cc2c67-7962-482f-93e6-58457be61656)<br/>
+<span class="ee-only"></span> [**Merchant Site Assessment**](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:98cc2c67-7962-482f-93e6-58457be61656)<br/>
 Use this downloadable, easy-to-use guide to identify the features offered by Magento Commerce that can turn website visitors into buying customers.
 
 {% include grid.html sections=page.sections %}
