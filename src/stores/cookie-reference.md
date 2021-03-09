@@ -292,10 +292,10 @@ The following cookies are used by Product Recommendations for Magento Commerce c
 
 - `mg_dnt`: Allows you to [restrict Magento data collection](https://devdocs.magento.com/recommendations/setting-cookie.html) if you have custom code to manage cookie consent on your site.
 - `user_allowed_save_cookie`: Used for Magento's [cookie restriction mode]({% link stores/compliance-cookie-restriction-mode.md %}).
-- `authentication_flag`: Tracks a shopper's sign in and sign out status.
-- `dataservices_customer_id`: Tracks a shopper's sign in and sign out actions.
-- `dataservices_cart_id`: Used with a shopper's cart actions.
-- `dataservices_product_context`: Track's a shopper's product interactions.
+- `authentication_flag`: Indicates if a shopper has signed in or signed out. This cookie is updated at the same time as the `dataservices_customer_id` cookie.
+- `dataservices_customer_id`: Indicates if a shopper has signed in or signed out. This cookie does not contain the customer ID.
+- `dataservices_cart_id`: Identifies a shopper's cart actions.
+- `dataservices_product_context`: Identifies a shopper's product interactions.
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212
