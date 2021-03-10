@@ -9,7 +9,7 @@ Adding your own curated list of synonyms improves the ability of Live Search to 
 ![Live Search synonyms]({% link live-search/assets/synonym-workspace.png %}){: .zoom}
 _Live Search synonyms_
 
-## Add synonyms
+## Step 1: Add a synonym
 
 1. In the Admin, go to **Marketing** > SEO & Search > **Live Search**.
 
@@ -17,9 +17,13 @@ _Live Search synonyms_
 
 1. Click the **Synonyms** tab.
 
-1. Click <span class="btn">Add synonyms</span>. Then, follow the instructions for the type of synonym that you want to create.
+1. Click <span class="btn">Add synonyms</span>.
 
-### Two-way synonyms
+## Step 2: Define the synonym by type
+
+Follow the instructions for the type of synonym that you want to create.
+
+### Two-way synonym
 
 1. Accept the default **Two-way** option.
 
@@ -42,7 +46,7 @@ _Live Search synonyms_
     ![Two-way synonym]({% link live-search/assets/synonym-two-way.png %}){: .zoom}
    _Two-way synonym_
 
-### One-way synonyms
+### One-way synonym
 
 1. Click the **One-way** synonym type.
 
@@ -65,9 +69,9 @@ _Live Search synonyms_
 
 ## Step 3: Publish changes
 
-When the synonyms are complete, click <span class="btn">Publish changes</span>.
+When your synonym(s) are complete, click <span class="btn">Publish changes</span>.
 
-It can take up to two hours for the synonyms to become available in the storefront.
+It can take up to two hours for your updates to become available in the storefront.
 
   ![Publish changes]({% link live-search/assets/synonym-publish.png %}){: .zoom}
   _Publish changes_
