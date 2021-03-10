@@ -122,6 +122,7 @@ _Order by SKU Settings for Customer Group_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable Order by SKU on My Account in Storefront|Website|Determines if Order by SKU is available in the customer account dashboard. Options: <br/>**Yes, for Everyone** - The Order by SKU tab appears in the account dashboard of all customers. <br/>**Yes, for Specified Customer Groups** - The Order by SKU tab appears in the account dashboard for members of specified groups or a shared catalog. <br/>**No** - The Order by SKU tab is not available in the customer account.|
+|Customer Groups|Website|Determines the Customer Groups. Options: General / Retailer / Wholesale|
 
 ## Instant Purchase
 

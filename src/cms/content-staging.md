@@ -21,7 +21,6 @@ When a new scheduled update is created for any of the following objects, a corre
 - [Cart Price Rules]({% link marketing/price-rule-cart-scheduled-changes.md %})
 - [CMS Pages]({% link cms/page-scheduled-changes.md %})
 - [CMS Blocks]({% link cms/blocks.md %})
-- [Widgets]({% link cms/widgets.md %})
 
 ## Content staging workflow
 
@@ -40,6 +39,9 @@ When a new scheduled update is created for any of the following objects, a corre
 1. **Restore the baseline content**
 
    If all campaigns have end dates, the baseline content is restored whenever all active campaigns end.
+
+{:.bs-callout-info}
+While a staging update is active for an entity, editing the entity is editing the current active staging update. It does not affect the baseline content, which is restored when the staging update ends.
 
 ## Content Staging dashboard
 

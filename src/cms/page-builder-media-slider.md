@@ -37,7 +37,7 @@ _Individual slide toolbox_
 |Hide|![Hide icon]({{site.baseurl}}/images/images-ee/icon-pb-hide.png){: width="25px"}|Hides the current slider.|
 |Show|![Show icon]({{site.baseurl}}/images/images-ee/icon-pb-show.png){: width="25px"}|Shows the  hidden slider.|
 |Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a copy of the slider.|
-|Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the the slider from the stage.|
+|Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the slider from the stage.|
 
 ## Add an individual slide
 
@@ -384,7 +384,7 @@ You can modify the slide content directly on the stage or when you are changing 
 
 ## Advanced
 
-1. Choose the the **Alignment** to control the horizontal positioning of content added to the slide.
+1. Choose the **Alignment** to control the horizontal positioning of content added to the slide.
 
    |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
    |Left|Aligns the content along the left border of the slide, with allowance for any padding that is specified.
@@ -490,7 +490,7 @@ If you want a title above the slider, simply add a [Text content type] above the
 {: #slider-advanced}
 ### Advanced - slider
 
-1. Choose the the **Alignment** to control the positioning of the slides within the parent slider container:
+1. Choose the **Alignment** to control the positioning of the slides within the parent slider container:
 
    |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
    |Left|Aligns the slides along the left border of the slider container, with allowance for any padding that is specified.

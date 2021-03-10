@@ -2,7 +2,7 @@
 title: Global Settings
 ---
 
-Stores > Settings > Configuration > Sales Channels > Global Settings
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales Channels]({% link configuration/sales-channels.md %}) > Global Settings
 
 ## Sales Channel Settings
 
