@@ -21,3 +21,19 @@ A one-way synonym is a subset of a keyword, but with a more specific meaning. Fo
 sweatshirt ![One-way selector]({% link live-search/assets/btn-one-way.png %}) hoodie
 
 pants ![One-way selector]({% link live-search/assets/btn-one-way.png %}) capris ![Multiple one-way selector]({% link live-search/assets/btn-multiple-one-way.png %}) calf-length-pants ![Multiple one-way selector]({% link live-search/assets/btn-multiple-one-way.png %}) peddle pushers
+
+## Best practices
+
+- Periodically review the [search terms](https://docs.magento.com/user-guide/marketing/search-terms.html) people use and add them to your Live Search synonym list.
+
+- Be consistent with the way terminology is used in your catalog. Keep in mind that there might be regional differences in usage, and sometimes within an industry.
+
+  For example, the singular term “pant” is often used in the fashion industry and sometimes in retail, although the plural form “pants” is more commonly used. (The word “pant” technically refers to the part of a garment that covers one leg, which is why you need a “pair of pants” to cover both legs.
+
+- It is never necessary to define both singular and plural forms a word as a synonym. If you have a mixture of singular and plural terms in your catalog, Search will find the correct set of products.
+
+  For example, if you use the word “pant” in the product name and a shopper searches for “pants”, the correct set of products is returned, and the singular word “pant” is offered as a suggestion.
+
+## Known issue
+
+- If a synonym term contains multiple words, each word is treated as a separate synonym. For example, if you define "time piece" as a synonym of "watch", both "time" and "piece" are treated as synonyms of watch.
