@@ -520,7 +520,7 @@ pages:
   edition: ee-only
   children:
   - label: Getting Started
-    url: "/live-search/getting-started.md"
+    url: "/live-search/getting-started.html"
     children:
     - label: Quick Tour
       url: "/live-search/quick-tour.html"
