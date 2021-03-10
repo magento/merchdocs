@@ -104,7 +104,7 @@ Complete the following General tax settings:
 
    - Clear the **Use Website** checkbox after each field,
 
-   - Update the following values to match your site's Shipping Settings [point of origin]({% link shipping/point-of-origin.md %}).
+   - Update the following values to match your site's Shipping Settings [point of origin]({% link shipping/shipping-settings.md %}#origin).
 
       - Default Country
       - Default State

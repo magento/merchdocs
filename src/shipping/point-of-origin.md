@@ -13,7 +13,7 @@ The point of origin is used to calculate the charge for shipments made from your
 
 1. In the left panel, expand **Sales** and choose **Shipping Settings**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Origin** section, and complete the following:
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Origin** section and complete the following:
 
    * Country
    * Region / State
@@ -21,4 +21,4 @@ The point of origin is used to calculate the charge for shipments made from your
    * City
    * Street Address (and line 2, if needed)
 
-1. Click **Save Config**.
+1. Click <span class="btn">Save Config</span>.

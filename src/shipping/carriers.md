@@ -1,5 +1,7 @@
 ---
 title: Carriers
+redirect_from:
+  - /shipping/weight-dimensional.html
 ---
 
 If you have a commercial account with a supported carrier, you can offer your customers the convenience of choosing that carrier during checkout. The rates are automatically downloaded, so you do not need to look up the information.
@@ -10,11 +12,19 @@ Before you can offer your customers a selection of shipping carriers,you must co
 
 * Configure the settings for each carrier service that you want to offer.
 
-The configuration options vary for each carrier. However, all require the following stops:
+<div class="bs-callout bs-callout-info" markdown="1">
+Dimensional weight, sometimes called volumetric weight, is a common industry practice that bases the transportation price on a combination of weight and package volume. In simple terms, dimensional weight determines the shipping rate based on the amount of space a package occupies in the cargo area of the carrier. Dimensional weight is typically used when a package is relatively light compared to its volume.
+
+All major carriers apply dimensional weight to some shipments. However, the manner in which dimensional weight pricing is applied varies from one carrier to another. If your company has a high volume of shipments, even a slight difference in shipping price can translate to thousands of dollars over the course of a year.
+</div>
+
+The configuration options vary for each carrier. However, all require the following steps:
 
 1. Open a shipping account with the carrier.
 
-1. Enter your account number or user ID, and the gateway URL to their system into the configuration of your store. See [Magento Connect]({% link magento/magento-marketplace.md %}) for additional shipping services for your Magento installation.
+1. Enter your account number or user ID, and the gateway URL to the carrier's system into your store configuration in the Admin.
+
+Magento includes configuration options for the following carriers by default. The [Magento Marketplace]({% link magento/magento-marketplace.md %}) provides extensions that you can install to integrate additional shipping services for your store.
 
 ## UPS
 
@@ -30,4 +40,4 @@ Offers [domestic and international]({% link shipping/fedex.md %}) shipping servi
 
 ## DHL
 
-Offers [integrated international services and tailored]({% link shipping/dhl.md %}), customer-focused solutions for managing and transporting letters, goods and information.
+Offers [integrated international services and tailored]({% link shipping/dhl.md %}), customer-focused solutions for managing and transporting letters, goods, and information.
