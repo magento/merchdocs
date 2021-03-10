@@ -11,6 +11,9 @@ Your content should reflect the branding of your store, and be delivered with yo
 ![The Content menu displayed in the Magento Admin]({% link images/images-ee/admin-menu-content-ee.png %}){: .zoom}
 _Content menu_
 
+{:.bs-callout-info}
+When the new [Media Gallery]({% link cms/media-gallery.md %}) is enabled, the _Media_ section appears with a single option to access the Media Gallery. You can set the **Enable Old Media Gallery** option to `No` by going to **Stores** > _Settings_ > **Configuration** and choosing **Advanced** > **System** in the left panel.
+
 ## Display the Content menu
 
 On the _Admin_ sidebar, choose **Content**.

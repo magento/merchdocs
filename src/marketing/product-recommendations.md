@@ -19,19 +19,40 @@ This dashboard displays a table of previously configured recommendations (if any
 
 ## Available recommendation types {#availablerectypes}
 
-Magento provides the following types of recommendations:
+See [Recommendation Types]({% link marketing/prex-types.md %}) to learn about the available recommendation types in Magento.
 
-- **Most viewed** - Recommends items most viewed by shoppers within the last seven days
-- **Most purchased** - Recommends items most purchased by shoppers within the last seven days
-- **Most added to cart** - Recommends items most frequently added to carts by shoppers within the last seven days
-- **Recommended for you** - Recommends items based on each shopper's current and previous on site behavior
-- **Viewed this, viewed that** - Recommends items most often viewed by shoppers who viewed the specified item
-- **Viewed this, bought that** - Recommends items most often purchased by shoppers who viewed the specified item
-- **Bought this, bought that** - Recommends items most often purchased by shoppers who purchased the specified item
-- **More like this** - Recommends items based on similar content and attributes
-- **Trending** - Recommends items based on recent momentum of product’s popularity
+## Time and training for machine learning models {#trainmlmodels}
 
-## Backup recommendations {#backup-recommendations}
+Some recommendation types use behavioral data from your shoppers to train machine learning models that build personalized recommendations. Other recommendation types use catalog data only and do not use any behavioral data. If you want to start quickly, you can use the following, catalog-only recommendation types:
+
+- More like this
+- Visual similarity
+
+So when can you start using recommendation types that use behavioral data? It depends. This is referred to as the _Cold Start_ problem.
+
+The _Cold Start_ problem is a measure of how much time a model needs to train before it can be considered high quality. In product recommendations, it translates to waiting for Adobe Sensei to train its machine learning models before deploying recommendation units on your site. The more data these models have, the more accurate and useful the recommendations will be. Collecting this data takes time and will vary based on traffic volume. Because this data can be collected only on a production site, it is in your best interest to deploy data collection there as early as possible. You can do this by [installing and configuring](https://devdocs.magento.com/recommendations/install-configure.html) the `magento/production-recommendations` module.
+
+The following table provides some general guidance for the amount of time it takes to collect enough data for each recommendation type:
+
+| Recommendation type | Time needed to train | Notes |
+|---|---|---|
+|Popularity-based (Most viewed, Most purchased, Most added to cart) | Varies | Depends on volume of events - views are most common, and therefore will train quicker; then adds to cart, then purchases|
+|Viewed this, viewed that | Requires more training |Product views are decently high in volume|
+|Viewed this, bought that; Bought this, bought that| Requires the most training |Purchase events are the most rare events on commerce site, especially compared to product views|
+|Trending | Requires three days of data to establish a popularity baseline| Trending is a measure of recent momentum in a product's popularity compared with its own popularity baseline. A product's trending score is computed using a foreground set (recent popularity over 24 hours) and a background set (popularity baseline over 72 hours). If an item has become much more popular within the last 24 hours as compared with its baseline popularity, then it will receive a high trending score. Every product has this score, and the highest ones at any time comprise the set of top trending products. |
+
+Other variables that can impact the time needed to train:
+
+- Higher traffic volume contributes to faster learning
+- Some recommendation types train faster than others
+- Magento recomputes behavioral data every four hours. While you can technically deploy your recommendation units at that time, know that the recommendations will become more accurate the longer they are used on your site.
+
+While data is collected on production and machine learning models are trained, you can implement the [remaining tasks necessary](https://devdocs.magento.com/recommendations/implementation.html) to deploy recommendations to your storefront. By the time you have finished testing and configuring recommendations, the machine learning models will have collected and computed enough data to build relevant recommendations thus allowing you to deploy the recommendations to your storefront.
+
+{:.bs-callout-info}
+Until there is enough training data collected, Magento uses [backup recommendations](#backup-recommendations) to populate your recommendation units.
+
+### Backup recommendations {#backup-recommendations}
 
 If there is not sufficient input data to provide all requested recommendation items in a unit, Magento provides backup recommendations to fill those items.
 
@@ -48,26 +69,6 @@ The following recommendation types will fallback to **Most viewed** if there is 
 - **Bought this, bought that**
 
 - **Trending**
-
-## Filter recommendations {#filter-recommendations}
-
-Magento defines default filters for the **Most popular**, **Trending**, and **Recommended for you** recommendation types. By filtering recommendations, Magento provides more relevant results. For example, if you deploy the **Most popular** recommendation type to a product detail page, you would not want products from the entire catalog to be displayed, but rather a smaller subset of products relevant to the product being viewed.
-
-Magento filters recommendations based on direct category assignments and their subcategories. For example, if the category of the product is `Gear`, the recommendation unit displays products that have categories under `Gear`, such as `Gear/Bags` or `Gear/Fitness Equipment`.
-
-The following table describes how the **Most popular**, **Trending**, and **Recommended for you** recommendation types are filtered based on the page.
-
-|Page|Filtered By|
-|---|---|
-|Home|No filter|
-|Category|Products under that category|
-|Product Detail|Products under that product's category(-ies)|
-|Cart|Categories of the products in the shopper's cart|
-|Order Confirmation|Categories for products the shopper just purchased|
-
-### Filter based on stock status
-
-Product Recommendations use the **Display Out-of-Stock Products** value configured in the Magento Admin to determine if a particular product should be displayed in a recommendation unit. If the **Display Out-of-Stock Products** option is set to `Yes`, products that are out-of-stock are eligible to be displayed in the recommendation unit. If **Display Out-of-Stock Products** option is set to `No`, out-of-stock products will not be displayed in recommendation units. You can configure the **Display Out-of-Stock Products** value in the [stock options]({% link configuration/catalog/inventory.md %}) section of the Catalog configuration.
 
 ## Product recommendations placement {#productrecplacement}
 
@@ -87,18 +88,6 @@ The following table lists the storefront pages, where you can place the recommen
 |---|---|---|
 |**Home page**|At the top of main content<br>At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you<br>Trending|
 |**Category**|At the top of main content<br>At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you<br>Trending|
-|**Product Detail**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
+|**Product Detail**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending<br>Visual similarity|
 |**Cart**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
 |**Confirmation**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
-
-## Global category exclusions {#globalexclusions}
-
-You can specify categories that you never want to be included in your recommendations.
-
-1. Click **Settings** (gear icon) to display the **Global Category Exclusions** page.
-
-1. For **Available categories**, enter a category you want to exclude.
-
-   You can select up to 50 categories.
-
-1. Click <span class="btn">Save changes</span> when you are finished selecting the categories you want to exclude.

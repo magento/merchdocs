@@ -61,6 +61,18 @@ Showing prices that include and exclude tax can be confusing to the customer. To
    - `Including Tax`
    - `Including and Excluding Tax`
 
+1. {:.ee-only}For **Display Gift Wrapping Prices**, choose one of the following:
+
+   - `Excluding Tax`
+   - `Including Tax`
+   - `Including and Excluding Tax`
+
+1. {:.ee-only}For **Display Printed Card Prices**, choose one of the following:
+
+   - `Excluding Tax`
+   - `Including Tax`
+   - `Including and Excluding Tax`
+
 1. For each of these remaining options, toggle to `Yes` or `No` according to your preference:
 
    - **Include Tax in Order Total**
@@ -87,6 +99,18 @@ Showing prices that include and exclude tax can be confusing to the customer. To
    - `Including and Excluding Tax`
 
 1. For **Display Shipping Amount**, choose one of the following:
+
+   - `Excluding Tax`
+   - `Including Tax`
+   - `Including and Excluding Tax`
+
+1. {:.ee-only}For **Display Gift Wrapping Prices**, choose one of the following:
+
+   - `Excluding Tax`
+   - `Including Tax`
+   - `Including and Excluding Tax`
+
+1. {:.ee-only}For **Display Printed Card Prices**, choose one of the following:
 
    - `Excluding Tax`
    - `Including Tax`

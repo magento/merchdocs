@@ -229,7 +229,7 @@ The following sections describe a series of steps to start with an individual bu
 
 You can modify the _Advanced_ settings for individual buttons and for the button container.
 
-1. Choose the the **Alignment** to control the positioning within the parent container:
+1. Choose the **Alignment** to control the positioning within the parent container:
 
    |Default|Applies the alignment default setting that is specified in the style sheet of the current theme.
    |Left|Aligns the content along the left border of the parent container, with allowance for any padding that is specified.
