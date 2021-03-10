@@ -21,33 +21,33 @@ _Live Search synonyms_
 
 ### Two-way synonyms
 
-The Two-way synonym option is selected by default.
+1. Accept the default **Two-way** option.
 
-![Add two-way synonym]({% link live-search/assets/synonym-add-two-way.png %}){: .zoom}
-_Add two-way synonym_
+    ![Add two-way synonym]({% link live-search/assets/synonym-add-two-way.png %}){: .zoom}
+    _Add two-way synonym_
 
 1. Enter the **Keyword** term or phrase to be matched.
 
 1. Enter the **Expansion** term(s) that you want to add as synonyms for the keyword. Separate multiple terms with a comma.
 
-   In this example, the keyword to match is “pants” and the set of expansion terms are “long pants, trousers, slacks”.
+    In this example, the keyword to match is “pants” and the set of expansion terms are “long pants, trousers, slacks”.
 
-   ![Two-way synonym example]({% link live-search/assets/synonym-add-two-way-example.png %}){: .zoom}
-   _Two-way synonym example_
+    ![Two-way synonym example]({% link live-search/assets/synonym-add-two-way-example.png %}){: .zoom}
+    _Two-way synonym example_
 
 1. When complete, click <span class="btn">Save</span>.
 
-   The set of synonyms appears in the list with a two-way arrow between each term to indicate that the terms are interchangeable.
+    The set of synonyms appears in the list with a two-way arrow between each term to indicate that the terms are interchangeable.
 
-   ![Two-way synonym]({% link live-search/assets/synonym-two-way.png %}){: .zoom}
+    ![Two-way synonym]({% link live-search/assets/synonym-two-way.png %}){: .zoom}
    _Two-way synonym_
 
 ### One-way synonyms
 
 1. Click the **One-way** synonym type.
 
-  ![Add one-way synonym]({% link live-search/assets/synonym-add-one-way.png %}){: .zoom}
-  _Add one-way synonym_
+    ![Add one-way synonym]({% link live-search/assets/synonym-add-one-way.png %}){: .zoom}
+    _Add one-way synonym_
 
 1. Enter the **Keyword** and **Expansion** term(s). Separate multiple terms with a comma.
 
@@ -65,9 +65,9 @@ _Add two-way synonym_
 
 ## Step 3: Publish changes
 
-1. When the synonyms are complete, click <span class="btn">Publish changes</span>.
+When the synonyms are complete, click <span class="btn">Publish changes</span>.
 
-1. Wait about fifteen minutes for the synonyms to become avaiable in the store.
+It can take up to two hours for the synonyms to become available in the storefront.
 
   ![Publish changes]({% link live-search/assets/synonym-publish.png %}){: .zoom}
   _Publish changes_
