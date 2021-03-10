@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: Faceting
+title: Facets
 group: marketing
 ---
 
