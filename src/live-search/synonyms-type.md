@@ -24,6 +24,8 @@ pants ![One-way selector]({% link live-search/assets/btn-one-way.png %}) capris 
 
 ## Best practices
 
+Keep in mind the following best practices to get the most from Live Search synonyms.
+
 - Periodically review the [search terms](https://docs.magento.com/user-guide/marketing/search-terms.html) people use and add them to your Live Search synonym list.
 
 - Be consistent with the way terminology is used in your catalog. Keep in mind that there might be regional differences in usage, and sometimes within an industry.
