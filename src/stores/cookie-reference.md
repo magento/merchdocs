@@ -285,5 +285,17 @@ JavaScript Library: `ga.js`
 - `_utmz`: Saves the traffic source or campaign that explains how the shopper reached your site. The cookie is created when the JavaScript library executes, and is updated every time data is sent to Google Analytics.
 - `__utmv`: Stores visitor-level custom variable data. This cookie is created when a developer uses the `_setCustomVar` method with a visitor-level custom variable. This cookie is updated every time data is sent to Google Analytics.
 
+{:.ee-only}
+## Product Recommendations cookies
+
+The following cookies are used by Product Recommendations for Magento Commerce customers. These cookies are installed with the [DataServices module](https://devdocs.magento.com/recommendations/install-configure.html).
+
+- `mg_dnt`: Allows you to [restrict Magento data collection](https://devdocs.magento.com/recommendations/setting-cookie.html) if you have custom code to manage cookie consent on your site.
+- `user_allowed_save_cookie`: Used for Magento's [cookie restriction mode]({% link stores/compliance-cookie-restriction-mode.md %}).
+- `authentication_flag`: Indicates if a shopper has signed in or signed out. This cookie is updated at the same time as the `dataservices_customer_id` cookie.
+- `dataservices_customer_id`: Indicates if a shopper has signed in or signed out. This cookie does not contain the customer ID.
+- `dataservices_cart_id`: Identifies a shopper's cart actions.
+- `dataservices_product_context`: Identifies a shopper's product interactions.
+
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212
