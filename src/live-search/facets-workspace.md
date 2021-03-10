@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: Facets Workspace
+title: Faceting Workspace
 group: marketing
 ---
 
