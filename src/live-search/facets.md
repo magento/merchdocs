@@ -11,7 +11,7 @@ _Filtered search results_
 
 ## Dynamic filterable search
 
-If a shopper uses the search box at the top of the page, the Filters list appears in the left sidebar instead of the standard layered navigation with the search results to the right. An additional search box with the current search criteria appears in the header of the results list. A shopper can initially use the search box at the top of the page to find a product and then filter the list further.
+If a shopper uses the search box at the top of the page, the Filters list appears in the left sidebar instead of the standard layered navigation, with the search results to the right. An additional search box with the current search criteria appears in the header of the results list. A shopper can initially use the search box at the top of the page to find a product and then filter the list further.
 
 If a shopper browses by category, the standard layered navigation appears in the left sidebar with the search results to the right. The products in the search results are _significant matches_ because they are based on choices the shopper made while browsing.
 
