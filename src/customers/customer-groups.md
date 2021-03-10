@@ -36,7 +36,7 @@ _Customer Groups_
 
 1. Select the **Excluded Website(s)** that you want to [exclude from the group](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/indexer-optimization.html#customer-group-limitations-by-websites).
 
-No websites are excluded by default. To select multiple values, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
+   No websites are excluded by default. To select multiple values, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
    ![]({% link images/images/stores-customer-group-information.png %}){: .zoom}
    _Group Information_
