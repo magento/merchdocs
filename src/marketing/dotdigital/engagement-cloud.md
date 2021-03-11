@@ -20,7 +20,7 @@ redirect_from:
 
    - Transactional SMS notifications: a new module that automates SMS notifications on new order confirmation, order update, new shipment, shipment update and new credit memo.
 
-   - Flexible image sizes: a new feature that enables merchants to choose which image size they prefer to use for different contexts in dotdigital Engagement Cloud. 
+   - Flexible image sizes: a new feature that enables merchants to choose which image size they prefer to use for different contexts in dotdigital Engagement Cloud.
 
    - PageBuilder support: dotdigital pages and forms can be embedded in any storefront page.
 
