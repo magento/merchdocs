@@ -14,7 +14,8 @@ Inclusion and exclusion filters replace the legacy category exclusions in versio
 
 Magento automatically applies non-configurable default filters to recommendation units.
 
-If you have multiple recommendation units deployed to a product detail page, Magento filters out duplicated products. For example, if a product is returned in the third position for the second recommendation unit, but it is already displayed in the first recommendation unit on the page, Magento does not display that product in the second recommendation unit. On the cart page, Magento filters out products that you have previously purchased and products currently in your cart.
+If you have multiple recommendation units deployed to a page, Magento filters out products that would be repeated among these units. The first recommendation unit on a page is not affected by product deduplication. For every other recommendation unit, products already shown in previous units are filtered out. That way you do not waste your merchandising space on items already displayed to the shopper. 
+Additionally, Magento filters out previously purchased products and those currently in the cart.
 ## Types of filters
 
 Magento provides the following inclusion and exclusion filters you can use to control which products can be displayed in recommendations.
