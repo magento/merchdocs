@@ -2,6 +2,9 @@
 title: Using a Database
 ---
 
+{:.bs-callout-warning}
+The database media storage method is deprecated as of Magento 2.4.3.
+
 By default, all images, compiled CSS files, and compiled JavaScript files of the Magento instance are stored in the file system on the web server. You can choose to store these files in a database on a database server. One advantage of this approach is the option of automatic synchronization and reverse synchronization between the web server file system and the database. You can use the default database to store media or create a new one. To be able to use a newly created database as media storage, you must add information about it and its access credentials to the `env.php` file.
 
 ## Database workflow
@@ -27,7 +30,7 @@ By default, all images, compiled CSS files, and compiled JavaScript files of the
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Storage Configuration for Media** section and do the following:
 
-    ![Advanced configuration - storage configuration for media]({% link images/images/config-advanced-system-storage-configuration-for-media-database.png %}){: .zoom}
+    ![Advanced configuration - storage configuration for media]({% link images/images/config-advanced-database-storage-deprecated.png %}){: .zoom}
     [_Storage Configuration for Media (Database)_]({% link configuration/advanced/system.md %})
 
     - Set **Media Storage** to `Database`.
