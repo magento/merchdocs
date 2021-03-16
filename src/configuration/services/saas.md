@@ -24,4 +24,4 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Serv
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |SaaS Project|Global|Name of the SaaS project that groups all of your SaaS environments.|
-|SaaS Environment|Global|List of the environment names in the specified SaaS Project.|
+|SaaS Environment|Global|Lists the environment names in the specified SaaS Project.|
