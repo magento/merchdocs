@@ -50,3 +50,10 @@ First, check that In-store Delivery is enabled.
     The default message is `In-Store Delivery is not available. To use this delivery method, please contact us.`
 
 1. Click <span class="btn">Save Config</span>.
+
+## The current behavior is next:
+
+- If the customer has a shipping address, the country is taken from the shipping address
+- If the customer doesn't have a shipping address the country is taken from Stores > Configuration > Sales > Tax > Default Tax Destination Calculation settings. These settings are per store view level, so the merchant needs to configure Store View per country to make it work properly
+
+Also, be aware that the actual search by postcode/city is made by addresses imported from Geonames.org  - inventory_geoname table. And if search results are in an accessible radius from the coordinates of the "Source" only then customer see the "Source" on a page. So make sure that you are using  postcode/city that exists in  inventory_geoname table and geo-coordinates of your "Source" are in the search radius from the address from inventory_geoname table.
