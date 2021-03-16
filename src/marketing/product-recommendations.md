@@ -21,7 +21,38 @@ This dashboard displays a table of previously configured recommendations (if any
 
 See [Recommendation Types]({% link marketing/prex-types.md %}) to learn about the available recommendation types in Magento.
 
-## Backup recommendations {#backup-recommendations}
+## Time and training for machine learning models {#trainmlmodels}
+
+Some recommendation types use behavioral data from your shoppers to train machine learning models that build personalized recommendations. Other recommendation types use catalog data only and do not use any behavioral data. If you want to start quickly, you can use the following, catalog-only recommendation types:
+
+- More like this
+- Visual similarity
+
+So when can you start using recommendation types that use behavioral data? It depends. This is referred to as the _Cold Start_ problem.
+
+The _Cold Start_ problem is a measure of how much time a model needs to train before it can be considered high quality. In product recommendations, it translates to waiting for Adobe Sensei to train its machine learning models before deploying recommendation units on your site. The more data these models have, the more accurate and useful the recommendations will be. Collecting this data takes time and will vary based on traffic volume. Because this data can be collected only on a production site, it is in your best interest to deploy data collection there as early as possible. You can do this by [installing and configuring](https://devdocs.magento.com/recommendations/install-configure.html) the `magento/production-recommendations` module.
+
+The following table provides some general guidance for the amount of time it takes to collect enough data for each recommendation type:
+
+| Recommendation type | Time needed to train | Notes |
+|---|---|---|
+|Popularity-based (Most viewed, Most purchased, Most added to cart) | Varies | Depends on volume of events - views are most common, and therefore will train quicker; then adds to cart, then purchases|
+|Viewed this, viewed that | Requires more training |Product views are decently high in volume|
+|Viewed this, bought that; Bought this, bought that| Requires the most training |Purchase events are the most rare events on commerce site, especially compared to product views|
+|Trending | Requires three days of data to establish a popularity baseline| Trending is a measure of recent momentum in a product's popularity compared with its own popularity baseline. A product's trending score is computed using a foreground set (recent popularity over 24 hours) and a background set (popularity baseline over 72 hours). If an item has become much more popular within the last 24 hours as compared with its baseline popularity, then it will receive a high trending score. Every product has this score, and the highest ones at any time comprise the set of top trending products. |
+
+Other variables that can impact the time needed to train:
+
+- Higher traffic volume contributes to faster learning
+- Some recommendation types train faster than others
+- Magento recomputes behavioral data every four hours. While you can technically deploy your recommendation units at that time, know that the recommendations will become more accurate the longer they are used on your site.
+
+While data is collected on production and machine learning models are trained, you can implement the [remaining tasks necessary](https://devdocs.magento.com/recommendations/implementation.html) to deploy recommendations to your storefront. By the time you have finished testing and configuring recommendations, the machine learning models will have collected and computed enough data to build relevant recommendations thus allowing you to deploy the recommendations to your storefront.
+
+{:.bs-callout-info}
+Until there is enough training data collected, Magento uses [backup recommendations](#backup-recommendations) to populate your recommendation units.
+
+### Backup recommendations {#backup-recommendations}
 
 If there is not sufficient input data to provide all requested recommendation items in a unit, Magento provides backup recommendations to fill those items.
 

@@ -44,6 +44,8 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Use [Flat Catalog]({% link catalog/catalog-flat.md %}) Category|Global|Enables the flat category structure. (not recommended) Options: Yes / No|
 |Use Flat Catalog Product|Global|Enables the flat product structure. (not recommended) Options: Yes / No|
 |Swatches per Product|Store View|Determines the number of swatches available for each product. Default: `16`|
+|Show Swatches in Product List|Store View|Determines if the swatches appear in the Product List. Options: Yes / No|
+|Show Swatch Tooltip|Store View|Determines if the swatch tooltip appears. Options: Yes / No|
 
 ## Product Alerts
 
