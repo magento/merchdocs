@@ -12,7 +12,9 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Serv
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Production Api Key|Global|API key that identifies your production environment.|
+|Production Private Key|Global|API key that identifies your private production environment.|
 |Sandbox Api Key|Global|API key that identifies your testing environment.|
+|Sandbox Private Key|Global|API key that identifies your private testing environment.|
 
 ## SaaS Environments
 
@@ -22,4 +24,4 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Serv
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |SaaS Project|Global|Name of the SaaS project that groups all of your SaaS environments.|
-|SaaS Environment|Global|Lists of environment names in the specified SaaS Project.|
+|SaaS Environment|Global|List of the environment names in the specified SaaS Project.|

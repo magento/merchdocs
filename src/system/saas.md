@@ -2,24 +2,28 @@
 title: Magento Services
 ---
 
-Some Magento features are deployed as SaaS services. To use these services, you must connect your Magento instance to these services using an API key and specifying the SaaS environment in the Magento configuration.
+Some Magento features are deployed as SaaS services. To use these services, you must connect your Magento instance to these services using an API key and a private key and specifying the SaaS environment in the [Magento configuration]({% link configuration/services/saas.md %}).
 
-## Magento API key {#apikey}
+## Magento API key and private key {#apikey}
 
-When you create a Magento account, identified by a MageID, you can generate a Magento API key. To use Magento Commerce SaaS services, such as Product Recommendations, the license-holder must generate the API key in order to pass entitlement validation. This API key can then be passed to the systems integrator or development team that manages the SaaS projects and environments on behalf of the license-holder. If you are a solution integrator, the signer of the Magento partner contract should generate the API key.
+When you create a Magento account, identified by a MageID, you can generate a Magento API key and private key. To use Magento Commerce SaaS services, such as Product Recommendations, the license-holder must generate these keys in order to pass entitlement validation. These keys can then be passed to the systems integrator or development team that manages the SaaS projects and environments on behalf of the license-holder. If you are a solution integrator, the signer of the Magento partner contract should generate the keys.
 
-### Generate an API key {#genapikey}
+### Generate an API key and private key {#genapikey}
 
 1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/){:target="_blank"}.
 
 1. Under the **Magento** tab, select **API Portal** on the sidebar.
 
-1. Generate and copy the API key for **Production**.
+1. Enter a name in the **API Keys** section and click **Add New**.
 
-   ![]({% link images/images/get-api-key.png %}){: .zoom}
-   _Get API Key_
+   The following dialog appears:
 
-1. With the API key, you can now [create a SaaS Environment](#createsaasenv).
+   ![]({% link images/images/download-api-private-key.png %}){: .zoom}
+   _Download private key_
+
+   This is the only opportunity you will have to copy or download your private key.
+
+1. Click **Download** then click **Cancel**. The **API Keys** section now displays your API key. You will need both the API key and private key when you [create a SaaS Environment](#createsaasenv).
 
 ## SaaS projects and environments {#saasenv}
 
@@ -49,7 +53,7 @@ To create a SaaS Environment, request the Magento API key from the Magento licen
 
 1. In the left panel, expand **Services** and choose **Magento Services**.
 
-1. In the **API Keys** section, paste your key value into the **Production Api Key** field regardless of whether you are in a production environment or non-production environment.
+1. In the **API Keys** section, paste your key values into the **Production Api Key** field and the **Production Private Key** field regardless of whether you are in a production environment or non-production environment.
 
 1. Click **Save Config**.
 
