@@ -50,3 +50,11 @@ First, check that In-store Delivery is enabled.
     The default message is `In-Store Delivery is not available. To use this delivery method, please contact us.`
 
 1. Click <span class="btn">Save Config</span>.
+
+<div class="bs-callout-warning" markdown="1">
+**In the storefront, search results are filtered by country to show relevant results**
+
+- If the customer has a shipping address, the country is taken from the shipping address
+- If the customer doesn't have a shipping address the country is taken from Stores > Configuration > Sales > Tax > Default Tax Destination Calculation settings. These settings are per store view level, so you need to configure Store View per country to make it work properly
+
+</div>
