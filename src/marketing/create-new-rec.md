@@ -73,14 +73,14 @@ Use the **Recommended products preview** panel to preview what products will be 
 
 ![Recommendation preview]({% link images/images-ee/prex-preview.png %}){: .zoom}
 
+The preview panel supports [fetching recommendations from a different environment]({% link marketing/recommendation-change-source.md %}). This allows merchants who are testing in a non-production environment to experiment with rules and preview the recommendations before deploying to production.
+
 |Field|Description|
 |---|---|
 |Name|Name of the product|
 |SKU|Stock Keeping Unit of the product|
 |Price|Price of the product|
 |Result Type|**Primary** indicates that there is enough training data collected to display a recommendation. **Backup** indicates there is not enough training data collected so a backup recommendation is used to fill the slot. See [Training time for machine learning models]({% link marketing/product-recommendations.md %}#trainmlmodels) to learn more about machine learning models and backup recommendations|
-
-The preview panel supports [fetching recommendations from a different environment]({% link marketing/recommendation-change-source.md %}).
 
 As you create your recommendation unit, experiment with the page type, recommendation type, and filters to get immediate real-time feedback about the products that will be included. As you begin to understand what products will be displayed, you can configure the recommendation unit to best meet your business needs.
 
