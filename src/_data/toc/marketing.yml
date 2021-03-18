@@ -533,7 +533,7 @@ pages:
   - label: Facets
     url: "/live-search/facets.html"
     children:
-    - label: Facet Types
+    - label: Types of Facets
       url: "/live-search/facets-type.html"
     - label: Faceting Workspace
       url: "/live-search/facets-workspace.html"
@@ -555,8 +555,8 @@ pages:
     children:
     - label: Rules Workspace
       url: "/live-search/rules-workspace.html"
-    - label: Types of Rules
-      url: "/live-search/rules-type.html"
+    - label: Rule Components
+      url: "/live-search/rule-components.html"
     - label: Add Rule
       url: "/live-search/rules-add.html"
     - label: Manage Rules
