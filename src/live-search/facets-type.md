@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: Facet Types
+title: Types of Facets
 group: marketing
 ---
 
