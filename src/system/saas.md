@@ -2,7 +2,7 @@
 title: Magento Services
 ---
 
-Some Magento features are deployed as SaaS services. To use these services, you must connect your Magento instance to these services using an API key and a private key and specifying the SaaS environment in the [Magento configuration]({% link configuration/services/saas.md %}).
+Some Magento features are deployed as SaaS services. To use these services, you must connect your Magento instance to these services using an API key and a private key, and specifying the SaaS environment in the [Magento configuration]({% link configuration/services/saas.md %}).
 
 ## Magento API key and private key {#apikey}
 
@@ -16,14 +16,17 @@ When you create a Magento account, identified by a MageID, you can generate a M
 
 1. Enter a name in the **API Keys** section and click **Add New**.
 
-   The following dialog appears:
+   This opens a dialog for downloading the new private key.
 
    ![]({% link images/images/download-api-private-key.png %}){: .zoom}
    _Download private key_
 
+   {:.bs-callout-warning}
    This is the only opportunity you will have to copy or download your private key.
 
-1. Click **Download** then click **Cancel**. The **API Keys** section now displays your API key. You will need both the API key and private key when you [create a SaaS Environment](#createsaasenv).
+1. Click **Download** then click **Cancel**.
+
+   The **API Keys** section now displays your API key. You will need both the API key and private key when you [create a SaaS Environment](#createsaasenv).
 
 ## SaaS projects and environments {#saasenv}
 
@@ -53,7 +56,7 @@ To create a SaaS Environment, request the Magento API key from the Magento licen
 
 1. In the left panel, expand **Services** and choose **Magento Services**.
 
-1. In the **API Keys** section, paste your key values into the **Production Api Key** field and the **Production Private Key** field regardless of whether you are in a production environment or non-production environment.
+1. In the _API Keys_ section, paste your key values for the **Production Api Key** and the **Production Private Key**, regardless of whether you are in a production environment or non-production environment.
 
 1. Click **Save Config**.
 
