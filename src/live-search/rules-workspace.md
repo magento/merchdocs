@@ -17,19 +17,45 @@ If your Magento installation includes multiple stores or store views, set **Scop
 
 1. In the upper-right corner, click **Show/hide** ( ![Show/hide columns button]{% link live-search/assets/btn-show-hide-columns.png %})) columns.
 
-   In the options menu, the columns with a blue checkmark are visible. The rule name is the only column that cannot be hidden.
+   The visible columns have a blue check mark in the options menu. The rule name is the only column that cannot be hidden.
 
    ![Rules workspace]({% link live-search/assets/rules-workspace-show-hide-columns.png %}){: .zoom}
    _Show/hide columns_
 
 1. In the menu, do either of the following:
 
-  - To show a hidden column, click any column name without a checkmark.
+  - To show a hidden column, click any column name without a check mark.
 
-  - To hide a visible column, click any column name with a checkmark.
+  - To hide a visible column, click any column name with a check mark.
 
   ![Rules workspace]({% link live-search/assets/rules-workspace-all-columns.png %}){: .zoom}
   _Rules workspace with all columns visible_
+
+## Filter rules by status
+
+If your store has many rules, you can filter the rules by status to shorten the list. By default, the Rules list displays all rules.
+
+  ![Rules 0 filter by status]({% link live-search/assets/rules-workspace-filter-status.png %}){: .zoom}
+  _Filter rules by status_
+
+To list only rules with a specific status setting, set **Status** to one of the following:
+
+- All
+- Active
+- Inactive
+- Scheduled
+
+  ![Rules - filter by status]({% link live-search/assets/rules-workspace-filter-status-active.png %}){: .zoom}
+  _Rules filtered by "Active" status_
+
+## Search rules by name
+
+Begin typing the name of the rule, or any word in the rule name. 
+
+Search finds the matching rule(s) as you type. The string of matching characters are highlighted in the name of each rule found.
+
+  ![Rules - search by name]({% link live-search/assets/rules-workspace-search-name.png %}){: .zoom}
+  _Search by name_
 
 ## Column Descriptions
 
