@@ -58,4 +58,5 @@ First, check that In-store Delivery is enabled.
 
 - If the customer has a shipping address, the country is taken from the shipping address.
 - If the customer does not have a shipping address, the country is taken from the [Default Tax Destination Calculation]({% link configuration/sales/tax.md %}#default-tax-destination-calculation) settings. These settings are set per store view, so you need to configure the Store View country to make it work properly.
+
 </div>
