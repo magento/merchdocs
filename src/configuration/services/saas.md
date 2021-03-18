@@ -12,9 +12,9 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Serv
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Production Api Key|Global|API key that identifies your production environment.|
-|Production Private Key|Global|A private key associated with the API key and is required for Adobe I/O Authentication.|
+|Production Private Key|Global|A private key associated with the API key.|
 |Sandbox Api Key|Global|API key that identifies your testing environment.|
-|Sandbox Private Key|Global|A private key associated with the API key and is required for Adobe I/O Authentication.|
+|Sandbox Private Key|Global|A private key associated with the API key.|
 
 ## SaaS Environments
 
