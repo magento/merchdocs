@@ -8,7 +8,7 @@ updated: Mon Mar 15 14:25:55 2021
 entries:
 - description: Updated the Sales Channels [Global Settings](https://docs.magento.com/user-guide/configuration/sales-channels.html)
     topic to include the _Read Only Mode_ function.
-  versions: ''
+  versions: 2.4.x
   type: Minor update
   date: March 11, 2021
   link: https://github.com/magento/merchdocs/pull/1086
