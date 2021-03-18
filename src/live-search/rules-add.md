@@ -4,43 +4,66 @@ title: Add Rules
 group: marketing
 ---
 
-A simple rule can have a single conditions with any number of associated events. A more complex rule might have multiple conditions guided by logic that triggers one or more events.
-
-To build a rule, the first step is to define the condition(s) that trigger the rule and the event(s) that take place when the rule is triggered. Then, complete the rule details, test the results, and publish the rule.
+To build a rule, the first step is to define the condition(s) in the shopper's query text that trigger the associated event(s). Then, complete the rule details, test the results, and publish the rule.
 
 ## Step 1: Add a rule
 
-1.	In the Admin, go to **Marketing** > SEO & Search > **Live Search**.
+1. In the Admin, go to **Marketing** > SEO & Search > **Live Search**.
 
-1.	Set the **Scope** to identify the [store view]({% link configuration/scope.md %}) where the rule applies.
+1. Set the **Scope** to identify the [store view]({% link configuration/scope.md %}) where the rule applies.
 
-1.	Click the **Rules** tab.
+1. Click the **Rules** tab.
 
-1.	Click <span class="btn">Add rule</span>.
+1. Click <span class="btn">Add rule</span>.
 
   ![Rules workspace]({% link live-search/assets/rules-workspace.png %}){: .zoom}
   _Add rule_
 
-## Step 2: Describe the condition
+## Step 2: Describe the condition(s)
 
-1.	Under _Build your rule_, select a condition and follow the onscreen instructions to complete the statement.
+Condition(s) are the search query requirements that must be met to trigger an event. A rule can have up to ten conditions.
+
+1. Under _Build your rule_, select the **Condition** to be met and follow the instructions to complete the statement.
 
     |--- |--- |
-    |Search query is |A character or string of text that exactly matches the shopper’s query. Complex queries with multiple conditions cannot be composed when this condition is used. |
-    |Search query contains |A character or string of text that is included in the shopper’s query. The shopper’s query must match only a single character to meet this condition. |
-    |Search query starts with |The shopper’s query begins with this character or string of text. |
-    |Search query ends with |The shopper’s query ends with this character or string of text. |
+    |Search query contains |Enter a character or string of text that is required to be in the shopper’s query. The Match setting determines the degree to which the shopper’s query matches what is found in the catalog. Match options: Any - Any part of the customer's query text must match to meet this condition.<br />All - All of the shopper's query must match to meet the condition.|
+    |Search query is |Enter a string of text that exactly matches the shopper’s query. For example: yoga pants. Rules with "Search query is" and Match "All" can have only one condition.|
+    |Search query starts with |Enter a character or string of text that must be at the beginning of the shopper’s query.|
+    |Search query ends with |Enter a character or string of text that must be at the end of the shopper’s query. |
 
-    {:.bs-callout-info}
-    A query string can include alphanumeric characters and capitalization is ignored.
+1. Set **Match** to the option
 
-    _Rule conditions_
+    |--- |--- |
+    |Any |(Default) Enter a string of character(s) that must be found in the shopper's query to meet the condition. |
+    |All |Enter the full text of the shopper's query to meet the condition. |
+
+    ![Rules - Match]({% link live-search/assets/rules-match.png %}){: .zoom}
+    _Start building your rule_
+
+1. To build a simple rule with only one condition, go to Step 3: Add the triggered event(s).
+
+    ![Rules - Search query is]({% link live-search/assets/rules-search-query-is-match-all.png %}){: .zoom}
+    _Search query is with Match All_
+
+### Multiple conditions
+
+1. To build a rule with multiple conditions, click <span class="btn">Add condition</span>.
+
+   ![Rules - Search query contains]({% link live-search/assets/rules-search-query-contains.png %}){: .zoom}
+    _Search query contains with Match All_
+
+1. Select the second condition and complete the query text.
+
+  The same Match setting applies to both conditions. If you change the Match setting, it applies to all conditions that you specify.
 
  1. Choose the logical operator that returns the results you want when the two conditions are compared. The condition is either "this `AND` this" or "this `OR` this".
 
    |--- |--- |
    |OR|(Default) The logical operator `OR` compares two conditions and meets the requirements to trigger an event if at least one condition is true. |
    |AND |The logical operator `AND` compares two conditions and meets the requirements to trigger an event if both conditions are true. |
+
+   ![Rule conditions]({% link live-search/assets/rule-conditions.png %}){: .zoom}
+   _Rule conditions_
 
 1. To change the logic of the rule, set **Match** to one of the following:
 
@@ -55,7 +78,9 @@ To build a rule, the first step is to define the condition(s) that trigger the r
 
    _Additional rule condition - OR_
 
-   ## Step 3: Define an event
+   ## Step 3: Add the triggered event(s)
+
+   Event(s) are the actions applied to search results when the condition(s) are met. A rule can have up to twenty events.
 
    1. Under _Events_, choose the **event** that you want to trigger when the rule conditions are met.
 
@@ -95,10 +120,16 @@ _Save and publish_
 
 |Condition |Description |
 |--- |--- |
-|Search query is |A character or string of text that exactly matches the shopper’s query. Complex queries with multiple conditions cannot be composed when this condition is used. |
 |Search query contains |A character or string of text that is included in the shopper’s query. The shopper’s query must match only a single character to meet this condition. |
+|Search query is |A character or string of text that exactly matches the shopper’s query. Complex queries with multiple conditions cannot be composed when this condition is used. |
 |Search query starts with |The shopper’s query begins with this character or string of text. |
 |Search query ends with |The shopper’s query ends with this character or string of text. |
+
+### Match operators
+|Operator |Description |
+|--- |--- |
+|Any |(Default) Any part of the shopper's query text can match to meet the condition. |
+|All |All of the shopper's query text must match to meet the condition. |
 
 ### Logical operators
 
@@ -127,7 +158,7 @@ _Save and publish_
 
 |Field |Description |
 |--- |--- |
-|Name|The name of the rule.|
+|Name|The name of the rule. |
 |Start date |The start date of the rule, if scheduled. |
 |End date|The end date of the rule, if scheduled. |
 |Description |A brief description of the rule. |
