@@ -4,6 +4,24 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what's new.
 
+## February 2021
+
+### Updated topics
+
+{: .topics-table }
+|Topic |Change|
+|--- |--- |
+|[Data Mapping]({% link configuration/dotdigital/data-mapping.md %}) (reference)<br/>[Customer Configuration]({% link configuration/customers/customer-configuration.md %}#open-source-options) (reference) |Updates to address the use of the default _Date of Birth_ customer account field/attribute.|
+
+## January 2021
+
+### Updated topics
+
+{: .topics-table }
+|Topic |Change|
+|--- |--- |
+|[Managing Subscribers]({% link marketing/newsletter-subscribers.md %})|Updates to clarify applying the newsletter unsubscribe function to multiple customer accounts.|
+
 ## September 2020
 
 ### New topic
