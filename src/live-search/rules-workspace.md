@@ -24,12 +24,12 @@ If your Magento installation includes multiple stores or store views, set **Scop
 
 1. In the menu, do either of the following:
 
-  - To show a hidden column, click any column name without a check mark.
+   - To show a hidden column, click any column name without a check mark.
 
-  - To hide a visible column, click any column name with a check mark.
+   - To hide a visible column, click any column name with a check mark.
 
-  ![Rules workspace]({% link live-search/assets/rules-workspace-all-columns.png %}){: .zoom}
-  _Rules workspace with all columns visible_
+   ![Rules workspace]({% link live-search/assets/rules-workspace-all-columns.png %}){: .zoom}
+   _Rules workspace with all columns visible_
 
 ## Filter rules by status
 
@@ -45,8 +45,8 @@ To list only rules with a specific status setting, set **Status** to one of the 
 - Inactive
 - Scheduled
 
-  ![Rules - filter by status]({% link live-search/assets/rules-workspace-filter-status-active.png %}){: .zoom}
-  _Rules filtered by "Active" status_
+![Rules - filter by status]({% link live-search/assets/rules-workspace-filter-status-active.png %}){: .zoom}
+_Rules filtered by "Active" status_
 
 ## Search rules by name
 
