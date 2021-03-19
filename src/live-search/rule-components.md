@@ -22,11 +22,13 @@ Query text can contain:
 
 ## Logical Operators
 
-The logical operators `AND` and `OR` join two conditions and return different results. The operator `AND` always joins the first condition to the second condition. As conditions are added, the logical operator `AND` can be used to require additional conditions, and the operator `OR` can be used to add alternate conditions -- up to a total of ten. For example, a rule with multiple conditions might state:
+The logical operators `AND` and `OR` join two conditions and return different results. All logical operators used in a rule with multiple conditions are the same. It is not possible to use both `AND` and `OR` in the same rule. 
 
-- This condition AND this condition AND this condition...
-- This condition AND this condition OR this condition OR this condition...
-- This condition AND this condition OR this condition AND this condition...
-- This condition AND this condition AND this condition OR this condition...
+### Match Operators
 
-To compose a complex rule, it can help to write it out in advance with indentation to emphasize each condition. Then build the rule in and test the result.
+The Match operators `All` and `Any` determine the logical operator that is used to join multiple conditions in the rule, and can be used to change the existing operator.
+
+- `All` - Uses the `AND` logical operator to join multiple conditions.
+- `Any` - Uses the `OR` logical operator to join multiple conditions.
+
+When composing a complex rule, it can help to write it out with indentation to describe the conditions and the associated events that are needed to return the results you want to achieve. Then, build the rule and test the result.
