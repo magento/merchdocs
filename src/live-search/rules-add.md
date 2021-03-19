@@ -16,12 +16,13 @@ To build a rule, the first step is to define the condition(s) in the shopper's q
 
 1. Click <span class="btn">Add rule</span>.
 
-  ![Rules workspace]({% link live-search/assets/rules-workspace.png %}){: .zoom}
-  _Add rule_
+   ![Rules workspace]({% link live-search/assets/rules-workspace.png %}){: .zoom}
+   _Add rule_
 
 ## Step 2: Describe the condition(s)
 
 Condition(s) are the search query requirements that must be met to trigger an event. A rule can have up to ten conditions.
+### Single condition
 
 1. Under _Build your rule_, select the **Condition** to be met and follow the instructions to complete the statement.
 
@@ -31,7 +32,7 @@ Condition(s) are the search query requirements that must be met to trigger an ev
     |Search query starts with |Enter a character or string of text that must be at the beginning of the shopper’s query.|
     |Search query ends with |Enter a character or string of text that must be at the end of the shopper’s query. |
 
-1. Set **Match** to the option
+1. Set **Match** to determine the extent to which search results must match the query.  The Match setting determines the logical operator that is used to join multiple conditions.
 
     |--- |--- |
     |Any |(Default) Enter a string of character(s) that must be found in the shopper's query to meet the condition. |
@@ -40,7 +41,7 @@ Condition(s) are the search query requirements that must be met to trigger an ev
     ![Rules - Match]({% link live-search/assets/rules-match.png %}){: .zoom}
     _Start building your rule_
 
-1. To build a simple rule with only one condition, go to Step 3: Add the triggered event(s).
+1. If building a simple rule with only one condition, go to [Step 3: Add event(s)](#events).
 
     ![Rules - Search query is]({% link live-search/assets/rules-search-query-is-match-all.png %}){: .zoom}
     _Search query is with Match All_
@@ -49,18 +50,18 @@ Condition(s) are the search query requirements that must be met to trigger an ev
 
 1. To build a rule with multiple conditions, click <span class="btn">Add condition</span>.
 
-   ![Rules - Search query contains]({% link live-search/assets/rules-search-query-contains.png %}){: .zoom}
+   ![Rules - Search query contains]({% link live-search/assets/rules-search-query-contains-and.png %}){: .zoom}
     _Search query contains with Match All_
 
 1. Select the second condition and complete the query text.
 
-  The same Match setting applies to both conditions. If you change the Match setting, it applies to all conditions that you specify.
+  The same Match operator applies to both conditions. If you change the Match operator, it changes the logical operator that is used for all conditions in the rule.
 
- 1. Choose the logical operator that returns the results you want when the two conditions are compared. The condition is either "this `AND` this" or "this `OR` this".
+ 1. Choose the logical operator that returns the results that you want when the two conditions are compared.
 
    |--- |--- |
-   |OR|(Default) The logical operator `OR` compares two conditions and meets the requirements to trigger an event if at least one condition is true. |
-   |AND |The logical operator `AND` compares two conditions and meets the requirements to trigger an event if both conditions are true. |
+   |OR|The logical operator `OR` compares two conditions when the `Any` Match operator is used. The associated event is triggered if at least one condition is true. |
+   |AND |The logical operator `AND` compares two conditions when the `All` Match operator is used. The associated event is triggered if both conditions are true. |
 
    ![Rule conditions]({% link live-search/assets/rule-conditions.png %}){: .zoom}
    _Rule conditions_
@@ -68,21 +69,22 @@ Condition(s) are the search query requirements that must be met to trigger an ev
 1. To change the logic of the rule, set **Match** to one of the following:
 
    |--- |--- |
-   |Any|Changes all logical operators in the rule to `OR` and returns the set of matching products. |
-   |All |Changes all logical operators in the rule to `AND` and returns the set of matching products. |
+   |Any|Changes all logical operators in the rule to `OR` and returns the set of products that meet the condition. |
+   |All |Changes all logical operators in the rule to `AND` and returns the set of products that meet the condition. |
 
-1. To add another, click <span class="btn">Add condition</span> and repeat the process.
+1. To add another, click <span class="btn">Add condition</span> and repeat the process. A single rule can have up to ten conditions.
 
    {:.bs-callout-info}
-   All logical operators in the rule must be the same. You cannot combine AND and OR in the same rule.
+   All logical operators in the rule are the same. You cannot combine `AND` and `OR` in the same rule.
 
    _Additional rule condition - OR_
 
-   ## Step 3: Add the triggered event(s)
+{: #events}
+   ## Step 3: Add event(s)
 
-   Event(s) are the actions applied to search results when the condition(s) are met. A rule can have up to twenty events.
+   Event(s) are the actions applied that alter the search results whenever the condition(s) are met. A rule can have up to twenty events.
 
-   1. Under _Events_, choose the **event** that you want to trigger when the rule conditions are met.
+   1. Under _Events_, choose the **event** that you want to trigger when the associated condition(s) are met.
 
    1. For multiple events, choose any other events that you want to trigger.
 
