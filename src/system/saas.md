@@ -56,7 +56,10 @@ To create a SaaS Environment, request the Magento API key from the Magento licen
 
 1. In the left panel, expand **Services** and choose **Magento Services**.
 
-1. In the _API Keys_ section, paste your key values for the **Production Api Key** and the **Production Private Key**, regardless of whether you are in a production environment or non-production Magento environment.
+1. In the _API Keys_ section, paste your key values for the **Production Api Key** and the **Production Private Key**.
+
+   {:.bs-callout-info}
+   Regardless of whether you are in a production environment or non-production Magento environment, always paste your key values into the **Production Api Key** and the **Production Private Key** fields.
 
 1. Click **Save Config**.
 
