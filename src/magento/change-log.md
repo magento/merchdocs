@@ -21,6 +21,18 @@ Our documentation is continually updated with new topics, clarifications, and co
 |Topic |Change|
 |--- |--- |
 |[Managing Subscribers]({% link marketing/newsletter-subscribers.md %})|Updates to clarify applying the newsletter unsubscribe function to multiple customer accounts.|
+|[Inventory]({% link configuration/catalog/inventory.md %}#product-stock-options) (reference)|Update to the _Product Stock Options_ section to include more detailed information about the _Use deferred Stock update_ option.|
+|[Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}) |Added a note about the possible actual coupon usage count exceeding the defined limit.|
+
+## October 2020
+
+### Updated topics
+
+{: .topics-table }
+|Topic |Change|
+|--- |--- |
+|[Google Analytics]({% link stores/compliance-cookie-restriction-mode.md %})|Added a warning message about how it works when _Cookie Restriction_ Mode is enabled.|
+|[Using a Custom Admin URL]({% link stores/store-urls-custom-admin.md %})|Updated Method 2 to correct the information about changing the Admin Path from the command line and added recovery steps.|
 
 ## September 2020
 
