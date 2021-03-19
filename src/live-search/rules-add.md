@@ -21,7 +21,7 @@ To build a rule, the first step is to define the condition(s) in the shopper's q
 
 ## Step 2: Describe the condition(s)
 
-Condition(s) are the search query requirements that must be met to trigger an event. A rule can have up to ten conditions.
+Condition(s) are the query requirements that must be met to trigger an event. A rule can have from one to ten conditions.
 ### Single condition
 
 1. Under _Build your rule_, select the **Condition** to be met and follow the instructions to complete the statement.
@@ -55,13 +55,7 @@ Condition(s) are the search query requirements that must be met to trigger an ev
 
 1. Select the second condition and complete the query text.
 
-  The same Match operator applies to both conditions. If you change the Match operator, it changes the logical operator that is used for all conditions in the rule.
-
  1. Choose the logical operator that returns the results that you want when the two conditions are compared.
-
-   |--- |--- |
-   |OR|The logical operator `OR` compares two conditions when the `Any` Match operator is used. The associated event is triggered if at least one condition is true. |
-   |AND |The logical operator `AND` compares two conditions when the `All` Match operator is used. The associated event is triggered if both conditions are true. |
 
    ![Rule conditions]({% link live-search/assets/rule-conditions.png %}){: .zoom}
    _Rule conditions_
@@ -72,19 +66,19 @@ Condition(s) are the search query requirements that must be met to trigger an ev
    |Any|Changes all logical operators in the rule to `OR` and returns the set of products that meet the condition. |
    |All |Changes all logical operators in the rule to `AND` and returns the set of products that meet the condition. |
 
-1. To add another, click <span class="btn">Add condition</span> and repeat the process. A single rule can have up to ten conditions.
-
    {:.bs-callout-info}
    All logical operators in the rule are the same. You cannot combine `AND` and `OR` in the same rule.
 
-   _Additional rule condition - OR_
+1. To add another condition, click <span class="btn">Add condition</span> and repeat the process. A single rule can have up to ten conditions.
+
+   _Multiple rule conditions_
 
 {: #events}
    ## Step 3: Add event(s)
 
-   Event(s) are the actions applied that alter the search results whenever the condition(s) are met. A rule can have up to twenty events.
+   Event(s) are the actions that alter the search results when the condition(s) are met. A single rule can have up to twenty events.
 
-   1. Under _Events_, choose the **event** that you want to trigger when the associated condition(s) are met.
+   1. Under _Events_, choose the **event** that you want to take place when the associated condition(s) are met.
 
    1. For multiple events, choose any other events that you want to trigger.
 
