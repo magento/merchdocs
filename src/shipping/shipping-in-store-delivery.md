@@ -33,7 +33,9 @@ First, check that In-store Delivery is enabled.
    {:.bs-callout-info}
    If needed, clear the **Use system value** checkbox to change the default for any field.
 
-1. Enter the **Method Name** that describes the method of calculation that is used to produce a shipping estimate. The method name appears next to the calculated estimated rate in the shopping cart.
+1. Enter the **Method Name** that describes the method of calculation that is used to produce a shipping estimate.
+
+   The method name appears next to the calculated estimated rate in the shopping cart.
 
 1. Enter the **Title** that you want to appear for In-Store Delivery section during checkout.
 
@@ -50,3 +52,11 @@ First, check that In-store Delivery is enabled.
     The default message is `In-Store Delivery is not available. To use this delivery method, please contact us.`
 
 1. Click <span class="btn">Save Config</span>.
+
+<div class="bs-callout-warning" markdown="1">
+**In the storefront, search results are filtered by country to show relevant results:**
+
+- If the customer has a shipping address, the country is taken from the shipping address.
+- If the customer does not have a shipping address, the country is taken from the [Default Tax Destination Calculation]({% link configuration/sales/tax.md %}#default-tax-destination-calculation) settings. These settings are set per store view, so you need to configure the Store View country to make it work properly.
+
+</div>
