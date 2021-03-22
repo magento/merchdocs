@@ -16,5 +16,5 @@ The _Magento Installation Guide_ provides multiple options including download zi
 [2]: https://devdocs.magento.com/guides/v2.4/config-guide/bk-config-guide.html
 [3]: https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html
 [4]: https://devdocs.magento.com/guides/v2.4/install-gde/prereq/prereq-overview.html
-[5]: https://devdocs.magento.com/guides/v2.4/install-gde/install-roadmap_web.html
+[5]: https://devdocs.magento.com/guides/v2.4/install-gde/install-roadmap_part1.html
 [6]: https://devdocs.magento.com/guides/v2.4/install-gde/install/verify.html
