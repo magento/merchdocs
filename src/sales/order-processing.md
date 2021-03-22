@@ -58,6 +58,7 @@ _View Order In-store Delivery_{:.ee-only}
 |<span class="btn">Notify Order is Ready for Pickup</span>|Appears only when an order is placed as an in-store delivery. Notifies the customer that order is ready for pickup.|
 |<span class="btn">Reorder</span>|Creates a new sales order based on the current order.|
 |<span class="btn">Edit</span>|Opens a pending order in edit mode. The Edit button isn’t visible for orders with a status of “Processing”, or orders that are based on negotiated quotes.|
+
 ## Process an order
 
 To open a `Pending` order, click <span class="btn">Edit</span> in the upper-right corner.
