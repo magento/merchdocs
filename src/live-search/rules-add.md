@@ -22,6 +22,7 @@ To build a rule, the first step is to define the condition(s) in the shopper's q
 ## Step 2: Describe the condition(s)
 
 Condition(s) are the query requirements that must be met to trigger an event. A rule can have from one to ten conditions.
+
 ### Single condition
 
 1. Under _Build your rule_, select the **Condition** to be met and follow the instructions to complete the statement.
@@ -67,7 +68,7 @@ Condition(s) are the query requirements that must be met to trigger an event. A 
    |All |Changes all logical operators in the rule to `AND` and returns the set of products that meet the condition. |
 
    {:.bs-callout-info}
-   All logical operators in the rule are the same. You cannot combine `AND` and `OR` in the same rule.
+   All logical operators in a rule are the same. You cannot combine `AND` and `OR` in the same rule.
 
 1. To add another condition, click <span class="btn">Add condition</span> and repeat the process. A single rule can have up to ten conditions.
 
@@ -76,15 +77,15 @@ Condition(s) are the query requirements that must be met to trigger an event. A 
 {: #events}
    ## Step 3: Add event(s)
 
-   Event(s) are the actions that alter the search results when the condition(s) are met. A single rule can have up to twenty events.
+   Event(s) are the actions that alter search results when the condition(s) are met. A single rule can have up to twenty events.
 
    1. Under _Events_, choose the **event** that you want to take place when the associated condition(s) are met.
 
-   1. For multiple events, choose any other events that you want to trigger.
+   1. For multiple events, choose any other events that you want to trigger when condition(s) are met.
 
      |--- |--- |
-     |Boost|Moves a SKU or range of SKUs higher in the search results. Each is marked with a “boosted” preview badge in test search results. |
-     |Bury |Moves a SKU or range of SKUs lower in the search results. Each is marked with a “buried” preview badge in test search results. |
+     |Boost|Moves a SKU or range of SKUs higher in the search results. Each SKU is marked with a “boosted” preview badge in the test search results. |
+     |Bury |Moves a SKU or range of SKUs lower in the search results. Each SKU is marked with a “buried” preview badge in test search results. |
      |Pin a product |Attaches a single SKU to a specific position in the search results. The product is marked with a “pinned” preview badge in test search results. |
      |Hide a product | Excludes a SKU, or range of SKUs, from the search results. |
 
