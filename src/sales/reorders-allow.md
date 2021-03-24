@@ -45,7 +45,7 @@ Customer may initiate the reorder functionality for a particular order from the
 
 “Reorder“ button is always displayed in the list with Orders (even if all products from the order is not available for reorder).
 
-![]({% link images/images/my-order-page-view.png %}){: .zoom}
+![]({% link images/images/my-order-page-view.png.png %}){: .zoom}
 
 **Case 1.** All products from the order are **available** for Reorder
 
@@ -57,7 +57,7 @@ User will be redirected to the Cart and all products are added to the Cart
 
 The "Reorder" button will not appear on the "My Orders" and "View Order" pages.
 
-![]({% link images/images/my-orders-view-page1.png %}){: .zoom} 
+![]({% link images/images/my-orders-view-page1.png %}){: .zoom}
 
 ## Order view page
 
@@ -69,23 +69,23 @@ User will be redirected to the Cart and all products are added to the Cart
 
 The "Reorder" button will not appear on the "My Orders" and "View Order" pages.
 
-![]({% link images/images/order-view-page.png %}){: .zoom} 
+![]({% link images/images/order-view-page.png %}){: .zoom}
 
-## Cart isn’t empty 
+## Cart isn’t empty
 
-In case if Cart is not empty and user will click on 'Reorder' button (from “My Orders”  or “Order View” pages), the existing products will be added to the Shopping cart with the recorder products 
+In case if Cart is not empty and user will click on 'Reorder' button (from “My Orders”  or “Order View” pages), the existing products will be added to the Shopping cart with the recorder products
 
-![]({% link images/images/shopping-cart-view1.png %}){: .zoom}  
+![]({% link images/images/shopping-cart-view1.png %}){: .zoom}
 
 ## Reorder from Admin Panel
 
-1. Open the Orders grid 
+1. Open the Orders grid
 
-2. Click the 'View' button
+1. Click the 'View' button
 
 “Reorder“ button is displayed on top menu.
 
-![]({% link images/images/order-view-admin.png %}){: .zoom}  
+![]({% link images/images/order-view-admin.png %}){: .zoom}
 
 After clicking the "Reorder" button the "Create New Order"page with reorder products will open.
 
