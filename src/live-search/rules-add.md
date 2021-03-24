@@ -27,13 +27,12 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
 
 1. Under _Build your rule_, select the **Condition** to be met, and follow the instructions to complete the statement.
 
-   |--- |--- |
-   |Search query contains |Enter a character or string of text that is required to be in the shopper’s query. The Match setting determines the degree to which the shopper’s query matches what is found in the catalog. Match options: Any - Any part of the customer's query text must match to meet this condition.<br />All - All of the shopper's query must match to meet the condition.|
-   |Search query is |Enter a string of text that exactly matches the shopper’s query. For example: yoga pants. Rules with "Search query is" and Match "All" can have only one condition.|
-   |Search query starts with |Enter a character or string of text that must be at the beginning of the shopper’s query.|
-   |Search query ends with |Enter a character or string of text that must be at the end of the shopper’s query. |
+   -  Search query contains - Enter the string of text that must be in the shopper’s query. The Match setting determines the degree to which the shopper’s query matches the catalog. Options:<br /> Any - Any part of the customer's query text can match the condition.<br />All - All of the shopper's query must match the condition.
+   -  Search query is - Enter a string of text that exactly matches the shopper’s query. For example: "yoga pants". Rules with `Search query is` and Match `All` can have only one condition.
+   -  Search query starts with - Enter a character or string of text that must be at the beginning of the shopper’s query.
+   -  Search query ends with - Enter a character or string of text that must be at the end of the shopper’s query.
 
-   The query results appear in the _Test your rule_ pane. The _Results per row_ slider in the upper-right controls the number of products that appear per row.
+   The results appear in the _Test your rule_ pane. You can use the _Results per row_ slider in the upper-right to change the number of products in each row.
 
    ![Rule - simple]({% link live-search/assets/rule-build-test.png %}){: .zoom}
    _Test output from simple rule_
@@ -67,9 +66,8 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
 
 1. To change the logic of the rule, set **Match** to one of the following:
 
-   |--- |--- |
-   |Any |(Default) All logical operators in the rule are set to `OR` and the results appear in the test pane.|
-   |All |All logical operators in the rule are set to `AND` and the results appear in the test pane.|
+   - Any - Default) All logical operators in the rule are set to `OR` and the results appear in the test pane.
+   - All - All logical operators in the rule are set to `AND` and the results appear in the test pane.
 
    The results of your search query appear in the test pane.
 
@@ -82,6 +80,7 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
    _Multiple rule conditions_
 
 {: #events}
+
    ## Step 3: Add event(s)
 
    Event(s) are actions that change the search results when the condition(s) are met. A single rule can have up to twenty events.
@@ -90,11 +89,13 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
 
    1. For multiple events, choose any other events that you want to trigger when condition(s) are met.
 
-     |--- |--- |
-     |Boost|Select Boost. Then, enter the product name or SKU that you Moves a SKU or range of SKUs higher in the search results. Each SKU is marked with a “boosted” preview badge in the test search results. |
-     |Bury |Moves a SKU or range of SKUs lower in the search results. Each SKU is marked with a “buried” preview badge in test search results. |
-     |Pin a product |Enter the product name or SKU. Then, select the Position in the search results where the product should appear. The product is marked with a “pinned” preview badge in test pane. |
-     |Hide a product | Excludes a SKU, or range of SKUs, from the search results. |
+     - Boost - Select Boost. Then, enter the product name or SKU that you want to move higher in the search results. In the test results, each boosted product has a “boosted” preview badge.
+
+     - Bury - Moves a SKU or range of SKUs lower in the search results. Each SKU is marked with a “buried” preview badge in test search results.
+
+     - Pin a product - Enter the product name or SKU. Then, select the Position in the search results where the product should appear. The product is marked with a “pinned” preview badge in test pane.
+
+     - Hide a product - Excludes a SKU, or range of SKUs, from the search results.
 
 ## Step 4: Complete the rule details
 
@@ -145,9 +146,9 @@ _Save and publish_
 |OR|(Default) The logical operator `OR` compares two conditions and meets the requirements to trigger an event if at least one condition is true. |
 |AND |The logical operator `AND` compares two conditions and meets the requirements to trigger an event if both conditions are true. |
 
-### Match Functions
+### Match operators
 
-|Function |Description |
+|Operator |Description |
 |--- |--- |
 |Any|Changes all logical operators in the rule to `OR` and returns the set of matching products. |
 |All |Changes all logical operators in the rule to `AND` and returns the set of matching products. |
