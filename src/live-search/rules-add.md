@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: Add Rules
+title: Add Rule
 group: marketing
 ---
 
@@ -40,8 +40,8 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
 
 1. To build a simple rule with one condition, go to [Step 3: Add event(s)](#events).
 
-    ![Rules - Search query is]({% link live-search/assets/rules-search-query-is-match-all.png %}){: .zoom}
-    _Search query is with Match All_
+   ![Rules - Search query is]({% link live-search/assets/rules-search-query-is-match-all.png %}){: .zoom}
+   _Search query is with Match All_
 
 ### Multiple conditions
 
@@ -52,7 +52,7 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
    The logical operator that joins the two conditions is based on the current Match setting.  By default, Match is set to "Any" and the logical operator is "OR".
 
    ![Rules - Search query contains]({% link live-search/assets/rules-search-query-contains-and.png %}){: .zoom}
-    _Search query contains with Match All_
+   _Search query contains with Match All_
 
 1. Select the second condition and enter the required query text.
 
@@ -63,7 +63,7 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
 
 1. If you want to change the logical operator, change the **Match** setting to determine how closely the shopper's search criteria must match the query condition.
 
-The Match value determines the logical operator that is used to join multiple conditions. Changing the Match setting changes all logical operators in the rule. It is not possible to combine `AND` and `OR` in the same rule.
+  The Match value determines the logical operator that is used to join multiple conditions. Changing the Match setting changes all logical operators in the rule. It is not possible to combine `AND` and `OR` in the same rule.
 
 1. To change the logic of the rule, set **Match** to one of the following:
 
@@ -113,11 +113,11 @@ The Match value determines the logical operator that is used to join multiple co
 
 1. If the rule has multiple queries, test each one that might be affected by the rule.
 
-_Test the rule_
-
 ## Save and publish
 
 When complete, click <span class="btn">Save and publish</span>.
+
+The rule appears in the list in the rules workspace.
 
 _Save and publish_
 
