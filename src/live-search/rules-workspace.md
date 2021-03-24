@@ -4,7 +4,13 @@ title: Rules Workspace
 group: marketing
 ---
 
-The rules workspace lists the current selection of rules and their status, and provides access to tools you need to create and manage rules.
+The rules workspace lists the current selection of rules and their status, and provides access to tools you need to create and manage rules. From the workspace you can:
+
+- Search for rules
+- View rule details
+- Activate/deactivate rules
+- Delete rules
+- Launch the rules editor
 
 ![Rules workspace]({% link live-search/assets/rules-workspace.png %}){: .zoom}
 _Rules workspace_
@@ -35,7 +41,7 @@ If your Magento installation includes multiple stores or store views, set **Scop
 
 If your store has many rules, you can filter the rules by status to shorten the list. By default, the Rules list displays all rules.
 
-  ![Rules 0 filter by status]({% link live-search/assets/rules-workspace-filter-status.png %}){: .zoom}
+  ![Rules - filter by status]({% link live-search/assets/rules-workspace-filter-status.png %}){: .zoom}
   _Filter rules by status_
 
 To list only rules with a specific status setting, set **Status** to one of the following:
@@ -50,12 +56,27 @@ _Rules filtered by "Active" status_
 
 ## Search rules by name
 
-Begin typing the name of the rule, or any word in the rule name. 
+Begin typing the name of the rule, or any word in the rule name.
 
 Search finds the matching rule(s) as you type. The string of matching characters are highlighted in the name of each rule found.
 
   ![Rules - search by name]({% link live-search/assets/rules-workspace-search-name.png %}){: .zoom}
   _Search by name_
+
+## View rule details
+
+1. Find the rule that you want to view.
+
+1. In the right column, click **More** (...).
+
+1. Choose **View details**.
+
+   The Rules details panel shows its status, condition(s), event(s), start and end dates, if scheduled, and description.
+
+1. To change the rule status, set the **Enabled/Disabled** control at the bottom of the panel.
+
+  ![Rule - details]({% link live-search/assets/rules-workspace-details.png %}){: .zoom}
+  _Rule details_
 
 ## Column Descriptions
 
@@ -76,3 +97,15 @@ Search finds the matching rule(s) as you type. The string of matching characters
 |Status |Filters the list of rules by status. Options: All, Active, Inactive, Scheduled |
 |![Column selector]({% link live-search/assets/btn-show-hide-columns.png %})|Specifies the columns that visible in the grid. Options: Last updated, Start date, End date, Status |
 |Search |Searches for a rule by full name or partial match. |
+
+## Rule Details
+
+|Field |Description |
+|--- |--- |
+| Status | The current status of the rule.|
+| Conditions | The search query that describes the condition(s) associated with the rule.|
+| Start Date | The date the rule goes into effect, if scheduled.|
+| End Date | The date the rule expires, if scheduled.|
+| Description | A brief description of the rule.|
+| Last updated | The date and time the rule was last updated.|
+| Enabled | A control that changes the status of the rule. Options: Enabled / Disabled.|
