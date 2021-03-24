@@ -21,72 +21,79 @@ To build a rule, the first step is to define the condition(s) in the shopper's q
 
 ## Step 2: Describe the condition(s)
 
-Condition(s) are the query requirements that must be met to trigger an event. A rule can have from one to ten conditions.
+Condition(s) are the requirements to trigger an event. A rule can have up to ten conditions.
 
 ### Single condition
 
-1. Under _Build your rule_, select the **Condition** to be met and follow the instructions to complete the statement.
+1. Under _Build your rule_, select the **Condition** to be met, and follow the instructions to complete the statement.
 
-    |--- |--- |
-    |Search query contains |Enter a character or string of text that is required to be in the shopper’s query. The Match setting determines the degree to which the shopper’s query matches what is found in the catalog. Match options: Any - Any part of the customer's query text must match to meet this condition.<br />All - All of the shopper's query must match to meet the condition.|
-    |Search query is |Enter a string of text that exactly matches the shopper’s query. For example: yoga pants. Rules with "Search query is" and Match "All" can have only one condition.|
-    |Search query starts with |Enter a character or string of text that must be at the beginning of the shopper’s query.|
-    |Search query ends with |Enter a character or string of text that must be at the end of the shopper’s query. |
+   |--- |--- |
+   |Search query contains |Enter a character or string of text that is required to be in the shopper’s query. The Match setting determines the degree to which the shopper’s query matches what is found in the catalog. Match options: Any - Any part of the customer's query text must match to meet this condition.<br />All - All of the shopper's query must match to meet the condition.|
+   |Search query is |Enter a string of text that exactly matches the shopper’s query. For example: yoga pants. Rules with "Search query is" and Match "All" can have only one condition.|
+   |Search query starts with |Enter a character or string of text that must be at the beginning of the shopper’s query.|
+   |Search query ends with |Enter a character or string of text that must be at the end of the shopper’s query. |
 
-1. Set **Match** to determine the extent to which search results must match the query.  The Match setting determines the logical operator that is used to join multiple conditions.
+   The query results appear in the _Test your rule_ pane. The _Results per row_ slider in the upper-right controls the number of products that appear per row.
 
-    |--- |--- |
-    |Any |(Default) Enter a string of character(s) that must be found in the shopper's query to meet the condition. |
-    |All |Enter the full text of the shopper's query to meet the condition. |
+   ![Rule - simple]({% link live-search/assets/rule-build-test.png %}){: .zoom}
+   _Test output from simple rule_
 
-    ![Rules - Match]({% link live-search/assets/rules-match.png %}){: .zoom}
-    _Start building your rule_
-
-1. If building a simple rule with only one condition, go to [Step 3: Add event(s)](#events).
+1. To build a simple rule with one condition, go to [Step 3: Add event(s)](#events).
 
     ![Rules - Search query is]({% link live-search/assets/rules-search-query-is-match-all.png %}){: .zoom}
     _Search query is with Match All_
 
 ### Multiple conditions
 
+   A rule can have up to ten conditions.
+
 1. To build a rule with multiple conditions, click <span class="btn">Add condition</span>.
+
+   The logical operator that joins the two conditions is based on the current Match setting.  By default, Match is set to "Any" and the logical operator is "OR".
 
    ![Rules - Search query contains]({% link live-search/assets/rules-search-query-contains-and.png %}){: .zoom}
     _Search query contains with Match All_
 
-1. Select the second condition and complete the query text.
+1. Select the second condition and enter the required query text.
 
- 1. Choose the logical operator that returns the results that you want when the two conditions are compared.
+   Initially the default logical operator `OR` appears between the two conditions.
 
    ![Rule conditions]({% link live-search/assets/rule-conditions.png %}){: .zoom}
    _Rule conditions_
 
+1. If you want to change the logical operator, change the **Match** setting to determine how closely the shopper's search criteria must match the query condition.
+
+The Match value determines the logical operator that is used to join multiple conditions. Changing the Match setting changes all logical operators in the rule. It is not possible to combine `AND` and `OR` in the same rule.
+
 1. To change the logic of the rule, set **Match** to one of the following:
 
    |--- |--- |
-   |Any|Changes all logical operators in the rule to `OR` and returns the set of products that meet the condition. |
-   |All |Changes all logical operators in the rule to `AND` and returns the set of products that meet the condition. |
+   |Any |(Default) All logical operators in the rule are set to `OR` and the results appear in the test pane.|
+   |All |All logical operators in the rule are set to `AND` and the results appear in the test pane.|
 
-   {:.bs-callout-info}
-   All logical operators in a rule are the same. You cannot combine `AND` and `OR` in the same rule.
+   The results of your search query appear in the test pane.
 
-1. To add another condition, click <span class="btn">Add condition</span> and repeat the process. A single rule can have up to ten conditions.
+   ![Rules - Match]({% link live-search/assets/rules-match.png %}){: .zoom}
+   _Start building your rule_
 
+1. To add another condition, click <span class="btn">Add condition</span> and repeat the process.
+
+   ![Rules - Match]({% link live-search/assets/rule-conditions-multiple.png %}){: .zoom}
    _Multiple rule conditions_
 
 {: #events}
    ## Step 3: Add event(s)
 
-   Event(s) are the actions that alter search results when the condition(s) are met. A single rule can have up to twenty events.
+   Event(s) are actions that change the search results when the condition(s) are met. A single rule can have up to twenty events.
 
-   1. Under _Events_, choose the **event** that you want to take place when the associated condition(s) are met.
+   1. Under _Events_, choose the **Event** to take place when the associated condition(s) are met.
 
    1. For multiple events, choose any other events that you want to trigger when condition(s) are met.
 
      |--- |--- |
-     |Boost|Moves a SKU or range of SKUs higher in the search results. Each SKU is marked with a “boosted” preview badge in the test search results. |
+     |Boost|Select Boost. Then, enter the product name or SKU that you Moves a SKU or range of SKUs higher in the search results. Each SKU is marked with a “boosted” preview badge in the test search results. |
      |Bury |Moves a SKU or range of SKUs lower in the search results. Each SKU is marked with a “buried” preview badge in test search results. |
-     |Pin a product |Attaches a single SKU to a specific position in the search results. The product is marked with a “pinned” preview badge in test search results. |
+     |Pin a product |Enter the product name or SKU. Then, select the Position in the search results where the product should appear. The product is marked with a “pinned” preview badge in test pane. |
      |Hide a product | Excludes a SKU, or range of SKUs, from the search results. |
 
 ## Step 4: Complete the rule details
@@ -97,11 +104,14 @@ Condition(s) are the query requirements that must be met to trigger an event. A 
 
 1. Enter a brief **Description** of the rule.
 
+   ![Rule - Complete]({% link live-search/assets/rule-complete.png %}){: .zoom}
+   _Rule Complete_
+
 ## Step 5: Test the rule
 
-1. Use the Results per row slider to change the column layout of the grid.
+1. Examine the results of the rule in the test pane.
 
-1. If the rule has multiple queries, test each one that may be affected by the rule.
+1. If the rule has multiple queries, test each one that might be affected by the rule.
 
 _Test the rule_
 
