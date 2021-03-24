@@ -4,6 +4,16 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what's new.
 
+## March 2021
+
+### Updated topics
+
+{: .topics-table }
+|Topic |Change|
+|--- |--- |
+|[Global Settings]({% link configuration/sales-channels/global-settings.md %}) (reference)|Updated to include the new _Read Only Mode_ function available with the Amazon Sales Channel 4.4.0 release.|
+|[Getting Started]({% link getting-started.md %}) |Added a link to developer documentation for a list of all Commerce features available by version.|
+
 ## February 2021
 
 ### Updated topics
