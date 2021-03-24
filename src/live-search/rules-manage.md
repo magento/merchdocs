@@ -6,26 +6,9 @@ group: marketing
 
 Follow these instructions to update the properties of existing rules:
 
-- [View details](#view-details)
+- [View details]({% link live-search/rules-workspace.md %})
 - [Edit rule](#edit-rule)
 - [Delete rule](#delete-rule)
-
-{: #view-details}
-## View details
-
-The details panel shows the rule name, status, conditions and events, start and end date, description, and date last edited. Rules can be enabled, edited, and deleted from the details panel.
-
-1.	On the _Rules_ tab, find the rule in the grid that you want to view and click **More** (…).
-
-1.	Click **View details**.
-
-     You can do any of the following from the View details panel:
-
-      - Edit Rule
-      - Delete Rule
-      - Enable/Disable Rule
-
-1. To close the _View details_ panel, click **Close** (X) in the upper-right corner.
 
 {: #edit-rule}
 ## Edit rule
