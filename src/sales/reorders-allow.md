@@ -45,7 +45,7 @@ Customer may initiate the reorder functionality for a particular order from the
 
 “Reorder“ button is always displayed in the list with Orders (even if all products from the order is not available for reorder).
 
-![]({% link images/images/My order page view.png %}){: .zoom}
+![]({% link images/images/my-order-page-view.png %}){: .zoom}
 
 **Case 1.** All products from the order are **available** for Reorder
 
