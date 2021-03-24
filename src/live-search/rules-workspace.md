@@ -12,8 +12,8 @@ The rules workspace lists the current selection of rules and their status, and p
 - Delete rules
 - Launch the rules editor
 
-![Rules workspace]({% link live-search/assets/rules-workspace.png %}){: .zoom}
-_Rules workspace_
+  ![Rules workspace]({% link live-search/assets/rules-workspace.png %}){: .zoom}
+  _Rules workspace_
 
 ## Set the scope
 
@@ -51,8 +51,8 @@ To list only rules with a specific status setting, set **Status** to one of the 
 - Inactive
 - Scheduled
 
-![Rules - filter by status]({% link live-search/assets/rules-workspace-filter-status-active.png %}){: .zoom}
-_Rules filtered by "Active" status_
+  ![Rules - filter by status]({% link live-search/assets/rules-workspace-filter-status-active.png %}){: .zoom}
+  _Rules filtered by "Active" status_
 
 ## Search rules by name
 
@@ -63,17 +63,22 @@ Search finds the matching rule(s) as you type. The string of matching characters
   ![Rules - search by name]({% link live-search/assets/rules-workspace-search-name.png %}){: .zoom}
   _Search by name_
 
-## View rule details
+{: #view-details}
+## View details
 
-1. Find the rule that you want to view.
+The details panel shows the rule name, status, conditions and events, start and end date, description, and date last edited. Rules can be enabled, edited, and deleted from the details panel.
 
-1. In the right column, click **More** (...).
+1.	On the _Rules_ tab, find the rule in the grid that you want to view and click **More** (…).
 
-1. Choose **View details**.
+1.	Click **View details**.
 
-   The Rules details panel shows its status, condition(s), event(s), start and end dates, if scheduled, and description.
+     You can do any of the following from the View details panel:
 
-1. To change the rule status, set the **Enabled/Disabled** control at the bottom of the panel.
+      - Edit Rule
+      - Delete Rule
+      - Enable/Disable Rule
+
+1. To close the _View details_ panel, click **Close** (X) in the upper-right corner.
 
   ![Rule - details]({% link live-search/assets/rules-workspace-details.png %}){: .zoom}
   _Rule details_
