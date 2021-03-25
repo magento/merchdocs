@@ -13,7 +13,6 @@ If your Magento installation includes multiple stores or store views, set **Scop
 
 ## Menu Options
 
-{: .fields-table }
 |Option|Description|
 |--- |--- |
 |[Performance]({% link live-search/performance.md %}) |The Performance dashboard provides insight into product-specific search performance that can be leveraged to optimize search. |
@@ -21,9 +20,3 @@ If your Magento installation includes multiple stores or store views, set **Scop
 |[Synonyms]({% link live-search/synonyms.md %}) |Extend the reach of search to include words shoppers might use to find products that differ from those in your catalog.|
 |[Rules]({% link live-search/rules.md %}) |Shape the search experience with logical rules that trigger scheduled actions. Boost, bury, pin or hide products to calibrate search results in support of your business goals.|
 |GraphQL |Developers who are logged into the Admin of your store can compose and test queries with actual data from your catalog. For more information, see GraphQL in the Live Search Developer Documentation.|
-
-<style>
-.fields-table td:first-of-type {
-width: 270px;
-}
-</style>

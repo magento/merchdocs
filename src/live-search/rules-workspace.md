@@ -93,17 +93,17 @@ The details panel shows the rule name, status, conditions and events, start and 
 |Start date |The start date of a scheduled rule. |
 |End date |The end date of a scheduled rule. |
 |Status |The color-coded status indicates the current state of the rule. Use the Status control above the grid to filter rules by status. Values: All status <br />Active (blue)<br />Scheduled (Orange)<br />Inactive (gray)|
-|(...)|Displays more actions that can be applied to the selected rule. Options: Edit, View details, Delete |
 
 ## Controls
 
 {: .fields-table }
 |Control |Description |
 |--- |--- |
-|<span class="btn">Add rule</span> | Opens the [rule]({% link live-search/rules-add.md %} editor.|
+|Add rule | Opens the [rule]({% link live-search/rules-add.md %} editor.|
 |Status |Filters the list of rules by status. Options: All, Active, Inactive, Scheduled |
 |![Column selector]({% link live-search/assets/btn-show-hide-columns.png %})|Specifies the columns that visible in the grid. Options: Last updated, Start date, End date, Status |
 |Search |Searches for a rule by full name or partial match. |
+|...|Displays more actions that can be applied to the selected rule. Options: Edit, View details, Delete |
 
 ## Rule Details
 

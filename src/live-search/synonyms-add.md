@@ -88,4 +88,4 @@ It can take up to two hours for your updates to become available in the storefro
 |--- |--- |
 |Type |Determines if the synonyms have the same meaning as the keyword, or are a subset of the keyword. Options: Two-way (default) - Terms that have the same meaning as the keyword and return the same search results<br />One-way - Terms that are a subset of the keyword. One-way synonyms return a more narrow list of specific products. |
 |Keyword |A word that is commonly associated with a selection of products in your catalog. |
-|Expansion |Additional terms that have the same, or similar meaning as the keyword. |
+|Expansion |Additional terms that have the same or similar meaning as the keyword. |

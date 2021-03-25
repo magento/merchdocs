@@ -48,4 +48,4 @@ If your Magento installation includes multiple stores or store views, set **Scop
 |Filter by |Determines the type of facets that appear in the list. Options: All, Pinned, Dynamic |
 |![Move selector]({% link live-search/assets/btn-move.png %})|Changes the order of pinned facets at the top of the Filters list. |
 |![Pin selector]({% link live-search/assets/btn-pin-blue.png %}) |Pins or unpins a facet to the top of the filters list. The pin is blue for a pinned facet and gray for an unpinned facet. Options: Blue (pinned), gray (unpinned)|
-|(...)|Displays more actions that can be applied to the selected facet. Options: Edit, Delete |
+|...|Displays more actions that can be applied to the selected facet. Options: Edit, Delete |
