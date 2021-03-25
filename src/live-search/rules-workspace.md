@@ -10,7 +10,7 @@ The rules workspace lists the current selection of rules and their status, and p
 - View rule details
 - Activate/deactivate rules
 - Delete rules
-- Launch the rules editor
+- Access the rule editor
 
   ![Rules workspace]({% link live-search/assets/rules-workspace.png %}){: .zoom}
   _Rules workspace_

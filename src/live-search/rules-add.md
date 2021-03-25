@@ -14,7 +14,7 @@ To build a rule, the first step is to define the condition(s) in the shopper's q
 
 1. Click the **Rules** tab.
 
-1. Click <span class="btn">Add rule</span>.
+1. Click <span class="btn">Add rule</span> to launch the rule editor.
 
    ![Rules workspace]({% link live-search/assets/rules-workspace.png %}){: .zoom}
    _Add rule_

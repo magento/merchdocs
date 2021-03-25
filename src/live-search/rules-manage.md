@@ -15,7 +15,7 @@ Follow these instructions to update the properties of existing rules:
 
 1.	On the _Rules_ tab, find the rule in the grid that you want to edit and click **More** (…).
 
-1.	Click **Edit**.
+1.	Click **Edit** to access the rule editor.
 
 1. Update the conditions, operators, and events as needed.
 
