@@ -31,4 +31,4 @@ The Match operators `All` and `Any` determine the logical operator that is used 
 - `All` - Uses the `AND` logical operator to join multiple conditions.
 - `Any` - Uses the `OR` logical operator to join multiple conditions.
 
-When composing a complex rule, it can help to write it out with indentation to describe the conditions and the associated events that are needed to return the results you want to achieve. Then, build the rule and test the result.
+When composing a complex rule, it can help to write it out with indentation to describe the conditions, associated events, and product names or SKUs that are needed to return the results you want to achieve. Then, build the rule and test the result.
