@@ -80,7 +80,7 @@ Some storefront pages restrict where you can place the recommendations. Refer to
 - **At the top of main content** - Recommendations appear above the main content area just below the top navigation bar.
 - **At the bottom of main content (default)** - Recommendations appear below the main content area and before any other content blocks on the page, like **Related Products**.
 
-## Supported recommendations for each storefront page {#supportedrecs}
+### Supported recommendations for each storefront page {#supportedrecs}
 
 The following table lists the storefront pages, where you can place the recommendations, and the recommendation types allowed on that page.
 
@@ -91,3 +91,4 @@ The following table lists the storefront pages, where you can place the recommen
 |**Product Detail**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending<br>Visual similarity|
 |**Cart**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
 |**Confirmation**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
+|**Page Builder**|You can [drag and drop]({% link marketing/page-builder-add-product-recs.md %}#add-an-existing-recommendation-unit) the Product Recommendation content type for positioning|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you<br>Trending|
