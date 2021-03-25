@@ -39,8 +39,10 @@ Set image displaying options for a product:
     - **Base**
     - **Small** 
     - **Thumbnail** 
+
 All of these roles are selected for the first added image by default.
+
  ![]({% link images/images/details.png %}){: .zoom}
     _Image details_
 
-1. To hide the product image from the product page select the **Hide from Product Page** checkbox
+To hide the product image from the product page select the **Hide from Product Page** checkbox
