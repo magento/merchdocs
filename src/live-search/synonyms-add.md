@@ -4,7 +4,7 @@ title: Add Synonyms
 group: marketing
 ---
 
-Adding your own curated list of synonyms improves the ability of Live Search to respond to customer search requests and to keep them engaged.
+Adding your own curated list of synonyms improves the ability of Live Search to respond to customer search requests and to keep them engaged. Adding a synonym is a three-step process:
 
 - Step 1: [Add synonym](#add-synonym)
 - Step 2: [Define the synonym by type](#type)

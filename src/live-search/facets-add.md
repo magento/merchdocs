@@ -6,9 +6,9 @@ group: marketing
 
 Any searchable and filterable product attribute can be used as a facet. The Add facets tab lists the current facets and makes it easy to assign additional product attributes. Adding a facet is a three-step process:
 
-Step 1: [Add a facet](#add-facet)
-Step 2: [Edit facet properties](#edit-properties)
-Step 3: [Publish changes](#publish)
+- Step 1: [Add a facet](#add-facet)
+- Step 2: [Edit facet properties](#edit-properties)
+- Step 3: [Publish changes](#publish)
 
 ![Faceting workspace]({% link live-search/assets/facets-add.png %}){: .zoom}
 _Add facet_
