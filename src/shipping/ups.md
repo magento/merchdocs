@@ -25,7 +25,7 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. For a UPS XML account (default), set **UPS Type** to `United Parcel Service XML`. Then do the following:
 
-   - Enter the following UPS credentials: **User ID**, **Access License Number** (UPS `Access Key`, should be 16 symbols value), and **Password**
+   - Enter the following UPS credentials: **User ID**, **Access License Number** (UPS account `Access Key`, should be 16 symbols value), and **Password**
 
    - Set **Mode** to `Live` to send data to the UPS shipping system over a secure connection. (Development mode does not send data over a secure connection.)
 
