@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: Add Rule
+title: Add Rules
 group: marketing
 ---
 
