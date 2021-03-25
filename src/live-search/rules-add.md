@@ -132,6 +132,7 @@ The rule is added to the list in the rules workspace.
 
 ### Conditions (if)
 
+{: .fields-table }
 |Condition |Description |
 |--- |--- |
 |Search query contains |A character or string of text that is included in the shopper’s query. The shopper’s query must match only a single character to meet this condition. |
@@ -141,6 +142,7 @@ The rule is added to the list in the rules workspace.
 
 ### Logical operators
 
+{: .fields-table }
 |Operator |Description |
 |--- |--- |
 |OR|(Default) The logical operator `OR` compares two conditions and meets the requirements to trigger an event if at least one condition is true. |
@@ -148,6 +150,7 @@ The rule is added to the list in the rules workspace.
 
 ### Match operators
 
+{: .fields-table }
 |Operator |Description |
 |--- |--- |
 |Any|Changes all logical operators in the rule to `OR` and returns the set of matching products. |
@@ -155,6 +158,7 @@ The rule is added to the list in the rules workspace.
 
 ### Events
 
+{: .fields-table }
 |Event |Description |
 |--- |--- |
 |Boost|Moves a SKU or range of SKUs higher in the search results. Each is marked with a “boosted” preview badge in test search results. |
@@ -164,9 +168,16 @@ The rule is added to the list in the rules workspace.
 
 ### Details
 
+{: .fields-table }
 |Field |Description |
 |--- |--- |
 |Name|The name of the rule. |
 |Start date |The start date of the rule, if scheduled. |
 |End date|The end date of the rule, if scheduled. |
 |Description |A brief description of the rule. |
+
+<style>
+.fields-table td:first-of-type {
+width: 270px;
+}
+</style>

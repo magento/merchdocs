@@ -85,6 +85,7 @@ The details panel shows the rule name, status, conditions and events, start and 
 
 ## Column Descriptions
 
+{: .fields-table }
 |Column |Description |
 |--- |--- |
 |Name |The name of the rule. |
@@ -96,15 +97,17 @@ The details panel shows the rule name, status, conditions and events, start and 
 
 ## Controls
 
+{: .fields-table }
 |Control |Description |
 |--- |--- |
-|Add rule | Opens the [Add Rule]({% link live-search/rules-add.md %}) page.|
+|<span class="btn">Add rule</span> | Opens the [rule]({% link live-search/rules-add.md %} editor.|
 |Status |Filters the list of rules by status. Options: All, Active, Inactive, Scheduled |
 |![Column selector]({% link live-search/assets/btn-show-hide-columns.png %})|Specifies the columns that visible in the grid. Options: Last updated, Start date, End date, Status |
 |Search |Searches for a rule by full name or partial match. |
 
 ## Rule Details
 
+{: .fields-table }
 |Field |Description |
 |--- |--- |
 | Status | The current status of the rule.|
@@ -114,3 +117,9 @@ The details panel shows the rule name, status, conditions and events, start and 
 | Description | A brief description of the rule.|
 | Last updated | The date and time the rule was last updated.|
 | Enabled | A control that changes the status of the rule. Options: Enabled / Disabled.|
+
+<style>
+.fields-table td:first-of-type {
+width: 270px;
+}
+</style>

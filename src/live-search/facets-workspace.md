@@ -18,18 +18,18 @@ If your Magento installation includes multiple stores or store views, set **Scop
 1. Click the **Filter by** control.
 1. Choose one of the following options:
 
-  - All filters
-  - Pinned
-  - Dynamic
+   - All filters
+   - Pinned
+   - Dynamic
 
-![Faceting workspace]({% link live-search/assets/facets-filter-by.png %}){: .zoom}
-_Filter by_
+   ![Faceting workspace]({% link live-search/assets/facets-filter-by.png %}){: .zoom}
+   _Filter by_
 
 ## Add a facet
 
-1. Click **Add facets**.
+1. Click <span class="btn">Add facets</span>.
 
-1. See [Add Facets]({% link live-search/facets-add.md %}) for instructions.
+1. See [Add Facets]({% link live-search/facets-add.md %}) for detailed instructions.
 
 ## Column Descriptions
 
@@ -42,7 +42,9 @@ _Filter by_
 
 ## Controls
 
-|Add facets | Opens the [Add Facets]({% link live-search/facets-add.md %}) page.|
+|Control |Description |
+|--- |--- |
+|Add facets| Opens the [facet]({% link live-search/facets-add.md %}) editor.|
 |Filter by |Determines the type of facets that appear in the list. Options: All, Pinned, Dynamic |
 |![Move selector]({% link live-search/assets/btn-move.png %})|Changes the order of pinned facets at the top of the Filters list. |
 |![Pin selector]({% link live-search/assets/btn-pin-blue.png %}) |Pins or unpins a facet to the top of the filters list. The pin is blue for a pinned facet and gray for an unpinned facet. Options: Blue (pinned), gray (unpinned)|

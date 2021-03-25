@@ -37,9 +37,9 @@ _Add facet_
 
 1. On the menu, click **Edit**. Then, adjust the following properties as needed.
 
-   |Label | The facet label that appears in the storefront.|
-   |Sort type | The method that is used to sort facet values. Options: Alphabetical, Count|
-   |Max Value | The maximum number of facet values displayed in the storefront. Valid entries: 0 - 10 |
+   - Label - Enter the facet label that appears in the storefront.
+   - Sort type - Choose the method that is used to sort facet values. Options: Alphabetical, Count
+   - Max Value - Enter the maximum number of facet values displayed in the storefront. Valid entries: 0 - 10
 
 1. When complete, click **Save**.
 
@@ -57,17 +57,23 @@ _Add facet_
 
 1. Wait about fifteen minutes for the facet to appear in the store.
 
-  ![Faceting workspace]({% link live-search/assets/facets-publish.png %}){: .zoom}
-  _Publish changes_
+   ![Faceting workspace]({% link live-search/assets/facets-publish.png %}){: .zoom}
+   _Publish changes_
 
 ## Field Descriptions
 
+{: .fields-table }
 |Field |Description |
 |--- |--- |
 |Label |The facet label that is visible in the storefront. You can edit the label to be consistent with your brand. |
 |Select type | Refers to the selection method that is used to choose a facet value from the storefront. Options:<br />Single-select - Returns products that match a single facet value. Multi-select - Allows multiple facet values to be selected.<br />(or) - Returns all products where either facet applies.<br />(and) - Returns a narrow set of products where all selected facets apply. |
 |Sort Type |The method that is used to sort facet values. Options:<br />Alphabetical - Sorts facet values alphabetically.<br />Count - Sorts facet values based on the number of matches found.|
 |Max Value |The maximum number of values that can be displayed in the storefront for each facet. Facets that represent a range of values are evenly distributed. Default: 8|
-|Pin |Pins or unpins a facet to the top of the _Filters list.|
+
+### Controls
+
+|Control |Description |
+|--- |--- |
+|![Pin selector]({% link live-search/assets/btn-pin-blue.png %}) |Pins or unpins a facet to the top of the _Filters list.|
 |...|Displays a menu of actions that can be applied to the selected facet. Options: Edit, Delete |
 |![Move selector]({% link live-search/assets/btn-move.png %}) |Use the Move icon to drag a pinned facet to another place in the Pinned facets section. |
