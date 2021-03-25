@@ -4,8 +4,16 @@ title: Add Rule
 group: marketing
 ---
 
-To build a rule, the first step is to define the condition(s) in the shopper's query text that trigger the associated event(s). Then, complete the rule details, test the results, and publish the rule.
+To build a rule, the first step is to use the rule editor to define the condition(s) in the shopper's query text that trigger the associated event(s). Then, complete the rule details, test the results, and publish the rule.
 
+- Step 1: [Add a rule](#add-rule)
+- Step 2: [Describe the conditions(s)](#conditions)
+- Step 3: [Add the event(s)](#events)
+- Step 4: [Complete the details](#details)
+- Step 5: [Test the rule](#test)
+- Step 6: [Save and publish](#publish)
+
+{: #add-rule}
 ## Step 1: Add a rule
 
 1. In the Admin, go to **Marketing** > SEO & Search > **Live Search**.
@@ -19,6 +27,7 @@ To build a rule, the first step is to define the condition(s) in the shopper's q
    ![Rules workspace]({% link live-search/assets/rules-workspace.png %}){: .zoom}
    _Add rule_
 
+{: #conditions}
 ## Step 2: Describe the condition(s)
 
 Condition(s) are the requirements to trigger an event. A rule can have up to ten conditions.
@@ -37,7 +46,7 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
    ![Rule - simple]({% link live-search/assets/rule-build-test.png %}){: .zoom}
    _Test output from simple rule_
 
-1. To build a simple rule with one condition, go to [Step 3: Add event(s)](#events).
+1. To build a simple rule with one condition, go to Step 3: [Add event(s)](#events).
 
    ![Rules - Search query is]({% link live-search/assets/rules-search-query-is-match-all.png %}){: .zoom}
    _Search query is with Match All_
@@ -62,7 +71,7 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
 
 1. If you want to change the logical operator, change the **Match** setting to determine how closely the shopper's search criteria must match the query condition.
 
-  The Match value determines the logical operator that is used to join multiple conditions. Changing the Match setting changes all logical operators in the rule. It is not possible to combine `AND` and `OR` in the same rule.
+   The Match value determines the logical operator that is used to join multiple conditions. Changing the Match setting changes all logical operators in the rule. It is not possible to combine `AND` and `OR` in the same rule.
 
 1. To change the logic of the rule, set **Match** to one of the following:
 
@@ -80,8 +89,7 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
    _Multiple rule conditions_
 
 {: #events}
-
-   ## Step 3: Add event(s)
+## Step 3: Add the event(s)
 
    Event(s) are actions that change the search results when the condition(s) are met. A single rule can have up to twenty events.
 
@@ -89,15 +97,13 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
 
    1. For multiple events, choose any other events that you want to trigger when condition(s) are met.
 
-     - Boost - Select Boost. Then, enter the product name or SKU that you want to move higher in the search results. In the test results, each boosted product has a “boosted” preview badge.
+      - Boost - Select Boost. Then, enter the product name or SKU that you want to move higher in the search results. In the test results, each boosted product has a “boosted” preview badge.
+      - Bury - Moves a SKU or range of SKUs lower in the search results. Each SKU is marked with a “buried” preview badge in test search results.
+      - Pin a product - Enter the product name or SKU. Then, select the Position in the search results where the product should appear. The product is marked with a “pinned” preview badge in test pane.
+      - Hide a product - Excludes a SKU, or range of SKUs, from the search results.
 
-     - Bury - Moves a SKU or range of SKUs lower in the search results. Each SKU is marked with a “buried” preview badge in test search results.
-
-     - Pin a product - Enter the product name or SKU. Then, select the Position in the search results where the product should appear. The product is marked with a “pinned” preview badge in test pane.
-
-     - Hide a product - Excludes a SKU, or range of SKUs, from the search results.
-
-## Step 4: Complete the rule details
+{: #details}
+## Step 4: Complete the details
 
 1. Under _Details_, enter a **Name** for the rule.
 
@@ -108,19 +114,19 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
    ![Rule - Complete]({% link live-search/assets/rule-complete.png %}){: .zoom}
    _Rule Complete_
 
+{: #test}
 ## Step 5: Test the rule
 
 1. Examine the results of the rule in the test pane.
 
 1. If the rule has multiple queries, test each one that might be affected by the rule.
 
-## Save and publish
+{: #publish}
+## Step 6: Save and publish
 
 When complete, click <span class="btn">Save and publish</span>.
 
-The rule appears in the list in the rules workspace.
-
-_Save and publish_
+The rule is added to the list in the rules workspace.
 
 ## Field descriptions
 
@@ -132,12 +138,6 @@ _Save and publish_
 |Search query is |A character or string of text that exactly matches the shopper’s query. Complex queries with multiple conditions cannot be composed when this condition is used. |
 |Search query starts with |The shopper’s query begins with this character or string of text. |
 |Search query ends with |The shopper’s query ends with this character or string of text. |
-
-### Match operators
-|Operator |Description |
-|--- |--- |
-|Any |(Default) Any part of the shopper's query text can match to meet the condition. |
-|All |All of the shopper's query text must match to meet the condition. |
 
 ### Logical operators
 
