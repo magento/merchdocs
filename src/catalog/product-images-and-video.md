@@ -36,10 +36,10 @@ Set image displaying options for a product:
 
 1. Choose a **Role** for displaying the image (all roles can be selected for one image):
 
-    - **Swatch** 
+    - **Swatch**
     - **Base**
-    - **Small** 
-    - **Thumbnail** 
+    - **Small**
+    - **Thumbnail**
 
 All of these roles are selected for the first added image by default.
 
