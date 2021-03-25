@@ -4,11 +4,16 @@ title: Add Facets
 group: marketing
 ---
 
-Any searchable and filterable product attribute can be used as a facet. The Add facets section of the workspace lists the current facets and makes it easy to assign additional product attributes.
+Any searchable and filterable product attribute can be used as a facet. The Add facets tab lists the current facets and makes it easy to assign additional product attributes. Adding a facet is a three-step process:
+
+Step 1: [Add a facet](#add-facet)
+Step 2: [Edit facet properties](#edit-properties)
+Step 3: [Publish changes](#publish)
 
 ![Faceting workspace]({% link live-search/assets/facets-add.png %}){: .zoom}
 _Add facet_
 
+{: #add-facet}
 ## Step 1: Add a facet
 
 1.	In the Admin, go to **Marketing** > SEO & Search > **Live Search**.
@@ -25,6 +30,7 @@ _Add facet_
 
     The facet is added to the bottom of the _Dynamic Facets_ list and the _Publish changes_ button becomes available.
 
+{: #edit-properties}
 ## Step 2: Edit facet properties
 
 1. If you need to edit the facet properties, click More options (...) in the far-right column.
@@ -44,6 +50,7 @@ _Add facet_
 
 1. To change the order of the pinned facet, click the **Move** (![Move selector]({% link live-search/assets/btn-move.png %})) icon and drag the row to a new position in the _Pinned Facets_ section.
 
+{: #publish}
 ## Step 3: Publish changes
 
 1. When the facet is complete, click <span class="btn">Publish changes</span>.

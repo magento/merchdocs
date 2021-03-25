@@ -6,9 +6,14 @@ group: marketing
 
 Adding your own curated list of synonyms improves the ability of Live Search to respond to customer search requests and to keep them engaged.
 
+- Step 1: [Add synonym](#add-synonym)
+- Step 2: [Define the synonym by type](#type)
+- Step 3: [Publish changes](#publish)
+
 ![Live Search synonyms]({% link live-search/assets/synonym-workspace.png %}){: .zoom}
 _Live Search synonyms_
 
+{: #add-synonym}
 ## Step 1: Add a synonym
 
 1. In the Admin, go to **Marketing** > SEO & Search > **Live Search**.
@@ -19,6 +24,7 @@ _Live Search synonyms_
 
 1. Click <span class="btn">Add synonyms</span>.
 
+{: #type}
 ## Step 2: Define the synonym by type
 
 Follow the instructions for the type of synonym that you want to create.
@@ -67,6 +73,7 @@ Follow the instructions for the type of synonym that you want to create.
    ![One-way synonym]({% link live-search/assets/synonym-one-way.png %}){: .zoom}
    _One-way synonym_
 
+{: #publish}
 ## Step 3: Publish changes
 
 When your synonym(s) are complete, click <span class="btn">Publish changes</span>.
