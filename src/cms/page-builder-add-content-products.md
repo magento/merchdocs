@@ -136,6 +136,9 @@ Complete the _Settings_ according to the following sections:
    {:.bs-callout-info}
    Some products in the Category, SKU, or Condition settings may not appear in your products grid or carousel. For example, disabled products, products marked as not visible, out-of-stock products, and products assigned to another website will not be displayed.
 
+   {:.bs-callout-warning}
+   Prices for configurable, grouped and bundled (dynamic price) products are undefined in the Admin area. Therefore, these products are not displayed in the **preview** if the products are filtered by price. These products cannot be ordered correctly in the **preview** if ordered by price.
+
 ### Carousel Settings
 
 1. Choose the **Carousel Mode** to determine how the products are displayed within the carousel.
