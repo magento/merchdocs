@@ -52,7 +52,7 @@ Use one of the following methods to configure the MAP settings:
 
 ### Method 2: Configure MAP for a single product
 
-1. On the _Admin_ sidebar, go to **Catalog** > **Inventory** > **Products** .
+1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
 1. Open the product in **Edit** mode.
 
