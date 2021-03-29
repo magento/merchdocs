@@ -43,6 +43,9 @@ pages:
     children:
     - label: My Account
       url: "/customers/account-dashboard-my-account.html"
+    - label: Order by SKU
+      url: "/customers/account-dashboard-order-by-sku.html"
+      edition: b2b-only
     - label: My Quotes
       url: "/customers/account-dashboard-quotes.html"
       edition: b2b-only
