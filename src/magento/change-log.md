@@ -4,6 +4,46 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what's new.
 
+## March 2021
+
+### Updated topics
+
+{: .topics-table }
+|Topic |Change|
+|--- |--- |
+|[Global Settings]({% link configuration/sales-channels/global-settings.md %}) (reference)|Updated to include the new _Read Only Mode_ function available with the Amazon Sales Channel 4.4.0 release.|
+|[Getting Started]({% link getting-started.md %}) |Added a link to developer documentation for a list of all Commerce features available by version.|
+
+## February 2021
+
+### Updated topics
+
+{: .topics-table }
+|Topic |Change|
+|--- |--- |
+|[Data Mapping]({% link configuration/dotdigital/data-mapping.md %}) (reference)<br/>[Customer Configuration]({% link configuration/customers/customer-configuration.md %}#open-source-options) (reference) |Updates to address the use of the default _Date of Birth_ customer account field/attribute.|
+
+## January 2021
+
+### Updated topics
+
+{: .topics-table }
+|Topic |Change|
+|--- |--- |
+|[Managing Subscribers]({% link marketing/newsletter-subscribers.md %})|Updates to clarify applying the newsletter unsubscribe function to multiple customer accounts.|
+|[Inventory]({% link configuration/catalog/inventory.md %}#product-stock-options) (reference)|Update to the _Product Stock Options_ section to include more detailed information about the _Use deferred Stock update_ option.|
+|[Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}) |Added a note about the possible actual coupon usage count exceeding the defined limit.|
+
+## October 2020
+
+### Updated topics
+
+{: .topics-table }
+|Topic |Change|
+|--- |--- |
+|[Google Analytics]({% link stores/compliance-cookie-restriction-mode.md %})|Added a warning message about how it works when _Cookie Restriction_ Mode is enabled.|
+|[Using a Custom Admin URL]({% link stores/store-urls-custom-admin.md %})|Updated Method 2 to correct the information about changing the Admin Path from the command line and added recovery steps.|
+
 ## September 2020
 
 ### New topic
