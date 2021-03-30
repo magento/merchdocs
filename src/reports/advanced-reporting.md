@@ -107,6 +107,12 @@ If you get a 404 “Page Not Found” message, verify that your store meets the 
 
 Advanced Reporting can be used only with Magento installations that have used only a single [base currency]({% link stores/currency-configuration.md %}) since the time of installation. The result is that in the history, all orders use the same base currency. Advanced Reporting will not work if you have, at any time, changed your base currency and have orders in your history that were processed with different base currencies.
 
+To determine if your store has multiple base currencies, you can query your Magento database from the command line using the following MySQL example. You might need to change the table names to match your data structure:
+
+```sql
+select distinct base_currency_code from sales_order;
+```
+
 ## Dashboard Reports
 
 ### Orders
