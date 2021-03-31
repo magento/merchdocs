@@ -18,3 +18,5 @@ output_format:
   - yaml
  
 magic_word: whatsnew
+
+membership: magento-commerce
