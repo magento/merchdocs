@@ -32,6 +32,9 @@ To build a rule, the first step is to use the rule editor to define the conditio
 
 Condition(s) are the requirements to trigger an event. A rule can have up to ten conditions.
 
+   ![Add Rule]({% link live-search/assets/rules-add-workspace.png %}){: .zoom}
+   _Add rule workspace_
+
 ### Single condition
 
 1. Under _Build your rule_, select the **Condition** to be met, and follow the instructions to complete the statement.
@@ -41,7 +44,7 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
    -  Search query starts with - Enter a character or string of text that must be at the beginning of the shopper’s query.
    -  Search query ends with - Enter a character or string of text that must be at the end of the shopper’s query.
 
-   The results appear in the _Test your rule_ pane. You can use the _Results per row_ slider in the upper-right to change the number of products in each row.
+   The results appear immediately in the _Test your rule_ pane. You can use the _Results per row_ slider in the upper-right to change the number of products in each row.
 
    ![Rule - simple]({% link live-search/assets/rule-build-test.png %}){: .zoom}
    _Test output from simple rule_
