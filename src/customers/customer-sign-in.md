@@ -84,9 +84,13 @@ _Sign In_
 
 ## Sign out of Customer Account
 
+<<<<<<< HEAD
 1. In the top right corner, click the **Welcome, Customer Name!** <span class="btn">∨</span> icon.
+=======
+1. In the upper-right corner next to  _Welcome, Customer Name!_, click  the **v** menu selector.
+>>>>>>> d9ec36ac... Apply suggestions from review
 
-1. Click the **Sign Out** button.
+1. Choose **Sign Out**.
 
    ![]({% link images/images/homepage.png %}){: .zoom}
    _Sign Out_
