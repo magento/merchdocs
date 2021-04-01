@@ -24,7 +24,7 @@ To build a rule, the first step is to use the rule editor to define the conditio
 
 1. Click <span class="btn">Add rule</span> to launch the rule editor.
 
-   ![Rules workspace]({% link live-search/assets/rules-workspace.png %}){: .zoom}
+   ![Rules workspace]({% link live-search/assets/rules-workspace-add-rule.png %}){: .zoom}
    _Add rule_
 
 {: #conditions}
@@ -32,8 +32,8 @@ To build a rule, the first step is to use the rule editor to define the conditio
 
 Condition(s) are the requirements to trigger an event. A rule can have up to ten conditions.
 
-   ![Add Rule]({% link live-search/assets/rules-add-workspace.png %}){: .zoom}
-   _Add rule workspace_
+   ![Rule - Build your rule]({% link live-search/assets/rules-add-workspace.png %}){: .zoom}
+   _Build your rule_
 
 ### Single condition
 
@@ -46,7 +46,9 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
 
    The results appear immediately in the _Test your rule_ pane. You can use the _Results per row_ slider in the upper-right to change the number of products in each row.
 
-   ![Rule - simple]({% link live-search/assets/rule-build-test.png %}){: .zoom}
+1. After entering the Search query, click anywhere on the page to test your rule and display the results.
+
+   ![Rule - simple]({% link live-search/assets/rule-simple-test.png %}){: .zoom}
    _Test output from simple rule_
 
 1. To build a simple rule with one condition, go to Step 3: [Add event(s)](#events).
@@ -67,10 +69,8 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
 
 1. Select the second condition and enter the required query text.
 
-   Initially the default logical operator `OR` appears between the two conditions.
-
-   ![Rule conditions]({% link live-search/assets/rule-conditions.png %}){: .zoom}
-   _Rule conditions_
+   ![Rule conditions]({% link live-search/assets/rules-add-condition.png %}){: .zoom}
+   _Add condition_
 
 1. If you want to change the logical operator, change the **Match** setting to determine how closely the shopper's search criteria must match the query condition.
 
@@ -114,8 +114,8 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
 
 1. Enter a brief **Description** of the rule.
 
-   ![Rule - Complete]({% link live-search/assets/rule-complete.png %}){: .zoom}
-   _Rule Complete_
+   ![Rule - Complete]({% link live-search/assets/rule-details.png %}){: .zoom}
+   _Rule Details_
 
 {: #test}
 ## Step 5: Test the rule

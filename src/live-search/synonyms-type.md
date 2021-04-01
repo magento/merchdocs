@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: Synonym Types
+title: Types of Synonyms
 group: marketing
 ---
 

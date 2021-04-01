@@ -41,7 +41,7 @@ _Add facet_
 {: #edit-properties}
 ## Step 2: Edit facet properties
 
-1. If you need to edit the facet properties, click More options (...) in the far-right column.
+1. If you need to edit the facet properties, click **More** options (...) in the far-right column.
 
 1. On the menu, click **Edit**. Then, adjust the following properties as needed.
 

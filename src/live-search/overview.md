@@ -11,10 +11,6 @@ sections:
     content: Learn your way around the Live Search workspace.
     url: /live-search/workspace.html
 
-  - title: Performance
-    content: Gain insight and leverage product-specific search performance to optimize search.
-    url: /live-search/performance.html
-
   - title: Facets
     content: Use multiple dimensions of static and dynamic attribute values as a high-performance search filters.
     url: /live-search/facets.html
