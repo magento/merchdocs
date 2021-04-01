@@ -2,7 +2,7 @@
 title: Canonical Meta Tag
 ---
 
-Some search engines penalize websites that have multiple URLs that point to the same content. The canonical meta tag tells search engines which page to index when multiple URLs have identical or very similar content. Using the canonical meta tag can improve your site ranking and aggregate pageviews. The canonical meta tag is placed in the `<head>` block of a product or category page. It provides a link to your preferred URL, so search engines will give it greater weight.
+Some search engines penalize websites that have multiple URLs that point to the same content. The canonical meta tag tells search engines which page to index when multiple URLs have identical or very similar content. Using the canonical meta tag can improve your site ranking and aggregate page views. The canonical meta tag is placed in the `<head>` block of a product or category page. It provides a link to your preferred URL, so search engines will give it greater weight.
 
 ## Example 1: Category Path Creates Duplicate URLs
 
@@ -15,7 +15,7 @@ For example, if your catalog is configured to include the category path in produ
 
 When canonical meta tags for categories are enabled, the category page of your store includes a canonical URL to the full category URL:
 
-    http://mystore.com/gear/bags/driven-backpack.html
+    http://mystore.com/gear/bags/
 
 ## Example 3: Product Page Full URL
 
