@@ -24,3 +24,6 @@ The scope of customer accounts can be limited to the website where the account w
    If necessary, clear the **User system value** checkbox to make the change.
 
 1. When complete, click <span class="btn">Save Config</span>.
+
+   {:.bs-callout-info}
+   If the [website is excluded from the customer group](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/indexer-optimization.html#customer-group-limitations-by-websites), the customer is not allowed to log in to the website when the scope of customer accounts is limited to the website or shared with all websites.
