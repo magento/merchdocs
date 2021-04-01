@@ -528,8 +528,6 @@ pages:
       url: "/live-search/onboarding.html"
     - label: Workspace
       url: "/live-search/workspace.html"
-  - label: Performance
-    url: "/live-search/performance.html"
   - label: Facets
     url: "/live-search/facets.html"
     children:
