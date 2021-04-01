@@ -118,6 +118,8 @@ pages:
         url: "/sales/order-status-custom.html"
       - label: Order Status Notification
         url: "/sales/order-status-notification.html"
+    - label: Recently Ordered Products
+      url: "/sales/recently-ordered.html"
     - label: Allow Reorders
       url: "/sales/reorders-allow.html"
     - label: Scheduled Operations
