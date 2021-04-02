@@ -54,7 +54,7 @@ Products can be added to a requisition list from the product pages in the storef
    ![]({% link images/images-b2b/customer-account-requisition-list-product-detail.png %}){: .zoom}
    _Add to Requisition List_
 
-   ### Method 2: From the Catalog page
+### Method 2: From the Catalog page
 
 1. From the storefront, go to the catalog page with the product that is to be added to the requisition list.
 
