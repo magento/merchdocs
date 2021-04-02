@@ -84,7 +84,7 @@ _Sign In_
 
 ## Sign out of Customer Account
 
-1. In the upper-right corner, click the **Welcome, Customer Name!** <span class="btn">∨</span> icon.
+1. In the top right corner, click the **Welcome, Customer Name!** <span class="btn">∨</span> icon.
 
 1. Click the **Sign Out** button.
 
