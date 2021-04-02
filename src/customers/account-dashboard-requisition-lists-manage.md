@@ -78,10 +78,13 @@ To edit a product options in the list do the following:
 
 Product in the Requisition List may be edit if:
 
-   - Product has **all options set** (in case you have a [configured product]({% link catalog/product-create-configurable.md %}) in the Requisition List).
-   - Product is **added to this RL**.
-   - Product is [a simple product with options]({% link catalog/settings-advanced-custom-options.md %})
-   - Product's type is allowed to edit.
+1. Product has **all options set** (in case you have a [configured product]({% link catalog/product-create-configurable.md %}) in the Requisition List).
+
+1. Product is **added to this Requisition ListL**.
+
+1. Product is [a simple product with options]({% link catalog/settings-advanced-custom-options.md %})
+
+1. Product's type is allowed to edit.
 
 ### Remove items
 
