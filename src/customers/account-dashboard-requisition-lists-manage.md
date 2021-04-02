@@ -73,15 +73,15 @@ To edit a product options in the list do the following:
 
 1. Click **Update Requisition List**.
 
-[]({% link images/images-b2b/update-requisition-list.png %}){: .zoom}
+   ![]({% link images/images-b2b/update-requisition-list.png %}){: .zoom}
    _Update Requisition List_
 
 Product in the Requisition List may be edit if:
 
-   - Product has **all options set** (in case you have a [configured product]({% link catalog/product-create-configurable.md %}) in the Requisition List)
-   - Product is **added to this RL**
+   - Product has **all options set** (in case you have a [configured product]({% link catalog/product-create-configurable.md %}) in the Requisition List).
+   - Product is **added to this RL**.
    - Product is [a simple product with options]({% link catalog/settings-advanced-custom-options.md %})
-   - Product's type is allowed to edit
+   - Product's type is allowed to edit.
 
 ### Remove items
 
