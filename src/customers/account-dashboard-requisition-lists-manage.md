@@ -23,12 +23,6 @@ _My Requisition Lists_
 
 1. Enter the **Qty** to be added to the cart.
 
-1. To change any product options, do the following:
-
-   - In the line item, click **Edit** (![]({% link images/images/btn-edit.png %})).
-   - Change any options that are necessary.
-   - Click **Update Requisition List**.
-
 1. Click <span class="btn">Add to Cart</span>.
 
    ![]({% link images/images-b2b/requisition-list-view.png %}){: .zoom}
@@ -69,6 +63,26 @@ Magento will generate and download a CSV list with `sku` and `qty` values.
    ![]({% link images/images-b2b/requisition-list-print.png %}){: .zoom}
    _Print Requisition List_
 
+### Edit product options
+
+To edit a product options in the list do the following:
+
+1. Go to the product page via the **‘Pencil’** button. (![]({% link images/images/btn-edit.png %})).
+
+1. Change any options that are necessary.
+
+1. Click **Update Requisition List**.
+
+[]({% link images/images-b2b/update-requisition-list.png %}){: .zoom}
+   _Update Requisition List_
+
+Product in the Requisition List may be edit if:
+
+   - Product has **all options set** (in case you have a [configured product]({% link catalog/product-create-configurable.md %}) in the Requisition List)
+   - Product is **added to this RL**
+   - Product is [a simple product with options]({% link catalog/settings-advanced-custom-options.md %})
+   - Product's type is allowed to edit
+
 ### Remove items
 
 1. Select the checkbox of each item to be removed.
@@ -98,4 +112,5 @@ Magento will generate and download a CSV list with `sku` and `qty` values.
 |Select|Manages the item selections that are to be the subject of an action. <br/>**Select All** - Selects all items in the requisition list. <br/>**Remove Selected** - Removes all selected items from the requisition list. <br/>**Copy Selected** - Copies all selected items to another requisition list.|
 |Add to Cart|Adds selected items to the shopping cart.|
 |Update List|Recalculates the subtotal to reflect a change in quantity.|
+|Edit Item|Changes any product options|
 |Delete Requisition List|Deletes the requisition list from the company user’s account.|
