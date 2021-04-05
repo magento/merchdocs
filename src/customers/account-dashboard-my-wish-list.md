@@ -7,7 +7,7 @@ A wish list is a convenient way for customers to keep track of products that the
 ![]({% link images/images-ee/account-dashboard-wishlist.png %}){: .zoom}
 _My Wish List_
 
-## Add products to a Wish List 
+## Add products to a Wish List
 
 Products can be added to a wish list from product pages in the storefront, from the catalog page and from the shopping cart.
 
@@ -17,8 +17,8 @@ Products can be added to a wish list from product pages in the storefront, from 
 
 1. Click **Add to Wish List** and do one of the following:
 
-   - Choose an existing wish list.
-   - Create a new wish list.
+    - Choose an existing wish list.
+    - Create a new wish list.
 
    ![]({% link images/images-ee/account-dashboard-add-wishlist-from-pdp.png %}){: .zoom}
    _Add to Wish List from PDP_
@@ -31,8 +31,8 @@ Products can be added to a wish list from product pages in the storefront, from 
 
 1. Click **Add to Wish List** button and do one of the following:
 
-   - Choose an existing wish list.
-   - Create a new wish list.
+    - Choose an existing wish list.
+    - Create a new wish list.
 
    ![]({% link images/images-ee/account-dashboard-add-to-wishlist-from-plp.png %}){: .zoom}
    _Add to Wish List from PLP_
@@ -41,8 +41,8 @@ Products can be added to a wish list from product pages in the storefront, from 
 
 1. Under the item, click the **Add to Wish List** menu and do one of the following:
 
-   - Choose an existing wish list.
-   - Create a new wish list.
+    - Choose an existing wish list.
+    - Create a new wish list.
 
    ![]({% link images/images-ee/account-dashboard-add-to-wishlist-from-cart.png %}){: .zoom}
    _Add to Wish Lis from Cart_
