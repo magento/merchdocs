@@ -263,7 +263,7 @@ This completes the required PayPal settings. You can continue with the Basic and
    |`For Virtual Quotes Only` |Requires the customer’s billing address for virtual quotes only.|
 
    {:.bs-callout-info}
-   This feature needs be enabled first for the merchant account through PayPal technical support.
+   This feature must first be enabled for the merchant account through PayPal technical support.
 
 1. To specify whether the customer can sign a [billing agreement]({% link payment/paypal-billing-agreements.md %}) with your store in the PayPal payment system when there are no active billing agreements available in the customer account, set **Billing Agreement Signup** to one of the following:
 
