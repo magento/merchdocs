@@ -21,20 +21,20 @@ _Login As Customer_
 
 Enabling Login as Customer requires that you enable the feature in your Magento instance and then enable access for Magento Admin users in the user role permissions.
 
-## Customer permission for remote shopping assistance
+## Customer account permission for remote shopping assistance
 
-To allow the ability to login as a customer for Magento admin user, a customer should make the next steps:
+To allow the ability for the merchant to log in as the customer from the Admin, a customer should take these steps:
 
 1. Go to the **Account Information** page.
 
-1. Check the **Allow remote shopping assistance** checkbox.
+1. Select the **Allow remote shopping assistance** checkbox.
 
 1. Click the <span class="btn">Save</span> button.
 
 ![]({% link images/images/permission.png %}){: .zoom}
 _Account Information Page_
 
-Without this permission, Magento Admin cannot login as this customer.
+Without this permission, an Admin user cannot login as this customer to provide assistance.
 
 ### Enable the feature
 
