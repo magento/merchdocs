@@ -23,14 +23,14 @@ A [placeholder]({% link catalog/product-image-placeholders.md %}) image appears 
 
 ## Image Detail
 
-When product images are added, there is the possibility to customize their displaying in the **Image Detail** window.
+When product images are added, there is the possibility to customize the display in the _Image Detail_ window.
 
  ![]({% link images/images/image-video.png %}){: .zoom}
     _Product images_
 
-Set image displaying options for a product:
+To set image displaying options for a product:
 
-1. Click on the product image.
+1. Click the product image.
 
 1. Enter the **Alt text**.
 
@@ -41,9 +41,9 @@ Set image displaying options for a product:
     - **Small**
     - **Thumbnail**
 
-All of these roles are selected for the first added image by default.
+   All of these roles are selected for the first added image by default.
 
- ![]({% link images/images/details.png %}){: .zoom}
+   ![]({% link images/images/details.png %}){: .zoom}
     _Image details_
 
-To hide the product image from the product page select the **Hide from Product Page** checkbox.
+To hide the product image from the product page, select the **Hide from Product Page** checkbox.
