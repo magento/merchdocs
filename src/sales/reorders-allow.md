@@ -35,58 +35,58 @@ _Customer reorder link in the Admin_
 
 ## Reorder from Storefront
 
-Customer may initiate the reorder functionality for a particular order from the
+A customer can initiate the reorder functionality for a specific order from two pages:
 
-- “My Orders” page
+- _My Orders_ page
 
-- “Order View” page
+- _Order View_ page
 
 ## My Orders
 
-“Reorder“ button is always displayed in the list with Orders (even if all products from the order is not available for reorder).
+The _Reorder_ button is always displayed in the list with Orders (even if all products from the order is not available for reorder).
 
 ![]({% link images/images/my-order-page-view.png %}){: .zoom}
 
-**Case 1.** All products from the order are **available** for Reorder
+**Case 1.** All products from the order are **available** for reorder
 
-User will be redirected to the Cart and all products are added to the Cart
+User will be redirected to the cart, and all products are added to the cart
 
 ![]({% link images/images/shopping-cart-page.png %}){: .zoom}
 
-**Case 2.** Some/all products from the order are **non-available** for Reorder
+**Case 2.** Some/all products from the order are **non-available** for reorder
 
-The "Reorder" button will not appear on the "My Orders" and "View Order" pages.
+The _Reorder_ button will not appear on the _My Orders_ and _View Order_ pages.
 
 ![]({% link images/images/my-orders-view-page1.png %}){: .zoom}
 
 ## Order view page
 
-**Case 1.** All products from the order are available for Reorder
+**Case 1.** All products from the order are available for reorder
 
-User will be redirected to the Cart and all products are added to the Cart
+User will be redirected to the cart, and all products are added to the cart
 
-**Case 2.** Some/all products from the order are **non-available** for Reorder
+**Case 2.** Some/all products from the order are **_not available_** for reorder
 
-The "Reorder" button will not appear on the "My Orders" and "View Order" pages.
+The _Reorder_ button will not appear on the _My Orders_ and _View Order_ pages.
 
 ![]({% link images/images/order-view-page.png %}){: .zoom}
 
-## Cart isn’t empty
+## Cart is not empty
 
-In case if Cart is not empty and user will click on 'Reorder' button (from “My Orders”  or “Order View” pages), the existing products will be added to the Shopping cart with the recorder products
+If the cart is not empty and the user  clicks **Reorder** (from the _My Orders_  or _Order View_ page), the existing products will remain in the cart with the added reorder products.
 
 ![]({% link images/images/shopping-cart-view1.png %}){: .zoom}
 
-## Reorder from Admin Panel
+## Reorder from the Admin
 
-1. Open the Orders grid
+1. Open the _Orders_ grid.
 
-1. Click the 'View' button
+1. Click **View**.
 
-“Reorder“ button is displayed on top menu.
+ _Reorder_ is displayed in the top button bar.
 
-![]({% link images/images/order-view-admin.png %}){: .zoom}
+   ![]({% link images/images/order-view-admin.png %}){: .zoom}
 
-After clicking the "Reorder" button the "Create New Order"page with reorder products will open.
+   After you click **Reorder**, the _Create New Order_ page opens with reorder products.
 
-![]({% link images/images/create-reorder-page.png %}){: .zoom}
+   ![]({% link images/images/create-reorder-page.png %}){: .zoom}
