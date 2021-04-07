@@ -65,26 +65,26 @@ Magento will generate and download a CSV list with `sku` and `qty` values.
 
 ### Edit product options
 
-To edit a product options in the list do the following:
+To edit a product options in the list, do the following:
 
-1. Go to the product page via the **‘Pencil’** button. (![]({% link images/images/btn-edit.png %})).
+1. Click the _Pencil_  (![]({% link images/images/btn-edit.png %})) icon to open the product page.
 
 1. Change any options that are necessary.
 
-1. Click **Update Requisition List** button.
+1. Click **Update Requisition List**.
 
    ![]({% link images/images-b2b/update-requisition-list.png %}){: .zoom}
    _Update Requisition List_
 
-Product in the Requisition List may be edit if:
+A product in the Requisition List may be edited if:
 
-1. Product has **all options set** (in case you have a [configured product]({% link catalog/product-create-configurable.md %}) in the Requisition List).
+1. Product has **all options set** (when it is a [configured product]({% link catalog/product-create-configurable.md %}) in the Requisition List).
 
 1. Product is **added to this Requisition List**.
 
 1. Product is [a simple product with options]({% link catalog/settings-advanced-custom-options.md %})
 
-1. Product's type is allowed to edit.
+1. Edit is allowed for the product type.
 
 ### Remove items
 
