@@ -7,6 +7,10 @@ The Now Online option on the Customers menu lists all customers and visitors who
 ![]({% link images/images/customers-now-online.png %}){: .zoom}
 [_Online Customers_]({% link configuration/customers/customer-configuration.md %})
 
+Online status of customers is being updated only upon customer login, registration or any other state changing event, i.e. cart related events like add, remove, modify products etc.
+
+Page visits alone will not update the customer online status. To collect such information, it is recommended to [set up Google Analytics]({% link marketing/google-universal-analytics.md %}) (alone or via [Google Tag Manager]({% link marketing/google-tag-manager.md %})) or use other analytics software with Magento.
+
 ## See all customers currently online
 
 1. On the _Admin_ sidebar, go to **Customers** > **Online Now**.
@@ -38,8 +42,5 @@ The Now Online option on the Customers menu lists all customers and visitors who
 | First Name         | The first name of a registered customer.                                                 |
 | Last Name          | The last name of a registered customer.                                                  |
 | Email              | The email address of a registered customer.                                              |
-| IP Address         | The IP address of the computer that customers and guests are using to access your store. |
-| Session Start Time | The date and time that marks the beginning of the current customer session.              |
 | Last Activity      | The date and time of the customer’s last activity in your store.                         |
 | Type               | Options: Customer / Visitor                                                              |
-| Last URL           | The last URL the customer visited.                                                       |
