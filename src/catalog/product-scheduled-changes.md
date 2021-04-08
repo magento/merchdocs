@@ -64,7 +64,6 @@ _Scheduled change_
 
 1. Click <span class="btn">Save</span>.
 
-
 ## Remove the scheduled change
 
 1. In the _Scheduled Changes_ box at the top of the page, click **View/Edit**.
@@ -72,4 +71,4 @@ _Scheduled change_
 1. On the top bar click <span class="btn">Remove from Update</span>.
 
    ![]({% link images/images-ee/remove-product-scheduled-changes.png %}){: .zoom}
-   _Remove Scheduled Change_ 
+   _Remove Scheduled Change_
