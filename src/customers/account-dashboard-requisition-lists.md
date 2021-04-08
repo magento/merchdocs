@@ -45,7 +45,7 @@ Products may be added to a requisition list from:
 - Product pages
 - The catalog page
 - The shopping cart
-- Existing orders.
+- Existing orders
 
 ### Method 1: From the Product Detail page
 
