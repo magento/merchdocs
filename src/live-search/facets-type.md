@@ -32,4 +32,4 @@ _Select type_
 |**Select type**|**Description**|*
 |---|---|
 |`Single select` |A single-select facet offers multiple options, but allows the shopper to choose only one. Examples: Dropdown, Visual Swatch or Text Swatch (for color)|
-|`Multi-select`| A multi-select facet allows a shopper to choose more than one option. The logical operator that is assigned to a multi-select facet determines the product set that is returned. Options: <br />- `Multi-select (or)` - The returned products match any of the selected values.<br />- `Multi-select (and)` - The returned products match all selected facet values)
+|`Multi-select`| A multi-select facet allows a shopper to choose more than one option. The logical operator that is assigned to a multi-select facet determines the product set that is returned. Options: <br />- `Multi-select (or)` - The returned products match any of the selected values.<br />- `Multi-select (and)` - The returned products match all selected facet values).
