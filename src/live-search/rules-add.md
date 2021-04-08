@@ -44,9 +44,9 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
    -  Search query starts with - Enter a character or string of text that must be at the beginning of the shopper’s query.
    -  Search query ends with - Enter a character or string of text that must be at the end of the shopper’s query.
 
-   The results appear immediately in the _Test your rule_ pane. You can use the _Results per row_ slider in the upper-right to change the number of products in each row.
-
 1. After entering the Search query, click anywhere on the page to test your rule and display the results.
+
+   The results appear immediately in the _Test your rule_ pane and are numbered by priority. You can use the _Results per row_ slider in the upper-right to change the number of products in each row.
 
    ![Rule - simple]({% link live-search/assets/rule-simple-test.png %}){: .zoom}
    _Test output from simple rule_
@@ -62,7 +62,7 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
 
 1. To build a rule with multiple conditions, click <span class="btn">Add condition</span>.
 
-   The logical operator that joins the two conditions is based on the current Match setting.  By default, Match is set to "Any" and the logical operator is "OR".
+   The logical operator that joins the two conditions is based on the current Match setting.  By default, Match is set to "All" and the logical operator is "AND".
 
    ![Rules - Search query contains]({% link live-search/assets/rules-search-query-contains-and.png %}){: .zoom}
    _Search query contains with Match All_
