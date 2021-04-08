@@ -2,12 +2,12 @@
 title: Now Online
 ---
 
-The Now Online option on the Customers menu lists all customers and visitors who are currently online in your store. The interval of time that customers are shown as currently online is set in the configuration, and determines how long the customer’s activity is visible from the Admin. By default, the interval is fifteen minutes.
+The "Now Online" option on the Customers menu lists all customers and visitors who are currently online in your store. The interval of time that customers are shown as currently online is set in the configuration, and determines how long the customer’s activity is visible from the Admin. By default, the interval is fifteen minutes.
 
 ![]({% link images/images/customers-now-online.png %}){: .zoom}
 [_Online Customers_]({% link configuration/customers/customer-configuration.md %})
 
-The online status of customers is being updated only upon customer login, registration, or any other state-changing event, i.e. cart-related events like add, remove, modify products, etc.
+The online status of customers is updated only upon customer login, registration, or any other state-changing event, i.e. cart-related events such as adding, removing, modifying products, etc.
 
 Page visits alone will not update the customer's online status. To collect such information, it is recommended to [set up Google Analytics]({% link marketing/google-universal-analytics.md %}) (alone or via [Google Tag Manager]({% link marketing/google-tag-manager.md %})) or use other analytics software with Magento.
 
