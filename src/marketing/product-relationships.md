@@ -15,3 +15,7 @@ Cross-sells
 
 {:.ee-only}Related Product Rules
 :  [Related product rules]({% link marketing/product-related-rules.md %}) give you the ability to target the selection of products that are presented to customers as related products, up-sells, and cross-sells.
+
+{:.ee-only}
+Product Recommendations powered by Adobe Sensei
+:  [Product Recommendations]({% link marketing/product-recommendations.md %}) powered by Adobe Sensei simplifies the process of defining product relationships by using artificial intelligence and machine-learning algorithms to perform a deep analysis of aggregated visitor data. This data, when combined with your Magento catalog, results in highly engaging, relevant, and personalized experiences for the shopper.
