@@ -144,8 +144,11 @@ Varnish Caching - Recommended for the production environment.
 |Media Storage|Global|Determines the method used to store media files. Default setting: File System|
 |Environment Update Time|Global|Determines the frequency of the media file environment updates in seconds. Default value: 3600|
 
-![]({% link images/images/config-advanced-system-storage-configuration-for-media-database.png %}){: .zoom}
+![]({% link images/images/config-advanced-database-storage-deprecated.png %}){: .zoom}
 [_Storage Configuration for Media - Database_]({% link cms/media-storage.md %})
+
+{:.bs-callout-warning}
+The database media storage method has been deprecated as of Magento 2.4.3.
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
