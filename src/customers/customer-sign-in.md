@@ -81,3 +81,14 @@ _Sign In_
 
    ![]({% link images/images-b2b/customer-company-dashboard.png %}){: .zoom}
    _Account Dashboard - company_
+
+## Sign out of Customer Account
+
+1. In the upper-right corner next to  _Welcome, Customer Name!_, click  the **v** menu selector.
+
+1. Choose **Sign Out**.
+
+   ![]({% link images/images/homepage.png %}){: .zoom}
+   _Sign Out_
+
+After the sign-out, the customer will be redirected to the homepage, in 5 seconds.
