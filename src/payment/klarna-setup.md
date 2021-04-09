@@ -170,7 +170,7 @@ If you want to enable the display of Klarna promotional messages in your storefr
 
 1. To enable Klarna promotional messaging for product pages, set **Enable on product** to `Yes`.
 
-1. To determine the location and style of Klarna promotional messages on the product page, set **Product placement** to the type of script that you copied from the Klarna merchant portal. 
+1. To determine the location and style of Klarna promotional messages on the product page, set **Product placement** to the type of script that you copied from the Klarna merchant portal.
 
    The placement value corresponds to the `data-key` field in the script you chose. For example, the `data-key="credit-promotion-badge` value in the code corresponds to the _Credit Promotion - Badge_ option.
 
