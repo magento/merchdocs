@@ -23,7 +23,7 @@ A [placeholder]({% link catalog/product-image-placeholders.md %}) image appears 
 
 ## Image Detail
 
-When product images are added, there is the possibility to customize the display in the _Image Detail_ window.
+As you add product images, you can customize the display in the  customize the display in the _Image Detail_ window.
 
  ![]({% link images/images/image-video.png %}){: .zoom}
     _Product images_
