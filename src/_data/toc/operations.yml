@@ -179,7 +179,7 @@ pages:
         url: "/system/data-schedule-import.html"
       - label: Scheduling an Export
         url: "/system/data-schedule-export.html"
-    - label: Product Attribute Reference
+    - label: Product Export Attributes Reference
       url: "/system/data-attributes-product.html"
       children:
       - label: Complex Data

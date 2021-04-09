@@ -25,6 +25,9 @@ For the custom role needing Site-Wide Analysis Tool access, do the following:
 
 1. Notify any users who are assigned that role to sign out of the Admin, and sign in again.
 
+{:.bs-callout-info}
+If you have verified that the user account has permission to access the Site-Wide Analysis Tool and the user receives a 403 error when trying to access the tool from the Admin, your Magento Commerce Cloud instance could have HTTP access control enabled. The Site-Wide Analysis Tool Dashboard is NOT supported if you have HTTP Auth enabled. For more information about resolving this issue, see our [Support article](https://support.magento.com/hc/en-us/articles/360057400172-403-errors-when-accessing-Site-Wide-Analysis-Tool-on-Magento).
+
 ## Step 2: Access Site-Wide Analysis Tool
 
 1. On the _Admin_ sidebar, go to **Reports** > _System Insights_ > **Site-Wide-Analysis Tool**.
