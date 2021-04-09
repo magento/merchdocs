@@ -9,7 +9,7 @@ To offer your customers the benefit of paying with Klarna, you must first sign u
 
 ## Part 1: Get the necessary information from the Klarna merchant portal
 
-To enable and configure Klarna for your Magento store, you need information from your Klarna account.
+To enable and configure Klarna for your Magento store, you need the following information from your Klarna account.
 
 ### Step 1: Generate API credentials for your Klarna account
 
