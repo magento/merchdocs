@@ -36,7 +36,7 @@ Enabling Login as Customer requires that you enable the feature in your Magento 
 
    Disabling the page cache (`Yes` - default) ensures that the user logging in as Customer will get fresh, uncached data.
 
-1. (Optional) Set **Store View to Log in** to `Manual Selction` if you have a multi-site and/or multi-store setup and want the Magento Admin user to select the store view when logging in as a customer.
+1. (Optional) Set **Store View to Log in** to `Manual Selection` if you have a multi-site and/or multi-store setup and want the Magento Admin user to select the store view when logging in as a customer.
 
 1. When complete, click <span class="btn">Save Config</span>.
 

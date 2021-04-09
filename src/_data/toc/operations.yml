@@ -167,6 +167,8 @@ pages:
         url: "/system/data-transfer-bundle-products.html"
       - label: Configurable Products
         url: "/system/data-transfer-configurable-products.html"
+      - label: Downloadable Products
+        url: "/system/data-transfer-downloadable-products.html"
       - label: Importing Tier Prices
         url: "/system/data-import-price-tier.html"
     - label: Scheduled Import/Export
@@ -177,7 +179,7 @@ pages:
         url: "/system/data-schedule-import.html"
       - label: Scheduling an Export
         url: "/system/data-schedule-export.html"
-    - label: Product Attribute Reference
+    - label: Product Export Attributes Reference
       url: "/system/data-attributes-product.html"
       children:
       - label: Complex Data

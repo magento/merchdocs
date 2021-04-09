@@ -3,6 +3,7 @@ base_branch: master
  
 repos:
   - magento/merchdocs
+  - magento-commerce/merchdocs
  
 # Labels also will be used as a 'type' value in the output file
 labels:
@@ -17,3 +18,5 @@ output_format:
   - yaml
  
 magic_word: whatsnew
+
+membership: magento-commerce

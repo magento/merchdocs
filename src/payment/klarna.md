@@ -27,7 +27,7 @@ Klarna lets your customers choose how they want to pay and supports the purchase
 - [**Klarna. Checkout**][6] - A complete online checkout solution and "smoooth" shopping experience that increases sales and customer loyalty.
 - [**Klarna. Instore**][7] - An easy way to offer in-store financing that feels more like shopping online.
 - [**Klarna. Instant shopping**][8] - A quick-pay payment button that allows users to instantly shop on social with your product page or any other page you want.
-- [**Klarna. On-Site Messaging**][8] - On-Site Messaging is a platform that enables you to add tailored messaging to your website.
+- [**Klarna. On-Site Messaging**][9] - On-Site Messaging is a platform that enables you to add tailored messaging to your website.
 
 [1]: https://www.klarna.com/us/business/merchant-support/
 [2]: https://paybright.com/

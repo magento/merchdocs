@@ -4,7 +4,7 @@ title: Yotpo Reporting and Analytics
 
 ## Yotpo Reporting
 
-Yotpo reviews and questions are reported in the Yopto [Moderation Interface](https://support.yotpo.com/en/moderation-9610308/reviews-and-qa). Reporting options are based on your type of Yotpo account. The Yotpo moderation interface allows you to view, sort, search, publish and unpublish, reject, and export your reviews.
+Yotpo reviews and questions are reported in the Yotpo [Moderation Interface](https://support.yotpo.com/en/moderation-9610308/reviews-and-qa). Reporting options are based on your type of Yotpo account. The Yotpo moderation interface allows you to view, sort, search, publish and unpublish, reject, and export your reviews.
 
 ### Access Yotpo Reporting
 

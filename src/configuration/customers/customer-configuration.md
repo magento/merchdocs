@@ -61,6 +61,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 |Reset Password Template|Store View|Determines the email template that is used when customers reset their passwords.|
 |Password Template Email Sender|Store View|Determines the store contact that appears as the sender of password-related emails.|
 |Recovery Link Expiration Period (hours)|Global|Specifies the number of hours before a password recovery link expires.|
+|Enable Autocomplete on login/forgot password forms|Website|Determines if autocomplete is enabled on login/forgot password forms. Options: Yes / No|
 |Number of Required Character Classes|Global|Determines the number of different character classes (lowercase, uppercase, numeric, and special characters) that must be included in a password.|
 |Maximum Login Failures to Lockout Account|Global|Determines the number failed login attempts until the Admin account is locked. For unlimited attempts, enter zero (0).|
 |Minimum Password Length|Global|Determines the minimum number of characters allowed in a password. The number must be greater than zero (0).|
@@ -89,10 +90,10 @@ _[Name and Address Options - Open Source]({% link customers/name-address-options
 |Number of Lines in a Street Address|Website|Determines the number of lines in the street address. The street address consists of from 1 to 4 lines. If the field is blank, the default street address of 3 lines is used.|
 |Show Prefix|Website|Determines if the customer name includes a prefix at the beginning, such as Mr., Mrs., and so on. Options: No / Optional / Required|
 |Prefix Dropdown Options|Website|Defines the list of prefix options. Separate values with a semicolon. Place a semicolon before the first value to display an empty value at the top of the list.|
-|Show Middle Name (initia)|Website|Determines if the middle initial is included as part of the customer name. If used, the middle initial is an optional field. Options: Yes / No|
+|Show Middle Name (initial)|Website|Determines if the middle initial is included as part of the customer name. If used, the middle initial is an optional field. Options: Yes / No|
 |Show Suffix|Website|Determines if the customer name includes a suffix at the end, such as Jr., Sr., III, and so on. Options: No / Optional / Required|
 |Suffix Dropdown Options|Website|Defines the list of suffix options. Separate values with a semicolon. Place a semicolon before the first value to display an empty value at the top of the list.|
-|Show Date of Birth|Website|Determines if the customer date of birth is included in the name and address form. Options: No / Optional / Required|
+|Show Date of Birth|Website|Determines if the customer date of birth is included in the name and address form. Options: No / Optional / Required  <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers’ full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers’ full birth dates and instead suggest using customer year of birth as an alternative.|
 |Show Tax/VAT Number|Website|Determines if the Tax or [VAT number]({% link tax/vat.md %}) is included in the name and address form. Options: No / Optional / Required|
 |Show Gender|Website|Determines if gender is included in the name and address form. Options: No / Optional / Required Values: Male / Female / Not Specified|
 |Show Telephone|Website|Determines if the customer's telephone number is included in the name and address form. Options: No / Optional / Required|

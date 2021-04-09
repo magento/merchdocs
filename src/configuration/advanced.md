@@ -2,7 +2,7 @@
 title: Advanced
 ---
 
-The Advanced configuration settings can be found in **Stores** > **Configuration** > **Advanced**.
+The Advanced configuration settings can be found in **Stores** > _Settings_ > **Configuration** > **Advanced**.
 
 ![Advanced configuration settings]({% link images/images/config-advanced.png %}){: .zoom}
 _Advanced configuration settings_

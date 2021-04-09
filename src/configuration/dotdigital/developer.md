@@ -96,3 +96,15 @@ _Cron Timings_
 |Order|Website|Sets the cron job interval to synchronize order data.|
 |Catalog|Website|Sets the cron job interval to synchronize catalog data.|
 |Review and Wishlist|Website|Sets the cron job interval to synchronize product review and wish list data.|
+
+## System Alerts
+
+![System Alerts]({% link images/images/dotdigital-dash-systemalerts.png %}){: .zoom}
+_System Alerts_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enable System Messages|Global|Determines if in-app system messages are sent to admin users when errors that may affect the dotdigital extension are detected. Options: Yes / No|
+|Enable Email Notifications|Global|Determines if system alert email notifications are sent to users with relevant permissions when errors that may affect the dotdigital extension are detected. Options: Yes / No|
+|Select Roles|Global|Specifies the user role(s) that receive system alert email notifications. To select multiple roles, select the **Ctrl** key.|
+|Alert Frequency|Website|Specifies both the email notification frequency and the time interval for error reporting. For example, you might receive email notification every 24 hours and flag errors that occurred during the last 24 hours. Options: 1 Hour / 12 Hours / 24 Hours / 48 Hours / 72 Hours|

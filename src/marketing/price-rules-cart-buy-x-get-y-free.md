@@ -2,9 +2,9 @@
 title: Buy X Get Y Free
 ---
 
-This example shows how to set up a[ cart price rule]({% link marketing/price-rules-cart.md %}) for a _Buy X, Get Y Free_ promotion. The format of the discount is as follows:
+This example shows how to set up a [cart price rule]({% link marketing/price-rules-cart.md %}) for a _Buy X, Get Y Free_ promotion. The format of the discount is as follows:
 
-    Buy X quantity of product, get Y quantity for free.
+Buy X quantity of product, get Y quantity for free.
 
 ## Step 1. Create a Cart Price Rule
 
@@ -32,7 +32,7 @@ _Condition_
 
    - Set **Discount Amount** to `1`. This is the quantity the customer will receive for free.
 
-   - To limit the number of discounts that can be applied when the condition is met, enter the number in the **Maximum Qty Discount is Applied To** field. For example, enter `1` to discount only one item.
+   - To limit the number of discounts that can be applied when the condition is met, enter the number in the **Maximum Qty Discount is Applied To** field (calculated using this [formula](#maximum-qty-discount)).
 
    - In the **Discount Qty Step (Buy X)** field, enter the quantity that the customer must purchase to qualify for the discount. In this example, the customer must purchase three.
 
@@ -82,6 +82,8 @@ To limit the free items from any category A, B, C and receive Y from SKUs D123, 
 
     If ALL of these conditions are TRUE:
     SKU is one of D123, E123, F123
+
+### Maximum Qty Discount
 
 Use the following formula to determine the correct value for the Maximum Qty Discount:
 

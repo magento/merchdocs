@@ -4,7 +4,7 @@ redirect_from:
   - /configuration/engagement-cloud.html
 ---
 
-The dotdigital configuration settings can be found in **System** > **Configuration** > **dotdigital**.
+The dotdigital configuration settings can be found in **Stores** > _Settings_ > **Configuration** > **dotdigital**.
 
 See the following pages for more information on each section:
 
@@ -16,6 +16,5 @@ See the following pages for more information on each section:
 - [Automation]({% link configuration/dotdigital/automation.md %})
 - [Dynamic Content]({% link configuration/dotdigital/dynamic-content.md %})
 - [Transactional Emails]({% link configuration/dotdigital/transactional-emails.md %})
-- [Email Templates]({% link configuration/dotdigital/email-templates.md %})
 - [Configuration]({% link configuration/dotdigital/configuration.md %})
 - [Developer]({% link configuration/dotdigital/developer.md %})

@@ -3,7 +3,7 @@ ee_only: true
 title: Layout - Row
 ---
 
-Use the _Row_ content type to add a new row in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). The row is the basic building block of all Page Builder content. Whenever you create new content, the stage is initially populated with a single, blank row.
+Use the _Row_ content type to add a new row in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage).
 
 {% include page-builder-save-timeout.md %}
 

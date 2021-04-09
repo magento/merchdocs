@@ -4,8 +4,132 @@ description: This page contains recent changes that we think you'd like to know 
   We exclude from this list proofreading, spelling checks, and insignificant updates.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Fri Jan 15 15:24:43 2021
+updated: Wed Mar 31 09:45:38 2021
 entries:
+- description: Adding content about how you can [preview](https://docs.magento.com/user-guide/marketing/create-new-rec.html#preview)
+    recommendation units before deploying to your storefront.
+  versions: 2.4.x
+  type: Major update
+  date: March 23, 2021
+  link: https://github.com/magento-commerce/merchdocs/pull/1
+  merge_commit: d61f9e91dde91cf62b900f0dc0eb71cf886c9858
+  contributor: dshevtsov
+  membership: true
+  labels:
+  - 2.4.x
+  - Major update
+- description: Adding information about [private keys](https://docs.magento.com/user-guide/configuration/services/saas.html)
+    when connecting to SaaS services.
+  versions: 2.4.x
+  type: Minor update
+  date: March 18, 2021
+  link: https://github.com/magento-commerce/merchdocs/pull/2
+  merge_commit: 1539402c15261e1e528ca5d043acff7018e31cb9
+  contributor: erikmarr
+  membership: true
+  labels:
+  - 2.4.x
+  - Minor update
+- description: Updated the Sales Channels [Global Settings](https://docs.magento.com/user-guide/configuration/sales-channels.html)
+    topic to include the _Read Only Mode_ function.
+  versions: 2.4.x
+  type: Minor update
+  date: March 11, 2021
+  link: https://github.com/magento/merchdocs/pull/1086
+- description: Added information about [time and training for machine learning models](https://docs.magento.com/user-guide/marketing/product-recommendations.html#trainmlmodels)
+    for Product Recommendations.
+  versions: 2.4.x
+  type: Major update
+  date: February 25, 2021
+  link: https://github.com/magento/merchdocs/pull/1040
+- description: Added the _Allowed countries_ setting to the website scope section
+    in the [Scope Quick Reference](https://docs.magento.com/user-guide/stores/store-scope-reference.html).
+  versions: 2.4.x
+  type: Minor update
+  date: February 19, 2021
+  link: https://github.com/magento/merchdocs/pull/1047
+- description: Updates in multiple topics to address the use of the default _Date
+    of Birth_ customer account field/attribute.
+  versions: 2.4.x
+  type: Minor update
+  date: February 17, 2021
+  link: https://github.com/magento/merchdocs/pull/1054
+- description: Updated the [About this Release](https://docs.magento.com/user-guide/magento/about-this-release.html)
+    page with links to the 2.4.2 Release Notes.
+  versions: 2.4.2
+  type: Minor update
+  date: February 9, 2021
+  link: https://github.com/magento/merchdocs/pull/1030
+- description: Updated the opt-in for [Admin usage data collection](https://docs.magento.com/user-guide/stores/admin.html)
+    to include value information about in-product guidance.
+  versions: 2.4.2
+  type: Minor update
+  date: February 9, 2021
+  link: https://github.com/magento/merchdocs/pull/1023
+- description: Updated the opt-in [Admin usage configuration](https://docs.magento.com/user-guide/configuration/advanced/admin.html#admin-usage)
+    reference to include value information about in-product guidance.
+  versions: 2.4.2
+  type: Minor update
+  date: February 9, 2021
+  link: https://github.com/magento/merchdocs/pull/1022
+- description: Added the [Purchase order payment methods](https://docs.magento.com/user-guide/customers/account-dashboard-my-purchase-orders.html#purchase-order-payment-methods)
+    section to include information about limitations around payments when processing
+    purchase orders.
+  versions: 2.4.2
+  type: Minor update
+  date: February 9, 2021
+  link: https://github.com/magento/merchdocs/pull/976
+- description: Added multiple updates across the Page Builder section to reflect changes
+    to the [Page Builder stage](https://docs.magento.com/user-guide/cms/page-builder-workspace.html#stage),
+    which is now initially blank and supports adding the following content types directly
+    to the stage for Rows, Columns, Tabs, HTML Code, Blocks, and Dynamic Blocks.
+  versions: 2.4.2
+  type: Major update
+  date: February 9, 2021
+  link: https://github.com/magento/merchdocs/pull/937
+- description: Updated the _Page Builder Workspace_ page to with information about
+    the new Page Builder viewport preview buttons in the stage (see [Viewports](https://docs.magento.com/user-guide/cms/page-builder-workspace.html#viewports)),
+    so users can preview how their content will look on different devices (desktop
+    vs. mobile).
+  versions: 2.4.2
+  type: Major update
+  date: February 9, 2021
+  link: https://github.com/magento/merchdocs/pull/938
+- description: Added a method for [importing images with remote storage](https://docs.magento.com/user-guide/system/data-import-product-images.html#method-3-import-images-with-remote-storage).
+    Added a new data transfer example for [downloadable products](https://docs.magento.com/user-guide/system/data-transfer-downloadable-products.html).
+  versions: 2.4.2
+  type: New topic
+  date: February 9, 2021
+  link: https://github.com/magento/merchdocs/pull/900
+- description: Updates for the latest release of the dotdigital bundled extension:<br/>-
+    A new page for [Transactional SMS](https://docs.magento.com/user-guide/configuration/dotdigital/transactional-sms.html)
+    (dependent on the new `Dotdigitalgroup_Sms` module being installed)<br/>- New
+    sections for [Image Types](https://docs.magento.com/user-guide/configuration/dotdigital/configuration.html#image-types)
+    and [System Alerts](https://docs.magento.com/user-guide/configuration/dotdigital/developer.html#system-alerts)<br/>-
+    A new [Transactional Emails](https://docs.magento.com/user-guide/configuration/dotdigital/transactional-emails.html)
+    section that replaces the old _Email Templates_ section
+  versions: 2.4.2
+  type: Major update
+  date: February 9, 2021
+  link: https://github.com/magento/merchdocs/pull/896
+- description: Added the [Purchase order workflow](https://docs.magento.com/user-guide/stores/b2b-purchase-order-flow.html)
+    topic.
+  versions: 2.4.2
+  type: New topic
+  date: February 9, 2021
+  link: https://github.com/magento/merchdocs/pull/840
+- description: Update to the [Magento_User](https://docs.magento.com/user-guide/marketing/email-template-list.html#magento_user)
+    section in Email Template List for the _New Admin User_ email template.
+  versions: 2.4.2
+  type: Minor update
+  date: February 9, 2021
+  link: https://github.com/magento/merchdocs/pull/797
+- description: Added the [Media Gallery Image Optimization](https://docs.magento.com/user-guide/cms/media-gallery-image-optimization.html)
+    to describe new functionality for image optimization.
+  versions: 2.4.2
+  type: New topic
+  date: February 9, 2021
+  link: https://github.com/magento/merchdocs/pull/762
 - description: Added _Authentication Locks_ section to the [Oauth](https://docs.magento.com/user-guide/configuration/services/oauth.html)
     configuration reference.
   versions: 2.4.x
@@ -350,4 +474,4 @@ entries:
   versions: 2.4.0
   type: Major update
   date: July 28, 2020
-  link: 
+  link:

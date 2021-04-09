@@ -144,8 +144,11 @@ Varnish Caching - Recommended for the production environment.
 |Media Storage|Global|Determines the method used to store media files. Default setting: File System|
 |Environment Update Time|Global|Determines the frequency of the media file environment updates in seconds. Default value: 3600|
 
-![]({% link images/images/config-advanced-system-storage-configuration-for-media-database.png %}){: .zoom}
+![]({% link images/images/config-advanced-database-storage-deprecated.png %}){: .zoom}
 [_Storage Configuration for Media - Database_]({% link cms/media-storage.md %})
+
+{:.bs-callout-warning}
+The database media storage method has been deprecated as of Magento 2.4.3.
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -213,6 +216,17 @@ _Media Gallery_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable Old Media Gallery|Global|Enables or disables the old Media Gallery.|
+
+## Media Gallery Image Optimization
+
+![Advanced configuration - Media Gallery Image Optimization]({% link images/images/enhanced-media-gallery/system-image-optimization.png %}){: .zoom}
+_Media Gallery Image Optimization_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enable Image Optimization|Global|Determines if images are resized to decrease the file size of the images inserted to the content. Original images are preserved in the Media Gallery.|
+|Maximum Width|Global|The maximum width (in pixels) for images inserted from Media Gallery into the content.|
+|Maximum Height|Global|The maximum height (in pixels) for images inserted from Media Gallery into the content.|
 
 [1]: https://en.wikipedia.org/wiki/Sendmail
 [2]: https://magento.com/security/news/new-zend-framework-1-security-vulnerability

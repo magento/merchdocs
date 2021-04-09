@@ -14,31 +14,25 @@ redirect_from:
 - [Schedule campaigns][6]
 - [Generate reports]({% link reports/customer-engagement.md %})
 
-## Changes in the latest release
+## Highlights from recent releases
 
 - {:.fix}Features
 
-   - PageBuilder support: Engagement Cloud pages and forms can be embedded in any storefront page.
+   - Transactional SMS notifications: a new module that automates SMS notifications on new order confirmation, order update, new shipment, shipment update and new credit memo.
 
-   - Diagnostic alerts: New diagnostic system alerts available through in-app system messages and email notifications.
+   - Flexible image sizes: a new feature that enables merchants to choose which image size they prefer to use for different contexts in dotdigital Engagement Cloud.
+
+   - PageBuilder support: dotdigital pages and forms can be embedded in any storefront page.
+
+   - Diagnostic alerts: available through in-app system messages and email notifications.
 
 - {:.fix}Enhancements
 
-   - Newsletter subscription email captured server-side after submit to support PageBuilder forms integration.
-
-   - Abandoned cart program listing includes those with a status of 'Draft' or 'Deactivated'.
-
-   - Content security policy allowlist includes specific dotdigital domains.
+   - Safari iframe login issues resolved for button links in dotdigital > Chat Settings.
 
    - Abandoned cart block is visible in EasyEditor before customer data is received.
 
-   - Email dashboard includes all active dotdigital modules and version numbers.
-
    - 25% performance improvement for batch catalog sync processes of configurable products.
-
-   - Automation sync timing offset to every 16 minutes to avoid conflict with contact sync.
-
-   - Order Insight data shows distinct bundle products with subitems.
 
 [1]: https://dotdigital.com/
 [2]: https://support.dotdigital.com/hc/en-gb/articles/115001930050-Email-campaigns-an-overview

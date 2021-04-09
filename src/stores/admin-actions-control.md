@@ -75,7 +75,7 @@ The checkbox in the first column of the list identifies each record that is a ta
 |List|Actions|
 |--- |--- |
 |All Customers|Delete<br/>Subscribe to Newsletter<br/>Unsubscribe from Newsletter<br/>Assign a Customer Group<br/>Edit|
-|<span class="b2b-only">Companies</span>|Set Active<br/>Block<br/>Delete<br/>Edit<br/>Convert Credit|]
+|<span class="b2b-only">Companies</span>|Set Active<br/>Block<br/>Delete<br/>Edit<br/>Convert Credit|
 
 ### Marketing
 

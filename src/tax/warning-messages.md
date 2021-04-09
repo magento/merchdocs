@@ -14,13 +14,20 @@ If your tax calculation is based on a problematic configuration, the following w
 
 Use the following tables for reference when configuring tax calculation settings:
 
-### Tax calculation method based on: excluding tax
+### Tax calculation method based on
+
+Method | Description
+------ | ----------
+Unit Price | The price of each product
+Row Total | The total of the line item in the order, less discounts
+Total | The order total
+
+### Catalog prices: excluding tax
 
 #### Tax excluded
 
-Price Display | Unit Price | Row Total | Total
+[Price Display]({% link tax/display-settings.md %}) | Unit Price | Row Total | Total
 ------------- | ---------- | --------- | -----
-Tax Class for Shipping | Shipping (is taxed) | |
 Excluding tax | OK | OK | OK
 Including tax | OK | OK | OK
 Including and Excluding tax | OK | OK | Warning
@@ -29,14 +36,14 @@ Including and Excluding tax | OK | OK | Warning
 
 #### Tax Included
 
-Price Display | Unit Price | Row Total | Total
+[Price Display]({% link tax/display-settings.md %}) | Unit Price | Row Total | Total
 ------------- | ---------- | --------- | -----
 Excluding tax | OK | OK | OK
 Including tax | OK | OK | OK
 Including and Excluding tax | OK | Warning | Warning
 
 ![]({% link images/images/config-sales-tax-calculation-settings.png %}){: .zoom}
-_Calculation Settings_
+[_Calculation Settings_]({% link configuration/sales/tax.md %})
 
 ## Discount settings
 

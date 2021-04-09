@@ -259,6 +259,7 @@ The list of email templates is organized alphabetically by Magento module.
 |--- |--- |
 | Forgot Admin Password | **Page:** Advanced > [Admin]({% link configuration/advanced/admin.md %})<br/>**Section:** Admin User Emails<br/>**Field:** Forgot Password Email Template |
 | User Notification | **Page:** Advanced > [Admin]({% link configuration/advanced/admin.md %})<br/>**Section:** Admin User Emails<br/>**Field:** User Notification Template |
+| New User Notification | **Page:** Advanced > [Admin]({% link configuration/advanced/admin.md %})<br/>**Section:** Admin User Emails<br/>**Field:** New User Notification Template |
 
 ## Magento_Wishlist
 

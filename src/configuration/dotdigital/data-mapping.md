@@ -17,7 +17,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 |Customer ID|Website|Maps the Customer ID data field from Magento to your corresponding contact data field in dotdigital.|
 |Firstname|Website|Maps the First Name customer data field from Magento to the corresponding contact data field in dotdigital. Default data field: FIRSTNAME|
 |Lastname|Website|Maps the Last Name customer data field from Magento to the corresponding contact data field in dotdigital. Default data field: LASTTNAME|
-|D.O.B.|Website|Maps the Date of Birth customer data field from Magento to a corresponding contact data field in dotdigital.|
+|D.O.B.|Website|Maps the Date of Birth customer data field from Magento to a corresponding contact data field in dotdigital. <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers’ full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers’ full birth dates and instead suggest using customer year of birth as an alternative.|
 |Gender|Website|Maps the Gender customer data field from Magento to the corresponding contact data field in dotdigital. Default data field: GENDER|
 |Created At|Website|Maps the date the customer account was created from Magento to a corresponding contact data field in dotdigital.
 |Last Logged in Date|Website|Maps the date the customer last logged in from Magento to a corresponding contact data field in dotdigital.|

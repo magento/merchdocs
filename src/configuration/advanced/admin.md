@@ -99,4 +99,4 @@ _Admin Usage_
 
 Field | Scope | Description
 --- | --- | ---
-Enable Admin Usage Tracking | Global | When set to **Yes**, Magento anonymously tracks how administrators interact with the Admin to help improve the user experience. This setting applies to all administrator accounts and persists after Magento upgrades.
+Enable Admin Usage Tracking | Global | When set to **Yes**, Magento anonymously tracks how administrators interact with the Admin to help improve the user experience. Starting with Magento Commerce 2.4.2, this also enables interactive _In-Product Guidance_, providing Admin users with help and tips on better utilization of the product from within the Admin UI. Content such as new feature announcements, walk-through guides, onboarding information, tool tips, and more will be available through this feature.

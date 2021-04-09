@@ -38,9 +38,9 @@ _Access Token Expiration_
 ## Authentication Locks
 
 ![]({% link images/images/config-services-oauth-authentication-locks.png %}){: .zoom}
-_Authentication Locks_
+[_Authentication Locks_]({% link system/integrations.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Maximum Login Failures to Lock Out Account|Global|Determines the number failed login attempts until the account is locked. For unlimited attempts, enter zero (0).|
-|Lockout Time (seconds)|Global|Determines the number of seconds an account is locked after too many failed attempts to log in.|
+|Maximum Login Failures to Lock Out Account|Global|Specifies the Maximum Number of authentication failures to lock out account.|
+|Lockout Time (seconds)|Global|Specifies the period of time in seconds after which account will be unlocked.|

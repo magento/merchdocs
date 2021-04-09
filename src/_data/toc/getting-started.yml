@@ -65,10 +65,10 @@ pages:
       url: "/quick-tour/differentiate-personalize.html"
     - label: Empower with Self-Service Tools
       url: "/quick-tour/self-service-tools.html"
-    - label: Reduce Ordering Errors
-      url: "/quick-tour/reduce-ordering-errors.html"
     - label: Increase Profitability
       url: "/quick-tour/increase-profitability.html"
+    - label: Reduce Ordering Errors
+      url: "/quick-tour/reduce-ordering-errors.html"
     - label: Seize Market Opportunities
       url: "/quick-tour/market-opportunities.html"
 - label: Basic Configuration
@@ -166,6 +166,8 @@ pages:
         url: "/stores/b2b-configure-requisition-lists.html"
       - label: Configuration Summary
         url: "/stores/b2b-configuration-settings.html"
+      - label: Purchase Order Overview
+        url: "/stores/b2b-purchase-order-flow.html"
   - label: Industry Compliance
     url: "/stores/compliance-industry.html"
     versionless: true

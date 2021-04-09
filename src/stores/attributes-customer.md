@@ -151,6 +151,6 @@ Attribute Code  | Description
 `lastname`      | The last name of the customer.
 `suffix`        | Any suffix that is used with the customer name. (Jr., Sr., Esquire, etc.)
 `email`         | The customer’s email address.
-`dob`           | The customer’s date of birth.
+`dob`           | The customer’s date of birth.  <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers’ full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers’ full birth dates and instead suggest using customer year of birth as an alternative.
 `taxvat`        | The Value Added Tax (VAT) ID that is assigned to the customer. The default label of this attribute is “VAT Number”. The VAT number field is always present in all shipping and billing customer addresses when viewed from the Admin, but is not a required field.
 `gender`        | The customer gender.

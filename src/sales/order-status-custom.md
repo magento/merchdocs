@@ -82,7 +82,7 @@ A status setting cannot be unassigned from a state if the status is currently in
 |Payment Review|payment_review|This status appear when PayPal payment review is turned on.|
 |Pending|pending|This status means no invoice and shipments have been submitted.|
 |On Hold|holded|This status can only be assigned manually. You can put any order on hold.|
-|Complete|complete|This status means that order is crated, paid, and shipped to customer.|
+|Complete|complete|This status means that order is created, paid, and shipped to customer.|
 |Closed|closed|This status indicates that an order have had a credit memo assigned to it and the customer has received a refund.|
 |Canceled|canceled|This status is assigned manually by you or, on some payment gateways, when customer does not pay within the specified time.|
 |PayPal Canceled Reversal|payment_canceled_reversal|This status means that Paypal canceled the reversal.|

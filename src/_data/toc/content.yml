@@ -52,6 +52,8 @@ pages:
             url: "/cms/media-gallery-asset-management.html"
           - label: Folder Management
             url: "/cms/media-gallery-folder-management.html"
+          - label: Media Gallery Image Optimization
+            url: "/cms/media-gallery-image-optimization.html"
     - label: Using the Editor
       url: "/cms/editor.html"
       children:

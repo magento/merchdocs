@@ -8,8 +8,6 @@ As we continue to evolve this technology and ensure you are successful in implem
 
 1. Customer grouped pricing - Product recommendations do not support customer grouped pricing. Recommendations do support regular and special pricing. See [advanced pricing]({% link catalog/pricing-advanced.md %}) for more information.
 
-1. Bundled and grouped products - Product recommendations do not support bundled and group products. These products will not be shown in a recommendation unit.
+1. Bundled and grouped products - While Product Recommendations now support showing Bundled and Grouped products, there is a limitation in how their pricing is calculated. Currently, pricing is received as zero or null, which causes it to be hidden in the [default storefront template](https://github.com/magento-commerce/magento-product-recommendations) for Recommendations.
 
 1. Category permissions - Recommendations do not filter based on if customers or segments only have visibility to certain categories or products. The result is that shoppers might see recommendations for products they do not have access to.
-
-1. Headless - Currently, only Magento-powered storefronts are supported. Headless implementations, including PWA, are not supported due to the inability to provide the required storefront behavioral data.

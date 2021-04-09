@@ -33,7 +33,7 @@ Make sure that the [base URLs]({% link stores/store-urls.md %}) for the store ar
    The settings are the same in each section.
 
     |**Generate Schedules Every**|Defines how often the schedule is generated (in minutes). Schedules are stored in the database.|
-    |**Schedule Ahead for**|Defines how far in advance cron jobs will be scheduled (in minutes). For example, if this setting is set to `10`and the cron runs, cron jobs will be scheduled for the next 10 minutes.|
+    |**Schedule Ahead for**|Defines how far in advance cron jobs will be scheduled (in minutes). For example, if this setting is set to `10` and the cron runs, cron jobs will be scheduled for the next 10 minutes.|
     |**Missed if not Run Within**|Defines the time (in minutes) that, if the cron job is not run after its scheduled time, it cannot be run, and its status is set to `Missed`.|
     |**History Cleanup Every**|Defines the time (in minutes) that the history of ended tasks is cleared from the database.|
     |**Success History Lifetime**|Defines the time (in minutes) for which the history of cron jobs with a `Successful` status remain in the database.|

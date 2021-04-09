@@ -2,24 +2,35 @@
 title: Site-Wide Analysis Tool
 ---
 
-The Site-Wide Analysis Tool (SWAT) provides 24/7 real-time performance monitoring, reports, and recommendations to ensure the security and operability of Magento Commerce Cloud installations. SWAT provides a dashboard and reports with system insights and recommendations based on best practices that you can use to address detected issues. The service is available in [production mode]({% link magento/installation-modes.md %}) for Admin users with permission to access user [role resources]({% link system/permissions-user-roles.md %}).
+The Site-Wide Analysis Tool (SWAT) provides 24/7 real-time performance monitoring, reports, and recommendations to ensure the security and operability of Magento Commerce Cloud installations. The Site-Wide Analysis Tool provides a dashboard and reports with system insights and recommendations based on best practices that you can use to address detected issues. The service is available in [production mode]({% link magento/installation-modes.md %}) for Admin users with permission to access user [role resources]({% link system/permissions-user-roles.md %}).
 
 ![Swat Dashboard]({% link images/images-ee/reports-swat-dashboard.png %}){: .zoom}
 _SWAT Dashboard_
 
 ## Step 1: Verify permissions
 
-1. Verify that the Admin user has permission to access SWAT.
+Verify that the Admin user account has permission to access the Site-Wide Analysis Tool through their [assigned user role]({% link system/permissions-user-roles.md %}).
 
-   Access to SWAT is assigned by default to any Admin role with access to `All` resources.
+{:.bs-callout-warning}
+The Site-Wide Analysis Tool role resource (permission) is **not** auto-assigned. It MUST be activated for the user role and the role individually assigned to each user account in the Admin.
 
-1. For Admin users with custom roles, assign permission to access the _System Insights_ [Site-Wide Analysis Tool]({% link system/permissions-user-roles.md %}) role resource.
+For the custom role needing Site-Wide Analysis Tool access, do the following:
 
-1. If necessary, notify any users who are assigned the custom role to sign out of the Admin, and sign in again.
+1. Select the **Reports** > _System Insights_ > **Site-Wide Analysis Tool** role resource.
 
-## Step 2: Access SWAT
+   ![Select the Site-Wide Analysis Tool permission]({% link images/images-ee/reports-swat-role-access.png %}){: width="330px"}<br/>
+   _Site-Wide Analysis Tool permission selected for the role_
 
-1. On the Admin sidebar, go to **Reports** > System Insights > **Site-Wide-Analysis Tool**.
+1. Click <span class="btn">Save Role</span>.
+
+1. Notify any users who are assigned that role to sign out of the Admin, and sign in again.
+
+{:.bs-callout-info}
+If you have verified that the user account has permission to access the Site-Wide Analysis Tool and the user receives a 403 error when trying to access the tool from the Admin, your Magento Commerce Cloud instance could have HTTP access control enabled. The Site-Wide Analysis Tool Dashboard is NOT supported if you have HTTP Auth enabled. For more information about resolving this issue, see our [Support article](https://support.magento.com/hc/en-us/articles/360057400172-403-errors-when-accessing-Site-Wide-Analysis-Tool-on-Magento).
+
+## Step 2: Access Site-Wide Analysis Tool
+
+1. On the _Admin_ sidebar, go to **Reports** > _System Insights_ > **Site-Wide-Analysis Tool**.
 
 1. Read the _Terms of Use_ for the Site Wide Analysis Tool and click <span class="btn">Accept</span> to continue.
 
@@ -47,8 +58,7 @@ _SWAT Dashboard_
 |Tab|Description|
 |--- |--- |
 |Dashboard|Shows the health of your system with current notifications and recommendations by priority.|
-|Information|Provides customer contact information and summary of current tickets, with detail information about each installed Magento product.|
-|Recommendations|Lists recommendations based on best practice to address issues detected on your system.|
-|Exceptions|Lists errors thrown by your server that are caused by abnormal conditions without a known solution.|
-|Extensions|Lists all extensions installed on your Magento instance.|
-|Outages|Provides detail of past outages, with option to Get Current Data.|
+|Information|Provides customer contact information and summary of current tickets, with detailed information about each installed Magento product.|
+|Recommendations|Lists recommendations based on best practices to address issues detected on your site.|
+|Exceptions|Lists errors thrown by the application caused by abnormal conditions without a error handler.|
+|Extensions|Lists all 3rd-Party Extensions and 3rd-Party Libraries.|

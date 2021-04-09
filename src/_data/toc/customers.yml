@@ -43,6 +43,9 @@ pages:
     children:
     - label: My Account
       url: "/customers/account-dashboard-my-account.html"
+    - label: Order by SKU
+      url: "/customers/account-dashboard-order-by-sku.html"
+      edition: b2b-only
     - label: My Quotes
       url: "/customers/account-dashboard-quotes.html"
       edition: b2b-only
@@ -74,6 +77,7 @@ pages:
       url: "/customers/account-dashboard-billing-agreements.html"
     - label: Store Credit
       url: "/customers/account-dashboard-store-credit.html"
+      edition: ee-only
     - label: Gift Card
       url: "/customers/account-dashboard-gift-cards.html"
       edition: ee-only

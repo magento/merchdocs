@@ -3,7 +3,7 @@ ee_only: true
 title: Layout - Column
 ---
 
-Use the _Column_ content type to divide a row into multiple columns in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). When you add a column to an empty row, the row is initially divided into two columns of equal width. You can add or remove columns, as needed. A column can be resized by dragging the border between two columns. The width of the next column is adjusted to fill the available space in the row. If a row has only a single column, it extends the full width of the row.
+Use the _Column_ content type to divide a page into multiple columns in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). When you add a column to a row or tab or directly to the stage, the column group is initially divided into two columns of equal width. You can add or remove columns, as needed. A column can be resized by dragging the border between two columns. The width of the next column is adjusted to fill the available space within the row, tab, or stage. A single column extends the full width of the stage or its container.
 
 ![]({% link images/images-ee/page-builder-layout-column-add-drag-placeholder.png %}){: .zoom}
 _Adding a column_
@@ -16,7 +16,7 @@ Each column has a toolbox of options that appears when you hover over the contai
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![]({% link images/images-ee/icon-pb-move.png %})|Moves the column and its content to another position in relation to other columns in the row.|
+|Move|![]({% link images/images-ee/icon-pb-move.png %})|Moves the column and its content to another position in relation to other columns.|
 |(label)|Column|Identifies the current container as a column. Hover over the column container to show the toolbox.|
 |Settings|![]({% link images/images-ee/icon-pb-settings.png %})|Opens the Edit Column page, where you can change the properties of the container.|
 |Duplicate|![]({% link images/images-ee/icon-pb-duplicate.png %})|Makes a copy of the current column.|
@@ -29,29 +29,29 @@ The [grid]({% link cms/page-builder-workspace.md %}) ensures that content is ali
 ![]({% link images/images-ee/page-builder-layout-column-one-grid.png %}){: .zoom}
 _Grid divisions on a row with one column_
 
-In the following two-column example, the numbers in parentheses (6 /12) in the top border of each column container indicate the number of grid divisions in each column and the total number of divisions in the row. This indicates that the column is the width of six grid units out of a total of twelve.
+In the following two-column example, the numbers in parentheses (6 /12) in the top border of each column container indicate the number of grid divisions in each column and the total number of divisions. This indicates that the column is the width of six grid units out of a total of twelve.
 
 ![]({% link images/images-ee/page-builder-layout-column-two-grid.png %}){: .zoom}
 _Grid divisions on row with two columns_
 
 ## Add a column
 
-1. In the Page Builder panel under _Layout_, drag a **Column** to a row.
+1. In the Page Builder panel under _Layout_, drag a **Column** to the stage.
 
    ![]({% link images/images-ee/page-builder-layout-column-add-drag-placeholder.png %}){: .zoom}
-   _Dragging a column to a row_
+   _Dragging a column to the stage_
 
-   The row is now divided into two columns of equal width. Each column is a separate container for content and has its own set of toolbox options.
+   The column group is now divided into two columns of equal width. Each column is a separate container for content and has its own set of toolbox options.
 
    ![]({% link images/images-ee/page-builder-layout-columns-two-empty.png %}){: .zoom}
-   _Row with two equal columns_
+   _Two equal columns_
 
-1. In the upper-left corner of the row, click the Grid tool (![]({% link images/images-ee/icon-pb-grid-control.png %})) and adjust the positioning as needed.
+1. In the upper-left corner of the column group, click the Grid tool (![]({% link images/images-ee/icon-pb-grid-control.png %})) and adjust the grid size as needed.
 
    Positioning content on the grid helps to align content consistently and renders the page correctly on both desktop and mobile devices. For more information, see the [Advanced Content Tools]({% link configuration/general/content-management.md %}) section of the Page Builder configuration.
 
    ![]({% link images/images-ee/page-builder-layout-column-two-grid.png %}){: .zoom}
-   _Grid divisions on row with two columns_
+   _Grid divisions on two columns_
 
 ## Resize a column
 
@@ -80,12 +80,12 @@ _Grid divisions on row with two columns_
 
    To speed up the process in the future, you can skip the confirmation step by selecting the **Do not show this again** checkbox.
 
-   The row now has a single column (12/12) and grid. Because the grid is available only for columns, you can use this technique to show the grid for any row.
+   The column group now has a single column (12/12) and grid. Because the grid is available only for columns, you can use this technique to show the grid.
 
    ![]({% link images/images-ee/page-builder-column-single-grid.png %}){: .zoom}
    _Single column with grid_
 
-1. If you want the column to extend the remaining column to the full width of the row:
+1. If you want the column group to extend the remaining column to the full width of the row or stage:
 
    - Hover over the column to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
@@ -107,12 +107,12 @@ _Grid divisions on row with two columns_
 
 1. Change the **Appearance** settings as needed.
 
-   - Choose an alignment setting to determine the position of the column in relation to the row.
+   - Choose an alignment setting to determine the position of the column in relation to its container.
 
-      |Full Height|The column extends the full height of the row.
-      |Top Aligned|The column is aligned at the top of the row.
-      |Centered|The column in centered in the middle of the row.
-      |Bottom Aligned|The column is aligned at the bottom of the row.
+      |Full Height|The column extends the full height of its container.
+      |Top Aligned|The column is aligned at the top of its container.
+      |Centered|The column in centered in the middle of its container.
+      |Bottom Aligned|The column is aligned at the bottom of its container.
 
    - If needed, enter the **Minimum Height** for the column. For example, you might set the minimum height to match the height of a background image.
 

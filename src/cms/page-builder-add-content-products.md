@@ -9,7 +9,9 @@ Use the _Products_ content type to add a list of products to the [Page Builder s
 
 The product carousel provides a powerful and engaging way to show off your products. To get the most out of it, we recommend adhering to the following guidelines:
 
-- Use the product carousel directly within a row to ensure a responsive layout of your products. Currently, inserting a product carousel inside a column or tab will break responsiveness.
+- Add product carousels directly to page-width containers like rows, tabs, or one-column layouts. Using page-width layouts ensure the best responsive display of your products. Page Builder reduces the number of products shown depending on the width of the page, not the width of the container.
+
+- Do not add a product carousel to a narrow column. As mentioned, Page Builder, by default, determines the number of products to display based on the page width, not the column width.
 
 - If you want your product carousel to auto-scroll continuously, set both **Autoplay** and **Infinite Loop** to `Yes`. If Autoplay is set to `Yes` but Infinite Loop is set to `No`, auto-scrolling will stop at the end of your products list.
 
@@ -69,7 +71,7 @@ Complete the _Settings_ according to the following sections:
 1. Choose one of the appearance types to determine how the products list is displayed on the page:
 
    | Product Grid     | Displays the products within a grid that shows five products per row (by default), with as many rows as needed to display the number entered in the **Number of Products to Display** setting.  |
-   | Product Carousel | Displays the products within a carousel (also known as a slider). The carousel shows up to five products per slide. <br/><br/>**Responsiveness Alert**: When you select this appearance, it is best to add the Products content type directly to a row where it is responsive, showing fewer products per side on smaller screens. If you add it to any other content type (such as a column or tab), the carousel always shows five products per slide, regardless of the screen size. |
+   | Product Carousel | Displays the products within a carousel (also known as a slider). The carousel shows up to five products per slide. <br/><br/>**Responsiveness Alert**: When you select this appearance, it is best to add the Products content type directly to a row, tab, or one-column layout where it is responsive, showing fewer products per side on smaller screens. If you add it to content types that are narrower than the width of the page (such as a narrow column), the carousel will display more products per slide than the container allows, regardless of the screen size. |
 
    ![Product appearance]({% link images/images-ee/page-builder-products-appearances.png %}){: .zoom}
    _Setting the product appearance_
@@ -133,6 +135,9 @@ Complete the _Settings_ according to the following sections:
 
    {:.bs-callout-info}
    Some products in the Category, SKU, or Condition settings may not appear in your products grid or carousel. For example, disabled products, products marked as not visible, out-of-stock products, and products assigned to another website will not be displayed.
+
+   {:.bs-callout-warning}
+   Prices for configurable, grouped and bundled (dynamic price) products are undefined in the Admin area. Therefore, these products are not displayed in the **preview** if the products are filtered by price. These products cannot be ordered correctly in the **preview** if ordered by price.
 
 ### Carousel Settings
 

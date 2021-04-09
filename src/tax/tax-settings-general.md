@@ -169,7 +169,7 @@ Some combinations of settings related to a price display that both include and e
 
 1. Set **Enable FPT** to either to `Yes` or `No`, according to your requirements.
 
-1. If FTP is enabled, specify FTP display options:
+1. If FPT is enabled, specify FPT display options:
 
    - **Display Prices in Product Lists**
    - **Display Price On Product view Page**
