@@ -69,3 +69,27 @@ _Gift Card Accounts_
     - If you are not ready to send the gift card, click **Save**.
 
     - To save the changes and send the gift card by email to the recipient, click **Save & Send Email**.
+
+## Gift card account history
+
+If you need to find the gift card action history, do the following:
+
+1. Go to **Marketing** > **Gift Card Accounts**.
+
+1. Open the gift card in edit mode.
+
+1. The **History** section displays the history of actions for this gift card.
+
+    ![]({% link images/images-ee/gift-card-history.png %}){: .zoom}
+    _Gift Card History_
+
+## Actions
+
+|Action|Description|
+|--- |--- |
+|Created|Date and time of creation, amount, who created the gift card.|
+|Updated|Card balance update.|
+|Sent|Recipient information.|
+|Used|Gift card amount used on the checkout.|
+|Redeemed|Gift card amount activated in the customer account.|
+|Expired|Gift card expiration date.|
