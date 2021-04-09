@@ -63,7 +63,7 @@ Products may be added to a requisition list from:
 
 1. From the storefront, go to the catalog page that contains the product that is to be added to the requisition list.
 
-1. Hover over to product.
+1. Hover over the product.
 
 1. Click **Add to Requisition List** button and do one of the following:
 
