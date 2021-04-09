@@ -23,7 +23,7 @@ The balance of the gift card is displayed.
 
 ## Gift card activation
 
-1. On the _Gift Card_ page,  the customer enters gift card code.
+1. On the **Gift Card** page,  the customer enters gift card code.
 
 1. The customer clicks **Redeem Gift Card**.
 

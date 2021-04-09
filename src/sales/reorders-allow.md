@@ -43,7 +43,7 @@ A customer can initiate the reorder functionality for a specific order from two 
 
 ## My Orders
 
-The _Reorder_ button is always displayed in the list with Orders (even if all products from the order is not available for reorder).
+The _Reorder_ button is always displayed in the list with Orders (even if all products from the order are not available for reorder).
 
 ![]({% link images/images/my-order-page-view.png %}){: .zoom}
 
@@ -53,7 +53,7 @@ User will be redirected to the cart, and all products are added to the cart
 
 ![]({% link images/images/shopping-cart-page.png %}){: .zoom}
 
-**Case 2.** Some/all products from the order are **non-available** for reorder
+**Case 2.** Some/all products from the order are **not available** for reorder
 
 The _Reorder_ button will not appear on the _My Orders_ and _View Order_ pages.
 
@@ -65,7 +65,7 @@ The _Reorder_ button will not appear on the _My Orders_ and _View Order_ pages.
 
 User will be redirected to the cart, and all products are added to the cart
 
-**Case 2.** Some/all products from the order are **_not available_** for reorder
+**Case 2.** Some/all products from the order are **not available** for reorder
 
 The _Reorder_ button will not appear on the _My Orders_ and _View Order_ pages.
 
