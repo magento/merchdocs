@@ -20,3 +20,30 @@ From the _Images and Videos_ section, you can perform basic image management tas
     - Click the **camera** (![]({% link images/images/btn-camera.png %})) tile, select the image file, and click <span class="btn">Open</span>.
 
 A [placeholder]({% link catalog/product-image-placeholders.md %}) image appears in the catalog until a product image is available.
+
+## Image Detail
+
+When product images are added, there is the possibility to customize the display in the _Image Detail_ window.
+
+ ![]({% link images/images/image-video.png %}){: .zoom}
+    _Product images_
+
+To set image displaying options for a product:
+
+1. Click the product image.
+
+1. Enter the **Alt text**.
+
+1. Choose a **Role** for displaying the image (all roles can be selected for one image):
+
+    - **Swatch**
+    - **Base**
+    - **Small**
+    - **Thumbnail**
+
+   All of these roles are selected for the first added image by default.
+
+   ![]({% link images/images/details.png %}){: .zoom}
+    _Image details_
+
+To hide the product image from the product page, select the **Hide from Product Page** checkbox.
