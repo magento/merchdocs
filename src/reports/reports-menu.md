@@ -4,7 +4,7 @@ title: Reports Menu
 
 Magento provides a wide selection of reports to keep you informed on your marketing efforts, sales products, and customer activity. The Reports menu provides easy access to current information about your sales, products, customers, and promotions.
 
-![Reports Menu]({% link images/images-ee/admin-menu-reports.png %}){: .zoom}
+![Reports Menu]({% link images/images/reports-overview.png %}){: .zoom}
 _Reports Menu_{:.ee-only}
 
 ## Display the Reports menu
