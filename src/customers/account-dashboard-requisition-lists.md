@@ -65,7 +65,7 @@ Products may be added to a requisition list from:
 
 1. Hover over the product.
 
-1. Click **Add to Requisition List** button and do one of the following:
+1. Click **Add to Requisition List** and do one of the following:
 
    - Choose an existing requisition list.
    - Create a new requisition list.
