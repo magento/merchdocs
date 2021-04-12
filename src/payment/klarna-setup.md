@@ -58,7 +58,9 @@ To enable the display of Klarna promotional messages in your storefront, do the 
 
 1. In the left sidebar under _On-site messaging_, choose **Placements**.
 
-1. Scroll down to examine the different message styles that are available and choose the one(s) that you want to use for the product page and shopping cart. Then, copy the block(s) of code to the text editor below the other two installation scripts.
+1. Scroll down to examine the different message styles that are available and choose the one(s) that you want to use for the product page and shopping cart. 
+
+1. Copy the block(s) of code to the text editor below the other two installation scripts.
 
    Take note of the `data-key` value in each script. This value corresponds to the _Product placement_ field in the Magento configuration. You now have all the information necessary to complete the Magento configuration.
 
