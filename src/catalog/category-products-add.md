@@ -18,7 +18,7 @@ To add products use either the **Search All Products** or **Add Product by SKU**
     ![]({% link images/images-ee/search-all-product.png %}){: .zoom}
     _Search All Products Tab_
 
-1. To add a product, set the **Assign option** to **Yes** and click <span class="btn">Save and Close</span>. 
+1. To add a product, set the **Assign option** to **Yes** and click <span class="btn">Save and Close</span>.
 
 ### Actions
 
@@ -39,5 +39,3 @@ To add products use either the **Search All Products** or **Add Product by SKU**
     _Add Products by SKU tab_
 
 1. For approve changes click <span class="btn">Save and Close</span>.
-
-
