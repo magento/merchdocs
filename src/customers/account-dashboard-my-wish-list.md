@@ -112,4 +112,3 @@ In the storefront, Wish List can be created from your account dashboard, product
 
     ![]({% link images/images/account-dashboard-wishlist-sharing-email.png %}){: .zoom}
     _Shared Wish List Email_
-
