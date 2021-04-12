@@ -7,11 +7,11 @@ To offer your customers the benefit of paying with Klarna, you must first sign u
 {:.bs-callout-info}
 **Important**: Klarna does not support currency switches to display multiple currencies in one website. Magento uses a base currency and tax configured at the website level (not store view) to avoid rounding and mismatch issues. To support multiple currencies, create a website per currency, using different URLs configured at the Magento website level (not store view).
 
-## Part 1: Get the necessary information from the Klarna merchant portal
+## Klarna merchant portal
 
 To enable and configure Klarna for your Magento store, you need the following information from your Klarna account.
 
-### Step 1: Generate API credentials for your Klarna account
+### Step 1: Generate API credentials
 
 1. Go to the [Klarna Merchant Onboarding page][1].
 
@@ -39,7 +39,7 @@ To enable and configure Klarna for your Magento store, you need the following in
    ![Generate Klarna API Credentials]({% link images/images/payments-klarna-dashboard-playground-settings.png %}){: .zoom}
    _Generate Klarna API Credentials_
 
-### Step 2: Copy the On-site messaging installation scripts (optional)
+### Step 2: Copy installation scripts (optional)
 
 To enable the display of Klarna promotional messages in your storefront, do the following:
 
@@ -62,7 +62,7 @@ To enable the display of Klarna promotional messages in your storefront, do the 
 
    Take note of the `data-key` value in each script. This value corresponds to the _Product placement_ field in the Magento configuration. You now have all the information necessary to complete the Magento configuration.
 
-## Part 2: Set up Klarna Payments in Magento
+## Magento configuration
 
 When you have API credentials and On-site Messaging code from your Klarna account, you can complete the Klarna configuration in the Magento Admin.
 
@@ -111,7 +111,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
    {:.bs-callout-info}
    Set **Logging** to `Disabled` before going live with Klarna in your production store.
 
-### Step 2: Configure the Klarna payment settings
+### Step 2: Configure payment settings
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Klarna Payments** section.
 
@@ -136,7 +136,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
    This is relative to the other payment methods. (`0` = first, `1` = second, `2` = third, and so on.)
 
-### Step 3: Configure the design settings (optional)
+### Step 3: Configure design settings (optional)
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Design** section.
 
@@ -186,7 +186,7 @@ If you want to enable the display of Klarna promotional messages in your storefr
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-### Step 5: Update the Design configuration
+### Step 5: Update Design configuration
 
 If Klarna _On-site messaging_ is enabled, do the following to paste the scripts that you copied from the Klarna merchant portal:
 
