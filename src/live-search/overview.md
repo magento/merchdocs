@@ -22,6 +22,10 @@ sections:
   - title: Rules
     content: Shape the shopping experience with if-then statements that add logic and events to search. Use rules to boost or bury products for a specific period of time.
     url: /live-search/rules.html
+
+  - title: Developer Documentation
+    content: Refer to the Live Search developer documentation for installation instructions, code examples, and technical reference.
+    url: https://devdocs-beta.magento.com
 ---
 
 Live Search from Magento delivers a lightning fast, super-relevant, and intuitive search experience, and is available for Magento Commerce at no additional charge. With a focus on speed, relevance, and ease of use, Live Search is a game changer for shoppers and merchants alike.
