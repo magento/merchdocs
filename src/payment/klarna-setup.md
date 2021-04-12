@@ -62,7 +62,7 @@ To enable the display of Klarna promotional messages in your storefront, do the 
 
 1. Copy the block(s) of code to the text editor below the other two installation scripts.
 
-   Take note of the `data-key` value in each script. This value corresponds to the _Product placement_ field in the Magento configuration. You now have all the information necessary to complete the Magento configuration.
+The `data-key` value in each script corresponds to the _Product placement_ field in the Magento configuration. You now have all the information necessary to complete the Magento configuration.
 
 ## Magento configuration
 
