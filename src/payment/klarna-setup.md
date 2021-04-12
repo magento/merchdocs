@@ -50,7 +50,7 @@ To enable the display of Klarna promotional messages in your storefront, do the 
    ![Klarna Portal - Installation scripts]({% link images/images/payments-klarna-portal-install-scripts.png %}){: .zoom}
    _Klarna portal - installation scripts_
 
-1. For the first block of code, click <span class="btn">Copy to clipboard</span>.  Then, paste the code into a text editor.
+1. For the first block of code, click <span class="btn">Copy to clipboard</span> and paste it into a text editor.
 
 1. For the second block of code, click <span class="btn">Copy to clipboard</span>.  Then, paste the code into text editor below the first script.
 
