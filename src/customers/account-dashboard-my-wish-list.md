@@ -8,7 +8,7 @@ A wish list is a convenient way for customers to keep track of products that the
 _My Wish List_
 
 {:.ee-only}
-## Create a new wish list 
+## Create a new wish list
 
 In the storefront, Wish List can be created from your account dashboard, product pages, catalog pages and from the shopping cart.
 
