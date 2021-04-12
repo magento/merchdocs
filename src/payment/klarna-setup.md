@@ -52,7 +52,7 @@ To enable the display of Klarna promotional messages in your storefront, do the 
 
 1. For the first block of code, click <span class="btn">Copy to clipboard</span> and paste it into a text editor.
 
-1. For the second block of code, click <span class="btn">Copy to clipboard</span>.  Then, paste the code into text editor below the first script.
+1. For the second block of code, click <span class="btn">Copy to clipboard</span> and paste it into a text editor below the first script.
 
    Take note of the `data-client-id` hash value in the code. You will need this value to complete the _On-site Messaging_ section of the Magento configuration.
 
