@@ -16,6 +16,7 @@ _Order Grid Columns_
 
    - Select the checkbox of any column you want to add to the grid.
    - Clear the checkbox of any column you want to remove from the grid.
+   - Click **Reset** to return the default grid view.
 
   Make sure to scroll down to see all available columns.
 

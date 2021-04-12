@@ -1,5 +1,5 @@
 ---
-title: Product Attribute Reference
+title: Product Export Attributes Reference
 ---
 
 The following table lists the attributes from a typical product export, in the default order in which they appear. Each attribute is represented in the CSV file as a column, and product records are represented by rows. Columns that begin with an underscore contain service data such as properties or option values for complex data. You can [export]({% link system/data-export.md %}) a product from your catalog, to see how each attribute is represented in the data.

@@ -23,6 +23,12 @@ _My Requisition Lists_
 
 1. Enter the **Qty** to be added to the cart.
 
+1. To change any product options, do the following:
+
+   - In the line item, click **Edit** (![]({% link images/images/btn-edit.png %})).
+   - Change any options that are necessary.
+   - Click **Update Requisition List**.
+
 1. Click <span class="btn">Add to Cart</span>.
 
    ![]({% link images/images-b2b/requisition-list-view.png %}){: .zoom}
@@ -115,5 +121,4 @@ A product in the Requisition List may be edited if:
 |Select|Manages the item selections that are to be the subject of an action. <br/>**Select All** - Selects all items in the requisition list. <br/>**Remove Selected** - Removes all selected items from the requisition list. <br/>**Copy Selected** - Copies all selected items to another requisition list.|
 |Add to Cart|Adds selected items to the shopping cart.|
 |Update List|Recalculates the subtotal to reflect a change in quantity.|
-|Edit Item|Changes any product options|
 |Delete Requisition List|Deletes the requisition list from the company user’s account.|
