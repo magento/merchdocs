@@ -61,7 +61,7 @@ An order that has been paid, but is awaiting shipment has the `Processing` statu
 1. **Method 1:** From order information tab
 
    - On the Admin menu, select **Sales** > **Orders**.
-   
+
    - Find the shipment order in the grid, and click **View**.
 
    - Scroll down to the **Shipping & Handling Information** section.
