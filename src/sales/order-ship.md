@@ -86,4 +86,3 @@ An order that has been paid, but is awaiting shipment has the `Processing` statu
 
       ![]({% link images/images/sales-order-ship-tracking-information.png %}){: .zoom}
       _Tracking Information popup_
-
