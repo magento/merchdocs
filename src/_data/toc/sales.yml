@@ -109,6 +109,8 @@ pages:
       url: "/sales/order-workflow.html"
     - label: Processing an Order
       url: "/sales/order-processing.html"
+    - label: Shipping an Order
+      url: "/sales/order-ship.html"
     - label: Order Status
       url: "/sales/order-status.html"
       children:
