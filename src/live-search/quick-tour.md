@@ -32,7 +32,7 @@ The Filters list in the left sidebar lists the available values derived from the
 Price buckets group products by price range and make it easy to shop by price. Unlike price navigation, each price range of each bucket overlaps the previous bucket by one dollar to smooth the transition between price buckets.
  
 ![Example storefront - filters]({% link live-search/assets/storefront-filters.png %}){: .zoom}
-_Filters_
+_Price Buckets_
 
 ### Enhanced category browse
 
