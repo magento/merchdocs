@@ -25,7 +25,7 @@ sections:
 
   - title: Developer Documentation
     content: Refer to the Live Search developer documentation for installation instructions, code examples, and technical reference.
-    url: https://devdocs-beta.magento.com
+    url: https://devdocs.magento.com/
 ---
 
 Live Search from Magento delivers a lightning fast, super-relevant, and intuitive search experience, and is available for Magento Commerce at no additional charge. With a focus on speed, relevance, and ease of use, Live Search is a game changer for shoppers and merchants alike.
