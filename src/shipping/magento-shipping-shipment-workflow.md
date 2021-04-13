@@ -16,5 +16,3 @@ The value of the Status column in the Shipments grid reflects the state of the s
 
 ![]({% link images/images/show-shipment-information.png %}){: .zoom}
 _Show the Shipping Information_
-
-
