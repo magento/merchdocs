@@ -100,16 +100,18 @@ Configuration | Various XML configurations that were collected across modules an
 Layouts | Layout building instructions. | `LAYOUT_GENERAL_CACHE_TAG`
 Blocks HTML output | Page blocks HTML. | `BLOCK_HTML`
 Collections Data | Collection data files.  | `COLLECTION_DATA`
-Reflection Data | Clears API interface reflection data, that typically is generated during runtime. |
+Reflection Data | Clears API interface reflection data, that typically is generated during runtime. | `REFLECTION`
 Database DDL operations | Results of DDL queries, such as describing tables or indexes.  | `DB_DDL`
 Compiled Config | Results of code compilation. | `COMPILED_CONFIG`
 EAV types and attributes | Entity types declaration cache. | `EAV`
-Customer Notification | Temporary notifications that appear in the user interface.
+Customer Notification | Temporary notifications that appear in the user interface. | `CUSTOMER_NOTIFICATION`
 Integrations Configuration | Integration configuration file. | `INTEGRATION`
 Integrations API Configuration | Integrations API configuration file. | `INTEGRATION_API_CONFIG`
 Page Cache | Full page caching. | `FPC`
 Translations | Translation files. | `TRANSLATE`
 Web Services Configuration | REST and SOAP configurations, generated WSDL file. | `WEBSERVICE`
+Target Rule | Target Rule Index | `TARGET_RULE`
+Vertex | Vertex tax calculation data | `VERTEX`
 
 ## Cache Management Role Resources
 
