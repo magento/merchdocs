@@ -26,10 +26,10 @@ The Gift Card configuration establishes the default settings for all gift cards 
 
    - Set **Gift Card Template** to the template you want to use for the gift card.
    
-   |General Contact|The email address associated with the General Contact identity.|
-   |Sales Representative|The email address associated with the Sales Representative identity.|
-   |Customer Support|The email address associated with the Customer Support identity.|
-   |Custom Email 1,2|The email address associated with the Customs identities.|
+      |General Contact|The email address associated with the General Contact identity. |
+      |Sales Representative|The email address associated with the Sales Representative identity. |
+      |Customer Support|The email address associated with the Customer Support identity. |
+      |Custom Email 1,2|The email address associated with the Customs identities. |
 
    See [Store Email Addresses]({% link configuration/general/store-email-addresses.md %}) ​for specific configuration fields and options.
 
