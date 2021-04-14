@@ -22,7 +22,7 @@ _Filtered search below layered navigation_
 
 ## Faceting requirements
 
-The category and product attribute requirements for faceting are the same as for layered navigation filterable attributes. The storefront properties of each attribute must be both searchable and filterable with results.
+The category and product attribute requirements for faceting are similar to layered navigation filterable attributes. The storefront properties of each attribute must be both searchable and filterable with results.
 
 |Setting |Description|
 |--- |--- |
