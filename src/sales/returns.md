@@ -42,7 +42,7 @@ RMAs can be issued for simple, grouped, configurable, and bundle product types. 
 
     If the reason for the return is different from those listed in the **Reason for Return** field, you can enter your own in the field that appears below when you select `Other` option.
 
-1.  Sets **Item Condition** to one of the following:
+1. Sets **Item Condition** to one of the following:
 
     - Unopened
     - Opened
