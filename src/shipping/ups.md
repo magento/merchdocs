@@ -4,9 +4,6 @@ title: UPS
 
 United Parcel Service offers domestic and international shipping services by land and air to more than 220 countries.
 
-{:.bs-callout-warning}
-UPS is discontinuing support of HTTP for its standard CGI service gateway. If a standard UPS account integration is already enabled for your Magento installation, make sure that the Gateway URL uses the HTTPS protocol in the UPS Shipping Method configuration. If needed, update the Gateway URL manually to change the protocol to HTTPS. If you are enabling a new UPS configuration for your Magento installation, use the default "United Parcel Service XML" UPS Type.
-
 UPS uses [dimensional weight]({% link shipping/weight-dimensional.md %}) to determine some shipping rates.
 
 ## Step 1: Open a UPS Shipping Account
