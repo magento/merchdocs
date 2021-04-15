@@ -97,7 +97,7 @@ You can use the Magento CLI `setup:config:set` command to change the Admin Path.
     ```terminal
     bin/magento setup:config:set --backend-frontname="backend_front_name"
     ```
-    
+  
 This command updates the `backend` > `frontName` configuration option in the `app/etc/env.php` file.
 
 ## Restore the default Admin URL and Admin Path
