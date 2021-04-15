@@ -19,17 +19,11 @@ RMAs can be issued for simple, grouped, configurable, and bundle product types. 
 
 1. Click on an order with a `Complete` status to create a return request.
 
-    ![]({% link images/images/new-return.png %}){: .zoom}
-    _New Return Page_
-
 1. Select the **Return Items** tab under the **Return Information** section.
 
 1. To add items to return, click <span class="btn">Add Items</span>.
 
 1. Select the checkbox for the required product and click <span class="btn">Add Selected Product to returns</span>.
-
-    ![]({% link images/images/return-item.png %}){: .zoom}
-    _Select Product For Return_
 
 1. Fill in the field **Requested** with the number of items you want to return.
 
