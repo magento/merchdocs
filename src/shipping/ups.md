@@ -66,12 +66,25 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. For **Container**, specify the typical packaging type that is used for shipment:
 
-   - `LBS`
-   - `KGS`
+   - `Customer Packaging`
+   - `UPS Letter Envelope`
+   - `Customer Supplied Package`
+   - `UPS Tube`
+   - `PAK`
+   - `UPS Express Box`
+   - `UPS Worldwide 25 kilo`
+   - `UPS Worldwide 10 kilo`
+   - `Pallet`
+   - `Small Express Box`
+   - `Medium Express Box`
+   - `Large Express Box`
 
 1. Set **Weight Unit** to the system you use to measure product weight.
 
    The weight system supported by UPS varies by country. If in doubt, ask UPS which weight system you should use. Options include:
+
+   - `LBS`
+   - `KGS`
 
 1. Set **Destination Type** to one of the following:
 
