@@ -29,3 +29,16 @@ If a refund has been issued for an order, customers can view the refund informat
 
    ![]({% link images/images-ee/customer-account-store-credit.png %}){: .zoom}
    _Amount refunded to store credit_
+
+## Payment actions
+
+You can configure payment actions for your specific [payment method]({% link configuration/sales/payment-methods.md %}). Each payment method has a different set of payment actions.
+
+|Payment Action |Description
+|--- |---
+|Capture Online |When the invoice is submitted, the system captures the payment from the third-party payment gateway. You have the ability to create a credit memo and void the invoice.
+|Capture Offline |When the invoice is submitted, the system does not capture the payment. It is assumed that the payment is captured directly through the gateway, and you no longer have the option to capture this payment through Magento. You have the ability to create a credit memo, but you do not have the option to void the invoice. (Even though the order used an online payment, the invoice is essentially an offline invoice.)
+|Not Capture |When the invoice is submitted, the system does not capture the payment. It is assumed that you will capture the payment through Magento at a later date. There is a Capture button in the completed invoice. Before capturing, you are able to cancel the invoice. After capturing you are able to create a credit memo and void the invoice.
+
+{:.bs-callout-info}
+Do not select the _Not Capture_ option unless you are certain that you are going to capture the payment through Magento at a later date. You cannot create a credit memo until the payment has been captured using the Capture button.
