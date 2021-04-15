@@ -5,7 +5,7 @@ title: Processing an Order
 When a customer places an order, the order is created as a temporary record of the transaction and initially has a status of `Pending`.  It can be edited or canceled until payment starts processing. The _Orders_ grid lists all orders, regardless of where they are in the [workflow]({% link sales/order-workflow.md %}). To learn how to help customers with an existing order, see [Updating an Order]({% link sales/order-update.md %}).
 
 ![]({% link images/images-ee/orders.png %}){: .zoom}
-_Orders_{:.ee-only}
+_Orders_
 
 ## View an order
 
@@ -26,12 +26,12 @@ _Orders_{:.ee-only}
 The left panel for an open order provides access to different types of information that is related to the order.
 
 ![]({% link images/images-ee/order-view.png %}){: .zoom}
-_View Order_{:.ee-only}
+_View Order_
 
 Example of an order with an in-store delivery method.
 
 ![]({% link images/images-ee/order-view-in-store-delivery.png %}){: .zoom}
-_View Order In-store Delivery_{:.ee-only}
+_View Order In-store Delivery_
 
 ### Order view descriptions
 
