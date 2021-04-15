@@ -92,7 +92,7 @@ The details panel shows the rule name, status, conditions and events, start and 
 |Last Updated |The date that the rule was last updated. |
 |Start date |The start date of a scheduled rule. |
 |End date |The end date of a scheduled rule. |
-|Status |The color-coded status indicates the current state of the rule. Use the Status control above the grid to filter rules by status. Values: All status <br />Active (blue)<br />Scheduled (Orange)<br />Inactive (gray)|
+|Status |The color-coded status indicates the current state of the rule. Use the Status control above the grid to filter rules by status. Values:<br />All status  - Displays all rules regardless of status.<br />Active (blue) - Displays only active rules.<br />Scheduled (Orange) - displays only scheduled rules.<br />Inactive (gray) - displays only inactive rules.|
 
 ## Controls
 
