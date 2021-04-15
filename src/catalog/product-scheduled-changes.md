@@ -3,12 +3,12 @@ ee_only: true
 title: Scheduled Changes
 ---
 
-Product updates can be applied on schedule and grouped with other content changes. You can [content staging]({% link cms/content-staging.md %}), create a new campaign based on scheduled changes to the product, or apply the changes to an existing campaign.
+Product updates can be applied on schedule and grouped with other content changes. You can use [content staging]({% link cms/content-staging.md %}) to create a new campaign based on scheduled changes to the product, or apply the changes to an existing campaign.
 
 ![]({% link images/images-ee/product-scheduled-changes.png %}){: .zoom}
 _Scheduled Changes_
 
-## Create a New Schedule Update
+## Create a new schedule update
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
@@ -30,7 +30,7 @@ _Scheduled Changes_
 
 1. When complete, click <span class="btn">Save</span>.
 
-## Assign to Existing Update
+## Assign to existing update
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
