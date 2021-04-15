@@ -4,8 +4,77 @@ description: This page contains recent changes that we think you'd like to know 
   We exclude from this list proofreading, spelling checks, and insignificant updates.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Wed Mar 31 09:45:38 2021
+updated: Thu Apr 15 17:47:36 2021
 entries:
+- description: Updated [Managing Requisition Lists](https://docs.magento.com/user-guide/customers/account-dashboard-requisition-lists-manage.html)
+    to describe product editing flow for Requisition Lists.
+  versions: 2.4.x
+  type: Major update
+  date: April 15, 2021
+  link: https://github.com/magento/merchdocs/pull/1131
+  merge_commit: bcad6b3ce327d685de7a2b0259ebbb649b6af9c0
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - 2.4.x
+  - Major update
+  - 'Progress: done'
+- description: Substantial update to the Action tables in the [Actions Control](https://docs.magento.com/user-guide/stores/admin-actions-control.html)
+    topic.
+  versions: 2.4.x
+  type: Major update
+  date: April 15, 2021
+  link: https://github.com/magento/merchdocs/pull/1156
+  merge_commit: 512849db4714bc1e780df64647c82275d83f97f9
+  contributor: ZhovnirMaria
+  membership: false
+  labels:
+  - 2.4.x
+  - Major update
+  - 'Partner: Atwix'
+  - 'Progress: done'
+  - partners-contribution
+- description: Added the 'Reorder from Storefront' and other sections to the [Allow
+    Reorders](https://docs.magento.com/user-guide/sales/reorders-allow.html) topic.
+  versions: 2.4.x
+  type: Major update
+  date: April 9, 2021
+  link: https://github.com/magento/merchdocs/pull/1105
+  merge_commit: 30c014faf25d1088a4ce805591ca859a7ce01fc2
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - 2.4.x
+  - Major update
+  - 'Partner: Atwix'
+  - 'Progress: done'
+  - partners-contribution
+- description: In [Images and Video](https://docs.magento.com/user-guide/catalog/product-images-and-video.html),
+    added the _Image Detail_ section to  describe customizing product image display.
+  versions: 2.4.x
+  type: Major update
+  date: April 9, 2021
+  link: https://github.com/magento/merchdocs/pull/1110
+  merge_commit: 12f9b181cb7495e8a534e09026f2e9f981d0e9eb
+  contributor: ZhovnirMaria
+  membership: false
+  labels:
+  - 2.4.x
+  - Major update
+  - 'Progress: done'
+- description: Added new sections to [Gift Cards](https://docs.magento.com/user-guide/customers/account-dashboard-gift-cards.html)
+    dashboard topic for checking the balance and redeeming the gift card.
+  versions: 2.4.x
+  type: Major update
+  date: April 9, 2021
+  link: https://github.com/magento/merchdocs/pull/1119
+  merge_commit: 73d8dccd16bbf5da6397380cd2f93fc6f5b66c9c
+  contributor: ZhovnirMaria
+  membership: false
+  labels:
+  - 2.4.x
+  - Major update
+  - 'Progress: done'
 - description: Adding content about how you can [preview](https://docs.magento.com/user-guide/marketing/create-new-rec.html#preview)
     recommendation units before deploying to your storefront.
   versions: 2.4.x
@@ -474,4 +543,4 @@ entries:
   versions: 2.4.0
   type: Major update
   date: July 28, 2020
-  link:
+  link: 
