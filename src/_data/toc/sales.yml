@@ -141,8 +141,6 @@ pages:
       url: "/shipping/magento-shipping-shipment-workflow.html"
     - label: Creating a Shipment
       url: "/sales/shipments-create.html"
-    - label: Canceling a Shipment
-      url: "/sales/shipment-cancel.html"
   - label: Credit Memos
     url: "/sales/credit-memos.html"
     children:
