@@ -16,7 +16,7 @@ pants ![Two-way selector]({% link live-search/assets/btn-two-way.png %}) slacks 
 
 ## One-way
 
-A one-way synonym is a subset of a keyword, but with a more specific meaning. For example, capris and shorts are pants, but not all pants are capris or shorts. A search for pants includes capris and shorts. However, a search for shorts does not include all pants.
+A one-way synonym is a subset of a keyword, but with a more specific meaning. For example, capris and shorts are pants, but not all pants are capris or shorts. A search for pants includes capris and shorts. However, a search for shorts will not return capris.
 
 sweatshirt ![One-way selector]({% link live-search/assets/btn-one-way.png %}) hoodie
 
@@ -25,8 +25,6 @@ pants ![One-way selector]({% link live-search/assets/btn-one-way.png %}) capris 
 ## Best practices
 
 Keep in mind the following best practices to get the most from Live Search synonyms.
-
-- Periodically review the [search terms](https://docs.magento.com/user-guide/marketing/search-terms.html) people use and add them to your Live Search synonym list.
 
 - Be consistent with the way terminology is used in your catalog. Keep in mind that there might be regional differences in usage, and sometimes within an industry.
 
