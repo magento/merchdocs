@@ -61,7 +61,7 @@ As a precaution, do not try to change the Admin URL yourself unless you know how
    This method allows you to change the Admin Path, but not the Admin URL.
 
    {:.bs-callout-info}
-   On Magento Cloud, a custom admin path may be set via **ADMIN_URL** Cloud [variable](https://devdocs.magento.com/cloud/env/environment-vars_magento.html#admin-url) in Cloud UI. From the technical side, a specified value will be added into `app/etc/env.php` within environment build.
+   On Magento Cloud, a custom admin path may be set via the **ADMIN_URL** Cloud [variable](https://devdocs.magento.com/cloud/env/environment-vars_magento.html#admin-url) in the Cloud UI. From the technical side, the specified value is added to `app/etc/env.php` within the environment build.
 
    - **Default Admin Path**
       ```php?start_inline=1
@@ -92,15 +92,15 @@ As a precaution, do not try to change the Admin URL yourself unless you know how
 
 ## Method 3: Change the Admin Path via CLI
 
-Magento provides a special command to change the Admin Path - `setup:config:set`.
+Magento provides a command to change the Admin Path - `setup:config:set`.
 
-1. To change the admin `frontName` go to the Magento root directory, then run in the console:
+1. To change the admin `frontName`, from the Magento root, run:
 
     ```terminal
-    php bin/magento setup:config:set --backend-frontname="backend_front_name"
+    bin/magento setup:config:set --backend-frontname="backend_front_name"
     ```
 
-    where `backend_front_name` is a needed Admin Path.
+    where `backend_front_name` is the new Admin Path.
 
     {:.bs-callout-info}
     This command will update `backend` > `frontName` configuration option in the `app/etc/env.php` file.
