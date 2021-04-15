@@ -54,17 +54,17 @@ Follow these instructions to update the properties of existing facets or change 
 {: #pin-facet}
 ## Pin/unpin facet
 
-The Pin changes color when clicked and moves the facet to either the _Pinned Facets_ or the _Unpinned Facets_ section.
+The Pin changes color when clicked and moves the facet to either the _Pinned Facets_ or the _Dynamic Facets_ section.
 
-1.	To pin a facet to the top of the Filters list, find the facet in the _Unpinned Facets_ list and click the gray Pin (![Pin selector]({% link live-search/assets/btn-pin-gray.png %})).
+1.	To pin a facet to the top of the Filters list, find the facet in the _Dynamic Facets_ list and click the gray Pin (![Pin selector]({% link live-search/assets/btn-pin-gray.png %})).
 
     The pin turns blue and the facet moves to the _Pinned Facets_ section.
 
 1.	To unpin a facet, find the facet in the _Pinned Facets_ list and click the blue pin (![Pin selector]({% link live-search/assets/btn-pin-blue.png %})).
 
-    The pin turns gray and the facet moves to the _Unpinned Facets_ section.
+    The pin turns gray and the facet moves to the _Dynamic Facets_ section.
 
-    ![Pinned and unpinned facets]({% link live-search/assets/facets-pinned-unpinned.png %}){: .zoom}
+    ![Pinned and dynamic facets]({% link live-search/assets/facets-pinned-unpinned.png %}){: .zoom}
     _Pinned and unpinned facets_
 
 {: #move-pinned-facet}
