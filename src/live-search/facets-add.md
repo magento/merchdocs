@@ -18,8 +18,6 @@ _Add facet_
 
 1.	In the Admin, go to **Marketing** > SEO & Search > **Live Search**.
 
-1. For multiple stores, set **Scope** to the [store view]({% link configuration/scope.md %}) where the facet settings apply.
-
 1.	On the _Faceting_ tab, click <span class="btn">Add facets</span>.
 
 1.	In the _Add facets_ list, each available attribute has its own _Add_ button. Do one of the following:
@@ -74,7 +72,7 @@ _Add facet_
 |Field |Description |
 |--- |--- |
 |Label |The facet label that is visible in the storefront. You can edit the label to be consistent with your brand. |
-|Select type | Refers to the selection method that is used to choose a facet value from the storefront. Options:<br />Single-select - Returns products that match a single facet value. Multi-select - Allows multiple facet values to be selected.<br />(or) - Returns all products where either facet applies.<br />(and) - Returns a narrow set of products where all selected facets apply. |
+|Select type | Refers to the selection method that is used to choose an attribute value from the storefront. Options:<br />Single-select - Returns products that match a single attribute value. For example: Size: Small; Color: Blue|
 |Sort Type |The method that is used to sort facet values. Options:<br />Alphabetical - Sorts facet values alphabetically.<br />Count - Sorts facet values based on the number of matches found.|
 |Max Value |The maximum number of values that can be displayed in the storefront for each facet. Facets that represent a range of values are evenly distributed. Default: 8|
 
