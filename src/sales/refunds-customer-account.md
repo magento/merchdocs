@@ -41,7 +41,7 @@ If a refund has been issued for an order, customers can view the refund informat
 1. Proceed to checkout.
 
 1. Pass the **Shipping** step.
-   
+
    If store credit is avalable, you can use it with <span class="btn">Use Store Credit</span>.
 
    ![]({% link images/images-ee/customer-account-order-refund-from-checkout.png %}){: .zoom}
