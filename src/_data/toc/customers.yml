@@ -109,6 +109,8 @@ pages:
     - label: My Invitations
       url: "/customers/account-dashboard-my-invitations.html"
       edition: ee-only
+    - label: My Returns
+      url: "/customers/account-dashboard-my-returns.html"
 - label: Company Accounts
   url: "/customers/account-companies.html"
   edition: b2b-only
