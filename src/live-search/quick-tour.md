@@ -21,7 +21,7 @@ Synonyms expand the reach and sharpen the focus of queries by including words sh
 ![Example storefront - quick search]({% link live-search/assets/storefront-quick-search.png %}){: .zoom}
 _Enhanced quick search_
 
-### Dynamic pagination
+### Infinite scroll
 
 When shoppers click View all items, there is no need to navigate through pages of search results because additional items appear naturally as they scroll down the page.
 
