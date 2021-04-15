@@ -78,23 +78,6 @@ _Invoices_
     ![]({% link images/images/invoice-full.png %}){: .zoom}
     _Completed Invoice_
 
-## Print the invoice
-
-To print the invoice:
-
-1. Click **Invoices** in the left panel.
-
-1. Find the invoice in the grid and click **View**.
-
-1. At the top of the workspace, click **Print** to generate a PDF of the invoice.
-
-1. Save the generated PDF to a file, or print it.
-
-    To customize the default invoice, see [Preparing Your Invoice Logo]({% link marketing/sales-document-pdf-logo.md %}).
-
-    ![]({% link images/images/invoice-print-pdf.png %}){: .zoom}
-    _Default PDF Invoice_
-
 ## Payment actions
 
 You can configure payment actions for your specific [payment method]({% link configuration/sales/payment-methods.md %}). Each payment method has a different set of payment actions.
