@@ -24,6 +24,6 @@ sections:
     url: /live-search/rules.html
 ---
 
-Live Search from Magento delivers a lightning fast, super-relevant, and intuitive search experience, and is available for Magento Commerce at no additional charge. With a focus on speed, relevance, and ease of use, Live Search is a game changer for shoppers and merchants alike.
+Live Search from Magento delivers a lightning fast, super-relevant, and intuitive search experience, and is available for Magento Commerce at no additional charge. Live Search is powered by [Adobe Sensei](https://www.adobe.com/sensei.html), which uses artificial intelligence and machine-learning algorithms to perform a deep analysis of aggregated visitor data. This data, when combined with your Magento catalog, results in highly engaging, relevant, and personalized experiences for the shopper. With a focus on speed, relevance, and ease of use, Live Search is a game changer for shoppers and merchants alike.
 
 {% include grid.html sections=page.sections%}
