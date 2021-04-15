@@ -101,9 +101,9 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
    1. For multiple events, choose any other events that you want to trigger when condition(s) are met.
 
       - Boost - Select Boost. Then, enter the product name or SKU that you want to move higher in the search results. In the test results, each boosted product has a “boosted” preview badge.
-      - Bury - Moves a SKU or range of SKUs lower in the search results. Each SKU is marked with a “buried” preview badge in test search results.
+      - Bury - Moves a SKU lower in the search results. Each SKU is marked with a “buried” preview badge in test search results.
       - Pin a product - Enter the product name or SKU. Then, select the Position in the search results where the product should appear. The product is marked with a “pinned” preview badge in test pane.
-      - Hide a product - Excludes a SKU, or range of SKUs, from the search results.
+      - Hide a product - Excludes a SKU from the search results.
 
 {: #details}
 ## Step 4: Complete the details
