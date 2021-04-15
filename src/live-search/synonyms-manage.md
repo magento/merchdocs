@@ -41,7 +41,7 @@ Follow these instructions to manage existing synonyms:
 {: #publish-changes}
 ## Publish changes
 
-To complete the process, your saved changes must be published to the storefront. It can take up to two hours for the updates to be available in the store. 
+To complete the process, your saved changes must be published to the storefront. It can take up to two hours for the updates to go live. 
 
 1.	Click <span class="btn">Publish changes</span>.
 
