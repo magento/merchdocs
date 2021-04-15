@@ -129,7 +129,7 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
 
 When complete, click <span class="btn">Save and publish</span>.
 
-The rule is added to the list in the rules workspace.
+The rule is added to the list in the rules workspace. Although active rules go into effect immediately, it might take up to fifteen minutes for cached query results in the storefront to be refreshed.
 
 ## Field descriptions
 
