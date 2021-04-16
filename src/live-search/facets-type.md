@@ -14,11 +14,11 @@ You can pin the most commonly-used facets to the top of the list.
 
 To streamline search results, facets that you define are `dynamic` by default. Dynamic facets appear only when relevant, and the selection changes according to the products returned. In the storefront Filters list, dynamic facets appear in alphabetic order after any pinned facets.
 
-  - Popular facets - Product attributes that are most often present in search results. 
+- Popular facets - Product attributes that are most often present in search results.
 
-  - Price buckets - By default, prices are organized into buckets, distributed according to the number of products returned, and rounded to the nearest $5.00. For example, if four products are returned, each price bucket represents 25% of the returned products. Unlike price navigation steps, each price bucket overlaps the next price bucket by $1.00.
+- Price buckets - By default, prices are organized into buckets, distributed according to the number of products returned, and rounded to the nearest $5.00. For example, if four products are returned, each price bucket represents 25% of the returned products. Unlike price navigation steps, each price bucket overlaps the next price bucket by $1.00.
 
-  - Intelligent facets are product attributes that [Adobe Sensei](https://www.adobe.com/sensei.html) finds extremely relevant to the given product set and query. This calculation takes into account the attribute meta data of the entire catalog and determines relevance at query time to deliver the most relevant facets for any query.
+- Intelligent facets are product attributes that [Adobe Sensei](https://www.adobe.com/sensei.html) finds extremely relevant to the given product set and query. This calculation takes into account the attribute meta data of the entire catalog and determines relevance at query time to deliver the most relevant facets for any query.
 
 ## Select type
 

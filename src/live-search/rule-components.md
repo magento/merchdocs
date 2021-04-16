@@ -22,7 +22,7 @@ Query text can contain:
 
 ## Logical Operators
 
-The logical operators `AND` and `OR` join two conditions and return different results. All logical operators used in a rule with multiple conditions are the same. It is not possible to use both `AND` and `OR` in the same rule. 
+The logical operators `AND` and `OR` join two conditions and return different results. All logical operators used in a rule with multiple conditions are the same. It is not possible to use both `AND` and `OR` in the same rule.
 
 ### Match Operators
 

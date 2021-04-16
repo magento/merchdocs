@@ -39,20 +39,20 @@ If your Magento installation includes multiple stores or store views, set **Scop
 
 ## Filter rules by status
 
-If your store has many rules, you can filter the rules by status to shorten the list. By default, the Rules list displays all rules.
+1. If your store has many rules, you can filter the rules by status to shorten the list. By default, the Rules list displays all rules.
 
    ![Rules - filter by status]({% link live-search/assets/rules-workspace-filter-status.png %}){: .zoom}
    _Filter rules by status_
 
-To list only rules with a specific status setting, set **Status** to one of the following:
+1. To list only rules with a specific status setting, set **Status** to one of the following:
 
-- All
-- Active
-- Inactive
-- Scheduled
+   - All
+   - Active
+   - Inactive
+   - Scheduled
 
-  ![Rules - filter by status]({% link live-search/assets/rules-workspace-filter-status-active.png %}){: .zoom}
-  _Rules filtered by "Active" status_
+   ![Rules - filter by status]({% link live-search/assets/rules-workspace-filter-status-active.png %}){: .zoom}
+   _Rules filtered by "Active" status_
 
 ## Search rules by name
 

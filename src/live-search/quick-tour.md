@@ -17,7 +17,7 @@ Live Search returns dynamic and responsive results as soon as the shopper starts
 ### Synonyms
 
 Synonyms expand the reach and sharpen the focus of queries by including words shoppers might use that differ from those in your catalog. Merchants can fine tune the synonym dictionary to keep shoppers on the path to purchase.
- 
+
 ![Example storefront - quick search]({% link live-search/assets/storefront-quick-search.png %}){: .zoom}
 _Enhanced quick search_
 
@@ -30,7 +30,7 @@ When shoppers click View all items, there is no need to navigate through pages o
 The Filters list in the left sidebar lists the available values derived from the current set of returned products. Filtered search uses multiple dimensions of static and dynamic attribute values, or facets, as search criteria. The selection of filters changes according to the products returned.
 
 Price buckets group products by price range and make it easy to shop by price. Unlike price navigation, each price range of each bucket overlaps the previous bucket by one dollar to smooth the transition between price buckets.
- 
+
 ![Example storefront - filters]({% link live-search/assets/storefront-filters.png %}){: .zoom}
 _Price Buckets_
 

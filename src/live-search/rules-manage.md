@@ -4,16 +4,11 @@ title: Manage Rules
 group: marketing
 ---
 
-Follow these instructions to update the properties of existing rules:
+Follow these instructions to update the properties of existing rules.
 
-- [View details]({% link live-search/rules-workspace.md %})
-- [Edit rule](#edit-rule)
-- [Delete rule](#delete-rule)
-
-{: #edit-rule}
 ## Edit rule
 
-1.	On the _Rules_ tab, find the rule in the grid that you want to edit and click **More** (…).
+1.	On the _Rules_ tab, find the rule in the grid that you want to edit and click **More** (...) options.
 
 1.	Click **Edit** to access the rule editor.
 
@@ -25,9 +20,8 @@ Follow these instructions to update the properties of existing rules:
 
 1. Publish the changes.
 
-{: #delete-rule}
 ## Delete rule
 
-1.	On the _Rules_ tab, find the rule in the grid that you want to edit and click **More** (…).
+1.	On the _Rules_ tab, find the rule in the grid that you want to edit and click **More** (...) options.
 
 1.	Click **Delete**.
