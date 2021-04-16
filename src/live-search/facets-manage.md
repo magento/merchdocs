@@ -9,7 +9,6 @@ Follow these instructions to update the properties of existing facets or change 
 ## Edit facet
 
 1. Find the facet that you want to edit.
-
 1. If there are many facets in the list, set _Filter by_ to one of the following:
 
    - Pinned
@@ -19,7 +18,6 @@ Follow these instructions to update the properties of existing facets or change 
    _Filter by_
 
 1. To edit the facet properties, click **More** (...) options.
-
 1.	Click **Edit**
 
    ![Edit options]({% link live-search/assets/facet-edit-menu.png %}){: .zoom}
@@ -39,7 +37,6 @@ Follow these instructions to update the properties of existing facets or change 
    _Edit count_
 
 1. In the **Max Value** column, set the maximum number (from 0 – 10) of facet filter values to show in the storefront.
-
 1.	When complete, click <span class="btn">Save</span>.
 
    Your changes won’t appear in the storefront until after they are published.
@@ -64,7 +61,6 @@ The Pin changes color when clicked and moves the facet to either the _Pinned Fac
 The order of pinned facets can be changed by moving the row to a different position. Pinned facets have a Move icon (![Move selector]({% link live-search/assets/btn-move.png %})) at the beginning of the row. Unlike pinned facets, dynamic facets cannot be moved.
 
 1.	Find the facet in the _Pinned Facets_ section of the list.
-
 1.	Use the **Move** (![Move selector]({% link live-search/assets/btn-move.png %})) icon to drag the row to a new position in the _Pinned Facets_ section.
 
    After the changes are published, the facets appear in the storefront _Filters_ list in the new order.
@@ -72,9 +68,7 @@ The order of pinned facets can be changed by moving the row to a different posit
 ## Delete facet
 
 1.	Find the facet in the list and click **More** (...) options.
-
 1.	Click **Delete**.
-
 1.	When prompted to confirm, click <span class="btn">Delete facet</span>.
 
    The facet is removed from the storefront after the changes are published.
@@ -82,5 +76,4 @@ The order of pinned facets can be changed by moving the row to a different posit
 ## Publish changes
 
 1.	To update the storefront with your changes, click <span class="btn">Publish changes</span>.
-
 1.	Wait about fifteen minutes for the updates to appear in your store.

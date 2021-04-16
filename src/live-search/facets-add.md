@@ -1,4 +1,4 @@
----
+ ---
 ee_only: true
 title: Add Facets
 group: marketing
@@ -11,9 +11,7 @@ _Add facet_
 ## Step 1: Add a facet
 
 1.	In the Admin, go to **Marketing** > SEO & Search > **Live Search**.
-
 1.	On the _Faceting_ tab, click <span class="btn">Add facets</span>.
-
 1.	In the _Add facets_ list, each available attribute has its own _Add_ button. Do one of the following:
 
    - In the _Faceting Attributes_ list, choose the product attribute that you want to use as a facet and click <span class="btn">Add</span>.
@@ -21,7 +19,7 @@ _Add facet_
 
    The facet is added to the bottom of the _Dynamic Facets_ list and the _Publish changes_ button becomes available.
 
-1. If the facet you want to add can't be found, go to **Stores** > Attributes > **Product** and verify that the attribute has the properties required to be used as a facet.  If necessary, update the following storefront properties of the attribute:
+1. If the facet you want to add can't be found, go to **Stores** > Attributes > **Product** and verify that the attribute has the properties required to be used as a facet. If necessary, update the following storefront properties of the attribute:
 
    - Use in Search - Yes
    - Use in Layered Navigation - Filterable (with results)
@@ -32,7 +30,6 @@ _Add facet_
 ## Step 2: Edit facet properties
 
 1. If you need to edit the facet properties, click **More** (...) options in the far-right column.
-
 1. On the menu, click **Edit**. Then, adjust the following properties as needed.
 
    - Label - Enter the facet label that appears in the storefront.
@@ -45,13 +42,11 @@ _Add facet_
    _Edit facet_
 
 1. To pin the facet to the top of the _Filters_ list, click the gray pin (![Pin selector]({% link live-search/assets/btn-pin-gray.png %})).
-
 1. To change the order of the pinned facet, click the **Move** (![Move selector]({% link live-search/assets/btn-move.png %})) icon and drag the row to a new position in the _Pinned Facets_ section.
 
 ## Step 3: Publish changes
 
 1. When the facet is complete, click <span class="btn">Publish changes</span>.
-
 1. Wait about fifteen minutes for the facet to appear in the store.
 
    ![Faceting workspace]({% link live-search/assets/facets-publish.png %}){: .zoom}

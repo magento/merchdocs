@@ -9,11 +9,8 @@ To build a rule, the first step is to use the rule editor to define the conditio
 ## Step 1: Add a rule
 
 1. In the Admin, go to **Marketing** > SEO & Search > **Live Search**.
-
 1. Set the **Scope** to identify the [store view]({% link configuration/scope.md %}) where the rule applies.
-
 1. Click the **Rules** tab.
-
 1. Click <span class="btn">Add rule</span> to launch the rule editor.
 
    ![Rules workspace]({% link live-search/assets/rules-workspace-add-rule.png %}){: .zoom}
@@ -87,7 +84,6 @@ A rule can have up to ten conditions.
 Event(s) are actions that change the search results when the condition(s) are met. A single rule can have up to twenty-five events.
 
 1. Under _Events_, choose the **Event** to take place when the associated condition(s) are met.
-
 1. For multiple events, choose any other events that you want to trigger when condition(s) are met.
 
    - Boost - Select Boost. Then, enter the product name or SKU that you want to move higher in the search results. In the test results, each boosted product has a “boosted” preview badge.
@@ -98,9 +94,7 @@ Event(s) are actions that change the search results when the condition(s) are me
 ## Step 4: Complete the details
 
 1. Under _Details_, enter a **Name** for the rule.
-
 1. Enter the **Start Date** and **End Date** when the rule will be active or choose the dates from the calendar.
-
 1. Enter a brief **Description** of the rule.
 
    ![Rule - Complete]({% link live-search/assets/rule-details.png %}){: .zoom}
@@ -109,7 +103,6 @@ Event(s) are actions that change the search results when the condition(s) are me
 ## Step 5: Test the rule
 
 1. Examine the results of the rule in the test pane.
-
 1. If the rule has multiple queries, test each one that might be affected by the rule.
 
 ## Step 6: Save and publish

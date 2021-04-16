@@ -31,7 +31,6 @@ If your Magento installation includes multiple stores or store views, set **Scop
 1. In the menu, do either of the following:
 
    - To show a hidden column, click any column name without a check mark.
-
    - To hide a visible column, click any column name with a check mark.
 
    ![Rules workspace]({% link live-search/assets/rules-workspace-all-columns.png %}){: .zoom}
@@ -69,7 +68,6 @@ Search finds the matching rule(s) as you type. The string of matching characters
 The details panel shows the rule name, status, conditions and events, start and end date, description, and date last edited. Rules can be enabled, edited, and deleted from the details panel.
 
 1.	On the _Rules_ tab, find the rule in the grid that you want to view and click **More** (…).
-
 1.	Click **View details**.
 
    You can do any of the following from the View details panel:

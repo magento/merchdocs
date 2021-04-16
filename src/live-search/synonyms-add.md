@@ -12,11 +12,8 @@ _Live Search synonyms_
 ## Step 1: Add a synonym
 
 1. In the Admin, go to **Marketing** > SEO & Search > **Live Search**.
-
 1. For multiple stores, set **Scope** to the [store view]({% link configuration/scope.md %}) where the synonym settings apply.
-
 1. Click the **Synonyms** tab.
-
 1. Click <span class="btn">Add synonyms</span>.
 
 ## Step 2: Define the synonym by type
@@ -31,7 +28,6 @@ Follow the instructions for the type of synonym that you want to create.
    _Add two-way synonym_
 
 1. Enter the **Keyword** term or phrase to be matched.
-
 1. Enter the **Expansion** term(s) that you want to add as synonyms for the keyword. Separate multiple terms with a comma.
 
    In this example, the keyword to match is “pants” and the set of expansion terms are “long pants, trousers, slacks”.

@@ -28,7 +28,6 @@ If your Magento installation includes multiple stores or store views, set **Scop
 ## Add a facet
 
 1. Click <span class="btn">Add facets</span>.
-
 1. See [Add Facets]({% link live-search/facets-add.md %}) for detailed instructions.
 
 ## Column Descriptions

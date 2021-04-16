@@ -12,7 +12,6 @@ _Performance_
 ## Generate a report
 
 1. Choose the report **View**.
-
 1. To enter a date range for the report, choose a preset **timeframe** or choose the beginning and ending dates from the calendar.
 
    ![Performance report timeframe]({% link live-search/assets/performance-timeframe.png %}){: .zoom}
@@ -21,7 +20,6 @@ _Performance_
 ## Export report data
 
 1.	On the `Performance` tab, click **Export**.
-
 1. Choose one of the following file formats:
 
    - CSV (Comma-separated-values)
