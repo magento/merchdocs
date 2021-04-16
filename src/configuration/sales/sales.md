@@ -36,6 +36,12 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |--- |--- |--- |
 |Allow Reorder|Store View|Determines if the customers can reorder from their accounts. Options: Yes / No|
 
+## Allow Zero GrandTotal
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Allow Zero GrandTotal for Creditmemo|Website|Determines the possibility of creating a Creditmemo with a Zero GrandTotal. Options: Yes / No|
+
 ## Invoice and Packing Slip Design
 
 ![]({% link images/images/config-sales-sales-invoice-packing-slip-design.png %}){: .zoom}
