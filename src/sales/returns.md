@@ -13,36 +13,38 @@ _Returns grid_
 
 RMAs can be issued for simple, grouped, configurable, and bundle product types. However, RMAs are not available for virtual products, downloadable products, and gift cards.
 
-## Create a Return Request
+## Create a return request
 
-1. To create new return request, go to **Sales** > **Returns** > Click <span class="btn">New Return Request</span>.
+1. On the _Admin_ sidebar, go to **Sales** > **Returns**.
 
-1. Click on an order with a `Complete` status to create a return request.
+1. Click <span class="btn">New Return Request</span>.
 
-1. Select the **Return Items** tab under the **Return Information** section.
+1. Click an order with a `Complete` status to create a return request.
+
+1. Under the _Return Information_ section, select the **Return Items** tab.
 
 1. To add items to return, click <span class="btn">Add Items</span>.
 
 1. Select the checkbox for the required product and click <span class="btn">Add Selected Product to returns</span>.
 
-1. Fill in the field **Requested** with the number of items you want to return.
+1. For **Requested**, enter the number of items to be returned.
 
-1. Sets **Return Reason** to one of the following:
+1. Set **Return Reason** to one of the following:
 
     - Wrong Color
     - Wrong Size
     - Out of Service
     - Other
 
-    If the reason for the return is different from those listed in the **Reason for Return** field, you can enter your own in the field that appears below when you select `Other` option.
+    If the reason for the return is different from those listed, you can enter your own if you select the `Other` option.
 
-1. Sets **Item Condition** to one of the following:
+1. Set **Item Condition** to one of the following:
 
     - Unopened
     - Opened
     - Damaged
 
-1. Sets **Resolution** to one of the following:
+1. Set **Resolution** to one of the following:
 
     - Exchange
     - Refund
