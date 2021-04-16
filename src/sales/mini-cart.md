@@ -1,11 +1,11 @@
 ---
-title: Cart Sidebar
+title: Mini Cart
 ---
 
 The Cart Sidebar is often called the _mini cart_ and displays a summary of the items in the cart. It is enabled by default and appears when you click the number of items in the Cart Link.
 
 ![The shopper displays the shopping cart sidebar from a product page]({% link images/images/storefront-mini-cart-watch.png %}){: .zoom}
-_Shopping cart sidebar_
+_Mini Cart_
 
 ## Configure the mini cart
 
@@ -13,19 +13,19 @@ _Shopping cart sidebar_
 
 1. In the left panel, expand **Sales** and choose **Checkout**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Shopping Cart Sidebar** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Mini Cart** section.
 
-   ![]({% link images/images/config-sales-checkout-shopping-cart-sidebar.png %}){: .zoom}
-   [_Configuring the shopping cart sidebar_]({% link configuration/sales/checkout.md %})
+   ![]({% link images/images/config-sales-mini-cart.png %}){: .zoom}
+   [_Configuring the mini cart_]({% link configuration/sales/checkout.md %})
 
 1. If the setting is for a specific store view, [choose the store view]({% link configuration/scope-change.md %}) where the configuration applies.
 
    When prompted, click **OK** to continue.
 
-1. Set **Display Shopping Cart Sidebar** to one of the following:
+1. Set **Display Mini Cart** to one of the following:
 
-   Yes|Displays the shopping cart sidebar from store pages. The appearance of the sidebar depends upon the theme.
-   No|Disables display of the shopping cart sidebar from store pages.
+   Yes|Displays the mini cart from store pages. The appearance of the sidebar depends upon the theme.
+   No|Disables display of the mini cart from store pages.
 
 1. If the display is enabled, update the other options to configure the display:
 

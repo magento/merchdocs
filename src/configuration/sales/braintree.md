@@ -138,7 +138,7 @@ _PayPal through Braintree_
 |Payment from Specific Countries|Website|If applicable, identifies the specific countries from which you accept payments processed by Braintree.|
 |Require Customer’s Billing Address|Website|Determines if the customer’s billing address is required to submit an order. Options: Yes / No|
 |Debug|Website|Determines if communications between the PayPal through Braintree system and your store are recorded in a log file. Options: Yes / No|
-|Display on Shopping Cart|Website|Determines if the PayPal button appears in the [mini cart]({% link sales/cart-sidebar.md %}) and on the [shopping cart]({% link sales/cart.md %}) page. Options: Yes / No|
+|Display on Shopping Cart|Website|Determines if the PayPal button appears in the [mini cart]({% link sales/mini-cart.md %}) and on the [shopping cart]({% link sales/cart.md %}) page. Options: Yes / No|
 
 ### Mini-Cart and Cart Page
 

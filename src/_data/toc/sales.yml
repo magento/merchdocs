@@ -19,8 +19,8 @@ pages:
       children:
       - label: My Cart Link
         url: "/sales/cart-link.html"
-      - label: Cart Sidebar
-        url: "/sales/cart-sidebar.html"
+      - label: Mini Cart
+        url: "/sales/mini-cart.html"
       - label: Redirect to Cart
         url: "/sales/cart-redirect.html"
       - label: Quote Lifetime
