@@ -21,9 +21,9 @@ If a refund has been issued for an order, customers can view the refund informat
 
 ## View store credit balance and history on the storefront
 
-**Method 1:** From customer accoun dashbord
+**Method 1:** From the customer account dashboard
 
-1. From the storefront, log in to account.
+1. From the storefront, the customer logs in to account.
 
 1. If the refund was applied to store credit, chooses **Store Credit** in the left panel.
 
@@ -32,19 +32,19 @@ If a refund has been issued for an order, customers can view the refund informat
    ![]({% link images/images-ee/customer-account-store-credit.png %}){: .zoom}
    _Amount refunded to store credit_
 
-1. {:.ee-only}You can add the [gift cart]({% link customers/account-dashboard-gift-card.md %}).
+   - {:.ee-only}The _Store Credit_ page also provides a link for the customer to redeem a [gift card]({% link customers/account-dashboard-gift-card.md %}).
 
-**Method 2:** From review & payments page
+**Method 2:** From the _Review & Payments_ page
 
-1. Add product to the cart.
+1. The customer adds a product to the cart.
 
-1. Proceed to checkout.
+1. Proceeds to checkout.
 
-1. Pass the **Shipping** step.
+1. Passes the **Shipping** step.
 
-   If store credit is avalable, you can use it with <span class="btn">Use Store Credit</span>.
+1. If store credit is available, the customer clicks <span class="btn">Use Store Credit</span>.
 
    ![]({% link images/images-ee/customer-account-order-refund-from-checkout.png %}){: .zoom}
    _Store Credit from Review & Payments page_
 
-1. If you want to cancel the use Store Credit payment click <span class="btn">Remove</span> on the **Order Summary** block.
+1. If the customer changes their mind about using the store credit, clicks <span class="btn">Remove</span> in the _Order Summary_ section.
