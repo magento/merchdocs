@@ -559,6 +559,8 @@ pages:
       url: "/live-search/rules-add.html"
     - label: Manage Rules
       url: "/live-search/rules-manage.html"
+  - label: Feedback
+    url: "/live-search/feedback.html"
 - label: SEO and Search
   url: "/marketing/seo-search.html"
   children:
