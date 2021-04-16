@@ -4,7 +4,7 @@ title: Updating a Customer Profile
 
 The left panel of the Customer Information page includes information about customer activity, such as when the customer last signed in or out of their account, addresses, order statistics, recent orders, shopping cart contents, product reviews, newsletter subscriptions, and so on.
 
-![]({% link images/images-ee/customer-profile.png %}){: .zoom}
+![]({% link images/images/cust-profile.png %}){: .zoom}
 _Customer Profile_{:.ee-only}
 
 ## Update a customer profile
@@ -25,6 +25,7 @@ _Customer Profile_{:.ee-only}
 | Button   | Description  |
 |----------|--------------|
 | <span class="btn">Back</span> | Returns to the Customers page without saving changes. |
+| <span class="btn">Login as Customer</span> | Allows the ability for the merchant to login as the customer. |
 | <span class="btn">Delete Customer</span> | Deletes the customer account.  |
 | <span class="btn">Reset</span> | Resets any unsaved changes in the customer form to their previous values.  |
 | <span class="btn">Create Order</span> | [Creates a new order]({% link customers/customer-account-create-order.md %}) that is associated with the customer account.  |
