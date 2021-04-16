@@ -12,7 +12,7 @@ The rules workspace lists the current selection of rules and their status, and p
 - Delete rules
 - Access the rule editor
 
-   ![Rules workspace]({% link live-search/assets/rules-workspace.png %}){: .zoom}
+  ![Rules workspace]({% link live-search/assets/rules-workspace.png %}){: .zoom}
    _Rules workspace_
 
 ## Set the scope
@@ -23,35 +23,35 @@ If your Magento installation includes multiple stores or store views, set **Scop
 
 1. In the upper-right corner, click **Show/hide** ( ![Show/hide columns button]{% link live-search/assets/btn-show-hide-columns.png %})) columns.
 
-     The visible columns have a blue check mark in the options menu. The rule name is the only column that cannot be hidden.
+   The visible columns have a blue check mark in the options menu. The rule name is the only column that cannot be hidden.
 
-     ![Rules workspace]({% link live-search/assets/rules-workspace-show-hide-columns.png %}){: .zoom}
-     _Show/hide columns_
+   ![Rules workspace]({% link live-search/assets/rules-workspace-show-hide-columns.png %}){: .zoom}
+   _Show/hide columns_
 
 1. In the menu, do either of the following:
 
-     - To show a hidden column, click any column name without a check mark.
-     - To hide a visible column, click any column name with a check mark.
+   - To show a hidden column, click any column name without a check mark.
+   - To hide a visible column, click any column name with a check mark.
 
-     ![Rules workspace]({% link live-search/assets/rules-workspace-all-columns.png %}){: .zoom}
-     _Rules workspace with all columns visible_
+   ![Rules workspace]({% link live-search/assets/rules-workspace-all-columns.png %}){: .zoom}
+   _Rules workspace with all columns visible_
 
 ## Filter rules by status
 
 1. If your store has many rules, you can filter the rules by status to shorten the list. By default, the Rules list displays all rules.
 
-     ![Rules - filter by status]({% link live-search/assets/rules-workspace-filter-status.png %}){: .zoom}
-     _Filter rules by status_
+   ![Rules - filter by status]({% link live-search/assets/rules-workspace-filter-status.png %}){: .zoom}
+   _Filter rules by status_
 
 1. To list only rules with a specific status setting, set **Status** to one of the following:
 
-     - All
-     - Active
-     - Inactive
-     - Scheduled
+   - All
+   - Active
+   - Inactive
+   - Scheduled
 
-     ![Rules - filter by status]({% link live-search/assets/rules-workspace-filter-status-active.png %}){: .zoom}
-     _Rules filtered by "Active" status_
+   ![Rules - filter by status]({% link live-search/assets/rules-workspace-filter-status-active.png %}){: .zoom}
+   _Rules filtered by "Active" status_
 
 ## Search rules by name
 
@@ -70,16 +70,16 @@ The details panel shows the rule name, status, conditions and events, start and 
 1. On the _Rules_ tab, find the rule in the grid that you want to view and click **More** (…).
 1. Click **View details**.
 
-     You can do any of the following from the View details panel:
+   You can do any of the following from the View details panel:
 
-     - Edit Rule
-     - Delete Rule
-     - Enable/Disable Rule
+   - Edit Rule
+   - Delete Rule
+   - Enable/Disable Rule
 
 1. To close the _View details_ panel, click **Close** (X) in the upper-right corner.
 
-     ![Rule - details]({% link live-search/assets/rules-workspace-details.png %}){: .zoom}
-     _Rule details_
+   ![Rule - details]({% link live-search/assets/rules-workspace-details.png %}){: .zoom}
+   _Rule details_
 
 ## Column Descriptions
 
