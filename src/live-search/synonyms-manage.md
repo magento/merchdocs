@@ -5,7 +5,7 @@ group: marketing
 ---
 
 Follow these instructions to manage existing synonyms.
- 
+
 ## Edit synonym
 
 1.	Find the synonym that you want to edit and click **More** (...) options.
@@ -32,7 +32,7 @@ Follow these instructions to manage existing synonyms.
 
 ## Publish changes
 
-To complete the process, your saved changes must be published to the storefront. It can take up to two hours for the updates to go live. 
+To complete the process, your saved changes must be published to the storefront. It can take up to two hours for the updates to go live.
 
 1. Click <span class="btn">Publish changes</span>.
-1. Look for the confirmation message at the top of the page that your changes have been published. 
+1. Look for the confirmation message at the top of the page that your changes have been published.
