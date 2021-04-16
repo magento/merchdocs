@@ -14,16 +14,16 @@ _Add facet_
 1.	On the _Faceting_ tab, click <span class="btn">Add facets</span>.
 1.	In the _Add facets_ list, each available attribute has its own _Add_ button. Do one of the following:
 
-   - In the _Faceting Attributes_ list, choose the product attribute that you want to use as a facet and click <span class="btn">Add</span>.
-   - To find a specific product attribute, enter the first few characters of the attribute name in the _Search_ box. Then, click <span class="btn">Add</span>.
+     - In the _Faceting Attributes_ list, choose the product attribute that you want to use as a facet and click <span class="btn">Add</span>.
+     - To find a specific product attribute, enter the first few characters of the attribute name in the _Search_ box. Then, click <span class="btn">Add</span>.
 
-   The facet is added to the bottom of the _Dynamic Facets_ list and the _Publish changes_ button becomes available.
+     The facet is added to the bottom of the _Dynamic Facets_ list and the _Publish changes_ button becomes available.
 
 1. If the facet you want to add can't be found, go to **Stores** > Attributes > **Product** and verify that the attribute has the properties required to be used as a facet. If necessary, update the following storefront properties of the attribute:
 
-   - Use in Search - Yes
-   - Use in Layered Navigation - Filterable (with results)
-   - Used for Sorting in Product Listing - Yes
+     - Use in Search - Yes
+     - Use in Layered Navigation - Filterable (with results)
+     - Used for Sorting in Product Listing - Yes
 
 1. When prompted, refresh the cache.
 
@@ -32,9 +32,9 @@ _Add facet_
 1. If you need to edit the facet properties, click **More** (...) options in the far-right column.
 1. On the menu, click **Edit**. Then, adjust the following properties as needed.
 
-   - Label - Enter the facet label that appears in the storefront.
-   - Sort type - Choose the method that is used to sort facet values. Options: Alphabetical, Count
-   - Max Value - Enter the maximum number of facet values displayed in the storefront. Valid entries: 0 - 10
+     - Label - Enter the facet label that appears in the storefront.
+     - Sort type - Choose the method that is used to sort facet values. Options: Alphabetical, Count
+     - Max Value - Enter the maximum number of facet values displayed in the storefront. Valid entries: 0 - 10
 
 1. When complete, click **Save**.
 
