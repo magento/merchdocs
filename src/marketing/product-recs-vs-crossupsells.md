@@ -24,7 +24,7 @@ Product Recommendations allow you to:
 
 ## Best of both worlds
 
-Given the ever-changing complexities of online shopping, what works best for your storefront is often a combination of multiple key technologies. Using both Product Recommendations and Product Relationships, gives you more flexibility when it comes to promoting products. You can leverage Product Recommendations powered by Adobe Sensei to intelligently automate your recommendations at scale. Then, you can leverage Related product rules when you need to manually intervene and ensure a very specific recommendation is being made to a specific shopper segment, or when specific business goals need to be met.
+Given the ever-changing complexities of online shopping, what works best for your storefront is often a combination of multiple key technologies. Using both Product Recommendations and Product Relationships, gives you more flexibility when it comes to promoting products. You can leverage Product Recommendations powered by Adobe Sensei to intelligently automate your recommendations at scale. Then, you can leverage Related product rules when you need to manually intervene and ensure a specific recommendation is being made to a target shopper segment, or when certain business goals need to be met.
 
 {:.bs-callout-info}
-Related product rules and Product Recommendations are available on Magento Commerce only.
+Related product rules and Product Recommendations are available for Magento Commerce only.
