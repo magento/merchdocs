@@ -23,6 +23,7 @@ _Performance_
 1.	On the `Performance` tab, click **Export**.
 
 1. Choose one of the following file formats:
+
    - CSV (Comma-separated-values)
    - XLS (Excel worksheet)
 

@@ -12,8 +12,8 @@ The rules workspace lists the current selection of rules and their status, and p
 - Delete rules
 - Access the rule editor
 
-  ![Rules workspace]({% link live-search/assets/rules-workspace.png %}){: .zoom}
-  _Rules workspace_
+   ![Rules workspace]({% link live-search/assets/rules-workspace.png %}){: .zoom}
+   _Rules workspace_
 
 ## Set the scope
 
@@ -60,8 +60,8 @@ Begin typing the name of the rule, or any word in the rule name.
 
 Search finds the matching rule(s) as you type. The string of matching characters are highlighted in the name of each rule found.
 
-  ![Rules - search by name]({% link live-search/assets/rules-workspace-search-name.png %}){: .zoom}
-  _Search by name_
+   ![Rules - search by name]({% link live-search/assets/rules-workspace-search-name.png %}){: .zoom}
+   _Search by name_
 
 {: #view-details}
 ## View details
@@ -72,11 +72,11 @@ The details panel shows the rule name, status, conditions and events, start and 
 
 1.	Click **View details**.
 
-     You can do any of the following from the View details panel:
+   You can do any of the following from the View details panel:
 
-      - Edit Rule
-      - Delete Rule
-      - Enable/Disable Rule
+   - Edit Rule
+   - Delete Rule
+   - Enable/Disable Rule
 
 1. To close the _View details_ panel, click **Close** (X) in the upper-right corner.
 

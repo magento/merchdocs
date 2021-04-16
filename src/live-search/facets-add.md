@@ -16,10 +16,10 @@ _Add facet_
 
 1.	In the _Add facets_ list, each available attribute has its own _Add_ button. Do one of the following:
 
-      - In the _Faceting Attributes_ list, choose the product attribute that you want to use as a facet and click <span class="btn">Add</span>.
-      - To find a specific product attribute, enter the first few characters of the attribute name in the _Search_ box. Then, click <span class="btn">Add</span>.
+   - In the _Faceting Attributes_ list, choose the product attribute that you want to use as a facet and click <span class="btn">Add</span>.
+   - To find a specific product attribute, enter the first few characters of the attribute name in the _Search_ box. Then, click <span class="btn">Add</span>.
 
-      The facet is added to the bottom of the _Dynamic Facets_ list and the _Publish changes_ button becomes available.
+   The facet is added to the bottom of the _Dynamic Facets_ list and the _Publish changes_ button becomes available.
 
 1. If the facet you want to add can't be found, go to **Stores** > Attributes > **Product** and verify that the attribute has the properties required to be used as a facet.  If necessary, update the following storefront properties of the attribute:
 
@@ -72,5 +72,5 @@ _Add facet_
 |Control |Description |
 |--- |--- |
 |![Pin selector]({% link live-search/assets/btn-pin-blue.png %}) |Pins or unpins a facet to the top of the _Filters list.|
-|...|Displays a menu of actions that can be applied to the selected facet. Options: Edit, Delete |
+|...|Displays a menu of more actions that can be applied to the selected facet. Options: Edit, Delete |
 |![Move selector]({% link live-search/assets/btn-move.png %}) |Use the Move icon to drag a pinned facet to another place in the Pinned facets section. |

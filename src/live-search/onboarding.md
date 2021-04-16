@@ -10,7 +10,7 @@ To establish the connection between Live Search and your installation, the Magen
 
 When the installation and configuration is complete, Live Search appears on the Marketing menu under SEO & Search in the Magento Admin. You must go to Live Search from the Magento Admin to trigger indexation.
 
--  In the Admin, go to **Marketing** > SEO & Search > **Live Search**.
+- In the Admin, go to **Marketing** > SEO & Search > **Live Search**.
 
    The synchronization between the product catalog and the catalog service begins after Live Search is connected.
 

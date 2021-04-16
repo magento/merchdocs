@@ -16,8 +16,8 @@ To build a rule, the first step is to use the rule editor to define the conditio
 
 1. Click <span class="btn">Add rule</span> to launch the rule editor.
 
-      ![Rules workspace]({% link live-search/assets/rules-workspace-add-rule.png %}){: .zoom}
-      _Add rule_
+   ![Rules workspace]({% link live-search/assets/rules-workspace-add-rule.png %}){: .zoom}
+   _Add rule_
 
 ## Step 2: Describe the condition(s)
 

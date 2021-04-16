@@ -8,8 +8,8 @@ Live Search rules combine logic with actions to shape a shopper's search experie
 
 Each rule has three main components:
 
--  Conditions – The condition(s) that trigger an action.
--  Events – The action(s) that take place when the condition(s) are met.
--  Details – The name of the rule, and optional time frame and description.
+- Conditions – The condition(s) that trigger an action.
+- Events – The action(s) that take place when the condition(s) are met.
+- Details – The name of the rule, and optional time frame and description.
 
 You can combine multiple conditions and actions, and schedule a rule to be active for a specific period of time.
