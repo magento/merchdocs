@@ -86,11 +86,9 @@ Only orders with **Complete** or **Closed** status can be moved to the archive. 
     ![]({% link images/images-ee/order-archived-select-to-restore.png %}){: .zoom}
     _Select Order to be Restored_
 
-1. Set the **Actions** control value to `Remove to Archive`.
+1. Set the **Actions** control value to **Move to Order Management**.
 
-    Look for the message that the archived order has been removed from the archive.
-
-1. In the button bar, click **Return to Order Management**.
+ Look for the message that the archived order has been removed from the archive.
 
 ## To export archived order:
 
