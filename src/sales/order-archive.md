@@ -52,6 +52,9 @@ _[Move Order to Archive]({% link configuration/sales/sales.md %})_
     ![]({% link images/images-ee/order-select-in-grid.png %}){: .zoom}
     _Mark Checkbox_
 
+{:.bs-callout-tip}
+Only orders with **Complete** or **Closed** status can be moved to the archive. Orders with other statuses will remain in the Order Management grid.
+
 ## To view an archived order:
 
 1. Open the archive view using one of the following methods:
@@ -88,3 +91,17 @@ _[Move Order to Archive]({% link configuration/sales/sales.md %})_
     Look for the message that the archived order has been removed from the archive.
 
 1. In the button bar, click **Return to Order Management**.
+
+## To export archived order:
+
+1. On the _Admin_ sidebar, click **Sales**.
+
+1. In the _Operations_ section, choose **Orders**.
+
+1. In the button bar, click **Go to Archive**.
+
+1. In the action menu select **Export** drop-down.
+
+1. Select the desired format.
+
+1. Click **Export**.
