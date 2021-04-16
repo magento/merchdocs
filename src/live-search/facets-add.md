@@ -10,9 +10,9 @@ Any searchable and filterable product attribute can be used as a facet. The Add 
 _Add facet_
 ## Step 1: Add a facet
 
-1.	In the Admin, go to **Marketing** > SEO & Search > **Live Search**.
-1.	On the _Faceting_ tab, click <span class="btn">Add facets</span>.
-1.	In the _Add facets_ list, each available attribute has its own _Add_ button. Do one of the following:
+1. In the Admin, go to **Marketing** > SEO & Search > **Live Search**.
+1. On the _Faceting_ tab, click <span class="btn">Add facets</span>.
+1. In the _Add facets_ list, each available attribute has its own _Add_ button. Do one of the following:
 
      - In the _Faceting Attributes_ list, choose the product attribute that you want to use as a facet and click <span class="btn">Add</span>.
      - To find a specific product attribute, enter the first few characters of the attribute name in the _Search_ box. Then, click <span class="btn">Add</span>.

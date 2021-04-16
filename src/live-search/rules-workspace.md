@@ -67,8 +67,8 @@ _Search by name_
 
 The details panel shows the rule name, status, conditions and events, start and end date, description, and date last edited. Rules can be enabled, edited, and deleted from the details panel.
 
-1.	On the _Rules_ tab, find the rule in the grid that you want to view and click **More** (…).
-1.	Click **View details**.
+1. On the _Rules_ tab, find the rule in the grid that you want to view and click **More** (…).
+1. Click **View details**.
 
      You can do any of the following from the View details panel:
 
