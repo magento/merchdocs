@@ -1,6 +1,7 @@
 ---
 ee_only: true
 title: Rule Components
+tag: live-search
 group: marketing
 ---
 

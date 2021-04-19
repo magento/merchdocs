@@ -1,6 +1,7 @@
 ---
 ee_only: true
 title: Getting Started
+tag: live-search
 group: marketing
 ---
 

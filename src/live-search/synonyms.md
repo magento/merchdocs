@@ -1,6 +1,7 @@
 ---
 ee_only: true
 title: Synonyms
+tag: live-search
 group: marketing
 ---
 

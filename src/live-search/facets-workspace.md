@@ -1,6 +1,7 @@
 ---
 ee_only: true
 title: Faceting Workspace
+tag: live-search
 group: marketing
 ---
 

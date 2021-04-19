@@ -1,6 +1,7 @@
 ---
 ee_only: true
 title: Live Search Workspace
+tag: live-search
 group: marketing
 ---
 

@@ -1,6 +1,7 @@
 ---
 ee_only: true
 title: Feedback
+tag: live-search
 group: marketing
 ---
 

@@ -1,6 +1,7 @@
 ---
 ee_only: true
 title: Onboarding
+tag: live-search
 group: marketing
 ---
 

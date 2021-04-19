@@ -1,6 +1,7 @@
 ---
 ee_only: true
 title: Types of Synonyms
+tag: live-search
 group: marketing
 ---
 

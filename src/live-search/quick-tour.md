@@ -1,6 +1,7 @@
 ---
 ee_only: true
 title: Quick Tour
+tag: live-search
 group: marketing
 ---
 

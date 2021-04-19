@@ -1,6 +1,7 @@
 ---
 ee_only: true
 title: Rules
+tag: live-search
 group: marketing
 ---
 

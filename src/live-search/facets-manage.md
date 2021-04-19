@@ -1,6 +1,7 @@
 ---
 ee_only: true
 title: Manage Facets
+tag: live-search
 group: marketing
 ---
 
