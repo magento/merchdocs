@@ -22,20 +22,18 @@ _[Checkout options configuration settings]({% link configuration/sales/checkout.
 
    When prompted, click **OK** to continue.
 
-1. Set the checkout options:
-
-   - Enable [Onepage Checkout]({% link sales/checkout-onepage.md %})
-
-   - Allow [Guest Checkout]({% link sales/checkout-guest.md %})
-
-   - Display Billing Address On
-
-   - Enable [Terms and Conditions]({% link sales/terms-and-conditions.md %})
-
-   - Maximum Number of Items to Display in Order Summary
-
-   - {:.ee-only}Enable Address Search
-
-      If you set this option to `Yes`, you can set the Number of Customer Addresses Limit option also.)
+1. Set the checkout options.
 
 1. Click <span class="btn">Save Config</span>.
+
+## Available checkout options 
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enable Onepage Checkout|Store View|Determines if [Onepage checkout]({% link sales/checkout-onepage.md %}) is the default checkout format. Options: Yes / No|
+|Allow Guest Checkout|Store View|Determines if guests can go through [checkout without registering]({% link sales/checkout-guest.md %}) for an account with your store. Options: Yes / No|
+|Enable Terms and Conditions|Store View|Determines if customers are required to agree to the [Terms and Conditions]({% link sales/terms-and-conditions.md %}) of the sale before making a purchase. Options: Yes / No|
+|Display Billing Address On|Store View|Determines the location of the Billing Address during checkout. Options: Payment Method / Payment Page|
+|Maximum Number of Items to Display in Order Summary|Store View|Determines the maximum number of items that can  appear in the Order Summary during checkout. The default is 10.|
+|<span class="ee-only">Enable Address Search</span>|Website|Determines if customers can use [address search]({% link sales/checkout-address-search.md %}) functionality for Shipping, as well as Review & Payments steps. When this is enabled, use Number of Customer Addresses Limit to set the number of saved addresses required to activate this functionality during checkout. Options: Yes / No|
+|<span class="ee-only">Number of Customer Addresses Limit</span>|Website|When address search is **enabled**, determines the number of saved addresses required to activate this functionality during checkout. When the customer's number of saved addresses meets or exceeds this number, only the default address is rendered on the _Shipping_ and _Review & Payments_ steps. The customer can use a search function to change the selected address. The default is 10.|
