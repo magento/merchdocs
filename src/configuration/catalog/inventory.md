@@ -47,6 +47,12 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |--- |--- |--- |
 |Run asynchronously|Global|Determines if you run bulk operations asynchronously for mass product actions including bulk [assign sources]({% link catalog/inventory-bulk-assign-sources.md %}), [unassign sources]({% link catalog/inventory-bulk-unassign-sources.md %}), and [transfer inventory to source]({% link catalog/inventory-bulk-transfer-inventory.md %}). It collects bulk actions up to the Asynchronous batch size, then runs those actions. This feature is disabled by default. We recommend reviewing your performance with bulk actions before enabling. Options: <br/>**Yes** - Runs all bulk operations for Inventory Management asynchronously. To enable, you must configure an asynchronous queue manager. <br/>**No** - Default. Does not run bulk operations asynchronously.|
 
+## Inventory Indexer Settings
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Stock/Source reindex strategy|Global|Determines the strategy to use for the stock/source reindexing. Options: Synchronous / Asynchronous. An asynchronous queue manager must be configured for async mode.|
+
 ## Distance Provider for Distance Based SSA
 
 ![]({% link images/images/config-catalog-catalog-inventory-distance-provider.png %}){: .zoom}
