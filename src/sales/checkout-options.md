@@ -26,7 +26,7 @@ _[Checkout options configuration settings]({% link configuration/sales/checkout.
 
 1. Click <span class="btn">Save Config</span>.
 
-## Available checkout options 
+## Available checkout options
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
