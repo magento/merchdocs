@@ -51,7 +51,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Stock/Source reindex strategy|Global|Determines the strategy to use for the stock/source reindexing. Options: Synchronous / Asynchronous. An asynchronous queue manager must be configured for async mode.|
+|Stock/Source reindex strategy|Global|Determines the strategy used for stock/source reindexing. Options: Synchronous / Asynchronous. An asynchronous queue manager must be configured for async mode.|
 
 ## Distance Provider for Distance Based SSA
 
