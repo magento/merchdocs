@@ -1,7 +1,17 @@
 <!-- page-header -->
 <section class="page-intro">
-  
-  <h1 class="page-title">{{ page.title }}</h1>
+   
+   {% if page.tag == "live-search" %}
+
+   <div class="message-banner">
+   
+  <b>Live Search beta documentation</b>: Refer to the Live Search <a href="https://devdocs-beta.magento.com/live-search/overview.html">developer documentation</a> for installation instructions, code examples, technical reference, and <a href="https://devdocs-beta.magento.com/live-search/release-notes.html">release notes</a>.
+   
+   </div>
+   
+   {% endif %}
+   
+   <h1 class="page-heading">{{ page.title }}</h1>
 
   {% include layout/github-links.html %}
 
