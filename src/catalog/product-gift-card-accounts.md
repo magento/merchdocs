@@ -72,13 +72,13 @@ _Gift Card Accounts_
 
 ## Gift card account history
 
-If you need to find the gift card action history, do the following:
+To see a gift card history:
 
 1. Go to **Marketing** > **Gift Card Accounts**.
 
-1. Open the gift card in edit mode.
+1. Open the gift card in Edit mode.
 
-1. The **History** section displays the history of actions for this gift card.
+1. The **History** of the gift card is displayed.
 
     ![]({% link images/images-ee/gift-card-history.png %}){: .zoom}
     _Gift Card History_
@@ -87,7 +87,7 @@ If you need to find the gift card action history, do the following:
 
 |Action|Description|
 |--- |--- |
-|Created|Date and time of creation, amount, who created the gift card.|
+|Created|Date, time of creation, amount, and who created the gift card.|
 |Updated|Card balance update.|
 |Sent|Recipient information.|
 |Used|Gift card amount used on the checkout.|
