@@ -88,14 +88,17 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Recently Viewed/Compared Products
 
-![]({% link images/images/config-catalog-catalog-recently-viewed-compared-products.png %}){: .zoom}
+![]({% link images/images/recently-viewed-compared-products.png %}){: .zoom}
 [_Recently Viewed/Compared Products_]({% link marketing/products-viewed-compared.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
+|Synchronize widget products with backend storage|Website|Determines if widget products are synchronized with backend storage. Options: Yes / No|
 |Show for Current|Website|Limits the products shown to the current website. Options: Website / Store / Store View|
 |Default Recently Viewed Products Count|Store View|Determines the maximum number of recently viewed products that appear in the list.|
 |Default Recently Compared Products Count|Store View|Determines the maximum number of recently compared products that appear in the list.|
+|Lifetime of products in Recently Viewed Widget|Website|Enter the number of seconds that products will be available in the recently viewed widget. By default, the lifetime is set to 1000 seconds.|
+|Lifetime of products in Recently Compared Widget|Website|Enter the number of seconds that products will be available in the recently compared widget. By default, the lifetime is set to 1000 seconds.|
 
 ## Product Video
 
