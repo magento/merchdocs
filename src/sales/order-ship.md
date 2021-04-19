@@ -56,30 +56,28 @@ An order that has been paid, but is awaiting shipment has the `Processing` statu
 
 1. Click <span class="btn">Submit Comment</span>.
 
-## To track the shipment:
+## Track the shipment
 
 **Method 1:** From order information tab
 
-1. On the Admin menu, select **Sales** > **Orders**.
+1. On the _Admin_ sidebar, go to **Sales** > **Orders**.
 
 1. Find the shipment order in the grid, and click **View**.
 
-1. Scroll down to the **Shipping & Handling Information** section.
+1. Scroll down to the _Shipping & Handling Information_ section and click **Track Order**.
 
-1. Click **Track Order**.
+   Any available tracking information appears in a popup window.
 
-1. Any tracking information that is available appears in a popup window.
-
-1. When ready, <span class="btn">Close Window</span>.
+1. When ready, click <span class="btn">Close Window</span>.
 
 **Method 2:** From order shippment tab
 
-1. On the Admin menu, select **Sales** > **Shipments**.
+1. On the _Admin_ sidebar, go to **Sales** > **Shipments**.
 
 1. Find the shipment in the list, and click to open the record.
 
 1. Click **Track this Shipment**.
 
-1. Any tracking information that is available appears in a popup window.
+   Any available tracking information appears in a popup window.
 
-1. When ready, <span class="btn">Close Window</span>.
+1. When ready, click <span class="btn">Close Window</span>.
