@@ -54,7 +54,8 @@ Child transactions are displayed in the grid after creating invoices for [orders
 
 This block includes the additional information for a given transaction. Information is displayed in the form of keys and values.
 
-**Enable Key**:
+**Available Key**:
+
 - transId
 - submitTimeUTC
 - submitTimeLocal
