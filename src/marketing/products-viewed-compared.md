@@ -23,8 +23,8 @@ The Recently Viewed and Recently Compared blocks usually appear in the right sid
 
    - In the **Default Recently Compared Products Count**, enter the number of recently compared products to appear in the list.
 
-   - In the **Lifetime of products in Recently Viewed Widget** enter how long the products viewed will be shown in the recently viewed list.
+   - In the **Lifetime of products in Recently Viewed Widget** set any time range in second, greater than zero. This filed shows, how long the products viewed will be shown in the recently viewed list.
 
-   - In the **Lifetime of products in Recently Compared Widget** enter how long the products compared will be shown in the recently compared list.
+   - In the **Lifetime of products in Recently Compared Widget** set any time range in second, greater than zero. This filed shows, how long the products compared will be shown in the recently compared list.
 
 1. When complete, click <span class="btn">Save Config</span>.
