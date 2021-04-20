@@ -10,68 +10,66 @@ _My Wish List_
 {:.ee-only}
 ## Create a new wish list
 
-In the storefront, Wish List can be created from your account dashboard, product pages, catalog pages and from the shopping cart.
+In the storefront, a customer can create a wish list from their account dashboard, a product page, a catalog page, and the shopping cart.
 
 ### Method 1: From a customer account
 
-1. In the sidebar of your account dashboard, choose **My Wish List**.
+1. In the sidebar of their account dashboard, the customer chooses **My Wish List**.
 
-1. In the upper-right corner, click **Create New Wish List**.
+1. In the upper-right corner, clicks **Create New Wish List**.
 
 1. Enter the Wish List Name.
 
-1. If you want others to be able to see your wish list, select the **Public Wish List** checkbox.
+1. To allow others to see their wish list, selects the **Public Wish List** checkbox.
 
 1. When complete, click <span class="btn">Save</span>.
 
     ![]({% link images/images-ee/account-dashboard-wishlist-create-new.png %}){: .zoom}
-    _Create New Wish List_{:.ee-only}
+    _Create New Wish List_
 
 ### Method 2: From the catalog page
 
-1. From the storefront, go to the catalog page that contains the product that is to be added to the wish list.
+1. From the storefront, the customer goes to the catalog page that contains the product they want to add to a wish list.
 
-1. Hover over the product.
+1. Hovers over the product.
 
-1. Click **Add to Wish List** and select the **Create New Wish List**.
+1. Clicks the arrow next to the _Add to Wish List_ icon and selects the **Create New Wish List**.
 
 1. Enter the Wish List Name.
 
-1. If you want others to be able to see your wish list, select the **Public Wish List** checkbox.
+1. To allow others to see their wish list, selects the **Public Wish List** checkbox.
 
-1. When complete, click <span class="btn">Save</span>.
+1. When complete, clicks <span class="btn">Save</span>.
 
 ### Method 3: From the Product Detail page
 
-1. From the storefront, go to the detail page of the product that is to be added to the wish list.
+1. From the storefront, the customer goes to the detail page of the product they want to add to a wish list.
 
-1. Click **Add to Requisition List** and do select the **Create New Wish List**.
+1. Clicks the arrow next to **Add to Wish List** and chooses **Create New Wish List**.
 
-1. Enter the Wish List Name.
+1. Enters the **Wish List Name**.
 
-1. If you want others to be able to see your wish list, select the **Public Wish List** checkbox.
+1. To allow others to see their wish list, selects the **Public Wish List** checkbox.
 
-1. When complete, click <span class="btn">Save</span>.
+1. When complete, clicks <span class="btn">Save</span>.
 
     ![]({% link images/images-ee/account-dashboard-wishlist-create-from-pdp.png %}){: .zoom}
-    _Create New Wish List from the Product Detail page _{:.ee-only}
+    _Create New Wish List from the Product Detail page_
 
 ### Method 4: From the shopping cart
 
-1. Open the **Shopping Cart** page.
+1. Customer opens the **Shopping Cart** page.
 
-1. Under the item, click the **Move to Wishlist**.
+1. Under the item, click the arrow next to **Move to Wishlist** and chooses **Create New Wish List**.
 
-1. Select the **Create New Wish List**.
+1. Enters the **Wish List Name**.
 
-1. Enter the Wish List Name.
+1. To allow others to see their wish list, selects the **Public Wish List** checkbox.
 
-1. If you want others to be able to see your wish list, select the **Public Wish List** checkbox.
-
-1. When complete, click <span class="btn">Save</span>.
+1. When complete, clicks <span class="btn">Save</span>.
 
 ![]({% link images/images-ee/account-dashboard-wishlist-create-from-cart.png %}){: .zoom}
-    _Create New Wish List from the Shopping Cart page _{:.ee-only}
+    _Create New Wish List from the Shopping Cart page_
 
 ## Update the product listing
 
