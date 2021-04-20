@@ -65,6 +65,7 @@ Magento Open Source includes simple start and end date options in the Advanced P
 
     In the storefront, the special price should appear in both catalog listing and on the product page.
 
+{:.ce-only}
 ## Apply a special price to multiple products
 
 To assign a special price to multiple products, such as multiple variations of a [configurable product]({% link catalog/product-create-configurable.md %}), use the [Actions control]({% link stores/admin-actions-control.md %}).
