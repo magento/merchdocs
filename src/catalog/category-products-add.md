@@ -11,7 +11,7 @@ To add products use either the **Search All Products** or **Add Product by SKU**
 
 ## Method 1: Search All Products
 
-1.  Click <span class="btn">Add Products</span>.
+1. Click <span class="btn">Add Products</span>.
 
 1. Use _Search by keyword_ or filters to find the products you want to add.
 
@@ -31,7 +31,7 @@ To add products use either the **Search All Products** or **Add Product by SKU**
 |Select All|Selects the checkbox of all records in the list.|
 |Unselect All|Clears the checkbox of all records in the list.|
 |Select All on This Page|Selects the checkbox of records on the current page.|
-|Deselect All on This Page|Clears the checkbox of  records on the current page.|
+|Deselect All on This Page|Clears the checkbox of records on the current page.|
 
 ## Method 2: Add Products by SKU
 
