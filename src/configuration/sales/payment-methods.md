@@ -70,6 +70,9 @@ The following payment methods are built into Magento and do not use a third-part
 |Maximum Order Total|Website|The largest order amount that can be charged to a company account. <br/><br/>**_Note:_** An order qualifies if the total is between, or matches, the minimum or maximum order total.|
 |Sort Order|Website|A number that determines the order that Payment on Account appears when listed with other payment methods during checkout. Enter `0` to place it at the top of the list.|
 
+{:.bs-callout-info}
+Payment on Account is not supported for orders with [multiple shipping addresses]({% link shipping/shipping-multiaddress.md %}) and will not appear among the payment options.
+
 ### Cash On Delivery Payment
 
 ![]({% link images/images/config-sales-payment-methods-cash-on-delivery-payment.png %}){: .zoom}
