@@ -522,8 +522,6 @@ pages:
   - label: Getting Started
     url: "/live-search/getting-started.html"
     children:
-    - label: Quick Tour
-      url: "/live-search/quick-tour.html"
     - label: Onboarding
       url: "/live-search/onboarding.html"
     - label: Workspace

@@ -5,7 +5,7 @@ tag: live-search
 group: marketing
 sections:
   - title: Getting Started
-    content: Follow along for a quick storefront tour of Live Search.
+    content: Complete the Live Search onboarding process.
     url: /live-search/getting-started.html
 
   - title: Workspace
