@@ -19,3 +19,16 @@ _My Downloadable Products_
 
     ![]({% link images/images/account-dashboard-download-video.png %}){: .zoom}
     _Download Video_
+
+{:.bs-callout-info}
+To add a product to the My Downloadable Products list, customer need to create an order with a product of the **downloadable** type. See [Downloadable Product]({% link catalog/product-create-downloadable.md %})
+
+## Column description
+
+|Column|Description|
+|--- |--- |
+|Order#|The [order]({% link /sales/orders.md %}) in which the downloadable product was purchased.|
+|Date| Order creation date.|
+|Title|The name of the downloadable product that was purchased with the order.|
+|Status|Order processing status.|
+|Remaining Downloads|Number of available downloads of the downloaded product.|
