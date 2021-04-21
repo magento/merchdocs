@@ -16,8 +16,23 @@ When run, the algorithm:
 
 To configure, arrange those sources from top-to-bottom in priority for fulfilling orders. The Source Selection Algorithm (SSA) provides an algorithm Priority using this order when determining shipment and inventory deductions. See [Prioritizing Sources for a Stock]({% link catalog/inventory-stock-priority.md %}).
 
+## Configure the priority of sources
+
+1. On the _Admin_ sidebar, go to **Stores** > **Inventory** > **Stocks**.
+
+1. Open a stock in **Edit** mode and scroll down the page to the _Sources_ area.
+
+1. Click **Assign Sources**.
+
+    This displays the **Assign Sources page**. Select the checkbox for the required source and click <span class="btn">Done</span> to assign a source to the stock.
+
 {:.bs-callout-info}
 When using the [Distance Priority]({% link catalog/inventory-configure-distance-priority.md %}) algorithm for shipping, if routes and data do not return for the selected [Computation mode]({% link catalog/inventory-configure-distance-priority.md %}) (driving, bicycling, or walking) for a shipment, the SSA defaults to using the Source Priority.
 
 ![]({% link images/images/stores-inventory-stock-priorityafter.png %}){: .zoom}
 _Source order after prioritization_
+
+| Icon                                                        | Description                                                    |
+|-------------------------------------------------------------|----------------------------------------------------------------|
+| ![]({% link images/images/drag-and-drop-action.png %})      | Allows to drag and drop sources according to priority.         |
+| ![]({% link images/images/delete-action.png %})             | Unassigning a source to a stock.                               |
