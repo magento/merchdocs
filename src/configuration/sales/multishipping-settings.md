@@ -15,4 +15,4 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Maximum Qty Allowed for Shipping to Multiple Addresses|Website|Sets a limit for the number of units  of a product that can be shipping to multiple addresses.|
 
 {:.bs-callout-info}
-<span class="b2b-only"></span> For orders with multiple shipping addresses, [Payment on Account]({% link payment/payment-on-account.md %}) payment method, even if enabled, will not be available during the checkout.
+<span class="b2b-only"></span> For orders with multiple shipping addresses, the [Payment on Account]({% link payment/payment-on-account.md %}) payment method, even if enabled, will not be available during the checkout.
