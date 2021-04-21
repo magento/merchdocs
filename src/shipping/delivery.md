@@ -17,7 +17,6 @@ redirect_from:
   - /shipping/magento-shipping-preview-experience.html
   - /shipping/magento-shipping-quick-look.html
   - /shipping/magento-shipping-setup.html
-  - /shipping/magento-shipping-shipment-workflow.html
   - /shipping/magento-shipping-troubleshooting.html
   - /shipping/magento-shipping.html
   - /sales/dispatches.html
