@@ -11,9 +11,10 @@ _Product Reviews_
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products** > Edit the Product > _Product Reviews_ section.
 
-1. In the list, click <span class="btn">Edit</span> for the product review with `Pending` status to view the details and edit if necessary.
+1. Click <span class="btn">Edit</span> for a product review with `Pending` status to view and edit the details.
 
 1. Set status for review:
+
     - To approve a pending review, select `Approved`.
     - To reject a review, select `Not Approved`.
     - You can change the review status back to `Pending` at any time.
