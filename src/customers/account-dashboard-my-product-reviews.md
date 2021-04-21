@@ -20,9 +20,9 @@ _My Product Reviews_
 
 When the **Magento Product Reviews** function is [enabled]({% link icatalog/catalog.md %}), customers can write reviews for any product in your catalog. Reviews can be written from the product page by clicking:
 
-   - Add **Your Review** for products with existing reviews.
+- Add **Your Review** for products with existing reviews.
 
-   - Be the first to review this product for products with no existing reviews.
+- Be the first to review this product for products with no existing reviews.
 
 1. On the storefront open the **product page**.
 
