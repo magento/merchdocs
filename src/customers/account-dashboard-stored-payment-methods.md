@@ -8,3 +8,23 @@ A payment method that supports a secure vault, such as [Braintree]({% link payme
 
 ![]({% link images/images-ee/customer-account-stored-payment-methods.png %}){: .zoom}
 _Stored Payment Methods_
+
+## Add stored payment method from checkout
+
+1. From the storefront, go to the detail page of the product.
+
+1. Add product to the cart.
+
+1. Proceeds to checkout.
+
+1. Complete the **Shipping** step.
+
+1. Select the **Braintree Credit Card** payment method.
+
+1. Fill in credit card data.
+
+1. Choose **Save for later use** check-box.
+
+1. Click <span class="btn">Place Order</span>.
+
+The saved payment method will be displayed in the **Stored Payment Methods** tab of the customer dashboard.
