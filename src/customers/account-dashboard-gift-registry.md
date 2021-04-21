@@ -7,3 +7,51 @@ The [Gift Registry]({% link marketing/gift-registries.md %}) section of the cust
 
 ![]({% link images/images-ee/account-dashboard-gift-registry.png %}){: .zoom}
 _Gift Registry_
+
+## To create new gift registry
+
+1. From customer account dashboard, go to **Gift Registry**.
+
+1. On the Gift Registry page, click **Add New**.
+
+1. Select one of the **Gift Registry Type**:
+
+   - Birthday
+
+   - Baby Registry
+
+   - Wedding
+
+1. Click <span class="btn">Next</span>.
+
+1. Fill in the required information.
+
+1. When finish, click <span class="btn">Save</span>.
+
+## To share gift registry
+
+1. From customer account dashboard, go to **Gift Registry**.
+
+1. Find the registry event that you want to manage, and click **Share**.
+
+1. Fill in the required information.
+
+1. When finish, click <span class="btn">Share Gift Registry</span>.
+
+## To edit gift registry
+
+1. From customer account dashboard, go to **Gift Registry**.
+
+1. Find the registry event that you want to manage, and click **Edit**.
+
+1. Change any options that are necessary.
+
+1. When finish, click <span class="btn">Save</span>.
+
+## To delete gift registry
+
+1. From customer account dashboard, go to **Gift Registry**.
+
+1. Find the registry event that you want to manage, and click **Delete**.
+
+1. When prompted to confirm, click <span class="btn">OK</span>.
