@@ -11,6 +11,13 @@ _Customer Segments list_
 
 The following example shows how to create a customer segment that targets female customers in Los Angeles.
 
+|Column|Description|
+|--- |--- |
+|ID|A unique, sequential number that is assigned when a new segment is saved for the first time.|
+|Segment|The name of the segment.|
+|Status|The current segment status. Options include: Active / Inactive.|
+|Website|The website where the segment applies.|
+
 ## Step 1: Enable customer segments
 
 1. On the _Admin_ sidebar, go to **Stores**  > _Settings_ > **Configuration**.
@@ -117,3 +124,15 @@ The following example shows how to create a customer segment that targets female
 1. If the list of customers meets your goal, click <span class="btn">Save</span> to complete the customer segment.
 
 The customer segment can now be used for targeting promotions, content, and mailings.
+
+|Column|Description|
+|--- |--- |
+|ID|The customer ID of a registered customer.|
+|Name|The name of of a registered customer.|
+|Email|The email address of a registered customer.|
+|Group|The customer group to which the customer is assigned.|
+|Phone|The phone number of the customer.|
+|ZIP|The ZIP or postal code of the customer.|
+|Country|The country where the customer is located.|
+|State / Province|The state or province where the customer is located.|
+|Customer Since|The date and time the customer account was created.|
