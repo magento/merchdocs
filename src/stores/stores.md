@@ -9,10 +9,6 @@ sections:
    content: Our online Configuration Reference has field descriptions for every setting.
    url: /stores/configuration.html
 
- - title: Inventory
-   content: Manage the physical and virtual locations of product inventory, using the Managing Sources and Managing Stock grids.
-   url: /stores/inventory.html
-
  - title: Taxes
    content: Learn how to set up tax classes for products and customer groups, and manage tax zones and rates according to the requirements of your locale.
    url: /tax/taxes.html
