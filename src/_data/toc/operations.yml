@@ -32,6 +32,13 @@ pages:
         url: "/stores/store-urls-custom-admin.html"
   - label: Configuration
     url: "/stores/configuration-overview.html"
+  - label: Inventory
+    url: "/stores/inventory.html"
+    children:
+    - label: Sources
+      url: "/stores/sources.html"
+    - label: Stocks
+      url: "/stores/stocks.html"
   - label: Taxes
     url: "/tax/taxes.html"
     children:
