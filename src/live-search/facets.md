@@ -20,4 +20,4 @@ The category and product attribute requirements for faceting are similar to laye
 |--- |--- |
 |[Category display settings]({% link catalog/categories-display-settings.md %}) |Anchor - Yes |
 |[Attribute properties]({% link stores/attribute-product-create.md %}) |[Catalog Input type]({% link stores/attributes-input-types.md %}) - Yes/No, Dropdown, Multiple Select, Price |
-|Attribute storefront properties |Use in Search - Yes<br />Use in Layered Navigation - Filterable (with results)<br />Used for Sorting in Product Listing - Yes|
+|Attribute storefront properties |Use in Search - Yes<br />Use in Layered Navigation - Filterable (with results)<br />Use for Sorting in Product Listing - Yes|
