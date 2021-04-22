@@ -15,7 +15,6 @@ A wide range of technologies is supported by the various email clients and servi
 |Windows 7|Outlook 2007, Outlook 2003|
 |Windows 10|Outlook 2013, Outlook 2016|
 
-
 |Operating System|Clients Supported|
 |--- |--- |
 |Android 4.2, “Jelly Bean”|Native email app|
