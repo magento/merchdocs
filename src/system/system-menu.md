@@ -4,6 +4,9 @@ title: System Menu
 
 The System Menu includes tools to import and export data, install extensions, manage system caches and indexes, manage permissions, backups, system notifications, and custom variables.
 
+![]({% link images/images/system-menu.png %}){: .zoom}
+*System Menu*
+
 ## Display the System menu
 
 On the _Admin_ sidebar, click **System**.

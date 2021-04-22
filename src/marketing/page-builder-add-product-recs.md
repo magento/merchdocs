@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: Add Product Recommendations
+title: Add Recommendations to Page Builder
 ---
 
 Use the _Product Recommendations_ content type to add an existing, active [recommendation unit]({% link marketing/create-new-rec.md %}) to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage) for a CMS page, block, or dynamic block.
@@ -22,6 +22,11 @@ The _Product Recommendations_ content type in Page Builder is supported in Magen
 | Remove | ![]({% link images/images-ee/icon-pb-remove.png %}) | Deletes the product recommendation container and its content from the stage. |
 
 ## Add an existing recommendation unit
+
+1. Make sure you have already [created a recommendation unit]({% link marketing/create-new-rec.md %}) for the Page Builder page type.
+
+   {:.bs-callout-info}
+   You can create recommendation units for the Page Builder page type only in the default store view.
 
 1. Open the page, block, or dynamic block in edit mode.
 

@@ -100,6 +100,26 @@ The following payment methods are built into Magento and do not use a third-part
 |Payment from Specific Countries|Website|Identifies the specific countries for which Zero Subtotal Checkout can be applied.|
 |Sort Order|Website|A number that determines the order that the title, such as “No Payment Information is Required”, appears when listed with other payment methods during checkout. Enter `0` to place it at the top of the list.|
 
+## Payment actions
+
+Payment actions are configured per payment method. The payment action determines when the funds are captured and when invoices are created for your sales orders.
+
+See the Basic settings section of each individual payment method topic for a comprehensive list of individual configuration options.
+
+|Payment Action |Description
+|--- |---
+|Authorization |Approves the purchase, but puts hold on the funds. The amount is not withdrawn until is captured by the merchant.
+|Authorize |Authorizes the buyer's account for the order total but does not capture the payment. Capture payment by creating an invoice. Authorized orders can be voided or canceled.
+|Authorize and Capture |Authorizes the buyer's account for the order total and captures the payment. An invoice is automatically created. You can refund captured funds via credit memo. You cannot cancel an order once payment has been captured.
+|Charge on shipment |Amazon receives a capture request and charges the customer when an invoice is created in Magento.
+|Charge on order |Amazon creates the invoice and charges the customer when the order is placed.
+|Not Capture |When the invoice is submitted, the system does not capture the payment. It is assumed that you will capture the payment through Magento at a later date. There is a Capture button in the completed invoice. Before capturing, you can cancel the invoice. After capturing you can create a credit memo and void the invoice.
+|Order |Represents an agreement with PayPal that allows the merchant to capture one or more amounts up to the order total from the customer’s buyer account, within a defined period of time (up to 29 days).
+|Sale |Amount of the purchase is authorized and immediately withdrawn from the customer’s account.
+
+{:.bs-callout-info}
+Do not select the _Not Capture_ option unless you are certain that you are going to capture the payment through Magento at a later date. You cannot create a credit memo until the payment has been captured using the Capture button.
+
 ## Purchase Order
 
 ![]({% link images/images/config-sales-payment-methods-purchase-order.png %}){: .zoom}
@@ -115,9 +135,3 @@ The following payment methods are built into Magento and do not use a third-part
 |Minimum Order Total|Website|The smallest order amount that can be paid by PO.|
 |Maximum Order Total|Website|The largest order amount that can be paid by PO. <br/><br/>**_Note:_** An order qualifies if the total is between, or matches, the minimum or maximum order total.|
 |Sort Order|Website|A number that determines the order that payment by PO appears when listed with other payment methods during checkout. Enter `0` to place it at the top of the list.|
-
-### See also
-
-* [Recommended Solutions]({% link configuration/sales/recommended-solutions.md %})
-* [Other PayPal Methods]({% link configuration/sales/paypal-methods-other.md %})
-* [Other Payment Methods]({% link configuration/sales/payment-methods-other.md %})
