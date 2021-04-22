@@ -47,12 +47,12 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 ## Klarna On-Site Messaging
 
 ![]({% link images/images/config-sales-payment-methods-klarna-payments-on-site-messaging.png %}){: .zoom}
-[_On-Site Messaging_]({% link payment/klarna-setup.md %})
+[_Klarna On-Site Messaging_]({% link payment/klarna-setup.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable|Website|Allows On-Site Messaging (OSM) if enabled in your Klarna account. Options: Yes / No|
-|Data client ID|Website|The `data-client-id` obtained from the Klarna merchant portal.|
+|Data client ID|Website|The `data-client-id` for the store is located in the installation script that is generated from the Klarna merchant portal. To learn more, see [Klarna Setup]({% link payment/klarna-setup.md %}).|
 |Design Theme|Website|Determines the style of Klarna promotional messaging in the storefront. Options: default / dark|
 |Enable on product|Website|Enables OSM on the product page. Options Yes / No|
 |Product placement|Website|Determines where Klarna promotional messaging appears on the product page. <br >Options:<br />Credit Promotion - Standard<br />Credit Promotion - Small<br />Credit Promotion - Badge<br />Sidebar Promotion - Autosize<br />Top Strip Promotion - Standard<br />Homepage Promotion - Tall<br />Homepage Promotion - Box<br />Homepage Promotion - Wide<br />Other|

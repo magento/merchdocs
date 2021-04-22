@@ -21,3 +21,5 @@ To analyze how well your recommendations are performing, Magento collects and di
 - **Viewable Click-through Rate (vCTR) %** - Percentage of Recommendation unit viewable impressions that register a click.
 
 - **Revenue** - Revenue driven by a Recommendation. Revenue is calculated by the total value of items that were clicked on in a Recommendation unit and ultimately purchased.
+
+- **Lifetime Revenue** - Lifetime revenue driven by a Recommendation. Lifetime revenue is calculated by the total revenue generated for a Recommendation unit from the time it was created.

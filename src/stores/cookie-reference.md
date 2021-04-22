@@ -223,11 +223,11 @@ It is set in multiple places: in PHP, in JavaScript as a cookie, and in JavaScri
 For the HTTP Only Yes (based on request) means that the cookie Secure if set during HTTPS request and unsecure if set during HTTP request.
 
 - Is Secure? Yes (based on request), No
-- HTTP Only:
+- HTTP Only: No
+- Expiration Policy: Based on [Persistent Shopping Cart]({% link sales/cart-persistent-configuration.md %}) - Persistence Lifetime (seconds) configuration
    - PHP: 1 year / 315360000s (10yr)
    - JS: 1 day
    - JS local storage: Per local storage rules (forever)
-- Expiration Policy: Based on [Persistent Shopping Cart]({% link sales/cart-persistent-configuration.md %}) - Persistence Lifetime (seconds) configuration
 - Module: `Magento_PageCache`, `Magento_Customer`
 
 #### `section_data_ids`
