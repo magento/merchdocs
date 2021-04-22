@@ -8,8 +8,13 @@ A wide range of technologies is supported by the various email clients and servi
 |--- |--- |
 |OS X 10.8|Apple Mail 6|
 |OS X 10.7|Outlook 2011, Outlook 2013|
+|OS X 10.14|Outlook 2016|
+|OS X 10.15|Outlook 2016|
+|OS X 11|Outlook 2016|
 |Windows 8|Outlook 2010|
 |Windows 7|Outlook 2007, Outlook 2003|
+|Windows 10|Outlook 2013, Outlook 2016|
+
 
 |Operating System|Clients Supported|
 |--- |--- |
