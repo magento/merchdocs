@@ -19,7 +19,7 @@ To streamline search results, facets that you define are `dynamic` by default. D
 
 - Price buckets - By default, prices are organized into buckets, distributed according to the number of products returned, and rounded to the nearest $5.00. For example, if four products are returned, each price bucket represents 25% of the returned products. Unlike price navigation steps, each price bucket overlaps the next price bucket by $1.00.
 
-- Intelligent facets are product attributes that [Adobe Sensei](https://www.adobe.com/sensei.html) finds extremely relevant to the given product set and query. This calculation takes into account the attribute meta data of the entire catalog and determines relevance at query time to deliver the most relevant facets for any query.
+- Intelligent facets are product attributes that Live Search powered by [Adobe Sensei](https://www.adobe.com/sensei.html) finds extremely relevant to the given product set and query. This calculation takes into account the attribute meta data of the entire catalog and determines relevance at query time to deliver the most relevant facets for any query.
 
 ## Select type
 

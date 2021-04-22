@@ -18,7 +18,7 @@ The rules workspace lists the current selection of rules and their status, and p
 
 ## Set the scope
 
-If your Magento installation includes multiple stores or store views, set **Scope** to the [store view]({% link configuration/scope.md %}) where your rules apply.
+If your Adobe Commerce installation includes multiple stores or store views, set **Scope** to the [store view]({% link configuration/scope.md %}) where your rules apply.
 
 ## Show/hide columns
 

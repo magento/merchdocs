@@ -16,6 +16,8 @@ Follow these instructions to update the properties of existing facets or change 
      - Pinned
      - Dynamic
 
+     To learn more, go to [Facet Types]({% link live-search/facets-type.md %}).
+
      ![Filter facets]({% link live-search/assets/facets-filter-by-cropped.png %}){: .zoom}
      _Filter by_
 

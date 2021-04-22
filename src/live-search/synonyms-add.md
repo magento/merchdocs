@@ -19,7 +19,7 @@ _Live Search synonyms_
 
 ## Step 2: Define the synonym by type
 
-Follow the instructions for the type of synonym that you want to create.
+Follow the instructions for the [type of synonym]({% link live-search/synonyms-type.md %}) that you want to create.
 
 ### Two-way synonym
 
