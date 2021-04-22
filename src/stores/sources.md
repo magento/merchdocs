@@ -11,6 +11,5 @@ You start with a Default Source you can update but not disable. This source is u
 - **Location Information** - Each source includes the name, country, physical address of the location, and a point of contact. Future releases for MSI will include additional types and information for sources.
 - **Enabling Resources** - You can enable and disable sources as needed. Only enable a source if it accepts and fulfills orders and backorders.
 - **Available Inventory** - Assign and update inventory quantities for each source through the product page. The inventory quantities are calculated, provided, and reserved through the source and stock mapping.
-The following diagram helps define the Sources for a Bicycle Shop merchant selling a mountain bike, available to stocks and accessible by the SSA for shipments.
 
 To add a new Sourse see:[Adding a New Source]({% link catalog/inventory-sources-add.md %}).
