@@ -9,9 +9,7 @@ You start with a Default Stock that cannot be removed or disabled. You can add a
 Sales Channels represent entities selling your inventory. By default, Magento provides your store websites as sales channels. Sales channels can be extended to support additional channels such as B2B customers groups and store views. Each sales channels can only be associated to one Stock.
 
 - **Sales Channel Support** - Sales channels currently include websites out-of-the-box. You can extend sales channels to include custom options like B2B customers groups and store views. Each sales channel can only have a single stock assigned to it. A single stock can be assigned to multiple sales channels.
-
 - **Map to Sources** - Each stock can have one or more enabled or disabled sources assigned, calculating the virtual aggregated inventory per product.
-
 - **Priority Order Fulfillment** - The out-of-the-box Priority algorithm for the Source Selection Algorithm uses the stock’s source list from top-to-bottom when fulfilling orders.
 The following diagram helps define how a Stock works in relation to Sources and Sales Channels for a Bicycle Shop merchant.
 
