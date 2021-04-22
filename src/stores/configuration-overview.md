@@ -17,6 +17,10 @@ _Configuration_
 
 [Catalog configuration]({% link configuration/catalog.md %}) settings determine product and inventory settings, controls sitemap and RSS feed generation, and specifies the email template that is used to share products with friends.
 
+### Security
+
+[Security]({% link configuration/security.md %}) settings determine security settings, 2FA authentication and Google reCapture feature.
+
 ### Customers
 
 [Customer configuration]({% link configuration/customers.md %}) establishes basic customer account and login options, newsletter settings, wish list, and the format of auto-generated coupon codes.
@@ -24,6 +28,18 @@ _Configuration_
 ### Sales
 
 [Sales configuration]({% link configuration/sales.md %}) determines checkout and tax settings, payment and shipping options, sales email and PDF print-outs, and Google API settings.
+
+### Yotpo
+
+[Yotpo]({% link configuration/yotpo.md %}) settings determine the Yotpo module, reviews, and visual marketing settings.
+
+### Sales Channels
+
+[Sales Chanel]({% link configuration/sales-channels.md %}) settings determine the clear log history, background tasks source, debag login, and read-only mode setting. Only available when Amazon Sales Channel is configured.
+
+### Dotdigital
+
+[Dotdigital]({% link configuration/dotdigital.md %}) settings determine the Dotdigital marketing solution setting. Allows set the build segments and triggers, data mapping, and creates a relevant account and marketing campaigns.
 
 ### Services
 
