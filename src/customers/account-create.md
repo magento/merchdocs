@@ -150,7 +150,20 @@ Customer accounts created from the Admin do not initially have passwords assigne
 
 1. In the menu bar at the top of the page, click **Reset Password**.
 
-1. Notification is sent to the account owner, with instructions for setting the password.
+   The number of password reset requests that are allowed within an hour is set in the [configuration]({% link configuration/customers/customer-configuration.md %}).
+
+## Revoke a customer’s OAuth tokens
+
+{:.bs-callout-warning}
+Do not proceed unless you are a developer familiar with API Authentication.
+
+1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
+
+1. Find the customer account in the grid and click **Edit** in the _Action_ column.
+
+1. In the set of options across the top of the page, click **Force Sign In**.
+
+1. When prompted to confirm, click <span class="btn">OK</span>.
 
 ## Button bar
 
