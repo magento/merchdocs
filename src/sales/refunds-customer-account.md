@@ -32,7 +32,7 @@ If a refund has been issued for an order, customers can view the refund informat
    ![]({% link images/images-ee/customer-account-store-credit.png %}){: .zoom}
    _Amount refunded to store credit_
 
-   - {:.ee-only}The _Store Credit_ page also provides a link for the customer to redeem a [gift card]({% link customers/account-dashboard-gift-card.md %}).
+   - {:.ee-only}The _Store Credit_ page also provides a link for the customer to redeem a [gift card]({% link customers/account-dashboard-gift-cards.md %}).
 
 **Method 2:** From the _Review & Payments_ page
 
