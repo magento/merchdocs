@@ -88,7 +88,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Recently Viewed/Compared Products
 
-![]({% link images/images/config-catalog-catalog-recently-viewed-compared-products.png %}){: .zoom}
+![]({% link images/images/config-catalog-catalog-recently-viewed-and-compared-products.png %}){: .zoom}
 [_Recently Viewed/Compared Products_]({% link marketing/products-viewed-compared.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
