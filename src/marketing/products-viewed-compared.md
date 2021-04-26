@@ -12,7 +12,7 @@ The Recently Viewed and Recently Compared blocks usually appear in the right sid
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Recently Viewed/Compared Products** section and do the following:
 
-    ![Catalog configuration - recently viewed/compared products]({% link images/images/config-catalog-catalog-recently-viewed-and-compared-products.png %}){: .zoom}
+    ![Catalog configuration - recently viewed/compared products]({% link images/images/config-catalog-catalog-recently-viewed-compared-products.png %}){: .zoom}
     [_Recently Viewed/Compared Products_]({% link configuration/catalog/catalog.md %})
 
     - Set **Synchronize widget products with backend storage** to synchronize product widget information, such as product ID, with your current product storage availability in the database and reuse this information on different devices.
