@@ -10,17 +10,25 @@ The configuration enables wish lists and determines the email template and sende
 
 1. In the left panel, expand **Customers** and choose **Wish List**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General Options** section and verify that **Enabled** is set to `Yes`.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General Options** section. Then, do the following:
 
-    ![Customers configuration - wish list general settings]({% link images/images/config-customers-wishlist-general-options.png %}){: .zoom}
+    ![Customers configuration - wish list general settings]({% link images/images-ee/config-customers-wishlist-general-options-ee.png %}){: .zoom}
     [_General Settings_]({% link configuration/customers/wishlist.md %})
+
+    - Set **Enabled** field to `Yes`. Activates the wish list module for your store.
+
+    - Set **Enable Multiple Wish Lists** field to `Yes`. When set to `Yes`, allows customers to create and maintain multiple wish lists.
+
+    - To limit the number of wish lists customers can have associated with their account, enter the **Number of Multiple Wish Lists**.
+
+    - Set **Show in Sidebar** field to `Yes`. Specifies visibility of the wish list(s) in the sidebar.
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Share Options** section. Then, do the following:
 
     ![Customers configuration - wish list share options]({% link images/images/config-customers-wishlist-share-options.png %}){: .zoom}
     [_Share Options_]({% link configuration/customers/wishlist.md %})
 
-   - Set **Email Sender** to the store contact that appears as the sender of the message.
+   - Set **Email Sender** to the store contact that appears as the sender of the message. Options: General Contact, Sales Representative, Customer Support, Custom Email.
 
    - Set **Email Template** to the template to be used when a customer shares a wish list.
 
