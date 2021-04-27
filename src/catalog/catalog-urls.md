@@ -84,7 +84,7 @@ To prevent search engines from indexing multiple URLs that lead to the same cont
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the left panel, expand **General** and choose **Web** underneath.
+1. In the left panel, expand **General** and choose **Web**.
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Url Options** section and set the options:
 
@@ -94,8 +94,8 @@ To prevent search engines from indexing multiple URLs that lead to the same cont
 {: .field-table }
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Add Store Code to URLs|Global|If Web Server Rewrites are enabled, inserts the Store Code of the current view in the URL. Options: Yes / No|
-|Auto-redirect to Base URL|Global|(For single-store setups) If there is a broken link on your site, redirects traffic to the base URL, rather than to a page with a “404 Page Not Found” message. Options: No / Yes (302 Found) / Yes (301 Moved Permanently) <br /><br />**_Important!_** Do not use auto-redirect to base URL for multi-store setups.|
-|Catalog media URL format|Defines the [URLs format]({% link catalog/catalog-urls.md %}) assigned to products and categories. Options:
-**Unique hash per image variant (Legacy mode)** - Determine converting filename to a unique hash value.
+|Add Store Code to URLs|Global|If Web Server Rewrites are enabled, this inserts the Store Code of the current view in the URL. Options: Yes / No|
+|Auto-redirect to Base URL|Global|(For single-store setups) If there is a broken link on your site, this redirects traffic to the base URL rather than to a page with a “404 Page Not Found” message. Options: No / Yes (302 Found) / Yes (301 Moved Permanently) <br /><br />**_Important!_** Do not use auto-redirect to base URL for multi-store setups.|
+|Catalog media URL format|Defines the [URL format]({% link catalog/catalog-urls.md %}) assigned to products and categories. Options:
+**Unique hash per image variant (Legacy mode)** - Defines converted filename as a unique hash value.
 **Image optimization based on query parameters** - Defines [image optimization] ({% link cms/media-gallery-image-optimization%}) process depending on query parameters.|
