@@ -24,7 +24,7 @@ To configure, arrange those sources from top-to-bottom in priority for fulfillin
 
 1. Click **Assign Sources**.
 
-    This displays the **Assign Sources page**. Select the checkbox for the required source and click <span class="btn">Done</span> to assign a source to the stock.
+    This displays the **Assign Sources** view. Select the checkbox for the required source and click **Done** to assign a source to the stock.
 
 {:.bs-callout-info}
 When using the [Distance Priority]({% link catalog/inventory-configure-distance-priority.md %}) algorithm for shipping, if routes and data do not return for the selected [Computation mode]({% link catalog/inventory-configure-distance-priority.md %}) (driving, bicycling, or walking) for a shipment, the SSA defaults to using the Source Priority.
