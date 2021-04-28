@@ -11,17 +11,17 @@ _Product Reviews_
 
 |Field|Description|
 |--- |--- |
-|ID|Unique, numeric ID generated for the product review entry.|
-|Created|Date of publication of the review.|
+|ID|Unique, numeric ID generated for the product review entry|
+|Created|Date of publication of the review|
 |Status|Review status. Options: **Pending**, **Approved**, **Not Approved**.|
-|Title|Review title.|
-|Nickname|The nickname of the user who left the review.|
-|Review|Customer review on the current product.|
-|Visibility|Visibility in store reviews.|
+|Title|Review title|
+|Nickname|The nickname of the user who left the review|
+|Review|Customer review on the current product|
+|Visibility|Visibility in store reviews|
 |Type|Type of user who left the review. Options: **Guest**, **Customer**.|
-|Product|Reviewed product name.|
-|SKU|The unique Stock Keeping Unit that is assigned to the product.|
-|Action|Opens the product in Edit mode.|
+|Product|Reviewed product name|
+|SKU|The unique Stock Keeping Unit that is assigned to the product|
+|Action|Opens the product in Edit mode|
 
 ## Moderation of product reviews
 
@@ -38,4 +38,3 @@ _Product Reviews_
 1. When complete, click <span class="btn">Save Review</span>.
 
 Reviews with the `Pending` and `Not Approved` statuses are not displayed on the storefront.
-
