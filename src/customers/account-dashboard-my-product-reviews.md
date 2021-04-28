@@ -18,27 +18,23 @@ _My Product Reviews_
 
 ## Add product review from the storefront
 
-When the **Magento Product Reviews** function is [enabled]({% link icatalog/catalog.md %}), customers can write reviews for any product in your catalog. Reviews can be written from the product page by clicking:
+When you [enable]({% link configuration/catalog/catalog.md %}#product-reviews) product reviews, In the storefront, a customer can write reviews for any product in your catalog.
 
-- Add **Your Review** for products with existing reviews.
+1. On the storefront, the customer opens a product page.
 
-- Be the first to review this product for products with no existing reviews.
+1. Scrolls down and selects the **Reviews** tab.
 
-1. On the storefront open the **product page**.
+1. Fills in required fields:
 
-1. Scroll down to the details block and select the **Reviews** tab.
+   - Rating
 
-1. Fill in required fields:
+   - **Nickname**
 
-   - Fill in the rating stars.
+   - **Summary** of the review
 
-   - Enter the **Nickname**.
+   - Detailed description in the **Review** field
 
-   - Describe the **Summary** of the review.
-
-   - Add a detailed description to the **Review** field.
-
-1. Click <span class="btn">Save<span>.
+1. Clicks <span class="btn">Submit Review<span>.
 
 {:.bs-callout-info}
-The submitted review will appear on the product page after the Magento admin approves it.
+The submitted review appears on the product page after the Magento admin approves it.
