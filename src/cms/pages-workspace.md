@@ -50,3 +50,14 @@ _Pages grid_
 |Created|The date the page was created.|
 |Modified|The date the page was last modified.|
 |Action|The actions that can be applied to an individual record include:<br/>**Edit** - Opens the page in edit mode.<br/>**Delete** - Deletes the page.<br/>**View** - Displays the page in preview mode.  |
+
+## Other columns
+
+|Column|Description|
+|--- |--- |
+|Custom design to/from|The custom design start and end date|
+|Custom Theme|The page theme|
+|Custom Layout|The page layout|
+|Meta Title|Meta title for the content page|
+|Meta Keywords|Meta keywords for the content page|
+|Meta Description|Meta keywords for the content page|
