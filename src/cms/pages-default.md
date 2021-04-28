@@ -17,12 +17,20 @@ The _Default Pages_ configuration determines the landing page that is associated
 
 1. For **Default Web URL**, enter the relative path to the folder in the Magento installation that contains the landing page.
 
-   The default value is `cms`.
+   This is set by default to `cms` to indicate a page from Magento’s content management system.
 
    {:.bs-callout-info}
    For a specific store view, clear the **Use Default** checkbox next to _Default Web URL_, and any other default settings to be changed.
 
-1. Set **CMS Home Page** to the CMS page to be used as the home page.
+1. Set **CMS Home Page** to the CMS page to be used as the home page. Other created pages can be used as the home page, such as:
+   
+   - Welcome to our Exclusive Online Store
+   - Rewars Points
+   - About Us
+   - Customer Service
+   - Enable Cookies
+   - Privacy Policy
+   - Company: Access Denied
 
 1. For **Default No-route URL**, enter the relative path to the folder in the Magento installation where the page is redirected when a _404 Page Not Found_ error occurs.
 
@@ -30,7 +38,7 @@ The _Default Pages_ configuration determines the landing page that is associated
 
 1. Set **CMS No Route Page** to the CMS page that appears when a _404 Page Not Found_ error occurs.
 
-1. Set **CMS No Cookies Page** to the CMS page that appears when cookies are disabled in the browser.
+1. Set **CMS No Cookies Page** to the CMS page that appears when cookies are disabled in the browser. The page explains why cookies are used, and how to enable them for each browser. The default page is `Enable Cookies`.
 
 1. If you want a breadcrumb trail to appear at the top of all CMS pages, set **Show Breadcrumbs for CMS Pages** to `Yes`.
 
