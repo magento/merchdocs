@@ -260,6 +260,8 @@ pages:
     children:
     - label: Sorting Category Products
       url: "/catalog/category-products-sort.html"
+    - label: Adding Category Products
+      url: "/catalog/category-products-add.html"
   - label: Design Settings
     url: "/catalog/categories-custom-design.html"
   - label: Category Permissions
