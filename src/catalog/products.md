@@ -50,12 +50,12 @@ _Products Grid_
 
 |Column|Description|
 |--- |--- |
-|Short Description|The product short description.|
+|Short Description|Short description of the product.|
 |Special Price From Date|The first date of the special price promotion.|
 |Special Price To Date|The last date of the special price promotion.|
 |Cost|The actual cost of the item.|
 |Manufacturer|The manufacturer of the product.|
-|Meta Keywords|The product meta keywords.|
+|Meta Keywords|Meta keywords for the product.|
 |Color|The product color.|
 |Set Product as New from Date|The first date of the set product as a new promotion.|
 |Set Product as New to Date|The last date of the set product as a new promotion.|
@@ -63,8 +63,8 @@ _Products Grid_
 |Layout|The product layout.|
 |Minimum Advertised Price|The minimum advertised price of the product.|
 |Allow Gift Message|The gift message to customers who purchase a gift card.|
-|Special Price|The product special price.|
+|Special Price|Special price for the product.|
 |Weight|The product weight.|
-|Meta Title|The product meta title.|
+|Meta Title|Meta title for the product.|
 |Meta Description|The product meta description.|
 |Country of Manufacture|The country of manufacture.|
