@@ -4,7 +4,7 @@ title: Customer Groups
 
 Customer groups determine which discounts are available and the tax class that is associated with the group. The default customer groups are General, Not Logged In, and Wholesale.
 
-- {:.b2b-only}The selection of customer groups includes all regular customer groups, and shared catalogs, even if [Shared Catalogs]({% link catalog/catalog-shared.md %}) is not enabled in the configuration. Only one customer group or shared catalog can be assigned to a [company]({% link customers/account-companies.md %}) at a time.
+- {:.b2b-only}The selection of customer groups includes all regular customer groups and shared catalogs, even if **Shared Catalogs** is not enabled in the configuration. See [Configure B2B features]({% link stores/b2b-features.md %}) to enable shared catalogs. Only one customer group or shared catalog can be assigned to a [company]({% link customers/account-companies.md %}) at a time.
 
 ![]({% link images/images/customer-groups.png %}){: .zoom}
 _Customer Groups_
