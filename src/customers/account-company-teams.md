@@ -84,6 +84,7 @@ As you work on the company structure, you can collapse or expand the tree:
 |-------------------------------------------------------------|----------------------------------------------------------------|
 | ![]({% link images/images-b2b/icon-company-admin.png %})    | Represents the company administrator in the company structure. |
 | ![]({% link images/images-b2b/icon-company-team.png %})     | Represents a team in the company structure.                    |
+| ![]({% link images/images-b2b/icon-company-user.png %})     | Represents a user in the company structure.                 |
 | ![]({% link images/images-b2b/icon-company-move.png %})     | Moves a team to another position in the company structure.     |
 | ![]({% link images/images-b2b/icon-company-expand.png %})   | Expands a team in the company structure.                       |
 | ![]({% link images/images-b2b/icon-company-collapse.png %}) | Collapses a team in the company structure.                     |

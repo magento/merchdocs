@@ -26,6 +26,8 @@ The Gift Card configuration establishes the default settings for all gift cards 
 
    - Set **Gift Card Template** to the template you want to use for the gift card.
 
+See [Store Email Addresses]({% link configuration/general/store-email-addresses.md %}) for specific configuration fields and options.
+
 ## Step 2: Complete the general settings
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the _Gift Card General Settings_ section.
