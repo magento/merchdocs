@@ -22,7 +22,31 @@ _Wish List Search_
 
    - Set **Assign to Store Views** to the view or website where the widget is to be used.
 
-   - In the **Layout Updates** section, click <span class="btn">Add Layout Update</span>. Then, specify where you want the widget to appear.
+   - Enter the **Sort Order**, by default `0`.
+
+   - In the **Layout Updates** section, click <span class="btn">Add Layout Update</span>.
+
+   - Set **Display on** to one of the following:
+
+    |--- |--- |
+    |Categories||
+    ||Anchor Categories|
+    ||Non-Anchor Categories|
+    |Products||
+    ||All Product Type|
+    ||Simple Product|
+    ||Virtual Product|
+    ||Bundle Product|
+    ||Configurable Product|
+    ||Downloadable Product|
+    ||Gift Card|
+    ||Grouped Product|
+    |Generic Page||
+    ||All Pages|
+    ||Specified Page|
+    ||Page Layouts|
+
+   - In the **Container** list, choose the area of the page layout where it is to be placed.
 
     ![Wish list search widget - layout]({% link images/images/widget-wishlist-search-layout-update.png %}){: .zoom}
     _Layout Update_
