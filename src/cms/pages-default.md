@@ -22,10 +22,10 @@ The _Default Pages_ configuration determines the landing page that is associated
    {:.bs-callout-info}
    For a specific store view, clear the **Use Default** checkbox next to _Default Web URL_, and any other default settings to be changed.
 
-1. Set **CMS Home Page** to the CMS page to be used as the home page. Other created pages can be used as the home page, such as:
+1. Set **CMS Home Page** to the CMS page to be used as the home page. Other created pages may be used as the home page, such as:
 
    - Welcome to our Exclusive Online Store
-   - Rewars Points
+   - Rewards Points
    - About Us
    - Customer Service
    - Enable Cookies
