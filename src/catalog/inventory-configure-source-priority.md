@@ -20,7 +20,7 @@ To configure, arrange those sources from top-to-bottom in priority for fulfillin
 
 1. On the _Admin_ sidebar, go to **Stores** > **Inventory** > **Stocks**.
 
-1. Open a stock in **Edit** mode and scroll down the page to the _Sources_ area.
+1. Open a stock in **Edit** mode and navigate to the _Sources_ area.
 
 1. Click **Assign Sources**.
 
