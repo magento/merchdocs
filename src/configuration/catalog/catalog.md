@@ -58,7 +58,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Price Alert Email Template|Store View|Identifies the template that is used for product price change email alerts. Default template: Product price alert|
 |Allow Alert When Product Comes Back in Stock|Website|Determines if customers can choose to receive an alert when the product comes back in stock. Options: Yes / No|
 |Stock Alert Email Template|Store View|Identifies the template that is used for stock alert email notifications. Default template: Product stock alert|
-|Alert Email Sender|Store View|Determines the store contact that appears as the sender of the product alert email message.|
+|Alert Email Sender|Store View|Determines the store contact that appears as the sender of the product alert email message. Options: General Contact, Sales Representative, Customer Support, Custom Email.|
 
 ## Product Alerts Run Settings
 
