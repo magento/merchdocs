@@ -53,7 +53,7 @@ _[Move Order to Archive]({% link configuration/sales/sales.md %})_
     _Mark Checkbox_
 
 {:.bs-callout-tip}
-Only orders with **Complete** or **Closed** status can be moved to the archive. Orders with other statuses will remain in the Order Management grid.
+To specify a list of order statuses that can be archived see: [Configuring the Archive]({% link sales/order-archive-configure.md %}).
 
 ## To view an archived order:
 
