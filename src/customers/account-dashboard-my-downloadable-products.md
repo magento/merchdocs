@@ -11,7 +11,7 @@ The following table describes the _My Downloadable Products_ values:
 
 |Column|Description|
 |--- |--- |
-|Order#|The [order]({% link /sales/orders.md %}) in which the downloadable product was purchased. Provides a link to the order detail.|
+|Order#|The [order]({% link sales/orders.md %}) in which the downloadable product was purchased. Provides a link to the order detail.|
 |Date| Order creation date.|
 |Title|The name of the downloadable product purchased with the order. Provides a link to the downloadable product.|
 |Status|Order processing status.|
