@@ -74,7 +74,7 @@ _Example navigation menu on the About Us page_
 
    - To assign the node to a specific part of the book, set **Chapter/Section** to one of the following:
 
-      | No | Doesn't defines this node as chapter/section. |
+      | No | Does not define the node as chapter/section. |
       | Chapter | Assigns the current node as a chapter. |
       | Section | Assigns the current node as a section. |
       | Both | Assigns the current node as both a chapter and section. |
@@ -103,7 +103,7 @@ If you want the node to appear in the menu, do the following:
    ![]({% link images/images-ee/page-hierarchy-page-navigation-menu-options.png %}){: .zoom}
    _Page navigation menu options_
 
-1. To specify the location of the menu in relation to the content, set **Menu Layout** to one of the following:
+1. To specify the location of the menu in relation to the content, set the **Menu Layout**:
 
    | Content|The menu layout is located in the content.|
    | Use Default|Uses the menu style that is specified in the [configuration]({% link configuration/general/content-management.md %}).|
@@ -117,12 +117,12 @@ If you want the node to appear in the menu, do the following:
 
 1. To determine the depth of the menu, enter the **Maximal Depth** for the maximum number of levels to include.
 
-1. To format the menu, choose the **List Type**  to one of the following:
+1. To format the menu, choose a **List Type**:
 
    | Unordered | The menu options are not numbered, and can be formatted with or without bullets. Options for unordered list type: Default / Circle / Disc / Square |
    | Ordered | The menu options are numbered, and can be formatted as numeric, alphabetic, or roman numerals in either upper-or lowercase. |
 
-1. To select a list style, set **List Style** to one of the following:
+1. Set **List Style** to one of the following:
 
    - Circle
    - Disc
