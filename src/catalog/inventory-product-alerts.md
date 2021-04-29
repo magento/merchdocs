@@ -40,7 +40,7 @@ _List of Product and Price Alert Subscriptions_
 
     - Set **Stock Alert Email Template** to the template that you want to use for product stock alerts.
 
-    - Set **Alert Email Sender** to the [store contact]({% link stores/store-email-addresses.md %}) that you want to appear as the sender of the email alert. Learn more about [store email addresses]({% link configuration/general/store-email-addresses.md %})
+    - Set **Alert Email Sender** to the [store contact]({% link stores/store-email-addresses.md %}) that you want to appear as the sender of the email alert. Learn more about [store email addresses]({% link configuration/general/store-email-addresses.md %}).
 
 1. When complete, click <span class="btn">Save Config</span>.
 
