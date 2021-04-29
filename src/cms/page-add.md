@@ -132,6 +132,11 @@ _Pages Grid_
 
    For more information, see [Layout Updates]({% link design/layout-updates.md %}).
 
+1. To change the theme of the page, set **New Theme** to one of the following:
+
+   - `Magento Black`
+   - `Magento Luma`
+
 1. {:.ce-only}To schedule a design change, expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Custom Design Update** and do the following:
 
    ![]({% link images/images/page-custom-design-update.png %}){: .zoom}

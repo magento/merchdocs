@@ -12,6 +12,16 @@ You can maintain a selection of different home pages, and activate the page that
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Default Pages** section and set **CMS Home Page** to the new page.
 
+   Other created pages can be used as the home page, such as:
+
+   - Welcome to our Exclusive Online Store
+   - Rewars Points
+   - About Us
+   - Customer Service
+   - Enable Cookies
+   - Privacy Policy
+   - Company: Access Denied
+
    ![]({% link images/images/config-general-web-default-pages.png %}){: .zoom}
    _Web default pages configuration_
 
