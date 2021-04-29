@@ -123,7 +123,7 @@ If you want the node to appear in the menu, do the following:
    | Ordered | The menu options are numbered, and can be formatted as numeric, alphabetic, or roman numerals in either upper-or lowercase. |
 
 1. To select a list style, set **List Style** to one of the following:
-   
+
    - Circle
    - Disc
    - Square
