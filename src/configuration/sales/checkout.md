@@ -51,9 +51,9 @@ _[Shopping Cart]({% link sales/cart-configuration.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Display Mini Cart|Store View|Determines if a mini-cart appears in the shopping cart. The display of the mini cart depends upon the theme. Options: Yes / No|
-|Number of Items to Display Scrollbar|Store View|Determines the number of items that can appear in the mini cart before the scrollbar is triggered.|
-|Maximum Number of Items to Display|Store View|Determines the maximum number of items that can appear in the mini cart.|
+|Display Mini Cart|Store View|Determines if the mini cart appears on store pages when the cart icon in the header is clicked. The display of the mini cart depends upon the theme. Options: Yes / No|
+|Number of Items to Display Scrollbar|Store View|Determines the number of items that can appear in the mini cart before the scrollbar is triggered. Default: 5|
+|Maximum Number of Items to Display|Store View|Determines the maximum number of items that can appear in the mini cart. Default: 10|
 
 ## Payment Failed Emails
 

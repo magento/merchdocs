@@ -2,7 +2,7 @@
 title: My Cart Link
 ---
 
-The cart link in the upper-right corner of the header gives a quick summary of the contents of the cart. The link can be configured to display the number of different products (or SKUs) in the cart, or the total quantity of all items. If the [Mini Cart]({% link sales/mini-cart.md %}) is enabled, you can click the link to display more detail.
+The cart link in the upper-right corner of the header gives a quick summary of the contents of the cart. The link can be configured to display the number of different products (or SKUs) in the cart, or the total quantity of all items. If the [mini cart]({% link sales/mini-cart.md %}) is enabled, you can click the link to display more detail.
 
 ![The store page displays a linked cart icon at the upper right corner of the page]({% link images/images/storefront-my-cart-link.png %}){: .zoom}
 _Example storefront - cart link at the top of the page_
