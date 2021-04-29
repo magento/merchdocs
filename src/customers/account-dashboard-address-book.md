@@ -42,6 +42,6 @@ _[Additional Address Entries]({% link configuration/customers/customer-configura
 
    - Click the **Change Billing/Shipping Address** in the Default Addresses block.
 
-   - Ckick the **Edit** in the **Additional Address Entries** grid.
+   - Click the **Edit** in the **Additional Address Entries** grid.
 
-1. Make changes necessary, and click <span class="btn">Save Address</span>.
+1. Make the necessary changes, and click <span class="btn">Save Address</span>.
