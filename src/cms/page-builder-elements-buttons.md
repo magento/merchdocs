@@ -80,6 +80,9 @@ _Buttons container toolbox_
 
    - **Product** - Enter a product name (partial or full) or SKU, then choose the product name in the list.
 
+      {:.bs-callout-info}
+      The products are displayed in the list according to the _Show out of stock products_ settings. For Multi Source merchants using [Inventory Management]({% link catalog/inventory-management.md %}), the products list is limited by the source assigned to the default website only.
+
       ![]({% link images/images-ee/page-builder-elements-button-settings-button-link-product-search.png %}){: .zoom}
       _Choosing a product for the button link_
 
