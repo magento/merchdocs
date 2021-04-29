@@ -24,17 +24,17 @@ _Gift Registry_
 
 1. Click **Next**.
 
-1. Fill in the required information, and click <span class="btn">Save</span>.
+1. Fill in the required information, and click **Save**.
 
-## To share gift registry
+## Share a gift registry
 
 1. From customer account dashboard, go to **Gift Registry**.
 
 1. Find the registry event that you want to manage, and click **Share**.
 
-1. Fill in the required information, and click <span class="btn">Share Gift Registry</span>.
+1. Fill in the required information, and click **Share Gift Registry**.
 
-## To edit gift registry
+## Edit a gift registry
 
 1. From customer account dashboard, go to **Gift Registry**.
 
@@ -42,12 +42,12 @@ _Gift Registry_
 
 1. Change any options that are necessary.
 
-1. Edit the required options, and click <span class="btn">Save</span>.
+1. Edit the required options, and click **Save**.
 
-## To delete gift registry
+## Delete a gift registry
 
 1. From customer account dashboard, go to **Gift Registry**.
 
 1. Find the registry event that you want to manage, and click **Delete**.
 
-1. Click <span class="btn">OK</span> to confirm.
+1. Click **OK** to confirm.
