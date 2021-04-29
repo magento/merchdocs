@@ -22,7 +22,7 @@ To edit your account information:
 1. Click **Save Account**.
 
    {:.bs-callout-info}
-   Please note: you should fill current admin password into **Your Password** field, each time you edit account information, to apply the changes.
+   You should fill the current admin password into **Your Password** field, each time you edit account information, to apply the changes.
 
     ![Account Information]({% link images/images/admin-account-information.png %}){: .zoom}
     _Account Information_
