@@ -157,13 +157,7 @@ If you leave this field empty, a security check does not run. We do not recommen
 1. To send in-app system messages to admin users when errors that may affect the dotdigital extension are detected, set **Enable System Messages** to "Yes".
 1. To send system alert email notifications when errors that may affect the dotdigital extension are detected, set **Enable Email Notifications** to "Yes".
 1. Select the user role in the **Select Roles** field  who will receive email notifications.
-1. To specify the email notification frequency and the time interval for error reporting, set **Alert Frequency** to one of the following:
-
-    - 1 Hour
-    - 12 Hours
-    - 24 Hours
-    - 48 Hours
-    - 72 Hours
+1. To specify the email notification frequency and the time interval for error reporting, set **Alert Frequency** to one of the options: 1 hour, 12 hours, 24 hours, 48 hours, 72 hours.
 
     ![System Alerts]({% link images/images/system.alerts.block.png %}){: .zoom}
     _System Alerts_
