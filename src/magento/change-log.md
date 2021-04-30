@@ -4,6 +4,21 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what's new.
 
+## May 2021
+
+### Product releases
+
+- [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/commerce-2-3-7.html){: target="_blank"}, 2.3.7
+- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-7.html){: target="_blank"}, 2.3.7
+
+### Updated topics
+
+{: .topics-table }
+|Topic |Change|
+|--- |--- |
+|Web Setup Wizard <br/>Extension Manager <br/>Module Manager <br/>System Upgrade <br/>System Configuration |Removed all content for the Web Setup Wizard. This UI functionality was removed in 2.3.7. All installation and updates, including modules and extensions, must be done by command line.|
+|[Store Admin]({% link stores/admin.md %}) <br/> [Admin]({% link configuration/advanced/admin.md %}#admin-usage) (reference) <br/> |Updated the opt-in Admin usage data information to include new support for in-product guidance.|
+
 ## March 2021
 
 ### Updated topics
@@ -35,6 +50,11 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}) |Added a note about the possible actual coupon usage count exceeding the defined limit.|
 
 ## October 2020
+
+### Product releases
+
+- [Adobe Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/commerce-2-3-6.html){: target="_blank"}, 2.3.6
+- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-6.html){: target="_blank"}, 2.3.6
 
 ### Updated topics
 
