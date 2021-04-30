@@ -19,7 +19,6 @@ Our documentation is continually updated with new topics, clarifications, and co
 |Web Setup Wizard <br/>Extension Manager <br/>Module Manager <br/>System Upgrade <br/>System Configuration |Removed all content for the Web Setup Wizard. This UI functionality was removed in 2.3.7. All installation and updates, including modules and extensions, must be done by command line.|
 |[Store Admin]({% link stores/admin.md %}) <br/> [Admin]({% link configuration/advanced/admin.md %}#admin-usage) (reference) <br/> |Updated the opt-in Admin usage to include value information about in-product guidance.|
 
-
 ## March 2021
 
 ### Updated topics
@@ -56,7 +55,6 @@ Our documentation is continually updated with new topics, clarifications, and co
 
 - [Adobe Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/commerce-2-3-6.html){: target="_blank"}, 2.3.6
 - [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-6.html){: target="_blank"}, 2.3.6
-
 
 ### Updated topics
 
