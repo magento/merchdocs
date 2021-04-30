@@ -30,40 +30,40 @@ _All Customers_{:.b2b-only}
 |Columns|Determines the selection of [columns]({% link stores/admin-grid-layout.md %}) and their accounts in the grid. The column layout can be changed and saved as a _view_. By default, only some of the columns are included in the grid.|
 |Export|Exports the selected records as a CSV or Excel XML file.|
 
-## Column descriptions
+## Columns
 
 |Column|Description|
 |--- |--- |
-|Select|Select the checkbox to select the account(s) to be subject to an action, or use the selection control in the column header. Options: Select All / Deselect All|
-|ID|A unique, sequential number that is assigned when a new customer account is saved.|
-|Name|First and second name of the customer, created account.|
-|Customer Type|Customer account type. Options: Individual / Company|
-|Email|The email address that is associated with the customer account.|
-|Group|The customer group to which the person who created an account is assigned.|
-|Phone| The primary phone number of the customer.|
-|ZIP/Postal Code|The ZIP or postal code where the customer is registered.|
-|Country|The country where the customer is registered.|
-|State/Province|The state or province where the customer is registered.|
-|Customer Since|Date and time of registration of the customer account.|
-|Web Site| Website that is associated with the customer account.|
-|Confirmed Email|Basic trigger email included to customer registration.|
-|Account Created in| Store in wich created customer account.|
-|Date of Birth|Date when customer was birth.|
-|Tax VAT Number|The value-added tax number that is assigned to the customer account by some jurisdictions for tax reporting purposes.|
-|Gender|Gender of the customer.|
-|Company|The company that the customer user account belongs to.|
-|Status|Indicates the current state of the customer account. Options: Active/ Inactive.|
-|Action|View opens the customer in edit mode.|
+|Select|Manages the checkbox selections for the customer records for applying an action. You can also use the selection control in the column header to select/deselect all.|
+|ID|A unique numeric identifier that is assigned when the customer account is created.|
+|Name|The first and last name of the customer.|
+|Email|The email address of the customer.|
+|Group|The customer group to which the customer is assigned.|
+|Phone|The phone number of the customer.|
+|ZIP|The ZIP or postal code of the customer.|
+|Country|The country where the customer is located.|
+|State/Province|The state or province where the customer is located.|
+|Customer Since|The date and time the customer account was created.|
+|Web Site|The web site in the store hierarchy to which the customer account is associated.|
+|Confirmed Email|Indicates if a confirmation email is required to be sent.|
+|Account Created In|Indicates the store view from which the customer account was created.|
+|Date of Birth|The date of birth of the customer. <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers’ full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers’ full birth dates and instead suggest using customer year of birth as an alternative.|
+|Tax / VAT Number|If applicable, the tax number or [value-added tax]({% link tax/vat.md %}) number that is assigned to the customer. <br/><br/>**_Note:_** This field is not the same as the VAT Number.|
+|Gender|The gender of the customer.|
+|Action|Edit - Opens the company account in edit mode.|
 
-### Additional Columns Available
+### Additional Columns
 
-|Billing Address|The billing address of the customer who placed the order.|
-|Shipping Address|The address where the order is to be shipped.|
-|Billing Firstname|First name of the customer, indicated in billing data.|
-|Billing Lastname|Last name of the customer, indicated in billing data.|
-|City|The city where the customer is registered.|
-|Street Address|The street address where the customer is registered.|
-|Sales Representative|(Admin Only) The Admin user who is the primary contact for the customer account.|
-|Fax| Fax number associated with the customer account.|
-|VAT Number|The value-added tax number that is assigned to the company by some jurisdictions for tax reporting purposes.|
-|Account Lock|Indicates the current state of the customer account. Options: Locked/ Unlocked.|
+These columns are available by changing the [column layout]({% link stores/admin-grid-layout.md %}) of the grid.
+
+{: .fields-table }
+|Company|The company name of the customer.|
+|Street Address|The street address of the customer.|
+|City|The city where the customer is located.|
+|Fax|The fax number of the customer, if applicable.|
+|Billing Firstname|The first name in the billing address of the customer.|
+|Billing Lastname|The last name in the billing address of the customer.|
+|Billing Address|The address where billing information is to be sent.|
+|Shipping Address|The address where orders are to be shipped.|
+|VAT Number|The value-added tax number that is associated with the customer address. For [digital goods]({% link tax/eu-place-of-supply.md %}) sold in the EU, the VAT is based on the billing address of the customer. <br/><br/>**_Note:_** This field is not the same as the Tax/VAT Number.|
+|Account Lock|Indicates the status of the account. As a security measure, customer accounts can be [locked]({% link customers/password-options.md %}) after too many login attempts. Values: Locked / Unlocked|
