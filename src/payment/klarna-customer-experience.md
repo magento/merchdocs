@@ -4,22 +4,22 @@ title: Klarna Storefront Experience
 
 Klarna appears as a payment method during checkout, if it is enabled in the configuration. When data sharing is used, Klarna can instantly prequalify the customer and present the available solutions.
 
-![Pay over time with Klarna]({% link images/images/storefront-cart-payment-method-klarna2.png %}){: .zoom}
-_Storefront - Pay over time with Klarna_
+![Pay later with Klarna]({% link images/images/storefront-cart-payment-method-klarna_ot.png %}){: .zoom}
+_Storefront - Pay later with Klarna_
 
 ## Pay with Klarna
 
 The payment solution presented to the customer might be one of the following:
 
-- Pay over time
 - Pay later
+- Pay in X days
 
-### Pay over time
+### Pay later
 
-1. The customer selects **Slice it. Pay over time with Klarna**.
+1. The customer selects **Buy now, pay later**.
 
-   ![Pay Over Time with Klarna]({% link images/images/storefront-cart-payment-method-klarna1.png %}){: .zoom}
-   _Pay Over Time with Klarna_
+   ![Pay later with Klarna]({% link images/images/storefront-cart-payment-method-klarna_ot.png %}){: .zoom}
+   _Pay later with Klarna_
 
 1. The customer does one of the following:
 
@@ -28,13 +28,13 @@ The payment solution presented to the customer might be one of the following:
 
 1. After the terms of the credit are approved, the customer clicks/taps <span class="btn">Place Order</span>.
 
-### Pay later
+### Pay in X days
 
-1. The customer selects **Pay later**.
+1. The customer selects **Pay later in X days**.
 
-   The terms appear below. In the following example, no sign-up is needed and the customer can pay in 14 days.
+   The terms appear below. In the following example, no sign-up is needed and the customer can pay in X days (depending on a market).
 
-   ![Pay Later]({% link images/images/storefront-cart-payment-method-klarna2b.png %}){: .zoom}
+   ![Pay Later in X days]({% link images/images/storefront-cart-payment-method-klarna_pl.png %}){: .zoom}
    _Pay Later_
 
 1. To pay later with Klarna according to the terms specified, the customer clicks/taps <span class="btn">Place Order</span>.
