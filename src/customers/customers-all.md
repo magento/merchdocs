@@ -26,7 +26,7 @@ _All Customers_{:.b2b-only}
 |Add New Customer|Creates a new customer account.|
 |Search|Initiates a search for customers based on the current filters.|
 |Filters|Defines a set of search parameters used to filter the records that appear in the [grid]({% link stores/admin-grid-controls.md %}).|
-|[Default View]({% link stores/admin-grid-layout.md %})|Determines the default column layout of the grid.|
+|Default View|Determines the default column [layout]({% link stores/admin-grid-layout.md %}) of the grid.|
 |Columns|Determines the selection of [columns]({% link stores/admin-grid-layout.md %}) and their accounts in the grid. The column layout can be changed and saved as a _view_. By default, only some of the columns are included in the grid.|
 |Export|Exports the selected records as a CSV or Excel XML file.|
 
