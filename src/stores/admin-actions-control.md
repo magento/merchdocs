@@ -59,23 +59,26 @@ The checkbox in the first column of the list identifies each record that is a ta
 
 |List|Actions|
 |--- |--- |
+|Quotes|Decline|
 |Orders|Cancel<br/>Hold<br/>Unhold<br/>Print Invoices<br/>Print Packing Slips<br/>Print Credit Memos<br/>Print All<br/>Print Shipping Labels <br/><span class="ee-only">Move to Archive</span>|
 |Invoices|PDF Invoices|
 |Shipments|PDF Shipments<br/>Print Shipping Labels|
 |Credit Memos|PDF Credit Memos|
+|Returns|Close|
 
-### Products
+### Catalog
 
 |List|Actions|
 |--- |--- |
-|Catalog|Delete<br/>Change Status<br/>Update Attributes|
+|Products|Delete<br/>Change Status<br/>Update Attributes<br/>Assign Inventory Source<br/>Unassign Inventory Source<br/>Transfer Inventory To Source|
+|Shared Catalogs|Delete|
 
 ### Customers
 
 |List|Actions|
 |--- |--- |
-|All Customers|Delete<br/>Subscribe to Newsletter<br/>Unsubscribe from Newsletter<br/>Assign a Customer Group<br/>Edit|
-|<span class="b2b-only">Companies</span>|Set Active<br/>Block<br/>Delete<br/>Edit<br/>Convert Credit|]
+|All Customers|Delete<br/>Set Active<br/>Subscribe to Newsletter<br/>Unsubscribe from Newsletter<br/>Assign a Customer Group<br/>Edit|
+|<span class="b2b-only">Companies</span>|Set Active<br/>Block<br/>Delete<br/>Edit<br/>Convert Credit|
 
 ### Marketing
 
@@ -84,21 +87,46 @@ The checkbox in the first column of the list identifies each record that is a ta
 |*SEO & Search*|||
 ||Search Synonyms|Delete|
 ||Search Terms|Delete|
+||URL Rewrites|Delete|
 |**User Content**|||
 ||Reviews|Delete<br/>Update Status|
+||Pending Reviews|Delete<br/>Update Status|
 |**Content**|||
 |*Elements*|||
 ||Pages|Delete<br/>Disable<br/>Enable<br/>Edit|
 ||Blocks|Delete<br/>Edit|
+||Dynamic Blocks|Delete|
+||Widgets|Delete|
 |**Reports**|||
+|*Customers*|||
+||Segments|View Combined Report|
+|*Statistics*|||
 ||Refresh Statistics|Refresh Lifetime Statistics<br/>Refresh Statistics for the Last Day|
+|*Customer Engagement*|||
+||Import Report|Delete|
+||Automation Report|Delete|
+||Campaign Report|Delete|
+||SMS Sends|Delete|
+||Cron Tasks|Delete|
+||Abandoned Carts|Delete|
 |**Stores**|||
 |*Settings*|||
 ||Order Status|Unassign|
+|*Inventory*|||
+||Sources|Enable<br/>Disable|
+||Stocks|Delete|
+|*Other Settings*|||
+||Gift Wrapping|Delete<br/>Change Status|
 |**System**|||
+|*Data Transfer*|||
+||Scheduled Imports/Exports|Delete<br/>Change Status|
 |*Tools*|||
 ||Cache Management|Enable<br/>Disable<br/>Refresh|
-||Backups|Delete|
-||Index Management|Update on Save<br/>Update by Schedule|
+||Index Management|Update on Save<br/>Update by Schedule<br/>Invalidate index|
+|*Support*|||
+||Data Collector|Delete|
+||System Reports|Delete|
+|*Permissions*|||
+||Locked Users|Unlock|
 |*Other Settings*|||
 ||Notifications|Mark as Read<br/>Remove|

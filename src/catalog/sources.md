@@ -2,7 +2,15 @@
 title: Sources
 ---
 
-The _Sources_ section lists the sources from which the product can be distributed. It is used to assign and unassign sources as well as manage the quantity and availability of the product. For more information about sources, see [Managing Sources]({% link catalog/inventory-sources.md %}).
+The **Sources** section lists the sources from which the product can be distributed. It is used to assign and unassign sources as well as manage the quantity and availability of the product. The **Sources** section is displayed only if there are more than one source. For more information about sources, see [Managing Sources]({% link catalog/inventory-sources.md %}).
+
+## Steps to assign a source for a product:
+
+1. Click <span class="btn">Assign Source</span>.
+
+1. Select the checkbox for the required source.
+
+1. Click <span class="btn">Done</span>.
 
 ![]({% link images/images/catalog-sources-list.png %}){: .zoom}
 _Sources View_
