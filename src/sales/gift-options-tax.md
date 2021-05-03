@@ -16,7 +16,14 @@ Gift wrapping and printed gift card prices can be configured to include or exclu
    ![]({% link images/images/config-sales-tax-tax-classes.png %}){: .zoom}
    _Tax class configuration_
 
-1. Set **Tax Class for Gift Options** to the applicable tax class.
+1. Set **Tax Class for Gift Options** to to one of the following:
+
+   - `Taxable Goods`
+   - `Refund Adjustments`
+   - `Gift Options`
+   - `Order Gift Wrapping`
+   - `Printed Gift Card`
+   - `Reward Points`
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Orders, Invoices, Credit Memos Display Settings** section.
 
