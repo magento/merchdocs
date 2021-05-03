@@ -14,6 +14,8 @@ pages:
   - label: Configuring Account Options
     url: "/customers/customer-account-configuration.html"
     children:
+    - label: Account Scope
+      url: "/customers/account-scope.html"
     - label: Login Landing Page
       url: "/customers/login-landing-page.html"
     - label: New Account Options
