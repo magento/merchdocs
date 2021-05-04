@@ -13,13 +13,23 @@ sections:
    content: Set up Admin users with different roles and permissions settings.
    url: /system/permissions.html
 
- - title: Alternate Media Storage
-   content: Store media files on a remote database server or Content Delivery Network (CDN).
-   url: /system/media-storage.html
+ - title: Action Logs
+   edition: ee-only
+   content: Records (logs) every change made by an admin who works in your store.
+   url: /system/action-log.html
+
+ - title: Other Settings
+   content: Additional settings related to notifications, custom variables and encryption key.
+   url: /system/other-settings.html
 
  - title: Security
    content: Review security best practices, and learn how to manage Admin sessions and credentials, implement CAPTCHA, and manage website restrictions.
    url: /stores/security.html
+
+ - title: Support
+   edition: ee-only
+   content: Designed to identify known issues in your system. 
+   url: /system/support.html
 
  - title: Tools
    content: Learn how to perform routine index and cache management operations, back up the system, manage scheduled operations, and use an assortment of developer tools.

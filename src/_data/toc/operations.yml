@@ -131,6 +131,13 @@ pages:
         url: "/stores/attributes-customer-address-templates.html"
     - label: Product Attributes
       url: "/stores/attributes-product.html"
+  - label: Alternate Media Storage
+    url: "/system/media-storage.html"
+    children:
+    - label: Using a Database
+      url: "/system/media-storage-database.html"
+    - label: Using a CDN
+      url: "/system/media-storage-content-delivery-network.html"
 - label: System
   url: "/system/system.html"
   children:
@@ -210,13 +217,16 @@ pages:
       children:
       - label: Role Resources
         url: "/system/permissions-role-resources.html"
-  - label: Alternate Media Storage
-    url: "/system/media-storage.html"
+  - label: Action Logs
+    url: "/system/action-log.html"
+    edition: ee-only
     children:
-    - label: Using a Database
-      url: "/system/media-storage-database.html"
-    - label: Using a CDN
-      url: "/system/media-storage-content-delivery-network.html"
+    - label: Report
+      url: "/system/action-log-report.html"
+    - label: Archive
+      url: "/system/action-log-archive.html"
+    - label: Bulk Actions
+      url: "/system/action-log-bulk-actions.html"
   - label: Security
     url: "/stores/security.html"
     children:
@@ -265,16 +275,6 @@ pages:
     - label: Developer Tools
       url: "/system/developer-tools.html"
       children:
-      - label: Action Logs
-        url: "/system/action-log.html"
-        edition: ee-only
-        children:
-        - label: Report
-          url: "/system/action-log-report.html"
-        - label: Archive
-          url: "/system/action-log-archive.html"
-        - label: Bulk Actions
-          url: "/system/action-log-bulk-actions.html"
       - label: Amazon Pay Logs
         url: "/system/amazon-logs.html"
       - label: Frontend Development Workflow
@@ -289,14 +289,23 @@ pages:
         url: "/system/template-path-hints.html"
       - label: Translate Inline
         url: "/system/translate-inline.html"
-    - label: Support
-      url: "/system/support.html"
-      edition: ee-only
-      children:
-      - label: Data Collector
-        url: "/system/support-data-collector.html"
-      - label: System Reports
-        url: "/system/support-system-report.html"
+  - label: Support
+    url: "/system/support.html"
+    edition: ee-only
+    children:
+    - label: Data Collector
+      url: "/system/support-data-collector.html"
+    - label: System Reports
+      url: "/system/support-system-report.html"
+  - label: Other Settings
+    url: "/system/other-settings.html"
+    children:
+    - label: Notifications
+      url: "/system/notifications.html"
+    - label: Custom Variables
+      url: "/system/custom-variables.html"
+    - label: Manage Encryption Key
+      url: "/system/encryption-key.html"
 - label: Reports
   url: "/reports.html"
   children:
