@@ -160,14 +160,6 @@ pages:
       url: "/sales/store-credit-using.html"
     - label: Customer Account Dashboard
       url: "/sales/refunds-customer-account.html"
-  - label: Company Credit
-    url: "/sales/credit-company.html"
-    edition: b2b-only
-    children:
-    - label: Credit Activity
-      url: "/sales/credit-company-activity.html"
-    - label: Receiving Payments
-      url: "/sales/credit-company-reimburse.html"
   - label: Returns
     url: "/sales/returns.html"
     edition: ee-only
