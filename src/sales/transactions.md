@@ -56,8 +56,8 @@ This block includes the additional information for a given transaction. Informat
 
 **Available Key**:
 
-- authCode
 - authAmount
+- authCode
 - aVSResponse
 - billTo
 - cardCodeResponse
@@ -65,7 +65,6 @@ This block includes the additional information for a given transaction. Informat
 - customerIP
 - lineItems
 - marketType
-- solution
 - order
 - payment
 - product
@@ -75,9 +74,9 @@ This block includes the additional information for a given transaction. Informat
 - responseReasonDescription
 - settleAmount
 - solution
-- submitTimeUTC
 - submitTimeLocal
+- submitTimeUTC
 - taxExempt
-- transactionType
 - transactionStatus
+- transactionType
 - transId
