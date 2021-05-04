@@ -44,16 +44,16 @@ _[Shopping Cart]({% link sales/cart-configuration.md %})_
 |--- |--- |--- |
 |Display Cart Summary|Website|Determines the value that appears in parenthesis after the My Cart link. Options: Display number of items in cart / Display item quantities|
 
-## Shopping Cart Sidebar
+## Mini Cart
 
-![]({% link images/images/config-sales-checkout-shopping-cart-sidebar.png %}){: .zoom}
-[*Shopping Cart Sidebar*]({% link sales/cart-sidebar.md %})
+![]({% link images/images/config-sales-mini-cart.png %}){: .zoom}
+[*Mini Cart*]({% link sales/mini-cart.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Display Shopping Cart Sidebar|Store View|Determines if a sidebar appears in the shopping cart. The display of the sidebar depends upon the theme. Options: Yes / No|
-|Number of Items to Display Scrollbar|Store View|Determines the number of items that can appear in the sidebar before the scrollbar is triggered.|
-|Maximum Number of Items to Display|Store View|Determines the maximum number of items that can appear in the shopping cart sidebar.|
+|Display Mini Cart|Store View|Determines if the mini cart appears on store pages when the cart icon in the header is clicked. The display of the mini cart depends upon the theme. Options: Yes / No|
+|Number of Items to Display Scrollbar|Store View|Determines the number of items that can appear in the mini cart before the scrollbar is triggered. Default: 5|
+|Maximum Number of Items to Display|Store View|Determines the maximum number of items that can appear in the mini cart. Default: 10|
 
 ## Payment Failed Emails
 
