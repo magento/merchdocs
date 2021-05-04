@@ -18,7 +18,7 @@ _Invoices grid_
 |Order|Unique serial number of the order|
 |Order Date|The date and time the order was placed|
 |Bill-to Name|The name of the person who is responsible to pay for the order|
-|Status|Invoice Status|
+|Status|Invoice status|
 |Grand Total (Base)|The grand total of the order|
 |Grand Total (Purchased)|The grand total of products purchased in the order|
 |Action|View opens the invoice in edit mode|
