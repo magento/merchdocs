@@ -2,7 +2,7 @@
 title: Processing an Order
 ---
 
-When a customer places an order, the order is created as a temporary record of the transaction and initially has a status of `Pending`.  It can be edited or canceled until payment starts processing. The _Orders_ grid lists all orders, regardless of where they are in the [workflow]({% link sales/order-workflow.md %}). To learn how to help customers with an existing order, see [Updating an Order]({% link sales/order-update.md %}).
+When a customer places an order, a sales order is created as a temporary record of the transaction. The sales order has a status of `Pending` until payment is received. While in `Pending` status, orders can be edited or canceled up until the time that payment is received and an invoice is generated. An easy way to think of it is that orders become invoices, and invoices become shipments. The Orders grid lists all orders, regardless of where they are in the [workflow]({% link sales/order-workflow.md %}). To learn how to help customers with an order, see [Updating an Order]({% link sales/order-update.md %}).
 
 ![]({% link images/images-ee/orders.png %}){: .zoom}
 _Orders_
@@ -73,7 +73,16 @@ Review the following sections in the sales order, using the field descriptions f
 
 ## Cancel an order
 
-Only sales orders with a status of `Pending` can be [canceled]({% link sales/order-update.md %}). A [credit memo]({% link sales/credit-memos.md %}) must be issued if a customer wants to cancel an order after payment starts processing.
+You can [cancel]({% link sales/order-update.md %} orders that are not yet invoiced. A [credit memo]({% link sales/credit-memos.md %}) must be issued if a customer wants to cancel an order after it is invoiced (payment is captured).
+
+If an order is `Pending` or `Processing` and the payment is not captured or not entirely captured, you can [void the order](#void-an-order) instead of canceling it.
+
+{:.bs-callout-info}
+Canceling an order also produces a void, but voiding an order does not trigger a cancellation.
+
+## Void an order
+
+Only sales orders that are not invoiced, have a status of `Processing`, and a [payment integration setting of `Authorize`]({% link configuration/sales/payment-methods.md %}#payment-actions), can be [voided]({% link sales/order-update.md %}#void-a-processing-order). After you void an order, you can cancel it.
 
 ## Order and Account Information
 

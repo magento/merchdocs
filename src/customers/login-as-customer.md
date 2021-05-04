@@ -72,6 +72,21 @@ You can filter the report setting **Action Group** to `Login As Customer` at the
 ![]({% link images/images-ee/customers-login-as-customer-log-filter.png %}){: .zoom}
 _Filter the Actions Report_
 
+## Customer account permission for remote shopping assistance
+
+To allow the ability for the merchant to log in as the customer from the Admin, a customer must enable the feature:
+
+1. Go to the **Account Information** page.
+
+1. Select the **Allow remote shopping assistance** checkbox.
+
+1. Click the <span class="btn">Save</span> button.
+
+![]({% link images/images/permission.png %}){: .zoom}
+_Account Information Page_
+
+Without this permission, an Admin user cannot login as this customer to provide assistance.
+
 ## Using Login as Customer
 
 {:.bs-callout-info}
