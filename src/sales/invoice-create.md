@@ -73,16 +73,3 @@ _Invoices_
 
     ![]({% link images/images/invoice-full.png %}){: .zoom}
     _Completed Invoice_
-
-## Print the invoice
-
-1. At the top of the workspace, click **Print** to generate a PDF of the invoice.
-
-1. Save the generated PDF to a file, or print it.
-
-    To customize the default invoice, see [Preparing Your Invoice Logo]({% link marketing/sales-document-pdf-logo.md %}).
-
-    ![]({% link images/images/invoice-print-pdf.png %}){: .zoom}
-    _Default PDF Invoice_
-
-[1]: https://get.adobe.com/reader/

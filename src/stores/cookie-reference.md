@@ -29,7 +29,7 @@ Stores the Order ID that guest shoppers use to retrieve their order status. Gues
 
 #### `login_redirect`
 
-Preserves the destination page the customer was loading before being directed to log in. Used in mini cart for logged in customers if the [Display Shopping Cart Sidebar]({% link sales/cart-sidebar.md %}) configuration option is set to `Yes`.
+Preserves the destination page that was loading before the customer was directed to log in. A login redirect is used with the mini cart for logged-in customers if the [Display Mini Cart]({% link sales/mini-cart.md %}) configuration option is set to `Yes`.
 
 - Is Secure? No
 - HTTP Only: No
