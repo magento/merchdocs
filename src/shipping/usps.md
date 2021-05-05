@@ -25,6 +25,9 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 1. If needed, enter the **Gateway URL** to access USPS shipping rates.
 
+   {:.bs-callout-info}
+   Effective June 24th, 2021, Web Tools will remove support for all unsecure HTTP endpoints. After this change, all Web Tools API requests to an unsecure HTTP endpoint will fail. Make sure your **Gateway URL** is used with secure **HTTPS** endpoint.
+
    The field is preset by default, and normally does not need to be changed.
 
 1. Enter a **Title** for this shipping method that will appear during checkout.
@@ -35,9 +38,6 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
    |Development|Runs USPS in a test environment. After running USPS in a development environment, make sure to return later and set Mode to `Live`.|
    |Live|Runs USPS in a live production environment.|
-
-   ![]({% link images/images/config-sales-shipping-methods-usps-account-settings.png %}){: .zoom}
-   _[USPS Account Settings]({% link configuration/sales/delivery-methods.md %})_
 
 ## Step 3: Complete the packaging description
 
