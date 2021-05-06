@@ -25,8 +25,8 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 1. If needed, enter the **Gateway URL** to access USPS shipping rates.
 
-   {:.bs-callout-info}
-   Effective June 24th, 2021, Web Tools will remove support for all unsecure HTTP endpoints. After this change, all Web Tools API requests to an unsecure HTTP endpoint will fail. Make sure your **Gateway URL** is used with secure **HTTPS** endpoint.
+   {:.bs-callout-warning}
+   Effective June 24th, 2021, USPS Web Tools will remove support for all unsecure HTTP endpoints. After this change, all Web Tools API requests to an unsecure HTTP endpoint will fail. Make sure your **Gateway URL** uses the secure **HTTPS** endpoint.
 
    The field is preset by default, and normally does not need to be changed.
 
