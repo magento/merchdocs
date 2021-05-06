@@ -39,3 +39,8 @@ _Ratings_
     _Rating Visibility_
 
 1. When complete, click <span class="btn">Save Rating</span>.
+
+1. The average rating for all reviews is displayed for each product on the catalog product grid page.
+
+     ![Catalog Page]({% link images/images/catalog-rating-page.png %}){: .zoom}
+    _Catalog Page_
