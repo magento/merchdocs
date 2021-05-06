@@ -19,10 +19,9 @@ To edit your account information:
 
 1. Make necessary changes to your account information. If you change your login credentials, ensure you write them down.
 
-1. Click **Save Account**.
+1. Enter your current account password.
 
-   {:.bs-callout-info}
-   You should fill the current admin password into **Your Password** field, each time you edit account information, to apply the changes.
+1. Click **Save Account**.
 
     ![Account Information]({% link images/images/admin-account-information.png %}){: .zoom}
     _Account Information_
