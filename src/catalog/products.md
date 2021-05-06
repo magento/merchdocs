@@ -19,10 +19,11 @@ _Products Grid_
 |--- |--- |
 |Add Product|Initiates the process to create a new simple product. To choose a specific product type, click the down arrow. Options: [Simple Product]({% link catalog/product-create-simple.md %}) / [Configurable Product]({% link catalog/product-create-configurable.md %}) / [Grouped Product]({% link catalog/product-create-grouped.md %}) / [Virtual Product]({% link catalog/product-create-virtual.md %}) / [Bundle Product]({% link catalog/product-create-bundle.md %}) / [Downloadable Product]({% link catalog/product-create-downloadable.md %}) / <span class="ee-only">[Gift Card]({% link catalog/product-gift-card.md %})</span>|
 |Export Full Catalog|Manually request a full catalog export from Magento Commerce. Outgoing messages will be exported to a .csv file in batches.|
-|Actions|Lists all actions that can be applied to selected products in the list. To apply an action to a product or group of products, select the checkbox in the first column of each product. Options: Delete / Change Status / Update Attributes|
+|Actions|Lists all actions that can be applied to selected products in the list. To apply an action to a product or group of products, select the checkbox in the first column of each product. Options: Delete / Change Status / Update Attributes / Assign Inventory Source / Unassign Inventory Source / Transfer Inventory To Source|
 |Filters|Initiates a catalog search based on the current filters.|
 |Default View|Indicates the current grid column layout. If there are saved grid column views, you can choose another.|
 |Columns|Lists all actions that can be applied to selected products in the list. To apply an action to a product or group of products, select the checkbox in the first column of each product. Product list actions include Delete, Change Status, Update Attributes, Assign Inventory Source, Unassign Inventory Source, and Transfer Inventory to Source.|
+|Search by keyword|The search box, in the top-left corner, is used to find products by keyword.|
 |Actions|Use the [actions]({% link stores/admin-actions-control.md %}) to select multiple records as the target of action. The checkbox is selected in the first column of each selected record. Options: Select / Deselect All|
 |Edit|Opens the product in edit mode. You can accomplish the same thing by clicking anywhere on the row.|
 
