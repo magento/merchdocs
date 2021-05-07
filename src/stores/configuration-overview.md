@@ -19,7 +19,7 @@ _Configuration_
 
 ### Security
 
-[Security]({% link configuration/security.md %}) settings determine security settings, 2FA authentication and Google reCapture feature.
+[Security]({% link configuration/security.md %}) settings configures store security, Two-factor authentication, and the [Google reCAPTCHA](https://www.google.com/recaptcha/about/) feature.
 
 ### Customers
 
@@ -35,11 +35,11 @@ _Configuration_
 
 ### Sales Channels
 
-[Sales Chanel]({% link configuration/sales-channels.md %}) settings determine the clear log history, background tasks source, debag login, and read-only mode setting. Only available when Amazon Sales Channel is configured.
+[Sales Chanel]({% link configuration/sales-channels.md %}) settings configure the clear log history, background tasks source, debug login, and read-only mode settings. This feature is only available if your Magento 2 instance has Amazon Sales Channel installed and enabled.
 
 ### Dotdigital
 
-[Dotdigital]({% link configuration/dotdigital.md %}) settings determine the Dotdigital marketing solution setting. Allows set the build segments and triggers, data mapping, and creates a relevant account and marketing campaigns.
+[Dotdigital]({% link configuration/dotdigital.md %}) settings configure the Dotdigital marketing feature. It configures the build segments and triggers, data mapping, and lets you create a relevant account and marketing campaigns.
 
 ### Services
 
