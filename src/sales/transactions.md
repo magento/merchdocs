@@ -20,30 +20,28 @@ _Transactions grid_
 |Transaction ID|A unique numeric identifier that is assigned when a transaction happens after a customer places an order.|
 |Parent Transaction ID|The ID number of the parent transaction.|
 |Payment Method| The payment method associated with a transaction.|
-|Transaction Type|Order, Authorization, Capture, Void, Refund|
+|Transaction Type|Type of transaction, which can be Order, Authorization, Capture, Void, or Refund.|
 |Closed|Whether a transaction is closed or not.|
 |Created|Time and date the transaction was created.|
 
-## To view transaction details
+## View transaction details
 
-1. On the _Admin_ sidebar select **Sales**.
-
-1. Click **Transaction**.
+1. On the _Admin_ sidebar, go to **Sales** > **Transactions**.
 
 1. Click the entry you want to view.
 
 On the transaction details page, you can see the transaction detail and child transactions grid.
 
-### Transaction Data
+### Transaction data
 
-This block includes information regarding the transaction, and links to the order page in the **Order ID** column.
+This section includes information regarding the transaction, and provides a link to the order page in the **Order ID** column.
 
 |Column|Description|
 |--- |--- |
 |Transaction ID|The transaction ID number.|
-|Parent Transaction ID|A corresponding ID number of the parent transaction. Options: Numerical ID / N/A|
-|Transaction Type|Type of transaction. Options: order, authorization, capture, void, refund.|
-|Is Closed|Whether a transaction is closed or not. Options: Yes/No|
+|Parent Transaction ID|A corresponding ID number of the parent transaction, if applicable.|
+|Transaction Type|Type of transaction, which can be Order, Authorization, Capture, Void, or Refund.|
+|Is Closed|Whether a transaction is closed or not. |
 |Created At|Time and date the transaction was created.|
 
 ### Child transactions
@@ -52,9 +50,7 @@ Child transactions are displayed in the grid after creating invoices for [orders
 
 ### Transaction Details
 
-This block includes the additional information for a given transaction. Information is displayed in the form of keys and values.
-
-**Available Key**:
+This section includes the additional information for a given transaction. Information is displayed in the form of keys and values. The available keys are:
 
 - authAmount
 - authCode
