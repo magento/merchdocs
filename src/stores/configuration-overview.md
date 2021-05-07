@@ -31,7 +31,7 @@ _Configuration_
 
 ### Yotpo
 
-[Yotpo]({% link configuration/yotpo.md %}) settings determine the Yotpo module, reviews, and visual marketing settings.
+[Yotpo](https://www.yotpo.com/) settings determine the [Yotpo]({% link configuration/yotpo.md %}) module, reviews, and visual marketing settings.
 
 ### Sales Channels
 
