@@ -41,7 +41,7 @@ Use caution when applying a category product rule, because any products that do 
     - Choose the **Attribute** that is the basis of the condition.
 
     - Set **Operator** to one of the following:
-
+    
       - `Equal`
       - `Not equal`
       - `Greater than`
