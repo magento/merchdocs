@@ -53,9 +53,9 @@ _[Move Order to Archive]({% link configuration/sales/sales.md %})_
     _Mark Checkbox_
 
 {:.bs-callout-tip}
-To specify a list of order statuses that can be archived see: [Configuring the Archive]({% link sales/order-archive-configure.md %}).
+To specify a list of order statuses that can be archived, see [Configuring the Archive]({% link sales/order-archive-configure.md %}).
 
-## To view an archived order:
+## View an archived order
 
 1. Open the archive view using one of the following methods:
 
@@ -73,11 +73,9 @@ To specify a list of order statuses that can be archived see: [Configuring the A
     ![]({% link images/images-ee/order-archived-view.png %}){: .zoom}
     _View Archived Order_
 
-## To restore an archived order:
+## Restore an archived order:
 
-1. On the _Admin_ sidebar, click **Sales**.
-
-1. In the _Operations_ section, choose **Orders**.
+1. On the _Admin_ sidebar, go to **Sales** > _Operations > **Orders**.
 
 1. In the button bar, click **Go to Archive**.
 
@@ -90,16 +88,10 @@ To specify a list of order statuses that can be archived see: [Configuring the A
 
  Look for the message that the archived order has been removed from the archive.
 
-## To export archived order:
+## Export archived order
 
-1. On the _Admin_ sidebar, click **Sales**.
+1. On the _Admin_ sidebar, go to **Sales** > _Operations > **Orders**.
 
-1. In the _Operations_ section, choose **Orders**.
-
-1. In the button bar, click **Go to Archive**.
-
-1. In the action menu select **Export** drop-down.
-
-1. Select the desired format.
+1. In the action menu, click Export and select the desired format.
 
 1. Click **Export**.
