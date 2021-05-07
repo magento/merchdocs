@@ -38,22 +38,22 @@ Use caution when applying a category product rule, because any products that do 
 
 1. Click <span class="btn">Add Condition</span> and do the following:
 
-    - Choose the **Attribute** that is the basis of the condition.
+1. Choose the **Attribute** that is the basis of the condition.
 
-    - Set **Operator** to one of the following:
-    
-      - `Equal`
-      - `Not equal`
-      - `Greater than`
-      - `Greater than or equal to`
-      - `Less than`
-      - `Less than or equal to`
-      - `Contains`
+1. Set **Operator** to one of the following:
 
-    - Enter the **Value** that is to be matched.
+    - `Equal`
+    - `Not equal`
+    - `Greater than`
+    - `Greater than or equal to`
+    - `Less than`
+    - `Less than or equal to`
+    - `Contains`
 
-      ![]({% link images/images-ee/category-rule-create.png %}){: .zoom}
-      _Add Condition to Category Rule_
+1. Enter the **Value** that is to be matched.
+
+    ![]({% link images/images-ee/category-rule-create.png %}){: .zoom}
+    _Add Condition to Category Rule_
 
 1. Repeat this process for each attribute that is needed to describe the condition(s) to be met.
 
