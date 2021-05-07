@@ -34,12 +34,12 @@ _Wish List Search_
 
 1. In the _Layout Updates_ section, click <span class="btn">Add Layout Update</span> and set **Display on** to one of the following:
 
-    - _Categories_
+   - _Categories_
 
       - Anchor Categories
       - Non-Anchor Categories
 
-    - _Products_
+   - _Products_
 
       - All Product Type
       - Simple Product
@@ -50,7 +50,7 @@ _Wish List Search_
       - Gift Card
       - Grouped Product
 
-    - _Generic Page_
+   - _Generic Page_
 
       - All Pages
       - Specified Page
