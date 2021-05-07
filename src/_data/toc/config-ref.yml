@@ -192,7 +192,7 @@ pages:
   children:
   - label: Magento Web API
     url: "/configuration/services/magento-web-api.html"
-  - label: Magento Services
+  - label: Commerce Services
     url: "/configuration/services/saas.html"
   - label: OAuth
     url: "/configuration/services/oauth.html"
