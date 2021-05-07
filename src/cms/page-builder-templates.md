@@ -1,5 +1,4 @@
 ---
-conditions: Default.EE-B2B
 title: Page Builder Templates
 ee_only: true
 ---
