@@ -75,7 +75,7 @@ To specify a list of order statuses that can be archived, see [Configuring the A
 
 ## Restore an archived order:
 
-1. On the _Admin_ sidebar, go to **Sales** > _Operations > **Orders**.
+1. On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Orders**.
 
 1. In the button bar, click **Go to Archive**.
 
@@ -92,6 +92,4 @@ To specify a list of order statuses that can be archived, see [Configuring the A
 
 1. On the _Admin_ sidebar, go to **Sales** > _Operations > **Orders**.
 
-1. In the action menu, click Export and select the desired format.
-
-1. Click **Export**.
+1. In the action menu, click **Export** and select the desired format.
