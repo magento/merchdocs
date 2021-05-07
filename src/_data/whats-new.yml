@@ -4,8 +4,192 @@ description: This page contains recent changes that we think you'd like to know 
   We exclude from this list proofreading, spelling checks, and insignificant updates.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Mon Mar 15 14:25:55 2021
+updated: Sat May 1 14:27:30 2021
 entries:
+- description: Added column descriptions in the [My Downloadable Products](https://docs.magento.com/user-guide/customers/account-dashboard-my-downloadable-products.html)
+    topic.
+  versions: 2.4.x
+  type: Major update
+  date: April 29, 2021
+  link: https://github.com/magento/merchdocs/pull/1214
+  merge_commit: c53a65852a615211458d13949994328506029261
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - 2.4.x
+  - Major update
+  - 'Partner: Atwix'
+  - 'Progress: done'
+  - partners-contribution
+- description: Added the [Adding Category Products](https://docs.magento.com/user-guide/catalog/category-products-add.html)
+    topic to describe adding products to a category from the _Products in Category_
+    section.
+  versions: 2.4.x
+  type: New topic
+  date: April 29, 2021
+  link: https://github.com/magento/merchdocs/pull/1161
+  merge_commit: 8f40facf1ebf0a9c4ef2a3c5005b942d8b903d08
+  contributor: ZhovnirMaria
+  membership: false
+  labels:
+  - 2.4.x
+  - New topic
+  - 'Partner: Atwix'
+  - 'Progress: done'
+  - partners-contribution
+- description: Changes to [Klarna Storefront Experience](https://docs.magento.com/user-guide/payment/klarna-customer-experience.html)
+    to capture updates for the Klarna logo, iframe, and labeling.
+  versions: 2.4.x
+  type: Minor update
+  date: April 27, 2021
+  link: https://github.com/magento/merchdocs/pull/1211
+  merge_commit: 02dd5db6ff084adbea6d391e6dc487a70a5dd947
+  contributor: katkinssss
+  membership: false
+  labels:
+  - 2.4.x
+  - Minor update
+  - 'Progress: done'
+- description: Added the [Gift card account history](https://docs.magento.com/user-guide/catalog/product-gift-card-accounts.html)
+    section to the Gift Cards topic.
+  versions: 2.4.x
+  type: Major update
+  date: April 26, 2021
+  link: https://github.com/magento/merchdocs/pull/1158
+  merge_commit: cfcc5162d0d60dd20bc8d9791bcf0577389ae96b
+  contributor: ZhovnirMaria
+  membership: false
+  labels:
+  - 2.4.x
+  - Major update
+  - 'Partner: Atwix'
+  - 'Progress: done'
+  - partners-contribution
+- description: Updated [My Wish List](https://docs.magento.com/user-guide/customers/account-dashboard-my-wish-list.html)
+    to include information about how customers can update the wish list from different
+    areas on the storefront.
+  versions: 2.4.x
+  type: Major update
+  date: April 26, 2021
+  link: https://github.com/magento/merchdocs/pull/1164
+  merge_commit: 10fe6417f79dbc7f331d3ea0d43fc9cc0c156bf6
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - 2.4.x
+  - Major update
+  - 'Partner: Atwix'
+  - 'Progress: done'
+  - partners-contribution
+- description: New sections added to [Scheduled Changes](https://docs.magento.com/user-guide/catalog/product-scheduled-changes.html)
+    to describe creating a new scheduled update, as well as assigning an existing
+    update, viewing an update, and editing an update.
+  versions: 2.4.x
+  type: Major update
+  date: April 21, 2021
+  link: https://github.com/magento/merchdocs/pull/1155
+  merge_commit: c08f2ec05dd9c8525aae111c3a08f722344552db
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - 2.4.x
+  - Major update
+  - 'Partner: Atwix'
+  - 'Progress: done'
+  - partners-contribution
+- description: Updated [Managing Requisition Lists](https://docs.magento.com/user-guide/customers/account-dashboard-requisition-lists-manage.html)
+    to describe product editing flow for Requisition Lists.
+  versions: 2.4.x
+  type: Major update
+  date: April 15, 2021
+  link: https://github.com/magento/merchdocs/pull/1131
+  merge_commit: bcad6b3ce327d685de7a2b0259ebbb649b6af9c0
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - 2.4.x
+  - Major update
+  - 'Progress: done'
+- description: Substantial update to the Action tables in the [Actions Control](https://docs.magento.com/user-guide/stores/admin-actions-control.html)
+    topic.
+  versions: 2.4.x
+  type: Major update
+  date: April 15, 2021
+  link: https://github.com/magento/merchdocs/pull/1156
+  merge_commit: 512849db4714bc1e780df64647c82275d83f97f9
+  contributor: ZhovnirMaria
+  membership: false
+  labels:
+  - 2.4.x
+  - Major update
+  - 'Partner: Atwix'
+  - 'Progress: done'
+  - partners-contribution
+- description: Added the 'Reorder from Storefront' and other sections to the [Allow
+    Reorders](https://docs.magento.com/user-guide/sales/reorders-allow.html) topic.
+  versions: 2.4.x
+  type: Major update
+  date: April 9, 2021
+  link: https://github.com/magento/merchdocs/pull/1105
+  merge_commit: 30c014faf25d1088a4ce805591ca859a7ce01fc2
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - 2.4.x
+  - Major update
+  - 'Partner: Atwix'
+  - 'Progress: done'
+  - partners-contribution
+- description: In [Images and Video](https://docs.magento.com/user-guide/catalog/product-images-and-video.html),
+    added the _Image Detail_ section to  describe customizing product image display.
+  versions: 2.4.x
+  type: Major update
+  date: April 9, 2021
+  link: https://github.com/magento/merchdocs/pull/1110
+  merge_commit: 12f9b181cb7495e8a534e09026f2e9f981d0e9eb
+  contributor: ZhovnirMaria
+  membership: false
+  labels:
+  - 2.4.x
+  - Major update
+  - 'Progress: done'
+- description: Added new sections to [Gift Cards](https://docs.magento.com/user-guide/customers/account-dashboard-gift-cards.html)
+    dashboard topic for checking the balance and redeeming the gift card.
+  versions: 2.4.x
+  type: Major update
+  date: April 9, 2021
+  link: https://github.com/magento/merchdocs/pull/1119
+  merge_commit: 73d8dccd16bbf5da6397380cd2f93fc6f5b66c9c
+  contributor: ZhovnirMaria
+  membership: false
+  labels:
+  - 2.4.x
+  - Major update
+  - 'Progress: done'
+- description: Adding content about how you can [preview](https://docs.magento.com/user-guide/marketing/create-new-rec.html#preview)
+    recommendation units before deploying to your storefront.
+  versions: 2.4.x
+  type: Major update
+  date: March 23, 2021
+  link: https://github.com/magento-commerce/merchdocs/pull/1
+  merge_commit: d61f9e91dde91cf62b900f0dc0eb71cf886c9858
+  contributor: dshevtsov
+  membership: true
+  labels:
+  - 2.4.x
+  - Major update
+- description: Adding information about [private keys](https://docs.magento.com/user-guide/configuration/services/saas.html)
+    when connecting to SaaS services.
+  versions: 2.4.x
+  type: Minor update
+  date: March 18, 2021
+  link: https://github.com/magento-commerce/merchdocs/pull/2
+  merge_commit: 1539402c15261e1e528ca5d043acff7018e31cb9
+  contributor: erikmarr
+  membership: true
+  labels:
+  - 2.4.x
+  - Minor update
 - description: Updated the Sales Channels [Global Settings](https://docs.magento.com/user-guide/configuration/sales-channels.html)
     topic to include the _Read Only Mode_ function.
   versions: 2.4.x

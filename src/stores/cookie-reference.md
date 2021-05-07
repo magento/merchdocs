@@ -29,7 +29,7 @@ Stores the Order ID that guest shoppers use to retrieve their order status. Gues
 
 #### `login_redirect`
 
-Preserves the destination page the customer was loading before being directed to log in. Used in mini cart for logged in customers if the [Display Shopping Cart Sidebar]({% link sales/cart-sidebar.md %}) configuration option is set to `Yes`.
+Preserves the destination page that was loading before the customer was directed to log in. A login redirect is used with the mini cart for logged-in customers if the [Display Mini Cart]({% link sales/mini-cart.md %}) configuration option is set to `Yes`.
 
 - Is Secure? No
 - HTTP Only: No
@@ -223,11 +223,11 @@ It is set in multiple places: in PHP, in JavaScript as a cookie, and in JavaScri
 For the HTTP Only Yes (based on request) means that the cookie Secure if set during HTTPS request and unsecure if set during HTTP request.
 
 - Is Secure? Yes (based on request), No
-- HTTP Only:
+- HTTP Only: No
+- Expiration Policy: Based on [Persistent Shopping Cart]({% link sales/cart-persistent-configuration.md %}) - Persistence Lifetime (seconds) configuration
    - PHP: 1 year / 315360000s (10yr)
    - JS: 1 day
    - JS local storage: Per local storage rules (forever)
-- Expiration Policy: Based on [Persistent Shopping Cart]({% link sales/cart-persistent-configuration.md %}) - Persistence Lifetime (seconds) configuration
 - Module: `Magento_PageCache`, `Magento_Customer`
 
 #### `section_data_ids`

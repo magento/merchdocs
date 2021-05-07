@@ -4,9 +4,6 @@ title: UPS
 
 United Parcel Service offers domestic and international shipping services by land and air to more than 220 countries.
 
-{:.bs-callout-warning}
-UPS is discontinuing support of HTTP for its standard CGI service gateway. If a standard UPS account integration is already enabled for your Magento installation, make sure that the Gateway URL uses the HTTPS protocol in the UPS Shipping Method configuration. If needed, update the Gateway URL manually to change the protocol to HTTPS. If you are enabling a new UPS configuration for your Magento installation, use the default "United Parcel Service XML" UPS Type.
-
 UPS uses [dimensional weight]({% link shipping/weight-dimensional.md %}) to determine some shipping rates.
 
 ## Step 1: Open a UPS Shipping Account
@@ -25,7 +22,7 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. For a UPS XML account (default), set **UPS Type** to `United Parcel Service XML`. Then do the following:
 
-   - Enter the following UPS credentials: **User ID**, **Access License Number**, and **Password**
+   - Enter your UPS credentials: **User ID**, **Access License Number** (the 16-digit UPS account `Access Key`), and **Password**
 
    - Set **Mode** to `Live` to send data to the UPS shipping system over a secure connection. (Development mode does not send data over a secure connection.)
 
@@ -66,12 +63,25 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. For **Container**, specify the typical packaging type that is used for shipment:
 
-   - `LBS`
-   - `KGS`
+   - `Customer Packaging`
+   - `UPS Letter Envelope`
+   - `Customer Supplied Package`
+   - `UPS Tube`
+   - `PAK`
+   - `UPS Express Box`
+   - `UPS Worldwide 25 kilo`
+   - `UPS Worldwide 10 kilo`
+   - `Pallet`
+   - `Small Express Box`
+   - `Medium Express Box`
+   - `Large Express Box`
 
 1. Set **Weight Unit** to the system you use to measure product weight.
 
    The weight system supported by UPS varies by country. If in doubt, ask UPS which weight system you should use. Options include:
+
+   - `LBS`
+   - `KGS`
 
 1. Set **Destination Type** to one of the following:
 
