@@ -34,6 +34,7 @@ Lists the users who are associated with the company. To learn more, see [Company
 |--- |--- |
 |Edit| Opens the user in edit mode.|
 |Delete| Opens a dialog where you can choose one of the following options: Delete, Set as Inactive, or Cancel <br/>**_Note:_** You cannot delete a user that is designated as the _company administrator_.|
+
 <!--
   This is a style declaration so that buttons are not wrapped by table auto styling for column widths.
 -->
