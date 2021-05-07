@@ -40,7 +40,15 @@ Use caution when applying a category product rule, because any products that do 
 
     - Choose the **Attribute** that is the basis of the condition.
 
-    - Choose the **Operator** that is needed to form the expression.
+    - Set **Operator** to one of the following:
+
+      - `Equal`
+      - `Not equal`
+      - `Greater than`
+      - `Greater than or equal to`
+      - `Less than`
+      - `Less than or equal to`
+      - `Contains`
 
     - Enter the **Value** that is to be matched.
 
@@ -55,12 +63,15 @@ Use caution when applying a category product rule, because any products that do 
 
     - Set **Logic** to `AND`.
 
+      |`AND`|The rule applies to products, where all the conditions coincide.|
+      |`OR`|The rule applies to products, where at least one condition coincides.|
+
     - Set **Date Modified** to `Greater than 7`.
 
 1. To apply a sort order automatically to the dynamically generated product list, set **Automatic Sorting** to one of the following:
 
-    - `Move out of stock to bottom`
-    - `Special price to top`
+    ![]({% link images/images-ee/automatic_sorting_field.png %}){: .zoom}
+    _Automatic Sorting_
 
 1. When complete, click <span class="btn">Save Category</span>.
 
