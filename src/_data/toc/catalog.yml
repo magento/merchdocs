@@ -127,9 +127,6 @@ pages:
         url: "/catalog/product-price-minimum-advertised-logic.html"
       - label: Configuring MAP
         url: "/catalog/product-price-minimum-advertised-configure.html"
-    - label: Custom Pricing
-      url: "/catalog/product-price-custom.html"
-      edition: b2b-only
 - label: Managing Inventory
   url: "/catalog/inventory-management.html"
   children:
