@@ -408,8 +408,6 @@ pages:
   - label: Email
     url: "/marketing/email-templates.html"
     children:
-    - label: Supported Email Clients
-      url: "/marketing/email-clients-supported.html"
     - label: Preparing Your Email Logo
       url: "/marketing/email-logo.html"
     - label: Configuring Email Templates
