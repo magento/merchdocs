@@ -19,9 +19,6 @@ To view or print the PDF, you must have a PDF reader. You can download [Adobe R
 
 1. Save the generated PDF to a file or print it.
 
-   ![]({% link images/images/invoice-print-pdf.png %}){: .zoom}
-   _Default PDF invoice opened in Acrobat_
-
 ## Print multiple invoices
 
 1. On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Invoices**.
