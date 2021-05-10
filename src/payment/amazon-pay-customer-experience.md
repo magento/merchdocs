@@ -2,7 +2,7 @@
 title: Amazon Pay Customer Experience
 ---
 
-Customers can speed through checkout by using the payment methods and shipping addresses that are available in their Amazon accounts. Your store can be configured to show the _Amazon Pay_ button on [product pages]({% link quick-tour/product-page.md %}), in the [cart sidebar]({% link sales/cart-sidebar.md %}), in the [shopping cart]({% link sales/cart.md %}), and during [checkout]({% link sales/checkout-process.md %}).
+Customers can speed through checkout by using the payment methods and shipping addresses that are available in their Amazon accounts. Your store can be configured to show the _Amazon Pay_ button on [product pages]({% link quick-tour/product-page.md %}), in the [mini cart]({% link sales/mini-cart.md %}), in the [shopping cart]({% link sales/cart.md %}), and during [checkout]({% link sales/checkout-process.md %}).
 
 International customers may also have an option to select their preferred currency if you list prices in more than one currency. This multi-currency support allows customers to complete purchases without worrying about currency conversions or rates.
 
