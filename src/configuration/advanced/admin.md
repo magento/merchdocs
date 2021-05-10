@@ -11,9 +11,9 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Forgot Password Email Template|Global|Identifies the email template that is used for the message that is sent when an Admin user(s) forget their passwords. Default template: Forgot Admin Password.|
+|Forgot Password Email Template|Global|Identifies the email template that is used for the message that is sent when an Admin user forgets their password. Default template: Forgot Admin Password.|
 |Forgot and Reset Email Sender|Global|Identifies the store contact that appears as the sender of the Forgot Password email. Default sender: General Contact.<br/>Other sender options: Sales Representative, Customer Support, Custom Email.|
-|User Notification Template|Global|Determines the email template that is used as the default for admin notifications. Default template: User Notification.|
+|User Notification Template|Global|Determines the email template that is used as the default for Admin notifications. Default template: User Notification.|
 
 ## Startup Page
 
@@ -24,7 +24,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |--- |--- |--- |
 |Startup Page|Global|Determines the Admin landing page that appears after you log in.|
 
-### Startup Page options:
+### Startup Page options
 
 |--- |--- |--- |
 |[Dashboard]({% link stores/admin-dashboard.md %})|||
@@ -43,20 +43,20 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 ||[Design]({% link design/design-theme.md %}) | [Configuration]({% link design/configuration.md %})<br/>[Themes]({% link design/themes.md %})<br/>[Schedule]({% link design/schedule.md %})||
 ||<span class="ee-only">[Content Staging]({% link cms/content-staging.md %})</span><br />
 |[Reports]({% link reports.md %}) | [Marketing]({% link reports/marketing-reports.md %})|Products in Cart<br />Search Terms<br />Abandoned Carts<br />Newsletter Problem Reports||
-||[Reviews]({% link reports/review-reports.md %})|By Customer<br />By Products<br />Yotro Reviews|
+||[Reviews]({% link reports/review-reports.md %})|By Customer<br />By Products<br />Yotpo Reviews|
 ||[Sales]({% link reports/sales-reports.md %})||
 ||<span class="ee-only">System Insights|[Site-Wide Analysis Tool]({% link reports/site-wide-analysis-tool.md %})|
 ||[Customers]({% link reports/customer-reports.md %})| Order Total<br/>Order Count<br/>New<br/>Wish Lists<br/>Segments<br/>|
 ||[Products]({% link reports/product-reports.md %})|Views<br/>Bestsellers<br/>Low Stock<br/>Ordered<br/>Downloads|
 ||<span class="ee-only">[Private Sales]({% link marketing/events-private-sales.md %})|Invitations<br/>Invited Customers<br/>Conversions|
 ||[Statistics]({% link reports/statistics.md %})|Refresh Statistics|
-||[Business Intelligence]({% link reports/business-intelligence.md %})|Advanced Reporting<br/>BI Essentials<br/>Yotro Analytics|
+||[Business Intelligence]({% link reports/business-intelligence.md %})|Advanced Reporting<br/>BI Essentials<br/>Yotpo Analytics|
 |[Stores]({% link stores/stores.md %}) | [Settings]({% link stores/stores-menu.md %}) | [All Stores]({% link stores/stores-all-stores.md %})<br/>[Configuration]({% link stores/configuration-overview.md %})<br/>[Terms and Conditions]({% link sales/terms-and-conditions.md %})<br/>[Order Status]({% link sales/order-status.md %})||
 ||[Inventory]({% link configuration/catalog/inventory.md %})|[Sources]({% link catalog/sources.md %})<br/>Stocks||
 ||[Taxes]({% link tax/taxes.md %})|[Tax Rules]({% link tax/tax-rules.md %})<br/>[Tax Zones and Rates]({% link tax/tax-zones-rates.md %})|
 ||[Currency]({% link stores/currency.md %})|[Currency Rates]({% link stores/currency-configuration.md %})<br/>[Currency Symbols]({% link stores/currency-symbols.md %})||
 ||[Attributes]({% link stores/attributes.md %})|[Product]({% link stores/attributes-product.md %})<br/>[Update Attributes]({% link stores/attribute-product-create.md %})<br/>[Attribute Set]({% link stores/attribute-sets.md %})<br/>[Ratings]({% link stores/attributes-rating.md %})|
-||Other Settings|[Reward ExchangeRates]({% link marketing/reward-exchange-rates.md %})<br/>[Gift Wrapping]({% link sales/gift-wrap.md %})<br/>[Gift Registry]({% link customers/account-dashboard-gift-registry.md %})|
+||Other Settings|[Reward Exchange Rates]({% link marketing/reward-exchange-rates.md %})<br/>[Gift Wrapping]({% link sales/gift-wrap.md %})<br/>[Gift Registry]({% link customers/account-dashboard-gift-registry.md %})|
 |[System]({% link system/system.md %}) | [Data Transfer]({% link system/data-transfer.md %}) | [Import]({% link system/data-import.md %})<br/>[Export]({% link system/data-export.md %})<br/>[Import/Export Tax Rates]({% link system/data-transfer-tax-rates.md %})<br/>[Import History]({% link system/data-import-history.md %})<br/>[Scheduled Import/Export]({% link system/data-scheduled-import-export.md %})||
 ||Extensions|[Integrations]({% link system/integrations.md %})|
 ||[Tools]({% link system/tools.md %}) | [Cache Management]({% link system/cache-management.md %})<br/>[Index Management]({% link system/index-management.md %})||
