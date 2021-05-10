@@ -11,13 +11,6 @@ _Customer Segments list_
 
 The following example shows how to create a customer segment that targets female customers in Los Angeles.
 
-|Column|Description|
-|--- |--- |
-|ID|A unique, sequential number that is assigned when a new segment is saved for the first time.|
-|Segment|The name of the segment.|
-|Status|The current segment status. Options include: Active / Inactive.|
-|Website|The website where the segment applies.|
-
 ## Step 1: Enable customer segments
 
 1. On the _Admin_ sidebar, go to **Stores**  > _Settings_ > **Configuration**.
