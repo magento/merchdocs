@@ -11,7 +11,7 @@ The Customer Segment Report provides information about the number of customers i
 
 |Column|Description|
 |--- |--- |
-|Select|Select the checkbox to select the return(s) to be subject to an action, or use the selection control in the column header. Options: Select All / Deselect All / Select Visible / Unselect Visible|
+|Select|Select the checkbox to select the segment(s) to be subject to an action, or use the selection control in the column header. Options: Select All / Deselect All / Select Visible / Unselect Visible|
 |ID|A unique numeric identifier that is assigned to each segment|
 |Segment|Segment name|
 |Status|Segment status. Options: Active / Inactive|
