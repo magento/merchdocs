@@ -179,7 +179,7 @@ pages:
         url: "/system/data-schedule-import.html"
       - label: Scheduling an Export
         url: "/system/data-schedule-export.html"
-    - label: Product Attribute Reference
+    - label: Product Export Attributes Reference
       url: "/system/data-attributes-product.html"
       children:
       - label: Complex Data
@@ -196,7 +196,7 @@ pages:
     - label: Integration with ERP Systems
       url: "/system/erp-systems.html"
       edition: b2b-only
-    - label: Magento Services
+    - label: Commerce Services
       url: "/system/saas.html"
   - label: Permissions
     url: "/system/permissions.html"

@@ -58,7 +58,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Price Alert Email Template|Store View|Identifies the template that is used for product price change email alerts. Default template: Product price alert|
 |Allow Alert When Product Comes Back in Stock|Website|Determines if customers can choose to receive an alert when the product comes back in stock. Options: Yes / No|
 |Stock Alert Email Template|Store View|Identifies the template that is used for stock alert email notifications. Default template: Product stock alert|
-|Alert Email Sender|Store View|Determines the store contact that appears as the sender of the product alert email message.|
+|Alert Email Sender|Store View|Determines the store contact that appears as the sender of the product alert email message. Options: General Contact, Sales Representative, Customer Support, Custom Email.|
 
 ## Product Alerts Run Settings
 
@@ -88,14 +88,17 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Recently Viewed/Compared Products
 
-![]({% link images/images/config-catalog-catalog-recently-viewed-compared-products.png %}){: .zoom}
+![]({% link images/images/config-catalog-catalog-recently-viewed-and-compared-products.png %}){: .zoom}
 [_Recently Viewed/Compared Products_]({% link marketing/products-viewed-compared.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
+|Synchronize widget products with backend storage|Global|Determines the sync of product widget information, such as product ID, with the database. This allows the reuse of information on other devices.|
 |Show for Current|Website|Limits the products shown to the current website. Options: Website / Store / Store View|
 |Default Recently Viewed Products Count|Store View|Determines the maximum number of recently viewed products that appear in the list.|
 |Default Recently Compared Products Count|Store View|Determines the maximum number of recently compared products that appear in the list.|
+|Lifetime of products in Recently Viewed Widget|Global|Determines how long, in seconds, viewed products will be shown in the recently viewed list.|
+|Lifetime of products in Recently Compared Widget|Global|Determines how long, in seconds, compared products will be shown in the recently compared list.|
 
 ## Product Video
 

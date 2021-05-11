@@ -16,7 +16,7 @@ Special characters (such as the equal sign, greater and less than symbols, singl
 
 When importing product data, new product data is added to existing product data entries in the database. All fields except SKU can be updated through import. All existing product data is replaced with the imported new data. Exercise caution when replacing data. All existing product data will be completely cleared and all references in the system will be lost.
 
-![Data import]({% link images/images/system-import.png %}){: .zoom}
+![Data import]({% link images/images/import-options.png %}){: .zoom}
 _Import_
 
 ## Step 1: Prepare the Data
@@ -27,9 +27,11 @@ _Import_
 
    - `Advanced Pricing`
    - `Products`
+   - `Customer Finances`
    - `Customers and Addresses`
    - `Customers Main File`
    - `Customer Addresses`
+   - `Stock Sources`
 
 1. Click **Download Sample File**.
 
