@@ -8,7 +8,7 @@ Category updates can be applied on schedule, and grouped with other content chan
 ![]({% link images/images-ee/category-scheduled-changes.png %}){: .zoom}
 _Scheduled Changes_
 
-## Schedule an update to a category 
+## Schedule an update to a category
 
 1. Go to the **Categories** page and open a category in edit mode.
 
