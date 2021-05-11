@@ -7,3 +7,9 @@ The Schedule Design Update section gives you the ability to make temporary chang
 
 ![]({% link images/images/product-design-update-scheduled.png %}){: .zoom}
 _Scheduled Design Update_
+
+|Field|Description|
+|--- |--- |
+|Schedule Update From/To|Determines the range of dates when a custom layout is applied to the product.|
+|New Theme|Applies a custom theme to the product.|
+|New Layout|Applies a different layout to the product page. Options: <br/>**No layout updates** - By default, layout updates are not available for the product page. <br/>**Empty** - Allows you define your own layout, such as a 4-column page. (Requires an understanding of XML.) <br/>**1 column** - Applies a one-column layout to the product page. <br/>**2 columns with left bar** - Applies a two-column layout with a left sidebar to the product page. <br/>**2 columns with right bar** - Applies a two-column layout with a right sidebar to the product page. <br/>**3 columns** - Applies a three-column layout to the product page.|
