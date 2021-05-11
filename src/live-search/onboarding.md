@@ -12,8 +12,8 @@ To establish the connection between Live Search and your installation, the Adobe
 When the installation and [configuration](https://devdocs-beta.magento.com/live-search/config-connect.html) is complete, Live Search appears on the Marketing menu under SEO & Search in the Adobe Commerce Admin. You must go to Live Search and complete any configuration action to trigger indexation.
 
 1. In the Admin, go to **Marketing** > SEO & Search > **Live Search**.
-1. To complete a simple configuration action, click the _Facets_ tab.
-1. Under _Dynamic Facets_, click the gray pushpin of any facet to move it to the Pinned Facets list.
+1. To complete a simple configuration action, click the **Facets** tab.
+1. Under _Dynamic Facets_, click the gray pushpin of any facet to move it to the _Pinned Facets_ list.
 
    This simple action causes the product catalog to be synchronized with the Live Search service and triggers indexation.
 
