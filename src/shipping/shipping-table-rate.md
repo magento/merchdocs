@@ -84,7 +84,7 @@ The first step is to complete the default settings for table rates. You can comp
 
    When prompted to confirm, click **OK**.
 
-   The Export and Import options now appear in the Table Rates section, with “Use Default” checkboxes to the right of each option.
+   The Export and Import options now appear in the Table Rates section, with _Use Default_ checkboxes to the right of each option.
 
    {:.bs-callout-info}
    To change any of the current settings, you must first clear the _Use Default_ checkbox.
@@ -95,7 +95,7 @@ The first step is to complete the default settings for table rates. You can comp
 
 1. Click **Export CSV**.
 
-1. Save the `tablerates.csv` file to your computer.
+1. Save the `table-rates.csv` file to your computer.
 
    ![]({% link images/images/shipping-table-rates-export.png %}){: .zoom}
    _Export CSV_
@@ -111,7 +111,7 @@ The first step is to complete the default settings for table rates. You can comp
    ![]({% link images/images/table-rates-weight-destination-csv.png %}){: .zoom}
    _Weight vs. Destination (Australia)_
 
-1. Save the `tablerates.csv` file.
+1. Save the `table-rates.csv` file.
 
 ### Example 1: Price v. destination
 
@@ -150,7 +150,7 @@ This example uses the _Weight v. Destination_ condition to create different ship
 
 This example uses the _Price v. Destination_ condition to determine if free shipping is available based on the destination.
 
-In the `tablerates.csv` file, include all the state destinations to which you are willing to provide free shipping. Complete the table rate configuration with the following settings:
+In the `table-rates.csv` file, include all the state destinations to which you are willing to provide free shipping. Complete the table rate configuration with the following settings:
 
    | Setting | Value |
    |----------
@@ -166,10 +166,10 @@ In the `tablerates.csv` file, include all the state destinations to which you ar
 
 1. At the top-left of the configuration page, set **Store View** to the website where this method will be used.
 
-1. Next to _Import_, click **Choose File** and select your completed `tablerates.csv` file for import.
+1. Next to _Import_, click **Choose File** and select your completed `table-rates.csv` file for import.
 
    ![]({% link images/images/shipping-table-rates-import.png %}){: .zoom}
-   _Import Table Rates_
+   _Import table rates_
 
 1. When complete, click <span class="btn">Save Config</span>.
 
