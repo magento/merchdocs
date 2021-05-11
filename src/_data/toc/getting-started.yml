@@ -36,6 +36,8 @@ pages:
       url: "/quick-tour/product-page.html"
     - label: Shopping Cart
       url: "/quick-tour/shopping-cart.html"
+    - label: Checkout Page
+      url: "/quick-tour/checkout-page.html"
   - label: Customer Journey
     url: "/quick-tour/customer-journey.html"
     children:
