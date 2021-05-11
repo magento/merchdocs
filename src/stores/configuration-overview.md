@@ -17,6 +17,10 @@ _Configuration_
 
 [Catalog configuration]({% link configuration/catalog.md %}) settings determine product and inventory settings, controls sitemap and RSS feed generation, and specifies the email template that is used to share products with friends.
 
+### Security
+
+[Security]({% link configuration/security.md %}) settings configures store security, Two-factor authentication, and the [Google reCAPTCHA](https://www.google.com/recaptcha/about/) feature.
+
 ### Customers
 
 [Customer configuration]({% link configuration/customers.md %}) establishes basic customer account and login options, newsletter settings, wish list, and the format of auto-generated coupon codes.
@@ -24,6 +28,18 @@ _Configuration_
 ### Sales
 
 [Sales configuration]({% link configuration/sales.md %}) determines checkout and tax settings, payment and shipping options, sales email and PDF print-outs, and Google API settings.
+
+### Yotpo
+
+[Yotpo](https://www.yotpo.com/) settings determine the [Yotpo]({% link configuration/yotpo.md %}) module, reviews, and visual marketing settings.
+
+### Sales Channels
+
+[Sales Chanel]({% link configuration/sales-channels.md %}) settings configure the clear log history, background tasks source, debug login, and read-only mode settings. This feature is only available if your Magento 2 instance has Amazon Sales Channel installed and enabled.
+
+### Dotdigital
+
+[Dotdigital]({% link configuration/dotdigital.md %}) settings configure the Dotdigital marketing feature. It configures the build segments and triggers, data mapping, and lets you create a relevant account and marketing campaigns.
 
 ### Services
 
