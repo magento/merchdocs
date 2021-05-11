@@ -1,5 +1,12 @@
 ---
 title: Tools
+redirect_from:
+  - /system/web-setup-wizard.html
+  - /system/web-setup-extension-manager.html
+  - /system/web-setup-module-manager.html
+  - /system/web-setup-system-configuration.html
+  - /system/web-setup-system-upgrade.html
+  - /system/web-setup.html
 ---
 
 This section of the guide demonstrates how to perform routine index and cache management operations, back up the system, and use tools that help our Support team troubleshoot and resolve issues.
@@ -9,5 +16,6 @@ This section of the guide demonstrates how to perform routine index and cache ma
 - [Backups]({% link system/backups.md %})
 - [Cron (scheduled tasks)]({% link system/cron.md %})
 - [Developer tools]({% link system/developer-tools.md %})
-- [Web Setup Wizard]({% link system/web-setup-wizard.md %})
 - {:.ee-only}[Support]({% link system/support.md %})
+
+{% include web-setup-deprecate.md %}

@@ -13,7 +13,7 @@ Do not change the Admin URL from the default Base URL configuration. To change t
 
 ## Use Secure Protocol
 
-The base URLs for your store were initially set up during the _Web Configuration_ step of the [Magento installation]({% link system/web-setup-wizard.md %}). If a security certificate was available at the time, you could specify for `HTTPS` URLs to be used for the store, Admin, or both. If your Magento installation includes multiple stores, or if you plan to later add more stores, you can include the store code in the URL. All Magento resources and operations can be used with secure protocol.
+The base URLs for your store were initially set up during your Magento installation. If a security certificate was available at the time, you could specify for `HTTPS` URLs to be used for the store, Admin, or both. If your Magento installation includes multiple stores or you plan to later add more stores, you can include the store code in the URL. All Magento resources and operations can be used with secure protocol.
 
 If a security certificate was not available for the domain at the time of the installation, make sure to update the configuration before launching your store. After a security certificate is established for your domain, you can configure either or both base URLs to operate with encrypted Secure Sockets Layer (SSL) and [Transport Layer Security][1] (TLS) protocol.
 

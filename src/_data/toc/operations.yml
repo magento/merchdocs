@@ -284,15 +284,6 @@ pages:
         url: "/system/template-path-hints.html"
       - label: Translate Inline
         url: "/system/translate-inline.html"
-    - label: Web Setup Wizard
-      url: "/system/web-setup-wizard.html"
-      children:
-      - label: Module Manager
-        url: "/system/web-setup-module-manager.html"
-      - label: System Upgrade
-        url: "/system/web-setup-system-upgrade.html"
-      - label: System Configuration
-        url: "/system/web-setup-system-configuration.html"
     - label: Support
       url: "/system/support.html"
       edition: ee-only

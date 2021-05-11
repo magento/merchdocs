@@ -4,6 +4,21 @@ title: Change Log
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what's new.
 
+## May 2021
+
+### Product releases
+
+- [Magento Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/commerce-2-3-7.html){: target="_blank"}, 2.3.7
+- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-7.html){: target="_blank"}, 2.3.7
+
+### Updated topics
+
+{: .topics-table }
+|Topic |Change|
+|--- |--- |
+|Web Setup Wizard <br/>Extension Manager <br/>Module Manager <br/>System Upgrade <br/>System Configuration |Removed all content for the Web Setup Wizard. This UI functionality was removed in 2.3.7. All installation and updates, including modules and extensions, must be done by command line.|
+|[Store Admin]({% link stores/admin.md %}) <br/> [Admin]({% link configuration/advanced/admin.md %}#admin-usage) (reference) <br/> |Updated the opt-in Admin usage data information to include new support for in-product guidance.|
+
 ## March 2021
 
 ### Updated topics
@@ -35,6 +50,11 @@ Our documentation is continually updated with new topics, clarifications, and co
 |[Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}) |Added a note about the possible actual coupon usage count exceeding the defined limit.|
 
 ## October 2020
+
+### Product releases
+
+- [Adobe Commerce](https://devdocs.magento.com/guides/v2.3/release-notes/commerce-2-3-6.html){: target="_blank"}, 2.3.6
+- [Magento Open Source](https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-6.html){: target="_blank"}, 2.3.6
 
 ### Updated topics
 
@@ -109,8 +129,8 @@ Our documentation is continually updated with new topics, clarifications, and co
 |--- |--- |
 |Google Shopping ads Channel|With the deactivation of Google Shopping ads Channel, related documentation has been removed. Additional configuration and landing pages have also been updated:<br/>- [Marketing]({% link marketing.md %})<br/>- [Sales Channels Home]({% link sales-channels/sales-channels-home.md %})<br/>- [Services]({% link configuration/services.md %})<br/>- [Role Resources]({% link system/permissions-role-resources.md %})|
 |Extension Manager|Due to a known issue, the Extension Manager does not work properly in 2.3.x. Removed the Extension Manager topic from the Web Setup Wizard section.|
-|[Web Setup Wizard]({% link system/web-setup-wizard.md %})|Updated with notice that the Web Setup Wizard will be deprecated in the 2.3.6 release.|
-|[Install an Extension]({% link magento/magento-marketplace-install-extension.md %})|Updated to remove instructions for the Extension Manager and refer to the [General CLI installation](https://devdocs.magento.com/extensions/install/) information in DevDocs.|
+|Web Setup Wizard|Updated with notice that the Web Setup Wizard will be deprecated in the 2.3.6 release.|
+|Install an Extension|Updated to remove instructions for the Extension Manager and refer to the [General CLI installation](https://devdocs.magento.com/extensions/install/) information in DevDocs.|
 |[Advanced Reporting]({% link reports/advanced-reporting.md %})|Updated to clarify that Advanced Reporting does not require an MBI account.|
 |[Sharing your Account]({% link magento/magento-account-share.md %})|Updated steps and screens for accuracy, clarity, and consistency.|
 |[Add Product Recommendations]({% link marketing/page-builder-add-product-recs.md %})|Updated to clarify which version of the Product Recommendations module supports Page Builder.|
@@ -222,16 +242,16 @@ Our documentation is continually updated with new topics, clarifications, and co
 ### New topics
 
 - [Magento Marketplace]({% link magento/magento-marketplace.md %})
-- [Set Up Your Marketplace Credentials]({% link magento/magento-marketplace-credentials.md %})
-- [Synchronize Your Store]({% link magento/magento-marketplace-synchronize-store.md %})
-- [Install an Extension]({% link magento/magento-marketplace-install-extension.md %})
+- Set Up Your Marketplace Credentials
+- Synchronize Your Store
+- Install an Extension
 
 ### Updated topics
 
 {: .topics-table }
 |Topic |Change|
 |--- |--- |
-|[System Config]({% link system/web-setup-system-configuration.md %})|Added note for Adobe Commerce Cloud users with links to new [Magento Marketplace]({% link magento/magento-marketplace.md %}) section in Getting Started.|
+|System Config|Added note for Adobe Commerce Cloud users with links to new [Magento Marketplace]({% link magento/magento-marketplace.md %}) section in Getting Started.|
 |[CAPTCHA]({% link stores/security-captcha.md %}) <br/>[Customer Configuration]({% link configuration/customers/customer-configuration.md %}) |Updated for clarification about which storefront forms can be used with CAPTCHA.|
 |[Managing Amazon Pricing]({% link sales-channels/amazon/pricing-products.md %}) <br/>[Intelligent Repricing Rule: Select Rule Type]({% link sales-channels/amazon/intelligent-repricing-rules.md %}) <br/>[Intelligent Repricing Rule: Floor Price]({% link sales-channels/amazon/floor-price.md %}) <br/>[Intelligent Repricing Rule: Optional Ceiling Price]({% link sales-channels/amazon/optional-ceiling-price.md %})  |Updates text for Amazon intelligent repricing rules and added alert text pertaining to vacation/test mode.|
 |[Product Attribute Reference]({% link system/data-attributes-product.md %})|Added information for the `save_rewrites_history` field.|
@@ -598,9 +618,9 @@ Our documentation is continually updated with new topics, clarifications, and co
 |--- |--- |
 |[Index Management]({% link system/index-management.md %})|Added best practices, mode details, manual index instructions, screenshots, and additional information links.|
 |[Cache Management]({% link system/cache-management.md %})|Added best practices, screenshots, and additional information links.|
-|[Setup Wizard]({% link system/web-setup-wizard.md %})|Added note for flushing caches and reindexing.|
-|[Module Manager]({% link system/web-setup-module-manager.md %})|Added note for flushing caches and reindexing.|
-|[System Upgrade]({% link system/web-setup-system-upgrade.md %})|Added note for flushing caches and reindexing.|
+|Setup Wizard|Added note for flushing caches and reindexing.|
+|Module Manager|Added note for flushing caches and reindexing.|
+|System Upgrade|Added note for flushing caches and reindexing.|
 |[Backups]({% link system/backups.md %})|Added deprecation notice and enable feature information.|
 |[System]({% link configuration/advanced/system.md %}) (reference)|Added deprecation notice and enable feature information for Backups.|
 
