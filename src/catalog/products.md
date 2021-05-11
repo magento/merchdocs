@@ -45,3 +45,26 @@ _Products Grid_
 |Websites|Indicates the website(s) where the product is available.|
 |Action|Opens the product in Edit mode.|
 |<span class="b2b-only">Shared Catalog</span>|Indicates the shared catalogs that contain custom pricing for the product.|
+
+## Other columns
+
+|Column|Description|
+|--- |--- |
+|Short Description|Short description of the product.|
+|Special Price From Date|The first date of the special price promotion.|
+|Special Price To Date|The last date of the special price promotion.|
+|Cost|The actual cost of the item.|
+|Manufacturer|The manufacturer of the product.|
+|Meta Keywords|Meta keywords for the product.|
+|Color|The product color.|
+|Set Product as New from Date|The first date of the set product as a new promotion.|
+|Set Product as New to Date|The last date of the set product as a new promotion.|
+|Active From / To|The product start and end date.|
+|Layout|The product layout.|
+|Minimum Advertised Price|The minimum advertised price of the product.|
+|Allow Gift Message|The gift message to customers who purchase a gift card.|
+|Special Price|Special price for the product.|
+|Weight|The product weight.|
+|Meta Title|Meta title for the product.|
+|Meta Description|The product meta description.|
+|Country of Manufacture|The country of manufacture.|
