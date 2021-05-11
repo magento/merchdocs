@@ -17,19 +17,19 @@ The list of email templates is organized alphabetically by Magento module.
 {: .template-table }
 |Template|Configuration path|
 |--- |--- |
-| Assign Company Admin | **Page:** <br/>**Section:** <br/>**Field:** |
-| Assign Company to Customer | **Page:** <br/>**Section:** <br/>**Field:** |
-| Company Admin Changed to Member | **Page:** <br/>**Section:** <br/>**Field:** |
-| Company Admin Set Inactive | **Page:** <br/>**Section:** <br/>**Field:** |
-| Company Registration Request | **Page:** <br/>**Section:** <br/>**Field:** |
-| Company Status Active1 | **Page:** <br/>**Section:** <br/>**Field:** |
-| Company Status Active2 | **Page:** <br/>**Section:** <br/>**Field:** |
-| Company Status Blocked | **Page:** <br/>**Section:** <br/>**Field:** |
-| Company Status Pending Approval | **Page:** <br/>**Section:** <br/>**Field:** |
-| Company Status Rejected | **Page:** <br/>**Section:** <br/>**Field:** |
-| Customer Status Active | **Page:** <br/>**Section:** <br/>**Field:** |
-| Customer Status Inactive | **Page:** <br/>**Section:** <br/>**Field:** |
-| Sales Representative Assigned to Company | **Page:** <br/>**Section:** <br/>**Field:** |
+| Assign Company Admin | **Page:** Customers > [Company Configuration]({% link customers/company-configuration.md %})<br/>**Section:**Customer-Related Emails<br/>**Field:** Default 'Assign Company Admin' Email|
+| Assign Company to Customer | **Page:** Customers > [Company Configuration]({% link customers/company-configuration.md %})<br/>**Section:**Customer-Related Emails <br/>**Field:** Default 'Assign Company to Customer' Email|
+| Company Admin Changed to Member | **Page:** Customers > [Company Configuration]({% link customers/company-configuration.md %})<br/>**Section:**Customer-Related Emails<br/>**Field:** Default 'Company Admin Changed To Member' Email|
+| Company Admin Set Inactive | **Page:** Customers > [Company Configuration]({% link customers/company-configuration.md %})<br/>**Section:**Customer-Related Emails<br/>**Field:** Default 'Customer Status Inactive' Email|
+| Company Registration Request | **Page:** Customers > [Company Configuration]({% link customers/company-configuration.md %})<br/>**Section:** Email Options - Company Registration<br/>**Field:** Default Company Registration Email|
+| Company Status Active1 | **Page:** Customers > [Company Configuration]({% link customers/company-configuration.md %})<br/>**Section:**Company Status Change<br/>**Field:** Default 'Company Status Change To Active 1" Emai|
+| Company Status Active2 | **Page:** Customers > [Company Configuration]({% link customers/company-configuration.md %})<br/>**Section:**Company Status Change<br/>**Field:** Default 'Company Status Change To Active 2" Emai|
+| Company Status Blocked | **Page:** Customers > [Company Configuration]({% link customers/company-configuration.md %})<br/>**Section:**Company Status Change<br/>**Field:** Default 'Company Status Change To Blocked" Email|
+| Company Status Pending Approval | **Page:** Customers > [Company Configuration]({% link customers/company-configuration.md %})<br/>**Section:**Company Status Change<br/>**Field:** Default 'Company Status Change To Pending Approval" Email|
+| Company Status Rejected | **Page:** Customers > [Company Configuration]({% link customers/company-configuration.md %})<br/>**Section:**Company Status Change<br/>**Field:** Default 'Company Status Change To Rejected" Emai|
+| Customer Status Active | **Page:** Customers > [Company Configuration]({% link customers/company-configuration.md %})<br/>**Section:**Customer-Related Emails<br/>**Field:** Default 'Customer Status Active' Email|
+| Customer Status Inactive | **Page:** Customers > [Company Configuration]({% link customers/company-configuration.md %})<br/>**Section:**Customer-Related Emails<br/>**Field:** Default 'Company Admin Inactive' Email|
+| Sales Representative Assigned to Company | **Page:** Customers > [Company Configuration]({% link customers/company-configuration.md %})<br/>**Section:**Customer-Related Emails<br/>**Field:** Default 'Sales Rep Assigned' Email|
 
 {:.b2b-only}
 ## Magento_CompanyCredit
@@ -37,11 +37,11 @@ The list of email templates is organized alphabetically by Magento module.
 {: .template-table }
 |Template|Configuration path|
 |--- |--- |
-| Credit Limit Allocated | **Page:** <br/>**Section:** <br/>**Field:** |
-| Credit Limit Updated | **Page:** <br/>**Section:** <br/>**Field:** |
-| Credit Reimbursed | **Page:** <br/>**Section:** <br/>**Field:** |
-| Order Refunded to Company Credit | **Page:** <br/>**Section:** <br/>**Field:** |
-| Order Reverted to Company Credit | **Page:** <br/>**Section:** <br/>**Field:** |
+| Credit Limit Allocated | **Page:** Customers > [Company Configuration]({% link customers/company-configuration.md %})<br/>**Section:** Company Credit<br/>**Field:** Allocated Email Template|
+| Credit Limit Updated **Page:** Customers > [Company Configuration]({% link customers/company-configuration.md %})<br/>**Section:** Company Credit<br/>**Field:** Updated Email Template|
+| Credit Reimbursed | **Page:** Customers > [Company Configuration]({% link customers/company-configuration.md %})<br/>**Section:** Company Credit<br/>**Field:** Reimbursed Email Template|
+| Order Refunded to Company Credit |**Page:** Customers > [Company Configuration]({% link customers/company-configuration.md %})<br/>**Section:** Company Credit<br/>**Field:** Refunded Email Template|
+| Order Reverted to Company Credit | **Page:** Customers > [Company Configuration]({% link customers/company-configuration.md %})<br/>**Section:** Company Credit<br/>**Field:** Reverted Email Template|
 
 ## Magento_Contact
 
