@@ -12,7 +12,7 @@ The header of every page in your store extends an invitation for shoppers to _Lo
 Customers can access their account by clicking the **My Account** link in the header of the store. From their account, customers can view and modify information, including past and current addresses, billing and shipping preferences, newsletter subscriptions, wish list, and more.
 
 ![]({% link images/images-ee/customer-account-dashboard-my-account.png %}){: .zoom}
-_My Account_{:.ee-only}
+_My Account_
 
 {:.b2b-only}
 ## Account types
