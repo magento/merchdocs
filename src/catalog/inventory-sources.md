@@ -56,3 +56,18 @@ The Manage Sources page lists all available inventory locations and fulfillment 
 |Is Enabled|Indicates if the inventory source is active and available to use.|
 |Pickup Location|Indicates if the source is active as a pickup location for [in-store delivery]({% link shipping/shipping-in-store-delivery.md %}).|
 |Action|Clicking **Edit** opens the inventory source record in edit mode.|
+
+## Other columns
+
+|Column|Description|
+|--- |--- |
+|Latitude|Specifies the latitude coordinate of the inventory source for GPS. Enter the value as a number, preceded by a plus or minus sign as needed. The degree symbol and letters are not permitted. For example: Latitude 32.7555|
+|State/Province|The state or province where the source is located.|
+|Postcode|The ZIP or postal code of the source.|
+|Email|The email of the primary contact.|
+|Longitude|Specifies the longitude coordinate of the inventory source for GPS. Enter the value as a number, preceded by a plus or minus sign as needed. The degree symbol and letters are not permitted. For example: Longitude -97.3308|
+|City|The city where the source is located.|
+|Phone|The telephone number of the primary contact.|
+|Country|The country where the source is located.|
+|Street|The street address of the source.|
+|Fax|The area code and fax number of the primary contact.|

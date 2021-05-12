@@ -332,6 +332,8 @@ pages:
       url: "/marketing/product-recs-limitations.html"
     - label: Fetch Product Recommendations from a Different Source
       url: "/marketing/recommendation-change-source.html"
+    - label: Product Recommendations versus Product Relationships
+      url: "/marketing/product-recs-vs-crossupsells.html"
   - label: Related Product Rules
     url: "/marketing/product-related-rules.html"
     edition: ee-only
