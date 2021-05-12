@@ -16,14 +16,14 @@ When invitations are enabled, customers can send and view [invitations]({% link 
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Private Sales_ > **Invitations**.
 
-1. In the upper-right corner, click <span class="btn">Add Invitations</span>.
+1. In the upper-right corner, click **Add Invitations**.
 
 1. On a new screen, enter email addresses to invite new customers, add a custom message, choose a sender, and select an invitee group.
 
     ![Invitations Information]({% link images/images-ee/create-invitation-page.png %}){: .zoom}
     _Create Invitation_
 
-1. When complete, click <span class="btn">Save</span>.
+1. When complete, click **Save**.
 
 In the [Private Sales Reports]({% link reports/private-sales-reports.md %}) section, you can see the number of invitations sent during a specified period, or customers to whom you have sent invitations.
 
