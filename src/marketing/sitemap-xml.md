@@ -61,6 +61,34 @@ For more information, see the instructions for the specific search engine. Here 
 
 You can now restore either the original (default) restrictions.
 
+## Manage sitemaps and robots.txt for multiple websites
+
+If you have multiple websites, you can simplify the process of creating and submitting sitemaps by [creating]({% link marketing/sitemap-xml-configure.md %}) one or more sitemaps that include URLs for all your verified stores, and saving the sitemap(s) to a single location. All sites must be verified in [Search Console](https://support.google.com/webmasters/answer/7451001).
+
+To create sitemaps for Magento multistore instances do the following:
+
+1. Create a new folder called sitemaps at the root of your website, then create subfolders for each domain:
+
+    /sitemaps/domain_1/
+    /sitemaps/domain_2/
+
+1. On the Admin menu, go to _Marketing > SEO & Search > Site Map_.
+
+1. Create or edit the sitemap listings for each store and set the “path to sitemap” field to be the path you created for the store:
+
+    /sitemaps/domain_1/
+    /sitemaps/domain_2/
+
+1. Update your robots.txt file. To make sure that the search engine spiders are properly directed to the new sitemaps. You may need to update or create the robots.txt file. Edit the robots.txt file and add the following lines at the top.
+
+Website Sitemap
+
+    Sitemap: http://www.domain_1.com/sitemaps/domain_1/sitemap.xml
+    Sitemap: http://www.domain_2.com/sitemaps/domain_2/sitemap.xml
+
+{:.bs-callout-info}
+If your site uses the [Apache](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/apache.html) web server engine, you should update the [.htaccess](http://httpd.apache.org/docs/current/howto/htaccess.html) file in the root of your website to direct any other sitemap requests to the proper place.
+
 ## Column Descriptions
 
 |Column|Description|
