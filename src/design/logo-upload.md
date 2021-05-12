@@ -8,10 +8,10 @@ The size and location of the logo in the header is determined by the store theme
 ![]({% link images/images/storefront-header-logo.png %}){: .zoom}
 _Logo in Header_
 
-The logo image resides in the following location on the server. Any image file with the name `logo.gif` is used as the default theme logo.
+The logo image resides in the following location on the server. Any image file with the name `logo.svg` is used as the default theme logo.
 
-| Full path | `app/design/frontend/[vendor]/[theme]/web/images/logo.gif` |
-| Relative path | `images/logo.gif` |
+| Full path | `app/design/frontend/[vendor]/[theme]/web/images/logo.svg` |
+| Relative path | `images/logo.svg` |
 
 If you do not know the size of the logo or other images used in your theme, open the page in a browser, right-click the image, and inspect the element.
 
