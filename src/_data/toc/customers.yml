@@ -33,6 +33,16 @@ pages:
       url: "/customers/customer-account-update.html"
     - label: Using Login As Customer
       url: "/customers/login-as-customer.html"    
+  - label: Store Credit
+    url: "/customers/store-credit.html"
+    edition: ee-only
+    children:
+    - label: Configuring Store Credit
+      url: "/customers/credit-configure.html"
+    - label: Applying Store Credit
+      url: "/customers/store-credit-using.html"
+    - label: Customer Account Dashboard
+      url: "/customers/refunds-customer-account.html"
   - label: Customer Sign In
     url: "/customers/customer-sign-in.html"
     children:
@@ -149,6 +159,14 @@ pages:
     children:
     - label: Updating a Company Profile
       url: "/customers/account-company-update.html"
+  - label: Company Credit
+    url: "/customers/credit-company.html"
+    edition: b2b-only
+    children:
+    - label: Credit Activity
+      url: "/customers/credit-company-activity.html"
+    - label: Receiving Payments
+      url: "/customers/credit-company-reimburse.html"
 - label: Customer Groups
   url: "/customers/customer-groups.html"
   children:
