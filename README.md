@@ -1,10 +1,10 @@
-# Magento Merchant Documentation
+# Adobe Merchant Documentation
 
-Welcome! This site contains the latest Magento merchant documentation for ongoing Magento 2.3.x releases. For additional information, see our [Contribution Guide](https://github.com/magento/merchdocs/blob/master/.github/CONTRIBUTING.md) and [Wiki](https://github.com/magento/merchdocs/wiki).
+Welcome! This site contains the latest Adobe merchant documentation for ongoing Adobe 2.3.x releases. For additional information, see our [Contribution Guide](https://github.com/magento/merchdocs/blob/master/.github/CONTRIBUTING.md) and [Wiki](https://github.com/magento/merchdocs/wiki).
 
 ## Contribute
 
-Our goal is to provide the Magento Community with comprehensive and quality user documentation. We believe that to accomplish that goal we need experts from the community to share their knowledge with us and each other. We are thankful to all of our contributors for improving Magento documentation.
+Our goal is to provide the Adobe Community with comprehensive and quality user documentation. We believe that to accomplish that goal we need experts from the community to share their knowledge with us and each other. We are thankful to all of our contributors for improving Adobe documentation.
 
 Depending on your level of comfort, you may [clone this repo](#install-merchdocs), [make your changes](https://github.com/magento/merchdocs/wiki/Writing-Content#write-like-a-developer), and [build it locally](#build-locally), or [make changes directly in the GitHub user interface (UI)](https://github.com/magento/merchdocs/wiki/Writing-Content#write-in-github).
 
