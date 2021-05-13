@@ -18,5 +18,5 @@ In this guide, you can drill down through any section of the reference and follo
 - [Services]({% link configuration/services.md %})
 - [Advanced]({% link configuration/advanced.md %})
 
-![Magento Admin - Configuration]({% link images/images-ee/config-ee.png %}){: .zoom}
-_Configuration_{:.ee-only}
+![Magento Admin - Configuration]({% link images/images/config.png %}){: .zoom}
+_Configuration_
