@@ -27,10 +27,14 @@ _Add facet_
      - Use in Search - `Yes`
      - Use in Search Results Layered Navigation - `Yes`
      - Use in Layered Navigation - `Filterable (with results)`
+     - Use in Search Results Layered Navigation - `Yes`
 
 1. When prompted, refresh the cache.
 
-   The facet will become available in the storefront the next time the catalog is synchronized with Live Search.  If the facet doesn't become available after two hours, see [Troubleshooting Catalog Sync]({% link live-search/onboarding.md %}).
+   The facet will become available in the storefront the next time the catalog is synchronized with Live Search. Depending on the [index mode]({% link system/index-management.md %}) that is set for the _Product Attributes Feed_, it can take some time for the updated attribute to appear in the list of available facets. If the facet doesn't become available after two hours, see [Troubleshooting Catalog Sync]({% link live-search/onboarding.md %}).
+
+   {:.bs-callout-warning}
+   Known issue: For best results, set the index mode for the _Product Attribute Feed_ to `Update on Schedule`. At this time there is an issue with `Update on Save`.
 
 ## Step 2: Edit facet properties
 
@@ -46,7 +50,7 @@ _Add facet_
    ![Faceting workspace]({% link live-search/assets/facet-edit.png %}){: .zoom}
    _Edit facet_
 
-1. To pin the facet to the top of the _Filters_ list, click the gray pin (![Pin selector]({% link live-search/assets/btn-pin-gray.png %})).
+1. To pin the facet to the top of the _Filters_ list, click the gray pushpin (![Pin selector]({% link live-search/assets/btn-pin-gray.png %})).
 1. To change the order of the pinned facet, click the **Move** (![Move selector]({% link live-search/assets/btn-move.png %})) icon and drag the row to a new position in the _Pinned Facets_ section.
 
 ## Step 3: Publish changes

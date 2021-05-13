@@ -12,7 +12,7 @@ _Faceting Workspace_
 
 ## Set the scope
 
-If your Adobe Commerce installation includes multiple stores or store views, set **Scope** to the [store view]({% link configuration/scope.md %}) where your facet settings apply.
+If your Adobe Commerce installation includes multiple store views, set **Scope** to the [store view]({% link configuration/scope.md %}) where your facet settings apply.
 
 ## Filter the list
 

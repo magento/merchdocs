@@ -10,7 +10,7 @@ The Live Search workspace is where you configure, manage, and monitor the perfor
 ![Live Search Workspace]({% link live-search/assets/workspace-menu.png %}){: .zoom}
 _Live Search menu_
 ## Set the scope
-If your Adobe Commerce installation includes multiple stores or store views, set **Scope** to the store view where the settings apply.
+If your Adobe Commerce installation includes multiple store views, set **Scope** to the store view where the settings apply.
 
 ## Menu Options
 
