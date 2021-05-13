@@ -176,7 +176,7 @@ Because an individual shipment order for each package is created, multiple shipp
 
 ### Method 2: Print labels for multiple orders
 
-1. Open a list of shipments form using one of the following methods:
+1. Open a list of shipments using one of the following methods:
 
    - On the _Admin sidebar_, choose **Sales** > **Shipments**.
    - On the _Admin sidebar_, choose **Sales** > **Orders**.

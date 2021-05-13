@@ -33,7 +33,7 @@ Flat Rate appears as an option in the _Estimate Shipping and Tax_ section of the
 
 1. Enter the **Price** that you want to charge for flat rate shipping.
 
-1. (Optional) Configure a handling fee:
+1. If you want to include a handling fee, do the following:
 
    - If charging an additional handling fee, set **Calculate Handling Fee** to one of the following:
 

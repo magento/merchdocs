@@ -6,7 +6,7 @@ DHL offers integrated international services and tailored, customer-focused solu
 
 ## Step 1: Enable your DHL account
 
-1. On the _Admin_ sidebar, got to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Sales** and choose **Shipping Methods**.
 

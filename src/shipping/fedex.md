@@ -19,7 +19,7 @@ Make sure to copy or write down the authentication key. You will need it to set 
 
 ## Step 2: Enable FedEx for your store
 
-1. On the _Admin_ sidebar, got to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Sales** and choose **Shipping Methods**.
 
