@@ -18,7 +18,7 @@ When invitations are enabled, customers can send and view [invitations]({% link 
 
 1. In the upper-right corner, click **Add Invitations**.
 
-1. On a new screen, enter email addresses to invite new customers, add a custom message, choose a sender, and select an invitee group.
+1. On the next screen, enter email addresses to invite new customers, add a custom message, choose a sender, and select an invitee group.
 
     ![Invitations Information]({% link images/images-ee/create-invitation-page.png %}){: .zoom}
     _Create Invitation_
@@ -32,11 +32,11 @@ In the [Private Sales Reports]({% link reports/private-sales-reports.md %}) sect
 |Field|Description|
 |--- |--- |
 |Select|Select the checkbox to select the invitation(s) to be subject to an action, or use the selection control in the column header. Options: Select All / Deselect All / Select Visible / Unselect Visible|
-|ID|An internal ID number of an invitation|
+|ID|The internal ID number of an invitation|
 |Email|A corresponding customer email address|
 |Invitee|Invited user email|
 |Sent|Time and date an invitation was sent|
 |Registered|Time and data when a customer was registered|
 |Status|Invitation status. Options: Sent / Not Sent / Accepted/ Discarded|
-|Valid Website|A corresponding website|
+|Valid Website|The corresponding website|
 |Invitee Group|A customer group of an invitee|
