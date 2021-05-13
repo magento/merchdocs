@@ -35,9 +35,6 @@ Configuring the Adobe Stock integration for Magento is a two-step process: [crea
 
 1. Select **Adobe Stock** from the integrations list and click **Continue**.
 
-   {:.bs-callout-warning}
-   At this time, _do not_ use the Adobe Stock service on this screen.
-
 1. Select **Oauth 2.0 Web** platform.
 
 1. Specify the **Redirect URI**.
