@@ -22,13 +22,15 @@ _Add facet_
 
      The facet is added to the bottom of the _Dynamic Facets_ list and the _Publish changes_ button becomes available.
 
-1. If the facet you want to add can't be found, go to **Stores** > Attributes > **Product** and verify that the attribute has the properties required to be used as a facet. If necessary, update the following storefront properties of the attribute:
+1. If the facet you want to add can't be found, go to **Stores** > Attributes > **Product** and verify that the attribute has the [required properties]({% link live-search/facets.md %}) to be used as a facet. If necessary, update the following storefront properties of the attribute:
 
-     - Use in Search - Yes
-     - Use in Layered Navigation - Filterable (with results)
-     - Used for Sorting in Product Listing - Yes
+     - Use in Search - `Yes`
+     - Use in Search Results Layered Navigation - `Yes`
+     - Use in Layered Navigation - `Filterable (with results)`
 
 1. When prompted, refresh the cache.
+
+   The facet will become available in the storefront the next time the catalog is synchronized with Live Search.  If the facet doesn't become available after two hours, see [Troubleshooting Catalog Sync]({% link live-search/onboarding.md %}).
 
 ## Step 2: Edit facet properties
 
