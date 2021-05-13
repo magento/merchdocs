@@ -11,7 +11,7 @@ For details about making a secure transition from deprecated payment integration
 
 [CyberSource][1] was one of the pioneers in the early online payment industry, and later acquired Authorize.Net. Today, CyberSource is a wholly-owned subsidiary of Visa Inc. Over 400,000 businesses worldwide use CyberSource to process online payments, streamline fraud management, and to simplify payment security. The company is based in Foster City, California, and has offices throughout Asia, Europe, Latin America, the Middle East, Africa, and the United States.
 
-CyberSource supports shipments to [multiple addresses]({% link shipping/shipping-multiaddress.md %}) as part of the checkout flow. The order is duplicated for each address that the customer wants to ship to.
+CyberSource supports shipments to [multiple addresses]({% link shipping/shipping-settings.md %}#multiple-addresses) as part of the checkout flow. The order is duplicated for each address that the customer wants to ship to.
 
 ## CyberSource account credentials
 

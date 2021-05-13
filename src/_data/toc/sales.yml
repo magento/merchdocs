@@ -277,13 +277,8 @@ pages:
   children:
   - label: Shipping Settings
     url: "/shipping/shipping-settings.html"
-    children:
-    - label: Point of Origin
-      url: "/shipping/point-of-origin.html"
-    - label: Multiple Addresses
-      url: "/shipping/shipping-multiaddress.html"
-    - label: Shipping Policy
-      url: "/shipping/shipping-policy-parameters.html"
+  - label: Multiple Address Shipping
+    url: "/shipping/shipping-multiaddress.html"
   - label: Basic Shipping Methods
     url: "/shipping/methods-basic.html"
     children:
@@ -293,8 +288,6 @@ pages:
       url: "/shipping/shipping-flat-rate.html"
     - label: Table Rates
       url: "/shipping/shipping-table-rate.html"
-    - label: Dimensional Weight
-      url: "/shipping/weight-dimensional.html"
   - label: Magento Shipping
     url: "/shipping/magento-shipping.html"
     children:
@@ -350,12 +343,9 @@ pages:
   - label: Shipping Labels
     url: "/shipping/shipping-labels.html"
     children:
-    - label: Shipping Label Workflow
-      url: "/shipping/shipping-label-workflow.html"
     - label: Configuring Shipping Labels
       url: "/shipping/shipping-label-configure.html"
     - label: Creating Shipping Labels
       url: "/shipping/shipping-label-create.html"
-      children:
-      - label: Label Packages
-        url: "/shipping/shipping-label-package.html"
+    - label: Labeling Packages
+      url: "/shipping/shipping-label-package.html"

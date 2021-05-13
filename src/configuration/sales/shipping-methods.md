@@ -150,6 +150,12 @@ _Shipping Profiles_
 
 ## Carriers
 
+<div class="bs-callout bs-callout-info" markdown="1">
+Dimensional weight, sometimes called volumetric weight, is a common industry practice that bases the transportation price on a combination of weight and package volume. In simple terms, dimensional weight determines the shipping rate based on the amount of space a package occupies in the cargo area of the carrier. Dimensional weight is typically used when a package is relatively light compared to its volume.
+
+All major carriers apply dimensional weight to some shipments. However, the manner in which dimensional weight pricing is applied varies from one carrier to another. If your company has a high volume of shipments, even a slight difference in shipping price can translate to thousands of dollars over the course of a year.
+</div>
+
 ### UPS
 
 ![]({% link images/images/config-sales-shipping-methods-ups1.png %}){: .zoom}
@@ -182,7 +188,7 @@ _Shipping Profiles_
 |Packages Request Type|Website|Determines how weight is calculated for shipments with multiple packages. Options: Divide to equal weight (one request), Use origin weight (multiple requests)|
 |Shipper Number|Website|(UPS XML  Only) The six-character UPS Shipper Number is required for reference to use negotiated rates.|
 |Container|Website|Sets the container type used to package order shipments. Options: Customer Packaging / UPS Letter Envelope / Customer Packaging / UPS Letter Envelope / UPS Tube / UPS Express Box / UPS Worldwide 25 kilo / UPS Worldwide 10 kilo|
-|Weight Unit|Website|Sets the default unit of measurement for product weight in your store. See also: [Dimensional Weight]({% link shipping/weight-dimensional.md %}).|
+|Weight Unit|Website|Sets the default unit of measurement for product weight in your store.|
 |Tracking XML URL|Website|(UPS XML  Only) The UPS URL that is used to track packages.|
 |Destination Type|Website|Sets the default shipment destination type. Options: Business / Residential|
 |Maximum Package Weight|Website|Sets the maximum weight that a package can be as specified by UPS. If the products ordered exceeds the maximum package weight, this shipping option is not available. According to [UPS.com](https://www.ups.com/), packages cannot exceed 150 lbs (70 kg) Check with your shipping carrier to verify the maximum  weight.|
