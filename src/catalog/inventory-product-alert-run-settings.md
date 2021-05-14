@@ -24,7 +24,7 @@ These settings enable you to select how often Magento checks for changes that re
 1. To determine the time of day product alerts are sent, set **Start Time** to the hour, minute, and second.
 
    {:.bs-callout-info}
-   The product alerts are sent by the consumer "product_alert".
+   Product alerts are sent by the "product_alert" consumer.
 
 1. For **Error Email Recipient**, enter the email of the person to be contacted if an error occurs.
 
