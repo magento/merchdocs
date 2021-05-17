@@ -27,13 +27,13 @@ URL with Web Server Rewrite
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-## Use canonical URLs
+## Canonical URLs
 
 It is imperative that each of your web pages only has one separate URL for SEO consolidation.
 
 If you have a single page accessible by multiple URLs, or different pages with similar content, Google sees these as duplicate versions of the same page. Google will choose one URL as the canonical version and crawl that, and all other URLs will be considered duplicate URLs and crawled less often.
 
-If you don't explicitly tell Google which URL is canonical, Google will make the choice for you, or might consider them both of equal weight, which might lead to unwanted behavior, run the risk of an ineffective crawl budget and low distributed backlinks.
+If you don't explicitly tell Google which URL is canonical, Google will make the choice for you, or might consider them both of equal weight. This might lead to unwanted behavior, run the risk of an ineffective crawl budget and low distributed backlinks.
 
 Depending on how you set up your website, there may be multiple versions of your site in Google's index, including:
 
