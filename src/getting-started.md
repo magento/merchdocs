@@ -8,8 +8,8 @@ sections:
     content: Review the information about Adobe Commerce releases and access detailed release documentation.
     url: /magento/about-this-release.html
 
-  - title: Your Adobe Account
-    content: Learn about your Adobe account and how you can access information about your Adobe products and services.
+  - title: Your Commerce Account
+    content: Learn about your Commerce account and how you can access information about your Commerce products and services.
     url: /magento/magento-account.html
 
   - title: Quick Tour

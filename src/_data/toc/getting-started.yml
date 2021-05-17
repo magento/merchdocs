@@ -11,7 +11,7 @@ pages:
       url: "/magento/prelaunch-checklist.html"
     - label: Your Login Credentials
       url: "/getting-started/login-credentials.html"
-- label: Your Adobe Account
+- label: Your Commerce Account
   url: "/magento/magento-account.html"
   children:
   - label: Creating an Account

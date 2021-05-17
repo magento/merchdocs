@@ -1,6 +1,6 @@
 # Adobe Merchant Documentation
 
-Welcome! This site contains the latest Adobe merchant documentation for ongoing Adobe 2.3.x releases. For additional information, see our [Contribution Guide](https://github.com/magento/merchdocs/blob/master/.github/CONTRIBUTING.md) and [Wiki](https://github.com/magento/merchdocs/wiki).
+Welcome! This site contains the latest Adobe Commerce merchant documentation for ongoing Adobe Commerce and Magento Open Source 2.4.x and 2.3.x releases. For additional information, see our [Contribution Guide](https://github.com/magento/merchdocs/blob/master/.github/CONTRIBUTING.md) and [Wiki](https://github.com/magento/merchdocs/wiki).
 
 ## Contribute
 
