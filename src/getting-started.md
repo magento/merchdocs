@@ -5,15 +5,15 @@ redirect_from:
   - /getting-started/introduction.html
 sections:
   - title: About This Release
-    content: Review the information about Magento releases and access detailed release documentation.
+    content: Review the information about Adobe Commerce releases and access detailed release documentation.
     url: /magento/about-this-release.html
 
-  - title: Your Magento Account
-    content: Learn about your Magento account and how you can access information about your Magento products and services.
+  - title: Your Adobe Account
+    content: Learn about your Adobe account and how you can access information about your Adobe products and services.
     url: /magento/magento-account.html
 
   - title: Quick Tour
-    content: Take a high-level tour of a Magento store.
+    content: Take a high-level tour of an Adobe Commerce store.
     url: /getting-started/quick-tour.html
 
   - title: Basic Configuration
@@ -45,7 +45,7 @@ Adobe offers two Magento editions to fit the requirements of your eCommerce busi
 
 ## Learn the Basics
 
-This section of the guide provides information for the “why, where, and how” questions that most merchants have when first learning to use Magento, as well as resources and reference information. It also functions as a springboard to more advanced topics.
+This section of the guide provides information for the “why, where, and how” questions that most merchants have when first learning to use Adobe Commerce, as well as resources and reference information. It also functions as a springboard to more advanced topics.
 
 If you have used this guide before, you can review [What’s New in the User Guide](https://docs.magento.com/user-guide/whats-new.html) for information about the latest additions and updates to the guide.
 
