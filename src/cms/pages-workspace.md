@@ -51,6 +51,8 @@ _Pages grid_
 |Modified|The date the page was last modified.|
 |Action|The actions that can be applied to an individual record include:<br/>**Edit** - Opens the page in edit mode.<br/>**Delete** - Deletes the page.<br/>**View** - Displays the page in preview mode.  |
 
+To see more other columns, expand the **Columns** and check the required:
+
 ## Other columns
 
 |Column|Description|
