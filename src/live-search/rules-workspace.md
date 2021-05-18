@@ -18,11 +18,12 @@ The rules workspace lists the current selection of rules and their status, and p
 
 ## Set the scope
 
-If your Adobe Commerce installation includes multiple stores or store views, set **Scope** to the [store view]({% link configuration/scope.md %}) where your rules apply.
+If your Adobe Commerce installation includes multiple store views, set **Scope** to the [store view]({% link configuration/scope.md %}) where your rules apply.
 
 ## Show/hide columns
+[Column selector]({% link live-search/assets/btn-show-hide-columns.png %})
 
-1. In the upper-right corner, click **Show/hide** ( ![Show/hide columns button]{% link live-search/assets/btn-show-hide-columns.png %})) columns.
+1. In the upper-right corner, click **Show/hide** (![Columns selector]({% link live-search/assets/btn-show-hide-columns.png %})) columns.
 
    The visible columns have a blue check mark in the options menu. The rule name is the only column that cannot be hidden.
 
@@ -98,11 +99,11 @@ The details panel shows the rule name, status, conditions and events, start and 
 {: .fields-table }
 |Control |Description |
 |--- |--- |
-|Add rule | Opens the [rule]({% link live-search/rules-add.md %} editor.|
+|Add rule | Opens the [rule]({% link live-search/rules-add.md %}) editor.|
 |Status |Filters the list of rules by status. Options: All, Active, Inactive, Scheduled |
 |![Column selector]({% link live-search/assets/btn-show-hide-columns.png %})|Specifies the columns that visible in the grid. Options: Last updated, Start date, End date, Status |
 |Search |Searches for a rule by full name or partial match. |
-|...|Displays more actions that can be applied to the selected rule. Options: Edit, View details, Delete |
+|![More selector]({% link live-search/assets/btn-more.png %})|Displays a menu of more actions that can be applied to the selected rule. Options: Edit, View details, Delete |
 
 ## Rule Details
 
