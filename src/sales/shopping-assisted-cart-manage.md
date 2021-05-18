@@ -8,6 +8,21 @@ To begin an assisted shopping session, the customer must be logged into their ac
 ![]({% link images/images-ee/customer-account-manage-cart-items.png %}){: .zoom}
 _Shopping Cart in in the customer account_
 
+### Actions control
+
+|Option|Description|
+|--- |--- |
+|Remove|Removes items from the current shopping cart|
+|Move to Wish List|Moves items to the selected customer wishlist|
+
+### Control buttons
+
+|Option|Description|
+|--- |--- |
+|Clear my shopping cart|Clears the current shopping cart from all products|
+|Update Items and Quantities|Enter the required quantity in the **Qty** field and update the number of items in the cart|
+|Add selections to my cart|Adds products from all sections to the cart|
+
 ## Verify that the customer is logged in
 
 1. On the _Admin_ sidebar, go to **Customers** > **Now Online**.
