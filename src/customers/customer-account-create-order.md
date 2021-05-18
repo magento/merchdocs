@@ -90,7 +90,7 @@ Items can be transferred to the cart from a customer wish list, as well as recen
 1. Complete the following sections as needed for the order:
 
    - Order Currency
-   - Apply Coupon Codes /  Gift Card Code
+   - Apply Coupon Codes / Gift Card Code
    - Payment Method
    - Shipping Method
    - Order Comments
