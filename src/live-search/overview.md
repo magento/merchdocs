@@ -13,7 +13,7 @@ sections:
     url: /live-search/workspace.html
 
   - title: Facets
-    content: Use multiple dimensions of static and dynamic attribute values as a high-performance search filters.
+    content: Use multiple dimensions of attribute values as high-performance search filters.
     url: /live-search/facets.html
 
   - title: Synonyms
