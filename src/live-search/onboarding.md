@@ -17,7 +17,7 @@ To synchronize the catalog and trigger indexation, go to Live Search and complet
 
 1. In the Admin, go to **Marketing** > SEO & Search > **Live Search**.
 1. To complete a simple configuration action, click the **Facets** tab.
-1. Under _Dynamic Facets_, click the gray pushpin of any facet to move it to the _Pinned Facets_ list.
+1. Under _Dynamic Facets_, click the **gray pushpin** (![Pin selector]({% link live-search/assets/btn-pin-gray.png %})) of any facet to move it to the _Pinned Facets_ list.
 
    This simple action causes the product catalog to be synchronized with the Live Search service and triggers indexation.
 
