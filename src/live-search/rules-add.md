@@ -28,7 +28,7 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
 
 1. Under _Build your rule_, select the **Condition** to be met, and follow the instructions to complete the statement.
 
-   - Search query contains - Enter the string of text that must be in the shopper’s query. The Match setting determines the degree to which the shopper’s query matches the catalog. Options:<br /> Any - Any part of the customer's query text can match the condition.<br />All - All of the shopper's query must match the condition.
+   - Search query contains - Enter the string of text that must be in the shopper’s query. The Match setting determines the degree to which the shopper’s query matches the catalog. Options:<br /> Any - Any part of the shopper's query text can match the condition.<br />All - All of the shopper's query must match the condition.
    - Search query is - Enter a string of text that exactly matches the shopper’s query. For example: "yoga pants". Rules with `Search query is` and Match `All` can have only one condition.
    - Search query starts with - Enter a character or string of text that must be at the beginning of the shopper’s query.
    - Search query ends with - Enter a character or string of text that must be at the end of the shopper’s query.
@@ -47,11 +47,11 @@ Condition(s) are the requirements to trigger an event. A rule can have up to ten
 
 ### Multiple conditions
 
-A rule can have up to ten conditions.
+A rule can have up to 10 conditions.
 
 1. To build a rule with multiple conditions, click <span class="btn">Add condition</span>.
 
-   The logical operator that joins the two conditions is based on the current Match setting.  By default, Match is set to "All" and the logical operator is "AND".
+   The logical operator that joins the two conditions is based on the current Match setting. By default, Match is set to `All` and the logical operator is `AND`.
 
    ![Rules - Search query contains]({% link live-search/assets/rules-search-query-contains-and.png %}){: .zoom}
    _Search query contains with Match All_
@@ -67,7 +67,7 @@ A rule can have up to ten conditions.
 
 1. To change the logic of the rule, set **Match** to one of the following:
 
-   - Any - Default) All logical operators in the rule are set to `OR` and the results appear in the test pane.
+   - Any - (Default) All logical operators in the rule are set to `OR` and the results appear in the test pane.
    - All - All logical operators in the rule are set to `AND` and the results appear in the test pane.
 
    The results of your search query appear in the test pane.
@@ -119,7 +119,7 @@ The rule is added to the list in the rules workspace. Although active rules go i
 {: .fields-table }
 |Condition |Description |
 |--- |--- |
-|Search query contains |A character or string of text that is included in the shopper’s query. The shopper’s query must match only a single character to meet this condition. |
+|Search query contains |A character or string of text that is included in the shopper’s query. The shopper’s query needs to match only a single character to meet this condition. |
 |Search query is |A character or string of text that exactly matches the shopper’s query. Complex queries with multiple conditions cannot be composed when this condition is used. |
 |Search query starts with |The shopper’s query begins with this character or string of text. |
 |Search query ends with |The shopper’s query ends with this character or string of text. |
