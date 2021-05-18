@@ -5,8 +5,7 @@ tag: live-search
 group: marketing
 ---
 
-There are two distinct types of facets: Pinned and Dynamic. In addition, there are several characteristics that affect their presentation and behavior. You can specify which attributes you want to be returned. At query time, Live Search generates the search results organized into two groups of facets: 
-Intelligent and Popular facets.
+There are two distinct types of facets: Pinned and Dynamic. In addition, there are several characteristics that affect their presentation and behavior. You can specify which attributes you want to be returned. At query time, Live Search generates the search results organized into two groups of facets: Intelligent and Popular facets.
 
 ### Pinned
 

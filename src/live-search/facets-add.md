@@ -31,7 +31,7 @@ _Add facet_
 
 1. When prompted, refresh the cache.
 
-   The facet becomes available in the storefront the next time the catalog is synchronized with Live Search. Depending on the [index mode]({% link system/index-management.md %}) that is set for the _Product Attributes Feed_, it can take some time for the updated attribute to appear in the list of available facets. 
+   The facet becomes available in the storefront the next time the catalog is synchronized with Live Search. Depending on the [index mode]({% link system/index-management.md %}) that is set for the _Product Attributes Feed_, it can take some time for the updated attribute to appear in the list of available facets.
 
    If the facet isn't available after two hours, see [Troubleshooting Catalog Sync](https://devdocs-beta.magento.com/live-search/config-connect.html) in the developer documentation.
 
