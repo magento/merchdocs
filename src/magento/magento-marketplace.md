@@ -67,7 +67,7 @@ For support issues related to Magento Marketplace, see the [Marketplace Help Cen
 
 [1]: https://marketplace.magento.com/
 [2]: https://www.paypal.com/us/home
-[3]: https://devdocs.magento.com/marketplace/sellers/extension-quality-program.html
+[3]: {{ site.devdocs_url }}/marketplace/sellers/extension-quality-program.html
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
 [5]: https://marketplacesupport.magento.com/hc/en-us
 [6]: https://magento.com/

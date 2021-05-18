@@ -72,6 +72,6 @@ You can now restore either the original (default) restrictions.
 |Store View|The store view where the site map applies.|
 |Generate|Regenerates the site map.|
 
-[1]: https://devdocs.magento.com/cloud/trouble/robots-sitemap.html
+[1]: {{ site.devdocs_url }}/cloud/trouble/robots-sitemap.html
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
 [3]: http://www.bing.com/webmaster/help/how-to-submit-sitemaps-82a15bd4

@@ -23,4 +23,4 @@ See the following pages for more information about non-configuration setting typ
 - [Template Path Hint]({% link system/template-path-hints.md %})
 - {:.ee-only}[Developer Client Restrictions]({% link system/developer-client-restrictions.md %})
 
-The Magento mode can be changed only from the command line of the server by a user with appropriate permissions. See [Set the Magento Mode](http://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) in our developer documentation for more information.
+The Magento mode can be changed only from the command line of the server by a user with appropriate permissions. See [Set the Magento Mode](http://devdocs.magento.com/guides/v{{ site.version }}/config-guide/cli/config-cli-subcommands-mode.html) in our developer documentation for more information.
