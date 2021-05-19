@@ -12,6 +12,14 @@ _My Quotes_
 
 The buyer begins the process by [submitting a request]({% link sales/quote-request.md %}) for a quote from the shopping cart. Email is exchanged between the buyer and seller during the [negotiation process]({% link sales/quote-price-negotiation.md %}). For the buyer, the My Quotes page is the focal point for all communication between buyer and seller during the negotiation process. A buyer who accepts the negotiated price offered by the seller can proceed directly to checkout from the quote. Additional discounts cannot be added to the negotiated quote.
 
+## Show Quotes
+
+1. Log in as a company admin user to the storefront.
+
+1. The **Show My Quotes** button is displayed only for the company admin user, by clicking on it he can see all the quotes that he created. 
+
+1. The see all the quotes of other company users, click **Show All Quotes**.
+
 ## View a quote
 
 1. Log in to your account.
