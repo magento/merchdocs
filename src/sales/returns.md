@@ -13,6 +13,19 @@ _Returns grid_
 
 RMAs can be issued for simple, grouped, configurable, and bundle product types. However, RMAs are not available for virtual products, downloadable products, and gift cards.
 
+### Column descriptions
+
+|Column|Description|
+|--- |--- |
+|Select|Select the checkbox to select the return(s) to be subject to an action, or use the selection control in the column header. Options: Select All / Deselect All / Select Visible / Unselect Visible|
+|RMA|A unique numeric identifier that is assigned to each return|
+|Requested|Date and time the return was placed|
+|Order|A unique number of the original order|
+|Ordered|The date and time the order was placed|
+|Customer|The name of the customer or buyer who placed the order|
+|Status|[Return status]({% link sales/rma-lifecycle.md %}). Options: Pending / Authorized / Partially Authorized / Approved / Rejected / Processed and Closed / Closed|
+|Action|View opens the return in edit mode|
+
 ## Create a return request
 
 1. On the _Admin_ sidebar, go to **Sales** > **Returns**.
