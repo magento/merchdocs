@@ -34,3 +34,21 @@ If needed, clear the **Use system value** checkbox for each setting you want to 
 1. In the **Top Destinations** list, select the primary countries that you target for sales.
 
 1. When complete, click <span class="btn">Save Config</span>.
+
+## Set the country options for specific delivery method
+
+You can further configure shipping to specific countries for each available [delivery method]({% link /shipping/delivery.md%}) (UPS, FedEx, etc.)
+
+1. On the _Admin_ sidebar, go to **Stores** > **Settings** > **Configuration**> **Sales** > **Delivery Methods**.
+
+1. Select the shipping carrier to which you want to apply specific countries.
+
+1. In the **Ship to Applicable Countries** uncheck the **Use system value** checkbox and select **Specific Countries** option.
+
+1. In the **Top Destinations** list, select the primary countries that you target for shipping.
+
+1. When complete, click <span class="btn">Save Config</span>.
+
+![]({% link images/images/country-options-for-specific-delivery-method.png %}){: .zoom}
+[_Country Options_]({% link configuration/general/general.md %})
+_Example of setting the country options for DNL delivery method_
