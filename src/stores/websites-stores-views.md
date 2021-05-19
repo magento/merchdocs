@@ -15,4 +15,4 @@ Every Magento installation has a [hierarchy]({% link stores/stores-all-stores.md
 :  Each store that is available to customers is presented according to a specific _view_. Initially, a store has a single default view. Additional store views can be added to support different languages, or for other purposes. Customers can use the language chooser in the header to change the store view.
 
 {:.bs-callout-info}
-To learn more, see [Multiple websites or stores ](https://devdocs.magento.com/guides/v2.3/config-guide/multi-site/ms_over.html) in the Magento developer documentation.
+To learn more, see [Multiple websites or stores ]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/multi-site/ms_over.html) in the Magento developer documentation.

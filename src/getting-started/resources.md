@@ -17,7 +17,7 @@ Magento provides a wealth of business and technical resources, self-help tools, 
 {: .name-table }
 
 [1]: https://magento.com/technical-resources
-[2]: http://devdocs.magento.com/
+[2]: {{ site.devdocs_url }}/
 [3]: https://magento.com/resources
 [4]: http://magento.com/security
 [5]: https://magento.com/security/best-practices/security-best-practices
