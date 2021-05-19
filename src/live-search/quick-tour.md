@@ -30,10 +30,10 @@ When shoppers click View all items, there is no need to navigate through pages o
 
 The Filters list in the left sidebar lists the available values derived from the current set of returned products. Filtered search uses multiple dimensions of static and dynamic attribute values, or facets, as search criteria. The selection of filters changes according to the products returned.
 
-Price buckets group products by price range and make it easy to shop by price. Unlike price navigation, each price range of each bucket overlaps the previous bucket by one dollar to smooth the transition between price buckets.
+Product prices are grouped into price ranges that make it easy to shop by price. Unlike price navigation, each price range overlaps the next by one dollar to smooth the transition from one range to the next.
 
 ![Example storefront - filters]({% link live-search/assets/storefront-filters.png %}){: .zoom}
-_Price Buckets_
+_Price Ranges_
 
 ### Enhanced category browse
 

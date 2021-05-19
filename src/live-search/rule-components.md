@@ -29,7 +29,7 @@ The logical operators `AND` and `OR` join two conditions and return different re
 
 The Match operators `All` and `Any` determine the logical operator that is used to join multiple conditions in the rule, and can be used to change the existing operator.
 
-- `All` - Uses the `AND` logical operator to join multiple conditions. A rule that uses the `All` Match operator can have only one `query is` condition.
+- `All` - Uses the `AND` logical operator to join multiple conditions. A rule that uses the `All` Match operator can have only one `Search query is` condition.
 - `Any` - Uses the `OR` logical operator to join multiple conditions.
 
 When composing a complex rule, it can help to write it out with indentation to describe the conditions, associated events, and product names or SKUs that are needed to return the results you want to achieve. Then, build the rule and test the result.

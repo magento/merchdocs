@@ -14,21 +14,17 @@ _Filtered search results_
 
 ## Faceting requirements
 
-The category and product attribute requirements for faceting are similar to layered navigation filterable attributes. The storefront properties of each attribute must be both searchable and filterable with results.
-
-Setting the "Use in Search" attribute property to "Yes" makes the attribute searchable in both Live Search and in native Adobe Commerce.
-
-To learn more about how Live Search synchronizes and shares catalog data, see [Configure and Connect](https://devdocs-beta.magento.com/live-search/config-connect.html) in the Adobe Commerce developer documentation.
+The category and product attribute requirements for faceting are similar to the filterable attributes used for layered navigation. The storefront properties of each attribute must be set to `filterable (with results)`.
 
 |Setting |Description|
 |--- |--- |
 |[Category display settings]({% link catalog/categories-display-settings.md %}) |Anchor - `Yes` |
 |[Attribute properties]({% link stores/attribute-product-create.md %}) |[Catalog Input type]({% link stores/attributes-input-types.md %}) - `Yes/No`, `Dropdown`, `Multiple Select`, `Price` |
-|Attribute storefront properties |Use in Search - `Yes`<br />Use in Layered Navigation - `Filterable (with results)`<br />Use in Search Results Layered Navigation - `Yes` |
+|Attribute storefront properties |Use in Layered Navigation - `Filterable (with results)`|
 
 ## Default Non-System Attribute Properties
 
-The following table shows the default search and filterable properties of non-system attributes, including those that are specific to the Luma sample data.
+The following table shows the default search and filterable properties of non-system attributes, including those that are specific to the Luma sample data. Setting the _Use in Search_ attribute property to `Yes` makes the attribute searchable in both Live Search and native Adobe Commerce.
 
 |Attribute Code | Searchable | Use in Layered Navigation |
 |--- |--- |--- |
