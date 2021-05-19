@@ -50,5 +50,4 @@ You can further configure shipping to specific countries for each available [del
 1. When complete, click <span class="btn">Save Config</span>.
 
 ![]({% link images/images/country-options-for-specific-delivery-method.png %}){: .zoom}
-[_Country Options_]({% link configuration/general/general.md %})
 _Example of setting the country options for DNL delivery method_
