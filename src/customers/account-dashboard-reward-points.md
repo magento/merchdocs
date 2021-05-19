@@ -12,7 +12,7 @@ The [Reward Points]({% link marketing/rewards-loyalty.md %}) section of the cust
 
 The rewards points balance can be updated from the admin panel.
 
-1. On the _Admin_ sidebar, go to **Customers** > _All Customers_ 
+1. On the _Admin_ sidebar, go to **Customers** > _All Customers_.
 
 1. Find the customer in the grid and click **Edit** in the _Action_ column.
 
