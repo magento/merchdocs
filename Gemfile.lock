@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/magento-devdocs/devdocs-theme.git
-  revision: b53a33bc95e49cdd2e813962cb3663740c592592
+  revision: 10f76fdad8c0b1829ab780a8f90424ae7eb07fc5
   branch: cleanup
   specs:
-    devdocs (14)
+    devdocs (15)
       jekyll (>= 4.0)
 
 GEM
@@ -121,7 +121,7 @@ GEM
       chef-utils
     multipart-post (2.1.1)
     netrc (0.11.0)
-    nokogiri (1.11.4-x86_64-darwin)
+    nokogiri (1.11.5-x86_64-darwin)
       racc (~> 1.4)
     nokogumbo (2.0.5)
       nokogiri (~> 1.8, >= 1.8.4)

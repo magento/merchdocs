@@ -154,3 +154,14 @@ plugins:
 
 livereload: true
 check_links: true
+
+# kramdown parser settings (extended Markdown to HTML parser). For more details about available options, refer to https://kramdown.gettalong.org/converter/html.html
+#
+kramdown:
+  toc_levels: 2..3
+  syntax_highlighter_opts:
+    css_class: highlighter
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
