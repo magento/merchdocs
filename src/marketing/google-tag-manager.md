@@ -77,12 +77,8 @@ For additional information, see Google's [Container export and import][5]. These
 1. Select one of the following actions to import the file:
 
     - The **Overwrite** option should be selected for the new container.
-<<<<<<< HEAD
 
-    - The **Merge** option should be selected if you are using an existing container.
-=======
-    - The **Merge** option should be selected is you are using an existing container.
->>>>>>> 4abb1fbc (no message)
+    - The Merge option should be selected is you are using an existing container.
 
 1. Click **Preview** to review the tags, triggers, and variables.
 
