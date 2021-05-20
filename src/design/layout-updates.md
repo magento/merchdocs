@@ -34,4 +34,4 @@ _Standard block layout diagram_
 |core/text_list|This type of block is widely used throughout Magento as a placeholder for rendering children blocks.|
 |core/profiler|There is only one instance of this type of block per page. It is used for the internal Magento profiler and should not be used for any other purpose.|
 
-[1]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/layouts/layout-overview.html
+[1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/frontend-dev-guide/layouts/layout-overview.html

@@ -221,6 +221,8 @@ pages:
   - label: Online Payment Methods
     url: "/payment/online-payment-methods.html"
     children:
+    - label: Braintree
+      url: "/payment/braintree.html"
     - label: Klarna
       url: "/payment/klarna.html"
       children:

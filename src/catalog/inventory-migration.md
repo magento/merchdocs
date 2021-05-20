@@ -62,4 +62,4 @@ For complete details, see the DevDocs [Manage Inventory Management modules][3].
 
 [1]: https://omsdocs.magento.com/
 [2]: https://omsdocs.magento.com/en/getting-started/feature-list/
-[3]: https://devdocs.magento.com/extensions/inventory-management/
+[3]: {{ site.devdocs_url }}/extensions/inventory-management/

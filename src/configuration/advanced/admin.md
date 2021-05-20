@@ -11,9 +11,9 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Forgot Password Email Template|Global|Identifies the email template that is used for the message that is sent when an Admin user(s) forget their passwords. Default template: Forgot Admin Password|
-|Forgot and Reset Email Sender|Global|Identifies the store contact that appears as the sender of the Forgot Password email. Default sender: General Contact|
-|User Notification Template|Global|Determines the email template that is used as the default for admin notifications.|
+|Forgot Password Email Template|Global|Identifies the email template that is used for the message that is sent when an Admin user forgets their password. Default template: Forgot Admin Password.|
+|Forgot and Reset Email Sender|Global|Identifies the store contact that appears as the sender of the Forgot Password email. Default sender: General Contact.<br/>Other sender options: Sales Representative, Customer Support, Custom Email.|
+|User Notification Template|Global|Determines the email template that is used as the default for Admin notifications. Default template: User Notification.|
 
 ## Startup Page
 
@@ -23,6 +23,48 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Startup Page|Global|Determines the Admin landing page that appears after you log in.|
+
+### Startup Page options
+
+|--- |--- |--- |
+|[Dashboard]({% link stores/admin-dashboard.md %})|||
+|[Sales]({% link sales.md %})|[Operations]({% link sales/order-management.md %})||
+||<span class="b2b-only">[Quotes]({% link sales/quotes.md %})</span><br/>[Orders]({% link sales/orders.md %})<br/>[Invoices]({% link sales/invoices.md %})<br/>[Shipments]({% link sales/shipments.md %})<br/>[Credit Memos]({% link sales/credit-memos.md %})<br/>[Billing Agreements]({% link sales/billing-agreements.md %})<br/><span class="ee-only">[Returns]({% link sales/returns.md %})</span><br/>[Transactions]({% link sales/transactions.md %})<br/>Braintree Virtual Terminal|
+|[Catalog]({% link catalog/catalog-menu.md %})|||
+||[Inventory]({% link catalog/products.md %})|Products<br/>Categories<br/>Shared Catalog|
+|[Customers]({% link customers.md %}) | [All Customers]({% link customers/customers-all.md %})<br/>[Now Online]({% link customers/now-online.md %})<br/>[Customer Groups]({% link customers/customer-groups.md %})<br/><span class="ee-only">[Segments]({% link marketing/customer-segments.md %})</span><br/><span class="b2b-only">[Companies]({% link customers/account-companies.md %})</span>||
+|[Marketing]({% link marketing.md %})|[Promotions]({% link marketing/promotions.md %})|[Catalog Price Rule]({% link marketing/price-rules-catalog.md %}) <br/>[Cart Price Rules]({% link marketing/price-rules-cart.md %}) <br/><span class="ee-only">[Related Products Rules]({% link marketing/product-related-rules.md %})</span><br/><span class="ee-only">[Gift Card Accounts]({% link catalog/product-gift-card-accounts.md %})</span>
+||<span class="ee-only">[Private Sales]({% link marketing/events-private-sales.md %})</span>|[Events]({% link marketing/event-components.md %}) <br/>[Invitations]({% link marketing/invitations.md %})|
+||[Communications]({% link marketing/communications.md %})|[Email Templates]({% link marketing/email-templates.md %}) <br/>[Newsletter Template]({% link marketing/newsletter-template.md %}) <br/>[Newsletter Queue]({% link marketing/newsletter-queue.md %}) <br/>[Newsletter Subscribers]({% link marketing/newsletter-subscribers.md %}) <br/><span class="ee-only">[Email Reminders]({% link marketing/email-reminder-rules.md %})</span>|
+||[SEO & Search]({% link marketing/seo-search.md %})|[Search Terms]({% link marketing/search-terms.md %}) <br/><span class="ee-only">[Search Synonyms]({% link marketing/search-synonyms.md %})</span><br/>[URL Rewrites]({% link marketing/url-rewrite.md %}) <br/>[Site Map]({% link marketing/sitemap-xml.md %})|
+||[User Content]({% link catalog/settings-advanced-product-reviews.md %}) | [All Reviews]({% link catalog/settings-advanced-product-reviews.md %}) <br/>[Pending Reviews]({% link marketing/magento-product-reviews-moderate.md %}) <br/>[Yotpo Reviews]({% link marketing/yotpo-reviews-intro.md %})||
+||Customer Engagement|[dotdigital Engagement Cloud]({% link marketing/dotdigital/engagement-cloud.md %})<br/>[dotdigital Chat]({% link marketing/dotdigital/chat.md %})<br/>[Exclusion Rules]({% link marketing/dotdigital/exclusion-rules.md %})|
+|[Content]({% link content.md %}) | [Elements]({% link cms/content-elements.md %}) | [Pages]({% link cms/pages.md %})<br/><span class="ee-only">[Hierarchy]({% link cms/page-hierarchy.md %})</span><br/>[Blocks]({% link cms/blocks.md %})<br/><span class="ee-only">[Dynamic Blocks]({% link cms/dynamic-blocks.md %})</span><br/>[Widgets]({% link cms/widgets.md %})<br/>[Media Gallery]({% link cms/media-storage.md %})||
+||[Design]({% link design/design-theme.md %}) | [Configuration]({% link design/configuration.md %})<br/>[Themes]({% link design/themes.md %})<br/>[Schedule]({% link design/schedule.md %})||
+||<span class="ee-only">[Content Staging]({% link cms/content-staging.md %})</span><br />
+|[Reports]({% link reports.md %}) | [Marketing]({% link reports/marketing-reports.md %})|Products in Cart<br />Search Terms<br />Abandoned Carts<br />Newsletter Problem Reports||
+||[Reviews]({% link reports/review-reports.md %})|By Customer<br />By Products<br />Yotpo Reviews|
+||[Sales]({% link reports/sales-reports.md %})||
+||<span class="ee-only">System Insights|[Site-Wide Analysis Tool]({% link reports/site-wide-analysis-tool.md %})|
+||[Customers]({% link reports/customer-reports.md %})| Order Total<br/>Order Count<br/>New<br/>Wish Lists<br/>Segments<br/>|
+||[Products]({% link reports/product-reports.md %})|Views<br/>Bestsellers<br/>Low Stock<br/>Ordered<br/>Downloads|
+||<span class="ee-only">[Private Sales]({% link marketing/events-private-sales.md %})|Invitations<br/>Invited Customers<br/>Conversions|
+||[Statistics]({% link reports/statistics.md %})|Refresh Statistics|
+||[Business Intelligence]({% link reports/business-intelligence.md %})|Advanced Reporting<br/>BI Essentials<br/>Yotpo Analytics|
+|[Stores]({% link stores/stores.md %}) | [Settings]({% link stores/stores-menu.md %}) | [All Stores]({% link stores/stores-all-stores.md %})<br/>[Configuration]({% link stores/configuration-overview.md %})<br/>[Terms and Conditions]({% link sales/terms-and-conditions.md %})<br/>[Order Status]({% link sales/order-status.md %})||
+||[Inventory]({% link configuration/catalog/inventory.md %})|[Sources]({% link catalog/sources.md %})<br/>Stocks||
+||[Taxes]({% link tax/taxes.md %})|[Tax Rules]({% link tax/tax-rules.md %})<br/>[Tax Zones and Rates]({% link tax/tax-zones-rates.md %})|
+||[Currency]({% link stores/currency.md %})|[Currency Rates]({% link stores/currency-configuration.md %})<br/>[Currency Symbols]({% link stores/currency-symbols.md %})||
+||[Attributes]({% link stores/attributes.md %})|[Product]({% link stores/attributes-product.md %})<br/>[Update Attributes]({% link stores/attribute-product-create.md %})<br/>[Attribute Set]({% link stores/attribute-sets.md %})<br/>[Ratings]({% link stores/attributes-rating.md %})|
+||Other Settings|[Reward Exchange Rates]({% link marketing/reward-exchange-rates.md %})<br/>[Gift Wrapping]({% link sales/gift-wrap.md %})<br/>[Gift Registry]({% link customers/account-dashboard-gift-registry.md %})|
+|[System]({% link system/system.md %}) | [Data Transfer]({% link system/data-transfer.md %}) | [Import]({% link system/data-import.md %})<br/>[Export]({% link system/data-export.md %})<br/>[Import/Export Tax Rates]({% link system/data-transfer-tax-rates.md %})<br/>[Import History]({% link system/data-import-history.md %})<br/>[Scheduled Import/Export]({% link system/data-scheduled-import-export.md %})||
+||Extensions|[Integrations]({% link system/integrations.md %})|
+||[Tools]({% link system/tools.md %}) | [Cache Management]({% link system/cache-management.md %})<br/>[Index Management]({% link system/index-management.md %})||
+||[Support]({% link system/support.md %})|[Data Collector]({% link system/support-data-collector.md %})<br/>[System Report]({% link system/support-system-report.md %})|
+||[Permissions]({% link system/permissions.md %}) | [All Users]({% link system/permissions-users-all.md %})<br/>[Locked Users]({% link system/permissions-locked-users.md %})<br/>[User Roles]({% link system/permissions-user-roles.md %})|
+|<span class="ee-only">[Action Log]({% link system/action-log.md %})</span>| [Report]({% link system/action-log.md %})<br/>[Archive]({% link system/action-log-archive.md %})<br/>[Bulk Actions]({% link system/action-log-bulk-actions.md %})|
+||Other Settings|[Notifications]({% link stores/admin-message-inbox.md %})<br/>[Custom Variables]({% link marketing/variables-custom.md %})<br/>[Manage Encryption Key]({% link system/encryption-key.md %})||
+|Find Partners & Extensions|||
 
 ## Admin Base URL
 

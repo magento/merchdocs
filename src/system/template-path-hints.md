@@ -46,4 +46,4 @@ Before using template path hints, add your IP address to the [allow list]({% li
 
 1. In the upper-right corner, click **Flush Magento Cache**.
 
-[1]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/themes/debug-theme.html
+[1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/frontend-dev-guide/themes/debug-theme.html

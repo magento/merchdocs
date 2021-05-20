@@ -165,3 +165,6 @@ kramdown:
       line_numbers: false
     block:
       line_numbers: true
+
+devdocs_url: https://devdocs.magento.com
+
