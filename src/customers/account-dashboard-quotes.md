@@ -16,9 +16,9 @@ The buyer begins the process by [submitting a request]({% link sales/quote-reque
 
 1. Log in as a company admin user to the storefront.
 
-1. The **Show My Quotes** button is displayed only for the company admin user, by clicking on it he can see all the quotes that he created.
+1. The **Show My Quotes** button is displayed only for the company admin user. By clicking on it, the user can see all the quotes that they have created.
 
-1. The see all the quotes of other company users, click **Show All Quotes**.
+To see all the quotes of other company users, click **Show All Quotes**.
 
 ## View a quote
 
