@@ -63,17 +63,16 @@ _Shopping Cart in in the customer account_
    ![]({% link images/images-ee/customer-account-manage-cart-update-cart.png %}){: .zoom}
    _Cart Updated_
 
-### Add a configurable product
+### Add a product with configuration
+
+There are 4 types of products that need to be configured before adding to the cart: `Bundle Product`, `Configurable Product`, `Grouped Product`.
 
 1. In the grid, click **Configure** next to the product name.
 
    ![]({% link images/images-ee/customer-account-manage-cart-order-configurable-product.png %}){: .zoom}
    _Configure_
 
-1. In the _Associated Products_ dialog, choose each product option to describe the item to be ordered, enter the **Quantity**, and click <span class="btn">OK<span/>.
-
-   ![]({% link images/images-ee/customer-account-manage-cart-order-configurable-product-associated.png %}){: .zoom}
-   _Choose product options_
+1. In the _Associated Products_ dialog, choose each product option to describe the item to be ordered, enter the **Quantity**, and click <span class="btn">OK</span>.
 
    The product is selected with a checkmark and the quantity ordered appears in the grid.
 
@@ -154,7 +153,7 @@ Items can be transferred to the cart from a customer wish list, as well as recen
 
 ## Create the order
 
-1. Click <span class="btn">Create Order<span/>.
+1. Click <span class="btn">Create Order</span>.
 
    The _Create New Order_ page shows the items in the cart, followed by the shipping and payment information.
 
