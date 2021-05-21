@@ -18,21 +18,21 @@ redirect_from:
 
 - {:.fix}Features
 
-   - Transactional SMS notifications: a new module that automates SMS notifications on new order confirmation, order update, new shipment, shipment update and new credit memo.
+   - Global Account Sharing: our latest modules support merchants running Magento with **Stores > Configuration > Customers > Customer Configuration > Account Sharing Options > Share Customer Accounts** set to 'Global'.
 
-   - Flexible image sizes: a new feature that enables merchants to choose which image size they prefer to use for different contexts in dotdigital Engagement Cloud.
+   - Transactional SMS from name: SMS can now be sent from a custom from name.
 
-   - PageBuilder support: dotdigital pages and forms can be embedded in any storefront page.
-
-   - Diagnostic alerts: available through in-app system messages and email notifications.
+   - PWA Support: our bundle now ships with new modules offering GraphQL support, and fixes for URLs in insight data. (Also check out our [PWA Toolkit][7]).
 
 - {:.fix}Enhancements
 
-   - Safari iframe login issues resolved for button links in dotdigital > Chat Settings.
+   - Product prices in cart, catalog and web insight data now have separate figures that include tax.
 
-   - Abandoned cart block is visible in EasyEditor before customer data is received.
+   - ‘Leave a review’ links in the Reviews EDC can now link to product pages instead of review pages.
 
-   - 25% performance improvement for batch catalog sync processes of configurable products.
+   - We’ve updated the handling of coupon codes to enable recurring campaigns better.
+
+  - We’ve updated the default list of IP addresses for **Developer > Dynamic Pages IP Restriction**.
 
 [1]: https://dotdigital.com/
 [2]: https://support.dotdigital.com/hc/en-gb/articles/115001930050-Email-campaigns-an-overview
@@ -40,3 +40,4 @@ redirect_from:
 [4]: https://support.dotdigital.com/hc/en-gb/articles/212213938-Using-decisions-to-branch-automated-programs
 [5]: https://support.dotdigital.com/hc/en-gb/articles/212213998-Automated-and-triggered-campaigns-an-overview
 [6]: https://support.dotdigital.com/hc/en-gb/articles/212213998-Automated-and-triggered-campaigns-an-overview
+[7]: https://github.com/dotmailer/ec-magento-pwa-toolkit
