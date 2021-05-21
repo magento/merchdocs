@@ -1,5 +1,5 @@
 ---
-title: Magento Extensions
+title: Extensions
 ---
 
 This section provides installation instructions and information for extensions developed and released by Magento. Many of these extensions are developed through Magento Community contributions.

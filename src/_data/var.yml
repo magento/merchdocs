@@ -14,12 +14,12 @@
 # Product Name variables
 
 ce: Magento Open Source
-ee: Magento Commerce
-b2b: Magento Commerce for B2B
-mbi: Magento Business Intelligence
+ee: Adobe Commerce
+b2b: B2B for Adobe Commerce
+mbi: Adobe Commerce Reporting
 
 # Cloud product name variables
-ece: Magento Commerce Cloud
+ece: Adobe Commerce for Cloud
 ct: ece-tools
 
 # TIP: Use the following syntax to use a variable in the documentation source: {{site.data.var.xx}} where xx

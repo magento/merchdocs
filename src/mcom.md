@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: Magento Commerce Order Management (MCOM)
+title: Order Management for Adobe Commerce
 group: operations
 sections:
   - title: Manage Stock Aggregates
@@ -20,6 +20,6 @@ sections:
     url: /mcom/changelog.html
 ---
 
-Learn how to manage your stock aggregates and the MCOM integration, available if you use the Order Management System (OMS) Connector with Magento Commerce, as well as view both the message log and changelog.
+Learn how to manage your stock aggregates and the Order Management integration, available if you use the Order Management System (OMS) Connector with Adobe Commerce, as well as view both the message log and changelog.
 
 {% include grid.html sections=page.sections%}
