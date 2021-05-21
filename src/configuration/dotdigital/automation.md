@@ -4,7 +4,7 @@ redirect_from:
   - /configuration/engagement-cloud/automation.html
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdigital]({% link configuration/dotdigital.md %}) > Automation
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdigital]({% link configuration/dotdigital.md %}) > Automation
 
 ## Visitor Action Automation Enrolment
 
@@ -50,7 +50,8 @@ _Review Settings_
 |Order Status|Website|Determines the order status that is associated with the review reminder. Options: Pending / Processing / Suspected Fraud / Complete / Closed / Canceled / On Hold|
 |Delay Period (Days)|Website|Determines the number of days after the order status setting goes into effect that the reminder email is sent. Options: 1 - 7 / 16 / 30 / 60 / 90|
 |Campaign to send|Website|Specifies the automated campaign that is triggered when the conditions are met. Options: (Active campaigns and automation programs)|
-|Reviews Anchor|Website|The anchor tag used on product pages for reviews. For example: #reviews|
+|Link to product page|Website|Determines if the 'Leave a review' link should go to the product page for reviews (default is the product review page). Options: Yes / No|
+|Reviews Anchor|Website|The anchor tag used on product or review pages for reviews. For example: #reviews|
 
 ## Feefo Feedback Engine
 
