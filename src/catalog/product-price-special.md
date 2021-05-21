@@ -121,6 +121,28 @@ The following example shows how to assign the same special price to multiple pro
     ![]({% link images/images/storefront-special-price-configurable-product-detail.png %}){: .zoom}
     _Special Price for Configurable Product_
 
+{:.ee-only}
+## Apply a special price to multiple products
+
+1. On the **Products** page, click <span class="btn">Filters</span> and enter the **Name** of the configurable product.
+
+1. Set **Type** to `Simple Product` and click <span class="btn">Apply Filters</span>.
+
+1. If you want to assign the same special price to all of the products, set the control in the header of the first column to `Select All`.
+
+   As an alternative, you can select the checkbox of each product that you want to include.
+
+1. Set the **Actions** control to `Update attributes`.
+
+1. Scroll down to the _Special Price_ field and select the **Change** checkbox below the _Special Price_ field and enter the special price that you want to offer.
+
+    ![]({% link images/images/product-price-special-commerce.png %}){: .zoom}
+    _Special Price Fields_
+
+1. When complete, click <span class="btn">Save</span>.
+
+The special price available in the store appears in catalog listings as well as on the product page. For a configurable product, the regular price also appears on the product page when the options are chosen.
+
 ## Testing
 
 If the special price does not appear correctly in the storefront on both the catalog listing and product pages, clear your browser cache:
