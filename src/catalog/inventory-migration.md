@@ -38,9 +38,9 @@ When you install Magento 2.4.x Open Source, Commerce, or Commerce Cloud, the fol
 
 - {:.b2b-only}Inventory Management supports B2B inventory. At this time, all B2B products must be assigned to the Default Source and Default Stock. Future updates will resolve this issue.
 
-## Magento Commerce Order Management and Inventory Management
+## Commerce Order Management and Inventory Management
 
-If you have installed [Magento Commerce Order Management (MCOM)][1] in your Magento implementation to manage, sell, and fulfill inventory from any sales channel, be aware that MCOM is not compatible with the [Inventory Management extensions]({% link magento/magento-extensions.md %}). These modules provide all Inventory Management features to Magento, including single and multi Source management, stocks, reservations, and more.
+If you have installed [Commerce Order Management (MCOM)][1] in your Magento implementation to manage, sell, and fulfill inventory from any sales channel, be aware that MCOM is not compatible with the [Inventory Management extensions]({% link magento/magento-extensions.md %}). These modules provide all Inventory Management features to Magento, including single and multi Source management, stocks, reservations, and more.
 
 [Inventory Management extensions]({% link magento/magento-extensions.md %}) are disabled by default.
 

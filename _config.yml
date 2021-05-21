@@ -155,7 +155,9 @@ plugins:
 livereload: true
 check_links: true
 
-# kramdown parser settings (extended Markdown to HTML parser). For more details about available options, refer to https://kramdown.gettalong.org/converter/html.html
+devdocs_url: https://devdocs.magento.com
+
+# This addition fixes a bug in the copy.js of devdocs-theme
 #
 kramdown:
   toc_levels: 2..3
@@ -165,6 +167,3 @@ kramdown:
       line_numbers: false
     block:
       line_numbers: true
-
-devdocs_url: https://devdocs.magento.com
-
