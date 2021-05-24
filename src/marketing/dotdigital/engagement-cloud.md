@@ -22,7 +22,7 @@ redirect_from:
 
    - Transactional SMS from name: SMS can now be sent from a custom from name.
 
-   - PWA Support: our bundle now ships with new modules offering GraphQL support, and fixes for URLs in insight data. (Also check out our [PWA Toolkit][7]).
+   - PWA Support: our bundle now ships with new modules offering GraphQL support, and brings support for custom storefront URLs in insight data. (Also check out our [PWA Toolkit][7]).
 
 - {:.fix}Enhancements
 
