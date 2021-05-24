@@ -22,7 +22,7 @@ The category structure of your catalog can influence how well your site is index
 
 In order for the desired category to appear in the top navigation of your store, you need to complete the following steps:
 
-### Step 1: Create a Category 
+### Step 1: Create a Category
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
 
@@ -39,7 +39,7 @@ In order for the desired category to appear in the top navigation of your store,
 1. Click <span class="btn">Add Subcategory</span>.
 
 1. Complete the basic information with following settings:
-   
+
    - set **Enable Category** to `Yes`
    - set **Include in Menu** to `Yes`
 
