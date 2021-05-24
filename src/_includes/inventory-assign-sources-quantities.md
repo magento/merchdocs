@@ -12,6 +12,8 @@ For Multi Source merchants using Inventory Management, scroll down to the Source
 
 1. Click **Done** to add the sources.
 
+1. To manage the quantity and status of the source, click **Advanced Inventory** and set **Manage Stock** to Yes.
+
 1. To change settings and quantities per assigned source, do the following:
 
     * Set **Source Item Status** to In Stock.
