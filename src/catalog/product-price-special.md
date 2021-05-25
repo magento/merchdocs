@@ -14,7 +14,7 @@ You can easily set a special price for a single product in the catalog.
 {:.ee-only}
 ### Use a scheduled update
 
-Magento Commerce includes support for [Scheduled Updates]({% link cms/content-staging-scheduled-update.md %}). Use these promotional tools to  apply a special price to a specific product for a specified time period.
+Magento Commerce includes support for [Scheduled Updates]({% link cms/content-staging-scheduled-update.md %}). Use these promotional tools to apply a special price to a specific product for a specified time period.
 
 1. Open the product in edit mode.
 
@@ -65,12 +65,38 @@ Magento Open Source includes simple start and end date options in the Advanced P
 
     In the storefront, the special price should appear in both catalog listing and on the product page.
 
-{:.ce-only}
 ## Apply a special price to multiple products
 
-To assign a special price to multiple products, such as multiple variations of a [configurable product]({% link catalog/product-create-configurable.md %}), use the [Actions control]({% link stores/admin-actions-control.md %}).
+You can also assign a special price to multiple products, such as multiple variations of a [configurable product]({% link catalog/product-create-configurable.md %}).
 
-The following example shows how to assign the same special price to multiple product variations of a configurable product.
+{:.ee-only}
+### Set a special price for selected products
+
+The following example shows how to assign the same special price to multiple product variations of a configurable product in Magento Commerce.
+
+1. On the **Products** page, click <span class="btn">Filters</span> and enter the **Name** of the configurable product.
+
+1. Set **Type** to `Configurable Product` and click <span class="btn">Apply Filters</span>.
+
+1. If you want to assign the same special price to all of the products, set the control in the header of the first column to `Select All`.
+
+   As an alternative, you can select the checkbox of each product that you want to include.
+
+1. Set the **Actions** control to `Update attributes`.
+
+1. Scroll down to the _Special Price_ field and select the **Change** checkbox below the _Special Price_ field and enter the special price that you want to offer.
+
+    ![]({% link images/images/product-price-special-commerce.png %}){: .zoom}
+    _Special Price fields_
+
+1. When complete, click <span class="btn">Save</span>.
+
+The special price available in the store appears in catalog listings as well as on the product page. For a configurable product, the regular price also appears on the product page when the options are chosen.
+
+{:.ce-only}
+### Set a special price and date range for selected products
+
+The following example shows how to assign the same special price to multiple product variations of a configurable product in Magento Open Source.
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
@@ -120,28 +146,6 @@ The following example shows how to assign the same special price to multiple pro
 
     ![]({% link images/images/storefront-special-price-configurable-product-detail.png %}){: .zoom}
     _Special Price for Configurable Product_
-
-{:.ee-only}
-## Apply a special price to multiple products
-
-1. On the **Products** page, click <span class="btn">Filters</span> and enter the **Name** of the configurable product.
-
-1. Set **Type** to `Simple Product` and click <span class="btn">Apply Filters</span>.
-
-1. If you want to assign the same special price to all of the products, set the control in the header of the first column to `Select All`.
-
-   As an alternative, you can select the checkbox of each product that you want to include.
-
-1. Set the **Actions** control to `Update attributes`.
-
-1. Scroll down to the _Special Price_ field and select the **Change** checkbox below the _Special Price_ field and enter the special price that you want to offer.
-
-    ![]({% link images/images/product-price-special-commerce.png %}){: .zoom}
-    _Special Price Fields_
-
-1. When complete, click <span class="btn">Save</span>.
-
-The special price available in the store appears in catalog listings as well as on the product page. For a configurable product, the regular price also appears on the product page when the options are chosen.
 
 ## Testing
 
