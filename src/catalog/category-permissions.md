@@ -47,12 +47,17 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
     - Set **Allow Browsing Category** to `No, Redirect to Landing Page`.
 
-    - Choose the **Landing Page** to which visitors will be redirected.
+    - Choose the **Landing Page** to which visitors will be redirected, to one of the following: `404 Not Found`, `Home Page`, `Enable Cookies`, `Privacy Policy`, `Company: Access Denied`, `503 Service Unavailable`, `Welcome to our Exclusive Online Store`, `Reward Points`, `About us`, `Customer Service`.
 
     ![]({% link images/images-ee/category-permissions-browse-category-landing-page.png %}){: .zoom}
     _Redirect to Home Page_
 
 1. Set the **Display Product Prices** option, which applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
+
+    |--|--|
+    |Yes, for Everyone|Product prices are displayed for everyone|
+    |Yes, for Specified Customer Groups|Product prices are displayed for the selected specified customer group|
+    |No|Product prices are not displayed|
 
     **For Specific Customer Groups**
 
