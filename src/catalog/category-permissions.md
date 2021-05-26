@@ -41,18 +41,18 @@ When enabled, a new “Category Permissions” section appears on the Category p
         ![]({% link images/images-ee/category-permissions-allow-browsing-customer-groups.png %}){: .zoom}
         _Allow Browsing by Wholesale Customer Group_
 
-    - Select the **Landing page**:
+1. Select the **Landing page**:
 
-        - 404 Not Found
-        - Home Page
-        - Enable Cookies
-        - Privacy Policy
-        - Company: Access Denied
-        - 503 Service Unavailable
-        - Welcome to our Exclusive Online Store
-        - Reward Points
-        - About us
-        - Customer Service
+    - 404 Not Found
+    - Home Page
+    - Enable Cookies
+    - Privacy Policy
+    - Company: Access Denied
+    - 503 Service Unavailable
+    - Welcome to our Exclusive Online Store
+    - Reward Points
+    - About us
+    - Customer Service
 
     **Restrict Access and Redirect to Landing Page**
 
