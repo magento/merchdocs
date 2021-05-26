@@ -19,6 +19,6 @@ _Company Credit activity_
 |Available Credit|The sum of the _Credit Limit_ and the _Outstanding Balance_. If the company has exceeded the credit limit, the amount appears as a negative value.|
 |Credit Limit|The amount of credit extended to the company.|
 |Updated By|The name of the person who initiated the operation.|
-|Purchase Order|The [purchase order]({% link payment/purchase-order.md %}) number that is associated with the transaction.|
+|Custom Reference Number|The [custom reference]({% link payment/payment-on-account.md %}) number that is associated with the transaction.|
 |Comment|A compilation of the values from the `Reason for Change` field, according to operation type. <br/>**Purchased** - Includes comments from the purchase, and the order number and link to the order. <br/>**Reimbursed** - Includes comments from the reimbursed transaction.|
 |Action|For `Reimbursed` operations only. <span class="btn">Edit</span> - Allows the reimbursement amount to be updated.|
