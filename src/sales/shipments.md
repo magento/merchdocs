@@ -16,9 +16,9 @@ _Shipments grid_
 |Select|Select the checkbox for each quote to be subject to an action, or use the selection control in the column header. Options: Select All / Deselect All|
 |Shipment|A unique, sequential number that is assigned when a new shipment is saved for the first time|
 |Ship Date|Shipping date|
-|Order|Unique serial number of the order|
+|Order|Unique number of the order|
 |Order Date|The date and time the order was placed|
-|Ship-to Name|The name of the person to whom the order is to be shipped|
+|Ship-to Name|The name of the person to whom the order is shipped|
 |Total Quantity|Total quantity of items to ship|
 |Action|View opens the shipment in edit mode|
 
@@ -30,6 +30,6 @@ _Shipments grid_
 |Email|The email address of a registered customer|
 |Customer Group|The name of the customer group or shared catalog to which the customer is assigned|
 |Billing Address|The name of the customer or buyer who placed the order|
-|Shipping Address|The name of the person to whose attention the order should be shipped|
+|Shipping Address|The name of the person to whom the order is shipped|
 |Payment Method|The method of payment to be used for the order|
 |Shipping Information|The method that is to be used to ship the order|
