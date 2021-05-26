@@ -57,6 +57,9 @@ pages:
       edition: b2b-only
     - label: My Orders
       url: "/customers/account-dashboard-my-orders.html"
+      children:
+      - label: Reorders
+        url: "/customers/account-dashboard-reorders.html"
     - label: My Downloadable Products
       url: "/customers/account-dashboard-my-downloadable-products.html"
     - label: My Requistion Lists
