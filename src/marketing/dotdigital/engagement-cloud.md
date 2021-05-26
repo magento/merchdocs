@@ -28,7 +28,7 @@ redirect_from:
 
    - Product prices in cart, catalog and web insight data now have separate figures that include tax.
 
-   - ‘Leave a review’ links in the Reviews EDC can now link to product pages instead of review pages.
+   - _Leave a review_ links in the Reviews EDC can now link to product pages instead of review pages.
 
    - We’ve updated the handling of coupon codes to improve recurring campaigns.
 
