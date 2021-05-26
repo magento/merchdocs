@@ -4,7 +4,7 @@ title: Customer Groups
 
 Customer groups determine which discounts are available and the tax class that is associated with the group. The default customer groups are General, Not Logged In, and Wholesale.
 
-- {:.b2b-only}The selection of customer groups includes all regular customer groups, and shared catalogs, even if [Shared Catalogs]({% link stores/b2b-features.md %}) is not enabled in the configuration. Only one customer group or shared catalog can be assigned to a [company]({% link customers/account-companies.md %}) at a time.
+- {:.b2b-only}The selection of customer groups includes all regular customer groups and shared catalogs, even if **Shared Catalogs** is not enabled in the configuration. See [Configure B2B features]({% link stores/b2b-features.md %}) to enable shared catalogs. Only one customer group or shared catalog can be assigned to a [company]({% link customers/account-companies.md %}) at a time.
 
 ![]({% link images/images/customer-groups.png %}){: .zoom}
 _Customer Groups_
@@ -33,6 +33,10 @@ _Customer Groups_
 1. Enter a unique **Group Name** less than 32 characters to identify the group.
 
 1. Select the **Tax Class** that applies to the group.
+
+1. Select the **Excluded Website(s)** that you want to [exclude from the group]({{ site.devdocs_url }}/guides/v{{ site.version }}/extension-dev-guide/indexer-optimization.html#customer-group-limitations-by-websites).
+
+   No websites are excluded by default. To select multiple values, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
    ![]({% link images/images/stores-customer-group-information.png %}){: .zoom}
    _Group Information_

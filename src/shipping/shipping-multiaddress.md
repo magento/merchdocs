@@ -20,3 +20,6 @@ The Multiaddress Shipping options enable customers to ship an order to multiple 
 
    ![]({% link images/images/config-sales-multishipping-settings-options.png %}){: .zoom}
    _[Multiaddress Shipping Options]({% link configuration/sales/multishipping-settings.md %})_
+
+{:.bs-callout-info}
+<span class="b2b-only"></span> For orders with multiple shipping addresses, the [Payment on Account]({% link payment/payment-on-account.md %}) payment method, even if enabled, will not be available during the checkout.

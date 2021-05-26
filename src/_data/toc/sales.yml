@@ -19,8 +19,8 @@ pages:
       children:
       - label: My Cart Link
         url: "/sales/cart-link.html"
-      - label: Cart Sidebar
-        url: "/sales/cart-sidebar.html"
+      - label: Mini Cart
+        url: "/sales/mini-cart.html"
       - label: Redirect to Cart
         url: "/sales/cart-redirect.html"
       - label: Quote Lifetime
@@ -109,6 +109,8 @@ pages:
       url: "/sales/order-workflow.html"
     - label: Processing an Order
       url: "/sales/order-processing.html"
+    - label: Shipping an Order
+      url: "/sales/order-ship.html"
     - label: Order Status
       url: "/sales/order-status.html"
       children:
@@ -137,8 +139,6 @@ pages:
   - label: Shipments
     url: "/sales/shipments.html"
     children:
-    - label: Shipment Workflow
-      url: "/shipping/magento-shipping-shipment-workflow.html"
     - label: Creating a Shipment
       url: "/sales/shipments-create.html"
     - label: Canceling a Shipment
@@ -160,14 +160,6 @@ pages:
       url: "/sales/store-credit-using.html"
     - label: Customer Account Dashboard
       url: "/sales/refunds-customer-account.html"
-  - label: Company Credit
-    url: "/sales/credit-company.html"
-    edition: b2b-only
-    children:
-    - label: Credit Activity
-      url: "/sales/credit-company-activity.html"
-    - label: Receiving Payments
-      url: "/sales/credit-company-reimburse.html"
   - label: Returns
     url: "/sales/returns.html"
     edition: ee-only
@@ -221,6 +213,8 @@ pages:
   - label: Online Payment Methods
     url: "/payment/online-payment-methods.html"
     children:
+    - label: Braintree
+      url: "/payment/braintree.html"
     - label: Klarna
       url: "/payment/klarna.html"
       children:

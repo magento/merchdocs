@@ -34,4 +34,4 @@ To reset 2FA providers for other users, you must be an `administrator` or have c
    ![User account - 2FA]({% link images/images/admin-security-2fa-config-reset-providers.png %}){: .zoom}
    _Enable 2FA for User_
 
-[1]: https://devdocs.magento.com/guides/v2.4/security/two-factor-authentication.html
+[1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/security/two-factor-authentication.html

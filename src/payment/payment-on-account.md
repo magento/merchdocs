@@ -5,6 +5,9 @@ title: Payment on Account
 
 Payment on Account is an offline payment method that allows companies to make purchases up to the credit limit that is specified in their profile. Payment on Account can be enabled globally, or per company, and appears during checkout only if enabled. When Payment on Account is used as a payment method, a message appears at the top of the order that indicates the status of the account. To configure this payment method for a specific company, see [Updating a Company Profile]({% link customers/account-company-update.md %}).
 
+{:.bs-callout-info}
+Payment on Account is not supported for orders with [multiple shipping addresses]({% link shipping/shipping-multiaddress.md %}) and will not appear among the payment options.
+
 ## Configure payment on account
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.

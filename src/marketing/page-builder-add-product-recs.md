@@ -6,7 +6,7 @@ title: Add Recommendations to Page Builder
 Use the _Product Recommendations_ content type to add an existing, active [recommendation unit]({% link marketing/create-new-rec.md %}) to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage) for a CMS page, block, or dynamic block.
 
 {:.bs-callout-info}
-The _Product Recommendations_ content type in Page Builder is supported in Magento Commerce 2.3.1 and later and available in the [Product Recommendations metapackage versions 3.0.x or later](https://marketplace.magento.com/magento-product-recommendations.html). To add Page Builder support, [see the developer documentation](https://devdocs.magento.com/recommendations/install-configure.html#pbsupport).
+The _Product Recommendations_ content type in Page Builder is supported in Magento Commerce 2.3.1 and later and available in the [Product Recommendations metapackage versions 3.0.x or later](https://marketplace.magento.com/magento-product-recommendations.html). To add Page Builder support, [see the developer documentation]({{ site.devdocs_url }}/recommendations/install-configure.html#pbsupport).
 
 {% include page-builder-save-timeout.md %}
 

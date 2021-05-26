@@ -94,5 +94,5 @@ To control the minimum number of terms from your query that the search results s
 
 When complete, click <span class="btn">Save Config</span>.
 
-[1]: https://devdocs.magento.com/guides/v2.4/install-gde/prereq/elasticsearch.html
-[2]: https://devdocs.magento.com/guides/v2.4/config-guide/elasticsearch/es-downgrade.html
+[1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/install-gde/prereq/elasticsearch.html
+[2]: {{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/elasticsearch/es-downgrade.html

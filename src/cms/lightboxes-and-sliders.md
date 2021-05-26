@@ -12,7 +12,7 @@ title: Adding a Lightbox or Slider
 - {:.ce-only}To add a lightbox or slider to your store, download an extension from Magento Marketplace. For additional help, see the documentation provided by the extension developer.
 
    ![]({% link images/images/marketplace-sliders.png %}){: .zoom}
-   _Slider Extensions_
+   _Slider Extensions_{:.ce-only}
 
 [1]: https://marketplace.magento.com/extensions.html?q=lightbox
-[2]: https://devdocs.magento.com/extensions/install/
+[2]: {{ site.devdocs_url }}/extensions/install/

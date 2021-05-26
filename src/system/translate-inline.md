@@ -111,4 +111,4 @@ Go to your storefront and examine each page that was updated to make sure the ch
 ![Example storefront - translated customer sign in]({% link images/images/storefront-translate-inline-customer-sign-in.png %}){: .zoom}
 _Customer Sign In_
 
-[1]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/translations/xlate.html
+[1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/frontend-dev-guide/translations/xlate.html

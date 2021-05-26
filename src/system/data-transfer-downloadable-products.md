@@ -21,4 +21,4 @@ The CSV file has separate columns for `downloadable_links` and `downloadable_sam
 For more information about enabling and managing the Remote storage module, see [Configure remote storage][1] in the _Configuration guide_.
 
 <!-- link definitions -->
-[1]: https://devdocs.magento.com/guides/v2.4/config-guide/remote-storage/config-remote-storage.html
+[1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/remote-storage/config-remote-storage.html

@@ -43,6 +43,9 @@ pages:
     children:
     - label: My Account
       url: "/customers/account-dashboard-my-account.html"
+    - label: Order by SKU
+      url: "/customers/account-dashboard-order-by-sku.html"
+      edition: b2b-only
     - label: My Quotes
       url: "/customers/account-dashboard-quotes.html"
       edition: b2b-only
@@ -109,6 +112,8 @@ pages:
     - label: My Invitations
       url: "/customers/account-dashboard-my-invitations.html"
       edition: ee-only
+    - label: My Returns
+      url: "/customers/account-dashboard-my-returns.html"
 - label: Company Accounts
   url: "/customers/account-companies.html"
   edition: b2b-only
@@ -122,6 +127,14 @@ pages:
       url: "/customers/account-company-sales-representative.html"
     - label: Approving a Company Account
       url: "/customers/account-company-approve.html"
+  - label: Company Credit
+    url: "/customers/credit-company.html"
+    edition: b2b-only
+    children:
+    - label: Credit Activity
+      url: "/customers/credit-company-activity.html"
+    - label: Receiving Payments
+      url: "/customers/credit-company-reimburse.html"
   - label: Company Structure
     url: "/customers/account-company-structure.html"
     children:

@@ -19,10 +19,11 @@ _Products Grid_
 |--- |--- |
 |Add Product|Initiates the process to create a new simple product. To choose a specific product type, click the down arrow. Options: [Simple Product]({% link catalog/product-create-simple.md %}) / [Configurable Product]({% link catalog/product-create-configurable.md %}) / [Grouped Product]({% link catalog/product-create-grouped.md %}) / [Virtual Product]({% link catalog/product-create-virtual.md %}) / [Bundle Product]({% link catalog/product-create-bundle.md %}) / [Downloadable Product]({% link catalog/product-create-downloadable.md %}) / <span class="ee-only">[Gift Card]({% link catalog/product-gift-card.md %})</span>|
 |Export Full Catalog|Manually request a full catalog export from Magento Commerce. Outgoing messages will be exported to a .csv file in batches.|
-|Actions|Lists all actions that can be applied to selected products in the list. To apply an action to a product or group of products, select the checkbox in the first column of each product. Options: Delete / Change Status / Update Attributes|
+|Actions|Lists all actions that can be applied to selected products in the list. To apply an action to a product or group of products, select the checkbox in the first column of each product. Options: Delete / Change Status / Update Attributes / Assign Inventory Source / Unassign Inventory Source / Transfer Inventory To Source|
 |Filters|Initiates a catalog search based on the current filters.|
 |Default View|Indicates the current grid column layout. If there are saved grid column views, you can choose another.|
 |Columns|Lists all actions that can be applied to selected products in the list. To apply an action to a product or group of products, select the checkbox in the first column of each product. Product list actions include Delete, Change Status, Update Attributes, Assign Inventory Source, Unassign Inventory Source, and Transfer Inventory to Source.|
+|Search by keyword|The search box, in the top-left corner, is used to find products by keyword.|
 |Actions|Use the [actions]({% link stores/admin-actions-control.md %}) to select multiple records as the target of action. The checkbox is selected in the first column of each selected record. Options: Select / Deselect All|
 |Edit|Opens the product in edit mode. You can accomplish the same thing by clicking anywhere on the row.|
 
@@ -44,3 +45,26 @@ _Products Grid_
 |Websites|Indicates the website(s) where the product is available.|
 |Action|Opens the product in Edit mode.|
 |<span class="b2b-only">Shared Catalog</span>|Indicates the shared catalogs that contain custom pricing for the product.|
+
+## Other columns
+
+|Column|Description|
+|--- |--- |
+|Short Description|Short description of the product.|
+|Special Price From Date|The first date of the special price promotion.|
+|Special Price To Date|The last date of the special price promotion.|
+|Cost|The actual cost of the item.|
+|Manufacturer|The manufacturer of the product.|
+|Meta Keywords|Meta keywords for the product.|
+|Color|The product color.|
+|Set Product as New from Date|The first date of the set product as a new promotion.|
+|Set Product as New to Date|The last date of the set product as a new promotion.|
+|Active From / To|The product start and end date.|
+|Layout|The product layout.|
+|Minimum Advertised Price|The minimum advertised price of the product.|
+|Allow Gift Message|The gift message to customers who purchase a gift card.|
+|Special Price|Special price for the product.|
+|Weight|The product weight.|
+|Meta Title|Meta title for the product.|
+|Meta Description|The product meta description.|
+|Country of Manufacture|The country of manufacture.|
