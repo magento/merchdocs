@@ -32,7 +32,7 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
     **For Specific Customer Groups**
 
-      To allow members of a specific customer group to browse through category products, do the following:
+    To allow members of a specific customer group to browse through category products, do the following:
 
     - Set **Allow Browsing Category** to `Specified Customer Groups`.
 
