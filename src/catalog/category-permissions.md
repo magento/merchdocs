@@ -40,9 +40,9 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
         ![]({% link images/images-ee/category-permissions-allow-browsing-customer-groups.png %}){: .zoom}
         _Allow Browsing by Wholesale Customer Group_
-    
-    - Select the **Landing page**:
 
+    - Select the **Landing page**:
+        
         - `404 Not Found`
         - `Home Page`
         - `Enable Cookies`
