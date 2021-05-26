@@ -3,7 +3,7 @@ title: Marketing
 group: marketing
 sections:
   - title: Channels
-    content: Learn about the integrating your Magento store and catalog with your Amazon Seller Central account.
+    content: Learn about integrating your Commerce store and catalog with your Amazon Seller Central account.
     url: /sales-channels/sales-channels-home.html
 
   - title: Shopping Tools
@@ -19,7 +19,7 @@ sections:
     url: /marketing/communications.html
 
   - title: <span class="ee-only">Merchandising</span>
-    content: Magento Commerce users can also learn to use Merchandising tools to apply merchandising techniques to design category-based navigation and dynamic presentation of products.
+    content: Adobe Commerce users can also learn to use Merchandising tools to apply merchandising techniques to design category-based navigation and dynamic presentation of products.
     url: /marketing/merchandising.html
 
   - title: SEO and Search

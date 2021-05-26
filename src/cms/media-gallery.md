@@ -27,7 +27,7 @@ _Media Gallery grid_
    The [Content menu][content-menu] now displays the new _Media Gallery_ option.
 
 {:.bs-callout-info}
-Full functionality for new Media Gallery requires `media.gallery.synchronization` and `media.content.synchronization` queue consumers to be started for initial synchronization. See [Manage message queues](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) in our developer documentation for more details.
+Full functionality for new Media Gallery requires `media.gallery.synchronization` and `media.content.synchronization` queue consumers to be started for initial synchronization. See [Manage message queues]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/mq/manage-message-queues.html) in our developer documentation for more details.
 
 ## Access the new Media Gallery
 

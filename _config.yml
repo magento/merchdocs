@@ -1,10 +1,10 @@
 # This file sets default project configuration for the User Guides website generator
 # See default Jekyll configuration at https://jekyllrb.com/docs/configuration/default/
 
-title: Magento 2.4 User Guide
+title: Adobe Commerce 2.4 User Guide
 
-description: Merchant-focused documentation for both Magento Commerce and Magento Open Source
-logo: Magento User Guide
+description: Merchant-focused documentation for both Adobe Commerce and Magento Open Source
+logo: Commerce User Guide
 baseurl: /user-guide
 url: "https://docs.magento.com"
 destination: _site/user-guide
@@ -17,11 +17,11 @@ source: src
 plugins_dir: ./_plugins
 
 version: 2.4
-versions: 
-  - 
+versions:
+  -
     name: "2.4"
     url: "/user-guide"
-  - 
+  -
     name: "2.3"
     url: "/user-guide/v2.3"
 
@@ -29,7 +29,7 @@ versions:
 algolia:
   application_id: E642SEDTHL
   index_name: merchdocs
-  
+
   api_key: d2d0f33ab73e291ef8d88d8b565e754c
 
 google:
@@ -154,3 +154,16 @@ plugins:
 
 livereload: true
 check_links: true
+
+devdocs_url: https://devdocs.magento.com
+
+# This addition fixes a bug in the copy.js of devdocs-theme
+#
+kramdown:
+  toc_levels: 2..3
+  syntax_highlighter_opts:
+    css_class: highlighter
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true

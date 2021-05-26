@@ -50,4 +50,4 @@ The [Transactions]({% link sales/transactions.md %}) page lists all payment acti
 {:.ee-only}
 ### Archive
 
-(Archive option must be enabled) [Archiving orders]({% link sales/transactions.md %}) and other sales documents on a regular basis improves performance and keeps your workspace free of unnecessary information.
+(Archive option must be enabled) [Archiving orders]({% link sales/order-archive.md %}) and other sales documents on a regular basis improves performance and keeps your workspace free of unnecessary information.
