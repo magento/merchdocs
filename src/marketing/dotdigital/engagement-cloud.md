@@ -20,7 +20,7 @@ redirect_from:
 
    - Global Account Sharing: our latest modules support merchants running Magento with **Stores > Configuration > Customers > Customer Configuration > Account Sharing Options > Share Customer Accounts** set to 'Global'.
 
-   - Transactional SMS from name: SMS can now be sent from a custom from name.
+   - Transactional SMS from name: SMS can now be sent with a custom _from_ name.
 
    - PWA Support: our bundle now ships with new modules offering GraphQL support, and brings support for custom storefront URLs in insight data. (Also check out our [PWA Toolkit][7]).
 
