@@ -44,14 +44,23 @@ When enabled, a new “Category Permissions” section appears on the Category p
     - Select the **Landing page**:
 
         - `404 Not Found`
+
         - `Home Page`
+
         - `Enable Cookies`
+
         - `Privacy Policy`
+
         - `Company: Access Denied`
+
         - `503 Service Unavailable`
+
         - `Welcome to our Exclusive Online Store`
+
         - `Reward Points`
+
         - `About us`
+        
         - `Customer Service`
 
     **Restrict Access and Redirect to Landing Page**
