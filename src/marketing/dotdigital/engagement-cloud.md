@@ -32,7 +32,7 @@ redirect_from:
 
    - Updated the handling of coupon codes to improve recurring campaigns.
 
-   - We’ve updated the default list of IP addresses for **Developer > Dynamic Pages IP Restriction**.
+   - Updated the default list of IP addresses for **Developer > Dynamic Pages IP Restriction**.
 
 [1]: https://dotdigital.com/
 [2]: https://support.dotdigital.com/hc/en-gb/articles/115001930050-Email-campaigns-an-overview
