@@ -26,7 +26,7 @@ redirect_from:
 
 - {:.fix}Enhancements
 
-   - Product prices in cart, catalog and web insight data now have separate figures that include tax.
+   - Product prices in cart, catalog and web Insight data now have separate figures that include tax.
 
    - _Leave a review_ links in the Reviews EDC can now link to product pages instead of review pages.
 
