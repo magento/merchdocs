@@ -18,7 +18,7 @@ redirect_from:
 
 - {:.fix}Features
 
-   - Global Account Sharing: our latest modules support merchants running Magento with **Stores > Configuration > Customers > Customer Configuration > Account Sharing Options > Share Customer Accounts** set to 'Global'.
+   - Global Account Sharing: Our latest modules support merchants running Magento with **Stores > Configuration > Customers > Customer Configuration > Account Sharing Options > Share Customer Accounts** set to 'Global'.
 
    - Transactional SMS from name: SMS can now be sent with a custom _from_ name.
 
