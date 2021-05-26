@@ -42,7 +42,7 @@ When enabled, a new “Category Permissions” section appears on the Category p
         _Allow Browsing by Wholesale Customer Group_
 
     - Select the **Landing page**:
-        
+
         - `404 Not Found`
         - `Home Page`
         - `Enable Cookies`
