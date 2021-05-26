@@ -32,7 +32,7 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
     **For Specific Customer Groups**
 
-    To allow members of a specific customer group to browse through category products, do the following:
+      To allow members of a specific customer group to browse through category products, do the following:
 
     - Set **Allow Browsing Category** to `Specified Customer Groups`.
 
@@ -40,19 +40,6 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
         ![]({% link images/images-ee/category-permissions-allow-browsing-customer-groups.png %}){: .zoom}
         _Allow Browsing by Wholesale Customer Group_
-
-1. Select the **Landing page**:
-
-    - 404 Not Found
-    - Home Page
-    - Enable Cookies
-    - Privacy Policy
-    - Company: Access Denied
-    - 503 Service Unavailable
-    - Welcome to our Exclusive Online Store
-    - Reward Points
-    - About us
-    - Customer Service
 
     **Restrict Access and Redirect to Landing Page**
 
@@ -66,11 +53,6 @@ When enabled, a new “Category Permissions” section appears on the Category p
     _Redirect to Home Page_
 
 1. Set the **Display Product Prices** option, which applies to all categories in the [website]({% link stores/websites-stores-views.md %}).
-
-    |--|--|
-    |Yes, for Everyone|Product prices are displayed for everyone|
-    |Yes, for Specified Customer Groups|Product prices are displayed for the selected specified customer group|
-    |No|Product prices are not displayed|
 
     **For Specific Customer Groups**
 
