@@ -1,7 +1,7 @@
 ---
 title: Managing Price
 sections:
-  - title: Advanced Pricing 
+  - title: Advanced Pricing
     content: Learn how to define the conditions required for special pricing that is available for a specific customer group or shared catalog.
     url: /catalog/pricing-advanced.html
 
