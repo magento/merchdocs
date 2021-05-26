@@ -15,7 +15,7 @@ _Transactional SMS Settings_
 |Manage account||<span class="btn">Edit SMS settings</span> Opens the SMS settings tab from the Account page of your dotdigital account.|
 |Enable Phone Number Validation|Store View|Specifies if phone number validation is turned on at checkout and on the account dashboard. Ensures that all phone numbers entered by customers have a valid format and country code. Options: Yes / No|
 |Select default SMS from name|Store View|Specifies the source of the SMS 'from' name. Options: Shared pool number / Alphanumeric from name|
-|Alphanumeric from name|Store View|Sets a specific 'from' name for transactional SMS (field revealed if 'Alphanumeric from name' is selected above). |
+|Alphanumeric from name|Store View|Sets a specific _from_ name for transactional SMS (field revealed if 'Alphanumeric from name' is selected above). |
 
 ## SMS Templates
 
