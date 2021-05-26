@@ -30,7 +30,7 @@ redirect_from:
 
    - _Leave a review_ links in the Reviews EDC can now link to product pages instead of review pages.
 
-   - We’ve updated the handling of coupon codes to improve recurring campaigns.
+   - Updated the handling of coupon codes to improve recurring campaigns.
 
    - We’ve updated the default list of IP addresses for **Developer > Dynamic Pages IP Restriction**.
 
