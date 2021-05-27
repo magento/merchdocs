@@ -9,7 +9,7 @@ When you [create a product recommendation unit]({% link marketing/create-new-rec
 Conditions can be static or dynamic. A static condition uses existing product attributes to determine which products are eligible to appear in the unit. For example, you can specify that you want only products that are greater than $25 and in-stock to appear in the unit. A dynamic condition keys off of a shopper's current context, such as currently viewed category or product. For example, when creating a product recommendation to be deployed on product detail pages, you can create a condition to recommend only products that are within a relative price range of the currently viewed product. Static conditions are available on all page types. Dynamic conditions are available on every page type except Home Page and Page Builder.
 
 {:.bs-callout-info}
-Inclusion and exclusion filters replace the legacy category exclusions in versions 3.2.2 and later of the `magento/product-recommendations` module. See the [release notes](https://devdocs.magento.com/recommendations/release-notes.html) to learn more.
+Inclusion and exclusion filters replace the legacy category exclusions in versions 3.2.2 and later of the `magento/product-recommendations` module. See the [release notes]({{ site.devdocs_url }}/recommendations/release-notes.html) to learn more.
 ### Default filters {#default}
 
 Magento automatically applies non-configurable default filters to recommendation units.

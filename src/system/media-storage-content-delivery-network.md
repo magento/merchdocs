@@ -48,4 +48,4 @@ After configuring the CDN, you must complete the configuration from the Admin. T
 1. When complete, click <span class="btn">Save Config</span>.
 
 [1]: https://magento.com/products/magento-commerce
-[2]: https://devdocs.magento.com/cloud/cdn/cloud-fastly.html
+[2]: {{ site.devdocs_url }}/cloud/cdn/cloud-fastly.html

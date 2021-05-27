@@ -13,7 +13,7 @@ _Dashboard_
 Advanced Reporting displays a personalized dashboard based on your product, order, and customer data. For more extensive analysis, see [Magento Business Intelligence][1].
 
 ![]({% link images/images/dashboard-advanced-reporting.png %}){: .zoom}
-_Advanced Reporting_
+[_Advanced Reporting_]({% link reports/advanced-reporting.md %})
 
 ## Configure the dashboard
 

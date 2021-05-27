@@ -61,5 +61,5 @@ By default, the system does not permit anonymous guest access to CMS, catalog, a
 
 See [Restricting access to anonymous web APIs][2]{:target="_blank"} in the Magento developer documentation.
 
-[1]: http://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-oauth.html
-[2]: http://devdocs.magento.com/guides/v2.4/rest/anonymous-api-security.html
+[1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/get-started/authentication/gs-authentication-oauth.html
+[2]: {{ site.devdocs_url }}/guides/v{{ site.version }}/rest/anonymous-api-security.html

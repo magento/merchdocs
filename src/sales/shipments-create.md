@@ -48,7 +48,7 @@ For each line item in the order, modify the **Qty to Ship** as needed.
 |Button|Description|
 |--- |--- |
 |<span class="btn">Back</span>|Closes the New Shipment form, and returns to the order|
-|<span class="btn">Submit Shipment</span>|Adds he shipment for the order.|
+|<span class="btn">Submit Shipment</span>|Adds the shipment for the order.|
 |<span class="btn">Reset</span>|Restores all fields to original values.|
 
 ## Field descriptions

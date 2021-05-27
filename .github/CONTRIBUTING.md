@@ -1,4 +1,4 @@
-## Contribute to Magento Merchant Documentation
+## Contribute to the Merchant Documentation
 
 Share your knowledge with the community by contributing to Magento Documentation!
 You can contribute by creating an issue or pull request (PR) on our [MerchDocs](https://github.com/magento/merchdocs) GitHub repository.

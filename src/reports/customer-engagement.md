@@ -62,7 +62,8 @@ To directly link your Engagement Cloud and Magento accounts without requiring a 
 
    1. Set the **Contact Sync Size** (default 500). This sets the batch size limit you require for the amount of contacts loaded for every sync.
    1. Set the **Transactional Data Sync Size** (default 50). This sets the batch size limit you require for the amount of transactions loaded for every sync.
-   1. To sync subscriber dales data, set **Enable Subscribers Sales Data Sync** to "Yes". This option is disabled by default due to the increased server load and sync times.
+   1. To sync subscriber dales data, set **Enable Subscribers Sales Data Sync** to `Yes`. (This option is disabled by default due to the increased server load and sync times.)
+   1. To remove the /pub directory from image URLs in the catalog, set **Remove /pub directory from URLs** to `Yes`.
 
       ![]({% link images/images/dotdigital-dash-import.png %}){: .zoom}
       _Import Settings_
@@ -150,3 +151,18 @@ If you leave this field empty, a security check does not run. We do not recommen
 
     ![Debug]({% link images/images/dotdigital-dash-iprestrict.png %}){: .zoom}
     _Debug_
+
+## Configure system alerts
+
+1. To send system messages to Admin users when errors that could affect the dotdigital extension are detected, set **Enable System Messages** to `Yes`.
+1. To send system alert email notifications when errors that could affect the dotdigital extension are detected, set **Enable Email Notifications** to `Yes`.
+1. For **Select Roles**, select the user role to determine who will receive email notifications.
+1. To specify the email notification frequency and the time interval for error reporting, set **Alert Frequency** to one of the following options:
+   * 1 hour
+   * 12 hours
+   * 24 hours
+   * 48 hours
+   * 72 hours
+
+    ![System Alerts]({% link images/images/system.alerts.block.png %}){: .zoom}
+    _System Alerts_

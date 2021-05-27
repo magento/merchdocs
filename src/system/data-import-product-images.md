@@ -108,4 +108,4 @@ Importing product images does not initiate image resize. Product images are resi
 
 [1]: http://notepad-plus-plus.org/
 [2]: https://www.openoffice.org/
-[3]: https://devdocs.magento.com/guides/v2.4/config-guide/remote-storage/config-remote-storage.html
+[3]: {{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/remote-storage/config-remote-storage.html

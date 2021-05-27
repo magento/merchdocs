@@ -6,7 +6,7 @@
   - label: About This Release
     url: "/magento/about-this-release.html"
 
-  - label: Your Magento Account
+  - label: Your Commerce Account
     url: "/magento/magento-account.html"
 
   - label: " Quick Tour"
@@ -15,14 +15,14 @@
   - label: Basic Configuration
     url: /configuration/configuration-basic.html
 
-  - label: Magento Extensions
+  - label: Extensions
     url: /magento/magento-extensions.html
 
   - label: Magento Marketplace
     url: /magento/magento-marketplace.html
 
   - label: Magento Identity Manager
-    url: /magento/magento-identity-manager.html    
+    url: /magento/magento-identity-manager.html
 
   - label: Resources
     url: "/getting-started/resources.html"
