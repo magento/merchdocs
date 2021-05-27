@@ -12,10 +12,10 @@ The [landing page]({% link cms/pages.md -%}) for a search term can be a content 
 
 One way to improve the effectiveness of [catalog search]({% link catalog/search-configuration.md %}) is to include different terms that people may use to describe the same item. You do not want to lose a sale just because someone is looking for a _sofa_, and your product is listed as a _couch_. You can capture a broader range of search terms by entering _sofa_, _davenport_, and _loveseat_ as synonyms for _couch_, and direct them to the same landing page.
 
-Magento supports two different synonym management solutions:
+Adobe Commerce supports two different synonym management solutions:
 
-- Live Search [Synonyms]({% link live-search/synonyms.md %}) is available for Magento Commerce installations with Live Search installed.
-- Standard [Search Synonyms](https://docs.magento.com/user-guide/marketing/search-synonyms.html) is available out-of-the-box for all Magento installations.
+- Live Search [Synonyms]({% link live-search/synonyms.md %}) is available for Adobe Commerce installations with Live Search installed.
+- Standard [Search Synonyms](https://docs.magento.com/user-guide/marketing/search-synonyms.html) is available out-of-the-box for all Adobe Commerce installations.
 
 ## Misspelled Words
 
