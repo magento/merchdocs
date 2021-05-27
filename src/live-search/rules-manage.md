@@ -16,6 +16,8 @@ Follow these instructions to update the properties of existing rules.
 1. Test the rule.
 1. Publish the changes.
 
+   The rule is added to the list in the rules workspace. Although active rules go into effect immediately, it might take up to fifteen minutes for cached query results in the storefront to be refreshed.
+
 ## Delete rule
 
 1. On the _Rules_ tab, find the rule in the grid that you want to edit and click **More** (...) options.
