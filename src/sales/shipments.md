@@ -13,7 +13,7 @@ _Shipments grid_
 
 |Control|Description|
 |--- |--- |
-|Select|Select the checkbox to select the quote(s) to be subject to an action, or use the selection control in the column header. Options: Select All / Deselect All|
+|Select|Select the checkbox for each quote to be subject to an action, or use the selection control in the column header. Options: Select All / Deselect All|
 |Shipment|A unique, sequential number that is assigned when a new shipment is saved for the first time|
 |Ship Date|Shipping date|
 |Order|Unique number of the order|
@@ -22,7 +22,7 @@ _Shipments grid_
 |Total Quantity|Total quantity of items to ship|
 |Action|View opens the shipment in edit mode|
 
-### Additional Columns
+### Additional columns
 
 |Order Status|Indicates the order status|
 |Purchased From|Indicates the website, store, and store view where the order was placed|
