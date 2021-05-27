@@ -1,11 +1,10 @@
-
 <!-- Main Navigation -->
 {% assign sections = site.data.main-nav %}
 
 <ul class="nav-main spectrum-Tabs spectrum-Tabs--horizontal" role="menubar">
 
-{% for section in sections %}
-{% assign subsections = section.children %}
+  {% for section in sections %}
+  {% assign subsections = section.children %}
   {% if section.label %}
   <li class="nav-main-item spectrum-Tabs-item" tabindex="0" role="menuitem" aria-haspopup="true">
     {% if section.url %}
@@ -15,33 +14,33 @@
     {% endif %}
 
     {% if subsections %}
-      <div class="nav-popup spectrum-Popover">
+    <div class="nav-popup spectrum-Popover">
 
       {% capture nav %}
-        {% for subsection in subsections %}
-          {% assign subchildren = subsection.children %}
-          {% if subchildren %}
-            <div class="nav-section">
-              <div class="spectrum-Menu-sectionHeading">{{ subsection.label }}</div>
-              <ul class="spectrum-Menu">
-              {% for item in subchildren %}
-                {% include layout/nav-item.html section=item menuClass="spectrum-Menu" itemClass="spectrum-Menu-item" labelClass="spectrum-Menu-itemLabel" %}
-              {% endfor%}
-              </ul>
-            </div>
-          {% else if %}
-            {% include layout/nav-item.html section=subsection menuClass="spectrum-Menu" itemClass="spectrum-Menu-item" labelClass="spectrum-Menu-itemLabel" %}
-          {% endif %}
-        {% endfor %}
+      {% for subsection in subsections %}
+      {% assign subchildren = subsection.children %}
+      {% if subchildren %}
+      <div class="spectrum-Menu nav-section">
+        <div class="spectrum-Menu-sectionHeading">{{ subsection.label }}</div>
+        <ul class="spectrum-Menu">
+          {% for item in subchildren %}
+          {% include layout/nav-item.html section=item menuClass="spectrum-Menu" itemClass="spectrum-Menu-item" labelClass="spectrum-Menu-itemLabel" %}
+          {% endfor%}
+        </ul>
+      </div>
+      {% else if %}
+      {% include layout/nav-item.html section=subsection menuClass="spectrum-Menu" itemClass="spectrum-Menu-item" labelClass="spectrum-Menu-itemLabel" %}
+      {% endif %}
+      {% endfor %}
       {% endcapture %}
 
       {% if subchildren %}
-        {{ nav }}
+      {{ nav }}
       {% else if %}
-        <ul>{{ nav }}</ul>
+      <ul class="spectrum-Menu">{{ nav }}</ul>
       {% endif %}
 
-      </div>
+    </div>
     {% endif %}
 
   </li>
@@ -49,5 +48,5 @@
   <li class="nav-main-separator"></li>
   {% endif %}
 
-{% endfor %}
+  {% endfor %}
 </ul><!-- /.nav-main -->

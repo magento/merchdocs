@@ -35,12 +35,12 @@ _Customer Attributes_
     - To determine the type of input control that is used for data entry, set **Input Type** to one of the following:
 
       |Text Field|A single-line text field.|
-      |Text Area|A multi-line text area.|
+      |Text Area|A multiple-line input field for entering paragraphs of text, such as a product description. You can use the WYSIWYG Editor to format the text with HTML tags, or enter the tags directly into the text.|
       |Multiple Line|Creates multiple text lines for the attribute, similar to a multi-line street address. The number of separate data entry lines can be from 2 to 20. Use the `Default Value` to specify the initial value of the field.|
-      |Date|Displays a date field with a pop-up calendar. Additional properties: <br/>Use `Default Value` to specify the initial value of the field. <br/>Use `Minimal Value` to specify the earliest date that can be entered.  <br/>Use `Maximum Value` to specify the latest date that can be entered.|
-      |Dropdown|A drop-down list that accepts only one value to be selected.|
+      |Date|Displays a date value in the [preferred format]({% link stores/attribute-date-time-options.md %}) and [time zone]({% link stores/locale-options.md %}). Date values can be selected from a list or a calendar ( ![Calendar icon]({% link images/images/btn-calendar.png %}) ). <br/><br/>**_Note:_** Depending on your system configuration, _Admin_ users can enter dates directly into a field or select a date from the calendar or list. For information about specifying date and time values, see [Date and Time Custom Options]({% link stores/attribute-date-time-options.md %}).|
+      |Yes/No|Displays a drop-down list with pre-defined options of `Yes` and `No`.|
+      |Dropdown|Displays a drop-down list of values that accepts only a single selection. The Dropdown input type is a key component of [configurable products]({% link catalog/product-create-configurable.md %}).|
       |Multiple Select|A drop-down list that accepts multiple values to be selected.|
-      |Yes/No|A  field that offers only a choice of `Yes` or `No` values.|
       |File (attachment)|A field that allows a file to be uploaded and associated with the customer attribute as an attachment.|
       |Image File|A field that allows an image to be uploaded to the gallery and associated with the customer attribute.|
 

@@ -1,5 +1,5 @@
 ---
-title: Creating a Magento Account
+title: Creating a Commerce Account
 group: getting-started
 ---
 
@@ -8,7 +8,7 @@ Anyone can open a free Magento account from our website. The email address that 
 {:.bs-callout-info}
 After you create your account, it is strongly recommended that you use Two-factor Authentication (TFA) to [secure your account]({% link magento/magento-account-secure.md %}).
 
-## Create a Magento account
+## Create a Commerce account
 
 1. Visit the Magento site at [http://www.magento.com][1]{:target="_blank"}.
 

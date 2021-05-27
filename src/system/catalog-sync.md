@@ -8,7 +8,7 @@ Magento compiles catalog data into tables using indexers. This process is automa
 To use the Catalog Sync dashboard, you must have an [API key and a SaaS environment configured]({% link system/saas.md %}).
 
 {:.bs-callout-info}
-See the [developer documentation](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-catalog-sync.html) to learn how to use the command-line interface to trigger the catalog sync and reindex product data for consumption by SaaS services.
+See the [developer documentation]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/cli/config-cli-subcommands-catalog-sync.html) to learn how to use the command-line interface to trigger the catalog sync and reindex product data for consumption by SaaS services.
 
 With the **Catalog Sync** dashboard you can:
 

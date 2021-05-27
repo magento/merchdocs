@@ -1,5 +1,5 @@
 ---
-title: Magento Web API
+title: Web API
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Services]({% link configuration/services.md %}) > Magento Web API

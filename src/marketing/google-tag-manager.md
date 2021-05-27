@@ -141,7 +141,7 @@ For additional information, see Google's [Container export and import][5]. These
 [1]: https://support.google.com/analytics/answer/1008015?hl=en
 [2]: https://support.google.com/tagmanager/answer/6102821?hl=en
 [3]: https://support.google.com/analytics/answer/1012264?hl=en
-[4]: https://devdocs.magento.com/guides/v2.4/extension-dev-guide/intro/intro-composer.html
+[4]: {{ site.devdocs_url }}/guides/v{{ site.version }}/extension-dev-guide/intro/intro-composer.html
 [5]: https://support.google.com/tagmanager/answer/6106997?hl=en
 [6]: https://docs.magento.com/m2/downloads/GTM_M2_Config_json.txt
 [7]: https://support.google.com/analytics/answer/1012264?hl=en
