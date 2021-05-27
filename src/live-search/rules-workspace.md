@@ -23,7 +23,7 @@ If your Adobe Commerce installation includes multiple store views, set **Scope**
 ## Show/hide columns
 [Column selector]({% link live-search/assets/btn-show-hide-columns.png %})
 
-1. In the upper-right corner, click **Show/hide** (![Columns selector]({% link live-search/assets/btn-show-hide-columns.png %})) columns.
+1. In the upper-right corner, click **Show/hide** ![Column selector]({% link live-search/assets/btn-show-hide-columns.png %}) columns.
 
    The visible columns have a blue check mark in the options menu. The rule name is the only column that cannot be hidden.
 
