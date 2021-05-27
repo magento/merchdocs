@@ -112,6 +112,9 @@
   - label: Page Builder
     url: /cms/page-builder.html
 
+  - label: Media Storage
+    url: /cms/media-storage.html    
+
   - label: Design & Theme
     url: /design/design-theme.html
 

@@ -131,13 +131,6 @@ pages:
         url: "/stores/attributes-customer-address-templates.html"
     - label: Product Attributes
       url: "/stores/attributes-product.html"
-  - label: Alternate Media Storage
-    url: "/system/media-storage.html"
-    children:
-    - label: Using a Database
-      url: "/system/media-storage-database.html"
-    - label: Using a CDN
-      url: "/system/media-storage-content-delivery-network.html"
 - label: System
   url: "/system/system.html"
   children:
@@ -247,8 +240,6 @@ pages:
         url: "/stores/security-two-factor-authentication-use.html"
       - label: Managing 2FA
         url: "/stores/security-two-factor-authentication-manage.html"
-    - label: Encryption Key
-      url: "/system/encryption-key.html"
     - label: Session Validation
       url: "/stores/security-session-validation.html"
     - label: Browser Capabilities Detection

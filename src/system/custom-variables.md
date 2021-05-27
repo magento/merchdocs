@@ -2,9 +2,9 @@
 title: Custom Variables
 ---
 
-To meet the specific needs of your business, you can create custom variables and insert them into [pages]({% link cms/pages.md -%}), [blocks]({% link cms/blocks.md -%}) and [email]({% link marketing/email-template-message.md %}) templates. The list of allowed variables that appears when you click the Insert Variable button includes both [predefined]({% link marketing/variables-predefined.md %}) and custom variables.
+To meet the specific needs of your business, you can create custom variables and insert them into [pages]({% link cms/pages.md %}), [blocks]({% link cms/blocks.md %}) and [email]({% link marketing/email-template-message.md %}) templates. The list of allowed variables that appears when you click the _Insert Variable_ button includes both [predefined]({% link marketing/variables-predefined.md %}) and custom variables.
 
-## Step 1: Create a custom variable
+## Create a custom variable
 
 1. On the _Admin_ sidebar, go to **System** > _Other Settings_ > **Custom Variables**.
 
@@ -21,17 +21,20 @@ To meet the specific needs of your business, you can create custom variables and
 
 1. To enter the value that is associated with the variable, do one of the following:
 
-   - For **Variable HTML Value**, enter the variable value formatted with simple HTML tags. For example:
-      `<b>This formatted content appears in place of the variable.</b>`
-   - For **Variable Plain Value**, enter the variable value as plain text without formatting. For example:
-      `This unformatted content appears in place of the variable.`
+   - For **Variable HTML Value**, enter the variable value formatted with simple HTML tags.
 
-   {:.bs-callout-info}
-   If you need more room, drag the lower-right corner of the text box.
+      For example: `<b>This formatted content appears in place of the variable.</b>`
+
+   - For **Variable Plain Value**, enter the variable value as plain text without formatting.
+
+      For example: `This unformatted content appears in place of the variable.`
+
+   {:.bs-callout-tip}
+   If you need more space, drag the lower-right corner of the text box.
 
    ![New custom variable]({% link images/images/variable-custom-add.png %}){: .zoom}
    _New Custom Variable_
 
 1. When complete, click <span class="btn">Save</span>.
 
-For more information see: [Adding Custom Variables] ({% link marketing/variables-custom.html %}).
+For information about inserting a custom variable, see [Adding Custom Variables]({% link marketing/variables-custom.md %}#step-2-insert-the-custom-variable).

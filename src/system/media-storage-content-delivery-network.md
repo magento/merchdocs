@@ -1,5 +1,6 @@
 ---
 title: Using a Content Delivery Network
+group: content
 ---
 
 A Content Delivery Network (CDN) can be used to store media files. Although the version of Magento that is installed _on premise_ does not include an integration with any specific CDN, you can use the CDN of your choice. [Magento Commerce (Cloud)][1]{:target="_blank"} is an exception to this, and includes the Fastly CDN. See [Fastly][2]{:target="_blank"} in the developer documentation.
