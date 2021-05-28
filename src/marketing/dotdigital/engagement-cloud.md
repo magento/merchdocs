@@ -14,25 +14,7 @@ redirect_from:
 - [Schedule campaigns][6]
 - [Generate reports]({% link reports/customer-engagement.md %})
 
-## Highlights from recent releases
-
-- {:.fix}Features
-
-   - Global Account Sharing: Our latest modules support merchants running Magento with **Stores > Configuration > Customers > Customer Configuration > Account Sharing Options > Share Customer Accounts** set to 'Global'.
-
-   - Transactional SMS from name: SMS can now be sent with a custom _from_ name.
-
-   - PWA Support: Our bundle now ships with new modules that support GraphQL, and brings support for custom storefront URLs to Insight data. (Also check out our [PWA Toolkit][7]).
-
-- {:.fix}Enhancements
-
-   - Product prices in cart, catalog and web Insight data now have separate figures that include tax.
-
-   - _Leave a review_ links in the Reviews EDC can now link to product pages instead of review pages.
-
-   - Updated the handling of coupon codes to improve recurring campaigns.
-
-   - Updated the default list of IP addresses for **Developer > Dynamic Pages IP Restriction**.
+See [latest release notes][7].
 
 [1]: https://dotdigital.com/
 [2]: https://support.dotdigital.com/hc/en-gb/articles/115001930050-Email-campaigns-an-overview
@@ -40,4 +22,4 @@ redirect_from:
 [4]: https://support.dotdigital.com/hc/en-gb/articles/212213938-Using-decisions-to-branch-automated-programs
 [5]: https://support.dotdigital.com/hc/en-gb/articles/212213998-Automated-and-triggered-campaigns-an-overview
 [6]: https://support.dotdigital.com/hc/en-gb/articles/212213998-Automated-and-triggered-campaigns-an-overview
-[7]: https://github.com/dotmailer/ec-magento-pwa-toolkit
+[7]: https://devdocs.magento.com/extensions/vendor/dotdigital/release-notes.html
