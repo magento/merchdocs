@@ -255,8 +255,6 @@ pages:
       url: "/payment/zero-subtotal-checkout.html"
   - label: Fraud Protection
     url: "/sales/fraud-protection.html"
-  - label: Braintree
-    url: "/payment/braintree.html"
 - label: Delivery
   url: "/shipping/delivery.html"
   children:
