@@ -64,7 +64,7 @@ _Order by SKU in the Storefront_
 
 1. Go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the left panel under _General_, choose **B2B Features** 
+1. In the left panel under _General_, choose **B2B Features**
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **B2B Features** section.
 
