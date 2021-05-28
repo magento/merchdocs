@@ -162,10 +162,12 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 ### Step 3: Set up Advertise PayPal Credit / Advertise PayPal PayLater (optional)
 
-1. Set **Enable PayPal PayLater Experience** to one of the following:
+Starting with the 2.4.3 release, PayPal Pay Later is supported in deployments that include PayPal. This feature allows shoppers to pay for an order in bi-weekly installments instead of paying the full amount at time of purchase. The PayPal Credit experience is deprecated.
 
-   - `Yes` - To setup Advertise PayPal PayLater
-   - `No` - To setup Advertise PayPal Credit
+Set **Enable PayPal PayLater Experience** to one of the following:
+
+- `Yes` - To setup Advertise PayPal PayLater
+- `No` - To setup Advertise PayPal Credit
 
 #### Advertise PayPal Credit
 
