@@ -36,7 +36,7 @@ Use caution when applying a category product rule, because any products that do 
 
    The automatic sorting and condition options appear.
 
-1. Click <span class="btn">Add Condition</span> and do the following:
+1. Click <span class="btn">Add Condition</span>.
 
 1. Choose the **Attribute** that is the basis of the condition.
 
@@ -63,12 +63,12 @@ Use caution when applying a category product rule, because any products that do 
 
     - Set **Logic** to `AND`.
 
-      |`AND`|The rule applies to products, where all the conditions coincide.|
-      |`OR`|The rule applies to products, where at least one condition coincides.|
+      |`AND`|The rule applies to products, where all the conditions are met.|
+      |`OR`|The rule applies to products, where at least one condition is met.|
 
     - Set **Date Modified** to `Greater than 7`.
 
-1. To apply a sort order automatically to the dynamically generated product list, set **Automatic Sorting** to one of the following:
+1. To apply a sort order automatically to the dynamically generated product list, set **Automatic Sorting**.
 
     ![]({% link images/images-ee/automatic_sorting_field.png %}){: .zoom}
     _Automatic Sorting_
