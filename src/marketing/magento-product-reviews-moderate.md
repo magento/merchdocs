@@ -14,7 +14,7 @@ To ensure that reviews are appropriate for public display your store, a submitte
 
    - To reject a review, select `Not Approved`. Unapproved reviews disappear from the list of **Pending Reviews** page.
 
-1. Also, the admin can moderate the **Detailed Rating**, **Nickname**, **Summary of Review** fields.
+1. If needed, change the values for **Detailed Rating**, **Nickname**, and **Summary of Review**.
 
    ![Edit review page]({% link images/images/edit-review-page.png %}){: .zoom}
    _Edit review page_
