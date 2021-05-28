@@ -3,19 +3,17 @@ b2b_only: true
 title: Company Accounts
 ---
 
-Magento 2 Company Account transforms a default [individual] ({% link customers/account-create.md %}) customer account to the company accounts and supports customers to create and manage company accounts.
+When you incorporate [B2B]({% link configuration/general/b2b-features.md  %}) company accounts in your Magento store, you can simplify the corporate shopping experience by enabling companies to create multiple sub-accounts with flexible permissions based on user roles in their organization. Depending on the customer groups of the company, a store administrator can adjust promotions and prices to suit their needs, and create highly customized offers that cater to the shoppers’ demands and increase orders. Adding a company account association to a standard [individual] ({% link customers/account-create.md %}) allows the customer to use the specific purchasing workflows defined for the company.
 
-When you incorporate B2B company accounts in your Magento store, you can simplify the corporate shopping by enabling companies to create multiple sub-accounts with flexible permissions based on user roles in their organization. Depending on the customer groups of the company, a store administrator can adjust promotions and prices to suit their needs, and create highly customized offers that cater to the shoppers’ demands and increase orders.
+Advantages of a company account:
 
-Advantages of  a company account:
+- Offers unlimited [company users]({% link customers/account-company-users.md %}) and the creation of additional accounts, thereby simplifying corporate purchases.
 
-- A [B2B]({% link configuration/general/b2b-features.md  %}) company account offers unlimited users and the creation of additional accounts, thereby simplifying corporate purchases.
+- Includes support for a "smart" company account hierarchy with different [roles and permissions]({% link customers/account-company-roles-permissions.md %}) for placing orders.
 
-- Includes support for a "smart" company account hierarchy with different [roles and permissions] ({% link customers/account-company-roles-permissions.md %}) for placing orders.
+- Provides a mechanism for merchants to increase income by offering [company store credit]({% link customers/account-dashboard-company-credit.md %}) as a payment method.
 
-- Provides a mechanism for merchants to increase income by offering [company store credit] ({% link customers/account-dashboard-company-credit.md %}) as a payment method.
-
-- Supports the [management] ({% link customers/account-company-manage.md %}) of all company accounts in the Admin.
+- Supports the [management]({% link customers/account-company-manage.md %}) of all company accounts in the Admin.
 
 ## View company accounts
 
