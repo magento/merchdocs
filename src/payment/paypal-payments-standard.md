@@ -104,7 +104,16 @@ _Payments Standard - configuration_
    - **Proxy Host**
    - **Proxy Port**
 
-### Step 4: Set up Advertise PayPal Credit (optional)
+### Step 4: Set up Advertise PayPal Credit / Advertise PayPal Pay Later (optional)
+
+Starting with the 2.4.3 release, PayPal Pay Later is supported in deployments that include PayPal. This feature allows shoppers to pay for an order in bi-weekly installments instead of paying the full amount at time of purchase. The PayPal Credit experience is deprecated.
+
+Set **Enable PayPal PayLater Experience** to one of the following:
+
+- `Yes` - To setup Advertise PayPal PayLater
+- `No` - To setup Advertise PayPal Credit
+
+#### Advertise PayPal Credit
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Advertise PayPal Credit** section.
 
@@ -141,6 +150,83 @@ _Payments Standard - configuration_
    - **Catalog Category Page**
    - **Catalog Product Page**
    - **Checkout Cart Page**
+
+#### Advertise PayPal Pay Later
+
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Advertise PayPal PayLater** section.
+
+1. Set **Enable PayPal PayLater** to `Yes`.
+
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Home Page** section.
+
+   ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png %}){: .zoom}
+   _Advertise PayPal PayLater - Home Page Settings_
+
+1. To place a banner on the page, set **Display** to `Yes`.
+
+1. Set **Position** to one of the following:
+
+   - `Header (center)`
+   - `Sidebar`
+
+1. Set **Style Layout** to one of the following:
+
+   - `Text`
+   - `Flex`
+
+1. For Style Layout **Text** only, set **Logo Type** to one of the following:
+
+   - `Primary`
+   - `Alternative`
+   - `Inline`
+   - `None`
+
+1. For Style Layout **Text** only, set **Logo Position** to one of the following:
+
+   - `Left`
+   - `Right`
+   - `Top`
+
+1. For Style Layout **Text** only, set **Text Color** to one of the following:
+
+   - `Black`
+   - `White`
+   - `Monochrome`
+   - `Grayscale`
+
+1. For Style Layout **Text** only, set **Text Size** to one of the following:
+
+   - `10px`
+   - `11px`
+   - `12px`
+   - `13px`
+   - `14px`
+   - `15px`
+   - `16px`
+
+1. For Style Layout **Flex** only, set **Ratio** to one of the following:
+
+   - `1x1`
+   - `1x4`
+   - `8x1`
+   - `20x1`
+
+1. For Style Layout **Flex** only, set **Color** to one of the following:
+
+   - `Blue`
+   - `Black`
+   - `White`
+   - `White No Border`
+   - `Gray`
+   - `Monochrome`
+   - `Grayscale`
+
+1. Expand ![]({% link images/images/btn-expand.png %}) the remaining sections and repeat the previous steps:
+
+   - **Catalog Product Page**
+   - **Checkout Cart Page**
+   - **Checkout Payment Step**
+   - **Catalog Category Page**
 
 ### Step 5: Complete the basic settings
 
