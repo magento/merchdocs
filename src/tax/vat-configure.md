@@ -17,12 +17,14 @@ The process of creating a tax rule begins by adding a tax rate.
 
 1. Ensure that there is a customer tax class that is appropriate to use with the VAT.
 
-   For this example, ensure that there is a customer tax class named Retail Customer. If Retail Customer does not exist, click <span class="btn">Add New Tax Rate</span>.
+   For this example, ensure that there is a customer tax class named "Retail Customer". If this tax class does not already exist, click <span class="btn">Add New Tax Rate</span>.
 
     ![]({% link images/images/configuring-vat-tax-zones-and-rates.png %}){: .zoom}
     _Set up customer tax classes_
 
-1. Enter the **Tax Identifier** for the new tax class. All tax rates displayed in the **Tax Rate** field of the **Tax Rule Information**, for each tax rules.
+1. Enter the **Tax Identifier** for the new tax class.
+
+   All tax rates are displayed in the _Tax Rate_ field in the _Tax Rule Information_ when you create tax rules.
 
 1. To set the zip code range (from / to) select the **Zip/Post is Range** checkbox.
 
