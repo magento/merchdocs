@@ -132,8 +132,8 @@ Starting with the 2.4.3 release, PayPal Pay Later is supported in deployments th
 
 Set **Enable PayPal PayLater Experience** to one of the following:
 
-    - `Yes` - To setup Advertise PayPal PayLater
-    - `No` - To setup Advertise PayPal Credit
+- `Yes` - To setup Advertise PayPal PayLater
+- `No` - To setup Advertise PayPal Credit
 
 #### Advertise PayPal Credit
 

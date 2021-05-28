@@ -418,7 +418,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
 1. To display the _Check out with PayPal_ button on the product page, set **Display on Product Details Page** to `Yes`.
 
-### Step 8: Complete Advanced Settings - PayPal Express Checkout
+### Step 7: Complete Advanced Settings - PayPal Express Checkout
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Advanced Settings** section.
 
