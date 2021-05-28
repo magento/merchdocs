@@ -126,7 +126,7 @@ _Required PayPal Settings - PayPal Payflow Link_
 
 1. If you want to offer [PayPal Credit]({% link payment/paypal-credit.md %}) to your customers, set **Enable PayPal Credit** to `Yes`.
 
-### Step 4: Set up Advertise PayPal Credit / Advertise PayPal PayLater (optional)
+### Step 3: Set up Advertise PayPal Credit / Advertise PayPal PayLater (optional)
 
 1. Set **Enable PayPal PayLater Experience** to one of the following:
 
@@ -248,7 +248,7 @@ _Required PayPal Settings - PayPal Payflow Link_
     - **Checkout Payment Step**
     - **Catalog Category Page**
 
-### Step 5: Complete the basic Settings
+### Step 4: Complete the basic Settings
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Basic Settings - PayPal Payflow Link** section.
 
@@ -268,7 +268,7 @@ _Required PayPal Settings - PayPal Payflow Link_
    |`Authorization` |Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is captured by the merchant.|
    |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
 
-### Step 6: Complete the advanced settings
+### Step 5: Complete the advanced settings
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Advanced Settings** section.
 
