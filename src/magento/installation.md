@@ -9,12 +9,12 @@ The _Magento Installation Guide_ provides multiple options including download zi
 
 - [System requirements][3]{:target="_blank"}
 - [Prerequisites][4]{:target="_blank"}
-- [Installation roadmap][5]{:target="_blank"}
+- [Installation flow diagram][5]{:target="_blank"}
 - [Post Installation][6]{:target="_blank"}
 
 [1]: http://devdocs.magento.com/guides/v2.3/install-gde/bk-install-guide.html
 [2]: https://devdocs.magento.com/guides/v2.3/config-guide/bk-config-guide.html
 [3]: https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html
 [4]: https://devdocs.magento.com/guides/v2.3/install-gde/prereq/prereq-overview.html
-[5]: https://devdocs.magento.com/guides/v2.3/install-gde/install-roadmap_web.html
+[5]: https://devdocs.magento.com/guides/v2.3/install-gde/install-flow-diagram.html
 [6]: https://devdocs.magento.com/guides/v2.3/install-gde/install/verify.html
