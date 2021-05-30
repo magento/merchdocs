@@ -7,3 +7,5 @@ Page changes can be applied on schedule, and grouped with other content changes.
 
 ![The Home page displays scheduled changes at the top]({% link images/images/page-scheduled-change.png %}){: .zoom}
 _Scheduled changes for the Home page_
+
+Also, you can schedule and preview changes for product updates. For more information, see [Scheduling an Update]({% link cms/content-staging-scheduled-update.md %}).

@@ -44,7 +44,7 @@ Flat rate is a fixed, predefined charge that can be applied per item, or per shi
 
    - For **Handling Fee**, enter the amount to be charged, based on the method you have chosen to calculate the amount.
 
-      For example, if the charge is based on a fixed fee, enter the amount as a decimal, such as `4.90`. However, if the handling fee is based on a percentage of the order, enter the amount as a percentage. For example, if you are charging six percent of the order, enter the value as `.06`.
+      For example, if the charge is based on a fixed fee, enter the amount as a decimal, such as `4.90`. However, if the handling fee is based on a percentage of the shipping cost, enter the amount as a percentage. For example, if you are charging six percent of the shipping cost, enter the value as `6`.
 
 1. If needed, change the **Displayed Error Message**.
 
