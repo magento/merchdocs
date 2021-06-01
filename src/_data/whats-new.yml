@@ -4,8 +4,155 @@ description: This page contains recent changes that we think you'd like to know 
   We exclude from this list proofreading, spelling checks, and insignificant updates.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Sat May 1 14:27:30 2021
+updated: Tue Jun 1 17:35:46 2021
 entries:
+- description: Updated [Company Accounts](https://docs.magento.com/user-guide/customers/account-companies.html)
+    to describe the benefits and feature capabilities for using B2B company accounts.
+  versions: 2.4.x
+  type: Major update
+  date: May 28, 2021
+  link: https://github.com/magento/merchdocs/pull/1270
+  merge_commit: 93b56fbbdd23d7ccc42b2556db54dcaec17fa177
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - 2.4.x
+  - Major update
+  - 'Partner: Atwix'
+  - 'Progress: done'
+  - partners-contribution
+- description: Added new [Custom Variables](https://docs.magento.com/user-guide/system/custom-variables.html)
+    and [Notifications](https://docs.magento.com/user-guide/system/notifications.html)
+    topics to complete the System section.
+  versions: 2.4.x
+  type: New topic
+  date: May 28, 2021
+  link: https://github.com/magento/merchdocs/pull/1269
+  merge_commit: 9093fea9586a669c87ccba7e80b8f6da3ca7b609
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - 2.4.x
+  - New topic
+  - 'Partner: Atwix'
+  - 'Progress: done'
+  - partners-contribution
+- description: Added the [Reorders](https://docs.magento.com/user-guide/customers/account-dashboard-reorders.html)
+    to describe the functionality for customers to reorder products on the storefront.
+  versions: 2.4.x
+  type: New topic
+  date: May 27, 2021
+  link: https://github.com/magento/merchdocs/pull/1260
+  merge_commit: 4218e97a46538b28d97f7f81a0b9af647a54eef1
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - 2.4.x
+  - New topic
+  - 'Partner: Atwix'
+  - 'Progress: done'
+  - partners-contribution
+- description: Added a section in [Special Price](https://docs.magento.com/user-guide/catalog/product-price-special.html)
+    to describe different procedures to apply special price to multiple products in
+    Commerce vs. Open Source.
+  versions: 2.4.x
+  type: Major update
+  date: May 26, 2021
+  link: https://github.com/magento/merchdocs/pull/1206
+  merge_commit: 13adeac378932f92a6afb22c57e344a0570980b1
+  contributor: ZhovnirMaria
+  membership: false
+  labels:
+  - 2.4.x
+  - Major update
+  - 'Progress: done'
+- description: Rebranding to reflect product branding updates.
+  versions: 2.3.x, 2.4.x
+  type: Major update
+  date: May 21, 2021
+  link: https://github.com/magento-commerce/merchdocs/pull/88
+  merge_commit: c965fc472b73f1dfe2512f0529355cf3f9ac603b
+  contributor: bdenham
+  membership: true
+  labels:
+  - 2.3.x
+  - 2.4.x
+  - Major update
+  - maintenance
+- description: In [Creating Product Attributes](https://docs.magento.com/user-guide/stores/attribute-product-create.html),
+    added the list of types for product attributes along with descriptions as part
+    of the selection step in the procedure.
+  versions: 2.4.x
+  type: Major update
+  date: May 19, 2021
+  link: https://github.com/magento/merchdocs/pull/1237
+  merge_commit: e531ee89ff158bac9b36c1e9f3120f409ef6221c
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - 2.4.x
+  - 'Event: Adobe Summit Hackathon'
+  - Major update
+  - 'Partner: Atwix'
+  - 'Progress: done'
+  - partners-contribution
+- description: Added the new _Startup Page options_ section in the [Admin configuration](https://docs.magento.com/user-guide/configuration/advanced/admin.html)
+    page to list and describe the options for choosing a startup page in the Admin.
+  versions: 2.4.x
+  type: Major update
+  date: May 14, 2021
+  link: https://github.com/magento/merchdocs/pull/1224
+  merge_commit: 72556eac7be73005ce79c718fac6d0bcc0594743
+  contributor: ZhovnirMaria
+  membership: false
+  labels:
+  - 2.4.x
+  - Major update
+  - 'Partner: Atwix'
+  - 'Progress: done'
+  - partners-contribution
+- description: Added the [Column descriptions](https://docs.magento.com/user-guide/sales/invoices.html)
+    table to the Invoices topic.
+  versions: 2.4.x
+  type: Major update
+  date: May 13, 2021
+  link: https://github.com/magento/merchdocs/pull/1195
+  merge_commit: 961034abc65b35df7a979321000798baafcdbe4c
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - 2.4.x
+  - Major update
+  - 'Partner: Atwix'
+  - 'Progress: done'
+  - partners-contribution
+- description: Added comparison of [cross-sells and up-sells to product recommendations](https://docs.magento.com/user-guide/marketing/product-recs-vs-crossupsells.html).
+  versions: 2.4.x
+  type: New topic
+  date: May 11, 2021
+  link: https://github.com/magento-commerce/merchdocs/pull/34
+  merge_commit: 87139a18773abaeb9aeca8007b2befb14a25bdf7
+  contributor: erikmarr
+  membership: true
+  labels:
+  - 2.4.x
+  - New topic
+- description: Added the [My Returns](https://docs.magento.com/user-guide/customers/account-dashboard-my-returns.html)
+    topic, which includes information about managing returns for the customer account
+    on the storefront.
+  versions: 2.4.x
+  type: New topic
+  date: May 5, 2021
+  link: https://github.com/magento/merchdocs/pull/1185
+  merge_commit: 718c3c34293e1322812b6e295025e80282925c04
+  contributor: ZhovnirMaria
+  membership: false
+  labels:
+  - 2.4.x
+  - New topic
+  - 'Partner: Atwix'
+  - 'Progress: done'
+  - partners-contribution
 - description: Added column descriptions in the [My Downloadable Products](https://docs.magento.com/user-guide/customers/account-dashboard-my-downloadable-products.html)
     topic.
   versions: 2.4.x
