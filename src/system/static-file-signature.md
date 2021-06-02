@@ -24,4 +24,4 @@ The Static File Settings configuration is available only when working in [develo
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-[1]: https://devdocs.magento.com/guides/v2.4/config-guide/cache/static-content-signing.html
+[1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/cache/static-content-signing.html

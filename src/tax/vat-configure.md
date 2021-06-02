@@ -11,14 +11,30 @@ In certain business-to-business transactions, VAT is not assessed. Magento can v
 
 ## Step 1: Set up customer tax classes
 
+The process of creating a tax rule begins by adding a tax rate.
+
 1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Zones and Rates**.
 
 1. Ensure that there is a customer tax class that is appropriate to use with the VAT.
 
-   For this example, ensure that there is a customer tax class named Retail Customer. If Retail Customer does not exist, click <span class="btn">Add New Tax Rate</span> and add it.
+   For this example, ensure that there is a customer tax class named "Retail Customer". If this tax class does not already exist, click <span class="btn">Add New Tax Rate</span>.
 
     ![]({% link images/images/configuring-vat-tax-zones-and-rates.png %}){: .zoom}
     _Set up customer tax classes_
+
+1. Enter the **Tax Identifier** for the new tax class.
+
+   All tax rates are displayed in the _Tax Rate_ field in the _Tax Rule Information_ when you create tax rules.
+
+1. To set the zip code range (from / to) select the **Zip/Post is Range** checkbox.
+
+1. Choose the **Country** where the tax rate applies.
+
+1. Enter the **Rate Percent** that would be used for the tax rate calculation at purchase.
+
+1. When complete, click <span class="btn">Save Rate</span>.
+
+Based on the submitted tax rate, you can create subsequent tax rules. In the absence of tax rates, the creation of tax rules becomes impossible.
 
 ## Step 2: Set up product tax classes
 

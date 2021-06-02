@@ -28,4 +28,4 @@ For technical information, see [Custom VCL for allowing requests][1]{:target="_b
 
 1. When prompted, refresh any invalid caches.
 
-[1]: https://devdocs.magento.com/cloud/cdn/fastly-vcl-allowlist.html
+[1]: {{ site.devdocs_url }}/cloud/cdn/fastly-vcl-allowlist.html

@@ -103,4 +103,4 @@ If you remove all sources from a product for a stock with pending orders, you ma
 [1]: https://cloud.google.com/maps-platform/
 [2]: https://developers.google.com/maps/documentation/geocoding/start
 [3]: https://developers.google.com/maps/documentation/distance-matrix/start
-[4]: https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli-reference.html
+[4]: {{ site.devdocs_url }}/guides/v{{ site.version }}/inventory/inventory-cli-reference.html

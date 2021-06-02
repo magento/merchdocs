@@ -77,11 +77,14 @@ The checkbox in the first column of the list identifies each record that is a ta
 
 |List|Actions|
 |--- |--- |
-|All Customers|Delete<br/>Set Active<br/>Subscribe to Newsletter<br/>Unsubscribe from Newsletter<br/>Assign a Customer Group<br/>Edit|
+|All Customers|Delete<br/>Set Active<br/>Set Inactive<br/>Subscribe to Newsletter<br/>Unsubscribe from Newsletter<br/>Assign a Customer Group<br/>Edit|
+|Customer Groups|Delete|
 |<span class="b2b-only">Companies</span>|Set Active<br/>Block<br/>Delete<br/>Edit<br/>Convert Credit|
 
 ### Marketing
 
+|*Private Sales*|||
+||Invitations|Discard Selected<br/>Send Selected|
 |*Communications*|||
 ||Newsletter Subscribers|Unsubscribe<br/>Delete|
 |*SEO & Search*|||
@@ -97,6 +100,8 @@ The checkbox in the first column of the list identifies each record that is a ta
 ||Blocks|Delete<br/>Edit|
 ||Dynamic Blocks|Delete|
 ||Widgets|Delete|
+|*Design*|||
+||Themes|View|
 |**Reports**|||
 |*Customers*|||
 ||Segments|View Combined Report|

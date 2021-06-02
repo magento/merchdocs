@@ -21,4 +21,4 @@ When Media Gallery Image Optimization functionality is enabled, an optimized cop
 
 Any time the _Maximum Width_ and _Maximum Heigh_ values are changed in the configuration, it updates all the existing optimized images that were previously inserted.
 
-The Media Gallery Image Optimization requires `media.gallery.renditions.update` queue consumers to be running for regenerating optimized image when configuration is changed. See [Manage message queues](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) documentation for more details.
+The Media Gallery Image Optimization requires `media.gallery.renditions.update` queue consumers to be running for regenerating optimized image when configuration is changed. See [Manage message queues]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/mq/manage-message-queues.html) documentation for more details.

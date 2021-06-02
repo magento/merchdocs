@@ -66,6 +66,7 @@ Available in [Developer Mode]({% link magento/installation-modes.md %}) only.
 |Merge JavaScript Files|Store View|Merges multiple JavaScript files into a single file to improve page load time.|
 |Enable JavaScript Bundling|Store View|Determines if multiple JavaScript files can be bundled into one file. Options: Yes / No|
 |Minify JavaScript Files|Store View|Removes unnecessary characters, spaces, and indentation to reduce the size of the code.|
+|Move JS code to the bottom of the page|If enabled, moves the JS code to the bottom of the page. Options: Yes / No|
 |Translation Strategy|Global|Determines the translation methodology that is used by the system. Options: <br/>**Dictionary** - Translation on storefront side. <br/>**Embedded** - Translation on Admin side.|
 |Log JS Errors to Session Storage|Global|If enabled, can be used by functional tests for reporting. Options: Yes / No|
 |Log JS Errors to Session Storage Key|Global|Identifies the key that is used to retrieve collected js errors.|
@@ -79,6 +80,7 @@ Available in [Developer Mode]({% link magento/installation-modes.md %}) only.
 |--- |--- |--- |
 |Merge CSS Files|Store View|Merges multiple CSS files into a single file to improve page load time. Options: Yes / No|
 |Minify CSS Files|Store View|Removes unnecessary characters, spaces, and indentation to reduce the size of the code. Options: Yes / No|
+|Use CSS critical path|The _CSS critical path_ delivers minified critical CSS inline in <head> and defers all non-critical styles that are loaded asynchronously. Options: Yes / No|
 
 ## Image Processing Settings
 
