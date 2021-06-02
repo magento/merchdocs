@@ -108,3 +108,12 @@ _System Alerts_
 |Enable Email Notifications|Global|Determines if system alert email notifications are sent to users with relevant permissions when errors that may affect the dotdigital extension are detected. Options: Yes / No|
 |Select Roles|Global|Specifies the user role(s) that receive system alert email notifications. To select multiple roles, select the **Ctrl** key.|
 |Alert Frequency|Website|Specifies both the email notification frequency and the time interval for error reporting. For example, you might receive email notification every 24 hours and flag errors that occurred during the last 24 hours. Options: 1 Hour / 12 Hours / 24 Hours / 48 Hours / 72 Hours|
+
+## PWA Settings
+
+![PWA Settings]({% link images/images/dotdigital-dash-pwa-settings.png %}){: .zoom}
+_PWA Settings_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|PWA Storefront Base URL|Website|The URL for the storefront, if different from the Magento base URL. Used to modify product URLs and links in EDCs in a headless / PWA context.|
