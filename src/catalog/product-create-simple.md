@@ -56,6 +56,15 @@ _Choose Attribute Set_
 
    - `None`
    - `Taxable Goods`
+   - `Refund Adjustments`
+   - `Gift Options`
+   - `Order Gift Wrapping`
+   - `Item Gift Wrapping`
+   - `Printed Gift Card`
+   - `Reward Points`
+   - `VAT Reduced`
+   - `VAT Standard`
+   - `VAT Standard`
 
 1. Enter the **Quantity** of the product that is currently in stock.
 

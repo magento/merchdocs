@@ -26,4 +26,4 @@ For technical information, see [Supported browsers][1]{:target="_blank"} in the 
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-[1]: https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements_browsers.html
+[1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/install-gde/system-requirements_browsers.html

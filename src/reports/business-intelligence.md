@@ -20,9 +20,9 @@ Use business intelligence tools to gain the insight you need to make sound busin
 |[Yotpo Analytics][6]|[Yotpo][7] is a user-generated content marketing platform enabling merchants to gather, curate, manage, and respond to all kinds of user content from just a single platform. When you have a Yotpo account that is [integrated with your Magento store]({% link marketing/yotpo-connect.md %}), you can use Yotpo Insights to understand what your customers are saying about products and gain actionable insights for your business. <br/><br/>**_Note:_** This requires a subscription to a [Yotpo Insights][8] plan for your Yotpo account. |
 
 [1]: https://docs.magento.com/mbi/
-[2]: https://devdocs.magento.com/guides/v2.4/advanced-reporting/overview.html
+[2]: {{ site.devdocs_url }}/guides/v{{ site.version }}/advanced-reporting/overview.html
 [3]: https://docs.magento.com/user-guide/reports/business-intelligence.html
-[4]: https://devdocs.magento.com/cloud/project/new-relic.html
+[4]: {{ site.devdocs_url }}/cloud/project/new-relic.html
 [6]: https://support.yotpo.com/en/analytics
 [7]: https://www.yotpo.com/
 [8]: https://www.yotpo.com/platform/insights/

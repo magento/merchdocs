@@ -36,16 +36,24 @@ Use caution when applying a category product rule, because any products that do 
 
    The automatic sorting and condition options appear.
 
-1. Click <span class="btn">Add Condition</span> and do the following:
+1. Click <span class="btn">Add Condition</span>.
 
-    - Choose the **Attribute** that is the basis of the condition.
+1. Choose the **Attribute** that is the basis of the condition.
 
-    - Choose the **Operator** that is needed to form the expression.
+1. Set **Operator** to one of the following:
 
-    - Enter the **Value** that is to be matched.
+    - `Equal`
+    - `Not equal`
+    - `Greater than`
+    - `Greater than or equal to`
+    - `Less than`
+    - `Less than or equal to`
+    - `Contains`
 
-      ![]({% link images/images-ee/category-rule-create.png %}){: .zoom}
-      _Add Condition to Category Rule_
+1. Enter the **Value** that is to be matched.
+
+    ![]({% link images/images-ee/category-rule-create.png %}){: .zoom}
+    _Add Condition to Category Rule_
 
 1. Repeat this process for each attribute that is needed to describe the condition(s) to be met.
 
@@ -55,12 +63,15 @@ Use caution when applying a category product rule, because any products that do 
 
     - Set **Logic** to `AND`.
 
+      |`AND`|The rule applies to products, where all the conditions are met.|
+      |`OR`|The rule applies to products, where at least one condition is met.|
+
     - Set **Date Modified** to `Greater than 7`.
 
-1. To apply a sort order automatically to the dynamically generated product list, set **Automatic Sorting** to one of the following:
+1. To apply a sort order automatically to the dynamically generated product list, set **Automatic Sorting**.
 
-    - `Move out of stock to bottom`
-    - `Special price to top`
+    ![]({% link images/images-ee/automatic_sorting_field.png %}){: .zoom}
+    _Automatic Sorting_
 
 1. When complete, click <span class="btn">Save Category</span>.
 

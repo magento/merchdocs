@@ -1,5 +1,5 @@
 ---
-title: Sharing Your Magento Account
+title: Sharing Your Commerce Account
 group: getting-started
 ---
 

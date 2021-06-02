@@ -24,4 +24,4 @@ The Frontend Development Workflow configuration is available in [Developer Mode]
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-[1]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/css-guide/css_quick_guide_mode.html
+[1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/frontend-dev-guide/css-guide/css_quick_guide_mode.html
