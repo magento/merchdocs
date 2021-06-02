@@ -14,7 +14,9 @@ redirect_from:
 - [Schedule campaigns][6]
 - [Generate reports]({% link reports/customer-engagement.md %})
 
-See [latest release notes][7].
+## Release notes
+
+The dotdigital integration is a third-party extension that we have thoroughly tested and included with each supported version of Adobe Commerce and Magento Open Source. Upgrading your instance also updates this extension. For information about the updates for the extension, see the [Release Notes][7] in our developer documentation.
 
 [1]: https://dotdigital.com/
 [2]: https://support.dotdigital.com/hc/en-gb/articles/115001930050-Email-campaigns-an-overview
