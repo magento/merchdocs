@@ -3,7 +3,7 @@ title: Search Synonyms
 ---
 
 {:.bs-callout-info}
-[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Magento Commerce. This topic describes standard Magento search functionality and does not apply to Live Search. If your installation of Magento Commerce has Live Search installed, see [Live Search Synonyms]({% link live-search/synonyms.md %}).
+[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Adobe Commerce. The standard search functionality described in this topic differs from Live Search. To learn more, see [Synonyms]({% link live-search/synonyms.md %}) in the Live Search section of the user guide.
 
 One way to improve the effectiveness of catalog search is to include different terms that people may use to describe the same item. You do not want to lose a sale just because someone is looking for a _sofa_, while your product is listed as a _couch_. Or perhaps they spelled it wrong, or just differently. Is it a _sweatshirt_, or a _sweat shirt_? Maybe it is a _fleece_ or a _hoodie_. You can capture a broad range of search terms by entering all the possible words a customer might use to find your products.
 

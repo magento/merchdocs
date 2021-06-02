@@ -4,7 +4,7 @@ group: marketing
 ---
 
 {:.bs-callout-info}
-[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Magento Commerce. This topic describes standard Magento navigation functionality that does not apply to Live Search. If your installation of Magento Commerce has Live Search installed, see the Live Search [Quick Tour]({% link live-search/quick-tour.md %}).
+[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Adobe Commerce. This topic describes standard navigation that might differ from Live Search.
 
 The Pagination settings appear at the top and bottom of the list, and control the format of the pagination links for product listings. You can set the number of links that appear in the control, and configure the Next and Previous links. For the pagination links to appear, there must be more products in the list than are allowed per page in the product list configuration.
 

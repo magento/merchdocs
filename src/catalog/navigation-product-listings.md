@@ -4,7 +4,7 @@ group: marketing
 ---
 
 {:.bs-callout-info}
-[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Magento Commerce. This topic describes standard Magento search functionality and does not apply to Live Search. If your installation of Magento Commerce has Live Search installed, see the Live Search [Quick Tour]({% link live-search/quick-tour.md %}).
+[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Adobe Commerce. The standard search functionality described in this topic differs from Live Search.
 
 Product listings can be set to appear by default as either a list or grid. You can also determine how many products appear per page, and which attribute is used to sort the list. Each catalog page with a product list has a set of controls that can be used to sort the products, change the format of the list, sort by attribute, and advance from one page to the next.
 

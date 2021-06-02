@@ -4,7 +4,7 @@ group: marketing
 ---
 
 {:.bs-callout-info}
-[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Magento Commerce. This topic describes standard Magento search functionality and does not apply to Live Search. If your installation of Magento Commerce has Live Search installed, see the Live Search [Quick Tour]({% link live-search/quick-tour.md %}).
+[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Adobe Commerce. This topic describes standard search functionality that might differ from Live Search.
 
 The Search Results list includes all products that match the search criteria entered in the Quick Search box or the Advanced Search form. Every product list in the catalog has essentially the same controls. The only difference is that one is the result of a search query, and the other difference is the result of [navigation]({% link catalog/navigation.md %}).
 
