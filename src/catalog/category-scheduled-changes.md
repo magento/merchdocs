@@ -14,7 +14,7 @@ _Scheduled Changes_
 
 1. In the _Scheduled Changes_ box at the top of the page, click <span class="btn">Schedule New Update</span>.
 
-1. With the **Save as a New Update** option selected, Set the basic parameters for the update:
+1. With the **Save as a New Update** option selected, set the basic parameters for the update:
 
    - For **Update Name**, enter a name for the new content staging campaign.
 
