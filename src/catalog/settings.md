@@ -9,3 +9,17 @@ The most frequently used product settings and attributes are located at the top 
 
 ![]({% link images/images/product-settings-include-sources.png %}){: .zoom}
 _Product Settings_
+
+|Setting|Description|
+|--- |--- |
+|[Sources]({% link catalog/sources.md %})|Lists the sources from which the product can be distributed.|
+|[Content]({% link catalog/product-content.md %})|Used to enter and edit the main product description that appears on the storefront product page.|
+|[Configurations]({% link catalog/product-configurations.md %})| Lists any existing variations of the product and can be used to generate variations for use with the Configurable product type.|
+|[Product Reviews]({% link catalog/settings-advanced-product-reviews.md %})|Lists all reviews that customers have submitted for the product.|
+|[Search Engine Optimization]({% link catalog/product-search-engine-optimization.md %})|Specifies the URL Key and metadata fields that are used by search engines to index the product.|
+|[Related Products, Up-Sells, and Cross-Sells]({% link catalog/related-products-up-sells-cross-sells.md %})|Used to set up simple promotional blocks on the storefront that present a selection of additional products that might be of interest to the customer.|
+|[Customizable Options]({% link catalog/settings-advanced-custom-options.md %})|Adds customizable options to a product.|
+|[Product in Websites]({% link catalog/settings-basic-websites.md %})| Identifies each website where the product is available, according to the store hierarchy.|
+|[Design]({% link catalog/settings-advanced-design.md %})|Used to apply a different theme to the product page, change the column layout, determine where product options appear, and enter custom XML code.|
+|[Gift options]({% link catalog/product-gift-options.md %})|Used to enable or disable a gift message option during checkout at the product level.|
+|[Downloadable Information]({% link catalog/product-downloadable-information.md %})|Used to generate the links to downloadable products and samples.|

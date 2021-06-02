@@ -11,7 +11,7 @@ sections:
     url: /system/system.html
 
   - title: Reports
-    content: Magento provides a wide selection of reports to keep you informed on your marketing efforts, sales products, and customer activity. The Reports menu provides easy access to current information about your sales, products, customers, and promotions.
+    content: Adobe Commerce provides a wide selection of reports to keep you informed on your marketing efforts, sales products, and customer activity. The Reports menu provides easy access to current information about your sales, products, customers, and promotions.
     url: /reports.html
 ---
 

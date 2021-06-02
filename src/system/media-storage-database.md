@@ -1,5 +1,6 @@
 ---
-title: Using a Database
+title: Using a Media Database
+group: content
 ---
 
 {:.bs-callout-warning}

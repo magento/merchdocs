@@ -42,5 +42,5 @@ Businesses that comply with GDPR might have additional obligations under the CCP
 - For data flow diagrams and database entity mapping, see the [Personal Information Reference][2]{: target="_blank"}.
 
 [1]: https://magento.com/gdpr
-[2]: https://devdocs.magento.com/compliance/privacy/pi-data-reference-m2.html
+[2]: {{ site.devdocs_url }}/compliance/privacy/pi-data-reference-m2.html
 [3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf

@@ -29,7 +29,7 @@ Because this recommendation type is not applicable to most catalogs, it is not e
 ### Enable Visual similarity recommendation type
 
 {:.bs-callout-info}
-The _Visual similarity_ recommendation type is available when you [install an optional module](https://devdocs.magento.com/recommendations/install-configure.html#vissimsupport).
+The _Visual similarity_ recommendation type is available when you [install an optional module]({{ site.devdocs_url }}/recommendations/install-configure.html#vissimsupport).
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Product Recommendations** to display the _Product Recommendations_ dashboard.
 

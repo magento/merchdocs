@@ -221,21 +221,21 @@ Returns a defined number of records of recent activity, that include the custome
 
 Returns the number of orders placed during the specified time period.
 
-      SELECT count(`Order`)
+      SELECT count(Order)
       FROM Transaction SINCE 1 day ago
 
 ### Total Order Value
 
 Returns the total number of line items ordered during the specified time period.
 
-      SELECT sum(LineItemCount)
+      SELECT sum(orderValue)
       FROM Transaction SINCE 1 day ago
 
 ### Total Line Items Ordered
 
 Returns the total number of line items ordered during the specified time period.
 
-      SELECT sum(LineItemCount)
+      SELECT sum(lineItemCount)
       FROM Transaction SINCE 1 day ago
 
 [1]: https://docs.newrelic.com/docs/insights/new-relic-insights/using-new-relic-query-language/nrql-reference

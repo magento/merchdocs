@@ -75,4 +75,4 @@ Starting with Magento 2.4.0, the contact form can no longer call inside a CMS bl
 
 By default, shoppers access the contact form using the Contact link in the footer of the storefront page. For more information about customizing the contact page, refer to our [Frontend Developer Guide][theme-guide]{:target="_blank"}.
 
-[theme-guide]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/bk-frontend-dev-guide.html
+[theme-guide]: {{ site.devdocs_url }}/guides/v{{ site.version }}/frontend-dev-guide/bk-frontend-dev-guide.html

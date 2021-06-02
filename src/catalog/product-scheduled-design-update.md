@@ -8,6 +8,8 @@ The Schedule Design Update section gives you the ability to make temporary chang
 ![]({% link images/images/product-design-update-scheduled.png %}){: .zoom}
 _Scheduled Design Update_
 
+## Field reference
+
 |Field|Description|
 |--- |--- |
 |Schedule Update From/To|Determines the range of dates when a custom layout is applied to the product.|
