@@ -40,6 +40,7 @@ When customers purchase more than 25 products, new orders enter as backorders. A
 <!--### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
 
 The _Notify for Quantity Below_ configuration option is configurable at the global, source, and product levels. When it is enabled, the system sends an email notification when the product quantity reaches a level at or below the configured value. For this example, a notification is triggered when the product has a quantity of 10 or less. When backorders are enabled, _Notify for Quantity Below_ is determined by the Salable Quantity (`Salable Quantity = Quantity - (Out-of-Stock Threshold)`). -->
+
 ### Stock status
 
 Products must be set to `In Stock` status when enabling backorders. You can set this through the _Product_ page. For multi source merchants, you must have at least one source marked as `In Stock`. Access and set the status through the _Product_ page and assigned _Sources_ grid.
