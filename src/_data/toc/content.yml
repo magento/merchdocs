@@ -33,27 +33,6 @@ pages:
         url: "/cms/page-duplicate.html"
       - label: Switching Home Pages
         url: "/cms/page-home-new.html"
-    - label: Media Storage
-      url: "/cms/media-storage.html"
-      children:
-      - label: Adobe Stock Integration
-        url: "/cms/adobe-stock.html"
-        children:
-        - label: Using Adobe Stock Images
-          url: "/cms/adobe-stock-manage.html"
-        - label: Save an Image Preview
-          url: "/cms/adobe-stock-save-preview.html"
-        - label: License an Image
-          url: "/cms/adobe-stock-license-image.html"
-      - label: New Media Gallery
-        url: "/cms/media-gallery.html"
-        children:
-          - label: Asset Management
-            url: "/cms/media-gallery-asset-management.html"
-          - label: Folder Management
-            url: "/cms/media-gallery-folder-management.html"
-          - label: Media Gallery Image Optimization
-            url: "/cms/media-gallery-image-optimization.html"
     - label: Using the Editor
       url: "/cms/editor.html"
       children:
@@ -177,6 +156,34 @@ pages:
       url: "/cms/page-builder-add-content-products.html"
     - label: Product Recommendations
       url: "/marketing/page-builder-add-product-recs.html"
+- label: Media Storage
+  url: "/cms/media-storage.html"
+  children:
+  - label: Adobe Stock Integration
+    url: "/cms/adobe-stock.html"
+    children:
+    - label: Using Adobe Stock Images
+      url: "/cms/adobe-stock-manage.html"
+    - label: Save an Image Preview
+      url: "/cms/adobe-stock-save-preview.html"
+    - label: License an Image
+      url: "/cms/adobe-stock-license-image.html"
+  - label: New Media Gallery
+    url: "/cms/media-gallery.html"
+    children:
+    - label: Asset Management
+      url: "/cms/media-gallery-asset-management.html"
+    - label: Folder Management
+      url: "/cms/media-gallery-folder-management.html"
+    - label: Media Gallery Image Optimization
+      url: "/cms/media-gallery-image-optimization.html"
+  - label: Alternate Media Storage
+    url: "/system/media-storage.html"
+    children:
+    - label: Using a Database
+      url: "/system/media-storage-database.html"
+    - label: Using a CDN
+      url: "/system/media-storage-content-delivery-network.html"
 - label: Design & Theme
   url: "/design/design-theme.html"
   children:

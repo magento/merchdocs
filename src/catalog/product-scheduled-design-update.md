@@ -12,6 +12,6 @@ _Scheduled Design Update_
 
 |Field|Description|
 |--- |--- |
-|Schedule Update|Scheduling date for updates from / to|
-|New Theme|Determines the current theme of the product. Options: **Magento Black**, **Magento Luma**.|
-|New Layout|Determines the layout that is used by default for product pages. Options:<br /> **No layout updates** - By default, layout updates are not available for product pages.<br /> **Empty** - By default, uses a blank layout for product pages.<br /> **1 column** - By default, uses a single column layout for product pages.<br /> **2 columns with left bar** - By default, uses a two-column layout with the sidebar on the left for product pages.<br /> **2 columns with right bar** - By default, uses a two-column layout with the sidebar on the right for product pages.<br /> **3 columns** - By default, uses a three-column layout with sidebars on the left and right for product pages.|
+|Schedule Update From/To|Determines the range of dates when a custom layout is applied to the product.|
+|New Theme|Applies a custom theme to the product.|
+|New Layout|Applies a different layout to the product page. Options: <br/>**No layout updates** - By default, layout updates are not available for the product page. <br/>**Empty** - Allows you define your own layout, such as a 4-column page. (Requires an understanding of XML.) <br/>**1 column** - Applies a one-column layout to the product page. <br/>**2 columns with left bar** - Applies a two-column layout with a left sidebar to the product page. <br/>**2 columns with right bar** - Applies a two-column layout with a right sidebar to the product page. <br/>**3 columns** - Applies a three-column layout to the product page.|
