@@ -31,6 +31,10 @@ After each scheduled import job, a reindex operation is performed automatically.
 
    - **Entity Type** — Set to one of the following: `Products` or `Customers`
 
+      For the `Advanced Pricing`, `Products`, `Customers and Addresses (single file)`, `Stock Sources` entity’s types are displayed such import behaviors as: Add/Update, Replace, Delete.
+
+      For the `Customer Finances`, `Customers Main File`, `Customers and Addresses` entity’s types are displayed such import behaviors as: Add/Update Complex Data, Delete Entities, Custom Action.
+
    - **Import Behavior** — Set to one of the following:
 
       - `Add/Update Complex Data` — Adds or updates new complex data to the existing complex data for existing entries in the database. This is the default value.
