@@ -50,7 +50,7 @@ When you create a SaaS project, Magento generates one or more SaaS environments 
 ### Create SaaS Environment {#createsaasenv}
 
 {:.bs-callout-info}
-If you do not see the **Commerce Services Connector** section in the Magento configuration, you need to install the desired Commerce Service, such as [Product Recommendations](https://devdocs.magento.com/recommendations/install-configure.html).
+If you do not see the **Commerce Services Connector** section in the Magento configuration, you need to install the desired Commerce Service, such as [Product Recommendations]({{ site.devdocs_url }}/recommendations/install-configure.html).
 
 To create a SaaS Environment, request the Magento API key from the Magento license holder for your store.
 

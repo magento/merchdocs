@@ -50,4 +50,4 @@ Template Files  | Minify
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-[1]: https://devdocs.magento.com/guides/v2.4/performance-best-practices/introduction.html#client-side-optimization-settings
+[1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/performance-best-practices/introduction.html#client-side-optimization-settings

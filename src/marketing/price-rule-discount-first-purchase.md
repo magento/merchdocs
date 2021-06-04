@@ -67,7 +67,7 @@ Make note of the segment ID. You'll use the ID number to create the cart price r
 
 ## Step 2. Create the Cart Price Rule
 
-1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Catalog Price Rule**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Cart Price Rule**.
 
 1. In the upper-right corner, click <span class="btn">Add New Rule</span>.
 

@@ -22,7 +22,7 @@ Google reCAPTCHA is configured separately for the Magento Admin and storefront.
 - _reCAPTCHA v2 ("I am not a robot")_ — Validates requests with the _"I'm not a robot"_ checkbox.
 
 {:.bs-callout-warning}
-Before Google reCAPTCHA can be configured, ensure that your `PHP.ini` file includes the following setting: `allow_url_fopen = 1`. This may require developer assistance. See [Required PHP Settings](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html){:target="_blank"}.
+Before Google reCAPTCHA can be configured, ensure that your `PHP.ini` file includes the following setting: `allow_url_fopen = 1`. This may require developer assistance. See [Required PHP Settings]({{ site.devdocs_url }}/guides/v{{ site.version }}/install-gde/prereq/php-settings.html){:target="_blank"}.
 
 ## Step 1: Generate Google reCAPTCHA keys
 

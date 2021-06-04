@@ -19,7 +19,7 @@ pages:
           url: "/sales-channels/asc/about-amazon-sales-channel.html"
         - label: About Amazon Marketplace
           url: "/sales-channels/asc/about-amazon-marketplace.html"
-        - label: About Amazon and your Magento Catalog
+        - label: About Amazon and your Commerce Catalog
           url: "/sales-channels/asc/about-listings-and-catalog.html"
         - label: Best Practices and Limitations
           url: "/sales-channels/asc/amazon-best-practices.html"
@@ -29,7 +29,7 @@ pages:
         - label: Pre-Setup Tasks
           url: "/sales-channels/asc/amazon-pre-setup-tasks.html"
           children:
-          - label: Create Magento Attributes for Amazon
+          - label: Create Commerce Attributes for Amazon
             url: "/sales-channels/asc/ob-creating-magento-attributes.html"
         - label: Verify the Amazon API Key
           url: "/sales-channels/asc/amazon-verify-api-key.html"
@@ -61,7 +61,7 @@ pages:
       - label: Amazon Store Dashboard
         url: "/sales-channels/asc/amazon-store-dashboard.html"
       - label: Manage Store Settings
-        url: "/sales-channels/asc/ob-store-review.html" 
+        url: "/sales-channels/asc/ob-store-review.html"
         children:
         - label: Listing Settings
           url: "/sales-channels/asc/listing-settings.html"

@@ -39,7 +39,7 @@ To enable and configure Klarna for your Magento store, you need the following in
    ![Generate Klarna API Credentials]({% link images/images/payments-klarna-dashboard-playground-settings.png %}){: .zoom}
    _Generate Klarna API Credentials_
 
-### Step 2: Copy installation scripts (optional)
+### Step 2: Enable Klarna On-site Messaging (optional)
 
 To enable the display of Klarna promotional messages in your storefront, do the following:
 

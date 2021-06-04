@@ -36,4 +36,4 @@ For more information about Accessibility, see [Accessibility Guidelines][2]{:tar
 |Scroll Horizontally|`Left`, `Right`|
 
 [1]: https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts
-[2]: https://devdocs.magento.com/guides/v2.4/pattern-library/general/accessibilityguideline/accessibilityGuideline.html
+[2]: {{ site.devdocs_url }}/guides/v{{ site.version }}/pattern-library/general/accessibilityguideline/accessibilityGuideline.html

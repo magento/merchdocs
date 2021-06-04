@@ -13,4 +13,4 @@ Magento themes include layout files, template files, translation files, and skin
 ![]({% link images/images/design-responsive.png %}){: .zoom}
 _Luma theme_
 
-[1]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/themes/theme-overview.html
+[1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/frontend-dev-guide/themes/theme-overview.html

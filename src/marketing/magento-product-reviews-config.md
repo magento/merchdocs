@@ -17,11 +17,11 @@ To set these fields to `No` and disable Magento Product Reviews, you must clear 
 
 1. Set **Enabled** to `Yes`.
 
-   This is the default setting.
+   This is the default setting that enables product reviews.
 
 1. Set **Allow Guests to Write Reviews** to `Yes`.
 
-   This is the default setting.
+   This is the default setting that determines if customers must open an account with your store to be able to write product reviews.
 
 1. When complete, click <span class="btn">Save Config</span>.
 

@@ -9,7 +9,7 @@ Product recommendations are a powerful marketing tool you can use to increase co
 You can create, manage, and deploy recommendations across your store views directly from the Magento Admin panel. If you have implemented your storefront using PWA Studio, see the [PWA documentation](https://magento.github.io/pwa-studio/product-recs).
 
 {:.bs-callout-info}
-For information about installing product recommendations modules, refer to the [developer documentation](https://devdocs.magento.com/recommendations/install-configure.html).
+For information about installing product recommendations modules, refer to the [developer documentation]({{ site.devdocs_url }}/recommendations/install-configure.html).
 
 ## Dashboard {#dashboard}
 
@@ -30,7 +30,7 @@ Some recommendation types use behavioral data from your shoppers to train machin
 
 So when can you start using recommendation types that use behavioral data? It depends. This is referred to as the _Cold Start_ problem.
 
-The _Cold Start_ problem is a measure of how much time a model needs to train before it can be considered high quality. In product recommendations, it translates to waiting for Adobe Sensei to train its machine learning models before deploying recommendation units on your site. The more data these models have, the more accurate and useful the recommendations will be. Collecting this data takes time and will vary based on traffic volume. Because this data can be collected only on a production site, it is in your best interest to deploy data collection there as early as possible. You can do this by [installing and configuring](https://devdocs.magento.com/recommendations/install-configure.html) the `magento/production-recommendations` module.
+The _Cold Start_ problem is a measure of how much time a model needs to train before it can be considered high quality. In product recommendations, it translates to waiting for Adobe Sensei to train its machine learning models before deploying recommendation units on your site. The more data these models have, the more accurate and useful the recommendations will be. Collecting this data takes time and will vary based on traffic volume. Because this data can be collected only on a production site, it is in your best interest to deploy data collection there as early as possible. You can do this by [installing and configuring]({{ site.devdocs_url }}/recommendations/install-configure.html) the `magento/production-recommendations` module.
 
 The following table provides some general guidance for the amount of time it takes to collect enough data for each recommendation type:
 
@@ -47,7 +47,7 @@ Other variables that can impact the time needed to train:
 - Some recommendation types train faster than others
 - Magento recomputes behavioral data every four hours. While you can technically deploy your recommendation units at that time, know that the recommendations will become more accurate the longer they are used on your site.
 
-While data is collected on production and machine learning models are trained, you can implement the [remaining tasks necessary](https://devdocs.magento.com/recommendations/implementation.html) to deploy recommendations to your storefront. By the time you have finished testing and configuring recommendations, the machine learning models will have collected and computed enough data to build relevant recommendations thus allowing you to deploy the recommendations to your storefront.
+While data is collected on production and machine learning models are trained, you can implement the [remaining tasks necessary]({{ site.devdocs_url }}/recommendations/implementation.html) to deploy recommendations to your storefront. By the time you have finished testing and configuring recommendations, the machine learning models will have collected and computed enough data to build relevant recommendations thus allowing you to deploy the recommendations to your storefront.
 
 {:.bs-callout-info}
 Until there is enough training data collected, Magento uses [backup recommendations](#backup-recommendations) to populate your recommendation units.

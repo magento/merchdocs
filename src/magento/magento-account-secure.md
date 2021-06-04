@@ -1,5 +1,5 @@
 ---
-title: Securing Your Magento Account
+title: Securing Your Commerce Account
 group: getting-started
 ---
 

@@ -61,7 +61,7 @@ As a precaution, do not try to change the Admin URL yourself unless you know how
    This method allows you to change the Admin Path, but not the Admin URL.
 
    {:.bs-callout-tip}
-    On Magento Cloud, a custom admin path may be set using the **ADMIN_URL** variable in the Cloud UI. See the [Admin variables topic](https://devdocs.magento.com/cloud/env/environment-vars_magento.html#admin-url) in the _Magento Commerce Cloud guide_.
+    On Magento Cloud, a custom admin path may be set using the **ADMIN_URL** variable in the Cloud UI. See the [Admin variables topic]({{ site.devdocs_url }}/cloud/env/environment-vars_magento.html#admin-url) in the _Magento Commerce Cloud guide_.
 
    - **Default Admin Path**
       ```php?start_inline=1
