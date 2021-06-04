@@ -33,7 +33,7 @@ _Add facet_
 
    The facet becomes available in the storefront the next time the catalog is synchronized with Live Search. Depending on the [index mode]({% link system/index-management.md %}) that is set for the _Product Attributes Feed_, it can take some time for the updated attribute to appear in the list of available facets. For best results, set the index mode for the _Product Attribute Feed_ to `Update on Schedule`.
 
-   If the facet isn't available after two hours, see [Verify Catalog Sync](https://devdocs-beta.magento.com/live-search/config-connect.html) in the developer documentation.
+   If the facet isn't available after two hours, see [Verify Catalog Sync]({{ site.devdocs_url }}/live-search/config-connect.html) in the developer documentation.
 
 ## Step 2: Edit facet properties (Optional)
 
@@ -58,7 +58,7 @@ _Add facet_
 1. When the facet is complete, click <span class="btn">Publish changes</span>.
 1. Wait for the facet to appear in the store.
 
-   If the facet isn't available after two hours, see [Verify catalog sync](https://devdocs-beta.magento.com/live-search/config-connect.html) in the developer documentation.
+   If the facet isn't available after two hours, see [Verify catalog sync]({{ site.devdocs_url }}/live-search/config-connect.html) in the developer documentation.
 
    ![Faceting workspace]({% link live-search/assets/facets-publish.png %}){: .zoom}
    _Publish changes_
