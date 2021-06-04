@@ -118,6 +118,34 @@ You can save time by duplicating a slide that has already been configured with t
 
 1. When complete, click <span class="btn">Save</span> in the upper-right corner to close the _Edit Slide_ page.
 
+### Add widget on a slide
+
+You can add any [widgets type]({% link cms/widget-types.md %}) to your slide in a Page Builder stage using the following steps:
+
+1. [Create the widget]({% link cms/widget-create.md %}) you want to see on a slide.
+
+1. Open the page, block, or dynamic block where you want to place the slider and expand the **Content** section.
+
+1. In the Page Builder panel, expand **Media** and drag a **Slider** placeholder to a row, column, or tab on the stage.
+
+1. Click in the slider container to display the [text editor]({% link cms/editor.md %}) toolbar and click the _Insert Widget_ ![]({% link images/images/editor4-toolbar/btn-insert-widget.png  %})) icon.
+
+1. Select the **Widget Type** you need.
+
+1. Specify the settings, which are different depending on the type of widget
+
+   ![]({% link images/images-ee/insert-widget-to-slide-page.png %}){: .zoom}
+   _Example of inserting widget on the slide_
+
+1. When complete, click <span class="btn">Insert Widget</span> in the upper-right corner.
+
+1. Modify the other settings as needed.
+
+1. When complete, click <span class="btn">Save</span> in the upper-right corner.
+
+   ![]({% link images/images-ee/inserting-widget-on-slide.png %}){: .zoom}
+   _Example of inserted widget on the slide_
+
 ### View each slide
 
 To display each slide on the stage, click the next dot below the currently displayed slide.
