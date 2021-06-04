@@ -58,4 +58,4 @@ The [PayPal Settlement Report]({% link payment/paypal-settlement-reports.md %}) 
 ![]({% link images/images/reports-sales-braintree-settlement.png %}){: .zoom}
 *Braintree Settlement Report*
 
-The [Braintree]({% link payment/braintree.md %}) Settlement Report can be filtered according to creation date, amount, status, transaction type, payment type, transaction ID, order ID, PayPal payment ID, type, merchant account ID or settlement batch ID. The report contains the transaction ID, order ID, PayPal payment ID, type, creation date, amount, settlement code, status, settlement response text, reimbursement IDs, merchant account ID, settlement batch ID and the currency used.
+The [Braintree]({% link payment/braintree.md %}) Settlement Report can be filtered according to creation date, amount, status, transaction type, payment type, transaction ID, order ID, PayPal payment ID, type, merchant account ID or settlement batch ID. The report contains the transaction ID, order ID, PayPal payment ID, type, creation date, amount, settlement code, status, settlement response text, reimbursement IDs, merchant account ID, settlement batch ID, and the currency used.
