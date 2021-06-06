@@ -113,13 +113,13 @@ Select the type of data and input control that is associated with the attribute.
 |**_Custom Types_**| |
 |Text|Displays the attribute as a text field.|
 |Select|Displays the attribute as a drop-down list.|
-|Date|Displays the attribute as a date field.|
-|Country|Displays the attribute as a drop-down list of countries. Set Show Region to: Yes / No.|
+|Date|Displays the attribute as a date field. Options: Short (3/23/2014) / Medium (Mar 23, 1914) / Long (March 23, 1914) / Full (Sunday, March 23, 2014)|
+|Country|Displays the attribute as a drop-down list of countries. Set **Show Region** to: Yes / No.|
 |**_Static Types_**| |
 |Event Date|Determines how the date attribute is used in the store. Options: <br/>**Searchable** - Determines if the attribute is available for Advanced Search. Options: Yes / No.<br/>**Is Listed** - Determines if the event is included in the list of events that is available in the store. Options: Yes / No. <br/>**Date Format** - Determines the format of the event date. Options: Short (3/23/2014) / Medium (Mar 23, 1914) / Long (March 23, 1914) / Full (Sunday, March 23, 2014)|
-|Event Country|Displays the attribute as a drop-down list of countries. Set Show Region to: Yes / No.|
-|Event Location|The location of the event that is related to the gift registry.|
-|Role|The role that identifies who the gift is for. For example, `Bride`, `Groom`, or `Partner`.|
+|Event Country|Displays the attribute as a drop-down list of countries. Options: <br/>**Searchable** - Determines if the attribute is available for Advanced Search. Options: Yes / No.<br/>**Is Listed** - Determines if the event is included in the list of events that is available in the store. Options: Yes / No. <br/>**Show Region** - Determines the region of the event.|
+|Event Location|The location of the event that is related to the gift registry. <br/>Set **Is Searcheable** to: Yes / No <br/>Set **Is Listed** to: Yes / No|
+|Role|The role that identifies who the gift is for. <br/>Set **Is Searcheable** to: Yes / No <br/>Set **Is Listed** to: Yes / No <br/>For example, `Bride`, `Groom`, or `Partner`.|
 
 #### Attribute Group Options
 
@@ -130,6 +130,7 @@ Select the group where the attribute is listed in the gift registry.
 |Gift Registry Properties|Combines all attributes that add information directly about the gift registry.|
 |Privacy Settings|Lists the attributes that add information about the gift registry event privacy.|
 |Recipients Information|Groups the attributes that provide information about the person who creates a gift registry.|
+|Shipping Address|Combines the attributes that add information about the gift registry event shipping address.|
 
 <!--
   This is a style declaration so that long field names and sub headings in column 1 are not wrapped by table auto styling for column widths.

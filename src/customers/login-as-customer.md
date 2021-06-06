@@ -62,6 +62,18 @@ Enabling Login as Customer requires that you enable the feature in your Magento 
 
 1. Click <span class="btn">Save Role</span>.
 
+## Login as a customer from the admin panel
+
+1. On the _Admin_ sidebar, go to **Customers** > _All Customers_.
+
+1. Open a user in edit mode.
+
+1. In the **Customer Information** panel, choose the **Account Information** section.
+
+1. Set the **Allow remote shopping assistance** to `Yes`.
+
+   The administrator can now log in as a user without their permission from the storefront.
+
 {:.ee-only}
 ## Login as Customer logging
 
