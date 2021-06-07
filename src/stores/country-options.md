@@ -52,4 +52,4 @@ You can also configure shipping to specific countries for each available [delive
 1. When complete, click <span class="btn">Save Config</span>.
 
 ![]({% link images/images/country-options-for-specific-delivery-method.png %}){: .zoom}
-_Example of setting the country options for DNL delivery method_
+_Example of setting the country options for DHL delivery method_
