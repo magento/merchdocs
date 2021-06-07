@@ -41,7 +41,7 @@ You can also configure shipping to specific countries for each available [delive
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
- 1. In the left panel, expand **Sales** and choose **Delivery Methods**.
+1. In the left panel, expand **Sales** and choose **Delivery Methods**.
 
 1. Select the shipping carrier to which you want to apply specific countries.
 
