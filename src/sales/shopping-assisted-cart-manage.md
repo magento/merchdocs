@@ -65,7 +65,7 @@ _Shopping Cart in in the customer account_
 
 ### Add a product with configuration
 
-There are 4 types of products that need to be configured before adding to the cart: `Bundle Product`, `Configurable Product`, `Grouped Product`.
+There are three types of products that need to be configured before adding to the cart: `Bundle Product`, `Configurable Product`, and `Grouped Product`.
 
 1. In the grid, click **Configure** next to the product name.
 
