@@ -19,6 +19,69 @@ _Customer Profile_{:.ee-only}
 
 1. When complete, click <span class="btn">Save Customer</span>.
 
+## Customer information block
+
+### Customer View
+
+The `Customer View` tab lists information about the customer, includes **Personal Information**, **Reward Points Balance** and Store **Credit Balance**.
+
+### Account Information
+
+The `Account Information` tab provides detailed information about the customer, where the admin can edit personal information, email, remote shopping assistance, date of birth, and attach customer to website or company. 
+
+### Addresses
+
+The `Addresses` tab contains the customer’s default billing and shipping addresses, and any additional addresses that they frequently use.
+
+{:.b2b-only}
+### Quotes
+
+The `Quotes` section lists each quote received and maintains for this customer.
+
+### Orders
+
+The `Orders` grid contains a list of all current customer orders, the administrator can track their progress.
+
+{:.ee-only}
+### Returns
+
+The `Returns` tab lists the current returned customer requests.
+
+### Shopping cart
+
+The `Shopping cart` tab displays products that are currently in the cart, but for some reason, the purchase was not completed.
+
+### Wish List
+
+A `Wish List` displays a list of products that a customer can transfer to the cart at a later date.
+
+{:.ee-only}
+### Store Credit
+
+The `Store credit` tab displays an amount that is restored to a customer account, the admin can manage this value.
+
+{:.ee-only}
+### Gift Registry
+
+The `Gift Registry` section lists the customer’s current gift registries and the associated event. 
+
+### Newsletter
+
+The `Newsletter` tab displays all emails sent to the current customer.
+
+### Billing Agreements
+
+The `Billing Agreements` tab lists all PayPal billing agreements between the store and the customer.
+
+### Product Reviews
+
+The `Product Reviews` tab displays all the reviews submitted by this сustomer.
+
+{:.ee-only}
+### Reward Points
+
+The `Reward Points` section shows the current balance of reward points earned by the customer, the admin can manage this value.
+
 ## Button bar
 
 {: .buttons-table }
