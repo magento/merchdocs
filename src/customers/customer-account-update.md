@@ -27,7 +27,7 @@ The `Customer View` tab lists information about the customer, includes **Persona
 
 ### Account Information
 
-The `Account Information` tab provides detailed information about the customer, where the admin can edit personal information, email, remote shopping assistance, date of birth, and attach customer to website or company. 
+The `Account Information` tab provides detailed information about the customer, where the admin can edit personal information, email, remote shopping assistance, date of birth, and attach customer to website or company.
 
 ### Addresses
 
@@ -63,7 +63,7 @@ The `Store credit` tab displays an amount that is restored to a customer account
 {:.ee-only}
 ### Gift Registry
 
-The `Gift Registry` section lists the customer’s current gift registries and the associated event. 
+The `Gift Registry` section lists the customer’s current gift registries and the associated event.
 
 ### Newsletter
 
