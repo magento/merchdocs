@@ -73,6 +73,16 @@ _MySQL Message Queue Cleanup_
 |--- |--- |--- |
 |Installed Currencies|Global|Indicates the currencies that are currently available to the Magento installation. Options include all available currencies, with installed currencies selected.|
 
+## Security
+
+![]({% link images/images/session-size-settings.png %}){: .zoom}
+[_Currency_]({% link stores/security.md %})
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Max Session Size in Admin|Global|Limit the maximum sessions size in bytes. Use `0` to disable.|
+|Max Session Size in Storefront|Global|Limit the maximum sessions size in bytes. Use `0` to disable.|
+
 ## Notifications
 
 ![]({% link images/images/config-advanced-system-notifications.png %}){: .zoom}

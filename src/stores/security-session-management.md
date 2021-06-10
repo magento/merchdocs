@@ -16,7 +16,7 @@ Both settings are measured in bytes and default to `256000` bytes (or 256KB).
 
 1. In the left panel, expand **Advanced** and choose **System**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Security** section to access the session settings.
+1. Expand ![Expansion selector]({% link /images/images/btn-expand.png %}) the **Security** section to access the session settings.
 
    ![Session settings]({% link /images/images/session-size-settings.png %}){: .zoom}
 
@@ -31,7 +31,7 @@ Both settings are measured in bytes and default to `256000` bytes (or 256KB).
 
 If you exceed the maximum session size, an error displays and the system logs the session size constraint to the `var/log` directory.
 
-![Admin session size error]({% link /images/images/admin-session-error.png})
+![Admin session size error]({% link /images/images/admin-session-error.png %})
 
 If you lose access to the Admin after setting the session size too low, use the CLI to reset the configuration:
 
