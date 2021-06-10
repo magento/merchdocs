@@ -240,6 +240,8 @@ pages:
         url: "/stores/security-two-factor-authentication-use.html"
       - label: Managing 2FA
         url: "/stores/security-two-factor-authentication-manage.html"
+    - label: Session Management
+      url: "/stores/security-session-management.html"
     - label: Session Validation
       url: "/stores/security-session-validation.html"
     - label: Browser Capabilities Detection
