@@ -4,8 +4,8 @@ title: Session Management
 
 Session management is an anti-denial of service (DoS) best practice for API security. Use the following configuration settings to limit the maximum session size for Admin users and storefront visitors:
 
-*  **Max Session Size in Admin**—Limit the maximum sessions size in bytes. Use `0` to disable.
-*  **Max Session Size in Storefront**—Limit the maximum sessions size in bytes. Use `0` to disable.
+- **Max Session Size in Admin**—Limit the maximum sessions size in bytes. Use `0` to disable.
+- **Max Session Size in Storefront**—Limit the maximum sessions size in bytes. Use `0` to disable.
 
 {:.bs-callout-tip}
 Both settings are measured in bytes and default to `256000` bytes (or 256KB).
