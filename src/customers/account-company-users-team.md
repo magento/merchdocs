@@ -8,6 +8,13 @@ When teams and users are first added to the [company structure]({% link customer
 ![]({% link images/images-b2b/customer-company-users-added.png %}){: .zoom}
 _Company Structure with Users and Teams_
 
+|Control|Description|
+|--- |--- |
+|Collapse All / Expand All |Either collapses or expands the business structure tree|
+|Add User|Creates a new user below the current team|
+|Add Team|Creates a new team|
+|Edit Selected / Delete Selected|Edits or removes users from the business tree|
+
 ## Assign users to teams
 
 1. From the storefront, sign in to your account as the company administrator.
