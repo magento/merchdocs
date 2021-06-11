@@ -76,7 +76,7 @@ _MySQL Message Queue Cleanup_
 ## Security
 
 ![]({% link images/images/session-size-settings.png %}){: .zoom}
-[_Currency_]({% link stores/security.md %})
+[_Security_]({% link stores/security-session-management.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

@@ -2,7 +2,9 @@
 title: Session Management
 ---
 
-[Session management](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html) is as anti-denial of service (DoS) best practice for API security. A session represents the amount of time a visitor spends on your site.
+[Session management](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html) is as anti-denial of service (DoS) best practice for API security. A session represents the amount of time a visitor spends on your site and is not related to how long Admin users our customers are logged in to their accounts.
+
+A session is a sequence of network HTTP request and response transactions associated with the same user. It is a way to associate a client (Admin) with their data when they access the server. Sessions provide the ability to establish variables, such as access rights and localization settings, which apply to every interaction a user has with a web application for the duration of the session.
 
 Use the following configuration settings to limit the maximum session size for Admin users and storefront visitors:
 
