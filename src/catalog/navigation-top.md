@@ -22,7 +22,7 @@ The category structure of your catalog can influence how well your site is index
 
 For a category to appear in the top navigation of a store, complete the following steps:
 
-### Step 1: Create a Category
+### Step 1: Create a category
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
 
