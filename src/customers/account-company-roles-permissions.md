@@ -108,10 +108,11 @@ The system has one predefined Default User role, which you can use “as is" or 
       - Edit
    - Contacts (View)
    - Payment Information (View)
+   - Shipping Information (View)
 - Company User Management
    - View roles and permissions
       - Manage roles and permissions
    - View users and teams
-   - Manage users and teams
+      - Manage users and teams
 - Company Credit
    - View
