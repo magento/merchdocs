@@ -80,5 +80,5 @@ To use New Relic APM Pro to gather and transmit data, the PHP agent must be ins
 [1]: http://newrelic.com/
 [2]: http://newrelic.com/magento
 [3]: https://docs.newrelic.com/docs/agents/php-agent/getting-started/new-relic-php
-[4]: https://devdocs.magento.com/cloud/project/new-relic.html
-[5]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html
+[4]: {{ site.devdocs_url }}/cloud/project/new-relic.html
+[5]: {{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/cli/config-cli-subcommands-cron.html

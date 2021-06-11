@@ -10,7 +10,7 @@ Available Yotpo features and customization options are dependent on the Yotpo pl
 
 ## Release notes
 
-The Yotpo integration is a third-party extension that we have thoroughly tested and included with each supported version of Magento Open Source and Magento Commerce. Installing or upgrading Magento also installs updates to this extension. For information about the updates to the extension, see the [Release Notes](https://devdocs.magento.com/extensions/vendor/yotpo/release-notes.html) in our developer documentation.
+The Yotpo integration is a third-party extension that we have thoroughly tested and included with each supported version of Magento Open Source and Magento Commerce. Installing or upgrading Magento also installs updates to this extension. For information about the updates to the extension, see the [Release Notes]({{ site.devdocs_url }}/extensions/vendor/yotpo/release-notes.html) in our developer documentation.
 
 {:.bs-callout-info}
 For Magento versions prior to 2.3.3, the Yotpo extension must be installed from [Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=yotpo).

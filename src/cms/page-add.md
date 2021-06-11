@@ -132,6 +132,11 @@ _Pages Grid_
 
    For more information, see [Layout Updates]({% link design/layout-updates.md %}).
 
+1. To change the theme of the page, set **New Theme** to one of the following:
+
+   - `Magento Black`
+   - `Magento Luma`
+
 1. {:.ce-only}To schedule a design change, expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Custom Design Update** and do the following:
 
    ![]({% link images/images/page-custom-design-update.png %}){: .zoom}
@@ -166,9 +171,9 @@ _Pages Grid_
 
 |Command|Description|
 |--- |--- |
-|Save|Save the current page, and continue working.|
-|Save & New|Save and close the current page, and begin a new page.|
-|Save & Duplicate|Save and close the current page, and open a new duplicate copy.|
-|Save & Close|Save and close the current page, and return to the Pages grid.|
+|Save|Save the current page, and continue working|
+|Save & New|Save and close the current page, and begin a new page|
+|Save & Duplicate|Save and close the current page, and open a new duplicate copy|
+|Save & Close|Save and close the current page, and return to the Pages grid|
 
-[1]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/layouts/xml-instructions.html
+[1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/frontend-dev-guide/layouts/xml-instructions.html

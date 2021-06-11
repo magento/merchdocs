@@ -16,7 +16,7 @@ Through the Admin UI in your non-production environment, you can fetch recommend
 
 Before you begin, make sure that:
 
-- Storefront data collection is [configured and enabled](https://devdocs.magento.com/recommendations/verify.html) on production.
+- Storefront data collection is [configured and enabled]({{ site.devdocs_url }}/recommendations/verify.html) on production.
 - Your non-production environment catalog is largely the same as the one that you have in production. Using similar catalogs ensures that the products returned in the recommendation units closely mimic those on production.
 
 1. Launch your non-production environment.

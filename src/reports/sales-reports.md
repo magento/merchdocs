@@ -52,3 +52,10 @@ The [Coupons Report]({% link marketing/price-rules-cart-coupon-report.md %}) can
 *PayPal Settlement Report*
 
 The [PayPal Settlement Report]({% link payment/paypal-settlement-reports.md %}) can be filtered by date, merchant account, transaction ID, invoice ID, or PayPal reference ID. The report includes the type of event, such as a debit card transaction, the start and finish dates, gross amount, and related fees. The report can be automatically updated with the most current data from PayPal.
+
+## Braintree Settlement
+
+![]({% link images/images/reports-sales-braintree-settlement.png %}){: .zoom}
+*Braintree Settlement Report*
+
+The [Braintree]({% link payment/braintree.md %}) Settlement Report can be filtered according to creation date, amount, status, transaction type, payment type, transaction ID, order ID, PayPal payment ID, type, merchant account ID or settlement batch ID. The report contains the transaction ID, order ID, PayPal payment ID, type, creation date, amount, settlement code, status, settlement response text, reimbursement IDs, merchant account ID, settlement batch ID, and the currency used.

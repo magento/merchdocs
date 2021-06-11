@@ -17,4 +17,4 @@ To learn about Magento Commerce for B2B from a technical perspective, see the [B
 
 ![Example of company structure]({% link images/images-b2b/diagram-company-structure.png %}){: .zoom}
 
-[1]: https://devdocs.magento.com/guides/v2.4/b2b/bk-b2b.html
+[1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/b2b/bk-b2b.html

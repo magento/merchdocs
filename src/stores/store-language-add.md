@@ -51,4 +51,4 @@ Follow the standard instructions to install the language pack extension. For det
     After you change the language of the locale, the remaining content that you have created, including [product]({% link catalog/product-translate.md %}) names and descriptions, categories, [CMS]({% link cms/page-translate.md %}) pages, and blocks must be translated separately for each store view.
 
 [1]: https://marketplace.magento.com/extensions/content-customizations/translations-localization.html
-[2]: https://devdocs.magento.com/extensions/install/
+[2]: {{ site.devdocs_url }}/extensions/install/

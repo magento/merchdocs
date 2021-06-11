@@ -135,8 +135,8 @@ Vertex | Vertex tax calculation data | `VERTEX`
    - Flush Js/Css
    - Flush Static Files
 
-[1]: https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/cache_for_frontdevs.html
-[2]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cache.html
+[1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/frontend-dev-guide/cache_for_frontdevs.html
+[2]: {{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/cli/config-cli-subcommands-cache.html
 
 <!--
   This is a style declaration so that button text is not wrapped by table auto styling for column widths.
