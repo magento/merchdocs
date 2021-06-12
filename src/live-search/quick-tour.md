@@ -7,43 +7,33 @@ group: marketing
 
 With a focus on speed, relevance, and ease of use, Live Search is a game changer for shoppers and merchants alike. Follow along for a quick tour of Live Search from the storefront.
 
-### Quick search
-
-Enhanced quick search combines elements of search and browse, and returns categories, suggestions, and a thumbnail image of the top search results.
-
 ### Search as you type
 
-Live Search returns dynamic and responsive results as soon as the shopper starts typing.
+Live Search responds as shoppers type queries into the [Search]({% link catalog/search-quick.md %}) box with suggestions and a thumbnail image of the top results in a popover. Shoppers can go immediately to the [product detail]({% link quick-tour/product-page.md %}) page by clicking a featured suggested product or image.
 
-### Synonyms
-
-Synonyms expand the reach and sharpen the focus of queries by including words shoppers might use that differ from those in your catalog. Merchants can fine tune the synonym dictionary to keep shoppers on the path to purchase.
-
-![Example storefront - quick search]({% link live-search/assets/storefront-quick-search.png %}){: .zoom}
-_Enhanced quick search_
+![Example storefront - search as you type]({% link live-search/assets/storefront-search-as-you-type.png %}){: .zoom}
+_Search as you type_
 
 ### Infinite scroll
 
-When shoppers click View all items, there is no need to navigate through pages of search results because additional items appear naturally as they scroll down the page.
+When shoppers click _View all_ from the Live Search popover, additional items appear naturally as the shopper scrolls down the page. There is no need to navigate through pages of static search results.
 
-### Faceted search
+Notice that a search box with the current query appears just above the results. Simply change the query in that box to instantly update the results.
 
-The Filters list in the left sidebar lists the available values derived from the current set of returned products. Filtered search uses multiple dimensions of static and dynamic attribute values, or facets, as search criteria. The selection of filters changes according to the products returned.
+![Example storefront - view all]({% link live-search/assets/storefront-view-all.png %}){: .zoom}
+_View all_
 
-Product prices are grouped into price ranges that make it easy to shop by price. Unlike price navigation, each price range overlaps the next by one dollar to smooth the transition from one range to the next.
+### Filtered search with facets
 
-![Example storefront - filters]({% link live-search/assets/storefront-filters.png %}){: .zoom}
-_Price Ranges_
+The Filters list in the left sidebar shows the available values derived from the current set of returned products. Filtered search uses multiple dimensions of attribute values, or [facets]({% link live-search/facets.md %}), as search criteria. The selection of filters is defined by the merchant and changes according to the products returned, with the most commonly-used facets pinned to the top of the list.
 
-### Enhanced category browse
+![Example storefront - price facets]({% link live-search/assets/storefront-filters.png %}){: .zoom}
+_Filtered search_
 
-When a shopper browses by category from the main menu, a paginated results list is returned with layered navigation in the left sidebar. However, just below the paginated list is an additional list of filterable search results that operates independently of the first list. Shoppers can browse by category and conduct a different filtered search from the same page.
+### Synonyms
 
-Individual child SKUs are supported for configurable products, which makes it possible to browse directly to a specific product variation by SKU rather than to the parent product.
-
-![Example storefront - category browse and filterable search]({% link live-search/assets/storefront-browse-search.png %}){: .zoom}
-_Category browse and filterable search results_
+[Synonyms]({% link live-search/synonyms.md %}) expand the reach and sharpen the focus of queries by including words shoppers might use that differ from those in the catalog. You can fine tune the synonym dictionary to keep shoppers engaged and on the path to purchase.
 
 ### Merchandising rules
 
-Shape the shopping experience with if-then statements that add logic and events to search. Boost or bury products for a promotion, season, or other period of time.
+Merchandising [rules]({% link live-search/rules.md %}) shape the shopping experience with if-then statements that add logic and events to search. You can easily boost or bury products for a promotion, season, or other period of time.
