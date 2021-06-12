@@ -5,7 +5,7 @@ tag: live-search
 group: marketing
 ---
 
-There are two distinct types of facets: Pinned and Dynamic. In addition, there are several characteristics that affect their presentation and behavior. You can specify which attributes you want to be returned. At query time, Live Search generates the search results organized into two groups of facets: Intelligent and Popular facets.
+There are two distinct types of facets: Pinned and Dynamic. In addition, there are several characteristics that affect their presentation and behavior. You can specify which attributes you want to be returned. At query time, Live Search generates the search results organized into groups of intelligent and popular facets.
 
 ### Pinned
 
@@ -17,17 +17,22 @@ To streamline search results, facets that you define are dynamic by default. Dyn
 
 - Popular facets - Product attributes that are most often present in search results.
 
-- Price ranges - By default, prices are organized into ranges, distributed according to the number of products returned, and rounded to the nearest $5.00. For example, if four products are returned, each price range represents 25% of the returned products. Unlike price navigation steps, each price range overlaps the next by $1.00.
+- Price facets - Price facets make it easy to shop by price range. You can specify the number of selections in each price range group and the initial value on the [Settings]({% link live-search/settings.md %}) tab.
 
-- Intelligent facets are product attributes that Live Search powered by [Adobe Sensei](https://www.adobe.com/sensei.html) finds extremely relevant to the given product set and query. This calculation takes into account the attribute metadata of the entire catalog and determines relevance at query time to deliver the most relevant facets for any query.
+- Intelligent facets are product attributes that [Adobe Sensei](https://www.adobe.com/sensei.html) finds most relevant to the given product set and query. This calculation takes into account the attribute metadata of the entire catalog and determines relevance at query time to deliver the most relevant facets for any query.
+
+![Facets - Price]({% link live-search/assets/storefront-filter-price-facet.png %}){: .zoom}
+_Filter by Price Facet_
 
 ## Select type
 
-Single-select facets are based on the [input type]({% link stores/attributes-input-types.md %}) that is assigned to the corresponding attribute, which includes Dropdown, Visual Swatch, and Text Swatch.
+The [input type]({% link stores/attributes-input-types.md %}) that is assigned to the corresponding attribute determines how many facet values can be selected as filters in the query, and their effect on the search results.
 
 ![Facets - Select type]({% link live-search/assets/facets-select-type.png %}){: .zoom}
 _Select type_
 
-|**Select type**|**Description**|*
+|**Select type**|**Description**|
 |---|---|
-|`Single select` |A single-select facet offers multiple options, but allows the shopper to choose only one. Examples: Dropdown, Visual Swatch or Text Swatch (for color)|
+|Single select |A single-select facet offers multiple options, but allows the shopper to choose only one. Examples: Dropdown, Visual Swatch or Text Swatch (for color)|
+|Multi-select (or) |Shoppers can choose more than one option, and returned product(s) can match any selected value. Example: Multiple Select |
+|Multi-select (and) |Shoppers can choose more than one option, and returned products must match all selected values. Example: Multiple Select |
