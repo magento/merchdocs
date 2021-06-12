@@ -524,6 +524,8 @@ pages:
     children:
     - label: Onboarding
       url: "/live-search/onboarding.html"
+    - label: Quick Tour
+      url: "/live-search/quick-tour.html"
     - label: Workspace
       url: "/live-search/workspace.html"
   - label: Facets
