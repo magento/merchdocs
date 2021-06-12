@@ -34,7 +34,3 @@ Keep in mind the following best practices to get the most from Live Search synon
 - It is never necessary to define both singular and plural forms a word as a synonym. If you have a mixture of singular and plural terms in your catalog, Search will find the correct set of products.
 
   For example, if you use the word “pant” in the product name and a shopper searches for “pants”, the correct set of products is returned, and the singular word “pant” is offered as a suggestion.
-
-## Known issue
-
-- If a synonym term contains multiple words, each word is treated as a separate synonym. For example, if you define "time piece" as a synonym of "watch", both "time" and "piece" are treated as synonyms of watch.
