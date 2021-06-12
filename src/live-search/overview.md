@@ -8,6 +8,10 @@ sections:
     content: Complete the Live Search onboarding process.
     url: /live-search/getting-started.html
 
+  - title: Quick Tour
+    content: Follow along for a quick tour of Live Search from the storefront.
+    url: /live-search/quick-tour.html
+
   - title: Workspace
     content: Learn your way around the Live Search workspace.
     url: /live-search/workspace.html
