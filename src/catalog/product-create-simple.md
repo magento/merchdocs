@@ -64,7 +64,6 @@ _Choose Attribute Set_
    - `Reward Points`
    - `VAT Reduced`
    - `VAT Standard`
-   - `VAT Standard`
 
 1. Enter the **Quantity** of the product that is currently in stock.
 

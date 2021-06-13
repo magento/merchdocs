@@ -49,17 +49,15 @@ _Pages grid_
 |Status|Indicates if the page is currently online or offline. Options: Enabled / Disabled|
 |Created|The date the page was created.|
 |Modified|The date the page was last modified.|
-|Action|The actions that can be applied to an individual record include:<br/>**Edit** - Opens the page in edit mode.<br/>**Delete** - Deletes the page.<br/>**View** - Displays the page in preview mode.|
+|Action|The actions that can be applied to an individual record include:<br/>**Edit** - Opens the page in edit mode.<br/>**Delete** - Deletes the page.<br/>**View** - Displays the page in preview mode.  |
 
 ## Other columns
 
-To see additional columns, expand **Columns** and select the items:
-
 |Column|Description|
 |--- |--- |
-|Custom design to/from|The custom design start and end date|
-|Custom Theme|The page theme|
-|Custom Layout|The page layout|
-|Meta Title|Meta title for the content page|
-|Meta Keywords|Meta keywords for the content page|
-|Meta Description|Meta keywords for the content page|
+|Custom design from/to|Specifies the start and end date when the selected design is applied to the product page|
+|Custom Theme|Applies a custom theme to the page|
+|Custom Layout|Determines the custom layout of the page|
+|Meta Title|Meta title for the page|
+|Meta Keywords|The page meta keywords|
+|Meta Description|The page meta description|
