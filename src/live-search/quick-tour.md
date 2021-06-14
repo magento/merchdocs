@@ -18,7 +18,7 @@ _Search as you type_
 
 When shoppers click _View all_ from the Live Search popover, additional items appear naturally as the shopper scrolls down the page. There is no need to navigate through pages of static search results.
 
-Notice that a search box with the current query appears just above the results. Simply change the query in that box to instantly update the results.
+There is also a search box with the current query that appears just above the results, where the shopper can simply change the query in that box to instantly update the results.
 
 ![Example storefront - view all]({% link live-search/assets/storefront-view-all.png %}){: .zoom}
 _View all_
