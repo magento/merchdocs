@@ -561,6 +561,8 @@ pages:
       url: "/live-search/rules-manage.html"
   - label: Feedback
     url: "/live-search/feedback.html"
+  - label: Settings
+    url: "/live-search/settings.html"
 - label: SEO and Search
   url: "/marketing/seo-search.html"
   children:
