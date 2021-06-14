@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: Settings
+title: Live Search Settings
 tag: live-search
 group: marketing
 ---
