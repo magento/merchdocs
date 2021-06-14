@@ -13,7 +13,7 @@ _Settings_
 
 ## Configure price facet groupings
 
-1. In the Admin, go to **Marketing** > SEO & Search > **Live Search**.
+1. In the Admin, go to **Marketing** > _SEO & Search_ > **Live Search**.
 
 1. On the **Settings** tab under _Price faceting_, do the following:
 
