@@ -19,10 +19,10 @@ Follow these instructions to apply a discount to specific products whenever a se
 
    - Complete the **Rule Name** and **Description** fields. These fields are for your internal reference only.
 
-   - {:.ce-only}Set the **Status** of the price rule as needed. By default, the status is `Active`.
+   - Set the **Status** of the price rule as needed. By default, the status is `Inactive`.
 
-      {:.bs-callout-info}
-      After the rule is created, its status can be updated by changing the status to `Active` or `Inactive` as needed.
+        {:.bs-callout-info}
+        After the rule is created, its status can be updated by changing the status to `Active` or `Inactive` as needed.
 
    - Select the **Websites** where the rule is to be available.
 
@@ -174,6 +174,12 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
 
       ![Catalog price rules - scheduled changes]({% link images/images-ee/price-rule-scheduled-changes-updated.png %}){: .zoom}
       _Scheduled Changes_{:.ee-only}
+
+1. Update properties for a rule:
+
+   - {:.ee-only}Click **Edit** to display the Rule Information page.
+
+   - {:.ce-only}Click the rule in the list to display the Rule Information page.
 
 1. Test the rule to make sure that it works correctly.
 
