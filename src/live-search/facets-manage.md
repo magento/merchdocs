@@ -5,7 +5,11 @@ tag: live-search
 group: marketing
 ---
 
-Follow these instructions to update the properties of existing facets or change their presentation in the storefront.
+Follow these instructions to update the properties of existing facets or change their presentation in the storefront. 
+
+## Configure price facet groupings
+
+Refer to [Settings]({% link live-search/settings.md %}) to configure price faceting intervals and groupings.
 
 ## Edit facet
 
