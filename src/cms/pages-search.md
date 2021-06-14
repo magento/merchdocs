@@ -40,6 +40,18 @@ _Filtered search_
 |Store View|Filter the search based on store view. Options: All available / Store Views|
 |Layout|Filter the search based on page layout. Options: 1 column / 2 columns with left bar / 2 columns with right bar / 3 columns / Empty|
 |Status|Filter the search on the page status. Options: Disables / Published|
-|Apply Filters|Applies all filters to the search.|
+|Custom design from / to|Filter the search by the start and end date when the selected design is applied to the product page|
+|Asset|Filter the search by the page title assets|
+|Custom Layout|Filter the search based on custom layout. Options: 1 column / 2 columns with left bar / 2 columns with right bar / 3 columns / Empty / Page -- Full Width / Category -- Full Width / Product -- Full Width|
+|Custom Theme|Filter the search based on custom theme. Options: Magento Blank / Magento Luma|
+|Meta Keywords|Filter the search based on the page meta keywords.|
+|Meta Title|Filter the search based on the page meta title.|
+|Meta Description|Filter the search based on the page meta description.|
+
+### Search tools
+
+|Tool|Description|
+|--- |--- |
+|Apply Filters|Applies all filters to the search results.|
 |Cancel|Cancels the current search.|
 |Clear All|Clears all search filters.|

@@ -22,7 +22,7 @@ For international merchants with a region in EU or UK, Amazon Pay provides a [m
 
 [Amazon Pay](https://pay.amazon.com) has a wealth of information and tools to help you manage your [Amazon Pay](https://pay.amazon.com) account. To access the Amazon online help and documentation, you will need the login credentials for your Amazon Seller Central account.
 
-For more information, watch the Amazon Pay University video on [Integrating Amazon Pay with Magento 2](https://www.youtube.com/watch?v=qsXVzh-yZsE&t=7s).
+For more information, watch the Amazon Pay University video on [Integrating Amazon Pay with Magento 2][3].
 
 ## Changes in the latest releases
 
@@ -34,3 +34,4 @@ For more information, watch the Amazon Pay University video on [Integrating Amaz
 
 [1]: https://pay.amazon.com/eu/help/5BDCWHCUC27485L
 [2]: https://pay.amazon.com/us/help/201212420?
+[3]: https://www.youtube.com/watch?v=sDpxjHChKV4

@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Receiving Payments
+redirect_from:
+  - /sales/credit-company-reimburse.html
 ---
 
 A reimbursed balance is an offline payment that is made by a company toward the balance of their account. The store administrator enters the amount manually in the company profile, using the _Reimburse Balance_ button. When the amount is submitted, the system recalculates the outstanding balance and available company credit, and records the action in the company credit history. The reimbursed amount is entered in the credit currency, as specified in the configuration.

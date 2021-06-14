@@ -149,9 +149,6 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ### USPS
 
-![]({% link images/images/config-sales-shipping-methods-usps-account-settings.png %}){: .zoom}
-[_USPS Account Settings_]({% link shipping/usps.md %})
-
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled for Checkout|Website|Determines if USPS is available to customers as a shipping method during checkout. Options: Yes / No|
