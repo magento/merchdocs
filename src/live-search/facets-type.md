@@ -17,7 +17,7 @@ To streamline search results, facets that you define are dynamic by default. Dyn
 
 - Popular facets - Product attributes that are most often present in search results.
 
-- Price facets - Price facets make it easy to shop by price range. You can specify the number of selections in each price range group and the initial value on the [Settings]({% link live-search/settings.md %}) tab.
+- Price facets - Price facets make it easy to shop by price range. You can specify the number of selections and the price range interval on the [Settings]({% link live-search/settings.md %}) tab.
 
 - Intelligent facets are product attributes that [Adobe Sensei](https://www.adobe.com/sensei.html) finds most relevant to the given product set and query. This calculation takes into account the attribute metadata of the entire catalog and determines relevance at query time to deliver the most relevant facets for any query.
 
