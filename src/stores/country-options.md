@@ -37,7 +37,7 @@ If needed, clear the **Use system value** checkbox for each setting you want to 
 
 ## Set the country options for specific delivery method
 
-You can also configure shipping to specific countries for each available [delivery method]({% link shipping/delivery.md%}) (UPS, FedEx, etc.).
+You can also configure shipping to specific countries for each available [delivery method]({% link shipping/delivery.md %}) (UPS, FedEx, etc.).
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
