@@ -82,7 +82,7 @@ Event(s) are actions that change the search results when the condition(s) are me
 
 1. Under _Events_, choose the **Event** to take place when the associated condition(s) are met.
 
-   For example, choose `Pin a product`. Then, enter the name of the product that you want to pin. If you need help, you can find the name in the test pane. 
+   For example, choose `Pin a product`. Then, enter the name of the product that you want to pin. If you need help, you can find the name in the test pane.
    Then, enter the _Position_ where the pinned product is to appear.  The product is moved to the new position in the test pane, and is marked with a _Pinned_ preview badge.
 
    ![Rules - Match]({% link live-search/assets/rule-event-pin-product.png %}){: .zoom}
