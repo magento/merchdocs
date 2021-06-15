@@ -1,24 +1,24 @@
 ---
 ee_only: true
-title: Quick Tour
+title: Live Search Quick Tour
 tag: live-search
 group: marketing
 ---
 
 With a focus on speed, relevance, and ease of use, Live Search is a game changer for shoppers and merchants alike. Follow along for a quick tour of Live Search from the storefront.
 
-### Search as you type
+### Autocomplete popover
 
-Live Search responds as shoppers type queries into the [Search]({% link catalog/search-quick.md %}) box with suggestions and a thumbnail image of the top results in a popover. Shoppers can go immediately to the [product detail]({% link quick-tour/product-page.md %}) page by clicking a featured suggested product or image.
+Live Search responds with suggested products and a thumbnail image of top search results in a popover as shoppers type queries into the [Search]({% link catalog/search-quick.md %}) box. Shoppers can go immediately to the [product detail]({% link quick-tour/product-page.md %}) page by clicking a suggested or featured product.
 
 ![Example storefront - search as you type]({% link live-search/assets/storefront-search-as-you-type.png %}){: .zoom}
-_Search as you type_
+_Autocomplete popover_
 
 ### Infinite scroll
 
-When shoppers click _View all_ from the Live Search popover, additional items appear naturally as the shopper scrolls down the page. There is no need to navigate through pages of static search results.
+When shoppers click _View all_ from the autocomplete popover, additional items appear as they scroll down the page. There is no need to navigate through pages of static search results.
 
-There is also a search box with the current query that appears just above the results, where the shopper can simply change the query in that box to instantly update the results.
+The current query appears in the search box just above the results. Shoppers can simply change the current query to instantly update the results.
 
 ![Example storefront - view all]({% link live-search/assets/storefront-view-all.png %}){: .zoom}
 _View all_
