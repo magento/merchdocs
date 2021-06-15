@@ -17,9 +17,9 @@ _Settings_
 
 1. On the **Settings** tab under _Price faceting_, do the following:
 
-1. Enter the **Number of selections**, or price groupings to be available.  Up to 50 price groupings can be defined.
+   - Enter the **Number of selections**, or price groupings to be available.  Up to 50 price groupings can be defined.
 
-1. Enter the **Interval value**, or price range for each group.  The maximum value is 10,000.
+   - Enter the **Interval value**, or price range for each group.  The maximum value is 10,000.
 
 1. Click <span class="btn">Save</span>.
 
