@@ -52,7 +52,7 @@ _Widgets list_
    ![]({% link images/images/widget-layout-update-home-page.png %}){: .zoom}
    _Widget layout updates_
 
-#### Layout Updates Options
+### Layout Updates Options
 
 {: .fields-table }
 |**_Categories_**||
