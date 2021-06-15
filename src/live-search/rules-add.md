@@ -101,7 +101,9 @@ The information that is entered here appears in the [Rule Details]({% link live-
 
 1. Under _Details_, enter a **Name** for the rule.
 1. Enter a brief **Description** of the rule.
-1. Enter the **Start Date** and **End Date** when the rule will be active or choose the dates from the calendar. To select a range of dates, click the first date and drag to select the range.
+1. Enter the **Start Date** and **End Date** when the rule will be active or choose the dates from the calendar.
+
+   To select a range of dates, click the first date and drag to select the range.
 
    ![Rule - Complete]({% link live-search/assets/rule-add-details.png %}){: .zoom}
    _Rule Details_
