@@ -7,7 +7,7 @@ group: marketing
 
 With a focus on speed, relevance, and ease of use, Live Search is a game changer for shoppers and merchants alike. Follow along for a quick tour of Live Search from the storefront.
 
-### Autocomplete popover
+### Autocomplete
 
 Live Search responds with suggested products and a thumbnail image of top search results in a popover as shoppers type queries into the [Search]({% link catalog/search-quick.md %}) box. Shoppers can go immediately to the [product detail]({% link quick-tour/product-page.md %}) page by clicking a suggested or featured product.
 
