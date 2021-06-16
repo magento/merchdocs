@@ -127,7 +127,7 @@ The list of email templates is organized alphabetically by Magento module.
 {: .template-table }
 |Template|Configuration path|
 |--- |--- |
-| Customer Invitation | **Page:** Sales > [Sales Emails]({% link configuration/customers/invitations..md %})<br/>**Section:** Email<br/>**Field:** Customer Invitation Email Template |
+| Customer Invitation | **Page:** Customers > [Invitation]({% link configuration/customers/invitations.md %})<br/>**Section:** Email<br/>**Field:** Customer Invitation Email Template |
 
 {:.b2b-only}
 ## Magento_NegotiableQuote
