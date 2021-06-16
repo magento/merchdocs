@@ -3,7 +3,7 @@ title: Security Scan
 group: operations
 ---
 
-Enhanced Magento Security Scan allows you to monitor each of your Magento and PWA sites for known security risks and malware, and to receive patch updates and security notifications.
+The enhanced security scan allows you to monitor each of your Adobe Commerce and Magento Open Source sites, including PWA, for known security risks and malware, and to receive patch updates and security notifications.
 
 - Gain insight into the real-time security status of your store.
 - Receive suggestions based on best practices to help resolve issues.
@@ -12,16 +12,16 @@ Enhanced Magento Security Scan allows you to monitor each of your Magento and PW
 - Access historical security reports that track and monitor the progress of your sites.
 - Access the scan report that shows successful and failed checks, with any recommended actions.
 
-The Security Scan tool is available for free from the dashboard of your Magento account. For technical information, see [Go live and launch][1] in our developer documentation.
+The Security scan tool is available for free from the dashboard of your [Magento account]({% link magento/magento-account.md %}). For technical information, see [Go live and launch][1] in our developer documentation.
 
 ![]({% link images/images/magento-security-scan.png %}){: .zoom}
-_Security Scan_
+_Security scan tool_
 
 ## Run a security scan
 
-1. Go to the Magento home page, and sign in to your **Magento account**. Then, do the following:
+1. Go to the Magento home page, and sign in to your Magento account and do the following:
 
-   - In the panel on the left, choose **Security Scan**.
+   - In the left panel, choose **Security Scan**.
    - Click **Go to Security Scan**.
    - Read the **Terms and Conditions**.
    - Click **Agree** to continue.
@@ -33,11 +33,12 @@ _Security Scan_
     ![]({% link images/images/magento-security-scan-monitored-websites.png %}){: .zoom}
     _Monitored Sites_
 
-1. To verify your ownership of the site domain, do one of the following to add a confirmation code:
+1. To verify your ownership of the site domain by adding a confirmation code, do one of the following:
 
-   **Magento Storefront**:
+   **Commerce storefront**:
 
-   - Enter the **Site URL**, **Site Name**, and click **Generate Confirmation Code**.
+   - Enter the **Site URL** and **Site Name**.
+   - Click **Generate Confirmation Code**.
    - Click **Copy** to copy your confirmation code to the clipboard.
 
       ![]({% link images/images/magento-security-scan-add-site1.png %}){: .zoom}
@@ -55,7 +56,7 @@ _Security Scan_
 
       - When complete, click **Save Configuration**.
 
-   **PWA Storefront**:
+   **PWA storefront**:
 
    - Enter the **Site URL** and **Site Name**.
 
@@ -94,7 +95,7 @@ _Security Scan_
          ```
          After the build process completes, the changes will be deployed to your PWA store front.
 
-1. Return to the **Security Scan** page in your Magento account and click **Verify Confirmation Code** to establish your ownership of the domain.
+1. Return to the _Security Scan_ page in your Magento account and click **Verify Confirmation Code** to establish your ownership of the domain.
 
 1. After a successful confirmation, configure the **Set Automatic Security Scan** options for one of the following types:
 
