@@ -32,6 +32,4 @@ Registry visitors who want to make a purchase can add the item to their carts di
 
 1. Click <span class="btn">View and Edit Cart</span> on the Mini Cart.
 
-1. On the Shopping Cart page select the event you need and click <span class="btn">Add All To Gift Registry</span>. 
-    
-    Items will be added to the gift register of the selected event.
+1. On the Shopping Cart page select the event you need and click <span class="btn">Add All To Gift Registry</span>. Items will be added to the gift register of the selected event.
