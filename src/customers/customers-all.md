@@ -5,7 +5,7 @@ title: All Customers
 The Customers grid lists all customers who have registered for an account with your store or were added by the administrator. Use the standard [grid controls]({% link stores/admin-grid-controls.md %}) to filter the list and adjust the [column layout]({% link stores/admin-grid-layout.md %}). To learn more, see [Managing Customer Accounts]({% link customers/customer-account-manage.md %}).
 
 ![]({% link images/images-b2b/customers-all-grid.png %}){: .zoom}
-_All Customers_
+_All Customers_{:.b2b-only}
 
 ## View customer information
 
