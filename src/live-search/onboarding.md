@@ -11,15 +11,5 @@ To establish the [connection]({{ site.devdocs_url }}/live-search/config-connect.
 
 When the installation, connection, and configuration of [Commerce Services]({% link configuration/services/saas.md %}) are complete, Live Search appears on the _Marketing_ menu under _SEO & Search_ in the Adobe Commerce Admin.
 
-## Trigger indexation
-
-To synchronize the catalog and trigger indexation, go to Live Search and complete any configuration action.
-
-1. In the Admin, go to **Marketing** > SEO & Search > **Live Search**.
-1. To complete a simple configuration action, click the **Facets** tab.
-1. Under _Dynamic Facets_, click the **gray pushpin** (![Pin selector]({% link live-search/assets/btn-pin-gray.png %})) of any facet to move it to the _Pinned Facets_ list.
-
-   This simple action causes the product catalog to be synchronized with the Live Search service and triggers indexation.
-
 ![Marketing menu - Live Search]({% link images/images-ee/admin-menu-marketing-ee.png %}){: .zoom}
 _Live Search_
