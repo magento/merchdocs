@@ -20,7 +20,7 @@ _Search as you type_
 
 ### Infinite scroll
 
-When shoppers click _View all items_ from the "Search as you type" popover, additional products appear in the search results as they scroll down the page. There is no need to navigate through pages of static search results. The current query appears in the search box just above the results. Shoppers can simply change the current query to instantly update the results.
+When shoppers click _View all_ from the "search as you type" popover, additional products appear in the search results as they scroll down the page. There is no need to navigate through pages of static search results. The current query appears in the search box just above the results. Shoppers can simply change the current query to instantly update the results.
 
 ![Example storefront - view all]({% link live-search/assets/storefront-view-all.png %}){: .zoom}
 _View all_
