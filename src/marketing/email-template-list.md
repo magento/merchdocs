@@ -137,7 +137,7 @@ The list of email templates is organized alphabetically by Magento module.
 |--- |--- |
 | Declined Quote | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** Declined Quote Template (to Buyer) |
 | Expiration Date Reset | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** Expiration Date Reset| **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** Order Ready For Pickup Email Template |
-| Expiration Warning1 | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** Quote Expiration (in 24 hrs)e |
+| Expiration Warning1 | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** Quote Expiration (in 24 hrs) |
 | New Quote | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** New Quote Template (to Seller) |
 | Updated Quote | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** Updated Quote Template (to Seller) |
 
@@ -174,7 +174,7 @@ The list of email templates is organized alphabetically by Magento module.
 |Template|Configuration path|
 |--- |--- |
 | Balance Update | **Page:** Customers > [Reward Points]({% link configuration/customers/reward-points.md %})<br/>**Section:** Email Notification Settings<br/>**Field:** Balance Update Email |
-| Points Expiry Warning | **Page:** Customers > [Reward Points]({% link configuration/customers/reward-points.md %})<br/>**Section:** Email Notification Settings<br/>**Field:** Reward Points Expiry Warning Emai |
+| Points Expiry Warning | **Page:** Customers > [Reward Points]({% link configuration/customers/reward-points.md %})<br/>**Section:** Email Notification Settings<br/>**Field:** Reward Points Expiry Warning Email |
 
 {:.ee-only}
 ## Magento_Rma
