@@ -9,7 +9,11 @@ With a focus on speed, relevance, and ease of use, Live Search is a game changer
 
 ### Search as you type
 
-Live Search responds with suggested products and a thumbnail image of top search results in a popover as shoppers type queries into the [Search]({% link catalog/search-quick.md %}) box. Shoppers can go immediately to the [product detail]({% link quick-tour/product-page.md %}) page by clicking a suggested or featured product.  A _View all items_ link in the footer of the popover displays the search results page.
+Live Search responds with suggested products and a thumbnail image of top search results in a popover as shoppers type queries into the [Search]({% link catalog/search-quick.md %}) box. Shoppers can go immediately to the [product detail]({% link quick-tour/product-page.md %}) page by clicking a suggested or featured product.  A _View all_ link in the footer of the popover displays the search results page.
+
+The popover can return "search as you type" results for one character or more. To set the minimum number of characters required for a query, change the Catalog Search [Minimal Query Length](https://docs.magento.com/user-guide/catalog/search-configuration.html) configuration setting.
+
+To customize the popover, refer to [Storefront Popover](https://devdocs.magento.com/live-search/storefront-popover.html) in the Live Search developer documentation.
 
 ![Example storefront - search as you type]({% link live-search/assets/storefront-search-as-you-type.png %}){: .zoom}
 _Search as you type_
