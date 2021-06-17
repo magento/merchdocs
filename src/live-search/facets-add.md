@@ -37,6 +37,8 @@ _Add facet_
 
 ## Step 2: Edit facet properties (Optional)
 
+Refer to [Settings]({% link live-search/settings.md %}) to configure price faceting intervals and groupings.
+
 1. If you need to edit the facet properties, click **More** (![More selector]({% link live-search/assets/btn-more.png %})) options in the far-right column.
 1. On the menu, click **Edit**. Then, adjust the following properties as needed.
 

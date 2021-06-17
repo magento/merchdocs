@@ -524,6 +524,8 @@ pages:
     children:
     - label: Onboarding
       url: "/live-search/onboarding.html"
+    - label: Quick Tour
+      url: "/live-search/quick-tour.html"
     - label: Workspace
       url: "/live-search/workspace.html"
   - label: Facets
@@ -559,6 +561,8 @@ pages:
       url: "/live-search/rules-manage.html"
   - label: Feedback
     url: "/live-search/feedback.html"
+  - label: Settings
+    url: "/live-search/settings.html"
 - label: SEO and Search
   url: "/marketing/seo-search.html"
   children:
