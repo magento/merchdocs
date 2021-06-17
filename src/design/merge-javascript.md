@@ -5,7 +5,7 @@ title: Merging JavaScript Files
 Multiple JavaScript files can be merged into a single, condensed file to reduce page load time. If you open a merged JavaScript file, you will find one continuous stream of text, with line breaks removed. If you are finished with the development process and the code contains no errors, you might consider merging the files.
 
 {:.bs-callout-info}
-JavaScript files can be merged only when working in [Developer Mode]({% link magento/installation-modes.md %}).
+JavaScript files can be merged from the _Admin_ panel only when working in [Developer Mode]({% link magento/installation-modes.md %}).
 
 ## Merge your JavaScript files
 
