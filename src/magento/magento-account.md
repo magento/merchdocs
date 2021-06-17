@@ -1,5 +1,5 @@
 ---
-title: Your Magento Account
+title: Your Commerce Account
 group: getting-started
 ---
 

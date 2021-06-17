@@ -42,11 +42,22 @@ _Pages grid_
 |--- |--- |
 |Select|The checkbox in the first column is used to select multiple records. Options: Select All / Deselect All|
 |ID|The ID is an incrementing number that is assigned to each page.|
-|Title|The page title appears at the top of each page.|
+|Title|The title that appears at the top of the page.|
 |URL Key|The URL key is similar to a file name, and identifies the page in the URL.|
 |Layout|Determines if the page appears with sidebars to the right or left of the main content area. Options: 1 column / 2 columns with left bar / 2 columns with right bar / 3 columns / Empty|
-|Store View|Can be used to associate the page with a specific store view.|
+|Store View|Used to associate the page with a specific store view.|
 |Status|Indicates if the page is currently online or offline. Options: Enabled / Disabled|
 |Created|The date the page was created.|
 |Modified|The date the page was last modified.|
 |Action|The actions that can be applied to an individual record include:<br/>**Edit** - Opens the page in edit mode.<br/>**Delete** - Deletes the page.<br/>**View** - Displays the page in preview mode.  |
+
+## Other columns
+
+|Column|Description|
+|--- |--- |
+|Custom design from/to|Specifies the start and end date when the selected design is applied to the product page|
+|Custom Theme|Applies a custom theme to the page|
+|Custom Layout|Determines the custom layout of the page|
+|Meta Title|Meta title for the page|
+|Meta Keywords|The page meta keywords|
+|Meta Description|The page meta description|

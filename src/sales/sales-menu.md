@@ -47,7 +47,11 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is simila
 
 The [Transactions]({% link sales/transactions.md %}) page lists all payment activity that has taken place between your store and all payment systems, and provides access to more detailed information.
 
+### Braintree Virtual Terminal
+
+On the Braintree Virtual Terminal page, an Admin user can accept the payment for the selected amount. To make  the terminal feature available, a merchant should configure basic [Braintree settings]({% link payment/braintree.md %}). Braintree offers a fully customizable checkout experience with fraud detection and PayPal integration.
+
 {:.ee-only}
 ### Archive
 
-(Archive option must be enabled) [Archiving orders]({% link sales/transactions.md %}) and other sales documents on a regular basis improves performance and keeps your workspace free of unnecessary information.
+(Archive option must be enabled) [Archiving orders]({% link sales/order-archive.md %}) and other sales documents on a regular basis improves performance and keeps your workspace free of unnecessary information.

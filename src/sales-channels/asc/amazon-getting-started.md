@@ -9,7 +9,7 @@ sections:
      content: Amazon Marketplace is an e-commerce platform that enables third-party sellers to sell new or used products. Listing products on the Amazon Marketplace, third-party sellers gain access to Amazon's world-wide customer base.
      url: /sales-channels/asc/about-amazon-marketplace.html
 
-   - title: About Amazon and your Magento Catalog
+   - title: About Amazon and your Commerce Catalog
      content: Amazon Sales Channel can import your Amazon listings and continually sync with your Magento catalog. After your Magento catalog is synced, you have a single, centralized catalog of products that can be listed to both your Magento stores and to your Amazon Central Seller account.
      url: /sales-channels/asc/about-listings-and-catalog.html
 

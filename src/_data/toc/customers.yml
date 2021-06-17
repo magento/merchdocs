@@ -67,6 +67,9 @@ pages:
       edition: b2b-only
     - label: My Orders
       url: "/customers/account-dashboard-my-orders.html"
+      children:
+      - label: Reorders
+        url: "/customers/account-dashboard-reorders.html"
     - label: My Downloadable Products
       url: "/customers/account-dashboard-my-downloadable-products.html"
     - label: My Requistion Lists
@@ -137,6 +140,14 @@ pages:
       url: "/customers/account-company-sales-representative.html"
     - label: Approving a Company Account
       url: "/customers/account-company-approve.html"
+  - label: Company Credit
+    url: "/customers/credit-company.html"
+    edition: b2b-only
+    children:
+    - label: Credit Activity
+      url: "/customers/credit-company-activity.html"
+    - label: Receiving Payments
+      url: "/customers/credit-company-reimburse.html"
   - label: Company Structure
     url: "/customers/account-company-structure.html"
     children:

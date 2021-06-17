@@ -11,7 +11,7 @@ pages:
       url: "/magento/prelaunch-checklist.html"
     - label: Your Login Credentials
       url: "/getting-started/login-credentials.html"
-- label: Your Magento Account
+- label: Your Commerce Account
   url: "/magento/magento-account.html"
   children:
   - label: Creating an Account
@@ -36,6 +36,8 @@ pages:
       url: "/quick-tour/product-page.html"
     - label: Shopping Cart
       url: "/quick-tour/shopping-cart.html"
+    - label: Checkout Page
+      url: "/quick-tour/checkout-page.html"
   - label: Customer Journey
     url: "/quick-tour/customer-journey.html"
     children:
@@ -58,7 +60,7 @@ pages:
     edition: b2b-only
     children:
     - label: B2B Best Practices
-      url: "/stores/b2b-best-practices.html"  
+      url: "/stores/b2b-best-practices.html"
     - label: Build Loyalty
       url: "/quick-tour/build-loyalty.html"
     - label: Differentiate and Personalize
@@ -193,7 +195,7 @@ pages:
             url: "/stores/compliance-ccpa-guide.html"
       - label: GDPR Compliance
         versionless: true
-        url: "/stores/compliance-gdpr.html" 
+        url: "/stores/compliance-gdpr.html"
       - label: Privacy Policy
         versionless: true
         url: "/stores/privacy-policy.html"
@@ -207,7 +209,7 @@ pages:
             - label: Cookie Reference
               versionless: true
               url: "/stores/cookie-reference.html"
-- label: Magento Extensions
+- label: Extensions
   url: "/magento/magento-extensions.html"
 - label: Magento Marketplace
   url: "/magento/magento-marketplace.html"
@@ -215,7 +217,7 @@ pages:
   url: "/magento/magento-identity-manager.html"
 - label: Resources
   url: "/getting-started/resources.html"
-  children:  
+  children:
   - label: Join the Conversation
     url: "/getting-started/magento-ecosystem.html"
   - label: Technical Resources

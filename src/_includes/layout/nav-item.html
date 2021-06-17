@@ -1,24 +1,24 @@
-
 {% assign item = include.section %}
 {% assign children = item.children %}
 
 {% assign base = site.baseurl %}
 {% if item.url contains 'http' %}
-  {% assign base = '' %}
+{% assign base = '' %}
 {% endif %}
 
 {% assign item_url = item.url | prepend: base %}
 {% assign compare_url = page.url | prepend: site.baseurl %}
-<li class="{% if compare_url == item_url %}is-selected{% endif %} {{ item.class }} {{ include.itemClass }}" role="menuitem">
+<li class="{% if compare_url == item_url %}is-selected{% endif %} {{ item.class }} {{ include.itemClass }}"
+  role="menuitem">
   {% if item.url %}
   <a href="{{ item_url }}" class="{{ include.labelClass }} {{ item.edition }}">{{ item.label }}</a>
   {% else %}
   <span class="{{ include.labelClass }} {{ item.edition }}">{{ item.label }}</span>
   {% endif %}
   {% if children %}
-  <ul class="{{ include.menuClass }}">
+  <ul class="spectrum-SideNav">
     {% for child in children %}
-      {% include layout/nav-item.html section=child  menuClass=include.menuClass itemClass=include.itemClass labelClass=include.labelClass %}
+    {% include layout/nav-item.html section=child  menuClass=include.menuClass itemClass=include.itemClass labelClass=include.labelClass %}
     {% endfor %}
   </ul>
   {% endif %}

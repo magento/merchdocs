@@ -21,3 +21,6 @@ Product Page
 
 Shopping Cart
 :  The [shopping cart]({% link quick-tour/shopping-cart.md %}) lists each item by price and quantity selected, and calculates the subtotal. Shoppers can apply discount coupons, and generate an estimate of shipping and tax charges.
+
+Checkout Page
+:  The [checkout page]({% link quick-tour/checkout-page.md %}) allows the customer to choose from different shipping and payment methods and complete their order.

@@ -65,4 +65,4 @@ For technical information, see [Security overview][3]{:target="_blank"} in the d
 
 [1]: https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf
 [2]: https://marketplace.magento.com/catalogsearch/result?cat=8&amp;q=security
-[3]: https://devdocs.magento.com/guides/v2.4/architecture/security_intro.html
+[3]: {{ site.devdocs_url }}/guides/v{{ site.version }}/architecture/security_intro.html

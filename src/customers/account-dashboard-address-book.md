@@ -32,4 +32,16 @@ _[Address Book]({% link configuration/customers/customer-configuration.md %})_
     The new address is listed under Additional Address Entries.
 
 ![]({% link images/images-ee/customer-account-dashboard-address-saved.png %}){: .zoom}
-_[Additional Address Entries]({% link configuration/customers/customer-configuration.md %})_{:.ee-only}
+_[Additional Address Entries]({% link configuration/customers/customer-configuration.md %})_
+
+## Change an address
+
+1. In the sidebar of the customer account, select **Address Book**.
+
+1. Choose one of the methods to edit:
+
+   - Click **Change Billing/Shipping Address** in the _Default Addresses_ section.
+
+   - Click **Edit** in the _Additional Address Entries_ grid.
+
+1. Make the necessary changes, and click <span class="btn">Save Address</span>.
