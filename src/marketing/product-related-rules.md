@@ -16,8 +16,8 @@ _Related Products Rules_
 |--- |--- |
 |ID|A unique numeric identifier that is assigned to each related product rule|
 |Rule|The name of the related product rule|
-|Start|Use the dynamic calendar fields (To: and From:) to filter the list based on the start date for the rule as defined when the rule was created|
-|End|Use the dynamic calendar fields (To: and From:) to filter the list based on the end date for the rule as defined when the rule was created|
-|Priority|Enter text in this field to filter the list based on the priority defined for a rule|
-|Applies To|This option filters the list of rules that apply to: `Related Products`, `Up-sells`, `Cross-sells`|
-|Status|Use this option to filter the list based on rule status, `Active` or `Inactive`|
+|Start|Use the dynamic calendar fields (_To:_ and _From:_) to filter the list based on the start date for the rule as defined when the rule was created.|
+|End|Use the dynamic calendar fields (_To:_ and _From:_) to filter the list based on the end date for the rule as defined when the rule was created.|
+|Priority|Enter text in this field to filter the list based on the priority defined for a rule.|
+|Applies To|This option filters the list of rules that apply to `Related Products`, `Up-sells`, and `Cross-sells`.|
+|Status|Use this option to filter the list based on rule status, `Active` or `Inactive`.|
