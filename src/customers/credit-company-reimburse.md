@@ -24,9 +24,9 @@ _Reimburse Balance_
 
       The amount can be entered as a positive or negative value.
 
-   - If applicable, enter the **Purchase Order Number** for reference.
+   - If applicable, enter the **Custom Reference Number** for reference.
 
-      Only one purchase order number can be entered per reimbursement. To apply the payment to multiple POs, create a separate reimbursement for each.
+      Only one custom reference number can be entered per reimbursement. To apply the payment to multiple POs, create a separate reimbursement for each.
 
    - As needed, enter a **Comment** to describe the reimbursement.
 
@@ -45,7 +45,7 @@ _Reimburse Balance_
 
 1. Find the reimbursement transaction in the grid and click **Edit**.
 
-1. Make any changes necessary to **Purchase Order Number** and **Comment**.
+1. Make any changes necessary to **Custom Reference Number** and **Comment**.
 
    The reimbursement amount cannot be changed.
 

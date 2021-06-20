@@ -72,7 +72,7 @@ The list of email templates is organized alphabetically by Magento module.
 {: .template-table }
 |Template|Configuration path|
 |--- |--- |
-| Store Credit Update | **Page:** <br/>**Section:** <br/>**Field:** |
+| Store Credit Update | **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Store Credit Options<br/>**Field:** Store Credit Update Email Template |
 
 ## Magento_Directory
 
@@ -96,38 +96,38 @@ The list of email templates is organized alphabetically by Magento module.
 {: .template-table }
 |Template|Configuration path|
 |--- |--- |
-| Gift Card(s) Purchase | **Page:** <br/>**Section:** <br/>**Field:** |
+| Gift Card(s) Purchase | **Page:** Sales > [Gift Cards]({% link catalog/product-gift-card.md %})<br/>**Section:** Gift Card Email Settings<br/>**Field:** Gift Card Notification Email Template |
 
 ## Magento_GiftCardAccount
 
 {: .template-table }
 |Template|Configuration path|
 |--- |--- |
-| Gift Card Code/Balance | **Page:** <br/>**Section:** <br/>**Field:** |
+| Gift Card Code/Balance | **Page:** Sales > [Gift Cards]({% link catalog/product-gift-card.md %})<br/>**Section:** Email Sent from Gift Card Account Management<br/>**Field:** Gift Card Template |
 
 ## Magento_GiftRegistry
 
 {: .template-table }
 |Template|Configuration path|
 |--- |--- |
-| New Registry | **Page:** <br/>**Section:** <br/>**Field:** |
-| Registry Sharing | **Page:** <br/>**Section:** <br/>**Field:** |
-| Registry Update | **Page:** <br/>**Section:** <br/>**Field:** |
+| New Registry | **Page:** Customers > [Gift Registry]({% link configuration/customers/gift-registry.md %}) <br/>**Section:** Owner Notification<br/>**Field:** Email Template |
+| Registry Sharing | **Page:** Customers > [Gift Registry]({% link configuration/customers/gift-registry.md %}) <br/>**Section:** Gift Registry Sharing<br/>**Field:** Email Template |
+| Registry Update | **Page:** Customers > [Gift Registry]({% link configuration/customers/gift-registry.md %}) <br/>**Section:** Gift Registry Update<br/>**Field:** Email Template |
 
 ## Magento_InventoryInStorePickupSales
 
 {: .template-table }
 |Template|Configuration path|
 |--- |--- |
-| Order is Ready for Pickup | **Page:** <br/>**Section:** <br/>**Field:** |
-| Order is Ready for Pickup For Guest | **Page:** <br/>**Section:** <br/>**Field:** |
+| Order is Ready for Pickup | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Order Ready For Pickup in Store<br/>**Field:** Order Ready For Pickup Email Template |
+| Order is Ready for Pickup For Guest | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Order Ready For Pickup in Store<br/>**Field:** Order Ready For Pickup Email Template for Guest|
 
 ## Magento_Invitation
 
 {: .template-table }
 |Template|Configuration path|
 |--- |--- |
-| Customer Invitation | **Page:** <br/>**Section:** <br/>**Field:** |
+| Customer Invitation | **Page:** Customers > [Invitation]({% link configuration/customers/invitations.md %})<br/>**Section:** Email<br/>**Field:** Customer Invitation Email Template |
 
 {:.b2b-only}
 ## Magento_NegotiableQuote
@@ -135,12 +135,11 @@ The list of email templates is organized alphabetically by Magento module.
 {: .template-table }
 |Template|Configuration path|
 |--- |--- |
-| Declined Quote | **Page:** <br/>**Section:** <br/>**Field:** |
-| Expiration Date Reset | **Page:** <br/>**Section:** <br/>**Field:** |
-| Expiration Warning | **Page:** <br/>**Section:** <br/>**Field:** |
-| Expiration Warning1 | **Page:** <br/>**Section:** <br/>**Field:** |
-| New Quote | **Page:** <br/>**Section:** <br/>**Field:** |
-| Updated Quote | **Page:** <br/>**Section:** <br/>**Field:** |
+| Declined Quote | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** Declined Quote Template (to Buyer) |
+| Expiration Date Reset | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** Expiration Date Reset| **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** Order Ready For Pickup Email Template |
+| Expiration Warning1 | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** Quote Expiration (in 24 hrs) |
+| New Quote | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** New Quote Template (to Seller) |
+| Updated Quote | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** Updated Quote Template (to Seller) |
 
 ## Magento_Newsletter
 
@@ -166,7 +165,7 @@ The list of email templates is organized alphabetically by Magento module.
 {: .template-table }
 |Template|Configuration path|
 |--- |--- |
-| Promotion Notification/Reminder | **Page:** <br/>**Section:** <br/>**Field:** |
+| Promotion Notification/Reminder | **Page:** Customers > [Promotions]({% link configuration/customers/promotions.md %})<br/>**Section:** Automated Email Reminder Rules<br/>**Field:** Reminder Email Sender|
 
 {:.ee-only}
 ## Magento_Reward
@@ -174,8 +173,8 @@ The list of email templates is organized alphabetically by Magento module.
 {: .template-table }
 |Template|Configuration path|
 |--- |--- |
-| Balance Update | **Page:** <br/>**Section:** <br/>**Field:** |
-| Points Expiry Warning | **Page:** <br/>**Section:** <br/>**Field:** |
+| Balance Update | **Page:** Customers > [Reward Points]({% link configuration/customers/reward-points.md %})<br/>**Section:** Email Notification Settings<br/>**Field:** Balance Update Email |
+| Points Expiry Warning | **Page:** Customers > [Reward Points]({% link configuration/customers/reward-points.md %})<br/>**Section:** Email Notification Settings<br/>**Field:** Reward Points Expiry Warning Email |
 
 {:.ee-only}
 ## Magento_Rma
@@ -183,13 +182,13 @@ The list of email templates is organized alphabetically by Magento module.
 {: .template-table }
 |Template|Configuration path|
 |--- |--- |
-| New RMA | **Page:** <br/>**Section:** <br/>**Field:** |
-| New RMA for Guest | **Page:** <br/>**Section:** <br/>**Field:** |
-| RMA Admin Comments | **Page:** <br/>**Section:** <br/>**Field:** |
-| RMA Admin Comments for Guest | **Page:** <br/>**Section:** <br/>**Field:** |
-| RMA Authorization | **Page:** <br/>**Section:** <br/>**Field:** |
-| RMA Authorization for Guest | **Page:** <br/>**Section:** <br/>**Field:** |
-| RMA Customer Comments | **Page:** <br/>**Section:** <br/>**Field:** |
+| New RMA | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** RMA<br/>**Field:** RMA Email Template |
+| New RMA for Guest | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** RMA<br/>**Field:** RMA Email Template for Guest |
+| RMA Admin Comments | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** RMA Admin Comments<br/>**Field:** RMA Comment Email Template |
+| RMA Admin Comments for Guest | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** RMA Admin Comments<br/>**Field:** RMA Comment Email Template for Guest |
+| RMA Authorization | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** RMA Authorization<br/>**Field:** RMA Authorization Email Template |
+| RMA Authorization for Guest | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** RMA Authorization<br/>**Field:** RMA Authorization Email Template for Guest |
+| RMA Customer Comments | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** RMA Customer Comments<br/>**Field:** RMA Comment Email Template |
 
 ## Magento_Sales
 
@@ -234,9 +233,9 @@ The list of email templates is organized alphabetically by Magento module.
 {: .template-table }
 |Template|Configuration path|
 |--- |--- |
-| Export Failed | **Page:** <br/>**Section:** <br/>**Field:** |
-| File History Clean Failed | **Page:** <br/>**Section:** <br/>**Field:** |
-| Import Failed | **Page:** <br/>**Section:** <br/>**Field:** |
+| Export Failed | **Page:** Advanced > [System]({% link configuration/advanced/system.md %})<br/>**Section:** Scheduled Import/Export File History Cleaning<br/>**Field:** Export Failed Template |
+| File History Clean Failed | **Page:** Advanced > [System]({% link configuration/advanced/system.md %})<br/>**Section:** Scheduled Import/Export File History Cleaning<br/>**Field:** Error Email Template |
+| Import Failed | **Page:** Advanced > [System]({% link configuration/advanced/system.md %})<br/>**Section:** Scheduled Import/Export File History Cleaning<br/>**Field:** Import Failed Template |
 
 ## Magento_SendFriend
 
