@@ -19,6 +19,69 @@ _Customer Profile_{:.ee-only}
 
 1. When complete, click <span class="btn">Save Customer</span>.
 
+## Customer information
+
+### Customer View
+
+The Customer View tab lists information about the customer, includes *Personal Information*, *Reward Points Balance*, and Store *Credit Balance*.
+
+### Account Information
+
+The [Account Information]({% link customers/account-dashboard-account-information.md %}) tab provides detailed information about the customer, where an Admin user can edit personal information, email, remote shopping assistance, date of birth, and attach customer to website or company.
+
+### Addresses
+
+The [Addresses]({% link customers/account-dashboard-address-book.md %}) tab contains the customer’s default billing and shipping addresses, and any additional addresses that they frequently use.
+
+{:.b2b-only}
+### Quotes
+
+The [Quotes]({% link sales/quotes.md %}) section lists each quote received and maintains for this customer.
+
+### Orders
+
+The [Orders]({% link sales/orders.md %}) grid contains a list of all current customer orders, the administrator can track their progress.
+
+{:.ee-only}
+### Returns
+
+The [Returns]({% link sales/returns.md %}) tab lists the current returned customer requests.
+
+### Shopping cart
+
+The [Shopping cart]({% link sales/cart.md %}) tab displays products that are currently in the cart, but for some reason, the purchase was not completed.
+
+### Wish List
+
+A [Wish List]({% link marketing/wishlists.md %}) displays a list of products that a customer can transfer to the cart at a later date.
+
+{:.ee-only}
+### Store Credit
+
+The [Store credit]({% link sales/store-credit.md %}) tab displays an amount that is restored to a customer account, the admin can manage this value.
+
+{:.ee-only}
+### Gift Registry
+
+The [Gift Registry]({% link customers/account-dashboard-gift-registry.md %}) section lists the customer’s current gift registries and the associated event.
+
+### Newsletter
+
+The [Newsletter]({% link marketing/newsletters.md %}) tab displays all emails sent to the current customer.
+
+### Billing Agreements
+
+The [Billing Agreements]({% link sales/billing-agreements.md %}) tab lists all PayPal billing agreements between the store and the customer.
+
+### Product Reviews
+
+The [Product Reviews]({% link catalog/settings-advanced-product-reviews.md %}) tab displays all the reviews submitted by this customer.
+
+{:.ee-only}
+### Reward Points
+
+The [Reward Points]({% link marketing/rewards-loyalty.md %}) section shows the current balance of reward points earned by the customer. An Admin user can manage this value.
+
 ## Button bar
 
 {: .buttons-table }
