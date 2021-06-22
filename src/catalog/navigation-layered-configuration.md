@@ -3,6 +3,9 @@ title: Configuring Layered Navigation
 group: marketing
 ---
 
+{:.bs-callout-info}
+[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Adobe Commerce. The standard configuration described in this topic differs from Live Search.
+
 The layered navigation configuration determines if a product count appears in parentheses after each attribute, and the size of the step calculation that is used in price navigation.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.

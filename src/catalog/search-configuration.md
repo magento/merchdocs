@@ -6,6 +6,9 @@ redirect_from:
   - /catalog/search-elasticsearch.html
 ---
 
+{:.bs-callout-info}
+[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Adobe Commerce. The standard search configuration described in this topic does not apply to Live Search.
+
 Elasticsearch is a powerful and highly scalable distributed search engine that is used by many industry leaders with high-volume sites. The implementation of Elasticsearch includes both search suggestions and recommendations. As of Magento 2.4.0, Elasticsearch 7.6.x is required for all installations. For installation instructions, see [Set up Elasticsearch service][1]{:target="_blank"} in our developer documentation.
 
 ## Step 1: Configure general search options
