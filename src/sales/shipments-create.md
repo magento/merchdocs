@@ -28,13 +28,44 @@ For each line item in the order, modify the **Qty to Ship** as needed.
 
 ## Shipping Information
 
-1. Click <span class="btn">Add Tracking Number</span>.
+### Method 1: Using the order page
+
+1. On the _Admin_ sidebar, go to **Sales** > **Orders**.
+
+1. In the **Action** column for the selected order, click **View**.
+
+1. Click **Ship**.
+
+1. Scroll down to the _Payment & Shipping Method_ block and click **Add Tracking Number**.
+
+1. Set **Carrier**:
+
+    - Custom Value;
+    - DHL;
+    - Federal Express;
+    - United Parcel Service;
+    - United States Postal Service.
+
+1. Enter **Title** and **Number** to track the shipment.
+
+### Method 2: Using the shipment page
+
+1. On the _Admin_ sidebar, go to **Sales** > **Shipments**.
+
+1. Open the shipment in edit mode.
+
+1. Scroll down to the _Payment & Shipping Method_ block.
 
 1. Select the **Carrier**.
 
 1. Enter a **Title** for the package.
 
 1. Enter the tracking **Number**.
+
+    Tracking the shipment is an important point in management. To track the location of any shipment open the required shipment in edit mode and click **Track this shipment**.
+
+    ![]({% link images/images/tracking-information.png %}){: .zoom}
+  _Shipping and Tracking Information_
 
 ## Shipping Comments
 
