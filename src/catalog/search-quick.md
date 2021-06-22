@@ -3,6 +3,9 @@ title: Quick Search
 group: marketing
 ---
 
+{:.bs-callout-info}
+[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Adobe Commerce. The standard search functionality described in this topic does not apply to Live Search.
+
 The Search box in the header of the store helps visitors find products in your catalog. The search text can be the full or partial product name or any other word or phrase that describes the product. The search terms that people use to find products can be managed from the Admin.
 
 1. For **Search**, enter the first few letters of what you want to find.
