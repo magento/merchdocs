@@ -83,9 +83,6 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 1. Update any of the following values, as needed:
 
    - Email
-   - Group
-   - Phone
-   - ZIP
    - Web Site
    - Tax/VAT Number
    - Gender
@@ -153,6 +150,9 @@ These columns are available by changing the [column layout]({% link stores/admin
 |Shipping Address|The address where orders are to be shipped.|
 |VAT Number|The value-added tax number that is associated with the customer address. For [digital goods]({% link tax/eu-place-of-supply.md %}) sold in the EU, the VAT is based on the billing address of the customer. <br/><br/>**_Note:_** This field is not the same as the Tax/VAT Number.|
 |Account Lock|Indicates the status of the account. As a security measure, customer accounts can be [locked]({% link customers/password-options.md %}) after too many login attempts. Values: Locked / Unlocked|
+|Status|The current user status. Options: Active / Inactive|
+|Customer Type|Customer types, options: Individual user / Company admin / Company user|
+|Sales Representative|The sales representative who is assigned as the point of contact for a company account and receives all automated email messages related to the company.|
 
 <!--
   This is a style declaration so that long field names are not wrapped by table auto styling for column widths.
