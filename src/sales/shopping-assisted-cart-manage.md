@@ -139,9 +139,9 @@ _Shopping Cart in in the customer account_
 
 ## Transfer an item
 
-Items can be transferred to the cart from a customer wish list, as well as recently viewed, compared, or ordered items. The number of items in each section appears in parentheses after the section header.
+You can transfer items to the cart from a customer's wish list, as well as recently viewed, compared, or ordered items. The number of items in each section appears in parentheses after the section header.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) one of the following sections.
+1. Expand ![]({% link images/images/btn-expand.png %}) one of the following sections:
 
    - Wish List
    - Products in the Comparison List

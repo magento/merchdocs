@@ -27,11 +27,11 @@ _Create New Order_
 
 If your store has multiple views, choose the store view where the order is to be placed.
 
-### Add products from the Customer’s Activities section
+### Add products from the Customer’s Activities sidebar
 
-Items can be transferred to the cart from a customer wish list, as well as recently viewed, compared, or ordered items.
+You can transfer items to the cart from a customer's wish list, as well as recently viewed, compared, or ordered items.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) one of the following sections.
+1. Expand ![]({% link images/images/btn-expand.png %}) one of the following sections:
 
    - Wish List
    - Last Ordered Items
@@ -41,7 +41,7 @@ Items can be transferred to the cart from a customer wish list, as well as recen
 
 1. Select the checkbox of each product in the left panel.
 
-1. Scroll down and click **Update Changes**.
+1. Scroll down and click <span class="btn">Update Changes</span>.
 
    The item appears in the order form.
 
@@ -70,13 +70,7 @@ Items can be transferred to the cart from a customer wish list, as well as recen
 
    - Click <span class="btn">Add Selected Product(s) to Order</span> to update the cart.
 
-1. Configure the product [gift options]({% link sales/gift-options.md %}):
-
-   - Click **Gift Options**.
-
-   - Complete the `Gift Message` fields or select the `Gift Wrapping`.
-
-   - Click <span class="btn">OK</span>.
+1. If a product is configured for [gift options]({% link sales/gift-options.md %}), set the options as needed.
 
 1. Override the price of an item if necessary:
 
