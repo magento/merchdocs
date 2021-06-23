@@ -2,6 +2,7 @@
 ee_only: true
 title: Store Credit
 redirect_from:
+  - /sales/store-credit-workflow.html
   - /sales/store-credit.html
 ---
 
