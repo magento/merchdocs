@@ -3,7 +3,7 @@ title: Store Admin
 group: getting-started
 ---
 
-Your store _Admin_ is the password-protected back office where you, as the merchant, can set up products and promotions, manage orders, and perform other administrative tasks. All basic configuration tasks and store management operations are performed from the _Admin_. 
+Your store _Admin_ is the password-protected back office where you, as the merchant, can set up products and promotions, manage orders, and perform other administrative tasks. All basic configuration tasks and store management operations are performed from the _Admin_.
 
 For additional security, the _Admin_ login is protected by [two-factor authentication]({% link stores/security-two-factor-authentication.md %}), and can be configured to require a [CAPTCHA]({% link stores/security-captcha.md %}). To learn more, refer to [Configuring Admin Security]({% link stores/security-admin.md %}).
 
