@@ -10,7 +10,7 @@ For additional security, the _Admin_ login is protected by [two-factor authentic
 ![Adobe Commerce Admin - Dashboard]({% link images/images/admin-menu-dashboard.png %}){: .zoom}
 _Admin Sidebar and Dashboard_
 
-Your initial [sign-in]({% link stores/admin-signin.md %}) credentials were set up during the installation of Adobe Commerce. If you forget your pakssword, a temporary password can be sent to the email address that is associated with the account. For increased security, you can configure your store to require a case-sensitive user name and strong password.
+Your initial [sign-in]({% link stores/admin-signin.md %}) credentials were set up during the installation of Adobe Commerce. If you forget your password, a temporary password can be sent to the email address that is associated with the account. For increased security, you can configure your store to require a case-sensitive user name and strong password.
 
 In addition to the default _Admin_ account, you can create as many [additional accounts]({% link system/permissions-users-all.md %}) as needed to manage the store and support customer accounts. Each account can be associated with a specific [role]({% link system/permissions-user-roles.md %}) and [level of access]({% link system/permissions-role-resources.md %}), based on the person’s business need to know. The email address that is associated with each _Admin_ account must be unique.
 
