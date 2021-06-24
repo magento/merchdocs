@@ -4,7 +4,7 @@ title: Billing Agreements
 
 The _Billing Agreements_ page lists all PayPal [billing agreements]({% link payment/paypal-billing-agreements.md %}) between your store and its customers. The store administrator can filter the records by the customer or billing agreement information, including billing agreement reference ID, status, and creation date. Each record includes general information about the billing agreement, and all sales orders that have used it as a payment method. A store administrator can view, cancel, or delete customer billing agreements. A canceled billing agreement can be deleted only by the store administrator.
 
-When a customer places an order using a billing agreement, Magento transfers the billing agreement reference ID and sales order billing information to PayPal. After that, PayPal authorizes the payment to create a new order, it provides the customers and the store with the billing agreement reference ID.
+When a customer places an order using a billing agreement, Magento sends the billing agreement reference ID and sales order billing information to PayPal. After PayPal authorizes the payment, it sends the billing agreement reference ID to both the customer and the store.
 
 ![Billing agreements list displayed in the Admin]({% link images/images/sales-billling-agreements.png %}){: .zoom}
 _Billing agreements_
