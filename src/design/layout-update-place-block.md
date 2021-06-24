@@ -44,12 +44,6 @@ The following steps show how to use a layout update to place a block on a page. 
 
 1. Select the layout update that you want to apply to the page.
 
-|Field|Description|
-|--- |--- |
-|Layout|**Empty** - Use to define your own page layout. (Requires an understanding of XML.) <br/>**1 column** - Applies a one-column layout to the category page. <br/>**2 columns with left bar** - Applies a two-column layout with a left sidebar to the category page. <br/>**2 columns with right bar** - Applies a two-column layout with a right sidebar to the category page. <br/>**3 columns** - Applies a three-column layout to the category page.<br/><span class="ee-only">**Page -- Full Width**</span> - (Requires [Page Builder]({% link cms/page-builder.md %})) Applies the full-width layout for CMS pages to the category page. <br/><span class="ee-only">**Category -- Full Width**</span> - (Requires Page Builder) Applies the full-width layout for category pages to the category page. <br/><span class="ee-only">**Product -- Full Width**</span> - (Requires Page Builder) Applies the full-width layout for product pages to the category page.|
-|Custom Layout Update|Lists the available custom layout update files on the server. Choose the custom layout update that you want to apply to the category.|
-|New Theme|Applies a custom theme that determines the visual presentation of your store. Default options: Magento Blank, Magento Luma.|
-
 ## Step 4: Save and refresh cache
 
 1. When complete, click <span class="btn">Save & Close</span>.
