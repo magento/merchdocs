@@ -54,6 +54,6 @@ _Staging dashboard_
 
 For help with troubleshooting content staging issues, see the following Commerce Support articles:
 
-- [Error 404 on all pages due to Content Staging issue](https://support.magento.com/hc/en-us/articles/360000262174)
+- [Error 404 on all pages due to content staging issue](https://support.magento.com/hc/en-us/articles/360000262174)
 - [Scheduled Content Staging updates not displayed with stale Fastly cache](https://support.magento.com/hc/en-us/articles/360000548734)
 - [Can I schedule Content Staging updates for prices in a shared catalog?](https://support.magento.com/hc/en-us/articles/360001896153)

@@ -39,7 +39,7 @@ Inventory Management features are supported by the Community Engineering efforts
 
 ## Developer information
 
-Inventory Management installs with Magento Magento Open Source and Adobe Commerce with all features enabled by default. For information about changes included in module releases, see the [Inventory Management Release Notes]({{ site.devdocs_url }}/guides/v{{ site.version }}/inventory/release-notes.html). The [Inventory Management Guide]({{ site.devdocs_url }}/guides/v{{ site.version }}/inventory/) in to developer documentation provides details about module architecture, CLI, and APIs.
+Inventory Management installs with Magento Open Source and Adobe Commerce with all features enabled by default. For information about changes included in module releases, see the [Inventory Management Release Notes]({{ site.devdocs_url }}/guides/v{{ site.version }}/inventory/release-notes.html). The [Inventory Management Guide]({{ site.devdocs_url }}/guides/v{{ site.version }}/inventory/) in developer documentation provides details about module architecture, CLI, and APIs.
 
 ## Troubleshooting resources
 

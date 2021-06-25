@@ -20,7 +20,7 @@ If you are just getting started with Page Builder, you can get up to speed quick
 
 ## Developer information
 
-Page Builder installs with Adobe Commerce 2.4.x with all features enabled by default. For information about changes included in module releases, see the [Page Builder Release Notes]({{ site.devdocs_url }}/page-builder/docs/release-notes.html). The [Page Builder Guide]({{ site.devdocs_url }}/page-builder/docs/index.html) in to developer documentation provides details about module architecture and customization.
+Page Builder installs with Adobe Commerce 2.4.x with all features enabled by default. For information about changes included in module releases, see the [Page Builder Release Notes]({{ site.devdocs_url }}/page-builder/docs/release-notes.html). The [Page Builder Guide]({{ site.devdocs_url }}/page-builder/docs/index.html) in developer documentation provides details about module architecture and customization.
 
 ## Troubleshooting resources
 
