@@ -103,6 +103,8 @@ pages:
         url: "/stores/admin-actions-control.html"
     - label: Session Lifetime
       url: "/stores/admin-session-lifetime.html"
+    - label: Multiple Admin Login
+      url: "/stores/multiple-admin-login.html"
   - label: Store Details
     url: "/stores/store-details.html"
     children:
