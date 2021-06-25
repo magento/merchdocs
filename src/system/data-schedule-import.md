@@ -31,9 +31,8 @@ After each scheduled import job, a reindex operation is performed automatically.
 
    - **Entity Type** — Set to one of the following: `Products` or `Customers`
 
-      For the `Advanced Pricing`, `Products`, `Customers and Addresses (single file)`, `Stock Sources` entity’s types are displayed such import behaviors as: Add/Update, Replace, Delete.
-
-      For the `Customer Finances`, `Customers Main File`, `Customers and Addresses` entity’s types are displayed such import behaviors as: Add/Update Complex Data, Delete Entities, Custom Action.
+      {:.bs-callout-info}
+      For the _Advanced Pricing_, _Products_, _Customers and Addresses (single file)_, and _Stock Sources_ entity types, these additional import behaviors displayed: Add/Update, Replace, and Delete. For the _Customer Finances_, _Customers Main File_, and _Customers and Addresses_ entity types, these additional import behaviors displayed: Add/Update Complex Data, Delete Entities, and Custom Action.
 
    - **Import Behavior** — Set to one of the following:
 
@@ -112,7 +111,7 @@ Field | Description
 Name | The name of the import. Helps you to distinguish it if many different scheduled imports are created.
 Description | (Optional) You can enter an additional description.
 Entity Type | Defines the data to be imported. Options: Products / Customers.
-Import Behavior | Defines how complex data is handled if entities, which are being imported, already exist in the database. Complex data for products include categories, websites, custom options, tier prices, related products, up-sells, cross-sells, and associated products data. Complex data for customers include addresses. Options:<br>**Add/Update Complex Data** - The new complex data will be added or updated to the existing complex data for the already existing entries in the database. This is the default value.<br>**Replace** - The existing complex data for the already-existing entities will be replaced.<br>**Delete Entities** - If entities which are being imported already exist in the database, they will be deleted from the database.<br>**Custom Action** - The existing complex of entities will be customized during the import process.
+Import Behavior | Defines how complex data is handled if the entities being imported already exist in the database. Complex data for products include categories, websites, custom options, tier prices, related products, up-sells, cross-sells, and associated products data. Complex data for customers include addresses. Options:<br>**Add/Update Complex Data** - The new complex data are added or updated to the existing complex data for existing entries in the database. This is the default value.<br>**Replace** - The existing complex data for the existing entities are replaced.<br>**Delete Entities** - If imported entities already exist in the database, they are deleted from the database.<br>**Custom Action** - The existing complex entities are customized during the import process.
 Start Time | Set the start hour, minutes, and seconds of the import.
 Frequency | Define how often the import will be run. Options: Daily / Weekly / Monthly.
 On Error | Define the system behavior in case errors are found during file validation. Options:<br>**Stop Import** — The file is not imported if any errors are found during validation. This is the default value.<br>**Continue Processing** - In case errors are found during validation, but importing is possible, the file is imported.
