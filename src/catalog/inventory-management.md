@@ -36,3 +36,16 @@ Magento Inventory Management gives you the tools to manage your product inventor
 Inventory Management features are supported by the Community Engineering efforts of the Multi Source Inventory (MSI) project. Learn more about this project and additional developer documentation in [Magento Extensions]({% link magento/magento-extensions.md %}).
 
 {% include grid.html sections=page.sections %}
+
+## Developer information
+
+Inventory Management installs with Magento Magento Open Source and Adobe Commerce with all features enabled by default. For information about changes included in module releases, see the [Inventory Management Release Notes]({{ site.devdocs_url }}/guides/v{{ site.version }}/inventory/release-notes.html). The [Inventory Management Guide]({{ site.devdocs_url }}/guides/v{{ site.version }}/inventory/) in to developer documentation provides details about module architecture, CLI, and APIs.
+
+## Troubleshooting resources
+
+For help with troubleshooting Inventory Management issues, see the following Commerce Support articles:
+
+- [Large number reservation inconsistencies](https://support.magento.com/hc/en-us/articles/360051515272)
+- [Inventory inconsistency issues](https://support.magento.com/hc/en-us/articles/360055276532)
+- [Swatches not strike-through inventory reaches "0"](https://support.magento.com/hc/en-us/articles/360057039552)
+- [Stock status incorrect after Inventory install](https://support.magento.com/hc/en-us/articles/360032440152)

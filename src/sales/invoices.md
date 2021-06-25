@@ -33,3 +33,12 @@ _Invoices grid_
 |Subtotal|The order subtotal, without shipping and handling, and tax.|
 |Shipping and Handling|The amount charged for shipping and handling.|
 |Action|View: opens the invoice in edit mode.|
+
+## Troubleshooting resources
+
+For help with troubleshooting invoice issues, see the following Commerce Support articles:
+
+- [Can't invoice bundle products virtual and simple](https://support.magento.com/hc/en-us/articles/360052403931)
+- [Invoice without store credit info](https://support.magento.com/hc/en-us/articles/360051658412)
+- [Tax appears on invoice with 100% discount](https://support.magento.com/hc/en-us/articles/360060913271)
+- [Order invoices don't send automatically](https://support.magento.com/hc/en-us/articles/360053969732)
