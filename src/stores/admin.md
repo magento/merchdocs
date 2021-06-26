@@ -16,9 +16,11 @@ In addition to the default _Admin_ account, you can create as many [additional a
 
 ## Usage data collection
 
-The first time you log in to the _Admin_, it displays the **Allow admin usage data collection** dialog.
+The first time you log in to the _Admin_, you are asked for permission to collect your usage data.
 
 ![]({% link images/images/admin-menu-dashboard-usage-data.png %}){: .zoom}
 _Allow admin usage data collection_
 
-If you select **Allow**, Adobe Commerce will gather usage data to help improve the user experience of the _Admin_ as well as related products and services. Starting with Adobe Commerce 2.4.2, this also enables interactive _In-Product Guidance_, providing _Admin_ users with help and tips on better utilization of the product from within the _Admin_ UI. Content such as new feature announcements, walk-through guides, onboarding information, tool tips, and more will be available through this feature. The usage data cannot be used to individually identify any administrator. You can change this setting at any time from the [Admin]({% link configuration/advanced/admin.md %}#admin-usage) configuration settings.
+By allowing _Admin_ usage data collection, you can help us improve the experience of using the _Admin_ and related products and services. Allowing data collection also enables _In-Product Guidance_, which is designed to bring interactive content such as help, tool tips, walk-through guides, onboarding information, feature announcements, and more to the _Admin_.
+
+Individual administrators are not identified in usage data. Your data collection setting can be changed at any time from the [Admin Usage]({% link configuration/advanced/admin.md %}#admin-usage) configuration.
