@@ -1,5 +1,5 @@
 ---
-title: Using Two-Factor-Authentication
+title: Using Two-Factor Authentication
 ---
 
 These instructions show how to set up two-factor authentication during your initial sign in and how to authenticate your identity using the following apps and devices:
@@ -15,7 +15,7 @@ For complete instructions, see [Admin Sign In]({% link stores/admin-signin.md %}
 
 ### Step 1: Set up Google Authenticator
 
-1. Enter your account credentials and sign in to the Magento _Admin_.
+1. Enter your account credentials and sign in to the Adobe Commerce _Admin_.
 
     A new authenticator screen appears with a QR code.
 
@@ -34,7 +34,7 @@ For complete instructions, see [Admin Sign In]({% link stores/admin-signin.md %}
 
 ### Step 2: Sign in with Google Authenticator
 
-1. Enter your account credentials and sign in to the Magento _Admin_.
+1. Enter your account credentials and sign in to the Commerce _Admin_.
 
     ![Google Authenticator - signin]({% link images/images/storefront-2fa-google-code.png %}){: .zoom}
     _Google Authenticator_
@@ -53,7 +53,7 @@ Duo offers a free trial, and charges according to the number of users that are a
 
 ### Step 1: Set up Duo Security
 
-1. Enter your account credentials and sign in to the Magento _Admin_.
+1. Enter your account credentials and sign in to the Adobe Commerce _Admin_.
 
 1. When the Duo Setup page appears. Click **Start setup** and do the following:
 
@@ -77,16 +77,16 @@ Duo offers a free trial, and charges according to the number of users that are a
         ![Duo authentication - verify app installation]({% link images/images/storefront-2fa-duo-user5.png %}){: .zoom}
         _Verify App Installation_
 
-1. Open Duo Mobile and scan the **QR code** to sync the authenticator with Magento. A checkmark appears when the activation is complete.
+1. Open Duo Mobile and scan the **QR code** to sync the authenticator with Adobe Commerce. A checkmark appears when the activation is complete.
 
     ![Duo authentication - verification code]({% link images/images/storefront-2fa-duo-user6.png %}){: .zoom}
     _Duo Verification Code_
 
 1. To configure your settings for the device, choose the action that you want to take place when you sign in.
 
-   - `Ask me to choose an authenticator method` — Allows the user to select when logging in and authenticating in the Magento _Admin_.
+   - `Ask me to choose an authenticator method` — Allows the user to select when logging in and authenticating in the _Admin_.
    - `Automatically send this device a Duo Push` — Sends a message to your device to accept or deny for access.
-   - `Automatically call this device` — Calls and provides a passcode for entering
+   - `Automatically call this device` — Calls and provides a passcode to enter for access.
 
     ![Duo verification actions]({% link images/images/storefront-2fa-duo-user7.png %}){: .zoom}
     _Duo verification code_
@@ -95,7 +95,7 @@ Duo offers a free trial, and charges according to the number of users that are a
 
 The following example shows the options for `Ask me to choose an authenticator method`:
 
-1. When prompted, enter your Magento _Admin_ credentials to sign in.
+1. When prompted, enter your Adobe Commerce _Admin_ credentials to sign in.
 
     ![Duo - signin]({% link images/images/storefront-2fa-duo-auth.png %}){: .zoom}
     _Duo access_
@@ -114,7 +114,7 @@ Authy offers their app and service at no charge to users. Follow their instructi
 
 ### Step 1: Set up Authy
 
-1. Enter your account credentials and sign in to the Magento _Admin_.
+1. Enter your account credentials and sign in to the Adobe Commerce _Admin_.
 
     ![Authy registration]({% link images/images/storefront-2fa-authy-auth.png %}){: .zoom}
     _Authy registration_
@@ -143,7 +143,7 @@ Authy offers their app and service at no charge to users. Follow their instructi
 
 ### Step 2: Sign in with Authy
 
-1. Enter your account credentials and sign in to the Magento _Admin_.
+1. Enter your account credentials and sign in to the Adobe Commerce _Admin_.
 
     ![Authy - signin]({% link images/images/storefront-2fa-authy-access.png %}){: .zoom}
     _Authy access_
@@ -167,7 +167,7 @@ Authy offers their app and service at no charge to users. Follow their instructi
 
 Follow the instructions from the solution provider to configure your U2F device. For more information, see the vendor documentation, such as [YubiKey][1] by Yubico.
 
-1. Enter Magento _Admin_ account credentials and sign in to your account.
+1. Enter Adobe Commerce _Admin_ account credentials and sign in to your account.
 
     ![U2F key access]({% link images/images/storefront-2fa-u2f.png %}){: .zoom}
     _U2F Key Access_
