@@ -29,4 +29,13 @@ If you have many rules created, you can filter the list by using the filter opti
 |<span class="ee-only">Action</span>|Click **Edit** to display the Rule Information screen and update the rule's settings (similar to creating a new rule).|
 
 {:.bs-callout-info}
-To update a rule's properties, click the rule in the list to display the Rule Information page. There you can change the settings for the rule (similar to creating a new rule).
+To update rule properties, click the rule in the list to display the _Rule Information_ page. There you can change the settings for the rule (similar to creating a new rule).
+
+## Troubleshooting resources
+
+For help with troubleshooting catalog price rule issues, see the following Commerce Support articles:
+
+- [404 Error on store front once catalog price rule schedules update is performed](https://support.magento.com/hc/en-us/articles/360025522891)
+- [Improved performance of product page with related products and target rules](https://support.magento.com/hc/en-us/articles/360052455691)
+- [Catalog price rules don't work](https://support.magento.com/hc/en-us/articles/360055855591)
+- [GraphQL price calculations](https://support.magento.com/hc/en-us/articles/360055782351)
