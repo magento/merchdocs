@@ -14,7 +14,7 @@ _2FA Codes on Phone_
 
 Adobe Commerce supports 2FA methods from multiple providers. Some require you to install an app that generates a one-time password (OTP) that is entered at login to verify your identity. Universal 2nd Factor (U2F) devices resemble a key fob and generate a unique key that is similarly used to verify your identity. Other devices verify your identify when they are inserted into a USB port. As the store administrator, you can require one or more of the available 2FA methods to authenticate users at login. Your 2FA configuration applies to all websites and stores that are associated with the Adobe Commerce installation.
 
-The first time users sign in to the _Admin_, they must set up the 2FA method(s) that you require, and verify their identity using the associated app(s) and/or device(s). After the initial setup, users are required to authenticate themselves at each login. Each user's 2FA information is recorded in their _Admin_ account and can be [reset]({% link stores/security-two-factor-authentication-manage.md %}) if necessary. To learn more about the sign-in process, go to [_Admin_ Sign In]({% link stores/admin-signin.md %}).
+The first time a user signs in to the _Admin_, they must set up each supported 2FA method that is specified in the [2FA]({% link configuration/security/2fa.md %}) configuration, and verify their identity using the associated app or device. After this initial setup, the user must be authenticated at each login by one of the supported methods. Each user's 2FA information is recorded in their _Admin_ account and can be [reset]({% link stores/security-two-factor-authentication-manage.md %}) if necessary. To learn more about the sign-in process, go to [_Admin_ Sign In]({% link stores/admin-signin.md %}).
 
 ## Configure your supported 2FA provider(s)
 
@@ -26,18 +26,18 @@ The first time users sign in to the _Admin_, they must set up the 2FA method(s) 
 
    To select multiple methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.
 
-1. Complete the settings for each method that you choose to require.
+1. Complete the settings for each supported 2FA method.
 
    ![Security configuration - 2FA]({% link images/images/config-2fa-general.png %}){: .zoom}
    _Providers to use_
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-  The next time users sign in to the _Admin_, they are required to set up 2FA and authenticate themselves.
+  The first time users sign in to the _Admin_, they are required to set up each supported 2FA method. After this initial setup, they must authenticate themselves at each login using one of the supported methods.
 
 ### 2FA Provider Settings
 
-Complete the settings for each 2FA method that you require.
+Complete the settings for each 2FA method that you choose to support.
 
 #### Google
 
