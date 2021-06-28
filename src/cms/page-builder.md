@@ -38,3 +38,15 @@ Starting with the 2.4.3 release, Page Builder provides a unified native CMS tool
 
 {% include grid.html sections=page.sections%}
 
+## Developer information
+
+Page Builder installs with Adobe Commerce 2.4.x with all features enabled by default. For information about changes included in module releases, see the [Page Builder Release Notes]({{ site.devdocs_url }}/page-builder/docs/release-notes.html). The [Page Builder Guide]({{ site.devdocs_url }}/page-builder/docs/index.html) in developer documentation provides details about module architecture and customization.
+
+## Troubleshooting resources
+
+For help with troubleshooting Page Builder issues, see the following Commerce Support articles:
+
+- [Empty page when dotdigital Page Builder form saved](https://support.magento.com/hc/en-us/articles/360049819092)
+- [Page Builder doesn't load media gallery](https://support.magento.com/hc/en-us/articles/360052440732)
+- [Page Builder preview breaks product price differs across sites](https://support.magento.com/hc/en-us/articles/360057028631)
+- [Can't save Terms page](https://support.magento.com/hc/en-us/articles/360058590612)
