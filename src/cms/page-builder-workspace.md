@@ -1,5 +1,4 @@
 ---
-ee_only: true
 title: Page Builder Workspace
 ---
 
@@ -13,7 +12,7 @@ _Content section with Page Builder preview_
 Because search engines look for level one (H1) headings, adding a level one heading is an easy way to ensure that the page is indexed correctly.
 
 {:.bs-callout-info}
-The _Content Heading_ field that appears at the top of the page is a legacy field that supports content that was created with earlier versions of Magento. It is not, however, part of Page Builder. The Content Heading is formatted as an H1 heading according to the style sheet that is associated with the current theme, and positioned just above the active content area that is defined by the Page Builder stage.
+The _Content Heading_ field that appears at the top of the page is a legacy field that supports content that was created with earlier Commerce releases. It is not, however, part of Page Builder. The Content Heading is formatted as an H1 heading according to the style sheet that is associated with the current theme, and positioned just above the active content area that is defined by the Page Builder stage.
 
 For the best control over the positioning and format of headings of all levels, we recommend that you leave the _Content Heading_ field empty, and use the Page Builder [Heading]({% link cms/page-builder-elements-heading.md %}) content type.
 
@@ -35,7 +34,7 @@ For the product and category forms, this content preview is enabled by default, 
 When you open the Page Builder workspace from the preview, the stage is the primary work area where you can create and format content, and even make quick edits to live content. The stage is initially empty, providing the design surface where you can drag rows, columns, and tabs from the left panel.
 
 {:.bs-callout-info}
-Starting with Magento 2.4.1, content editing is now full-screen only for all areas controlled by Page Builder. This includes CMS pages, product and category pages, blocks, and dynamic blocks. Full-screen editing puts the focus on your content and provides a view that better matches the user experience on the storefront.
+Starting with the 2.4.1 release, content editing is now full-screen only for all areas controlled by Page Builder. This includes CMS pages, product and category pages, blocks, and dynamic blocks. Full-screen editing puts the focus on your content and provides a view that better matches the user experience on the storefront.
 
 ![]({% link images/images-ee/page-builder-workspace-simple-page.png %}){: .zoom}
 _Stage with page content_

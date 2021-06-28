@@ -1,5 +1,4 @@
 ---
-ee_only: true
 title: 'Tutorial 1: Simple Page'
 ---
 
@@ -9,7 +8,7 @@ In this three-part tutorial, you will become familiar with the Page Builder work
 _Simple Page example_
 
 {:.bs-callout-info}
-This tutorial is updated to reflect recent changes to the Page Builder workspace in Magento 2.4.1. If you are using an earlier Magento Commerce release, use the Page Builder tutorials included in the [Magento 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
+These tutorials are updated to reflect recent changes to the Page Builder workspace in the 2.4.1 release. If you are using an earlier Adobe Commerce release, use the Page Builder tutorials included in the [Commerce 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
 
 ## Before you begin
 
@@ -348,7 +347,7 @@ In this step, you will learn how to upload an image to the banner.
 
       Repeat this action to add the `small-banner-2.jpg` file to the second column.
 
-   - **Drag the image file**: On your desktop, open the simple page assets folder and position it alongside the Magento Admin browser window where you are working with the Page Builder stage. Then, drag the file `small-banner-1.jpg` from the simple page assets folder, and drop it in the first column.
+   - **Drag the image file**: On your desktop, open the simple page assets folder and position it alongside the Admin browser window where you are working with the Page Builder stage. Then, drag the file `small-banner-1.jpg` from the simple page assets folder, and drop it in the first column.
 
       ![]({% link images/images-ee/page-builder-tutorial1-column-image-drag.png %}){: .zoom}
       _Dragging the image onto the second column_

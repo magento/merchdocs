@@ -1,5 +1,4 @@
 ---
-ee_only: true
 title: Layout - Column
 ---
 
