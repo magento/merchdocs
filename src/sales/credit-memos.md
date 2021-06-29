@@ -13,7 +13,7 @@ The [payment method]({% link payment/payments.md %}) for the order---account cre
 
 - An order that was placed using a credit account can be refunded to the respective account:
 
-   - {:.ee-only}[Store Credit]({% link sales/store-credit-using.md %})
+   - {:.ee-only}[Store Credit]({% link customers/store-credit-using.md %})
    - {:.b2b-only}[Payment on Account]({% link payment/payment-on-account.md %})
    - {:.b2b-only}[Company Credit]({% link customers/account-dashboard-company-credit.md %})
 

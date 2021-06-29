@@ -4,6 +4,8 @@ title: Billing Agreements
 
 The _Billing Agreements_ page lists all PayPal [billing agreements]({% link payment/paypal-billing-agreements.md %}) between your store and its customers. The store administrator can filter the records by the customer or billing agreement information, including billing agreement reference ID, status, and creation date. Each record includes general information about the billing agreement, and all sales orders that have used it as a payment method. A store administrator can view, cancel, or delete customer billing agreements. A canceled billing agreement can be deleted only by the store administrator.
 
+When a customer places an order using a billing agreement, Magento sends the billing agreement reference ID and sales order billing information to PayPal. After PayPal authorizes the payment, it sends the billing agreement reference ID to both the customer and the store.
+
 ![Billing agreements list displayed in the Admin]({% link images/images/sales-billling-agreements.png %}){: .zoom}
 _Billing agreements_
 
@@ -14,3 +16,15 @@ _Billing agreements_
 1. Find the billing agreement in the list.
 
 1. In the _Actions_ column, click **View**.
+
+### Column descriptions
+
+|Column|Description|
+|--- |--- |
+|ID|A unique numeric identifier that is assigned to each billing agreement|
+|Email|A customer’s contact email|
+|First & Last Name|A customer’s first and last name|
+|Reference ID|A unique, numeric reference identifier that is assigned to each billing agreement|
+|Status|Payment agreement status. Options: `Active` or `Canceled`|
+|Created|Creation date|
+|Updated|Update date|
