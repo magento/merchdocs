@@ -7,16 +7,16 @@ The Adobe Commerce _Admin_ provides access to your store, orders, and customer d
 {: .bs-callout-info}
 This implementation of two-factor authentication (2FA) applies to the _Admin_ only, and is not available for customer accounts. The two-factor authentication that protects your [magento.com account]({% link magento/magento-account.md %}) has a separate setup. To learn more, go to [Securing Your Account]({% link magento/magento-account-secure.md %}).
 
-Two-factor authentication is widely used and you might have several access codes for different websites. For example, the Google Authenticator app on your phone might generate codes for the _Admin_ of your store, your magento.com account, your Google account, and so on.
+Two-factor authentication is widely used, and it is common to generate access codes for different websites on the same app. For example, you might use Google Authenticator to generate codes for the _Admin_ of your store, your _magento.com_ account, Google account, and so on.
 
 ![Security configuration - 2FA]({% link images/images/google-authenticator-iphone.png %}){: .zoom}
 _2FA Codes on Phone_
 
-Adobe Commerce supports 2FA methods from multiple providers. Some require you to install an app that generates a one-time password (OTP) that is entered at login to verify your identity. Universal 2nd Factor (U2F) devices resemble a key fob and generate a unique key that is similarly used to verify your identity. Other devices verify your identify when they are inserted into a USB port. As the store administrator, you can require one or more of the available 2FA methods to authenticate users at login. Your 2FA configuration applies to all websites and stores that are associated with the Adobe Commerce installation.
+Adobe Commerce supports 2FA methods from multiple providers. Some require the installation of an app that generates a one-time password (OTP) that users enter at sign-in to verify their identity. Universal 2nd Factor (U2F) devices resemble a key fob and generate a unique key to verify identity. Other devices verify identity when they are inserted into a USB port. As the store administrator, you can require one or more of the available 2FA methods to verify user identity. Your 2FA configuration applies to all websites and stores that are associated with the Adobe Commerce installation.
 
-The first time a user signs in to the _Admin_, they must set up each supported 2FA method that is specified in the [2FA]({% link configuration/security/2fa.md %}) configuration, and verify their identity using the associated app or device. After this initial setup, the user must be authenticated at each login by one of the supported methods. Each user's 2FA information is recorded in their _Admin_ account and can be [reset]({% link stores/security-two-factor-authentication-manage.md %}) if necessary. To learn more about the sign-in process, go to [_Admin_ Sign In]({% link stores/admin-signin.md %}).
+The first time a user signs in to the _Admin_, they must set up each [2FA]({% link configuration/security/2fa.md %}) method that you require, and verify their identity using the associated app or device. After this initial setup, the user must authenticate with one of the configured methods each time they sign in. Each user's 2FA information is recorded in their _Admin_ account and can be [reset]({% link stores/security-two-factor-authentication-manage.md %}) if necessary. To learn more about the sign-in process, go to [_Admin_ Sign In]({% link stores/admin-signin.md %}).
 
-## Configure your supported 2FA provider(s)
+## Configure your required 2FA provider(s)
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -33,7 +33,7 @@ The first time a user signs in to the _Admin_, they must set up each supported 2
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-  The first time users sign in to the _Admin_, they are required to set up each supported 2FA method. After this initial setup, they must authenticate themselves at each login using one of the supported methods.
+  The first time users sign in to the _Admin_, they must set up each required 2FA method. After this initial setup, they must authenticate with one of the configured methods each time they sign in.
 
 ### 2FA Provider Settings
 

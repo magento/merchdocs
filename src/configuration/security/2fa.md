@@ -11,7 +11,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Secu
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Providers to use|Global|Indicates the two-factor authentication method(s) that you choose to make available to _Admin_ users. The first time a user logs in, they must follow the provider's instructions to install and configure each supported app or device. After this initial setup, the user must be authenticated at each login by one of the supported methods. Each user's 2FA information is recorded in their _Admin_ account and can be [reset]({% link stores/security-two-factor-authentication-manage.md %}) if necessary. To learn more, go to [Two-Factor Authentication]({% link stores/security-two-factor-authentication.md %}).|
+|Providers to use|Global|Indicates the two-factor authentication method(s) that you require. The first time a user signs in to the _Admin_, they must set up each 2FA method that you require, and verify their identity using the associated app or device. After this initial setup, the user must authenticate with one of the configured methods each time they sign in. Each user's 2FA information is recorded in their _Admin_ account and can be [reset]({% link stores/security-two-factor-authentication-manage.md %}) if necessary. To learn more, go to [Two-Factor Authentication]({% link stores/security-two-factor-authentication.md %}).|
 |Configuration Email URL for Web API|Global |For custom implementations, the URL for an alternate email configuration link that is sent to _Admin_ users at first login. In the email template, use the placeholder `:tfat` to indicate where the token is injected.|
 
 ## Google
