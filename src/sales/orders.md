@@ -8,3 +8,14 @@ Orders are usually created when customers complete the checkout process from the
 
 ![]({% link images/images-b2b/orders.png %}){: .zoom}
 _Orders_
+
+## Troubleshooting resources
+
+For help with troubleshooting order issues, see the following Commerce Support articles:
+
+- [Virtual product multi-ship orders](https://support.magento.com/hc/en-us/articles/360044461831)
+- [Orders display error](https://support.magento.com/hc/en-us/articles/360046802271)
+- [PayPal duplicate orders 10415 error](https://support.magento.com/hc/en-us/articles/360050572151)
+- [New orders are sent to archive](https://support.magento.com/hc/en-us/articles/360026405051)
+- [Orders not displayed in the Orders grid in the Admin](https://support.magento.com/hc/en-us/articles/360025277272)
+- [Order status incorrect shipment created via REST API](https://support.magento.com/hc/en-us/articles/360050518952)
