@@ -26,7 +26,7 @@ The first time a user signs in to the _Admin_, they must set up each [2FA]({% li
 
    To select multiple methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.
 
-1. Complete the settings for each supported 2FA method.
+1. Complete the settings for each required 2FA method.
 
    ![Security configuration - 2FA]({% link images/images/config-2fa-general.png %}){: .zoom}
    _Providers to use_
