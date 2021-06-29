@@ -89,7 +89,7 @@ Website Sitemap
     Sitemap: http://www.domain_2.com/sitemaps/domain_2/sitemap.xml
 
 {:.bs-callout-info}
-If your site uses the [Apache](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/apache.html) web server engine, you should update the [.htaccess](http://httpd.apache.org/docs/current/howto/htaccess.html) file in the root of your website to direct any other sitemap requests to the proper place.
+If your site uses the [Apache]({{ site.devdocs_url }}/guides/v{{ site.version }}/install-gde/prereq/apache.html) web server engine, you should update the [.htaccess](http://httpd.apache.org/docs/current/howto/htaccess.html) file in the root of your website to direct any other sitemap requests to the proper place.
 
 ## Column descriptions
 
