@@ -238,7 +238,7 @@ _Create Credit Memo_
 |Grand Total|The total amount to be refunded|
 |Append Comments|Checkbox that determines if comments are included in the credit memo.|
 |Email Copy of Credit Memo|Checkbox that determines if a copy of the credit memo is emailed.|
-|<span class="ee-only">Refund to Store Credit</span>|Checkbox that determines if the total is to be refunded to [store credit]({% link sales/store-credit-using.md %}).|
+|<span class="ee-only">Refund to Store Credit</span>|Checkbox that determines if the total is to be refunded to [store credit]({% link customers/store-credit-using.md %}).|
 |<span class="b2b-only">Subtotal</span>|The total of all line items to be refunded.|
 {: .buttons-table }
 

@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Configuring Store Credit
+redirect_from:
+  - /sales/credit-configure.html
 ---
 
 The store credit configuration controls automatic refunds, the display of available credit in customer accounts, and the email template that is used for notifications sent to customers.
