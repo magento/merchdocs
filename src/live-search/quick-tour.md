@@ -13,7 +13,7 @@ Live Search responds with suggested products and a thumbnail image of top search
 
 The popover can return "search as you type" results for one character or more. To set the minimum number of characters required for a query, change the Catalog Search [Minimal Query Length](https://docs.magento.com/user-guide/catalog/search-configuration.html) configuration setting.
 
-To customize the popover, refer to [Storefront Popover](https://devdocs.magento.com/live-search/storefront-popover.html) in the Live Search developer documentation.
+To customize the popover, refer to [Storefront Popover]({{ site.devdocs_url }}/live-search/storefront-popover.html) in the Live Search developer documentation.
 
 ![Example storefront - search as you type]({% link live-search/assets/storefront-search-as-you-type.png %}){: .zoom}
 _Search as you type_
