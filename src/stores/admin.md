@@ -16,7 +16,7 @@ In addition to the default _Admin_ account, you can create as many [additional a
 
 ## Usage data collection
 
-The first time you log in to the _Admin_, you are asked to grant Adobe permission to collect your usage data.
+The first time you log in to the _Admin_, you are asked to grant Adobe permission to collect usage data for all administrators.
 
 ![]({% link images/images/admin-menu-dashboard-usage-data.png %}){: .zoom}
 _Allow admin usage data collection_
