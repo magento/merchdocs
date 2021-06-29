@@ -1,12 +1,17 @@
 ---
 title: SEO and Search
 sections:
+
+  - title: Live Search
+    content: Live Search is an advanced search service that is available for Adobe Commerce.
+    url: /live-search/overview.html
+
   - title: Catalog Navigation
     content: Learn about navigation and how to optimize the methods shoppers use to move from page to page throughout your store.
     url: /catalog/navigation.html
 
   - title: Catalog Search
-    content: Explore how customers search for products in your catalog, and how you can configure catalog search to improve search results.
+    content: Explore how customers search for products in your catalog, and how you can configure standard Adobe Commerce catalog search to improve search results. For Live Search installations, see [Live Search]({% link live-search/overview.md %}).
     url: /catalog/search.html
 
   - title: Search Terms

@@ -14,3 +14,13 @@ _Category Tree_{:.ee-only}
 |Collapse All / Expand All |Either collapses or expands the category tree.|
 |<span class="btn">Delete</span> |Removes the current category or subcategory from the tree.|
 |<span class="btn">Save</span> |Saves any changes made to the category.|
+
+## Troubleshooting resources
+
+For help with troubleshooting category issues, see the following Commerce Support articles:
+
+- [Changes to categories are not being saved](https://support.magento.com/hc/en-us/articles/115004383453)
+- [Main Menu (Categories) not displayed on subpages with Fastly enabled](https://support.magento.com/hc/en-us/articles/115003567594)
+- [Missing products from categories, indexing related](https://support.magento.com/hc/en-us/articles/360050636011)
+- [Out of memory on certain categories](https://support.magento.com/hc/en-us/articles/360059068611)
+- [Products and categories not displaying](https://support.magento.com/hc/en-us/articles/360058224711)

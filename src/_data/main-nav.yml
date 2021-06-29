@@ -93,7 +93,10 @@
   - label: Communications
     url: /marketing/communications.html
 
-  - label: SEO &  Search
+  - label: Live Search
+    url: /live-search/overview.html
+
+  - label: SEO & Search
     url: /marketing/seo-search.html
 
   - label: Google Tools

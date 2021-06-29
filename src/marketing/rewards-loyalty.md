@@ -23,3 +23,10 @@ Reward points are not recommended for use with COD purchases, because receipt of
 ## Refunding to Reward Points
 
 Orders placed with [reward points]({% link sales/credit-memo-create.md %}) can be refunded to the reward points balance up to the amount redeemed in the order. On the New Credit Memo page, the amount of points to be applied to the customer’s balance can be entered. By default, the field contains the full amount of points that were used in the order.
+
+## Troubleshooting resources
+
+For help with troubleshooting reward points issues, see the following Commerce Support articles:
+
+- [Loyalty points on partial orders](https://support.magento.com/hc/en-us/articles/360051330832)
+- [404 error removing rewards points on multi-shipping checkout](https://support.magento.com/hc/en-us/articles/360046920131)
