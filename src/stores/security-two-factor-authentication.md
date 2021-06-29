@@ -33,11 +33,11 @@ The first time a user signs in to the _Admin_, they must set up each [2FA]({% li
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-  The first time users sign in to the _Admin_, they must set up each required 2FA method. After this initial setup, they must authenticate with one of the configured methods each time they sign in.
+   The first time users sign in to the _Admin_, they must set up each required 2FA method. After this initial setup, they must authenticate with one of the configured methods each time they sign in.
 
 ### 2FA Provider Settings
 
-Complete the settings for each 2FA method that you choose to support.
+Complete the settings for each 2FA method that you require.
 
 #### Google
 
