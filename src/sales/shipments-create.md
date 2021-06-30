@@ -40,11 +40,11 @@ For each line item in the order, modify the **Qty to Ship** as needed.
 
 1. Set **Carrier**:
 
-    - Custom Value;
-    - DHL;
-    - Federal Express;
-    - United Parcel Service;
-    - United States Postal Service.
+    - Custom Value
+    - DHL
+    - Federal Express
+    - United Parcel Service
+    - United States Postal Service
 
 1. Enter **Title** and **Number** to track the shipment.
 
@@ -62,7 +62,7 @@ For each line item in the order, modify the **Qty to Ship** as needed.
 
 1. Enter the tracking **Number**.
 
-    Tracking the shipment is an important point in management. To track the location of any shipment open the required shipment in edit mode and click **Track this shipment**.
+    To track the location of any shipment, open the required shipment in edit mode and click **Track this shipment**.
 
     ![]({% link images/images/tracking-information.png %}){: .zoom}
   _Shipping and Tracking Information_
