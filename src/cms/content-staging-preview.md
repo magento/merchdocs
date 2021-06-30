@@ -51,5 +51,9 @@ _Preview page controls_
    - Click <span class="btn">Share</span> and copy the link to the clipboard.
 
    - Paste the link into the body of an email message.
+    
+     {:.bs-callout-info}
+Only Admin users are allowed to see the preview, you are sharing. It is required to create admin account for user before the sharing, if he doesn't have it. 
+Otherwise, he won't be able to see a preview.
 
 1. To return to the campaign calendar, click **Calendar** in the header of the Preview page.
