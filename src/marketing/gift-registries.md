@@ -24,14 +24,14 @@ Registry visitors who want to make a purchase can add the item to their carts di
 
 1. **Invitation recipients place orders**. Those who receive an invitation can place an order for any item directly from the gift registry. As items are sold, Magento updates the gift registry item counts, and notifies the gift registry owner.
 
-## Add an item to the Gift Register
+## Add an item to a gift registry on the storefront
 
-1. Open the product that you want to add to the gift registry event.
+1. The customer opens the product that they want to add to the gift registry event.
 
-1. Click <span class="btn">Add to Cart</span>.
+1. Clicks/taps <span class="btn">Add to Cart</span>.
 
-1. Click <span class="btn">View and Edit Cart</span> on the Mini Cart.
+1. Clicks/taps <span class="btn">View and Edit Cart</span> on the mini cart.
 
-1. On the Shopping Cart page select the event you need and click <span class="btn">Add All To Gift Registry</span>.
+1. On the Shopping Cart page, selects the event they want and clicks/taps <span class="btn">Add All To Gift Registry</span>.
 
-1. Items will be added to the gift register of the selected event.
+    Items are added to the gift registry of the selected event.
