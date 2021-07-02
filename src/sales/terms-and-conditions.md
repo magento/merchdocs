@@ -44,8 +44,8 @@ _Terms and Conditions at checkout_
 
 1. Set **Applied** to `Automatically` or `Manually`.
 
-   |`Automatically`|Condition will be accepted automatically on checkout.|
-   |`Manually`|Customers are required manually accept created condition for placing an order on checkout page.|
+   |`Automatically`|Condition will be accepted automatically upon the checkout.|
+   |`Manually`|Customers are required to manually accept the created condition for placing an order on the checkout page.|
 
 1. Set **Show Content as** to one of the following:
 
