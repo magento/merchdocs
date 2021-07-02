@@ -41,7 +41,7 @@ _Email a Friend_
 
 When this feature is configured, store customers follow these steps to share product information with friends.
 
-1. On a catalog page, click the **Email** link. Then, if the feature configured only for registered users, do one of the following:
+1. On a catalog page, click the **Email** link. Then, if the feature is configured only for registered users, do one of the following:
 
     - Log in to your customer account.
     - Sign up for a new account.
@@ -52,9 +52,8 @@ When this feature is configured, store customers follow these steps to share pro
 
     - Enter the **Name** and **Email Address** of the additional person.
 
-        You can send the message to as many additional people as the configuration allows.
-        
-         You can remove added Invitee by clicking the **Remove** link, near **Email** field of needed Invitee.
+        You can send the message to as many additional people as the configuration allows. 
+        You can remove the added Invitee by clicking the **Remove** link, near **Email** field of needed Invitee.
 
 1. When ready to send the message, click <span class="btn">Send Email</span>.
 
