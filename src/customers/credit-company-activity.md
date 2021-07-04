@@ -2,7 +2,7 @@
 b2b_only: true
 title: Company Credit Activity
 redirect_from:
-  - /sales/credity-company-activity.html
+  - /sales/credit-company-activity.html
 ---
 
 The [Company Credit]({% link customers/account-dashboard-company-credit.md %}) section of the company profile displays a summary of the customer credit activity, with a grid of the company credit history.

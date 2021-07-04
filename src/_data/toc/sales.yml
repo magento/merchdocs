@@ -150,16 +150,6 @@ pages:
       url: "/sales/credit-memo-create.html"
     - label: Printing Credit Memos
       url: "/sales/credit-memo-print.html"
-  - label: Store Credit
-    url: "/sales/store-credit.html"
-    edition: ee-only
-    children:
-    - label: Configuring Store Credit
-      url: "/sales/credit-configure.html"
-    - label: Applying Store Credit
-      url: "/sales/store-credit-using.html"
-    - label: Customer Account Dashboard
-      url: "/sales/refunds-customer-account.html"
   - label: Returns
     url: "/sales/returns.html"
     edition: ee-only

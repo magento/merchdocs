@@ -4,8 +4,38 @@ description: This page contains recent changes that we think you'd like to know 
   We exclude from this list proofreading, spelling checks, and insignificant updates.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Tue Jun 15 14:27:39 2021
+updated: Thu Jul 1 16:23:14 2021
 entries:
+- description: "[Live Search](https://docs.magento.com/user-guide/live-search/overview.html)
+    powered by [Adobe Sensei](https://www.adobe.com/sensei.html) delivers a lightning
+    fast, super relevant, and intuitive search experience for the storefront, and
+    is available for Adobe Commerce at no additional charge."
+  versions: 2.4.x
+  type: Major update, New topic
+  date: June 22, 2021
+  link: https://github.com/magento-commerce/merchdocs/pull/125
+  merge_commit: 22f64cc9deaf424430bc165ca8b92858d957f074
+  contributor: dshevtsov
+  membership: true
+  labels:
+  - 2.4.x
+  - Major update
+  - New topic
+- description: Updated [Security Scan](https://docs.magento.com/user-guide/magento/security-scan.html)
+    for a new feature added to the Magento Scan Tool that enables merchants to submit
+    PWA stores for scanning.
+  versions: 2.4.x
+  type: Major update
+  date: June 17, 2021
+  link: https://github.com/magento/merchdocs/pull/1344
+  merge_commit: 2364a30a3da16fa81989a1b5b8e36896eb59fcdd
+  contributor: smiverma
+  membership: false
+  labels:
+  - 2.4.x
+  - MQR
+  - Major update
+  - 'Progress: done'
 - description: Updated [Country Options](https://docs.magento.com/user-guide/stores/country-options.html)
     with new section for configuring shipping to specific countries for each available
     shipping method (UPS, FedEx, etc.)

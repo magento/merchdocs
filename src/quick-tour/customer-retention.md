@@ -11,7 +11,7 @@ Email Marketing Automation
 :  Customers can submit requests for [Return Merchandise Authorization]({% link sales/returns.md %}) from your store. You can create shipment orders in a carrier system and print shipping labels with RMA numbers.
 
 {:.ee-only}Store Credit
-:  Keep customers loyal and happy by issuing refunds as [store credit]({% link sales/store-credit-using.md %}) or virtual gift cards to ensure that the money they spend stays in your store.
+:  Keep customers loyal and happy by issuing refunds as [store credit]({% link customers/store-credit-using.md %}) or virtual gift cards to ensure that the money they spend stays in your store.
 
 {:.ee-only}Reward Points
 :  Drive customer engagement with [reward programs and points]({% link marketing/rewards-loyalty.md %}) based on a range of transactions and customer behaviors. Base redemption on a variety of factors, such as balance, customer history, and conversion rates.
