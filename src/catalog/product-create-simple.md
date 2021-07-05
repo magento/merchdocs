@@ -145,4 +145,6 @@ Scroll down and complete the information in the following sections as needed:
 
 - Simple products can be included in configurable, bundle, and grouped product types.
 
+- Simple product configuration overwrites configurable product configurations for a specific product.
+
 - A simple product can have custom options with a variety of input controls, which makes it possible to sell many product variations from a single SKU.
