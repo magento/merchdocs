@@ -19,6 +19,21 @@ _All Customers_
 
 1. When complete, click <span class="btn">Save</span>.
 
+### Add customer account
+
+1. In the grid page, click <span class="btn">Add New Customer</span>.
+
+1. Add the account related customer details:
+
+   - Associate to Website (in case if you have multisite installation) and set the website
+   - Allocate the Customer Group
+   - Select the checkbox if you are using VAT ID Validation and want to Disable Automatic Group Change Based on VAT ID.
+   -Write down the customer details in the required fields like **First Name**, **Last Name**, **Email**.
+   - Complete the optional details if needed.
+   - Enable **Send Welcome Email** from to the store view from which the Welcome email will be sent to the customer. If the store contains views for different languages, it will determine the language of the Welcome email.
+
+1. When prompted to confirm, click <span class="btn">Save Customer</span>.
+
 ### Delete customer accounts
 
 Deleted customer accounts cannot be restored. Information about customer activity and transactions is retained in the system.
