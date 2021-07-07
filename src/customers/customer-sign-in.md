@@ -28,6 +28,23 @@ _Sign In_
 
    If you cannot remember your password, click **Forgot Your Password?** and follow the [instructions]({% link customers/password-reset.md %}) to reset your password.
 
+## Set the redirect to Account Dashboard after logging in
+
+You can configure the store to redirect customers to their account dashboard after they log in or let them continue shopping.
+
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+
+1. In the left panel, expand **Customers** and choose **Customer Configuration**.
+
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Login Options** section.
+
+1. Set **Redirect Customer to Account Dashboard after Logging in** to one of the following:
+
+   | Yes | The account dashboard appears when customers log in to their accounts. |
+   | No | Customers can continue shopping after logging in to their accounts. |
+
+1. When complete, click <span class="btn">Save Config</span>.
+
 ## Sign in with Amazon
 
 1. In the header of the store, click **Sign in**.
