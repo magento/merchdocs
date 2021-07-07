@@ -28,7 +28,7 @@ _All Customers_
    - Associate to Website (in case if you have multisite installation) and set the website
    - Allocate the Customer Group
    - Select the checkbox if you are using VAT ID Validation and want to Disable Automatic Group Change Based on VAT ID.
-   -Write down the customer details in the required fields like **First Name**, **Last Name**, **Email**.
+   - Write down the customer details in the required fields like **First Name**, **Last Name**, **Email**.
    - Complete the optional details if needed.
    - Enable **Send Welcome Email** from to the store view from which the Welcome email will be sent to the customer. If the store contains views for different languages, it will determine the language of the Welcome email.
 
