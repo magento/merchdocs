@@ -110,3 +110,35 @@ In the storefront, a customer can create a wish list from their account dashboar
 
     ![]({% link images/images/account-dashboard-wishlist-sharing-email.png %}){: .zoom}
     _Shared Wish List Email_
+
+{:.ee-only}
+## Move items to a different list
+
+1. Select the checkbox of each item to be moved.
+
+1. Click **Move Selected to Wish List** and do one of the following:
+
+    - Choose an existing wish list.
+    - Click **Create New Wish List**.
+
+{:.ee-only}
+## Copy items to a different list
+
+1. Select the checkbox of each item to be moved.
+
+1. Click **Copy Selected to Wish List** and do one of the following:
+
+    - Choose an existing wish list.
+    - Click **Create New Wish List**.
+
+{:.ee-only}
+## Delete Created Wish Lists
+
+1. Open the wish list to be deleted.
+
+1. Click the **Delete Wish List** button.
+
+1. When prompted to confirm, click <span class="btn">OK</span> button.
+
+{:.bs-callout-info}
+This action cannot be undone.
