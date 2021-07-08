@@ -111,6 +111,17 @@ A product in the Requisition List may be edited if:
    ![]({% link images/images-b2b/customer-company-requisition-list-rename.png %}){: .zoom}
    _Rename Requisition List_
 
+### Remove requisition List
+
+1. Open the requisition list to be deleted.
+
+1. Click the **Delete Requisition List** button.
+
+1. When prompted to confirm, click <span class="btn">Delete</span> button.
+
+{:.bs-callout-info}
+This action cannot be undone.
+
 ## Actions
 
 |Action|Description|
