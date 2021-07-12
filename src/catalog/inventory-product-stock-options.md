@@ -105,4 +105,4 @@ Configure the quantities and additional settings per [added source]({% link cata
 | Enable Qty Increments | Global | Determines if the product can be sold in quantity increments. |
 
 {:.bs-callout .bs-callout-info}
-Simple product configuration overwrites configurable product configurations for a specific product.
+Simple product configuration overrides configurable product configurations for a specific product.
