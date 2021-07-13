@@ -69,7 +69,7 @@ To create a SaaS Environment, request the Magento API key from the Magento licen
 
    When you save, if there are any SaaS projects associated with your API key, those projects will appear in the **SaaS Project** field located in the **SaaS Identifier** section.
 
-1. If there are not any SaaS projects created, click **Request New Project** to display the **Project Name** field and enter a name for your SaaS project.
+1. If there are not any SaaS projects created, click **Create Project** to display the **Project Name** field and enter a name for your SaaS project.
 
    Magento creates a SaaS project and the number of SaaS environments you are entitled to.
 
