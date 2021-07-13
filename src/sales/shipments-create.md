@@ -65,7 +65,7 @@ For each line item in the order, modify the **Qty to Ship** as needed.
     To track the location of any shipment, open the required shipment in edit mode and click **Track this shipment**.
 
     ![]({% link images/images/tracking-information.png %}){: .zoom}
-  _Shipping and Tracking Information_
+   _Shipping and Tracking Information_
 
 ## Shipping Comments
 

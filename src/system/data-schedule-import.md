@@ -39,7 +39,7 @@ After each scheduled import job, a reindex operation is performed automatically.
       - `Add/Update Complex Data` — Adds or updates new complex data to the existing complex data for existing entries in the database. This is the default value.
       - `Replace` — Writes over existing complex for existing entities in the database.
       - `Delete Entities` — Deletes existing entries in the database.
-      - `Custom Action` - Customises existing entities in the database.
+      - `Custom Action` - Customizes existing entities in the database.
 
    - **Start Time** — Set to the hour, minute, and second that the import is scheduled to begin.
 
