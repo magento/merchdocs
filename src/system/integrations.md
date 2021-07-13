@@ -26,7 +26,7 @@ _Integrations_
    - Enter the **Identity Link URL** to redirect the users to a third-party account with these Magento integration credentials.
 
    - Enter the current Admin User password into **Your Password** field.
-    
+
     ![New integration]({% link images/images/integration-new.png %}){: .zoom}
     _New Integration_
 
