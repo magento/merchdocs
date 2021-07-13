@@ -24,9 +24,9 @@ _Integrations_
    - Enter the **Callback URL** where OAuth credentials can be sent when using OAuth for token exchange. We strongly recommend using `https://`.
 
    - Enter the **Identity Link URL** to redirect the users to a third-party account with these Magento integration credentials.
-    
-   - Enter the current Admin User password into **Your Password** field
 
+   - Enter the current Admin User password into **Your Password** field.
+    
     ![New integration]({% link images/images/integration-new.png %}){: .zoom}
     _New Integration_
 
