@@ -51,7 +51,7 @@ _Preview page controls_
    - Click <span class="btn">Share</span> and copy the link to the clipboard.
 
    - Paste the link into the body of an email message.
-     
+
      {:.bs-callout-info}
      Only Admin users are allowed to see the preview, you are sharing. It is required to create admin account for user before the sharing, if it does not exist.Otherwise, user won’t be able to see a preview.
 
