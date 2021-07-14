@@ -53,6 +53,6 @@ _Preview page controls_
    - Paste the link into the body of an email message.
 
      {:.bs-callout-info}
-     Only Admin users are allowed to see the preview, you are sharing. It is required to create admin account for user before the sharing, if it does not exist.Otherwise, user won’t be able to see a preview.
+     An Admin user account is required to see a shared preview. If you have access to [create a new Admin user account]({% link system/permissions-users-all.md %}), you must create the account for a new user before the sharing.
 
 1. To return to the campaign calendar, click **Calendar** in the header of the Preview page.
