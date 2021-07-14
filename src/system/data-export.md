@@ -36,19 +36,27 @@ Data export is an asynchronous operation, which executes in the background so th
 
     - To export only records with specific attribute values, enter the required value in the **Filter** column. The following example exports only a specific SKU.
 
-        ![Data export - product based on SKU]({% link images/images/data-export-entity-attributes-sku.png %}){: .zoom}
-        _Export Product Based on SKU_
+      ![Data export - product based on SKU]({% link images/images/data-export-entity-attributes-sku.png %}){: .zoom}
+      _Export Product Based on SKU_
 
     - To omit an attribute from the export, select the **Exclude** checkbox at the beginning of the row. For example, to export only the sku and image columns, select the checkbox of every other attribute. The column appears in the export file, but without any values.
 
-        ![Data export - exclude attributes]({% link images/images/data-export-filter-exclude.png %}){: .zoom}
-        _Exclude Attributes_
+      ![Data export - exclude attributes]({% link images/images/data-export-filter-exclude.png %}){: .zoom}
+      _Exclude Attributes_
 
 1. Scroll down and click **Continue** in the lower-right corner of the page.
 
-   Upon completion of the task, the file is processed through a message queue (make sure your cron job is running). The exported file is saved in the `var/export/ folder`. For more information about the message queue, see ]Manage message queues]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/mq/manage-message-queues.html) in our developer documentation.
+   Upon completion of the task, the file is processed through a message queue (make sure your cron job is running). The exported file is saved in the `var/export/ folder`. For more information about the message queue, see [Manage message queues]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/mq/manage-message-queues.html) in our developer documentation.
 
     You can save or open the exported CSV file as a spreadsheet, then edit the data and import it back into your store.
 
     {:.bs-callout-info}
     By default, all exported files are located in the `<Magento-root-directory>/var/export` folder. If the Remote storage module is enabled, all exported files are located in the `<remote-storage-root-directory>/import_export/export` folder.
+
+## Troubleshooting resources
+
+For help with troubleshooting data export issues, see the following Commerce Support articles:
+
+- [Exported products .csv file does not appear](https://support.magento.com/hc/en-us/articles/360033513352)
+- [Product export file does not show in Admin](https://support.magento.com/hc/en-us/articles/360052071672)
+- [Issue in exporting orders in CSV format](https://support.magento.com/hc/en-us/articles/360052166051)

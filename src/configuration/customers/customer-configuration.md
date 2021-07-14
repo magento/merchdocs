@@ -118,7 +118,7 @@ _[Name and Address Options - Commerce]({% link customers/name-address-options.md
 ## Store Credit Options
 
 ![]({% link images/images-ee/config-customers-customer-configuration-store-credit-options.png %}){: .zoom}
-_[Store Credit Options]({% link sales/credit-configure.md %})_
+_[Store Credit Options]({% link customers/credit-configure.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

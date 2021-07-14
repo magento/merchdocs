@@ -124,6 +124,9 @@ _[Price]({% link catalog/catalog-price-scope.md %})_{:.ee-only}
 
 ## Layered Navigation
 
+{:.bs-callout-info}
+[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Adobe Commerce. The standard layered navigation configuration does not apply to Live Search.
+
 ![]({% link images/images/config-catalog-catalog-layered-navigation-automatic-equalize-price-ranges.png %}){: .zoom}
 [_Layered Navigation - Automatic (equalize price ranges)_]({% link catalog/navigation-layered-configuration.md %})
 
@@ -166,7 +169,7 @@ _[Price]({% link catalog/catalog-price-scope.md %})_{:.ee-only}
 |Category URL Suffix|Store View|Determines if a suffix, such as html or htm, is applied to category URLs. If used, do not include a period before the suffix, because it is applied automatically.|
 |Use Categories Path for Product URLs|Store View|Determines if category paths are included in product URLs. Doing so can cause multiple URLs to point to the same page, which might impact search rank. To learn more, see: [Canonical Meta Tag]({% link marketing/meta-canonical.md %}).|
 |Create Permanent Redirect for URLs if URL Key Changed|Store View|Determines if a permanent redirect is created automatically whenever a URL key changes. When implemented, the Create Custom Redirect for old URL checkbox below the product URL Key field is selected by default. Options: Yes / No|
-|Generate "category/product" URL Rewrites|Global|Determines if Magento generates data and saves it into rewrite tables when a user saves a category that contains many assigned products. Options: Yes / No <br/><br/>**_Important:_** Saving this generated data into a URL rewrites table can degrade Magento performance. See [Automatic Product Redirects]({% link marketing/url-redirect-product-automatic.md -%}) for more information.|
+|Generate "category/product" URL Rewrites|Global|Determines if Adobe Commerce generates data and saves it into rewrite tables when a user saves a category that contains many assigned products. Options: Yes / No <br/><br/>**_Important:_** Saving this generated data into a URL rewrites table can degrade performance. See [Automatic Product Redirects]({% link marketing/url-redirect-product-automatic.md -%}) for more information.|
 |Page Title Separator|Store View|Identifies the character that separates the category name and subcategory in the browser title bar.|
 |Use Canonical Link Meta Tag for Categories|Store View|If there are multiple URLs that point to the same category page, this option uses a canonical meta tag to identify the category URL that search engines should index. The URL includes a full name to the category using the metatag. This reduces duplicate content and improves SEO. Options: Yes / No|
 |Use Canonical Link Meta Tag for Products|Store View|If there are multiple URLs that point to the same product page, this option uses a canonical meta tag to identify the product URL that search engines should index. The URL includes a full name to the product using the metatag. This reduces duplicate content and improves SEO. Options: Yes / No|
@@ -182,19 +185,22 @@ _[Price]({% link catalog/catalog-price-scope.md %})_{:.ee-only}
 
 ## Catalog Search
 
-Magento supports several versions of Elasticsearch.
+{:.bs-callout-info}
+[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Adobe Commerce. The standard search configuration described in this section differs from Live Search.
+
+Adobe Commerce supports several versions of Elasticsearch.
 
 ![]({% link images/images/config-catalog-catalog-search-elasticsearch.png %}){: .zoom}
 [Catalog Search]({% link catalog/search-configuration.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Minimal Query Length|Store View|The minimum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set this value to `2` in Magento, update the value in your search engine.|
-|Maximum Query Length|Store View|The maximum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set this value to 300 in Magento, update the value in your search engine.|
+|Minimal Query Length|Store View|The minimum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set this value to `2` in Adobe Commerce, update the value in your search engine.|
+|Maximum Query Length|Store View|The maximum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set this value to 300 in Adobe Commerce, update the value in your search engine.|
 |Number of top search results to cache|Store View|The number of popular search terms and results to cache for faster responses. Entering a value of `0` caches all search terms and results when entered a second time. Default value: 100|
 |Enable EAV Indexer|Global|Determines if you want to enable or disable the Product EAV indexer. This feature improves indexation speed and restricts the indexer from use by 3rd party extensions. This option only displays for Elasticsearch or Elasticsearch 5.0+ Search Engines. Default Option: Yes for enabled|
 |Autocomplete Limit|Store View|The maximum number of search queries to display below the search field for search autocomplete. Restricting this amount increases performance of searches and reduces the displayed list size. Default value: 8|
-|Search Engine|Global|Identifies the search engine required to process requests for catalog data. Elasticsearch 7.6.x is required for all Magento installations. Option: Elasticsearch 7|
+|Search Engine|Global|Identifies the search engine required to process requests for catalog data. Elasticsearch 7.6.x is required for all Adobe Commerce installations. Option: Elasticsearch 7|
 |Elasticsearch Server Hostname|Global|Specifies the name of the Elasticsearch server. Default value: `elasticsearch.internal`|
 |Elasticsearch Server Port|Global|Specifies the number of the server port used by Elasticsearch. Default value: `9200`|
 |Elasticsearch Index Prefix|Global|Assigns a prefix to identify the Elasticsearch index. Default value: `magento2`|

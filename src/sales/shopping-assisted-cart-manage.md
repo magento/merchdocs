@@ -8,6 +8,21 @@ To begin an assisted shopping session, the customer must be logged into their ac
 ![]({% link images/images-ee/customer-account-manage-cart-items.png %}){: .zoom}
 _Shopping Cart in in the customer account_
 
+### Actions control
+
+|Option|Description|
+|--- |--- |
+|Remove|Removes items from the current shopping cart|
+|Move to Wish List|Moves items to the selected customer wishlist|
+
+### Control buttons
+
+|Option|Description|
+|--- |--- |
+|Clear my shopping cart|Clears the current shopping cart from all products|
+|Update Items and Quantities|Enter the required quantity in the **Qty** field and update the number of items in the cart|
+|Add selections to my cart|Adds products from all sections to the cart|
+
 ## Verify that the customer is logged in
 
 1. On the _Admin_ sidebar, go to **Customers** > **Now Online**.
@@ -63,17 +78,16 @@ _Shopping Cart in in the customer account_
    ![]({% link images/images-ee/customer-account-manage-cart-update-cart.png %}){: .zoom}
    _Cart Updated_
 
-### Add a configurable product
+### Add a product with configuration
+
+There are three types of products that need to be configured before adding to the cart: `Bundle Product`, `Configurable Product`, and `Grouped Product`.
 
 1. In the grid, click **Configure** next to the product name.
 
    ![]({% link images/images-ee/customer-account-manage-cart-order-configurable-product.png %}){: .zoom}
    _Configure_
 
-1. In the _Associated Products_ dialog, choose each product option to describe the item to be ordered, enter the **Quantity**, and click <span class="btn">OK<span/>.
-
-   ![]({% link images/images-ee/customer-account-manage-cart-order-configurable-product-associated.png %}){: .zoom}
-   _Choose product options_
+1. In the _Associated Products_ dialog, choose each product option to describe the item to be ordered, enter the **Quantity**, and click <span class="btn">OK</span>.
 
    The product is selected with a checkmark and the quantity ordered appears in the grid.
 
@@ -124,9 +138,9 @@ _Shopping Cart in in the customer account_
 
 ## Transfer an item
 
-Items can be transferred to the cart from a customer wish list, as well as recently viewed, compared, or ordered items. The number of items in each section appears in parentheses after the section header.
+You can transfer items to the cart from a customer's wish list, as well as recently viewed, compared, or ordered items. The number of items in each section appears in parentheses after the section header.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) one of the following sections.
+1. Expand ![]({% link images/images/btn-expand.png %}) one of the following sections:
 
    - Wish List
    - Products in the Comparison List
@@ -154,7 +168,7 @@ Items can be transferred to the cart from a customer wish list, as well as recen
 
 ## Create the order
 
-1. Click <span class="btn">Create Order<span/>.
+1. Click <span class="btn">Create Order</span>.
 
    The _Create New Order_ page shows the items in the cart, followed by the shipping and payment information.
 

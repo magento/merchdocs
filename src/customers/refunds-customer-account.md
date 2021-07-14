@@ -1,9 +1,11 @@
 ---
 ee_only: true
 title: Store Credit and Refunds in the Account Dashboard
+redirect_from:
+  - /sales/refunds-customer-account.html
 ---
 
-If a refund has been issued for an order, customers can view the refund information associated with the order in their account dashboard. If you have enabled the _Show Store Credit History to Customers_ option for [store credit configuration]({% link sales/credit-configure.md %}), customers can also access their [store credit]({% link sales/store-credit.md %}) history.
+If a refund has been issued for an order, customers can view the refund information associated with the order in their account dashboard. If you have enabled the _Show Store Credit History to Customers_ option for [store credit configuration]({% link customers/credit-configure.md %}), customers can also access their [store credit]({% link customers/store-credit.md %}) history.
 
 ## View a refund on the storefront
 

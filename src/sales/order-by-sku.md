@@ -58,3 +58,16 @@ _Order by SKU in the Storefront_
       _Order by SKU Settings_
 
 1. Click **Save Config**.
+
+   {:.bs-callout-info}
+   To enable the **Order by SKU** function, disable the **Quick Order** function.
+
+1. Go to **Stores** > _Settings_ > **Configuration**.
+
+1. In the left panel under _General_, choose **B2B Features**
+
+1. Expand ![]({% link images/images/btn-expand.png %}) the **B2B Features** section.
+
+1. Set **Enable Quick Order** to `No`.
+
+   The **Quick Order** feature allows customers and guests to quickly place orders based on SKU or product name.

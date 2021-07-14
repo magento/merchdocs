@@ -40,8 +40,8 @@ The Customer completes the following steps on the storefront to submit an RMA:
 1. Sets **Resolution** to one of the following:
 
    - Exchange
-   - [Refund]({% link sales/refunds-customer-account.md %})
-   - [Store Credit]({% link sales/store-credit.md %})
+   - [Refund]({% link customers/refunds-customer-account.md %})
+   - [Store Credit]({% link customers/store-credit.md %})
 
 1. Sets **Item Condition** to one of the following:
 

@@ -20,9 +20,34 @@ The category structure of your catalog can influence how well your site is index
 
 ## Set the top navigation
 
-See “[Creating Categories]({% link catalog/category-create.md %})” to define the category structure of the main menu. For a multistore installation, a different main menu can be assigned as the [root category]({% link catalog/category-root.md %}) for each [store]({% link stores/stores-all-create-store.md %}).
+For a category to appear in the top navigation of a store, complete the following steps:
 
-## Set the depth of the top navigation
+### Step 1: Create a category
+
+1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+
+1. Set a **Store View** to determine where the new category is to be available.
+
+1. In the category tree, select the parent category of the new category.
+
+   If you’re starting from the beginning without any data, there might be only two categories in the list: _Default Category_, which is the root, and an _Example category_.
+
+1. Click <span class="btn">Add Subcategory</span>.
+
+1. Complete the basic information with following settings:
+
+   - **Enable Category** set to `Yes`
+   - **Include in Menu** set to `Yes`
+
+1. In Display Setting set **Anchor** to `Yes`.
+
+1. Complete any other required [category settings]({% link catalog/category-create.md %}).
+
+1. When complete, click <span class="btn">Save</span>.
+
+For a multistore installation, a different main menu can be assigned as the [root category]({% link catalog/category-root.md %}) for each [store]({% link stores/stores-all-create-store.md %}).
+
+### Step 2: Set the depth of the top navigation
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
