@@ -29,7 +29,7 @@ Magento stores and products support the following configurations for managing pr
 | Backorders | Indicates if Backorders are allowed. Specified on the level of Source, calculated on the Stock level based on assigned Sources. If enabled to allow backorders, we recommend setting a negative value for the Out-of-Stock Threshold (see [Configuring Backorders]({% link catalog/inventory-backorders.md %})). Options:<br />**No Backorders**: Does not accept backorders when product is out of stock.<br />**Allow Qty Below 0**: Accepts backorders when the quantity falls below zero.<br />**Allow Qty Below 0 and Notify Customer**: Accepts backorders when the quantity falls below zero, but notifies customers that orders can still be placed.|
 | Notify for Quantity Below | Sets the quantity that triggers a Quantity Below notification, warning of low stock. This amount is deducted from the Salable Quantity, not from the inventory Quantity. |
 | Enable Qty Increments | Sets if the product can be sold in quantity increments. If enabled, enter the quantity of products that must be purchased in an incremental step. |
-| Automatically Return Credit Memo Item to Stock | Inventory Management does not use this value. When you complete a return or Credit Memo, the product quantity is automatically returned to the affected source quantity. |
+| Automatically Return Credit Memo Item to Stock | Inventory Management does not use this value. When you complete a return or a credit memo, the product quantity is automatically returned to the affected source quantity. See [Configuring Product Options]({% link catalog/inventory-product-stock-options.md %}). |
 
 ## Configuration fall back and inheritance
 
