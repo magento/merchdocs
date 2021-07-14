@@ -34,6 +34,16 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Frequency|Store View|Determines how often sitemap CMS pages are updated. Options: Always / Hourly / Daily / Weekly / Monthly / Yearly / Never|
 |Priority|Store View|A value between 0.0 and 1.0 that determines the priority of CMS page sitemap updates in relation to other content. Zero has the lowest priority.|
 
+## Store Url Options
+
+![]({% link images/images/store-url-options.png %}){: .zoom}
+_Store Url Options_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Frequency|Store View|Determines how often store url are updated. Options: Always / Hourly / Daily / Weekly / Monthly / Yearly / Never|
+|Priority|Store View|A value between 0.0 and 1.0 that determines the priority of store url updates in relation to other content. Zero has the lowest priority.|
+
 ## Generation Settings
 
 ![]({% link images/images/config-catalog-xml-sitemap-generation-settings.png %}){: .zoom}
