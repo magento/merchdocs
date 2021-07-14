@@ -53,7 +53,7 @@ When this feature is configured, store customers follow these steps to share pro
     - Enter the **Name** and **Email Address** of the additional person.
 
         You can send the message to as many additional people as the configuration allows.
-        You can remove the added Invitee by clicking the **Remove** link, near **Email** field of needed Invitee.
+        You can remove the added invitee by clicking the **Remove** link.
 
 1. When ready to send the message, click <span class="btn">Send Email</span>.
 
