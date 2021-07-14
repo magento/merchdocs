@@ -84,7 +84,9 @@ _Conditions_
 
    For this example, complete the next part of the condition as follows:
 
-   - When prompted to **Choose the condition to add**, choose `Products Subselection`.
+   When prompted to **Choose the condition to add**, choose `Products Subselection`. Set this condition to one of the following values:
+
+   - Click **total quantity** and select `total quantity` or `total amount`.
 
    ![Cart price rule condition - products subselection]({% link images/images-ee/price-rule-cart-condition-products-subselection.png %}){: .zoom}
     _Products Subselection_{:.ee-only}
@@ -136,6 +138,24 @@ _Conditions_
 
  {:.bs-callout-warning}
  For purchase orders only: When a Cart Price Rule is set based on one or more specific Payment Methods, the discount is applied to the total when a purchase order is created. If, after the purchase order is created, the payment method is changed to one that is not covered by the Cart Price rule, the discount remains applied to the total.
+
+### How to Add Product Attribute to Cart Price Rules
+
+1. Go to **Stores** > **Attributes** > **Product**.
+
+1. Select **Storefront Properties** tab and set **Use for Promo Rule Conditions** to `Yes`.
+
+1. Then go to **Marketing** > **Cart Price Rules** and open the required cart price rule.
+
+1. Expand the **Condition** section and select **Product attribute combination**.
+
+1. Set this condition to one of the following values:
+
+   - Click **FOUND** and select `FOUND` or `NOT FOUND`.
+
+   - Click **ALL** and select `ALL` or `ANY`.
+
+1. Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) and select needed **Product Attribute**.
 
 ## Step 3: Define the Actions
 
