@@ -85,3 +85,15 @@ _Example Admin Users_
 1. Click <span class="btn">Save User</span>. When prompted, enter **Your Password** to confirm your identity, and again click <span class="btn">Save User</span>.
 
    The _Users_ grid opens and lists all users.
+
+## Deleting Admin Users
+
+1. Navigate to admin users grid: **System** > _Permissions_ > **All Users**.
+
+1. Find needed user account using filters on grid and click user name.
+
+1. Enter the current admin' user password into **Your Password** field.
+
+1. In the upper-right corner, click <span class="btn">Delete User</span>.
+
+1. Confirm the action by clicking <span class="btn">OK</span> button.
