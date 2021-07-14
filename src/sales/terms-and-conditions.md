@@ -4,7 +4,7 @@ redirect_from:
   - /stores/terms-and-conditions.html
 ---
 
-When _Terms and Conditions_ is enabled, customers are required to agree to the terms and conditions of the sale before the purchase is finalized, if manual applying enabled. The Terms and Conditions of the sale typically includes disclosure information that might be required by law for B2C or B2B sites, and outlines the rights of the buyer and seller. The Terms and Conditions message appears after the payment information, just before the _Place Order_ button.
+When manual _Terms and Conditions_ is enabled, customers are required to agree to the terms and conditions of the sale before the purchase is finalized. The Terms and Conditions of the sale typically includes disclosure information that might be required by law for B2C or B2B sites, and outlines the rights of the buyer and seller. The Terms and Conditions message appears after the payment information, just before the _Place Order_ button.
 
 ![]({% link images/images/storefront-checkout-step2-terms-conditions.png %}){: .zoom}
 _Terms and Conditions at checkout_
@@ -44,8 +44,8 @@ _Terms and Conditions at checkout_
 
 1. Set **Applied** to `Automatically` or `Manually`.
 
-   |`Automatically`|Condition will be accepted automatically upon the checkout.|
-   |`Manually`|Customers are required to manually accept the created condition for placing an order on the checkout page.|
+   |`Automatically`|Conditions are automatically accepted upon checkout.|
+   |`Manually`|Customers are required to manually accept the conditions to place an order.|
 
 1. Set **Show Content as** to one of the following:
 
