@@ -34,7 +34,7 @@ The form is updated to reflect the change.
 ![]({% link images/images/product-grouped-create-choose-attribute-set.png %}){: .zoom}
 _Choose Template_
 
-There is also an ability to add new attributes _on the fly_ while creating a product.
+There is also an ability to add new attributes on the fly while creating a product.
 
 1. In the upper-right corner, click <span class="btn">Add Attribute</span>.
 
