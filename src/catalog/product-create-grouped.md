@@ -34,6 +34,21 @@ The form is updated to reflect the change.
 ![]({% link images/images/product-grouped-create-choose-attribute-set.png %}){: .zoom}
 _Choose Template_
 
+There is also an ability to add new attributes on the fly while creating a product.
+
+1. In the upper-right corner, click <span class="btn">Add Attribute</span>.
+
+   ![]({% link images/images/product-attribute-add-select.png %}){: .zoom}
+   _New Attribute_
+
+1. To add an existing attribute to the product, use the [filter controls]({% link stores/admin-grid-controls.md %}) to find the attribute in the grid and do the following:
+
+   - Select the checkbox in the first column of each attribute to be added.
+
+   - Click <span class="btn">Add Selected</span>.
+
+1. To define a new attribute, see [Adding an Attribute to a Product]]({% link catalog/product-attributes-add.md %})
+
 ## Step 3: Complete the required settings
 
 1. Enter the **Product Name**.
@@ -132,7 +147,7 @@ Complete the information in the following sections as needed:
 
 1. Do one of the following:
 
-   **Method 1: Save and Preview**
+   **Method 1:**: Save and Preview
 
    - In the upper-right corner, click <span class="btn">Save</span>.
 
@@ -143,9 +158,9 @@ Complete the information in the following sections as needed:
       ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
       _Customer View_
 
-   **Method 2: Save and Close**
+   **Method 2:** Save and Close
 
-   On the _Save_ (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
+   - On the _Save_ (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
 
    ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
    _Save & Close_
