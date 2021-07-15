@@ -11,7 +11,7 @@ sections:
     url: /configuration/catalog.html
 
   - title: Security
-    content: Security settings configures store security, Two-factor authentication, and the [Google reCAPTCHA](https://www.google.com/recaptcha/about/) feature.
+    content: Security settings configures store security, Two-factor authentication, and the <a href="https://www.google.com/recaptcha/about/">Google reCAPTCHA</a> feature.
     url: /configuration/security.html
 
   - title: Customers
@@ -35,7 +35,7 @@ sections:
     url: /configuration/services.html
 
   - title: Advanced
-    content: Determines default Admin settings, various system configuration settings, advanced module controls, and developer tools (if the store is running in [developer mode]({% link magento/installation-modes.md %}))
+    content: Determines default Admin settings, various system configuration settings, advanced module controls, and developer tools (if the store is running in <a href="https://docs.magento.com/user-guide/magento/installation-modes.html">developer mode</a>).
     url: /configuration/advanced.html
 
 ---
