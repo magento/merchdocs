@@ -9,6 +9,7 @@ The cart configuration determines how the shopping cart functions for your store
 [Redirect to Cart]({% link sales/cart-redirect.md %})|Configure this option to determine if the shopping cart page appears whenever an item is added to the cart, or only when a customer chooses to go to the page.|
 [Quote Lifetime]({% link sales/cart-quote-lifetime.md %})|Configure this option to specify how long a price is valid.|
 [Minimum Order Amount]({% link sales/cart-minimum-order-amount.md %})|Configure these options to specify a minimum amount, after discounts are applied, that order subtotals are required to meet amd the messaging displayed in the shopping cart.|
+[Minimum Order Quantity]({% link sales/minimum-order-qty.md %})|Configure these options to specify a minimum items qty, that is required to place an order.|
 [Cart Thumbnails]({% link sales/cart-thumbnails.md %})|Configure the Cart Thumbnail options to determine the thumbnails displayed in the cart for grouped or configurable products.|
 [Gift Options]({% link sales/gift-options.md %})|Configure gift options to determine if customers can add a gift message or greeting card, and if gift wrapping options that are available.|
 
