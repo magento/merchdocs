@@ -61,7 +61,7 @@ Configure the quantities and additional settings per [added source]({% link cata
 1. To enable [inventory control]({% link catalog/inventory.md %}) for your catalog, set **Manage Stock** to `Yes`.
 
    {:.bs-callout-info}
-   Manage Stock settings in child product override a configurable product. 
+   Manage Stock settings in child product override a configurable product.
 
 1. Enter an amount for the **Out-of-Stock Threshold**:
 
