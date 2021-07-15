@@ -41,8 +41,8 @@ _Store Url Options_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Frequency|Store View|Determines how often store url are updated. Options: Always / Hourly / Daily / Weekly / Monthly / Yearly / Never|
-|Priority|Store View|A value between 0.0 and 1.0 that determines the priority of store url updates in relation to other content. Zero has the lowest priority.|
+|Frequency|Store View|Determines how often store URLs are updated. Options: Always / Hourly / Daily / Weekly / Monthly / Yearly / Never|
+|Priority|Store View|A value between 0.0 and 1.0 that determines the priority of store URL updates in relation to other content. Zero (`0.0`) has the lowest priority.|
 
 ## Generation Settings
 
