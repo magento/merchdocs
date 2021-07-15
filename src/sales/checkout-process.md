@@ -84,19 +84,19 @@ _Purchase Order Review & Payment_
 
 ## Number of items displayed in the order summary
 
-The admin can change the maximum number of items displayed in the order summary at the checkout it looks neat with fewer products. By default, this value is set to 10.
+Admin users can change the maximum number of items displayed in the order summary at checkout to streamline the display with fewer products. By default, this value is set to 10.
 
-1. Go to **Stores** > **Settings** > **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. Select **Checkout** under **Sales**.
+1. In the left panel, expand **Sales** and choose **Checkout**.
 
-1. Expand the **Checkout Options** section.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Checkout Options** section.
 
-1. Change the number in the field **Maximum Number of Items to Display in Order Summary**.
+1. For **Maximum Number of Items to Display in Order Summary**, enter the maximum number of items to be displayed.
 
-1. To save the configuration, click **Save Config**.
+1. Click <span class="btn">Save Config</span>.
 
-   After that, during checkout, only the specified quantity of items is displayed in the order summary:
+   With this update, the order summary displayed during checkout is limited to the specified quantity of items.
 
    ![]({% link images/images/order-summary.png %}){: .zoom}
    _Number of items displayed in Order Summary_
