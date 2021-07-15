@@ -25,7 +25,7 @@ _Integrations_
 
    - Enter the **Identity Link URL** to redirect the users to a third-party account with these Magento integration credentials.
 
-   - Enter the current Admin User password into **Your Password** field.
+   - When prompted, enter **Your Password** to confirm your identity.
 
     ![New integration]({% link images/images/integration-new.png %}){: .zoom}
     _New Integration_
@@ -44,13 +44,13 @@ _Integrations_
 
 1. When complete, click **Save**.
 
-## Activating an integration
+## Activate an integration
 
-By default, when the integration was saved, it appears on the grid in _Inactive_ status. To activate it, perform the following steps:
+By default, a saved integration appears on the grid with an _Inactive_ status. To activate it, complete the following steps:
 
-1. Find created integration on grid **System** > _Extensions_ > **Integrations**.
+1. On the _Admin_ sidebar, go to **System** > _Extensions_ > **Integrations**.
 
-1. Click the **Activate** link.
+1. Find the newly created integration and click the **Activate** link.
 
 1. In the upper-right corner click the **Allow** button.
 
@@ -59,7 +59,7 @@ By default, when the integration was saved, it appears on the grid in _Inactive_
    ![Integration Tokens for Extensions]({% link images/images/integration-tokens-for-extensions.png %}){: .zoom}
    _Integration Tokens for Extensions_
 
-1. In the upper-right corner click the **Done** button.
+1. In the upper-right corner, click <span class="btn">Done</span>.
 
 ## Change the API guest access security setting
 
@@ -80,13 +80,13 @@ By default, the system does not permit anonymous guest access to CMS, catalog, a
 
 See [Restricting access to anonymous web APIs][2]{:target="_blank"} in the Magento developer documentation.
 
-## Deleting an Integration
+## Delete an Integration
 
-1. Find created integration on grid **System** > _Extensions_ > **Integrations**.
+1. On the _Admin_ sidebar, go to **System** > _Extensions_ > **Integrations**.
 
-1. Click the delete icon in **Delete** column
+1. Find the existing integration and click the icon ( ![trashcan icon]({% link images/images/btn-trashcan2.png %}) ) in the **Delete** column.
 
-1. Confirm your action by clicking **OK**
+1. To confirm your action, click <span class="btn">OK</span>.
 
 [1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/get-started/authentication/gs-authentication-oauth.html
 [2]: {{ site.devdocs_url }}/guides/v{{ site.version }}/rest/anonymous-api-security.html
