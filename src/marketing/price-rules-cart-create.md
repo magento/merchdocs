@@ -159,7 +159,7 @@ _Conditions_
 
    - Click **ALL** and select `ALL` or `ANY`.
 
-1. 1. Click the Add (![Add icon]({% link images/images/btn-add-grn.png %})) icon and select the **Product Attribute** that you set up for promotional rule conditions.
+1. Click the Add (![Add icon]({% link images/images/btn-add-grn.png %})) icon and select the **Product Attribute** that you set up for promotional rule conditions.
 
 1. Click <span class="btn">Save</span>.
 
