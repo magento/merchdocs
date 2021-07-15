@@ -87,3 +87,25 @@ The options for each widget type vary slightly, but the process is essentially t
 1. Return to your storefront to verify that the widget is working correctly.
 
    To move it to a different location, you can reopen the widget and try a different page or block reference.
+
+## Edit a widget
+
+1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
+
+1. Locate the widget using filters above the grid and click the widget name.
+
+1. Make needed changes.
+
+1. Click the <span class="btn">Save</span>.
+
+## Delete a widget
+
+1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
+
+1. Locate the widget using filters above the grid, select the checkbox of the widgets to be deleted.
+
+1. In the upper-left corner of the list, set **Actions** to `Delete`.
+
+1. When complete, click <span class="btn">Submit</span>.
+
+1. To confirm the action, click <span class="btn">OK</span>.
