@@ -52,18 +52,18 @@ _Widgets list_
    ![]({% link images/images/widget-layout-update-home-page.png %}){: .zoom}
    _Widget layout updates_
 
-### Layout Updates Options
+### Layout updates options
 
 {: .fields-table }
 |**_Categories_**||
-|Anchor Categories|Displays the widget on the anchor category page. Options:<br/>**Categories** - Categories where the anchor will be displayed. Options: All / Specific Categories<br/>**Container** - Set container to the part of the page layout where the widget is to appear.<br/>**Template** - Determines the theme of the layout.|
-|Non-Anchor Categories|Displays the widget on the non-anchor category page. Options:<br/>**Categories** - Categories where the anchor will be displayed. Options: All / Specific Categories<br/>**Container** - Set container to the part of the page layout where the widget is to appear.<br/>**Template** - Determines the theme of the layout.|
+|Anchor Categories|Displays the widget on the anchor category page. Options:<br/>**Categories** - Categories where the anchor is displayed. Options: All / Specific Categories<br/>**Container** - Set container to the part of the page layout where you want to display the widget.<br/>**Template** - Determines the theme of the layout.|
+|Non-Anchor Categories|Displays the widget on the non-anchor category page. Options:<br/>**Categories** - Categories where the anchor is displayed. Options: All / Specific Categories<br/>**Container** - Set container to the part of the page layout where you want to display the widget.<br/>**Template** - Determines the theme of the layout.|
 |**_Products_**||
-|All Product Types|Displays the widget on either a specific type of product page, or on all product pages. Options:<br/>**Products** - Products for which the widget is displayed. Options: All / Specific Products<br/>**Container** - Set container to the part of the page layout where the widget is to appear.<br/>**Template** - Determines the theme of the layout.|
+|All Product Types|Displays the widget on either a specific type of product page, or on all product pages. Options:<br/>**Products** - Products for which the widget is displayed. Options: All / Specific Products<br/>**Container** - Set container to the part of the page layout where you want to display the widget.<br/>**Template** - Determines the theme of the layout.|
 |**_Generic Pages_**||
-|All Pages|Displays the widget on all pages. Options:<br/>**Container** - Set container to the part of the page layout where the widget is to appear.<br/>**Template** - Determines the theme of the layout.|
-|Specified Page|Displays the widget on a specific page. Options:<br/>**Page** - Pages for which the widget is displayed.<br/>**Container** - Set container to the part of the page layout where the widget is to appear.<br/>**Template** - Determines the theme of the layout.|
-|Page Layouts|Displays the widget on pages with a certain layout. Options:<br/>**Page** - Pages for which the widget is displayed.<br/>**Container** - Set container to the part of the page layout where the widget is to appear.<br/>**Template** - Determines the theme of the layout.|
+|All Pages|Displays the widget on all pages. Options:<br/>**Container** - Set container to the part of the page layout where you want to display the widget.<br/>**Template** - Determines the theme of the layout.|
+|Specified Page|Displays the widget on a specific page. Options:<br/>**Page** - Pages for which the widget is displayed.<br/>**Container** - Set container to the part of the page layout where you want to display the widget.<br/>**Template** - Determines the theme of the layout.|
+|Page Layouts|Displays the widget on pages with a certain layout. Options:<br/>**Page** - Pages for which the widget is displayed.<br/>**Container** - Set container to the part of the page layout where you want to display the widget.<br/>**Template** - Determines the theme of the layout.|
 
 ## Step 3: Place the block
 
