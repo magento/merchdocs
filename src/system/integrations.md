@@ -80,7 +80,7 @@ By default, the system does not permit anonymous guest access to CMS, catalog, a
 
 See [Restricting access to anonymous web APIs][2]{:target="_blank"} in the Magento developer documentation.
 
-## Delete an Integration
+## Delete an integration
 
 1. On the _Admin_ sidebar, go to **System** > _Extensions_ > **Integrations**.
 
