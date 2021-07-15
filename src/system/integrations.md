@@ -52,9 +52,9 @@ By default, a saved integration appears on the grid with an _Inactive_ status. T
 
 1. Find the newly created integration and click the **Activate** link.
 
-1. In the upper-right corner click the **Allow** button.
+1. In the upper-right corner, click <span class="btn">Allow</span>.
 
-   Integration Tokens for Extensions will be appeared:
+   This displays the Integration Tokens for Extensions. Copy this information to a secure, encrypted location for use with your integration.
 
    ![Integration Tokens for Extensions]({% link images/images/integration-tokens-for-extensions.png %}){: .zoom}
    _Integration Tokens for Extensions_
