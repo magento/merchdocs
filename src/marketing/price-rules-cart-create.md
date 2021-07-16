@@ -15,7 +15,7 @@ Complete the following steps to add a new rule, describe the conditions, and def
    - If you do not want the rule to go into effect immediately, set **Active** to `No`.
 
     ![Cart price rule - rule information]({% link images/images-ee/price-rule-cart-new.png %}){: .zoom}
-    _Rule Information_{:.ee-only}
+    _Rule Information_
 
 1. To establish the [scope]({% link configuration/scope.md %}) of the rule, do the following:
 
@@ -27,13 +27,13 @@ Complete the following steps to add a new rule, describe the conditions, and def
 
 1. Set the rule to apply with or without a [coupon]({% link marketing/price-rules-cart-coupon.md %}) as follows:
 
-   - To have the cart rule applied to all cart items, set **Coupon** to `No Coupon`, and skip to step 5.
+   - To have the cart rule applied without the use of a coupon code, set **Coupon** to `No Coupon` and skip to step 5.
 
-   - To associate a coupon with a price rule, set **Coupon** to `Specific Coupon`. Then, do the following:
+   - To associate a coupon with a price rule, set **Coupon** to `Specific Coupon` and do the following:
 
       - Enter a free-text **Coupon Code** that the customer must enter to receive the discount.
 
-      - To set a limit on the number of times the coupon can be used, complete the following:
+      - To set a limit on the number of times the coupon can be used, complete the following options:
 
       |Uses per Coupon |Determines how many times the coupon code can be used. If there is no limit, leave the field blank. |
       |Uses per Customer |Determines how many times the coupon code can be used by the same registered customer who belongs to any of the selected customer groups. The setting does not apply to guest shoppers who are members of the NOT LOGGED IN customer group, or to customers who shop without logging in to their accounts. If there is no limit, leave the field blank. |
@@ -41,7 +41,7 @@ Complete the following steps to add a new rule, describe the conditions, and def
         To learn more, see [Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}).
 
         ![Cart price rule  - coupon settings]({% link images/images-ee/price-rule-cart-coupon-settings-ee.png %}){: .zoom}
-        _Manage Coupon Codes{:.ee-only}
+        _Coupon settings_
 
    - {:.ce-only}Use the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the **From** and **To** date range for the promotion.
 
@@ -56,10 +56,10 @@ Complete the following steps to add a new rule, describe the conditions, and def
 
    - {:.ce-only}After the rule is saved, the name of the cart price rule appears at the top of the page.
 
-   - {:.ee-only}After the rule is saved, the name of the cart price rule and the Scheduled Changes box appear at the top of the page.
+   - {:.ee-only}After the rule is saved, the name of the cart price rule and the Scheduled Changes box appears at the top of the page.
 
-   ![Cart price rule - scheduled changes]({% link images/images-ee/price-rule-cart-scheduled-changes.png %}){: .zoom}
-   _[Scheduled Changes]({% link marketing/price-rule-cart-scheduled-changes.md %})_{:.ee-only}
+      ![Cart price rule - scheduled changes]({% link images/images-ee/price-rule-cart-scheduled-changes.png %}){: .zoom}
+      _[Scheduled Changes]({% link marketing/price-rule-cart-scheduled-changes.md %})_
 
 ## Step 2: Describe the Conditions
 
