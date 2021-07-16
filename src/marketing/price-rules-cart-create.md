@@ -87,11 +87,11 @@ In this step, the conditions are described that must be met for an order to qual
    - When prompted to **Choose the condition to add**, choose `Products Subselection`.
 
    ![Cart price rule condition - products subselection]({% link images/images-ee/price-rule-cart-condition-products-subselection.png %}){: .zoom}
-    _Products Subselection_
-    
-    - In the condidtion statement, click **total quantity** and select `total quantity` or `total amount`.
+   _Products Subselection_
 
-    - In the condidtion statement, click **is** and select `greater than`.
+   - In the condition statement, click **total quantity** and select `total quantity` or `total amount`.
+
+   - In the condition statement, click **is** and select `greater than`.
 
 1. When the next part of the condition appears, hover over the line so you can see where each link with variable values is located.
 
