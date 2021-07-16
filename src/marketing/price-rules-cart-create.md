@@ -65,10 +65,10 @@ Complete the following steps to add a new rule, describe the conditions, and def
 
 In this step, the conditions are described that must be met for an order to qualify for the promotion. The rule goes into action whenever the set of conditions is met.
 
-![Cart price rule - conditions]({% link images/images/price-rule-cart-conditions.png %}){: .zoom}
-_Conditions_
-
 1. In the left panel, select **Conditions**.
+
+   ![Cart price rule - conditions]({% link images/images/price-rule-cart-conditions.png %}){: .zoom}
+   _Conditions_
 
    The first condition appears by default, and states:
 
@@ -84,31 +84,35 @@ _Conditions_
 
    For this example, complete the next part of the condition as follows:
 
-   - When prompted to **Choose the condition to add**, choose `Products Subselection`. Set this condition to one of the following values:
-
-   - Click **total quantity** and select `total quantity` or `total amount`.
+   - When prompted to **Choose the condition to add**, choose `Products Subselection`.
 
    ![Cart price rule condition - products subselection]({% link images/images-ee/price-rule-cart-condition-products-subselection.png %}){: .zoom}
-    _Products Subselection_{:.ee-only}
+    _Products Subselection_
+    
+    - In the condidtion statement, click **total quantity** and select `total quantity` or `total amount`.
+
+    - In the condidtion statement, click **is** and select `greater than`.
 
 1. When the next part of the condition appears, hover over the line so you can see where each link with variable values is located.
 
    ![Cart price rule condition]({% link images/images/price-rule-cart-condition-products-subselection2.png %}){: .zoom}
    _If ALL of these conditions are TRUE_
 
-1. Click the "more" (...) link, and enter `greater than 100`. This condition requires the total quantity of the cart to be 101 or greater.
+1. Click the "more" (...) link, and enter `100`.
+
+   This condition requires the total quantity of the cart to be 101 or greater.
 
    ![Cart price rule condition - total quantity value]({% link images/images/price-rule-cart-condition-products-subselection3.png %}){: .zoom}
    _Total Quantity Value_
 
-1. Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) at the beginning of the next line. Then add a condition that is based on **Category**.
+1. Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) at the beginning of the next line, and then add a condition that is based on **Category**.
 
    ![Cart price rule condition - product attribute category]({% link images/images/price-rule-cart-condition-products-subselection4.png %}){: .zoom}
    _Category_
 
-1. In the next part of the condition, click the **more** (...) link to display the input field. Then, open the **Chooser** (![List icon]({% link images/images/btn-chooser.png %})) to display the category tree.
+1. In the next part of the condition, click the **more** (...) link to display the input field, and then open the **Chooser** (![List icon]({% link images/images/btn-chooser.png %})) to display the category tree.
 
-1. Select the checkbox of the category that you want to use as a condition for the price rule. Click the ![Add icon]({% link images/images/btn-checkmark-green.png %}) icon to accept the category selection(s).
+1. Select the checkbox of the category that you want to use as a condition for the price rule and click the ![Add icon]({% link images/images/btn-checkmark-green.png %}) icon to accept the category selection(s).
 
    The condition can be based on any category that is a child of the store’s [root category]({% link catalog/category-root.md %}).
 
