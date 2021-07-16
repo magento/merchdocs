@@ -2,8 +2,6 @@
 title: Minimum Order Quantity
 ---
 
-## Configure the minimum quantity allowed in the cart
-
 You can set the minimum quantity allowed for an order. The minimum quantity can also be configured according to each customer group.
 
 1. Go to **Stores** > _Settings_ > **Configuration**.
@@ -11,6 +9,9 @@ You can set the minimum quantity allowed for an order. The minimum quantity can 
 1. In the left panel, expand **Catalog** and choose **Inventory**.
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Product Stock Options** section.
+
+   ![]({% link images/images/config-catalog-catalog-inventory-product-stock-options.png %}){: .zoom}
+   [_Product Stock Options_]({% link catalog/inventory-options-global.md %})
 
 1. For **Minimum Qty Allowed in Shopping Cart**, set the minimum quantity of the product for an order.
 
