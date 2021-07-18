@@ -25,6 +25,8 @@ _Integrations_
 
    - Enter the **Identity Link URL** to redirect the users to a third-party account with these Magento integration credentials.
 
+   - When prompted, enter **Your Password** to confirm your identity.
+
     ![New integration]({% link images/images/integration-new.png %}){: .zoom}
     _New Integration_
 
@@ -41,6 +43,23 @@ _Integrations_
       _Resources Needed for Custom Access_
 
 1. When complete, click **Save**.
+
+## Activate an integration
+
+By default, a saved integration appears on the grid with an _Inactive_ status. To activate it, complete the following steps:
+
+1. On the _Admin_ sidebar, go to **System** > _Extensions_ > **Integrations**.
+
+1. Find the newly created integration and click the **Activate** link.
+
+1. In the upper-right corner, click <span class="btn">Allow</span>.
+
+   This displays the Integration Tokens for Extensions. Copy this information to a secure, encrypted location for use with your integration.
+
+   ![Integration Tokens for Extensions]({% link images/images/integration-tokens-for-extensions.png %}){: .zoom}
+   _Integration Tokens for Extensions_
+
+1. In the upper-right corner, click <span class="btn">Done</span>.
 
 ## Change the API guest access security setting
 
@@ -60,6 +79,14 @@ By default, the system does not permit anonymous guest access to CMS, catalog, a
 1. When complete, click <span class="btn">Save Config</span>.
 
 See [Restricting access to anonymous web APIs][2]{:target="_blank"} in the Magento developer documentation.
+
+## Delete an integration
+
+1. On the _Admin_ sidebar, go to **System** > _Extensions_ > **Integrations**.
+
+1. Find the existing integration and click the icon ( ![trashcan icon]({% link images/images/btn-trashcan2.png %}) ) in the **Delete** column.
+
+1. To confirm your action, click <span class="btn">OK</span>.
 
 [1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/get-started/authentication/gs-authentication-oauth.html
 [2]: {{ site.devdocs_url }}/guides/v{{ site.version }}/rest/anonymous-api-security.html
