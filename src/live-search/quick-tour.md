@@ -11,7 +11,7 @@ With a focus on speed, relevance, and ease of use, Live Search is a game changer
 
 Live Search responds with suggested products and a thumbnail image of top search results in a popover as shoppers type queries into the [Search]({% link catalog/search-quick.md %}) box. Shoppers can go immediately to the [product detail]({% link quick-tour/product-page.md %}) page by clicking a suggested or featured product.  A _View all_ link in the footer of the popover displays the search results page.
 
-The popover can return "search as you type" results for one character or more. To set the minimum number of characters required for a query, change the Catalog Search [Minimal Query Length](https://docs.magento.com/user-guide/catalog/search-configuration.html) configuration setting.
+Live Search returns "search as you type" results for a query of two or more characters. For a partial match, the maximum number of characters per word is 20. The number of characters in the query is not configurable. The following fields are included in the popover: `name`, `sku`, and `category_ids`.
 
 To customize the popover, refer to [Storefront Popover]({{ site.devdocs_url }}/live-search/storefront-popover.html) in the Live Search developer documentation.
 
