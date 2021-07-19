@@ -54,11 +54,11 @@ _Edit Attribute Set_
 
    The new group becomes a section of attributes in any product that is based on the attribute set.
 
-## Deleting an attribute sets
+## Deleting an attribute set
 
 1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Attribute Set**.
 
-1. Find the attribute set in the list, and open in edit mode.
+1. Select the attribute set in the list, and open in edit mode.
 
 1. Click <span class="btn">Delete</span>.
 
