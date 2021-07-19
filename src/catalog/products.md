@@ -6,7 +6,7 @@ redirect_from:
 
 All products in the catalog are accessible from the [Products]({% link catalog/products.md %}) page, where you can create new products and edit existing ones. For a multi-site installation, each website can offer a different selection of products for sale from the same catalog.
 
-The Products grid lists all products in the catalog, indicates the website(s) where they are available, and if they are currently enabled for sale. In Magento Commerce for B2B installations with [Shared Catalog]({% link catalog/catalog-shared.md %}) enabled, the grid includes a column that indicates which products have alternate discount pricing in a shared catalog.
+The Products grid lists all products in the catalog, indicates the website(s) where they are available, and if they are currently enabled for sale. In Magento Commerce for B2B, installations with [Shared Catalog]({% link catalog/catalog-shared.md %}) enabled, the grid includes a column that indicates which products have alternate discount pricing in a shared catalog.
 
 You can browse through the list page by page, or search for specific products. Use the standard [controls]({% link stores/admin-grid-controls.md %}) to sort and filter the list, and apply [actions]({% link stores/admin-actions-control.md %}) to selected products.
 
