@@ -3,7 +3,7 @@ title: Customer Journey
 ---
 
 Attract New Customers
-:  Magento includes Search Engine Optimization (SEO) functionality out of the box. Improve your search ranking and [attract]({% link quick-tour/attract-customers.md %}) the most visitors to your site.
+:  Commerce includes Search Engine Optimization (SEO) functionality out of the box. Improve your search ranking and [attract]({% link quick-tour/attract-customers.md %}) the most visitors to your site.
 
 Engage Your Customers
 :  Design your site with prepared templates, or create a custom design with features that [invite]({% link quick-tour/engage.md %}) people to interact with your store.

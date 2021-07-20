@@ -2,10 +2,10 @@
 title: Retain Customers
 ---
 
-Magento makes it easy for you to get repeat business and build brand loyalty. Magento gives you total control and flexibility over creating and revising goodies like rewards programs, custom coupons and automated emails to keep your customers coming back again and again.
+Adobe Commerce and Magento Open Source make it easy for you to get repeat business and build brand loyalty. This gives you total control and flexibility over creating and revising goodies like rewards programs, custom coupons and automated emails to keep your customers coming back again and again.
 
 Email Marketing Automation
-:  Send professionally designed, dynamic [email campaigns]({% link marketing/dotdigital/engagement-cloud.md %}) with live data from your Magento store, powered by [dotdigital][1].
+:  Send professionally designed, dynamic [email campaigns]({% link marketing/dotdigital/engagement-cloud.md %}) with live data from your store, powered by [dotdigital][1].
 
 {:.ee-only}Merchandise Return
 :  Customers can submit requests for [Return Merchandise Authorization]({% link sales/returns.md %}) from your store. You can create shipment orders in a carrier system and print shipping labels with RMA numbers.
@@ -17,7 +17,7 @@ Email Marketing Automation
 :  Drive customer engagement with [reward programs and points]({% link marketing/rewards-loyalty.md %}) based on a range of transactions and customer behaviors. Base redemption on a variety of factors, such as balance, customer history, and conversion rates.
 
 {:.ee-only}Target Shopping History
-:  Encourage customers to make return purchases with targeted promotions based on their shopping history. With Magento Commerce, you can easily [build segments]({% link marketing/customer-segments.md %}) based on your customer base.
+:  Encourage customers to make return purchases with targeted promotions based on their shopping history. With Adobe Commerce, you can easily [build segments]({% link marketing/customer-segments.md %}) based on your customer base.
 
 Custom Coupons
 :  [Create coupons codes]({% link marketing/price-rules-cart-coupon.md %}) for social media, email, or print campaigns. You can incorporate coupon codes into any design you like.

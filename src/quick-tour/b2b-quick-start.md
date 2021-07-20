@@ -3,7 +3,7 @@ b2b_only: true
 title: B2B Overview
 sections:
   - title: Basics
-    content: Learn the basics of Magento B2B, and how it differs from B2C. Magento B2B gives you the ability to sell business-to-business while also selling from business-to-consumer.
+    content: Learn the basics of B2B for Adobe Commerce and how it differs from B2C. The B2B feature set gives you the ability to sell business-to-business while also selling from business-to-consumer.
     url: /stores/b2b-basics.html
 
   - title: Configuration
@@ -35,10 +35,10 @@ sections:
     url: /payment/payment-on-account.html
 
   - title: Purchase Orders
-    content: Magento supports purchase orders, which can be controlled by approval rules.
+    content: B2B for Adobe Commerce supports purchase orders, which can be controlled by approval rules.
     url: /customers/account-dashboard-my-purchase-orders.html
 ---
 
-Follow these links to learn about the Magento components that you will use to manage your stores for both business-to-business and business-to-consumer.
+Follow these links to learn about the components that you will use to manage your Adobe Commerce stores for both business-to-business and business-to-consumer.
 
 {% include grid.html sections=page.sections large="3"%}

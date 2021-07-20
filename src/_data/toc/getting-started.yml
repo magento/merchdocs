@@ -45,34 +45,32 @@ pages:
       url: "/quick-tour/attract-customers.html"
     - label: Engage Your Customers
       url: "/quick-tour/engage.html"
+    - label: Differentiate and Personalize
+      url: "/quick-tour/differentiate-personalize.html"
     - label: Increase Average Order Value
       url: "/quick-tour/increase-average-order-value.html"
+    - label: Increase Profitability
+      url: "/quick-tour/increase-profitability.html"
     - label: Moment of Purchase
       url: "/quick-tour/moment-of-purchase.html"
+    - label: Reduce Ordering Errors
+      url: "/quick-tour/reduce-ordering-errors.html"
     - label: Retain Customers
       url: "/quick-tour/customer-retention.html"
     - label: Build Loyalty & Advocacy
       url: "/quick-tour/loyalty-advocacy.html"
+    - label: Seize Market Opportunities
+      url: "/quick-tour/market-opportunities.html"
     - label: Success!
       url: "/quick-tour/success.html"
-  - label: B2B Basics
+  - label: B2B for Adobe Commerce
     url: "/stores/b2b-basics.html"
     edition: b2b-only
     children:
-    - label: B2B Best Practices
-      url: "/stores/b2b-best-practices.html"
-    - label: Build Loyalty
+    - label: Build B2B Loyalty
       url: "/quick-tour/build-loyalty.html"
-    - label: Differentiate and Personalize
-      url: "/quick-tour/differentiate-personalize.html"
     - label: Empower with Self-Service Tools
       url: "/quick-tour/self-service-tools.html"
-    - label: Increase Profitability
-      url: "/quick-tour/increase-profitability.html"
-    - label: Reduce Ordering Errors
-      url: "/quick-tour/reduce-ordering-errors.html"
-    - label: Seize Market Opportunities
-      url: "/quick-tour/market-opportunities.html"
 - label: Basic Configuration
   url: "/configuration/configuration-basic.html"
   children:

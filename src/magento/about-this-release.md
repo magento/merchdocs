@@ -28,7 +28,7 @@ Starting with our 2.3.2 release, we are no longer producing and publishing an up
 
 - {:.ce-only}[Magento Open Source 2.3.1 PDF guide][20]{:target="_blank"}
 - {:.ee-only}[Adobe Commerce 2.3.1 PDF guide][18]{:target="_blank"}
-- {:.b2b-only}[Adobe Commerce for B2B 2.3.1 PDF guide][19]{:target="_blank"}
+- {:.b2b-only}[B2B for Adobe Commerce 2.3.1 PDF guide][19]{:target="_blank"}
 
 </div>
 
@@ -38,7 +38,7 @@ Magento 2.2.11 was the final 2.2.x release. After April 2020, Magento 2.2.x stop
 
 - {:.ce-only}[Magento Open Source 2.2 User Guide][6]{:target="_blank"}
 - {:.ee-only}[Adobe Commerce 2.2 User Guide][7]{:target="_blank"}
-- {:.b2b-only}[Adobe Commerce for B2B 2.2 User Guide][8]{:target="_blank"}
+- {:.b2b-only}[B2B for Adobe Commerce 2.2 User Guide][8]{:target="_blank"}
 
 ### 2.1
 
