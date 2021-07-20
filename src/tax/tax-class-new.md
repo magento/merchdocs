@@ -5,7 +5,7 @@ title: Adding New Tax Classes
 Tax classes for customers and products can be easily added, and then assigned to individual customers and products, and used in tax rules.
 
 ![]({% link images/images-ee/tax-classes-updated.png %}){: .zoom}
-_New Tax Classes_{:.ee-only}
+_New Tax Classes_
 
 ## Add a new tax class
 
@@ -32,6 +32,6 @@ _New Tax Classes_{:.ee-only}
 1. Enter the **Name** of the new tax class in the text box and click the checkmark to add the new class to the list of available product tax classes.
 
     ![]({% link images/images-ee/tax-class-product-add-new-digital.png %}){: .zoom}
-    _Digital Product Tax Class_{:.ee-only}
+    _Digital Product Tax Class_
 
 1. When complete, click **Back** in the button bar to return to the _Tax Rules_ grid.
