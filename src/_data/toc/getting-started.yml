@@ -215,11 +215,8 @@ pages:
   url: "/magento/magento-marketplace.html"
 - label: Commerce Identity Manager
   url: "/magento/magento-identity-manager.html"
-- label: Resources
+- label: Commerce Resources
   url: "/getting-started/resources.html"
-  children:
-  - label: Join the Conversation
-    url: "/getting-started/magento-ecosystem.html"
 - label: What’s New in the User Guide
   url: "/whats-new.html"
 - label: Contribute to the Docs

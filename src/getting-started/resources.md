@@ -1,5 +1,7 @@
 ---
-title: Resources
+title: Commerce Resources
+redirect_from:
+  - /getting-started/magento-ecosystem.html
 ---
 
 Adobe provides a wealth of business and technical resources, self-help tools, and services to help you succeed.
