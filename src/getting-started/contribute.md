@@ -4,13 +4,13 @@ title: Contribute to the Docs
 
 Our User Guide is open source and hosted in a [public-facing repository on GitHub][1], where you can submit changes through pull requests (PRs). This open source approach to documentation has many advantages:
 
-- An open and transparent process to cultivate the most helpful content about using Magento
+- An open and transparent process to cultivate the most helpful content about using Adobe COmmerce and Magento Open Source
 - Continuous updates and publishing for content improvements and changes
 - Ongoing collaboration between customers, partners, our product teams, and our documentation team
 
 ## Working with collaborative documentation
 
-As a Magento user---regardless of whether you are an Adobe employee, partner, customer, or even a prospective customer---you have the opportunity to contribute to this documentation in several simple ways:
+As a Commerce user---regardless of whether you are an Adobe employee, partner, customer, or even a prospective customer---you have the opportunity to contribute to this documentation in several simple ways:
 
 - Log a GitHub issue for a specific page
 - Submit a quick edit where you see basic errors
@@ -75,11 +75,11 @@ Making edits is a good way to fix small errors and omissions in the _User Guide_
    {:.bs-callout-info}
    If you get a validation error message about signing a Contributor License Agreement (CLA), click **Details** to open the license agreement. Sign the agreement, if acceptable. Return to your pull request and continue.
 
-That's it! Magento Docs team members will review and merge your PR so that your changes can be included in our automated publishing process.
+That's it! Adobe Commerce Docs team members will review and merge your PR so that your changes can be included in our automated publishing process.
 
 ### Author a new section or page
 
-We recognize that our partners and customers have a great deal of knowledge from their real-world experiences with Magento. When you share your knowledge, the whole Magento community benefits. A new page based on how you solved an ecommerce requirement in Magento, for example, is a great addition to our User Guide.
+We recognize that our partners and customers have a great deal of knowledge from their real-world experiences with Commerce products. When you share your knowledge, the whole Commerce community benefits. A new page based on how you solved an ecommerce requirement, for example, is a great addition to our User Guide.
 
 Our [GitHub wiki][5] provides detailed information about authoring content, our markdown syntax, and page navigation.
 
