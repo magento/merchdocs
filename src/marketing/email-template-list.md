@@ -38,7 +38,7 @@ The list of email templates is organized alphabetically by Magento module.
 |Template|Configuration path|
 |--- |--- |
 | Credit Limit Allocated | **Page:** Customers > [Company Configuration]({% link configuration/customers/company-configuration.md %})<br/>**Section:** Company Credit<br/>**Field:** Allocated Email Template|
-| Credit Limit Updated **Page:** Customers > [Company Configuration]({% link configuration/customers/company-configuration.md %})<br/>**Section:** Company Credit<br/>**Field:** Updated Email Template|
+| Credit Limit Updated | **Page:** Customers > [Company Configuration]({% link configuration/customers/company-configuration.md %})<br/>**Section:** Company Credit<br/>**Field:** Updated Email Template|
 | Credit Reimbursed | **Page:** Customers > [Company Configuration]({% link configuration/customers/company-configuration.md %})<br/>**Section:** Company Credit<br/>**Field:** Reimbursed Email Template|
 | Order Refunded to Company Credit |**Page:** Customers > [Company Configuration]({% link configuration/customers/company-configuration.md %})<br/>**Section:** Company Credit<br/>**Field:** Refunded Email Template|
 | Order Reverted to Company Credit | **Page:** Customers > [Company Configuration]({% link configuration/customers/company-configuration.md %})<br/>**Section:** Company Credit<br/>**Field:** Reverted Email Template|
