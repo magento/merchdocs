@@ -94,9 +94,6 @@ pages:
         url: "/stores/admin-global-search.html"
       - label: Grid Controls
         url: "/stores/admin-grid-controls.html"
-        children:
-        - label: Grid Layout
-          url: "/stores/admin-grid-layout.html"
       - label: Actions Control
         url: "/stores/admin-actions-control.html"
     - label: Session Lifetime

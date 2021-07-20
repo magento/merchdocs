@@ -2,7 +2,7 @@
 title: Managing Customer Accounts
 ---
 
-Use the Customers grid to find any customer account. You can use the standard [workplace controls]({% link stores/admin-workspace.md %}) to filter the list, change the [column layout]({% link stores/admin-grid-layout.md %}), save views, and export data. The [Actions control]({% link stores/admin-actions-control.md %}) above the grid can be used to apply an operation to multiple customer records.
+Use the Customers grid to find any customer account. You can use the standard [workplace controls]({% link stores/admin-workspace.md %}) to filter the list, change the [column layout]({% link stores/admin-grid-controls.md %}), save views, and export data. The [Actions control]({% link stores/admin-actions-control.md %}) above the grid can be used to apply an operation to multiple customer records.
 
 ![]({% link images/images/customers-all-customers.png %}){: .zoom}
 _All Customers_
@@ -137,7 +137,7 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 
 ### Additional Columns
 
-These columns are available by changing the [column layout]({% link stores/admin-grid-layout.md %}) of the grid.
+These columns are available by changing the [column layout]({% link stores/admin-grid-controls.md %}) of the grid.
 
 {: .fields-table }
 |Company|The company name of the customer.|
