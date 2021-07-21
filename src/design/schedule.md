@@ -30,7 +30,7 @@ _Scheduled design changes_
 
 1. Select the item you want to edit.
 
-1. Make a changes that nesesary.
+1. Make the necessary changes.
 
 1. When complete, click <span class="btn">Save</span>.
 
@@ -40,7 +40,7 @@ _Scheduled design changes_
 
 1. Select the item you want to delete.
 
-1. Click <span class="btn">Delete</span> on the top panel.
+In the button bar at the top of the page, click <span class="btn">Delete</span>.
 
    ![]({% link images/images/delete-store-design-change.png %}){: .zoom}
    _Delete Scheduled Design Change_
