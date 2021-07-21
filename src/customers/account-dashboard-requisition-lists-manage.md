@@ -117,7 +117,7 @@ A product in the Requisition List may be edited if:
 
 1. Click the **Delete Requisition List** button.
 
-1. When prompted to confirm, click <span class="btn">Delete</span> button.
+1. When prompted to confirm, click <span class="btn">Delete</span>.
 
 {:.bs-callout-info}
 This action cannot be undone.

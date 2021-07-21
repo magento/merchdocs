@@ -28,7 +28,7 @@ _Sign In_
 
    If you cannot remember your password, click **Forgot Your Password?** and follow the [instructions]({% link customers/password-reset.md %}) to reset your password.
 
-## Set the redirect to Account Dashboard after logging in
+## Set the redirect to the Account Dashboard after customer login
 
 You can configure the store to redirect customers to their account dashboard after they log in or let them continue shopping.
 
