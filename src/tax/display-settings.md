@@ -15,11 +15,11 @@ Showing prices that include and exclude tax can be confusing to the customer. To
 
 ## Configure price display settings
 
-When the calculation of taxes, rates, and classes is finished, taxes will be calculated according to the specified settings. However, the display of taxes in the catalog, shopping cart, orders, invoices, and credit memos should be set up, as part of the customer experience.
+When configuration of calculation for taxes, rates, and classes is finished, taxes are calculated according to those settings. However, the display of taxes in the catalog, shopping cart, orders, invoices, and credit memos should also be configured to support the customer experience on the storefront.
 
-It is best practice to display prices including taxes, or both, including taxes and excluding taxes so that customers know how much they will change before placing an order.
+It is a best practice to display prices with the associated taxes (either including taxes, or both the including taxes and excluding taxes) so that customers know how these calculations are applied before placing an order.
 
-If taxes are only shown at the checkout or in the shopping cart, this could lead to more frequent shopping cart abandonment.
+If you choose to display both prices (with and without tax), the storefront will look similar to the following:
 
 ### Step 1: Configur Catalog prices display settings
 
@@ -47,7 +47,7 @@ If taxes are only shown at the checkout or in the shopping cart, this could lead
 If you choose to display both prices (with and without tax), the Storefront will look following:
 
    ![]({% link images/images/catalog-prices-tax.png %}){: .zoom}
-   _PDP Page Display Settings_
+   _Example of price display including taxes on the storefront_
 
 ### Step 2: Configure shopping cart display settings
 
