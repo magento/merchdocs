@@ -3,11 +3,11 @@ title: Cookie Reference
 group: getting-started
 ---
 
-The default Magento cookies are classified as Exempt / Non-Exempt to help merchants meet the requirements of privacy regulations such as the [GDPR]({% link stores/compliance-gdpr.md %}). Merchants should use this information as a guide, and consult with legal advisors to update their Privacy and Cookie Policies as part of a comprehensive privacy regulation compliance strategy.
+The default cookies in Adobe Commerce and Magento Open Source are classified as Exempt / Non-Exempt to help merchants meet the requirements of privacy regulations such as the [GDPR]({% link stores/compliance-gdpr.md %}). Merchants should use this information as a guide, and consult with legal advisors to update their Privacy and Cookie Policies as part of a comprehensive privacy regulation compliance strategy.
 
-## Magento 2 Default Cookies
+## Default Cookies
 
-The following cookies are used by Magento Commerce “out of the box” for on-premise and cloud installations. These cookies may be required by functionality that is explicitly requested by the customer. To learn about the lifetime of session cookies, see [Session Lifetime]({% link customers/customer-online-options.md %}).
+The following cookies are used by Adobe Commerce “out of the box” for on-premise and cloud installations. These cookies may be required by functionality that is explicitly requested by the customer. To learn about the lifetime of session cookies, see [Session Lifetime]({% link customers/customer-online-options.md %}).
 
 Some of these cookies may provide configuration options, including enable/disable, as needed.
 
@@ -260,7 +260,7 @@ Local storage for Banner functionality.
 
 ## Google Analytics Cookies
 
-The following cookies are used when [Google Analytics]({% link marketing/google-universal-analytics.md %}) or [Google Universal Analytics]({% link marketing/google-universal-analytics.md %}) is fully enabled for your Magento installation. To disable these cookies for privacy regulation compliance, see [Google Privacy Settings]({% link stores/compliance-privacy-google.md %}). To learn more, see [Google Analytics Cookie Usage on Websites][1].
+The following cookies are used when [Google Analytics]({% link marketing/google-universal-analytics.md %}) or [Google Universal Analytics]({% link marketing/google-universal-analytics.md %}) is fully enabled for your installation. To disable these cookies for privacy regulation compliance, see [Google Privacy Settings]({% link stores/compliance-privacy-google.md %}). To learn more, see [Google Analytics Cookie Usage on Websites][1].
 
 {:.ee-only}
 ### Google Universal Analytics Cookies  - Non-Exempt
@@ -288,10 +288,10 @@ JavaScript Library: `ga.js`
 {:.ee-only}
 ## Product Recommendations cookies
 
-The following cookies are used by Product Recommendations for Magento Commerce customers. These cookies are installed with the [DataServices module]({{ site.devdocs_url }}/recommendations/install-configure.html).
+The following cookies are used by Product Recommendations for Adobe Commerce customers. These cookies are installed with the [DataServices module]({{ site.devdocs_url }}/recommendations/install-configure.html).
 
-- `mg_dnt`: Allows you to [restrict Magento data collection]({{ site.devdocs_url }}/recommendations/setting-cookie.html) if you have custom code to manage cookie consent on your site.
-- `user_allowed_save_cookie`: Used for Magento's [cookie restriction mode]({% link stores/compliance-cookie-restriction-mode.md %}).
+- `mg_dnt`: Allows you to [restrict Adobe Commerce data collection]({{ site.devdocs_url }}/recommendations/setting-cookie.html) if you have custom code to manage cookie consent on your site.
+- `user_allowed_save_cookie`: Used for [cookie restriction mode]({% link stores/compliance-cookie-restriction-mode.md %}).
 - `authentication_flag`: Indicates if a shopper has signed in or signed out. This cookie is updated at the same time as the `dataservices_customer_id` cookie.
 - `dataservices_customer_id`: Indicates if a shopper has signed in or signed out. This cookie does not contain the customer ID.
 - `dataservices_cart_id`: Identifies a shopper's cart actions.

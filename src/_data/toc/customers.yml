@@ -140,6 +140,8 @@ pages:
       url: "/customers/account-company-sales-representative.html"
     - label: Approving a Company Account
       url: "/customers/account-company-approve.html"
+  - label: Purchase Order Overview
+    url: "/stores/b2b-purchase-order-flow.html"
   - label: Company Credit
     url: "/customers/credit-company.html"
     edition: b2b-only

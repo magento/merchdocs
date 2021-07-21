@@ -14,7 +14,7 @@ After you create your account, it is strongly recommended that you use Two-facto
 
 1. In the upper-right corner, click **Sign In**.
 
-1.Click **Create an account**.
+1. Click **Create an account**.
 
    ![]({% link images/images/magento-account-login.png %}){: .zoom}
    _Account log in page_

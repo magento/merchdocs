@@ -15,6 +15,9 @@
   - label: Basic Configuration
     url: /configuration/configuration-basic.html
 
+  - label: Industry Compliance
+    url: "/stores/compliance-industry.html"
+
   - label: Extensions
     url: /magento/magento-extensions.html
 

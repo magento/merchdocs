@@ -6,11 +6,10 @@ pages:
   children:
   - label: Installation
     url: "/magento/installation.html"
-    children:
-    - label: Prelaunch Checklist
-      url: "/magento/prelaunch-checklist.html"
-    - label: Your Login Credentials
-      url: "/getting-started/login-credentials.html"
+  - label: Prelaunch Checklist
+    url: "/magento/prelaunch-checklist.html"
+  - label: Your Login Credentials
+    url: "/getting-started/login-credentials.html"
 - label: Your Commerce Account
   url: "/magento/magento-account.html"
   children:
@@ -150,60 +149,55 @@ pages:
         url: "/stores/store-scope-reference.html"
     - label: Single Store Mode
       url: "/stores/store-mode-single.html"
-  - label: B2B Overview
-    url: "/quick-tour/b2b-quick-start.html"
+  - label: B2B Feature Configuration
+    url: "/stores/b2b-features.html"
     edition: b2b-only
     children:
-    - label: Configuring B2B Features
-      url: "/stores/b2b-features.html"
-      children:
-      - label: Configuring Quotes
-        url: "/stores/b2b-configure-quotes.html"
-      - label: Configuring Requisition Lists
-        url: "/stores/b2b-configure-requisition-lists.html"
-      - label: Configuration Summary
-        url: "/stores/b2b-configuration-settings.html"
-      - label: Purchase Order Overview
-        url: "/stores/b2b-purchase-order-flow.html"
-  - label: Industry Compliance
-    url: "/stores/compliance-industry.html"
+    - label: Configuring Quotes
+      url: "/stores/b2b-configure-quotes.html"
+    - label: Configuring Requisition Lists
+      url: "/stores/b2b-configure-requisition-lists.html"
+    - label: Configuration Summary
+      url: "/stores/b2b-configuration-settings.html"
+- label: Industry Compliance
+  url: "/stores/compliance-industry.html"
+  versionless: true
+  children:
+  - label: Accessibility
     versionless: true
+    url: "/catalog/navigation-accessibility.html"
+  - label: Payments
     children:
-    - label: Accessibility
+    - label: PCI Compliance Guidelines
+      url: "/stores/compliance-pci.html"
+    - label: Payment Services Directive
       versionless: true
-      url: "/catalog/navigation-accessibility.html"
-    - label: Payments
+      url: "/stores/compliance-payment-services-directive.html"
+  - label: Privacy
+    children:
+    - label: CCPA Compliance
+      versionless: true
+      url: "/stores/compliance-ccpa.html"
       children:
-      - label: PCI Compliance Guidelines
-        url: "/stores/compliance-pci.html"
-      - label: Payment Services Directive
-        versionless: true
-        url: "/stores/compliance-payment-services-directive.html"
-    - label: Privacy
+        - label: CCPA Compliance Guide
+          versionless: true
+          url: "/stores/compliance-ccpa-guide.html"
+    - label: GDPR Compliance
+      versionless: true
+      url: "/stores/compliance-gdpr.html"
+    - label: Privacy Policy
+      versionless: true
+      url: "/stores/privacy-policy.html"
+    - label: Cookie Law Compliance
+      versionless: true
+      url: "/stores/compliance-cookie-law.html"
       children:
-      - label: CCPA Compliance
-        versionless: true
-        url: "/stores/compliance-ccpa.html"
-        children:
-          - label: CCPA Compliance Guide
-            versionless: true
-            url: "/stores/compliance-ccpa-guide.html"
-      - label: GDPR Compliance
-        versionless: true
-        url: "/stores/compliance-gdpr.html"
-      - label: Privacy Policy
-        versionless: true
-        url: "/stores/privacy-policy.html"
-      - label: Cookie Law Compliance
-        versionless: true
-        url: "/stores/compliance-cookie-law.html"
-        children:
-            - label: Cookie Restriction Mode
-              versionless: true
-              url: "/stores/compliance-cookie-restriction-mode.html"
-            - label: Cookie Reference
-              versionless: true
-              url: "/stores/cookie-reference.html"
+        - label: Cookie Restriction Mode
+          versionless: true
+          url: "/stores/compliance-cookie-restriction-mode.html"
+        - label: Cookie Reference
+          versionless: true
+          url: "/stores/cookie-reference.html"
 - label: Extensions
   url: "/magento/magento-extensions.html"
 - label: Commerce Marketplace

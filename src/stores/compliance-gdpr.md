@@ -4,7 +4,7 @@ group: getting-started
 ---
 
 {:.bs-callout-info}
-This is one in a series of topics to help Magento merchants and developers understand the implications of the General Data Protection Regulation (GDPR). The information is intended for informational purposes only and should not be construed as legal advice. Consult with your legal counsel to determine whether and how your business should comply with any legal obligations.
+This is one in a series of topics to help Adobe Commerce and Magento Open Source merchants and developers understand the implications of the General Data Protection Regulation (GDPR). The information is intended for informational purposes only and should not be construed as legal advice. Consult with your legal counsel to determine whether and how your business should comply with any legal obligations.
 
 The General Data Protection Regulation (GDPR) is legislation that regulates data protection and privacy for all individuals in the European Union and the European Economic Area. The legislation also applies to the export of personal data outside the EU. The GDPR was adopted in April 2016, and became enforceable on 25 May, 2018. Business that are not based in the EU, but engage in global commerce are required to comply with the regulation. The GDPA defines personal data as follows:
 
@@ -31,13 +31,13 @@ Businesses that comply with GDPR might have additional obligations under the CCP
 
 ## Best Practices
 
-- Examine the current [privacy policies]({% link stores/privacy-policy.md %}) for all of your Magento stores to ensure that they align with any applicable legal requirements (including, but not limited to GDPR and CCPA).
+- Examine the current [privacy policies]({% link stores/privacy-policy.md %}) for all of your stores to ensure that they align with any applicable legal requirements (including, but not limited to GDPR and CCPA).
 
 - Update your [Google settings]({% link stores/compliance-privacy-google.md %}) to ensure that they align with your legal obligations regarding the use of personal data.
 
 - Maintain transparency, and keep thorough documentation.
 
-- Visit the [Magento website][1]{:target="_blank"} to learn how Magento helps merchants comply with applicable legal obligations.
+- Visit [our website][1]{:target="_blank"} to learn how Adobe helps merchants comply with applicable legal obligations.
 
 - For data flow diagrams and database entity mapping, see the [Personal Information Reference][2]{: target="_blank"}.
 

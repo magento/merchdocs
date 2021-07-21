@@ -26,7 +26,7 @@ The address for your store Admin is set up during the installation. The default 
 
 ## Commerce account
 
-Your [Commerce account]({% link magento/magento-account.md %}) provides access to information about your products and services, account settings, billing history, and support resources. To access your account, go to the main Commerce site and click the _My Account_ ![]({% link images/images/btn-account.png %}) icon in the upper-right corner.
+Your [Commerce account]({% link magento/magento-account.md %}) provides access to information about your products and services, account settings, billing history, and support resources. To access your account, go to the main Commerce site and click **My Account** in the upper-right corner.
 
 ## Customer account
 

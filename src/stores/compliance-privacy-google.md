@@ -14,7 +14,7 @@ _Google Data Sharing Settings_
 
 1. [Sign in][1]{: target="_blank"} to your company’s **Google Analytics** account.
 
-1. At the bottom of the left sidebar, choose **Admin**. Then, navigate to the account that you want to edit, if applicable.
+1. At the bottom of the left sidebar, choose **Admin**, and then navigate to the account that you want to edit (if applicable).
 
 1. In the **Account** column, click **Account Settings**.
 
