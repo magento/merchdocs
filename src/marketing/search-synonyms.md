@@ -39,3 +39,31 @@ _Search Results_
 
     ![Search synonyms group grid - saved group]({% link images/images/search-synonym-group-grid.png %}){: .zoom}
     _Search Synonym Group Saved_
+
+## Edit a Synonym Group
+
+1. In the Search Synonyms grid, click the row of any record to open the synonym group in edit mode.
+
+1. Make the necessary changes.
+
+1. When complete, click <span class="btn">Save Synonym Group</span>.
+
+## Delete a Synonym Group
+
+There are several methods for deleting a synonym group - from the grid and on the edit page.
+
+**Method 1:** In the Search Synonyms grid:
+
+1. In the Search Synonyms grid, select the checkbox of the group to be deleted.
+
+1. In the upper-left corner of the list, set **Actions** to `Delete`.
+
+1. When complete, click <span class="btn">Submit</span>.
+
+**Method 2:** On the Edit a Synonym Group page:
+
+1. In the Search Synonyms grid, click the row of any record to open the synonym group in edit mode.
+
+1. Click <span class="btn">Delete Synonym Group</span>.
+
+1. Confirm the deletion in the pop-up window.
