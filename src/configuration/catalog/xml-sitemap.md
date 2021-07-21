@@ -36,9 +36,6 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Store Url Options
 
-![]({% link images/images/store-url-options.png %}){: .zoom}
-_Store Url Options_
-
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Frequency|Store View|Determines how often store URLs are updated. Options: Always / Hourly / Daily / Weekly / Monthly / Yearly / Never|
