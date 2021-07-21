@@ -276,6 +276,8 @@ pages:
       url: "/catalog/product-attributes-add.html"
   - label: Deleting Product Attributes
     url: "/stores/attribute-delete.html"
+  - label: Bulk Updates for Product Attributes
+    url: "/stores/bulk-product-attribute-update.html"
   - label: Attribute Sets
     url: "/stores/attribute-sets.html"
   - label: Attribute Input Types

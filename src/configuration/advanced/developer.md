@@ -44,7 +44,7 @@ Available in [Developer Mode]({% link magento/installation-modes.md %}) only.
 |--- |--- |--- |
 |Enable Template Path Hints for Storefront|Store View|Adds notation to storefront that indicates the path to each template that is used on the page. Options: Yes / No|
 |Enable Template Path Hints for Admin|Global|Adds notation to the Admin that indicates the path to each template that is used on the page. Options: Yes / No|
-|Add Block Names to Hints|Store View|Includes the names of blocks in the template path hints. Options: Yes / No|
+|Add Block Class Type to Hints|Store View|Includes the names of blocks in the template path hints. Options: Yes / No|
 
 ## Translate Inline
 

@@ -16,7 +16,7 @@ Before starting this tutorial, we recommend that you increase the [Admin Session
 
 Verify the required Content Management configuration settings:
 
-- WYSIWYG Editor is enabled, and TinyMCE 4 is selected as the default in the [WYSIWYG Options]({% link cms/editor-configure.md %}) configuration.
+- WYSIWYG Editor is enabled in the [WYSIWYG Options]({% link cms/editor-configure.md %}) configuration.
 
 - Page Builder is enabled in the [Advanced Content Tools]({% link cms/page-builder-setup.md %}) configuration.
 

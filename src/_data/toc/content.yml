@@ -36,6 +36,8 @@ pages:
     - label: Using the Editor
       url: "/cms/editor.html"
       children:
+      - label: Configuring the Editor
+        url: "/cms/editor-configure.html"
       - label: Inserting a Link
         url: "/cms/editor-insert-link.html"
       - label: Inserting an Image
@@ -44,8 +46,6 @@ pages:
         url: "/cms/editor-widget.html"
       - label: Inserting a Variable
         url: "/cms/editor-insert-variable.html"
-      - label: Configuring the Editor
-        url: "/cms/editor-configure.html"
   - label: Hierarchy
     url: "/cms/page-hierarchy.html"
     edition: ee-only

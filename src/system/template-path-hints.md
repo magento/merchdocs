@@ -36,7 +36,7 @@ Before using template path hints, add your IP address to the [allow list]({% li
 
     - To activate template path hints for the Admin, set **Enabled Template Path Hints for Admin** to `Yes`.
 
-    - To include the names of blocks, set **Add Block Names to Hints** to `Yes`.
+    - To include the names of blocks, set **Add Block Class Type to Hints** to `Yes`.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
