@@ -1,13 +1,17 @@
 ---
-title: Creating a Widget
+title: Creating and Managing Widgets
 ---
 
-The process of creating a widget is nearly the same for each [widget type]({% link cms/widget-types.md %}). You can follow the first part of the instructions, and then complete the last part for the specific type of widget you want.
+Widgets are reusable components and you can easily create new widgets, as well as modify existing ones to automatically update content across your store. You can also delete widgets that are no longer in use.
 
 ![]({% link images/images/widgets.png %}){: .zoom}
 _Widgets_
 
-## Step 1: Choose the type
+## Create a widget
+
+The process of creating a widget is nearly the same for each [widget type]({% link cms/widget-types.md %}). You can follow the first part of the instructions, and then complete the last part for the specific type of widget you want.
+
+### Step 1: Choose the type
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
 
@@ -24,7 +28,7 @@ _Widgets_
 
 1. Click <span class="btn">Continue</span>.
 
-## Step 2: Specify storefront properties and layout
+### Step 2: Specify storefront properties and layout
 
 1. In the _Storefront Properties_ section:
 
@@ -55,7 +59,7 @@ _Widgets_
    | Block Template | Formats the content so it can be placed as standalone unit on the page. |
    | Inline Template | Formats the content so it can be placed inside other content. For example, a link that goes inside a paragraph of text. |
 
-## Step 3: Complete the widget options
+### Step 3: Complete the widget options
 
 The options for each widget type vary slightly, but the process is essentially the same. The following example displays the product list for a specific category, with pagination controls.
 
@@ -78,7 +82,7 @@ The options for each widget type vary slightly, but the process is essentially t
    ![]({% link images/images/widget-options-new-product-list.png %}){: .zoom}
    _Widget options_
 
-## Step 4: Save and check the result
+### Step 4: Save and check the result
 
 1. When complete, click <span class="btn">Save</span>.
 
@@ -95,6 +99,8 @@ The options for each widget type vary slightly, but the process is essentially t
 1. Locate the widget using filters above the grid and click the widget name.
 
 1. Make needed changes.
+
+   Review the steps for creating a widget for information about the widget options.
 
 1. Click the <span class="btn">Save</span>.
 
