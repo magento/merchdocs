@@ -34,20 +34,18 @@ The form is updated to reflect the change.
 ![]({% link images/images/product-grouped-create-choose-attribute-set.png %}){: .zoom}
 _Choose Template_
 
-There is also an ability to add new attributes on the fly while creating a product.
+If the needed attributes do not exist, you can add new attributes while creating a product:
 
-1. In the upper-right corner, click <span class="btn">Add Attribute</span>.
+ - In the upper-right corner, click <span class="btn">Add Attribute</span>.
+ - Define a new attribute (see [Adding an Attribute to a Product]]({% link catalog/product-attributes-add.md %})).
 
    ![]({% link images/images/product-attribute-add-select.png %}){: .zoom}
    _New Attribute_
 
-1. To add an existing attribute to the product, use the [filter controls]({% link stores/admin-grid-controls.md %}) to find the attribute in the grid and do the following:
+To add an existing attribute to the product, use the [filter controls]({% link stores/admin-grid-controls.md %}) to find the attribute in the grid and do the following:
 
    - Select the checkbox in the first column of each attribute to be added.
-
    - Click <span class="btn">Add Selected</span>.
-
-1. To define a new attribute, see [Adding an Attribute to a Product]]({% link catalog/product-attributes-add.md %})
 
 ## Step 3: Complete the required settings
 
