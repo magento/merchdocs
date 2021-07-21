@@ -93,4 +93,21 @@ _Sign Out_
 
 The Sign In page displays a message that you are logged out. We recommend you sign out of the _Admin_ any time you leave your computer unattended.
 
+## Allow multiple Admin logins
+
+The Admin provides access to manage the orders, customers, products, shipping, and payments functionality. The default configuration is set to disallow multiple logins for an Admin user account as a security best practice. However, you can change this setting to allow Admin users to be logged in from multiple devices if that is needed to accommodate your business workflows.
+
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+
+    ![]({% link images/images/multiple-admin-login.png %}){: .zoom}
+    _Multiple Admin Login_
+
+1. In the left panel, expand **Advanced** and choose **Admin**.
+
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Security** section.
+
+1. For **Admin Account Sharing**, select `Yes`.
+
+1. Click <span class="btn">Save Config</span>.
+
 [1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US
