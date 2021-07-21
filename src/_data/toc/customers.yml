@@ -172,14 +172,6 @@ pages:
     children:
     - label: Updating a Company Profile
       url: "/customers/account-company-update.html"
-  - label: Company Credit
-    url: "/customers/credit-company.html"
-    edition: b2b-only
-    children:
-    - label: Credit Activity
-      url: "/customers/credit-company-activity.html"
-    - label: Receiving Payments
-      url: "/customers/credit-company-reimburse.html"
 - label: Customer Groups
   url: "/customers/customer-groups.html"
   children:
