@@ -21,7 +21,7 @@ It is best practice to display prices including taxes, or both, including taxes 
 
 If taxes are only shown at the checkout or in the shopping cart, this could lead to more frequent shopping cart abandonment.
 
-## Step 1: Configur Catalog prices display settings
+### Step 1: Configur Catalog prices display settings
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -49,7 +49,7 @@ If you choose to display both prices (with and without tax), the Storefront will
    ![]({% link images/images/catalog-prices-tax.png %}){: .zoom}
    _PDP Page Display Settings_
 
-## Step 2: Configure shopping cart display settings
+### Step 2: Configure shopping cart display settings
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Shopping Cart Display Settings** section.
 
@@ -92,7 +92,7 @@ If you choose to display both prices (with and without tax), the Storefront will
    - **Display Full Tax Summary**
    - **Display Zero Tax Subtotal**
 
-## Step 3: Configure order, invoice, and credit memo display settings
+### Step 3: Configure order, invoice, and credit memo display settings
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Orders, Invoices, Credit Memos Display Settings** section.
 
