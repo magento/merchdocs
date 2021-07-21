@@ -14,7 +14,7 @@ The [payment method]({% link payment/payments.md %}) for the order determines, t
 You can refund orders in three ways:
 
 - Account credit---Orders paid using a credit account can be refunded as an account credit:
-   - {:.ee-only}[Store Credit]({% link sales/store-credit.md %})
+   - {:.ee-only}[Store Credit]({% link customers/store-credit.md %})
    - {:.b2b-only}[Payment on Account]({% link payment/payment-on-account.md %}) (offline method)
    - {:.b2b-only}[Company Credit]({% link customers/account-dashboard-company-credit.md %})
 - [Online refund]({% link payment/online-payment-methods.md %})---Orders paid by credit card through a payment gateway, such as PayPal or Klarna, are refunded online via the payment processor.
