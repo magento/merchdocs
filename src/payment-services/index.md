@@ -23,14 +23,14 @@ Payment Services is your one-stop-shop for online checkout (from settlement and 
 
 * [**Onboarding**]({% link payment-services/onboard-payments.md %})---Our process guides you through commercial signup, technical configuration, entitlements, sandbox environment configuration, and live payment enablement.
 * [**Payment checkout**]({% link payment-services/configure-payments.md %})---Use pertinent local and region-specific payment methods to best serve your customers.
-* [**Cash flow management**]({% link payment-services/financial-reporting.md %})---Synchronize payment details with orders to get full transparency to the processed volume, payment balance, and detailed transaction-level reporting for financial reconciliation.
+* [**Cash flow management financial reporting**]({% link payment-services/financial-reporting.md %})---Synchronize payment details with orders to get full transparency to the processed volume, payment balance, and detailed transaction-level reporting for financial reconciliation.
 * **Transparent pricing**---Pricing is clear and upfront; what you see is what you get.
 
 ## Availability
 
 Payment Services is available for some supported Magento versions.
 
-See [Lifecycle policy](https://devdocs.magento.com/release/lifecycle-policy.html) and [Upcoming releases](https://devdocs.magento.com/release/) for more release and version-specific information.
+See [Lifecycle policy]({{ site.devdocs_url }}/release/lifecycle-policy.html) and [Upcoming releases]({{ site.devdocs_url }}/release/) for more release and version-specific information.
 
 ## Get started
 
@@ -49,6 +49,6 @@ See [Onboard Payment Services]({% link payment-services/onboard-payments.md %}) 
 
 Payment Services is designed to be the simplest payments system you've ever used. Got questions about features, implementation, configuration, fee structure, extensibility, or reporting? We've got you covered.
 
-* [DevDocs](https://devdocs.magento.com/payment-services/index.html)---See our Payment Services-related developer documentation.
+* [DevDocs]({{ site.devdocs_url }}/payment-services/index.html)---See our Payment Services-related developer documentation.
 * [User guide]({% link payment-services/index.md %})---See our Payment Services-related merchant documentation.
 * [Help center](https://support.magento.com/hc/en-us)---See our Payment Services-related knowledgebase and [submit Support tickets](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) for extra help.
