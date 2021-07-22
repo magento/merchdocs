@@ -44,7 +44,7 @@ If you choose to display both prices (with and without tax), the storefront will
    - `Including Tax`
    - `Including and Excluding Tax`
 
-If you choose to display both prices (with and without tax), the Storefront will look following:
+If you choose to display both prices (with and without tax), the storefront will look similar to the following:
 
    ![]({% link images/images/catalog-prices-tax.png %}){: .zoom}
    _Example of price display including taxes on the storefront_
