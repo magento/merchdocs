@@ -14,7 +14,7 @@ sections:
     content: Learn how to create attributes with input controls for product options, and to provide additional information on product pages.
     url: /catalog/product-attributes.html
 
-  - title: <span class="b2b-only">Shared Catalogs</span>
+  - title: Shared Catalogs{:.b2b-only}
     content: Learn how to set up shared  catalogs with curated selections of products using custom pricing that can be limited to specific companies.
     url: /catalog/catalog-shared.html
 
