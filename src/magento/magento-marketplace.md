@@ -65,7 +65,7 @@ If what you purchase on Commerce Marketplace does not meet your needs, you can r
 For support issues related to Commerce Marketplace, see the [Marketplace Help Center][5].
 
 [1]: https://marketplace.magento.com/
-[2]: https://www.paypal.com/us/home q
+[2]: https://www.paypal.com/us/home
 [3]: {{ site.devdocs_url }}/marketplace/sellers/extension-quality-program.html
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
 [5]: https://marketplacesupport.magento.com/hc/en-us

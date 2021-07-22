@@ -68,7 +68,7 @@ The Luma sample data includes a _Contact Us Info_ block that can be customized f
 
 1. When complete, click <span class="btn">Save Block</span>.
 
-### Method 2: Without sample datas
+### Method 2: Without sample data
 
 {:.bs-callout-warning}
 Starting with the 2.4.0 release, the contact form can no longer call inside a CMS block or CMS page. All customization of the contact form should be done using layout xml or custom theme templates.

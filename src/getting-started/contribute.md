@@ -4,7 +4,7 @@ title: Contribute to the Docs
 
 Our User Guide is open source and hosted in a [public-facing repository on GitHub][1], where you can submit changes through pull requests (PRs). This open source approach to documentation has many advantages:
 
-- An open and transparent process to cultivate the most helpful content about using Adobe COmmerce and Magento Open Source
+- An open and transparent process to cultivate the most helpful content about using Adobe Commerce and Magento Open Source
 - Continuous updates and publishing for content improvements and changes
 - Ongoing collaboration between customers, partners, our product teams, and our documentation team
 
