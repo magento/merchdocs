@@ -203,8 +203,6 @@ pages:
 - label: Shopping Tools
   url: "/marketing/shopping-tools.html"
   children:
-  - label: Opportunities to Engage
-    url: "/marketing/customer-engagement.html"
   - label: Email a Friend
     url: "/marketing/email-a-friend.html"
   - label: Wish Lists
