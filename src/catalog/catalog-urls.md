@@ -91,7 +91,6 @@ To prevent search engines from indexing multiple URLs that lead to the same cont
 ![Web > General Options]({% link images/images/config-general-web-url-options.png %}){: .zoom}
 [_URL Options configuration settings_]({% link stores/store-urls.md %})
 
-{: .field-table }
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Add Store Code to URLs|Global|If Web Server Rewrites are enabled, this inserts the Store Code of the current view in the URL. Options: Yes / No|
