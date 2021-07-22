@@ -3,22 +3,22 @@ title: Contact Us
 group: getting-started
 ---
 
-The _Contact Us_ link in the footer of the store is an easy way for customers to keep in touch with you. Customers can complete the form to send a message to your store. A standard Magento installation displays the default Contact Us form. After submitting the form, a thank you message appears
+The _Contact Us_ link in the footer of the store is an easy way for customers to keep in touch with you. Customers can complete the form to send a message to your store. A standard Commerce installation displays the default _Contact Us_ form. After submitting the form, a thank you message appears
 
 It is important to understand that the default Contact Us form is rendered directly from code rather than from a CMS page.
 
 ![]({% link images/images/page-contact-us-default.png %}){: .zoom}
-_Default Contact Us Page_
+_Default Contact Us page_
 
 The store footer includes a link to the Contact Us page that is available throughout the store.
 
 ![]({% link images/images/storefront-footer-contact-us.png %}){: .zoom}
-_Contact Us Link in Footer_
+_Contact Us link in footer_
 
 The Luma sample data includes additional information on the Contact Us page that shows how you might customize the page for your store.
 
 ![]({% link images/images/storefront-contact-us.png %}){: .zoom}
-_Contact Us Page_
+_Contact Us page_
 
 ## Configure the Contact Us form
 
@@ -26,17 +26,17 @@ _Contact Us Page_
 
 1. In the left panel under **General**, choose **Contacts**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Contact Us** section and set **Enable Contact Us** to `Yes`.
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Contact Us** section and set **Enable Contact Us** to `Yes`.
 
    ![General configuration - contact us]({% link images/images/config-general-contacts-contact-us.png %}){: .zoom}
    _Contact Us_
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Email Options** section and set the email contact options:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Email Options** section and set the email contact options:
 
     ![General configuration - email options]({% link images/images/config-general-contacts-email-options.png %}){: .zoom}
     _Email Options_
 
-    - In the **Send Emails to** field, enter the email address where messages from the Contact Us form are sent.
+    - For **Send Emails to**, enter the email address where messages from the Contact Us form are sent.
 
     - Set **Email Sender** to the store identity that appears as the sender of the message from the Contact Us form. For example: Custom Email 2.
 
@@ -71,7 +71,7 @@ The Luma sample data includes a _Contact Us Info_ block that can be customized f
 ### Method 2: Without sample data
 
 {:.bs-callout-warning}
-Starting with Magento 2.4.0, the contact form can no longer call inside a CMS block or CMS page. All customization of the contact form should be done using layout xml or custom theme templates.
+Starting with the 2.4.0 release, the contact form can no longer call inside a CMS block or CMS page. All customization of the contact form should be done using layout xml or custom theme templates.
 
 By default, shoppers access the contact form using the Contact link in the footer of the storefront page. For more information about customizing the contact page, refer to our [Frontend Developer Guide][theme-guide]{:target="_blank"}.
 

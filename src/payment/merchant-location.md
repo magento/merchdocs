@@ -7,7 +7,7 @@ The Merchant Location setting is used to configure [payment methods]({% link pay
 
 ## Set the merchant location
 
-1. On the Admin sidebar, go to **Stores** > _Settings_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 

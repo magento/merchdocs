@@ -3,7 +3,7 @@ title: Your Commerce Account
 group: getting-started
 ---
 
-Your Magento account has a separate login from your store. You can access this account from either the Magento website or from your store Admin. From the dashboard of your Magento account, you can find information that is related to the products and services that you have purchased, as well as your contact and billing information.
+Your Commerce account has a separate login from your store Admin. You can access this account from either the Commerce website or from your store Admin. From the dashboard of your Commerce account, you can find information that is related to the products and services that you have purchased, as well as your contact and billing information.
 
 ![]({% link images/images/magento-home-acct.png %}){: .zoom}
-_Your Magento account_
+_Your Commerce account_

@@ -26,9 +26,9 @@ Before you can configure email addresses for the store, each must be set up as a
     ![General configuration - store email addresses]({% link images/images/config-general-store-email-addresses-general-contact.png %}){: .zoom}
     [_General Contact_]({% link configuration/general/store-email-addresses.md %})
 
-   - In the **Sender Name** field, enter the name of the person that is associated with the General Contact identity to appear as the sender of any email messages.
+   - For **Sender Name**, enter the name of the person that is associated with the General Contact identity to appear as the sender of any email messages.
 
-   - In the **Sender Email** field, enter the associated email address.
+   - For **Sender Email**, enter the associated email address.
 
 1. Repeat this process for each store email address that you plan to use.
 

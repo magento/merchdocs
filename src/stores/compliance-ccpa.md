@@ -4,7 +4,7 @@ group: getting-started
 ---
 
 {:.bs-callout-info}
-This is one in a series of topics to help Magento merchants and developers understand the implications of the California Consumer Privacy Act. The information is based on the text of the statute. Consult with your attorney to confirm if CCPA applies to your business before taking action on compliance.
+This is one in a series of topics to help Adobe Commerce and Magento Open Source merchants and developers understand the implications of the California Consumer Privacy Act. The information is based on the text of the statute. Consult with your attorney to confirm if CCPA applies to your business before taking action on compliance.
 
 The [California Consumer Privacy Act][1]{: target="_blank"} (CCPA) expands the rights of consumers in California to determine how their personal information is collected, stored, and used, with an emphasis on protecting consumers from the unauthorized sale or exchange or their personal information. The CCPA was enacted in 2018 and went into effect January 1, 2020.
 
@@ -19,7 +19,7 @@ For CCPA purposes, personal information in this context is defined as:
 
   "Information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household." (Section 1798.140)
 
-In this regard, it covers certain data elements that may not be considered personal data in the context of other laws or regulations. Magento merchants should keep this in mind when determining whether and how they should comply with the law.
+In this regard, it covers certain data elements that may not be considered personal data in the context of other laws or regulations. Merchants should keep this in mind when determining whether and how they should comply with the law.
 
 The CCPA also requires businesses to provide "reasonable security", and includes expanded data protection provisions for consumers, including the right to pursue legal action in the event of a data breach.
 
