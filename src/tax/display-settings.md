@@ -13,7 +13,15 @@ Showing prices that include and exclude tax can be confusing to the customer. To
 ![]({% link images/images/config-sales-tax-price-display-settings.png %}){: .zoom}
 [_Price Display Settings_]({% link configuration/sales/tax.md %})
 
-## Step 1: Configure price display settings
+## Configure price display settings
+
+When configuration of calculation for taxes, rates, and classes is finished, taxes are calculated according to those settings. However, the display of taxes in the catalog, shopping cart, orders, invoices, and credit memos should also be configured to support the customer experience on the storefront.
+
+It is a best practice to display prices with the associated taxes (either including taxes, or both the including taxes and excluding taxes) so that customers know how these calculations are applied before placing an order.
+
+If you choose to display both prices (with and without tax), the storefront will look similar to the following:
+
+### Step 1: Configur Catalog prices display settings
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -36,7 +44,12 @@ Showing prices that include and exclude tax can be confusing to the customer. To
    - `Including Tax`
    - `Including and Excluding Tax`
 
-## Step 2: Configure shopping cart display settings
+If you choose to display both prices (with and without tax), the storefront will look similar to the following:
+
+   ![]({% link images/images/catalog-prices-tax.png %}){: .zoom}
+   _Example of price display including taxes on the storefront_
+
+### Step 2: Configure shopping cart display settings
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Shopping Cart Display Settings** section.
 
@@ -79,7 +92,7 @@ Showing prices that include and exclude tax can be confusing to the customer. To
    - **Display Full Tax Summary**
    - **Display Zero Tax Subtotal**
 
-## Step 3: Configure order, invoice, and credit memo display settings
+### Step 3: Configure order, invoice, and credit memo display settings
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Orders, Invoices, Credit Memos Display Settings** section.
 
