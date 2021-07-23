@@ -10,4 +10,4 @@ The Autosettings section includes any attributes that are dependencies for other
 ![]({% link images/images-ee/product-autosettings.png %}){: .zoom}
 _Autosettings_
 
-With RMA, the admin has the ability to allow return functionality for specific products, and vice versa could also disallow the returning of specific products.
+With RMA, the an Admin user has the ability to allow return functionality for specific products, as well as disallow the returning of specific products.

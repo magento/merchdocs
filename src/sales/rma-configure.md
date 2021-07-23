@@ -39,11 +39,15 @@ _Enable RMA for a product_
 
 ## Configure shipping methods for returns
 
-1. Go to **Stores** > _Settings_ > **Configuration** > **Sales** > **Delivery Methods**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-   Select the return service you wish to use, for example UPS.
+1. In the left panel, expand **Sales** and choose **Delivery Methods**.
 
-   ![]({% link images/images/rma-delivery-method.png %}){: .zoom}
-   _Shipping Method for RMA_
+1. Expand the section for the carrier that you want to use for return service, such as **UPS**.
 
-1. Set **Enabled for RMA** to `Yes` and save configuration.
+   ![Enable RMA service for carrier ]({% link images/images/rma-delivery-method.png %}){: .zoom}
+   _Shipping method for RMA_
+
+1. Set **Enabled for RMA** to `Yes`.
+
+1. Click <span class="btn">Save Config</span>.
