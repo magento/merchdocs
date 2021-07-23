@@ -1,5 +1,7 @@
 ---
 title: Shopping Tools
+redirect_from:
+  - /marketing/customer-engagement.html
 sections:
  - title: Email a Friend
    content: The Email a Friend link makes it easy for your customers to share links to products with their friends.
