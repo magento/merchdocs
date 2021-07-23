@@ -36,3 +36,18 @@ _Enable RMA for a product_
    [_RMA Settings with alternate address_]({% link configuration/sales/sales.md %})
 
 1. Click <span class="btn">Save Config</span>.
+
+## Configure shipping methods for returns
+
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+
+1. In the left panel, expand **Sales** and choose **Delivery Methods**.
+
+1. Expand the section for the carrier that you want to use for return service, such as **UPS**.
+
+   ![Enable RMA service for carrier ]({% link images/images/rma-delivery-method.png %}){: .zoom}
+   _Shipping method for RMA_
+
+1. Set **Enabled for RMA** to `Yes`.
+
+1. Click <span class="btn">Save Config</span>.
