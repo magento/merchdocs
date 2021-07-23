@@ -43,7 +43,7 @@ See [API credentials](#obtain-api-credentials) to learn how to create or access 
 To consume a Magento SaaS service you must use your Magento instance's API keys, which are created and managed in your [My Account dashboard](https://account.magento.com/customer/account/login). Two different API key pairs can be created for a Magento account---one for sandbox and one for production (live payments)---though only one pair can be actively used at a time.
 
 {:.bs-callout-info}
-Need help accessing your My Account dashboard? Check out [Create a Magento account]({% link magento/magento-account-create.md %}).
+Need help accessing your My Account dashboard? Check out [Create a Commerce account]({% link magento/magento-account-create.md %}).
 
 A given API key pair is valid for all Commerce Services in an environment, so if you already have [Commerce Services]({% link system/saas.md %}) configured for your Magento instance your API key pair is already present in the Admin. If your private API key is lost, a new API key pair must be generated and applied to the Commerce Services configuration in the Admin.
 

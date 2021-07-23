@@ -36,7 +36,7 @@ Even though, by default, re-indexing happens in `ON SAVE` mode, we recommend you
 
 You can change the index mode---`ON SAVE` or `BY SCHEDULE`---[in the Admin]({% link system/index-management.md %}#change-the-index-mode).
 
-See [Configuring Payment Services]({{ site.devdocs_url }}/guides/payment-services/configuring-payments.html#configure-data-export) to see how to configure the data export.
+See [Configuring Payment Services]({{ site.devdocs_url }}/payment-services/configure-payments.html#configure-data-export) to see how to configure the data export.
 
 ## Availability
 
