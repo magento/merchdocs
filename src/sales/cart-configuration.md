@@ -8,8 +8,8 @@ The cart configuration determines how the shopping cart functions for your store
 [Mini Cart]({% link sales/mini-cart.md %})|Configure this option to determine if the mini cart appears when a customer clicks the number of items in the cart icon at the top of a store page.|
 [Redirect to Cart]({% link sales/cart-redirect.md %})|Configure this option to determine if the shopping cart page appears whenever an item is added to the cart, or only when a customer chooses to go to the page.|
 [Quote Lifetime]({% link sales/cart-quote-lifetime.md %})|Configure this option to specify how long a price is valid.|
-[Minimum Order Amount]({% link sales/cart-minimum-order-amount.md %})|Configure these options to specify a minimum amount, after discounts are applied, that order subtotals are required to meet amd the messaging displayed in the shopping cart.|
-[Minimum Order Quantity]({% link sales/minimum-order-qty.md %})|Configure these options to specify a minimum number of items that is required to place an order.|
+[Minimum Order Amount]({% link sales/cart-minimum-order-amount.md %})|Configure these options to specify a minimum amount, after discounts are applied, that order subtotals are required to meet and the messaging displayed in the shopping cart.|
+[Minimum Order Quantity]({% link sales/minimum-order-qty.md %})|Configure these options to specify a minimum number of items that are required to place an order.|
 [Cart Thumbnails]({% link sales/cart-thumbnails.md %})|Configure the Cart Thumbnail options to determine the thumbnails displayed in the cart for grouped or configurable products.|
 [Gift Options]({% link sales/gift-options.md %})|Configure gift options to determine if customers can add a gift message or greeting card, and if gift wrapping options that are available.|
 
