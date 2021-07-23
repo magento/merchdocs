@@ -18,13 +18,6 @@ To customize the popover, refer to [Storefront Popover]({{ site.devdocs_url }}/l
 ![Example storefront - search as you type]({% link live-search/assets/storefront-search-as-you-type.png %}){: .zoom}
 _Search as you type_
 
-### Infinite scroll
-
-When shoppers click _View all_ from the "search as you type" popover, additional products appear in the search results as they scroll down the page. There is no need to navigate through pages of static search results. The current query appears in the search box just above the results. Shoppers can simply change the current query to instantly update the results.
-
-![Example storefront - view all]({% link live-search/assets/storefront-view-all.png %}){: .zoom}
-_View all_
-
 ### Filtered search with facets
 
 The Filters list in the left sidebar shows the available values derived from the current set of returned products. Filtered search uses multiple dimensions of attribute values, or [facets]({% link live-search/facets.md %}), as search criteria. The selection of filters is defined by the merchant and changes according to the products returned, with the most commonly-used facets pinned to the top of the list.
