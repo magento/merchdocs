@@ -52,3 +52,6 @@ The label you give a recommendation affects how a shopper interprets the content
 |More Like This|More items like this<br>Similar to this|
 |Generic|You may also like<br>Shoppers also liked<br>Similar options<br>Related items|
 |Trending|Trending<br>Trending now<br>Recently trending<br>Hot items<br>Trending related products (PDP)|
+|Conversion (add-to-cart)||
+|Conversion (purchase)||
+|Recently viewed||
