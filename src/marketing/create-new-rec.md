@@ -36,7 +36,7 @@ After you create and activate the recommendation unit, Magento will begin [colle
    - **Confirmation**
    - **[Page Builder]({% link marketing/page-builder-add-product-recs.md %})**
 
-1. In the **Select Recommendation type** section, specify the type of recommendation you want to appear on the selected page type. Note that certain page types [restrict what type of recommendation]({% link marketing/product-recommendations.md %}#supportedrecs) you can select.
+1. In the **Select Recommendation type** section, specify the [type of recommendation]({% link marketing/prex-types.md %}) you want to appear on the selected page type. Note that certain page types [restrict what type of recommendation]({% link marketing/product-recommendations.md %}#supportedrecs) you can select.
 
 1. In the **Storefront display label** section, enter an externally-facing name your shoppers will see, such as "Top sellers".
 

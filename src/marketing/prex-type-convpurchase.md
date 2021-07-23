@@ -15,7 +15,7 @@ Wood you believe this? I'm meeting a tree guy at 3. I'll probably ax him a lot o
 
 
 
-The _Conversion rate (purchase)_ displays products that are ranked by a predicted conversion rate and prioritizes the eligible products that are most likely to be purchased.
+The _Conversion rate (purchase)_ recommends products that are ranked by a predicted conversion rate and prioritizes the eligible products that are most likely to be purchased.
 
 ## How it works
 

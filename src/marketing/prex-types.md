@@ -8,8 +8,8 @@ Magento provides the following types of recommendations:
 ## Behavior-based
 
 - [Bought this, bought that]({% link marketing/prex-type-boughtbought.md %}) - Recommends items most often purchased by shoppers who purchased the specified item
-- [Conversion rate (add-to-cart)]({% link marketing/prex-type-convcart.md %}) - Recommends similar looking products to the product being viewed
-- [Conversion rate (purchase)]({% link marketing/prex-type-convpurchase.md %}) - Recommends similar looking products to the product being viewed
+- [Conversion rate (add-to-cart)]({% link marketing/prex-type-convcart.md %}) - Recommends products that are ranked by a predicted conversion rate and prioritizes the eligible products that are most likely to be added to a cart
+- [Conversion rate (purchase)]({% link marketing/prex-type-convpurchase.md %}) - Recommends products that are ranked by a predicted conversion rate and prioritizes the eligible products that are most likely to be purchased
 - [Recently viewed]({% link marketing/prex-type-recentview.md %}) - Recommends similar looking products to the product being viewed
 - [Viewed this, bought that]({% link marketing/prex-type-viewbought.md %}) - Recommends items most often purchased by shoppers who viewed the specified item
 - [Viewed this, viewed that]({% link marketing/prex-type-viewview.md %}) - Recommends items most often viewed by shoppers who viewed the specified item
