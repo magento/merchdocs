@@ -28,7 +28,7 @@ sections:
    url: /catalog/media-browser.html
 
  - title: Stock Availability
-   content: Helps to notify the buyer about the availability of a product. Possibly a create the **Notify me when this product is in the stock** link for every product that is out of stock.
+   content: It helps buyers when you notify them about the availability of a product, and can result in increased sales. You can create the "Notify me when this product is in stock" link for every product that is out of stock.
    url: /catalog/inventory-product-alerts.html
 ---
 
