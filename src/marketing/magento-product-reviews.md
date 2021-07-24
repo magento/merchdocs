@@ -19,3 +19,18 @@ The number of stars indicates the product's satisfaction rating. Visitors can cl
 
 ![Example storefront - Reviews tab]({% link images/images/storefront-reviews-tab.png %}){: .zoom}
 _Reviews Tab_
+
+## View Product Review via Magento Admin
+
+For viewing all reviews for a specific product via Magento Admin do the following:
+
+1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
+
+1. Find the products that you want to view and click **Edit** in the _Action_ column.
+
+1. Expand the **Product Reviews** tab.
+
+   - In this grid, you can also [change](% link marketing/magento-product-reviews-moderate.md %) the specific review with the **Edit** button in the _Action_ column.
+
+    ![Example Magento admin - Reviews grid]({% link images/images/storefront-reviews-tab.png %}){: .zoom}
+    _Reviews Grid_
