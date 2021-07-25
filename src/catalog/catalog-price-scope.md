@@ -10,7 +10,7 @@ Different factors can affect the price of the same product in one location and n
 - {:.b2b-only}See also [Configuring Catalog Price Scope]({% link catalog/catalog-shared-price-scope.md %}).
 
 ![]({% link images/images/scope-product-price.png %}){: .zoom}
-_Price Scope_
+_Price scope_
 
 ## Configure price scope
 
@@ -26,6 +26,6 @@ _Price Scope_
    The scope setting that you choose appears below price fields in your catalog.
 
    ![]({% link images/images-ee/config-catalog-catalog-price-website.png %}){: .zoom}
-   *Catalog Price Scope*{:.ee-only}
+   *Catalog Price Scope*
 
 1. When complete, click <span class="btn">Save Config</span>.

@@ -96,6 +96,4 @@ To prevent search engines from indexing multiple URLs that lead to the same cont
 |--- |--- |--- |
 |Add Store Code to URLs|Global|If Web Server Rewrites are enabled, this inserts the Store Code of the current view in the URL. Options: Yes / No|
 |Auto-redirect to Base URL|Global|(For single-store setups) If there is a broken link on your site, this redirects traffic to the base URL rather than to a page with a “404 Page Not Found” message. Options: No / Yes (302 Found) / Yes (301 Moved Permanently) <br /><br />**_Important!_** Do not use auto-redirect to base URL for multi-store setups.|
-|Catalog media URL format|Defines the [URL format]({% link catalog/catalog-urls.md %}) assigned to products and categories. Options:
-**Unique hash per image variant (Legacy mode)** - Defines converted filename as a unique hash value.
-**Image optimization based on query parameters** - Defines [image optimization]({% link cms/media-gallery-image-optimization.md %}) process depending on query parameters.|
+|Catalog media URL format|Global|Defines the [URL format]({% link catalog/catalog-urls.md %}) assigned to products and categories. Options: <br />**Unique hash per image variant (Legacy mode)** - Defines converted filename as a unique hash value.<br />**Image optimization based on query parameters** - Defines [image optimization]({% link cms/media-gallery-image-optimization.md %}) process depending on query parameters.|

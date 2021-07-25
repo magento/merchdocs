@@ -140,6 +140,8 @@ pages:
       url: "/customers/account-company-sales-representative.html"
     - label: Approving a Company Account
       url: "/customers/account-company-approve.html"
+  - label: Purchase Order Overview
+    url: "/stores/b2b-purchase-order-flow.html"
   - label: Company Credit
     url: "/customers/credit-company.html"
     edition: b2b-only
@@ -170,14 +172,6 @@ pages:
     children:
     - label: Updating a Company Profile
       url: "/customers/account-company-update.html"
-  - label: Company Credit
-    url: "/customers/credit-company.html"
-    edition: b2b-only
-    children:
-    - label: Credit Activity
-      url: "/customers/credit-company-activity.html"
-    - label: Receiving Payments
-      url: "/customers/credit-company-reimburse.html"
 - label: Customer Groups
   url: "/customers/customer-groups.html"
   children:

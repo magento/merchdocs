@@ -3,7 +3,7 @@ b2b_only: true
 title: Company Accounts
 ---
 
-When you incorporate [B2B]({% link configuration/general/b2b-features.md  %}) company accounts in your Magento store, you can simplify the corporate shopping experience by enabling companies to create multiple sub-accounts with flexible permissions based on user roles in their organization. Depending on the customer groups of the company, a store administrator can adjust promotions and prices to suit their needs, and create highly customized offers that cater to the shoppers’ demands and increase orders. Adding a company account association to a standard [individual] ({% link customers/account-create.md %}) allows the customer to use the specific purchasing workflows defined for the company.
+When you incorporate [B2B]({% link configuration/general/b2b-features.md  %}) company accounts in your Magento store, you can simplify the corporate shopping experience by enabling companies to create multiple sub-accounts with flexible permissions based on user roles in their organization. Depending on the customer groups of the company, a store administrator can adjust promotions and prices to suit their needs, and create highly customized offers that cater to the shoppers’ demands and increase orders. Adding a company account association to a standard [individual]({% link customers/account-create.md %}) allows the customer to use the specific purchasing workflows defined for the company.
 
 Advantages of a company account:
 
@@ -17,7 +17,7 @@ Advantages of a company account:
 
 ## View company accounts
 
-The _Companies_ grid lists all active company accounts and pending requests, regardless of status setting. It also provides the tools needed to [create]({% link customers/account-company-create.md %}) and [manage]({% link customers/account-company-manage.md %}) company accounts. Use the standard [grid controls]({% link stores/admin-grid-controls.md %}) to filter the list, and adjust the [column layout]({% link stores/admin-grid-layout.md %}). For a list of column descriptions, see the _Column Descriptions_ section in [Managing Company Accounts]({% link customers/account-company-manage.md %}).
+The _Companies_ grid lists all active company accounts and pending requests, regardless of status setting. It also provides the tools needed to [create]({% link customers/account-company-create.md %}) and [manage]({% link customers/account-company-manage.md %}) company accounts. Use the standard [grid controls]({% link stores/admin-grid-controls.md %}) to filter the list, and adjust the column layout. For a list of column descriptions, see the _Column Descriptions_ section in [Managing Company Accounts]({% link customers/account-company-manage.md %}).
 
 Customers can create a new company accounts from the storefront, or a merchant can create one from the Admin. By default, the ability to create company accounts from the storefront is enabled. If allowed by the configuration, a visitor to the store can request to open a company account. After the company account is approved, the company administrator can set up the company structure and users with various levels of permission.
 

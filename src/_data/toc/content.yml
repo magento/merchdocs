@@ -84,7 +84,7 @@ pages:
     children:
     - label: Widget Types
       url: "/cms/widget-types.html"
-    - label: Creating a Widget
+    - label: Creating and Managing Widgets
       url: "/cms/widget-create.html"
       children:
       - label: New Products List

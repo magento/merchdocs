@@ -3,7 +3,7 @@ title: Industry Compliance
 group: getting-started
 ---
 
-Magento offers a range of security and privacy capabilities that meet legal requirements and industry guidelines for online merchants. Some are mandated by the payment card industry, and others are required by law, depending on your location.
+Adobe Commerce and Magento Open Source offer a range of security and privacy capabilities that meet legal requirements and industry guidelines for online merchants. Some are mandated by the payment card industry, and others are required by law, depending on your location.
 
 - Industry Guidelines
 - Best Practices

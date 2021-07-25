@@ -15,7 +15,7 @@ After you complete the design, development, and testing of your store, check the
 
 - [Email Templates]({% link marketing/email-templates.md %}) - Update the default email templates to reflect your brand. Make sure to update the configuration if you create new templates.
 - [Sales Communications]({% link marketing/sales-communications.md %}) - Make sure that your invoices and packing slips include the correct business information and reflect your brand.
-- [Google Tools]({% link marketing/google-tools.md %}) - Magento is integrated with Google API to allow your business to use Google Analytics and Google AdWords.
+- [Google Tools]({% link marketing/google-tools.md %}) - Commerce provides integration with Google API to allow your business to use Google Analytics and Google AdWords.
 
 ## Sales settings
 
