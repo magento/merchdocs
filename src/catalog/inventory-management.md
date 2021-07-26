@@ -31,26 +31,6 @@ sections:
 ---
 
 Magento Inventory Management gives you the tools to manage your product inventory. Merchants with a single store to multiple warehouses, stores, pickup locations, drop shippers, and more can use these features to maintain quantities for sales and handle shipments to complete orders. You can track your inventory quantities, provide accurate salable stock amounts to customers for all of your websites, and ship according to recommendations based on distance or priority. You can also configure your preferred product configurations globally (for all stores and products), per source, and per product. These features grow with your business, allowing you to work from a single warehouse or complex shipping network with a few additional settings.
-
-Inventory Management features include:
-
-- Different configurations for merchants whose inventory originates from a single source and from multiple sources
-- Stocks for tracking available aggregated quantities through assigned sources
-- Concurrent checkout protection
-- Shipment matching algorithms
-
-## Basic terminology
-
-It is important to understand the following terms as you work with Inventory Management:
-
-- **Sources** represent physical locations that store and ship available products. These locations can include warehouses, brick-and-mortar stores, distribution centers, and drop shippers. (Any location can be designated as a source for virtual products.)
-
-- **Stocks** map a sales channel (currently limited to websites) to source locations and on-hand inventory. A stock can map to multiple sales channels, but a sales channel can be assigned to only one stock.
-
-- **Aggregate Salable Quantity** is the total virtual inventory that can be sold through a sales channel. The amount is calculated across all sources assigned to a stock.
-
-- **Reservations** track deductions from the salable quantity as customers add products to carts and complete checkout. When an order ships, the reservation clears and deducts the shipped amounts from specific source inventory quantities.
-
 {:.bs-callout-info}
 Inventory Management features are supported by the Community Engineering efforts of the Multi Source Inventory (MSI) project. Learn more about this project and additional developer documentation in [Magento Extensions]({% link magento/magento-extensions.md %}).
 
