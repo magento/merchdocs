@@ -34,14 +34,14 @@ Magento Inventory Management gives you the tools to manage your product inventor
 
 Inventory Management features include:
 
-- Different configurations for merchants whose inventory originates from a single source and from multiple sources.
+- Different configurations for merchants whose inventory originates from a single source and from multiple sources
 - Stocks for tracking available aggregated quantities through assigned sources
 - Concurrent checkout protection
 - Shipment matching algorithms
 
-## Basic Terminology
+## Basic terminology
 
-The following terms are important is understanding as you work with Inventory Management:
+It is important to understand the following terms as you work with Inventory Management:
 
 - **Sources** represent physical locations that store and ship available products. These locations can include warehouses, brick-and-mortar stores, distribution centers, and drop shippers. (Any location can be designated as a source for virtual products.)
 
