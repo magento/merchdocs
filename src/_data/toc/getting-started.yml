@@ -6,11 +6,10 @@ pages:
   children:
   - label: Installation
     url: "/magento/installation.html"
-    children:
-    - label: Prelaunch Checklist
-      url: "/magento/prelaunch-checklist.html"
-    - label: Your Login Credentials
-      url: "/getting-started/login-credentials.html"
+  - label: Prelaunch Checklist
+    url: "/magento/prelaunch-checklist.html"
+  - label: Your Login Credentials
+    url: "/getting-started/login-credentials.html"
 - label: Your Commerce Account
   url: "/magento/magento-account.html"
   children:
@@ -45,34 +44,32 @@ pages:
       url: "/quick-tour/attract-customers.html"
     - label: Engage Your Customers
       url: "/quick-tour/engage.html"
+    - label: Differentiate and Personalize
+      url: "/quick-tour/differentiate-personalize.html"
     - label: Increase Average Order Value
       url: "/quick-tour/increase-average-order-value.html"
+    - label: Increase Profitability
+      url: "/quick-tour/increase-profitability.html"
     - label: Moment of Purchase
       url: "/quick-tour/moment-of-purchase.html"
+    - label: Reduce Ordering Errors
+      url: "/quick-tour/reduce-ordering-errors.html"
     - label: Retain Customers
       url: "/quick-tour/customer-retention.html"
     - label: Build Loyalty & Advocacy
       url: "/quick-tour/loyalty-advocacy.html"
+    - label: Seize Market Opportunities
+      url: "/quick-tour/market-opportunities.html"
     - label: Success!
       url: "/quick-tour/success.html"
-  - label: B2B Basics
+  - label: B2B for Adobe Commerce
     url: "/stores/b2b-basics.html"
     edition: b2b-only
     children:
-    - label: B2B Best Practices
-      url: "/stores/b2b-best-practices.html"
-    - label: Build Loyalty
+    - label: Build B2B Loyalty
       url: "/quick-tour/build-loyalty.html"
-    - label: Differentiate and Personalize
-      url: "/quick-tour/differentiate-personalize.html"
     - label: Empower with Self-Service Tools
       url: "/quick-tour/self-service-tools.html"
-    - label: Increase Profitability
-      url: "/quick-tour/increase-profitability.html"
-    - label: Reduce Ordering Errors
-      url: "/quick-tour/reduce-ordering-errors.html"
-    - label: Seize Market Opportunities
-      url: "/quick-tour/market-opportunities.html"
 - label: Basic Configuration
   url: "/configuration/configuration-basic.html"
   children:
@@ -96,9 +93,6 @@ pages:
         url: "/stores/admin-global-search.html"
       - label: Grid Controls
         url: "/stores/admin-grid-controls.html"
-        children:
-        - label: Grid Layout
-          url: "/stores/admin-grid-layout.html"
       - label: Actions Control
         url: "/stores/admin-actions-control.html"
     - label: Session Lifetime
@@ -155,29 +149,35 @@ pages:
         url: "/stores/store-scope-reference.html"
     - label: Single Store Mode
       url: "/stores/store-mode-single.html"
-  - label: B2B Overview
-    url: "/quick-tour/b2b-quick-start.html"
+  - label: B2B Feature Configuration
+    url: "/stores/b2b-features.html"
     edition: b2b-only
     children:
-    - label: Configuring B2B Features
-      url: "/stores/b2b-features.html"
-      children:
-      - label: Configuring Quotes
-        url: "/stores/b2b-configure-quotes.html"
-      - label: Configuring Requisition Lists
-        url: "/stores/b2b-configure-requisition-lists.html"
-      - label: Configuration Summary
-        url: "/stores/b2b-configuration-settings.html"
-      - label: Purchase Order Overview
-        url: "/stores/b2b-purchase-order-flow.html"
-  - label: Industry Compliance
-    url: "/stores/compliance-industry.html"
+    - label: Configuring Quotes
+      url: "/stores/b2b-configure-quotes.html"
+    - label: Configuring Requisition Lists
+      url: "/stores/b2b-configure-requisition-lists.html"
+    - label: Configuration Summary
+      url: "/stores/b2b-configuration-settings.html"
+- label: Industry Compliance
+  url: "/stores/compliance-industry.html"
+  versionless: true
+  children:
+  - label: Accessibility
     versionless: true
+    url: "/catalog/navigation-accessibility.html"
+  - label: Payments
     children:
-    - label: Accessibility
+    - label: PCI Compliance Guidelines
+      url: "/stores/compliance-pci.html"
+    - label: Payment Services Directive
       versionless: true
-      url: "/catalog/navigation-accessibility.html"
-    - label: Payments
+      url: "/stores/compliance-payment-services-directive.html"
+  - label: Privacy
+    children:
+    - label: CCPA Compliance
+      versionless: true
+      url: "/stores/compliance-ccpa.html"
       children:
       - label: PCI Compliance Guidelines
         url: "/stores/compliance-pci.html"
@@ -188,42 +188,33 @@ pages:
         url: "/stores/compliance-payment-services-directive.html"
     - label: Privacy
       children:
-      - label: CCPA Compliance
-        versionless: true
-        url: "/stores/compliance-ccpa.html"
-        children:
-          - label: CCPA Compliance Guide
-            versionless: true
-            url: "/stores/compliance-ccpa-guide.html"
-      - label: GDPR Compliance
-        versionless: true
-        url: "/stores/compliance-gdpr.html"
-      - label: Privacy Policy
-        versionless: true
-        url: "/stores/privacy-policy.html"
-      - label: Cookie Law Compliance
-        versionless: true
-        url: "/stores/compliance-cookie-law.html"
-        children:
-            - label: Cookie Restriction Mode
-              versionless: true
-              url: "/stores/compliance-cookie-restriction-mode.html"
-            - label: Cookie Reference
-              versionless: true
-              url: "/stores/cookie-reference.html"
+        - label: CCPA Compliance Guide
+          versionless: true
+          url: "/stores/compliance-ccpa-guide.html"
+    - label: GDPR Compliance
+      versionless: true
+      url: "/stores/compliance-gdpr.html"
+    - label: Privacy Policy
+      versionless: true
+      url: "/stores/privacy-policy.html"
+    - label: Cookie Law Compliance
+      versionless: true
+      url: "/stores/compliance-cookie-law.html"
+      children:
+        - label: Cookie Restriction Mode
+          versionless: true
+          url: "/stores/compliance-cookie-restriction-mode.html"
+        - label: Cookie Reference
+          versionless: true
+          url: "/stores/cookie-reference.html"
 - label: Extensions
   url: "/magento/magento-extensions.html"
-- label: Magento Marketplace
+- label: Commerce Marketplace
   url: "/magento/magento-marketplace.html"
-- label: Magento Identity Manager
+- label: Commerce Identity Manager
   url: "/magento/magento-identity-manager.html"
-- label: Resources
+- label: Commerce Resources
   url: "/getting-started/resources.html"
-  children:
-  - label: Join the Conversation
-    url: "/getting-started/magento-ecosystem.html"
-  - label: Technical Resources
-    url: https://magento.com/technical-resources
 - label: What’s New in the User Guide
   url: "/whats-new.html"
 - label: Contribute to the Docs

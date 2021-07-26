@@ -7,11 +7,11 @@ about: Create an issue about a bug on the documentation website
 
 ## Description
 
-<!-- (REQUIRED) What is the issue/current behavior? -->
+_What is the issue/current behavior?_
 
 ### Steps to reproduce
 
-<!-- (OPTIONAL) What needs to be done to replicate this issue? (provide Gist if needed) -->
+_(OPTIONAL) What needs to be done to replicate this issue? Provide Gist if needed._
 
 1. First Step
 1. Second Step
@@ -19,27 +19,19 @@ about: Create an issue about a bug on the documentation website
 
 ## Expected result
 
-<!-- (REQUIRED) When this issue is resolved, what is the expected result/behavior? -->
+_When this issue is resolved, what is the expected result/behavior?_
 
 ## Possible solutions
 
-<!-- (OPTIONAL) What would a solution for this issue look like? -->
+_(OPTIONAL) What would a solution for this issue look like?_
 
 ## Magento release version
 
-<!-- Use the following section to indicate which Magento release(s) are affected -->
-
-- [ ] 2.4.x
-
-   Specify a patch release number, if applicable:
-
-- [ ] 2.3.x
-
-   Specify a patch release number, if applicable:
+_Which Magento release(s) are affected by the content changes: 2.4, 2.3? Specify a patch release number, if applicable._
 
 ## Additional information
 
-<!-- (OPTIONAL) What other information can you provide about this issue? -->
+_(OPTIONAL) What other information can you provide about this issue?_
 
 <!--
 Thank you for taking the time to report this issue!

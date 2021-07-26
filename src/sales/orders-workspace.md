@@ -15,8 +15,8 @@ _Orders_
 |Go to Archive|Displays the list of archived orders.|
 |Search|Initiates a search for orders based on the current filters.|
 |Filters|Defines a set of search parameters used to filter the records that appear in the [grid]({% link stores/admin-grid-controls.md %}).|
-|[Default View]({% link stores/admin-grid-layout.md %})|Determines the default column layout of the grid.|
-|Columns|Determines the selection of [columns]({% link stores/admin-grid-layout.md %}) and their order in the grid. The column layout can be changed and saved as a _view_. By default, only some of the columns are included in the grid.|
+|Default View|Determines the default column layout of the [grid]({% link stores/admin-grid-controls.md %}).|
+|Columns|Determines the selection of columns and their order in the grid. The column layout can be changed and saved as a _view_. By default, only some of the columns are included in the grid.|
 |Export|Exports the selected records as a CSV or Excel XML file.|
 
 ## Column descriptions

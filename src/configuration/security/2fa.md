@@ -11,7 +11,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Secu
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Providers to use|Global|Indicates the two-factor authentication (2FA) solution(s) that can be used to log in to the _Admin_. Authentication by only one 2FA solution is required to log in. If more than one 2FA solution is implemented, each user can choose the one they prefer to use.<br />Before logging in to the _Admin_, each user must follow the provider's instructions to install the app or complete other setup requirements. For complete details, see [Two-Factor Authentication]({% link stores/security-two-factor-authentication.md %}).|
+|Providers to use|Global|Indicates the two-factor authentication method(s) that you require. If you select more than one provider, each user will be required to configure each 2fa method the next time they log in. To learn more, go to [Two-Factor Authentication]({% link stores/security-two-factor-authentication.md %}).|
 |Configuration Email URL for Web API|Global |For custom implementations, the URL for an alternate email configuration link that is sent to _Admin_ users at first login. In the email template, use the placeholder `:tfat` to indicate where the token is injected.|
 
 ## Google

@@ -15,11 +15,11 @@ sections:
     url: /design/storefront-branding.html
 
   - title: Websites, Stores and Views
-    content: A Magento installation can include multiple websites, stores, and views in different languages, all managed from the same Admin.
+    content: A Commerce installation can include multiple websites, stores, and views in different languages, all managed from the same Admin.
     url: /stores/websites-stores-views.html
 
   - title: <span class="b2b-only">B2B Capabilities</span>
-    content: Review the B2B features to understand the B2B tools, best practices, and how to configure them for your website.
+    content: Review the B2B for Adobe Commerce features to understand the B2B tools, best practices, and how to configure them for your website.
     url: /quick-tour/b2b-quick-start.html
 
   - title: Industry Compliance

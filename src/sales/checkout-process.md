@@ -82,6 +82,25 @@ If the company has set up [Approval Rules]({% link customers/account-dashboard-a
 ![]({% link images/images-b2b/storefront-checkout-step2-b2b.png %}){: .zoom}
 _Purchase Order Review & Payment_
 
+## Number of items displayed in the order summary
+
+Admin users can change the maximum number of items displayed in the order summary at checkout to streamline the display with fewer products. By default, this value is set to 10.
+
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+
+1. In the left panel, expand **Sales** and choose **Checkout**.
+
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Checkout Options** section.
+
+1. For **Maximum Number of Items to Display in Order Summary**, enter the maximum number of items to be displayed.
+
+1. Click <span class="btn">Save Config</span>.
+
+   With this update, the order summary displayed during checkout is limited to the specified quantity of items.
+
+   ![]({% link images/images/order-summary.png %}){: .zoom}
+   _Number of items displayed in Order Summary_
+
 ## Order confirmation
 
 The order confirmation appears after the order is placed. For registered customers, the page includes the order number with a link to the customer’s account, and a link to generate a receipt. Registered customers are told that they will receive order confirmation and tracking info by email. Guests are encouraged to create an account to track the order. Registered customers can generate a receipt by clicking a link.

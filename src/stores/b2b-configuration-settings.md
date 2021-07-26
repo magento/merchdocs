@@ -4,7 +4,7 @@ title: B2B Configuration Summary
 group: getting-started
 ---
 
-Follow the links in this list to find related configuration topics in the user guide.
+Follow the links in this list to find related topics in the user guide.
 
 |Section|Settings|
 |--- |--- |

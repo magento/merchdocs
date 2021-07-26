@@ -327,7 +327,9 @@ pages:
     - label: Advanced Reporting
       url: "/reports/advanced-reporting.html"
     - label: MBI
-      url: "https://docs.magento.com/mbi/getting-started/getting-started.html"
+      url: "https://docs.magento.com/mbi/"
+    - label: Yotpo
+      url: "/marketing/yotpo-connect.html"
   - label: Customer Engagement
     url: "/reports/customer-engagement.html"
   - label: New Relic Reporting

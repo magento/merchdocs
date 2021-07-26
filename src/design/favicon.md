@@ -5,7 +5,7 @@ group: getting-started
 
 _Favicon_ is short for _favorite icon_ and refers to the little icon on the tab of each browser page. Depending on the browser, the favicon also appears in address bar, just before the URL.
 
-A favicon is generally 16 x 16 pixels or 32 x 32 pixels in size. Magento accepts ICO, PNG, APNG, GIF, and JPG (JPEG) file types, although not all browsers support these formats. The most widely-supported file format to use for a favicon is ICO. You can use other image file types, but the format might not be supported by all browsers. There are many free tools available online that you can use to generate an ICO image or convert an image to that format.
+A favicon is generally 16 x 16 pixels or 32 x 32 pixels in size. Commerce accepts ICO, PNG, APNG, GIF, and JPG (JPEG) file types, although not all browsers support these formats. The most widely-supported file format to use for a favicon is ICO. You can use other image file types, but the format might not be supported by all browsers. There are many free tools available online that you can use to generate an ICO image or convert an image to that format.
 
 ![]({% link images/images/storefront-favicon.png %}){: .zoom}
 _Favicon in the browser tab_

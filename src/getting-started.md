@@ -33,7 +33,7 @@ Welcome to the next generation of the world’s leading digital commerce platfor
 
 ## Product editions
 
-Adobe offers two Magento editions to fit the requirements of your eCommerce business. The information in this User Guide is designed to accommodate business users from either edition, with notations for features and functions that are specific to one edition or an extended feature set.
+Adobe offers two Commerce editions to fit the requirements of your eCommerce business. The information in this User Guide is designed to accommodate business users from either edition, with notations for features and functions that are specific to one edition or an extended feature set.
 
 - {:.ce-only}**Magento Open Source** is a self-hosted eCommerce platform with essential commerce features available free of charge. It offers you a stable and customizable solution for your growing small business or as a tool to prototype new ideas and business models for larger merchants.
 

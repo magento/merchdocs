@@ -3,7 +3,7 @@ title: Admin Sidebar
 group: getting-started
 ---
 
-The sidebar on the left is the main menu for your store’s Admin, and is designed for both desktop and mobile devices. The flyout menu provides access to all the tools you need to manage your store on a daily basis.
+The sidebar on the left is the main menu for your store’s _Admin_, and is designed for both desktop and mobile devices. The flyout menu provides access to all the tools you need to manage your store on a daily basis.
 
 ![]({% link images/images/icon-admin-sidebar-magento.png %})|**[Admin Startup Page]({% link configuration/advanced/admin.md %})**|Displays the Admin startup page, which by default is the Dashboard.
 ![]({% link images/images/icon-admin-sidebar-dashboard.png %})|**[Dashboard]({% link stores/admin-dashboard.md %})**|The Dashboard provides a quick overview of the sales and customer activity in your store, and is usually the first page that appears when you log in to the Admin.
@@ -15,4 +15,4 @@ The sidebar on the left is the main menu for your store’s Admin, and is design
 ![]({% link images/images/icon-admin-sidebar-reports.png %})|**[Reports]({% link reports/reports-menu.md %})**|The Reports menu provides a broad selection of reports that give you insight into every aspect of your store, including sales, shopping cart, products, customers, tags, reviews, and search terms.
 ![]({% link images/images/icon-admin-sidebar-stores.png %})|**[Stores]({% link stores/stores.md %})**|The Stores menu includes tools to configure and maintain every aspect of your store, including multisite installation settings, taxes, currency, product attributes, and customer groups.
 ![]({% link images/images/icon-admin-sidebar-system.png %})|**[System]({% link system/system.md %})**|The System menu includes tools to manage system operations, install extensions, and manage Web Services for integration with other applications.
-![]({% link images/images/icon-admin-sidebar-extensions.png %})|**[Find Partners &amp; Extensions]({% link magento/magento-marketplace.md %})**|This is where you can find marketplace Magento Partners and solutions for your store.
+![]({% link images/images/icon-admin-sidebar-extensions.png %})|**[Find Partners & Extensions]({% link magento/magento-marketplace.md %})**|This is where you can find Commerce partners and solutions for your store.

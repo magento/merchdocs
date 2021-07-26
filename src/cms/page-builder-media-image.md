@@ -52,7 +52,7 @@ _Image toolbox_
 
       - Locate and choose the image to add it to the gallery and target container.
 
-      As an alternative, you can also drag an image file from your system and drop it on the Camera !Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"} icon.
+      As an alternative, you can also drag an image file from your system and drop it on the _Camera_ (![Camera Icon]({% link /images/images-ee/icon-pb-camera.png %}){: width="25px"}) icon.
 
    - **Select an existing asset**: Use this method to select an existing image asset from the media storage/gallery.
 
