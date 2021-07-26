@@ -181,6 +181,8 @@ pages:
       children:
       - label: PCI Compliance Guidelines
         url: "/stores/compliance-pci.html"
+      - label: PCI Data Security Standard
+        url: "/stores/compliance-pci-dss.html"
       - label: Payment Services Directive
         versionless: true
         url: "/stores/compliance-payment-services-directive.html"
