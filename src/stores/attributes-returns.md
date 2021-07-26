@@ -45,7 +45,7 @@ _New Return Attribute_
     - URL
     - Email
 
-1. To limit the size of Text Field and Text Area input types, enter the ***Minimum Text Length** and **Maximum Text Length**.
+1. To limit the size of Text Field and Text Area input types, enter the **Minimum Text Length** and **Maximum Text Length**.
 
 1. To apply a preprocessing filter set Input/Output Filter to one of the following:
 
