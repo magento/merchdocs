@@ -31,6 +31,7 @@ sections:
 ---
 
 Magento Inventory Management gives you the tools to manage your product inventory. Merchants with a single store to multiple warehouses, stores, pickup locations, drop shippers, and more can use these features to maintain quantities for sales and handle shipments to complete orders. You can track your inventory quantities, provide accurate salable stock amounts to customers for all of your websites, and ship according to recommendations based on distance or priority. You can also configure your preferred product configurations globally (for all stores and products), per source, and per product. These features grow with your business, allowing you to work from a single warehouse or complex shipping network with a few additional settings.
+
 {:.bs-callout-info}
 Inventory Management features are supported by the Community Engineering efforts of the Multi Source Inventory (MSI) project. Learn more about this project and additional developer documentation in [Magento Extensions]({% link magento/magento-extensions.md %}).
 
