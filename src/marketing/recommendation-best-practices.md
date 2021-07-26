@@ -20,7 +20,7 @@ Adobe Commerce recommends the following guidelines when using recommendations:
 
 ## Usage
 
-Magento provides a large set of recommendations you can deploy to various pages on your site. But which recommendations should you use on those pages? The following table provides some suggestions:
+Adobe Commerce provides a large set of recommendations you can deploy to various pages on your site. But which recommendations should you use on those pages? The following table provides some suggestions:
 
 |Page|Recommendation Type|
 |---|---|
