@@ -304,24 +304,30 @@ pages:
     - label: Recommendation Types
       url: "/marketing/prex-types.html"
       children:
-        - label: Most viewed
-          url: "/marketing/prex-type-mostviewed.html"
-        - label: Most purchased
-          url: "/marketing/prex-type-mostpurchase.html"
-        - label: Recommended for you
-          url: "/marketing/prex-type-rcmdforyou.html"
-        - label: Most added to cart
-          url: "/marketing/prex-type-mostaddcart.html"
-        - label: Viewed this, viewed that
-          url: "/marketing/prex-type-viewview.html"
-        - label: Viewed this, bought that
-          url: "/marketing/prex-type-viewbought.html"
-        - label: Bought this, bought that
+         - label: Bought this, bought that
           url: "/marketing/prex-type-boughtbought.html"
+         - label: Conversion (add-to-cart)
+          url: "/marketing/prex-type-convcart.html"
+        - label: Conversion (purchase)
+          url: "/marketing/prex-type-convpurchase.html"
         - label: More like this
           url: "/marketing/prex-type-morelikethis.html"
+         - label: Most added to cart
+          url: "/marketing/prex-type-mostaddcart.html"
+        - label: Most purchased
+          url: "/marketing/prex-type-mostpurchase.html"
+        - label: Most viewed
+          url: "/marketing/prex-type-mostviewed.html"
+        - label: Recently viewed
+          url: "/marketing/prex-type-recentview.html"
+        - label: Recommended for you
+          url: "/marketing/prex-type-rcmdforyou.html"
         - label: Trending
           url: "/marketing/prex-type-trending.html"
+        - label: Viewed this, bought that
+          url: "/marketing/prex-type-viewbought.html"
+        - label: Viewed this, viewed that
+          url: "/marketing/prex-type-viewview.html"
         - label: Visual similarity
           url: "/marketing/prex-type-visualsim.html"
     - label: Recommendation Metrics
