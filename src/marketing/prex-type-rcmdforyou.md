@@ -1,6 +1,7 @@
 ---
-ee_only: true
 title: Recommended for you
+tag: product-recommendations
+ee_only: true
 ---
 
 The _Recommended for you_ recommendation type recommends items based on each shopper’s current and previous on site behavior.

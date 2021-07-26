@@ -1,6 +1,7 @@
 ---
-ee_only: true
 title: Conversion rate (purchase)
+tag: product-recommendations
+ee_only: true
 ---
 
 The _Conversion rate (purchase)_ recommends products that are most likely to be purchased by using a predicted conversion rate and ranking the eligible products.

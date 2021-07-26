@@ -1,6 +1,7 @@
 ---
-ee_only: true
 title: Conversion rate (add-to-cart)
+tag: product-recommendations
+ee_only: true
 ---
 
 The _Conversion rate (add-to-cart)_ recommends products that are most likely to be added to a cart by using a predicted conversion rate and ranking the eligible products.

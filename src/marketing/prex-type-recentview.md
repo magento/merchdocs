@@ -1,6 +1,7 @@
 ---
-ee_only: true
 title: Recently viewed
+tag: product-recommendations
+ee_only: true
 ---
 
 The _Recently viewed_ recommendation type displays products based on the user's browser history.
