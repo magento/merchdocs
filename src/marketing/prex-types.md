@@ -4,7 +4,7 @@ tag: product-recommendations
 ee_only: true
 ---
 
-Magento provides the following types of recommendations:
+Adobe Commerce provides the following types of recommendations:
 
 ## Behavior-based
 

@@ -8,7 +8,7 @@ This section includes best practices using recommendations on your storefront.
 
 ## General
 
-Magento recommends the following guidelines when using recommendations:
+Adobe Commerce recommends the following guidelines when using recommendations:
 
 - Diversify your recommendation types. Customers start ignoring recommendations if they suggest the same products over and over again.
 
