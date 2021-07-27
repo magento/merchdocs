@@ -27,7 +27,7 @@ Make sure to update the [email header]({% link marketing/email-template-header.m
     | Disable | Sends sales email when triggered by an event. |
     | Enable | Sends sales email at predetermined, regular intervals. |
 
-    Adobe Commerce Support recommends enabling Asynchronous to improve the order placing performance. See [Best practices Magento order placement performance ](https://support.magento.com/hc/en-us/articles/360048170772) in Adobe Commerce Support Knowledge Base. 
+    Adobe Commerce Support recommends enabling Asynchronous to improve the order placing performance. See [Best practices Magento order placement performance ](https://support.magento.com/hc/en-us/articles/360048170772) in Adobe Commerce Support Knowledge Base.
 
 ## Step 3. Complete the Details for Each Sales Email Message
 
