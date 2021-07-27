@@ -34,7 +34,7 @@ _[Move Order to Archive]({% link configuration/sales/sales.md %})_
 
 1. Click **Save Config**.
 
-  Adobe Commerce Support recommends enabling Order archiving to save MySQL disk space and improve checkout performance. See [Best practices Magento order placement performance ](https://support.magento.com/hc/en-us/articles/360048170772) in Adobe Commerce Support Knowledge Base.
+  Adobe Commerce Support recommends enabling Order archiving to save MySQL disk space and improve checkout performance. See [Best practices for order placement performance ](https://support.magento.com/hc/en-us/articles/360048170772) in Adobe Commerce Support Knowledge Base.
 
 ## To manually archive an order:
 
