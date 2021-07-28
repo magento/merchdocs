@@ -15,8 +15,8 @@ _Returns Attributes_
 
 1. In the upper-right corner, click **Add New Attribute**.
 
-![New Return - attribute properties]({% link images/images/attribute-returns-new-properties.png %}){: .zoom}
-_New Return Attribute_
+   ![New Return - attribute properties]({% link images/images/attribute-returns-new-properties.png %}){: .zoom}
+   _New Return Attribute_
 
 1. To identify the attribute during data entry set the **Default Label**.
 
@@ -35,7 +35,7 @@ _New Return Attribute_
 
 1. To assign an initial value to the field, enter a **Default Value**.
 
-1. To check the data entered into the field for accuracy before the record is saved, set **Input Validation** to one of the following:
+1. To validate the data entered into the field for accuracy before the record is saved, set **Input Validation** to one of the following:
 
     - None
     - Alphanumeric
@@ -45,21 +45,21 @@ _New Return Attribute_
     - URL
     - Email
 
-1. To limit the size of Text Field and Text Area input types, enter the **Minimum Text Length** and **Maximum Text Length**.
+1. For the Text Field and Text Area input types, enter the **Minimum Text Length** and **Maximum Text Length**.
 
-1. To apply a preprocessing filter set Input/Output Filter to one of the following:
+1. To apply a preprocessing filter, set **Input/Output Filter** to one of the following:
 
     - None
     - Strip HTML Tags
     - Escape  HTML Entities
 
-1. To make the attribute visible to customers, set **Show on Storefront** to Yes in the **Storefront Properties** block.
+1. To make the attribute visible to customers, set **Show on Storefront** to `Yes` in the _Storefront Properties_ section.
 
-1. For **Sort Order**, enter a number to determine the rating with other attributes.
+1. (Optional) For **Sort Order**, enter a number to determine where this attribute appears relative to the others in the same part of the page. (`0` = first, `1` = second, `2` = third, and so on.)
 
-### Manage the Labels/Options
+### Manage the labels/options
 
-1. In the left panel, choose Manage Labels/Options.
+1. In the left panel, choose **Manage Labels/Options**.
 
 1. Enter the **Default Store View**.
 
