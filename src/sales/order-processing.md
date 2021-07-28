@@ -73,7 +73,7 @@ Review the following sections in the sales order, using the field descriptions f
 
 ## Cancel an order
 
-You can [cancel]({% link sales/order-update.md %} orders that are not yet invoiced. A [credit memo]({% link sales/credit-memos.md %}) must be issued if a customer wants to cancel an order after it is invoiced (payment is captured).
+You can [cancel]({% link sales/order-update.md %}) orders that are not yet invoiced. A [credit memo]({% link sales/credit-memos.md %}) must be issued if a customer wants to cancel an order after it is invoiced (payment is captured).
 
 If an order is `Pending` or `Processing` and the payment is not captured or not entirely captured, you can [void the order](#void-an-order) instead of canceling it.
 
