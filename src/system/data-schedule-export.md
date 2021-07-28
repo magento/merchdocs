@@ -95,6 +95,9 @@ After each export, the export file is placed in the user-defined location, and a
 
     The new scheduled export job is added to the list on the _Scheduled Import/Export_ page. From this page it can be run immediately, for testing, and edited.
 
+{:.bs-callout-info}
+Scheduled export makes changes to Magento system configuration. After saving, make sure you follow the cache invalidation notice that will appear on top of the Magento admin page and flush the cache in order to apply the new or updated schedule.
+
 ## Field Descriptions
 
 ### Export Settings
