@@ -133,6 +133,9 @@ After you [configure your Commerce Services](#configure-commerce-services) and e
 
 1. Click <span class="btn">Save Config</span>.
 1. Click <span class="btn">Go to Payment Services</span> to be directed back to the Payment Services home.
+1. [Clear your cache]({% link system/cache-management.md %}).
+
+   This should be done after every configuration change.
 
 See [Configure Payment Services]({% link payment-services/configure-payments.md %}) for more information about configuring Credit Card Fields and PayPal Smart Buttons.
 
@@ -148,6 +151,10 @@ To enable live payments:
 1. In the _Payment Services_ section, expand the _General Configuration_ section.
 1. Set **Method** to `Production`.
 1. Click <span class="btn">Save Config</span>.
+1. [Clear your cache]({% link system/cache-management.md %}).
+
+    {:.bs-callout .bs-callout-warning}
+    If you do not clear your cache, you will be unable to see PayPal payment options during checkout.
 
 If you navigate back to Payment Services home, the Sandbox payment mode message will no longer appear because you are now processing live payments.
 
