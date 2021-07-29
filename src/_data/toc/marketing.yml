@@ -8,7 +8,7 @@ pages:
   children:
     - label: Amazon Sales Channel 4.0+
       url: "/sales-channels/amazon/amazon-sales-channel"
-        children:
+      children:
       - label: Getting Started with Amazon Sales Channel
         url: "/sales-channels/asc/amazon-getting-started.html"
         children:
