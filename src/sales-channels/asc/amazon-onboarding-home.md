@@ -1,7 +1,8 @@
 ---
 title: Onboard Amazon Sales Channel
+redirect_from:
+  - /sales-channels/amazon/amazon-onboarding-home.html
 ---
-
 
 This section describes the pre-setup tasks, steps for onboarding, and some key concepts of how Amazon works with the Amazon Sales Channel in Magento.
 
