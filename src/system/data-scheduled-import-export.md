@@ -20,7 +20,7 @@ Scheduled imports and exports can be run on a daily, weekly or monthly basis. Th
 1. When the record is saved, the job appears in the _Scheduled Import/Export_ grid.
 
    {:.bs-callout-info}
-   Scheduled import/export makes changes to Magento system configuration. After saving, make sure you follow the cache invalidation notice that will appear on top of the Magento admin page and flush the cache in order to apply the new or updated schedule.
+   Scheduled import/export makes changes to the system configuration. After saving, make sure you address the cache invalidation notice that appears at the top of the Admin page and flush the cache in order to apply the new or updated schedule.
 
 1. After each scheduled job, a copy of the file is placed in the `var/log/import_export` directory on the Magento local server.
 
