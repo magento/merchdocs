@@ -70,11 +70,12 @@ Report group | Information included
 ------------ | --------------------
 General | Magento Version<br>Data Count<br>Cache Status<br>Index Status
 Environment | Environment Information<br>MySQL Status
+Data | Duplicate Categories By URL Key<br>Duplicate Products By URL Key<br>Duplicate Products By SKU<br>Duplicate Orders By Increment Id<br>Duplicate Users By Email<br>Corrupted Categories Data
 Modules | Custom Modules List<br>Disabled Modules List<br>All Modules List
 Configuration | Configuration<br>Data from `app/etc/env.php`<br>Shipping Methods<br>Payment Methods<br>Payments Functionality Matrix
 Logs | Log Files<br>Top System Messages<br>Today's Top System Messages<br>Top Debug Messages<br>Today’s Top Debug Messages<br>Top Exception Messages<br>Today's Top Exception Messages
 Attributes | User Defined Eav Attributes<br>New Eav Attributes<br>Entity Types<br>All Eav Attributes<br>Category Eav Attributes<br>Product Eav Attributes<br>Customer Eav Attributes<br>Customer Address Eav Attribute<br>RMA Item Eav Attributes
-Events | Custom Global Events<br>Custom Admin Events<br>Custom Frontend Events<br>Customer Doc Events<br>Custom Crontab Events<br>Custom REST Events<br>Custom SOAP Events<br>Core Global Events<br>Core Admin Events<br>Core Frontend Events<br>Core Doc Events<br>Core Crontab Events<br>Core REST Events<br>Core SOAP Events<br>All Global Events<br>All Admin Events<br>All Frontend Events<br>All Doc Events<br>All REST Events<br>All SOAP Events
+Events | Custom Global Events<br>Custom Admin Events<br>Custom Frontend Events<br>Custom Doc Events<br>Custom Crontab Events<br>Custom REST Events<br>Custom SOAP Events<br>Core Global Events<br>Core Admin Events<br>Core Frontend Events<br>Core Doc Events<br>Core Crontab Events<br>Core REST Events<br>Core SOAP Events<br>All Global Events<br>All Admin Events<br>All Frontend Events<br>All Doc Events<br>All REST Events<br>All SOAP Events<br>All Crontab Events
 Cron | Cron Schedules by status code<br>Cron Schedules by job code<br>Errors in Cron Schedules Queue<br>Cron Schedules List<br>Custom Global Cron Jobs<br>Custom Configurable Cron Jobs<br>Core Global Cron Jobs<br>Core Configurable Cron Jobs<br>All Global Cron Jobs<br>All Configurable Cron Jobs
 Design | Adminhtml Themes List<br>Frontend Themes List
 Stores | Website Tree<br>Websites List<br>Stores List<br>Store Views List
