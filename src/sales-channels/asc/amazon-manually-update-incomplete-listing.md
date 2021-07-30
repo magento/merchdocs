@@ -2,7 +2,7 @@
 title: Update Required Info (Incomplete Listing)
 ---
 
-Listings that display on the _Incomplete_ tab include your Magento catalog products that meet your Amazon eligibility requirements as defined in your listing rules but are missing information required by Amazon before listing.
+Listings that display on the _Incomplete_ tab include your Commerce catalog products that meet your Amazon eligibility requirements as defined in your listing rules but are missing information required by Amazon before listing.
 
 ## Update required info (Unable to Assign To Amazon Listing)
 

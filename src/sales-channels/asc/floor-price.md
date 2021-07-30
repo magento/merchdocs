@@ -13,7 +13,7 @@ Sections of an intelligent repricing rule include:
 
 The [floor price]({% link sales-channels/asc/floor-price.md %}) settings automatically protect your lowest product price against the intelligent pricing rules. This allows the store owner to set a floor (lowest price) for their intelligent pricing rules. This means that your products will not be listed below a desired price.
 
-Floor price attributes are based on the website scope if your Magento store is using website pricing scope. See [Price Scope]({% link sales-channels/asc/price-scope.md %}).
+Floor price attributes are based on the website scope if your Commerce store is using website pricing scope. See [Price Scope]({% link sales-channels/asc/price-scope.md %}).
 
 Floor price is only used when **Rule Type** is set to `Intelligent repricing rule`.
 
@@ -23,7 +23,7 @@ Define your lowest price setting in the _Floor Price_ section.
 
 1. For **Floor Price Source**, choose an price source attribute.
 
-   Choose the Magento [product attribute]({% link catalog/product-attributes.md %}) that indicates your relative floor limit. For example, if you do not want your Amazon listing price to go below the cost of your item, you would choose the _Cost_ attribute.
+   Choose the Commerce [product attribute]({% link catalog/product-attributes.md %}) that indicates your relative floor limit. For example, if you do not want your Amazon listing price to go below the cost of your item, you would choose the _Cost_ attribute.
 
 1. For **Floor Price Action**, choose an option.
 
@@ -44,7 +44,7 @@ _Intelligent Repricing Rule: Floor Price_
 
 |Field|Description|
 |--- |--- |
-|Floor Price Source|Choose the Magento attribute that indicates your relative floor (lowest price) limit. For example, if you do not want your Amazon listing price to go below the cost of your item, you would choose the `Cost` attribute. |
+|Floor Price Source|Choose the Commerce attribute that indicates your relative floor (lowest price) limit. For example, if you do not want your Amazon listing price to go below the cost of your item, you would choose the `Cost` attribute. |
 |Floor Price Action|Choose a pricing adjustment action. Options:<br/>**Decrease By** - Choose when you want the defined _Floor Price Source_ value to be adjusted down, creating a lower floor price for the rule, before listing to Amazon.<br/>**Increase By** - Choose when you want the defined _Floor Price Source_ value to be adjusted up, creating a higher floor price for the rule, before listing to Amazon.<br/>**Match** - Choose when you do not want the listing price to fluctuate below the defined _Floor Price Source_ value. When chosen, the _Apply_ and _Floor Adjustment Amount_ fields are disabled. |
 |Apply|**Apply as percentage** - A percentage adjustment relative to the _Floor Price Source_ value. |
 |Floor Adjustment Amount |Enter the numerical value for the percent to adjust your _Floor Price Source_ value. |
