@@ -1,5 +1,7 @@
 ---
 title: Amazon Sales Channel
+redirect_from:
+  - /sales-channels/amazon/amazon-sales-channel.html
 sections:
    - title: Get Started with Amazon Sales Channel
      content: Learn more about Amazon and Amazon Sales Channel basics, key features, best practices, and more.

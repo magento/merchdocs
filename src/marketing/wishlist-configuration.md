@@ -17,9 +17,9 @@ The wish list configuration enables wish lists and determines the email template
 
     - Set the **Enabled** field to `Yes`. This activates the wish list module for the store.
 
-    - Set the **Enable Multiple Wish Lists** field to `Yes`. This allows customers to create and maintain multiple wish lists.
+    - {:.ee-only}Set the **Enable Multiple Wish Lists** field to `Yes`. This allows customers to create and maintain multiple wish lists.
 
-    - To limit the number of wish lists customers can have associated with their account, enter a **Number of Multiple Wish Lists** value.
+    - {:.ee-only}To limit the number of wish lists customers can have associated with their account, enter a **Number of Multiple Wish Lists** value.
 
     - Set the **Show in Sidebar** field to `Yes`. This displays the wish list(s) in the sidebar.
 
