@@ -3,10 +3,10 @@ ee_only: true
 title: Wish List Search
 ---
 
-Any public wish list can be found using the Wish List Search [widget]({% link cms/widgets.md -%}). The widget enables a customer to search by the name or email address of the wish list owner. Store customers can find wish lists that belong to other customers, view them and order products from them, or add the products to their own wish lists. If an item it purchased from a public wish list by another customer, it is not removed from the original wish list. The Wish List Search widget can be added to any page of your store to make it easy for customers to find the wish lists of friends and family members.
+Any public wish list can be found using the Wish List Search [widget]({% link cms/widgets.md %}). The widget enables a customer to search by the name or email address of the wish list owner. Store customers can find wish lists that belong to other customers, view them and order products from them, or add the products to their own wish lists. If an item is purchased from a public wish list by another customer, it is not removed from the original wish list. The Wish List Search widget can be added to any page of your store to make it easy for customers to find the wish lists of friends and family members.
 
 ![Example storefront - wish list search]({% link images/images/storefront-wishlist-search.png %}){: .zoom}
-_Wish List Search_
+_Wish list search_
 
 ## Add a Wish List Search widget
 

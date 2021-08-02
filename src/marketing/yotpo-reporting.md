@@ -8,7 +8,7 @@ Yotpo reviews and questions are reported in the Yotpo [Moderation Interface](htt
 
 ### Access Yotpo Reporting
 
-You can access the **Yotpo Moderation Interface** from the Magento Admin > **Reports** > _Reviews_ > **Yotpo Reviews**.
+To access the Yotpo Moderation Interface from the Admin, go to **Reports** > _Reviews_ > **Yotpo Reviews**.
 
 ## Yotpo Analytics
 
@@ -20,7 +20,7 @@ The [Reviews Dashboard](https://support.yotpo.com/en/article/reviews-dashboard) 
 
 ### Emails Dashboard
 
-The [Emails Dashboard](https://support.yotpo.com/en/article/emails-dashboard) is your go-to place for detailed performance analytics on content generation emails such as review request emails, requests to answer Q&A questions, and coupon emails sent through Yotpo.
+The [Emails Dashboard](https://support.yotpo.com/en/article/emails-dashboard) is your go-to place for detailed performance analytics on content generation emails such as review request emails, requests to answer questions, and coupon emails sent through Yotpo.
 
 ### Conversion Dashboard
 
@@ -28,4 +28,4 @@ The [Conversion Dashboard](https://support.yotpo.com/en/article/the-conversion-d
 
 ### Access Yotpo Analytics
 
-You can access  **Yotpo Analytics** from the Magento Admin > **Reports** > _Business Intelligence_ > **Yotpo Analytics**.
+To access Yotpo Analytics from the Admin, go to **Reports** > _Business Intelligence_ > **Yotpo Analytics**.
