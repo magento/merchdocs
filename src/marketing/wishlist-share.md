@@ -35,5 +35,3 @@ To add a single item, the customer does the following:
 1. Hovers over the item and enters the **Qty** that they want to add to the cart.
 
 1. Clicks **Add to Cart**.
-
-
