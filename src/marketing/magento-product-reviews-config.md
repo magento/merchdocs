@@ -1,13 +1,13 @@
 ---
-title: Enable Magento Product Reviews
+title: Enable Commerce Product Reviews
 ---
 
-The Magento Product Reviews function is enabled by default.
+The Commerce Product Reviews function is enabled by default.
 
 {:.bs-callout-info}
-To set these fields to `No` and disable Magento Product Reviews, you must clear the **Use system value** checkboxes.
+To set these fields to `No` and disable Commerce Product Reviews, you must clear the **Use system value** checkboxes.
 
-## Enable Product Reviews
+## Enable product reviews
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -25,5 +25,5 @@ To set these fields to `No` and disable Magento Product Reviews, you must clear 
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-![Catalog configuration - Magento product reviews]({% link images/images/magento-product-reviews-config.png %}){: .zoom}
-_Magento Product Reviews settings_
+![Catalog configuration - Commerce product reviews]({% link images/images/magento-product-reviews-config.png %}){: .zoom}
+_Product Reviews settings_
