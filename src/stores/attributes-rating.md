@@ -3,18 +3,18 @@ title: Ratings
 group: marketing
 ---
 
-When customers review a product, the default ratings are quality, price, and value. In addition to these, you can add your own custom ratings. The five-star ratings that appear on catalog pages are averaged for each product.
+With the Commerce Product Reviews, customers can assign ratings when they submit aa product review. The default ratings are quality, price, and value. In addition to these, you can add your own custom ratings. The five-star ratings that appear on catalog pages are averaged for each product.
 
 ![Example storefront - custom ratings]({% link images/images/attribute-custom-ratings-review.png %}){: .zoom}
 _Ratings_
 
 ## Create your own ratings
 
-1. On the _Admin_ sidebar, go to **Stores** > Attributes > **Rating**.
+1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Rating**.
 
 1. In the upper-right corner, click <span class="btn">Add New Rating</span>.
 
-    ![Magento Admin - Ratings]({% link images/images/product-reviews-rating.png %}){: .zoom}
+    ![Commerce Admin - Ratings]({% link images/images/product-reviews-rating.png %}){: .zoom}
     _Ratings_
 
 1. In the _Rating Title_ section, enter the **Default Value** for the new rating.

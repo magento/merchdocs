@@ -2,41 +2,41 @@
 title: Updating Wish Lists
 ---
 
-Customers can manage their wish lists by logging in to their accounts. Store administrators can also manage customer wish lists from the Admin.
+Customers can manage their wish lists by logging in to their accounts on the storefront. As a store administrators, you can also manage customer wish lists from the Admin.
 
 ![Example storefront - My Wish List]({% link images/images/storefront-customer-wishlist-edit.png %}){: .zoom}
-_“My Wish List” in Customer Account_
+_“My Wish List” in customer account_
 
-## Update the Wish List from a Customer Account
+## Update the wish list from a customer account
 
-1. Log in to your customer account.
+1. The customer logs in to their customer account.
 
-1. In the left panel, choose **My Wish List**.
+1. In the left panel, choosee **My Wish List**.
 
-1. Find the item you want to edit in the wish list, and do any of the following:
+1. Finds the item they want to edit in the wish list, and does any of the following:
 
-   - Update the Qty.
-   - Edit the product options.
-   - Add a comment.
-   - Add to Gift Registry.
-   - Move or Copy to a New Wish List.
-   - Delete the item from the wish list.
-   - Add to Cart.
+   - Updates the quantity.
+   - Edits the product options.
+   - Adds a comment.
+   - Adds to Gift Registry.
+   - Moves or copies items to a new wish list.
+   - Deletes the item from the wish list.
+   - Adds items to the cart.
 
-1. When complete, click <span class="btn">Update Wishlist</span>.
+1. When complete, clicks <span class="btn">Update Wishlist</span>.
 
-## Update Wish List Items from the Admin
+## Update wish list items from the Admin
 
 1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
 
-1. Find the customer in the list. Then, in the **Action** column, click **Edit**.
+1. Find the customer in the list and click **Edit** in the *Action* column, .
 
-1. In the left panel, choose **Wish List**. Then, find the item to be edited in the list.
+1. In the left panel, choose **Wish List** and find the item to be edited in the list.
 
    Any options selected for the product appear below the product name.
 
-    ![Magento Admin - customer wish list]({% link images/images/customer-wishlist-edit-admin.png %}){: .zoom}
-    _Wish List from Admin_
+    ![Commerce Admin - customer wish list]({% link images/images/customer-wishlist-edit-admin.png %}){: .zoom}
+    _Wish list from the Admin_
 
 1. To edit the product options, do the following:
 
