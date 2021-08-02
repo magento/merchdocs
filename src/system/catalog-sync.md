@@ -70,7 +70,7 @@ Visibility | A product's visibility setting as defined in the Magento catalog
 
 ## Resolve catalog sync issues {#resolvesync}
 
-If you notice discrepancies between your catalog and what appears on your storefront, or if the catalog sync failed, refer to the following:
+When you trigger a data resync, it can take up to an hour for the data to update and be reflected in UI components, such as recommendation units. However, if after waiting for an hour you still notice discrepancies between your catalog and what appears on your storefront, or if the catalog sync failed, refer to the following:
 
 ### Data discrepancy
 
