@@ -36,7 +36,7 @@ The store dashboard also includes store data and links to settings or more infor
 
    - [**Logs**]({% link sales-channels/asc/amazon-logs-reports.md %}) - [Listing changes]({% link sales-channels/asc/listing-changes-log.md %}) and [communication errors]({% link sales-channels/asc/communication-errors-log.md %}).
 
-   - [**Store integration settings**]({% link sales-channels/asc/store-integration-settings.md %}) - Review email and Amazon Sales Channel store name settings in the Commerces Admin.
+   - [**Store integration settings**]({% link sales-channels/asc/store-integration-settings.md %}) - Review email and Amazon Sales Channel store name settings in the Commerce Admin.
 
 - **Store Listings** - Shows a graphical representation for the store sales for the last 7 or 30 days along with lifetime sales data.
 

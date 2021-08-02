@@ -11,7 +11,7 @@ When you set up your first Amazon store in Amazon Sales Channel, a list of setup
 
 All products and data synced between Commerce and Amazon is managed by a [cron job]({% link system/cron.md %}). When you complete tasks such as add or update listings and receive orders, a cron job sends and receives data between your Commerce backend and your Amazon Seller Central account.
 
-- [Enable Commercee cron]({% link system/cron.md %}).
+- [Enable Commerce cron]({% link system/cron.md %}).
 
 - For maximum performance, [set Commerce cron]({% link configuration/advanced/system.md %}) to run once every five minutes.
 
@@ -58,7 +58,7 @@ To set up shipping methods that you will offer to fulfill your Amazon orders, re
 
 ## Additional configurations
 
-When your Amazon account is set up and active, there are several Commercee recommendations that will help streamline the Amazon Sales Channel onboarding process.
+When your Amazon account is set up and active, there are several Commerce recommendations that will help streamline the Amazon Sales Channel onboarding process.
 
 ### Review and note any products you don't want to list on Amazon
 
@@ -68,7 +68,7 @@ You may not want some products to be listed on Amazon. Amazon Sales Channel has 
 
 To help facilitate error-free data transition during integration, we highly recommend setting your Amazon region to `Inactive` status in Settings > Account Info > Vacation Settings. Refer to [Amazon: Listing Status for Vacations][11]{:target="_blank"}. When your setup is complete, change the status back to `Active` in Amazon.
 C
-![]({% link images/images/btn-next.png %}) [**Continue to Creating Commeerce Attributes**]({% link sales-channels/asc/ob-creating-magento-attributes.md %})
+![]({% link images/images/btn-next.png %}) [**Continue to Creating Commerce Attributes**]({% link sales-channels/asc/ob-creating-magento-attributes.md %})
 
 [1]: https://services.amazon.com/content/sell-on-amazon.html
 [2]: https://services.amazon.com/content/sell-on-amazon.htm/

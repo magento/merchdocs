@@ -52,7 +52,7 @@ _Amazon ASIN Attribute_
 
 ## Create the Amazon Condition product attribute
 
-1. Log into your Commerces Admin.
+1. Log into your Commerce Admin.
 
 1. Click **Stores** in the left-side menu. In the _Attributes_ section, click **Product**.
 
