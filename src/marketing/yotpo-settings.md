@@ -47,4 +47,3 @@ Widget settings include the following:
 - **Orders Sync Limit** - This field defines the maximum number of orders to send to Yotpo in a single transmission. Setting a lower value results in more frequent transmissions and reduces processing effort for each transmission. Default value is `50`.
 
 - **Orders Sync Statuses** - This setting defines the order status(es) that are sent to Yotpo. Default is `Complete`.
-
