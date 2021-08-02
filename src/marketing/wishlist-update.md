@@ -2,7 +2,7 @@
 title: Updating Wish Lists
 ---
 
-Customers can manage their wish lists by logging in to their accounts on the storefront. As a store administrators, you can also manage customer wish lists from the Admin.
+Customers can manage their wish lists by logging in to their accounts on the storefront. As a store administrator, you can also manage customer wish lists from the Admin.
 
 ![Example storefront - My Wish List]({% link images/images/storefront-customer-wishlist-edit.png %}){: .zoom}
 _“My Wish List” in customer account_
@@ -11,14 +11,14 @@ _“My Wish List” in customer account_
 
 1. The customer logs in to their customer account.
 
-1. In the left panel, choosee **My Wish List**.
+1. In the left panel, chooses **My Wish List**.
 
 1. Finds the item they want to edit in the wish list, and does any of the following:
 
    - Updates the quantity.
    - Edits the product options.
    - Adds a comment.
-   - Adds to Gift Registry.
+   - Adds to gift registry.
    - Moves or copies items to a new wish list.
    - Deletes the item from the wish list.
    - Adds items to the cart.
@@ -29,7 +29,7 @@ _“My Wish List” in customer account_
 
 1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
 
-1. Find the customer in the list and click **Edit** in the *Action* column, .
+1. Find the customer in the list and click **Edit** in the *Action* column.
 
 1. In the left panel, choose **Wish List** and find the item to be edited in the list.
 
