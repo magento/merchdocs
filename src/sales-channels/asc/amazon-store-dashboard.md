@@ -14,11 +14,11 @@ _Amazon Store Dashboard_
 
 The header of the store dashboard displays the same basic store information that is shown on the store card:
 
-- Store Name
-- Magento Website
-- Status
-- Created
-- Last Updated
+- _Store Name_
+- _Magento Website_
+- _Status_
+- _Created_
+- _Last Updated_
 
 The store dashboard also includes store data and links to settings or more information:
 
@@ -36,13 +36,13 @@ The store dashboard also includes store data and links to settings or more infor
 
    - [**Logs**]({% link sales-channels/asc/amazon-logs-reports.md %}) - [Listing changes]({% link sales-channels/asc/listing-changes-log.md %}) and [communication errors]({% link sales-channels/asc/communication-errors-log.md %}).
 
-   - [**Store integration settings**]({% link sales-channels/asc/store-integration-settings.md %}) - Review email and Amazon Sales Channel store name settings in the Magento Admin.
+   - [**Store integration settings**]({% link sales-channels/asc/store-integration-settings.md %}) - Review email and Amazon Sales Channel store name settings in the Commerce Admin.
 
 - **Store Listings** - Shows a graphical representation for the store sales for the last 7 or 30 days along with lifetime sales data.
 
    This section also shows listing counts for your [active listings]({% link sales-channels/asc/active-listings.md %}), [inactive listings]({% link sales-channels/asc/inactive-listings.md %}), and in progress listings, along with links to their corresponding _Product Listings_ page. You can also click **Manage Listings** to open the _Product Listings_ page. See [Manage Amazon Listings]({% link sales-channels/asc/managing-product-listings.md %}).
 
-- **Recent Orders** - Shows information for your most recent Amazon orders. The information listed is based on the information received from Amazon. This table does not update with Magento order information, even when [order import]({% link sales-channels/asc/order-settings.md %}) is enabled. To view all your Amazon orders, click **All Orders**.
+- **Recent Orders** - Shows information for your most recent Amazon orders. The information listed is based on the information received from Amazon. This table does not update with Commerce order information, even when [order import]({% link sales-channels/asc/order-settings.md %}) is enabled. To view all your Amazon orders, click **All Orders**.
 
    See [View Amazon Orders]({% link sales-channels/asc/amazon-orders-all.md %}) for column descriptions,  and see [Manage Orders]({% link sales-channels/asc/managing-orders.md %}) for order management information.
 
