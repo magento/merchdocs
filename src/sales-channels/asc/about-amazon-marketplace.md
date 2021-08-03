@@ -2,9 +2,9 @@
 title: About Amazon Marketplace
 ---
 
-[Amazon Marketplace](https://services.amazon.com/content/sell-on-amazon.html) is an e-commerce platform owned and operated by Amazon that enables third-party sellers to sell new or used products. Using Amazon Marketplace, third-party sellers gain access to Amazon's world-wide customer base. Those who list products on Amazon for sale, including Magento users, are defined by Amazon as "third-party sellers."
+[Amazon Marketplace](https://services.amazon.com/content/sell-on-amazon.html) is an e-commerce platform owned and operated by Amazon that enables third-party sellers to sell new or used products. Using Amazon Marketplace, third-party sellers gain access to Amazon's world-wide customer base. Those who list products on Amazon for sale, including Adobe Commerce or Magento Open Source users, are defined by Amazon as "third-party sellers."
 
-Third-party sellers of any size can create an Amazon Seller Central account and use the Amazon Marketplace to reach Amazon's global customer base. Once an account is created and active, sellers can add and list products for sale, manage orders and inventory, and fulfill orders.
+Third-party sellers of any size can create an Amazon Seller Central account and use the Amazon Marketplace to reach Amazon's global customer base. After an account is created and active, sellers can add and list products for sale, manage orders and inventory, and fulfill orders.
 
 ## Amazon Listings
 
@@ -24,9 +24,9 @@ If you want to contribute product information or correct erroneous information o
 
 Amazon offers two options for order fulfillment and shipping:
 
-- **Fulfilled by the merchant (FBM)**: Third-party sellers store their own inventory. When a customer places an order, the seller handles the packaging and shipping to the customer. This option allows you to complete shipments through Magento or another third party.
+- **Fulfilled by the merchant (FBM)**: Third-party sellers store their own inventory. When a customer places an order, the seller handles the packaging and shipping to the customer. This option allows you to complete shipments through Adobe Commerce and Magento Open Source, or another third party.
 
-- **Fulfilled by Amazon (FBA)**: Third-party sellers store inventory in Amazon's fulfillment centers around the world. When a customer places an order, Amazon handles the packaging and shipping to the customer. Order details and status are sent to Magento.
+- **Fulfilled by Amazon (FBA)**: Third-party sellers store inventory in Amazon's fulfillment centers around the world. When a customer places an order, Amazon handles the packaging and shipping to the customer. Order details and status are sent to Adobe Commerce or Magento Open Source .
 
 Amazon Sales Channel supports both options, receiving and tracking these orders. As you complete fulfillment, order statuses update automatically. See [Fulfillment Workflows]({% link sales-channels/asc/fulfillment-workflows.md %}).
 

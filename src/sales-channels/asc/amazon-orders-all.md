@@ -17,7 +17,7 @@ Both options show you basic order information, as received from Amazon, includin
 _All Orders_ view adds filtering options for order searches.
 
 {:.bs-callout .bs-callout-info}
-With the exception of the _Order Notes_ column, the _Amazon orders_ table is populated with order information as received from Amazon. The _Order Notes_ column is updated by Magento as the order processes.
+With the exception of the _Order Notes_ column, the _Amazon orders_ table is populated with order information as received from Amazon. The _Order Notes_ column is updated by Commerce as the order processes.
 
 ## Recent orders
 
@@ -96,4 +96,4 @@ A few notes about the orders view:
 |Status|The status of the order, as received by Amazon. Options: Error / Pending / Shipped / Canceled / Completed / Unshipped / PartiallyShipped / PendingAvailability|
 |Buyer's Name|The name of the person who placed the order, as received from Amazon.|
 |Grand Total|The total currency value of the order, as received from Amazon.|
-|Order Notes|Most recent action recorded for the order as it processes in Magento. Information includes, but is not limited to, order import errors and order processing updates.<br/>**Note**: This field is updated by Magento as the order processes.|
+|Order Notes|Most recent action recorded for the order as it processes in Commerce. Information includes, but is not limited to, order import errors and order processing updates.<br/>**Note**: This field is updated by Commerce as the order processes.|

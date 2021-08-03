@@ -25,11 +25,11 @@ When the Amazon Sales Channel extension is installed, default values are set in 
 
 1. For **Background Tasks (CRON) Source**, choose `Magento CRON`.
 
-   This tells Amazon Sales Channel to used your Magento [Cron]({% link system/cron.md %}) settings to determine communication and data sync intervals with Amazon Seller Central.
+   This tells Amazon Sales Channel to used your Commerce [Cron]({% link system/cron.md %}) settings to determine communication and data sync intervals with Amazon Seller Central.
 
 1. For **Enable Debug Logging**, choose `Enabled` to collect additional synchronization data when troubleshooting is needed.
 
-   Amazon Sales Channel logging is written to the `{Magento Root}/var/log/channel_amazon.log` file and can be viewed in [developer mode]({% link magento/installation-modes.md %}). Logging should only be `Enabled` during troubleshooting and should be `Disabled` when troubleshooting is complete.
+   Amazon Sales Channel logging is written to the `{Commerce Root}/var/log/channel_amazon.log` file and can be viewed in [developer mode]({% link magento/installation-modes.md %}). Logging should only be `Enabled` during troubleshooting and should be `Disabled` when troubleshooting is complete.
 
 1. Click <span class="btn">Save Config</span>.
 
