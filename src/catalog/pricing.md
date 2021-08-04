@@ -22,6 +22,8 @@ sections:
     url: /catalog/product-price-minimum-advertised.html
 ---
 
-Magento supports a number of pricing options that you can use for promotions, or to meet the minimum advertised pricing requirements of the manufacturer. Changes to product pricing can be made on schedule, or by price rule that is applied at the product level or in the shopping cart.
+Adobe Commerce and Magento Open Source support a number of pricing options that you can use for promotions, or to meet the minimum advertised pricing requirements of the manufacturer. Changes to product pricing can be made on schedule, or by price rule that is applied at the product level or in the shopping cart.
 
 Manage prices for your products with advanced pricing to offer customers better rates that encourage consumers to spend more, drive the traffic to your site, and clear old stock.
+
+{% include grid.html sections=page.sections %}

@@ -4,7 +4,7 @@ redirect_from:
   - /export-full-catalog.html
 ---
 
-You can manually request a full catalog export from Magento Commerce. This feature queues all products from the catalog for export to the Order Management System (OMS).
+You can manually request a full catalog export from Adobe Commerce. This feature queues all products from the catalog for export to the Order Management System (OMS).
 
 Outside of manually exporting the full catalog, products are added to this queue after a new product is created, an existing product is updated, or after a bulk update to product attributes.
 
