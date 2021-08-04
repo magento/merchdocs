@@ -71,26 +71,13 @@ The first step in onboarding Payment Services is to configure your Commerce Serv
 
 ## Enable sandbox testing
 
-There are two options for completing sandbox onboarding:
-
-* **Sign up for a free PayPal Developer's account** and _then_ proceed with our sandbox onboarding flow in the Payment Services Admin. You can create multiple accounts using this method.
-* **Create a sandbox account on-the-fly** during the onboarding process. This method does not require you to log into PayPal prior, but does require a valid email address.
-
-Either option will aid you in completing onboarding.
+To begin, and complete, sandbox onboarding you need to sign up for a free PayPal Developer's account. You can create multiple Developer accounts, if desired.
 
 To complete sandbox onboarding:
 
-1. On the _Admin_ sidebar go to **Sales** > **Payment Services**.
-1. Click <span class="btn">Sandbox onboarding</span>.
-
-   This option will be visible if you have not yet completed sandbox onboarding for Payment Services.
-
-   You are directed to the [PayPal Developer Account page](https://developer.paypal.com/developer/accounts/).
-
-   A sandbox merchant ID will be auto-generated and populated into the [configuration]({% link payment-services/configure-payments.md %}). Do not change or alter this ID.
-
+1. Navigate to the [PayPal Developer Account page](https://developer.paypal.com/developer/accounts/).
 1. Click <span class="btn">Log in to Dashboard</span> and log into an existing PayPal Developers account or click <span class="btn">Sign Up</span> to create a new one.
-1. To create a PayPal sandbox account:
+1. Create a PayPal sandbox account:
    1. Go to _SANDBOX_ > **Accounts**.
    1. Click <span class="btn">Create account</span>.
    1. Select **Business** as the Account Type and click <span class="btn">Create</span>.
@@ -102,7 +89,24 @@ To complete sandbox onboarding:
 
    1. Copy and save the Email ID and System Generated Password for future use.
 
-   You are redirected back to the Payment Services home. The <span class="btn">Sandbox onboarding</span> button will no longer be visible and you see "Sandbox payments pending" text.
+1. On the _Admin_ sidebar go to **Sales** > **Payment Services**.
+1. Click <span class="btn">Sandbox onboarding</span>.
+
+   This option will be visible if you have not yet completed sandbox onboarding for Payment Services.
+
+   A sandbox merchant ID will be auto-generated and populated into the [configuration]({% link payment-services/configure-payments.md %}). Do not change or alter this ID.
+
+   You are presented a PayPal window for connecting a PayPal account to start accepting payments.
+
+1. Enter the email of your sandbox account and your country or region and click <span class="btn">Next</span>.
+
+   ![PayPal - Connect PayPal account for payments]({% link payment-services/assets/paypal-connectacct.png %}){: .zoom}
+      _Connect PayPal account to start accepting payments_
+
+1. Continue to follow the PayPal flow, using your previously saved sandbox account credentials.
+1. On the _Admin_ sidebar go to **Sales** > **Payment Services**.
+
+   The <span class="btn">Sandbox onboarding</span> button will no longer be visible and you see "Sandbox payments pending" text.
 
    Once your PayPal sandbox onboarding is approved, you will see a notification stating that your payment system is currently in sandbox mode and is not processing live payments.
 
