@@ -4,8 +4,8 @@ pages:
 - label: Catalog Menu
   url: "/catalog/catalog-menu.html"
   children:
-  - label: Catalog URLs
-    url: "/catalog/catalog-urls.html"
+- label: Catalog and Product URLs
+  url: "/catalog/catalog-urls.html"
 - label: Products Grid
   url: "/catalog/products.html"
 - label: Creating Products
