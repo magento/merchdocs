@@ -11,8 +11,8 @@ redirect_from:
 
 As a best practice, we recommend that you keep your Commerce installation up to date, so you can benefit from the latest advancements. Release notes provide a detailed description of the changes in each product release, with links to additional technical information, installation instructions, and support resources. To learn more about the current releases, see:
 
-- {:.ce-only}[Magento Open Source 2.4.2 Release Notes][2]{:target="_blank"}
-- {:.ee-only}[Adobe Commerce 2.4.2 Release Notes][1]{:target="_blank"}
+- {:.ce-only}[Magento Open Source 2.4.3 Release Notes][2]{:target="_blank"}
+- {:.ee-only}[Adobe Commerce 2.4.3 Release Notes][1]{:target="_blank"}
 
 ## Earlier releases
 
@@ -54,8 +54,8 @@ Magento 2.0.18 was the final 2.0.x release. After March 2018, Magento 2.0.x stop
 - {:.ce-only}[Magento Community 2.0 User Guide][9]{:target="_blank"}
 - {:.ee-only}[Magento Enterprise 2.0 User Guide][10]{:target="_blank"}
 
-[1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/release-notes/commerce-2-4-2.html
-[2]: {{ site.devdocs_url }}/guides/v{{ site.version }}/release-notes/open-source-2-4-2.html
+[1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/release-notes/commerce-2-4-3.html
+[2]: {{ site.devdocs_url }}/guides/v{{ site.version }}/release-notes/open-source-2-4-3.html
 [3]: https://magento.com/products/community-edition
 [4]: https://docs.magento.com/m2/pdf/ee/Magento-Enterprise-Edition-2.1-User-Guide.pdf
 [5]: https://docs.magento.com/m2/pdf/ce/Magento-Community-Edition-2.1-User-Guide.pdf
