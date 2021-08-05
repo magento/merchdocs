@@ -7,7 +7,7 @@ One of the keys to harnessing the power of product types is learning when to use
 The following instructions demonstrate the process of creating a simple product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}), as needed.
 
 ![]({% link images/images/product-simple.png %}){: .zoom}
-_Simple Product_
+_Simple product_
 
 ## Step 1: Choose the product type
 
@@ -29,7 +29,7 @@ To choose the [attribute set]({% link stores/attribute-sets.md %}) that is used 
 The form is updated to reflect the change.
 
 ![]({% link images/images/product-create-choose-attribute-set.png %}){: .zoom}
-_Choose Attribute Set_
+_Choose attribute set_
 
 ## Step 3: Complete the required settings
 
@@ -48,7 +48,7 @@ _Choose Attribute Set_
 1. Choose the **Store View** where the product is to be available.
 
     ![]({% link images/images/product-create-store-view-choose.png %}){: .zoom}
-    _Choose Store View_
+    _Choose the store view_
 
 ## Step 4: Complete the basic settings
 
@@ -76,7 +76,7 @@ _Choose Attribute Set_
 
 1. Accept the default **Visibility** setting of `Catalog, Search`.
 
-1. To assign **Categories** to the product, click the **Select…** box and do either of the following:
+1. To assign _Categories_ to the product, click the **Select…** box and do either of the following:
 
    - **Choose an existing category:**
 
