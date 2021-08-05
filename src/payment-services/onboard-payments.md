@@ -111,7 +111,7 @@ To complete sandbox onboarding:
    Once your PayPal sandbox onboarding is approved, you will see a notification stating that your payment system is currently in sandbox mode and is not processing live payments.
 
    {:.bs-callout .bs-callout-warning}
-   If you revoke consent to Payment Services for Adobe Commerce and Magento Open Source for processing your payments (in your PayPal account settings) orders in your store cannot be processed by Payment Services.
+   If you revoke consent to Payment Services for Adobe Commerce and Magento Open Source for processing your payments (in your PayPal account settings), orders in your store cannot be processed by Payment Services.
 
 ## Test in sandbox environment
 
@@ -166,7 +166,7 @@ See [Configure Payment Services]({% link payment-services/configure-payments.md 
    Once your PayPal merchant onboarding is approved, you will see a notification stating that your payment system is currently in sandbox mode and is not processing live payments.
 
    {:.bs-callout .bs-callout-warning}
-   If you revoke consent to Payment Services for Adobe Commerce and Magento Open Source for processing your payments (in your PayPal account settings) orders in your store cannot be processed by Payment Services.
+   If you revoke consent to Payment Services for Adobe Commerce and Magento Open Source for processing your payments (in your PayPal account settings), orders in your store cannot be processed by Payment Services.
 
 ## Enable live payments
 
