@@ -8,7 +8,7 @@ To get started using Payment Services for Adobe Commerce and Magento Open Source
 1. [Connect your Magento instance](#configure-commerce-services) to Commerce Services. This only needs to be completed once per Magento instance.
 1. [Onboard and set up the sandbox service](#enable-sandbox-testing) (or, alternatively, proceed to [enabling live payments](#enable-live-payments) if you've tested functionality in another environment) to set up a test PayPal payment processing account.
 1. [Enable Payment Services as your payment method](#set-payment-services-as-payment-method), in sandbox mode, to start processing test payments.
-1. [Complete live onboarding](#complete-live-onboarding) to enable live payments for your Magento website(s).
+1. [Complete merchant onboarding](#complete-merchant-onboarding) to enable live payments for your Magento website(s).
 1. [Enable Payment Services in live mode](#enable-live-payments) to begin processing live payments.
 1. Test Payments, in both [sandbox](#test-in-sandbox-environment) and [production](#test-in-production) environments.
 
@@ -155,9 +155,15 @@ See [Configure Payment Services]({% link payment-services/configure-payments.md 
 1. Continue with the PayPal flow, using your PayPal account credentials (not your sandbox account credentials) or sign up for a new PayPal account.
 1. On the _Admin_ sidebar go to **Sales** > **Payment Services**
 
-   The <span class="btn">Live onboarding</span> button will no longer be visible and you see "Live payments pending" text.
+   The <span class="btn">Live onboarding</span> button will no longer be visible and you see "Live payments pending" text box.
 
-   Once your PayPal live onboarding is approved, you will see a notification stating that your payment system is currently in sandbox mode and is not processing sandbox payments.
+   In that text box, you may also be asked to confirm your email address with PayPal to complete onboarding.
+
+1. If you are prompted to confirm your email address, check your email for the confirmation message sent from PayPal and click to confirm your email address.
+1. On the _Admin_ sidebar go to **Sales** > **Payment Services**.
+1. Refresh your browser window.
+
+   Once your PayPal live onboarding is approved, you will see a notification stating that your payment system is currently in sandbox mode and is not processing live payments.
 
    {:.bs-callout .bs-callout-warning}
    If you revoke consent to Payment Services for Adobe Commerce and Magento Open Source for processing your payments (in your PayPal account settings) orders in your store cannot be processed by Payment Services.
