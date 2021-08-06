@@ -4,7 +4,7 @@ group: marketing
 ---
 
 {:.bs-callout-info}
-[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Adobe Commerce. The standard filterable attribute functionality described in this topic differs from Live Search. To learn more, see [Facets]({% link live-search/facets.md %}).
+The standard filterable attribute functionality described in this topic differs for [Live Search]({% link live-search/overview.md %}). To learn more, see [Facets]({% link live-search/facets.md %}).
 
 Layered navigation can be used to search for products by category or by attribute. For example, when a shopper chooses the Mens/Shorts category from the top navigation, the initial results include all products in the category. The list can be filtered further by choosing a specific style, climate, color, material, pattern, or price—or a combination of values. Filterable attributes appear in an expanding section that lists each attribute value. As an option, the list of products with matching results can be configured to include products with, or without, a match.
 
