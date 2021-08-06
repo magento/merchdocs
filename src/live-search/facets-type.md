@@ -21,8 +21,8 @@ To streamline search results, facets that you define are dynamic by default. Dyn
 
 - Intelligent facets are product attributes that [Adobe Sensei](https://www.adobe.com/sensei.html) finds most relevant to the given product set and query. This calculation takes into account the attribute metadata of the entire catalog and determines relevance at query time to deliver the most relevant facets for any query.
 
-![Facets - Price]({% link live-search/assets/storefront-filter-price-facet.png %}){: .zoom}
-_Filter by Price Facet_
+![Facets - Price]({% link live-search/assets/storefront-search-results-run-price.png %}){: .zoom}
+_Filter by Price_
 
 ## Select type
 
