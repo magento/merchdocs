@@ -143,6 +143,8 @@ pages:
       url: "/sales/shipments-create.html"
     - label: Canceling a Shipment
       url: "/sales/shipment-cancel.html"
+    - label: Printing Shipments
+      url: "/sales/shipment-print.html"
   - label: Credit Memos
     url: "/sales/credit-memos.html"
     children:
