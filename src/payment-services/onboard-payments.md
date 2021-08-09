@@ -8,7 +8,7 @@ To get started using Payment Services for Adobe Commerce and Magento Open Source
 1. [Connect your Magento instance](#configure-commerce-services) to Commerce Services. This only needs to be completed once per Magento instance.
 1. [Onboard and set up the sandbox service](#enable-sandbox-testing) (or, alternatively, proceed to [enabling live payments](#enable-live-payments) if you've tested functionality in another environment) to set up a test PayPal payment processing account.
 1. [Enable Payment Services as your payment method](#set-payment-services-as-payment-method), in sandbox mode, to start processing test payments.
-1. [Complete merchant onboarding](#enable-live-payments) to enable live payments for your Magento website(s).
+1. [Complete merchant onboarding](#complete-merchant-onboarding) to enable live payments for your Magento website(s).
 1. [Enable Payment Services in live mode](#enable-live-payments) to begin processing live payments.
 1. Test Payments, in both [sandbox](#test-in-sandbox-environment) and [production](#test-in-production) environments.
 
@@ -71,26 +71,13 @@ The first step in onboarding Payment Services is to configure your Commerce Serv
 
 ## Enable sandbox testing
 
-There are two options for completing sandbox onboarding:
-
-* **Sign up for a free PayPal Developer's account** and _then_ proceed with our sandbox onboarding flow in the Payment Services Admin. You can create multiple accounts using this method.
-* **Create a sandbox account on-the-fly** during the onboarding process. This method does not require you to log into PayPal prior, but does require a valid email address.
-
-Either option will aid you in completing onboarding.
+To begin, and complete, sandbox onboarding you need to sign up for a free PayPal Developer's account. You can create multiple Developer accounts, if desired.
 
 To complete sandbox onboarding:
 
-1. On the _Admin_ sidebar go to **Sales** > **Payment Services**.
-1. Click <span class="btn">Sandbox onboarding</span>.
-
-   This option will be visible if you have not yet completed sandbox onboarding for Payment Services.
-
-   You are directed to the [PayPal Developer Account page](https://developer.paypal.com/developer/accounts/).
-
-   A sandbox merchant ID will be auto-generated and populated into the [configuration]({% link payment-services/configure-payments.md %}). Do not change or alter this ID.
-
-1. Click <span class="btn">Log in to Dashboard</span> and log into an existing PayPal Developers account or click <span class="btn">Sign Up</span> to create a new one.
-1. To create a PayPal sandbox account:
+1. Navigate to the [PayPal Developer Account page](https://developer.paypal.com/developer/accounts/).
+1. Click <span class="btn">Log in to Dashboard</span> and log in with your existing credentials to the PayPal Developers account or click <span class="btn">Sign Up</span> to create a new one.
+1. Create a PayPal sandbox account:
    1. Go to _SANDBOX_ > **Accounts**.
    1. Click <span class="btn">Create account</span>.
    1. Select **Business** as the Account Type and click <span class="btn">Create</span>.
@@ -102,12 +89,29 @@ To complete sandbox onboarding:
 
    1. Copy and save the Email ID and System Generated Password for future use.
 
-   You are redirected back to the Payment Services home. The <span class="btn">Sandbox onboarding</span> button will no longer be visible and you see "Sandbox payments pending" text.
+1. On the _Admin_ sidebar go to **Sales** > **Payment Services**.
+1. Click <span class="btn">Sandbox onboarding</span>.
+
+   This option will be visible if you have not yet completed sandbox onboarding for Payment Services.
+
+   A sandbox merchant ID will be auto-generated and populated into the [configuration]({% link payment-services/configure-payments.md %}). Do not change or alter this ID.
+
+   You are presented with a PayPal window for connecting a PayPal account to start accepting payments.
+
+1. Enter the email of your sandbox account and your country or region and click <span class="btn">Next</span>.
+
+   ![PayPal - Connect PayPal account for payments]({% link payment-services/assets/paypal-connectacct.png %}){: .zoom}
+      _Connect PayPal account to start accepting payments_
+
+1. Continue to follow the PayPal flow, using your previously saved sandbox account credentials.
+1. On the _Admin_ sidebar go to **Sales** > **Payment Services**.
+
+   The <span class="btn">Sandbox onboarding</span> button will no longer be visible and you see a "Sandbox payments pending" text.
 
    Once your PayPal sandbox onboarding is approved, you will see a notification stating that your payment system is currently in sandbox mode and is not processing live payments.
 
    {:.bs-callout .bs-callout-warning}
-   If you revoke consent to Payment Services for Adobe Commerce and Magento Open Source for processing your payments (in your PayPal account settings) orders in your store cannot be processed by Payment Services.
+   If you revoke consent to Payment Services for Adobe Commerce and Magento Open Source for processing your payments (in your PayPal account settings), orders in your store cannot be processed by Payment Services.
 
 ## Test in sandbox environment
 
@@ -139,6 +143,31 @@ After you [configure your Commerce Services](#configure-commerce-services) and e
 
 See [Configure Payment Services]({% link payment-services/configure-payments.md %}) for more information about configuring Credit Card Fields and PayPal Smart Buttons.
 
+## Complete merchant onboarding
+
+1. On the _Admin_ sidebar go to **Sales** > **Payment Services**.
+1. Click <span class="btn">Live onboarding</span>.
+
+   This option will be visible if you have not yet completed live onboarding for Payment Services.
+
+   You are presented with a PayPal window.
+
+1. Continue with the PayPal flow, using your PayPal account credentials (not your sandbox account credentials) or sign up for a new PayPal account.
+1. On the _Admin_ sidebar go to **Sales** > **Payment Services**
+
+   The <span class="btn">Live onboarding</span> button will no longer be visible and you see a "Live payments pending" text box.
+
+   In that text box, you may also be asked to confirm your email address with PayPal to complete onboarding.
+
+1. If you are prompted to confirm your email address, check your email for the confirmation message sent from PayPal and click to confirm your email address.
+1. On the _Admin_ sidebar go to **Sales** > **Payment Services**.
+1. Refresh your browser window.
+
+   Once your PayPal merchant onboarding is approved, you will see a notification stating that your payment system is currently in sandbox mode and is not processing live payments.
+
+   {:.bs-callout .bs-callout-warning}
+   If you revoke consent to Payment Services for Adobe Commerce and Magento Open Source for processing your payments (in your PayPal account settings), orders in your store cannot be processed by Payment Services.
+
 ## Enable live payments
 
 A production merchant ID will be auto-generated and populated into the [configuration]({% link payment-services/configure-payments.md %}). Do not change or alter this ID.
@@ -161,7 +190,7 @@ If you navigate back to Payment Services home, the Sandbox payment mode message 
 See [Configure Payment Services]({% link payment-services/configure-payments.md %}) for more configuration options.
 
 {: .bs-callout-warning}
-If you revoke consent to Payment Services for processing your payments (in your PayPal account settings) orders in your store cannot be processed by Payment Services. If you want to re-enable payment processing, you must complete onboarding again.
+If you revoke consent to Payment Services for processing your payments (in your PayPal account settings), orders in your store cannot be processed by Payment Services. If you want to re-enable payment processing, you must complete onboarding again.
 
 ## Test in production
 
