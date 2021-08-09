@@ -8,7 +8,7 @@ Our goal is to provide the Adobe Community with comprehensive and quality user d
 
 Depending on your level of comfort, you may [clone this repo](#install-merchdocs), [make your changes](https://github.com/magento/merchdocs/wiki/Writing-Content#write-like-a-developer), and [build it locally](#build-locally), or [make changes directly in the GitHub user interface (UI)](https://github.com/magento/merchdocs/wiki/Writing-Content#write-in-github).
 
-After a pull request is submitted, it goes through an approval process to ensure grammatical and technical accuracy. Once merged by the writing team, the changes are generally live on the site within an hour.
+After a pull request is submitted, it goes through an approval process to ensure grammatical and technical accuracy. After it is merged by the writing team, the changes are generally live on the site within an hour.
 
 ## Building this site
 
