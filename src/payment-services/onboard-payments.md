@@ -76,7 +76,7 @@ To begin, and complete, sandbox onboarding you need to sign up for a free PayPal
 To complete sandbox onboarding:
 
 1. Navigate to the [PayPal Developer Account page](https://developer.paypal.com/developer/accounts/).
-1. Click <span class="btn">Log in to Dashboard</span> and log into an existing PayPal Developers account or click <span class="btn">Sign Up</span> to create a new one.
+1. Click <span class="btn">Log in to Dashboard</span> and log in with your existing credentials to the PayPal Developers account or click <span class="btn">Sign Up</span> to create a new one.
 1. Create a PayPal sandbox account:
    1. Go to _SANDBOX_ > **Accounts**.
    1. Click <span class="btn">Create account</span>.
