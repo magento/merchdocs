@@ -45,3 +45,16 @@ _[Additional Address Entries]({% link configuration/customers/customer-configura
    - Click **Edit** in the _Additional Address Entries_ grid.
 
 1. Make the necessary changes, and click <span class="btn">Save Address</span>.
+
+## Delete an address
+
+1. In the sidebar of the customer account, select **Address Book**.
+
+1. Find an additional address entry should be deleted.
+
+1. Click **Delete** in the _Additional Address Entries_ grid.
+
+1. To confirm the action click <span class="btn">OK<span>.
+
+{:.bs-callout-info}
+Default Billing and Shipping Addresses cannot be deleted.
