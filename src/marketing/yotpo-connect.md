@@ -1,13 +1,13 @@
 ---
-title: Integrate Magento with Yotpo
+title: Integrate Commerce with Yotpo
 ---
 
 With just a few steps, you can put Yotpo to work for you.
 
 1. Create a Yotpo account
-1. Enable Yotpo and Connect your Magento Store
+1. Enable Yotpo and connect your store
 
-## Create a Yotpo Account
+## Create a Yotpo account
 
 See Yotpo [Plan Information](https://www.yotpo.com/pricing/). You can create free account and upgrade your account at any time.
 
@@ -32,11 +32,11 @@ See Yotpo [Plan Information](https://www.yotpo.com/pricing/). You can create fre
     - For **Phone Number**, enter the phone number you want to associate with your Yotpo account.
     - Click **Finish**.
 
-Your account is created. You can now enable Yotpo and connect your Magento store in the Magento Admin.
+Your account is created. You can now enable Yotpo and connect your store in the Commerce Admin.
 
-## Enable Yotpo and Connect your Magento Store
+## Enable Yotpo and connect your store
 
-If you have an existing Yotpo account, you can enable Yotpo inside the Magento Admin.
+If you have an existing Yotpo account, you can enable Yotpo inside the Commerce Admin.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -59,7 +59,7 @@ If you have an existing Yotpo account, you can enable Yotpo inside the Magento A
    ![Yotpo configuration - setup]({% link images/images/yotpo-config-setup.png %}){: .zoom}
    _Yotpo Setup settings_
 
-After you connect your Magento store to your Yotpo account, Magento sets the default values for your [Widget]({% link marketing/yotpo-settings.md %}) and [Sync]({% link marketing/yotpo-settings.md %}) settings.
+After you connect your store to your Yotpo account, the system sets the default values for your [Widget]({% link marketing/yotpo-settings.md %}) and [Sync]({% link marketing/yotpo-settings.md %}) settings.
 
 Additional customization options, tasks, and features are dependent on your Yotpo plan and are available in your [Yotpo account](https://yap.yotpo.com/#/home).
 

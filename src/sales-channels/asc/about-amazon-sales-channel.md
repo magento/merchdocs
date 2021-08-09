@@ -2,17 +2,17 @@
 title: About Amazon Sales Channel
 ---
 
-Amazon Sales Channel is a powerful extension that seamlessly integrates your Magento Admin with your Amazon Seller Central account. After [onboarding]({% link sales-channels/asc/amazon-onboarding-home.md %}), Magento becomes a "central command center" for managing and controlling your Amazon listings, orders and inventory, and pricing for your Amazon store.
+Amazon Sales Channel is a powerful extension that seamlessly integrates your Commerce Admin with your Amazon Seller Central account. After [onboarding]({% link sales-channels/asc/amazon-onboarding-home.md %}), Commerce becomes a "central command center" for managing and controlling your Amazon listings, orders and inventory, and pricing for your Amazon store.
 
-[Store integration]({% link sales-channels/asc/store-integration.md %}) connects Magento and Amazon to sync data between both platforms. Amazon Sales Channel enables you to:
+[Store integration]({% link sales-channels/asc/store-integration.md %}) connects your Commerce instance and Amazon to sync data between both platforms. Amazon Sales Channel enables you to:
 
-- [Onboard]({% link sales-channels/asc/amazon-onboarding-home.md %}) and integrate one or more Amazon Seller Central accounts with Magento.
+- [Onboard]({% link sales-channels/asc/amazon-onboarding-home.md %}) and integrate one or more Amazon Seller Central accounts with Adobe Commerce or Magento Open Source.
 
-- Import and sync your existing Amazon listings and match to products in your Magento catalog, creating a centralized product catalog.
+- Import and sync your existing Amazon listings and match to products in your Commerce catalog, creating a centralized product catalog.
 
-- Create and manage Amazon listings for products in your Magento catalog.
+- Create and manage Amazon listings for products in your Commerce catalog.
 
-- View and fulfill (ship) orders in Magento and Amazon, syncing order status, payment, and refund information.
+- View and fulfill (ship) orders in Commerce and Amazon, syncing order status, payment, and refund information.
 
 - View logs for analysis and errors for [competitive prices]({% link sales-channels/asc/store-reports.md %}), [listing changes]({% link sales-channels/asc/listing-changes-log.md %}), and [communication issues]({% link sales-channels/asc/communication-errors-log.md %}).
 
@@ -22,7 +22,7 @@ Access your Amazon stores to view and manage all of these features, account info
 
 With Amazon Sales Channel, you can:
 
-- Synchronize Amazon listing pricing to Magento catalog price (or alternate price attribute).
+- Synchronize Amazon listing pricing to Commerce catalog price (or alternate price attribute).
 
 - Enable MSRP [strike-through pricing]({% link sales-channels/asc/listing-price.md %}#configure-listing-price-settings) in your Amazon listings to increase customer value proposition.
 
@@ -46,25 +46,25 @@ With Amazon Sales Channel, you can:
 
 With Amazon Sales Channel, you can:
 
-- Import your existing Amazon listings (products) and match to existing or create new products in your Magento catalog.
+- Import your existing Amazon listings (products) and match to existing or create new products in your Commerce catalog.
 
-- Publish your Magento products to Amazon to create new Amazon listings.
+- Publish your Commerce products to Amazon to create new Amazon listings.
 
 - Create [overrides]({% link sales-channels/asc/creating-editing-overrides.md %}) to set an individual price, handling time, condition, and seller notes message.
 
-- Import and map product [attributes]({% link sales-channels/asc/attributes-view.md %}) from your Amazon listings to automatically match with products in your Magento catalog.
+- Import and map product [attributes]({% link sales-channels/asc/attributes-view.md %}) from your Amazon listings to automatically match with products in your Commerce catalog.
 
-- Set multiple search parameters to match Amazon listings to your Magento catalog.
+- Set multiple search parameters to match Amazon listings to your Commerce catalog.
 
-- Define [listing rules]({% link sales-channels/asc/listing-rules.md %}) to determine which of your Magento products are eligible to be listed on Amazon.
+- Define [listing rules]({% link sales-channels/asc/listing-rules.md %}) to determine which of your Commerce products are eligible to be listed on Amazon.
 
 - Set a default [handling time]({% link sales-channels/asc/product-listing-actions.md %}) for your new Amazon listings.
 
-- Match listing conditions based on a Magento attribute.
+- Match listing conditions based on a Commerce attribute.
 
 - Add seller notes for each condition type (optional).
 
-- Implement quantity thresholds when importing Amazon listings into your Magento catalog.
+- Implement quantity thresholds when importing Amazon listings into your Commerce catalog.
 
 - View recommended [listing improvements]({% link sales-channels/asc/listing-improvements.md %}).
 
@@ -72,15 +72,15 @@ With Amazon Sales Channel, you can:
 
 With Amazon Sales Channel, you can:
 
-- Support and process orders in Amazon and Magento.
+- Support and process orders in Amazon and Commerce.
 
-- [Import]({% link sales-channels/asc/order-settings.md %}#configure-order-settings) your Amazon orders into Magento or leave them in Amazon.
+- [Import]({% link sales-channels/asc/order-settings.md %}#configure-order-settings) your Amazon orders into Commerce or leave them in Amazon.
 
-- Define which of your Magento website stores to associate with your Amazon orders for importing and managing orders.
+- Define which of your Commerce website stores to associate with your Amazon orders for importing and managing orders.
 
-- View, cancel, and ship orders from Magento and/or Amazon depending in your [fulfillment settings]({% link sales-channels/asc/fulfilled-by.md %}).
+- View, cancel, and ship orders from Commerce and/or Amazon depending in your [fulfillment settings]({% link sales-channels/asc/fulfilled-by.md %}).
 
-- Map your Amazon order status to custom status within Magento (optional).
+- Map your Amazon order status to custom status within Commerce (optional).
 
 - View and manage order errors to resolve issues and connect with customers.
 
@@ -112,10 +112,10 @@ With Amazon Sales Channel, you can:
 
 - Manage multiple Amazon Marketplace regions (countries).
 
-- Support multiple currencies using the [Magento Currency Conversion Tool]({% link stores/currency-configuration.md %}).
+- Support multiple currencies using the [Commerce Currency Conversion Tool]({% link stores/currency-configuration.md %}).
 
 - Manage shipments from your product locations and Amazon fulfillment centers.
 
 ## Customer Management
 
-Build your Magento customer database by [importing customer data]({% link sales-channels/asc/order-settings.md %}#configure-order-settings) associated with your Amazon orders. Leverage and expand your marketing potential through this expanded list of customers through your Amazon Marketplace listings and Magento storefront.
+Build your Commerce customer database by [importing customer data]({% link sales-channels/asc/order-settings.md %}#configure-order-settings) associated with your Amazon orders. Leverage and expand your marketing potential through this expanded list of customers through your Amazon Marketplace listings and Commerce storefront.
