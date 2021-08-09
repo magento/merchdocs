@@ -164,7 +164,7 @@ plugins:
 livereload: true
 check_links: true
 
-devdocs_url: https://devdocs-beta.magento.com
+devdocs_url: https://devdocs.magento.com
 
 # This addition fixes a bug in the copy.js of devdocs-theme
 #
