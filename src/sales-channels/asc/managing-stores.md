@@ -8,7 +8,7 @@ When viewing the Amazon Sales Channel home page, the _Amazon Stores_ view opens 
 ![]({% link sales-channels/asc/assets/amazon-sales-channel-home-tabs.png %}){: .zoom}
 _Amazon Stores view_
 
-The _Amazon Stores_ view shows a "store card" for each of your Amazon stores along with some basic statistics and management options. Summary information shown in each card includes each store status, date created, last updated date, listings that need attention (example: Incomplete Listings) and the assigned Magento website.
+The _Amazon Stores_ view shows a "store card" for each of your Amazon stores along with some basic statistics and management options. Summary information shown in each card includes each store status, date created, last updated date, listings that need attention (example: Incomplete Listings) and the assigned Commerce website.
 
 When viewing the _Amazon Store_ view, each store card allows you to:
 

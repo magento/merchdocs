@@ -40,7 +40,7 @@ _Inactive Listings_
 |Product Listing Name|The name of the product.|
 |[Condition]({% link sales-channels/asc/product-listing-condition.md %})|The condition of the product.|
 |Landed Price|The listing price for the product plus its shipping price.|
-|Amazon Quantity|The quantity available once the product is actively listed on Amazon.|
+|Amazon Quantity|The quantity available when the product is actively listed on Amazon.|
 |Status|The status of the listing, defined by Amazon.|
 |Inactive Reason (if provided by Amazon)|Amazon will not always provide a reason for inactive listings, and you may need to reach out to customer support to resolve listing issues. In some instances, Amazon will notify you of a reason. To view these responses, click **View Details** in the _Action_ column. If these issues are resolved and Amazon removes the error, the products will move to the _Active_ tab.|
 |Action|List of available actions that can be applied to a specific listing. To apply an action, click **Select** in the _Action_ column to show your options:<br/>[View Details]({% link sales-channels/asc/product-listing-details.md %})<br/>[Create Override]({% link sales-channels/asc/creating-editing-overrides.md %})<br/>[Edit Assigned ASIN]({% link sales-channels/asc/edit-assigned-asin.md %})<br/>[Create Alias Seller SKU]({% link sales-channels/asc/create-alias-seller-sku.md %}#create-an-alias-amazon-seller-sku-to-be-used-for-a-region-specific-purpose)<br/>[Switch to Fulfilled By Amazon/Merchant]({% link sales-channels/asc/fulfilled-by.md %}#configure-fulfilled-by-settings)<br/>[End Listing]({% link sales-channels/asc/end-listings-manually.md %})|

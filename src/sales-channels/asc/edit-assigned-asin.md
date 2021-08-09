@@ -2,11 +2,11 @@
 title: Edit an Assigned ASIN
 ---
 
-You can edit the Amazon ASIN value assigned to a product in your Magento catalog. This is a helpful feature if a catalog product was improperly matched to one of your Amazon listings. Changing the assigned ASIN for the listing does not change the ASIN assigned to a product by Amazon. It only changes the Amazon listing to which your catalog product is matched.
+You can edit the Amazon ASIN value assigned to a product in your Commerce catalog. This is a helpful feature if a catalog product was improperly matched to one of your Amazon listings. Changing the assigned ASIN for the listing does not change the ASIN assigned to a product by Amazon. It only changes the Amazon listing to which your catalog product is matched.
 
 When an assigned ASIN is changed:
 
-- Magento ends your Amazon listings attached to the old ASIN
+- Commerce ends your Amazon listings attached to the old ASIN
 - Validates the ASIN with Amazon
 - Creates a new listing for the updated ASIN
 - Updates listing information in Amazon Sales Channel

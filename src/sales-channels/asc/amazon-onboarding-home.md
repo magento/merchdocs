@@ -4,7 +4,7 @@ redirect_from:
   - /sales-channels/amazon/amazon-onboarding-home.html
 ---
 
-This section describes the pre-setup tasks, steps for onboarding, and some key concepts of how Amazon works with the Amazon Sales Channel in Magento.
+This section describes the pre-setup tasks, steps for onboarding, and some key concepts of how Amazon works with the Amazon Sales Channel in Adobe Commerce and Magento Open Source.
 
 Amazon Sales Channel supports multiple Amazon Sales Channel stores. For a single Amazon Seller Central account that operates in the Amazon region that includes U.S./Canada/Mexico, you will create three Amazon Sales Channel stores (one for U.S. sales, one for Mexico sales, and one for Canada sales). Each of the three stores will define the marketplace country during its creation. If you have more than one Amazon Seller Central account, you could potentially have up to three Amazon Sales Channel stores for each of your Amazon Seller Central accounts. If you also sell in the U.K., you would have a fourth Amazon store.
 
@@ -17,8 +17,8 @@ Amazon Sales Channel supports multiple Amazon Sales Channel stores. For a single
 
 |Steps|What Happens|
 |--- |--- |
-|[Pre-Setup Tasks]({% link sales-channels/asc/amazon-pre-setup-tasks.md %})|Before you onboard, you must ensure you have an active and approved Amazon Seller Central account. There are also some Magento requirements and recommendations to complete prior to onboarding.|
-|[Verify the Amazon API Key]({% link sales-channels/asc/amazon-verify-api-key.md %})|When accessing Amazon Sales Channel, Magento automatically checks and validates the Amazon API key you have added in your store configuration. If your API key has not been added or is invalid, you will be prompted to [add or update your Amazon API Key]({% link sales-channels/asc/amazon-verify-api-key.md %}).|
+|[Pre-Setup Tasks]({% link sales-channels/asc/amazon-pre-setup-tasks.md %})|Before you onboard, you must ensure you have an active and approved Amazon Seller Central account. There are also some Commerce requirements and recommendations to complete prior to onboarding.|
+|[Verify the Amazon API Key]({% link sales-channels/asc/amazon-verify-api-key.md %})|When accessing Amazon Sales Channel, Commerce automatically checks and validates the Amazon API key you have added in your store configuration. If your API key has not been added or is invalid, you will be prompted to [add or update your Amazon API Key]({% link sales-channels/asc/amazon-verify-api-key.md %}).|
 |[Store Integration]({% link sales-channels/asc/store-integration.md %})|This step includes creating an Amazon Sales Channel store and then connecting it to your Amazon Seller Central account. You will need the primary log-in credentials for your Amazon Seller Central account (the email or phone used to create the seller account) for this step.|
 |[Create Listing Rule]({% link sales-channels/asc/ob-create-listing-rule.md %})|After you connect your Amazon Sales Channel store, you are prompted to create a listing rule. We encourage you to create a rule, but you can also skip this step to start the listing import process. You can also access your [store and listing settings]({% link sales-channels/asc/ob-store-review.md %}) on the store [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).|
 
