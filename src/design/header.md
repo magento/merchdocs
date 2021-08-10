@@ -31,3 +31,4 @@ _Header configuration settings_
 |Logo Attribute Height|Store View|The height of your logo image in pixels.|
 |Welcome Text|Store View|The welcome message appears in the header of the page and  includes the name of customers who are logged in.|
 |Logo Image Alt|Store View|The Alt text that is associated with the logo.|
+|Translate Title|Store View|Enable / Disable title translations.|
