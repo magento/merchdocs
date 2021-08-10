@@ -26,5 +26,6 @@ title: Updating Category Permissions
       _Category Permissions Rule_
 
     - To create a new permissions rule for another customer group, click <span class="btn">New Permissions</span> and repeat the process.
+    - To delete permission rule, click the ![]({% link images/images/btn-trashcan2.png %}) icon.
 
 1. When complete, click <span class="btn">Save</span>.
