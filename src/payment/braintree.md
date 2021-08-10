@@ -185,7 +185,7 @@ The following descriptors are used to identify purchases on customer credit card
 
 {:.bs-callout-warning}
 **<a name="migration">Magento 2.4 Migration Notes:</a>**<br />
-Before the release of Magento 2.4.0, we recommended that merchants replace the core Magento Braintree integration with the official Braintree extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). Beginning with Magento 2.4.0, the Braintree extension is included in the release.<br/><br/>
+Before the release of Magento 2.4.0, we recommended that merchants replace the core Magento Braintree integration with the official Braintree extension from [Magento Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree). Beginning with Magento 2.4.0, the Braintree extension is not included in the release.<br/><br/>
 If you are migrating to Magento 2.4.x from a pre-2.4.0 version that has the Marketplace Braintree extension installed, you must uninstall the Marketplace Braintree extension (`paypal/module-braintree` or `gene/module-braintree`) and update any code customizations to use the `PayPal_Braintree` namespace instead of `Magento_Braintree`. Configuration settings from the core Magento Braintree Payments bundled extension and the extension distributed on Magento Marketplace will persist and payments placed with those previous versions of the extension can still be captured, voided, or refunded as normal.<br />
 
 [1]: https://www.braintreepayments.com/
