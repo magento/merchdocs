@@ -82,7 +82,7 @@ _Store Information configuration settings_
 |City|Website|The city where the business that operates the website is located.|
 |Street Address|Website|The street or mailing address of the business that operates the website.|
 |Street Address Line 2|Website|The second line of the business street address, if needed.|
-|VAT Number|Website|The Value Added Tax number of the business that owns the Magento installation, if applicable.|
+|VAT Number|Website|The Value Added Tax number of the business that owns the Commerce installation, if applicable.|
 |Validate VAT Number||Verifies the Value Added Tax identification number.|
 
 ## Single-Store Mode
