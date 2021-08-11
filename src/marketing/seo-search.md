@@ -11,7 +11,7 @@ sections:
     url: /catalog/navigation.html
 
   - title: Catalog Search
-    content: Explore how customers search for products in your catalog, and how you can configure standard Adobe Commerce catalog search to improve search results. For Live Search installations, see [Live Search]({% link live-search/overview.md %}).
+    content: Explore how customers search for products in your catalog, and how you can configure standard Adobe Commerce catalog search to improve search results. For Live Search installations, see the Live Search topic.
     url: /catalog/search.html
 
   - title: Search Terms
