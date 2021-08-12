@@ -1,5 +1,4 @@
 ---
-ee_only: true
 title: Add Content - Products
 ---
 
@@ -87,7 +86,7 @@ Complete the _Settings_ according to the following sections:
       ![Product selection by category]({% link images/images-ee/page-builder-products-settings_category.png %}){: .zoom}
       _Selecting products by category_
 
-      When selected, this option provides a **Category** selector. Click the arrow and drill down to choose the category of products to display. For example, in the Magento sample data, drilling in and selecting the _Women > Tops > Tees_ displays all products for that category.
+      When selected, this option provides a **Category** selector. Click the arrow and drill down to choose the category of products to display. For example, in the Commerce sample data, drilling in and selecting the _Women > Tops > Tees_ displays all products for that category.
 
       ![Selecting a catalog category]({% link images/images-ee/page-builder-select-products-by-category.png %}){: .zoom}
       _Selecting the women's tees category_

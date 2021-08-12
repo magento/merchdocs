@@ -14,7 +14,7 @@ You can easily set a special price for a single product in the catalog.
 {:.ee-only}
 ### Use a scheduled update
 
-Magento Commerce includes support for [Scheduled Updates]({% link cms/content-staging-scheduled-update.md %}). Use these promotional tools to apply a special price to a specific product for a specified time period.
+Adobe Commerce includes support for [Scheduled Updates]({% link cms/content-staging-scheduled-update.md %}). Use these promotional tools to apply a special price to a specific product for a specified time period.
 
 1. Open the product in edit mode.
 
@@ -72,7 +72,7 @@ You can also assign a special price to multiple products, such as multiple varia
 {:.ee-only}
 ### Set a special price for selected products
 
-The following example shows how to assign the same special price to multiple product variations of a configurable product in Magento Commerce.
+The following example shows how to assign the same special price to multiple product variations of a configurable product in Adobe Commerce.
 
 1. On the **Products** page, click <span class="btn">Filters</span> and enter the **Name** of the configurable product.
 

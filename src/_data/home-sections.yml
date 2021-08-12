@@ -1,5 +1,5 @@
   - title: New to Adobe Commerce?
-    content: Discover resources available to members of the Magento ecosystem. Follow the customer journey to explore your store, and learn about key features.
+    content: Discover resources available to members of the Commerce ecosystem. Follow the customer journey to explore your store, and learn about key features.
     url: /getting-started.html
 
   - title: What's new in the guide?
@@ -31,5 +31,5 @@
     url: /stores/stores.html
 
   - title: Share your knowledge
-    content: Become a Magento documentation contributor by suggesting improvements, logging issues, and submitting revisions to our open source documentation repository.
+    content: Become a Commerce documentation contributor by suggesting improvements, logging issues, and submitting revisions to our open source documentation repository.
     url: /getting-started/contribute.html

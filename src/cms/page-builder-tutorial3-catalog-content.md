@@ -1,5 +1,4 @@
 ---
-ee_only: true
 title: 'Tutorial 3: Catalog Content'
 ---
 
@@ -11,7 +10,7 @@ _Product list_
 This tutorial assumes that you have completed [Tutorial 1: Simple Page]({% link cms/page-builder-tutorial1-simple-page.md %}) and [Tutorial 2: Blocks]({% link cms/page-builder-tutorial2-blocks.md %}), including the prerequisites and downloaded sample files. Follow parts 1, 2, and 3 of this tutorial in order.
 
 {:.bs-callout-info}
-This tutorial is updated to reflect recent changes to the Page Builder workspace in Magento 2.4.1. If you are using an earlier Magento Commerce release, use the Page Builder tutorials included in the [Magento 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
+These tutorials are updated to reflect recent changes to the Page Builder workspace in the 2.4.1 release. If you are using an earlier Adobe Commerce release, use the Page Builder tutorials included in the [Commerce 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
 
 ## Part 1: Add a product list
 
