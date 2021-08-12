@@ -19,7 +19,7 @@ _Create New Account Options_
 
    - If you have a Value Added Tax number and want it to be visible to customers, set **Show VAT Number on Storefront** to `Yes`.
 
-   - To require customer's email during Admin order creation for new Customer set **Email is required field for Admin order creation** to `Yes`.
+   - To require a customer's email during Admin order creation for a customer, set **Email is required field for Admin order creation** to `Yes`.
 
    - Enter the **Default Email Domain** for the store, such as `mystore.com`
 
