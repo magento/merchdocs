@@ -7,7 +7,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 ## WYSIWYG Options
 
 ![]({% link images/images/config-general-content-management-wysiwyg-options.png %}){: .zoom}
-[_Content Management_]({% link cms/editor.md %})
+[_WYSIWYG Options_]({% link cms/editor.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
