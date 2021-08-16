@@ -54,7 +54,7 @@ _[Additional Address Entries]({% link configuration/customers/customer-configura
 
 1. Clicks **Delete** in the _Additional Address Entries_ grid.
 
-1. To confirm the action, clickc <span class="btn">OK<span>.
+1. To confirm the action, clicks <span class="btn">OK<span>.
 
 {:.bs-callout-info}
 The default billing and shipping addresses cannot be deleted.
