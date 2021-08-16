@@ -13,7 +13,7 @@ Advanced Reporting is a cloud-based service that is powered by [Magento Business
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Advanced Reporting Service|Global|Enables the integration of Advanced Reporting for your Magento installation.|
+|Advanced Reporting Service|Global|Enables the integration of Advanced Reporting for your Commerce installation.|
 |Industry|Website|Identifies your business industry to personalize Advanced Reporting.|
 |Time of day to send data|Global|Determines the time each day when your store data is sent to Advanced Reporting. The time is based on a 24-hour clock, and includes the minute, hour, and second in your time zone.|
 
