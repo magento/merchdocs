@@ -35,7 +35,7 @@ _Add to Newsletter Queue_
    {:.bs-callout-info}
    Do not remove the instructions, which are required by law in many jurisdictions.
 
-1. To apply custom styles for newsletter, add them into **Newsletter Styles** field.
+1. To apply custom styles to a newsletter, add them into the **Newsletter Styles** field.
 
 1. When complete, click <span class="btn">Save and Resume</span>.
 
