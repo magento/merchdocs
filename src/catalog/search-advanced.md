@@ -4,7 +4,7 @@ group: marketing
 ---
 
 {:.bs-callout-info}
-The standard search functionality described in this topic does not apply to [Live Search]({% link live-search/overview.md %}).
+The advanced form search functionality described in this topic does not apply to [Live Search]({% link live-search/overview.md %}).
 
 Advanced Search lets shoppers search the catalog based on values entered into a form. Because the form contains multiple fields, a single search can include several parameters. The result is a list of all products in the catalog that match the criteria. A link to Advanced Search is in the footer of your store.
 
