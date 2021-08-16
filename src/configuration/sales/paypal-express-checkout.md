@@ -26,7 +26,7 @@ As of September 14, 2019, European banks might decline payments that do not meet
 |Get Credentials from PayPal||Fetches your API credentials from PayPal.|
 |Sandbox Credentials||Fetches your sandbox credentials from PayPal.|
 |Sandbox Mode|Website|To run PayPal Express Checkout in a test environment, enter your sandbox API credentials, and then set Sandbox Mode to “Yes”. Options: Yes / No|
-|API Uses Proxy|Website|If your system uses a proxy server to establish the connection between Magento and the PayPal system, set API Uses Proxy to “Yes”. Options: Yes / No|
+|API Uses Proxy|Website|If your system uses a proxy server to establish the connection between Commerce and the PayPal system, set API Uses Proxy to “Yes”. Options: Yes / No|
 |Proxy Host|Website|If the API uses proxy, the IP address of the proxy host.|
 |Proxy Port|Website|If the API uses proxy, the port used by the proxy host.|
 |Enable this Solution|Website|Activates PayPal Express Checkout as a payment method that is available to your customers. Options: Yes / No|
@@ -56,7 +56,7 @@ _Basic Settings_
 |--- |--- |--- |
 |Title|Website|A name that identifies the PayPal Express Checkout payment method during checkout.|
 |Sort Order|Website|A number that determines the order that PayPal Express Checkout appears when listed with other payment methods during checkout. Enter 0 for the top of the list.|
-|Payment Action|Website|Determines the action taken by PayPal  when it receives an order. Options: <br/>**Authorization** - Approves the purchase, but puts a hold on the funds. The amount is not withdrawn until it is “captured” by the merchant. <br/>**Sale** - The amount of the purchase is authorized and immediately withdrawn from the customer’s account. <br/>**Order** - Represents an agreement with PayPal that allows the merchant to capture one or more amounts up to the “ordered” total from the customer’s buyer account, within a defined period of time, which can be up to 29 days. One or more invoices must be generated from the Magento Admin to capture the funds.|
+|Payment Action|Website|Determines the action taken by PayPal  when it receives an order. Options: <br/>**Authorization** - Approves the purchase, but puts a hold on the funds. The amount is not withdrawn until it is “captured” by the merchant. <br/>**Sale** - The amount of the purchase is authorized and immediately withdrawn from the customer’s account. <br/>**Order** - Represents an agreement with PayPal that allows the merchant to capture one or more amounts up to the “ordered” total from the customer’s buyer account, within a defined period of time, which can be up to 29 days. One or more invoices must be generated from the Commerce Admin to capture the funds.|
 |Display on Product Details Page|Store View|Determines if the “Checkout with PayPal” button appears on product pages. Options include: Yes / No|
 
 ## Advanced Settings
