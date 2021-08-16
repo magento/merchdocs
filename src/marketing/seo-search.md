@@ -3,7 +3,7 @@ title: SEO and Search
 sections:
 
   - title: Live Search
-    content: Live Search is an advanced search service that is available for Adobe Commerce.
+    content: Delivers a lightning fast, super-relevant, and intuitive search experience that is available for Adobe Commerce at no additional charge.
     url: /live-search/overview.html
 
   - title: Catalog Navigation
