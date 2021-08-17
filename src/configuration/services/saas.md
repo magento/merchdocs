@@ -19,9 +19,9 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Serv
 ## SaaS Identifier
 
 ![]({% link images/images/saas-env-saasidentifier.png %}){: .zoom}
-[_SaaS Environment_]({% link system/saas.md %}#saasenv)
+[_SaaS Identifier]({% link system/saas.md %}#saasenv)
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|SaaS Project|Global|Name of the SaaS project that groups all of your SaaS environments.|
-|SaaS Data Space|Global|Lists the SaaS environment data spaces in the specified SaaS Project.|
+|SaaS Project|Global|Name of the SaaS project that groups all of your SaaS identifiers.|
+|SaaS Data Space|Global|Lists the SaaS identifier data spaces in the specified SaaS Project.|
