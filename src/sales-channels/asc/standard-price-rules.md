@@ -3,7 +3,7 @@ title: Standard Price Rule Actions
 ---
 
 
-A standard price rule action allows you to increase or decrease an Amazon listing price by a specific percentage or fixed dollar amount relative to the Magento catalog price (or price source).
+A standard price rule action allows you to increase or decrease an Amazon listing price by a specific percentage or fixed dollar amount relative to the Commerce catalog price (or price source).
 
 Sections of a standard price rule action include:
 
@@ -44,6 +44,6 @@ _Standard Price Rule_
 |Field|Description|
 |---|---|
 |Rule Type|Select `Standard price rule`.|
-|Price Action|Options:<br/>**Decrease By** - Choose when you want the defined Magento price source value to be decreased before listing to Amazon.<br/>**Increase By** - Choose when you want the defined Magento price source value to be increased before listing to Amazon.|
-|Apply|Options:<br/>**Apply as percentage** - Choose when you want the defined Magento price source value adjusted by a percentage.<br/>**Apply as fixed amount** - Choose when you want the defined Magento price source value adjusted by a fixed amount.|
+|Price Action|Options:<br/>**Decrease By** - Choose when you want the defined Commerce price source value to be decreased before listing to Amazon.<br/>**Increase By** - Choose when you want the defined Commerce price source value to be increased before listing to Amazon.|
+|Apply|Options:<br/>**Apply as percentage** - Choose when you want the defined Commerce price source value adjusted by a percentage.<br/>**Apply as fixed amount** - Choose when you want the defined Commerce price source value adjusted by a fixed amount.|
 |Adjustment Amount|Required.<br/><br/>If you choose `Apply as percentage` for **Apply**, enter the percent value (example: enter `25` for a 25% percent adjustment).<br/><br/>If you chose `Apply as fixed amount` for **Apply**, enter the numerical value for the fixed amount (example: enter `25` for a $25 fixed adjustment).|

@@ -1,5 +1,4 @@
 ---
-ee_only: true
 title: Video
 ---
 
@@ -31,7 +30,7 @@ _Video toolbox_
 
    As an alternative, you can also copy a direct link to a valid video file. See [Basic video settings](#basic-video-settings) for valid links.
 
-1. In the Magento Admin, return to the Page Builder workspace where you want to add the video.
+1. In the Commerce Admin, return to the Page Builder workspace where you want to add the video.
 
 1. In the Page Builder panel, expand **Media** and drag a **Video** placeholder to the stage.
 

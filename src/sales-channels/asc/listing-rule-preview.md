@@ -6,7 +6,7 @@ redirect_from:
 
 When you are modifying your condition definitions for your listing rules, you can click **Preview Changes** to apply your rules changes and view how your listings are impacted. You should verify your listings in this listing preview feature before saving your listing rule changes.
 
-Your Amazon listings are compared against your rules and defined conditions. You can then review which products will move to an ineligible status based on your current Amazon Seller Central account, which products will move from an ineligible state back to eligible status and which products will be New Amazon Listings and added to your Amazon listing from your eligible Magento products.
+Your Amazon listings are compared against your rules and defined conditions. You can then review which products will move to an ineligible status based on your current Amazon Seller Central account, which products will move from an ineligible state back to eligible status and which products will be New Amazon Listings and added to your Amazon listing from your eligible Commerce products.
 
 Listing Preview allows you to preview your potential Amazon listings and make any necessary adjustments to your listing rules.
 
@@ -14,11 +14,11 @@ Your potential Amazon listings will populate on the _Listing Preview_ page in on
 
 - **Ineligible Listings** - Products listed are not eligible for Amazon listing based on your current listing rules and conditions.
 
-   Ineligible products will not be published to Amazon. If an ineligible product is already listed on Amazon and you match the Amazon listing to your Magento catalog product, the quantity for the Amazon listing will change to `0` to prevent sales of the product. To manually remove a listing, see [Ending an Amazon Listing]({% link sales-channels/asc/end-listings-manually.md %}). Products that are not eligible by Amazon requirements are not listed here. Those products are listed on the [Inactive Listings tab]({% link sales-channels/asc/inactive-listings.md %}).
+   Ineligible products will not be published to Amazon. If an ineligible product is already listed on Amazon and you match the Amazon listing to your Commerce catalog product, the quantity for the Amazon listing will change to `0` to prevent sales of the product. To manually remove a listing, see [Ending an Amazon Listing]({% link sales-channels/asc/end-listings-manually.md %}). Products that are not eligible by Amazon requirements are not listed here. Those products are listed on the [Inactive Listings tab]({% link sales-channels/asc/inactive-listings.md %}).
 
 - **Eligible Listings** - Products listed are eligible for Amazon listing based on your current listing rules and conditions and are also eligible by Amazon requirements. This list includes your existing Amazon listings that will import (if you have **Import Third Party Listings** set to `Import Listing` in [Listing Settings]({% link sales-channels/asc/third-party-listing-settings.md %})).
 
-- **New Listings** - Products listed include your Magento catalog products that are newly eligible for Amazon listing based on your current listing rules and conditions and will create and publish new Amazon listings.
+- **New Listings** - Products listed include your Commerce catalog products that are newly eligible for Amazon listing based on your current listing rules and conditions and will create and publish new Amazon listings.
 
 ## View your listing preview
 
@@ -43,14 +43,14 @@ _Listing Rule Preview_
 
 |Field|Description|
 |--- |--- |
-|Product ID |The unique, sequential number that is assigned to a Magento catalog product when it is added. |
+|Product ID |The unique, sequential number that is assigned to a Commerce catalog product when it is added. |
 |Thumbnail |Shows a thumbnail of the main product image. |
-|Name |The name of the product, managed in the Magento [Products Grid]({% link catalog/products.md %}). |
-|Type |The type of product, managed in the Magento [Products Grid]({% link catalog/products.md %}). |
-|Attribute Set |The name of the attribute set used as a template for the product, managed in the Magento [Products Grid]({% link catalog/products.md %}). |
-|SKU |The unique Stock Keeping Unit that is assigned to the product, managed in the Magento [Products Grid]({% link catalog/products.md %}). |
-|Visibility |Indicates where the product is visible, managed in the Magento [Products Grid]({% link catalog/products.md %}). Options:<br/>- Not visible individually<br/>- Catalog<br/>- Search<br/>- Catalog, Search |
-|Status |Indicates the current status of the product, managed in the Magento [Products Grid]({% link catalog/products.md %}). Options:<br/>- Enabled<br/>- Disabled |
+|Name |The name of the product, managed in the Commerce [products grid]({% link catalog/products.md %}). |
+|Type |The type of product, managed in the Commerce products grid. |
+|Attribute Set |The name of the attribute set used as a template for the product, managed in the Commerce products grid. |
+|SKU |The unique Stock Keeping Unit that is assigned to the product, managed in the Commerce products grid. |
+|Visibility |Indicates where the product is visible, managed in the Commerce products grid. Options:<br/>- Not visible individually<br/>- Catalog<br/>- Search<br/>- Catalog, Search |
+|Status |Indicates the current status of the product, managed in the Commerce products grid. Options:<br/>- Enabled<br/>- Disabled |
 
 ## Listing Preview Workflow
 

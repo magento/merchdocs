@@ -1,5 +1,4 @@
 ---
-ee_only: true
 title: Elements - HTML Code
 ---
 
@@ -101,9 +100,9 @@ The following example demonstrates how to embed [Google Font][1] code and declar
 
    The editor also provides buttons to insert special elements in the code:
 
-   |Insert Widget...|Click to insert a Magento widget at the cursor's position in the HTML text box.|
+   |Insert Widget...|Click to insert a widget at the cursor's position in the HTML text box.|
    |Insert Image...|Click to insert an uploaded image or an image from the Gallery at the cursor's position in the HTML text box.|
-   |Insert Variable...|Click to insert a Magento variables at the cursor's position in the HTML text box.|
+   |Insert Variable...|Click to insert a variable at the cursor's position in the HTML text box.|
 
 1. Update the _Advanced_ settings as needed.
 

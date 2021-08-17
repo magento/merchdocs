@@ -5,11 +5,9 @@ tag: live-search
 group: marketing
 ---
 
-Faceting is a method of high-performance filtering that uses multiple dimensions of attribute values as search criteria. Faceted search is similar, but considerably “smarter” than [layered navigation]({% link catalog/navigation-layered.md %}) The list of available filters is determined by the [filterable attributes]({% link catalog/navigation-layered-filterable-attributes.md %}) of products returned in the search results. Up to 300 product attributes can be indexed by Live Search.
+Faceting is a method of high-performance filtering that uses multiple dimensions of attribute values as search criteria. Faceted search is similar, but considerably “smarter” than the standard [layered navigation]({% link catalog/navigation-layered.md %}). The list of available filters is determined by the [filterable attributes]({% link catalog/navigation-layered-filterable-attributes.md %}) of products returned in the search results. Up to 300 product attributes can be indexed by Live Search.
 
-The page layout of filtered search results might differ from the following example, depending on the implementation and theme.
-
-![Filtered search results]({% link live-search/assets/storefront-search-hoodie.png %}){: .zoom}
+![Filtered search results]({% link live-search/assets/storefront-search-results-run.png %}){: .zoom}
 _Filtered search results_
 
 ## Faceting requirements

@@ -54,7 +54,7 @@ You can create different conditions by changing the combination of these values.
 
       The selected condition appears in the statement, followed by two more bold links. The options differ depending on the product attribute you select.
 
-      Once you set the attribute, it cannot be changed. To change the attribute, you must delete the line and add the new attribute. You can delete a condition line by clicking the **Delete** (![]({% link images/images/btn-del-red.png %}){: .Inline}) icon at the end of the line.
+      After you set the attribute, it cannot be changed. To change the attribute, you must delete the line and add the new attribute. You can delete a condition line by clicking the **Delete** (![]({% link images/images/btn-del-red.png %}){: .Inline}) icon at the end of the line.
 
      1. Click **is** and choose the comparison operator that describes the condition for products to meet. For this example, the comparison operator is `is`. The available options depend on the attribute selected in the previous step and may include different comparison options such as matching values, not including or including at least one of a value, and greater than, equal to, and less than a numerical amount. In this example, the options are `is` and `is not`.
 
@@ -65,7 +65,7 @@ You can create different conditions by changing the combination of these values.
         ![]({% link sales-channels/asc/assets/ob-listing-rule-condition-is.png %}){: .zoom}
         _Condition Line 2, Part 3_
 
-   This condition is complete. As stated, this condition means that any product in your Magento catalog that has the Amazon FBA attribute set to a value of `Yes` is eligible for listing to Amazon for the region and store you are setting up. You can add more condition lines to further narrow your eligible products.
+   This condition is complete. As stated, this condition means that any product in your Commerce catalog that has the Amazon FBA attribute set to a value of `Yes` is eligible for listing to Amazon for the region and store you are setting up. You can add more condition lines to further narrow your eligible products.
 
 To add another condition line to the statement, return to step 1 and repeat the process until all desired conditions are complete.
 

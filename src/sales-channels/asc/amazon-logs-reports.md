@@ -19,4 +19,4 @@ The following store-specific reports can be accessed from the [store dashboard](
 - The [Listing Improvements]({% link sales-channels/asc/listing-improvements.md %}) report shows all suggested listing improvements provided by Amazon for the selected store.
 
 {:.bs-callout-tip}
-You can also check the log file for additional information when troubleshooting is needed. See [Sales Channel Admin Settings]({% link sales-channels/asc/sales-channel-settings.md %}). Amazon Sales Channel synchronization logging is written to the `{Magento Root}/var/log/channel_amazon.log` file and can be viewed in [developer mode]({% link magento/installation-modes.md %}).
+You can also check the log file for additional information when troubleshooting is needed. See [Sales Channel Admin Settings]({% link sales-channels/asc/sales-channel-settings.md %}). Amazon Sales Channel synchronization logging is written to the `{Commerce Root}/var/log/channel_amazon.log` file and can be viewed in [developer mode]({% link magento/installation-modes.md %}).
