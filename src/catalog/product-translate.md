@@ -72,16 +72,18 @@ If your store has multiple views in different languages, the same products are a
 
 ## Step 4: Translate product attributes and attributes options
 
-1. Navigate to _Stores > Attributes > Product_ and select the attribute to be translated.
+1. On. the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
 
-1. Under the **Manage Label** section, set the translated attribute title.
+1. Select the attribute to be translated.
+
+1. Choose **Manage Label** on the left and set the **Managed Titles** options to define the attribute title translations.
 
     ![]({% link images/images/manage-label-tab.png %}){: .zoom}
-    _Manage Label tab_
+    _Manage Titles_
 
-1. Under _Properties > Manage Options (Values of Your Attribute)_, translate the attribute options
+1. Choose **Properties** on the left and enter the translated attribute options in the **Manage Options** section.
 
     ![]({% link images/images/manage-option-tab.png %}){: .zoom}
-    _Manage Option tab_
+    _Manage Options_
 
 1. When complete, click <span class="btn">Save Attribute</span>.
