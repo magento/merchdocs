@@ -660,8 +660,6 @@ pages:
     children:
     - label: Creating a Tag to Track Conversions
       url: "/marketing/google-tag-manager-create-tag.html"
-    - label: Add GTM For Magento 2 Stores
-      url: "/marketing/add-gtm-for-magento-store.html"
     - label: Enhanced Ecommerce
       url: "/marketing/google-enhanced-ecommerce.html"
     - label: Troubleshooting Tools

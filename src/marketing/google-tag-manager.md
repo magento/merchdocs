@@ -123,6 +123,29 @@ For additional information, see Google's [Container export and import][5]. These
 
 1. Test your Google Tag Manager settings to verify that everything works correctly.
 
+## Step 4. Add GTM to Magento 2 Store
+
+1. Get the GTM Code:
+
+There are two sections in code. The first one needs to be paste in the header section and the second one needs to paste in the body section of the Magento 2 website.
+
+    ![Install Google Tag Manager]({% link images/images-ee/install-google-tag-manager.png %}){: .zoom}
+    _Google Tag Manager code_
+
+1. Go to the _Content > Design > Configuration > Edit the Store View > Other Settings> HTML Head_
+
+1. Paste the code you got from GTM for the <head> tag here.
+
+    ![Install Google Tag Manager]({% link images/images-ee/head-tag.png %}){: .zoom}
+    _HTML Tag inserting_
+
+1. Expand the **Footer** tab and paste the GTM code for <body> under the **Miscellaneous HTML**.
+
+    ![Install Google Tag Manager]({% link images/images-ee/footer-tag-section.png %}){: .zoom}
+    _Footer Tag inserting_
+
+1. When complete, click <span class="btn">Save Configuratio</span>.
+
 ## Field Descriptions
 
 |Field|Scope|Description|
