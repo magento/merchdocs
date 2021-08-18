@@ -53,7 +53,7 @@ For each line item in the order, modify the **Qty to Ship** as needed.
 - The default option is set as **Enabled** that explains the shipment comment email will be sent to customers when the customer orders a product.
 
 - In **Shipment Comment Email Sender**, select the person from whom the shipment comment email will be sent. The default Magento 2 offers five email addresses.
-   
+
 - In **Shipment Comment Email Template**, select the template based on your requirement or select the default option.
 
 - In **Shipment Comment Email Template for Guests**, choose the template for customers who have not created an account in your store.
