@@ -50,17 +50,17 @@ For each line item in the order, modify the **Qty to Ship** as needed.
 
 1. Expand **Shipment Comments** section:
 
-   - The default option is set as **Enabled** that explains the shipment comment email will be sent to customers when the customer orders a product.
+- The default option is set as **Enabled** that explains the shipment comment email will be sent to customers when the customer orders a product.
 
-   - In **Shipment Comment Email Sender**, select the person from whom the shipment comment email will be sent. The default Magento 2 offers five email addresses.
+- In **Shipment Comment Email Sender**, select the person from whom the shipment comment email will be sent. The default Magento 2 offers five email addresses.
    
-   - In **Shipment Comment Email Template**, select the template based on your requirement or select the default option.
+- In **Shipment Comment Email Template**, select the template based on your requirement or select the default option.
 
-   - In **Shipment Comment Email Template for Guests**, choose the template for customers who have not created an account in your store.
+- In **Shipment Comment Email Template for Guests**, choose the template for customers who have not created an account in your store.
 
-   - In **Shipment Comment Email Copy To**, enter the multiple email addresses to whom you want to send Shipment comment email copy. Separate email addresses with a comma.
+- In **Shipment Comment Email Copy To**, enter the multiple email addresses to whom you want to send Shipment comment email copy. Separate email addresses with a comma.
 
-   - Send **Shipment Comment Email Copy Method**, select bcc(blind carbon copy) or separate email copy method based on your requirement.
+- Send **Shipment Comment Email Copy Method**, select bcc(blind carbon copy) or separate email copy method based on your requirement.
 
 1. Click <span class="btn">Save Config</span>.
 
