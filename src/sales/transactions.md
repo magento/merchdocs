@@ -45,7 +45,7 @@ This section includes information regarding the transaction, and provides a link
 |Created At|Time and date the transaction was created.|
 
 ### Child transactions
-Child transactions are displayed in the grid after creating invoices for [orders]{% link sales/orders.md %}. This allows you to track transaction history, following a transaction hierarchy.
+Child transactions are displayed in the grid after creating invoices for [orders]({% link sales/orders.md %}). This allows you to track transaction history, following a transaction hierarchy.
 
 ### Transaction Details
 
