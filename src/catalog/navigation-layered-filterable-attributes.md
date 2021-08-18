@@ -72,7 +72,7 @@ This makes it difficult for customers to select a preferred product, and there i
 
 Therefore, follow the next steps to remove Filterable Attribute Values with 0 Products from Layered Navigation:
 
-1.  On the _Admin_ sidebar, go to **Stores** > **Attributes** > **Product**.
+1. On the _Admin_ sidebar, go to **Stores** > **Attributes** > **Product**.
 
 1. Browse or use filtered search to find an attribute in the list and open it in edit mode.
 
