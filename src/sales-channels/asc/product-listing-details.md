@@ -16,9 +16,9 @@ The _Product Listing Details_ page shows additional information on your active p
 
 Shows product information includes:
 
-- Amazon Name
-- Catalog (Magento) SKU
-- Amazon Seller SKU
+- _Amazon Name_
+- _Catalog (Magento) SKU_
+- _Amazon Seller SKU_
 
 ![]({% link sales-channels/asc/assets/amazon-product-listing-details.png %}){: .zoom}
 _Listing Details_

@@ -3,7 +3,7 @@ title: Cookie Law Compliance
 group: getting-started
 ---
 
-Cookies are small files that are saved to the computer of each visitor to your site, and used as temporary holding places for information. Information that is saved in cookies is used to personalize the shopping experience, link visitors to their shopping carts, measure traffic patterns, and improve the effectiveness of promotions. To keep pace with legislation in many countries regarding the use of cookies, Magento offers merchants a choice of methods to obtain customer consent.
+Cookies are small files that are saved to the computer of each visitor to your site, and used as temporary holding places for information. Information that is saved in cookies is used to personalize the shopping experience, link visitors to their shopping carts, measure traffic patterns, and improve the effectiveness of promotions. To keep pace with legislation in many countries regarding the use of cookies, Adobe Commerce and Magento Open Source offer merchants a choice of methods to obtain customer consent.
 
 {:.bs-callout-info}
 If you modified the default [Google privacy settings]({% link stores/compliance-privacy-google.md %}) to comply with the [General Data Protection Regulation]({% link stores/compliance-gdpr.md %}), it is no longer necessary to obtain user consent for the use of Google Analytics cookies.

@@ -2,10 +2,10 @@
 title: Attract New Customers
 ---
 
-Magento is packed with features that make it easy to create a “search engine friendly” websites and increase the likelihood of bringing the right customers to your site.
+Adobe Commerce and Magento Open Source are packed with features that make it easy to create a “search engine friendly” websites and increase the likelihood of bringing the right customers to your site.
 
 Search Engine Optimization
-:  Magento offers powerful, native capabilities to streamline [Search Engine Optimization (SEO)]({% link marketing/seo-search.md %}) practices for content and site exposure that are integrated with the Admin, and tied directly into the user experience.
+:  Commerce offers powerful, native capabilities to streamline [Search Engine Optimization (SEO)]({% link marketing/seo-search.md %}) practices for content and site exposure that are integrated with the Admin, and tied directly into the user experience.
 
 Custom URLs
 :  Specify [custom URLs]({% link stores/store-urls.md %}) to make them short, clean, and easy to remember. You can also autogenerate search-friendly URLs to streamline your purchase path.

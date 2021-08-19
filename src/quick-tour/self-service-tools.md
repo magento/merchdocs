@@ -4,7 +4,7 @@ title: Empower with Self-Service Tools
 ---
 
 Self-Service Tools
-:  Magento’s self-service model provides an [account dashboard]({% link customers/account-dashboard.md %}) that empowers customers to manage their own accounts and ordering process.
+:  The Adobe Commerce self-service model provides an [account dashboard]({% link customers/account-dashboard.md %}) that empowers customers to manage their own accounts and ordering process.
 
 Purchase Orders
 :  Allow companies to create purchase orders that can be controlled with company-defined approval rules.

@@ -1,10 +1,12 @@
 ---
 b2b_only: true
-title: Configuring B2B Features
+title: B2B Feature Configuration
 group: getting-started
+redirect_from:
+  - /quick-tour/b2b-quick-start.html
 ---
 
-Each website in your Magento installation can be configured to make available some, or all, of the following B2B features from the storefront.
+With the [installation](https://devdocs.magento.com/extensions/b2b/) and activation of B2B for Adobe Commerce, your installation can be configured to make available some, or all, of the following B2B features from the storefront.
 
 - [Company]({% link customers/account-companies.md %})
 - [Shared Catalog]({% link catalog/catalog-shared.md %})
@@ -16,6 +18,7 @@ Each website in your Magento installation can be configured to make available so
 When support for customer companies is enabled, shared catalogs, negotiable quotes, and default B2B payment methods become available.
 
 By default, all B2B features are initially disabled. However, they are always available from the Admin, regardless of whether they are enabled or disabled for the storefront. For a complete list of B2B configuration settings, see [B2B Configuration Reference]({% link stores/b2b-configuration-settings.md %}).
+
 ## Configure B2B Features
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.

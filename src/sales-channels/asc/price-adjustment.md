@@ -14,7 +14,7 @@ Sections of an intelligent repricing rule include:
 - [Floor Price]({% link sales-channels/asc/floor-price.md %})
 - [Optional Ceiling Price]({% link sales-channels/asc/optional-ceiling-price.md %})
 
-The price adjustment defines the price calculation once you have identified the competitor price source.
+The price adjustment defines the price calculation when you have identified the competitor price source.
 
 ## Configure price adjustment
 

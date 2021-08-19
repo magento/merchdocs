@@ -6,7 +6,7 @@ group: getting-started
 The Store Information section provides the basic information that appears on sales documents and in other communications.
 
 ![General configuration - store information]({% link images/images/config-general-general-store-information.png %}){: .zoom}
-[_Store Information_]({% link configuration/general/general.md %})
+[_Store Information settings_]({% link configuration/general/general.md %})
 
 ## Enter your store information
 

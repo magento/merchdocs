@@ -24,9 +24,9 @@ On the _Admin_ sidebar, go to **Catalog** > **Shared Catalogs**.
 |--- |--- |
 |Select|Selects shared catalog records for an action to be applied. The control in the header can be used to select all or deselect all shared catalog records in the grid. Select the checkbox to select an individual shared catalog.|
 |ID|A unique numeric identifier that is assigned in sequence when the catalog is created.|
-|Name|The name of the shared catalog. By Default, Default(General) shared catalog will be available.|
+|Name|The name of the shared catalog. By Default, Default (General) shared catalog will be available.|
 |Type|Identifies the type of shared catalog as either: <br/>**Public** - The default public shared catalog is created automatically when Magento is installed. It is initially assigned to the `General` and `Not Logged In` customer groups, and is visible to guests and individual logged-in customers who are not associated with a company. The system supports only one public shared catalog at a time. <br/>**Custom** - A custom shared catalog contains pricing that is visible only to logged-in associates of the assigned company account(s). You can create as many custom shared catalogs as you need.|
-|Customer Tax Class|The tax class that is assigned to the corresponding customer group. The Customer Tax Class column does not appear in the default grid, but can be added by changing the [column layout]({% link stores/admin-grid-layout.md %}).|
+|Customer Tax Class|The tax class that is assigned to the corresponding customer group. The Customer Tax Class column does not appear in the default grid, but can be added by changing the [column layout]({% link stores/admin-grid-controls.md %}).|
 |Created At|The date and time the shared catalog was created.|
 |Created By|The first and last name of the store administrator who created the shared catalog.|
 |Action|Lists actions that be applied to selected catalogs. Options: Set Pricing and Structure / Assign Companies / General Settings / Delete|
