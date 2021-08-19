@@ -4,11 +4,11 @@ tag: product-recommendations
 ee_only: true
 ---
 
-The _Conversion rate (purchase)_ recommends products that are most likely to be purchased by using a predicted conversion rate and ranking the eligible products.
+The _Conversion rate (purchase)_ recommends products with the highest purchase conversion rate.
 
 ## How it works
 
-The _Conversion rate (purchase)_ recommendation type calculates the proportion of sessions where the product was viewed and then purchased.
+The _Conversion rate (purchase)_ recommendation type is calculated per product as the proportion of product views that register a subsequent place-order event.
 
 ### Where used
 
