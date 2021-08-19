@@ -28,31 +28,31 @@ When you create a Commerce account, identified by a Commerce ID (MageID), you ca
 
 1. Click **Download** then click **Cancel**.
 
-   The **API Keys** section now displays your API key. You will need both the API key and private key when you [create a SaaS Identifier](#createsaasenv).
+   The **API Keys** section now displays your API key. You will need both the API key and private key when you [select or create a SaaS project](#createsaasenv).
 
-## SaaS projects and identifiers {#saasenv}
+## SaaS identifiers {#saasenv}
 
-Commerce Services are made up of SaaS projects and identifiers. A SaaS project is a grouping of SaaS identifiers. A SaaS identifier defines a data space that is used to collect and store data that enables Commerce Services to work. Some of this data may be exported from Commerce and some may be collected from shopper behavior on the storefront. That data is then persisted to secure cloud storage.
+Commerce Services are made up of SaaS identifiers. A SaaS identifier is a grouping of SaaS projects and data spaces. The data spaces are used to collect and store data that enables Commerce Services to work. Some of this data may be exported from Commerce and some may be collected from shopper behavior on the storefront. That data is then persisted to secure cloud storage.
 
-In the case of Product Recommendations, the SaaS identifier contains catalog and behavioral data. You can point a Commerce instance to a SaaS identifier by [selecting that SaaS data space]({% link configuration/services/saas.md %}) in the Commerce configuration.
+In the case of Product Recommendations, the SaaS data space contains catalog and behavioral data. You can point a Commerce instance to a SaaS data space by [selecting the SaaS project]({% link configuration/services/saas.md %}) that contains that data space in the Commerce configuration.
 
 {:.bs-callout-warning}
-You should use your production SaaS identifier only on your production Commerce installation to avoid data collisions. Otherwise, you risk polluting your production site data with testing data, which will cause deployment delays. For example, your production product data could be mistakenly overwritten from staging data, such as staging URLs.
+You should use your production SaaS project only on your production Commerce installation to avoid data collisions. Otherwise, you risk polluting your production site data with testing data, which will cause deployment delays. For example, your production product data could be mistakenly overwritten from staging data, such as staging URLs.
 
-SaaS identifiers are designed to support multiple different websites, identified by their website codes. Data from the same website gets compiled together and separated from data from other websites. This allows you to reuse one SaaS identifier by multiple Commerce installations, as long as all websites have unique codes specified. Otherwise, you risk overwriting your data for the same website.
+SaaS data spaces are designed to support multiple different websites, identified by their website codes. Data from the same website gets compiled together and separated from data from other websites. This allows you to reuse one SaaS data space by multiple Commerce installations, as long as all websites have unique codes specified. Otherwise, you risk overwriting your data for the same website.
 
-When you create a SaaS project, Commerce generates one or more SaaS identifiers depending on whether or not you have an Adobe Commerce license:
+When you create a SaaS project, Commerce generates one or more SaaS data spaces depending on whether or not you have an Adobe Commerce license:
 
 - **Adobe Commerce** - One production environment; two testing environments
 
 - **Magento Open Source** - One production environment; no testing environments
 
-### Create SaaS Identifiers {#createsaasenv}
+### Select or create SaaS projects {#createsaasenv}
 
 {:.bs-callout-info}
 If you do not see the **Commerce Services Connector** section in the Commerce configuration, you need to install the desired Commerce Service, such as [Product Recommendations]({{ site.devdocs_url }}/recommendations/install-configure.html).
 
-To create a SaaS Identifier, request the Commerce API key from the Commerce license holder for your store.
+To select or create a SaaS project, request the Commerce API key from the Commerce license holder for your store.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -71,11 +71,11 @@ To create a SaaS Identifier, request the Commerce API key from the Commerce lice
 
 1. If there are no SaaS projects created, click **Create Project** to display the **Project Name** field and enter a name for your SaaS project.
 
-   Commerce creates a SaaS project and the number of SaaS identifiers you are entitled to.
+   Commerce creates a SaaS project and the number of SaaS data spaces you are entitled to.
 
 1. Select the **SaaS Data Space** to use for the current configuration of your Commerce store.
 
 {:.bs-callout-warning}
-If you generate new keys in the API Portal section of My Account, immediately update the API keys in the Admin configuration. If you generate new keys and do not update them, your SaaS extensions will no longer work and you will lose valuable data.
+If you generate new keys in the API Portal section of My Account, immediately update the API keys in the Admin configuration. If you generate new keys and do not update them in the Admin, your SaaS extensions will no longer work and you will lose valuable data.
 
-To change the SaaS project or identifier names, click the **Rename this Project** or **Rename this Identifier** respectively.
+To change the SaaS project or data space names, click the **Rename this Project** or **Rename Data Space** respectively.
