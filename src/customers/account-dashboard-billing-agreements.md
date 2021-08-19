@@ -9,7 +9,7 @@ _Billing agreement in customer's dashboard_
 
 ## Create a billing agreement
 
-1. On the customer's dashboard go to **Billing Agreements**. 
+1. On the customer's dashboard go to **Billing Agreements**.
 
 1. Under **New Billing Agreement** Select a payment provider from the drop-down.
 
