@@ -46,6 +46,15 @@ _Configuration - PayPal all-in-one payment solutions_
 
 ## PayPal payment gateways
 
+A payment gateway is an intermediary between customer and bank, it's an electronic payment service that authorizes credit and debit card transactions. Payment gateways are available in online and offline environments. Payments can be accepted by phone, online, or through a mobile app. The transaction is sent to the service provider's processing system and then sent to the customer's bank for verification and confirmation. If verified, the merchant receives the payment without having direct contact with his client's bank account.
+
+There are two types of payment gateways - direct and hosted. 
+
+- Direct payment gateway allows users to enter their card details in the store itself. 
+- Hosted payment gateway redirects user to hosted payment page.
+
+The payment gateway provides security and protection for all parties involved in a transaction.
+
 PayPal offers a choice of two payment gateway solutions for your business. You can let PayPal host your checkout on its secure payment site, or you can take control of the entire payment experience with a completely customizable solution.
 
 - [PayPal Payflow Pro]({% link payment/paypal-payflow-pro.md %})
